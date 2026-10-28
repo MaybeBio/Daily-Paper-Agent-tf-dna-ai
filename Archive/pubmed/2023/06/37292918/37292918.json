@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "37292918",
+    "doi": "10.1101/2023.05.19.541151",
+    "title": "Predicting gene level sensitivity to JAK-STAT signaling perturbation using a mechanistic-to-machine learning framework."
+  },
+  "content": {
+    "abstract": "The JAK-STAT pathway integrates complex cytokine signals via a limited number of molecular components, inspiring numerous efforts to clarify the diversity and specificity of STAT transcription factor function. We developed a computational workflow to make global cytokine-induced gene predictions from STAT phosphorylation dynamics, modeling macrophage responses to IL-6 and IL-10, which signal through common STATs, but with distinct temporal dynamics and contrasting functions. Our mechanistic-to-machine learning model identified select cytokine-induced gene sets associated with late pSTAT3 timeframes and a preferential pSTAT1 reduction upon JAK2 inhibition. We predicted and validated the impact of JAK2 inhibition on gene expression, identifying dynamically regulated genes that were sensitive or insensitive to JAK2 variation. Thus, we successfully linked STAT signaling dynamics to gene expression to support future efforts targeting pathology-associated STAT-driven gene sets. This serves as a first step in developing multi-level prediction models to understand and perturb gene expression outputs from signaling systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheemalavagu, Neha",
+        "Shoger, Karsen E",
+        "Cao, Yuqi M",
+        "Michalides, Brandon A",
+        "Botta, Samuel A",
+        "Faeder, James R",
+        "Gottschalk, Rachel A"
+      ],
+      "short_names": [
+        "Cheemalavagu N",
+        "Shoger KE",
+        "Cao YM",
+        "Michalides BA",
+        "Botta SA",
+        "Faeder JR",
+        "Gottschalk RA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of Pittsburgh, Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA.",
+        "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+        "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheemalavagu, Neha",
+        "short_name": "Cheemalavagu N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Shoger, Karsen E",
+        "short_name": "Shoger KE",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuqi M",
+        "short_name": "Cao YM",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Michalides, Brandon A",
+        "short_name": "Michalides BA",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Botta, Samuel A",
+        "short_name": "Botta SA",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Faeder, James R",
+        "short_name": "Faeder JR",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Gottschalk, Rachel A",
+        "short_name": "Gottschalk RA",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh, Department of Immunology, University of Pittsburgh School of Medicine, University of Pittsburgh, Pittsburgh, PA USA.",
+          "Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 May 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/09 06:42",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37292918",
+      "38198893",
+      "34530865",
+      "10071751",
+      "11032030",
+      "22991927",
+      "10388012",
+      "12504822",
+      "32354727",
+      "35563546",
+      "33202860",
+      "22711165",
+      "16426581",
+      "9766506",
+      "37122731",
+      "22883438",
+      "9685210",
+      "36911202",
+      "17312100",
+      "33165509",
+      "25817464",
+      "9134104",
+      "27531815",
+      "33871355",
+      "10851052",
+      "11110778",
+      "31443172",
+      "31092187",
+      "31455240",
+      "9582023",
+      "28461339",
+      "37446365",
+      "26083490",
+      "22869151",
+      "24058762",
+      "16271517",
+      "9202127",
+      "10340405",
+      "33245005",
+      "25415616",
+      "17764814",
+      "27713312",
+      "26817397",
+      "9716487",
+      "22121102",
+      "21548952",
+      "25084174",
+      "16324217",
+      "27147665",
+      "22676255",
+      "31114509",
+      "35889539",
+      "31718693",
+      "9047382",
+      "24668492",
+      "28576744",
+      "12039028",
+      "14978477",
+      "31539145",
+      "17168672",
+      "11046056",
+      "22018664",
+      "11495699",
+      "33378042",
+      "33942213",
+      "16354768",
+      "30582204",
+      "37372319",
+      "17146444",
+      "29337196",
+      "8628285",
+      "9575217",
+      "22454431",
+      "36262964",
+      "36042480",
+      "8663414",
+      "9558373",
+      "25676437",
+      "27426446",
+      "33741556",
+      "24319264",
+      "31389592",
+      "14985304",
+      "28494922",
+      "30972748",
+      "18790749",
+      "35063833",
+      "32505616",
+      "34055801",
+      "8977235",
+      "31106423",
+      "31652937",
+      "31033209"
+    ],
+    "review": [
+      "37292918",
+      "10071751",
+      "22991927",
+      "33202860",
+      "16426581",
+      "22883438",
+      "36911202",
+      "17312100",
+      "27531815",
+      "10851052",
+      "31443172",
+      "22869151",
+      "24058762",
+      "16271517",
+      "33245005",
+      "25415616",
+      "27713312",
+      "26817397",
+      "9716487",
+      "25084174",
+      "31114509",
+      "35889539",
+      "28576744",
+      "12039028",
+      "17168672",
+      "22018664",
+      "37372319",
+      "25676437",
+      "35063833"
+    ],
+    "pmc": [
+      "10245690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37292918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37292918",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.19.541151",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse231343",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

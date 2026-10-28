@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, data availability, author contributions, funding, acknowledgments) as provided by the requester. Figures, tables, and supplementary materials referenced in the text were not provided.
+- **Assessment boundary** This review assesses the scientific claims, methodological soundness, and evidentiary support based solely on the supplied text. No external data, figures, or supplementary files were examined.
+- **Shared manuscript claim summary** The authors claim that combining AlphaFold2 (AF2) adaptations (shallow MSA subsampling, randomized alanine scanning, AF-cluster) with microsecond molecular dynamics (MD) simulations can accurately characterize conformational ensembles and binding mechanisms of convergent evolution for SARS-CoV-2 Spike Omicron RBD-ACE2 complexes (BA.1, BA.2, BA.2.75, BA.3, BA.4/BA.5, BQ.1.1). They further claim that AF2-generated ensembles yield binding free energies (via MM-GBSA) that correlate strongly with experimental dissociation constants, and that integrating AF2 and MD provides complementary insights into conformational dynamics, binding energetics, and immune evasion.
+- **Visible evidence base** Text descriptions of methods and results, including references to Figures 1–11 and Supporting Information Figures S1–S5 and Tables 1–2. No actual data, numerical values, or figure content were available for verification.
+- **Missing materials affecting confidence** All figures, tables, supplementary information, numerical data (e.g., binding free energies, RMSD distributions, correlation coefficients), simulation parameters, and validation metrics. Without these, quantitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful methodological exploration of AF2-based ensemble generation for SARS-CoV-2 Spike variants, combined with MD simulations and MM-GBSA binding affinity calculations. The conceptual framing around convergent evolution and conformational adaptability is timely. However, the current text is largely descriptive and lacks quantitative detail, making it impossible to evaluate the validity of the central claims. The novelty of the AF2 adaptations is unclear relative to existing literature, and the validation against experimental data is asserted but not demonstrated with actual numbers or statistical measures. The manuscript reads more like a progress report than a fully supported scientific study.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein conformational ensembles, particularly those interested in applying AF2-based methods to capture dynamic states beyond static predictions. Researchers working on SARS-CoV-2 Spike-ACE2 interactions and Omicron variant evolution may also find the comparative analysis of interest, especially the discussion of convergent mutations and their impact on binding and immune evasion.
+- **Major Strengths**  
+  The manuscript addresses an important and current problem: the limitation of AF2 in predicting conformational ensembles rather than single static structures. The combination of multiple AF2 adaptations (shallow MSA, alanine scanning, clustering) with MD simulations is a reasonable strategy to expand conformational sampling. The focus on clinically relevant Omicron variants, including BQ.1.1, and the integration of evolutionary analysis with structural dynamics is commendable. The authors also acknowledge the complementary strengths of AF2 and MD, which is a balanced perspective.
+- **Major Concerns**  
+  - **R1-M1** (Blocking: Yes)  
+    - **Axis** Evidence sufficiency for central claim  
+    - **Claim pointer** The authors claim that "AF2-generated extended conformational ensembles can produce accurate binding energies for the Omicron RBD-ACE2 complexes leading to strong correlations with the experimental dissociation constants."  
+    - **Evidence pointer** Results section "MM-GBSA Analysis of the Binding Affinity Computations for the RBD-ACE2 Complexes"; Figure 11A,B; Table 2  
+    - **Concern** No actual binding free energy values, correlation coefficients, or statistical significance measures are provided in the text. The claim of "excellent agreement" and "strong correlations" is unsupported by any quantitative data. Without these numbers, the reader cannot assess the accuracy or reliability of the MM-GBSA predictions.  
+    - **Why it matters** This is the central quantitative claim of the paper. If the correlation is weak or driven by outliers, the conclusion that AF2 ensembles are useful for binding affinity prediction collapses.  
+    - **Resolution test** Provide the actual computed binding free energies for each variant, the experimental Kd values, the correlation coefficient (e.g., Pearson r) with confidence intervals, and a scatter plot with error bars. Also report the standard deviations across the 1,000 MD snapshots and 100 AF2 conformations.  
+  - **R1-M2** (Blocking: Yes)  
+    - **Axis** Methodological novelty and validation  
+    - **Claim pointer** The authors state they "employed and validated several different adaptations of the AlphaFold methodology for modeling of conformational ensembles including the introduced randomized full sequence scanning."  
+    - **Evidence pointer** Methods section "Protein Structure Modeling Using AF2 Shallow Subsampling Adaptations"; Results section "AF2 Adaptations with Shallow MSA and Randomized Sequence Scanning Enable Predictions of Protein Conformational Ensembles for the Omicron RBD-ACE2 Complexes"  
+    - **Concern** The validation of these AF2 adaptations is not described. How was the "accuracy" of the generated ensembles assessed? The text mentions comparison to experimental structures via RMSD and TM-score, but no numerical results are given. Moreover, the novelty of the randomized alanine scanning approach is not established against prior work (e.g., SPEACH_AF, which is cited but not compared in detail).  
+    - **Why it matters** If the AF2 adaptations are not rigorously validated, the claim that they "can efficiently explore and predict pools of functionally relevant conformational states" is speculative. The field requires clear benchmarks against known experimental ensembles or alternative methods.  
+    - **Resolution test** Provide a systematic comparison of the AF2-generated ensembles against experimental structures (e.g., cryo-EM) for all variants, including RMSD distributions, TM-score distributions, and pLDDT thresholds. Also compare the randomized alanine scanning method against SPEACH_AF and AF-cluster in terms of ensemble diversity and coverage.  
+  - **R1-M3** (Blocking: No)  
+    - **Axis** Interpretive overreach  
+    - **Claim pointer** The authors conclude that "evolution of Omicron variants through acquisition of convergent mutational sites may leverage conformational adaptability and dynamic epistatic couplings between key binding hotspots to maintain and protect high ACE2 affinity while enabling the emergence of ACE2-neutral or partially destabilizing mutations that can modulate immune evasion."  
+    - **Evidence pointer** Results section "MM-GBSA Analysis of the Binding Affinity Computations for the RBD-ACE2 Complexes"; Conclusions  
+    - **Concern** This evolutionary interpretation is speculative and goes beyond the data presented. The study does not directly measure epistasis, evolutionary selection, or immune evasion. The link between computed binding energies and evolutionary trajectories is inferred, not demonstrated.  
+    - **Why it matters** Overinterpretation can mislead readers into thinking the study provides direct evidence for evolutionary mechanisms, when it only offers correlative computational observations.  
+    - **Resolution test** Either temper the language to clearly indicate hypothesis generation, or add explicit analyses (e.g., epistatic network models, evolutionary coupling analysis) that directly test the proposed mechanism.  
+  - **R1-M4** (Blocking: No)  
+    - **Axis** Reproducibility and methodological detail  
+    - **Claim pointer** The methods describe MD simulations, MM-GBSA calculations, and AF2 adaptations, but key parameters are missing.  
+    - **Evidence pointer** Methods section "All-Atom Molecular Dynamics Simulations" and "Binding Free Energy Computations"  
+    - **Concern** The text does not specify the number of independent MD replicates, the force field version details, the equilibration protocol beyond temperature steps, the length of production runs (stated as 1 µs but not whether this is per replicate), the software versions for MM-GBSA, or the specific parameters for the AF2 adaptations (e.g., number of seeds, dropout rates).  
+    - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other groups cannot replicate or build upon the work.  
+    - **Resolution test** Provide a complete methods section with all simulation parameters, software versions, and analysis scripts, or reference a public repository with this information (the Zenodo link is mentioned but not verified).  
+  - **R1-M5** (Blocking: No)  
+    - **Axis** Comparison with existing literature  
+    - **Claim pointer** The authors claim their approach provides "complementarities and potential synergies between AlphaFold predictions of protein conformational ensembles and molecular dynamics simulations."  
+    - **Evidence pointer** Introduction; Results; Conclusions  
+    - **Concern** The manuscript does not quantitatively compare its results with prior computational studies on the same systems. For example, previous MD studies of Omicron RBD-ACE2 binding (e.g., by other groups) are cited but not compared in terms of predicted binding affinities or conformational populations.  
+    - **Why it matters** Without benchmarking against existing results, the added value of the proposed approach is unclear.  
+    - **Resolution test** Add a comparative table or discussion that places the computed binding free energies and conformational features in the context of previously published computational and experimental data.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, first sentence  
+    - **Issue** The phrase "convergent evolution for the SARS-CoV-2 Spike Omicron variants" is grammatically awkward and could be misinterpreted.  
+    - **Required correction** Rephrase to "convergent evolution of SARS-CoV-2 Spike Omicron variants" or similar.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Consistency  
+    - **Affected element** Results section "Atomistic MD Simulations of the XBB RBD-ACE2 ACE2 Complexes"  
+    - **Evidence pointer** Section heading  
+    - **Issue** The heading refers to "XBB" but the study focuses on BA.1, BA.2, BA.2.75, BA.3, BA.4/BA.5, and BQ.1.1. XBB is mentioned in the introduction but not analyzed.  
+    - **Required correction** Correct the heading to reflect the actual variants studied, e.g., "Atomistic MD Simulations of the Omicron RBD-ACE2 Complexes."  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Typographical  
+    - **Affected element** Results section "MM-GBSA Analysis of the Binding Affinity Computations for the RBD-ACE2 Complexes"  
+    - **Evidence pointer** Text: "R346T an K4454T mutations"  
+    - **Issue** Typo: "an" should be "and," and "K4454T" should be "K444T."  
+    - **Required correction** Fix the typo.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Results section "MM-GBSA Analysis of the Binding Affinity Computations for the RBD-ACE2 Complexes"  
+    - **Evidence pointer** Text: "the reversed T346R and T444K modifications become basically neutral in the BQ.1.1 background"  
+    - **Issue** The term "reversed" is unclear. Does it mean reversion to the ancestral residue or a different mutation?  
+    - **Required correction** Clarify the meaning, e.g., "the reversion mutations T346R and T444K."  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Data Availability Statement  
+    - **Evidence pointer** Data Availability Statement  
+    - **Issue** The statement lists software URLs but does not specify which versions were used or how to access the specific analysis scripts.  
+    - **Required correction** Add version numbers and a direct link to the analysis scripts or a DOI for the code.  
+  - **R1-m6**  
+    - **Severity** Minor  
+    - **Axis** Language  
+    - **Affected element** Throughout  
+    - **Evidence pointer** Multiple sections  
+    - **Issue** Several sentences are overly long and convoluted, reducing readability.  
+    - **Required correction** Simplify sentence structures for clarity.  
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Lack of quantitative binding free energy data and correlation statistics.  
+  - R1-M2: Inadequate validation of AF2 adaptations and unclear novelty.  
+  - R1-M4: Insufficient methodological detail for reproducibility.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The combination of AF2 adaptations with MD is not entirely new, and the specific "randomized alanine scanning" approach needs clearer differentiation from existing methods like SPEACH_AF. The application to a panel of Omicron variants is useful but incremental.  
+  - **Scientific importance** Moderate. Understanding conformational ensembles and binding mechanisms of SARS-CoV-2 variants is important, but the study does not yet provide definitive new insights beyond what is already known from experimental structures and prior simulations.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biophysicists and structural biologists. The evolutionary framing may attract virologists, but the technical focus narrows the audience.  
+  - **Technical soundness** Not assessable from the provided text. The methods are described at a high level, and no quantitative results are shown. The lack of validation data and statistical measures prevents an assessment of technical rigor.  
+  - **Readability for nonspecialists** Below average. The text is dense and assumes significant prior knowledge of AF2, MD, and MM-GBSA. The abstract is somewhat accessible but the results section is not.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central quantitative claims are unsupported by the text as provided. Major revisions are required to include actual data, validation metrics, and methodological details before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement" between computed and experimental binding affinities is unsupported without numerical data.
+- The claim that AF2-generated ensembles "can efficiently explore and predict pools of functionally relevant conformational states" is not validated.
+- The evolutionary interpretation regarding convergent mutations and immune evasion is speculative and not directly tested.
+- The statement that "integrating information from both methods can potentially yield a more adequate characterization" is plausible but not demonstrated with comparative analysis.
+- The claim that pLDDT can serve as a "robust indicator of functional conformational ensembles" requires more evidence than a correlation with RMSD.

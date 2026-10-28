@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39778579",
+  "title": "Active learning of enhancers and silencers in the developing neural retina.",
+  "authors": "Friedman, Ryan Z; Ramu, Avinash; Lichtarge, Sara; Wu, Yawei; Tripp, Lloyd; Lyon, Daniel; Myers, Connie A; Granas, David M; Gause, Maria; Corbo, Joseph C; Cohen, Barak A; White, Michael A",
+  "journal": "Cell systems",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用主动学习结合合成生物学和MPRA数据，训练区分增强子/沉默子的CRX转录因子结合位点模型，聚焦TF-DNA调控功能预测，但未涉及三维互作建模或物理模拟，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Deep learning is a promising strategy for modeling cis-regulatory elements. However, models trained on genomic sequences often fail to explain why the same transcription factor can activate or repress transcription in different contexts. To address this limitation, we developed an active learning approach to train models that distinguish between enhancers and silencers composed of binding sites for the photoreceptor transcription factor cone-rod homeobox (CRX). After training the model on nearly all bound CRX sites from the genome, we coupled synthetic biology with uncertainty sampling to generate additional rounds of informative training data. This allowed us to iteratively train models on data from multiple rounds of massively parallel reporter assays. The ability of the resulting models to discriminate between CRX sites with identical sequence but opposite functions establishes active learning as an effective strategy to train models of regulatory DNA. A record of this paper's transparent peer review process is included in the supplemental information.",
+  "abstract_zh": "深度学习是建模顺式调控元件的一种有前景的策略。然而，基于基因组序列训练的模型往往无法解释为何同一转录因子在不同情境下能激活或抑制转录。为解决这一局限，我们开发了一种主动学习方法，用于训练模型区分由感光细胞转录因子锥杆同源盒（CRX）结合位点组成的增强子和沉默子。在利用基因组中几乎所有已结合的CRX位点训练模型后，我们将合成生物学与不确定性采样相结合，生成额外轮次的信息丰富训练数据。这使得我们能够迭代地在多轮大规模平行报告基因分析数据上训练模型。所得模型区分序列相同但功能相反的CRX位点的能力，确立了主动学习作为训练调控DNA模型的有效策略。本论文的透明同行评审过程记录包含在补充信息中。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39778579/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39778579/",
+  "paper_page_path": "papers/pubmed/39778579/index.html"
+}

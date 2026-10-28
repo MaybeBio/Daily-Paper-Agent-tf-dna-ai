@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "38260098",
+    "doi": "10.3389/fphys.2023.1289976",
+    "title": "Identification of mitophagy-related biomarkers in human osteoporosis based on a machine learning model."
+  },
+  "content": {
+    "abstract": "Background: Osteoporosis (OP) is a chronic bone metabolic disease and a serious global public health problem. Several studies have shown that mitophagy plays an important role in bone metabolism disorders; however, its role in osteoporosis remains unclear. Methods: The Gene Expression Omnibus (GEO) database was used to download GSE56815, a dataset containing low and high BMD, and differentially expressed genes (DEGs) were analyzed. Mitochondrial autophagy-related genes (MRG) were downloaded from the existing literature, and highly correlated MRG were screened by bioinformatics methods. The results from both were taken as differentially expressed (DE)-MRG, and Gene Ontology (GO) analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were performed. Protein-protein interaction network (PPI) analysis, support vector machine recursive feature elimination (SVM-RFE), and Boruta method were used to identify DE-MRG. A receiver operating characteristic curve (ROC) was drawn, a nomogram model was constructed to determine its diagnostic value, and a variety of bioinformatics methods were used to verify the relationship between these related genes and OP, including GO and KEGG analysis, IP pathway analysis, and single-sample Gene Set Enrichment Analysis (ssGSEA). In addition, a hub gene-related network was constructed and potential drugs for the treatment of OP were predicted. Finally, the specific genes were verified by real-time quantitative polymerase chain reaction (RT-qPCR). Results: In total, 548 DEGs were identified in the GSE56815 dataset. The weighted gene co-expression network analysis(WGCNA) identified 2291 key module genes, and 91 DE-MRG were obtained by combining the two. The PPI network revealed that the target gene for AKT1 interacted with most proteins. Three MRG (NELFB, SFSWAP, and MAP3K3) were identified as hub genes, with areas under the curve (AUC) 0.75, 0.71, and 0.70, respectively. The nomogram model has high diagnostic value. GO and KEGG analysis showed that ribosome pathway and cellular ribosome pathway may be the pathways regulating the progression of OP. IPA showed that MAP3K3 was associated with six pathways, including GNRH Signaling. The ssGSEA indicated that NELFB was highly correlated with iDCs (cor = -0.390, p < 0.001). The regulatory network showed a complex relationship between miRNA, transcription factor(TF) and hub genes. In addition, 4 drugs such as vinclozolin were predicted to be potential therapeutic drugs for OP. In RT-qPCR verification, the hub gene NELFB was consistent with the results of bioinformatics analysis. Conclusion: Mitophagy plays an important role in the development of osteoporosis. The identification of three mitophagy-related genes may contribute to the early diagnosis, mechanism research and treatment of OP.",
+    "keywords": [
+      "bioinformatics",
+      "biomarker",
+      "differentially expressed genes (DEGs)",
+      "mitophagy",
+      "osteoporosis",
+      "protein-protein interaction (PPI)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Yu",
+        "Yu, Gangying",
+        "Li, Dongchen",
+        "Lu, Yao",
+        "Ren, Cheng",
+        "Xu, Yibo",
+        "Yang, Yanling",
+        "Zhang, Kun",
+        "Ma, Teng",
+        "Li, Zhong"
+      ],
+      "short_names": [
+        "Su Y",
+        "Yu G",
+        "Li D",
+        "Lu Y",
+        "Ren C",
+        "Xu Y",
+        "Yang Y",
+        "Zhang K",
+        "Ma T",
+        "Li Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of International Ward (Orthopedic), Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Basic Medical College of Yan'an University, Yan'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Yu",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Gangying",
+        "short_name": "Yu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of International Ward (Orthopedic), Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongchen",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yao",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Cheng",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yibo",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yanling",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Medical College of Yan'an University, Yan'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Teng",
+        "short_name": "Ma T",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Honghui Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in physiology"
+    ],
+    "journal_abbrev": [
+      "Front Physiol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 12:44",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "41993932",
+      "41824825",
+      "41673584",
+      "41459514",
+      "41458498",
+      "41221285",
+      "40453197",
+      "39099665",
+      "38987779"
+    ],
+    "refs": [
+      "37740786",
+      "37631772",
+      "37464088",
+      "37404624",
+      "37400220",
+      "37335694",
+      "37146925",
+      "37051201",
+      "36858962",
+      "36793284",
+      "36307395",
+      "36203590",
+      "36012730",
+      "35991574",
+      "35780740",
+      "35707461",
+      "35552354",
+      "35441117",
+      "35419360",
+      "35414778",
+      "35409193",
+      "35355555",
+      "35332257",
+      "35163300",
+      "35069454",
+      "35004604",
+      "34940936",
+      "34937577",
+      "34823575",
+      "34698806",
+      "34430595",
+      "34421899",
+      "34198266",
+      "34024716",
+      "33974944",
+      "33891857",
+      "33662874",
+      "33571444",
+      "33327926",
+      "33140889",
+      "33068428",
+      "33053285",
+      "33014734",
+      "32848799",
+      "32792864",
+      "32773051",
+      "32714316",
+      "32622871",
+      "32585503",
+      "32143494",
+      "31835596",
+      "31804494",
+      "31489920",
+      "31449007",
+      "31182739",
+      "31007729",
+      "30951392",
+      "30742114",
+      "30652073",
+      "30402003",
+      "30267101",
+      "30044535",
+      "29762880",
+      "29675022",
+      "29370910",
+      "29179892",
+      "29145611",
+      "29025019",
+      "28293453",
+      "27989543",
+      "27895088",
+      "27838463",
+      "27811843",
+      "26942671",
+      "26808152",
+      "26491867",
+      "26088427",
+      "25841602",
+      "25659073",
+      "25440059",
+      "25432079",
+      "24391519",
+      "24141714",
+      "24132163",
+      "24122835",
+      "23554451",
+      "23268451",
+      "22455463",
+      "21786437",
+      "20808728",
+      "20519335",
+      "20422035",
+      "20194335",
+      "20096396",
+      "19114008",
+      "19081372",
+      "14597658",
+      "14574413",
+      "7063747"
+    ],
+    "similar": [
+      "38260098",
+      "39263286",
+      "35620387",
+      "38650009",
+      "36034449",
+      "37605572",
+      "37361541",
+      "36660690",
+      "37359526",
+      "39403102",
+      "35757392",
+      "37250717",
+      "39364223",
+      "39351239",
+      "36532015",
+      "35958412",
+      "35313524",
+      "36514015",
+      "35280365",
+      "36311708",
+      "38062833",
+      "34622712",
+      "35473522",
+      "36704339",
+      "35558576",
+      "35110962",
+      "36513616",
+      "39375405",
+      "36195955",
+      "39351238",
+      "38509535",
+      "36506310",
+      "34814332",
+      "35709926",
+      "38718074",
+      "38384969",
+      "36470144",
+      "38715824",
+      "36438903",
+      "38291374",
+      "37283588",
+      "31416885",
+      "38637425",
+      "31987036",
+      "35990977",
+      "35278479",
+      "37842511",
+      "38371524",
+      "36213260",
+      "35651615",
+      "38076120",
+      "38951833",
+      "39341981",
+      "31667013",
+      "34536521",
+      "36660246",
+      "28432618",
+      "36582740",
+      "36699262",
+      "35911963",
+      "34555052",
+      "39170142",
+      "36148059",
+      "35151359",
+      "37683138",
+      "35016690",
+      "38414629",
+      "35634481",
+      "39118036",
+      "35938015",
+      "39268370",
+      "36324504",
+      "35562622",
+      "39142001",
+      "36777638",
+      "34852788",
+      "38734758",
+      "38510807",
+      "37622114",
+      "33451334",
+      "36203997",
+      "37008314",
+      "36225941",
+      "35713363",
+      "37743309",
+      "35957838",
+      "38444712",
+      "34384424",
+      "36863716",
+      "36624863",
+      "36969166",
+      "37821907",
+      "37354351",
+      "36468029",
+      "35368701",
+      "36325528",
+      "34218797",
+      "38987624",
+      "37386410",
+      "33767726"
+    ],
+    "review": [
+      "38260098"
+    ],
+    "pmc": [
+      "10800828"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38260098/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38260098",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphys.2023.1289976",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

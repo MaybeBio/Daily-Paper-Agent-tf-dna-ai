@@ -1,0 +1,601 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.05.674445",
+  "title": "DLRNA-BERTa: A transformer approach for RNA-drug binding affinity prediction",
+  "doi": "10.1101/2025.09.05.674445",
+  "abstract": "RNA-based therapies are a rapidly expanding field, offering treatments for a wide range of diseases, including many rare conditions. To date, 24 RNA therapeutics have received FDA approval, with 131 more in clinical trials, underscoring RNA’s growing role in modern medicine. In this context, Bidirectional Encoder Representations from Transformers (BERT) models provide a cost-effective and accurate virtual screening strategy for accelerating RNA-targeted drug discovery. These models take RNA FASTA sequences and compound SMILES strings as inputs and generate predicted binding affinities in nanomolar units. In this study, we introduce DLRNA-BERTa, a RoBERTa-based framework combining RNA-BERTa, pretrained on 9.76 million RNA sequences, with ChemBERTa-v2 for predicting small molecule–RNA interactions. The framework includes six class-specific models, aptamers, repeats, ribosomal RNAs, riboswitches, microRNAs (miRNAs), and viral RNAs, plus a general model for cases where the RNA class is unknown. Proposed DLRNA-BERTa consistently outperforms existing RNA–drug interaction prediction methods. Pearson correlation coefficients achieved are: 0.94 (aptamers), 0.95 (repeats), 0.93 (ribosomal RNAs), 0.94 (riboswitches), 0.95 (viral RNAs), 0.98 (miRNAs), and 0.92 (general model), demonstrating robust performance across RNA classes. Benchmarking against four independent datasets from the ROBIN repository further confirms generalizability. Application of DLRNA-BERTa to 3,492 approved drugs from the ChEMBL database identified 2,859 compounds with predicted affinities (pKd ≥ 6) across 294 RNA targets. As proof of concept, bleomycin is highlighted, supported by literature evidence of RNA-binding activity. A publicly accessible web application is available at https://huggingface.co/spaces/IlPakoZ/DLRNA-BERTa , in alignment with FAIR principles.",
+  "authors": [
+    "Pasquale Lobascio",
+    "Khalid Saeed",
+    "Asifullah Khan",
+    "Ziaurrehman Tanoli"
+  ],
+  "published_date": "2025-09-06",
+  "updated_date": "2025-09-07T06:10:11Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674445",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674445.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:42:17Z",
+        "timestamp": 1785415337926,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            6
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 56,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2025-09-06T00:00:00Z",
+            "timestamp": 1757116800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/05k73zm37",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>RNA-based therapies are a rapidly expanding field, offering treatments for a wide range of diseases, including many rare conditions. To date, 24 RNA therapeutics have received FDA approval, with 131 more in clinical trials, underscoring RNA’s growing role in modern medicine. In this context, Bidirectional Encoder Representations from Transformers (BERT) models provide a cost-effective and accurate virtual screening strategy for accelerating RNA-targeted drug discovery. These models take RNA FASTA sequences and compound SMILES strings as inputs and generate predicted binding affinities in nanomolar units.</jats:p>\n                <jats:p>In this study, we introduce DLRNA-BERTa, a RoBERTa-based framework combining RNA-BERTa, pretrained on 9.76 million RNA sequences, with ChemBERTa-v2 for predicting small molecule–RNA interactions. The framework includes six class-specific models, aptamers, repeats, ribosomal RNAs, riboswitches, microRNAs (miRNAs), and viral RNAs, plus a general model for cases where the RNA class is unknown. Proposed DLRNA-BERTa consistently outperforms existing RNA–drug interaction prediction methods. Pearson correlation coefficients achieved are: 0.94 (aptamers), 0.95 (repeats), 0.93 (ribosomal RNAs), 0.94 (riboswitches), 0.95 (viral RNAs), 0.98 (miRNAs), and 0.92 (general model), demonstrating robust performance across RNA classes. Benchmarking against four independent datasets from the ROBIN repository further confirms generalizability.</jats:p>\n                <jats:p>\n                  Application of DLRNA-BERTa to 3,492 approved drugs from the ChEMBL database identified 2,859 compounds with predicted affinities (pKd ≥ 6) across 294 RNA targets. As proof of concept, bleomycin is highlighted, supported by literature evidence of RNA-binding activity. A publicly accessible web application is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://huggingface.co/spaces/IlPakoZ/DLRNA-BERTa\">https://huggingface.co/spaces/IlPakoZ/DLRNA-BERTa</jats:ext-link>\n                  , in alignment with FAIR principles.\n                </jats:p>",
+      "DOI": "10.1101/2025.09.05.674445",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2025-09-07T06:10:11Z",
+        "timestamp": 1757225411000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DLRNA-BERTa: A transformer approach for RNA-drug binding affinity prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Pasquale",
+          "family": "Lobascio",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Khalid",
+          "family": "Saeed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Asifullah",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ziaurrehman",
+          "family": "Tanoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41419-022-05075-2"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "746",
+          "DOI": "10.3390/ijms24010746",
+          "article-title": "Clinical Pharmacokinetics of Approved RNA Therapeutics",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Int J Mol Sci"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd3625"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2007.03.005"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s12276-022-00757-5"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.6",
+          "unstructured": ". Nucleic Acid Therapeutics: Approvals and Potential Blockbusters. Biopharma PEG 2024;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1007/s40265-025-02166-0",
+          "article-title": "Olezarsen: First Approval",
+          "volume": "85",
+          "year": "2025",
+          "journal-title": "Drugs"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e70169",
+          "DOI": "10.1111/cts.70169",
+          "article-title": "Low Proarrhythmic Risk of Imetelstat, a Novel Oligonucleotide Telomerase Inhibitor: A Translational Analysis",
+          "volume": "18",
+          "year": "2025",
+          "journal-title": "Clin Transl Sci"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "5975",
+          "DOI": "10.1007/s10462-022-10306-1",
+          "article-title": "Deep learning in drug discovery: an integrative review and future challenges",
+          "volume": "56",
+          "year": "2023",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1597",
+          "DOI": "10.1002/wcms.1597",
+          "article-title": "Deep learning for drug repurposing: Methods, databases, and applications",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "WIREs Computational Molecular Science"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "100042",
+          "DOI": "10.1016/j.crchbi.2023.100042",
+          "article-title": "Machine learning for drug repositioning: Recent advances and challenges",
+          "volume": "3",
+          "year": "2023",
+          "journal-title": "Current Research in Chemical Biology"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.10.001"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22041676"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "btae496",
+          "DOI": "10.1093/bioinformatics/btae496",
+          "article-title": "Attention-based approach to predict drug–target interactions across seven target superfamilies",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa880"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1186/s13321-024-00808-1",
+          "article-title": "DLM-DTI: a dual language model for the prediction of drugtarget interaction with hint-based learning",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "648",
+          "DOI": "10.1038/s43588-025-00820-x",
+          "article-title": "RNA–ligand interaction scoring via data perturbation and augmentation modeling",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Nat Comput Sci"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "btae678",
+          "DOI": "10.1093/bioinformatics/btae678",
+          "article-title": "DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "108367",
+          "DOI": "10.1016/j.compbiolchem.2025.108367",
+          "article-title": "The prediction of RNA-small-molecule ligand binding affinity based on geometric deep learning",
+          "volume": "115",
+          "year": "2025",
+          "journal-title": "Computational Biology and Chemistry"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.3390/life15010104",
+          "article-title": "Advances and Mechanisms of RNA–Ligand Interaction Predictions",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Life"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbae002",
+          "DOI": "10.1093/bib/bbae002",
+          "article-title": "Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.22",
+          "unstructured": "Bae H , Nam H. A Deep Learning Approach for RNA-Compound Interaction Prediction with Binding Site Interpretability. 2024;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.23",
+          "unstructured": "Ahmad W , Simon E , Chithrananda S , et al. ChemBERTa-2: Towards Chemical Foundation Models. 2022;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.24",
+          "unstructured": "Yang G , Hu EJ , Babuschkin I , et al. Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer. 2022;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.25",
+          "unstructured": "Hu EJ , Shen Y , Wallis P , et al. LoRA: Low-Rank Adaptation of Large Language Models. 2021;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.26",
+          "unstructured": "Li Y , Yu Y , Liang C , et al. LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models. 2023;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAA921"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1112"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1219"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-421"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.31",
+          "unstructured": "Hoffmann J , Borgeaud S , Mensch A , et al. Training Compute-Optimal Large Language Models. 2022;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.32",
+          "unstructured": "Tao C , Liu Q , Dou L , et al. Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies. 2024;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.33",
+          "unstructured": "Rae JW , Borgeaud S , Cai T , et al. Scaling Language Models: Methods, Analysis & Insights from Training Gopher. 2022;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.34",
+          "unstructured": "Liu Y , Ott M , Goyal N , et al. RoBERTa: A Robustly Optimized BERT Pretraining Approach. 2019;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.35",
+          "unstructured": "Bergstra J , Bardenet R , Bengio Y , et al. Algorithms for Hyper-Parameter Optimization. Advances in Neural Information Processing Systems 2011; 24:"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.36",
+          "unstructured": "Blake C , Eichenberg C , Dean J , et al. u-$μ$P: The Unit-Scaled Maximal Update Parametrization. 2025;"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1186/s13321-018-0258-y",
+          "article-title": "Mordred: a molecular descriptor calculator",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.1038/nchembio.1452",
+          "article-title": "Sequence-based design of bioactive small molecules that target precursor microRNAs",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Nature chemical biology"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0901824106"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.40",
+          "unstructured": "Childs-Disney JL , Hoskins J , Rzuczek SG . Rationally Designed Small Molecules Targeting the RNA That Causes Myotonic Dystrophy Type 1 Are Potently Bioactive | ACS Chemical Biology."
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1019",
+          "DOI": "10.1002/anie.201106455",
+          "article-title": "The Tuberculosis Drug Streptomycin as a Potential Cancer Therapeutic: Inhibition of miR-21 Function by Directly Targeting Its Precursor",
+          "volume": "51",
+          "year": "2012",
+          "journal-title": "Angewandte Chemie International Edition"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.596"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.217"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.med.59.053006.104707"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/physrev.00006.2010"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "809",
+          "DOI": "10.1016/j.trecan.2024.06.006",
+          "article-title": "Small molecules targeting microRNAs: new opportunities and challenges in precision cancer therapy",
+          "volume": "10",
+          "year": "2024",
+          "journal-title": "Trends Cancer"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2022.02.006"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1002/cbic.201700581",
+          "article-title": "Bleomycin Can Cleave an Oncogenic Noncoding RNA",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Chembiochem"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "448",
+          "DOI": "10.1002/(SICI)1521-3773(19990215)38:4<448::AID-ANIE448>3.0.CO;2-W",
+          "article-title": "Bleomycin: Synthetic and Mechanistic Studies",
+          "volume": "38",
+          "year": "1999",
+          "journal-title": "Angewandte Chemie International Edition"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "10639",
+          "DOI": "10.1021/acs.jmedchem.3c00797",
+          "article-title": "Synthesis of Bleomycin-Inspired RNA Ligands Targeting the Biogenesis of Oncogenic miRNAs",
+          "volume": "66",
+          "year": "2023",
+          "journal-title": "J. Med. Chem"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "2385",
+          "DOI": "10.1021/acschembio.3c00363",
+          "article-title": "Altering the Cleaving Effector in Chimeric Molecules that Target RNA Enhances Cellular Selectivity",
+          "volume": "18",
+          "year": "2023",
+          "journal-title": "ACS Chem Biol"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D0CS00560F"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.8b00827"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.9b13159"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "485",
+          "DOI": "10.1021/acschembio.9b00958",
+          "article-title": "Structure-Specific Cleavage of an RNA Repeat Expansion with a Dimeric Small Molecule Is Advantageous over Sequence-Specific Recognition by an Oligonucleotide",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "ACS Chem Biol"
+        },
+        {
+          "key": "2025091011401142000_2025.09.05.674445v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.2251"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.05.674445",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:31:05Z",
+        "timestamp": 1768469465000
+      },
+      "score": 89.4206,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.05.674445"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            6
+          ]
+        ]
+      },
+      "references-count": 56,
+      "URL": "https://doi.org/10.1101/2025.09.05.674445",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

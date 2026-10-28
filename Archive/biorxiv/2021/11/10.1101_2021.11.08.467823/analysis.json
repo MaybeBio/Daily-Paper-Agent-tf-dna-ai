@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.08.467823",
+  "title": "PccGEO: prior constraints conditioned genetic elements optimization",
+  "authors": "Xu H; Zhang P; Wang H; Wei L; Hu Z; Wang X",
+  "journal": "bioRxiv",
+  "published_date": "2021-11-09",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用条件GAN优化启动子侧翼序列以设计功能遗传元件，虽涉及DNA序列与表达调控，但非TF-DNA结合互作建模，方法可迁移至启动子设计，故给5分。",
+  "abstract": "Functional genetic elements are one of the most essential units for synthetic biology. However, both knowledge-driven and data-driven methodology can hardly accomplish the complicated task of genetic elements design efficiently due to the lack of explicit regulatory logics and training samples. Here, we proposed a knowledge-constraint deep learning model named PccGEO to automatically design functional genetic elements with high success rate and efficiency. PccGEO utilized a novel “fill-in-the-flank” strategy with a conditional generative adversarial network structure to optimize the flanking regions of known functional sequences derived from the biological prior knowledge, which can efficiently capture the implicit patterns with a reduced searching space. We applied PccGEO in the design of Escherichia coli promoters, and found that the implicit patterns in flanking regions matter to the properties of promoters such as the expression level. The PccGEO-designed constitutive and inducible promoters showed more than 91.6% chance of success by in vivo validation. We further utilized PccGEO by setting a limited frequency of nucleotide modifications and surprisingly found that the expression level of E. coli sigma 70 promoters could show up to a 159.3-fold increase with only 10-bp nucleotide modifications. The results supported that the implicit patterns are important in the design of functional gene elements and validated the strong capacity of our method in the efficient design of functional genetic elements. <h4>Availability</h4> https://github.com/WangLabTHU/PccGEO",
+  "abstract_zh": "功能遗传元件是合成生物学中最基本的单元之一。然而，由于缺乏明确的调控逻辑和训练样本，知识驱动和数据驱动的方法都难以高效完成遗传元件设计的复杂任务。在此，我们提出了一种名为PccGEO的知识约束深度学习模型，以高成功率和高效性自动设计功能遗传元件。PccGEO利用一种新颖的“填补侧翼”策略，结合条件生成对抗网络结构，优化源自生物先验知识的已知功能序列的侧翼区域，从而在缩减搜索空间的同时高效捕获隐含模式。我们将PccGEO应用于大肠杆菌启动子的设计，并发现侧翼区域中的隐含模式对启动子特性（如表达水平）具有重要影响。经PccGEO设计的组成型和诱导型启动子在体内验证中显示出超过91.6%的成功率。我们进一步利用PccGEO，通过设置有限的核苷酸修饰频率，惊奇地发现大肠杆菌sigma 70启动子的表达水平在仅10-bp核苷酸修饰下可提升高达159.3倍。这些结果支持了隐含模式在功能基因元件设计中的重要性，并验证了我们的方法在高效设计功能遗传元件方面的强大能力。<h4>可用性</h4> https://github.com/WangLabTHU/PccGEO",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.08.467823",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.08.467823",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.08.467823/index.html"
+}

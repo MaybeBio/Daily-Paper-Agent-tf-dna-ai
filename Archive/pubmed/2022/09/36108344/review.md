@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; full manuscript not available for verification
+- **Shared manuscript claim summary** The authors report synthesis and characterization of two platinum(II) complexes with 1,10-phenanthroline and 5-alkyl-1,3,4-oxadiazol-2(3H)-thione derivatives, including X-ray structural analysis of complex 1, in vitro cytotoxicity against MCF-7 and MDA-MB-231 breast cancer cell lines, DNA binding studies with ct-DNA, molecular docking and semiempirical simulations, and flow cytometry analysis of cell death mechanisms for complex 2.
+- **Visible evidence base** Abstract text only; no figures, tables, experimental procedures, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental details, characterization data (NMR, IR, elemental analysis), crystallographic data, cytotoxicity dose-response curves, statistical analyses, DNA binding raw data, docking parameters, and flow cytometry gating strategies
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting set of platinum(II) complexes with a novel ligand combination, and the claim that complex 2 is more active than cisplatin in two breast cancer cell lines is noteworthy. However, the evidence base is limited to the abstract, and several key claims cannot be independently evaluated without the full manuscript. The DNA binding mode conclusion appears to be drawn from indirect evidence, and the relationship between lipophilicity and activity is asserted without quantitative support. The work may be of interest to the bioinorganic chemistry community, but the case for a significant advance over existing platinum-based agents is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, anticancer drug development, and platinum-based chemotherapy would be interested. The combination of 1,10-phenanthroline with sulfur-donor oxadiazole-thione ligands is relatively underexplored, and the reported activity against triple-negative breast cancer cells (MDA-MB-231) is clinically relevant given the limited treatment options for this subtype.
+- **Major strengths** The work combines synthetic chemistry, structural characterization, biological activity assessment, and computational modeling, providing a multidisciplinary approach. The inclusion of X-ray crystallography for complex 1 is a strong structural validation. The comparison with cisplatin, a clinically established drug, is appropriate and clinically meaningful. The use of multiple complementary techniques for DNA binding studies (UV-vis, circular dichroism, fluorescence) is methodologically sound.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "In both cells, the most lipophilic platinum compound, complex 2, was more active than cisplatin"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that complex 2 was more active than cisplatin in both cell lines, but no quantitative data are provided, such as IC50 values, standard deviations, or statistical significance. The claim of "more active" is ambiguous without dose-response curves and appropriate statistical analysis.
+  - **Why it matters** Cytotoxicity comparisons are central to the paper's significance. Without quantitative data, the reader cannot assess the magnitude of the difference, whether it is biologically meaningful, or whether it is statistically robust. This claim is the primary basis for the paper's potential impact.
+  - **Resolution test** Provide IC50 values with standard errors for both complexes and cisplatin in both cell lines, with at least three independent experiments and appropriate statistical tests (e.g., t-test or ANOVA). State the number of replicates and the statistical significance threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "these complexes appear to bind to the DNA in a non-intercalative, probably via minor groove"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The conclusion of minor groove binding is based on circular dichroism and fluorescence spectroscopy, but the abstract does not describe the specific spectral changes observed or how they distinguish minor groove binding from other non-intercalative modes such as external electrostatic binding or major groove binding. The molecular docking results are mentioned as supportive, but docking alone is predictive, not experimental confirmation.
+  - **Why it matters** The DNA binding mode is a key mechanistic claim. If the evidence is insufficient to distinguish among non-intercalative binding modes, the conclusion is overreaching. This matters because the proposed mechanism of action underpins the biological activity claims.
+  - **Resolution test** Provide detailed spectroscopic data (e.g., changes in CD signal intensity and wavelength, fluorescence quenching patterns) and compare with known minor groove binders. Include competitive displacement assays with a known minor groove probe (e.g., Hoechst 33258) or major groove probe (e.g., methyl green). If docking is used, provide validation of the docking protocol and show that the predicted binding pose is consistent with experimental data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support
+  - **Claim pointer** "DNA binding studies indicated that such complexes are able to bind to ct-DNA with K(b) values of 10(4) M(-1)"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The binding constant is reported as a single order of magnitude (10^4 M^-1) without specifying the exact values for each complex, the method used to calculate K(b), or the experimental conditions (e.g., buffer, ionic strength, temperature). The abstract does not state whether the K(b) values for complexes 1 and 2 are statistically different.
+  - **Why it matters** The K(b) value is a quantitative measure of DNA affinity and is used to support the binding mode conclusion. Without precise values and conditions, the reader cannot compare these complexes with other DNA-binding agents or assess the reliability of the measurement.
+  - **Resolution test** Report exact K(b) values with standard errors for each complex, specify the spectroscopic method (e.g., UV-vis absorption titration, fluorescence titration), the fitting model, and the buffer conditions. State whether the values for complexes 1 and 2 differ significantly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ligand nomenclature
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The ligands are described as "5-alkyl-1,3,4-oxadiazole-2-(3H)-thione" but the abstract uses inconsistent naming, referring to "5-heptyl-1,3,4-oxadiazole-2-(3H)-thione" and "5-nonyl-1,3,4-oxadiazole-2-(3H)-thione" in the text. The tautomeric form (thione vs. thiol) is not clarified, which could affect interpretation of the coordination mode.
+  - **Required correction** Use consistent ligand nomenclature throughout and clarify the tautomeric form present in the complexes, ideally with reference to the crystallographic data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cell death mechanism
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that complex 2 induced apoptosis and necrosis in MCF-7 cells, but the proportions of each cell death mode are not reported, and the concentration and time point used for the flow cytometry analysis are not specified.
+  - **Required correction** Provide the percentage of cells in each population (apoptotic, necrotic, viable) and specify the treatment concentration and duration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "molecular docking followed by semiempirical simulations" but does not specify the software, force field, or semiempirical method used, nor the criteria for selecting the best docking poses.
+  - **Required correction** Specify the software packages, parameter settings, and validation procedures for the docking and semiempirical calculations in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative cytotoxicity data missing), R1-M2 (insufficient evidence for minor groove binding mode), R1-M3 (binding constant values and conditions not reported)
+- **Assessment against Nature-style criteria** Originality: The combination of 1,10-phenanthroline with 5-alkyl-1,3,4-oxadiazol-2-thione ligands on platinum(II) is a relatively novel ligand design, but the overall approach of platinum complexes with mixed N,S-donor ligands is well established. Scientific importance: The potential activity against triple-negative breast cancer cells is clinically relevant, but the abstract does not provide sufficient quantitative evidence to establish a significant advance over existing agents. Interdisciplinary readership: The work spans coordination chemistry, biochemistry, and computational chemistry, which could appeal to a broad audience, but the abstract is too brief to convey the depth of each component. Technical soundness: The use of X-ray crystallography and multiple spectroscopic methods is sound, but the lack of quantitative data and methodological details prevents full assessment. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the key claims regarding cytotoxicity and DNA binding mode require quantitative data and methodological details that are not available in the abstract. A full manuscript review would be necessary to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that complex 2 is "more active than cisplatin" in both cell lines is unsupported without IC50 values and statistical analysis.
+- The conclusion of minor groove binding is not fully supported by the evidence described in the abstract; the distinction from other non-intercalative modes is not established.
+- The K(b) values of 10^4 M^-1 are reported without exact numbers, conditions, or error estimates, making the claim unverifiable.
+- The statement that complex 2 induced "apoptosis and necrosis" is not quantified, and the experimental conditions are not specified.
+- The correlation between lipophilicity and activity is asserted but not quantitatively demonstrated.

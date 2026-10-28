@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that wogonoside attenuates podocyte injury in diabetic nephropathy by directly binding to NF-kappaB p65 and modulating a p65-MMP28 transcriptional axis, thereby reducing oxidative stress and inflammation in vivo and in vitro.
+- **Visible evidence base** Abstract text only; no raw data, statistical details, experimental replicates, or methodological parameters are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, statistical analysis details, experimental protocols, and any raw or processed datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting mechanistic story linking a natural compound to a specific signaling axis in diabetic nephropathy. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The identification of p65 as a direct wogonoside target and the proposed p65-MMP28 axis are plausible but require rigorous validation that cannot be assessed from the supplied material. The therapeutic relevance is suggested but not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in nephrology, particularly those focused on diabetic kidney disease and podocyte biology, would find the results relevant. Investigators studying natural product pharmacology and NF-kappaB signaling may also be interested. The potential translational angle for a compound from a traditional herb could attract those working on drug development for chronic kidney disease.
+- **Major strengths** The study combines in vivo and in vitro models, which strengthens the translational relevance. The use of multiple orthogonal techniques to validate the p65-wogonoside interaction, including DARTS-MS, SPR, molecular docking, alanine scanning, and CETSA, suggests a thorough approach. The identification of a specific downstream effector, Mmp28, via RNA-Seq and the confirmation of p65 binding to the Mmp28 promoter with dual-luciferase and ChIP-qPCR provide a mechanistic chain that is logically structured.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that wogonoside reduces oxidative stress and inflammation in vivo and in vitro, and that these effects are mediated via the p65-MMP28 axis.  
+  - **Evidence pointer** Abstract Results section; location not provided  
+  - **Concern** The abstract reports significant reductions in oxidative stress and inflammation but provides no quantitative data, effect sizes, or statistical significance values. The claim that these effects are mediated via the p65-MMP28 axis is based on functional studies, but the nature of these studies, the controls used, and the magnitude of the effects are not described.  
+  - **Why it matters** Without quantitative evidence and statistical support, the central efficacy claim cannot be evaluated. The mechanistic mediation claim requires demonstration that perturbation of the p65-MMP28 axis abolishes or substantially reduces the protective effects, which is not verifiable from the abstract.  
+  - **Resolution test** Provide effect sizes with confidence intervals and p-values for all key comparisons in vivo and in vitro. Show that knockdown or overexpression of p65 or Mmp28 alters the wogonoside response in a manner consistent with the proposed axis, with appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Target validation  
+  - **Claim pointer** The abstract claims that p65 is a direct target of wogonoside with a binding affinity of K(D) = 25.05 muM, and that LYS221 is a critical binding site.  
+  - **Evidence pointer** Abstract Results section; location not provided  
+  - **Concern** The binding affinity is reported as a single value without replicates, error estimates, or comparison to a positive or negative control. The alanine scanning and CETSA experiments are mentioned but not described in sufficient detail to assess whether the K221A mutant specifically disrupts wogonoside binding without affecting p65 stability or function.  
+  - **Why it matters** A direct target claim requires robust biophysical evidence. A single K(D) value and a single mutant phenotype are insufficient to establish specificity, especially for a compound with potential off-target effects. The functional relevance of LYS221 in a cellular context is not demonstrated.  
+  - **Resolution test** Provide replicate SPR measurements with standard deviation, a negative control compound, and a control p65 mutant that does not affect binding. Show that the K221A mutant abrogates wogonoside-mediated effects in cells, not just in vitro binding.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model relevance  
+  - **Claim pointer** The abstract claims that the HFD/STZ-induced DN mouse model and HG-induced MPC-5 cells recapitulate podocyte injury in diabetic nephropathy.  
+  - **Evidence pointer** Abstract Methods section; location not provided  
+  - **Concern** The abstract does not specify the duration of the HFD/STZ protocol, the degree of hyperglycemia, the extent of albuminuria, or the podocyte injury markers assessed. For the in vitro model, the HG concentration and exposure time are not given. Without these parameters, the relevance of the models to human DN cannot be assessed.  
+  - **Why it matters** The translational value of the study depends on the fidelity of the disease models. If the models do not exhibit characteristic features of DN, such as progressive albuminuria and podocyte effacement, the conclusions may not extend to the human condition.  
+  - **Resolution test** Provide detailed model characterization, including blood glucose, body weight, albuminuria, histology, and podocyte-specific markers, with time courses and comparison to appropriate controls.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dose and pharmacokinetics  
+  - **Claim pointer** The abstract implies that wogonoside is a promising therapeutic agent for DN, but no dosing regimen, route of administration, or pharmacokinetic data are provided.  
+  - **Evidence pointer** Abstract Methods and Results sections; location not provided  
+  - **Concern** The abstract does not state the wogonoside doses used in vivo or in vitro, the treatment duration, or whether the compound reached the kidney at concentrations consistent with the reported binding affinity.  
+  - **Why it matters** For a therapeutic claim, the exposure-response relationship is critical. Without dose-response data and evidence of target engagement in vivo, the clinical potential remains speculative.  
+  - **Resolution test** Provide dose-response curves for wogonoside in vivo and in vitro, along with plasma and kidney tissue concentrations, and correlate these with efficacy and target engagement.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract Results section  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The phrase "wogonoside's protective effects on antioxidant and inflammatory pathways are mediated via the p65-MMP28 axis" is vague. It is unclear whether the axis is required for all protective effects or only a subset.  
+  - **Required correction** Specify which specific antioxidant and inflammatory markers are affected and whether the axis mediates all or only some of these effects.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract Methods section  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract mentions "functional studies" without specifying the experimental design, such as whether rescue experiments were performed or what controls were used.  
+  - **Required correction** Describe the functional studies in more detail, including the specific perturbations and the outcome measures.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract Results section  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract does not report any adverse effects of wogonoside treatment in vivo, which is relevant for a therapeutic candidate.  
+  - **Required correction** Include a statement on tolerability or lack of observed toxicity in the animal model.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** Abstract Results section  
+  - **Evidence pointer** Location not provided  
+  - **Issue** No statistical methods are described, and it is unclear how many biological and technical replicates were used.  
+  - **Required correction** State the statistical tests used and the number of replicates for each experiment.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the absence of quantitative evidence, insufficient target validation, and incomplete model characterization, respectively. Without addressing these, the central claims of efficacy and mechanism are not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The abstract suggests a novel compound-target interaction and a new downstream effector, Mmp28, in the context of podocyte injury. This is moderately original, but the NF-kappaB pathway is well studied in DN, and the novelty may be incremental.  
+  - Scientific importance: The potential to identify a new therapeutic agent for DN is important, but the abstract does not provide evidence that wogonoside offers advantages over existing or investigational therapies.  
+  - Interdisciplinary readership: The work spans nephrology, pharmacology, and molecular biology, which could attract a broad audience, but the abstract is too specialized to engage nonspecialists.  
+  - Technical soundness: The use of multiple techniques is commendable, but the lack of quantitative data and statistical detail prevents an assessment of technical rigor.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple techniques and pathways, which limits accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a logical experimental framework, but the absence of quantitative data, detailed methods, and model characterization means the claims cannot be verified. The authors should be encouraged to provide the full manuscript with complete datasets and statistical analyses for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that wogonoside is a "novel therapeutic agent" for DN is unsupported without comparative efficacy data against standard treatments or evidence of clinical relevance.
+- The claim that p65 is a direct target of wogonoside is unsupported by the abstract alone, as the binding affinity is reported without replicates or controls.
+- The claim that the p65-MMP28 axis mediates wogonoside's protective effects is unsupported without detailed functional perturbation data.
+- The claim that the HFD/STZ and HG models recapitulate podocyte injury in DN is unsupported without model characterization data.
+- The claim that wogonoside reduces oxidative stress and inflammation is unsupported without quantitative results and statistical analysis.

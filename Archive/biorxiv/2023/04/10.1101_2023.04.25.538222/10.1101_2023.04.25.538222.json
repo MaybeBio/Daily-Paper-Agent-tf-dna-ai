@@ -1,0 +1,380 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.25.538222",
+  "title": "Competition between transcription and loop extrusion modulates promoter and enhancer dynamics",
+  "doi": "10.1101/2023.04.25.538222",
+  "abstract": "<h4>SUMMARY</h4> The spatiotemporal configuration of genes with distal regulatory elements, and the impact of chromatin mobility on transcription, remain unclear. Loop extrusion is an attractive model for bringing genetic elements together, but how this functionally interacts with transcription is also largely unknown. We combine live tracking of genomic loci and nascent transcripts with molecular dynamics simulations to assess the 4D arrangement of the Sox2 gene and its enhancer, in response to a battery of perturbations. We find that alterations in chromatin mobility, not promoter-enhancer distance, is more informative about transcriptional status. Active elements display more constrained mobility, consistent with confinement within specialized nuclear sites, and alterations in enhancer mobility distinguish poised from transcribing alleles. Strikingly, we find that whereas loop extrusion and transcription factor-mediated clustering contribute to promoter-enhancer proximity, they have antagonistic effects on chromatin dynamics. This provides an experimental framework for the underappreciated role of chromatin dynamics in genome regulation.",
+  "authors": [
+    "Platania A",
+    "Erb C",
+    "Barbieri M",
+    "Molcrette B",
+    "Grandgirard E",
+    "de Kort MA",
+    "Meaburn K",
+    "Taylor T",
+    "Shchuka VM",
+    "Kocanova S",
+    "Monteiro Oliveira G",
+    "Mitchell JA",
+    "Soutoglou E",
+    "Lenstra TL",
+    "Molina N",
+    "Papantonis A",
+    "Bystricky K",
+    "Sexton T"
+  ],
+  "published_date": "2023-04-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.25.538222",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.25.538222.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR650812",
+    "raw_record": {
+      "id": "PPR650812",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR650812"
+        ]
+      },
+      "doi": "10.1101/2023.04.25.538222",
+      "title": "Competition between transcription and loop extrusion modulates promoter and enhancer dynamics",
+      "authorString": "Platania A, Erb C, Barbieri M, Molcrette B, Grandgirard E, de Kort MA, Meaburn K, Taylor T, Shchuka VM, Kocanova S, Monteiro Oliveira G, Mitchell JA, Soutoglou E, Lenstra TL, Molina N, Papantonis A, Bystricky K, Sexton T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Platania A",
+            "lastName": "Platania",
+            "firstName": "Angeliki",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Erb C",
+            "lastName": "Erb",
+            "firstName": "Cathie",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbieri M",
+            "lastName": "Barbieri",
+            "firstName": "Mariano",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Göttingen, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molcrette B",
+            "lastName": "Molcrette",
+            "firstName": "Bastien",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grandgirard E",
+            "lastName": "Grandgirard",
+            "firstName": "Erwan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Kort MA",
+            "lastName": "de Kort",
+            "firstName": "Marit AC",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meaburn K",
+            "lastName": "Meaburn",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Damage and Stability Centre, Sussex University, School of Life Sciences, University of Sussex, Brighton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor T",
+            "lastName": "Taylor",
+            "firstName": "Tiegh",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shchuka VM",
+            "lastName": "Shchuka",
+            "firstName": "Virlana",
+            "initials": "VM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kocanova S",
+            "lastName": "Kocanova",
+            "firstName": "Silvia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Cellular and Developmental Biology unit (MCD), Centre de Biologie Integrative (CBI) University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Monteiro Oliveira G",
+            "lastName": "Monteiro Oliveira",
+            "firstName": "Guilherme",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mitchell JA",
+            "lastName": "Mitchell",
+            "firstName": "Jennifer",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soutoglou E",
+            "lastName": "Soutoglou",
+            "firstName": "Evi",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Damage and Stability Centre, Sussex University, School of Life Sciences, University of Sussex, Brighton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lenstra TL",
+            "lastName": "Lenstra",
+            "firstName": "Tineke",
+            "initials": "TL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molina N",
+            "lastName": "Molina",
+            "firstName": "Nacho",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papantonis A",
+            "lastName": "Papantonis",
+            "firstName": "Argyris",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Göttingen, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bystricky K",
+            "lastName": "Bystricky",
+            "firstName": "Kerstin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Cellular and Developmental Biology unit (MCD), Centre de Biologie Integrative (CBI) University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France"
+                },
+                {
+                  "affiliation": "Institut Universitaire de France (IUF)."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sexton T",
+            "lastName": "Sexton",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>SUMMARY</h4>  The spatiotemporal configuration of genes with distal regulatory elements, and the impact of chromatin mobility on transcription, remain unclear. Loop extrusion is an attractive model for bringing genetic elements together, but how this functionally interacts with transcription is also largely unknown. We combine live tracking of genomic loci and nascent transcripts with molecular dynamics simulations to assess the 4D arrangement of the  Sox2 gene and its enhancer, in response to a battery of perturbations. We find that alterations in chromatin mobility, not promoter-enhancer distance, is more informative about transcriptional status. Active elements display more constrained mobility, consistent with confinement within specialized nuclear sites, and alterations in enhancer mobility distinguish poised from transcribing alleles. Strikingly, we find that whereas loop extrusion and transcription factor-mediated clustering contribute to promoter-enhancer proximity, they have antagonistic effects on chromatin dynamics. This provides an experimental framework for the underappreciated role of chromatin dynamics in genome regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "678624",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/26/2023.04.25.538222.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.25.538222"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR650812"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR650812&type=FILE&fileName=EMS174833-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS174833",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-04-28",
+      "firstPublicationDate": "2023-04-26",
+      "firstIndexDate": "2023-04-28",
+      "fullTextReceivedDate": "2023-05-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

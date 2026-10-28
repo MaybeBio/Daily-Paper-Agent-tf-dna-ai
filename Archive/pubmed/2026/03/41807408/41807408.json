@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "41807408",
+    "doi": "10.1038/s41467-026-70484-2",
+    "title": "Sororin locks the DNA-exit gate of cohesin to preserve sister-chromatid cohesion."
+  },
+  "content": {
+    "abstract": "The cohesin complex mediates sister-chromatid cohesion by topologically entrapping DNA within an SMC1-SMC3-RAD21 ring, yet how Sororin preserves cohesion beyond its known role of antagonizing Pds5 binding to the release factor Wapl has remained unclear. Here, we show that the extreme C-terminal region (CTR) of Sororin functions as a direct structural lock for cohesin's DNA-exit gate by engaging the RAD21-SMC3 interface. Centromere-tethered Sororin-CTR fully restores cohesion after Sororin depletion, whereas constitutive chromatin tethering prevents cohesin removal, recapitulating Wapl-loss phenotypes, including impaired mitotic chromosome condensation, decatenation and segregation. Through biochemical reconstitution, AlphaFold3-guided modeling, and targeted mutagenesis, we define conserved hydrophobic and electrostatic contacts between Sororin-CTR and the RAD21-SMC3 gate, the disruption of which abolishes cohesion in a Wapl-dependent manner. Furthermore, mitotic phosphorylation of Sororin selectively disrupts Pds5 binding while leaving gate engagement intact, providing a regulated molecular switch for cohesin release. Together, these findings redefine Sororin as a dual-function regulator that both antagonizes Wapl-Pds5 and directly locks the RAD21-SMC3 exit gate to stabilize sister-chromatid cohesion while permitting its timely dissolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics/chemistry",
+      "*Cell Cycle Proteins/metabolism/genetics/chemistry",
+      "Cohesins",
+      "*Chromatids/metabolism",
+      "Nuclear Proteins/metabolism/genetics",
+      "Phosphoproteins/metabolism/genetics",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics/chemistry",
+      "Humans",
+      "Phosphorylation",
+      "*DNA/metabolism",
+      "Mitosis",
+      "Proto-Oncogene Proteins/metabolism/genetics",
+      "Chromosome Segregation",
+      "Protein Binding",
+      "Centromere/metabolism",
+      "Carrier Proteins",
+      "DNA-Binding Proteins",
+      "Chondroitin Sulfate Proteoglycans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qinfu",
+        "Yuan, Xueying",
+        "Shi, Miao",
+        "Zhou, Xinyu",
+        "Zhu, Shukai",
+        "Lu, Weiguo",
+        "Yan, Haiyan",
+        "Wang, Fangwei"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Yuan X",
+        "Shi M",
+        "Zhou X",
+        "Zhu S",
+        "Lu W",
+        "Yan H",
+        "Wang F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2620-7360",
+        "ORCID: 0000-0003-2062-7145",
+        "ORCID: 0009-0000-4778-7902",
+        "ORCID: 0000-0001-5617-282X"
+      ],
+      "affiliations": [
+        "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+        "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+        "School of Medicine, Hangzhou City University, Hangzhou, China.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+        "School of Medicine, Hangzhou City University, Hangzhou, China. yanhy@hzcu.edu.cn.",
+        "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+        "Zhejiang Key Laboratory of Geriatrics, Affiliated Zhejiang Hospital, School of Medicine, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+        "State Key Laboratory of Transvascular Implantation Devices, Hangzhou, China. fwwang@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qinfu",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Xueying",
+        "short_name": "Yuan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+          "School of Medicine, Hangzhou City University, Hangzhou, China.",
+          "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Miao",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xinyu",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0000-0003-2620-7360"
+        ],
+        "affiliations": [
+          "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shukai",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Weiguo",
+        "short_name": "Lu W",
+        "identifiers": [
+          "0000-0003-2062-7145"
+        ],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Haiyan",
+        "short_name": "Yan H",
+        "identifiers": [
+          "0009-0000-4778-7902"
+        ],
+        "affiliations": [
+          "School of Medicine, Hangzhou City University, Hangzhou, China. yanhy@hzcu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Fangwei",
+        "short_name": "Wang F",
+        "identifiers": [
+          "0000-0001-5617-282X"
+        ],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+          "MOE Laboratory of Biosystems Homeostasis & Protection, Life Sciences Institute, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+          "Zhejiang Key Laboratory of Geriatrics, Affiliated Zhejiang Hospital, School of Medicine, Zhejiang University, Hangzhou, China. fwwang@zju.edu.cn.",
+          "State Key Laboratory of Transvascular Implantation Devices, Hangzhou, China. fwwang@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:57",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42443518"
+    ],
+    "refs": [
+      "40437074",
+      "40208986",
+      "40132551",
+      "40118039",
+      "40011778",
+      "39827577",
+      "39271794",
+      "39251741",
+      "39075192",
+      "38830897",
+      "38714893",
+      "38452070",
+      "37975572",
+      "37231112",
+      "32768407",
+      "32636455",
+      "32514055",
+      "32028528",
+      "32027339",
+      "31879348",
+      "31868888",
+      "31780627",
+      "31753851",
+      "31577909",
+      "31421907",
+      "30201721",
+      "29932904",
+      "29930102",
+      "29920258",
+      "28847955",
+      "28483815",
+      "27872142",
+      "27791135",
+      "26971492",
+      "26923598",
+      "26903600",
+      "26895426",
+      "26687354",
+      "26051894",
+      "25608232",
+      "25414306",
+      "25414305",
+      "25313959",
+      "25220052",
+      "25173175",
+      "24854081",
+      "24141881",
+      "24055153",
+      "23975099",
+      "23901111",
+      "23776448",
+      "23361318",
+      "23340528",
+      "23242214",
+      "23043155",
+      "22901742",
+      "21987589",
+      "21878504",
+      "21115494",
+      "21111234",
+      "21059905",
+      "20929775",
+      "20705815",
+      "20705812",
+      "19696148",
+      "19458616",
+      "19328069",
+      "18653894",
+      "18653893",
+      "18614053",
+      "18235444",
+      "18219272",
+      "18003702",
+      "17349791",
+      "17113138",
+      "17112726",
+      "17081975",
+      "17081288",
+      "16580887",
+      "16541025",
+      "16541024",
+      "15866179",
+      "15837422",
+      "15242616",
+      "11081627",
+      "10403247",
+      "9649503",
+      "9335334",
+      "9335333"
+    ],
+    "similar": [
+      "41807408",
+      "29724914",
+      "23242214",
+      "23901111",
+      "25173175",
+      "25414306",
+      "25220052",
+      "29138236",
+      "26971492",
+      "39110738",
+      "21111234",
+      "42120045",
+      "39271794",
+      "26903600",
+      "28220956",
+      "22580470",
+      "23043155",
+      "41261216",
+      "26051894",
+      "25608232",
+      "21876002",
+      "20818333",
+      "24055156",
+      "29447171",
+      "21115494",
+      "35708277",
+      "21878504",
+      "17349791",
+      "31516082",
+      "24963665",
+      "22832223",
+      "23878248",
+      "23874961",
+      "23361318",
+      "19696148",
+      "38830897",
+      "30368549",
+      "19328069",
+      "40437074",
+      "40730158",
+      "22901742",
+      "17112726",
+      "23334284",
+      "21987589",
+      "22912589",
+      "23219725",
+      "11137006",
+      "29735656",
+      "37975572",
+      "20634189",
+      "27797072",
+      "26895426",
+      "30523151",
+      "28343965",
+      "32312753",
+      "22885700",
+      "11276426",
+      "23776203",
+      "31204999",
+      "31935221",
+      "24992337",
+      "42018406",
+      "15855230",
+      "38714893",
+      "24141881",
+      "28438891",
+      "29917110",
+      "19907496",
+      "31757807",
+      "37702151",
+      "27072133",
+      "26299517",
+      "28050734",
+      "16510521",
+      "24291789",
+      "24055153",
+      "25872375",
+      "17113138",
+      "32032532",
+      "25748820",
+      "29846129",
+      "28343969",
+      "38452070",
+      "20404544",
+      "20404533",
+      "20436296",
+      "15031719",
+      "29768402",
+      "22751501",
+      "19450529",
+      "11861765",
+      "40961936",
+      "12654244",
+      "27226485",
+      "34259632",
+      "32084359",
+      "23975099",
+      "12759374",
+      "19075111",
+      "29383807"
+    ],
+    "review": [
+      "41807408",
+      "28220956",
+      "22580470",
+      "23043155",
+      "31516082"
+    ],
+    "pmc": [
+      "12976308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70484-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41807408/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1006",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

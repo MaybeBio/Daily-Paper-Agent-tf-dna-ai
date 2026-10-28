@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report biophysical analyses and structures of the dimerisation and DNA-binding domains of DR2539 from *Deinococcus radiodurans* in holo-form and in complex with a 21 base pair pseudo-palindromic repeat from the *dr1709* promoter. They claim eight manganese binding sites per dimer induce conformational changes required for DNA binding, identify Tyr59 and helix alpha3 as key DNA interaction determinants, and propose a solution-state model from small-angle X-ray scattering and AlphaFold showing metal-induced conformational changes.
+- **Visible evidence base** Abstract text only; no structural coordinates, scattering data, binding assays, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, crystallographic or cryo-EM statistics, SAXS data and fits, AlphaFold confidence metrics, sequence alignments, and any quantitative binding or activation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to understanding metal-dependent transcriptional regulation in a radiation-resistant bacterium. The combination of structural and biophysical approaches is appropriate and the focus on a less-studied manganese sensor addresses a relevant gap. However, the abstract alone provides insufficient detail to evaluate the robustness of the key claims, particularly the number and functional relevance of the eight manganese binding sites, the specificity of the DNA interaction, and the validity of the solution-state model. The work is likely of interest to specialists in metalloregulation and bacterial stress responses, but the evidence base available here does not permit a full assessment of technical soundness.
+- **Who would be interested in the results, and why** Researchers studying metal homeostasis and metalloregulatory proteins, particularly those interested in manganese-dependent gene regulation; structural biologists working on transcription factor DNA recognition; and investigators focused on oxidative stress resistance mechanisms in bacteria, given the role of manganese in *D. radiodurans* radiation survival.
+- **Major strengths** The study addresses a mechanistically important and undercharacterized system. The combination of crystallography, SAXS, and AlphaFold modeling is a modern and potentially powerful approach. The identification of specific residues and structural elements involved in DNA recognition provides a concrete basis for follow-up mutagenesis studies.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The dimer presents eight manganese binding sites that induce structural conformations essential for DNA binding.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that eight manganese binding sites per dimer induce conformations essential for DNA binding, but no quantitative data are presented to support the stoichiometry, occupancy, or functional necessity of these sites. It is unclear whether all eight sites are occupied under physiological conditions, whether they bind with similar affinities, and whether each site contributes equally to the conformational change.  
+  - **Why it matters** The central mechanistic claim of the paper rests on the functional relevance of these eight sites. Without occupancy or mutagenesis data, the claim that all eight sites are essential is not established. Overinterpretation of metal site stoichiometry from a single structure is a common pitfall.  
+  - **Resolution test** Provide metal occupancy refinement data, metal binding titrations (e.g., isothermal titration calorimetry or inductively coupled plasma mass spectrometry), and mutagenesis of at least a subset of the eight sites with functional readouts such as DNA binding affinity or transcriptional activity.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The analysis of the protein-DNA interfaces elucidates the significance of Tyr59 and helix alpha3 sequence in the interaction with the DNA.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract claims that Tyr59 and helix alpha3 are significant for DNA interaction, but no supporting data are shown. It is not stated whether this significance is inferred solely from the structure or validated by mutagenesis, binding assays, or sequence conservation analysis. The term "elucidates" implies a level of mechanistic proof that the abstract does not substantiate.  
+  - **Why it matters** Identifying specific determinants of DNA recognition is a key contribution of the study. If the claim rests only on structural observation, it is a hypothesis rather than an established finding. Overstating the significance of a single residue without functional validation weakens the paper's conclusions.  
+  - **Resolution test** Provide mutagenesis data for Tyr59 and helix alpha3 residues with quantitative DNA binding measurements, or clearly frame these as structural observations requiring further validation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The structure in solution as determined by small-angle X-ray scattering experiments and supported by AlphaFold modeling provides a model illustrating the conformational changes induced upon metal binding.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that SAXS and AlphaFold provide a model of conformational changes, but no details are given on the quality of the SAXS data, the fitting of the model to the scattering profiles, or the confidence of the AlphaFold predictions. It is also unclear whether the SAXS experiments were performed in the presence and absence of metal ions to directly demonstrate the conformational change.  
+  - **Why it matters** SAXS is a low-resolution technique and AlphaFold provides predictions rather than experimental structures. The claim of a conformational change model requires evidence that the solution-state data distinguish between the apo and holo forms and that the AlphaFold model is consistent with the SAXS envelope.  
+  - **Resolution test** Show SAXS profiles with fits, normalized spatial discrepancy or chi-squared values, and a direct comparison of apo versus holo states. Provide AlphaFold confidence metrics and a superposition of the AlphaFold model with the SAXS envelope.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "holo-form" is used without specifying which metal or metals are bound. Given the title refers to manganese, this is likely manganese, but the abstract should state this explicitly.  
+  - **Required correction** Specify "manganese-bound form" or equivalent.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Structural coverage  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that the structure covers the dimerisation and DNA-binding domains, but the ancillary domain is not addressed. It is unclear whether the ancillary domain was excluded from the construct or was not resolved.  
+  - **Required correction** Clarify whether the ancillary domain was included in the construct and, if so, whether it was resolved in the structure.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Functional relevance  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state whether the DNA binding affinity or specificity was measured quantitatively, which would strengthen the claim that the identified interactions are functionally relevant.  
+  - **Required correction** Add a brief statement on whether DNA binding was quantified and, if so, what affinity or specificity was observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the stoichiometry and functional necessity of the eight metal binding sites, the functional significance of Tyr59 and helix alpha3, or the validity of the solution-state conformational model.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The system is understudied and the manganese-dependent mechanism is distinct from more common zinc or iron sensors, so the work has potential originality.  
+  - **Scientific importance** The role of manganese in oxidative stress resistance in *D. radiodurans* is biologically significant, but the broader impact beyond this organism is not established from the abstract.  
+  - **Interdisciplinary readership** The topic is likely to appeal to structural biologists, microbiologists, and metalloprotein researchers, but the abstract does not frame the findings in a way that would attract a wider audience.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The claims require scrutiny of the structural and biophysical data.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses domain-specific terminology without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting study, but the key mechanistic claims are not supported by the visible evidence. A full assessment requires access to the complete manuscript, including structural statistics, binding data, and SAXS analysis. If those data are robust, the work could be a solid contribution to the field, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim of eight manganese binding sites per dimer is unsupported without occupancy or titration data.
+- The claim that these sites induce conformations "essential" for DNA binding is unsupported without functional validation.
+- The significance of Tyr59 and helix alpha3 is unsupported without mutagenesis or quantitative binding data.
+- The solution-state model from SAXS and AlphaFold is not assessable without data quality metrics and direct apo versus holo comparisons.
+- The functional relevance of the *dr1709* promoter interaction is not established without expression or regulatory data.

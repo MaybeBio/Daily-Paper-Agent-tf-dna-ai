@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "42283098",
+    "doi": "10.1155/mi/1451740",
+    "title": "Immune Infiltration-Related Genes as Potential Biomarkers and Predicted Targets for Renal Allograft Delayed Graft Function and Survival Outcome: An Integrated Machine Learning Approach and Drugs Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemia-reperfusion injury (IRI) significantly impacts post-kidney transplantation (KTx), leading to delayed graft function (DGF) and potential graft loss. Current biomarkers and therapies for DGF and graft survival are inadequate. Immune cell infiltration after renal IRI is crucial in driving inflammation and injury. METHODS: To address this, this study utilized microarray and RNA-seq datasets from the Gene Expression Omnibus (GEO) database to identify differentially expressed immune infiltration-related genes (DE-IRGs) in IRI patients. Machine learning (ML) algorithms pinpointed hub DE-IRGs, aiding in predictive model development and classification of post-KTx IRI samples into clusters and risk groups. Regulatory networks incorporating transcription factors (TFs) and microRNAs (miRNAs) were constructed using NetworkAnalyst 3.0, and predicted compounds/commonly used immunosuppressants were explored via Enrichr and molecular docking simulations. RESULTS: Analysis revealed 47 DE-IRGs, with hub genes (adrenomedullin [ADM], Serpin Family H Member 1 [SERPINH1], Solute carrier family 2 member 3 [SLC2A3], BCL-2-associated athanogene 3 [BAG3], NFKB inhibitor alpha [NFKBIA], Kruppel-like factor 6 [KLF6], and CCAAT/enhancer-binding protein delta [CEBPD]) linked to DGF and, in part, graft survival. Predictive models showed robust performance based on internal validation, with the DGF models achieving AUCs of 0.832 and 0.975 and graft survival models showing AUCs of 0.773, 0.742, and 0.757 for 1, 2, and 3 years, respectively. Higher immune cell infiltration correlated with adverse outcomes in cluster A or high-risk groups. Key immune cells associated with DGF included activated CD8 T cells, activated dendritic cells (DCs), and effector memory CD4 T cells. Core regulatory TFs and miRNAs were identified, along with four core predicted compounds: acetaminophen, estradiol, valproic acid, and berbamine (which require further pharmacological validation), and three common immunosuppressants: cyclosporin A, mycophenolate mofetil (MMF), and tacrolimus. CONCLUSIONS: Our study identified potential hub genes most associated with immune cells during the post-KTx IRI process, shedding light on the intricate interplay between genes, immune cells, and KTx outcomes.",
+    "keywords": [
+      "biomarkers",
+      "delayed graft function",
+      "drug prediction",
+      "immune cell infiltration",
+      "ischemia-reperfusion injury",
+      "kidney transplant",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Kidney Transplantation",
+      "Humans",
+      "*Machine Learning",
+      "*Biomarkers/metabolism",
+      "*Delayed Graft Function/genetics/immunology/metabolism",
+      "MicroRNAs/metabolism/genetics",
+      "Reperfusion Injury/genetics/metabolism",
+      "Graft Survival",
+      "Molecular Docking Simulation",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yifei",
+        "Li, Yuqing",
+        "Qiu, Xuemeng",
+        "Wu, Jiyue",
+        "Bi, Qing",
+        "Cao, Peng",
+        "Zhang, Jiandong",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Li Y",
+        "Qiu X",
+        "Wu J",
+        "Bi Q",
+        "Cao P",
+        "Zhang J",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-5299-828X",
+        "ORCID: 0000-0002-9058-3216",
+        "ORCID: 0000-0003-0862-9164",
+        "ORCID: 0000-0001-8715-8756",
+        "ORCID: 0000-0002-5472-1212",
+        "ORCID: 0000-0002-1512-6445",
+        "ORCID: 0000-0002-3042-2381",
+        "ORCID: 0000-0003-2642-3338"
+      ],
+      "affiliations": [
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn.",
+        "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+        "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yifei",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0003-5299-828X"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Yuqing",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-9058-3216"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xuemeng",
+        "short_name": "Qiu X",
+        "identifiers": [
+          "0000-0003-0862-9164"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiyue",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0001-8715-8756"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bi, Qing",
+        "short_name": "Bi Q",
+        "identifiers": [
+          "0000-0002-5472-1212"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Peng",
+        "short_name": "Cao P",
+        "identifiers": [
+          "0000-0002-1512-6445"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiandong",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-3042-2381"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0003-2642-3338"
+        ],
+        "affiliations": [
+          "Department of Urology, Beijing Chao-Yang Hospital, Capital Medical University, Chaoyang District, Beijing, 100020, China, ccmu.edu.cn.",
+          "Institute of Urology, Capital Medical University, Fengtai District, Beijing, 100071, China, ccmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:39",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38508093",
+      "38330015",
+      "38297320",
+      "38246582",
+      "38022595",
+      "37633475",
+      "37463911",
+      "37380761",
+      "37275548",
+      "36780342",
+      "36641979",
+      "36370105",
+      "36300620",
+      "36077705",
+      "35958317",
+      "35703788",
+      "35657627",
+      "35654248",
+      "35532553",
+      "35316657",
+      "35281024",
+      "35108057",
+      "35058967",
+      "35046131",
+      "34874841",
+      "34665258",
+      "34664327",
+      "34557778",
+      "34452851",
+      "34434197",
+      "34285231",
+      "34282331",
+      "34278794",
+      "34276676",
+      "34265844",
+      "34129840",
+      "34093544",
+      "34067829",
+      "33780170",
+      "33675321",
+      "33432228",
+      "33370502",
+      "33087345",
+      "33061855",
+      "32530943",
+      "32436821",
+      "32385075",
+      "32366908",
+      "32342133",
+      "32287042",
+      "32184393",
+      "32147003",
+      "32053570",
+      "31510660",
+      "31487867",
+      "31452319",
+      "31315923",
+      "31028762",
+      "30981567",
+      "30931480",
+      "30662001",
+      "30626577",
+      "30094915",
+      "29960018",
+      "29762458",
+      "29637714",
+      "29541787",
+      "29520277",
+      "29514693",
+      "29436517",
+      "29425488",
+      "29398595",
+      "29314286",
+      "29165871",
+      "29158945",
+      "28596416",
+      "28478517",
+      "28322199",
+      "27350943",
+      "27195290",
+      "27141961",
+      "27037866",
+      "26759047",
+      "26752290",
+      "26614272",
+      "26577854",
+      "26425553",
+      "26179902",
+      "25990557",
+      "25777665",
+      "25591788",
+      "25427168",
+      "25331787",
+      "25250647",
+      "25071722",
+      "24768519",
+      "24522494",
+      "24385430",
+      "24335382",
+      "23566221",
+      "22745272",
+      "22006509",
+      "21906257",
+      "21317839",
+      "20971983",
+      "20883559",
+      "20800573",
+      "20661255",
+      "20642691",
+      "20573162",
+      "20501945",
+      "20427518",
+      "19656143",
+      "19499576",
+      "19302050",
+      "19270711",
+      "19103734",
+      "17974966",
+      "17311071",
+      "16242456",
+      "15389572",
+      "14632445",
+      "10727549",
+      "10592235",
+      "10537110",
+      "9507907",
+      "7832839"
+    ],
+    "similar": [
+      "42283098",
+      "40770395",
+      "36532016",
+      "37275548",
+      "40086342",
+      "39549926",
+      "40147738",
+      "41947228",
+      "41756296",
+      "41205031",
+      "38815767",
+      "35658960",
+      "37033969",
+      "40624201",
+      "41200199",
+      "37965311",
+      "39632251",
+      "41080156",
+      "39265082",
+      "41678948",
+      "41013727",
+      "39074415",
+      "39715172",
+      "39096939",
+      "42243611",
+      "40374866",
+      "41479901",
+      "39664334",
+      "35211472",
+      "40151199",
+      "39512836",
+      "42158856",
+      "39346628",
+      "41052072",
+      "26425877",
+      "38690269",
+      "39600181",
+      "38957433",
+      "39263286",
+      "38266883",
+      "41468372",
+      "35202801",
+      "42236612",
+      "39139563",
+      "38867322",
+      "38863714",
+      "39697326",
+      "36627660",
+      "41432483",
+      "40119397",
+      "41535570",
+      "40914702",
+      "42123445",
+      "39304842",
+      "41316541",
+      "39442187",
+      "42074514",
+      "41769389",
+      "38493695",
+      "41878449",
+      "39324174",
+      "41044520",
+      "40216809",
+      "41146237",
+      "42015036",
+      "38163575",
+      "41145553",
+      "41703488",
+      "38951833",
+      "39069636",
+      "42123756",
+      "39308866",
+      "24335382",
+      "41080564",
+      "40830558",
+      "40491449",
+      "41436831",
+      "34557203",
+      "40977739",
+      "40406126",
+      "39375405",
+      "39251231",
+      "41781900",
+      "37511062",
+      "41733593",
+      "41136974",
+      "39391879",
+      "39602449",
+      "38935114",
+      "40496861",
+      "39142001",
+      "41234537",
+      "37105441",
+      "42537010",
+      "38329418",
+      "42061206",
+      "37652362",
+      "38979743",
+      "40538538",
+      "40196107"
+    ],
+    "review": [
+      "42283098",
+      "38979743"
+    ],
+    "pmc": [
+      "13261374"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneytransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42283098/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/1451740",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

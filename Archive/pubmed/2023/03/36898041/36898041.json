@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "36898041",
+    "doi": "10.1021/acs.analchem.2c04416",
+    "title": "Mass Spectrometry Imaging Reveals Early Metabolic Priming of Cell Lineage in Differentiating Human-Induced Pluripotent Stem Cells."
+  },
+  "content": {
+    "abstract": "Induced pluripotent stem cells (iPSCs) hold great promise in regenerative medicine; however, few algorithms of quality control at the earliest stages of differentiation have been established. Despite lipids having known functions in cell signaling, their role in pluripotency maintenance and lineage specification is underexplored. We investigated the changes in iPSC lipid profiles during the initial loss of pluripotency over the course of spontaneous differentiation using the co-registration of confocal microscopy and matrix-assisted laser desorption/ionization (MALDI) mass spectrometry imaging. We identified phosphatidylethanolamine (PE) and phosphatidylinositol (PI) species that are highly informative of the temporal stage of differentiation and can reveal iPS cell lineage bifurcation occurring metabolically. Several PI species emerged from the machine learning analysis of MS data as the early metabolic markers of pluripotency loss, preceding changes in the pluripotency transcription factor Oct4. The manipulation of phospholipids via PI 3-kinase inhibition during differentiation manifested in the spatial reorganization of the iPS cell colony and elevated expression of NCAM-1. In addition, the continuous inhibition of phosphatidylethanolamine N-methyltransferase during differentiation resulted in the enhanced maintenance of pluripotency. Our machine learning analysis highlights the predictive power of lipidomic metrics for evaluating the early lineage specification in the initial stages of spontaneous iPSC differentiation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Induced Pluripotent Stem Cells",
+      "Cell Lineage",
+      "Cell Differentiation",
+      "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nikitina, Arina A",
+        "Van Grouw, Alexandria",
+        "Roysam, Tanya",
+        "Huang, Danning",
+        "Fernandez, Facundo M",
+        "Kemp, Melissa L"
+      ],
+      "short_names": [
+        "Nikitina AA",
+        "Van Grouw A",
+        "Roysam T",
+        "Huang D",
+        "Fernandez FM",
+        "Kemp ML"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8391-7521",
+        "ORCID: 0000-0002-0302-2534",
+        "ORCID: 0000-0003-3781-8802"
+      ],
+      "affiliations": [
+        "School of Biological Sciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+        "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+        "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia 30332, United States.",
+        "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+        "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+        "Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+        "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia 30332, United States.",
+        "Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nikitina, Arina A",
+        "short_name": "Nikitina AA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+        ]
+      },
+      {
+        "full_name": "Van Grouw, Alexandria",
+        "short_name": "Van Grouw A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+        ]
+      },
+      {
+        "full_name": "Roysam, Tanya",
+        "short_name": "Roysam T",
+        "identifiers": [],
+        "affiliations": [
+          "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia 30332, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Danning",
+        "short_name": "Huang D",
+        "identifiers": [
+          "0000-0002-8391-7521"
+        ],
+        "affiliations": [
+          "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+        ]
+      },
+      {
+        "full_name": "Fernández, Facundo M",
+        "short_name": "Fernández FM",
+        "identifiers": [
+          "0000-0002-0302-2534"
+        ],
+        "affiliations": [
+          "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States.",
+          "Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+        ]
+      },
+      {
+        "full_name": "Kemp, Melissa L",
+        "short_name": "Kemp ML",
+        "identifiers": [
+          "0000-0003-3781-8802"
+        ],
+        "affiliations": [
+          "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia 30332, United States.",
+          "Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, Atlanta, Georgia 30332, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical chemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Chem"
+    ],
+    "pub_date": "2023 Mar 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/11 06:00",
+    "fetched_at": "2026-09-28 21:16:04"
+  },
+  "links": {
+    "cites": [
+      "42039576",
+      "42006472",
+      "39907635",
+      "39106040",
+      "37877781",
+      "37269305"
+    ],
+    "refs": [
+      "34843066",
+      "34522725",
+      "32176489",
+      "31842328",
+      "31391546",
+      "30794069",
+      "30205750",
+      "29740580",
+      "29025705",
+      "28858313",
+      "28839272",
+      "28368043",
+      "28296613",
+      "28189491",
+      "27815610",
+      "27723741",
+      "27636107",
+      "27477285",
+      "27320042",
+      "26571212",
+      "22645348",
+      "21703251",
+      "19398226",
+      "18035408"
+    ],
+    "similar": [
+      "36898041",
+      "27815610",
+      "30316806",
+      "25586786",
+      "25465724",
+      "22088171",
+      "24832604",
+      "33667549",
+      "25198120",
+      "23197756",
+      "26378261",
+      "24910449",
+      "26117529",
+      "30518391",
+      "31287022",
+      "32176489",
+      "26184691",
+      "23623802",
+      "24802033",
+      "19688839",
+      "24311783",
+      "34013645",
+      "24898298",
+      "22378611",
+      "24578376",
+      "23769173",
+      "35575836",
+      "21296877",
+      "22970157",
+      "24095709",
+      "31248457",
+      "30239859",
+      "34719702",
+      "32115407",
+      "19890402",
+      "26771353",
+      "21283513",
+      "21732815",
+      "32311348",
+      "24356225",
+      "30153084",
+      "36012540",
+      "27398408",
+      "25687297",
+      "31596624",
+      "22247014",
+      "25401462",
+      "17068183",
+      "32042022",
+      "33400835",
+      "34530397",
+      "35053163",
+      "34121033",
+      "27569862",
+      "25889179",
+      "19736564",
+      "29523190",
+      "32150692",
+      "25840413",
+      "24256943",
+      "21443752",
+      "23643470",
+      "29312817",
+      "27591478",
+      "20432258",
+      "28287872",
+      "21761573",
+      "21207217",
+      "23717621",
+      "27615126",
+      "30787270",
+      "33454005",
+      "33749897",
+      "29205106",
+      "25907774",
+      "31877913",
+      "22889305",
+      "30943410",
+      "24172903",
+      "27846905",
+      "29633433",
+      "30025541",
+      "26621590",
+      "25460606",
+      "33937260",
+      "27206577",
+      "21135032",
+      "31228130",
+      "22530853",
+      "21210760",
+      "33130086",
+      "32233339",
+      "27636107",
+      "23615220",
+      "20517198",
+      "21956927"
+    ],
+    "review": [
+      "36898041",
+      "24832604",
+      "24910449",
+      "23623802",
+      "24095709",
+      "22247014",
+      "23643470",
+      "21207217",
+      "27615126",
+      "33749897",
+      "31228130",
+      "21210760"
+    ],
+    "pmc": [
+      "10034746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.analchem.2c04416",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36898041/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36898041",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NCAM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3846",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancham/article-lookup/doi/10.1021/acs.analchem.2c04416",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

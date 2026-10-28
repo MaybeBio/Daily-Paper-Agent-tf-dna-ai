@@ -1,0 +1,311 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.29.560264",
+  "title": "NanoBERTa-ASP: Predicting Nanobody Binding Epitopes Based on a Pretrained RoBERTa Model",
+  "doi": "10.1101/2023.09.29.560264",
+  "abstract": "Nanobodies, also known as VHH or single-domain antibodies, are a unique class of antibodies that consist only of heavy chains and lack light chains. Nanobodies possess the advantages of both small molecule drugs and conventional antibodies, making them a promising class of therapeutic biopharmaceuticals. Studying the characteristics of nanobody sequences can aid the development and design of nanobodies. An important challenge in this field is accurately predicting the binding sites between nanobodies and antigens. The binding site is the region where the nanobody interacts with the antigen. The precise prediction of these binding sites is crucial for comprehending the interaction mechanism between the nanobody and the antigen, facilitating the design of effective nanobodies, as well as gaining valuable insights into the properties of nanobodies. Nanobodies typically have smaller and more flexible binding sites than traditional antibodies, however predictive models trained on traditional antibodies may not be suitable for nanobodies. Moreover, the limited availability of antibodyderived nanobody datasets for deep learning poses challenges in constructing highly accurate predictive models that can generalize well to unseen data. To address these challenges, we propose a novel nanobody prediction model, named NanoBERTa-ASP (Antibody Specificity Prediction), which is specifically designed for predicting nanobody-antigen binding sites. The model adopts a training strategy more suitable for nanobodies by leveraging an advanced natural language processing (NLP) model called BERT (Bidirectional Encoder Representations from Transformers). The model also utilizes a masked language modeling approach to learn the contextual information of the nanobody sequence and predict its binding site. The results obtained from training NanoBERTa-ASP on nanobodies highlight its exceptional performance in Precision and AUC, underscoring its proficiency in capturing sequence information specific to nanobodies and accurately predicting their binding sites. Furthermore, our model can provide insights into the interaction mechanisms between nanobodies and antigens, contributing to a better understanding of nanobodies, as well as accelerating the development and design of nanobodies with potential therapeutic applications. To the best of our knowledge, NanoBERTa-ASP is the first nanobody language model that achieved high accuracy in predicting the binding sites. Github repository https://github.com/WangLabforComputationalBiology/NanoBERTa-ASP",
+  "authors": [
+    "Shangru Li",
+    "Xiangpeng Meng",
+    "Rui Li",
+    "Bingding Huang",
+    "Xin Wang"
+  ],
+  "published_date": "2023-10-02",
+  "updated_date": "2023-10-02T20:00:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.29.560264",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.29.560264.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2026-04-13T05:34:05Z",
+        "timestamp": 1776058445716,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 15,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Nanobodies, also known as VHH or single-domain antibodies, are a unique class of antibodies that consist only of heavy chains and lack light chains. Nanobodies possess the advantages of both small molecule drugs and conventional antibodies, making them a promising class of therapeutic biopharmaceuticals. Studying the characteristics of nanobody sequences can aid the development and design of nanobodies. An important challenge in this field is accurately predicting the binding sites between nanobodies and antigens. The binding site is the region where the nanobody interacts with the antigen. The precise prediction of these binding sites is crucial for comprehending the interaction mechanism between the nanobody and the antigen, facilitating the design of effective nanobodies, as well as gaining valuable insights into the properties of nanobodies.</jats:p>\n                <jats:p>Nanobodies typically have smaller and more flexible binding sites than traditional antibodies, however predictive models trained on traditional antibodies may not be suitable for nanobodies. Moreover, the limited availability of antibodyderived nanobody datasets for deep learning poses challenges in constructing highly accurate predictive models that can generalize well to unseen data.</jats:p>\n                <jats:p>To address these challenges, we propose a novel nanobody prediction model, named NanoBERTa-ASP (Antibody Specificity Prediction), which is specifically designed for predicting nanobody-antigen binding sites. The model adopts a training strategy more suitable for nanobodies by leveraging an advanced natural language processing (NLP) model called BERT (Bidirectional Encoder Representations from Transformers). The model also utilizes a masked language modeling approach to learn the contextual information of the nanobody sequence and predict its binding site.</jats:p>\n                <jats:p>The results obtained from training NanoBERTa-ASP on nanobodies highlight its exceptional performance in Precision and AUC, underscoring its proficiency in capturing sequence information specific to nanobodies and accurately predicting their binding sites. Furthermore, our model can provide insights into the interaction mechanisms between nanobodies and antigens, contributing to a better understanding of nanobodies, as well as accelerating the development and design of nanobodies with potential therapeutic applications. To the best of our knowledge, NanoBERTa-ASP is the first nanobody language model that achieved high accuracy in predicting the binding sites.</jats:p>\n                <jats:sec>\n                  <jats:title>Github repository</jats:title>\n                  <jats:p>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/WangLabforComputationalBiology/NanoBERTa-ASP\">https://github.com/WangLabforComputationalBiology/NanoBERTa-ASP</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.09.29.560264",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2023-10-02T20:00:19Z",
+        "timestamp": 1696276819000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "NanoBERTa-ASP: Predicting Nanobody Binding Epitopes Based on a Pretrained RoBERTa Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Shangru",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiangpeng",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bingding",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8866-5223",
+          "authenticated-orcid": false,
+          "given": "Xin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/363446a0"
+        },
+        {
+          "issue": "6",
+          "key": "2023100900500682000_2023.09.29.560264v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1013",
+          "DOI": "10.2217/nnm.13.86",
+          "article-title": "Nanobodies and their potential applications",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "Nanomed"
+        },
+        {
+          "issue": "1",
+          "key": "2023100900500682000_2023.09.29.560264v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1007/s40259-019-00392-z",
+          "article-title": "The therapeutic potential of nanobodies",
+          "volume": "34",
+          "year": "2020",
+          "journal-title": "BioDrugs"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chiu ML , Goulet DR , Teplyakov A , Gilliland GL . Antibody Structure and Function: The Basis for Engineering Therapeutics. Antibodies. 2019",
+          "DOI": "10.3390/antib8040055"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "issue": "2",
+          "key": "2023100900500682000_2023.09.29.560264v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "100406",
+          "DOI": "10.1016/j.patter.2021.100406",
+          "article-title": "Antibody structure prediction using interpretable deep learning",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "Patterns"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.7",
+          "unstructured": "Liu Y , Ott M , Goyal N , et al. Roberta: A robustly optimized bert pretraining approach[J]. arXiv preprint arXiv:1907.11692, 2019."
+        },
+        {
+          "issue": "8",
+          "key": "2023100900500682000_2023.09.29.560264v1.8",
+          "first-page": "2502",
+          "article-title": "Observed Antibody Space: A Resource for Data Mining Next-Generation Sequencing of Antibody Repertoires",
+          "volume": "201",
+          "year": "2018",
+          "journal-title": "J Immunol 15 October"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2015.12.004"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1000232107"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.12",
+          "unstructured": "Kohavi, R. (1995). A study of cross-validation and bootstrap for accuracy estimation and model selection. Proceedings of the 14th International Joint Conference on Artificial Intelligence, 1137–1145."
+        },
+        {
+          "issue": "17",
+          "key": "2023100900500682000_2023.09.29.560264v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "2944",
+          "DOI": "10.1093/bioinformatics/bty305",
+          "article-title": "Parapred: antibody paratope prediction using convolutional and recurrent neural networks",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac732"
+        },
+        {
+          "key": "2023100900500682000_2023.09.29.560264v1.15",
+          "unstructured": "ProtTrans: Towards Cracking the Language of Life’s Code Through Self-Supervised Deep Learning and High Performance Computing. Ahmed Elnaggar , Michael Heinzinger , Christian Dallago , Ghalia Rehawi , Yu Wang , Llion Jones , Tom Gibbs , Tamas Feher , Christoph Angerer , Martin Steinegger , Debsindhu Bhowmik , Burkhard Rost .bioRxiv 2020.07.12.199554."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.29.560264",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:19:15Z",
+        "timestamp": 1768454355000
+      },
+      "score": 87.33213,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.29.560264"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ]
+      },
+      "references-count": 15,
+      "URL": "https://doi.org/10.1101/2023.09.29.560264",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

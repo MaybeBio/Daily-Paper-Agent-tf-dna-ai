@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "42378398",
+    "doi": "10.1093/bib/bbag347",
+    "title": "STED: flexible cross-modal topic modeling infers cell-type-specific regulatory landscapes from bulk epigenomics."
+  },
+  "content": {
+    "abstract": "Deciphering cell-type-specific epigenetic landscapes within heterogeneous tissues is restricted by the sparsity, high cost, and limited throughput of current single-cell epigenomic technologies. To bridge the gap between massive legacy bulk epigenomic data and cellular resolution, we present STED (Single-cell Topic modeling and Epigenetic deconvolution), a flexible computational framework that reconstructs cell-type-specific regulatory signals by leveraging single-cell transcriptomic references. Methodologically, STED introduces a versatile topic modeling architecture: users can employ the information-theoretic correlation explanation algorithm to robustly mitigate transcriptomic sparsity, or innovatively adapt BERTopic-a large language model-based framework-to capture high-dimensional semantic cellular states. STED couples these latent regulatory topics with a physics-based \"gene activity score\" transformation, which acts as a cross-modal bridge to deconvolve bulk chromatin accessibility (ATAC-seq) and histone modification (ChIP-seq/CUT&Tag) profiles. Extensive benchmarking across diverse datasets-including human peripheral blood mononuclear cells (PBMCs), mouse brain, and zebrafish inner ear-demonstrates that STED significantly outperforms existing rigid-reference tools in accuracy and robustness against cross-platform batch effects. In a hematopoietic stem cell differentiation model, STED successfully identifies cell-type-specific transcription factor binding motifs and differential peaks associated with lineage commitment. We further demonstrate STED's biological utility by uncovering tumor-specific super-enhancers in colorectal cancer-a mechanism obscured in bulk signals. STED thus provides a scalable, foundation-model-empowered solution for dissecting gene regulatory networks in complex tissues.",
+    "keywords": [
+      "cell-type-specific signals",
+      "cross-modal prediction",
+      "deconvolution",
+      "epigenomics",
+      "topic modeling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Epigenomics/methods",
+      "Mice",
+      "Algorithms",
+      "*Epigenesis, Genetic",
+      "*Software",
+      "Zebrafish",
+      "Leukocytes, Mononuclear/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Yunxi",
+        "Zhao, Dongyu"
+      ],
+      "short_names": [
+        "Liao Y",
+        "Zhao D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7384-7865"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University, 38 Xueyuan Road, 100191 Beijing, China.",
+        "State Key Laboratory of Vascular Homeostasis and Remodeling, Peking University, 38 Xueyuan Road, 100191 Beijing, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University, 38 Xueyuan Road, 100191 Beijing, China.",
+        "State Key Laboratory of Vascular Homeostasis and Remodeling, Peking University, 38 Xueyuan Road, 100191 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Yunxi",
+        "short_name": "Liao Y",
+        "identifiers": [
+          "0000-0002-7384-7865"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University, 38 Xueyuan Road, 100191 Beijing, China.",
+          "State Key Laboratory of Vascular Homeostasis and Remodeling, Peking University, 38 Xueyuan Road, 100191 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dongyu",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University, 38 Xueyuan Road, 100191 Beijing, China.",
+          "State Key Laboratory of Vascular Homeostasis and Remodeling, Peking University, 38 Xueyuan Road, 100191 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 May 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/30 22:37",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41270791",
+      "40472028",
+      "39383060",
+      "37821906",
+      "37470668",
+      "36253360",
+      "36212030",
+      "35668082",
+      "34765994",
+      "33846645",
+      "33633365",
+      "32547592",
+      "32451460",
+      "32398875",
+      "30675018",
+      "30078726"
+    ],
+    "similar": [
+      "42378398",
+      "41731605",
+      "40097444",
+      "41887797",
+      "39987573",
+      "39210544",
+      "39513632",
+      "33177523",
+      "41883144",
+      "42475469",
+      "33191916",
+      "32029221",
+      "41922764",
+      "30758828",
+      "35195064",
+      "41296545",
+      "29907088",
+      "39956806",
+      "28100166",
+      "23510235",
+      "41655240",
+      "39326643",
+      "40760451",
+      "41932342",
+      "29807547",
+      "39724385",
+      "40577680",
+      "41609358",
+      "30962623",
+      "39803441",
+      "24096080",
+      "42444608",
+      "36902216",
+      "39294558",
+      "31235917",
+      "31266464",
+      "38867193",
+      "40581357",
+      "41000685",
+      "40011786",
+      "39255248",
+      "31672653",
+      "28605501",
+      "27639379",
+      "37249868",
+      "29030344",
+      "32398051",
+      "41643202",
+      "42234579",
+      "40999099",
+      "41927920",
+      "32883324",
+      "34635154",
+      "40931195",
+      "41766646",
+      "39696471",
+      "42560939",
+      "40702585",
+      "26575220",
+      "41236480",
+      "41588477",
+      "37294468",
+      "41408042",
+      "41580083",
+      "26635396",
+      "26206277",
+      "33326110",
+      "38982642",
+      "31925417",
+      "37183449",
+      "41735542",
+      "42086551",
+      "26480823",
+      "42007519",
+      "34001209",
+      "38730185",
+      "37685859",
+      "29706549",
+      "38653489",
+      "37249867",
+      "41535307",
+      "36929072",
+      "40291712",
+      "36973557",
+      "41833256",
+      "39823522",
+      "35976093",
+      "41300707",
+      "41831316",
+      "28122230",
+      "41659532",
+      "39881144",
+      "42106409",
+      "42114111",
+      "31739806",
+      "41667720",
+      "31175825",
+      "36777038",
+      "33153500",
+      "35475224"
+    ],
+    "review": [
+      "42378398",
+      "41609358",
+      "39255248"
+    ],
+    "pmc": [
+      "13317755"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42378398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag347",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

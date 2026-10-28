@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41914077",
+    "doi": "10.4103/NRR.NRR-D-25-00080",
+    "title": "Integrative bulk and single-cell transcriptome analyses reveal RNA modification-related biomarkers of spinal cord injury."
+  },
+  "content": {
+    "abstract": "Aberrant RNA modification has been linked to the pathogenesis of various diseases; however, its specific molecular mechanisms in spinal cord injury remain poorly understood. The objective of this study was to explore RNA modification-related biomarkers of spinal cord injury. The mRNA expression profiles of mice with spinal cord injury were retrieved from the Gene Expression Omnibus (GEO) database (GSE18179). We identified 185 differentially expressed genes using bioinformatics approaches. Functional enrichment analysis demonstrated aberrant activation or inhibition of common metabolism-related pathways, including sulfur metabolism and steroid biosynthesis, in mice with spinal cord injury. An integrated strategy comprising weighted gene co-expression network analysis, a random forest model, a support vector machine model, and a generalized linear model was employed to identify four genes whose aberrant RNA modification was linked to spinal cord injury: Elovl6, Idi1, Sqle, and Stbd1. We verified the expression levels and diagnostic performance of these four genes in the original training dataset and mouse samples via receiver operating characteristic curve analysis. Quantitative reverse transcription-polymerase chain reaction demonstrated variations in the mRNA levels of the four genes between the Sham and spinal cord injury groups at different time points following injury. We also constructed microRNA-mRNA and transcription factor-mRNA interaction networks using Cytoscape. Additionally, we evaluated the proportions of 22 types of immune cells in the spinal cords of mice using the CIBERSORT tool, revealing significant alterations in the numbers of memory B cells, resting dendritic cells, M0 macrophages, activated mast cells, resting mast cells, and CD8(+) T cells in spinal cord injury mice compared with Sham controls. Microglia and T cells were identified as key cell types by single-cell sequencing analysis. These findings provide new directions for the development of RNA modification-related therapeutic strategies for spinal cord injury and suggest that Elovl6, Idi1, Sqle, and Stbd1 are potential biomarkers of spinal cord injury.",
+    "keywords": [
+      "RNA modification",
+      "RNA sequencing",
+      "biomarkers",
+      "machine learning",
+      "microRNA-mRNA (miRNA-mRNA) network",
+      "single-cell sequencing analysis",
+      "spinal cord injury",
+      "transcription factor-mRNA network",
+      "weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Shixue",
+        "Jiao, Kun",
+        "Li, Keqing",
+        "Yuan, Jiayan",
+        "Shu, Haoming",
+        "Zhang, Yinuo",
+        "Zhou, Xin",
+        "Zhou, Xuhui"
+      ],
+      "short_names": [
+        "Huang S",
+        "Jiao K",
+        "Li K",
+        "Yuan J",
+        "Shu H",
+        "Zhang Y",
+        "Zhou X",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-0935-3995",
+        "ORCID: 0009-0002-6399-931"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Nursing, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China.",
+        "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Shixue",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Kun",
+        "short_name": "Jiao K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Keqing",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Jiayan",
+        "short_name": "Yuan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Haoming",
+        "short_name": "Shu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yinuo",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xin",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0009-0007-0935-3995"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xuhui",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0009-0002-6399-931"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Changzheng Hospital, The Second Affiliated Hospital of Naval Medical University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neural regeneration research"
+    ],
+    "journal_abbrev": [
+      "Neural Regen Res"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/31 06:59",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [
+      "42458478",
+      "42036521"
+    ],
+    "refs": [
+      "40082231",
+      "40075712",
+      "40074019",
+      "40069489",
+      "40049089",
+      "39987653",
+      "39885668",
+      "39848465",
+      "39675554",
+      "39633047",
+      "39630361",
+      "39592582",
+      "39486461",
+      "39401062",
+      "39381066",
+      "39356764",
+      "39332515",
+      "39315967",
+      "39245197",
+      "39232158",
+      "39103807",
+      "39080336",
+      "39033842",
+      "38960276",
+      "38934400",
+      "38887853",
+      "38601045",
+      "38528832",
+      "38456457",
+      "38455553",
+      "38243019",
+      "38040794",
+      "37891374",
+      "37884527",
+      "37818175",
+      "37496062",
+      "37435888",
+      "37435067",
+      "37401082",
+      "37357239",
+      "37161548",
+      "37149868",
+      "37130013",
+      "37027294",
+      "36750527",
+      "36551192",
+      "36463959",
+      "36452243",
+      "36374259",
+      "36248764",
+      "36231064",
+      "36169237",
+      "35832093",
+      "35792382",
+      "35751589",
+      "35691532",
+      "35654138",
+      "35609983",
+      "35504882",
+      "35232960",
+      "34906773",
+      "34766109",
+      "34742349",
+      "34417326",
+      "34375779",
+      "34132743",
+      "34062119",
+      "33967695",
+      "33844153",
+      "33745920",
+      "33597522",
+      "33301807",
+      "33292072",
+      "33237311",
+      "33151290",
+      "32941799",
+      "32907876",
+      "32484539",
+      "32466098",
+      "32360125",
+      "32300195",
+      "32299393",
+      "32080625",
+      "31999650",
+      "31908016",
+      "31504780",
+      "31444938",
+      "31433109",
+      "31093678",
+      "30975169",
+      "30959174",
+      "30771786",
+      "30096314",
+      "29912587",
+      "29443965",
+      "28821567",
+      "28573592",
+      "28123428",
+      "27535911",
+      "26927660",
+      "26771021",
+      "26631474",
+      "25936407",
+      "25605792",
+      "25063298",
+      "24658644",
+      "23937229",
+      "23884949",
+      "23238710",
+      "22455463",
+      "21817094",
+      "21781963",
+      "21673720",
+      "21414208",
+      "21269502",
+      "21069421",
+      "20233968",
+      "19259639",
+      "19239894",
+      "19114008",
+      "16199517",
+      "14597658"
+    ],
+    "similar": [
+      "41914077",
+      "38595290",
+      "39799354",
+      "41816342",
+      "41733593",
+      "39104165",
+      "33863336",
+      "39026663",
+      "40914702",
+      "40782934",
+      "41975603",
+      "42074521",
+      "42435052",
+      "41459503",
+      "41388523",
+      "40742465",
+      "41200169",
+      "41425595",
+      "40967560",
+      "41878449",
+      "42233387",
+      "40936758",
+      "39923303",
+      "34880956",
+      "41773227",
+      "40300424",
+      "41006377",
+      "41009952",
+      "42024670",
+      "39647286",
+      "40124361",
+      "42458112",
+      "42502801",
+      "32030954",
+      "41601694",
+      "39944372",
+      "41000385",
+      "40948769",
+      "41287009",
+      "36217035",
+      "41153430",
+      "42265520",
+      "42519304",
+      "40929847",
+      "41810912",
+      "41673791",
+      "33642393",
+      "37965330",
+      "38178349",
+      "42106542",
+      "39888480",
+      "37391825",
+      "41008561",
+      "39391879",
+      "42166074",
+      "31004080",
+      "39558055",
+      "41858622",
+      "27534535",
+      "41246299",
+      "42212140",
+      "36819574",
+      "39612968",
+      "39953122",
+      "34268365",
+      "39218784",
+      "37990533",
+      "39317554",
+      "42292364",
+      "35634321",
+      "32468009",
+      "42037113",
+      "40659785",
+      "41276708",
+      "42059276",
+      "34535590",
+      "34858969",
+      "42305536",
+      "39793853",
+      "40520228",
+      "40540299",
+      "40892227",
+      "38670301",
+      "40630963",
+      "42391245",
+      "39238649",
+      "42196184",
+      "40589764",
+      "39136807",
+      "41706425",
+      "42565562",
+      "41905994",
+      "42265416",
+      "42280204",
+      "37868904",
+      "41656416",
+      "41033661",
+      "41855688",
+      "38579562",
+      "34301176"
+    ],
+    "review": [
+      "41914077",
+      "39944372"
+    ],
+    "pmc": [
+      "13379046"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41914077/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.4103/NRR.NRR-D-25-00080",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

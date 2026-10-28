@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "35597802",
+    "doi": "10.1038/s41598-022-12464-2",
+    "title": "Stress-induced despair behavior develops independently of the Ahr-RORgammat axis in CD4 + cells."
+  },
+  "content": {
+    "abstract": "Current treatments for major depressive disorder are limited to neuropharmacological approaches and are ineffective for large numbers of patients. Recently, alternative means have been explored to understand the etiology of depression. Specifically, changes in the microbiome and immune system have been observed in both clinical settings and in mouse models. As such, microbial supplements and probiotics have become a target for potential therapeutics. A current hypothesis for the mechanism of action of these supplements is via the aryl hydrocarbon receptor's (Ahr) modulation of the T helper 17 cell (Th17) and T regulatory cell axis. As inflammatory RORgammat + CD4 + Th17 T cells and their primary cytokine IL-17 have been implicated in the development of stress-induced depression, the connection between stress, the Ahr, Th17s and depression remains critical to understanding mood disorders. Here, we utilize genetic knockouts to examine the role of the microbial sensor Ahr in the development of stressinduced despair behavior. We observe an Ahr-independent increase in gut-associated Th17s in stressed mice, indicating that the Ahr is not responsible for this communication. Further, we utilized a CD4-specific RAR Related Orphan Receptor C (Rorc) knockout line to disrupt the production of Th17s. Mice lacking Rorc-produced IL-17 did not show any differences in behavior before or after stress when compared to controls. Finally, we utilize an unsupervised machine learning system to examine minute differences in behavior that could not be observed by traditional behavioral assays. Our data demonstrate that neither CD4 specific Ahr nor Rorc are necessary for the development of stress-induced anxiety- or depressive-like behaviors. These data suggest that research approaches should focus on other sources or sites of IL-17 production in stress-induced depression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "CD4-Positive T-Lymphocytes",
+      "*Major Depressive Disorder/metabolism",
+      "Humans",
+      "Interleukin-17/metabolism",
+      "Mice",
+      "*Nuclear Receptor Subfamily 1, Group F, Member 3/metabolism",
+      "Receptors, Aryl Hydrocarbon/metabolism",
+      "Th17 Cells"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rivet-Noor, Courtney R",
+        "Merchak, Andrea R",
+        "Li, Sihan",
+        "Beiter, Rebecca M",
+        "Lee, Sangwoo",
+        "Thomas, Jalon Aaron",
+        "Fernandez-Castaneda, Anthony",
+        "Shin, Jung-Bum",
+        "Gaultier, Alban"
+      ],
+      "short_names": [
+        "Rivet-Noor CR",
+        "Merchak AR",
+        "Li S",
+        "Beiter RM",
+        "Lee S",
+        "Thomas JA",
+        "Fernandez-Castaneda A",
+        "Shin JB",
+        "Gaultier A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Undergraduate Department of Computer Science, University of Virginia School of Engineering and Applied Science, Charlottesville, VA, 22904, USA.",
+        "Undergraduate Department of Computer Science, University of Virginia School of Engineering and Applied Science, Charlottesville, VA, 22904, USA.",
+        "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Graduate Program in Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+        "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu.",
+        "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu.",
+        "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rivet-Noor, Courtney R",
+        "short_name": "Rivet-Noor CR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Merchak, Andrea R",
+        "short_name": "Merchak AR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Sihan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Beiter, Rebecca M",
+        "short_name": "Beiter RM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Sangwoo",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Undergraduate Department of Computer Science, University of Virginia School of Engineering and Applied Science, Charlottesville, VA, 22904, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Jalon Aaron",
+        "short_name": "Thomas JA",
+        "identifiers": [],
+        "affiliations": [
+          "Undergraduate Department of Computer Science, University of Virginia School of Engineering and Applied Science, Charlottesville, VA, 22904, USA."
+        ]
+      },
+      {
+        "full_name": "Fernández-Castañeda, Anthony",
+        "short_name": "Fernández-Castañeda A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Shin, Jung-Bum",
+        "short_name": "Shin JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA.",
+          "Graduate Program in Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Gaultier, Alban",
+        "short_name": "Gaultier A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Brain Immunology and Glia, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu.",
+          "Department of Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu.",
+          "Graduate Program in Neuroscience, University of Virginia School of Medicine, Charlottesville, VA, 22908, USA. ag7h@virginia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 May 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/22 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "41867787",
+      "41270915",
+      "39655201",
+      "38579936",
+      "37924959",
+      "36787309",
+      "36483523"
+    ],
+    "refs": [
+      "36400882",
+      "34589904",
+      "33498653",
+      "33311466",
+      "33235198",
+      "33109748",
+      "33096252",
+      "32929273",
+      "32848920",
+      "31552482",
+      "31319604",
+      "31124390",
+      "30995505",
+      "30833676",
+      "30696813",
+      "30400354",
+      "30396512",
+      "30127430",
+      "29988104",
+      "29967099",
+      "29317604",
+      "29069253",
+      "28620097",
+      "28266612",
+      "28146477",
+      "28122130",
+      "27912057",
+      "27303608",
+      "27067014",
+      "27046319",
+      "26822608",
+      "26734006",
+      "26236331",
+      "26107348",
+      "26076834",
+      "25882912",
+      "25169255",
+      "24302954",
+      "23174342",
+      "22947380",
+      "22462422",
+      "21915474",
+      "21462162",
+      "18059014",
+      "16970997",
+      "16301529",
+      "16182315",
+      "15344922",
+      "11728338",
+      "11478422",
+      "3228475",
+      "775359"
+    ],
+    "similar": [
+      "35597802",
+      "33648937",
+      "38926989",
+      "23954130",
+      "30214937",
+      "20706985",
+      "36809070",
+      "24092408",
+      "23975386",
+      "27936495",
+      "19114668",
+      "27900483",
+      "24782182",
+      "28445259",
+      "31318609",
+      "25860963",
+      "30026493",
+      "32532834",
+      "25045206",
+      "23174342",
+      "33013906",
+      "21699791",
+      "25203682",
+      "25545680",
+      "27067005",
+      "23563688",
+      "34022896",
+      "33552063",
+      "24516202",
+      "30473538",
+      "31010828",
+      "34762773",
+      "21722102",
+      "20017902",
+      "29910804",
+      "34462459",
+      "22177117",
+      "19682928",
+      "25820779",
+      "27880975",
+      "22850180",
+      "21858153",
+      "36710549",
+      "29501585",
+      "32924545",
+      "32161582",
+      "25840993",
+      "31316164",
+      "28438638",
+      "17493959",
+      "33082710",
+      "29884199",
+      "18362914",
+      "31001262",
+      "25142403",
+      "24692846",
+      "25838550",
+      "30425241",
+      "24150244",
+      "37335900",
+      "25467639",
+      "35379749",
+      "22385240",
+      "25716673",
+      "35163824",
+      "24349309",
+      "29724254",
+      "31102993",
+      "27183623",
+      "28560450",
+      "21905017",
+      "20231432",
+      "37832863",
+      "29687949",
+      "32226427",
+      "30557558",
+      "16990136",
+      "27895423",
+      "36689824",
+      "21525997",
+      "36343753",
+      "37539825",
+      "36056390",
+      "32849564",
+      "25092323",
+      "32884248",
+      "24514067",
+      "24316973",
+      "27000947",
+      "25073789",
+      "27129092",
+      "28617942",
+      "39039370",
+      "27235595",
+      "38061117",
+      "32553747",
+      "19578368",
+      "36528169",
+      "21654831",
+      "28300844"
+    ],
+    "review": [
+      "35597802",
+      "23975386",
+      "25467639"
+    ],
+    "pmc": [
+      "9124178"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/35597802",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-022-12464-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35597802/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35597802",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

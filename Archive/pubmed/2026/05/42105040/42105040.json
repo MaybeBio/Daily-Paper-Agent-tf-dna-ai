@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "42105040",
+    "doi": "10.1007/s12672-026-05166-y",
+    "title": "Single-cell profiling identifies a pro-tumoral VCAN positive macrophage subset and defines a prognostic signature in glioblastoma."
+  },
+  "content": {
+    "abstract": "Glioblastoma (GBM), the most aggressive primary brain tumor, develops within a tumor microenvironment (TME) dominated by tumor-associated macrophages (TAMs) that critically influence disease progression. Through single-cell RNA sequencing (scRNA-seq) and bioinformatic analysis, we delineated macrophage heterogeneity within the GBM TME and identified a distinct VCAN(+) macrophage subpopulation. Pseudotime trajectory analysis revealed these cells at the terminal stage of macrophage differentiation, where they exhibit enhanced granulocyte migration and chemotaxis pathways and exhibit a pro-tumorigenic phenotype that diverges from classical M1/M2 polarization. These VCAN(+) macrophages displayed a distinct polarization state driven by tumor necrosis factor-alpha (TNF-alpha), contributing to both a pro-inflammatory and an immunosuppressive TME. CellChat analysis demonstrated their pivotal role in intercellular communication-predominantly mediating crosstalk with GBM tumor cells, endothelial cells, and CD8(+) T cells via SPP1 signaling: SPP1 binding to CD44 on tumor cells enhances their invasiveness, while its interaction with CD47 on CD8(+) T cells inhibits anti-tumor immunity. Transcriptional regulatory network analysis identified that CDX2 and MXI1 serve as key transcription factors modulating VCAN(+) macrophage function and maintaining their specific polarization and homeostasis. Through machine learning, we identified seven hub genes-C1QA, C1QC, C3, CCL4, CD44, SERPINE1, and TREM2 (all highly expressed in VCAN(+) macrophages and involved in their polarization or intercellular communication)-and constructed an effective GBM prognostic model (AUC = 0.83 in validation cohort), underscoring their roles in immune regulation, extracellular matrix remodeling, and VCAN(+) macrophage-mediated tumor progression. Further studies with larger cohorts and functional validation will clarify this subpopulation's therapeutic potential and spatial distribution patterns.",
+    "keywords": [
+      "Glioblastoma",
+      "Immune microenvironment",
+      "Macrophage",
+      "Single-cell RNA sequencing",
+      "VCAN(+) macrophage subpopulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Jiaxin",
+        "Zhu, Zhansheng",
+        "Tong, Nanyang",
+        "Xu, Dingding",
+        "Zhang, Huan",
+        "Lin, Chenshi",
+        "Wan, Guiping",
+        "Wang, Yamei",
+        "Zhou, Qingqing",
+        "Xia, Liang"
+      ],
+      "short_names": [
+        "Guo J",
+        "Zhu Z",
+        "Tong N",
+        "Xu D",
+        "Zhang H",
+        "Lin C",
+        "Wan G",
+        "Wang Y",
+        "Zhou Q",
+        "Xia L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Graduate student, Yangtze University, Jingzhou, 434000, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Postgraduate training base Alliance of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Neurosurgery, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022, Zhejiang, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Graduate student, Yangtze University, Jingzhou, 434000, China.",
+        "Department of Oncology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+        "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China. 137365964@qq.com.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China. 397406589@qq.com.",
+        "Postgraduate training base Alliance of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. xialiang@zjcc.org.cn.",
+        "Department of Neurosurgery, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022, Zhejiang, China. xialiang@zjcc.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Jiaxin",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+          "Graduate student, Yangtze University, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhansheng",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Nanyang",
+        "short_name": "Tong N",
+        "identifiers": [],
+        "affiliations": [
+          "Postgraduate training base Alliance of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+          "Department of Neurosurgery, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dingding",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huan",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China.",
+          "Graduate student, Yangtze University, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Chenshi",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Guiping",
+        "short_name": "Wan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yamei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China. 137365964@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qingqing",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Yangtze University, Jingzhou First People's Hospital, Jingzhou, 434000, China. 397406589@qq.com."
+        ]
+      },
+      {
+        "full_name": "Xia, Liang",
+        "short_name": "Xia L",
+        "identifiers": [],
+        "affiliations": [
+          "Postgraduate training base Alliance of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. xialiang@zjcc.org.cn.",
+          "Department of Neurosurgery, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022, Zhejiang, China. xialiang@zjcc.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2026 May 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/10 05:15",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40850976",
+      "40720688",
+      "40255400",
+      "39797442",
+      "39527383",
+      "39523585",
+      "38775886",
+      "38179058",
+      "38057668",
+      "38032740",
+      "38012322",
+      "37894469",
+      "37731483",
+      "37397378",
+      "37187751",
+      "36765695",
+      "36594466",
+      "36203562",
+      "36090900",
+      "36057370",
+      "35938159",
+      "35626018",
+      "35356296",
+      "35111386",
+      "35053843",
+      "34985720",
+      "34902524",
+      "34358918",
+      "34228647",
+      "34079754",
+      "33766119",
+      "33662628",
+      "33604385",
+      "33468109",
+      "33168968",
+      "32328180",
+      "31900901",
+      "31532704",
+      "30568299",
+      "30548312",
+      "30237752",
+      "30099909",
+      "29608179",
+      "29507620",
+      "28991892",
+      "28825705",
+      "28754680",
+      "28575053",
+      "28239999",
+      "27259980",
+      "26704973",
+      "25605792",
+      "25428369",
+      "22008548",
+      "20619446",
+      "19254710",
+      "15548375",
+      "10592173"
+    ],
+    "similar": [
+      "42105040",
+      "42227003",
+      "41694346",
+      "41601657",
+      "39143438",
+      "41208987",
+      "41892299",
+      "41242266",
+      "42079653",
+      "41038302",
+      "42192326",
+      "42067796",
+      "41436831",
+      "42436508",
+      "41716413",
+      "41761123",
+      "36057370",
+      "41394809",
+      "40799444",
+      "42374432",
+      "42032376",
+      "42211756",
+      "42131349",
+      "42438784",
+      "37675100",
+      "42500577",
+      "42467357",
+      "37727789",
+      "41275140",
+      "40740771",
+      "41722860",
+      "40102789",
+      "41213462",
+      "42539625",
+      "42236612",
+      "42120472",
+      "41993933",
+      "41704537",
+      "42472255",
+      "39580469",
+      "41234865",
+      "39566403",
+      "41132964",
+      "42035563",
+      "41216335",
+      "41246334",
+      "40064955",
+      "41515934",
+      "39981232",
+      "42040898",
+      "42327750",
+      "42045486",
+      "40589755",
+      "41491450",
+      "42199627",
+      "41635288",
+      "41756290",
+      "40607411",
+      "40878339",
+      "41612311",
+      "40787449",
+      "41097797",
+      "35558067",
+      "40095115",
+      "41789089",
+      "42402561",
+      "37383234",
+      "41628726",
+      "41656832",
+      "41798945",
+      "40057744",
+      "41613113",
+      "39691723",
+      "39776914",
+      "42548670",
+      "37650991",
+      "40948800",
+      "38663915",
+      "42305453",
+      "42301510",
+      "38274828",
+      "37397378",
+      "42106714",
+      "41309249",
+      "41840566",
+      "42111497",
+      "41519771",
+      "34440860",
+      "34804043",
+      "41088217",
+      "41859299",
+      "36542317",
+      "39850883",
+      "38587042",
+      "41766892",
+      "41736104",
+      "40518290",
+      "41345972",
+      "41201629",
+      "40842994"
+    ],
+    "review": [
+      "42105040",
+      "39981232"
+    ],
+    "pmc": [
+      "13323438"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42105040/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

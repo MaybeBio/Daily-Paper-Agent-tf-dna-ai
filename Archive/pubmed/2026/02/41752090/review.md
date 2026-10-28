@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) without figures, schemes, or supplementary materials
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and alignment with Nature-style criteria; not editorial or formatting issues
+- **Shared manuscript claim summary** The authors report identification of usnic acid derivatives as inhibitors of Mycobacterium tuberculosis uracil-DNA glycosylase (MtbUng) through structure-based virtual screening, with the most potent compound OL10-88-1 showing IC50 26 ± 7 µM. They propose a dual-binding mode occupying both the active site and DNA-binding groove based on molecular docking, and demonstrate variable cross-species inhibition against uracil-DNA glycosylases from E. coli, human, and vaccinia virus.
+- **Visible evidence base** In silico docking validation (RMSD values), virtual screening funnel (1447 to 297 to 7 molecules), enzymatic inhibition assays with dose-response curves, cross-species specificity data, synthesis procedures with NMR characterization
+- **Missing materials affecting confidence** Figures 1-6, Schemes 1-2, Supplementary Tables S1-S2, Supplementary Figures S1-S5, Supplementary Text (sequences), raw inhibition data, statistical analysis details, compound purity data beyond NMR
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward virtual screening campaign followed by biochemical validation of four usnic acid derivatives as MtbUng inhibitors. The work is competent but incremental, with the most potent compound showing only moderate potency (IC50 26 µM). The central mechanistic claim regarding dual-site binding rests entirely on docking predictions without experimental validation. The cross-species inhibition data are interesting but not deeply explored. The manuscript would be of interest to a specialized audience working on DNA repair inhibitors or antimycobacterial drug discovery, but the advance over existing literature is modest.
+- **Who would be interested in the results, and why** Researchers in tuberculosis drug discovery, particularly those exploring DNA repair pathways as antibiotic adjuvants; investigators studying uracil-DNA glycosylase inhibitors across species; medicinal chemists working with usnic acid scaffolds. The work provides a new chemotype for MtbUng inhibition beyond uracil analogs, which may catalyze further optimization efforts.
+- **Major strengths** 1) Clear and logical workflow from virtual screening to experimental validation. 2) Docking protocol validation with low RMSD values (0.16-0.41 Å) demonstrates technical rigor. 3) The identification of a non-uracil chemotype expands the known inhibitor space for Ung enzymes. 4) Cross-species profiling provides useful selectivity information. 5) Compounds are synthetically accessible with reasonable yields.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence-claim mismatch
+  - **Claim pointer** The authors claim that OL10-88-1 inhibits MtbUng by "occupying both the active site and the DNA-binding groove, thereby disrupting multiple steps of uracil recognition."
+  - **Evidence pointer** Section 2.5, Figure 1e (not visible)
+  - **Concern** The dual-binding mode mechanism is inferred solely from molecular docking predictions. No experimental validation such as site-directed mutagenesis, co-crystallization, NMR studies, or isothermal titration calorimetry is provided to support this claim. The docking poses are presented as structural rationale but are not experimentally verified.
+  - **Why it matters** The mechanistic claim is central to the paper's novelty and to the proposed advantage of OL10-88-1 over other usnic acid derivatives. Without experimental support, the binding mode remains speculative, and the stated advantage cannot be substantiated. This weakens the foundation for future structure-based optimization efforts.
+  - **Resolution test** Provide experimental evidence for the binding mode, such as co-crystal structure of MtbUng with OL10-88-1, mutagenesis of predicted contact residues (Gln67, Asp68, Tyr70, Phe81, Asn127, His191) showing loss of inhibition, or competitive binding assays with DNA substrates. Alternatively, temper the claim to state that docking predicts a dual-site interaction without asserting it as established mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report IC50 values for four compounds against MtbUng and additional values against EcoUng, hUNG, and vvUNG.
+  - **Evidence pointer** Section 2.3, Figures 3-5 (not visible)
+  - **Concern** The inhibition assay methodology has several issues. First, the enzyme concentration used in inhibition assays is stated as 0.01 nM, but the manuscript does not report the substrate concentration relative to Km, which is critical for interpreting IC50 values. Second, the IC50 calculation uses a "one-site ligand binding model" which assumes equilibrium binding, but no validation of assay conditions (e.g., time to equilibrium, enzyme stability) is provided. Third, the manuscript does not report replicates, errors, or statistical analysis for the IC50 determinations. Fourth, the positive control (Ugi) is used at a single concentration without a full dose-response for comparison.
+  - **Why it matters** IC50 values are the primary quantitative output of this study. If assay conditions are not properly characterized or if IC50 values lack error estimates, the reported potencies cannot be reliably compared across compounds or with literature values. This undermines the quantitative claims of the paper.
+  - **Resolution test** Provide full assay validation including determination of Km for the substrate, IC50 values with standard errors from at least three independent experiments, and demonstration that assay conditions are at steady state. Report the dynamic range of the assay and show full dose-response curves with fitted parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the compound could potentially be used in combination therapies to enhance the efficacy of current anti-TB drugs by exploiting the vulnerability of DNA-repair mycobacteria."
+  - **Evidence pointer** Section 3 (Discussion)
+  - **Concern** No combination studies, cellular assays, or in vivo experiments are presented. The therapeutic potential claim is entirely speculative. The manuscript does not demonstrate that MtbUng inhibition sensitizes M. tuberculosis to antibiotics or host immune defenses, which is the stated rationale for targeting this enzyme. The connection between biochemical inhibition and therapeutic utility is not established.
+  - **Why it matters** The stated significance of the work rests on the premise that MtbUng inhibition can enhance anti-TB therapy. Without any cellular or in vivo data, this premise remains untested. The paper would be strengthened by at least demonstrating compound uptake and target engagement in mycobacterial cells, or by showing synergy with existing antibiotics in vitro.
+  - **Resolution test** Add experiments showing that OL10-88-1 or analogs inhibit MtbUng in M. tuberculosis cells, reduce bacterial survival under nitrosative stress, or synergize with standard anti-TB drugs. Alternatively, substantially temper the therapeutic claims and frame the work as a biochemical lead identification study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Virtual screening criteria
+  - **Evidence pointer** Section 2.1
+  - **Issue** The selection criteria for the first round of screening (GS >37, CS >20, ChemPLP >44) are stated to be based on scores of co-crystallized uracil, but the manuscript does not report the actual scores for uracil or the distribution of scores across the library. The second round selection by "visual inspection" is subjective and not fully described.
+  - **Required correction** Report the scores for the co-crystallized uracil across all scoring functions, provide the score distributions, and describe the visual inspection criteria more explicitly (e.g., specific interaction requirements, geometric filters).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound naming and structures
+  - **Evidence pointer** Section 2.2, Schemes 1-2 (not visible)
+  - **Issue** The manuscript refers to compounds by codes (OL8-122, OL10-88-1, OL7-122, AF-105) but the chemical structures are only shown in schemes that are not visible in the provided text. The relationship between the compounds and their synthesis from (+)- or (−)-usnic acid is described but the structural differences are not clear from text alone.
+  - **Required correction** Ensure that chemical structures are clearly presented and that the text explicitly states the structural differences between compounds (e.g., which functional groups differ, how chirality affects the structures).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Section 4.2
+  - **Issue** Only 1H NMR data are reported for compound characterization. No 13C NMR, HRMS, elemental analysis, or melting points are provided. Purity is not quantified (e.g., by HPLC).
+  - **Required correction** Provide additional characterization data (13C NMR, HRMS, purity assessment) for all four compounds to support structural assignment and purity claims.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Unusual dose-response curves
+  - **Evidence pointer** Section 2.3, Figure 4c,d
+  - **Issue** The authors note that OL8-122 and OL7-22 produced dose-response curves with a maximum between 10 and 1000 µM, which is unusual for enzyme inhibitors. The explanation offered (competition for unproductive binding) is speculative and not tested.
+  - **Required correction** Either provide experimental evidence for the proposed mechanism (e.g., binding studies at different DNA concentrations) or acknowledge alternative explanations (e.g., compound aggregation, solubility issues at high concentrations, or off-target effects).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with literature
+  - **Evidence pointer** Section 3 (Discussion)
+  - **Issue** The discussion mentions that the best previously reported MtbUng inhibitor had IC50 ~300 µM, but does not provide a systematic comparison with other reported Ung inhibitors or discuss the structural diversity of known inhibitors in detail.
+  - **Required correction** Expand the discussion to include a more comprehensive comparison with existing Ung inhibitors, including their potencies, chemical classes, and any structural information available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (mechanistic claim without experimental support), R1-M2 (incomplete assay validation and missing statistical analysis)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of usnic acid derivatives to MtbUng inhibition is novel, but the overall approach (virtual screening followed by biochemical validation) is standard. The finding that a natural product derivative inhibits a DNA repair enzyme is not conceptually surprising given the known bioactivity of usnic acid derivatives against other DNA repair targets.
+  - **Scientific importance** Limited. The work identifies a moderate-potency inhibitor of a validated target, but does not demonstrate functional consequences in cells or animals. The therapeutic relevance of MtbUng inhibition remains speculative, and the advance over existing inhibitors is incremental (26 µM vs 300 µM for the best prior compound).
+  - **Interdisciplinary readership** Narrow. The work will primarily interest researchers in tuberculosis drug discovery and DNA repair enzymology. The lack of cellular or in vivo data limits broader appeal to infectious disease researchers or medicinal chemists seeking validated leads.
+  - **Technical soundness** Partially adequate. The docking validation is sound, and the biochemical assays are straightforward. However, the missing assay validation details, lack of replicates, and absence of experimental support for the binding mode are significant gaps.
+  - **Readability for nonspecialists** Adequate. The manuscript is clearly written and the logic is easy to follow. However, the discussion of docking interactions and enzyme kinetics assumes familiarity with structural biology and enzymology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript reports a competent but incremental screening study with moderate-potency hits. The central mechanistic claim is unsupported by experimental data, and the therapeutic relevance is speculative. The work may be suitable for a specialized journal after addressing the major concerns, but it does not meet the bar for a high-impact general journal.
+
+## Risk / unsupported claims
+- The dual-binding mode mechanism (active site plus DNA-binding groove) for OL10-88-1 is unsupported by experimental evidence and rests solely on docking predictions.
+- The statement that the compound "could potentially be used in combination therapies" is speculative and not supported by any cellular or in vivo data.
+- The claim that OL10-88-1 is "at least 30-fold lower" in IC50 compared to free uracil is potentially misleading, as uracil is a substrate/product analog rather than a drug-like inhibitor, and the comparison may not be meaningful.
+- The suggestion that usnic acid derivatives might inhibit MtbUng orthologs in other mycobacterial species is speculative and not tested.
+- The explanation for the unusual dose-response curves of OL8-122 and OL7-22 (competition for unproductive binding) is speculative and not experimentally validated.
+- The manuscript states that "the fifth molecule of this nature, DS-324, also suppressed enzyme activity but less efficiently" but does not provide quantitative data for this compound, making the claim unverifiable.

@@ -1,0 +1,115 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.03.514934",
+  "title": "ASCARIS: Positional Feature Annotation and Protein Structure-Based Representation of Single Amino Acid Variations",
+  "doi": "10.1101/2022.11.03.514934",
+  "abstract": "<h4>Motivation</h4> Genomic variations may cause deleterious effects on protein functionality and perturb biological processes. Elucidating the effects of variations is critical for developing novel treatment strategies for diseases of genetic origin. Computational approaches have been aiding the work in this field by modeling and analyzing the mutational landscape. However, new approaches are required, especially for accurate and comprehensive representation and data-centric analysis of sequence variations. <h4>Results</h4> In this study, we propose ASCARIS (Annotation and StruCture-bAsed RepresentatIon of Single amino acid variations - SAVs), a method for the featurization (i.e., quantitative representation) of SAVs, which could be used for a variety of purposes, such as predicting their functional effects or building multi-omics-based integrative models. In ASCARIS representations, we incorporated the correspondence between the location of the SAV on the sequence and 30 different types of positional feature annotations (e.g., active/lipidation/glycosylation sites; calcium/metal/DNA binding, inter/transmembrane regions, etc.) from UniProt, along with structural features such as protein domains, the location of variation (e.g., core/interface/surface), and the change in physico-chemical properties using models from PDB and AlphaFold-DB. We also mapped the mutated and annotated residues to the 3-D plane and calculated the spatial distances between them in order to account for the functional changes caused by variations in positions close to the functionally essential ones. Finally, we constructed a 74-dimensional feature set to represent each SAV in a dataset composed of ∼100,000 data points. We statistically analyzed the relationship between each of these features and the consequences of variations, and found that each of them carries information in this regard. To investigate potential applications of ASCARIS, we trained variant effect predictor models that utilize our SAV representations as input. We carried out both an ablation study and a comparison against the state-of-the-art methods over well-known benchmark datasets. We observed that our method displays a competing performance against widely-used predictors. Also, our predictions were complementary to these methods which is probably due to fact that ASCARIS has a rather unique focus in modeling variations. ASCARIS can be used either alone or in combination with other approaches, to universally represent SAVs from a functional perspective. <h4>Availability and implementation</h4> The source code, datasets, results, and user instructions of ASCARIS are available at https://github.com/HUBioDataLab/ASCARIS .",
+  "authors": [
+    "Cankara F",
+    "Doğan T"
+  ],
+  "published_date": "2022-11-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.03.514934",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.03.514934.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR567712",
+    "raw_record": {
+      "id": "PPR567712",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.03.514934",
+      "title": "ASCARIS: Positional Feature Annotation and Protein Structure-Based Representation of Single Amino Acid Variations",
+      "authorString": "Cankara F, Doğan T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cankara F",
+            "lastName": "Cankara",
+            "firstName": "Fatma",
+            "initials": "F"
+          },
+          {
+            "fullName": "Doğan T",
+            "lastName": "Doğan",
+            "firstName": "Tunca",
+            "initials": "T"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Motivation</h4>  Genomic variations may cause deleterious effects on protein functionality and perturb biological processes. Elucidating the effects of variations is critical for developing novel treatment strategies for diseases of genetic origin. Computational approaches have been aiding the work in this field by modeling and analyzing the mutational landscape. However, new approaches are required, especially for accurate and comprehensive representation and data-centric analysis of sequence variations. <h4>Results</h4>  In this study, we propose ASCARIS (Annotation and StruCture-bAsed RepresentatIon of Single amino acid variations - SAVs), a method for the featurization (i.e., quantitative representation) of SAVs, which could be used for a variety of purposes, such as predicting their functional effects or building multi-omics-based integrative models. In ASCARIS representations, we incorporated the correspondence between the location of the SAV on the sequence and 30 different types of positional feature annotations (e.g., active/lipidation/glycosylation sites; calcium/metal/DNA binding, inter/transmembrane regions, etc.) from UniProt, along with structural features such as protein domains, the location of variation (e.g., core/interface/surface), and the change in physico-chemical properties using models from PDB and AlphaFold-DB. We also mapped the mutated and annotated residues to the 3-D plane and calculated the spatial distances between them in order to account for the functional changes caused by variations in positions close to the functionally essential ones. Finally, we constructed a 74-dimensional feature set to represent each SAV in a dataset composed of ∼100,000 data points. We statistically analyzed the relationship between each of these features and the consequences of variations, and found that each of them carries information in this regard. To investigate potential applications of ASCARIS, we trained variant effect predictor models that utilize our SAV representations as input. We carried out both an ablation study and a comparison against the state-of-the-art methods over well-known benchmark datasets. We observed that our method displays a competing performance against widely-used predictors. Also, our predictions were complementary to these methods which is probably due to fact that ASCARIS has a rather unique focus in modeling variations. ASCARIS can be used either alone or in combination with other approaches, to universally represent SAVs from a functional perspective. <h4>Availability and implementation</h4>  The source code, datasets, results, and user instructions of ASCARIS are available at  https://github.com/HUBioDataLab/ASCARIS .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/04/2022.11.03.514934.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.03.514934"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37822561",
+            "reference": "Computational and structural biotechnology journal. 2023 ;21:4743-4758",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-07",
+      "firstPublicationDate": "2022-11-04",
+      "firstIndexDate": "2022-11-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

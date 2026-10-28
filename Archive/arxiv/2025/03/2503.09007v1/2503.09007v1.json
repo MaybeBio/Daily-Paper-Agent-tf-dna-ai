@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2503.09007v1",
+  "title": "Reconstructing Noisy Gene Regulation Dynamics Using Extrinsic-Noise-Driven Neural Stochastic Differential Equations",
+  "doi": "10.1371/journal.pcbi.1013462",
+  "abstract": "Proper regulation of cell signaling and gene expression is crucial for maintaining cellular function, development, and adaptation to environmental changes. Reaction dynamics in cell populations is often noisy because of (i) inherent stochasticity of intracellular biochemical reactions (``intrinsic noise'') and (ii) heterogeneity of cellular states across different cells that are influenced by external factors (``extrinsic noise''). In this work, we introduce an extrinsic-noise-driven neural stochastic differential equation (END-nSDE) framework that utilizes the Wasserstein distance to accurately reconstruct SDEs from trajectory data from a heterogeneous population of cells (extrinsic noise). We demonstrate the effectiveness of our approach using both simulated and experimental data from three different systems in cell biology: (i) circadian rhythms, (ii) RPA-DNA binding dynamics, and (iii) NF$κ$B signaling process. Our END-nSDE reconstruction method can model how cellular heterogeneity (extrinsic noise) modulates reaction dynamics in the presence of intrinsic noise. It also outperforms existing time-series analysis methods such as recurrent neural networks (RNNs) and long short-term memory networks (LSTMs). By inferring cellular heterogeneities from data, our END-nSDE reconstruction method can reproduce noisy dynamics observed in experiments. In summary, the reconstruction method we propose offers a useful surrogate modeling approach for complex biophysical processes, where high-fidelity mechanistic models may be impractical.",
+  "authors": [
+    "Jiancheng Zhang",
+    "Xiangting Li",
+    "Xiaolu Guo",
+    "Zhaoyi You",
+    "Lucas Böttcher",
+    "Alex Mogilner",
+    "Alexander Hoffman",
+    "Tom Chou",
+    "Mingtao Xia"
+  ],
+  "published_date": "2025-03-12T02:50:13Z",
+  "updated_date": "2025-03-12T02:50:13Z",
+  "journal": "PLoS Comput. Biol. 21(9), e1013462 (2025)",
+  "category": "q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2503.09007v1",
+  "pdf_url": "https://arxiv.org/pdf/2503.09007v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2503.09007v1",
+    "raw_categories": [
+      "q-bio.QM"
+    ],
+    "journal_ref": "PLoS Comput. Biol. 21(9), e1013462 (2025)"
+  }
+}

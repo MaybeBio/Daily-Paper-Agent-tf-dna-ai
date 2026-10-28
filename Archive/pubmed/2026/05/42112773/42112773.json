@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "42112773",
+    "doi": "10.1155/bmri/7294117",
+    "title": "Exploring Immune-Related Gene and Mechanisms in Rosacea Through Transcriptome Analysis and Mendelian Randomization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dysregulation of the innate and adaptive immune system is thought to be central to the pathogenesis of rosacea. However, the molecular mechanism of immune-related genes has not been extensively studied in rosacea. METHODS: The GSE65914 and GSE155141 datasets were included in this study. Firstly, intersection genes were screened by overlapping key module genes obtained from weighted gene coexpression network analysis (WGCNA) and DEGs (rosacea vs. control). Then, functional enrichment analysis was performed to explore the functions of intersection genes. Subsequently, exposure factors (key genes) for rosacea were identified through Mendelian randomization (MR), and machine learning and expression analysis were conducted based on intersection genes. Single-gene gene set enrichment analysis (GSEA) was utilized to investigate the molecular mechanisms of key genes. Additionally, a regulatory network was constructed. Finally, the mRNA-drug interaction network was established. RESULTS: A total of 624 intersection genes were screened, with functional enrichment results indicating involvement in positive regulation of protein kinase activity and the Hippo signaling pathway. Four key genes (ALDH1A1, COL17A1, RELL1, and ZNF404) were identified, with ALDH1A1 as a risk factor and the others as protective factors for rosacea. Single-gene GSEA results showed enrichment in the IL-17 and chemokine signaling pathways. The regulatory network included four mRNAs, two transcription factors (TFs), and 61 miRNAs. Lastly, 73 drugs targeting key genes were predicted. CONCLUSIONS: This study identified four immune-related key genes (ALDH1A1, COL17A1, RELL1, and ZNF404) through MR analysis and machine learning, suggesting potential diagnostic or therapeutic candidates for further validation.",
+    "keywords": [
+      "Mendelian randomization",
+      "immunity",
+      "rosacea",
+      "treatment"
+    ],
+    "mesh_terms": [
+      "*Rosacea/genetics/immunology",
+      "Humans",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "*Mendelian Randomization Analysis",
+      "*Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yafang",
+        "Zhang, Jian"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5059-2847"
+      ],
+      "affiliations": [
+        "The First People's Hospital of Yinchuan, Yinchuan, Ningxia, China.",
+        "Ningxia Medical University, Second Clinical Medical College, Yinchuan, Ningxia, China, nxmu.edu.cn.",
+        "The First People's Hospital of Yinchuan, Yinchuan, Ningxia, China.",
+        "Ningxia Medical University, Second Clinical Medical College, Yinchuan, Ningxia, China, nxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yafang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First People's Hospital of Yinchuan, Yinchuan, Ningxia, China.",
+          "Ningxia Medical University, Second Clinical Medical College, Yinchuan, Ningxia, China, nxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-5059-2847"
+        ],
+        "affiliations": [
+          "The First People's Hospital of Yinchuan, Yinchuan, Ningxia, China.",
+          "Ningxia Medical University, Second Clinical Medical College, Yinchuan, Ningxia, China, nxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 12:59",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40875939",
+      "40496604",
+      "40167798",
+      "38988131",
+      "38983783",
+      "37689807",
+      "37686836",
+      "37639589",
+      "37276156",
+      "36481403",
+      "36331365",
+      "36091706",
+      "34864868",
+      "34557778",
+      "34550317",
+      "34445866",
+      "34087104",
+      "33877738",
+      "33760854",
+      "33759078",
+      "33545988",
+      "33328099",
+      "32480173",
+      "32090861",
+      "31512178",
+      "31402691",
+      "30944469",
+      "30520139",
+      "29948941",
+      "29771307",
+      "29679568",
+      "29150968",
+      "28422318",
+      "22324470",
+      "20510238"
+    ],
+    "similar": [
+      "42112773",
+      "41657790",
+      "36532015",
+      "39874886",
+      "40404777",
+      "39483475",
+      "39640883",
+      "39341952",
+      "41333919",
+      "40350654",
+      "40681713",
+      "39586719",
+      "41846910",
+      "42565562",
+      "42158874",
+      "36091020",
+      "41080564",
+      "40574839",
+      "39647286",
+      "39346628",
+      "41940395",
+      "40755754",
+      "33529888",
+      "42642681",
+      "39512681",
+      "41986576",
+      "41120603",
+      "38649912",
+      "38865489",
+      "42537010",
+      "40332792",
+      "42123445",
+      "41052072",
+      "40406126",
+      "40078458",
+      "42437780",
+      "39142001",
+      "40216809",
+      "42236612",
+      "41132152",
+      "41782887",
+      "41191606",
+      "41388523",
+      "42389985",
+      "40289127",
+      "41935768",
+      "41826854",
+      "41824857",
+      "42715252",
+      "42377012",
+      "41948344",
+      "40453984",
+      "40532306",
+      "42417419",
+      "38310446",
+      "42123756",
+      "41772215",
+      "39717623",
+      "35757392",
+      "42059276",
+      "41200172",
+      "42176029",
+      "41601671",
+      "39872525",
+      "35128826",
+      "34663380",
+      "37605574",
+      "38863714",
+      "41703488",
+      "40598243",
+      "42113191",
+      "40836320",
+      "40600526",
+      "42216315",
+      "40421012",
+      "41013556",
+      "39976098",
+      "36316672",
+      "42004723",
+      "42265151",
+      "40739239",
+      "37063851",
+      "39634176",
+      "41384025",
+      "40835946",
+      "40148470",
+      "42471019",
+      "42051521",
+      "39762849",
+      "35392084",
+      "40593136",
+      "41376620",
+      "30138363",
+      "40024299",
+      "38698841",
+      "42391245",
+      "42289108",
+      "42286429",
+      "40188118",
+      "42541991"
+    ],
+    "review": [
+      "42112773"
+    ],
+    "pmc": [
+      "13159088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rosacea.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rosacea"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42112773/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/bmri/7294117",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3632",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42236716",
+  "title": "Genome-wide modelling of plant transcription factor binding captures regulatory variants associated with phenotypic traits.",
+  "authors": "Peleke, Fritz Forbang; Zumkeller, Simon Maria; Schirmer, Dominic; Schmitz, Gernot; Hartwig, Thomas; Engelhorn, Julia; Weizel, Sergius; Schmitt, Armin Otto; Jores, Tobias; Szymanski, Jedrzej",
+  "journal": "Nature communications",
+  "published_date": "2026-06-04",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可解释多标签深度学习模型在全基因组水平建模拟南芥转录因子结合，预测结合位点并整合GWAS识别调控变异，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "The sequence-specific recognition of cis-regulatory elements (CRE) by transcription factors (TF) propagates genotype information to phenotypes. Understanding how genetic variation affects gene regulation remains limited by the diversity and complexity of CRE interactions. Here, we address this challenge using an explainable multi-label deep learning model trained on A. thaliana DNA-binding data to capture how CRE sequence, their broader sequence context, and syntax influence TF occupancy. Once trained, the model annotates cistrome-wide TF-binding sites and uncovers condition-specific regulatory syntax. By integrating genomic and GWAS data from A. thaliana, our approach predicts differential TF-binding and identifies regulatory gene variants within quantitative trait loci. Experimental validation highlights the link between cis-regulatory variation, gene expression, and phenotypic outcomes. Finally, applying our model to untargeted DNA binding assays in Z. mays under heat-stress conditions demonstrates its potential to characterize condition-responsive TF binding in phylogenetically distant crops.",
+  "abstract_zh": "转录因子（TF）对顺式调控元件（CRE）的序列特异性识别将基因型信息传递至表型。理解遗传变异如何影响基因调控仍受限于CRE相互作用的多样性和复杂性。在此，我们利用一个基于拟南芥（A. thaliana）DNA结合数据训练的可解释多标签深度学习模型来应对这一挑战，以捕捉CRE序列、其更广泛的序列背景及语法如何影响TF占据。训练完成后，该模型注释了全顺反子组范围的TF结合位点，并揭示了条件特异性的调控语法。通过整合拟南芥的基因组和全基因组关联研究（GWAS）数据，我们的方法预测了差异性的TF结合，并在数量性状位点内识别出调控性基因变异。实验验证强调了顺式调控变异、基因表达和表型结果之间的联系。最后，将我们的模型应用于玉米（Z. mays）热胁迫条件下的非靶向DNA结合测定，展示了其在系统发育关系较远的作物中表征条件响应性TF结合的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42236716/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42236716/",
+  "paper_page_path": "papers/pubmed/42236716/index.html"
+}

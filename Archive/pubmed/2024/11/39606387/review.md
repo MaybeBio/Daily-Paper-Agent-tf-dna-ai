@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors state that using a sequence-based deep learning model of prostate regulatory enhancers, they identified approximately 2,000 SNPs with higher alternate allele frequency in men of African ancestry that potentially affect enhancer function associated with prostate cancer susceptibility. They propose two complementary mechanisms by which these enhancer SNPs may influence prostate cancer development, note disruption of transcription factor binding, and claim that a polygenic risk score combining these SNPs adds value to existing GWAS-based risk variants in independent cohorts.
+- **Visible evidence base** Abstract text only; no experimental details, model specifications, cohort descriptions, statistical analyses, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, cohort descriptions, model architecture and training details, experimental validation protocols, statistical methodology, and independent cohort details
+
+## Reviewer
+- **Overall assessment** The abstract addresses an important and timely question regarding ancestry-specific genetic mechanisms underlying prostate cancer risk disparity. The proposed approach, combining deep learning predictions of enhancer function with population allele frequency comparisons, is conceptually interesting. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the model, the robustness of the SNP identification, the validity of the proposed mechanisms, or the statistical basis for the polygenic risk score claim. Several claims are made without visible supporting evidence, and the causal language used exceeds what can be inferred from the described approach.
+- **Who would be interested in the results, and why** Researchers in prostate cancer genetics, population genetics, regulatory genomics, and health disparities would be interested. The work potentially addresses a gap in understanding why men of African ancestry have higher prostate cancer incidence and mortality, which has clinical and public health relevance. The use of deep learning for functional annotation of non-coding variants may also interest computational biologists working on variant effect prediction.
+- **Major strengths** The topic is clinically and biologically important. The focus on non-coding regulatory variants is a relatively underexplored angle in ancestry-specific prostate cancer risk. The proposed dual mechanism framework is a useful organizing principle. The attempt to integrate functional prediction with polygenic risk scoring is pragmatic and potentially translational.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that approximately 2,000 SNPs were identified as potentially affecting enhancer function associated with PrCa susceptibility using a sequence-based deep learning model.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided about the deep learning model architecture, training data, validation approach, or performance metrics. The threshold for calling a SNP as affecting enhancer function is not stated. The criteria for selecting the approximately 2,000 SNPs from the model output are not described.
+  - **Why it matters** Without model details and selection criteria, the reliability and reproducibility of the SNP identification cannot be assessed. The core finding depends entirely on the validity of this computational step.
+  - **Resolution test** Provide model architecture, training and test datasets, performance metrics, and explicit criteria for SNP selection. Demonstrate that the model accurately predicts enhancer activity and that the selected SNPs show robust effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the identified enhancer SNPs may influence PrCa development through two complementary mechanisms involving immune suppression, telomere elongation, de-differentiation, and inhibition of apoptosis.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these mechanisms are "supported by our experimental validation" but provides no details on what experiments were performed, what cell lines or models were used, what phenotypes were measured, or what statistical significance was achieved. The mechanistic claims are broad and involve multiple biological processes.
+  - **Why it matters** These mechanistic claims are central to the biological significance of the work. Without experimental details, the causal link between enhancer activity changes and the proposed downstream effects cannot be evaluated.
+  - **Resolution test** Describe the experimental systems, assays, and quantitative results. Show that the direction of enhancer activity change correlates with the proposed downstream molecular and cellular phenotypes in a statistically robust manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim that the identified eSNPs can be combined into a polygenic risk score that adds value to current GWAS-based risk variants in assessing PrCa risk in independent cohorts.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided about the construction of the polygenic risk score, the cohorts used for validation, the effect sizes, the statistical significance of the added value, or the comparison methodology against existing GWAS-based scores.
+  - **Why it matters** The translational claim of added value is a key contribution. Without cohort details and statistical comparison, the incremental utility of the proposed score cannot be assessed.
+  - **Resolution test** Provide cohort descriptions, sample sizes, ancestry composition, PRS construction method, and formal statistical comparison showing significant improvement over existing scores with appropriate metrics such as AUC or odds ratios with confidence intervals.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "the those of European ancestry" contains a grammatical error.
+  - **Required correction** Revise to "than those of European ancestry."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, description of SNP effects
+  - **Issue** The abstract uses "increase enhancer activity" and "decrease enhancer activity" without specifying whether this refers to enhancer strength, chromatin accessibility, or transcriptional output.
+  - **Required correction** Define what is meant by enhancer activity in the context of the model and experimental validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Transcription factor claim
+  - **Evidence pointer** Abstract, statement on transcription factor binding
+  - **Issue** The claim that eSNPs disrupt binding of FOX, AR, and HOX families is stated without indicating how this was determined, whether by prediction or experimental evidence.
+  - **Required correction** Clarify the method used to assess transcription factor binding disruption and provide supporting evidence.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core computational identification, the experimental validation of mechanisms, and the polygenic risk score claim all lack sufficient detail in the provided material to establish the case.
+- **Assessment against Nature-style criteria** Originality is potentially high given the focus on non-coding regulatory variants in ancestry-specific prostate cancer risk, though the abstract does not fully distinguish this from prior work. Scientific importance is clear given the health disparity context. Interdisciplinary readership is plausible, spanning genetics, oncology, and computational biology. Technical soundness cannot be assessed from the abstract alone, which is a critical limitation. Readability for nonspecialists is adequate, though some terms such as "enhancer SNPs" and "polygenic risk score" could benefit from brief definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary claims, but the absence of methodological detail and supporting data prevents evaluation of the core findings. A full manuscript with methods, results, and validation would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim of approximately 2,000 SNPs identified by the deep learning model is unsupported without model details and selection criteria.
+- The claim of experimental validation supporting the two mechanistic pathways is unsupported without experimental descriptions.
+- The claim that eSNPs disrupt transcription factor binding is unsupported without method details.
+- The claim that the polygenic risk score adds value to existing GWAS-based scores is unsupported without cohort and statistical details.
+- The causal language used in describing mechanisms exceeds what can be inferred from the abstract alone.

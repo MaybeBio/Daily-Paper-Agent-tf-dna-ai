@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40939890",
+  "title": "Design of strictly orthogonal biosensors for maximizing renewable biofuel overproduction.",
+  "authors": "Wu, Tong; Yan, Dongli; Lin, Sheng; Zhang, Ran; Wang, Yuhan; Li, Min; Yu, Shengzhu; Ma, Xiaoyan; Chen, Zhenya; Huo, Yi-Xin",
+  "journal": "Journal of advanced research",
+  "published_date": "2025-09-13",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习模型BT预测转录因子BmoR的关键残基区域，结合分子对接模拟设计严格正交的生物传感器，虽聚焦TF-小分子互作而非TF-DNA结合，但TF工程与机器学习/模拟方法对TF-DNA互作建模有借鉴价值。",
+  "abstract": "INTRODUCTION: Transcription factors (TFs) activate transcriptional initiation by binding specific signal molecules (SMs), yet designing TFs to precisely target non-natural SMs remains challenging. OBJECTIVES: Using transcriptional activator BmoR as an example, a machine-learning based model named BT to predict three crucial residue regions (CRRs) was generated. This study aimed to achieve BmoR with strict SM orthogonality (SSO). METHODS: Random Forest Algorithm was used to generate a model BT that pinpointed CRRs. The BmoR-SM complexes in the prediction dataset of Model BT were batch-simulated using a computational pipeline via Discovery Studio. Semi-rational engineering of the residues in the CRRs generated BmoR mutants with SSO, validated through MicroScale Thermophoresis (MST) affinity assays. The SSO-enabled BmoR-based biosensor was used to screen microbial overproducers for 3-L fed-batch fermentation. RESULTS: The transcription activation effects of 245 TF-SM complexes were experimentally verified, providing the training and test dataset to generate a machine-learning based Model BT with 88.5 % accuracy. The binding between 5,700 BmoR mutants and four SMs was simulated by Discovery Studio, generating 22,800 complexes to output BmoR-SM hydrogen bond (BSH) counts. BSH counts combined with supplementary parameters to form a prediction dataset. The CRRs containing totally 36 residues were successfully predicted by Model BT. The CRRs were semi-rational modified to obtain BmoR mutants with SSO. The SSO-enabled BmoR-based biosensor effectively screened a strain yielding 12.6 g/L isopentanol. CONCLUSION: By demonstrating the dominant role of the BSH counts in TF-SM interactions and establishing a machine learning-guided framework for TF evolution, this work advances rational design principles for engineering TFs with precise molecular recognition, offering broad applications in synthetic biology and metabolic engineering.",
+  "abstract_zh": "引言：转录因子（Transcription factors, TFs）通过结合特定信号分子（signal molecules, SMs）激活转录起始，然而设计能够精确靶向非天然信号分子的转录因子仍具挑战性。目标：以转录激活因子BmoR为例，生成了一种基于机器学习的模型BT，用于预测三个关键残基区域（crucial residue regions, CRRs）。本研究旨在实现具有严格信号分子正交性（strict SM orthogonality, SSO）的BmoR。方法：采用随机森林算法生成模型BT，以精确定位关键残基区域。通过Discovery Studio计算流程，对模型BT预测数据集中的BmoR-SM复合物进行批量模拟。对关键残基区域中的残基进行半理性工程改造，生成了具有严格信号分子正交性的BmoR突变体，并通过微量热泳动（MicroScale Thermophoresis, MST）亲和力测定进行验证。基于SSO的BmoR生物传感器用于筛选微生物高产菌株，进行3-L补料分批发酵。结果：实验验证了245个TF-SM复合物的转录激活效应，提供了训练和测试数据集，以生成准确率为88.5%的基于机器学习的模型BT。通过Discovery Studio模拟了5,700个BmoR突变体与四种信号分子的结合，生成22,800个复合物，以输出BmoR-SM氢键（BmoR-SM hydrogen bond, BSH）计数。BSH计数与补充参数结合，形成预测数据集。模型BT成功预测了包含总共36个残基的关键残基区域。对关键残基区域进行半理性修饰，获得了具有严格信号分子正交性的BmoR突变体。基于SSO的BmoR生物传感器有效筛选出一株产异戊醇12.6 g/L的菌株。结论：通过展示BSH计数在TF-SM相互作用中的主导作用，并建立机器学习引导的TF进化框架，本研究推进了具有精确分子识别的TF工程理性设计原则，在合成生物学和代谢工程中具有广泛应用前景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40939890/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40939890/",
+  "paper_page_path": "papers/pubmed/40939890/index.html"
+}

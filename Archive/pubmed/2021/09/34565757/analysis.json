@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34565757",
+  "title": "AI for the collective analysis of a massive number of genome sequences: various examples from the small genome of pandemic SARS-CoV-2 to the human genome.",
+  "authors": "Ikemura, Toshimichi; Iwasaki, Yuki; Wada, Kennosuke; Wada, Yoshiko; Abe, Takashi",
+  "journal": "Genes & genetic systems",
+  "published_date": "2021-09-28",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用无监督AI（BLSOM）分析大规模基因组序列，虽涉及人类基因组中转录因子结合序列的富集，但核心是序列组成聚类而非蛋白质-DNA互作建模，方法上无TF-DNA结合预测或物理模拟，仅边缘相关。",
+  "abstract": "In genetics and related fields, huge amounts of data, such as genome sequences, are accumulating, and the use of artificial intelligence (AI) suitable for big data analysis has become increasingly important. Unsupervised AI that can reveal novel knowledge from big data without prior knowledge or particular models is highly desirable for analyses of genome sequences, particularly for obtaining unexpected insights. We have developed a batch-learning self-organizing map (BLSOM) for oligonucleotide compositions that can reveal various novel genome characteristics. Here, we explain the data mining by the BLSOM: an unsupervised AI. As a specific target, we first selected SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) because a large number of viral genome sequences have been accumulated via worldwide efforts. We analyzed more than 0.6 million sequences collected primarily in the first year of the pandemic. BLSOMs for short oligonucleotides (e.g., 4-6-mers) allowed separation into known clades, but longer oligonucleotides further increased the separation ability and revealed subgrouping within known clades. In the case of 15-mers, there is mostly one copy in the genome; thus, 15-mers that appeared after the epidemic started could be connected to mutations, and the BLSOM for 15-mers revealed the mutations that contributed to separation into known clades and their subgroups. After introducing the detailed methodological strategies, we explain BLSOMs for various topics, such as the tetranucleotide BLSOM for over 5 million 5-kb fragment sequences derived from almost all microorganisms currently available and its use in metagenome studies. We also explain BLSOMs for various eukaryotes, including fishes, frogs and Drosophila species, and found a high separation ability among closely related species. When analyzing the human genome, we found enrichments in transcription factor-binding sequences in centromeric and pericentromeric heterochromatin regions. The tDNAs (tRNA genes) could be separated according to their corresponding amino acid.",
+  "abstract_zh": "在遗传学及相关领域，诸如基因组序列等海量数据正不断积累，适用于大数据分析的人工智能（AI）的应用已变得日益重要。能够无需先验知识或特定模型即可从大数据中揭示新知识的无监督AI，对于基因组序列分析尤为理想，特别是为了获得意想不到的见解。我们开发了一种用于寡核苷酸组成的批量学习自组织映射（BLSOM），能够揭示多种新颖的基因组特征。在此，我们解释了通过BLSOM（一种无监督AI）进行的数据挖掘。作为具体目标，我们首先选择了SARS-CoV-2（严重急性呼吸综合征冠状病毒2型），因为通过全球努力已积累了大量的病毒基因组序列。我们分析了主要在大流行第一年收集的超过60万条序列。针对短寡核苷酸（例如4-6聚体）的BLSOM能够将已知进化枝分离，但更长的寡核苷酸进一步提高了分离能力，并揭示了已知进化枝内的亚群划分。以15聚体为例，基因组中通常只有一个拷贝；因此，流行开始后出现的15聚体可能与突变相关，而针对15聚体的BLSOM揭示了有助于将已知进化枝及其亚群分离的突变。在介绍详细的方法学策略后，我们解释了针对多种主题的BLSOM，例如针对目前几乎所有可用微生物来源的超过500万个5-kb片段序列的四核苷酸BLSOM及其在宏基因组研究中的应用。我们还解释了针对多种真核生物（包括鱼类、蛙类和果蝇属物种）的BLSOM，并发现近缘物种间具有高分离能力。在分析人类基因组时，我们发现了着丝粒和着丝粒周围异染色质区域中转录因子结合序列的富集。tDNA（tRNA基因）可根据其对应的氨基酸进行分离。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34565757/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34565757/",
+  "paper_page_path": "papers/pubmed/34565757/index.html"
+}

@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors present DeepDiffusion, a physics-informed neural network for estimating instantaneous diffusion coefficients along single-molecule trajectories of proteins undergoing facilitated 1D diffusion on DNA. They claim accurate detection of subtle diffusion changes in synthetic trajectories despite large underlying errors, successful recapitulation of previously characterized heterogeneity in experimental data, and revelation of mechanistic details inaccessible to current methods.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, code availability statement, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable tool for single-molecule biophysics, addressing a genuine need for methods to detect heterogeneous diffusion in facilitated 1D diffusion. The physics-informed neural network approach is conceptually appealing and timely. However, the abstract provides insufficient quantitative evidence to evaluate the core claims. The performance metrics, comparison against existing methods, and the nature of the "mechanistic details" claimed to be revealed are not specified. The claim of recapitulating previously characterized heterogeneity is presented without supporting data. The abstract reads as a high-level summary but lacks the specificity expected for a methods-focused contribution.
+- **Who would be interested in the results, and why** Single-molecule biophysicists studying protein-DNA interactions, particularly those using fluorescence microscopy and optical tweezers to observe facilitated diffusion. Computational biologists and machine learning researchers developing physics-informed approaches for trajectory analysis would also find the methodology relevant. Researchers in related fields studying 1D diffusion in other biophysical contexts may benefit from the approach.
+- **Major strengths** The problem addressed is well-motivated and of clear importance to the single-molecule community. The physics-informed neural network approach is innovative and appropriate for the task of estimating instantaneous diffusion from noisy trajectories. The authors explicitly acknowledge the challenge of "large underlying errors," suggesting awareness of realistic experimental conditions. The stated goal of making the tool broadly useful for single-molecule researchers is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DeepDiffusion can accurately detect subtle changes in diffusion even when challenged with large underlying errors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims accurate detection of subtle diffusion changes under large errors but provides no quantitative metrics, no definition of "subtle" or "large," and no comparison against existing methods or baselines. Without specific performance numbers, error rates, or benchmark results, this claim cannot be evaluated.
+  - **Why it matters** The central value proposition of the method rests on its ability to outperform or complement existing approaches under realistic noise conditions. Without quantitative evidence, the reader cannot assess whether the method is genuinely useful or merely marginally functional.
+  - **Resolution test** Provide quantitative performance metrics (e.g., mean absolute error, correlation coefficients, detection sensitivity and specificity) for synthetic trajectories with defined noise levels, and compare against at least one established method for diffusion coefficient estimation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DeepDiffusion can recapitulate previously characterised heterogeneity in experimental data and reveal mechanistic details of facilitated diffusion that are inaccessible to current methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of recapitulating known heterogeneity and revealing new mechanistic details is presented without any description of the experimental system, the nature of the heterogeneity, or the specific mechanistic insights obtained. The phrase "inaccessible to current methods" is a strong claim that requires explicit demonstration of what current methods fail to capture.
+  - **Why it matters** The experimental validation is critical for establishing real-world utility. Without specifics, the reader cannot judge whether the recapitulation is trivial or meaningful, nor whether the claimed new insights are credible or overinterpreted.
+  - **Resolution test** Describe the experimental dataset, specify the known heterogeneity that was recapitulated, and clearly state the new mechanistic details with supporting evidence. Demonstrate explicitly why current methods cannot access these details.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** "a physics-informed neural network model for estimating the instantaneous diffusion at each point along a single-molecule trajectory"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how physics is incorporated into the neural network, what architecture is used, how the model is trained, or how instantaneous diffusion is defined and estimated. The term "physics-informed" is used without elaboration.
+  - **Why it matters** For a methods paper, the technical approach is the core contribution. Without methodological details, the reader cannot assess the novelty, reproducibility, or appropriateness of the approach.
+  - **Resolution test** Provide a clear description of the model architecture, the physics constraints incorporated, the training procedure, and the definition of instantaneous diffusion used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "Heterogeneous Facilitated 1D Diffusion" in the title is not defined in the abstract. The relationship between "heterogeneous" and "facilitated" diffusion is unclear.
+  - **Required correction** Define these terms clearly in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Applicability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the tool will allow researchers to "investigate the diffusion of their proteins of interest in unprecedented detail" but does not specify limitations or conditions under which the method may fail.
+  - **Required correction** Include a brief statement of limitations or conditions for optimal applicability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code availability, data availability, or whether the model will be released as open-source software.
+  - **Required correction** State code and data availability plans explicitly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative performance claims and the experimental validation claims must be substantiated with specific data before the utility of DeepDiffusion can be established. R1-M3, while not blocking, is essential for a methods contribution and should be addressed in the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The physics-informed neural network approach for instantaneous diffusion estimation appears novel, though the abstract does not allow full assessment of novelty relative to existing machine learning methods for trajectory analysis. Scientific importance: The problem is important for single-molecule biophysics, and a reliable tool would be valuable. Interdisciplinary readership: The work bridges machine learning and biophysics, which has broad appeal, but the abstract is too technical for nonspecialists to fully appreciate. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative results and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is accessible but lacks context for readers unfamiliar with facilitated diffusion or neural network approaches.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept but lacks the quantitative and methodological detail required to evaluate the core claims. Supportive if the full manuscript provides the missing evidence and addresses the blocking concerns.

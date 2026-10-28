@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "34531414",
+    "doi": "10.1038/s41598-021-97962-5",
+    "title": "Structure-based design and classifications of small molecules regulating the circadian rhythm period."
+  },
+  "content": {
+    "abstract": "Circadian rhythm is an important mechanism that controls behavior and biochemical events based on 24 h rhythmicity. Ample evidence indicates disturbance of this mechanism is associated with different diseases such as cancer, mood disorders, and familial delayed phase sleep disorder. Therefore, drug discovery studies have been initiated using high throughput screening. Recently the crystal structures of core clock proteins (CLOCK/BMAL1, Cryptochromes (CRY), Periods), responsible for generating circadian rhythm, have been solved. Availability of structures makes amenable core clock proteins to design molecules regulating their activity by using in silico approaches. In addition to that, the implementation of classification features of molecules based on their toxicity and activity will improve the accuracy of the drug discovery process. Here, we identified 171 molecules that target functional domains of a core clock protein, CRY1, using structure-based drug design methods. We experimentally determined that 115 molecules were nontoxic, and 21 molecules significantly lengthened the period of circadian rhythm in U2OS cells. We then performed a machine learning study to classify these molecules for identifying features that make them toxic and lengthen the circadian period. Decision tree classifiers (DTC) identified 13 molecular descriptors, which predict the toxicity of molecules with a mean accuracy of 79.53% using tenfold cross-validation. Gradient boosting classifiers (XGBC) identified 10 molecular descriptors that predict and increase in the circadian period length with a mean accuracy of 86.56% with tenfold cross-validation. Our results suggested that these features can be used in QSAR studies to design novel nontoxic molecules that exhibit period lengthening activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "CLOCK Proteins/*metabolism",
+      "Circadian Rhythm/*physiology",
+      "Cryptochromes/*metabolism",
+      "Databases, Protein",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gul, Seref",
+        "Rahim, Fatih",
+        "Isin, Safak",
+        "Yilmaz, Fatma",
+        "Ozturk, Nuri",
+        "Turkay, Metin",
+        "Kavakli, Ibrahim Halil"
+      ],
+      "short_names": [
+        "Gul S",
+        "Rahim F",
+        "Isin S",
+        "Yilmaz F",
+        "Ozturk N",
+        "Turkay M",
+        "Kavakli IH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey.",
+        "Department of Industrial Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey.",
+        "Department of Molecular Biology and Genetics, Rumelifeneri Yolu, Sariyer, Istabul, Turkey.",
+        "Department of Molecular Biology and Genetics, Gebze Technical University, Gebze, 41400, Kocaeli, Turkey.",
+        "Department of Molecular Biology and Genetics, Gebze Technical University, Gebze, 41400, Kocaeli, Turkey.",
+        "Department of Industrial Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. mturkay@ku.edu.tr.",
+        "Department of Chemical and Biological Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. hkavakli@ku.edu.tr.",
+        "Department of Molecular Biology and Genetics, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. hkavakli@ku.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gul, Seref",
+        "short_name": "Gul S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Rahim, Fatih",
+        "short_name": "Rahim F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Industrial Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Isin, Safak",
+        "short_name": "Isin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Rumelifeneri Yolu, Sariyer, Istabul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Yilmaz, Fatma",
+        "short_name": "Yilmaz F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Gebze Technical University, Gebze, 41400, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ozturk, Nuri",
+        "short_name": "Ozturk N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Gebze Technical University, Gebze, 41400, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Turkay, Metin",
+        "short_name": "Turkay M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Industrial Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. mturkay@ku.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Kavakli, Ibrahim Halil",
+        "short_name": "Kavakli IH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Koc University, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. hkavakli@ku.edu.tr.",
+          "Department of Molecular Biology and Genetics, Rumelifeneri Yolu, Sariyer, Istabul, Turkey. hkavakli@ku.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Sep 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/18 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "41878778",
+      "40999975",
+      "40854106",
+      "40480635",
+      "40263343",
+      "37951306",
+      "36347873",
+      "35933018",
+      "35577675"
+    ],
+    "refs": [
+      "35498319",
+      "33844152",
+      "33028638",
+      "33010281",
+      "32538895",
+      "32383312",
+      "32231341",
+      "32040955",
+      "32019867",
+      "31235739",
+      "31143130",
+      "30939759",
+      "30375470",
+      "29750902",
+      "29556064",
+      "28949520",
+      "28388406",
+      "28143926",
+      "28067410",
+      "27076076",
+      "26664458",
+      "25960183",
+      "25957770",
+      "25391456",
+      "25349387",
+      "25127877",
+      "25083013",
+      "25075903",
+      "24889800",
+      "24809473",
+      "24737000",
+      "24581835",
+      "24468109",
+      "23503662",
+      "23198745",
+      "22798407",
+      "22653727",
+      "22257668",
+      "22184224",
+      "21326602",
+      "21243069",
+      "21179498",
+      "20840750",
+      "20418150",
+      "20362693",
+      "20131845",
+      "20072116",
+      "19935677",
+      "19765810",
+      "19499576",
+      "19473235",
+      "19399780",
+      "17463251",
+      "16474406",
+      "16451079",
+      "16222654",
+      "15751956",
+      "15665827",
+      "15338234",
+      "14993400",
+      "12924569",
+      "11749582",
+      "11591712",
+      "10518585",
+      "9616112",
+      "9576906",
+      "9160755"
+    ],
+    "similar": [
+      "34531414",
+      "33106415",
+      "35610417",
+      "32019867",
+      "33028638",
+      "32101164",
+      "33444293",
+      "36226040",
+      "35871891",
+      "36675058",
+      "26456331",
+      "31417156",
+      "21888051",
+      "19917250",
+      "28698388",
+      "25228643",
+      "26188089",
+      "34332958",
+      "29894471",
+      "25271155",
+      "20519775",
+      "26903624",
+      "28388406",
+      "28751364",
+      "33198762",
+      "24895278",
+      "34807912",
+      "34145278",
+      "18430226",
+      "34301769",
+      "24385426",
+      "16628007",
+      "18075593",
+      "23616524",
+      "35999195",
+      "21179498",
+      "21199878",
+      "21653839",
+      "33491228",
+      "26247999",
+      "21771113",
+      "30487216",
+      "33443219",
+      "23189207",
+      "26966073",
+      "32502390",
+      "24089055",
+      "32817420",
+      "32934011",
+      "12495442",
+      "34528676",
+      "27132483",
+      "24437265",
+      "21858120",
+      "34924458",
+      "27440219",
+      "23469106",
+      "18419282",
+      "26168277",
+      "17583506",
+      "29534992",
+      "28143926",
+      "36161947",
+      "27997226",
+      "36961772",
+      "19020302",
+      "22824757",
+      "34584158",
+      "29556064",
+      "12483227",
+      "32383312",
+      "16507766",
+      "17675004",
+      "31914701",
+      "18454201",
+      "29305918",
+      "29537313",
+      "36682495",
+      "24794436",
+      "20160481",
+      "21559487",
+      "19437502",
+      "20551177",
+      "20840750",
+      "21613214",
+      "35188462",
+      "26930624",
+      "23631200",
+      "34375638",
+      "16970803",
+      "16936122",
+      "25201053",
+      "24736997",
+      "24737872",
+      "18614689",
+      "11798163"
+    ],
+    "review": [
+      "34531414",
+      "35871891",
+      "36675058",
+      "21888051",
+      "33198762",
+      "32934011",
+      "24437265",
+      "18419282",
+      "29305918",
+      "23631200",
+      "34375638"
+    ],
+    "pmc": [
+      "8445970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-97962-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34531414/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34531414",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

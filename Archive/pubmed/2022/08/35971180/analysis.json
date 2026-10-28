@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35971180",
+  "title": "BindVAE: Dirichlet variational autoencoders for de novo motif discovery from accessible chromatin.",
+  "authors": "Kshirsagar, Meghana; Yuan, Han; Ferres, Juan Lavista; Leslie, Christina",
+  "journal": "Genome biology",
+  "published_date": "2022-08-16",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Dirichlet变分自编码器从开放染色质序列中无监督解耦多个TF结合信号并发现motif，属TF-DNA互作结合位点预测的AI方法，但未涉及三维结构或动态机制建模。",
+  "abstract": "We present a novel unsupervised deep learning approach called BindVAE, based on Dirichlet variational autoencoders, for jointly decoding multiple TF binding signals from open chromatin regions. BindVAE can disentangle an input DNA sequence into distinct latent factors that encode cell-type specific in vivo binding signals for individual TFs, composite patterns for TFs involved in cooperative binding, and genomic context surrounding the binding sites. On the task of retrieving the motifs of expressed TFs in a given cell type, BindVAE is competitive with existing motif discovery approaches.",
+  "abstract_zh": "我们提出了一种名为BindVAE的新型无监督深度学习方法，基于Dirichlet变分自编码器，用于从开放染色质区域联合解码多个转录因子结合信号。BindVAE能够将输入的DNA序列分解为不同的潜在因子，这些因子编码单个转录因子的细胞类型特异性体内结合信号、参与协同结合的转录因子的复合模式，以及结合位点周围的基因组上下文。在检索给定细胞类型中表达转录因子基序的任务中，BindVAE与现有基序发现方法具有竞争力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35971180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35971180/",
+  "paper_page_path": "papers/pubmed/35971180/index.html"
+}

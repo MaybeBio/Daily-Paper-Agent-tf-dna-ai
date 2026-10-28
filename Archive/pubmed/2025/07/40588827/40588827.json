@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "40588827",
+    "doi": "10.1021/acs.jcim.5c01106",
+    "title": "ERRalpha-Predictor: A Framework of Ensemble Models for Prediction of ERRalpha Binders, Antagonists, and Agonists Using Artificial Intelligence."
+  },
+  "content": {
+    "abstract": "Estrogen-related receptor alpha (ERRalpha) is considered a promising target for the treatment of cancer and metabolic diseases. The development of comprehensive predictive models for ERRalpha binders, antagonists, and agonists is of significant importance. In this study, we collected and curated publicly available ERRalpha ligands from various databases (PubChem, ChEMBL, ExCAPE-DB, BindingDB, and IUPHAR). Based on these data, we first constructed baseline models using different sampling methods and various machine learning and graph neural network approaches. Building upon these results, we then developed the final ERRalpha-Predictor models, which integrated one-dimensional Simplified Molecular Input Line Entry System (SMILES) sequences and graph-based topological information, to predict three datasets: binders, antagonists, and agonists. Overall, the ERRalpha-Predictor models achieved promising performance, with the Matthews correlation coefficient (MCC) on the test sets of the three datasets being 0.633, 0.560, and 0.545, respectively. Additionally, we applied the models to challenging external validation sets while considering the definition of the model applicability domains. In addition to the accuracy of the model prediction, we also conducted interpretative explorations using Shapley additive explanations (SHAP) and GNNExplainer, respectively. Furthermore, we studied the representative structural modifications and substructures of the three datasets using the matched molecular pair analysis (MMPA) method and substructure extraction techniques. Based on these findings, the data collated in this study, along with the constructed ensemble models and analytical techniques, provide an effective and reliable framework for the prediction and analysis of ERRalpha small-molecule ligands. All code for ERRalpha-Predictor is open source and available at https://github.com/lxiongZ/ERRalpha-Predictor.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Receptors, Estrogen/antagonists & inhibitors/metabolism/chemistry",
+      "ERRalpha Estrogen-Related Receptor",
+      "*Artificial Intelligence",
+      "Ligands",
+      "Humans",
+      "Protein Binding",
+      "Neural Networks, Computer",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Le",
+        "Xu, Jiahao",
+        "Yu, Hongbo",
+        "Li, Weihua",
+        "Li, Xinmin",
+        "Song, Wenxiang",
+        "Zhang, Jingwei",
+        "Tang, Yun",
+        "Liu, Guixia"
+      ],
+      "short_names": [
+        "Xiong L",
+        "Xu J",
+        "Yu H",
+        "Li W",
+        "Li X",
+        "Song W",
+        "Zhang J",
+        "Tang Y",
+        "Liu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7055-9836",
+        "ORCID: 0000-0003-2340-1109",
+        "ORCID: 0000-0001-9648-844X"
+      ],
+      "affiliations": [
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Le",
+        "short_name": "Xiong L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiahao",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hongbo",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weihua",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0001-7055-9836"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinmin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Song, Wenxiang",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingwei",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yun",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0003-2340-1109"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guixia",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0000-0001-9648-844X"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 09:30",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40588827",
+      "38923819",
+      "38498003",
+      "38048895",
+      "20211987",
+      "41336184",
+      "30811808",
+      "35041411",
+      "20513360",
+      "18052088",
+      "19462000",
+      "18550029",
+      "36868685",
+      "28346099",
+      "31498028",
+      "15337744",
+      "23707773",
+      "40418571",
+      "11381083",
+      "21546870",
+      "23874451",
+      "39743041",
+      "29216352",
+      "19429439",
+      "32683181",
+      "19921452",
+      "20668045",
+      "32030850",
+      "17053040",
+      "38920342",
+      "39541326",
+      "39864589",
+      "38376838",
+      "40855112",
+      "22014575",
+      "40588070",
+      "14638870",
+      "15184675",
+      "21825219",
+      "41259417",
+      "33477866",
+      "20351196",
+      "20542653",
+      "18441008",
+      "38631478",
+      "30114914",
+      "38393411",
+      "25282305",
+      "33894178",
+      "33042259",
+      "41022529",
+      "39236563",
+      "39191125",
+      "22723937",
+      "36988910",
+      "33591949",
+      "37190810",
+      "18174157",
+      "18778951",
+      "21562305",
+      "40790157",
+      "40730809",
+      "41021995",
+      "40592952",
+      "37149650",
+      "39837061",
+      "37340939",
+      "16150865",
+      "31594836",
+      "20497091",
+      "26037200",
+      "20870744",
+      "21449913",
+      "33918423",
+      "27776343",
+      "19061896",
+      "39513334",
+      "37000044",
+      "39994715",
+      "38547658",
+      "18234909",
+      "11356845",
+      "38773484",
+      "41065769",
+      "30813885",
+      "23066093",
+      "23836899",
+      "39923294",
+      "39528950",
+      "30977157",
+      "38867189",
+      "32897058",
+      "40286423",
+      "17294452",
+      "38206557",
+      "37163498",
+      "40653397",
+      "38645446",
+      "40997754",
+      "38129506"
+    ],
+    "review": [
+      "40588827",
+      "36868685",
+      "37190810",
+      "18778951",
+      "20497091",
+      "26037200",
+      "27776343"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01106",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

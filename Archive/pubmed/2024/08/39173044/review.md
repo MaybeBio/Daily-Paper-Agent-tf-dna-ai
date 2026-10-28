@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Conclusion, Supporting information list)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to evidence, and clarity of presentation. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that quercetin, identified as the core active ingredient of the bupleurum-ginger-licorice TCM formula via network pharmacology, inhibits Stat3 through a dual mechanism: (1) binding to the SH2 domain to disrupt dimerization, and (2) binding to the DBD domain to reduce DNA binding/transcription efficiency. This is supported by molecular docking, MD simulations, binding free energy calculations, and conformational analyses.
+- **Visible evidence base** Network pharmacology results (Fig 2, S1 Fig), molecular similarity analysis (Fig 3, S2 Fig), molecular docking poses (Fig 3), MD simulation convergence metrics (S3 Fig), FEL and cluster analyses (Figs 4, 5), H-bond analyses (Table 1), binding free energy calculations (Tables 2, 3), DNA weak interaction and conformational analyses (Fig 6, S6, S7 Figs).
+- **Missing materials affecting confidence** PDB structure details (6QHD) not described in terms of which chains/domains were used for docking; force field parameters for quercetin not specified; no experimental validation data (e.g., cell-based or biochemical assays) are presented; no statistical analysis of binding free energy differences; no error bars or standard deviations for calculated values; no information on how the "core effective ingredient" was selected from the network pharmacology results beyond degree values.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational workflow combining network pharmacology, molecular docking, and MD simulations to propose a plausible dual-inhibitory mechanism of quercetin on Stat3. The topic is of interest to the cancer drug design community, particularly for those exploring natural product inhibitors. However, the study is entirely computational, and the conclusions are largely qualitative or based on indirect metrics. Several methodological details are missing, and some claims (e.g., "quercetin impairs DNA transcription efficiency") are extrapolated beyond what the simulations can directly demonstrate. The manuscript would benefit from clearer presentation of methods, additional validation, and more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in computational drug design, natural product pharmacology, and cancer biology, particularly those studying Stat3 as a therapeutic target. The work may also interest TCM researchers seeking mechanistic rationalization of formula-based therapies. The proposed dual-binding mechanism could inform future experimental studies on quercetin or related flavonoids.
+- **Major strengths** (1) The integration of network pharmacology with molecular docking and MD simulations is a systematic approach that addresses a relevant question in TCM research. (2) The study considers two distinct binding sites (SH2 and DBD) and provides a comparative analysis of the effects of quercetin on both dimerization and DNA binding. (3) The use of multiple analytical tools (FEL, cluster analysis, weak interaction analysis, Curves) provides a multi-faceted view of the system. (4) The manuscript is generally well-organized and the figures are informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results show that quercetin impairs DNA transcription efficiency by hindering Stat3 dimerization, partially destroying DNA conformation."
+  - **Evidence pointer** Results section, Figs 4-6, Tables 1-3
+  - **Concern** The claim that quercetin "impairs DNA transcription efficiency" is a functional statement that cannot be directly supported by MD simulations or binding free energy calculations. The simulations show structural and energetic changes, but no direct measurement of transcription efficiency (e.g., reporter assays, qPCR, or in vitro transcription) is provided. The link between observed conformational changes and reduced transcription is speculative.
+  - **Why it matters** The central conclusion of the manuscript rests on this functional claim. Without experimental validation or at least a more cautious phrasing (e.g., "may impair"), the conclusion overreaches the evidence.
+  - **Resolution test** Provide experimental data (e.g., Stat3-dependent reporter assays, Western blot for p-Stat3, or DNA-binding assays) that directly test the effect of quercetin on Stat3 transcriptional activity. Alternatively, revise the claim to be explicitly hypothesis-generating.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Quercetin is a low-toxicity, non-carcinogenic flavonoid with antioxidant, anti-inflammatory and anticancer activities" and "the core effective ingredient quercetin and its Stat3 receptor both were identified by network pharmacology."
+  - **Evidence pointer** Abstract, Results section, Fig 2
+  - **Concern** The identification of quercetin as the "core effective ingredient" is based on network pharmacology metrics (degree values), but the manuscript does not provide a clear description of the criteria used to rank ingredients or how the network analysis was validated. The claim of "core" implies a level of certainty that is not justified by the presented analysis. Additionally, the statement that quercetin is "non-carcinogenic" is presented without citation or supporting data.
+  - **Why it matters** The selection of quercetin as the focus of the study is foundational. If the selection criteria are not transparent or robust, the entire subsequent analysis may be built on a weak premise. The safety claim is also relevant for a proposed therapeutic agent.
+  - **Resolution test** Provide a detailed description of the network pharmacology methodology, including scoring functions, thresholds, and validation steps. Add appropriate citations for the safety profile of quercetin or remove the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The predicted free energy values of Sa-Sb and Sb-Sa/Lig are on both sides of ΔGexp, which fully proves the credibility of the calculated data (ΔGcal)."
+  - **Evidence pointer** Results section, Table 2
+  - **Concern** The statement that the calculated free energies "fully prove" credibility is an overstatement. The comparison is made to a single experimental value (ΔGexp = -5.66 kcal·mol-1) from a different assay system (cell-based IC50), and the conversion from IC50 to ΔG involves assumptions (e.g., Cheng-Prusoff equation) that are not described. The agreement could be coincidental given the known limitations of MM/PBSA accuracy.
+  - **Why it matters** The validation of computational predictions against experimental data is important, but the claim of "full proof" is not supported by the evidence presented. Overstating validation undermines the credibility of the study.
+  - **Resolution test** Provide a more nuanced interpretation of the comparison, acknowledge the limitations of the IC50-to-ΔG conversion, and consider comparing to multiple experimental values if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Molecular docking and molecular dynamics (MD) simulation both were used to explore molecular recognition of quercetin with Stat3."
+  - **Evidence pointer** Materials and methods section
+  - **Concern** The methods section lacks critical details for reproducibility. Specifically: (a) the preparation of the protein structure (which chains of 6QHD were used, how missing residues were handled); (b) the preparation of the quercetin structure (protonation state, charges); (c) docking parameters (grid box size, exhaustiveness, scoring function); (d) MD simulation parameters (thermostat, barostat, cutoff, long-range electrostatics, equilibration protocol); (e) how the "representative" docking poses were selected for MD; (f) the force field parameters for quercetin (GAFF? AM1-BCC charges?).
+  - **Why it matters** Without these details, the simulations cannot be reproduced or independently verified, which is a fundamental requirement for computational studies.
+  - **Resolution test** Expand the Materials and methods section to include all relevant parameters, or provide a supplementary methods file with full details.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "quercetin impairs DNA transcription efficiency by hindering Stat3 dimerization, partially destroying DNA conformation." The phrase "partially destroying DNA conformation" is vague and potentially misleading; the simulations show local conformational changes, not destruction.
+  - **Required correction** Rephrase to "inducing local conformational changes in DNA" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Determination of anticancer targets"
+  - **Evidence pointer** Results section, Fig 2
+  - **Issue** The text states "Computational screening yielded greater than twice the median degree of targets for this network: Stat3, Jun, TP53, and TNF" but does not explain why these four were selected over other possible targets. The criterion "greater than twice the median" is mentioned but not clearly defined in the methods.
+  - **Required correction** Clarify the selection criterion in the methods and state the median degree value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, "Analyses of intramolecular H-bonds"
+  - **Evidence pointer** Table 1
+  - **Issue** The table lists H-bonds but does not specify the occupancy or persistence of these bonds over the simulation trajectory. A single snapshot may not be representative.
+  - **Required correction** Report the percentage of simulation time each H-bond is present, or state that the listed bonds are representative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The sentence "In conclusion, the herbal formula of bupleurum, ginger and licorice has good ability to treat cancer" is a strong claim that is not supported by the computational data presented. The study does not test the formula itself.
+  - **Required correction** Rephrase to "the herbal formula has been reported to have anti-cancer properties" or similar, and clarify that the present study only investigates one potential mechanism of one ingredient.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, "Binding free energy calculation"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The manuscript states that MM/PBSA was used but does not specify the entropy calculation method (e.g., normal mode analysis, quasi-harmonic). The TΔS term is mentioned in Table 2 but the method is not described.
+  - **Required correction** Add a description of the entropy calculation method.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Possible inhibitory mechanism"
+  - **Evidence pointer** Fig 7
+  - **Issue** Fig 7 is described as showing the "possible inhibitory mechanism" but the figure itself is not included in the manuscript text provided. The description in the text is not sufficient to understand the proposed mechanism.
+  - **Required correction** Ensure the figure is included and referenced appropriately, or provide a more detailed textual description.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional claim without direct evidence), R1-M2 (lack of methodological transparency in network pharmacology), R1-M4 (insufficient simulation details for reproducibility). These are the primary issues that prevent the conclusions from being fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of a combined network pharmacology and MD simulation approach to a TCM formula is not entirely novel, but the specific focus on dual SH2/DBD inhibition by quercetin provides a somewhat new angle. However, similar computational studies on Stat3 inhibitors exist.
+  - **Scientific importance** Moderate. The findings are hypothesis-generating and may guide future experimental work, but the lack of experimental validation limits the immediate impact. The clinical relevance of the proposed mechanism is plausible but unproven.
+  - **Interdisciplinary readership** The work bridges TCM research, computational chemistry, and cancer biology, which could appeal to a broad readership. However, the technical depth in MD simulations may be challenging for non-specialists, and the TCM context may be less familiar to a general cancer biology audience.
+  - **Technical soundness** The computational methods are standard, but the lack of methodological detail and the overinterpretation of results are significant weaknesses. The study would benefit from more rigorous validation and more cautious claims.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections (e.g., the description of force fields and binding free energy components) assume familiarity with computational chemistry. The abstract is clear, but the results section could be more accessible with better contextualization of the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and uses appropriate computational tools, but the current manuscript overstates its conclusions and lacks sufficient methodological detail. If the authors address the major concerns (particularly R1-M1 and R1-M4) and temper their claims, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- "Quercetin impairs DNA transcription efficiency" - not directly supported by the data; requires experimental validation or rephrasing as a hypothesis.
+- "The predicted free energy values... fully proves the credibility of the calculated data" - overstatement; the comparison to a single experimental value with unstated assumptions does not constitute proof.
+- "The core effective ingredient quercetin" - the selection criteria for "core" are not fully transparent; the claim is stronger than the network pharmacology analysis supports.
+- "Quercetin is a low-toxicity, non-carcinogenic flavonoid" - presented without citation; this is a general claim about the compound that should be referenced.
+- "The herbal formula of bupleurum, ginger and licorice has good ability to treat cancer" - not tested in this study; the claim is too broad and not supported by the computational data presented.

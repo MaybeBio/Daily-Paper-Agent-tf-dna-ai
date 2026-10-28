@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "39031474",
+    "doi": "10.1111/jcmm.18557",
+    "title": "Identification of necroptosis-related genes in ankylosing spondylitis by bioinformatics and experimental validation."
+  },
+  "content": {
+    "abstract": "The pathogenesis of ankylosing spondylitis (AS) remains unclear, and while recent studies have implicated necroptosis in various autoimmune diseases, an investigation of its relationship with AS has not been reported. In this study, we utilized the Gene Expression Omnibus database to compare gene expressions between AS patients and healthy controls, identifying 18 differentially expressed necroptosis-related genes (DENRGs), with 8 upregulated and 10 downregulated. Through the application of three machine learning algorithms-least absolute shrinkage and selection operation, support vector machine-recursive feature elimination and random forest-two hub genes, FASLG and TARDBP, were pinpointed. These genes demonstrated high specificity and sensitivity for AS diagnosis, as evidenced by receiver operating characteristic curve analysis. These findings were further supported by external datasets and cellular experiments, which confirmed the downregulation of FASLG and upregulation of TARDBP in AS patients. Immune cell infiltration analysis suggested that CD4(+) T cells, CD8(+) T cells, NK cells and neutrophils may be associated with the development of AS. Notably, in the group with high FASLG expression, there was a significant infiltration of CD8(+) T cells, memory-activated CD4(+) T cells and resting NK cells, with relatively less infiltration of memory-resting CD4(+) T cells and neutrophils. Conversely, in the group with high TARDBP expression, there was enhanced infiltration of naive CD4(+) T cells and M0 macrophages, with a reduced presence of memory-resting CD4(+) T cells. In summary, FASLG and TARDBP may contribute to AS pathogenesis by regulating the immune microenvironment and immune-related signalling pathways. These findings offer new insights into the molecular mechanisms of AS and suggest potential new targets for therapeutic strategies.",
+    "keywords": [
+      "ankylosing spondylitis",
+      "bioinformatics analysis",
+      "ceRNA network",
+      "immune cell infiltration",
+      "necroptosis"
+    ],
+    "mesh_terms": [
+      "*Spondylitis, Ankylosing/genetics/pathology",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Necroptosis/genetics",
+      "Gene Expression Profiling",
+      "Fas Ligand Protein/genetics/metabolism",
+      "Gene Expression Regulation",
+      "CD8-Positive T-Lymphocytes/metabolism/immunology",
+      "Gene Regulatory Networks",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "ROC Curve",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Pengfei",
+        "Zhao, Yan",
+        "Yang, Mingyi",
+        "Yang, Peng",
+        "Nan, Kai",
+        "Liu, Lin",
+        "Xu, Peng"
+      ],
+      "short_names": [
+        "Wen P",
+        "Zhao Y",
+        "Yang M",
+        "Yang P",
+        "Nan K",
+        "Liu L",
+        "Xu P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8873-5172",
+        "ORCID: 0009-0007-2498-1535",
+        "ORCID: 0000-0003-2487-9163"
+      ],
+      "affiliations": [
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Laboratory, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Pengfei",
+        "short_name": "Wen P",
+        "identifiers": [
+          "0000-0001-8873-5172"
+        ],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mingyi",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Peng",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Nan, Kai",
+        "short_name": "Nan K",
+        "identifiers": [
+          "0009-0007-2498-1535"
+        ],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Peng",
+        "short_name": "Xu P",
+        "identifiers": [
+          "0000-0003-2487-9163"
+        ],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/20 20:46",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42650131",
+      "40002719",
+      "39569322"
+    ],
+    "refs": [
+      "38744293",
+      "38706097",
+      "38684944",
+      "38330550",
+      "38158408",
+      "37386410",
+      "36389725",
+      "36368417",
+      "36361505",
+      "36344541",
+      "36329033",
+      "36289519",
+      "36238290",
+      "36202872",
+      "36151749",
+      "36094095",
+      "36056743",
+      "35899194",
+      "35887814",
+      "35870695",
+      "35813858",
+      "35464477",
+      "35289857",
+      "35013338",
+      "35003139",
+      "34602503",
+      "34589304",
+      "34360544",
+      "34324950",
+      "34223817",
+      "34171534",
+      "33938174",
+      "33717069",
+      "33694180",
+      "33397652",
+      "33340091",
+      "33256841",
+      "33052895",
+      "32804949",
+      "32796025",
+      "32766719",
+      "32560733",
+      "32546562",
+      "32163825",
+      "32051018",
+      "31436036",
+      "30957574",
+      "30793255",
+      "30605008",
+      "30445483",
+      "30008173",
+      "30006601",
+      "29911256",
+      "29428668",
+      "29344893",
+      "29158573",
+      "29045685",
+      "28938189",
+      "28835680",
+      "28068175",
+      "28013316",
+      "27682052",
+      "27060458",
+      "26771021",
+      "26713432",
+      "26656660",
+      "26473967",
+      "26467610",
+      "25822800",
+      "25592536",
+      "25447326",
+      "24330574",
+      "24324212",
+      "24297251",
+      "21470430",
+      "16974012",
+      "16249231",
+      "16199517",
+      "12794152"
+    ],
+    "similar": [
+      "39031474",
+      "39586719",
+      "41146237",
+      "40510349",
+      "42123445",
+      "41044520",
+      "41479901",
+      "41145553",
+      "39072329",
+      "40997906",
+      "38371524",
+      "38690269",
+      "38755717",
+      "37386410",
+      "37063924",
+      "40685440",
+      "42113191",
+      "38711508",
+      "40768057",
+      "42327749",
+      "37582718",
+      "39735537",
+      "40360670",
+      "39509434",
+      "40496861",
+      "40861493",
+      "40263537",
+      "39697326",
+      "39270557",
+      "35928610",
+      "35842645",
+      "41526902",
+      "37327287",
+      "41388523",
+      "39654884",
+      "40207815",
+      "40312440",
+      "42236612",
+      "42074012",
+      "41496071",
+      "39026250",
+      "39670237",
+      "39743646",
+      "35962388",
+      "39354722",
+      "41826854",
+      "40704466",
+      "38291374",
+      "39142001",
+      "40965027",
+      "42642681",
+      "39433800",
+      "41738361",
+      "38867322",
+      "42216376",
+      "34107850",
+      "41132349",
+      "40977739",
+      "39695788",
+      "39396400",
+      "40406620",
+      "41378005",
+      "40830558",
+      "40355204",
+      "33598484",
+      "42302029",
+      "41988156",
+      "37322958",
+      "38903815",
+      "42597971",
+      "37980550",
+      "40129981",
+      "36643579",
+      "41052072",
+      "40500570",
+      "42706545",
+      "39713769",
+      "41991682",
+      "39853176",
+      "40860289",
+      "42217414",
+      "38965390",
+      "39263286",
+      "40659785",
+      "41886545",
+      "40849369",
+      "39349110",
+      "41029776",
+      "39164324",
+      "39375405",
+      "33478117",
+      "40561071",
+      "34589304",
+      "35713363",
+      "42599937",
+      "40296690",
+      "41200172",
+      "41158506",
+      "37287971",
+      "42123756"
+    ],
+    "review": [
+      "39031474"
+    ],
+    "pmc": [
+      "11258886"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ankylosingspondylitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ankylosing Spondylitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39031474/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.18557",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

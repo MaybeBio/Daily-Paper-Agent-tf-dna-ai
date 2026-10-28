@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, figures, or statistical analyses
+- **Shared manuscript claim summary** The authors propose that deoxynivalenol (DON) induces hepatocyte apoptosis in weaned piglets via p53, that PXR regulates this process, and that the PXR agonist 3-indolepropionic acid (IPA) mitigates DON-induced liver damage and diarrhea by enhancing PXR expression, promoting its nuclear translocation, and restoring PXR-p53 binding.
+- **Visible evidence base** RNA-seq, hepatocyte-specific PXR knockout (PXR-HKO) mouse experiments, piglet and cell line studies, AlphaFold3 predictions, and Co-IP assays, all referenced in the abstract
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, animal numbers, dosing regimens, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking PXR to DON-induced hepatocyte apoptosis and proposes IPA as a candidate intervention. However, the evidence as summarized is insufficient to establish the causal chain from PXR-p53 binding changes to apoptosis, and several key experimental details are absent. The translational claim regarding IPA efficacy in weaned piglets under practical farming conditions is stated but not supported by quantitative data in the abstract.
+- **Who would be interested in the results, and why** Researchers in mycotoxin toxicology, hepatic xenobiotic metabolism, and agricultural animal health would find these results relevant. The potential therapeutic application of IPA for DON-induced liver injury in livestock could interest veterinary scientists and the feed industry.
+- **Major strengths** The study addresses a clinically and agriculturally relevant problem with a plausible mechanistic hypothesis. The use of multiple model systems (piglets, mice, cell lines) and both predictive (AlphaFold3) and experimental (Co-IP) approaches to assess protein-protein interaction is commendable. The identification of a natural compound (IPA) as a potential intervention adds translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal mechanism
+  - **Claim pointer** "DON diminishes PXR-p53 binding, thereby amplifying p53-mediated apoptotic transactivation"
+  - **Evidence pointer** AlphaFold3 predictions and Co-IP assays, location not provided
+  - **Concern** The abstract states that AlphaFold3 predictions and Co-IP assays demonstrate reduced PXR-p53 binding upon DON exposure, but it does not specify whether these experiments were performed in the same cell types or under the same conditions as the apoptosis assays. The causal link between reduced binding and increased apoptotic transactivation is asserted without functional validation such as mutagenesis of the binding interface or rescue experiments.
+  - **Why it matters** The central mechanistic claim of the paper rests on the functional consequence of altered PXR-p53 binding. Without direct evidence that disrupting this interaction phenocopies DON effects or that restoring it blocks apoptosis, the mechanism remains correlative.
+  - **Resolution test** Provide functional experiments showing that mutations disrupting PXR-p53 binding increase p53 transcriptional activity and apoptosis, and that restoring binding (e.g., via IPA) reverses these effects in a PXR-dependent manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model relevance and genetic evidence
+  - **Claim pointer** "hepatocyte-specific PXR knockout (PXR-HKO) mice revealed PXR's regulatory role in DON-induced hepatocyte apoptosis"
+  - **Evidence pointer** PXR-HKO mouse experiments, location not provided
+  - **Concern** The abstract does not state whether PXR-HKO mice showed increased or decreased apoptosis compared to controls, nor whether IPA efficacy was lost in these mice. The direction of PXR's regulatory role is ambiguous from the text.
+  - **Why it matters** The claim that PXR regulates DON-induced apoptosis requires clarity on whether PXR is protective or permissive. This determines the interpretation of IPA's mechanism and the overall model.
+  - **Resolution test** State the phenotype of PXR-HKO mice relative to wild-type controls and whether IPA's protective effect is abolished in PXR-HKO mice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Translational efficacy
+  - **Claim pointer** "IPA reduces DON-induced hepatocyte apoptosis in piglets, mice, and hepatocyte cell lines" and "validates the positive impact of IPA in mitigating liver damage and diarrhea caused by DON in weaned piglets"
+  - **Evidence pointer** Piglet, mouse, and cell line studies, location not provided
+  - **Concern** The abstract provides no quantitative outcomes for IPA efficacy, such as reduction in apoptosis markers, liver enzyme levels, diarrhea scores, or body weight changes. The phrase "under practical farming conditions" suggests a field trial, but no details on sample size, controls, or endpoints are given.
+  - **Why it matters** The translational claim is a key selling point of the study. Without quantitative data, the magnitude and statistical significance of IPA's benefit cannot be assessed.
+  - **Resolution test** Provide effect sizes, confidence intervals, and p-values for key endpoints in piglets, and specify the experimental design of the farming condition study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Mechanistic specificity
+  - **Affected element** "PXR decreases its binding to p53 upon DON exposure"
+  - **Evidence pointer** Co-IP assays, location not provided
+  - **Issue** The abstract does not clarify whether the reduced binding is due to a conformational change in PXR, competition by another factor, or post-translational modification.
+  - **Required correction** Add a sentence specifying the proposed biochemical basis for reduced PXR-p53 binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dose and exposure relevance
+  - **Affected element** DON exposure model
+  - **Evidence pointer** Piglet and mouse studies, location not provided
+  - **Issue** The abstract does not state whether DON doses used reflect realistic environmental or dietary exposure levels in piglets.
+  - **Required correction** Include a statement on dose selection relative to known DON contamination levels in feed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "PXR agonist, 3-indolepropionic acid (IPA)"
+  - **Evidence pointer** Abstract text
+  - **Issue** IPA is described as a PXR agonist, but the abstract later states that IPA "enhances PXR expression and facilitates nuclear translocation," which are not canonical agonist effects.
+  - **Required correction** Clarify whether IPA acts as a direct agonist, an expression inducer, or both, and provide supporting evidence for the stated mode of action.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal mechanism), R1-M2 (direction of PXR effect), R1-M3 (quantitative translational data)
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed PXR-p53 interaction as a mediator of DON toxicity is a novel angle, though the abstract does not fully distinguish it from prior work on p53 in mycotoxin toxicity.  
+  - Scientific importance: The topic is relevant to food safety and livestock health, but the abstract does not establish broader implications beyond the specific DON-PXR-p53 axis.  
+  - Interdisciplinary readership: The work bridges toxicology, hepatology, and veterinary science, which could attract a broad audience if the mechanism is convincingly demonstrated.  
+  - Technical soundness: The use of multiple models and orthogonal methods is promising, but the abstract lacks the quantitative and statistical detail needed to assess rigor.  
+  - Readability for nonspecialists: The abstract is generally clear, though terms such as "apoptotic transactivation" and "nuclear translocation" may require context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic and translational claims require substantial additional data and clarification. Supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that DON "diminishes PXR-p53 binding, thereby amplifying p53-mediated apoptotic transactivation" is unsupported without functional validation of the binding change.
+- The claim that IPA "validates" a positive impact in weaned piglets is unsupported without quantitative outcome data.
+- The direction and nature of PXR's regulatory role in DON-induced apoptosis is unclear from the abstract.
+- The mechanism by which IPA enhances PXR expression and nuclear translocation is not specified or supported.

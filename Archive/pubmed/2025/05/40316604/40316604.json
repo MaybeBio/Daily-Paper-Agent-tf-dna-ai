@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "40316604",
+    "doi": "10.1038/s41598-025-96667-3",
+    "title": "Computational analysis of lupenone derivatives as potential inhibitor of human papillomavirus oncoprotein E6 associated cervical cancer."
+  },
+  "content": {
+    "abstract": "Cervical cancer remains a major global health challenge, largely driven by persistent infections with high-risk human papillomavirus (HPV). Although preventive vaccines have reduced cervical cancer incidence in some settings, effective therapeutic strategies for established HPV-associated malignancies remain limited. High-risk HPV types (particularly 16 and 18) utilize their E6 oncoprotein to promote ubiquitin-mediated degradation of the tumor suppressor p53, thereby facilitating uncontrolled cell proliferation and immune evasion. Targeting E6 has thus emerged as a key strategy to counteract HPV-driven carcinogenesis. In this work, we employed a comprehensive in silico framework-encompassing density functional theory (DFT), ADMET (absorption, distribution, metabolism, excretion, and toxicity) profiling, molecular docking (including refinement and validation), and molecular dynamics (MD) simulations-to evaluate a series of chemically modified lupenone derivatives as potential HPV oncoprotein inhibitors. Initially, lupenone was modified with different functional groups, and each derivative was screened for drug-likeness via ADMET analysis to confirm pharmacological viability. Concurrently, pharmacophore mapping highlighted key alignments between ligand functional groups and pharmacophoric sites, while DFT calculations elucidated each compound's electronic structure, conformational stability, and chemical reactivity. Subsequent docking assessments against E6 oncoprotein and molecular dynamics simulations further confirmed structural robustness in several top-performing compounds, indicating minimal conformational fluctuations over time. These findings demonstrate the potential of lupenone derivatives as promising scaffolds for anti-HPV therapy. However, in vitro and in vivo investigations are necessary to confirm their efficacy, toxicity profiles, and clinical relevance in mitigating HPV-related cervical cancer.",
+    "keywords": [
+      "ADMET",
+      "Cervical cancer",
+      "DFT",
+      "Druglikeness",
+      "Human papilloma virus",
+      "Molecular docking",
+      "Molecular dynamic simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Uterine Cervical Neoplasms/virology/drug therapy/metabolism",
+      "Female",
+      "*Oncogene Proteins, Viral/antagonists & inhibitors/metabolism/chemistry",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "*Papillomavirus Infections/virology/drug therapy/complications",
+      "*Repressor Proteins/antagonists & inhibitors/metabolism/chemistry",
+      "Human papillomavirus 16",
+      "Human Papillomavirus Viruses"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mishra, Saurav Kumar",
+        "Shaheen, Mir Md",
+        "Sultana, Sharifa",
+        "Al-Dies, Al-Anood M",
+        "Tayyeb, Jehad Zuhair",
+        "Alqahtani, Taha",
+        "Tiruneh, Yewulsew Kebede",
+        "de Farias Morais, Gabriel Christian",
+        "Oliveira, Jonas Ivan Nobre",
+        "Zaki, Magdi E A"
+      ],
+      "short_names": [
+        "Mishra SK",
+        "Shaheen MM",
+        "Sultana S",
+        "Al-Dies AM",
+        "Tayyeb JZ",
+        "Alqahtani T",
+        "Tiruneh YK",
+        "de Farias Morais GC",
+        "Oliveira JIN",
+        "Zaki MEA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics, University of North Bengal, District-Darjeeling, Darjeeling, 734013, West Bengal, India.",
+        "Computational Biology Research Laboratory, Department of Pharmacy, Daffodil International University, Birulia, Ashulia, Dhaka, 1216, Bangladesh.",
+        "Computational Biology Research Laboratory, Department of Pharmacy, Daffodil International University, Birulia, Ashulia, Dhaka, 1216, Bangladesh.",
+        "Department of Chemistry , Umm Al-Qura University, Al-Qunfudah University College, Al-Qunfudhah, Saudi Arabia.",
+        "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, 23890, Jeddah, Saudi Arabia.",
+        "Department of Pharmacology, College of Pharmacy, King Khalid University, 62529, Abha, Saudi Arabia.",
+        "Department of Biology, Biomedical Sciences Stream, Bahir Dar University, P.O.Box = 79, Bahir Dar, Ethiopia. Kebede@bdu.edu.et.",
+        "Department of Biophysics and Pharmacology, Federal University of Rio Grande do Norte, Natal, RN, Brazil.",
+        "Department of Biophysics and Pharmacology, Federal University of Rio Grande do Norte, Natal, RN, Brazil. jonas.nobre@ufrn.br.",
+        "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Kingdom of Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mishra, Saurav Kumar",
+        "short_name": "Mishra SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, University of North Bengal, District-Darjeeling, Darjeeling, 734013, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Shaheen, Mir Md",
+        "short_name": "Shaheen MM",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Research Laboratory, Department of Pharmacy, Daffodil International University, Birulia, Ashulia, Dhaka, 1216, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sultana, Sharifa",
+        "short_name": "Sultana S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Research Laboratory, Department of Pharmacy, Daffodil International University, Birulia, Ashulia, Dhaka, 1216, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Al-Dies, Al-Anood M",
+        "short_name": "Al-Dies AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry , Umm Al-Qura University, Al-Qunfudah University College, Al-Qunfudhah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Tayyeb, Jehad Zuhair",
+        "short_name": "Tayyeb JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, 23890, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alqahtani, Taha",
+        "short_name": "Alqahtani T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Pharmacy, King Khalid University, 62529, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Tiruneh, Yewulsew Kebede",
+        "short_name": "Tiruneh YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Biomedical Sciences Stream, Bahir Dar University, P.O.Box = 79, Bahir Dar, Ethiopia. Kebede@bdu.edu.et."
+        ]
+      },
+      {
+        "full_name": "de Farias Morais, Gabriel Christian",
+        "short_name": "de Farias Morais GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Pharmacology, Federal University of Rio Grande do Norte, Natal, RN, Brazil."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Jonas Ivan Nobre",
+        "short_name": "Oliveira JIN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Pharmacology, Federal University of Rio Grande do Norte, Natal, RN, Brazil. jonas.nobre@ufrn.br."
+        ]
+      },
+      {
+        "full_name": "Zaki, Magdi E A",
+        "short_name": "Zaki MEA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Kingdom of Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 May 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/03 00:37",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42583093",
+      "42347874",
+      "42098186",
+      "42045396",
+      "41806182",
+      "41772595",
+      "41606026",
+      "41550637",
+      "41329216",
+      "40943635"
+    ],
+    "refs": [
+      "39313163",
+      "38266027",
+      "37255739",
+      "37190151",
+      "36896907",
+      "36861057",
+      "36659988",
+      "36286044",
+      "36246784",
+      "36083601",
+      "35744817",
+      "35655903",
+      "35635284",
+      "35318892",
+      "35289608",
+      "35213606",
+      "34692493",
+      "34475217",
+      "33474656",
+      "33041371",
+      "32703126",
+      "32421120",
+      "32264889",
+      "31995016",
+      "31262911",
+      "31051038",
+      "30707946",
+      "30207593",
+      "29255188",
+      "29120625",
+      "27863967",
+      "27773462",
+      "26400175",
+      "25824339",
+      "24996895",
+      "24854633",
+      "24811640",
+      "23675935",
+      "23393263",
+      "23131123",
+      "22483108",
+      "19029942",
+      "17446671",
+      "17004705",
+      "15781182",
+      "15571494",
+      "15488625",
+      "12925999",
+      "12842378",
+      "12449741",
+      "11911889",
+      "10072678",
+      "9383433",
+      "8951652",
+      "8221889"
+    ],
+    "similar": [
+      "40316604",
+      "40313056",
+      "41144400",
+      "39060289",
+      "41981007",
+      "42278309",
+      "39039663",
+      "42247559",
+      "31693922",
+      "24164050",
+      "41654127",
+      "42693064",
+      "39652633",
+      "42200670",
+      "30875378",
+      "24376816",
+      "30619353",
+      "26199214",
+      "42626072",
+      "41392379",
+      "32680634",
+      "19386711",
+      "32381054",
+      "26573798",
+      "40192871",
+      "40873032",
+      "24854633",
+      "25717103",
+      "41389967",
+      "37549730",
+      "39931987",
+      "31597772",
+      "36474086",
+      "42208837",
+      "25304375",
+      "10413422",
+      "34801511",
+      "16481734",
+      "42630734",
+      "41406631",
+      "37532093",
+      "37837442",
+      "21478701",
+      "30515767",
+      "29943809",
+      "28560716",
+      "42109569",
+      "33468698",
+      "40107437",
+      "21061268",
+      "39761277",
+      "19374192",
+      "30606718",
+      "37516391",
+      "30664221",
+      "37582106",
+      "24795430",
+      "39411320",
+      "21859835",
+      "22245994",
+      "40100964",
+      "40216282",
+      "20442590",
+      "26241675",
+      "19015633",
+      "41160910",
+      "42220428",
+      "31387520",
+      "41787535",
+      "32298665",
+      "41337159",
+      "40643560",
+      "16324714",
+      "28944962",
+      "30230542",
+      "9732239",
+      "38967656",
+      "39890793",
+      "39688415",
+      "42362901",
+      "37783745",
+      "18172569",
+      "26794656",
+      "35381343",
+      "26915086",
+      "42200671",
+      "32546626",
+      "31995016",
+      "42079630",
+      "42204874",
+      "31244421",
+      "19174559",
+      "39378679",
+      "40063062",
+      "17209544",
+      "20957472",
+      "19156753",
+      "26789255",
+      "24925218",
+      "39218415"
+    ],
+    "review": [
+      "40316604",
+      "40107437",
+      "19374192",
+      "40216282",
+      "42220428",
+      "18172569",
+      "35381343",
+      "42204874",
+      "39378679"
+    ],
+    "pmc": [
+      "12048690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-96667-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40316604/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

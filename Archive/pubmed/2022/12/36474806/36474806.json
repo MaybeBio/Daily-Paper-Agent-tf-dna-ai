@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "36474806",
+    "doi": "10.1093/nargab/lqac091",
+    "title": "Predictive modeling of moonlighting DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "Moonlighting proteins are multifunctional, single-polypeptide chains capable of performing multiple autonomous functions. Most moonlighting proteins have been discovered through work unrelated to their multifunctionality. We believe that prediction of moonlighting proteins from first principles, that is, using sequence, predicted structure, evolutionary profiles, and global gene expression profiles, for only one functional class of proteins in a single organism at a time will significantly advance our understanding of multifunctional proteins. In this work, we investigated human moonlighting DNA-binding proteins (mDBPs) in terms of properties that distinguish them from other (non-moonlighting) proteins with the same DNA-binding protein (DBP) function. Following a careful and comprehensive analysis of discriminatory features, a machine learning model was developed to assess the predictability of mDBPs from other DBPs (oDBPs). We observed that mDBPs can be discriminated from oDBPs with high accuracy of 74% AUC of ROC using these first principles features. A number of novel predicted mDBPs were found to have literature support for their being moonlighting and others are proposed as candidates, for which the moonlighting function is currently unknown. We believe that this work will help in deciphering and annotating novel moonlighting DBPs and scale up other functions. The source codes and data sets used for this work are freely available at https://zenodo.org/record/7299265#.Y2pO3ctBxPY.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Varghese, Dana Mary",
+        "Nussinov, Ruth",
+        "Ahmad, Shandar"
+      ],
+      "short_names": [
+        "Varghese DM",
+        "Nussinov R",
+        "Ahmad S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7287-305X"
+      ],
+      "affiliations": [
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi-110067, India.",
+        "Computational Structural Biology Section, Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+        "Department of Human Molecular Genetics and Biochemistry, Sackler School of Medicine, Tel Aviv University, Israel.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi-110067, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Varghese, Dana Mary",
+        "short_name": "Varghese DM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi-110067, India."
+        ]
+      },
+      {
+        "full_name": "Nussinov, Ruth",
+        "short_name": "Nussinov R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Structural Biology Section, Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+          "Department of Human Molecular Genetics and Biochemistry, Sackler School of Medicine, Tel Aviv University, Israel."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [
+          "0000-0002-7287-305X"
+        ],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi-110067, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/08 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "42360672",
+      "40918068",
+      "40391089",
+      "39762390",
+      "36910650"
+    ],
+    "refs": [
+      "35940907",
+      "34434652",
+      "34030624",
+      "33848577",
+      "33828582",
+      "33245761",
+      "33169094",
+      "32385110",
+      "31649722",
+      "31639437",
+      "31432235",
+      "31228283",
+      "31032837",
+      "30371819",
+      "29398562",
+      "29186632",
+      "29136215",
+      "28881966",
+      "28713636",
+      "28155651",
+      "27153604",
+      "26833816",
+      "26176857",
+      "26157797",
+      "26110848",
+      "26109352",
+      "26054620",
+      "25399589",
+      "25399588",
+      "24573882",
+      "24253302",
+      "23861057",
+      "23203987",
+      "23173871",
+      "22814390",
+      "22696112",
+      "22080466",
+      "21680457",
+      "21677976",
+      "21200140",
+      "20930849",
+      "20887256",
+      "20507917",
+      "20144902",
+      "19439068",
+      "19401523",
+      "17646316",
+      "17517783",
+      "16102963",
+      "16054818",
+      "15992771",
+      "15720719",
+      "14761977",
+      "12724303",
+      "11895857",
+      "11259636",
+      "11178989",
+      "11152613",
+      "10891285",
+      "10087914",
+      "9254694",
+      "7817868",
+      "1904503"
+    ],
+    "similar": [
+      "36474806",
+      "25399589",
+      "34030624",
+      "38176503",
+      "25324305",
+      "31432235",
+      "32712338",
+      "26157390",
+      "34434652",
+      "25497125",
+      "23173871",
+      "26217376",
+      "31032837",
+      "21677976",
+      "34203698",
+      "36046247",
+      "32003790",
+      "28451971",
+      "25399606",
+      "37998912",
+      "29771280",
+      "34547327",
+      "26054620",
+      "37537268",
+      "27153604",
+      "27466281",
+      "31803903",
+      "26455812",
+      "25978602",
+      "20144902",
+      "25399590",
+      "29113626",
+      "12693610",
+      "32604778",
+      "29136215",
+      "29203708",
+      "24833341",
+      "30371819",
+      "33584695",
+      "26157797",
+      "37651627",
+      "26106597",
+      "21698752",
+      "36672169",
+      "21491559",
+      "39398578",
+      "34235183",
+      "30099775",
+      "33828582",
+      "25399588",
+      "26110848",
+      "36416116",
+      "32285845",
+      "25399596",
+      "36276080",
+      "19396370",
+      "18322039",
+      "22808104",
+      "28881966",
+      "30260564",
+      "30276753",
+      "22696112",
+      "29126295",
+      "33245761",
+      "37774631",
+      "38316843",
+      "33048189",
+      "19439068",
+      "36719781",
+      "36321557",
+      "29186632",
+      "31080447",
+      "37108803",
+      "31123959",
+      "34452080",
+      "37808115",
+      "32920048",
+      "38294426",
+      "25399591",
+      "31639437",
+      "29718264",
+      "38747369",
+      "34291709",
+      "33001599",
+      "38491801",
+      "31294221",
+      "22143554",
+      "32534477",
+      "11729816",
+      "25399593",
+      "33264039",
+      "26089836",
+      "23872606",
+      "29749128",
+      "21698749",
+      "25399594",
+      "24475169",
+      "27186965",
+      "24933472",
+      "30744060",
+      "33961009"
+    ],
+    "review": [
+      "36474806",
+      "25399589",
+      "31432235",
+      "32712338",
+      "26217376",
+      "25399606",
+      "37998912",
+      "27466281",
+      "31803903",
+      "26455812",
+      "20144902",
+      "25399590",
+      "12693610",
+      "32604778",
+      "29203708",
+      "33584695",
+      "26106597",
+      "21698752",
+      "21491559",
+      "39398578",
+      "34235183",
+      "25399588",
+      "25399596",
+      "19396370",
+      "18322039",
+      "22696112",
+      "37774631",
+      "33048189",
+      "36321557",
+      "25399591",
+      "31639437",
+      "29718264",
+      "31294221",
+      "22143554",
+      "32534477",
+      "25399593",
+      "33264039",
+      "23872606",
+      "29749128",
+      "21698749",
+      "25399594",
+      "27186965",
+      "24933472"
+    ],
+    "pmc": [
+      "9716651"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36474806/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36474806",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqac091",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

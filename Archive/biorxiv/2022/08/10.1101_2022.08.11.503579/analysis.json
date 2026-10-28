@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.11.503579",
+  "title": "DUnet: A deep learning guided protein-ligand binding pocket prediction",
+  "authors": "Xinglong Wang; Beichen Zhao; Penghui Yang; Yameng Tan; Ruyi Ma; Shengqi Rao; Jianhui Du; Jian Chen; Jingwen Zhou; Song Liu",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-15",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用3D卷积神经网络DUnet预测蛋白-配体结合口袋，虽非TF-DNA体系，但蛋白-配体结合位点预测的深度学习方法可迁移至蛋白-DNA互作界面建模，具有一定借鉴价值。",
+  "abstract": "Investigating protein-ligand binding sites is the key step in engineering protein/enzyme activity and selectivity. In this study, we developed a 3D convolutional neural network DUnet that derived from DenseNet and UNet for predicting the protein-ligand binding sites. To train DUnet, the features of protein 3D structure were extracted by describing the atomic physical characters, and the ligand binding sites were used as training labels. DUnet was trained using three dataset, the scPDB dataset (collecting of protein-ligand complexes from Protein Data Bank), scPDB and SC6K (collecting of protein-ligand complexes deposited after January 1st, 2018 from Protein Data Bank) datasets, and scPDB and its derived dataset by rotating the samples in the dataset. DUnet displayed better performance than the current state-of-art methods during the benchmark test using independent validation sets, and enlarging the training set contributed to better accuracy. We developed a small dataset contains commonly used industrial enzymes for testing DUnet and found that it was also accurate in predicting the substrate binding sites. We experimentally characterized the substrate binding sites of microbial transglutaminase according to the prediction and showed the significance of these sites. Finally, DUnet was used to predict the ligand binding sites of Swiss-Prot annotated proteins.",
+  "abstract_zh": "研究蛋白质-配体结合位点是改造蛋白质/酶活性和选择性的关键步骤。在本研究中，我们开发了一种源自DenseNet和UNet的3D卷积神经网络DUnet，用于预测蛋白质-配体结合位点。为训练DUnet，通过描述原子物理特征提取蛋白质3D结构的特征，并将配体结合位点用作训练标签。DUnet使用三个数据集进行训练：scPDB数据集（从蛋白质数据银行收集的蛋白质-配体复合物）、scPDB和SC6K数据集（从蛋白质数据银行收集的2018年1月1日之后沉积的蛋白质-配体复合物），以及scPDB及其通过旋转数据集中样本生成的衍生数据集。在使用独立验证集进行的基准测试中，DUnet表现出优于当前最先进方法的性能，且扩大训练集有助于提高准确性。我们开发了一个包含常用工业酶的小型数据集来测试DUnet，发现其在预测底物结合位点方面同样准确。我们根据预测对微生物转谷氨酰胺酶的底物结合位点进行了实验表征，并展示了这些位点的重要性。最后，DUnet被用于预测Swiss-Prot注释蛋白质的配体结合位点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503579",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503579",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.11.503579/index.html"
+}

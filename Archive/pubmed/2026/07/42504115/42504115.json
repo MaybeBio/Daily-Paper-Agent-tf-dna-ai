@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "42504115",
+    "doi": "10.1155/jimr/8603997",
+    "title": "MX2 and IRF7 are Associated With Disease Activity and Renal Involvement in Systemic Lupus Erythematosus: An Exploratory Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Systemic lupus erythematosus (SLE) has multiple phenotypes, one of which is lupus nephritis (LN), a very serious complication with a high mortality rate. Patients with LN may require different treatment regimens than patients with SLE, as there are significant differences between SLE and LN pathogenesis; however, to date, no biomarkers specific for LN have been characterized. Identification of immunological markers of LN could therefore facilitate more individualized treatment strategies. MATERIALS AND METHODS: Using public datasets (GSE121239), we screened patients based on SELENA-SLEDAI scores into mild (SLELA), moderate-to-severe (SLEHA), and healthy control (HC) groups. Bioinformatics analyses identified differentially expressed genes (DEGs), which were analyzed for functional pathway enrichment and immune cell infiltration. We validated these findings in an independent clinical cohort of 40 SLE patients (20 with LN and 20 without LN) and 20 HC individuals. LN diagnosis was confirmed by renal biopsy or clinical criteria. We assessed disease activity using clinical indicators and measured the expression of MX2, IRF7, and TRIM69 in peripheral blood mononuclear cells (PBMCs) via real-time quantitative PCR (n = 40). Serum interferon-alpha (IFN-alpha) levels were measured by ELISA, and protein expression in kidney tissue was detected by immunofluorescence (IF). RESULTS: We observed differential expression of 32 disease activity-related genes in SLE. Univariate logistic regression and ROC curve analysis indicated that MX2 (AUC = 0.95, 95% CI: 0.92-0.98), TRIM69 (AUC = 0.93, 95% CI: 0.89-0.96), and IRF7 (AUC = 0.91, 95% CI: 0.87-0.95) were associated with SLE diagnosis. Gene ontology functional enrichment analysis suggested that the type I IFN pathway is aberrantly activated in SLE. Disease activity-related genes such as MX2, IRF7, and IFIT3 are functionally enriched in the type I IFN pathway, and abnormal infiltration of neutrophils is involved in SLE pathogenesis. Disease activity-related genes such as MX2 and IRF7 were positively correlated with immune cell infiltration, including neutrophils and memory B cells. RT-qPCR and ELISA showed significantly higher expression of IFN-alpha, MX2, and IRF7 in LN patients than in SLE patients. IF assays showed that IFN-alpha, MX2, and IRF7 were expressed at significantly higher levels in the kidneys of LN patients than in SLE patients. CONCLUSIONS: Our study identifies MX2 and IRF7 as candidate biomarkers associated with high systemic disease activity in SLE. In our validation cohort, their expression was significantly elevated in patients with LN, suggesting they may serve as potential noninvasive indicators warranting further longitudinal investigation for LN risk assessment.",
+    "keywords": [
+      "SLEDAI",
+      "bioinformatics analysis",
+      "machine learning",
+      "systemic lupus erythematosus",
+      "type I interferon"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Interferon Regulatory Factor-7/genetics/metabolism",
+      "*Myxovirus Resistance Proteins/genetics/metabolism",
+      "*Lupus Erythematosus, Systemic/diagnosis/immunology",
+      "Male",
+      "Adult",
+      "*Lupus Nephritis/diagnosis/etiology",
+      "Biomarkers",
+      "*Kidney/pathology",
+      "Gene Expression Profiling",
+      "Severity of Illness Index",
+      "Interferon-alpha/blood",
+      "Middle Aged",
+      "Leukocytes, Mononuclear/metabolism",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, FengQi",
+        "Huang, YiChen",
+        "Liu, Hang",
+        "Zhang, YiYang",
+        "Li, ZhiYu",
+        "Xie, ZhiJun",
+        "Sun, Jing"
+      ],
+      "short_names": [
+        "Zhang F",
+        "Huang Y",
+        "Liu H",
+        "Zhang Y",
+        "Li Z",
+        "Xie Z",
+        "Sun J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7320-8983",
+        "ORCID: 0000-0002-9268-4029",
+        "ORCID: 0000-0002-2585-9618"
+      ],
+      "affiliations": [
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+        "Innovative Institute of Chinese Medicine and Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China, sdutcm.edu.cn.",
+        "Department of Internal Medicine, Yuyao Hospital of Traditional Chinese Medicine, Yuyao, Zhejiang, China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, China, zjhtcm.com.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+        "China and Zhejiang University of Traditional Chinese Medicine Jinhua Research Institute, Hangzhou, China.",
+        "The Second School of Clinical Medicine, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, FengQi",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+          "Innovative Institute of Chinese Medicine and Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China, sdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, YiChen",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Yuyao Hospital of Traditional Chinese Medicine, Yuyao, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hang",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, YiYang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, ZhiYu",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0000-0002-7320-8983"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, China, zjhtcm.com."
+        ]
+      },
+      {
+        "full_name": "Xie, ZhiJun",
+        "short_name": "Xie Z",
+        "identifiers": [
+          "0000-0002-9268-4029"
+        ],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn.",
+          "China and Zhejiang University of Traditional Chinese Medicine Jinhua Research Institute, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jing",
+        "short_name": "Sun J",
+        "identifiers": [
+          "0000-0002-2585-9618"
+        ],
+        "affiliations": [
+          "The Second School of Clinical Medicine, Zhejiang Chinese Medical University, Hangzhou, China, zcmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunology research"
+    ],
+    "journal_abbrev": [
+      "J Immunol Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 06:34",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39390367",
+      "38899167",
+      "38124132",
+      "38009863",
+      "37950194",
+      "37638030",
+      "36407159",
+      "36251989",
+      "36240108",
+      "36059547",
+      "35963808",
+      "35804480",
+      "34782453",
+      "34340046",
+      "34128474",
+      "33451338",
+      "33246136",
+      "32557263",
+      "32220510",
+      "31974366",
+      "31497305",
+      "31036046",
+      "30915077",
+      "30275491",
+      "30258007",
+      "29930301",
+      "29775752",
+      "29067587",
+      "28351959",
+      "27872476",
+      "26405558",
+      "26282854",
+      "23249830",
+      "21360504",
+      "20237459",
+      "12604793"
+    ],
+    "similar": [
+      "42504115",
+      "36059547",
+      "40506261",
+      "40281593",
+      "41488623",
+      "36595110",
+      "40153332",
+      "21632682",
+      "41993198",
+      "40949741",
+      "41257878",
+      "41432807",
+      "39958362",
+      "40323689",
+      "40192999",
+      "36532018",
+      "40019633",
+      "41694395",
+      "27412348",
+      "21679442",
+      "41098736",
+      "40739239",
+      "29774490",
+      "40541265",
+      "34276678",
+      "41758560",
+      "35757721",
+      "41280900",
+      "31673979",
+      "31046570",
+      "31597273",
+      "35967341",
+      "35157371",
+      "35558576",
+      "42575521",
+      "36845141",
+      "41736004",
+      "34742679",
+      "40625749",
+      "41233846",
+      "34461924",
+      "30836987",
+      "28659049",
+      "30871426",
+      "41816342",
+      "38101777",
+      "42410020",
+      "32375176",
+      "22892043",
+      "40011954",
+      "15880830",
+      "16947629",
+      "39037598",
+      "37393341",
+      "29673738",
+      "42348043",
+      "30941928",
+      "40808946",
+      "40629817",
+      "36655136",
+      "33213127",
+      "39690146",
+      "38507132",
+      "38223506",
+      "40207215",
+      "38970507",
+      "40040694",
+      "38228224",
+      "39689598",
+      "37698235",
+      "40319190",
+      "33381119",
+      "40101924",
+      "31036046",
+      "41578171",
+      "28063160",
+      "38855105",
+      "35757684",
+      "34553293",
+      "26663909",
+      "41316541",
+      "25496163",
+      "41164191",
+      "41495309",
+      "26245802",
+      "40388387",
+      "42119160",
+      "39066603",
+      "42154423",
+      "39869603",
+      "33323012",
+      "29530762",
+      "32495893",
+      "37506491",
+      "35967373",
+      "34284174",
+      "31804007",
+      "39172029",
+      "42108498",
+      "40114276"
+    ],
+    "review": [
+      "42504115",
+      "31597273"
+    ],
+    "pmc": [
+      "13402894"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42504115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/jimr/8603997",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

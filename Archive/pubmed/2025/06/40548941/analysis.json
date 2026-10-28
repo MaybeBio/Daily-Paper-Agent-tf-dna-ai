@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40548941",
+  "title": "Building a neural network model to define DNA sequence specificity in V(D)J recombination.",
+  "authors": "Harris, Justin C; Byrum, Jennifer N; McKinney, Cooper B; Fairchild, Victoria; Wu, Dee H; Fagg, Andrew H; Rodgers, Karla K",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-06-24",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用神经网络和SHAP建模V(D)J重组中RSS序列特异性，虽非典型TF-DNA体系，但属于蛋白-DNA互作结合位点预测的AI方法，可迁移至TF-DNA研究。",
+  "abstract": "In developing lymphocytes, V(D)J recombination assembles functional antigen receptor (AgR) genes through rearrangement of the AgR loci to adjoin component gene segments. Each candidate gene segment for recombination is flanked by a recombination signal sequence (RSS), composed of heptamer and nonamer motifs separated by 12 or 23 base pairs. To initiate V(D)J recombination, the recombination activating proteins RAG1 and RAG2 create DNA double-stranded breaks between a 12/23-RSS pair and their adjoining gene segments. The basis for selection of individual RSSs during each V(D)J recombination event is not well understood due, in part, to the wide-spread distribution of the semi-conserved RSSs across the AgR loci. Using publicly-available data for V(D)J recombination efficiencies on randomized 12-RSSs, we first built a neural network model that delineates how changes in sequence at certain positions in the RSS affects recombination efficiency. Second, to interpret the model's decision-making process, we repurposed the game theoretic SHapley Additive exPlanations (SHAP) approach, with the results illustrating how nucleotides at pairwise positions in the heptamer provide synergistic contributions to recombination efficiency. Third, we trained a nonamer-informed neural network model with varied nonamer RSS substrates, and subsequently identified interdependent effects between the heptamer and nonamer regions on recombination efficiency.",
+  "abstract_zh": "在发育中的淋巴细胞中，V(D)J重组通过重排抗原受体（AgR）基因座以连接组成基因片段，从而组装功能性抗原受体基因。每个用于重组的候选基因片段侧翼都有一个重组信号序列（RSS），由七聚体和九聚体基序组成，两者间隔12或23个碱基对。为启动V(D)J重组，重组激活蛋白RAG1和RAG2在12/23-RSS配对与其相邻基因片段之间产生DNA双链断裂。每次V(D)J重组事件中个体RSS选择的基础尚不完全清楚，部分原因在于半保守RSS在AgR基因座上的广泛分布。利用公开可用的随机12-RSS上V(D)J重组效率数据，我们首先构建了一个神经网络模型，该模型描绘了RSS中特定位置序列变化如何影响重组效率。其次，为解释模型的决策过程，我们重新利用了博弈论中的SHapley Additive exPlanations (SHAP)方法，结果显示七聚体中成对位置的核苷酸如何对重组效率提供协同贡献。第三，我们训练了一个基于九聚体信息的神经网络模型，使用不同的九聚体RSS底物，并随后识别出七聚体与九聚体区域对重组效率的相互依赖效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40548941/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40548941/",
+  "paper_page_path": "papers/pubmed/40548941/index.html"
+}

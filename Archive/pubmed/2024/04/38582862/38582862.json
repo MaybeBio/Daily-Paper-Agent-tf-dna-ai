@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "38582862",
+    "doi": "10.1038/s41467-024-47385-3",
+    "title": "Structure and mechanisms of transport of human Asc1/CD98hc amino acid transporter."
+  },
+  "content": {
+    "abstract": "Recent cryoEM studies elucidated details of the structural basis for the substrate selectivity and translocation of heteromeric amino acid transporters. However, Asc1/CD98hc is the only neutral heteromeric amino acid transporter that can function through facilitated diffusion, and the only one that efficiently transports glycine and D-serine, and thus has a regulatory role in the central nervous system. Here we use cryoEM, ligand-binding simulations, mutagenesis, transport assays, and molecular dynamics to define human Asc1/CD98hc determinants for substrate specificity and gain insights into the mechanisms that govern substrate translocation by exchange and facilitated diffusion. The cryoEM structure of Asc1/CD98hc is determined at 3.4-3.8 A resolution, revealing an inward-facing semi-occluded conformation. We find that Ser 246 and Tyr 333 are essential for Asc1/CD98hc substrate selectivity and for the exchange and facilitated diffusion modes of transport. Taken together, these results reveal the structural bases for ligand binding and transport features specific to human Asc1.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Amino Acid Transport Systems/genetics/metabolism",
+      "*Fusion Regulatory Protein 1, Heavy Chain/chemistry",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rullo-Tubau, Josep",
+        "Martinez-Molledo, Maria",
+        "Bartoccioni, Paola",
+        "Puch-Giner, Ignasi",
+        "Arias, Angela",
+        "Saen-Oon, Suwipa",
+        "Stephan-Otto Attolini, Camille",
+        "Artuch, Rafael",
+        "Diaz, Lucia",
+        "Guallar, Victor",
+        "Errasti-Murugarren, Ekaitz",
+        "Palacin, Manuel",
+        "Llorca, Oscar"
+      ],
+      "short_names": [
+        "Rullo-Tubau J",
+        "Martinez-Molledo M",
+        "Bartoccioni P",
+        "Puch-Giner I",
+        "Arias A",
+        "Saen-Oon S",
+        "Stephan-Otto Attolini C",
+        "Artuch R",
+        "Diaz L",
+        "Guallar V",
+        "Errasti-Murugarren E",
+        "Palacin M",
+        "Llorca O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5305-1958",
+        "ORCID: 0000-0002-2948-0891",
+        "ORCID: 0000-0001-8835-8450",
+        "ORCID: 0000-0003-3899-3995",
+        "ORCID: 0000-0002-4101-245X",
+        "ORCID: 0000-0001-8045-320X",
+        "ORCID: 0000-0002-3422-9685",
+        "ORCID: 0000-0001-8850-2571",
+        "ORCID: 0000-0002-4580-1114",
+        "ORCID: 0000-0002-6054-7900",
+        "ORCID: 0000-0002-8670-293X",
+        "ORCID: 0000-0001-5705-0699"
+      ],
+      "affiliations": [
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+        "Structural Biology Programme, Spanish National Cancer Research Centre (CNIO), Melchor Fernandez Almagro, 3, E-28029, Madrid, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+        "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+        "Electronic and atomic protein modelling group, Barcelona Supercomputing Center, Placa d'Eusebi Guell, 1-3, E-08034, Barcelona, Spain.",
+        "Clinical Biochemistry Department, Sant Joan de Deu Research Institute, Pg. de Sant Joan de Deu, 2, E-08950, Esplugues de Llobregat, Spain.",
+        "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+        "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+        "Clinical Biochemistry Department, Sant Joan de Deu Research Institute, Pg. de Sant Joan de Deu, 2, E-08950, Esplugues de Llobregat, Spain.",
+        "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain.",
+        "Electronic and atomic protein modelling group, Barcelona Supercomputing Center, Placa d'Eusebi Guell, 1-3, E-08034, Barcelona, Spain.",
+        "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain.",
+        "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain. ekaitz_errasti@ub.edu.",
+        "Physiological Sciences Department, Genetics Area, School of Medicine and Health Sciences, University of Barcelona, Bellvitge Campus. Feixa Llarga s/n, E-08907, L'Hospitalet de Llobregat, Spain. ekaitz_errasti@ub.edu.",
+        "Human Molecular Genetics Laboratory, Gene, Disease and Therapy Program, IDIBELL, Hospital Duran i Reynals, Avd. Gran Via de L'Hospitalet 199, E-08908, L'Hospitalet de Llobregat, Spain. ekaitz_errasti@ub.edu.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org.",
+        "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org.",
+        "Department of Biochemistry and Molecular Biomedicine, University of Barcelona, Av. Diagonal, 643, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org.",
+        "Structural Biology Programme, Spanish National Cancer Research Centre (CNIO), Melchor Fernandez Almagro, 3, E-28029, Madrid, Spain. ollorca@cnio.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rullo-Tubau, Josep",
+        "short_name": "Rullo-Tubau J",
+        "identifiers": [
+          "0000-0002-5305-1958"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Martinez-Molledo, Maria",
+        "short_name": "Martinez-Molledo M",
+        "identifiers": [
+          "0000-0002-2948-0891"
+        ],
+        "affiliations": [
+          "Structural Biology Programme, Spanish National Cancer Research Centre (CNIO), Melchor Fernández Almagro, 3, E-28029, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Bartoccioni, Paola",
+        "short_name": "Bartoccioni P",
+        "identifiers": [
+          "0000-0001-8835-8450"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+          "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Puch-Giner, Ignasi",
+        "short_name": "Puch-Giner I",
+        "identifiers": [
+          "0000-0003-3899-3995"
+        ],
+        "affiliations": [
+          "Electronic and atomic protein modelling group, Barcelona Supercomputing Center, Plaça d'Eusebi Güell, 1-3, E-08034, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Arias, Ángela",
+        "short_name": "Arias Á",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Biochemistry Department, Sant Joan de Déu Research Institute, Pg. de Sant Joan de Déu, 2, E-08950, Esplugues de Llobregat, Spain."
+        ]
+      },
+      {
+        "full_name": "Saen-Oon, Suwipa",
+        "short_name": "Saen-Oon S",
+        "identifiers": [
+          "0000-0002-4101-245X"
+        ],
+        "affiliations": [
+          "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Stephan-Otto Attolini, Camille",
+        "short_name": "Stephan-Otto Attolini C",
+        "identifiers": [
+          "0000-0001-8045-320X"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Artuch, Rafael",
+        "short_name": "Artuch R",
+        "identifiers": [
+          "0000-0002-3422-9685"
+        ],
+        "affiliations": [
+          "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain.",
+          "Clinical Biochemistry Department, Sant Joan de Déu Research Institute, Pg. de Sant Joan de Déu, 2, E-08950, Esplugues de Llobregat, Spain."
+        ]
+      },
+      {
+        "full_name": "Díaz, Lucía",
+        "short_name": "Díaz L",
+        "identifiers": [
+          "0000-0001-8850-2571"
+        ],
+        "affiliations": [
+          "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Guallar, Víctor",
+        "short_name": "Guallar V",
+        "identifiers": [
+          "0000-0002-4580-1114"
+        ],
+        "affiliations": [
+          "Electronic and atomic protein modelling group, Barcelona Supercomputing Center, Plaça d'Eusebi Güell, 1-3, E-08034, Barcelona, Spain.",
+          "Nostrum Biodiscovery, Av. de Josep Tarradellas, 8-10, E-08029, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Errasti-Murugarren, Ekaitz",
+        "short_name": "Errasti-Murugarren E",
+        "identifiers": [
+          "0000-0002-6054-7900"
+        ],
+        "affiliations": [
+          "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain. ekaitz_errasti@ub.edu.",
+          "Physiological Sciences Department, Genetics Area, School of Medicine and Health Sciences, University of Barcelona, Bellvitge Campus. Feixa Llarga s/n, E-08907, L'Hospitalet de Llobregat, Spain. ekaitz_errasti@ub.edu.",
+          "Human Molecular Genetics Laboratory, Gene, Disease and Therapy Program, IDIBELL, Hospital Duran i Reynals, Avd. Gran Via de L'Hospitalet 199, E-08908, L'Hospitalet de Llobregat, Spain. ekaitz_errasti@ub.edu."
+        ]
+      },
+      {
+        "full_name": "Palacín, Manuel",
+        "short_name": "Palacín M",
+        "identifiers": [
+          "0000-0002-8670-293X"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST), Baldiri Reixac 10, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org.",
+          "The Spanish Center of Rare Diseases (CIBERER U-731), Baldiri Reixac 10, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org.",
+          "Department of Biochemistry and Molecular Biomedicine, University of Barcelona, Av. Diagonal, 643, E-08028, Barcelona, Spain. manuel.palacin@irbbarcelona.org."
+        ]
+      },
+      {
+        "full_name": "Llorca, Oscar",
+        "short_name": "Llorca O",
+        "identifiers": [
+          "0000-0001-5705-0699"
+        ],
+        "affiliations": [
+          "Structural Biology Programme, Spanish National Cancer Research Centre (CNIO), Melchor Fernández Almagro, 3, E-28029, Madrid, Spain. ollorca@cnio.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Apr 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/07 03:43",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "42213839",
+      "42082777",
+      "41904136",
+      "41836390",
+      "41698924",
+      "40429638",
+      "40146632",
+      "40106545",
+      "39983672",
+      "39822574",
+      "39164412"
+    ],
+    "refs": [
+      "38265874",
+      "37327517",
+      "36310334",
+      "36172277",
+      "35605357",
+      "35577790",
+      "34880232",
+      "34848541",
+      "34791371",
+      "34783343",
+      "34753794",
+      "34489418",
+      "34265844",
+      "34197627",
+      "33758168",
+      "33707431",
+      "33408126",
+      "33298890",
+      "33257830",
+      "32817565",
+      "32494597",
+      "32189130",
+      "32111919",
+      "31723194",
+      "31591578",
+      "31160781",
+      "31000719",
+      "30867591",
+      "30502495",
+      "30181291",
+      "29872005",
+      "29416041",
+      "28814780",
+      "28250466",
+      "28165473",
+      "28032990",
+      "27582465",
+      "27302861",
+      "26796213",
+      "26631602",
+      "26278980",
+      "25130509",
+      "24361499",
+      "24266811",
+      "23579614",
+      "23426681",
+      "20383002",
+      "20124702",
+      "19580743",
+      "18481363",
+      "17849009",
+      "16731967",
+      "15458438",
+      "15264254",
+      "15027865",
+      "11847106",
+      "10863037",
+      "10734121"
+    ],
+    "similar": [
+      "38582862",
+      "34848541",
+      "19335336",
+      "31282475",
+      "40106545",
+      "31160781",
+      "11591708",
+      "33606172",
+      "27284037",
+      "10391916",
+      "20610400",
+      "14668347",
+      "25299125",
+      "31500802",
+      "26945935",
+      "15291811",
+      "40780412",
+      "22768207",
+      "31373846",
+      "33016372",
+      "29610403",
+      "35605357",
+      "40347950",
+      "25572393",
+      "29058016",
+      "23296466",
+      "30867591",
+      "30958588",
+      "24516142",
+      "31000719",
+      "29558430",
+      "22046120",
+      "40539573",
+      "30670494",
+      "42414312",
+      "9050235",
+      "28865795",
+      "35595511",
+      "29352106",
+      "38695393",
+      "30026234",
+      "32817565",
+      "28088504",
+      "34461897",
+      "29695141",
+      "26483543",
+      "16825196",
+      "40249774",
+      "31705320",
+      "10734121",
+      "19954741",
+      "19841087",
+      "42475469",
+      "26740192",
+      "33891665",
+      "29120604",
+      "12696180",
+      "25809252",
+      "11121428",
+      "29066623",
+      "34942513",
+      "34684812",
+      "11766986",
+      "32907912",
+      "33066406",
+      "23590433",
+      "32993041",
+      "23912807",
+      "41302469",
+      "39719710",
+      "17273864",
+      "41936919",
+      "30795505",
+      "18987252",
+      "30048132",
+      "36460306",
+      "38381130",
+      "10616805",
+      "25326704",
+      "33758168",
+      "21158741",
+      "25761976",
+      "8662767",
+      "31101938",
+      "25535271",
+      "22737235",
+      "15044460",
+      "18536011",
+      "41189459",
+      "19670073",
+      "39282329",
+      "31076972",
+      "20304764",
+      "25761365",
+      "31160779",
+      "17400549",
+      "30659158",
+      "21298009",
+      "17230192",
+      "15644866"
+    ],
+    "review": [
+      "38582862",
+      "33606172",
+      "27284037",
+      "35605357",
+      "9050235",
+      "35595511",
+      "38695393",
+      "29695141",
+      "19954741",
+      "12696180",
+      "34684812",
+      "11766986",
+      "36460306"
+    ],
+    "pmc": [
+      "10998858"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38582862/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-024-47385-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38582862/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38582862",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2445/214174",
+        "provider": "Diposit Digital de la Universitat de Barcelona - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

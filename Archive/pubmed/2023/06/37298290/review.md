@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and evidence as presented in the manuscript
+- **Shared manuscript claim summary** The authors propose a complete structural model of the AhR:ARNT:DRE complex, combining an existing X-ray structure with homology modelling and de novo loop modelling. Through 3 × 1 μs MD simulations of apo and TCDD-bound forms, they report that TCDD binding stabilizes the AhR PASB domain, alters interdomain correlations, and allosterically influences interactions at the ARNT:DNA interface, suggesting a mechanism for ligand-dependent transcriptional activation.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.4), Discussion, Materials and Methods (Sections 4.1–4.8), figure captions referenced in text, supplementary figure references
+- **Missing materials affecting confidence** Figures and supplementary materials (Figures S1–S8, Table S1) are referenced but not provided. Experimental validation data cited from literature are not reproduced. No raw simulation trajectories or convergence metrics are shown.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally intensive study addressing an important question in AhR biology: how ligand binding to the PASB domain allosterically affects DNA recognition by the AhR:ARNT complex. The methodological approach is reasonable and the authors have made efforts to validate their model against available experimental data. However, the central claims regarding allosteric communication and its functional consequences rest on indirect evidence from MD simulations, and several key analyses are described without sufficient quantitative detail. The manuscript would benefit from clearer presentation of the simulation results, additional validation of the model, and a more cautious interpretation of the allosteric mechanism.
+- **Who would be interested in the results, and why** Researchers in the fields of structural biology, computational biophysics, and toxicology, particularly those studying bHLH-PAS transcription factors, ligand-dependent allosteric regulation, and the molecular basis of dioxin toxicity. The proposed model of the full AhR:ARNT:DRE complex could serve as a useful resource for the community, and the methodological framework for analysing allosteric communication in multidomain protein-DNA complexes may be of broader interest.
+- **Major strengths** The study addresses a significant gap in the field by providing a complete structural model of the AhR:ARNT:DRE complex, which has been lacking due to unresolved regions in experimental structures. The use of multiple long-timescale MD replicas is appropriate for studying dynamic behaviour. The combination of DCCM, community detection, and SOM analysis is a sophisticated approach to extracting allosteric signals from simulation data. The model is validated against recent experimental structures, including Cryo-EM data, which strengthens confidence in the structural basis of the study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TCDD binding "allosterically stabilizes the interactions at the DNA recognition site" and that this provides a mechanism for ligand-dependent transcriptional activation.
+  - **Evidence pointer** Section 2.4, Figure 4
+  - **Concern** The central claim of allosteric stabilization of DNA interactions is based on differences in four interatomic distances at the ARNT bHLH-DNA interface, identified through SOM analysis. However, the manuscript does not provide quantitative details on the magnitude of these distance differences, their statistical significance across the three replicas, or the temporal evolution of these distances. The SOM analysis identifies clusters that differ between apo and holo simulations, but the biological relevance of these differences is not established. The claim that lower distances in holo simulations indicate "stronger interactions" is an interpretation that requires free energy calculations or at least a more rigorous statistical analysis.
+  - **Why it matters** The allosteric mechanism is the central conclusion of the paper. Without quantitative evidence that the observed distance differences are significant, reproducible across replicas, and functionally relevant, the claim of allosteric stabilization of DNA binding is not established.
+  - **Resolution test** Provide the actual distance values and their distributions for the four discriminating distances in apo versus holo simulations, with statistical testing across replicas. Show time series of these distances to demonstrate stable differences rather than transient fluctuations. If possible, perform binding free energy calculations or MM-PBSA/GBSA analyses to support the claim of stronger interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors state that the proposed structural model "shows very good agreement with a previous one and is supported by experimental evidence."
+  - **Evidence pointer** Section 2.1, Section 3
+  - **Concern** While the authors compare their model to a previous homology model and to experimental structures, the validation is largely qualitative. The RMSD values reported (0.94 Å from 4ZP4, 1.73 Å from the previous model, 0.60 Å from dAhR PASB) are mentioned but the details of these comparisons are not provided. More critically, the functional validation of the model relies on literature data regarding mutagenesis experiments, but the authors do not demonstrate that their model specifically recapitulates these experimental observations in a quantitative manner. The de novo modelled loops, which are a significant component of the model, are not validated against any experimental data.
+  - **Why it matters** The reliability of the entire simulation study depends on the accuracy of the structural model. If the modelled loops or domain orientations are incorrect, the observed allosteric effects could be artefacts of the model rather than genuine biological phenomena.
+  - **Resolution test** Provide a more detailed comparison of the model with experimental structures, including per-domain RMSD values and visual superposition figures. Demonstrate that the modelled loops adopt conformations consistent with known loop conformations in homologous proteins. Show that key residues identified in mutagenesis studies are positioned at the modelled interfaces in a way that explains the experimental phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigour
+  - **Claim pointer** The authors claim that the SOM analysis "revealed distinct networks of interactions" and that the motion of specific arginine residues "was found to be strongly correlated with that of the AhR PASB domain in holo simulations."
+  - **Evidence pointer** Section 2.4, Section 4.6, Section 4.7
+  - **Concern** The SOM methodology is described but the choice of input features, the number of clusters, and the interpretation of cluster separation are not fully justified. The correlation analysis using DCCM and path analysis is described, but the statistical significance of the identified paths and communities is not assessed. The claim of "strong correlation" between specific residues is not supported by quantitative correlation coefficients or their confidence intervals.
+  - **Why it matters** The allosteric communication pathway is inferred from correlation and path analyses. Without statistical rigour, these inferences could be driven by noise or artefacts of the simulation protocol.
+  - **Resolution test** Provide quantitative correlation coefficients for the key residue pairs, with bootstrap or block-averaging estimates of uncertainty. Justify the choice of SOM parameters and demonstrate that the observed cluster separation is robust to parameter variation. Show that the identified communication paths are statistically enriched compared to random networks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The RMSD plots are described but the figure is not provided. The text states that apo simulations deviate by 5–8 Å while holo simulations deviate by 2–4 Å (replicas 1 and 2) and 4–6 Å (replica 3). The variability between replicas, particularly the third holo replica, is not discussed.
+  - **Required correction** Discuss the source of replica variability and whether the third holo replica is an outlier. Consider whether the conclusions hold if this replica is excluded.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The homology modelling procedure is described but the sequence identity between the templates and the targets is not reported. The choice of templates and the multi-template strategy would benefit from additional justification.
+  - **Required correction** Report sequence identities and discuss the rationale for template selection, particularly for the PASB domains where the authors note the use of HIF-2α structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The Discussion compares the present results to the previous HIF-2α:ARNT study, noting that in that case ligand binding inhibited dimerization, whereas here TCDD activates. The authors do not discuss why the same methodological approach yields opposite functional outcomes in the two systems.
+  - **Required correction** Add a brief discussion of the structural or dynamic differences between the two systems that might explain the opposite effects of ligand binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Section 4.5
+  - **Issue** The MD simulation protocol is described but key parameters such as the integration time step, the barostat coupling constants, and the specific settings for the production runs are not fully detailed. The force field and water model are stated but the ion concentration and any additional ions beyond Na+ are not specified.
+  - **Required correction** Provide complete simulation parameters to ensure reproducibility, including any additional ions, salt concentration, and the specific version of GROMACS and force field parameters used.
+
+## Risk / unsupported claims
+- The claim that TCDD binding "allosterically stabilizes the interactions at the DNA recognition site" is not quantitatively supported by the data presented. The four discriminating distances are described qualitatively without statistical analysis.
+- The claim that the model is "supported by experimental evidence" is only partially substantiated. While literature data are cited, the direct comparison between the model and specific experimental observations is not shown in sufficient detail.
+- The functional significance of the observed allosteric effects for transcriptional activation is inferred but not directly tested. No experimental validation of the predicted effects on DNA binding affinity is provided.
+- The statement that "the TCDD ligand influences the stability of the quaternary architecture" is based on RMSD differences, but the magnitude and statistical significance of these differences are not fully reported.
+- The claim of a "strong connection" between AhR PASB and ARNT bHLH in the holo network is not supported by quantitative measures of path strength or statistical significance.

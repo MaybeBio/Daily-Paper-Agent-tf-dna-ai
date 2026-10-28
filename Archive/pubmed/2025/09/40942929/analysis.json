@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40942929",
+  "title": "Prediction of Germline BRCA Mutations in High-Risk Breast Cancer Patients Using Machine Learning with Multiparametric Breast MRI Features.",
+  "authors": "Park, Hyeonji; Cho, Kyu Ran; Lee, SeungJae; Cho, Doohyun; Park, Kyong Hwa; Cho, Yoon Sang; Song, Sung Eun",
+  "journal": "Sensors (Basel, Switzerland)",
+  "published_date": "2025-09-13",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习基于乳腺MRI影像特征预测BRCA基因突变，属于临床影像诊断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "The identification of germline BRCA1/2 (BRCA) mutations plays an important role in the treatment planning of high-risk breast cancer patients, but genetic testing may be costly or unavailable. The multiparametric breast MRI (mpMRI) features offer noninvasive imaging biomarkers that could support BRCA mutation prediction. In this study, we investigate whether mpMRI features can predict BRCA mutation status in high-risk breast cancer patients. We collected data from 231 consecutive patients (82 BRCA-positive, 149 BRCA-negative) who underwent BRCA mutation testing and preoperative MRI between 2013 and 2019. We used the mpMRI features, including computer-aided diagnosis (CAD)-derived kinetic features, morphologic features, and apparent diffusion coefficient (ADC) values from diffusion-weighted imaging (DWI). In the univariate analysis, higher CAD-derived washout component and peak enhancement, larger tumor size and angio-volume, peritumoral edema on T2-weighted imaging, axillary adenopathy, and minimal or mild background parenchymal enhancement (BPE) were significantly associated with BRCA mutation, while ADC values showed no significant differences. In the multivariate analysis, three significant predictors were washout component >/= 19.5% (odds ratio [OR] = 3.89, p < 0.001), minimal or mild BPE (OR = 2.57, p = 0.004), and tumor size >/= 2.5 cm (OR = 2.41, p = 0.004). Using these predictors, we compared the predictive performance of 13 ML models through 30 repeated runs and achieved the highest performance (AUC = 0.72). In conclusion, ML models integrating mpMRI features demonstrated good performance for predicting BRCA mutations in high-risk patients. This noninvasive approach may aid personalized treatment planning and genetic counseling.",
+  "abstract_zh": "胚系BRCA1/2（BRCA）突变的识别在高风险乳腺癌患者的治疗规划中发挥重要作用，但基因检测可能成本高昂或不可及。多参数乳腺MRI（mpMRI）特征提供了非侵入性影像生物标志物，可支持BRCA突变预测。在本研究中，我们探讨mpMRI特征是否能预测高风险乳腺癌患者的BRCA突变状态。我们收集了2013年至2019年间接受BRCA突变检测和术前MRI的231例连续患者（82例BRCA阳性，149例BRCA阴性）的数据。我们使用了mpMRI特征，包括计算机辅助诊断（CAD）衍生的动力学特征、形态学特征以及来自弥散加权成像（DWI）的表观弥散系数（ADC）值。在单变量分析中，较高的CAD衍生廓清成分和峰值增强、较大的肿瘤大小和血管体积、T2加权成像上的瘤周水肿、腋窝淋巴结病变以及轻微或轻度背景实质增强（BPE）与BRCA突变显著相关，而ADC值无显著差异。在多变量分析中，三个显著预测因子为廓清成分≥19.5%（比值比 [OR] = 3.89，p < 0.001）、轻微或轻度BPE（OR = 2.57，p = 0.004）以及肿瘤大小≥2.5 cm（OR = 2.41，p = 0.004）。利用这些预测因子，我们通过30次重复运行比较了13种机器学习（ML）模型的预测性能，并达到了最高性能（AUC = 0.72）。总之，整合mpMRI特征的ML模型在预测高风险患者的BRCA突变方面表现出良好性能。这种非侵入性方法可能有助于个性化治疗规划和遗传咨询。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40942929/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40942929/",
+  "paper_page_path": "papers/pubmed/40942929/index.html"
+}

@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "39852553",
+    "doi": "10.1093/brain/awaf025",
+    "title": "Deep learning analyses of splicing variants identify the link of PCP4 with amyotrophic lateral sclerosis."
+  },
+  "content": {
+    "abstract": "Amyotrophic lateral sclerosis (ALS) is a severe motor neuron disease, with most sporadic cases lacking clear genetic causes. Abnormal pre-mRNA splicing is a fundamental mechanism in neurodegenerative diseases. For example, TAR DNA-binding protein 43 (TDP-43) loss of function causes widespread RNA mis-splicing events in ALS. Additionally, splicing mutations are major contributors to neurological disorders. However, the role of intronic variants driving RNA mis-splicing in ALS remains poorly understood. To address this, we developed Spliformer to predict RNA splicing. Spliformer is a transformer-based deep learning model trained and tested on splicing events from the GENCODE database, in addition to RNA-sequencing data from blood and CNS tissues. We benchmarked Spliformer against SpliceAI and Pangolin using testing datasets and paired whole-genome sequencing with RNA-sequencing data. We also developed the Spliformer-motif model to identify splicing regulatory motifs. We analysed the Clinvar dataset to identify the link of splicing variants with disease pathogenicity. Additionally, we analysed whole-genome sequencing data of ALS patients and controls to identify common intronic splicing variants linked to ALS risk or disease phenotypes. We also profiled rare intronic splicing variants in ALS patients to identify known or novel ALS-associated genes. Minigene assays were used to validate candidate splicing variants. Finally, we measured spine density in neurons with a specific gene knockdown or those expressing a TDP-43 disease-causing mutant. Spliformer accurately predicts the possibilities of a nucleotide within a pre-mRNA sequence being a splice donor, acceptor or neither. Spliformer outperformed SpliceAI and Pangolin in both speed and accuracy in tested splicing events and/or paired whole-genome sequencing/RNA-sequencing data. Spliformer-motif successfully identified canonical and novel splicing regulatory motifs. In the Clinvar dataset, splicing variants are highly related to disease pathogenicity. Genome-wide analyses of common intronic splicing variants nominated one variant linked to ALS progression. Deep learning analyses of whole-genome sequencing data from 1370 ALS patients revealed rare splicing variants in reported ALS genes (such as PTPRN2 and CFAP410, validated through minigene assays and RNA sequencing) and TDP-43 loss-of-function-related RNA mis-splicing genes (such as PTPRD). Further genetic analysis and minigene assays nominated PCP4 and TMEM63A as ALS-associated genes. Functional assays demonstrated that PCP4 is crucial for maintaining spine density and can rescue spine loss in neurons expressing a disease-causing TDP-43 mutant. In summary, we developed Spliformer and Spliformer-motif, which accurately predict and interpret pre-mRNA splicing. Our findings highlight an intronic genetic mechanism driving RNA mis-splicing in ALS and nominate PCP4 as an ALS-associated gene.",
+    "keywords": [
+      "RNA mis-splicing",
+      "amyotrophic lateral sclerosis",
+      "deep learning",
+      "genomics",
+      "multi-omics",
+      "splicing variants"
+    ],
+    "mesh_terms": [
+      "*Amyotrophic Lateral Sclerosis/genetics",
+      "Humans",
+      "*Deep Learning",
+      "*RNA Splicing/genetics",
+      "*Nerve Tissue Proteins/genetics",
+      "Introns",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Xuelin",
+        "Chen, Yan",
+        "Ren, Yongfei",
+        "Yang, Wanli",
+        "Yu, Wendi",
+        "Zhou, Yu",
+        "Guo, Jingyan",
+        "Hu, Jiali",
+        "Chen, Xi",
+        "Gu, Yuqi",
+        "Wang, Chuyi",
+        "Dong, Yi",
+        "Yang, Hong",
+        "Sato, Christine",
+        "He, Ji",
+        "Fan, Dongsheng",
+        "You, Linya",
+        "Zinman, Lorne",
+        "Rogaeva, Ekaterina",
+        "Chen, Yelin",
+        "Zhang, Ming"
+      ],
+      "short_names": [
+        "Tang X",
+        "Chen Y",
+        "Ren Y",
+        "Yang W",
+        "Yu W",
+        "Zhou Y",
+        "Guo J",
+        "Hu J",
+        "Chen X",
+        "Gu Y",
+        "Wang C",
+        "Dong Y",
+        "Yang H",
+        "Sato C",
+        "He J",
+        "Fan D",
+        "You L",
+        "Zinman L",
+        "Rogaeva E",
+        "Chen Y",
+        "Zhang M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2569-0269",
+        "ORCID: 0000-0002-4491-8927"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada.",
+        "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "School of Software Engineering, Tongji University, Shanghai 200127, China.",
+        "Department of Computer Science & Engineering, Texas A&M University, College Station, TX 77843, USA.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada.",
+        "Department of Neurology, Peking University Third Hospital, Beijing 100191, China.",
+        "Beijing Municipal Key Laboratory of Biomarker and Translational Research in Neurodegenerative Diseases, Peking University Third Hospital, Beijing 100191, China.",
+        "Department of Neurology, Peking University Third Hospital, Beijing 100191, China.",
+        "Beijing Municipal Key Laboratory of Biomarker and Translational Research in Neurodegenerative Diseases, Peking University Third Hospital, Beijing 100191, China.",
+        "Department of Human Anatomy and Histoembryology, School of Basic Medical Sciences, Fudan University, Shanghai 200032, China.",
+        "Sunnybrook Health Sciences Centre, Toronto, Ontario M4N 3M5, Canada.",
+        "Division of Neurology, University of Toronto, Toronto, Ontario M5S 3H2, Canada.",
+        "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada.",
+        "Division of Neurology, University of Toronto, Toronto, Ontario M5S 3H2, Canada.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+        "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+        "Institute for Advanced Study, Tongji University, Shanghai 200092, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Xuelin",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+          "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Yongfei",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wanli",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wendi",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software Engineering, Tongji University, Shanghai 200127, China.",
+          "Department of Computer Science & Engineering, Texas A&M University, College Station, TX 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yu",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jingyan",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jiali",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yuqi",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chuyi",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yi",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and National Center for Neurological Disorders, Huashan Hospital, Fudan University, Shanghai 200040, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hong",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China."
+        ]
+      },
+      {
+        "full_name": "Sato, Christine",
+        "short_name": "Sato C",
+        "identifiers": [],
+        "affiliations": [
+          "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada."
+        ]
+      },
+      {
+        "full_name": "He, Ji",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Peking University Third Hospital, Beijing 100191, China.",
+          "Beijing Municipal Key Laboratory of Biomarker and Translational Research in Neurodegenerative Diseases, Peking University Third Hospital, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Dongsheng",
+        "short_name": "Fan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Peking University Third Hospital, Beijing 100191, China.",
+          "Beijing Municipal Key Laboratory of Biomarker and Translational Research in Neurodegenerative Diseases, Peking University Third Hospital, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "You, Linya",
+        "short_name": "You L",
+        "identifiers": [
+          "0000-0002-2569-0269"
+        ],
+        "affiliations": [
+          "Department of Human Anatomy and Histoembryology, School of Basic Medical Sciences, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zinman, Lorne",
+        "short_name": "Zinman L",
+        "identifiers": [],
+        "affiliations": [
+          "Sunnybrook Health Sciences Centre, Toronto, Ontario M4N 3M5, Canada.",
+          "Division of Neurology, University of Toronto, Toronto, Ontario M5S 3H2, Canada."
+        ]
+      },
+      {
+        "full_name": "Rogaeva, Ekaterina",
+        "short_name": "Rogaeva E",
+        "identifiers": [],
+        "affiliations": [
+          "Tanz Centre for Research in Neurodegenerative Diseases, University of Toronto, Toronto, Ontario M5T 0S8, Canada.",
+          "Division of Neurology, University of Toronto, Toronto, Ontario M5S 3H2, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Yelin",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ming",
+        "short_name": "Zhang M",
+        "identifiers": [
+          "0000-0002-4491-8927"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Shanghai East Hospital, Clinical Center for Brain and Spinal Cord Research, School of Medicine, Tongji University, Shanghai 200331, China.",
+          "The First Rehabilitation Hospital of Shanghai, School of Medicine, Tongji University, Shanghai 200090, China.",
+          "Institute for Advanced Study, Tongji University, Shanghai 200092, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain : a journal of neurology"
+    ],
+    "journal_abbrev": [
+      "Brain"
+    ],
+    "pub_date": "2025 Jul 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/24 17:38",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42675240",
+      "42306789",
+      "41399527",
+      "40806253"
+    ],
+    "refs": [],
+    "similar": [
+      "39852553",
+      "24750229",
+      "38643019",
+      "40967210",
+      "25792726",
+      "40275359",
+      "35283724",
+      "37593923",
+      "37527763",
+      "34118419",
+      "31964415",
+      "41174170",
+      "25960086",
+      "36675087",
+      "23382207",
+      "36511129",
+      "29764981",
+      "35197628",
+      "40383492",
+      "32479602",
+      "31690696",
+      "26525917",
+      "30290270",
+      "35762937",
+      "22900096",
+      "33942434",
+      "38182429",
+      "34065499",
+      "29630712",
+      "39402625",
+      "31332509",
+      "29342275",
+      "40583130",
+      "40389989",
+      "25689976",
+      "38129864",
+      "19815002",
+      "24355598",
+      "23023293",
+      "24112438",
+      "24931836",
+      "37254000",
+      "36894704",
+      "39361759",
+      "41483114",
+      "38079474",
+      "35197626",
+      "38112783",
+      "22993125",
+      "40997283",
+      "35778567",
+      "39592919",
+      "19808791",
+      "28549443",
+      "25299611",
+      "27378374",
+      "26016851",
+      "25943890",
+      "33420369",
+      "37817060",
+      "37961416",
+      "37394881",
+      "39766771",
+      "36077049",
+      "29982983",
+      "31959210",
+      "36261283",
+      "36883643",
+      "21613650",
+      "40379219",
+      "32686835",
+      "27257061",
+      "32575372",
+      "21109527",
+      "22105541",
+      "26629787",
+      "38723906",
+      "28705014",
+      "23740936",
+      "31060816",
+      "39443442",
+      "38902734",
+      "40802071",
+      "37931111",
+      "28122516",
+      "27164932",
+      "28475858",
+      "20709807",
+      "36008843",
+      "40579253",
+      "18287500",
+      "17469116",
+      "39120292",
+      "37043475",
+      "22870402",
+      "36555863",
+      "26334913",
+      "25382069",
+      "38878498",
+      "37208601"
+    ],
+    "review": [
+      "39852553",
+      "25689976",
+      "24355598",
+      "24112438",
+      "24931836",
+      "19808791",
+      "22105541",
+      "38723906"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://www.ovid.com/39852553.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1263",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39852553",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/awaf025",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

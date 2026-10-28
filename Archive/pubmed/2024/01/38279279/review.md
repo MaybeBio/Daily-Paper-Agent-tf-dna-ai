@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to model 16 missense variants (12 in STAG2, 2 in NIPBL, 2 in RAD21) located at interaction interfaces of the STAG2 protein within the cohesin complex, aiming to rationalize their pathogenic effects at the atomic level and infer functional roles of STAG2 interactions with NIPBL, DNA, RAD21, and CTCF.
+- **Visible evidence base** Full text including abstract, introduction, results sections (2.1-2.4), discussion, materials and methods, and references to supplementary figures (S1-S3) and tables (Table 1)
+- **Missing materials affecting confidence** Supplementary figures S1-S3 and Table 1 are referenced but not provided; no experimental validation data; no raw simulation trajectories or convergence metrics beyond RMSD
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study of disease-associated missense variants in STAG2 and its interaction partners using molecular dynamics simulations. The work addresses a relevant topic given the clinical importance of STAG2 mutations in cancer and developmental disorders. However, the study has significant limitations in its methodological rigor, particularly regarding the absence of quantitative validation of simulation stability, lack of replicate simulations, and the speculative nature of several interpretations. The conclusions drawn are often not fully supported by the presented evidence, and the manuscript would benefit from substantial revision to strengthen its claims.
+- **Who would be interested in the results, and why** Researchers studying cohesin complex biology, clinicians and geneticists working on STAG2-related disorders (Mullegama-Klein-Martinez syndrome, Cornelia de Lange syndrome, holoprosencephaly), and computational biologists interested in applying MD simulations to variant effect prediction. The work may also be of interest to those developing structure-based approaches for interpreting missense variants in disease contexts.
+- **Major strengths** The manuscript addresses an important and understudied question regarding the molecular mechanisms of STAG2 variants. The use of MD simulations to study variant effects at interaction interfaces is a reasonable approach given the difficulty of experimental characterization. The authors appropriately acknowledge limitations of their computational approach in several places. The division of variants into interaction groups provides a clear organizational framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations of 200 ns duration are sufficient to assess the stability and effects of variants on protein-protein and protein-DNA interactions.
+  - **Evidence pointer** Section 4 (Materials and Methods), Section 2 (Results)
+  - **Concern** The manuscript reports single 200 ns MD simulations per variant without replicate simulations. For a system of this size (STAG2 in complex with multiple partners), 200 ns is generally insufficient to sample conformational space adequately, and single trajectories cannot distinguish between genuine variant effects and stochastic fluctuations. No convergence analysis is presented beyond RMSD measurements, and the RMSD data are only in supplementary figures not provided for review.
+  - **Why it matters** Without replicate simulations and convergence assessment, the observed differences between wild-type and variant systems cannot be robustly attributed to the mutations rather than to insufficient sampling. This undermines the central claims of the paper regarding variant-induced structural changes.
+  - **Resolution test** Provide at least three independent replicate simulations per system, show convergence metrics (e.g., RMSD plateau analysis, block averaging), and demonstrate that observed differences between wild-type and variants exceed the variability between replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that "all STAG2 variants are located in highly conserved segments" and use this as supporting evidence for pathogenicity.
+  - **Evidence pointer** Section 2 (Results), Figure 2
+  - **Concern** The conservation analysis is described only briefly, with a single reference to Figure 2 showing sequence alignment of human and mouse STAG1/2/3. No quantitative conservation scores are provided, and the analysis appears limited to three mammalian sequences, which is insufficient to establish evolutionary conservation robustly. Furthermore, the claim that all variants are in conserved regions is not substantiated with specific data.
+  - **Why it matters** Evolutionary conservation is a key argument used to support the potential functional importance of the studied variants. Weak evidence for conservation weakens the rationale for selecting these variants and interpreting their effects as pathogenic.
+  - **Resolution test** Provide a quantitative conservation analysis using a larger multiple sequence alignment (e.g., across vertebrates or eukaryotes) with defined conservation scores for each variant position, and show these scores in a supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and conclusions
+  - **Claim pointer** The authors conclude that specific variants "affect" particular interactions (e.g., STAG2 Arg604Gln and Asp659His affect NIPBL binding; STAG2 Arg954Cys, Lys1009Asn, and Asp1014Asn affect DNA interaction) based on observed changes in inter-molecular distances during MD simulations.
+  - **Evidence pointer** Section 2.1-2.4, Section 3 (Discussion)
+  - **Concern** The causal link between observed distance changes and functional effects on binding affinity or biological function is not established. Changes in distance do not necessarily translate to altered binding free energy or functional impairment. The authors do not compute binding free energies or perform any quantitative assessment of interaction strength. Some variants (e.g., STAG2 Arg604Gln) are described as having "no significant changes," yet the authors still suggest pathogenic mechanisms without direct evidence.
+  - **Why it matters** The central conclusion of the paper is that these variants disrupt specific interactions, but the evidence presented is indirect and qualitative. Overinterpretation of simulation data without energetic or functional validation weakens the scientific claims.
+  - **Resolution test** Compute binding free energies (e.g., MM-PBSA or similar) for wild-type and variant complexes, or provide additional evidence such as hydrogen bond occupancy analysis, to quantitatively support claims of altered interaction strength.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that "every missense variant described for STAG2 is located in regions involved in one of these interactions" and that the 12 STAG2 variants studied represent the full set of described missense variants.
+  - **Evidence pointer** Abstract, Section 1 (Introduction), Table 1
+  - **Concern** The manuscript does not provide a comprehensive list of all described STAG2 missense variants, nor does it justify how the 12 selected variants constitute the complete set. No source database or literature search strategy is described. The claim of completeness is therefore unverifiable from the provided material.
+  - **Why it matters** If the variant selection is incomplete or biased, the conclusions about which interactions are affected by disease-associated variants may be incomplete or misleading.
+  - **Resolution test** Provide a supplementary table listing all known STAG2 missense variants from ClinVar, COSMIC, or literature, with their sources, and clearly indicate which were included in this study and why.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2 (Results), Figure 1
+  - **Evidence pointer** Section 2, Figure 1
+  - **Issue** The text refers to "CCTF" in multiple places (e.g., "in contact with a segment of human CCTF") but the correct protein name is CTCF. This typographical error appears in Sections 2 and 4.
+  - **Required correction** Correct "CCTF" to "CTCF" throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4 (Materials and Methods)
+  - **Evidence pointer** Section 4
+  - **Issue** The methods section does not specify how the missense mutations were introduced into the models (e.g., which software or protocol was used for in silico mutagenesis). This information is essential for reproducibility.
+  - **Required correction** Add a description of the mutagenesis procedure, including software used and any refinement steps after mutation introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2 (Results), distance measurements
+  - **Evidence pointer** Sections 2.1-2.4
+  - **Concern** Distance measurements are reported as mean ± standard deviation, but it is unclear how many frames were used for these calculations and whether the values are normally distributed. The use of standard deviation for potentially non-normal distributions may be misleading.
+  - **Required correction** Specify the number of frames used for statistical analysis and consider reporting median with interquartile range or performing appropriate statistical tests for comparing wild-type and variant distributions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 3 (Discussion)
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion does not compare the findings with any experimental data on STAG2 variants, even where such data may exist in the literature. The authors state that no previous biochemical studies exist, but this claim is not supported with a literature search.
+  - **Required correction** Provide a more thorough literature review to support the claim that no prior biochemical or biophysical studies of these variants exist, or acknowledge any relevant experimental findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient sampling without replicates and convergence analysis), R1-M2 (inadequate conservation analysis), R1-M3 (overinterpretation of distance changes without energetic validation)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of MD simulations to STAG2 variants is novel, but the approach itself is standard and the conceptual advance is limited. Scientific importance: Moderate. Understanding STAG2 variant effects is clinically relevant, but the study does not provide definitive mechanistic insights due to methodological limitations. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and specialists in cohesin biology; the clinical implications are discussed but not developed in sufficient depth for a broad readership. Technical soundness: Currently insufficient. The lack of replicate simulations, convergence analysis, and quantitative energetic calculations undermines the reliability of the conclusions. Readability for nonspecialists: Acceptable. The manuscript is generally well-written and the concepts are explained clearly, though some sections assume familiarity with MD simulation methodology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the authors have made a reasonable effort to apply MD simulations to clinically important variants. However, the methodological limitations described above prevent the conclusions from being robustly supported. Substantial revision with additional simulations, quantitative analyses, and more cautious interpretation would be required before the claims could be considered established.

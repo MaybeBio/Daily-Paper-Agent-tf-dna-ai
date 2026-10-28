@@ -1,0 +1,81 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that trazodone hydrochloride (TRZ) binds to the minor groove of calf thymus DNA (CT-DNA) with moderate affinity, induces local structural distortion including base flipping in the major groove, and that the interaction is enthalpy-driven with hydrogen bonding and van der Waals forces as primary contributors, as supported by spectroscopic, calorimetric, and computational methods.
+- **Visible evidence base** Fluorescence quenching data (binding constants at three temperatures), thermodynamic parameters (ΔH, ΔS, ΔG), molecular docking and 150 ns molecular dynamics simulations, MM/PBSA calculations, DAPI displacement assay, and CD spectroscopy results, all as summarized in the abstract.
+- **Missing materials affecting confidence** Full experimental protocols, raw spectra, simulation convergence criteria, error bars or replicates, statistical analyses, control experiments, and any structural figures or tables referenced in the full manuscript.
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a plausible and methodologically diverse study of TRZ-DNA interactions, combining experimental and computational approaches. However, several claims, particularly regarding base flipping and the carcinogenic potential implied by the title, are not adequately supported by the evidence summarized. The thermodynamic analysis contains apparent inconsistencies that need clarification. The study may be of interest to the biophysical chemistry and drug safety communities, but the current abstract does not establish a strong case for the broader significance implied by the title.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, molecular pharmacology, and drug-DNA interaction studies would find the combined spectroscopic and computational approach useful. Investigators concerned with the off-target effects of antidepressants on genomic DNA may also be interested, though the carcinogenic link is not established in the abstract.
+- **Major strengths** The study employs a multi-technique strategy (fluorescence, CD, docking, MD simulations, MM/PBSA, displacement assay) which is commendable for cross-validation. The temperature-dependent binding data allow thermodynamic characterization. The use of a known minor groove binder (DAPI) as a competitive probe is a sound experimental design. The 150 ns simulation length is reasonable for assessing binding stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract imply that TRZ has carcinogenic potential via DNA targeting, and the abstract states that TRZ "disturbs the duplex DNA structure around the binding site causing base flip in the major groove and disrupting sequence readout."
+  - **Evidence pointer** Abstract, title; specific figure or table not provided
+  - **Concern** The abstract provides no direct evidence linking TRZ-DNA binding to carcinogenicity. Base flipping is mentioned as an observation, but no experimental or simulation data are presented in the abstract to substantiate this specific structural distortion. The functional consequence "disrupting sequence readout" is asserted without supporting data (e.g., transcription assays, polymerase inhibition, or cellular studies).
+  - **Why it matters** The title makes a strong claim about carcinogenic potential, which is a significant public health concern. If the evidence does not support this, the title is misleading. Base flipping is a specific structural event that requires high-resolution structural data (e.g., NMR or crystallography) or well-validated simulation analyses; the abstract does not indicate such evidence.
+  - **Resolution test** Provide explicit structural evidence (e.g., MD trajectory analysis showing base flipping events with criteria, or experimental data such as 2-aminopurine fluorescence or NMR) and functional assays demonstrating sequence readout disruption. Clarify or revise the title to reflect the actual scope of the study.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The thermodynamic parameters are reported as ΔH = -69.006 kJ/mol, ΔS = -0.168 kJ/mol, and ΔG ranging from -18.93 to -16.03 kJ/mol.
+  - **Evidence pointer** Abstract, thermodynamic parameters section
+  - **Concern** The entropy value is reported in units of kJ/mol, which is dimensionally incorrect for entropy (should be kJ/mol·K). If the value is -0.168 kJ/mol·K, then at 288 K, TΔS = -48.4 kJ/mol, and ΔG = ΔH - TΔS = -69.006 - (-48.4) = -20.6 kJ/mol, which is outside the reported range. At 308 K, TΔS = -51.7 kJ/mol, giving ΔG = -17.3 kJ/mol, which is within the range. The inconsistency at 288 K needs resolution. Additionally, the abstract states the binding is "enthalpy-driven" but also mentions "Van der Waals forces" as primary contributors, which is consistent, yet the entropy term is not negligible.
+  - **Why it matters** Thermodynamic parameters are central to the claim of spontaneous, enthalpy-driven binding. Inconsistent or incorrectly reported values undermine the quantitative basis of the study and prevent proper interpretation by readers.
+  - **Resolution test** Recalculate and report all thermodynamic parameters with correct units and consistent values across temperatures. Provide the van't Hoff plot or isothermal titration calorimetry data if available. Clarify the driving forces with proper error analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that TRZ binds in the minor groove, yet disturbs the major groove causing base flip, and that this is validated by DAPI displacement and CD spectroscopy.
+  - **Evidence pointer** Abstract, DAPI displacement and CD spectroscopy sections
+  - **Concern** The DAPI displacement assay is mentioned as validation of minor groove binding, but no quantitative data (e.g., IC50 or displacement percentage) are provided. CD spectroscopy is described as showing "minor variations" which is a weak qualitative statement. The claim that minor groove binding causes major groove distortion is mechanistically unusual and requires robust structural evidence.
+  - **Why it matters** The mode of binding and its structural consequences are central to the study's conclusions. Weak or qualitative evidence for these claims reduces confidence in the proposed mechanism.
+  - **Resolution test** Provide quantitative DAPI displacement data, CD titration curves with molar ellipticity changes, and explicit MD analysis showing the spatial relationship between the minor groove binding site and the proposed major groove base flipping.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Binding constant units
+  - **Evidence pointer** Abstract, fluorescence section
+  - **Issue** The binding constant is reported as "2.7 x10(4) LM(-1)" which should be M^-1 (per molar). The notation "LM(-1)" is nonstandard and could confuse readers.
+  - **Required correction** Use standard units, e.g., M^-1 or L mol^-1, consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, MD simulation section
+  - **Issue** The abstract mentions 150 ns MD simulations but does not specify the force field, water model, or convergence criteria. This limits reproducibility assessment.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Conformational changes statement
+  - **Evidence pointer** Abstract, structural variations section
+  - **Issue** The phrase "minor conformational adjustments and repositioning, especially at piperazine and chlorophenyl ring" is vague. It is unclear whether these are observed in simulations, experiments, or both.
+  - **Required correction** Specify the source of these observations (e.g., MD trajectory analysis) and quantify the changes (e.g., RMSD or dihedral angle shifts).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope alignment
+  - **Affected element** Title and conclusion
+  - **Evidence pointer** Title, abstract conclusion
+  - **Issue** The title emphasizes "carcinogenic potential" but the abstract conclusion only states the findings "will enhance our understanding" without addressing carcinogenicity. This mismatch is problematic.
+  - **Required correction** Either provide evidence or a reasoned discussion linking DNA binding to carcinogenic potential, or revise the title to reflect the actual scope (e.g., "DNA binding interaction study").
+- **Technical failings that need to be addressed before the case is established** R1-M1 (carcinogenic claim and base flipping evidence), R1-M2 (thermodynamic inconsistency), R1-M3 (quantitative validation of binding mode).
+- **Assessment against Nature-style criteria** Originality: The combination of techniques is not novel, but the specific application to TRZ may offer incremental insight. Scientific importance: Moderate; drug-DNA interactions are of interest, but the carcinogenic angle is not substantiated. Interdisciplinary readership: Limited to biophysical chemistry and pharmacology specialists. Technical soundness: The multi-method approach is sound in principle, but the thermodynamic inconsistency and lack of quantitative detail for key claims reduce confidence. Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., MM/PBSA, SARI) without explanation, which may hinder nonspecialist access.
+
+## Risk / unsupported claims
+
+- The claim of "carcinogenic potential" in the title is unsupported by the abstract evidence.
+- The specific observation of "base flip in the major groove" is not substantiated by any data presented in the abstract.
+- The functional consequence "disrupting sequence readout" is asserted without experimental or simulation evidence.
+- The thermodynamic parameters contain a unit inconsistency and a numerical inconsistency at 288 K that render the quantitative claims unreliable as reported.
+- The DAPI displacement and CD results are described qualitatively without quantitative data, making the validation of minor groove binding weak.
+- The statement that TRZ binding causes "problems in sequence readout" is speculative without functional assays.

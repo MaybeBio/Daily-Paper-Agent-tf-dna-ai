@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36321827",
+  "title": "Coordination of CcpA and CodY Regulators in Staphylococcus aureus USA300 Strains.",
+  "authors": "Poudel, Saugat; Hefner, Ying; Szubin, Richard; Sastry, Anand; Gao, Ye; Nizet, Victor; Palsson, Bernhard O",
+  "journal": "mSystems",
+  "published_date": "2022-11-03",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过ICA分析RNA-seq构建金黄色葡萄球菌转录调控网络，研究CcpA和CodY对代谢的协同调控，但无蛋白质-DNA互作建模、结合位点预测或AI/物理模拟方法，仅涉及转录因子调控的基因表达分析，与本课题关联较弱。",
+  "abstract": "The complex cross talk between metabolism and gene regulatory networks makes it difficult to untangle individual constituents and study their precise roles and interactions. To address this issue, we modularized the transcriptional regulatory network (TRN) of the Staphylococcus aureus USA300 strain by applying independent component analysis (ICA) to 385 RNA sequencing samples. We then combined the modular TRN model with a metabolic model to study the regulation of carbon and amino acid metabolism. Our analysis showed that regulation of central carbon metabolism by CcpA and amino acid biosynthesis by CodY are closely coordinated. In general, S. aureus increases the expression of CodY-regulated genes in the presence of preferred carbon sources such as glucose. This transcriptional coordination was corroborated by metabolic model simulations that also showed increased amino acid biosynthesis in the presence of glucose. Further, we found that CodY and CcpA cooperatively regulate the expression of ribosome hibernation-promoting factor, thus linking metabolic cues with translation. In line with this hypothesis, expression of CodY-regulated genes is tightly correlated with expression of genes encoding ribosomal proteins. Together, we propose a coarse-grained model where expression of S. aureus genes encoding enzymes that control carbon flux and nitrogen flux through the system is coregulated with expression of translation machinery to modularly control protein synthesis. While this work focuses on three key regulators, the full TRN model we present contains 76 total independently modulated sets of genes, each with the potential to uncover other complex regulatory structures and interactions. IMPORTANCE Staphylococcus aureus is a versatile pathogen with an expanding antibiotic resistance profile. The biology underlying its clinical success emerges from an interplay of many systems such as metabolism and gene regulatory networks. This work brings together models for these two systems to establish fundamental principles governing the regulation of S. aureus central metabolism and protein synthesis. Studies of these fundamental biological principles are often confined to model organisms such as Escherichia coli. However, expanding these models to pathogens can provide a framework from which complex and clinically important phenotypes such as virulence and antibiotic resistance can be better understood. Additionally, the expanded gene regulatory network model presented here can deconvolute the biology underlying other important phenotypes in this pathogen.",
+  "abstract_zh": "代谢与基因调控网络之间的复杂交互作用使得解析单个组分并研究其精确角色和相互作用变得困难。为解决此问题，我们通过对385个RNA测序样本应用独立成分分析（ICA），将金黄色葡萄球菌USA300菌株的转录调控网络（TRN）模块化。随后，我们将模块化TRN模型与代谢模型结合，研究碳和氨基酸代谢的调控。我们的分析表明，CcpA对中心碳代谢的调控与CodY对氨基酸生物合成的调控紧密协调。总体而言，在存在葡萄糖等优选碳源时，金黄色葡萄球菌会增加CodY调控基因的表达。这种转录协调性得到了代谢模型模拟的证实，模拟也显示在葡萄糖存在下氨基酸生物合成增加。此外，我们发现CodY和CcpA协同调控核糖体休眠促进因子的表达，从而将代谢信号与翻译过程联系起来。与此假设一致，CodY调控基因的表达与编码核糖体蛋白的基因表达紧密相关。综合来看，我们提出一个粗粒度模型，其中金黄色葡萄球菌编码控制碳通量和氮通量酶的基因表达与翻译机制的表达共同调控，以模块化控制蛋白质合成。虽然本研究聚焦于三个关键调控因子，但我们呈现的完整TRN模型包含76个独立调控的基因集，每个基因集都有潜力揭示其他复杂调控结构和相互作用。**重要性** 金黄色葡萄球菌是一种多才多艺的病原体，其抗生素耐药谱不断扩大。其临床成功背后的生物学源于代谢和基因调控网络等多个系统的相互作用。本研究整合了这两个系统的模型，以确立调控金黄色葡萄球菌中心代谢和蛋白质合成的基本原则。对这些基本生物学原理的研究通常局限于模式生物，如大肠杆菌。然而，将这些模型扩展到病原体可为理解复杂且临床重要的表型（如毒力和抗生素耐药性）提供框架。此外，本文呈现的扩展基因调控网络模型可解析该病原体中其他重要表型背后的生物学机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36321827/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36321827/",
+  "paper_page_path": "papers/pubmed/36321827/index.html"
+}

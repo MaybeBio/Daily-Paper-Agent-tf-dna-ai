@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The authors report a high-throughput, data-driven method combining a 1.54 million-template DNA library, in vitro transcription, RNA aptamer selection, and deep sequencing to map σ-factor DNA binding sequences. Applied to σ54 in Pseudomonas putida, the approach reportedly identified 64,966 distinct σ54 binding motifs, expanded the known repertoire, and enabled direct assessment of promoter activity, transcription start sites, and promoter strength.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods details, library construction and quality control data, sequencing statistics, bioinformatic analysis pipeline, validation experiments, and any comparison with existing σ54 motif datasets
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable methodological advance for σ-factor binding motif discovery, with a scale of data generation that could indeed expand known sequence repertoires. However, the abstract alone does not provide sufficient technical detail to assess the validity of the core claims. Key questions regarding library design, aptamer selection efficiency, sequencing depth, data filtering criteria, and validation against known σ54-dependent promoters remain unanswered. The claim of 64,966 distinct motifs is striking but cannot be evaluated without information on how distinctness was defined, what thresholds were applied, and how false positives were controlled.
+- **Who would be interested in the results, and why** Researchers in bacterial transcription regulation, particularly those studying alternative σ factors and promoter architecture; synthetic biologists designing promoter libraries for heterologous gene expression; and computational biologists developing motif discovery algorithms. The methodological combination of in vitro transcription with RNA aptamer selection and deep sequencing could also interest method developers in functional genomics.
+- **Major strengths** The approach conceptually addresses a limitation of traditional binding-based methods by directly linking promoter function to sequence identity. The scale of the library (1.54 million templates) and the reported number of identified motifs (64,966) suggest substantial data generation. The combination of promoter activity assessment with transcription start site identification in a single workflow is potentially powerful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "allows direct assessment of promoter activity, identification of transcription start sites, and quantification of promoter strength based on mRNA production levels."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims simultaneous assessment of promoter activity, transcription start site identification, and promoter strength quantification, but no details are given on how these three outputs are derived from the sequencing data. Specifically, it is unclear how transcription start sites are determined from RNA aptamer selection, which typically enriches for RNA molecules with specific binding properties rather than preserving 5′ end information. The relationship between aptamer selection efficiency and mRNA production levels as a measure of promoter strength is not explained.
+  - **Why it matters** If transcription start sites are not directly captured by the aptamer-based enrichment, the claim of TSS identification may be overstated. Similarly, if aptamer selection introduces bias unrelated to promoter strength, the quantification claim would be compromised. These are central methodological claims that underpin the entire approach.
+  - **Resolution test** Provide a clear description of the experimental and computational workflow showing how TSS information is preserved through aptamer selection and how promoter strength is quantitatively derived. Include validation data comparing TSS calls and strength measurements against known σ54-dependent promoters in P. putida.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Deep sequencing of the enriched RNA pool revealed 64,966 distinct σ54 binding motifs, significantly expanding the known repertoire."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The number 64,966 is presented without any definition of what constitutes a "distinct motif." It is unclear whether this refers to unique sequence variants, clustered motifs, or individual library members passing a threshold. No information is provided on how background transcription, false positives, or sequence redundancy were handled. The claim of "significantly expanding the known repertoire" requires a baseline comparison that is not described.
+  - **Why it matters** Without clear criteria for motif calling and false-positive control, the headline number could be substantially inflated by noise or by counting near-identical sequences as distinct. The scientific value of the dataset depends entirely on the reliability of this count and the quality of the individual motif calls.
+  - **Resolution test** Define the exact criteria for a "distinct motif," describe the bioinformatic filtering steps, provide statistics on sequence diversity and redundancy, and show a comparison with existing σ54 motif databases or position weight matrices to substantiate the claim of expansion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "This data-driven approach surpasses traditional methods by directly evaluating promoter function and avoiding selection bias based solely on binding affinity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of superiority over traditional methods is made without comparative data. No evidence is presented that the functional readout actually avoids binding-affinity bias, nor that the results are more accurate or comprehensive than existing approaches such as SELEX, ChIP-seq, or consensus-based prediction. The phrase "surpasses traditional methods" is a strong comparative claim that requires direct benchmarking.
+  - **Why it matters** Comparative claims of methodological superiority are only meaningful with head-to-head validation. If the method produces motifs that are not functional in vivo or misses known functional promoters, the claim of superiority would be undermined. The abstract provides no basis for this comparison.
+  - **Resolution test** Include a benchmarking section comparing the identified motifs against known σ54 binding sites, existing position weight matrices, and results from orthogonal methods. Demonstrate that the functional readout provides information not available from binding-based approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "5 ′ UTR sequences" and "RNA aptamer selection" without explaining their specific roles in the workflow. A nonspecialist reader cannot easily understand why UTR sequences are included in a library designed to map σ-factor binding sequences or how aptamer selection contributes to the readout.
+  - **Required correction** Briefly clarify the function of the UTR component and the aptamer selection step in one or two sentences, or rephrase to make the workflow logic more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how many σ54 binding motifs were previously known for P. putida or in general, which would contextualize the significance of 64,966. Without this baseline, the reader cannot judge whether the expansion is incremental or transformative.
+  - **Required correction** Add a brief statement of the previously known number of σ54 motifs or the size of existing databases to frame the reported expansion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Validation statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions no validation of the identified motifs, such as confirmation of a subset by reporter assays, electrophoretic mobility shift assays, or in vivo promoter activity measurements. The absence of any validation statement weakens confidence in the biological relevance of the findings.
+  - **Required correction** Add a sentence describing any validation experiments performed, or explicitly state that validation is ongoing or planned.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient technical detail to establish that the method works as claimed, that the motif count is reliable, or that the approach indeed surpasses existing methods.
+- **Assessment against Nature-style criteria** Originality: The combination of elements described is novel, though the individual components (library-based promoter profiling, aptamer selection, deep sequencing) are established techniques. Scientific importance: Potentially high for the σ-factor research community, but the significance cannot be fully assessed without validation data and comparison to existing knowledge. Interdisciplinary readership: The method could interest synthetic biologists and method developers, but the abstract is written primarily for a specialist microbiology audience. Technical soundness: Cannot be evaluated from the abstract alone; the described workflow raises specific questions that must be resolved. Readability for nonspecialists: The abstract is reasonably clear for experts but contains unexplained technical elements that would hinder broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting approach, but the core claims regarding TSS identification, promoter strength quantification, and the 64,966 motif count cannot be verified without the full manuscript. A supportive assessment would require the methods and validation data to address the concerns raised above.

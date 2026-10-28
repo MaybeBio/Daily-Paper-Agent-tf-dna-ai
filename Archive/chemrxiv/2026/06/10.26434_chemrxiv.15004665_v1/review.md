@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors introduce FPON, a laser-driven hydroxyl-radical footprinting method coupled to LC-MS, and claim it maps DNA accessibility and damage at sub-nucleotide resolution. Using FOXO4-DBD bound to an IRE, they report site-specific protection patterns, use these to guide in silico complex construction, and validate via molecular dynamics simulations showing agreement between cleavage suppression and reduced solvent accessibility. They further claim FPON resolves chemically distinct cleavage products not distinguishable by gel-based methods, and position FPON as an unbiased, high-resolution strategy applicable to chromatin systems.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or method details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, mass spectrometry data, simulation parameters, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that combines established hydroxyl-radical footprinting principles with modern LC-MS readout, potentially offering advantages in resolution and chemical specificity. However, the claims of sub-nucleotide resolution, quantitative mapping, and structural guidance are not verifiable from the abstract alone. The central validation rests on agreement between experimental cleavage suppression and computational solvent accessibility, but no quantitative metrics, controls, or error analyses are presented. The work may be of interest to structural biologists and chromatin researchers, but the current evidence base is insufficient to establish the method's claimed capabilities.
+- **Who would be interested in the results, and why** Structural biologists studying protein-DNA complexes, particularly those lacking high-resolution crystal or cryo-EM structures, would find a footprinting method with sub-nucleotide resolution attractive. Chromatin researchers investigating transcription factor dynamics and DNA accessibility in native contexts would also be interested, as would mass spectrometry specialists developing new footprinting workflows. The potential to distinguish chemically distinct cleavage products could appeal to researchers needing mechanistic detail beyond simple protection patterns.
+- **Major strengths** The conceptual advance of coupling laser-driven hydroxyl-radical footprinting with LC-MS for nucleic acids is timely and builds logically on established protein footprinting methods. The claim of resolving chemically distinct cleavage products addresses a known limitation of gel-based approaches. The integration of experimental footprinting data with molecular dynamics simulations to guide complex modeling is a sensible and potentially powerful strategy, especially when no high-resolution structure exists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** FPON quantitatively maps DNA accessibility and damage at sub-nucleotide resolution
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims sub-nucleotide resolution and quantitative mapping, but no data are shown to define what "sub-nucleotide" means operationally, how resolution was measured, or how quantitation was calibrated. No controls, replicates, or statistical measures are mentioned.
+  - **Why it matters** Resolution and quantitation are the core methodological claims. Without a clear operational definition and supporting data, the reader cannot assess whether FPON genuinely outperforms existing footprinting methods or whether the resolution claim is an artifact of data processing.
+  - **Resolution test** Provide a detailed methods section defining resolution (e.g., ability to distinguish cleavage at adjacent phosphodiester bonds or individual bases), calibration curves for quantitation, replicate analyses with error estimates, and a comparison to a gold-standard method on the same DNA substrate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Site-specific protection patterns within the FOXO4 recognition motif guided the construction of an in silico FOXO4-IRE complex
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that protection patterns guided in silico complex construction, but no details are given on how many protection sites were identified, their magnitudes, their reproducibility, or how they were converted into structural restraints. The validation via molecular dynamics is described only as "strong agreement," with no quantitative metric.
+  - **Why it matters** The in silico model is a key outcome, but without a transparent link between experimental data and model building, the structural conclusions are not reproducible or falsifiable. "Strong agreement" is subjective without a defined comparison metric.
+  - **Resolution test** Show the protection data with error bars, describe the modeling protocol explicitly, and provide a quantitative comparison between predicted and observed cleavage patterns (e.g., correlation coefficients, root-mean-square deviations, or similar).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** FPON resolved multiple chemically distinct cleavage products otherwise indistinguishable in conventional gel-based footprinting approaches
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a specific advantage over gel-based methods, but no examples of these distinct products are given, nor is it explained why they matter biologically or structurally. The chemical identities of the products are not stated.
+  - **Why it matters** This claim is central to the method's novelty, but without chemical characterization and a demonstration of biological relevance, it remains an assertion rather than an established advantage.
+  - **Resolution test** Provide mass spectrometry data identifying the chemical structures of the distinct cleavage products, show how they differ from gel-based readouts on the same sample, and explain their structural or functional significance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "sub-nucleotide resolution" and "backbone accessibility" without defining them for readers unfamiliar with footprinting or mass spectrometry.
+  - **Required correction** Add brief operational definitions or contextual explanations in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims FPON is "readily applicable to more complex chromatin systems," but no data or reasoning support this extrapolation from a single purified domain on a short duplex.
+  - **Required correction** Either temper the claim to reflect the current demonstration or provide preliminary data on a more complex system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The molecular dynamics simulations are mentioned as showing agreement, but no simulation length, force field, or system setup details are given.
+  - **Required correction** Include simulation parameters in the methods or supplementary information.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient operational detail, quantitative data, or validation metrics to support the central claims of resolution, quantitation, structural guidance, and methodological advantage.
+- **Assessment against Nature-style criteria** Originality: The concept of applying FPOP-style chemistry to nucleic acids with LC-MS readout is novel and extends existing protein footprinting approaches in a logical direction. Scientific importance: If fully validated, the method could fill a gap in high-resolution footprinting for protein-DNA complexes, but the current abstract does not demonstrate impact beyond a single model system. Interdisciplinary readership: The work bridges chemistry, structural biology, and mass spectrometry, which could attract a broad audience, but the abstract is too technical for nonspecialists without more context. Technical soundness: Not assessable from the abstract; the claims require substantial methodological detail and validation data. Readability for nonspecialists: The abstract is dense and assumes familiarity with footprinting and mass spectrometry, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the authors should be encouraged to submit the full manuscript for review, but the abstract alone does not provide sufficient evidence to support the central claims. A revised abstract with quantitative results, clear definitions, and tempered generalizability claims would strengthen the case.
+
+## Risk / unsupported claims
+- Sub-nucleotide resolution is claimed without operational definition or calibration data.
+- Quantitative mapping is claimed without mention of replicates, error analysis, or standards.
+- Site-specific protection patterns are stated but not shown with magnitudes or reproducibility.
+- In silico complex construction is described as guided by data, but the linking methodology is unspecified.
+- "Strong agreement" between experiment and simulation is asserted without a quantitative metric.
+- The advantage over gel-based methods is claimed without comparative data or chemical identification of products.
+- Generalizability to chromatin systems is stated without supporting evidence.

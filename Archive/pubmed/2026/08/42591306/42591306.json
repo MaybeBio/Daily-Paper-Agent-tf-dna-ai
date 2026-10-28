@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "42591306",
+    "doi": "10.3389/fcvm.2026.1840776",
+    "title": "Single-cell RNA sequencing pseudobulk analysis and machine learning identify candidate biomarkers for ischemic cardiomyopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic cardiomyopathy (ICM) is a condition characterized by inadequate blood supply to the coronary arteries, resulting in myocardial damage and decreased cardiac functionality. This study aimed to identify potential biomarkers and regulatory networks in ICM, providing a foundation for further mechanistic and therapeutic investigations. METHODS: We analyzed public single-cell RNA sequencing (scRNA-seq) data to identify cell subpopulations through dimensionality reduction clustering followed by manual annotation. Differentially expressed genes (DEGs) were derived using the pseudobulk method. Subsequently, we employed three machine learning algorithms combined with the Boruta feature selection approach to screen for disease-characteristic genes in an external ICM dataset. Potential regulatory networks were reconstructed by predicting transcription factors (TFs) and microRNAs (miRNAs). Finally, we validated the expression levels of signature genes, TFs, and miRNAs in an in vivo ICM rat model. RESULTS: The pseudobulk analysis identified 168 DEGs, with machine learning selecting four hub genes as key signatures demonstrating acceptable ICM discriminative power. Their area under the curve (AUC) values were as follows: MLLT3 (76.7%), GFOD1 (78.6%), COLEC12 (77.8%), and RARRES1 (79.9%). Notably, when combined into a four-gene signature, a substantially higher AUC of 93.0% was achieved for the discrimination of ICM. Transcription factor analysis delineated that GFOD1, MLLT3, RARRES1, and COLEC12 were regulated by 17, 7, 7, and 3 TFs, respectively. The CTCF was found to be a shared transcription factor. Computational miRNA analysis retrieved 329 miRNAs. In vivo validation studies confirmed significantly reduced expression of four signature genes and CTCF, along with elevated levels of miR-195-5p and miR-5680 in ICM samples compared to those in sham controls. CONCLUSION: Our study characterized GFOD1, MLLT3, COLEC12, RARRES1, miR-195-5p, and miR-5680 as promising biomarkers for ischemic cardiomyopathy, with CTCF acting as a candidate transcription factor.",
+    "keywords": [
+      "biomarkers",
+      "feature selection",
+      "ischemic cardiomyopathy",
+      "machine learning",
+      "pseudobulk",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Xianhua",
+        "Wu, Guoxiang",
+        "Xie, Jialan",
+        "Wu, Yanqing",
+        "Chen, Daqiu",
+        "Chen, Yixing",
+        "Xu, Shanghua",
+        "Luo, Shunxiang"
+      ],
+      "short_names": [
+        "Ye X",
+        "Wu G",
+        "Xie J",
+        "Wu Y",
+        "Chen D",
+        "Chen Y",
+        "Xu S",
+        "Luo S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Gastroenterology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China.",
+        "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Xianhua",
+        "short_name": "Ye X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Guoxiang",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jialan",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yanqing",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Daqiu",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yixing",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shanghua",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Shunxiang",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Nanping First Hospital affiliated to Fujian Medical University, Nanping, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 12:42",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41680163",
+      "41404738",
+      "41214880",
+      "40905492",
+      "40360814",
+      "40210145",
+      "39987748",
+      "39929468",
+      "39849627",
+      "39823128",
+      "39806063",
+      "39716999",
+      "39682078",
+      "39511411",
+      "39503060",
+      "39386873",
+      "39146885",
+      "39140317",
+      "39062464",
+      "39019974",
+      "38951485",
+      "38946427",
+      "38568322",
+      "38112409",
+      "37191704",
+      "36401373",
+      "36122552",
+      "35959412",
+      "35271504",
+      "35150240",
+      "35071201",
+      "34816499",
+      "34584091",
+      "34572061",
+      "34174329",
+      "32971526",
+      "32929989",
+      "32620851",
+      "31837328",
+      "31776511",
+      "30700139",
+      "30683112",
+      "30453885",
+      "29687888",
+      "29674714",
+      "29491476",
+      "29386203",
+      "28317919",
+      "27598868",
+      "27191742",
+      "26749496",
+      "25063298",
+      "24786300",
+      "24663091",
+      "24014597",
+      "22615834",
+      "21303978",
+      "19043405",
+      "18423602",
+      "15059893",
+      "14632445",
+      "12761161",
+      "12601552",
+      "11564734"
+    ],
+    "similar": [
+      "42591306",
+      "42249649",
+      "37008314",
+      "42123445",
+      "41053192",
+      "41858783",
+      "40276515",
+      "40374866",
+      "41703488",
+      "42236612",
+      "42243611",
+      "39840076",
+      "41200172",
+      "40948644",
+      "36082132",
+      "41052072",
+      "37047484",
+      "39080630",
+      "39478056",
+      "41992052",
+      "39923303",
+      "42205842",
+      "39512836",
+      "40300424",
+      "39263286",
+      "40492232",
+      "37528851",
+      "42180604",
+      "41291841",
+      "40421012",
+      "40895573",
+      "41354822",
+      "42120650",
+      "38004354",
+      "39142001",
+      "42010706",
+      "32631246",
+      "41388523",
+      "41665627",
+      "42343898",
+      "42015036",
+      "41816342",
+      "40503237",
+      "38738215",
+      "42059276",
+      "41102315",
+      "40114920",
+      "42292668",
+      "34234459",
+      "38863714",
+      "38785931",
+      "42431430",
+      "36203804",
+      "37740761",
+      "42024670",
+      "37697288",
+      "41080564",
+      "40792136",
+      "40742465",
+      "42158856",
+      "42565562",
+      "41234880",
+      "35313857",
+      "41367897",
+      "39509434",
+      "38463581",
+      "41033661",
+      "41019433",
+      "40328901",
+      "40854648",
+      "39616855",
+      "41341830",
+      "42579704",
+      "41601671",
+      "28318762",
+      "42338983",
+      "42509823",
+      "39144301",
+      "39067546",
+      "40084401",
+      "40315768",
+      "40405297",
+      "42511975",
+      "35401659",
+      "39992204",
+      "41287009",
+      "41436831",
+      "42387451",
+      "34530741",
+      "40754871",
+      "41501788",
+      "42358997",
+      "42158874",
+      "37942473",
+      "41432483",
+      "41620539",
+      "41432807",
+      "35481271",
+      "41031145",
+      "36341343"
+    ],
+    "review": [
+      "42591306",
+      "41665627"
+    ],
+    "pmc": [
+      "13461520"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42591306/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2026.1840776",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42350392",
+  "title": "SMURF: soft-segmentation for single-cell reconstruction and topological analysis of spatial transcriptomic data.",
+  "authors": "Guo, Juanru; Sarafinovska, Simona; Hagenson, Ryan A; Valentine, Mark C; Chen, David Y; McCoy Iv, William H; Dougherty, Joseph D; Mitra, Robi D; Muegge, Brian D",
+  "journal": "Nature communications",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发基于深度学习的空间转录组软分割算法SMURF，用于单细胞重建和拓扑分析，虽涉及转录因子调控但核心是细胞分割与表达梯度，非蛋白质-DNA互作建模，与本课题关联微弱。",
+  "abstract": "High-resolution spatial transcriptomics requires computational methods to accurately assign transcripts to individual cells. We present SMURF (Segmentation and Manifold UnRolling Framework), a cross-platform soft-segmentation algorithm that uses deep learning to map mRNAs from capture spots to nearby nuclei. SMURF also unrolls complex tissue architectures by projecting cells onto Cartesian coordinates, enabling analyses of cell-type organization and gene expression gradients. We show that SMURF assigns mRNAs to single cells more accurately than existing approaches and robustly unrolls complex tissues to reveal zonated transcriptional programs and cell-type organization across multiple tissues and spatial transcriptomic technologies. To showcase the biological insights enabled by SMURF, we segment over 400,000 cells from the mouse ileum using Visium HD data. We identify zonated gene expression programs along the maturing intestinal villus and the transcription factors that regulate them. Importantly, we show that gene expression gradients along the proximal-distal axis of the intestine accumulate in the upper villus and that upper villus gene expression is reprogrammed by environmental signals in the lumen, suggesting that environmental inputs are major determinants of regional transcriptional identity. Together, these results establish SMURF as a powerful framework for analyzing gene expression of cells within native tissue contexts.",
+  "abstract_zh": "高分辨率空间转录组学需要计算方法来准确地将转录本分配到单个细胞。我们提出了SMURF（分割与流形展开框架，Segmentation and Manifold UnRolling Framework），一种跨平台的软分割算法，利用深度学习将mRNA从捕获点映射到邻近细胞核。SMURF还通过将细胞投影到笛卡尔坐标上来展开复杂的组织结构，从而能够分析细胞类型组织和基因表达梯度。我们证明，SMURF在将mRNA分配到单细胞方面比现有方法更准确，并能稳健地展开复杂组织，以揭示跨多种组织和空间转录组学技术的分区化转录程序及细胞类型组织。为展示SMURF带来的生物学见解，我们使用Visium HD数据对小鼠回肠中超过40万个细胞进行了分割。我们识别了沿成熟肠绒毛的分区化基因表达程序及其调控转录因子。重要的是，我们表明沿肠道近端-远端轴的基因表达梯度在上部绒毛中积累，且上部绒毛的基因表达被腔内环境信号重编程，提示环境输入是区域转录身份的主要决定因素。综合来看，这些结果确立了SMURF作为分析天然组织背景下细胞基因表达的强大框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42350392/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42350392/",
+  "paper_page_path": "papers/pubmed/42350392/index.html"
+}

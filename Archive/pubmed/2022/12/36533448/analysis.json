@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36533448",
+  "title": "DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks.",
+  "authors": "Shutta, Katherine H; Weighill, Deborah; Burkholz, Rebekka; Guebila, Marouen Ben; DeMeo, Dawn L; Zacharias, Helena U; Quackenbush, John; Altenbuchinger, Michael",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-12-20",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于高斯图模型的多组学网络方法DRAGON，用于联合分析转录组与甲基化数据并推断调控关联，虽涉及转录因子相关调控，但核心是统计网络推断而非蛋白质-DNA互作建模，且方法为传统图模型而非AI或物理模拟。",
+  "abstract": "The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations. We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the joint analysis of paired omics data. This method, called DRAGON (Determining Regulatory Associations using Graphical models on multi-Omic Networks), calibrates its parameters to achieve an optimal trade-off between the network's complexity and estimation accuracy, while explicitly accounting for the characteristics of each of the assessed omics 'layers.' In simulation studies, we show that DRAGON adapts to edge density and feature size differences between omics layers, improving model inference and edge recovery compared to state-of-the-art methods. We further demonstrate in an analysis of joint transcriptome - methylome data from TCGA breast cancer specimens that DRAGON can identify key molecular mechanisms such as gene regulation via promoter methylation. In particular, we identify Transcription Factor AP-2 Beta (TFAP2B) as a potential multi-omic biomarker for basal-type breast cancer. DRAGON is available as open-source code in Python through the Network Zoo package (netZooPy v0.8; netzoo.github.io).",
+  "abstract_zh": "多组学数据量的不断增加，例如在同一标本甚至同一细胞上收集的甲基化组和转录组谱，为探索定义细胞表型并调控细胞对扰动响应的复杂相互作用提供了独特机会。我们提出一种基于高斯图模型（Gaussian Graphical Models, GGMs）的网络方法，便于对配对组学数据进行联合分析。该方法名为DRAGON（Determining Regulatory Associations using Graphical models on multi-Omic Networks），通过校准其参数，在网络复杂性与估计精度之间实现最优权衡，同时明确考虑所评估的每个组学“层”的特征。在模拟研究中，我们展示DRAGON适应组学层之间的边密度和特征大小差异，与最先进方法相比，改善了模型推断和边恢复。我们进一步在来自TCGA乳腺癌标本的联合转录组-甲基化组数据分析中证明，DRAGON能够识别关键分子机制，如通过启动子甲基化进行的基因调控。特别地，我们识别出转录因子AP-2 Beta（TFAP2B）作为基底型乳腺癌的潜在多组学生物标志物。DRAGON作为开源代码在Python中通过Network Zoo包（netZooPy v0.8；netzoo.github.io）提供。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36533448/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36533448/",
+  "paper_page_path": "papers/pubmed/36533448/index.html"
+}

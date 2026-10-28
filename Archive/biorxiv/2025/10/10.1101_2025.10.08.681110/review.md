@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) provided as plain text; no figures, tables, or supplementary materials included.
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the text; statistical and computational details assessed only to the extent described.
+- **Shared manuscript claim summary** The authors construct a well-positioned nucleosome atlas (WPNA) from circulating DNA (cirDNA) fragment data, report that nucleosome occupancy at these positions correlates with histone-DNA affinity (evidenced by codon usage bias and fragment size differences), and show that occupancy patterns distinguish cancer patients from healthy controls with high sensitivity and specificity across seven cancer types. They further report global and local changes in occupancy at transcription factor binding sites, implicating shared pan-cancer transcriptional programs in hematopoietic cells.
+- **Visible evidence base** Text descriptions of results referencing Figures 1–5 and Supplementary Figures S1–S11; methodological descriptions in the Methods section; no actual data, figures, or numerical results (e.g., AUC values, p-values, effect sizes) are visible in the provided material.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and numerical results (e.g., performance metrics, statistical test outputs, confidence intervals) are absent. The manuscript cannot be fully evaluated without these.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important topic in liquid biopsy research, proposing a new nucleosome occupancy atlas derived from circulating DNA and linking it to fundamental DNA-histone interaction properties and cancer detection. The conceptual framing is interesting, and the combination of physical reasoning (fragment size, codon usage) with translational application (cancer detection) is appealing. However, the provided text alone does not allow verification of the central claims. Key quantitative results, figure contents, and statistical details are not visible. The methodological descriptions are at times underspecified, and several claims appear to exceed what the described analyses can support. The manuscript has potential, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in liquid biopsy and fragmentomics, computational biologists studying nucleosome positioning and chromatin structure, oncologists interested in minimally invasive cancer detection, and investigators studying the biology of circulating DNA release and its relationship to chromatin state. The proposed atlas and the reported association between occupancy and DNA-histone affinity could be of broad interest if validated.
+- **Major strengths** The study addresses a fundamental question about the relationship between DNA sequence, nucleosome occupancy, and nuclease protection using a clinically relevant readout (circulating DNA). The idea of using codon usage bias as evidence for evolutionary adaptation at nucleosome positions is creative. The reported performance for cancer detection (sensitivity and specificity >0.95) is striking if substantiated. The analysis of TFBS occupancy changes across cancer types is a useful extension with potential biological insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that WPNA nucleosome occupancy was different in healthy and cancer samples, allowing development of a high-performance machine learning approach for cancer detection with specificity and sensitivity >0.95 for seven cancer types.
+  - **Evidence pointer** Results section, Figures 3D–G; location not provided
+  - **Concern** The central translational claim of the manuscript, namely the near-perfect cancer detection performance, cannot be evaluated from the provided text. No actual performance numbers, cross-validation details, or statistical significance values are visible. The description of the ML pipeline is incomplete: the PCA-based dimension reduction and SVM approach is described only at a high level, and the potential for overfitting given the large feature space (approximately 5 million features) and relatively small cohort sizes (25–53 cancer samples per type) is not addressed. The claim of >0.95 sensitivity and specificity for all seven cancer types is extraordinary and requires rigorous validation, including external datasets and proper nested cross-validation.
+  - **Why it matters** If the performance claim is not robust, the translational significance of the work is substantially diminished. Overfitting in high-dimensional feature spaces is a well-known risk, and the described methodology does not appear to include sufficient safeguards (e.g., feature selection, regularization, or external validation).
+  - **Resolution test** Provide the actual performance metrics with confidence intervals, describe the full cross-validation procedure, demonstrate performance on an independent external cohort, and show that the results are not driven by batch effects or sequencing depth differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that high-occupancy WPNA nucleosomes correspond to DNA positions with increased affinity for histones, evidenced by longer fragment sizes and codon usage bias.
+  - **Evidence pointer** Results section, Figures 2H–J; location not provided
+  - **Concern** The causal or associative link between nucleosome occupancy, fragment size, and histone-DNA affinity is not rigorously established. The observation that fragments at high-occupancy nucleosomes are longer could be explained by multiple confounding factors, including local chromatin structure, DNA sequence composition, or nuclease accessibility, without necessarily implying increased histone affinity. The codon usage analysis is described only briefly, and the statistical methodology and effect sizes are not provided. The claim of evolutionary adaptation of DNA sequence to adjust histone affinity is a strong inference that requires more direct evidence, such as comparison with known nucleosome positioning sequence motifs or in vitro binding assays.
+  - **Why it matters** The fundamental biology claim is a key part of the paper's novelty. If the association is confounded or the codon usage analysis is not robust, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide the full statistical analysis for the codon usage comparison, including effect sizes and multiple testing corrections. Demonstrate that the fragment size difference is specific to high- versus low-occupancy nucleosomes and not explained by genomic context. Consider orthogonal validation, such as comparison with experimentally determined nucleosome positions or histone binding affinity data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the construction of a well-positioned nucleosome atlas (WPNA) containing approximately 5 million genomic positions.
+  - **Evidence pointer** Results section, Figures 2A–D; Methods section; location not provided
+  - **Concern** The algorithm for identifying well-positioned nucleosomes is described only in general terms. The specific thresholds for WPS peak height, peak separation, and the criteria for local U and D end maxima are not provided. The choice of the 147–300 bp diameter window is not justified, and the exclusion of smaller structures (<147 bp) as "TF-DNA complexes or other DNA-associated proteins" is asserted without evidence. The reproducibility of the atlas across different sequencing depths, platforms, and preprocessing pipelines is not addressed.
+  - **Why it matters** The WPNA is the foundation of all subsequent analyses. If the atlas construction is not transparent and reproducible, the entire study is difficult to verify or build upon.
+  - **Resolution test** Provide the full algorithmic details, including all parameters and thresholds. Validate the atlas against independent datasets and experimentally determined nucleosome positions. Assess the stability of the atlas under different sequencing depths and alignment parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report that TFBSs of 347 TFs were more available in all seven cancer cohorts compared with the healthy cohort, and that specific TFs involved in hematopoietic differentiation and neutrophil biology were identified.
+  - **Evidence pointer** Results section, Figures 5C–H; location not provided
+  - **Concern** The statistical methodology for identifying differentially occupied TFBSs is described only as a Wilcoxon test, with no details on multiple testing correction, effect size thresholds, or control for confounding variables such as cell type composition, sequencing depth, or fragment size distribution. The claim that 347 TFs show consistent changes across all seven cancer types is strong and requires careful statistical control. The biological interpretation, linking these changes to neutrophil biology and NETosis, is speculative and not directly tested.
+  - **Why it matters** The TFBS analysis is presented as providing biological insight into the mechanism of cancer-related occupancy changes. If the statistical basis is weak, the biological conclusions are not supported.
+  - **Resolution test** Provide the full statistical framework, including multiple testing correction, effect size distributions, and sensitivity analyses. Validate the findings in independent cohorts and consider deconvolution of cell type composition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that occupancy was "associated with histone-DNA affinity, as evidenced by codon usage bias and differences in cirDNA fragment sizes." This phrasing implies a causal relationship that is not directly demonstrated.
+  - **Required correction** Rephrase to indicate an association or correlation, rather than evidence of affinity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, software section
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The statement that "a number of Python, R, and Perl scripts as well as C and C++ codes were written" is vague. The availability of code is deferred to publication, which limits immediate reproducibility.
+  - **Required correction** Provide a more detailed description of the computational pipeline, and consider making the code available in a public repository at the time of preprint posting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion of NETosis and neutrophil biology as a source of cirDNA is interesting but not directly supported by the data presented. The link between TFBS occupancy changes and NETosis is speculative.
+  - **Required correction** Clearly distinguish between data-supported findings and hypotheses, and consider adding direct evidence or acknowledging the speculative nature of this interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, normalization
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The normalization scheme for individual samples is described, but the rationale for the specific approach (total occupancy in autosomes, separate normalization for chrX) is not fully explained. The statement that this "led to acceptable false discovery rates" is not quantified.
+  - **Required correction** Provide the FDR values and explain why the chosen normalization is preferable to alternatives.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cancer detection performance not verifiable), R1-M2 (causal link between occupancy and affinity not established), R1-M3 (atlas construction not fully specified), R1-M4 (statistical rigor of TFBS analysis insufficient).
+- **Assessment against Nature-style criteria** Originality: The concept of using cirDNA fragment data to build a nucleosome occupancy atlas and linking it to DNA-histone affinity is novel and potentially interesting. However, the originality is tempered by the fact that nucleosome positioning from cell-free DNA has been explored previously, and the specific claims of affinity association require stronger evidence. Scientific importance: If validated, the cancer detection performance would be of high importance for liquid biopsy applications. The fundamental biology claims, if substantiated, could inform understanding of nucleosome positioning determinants. However, the current evidence does not establish this importance. Interdisciplinary readership: The work bridges genomics, chromatin biology, and clinical diagnostics, which could appeal to a broad readership. Technical soundness: The described methodology has several gaps, including incomplete algorithmic details, potential overfitting concerns, and insufficient statistical rigor. Readability for nonspecialists: The text is generally well-written and accessible, though some sections (e.g., the PCA/SVM description) assume familiarity with machine learning concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has potential, but the central claims cannot be verified from the supplied text. The authors should provide the full data, figures, and statistical details, and address the methodological concerns raised above before the case can be considered.
+
+## Risk / unsupported claims
+- The claim of cancer detection with sensitivity and specificity >0.95 for seven cancer types is unsupported in the provided text; no actual performance metrics are visible.
+- The claim that high-occupancy nucleosomes correspond to increased histone-DNA affinity is not directly supported; the evidence (fragment size, codon usage) is indirect and potentially confounded.
+- The claim that codon usage bias at high- versus low-occupancy nucleosomes reflects evolutionary adaptation is speculative and not rigorously tested.
+- The identification of 347 TFs with consistent occupancy changes across all seven cancer types is not statistically substantiated in the provided text.
+- The biological interpretation linking TFBS occupancy changes to NETosis and neutrophil biology is not directly tested and should be framed as a hypothesis.
+- The statement that the WPNA contains approximately 5 million well-positioned nucleosome positions is not verifiable without the atlas data or detailed algorithmic parameters.

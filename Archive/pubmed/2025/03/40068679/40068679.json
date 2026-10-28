@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "pmid": "40068679",
+    "doi": "10.1016/j.molcel.2025.02.013",
+    "title": "Exportin-1 functions as an adaptor for transcription factor-mediated docking of chromatin at the nuclear pore complex."
+  },
+  "content": {
+    "abstract": "Nuclear pore proteins (nucleoporins [Nups]) physically interact with hundreds of chromosomal sites, impacting transcription. In yeast, transcription factors mediate interactions between Nups and enhancers and promoters. To define the molecular basis of this mechanism, we exploited a separation-of-function mutation in the Gcn4 transcription factor that blocks its interaction with the nuclear pore complex (NPC). This mutation reduces the interaction of Gcn4 with the highly conserved nuclear export factor Crm1/Xpo1. Crm1 and Nups co-occupy enhancers, and Crm1 inhibition blocks interaction of the nuclear pore protein Nup2 with the genome. In vivo, Crm1 interacts stably with the NPC and in vitro, Crm1 binds directly to both Gcn4 and Nup2. Importantly, the interaction between Crm1 and Gcn4 requires neither Ran-guanosine triphosphate (GTP) nor the nuclear export sequence binding site. Finally, Crm1 and Ran-GTP stimulate DNA binding by Gcn4, suggesting that allosteric coupling between Crm1-Ran-GTP binding and DNA binding facilitates the docking of transcription-factor-bound enhancers at the NPC.",
+    "keywords": [
+      "nuclear architecture",
+      "nuclear pore complex",
+      "transcription",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Karyopherins/metabolism/genetics",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*Nuclear Pore/metabolism/genetics",
+      "*Receptors, Cytoplasmic and Nuclear/metabolism/genetics",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "Exportin 1 Protein",
+      "Nuclear Pore Complex Proteins/metabolism/genetics",
+      "*Chromatin/metabolism/genetics",
+      "ran GTP-Binding Protein/metabolism/genetics",
+      "*Basic-Leucine Zipper Transcription Factors/metabolism/genetics",
+      "Protein Binding",
+      "Active Transport, Cell Nucleus",
+      "Mutation",
+      "Binding Sites",
+      "Gene Expression Regulation, Fungal",
+      "DNA, Fungal/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Tiffany",
+        "Brickner, Donna Garvey",
+        "Zehr, Kara",
+        "VanBelzen, D Jake",
+        "Zhang, Wenzhu",
+        "Caffalette, Christopher",
+        "Moeller, Gavin C",
+        "Ungerleider, Sara",
+        "Marcou, Nikita",
+        "Jacob, Alexis",
+        "Nguyen, Vu Q",
+        "Chait, Brian",
+        "Rout, Michael P",
+        "Brickner, Jason H"
+      ],
+      "short_names": [
+        "Ge T",
+        "Brickner DG",
+        "Zehr K",
+        "VanBelzen DJ",
+        "Zhang W",
+        "Caffalette C",
+        "Moeller GC",
+        "Ungerleider S",
+        "Marcou N",
+        "Jacob A",
+        "Nguyen VQ",
+        "Chait B",
+        "Rout MP",
+        "Brickner JH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Laboratory of Mass Spectrometry and Gaseous Ion Chemistry, The Rockefeller University, New York, NY 10065, USA.",
+        "Laboratory of Cellular and Structural Biology, The Rockefeller University, New York, NY, USA.",
+        "Department of Molecular Biology, School of Biological Sciences, University of California, San Diego, La Jolla, San Diego, CA 92093, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA.",
+        "Department of Molecular Biology, School of Biological Sciences, University of California, San Diego, La Jolla, San Diego, CA 92093, USA.",
+        "Laboratory of Mass Spectrometry and Gaseous Ion Chemistry, The Rockefeller University, New York, NY 10065, USA.",
+        "Laboratory of Cellular and Structural Biology, The Rockefeller University, New York, NY, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA. Electronic address: j-brickner@northwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Tiffany",
+        "short_name": "Ge T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Brickner, Donna Garvey",
+        "short_name": "Brickner DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Zehr, Kara",
+        "short_name": "Zehr K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "VanBelzen, D Jake",
+        "short_name": "VanBelzen DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenzhu",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Mass Spectrometry and Gaseous Ion Chemistry, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Caffalette, Christopher",
+        "short_name": "Caffalette C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cellular and Structural Biology, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Moeller, Gavin C",
+        "short_name": "Moeller GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, School of Biological Sciences, University of California, San Diego, La Jolla, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Ungerleider, Sara",
+        "short_name": "Ungerleider S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Marcou, Nikita",
+        "short_name": "Marcou N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Jacob, Alexis",
+        "short_name": "Jacob A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Vu Q",
+        "short_name": "Nguyen VQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, School of Biological Sciences, University of California, San Diego, La Jolla, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Chait, Brian",
+        "short_name": "Chait B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Mass Spectrometry and Gaseous Ion Chemistry, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Rout, Michael P",
+        "short_name": "Rout MP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cellular and Structural Biology, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Brickner, Jason H",
+        "short_name": "Brickner JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60201, USA. Electronic address: j-brickner@northwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:33",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42565971",
+      "42443721",
+      "41571649",
+      "41440011",
+      "41016879",
+      "40991079",
+      "40827928",
+      "40827213",
+      "40780415",
+      "39803495",
+      "39026809"
+    ],
+    "refs": [
+      "39607887",
+      "39127037",
+      "38778058",
+      "38632359",
+      "38327869",
+      "37877462",
+      "37358474",
+      "36920247",
+      "36455589",
+      "36323253",
+      "36322456",
+      "36066004",
+      "35563762",
+      "35302609",
+      "35296539",
+      "35148185",
+      "34982960",
+      "34375585",
+      "34297925",
+      "34265844",
+      "34056637",
+      "34002694",
+      "33904398",
+      "33692541",
+      "33422933",
+      "33177522",
+      "32733011",
+      "32451376",
+      "31784359",
+      "31755865",
+      "31211995",
+      "31109287",
+      "30883195",
+      "30837289",
+      "30602787",
+      "29849146",
+      "29621251",
+      "29539637",
+      "29300163",
+      "29269482",
+      "29118030",
+      "28945705",
+      "28918903",
+      "28918900",
+      "28669824",
+      "28412356",
+      "27807035",
+      "27489341",
+      "27336723",
+      "26953353",
+      "26740045",
+      "26585296",
+      "26490019",
+      "26489467",
+      "26080816",
+      "25516281",
+      "25437554",
+      "25362362",
+      "25310983",
+      "24857743",
+      "24119399",
+      "23468646",
+      "23452847",
+      "22579222",
+      "22466169",
+      "22153082",
+      "21305702",
+      "21241889",
+      "20932479",
+      "20144761",
+      "20144760",
+      "20098417",
+      "20093466",
+      "19915560",
+      "18948542",
+      "18922474",
+      "18715118",
+      "18533659",
+      "18046406",
+      "18046405",
+      "17373856",
+      "16760983",
+      "16760982",
+      "16651408",
+      "16543150",
+      "16455493",
+      "16155292",
+      "15905407",
+      "15469830",
+      "15455074",
+      "15137937",
+      "12403813",
+      "12118079",
+      "11535617",
+      "11425876",
+      "10639332",
+      "10430904",
+      "10393189",
+      "9858599",
+      "9717241",
+      "8994824",
+      "8991083",
+      "7634336",
+      "6020427",
+      "3530496"
+    ],
+    "similar": [
+      "40068679",
+      "38798450",
+      "31211995",
+      "17347149",
+      "41016879",
+      "20233715",
+      "15908946",
+      "40640138",
+      "15557115",
+      "23264634",
+      "15329671",
+      "27932586",
+      "22008473",
+      "20375145",
+      "11425870",
+      "11777942",
+      "18573877",
+      "12654904",
+      "40845804",
+      "33589493",
+      "17032737",
+      "28791779",
+      "29809148",
+      "10330396",
+      "9891088",
+      "33838103",
+      "12082158",
+      "24788517",
+      "25895666",
+      "20505071",
+      "26492198",
+      "15137937",
+      "23295456",
+      "21708948",
+      "28883038",
+      "25437554",
+      "19339972",
+      "22250199",
+      "28515232",
+      "15020682",
+      "26120835",
+      "32520643",
+      "12529437",
+      "27939291",
+      "15632073",
+      "12543930",
+      "16943420",
+      "12679039",
+      "25486595",
+      "26571554",
+      "27160050",
+      "14993277",
+      "11425876",
+      "15226438",
+      "12724356",
+      "38355801",
+      "21859863",
+      "27613868",
+      "28747316",
+      "35189816",
+      "18076379",
+      "26506250",
+      "32453403",
+      "12403813",
+      "18485366",
+      "10454574",
+      "22832492",
+      "32343715",
+      "11149927",
+      "19536614",
+      "40780415",
+      "12062099",
+      "26642330",
+      "23175358",
+      "28864541",
+      "24722547",
+      "24165935",
+      "26489467",
+      "21364925",
+      "11278834",
+      "24631835",
+      "26658558",
+      "15574331",
+      "23277578",
+      "26519791",
+      "23164569",
+      "28282025",
+      "29628310",
+      "9864357",
+      "22847027",
+      "11932251",
+      "9323132",
+      "24857736",
+      "23297231",
+      "17182855",
+      "12082159",
+      "14688242",
+      "17506639",
+      "12417134",
+      "34757845"
+    ],
+    "review": [
+      "40068679",
+      "41016879",
+      "26571554",
+      "24631835",
+      "26519791",
+      "17506639"
+    ],
+    "pmc": [
+      "11928253"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(25)00144-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40068679/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40068679",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3936",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

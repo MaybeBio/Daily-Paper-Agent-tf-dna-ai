@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38890395",
+  "title": "Empowering artificial intelligence in characterizing the human primary pacemaker of the heart at single cell resolution.",
+  "authors": "Chelu, Alexandru; Cartwright, Elizabeth J; Dobrzynski, Halina",
+  "journal": "Scientific reports",
+  "published_date": "2024-06-19",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习反卷积方法解析人类窦房结单细胞组成，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "The sinus node (SN) serves as the primary pacemaker of the heart and is the first component of the cardiac conduction system. Due to its anatomical properties and sample scarcity, the cellular composition of the human SN has been historically challenging to study. Here, we employed a novel deep learning deconvolution method, namely Bulk2space, to characterise the cellular heterogeneity of the human SN using existing single-cell datasets of non-human species. As a proof of principle, we used Bulk2Space to profile the cells of the bulk human right atrium using publicly available mouse scRNA-Seq data as a reference. 18 human cell populations were identified, with cardiac myocytes being the most abundant. Each identified cell population correlated to its published experimental counterpart. Subsequently, we applied the deconvolution to the bulk transcriptome of the human SN and identified 11 cell populations, including a population of pacemaker cardiomyocytes expressing pacemaking ion channels (HCN1, HCN4, CACNA1D) and transcription factors (SHOX2 and TBX3). The connective tissue of the SN was characterised by adipocyte and fibroblast populations, as well as key immune cells. Our work unravelled the unique single cell composition of the human SN by leveraging the power of a novel machine learning method.",
+  "abstract_zh": "窦房结（sinus node, SN）作为心脏的主要起搏器，是心脏传导系统的第一个组成部分。由于其解剖学特性和样本稀缺性，人类SN的细胞组成历来难以研究。在此，我们采用了一种新颖的深度学习反卷积方法，即Bulk2space，利用现有的非人类物种单细胞数据集来表征人类SN的细胞异质性。作为原理验证，我们使用Bulk2Space，以公开可用的小鼠单细胞RNA测序（scRNA-Seq）数据为参考，对批量人类右心房细胞进行了分析。共鉴定出18种人类细胞群体，其中心肌细胞最为丰富。每种鉴定出的细胞群体均与其已发表的实验对应物相关联。随后，我们将反卷积应用于人类SN的批量转录组，并鉴定出11种细胞群体，包括一群表达起搏离子通道（HCN1、HCN4、CACNA1D）和转录因子（SHOX2和TBX3）的起搏心肌细胞。SN的结缔组织以脂肪细胞和成纤维细胞群体以及关键免疫细胞为特征。我们的工作通过利用一种新颖机器学习方法的力量，揭示了人类SN独特的单细胞组成。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38890395/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38890395/",
+  "paper_page_path": "papers/pubmed/38890395/index.html"
+}

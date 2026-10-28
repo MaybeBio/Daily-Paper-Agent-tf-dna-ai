@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40890233",
+    "doi": "10.1038/s41598-025-15721-2",
+    "title": "Uncovering novel functions of NUF2 in glioblastoma and MRI-based expression prediction."
+  },
+  "content": {
+    "abstract": "Glioblastoma multiforme (GBM) is a lethal brain tumor with limited therapies. NUF2, a kinetochore protein involved in cell cycle regulation, shows oncogenic potential in various cancers; however, its role in GBM pathogenesis remains unclear. In this study, we investigated NUF2's function and mechanisms in GBM and developed an MRI-based machine learning model to predict its expression non-invasively, and evaluated its potential as a therapeutic target and prognostic biomarker. Functional assays (proliferation, colony formation, migration, and invasion) and cell cycle analysis were conducted using NUF2-knockdown U87/U251 cells. Western blotting was performed to assess the expression levels of beta-catenin and MMP-9. Bioinformatic analyses included pathway enrichment, immune infiltration, and single-cell subtype characterization. Using preoperative T1CE Magnetic Resonance Imaging sequences from 61 patients, we extracted 1037 radiomic features and developed a predictive model using Least Absolute Shrinkage and Selection Operator regression for feature selection and random forest algorithms for classification with rigorous cross-validation. NUF2 overexpression in GBM tissues and cells was correlated with poor survival (p < 0.01). Knockdown of NUF2 significantly suppressed malignant phenotypes (p < 0.05), induced G0/G1 arrest (p < 0.01), and increased sensitivity to TMZ treatment via the beta-catenin/MMP9 pathway. The radiomic model achieved superior NUF2 prediction (AUC = 0.897) using six optimized features. Key features demonstrated associations with MGMT methylation and 1p/19q co-deletion, serving as independent prognostic markers. NUF2 drives GBM progression through beta-catenin/MMP9 activation, establishing its dual role as a therapeutic target and a prognostic biomarker. The developed radiogenomic model enables precise non-invasive NUF2 evaluation, thereby advancing personalized GBM management. This study highlights the translational value of integrating molecular biology with artificial intelligence in neuro-oncology.",
+    "keywords": [
+      "Glioblastoma multiforme",
+      "MMP-9",
+      "Machine learning",
+      "NUF2",
+      "Radiogenomics",
+      "beta-catenin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/genetics/diagnostic imaging/metabolism/pathology",
+      "*Magnetic Resonance Imaging/methods",
+      "*Brain Neoplasms/genetics/diagnostic imaging/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Female",
+      "Male",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Matrix Metalloproteinase 9/metabolism",
+      "Cell Proliferation",
+      "Middle Aged",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Tumor Suppressor Proteins/genetics",
+      "*Cell Cycle Proteins/genetics/metabolism",
+      "beta Catenin/metabolism",
+      "Cell Movement"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhong, Rong-de",
+        "Liu, Yun-Sheng",
+        "Li, Qian",
+        "Kou, Zeng-Wei",
+        "Chen, Fan-Fan",
+        "Wang, Heng",
+        "Zhang, Na",
+        "Tang, Han",
+        "Zhang, Yuan",
+        "Huang, Guo-Dong"
+      ],
+      "short_names": [
+        "Zhong RD",
+        "Liu YS",
+        "Li Q",
+        "Kou ZW",
+        "Chen FF",
+        "Wang H",
+        "Zhang N",
+        "Tang H",
+        "Zhang Y",
+        "Huang GD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+        "Guangdong Provincial Key Laboratory for Regional Immunity and Diseases, Department of Immunology, Shenzhen University School of Medicine, Shenzhen, 518060, P.R. China.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+        "Cancer Center, Shenzhen Hospital (Futian) of Guangzhou University of Chinese Medicine, Shenzhen, 518000, P.R. China.",
+        "Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R. China.",
+        "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON, Canada.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+        "Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R. China.",
+        "Department of Neurosurgery, The First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, Hunan, P.R. China. tanghan2200@163.com.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China. zhangyuan2019@email.szu.edu.cn.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China. huangguodong@email.szu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhong, Rong-de",
+        "short_name": "Zhong RD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+          "Guangdong Provincial Key Laboratory for Regional Immunity and Diseases, Department of Immunology, Shenzhen University School of Medicine, Shenzhen, 518060, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yun-Sheng",
+        "short_name": "Liu YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China.",
+          "Cancer Center, Shenzhen Hospital (Futian) of Guangzhou University of Chinese Medicine, Shenzhen, 518000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Kou, Zeng-Wei",
+        "short_name": "Kou ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Fan-Fan",
+        "short_name": "Chen FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Heng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Na",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tang, Han",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, Hunan, P.R. China. tanghan2200@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China. zhangyuan2019@email.szu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Guo-Dong",
+        "short_name": "Huang GD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital, The First Affiliated Hospital of Shenzhen University Health Science Center, Shenzhen, 518035, P.R. China. huangguodong@email.szu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 00:44",
+    "fetched_at": "2026-10-01 01:04:25"
+  },
+  "links": {
+    "cites": [
+      "42147235",
+      "41943078",
+      "41111226"
+    ],
+    "refs": [
+      "40236779",
+      "39871351",
+      "39743213",
+      "39732334",
+      "39614440",
+      "39417505",
+      "39242581",
+      "39193700",
+      "39127809",
+      "38507923",
+      "38492734",
+      "38486342",
+      "38479552",
+      "38474106",
+      "38339340",
+      "38291499",
+      "37692522",
+      "37365451",
+      "37138262",
+      "37056930",
+      "36968288",
+      "36670423",
+      "36620547",
+      "36563706",
+      "35814368",
+      "35763095",
+      "35701983",
+      "34519578",
+      "34504304",
+      "34178642",
+      "33926688",
+      "33721060",
+      "33649774",
+      "33448313",
+      "33443405",
+      "33173994",
+      "33015072",
+      "33006658",
+      "32785770",
+      "32740813",
+      "32144360",
+      "32079590",
+      "31456318",
+      "31441146",
+      "30653265",
+      "30277442",
+      "29712977",
+      "29668342",
+      "28889246",
+      "26054848",
+      "25481014",
+      "25476518",
+      "23689617",
+      "23095825",
+      "22997168",
+      "19817555",
+      "10592173",
+      "3667042"
+    ],
+    "similar": [
+      "40890233",
+      "38686653",
+      "40021783",
+      "31419987",
+      "39871351",
+      "38763954",
+      "40597008",
+      "39903772",
+      "35163465",
+      "41053731",
+      "30571666",
+      "40915474",
+      "32323832",
+      "40233917",
+      "39939015",
+      "29564594",
+      "32079590",
+      "39482401",
+      "38909166",
+      "40114265",
+      "31505292",
+      "38265405",
+      "29240260",
+      "34072831",
+      "41275140",
+      "39614440",
+      "33421974",
+      "30980849",
+      "30935831",
+      "26654598",
+      "40842996",
+      "40440961",
+      "33173994",
+      "38723526",
+      "41482351",
+      "28628119",
+      "37451151",
+      "32980505",
+      "31322259",
+      "34990616",
+      "38996666",
+      "41023045",
+      "30304561",
+      "31001929",
+      "37181827",
+      "29768063",
+      "36310375",
+      "41020346",
+      "38927654",
+      "41465586",
+      "31594994",
+      "35927323",
+      "33991848",
+      "40473799",
+      "41208987",
+      "35881182",
+      "30940290",
+      "41331644",
+      "30054278",
+      "33941107",
+      "30829611",
+      "29715460",
+      "33813391",
+      "38978755",
+      "37993907",
+      "28260024",
+      "39007144",
+      "39954199",
+      "30898167",
+      "28160566",
+      "38960279",
+      "41396160",
+      "39307884",
+      "32467990",
+      "25085363",
+      "25241897",
+      "26155940",
+      "40764945",
+      "33895155",
+      "28295288",
+      "40306163",
+      "39401767",
+      "40307326",
+      "32000296",
+      "34288811",
+      "39143438",
+      "40398706",
+      "30470262",
+      "27277032",
+      "40877486",
+      "16623952",
+      "29914265",
+      "40956552",
+      "37485655",
+      "30483744",
+      "23762456",
+      "31799672",
+      "23828241",
+      "28187000",
+      "38956384"
+    ],
+    "review": [
+      "40890233",
+      "41465586"
+    ],
+    "pmc": [
+      "12402350"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-15721-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40890233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MGMT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.17.488570",
+  "title": "Inferring functions of coding and non-coding genes using epigenomic patterns and deciphering the effect of combinatorics of transcription factors binding at promoters",
+  "authors": "Omkar Chandra; Madhu Sharma; Neetesh Pandey; Indra Prakash Jha; Shreya Mishra; Say Li Kong; Vibhor Kumar",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-17",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用表观基因组特征和TF结合模式预测基因功能，虽涉及TF结合但聚焦基因功能推断而非TF-DNA互作机制建模，方法为机器学习但缺乏三维结构或动态模拟，属于广义蛋白-DNA互作的应用性研究。",
+  "abstract": "The number of annotated genes in the human genome has increased tremendously, and understanding their biological role is challenging through experimental methods alone. There is a need for a computational approach to infer the function of genes, particularly for non-coding RNAs, with reliable explainability. We have utilized genomic features that are present across both coding and non-coding genes like transcription factor (TF) binding pattern, histone modifications, and DNase hypersensitivity profiles to predict ontology-based functions of genes. Our approach for gene function prediction (GFPred) made reliable predictions (>90% balanced accuracy) for 486 gene-sets. Further analysis revealed that predictability using only TF-binding patterns at promoters is also high, and it paved the way for studying the effect of their combinatorics. The predicted associations between functions and genes were validated for their reliability using PubMed abstract mining. Clustering functions based on shared top predictive TFs revealed many latent groups of gene-sets involved in common major biological processes. Available CRISPR screens also supported the inferred association of genes with the major biological processes of latent groups of gene-sets. For the explainability of our approach, we also made more insights into the effect of combinatorics of TF binding (especially TF-pairs) on association with biological functions.",
+  "abstract_zh": "人类基因组中已注释基因的数量大幅增加，仅通过实验方法理解其生物学角色具有挑战性。需要一种计算方法来推断基因功能，特别是对于非编码RNA，并具备可靠的可解释性。我们利用了存在于编码和非编码基因中的基因组特征，如转录因子（TF）结合模式、组蛋白修饰和DNase超敏性图谱，来预测基于本体论的基因功能。我们的基因功能预测方法（GFPred）对486个基因集做出了可靠预测（>90%平衡准确率）。进一步分析显示，仅使用启动子处的TF结合模式进行预测也具有高准确性，这为研究其组合效应铺平了道路。通过PubMed摘要挖掘验证了功能与基因之间预测关联的可靠性。基于共享的顶级预测TF对功能进行聚类，揭示了许多涉及共同主要生物过程的潜在基因集组。可用的CRISPR筛选也支持了基因与潜在基因集组主要生物过程之间推断的关联。为了我们方法的可解释性，我们还对TF结合（尤其是TF对）组合效应与生物功能关联的关系提供了更多见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488570",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488570",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.17.488570/index.html"
+}

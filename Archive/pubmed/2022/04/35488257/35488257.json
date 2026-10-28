@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "35488257",
+    "doi": "10.1186/s12885-022-09570-9",
+    "title": "Evaluation of CSTB and DMBT1 expression in saliva of gastric cancer patients and controls."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is the fifth most common cancer and the third cause of cancer deaths globally, with late diagnosis, low survival rate, and poor prognosis. This case-control study aimed to evaluate the expression of cystatin B (CSTB) and deleted in malignant brain tumor 1 (DMBT1) in the saliva of GC patients with healthy individuals to construct diagnostic algorithms using statistical analysis and machine learning methods. METHODS: Demographic data, clinical characteristics, and food intake habits of the case and control group were gathered through a standard checklist. Unstimulated whole saliva samples were taken from 31 healthy individuals and 31 GC patients. Through ELISA test and statistical analysis, the expression of salivary CSTB and DMBT1 proteins was evaluated. To construct diagnostic algorithms, we used the machine learning method. RESULTS: The mean salivary expression of CSTB in GC patients was significantly lower (115.55 +/- 7.06, p = 0.001), and the mean salivary expression of DMBT1 in GC patients was significantly higher (171.88 +/- 39.67, p = 0.002) than the control. Multiple linear regression analysis demonstrated that GC was significantly correlated with high levels of DMBT1 after controlling the effects of age of participants (R(2) = 0.20, p < 0.001). Considering salivary CSTB greater than 119.06 ng/mL as an optimal cut-off value, the sensitivity and specificity of CSTB in the diagnosis of GC were 83.87 and 70.97%, respectively. The area under the ROC curve was calculated as 0.728. The optimal cut-off value of DMBT1 for differentiating GC patients from controls was greater than 146.33 ng/mL (sensitivity = 80.65% and specificity = 64.52%). The area under the ROC curve was up to 0.741. As a result of the machine learning method, the area under the receiver-operating characteristic curve for the diagnostic ability of CSTB, DMBT1, demographic data, clinical characteristics, and food intake habits was 0.95. The machine learning model's sensitivity, specificity, and accuracy were 100, 70.8, and 80.5%, respectively. CONCLUSION: Salivary levels of DMBT1 and CSTB may be accurate in diagnosing GCs. Machine learning analyses using salivary biomarkers, demographic, clinical, and nutrition habits data simultaneously could provide affordability models with acceptable accuracy for differentiation of GC by a cost-effective and non-invasive method.",
+    "keywords": [
+      "CSTB",
+      "DMBT1",
+      "Gastric cancer",
+      "Machine learning",
+      "Saliva"
+    ],
+    "mesh_terms": [
+      "Biomarkers, Tumor/metabolism",
+      "Calcium-Binding Proteins/metabolism",
+      "Case-Control Studies",
+      "Cystatin B/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "Humans",
+      "Saliva/metabolism",
+      "*Stomach Neoplasms/pathology",
+      "Tumor Suppressor Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koopaie, Maryam",
+        "Ghafourian, Marjan",
+        "Manifar, Soheila",
+        "Younespour, Shima",
+        "Davoudi, Mansour",
+        "Kolahdooz, Sajad",
+        "Shirkhoda, Mohammad"
+      ],
+      "short_names": [
+        "Koopaie M",
+        "Ghafourian M",
+        "Manifar S",
+        "Younespour S",
+        "Davoudi M",
+        "Kolahdooz S",
+        "Shirkhoda M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral Medicine, School of Dentistry, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Department of Oral Medicine, School of Dentistry, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Department of Oral Medicine, Imam Khomeini Hospital, Tehran University of Medical Sciences, North Kargar St, P.O.Box:14395-433, Tehran, 14399-55991, Iran. soheilaamanifar@gmail.com.",
+        "Dentistry Research Institute, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Department of Computer Science and Engineering and IT, School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran.",
+        "Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Department of General Oncology, Cancer Research Center, Cancer Institute of Iran, Tehran University of Medical Sciences, Tehran, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koopaie, Maryam",
+        "short_name": "Koopaie M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, School of Dentistry, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Ghafourian, Marjan",
+        "short_name": "Ghafourian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, School of Dentistry, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Manifar, Soheila",
+        "short_name": "Manifar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, Imam Khomeini Hospital, Tehran University of Medical Sciences, North Kargar St, P.O.Box:14395-433, Tehran, 14399-55991, Iran. soheilaamanifar@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Younespour, Shima",
+        "short_name": "Younespour S",
+        "identifiers": [],
+        "affiliations": [
+          "Dentistry Research Institute, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Davoudi, Mansour",
+        "short_name": "Davoudi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering and IT, School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran."
+        ]
+      },
+      {
+        "full_name": "Kolahdooz, Sajad",
+        "short_name": "Kolahdooz S",
+        "identifiers": [],
+        "affiliations": [
+          "Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Shirkhoda, Mohammad",
+        "short_name": "Shirkhoda M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Oncology, Cancer Research Center, Cancer Institute of Iran, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2022 Apr 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/30 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "41868101",
+      "41777455",
+      "41361300",
+      "41315955",
+      "41244835",
+      "41178926",
+      "40978205",
+      "40503422",
+      "38964315",
+      "38303897",
+      "38075576",
+      "37970110",
+      "37817261",
+      "36647640",
+      "36461757",
+      "35885524"
+    ],
+    "refs": [
+      "34459134",
+      "34422633",
+      "34335931",
+      "33993805",
+      "33748076",
+      "33711953",
+      "33691644",
+      "33538338",
+      "33446730",
+      "33382829",
+      "33348433",
+      "33272245",
+      "33068749",
+      "33024393",
+      "33002433",
+      "32981909",
+      "32861308",
+      "32707341",
+      "32525569",
+      "32499001",
+      "32448131",
+      "32424818",
+      "32378798",
+      "32336147",
+      "32247787",
+      "32223655",
+      "32181516",
+      "32131763",
+      "32106910",
+      "32056455",
+      "32019170",
+      "31959179",
+      "31892402",
+      "31655821",
+      "31639272",
+      "31400059",
+      "31386635",
+      "31381961",
+      "31198514",
+      "31114131",
+      "31096937",
+      "31014273",
+      "30944675",
+      "30919464",
+      "30850575",
+      "30789792",
+      "30628664",
+      "30527495",
+      "30526601",
+      "30280246",
+      "30207593",
+      "30203589",
+      "30018477",
+      "29889263",
+      "29878444",
+      "29866603",
+      "29864959",
+      "29778607",
+      "29661143",
+      "29579788",
+      "29510208",
+      "29498404",
+      "29335825",
+      "29195670",
+      "29148567",
+      "29037838",
+      "28915959",
+      "28435284",
+      "28423364",
+      "28415698",
+      "28281969",
+      "28230191",
+      "27917406",
+      "27903834",
+      "27734273",
+      "27697982",
+      "27637083",
+      "26937373",
+      "26911362",
+      "26598640",
+      "26542257",
+      "26447737",
+      "25633807",
+      "25609452",
+      "25380581",
+      "25320521",
+      "25215621",
+      "25040991",
+      "24912650",
+      "24656602",
+      "24618998",
+      "24487788",
+      "23986888",
+      "23929615",
+      "23844321",
+      "23691218",
+      "23066954",
+      "22971835",
+      "22944598",
+      "22356776",
+      "21572404",
+      "21528086",
+      "21473867",
+      "21385469",
+      "21128057",
+      "18028412",
+      "17487364"
+    ],
+    "similar": [
+      "35488257",
+      "26911362",
+      "34922509",
+      "34605357",
+      "39119128",
+      "28766361",
+      "38262109",
+      "30097497",
+      "18281540",
+      "35647202",
+      "36157109",
+      "32436776",
+      "28415698",
+      "29498404",
+      "31411121",
+      "32424818",
+      "15760920",
+      "31511582",
+      "31983189",
+      "31810134",
+      "32481437",
+      "29037838",
+      "31286302",
+      "15218048",
+      "26775026",
+      "33219617",
+      "28281969",
+      "29334683",
+      "34537058",
+      "31452760",
+      "26420253",
+      "32908616",
+      "32056455",
+      "25086284",
+      "12050164",
+      "33300816",
+      "32770804",
+      "26945573",
+      "29431239",
+      "31166899",
+      "33163123",
+      "26774144",
+      "30603907",
+      "31281803",
+      "35189810",
+      "31455274",
+      "32587446",
+      "24452274",
+      "31060996",
+      "22954417",
+      "29936770",
+      "31180557",
+      "29228424",
+      "30861638",
+      "34230168",
+      "28724318",
+      "17487364",
+      "31777102",
+      "28974900",
+      "25400735",
+      "16477642",
+      "31347325",
+      "27420607",
+      "31966083",
+      "26823737",
+      "31350970",
+      "34617858",
+      "38436260",
+      "35892889",
+      "32754268",
+      "25987051",
+      "24223725",
+      "25848046",
+      "26168960",
+      "15623624",
+      "23034003",
+      "17991292",
+      "29865036",
+      "19830809",
+      "29881236",
+      "25689618",
+      "21956756",
+      "31377880",
+      "25056533",
+      "33896830",
+      "32447063",
+      "30909187",
+      "31235999",
+      "32505732",
+      "34398999",
+      "33067211",
+      "33382829",
+      "23691218",
+      "28372505",
+      "31366407",
+      "32172630",
+      "37078414",
+      "37428282",
+      "38559579",
+      "37290894",
+      "35992561",
+      "36461757",
+      "34880265",
+      "38395893",
+      "36185166",
+      "37591435",
+      "35494225",
+      "36117847",
+      "37854910",
+      "38251936"
+    ],
+    "review": [
+      "35488257",
+      "39119128",
+      "29334683",
+      "32056455"
+    ],
+    "pmc": [
+      "9055774"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-022-09570-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/35488257/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35488257/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35488257",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CSTB-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors identify NME1 as a nuclear cofactor that enhances RelA DNA binding to a subset of κB sites, particularly under unstimulated conditions, and propose that NME1 acts combinatorially with other cofactors to regulate RelA-dependent transcription.
+- **Visible evidence base** EMSA data with nuclear extracts and recombinant proteins, knockdown experiments, immunoprecipitation, GST pulldown, luciferase reporter assays, RNA-seq, ChIP-qPCR, and mass spectrometry identification
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; no quantitative data or statistical details for EMSA, ChIP, or pulldown experiments; no details on RNA-seq data processing thresholds or quality metrics; no information on replicate numbers for several key experiments
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in NF-κB biology, namely how RelA achieves DNA binding at low nuclear concentrations in unstimulated cells. The identification of NME1 as a putative cofactor is potentially interesting. However, the evidence presented is largely qualitative and the central claim that NME1 modulates RelA DNA binding in a physiologically meaningful way is not fully established. The mechanistic model proposed, involving combinatorial cofactor action, is speculative and not directly tested. The manuscript would benefit from more rigorous quantitative analyses and direct demonstration of the functional relevance of the NME1-RelA interaction.
+- **Who would be interested in the results, and why** Researchers studying NF-κB signaling, transcriptional regulation, and cofactor-dependent DNA binding. The potential link between NME1, a metastasis suppressor, and NF-κB activity may also interest cancer biologists. The broader question of how transcription factors achieve specificity and efficiency in vivo is of general interest to the gene regulation community.
+- **Major strengths** The study addresses a relevant and under-explored question regarding RelA function in unstimulated cells. The biochemical purification approach to identify cofactors is reasonable. The finding that NME1 interacts with RelA and modestly enhances DNA binding in vitro is novel. The observation that NME1 affects a subset of RelA target genes, particularly those with non-clustered κB sites, adds specificity to the claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that NME1 enhances RelA's ability to bind DNA and that this effect is physiologically relevant for gene expression.
+  - **Evidence pointer** Figures 2A-C, 3C-E, 4D-E; location not provided
+  - **Concern** The central claim that NME1 enhances RelA DNA binding is supported primarily by qualitative EMSA and ChIP data. The magnitude of the effect is described as "marginal" when NME1 acts alone, and the enhancement in nuclear extracts is modest. No quantitative binding data (e.g., dissociation constants, fold-change in occupancy) are provided. The ChIP-qPCR data show reduced RelA occupancy in NME1 KD cells, but the extent of reduction and statistical significance are not reported. The in vitro effect of recombinant NME1 on RelA DNA binding appears weak, raising questions about the physiological relevance of the interaction.
+  - **Why it matters** The core conclusion of the manuscript rests on the ability of NME1 to enhance RelA DNA binding. Without quantitative and statistically robust evidence, the claim is not convincing. The "marginal" effect of NME1 alone undermines the direct cofactor model and suggests that other factors may be responsible for the observed effects.
+  - **Resolution test** Provide quantitative EMSA data with multiple NME1 concentrations and calculate apparent binding affinities. Include ChIP-qPCR data with biological replicates and statistical analysis, showing the fold-change in RelA occupancy at target genes in control versus NME1 KD cells. Demonstrate that the effect of NME1 on RelA binding is specific and not due to indirect effects on cell viability or NF-κB activation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that NME1 regulates expression of a subset of RelA target genes under both unstimulated and stimulated conditions.
+  - **Evidence pointer** Figures 4A-E, 5A-C; location not provided
+  - **Concern** The RNA-seq and RT-qPCR data show changes in gene expression upon NME1 KD, but the link to RelA is not clearly established. The authors do not demonstrate that the affected genes are direct RelA targets or that the changes are due to altered RelA DNA binding rather than other NME1 functions (e.g., kinase activity, nucleotide metabolism). The classification of genes into "class I" and "class II" based on TNFα responsiveness is descriptive but not mechanistically validated. The claim that NME1 acts as a cofactor for other transcription factors to regulate class II genes is speculative and not tested.
+  - **Why it matters** The manuscript aims to establish NME1 as a RelA cofactor with transcriptional consequences. If the observed gene expression changes are not directly linked to RelA binding, the central thesis is weakened. NME1 has multiple biochemical activities, and the authors do not exclude the possibility that its effects on gene expression are independent of RelA.
+  - **Resolution test** Perform ChIP-seq or ChIP-qPCR for RelA in control and NME1 KD cells to directly demonstrate altered RelA occupancy at the affected gene promoters. Use reporter assays with mutated κB sites to show that the NME1 effect requires intact RelA binding sites. Rescue experiments with NME1 mutants (e.g., catalytically inactive) would help distinguish between cofactor and kinase-dependent functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model
+  - **Claim pointer** The authors propose that NME1 acts combinatorially with other cofactors to regulate RelA DNA binding and that clustering of κB sites is necessary for RelA-dependent transcription complex assembly.
+  - **Evidence pointer** Discussion section; Figures 5C; location not provided
+  - **Concern** The model that NME1 cooperates with other cofactors is inferred from the marginal effect of NME1 alone and the progressive loss of activity during purification. However, no experiments directly test this model. The claim that κB site clustering is necessary for RelA-dependent transcription is based on correlative analysis of gene classes and is not experimentally addressed. The authors do not identify or test any putative cooperating cofactors.
+  - **Why it matters** The proposed model is a significant part of the manuscript's conceptual contribution. Without direct experimental support, it remains speculative and does not advance the field beyond the current understanding.
+  - **Resolution test** Identify and test candidate cooperating cofactors (e.g., from the mass spectrometry data) in combination with NME1 in EMSA or reporter assays. Generate reporter constructs with clustered versus isolated κB sites and test the requirement for clustering in NME1-dependent transcription. Knock down or inhibit putative cofactors and assess the effect on RelA binding and gene expression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction; location not provided
+  - **Issue** The abstract states that NME1 "modulates DNA binding" but the effect is described as "marginal" in the results. This discrepancy could confuse readers.
+  - **Required correction** Clarify in the abstract the magnitude of the effect and the proposed combinatorial mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Issue** The RNA-seq analysis section lacks details on differential expression thresholds, multiple testing correction, and how "significant" changes were defined.
+  - **Required correction** Provide complete analysis parameters, including adjusted p-value cutoffs and fold-change thresholds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure legends; location not provided
+  - **Issue** Figure legends do not specify the number of biological replicates or the statistical tests used for quantitative data.
+  - **Required correction** Add replicate numbers and statistical details to all figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section on NME1 KD
+  - **Evidence pointer** Figure 2; location not provided
+  - **Issue** The authors state that NME1 KD had "minimal impact" on IκBα degradation and nuclear RelA levels, but the data are not shown.
+  - **Required correction** Show the data or reference a supplementary figure to support this statement.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding data for the central claim (R1-M1), the absence of direct evidence linking NME1-dependent gene expression changes to RelA occupancy (R1-M2), and the untested combinatorial model (R1-M3) are the primary technical and conceptual gaps. Additionally, the manuscript does not provide sufficient experimental detail to assess the robustness of the RNA-seq and ChIP experiments.
+- **Assessment against Nature-style criteria** Originality: The question of how RelA binds DNA at low concentrations in unstimulated cells is somewhat novel, and NME1 has not been previously identified as a RelA cofactor. However, the concept of cofactor-mediated enhancement of transcription factor DNA binding is well established. Scientific importance: The findings could be relevant to NF-κB biology and cancer, but the modest effects and lack of mechanistic depth limit the potential impact. Interdisciplinary readership: The topic is primarily of interest to molecular biologists and biochemists; the broader cancer biology community may be interested given NME1's role as a metastasis suppressor. Technical soundness: The experimental approaches are generally appropriate, but the lack of quantitative data and statistical rigor undermines the conclusions. Readability for nonspecialists: The manuscript is clearly written and accessible, though some specialized terminology is used without full explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting observation but does not provide sufficient quantitative or mechanistic evidence to support the central claims. Major revisions addressing the concerns above are required before the case for NME1 as a physiologically relevant RelA cofactor can be made.
+
+## Risk / unsupported claims
+- The claim that NME1 enhances RelA DNA binding is supported only by qualitative data and the effect is described as "marginal" when NME1 acts alone.
+- The claim that NME1 regulates a subset of RelA target genes is not directly linked to RelA occupancy at those genes.
+- The proposal that κB site clustering is necessary for RelA-dependent transcription complex assembly is not experimentally tested.
+- The suggestion that NME1 acts as a cofactor for other transcription factors is speculative and not supported by direct evidence.
+- The statement that "many other cofactors are required for full engagement" is inferred from purification data but not directly demonstrated.

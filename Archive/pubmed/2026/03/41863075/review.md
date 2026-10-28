@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, significance statement, introduction, materials and methods, results, discussion, conclusion, data availability, acknowledgments, author contributions, and declaration of interests. Supporting figures and tables are referenced but not provided.
+- **Assessment boundary** Scientific soundness, technical rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. The review is based solely on the provided manuscript text; no external data, figures, or supplementary materials were examined.
+- **Shared manuscript claim summary** The authors propose that DNA recognition by the Hth-Exd-Scr homeodomain trimeric complex involves both intrinsic DNA shape readout and protein-induced conformational modulation, quantified via a new metric (MGW-FL) derived from molecular dynamics simulations. They further claim that AlphaFold 3 cannot capture mutation-sensitive or dynamic DNA shape features, and they introduce an AF–MD–DeepPBS hybrid pipeline to overcome these limitations.
+- **Visible evidence base** Text descriptions of MD simulation protocols, SELEX-seq binning, DeepPBS scoring, DCCM analysis, and qualitative summaries of results. References to Figures S1–S20 and Tables S1–S4, none of which were available for inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, simulation trajectories, and code. Without these, quantitative claims regarding MGW values, statistical tests, correlation coefficients, and structural comparisons cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in protein–DNA recognition: how intrinsic DNA shape and protein-induced conformational changes jointly determine binding specificity. The conceptual distinction between static MGW and dynamic MGW-FL is potentially valuable, and the integration of deep learning with MD simulations is a sensible and forward-looking strategy. However, the evidence as presented is largely qualitative and relies heavily on unreferenced supplementary materials. Several central claims, particularly regarding the predictive limitations of AF3 and the mechanistic role of specific residues, are not sufficiently supported by the data described in the text. The manuscript would benefit from clearer presentation of quantitative results, explicit statistical comparisons, and a more critical discussion of the limitations of the computational approach.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, structural biology, and gene regulation would find this work relevant. Those studying transcription factor binding specificity, particularly homeodomain proteins, would be interested in the proposed MGW-FL metric and the AF–MD–DeepPBS pipeline. The work also speaks to the broader community evaluating the capabilities and limitations of AlphaFold-based structure prediction for nucleic acid complexes.
+- **Major strengths** The study addresses a mechanistically important question that is often oversimplified in the literature. The introduction of MGW-FL as a dynamic complement to static MGW is conceptually appealing. The use of SELEX-seq data to guide simulation design is a strength, as is the comparison across multiple homeodomain proteins. The critical evaluation of AF3, including the recognition of training data bias, is a useful contribution. The proposed hybrid pipeline is pragmatic and likely to be adopted by others in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MGW-FL captures protein-induced stabilization and reshaping of DNA, and that reductions in MGW-FL at contact sites reflect induced fit.
+  - **Evidence pointer** Results section, Figures 1C, 1D, 2C, 4, 5; Table S4; location not provided for specific data points.
+  - **Concern** The central metric of the paper, MGW-FL, is introduced and used to draw mechanistic conclusions, but the manuscript does not provide a clear definition of how MGW-FL is computed beyond stating it is the pooled standard deviation of MGW across time and replicas. No validation is shown that MGW-FL is a reliable or meaningful measure of conformational flexibility, nor is it compared to alternative metrics such as backbone RMSF or helical parameter fluctuations. The claim that MGW-FL reductions reflect induced fit is asserted rather than demonstrated through correlation with binding affinity or experimental data.
+  - **Why it matters** The entire conceptual framework of the paper rests on the validity and interpretability of MGW-FL. If this metric is not rigorously defined and validated, the mechanistic conclusions drawn from it are not established.
+  - **Resolution test** Provide a formal definition of MGW-FL, including the exact calculation procedure. Show that MGW-FL is distinct from and complementary to static MGW. Validate MGW-FL against experimental data, such as NMR or crystallographic B-factors, or demonstrate a quantitative relationship between MGW-FL reductions and binding affinity across a range of sequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AF3 fails to capture mutation effects on DNA shape, based on near-identical MGW profiles between WT and mutant complexes.
+  - **Evidence pointer** Results section, Figure 3A; location not provided for specific correlation values.
+  - **Concern** The conclusion that AF3 is insensitive to mutations is based on a single comparison of MGW profiles. The manuscript does not report the magnitude of MGW differences between WT and mutant in MD simulations, nor does it establish that these differences are biologically significant. The correlation coefficient of r = 0.99 between AF3 WT and mutant MGW profiles is presented without a corresponding comparison for MD simulations, making it impossible to assess whether AF3 is truly insensitive or whether the mutations simply have small effects on MGW.
+  - **Why it matters** The claim that AF3 cannot model mutation effects is a key motivation for the proposed hybrid pipeline. If this claim is not rigorously established, the added value of the pipeline over AF3 alone is unclear.
+  - **Resolution test** Report the MGW differences between WT and mutant from MD simulations, with appropriate statistical testing. Show that these differences are larger than those from AF3 and that they correlate with experimentally measured binding affinities or specific contacts. Provide a quantitative benchmark of AF3 sensitivity across multiple mutations and sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the AF–MD–DeepPBS pipeline successfully captures active modulation of DNA structure missed by AF3 alone.
+  - **Evidence pointer** Results section, Figures 3B, 3C, S11–S13; location not provided.
+  - **Concern** The pipeline is described as a key deliverable, but the manuscript does not provide a step-by-step protocol, parameter choices, or a clear statement of what inputs are required and what outputs are produced. The validation of the pipeline is limited to the Hth-Exd-Scr system, and it is unclear how generalizable the approach is to other protein–DNA complexes. The DeepPBS component is mentioned but not described in sufficient detail to understand how its scores are integrated with MD results.
+  - **Why it matters** For a methodological contribution to be useful, it must be reproducible and transferable. Without a clear protocol and broader validation, the pipeline remains a proof-of-concept rather than a general tool.
+  - **Resolution test** Provide a detailed protocol for the AF–MD–DeepPBS pipeline, including all software versions, parameters, and decision points. Validate the pipeline on additional protein–DNA complexes with known structures and binding data. Show that the pipeline produces results that are consistent with experimental observations and that it offers advantages over simpler approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "readout of intrinsic and induced DNA shape" is used without defining what "induced" means in this context. The abstract would benefit from a brief clarification that induced shape refers to protein-mediated conformational changes.
+  - **Required correction** Add a short phrase, for example, "protein-induced changes in DNA conformation," to clarify the meaning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Figure 1C
+  - **Evidence pointer** Results section, Figure 1C; Table S4
+  - **Issue** The manuscript reports p-values for MGW-FL reductions but does not state which statistical test was used or how multiple comparisons were handled. The number of independent samples (replicas, time points) is not specified.
+  - **Required correction** Specify the statistical test used, the number of independent observations, and whether corrections for multiple testing were applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on AF3 limitations
+  - **Issue** The discussion of AF3 training data bias cites a specific number of DNA-containing structures in the PDB, but the source of this number is not provided. It is unclear whether this is the authors' own analysis or a published statistic.
+  - **Required correction** Provide a citation or describe the method used to obtain this number.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Materials and methods, DNA shape calculation
+  - **Evidence pointer** Materials and methods, DNA shape calculation section
+  - **Issue** The term "MGW-FL" is introduced without a formal definition. The abbreviation is used throughout the manuscript, but the reader is left to infer its meaning from context.
+  - **Required correction** Define MGW-FL explicitly at first use, for example, "minor groove width fluctuation (MGW-FL), defined as the standard deviation of MGW over time."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, Figure 2C
+  - **Evidence pointer** Results section, Figure 2C
+  - **Issue** The split violin plots in Figure 2C are described qualitatively, but the manuscript does not report the underlying distributions or sample sizes. It is difficult to assess the robustness of the differences shown.
+  - **Required correction** Report the number of data points per condition and consider adding statistical summaries to the figure or its legend.
+
+## Risk / unsupported claims
+- The claim that MGW-FL reductions at contact sites reflect induced fit is not quantitatively supported; no correlation with binding affinity or experimental conformational data is provided.
+- The claim that AF3 fails to capture mutation effects is based on a single comparison and lacks a quantitative benchmark against MD or experimental data.
+- The claim that the AF–MD–DeepPBS pipeline successfully captures DNA modulation is not validated beyond the Hth-Exd-Scr system, and the protocol is not described in sufficient detail for reproduction.
+- The statement that AF3 training data contain 12,221 DNA-containing structures versus 235,334 protein structures is presented without a source or methodology.
+- The biological significance of the observed MGW-FL differences between bound and unbound states is not established; effect sizes and confidence intervals are not reported.
+- The generalizability of the findings to other homeodomain proteins or other TF families is asserted but not demonstrated with data.

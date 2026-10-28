@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "34906874",
+    "doi": "10.1016/j.jhazmat.2021.128041",
+    "title": "High throughput data-based, toxicity pathway-oriented development of a quantitative adverse outcome pathway network linking AHR activation to lung damages."
+  },
+  "content": {
+    "abstract": "The quantitative adverse outcome pathway (qAOP) is proposed to inform dose-responses at multiple biological levels for the purpose of toxicity prediction. So far, qAOP models concerning human health are scarce. Previously, we proposed 5 key molecular pathways that led aryl hydrogen receptor (AHR) activation to lung damages. The present study assembled an AOP network based on the gene expression signatures of these toxicity pathways, and validated the network using publicly available high throughput data combined with machine learning models. In addition, the AOP network was quantitatively evaluated with omics approaches and bioassays, using 16HBE-CYP1A1 cells exposed to benzo(a)pyrene (BaP), a prototypical AHR activator. Benchmark dose (BMD) analysis of transcriptomics revealed that AHR gene held the lowest BMD value, whereas AHR pathway held the lowest point of departure (PoD) compared to the other 4 pathways. Targeted bioassays were further performed to quantitatively understand the cellular responses, including ROS generation, DNA damage, interleukin-6 production, and extracellular matrix increase marked by collagen expression. Eventually, response-response relationships were plotted using nonlinear model fitting. The present study developed a highly reliable AOP model concerning human health, and validated as well as quantitatively evaluated it, and such a method is likely to be adoptable for risk assessment.",
+    "keywords": [
+      "AHR",
+      "High throughput",
+      "Lung damage",
+      "Machine learning",
+      "Quantitative AOP"
+    ],
+    "mesh_terms": [
+      "*Adverse Outcome Pathways",
+      "Benzo(a)pyrene",
+      "Cytochrome P-450 CYP1A1",
+      "Humans",
+      "Hydrogen",
+      "Lung",
+      "Receptors, Aryl Hydrocarbon/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Yuan",
+        "Qi, Guangshuai",
+        "Shou, Yingqing",
+        "Li, Daochuan",
+        "Liu, Yuzhen",
+        "Guan, Heyuan",
+        "Zhang, Qianqian",
+        "Chen, Shen",
+        "Luo, Jiao",
+        "Xu, Lin",
+        "Li, Chuanhai",
+        "Ma, Wanli",
+        "Chen, Ningning",
+        "Zheng, Yuxin",
+        "Yu, Dianke"
+      ],
+      "short_names": [
+        "Jin Y",
+        "Qi G",
+        "Shou Y",
+        "Li D",
+        "Liu Y",
+        "Guan H",
+        "Zhang Q",
+        "Chen S",
+        "Luo J",
+        "Xu L",
+        "Li C",
+        "Ma W",
+        "Chen N",
+        "Zheng Y",
+        "Yu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Sun Yat-sen University, Guangzhou, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Sun Yat-sen University, Guangzhou, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China.",
+        "School of Public Health, Qingdao University, Qingdao, China. Electronic address: dianke.yu@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Yuan",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Guangshuai",
+        "short_name": "Qi G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Shou, Yingqing",
+        "short_name": "Shou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Daochuan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuzhen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Heyuan",
+        "short_name": "Guan H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qianqian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shen",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiao",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lin",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chuanhai",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wanli",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ningning",
+        "short_name": "Chen N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuxin",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dianke",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Qingdao University, Qingdao, China. Electronic address: dianke.yu@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of hazardous materials"
+    ],
+    "journal_abbrev": [
+      "J Hazard Mater"
+    ],
+    "pub_date": "2022 Mar 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/16 06:00",
+    "fetched_at": "2026-09-28 02:54:55"
+  },
+  "links": {
+    "cites": [
+      "41719394",
+      "41604877",
+      "41563147",
+      "41377585",
+      "41229215",
+      "39223311",
+      "39189172",
+      "39187236",
+      "39133094",
+      "39097536",
+      "38840551",
+      "38577564",
+      "37355733",
+      "36799527",
+      "36479815",
+      "36355934"
+    ],
+    "refs": [],
+    "similar": [
+      "34906874",
+      "28428138",
+      "11141357",
+      "33421718",
+      "12884409",
+      "29545172",
+      "12927582",
+      "18372000",
+      "29315775",
+      "17944540",
+      "22837390",
+      "33288249",
+      "33011576",
+      "20553787",
+      "30053493",
+      "22425873",
+      "20307623",
+      "30204910",
+      "18065724",
+      "21978865",
+      "26963242",
+      "20228066",
+      "28882572",
+      "10706104",
+      "26927881",
+      "31092429",
+      "19666105",
+      "15667830",
+      "9264552",
+      "23026235",
+      "19033395",
+      "27353300",
+      "25224404",
+      "32557721",
+      "32648946",
+      "22581694",
+      "31086989",
+      "21714911",
+      "26145830",
+      "31373329",
+      "12117779",
+      "17433523",
+      "21256954",
+      "30099064",
+      "21567390",
+      "36799527",
+      "21720915",
+      "23228475",
+      "19961161",
+      "15621696",
+      "34597721",
+      "10503953",
+      "23776235",
+      "32673888",
+      "9448724",
+      "27486223",
+      "26738610",
+      "10822009",
+      "18793272",
+      "30748024",
+      "27362771",
+      "11780955",
+      "17049425",
+      "31176714",
+      "27627846",
+      "11159756",
+      "11577022",
+      "16198082",
+      "27594096",
+      "30776761",
+      "31195230",
+      "32166782",
+      "24355420",
+      "33393179",
+      "21911031",
+      "19216581",
+      "31730885",
+      "31462083",
+      "26862745",
+      "30293151",
+      "28103884",
+      "30268890",
+      "25532870",
+      "26041267",
+      "15041469",
+      "26466350",
+      "9395520",
+      "23036591",
+      "19244278",
+      "17968679",
+      "12628579",
+      "28710019",
+      "32417428",
+      "10639156",
+      "19358281",
+      "24472612",
+      "35660951",
+      "38493858",
+      "34416019",
+      "36860045",
+      "32924456",
+      "36683062",
+      "35434701",
+      "35278637",
+      "35211660",
+      "37829618",
+      "35224319"
+    ],
+    "review": [
+      "34906874",
+      "32648946",
+      "26041267",
+      "35660951"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3894(21)03010-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

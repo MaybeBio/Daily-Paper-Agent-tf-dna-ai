@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "34879708",
+    "doi": "10.1161/ATVBAHA.121.316883",
+    "title": "Single-Cell RNA Sequencing and Assay for Transposase-Accessible Chromatin Using Sequencing Reveals Cellular and Molecular Dynamics of Aortic Aging in Mice."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The impact of vascular aging on cardiovascular diseases has been extensively studied; however, little is known regarding the cellular and molecular mechanisms underlying age-related vascular aging in aortic cellular subpopulations. Approach and Results: Transcriptomes and transposase-accessible chromatin profiles from the aortas of 4-, 26-, and 86-week-old C57/BL6J mice were analyzed using single-cell RNA sequencing and assay for transposase-accessible chromatin sequencing. By integrating the heterogeneous transcriptome and chromatin accessibility data, we identified cell-specific TF (transcription factor) regulatory networks and open chromatin states. We also determined that aortic aging affects cell interactions, inflammation, cell type composition, dysregulation of transcriptional control, and chromatin accessibility. Endothelial cells 1 have higher gene set activity related to cellular senescence and aging than do endothelial cells 2. Moreover, construction of senescence trajectories shows that endothelial cell 1 and fibroblast senescence is associated with distinct TF open chromatin states and an mRNA expression model. CONCLUSIONS: Our data provide a system-wide model for transcriptional and epigenetic regulation during aortic aging at single-cell resolution.",
+    "keywords": [
+      "aorta",
+      "endothelial cells",
+      "fibroblasts",
+      "inflammation",
+      "transcriptome"
+    ],
+    "mesh_terms": [
+      "*Aging",
+      "Animals",
+      "Aorta/*metabolism",
+      "Cardiovascular Diseases/*genetics",
+      "Chromatin/*genetics",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Gene Regulatory Networks",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Molecular Dynamics Simulation",
+      "Sequence Analysis, RNA",
+      "Transcription Factors/genetics",
+      "*Transcriptome",
+      "Transposases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Wenhui",
+        "Ke, Yilang",
+        "You, Qinyi",
+        "Li, Jing",
+        "Chen, Lu",
+        "Li, Dang",
+        "Fang, Jun",
+        "Chen, Xiaofeng",
+        "Zhou, Yuanyuan",
+        "Chen, Liangwan",
+        "Hong, Huashan"
+      ],
+      "short_names": [
+        "Xie W",
+        "Ke Y",
+        "You Q",
+        "Li J",
+        "Chen L",
+        "Li D",
+        "Fang J",
+        "Chen X",
+        "Zhou Y",
+        "Chen L",
+        "Hong H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8332-0066"
+      ],
+      "affiliations": [
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+        "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+        "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Wenhui",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+          "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+          "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Ke, Yilang",
+        "short_name": "Ke Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+          "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.)."
+        ]
+      },
+      {
+        "full_name": "You, Qinyi",
+        "short_name": "You Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Chen, Lu",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Li, Dang",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+          "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Fang, Jun",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaofeng",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuanyuan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Chen, Liangwan",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.)."
+        ]
+      },
+      {
+        "full_name": "Hong, Huashan",
+        "short_name": "Hong H",
+        "identifiers": [
+          "0000-0001-8332-0066"
+        ],
+        "affiliations": [
+          "Department of Geriatrics, Department of Cardiac Surgery, and Department of Cardiology, Fujian Heart Disease Center, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Q.Y., J.L., L.C., J.F., X.C., Y.Z., L.C., H.H.).",
+          "Fujian Key Laboratory of Vascular Aging, Fujian Medical University, Fuzhou, China (W.X., Y.K., D.L., H.H.).",
+          "Fujian Institute of Geriatrics, Fujian Medical University Union Hospital, Fuzhou, China (W.X., Y.K., D.L., H.H.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Arteriosclerosis, thrombosis, and vascular biology"
+    ],
+    "journal_abbrev": [
+      "Arterioscler Thromb Vasc Biol"
+    ],
+    "pub_date": "2022 Feb",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/10 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "42333936",
+      "42110171",
+      "42034786",
+      "42021544",
+      "41917536",
+      "41507140",
+      "41355963",
+      "41343672",
+      "41252867",
+      "41209003",
+      "40931195",
+      "40904701",
+      "40894771",
+      "40883305",
+      "40655014",
+      "40223932",
+      "40081573",
+      "40040784",
+      "39451201",
+      "39190264",
+      "38943021",
+      "38916960",
+      "38724770",
+      "38502584",
+      "38495938",
+      "38358087",
+      "37656130",
+      "37644009",
+      "37421484",
+      "37115626",
+      "36994731",
+      "35894781",
+      "35080899"
+    ],
+    "refs": [],
+    "similar": [
+      "34879708",
+      "31611697",
+      "32312702",
+      "37107573",
+      "34551670",
+      "34922949",
+      "33581341",
+      "27309802",
+      "34687484",
+      "32316525",
+      "32336246",
+      "32619460",
+      "33607116",
+      "36173568",
+      "36109677",
+      "35362202",
+      "34635836",
+      "33659905",
+      "33044128",
+      "31141696",
+      "31335862",
+      "34870838",
+      "37767569",
+      "33926839",
+      "37465120",
+      "34548614",
+      "32917699",
+      "32293531",
+      "32656717",
+      "30042136",
+      "33564857",
+      "36546093",
+      "33850129",
+      "30531792",
+      "35046932",
+      "36708949",
+      "37815204",
+      "39122670",
+      "37856006",
+      "32805724",
+      "26846207",
+      "35584664",
+      "32699019",
+      "37226912",
+      "37895327",
+      "29605854",
+      "29930145",
+      "30477572",
+      "33422696",
+      "33606259",
+      "38051940",
+      "27749837",
+      "26977395",
+      "37017569",
+      "33923056",
+      "34488759",
+      "25559105",
+      "28075484",
+      "33153500",
+      "27443938",
+      "26083756",
+      "36149297",
+      "31146585",
+      "31409188",
+      "34544361",
+      "32663104",
+      "32213349",
+      "33511349",
+      "33172005",
+      "31126739",
+      "30580963",
+      "23997094",
+      "29720659",
+      "33028202",
+      "30696696",
+      "31164146",
+      "34382186",
+      "28193859",
+      "32091396",
+      "32299537",
+      "35004685",
+      "28655330",
+      "32127793",
+      "33168060",
+      "34003589",
+      "33976139",
+      "30167544",
+      "32143622",
+      "32376693",
+      "31160376",
+      "32312703",
+      "29434377",
+      "32371953",
+      "35449156",
+      "31695190",
+      "35381424",
+      "36043458",
+      "36727578",
+      "34097533",
+      "35263594",
+      "38062919",
+      "37131739",
+      "36658433",
+      "37845489",
+      "35063091",
+      "36200838",
+      "39372732",
+      "38182297",
+      "37974651",
+      "35615560",
+      "33139959",
+      "37118452",
+      "37774676",
+      "38340731",
+      "35842899",
+      "35832888",
+      "36835113",
+      "38496474",
+      "33414680",
+      "38472271"
+    ],
+    "review": [
+      "34879708",
+      "32312702",
+      "33581341",
+      "33606259",
+      "36149297",
+      "33172005",
+      "30167544",
+      "32312703",
+      "35842899",
+      "36835113"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316883?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=42&issue=2&spage=156&aulast=Xie",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/34879708",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34879708.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse164585",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

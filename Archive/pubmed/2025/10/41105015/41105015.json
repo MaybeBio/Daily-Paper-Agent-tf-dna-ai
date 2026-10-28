@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41105015",
+    "doi": "10.1093/gigascience/giaf053",
+    "title": "Cross-modal contrastive learning decodes developmental regulatory features through chromatin potential analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Emerging large-scale multimodal single-cell data jointly measure chromatin accessibility and transcription in the same cell, thus reconciling matched data paves an integrated route for comprehensive regulatory analysis. FINDINGS: Here, we introduce Attune, a cross-modal contrastive learning framework to align paired gene expression and accessibility information. Systematic benchmarking shows Attune's superior performance for omics integration and gene expression prediction. We further introduce transformer-based cross-modal attention over fine-tuned gene and peak embeddings to infer regulatory interaction and discover significant differential signals of cell subtypes. Applied to a hair follicle maturation dataset, Attune reveals chromatin potential for the bifunctional transcription factor Gli3 at the gene level. In addition, the paired representations determine transmitted states across neonatal and mature cell types of cortical neuron differentiation at the cell level. Taken together, Attune offers an approach for regulatory inference across omics layers and enables more advanced omics analyses. CONCLUSIONS: Attune offers a versatile framework for integrating gene expression and chromatin accessibility, enabling the inference of regulatory mechanisms and the prediction of gene expression from cross-modal data.",
+    "keywords": [
+      "chromatin potential analysis",
+      "contrastive learning",
+      "developmental regulation",
+      "multimodality"
+    ],
+    "mesh_terms": [
+      "Single-Cell Gene Expression Analysis/methods",
+      "*Chromatin/genetics/metabolism",
+      "*Computational Biology/methods",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Datasets as Topic",
+      "*Machine Learning",
+      "Gene Expression Regulation, Developmental",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Transcription, Genetic",
+      "Zinc Finger Protein Gli3/metabolism",
+      "Cell Differentiation/genetics",
+      "Hair Follicle/growth & development",
+      "Neurons/physiology",
+      "Cerebral Cortex/cytology/growth & development",
+      "Nerve Tissue Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yueyuxiao",
+        "Xie, Chenxi",
+        "He, Qiushun",
+        "Yang, Meng"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Xie C",
+        "He Q",
+        "Yang M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8312-7100",
+        "ORCID: 0000-0003-3784-6993",
+        "ORCID: 0000-0002-3805-1925",
+        "ORCID: 0000-0001-5630-6357"
+      ],
+      "affiliations": [
+        "MGI Tech Co., Ltd., Shenzhen 518083, China.",
+        "MGI Tech Co., Ltd., Shenzhen 518083, China.",
+        "MGI Tech Co., Ltd., Shenzhen 518083, China.",
+        "MGI Tech Co., Ltd., Shenzhen 518083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yueyuxiao",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0001-8312-7100"
+        ],
+        "affiliations": [
+          "MGI Tech Co., Ltd., Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Chenxi",
+        "short_name": "Xie C",
+        "identifiers": [
+          "0000-0003-3784-6993"
+        ],
+        "affiliations": [
+          "MGI Tech Co., Ltd., Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "He, Qiushun",
+        "short_name": "He Q",
+        "identifiers": [
+          "0000-0002-3805-1925"
+        ],
+        "affiliations": [
+          "MGI Tech Co., Ltd., Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Meng",
+        "short_name": "Yang M",
+        "identifiers": [
+          "0000-0001-5630-6357"
+        ],
+        "affiliations": [
+          "MGI Tech Co., Ltd., Shenzhen 518083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "GigaScience"
+    ],
+    "journal_abbrev": [
+      "Gigascience"
+    ],
+    "pub_date": "2025 Jan 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/17 12:30",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37386189",
+      "37231261",
+      "36600199",
+      "36456571",
+      "36353677",
+      "36251758",
+      "36229609",
+      "36089620",
+      "36068320",
+      "35501393",
+      "35237124",
+      "35058621",
+      "34963480",
+      "34949812",
+      "34850907",
+      "34557778",
+      "34390642",
+      "34380571",
+      "34062119",
+      "33954299",
+      "33899275",
+      "33827925",
+      "33491336",
+      "33098772",
+      "32245491",
+      "32166136",
+      "31907462",
+      "31838646",
+      "31611697",
+      "31178118",
+      "31167803",
+      "30962623",
+      "30936559",
+      "30902252",
+      "30899105",
+      "30692544",
+      "30582981",
+      "30078726",
+      "30010637",
+      "29659575",
+      "29608179",
+      "29409532",
+      "29337183",
+      "29093060",
+      "28991892",
+      "28825706",
+      "28782908",
+      "28703798",
+      "27863249",
+      "27784329",
+      "27414798",
+      "26348399",
+      "26150426",
+      "26004869",
+      "25527076",
+      "25249463",
+      "25160912",
+      "24260306",
+      "23772206",
+      "22609986",
+      "22495300",
+      "22169023",
+      "21962519",
+      "21549329",
+      "21473784",
+      "21379383",
+      "20803597",
+      "18084642",
+      "17320508",
+      "16424016",
+      "16381938",
+      "16199517",
+      "16078370",
+      "12921747",
+      "12897139",
+      "12533516"
+    ],
+    "similar": [
+      "41105015",
+      "41632825",
+      "41588477",
+      "42243114",
+      "40856525",
+      "42475469",
+      "39207727",
+      "39747019",
+      "42100854",
+      "32431014",
+      "36902216",
+      "41318386",
+      "40889281",
+      "42251185",
+      "41805524",
+      "42650039",
+      "31053165",
+      "42419494",
+      "41831316",
+      "35976093",
+      "38940155",
+      "33837132",
+      "31136738",
+      "29786967",
+      "39800872",
+      "34251624",
+      "36943152",
+      "32188700",
+      "37178817",
+      "22456606",
+      "33371906",
+      "39987573",
+      "39210544",
+      "34584102",
+      "42560939",
+      "42636032",
+      "39468737",
+      "42167226",
+      "41315351",
+      "42248920",
+      "36068320",
+      "40577680",
+      "40471991",
+      "42608748",
+      "41655240",
+      "42074532",
+      "38600256",
+      "39326643",
+      "32948690",
+      "41325188",
+      "38609714",
+      "37365273",
+      "39062661",
+      "42734741",
+      "36109677",
+      "42642597",
+      "40663269",
+      "40966655",
+      "41093852",
+      "38631462",
+      "42605072",
+      "41632074",
+      "33874910",
+      "40633682",
+      "40795161",
+      "36726129",
+      "39487131",
+      "40029523",
+      "37875977",
+      "34374760",
+      "40591481",
+      "40501413",
+      "32029002",
+      "42482180",
+      "32392348",
+      "32610082",
+      "42011025",
+      "30782847",
+      "39376034",
+      "34390642",
+      "34699533",
+      "41909952",
+      "9584130",
+      "39924717",
+      "33086071",
+      "41922764",
+      "38358392",
+      "33941239",
+      "40251476",
+      "41437740",
+      "41596454",
+      "38653489",
+      "33098772",
+      "28356321",
+      "34616061",
+      "25849986",
+      "39833103",
+      "42050196",
+      "39779852",
+      "41800139"
+    ],
+    "review": [
+      "41105015",
+      "39207727",
+      "42074532",
+      "37365273",
+      "42734741",
+      "40966655"
+    ],
+    "pmc": [
+      "12532322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41105015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gigascience/article-lookup/doi/10.1093/gigascience/giaf053",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

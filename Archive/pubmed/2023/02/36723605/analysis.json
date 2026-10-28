@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36723605",
+  "title": "Unsupervised construction of gene regulatory network based on single-cell multi-omics data of colorectal cancer.",
+  "authors": "Cui, Lingyu; Li, Hongfei; Bian, Jilong; Wang, Guohua; Liang, Yingjian",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-02-02",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用单细胞多组学数据和无监督学习构建结直肠癌基因调控网络，虽涉及转录因子，但缺乏蛋白质-DNA三维互作建模与AI/物理模拟方法，仅属边缘相关。",
+  "abstract": "Identifying gene regulatory networks (GRNs) at the resolution of single cells has long been a great challenge, and the advent of single-cell multi-omics data provides unprecedented opportunities to construct GRNs. Here, we propose a novel strategy to integrate omics datasets of single-cell ribonucleic acid sequencing and single-cell Assay for Transposase-Accessible Chromatin using sequencing, and using an unsupervised learning neural network to divide the samples with high copy number variation scores, which are used to infer the GRN in each gene block. Accuracy validation of proposed strategy shows that approximately 80% of transcription factors are directly associated with cancer, colorectal cancer, malignancy and disease by TRRUST; and most transcription factors are prone to produce multiple transcript variants and lead to tumorigenesis by RegNetwork database, respectively. The source code access are available at: https://github.com/Cuily-v/Colorectal_cancer.",
+  "abstract_zh": "在单细胞分辨率下识别基因调控网络（GRNs）长期以来一直是一个巨大挑战，而单细胞多组学数据的出现为构建GRNs提供了前所未有的机遇。在此，我们提出了一种新策略，用于整合单细胞核糖核酸测序和单细胞转座酶可及染色质分析测序的组学数据集，并利用无监督学习神经网络对具有高拷贝数变异评分的样本进行划分，这些样本用于推断每个基因模块中的GRN。对所提策略的准确性验证表明，通过TRRUST数据库，约80%的转录因子与癌症、结直肠癌、恶性肿瘤和疾病直接相关；且通过RegNetwork数据库，大多数转录因子倾向于产生多种转录变体并导致肿瘤发生。源代码可在以下网址获取：https://github.com/Cuily-v/Colorectal_cancer。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36723605/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36723605/",
+  "paper_page_path": "papers/pubmed/36723605/index.html"
+}

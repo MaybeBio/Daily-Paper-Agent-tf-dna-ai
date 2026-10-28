@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "38517374",
+    "doi": "10.18632/aging.205670",
+    "title": "Single cell RNA-seq identifies a FOS/JUN-related monocyte signature associated with clinical response of heart failure patients with mesenchymal stem cell therapy."
+  },
+  "content": {
+    "abstract": "Heart failure (HF) is a serious global health issue that demands innovative treatment approaches. In this study, we collected samples from 4 HF patients before and after MSC therapy and performed scRNA-seq. After the MSC therapy, the proportion of CD14(+) monocytes decreased significantly in both the treatment response and non-response groups, with a more pronounced decrease in the treatment response group. The therapy-response and non-response group were clearly separated in the UMAP plot, while the CD14(+) monocytes in the therapy-response group before and after MSC therapy were very similar, but there were significant differences in the non-response group. By further performing NMF analysis, we identified 11 subsets of CD14(+) monocytes. More importantly, we identified a therapy-related CD14(+) monocyte subpopulation. The predictive model based on CD14(+) monocytes constructed by machine learning algorithms showed good performance. Moreover, genes such as FOS were highly enriched in the therapy-related CD14(+) monocytes. The SCENIC analysis revealed potential regulatory factors for this treatment-responsive CD14(+) monocytes, and FOS/JUN were identified as potential core indicators/regulators. Finally, HF patients were divided into three groups by NMF analysis, and the therapy-responsive CD14(+) monocyte characteristics were differentially activated among the three groups. Together, this study identifies treatment-responsive CD14(+) monocytes as a crucial biomarker for assessing the suitability of MSC therapy and determining which HF patients could benefit from it. This provides new clues for further investigating the therapeutic mechanisms of MSC therapy, offering beneficial insights for personalized treatment and improving prognosis in HF patients.",
+    "keywords": [
+      "FOS",
+      "JUN",
+      "MSCs",
+      "heart failure",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers",
+      "*Heart Failure/genetics/therapy",
+      "*Mesenchymal Stem Cell Transplantation",
+      "Monocytes",
+      "RNA-Seq",
+      "Proto-Oncogene Proteins c-jun",
+      "Proto-Oncogene Proteins c-fos"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Hui",
+        "Zhang, Pengfei",
+        "Xin, Yuanfeng",
+        "Liu, Zhongmin",
+        "Gao, Bingren"
+      ],
+      "short_names": [
+        "Yuan H",
+        "Zhang P",
+        "Xin Y",
+        "Liu Z",
+        "Gao B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+        "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China.",
+        "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China.",
+        "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China.",
+        "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+        "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China.",
+        "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+        "Cardiopulmonary Vascular Center, Haikang Hospital, Xingguang Island, West Coast New Area, Qingdao 266400, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Hui",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+          "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengfei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Yuanfeng",
+        "short_name": "Xin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhongmin",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+          "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bingren",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiac Surgery, Lanzhou University Second Hospital, Lanzhou 730030, Gansu, China.",
+          "Cardiopulmonary Vascular Center, Haikang Hospital, Xingguang Island, West Coast New Area, Qingdao 266400, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2024 Mar 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/22 12:46",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42004563",
+      "39502220",
+      "39159065"
+    ],
+    "refs": [
+      "37730641",
+      "35649476",
+      "35441654",
+      "34417225",
+      "34299066",
+      "34276676",
+      "34062119",
+      "34044520",
+      "33503437",
+      "33168885",
+      "33159874",
+      "32649901",
+      "32384763",
+      "32066974",
+      "31992061",
+      "31604482",
+      "30717842",
+      "30595452",
+      "29789579",
+      "28991892",
+      "28974553",
+      "27904497",
+      "27847559",
+      "25984239",
+      "25516281",
+      "25254975",
+      "24658644",
+      "23740177",
+      "22704507",
+      "22455463",
+      "21253000",
+      "20598126",
+      "18613948",
+      "17665987",
+      "17206138",
+      "16199517",
+      "15982613",
+      "12529557",
+      "11126240",
+      "1581112"
+    ],
+    "similar": [
+      "38517374",
+      "21838603",
+      "34943990",
+      "29463269",
+      "37001702",
+      "33758528",
+      "26705751",
+      "38562923",
+      "37974098",
+      "33155517",
+      "32311026",
+      "23240665",
+      "28035653",
+      "31311593",
+      "22837127",
+      "37334672",
+      "36713384",
+      "38454445",
+      "29341339",
+      "36127734",
+      "31402918",
+      "25313167",
+      "34022039",
+      "26135617",
+      "35237501",
+      "23612365",
+      "26759164",
+      "28446249",
+      "26826137",
+      "32252818",
+      "23348634",
+      "30240448",
+      "37965335",
+      "22519984",
+      "36270470",
+      "25476849",
+      "26199646",
+      "34774109",
+      "22785372",
+      "25833081",
+      "36088998",
+      "22999728",
+      "31612215",
+      "23740177",
+      "27444882",
+      "25168844",
+      "37354149",
+      "32922178",
+      "20364047",
+      "37410142",
+      "31863561",
+      "32723919",
+      "36263038",
+      "32503947",
+      "34084163",
+      "8544403",
+      "26403460",
+      "32070351",
+      "32867655",
+      "21625498",
+      "37968611",
+      "27149446",
+      "34736534",
+      "28974553",
+      "20703784",
+      "25926562",
+      "19293821",
+      "20548789",
+      "37821442",
+      "20849360",
+      "24118494",
+      "35046942",
+      "29703749",
+      "35937796",
+      "23593194",
+      "19635902",
+      "35967310",
+      "31511449",
+      "30625388",
+      "23152489",
+      "21735544",
+      "25911752",
+      "29133194",
+      "32977837",
+      "25850575",
+      "38115318",
+      "31700522",
+      "38042786",
+      "23226928",
+      "34044520",
+      "11167997",
+      "25592233",
+      "32509885",
+      "9596748",
+      "31703617",
+      "25541241"
+    ],
+    "review": [
+      "38517374",
+      "32867655"
+    ],
+    "pmc": [
+      "11006470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38517374/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.aging-us.com/full/205670",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38517374/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38517374",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

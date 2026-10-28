@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.06.552202",
+  "title": "Predicting Protein-Ligand Binding Structure Using E(n) Equivariant Graph Neural Networks",
+  "authors": "Ashwin Dhakal; Rajan Gyawali; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-07",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用E(n)等变图神经网络预测蛋白质-配体结合结构，虽非TF-DNA体系，但蛋白-配体结合建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "Drug design is a costly and time-consuming process, often taking more than 12 years and costing up to billions of dollars. The COVID-19 pandemic has signified the urgent need for accelerated drug development. The initial stage of drug design involves the identification of ligands that exhibit a strong affinity for specific binding sites on protein targets (receptors), along with the determination of their precise binding conformation (3-dimensional (3D) structure). However, accurately determining the 3D conformation of a ligand binding with its target remains challenging due to the limited capability of exploring the huge chemical and protein structure space. To address this challenge, we propose a new E(n) Equivariant Graph Neural Network (EGNN) method for predicting the 3D binding structures of ligands and proteins. By treating proteins and ligands as graphs, the method extracts residue/atom-level node and edge features and utilizes physicochemical and geometrical properties of proteins and ligands to predict their binding structures. The results demonstrate the promising potential of EGNN for predicting ligand-protein binding poses.",
+  "abstract_zh": "药物设计是一个成本高昂且耗时的过程，通常需要超过12年时间，并可能耗费高达数十亿美元。COVID-19疫情凸显了加速药物开发的迫切需求。药物设计的初始阶段涉及识别对蛋白质靶标（受体）上特定结合位点具有强亲和力的配体，并确定其精确的结合构象（三维（3D）结构）。然而，由于探索庞大化学和蛋白质结构空间的能力有限，准确确定配体与其靶标结合的3D构象仍然具有挑战性。为解决这一难题，我们提出了一种新的E(n)等变图神经网络（EGNN）方法，用于预测配体和蛋白质的3D结合结构。通过将蛋白质和配体视为图，该方法提取残基/原子级别的节点和边特征，并利用蛋白质和配体的物理化学及几何特性来预测其结合结构。结果表明，EGNN在预测配体-蛋白质结合姿态方面展现出巨大潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552202",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552202",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.06.552202/index.html"
+}

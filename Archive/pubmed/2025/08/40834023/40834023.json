@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "40834023",
+    "doi": "10.1371/journal.pone.0330619",
+    "title": "Common molecular links and therapeutic insights between type 2 diabetes and kidney cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Type 2 diabetes (T2D) is considered as a risk factor for kidney cancer (KC). However, so far, there is no study in the literature that has explored genetic factors through which T2D drive the development and progression of KC. Therefore, this study attempted to explore T2D- and KC-causing shared key genes (sKGs) for revealing shared pathogenesis and therapeutic drugs as their common treatments. METHODS: The integrated bioinformatics and system biology approaches were utilized in this study. The statistical LIMMA approach was used based web-tool GEO2R to detect differentially expressed genes (DEGs) through transcriptomics analysis. Then upregulated and downregulated DEGs for T2D and KC were combined to obtained shared DEGs (sDEGs) between T2D and KC. The STRING database was used to construct the protein-protein interaction (PPI) network of sDEGs. Then Cytohubba plugin-in Cytoscape were used in the PPI network to disclose the sKGs based on different topological measures. The RegNetwork database was used in NetworkAnalyst to analyze co-regulatory networks of sKGs with transcription factors (TFs) and micro-RNAs to identify key TFs and miRNAs as the transcriptional and post-transcriptional regulators of sKGs, respectively. AutoDock Vina is a tool used for molecular docking. ADME/T properties were 24 assessed using pkCSM and SwissADME. RESULTS: At first, 74 shared DEGs (sDEGs) were identified that can distinguish both KC and T2D patients from control samples. Through protein-protein interaction (PPI) network analysis, top-ranked 6 sDEGs (CD74, TFRC, CREB1, MCL1, SCARB1 and JUN) were detected as the sKGs that drive both KC and T2D development and progression. The most common sKG 'CD74' is associated with key pathways, such as NF-kappaB signaling transduction, apoptotic processes, B cell proliferation. Differential expression patterns of sKGs validated by independent datasets of NCBI database for T2D and TCGA and GTEx databases for KC. Furthermore, sKGs were found to be significant at several CpG sites in DNA methylation studies. Regulatory network analysis identified three TFs proteins (SMAD5, ATF1 and NR2F1) and two miRNAs (hsa-mir-1-3p and hsa-mir-34a-5p) as the regulators of sKGs. The enrichment analysis of sKGs with KEGG-pathways and Gene Ontology (GO) terms revealed some crucial shared pathogenetic mechanisms (sPM) between two diseases. Finally, sKGs-guided four potential therapeutic drug molecules (Imatinib, Pazopanib hydrochloride, Sorafenib and Glibenclamide) were recommended as the common therapies for KC with T2D. CONCLUSION: The results of this study may be useful resources for the diagnosis and therapy of KC with the co-existence of T2D.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Kidney Neoplasms/genetics/metabolism",
+      "*Diabetes Mellitus, Type 2/genetics/complications/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "MicroRNAs/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmmed, Reaz",
+        "Islam, Mohammad Amirul",
+        "Hasan, Md Taohid",
+        "Sarker, Arnob",
+        "Ali, Md Ahad",
+        "Islam, Md Saiful",
+        "Sultana, Mst Zafrin",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Ahmmed R",
+        "Islam MA",
+        "Hasan MT",
+        "Sarker A",
+        "Ali MA",
+        "Islam MS",
+        "Sultana MZ",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmmed, Reaz",
+        "short_name": "Ahmmed R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Mohammad Amirul",
+        "short_name": "Islam MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan, Md Taohid",
+        "short_name": "Hasan MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarker, Arnob",
+        "short_name": "Sarker A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ali, Md Ahad",
+        "short_name": "Ali MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Saiful",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sultana, Mst Zafrin",
+        "short_name": "Sultana MZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/22 12:45",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "42205842",
+      "42181212",
+      "41815170",
+      "41488617"
+    ],
+    "refs": [
+      "40496862",
+      "40474796",
+      "40465018",
+      "40370100",
+      "40317014",
+      "40251457",
+      "40025145",
+      "39906820",
+      "39550874",
+      "39528802",
+      "39454454",
+      "39417505",
+      "39266531",
+      "39160196",
+      "39080216",
+      "38846051",
+      "37927470",
+      "37835417",
+      "37801479",
+      "37762660",
+      "37700362",
+      "37547464",
+      "37409952",
+      "35992146",
+      "35819037",
+      "35655917",
+      "35617355",
+      "35589698",
+      "35365780",
+      "35245485",
+      "35142393",
+      "35078134",
+      "35072048",
+      "35052597",
+      "35033649",
+      "34812843",
+      "34807940",
+      "34532259",
+      "34485159",
+      "34260684",
+      "34244212",
+      "34020401",
+      "34002083",
+      "33984862",
+      "33433946",
+      "33293618",
+      "33222672",
+      "33149760",
+      "32974743",
+      "32605304",
+      "32481352",
+      "32307642",
+      "32056163",
+      "32048708",
+      "31524257",
+      "31441146",
+      "31088900",
+      "30465504",
+      "30371825",
+      "29788355",
+      "29729382",
+      "29678810",
+      "29264942",
+      "29254209",
+      "28732212",
+      "28692117",
+      "28573592",
+      "28326532",
+      "28256516",
+      "27826838",
+      "27292126",
+      "26796749",
+      "26630530",
+      "26559055",
+      "26441987",
+      "26424082",
+      "26196247",
+      "25950236",
+      "25860834",
+      "25521941",
+      "25501064",
+      "25348405",
+      "25071785",
+      "24981612",
+      "24931804",
+      "24828062",
+      "24741335",
+      "24291534",
+      "24194834",
+      "23040205",
+      "22889332",
+      "22781841",
+      "22263843",
+      "22088338",
+      "22039417",
+      "21602426",
+      "21395357",
+      "21195345",
+      "21045058",
+      "20798690",
+      "20497464",
+      "20448658",
+      "20059341",
+      "20012337",
+      "19886867",
+      "19499576",
+      "19171749",
+      "18928570",
+      "18842989",
+      "18678273",
+      "17947148",
+      "17509280",
+      "17476110",
+      "16646809",
+      "16006965",
+      "15961482",
+      "15671101",
+      "14597658",
+      "12824332",
+      "12734009",
+      "12519996",
+      "12447443",
+      "10722755",
+      "10592173",
+      "10430816",
+      "9691477",
+      "8581761"
+    ],
+    "similar": [
+      "40834023",
+      "39160196",
+      "40025145",
+      "40127075",
+      "32041280",
+      "39176085",
+      "36991484",
+      "36104591",
+      "39375405",
+      "41300749",
+      "29620215",
+      "35150335",
+      "28952134",
+      "40826767",
+      "31987036",
+      "39116715",
+      "41465132",
+      "35390032",
+      "41120603",
+      "39028999",
+      "34313877",
+      "30542696",
+      "39943780",
+      "39348357",
+      "29705125",
+      "33407587",
+      "32597160",
+      "31277149",
+      "35700001",
+      "29921304",
+      "36187128",
+      "38863714",
+      "38319987",
+      "35322101",
+      "39306912",
+      "33237828",
+      "34600545",
+      "39820173",
+      "38062833",
+      "39433858",
+      "34734085",
+      "38839916",
+      "31842912",
+      "29845250",
+      "35242109",
+      "36567949",
+      "32575108",
+      "33747117",
+      "33578541",
+      "31703725",
+      "40748585",
+      "40186750",
+      "40374866",
+      "39080630",
+      "41136472",
+      "38904678",
+      "32481304",
+      "31875420",
+      "39881138",
+      "35762549",
+      "40859027",
+      "35281953",
+      "39118438",
+      "38899746",
+      "36118873",
+      "39454454",
+      "35909518",
+      "33083497",
+      "31989994",
+      "41291892",
+      "38660311",
+      "35749386",
+      "29620143",
+      "39438957",
+      "39945271",
+      "38366952",
+      "36471356",
+      "29197895",
+      "31535407",
+      "37711894",
+      "39107295",
+      "30602391",
+      "40129158",
+      "31692035",
+      "40370100",
+      "30627556",
+      "32714975",
+      "36499614",
+      "39037979",
+      "35132271",
+      "30132538",
+      "38717954",
+      "33080677",
+      "30844478",
+      "40628511",
+      "33437215",
+      "35313857",
+      "40895573",
+      "32925795",
+      "33149760"
+    ],
+    "review": [
+      "40834023",
+      "40748585",
+      "32481304"
+    ],
+    "pmc": [
+      "12367126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0330619",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40834023/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2704",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

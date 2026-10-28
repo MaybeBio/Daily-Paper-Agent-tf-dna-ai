@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "42680659",
+    "doi": "10.1016/j.acra.2026.08.019",
+    "title": "Multiparametric MRI-Based Ensemble Deep Learning for Preoperative Classification of Pituitary Neuroendocrine Tumor Subtypes."
+  },
+  "content": {
+    "abstract": "RATIONALE AND OBJECTIVES: Pituitary neuroendocrine tumors (PitNETs) exhibit diverse biological behavior requiring accurate subtyping to guide treatment. Although the latest World Health Organization classification emphasizes pituitary transcription factors (PTFs) as essential subtyping markers, their assessment requires invasive surgical tissue sampling. This study aimed to develop a multiparametric magnetic resonance imaging (MRI)-based ensemble deep learning model for noninvasive preoperative PTF-based PitNET subtype classification. MATERIALS AND METHODS: This single-institution retrospective study analyzed multiparametric MRI data from 593 patients with histopathologically confirmed PitNET (2010-2020), comprising 112 with T-box pituitary transcription factor, 251 with steroidogenic factor 1 (SF1), 157 with pituitary-specific positive transcription factor 1, and 73 null subtypes. The dataset was split 80:20, with 475 patients for training and 118 for testing. Multiple MRI input combinations: T2-weighted (T2W), contrast-enhanced T1-weighted (T1C), apparent diffusion coefficient (ADC), and tumor region of interest (ROI) were evaluated to identify the highest-performing configuration. Performance was assessed using accuracy, macro-area under the receiver operating characteristic curve (macro-AUC), macro-F1 score, macro-sensitivity, and macro-specificity, with bootstrap-based pairwise comparisons reported as 95% confidence intervals (CIs). RESULTS: Among the evaluated MRI input combinations, the full multiparametric configuration (ROI+T2W+T1C+ADC) achieved the highest performance, with a test-set accuracy of 90.68% (95% CI: 84.7%-95.8%), macro-AUC of 0.966 (95% CI: 0.933-0.992), macro-F1 score of 0.871 (95% CI: 0.797-0.941), macrosensitivity of 0.886 (95% CI: 0.791-0.965), and macrospecificity of 0.986 (95% CI: 0.977-1.000). CONCLUSION: The proposed multiparametric MRI-based ensemble deep learning model achieved robust noninvasive preoperative classification of PitNET subtypes, demonstrating its potential as a clinical decision-support tool to reduce reliance on invasive surgical tissue sampling for PTF-based subtyping.",
+    "keywords": [
+      "Deep learning",
+      "Ensemble learning",
+      "Multiparametric MRI",
+      "Pituitary neuroendocrine tumor",
+      "Subtype classification"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ndimulunde, Elizabeth Nailoke",
+        "Lin, Dao-Chen",
+        "Lin, Bing-Fong",
+        "Kao, Yu-Chieh Jill",
+        "Yen, Yu-Shu",
+        "Lu, Chia-Feng"
+      ],
+      "short_names": [
+        "Ndimulunde EN",
+        "Lin DC",
+        "Lin BF",
+        "Kao YJ",
+        "Yen YS",
+        "Lu CF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; Division of Endocrine and Metabolism, Department of Medicine, Taipei Veterans General Hospital, Taipei, Taiwan; School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Biomedical Imaging and Radiological Sciences, China Medical University, Taichung, Taiwan.",
+        "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Neurosurgery, China Medical University Hospital, Taichung, Taiwan.",
+        "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan. Electronic address: alvin4016@nycu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ndimulunde, Elizabeth Nailoke",
+        "short_name": "Ndimulunde EN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Dao-Chen",
+        "short_name": "Lin DC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; Division of Endocrine and Metabolism, Department of Medicine, Taipei Veterans General Hospital, Taipei, Taiwan; School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Bing-Fong",
+        "short_name": "Lin BF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, China Medical University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kao, Yu-Chieh Jill",
+        "short_name": "Kao YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yen, Yu-Shu",
+        "short_name": "Yen YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lu, Chia-Feng",
+        "short_name": "Lu CF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan. Electronic address: alvin4016@nycu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Academic radiology"
+    ],
+    "journal_abbrev": [
+      "Acad Radiol"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/01 23:34",
+    "fetched_at": "2026-10-02 04:52:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42680659",
+      "42159881",
+      "36925335",
+      "37367938",
+      "42484847",
+      "41044494",
+      "42638078",
+      "40606348",
+      "36561533",
+      "39681144",
+      "42438430",
+      "37113160",
+      "35108415",
+      "36203226",
+      "40167646",
+      "34418108",
+      "38376544",
+      "41345985",
+      "42128945",
+      "36727433",
+      "40360135",
+      "41341401",
+      "41545974",
+      "41869384",
+      "41367005",
+      "42147861",
+      "35191550",
+      "40823078",
+      "36463703",
+      "41254047",
+      "42593101",
+      "42444831",
+      "42603108",
+      "37848774",
+      "39276192",
+      "40249269",
+      "39904666",
+      "32222795",
+      "42351452",
+      "42178484",
+      "41740271",
+      "29659067",
+      "34295877",
+      "41273358",
+      "41132717",
+      "41522005",
+      "38844718",
+      "42552680",
+      "37865602",
+      "42575955",
+      "41931018",
+      "40551554",
+      "42153825",
+      "42361371",
+      "42163319",
+      "41122649",
+      "42223485",
+      "40679371",
+      "40771390",
+      "37403945",
+      "37052658",
+      "38720853",
+      "40615947",
+      "41347386",
+      "39167019",
+      "40356719",
+      "41209246",
+      "41447742",
+      "39671158",
+      "31468158",
+      "38508934",
+      "42138820",
+      "33638577",
+      "42273105",
+      "42218311",
+      "41714223",
+      "40175203",
+      "41815125",
+      "38044991",
+      "41843889",
+      "37897302",
+      "37013422",
+      "37256875",
+      "41439587",
+      "32449176",
+      "32278690",
+      "41366360",
+      "34549842",
+      "35939301",
+      "36328942",
+      "31016445",
+      "36105290",
+      "24387827",
+      "37763643",
+      "41133387",
+      "39759109",
+      "40722531",
+      "38127073",
+      "41750771",
+      "39868626"
+    ],
+    "review": [
+      "42680659"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1076-6332(26)00602-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1076-6332(26)00602-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

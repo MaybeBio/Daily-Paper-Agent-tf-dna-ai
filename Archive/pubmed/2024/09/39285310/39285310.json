@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "39285310",
+    "doi": "10.1111/jgh.16739",
+    "title": "Bioinformatics and experimental validation were combined to explore lactylation-related biomarkers in HBV-associated acute liver failure."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIM: Currently, hepatitis B virus-related acute liver failure (HBV-ALF) has limited treatment options. Studies have shown that histone lactylation plays a role in the progression of liver-related diseases. Therefore, it is essential to explore lactylation-related gene (LRGs) biomarkers in HBV-ALF to provide new information for the treatment of HBV-ALF. METHODS: Two HBV-ALF-related datasets (GSE38941 and GSE14668) and 65 LRGs were used. First, the differentially expressed genes (DEGs) were derived from differential expression analysis, the key module genes from weighted gene co-expression network analysis; and LRGs were used to intersect to obtain the candidate genes. Subsequently, the feature genes obtained from least absolute shrinkage and selection operator regression analysis and support vector machine analysis were intersected to obtain the candidate key genes. Among them, genes with consistent and significant expression trends in both GSE38941 and GSE14668 were used as biomarkers. Subsequently, biomarkers were analyzed for functional enrichment, immune infiltration, and sensitive drug prediction. RESULTS: In this study, five candidate genes (PIGM, PIGA, EGR1, PIGK, and PIGL) were identified by intersecting 6461 DEGs and 2496 key module genes with 65 LRGs. We then screened four candidate key genes from the machine learning algorithm, among which PIGM and PIGA were considered biomarkers in HBV-ALF. Moreover, the results of enrichment analysis showed that the significant enrichment signaling pathways for biomarkers included allograft rejection and valine, leucine, and isoleucine degradation. Thereafter, 11 immune cells differed significantly between groups, with resting memory CD4+ T cells having the strongest positive correlation with biomarkers. Methylphenidate hydrochloride is a potential therapeutic drug for PIGM. CONCLUSION: Two genes, PIGM and PIGA, were identified as biomarkers related to LRGs in HBV-ALF, providing a basis for understanding HBV-ALF pathogenesis.",
+    "keywords": [
+      "Biomarker",
+      "Hepatitis B virus-related acute liver failure",
+      "Lactylation",
+      "Nomogram"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers/blood",
+      "*Computational Biology",
+      "*Hepatitis B/complications",
+      "*Liver Failure, Acute/virology/genetics",
+      "Hepatitis B virus/genetics",
+      "Early Growth Response Protein 1/genetics/metabolism",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Hao",
+        "Chen, Yue-Qiao",
+        "Wu, Feng-Lan",
+        "Zhang, Yan-Yan",
+        "Zhang, Xue",
+        "Li, Jian-Yu",
+        "Pan, Li-Yi",
+        "Chen, Yu",
+        "Huang, Yu-Wen"
+      ],
+      "short_names": [
+        "Pei H",
+        "Chen YQ",
+        "Wu FL",
+        "Zhang YY",
+        "Zhang X",
+        "Li JY",
+        "Pan LY",
+        "Chen Y",
+        "Huang YW"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-9482-4248"
+      ],
+      "affiliations": [
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "First Clinical Medical College, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Guangxi Key Laboratory of Molecular Biology of Preventive Medicine of Traditional Chinese Medicine, Nanning, China.",
+        "First Clinical Medical College, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Guangxi Key Laboratory of Molecular Biology of Preventive Medicine of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Hao",
+        "short_name": "Pei H",
+        "identifiers": [
+          "0009-0002-9482-4248"
+        ],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yue-Qiao",
+        "short_name": "Chen YQ",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+          "Guangxi Key Laboratory of Molecular Biology of Preventive Medicine of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Feng-Lan",
+        "short_name": "Wu FL",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi University of Traditional Chinese Medicine, Nanning, China.",
+          "Guangxi Key Laboratory of Molecular Biology of Preventive Medicine of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan-Yan",
+        "short_name": "Zhang YY",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Yu",
+        "short_name": "Li JY",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Li-Yi",
+        "short_name": "Pan LY",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu-Wen",
+        "short_name": "Huang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of gastroenterology and hepatology"
+    ],
+    "journal_abbrev": [
+      "J Gastroenterol Hepatol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:44",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "42577457",
+      "41657217",
+      "40522624"
+    ],
+    "refs": [],
+    "similar": [
+      "39285310",
+      "39991755",
+      "29384847",
+      "32686296",
+      "33100826",
+      "35965803",
+      "36246593",
+      "30591937",
+      "31521462",
+      "35036448",
+      "40274384",
+      "30024701",
+      "30229977",
+      "40248193",
+      "22727021",
+      "37256461",
+      "34414947",
+      "28329297",
+      "39707377",
+      "32196859",
+      "21987355",
+      "39351238",
+      "37066775",
+      "29044729",
+      "36464255",
+      "37808522",
+      "40169651",
+      "19413695",
+      "37090698",
+      "31996147",
+      "30420516",
+      "40302809",
+      "26183504",
+      "31527514",
+      "32866189",
+      "30315682",
+      "20421498",
+      "33685467",
+      "38817665",
+      "37115484",
+      "38371524",
+      "11283862",
+      "34692847",
+      "31623992",
+      "38544384",
+      "23185381",
+      "39315143",
+      "38291374",
+      "40329965",
+      "39990773",
+      "39345724",
+      "39257588",
+      "39095799",
+      "24391916",
+      "37582718",
+      "32443377",
+      "38566813",
+      "33102593",
+      "33564675",
+      "38799437",
+      "40129981",
+      "38728482",
+      "33376723",
+      "31680308",
+      "36532018",
+      "38499050",
+      "38596115",
+      "37974210",
+      "40263537",
+      "39992204",
+      "27454179",
+      "35764238",
+      "38455045",
+      "36002253",
+      "39507054",
+      "27936480",
+      "36671424",
+      "37986345",
+      "37908757",
+      "20731028",
+      "27311622",
+      "38951833",
+      "39375405",
+      "38818956",
+      "40131629",
+      "39142001",
+      "39600945",
+      "36148059",
+      "40055592",
+      "39139563",
+      "39606164",
+      "39586719",
+      "39875572",
+      "35865542",
+      "35958412",
+      "26311040",
+      "40078458",
+      "36470144",
+      "37837870",
+      "39170142"
+    ],
+    "review": [
+      "39285310"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hepatitisb.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hepatitis B"
+      },
+      {
+        "url": "https://www.ovid.com/39285310.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/jgh.16739",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

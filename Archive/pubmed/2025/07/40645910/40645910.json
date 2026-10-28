@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "40645910",
+    "doi": "10.1016/j.clbc.2025.06.005",
+    "title": "A Deep-Learning Solution Identifies HER2 Negative Cases and Provides ER and PR Results From H&E-Stained Breast Cancer Specimens: A Blind Validation Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: PANProfiler Breast is a UKCA-marked, deep-learning image analysis tool. It provides oestrogen and progesterone receptor (ER/PR) status and identifies human epidermal growth factor receptor-2 (HER2) negativity from whole slide images (WSIs) of haematoxylin and eosin (H&E)-stained breast cancer (BC) tissue. This study blindly validated PANProfiler's prediction of ER/PR status and identification of HER2 negative status. MATERIALS AND METHODS: Three cohorts of WSIs of H&E-stained BC specimens were used for calibration (200 cases, 344 WSIs) and blind validation (200 cases, 348 WSIs). For the blind validation, PANProfiler analysed WSIs to provide results for ER, PR (\"Positive,\" \"Negative,\" or \"Indeterminate\") and HER2 (\"Negative\" or \"Indeterminate\"). These were compared to the corresponding pathology reports. To discern PANProfiler's performance, concordance and other metrics were calculated, including test replacement rate (TRR) (cases PANProfiler produced a definitive result for) and complete test replacement rate (CTTR) (cases with definitive results for all markers). RESULTS: Following blind validation, concordance for ER and PR status across the cohorts was 90%-93% and 86%-91%, respectively. The TRR for ER was 70%-84% and 55%-84% for PR. For HER2 negative cases, concordance across cohorts was 91%-100%, with a TRR ranging from 22% to 27%. CTTRs for the cohorts were between 18% and 20%. CONCLUSION: PANProfiler Breast showed high concordance for ER and PR status and identified HER2 negativity from WSIs of H&E-stained BCs. For HER2 negativity, whilst the TRR was lower than that of ER and PR, the high level of concordance indicated its reliability in identifying negative cases.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast carcinoma",
+      "Image analysis",
+      "Molecular subtyping",
+      "Pathology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/diagnosis/metabolism",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/analysis",
+      "Female",
+      "*Receptors, Estrogen/metabolism/analysis",
+      "*Receptors, Progesterone/metabolism/analysis",
+      "*Deep Learning",
+      "*Biomarkers, Tumor/analysis/metabolism",
+      "Middle Aged",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walsh, Elizabeth",
+        "Arslan, Salim",
+        "Geraldes, Andre",
+        "Millican-Slater, Rebecca",
+        "Hanby, Andrew M",
+        "Bennett, Nicholas",
+        "Mistry, Bejal",
+        "Schmidt, Julian",
+        "Wolf, Steffen",
+        "Bass, Cher",
+        "Ntelemis, Foivos",
+        "Kumar, Narender",
+        "Pandya, Pahini",
+        "Orsi, Nicolas M"
+      ],
+      "short_names": [
+        "Walsh E",
+        "Arslan S",
+        "Geraldes A",
+        "Millican-Slater R",
+        "Hanby AM",
+        "Bennett N",
+        "Mistry B",
+        "Schmidt J",
+        "Wolf S",
+        "Bass C",
+        "Ntelemis F",
+        "Kumar N",
+        "Pandya P",
+        "Orsi NM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom.",
+        "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom.",
+        "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom.",
+        "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom.",
+        "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom. Electronic address: N.M.Orsi@leeds.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walsh, Elizabeth",
+        "short_name": "Walsh E",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Arslan, Salim",
+        "short_name": "Arslan S",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Geraldes, André",
+        "short_name": "Geraldes A",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Millican-Slater, Rebecca",
+        "short_name": "Millican-Slater R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hanby, Andrew M",
+        "short_name": "Hanby AM",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bennett, Nicholas",
+        "short_name": "Bennett N",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Mistry, Bejal",
+        "short_name": "Mistry B",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Julian",
+        "short_name": "Schmidt J",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wolf, Steffen",
+        "short_name": "Wolf S",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bass, Cher",
+        "short_name": "Bass C",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ntelemis, Foivos",
+        "short_name": "Ntelemis F",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kumar, Narender",
+        "short_name": "Kumar N",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Pandya, Pahini",
+        "short_name": "Pandya P",
+        "identifiers": [],
+        "affiliations": [
+          "Panakeia Technologies Limited, Salisbury House, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Orsi, Nicolas M",
+        "short_name": "Orsi NM",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Health Research Group, Leeds Institute of Medical Research, Wellcome Trust Brenner Building, St James's University Hospital, University of Leeds, Leeds,United Kingdom; Department of Histopathology, St James's University Hospital, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom. Electronic address: N.M.Orsi@leeds.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical breast cancer"
+    ],
+    "journal_abbrev": [
+      "Clin Breast Cancer"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/12 16:45",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42302265",
+      "41930306",
+      "41744886",
+      "40941035"
+    ],
+    "refs": [],
+    "similar": [
+      "40645910",
+      "38395930",
+      "27315045",
+      "40143808",
+      "39985907",
+      "40341568",
+      "31883437",
+      "31669267",
+      "38217716",
+      "20809337",
+      "39912929",
+      "32350370",
+      "39143539",
+      "27456970",
+      "34464510",
+      "39745077",
+      "22290394",
+      "31348505",
+      "30694768",
+      "22045649",
+      "32758491",
+      "27666130",
+      "25012047",
+      "34673584",
+      "35466619",
+      "26138872",
+      "27619909",
+      "32592349",
+      "27377889",
+      "27743431",
+      "19432961",
+      "28457730",
+      "32334465",
+      "30613307",
+      "38815444",
+      "30230095",
+      "19764994",
+      "24652232",
+      "34244052",
+      "17259294",
+      "40744681",
+      "29119620",
+      "24065473",
+      "19629680",
+      "33890815",
+      "31628534",
+      "25339035",
+      "20492696",
+      "35789315",
+      "28416639",
+      "30066480",
+      "38651302",
+      "25871620",
+      "34518629",
+      "38780889",
+      "18098228",
+      "25880075",
+      "39924532",
+      "22949935",
+      "20701550",
+      "25966732",
+      "20863372",
+      "38021219",
+      "27760283",
+      "35711896",
+      "38061237",
+      "38766488",
+      "28549033",
+      "34461131",
+      "21375607",
+      "38615482",
+      "33667252",
+      "28325747",
+      "30534815",
+      "20437866",
+      "30756285",
+      "39939286",
+      "25674240",
+      "20529811",
+      "21059212",
+      "39487260",
+      "29523126",
+      "25422206",
+      "19858088",
+      "41224416",
+      "24275214",
+      "23747837",
+      "26899763",
+      "20472353",
+      "22611048",
+      "39241826",
+      "39004603",
+      "22711854",
+      "24261318",
+      "22903686",
+      "25174527",
+      "19723150",
+      "33585986",
+      "37947928",
+      "19217031"
+    ],
+    "review": [
+      "40645910",
+      "41224416"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1526-8209(25)00168-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1526-8209(25)00168-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

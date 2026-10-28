@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, conclusions) as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and internal consistency of the reported findings
+- **Shared manuscript claim summary** The authors report DNA-binding properties of three thienyl-substituted porphyrins (TThPor, PdTThPor, PtTThPor) using UV-Vis, fluorescence, circular dichroism, viscosity, and molecular docking. They claim binding occurs via minor groove interactions, and that the Pd(II) and Pt(II) derivatives induce DNA photo-damage under light irradiation.
+- **Visible evidence base** Figures 2–7, Tables 1–3, Supplementary Figures S1–S14, Supplementary Table S1 (referenced but not provided in full)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S14, Table S1) not provided; raw spectra, gel images, and statistical output not available; detailed experimental parameters for docking and photo-oxidation partially described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a preliminary but potentially useful study on DNA interactions of thienyl-porphyrins with peripheral Pd(II) and Pt(II) complexes. The combination of spectroscopic and computational methods is appropriate for the stated aims. However, several technical issues and interpretive gaps weaken the current claims, particularly regarding the mode of binding, the quantitative analysis of photo-damage, and the consistency between experimental and computational results. The work is of interest to specialists in porphyrin chemistry and DNA-targeting agents, but the evidence as presented does not fully establish the core conclusions.
+- **Who would be interested in the results, and why** Researchers in porphyrin-based photosensitizers, photodynamic therapy, bioinorganic chemistry, and DNA-binding small molecules would find this work relevant. The comparative behavior of Pd(II) and Pt(II) peripheral complexes on DNA affinity and photo-damage could inform design of new PDT agents.
+- **Major strengths** 1) The study addresses a relatively underexplored class of thienyl-porphyrins, adding to the diversity of porphyrin-based DNA binders. 2) Multiple complementary techniques (UV-Vis, fluorescence, CD, viscosity, docking) are employed, providing a broad experimental approach. 3) The photo-damage experiments with enzyme-based detection (Fpg, Endo III) are a useful addition for assessing oxidative DNA damage.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Data interpretation / claim support  
+  - **Claim pointer** The authors claim that "the interaction of these compounds probably occurs via secondary interactions via external grooves (minor grooves) around the DNA macromolecule" (Abstract and Section 2.2).  
+  - **Evidence pointer** Section 2.2.1–2.2.5, Figures 2–6, Tables 1–2  
+  - **Concern** The evidence for minor groove binding is not conclusive. UV-Vis shows hyperchromism without red shift, which is atypical for intercalation but does not uniquely indicate groove binding. Fluorescence quenching with DAPI and MG shows significant quenching for both dyes, which is inconsistent with a clear preference for minor over major groove. The docking scores (69.0 vs 44.5 for TThPor) suggest a preference, but the experimental data do not strongly corroborate this, as both groove dyes are quenched. The viscosity data show no intercalation, which is consistent with groove binding, but the authors do not rule out other external binding modes (e.g., electrostatic surface binding).  
+  - **Why it matters** The central mechanistic claim of the paper is the binding mode. If the mode is not clearly established, the interpretation of the binding constants and the relevance to PDT mechanisms are weakened.  
+  - **Resolution test** Provide quantitative comparison of quenching efficiencies for DAPI vs MG across all porphyrins, with statistical analysis. If both are quenched similarly, the claim of minor groove preference should be revised. Alternatively, perform competitive displacement assays with known minor groove binders (e.g., netropsin) to confirm specificity.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness / data reporting  
+  - **Claim pointer** The authors state that PdTThPor and PtTThPor "were able to promote photo-damage in the DNA" (Abstract, Section 2.3.2).  
+  - **Evidence pointer** Section 2.3.2, Figure 7, Supplementary Figure S14  
+  - **Concern** The photo-damage quantification is not fully reported. The text mentions "breaks per 1000 base pairs (kbp)" and p-values, but the actual gel images, dose-response curves, and statistical details (e.g., number of replicates, error bars) are not shown in the main text. The claim that "most of the damage identified was in purines" is based on Fpg activity, but the relative contribution of Fpg vs Endo III is not quantified. Additionally, the free-base TThPor shows "no significant" damage, but the data are only in the Supplementary Information, which is not provided.  
+  - **Why it matters** The photo-damage claim is a key novelty of the work. Without transparent data presentation and statistical rigor, the conclusion is not verifiable.  
+  - **Resolution test** Include representative gel images in the main text, provide quantitative densitometry data with error bars and statistical tests for all conditions (dark vs light, each concentration), and clearly separate SSB, Fpg-sensitive, and Endo III-sensitive damage.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness / methodology  
+  - **Claim pointer** The binding constants (Kb) are reported as "in the order of 10^4 M^-1" (Section 2.2.1, Table 1).  
+  - **Evidence pointer** Section 2.2.1, Table 1  
+  - **Concern** The method for calculating Kb is referenced to the literature (Benesi-Hildebrand), but the fitting details are not described. For UV-Vis titrations, the concentration range of DNA (0–50 µM) relative to porphyrin (5 µM) may not be sufficient for reliable Kb determination, especially if binding is weak. The hyperchromic effect without a shift is unusual and may complicate the analysis. The authors do not report the stoichiometry of binding or whether the data fit a 1:1 model.  
+  - **Why it matters** Accurate binding constants are essential for comparing the three porphyrins and for supporting the claim that Pd(II) and Pt(II) derivatives have higher affinity.  
+  - **Resolution test** Provide detailed titration data, fitting procedures, and goodness-of-fit parameters. Consider using a range of DNA concentrations that saturate the binding sites, and report the stoichiometry. If the Benesi-Hildebrand model is inappropriate, use alternative methods (e.g., Scatchard analysis).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Data interpretation / consistency  
+  - **Claim pointer** The authors state that "the presence of peripheral complexes can interfere with the binding affinity of the DNA structure" (Section 2.2.1) and later conclude that Pd(II) and Pt(II) derivatives show "increased interaction" compared to TThPor (Section 4).  
+  - **Evidence pointer** Section 2.2.1, Table 1, Section 4  
+  - **Concern** The Kb values in Table 1 are not explicitly compared across the three porphyrins in the text. The conclusion of "increased interaction" is not directly supported by a clear presentation of the relative Kb values or statistical significance. If the Kb values are all within the same order of magnitude, the claim of "increased" interaction may be overstated.  
+  - **Why it matters** The comparative claim is central to the paper's message about the effect of metal coordination.  
+  - **Resolution test** Clearly tabulate Kb values with errors and statistical comparisons (e.g., t-tests) between TThPor and the metalated derivatives. If differences are not significant, revise the conclusion.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity / readability  
+  - **Affected element** Section 2.2.2, last paragraph  
+  - **Evidence pointer** Section 2.2.2  
+  - **Issue** The sentence "indicating a ground-state interaction between porphyrins and DNA nuleobases, probably by a static mechanism" contains a typo ("nuleobases") and is grammatically awkward.  
+  - **Required correction** Correct the typo and rephrase for clarity, e.g., "indicating a ground-state interaction between porphyrins and DNA nucleobases, likely via a static quenching mechanism."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Data reporting  
+  - **Affected element** Section 2.2.5, Table 2  
+  - **Evidence pointer** Section 2.2.5, Table 2  
+  - **Issue** The docking scores are described as "dimensionless," but the scoring function (ChemPLP) has specific units and ranges. The authors do not explain what the scores mean or how they compare across different binding sites.  
+  - **Required correction** Provide a brief explanation of the ChemPLP scoring function and its typical range, and clarify whether higher scores indicate stronger binding.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Methodology  
+  - **Affected element** Section 3.4  
+  - **Evidence pointer** Section 3.4  
+  - **Issue** The docking protocol is described briefly, but the preparation of the porphyrin structures (e.g., protonation states, metal coordination geometry) is not detailed.  
+  - **Required correction** Add details on how the Pd(II) and Pt(II) complexes were modeled, including coordination geometry and any constraints applied.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Section 2.3.1  
+  - **Evidence pointer** Section 2.3.1, Table 3  
+  - **Issue** The photo-oxidation rate constants (kpo) are mentioned, but the table is not described in the text. The reader is left to interpret the values without context.  
+  - **Required correction** Add a sentence in the text describing the trend in kpo values and how they relate to the photo-damage results.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding mode not conclusively established), R1-M2 (photo-damage data not fully reported), R1-M3 (binding constant methodology not sufficiently detailed)
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The use of thienyl-porphyrins with peripheral Pd(II)/Pt(II) complexes is relatively novel, but the overall approach (spectroscopic binding studies plus docking) is standard in the field.  
+  - **Scientific importance** Limited. The findings are preliminary and do not yet demonstrate a significant advance in understanding DNA interactions or PDT mechanisms. The potential for application is mentioned but not explored.  
+  - **Interdisciplinary readership** Narrow. The work is primarily of interest to specialists in porphyrin chemistry and bioinorganic chemistry. The broader PDT community may find it relevant, but the impact is limited.  
+  - **Technical soundness** Partially adequate. The methods are appropriate, but the data analysis and reporting have gaps (see Major Concerns).  
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally clear, but some sections (e.g., docking, photo-oxidation) assume familiarity with specialized techniques.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the core claims regarding binding mode and photo-damage require stronger experimental support and clearer data presentation. Major revisions are needed before the case is convincing.
+
+## Risk / unsupported claims
+- The claim of minor groove binding is not fully supported by the experimental data, as both minor and major groove dyes are quenched.
+- The claim that Pd(II) and Pt(II) derivatives show "increased interaction" compared to TThPor is not quantitatively demonstrated.
+- The photo-damage results are not fully presented, making the claim of significant DNA damage unverifiable.
+- The statement that "most of the damage identified was in purines" is based on Fpg activity but lacks quantitative comparison with Endo III-sensitive damage.
+- The docking results are presented as supportive evidence, but the correlation between computational scores and experimental binding affinities is not established.

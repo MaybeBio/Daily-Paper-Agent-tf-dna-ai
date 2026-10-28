@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2203.12179v4",
+  "title": "Targeted Function Balancing: Flexible balancing weights that leverage strategic imbalance to estimate causal effects",
+  "doi": "10.13140/RG.2.2.19068.62086",
+  "abstract": "When estimating the average treatment effect of a binary intervention with weights, investigators are often burdened with how best to leave imbalance in the distributions of observed covariates. This requires that investigators proceed cautiously, as imbalance in key (nonlinear transformations of) covariates potentially introduces bias into the ultimate estimated effect. This paper introduces Targeted Function Balancing (TFB), a flexible covariate balancing weights approach that simplifies this problem for the researcher. TFB first regresses an outcome on covariates, and then selects weights that balance functions (of the covariates) that are probabilistically near the resulting regression function. This yields balance in the regression function's predicted values and the covariates, with the regression function's estimated variance determining how much balance in the covariates is sufficient. Notably, TFB demonstrates that intentionally leaving imbalance in some covariates can increase efficiency without introducing bias, challenging traditions that warn against imbalance in any variable. Though, TFB still does prioritize balance in the covariates that are most influential on the outcome. Additionally, TFB is entirely defined by a regression function and its estimated variance, turning the problem of how best to balance the covariates into how best to model the outcome. Kernel regularized least squares, the LASSO, and Bayesian Additive Regression Trees are considered as regression estimators. We apply TFB to estimate the effects of taking mathematics courses in twelfth grade in the Los Angeles Unified School District. The R Package tfb implements TFB.",
+  "authors": [
+    "Leonard Wainstein",
+    "He Bai"
+  ],
+  "published_date": "2022-03-23T03:43:43Z",
+  "updated_date": "2026-09-17T20:13:03Z",
+  "journal": "",
+  "category": "stat.ME",
+  "landing_url": "https://arxiv.org/abs/2203.12179v4",
+  "pdf_url": "https://arxiv.org/pdf/2203.12179v4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "4",
+  "keywords": [
+    "stat.ME"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2203.12179v4",
+    "raw_categories": [
+      "stat.ME"
+    ],
+    "journal_ref": ""
+  }
+}

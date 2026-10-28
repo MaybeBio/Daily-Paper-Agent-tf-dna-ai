@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "40494203",
+    "doi": "10.1016/j.intimp.2025.115017",
+    "title": "Machine learning algorithms integrate bulk and single-cell RNA data to reveal the crosstalk and heterogeneity of NOTCH and autophagy activity following idiopathic pulmonary fibrosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: NOTCH and autophagy significantly impact the pathogenesis of idiopathic pulmonary fibrosis (IPF); however, studies exploring their heterogeneity and potential correlation at the single-cell level are still lacking. Identifying the feature genes that are commonly regulated by both NOTCH and autophagy could significantly increase our understanding of IPF. METHODS: We used single-cell RNA sequencing (scRNA-seq) to investigate the heterogeneity of NOTCH and autophagy activity across various cell types following IPF, with the aim of obtaining comprehensive biological insights into IPF. We utilized the AUCell, Ucell, singscore, ssGSEA, and AddModuleScore algorithms to identify common positively and negatively regulated NOTCH and autophagy activities at the IPF cellular level. Furthermore, we employed six machine learning algorithms, eXtreme Gradient Boosting, Boruta, random forest, least absolute shrinkage and selection operator, GBM, and SVM-RFE, to identify the optimal feature genes related to IPF at the BulkRNA-seq level. We further leveraged CellChat and pseudotime analysis to delve into the potential biological regulatory mechanisms of the characteristic genes.We further performed protein-level validation of key NOTCH and autophagy markers using Western blotting to confirm the consistency between transcriptomic predictions and pathway activation. RESULTS: For the first time, at the cellular level, we showed that NOTCH and autophagy activities exhibit heterogeneity across different cell layers following IPF. However, their activities are remarkably consistent; they are highly active in macrophages, fibroblasts, monocytes, and lymphatic endothelial cells, whereas they display lower activity in NK, T, and plasma cells. These findings indicate a correlation between these two pathways in IPF. Consequently, we defined a set of genes that coregulate both pathways at the IPF level. Using various machine learning algorithms, we further identified key predictive genes for IPF, namely, IGFBP7, PPIC, and RUNX1.Western blot assays confirmed that the protein expression of NOTCH1, HEY1, HES1, Beclin1, and P62 followed the same activation trends inferred from transcriptomic analysis. CONCLUSIONS: In IPF, IGFBP7, PPIC, and RUNX1 might simultaneously upregulate NOTCH and autophagy activities in fibroblasts and lymphatic endothelial cells and further contribute to IPF progression.",
+    "keywords": [
+      "Autophagy",
+      "IPF",
+      "Machine learning",
+      "NOTCH",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Idiopathic Pulmonary Fibrosis/genetics/metabolism/pathology",
+      "*Autophagy/genetics",
+      "*Machine Learning",
+      "Single-Cell Analysis",
+      "*Receptors, Notch/metabolism/genetics",
+      "Algorithms",
+      "Sequence Analysis, RNA",
+      "Signal Transduction",
+      "Fibroblasts"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lian, Zhichuang",
+        "Xu, Jingran",
+        "Maolahong, Sumanye",
+        "Ha, Yina",
+        "Hasimujiang, Maheliya",
+        "Maimaitiniyazi, Mailidan",
+        "Wu, Chao",
+        "Chen, Liping"
+      ],
+      "short_names": [
+        "Lian Z",
+        "Xu J",
+        "Maolahong S",
+        "Ha Y",
+        "Hasimujiang M",
+        "Maimaitiniyazi M",
+        "Wu C",
+        "Chen L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China.",
+        "Department of Respiratory and Critical Care Medicine, First People's Hospital of Kashi, Kashi 844000, China.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China. Electronic address: mail@wu95.com.",
+        "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China. Electronic address: clp240629@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lian, Zhichuang",
+        "short_name": "Lian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jingran",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First People's Hospital of Kashi, Kashi 844000, China."
+        ]
+      },
+      {
+        "full_name": "Maolahong, Sumanye",
+        "short_name": "Maolahong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China."
+        ]
+      },
+      {
+        "full_name": "Ha, Yina",
+        "short_name": "Ha Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China."
+        ]
+      },
+      {
+        "full_name": "Hasimujiang, Maheliya",
+        "short_name": "Hasimujiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China."
+        ]
+      },
+      {
+        "full_name": "Maimaitiniyazi, Mailidan",
+        "short_name": "Maimaitiniyazi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chao",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China. Electronic address: mail@wu95.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Liping",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi 830001, China; Xinjiang Clinical Medical Research Center for Respiratory Diseases, Urumqi 830001, China. Electronic address: clp240629@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Aug 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/11 00:27",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "41984278",
+      "41481554"
+    ],
+    "refs": [],
+    "similar": [
+      "40494203",
+      "38865753",
+      "41261179",
+      "41438766",
+      "41192648",
+      "37783761",
+      "41065575",
+      "40859550",
+      "38872139",
+      "39046603",
+      "41408564",
+      "41369928",
+      "39929468",
+      "40381971",
+      "39340293",
+      "39519222",
+      "38203265",
+      "41481554",
+      "36211385",
+      "39928535",
+      "39707393",
+      "39923303",
+      "39354547",
+      "40355204",
+      "39261509",
+      "39062997",
+      "40943452",
+      "40857336",
+      "37559532",
+      "33784491",
+      "37334348",
+      "38982264",
+      "41158409",
+      "38784225",
+      "41388329",
+      "35834635",
+      "40539074",
+      "39855369",
+      "40665394",
+      "40093327",
+      "37996625",
+      "41090747",
+      "39333367",
+      "26186945",
+      "39920481",
+      "40580591",
+      "40640934",
+      "39753882",
+      "33755690",
+      "38902839",
+      "34370624",
+      "40675771",
+      "28081703",
+      "40273141",
+      "38887981",
+      "40296690",
+      "39991151",
+      "37142338",
+      "40670650",
+      "37648811",
+      "34285914",
+      "40830558",
+      "40604645",
+      "41299753",
+      "32244228",
+      "33746960",
+      "39369217",
+      "34872285",
+      "37858084",
+      "31221805",
+      "38699746",
+      "39509434",
+      "35328744",
+      "27942595",
+      "35185901",
+      "26453058",
+      "41105461",
+      "33233354",
+      "39270557",
+      "25215577",
+      "36601116",
+      "40313958",
+      "39959639",
+      "40276515",
+      "40782499",
+      "36578501",
+      "36725082",
+      "33859634",
+      "37688571",
+      "40618698",
+      "34132117",
+      "34209019",
+      "29074489",
+      "38948058",
+      "39704195",
+      "39762897",
+      "40503237",
+      "39402203",
+      "26953888",
+      "39799269"
+    ],
+    "review": [
+      "40494203"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01007-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40494203.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

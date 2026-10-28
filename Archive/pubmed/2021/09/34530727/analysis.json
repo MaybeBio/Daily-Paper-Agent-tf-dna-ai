@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34530727",
+  "title": "TFTenricher: a python toolbox for annotation enrichment analysis of transcription factor target genes.",
+  "authors": "Magnusson, Rasmus; Lubovac-Pilav, Zelmina",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-09-18",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发了TFTenricher工具，基于共表达推断TF下游基因并进行功能富集分析，但未涉及TF-DNA结合位点预测、互作建模或AI/物理模拟方法，仅属TF相关生物信息学工具，与课题核心关联较弱。",
+  "abstract": "BACKGROUND: Transcription factors (TFs) are the upstream regulators that orchestrate gene expression, and therefore a centrepiece in bioinformatics studies. While a core strategy to understand the biological context of genes and proteins includes annotation enrichment analysis, such as Gene Ontology term enrichment, these methods are not well suited for analysing groups of TFs. This is particularly true since such methods do not aim to include downstream processes, and given a set of TFs, the expected top ontologies would revolve around transcription processes. RESULTS: We present the TFTenricher, a Python toolbox that focuses specifically at identifying gene ontology terms, cellular pathways, and diseases that are over-represented among genes downstream of user-defined sets of human TFs. We evaluated the inference of downstream gene targets with respect to false positive annotations, and found an inference based on co-expression to best predict downstream processes. Based on these downstream genes, the TFTenricher uses some of the most common databases for gene functionalities, including GO, KEGG and Reactome, to calculate functional enrichments. By applying the TFTenricher to differential expression of TFs in 21 diseases, we found significant terms associated with disease mechanism, while the gene set enrichment analysis on the same dataset predominantly identified processes related to transcription. CONCLUSIONS AND AVAILABILITY: The TFTenricher package enables users to search for biological context in any set of TFs and their downstream genes. The TFTenricher is available as a Python 3 toolbox at https://github.com/rasma774/Tftenricher , under a GNU GPL license and with minimal dependencies.",
+  "abstract_zh": "背景：转录因子（Transcription factors, TFs）是调控基因表达的上游调节因子，因此是生物信息学研究中的核心对象。虽然理解基因和蛋白质生物学背景的核心策略包括注释富集分析，如基因本体论（Gene Ontology）术语富集，但这些方法并不适合分析转录因子组。尤其如此，因为这些方法并不旨在包含下游过程，并且给定一组转录因子，预期的顶级本体论将围绕转录过程展开。结果：我们提出了TFTenricher，一个Python工具箱，专门用于识别用户定义的人类转录因子组下游基因中过度代表的基因本体论术语、细胞通路和疾病。我们评估了下游基因靶标推断的假阳性注释，并发现基于共表达的推断最能预测下游过程。基于这些下游基因，TFTenricher使用一些最常见的基因功能数据库，包括GO、KEGG和Reactome，来计算功能富集。通过将TFTenricher应用于21种疾病中转录因子的差异表达，我们发现了与疾病机制相关的显著术语，而同一数据集上的基因集富集分析主要识别了与转录相关的过程。结论和可用性：TFTenricher包使用户能够搜索任何转录因子组及其下游基因的生物学背景。TFTenricher可作为Python 3工具箱在https://github.com/rasma774/Tftenricher 获取，采用GNU GPL许可证，且依赖项最少。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34530727/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34530727/",
+  "paper_page_path": "papers/pubmed/34530727/index.html"
+}

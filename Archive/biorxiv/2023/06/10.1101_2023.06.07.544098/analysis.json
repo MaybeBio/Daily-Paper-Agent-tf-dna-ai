@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.07.544098",
+  "title": "Calling Cards: a customizable platform to longitudinally record protein-DNA interactions over time in cells and tissues",
+  "authors": "Allen Yen; Chase Mateusiak; Simona Sarafinovska; Mariam A. Gachechiladze; Juanru Guo; Xuhua Chen; Arnav Moudgil; Alexander J. Cammack; Jessica Hoisington-Lopez; MariaLynn Crosby; Michael R. Brent; Robi D. Mitra; Joseph D. Dougherty",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-09",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍Calling Cards平台，通过转座酶记录细胞中蛋白质-DNA互作历史，虽涉及TF-DNA结合但侧重实验流程而非AI或物理模拟建模，方法上不匹配。",
+  "abstract": "Calling Cards is a platform technology to record a cumulative history of transient protein-DNA interactions in the genome of genetically targeted cell types. The record of these interactions is recovered by next generation sequencing. Compared to other genomic assays, whose readout provides a snapshot at the time of harvest, Calling Cards enables correlation of historical molecular states to eventual outcomes or phenotypes. To achieve this, Calling Cards uses the piggyBac transposase to insert self-reporting transposon (SRT) “Calling Cards” into the genome, leaving permanent marks at interaction sites. Calling Cards can be deployed in a variety of in vitro and in vivo biological systems to study gene regulatory networks involved in development, aging, and disease. Out of the box, it assesses enhancer usage but can be adapted to profile specific transcription factor binding with custom transcription factor (TF)-piggyBac fusion proteins. The Calling Cards workflow has five main stages: delivery of Calling Card reagents, sample preparation, library preparation, sequencing, and data analysis. Here, we first present a comprehensive guide for experimental design, reagent selection, and optional customization of the platform to study additional TFs. Then, we provide an updated protocol for the five steps, using reagents that improve throughput and decrease costs, including an overview of a newly deployed computational pipeline. This protocol is designed for users with basic molecular biology experience to process samples into sequencing libraries in 1-2 days. Familiarity with bioinformatic analysis and command line tools is required to set up the pipeline in a high-performance computing environment and to conduct downstream analyses. Basic Protocol 1: Preparation and delivery of Calling Cards reagents Basic Protocol 2: Sample preparation Basic Protocol 3: Sequencing library preparation Basic Protocol 4: Library pooling and sequencing Basic Protocol 5: Data analysis",
+  "abstract_zh": "Calling Cards是一种平台技术，用于记录基因靶向细胞类型基因组中瞬时蛋白-DNA相互作用的累积历史。这些相互作用的记录通过下一代测序回收。与其他基因组检测方法（其读数提供收获时的快照）相比，Calling Cards能够将历史分子状态与最终结果或表型相关联。为实现这一点，Calling Cards使用piggyBac转座酶将自我报告转座子（SRT）“Calling Cards”插入基因组，在相互作用位点留下永久标记。Calling Cards可部署于多种体外和体内生物系统，以研究涉及发育、衰老和疾病的基因调控网络。开箱即用时，它评估增强子使用情况，但可通过定制转录因子（TF）-piggyBac融合蛋白适应于分析特定转录因子结合。Calling Cards工作流程包含五个主要阶段：Calling Cards试剂的递送、样本制备、文库制备、测序和数据分析。在此，我们首先提供实验设计、试剂选择以及平台可选定制以研究额外转录因子的全面指南。然后，我们提供五个步骤的更新方案，使用提高通量并降低成本的试剂，包括新部署计算管线的概述。本方案面向具有基础分子生物学经验的用户，可在1-2天内将样本处理为测序文库。需要熟悉生物信息学分析和命令行工具，以在高性能计算环境中设置管线并进行下游分析。基础方案1：Calling Cards试剂的制备和递送 基础方案2：样本制备 基础方案3：测序文库制备 基础方案4：文库汇集和测序 基础方案5：数据分析",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544098",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544098",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.07.544098/index.html"
+}

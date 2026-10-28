@@ -1,0 +1,549 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.01.691534",
+  "title": "Islands of Signal and Transcriptomic Sequencing: A Foundation Model for Mutation and Lineage Prediction based on DNA Methylation and RNA-seq",
+  "doi": "10.64898/2025.12.01.691534",
+  "abstract": "DNA methylation and RNA-seq provide complementary views of oncogenic state, but their high dimensionality complicates robust modeling. We develop a pancancer, multiomic foundation model that jointly encodes CpG-island DNA methylation and gene expression from TCGA, TARGET, CPTAC-3, and HCMI. Probe-level methylation is aggregated into CpG-island features, and RNA-seq is reduced to high-variance genes, yielding compact inputs for modality-specific MLP encoders. A BERT-like transformer with masked reconstruction and cross-modal prediction objectives learns a shared embedding space that supports missing-modality inputs. We evaluate the learned representations in two zero-shot settings: (i) cancer-type classification using a linear probe on frozen embeddings, and (ii) mutation prediction for 214 genes using a shallow MLP. The model achieves high performance for many tumor types and gene-cancer pairs without encoder finetuning. Pathway-level analyses show that hallmark oncogenic and immune programs appear as smooth gradients in the embedding space, indicating that the model captures biologically meaningful structure. These results demonstrate that combining CpG-island grouping with multiomic foundation pre-training yields compact, informative embeddings for mutation and lineage inference across cancers.",
+  "authors": [
+    "Alexandros Alexakos",
+    "Aristotelis Tsirigos"
+  ],
+  "published_date": "2025-12-02",
+  "updated_date": "2025-12-08T12:44:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691534",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691534.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2025-12-08T12:49:18Z",
+        "timestamp": 1765198158235,
+        "version": "3.46.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 55,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                2
+              ]
+            ],
+            "date-time": "2025-12-02T00:00:00Z",
+            "timestamp": 1764633600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA methylation and RNA-seq provide complementary views of oncogenic state, but their high dimensionality complicates robust modeling. We develop a pancancer, multiomic foundation model that jointly encodes CpG-island DNA methylation and gene expression from TCGA, TARGET, CPTAC-3, and HCMI. Probe-level methylation is aggregated into CpG-island features, and RNA-seq is reduced to high-variance genes, yielding compact inputs for modality-specific MLP encoders. A BERT-like transformer with masked reconstruction and cross-modal prediction objectives learns a shared embedding space that supports missing-modality inputs.</jats:p>\n                <jats:p>We evaluate the learned representations in two zero-shot settings: (i) cancer-type classification using a linear probe on frozen embeddings, and (ii) mutation prediction for 214 genes using a shallow MLP. The model achieves high performance for many tumor types and gene-cancer pairs without encoder finetuning. Pathway-level analyses show that hallmark oncogenic and immune programs appear as smooth gradients in the embedding space, indicating that the model captures biologically meaningful structure. These results demonstrate that combining CpG-island grouping with multiomic foundation pre-training yields compact, informative embeddings for mutation and lineage inference across cancers.</jats:p>",
+      "DOI": "10.64898/2025.12.01.691534",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2025-12-08T12:44:18Z",
+        "timestamp": 1765197858000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Islands of Signal and Transcriptomic Sequencing: A Foundation Model for Mutation and Lineage Prediction based on DNA Methylation and RNA-seq"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Alexandros",
+          "family": "Alexakos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7512-8477",
+          "authenticated-orcid": false,
+          "given": "Aristotelis",
+          "family": "Tsirigos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMra072067"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccr.2012.06.008"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1150",
+          "DOI": "10.3389/fgene.2019.01150",
+          "article-title": "Dna methylation cancer biomarkers: translation to the clinic",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2484"
+        },
+        {
+          "issue": "1",
+          "key": "2025120800542519000_2025.12.01.691534v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1364",
+          "DOI": "10.1002/wrna.1364",
+          "article-title": "Rna-seq methods for transcriptome analysis",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Wiley Interdisciplinary Reviews: RNA"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.06.049"
+        },
+        {
+          "issue": "2",
+          "key": "2025120800542519000_2025.12.01.691534v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.3390/ijms18020308",
+          "article-title": "Next-generation sequencing in oncology: Genetic diagnosis, risk prediction and cancer classification",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1218404",
+          "DOI": "10.3389/fmed.2023.1218404",
+          "article-title": "Next-generation sequencing in dermatology",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "Frontiers in Medicine"
+        },
+        {
+          "issue": "4",
+          "key": "2025120800542519000_2025.12.01.691534v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1066",
+          "DOI": "10.1016/j.celrep.2018.09.082",
+          "article-title": "Pan-cancer landscape of aberrant dna methylation across human tumors",
+          "volume": "25",
+          "year": "2018",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2764"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.5b01091"
+        },
+        {
+          "issue": "7 Suppl",
+          "key": "2025120800542519000_2025.12.01.691534v1.12",
+          "first-page": "4681",
+          "article-title": "Human cancer models initiative (hcmi): A community resource of next-generation cancer models and associated data",
+          "volume": "83",
+          "year": "2023",
+          "journal-title": "Cancer Research"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3940"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.14",
+          "unstructured": "Rishi Bommasani , Drew A. Hudson , Ehsan Adeli , et al. On the opportunities and risks of foundation models. arXiv preprint, arXiv:2108.07258, 2021."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/qub2.69"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Roy and M. Tiirikainen . Diagnostic power of dna methylation classifiers for cancer detection. Trends in Cancer, 2020.",
+          "DOI": "10.1016/j.trecan.2019.12.006"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2445",
+          "DOI": "10.1038/s12276-023-01119-5",
+          "article-title": "Cancer signature ensemble integrating cfdna methylation, copy number, and fragmentation facilitates multi-cancer early detection",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Experimental & Molecular Medicine"
+        },
+        {
+          "issue": "7",
+          "key": "2025120800542519000_2025.12.01.691534v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "853",
+          "DOI": "10.1093/carcin/bgz032",
+          "article-title": "Molecular classification of idh-mutant glioblastomas based on gene expression profiles",
+          "volume": "40",
+          "year": "2019",
+          "journal-title": "Carcinogenesis"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.19",
+          "unstructured": "Jake Crawford , Brock C. Christensen , Maria Chikina , and Casey S. Greene . Prediction of cancer mutation states using multiple data modalities reveals the utility and consistency of gene expression and dna methylation. bioRxiv, 2021."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "7976",
+          "DOI": "10.1038/s41467-025-62894-5",
+          "article-title": "Peripheral blood DNA methylation predicts the early onset of primary tumor in TP53 mutation carriers",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx463"
+        },
+        {
+          "issue": "8",
+          "key": "2025120800542519000_2025.12.01.691534v1.22",
+          "first-page": "2017",
+          "article-title": "Transcriptome profiling in human diseases: New advances and perspectives",
+          "volume": "18",
+          "year": "1652",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "issue": "1",
+          "key": "2025120800542519000_2025.12.01.691534v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "166",
+          "DOI": "10.1186/s13045-020-01005-x",
+          "article-title": "Rna sequencing: new technologies and applications in cancer research",
+          "volume": "13",
+          "year": "2020",
+          "journal-title": "Journal of Hematology & Oncology"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kirsti Laurila , Bodil Öster , Claus L. Andersen , Philippe Lamy , Torben Örntoft , Olli Yli-Harja , and Carsten Wiuf . A beta-mixture model for dimensionality reduction, sample classification and analysis. BMC Bioinformatics, 12:215, 2011.",
+          "DOI": "10.1186/1471-2105-12-215"
+        },
+        {
+          "issue": "12",
+          "key": "2025120800542519000_2025.12.01.691534v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1795",
+          "DOI": "10.1007/s10147-024-02617-w",
+          "article-title": "A machine learning-based method for feature reduction of methylation data for the classification of cancer tissue origin",
+          "volume": "29",
+          "year": "2024",
+          "journal-title": "International Journal of Clinical Oncology"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1703087114"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1038"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xinlu Tang , Zhanfeng Mo , Cheng Chang , and Xiaohua Qian . Group-shrinkage feature selection with a spatial network for mining dna methylation data. Computers in Biology and Medicine, 154:106573, 2023.",
+          "DOI": "10.1016/j.compbiomed.2023.106573"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. J. Levy , Y. Chen , N. Azizgolshani , et al. Methylspwnet and methylcapsnet: Biologically motivated organization of dnam neural networks, inspired by capsule networks. npj Systems Biology and Applications, 7:33, 2021.",
+          "DOI": "10.1038/s41540-021-00193-7"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. J. Levy , A. J. Titus , C. L. Petersen , et al. Methylnet: an automated and modular deep learning approach for dna methylation analysis. BMC Bioinformatics, 21:108, 2020.",
+          "DOI": "10.1186/s12859-020-3443-8"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06139-9"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fei Guo , Renchu Guan , Yaohang Li , Qi Liu , Xiaowo Wang , Can Yang , and Jianxin Wang . Foundation models in bioinformatics. National Science Review, 12(4):nwaf028, 2025.",
+          "DOI": "10.1093/nsr/nwaf028"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xuchao Zhang , Jing Chen , Yongtian Wang , Xiaofeng Wang , Jialu Hu , Jiajie Peng , Xuequn Shang , Yanpu Wang , and Tao Wang. cfmethylpre: Deep transfer learning enhances cancer detection based on circulating cell-free DNA methylation profiling. Briefings in Bioinformatics, 26(3):bbaf303, 2025.",
+          "DOI": "10.1093/bib/bbaf303"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kejun Ying , Jinyeop Song , Haotian Cui , Yikun Zhang , Siyuan Li , Xingyu Chen , Hanna Liu , Alec Eames , Daniel L McCartney , Riccardo E Marioni , Jesse R Poganik , Mahdi Moqri , Bo Wang , and Vadim N Gladyshev . Methylgpt: a foundation model for the dna methylome. bioRxiv, 2024. Preprint.",
+          "DOI": "10.1101/2024.10.30.621013"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "LP de Lima Camillo et al. CpGPT: a foundation model for DNA methylation. bioRxiv, 2024.",
+          "DOI": "10.1101/2024.10.24.619766"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1466",
+          "DOI": "10.1016/j.csbj.2020.06.017",
+          "article-title": "Deep learning models in genomics: are we there yet?",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature26000"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.38",
+          "first-page": "5885",
+          "article-title": "MethNet: a robust approach to identify regulatory hubs and their distal targets from cancer data",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.39",
+          "unstructured": "Kasper Daniel Hansen . IlluminaHumanMethylation450kanno.ilmn12.hg19: Annotation for illumina’s 450k methylation arrays. Bioconductor, 2025. R package version 0.6.1."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.40",
+          "unstructured": "Zuguang Gu . IlluminaHumanMethylationEPICv2anno.20a1.hg38: Annotation for illumina’s epic v2.0 methylation arrays. Bioconductor, 2025. R package version 0.20.1."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.41",
+          "unstructured": "Kasper Daniel Hansen . Illuminahumanmethylation450kanno.ilmn12.hg19: Annotation for il-lumina’s 450k methylation arrays. https://bioconductor.org/packages/release/data/annotation/html/IlluminaHumanMethylation450kanno.ilmn12.hg19.html, 2025."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.42",
+          "unstructured": "Zuguang Gu . Illuminahumanmethylationepicv2anno.20a1.hg38: Annotation for illumina’s epic v2.0 methylation arrays. https://bioconductor.org/packages/release/data/annotation/html/IlluminaHumanMethylationEPICv2anno.20a1.hg38.html, 2025."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-0881-8"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.45",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N. Gomez , L- ukasz Kaiser , and Illia Polosukhin . Attention is all you need. In Advances in Neural Information Processing Systems, volume 30, 2017."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of NAACL-HLT, pages 4171–4186, 2019.",
+          "DOI": "10.18653/v1/N19-1423"
+        },
+        {
+          "issue": "10",
+          "key": "2025120800542519000_2025.12.01.691534v1.47",
+          "first-page": "1470",
+          "article-title": "scgpt: toward building a foundation model for single-cell multiomics using generative AI",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shuai Jiang and Saeed Hassanpour . Transformer-based representation learning for robust gene expression modeling and cancer prognosis. Scientific Reports, 15(37581), 2025.",
+          "DOI": "10.1038/s41598-025-14949-2"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.49",
+          "unstructured": "Guillaume Alain and Yoshua Bengio . Understanding intermediate layers using linear classifier probes. arXiv preprint arXiv:1610.01644, 2016."
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Simon Kornblith , Jonathon Shlens , and Quoc V. Le . Do better imagenet models transfer better? In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.",
+          "DOI": "10.1109/CVPR.2019.00277"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.51",
+          "unstructured": "Ian T. Jolliffe . Principal component analysis. Springer Series in Statistics, 2002."
+        },
+        {
+          "issue": "6",
+          "key": "2025120800542519000_2025.12.01.691534v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.cels.2015.12.004",
+          "article-title": "The molecular signatures database (msigdb) hallmark gene set collection",
+          "volume": "1",
+          "year": "2015",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.27"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2025120800542519000_2025.12.01.691534v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08460"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.01.691534",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2025-12-08T12:44:26Z",
+        "timestamp": 1765197866000
+      },
+      "score": 75.27084,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.01.691534"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "references-count": 55,
+      "URL": "https://doi.org/10.64898/2025.12.01.691534",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

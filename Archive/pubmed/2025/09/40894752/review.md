@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented in the preprint; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors use multi-microsecond all-atom molecular dynamics simulations to show that gain-of-function mutations in λ Cro (Act3 and Act8) reorganize interaction surfaces, reduce DNA engagement, increase solvent exposure at mutation sites, and redistribute intramolecular communication pathways. They further claim that the disordered C-terminal tail acts as a dynamic structural probe whose interactions shift with assembly state, and that truncation of this tail specifically reduces DNA binding in Act3, consistent with prior experimental observations.
+- **Visible evidence base** Full text including methods, results with references to figures and tables, supplementary figure references, data availability statement
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S13, Table 1, Table 2) are referenced but not provided in the submitted material; raw trajectory data and analysis scripts are available via external repositories but were not inspected
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable investigation into how small numbers of mutations can convert a minimal repressor into a dual-function transcription factor. The simulation design is thoughtful, with multiple system contexts and replication. However, the central claims regarding functional implications are inferred from structural and dynamical observables without direct functional validation, and several key analyses are referenced only in supplementary materials that were not available for review. The mechanistic narrative is plausible but the evidence base as presented is incomplete for fully establishing the conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcription factor evolution, protein engineering, and the molecular basis of allostery in small DNA-binding proteins. The work also speaks to the broader question of how minimal protein scaffolds can acquire new functions, which is relevant to synthetic biology and directed evolution. Computational biophysicists interested in long-timescale MD simulations of protein-DNA complexes may also find the methodological approach of interest.
+- **Major strengths** 1) The study addresses a biologically and biophysically significant question: how minimal sequence changes rewire the functional repertoire of a transcription factor. 2) The simulation design is comprehensive, covering multiple contexts (monomer, dimer, DNA-bound) and both full-length and truncated variants. 3) The use of multiple replicates (5 per system) and long timescales (up to 5 μs) is commendable. 4) The authors are appropriately cautious in acknowledging limitations, including the lack of direct functional assays and the potential for force field artifacts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the simulations reveal that minimal sequence changes can reorganize interaction surfaces, shift DNA-binding modes, modulate binding affinities, and redistribute intramolecular communication pathways" and that these changes "offer insight into how compact transcription factors evolve new functions."
+  - **Evidence pointer** Results sections "Cro Mutations Form a New Interaction Patch" and "Cro Mutations Redistribute Contacts and Allosteric Coupling"; Figures 2, 3, 7, 8; Supplementary Figures S1–S13
+  - **Concern** The central mechanistic claims rest on analyses of contact frequencies, hydrogen bonding, solvent accessibility, and community detection. However, the key quantitative results (e.g., contact numbers, binding energies, community assignments) are presented in supplementary materials that were not provided for review. Without access to these data, the robustness of the reported differences (e.g., the 3–8% change in Watson-Crick pairing, the 1.0–1.9 increases in inter-subunit coupling) cannot be evaluated. Furthermore, the claim that mutations "modulate binding affinities" is based on MM/GBSA calculations, which are known to be sensitive to force field parameters and conformational sampling; the authors themselves note that the method "assigned little energetic weight" to the C-terminal tail despite frequent contacts, raising questions about the reliability of these estimates.
+  - **Why it matters** The conclusions about functional consequences (e.g., reduced DNA engagement, altered binding affinity) are the primary scientific contribution of the paper. If the underlying analyses are not robust or are over-interpreted, the mechanistic framework proposed would not be supported.
+  - **Resolution test** Provide the supplementary figures and tables for review, including error bars and statistical tests for all reported differences. Demonstrate that the MM/GBSA results are converged with respect to simulation length and are consistent with alternative analysis methods (e.g., PBSA or interaction energy decomposition). Clarify whether the reported changes in binding energy are statistically significant given the variance across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-support gap
+  - **Claim pointer** The authors state that "the disordered C-terminal tail... appears to act as a structural probe" and that "tail–DNA contacts occurred in over 90% of frames for all three variants, highlighting a dominant role in nucleic acid engagement." They further claim that truncation of the tail "reduces DNA binding in Act3" and that this is consistent with experimental observations.
+  - **Evidence pointer** Results section "C-terminal truncation reduces DNA binding in Act3 Cro"; Figures 4, 5, 6; Table 2; Supplementary Figure S10
+  - **Concern** The claim that the C-terminal tail acts as a "structural probe" is vague and not operationally defined. The observation that the tail contacts DNA frequently does not establish a functional role; it could be a non-specific consequence of the tail's flexibility and positive charge. The dissociation events in truncated Act3 (4 out of 5 simulations) are striking, but the authors do not provide a mechanistic explanation for why this occurs specifically in Act3 and not in wild-type or Act8. The MM/GBSA analysis shows a ~26 kcal/mol difference between full-length and truncated Act3, but the authors note that this analysis excludes post-dissociation frames, which could bias the result. The connection to experimental observations is asserted but not demonstrated with quantitative comparison.
+  - **Why it matters** The tail truncation phenotype is a key experimental anchor for the study. If the simulations do not provide a clear mechanistic explanation for the observed loss of function, the value of the computational work is substantially diminished.
+  - **Resolution test** Provide a quantitative analysis of the dissociation process (e.g., time to dissociation, structural changes preceding dissociation) to identify the mechanism. Compare the simulated binding free energies with experimental measurements if available. Clarify what is meant by "structural probe" and provide testable predictions that distinguish this role from non-specific electrostatic tethering.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validity
+  - **Claim pointer** The authors claim that "the Act3 and Act8 mutations reduce DNA engagement by eliminating several native protein–DNA and protein–protein contacts" and that this leads to "a chemically distinct surface patch" that "may allow these regions to form alternative intermolecular interactions."
+  - **Evidence pointer** Results section "Cro Mutations Form a New Interaction Patch"; Figures 2, 3; Supplementary Figures S1–S4
+  - **Concern** The interpretation that reduced DNA contacts create a "patch" available for alternative interactions is speculative. The simulations show changes in contact frequencies and solvent accessibility, but there is no evidence that the exposed surface is actually competent for binding other partners. The authors do not test whether the proposed patch could accommodate a protein-protein interaction, nor do they compare the exposed surface to known protein interaction interfaces. The claim that this "may broaden regulatory potential" is presented as a conclusion but is not supported by any direct evidence.
+  - **Why it matters** The proposal that the mutations create a new interaction surface is central to the "gain-of-function" narrative. Without evidence for the functional competence of this surface, the claim remains an untested hypothesis.
+  - **Resolution test** Perform additional analyses to characterize the proposed patch (e.g., electrostatic potential, hydrophobicity, shape complementarity) and compare it to known protein interaction interfaces. If possible, perform docking or short simulations with a putative partner (e.g., RNA polymerase σ subunit) to test whether the patch could support binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "offering insight into how compact transcription factors evolve new functions" is vague and does not specify what insight is offered.
+  - **Required correction** Replace with a more specific statement, e.g., "suggesting that mutations can rewire interaction surfaces to enable alternative binding modes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Methods section, simulation parameters
+  - **Issue** The authors state that simulations were run "for up to an additional 5.0 μs" but do not specify the exact length of each simulation or whether all replicates reached the same length. This is important for assessing convergence.
+  - **Required correction** Provide the exact simulation length for each replicate and state whether any simulations were terminated early.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Cro Mutations Form a New Interaction Patch"
+  - **Evidence pointer** Figure 3 and associated text
+  - **Issue** The rSASA values are reported as means with standard errors, but it is unclear how many independent measurements contribute to these statistics (e.g., number of frames, number of replicates).
+  - **Required correction** Specify the number of frames and replicates used for each reported value, and clarify whether standard errors are across frames or across replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement that "the C-terminus is thought to support nonspecific DNA binding" is presented without a citation, making it difficult to assess the strength of this prior evidence.
+  - **Required correction** Add appropriate references to support this claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement that "these trajectories are water-stripped and temporally strided" is useful, but it is unclear whether the striding factor is documented and whether the stripped trajectories are sufficient for all analyses (e.g., solvent-mediated interactions).
+  - **Required correction** Specify the striding factor and confirm that the stripped trajectories retain sufficient information for reproducing all reported analyses.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing supplementary data), R1-M2 (lack of mechanistic explanation for dissociation), R1-M3 (speculative interpretation of surface patch)
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of long-timescale MD to a minimal transcription factor with engineered gain-of-function mutations. Scientific importance: The question of how minimal proteins acquire new functions is of broad interest, but the conclusions are limited by the lack of functional validation. Interdisciplinary readership: The work is primarily of interest to biophysicists and computational biologists; the connection to gene regulation is made but not developed in sufficient depth for a general biology audience. Technical soundness: The simulation methodology is sound, but the analysis is incomplete without the supplementary materials, and the MM/GBSA results are presented without adequate caveats. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the significance of the findings for gene regulation could be explained more clearly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The simulation work is potentially valuable, but the current manuscript does not fully establish the mechanistic claims due to missing supplementary data and over-interpretation of structural observables. The authors should provide the supplementary materials, strengthen the analysis of the dissociation mechanism, and temper the speculative claims about functional consequences.
+
+## Risk / unsupported claims
+- The claim that mutations "modulate binding affinities" is not supported by the evidence provided, as the MM/GBSA results are not fully presented and the method has known limitations.
+- The claim that the C-terminal tail acts as a "structural probe" is not operationally defined and is not supported by direct evidence.
+- The claim that the mutations create a surface patch "potentially enabling binding partners other than the original DNA target" is speculative and not tested.
+- The claim that the simulations "offer insight into how compact transcription factors evolve new functions" is too broad given the lack of functional validation.
+- The consistency of the simulated dissociation behavior with experimental observations is asserted but not quantitatively demonstrated.

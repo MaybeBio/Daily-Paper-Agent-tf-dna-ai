@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40567341",
+  "title": "Predicting gene expression using millions of yeast promoters reveals cis-regulatory logic.",
+  "authors": "Dash, Tirtharaj; Bornelov, Susanne",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-06-26",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用卷积神经网络Camformer从数百万酵母启动子预测基因表达，并通过可解释AI揭示顺式调控逻辑，虽涉及TF结合基序与表达关联，但未聚焦TF-DNA三维互作建模，方法可迁移至本课题。",
+  "abstract": "MOTIVATION: Gene regulation involves complex interactions between transcription factors. While early attempts to predict gene expression were trained using naturally occurring promoters, gigantic parallel reporter assays have vastly expanded potential training data. Despite this, it is still unclear how to best use deep learning to study gene regulation. Here, we investigate the association between promoters and expression using Camformer, a residual convolutional neural network that ranked fourth in the Random Promoter DREAM Challenge 2022. We present the original model trained on 6.7 million sequences and investigate 270 alternative models to find determinants of model performance. Finally, we use explainable AI to uncover regulatory signals. RESULTS: Camformer accurately decodes the association between promoters and gene expression ( r2 = 0.914 +/- 0.003 , rho = 0.962 +/- 0.002 ) and provides a substantial improvement over previous state of the art. Using Grad-CAM and in silico mutagenesis, we demonstrate that our model learns both individual motifs and their hierarchy. For example, while an IME1 motif on its own increases gene expression, a co-occurring UME6 motif instead strongly reduces gene expression. Thus, deep learning models such as Camformer can provide detailed insights into cis-regulatory logic. AVAILABILITY AND IMPLEMENTATION: Data and code are available at: https://github.com/Bornelov-lab/Camformer.",
+  "abstract_zh": "动机：基因调控涉及转录因子之间的复杂相互作用。尽管早期预测基因表达的尝试使用了天然存在的启动子进行训练，但巨大的平行报告分析已大幅扩展了潜在训练数据。尽管如此，如何最好地利用深度学习研究基因调控仍不明确。在此，我们使用Camformer（一种残差卷积神经网络，在2022年随机启动子DREAM挑战赛中排名第四）研究启动子与表达之间的关联。我们展示了在670万条序列上训练的原始模型，并调查了270个替代模型以确定模型性能的决定因素。最后，我们使用可解释人工智能揭示调控信号。结果：Camformer准确解码了启动子与基因表达之间的关联（r2 = 0.914 +/- 0.003，rho = 0.962 +/- 0.002），并显著优于先前的最先进技术。通过Grad-CAM和计算机模拟诱变，我们证明我们的模型既学习了单个基序，也学习了它们的层级结构。例如，虽然IME1基序单独存在时增加基因表达，但共存的UME6基序反而强烈降低基因表达。因此，像Camformer这样的深度学习模型可以提供对顺式调控逻辑的详细见解。可用性和实现：数据和代码可在以下网址获取：https://github.com/Bornelov-lab/Camformer。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40567341/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40567341/",
+  "paper_page_path": "papers/pubmed/40567341/index.html"
+}

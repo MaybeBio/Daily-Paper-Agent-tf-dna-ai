@@ -1,0 +1,123 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.27.635013",
+  "title": "Neur-Ally: A deep learning model for regulatory variant prediction based on genomic and epigenomic features in brain and its validation in certain neurological disorders",
+  "doi": "10.1101/2025.01.27.635013",
+  "abstract": "<h4>ABSTRACT</h4> Large scale quantitative studies have identified significant genetic associations for various neurological disorders. Expression quantitative trait loci [eQTL] studies have shown the effect of single nucleotide polymorphisms [SNPs] on the differential expression of genes in brain tissues. However, a large majority of the associations are contributed by SNPs in the noncoding regions which can have significant regulatory function but are often ignored. Besides mutations that are in high linkage disequilibrium [LD] with actual regulatory SNPs will also show significant associations. Therefore, it is important to differentiate a regulatory non-coding SNPs with a non-regulatory one. To resolve this, we developed a deep-learning model named Neur-Ally, which was trained on epigenomic datasets from nervous tissue and cell line samples. The model predicts differential occurrence of regulatory features like chromatin accessibility, histone modifications and transcription-factor [TF] binding on genomic regions using DNA sequence as input. The model was used to predict the regulatory effect of neurological condition specific non-coding SNPs using in-silico mutagenesis. The effect of associated SNPs reported in Genome-wide association studies [GWAS] of neurological condition, Brain eQTLs, Autism Spectrum Disorder [ASD] and reported probable regulatory SNPs in neurological conditions were predicted by Neur-Ally.",
+  "authors": [
+    "Prakash A",
+    "Banerjee M"
+  ],
+  "published_date": "2025-01-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.27.635013",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.27.635013.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR971428",
+    "raw_record": {
+      "id": "PPR971428",
+      "source": "PPR",
+      "doi": "10.1101/2025.01.27.635013",
+      "title": "Neur-Ally: A deep learning model for regulatory variant prediction based on genomic and epigenomic features in brain and its validation in certain neurological disorders",
+      "authorString": "Prakash A, Banerjee M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Prakash A",
+            "lastName": "Prakash",
+            "firstName": "Anil",
+            "initials": "A"
+          },
+          {
+            "fullName": "Banerjee M",
+            "lastName": "Banerjee",
+            "firstName": "Moinak",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0842-0398"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0842-0398"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Large scale quantitative studies have identified significant genetic associations for various neurological disorders. Expression quantitative trait loci [eQTL] studies have shown the effect of single nucleotide polymorphisms [SNPs] on the differential expression of genes in brain tissues. However, a large majority of the associations are contributed by SNPs in the noncoding regions which can have significant regulatory function but are often ignored. Besides mutations that are in high linkage disequilibrium [LD] with actual regulatory SNPs will also show significant associations. Therefore, it is important to differentiate a regulatory non-coding SNPs with a non-regulatory one. To resolve this, we developed a deep-learning model named Neur-Ally, which was trained on epigenomic datasets from nervous tissue and cell line samples. The model predicts differential occurrence of regulatory features like chromatin accessibility, histone modifications and transcription-factor [TF] binding on genomic regions using DNA sequence as input. The model was used to predict the regulatory effect of neurological condition specific non-coding SNPs using in-silico mutagenesis. The effect of associated SNPs reported in Genome-wide association studies [GWAS] of neurological condition, Brain eQTLs, Autism Spectrum Disorder [ASD] and reported probable regulatory SNPs in neurological conditions were predicted by Neur-Ally.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.27.635013"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.27.635013"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40519652",
+            "reference": "NAR genomics and bioinformatics. 2025 Jun;7(2):lqaf080",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-01-30",
+      "firstPublicationDate": "2025-01-28",
+      "firstIndexDate": "2025-01-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

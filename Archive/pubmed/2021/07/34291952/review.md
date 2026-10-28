@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full experimental details, figures, or supplementary information
+- **Shared manuscript claim summary** The authors report a Ru(II) complex (Ru1) that binds DNA with high affinity, exhibits DNA "light-switch" behavior, and can induce and monitor DNA phase separation both in vitro and in living cells. Molecular dynamics simulations suggest that specific ligand features (positively charged lipophilic triphenylphosphine substituents and flexible long alkyl chains) promote multivalent DNA-DNA interactions driving phase separation. The complex enables two-photon phosphorescent lifetime imaging of DNA phase separation dynamics in living cells. Integration of RNA-sequencing and ATAC-seq data indicates that Ru1 alters gene expression patterns by modulating chromatin accessibility. The authors claim this is the first small-molecule-based tracer and modulator of DNA phase separation in living cells.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data (e.g., binding constants, imaging parameters, sequencing statistics), control experiments, and validation of phase separation assays
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to a challenging problem in chromatin biology, namely the use of a small molecule to induce and visualize DNA phase separation in living cells. The combination of experimental and computational methods is ambitious and potentially impactful. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key assertions regarding the mechanism of phase separation, the specificity of Ru1 for DNA over other biomolecules, the quantitative extent of chromatin accessibility changes, and the causal link between Ru1 treatment and transcriptional alterations are not substantiated with data. The claim of "first" small-molecule-based tracer and modulator requires careful contextualization against existing literature, which is not provided.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, gene regulation, and chemical biology would be interested, as the work addresses fundamental questions about DNA phase separation and offers a potential tool for perturbing and imaging this process. The use of a ruthenium complex with photophysical properties may also attract investigators in bioinorganic chemistry and imaging methodology development.
+- **Major strengths** The concept of using a small molecule to both induce and monitor DNA phase separation is novel and addresses a significant technical gap. The integration of molecular dynamics simulations with experimental observations provides a mechanistic hypothesis. The use of two-photon phosphorescent lifetime imaging in living cells is technically sophisticated and could offer dynamic information not readily available with other methods. The combination of transcriptomic and chromatin accessibility analyses suggests an effort to link molecular perturbations to functional outcomes.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Ru1 induces DNA phase separation both in vitro and in living cells, and that this is visualized directly.  
+  - **Evidence pointer** Abstract text; no specific figures or tables referenced  
+  - **Concern** The abstract does not provide any quantitative or qualitative data demonstrating phase separation, such as droplet formation assays, fluorescence microscopy images, or turbidity measurements. Without such evidence, the claim that Ru1 induces DNA phase separation is unsupported.  
+  - **Why it matters** Phase separation is a specific biophysical phenomenon with defined characteristics (e.g., liquid-like behavior, reversibility, concentration dependence). The abstract does not establish that the observed effects meet these criteria, which is essential for the central claim of the paper.  
+  - **Resolution test** Provide representative microscopy images showing droplet formation, fluorescence recovery after photobleaching (FRAP) data, and concentration-dependent turbidity or sedimentation assays for both in vitro and cellular contexts.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and controls  
+  - **Claim pointer** The abstract implies that Ru1 specifically targets DNA and that the observed effects are due to DNA phase separation rather than nonspecific interactions.  
+  - **Evidence pointer** Abstract text; no control data described  
+  - **Concern** No information is provided on control experiments with other nucleic acids (e.g., RNA), proteins, or cellular components. The specificity of Ru1 for DNA over other biomolecules is not established, and the possibility of off-target effects on chromatin structure or transcription is not addressed.  
+  - **Why it matters** Without specificity controls, the observed changes in chromatin accessibility and gene expression could be due to nonspecific Ru1 interactions with proteins or RNA, undermining the mechanistic interpretation.  
+  - **Resolution test** Include binding assays with RNA and protein, competitive displacement experiments, and cellular imaging with labeled RNA or protein markers to demonstrate DNA-specific effects.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal link  
+  - **Claim pointer** The abstract states that Ru1 changes gene expression patterns by modulating chromatin accessibility, as demonstrated by RNA-seq and ATAC-seq.  
+  - **Evidence pointer** Abstract text; no sequencing data or statistical analyses provided  
+  - **Concern** The abstract does not provide any details on the magnitude, direction, or statistical significance of changes in gene expression or chromatin accessibility. It is unclear whether the observed changes are directly caused by Ru1-induced phase separation or are secondary effects of cellular stress or toxicity.  
+  - **Why it matters** Establishing a causal relationship between Ru1 treatment, phase separation, chromatin state, and transcription is central to the paper's significance. Without quantitative data and appropriate controls (e.g., time-course experiments, dose-response, or genetic perturbations), the claim remains speculative.  
+  - **Resolution test** Provide differential expression and accessibility analyses with effect sizes, p-values, and false discovery rates, along with experiments showing that the effects are dependent on Ru1's phase-separation-inducing activity (e.g., using a non-inducing analog).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty claim  
+  - **Claim pointer** The abstract claims this is the "first small-molecule-based tracer and modulator of DNA phase separation in living cells."  
+  - **Evidence pointer** Abstract text; no literature comparison provided  
+  - **Concern** The claim of "first" is not substantiated with a comparison to prior work on small molecules that affect DNA or chromatin phase separation. Without a literature review or explicit statement of what distinguishes this work from existing tools, the novelty claim is difficult to evaluate.  
+  - **Why it matters** The novelty claim is a key selling point for the paper's significance, and unsupported priority claims can mislead readers and reviewers.  
+  - **Resolution test** Add a brief literature survey in the introduction or discussion that explicitly identifies prior small-molecule tools for phase separation and explains how Ru1 differs in mechanism or application.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Description of Ru1 structure and mechanism  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions "two phen-PPh(3) ligands" but does not define the full structure of Ru1 or the coordination environment. The role of "flexible long alkyl chains" is mentioned but not quantified.  
+  - **Required correction** Provide a clear chemical structure or schematic of Ru1 in the main text or supplementary information, and specify the length and flexibility of the alkyl chains.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical detail  
+  - **Affected element** Imaging methodology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states that two-photon phosphorescent lifetime imaging is used, but no details on excitation wavelength, emission detection, or lifetime analysis are given.  
+  - **Required correction** Include key imaging parameters (e.g., excitation wavelength, emission filters, lifetime fitting model) in the methods or figure legends.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Molecular dynamics simulations  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states that simulations "indicate" the roles of specific ligand features, but the level of simulation (e.g., all-atom vs. coarse-grained) and the timescale are not specified.  
+  - **Required correction** Briefly describe the simulation approach and the key quantitative metrics (e.g., binding free energies, contact frequencies) that support the mechanistic conclusion.
+
+## Risk / unsupported claims
+- The claim that Ru1 induces DNA phase separation in living cells is unsupported without direct imaging or biophysical evidence.
+- The claim that Ru1 modulates chromatin accessibility and gene expression is unsupported without quantitative sequencing data and causal controls.
+- The claim of being the "first" small-molecule-based tracer and modulator of DNA phase separation is unverifiable from the abstract alone.
+- The mechanistic role of specific ligand features is presented as a conclusion but is only supported by simulation, with no experimental validation of the proposed multivalent interactions.

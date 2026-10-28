@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the allosteric transcription factor UxuR requires zinc coordination for function, that D-fructuronate binding to the zinc ion induces an open conformation of the N-terminal DNA-binding domains, and that D-glucuronate binding or the free state favor closed conformations, thereby modulating DNA binding and transcriptional repression.
+- **Visible evidence base** Molecular dynamics simulations, molecular docking, quantum mechanics cluster calculations, electrostatic surface calculations, and experimental validation via a biosensor plasmid with site-directed mutagenesis in E. coli
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figures S1–S18, Tables S1–S4) were not provided; raw MD trajectory data, force field parameters, docking scores, and statistical analysis details are not available for independent verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in synthetic biology: the molecular mechanism of allosteric regulation in a GntR-family transcription factor. The combination of computational prediction and experimental validation is commendable. However, the evidence presented has several gaps that limit the strength of the central claims. The experimental validation demonstrates that the zinc-coordinating residues are necessary for UxuR function, but does not directly confirm the proposed conformational mechanism. The computational results, while suggestive, rely on a homology model without experimental structural validation, and the interpretation of the conformational differences between ligand-bound states would benefit from more rigorous quantitative analysis. The manuscript is of interest to the synthetic biology and protein engineering communities, but the mechanistic conclusions are not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, particularly those developing transcription factor-based biosensors and genetic circuits; protein engineers studying allosteric regulation; and computational biologists interested in MD simulations of transcription factor dynamics. The proposed role of zinc in allosteric regulation could inform design rules for engineering aTF-based sensors.
+- **Major strengths** 1) The study addresses a poorly understood aspect of GntR-family transcription factors, namely the potential role of metal ions in allosteric regulation. 2) The combination of multiple computational methods (homology modeling, docking, MD, QM cluster calculations, electrostatic analysis) with experimental mutagenesis provides a multi-pronged approach. 3) The experimental biosensor validation is a practical demonstration of the functional importance of the predicted zinc-binding residues. 4) The comparison between the inducer (D-fructuronate) and a non-inducing isomer (D-glucuronate) is a useful control that strengthens the specificity of the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation of mechanism
+  - **Claim pointer** The authors claim that "zinc coordination is necessary for UxuR function since mutation to alanines prevents expression de-repression by D-fructuronate" and that this validates the computational prediction of the zinc-binding site and its role in allosteric regulation.
+  - **Evidence pointer** Results section "Mutations in the zinc coordination sphere", Figure 5
+  - **Concern** The mutagenesis experiments demonstrate that the four predicted zinc-coordinating residues are required for UxuR function, but they do not directly test the proposed conformational mechanism. The mutations could disrupt UxuR function through other means, such as protein misfolding, altered stability, or disrupted dimerization, rather than specifically through loss of zinc coordination and the associated conformational change. The authors do not provide any control experiments to rule out these alternative explanations, such as assessing protein expression levels, folding, or oligomeric state of the mutants.
+  - **Why it matters** The central claim of the paper is that zinc coordination enables a specific allosteric mechanism involving open/closed conformational transitions. Without evidence that the mutants are properly folded and that the loss of function is specifically due to disrupted zinc binding and the resulting conformational effects, the mechanistic conclusion is not firmly established.
+  - **Resolution test** The authors should provide experimental evidence that the mutant proteins are expressed at comparable levels to the wild-type and are properly folded, for example via Western blot or circular dichroism. Ideally, they would also demonstrate that zinc binding is disrupted in the mutants, for example using a zinc-binding assay or isothermal titration calorimetry. Alternatively, a rescue experiment with a different metal-coordinating residue combination could strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validation
+  - **Claim pointer** The authors state that "we have built a new model for the aTF UxuR" and use this model as the basis for all subsequent computational analyses, including the identification of the zinc-binding site and the conformational dynamics.
+  - **Evidence pointer** Methods section "Modeling", Results section "Substrate binding to UxuR", Supplementary Figures S2 and S3
+  - **Concern** The homology model is built from a template with only 28.9% sequence identity, and the linker regions were modeled de novo. The authors do not provide any validation of the model quality, such as Ramachandran plots, QMEAN scores, or comparison to known structures. The accuracy of the predicted zinc-binding site and the conformational dynamics observed in MD simulations depend critically on the quality of the starting model. Without model validation, the reliability of the subsequent conclusions is uncertain.
+  - **Why it matters** The entire computational framework rests on the accuracy of the homology model. If the model is incorrect, the predicted zinc-binding site, the ligand binding poses, and the observed conformational differences could all be artifacts. The lack of model validation undermines confidence in the mechanistic conclusions.
+  - **Resolution test** The authors should provide standard model quality metrics (e.g., Ramachandran statistics, QMEAN, ProSA) and ideally validate the model against experimental data, such as small-angle X-ray scattering or cross-linking mass spectrometry. At minimum, they should discuss the limitations of the model and how the conclusions might be affected by model uncertainty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of conformational differences
+  - **Claim pointer** The authors claim that "the disordered linker regions allow the N-terminal domains to display fast and large movements" and that the free and D-glucuronate-bound forms sample closed conformations while the D-fructuronate-bound form samples an open conformation.
+  - **Evidence pointer** Results section "Substrate binding affects the dynamical behavior of the protein", Figures 2 and 3, Supplementary Figures S5–S12
+  - **Concern** The conformational differences between the three states are described qualitatively based on PCA and FES analysis. The authors do not provide quantitative measures of the conformational differences, such as the distance between the two NTDs, the angle between the domains, or the population of open versus closed states. The claim that the free and GLU-bound forms are similar while the DFU-bound form is different is based on visual inspection of the FES plots and representative structures, which is subjective.
+  - **Why it matters** The central mechanistic claim is that DFU binding induces a distinct open conformation. Without quantitative metrics to support this distinction, it is difficult to assess the significance and reproducibility of the observed differences. The similarity between the free and GLU-bound states is also not quantified.
+  - **Resolution test** The authors should provide quantitative measures of the conformational ensembles, such as the distribution of inter-domain distances or angles, and perform statistical tests to demonstrate that the DFU-bound state is significantly different from the other two states. They should also report the free energy differences between the observed minima.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation convergence and sampling
+  - **Claim pointer** The authors state that "the total time of the simulations was 2.1 μs (seven replicas with different initial velocities for each situation)" and use these simulations to draw conclusions about the conformational ensembles and free energy landscapes.
+  - **Evidence pointer** Methods section "Molecular dynamics", Results section "Substrate binding affects the dynamical behavior of the protein"
+  - **Concern** The authors do not provide any evidence that the simulations have converged. For a protein with large domain movements, 300 ns per replica may not be sufficient to sample the conformational space adequately, especially if the free energy barriers are on the order of 3.2 kcal/mol as reported. The authors do not show time evolution of the PCA projections or block averaging to demonstrate convergence.
+  - **Why it matters** If the simulations are not converged, the observed conformational differences between the three states could be due to insufficient sampling rather than genuine differences in the free energy landscapes. The free energy barriers and the relative populations of open and closed states would be unreliable.
+  - **Resolution test** The authors should provide evidence of convergence, such as time series of the PC projections showing that the systems have equilibrated, or split-half analysis to show that the results are reproducible across different time windows. They could also consider longer simulations or enhanced sampling methods to more thoroughly explore the conformational space.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Methods section "Statistics"
+  - **Issue** The statistical analysis section is very brief and only mentions t-tests for comparing GFP signals. It is unclear how many biological replicates were performed, whether the data met the assumptions of the t-test, and how the fold change was calculated.
+  - **Required correction** Provide more detail on the number of replicates, the experimental design, and the statistical methods used. Consider reporting confidence intervals or effect sizes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of electrostatic calculations
+  - **Affected element** Figure 4 and associated text
+  - **Evidence pointer** Results section "Substrate binding affects the dynamical behavior of the protein", Figure 4
+  - **Issue** The electrostatic surface calculations are presented as supporting evidence for the conformational differences, but the relationship between the surface charge distribution and DNA binding affinity is not quantified or directly tested. The claim that the "negatively charged interface is more visible" in the DFU-bound state is qualitative.
+  - **Required correction** Consider quantifying the electrostatic potential at the DNA-binding interface or performing a more detailed analysis of the charge distribution. Alternatively, temper the claims about the functional significance of the electrostatic differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of experimental validation
+  - **Affected element** Biosensor experiments
+  - **Evidence pointer** Results section "Validation of the fructuronic acid biosensor", Figure 5
+  - **Issue** The biosensor experiments demonstrate that the wild-type UxuR responds to DFU and the mutants do not, but the dynamic range and sensitivity of the biosensor are not fully characterized. The dose-response curve is not shown, and it is unclear whether the response is specific to DFU or if other related metabolites could also induce a response.
+  - **Required correction** Provide a dose-response curve for DFU and test a few related metabolites to demonstrate specificity. This would strengthen the practical utility of the biosensor and the specificity of the proposed mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion and Conclusions
+  - **Evidence pointer** Results and Discussion, Conclusion
+  - **Issue** The manuscript does not discuss the limitations of the computational approach, such as the use of a homology model, the approximations in the force field, or the limited timescale of the simulations. A more balanced discussion would help readers assess the confidence in the conclusions.
+  - **Required correction** Add a paragraph discussing the limitations of the computational methods and how they might affect the conclusions. This would improve the scientific rigor of the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental validation of mechanism), R1-M2 (structural model validation), R1-M3 (quantitative analysis of conformational differences), R1-M4 (simulation convergence)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript offers a novel hypothesis regarding the role of zinc in the allosteric regulation of a GntR-family transcription factor. While metal-dependent transcription factors are known, the specific mechanism proposed here, involving substrate coordination to zinc and subsequent conformational changes, is a fresh contribution to the field. The originality is moderate, as the study builds on prior observations of metal binding in related proteins.
+  - **Scientific importance** The findings have potential importance for synthetic biology, where understanding the molecular details of allosteric transcription factors is crucial for engineering biosensors and genetic circuits. The proposed mechanism could inform the design of new sensors with altered specificity or dynamic range. However, the importance is somewhat limited by the lack of direct experimental validation of the conformational mechanism.
+  - **Interdisciplinary readership** The manuscript bridges computational biophysics, structural biology, and synthetic biology. It would appeal to researchers in these fields, as well as those interested in protein allostery and metal-dependent regulation. The interdisciplinary nature is a strength, but the technical depth in each area may limit accessibility to a broader audience.
+  - **Technical soundness** The computational methods are generally appropriate, but the lack of model validation and convergence analysis weakens the technical soundness. The experimental methods are straightforward and well-executed, but the interpretation of the results in the context of the proposed mechanism is not fully supported. Overall, the technical soundness is moderate, with several areas requiring improvement.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, but the computational sections may be challenging for readers without a background in molecular dynamics or bioinformatics. The experimental sections are more accessible. The abstract and introduction provide a clear context for the work, but the results and discussion sections assume familiarity with the methods. The readability could be improved by providing more context for the computational techniques and their limitations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting and relevant question, and the combination of computational and experimental approaches is commendable. However, the central mechanistic claims are not fully established from the provided evidence. The authors should address the concerns regarding model validation, simulation convergence, quantitative analysis of conformational differences, and experimental validation of the mechanism. If these issues are resolved, the manuscript would be a valuable contribution to the field.

@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "42151900",
+    "doi": "10.1186/s12885-026-16063-6",
+    "title": "SLC39A6 as a pan-cancer promising biomarker and actionable therapeutic target for CH5132799 sensitivity."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The zinc transporter SLC39A6, a member of the ZIP (Zrt-Irt-like protein) family, mediates zinc influx from the extracellular milieu into the cytosol and is indispensable for the function of numerous enzymes, transcription factors and signaling molecules. Previous studies have shown that SLC39A6 expression is associated with prognosis in esophageal squamous cell carcinoma and cervical cancer, indicating its potential impact on patient survival and tumor immunity. But a comprehensive pan-cancer analysis of SLC39A6 is still lacking. This study aimed to systematically delineate the oncogenic and prognostic relevance of SLC39A6 across multiple cancer types, to unravel its interplay with immune-infiltration patterns in the tumor micro-environment, and to preliminarily identify SLC39A6-associated therapeutic vulnerabilities. METHODS: SLC39A6 expression profiles were retrieved from The Cancer Genome Atlas (TCGA) and cross-validated with GTEx, TIMER, HPA, cBioPortal, GEPIA2, STRING, KEGG, GO and other public repositories. Pan-cancer analyses were performed to characterize expression patterns, prognostic value, mutational landscape and functional networks. We further interrogated correlations between SLC39A6 and immune infiltration, tumor mutational burden (TMB), microsatellite instability (MSI) and immune-regulatory genes. Drug-sensitivity associations were evaluated using the CellMiner database, which facilitated molecular docking to predict binding poses and subsequent in vivo validation of lead compounds. RESULTS: SLC39A6 exhibited marked dysregulation across diverse tumor types and was significantly linked to patient survival. High SLC39A6 expression is associated with reduced overall survival and progression-free survival, particularly in cervical squamous cell carcinoma (CESC), as evidenced by studies that have analyzed the gene's expression and its impact on patient survival. Immune deconvolution revealed robust associations between SLC39A6 levels and the abundance of cytotoxic T cells, dendritic cells, macrophages and other immune subsets. CellMiner analyses demonstrated that increased levels of SLC39A6 resulted in enhanced sensitivity to the PI3Kalpha inhibitor CH5132799. Molecular docking studies predicted a strong affinity between CH5132799 and the zinc-binding pocket of SLC39A6, while mouse xenograft models further validated that CH5132799 effectively inhibited SLC39A6-mediated tumor growth. CONCLUSION: SLC39A6 regulates the dynamics of immune infiltration and impacts prognosis in a wide range of malignancies. It emerges as a promising biomarker for prognosis, immunology, and therapy in the field of precision oncology.",
+    "keywords": [
+      "Bioinformatics",
+      "CH5132799",
+      "Immunotherapy response",
+      "Prognosis",
+      "SLC39A6"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cation Transport Proteins/genetics/metabolism/chemistry/antagonists & inhibitors",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Prognosis",
+      "*Neoplasms/drug therapy/genetics/metabolism/pathology/mortality",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "*Antineoplastic Agents/pharmacology",
+      "Animals",
+      "Female",
+      "Molecular Docking Simulation",
+      "Neoplasm Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hongmin, Li",
+        "Yufei, Wang",
+        "Yuwei, Wang",
+        "Dongqi, Yuan",
+        "Mengjie, Li",
+        "Yudong, Su",
+        "Peng, Chen",
+        "Jinghua, Zhang"
+      ],
+      "short_names": [
+        "Hongmin L",
+        "Yufei W",
+        "Yuwei W",
+        "Dongqi Y",
+        "Mengjie L",
+        "Yudong S",
+        "Peng C",
+        "Jinghua Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department First of Oncology, Cangzhou Central Hospital, Cangzhou, 061000, China.",
+        "Department of Traumatic Orthopedics II, Cangzhou Central Hospital, Cangzhou, 061000, China.",
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Eighth Oncology Department, Tangshan People's Hospital, Tangshan, 063000, China.",
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China. chenpeng@tjmuch.com.",
+        "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. chenpeng@tjmuch.com.",
+        "Department First of Oncology, Cangzhou Central Hospital, Cangzhou, 061000, China. zhangjinghuazlnk@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hongmin, Li",
+        "short_name": "Hongmin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+          "Department First of Oncology, Cangzhou Central Hospital, Cangzhou, 061000, China."
+        ]
+      },
+      {
+        "full_name": "Yufei, Wang",
+        "short_name": "Yufei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traumatic Orthopedics II, Cangzhou Central Hospital, Cangzhou, 061000, China."
+        ]
+      },
+      {
+        "full_name": "Yuwei, Wang",
+        "short_name": "Yuwei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+          "Eighth Oncology Department, Tangshan People's Hospital, Tangshan, 063000, China."
+        ]
+      },
+      {
+        "full_name": "Dongqi, Yuan",
+        "short_name": "Dongqi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Mengjie, Li",
+        "short_name": "Mengjie L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Yudong, Su",
+        "short_name": "Yudong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chen",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Lung Cancer Diagnosis and Treatment Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China. chenpeng@tjmuch.com.",
+          "National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. chenpeng@tjmuch.com."
+        ]
+      },
+      {
+        "full_name": "Jinghua, Zhang",
+        "short_name": "Jinghua Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department First of Oncology, Cangzhou Central Hospital, Cangzhou, 061000, China. zhangjinghuazlnk@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2026 May 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 06:30",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40734432",
+      "40414981",
+      "39865831",
+      "39323331",
+      "39156727",
+      "38260171",
+      "37668528",
+      "36835045",
+      "36633525",
+      "36370105",
+      "36181695",
+      "35979347",
+      "35111246",
+      "35049094",
+      "34453638",
+      "33843441",
+      "33538338",
+      "33535184",
+      "33384961",
+      "32444850",
+      "32113055",
+      "30407594",
+      "28052254",
+      "26704973",
+      "26444413",
+      "26048278",
+      "25253783",
+      "23550210",
+      "22588877",
+      "22455463",
+      "21566827",
+      "21558396",
+      "20723767",
+      "19549304"
+    ],
+    "similar": [
+      "42151900",
+      "39865831",
+      "37157205",
+      "39154046",
+      "39181686",
+      "37275857",
+      "28209530",
+      "40529377",
+      "40777041",
+      "40410718",
+      "40655141",
+      "40842984",
+      "37805766",
+      "41198144",
+      "34531868",
+      "35782736",
+      "41436831",
+      "38559424",
+      "40625743",
+      "42337485",
+      "39737177",
+      "42180930",
+      "39753728",
+      "42353827",
+      "40191190",
+      "42329315",
+      "41630479",
+      "42345158",
+      "42136761",
+      "39863609",
+      "41796171",
+      "42067796",
+      "41624853",
+      "41372399",
+      "38099311",
+      "41618209",
+      "41836220",
+      "38486392",
+      "41845026",
+      "40898185",
+      "41151853",
+      "41872824",
+      "42595550",
+      "41346582",
+      "41112257",
+      "38688977",
+      "40696616",
+      "38584561",
+      "39455949",
+      "40993621",
+      "36061144",
+      "39747410",
+      "42129451",
+      "35069553",
+      "38642258",
+      "40525442",
+      "42486346",
+      "42454037",
+      "38952160",
+      "42099656",
+      "42450307",
+      "39123194",
+      "39562405",
+      "40565566",
+      "41153357",
+      "41039793",
+      "40129060",
+      "26444413",
+      "37427102",
+      "39405927",
+      "39353384",
+      "40270318",
+      "33679809",
+      "41272569",
+      "42136331",
+      "39406840",
+      "36761737",
+      "40469297",
+      "39702250",
+      "36685895",
+      "38296907",
+      "41993135",
+      "41193984",
+      "40444048",
+      "40634441",
+      "40295550",
+      "41656832",
+      "36003381",
+      "41898813",
+      "38581717",
+      "40541815",
+      "42112349",
+      "41136949",
+      "41716413",
+      "40258986",
+      "39546161",
+      "40442199",
+      "35832625",
+      "41617445",
+      "37772558"
+    ],
+    "review": [
+      "42151900",
+      "37427102"
+    ],
+    "pmc": [
+      "13366974"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-026-16063-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42151900/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

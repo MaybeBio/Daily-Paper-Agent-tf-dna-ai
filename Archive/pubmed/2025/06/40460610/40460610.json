@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40460610",
+    "doi": "10.1016/j.bioorg.2025.108612",
+    "title": "A natural flavagline derivative A2073 inhibits the proliferation of erythroleukemia cells by targeting the MAPK, PI3K, NF-kappaB, and cell cycle pathways."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute Erythroid Leukemia (AEL) is a distinct subtype of Acute Myeloid Leukemia (AML), which is characterised by red blood cell dysfunction and abnormal proliferation. The poor survival rate of AEL is a serious threat to the health of the elderly. Natural flavagline-like compounds were isolated from the bark of red-fruited Mistletoe and exhibited anticancer activity. In order to identify further potential candidate compounds, a derivative A2073 was synthesized using flavagline as the structural foundation. METHODS: This study used the CCK-8 method to evaluate how different concentrations of flavagline compound A2073 affect the proliferation of erythroleukemia and normal cells. The influence of A2073 on apoptosis, differentiation, and cell cycle advancement in HEL cells was explored using flow cytometry and Hoechst staining techniques. Subsequent RNA sequencing (RNA-seq) analysis and KEGG pathway enrichment examination revealed gene expression variations post-exposure to A2073, thereby pinpointing the related pathways. Central hub genes were identified using PPI networks and the Cytoscape cytoHubba plugin, with RT-qPCR and western blotting confirming mRNA and protein expression levels. Molecular docking and cellular thermal shift assays were conducted to evaluate A2073's affinity for target molecules. In vivo experiments involved exposing 48 hpf zebrafish embryos to A2073 to evaluate its toxicity by observing morphology, survival, body length, and heartbeat. Concurrently, a zebrafish xenograft tumor model was created by injecting CM-Dil-labeled HEL cells into the yolk sac of 48 hpf embryos. After establishing the model, A2073 was administered, and HEL cells proliferation and migration were observed using a fluorescence microscope. RESULTS: A2073 significantly inhibited HEL and K562 cell proliferation compared to DMSO, with half-maximal inhibitory concentrations (IC50) of 55.02 nM and 77.07 nM, respectively, after 72 h of treatment, while demonstrating minimal impact on normal cells. Notably, A2073 proved to be more effective than cytarabine in suppressing the proliferation of HEL cells, which exhibited heightened sensitivity to A2073, thereby becoming the focal point of subsequent investigations. Although A2073 did not significantly enhance apoptosis in HEL cells, it did promote the expression of CD71, a marker indicative of erythroid lineage differentiation, accompanied by an upregulation in the mRNA levels of related genes. Additionally, treatment with A2073 led to a higher proportion of cells in the G0 and G2 phases of the cell cycle, a reduction in the proportion of cells in the S phase, and a diminished expression of proteins associated with the cell cycle. A2073 impacted several signaling pathways like DNA replication, cell cycle regulation, MAPK, PI3K-AKT, and NF-kappaB, reducing mRNA levels of key genes and interacting with targets like CDK1, PRIM1, and CCNA2. In experiments conducted with zebrafish embryos, A2073 did not induce significant morphological abnormalities or adversely affect survival rates, while effectively inhibiting the proliferation of HEL cells in transplantation tumor models. CONCLUSION: A2073 demonstrated selective cytotoxicity towards tumor cells, markedly inhibiting the proliferation of acute erythroleukemia cells while exhibiting reduced inhibitory effects on normal cells. In comparison to the widely utilized chemotherapeutic agent cytarabine, A2073 exhibited a more potent inhibitory effect on HEL cells at 72 h. The compound demonstrated an ability to inhibit proliferation and promote differentiation of HEL cells by modulating the MAPK, PI3K-AKT, and NF-kappaB signaling pathways. In a zebrafish xenograft tumor model, A2073 exhibited significant anti-proliferative activity against tumor cells while maintaining a favorable toxicity profile. These results indicate that A2073 holds promise as a potential therapeutic agent for the treatment of acute erythroleukemia, with substantial clinical potential.",
+    "keywords": [
+      "Cell cycle",
+      "Erythroleukemia",
+      "MAPK pathway",
+      "NF-kappaB pathway",
+      "Natural compounds",
+      "PI3K pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Antineoplastic Agents/pharmacology/chemistry/chemical synthesis",
+      "Apoptosis/drug effects",
+      "Cell Cycle/drug effects",
+      "Cell Proliferation/drug effects",
+      "Dose-Response Relationship, Drug",
+      "Drug Screening Assays, Antitumor",
+      "*Flavonoids/pharmacology/chemistry/chemical synthesis",
+      "*Leukemia, Erythroblastic, Acute/drug therapy/pathology/metabolism",
+      "Mitogen-Activated Protein Kinases/metabolism/antagonists & inhibitors",
+      "Molecular Structure",
+      "NF-kappa B/metabolism/antagonists & inhibitors",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Structure-Activity Relationship",
+      "Zebrafish",
+      "Phosphoinositide-3 Kinase Inhibitors/chemical synthesis/chemistry/pharmacology",
+      "Benzofurans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Man",
+        "Yuan, Chun-Mao",
+        "He, Zhi-Xu",
+        "Long, Mei-Ting",
+        "He, Li-Ting",
+        "Yang, Ying",
+        "Zhang, Fen-Li",
+        "Yang, Chun-Xia",
+        "Chen, Dan",
+        "Huang, Meng-Jun",
+        "Zhou, Ming-Xiang",
+        "Wu, Xi-Jun",
+        "Li, Yan-Mei",
+        "Yang, Xiao-Yan"
+      ],
+      "short_names": [
+        "Zhou M",
+        "Yuan CM",
+        "He ZX",
+        "Long MT",
+        "He LT",
+        "Yang Y",
+        "Zhang FL",
+        "Yang CX",
+        "Chen D",
+        "Huang MJ",
+        "Zhou MX",
+        "Wu XJ",
+        "Li YM",
+        "Yang XY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China; Department of Scientific Research, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Natural Products Research Center of Guizhou Province, Guiyang 550014, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China; Department of Pediatrics, Key Laboratory of Cell Engineering of Guizhou Province, Affiliated Hospital of Zunyi Medical University, Zunyi 563100, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "The Jinyang Hospital Affiliated to Guizhou Medical University, Guiyang 550007, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China.",
+        "Department of Scientific Research, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China. Electronic address: 498682999@qq.com.",
+        "Natural Products Research Center of Guizhou Province, Guiyang 550014, Guizhou Province, China. Electronic address: liyanmei518@hotmail.com.",
+        "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China. Electronic address: 469389553@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Man",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China; Department of Scientific Research, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Chun-Mao",
+        "short_name": "Yuan CM",
+        "identifiers": [],
+        "affiliations": [
+          "Natural Products Research Center of Guizhou Province, Guiyang 550014, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhi-Xu",
+        "short_name": "He ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China; Department of Pediatrics, Key Laboratory of Cell Engineering of Guizhou Province, Affiliated Hospital of Zunyi Medical University, Zunyi 563100, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Long, Mei-Ting",
+        "short_name": "Long MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Li-Ting",
+        "short_name": "He LT",
+        "identifiers": [],
+        "affiliations": [
+          "The Jinyang Hospital Affiliated to Guizhou Medical University, Guiyang 550007, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ying",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fen-Li",
+        "short_name": "Zhang FL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chun-Xia",
+        "short_name": "Yang CX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dan",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Meng-Jun",
+        "short_name": "Huang MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ming-Xiang",
+        "short_name": "Zhou MX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xi-Jun",
+        "short_name": "Wu XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Scientific Research, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China. Electronic address: 498682999@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yan-Mei",
+        "short_name": "Li YM",
+        "identifiers": [],
+        "affiliations": [
+          "Natural Products Research Center of Guizhou Province, Guiyang 550014, Guizhou Province, China. Electronic address: liyanmei518@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiao-Yan",
+        "short_name": "Yang XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang 550001, Guizhou Province, China. Electronic address: 469389553@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Chem"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/04 00:29",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "41575686"
+    ],
+    "refs": [],
+    "similar": [
+      "40460610",
+      "40381820",
+      "39303451",
+      "40100342",
+      "38278023",
+      "40362240",
+      "38357946",
+      "38347773",
+      "25792811",
+      "16927021",
+      "32160736",
+      "32538736",
+      "31784186",
+      "36872359",
+      "34450496",
+      "39083211",
+      "25997834",
+      "35346647",
+      "38885547",
+      "34403956",
+      "29990873",
+      "34461124",
+      "35959422",
+      "36216575",
+      "31631978",
+      "33550048",
+      "23993958",
+      "32781972",
+      "35899176",
+      "33039054",
+      "32762018",
+      "34773680",
+      "40822462",
+      "30465514",
+      "38981243",
+      "22040955",
+      "41447948",
+      "22185283",
+      "37096507",
+      "38794198",
+      "40561647",
+      "23475563",
+      "31375085",
+      "28435223",
+      "39733482",
+      "39448547",
+      "40124558",
+      "38368795",
+      "10515888",
+      "38636129",
+      "40047238",
+      "40409114",
+      "40349530",
+      "24854624",
+      "37658623",
+      "39284270",
+      "41518939",
+      "30668391",
+      "31147807",
+      "38467318",
+      "22526834",
+      "34284105",
+      "38584531",
+      "41980403",
+      "16273292",
+      "30510404",
+      "40480105",
+      "26739353",
+      "33106514",
+      "38493718",
+      "41539040",
+      "36403742",
+      "34396710",
+      "40088685",
+      "39817393",
+      "40280444",
+      "31118570",
+      "25834400",
+      "23705826",
+      "29574283",
+      "29070108",
+      "37557938",
+      "39226705",
+      "41443284",
+      "39901205",
+      "37689214",
+      "27149364",
+      "40098908",
+      "34223631",
+      "36934719",
+      "41508239",
+      "31830480",
+      "31923503",
+      "31039533",
+      "40440957",
+      "41124878",
+      "38583254",
+      "39803606",
+      "41240398",
+      "39924447"
+    ],
+    "review": [
+      "40460610"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-2068(25)00492-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

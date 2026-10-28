@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report synthesis and characterization of a red-emitting pyridinium dye (DAPBMP), its binding to genomic DNA via minor groove interactions driven by hydrophobic and electrostatic forces, ionic-strength-dependent thermodynamics characterized by ITC, viscosity-induced fluorescence enhancement, and live-cell imaging in two cell lines showing nuclear and perinuclear mitochondrial localization.
+- **Visible evidence base** Abstract text only; no experimental data, spectra, titration curves, microscopy images, or docking outputs are available for inspection
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, characterization data (NMR, ESIMS), ITC raw data and fitting parameters, CD spectra, molecular docking details, fluorescence decay parameters, cell viability data, and imaging controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting study of a styryl-based dye interacting with DNA, combining photophysical, thermodynamic, and cellular imaging approaches. The claim of minor groove binding is supported by two independent methods (CD and docking), and the ionic-strength dependence of binding thermodynamics is a valuable contribution. However, the abstract alone does not provide sufficient quantitative evidence to fully evaluate the robustness of the conclusions. The cellular imaging component, while promising, lacks specificity controls that would strengthen the claim of DNA-targeted staining. The work is likely of interest to the photochemistry, biophysical chemistry, and bioimaging communities, but the case for a broad interdisciplinary impact is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in photochemistry and fluorescent probe design, biophysical chemists studying DNA-ligand interactions, and cell biologists using fluorescent dyes for nucleic acid imaging would find this work relevant. The combination of thermodynamic dissection of binding forces with live-cell imaging provides a template for evaluating similar probes.
+- **Major strengths** The study integrates multiple complementary techniques (steady-state and time-resolved fluorescence, ITC, CD, docking, microscopy) to characterize the dye-DNA interaction. The explicit quantification of the polyelectrolytic contribution to binding free energy as a function of ionic strength is a rigorous approach. The demonstration of viscosity-dependent emission enhancement suggests potential as a molecular rotor probe.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that binding of the dye to the minor groove of DNA is confirmed by CD spectroscopy and molecular docking.
+  - **Evidence pointer** Abstract text; specific CD signatures and docking parameters not provided
+  - **Concern** The abstract does not specify which CD spectral features were used to assign minor groove binding, nor does it provide docking scores, binding poses, or comparison with known minor groove binders. Minor groove binding assignments based on CD alone can be ambiguous, especially for dyes with strong intrinsic CD signals or when induced CD arises from other binding modes.
+  - **Why it matters** The binding mode is a central claim of the study and underpins the interpretation of the thermodynamic and imaging data. If the groove assignment is incorrect, the mechanistic conclusions and the biological interpretation would be substantially weakened.
+  - **Resolution test** Provide the CD spectra showing characteristic induced CD signatures (e.g., positive band near 310-330 nm for minor groove binding), docking scores with RMSD values, and a comparison of the docked pose with a known minor groove binder such as DAPI or Hoechst 33258.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that ITC reveals the key role of hydrophobic effect and electrostatic interaction, and that DeltaGpe progressively decreases with increasing ionic strength.
+  - **Evidence pointer** Abstract text; ITC data and fitting parameters not provided
+  - **Concern** No thermodynamic parameters (DeltaG, DeltaH, DeltaS, binding stoichiometry, binding constant) are reported in the abstract. The claim that hydrophobic effect plays a key role requires a positive DeltaS or other supporting evidence, which is not presented. The magnitude of DeltaGpe changes with ionic strength is not quantified.
+  - **Why it matters** The thermodynamic dissection is a major claimed contribution. Without numerical values, the reader cannot assess whether the conclusions are statistically robust or whether the observed trends are within experimental error.
+  - **Resolution test** Report the full set of ITC-derived parameters for at least two ionic strength conditions, including errors, and show the dependence of DeltaGpe on NaCl concentration in a figure with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the dye passes through the C2C12 cell membrane and binds negatively charged nucleic acids, essentially double-stranded DNA, which made nuclear puncta along with perinuclear located mitochondria.
+  - **Evidence pointer** Abstract text; microscopy images and colocalization analyses not provided
+  - **Concern** The claim that the dye binds DNA in cells is inferred from nuclear puncta, but no colocalization with a DNA-specific stain (e.g., DAPI or Hoechst) is mentioned. The perinuclear mitochondrial localization suggests the dye also targets RNA or other anionic structures, which is not addressed. No cell viability or membrane integrity data are provided to rule out non-specific uptake due to compromised membranes.
+  - **Why it matters** The imaging claim extends the study to a biological context, but the specificity of the staining is not established. Overinterpretation of nuclear puncta as DNA binding without a colocalization control is a common pitfall in dye-based imaging studies.
+  - **Resolution test** Provide colocalization images with a DNA-specific dye, quantify Pearson's or Manders' coefficients, include a control with RNase treatment to distinguish DNA from RNA binding, and report cell viability data (e.g., MTT assay) for the dye concentrations used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The abbreviation DAPBMP is used without a clear structural context beyond the chemical name, and the term "genomic DNA" is used without specifying the source (e.g., calf thymus, salmon sperm).
+  - **Required correction** Specify the DNA source and consider adding a brief structural schematic or a more intuitive description of the dye's photophysical properties for readers outside the immediate field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Viscosity experiment
+  - **Evidence pointer** Abstract text
+  - **Issue** The viscosity-dependent fluorescence enhancement is reported as "almost 15 times" in a water-propylene glycol system, but the composition range and the corresponding viscosity values are not given.
+  - **Required correction** Report the solvent composition range and the viscosity values at which the enhancement was measured, and clarify whether the enhancement is linear with viscosity (indicative of a molecular rotor mechanism).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "polyelectrolytic contribution, DeltaGpe" is introduced without a brief definition or context for readers not familiar with polyelectrolyte theory in DNA-ligand binding.
+  - **Required correction** Add a brief parenthetical explanation, such as "the electrostatic component of binding free energy arising from counterion release."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding mode confirmation), R1-M2 (quantitative thermodynamic data), R1-M3 (imaging specificity controls)
+- **Assessment against Nature-style criteria** Originality: The combination of a styryl-based red-emitting dye with detailed ITC-based thermodynamic dissection and live-cell imaging is moderately original, though similar approaches exist for other cyanine and styryl dyes. Scientific importance: The work provides a useful case study for DNA-binding probe design, but the abstract does not demonstrate a fundamentally new principle or a significant advance over existing probes. Interdisciplinary readership: The study bridges photophysics, biophysical chemistry, and cell imaging, which could attract a broad audience, but the abstract lacks sufficient quantitative detail to engage specialists in each field. Technical soundness: The multi-technique approach is commendable, but the abstract does not provide enough data to verify the robustness of the conclusions. Readability for nonspecialists: The abstract is generally clear but uses field-specific terminology without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable study, but the absence of quantitative data, binding mode validation details, and imaging specificity controls prevents a definitive assessment. The authors should be encouraged to resubmit with the full manuscript, addressing the concerns above.
+
+## Risk / unsupported claims
+- The claim of minor groove binding is unsupported without specific CD signatures and docking validation.
+- The claim that hydrophobic effect plays a key role is unsupported without thermodynamic parameters (DeltaH, DeltaS).
+- The claim of DNA-specific staining in cells is unsupported without colocalization controls.
+- The quantitative relationship between DeltaGpe and ionic strength is not assessable without numerical data.
+- The viscosity-dependent fluorescence enhancement mechanism (molecular rotor) is implied but not explicitly established.

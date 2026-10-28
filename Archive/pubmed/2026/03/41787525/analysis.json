@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41787525",
+  "title": "Screening, validation, and transcriptional regulation analysis of oxidative stress-related biomarkers in gestational diabetes mellitus: SH3BP5, ITGAM, PRRG1, and MIS12.",
+  "authors": "He, Haiyu; Wu, Wen",
+  "journal": "European journal of medical research",
+  "published_date": "2026-03-06",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学和机器学习筛选妊娠期糖尿病氧化应激相关生物标志物并构建TF-基因调控网络，但核心是疾病诊断标志物而非蛋白质-DNA互作机制建模，仅涉及TF网络预测，无AI/物理模拟的互作建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Gestational diabetes mellitus (GDM) is a common pregnancy complication linked to adverse outcomes, highlighting the need for new diagnostic markers. This study aimed to identify oxidative stress-related genes as potential biomarkers for GDM using integrated bioinformatics and experimental validation. METHODS: The GSE70493 dataset was obtained from the Gene Expression Omnibus (GEO) database and analyzed using weighted gene co-expression network analysis (WGCNA), functional enrichment, and differential expression analysis. Reactive oxygen species (ROS) activity scores for each sample were calculated using single-sample gene set enrichment analysis (ssGSEA). ROS-associated differentially expressed genes (DEGs) were further screened using the least absolute shrinkage and selection operator (LASSO), support vector machine-recursive feature elimination (SVM-RFE), and RandomForest algorithms to identify pivotal genes. A diagnostic radial-kernel support vector machine (SVM) classifier was constructed and rigorously evaluated through a 5 x 5 nested cross-validation framework on the training set, followed by validation in an independent external cohort (GSE249311). A transcription factor (TF)-gene regulatory network was established via the JASPAR database on the NetworkAnalyst 3.0 platform. The biological role of PRRG1 in GDM was also explored using cellular experiments. RESULTS: WGCNA identified 7 co-expression modules, among which the green, pink, and black modules showed a strong positive correlation with ROS scores. Enrichment analysis showed that the module genes were mainly implicated in protein hydrolysis and processing, cell adhesion molecule binding, and various immune-related pathways. 765 DEGs, including 470 downregulated genes and 295 upregulated genes, were screened between GDM samples and control samples. Machine learning algorithm identified four hub genes (SH3BP5, ITGAM, PRRG1, and MIS12). When the four hub genes were combined, ROC curves showed that the hub genes exhibited strong diagnostic value for GDM. In GDM, SH3BP5, MIS12, and ITGAM were low-expressed, while PRRG1 was high-expressed. The TF-gene regulatory network showed that the hub genes could regulate multiple transcription factors separately. In vitro experiments demonstrated that PRRG1 knockdown significantly enhanced the viability, migration, and invasion of GDM cells.Table: Table [3, 4] was received; however, no citation was provided in the manuscript. Please provide the location of where to insert the citation in the main body of the text. Otherwise, kindly advise us on how to proceed. Please note that tables should be cited in ascending numerical order in the main body of the textDear editor, please consider removing the Tables 3 and 4 in the paper, since the data of molecular docking are absent in the current paper. CONCLUSION: We provided four novel biomarkers targeting oxidative stress for the treatment of GDM.",
+  "abstract_zh": "背景：妊娠期糖尿病（GDM）是一种常见的妊娠并发症，与不良结局相关，凸显了对新诊断标志物的需求。本研究旨在利用整合生物信息学和实验验证，识别氧化应激相关基因作为GDM的潜在生物标志物。方法：从基因表达综合（GEO）数据库获取GSE70493数据集，并使用加权基因共表达网络分析（WGCNA）、功能富集和差异表达分析进行分析。使用单样本基因集富集分析（ssGSEA）计算每个样本的活性氧（ROS）活性评分。进一步使用最小绝对收缩和选择算子（LASSO）、支持向量机-递归特征消除（SVM-RFE）和随机森林算法筛选ROS相关的差异表达基因（DEGs），以识别关键基因。构建了一个径向核支持向量机（SVM）诊断分类器，并在训练集上通过5×5嵌套交叉验证框架进行严格评估，随后在独立外部队列（GSE249311）中进行验证。通过NetworkAnalyst 3.0平台上的JASPAR数据库建立了转录因子（TF）-基因调控网络。还通过细胞实验探讨了PRRG1在GDM中的生物学作用。结果：WGCNA识别出7个共表达模块，其中绿色、粉色和黑色模块与ROS评分呈强正相关。富集分析显示，模块基因主要涉及蛋白质水解和加工、细胞黏附分子结合以及多种免疫相关通路。在GDM样本和对照样本之间筛选出765个DEGs，包括470个下调基因和295个上调基因。机器学习算法识别出四个枢纽基因（SH3BP5、ITGAM、PRRG1和MIS12）。当四个枢纽基因组合时，ROC曲线显示这些枢纽基因对GDM具有强诊断价值。在GDM中，SH3BP5、MIS12和ITGAM低表达，而PRRG1高表达。TF-基因调控网络显示，枢纽基因可分别调控多个转录因子。体外实验表明，PRRG1敲低显著增强了GDM细胞的活力、迁移和侵袭能力。表格：收到表格[3, 4]；但稿件中未提供引用。请提供在正文中插入引用的位置。否则，请告知我们如何处理。请注意，表格应在正文中按升序数字顺序引用。亲爱的编辑，请考虑删除论文中的表格3和4，因为当前论文中缺乏分子对接数据。结论：我们提供了四种针对氧化应激的新型生物标志物，用于GDM的治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41787525/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41787525/",
+  "paper_page_path": "papers/pubmed/41787525/index.html"
+}

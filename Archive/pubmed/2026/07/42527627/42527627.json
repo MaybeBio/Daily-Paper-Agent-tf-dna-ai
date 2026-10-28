@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42527627",
+    "doi": "10.1038/s44320-026-00230-9",
+    "title": "Macrophage response specificity to ligand mixtures is improved by signaling pathway antagonism."
+  },
+  "content": {
+    "abstract": "Macrophages function as immune sentinels that distinguish diverse threats and mount appropriate responses. This stimulus-response specificity (SRS) is partly encoded in the dynamics of the NFkappaB transcription factor. While most studies examine single ligands, physiological exposures involve complex multi-ligand mixtures. Using a mathematical model that captures heterogeneous single-cell NFkappaB responses, we generated simulation datasets for mixtures of up to five ligands and validated key predictions with live-cell microscopy. Following iterative refinement of the model, we quantified SRS with Wasserstein distance and machine learning classification and found that NFkappaB temporal coding can partially convey the presence of specific ligands within mixtures. By generating simulation datasets across all ligand pairs at doses spanning the full responsiveness range, we found several cases of synergy and antagonism between stimuli. Antagonism was for example the result of a limited supply of stimulus-cofactor CD14 or endosomal transport capacity. Synergy depended on ultra-sensitive IKK activation in cells with low receptor expression. While synergy does not enhance SRS, antagonism between TLR9 and TLR3 signaling pathways due to endosomal transport competition may enhance the distinguishability of CpG-pIC from ligand mixtures. These studies therefore identified antagonism mechanisms in signaling pathways as key to maintaining immune specificity under complex conditions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xiaolu",
+        "Sen, Supriya",
+        "Gonzalez, Julian",
+        "Hoffmann, Alexander"
+      ],
+      "short_names": [
+        "Guo X",
+        "Sen S",
+        "Gonzalez J",
+        "Hoffmann A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5740-2428",
+        "ORCID: 0000-0002-5022-6388",
+        "ORCID: 0009-0004-2043-7581",
+        "ORCID: 0000-0002-5607-3845"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA.",
+        "Amgen, One Amgen Center Drive, Thousand Oaks, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA. ahoffmann@ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-5740-2428"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sen, Supriya",
+        "short_name": "Sen S",
+        "identifiers": [
+          "0000-0002-5022-6388"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA.",
+          "Amgen, One Amgen Center Drive, Thousand Oaks, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Julian",
+        "short_name": "Gonzalez J",
+        "identifiers": [
+          "0009-0004-2043-7581"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [
+          "0000-0002-5607-3845"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, 611 Charles E. Young Dr E, Los Angeles, CA, USA. ahoffmann@ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2026 Jul 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/30 00:38",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39413794",
+      "38872050",
+      "38483906",
+      "38040923",
+      "37069320",
+      "36657439",
+      "36472304",
+      "36356576",
+      "35471841",
+      "34853340",
+      "34525335",
+      "34301608",
+      "34140389",
+      "33988686",
+      "33979588",
+      "32864512",
+      "32842549",
+      "32726596",
+      "32631940",
+      "31972132",
+      "31178118",
+      "30904375",
+      "30638813",
+      "30462580",
+      "29128333",
+      "28500273",
+      "28380352",
+      "27381163",
+      "27062928",
+      "26859137",
+      "26603899",
+      "26448863",
+      "26175492",
+      "25504722",
+      "25473117",
+      "24942685",
+      "24530305",
+      "22435558",
+      "22296764",
+      "21921160",
+      "21888353",
+      "21743766",
+      "21616434",
+      "20981357",
+      "20581820",
+      "20300215",
+      "19787057",
+      "19359585",
+      "18676814",
+      "18644831",
+      "16729058",
+      "16166517",
+      "16166516",
+      "16056267",
+      "15499023",
+      "15321710",
+      "12885945",
+      "12424381",
+      "11470918",
+      "10963608",
+      "9377276",
+      "7933991",
+      "2242409"
+    ],
+    "similar": [
+      "42527627",
+      "40236137",
+      "42475469",
+      "33979588",
+      "40839679",
+      "40236106",
+      "23876795",
+      "40593748",
+      "38872050",
+      "41279116",
+      "33597952",
+      "36657439",
+      "26042329",
+      "17374157",
+      "31809875",
+      "16231973",
+      "31855381",
+      "34215697",
+      "39413794",
+      "19573862",
+      "21940676",
+      "25145040",
+      "21789180",
+      "40980882",
+      "27379091",
+      "30299656",
+      "29062588",
+      "21204515",
+      "23951313",
+      "16421230",
+      "39131345",
+      "39680254",
+      "39975349",
+      "31785031",
+      "20697956",
+      "42192326",
+      "32409824",
+      "38843840",
+      "29321062",
+      "35849243",
+      "38483906",
+      "31089414",
+      "36706677",
+      "41550924",
+      "40916281",
+      "19142232",
+      "41294838",
+      "24675998",
+      "23567895",
+      "21947771",
+      "36040923",
+      "12867418",
+      "41171369",
+      "19923461",
+      "38527452",
+      "26106158",
+      "31534033",
+      "21665277",
+      "41540405",
+      "28052994",
+      "41310253",
+      "23823243",
+      "41227333",
+      "32631940",
+      "19164128",
+      "26175492",
+      "17507094",
+      "37333368",
+      "10358766",
+      "24269601",
+      "15662540",
+      "24942583",
+      "28974092",
+      "40473841",
+      "26042330",
+      "16148141",
+      "19717524",
+      "38806553",
+      "16766221",
+      "28394395",
+      "34691060",
+      "26787872",
+      "41185629",
+      "25557335",
+      "15699120",
+      "18203717",
+      "20650880",
+      "35357214",
+      "40668864",
+      "15972671",
+      "16622004",
+      "36321557",
+      "25378393",
+      "25518931",
+      "22809727",
+      "25928566",
+      "28436498",
+      "41371106",
+      "31872748",
+      "22928050"
+    ],
+    "review": [
+      "42527627",
+      "33597952",
+      "26042329",
+      "27379091",
+      "30299656",
+      "21204515",
+      "10358766",
+      "15662540",
+      "26042330",
+      "16766221",
+      "25557335"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44320-026-00230-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that overexpression of the T4 early gene motB during infection of E. coli BL21(DE3) leads to downregulation of 21 of 84 host tRNAs, many of which are less frequently used by T4 or have T4-encoded counterparts, and that this results in a more favorable tRNA pool for the phage. MotB is predicted by AlphaFold 2 to be a two-domain protein with N-terminal KOW and C-terminal OB-fold domains. RNA-seq and mass spectrometry were used to assess RNA and protein changes.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, figure legends, or methodological specifics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, RNA-seq and MS data files, statistical analysis details, strain and infection protocol specifics, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis that a nonessential T4 early gene, motB, modulates host tRNA expression to benefit phage translation. However, the evidence as summarized is insufficient to establish the causal claim that the observed tRNA changes result in a "more favorable tRNA pool" for the phage. The abstract lacks quantitative data, statistical support, and direct functional validation. The predicted structure is presented without experimental confirmation, and the connection between host tRNA downregulation and phage fitness is inferred rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers studying bacteriophage-host interactions, phage gene function, tRNA biology, and translational control during infection. The work may also interest those developing phage-based antibacterial strategies, as understanding nonessential early genes could inform engineering approaches.
+- **Major strengths** The study addresses a previously uncharacterized T4 early gene, filling a gap in phage genomics. The combination of RNA-seq and mass spectrometry provides a dual-layer view of host and phage responses. The hypothesis that motB shapes the tRNA pool is mechanistically specific and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "motB overexpression during infection does not affect T4 RNAs, but affects the expression of host genes, including the downregulation of 21 of the 84 chargeable host tRNAs"
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract states that 21 of 84 tRNAs are downregulated, but no effect sizes, statistical thresholds, or false discovery rates are reported. It is unclear whether these changes are robust, reproducible, or biologically meaningful. The claim that T4 RNAs are unaffected is presented without supporting data.
+  - **Why it matters** Without quantitative evidence and statistical rigor, the reader cannot assess whether the observed tRNA changes are significant or merely noise. The claim that T4 RNA levels are unchanged is central to the interpretation that motB specifically targets host tRNAs, but this is not substantiated.
+  - **Resolution test** Provide the full RNA-seq analysis, including differential expression tables, adjusted p-values, effect sizes, and validation by qPCR or independent replicates. Show that the 21 tRNA changes exceed a predefined significance threshold and that T4 RNA levels are statistically unchanged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "motB is involved in establishing a more favorable tRNA pool for the phage during infection"
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The abstract infers a functional benefit to the phage from the observed tRNA downregulation, but no direct measurement of phage fitness, burst size, or translation efficiency is provided. The statement that affected tRNAs are "used less frequently by T4 or have a counterpart encoded within the T4 genome" is descriptive, not functional.
+  - **Why it matters** The central conclusion rests on the assumption that altering the tRNA pool improves phage replication. Without a fitness assay or translational readout, the claim remains speculative. Correlation between tRNA changes and phage benefit is not established.
+  - **Resolution test** Include experiments measuring phage yield, protein production, or codon-specific translation rates under motB overexpression versus control. Alternatively, show that tRNA changes correlate with increased T4 protein levels in a codon-dependent manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction validation
+  - **Claim pointer** "MotB structure is predicted to be a two-domain protein with N-terminal Kyprides-Onzonis-Woese and C-terminal oligonucleotide/oligosaccharide-fold domains"
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The structure is based solely on AlphaFold 2 prediction, with no experimental validation (e.g., crystallography, NMR, or mutagenesis). The abstract does not indicate confidence scores or whether the prediction was verified by any biochemical means.
+  - **Why it matters** Structural claims, even when predicted, should be accompanied by confidence metrics or functional validation to be credible. Overinterpretation of predicted domains can mislead downstream hypotheses.
+  - **Resolution test** Report AlphaFold confidence scores (pLDDT) and, if possible, provide mutagenesis or binding data supporting the functional relevance of the predicted domains.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abstract states "E. coli BL21(DE3) ±5 min T4 infection" but does not clarify the infection multiplicity, time course, or whether motB overexpression was induced before or after infection.
+  - **Required correction** Specify the multiplicity of infection, induction timing relative to infection, and the time points sampled for RNA-seq and MS.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "chargeable host tRNAs"
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The term "chargeable" is not defined in the abstract. It is unclear whether this refers to tRNAs that can be aminoacylated or to a specific subset of tRNA genes.
+  - **Required correction** Define "chargeable" in the context of the analysis, or use a more standard term such as "tRNA genes" with a note on functional status.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Mass spectrometry results
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The abstract states that "levels of multiple T4 proteins are changed" but does not indicate the direction, magnitude, or number of affected proteins.
+  - **Required correction** Provide a summary of the MS findings, including the number of proteins up- or downregulated and any correlation with tRNA changes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative and statistical evidence for tRNA and T4 RNA claims), R1-M2 (no functional validation of phage benefit), R1-M3 (unvalidated structural prediction)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The focus on a nonessential early gene and its effect on tRNA pools is a relatively underexplored angle in phage biology, but the concept of host tRNA manipulation by phages is not entirely new.
+  - **Scientific importance** Moderate. The findings could inform phage-host translational dynamics, but the abstract does not demonstrate a broad or generalizable impact beyond this specific strain and condition.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to phage biologists and microbiologists; the abstract does not frame the findings for a wider audience.
+  - **Technical soundness** Not assessable from the abstract. The lack of statistical detail and validation prevents evaluation of the technical rigor.
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms (e.g., "chargeable tRNAs," "KOW domain") without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is reasonable, but the abstract lacks the quantitative and functional data needed to support the central claim. The manuscript may become publishable if the full data are provided and the concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that motB overexpression results in a "more favorable tRNA pool" is unsupported without direct fitness or translation measurements.
+- The claim that T4 RNAs are unaffected is unsupported without statistical data.
+- The predicted two-domain structure of MotB is presented as a finding without experimental validation or confidence metrics.
+- The statement that affected tRNAs are "used less frequently by T4" is not substantiated with codon usage or translation data.
+- The generalizability of the findings beyond E. coli BL21(DE3) is not addressed and cannot be assessed from the abstract.

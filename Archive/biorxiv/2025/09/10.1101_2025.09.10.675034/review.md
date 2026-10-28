@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors report the computational design and experimental validation of de novo protein switches whose conformational state is controlled by phosphorylation. These switches are shown to function in yeast surface display and in cell-based assays, where a phosphorylation-dependent protein-protein interaction regulates transcription of a reporter gene. The work aims to establish a foundation for synthetic signaling cascades built from de novo components.
+- **Visible evidence base** Text descriptions of results, methods, and supplementary figures/tables as referenced; no primary data files, figures, or tables were provided for direct inspection
+- **Missing materials affecting confidence** All figures, tables, supplementary data, and primary experimental datasets are absent from the provided material. This includes NMR spectra and structural statistics, flow cytometry data, SEC-MALS traces, CD spectra, MALDI-TOF mass spectra, SPR sensorgrams, and cell-based assay results. The absence of these data prevents independent verification of the reported findings.
+
+## Reviewer
+- **Overall assessment** The manuscript describes an ambitious and potentially significant advance in de novo protein design, extending the field from static single-state structures to phosphorylation-responsive conformational switches. The conceptual framework is sound and the integration of computational design with experimental validation is commendable. However, the provided text alone is insufficient to evaluate the technical quality of the experimental data. The NMR analysis, in particular, appears to be presented with limited quantitative detail, and the relationship between the observed dynamics and the designed switching mechanism requires closer scrutiny. The cell-based assays, while promising, show modest effect sizes that warrant careful interpretation. The work is likely to interest the protein design and synthetic biology communities, but the strength of the conclusions cannot be fully assessed from the text provided.
+- **Who would be interested in the results, and why** Researchers in computational protein design will be interested in the multi-state design methodology and its application to dynamic proteins. Synthetic biologists will be interested in the demonstration of a phosphorylation-controlled signaling module built from de novo components. Cell engineers working on therapeutic cell systems may find the potential for kinase-responsive transcriptional control relevant. The NMR community may also be interested in the characterization of conformational dynamics in designed proteins.
+- **Major strengths** The conceptual advance of designing phosphorylation-induced conformational switches from de novo folds is significant. The multi-state design approach, accommodating sequences compatible with two distinct conformations, is a methodological contribution. The use of a buried phosphorylation site coupled with a TEV cleavage reporter is an elegant screening strategy. The demonstration of reversibility through phosphatase treatment adds credibility to the switching mechanism. The application to four different folds, including a novel one, supports the generalizability of the approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NMR studies demonstrate the designed switches sample a closed conformation in the non-phosphorylated state and an open conformation upon phosphorylation, with the global fold maintained.
+  - **Evidence pointer** Results section "PIPS2 structure and dynamics by NMR spectroscopy"; Figure 4; Supplementary Figures 5-9; Supplementary Tables 2-4
+  - **Concern** The NMR analysis is described in qualitative terms. The claim that the global fold is maintained in the phosphorylated state is supported by similar ΔCA-ΔCB patterns, but the extent of structural rearrangement and the nature of the "open" state remain unclear. The manuscript reports that 15% of residues lack backbone assignments in the non-phosphorylated state, and 14 additional residues lack assignments in the phosphorylated state, yet the structural interpretation of these missing assignments is not fully developed. The CEST data indicate a 2% population of an excited state, but the structural nature of this state is not characterized. The relationship between the micro-to-millisecond dynamics observed and the functional switching mechanism requires more rigorous quantitative analysis.
+  - **Why it matters** The central claim of the paper is that these proteins function as phosphorylation-induced switches. Without a clear structural and dynamic characterization of both states, the mechanism underlying the switching behavior remains speculative. The NMR data are the primary evidence for the designed conformational change, and their incomplete analysis weakens the mechanistic conclusion.
+  - **Resolution test** Provide a complete analysis of the NMR data, including assignment completeness statistics, structural ensembles for both states, and a quantitative description of the conformational exchange. Demonstrate that the structural differences between states are localized to the designed switch region and that the global fold is indeed maintained. If full structural characterization of the open state is not feasible, provide alternative biophysical evidence (e.g., SAXS, HDX-MS) to support the proposed conformational change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that the designed binders are specific to the phosphorylated state of PIPS2, with Kd values of 22.39 nM and 4.28 nM for phosphoPIPS2, and that binding to the non-phosphorylated state exceeds 1 µM.
+  - **Evidence pointer** Results section "Design of conformation-specific binders"; Figure 5; Supplementary Figures 12-13
+  - **Concern** The SPR data are described only in terms of final Kd values. No sensorgrams, fitting details, or replicate information are provided. The claim that a Kd "could not be accurately determined" for the non-phosphorylated state is vague; it is unclear whether this reflects weak binding, no binding, or technical limitations. The specificity ratio of approximately 50-200 fold is reported, but the experimental conditions (e.g., immobilization density, analyte concentrations, regeneration) are not described. The manuscript does not report whether the binders were tested against other phosphorylated proteins to establish phospho-specificity versus general phospho-recognition.
+  - **Why it matters** The conformation-specific binders are essential components of the proposed signaling system. Their specificity and affinity determine the sensitivity and dynamic range of the synthetic signaling cascade. Without rigorous binding characterization, the functional data in cells cannot be properly interpreted.
+  - **Resolution test** Provide full SPR sensorgrams with fitting results, replicate measurements, and a clear description of the experimental conditions. Include a quantitative assessment of binding to the non-phosphorylated state, even if it is too weak to measure accurately. Test the binders against unrelated phosphoproteins to establish specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that the designed system functions as a phosphorylation-dependent switch in cells, regulating transcription of a reporter gene with approximately 4-fold induction upon forskolin treatment.
+  - **Evidence pointer** Results section "Assembling minimal signaling networks in cell-based systems"; Figure 6; Supplementary Figure 14
+  - **Concern** The cell-based assay data are described with minimal quantitative detail. The 4-fold induction is reported, but the baseline signal, dynamic range, and variability across replicates are not provided. The manuscript does not report the expression levels of the PIPS2-Gal4 and binder-RelA fusion proteins, which could affect the observed response. The specificity of the response is addressed through mutant controls, but the magnitude of the effect relative to these controls is not quantified. The cell-free assay is described as showing phosphorylation-dependent transcription, but the kinetics and magnitude of the response are not presented.
+  - **Why it matters** The functional demonstration in cells is the ultimate proof of concept for the designed signaling system. The modest 4-fold induction, while statistically significant, may limit the practical utility of the system. A thorough characterization of the response is necessary to assess whether this approach can be developed into a robust synthetic signaling platform.
+  - **Resolution test** Provide full dose-response curves for forskolin, time-course data, replicate statistics, and appropriate controls. Quantify the expression levels of all system components. Report the signal-to-noise ratio and the dynamic range of the assay. If possible, demonstrate that the system can be tuned by varying component expression levels or binding affinities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the designed proteins "regulate the transcription of reporter proteins in a phosphorylation-dependent manner" but does not specify the magnitude of the response or the cellular context.
+  - **Required correction** Include the fold-induction and the cell type used in the abstract to provide readers with a quantitative summary of the functional demonstration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Selection of scaffolds for hosting phosphorylation sites"
+  - **Evidence pointer** Methods section
+  - **Issue** The criteria for selecting the SASA threshold of 3 Å² for identifying buried phosphorylation sites are not justified. The rationale for choosing this specific value is unclear.
+  - **Required correction** Provide a brief justification for the SASA threshold, citing relevant literature or explaining the structural basis for this choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Computational phospho-switches are triggered by a kinase"
+  - **Evidence pointer** Results section; Supplementary Figure 2
+  - **Concern** The manuscript reports that 253, 762, and 985 designs were screened for PIPS2, PIPS3, and PIPS4, respectively, but does not report the number of designs that passed each round of screening. This information is important for assessing the efficiency of the design and screening pipeline.
+  - **Required correction** Provide a summary of the number of designs that passed each round of screening for each PIPS variant, ideally in a supplementary table or figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates about applications in CAR-T cell receptors and cellular logic gates but does not address potential limitations of the system, such as the modest dynamic range, potential off-target phosphorylation, or the stability of the designed proteins in complex cellular environments.
+  - **Required correction** Add a paragraph discussing the limitations of the current system and the challenges that must be overcome for practical applications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The figure is described as showing NMR data, but the specific panels and their content are not described in the text. It is unclear what information is presented in each panel.
+  - **Required correction** Provide a detailed figure legend that describes each panel, including the type of experiment, the sample, and the key observations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Cell-based assays
+  - **Evidence pointer** Results section "Assembling minimal signaling networks in cell-based systems"
+  - **Issue** The statistical analysis is described as using a Shapiro-Wilk test followed by an unpaired two-tailed Welch's t-test, but the number of biological replicates and the criteria for significance are not stated.
+  - **Required correction** State the number of independent experiments, the number of technical replicates, and the significance threshold used in the analysis.
+- **Technical failings that need to be addressed before the case is established** The NMR characterization of the switching mechanism is incomplete, with insufficient quantitative analysis of the conformational dynamics and the structural nature of the open state. The SPR binding data lack the necessary detail to assess the specificity and affinity of the designed binders. The cell-based assays show a modest effect that requires more thorough characterization to establish the robustness of the system. The absence of primary data for all experiments prevents independent verification of the reported results.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of designing phosphorylation-induced conformational switches from de novo proteins is original and represents a meaningful advance beyond static structure design. The multi-state design approach is a novel methodological contribution.
+  - **Scientific importance** The work addresses a fundamental challenge in protein design and synthetic biology: creating proteins with regulated, dynamic behavior. The potential to build synthetic signaling cascades from designed components has broad implications.
+  - **Interdisciplinary readership** The work bridges computational protein design, structural biology, and synthetic biology. The findings would be of interest to researchers in all three fields, though the technical depth may limit accessibility to non-specialists.
+  - **Technical soundness** The technical quality cannot be fully assessed from the provided text. The NMR analysis appears incomplete, and the binding and cell-based data lack sufficient detail. The design methodology is sound in principle, but the experimental validation requires closer scrutiny.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual framework is clearly explained. However, the results section assumes familiarity with protein design and NMR techniques, which may limit accessibility. The abstract and introduction are accessible to a broad scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the work has the potential to make an important contribution to the field. However, the current evidence base is insufficient to fully establish the claims. The NMR analysis must be completed and presented with quantitative rigor, the binding data must be thoroughly documented, and the cell-based assays require more comprehensive characterization. If these concerns are addressed, the work would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the designed switches "sample low-populated conformational states" is not directly supported by the data presented; the CEST experiments indicate a 2% excited state, but its structural nature is not characterized.
+- The claim that the binders are "highly specific towards phosphoPIPS2" is based on SPR data that are not fully presented; the specificity relative to other phosphorylated proteins is not established.
+- The claim that the system "regulates the transcription of reporter proteins in a phosphorylation-dependent manner" is supported by the cell-based data, but the modest 4-fold induction and the lack of detailed characterization limit the strength of this claim.
+- The generalizability of the approach to "more diverse protein topologies" is speculative and not directly tested in this work.
+- The potential applications in CAR-T cell receptors and cellular logic gates are discussed as future possibilities but are not demonstrated.

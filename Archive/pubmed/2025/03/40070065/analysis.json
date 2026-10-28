@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40070065",
+  "title": "Development of a Novel 11-Gene Signature Related to Immune Subtypes for Fibromyalgia.",
+  "authors": "Zhao, Wei; Wang, Pengcheng",
+  "journal": "Endocrine, metabolic & immune disorders drug targets",
+  "published_date": "2025-03-12",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于免疫相关基因对纤维肌痛进行分子分型并筛选枢纽基因，仅预测TF-枢纽基因调控网络，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "AIM: The purpose of this study was to identify molecular subtypes and hub genes in fibromyalgia [FM] based on immune-related genes [IRGs]. BACKGROUND: FM is a chronic disease featuring widespread pain, and the immune system may be involved in the FM progression. OBJECTIVE: The objectives of this study are as follows: 1] To identify the molecular subtypes of FM based on IRGs. 2] To screen and validate the hub genes in FM. 3] To predict the transcription factor [TF] targeting hub genes and 4] To evaluate the correlation between immune cell infiltration, hallmark pathways, and hub genes. METHODS: Two FM datasets were acquired from the Gene Expression Omnibus [GEO] database. IRGs were collected from the ImmPort database. Molecular subtypes of FM were identified using the \"ConsensusClusterPlus\" package. IRGs score and differentially expressed genes [DEGs] between different FM subtypes and control samples were obtained using \"GSVA\" and \"limma\" packages. Key module genes related to FM subtypes were identified using the \"WGCNA\" package. Hub genes were screened and verified using \"glmnet\" and \"pROC\" packages. TF-hub gene regulatory network was constructed by Cytoscape software. The correlation between immune cells, hallmark pathways, and hub genes was analyzed by the Spearman method. Finally, the DSigDB database was used to obtain associations between characterized genes and drugs, and the expression of key genes was verified using qRT-PCR. RESULTS: FM samples were classified into two subtypes, and the IRGs score of the C2 subtype was lower than that of the C1 subtype. Then, 184 module genes were obtained and mainly enriched in immune-related pathways. Next, 11 hub genes [TSPAN16, RILPL2, RASSF5, PGAP2, PADI2, NACC1, LRRC25, ITGAD, HIPK1, ATP6V0D1, AP1M2] were screened with good diagnostic performance. Besides, 45 TFs targeting hub genes were predicted. Most hub genes were negatively associated with CD4/CD8 T cells while positively correlated with macrophages, mast cell, monocyte, and neutrophil, as well as inflammatory response, angiogenesis pathways, etc. Molecular docking suggests that chloroquine and L-citrulline may be potent agents for the treatment of NACC1 and PADI2. RILPL2 and ITGAD were significantly differentially expressed in control and FM group mouse models. CONCLUSION: This study identified two subtypes and 11 hub genes of FM based on IRGs, providing a reference for the clinical diagnosis of FM.",
+  "abstract_zh": "目的：本研究旨在基于免疫相关基因（IRGs）识别纤维肌痛（FM）的分子亚型和核心基因。背景：FM是一种以广泛疼痛为特征的慢性疾病，免疫系统可能参与FM的进展。目标：本研究的目标如下：1）基于IRGs识别FM的分子亚型。2）筛选并验证FM中的核心基因。3）预测靶向核心基因的转录因子（TF），以及4）评估免疫细胞浸润、标志性通路与核心基因之间的相关性。方法：从基因表达综合（GEO）数据库获取两个FM数据集。IRGs从ImmPort数据库收集。使用“ConsensusClusterPlus”包识别FM的分子亚型。使用“GSVA”和“limma”包获得不同FM亚型与对照样本之间的IRGs评分和差异表达基因（DEGs）。使用“WGCNA”包识别与FM亚型相关的关键模块基因。使用“glmnet”和“pROC”包筛选并验证核心基因。通过Cytoscape软件构建TF-核心基因调控网络。通过Spearman方法分析免疫细胞、标志性通路与核心基因之间的相关性。最后，使用DSigDB数据库获取特征基因与药物之间的关联，并使用qRT-PCR验证关键基因的表达。结果：FM样本被分为两个亚型，C2亚型的IRGs评分低于C1亚型。随后，获得184个模块基因，主要富集于免疫相关通路。接下来，筛选出11个核心基因（TSPAN16、RILPL2、RASSF5、PGAP2、PADI2、NACC1、LRRC25、ITGAD、HIPK1、ATP6V0D1、AP1M2），具有良好的诊断性能。此外，预测了45个靶向核心基因的TF。大多数核心基因与CD4/CD8 T细胞呈负相关，而与巨噬细胞、肥大细胞、单核细胞和中性粒细胞，以及炎症反应、血管生成通路等呈正相关。分子对接提示氯喹和L-瓜氨酸可能是治疗NACC1和PADI2的有效药物。RILPL2和ITGAD在对照组和FM组小鼠模型中显著差异表达。结论：本研究基于IRGs识别了FM的两种亚型和11个核心基因，为FM的临床诊断提供了参考。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40070065/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40070065/",
+  "paper_page_path": "papers/pubmed/40070065/index.html"
+}

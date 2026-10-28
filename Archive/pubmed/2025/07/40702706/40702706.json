@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "40702706",
+    "doi": "10.1093/bib/bbaf363",
+    "title": "Benchmarking transcription factor binding site prediction models: a comparative analysis on synthetic and biological data."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are essential regulatory proteins controlling the cellular transcriptional states by binding to specific DNA sequences known as transcription factor binding sites (TFBSs) or motifs. Accurate TFBS identification is crucial for unraveling regulatory mechanisms driving cellular dynamics. Over the years, various computational approaches have been developed to model TFBSs, with position weight matrices (PWMs) being one of the most widely adopted methods. PWMs provide a probabilistic framework by representing nucleotide frequencies at every position within the binding site. While effective and interpretable, PWMs face significant limitations, such as their inability to capture positional dependencies or model complex interactions. To address these, advanced methods, like support vector machine (SVM)-based, and deep learning (DL)-based models, have been introduced. Leveraging human ChIP-seq data from ENCODE, we systematically benchmarked the predictive performance of PWM, SVM-, and DL-based models across different scenarios. We evaluate the impact of key factors such as training dataset size, sequence length, and kernel functions (for SVMs) on models' performance. Additionally, we explore the impact of synthetic versus real biological background data during model training. Our analysis highlights strengths and limitations of each approach under different conditions, providing practical guidance for selecting and tailoring models to specific biological datasets. To complement our analysis, we present a comprehensive database of pretrained SVM models for TFBS detection, trained on human ChIP-seq data from diverse cell lines and tissues. This resource aims to facilitate broader adoption of SVM-based methods in TFBS prediction and enhance their practical utility in regulatory genomics research.",
+    "keywords": [
+      "bioinformatics",
+      "epigenetics",
+      "machine learning",
+      "transcription factor binding"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "Binding Sites",
+      "Humans",
+      "Support Vector Machine",
+      "Benchmarking",
+      "*Computational Biology/methods",
+      "Deep Learning",
+      "Chromatin Immunoprecipitation Sequencing"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tognon, Manuel",
+        "Kumbara, Alisa",
+        "Betti, Andrea",
+        "Ruggeri, Lorenzo",
+        "Giugno, Rosalba"
+      ],
+      "short_names": [
+        "Tognon M",
+        "Kumbara A",
+        "Betti A",
+        "Ruggeri L",
+        "Giugno R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6707-2071",
+        "ORCID: 0009-0002-3899-3928",
+        "ORCID: 0009-0006-8822-1677",
+        "ORCID: 0009-0000-2516-1175",
+        "ORCID: 0000-0001-9843-7638"
+      ],
+      "affiliations": [
+        "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy.",
+        "Department of Engineering for Innovation Medicine, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy.",
+        "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy.",
+        "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy.",
+        "Department of Computer, Control, and Management Engineering \"Antonio Ruberti\", University of Rome \"La Sapienza\", Via Ariosto 25, Rome, RM 00185, Italy.",
+        "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tognon, Manuel",
+        "short_name": "Tognon M",
+        "identifiers": [
+          "0000-0002-6707-2071"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy."
+        ]
+      },
+      {
+        "full_name": "Kumbara, Alisa",
+        "short_name": "Kumbara A",
+        "identifiers": [
+          "0009-0002-3899-3928"
+        ],
+        "affiliations": [
+          "Department of Engineering for Innovation Medicine, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy."
+        ]
+      },
+      {
+        "full_name": "Betti, Andrea",
+        "short_name": "Betti A",
+        "identifiers": [
+          "0009-0006-8822-1677"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy."
+        ]
+      },
+      {
+        "full_name": "Ruggeri, Lorenzo",
+        "short_name": "Ruggeri L",
+        "identifiers": [
+          "0009-0000-2516-1175"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy.",
+          "Department of Computer, Control, and Management Engineering \"Antonio Ruberti\", University of Rome \"La Sapienza\", Via Ariosto 25, Rome, RM 00185, Italy."
+        ]
+      },
+      {
+        "full_name": "Giugno, Rosalba",
+        "short_name": "Giugno R",
+        "identifiers": [
+          "0000-0001-9843-7638"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of Verona, Strada Le Grazie 15, Verona, VR 37134, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/24 06:29",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "42350645",
+      "42108631",
+      "41495882",
+      "41294241"
+    ],
+    "refs": [
+      "39609566",
+      "39461902",
+      "39402535",
+      "38214231",
+      "37850036",
+      "37099664",
+      "35811788",
+      "34351399",
+      "34094655",
+      "34020542",
+      "34003257",
+      "33760053",
+      "33588754",
+      "33538820",
+      "33259518",
+      "33231677",
+      "33225112",
+      "32770026",
+      "32728217",
+      "32393327",
+      "31639474",
+      "31510661",
+      "30660610",
+      "30462313",
+      "29588420",
+      "29425488",
+      "28640249",
+      "27806697",
+      "27307608",
+      "27209209",
+      "27197224",
+      "27169896",
+      "27153584",
+      "26941778",
+      "26502339",
+      "26213851",
+      "25957351",
+      "25827896",
+      "25762553",
+      "25129887",
+      "25070602",
+      "25045190",
+      "25033408",
+      "24927817",
+      "24093548",
+      "24076218",
+      "24013198",
+      "23861010",
+      "23498934",
+      "23354101",
+      "23175603",
+      "23090257",
+      "22955616",
+      "22951020",
+      "22912568",
+      "22610855",
+      "22517426",
+      "22153082",
+      "21875935",
+      "21690102",
+      "21654662",
+      "21557082",
+      "21543442",
+      "21330290",
+      "21258342",
+      "20838582",
+      "20513432",
+      "20378718",
+      "20363979",
+      "20150147",
+      "20056654",
+      "20048387",
+      "19923429",
+      "19736561",
+      "19647094",
+      "19160518",
+      "18974822",
+      "18798982",
+      "18684996",
+      "17913785",
+      "17664943",
+      "17606013",
+      "17540862",
+      "17472895",
+      "16998473",
+      "16900144",
+      "16845028",
+      "16108083",
+      "15637633",
+      "14681366",
+      "14645522",
+      "11928508",
+      "11460154",
+      "11040209",
+      "10812473",
+      "10487864",
+      "10458613",
+      "9802956",
+      "7584439",
+      "7584402",
+      "6269071",
+      "2172928"
+    ],
+    "similar": [
+      "40702706",
+      "40914877",
+      "38701417",
+      "21912677",
+      "23427986",
+      "24039567",
+      "29617876",
+      "35240993",
+      "24472686",
+      "24926895",
+      "27052996",
+      "38732207",
+      "39482734",
+      "32660981",
+      "40737245",
+      "40411397",
+      "30835229",
+      "24927817",
+      "33975951",
+      "39623329",
+      "39107889",
+      "39605530",
+      "34174819",
+      "32393327",
+      "34272562",
+      "17914226",
+      "28764727",
+      "15053842",
+      "22187154",
+      "40102719",
+      "24564277",
+      "40646689",
+      "39701486",
+      "20074339",
+      "19586888",
+      "24386279",
+      "27209209",
+      "21059262",
+      "26130577",
+      "30380113",
+      "27567672",
+      "20158869",
+      "17951829",
+      "22923524",
+      "20838582",
+      "22955984",
+      "20360861",
+      "27871221",
+      "36719906",
+      "23936309",
+      "18093302",
+      "38517697",
+      "26552868",
+      "39350338",
+      "23522376",
+      "32155318",
+      "41022541",
+      "30040077",
+      "30183639",
+      "39227799",
+      "27503086",
+      "31074373",
+      "23282203",
+      "31372637",
+      "36082286",
+      "41294241",
+      "19403457",
+      "41288963",
+      "38643066",
+      "28718849",
+      "34929739",
+      "28334268",
+      "30447332",
+      "27806697",
+      "37328639",
+      "18627598",
+      "31138617",
+      "34607350",
+      "23272209",
+      "41035197",
+      "25179504",
+      "31750523",
+      "24586611",
+      "25927199",
+      "22505627",
+      "41332515",
+      "22334039",
+      "39402535",
+      "30395277",
+      "22073148",
+      "26289072",
+      "16362910",
+      "36094959",
+      "39541188",
+      "21690103",
+      "26465884",
+      "21177332",
+      "20339533",
+      "38798191",
+      "20056654"
+    ],
+    "review": [
+      "40702706",
+      "19586888",
+      "28334268"
+    ],
+    "pmc": [
+      "12286778"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40702706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf363",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

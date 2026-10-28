@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report large-scale profiling of transcription factor (TF) binding sites in maize, yielding binding profiles for 513 TFs, 394,136 binding sites, and an accuracy-enhanced gene regulatory network (mGRN+) with 397,699 regulatory relationships. The network is divided into modules across six tissues, optimized using machine learning, and validated through independent genetic experiments. The authors claim this is the largest collection of experimental TF binding sites in maize and a highly optimized regulatory network resource.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental validation details, machine-learning pipeline, tissue-specific module definitions, quality metrics for binding profiles, and any statistical or comparative analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable resource for maize gene regulation, with scale that appears substantial. However, the abstract alone does not provide sufficient detail to assess the technical rigor of the binding site identification, the accuracy enhancement of the network, or the strength of the genetic validation. The claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists, maize geneticists, and researchers studying gene regulatory networks or crop improvement would be interested. The resource could facilitate functional gene discovery and breeding applications, and the methodological approach may inform similar efforts in other crops.
+- **Major strengths** The scale of the dataset, with 513 TFs and nearly 400,000 binding sites, appears to be a significant contribution. The integration of chromatin accessibility and gene expression data to enhance network accuracy is a sensible approach. The inclusion of independent genetic validation strengthens the potential reliability of the predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "reliable binding profiles for 513 TFs" and "394,136 binding sites" without specifying the experimental method, quality thresholds, or replication criteria.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how TF binding sites were profiled, what constitutes a "reliable" profile, or how false positives were controlled. Without these details, the reliability of the core dataset cannot be assessed.
+  - **Why it matters** The entire network and downstream predictions depend on the quality of the binding site data. If the profiling method or thresholds are not robust, the network and its derived modules could be misleading.
+  - **Resolution test** Provide a description of the experimental approach, quality control metrics, and validation of a subset of binding sites against known or independently derived TF binding data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the mGRN+ is "accuracy-enhanced" by integrating chromatin accessibility and gene expression data, and that machine learning "optimized" the network to improve prediction accuracy.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how accuracy was measured, what baseline the network was compared against, or what the machine-learning optimization entailed. Terms like "accuracy-enhanced" and "optimized" are vague without quantitative benchmarks.
+  - **Why it matters** The claim of improved accuracy is central to the resource's value. Without clear metrics and comparisons, readers cannot judge whether the enhancement is meaningful or merely incremental.
+  - **Resolution test** Report quantitative accuracy metrics, such as area under the curve or precision-recall, for the mGRN+ versus a baseline network, and describe the machine-learning features and cross-validation scheme.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors state that "independent genetic validation experiments" confirmed the reliability of predictions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the nature of the genetic validation, such as the number of genes tested, the types of mutants or perturbations used, or the criteria for "confirmation."
+  - **Why it matters** Genetic validation is a key strength claimed by the authors, but without specifics, the extent and rigor of this validation cannot be evaluated. Overstated validation could mislead users of the resource.
+  - **Resolution test** Describe the validation experiments, including sample sizes, statistical tests, and the proportion of predictions that were confirmed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mGRN+" is introduced without a clear explanation of what the plus sign signifies relative to a standard GRN.
+  - **Required correction** Define the acronym and briefly explain the enhancement in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "six major tissues" but does not list them, which limits the reader's ability to gauge the scope of tissue coverage.
+  - **Required correction** List the six tissues or provide a brief parenthetical example.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The number of regulatory relationships (397,699) is close to the number of binding sites (394,136), but the relationship between these two numbers is not explained.
+  - **Required correction** Clarify whether each binding site corresponds to one regulatory relationship or if multiple relationships arise from a single site.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality appears moderate to high, given the scale of TF binding data in maize, but the abstract does not demonstrate novelty relative to existing plant GRN resources. Scientific importance is potentially high for maize research and crop improvement, but the impact depends on the reliability and usability of the resource. Interdisciplinary readership is plausible, as the work bridges molecular biology, computational biology, and breeding, but the abstract lacks sufficient detail for nonspecialists to grasp the methodological innovations. Technical soundness cannot be assessed from the abstract alone, and the lack of quantitative metrics is a major gap. Readability for nonspecialists is adequate but could be improved with clearer definitions and tissue listing.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising resource, but the core claims of reliability, accuracy enhancement, and validation require full methodological and quantitative details to be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "reliable binding profiles for 513 TFs" is unsupported without quality metrics or method details.
+- The claim of "accuracy-enhanced" mGRN+ is unsupported without baseline comparisons or quantitative accuracy measures.
+- The claim that "independent genetic validation experiments" confirmed reliability is unsupported without experimental details.
+- The claim of "largest collection of experimental TF binding sites in maize" is not verifiable from the abstract alone, as no comparison to existing datasets is provided.

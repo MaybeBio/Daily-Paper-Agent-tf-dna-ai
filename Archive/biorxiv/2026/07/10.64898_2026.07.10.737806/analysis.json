@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.10.737806",
+  "title": "FUSED: A Functional Representation for Joint Structural and Elemental Analysis of Protein Ligand Binding Sites",
+  "authors": "T.M. Sajith Priyankara; Leif Ellingson",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-16",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出FUSED功能表示法，对蛋白配体结合位点进行结构与元素组成的距离函数建模，虽非TF-DNA体系，但结合位点表示与机器学习方法可迁移至蛋白-DNA互作界面分析。",
+  "abstract": "Ligand binding site representations are central to the analysis of protein–ligand interactions, with applications in functional characterization, binding-site comparison, and ligand recognition. Many descriptor-based approaches characterize ligand binding sites using a fixed distance threshold from the ligand, despite substantial variability in how such thresholds are defined and the possibility that relevant structural and compositional information changes across spatial scales. We propose Functional Unification of Structural and Elemental Descriptors (FUSED), a multivariate functional representation that jointly models structural and elemental compositional information of ligand binding sites as functions of distance from the ligand. Structural information is captured through covariance-based descriptors derived from the CDPA framework, while chemical composition is represented through isometric log-ratio coordinates to account appropriately for compositional geometry. Treating distance from the ligand as a functional domain allows structural and compositional characteristics to be examined across distance thresholds rather than at a single prespecified value. The resulting representation can be used directly or combined with dimension-reduction, statistical-learning, and/or machine-learning procedures, with the distance interval tailored to the dataset, analytical task, and procedure. We evaluate FUSED on three benchmark datasets spanning complementary ligand binding-site analysis tasks: the Extended Kahraman dataset for multiclass ligand discrimination, TOUGH-C1 for binary binding-site classification, and TOUGH-M1 for pairwise matching of pockets associated with drug-like ligands. FUSED supports strong discrimination in the EK and TOUGH-C1 tasks using standard statistical-learning procedures, while a supervised Siamese neural network applied to the full FUSED representation achieves a mean ROC-AUC of 0.9375 on TOUGH-M1 under repeated sequence-cluster-disjoint evaluation, approaching the strongest reported benchmark performance. These results demonstrate that FUSED provides a flexible, alignment-free representation that supports both direct examination of threshold-dependent binding-site characteristics and competitive downstream classification and pocket matching while remaining computationally practical.",
+  "abstract_zh": "配体结合位点表示对于蛋白质-配体相互作用分析至关重要，其应用涵盖功能表征、结合位点比较和配体识别。许多基于描述符的方法使用距配体的固定距离阈值来表征配体结合位点，尽管这些阈值的定义存在显著差异，且相关结构和组成信息可能随空间尺度变化。我们提出结构与元素描述符的功能统一（Functional Unification of Structural and Elemental Descriptors, FUSED），这是一种多变量功能表示，将配体结合位点的结构和元素组成信息联合建模为距配体距离的函数。结构信息通过基于CDPA框架的协方差描述符捕获，而化学组成则通过等距对数比坐标表示，以适当考虑组成几何特性。将距配体距离视为功能域，允许在不同距离阈值下检查结构和组成特征，而非在单一预设值处。所得表示可直接使用，或与降维、统计学习和/或机器学习程序结合，距离区间可根据数据集、分析任务和程序进行定制。我们在三个涵盖互补配体结合位点分析任务的基准数据集上评估FUSED：用于多类配体区分的Extended Kahraman数据集、用于二元结合位点分类的TOUGH-C1，以及用于药物样配体相关口袋配对匹配的TOUGH-M1。FUSED在使用标准统计学习程序时，在EK和TOUGH-C1任务中支持强区分能力，而应用于完整FUSED表示的监督Siamese神经网络在重复序列簇不相交评估下，在TOUGH-M1上达到平均ROC-AUC为0.9375，接近报告的最强基准性能。这些结果表明，FUSED提供了一种灵活、无需对齐的表示，既支持对阈值依赖性结合位点特征的直接检查，又支持具有竞争力的下游分类和口袋匹配，同时保持计算上的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737806",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737806",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.10.737806/index.html"
+}

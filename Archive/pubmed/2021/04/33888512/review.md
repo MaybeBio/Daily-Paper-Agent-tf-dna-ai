@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods, data access) for "Modeling transcriptional regulation of model species with deep learning" by Cofer et al.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors present DeepArk, a set of deep convolutional neural networks that predict cis-regulatory activity (chromatin states, histone marks, transcription factor binding, chromatin accessibility) from DNA sequence in four model species (C. elegans, D. rerio, D. melanogaster, M. musculus). They claim accurate predictions across 6562 regulatory features, demonstrate variant effect prediction validated against an MPRA dataset, show cross-species generalization to medaka, and provide experimental validation in Drosophila for a T48 enhancer.
+- **Visible evidence base** Main text figures referenced (Fig. 1A–D, Fig. 2A,B, Fig. 3A–C), supplemental tables and figures referenced (Supplemental Tables S1–S13, Supplemental Figs. S1–S9), methods descriptions, data availability statements.
+- **Missing materials affecting confidence** Actual figures and supplemental materials not provided. Performance metrics (AUROC, AUPRC) not reported numerically in text. Details of model architecture hyperparameters only partially described. Full training data composition and quality control metrics not fully specified. Statistical significance tests for experimental validations not described in text.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a substantial resource with broad potential utility for the genomics community. The scale of modeling (four species, 6562 features) and the inclusion of experimental validation are commendable. However, the evidence as presented in the text alone is insufficient to fully evaluate the core claims. Key performance metrics are not reported numerically, the experimental validation section lacks quantitative detail, and the cross-species generalization claim rests on a single comparison with limited methodological description. The work is potentially important, but the current manuscript does not provide enough quantitative evidence to establish the case.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and model organism genetics would be interested. The resource enables prediction of regulatory activity from sequence alone, which is valuable for variant interpretation, genome annotation, and designing functional experiments. The cross-species transfer finding is relevant to evolutionary genomics. The open-source and web-based availability increases accessibility for experimental biologists.
+- **Major strengths** 1) Large scale: modeling 6562 regulatory features across four major model organisms is a significant resource contribution. 2) Experimental validation: the T48 enhancer study in Drosophila provides in vivo confirmation of predictions, which is rare in this field. 3) Cross-species generalization: demonstrating prediction in a species not in the training set (medaka) suggests transferable sequence logic. 4) Public availability: both code and web server lower barriers to adoption. 5) Multitask architecture: joint learning across features is methodologically sound and efficient.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "each DeepArk model accurately predicted the regulatory activity of the test sequences" and "performance for all regulatory feature categories in all species was higher than baseline"
+  - **Evidence pointer** Fig. 1B–D; Supplemental Table S1; location not provided
+  - **Concern** The manuscript claims accurate prediction but does not report any numerical performance metrics in the text. No AUROC, AUPRC, or correlation coefficients are given. The figures are referenced but not provided for review. Without quantitative performance values, the magnitude of accuracy cannot be assessed, and the claim of "higher than baseline" is not interpretable without knowing the baseline and the effect size.
+  - **Why it matters** The central claim of the paper is that DeepArk accurately predicts regulatory activity. If performance is marginal or only slightly above baseline for many features, the utility of the resource is substantially diminished. The reader cannot evaluate whether the model is practically useful or merely statistically significant.
+  - **Resolution test** Report AUROC and AUPRC values (or equivalent metrics) for each species and feature category, with confidence intervals. Provide comparison to appropriate baselines (e.g., genomic background, motif-based predictors). Include these in the main text or a clearly referenced supplemental table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** "In vivo studies show that DeepArk can predict the regulatory impact of any genomic variant" and "experimentally confirm DeepArk's predictions and show its utility in designing genome editing experiments"
+  - **Evidence pointer** Fig. 3A–C; Supplemental Tables S4, S5; location not provided
+  - **Concern** The T48 enhancer validation is described qualitatively. The text states that predictions were "accurate" and that increased binding probability "correlates with an increase in gene activation in vivo," but no quantitative data are presented. The number of replicates, the magnitude of expression differences, statistical tests, and the specific predictions versus observed outcomes are not described. The correlation value (average Pearson's r = 0.7217) is given for TF binding predictions but not for the expression outcomes.
+  - **Why it matters** Experimental validation is a key differentiator for this manuscript. If the validation is not rigorously quantified, the claim that DeepArk can guide genome editing experiments is not supported. The reader cannot assess the strength of the correlation or whether the effect sizes are biologically meaningful.
+  - **Resolution test** Provide quantitative results from the imaging experiments: number of embryos, number of nuclei, mean expression levels with error bars for each allele, statistical tests (e.g., t-tests or ANOVA) comparing variants, and a direct comparison of predicted versus measured expression changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization claim
+  - **Claim pointer** "DeepArk may also be used to help annotate the genomes of understudied organisms" based on medaka predictions
+  - **Evidence pointer** Supplemental Table S6; Supplemental Fig. S8; location not provided
+  - **Concern** The cross-species generalization to medaka is presented as a single result with an average AUROC of 0.927. However, the text does not describe how many features were tested, whether this is consistent across feature types, how the morphological stage matching was validated, or how the conservation filtering affected the result. The claim that DeepArk can annotate understudied genomes is broader than what a single species comparison supports.
+  - **Why it matters** Cross-species transfer is a strong claim with practical implications. If the model only works for conserved features or specific developmental stages, the utility for truly understudied organisms is limited. The current evidence is too thin to support the general claim.
+  - **Resolution test** Provide per-feature AUROC values for medaka, describe the distribution of performance, compare to a control (e.g., shuffled labels or a different species), and discuss limitations of the cross-species approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** "DeepArk's multitask approach to modeling also allows it to make such predictions efficiently" and "DeepArk is the first such resource for these model organisms"
+  - **Evidence pointer** Methods section; location not provided
+  - **Concern** The methods section describes the architecture at a high level but lacks critical details for reproducibility. The number of layers, filter sizes, stride, pooling sizes, learning rate schedules, and early stopping criteria are not fully specified. The hyperparameter search procedure is mentioned but not described. The claim of being "first" is not substantiated with a literature comparison.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full architectural and training details, other groups cannot replicate or build upon this work. The novelty claim requires a clear statement of what existing resources cover and how DeepArk differs.
+  - **Resolution test** Provide complete architecture specifications (layer types, sizes, hyperparameters) in the methods or supplemental. Include a table of hyperparameters per species. Add a paragraph comparing to existing resources (e.g., Basenji, DeepSEA, Enformer) and explicitly state what is new.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "DeepArk accurately predicts the presence of thousands of different context-specific regulatory features" but does not define "context-specific" or give any sense of the accuracy level.
+  - **Required correction** Add a brief definition of context-specificity and include a representative accuracy metric in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Variant effect prediction
+  - **Evidence pointer** Fig. 2A,B; location not provided
+  - **Issue** The correlation values for the ALDOB MPRA comparison are reported (Pearson's r = 0.714, Spearman's ρ = 0.587), but the text does not describe how the predicted effect was calculated from the model output or whether the comparison was done on log-transformed data.
+  - **Required correction** Briefly describe the prediction-to-effect mapping and the data transformation used for correlation analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Training data
+  - **Evidence pointer** Methods, Training data preparation; location not provided
+  - **Issue** The text states that training data were filtered based on quality thresholds but does not specify the exact thresholds or the number of experiments retained per species.
+  - **Required correction** Provide a table listing the number of experiments per feature type per species before and after filtering, with the specific quality criteria used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** DCC analysis
+  - **Evidence pointer** Results, DCC section; location not provided
+  - **Issue** The DCC analysis is presented as an illustrative example, but the text does not state whether the identified motif was previously known or whether this constitutes a novel finding.
+  - **Required correction** Clarify whether the rex motif identification is a known result being recapitulated or a new prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance metrics), R1-M2 (insufficient experimental validation detail), R1-M4 (incomplete methodological description). These are required to establish the core claims of accuracy, experimental utility, and reproducibility.
+- **Assessment against Nature-style criteria** Originality: The work is original in its scale and species coverage, though the approach builds on established deep learning methods for regulatory genomics. The combination of four species, 6562 features, and experimental validation is novel. Scientific importance: Potentially high, as a community resource for model organism research. The cross-species transfer finding, if robust, has evolutionary implications. Interdisciplinary readership: The work bridges computational biology, genomics, and experimental molecular biology. The writing is accessible to a broad audience, though some computational details may be dense for experimentalists. Technical soundness: Cannot be fully assessed from the text alone. The architecture is reasonable and follows established practices, but the lack of quantitative results and incomplete methods prevent a full evaluation. Readability for nonspecialists: The manuscript is generally well-written and the conceptual framing is clear. The use of specific examples (DCC, T48) helps illustrate applications. However, the results section would benefit from more explicit statements of what was found.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource has clear potential value, and the experimental validation is a strong feature. However, the manuscript must report quantitative performance metrics, provide full methodological details, and strengthen the experimental validation reporting before the claims can be considered established.

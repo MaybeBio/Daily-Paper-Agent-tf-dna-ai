@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41364313",
+  "title": "A Novel Palmitoylation-Related Molecular Signature for Predicting and Therapeutically Targeting Alzheimer's Disease.",
+  "authors": "Miao, Xiuling; Luo, Kaiyu; Li, Yinglei; Zhou, Yang; Wei, Meng; Zhang, Ting; Hu, Yazhuo; Wang, Heran; Jia, Jianjun",
+  "journal": "Molecular neurobiology",
+  "published_date": "2025-12-09",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于转录组和机器学习构建阿尔茨海默病棕榈酰化相关诊断模型，虽涉及蛋白互作和转录因子调控网络，但核心是疾病诊断与治疗靶点，非蛋白质-DNA互作或TF-DNA结合机制研究，且无AI/物理模拟方法用于互作建模。",
+  "abstract": "Alzheimer's disease (AD) is a prevalent neurodegenerative disorder characterized by amyloid-beta (Abeta) plaques and hyperphosphorylated tau pathology. Although palmitoylation has been implicated in AD, its specific mechanisms remain poorly defined. To investigate this, seven transcriptomic datasets were obtained from the GEO database. Differential expression and Gene Set Enrichment Analysis (GSEA) were performed across five training sets (GSE5281, GSE29378, GSE36980, GSE122063, and GSE132903). By intersecting differentially expressed genes (DEGs) with palmitoylation-related genes from GeneCards, 65 AD-associated palmitoylation-related genes (AD-PRGs) were identified. Functional enrichment analyses (KEGG and GO) were performed on these genes. Furthermore, seven key AD-PRGs (CALM1, VAMP2, SYT1, MET, BAG3, TJP1, NOTCH1) were prioritized using protein-protein interaction (PPI) networks and three machine learning algorithms (LASSO, SVM-RFE, and Random Forest). A diagnostic model constructed from these seven genes exhibited strong predictive performance, with AUC values of 0.834 in the training set and 0.907/0.865 in two external validation sets (GSE33000, GSE44770). Single-gene GSEA indicated associations with synaptic function and oxidative phosphorylation pathways. Protein docking analyses using GRAMM (Global RAnge Molecular Matching) and PISA (Proteins, Interfaces, Surfaces, and Assemblies) further suggested interactions between these key genes and Abeta/tau, supporting their involvement in AD pathogenesis. Additionally, regulatory network analysis identified 23 miRNAs, 33 transcription factors, and 14 potential therapeutic agents targeting these key genes. Our findings underscore the importance of palmitoylation in synaptic dysfunction-notably VAMP2 and SYT1 roles in vesicle recycling and neurotransmitter release-and offer promising targets for novel therapeutic strategies in AD.",
+  "abstract_zh": "阿尔茨海默病（Alzheimer's disease, AD）是一种常见的神经退行性疾病，其特征为淀粉样蛋白-β（amyloid-beta, Abeta）斑块和过度磷酸化的tau蛋白病理。尽管棕榈酰化（palmitoylation）已被认为与AD相关，但其具体机制仍不明确。为探究此问题，从GEO数据库获取了七个转录组数据集。在五个训练集（GSE5281、GSE29378、GSE36980、GSE122063和GSE132903）中进行了差异表达分析和基因集富集分析（Gene Set Enrichment Analysis, GSEA）。通过将差异表达基因（differentially expressed genes, DEGs）与来自GeneCards的棕榈酰化相关基因取交集，鉴定出65个AD相关棕榈酰化基因（AD-PRGs）。对这些基因进行了功能富集分析（KEGG和GO）。此外，利用蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络和三种机器学习算法（LASSO、SVM-RFE和随机森林）优先筛选出七个关键AD-PRGs（CALM1、VAMP2、SYT1、MET、BAG3、TJP1、NOTCH1）。由这七个基因构建的诊断模型表现出较强的预测性能，在训练集中的AUC值为0.834，在两个外部验证集（GSE33000、GSE44770）中分别为0.907和0.865。单基因GSEA显示其与突触功能和氧化磷酸化通路相关。使用GRAMM（Global RAnge Molecular Matching）和PISA（Proteins, Interfaces, Surfaces, and Assemblies）进行的蛋白质对接分析进一步提示这些关键基因与Abeta/tau之间存在相互作用，支持其在AD发病机制中的作用。此外，调控网络分析识别出23个miRNA、33个转录因子和14种潜在治疗药物靶向这些关键基因。我们的研究结果强调了棕榈酰化在突触功能障碍中的重要性——特别是VAMP2和SYT1在囊泡循环和神经递质释放中的作用——并为AD的新型治疗策略提供了有前景的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41364313/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41364313/",
+  "paper_page_path": "papers/pubmed/41364313/index.html"
+}

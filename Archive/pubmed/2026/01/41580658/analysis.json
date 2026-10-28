@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41580658",
+  "title": "EDEN: multiscale expected density of nucleotide encoding for enhanced DNA sequence classification with hybrid deep learning.",
+  "authors": "Zabihi, Saman; Hashemi, Sattar; Mansoori, Eghbal",
+  "journal": "BMC bioinformatics",
+  "published_date": "2026-01-25",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 7,
+  "one_liner_zh": "提出基于核密度估计的多尺度核苷酸编码EDEN，结合混合深度学习用于DNA序列分类，涵盖转录因子结合位点预测，虽非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合预测任务。",
+  "abstract": "BACKGROUND: DNA sequences are fundamental carriers of genetic information, and their accurate classification is essential for understanding gene regulation, disease mechanisms, and translational genomics. Existing encoding methods often fail to capture both local and long-range dependencies simultaneously. RESULTS: We introduce EDEN (Expected Density of Nucleotide Encoding), a unified multiscale encoding framework based on kernel density estimation. EDEN captures position-specific and context-dependent nucleotide patterns and integrates them into a hybrid deep learning architecture. Across sixteen benchmark datasets covering promoter detection, core promoter detection, and transcription factor binding prediction, EDEN achieves the best average performance while using orders of magnitude fewer parameters compared with state-of-the-art models. All source code, pretrained models, and datasets are publicly available at: https://github.com/zabihis/EDEN . CONCLUSIONS: EDEN provides an efficient, biologically informed, and interpretable multiscale representation for genomic sequence classification. Its favorable parameter-performance ratio and robust consistency across tasks underscore its practicality for large-scale genomic applications.",
+  "abstract_zh": "背景：DNA序列是遗传信息的基本载体，其准确分类对于理解基因调控、疾病机制和转化基因组学至关重要。现有的编码方法往往无法同时捕捉局部和长程依赖性。结果：我们引入了EDEN（核苷酸期望密度编码，Expected Density of Nucleotide Encoding），一种基于核密度估计的统一多尺度编码框架。EDEN捕捉位置特异性和上下文依赖的核苷酸模式，并将其整合到混合深度学习架构中。在涵盖启动子检测、核心启动子检测和转录因子结合预测的十六个基准数据集上，EDEN实现了最佳平均性能，同时使用的参数比最先进模型少几个数量级。所有源代码、预训练模型和数据集均公开可用，网址为：https://github.com/zabihis/EDEN 。结论：EDEN为基因组序列分类提供了一种高效、具有生物学信息且可解释的多尺度表示。其有利的参数-性能比和跨任务的稳健一致性凸显了其在大规模基因组应用中的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41580658/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41580658/",
+  "paper_page_path": "papers/pubmed/41580658/index.html"
+}

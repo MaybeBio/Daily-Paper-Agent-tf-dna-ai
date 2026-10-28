@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "35579100",
+    "doi": "10.1002/psp4.12803",
+    "title": "Proarrhythmic risk assessment of drugs by dV(m) /dt shapes using the convolutional neural network."
+  },
+  "content": {
+    "abstract": "Comprehensive in vitro Proarrhythmia Assay (CiPA) projects for assessing proarrhythmic drugs suggested a logistic regression model using qNet as the Torsades de Pointes (TdP) risk assessment biomarker, obtained from in silico simulation. However, using a single in silico feature, such as qNet, cannot reflect whole characteristics related to TdP in the entire action potential (AP) shape. Thus, this study proposed a deep convolutional neural network (CNN) model using differential action potential shapes to classify three proarrhythmic risk levels: high, intermediate, and low, considering both characteristics related to TdP not only in the depolarization phase but also the repolarization phase of AP shape. We performed an in silico simulation and got AP shapes with drug effects using half-maximal inhibitory concentration and Hill coefficients of 28 drugs released by CiPA groups. Then, we trained the deep CNN model with the differential AP shapes of 12 drugs and tested it with those of 16 drugs. Our model had a better performance for classifying the proarrhythmic risk of drugs than the traditional logistic regression model using qNet. The classification accuracy was 98% for high-risk level drugs, 94% for intermediate-risk level drugs, and 89% for low-risk level drugs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computer Simulation",
+      "DNA-Binding Proteins",
+      "Humans",
+      "Neural Networks, Computer",
+      "Risk Assessment",
+      "*Torsades de Pointes/chemically induced"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Da Un",
+        "Yoo, Yedam",
+        "Marcellinus, Aroli",
+        "Kim, Ki-Suk",
+        "Lim, Ki Moo"
+      ],
+      "short_names": [
+        "Jeong DU",
+        "Yoo Y",
+        "Marcellinus A",
+        "Kim KS",
+        "Lim KM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8490-5007",
+        "ORCID: 0000-0002-0931-0924"
+      ],
+      "affiliations": [
+        "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea.",
+        "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea.",
+        "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea.",
+        "R&D Center for Advanced Pharmaceuticals and Evaluation, Korea Institute of Toxicology, Daejeon, Korea.",
+        "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea.",
+        "Department of Medical IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Da Un",
+        "short_name": "Jeong DU",
+        "identifiers": [
+          "0000-0001-8490-5007"
+        ],
+        "affiliations": [
+          "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Yedam",
+        "short_name": "Yoo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea."
+        ]
+      },
+      {
+        "full_name": "Marcellinus, Aroli",
+        "short_name": "Marcellinus A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Ki-Suk",
+        "short_name": "Kim KS",
+        "identifiers": [
+          "0000-0002-0931-0924"
+        ],
+        "affiliations": [
+          "R&D Center for Advanced Pharmaceuticals and Evaluation, Korea Institute of Toxicology, Daejeon, Korea."
+        ]
+      },
+      {
+        "full_name": "Lim, Ki Moo",
+        "short_name": "Lim KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea.",
+          "Department of Medical IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "CPT: pharmacometrics & systems pharmacology"
+    ],
+    "journal_abbrev": [
+      "CPT Pharmacometrics Syst Pharmacol"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/18 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "39402077",
+      "39185761",
+      "38598284",
+      "38234850",
+      "37649890",
+      "36589462",
+      "35598117"
+    ],
+    "refs": [
+      "34955882",
+      "33837240",
+      "32786710",
+      "32710902",
+      "31868580",
+      "31680938",
+      "31281919",
+      "30157676",
+      "30151907",
+      "30090714",
+      "29520534",
+      "29209226",
+      "29184497",
+      "28955244",
+      "28878692",
+      "28202629",
+      "27282641",
+      "27060526",
+      "26950176",
+      "26843061",
+      "25574450",
+      "24576511",
+      "22946617",
+      "21637795",
+      "21300721",
+      "21250697",
+      "19801532",
+      "19217846",
+      "16589813",
+      "16237860",
+      "16237859",
+      "15366974",
+      "14594906"
+    ],
+    "similar": [
+      "35579100",
+      "36589462",
+      "36830942",
+      "36277213",
+      "29209226",
+      "36807374",
+      "31730936",
+      "39402077",
+      "37334695",
+      "34955882",
+      "38974343",
+      "33283267",
+      "37649890",
+      "15975832",
+      "20329805",
+      "35687995",
+      "37225005",
+      "16714061",
+      "38638275",
+      "27524478",
+      "31849669",
+      "17388913",
+      "31680938",
+      "30912807",
+      "22561361",
+      "32786710",
+      "30121123",
+      "31551815",
+      "16101634",
+      "35771997",
+      "32055576",
+      "31764978",
+      "24887684",
+      "23337247",
+      "35150662",
+      "32548538",
+      "18552873",
+      "27282641",
+      "32360993",
+      "16979017",
+      "20005885",
+      "36068182",
+      "30580044",
+      "20451633",
+      "32082155",
+      "31743455",
+      "28986934",
+      "27060526",
+      "17074641",
+      "26170255",
+      "22516473",
+      "37860622",
+      "26091641",
+      "31079148",
+      "16524323",
+      "28408211",
+      "27282640",
+      "29753687",
+      "28878692",
+      "28756335",
+      "28919218",
+      "16643415",
+      "28928044",
+      "28202629",
+      "12235254",
+      "26980523",
+      "15534790",
+      "18621077",
+      "18558435",
+      "37078300",
+      "15475823",
+      "35786601",
+      "12116598",
+      "26117837",
+      "17549050",
+      "35993620",
+      "29297274",
+      "8458600",
+      "15778734",
+      "15172013",
+      "27717849",
+      "8055145",
+      "9354415",
+      "18486227",
+      "14654302",
+      "18836478",
+      "15655517",
+      "33544870",
+      "30415824",
+      "32699382",
+      "34468739",
+      "11076691",
+      "18601950",
+      "16253927",
+      "31398384",
+      "18648775"
+    ],
+    "review": [
+      "35579100",
+      "15975832",
+      "20329805",
+      "16714061",
+      "30121123",
+      "32055576",
+      "32548538",
+      "18552873",
+      "20005885",
+      "28986934",
+      "26170255",
+      "28408211",
+      "16643415",
+      "26980523",
+      "15534790",
+      "18621077",
+      "18558435",
+      "12116598",
+      "8458600",
+      "15172013",
+      "27717849",
+      "9354415",
+      "14654302",
+      "30415824"
+    ],
+    "pmc": [
+      "9124356"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35579100.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35579100/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35579100",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/psp4.12803",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "37579519",
+    "doi": "10.1016/j.jmgm.2023.108587",
+    "title": "Influence of dexamethasone on the interaction between glucocorticoid receptor and SOX9: A molecular dynamics study."
+  },
+  "content": {
+    "abstract": "The glucocorticoid receptor (GR) is a nuclear receptor that controls critical biological processes by regulating the transcription of specific genes. GR transcriptional activity is modulated by a series of ligands and coenzymes, where a ligand can act as an agonist or antagonist. GR agonists, such as the glucocorticoids dexamethasone (DEX) and prednisolone, are widely prescribed to patients with inflammatory and autoimmune diseases. DEX is also used to induce osteogenic differentiation in vitro. Recently, it has been highlighted that DEX induces changes in the osteogenic differentiation of human mesenchymal stromal cells by downregulating the transcription factor SRY-box transcription factor 9 (SOX9) and upregulating the peroxisome proliferator-activated receptor gamma (PPARG). SOX9 is fundamental in the control of chondrogenesis, but also in osteogenesis by acting as a dominant-negative of RUNX2. Many processes remain to be clarified during cell fate determination, such as the interplay between the key transcription factors. The main objective pursued by this work is to shed light on the interaction between GR and SOX9 in the presence and absence of DEX at an atomic level of resolution using molecular dynamics simulations. The outcome of this research could help the understanding of possible molecular interactions between GR and SOX9 and their role in the determination of cell fate. The results highlight the key residues at the interface between GR and SOX9 involved in the complexation process and shed light on the mechanism through which DEX modulates GR-SOX9 binding and exerts its biological activity.",
+    "keywords": [
+      "Dexamethasone",
+      "Glucocorticoid receptor, GR",
+      "Gromacs",
+      "Molecular dynamics",
+      "Protein-protein docking",
+      "Protein-protein interactions",
+      "SRY-box transcription factor 9, SOX9"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Receptors, Glucocorticoid/genetics",
+      "*Dexamethasone/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Osteogenesis/genetics",
+      "Transcription Factors/metabolism",
+      "SOX9 Transcription Factor/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stojceski, Filip",
+        "Buetti-Dinh, Antoine",
+        "Stoddart, Martin J",
+        "Danani, Andrea",
+        "Della Bella, Elena",
+        "Grasso, Gianvito"
+      ],
+      "short_names": [
+        "Stojceski F",
+        "Buetti-Dinh A",
+        "Stoddart MJ",
+        "Danani A",
+        "Della Bella E",
+        "Grasso G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland.",
+        "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland.",
+        "AO Research Institute Davos, Clavadelerstrasse 8, 7270, Davos Platz, Switzerland.",
+        "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland.",
+        "AO Research Institute Davos, Clavadelerstrasse 8, 7270, Davos Platz, Switzerland. Electronic address: Elena.DellaBella@aofoundation.org.",
+        "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland. Electronic address: gianvito.grasso@idsia.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stojceski, Filip",
+        "short_name": "Stojceski F",
+        "identifiers": [],
+        "affiliations": [
+          "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Buetti-Dinh, Antoine",
+        "short_name": "Buetti-Dinh A",
+        "identifiers": [],
+        "affiliations": [
+          "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Stoddart, Martin J",
+        "short_name": "Stoddart MJ",
+        "identifiers": [],
+        "affiliations": [
+          "AO Research Institute Davos, Clavadelerstrasse 8, 7270, Davos Platz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Danani, Andrea",
+        "short_name": "Danani A",
+        "identifiers": [],
+        "affiliations": [
+          "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Della Bella, Elena",
+        "short_name": "Della Bella E",
+        "identifiers": [],
+        "affiliations": [
+          "AO Research Institute Davos, Clavadelerstrasse 8, 7270, Davos Platz, Switzerland. Electronic address: Elena.DellaBella@aofoundation.org."
+        ]
+      },
+      {
+        "full_name": "Grasso, Gianvito",
+        "short_name": "Grasso G",
+        "identifiers": [],
+        "affiliations": [
+          "Dalle Molle Institute for Artificial Intelligence USI-SUPSI Polo universitario Lugano - Campus Est, Via la Santa 1, 6962, Lugano-Viganello, Switzerland. Electronic address: gianvito.grasso@idsia.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 18:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42587803",
+      "42515735",
+      "42451579",
+      "42174638",
+      "41805841",
+      "41203720",
+      "41078821",
+      "40595706",
+      "38611825",
+      "38551091"
+    ],
+    "refs": [],
+    "similar": [
+      "37579519",
+      "33946412",
+      "10385421",
+      "24980654",
+      "27901049",
+      "11375127",
+      "23814048",
+      "10820245",
+      "16123152",
+      "23267834",
+      "15736964",
+      "32619553",
+      "7823959",
+      "11463862",
+      "7476966",
+      "19306868",
+      "27777311",
+      "12781044",
+      "38129310",
+      "15539428",
+      "19167480",
+      "15187150",
+      "8863830",
+      "24558046",
+      "30460461",
+      "27998979",
+      "31779679",
+      "2039752",
+      "26242202",
+      "11490095",
+      "17978169",
+      "15355994",
+      "25058354",
+      "24512031",
+      "23606745",
+      "20637751",
+      "24975659",
+      "2106390",
+      "25437352",
+      "11682470",
+      "9176246",
+      "14699442",
+      "34825505",
+      "12230951",
+      "23878391",
+      "27856527",
+      "31689103",
+      "22742415",
+      "32139118",
+      "10843199",
+      "11996177",
+      "29242167",
+      "33773137",
+      "21804312",
+      "8052262",
+      "14551261",
+      "9918831",
+      "31535408",
+      "14633512",
+      "19801529",
+      "22768305",
+      "19251920",
+      "28088388",
+      "10465310",
+      "2233715",
+      "11158332",
+      "35216245",
+      "12379279",
+      "14673132",
+      "18657064",
+      "21868377",
+      "20881254",
+      "32998617",
+      "12027445",
+      "23827457",
+      "16919187",
+      "17113916",
+      "19463884",
+      "20510190",
+      "21883217",
+      "9212062",
+      "18578507",
+      "18079322",
+      "15639148",
+      "16254209",
+      "25099603",
+      "23303127",
+      "23493372",
+      "30369516",
+      "21357268",
+      "23994556",
+      "25640841",
+      "20564225",
+      "28455686",
+      "16419168",
+      "37608297",
+      "25905394",
+      "35874618",
+      "33163295",
+      "23275688"
+    ],
+    "review": [
+      "37579519",
+      "23267834"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(23)00185-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

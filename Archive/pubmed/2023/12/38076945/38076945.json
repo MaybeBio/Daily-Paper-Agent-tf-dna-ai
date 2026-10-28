@@ -1,0 +1,672 @@
+{
+  "identity": {
+    "pmid": "38076945",
+    "doi": "10.1101/2023.12.03.569805",
+    "title": "A foundational atlas of autism protein interactions reveals molecular convergence."
+  },
+  "content": {
+    "abstract": "Translating high-confidence (hc) autism spectrum disorder (ASD) genes into viable treatment targets remains elusive. We constructed a foundational protein-protein interaction (PPI) network in HEK293T cells involving 100 hcASD risk genes, revealing over 1,800 PPIs (87% novel). Interactors, expressed in the human brain and enriched for ASD but not schizophrenia genetic risk, converged on protein complexes involved in neurogenesis, tubulin biology, transcriptional regulation, and chromatin modification. A PPI map of 54 patient-derived missense variants identified differential physical interactions, and we leveraged AlphaFold-Multimer predictions to prioritize direct PPIs and specific variants for interrogation in Xenopus tropicalis and human forebrain organoids. A mutation in the transcription factor FOXP1 led to reconfiguration of DNA binding sites and altered development of deep cortical layer neurons in forebrain organoids. This work offers new insights into molecular mechanisms underlying ASD and describes a powerful platform to develop and test therapeutic strategies for many genetically-defined conditions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Belinda",
+        "Vartak, Rasika",
+        "Zaltsman, Yefim",
+        "Naing, Zun Zar Chi",
+        "Hennick, Kelsey M",
+        "Polacco, Benjamin J",
+        "Bashir, Ali",
+        "Eckhardt, Manon",
+        "Bouhaddou, Mehdi",
+        "Xu, Jiewei",
+        "Sun, Nawei",
+        "Lasser, Micaela C",
+        "Zhou, Yuan",
+        "McKetney, Justin",
+        "Guiley, Keelan Z",
+        "Chan, Una",
+        "Kaye, Julia A",
+        "Chadha, Nishant",
+        "Cakir, Merve",
+        "Gordon, Martin",
+        "Khare, Prachi",
+        "Drake, Sam",
+        "Drury, Vanessa",
+        "Burke, David F",
+        "Gonzalez, Silvano",
+        "Alkhairy, Sahar",
+        "Thomas, Reuben",
+        "Lam, Stephanie",
+        "Morris, Montana",
+        "Bader, Ethel",
+        "Seyler, Meghan",
+        "Baum, Tierney",
+        "Krasnoff, Rebecca",
+        "Wang, Sheng",
+        "Pham, Presley",
+        "Arbalaez, Juan",
+        "Pratt, Dexter",
+        "Chag, Shivali",
+        "Mahmood, Nadir",
+        "Rolland, Thomas",
+        "Bourgeron, Thomas",
+        "Finkbeiner, Steven",
+        "Swaney, Danielle L",
+        "Bandyopadhay, Sourav",
+        "Ideker, Trey",
+        "Beltrao, Pedro",
+        "Willsey, Helen Rankin",
+        "Obernier, Kirsten",
+        "Nowakowski, Tomasz J",
+        "Huttenhain, Ruth",
+        "State, Matthew W",
+        "Willsey, A Jeremy",
+        "Krogan, Nevan J"
+      ],
+      "short_names": [
+        "Wang B",
+        "Vartak R",
+        "Zaltsman Y",
+        "Naing ZZC",
+        "Hennick KM",
+        "Polacco BJ",
+        "Bashir A",
+        "Eckhardt M",
+        "Bouhaddou M",
+        "Xu J",
+        "Sun N",
+        "Lasser MC",
+        "Zhou Y",
+        "McKetney J",
+        "Guiley KZ",
+        "Chan U",
+        "Kaye JA",
+        "Chadha N",
+        "Cakir M",
+        "Gordon M",
+        "Khare P",
+        "Drake S",
+        "Drury V",
+        "Burke DF",
+        "Gonzalez S",
+        "Alkhairy S",
+        "Thomas R",
+        "Lam S",
+        "Morris M",
+        "Bader E",
+        "Seyler M",
+        "Baum T",
+        "Krasnoff R",
+        "Wang S",
+        "Pham P",
+        "Arbalaez J",
+        "Pratt D",
+        "Chag S",
+        "Mahmood N",
+        "Rolland T",
+        "Bourgeron T",
+        "Finkbeiner S",
+        "Swaney DL",
+        "Bandyopadhay S",
+        "Ideker T",
+        "Beltrao P",
+        "Willsey HR",
+        "Obernier K",
+        "Nowakowski TJ",
+        "Huttenhain R",
+        "State MW",
+        "Willsey AJ",
+        "Krogan NJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5563-894X",
+        "ORCID: 0009-0006-7568-7726",
+        "ORCID: 0000-0002-2979-8197",
+        "ORCID: 0000-0002-6320-5084",
+        "ORCID: 0000-0003-1570-9234",
+        "ORCID: 0000-0001-8143-6129",
+        "ORCID: 0000-0002-9526-1427",
+        "ORCID: 0000-0002-8647-4172",
+        "ORCID: 0000-0002-1393-5476",
+        "ORCID: 0000-0002-8149-4262",
+        "ORCID: 0000-0001-7442-0882",
+        "ORCID: 0000-0001-8830-3951",
+        "ORCID: 0000-0002-1809-3116",
+        "ORCID: 0000-0001-9857-3891",
+        "ORCID: 0000-0001-6468-8391",
+        "ORCID: 0000-0001-8164-9220",
+        "ORCID: 0000-0002-3480-394X",
+        "ORCID: 0000-0003-3120-923X",
+        "ORCID: 0000-0002-1708-8454",
+        "ORCID: 0000-0002-2724-7703",
+        "ORCID: 0000-0002-4025-1299",
+        "ORCID: 0000-0003-2345-4964",
+        "ORCID: 0000-0002-0896-5910",
+        "ORCID: 0000-0003-1624-8302",
+        "ORCID: 0000-0002-9922-3612",
+        "ORCID: 0000-0003-4902-337X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Belinda",
+        "short_name": "Wang B",
+        "identifiers": [
+          "0000-0001-5563-894X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Vartak, Rasika",
+        "short_name": "Vartak R",
+        "identifiers": [
+          "0009-0006-7568-7726"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zaltsman, Yefim",
+        "short_name": "Zaltsman Y",
+        "identifiers": [
+          "0000-0002-2979-8197"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Naing, Zun Zar Chi",
+        "short_name": "Naing ZZC",
+        "identifiers": [
+          "0000-0002-6320-5084"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hennick, Kelsey M",
+        "short_name": "Hennick KM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Polacco, Benjamin J",
+        "short_name": "Polacco BJ",
+        "identifiers": [
+          "0000-0003-1570-9234"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bashir, Ali",
+        "short_name": "Bashir A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Eckhardt, Manon",
+        "short_name": "Eckhardt M",
+        "identifiers": [
+          "0000-0001-8143-6129"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bouhaddou, Mehdi",
+        "short_name": "Bouhaddou M",
+        "identifiers": [
+          "0000-0002-9526-1427"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xu, Jiewei",
+        "short_name": "Xu J",
+        "identifiers": [
+          "0000-0002-8647-4172"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sun, Nawei",
+        "short_name": "Sun N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lasser, Micaela C",
+        "short_name": "Lasser MC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhou, Yuan",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0002-1393-5476"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "McKetney, Justin",
+        "short_name": "McKetney J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Guiley, Keelan Z",
+        "short_name": "Guiley KZ",
+        "identifiers": [
+          "0000-0002-8149-4262"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chan, Una",
+        "short_name": "Chan U",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kaye, Julia A",
+        "short_name": "Kaye JA",
+        "identifiers": [
+          "0000-0001-7442-0882"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chadha, Nishant",
+        "short_name": "Chadha N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cakir, Merve",
+        "short_name": "Cakir M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gordon, Martin",
+        "short_name": "Gordon M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Khare, Prachi",
+        "short_name": "Khare P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Drake, Sam",
+        "short_name": "Drake S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Drury, Vanessa",
+        "short_name": "Drury V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Burke, David F",
+        "short_name": "Burke DF",
+        "identifiers": [
+          "0000-0001-8830-3951"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gonzalez, Silvano",
+        "short_name": "Gonzalez S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Alkhairy, Sahar",
+        "short_name": "Alkhairy S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Thomas, Reuben",
+        "short_name": "Thomas R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lam, Stephanie",
+        "short_name": "Lam S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Morris, Montana",
+        "short_name": "Morris M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bader, Ethel",
+        "short_name": "Bader E",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Seyler, Meghan",
+        "short_name": "Seyler M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Baum, Tierney",
+        "short_name": "Baum T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Krasnoff, Rebecca",
+        "short_name": "Krasnoff R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Sheng",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-1809-3116"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pham, Presley",
+        "short_name": "Pham P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Arbalaez, Juan",
+        "short_name": "Arbalaez J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pratt, Dexter",
+        "short_name": "Pratt D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chag, Shivali",
+        "short_name": "Chag S",
+        "identifiers": [
+          "0000-0001-9857-3891"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mahmood, Nadir",
+        "short_name": "Mahmood N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rolland, Thomas",
+        "short_name": "Rolland T",
+        "identifiers": [
+          "0000-0001-6468-8391"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bourgeron, Thomas",
+        "short_name": "Bourgeron T",
+        "identifiers": [
+          "0000-0001-8164-9220"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Finkbeiner, Steven",
+        "short_name": "Finkbeiner S",
+        "identifiers": [
+          "0000-0002-3480-394X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Swaney, Danielle L",
+        "short_name": "Swaney DL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bandyopadhay, Sourav",
+        "short_name": "Bandyopadhay S",
+        "identifiers": [
+          "0000-0003-3120-923X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ideker, Trey",
+        "short_name": "Ideker T",
+        "identifiers": [
+          "0000-0002-1708-8454"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Beltrao, Pedro",
+        "short_name": "Beltrao P",
+        "identifiers": [
+          "0000-0002-2724-7703"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Willsey, Helen Rankin",
+        "short_name": "Willsey HR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Obernier, Kirsten",
+        "short_name": "Obernier K",
+        "identifiers": [
+          "0000-0002-4025-1299"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nowakowski, Tomasz J",
+        "short_name": "Nowakowski TJ",
+        "identifiers": [
+          "0000-0003-2345-4964"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hüttenhain, Ruth",
+        "short_name": "Hüttenhain R",
+        "identifiers": [
+          "0000-0002-0896-5910"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "State, Matthew W",
+        "short_name": "State MW",
+        "identifiers": [
+          "0000-0003-1624-8302"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Willsey, A Jeremy",
+        "short_name": "Willsey AJ",
+        "identifiers": [
+          "0000-0002-9922-3612"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Krogan, Nevan J",
+        "short_name": "Krogan NJ",
+        "identifiers": [
+          "0000-0003-4902-337X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Feb 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/11 12:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "40289147"
+    ],
+    "refs": [],
+    "similar": [
+      "38076945",
+      "38187634",
+      "37563294",
+      "38895440",
+      "35699097",
+      "28344757",
+      "31311581",
+      "33208191",
+      "33497602",
+      "30124790",
+      "27325115",
+      "36417873",
+      "29138280",
+      "37098352",
+      "37790331",
+      "31649562",
+      "37082147",
+      "37366052",
+      "24267886",
+      "34471112",
+      "36523605",
+      "25224256",
+      "35328799",
+      "31220745",
+      "26733790",
+      "33023636",
+      "31653345",
+      "34946850",
+      "31673306",
+      "37540706",
+      "33374967",
+      "35123134",
+      "31743624",
+      "31196716",
+      "35351869",
+      "25294932",
+      "33749153",
+      "27043210",
+      "24722188",
+      "33261099",
+      "27692350",
+      "28427329",
+      "37704762",
+      "30165121",
+      "33662268",
+      "32975584",
+      "21614001",
+      "23697635",
+      "32653993",
+      "28978667",
+      "36830629",
+      "33338084",
+      "26186191",
+      "28584888",
+      "29904576",
+      "36121513",
+      "37291580",
+      "34497379",
+      "37212048",
+      "35667888",
+      "29090079",
+      "26185613",
+      "29989084",
+      "33165687",
+      "28540026",
+      "33726803",
+      "36253443",
+      "26547130",
+      "33714937",
+      "29703944",
+      "37776011",
+      "27956632",
+      "35440779",
+      "27610074",
+      "35751013",
+      "37544204",
+      "35313230",
+      "35663546",
+      "28407358",
+      "27142060"
+    ],
+    "review": [
+      "38076945",
+      "31220745",
+      "26733790",
+      "31673306",
+      "27692350",
+      "30165121",
+      "36830629",
+      "28584888",
+      "29904576",
+      "34497379",
+      "28540026",
+      "26547130"
+    ],
+    "pmc": [
+      "10705567"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38076945/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.03.569805",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

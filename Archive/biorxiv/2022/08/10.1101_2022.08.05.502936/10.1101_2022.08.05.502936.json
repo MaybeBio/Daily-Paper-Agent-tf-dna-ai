@@ -1,0 +1,520 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.05.502936",
+  "title": "SARS-CoV-2 entry route impacts a range of downstream viral and cellular processes",
+  "doi": "10.1101/2022.08.05.502936",
+  "abstract": "SARS-CoV-2 entry is promoted by both cell-surface TMPRSS2 and endolysosomal cathepsins. To investigate the impact of differentially routed virions on host and viral processes, lung epithelial cells expressing distinct combinations of entry factors were infected with authentic viruses. Entry route determined early rates of viral replication and transcription, egress and inhibitor sensitivity, with differences observed between virus strains. Transcriptional profiling revealed that induction of innate immunity was correlated to viral genome and transcript abundance in infected cells. Surface entry triggered early activation of antiviral responses, reducing cumulative virion production, while endolysosomal entry delayed antiviral responses and prolonged virus shedding due to extended cell viability. The likely molecular footprints of escape from antiviral effector targeting were also recorded in viral genomes and correlated with entry route-dependent immune status of cells. TMPRSS2 orthologues from diverse mammals, but not zebra fish, facilitated infection enhancement, which was more pronounced for ancestral strains. Leveraging RNA-seq and scRNA-seq datasets from SARS-CoV-2 infected hamsters, we validate aspects of our model in vivo . In summary, we demonstrate that distinct cellular and viral processes are linked to viral entry route, collectively modulating virus shedding, cell-death rates and viral genome evolution.",
+  "authors": [
+    "Qu B",
+    "Miskey C",
+    "Gömer A",
+    "Potmus D",
+    "Nocke M",
+    "Kleinert RD",
+    "Itotia TK",
+    "Valder L",
+    "Brückmann J",
+    "Höck S",
+    "Hastert FD",
+    "von Rhein C",
+    "Schürmann C",
+    "Ebenig A",
+    "Widera M",
+    "Ciesek S",
+    "Pfaender S",
+    "Ivics Z",
+    "Schnierle BS",
+    "Tarr AW",
+    "Goffinet C",
+    "Mühlebach MD",
+    "Todt D",
+    "Brown RJ"
+  ],
+  "published_date": "2022-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.05.502936",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.05.502936.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR528981",
+    "raw_record": {
+      "id": "PPR528981",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR528981"
+        ]
+      },
+      "doi": "10.1101/2022.08.05.502936",
+      "title": "SARS-CoV-2 entry route impacts a range of downstream viral and cellular processes",
+      "authorString": "Qu B, Miskey C, Gömer A, Potmus D, Nocke M, Kleinert RD, Itotia TK, Valder L, Brückmann J, Höck S, Hastert FD, von Rhein C, Schürmann C, Ebenig A, Widera M, Ciesek S, Pfaender S, Ivics Z, Schnierle BS, Tarr AW, Goffinet C, Mühlebach MD, Todt D, Brown RJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Qu B",
+            "lastName": "Qu",
+            "firstName": "Bingqian",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7330-2929"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                },
+                {
+                  "affiliation": "European Virus Bioinformatics Center (EVBC), 07743 Jena, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miskey C",
+            "lastName": "Miskey",
+            "firstName": "Csaba",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Medical Biotechnology, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gömer A",
+            "lastName": "Gömer",
+            "firstName": "André",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Molecular and Medical Virology, Ruhr-University, Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Potmus D",
+            "lastName": "Potmus",
+            "firstName": "Dylan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Virology, Campus Charité Mitte, Charité-Universitätsmedizin Berlin, Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nocke M",
+            "lastName": "Nocke",
+            "firstName": "Maximillian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Molecular and Medical Virology, Ruhr-University, Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kleinert RD",
+            "lastName": "Kleinert",
+            "firstName": "Robin D.V.",
+            "initials": "RD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itotia TK",
+            "lastName": "Itotia",
+            "firstName": "Tabitha",
+            "initials": "TK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                },
+                {
+                  "affiliation": "Department of Physical Sciences, Chuka University, Kenya"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valder L",
+            "lastName": "Valder",
+            "firstName": "Lara",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brückmann J",
+            "lastName": "Brückmann",
+            "firstName": "Janice",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Höck S",
+            "lastName": "Höck",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hastert FD",
+            "lastName": "Hastert",
+            "firstName": "Florian",
+            "initials": "FD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Virology, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Rhein C",
+            "lastName": "von Rhein",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Virology, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schürmann C",
+            "lastName": "Schürmann",
+            "firstName": "Christoph",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ebenig A",
+            "lastName": "Ebenig",
+            "firstName": "Aileen",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Widera M",
+            "lastName": "Widera",
+            "firstName": "Marek",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5417-9307"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Medical Virology, University Hospital Frankfurt, Goethe University Frankfurt, Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ciesek S",
+            "lastName": "Ciesek",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Medical Virology, University Hospital Frankfurt, Goethe University Frankfurt, Frankfurt am Main, Germany"
+                },
+                {
+                  "affiliation": "Fraunhofer Institute for Translational Medicine and Pharmacology ITMP, Frankfurt am Main, Germany"
+                },
+                {
+                  "affiliation": "German Center for Infection Research (DZIF), 38124 Braunschweig, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pfaender S",
+            "lastName": "Pfaender",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Molecular and Medical Virology, Ruhr-University, Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivics Z",
+            "lastName": "Ivics",
+            "firstName": "Zoltán",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Medical Biotechnology, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnierle BS",
+            "lastName": "Schnierle",
+            "firstName": "Barbara",
+            "initials": "BS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Virology, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tarr AW",
+            "lastName": "Tarr",
+            "firstName": "Alexander",
+            "initials": "AW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1009-0823"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, Faculty of Medicine and Health Sciences, University of Nottingham, Nottingham, UK"
+                },
+                {
+                  "affiliation": "School of Life Sciences and NIHR, Nottingham BRC, University of Nottingham, Nottingham, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goffinet C",
+            "lastName": "Goffinet",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Virology, Campus Charité Mitte, Charité-Universitätsmedizin Berlin, Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mühlebach MD",
+            "lastName": "Mühlebach",
+            "firstName": "Michael",
+            "initials": "MD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                },
+                {
+                  "affiliation": "German Center for Infection Research (DZIF), Gießen-Marburg-Langen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Todt D",
+            "lastName": "Todt",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Molecular and Medical Virology, Ruhr-University, Bochum, Germany"
+                },
+                {
+                  "affiliation": "European Virus Bioinformatics Center (EVBC), 07743 Jena, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown RJ",
+            "lastName": "Brown",
+            "firstName": "Richard J.P.",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3292-6671"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Veterinary Medicine, Paul-Ehrlich-Institut, Langen, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5417-9307"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3292-6671"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4567-0441"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7069-5018"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7330-2929"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1009-0823"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "SARS-CoV-2 entry is promoted by both cell-surface TMPRSS2 and endolysosomal cathepsins. To investigate the impact of differentially routed virions on host and viral processes, lung epithelial cells expressing distinct combinations of entry factors were infected with authentic viruses. Entry route determined early rates of viral replication and transcription, egress and inhibitor sensitivity, with differences observed between virus strains. Transcriptional profiling revealed that induction of innate immunity was correlated to viral genome and transcript abundance in infected cells. Surface entry triggered early activation of antiviral responses, reducing cumulative virion production, while endolysosomal entry delayed antiviral responses and prolonged virus shedding due to extended cell viability. The likely molecular footprints of escape from antiviral effector targeting were also recorded in viral genomes and correlated with entry route-dependent immune status of cells. TMPRSS2 orthologues from diverse mammals, but not zebra fish, facilitated infection enhancement, which was more pronounced for ancestral strains. Leveraging RNA-seq and scRNA-seq datasets from SARS-CoV-2 infected hamsters, we validate aspects of our model  in vivo . In summary, we demonstrate that distinct cellular and viral processes are linked to viral entry route, collectively modulating virus shedding, cell-death rates and viral genome evolution.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/05/2022.08.05.502936.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.05.502936"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR528981"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR528981&type=FILE&fileName=EMS152340-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152340",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "hpa",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-08-07",
+      "firstPublicationDate": "2022-08-05",
+      "firstIndexDate": "2022-08-07",
+      "fullTextReceivedDate": "2022-08-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "42643640",
+    "doi": "10.3389/fimmu.2026.1700109",
+    "title": "Integrated machine learning and transcriptomics reveal immune infiltration-related orthologous transcription genes in cerebral ischemic injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic brain injury is a major contributor to global mortality and disability. Despite extensive pathological characterization, systematic integration of rodent transcriptomic data remains limited. This study investigates orthologous transcription factors (TFs) in cerebral ischemia models and their roles in regulating neuroinflammation to develop novel diagnostic and/or predictive biomarkers. METHODS: We employed an integrated bioinformatics approach to analyze RNA-seq data from ten public datasets. Robustly up- and down-regulated differentially expressed genes (DEGs) were first identified from integrated rat and mouse datasets, followed by functional enrichment analysis. Orthologous TFs co-expressed in both species were screened from these robust DEGs and functionally characterized. Using machine learning, a diagnostic biomarker panel comprising five TFs (Atf3, Maff, Cebpa, Myc, and Relb) was identified from these conserved TFs, and the model's clinical value and diagnostic efficacy were evaluated. CIBERSORT-based immune cell infiltration analysis was performed using public datasets and in-house samples (SD rat HIE model; C57BL/6 mouse MCAO model), revealing associations between biomarkers and macrophages. Spatial localization was further assessed via scRNA-seq data. Key findings were validated in vitro using qRT-PCR and immunofluorescence staining. RESULTS: Robust DEGs common to rats and mice were primarily enriched in immune cell differentiation, immune responses, and synaptic signaling. Screening identified 51 orthologous TFs similarly enriched in leukocyte differentiation and development pathways. The machine learning-derived biomarker panel (Atf3, Maff, Cebpa, Myc, Relb) demonstrated high diagnostic performance. Immune infiltration analyses revealed significant associations among Atf3, Cebpa, Relb, and macrophages across datasets and models. scRNA-seq localized their predominant expression to microglial cells. In vitro validation confirmed that Cebpa and Relb are predominantly localized within microglia. CONCLUSION: This study identifies Cebpa and Relb as orthologous TFs in rodent cerebral ischemic injury and reveals their functional association with neuroimmune dysregulation, suggesting their potential as novel biomarkers.",
+    "keywords": [
+      "biomarker",
+      "cerebral ischemic injury",
+      "microglia",
+      "neuroimmune dysregulation",
+      "orthologous transcription factors"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Brain Ischemia/genetics/immunology",
+      "*Machine Learning",
+      "Mice",
+      "Rats",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "*Transcription Factors/genetics",
+      "Male",
+      "Macrophages/immunology/metabolism",
+      "Disease Models, Animal",
+      "Mice, Inbred C57BL",
+      "Computational Biology/methods",
+      "Biomarkers",
+      "Rats, Sprague-Dawley",
+      "Activating Transcription Factor 3"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Hui",
+        "Huang, Xu",
+        "Hong, Ming-Yang",
+        "Xu, Jian",
+        "Yang, Tao-Tao",
+        "Shi, Rui-Rui",
+        "Gu, Jin-Hua"
+      ],
+      "short_names": [
+        "Xu H",
+        "Huang X",
+        "Hong MY",
+        "Xu J",
+        "Yang TT",
+        "Shi RR",
+        "Gu JH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China.",
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China.",
+        "Laboratory Department of the Affiliated Nantong Hospital of Shanghai University (the Sixth People's Hospital of Nantong), Nantong, China.",
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China.",
+        "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+        "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Hui",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+          "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xu",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+          "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Ming-Yang",
+        "short_name": "Hong MY",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Department of the Affiliated Nantong Hospital of Shanghai University (the Sixth People's Hospital of Nantong), Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jian",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tao-Tao",
+        "short_name": "Yang TT",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Rui-Rui",
+        "short_name": "Shi RR",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+          "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jin-Hua",
+        "short_name": "Gu JH",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Genetics and Reproductive Medicine, Department of Pharmacy, Affiliated Maternity & Child Healthcare Hospital of Nantong University, Nantong, China.",
+          "Nantong Key Laboratory of Genetics and Reproductive Medicine, Nantong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/26 11:50",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40425139",
+      "40207230",
+      "40145977",
+      "39413971",
+      "39140683",
+      "39002719",
+      "38966760",
+      "38649772",
+      "38490317",
+      "38292471",
+      "38266805",
+      "37953328",
+      "37735487",
+      "37458258",
+      "37172425",
+      "36958402",
+      "36323676",
+      "35688114",
+      "35343830",
+      "34916437",
+      "34531288",
+      "33957000",
+      "33469025",
+      "31727128",
+      "31638083",
+      "31585077",
+      "30944313",
+      "30533316",
+      "28758903",
+      "24744702",
+      "23334579",
+      "22347845",
+      "19274049",
+      "17652582",
+      "17284176",
+      "16713293",
+      "10673325",
+      "10440233"
+    ],
+    "similar": [
+      "42643640",
+      "41665627",
+      "41733593",
+      "41080564",
+      "41107929",
+      "42254657",
+      "41479901",
+      "40340571",
+      "41789070",
+      "42123445",
+      "39616855",
+      "40196107",
+      "41388523",
+      "41146237",
+      "41162503",
+      "41703488",
+      "40967560",
+      "38863714",
+      "41878449",
+      "41110296",
+      "42305536",
+      "39351239",
+      "42558367",
+      "41622775",
+      "41789108",
+      "41826854",
+      "42404897",
+      "41570698",
+      "41436831",
+      "40196131",
+      "39496918",
+      "41405396",
+      "40977739",
+      "42053838",
+      "40374840",
+      "41409278",
+      "33705733",
+      "41219826",
+      "39650552",
+      "41706425",
+      "42363518",
+      "41316541",
+      "40500570",
+      "42565562",
+      "38994365",
+      "41964403",
+      "40421012",
+      "42243611",
+      "39364414",
+      "41688827",
+      "39779817",
+      "40374866",
+      "41200172",
+      "42260834",
+      "38897129",
+      "42099592",
+      "41265166",
+      "42195052",
+      "39923303",
+      "42158856",
+      "41756296",
+      "38690269",
+      "42495634",
+      "41939867",
+      "39920860",
+      "39142001",
+      "41678948",
+      "41246341",
+      "40552285",
+      "38867322",
+      "42351206",
+      "40207230",
+      "41735888",
+      "41816342",
+      "41424060",
+      "40751069",
+      "42236612",
+      "40640102",
+      "39295860",
+      "42642681",
+      "40247403",
+      "41583446",
+      "41291841",
+      "42436415",
+      "42292668",
+      "39680254",
+      "41013556",
+      "42631563",
+      "42136654",
+      "42465770",
+      "39509434",
+      "41601671",
+      "41221285",
+      "42274933",
+      "42024670",
+      "42247642",
+      "41000385",
+      "36157062",
+      "42326009",
+      "42609119"
+    ],
+    "review": [
+      "42643640",
+      "41665627"
+    ],
+    "pmc": [
+      "13503618"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42643640/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1700109",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

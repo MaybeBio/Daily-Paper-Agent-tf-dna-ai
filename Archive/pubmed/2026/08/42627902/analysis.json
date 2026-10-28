@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42627902",
+  "title": "Geneformer-guided multiomics integration identifies Pbx1 as a network hub of hematopoietic stem cell aging.",
+  "authors": "Kobayashi, Hiroshi; Watanuki, Shintaro; Shiozawa, Yusuke; Oshima, Motohiko; Koide, Shuhei; Takayama, Naoya; Morikawa, Takayuki; Haraguchi, Miho; Tamaki, Shinpei; Asakura, Takayoshi; Miyata, Toshio; Iwama, Atsushi; Ogawa, Seishi; Takubo, Keiyo",
+  "journal": "Science advances",
+  "published_date": "2026-08-21",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Geneformer整合多组学识别造血干细胞衰老中Pbx1调控网络，虽涉及转录因子但核心是细胞分化与衰老表型，无蛋白-DNA互作建模或结合位点预测，方法上仅用Transformer做表达分析，与本课题关联较弱。",
+  "abstract": "Hematopoietic stem cells (HSCs) constitute an organized hematopoietic system that undergoes age-related alterations, including increased platelet production and decreased erythropoiesis. The fundamental mechanisms driving these shifts remain incompletely understood. We used single-cell RNA sequencing data to show that old HSCs contain two distinct transcriptional programs: one shared with megakaryocytes and the other reflecting the most primitive HSC state. Developmental time-series profiling further suggests that the acquisition of these programs begins early in life, with the primitive module rising prenatally and megakaryocytic priming emerging after birth. Using a fine-tuned Geneformer (transformer-based deep learning model) to capture higher-order differences between young and old HSCs, coupled with transcriptomic and epigenetic profiling, as well as transcription factor screens, we identified Pbx1 as a key regulator of these age-related transcriptional and differentiation changes. Specifically, Pbx1 suppresses erythroid differentiation by repressing Gata1 expression. These findings provide insight into HSC aging and may inform approaches to modulate age-associated HSC dysfunction.",
+  "abstract_zh": "造血干细胞（HSCs）构成一个有序的造血系统，该系统随年龄增长发生改变，包括血小板生成增加和红细胞生成减少。驱动这些转变的基本机制尚未完全阐明。我们利用单细胞RNA测序数据表明，老年HSCs包含两种不同的转录程序：一种与巨核细胞共享，另一种反映最原始的HSC状态。发育时间序列分析进一步提示，这些程序的获得始于生命早期，其中原始模块在出生前上升，而巨核细胞启动在出生后出现。通过使用微调的Geneformer（基于变换器的深度学习模型）捕捉年轻与老年HSCs之间的高阶差异，结合转录组和表观遗传学分析，以及转录因子筛选，我们确定Pbx1是这些年龄相关转录和分化变化的关键调控因子。具体而言，Pbx1通过抑制Gata1表达来抑制红细胞分化。这些发现为HSC衰老提供了见解，并可能为调节年龄相关的HSC功能障碍提供方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42627902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42627902/",
+  "paper_page_path": "papers/pubmed/42627902/index.html"
+}

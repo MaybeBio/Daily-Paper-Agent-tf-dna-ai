@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "41199598",
+    "doi": "10.1080/0886022X.2025.2577844",
+    "title": "Multi-omics and machine learning identify GBP2 as a key therapeutic target of Qingre Kasen granules in lupus nephritis via NF-kappaB modulation."
+  },
+  "content": {
+    "abstract": "Lupus nephritis (LN), a severe renal complication of systemic lupus erythematosus (SLE), results from immune abnormalities. Qingre Kasen granules (QS), which have chicory as the main ingredient, play a significant role in treating various inflammatory and immune system diseases. This study aimed to identify LN biomarkers and mechanisms via systems biology approach, and multi-omics integration, and to screen potential active ingredients of QS for the treatment of LN. First, bioinformatics and machine learning were used to screen five genes, namely CHI3L1, CX3CR1, GBP2, CCND1, and PKP4, as well as the NF-kappaB signaling pathway. An external dataset was then employed to confirm that GBP2 plays a crucial role in the pathogenesis of LN. Immune infiltration analysis revealed significant changes in the proportion of CD4(+) T cells. Subsequently, an LN mouse model was established to evaluate QS's therapeutic effects. Results showed that QS treatment significantly improved symptoms and alleviated renal damage in these mice. Metabolomics and Western blot analyses further demonstrated that abnormal elevations of proteins related to purine metabolism and the NF-kappaB pathway were closely associated with LN's pathogenesis. Finally, molecular docking and MMGBSA binding energy calculations identified cichoriin as a key component. Molecular dynamics simulations further predicted a strong binding affinity between cichoriin and GBP2, along with favorable ADMET properties. In summary, GBP2 is a key druggable gene in LN. This study verifies QS's efficacy and positions cichoriin as a novel immunomodulator acting on the GBP2/NF-kappaB axis.",
+    "keywords": [
+      "Lupus nephritis",
+      "Qingre Kasen granules",
+      "bioinformatics",
+      "machine learning",
+      "multi-omics"
+    ],
+    "mesh_terms": [
+      "*Lupus Nephritis/drug therapy/genetics/metabolism/immunology/pathology",
+      "Animals",
+      "Machine Learning",
+      "*NF-kappa B/metabolism",
+      "Mice",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "Disease Models, Animal",
+      "Signal Transduction/drug effects",
+      "Humans",
+      "*GTP-Binding Proteins/metabolism/genetics",
+      "Female",
+      "Kidney/pathology/drug effects",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Kaojiang",
+        "Qian, Rui",
+        "Huang, Zhuang",
+        "Hong, Xing",
+        "Jiang, Qi",
+        "Xiao, Benjiang",
+        "Chen, Meng",
+        "Wen, Yuxin",
+        "Li, Shihao",
+        "Chen, Pengyu",
+        "Huang, Ping",
+        "Wang, Qiong",
+        "Huang, Fang",
+        "Li, Jingjing",
+        "Han, Lintao"
+      ],
+      "short_names": [
+        "Zhu K",
+        "Qian R",
+        "Huang Z",
+        "Hong X",
+        "Jiang Q",
+        "Xiao B",
+        "Chen M",
+        "Wen Y",
+        "Li S",
+        "Chen P",
+        "Huang P",
+        "Wang Q",
+        "Huang F",
+        "Li J",
+        "Han L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "Public Inspection and Testing Center of Xianning, Xianning, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China.",
+        "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China.",
+        "Hubei Shizhen Laboratory, and Key Laboratory of Ministry of Education, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Kaojiang",
+        "short_name": "Zhu K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Rui",
+        "short_name": "Qian R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhuang",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Xing",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qi",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Benjiang",
+        "short_name": "Xiao B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Meng",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yuxin",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Public Inspection and Testing Center of Xianning, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shihao",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Pengyu",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ping",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiong",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fang",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingjing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Lintao",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Shizhen Laboratory, and Key Laboratory of Ministry of Education, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Renal failure"
+    ],
+    "journal_abbrev": [
+      "Ren Fail"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/07 06:29",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42513192"
+    ],
+    "refs": [
+      "40253800",
+      "40153332",
+      "40125845",
+      "40114200",
+      "40098377",
+      "40014856",
+      "39987405",
+      "39985741",
+      "39956351",
+      "39919486",
+      "39904423",
+      "39902867",
+      "39840213",
+      "39824442",
+      "39759646",
+      "39743791",
+      "39739565",
+      "39715676",
+      "39704041",
+      "39670672",
+      "39536002",
+      "38257774",
+      "38181229",
+      "38155943",
+      "37828427",
+      "37771588",
+      "37567806",
+      "37516862",
+      "37101499",
+      "36958213",
+      "36745456",
+      "36569836",
+      "36362887",
+      "36332811",
+      "35924257",
+      "34938183",
+      "34907728",
+      "33557097",
+      "33280015",
+      "32662519",
+      "31590257",
+      "30676821",
+      "29486318",
+      "29387778",
+      "29203515",
+      "29072687",
+      "27258437",
+      "26945378",
+      "26240314",
+      "25774716",
+      "25563062",
+      "25211704",
+      "24782629",
+      "20635958",
+      "8881373",
+      "8530357"
+    ],
+    "similar": [
+      "41199598",
+      "36115937",
+      "40199549",
+      "26208003",
+      "30146016",
+      "40186900",
+      "40780476",
+      "40342119",
+      "35855861",
+      "39053932",
+      "33173997",
+      "40505998",
+      "34536747",
+      "39869603",
+      "22384559",
+      "40673809",
+      "40153332",
+      "30047025",
+      "31811410",
+      "35804318",
+      "39596325",
+      "41208960",
+      "40916281",
+      "40754029",
+      "39613121",
+      "40973872",
+      "35416178",
+      "37872565",
+      "41005317",
+      "30359968",
+      "36532018",
+      "38555047",
+      "40101924",
+      "33895173",
+      "39938176",
+      "39518917",
+      "24025640",
+      "18285351",
+      "21905011",
+      "39835128",
+      "37944951",
+      "38643544",
+      "32249615",
+      "32710276",
+      "40774007",
+      "39205658",
+      "41466499",
+      "41385546",
+      "38943968",
+      "41221493",
+      "40019633",
+      "34091806",
+      "35906002",
+      "33717066",
+      "39369919",
+      "21677146",
+      "37139617",
+      "38130724",
+      "39411720",
+      "32674502",
+      "41142814",
+      "26584539",
+      "38980684",
+      "38299290",
+      "39427918",
+      "30316188",
+      "31835612",
+      "41489113",
+      "31829247",
+      "40147265",
+      "28722110",
+      "40684959",
+      "39799765",
+      "30791224",
+      "30612857",
+      "38186000",
+      "41274524",
+      "38961491",
+      "37317623",
+      "26546590",
+      "40578035",
+      "26110642",
+      "37804401",
+      "40625749",
+      "38892349",
+      "28791390",
+      "39716284",
+      "38637124",
+      "41198538",
+      "40043824",
+      "39241387",
+      "38455045",
+      "39427833",
+      "39909118",
+      "36828195",
+      "23770281",
+      "38501728",
+      "36944318",
+      "40492457",
+      "31614462"
+    ],
+    "review": [
+      "41199598",
+      "37944951",
+      "41142814",
+      "31835612",
+      "38892349"
+    ],
+    "pmc": [
+      "12599154"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/0886022X.2025.2577844?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41199598/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/0886022X.2025.2577844",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

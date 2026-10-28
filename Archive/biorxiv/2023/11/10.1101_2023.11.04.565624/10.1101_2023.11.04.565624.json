@@ -1,0 +1,268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.04.565624",
+  "title": "DeepVASP-S: a deep-learning tool for explaining steric mechanism that controls binding specificity",
+  "doi": "10.1101/2023.11.04.565624",
+  "abstract": "DeepVASP-S is a computational tool that leverages the capabilities of convolutional neural networks (CNNs) to analyze steric aspects of protein-ligand interactions and predict amino acid contributions to binding specificity. This tool combines structural bioinformatics with machine learning to address the complex problem of understanding how specific amino acids contribute to the specificity of binding. Here, we use this tool to predict subclasses for Enolase and Serine Protease according to their binding specificity, and explain it through the underlying steric mechanism. The strength of DeepVASP-S lies in its ability to identify and highlight these specific regions, providing researchers with insights into the molecular determinants of protein function and interaction. Such information is extremely valuable for the field of drug design, as it enables the creation of more targeted and effective therapeutics with minimized side effects. The approach taken by DeepVASP-S represents a significant step forward in computational biochemistry, merging high-resolution 3D structural data with the predictive power of machine learning to unlock a deeper understanding of protein-ligand interactions.",
+  "authors": [
+    "Yangying Liu",
+    "Houliang Zhou",
+    "Brian Y. Chen"
+  ],
+  "published_date": "2023-11-06",
+  "updated_date": "2023-11-06T10:45:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.04.565624",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.04.565624.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:16:36Z",
+        "timestamp": 1768508196267,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 10,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DeepVASP-S is a computational tool that leverages the capabilities of convolutional neural networks (CNNs) to analyze steric aspects of protein-ligand interactions and predict amino acid contributions to binding specificity. This tool combines structural bioinformatics with machine learning to address the complex problem of understanding how specific amino acids contribute to the specificity of binding. Here, we use this tool to predict subclasses for Enolase and Serine Protease according to their binding specificity, and explain it through the underlying steric mechanism. The strength of DeepVASP-S lies in its ability to identify and highlight these specific regions, providing researchers with insights into the molecular determinants of protein function and interaction. Such information is extremely valuable for the field of drug design, as it enables the creation of more targeted and effective therapeutics with minimized side effects. The approach taken by DeepVASP-S represents a significant step forward in computational biochemistry, merging high-resolution 3D structural data with the predictive power of machine learning to unlock a deeper understanding of protein-ligand interactions.</jats:p>",
+      "DOI": "10.1101/2023.11.04.565624",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            6
+          ]
+        ],
+        "date-time": "2023-11-06T10:45:14Z",
+        "timestamp": 1699267514000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DeepVASP-S: a deep-learning tool for explaining steric mechanism that controls binding specificity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9662-1941",
+          "authenticated-orcid": false,
+          "given": "Yangying",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5793-3042",
+          "authenticated-orcid": false,
+          "given": "Houliang",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9025-0107",
+          "authenticated-orcid": false,
+          "given": "Brian Y.",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "8",
+          "key": "2023110906550751000_2023.11.04.565624v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000881",
+          "DOI": "10.1371/journal.pcbi.1000881",
+          "article-title": "Vasp: a volumetric analysis of surface properties yields insights into proteinligand binding specificity",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023110906550751000_2023.11.04.565624v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Chattopadhay , A. Sarkar , P. Howlader , and V. N. Balasubramanian , “Grad-cam++: Generalized gradient-based visual explanations for deep convolutional networks,” in 2018 IEEE Winter Conference on Applications of Computer Vision (WACV), 2018, pp. 839–847.",
+          "DOI": "10.1109/WACV.2018.00097"
+        },
+        {
+          "issue": "1",
+          "key": "2023110906550751000_2023.11.04.565624v1.3",
+          "first-page": "21",
+          "article-title": "An overview of serine proteases",
+          "volume": "26",
+          "year": "2001",
+          "journal-title": "Current protocols in protein science"
+        },
+        {
+          "key": "2023110906550751000_2023.11.04.565624v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr000033x"
+        },
+        {
+          "key": "2023110906550751000_2023.11.04.565624v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.abb.2004.07.034"
+        },
+        {
+          "key": "2023110906550751000_2023.11.04.565624v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2006.08.012"
+        },
+        {
+          "issue": "1",
+          "key": "2023110906550751000_2023.11.04.565624v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1146/annurev.pc.21.100170.001443",
+          "article-title": "Intermolecular forces",
+          "volume": "21",
+          "year": "1970",
+          "journal-title": "Annual Review of Physical Chemistry"
+        },
+        {
+          "issue": "1",
+          "key": "2023110906550751000_2023.11.04.565624v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1021/ct700200b",
+          "article-title": "P-lincs: A parallel linear constraint solver for molecular simulation",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "issue": "3",
+          "key": "2023110906550751000_2023.11.04.565624v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "435",
+          "DOI": "10.1021/ct700301q",
+          "article-title": "Gromacs 4: algorithms for highly efficient, load-balanced, and scalable molecular simulation",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2023110906550751000_2023.11.04.565624v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. M. Quintana , Z. Kong , L. He , and B. Y. Chen , “Deepvasp-e: A flexible analysis of electrostatic isopotentials for finding and explaining mechanisms that control binding specificity,” in Pacific Symposium on Biocomputing 2022. World Scientific, 2021, pp. 56–67.",
+          "DOI": "10.1142/9789811250477_0006"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.04.565624",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:29:13Z",
+        "timestamp": 1768454953000
+      },
+      "score": 90.46439,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.04.565624"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            6
+          ]
+        ]
+      },
+      "references-count": 10,
+      "URL": "https://doi.org/10.1101/2023.11.04.565624",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

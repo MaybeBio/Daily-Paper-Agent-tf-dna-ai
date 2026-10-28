@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present EPInformer, a transformer-based deep learning framework that integrates promoter-enhancer sequences with multimodal epigenomic data (DNase-seq, H3K27ac ChIP-seq, HiC) to predict gene expression. They claim superior performance over existing methods (Enformer, Xpresso, Seq-GraphReg) in cross-chromosome validation, accurate identification of enhancer-gene interactions validated by CRISPR perturbation data, and the ability to uncover transcription factor motifs relevant to enhancer activity.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Discussion, Methods, Data availability, Acknowledgments; figures and supplementary materials referenced but not provided
+- **Missing materials affecting confidence** Figures (Fig. 1–4), Supplementary Figures (S1–S3), Supplementary Tables (S2–S4), code repository, and detailed benchmark outputs are not available for independent verification. This limits assessment of quantitative claims and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful contribution to the field of gene expression prediction by explicitly modeling promoter-enhancer interactions within a lightweight transformer architecture. The integration of multiple epigenomic data types is a strength, and the reported performance improvements over established baselines are encouraging. However, the current evidence base is insufficient to fully establish the superiority claims, particularly given the lack of access to figures, supplementary data, and code. Several methodological details require clarification, and the generalizability of the approach beyond two cell lines remains untested. The manuscript is well-written and the conceptual framing is clear, but the technical validation needs strengthening before the claims can be considered fully supported.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation, cis-regulatory element function, and deep learning applications in genomics. Researchers developing or applying models for enhancer-promoter interaction prediction, and those interested in interpretable models for regulatory genomics, would find the framework and its attention-based interpretability features relevant. The lightweight design may also appeal to groups with limited computational resources.
+- **Major strengths**
+  - The explicit modeling of promoter-enhancer interactions within a scalable transformer framework addresses a recognized limitation of sequence-only models like Enformer.
+  - The flexible architecture allows integration of diverse data types (sequence, epigenomic signals, chromatin contacts), which is a practical advantage.
+  - The use of cross-chromosome validation is a rigorous evaluation strategy that reduces the risk of overfitting.
+  - The attention-based interpretability analysis, validated against CRISPR perturbation data, provides a biologically meaningful assessment of model behavior.
+  - The reported parameter efficiency (0.4 million vs. Enformer's 250 million) is a significant practical advantage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EPInformer-PE-Activity-HiC consistently outperformed other EPInformer models and competing methods by a significant margin" and "exceeded Enformer's performance by 7.3% and 9.1% in Pearson correlation coefficient for K562 and GM12878, respectively"
+  - **Evidence pointer** Results section "EPInformer improves gene expression prediction...", Fig. 2b–c (not provided)
+  - **Concern** The quantitative claims of superiority over Enformer and Seq-GraphReg are presented without access to the actual figures or detailed numerical results. The comparison with Enformer is based on a hold-out test of 1,639 genes, but the selection criteria for these genes, the variance of the performance estimates, and the statistical significance of the differences are not reported. For Seq-GraphReg, the comparison relies on published metrics from a different validation scheme (10-fold vs. 12-fold), which may not be directly comparable. Without these details, the claimed margins of improvement cannot be independently assessed.
+  - **Why it matters** The central claim of the manuscript is that EPInformer outperforms existing state-of-the-art methods. If this claim is not rigorously supported with appropriate statistical testing and comparable evaluation protocols, the contribution's significance is substantially weakened.
+  - **Resolution test** Provide the full numerical results for all models and baselines, including per-fold performance, standard deviations, and statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test). For Seq-GraphReg, either retrain under the same 12-fold cross-chromosome protocol or clearly justify why the published metrics are directly comparable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "EPInformer is available as open-source software at https://github.com/pinellolab/EPInformer"
+  - **Evidence pointer** Abstract; Data availability section
+  - **Concern** While the code repository is mentioned, the manuscript does not provide sufficient detail on the exact data processing pipelines, hyperparameter tuning procedures, or the specific versions of all dependencies to ensure reproducibility. The preprocessing steps for the epigenomic data (e.g., exact parameters for MACS2 peak calling, normalization procedures) are described but not fully specified. The training procedure mentions early stopping and specific optimizer settings, but the criteria for selecting the final model across folds are not fully detailed.
+  - **Why it matters** Reproducibility is a cornerstone of scientific contribution, especially for computational methods. Without complete details, other researchers cannot reliably implement or build upon the method, limiting its impact.
+  - **Resolution test** Provide a detailed description of all data processing and training steps, including exact software versions, hyperparameter search ranges, and the final hyperparameter values. Ensure the code repository includes scripts for data preprocessing, training, and evaluation, with clear documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "EPInformer, a scalable deep-learning framework for predicting gene expression by integrating promoter-enhancer interactions with their sequences, epigenomic signals, and chromatin contacts"
+  - **Evidence pointer** Abstract; Results; Discussion
+  - **Concern** The model is evaluated exclusively on two cell lines (K562 and GM12878). While these are well-characterized, the generalizability of the approach to other cell types, tissues, or organisms is not demonstrated. The authors discuss future plans for multi-cell-type training, but the current claims of broad applicability are not supported by the evidence presented.
+  - **Why it matters** Gene regulation is highly cell-type-specific. A model that performs well in two cell lines may not generalize, and the practical utility of the framework depends on its ability to be applied across diverse biological contexts.
+  - **Resolution test** Include at least one additional cell type or demonstrate transferability (e.g., training on one cell type and testing on another). Alternatively, temper the claims of generalizability to reflect the current scope of validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** "EPInformer attention prioritizes cell-type-specific enhancers supported by long-range interaction assays" and "identifies crucial transcription factor motifs within regulatory sequences"
+  - **Evidence pointer** Results sections "EPInformer attention prioritizes..." and "EPInformer recapitulates TF motifs..."; Fig. 3–4 (not provided)
+  - **Concern** The attention-based interpretability analysis is a key selling point, but the validation is limited. The comparison to CRISPRi-FlowFISH data is for a single cell line (K562), and the analysis of TF motifs is based on a small number of examples. The statistical robustness of the motif discovery (e.g., how many motifs were found, how many were validated, what is the false discovery rate) is not reported. The claim that attention weights reflect true enhancer-gene interactions requires a more systematic comparison against alternative methods (e.g., ABC score, HiC-based methods) across a larger set of loci.
+  - **Why it matters** Interpretability is a major claimed advantage of the model. If the attention mechanism does not reliably identify functional enhancers, the biological utility of the framework is diminished.
+  - **Resolution test** Provide a systematic evaluation of attention-based enhancer prioritization across all available CRISPRi-validated pairs, including precision-recall curves and comparison to other prioritization methods. For motif discovery, report the number of motifs identified, the fraction matching known motifs, and the statistical significance of the matches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Model architecture
+  - **Evidence pointer** "The input is a one-hot-encoded 256-bp DNA sequence aimed at predicting enhancer activities."
+  - **Issue** The description of the enhancer activity prediction model is brief. It is unclear how this model relates to the main gene expression prediction framework and whether it is a separate model or a component of the pretraining procedure.
+  - **Required correction** Clarify the relationship between the enhancer activity prediction model and the main EPInformer framework, and provide more detail on its architecture and training.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "EPInformer attention prioritizes..."
+  - **Evidence pointer** "We applied sum scaling normalization to the attention weights to obtain attention scores"
+  - **Issue** The normalization procedure for attention weights is described in a single sentence. It is unclear whether this is a standard softmax normalization or a different approach, and how it affects the interpretation of the scores.
+  - **Required correction** Provide a more detailed description of the normalization procedure and its rationale.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "EPInformer improves gene expression prediction..."
+  - **Evidence pointer** "EPInformer-PE-Activity-HiC achieved the best performance, with Pearson correlations of 0.863 for K562 and 0.849 for GM12878"
+  - **Issue** The manuscript reports Pearson correlations but does not provide confidence intervals or measures of variance across folds. This makes it difficult to assess the stability of the performance estimates.
+  - **Required correction** Report the mean and standard deviation of the performance metrics across the 12 folds, and include confidence intervals where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** "At the forefront of these advancements is Enformer22, a model excelling in predicting gene expression, protein binding, and chromatin states from DNA sequences alone."
+  - **Issue** The introduction provides a good overview but could benefit from a more explicit statement of the specific limitations of existing methods that EPInformer addresses, beyond the general issue of distal enhancer capture.
+  - **Required correction** Briefly state the specific gaps (e.g., computational cost, lack of multimodal integration, limited interpretability) that EPInformer aims to fill.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical significance testing and full numerical results for performance comparisons.
+  - R1-M2: Insufficient detail for full reproducibility.
+  - R1-M3: Limited demonstration of generalizability beyond two cell lines.
+  - R1-M4: Incomplete validation of attention-based interpretability claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of explicitly modeling promoter-enhancer interactions in a lightweight transformer framework is a novel contribution, distinct from sequence-only models like Enformer. The integration of multiple data types within a unified architecture is a creative approach.
+  - **Scientific importance** Gene expression prediction and enhancer-gene linking are central problems in regulatory genomics. A scalable, accurate, and interpretable model would be of significant value. The potential to identify functional enhancers and TF motifs has broad implications.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The biological validation via CRISPR data and TF motif analysis may attract experimental biologists, but the technical focus may limit broader interdisciplinary appeal.
+  - **Technical soundness** The architecture is well-motivated and the evaluation strategy (cross-chromosome validation) is appropriate. However, the lack of full numerical results, statistical testing, and detailed reproducibility information prevents a full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is clearly written and the conceptual framework is accessible. However, the Methods section assumes familiarity with deep learning and genomics terminology, which may be challenging for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the current evidence base is insufficient to fully establish the claims of superiority and generalizability. The authors should address the major concerns regarding statistical rigor, reproducibility, and validation breadth before the manuscript can be considered for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim of "significant margin" of improvement over Enformer and Seq-GraphReg is not supported by the provided evidence, as no statistical tests or full numerical results are presented.
+- The claim that EPInformer "accurately recapitulates enhancer-gene interactions validated by CRISPR perturbation experiments" is based on a single cell line and a limited number of loci; the generalizability of this finding is not established.
+- The claim that the model "identifies crucial transcription factor motifs within regulatory sequences" is based on a small number of examples and lacks a systematic statistical assessment.
+- The generalizability of the model to other cell types, tissues, or organisms is not demonstrated and is therefore an unsupported claim.
+- The performance of the enhancer activity prediction model (used for pretraining) is not reported, making it impossible to assess its contribution to the overall framework.

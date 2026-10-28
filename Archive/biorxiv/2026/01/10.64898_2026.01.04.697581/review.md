@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present PRECISE, a method that extends CoNCISE's quantized small-molecule representations to operate on target 3D structures, reimagining drug-target interaction as compatibility between quantized drug embeddings and a latent surface mesh representation. They claim superior binding site identification over DiffDock-L, Chai, and Boltz-2, billion-scale screening capability, zero-shot generalization to metalloproteins and multi-chain complexes, and introduce PRECISE-MCTS for efficient docking integration.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, architecture specifications, or validation protocols are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark datasets, baseline configurations, statistical analyses, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful framework that combines quantized drug representations with geometric deep learning on target surfaces. However, the current evidence base is insufficient to evaluate the validity of the central claims. No quantitative comparisons, architectural details, or experimental protocols are visible. The conceptual novelty is promising, but the scientific case cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on virtual screening and drug discovery would be interested in a method that claims both mechanistic interpretability and billion-scale screening. Researchers developing geometric deep learning for protein surfaces and those working on binding site prediction would also find the approach relevant. The zero-shot generalization claim could attract attention from groups studying metalloproteins and multi-chain complexes.
+- **Major strengths** The conceptual framing of drug-target interaction as compatibility between quantized drug embeddings and a latent surface representation is intellectually appealing. The explicit goal of combining mechanistic understanding with massive scalability addresses a recognized gap in the field. The introduction of a Monte Carlo Tree Search approach for integrating screening with docking is a thoughtful practical consideration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** PRECISE identifies binding sites more accurately than state-of-the-art methods (DiffDock-L, Chai, and Boltz-2)
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract states that PRECISE outperforms three named baselines but provides no quantitative metrics, dataset descriptions, evaluation protocols, or statistical significance measures. No figures or tables are available to support this comparative claim.
+  - **Why it matters** Comparative performance claims are the core scientific contribution of the work. Without visible benchmark results, the claim cannot be verified or contextualized. The choice of baselines, evaluation metrics, and test sets fundamentally determines whether the comparison is fair and meaningful.
+  - **Resolution test** Provide benchmark tables with performance metrics on standard binding site prediction datasets, including confidence intervals or error bars, and describe the evaluation protocol in sufficient detail to allow replication.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical reproducibility
+  - **Claim pointer** PRECISE leverages CoNCISE's quantized small-molecule representations while operating on the target's 3D structure as its input
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract describes a novel surface representation and a geometric deep learning architecture but provides no architectural details, training procedures, hyperparameter choices, or loss functions. The integration of CoNCISE's codebook with the surface representation is described only at a conceptual level.
+  - **Why it matters** Without technical specifications, the method cannot be reproduced or evaluated for soundness. The novelty claim depends on understanding how the quantized drug embeddings interact with the surface mesh representation, which is the central design choice of the work.
+  - **Resolution test** Provide a complete methods section with architecture diagrams, training details, and a clear formalization of how drug embeddings and surface representations are combined.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validation
+  - **Claim pointer** The formulation unlocks zero-shot generalization to complex targets such as metalloproteins and multi-chain complexes
+  - **Evidence pointer** location not provided
+  - **Concern** The zero-shot generalization claim is stated without any supporting experiments. No definitions of the zero-shot setting, no test cases, and no comparisons to alternative approaches are provided.
+  - **Why it matters** Zero-shot generalization is a strong claim that requires careful experimental design to distinguish from memorization or dataset overlap effects. The specific challenges of metalloproteins and multi-chain complexes need to be articulated and tested explicitly.
+  - **Resolution test** Describe the zero-shot evaluation protocol, list the test targets, and show performance metrics that demonstrate generalization to unseen target classes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Practical utility
+  - **Claim pointer** PRECISE-MCTS combines fast PRECISE-based screening with selective Vina docking through an iterative Monte Carlo Tree Search approach
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract introduces PRECISE-MCTS as a practical tool but provides no details on the search strategy, computational cost, or comparison to alternative docking workflows. The benefit of the MCTS approach over simpler selection strategies is not demonstrated.
+  - **Why it matters** The claim that PRECISE delivers capabilities that were previously mutually exclusive depends on demonstrating that the integrated workflow is both accurate and computationally feasible. Without cost-benefit analysis, the practical advantage remains unsubstantiated.
+  - **Resolution test** Provide runtime comparisons, docking success rates, and a clear description of the MCTS algorithm and its parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method naming
+  - **Evidence pointer** Abstract
+  - **Issue** The name "P recise -MCTS" contains an unusual spacing artifact that appears to be a formatting error.
+  - **Required correction** Correct the formatting to "PRECISE-MCTS" consistently throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions CoNCISE and three baseline methods but does not situate PRECISE within the broader landscape of binding site prediction and virtual screening methods beyond these specific tools.
+  - **Required correction** Add a brief contextual statement in the introduction or discussion that positions PRECISE relative to other geometric deep learning approaches for binding site prediction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "drug quantization"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "drug quantization" is used without definition. It is unclear whether this refers to discrete latent representations, codebook learning, or a specific quantization scheme.
+  - **Required correction** Define the term explicitly when first used, referencing the CoNCISE methodology as appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The comparative performance claim, the architectural description, and the zero-shot generalization claim all require substantial additional evidence before the scientific case can be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual combination of quantized drug representations with surface-based geometric deep learning appears novel, but the extent of novelty relative to existing surface-based methods cannot be fully assessed without the full manuscript.
+  - Scientific importance: The goal of combining mechanistic binding site identification with billion-scale screening addresses a real and recognized need in drug discovery. If validated, the work could have significant practical impact.
+  - Interdisciplinary readership: The work bridges machine learning, structural biology, and medicinal chemistry. The abstract is written in a way that is broadly accessible, though the technical novelty would primarily interest computational specialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The architectural choices, training procedures, and evaluation protocols are not visible.
+  - Readability for nonspecialists: The abstract is clearly written and the core ideas are communicated effectively. The motivation is compelling and the language is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the direction is worthwhile, but the abstract alone does not provide sufficient evidence to support the central claims of superior performance, zero-shot generalization, or practical utility. A full review would require the complete manuscript with methods, results, and benchmark evaluations.
+
+## Risk / unsupported claims
+- Superior binding site identification accuracy compared to DiffDock-L, Chai, and Boltz-2 is unsupported by any visible quantitative evidence
+- Billion-scale screening capability is asserted but not demonstrated with runtime or scalability experiments
+- Zero-shot generalization to metalloproteins and multi-chain complexes is claimed without experimental validation
+- The practical advantage of PRECISE-MCTS over existing docking workflows is not supported by any comparative data
+- The novelty of the surface representation and its integration with quantized embeddings cannot be evaluated without architectural details

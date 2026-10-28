@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Materials and Methods, Results, Discussion, and Supplementary Information references. No figures or supplementary files were provided for direct inspection.
+- **Assessment boundary** Evaluation is limited to the textual description of the model architecture, experimental design, reported quantitative results, and interpretability analyses. Claims regarding performance metrics, statistical significance, and biological interpretations are assessed based on the information presented in the text.
+- **Shared manuscript claim summary** The authors present UniChrom, a deep learning architecture that integrates DNA sequence, epigenomic features, and genomic distance to predict chromatin interactions across multiple cell types and interaction classes. They claim superior and more stable performance compared to existing methods under a chromosome-based evaluation framework, demonstrate generalizability via cross-cell-line transfer and an independent HUVEC dataset, and provide interpretability analyses suggesting the model learns biologically relevant features.
+- **Visible evidence base** Text descriptions of Figures 1–8, Supplementary Figures 1–7, and Supplementary Tables 1–3. Quantitative values for AUC and AUPR are reported in the text for several comparisons. Statistical test results (Wilcoxon signed-rank test p-values) are reported for transfer learning comparisons.
+- **Missing materials affecting confidence** Actual figures, supplementary tables, and supplementary figures were not provided. Detailed hyperparameter settings, model architecture dimensions (layer sizes, kernel sizes, number of layers), training/validation/test sample counts per cell line, and the full set of performance metrics for all methods and cell lines are not fully specified in the text. Code availability and data accession details beyond the Hi-C dataset are not described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics, namely the prediction of chromatin interactions across different cell types and interaction classes. The proposed architecture is a reasonable integration of established deep learning components, and the chromosome-based evaluation strategy is a methodological improvement over random splitting. However, the manuscript as presented has several significant gaps. The quantitative results are reported selectively, with only AUC and AUPR values mentioned in the text for most comparisons, while other metrics (Accuracy, F1, Precision, Recall) are referenced only via supplementary figures. The statistical rigor of the comparisons is not fully described, and the interpretability analyses, while interesting, are presented in a way that makes it difficult to assess their robustness. The claim of "universal" architecture is not fully supported by the evidence presented, as the evaluation is limited to a specific set of cell lines and interaction types. The manuscript would benefit from a more complete reporting of results, a clearer description of the model architecture, and a more cautious framing of the interpretability findings.
+- **Who would be interested in the results, and why** Researchers in computational genomics and bioinformatics, particularly those working on 3D genome organization, chromatin interaction prediction, and deep learning applications in genomics. The work may also be of interest to experimental biologists studying gene regulation who seek computational tools for prioritizing candidate regulatory interactions. The comparison of multiple existing methods under a unified evaluation framework could be useful for the community.
+- **Major strengths**
+  1. The use of chromosome-based data partitioning to avoid data leakage is a sound methodological choice and addresses a known issue in the field.
+  2. The integration of multiple input modalities (sequence, epigenomics, distance) within a single architecture is a sensible design.
+  3. The evaluation across multiple cell lines and interaction types, including an independent cell line not used in training, is commendable.
+  4. The interpretability analyses, combining DeepSHAP, DeepLIFT, and in silico perturbation, represent a multi-pronged approach to model understanding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that UniChrom "consistently achieved the highest performance across all cell types" with AUC values of 0.956, 0.955, and 0.941 for GM12878, IMR90, and K562, respectively.
+  - **Evidence pointer** Results section, Figure 3 description; location not provided
+  - **Concern** The text reports only AUC and AUPR values for the integrated model in the ablation study, while the other three metrics (Accuracy, F1, Recall) are mentioned as being evaluated but their values are not provided in the text. It is unclear whether the "highest performance" claim holds across all five metrics or only for AUC and AUPR. Additionally, no confidence intervals or variance estimates are reported for these point estimates, making it impossible to assess whether the observed differences are statistically meaningful.
+  - **Why it matters** The central claim of the paper is that the integrated model provides superior and more stable performance. Without a complete reporting of all metrics and their variability, this claim cannot be adequately evaluated. Selective reporting of metrics can lead to an overestimation of the method's advantages.
+  - **Resolution test** Provide a complete table of all five metrics (AUC, AUPR, Accuracy, F1, Precision, Recall) with standard deviations or 95% confidence intervals for all methods and all cell lines, including the ablation variants. Report the results of the five-fold cross-validation explicitly, not only in supplementary figures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "UniChrom's transfer learning advantages are statistically significant across all evaluation metrics" with p-values reported as ACC: 7.81e-03, AUC: 1.17e-02, AUPR: 7.42e-03, F1: 7.81e-03, Recall: 7.81e-03.
+  - **Evidence pointer** Results section, Figure 5 description; location not provided
+  - **Concern** The transfer learning experiment compares UniChrom only against ChINN. The choice of ChINN as the sole comparator for transfer learning is not justified. Other methods that support transfer learning, or simpler baselines, are not considered. Furthermore, the text states that models were "trained on GM12878 data and subsequently applied to predict chromatin interactions in IMR90 and K562 cell lines without additional fine-tuning," but it is unclear whether the baseline methods were subjected to the same transfer protocol or whether they were retrained on the target cell lines. If baselines were retrained, the comparison is not a fair test of transfer learning.
+  - **Why it matters** The transfer learning claim is a key contribution of the paper, suggesting practical utility in settings where training data are limited. An unfair or incomplete comparison undermines this claim.
+  - **Resolution test** Clarify the exact training and evaluation protocol for all methods in the transfer learning experiment. Justify the choice of ChINN as the only comparator. Consider including additional baselines, such as a simple distance-based model or a model trained only on sequence features, to better contextualize the transfer learning results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The description of the UniChrom architecture in the Materials and Methods section, including the sequence processing module, the genomic feature integration module, and the attention-based fusion module.
+  - **Evidence pointer** Materials and Methods, "Neural network architecture and implementation" and "Input processing and feature extraction"; location not provided
+  - **Concern** The architectural description lacks critical details needed for reproduction. The text mentions convolutional layers, BiGRU, BiLSTM, and attention mechanisms, but does not specify the number of layers, kernel sizes, filter counts, hidden dimensions, dropout rates, or activation functions. The fusion mechanism is described only at a high level. The input representation for epigenomic features (e.g., binning strategy, resolution, normalization method) is not fully specified. The training procedure (loss function is mentioned as binary cross-entropy, but optimization details, learning rate schedule, and early stopping criteria are only partially described) is incomplete.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without a complete specification of the architecture and training procedure, other researchers cannot implement or build upon the proposed method.
+  - **Resolution test** Provide a complete architectural specification, including all hyperparameters, in the main text or a supplementary table. Include a description of the epigenomic feature encoding and normalization. Consider releasing the code and trained models to facilitate reproduction and further evaluation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the interpretability analysis "reveals regulatory hierarchy in chromatin organization" and that the identified RUNX3 motif represents "evidence that the model has learned biologically relevant sequence features."
+  - **Evidence pointer** Results section, "Feature importance analysis reveals regulatory hierarchy in chromatin organization" and "Sequence interpretability analysis identifies regulatory motifs"; location not provided
+  - **Concern** The interpretability analysis is presented for a single representative example (one locus in the RUNX3 gene region). The text acknowledges that the analyses are computational and do not demonstrate causality. However, the claim of a "regulatory hierarchy" is a strong interpretation based on feature importance rankings from a single model. The robustness of these rankings across different initializations, training runs, or cell lines is not assessed. The selection of the representative locus is not justified.
+  - **Why it matters** Interpretability claims are increasingly common in deep learning papers, but they require careful validation. Over-interpretation of a single example can mislead readers about the biological insights the model provides.
+  - **Resolution test** Provide a more systematic analysis of feature importance across multiple loci and cell lines. Assess the stability of the rankings, for example, by retraining the model with different random seeds. Consider validating the identified motifs against independent experimental data, such as ChIP-seq peaks for the relevant transcription factors.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model provides "robust prediction across all distance categories" with the highest AUC (0.976) for large-distance interactions.
+  - **Evidence pointer** Results section, "Model robustness assessment through baseline comparison and distance-scale evaluation"; location not provided
+  - **Concern** The distance-stratified analysis is described only in the text and supplementary figures. The text reports that AUPR, F1, and recall showed "modest reductions" for large-distance interactions, but the absolute values are not provided in the main text. The stratification into three equal-sized groups is described, but the rationale for these specific cutoffs is not given. It is unclear whether the performance differences across distance categories are statistically significant.
+  - **Why it matters** Distance-dependent performance is an important practical consideration, as long-range interactions are often the most biologically interesting but also the most challenging to predict. A more complete reporting of these results would strengthen the paper.
+  - **Resolution test** Report the full set of metrics for each distance category in the main text or a main-text table. Provide statistical comparisons of performance across distance categories. Justify the choice of distance cutoffs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, "Dataset preparation and processing"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that "for sequences shorter than 5,000 bp, we performed symmetric zero-padding extending equally upstream and downstream from the sequence center." It is unclear how this applies to interaction anchors, which are typically defined as genomic intervals. The description of how the 5 kb window is centered on the anchor is ambiguous.
+  - **Required correction** Clarify the exact procedure for defining the input sequence window for each anchor, including how the anchor coordinates are mapped to the 5 kb window.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, "Comparative method implementation and evaluation framework"
+  - **Evidence pointer** Location not provided
+  - **Issue** The list of comparative methods includes eight methods, but the text does not describe how hyperparameters for these methods were selected or whether any hyperparameter tuning was performed. It is unclear whether the baselines were used with their default settings or were optimized for the task.
+  - **Required correction** Describe the hyperparameter selection procedure for all baseline methods. State whether default settings were used or whether tuning was performed, and if so, on which validation set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Sequence module performance exhibits cell-type specificity"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that "UniChrom-sequence demonstrated robust predictive performance with AUC of 0.890 and AUPR of 0.911" in GM12878, but it is unclear how these numbers compare to the full UniChrom model in the same cell line. The ablation study is presented in the next subsection, but a direct comparison in the same table or figure would be clearer.
+  - **Required correction** Consider presenting the sequence-only and full model results together in a single table or figure for each cell line to facilitate direct comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, "Feature importance and model interpretability"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that 2,000 instances were sampled as a background reference set for DeepSHAP, but it does not specify whether this sampling was random or stratified, and whether the same background set was used for all cell lines.
+  - **Required correction** Specify the sampling procedure for the background set and state whether the same set was used across all analyses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Location not provided
+  - **Issue** The Discussion mentions that "most current deep learning approaches—including UniChrom—model genomic sequences using fixed window sizes (5 kb in this study)." This is presented as a limitation, but the text does not discuss whether the 5 kb window size was optimized or whether other window sizes were tested.
+  - **Required correction** State whether any experiments were performed with different window sizes and, if not, acknowledge this as an untested parameter.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Incomplete reporting of performance metrics and lack of variance estimates for the central performance claims.
+  - R1-M2: Unclear fairness of the transfer learning comparison, with only one comparator method.
+  - R1-M3: Insufficient architectural and training details for reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of sequence and epigenomic features in a unified architecture is not entirely novel, as similar approaches have been explored. The use of chromosome-based splitting is a methodological contribution, but the overall architecture is an incremental combination of known components.
+  - **Scientific importance** Moderate. Chromatin interaction prediction is an active area, and a method that generalizes well across cell types would be valuable. However, the demonstrated improvements over existing methods are not fully quantified in the text, and the practical impact is not clearly established.
+  - **Interdisciplinary readership** Limited. The paper is written for a specialized audience of computational genomics researchers. The biological implications are discussed, but the presentation is heavily method-oriented.
+  - **Technical soundness** Currently not fully established. The experimental design is reasonable, but the incomplete reporting of results and the lack of architectural details prevent a full assessment of the method's validity.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the methods and results sections assume significant familiarity with deep learning and genomics terminology. The paper would benefit from a clearer explanation of the model architecture and the significance of the results for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and has a sound evaluation strategy, but the incomplete reporting of quantitative results, the lack of architectural details, and the limited scope of the transfer learning comparison prevent a full assessment of the claims. The authors should be encouraged to revise the manuscript to address these concerns.
+
+## Risk / unsupported claims
+- The claim that UniChrom "consistently achieved the highest performance across all cell types" is not fully supported, as only AUC and AUPR values are reported in the text for the ablation study, while other metrics are only referenced via supplementary figures.
+- The claim of "statistically significant" transfer learning advantages is based on comparisons against a single baseline method (ChINN), and the fairness of the comparison protocol is not fully described.
+- The claim that the interpretability analysis "reveals regulatory hierarchy in chromatin organization" is an over-interpretation of feature importance rankings from a single model and a single example locus.
+- The claim that the model provides "robust prediction across all distance categories" is not fully supported, as the text reports reductions in some metrics for long-range interactions without providing absolute values or statistical comparisons.
+- The statement that UniChrom is a "universal" architecture is not supported by the evidence, as the evaluation is limited to a specific set of cell lines and interaction types.

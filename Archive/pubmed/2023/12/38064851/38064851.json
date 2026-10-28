@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "38064851",
+    "doi": "10.1016/j.compbiomed.2023.107745",
+    "title": "Machine learning-based classification of deubiquitinase USP26 and its cell proliferation inhibition through stabilizing KLF6 in cervical cancer."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: We aim to accurately distinguish ubiquitin-specific proteases (USPs) from other members within the deubiquitinating enzyme families based on protein sequences. Additionally, we seek to elucidate the specific regulatory mechanisms through which USP26 modulates Kruppel-like factor 6 (KLF6) and assess the subsequent effects of this regulation on both the proliferation and migration of cervical cancer cells. METHODS: All the deubiquitinase (DUB) sequences were classified into USPs and non-USPs. Feature vectors, including 188D, n-gram, and 400D dimensions, were extracted from these sequences and subjected to binary classification via the Weka software. Next, thirty human USPs were also analyzed to identify conserved motifs and ascertained evolutionary relationships. Experimentally, more than 90 unique DUB-encoding plasmids were transfected into HeLa cell lines to assess alterations in KLF6 protein levels and to isolate a specific DUB involved in KLF6 regulation. Subsequent experiments utilized both wild-type (WT) USP26 overexpression and shRNA-mediated USP26 knockdown to examine changes in KLF6 protein levels. The half-life experiment was performed to assess the influence of USP26 on KLF6 protein stability. Immunoprecipitation was applied to confirm the USP26-KLF6 interaction, and ubiquitination assays to explore the role of USP26 in KLF6 deubiquitination. Additional cellular assays were conducted to evaluate the effects of USP26 on HeLa cell proliferation and migration. RESULTS: 1. Among the extracted feature vectors of 188D, 400D, and n-gram, all 12 classifiers demonstrated excellent performance. The RandomForest classifier demonstrated superior performance in this assessment. Phylogenetic analysis of 30 human USPs revealed the presence of nine unique motifs, comprising zinc finger and ubiquitin-specific protease domains. 2. Through a systematic screening of the deubiquitinase library, USP26 was identified as the sole DUB associated with KLF6. 3. USP26 positively regulated the protein level of KLF6, as evidenced by the decrease in KLF6 protein expression upon shUSP26 knockdown in both 293T and Hela cell lines. Additionally, half-life experiments demonstrated that USP26 prolonged the stability of KLF6. 4. Immunoprecipitation experiments revealed a strong interaction between USP26 and KLF6. Notably, the functional interaction domain was mapped to amino acids 285-913 of USP26, as opposed to the 1-295 region. 5. WT USP26 was found to attenuate the ubiquitination levels of KLF6. However, the mutant USP26 abrogated its deubiquitination activity. 6. Functional biological assays demonstrated that overexpression of USP26 inhibited both proliferation and migration of HeLa cells. Conversely, knockdown of USP26 was shown to promote these oncogenic properties. CONCLUSIONS: 1. At the protein sequence level, members of the USP family can be effectively differentiated from non-USP proteins. Furthermore, specific functional motifs have been identified within the sequences of human USPs. 2. The deubiquitinating enzyme USP26 has been shown to target KLF6 for deubiquitination, thereby modulating its stability. Importantly, USP26 plays a pivotal role in the modulation of proliferation and migration in cervical cancer cells.",
+    "keywords": [
+      "Cervical cancer",
+      "Deubiquitinase USP26",
+      "KLF6",
+      "Machine learning",
+      "Motif",
+      "Phylogenetic analysis"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Kruppel-Like Factor 6/genetics",
+      "HeLa Cells",
+      "*Uterine Cervical Neoplasms/genetics",
+      "Phylogeny",
+      "Ubiquitin-Specific Proteases/genetics/metabolism",
+      "Cell Proliferation",
+      "Cysteine Endopeptidases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Ying",
+        "Li, Meng",
+        "Pan, Qilong",
+        "Fang, Xin",
+        "Yang, Hong",
+        "Dong, Bingying",
+        "Yang, Jiaying",
+        "Zheng, Yuan",
+        "Zhang, Renxiang",
+        "Liao, Zhijun"
+      ],
+      "short_names": [
+        "Ye Y",
+        "Li M",
+        "Pan Q",
+        "Fang X",
+        "Yang H",
+        "Dong B",
+        "Yang J",
+        "Zheng Y",
+        "Zhang R",
+        "Liao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China; Laboratory of Non-communicable Chronic Disease Control, Fujian Provincial Center for Disease Control and Prevention, Fuzhou, 350012, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China. Electronic address: liaozhijun@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Ying",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Qilong",
+        "short_name": "Pan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xin",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China; Laboratory of Non-communicable Chronic Disease Control, Fujian Provincial Center for Disease Control and Prevention, Fuzhou, 350012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hong",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Bingying",
+        "short_name": "Dong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiaying",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuan",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Renxiang",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Zhijun",
+        "short_name": "Liao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, 350122, China. Electronic address: liaozhijun@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/09 05:43",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "42465006",
+      "42138186",
+      "41930189",
+      "41507147",
+      "40564863",
+      "40538878",
+      "39525605",
+      "39058724"
+    ],
+    "refs": [],
+    "similar": [
+      "38064851",
+      "38880224",
+      "35112985",
+      "27810359",
+      "35397626",
+      "33627786",
+      "32415280",
+      "26416890",
+      "30763716",
+      "31624151",
+      "26758085",
+      "39048945",
+      "26079537",
+      "38565942",
+      "28638268",
+      "38250150",
+      "31511647",
+      "23797609",
+      "34524611",
+      "29066014",
+      "36811009",
+      "32760222",
+      "38401523",
+      "24850727",
+      "30415394",
+      "30868974",
+      "25744535",
+      "35091692",
+      "28381482",
+      "35136416",
+      "27089915",
+      "20501646",
+      "26112833",
+      "17109758",
+      "24921656",
+      "30887115",
+      "24922532",
+      "37955538",
+      "29111204",
+      "34577547",
+      "29084019",
+      "35966591",
+      "35761154",
+      "34074766",
+      "20844588",
+      "26764006",
+      "34427978",
+      "25119587",
+      "32007559",
+      "31133011",
+      "15809067",
+      "31281542",
+      "35756421",
+      "30689267",
+      "37170124",
+      "34894601",
+      "34184746",
+      "26061460",
+      "34571917",
+      "21538018",
+      "34549978",
+      "32113161",
+      "32543267",
+      "30373771",
+      "38702734",
+      "21449984",
+      "31234902",
+      "28160502",
+      "35098684",
+      "18471523",
+      "32998707",
+      "33334891",
+      "19076057",
+      "21154818",
+      "15254734",
+      "23977008",
+      "35449340",
+      "37093451",
+      "32733026",
+      "32410375",
+      "19734957",
+      "24072712",
+      "28233861",
+      "16005295",
+      "19101139",
+      "36582601",
+      "33973730",
+      "34071237",
+      "38642059",
+      "30608617",
+      "18719336",
+      "23322324",
+      "22277651",
+      "31650732",
+      "28245560",
+      "32571254",
+      "37545272",
+      "16611142",
+      "28864835",
+      "34102342",
+      "23720098",
+      "36335636",
+      "37658402",
+      "36834633",
+      "29542252",
+      "35857630",
+      "38735506",
+      "38173207",
+      "38355287",
+      "38322269",
+      "39391229",
+      "39214302",
+      "37777157",
+      "39300775",
+      "39305962",
+      "39156988",
+      "38518599",
+      "31910334",
+      "39223516",
+      "26783425"
+    ],
+    "review": [
+      "38064851",
+      "39048945",
+      "23797609",
+      "36811009",
+      "38401523",
+      "34577547",
+      "31133011",
+      "38702734",
+      "21154818",
+      "37093451",
+      "28245560",
+      "16611142",
+      "37658402",
+      "36834633",
+      "38173207",
+      "38322269",
+      "39391229"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)01210-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38064851/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)01210-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

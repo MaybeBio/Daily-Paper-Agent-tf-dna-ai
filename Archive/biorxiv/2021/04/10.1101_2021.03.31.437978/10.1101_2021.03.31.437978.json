@@ -1,0 +1,122 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.31.437978",
+  "title": "Chromatin interaction aware gene regulatory modeling with graph attention networks",
+  "doi": "10.1101/2021.03.31.437978",
+  "abstract": "Linking distal enhancers to genes and modeling their impact on target gene expression are longstanding unresolved problems in regulatory genomics and critical for interpreting non-coding genetic variation. Here we present a new deep learning approach called GraphReg that exploits 3D interactions from chromosome conformation capture assays in order to predict gene expression from 1D epigenomic data or genomic DNA sequence. By using graph attention networks to exploit the connectivity of distal elements up to 2Mb away in the genome, GraphReg more faithfully models gene regulation and more accurately predicts gene expression levels than state-of-the-art deep learning methods for this task. Feature attribution used with GraphReg accurately identifies functional enhancers of genes, as validated by CRISPRi-FlowFISH and TAP-seq assays, outperforming both CNNs and the recently proposed Activity-by-Contact model. Sequence-based GraphReg also accurately predicts direct transcription factor (TF) targets as validated by CRISPRi TF knockout experiments via in silico ablation of TF binding motifs. GraphReg therefore represents an important advance in modeling the regulatory impact of epigenomic and sequence elements.",
+  "authors": [
+    "Karbalayghareh A",
+    "Sahin M",
+    "Leslie CS"
+  ],
+  "published_date": "2021-04-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.31.437978",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.31.437978.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR306256",
+    "raw_record": {
+      "id": "PPR306256",
+      "source": "PPR",
+      "doi": "10.1101/2021.03.31.437978",
+      "title": "Chromatin interaction aware gene regulatory modeling with graph attention networks",
+      "authorString": "Karbalayghareh A, Sahin M, Leslie CS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Karbalayghareh A",
+            "lastName": "Karbalayghareh",
+            "firstName": "Alireza",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sahin M",
+            "lastName": "Sahin",
+            "firstName": "Merve",
+            "initials": "M"
+          },
+          {
+            "fullName": "Leslie CS",
+            "lastName": "Leslie",
+            "firstName": "Christina",
+            "initials": "CS"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Linking distal enhancers to genes and modeling their impact on target gene expression are longstanding unresolved problems in regulatory genomics and critical for interpreting non-coding genetic variation. Here we present a new deep learning approach called GraphReg that exploits 3D interactions from chromosome conformation capture assays in order to predict gene expression from 1D epigenomic data or genomic DNA sequence. By using graph attention networks to exploit the connectivity of distal elements up to 2Mb away in the genome, GraphReg more faithfully models gene regulation and more accurately predicts gene expression levels than state-of-the-art deep learning methods for this task. Feature attribution used with GraphReg accurately identifies functional enhancers of genes, as validated by CRISPRi-FlowFISH and TAP-seq assays, outperforming both CNNs and the recently proposed Activity-by-Contact model. Sequence-based GraphReg also accurately predicts direct transcription factor (TF) targets as validated by CRISPRi TF knockout experiments via in silico ablation of TF binding motifs. GraphReg therefore represents an important advance in modeling the regulatory impact of epigenomic and sequence elements.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/12/10/2021.03.31.437978.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.31.437978"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35396274",
+            "reference": "Genome research. 2022 May;32(5):930-944",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-04-03",
+      "firstPublicationDate": "2021-04-02",
+      "firstIndexDate": "2021-04-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.20.481200",
+  "title": "Quantitative sequence basis for the E. coli transcriptional regulatory network",
+  "authors": "Qiu S; Lamoureux C; Akbari A; Palsson BO; Zielinski DC",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-20",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习基于基因组序列预测大肠杆菌转录调控网络结构，聚焦TF-DNA结合位点与DNA形状特征，虽非三维互作建模，但方法可迁移至TF-DNA结合预测研究。",
+  "abstract": "The transcriptional regulatory network (TRN) of E. coli consists of thousands of interactions between regulators and DNA sequences. Inherently the DNA sequence is the primary determinant of the TRN; however, it is well established that the presence of a DNA binding motif does not guarantee a functional regulatory protein binding site. Thus, the extent to which the TRN architecture can be predicted by the genome DNA sequence alone remains unclear. Here, we developed machine learning models that predict the TRN structure of E. coli based on genome sequence. Models were constructed successfully (cross-validation AUROC >= 0.8) for 84% (57/68) of valid E. coli regulons identified from top-down analysis of RNA-seq data. We found that: 1) While regulatory motif strength is the most important sequence feature for determining regulon membership, additional features such as DNA shape substantially influence membership; 2) complex regulons involving multiple interacting regulators could be unraveled by machine learning; 3) investigating regulons where initial ML models failed revealed new regulator-specific sequence features that improved model accuracy. Finally, while regulon structure can appear to be variable across estimation methods and strains, we found that strong regulatory sequence features underlie both the genes that appear most consistently in regulons across estimation methods as well as the core regulon genes in the Fur pan-regulon. This work develops a quantitative understanding of the sequence basis of the TRN and suggests a path towards computationally-guided control of transcriptional regulation for synthetic biology applications.",
+  "abstract_zh": "大肠杆菌的转录调控网络（TRN）由调控因子与DNA序列之间的数千种相互作用组成。本质上，DNA序列是TRN的主要决定因素；然而，众所周知，DNA结合基序的存在并不保证功能性调控蛋白结合位点的存在。因此，仅凭基因组DNA序列能在多大程度上预测TRN结构仍不清楚。在此，我们开发了基于基因组序列预测大肠杆菌TRN结构的机器学习模型。对于从RNA-seq数据自上而下分析中识别出的有效大肠杆菌调控子（regulons），模型成功构建（交叉验证AUROC >= 0.8）的比例为84%（57/68）。我们发现：1）虽然调控基序强度是决定调控子成员资格的最重要序列特征，但DNA形状等额外特征显著影响成员资格；2）涉及多个相互作用的调控因子的复杂调控子可通过机器学习解析；3）研究初始机器学习模型失败的调控子揭示了新的调控因子特异性序列特征，从而提高了模型准确性。最后，尽管调控子结构在不同估计方法和菌株间可能表现变异，但我们发现强调控序列特征既支撑了在不同估计方法中调控子内最一致出现的基因，也支撑了Fur泛调控子中的核心调控子基因。这项工作发展了对TRN序列基础的定量理解，并为合成生物学应用中计算引导的转录调控控制提供了路径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.20.481200",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.20.481200",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.20.481200/index.html"
+}

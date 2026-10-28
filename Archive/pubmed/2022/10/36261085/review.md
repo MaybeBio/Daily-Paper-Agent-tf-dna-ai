@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that bases immediately upstream of the TATAAT box (positions -15 to -13 and -18 to -16) in a model sigma 70 promoter of Escherichia coli significantly influence promoter activity, and that this influence is mediated by changes in DNA bending angle, supported by molecular dynamics simulations and electrophoretic mobility assays.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, raw activity measurements, simulation parameters, statistical analyses, and electrophoretic mobility data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation linking promoter spacer sequence to activity via DNA bending, but the evidence as presented is insufficient to establish the mechanistic claim. The reported correlations are suggestive but lack necessary controls, statistical detail, and methodological transparency. The work may be of interest to prokaryotic transcription specialists, but the current abstract does not provide enough information to assess technical soundness or generalizability.
+- **Who would be interested in the results, and why** Researchers studying bacterial promoter architecture, sigma factor recognition, and DNA structural determinants of transcription initiation. The findings could inform predictive models of promoter strength and synthetic biology applications in E. coli.
+- **Major strengths** The study addresses a previously unresolved question about spacer base preferences in sigma 70 promoters. The use of a consensus model promoter with systematic randomization is a reasonable approach. The combination of activity assays, molecular dynamics simulations, and electrophoretic mobility provides multiple lines of evidence for a structural mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "Good correlation between the bending angles of the promoter DNAs and promoter activities could be observed, the R(2) value being 0.8724."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The R(2) value is reported without any indication of the number of data points, the range of bending angles, or the statistical significance of the correlation. It is unclear whether this correlation is driven by a few outliers or represents a robust relationship across all tested promoters.
+  - **Why it matters** The central mechanistic claim rests on this correlation. Without proper statistical context, the reader cannot evaluate whether the observed relationship is meaningful or coincidental.
+  - **Resolution test** Provide a scatter plot with all data points, report the number of promoters analyzed, and include confidence intervals or a p-value for the correlation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "Pairs of promoters of very similar activities were observed, even when the bases in these three positions were very different. The promoters with similar activities had similar three dimensional structures of the promoter DNA, as determined by molecular dynamics simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that similar activities correspond to similar 3D structures is based on molecular dynamics simulations, but no details are given on simulation length, force field, convergence criteria, or how structural similarity was quantified. Without this information, the structural interpretation is not verifiable.
+  - **Why it matters** The mechanistic conclusion that sequence effects are mediated by bending angle depends on the reliability of the simulations. Unspecified simulation parameters could lead to artifacts or overinterpretation.
+  - **Resolution test** Describe simulation methods in sufficient detail, including software, force field, simulation time, and structural comparison metrics. Show representative structures or structural alignments for the cited promoter pairs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract reports specific activity values, such as "14,391(the three bases being GCA) and 264 Miller units (the three bases being AAA)" and "15,759 (the triplet upstream of GCA being TAT) and lowest activity of 1,882 (the triplet upstream of GCA being AAA)."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on the number of biological replicates, standard deviations, or statistical comparisons between promoter variants. The reader cannot assess whether the reported differences are reproducible or within experimental noise.
+  - **Why it matters** The magnitude of the reported activity range (over 50-fold) is striking, but without error bars or replicate data, the reliability of these measurements is unknown.
+  - **Resolution test** Report mean values with standard deviations or standard errors, specify the number of independent experiments, and include statistical tests for pairwise comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract states that "Different workers have found different bases of the spacer of the sigma 70 promoter of Escherichia coli to be important, depending on the base sequence of the two hexameric boxes of the naturally occurring promoter they were working on."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The study uses a single model promoter with consensus hexameric boxes. It is unclear whether the observed effects of bases at -15 to -13 and -18 to -16 are specific to this consensus context or generalizable to natural promoters with non-consensus boxes.
+  - **Why it matters** The abstract frames the work as addressing discrepancies in the literature, but the use of a single model promoter limits the ability to resolve those discrepancies.
+  - **Resolution test** Discuss how the findings relate to natural promoter contexts, or provide preliminary data on at least one non-consensus promoter background.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Different workers have found different bases of the spacer... to be important" is vague and does not specify which studies or which bases were implicated.
+  - **Required correction** Cite specific prior studies and summarize their conflicting findings to provide context for the current work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Electrophoretic mobility data
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The statement "Retardation of electrophoretic mobility of the promoter DNAs correlated well with activity" lacks quantitative detail, such as correlation coefficient or number of samples.
+  - **Required correction** Provide the correlation statistic and sample size, or refer to a figure in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "bending angle"
+  - **Evidence pointer** Abstract, throughout
+  - **Issue** The term "bending angle" is used without defining how it was calculated from the simulations or how it relates to electrophoretic mobility.
+  - **Required correction** Define the bending angle metric and explain its biological relevance in the context of promoter recognition.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of statistical context for the correlation, unspecified simulation methods, and missing replicate data prevent the mechanistic claim from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The question of spacer base effects is not new, but the proposed structural mechanism via bending angle is a potentially novel contribution. Scientific importance: Moderate; the findings could inform promoter prediction models but are limited to a single model system. Interdisciplinary readership: Limited; primarily relevant to molecular biologists and biophysicists studying DNA structure. Technical soundness: Not assessable from the abstract due to missing methodological details. Readability for nonspecialists: The abstract is generally clear but assumes familiarity with promoter nomenclature and Miller units.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the methodological and statistical detail required to support the central mechanistic claim. A revised manuscript with full methods, replicate data, and proper statistical analysis could change this assessment.
+
+## Risk / unsupported claims
+- The claim that DNA bending angle directly mediates promoter activity is not supported by the abstract alone, as no causal evidence is presented.
+- The claim that similar activities correspond to similar 3D structures is unverifiable without simulation details.
+- The reported activity values and correlation coefficient cannot be evaluated without replicate data and statistical context.
+- The generalizability of the findings to natural promoters with non-consensus hexameric boxes is not addressed.

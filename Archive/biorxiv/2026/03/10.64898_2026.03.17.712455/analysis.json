@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.17.712455",
+  "title": "HERCULES: an integrative deep-learning framework for predicting RNA-binding propensity and mutation effects at single-residue resolution",
+  "authors": "Jonathan Fiorentino; Michele Monti; Alexandros Armaos; Dimitrios Miltiadis-Vrachnos; Lorenzo Di Rienzo; Gian Gaetano Tartaglia",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于蛋白语言模型和理化特征的深度学习框架HERCULES，用于预测RNA结合蛋白的RNA结合域定位和突变效应，虽属蛋白-核酸互作且方法可迁移，但对象为RNA而非DNA，与TF-DNA课题关联有限。",
+  "abstract": "RNA-binding proteins (RBPs) regulate essential aspects of RNA metabolism, yet accurately identifying RNA-binding domains (RBDs) and quantifying the impact of sequence variation on RNA-binding ability remain challenging. Here, we present HERCULES ( H ybrid fram E wo R k for RNA-binding domain lo C alization and m U tation ana L ysis using physicochemical and languag E model S) , a unified sequence-based framework for simultaneous RBD localization, global RNA-binding propensity prediction and mutation effect assessment. HERCULES integrates a fine-tuned protein language model with an explicit residue-level physicochemical module, combining global contextual representations with local mutation-sensitive descriptors. On an independent test set, the HERCULES global score discriminates RBPs from non-RBPs with an AUROC of 0.86. At residue resolution, HERCULES outperforms state-of-the-art sequence-based predictors in identifying canonical, non-canonical and putative RBDs across Pfam-annotated proteins. Using a curated dataset of experimentally validated RNA-binding–disrupting mutations, HERCULES correctly classifies 87% of deleterious variants, including single–amino acid substitutions. Evaluation on experimentally resolved protein–RNA complexes further demonstrates robust residue-level performance and improved generalization when contact annotations are augmented with AlphaFold3-predicted complexes. By unifying domain localization and mutation sensitivity within a single sequence-only framework, HERCULES provides a mechanistically interpretable approach for studying RNA–protein interactions. HERCULES is freely available at https://tools.tartaglialab.com/hercules and as an open-source Python package at https://github.com/tartaglialabIIT/hercules.git .",
+  "abstract_zh": "RNA结合蛋白（RNA-binding proteins, RBPs）调控RNA代谢的关键方面，然而准确识别RNA结合结构域（RNA-binding domains, RBDs）并量化序列变异对RNA结合能力的影响仍具挑战性。在此，我们提出HERCULES（用于RNA结合结构域定位和突变分析、利用物理化学和语言模型的混合框架，H ybrid fram e wo R k for RNA-binding domain lo C alization and m U tation ana L ysis using physicochemical and languag E model S），这是一个统一的基于序列的框架，可同时进行RBD定位、全局RNA结合倾向预测和突变效应评估。HERCULES整合了一个微调后的蛋白质语言模型与一个显式的残基级物理化学模块，将全局上下文表示与局部突变敏感描述符相结合。在独立测试集上，HERCULES全局评分区分RBPs与非RBPs的AUROC为0.86。在残基分辨率下，HERCULES在识别Pfam注释蛋白中的经典、非经典和推定RBD方面优于最先进的基于序列的预测器。使用一个经实验验证的RNA结合破坏性突变的精选数据集，HERCULES正确分类了87%的有害变异，包括单氨基酸替换。对实验解析的蛋白质-RNA复合物的评估进一步展示了稳健的残基级性能，并在接触注释通过AlphaFold3预测复合物增强时改善了泛化能力。通过将结构域定位和突变敏感性统一在一个仅基于序列的框架内，HERCULES为研究RNA-蛋白质相互作用提供了一种机制上可解释的方法。HERCULES可在https://tools.tartaglialab.com/hercules 免费获取，并作为开源Python包在https://github.com/tartaglialabIIT/hercules.git 提供。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712455",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712455",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.17.712455/index.html"
+}

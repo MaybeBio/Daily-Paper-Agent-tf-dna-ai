@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42680997",
+  "title": "A Dynamic Boolean Model of the Mammalian Cell Cycle: Enhanced Robustness and Mutational Analysis.",
+  "authors": "Alsharaiah, Mohammad Abdallah; Samarasinghe, Sandhya; Kulasiri, Don",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2026-09-02",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建哺乳动物细胞周期的布尔动态模型，虽涉及转录因子（Myc、TFE、TFB）但未聚焦蛋白质-DNA互作或结合机制，且方法为布尔逻辑模拟而非AI或物理模拟，与本课题关联微弱。",
+  "abstract": "The mammalian cell cycle is a tightly regulated process driven by cyclins, their regulators. While previous Boolean models captured certain aspects of cell cycle dynamics, they suffered from incomplete coverage of key regulatory proteins and limited temporal realism. Here, we present an improved Boolean model of the mammalian cell cycle core control system. The model incorporates a complete set of 13 essential elements, including cyclins (D, E, A, B), their transcription factors (Myc, TFE, TFB), inhibitors (p27, Rb), ubiquitin-mediated degraders (SCF, CDH1, CDC20A, CDC20B). We also introduce synchronous, asynchronous updating schemes with realistic time delays for protein activation, enabling a more accurate temporal representation of cell cycle progression. Simulation results reveal two principal attractors: a stable G0 attractor, a 20-state limit cycle attractor representing realistic phase transitions of the cell cycle. Robustness, sensitivity analyses demonstrate that the system is highly resilient, while mutation studies highlight vulnerabilities-particularly that overexpression of certain regulators halts cell cycle progression more frequently than knockouts. This chapter provides detailed modeling steps, Boolean logic formulations, simulation procedures, and mutation experiments. Possible extensions of the model are also provided, along with some guidance on implementing and troubleshooting Boolean models for cell cycle analysis.",
+  "abstract_zh": "哺乳动物细胞周期是一个由细胞周期蛋白及其调控因子驱动的严格调控过程。尽管以往的布尔模型捕捉了细胞周期动力学的某些方面，但它们存在关键调控蛋白覆盖不全和时间真实性有限的问题。在此，我们提出了一个改进的哺乳动物细胞周期核心控制系统布尔模型。该模型包含一套完整的13个必需元件，包括细胞周期蛋白（D、E、A、B）、其转录因子（Myc、TFE、TFB）、抑制剂（p27、Rb）、泛素介导的降解因子（SCF、CDH1、CDC20A、CDC20B）。我们还引入了同步、异步更新方案，并带有蛋白质激活的现实时间延迟，从而能够更准确地表示细胞周期进程的时间动态。模拟结果揭示了两个主要吸引子：一个稳定的G0吸引子，以及一个代表细胞周期现实相变的20状态极限环吸引子。鲁棒性和敏感性分析表明，该系统具有高度弹性，而突变研究则突出了脆弱性——特别是某些调控因子的过表达比敲除更频繁地阻止细胞周期进程。本章提供了详细的建模步骤、布尔逻辑公式、模拟程序和突变实验。还提供了模型可能的扩展，以及关于实施和排查细胞周期分析布尔模型的一些指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42680997/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42680997/",
+  "paper_page_path": "papers/pubmed/42680997/index.html"
+}

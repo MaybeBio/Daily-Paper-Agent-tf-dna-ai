@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "40203060",
+    "doi": "10.1371/journal.pcbi.1012997",
+    "title": "Transcriptomic landscape around wound bed defines regenerative versus non-regenerative outcomes in mouse digit amputation."
+  },
+  "content": {
+    "abstract": "In the mouse distal terminal phalanx (P3), it remains mystery why amputation at less than 33% of the digit results in regeneration, while amputation exceeding 67% leads to non-regeneration. Unraveling the molecular mechanisms underlying this disparity could provide crucial insights for regenerative medicine. In this study, we aim to investigate the tissues within the wound bed to understand the tissue microenvironment associated with regenerative versus non-regenerative outcomes. We employed a P3-specific amputation model in mice, integrated with time-series RNA-seq and a macrophage assay challenged with pro- and anti-inflammatory cytokines, to explore these mechanisms. Our findings revealed that non-regenerative digits exhibit a greater intense early transcriptional response in the wound bed compared to regenerative ones. Furthermore, early macrophage phenotypes differ distinctly between regenerative and non-regenerative outcomes. Regenerative digits also display unique co-expression modules related to Bone Morphogenetic Protein 2 (Bmp2). The differentially expressed genes (DEGs) between regenerative and non-regenerative digits are enriched in targets of several transcription factors, such as HOXA11 and HOXD11 from the HOX gene family, showing a time-dependent pattern of enrichment. These transcription factors, known for their roles in bone regeneration, skeletal patterning, osteoblast activity, fracture healing, angiogenesis, and key signaling pathways, may act as master regulators of the regenerative gene signatures. Additionally, we developed a deep learning AI model capable of predicting post-amputation time and level from RNA-seq data, indicating that the regenerative probability may be \"encoded\" in the transcriptomic response to amputation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Transcriptome/genetics",
+      "*Amputation, Surgical",
+      "*Wound Healing/genetics",
+      "*Regeneration/genetics",
+      "Computational Biology",
+      "Macrophages/metabolism",
+      "Mice, Inbred C57BL",
+      "Gene Expression Profiling",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Prabahar, Archana",
+        "Chamberlain, Connie S",
+        "Vanderby, Ray",
+        "Murphy, William L",
+        "Dangelo, William",
+        "Mangesh, Kulkarni",
+        "Brown, Bryan",
+        "Mazumder, Barsanjit",
+        "Badylak, Stephen",
+        "Jiang, Peng"
+      ],
+      "short_names": [
+        "Prabahar A",
+        "Chamberlain CS",
+        "Vanderby R",
+        "Murphy WL",
+        "Dangelo W",
+        "Mangesh K",
+        "Brown B",
+        "Mazumder B",
+        "Badylak S",
+        "Jiang P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6426-4548",
+        "ORCID: 0000-0002-6057-7624"
+      ],
+      "affiliations": [
+        "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+        "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America.",
+        "Department of Orthopedics and Rehabilitation, University of Wisconsin, Madison, Wisconsin, United States of America.",
+        "Department of Orthopedics and Rehabilitation, University of Wisconsin, Madison, Wisconsin, United States of America.",
+        "Department of Biomedical Engineering, University of Wisconsin, Madison, Wisconsin, United States of America.",
+        "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+        "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America.",
+        "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+        "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Prabahar, Archana",
+        "short_name": "Prabahar A",
+        "identifiers": [
+          "0000-0001-6426-4548"
+        ],
+        "affiliations": [
+          "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+          "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chamberlain, Connie S",
+        "short_name": "Chamberlain CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics and Rehabilitation, University of Wisconsin, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Vanderby, Ray",
+        "short_name": "Vanderby R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics and Rehabilitation, University of Wisconsin, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Murphy, William L",
+        "short_name": "Murphy WL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Wisconsin, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dangelo, William",
+        "short_name": "Dangelo W",
+        "identifiers": [],
+        "affiliations": [
+          "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+          "Department of Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mangesh, Kulkarni",
+        "short_name": "Mangesh K",
+        "identifiers": [],
+        "affiliations": [
+          "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Brown, Bryan",
+        "short_name": "Brown B",
+        "identifiers": [],
+        "affiliations": [
+          "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mazumder, Barsanjit",
+        "short_name": "Mazumder B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+          "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Badylak, Stephen",
+        "short_name": "Badylak S",
+        "identifiers": [],
+        "affiliations": [
+          "McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+          "Department of Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Jiang, Peng",
+        "short_name": "Jiang P",
+        "identifiers": [
+          "0000-0002-6057-7624"
+        ],
+        "affiliations": [
+          "Center for Gene Regulation in Health and Disease, Cleveland State University, Cleveland, Ohio, United States of America.",
+          "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 18:26",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42141493"
+    ],
+    "refs": [
+      "37530555",
+      "37509634",
+      "37090104",
+      "36759627",
+      "36641754",
+      "36196399",
+      "35543974",
+      "33590863",
+      "33477502",
+      "32993414",
+      "32933207",
+      "32506623",
+      "32097654",
+      "32039177",
+      "31902657",
+      "31114921",
+      "30413720",
+      "29405625",
+      "29293088",
+      "29126249",
+      "28935712",
+      "28493324",
+      "27499873",
+      "27180275",
+      "26345541",
+      "25831155",
+      "25822800",
+      "25303440",
+      "25043569",
+      "24777851",
+      "24750063",
+      "24091925",
+      "23428641",
+      "23408541",
+      "23041115",
+      "21816040",
+      "21145316",
+      "19261174",
+      "18234177",
+      "17147657",
+      "7100922"
+    ],
+    "similar": [
+      "40203060",
+      "28493324",
+      "32506623",
+      "42475469",
+      "41046114",
+      "32815252",
+      "39736516",
+      "38767331",
+      "27595936",
+      "23512742",
+      "30120800",
+      "28068897",
+      "35616636",
+      "31273239",
+      "18234177",
+      "23041115",
+      "31355793",
+      "42675601",
+      "3977084",
+      "41635850",
+      "7538067",
+      "41997949",
+      "37784028",
+      "34783092",
+      "40015667",
+      "41107929",
+      "21826735",
+      "28150733",
+      "32776615",
+      "24029950",
+      "30054965",
+      "23349966",
+      "33769920",
+      "24670243",
+      "41487999",
+      "42104209",
+      "41398680",
+      "39079197",
+      "38342399",
+      "42565562",
+      "28733351",
+      "30723209",
+      "38986808",
+      "33608506",
+      "31889169",
+      "36177656",
+      "35194136",
+      "40962475",
+      "41573951",
+      "20110320",
+      "40764361",
+      "39842648",
+      "33972536",
+      "15781240",
+      "40872306",
+      "40806551",
+      "42643640",
+      "23327620",
+      "40018936",
+      "41869031",
+      "35130972",
+      "40158766",
+      "35353991",
+      "35664010",
+      "41955369",
+      "41478392",
+      "42455246",
+      "24851900",
+      "41623168",
+      "23505351",
+      "41242266",
+      "33626340",
+      "41499500",
+      "39366531",
+      "18570684",
+      "40042873",
+      "30291668",
+      "32016679",
+      "37950327",
+      "17986260",
+      "28975034",
+      "28268192",
+      "41483202",
+      "40076659",
+      "38664790",
+      "31141508",
+      "42286465",
+      "41420753",
+      "21145316",
+      "42519343",
+      "42104495",
+      "24699800",
+      "41219826",
+      "37212262",
+      "41816342",
+      "40725496",
+      "41331886",
+      "40349205",
+      "36157062",
+      "41915247"
+    ],
+    "review": [
+      "40203060",
+      "30291668",
+      "17986260",
+      "41420753"
+    ],
+    "pmc": [
+      "12011309"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012997",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40203060/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

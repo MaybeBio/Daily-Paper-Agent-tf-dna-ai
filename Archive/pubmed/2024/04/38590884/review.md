@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusion) as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data, supplementary files, or raw data were accessed.
+- **Shared manuscript claim summary** The authors report the design and synthesis of a series of 2-iminobenzimidazole derivatives as potential c-Myc inhibitors for multiple myeloma. Compounds 5b and 5d are claimed to show potent anti-MM activity (IC50 below 1 µM), suppress c-Myc protein and mRNA expression, inhibit c-Myc transcriptional activity, and induce apoptosis and G1 cell cycle arrest. Molecular docking is used to support binding at the c-Myc/Max-DNA interface.
+- **Visible evidence base** Synthetic schemes and compound characterization data (NMR, HRMS, melting points); cell viability data (Table 1); Western blot, Q-PCR, and dual-luciferase reporter assay data (Fig. 2); flow cytometry apoptosis and cell cycle data (Fig. 4); molecular docking figures (Fig. 3); SwissADME predictions (Table 2). Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary data (Table S1, Fig. S1), raw Western blot images, full dose-response curves, statistical details for all experiments, docking validation parameters, and any positive/negative control data for the luciferase assay are not available for assessment.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a straightforward medicinal chemistry effort with a clear rationale and a reasonable synthetic route. The identification of 5b and 5d as sub-micromolar inhibitors of myeloma cell proliferation is of interest. However, the evidence linking these compounds to direct c-Myc inhibition is indirect and incomplete. The mechanistic claims, particularly regarding direct binding and specificity, are not fully supported by the data presented. The manuscript would benefit from additional experiments to establish target engagement and to rule off-target effects.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry and chemical biology focused on targeting transcription factors, particularly the MYC family. The work may also be of interest to those studying multiple myeloma biology and seeking new chemical probes or lead compounds for c-Myc-driven malignancies.
+- **Major strengths** The synthetic chemistry is clearly described and the compounds are characterized. The selection of compounds for further study is logical based on the initial screening. The use of multiple assays (viability, Western blot, Q-PCR, luciferase, flow cytometry) to characterize the effects of 5b and 5d is commendable. The docking study provides a plausible, albeit preliminary, structural hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target engagement and mechanism of action
+  - **Claim pointer** The manuscript claims that 5b and 5d are "c-Myc inhibitors" and that they act by disrupting the c-Myc/Max-DNA interaction.
+  - **Evidence pointer** Results and discussion, "Compounds 5b and 5d exerted inhibitory effects on the expression and transcriptional activity of c-Myc"; Fig. 2; Fig. 3.
+  - **Concern** The claim of direct c-Myc inhibition is not substantiated. The data show that 5b and 5d reduce c-Myc protein and mRNA levels and inhibit c-Myc-driven transcription. However, this could be an indirect effect, for example, through modulation of upstream signaling pathways that control MYC expression or stability. The docking study is purely computational and does not provide experimental evidence of direct binding. No biophysical assays (e.g., SPR, ITC, NMR) or cellular target engagement assays (e.g., CETSA, DARTS) are presented to demonstrate that 5b and 5d bind directly to the c-Myc/Max complex or to the c-Myc/Max-DNA interface.
+  - **Why it matters** The central premise of the manuscript is that these are c-Myc inhibitors. Without direct evidence of target engagement, the mechanism of action remains speculative. This is critical for the validity of the conclusions and for the potential utility of these compounds as specific chemical tools or therapeutic leads.
+  - **Resolution test** Provide direct evidence of binding to the c-Myc/Max complex, such as SPR or ITC data, or a cellular target engagement assay. Alternatively, demonstrate that the compounds disrupt the c-Myc/Max-DNA interaction in a biophysical assay (e.g., EMSA). Show that the effects on c-Myc expression are a consequence of direct inhibition, not an indirect effect on upstream regulators.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The manuscript implies that the anti-proliferative effects of 5b and 5d are due to c-Myc inhibition.
+  - **Evidence pointer** Results and discussion, "Compounds 5b and 5d induced apoptosis and G1 cell cycle arrest"; Fig. 4.
+  - **Concern** The manuscript does not address the selectivity of 5b and 5d for c-Myc over other bHLHZip transcription factors or other cellular targets. The observed effects on cell viability, apoptosis, and cell cycle could be due to off-target effects. The lack of a structurally related inactive analog as a negative control weakens the conclusions. Furthermore, the concentrations used for mechanistic studies (1 µM) are close to the IC50 values, and the selectivity window over the non-cancerous cell line (293T) is not clearly established from the data provided.
+  - **Why it matters** For a compound to be considered a specific c-Myc inhibitor, evidence of selectivity is required. Without it, the observed phenotypes cannot be confidently attributed to c-Myc inhibition. This is essential for the scientific validity of the claims and for the potential development of these compounds.
+  - **Resolution test** Test the compounds against a panel of related transcription factors or in a broader kinase/off-target panel. Include a negative control compound (e.g., an inactive analog) in all cellular assays. Provide a clear comparison of the effects on myeloma cells versus non-malignant cells to establish a therapeutic window.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness and rigor
+  - **Claim pointer** The manuscript states that 5b and 5d "effectively suppressed both c-Myc protein expression and transcriptional activity."
+  - **Evidence pointer** Results and discussion, "Compounds 5b and 5d exerted inhibitory effects on the expression and transcriptional activity of c-Myc"; Fig. 2.
+  - **Concern** The Western blot data are presented as representative images without quantification. The Q-PCR data are shown as bar graphs, but the number of biological replicates, the statistical test used, and the error bars are not fully described. The dual-luciferase assay is described, but the details of the transfection, normalization, and the statistical analysis are missing. The concentration of compounds used in these assays is stated as 1 µM, but the rationale for this concentration is not provided.
+  - **Why it matters** The conclusions are based on these data, and without proper quantification and statistical analysis, the robustness of the findings cannot be evaluated. This is a fundamental requirement for reproducibility and scientific rigor.
+  - **Resolution test** Provide quantified Western blot data (e.g., bar graphs of densitometry from at least three independent experiments). Clearly state the number of replicates and the statistical methods used for all quantitative assays. Provide full details of the luciferase assay protocol, including normalization controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** "In 2003, Yin et al. [99] discovered three compounds..."
+  - **Issue** The reference is cited as "[99]" which is likely an error. The citation numbering appears to be incorrect.
+  - **Required correction** Correct the citation number and ensure all references are properly formatted and numbered.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table uses "Image 2" etc. as placeholders for chemical structures. This is not acceptable for a final publication.
+  - **Required correction** Replace the image placeholders with the actual chemical structures or clear descriptions of the R1 and R2 groups.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Materials and methods, "Cell culture"
+  - **Evidence pointer** "human renal epithelial cells (293T) were obtained from the Jiangsu Key Laboratory of New Drug Research and Clinical Pharmacy"
+  - **Issue** The source of the cells is unusual. 293T cells are a widely used laboratory cell line and are typically obtained from a cell bank (e.g., ATCC). The provenance should be clarified.
+  - **Required correction** Clarify the source of the cell lines and provide appropriate authentication information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of docking results
+  - **Affected element** Results and discussion, "Molecular modeling analysis"
+  - **Evidence pointer** Fig. 3
+  - **Issue** The docking analysis is described as showing compounds "snugly embedded within the hydrophobic pocket." However, the figure is not available for review. The significance of the docking scores is not discussed in the context of known c-Myc inhibitors.
+  - **Required correction** Provide the docking figure and discuss the scores in the context of other known inhibitors. Acknowledge the limitations of the docking approach.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Conclusion strength
+  - **Affected element** Conclusion
+  - **Evidence pointer** "owing to their groundbreaking chemical structure and extraordinary anti-MM activity"
+  - **Issue** The terms "groundbreaking" and "extraordinary" are subjective and overstated. The reported activities are in the low micromolar range, which is modest.
+  - **Required correction** Use more measured language, such as "novel chemical structure" and "potent anti-MM activity in vitro."
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for c-Myc binding (R1-M1) is the primary technical failing. The absence of selectivity data (R1-M2) and incomplete statistical reporting (R1-M3) are also significant issues that need to be resolved.
+- **Assessment against Nature-style criteria**
+  - **Originality** The chemical scaffold is novel, but the approach of targeting c-Myc is well-established. The originality is incremental.
+  - **Scientific importance** The work addresses a relevant and difficult target in oncology. However, the lack of mechanistic depth limits the current importance.
+  - **Interdisciplinary readership** The work is primarily of interest to medicinal chemists and chemical biologists. The cellular and mechanistic data are not sufficiently developed to attract a broader cancer biology audience.
+  - **Technical soundness** The synthetic chemistry appears sound. The biological assays are standard, but the execution and reporting are incomplete, particularly regarding target engagement and statistical rigor.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the introduction and discussion assume a high level of familiarity with the MYC field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claim of c-Myc inhibition is not supported by direct experimental evidence. Major revisions and additional experiments are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that 5b and 5d are direct "c-Myc inhibitors" is unsupported by direct binding or target engagement data.
+- The claim that the compounds disrupt the c-Myc/Max-DNA interaction is based solely on a computational docking study and is not experimentally validated.
+- The statement that 5b and 5d have "favorable safety profiles" based on a single cell line (293T) is an overstatement.
+- The conclusion that the compounds' effects are due to on-target c-Myc inhibition is not supported, as off-target effects have not been ruled out.

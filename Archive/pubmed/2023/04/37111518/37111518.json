@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "37111518",
+    "doi": "10.3390/pharmaceutics15041032",
+    "title": "Structural Adaptation of the Single-Stranded DNA-Binding Protein C-Terminal to DNA Metabolizing Partners Guides Inhibitor Design."
+  },
+  "content": {
+    "abstract": "Single-stranded DNA-binding protein (SSB) is a bacterial interaction hub and an appealing target for antimicrobial therapy. Understanding the structural adaptation of the disordered SSB C-terminus (SSB-Ct) to DNA metabolizing enzymes (e.g., ExoI and RecO) is essential for designing high-affinity SSB mimetic inhibitors. Molecular dynamics simulations revealed the transient interactions of SSB-Ct with two hot spots on ExoI and RecO. The residual flexibility of the peptide-protein complexes allows adaptive molecular recognition. Scanning with non-canonical amino acids revealed that modifications at both termini of SSB-Ct could increase the affinity, supporting the two-hot-spot binding model. Combining unnatural amino acid substitutions on both segments of the peptide resulted in enthalpy-enhanced affinity, accompanied by enthalpy-entropy compensation, as determined by isothermal calorimetry. NMR data and molecular modeling confirmed the reduced flexibility of the improved affinity complexes. Our results highlight that the SSB-Ct mimetics bind to the DNA metabolizing targets through the hot spots, interacting with both of segments of the ligands.",
+    "keywords": [
+      "antimicrobial",
+      "intrinsically disordered proteins",
+      "non-natural amino acid",
+      "peptide",
+      "single-stranded DNA-binding protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tokoli, Attila",
+        "Bodnar, Brigitta",
+        "Bogar, Ferenc",
+        "Paragi, Gabor",
+        "Hetenyi, Anasztazia",
+        "Bartus, Eva",
+        "Weber, Edit",
+        "Hegedus, Zsofia",
+        "Szabo, Zoltan",
+        "Kecskemeti, Gabor",
+        "Szakonyi, Gerda",
+        "Martinek, Tamas A"
+      ],
+      "short_names": [
+        "Tokoli A",
+        "Bodnar B",
+        "Bogar F",
+        "Paragi G",
+        "Hetenyi A",
+        "Bartus E",
+        "Weber E",
+        "Hegedus Z",
+        "Szabo Z",
+        "Kecskemeti G",
+        "Szakonyi G",
+        "Martinek TA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0611-1452",
+        "ORCID: 0000-0001-5408-1748",
+        "ORCID: 0000-0001-8278-8038",
+        "ORCID: 0000-0002-5584-6869"
+      ],
+      "affiliations": [
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "ELKH-SZTE Biomimetic Systems Research Group, Eotvos Lorand Research Network (ELKH), H6720 Szeged, Hungary.",
+        "ELKH-SZTE Biomimetic Systems Research Group, Eotvos Lorand Research Network (ELKH), H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Institute of Physics, University of Pecs, H7624 Pecs, Hungary.",
+        "Department of Theoretical Physics, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "ELKH-SZTE Biomimetic Systems Research Group, Eotvos Lorand Research Network (ELKH), H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "ELKH-SZTE Biomimetic Systems Research Group, Eotvos Lorand Research Network (ELKH), H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "Institute of Pharmaceutical Analysis, University of Szeged, H6720 Szeged, Hungary.",
+        "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+        "ELKH-SZTE Biomimetic Systems Research Group, Eotvos Lorand Research Network (ELKH), H6720 Szeged, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tököli, Attila",
+        "short_name": "Tököli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Bodnár, Brigitta",
+        "short_name": "Bodnár B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+          "ELKH-SZTE Biomimetic Systems Research Group, Eötvös Loránd Research Network (ELKH), H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Bogár, Ferenc",
+        "short_name": "Bogár F",
+        "identifiers": [
+          "0000-0002-0611-1452"
+        ],
+        "affiliations": [
+          "ELKH-SZTE Biomimetic Systems Research Group, Eötvös Loránd Research Network (ELKH), H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Paragi, Gábor",
+        "short_name": "Paragi G",
+        "identifiers": [
+          "0000-0001-5408-1748"
+        ],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+          "Institute of Physics, University of Pécs, H7624 Pécs, Hungary.",
+          "Department of Theoretical Physics, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hetényi, Anasztázia",
+        "short_name": "Hetényi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Bartus, Éva",
+        "short_name": "Bartus É",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+          "ELKH-SZTE Biomimetic Systems Research Group, Eötvös Loránd Research Network (ELKH), H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Wéber, Edit",
+        "short_name": "Wéber E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+          "ELKH-SZTE Biomimetic Systems Research Group, Eötvös Loránd Research Network (ELKH), H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hegedüs, Zsófia",
+        "short_name": "Hegedüs Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Szabó, Zoltán",
+        "short_name": "Szabó Z",
+        "identifiers": [
+          "0000-0001-8278-8038"
+        ],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kecskeméti, Gábor",
+        "short_name": "Kecskeméti G",
+        "identifiers": [
+          "0000-0002-5584-6869"
+        ],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Szakonyi, Gerda",
+        "short_name": "Szakonyi G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Analysis, University of Szeged, H6720 Szeged, Hungary."
+        ]
+      },
+      {
+        "full_name": "Martinek, Tamás A",
+        "short_name": "Martinek TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Chemistry, University of Szeged, H6720 Szeged, Hungary.",
+          "ELKH-SZTE Biomimetic Systems Research Group, Eötvös Loránd Research Network (ELKH), H6720 Szeged, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Pharmaceutics"
+    ],
+    "pub_date": "2023 Mar 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 06:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "42086756",
+      "41303349",
+      "40790032"
+    ],
+    "refs": [
+      "37625010",
+      "36770863",
+      "36621987",
+      "36573828",
+      "35223988",
+      "35163473",
+      "35065702",
+      "34993233",
+      "34426795",
+      "34096718",
+      "34089559",
+      "33916151",
+      "33450019",
+      "32968059",
+      "32196797",
+      "31745331",
+      "31301019",
+      "31117513",
+      "30447030",
+      "30188719",
+      "29470422",
+      "28928411",
+      "28570838",
+      "28073967",
+      "28054562",
+      "27838363",
+      "27589349",
+      "27156117",
+      "26791724",
+      "26139286",
+      "25524420",
+      "25477226",
+      "25362358",
+      "24170407",
+      "23609540",
+      "23536821",
+      "22976180",
+      "22902627",
+      "21714551",
+      "21504984",
+      "20018747",
+      "19527069",
+      "19451222",
+      "19122661",
+      "18937104",
+      "18591666",
+      "18075579",
+      "17483090",
+      "17218491",
+      "16172406",
+      "15576682",
+      "14235546",
+      "10782989",
+      "9632377",
+      "9500915",
+      "6363409",
+      "340457"
+    ],
+    "similar": [
+      "37111518",
+      "36808259",
+      "19527069",
+      "21504984",
+      "21169364",
+      "18591666",
+      "20018747",
+      "21572106",
+      "31329947",
+      "20360609",
+      "20329707",
+      "24021816",
+      "25903123",
+      "8962075",
+      "7962001",
+      "25562210",
+      "32374866",
+      "29974396",
+      "24606314",
+      "8483906",
+      "18000001",
+      "28078720",
+      "22698072",
+      "17272275",
+      "20698672",
+      "33020264",
+      "22976187",
+      "38770626",
+      "10782989",
+      "19150358",
+      "38663547",
+      "22976180",
+      "36912097",
+      "22976176",
+      "9184154",
+      "33450019",
+      "24681881",
+      "11577073",
+      "21360615",
+      "38470036",
+      "16618108",
+      "28750050",
+      "23629733",
+      "29059392",
+      "28127816",
+      "8759000",
+      "24288378",
+      "29803030",
+      "29470422",
+      "20972214",
+      "10353851",
+      "28615444",
+      "23283730",
+      "29588158",
+      "11000276",
+      "9141679",
+      "9600857",
+      "8611514",
+      "26707201",
+      "36769124",
+      "23430154",
+      "6298232",
+      "33847955",
+      "38614173",
+      "37142225",
+      "18223256",
+      "34089559",
+      "1648407",
+      "15159541",
+      "27084941",
+      "24705540",
+      "12598538",
+      "3536507",
+      "22447448",
+      "36477586",
+      "22543238",
+      "28782560",
+      "17483090",
+      "19094995",
+      "24792418",
+      "22549990",
+      "3882711",
+      "26381353",
+      "26766785",
+      "21170359",
+      "9497392",
+      "22427673",
+      "8463320",
+      "3519979",
+      "22543099",
+      "22976174",
+      "9127948",
+      "2663063",
+      "31708161",
+      "32196797",
+      "3295259",
+      "10686098",
+      "2953903",
+      "28570838",
+      "1988680"
+    ],
+    "review": [
+      "37111518",
+      "38770626",
+      "29588158",
+      "36769124"
+    ],
+    "pmc": [
+      "10143822"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=pharmaceutics15041032",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37111518/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37111518",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37111518",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

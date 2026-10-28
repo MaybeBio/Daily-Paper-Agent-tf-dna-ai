@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41371571",
+  "title": "Linking AhR and Nrf2 activation to neurotoxicity through adverse outcome pathway-based machine learning.",
+  "authors": "Yang, Jiajia; Yan, Kai; Li, Xiaofang; Deng, Wenjing; He, Meian; Zhu, Hao; Yan, Xiliang; Yan, Bing",
+  "journal": "Toxicology",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用AOP引导的机器学习预测化学物神经毒性，虽涉及AhR/Nrf2蛋白配体对接，但核心是毒理风险评估而非蛋白质-DNA互作或TF-DNA结合建模，仅分子对接部分与课题弱相关。",
+  "abstract": "Chemical-induced neurotoxicity poses a challenge for safety assessment due to the complexity of central nervous system responses and the limitations of conventional assays. We developed an adverse outcome pathway (AOP)-guided machine-learning framework that links molecular initiating events, using the activation of the aryl hydrocarbon receptor (AhR) and Nrf2-mediated oxidative stress responses as examples, to neurotoxicity. A curated dataset was assembled from public sources and the literature, key molecular features such as nitrogen-containing groups were identified as structural alerts associated with neurotoxicity. Within this framework, AhR and Nrf2 activity information (measured or predicted) was integrated with structural fingerprints to enhance biological interpretability while maintaining robust predictive performance (e.g., AUC value > 0.80) in both cross-validation and external validation. The AOP-based model was further applied to virtual screening of 7576 compounds, with blood-brain barrier (BBB) permeability and applicability domain (AD) constraints ensuring reliable predictions. Molecular docking of 12 prioritized persistent organic pollutants (POPs) further supported these predictions, revealing strong binding affinities with AhR (up to -10.2 kcal/mol) and Nrf2 (up to -7.9 kcal/mol) through interactions such as hydrogen bonding and pi-pi stacking. Overall, this strategy highlights AOP-based machine learning as a powerful approach to connect structure, mechanism, and outcomes, thereby improving chemical risk assessment and prioritization.",
+  "abstract_zh": "化学诱导的神经毒性因中枢神经系统反应的复杂性及传统检测方法的局限性，对安全性评估构成挑战。我们开发了一种基于不良结局通路（adverse outcome pathway, AOP）的机器学习框架，以芳烃受体（aryl hydrocarbon receptor, AhR）激活和Nrf2介导的氧化应激反应为例，将分子起始事件与神经毒性联系起来。从公共来源和文献中汇编了一个精选数据集，识别出含氮基团等关键分子特征作为与神经毒性相关的结构警报。在该框架内，AhR和Nrf2活性信息（测量或预测）与结构指纹整合，以增强生物学可解释性，同时在交叉验证和外部验证中保持稳健的预测性能（例如，AUC值>0.80）。基于AOP的模型进一步应用于7576种化合物的虚拟筛选，通过血脑屏障（blood-brain barrier, BBB）通透性和适用域（applicability domain, AD）约束确保预测的可靠性。对12种优先持久性有机污染物（persistent organic pollutants, POPs）的分子对接进一步支持了这些预测，揭示了与AhR（高达-10.2 kcal/mol）和Nrf2（高达-7.9 kcal/mol）的强结合亲和力，通过氢键和π-π堆积等相互作用实现。总体而言，该策略突显了基于AOP的机器学习作为连接结构、机制和结局的强大方法，从而改善化学风险评估和优先级排序。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41371571/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41371571/",
+  "paper_page_path": "papers/pubmed/41371571/index.html"
+}

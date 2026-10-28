@@ -1,0 +1,197 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.11.14.25340263",
+  "title": "Interactions with polygenic background impact quantitative traits in the UK Biobank",
+  "doi": "10.1101/2025.11.14.25340263",
+  "abstract": "Association studies have linked many genetic variants to a variety of phenotypes but understanding the biological mechanisms underlying these signals remains a major challenge. Since genes operate within complex networks, statistical interactions between genetic mutations that reflect biological pathways are expected to exist. However, their discovery has been hampered by the vast search space of variant combinations and the multiplicatively small expected effect sizes of interactions. To increase power, we created a test for interaction between single-nucleotide polymorphisms (SNPs) and groups of other variants with a direct effect on a phenotype aggregated in a polygenic score (PGS) which can be performed for any quantitative trait. In realistic simulations, this method avoids false positives and is well powered to find interaction networks. We apply it to 97 quantitative phenotypes in European samples in the UK Biobank and identify 144 independent interactions affecting 52 different traits, including important disease risk variants at genes such as APOE , FTO or TCF7L2 . We develop approaches to refine identified signals and detect 38 pairwise interactions between SNPs. These include known interactions between ABO , FUT2 and TREH affecting alkaline phosphatase levels, which are shown to be part of a larger network including PIGC and FUT6 , as well as an interaction for eosinophil levels between IL33 and ALOX15 , two genes whose functional interaction has recently been implicated in asthma. Finally, we propose a method to partition PGSs according to the binding sites of more than 1100 transcription factors using the HOCOMOCO motif database and test for interactions involving functionally partitioned scores. We identify 12 interactions affecting eight traits, two of which directly reflect known regulatory relationships such as that between TCF7L2 (a key regulator of glucose metabolism) and the transcription factor KDM2A , which are known to interact functionally within the Wnt signalling pathway, affecting glycated haemoglobin levels. This work substantially extends the set of known epistatic effects for human phenotypes and shows how statistical interactions can reflect biological interdependencies between genes.",
+  "authors": [
+    "Ferreira LAF",
+    "Hu S",
+    "Davies RW",
+    "Myers SR"
+  ],
+  "published_date": "2025-11-17",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.11.14.25340263",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.11.14.25340263.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1121251",
+    "raw_record": {
+      "id": "PPR1121251",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1121251"
+        ]
+      },
+      "doi": "10.1101/2025.11.14.25340263",
+      "title": "Interactions with polygenic background impact quantitative traits in the UK Biobank",
+      "authorString": "Ferreira LAF, Hu S, Davies RW, Myers SR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ferreira LAF",
+            "lastName": "Ferreira",
+            "firstName": "Lino",
+            "initials": "LAF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "Department of Statistics,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu S",
+            "lastName": "Hu",
+            "firstName": "Sile",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "Department of Statistics,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davies RW",
+            "lastName": "Davies",
+            "firstName": "Robert",
+            "initials": "RW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Statistics,"
+                },
+                {
+                  "affiliation": "Genomics Ltd"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Myers SR",
+            "lastName": "Myers",
+            "firstName": "Simon",
+            "initials": "SR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "Department of Statistics,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Association studies have linked many genetic variants to a variety of phenotypes but understanding the biological mechanisms underlying these signals remains a major challenge. Since genes operate within complex networks, statistical interactions between genetic mutations that reflect biological pathways are expected to exist. However, their discovery has been hampered by the vast search space of variant combinations and the multiplicatively small expected effect sizes of interactions. To increase power, we created a test for interaction between single-nucleotide polymorphisms (SNPs) and  groups of other variants with a direct effect on a phenotype aggregated in a polygenic score (PGS) which can be performed for any quantitative trait. In realistic simulations, this method avoids false positives and is well powered to find interaction networks. We apply it to 97 quantitative phenotypes in European samples in the UK Biobank and identify 144 independent interactions affecting 52 different traits, including important disease risk variants at genes such as  APOE ,  FTO or  TCF7L2 . We develop approaches to refine identified signals and detect 38 pairwise interactions between SNPs. These include known interactions between  ABO ,  FUT2 and  TREH affecting alkaline phosphatase levels, which are shown to be part of a larger network including  PIGC and  FUT6 , as well as an interaction for eosinophil levels between  IL33 and  ALOX15 , two genes whose functional interaction has recently been implicated in asthma. Finally, we propose a method to partition PGSs according to the binding sites of more than 1100 transcription factors using the HOCOMOCO motif database and test for interactions involving functionally partitioned scores. We identify 12 interactions affecting eight traits, two of which directly reflect known regulatory relationships such as that between  TCF7L2 (a key regulator of glucose metabolism) and the transcription factor  KDM2A , which are known to interact functionally within the Wnt signalling pathway, affecting glycated haemoglobin levels. This work substantially extends the set of known epistatic effects for human phenotypes and shows how statistical interactions can reflect biological interdependencies between genes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "222334/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203141/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "212284/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.14.25340263"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1121251"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1121251&type=FILE&fileName=EMS210944-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210944",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2025-11-19",
+      "firstPublicationDate": "2025-11-17",
+      "firstIndexDate": "2025-11-19",
+      "fullTextReceivedDate": "2025-12-31",
+      "hasEvaluations": "Y"
+    }
+  }
+}

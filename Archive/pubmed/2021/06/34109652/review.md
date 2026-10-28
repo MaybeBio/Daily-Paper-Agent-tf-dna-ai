@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors used molecular dynamics (MD) simulations and molecular mechanics Poisson-Boltzmann surface area (MM-PBSA) free energy calculations on the TDP-43-ssRNA complex (PDB 4BS2) to characterize binding energetics, identify interaction types that dominate binding, and explain reduced binding affinity for several TDP-43 mutants (F149A, D105A/S254A, R171A/D174A, F147L/F149L/F229L/F231L) relative to wild type. They conclude that van der Waals and nonpolar solvation terms dominate binding, that loss of polar or nonpolar interactions in mutants reduces binding free energy, and that base-specific interactions drive RNA recognition. They further suggest implications for understanding neurodegeneration and drug development.
+- **Visible evidence base** Abstract text only; no simulation protocols, force field parameters, convergence criteria, error estimates, or experimental validation data are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and length, force field and water model, system preparation details, convergence and equilibration checks, per-residue decomposition data, free energy component tables, mutant structural comparisons, and any comparison with experimental binding data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study of TDP-43-ssRNA binding and mutant effects, but the claims are not verifiable from the supplied material. The central conclusions regarding dominant energy terms and mutant-induced affinity loss rest on methodological choices and quantitative results that are not shown. The abstract also overreaches in its translational implications given the limited scope of the simulations. The work may be of interest to computational biophysicists and RNA-binding protein researchers, but the evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein-RNA recognition and free energy methods would be interested in the application of MM-PBSA to a disease-relevant splicing factor. Researchers in neurodegeneration, particularly those studying TDP-43 proteinopathies such as amyotrophic lateral sclerosis and frontotemporal lobar degeneration, would be interested in the structural rationale for mutant loss of function. Methodologists may also note the use of MM-PBSA for a protein-ssRNA system, though the abstract does not provide methodological novelty.
+- **Major strengths** The study addresses a biologically important question, namely the structural basis for TDP-43 RNA-binding loss in disease-associated mutants. The use of an experimentally determined complex structure (PDB 4BS2) provides a reasonable starting point. The focus on energy decomposition to identify interaction types and per-residue contributions is a standard and potentially informative approach. The inclusion of multiple mutants allows comparative analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the intermolecular van der Waals interaction and nonpolar solvation energy play an important role in the binding process of TDP-43 and ssRNA" and that "the reduction of the polar or non-polar interaction between all the mutants ... and ssRNA is the main reason for the reduction of its binding free energy."
+  - **Evidence pointer** Abstract only; no tables or figures provided
+  - **Concern** The abstract reports qualitative statements about energy components but provides no numerical values, no error estimates, and no statistical significance testing. MM-PBSA results are known to be sensitive to force field, partial charge model, solute dielectric constant, and entropy treatment. Without these details and the actual free energy values, the claim that van der Waals and nonpolar solvation dominate, and that mutant effects arise from specific interaction reductions, cannot be evaluated.
+  - **Why it matters** The central mechanistic conclusion depends on the reliability and magnitude of the computed energy components. If the energy decomposition is not robust or if the differences between wild type and mutants are within error, the main claim collapses.
+  - **Resolution test** Provide a table of binding free energies and component terms (electrostatic, van der Waals, polar solvation, nonpolar solvation) for wild type and each mutant, with standard deviations from multiple independent simulations or block averaging. Show that the reported differences exceed the error estimates and that the dominant terms are consistent across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the extensive interactions between TDP-43 and the nitrogenous bases of ssRNA are responsible for the specific ssRNA recognition by TDP-43."
+  - **Evidence pointer** Abstract only; no per-residue or per-nucleotide decomposition data provided
+  - **Concern** The claim of base-specific recognition is based on "decomposing energies," but no decomposition results are shown. It is unclear whether the decomposition is per-residue, per-nucleotide, or per-interaction type. Without these data, the reader cannot assess which bases or residues contribute most, nor whether the specificity claim is supported by the simulation.
+  - **Why it matters** The specificity mechanism is a key biological conclusion. If the decomposition is not shown or is not statistically robust, the claim of base-specific recognition is unsupported.
+  - **Resolution test** Provide per-nucleotide and per-residue energy decomposition plots or tables, with error bars, showing that specific bases dominate the interaction energy and that this pattern is consistent across simulation replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the uncovering of TDP-43-ssRNA recognition mechanism will provide us useful insights and new chances for the development of anti-neurodegenerative drugs."
+  - **Evidence pointer** Abstract only
+  - **Concern** The abstract provides no link between the computed binding energetics and any druggable target or therapeutic strategy. The leap from a molecular dynamics study of one complex to drug development is not justified by the presented results. No binding pocket analysis, no comparison with known small molecule binding sites, and no discussion of how the identified interactions could be modulated pharmacologically are provided.
+  - **Why it matters** Overstated translational claims can mislead readers and dilute the scientific value of the computational findings. The study may be a useful biophysical characterization, but the drug development implication is not supported.
+  - **Resolution test** Remove or substantially temper the drug development claim, or provide specific structural or energetic evidence that identifies a targetable site or interaction that could be exploited.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "homeodomain" is used to describe the location of TDP-43 mutations, but TDP-43 contains RNA recognition motifs, not a homeodomain. This is a potential factual error or a misnomer that could confuse readers.
+  - **Required correction** Verify the domain terminology. If the mutations are in the RNA recognition motifs, use the correct term. If the abstract is quoting a source, clarify the domain name.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the simulation length, number of replicates, or whether the MM-PBSA calculations included entropy corrections. These are standard details that affect the reliability of the results.
+  - **Required correction** Add a sentence specifying simulation time, number of independent runs, and whether entropy was included or neglected in the free energy calculation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, mutant list
+  - **Issue** The abstract lists five mutants but does not indicate which are disease-associated or whether they are located in the RNA recognition motif or elsewhere. This context is important for interpreting the biological relevance.
+  - **Required correction** Briefly state the location and disease relevance of each mutant, or refer to the full manuscript for this information.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central energetic and specificity claims are not verifiable without the underlying data. R1-M3 is blocking because the translational claim is unsupported. The minor comments are non-blocking but should be corrected for accuracy and completeness.
+- **Assessment against Nature-style criteria** Originality: The application of MD and MM-PBSA to TDP-43-ssRNA is not novel in method, but the specific system and mutant set may offer some new insight; however, the abstract does not demonstrate a new conceptual advance. Scientific importance: The topic is relevant to neurodegeneration, but the abstract does not establish that the findings change current understanding beyond what is already known from experimental studies. Interdisciplinary readership: The work may appeal to computational chemists and RNA biologists, but the abstract is too technical and lacks context for a broader readership. Technical soundness: Not assessable from the abstract; the missing methodological details and quantitative results prevent evaluation. Readability for nonspecialists: The abstract is dense and uses jargon without sufficient explanation, and the domain terminology error further reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the key claims are not verifiable without the full manuscript and its supporting data. If the full paper provides robust energy values, error estimates, and decomposition analyses, the work could be considered supportive, but the translational claim would still need to be tempered.
+
+## Risk / unsupported claims
+- The claim that van der Waals and nonpolar solvation dominate binding is unsupported without numerical data and error estimates.
+- The claim that mutant-induced reduction of polar or nonpolar interactions is the main cause of reduced binding free energy is unsupported without per-mutant energy components and statistical analysis.
+- The claim of base-specific recognition is unsupported without per-nucleotide or per-residue decomposition data.
+- The claim of drug development implications is unsupported and appears to be an overreach from the presented computational results.
+- The use of "homeodomain" to describe TDP-43 mutation locations is likely incorrect and should be verified.

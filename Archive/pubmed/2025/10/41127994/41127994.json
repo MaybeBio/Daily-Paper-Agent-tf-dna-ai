@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "41127994",
+    "doi": "10.1177/15347354251380219",
+    "title": "Mechanism of Jiedu Prescription in Hepatocellular Carcinoma: Integrating Network Pharmacology and Experimental Validation."
+  },
+  "content": {
+    "abstract": "PURPOSE: Hepatocellular carcinoma (HCC) poses a significant global health burden with limited therapeutic options. Traditional Chinese medicine (TCM), particularly Yangyin Fuzheng Jiedu Prescription (YFJP), has shown promise in improving patient outcomes, but its mechanisms are poorly understood. This study aimed to elucidate the key components and mechanisms of YFJP in treating HCC using an integrative approach combining network pharmacology, molecular docking, and experimental validation. PATIENTS AND METHODS: We analyzed data from 1021 HCC patients (481 treated with YFJP and 540 with Western medicine alone) using propensity score matching to minimize bias. Network pharmacology identified key components and targets of YFJP, with a focus on Jiedu Prescription (JDP). Molecular docking and dynamics simulations validated the binding affinity between core components and targets. GO and KEGG analyses elucidated biological functions and pathways. In vivo experiments using a tumor-bearing mouse model further validated the mechanisms. RESULTS: YFJP significantly improved overall survival (P < .0001) and increased CD4(+)T and CD8(+)T cell counts (P < .05) in HCC patients compared to the control group. Network pharmacology analysis identified JDP as the core component of YFJP, with quercetin, luteolin, and apigenin as the key active compounds. GO and KEGG pathway analyses revealed that JDP modulates HCC through the regulation of cell death, immune response, and the JAK-STAT signaling pathway. In vivo experiments demonstrated that JDP increases the proportion of CD8(+)T cells in the tumor microenvironment and inhibits apoptosis by downregulating the IL-6/STAT3 pathway. Molecular docking and dynamics simulations further confirmed the strong binding affinity of JDP's key compounds to STAT3, supporting their role in modulating this pathway. CONCLUSION: YFJP, particularly its core component JDP, enhances anti-tumor immunity and improves survival in HCC patients by modulating the IL-6/STAT3 pathway. These findings highlight YFJP as a promising adjuvant therapy for HCC, offering a multi-target approach to enhance anti-tumor immunity.",
+    "keywords": [
+      "Jiedu Prescription",
+      "hepatocellular carcinoma",
+      "molecular dynamics simulation",
+      "network pharmacology",
+      "traditional Chinese medicine"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/drug therapy/metabolism",
+      "*Liver Neoplasms/drug therapy/metabolism",
+      "Humans",
+      "Network Pharmacology/methods",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Animals",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Medicine, Chinese Traditional/methods",
+      "Male",
+      "Female",
+      "STAT3 Transcription Factor/metabolism",
+      "Middle Aged",
+      "Apoptosis/drug effects",
+      "Interleukin-6/metabolism",
+      "Cell Line, Tumor",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Yuan",
+        "Liu, Xiaoli",
+        "Xie, Yuqing",
+        "Yu, Lihua",
+        "Yan, Huiwen",
+        "Pu, Qing",
+        "Cai, Xue",
+        "Liang, Yuling",
+        "Kong, Yaxian",
+        "Yang, Zhiyun"
+      ],
+      "short_names": [
+        "Wu Y",
+        "Liu X",
+        "Xie Y",
+        "Yu L",
+        "Yan H",
+        "Pu Q",
+        "Cai X",
+        "Liang Y",
+        "Kong Y",
+        "Yang Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0920-6811",
+        "ORCID: 0000-0002-7267-0367"
+      ],
+      "affiliations": [
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+        "Beijing Key Laboratory of Emerging Infectious Diseases, Institute of Infectious Diseases, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Yuan",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0009-0004-0920-6811"
+        ],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China.",
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoli",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0002-7267-0367"
+        ],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuqing",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Lihua",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Huiwen",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Qing",
+        "short_name": "Pu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xue",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yuling",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Yaxian",
+        "short_name": "Kong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory of Emerging Infectious Diseases, Institute of Infectious Diseases, Beijing Ditan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhiyun",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+          "Laboratory for Clinical Medicine, Capital Medical University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Integrative cancer therapies"
+    ],
+    "journal_abbrev": [
+      "Integr Cancer Ther"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 12:27",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38572751",
+      "37615958",
+      "36599350",
+      "36400469",
+      "36126410",
+      "36043445",
+      "35907976",
+      "35870685",
+      "35367533",
+      "35342388",
+      "34488188",
+      "33905802",
+      "33516447",
+      "33151290",
+      "32884991",
+      "32473366",
+      "32404014",
+      "32153559",
+      "32032576",
+      "31387180",
+      "31128485",
+      "31106366",
+      "30846939",
+      "30832202",
+      "30668319",
+      "29556041",
+      "29140520",
+      "29126136",
+      "27998041",
+      "27497639",
+      "26879404",
+      "26259512",
+      "25877637",
+      "25181692",
+      "24735618",
+      "24300120",
+      "24171819",
+      "23596807",
+      "22369201",
+      "20175033",
+      "19781383",
+      "17098932"
+    ],
+    "similar": [
+      "41127994",
+      "36043445",
+      "40061815",
+      "39419302",
+      "38882048",
+      "34488188",
+      "40615101",
+      "40543694",
+      "41533160",
+      "41650503",
+      "41490553",
+      "39586558",
+      "42083525",
+      "41763175",
+      "41795151",
+      "41293954",
+      "40261593",
+      "37799727",
+      "41357200",
+      "39093467",
+      "38816744",
+      "33292207",
+      "40316154",
+      "40902811",
+      "40916281",
+      "41242299",
+      "38417600",
+      "38758152",
+      "38845538",
+      "38909826",
+      "42011617",
+      "40286672",
+      "33513419",
+      "39278295",
+      "41473244",
+      "40694904",
+      "41006191",
+      "33984593",
+      "39923957",
+      "40883741",
+      "41974236",
+      "38310567",
+      "39854209",
+      "40013962",
+      "41542898",
+      "41058947",
+      "31964157",
+      "40057142",
+      "37287284",
+      "41135618",
+      "36345477",
+      "37852337",
+      "41866005",
+      "41448498",
+      "40499803",
+      "39427522",
+      "37429502",
+      "38941043",
+      "37575231",
+      "37279814",
+      "41316260",
+      "37833363",
+      "41747788",
+      "38040415",
+      "39541255",
+      "41188309",
+      "40526272",
+      "37957900",
+      "39082169",
+      "40322038",
+      "39842746",
+      "40397117",
+      "39066538",
+      "42087421",
+      "33932512",
+      "39617073",
+      "36403742",
+      "37771185",
+      "39343107",
+      "42109914",
+      "37453621",
+      "37807411",
+      "36472040",
+      "41038145",
+      "40630198",
+      "41944069",
+      "41656835",
+      "35644437",
+      "40185258",
+      "33251769",
+      "34675488",
+      "36234758",
+      "37454750",
+      "40816715",
+      "40670490",
+      "37453868",
+      "41759559",
+      "38747231",
+      "40886867",
+      "41161625"
+    ],
+    "review": [
+      "41127994",
+      "40397117"
+    ],
+    "pmc": [
+      "12559631"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15347354251380219?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41127994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

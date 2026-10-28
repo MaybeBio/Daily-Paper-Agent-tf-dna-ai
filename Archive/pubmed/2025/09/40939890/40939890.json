@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40939890",
+    "doi": "10.1016/j.jare.2025.09.015",
+    "title": "Design of strictly orthogonal biosensors for maximizing renewable biofuel overproduction."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Transcription factors (TFs) activate transcriptional initiation by binding specific signal molecules (SMs), yet designing TFs to precisely target non-natural SMs remains challenging. OBJECTIVES: Using transcriptional activator BmoR as an example, a machine-learning based model named BT to predict three crucial residue regions (CRRs) was generated. This study aimed to achieve BmoR with strict SM orthogonality (SSO). METHODS: Random Forest Algorithm was used to generate a model BT that pinpointed CRRs. The BmoR-SM complexes in the prediction dataset of Model BT were batch-simulated using a computational pipeline via Discovery Studio. Semi-rational engineering of the residues in the CRRs generated BmoR mutants with SSO, validated through MicroScale Thermophoresis (MST) affinity assays. The SSO-enabled BmoR-based biosensor was used to screen microbial overproducers for 3-L fed-batch fermentation. RESULTS: The transcription activation effects of 245 TF-SM complexes were experimentally verified, providing the training and test dataset to generate a machine-learning based Model BT with 88.5 % accuracy. The binding between 5,700 BmoR mutants and four SMs was simulated by Discovery Studio, generating 22,800 complexes to output BmoR-SM hydrogen bond (BSH) counts. BSH counts combined with supplementary parameters to form a prediction dataset. The CRRs containing totally 36 residues were successfully predicted by Model BT. The CRRs were semi-rational modified to obtain BmoR mutants with SSO. The SSO-enabled BmoR-based biosensor effectively screened a strain yielding 12.6 g/L isopentanol. CONCLUSION: By demonstrating the dominant role of the BSH counts in TF-SM interactions and establishing a machine learning-guided framework for TF evolution, this work advances rational design principles for engineering TFs with precise molecular recognition, offering broad applications in synthetic biology and metabolic engineering.",
+    "keywords": [
+      "Biofuel overproduction",
+      "Hydrogen bond",
+      "Machine learning",
+      "Strict orthogonality",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "Machine Learning",
+      "*Biofuels",
+      "*Transcription Factors/metabolism/genetics",
+      "Escherichia coli/metabolism/genetics",
+      "Algorithms",
+      "Fermentation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Tong",
+        "Yan, Dongli",
+        "Lin, Sheng",
+        "Zhang, Ran",
+        "Wang, Yuhan",
+        "Li, Min",
+        "Yu, Shengzhu",
+        "Ma, Xiaoyan",
+        "Chen, Zhenya",
+        "Huo, Yi-Xin"
+      ],
+      "short_names": [
+        "Wu T",
+        "Yan D",
+        "Lin S",
+        "Zhang R",
+        "Wang Y",
+        "Li M",
+        "Yu S",
+        "Ma X",
+        "Chen Z",
+        "Huo YX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China.",
+        "Beijing Jingtai Technology Co., Ltd., Beijing 100083, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China. Electronic address: chenzhenya@bit.edu.cn.",
+        "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China. Electronic address: huoyixin@bit.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Tong",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Dongli",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Sheng",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Jingtai Technology Co., Ltd., Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ran",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuhan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shengzhu",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaoyan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhenya",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China. Electronic address: chenzhenya@bit.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huo, Yi-Xin",
+        "short_name": "Huo YX",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Medicine and Biotherapy, School of Life Science, Beijing Institute of Technology, No. 5 South Zhongguancun Street, Haidian District, Beijing 100081, China; Tangshan Research Institute, BIT, No. 57, South Jianshe Road, Lubei District, Tangshan, Hebei 063000, China. Electronic address: huoyixin@bit.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 00:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "41668791"
+    ],
+    "refs": [
+      "39392681",
+      "39208264",
+      "38990263",
+      "38823012",
+      "38817964",
+      "38718835",
+      "38628791",
+      "38626358",
+      "38508427",
+      "38453941",
+      "37924909",
+      "37499032",
+      "36658306",
+      "36653518",
+      "36646956",
+      "36296602",
+      "36282210",
+      "35921946",
+      "35872379",
+      "35175734",
+      "34265844",
+      "33957147",
+      "33899477",
+      "33614618",
+      "33552620",
+      "33035895",
+      "31798685",
+      "31449878",
+      "31284216",
+      "30732651",
+      "26821017",
+      "21150828",
+      "20072783",
+      "18676713",
+      "18174133"
+    ],
+    "similar": [
+      "40939890",
+      "31449878",
+      "42173820",
+      "30732651",
+      "40170310",
+      "35175734",
+      "40460061",
+      "42475469",
+      "33899477",
+      "41512477",
+      "39124917",
+      "29733444",
+      "38508427",
+      "38875315",
+      "35872379",
+      "26679776",
+      "39927766",
+      "35921946",
+      "26521244",
+      "38490467",
+      "40977514",
+      "28763198",
+      "39541188",
+      "35700119",
+      "39451669",
+      "41655136",
+      "39650552",
+      "26291518",
+      "28750606",
+      "41404762",
+      "35346204",
+      "35922625",
+      "29532902",
+      "40277535",
+      "41662352",
+      "29385546",
+      "41430049",
+      "41969262",
+      "41822751",
+      "41898404",
+      "41814305",
+      "41643219",
+      "38354497",
+      "38968698",
+      "23656325",
+      "23562845",
+      "38236500",
+      "38896410",
+      "41789888",
+      "37449325",
+      "40708012",
+      "35339074",
+      "26305598",
+      "32886884",
+      "41440301",
+      "40587445",
+      "41345436",
+      "38048895",
+      "41448801",
+      "40863014",
+      "29688705",
+      "35089702",
+      "41961866",
+      "41650555",
+      "36550338",
+      "28363453",
+      "42121024",
+      "31167452",
+      "23246694",
+      "37198736",
+      "16362910",
+      "33372147",
+      "35853551",
+      "42478686",
+      "18426546",
+      "42087555",
+      "34758318",
+      "42238516",
+      "33686428",
+      "28121425",
+      "41674273",
+      "40776718",
+      "21690103",
+      "38150159",
+      "31723409",
+      "26818008",
+      "38634289",
+      "31074373",
+      "34579793",
+      "31072100",
+      "37185503",
+      "30849073",
+      "36749045",
+      "18426580",
+      "42462439",
+      "41154264",
+      "21124945",
+      "40570739",
+      "41465103",
+      "24564277"
+    ],
+    "review": [
+      "40939890",
+      "40170310",
+      "33899477",
+      "39124917",
+      "38508427",
+      "35872379",
+      "26521244",
+      "40277535",
+      "23562845",
+      "37449325",
+      "35853551",
+      "33686428"
+    ],
+    "pmc": [
+      "13227213"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(25)00698-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40939890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

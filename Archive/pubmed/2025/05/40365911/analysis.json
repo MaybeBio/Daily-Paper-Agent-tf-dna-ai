@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40365911",
+  "title": "Model-to-crop conserved NUE Regulons enhance machine learning predictions of nitrogen use efficiency.",
+  "authors": "Huang, Ji; Cheng, Chia-Yi; Brooks, Matthew D; Jeffers, Tim L; Doner, Nathan M; Shih, Hung-Jui; Frangos, Samantha; Katari, Manpreet Singh; Coruzzi, Gloria M",
+  "journal": "The Plant cell",
+  "published_date": "2025-05-14",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过GRN推断和XGBoost机器学习识别玉米与拟南芥中氮利用效率相关的转录因子调控子，虽涉及TF-DNA调控网络但缺乏三维互作建模与结合机制研究，方法可迁移至TF-DNA预测但非核心聚焦。",
+  "abstract": "Systems biology aims to uncover gene regulatory networks (GRNs) for agricultural traits, but validating them in crops is challenging. We addressed this challenge by learning and validating model-to-crop transcription factor (TF) regulons governing nitrogen use efficiency (NUE). First, a fine-scale time-course nitrogen (N) response transcriptome analysis revealed a conserved temporal N response cascade in maize (Zea mays) and Arabidopsis (Arabidopsis thaliana). These data were used to infer time-based causal TF target edges in N-regulated GRNs. By validating 23 maize TFs in a cell-based TF-perturbation assay (Transient Assay Reporting Genome-wide Effects of Transcription factors), precision/recall analysis enabled us to prune high-confidence edges between  approximately 200 TFs/700 maize target genes. We next learned gene-to-NUE trait scores using XGBoost machine learning models trained on conserved N-responsive genes across maize and Arabidopsis accessions. By integrating NUE gene scores within our N-GRN, we ranked maize TFs based on a cumulative NUE Regulon score. NUE Regulons for top-ranked TFs were validated using the cell-based TARGET assay in maize (e.g. ZmMYB34/R3-->24 targets) and the Arabidopsis ZmMYB34/R3 ortholog (e.g. AtDIV1-->23 targets). The genes in this NUE Regulon significantly enhanced the ability of XGBoost models to predict NUE traits in both maize and Arabidopsis. Thus, our pipeline for identifying TF regulons that combines GRN inference, machine learning, and orthologous network regulons offers a strategic framework for crop trait improvement.",
+  "abstract_zh": "系统生物学旨在揭示农业性状的基因调控网络（GRNs），但在作物中验证这些网络具有挑战性。我们通过学习并验证控制氮利用效率（NUE）的模型到作物转录因子（TF）调控子来应对这一挑战。首先，精细尺度的时间序列氮（N）响应转录组分析揭示了玉米（Zea mays）和拟南芥（Arabidopsis thaliana）中保守的时间性氮响应级联。这些数据被用于推断氮调控GRNs中基于时间的因果TF靶标边。通过在基于细胞的TF扰动实验（瞬时报告转录因子全基因组效应实验）中验证23个玉米TFs，精确率/召回率分析使我们能够修剪出约200个TFs/700个玉米靶基因之间的高置信度边。接下来，我们使用XGBoost机器学习模型，基于玉米和拟南芥种质中保守的氮响应基因，学习了基因到NUE性状的评分。通过将NUE基因评分整合到我们的N-GRN中，我们根据累积NUE调控子评分对玉米TFs进行排名。排名靠前TFs的NUE调控子通过玉米中的基于细胞TARGET实验（例如，ZmMYB34/R3-->24个靶标）和拟南芥ZmMYB34/R3直系同源物（例如，AtDIV1-->23个靶标）进行了验证。该NUE调控子中的基因显著增强了XGBoost模型在玉米和拟南芥中预测NUE性状的能力。因此，我们识别TF调控子的流程结合了GRN推断、机器学习和直系同源网络调控子，为作物性状改良提供了战略框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40365911/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40365911/",
+  "paper_page_path": "papers/pubmed/40365911/index.html"
+}

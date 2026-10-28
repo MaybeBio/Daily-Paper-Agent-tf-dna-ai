@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "39794693",
+    "doi": "10.1186/s12863-024-01292-0",
+    "title": "ERBB3-related gene PBX1 is associated with prognosis in patients with HER2-positive breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: HER2-positive breast cancer (BC) is a subtype of breast cancer. Increased ERBB3 expression has been implicated as a potential cause of resistance to other HER-targeted therapies. Our study aimed to screen and validate prognostic markers associated with ERBB3 expression by bioinformatics and affecting the prognosis of HER2 staging. METHODS: Analyzing differences in ERBB3-related groups. ERBB3 expression-related differentially expressed genes (DEGs) were identified and intersected with survival status-related DEGs to obtain intersected genes. Three algorithms, LASSO, RandomForest and XGBoost were combined to identify the signature genes. we construct risk models and generate ROC curves for prediction. Furthermore, we delve into the immunological traits, correlations, and expression patterns of signature genes by conducting a comprehensive analysis that encompasses immune infiltration analysis, correlation analysis, and differential expression analysis. RESULTS: Significant variability in ERBB3 expression and prognosis in high and low ERBB3 expression groups. Twenty-five candidate DEGs were identified by intersecting ERBB3-related DEGs with survival-related DEGs. Utilizing three distinct machine learning algorithms, we identified three signature genes-PBX1, IGHM, and CXCL13-that exhibited significant diagnostic value within the diagnostic model. In addition, the risk model had better prognostic and predictive effects, and the immune infiltration analysis showed that IGHM, CXCL13 might affect the proliferation of BC cells through immune cells. Functional studies demonstrated that interference with PBX1 inhibited the proliferation, migration, and epithelial-mesenchymal transition process of HER2-positive BC cells. CONCLUSION: PBX1, IGHM and CXCL13 are associated with the expression level of the ERBB3 and are prognostic markers for HER2-positive in BC, which may play an important role in the development and progression of BC.",
+    "keywords": [
+      "ERBB3",
+      "HER2-positive breast cancer",
+      "Immune infiltration analysis",
+      "Machine learning",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology/metabolism/mortality",
+      "Female",
+      "Prognosis",
+      "*Biomarkers, Tumor/genetics",
+      "*Pre-B-Cell Leukemia Transcription Factor 1/genetics/metabolism",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "*Receptor, ErbB-3/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mo, Shufen",
+        "Zhong, Haiming",
+        "Dai, Weiping",
+        "Li, Yuanyuan",
+        "Qi, Bin",
+        "Li, Taidong",
+        "Cai, Yongguang"
+      ],
+      "short_names": [
+        "Mo S",
+        "Zhong H",
+        "Dai W",
+        "Li Y",
+        "Qi B",
+        "Li T",
+        "Cai Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-1517-1327"
+      ],
+      "affiliations": [
+        "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Pathology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Pathology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Thoracic Surgery, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China. nkyyltd@163.com.",
+        "Central Hospital of Guangdong Provincial Nongken, No.2 Renmin Avenue Middle, Xiashan District, Zhanjiang, Guangdong, 524002, China. nkyyltd@163.com.",
+        "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China. Caiyongguang12@126.com.",
+        "Central Hospital of Guangdong Provincial Nongken, No.2 Renmin Avenue Middle, Xiashan District, Zhanjiang, Guangdong, 524002, China. Caiyongguang12@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mo, Shufen",
+        "short_name": "Mo S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Haiming",
+        "short_name": "Zhong H",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Weiping",
+        "short_name": "Dai W",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuanyuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Bin",
+        "short_name": "Qi B",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Taidong",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Thoracic Surgery, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China. nkyyltd@163.com.",
+          "Central Hospital of Guangdong Provincial Nongken, No.2 Renmin Avenue Middle, Xiashan District, Zhanjiang, Guangdong, 524002, China. nkyyltd@163.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Yongguang",
+        "short_name": "Cai Y",
+        "identifiers": [
+          "0009-0008-1517-1327"
+        ],
+        "affiliations": [
+          "Medical Oncology, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China. Caiyongguang12@126.com.",
+          "Central Hospital of Guangdong Provincial Nongken, No.2 Renmin Avenue Middle, Xiashan District, Zhanjiang, Guangdong, 524002, China. Caiyongguang12@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomic data"
+    ],
+    "journal_abbrev": [
+      "BMC Genom Data"
+    ],
+    "pub_date": "2025 Jan 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/11 14:00",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39020378",
+      "37698911",
+      "37156315",
+      "36569892",
+      "36505501",
+      "36344672",
+      "36300620",
+      "35870237",
+      "35834098",
+      "35751589",
+      "35625984",
+      "35340416",
+      "34759323",
+      "34754128",
+      "34171264",
+      "33933113",
+      "33540075",
+      "33538338",
+      "33462501",
+      "33204321",
+      "32680511",
+      "31548601",
+      "30881110",
+      "30872752",
+      "30712876",
+      "30258937",
+      "29120751",
+      "28325210",
+      "28254169",
+      "27939064",
+      "27521224",
+      "26678337",
+      "26215677",
+      "25822788",
+      "25605792",
+      "23913124",
+      "23545410",
+      "22607768",
+      "22461506",
+      "22125492",
+      "22014569",
+      "21385943",
+      "21368164",
+      "18781150",
+      "18632642",
+      "16199517"
+    ],
+    "similar": [
+      "39794693",
+      "41793564",
+      "40496857",
+      "40936892",
+      "41300841",
+      "39300389",
+      "41898839",
+      "39287311",
+      "39107655",
+      "40604083",
+      "41526910",
+      "41727445",
+      "39730892",
+      "31933152",
+      "41178627",
+      "39380996",
+      "40216945",
+      "31733575",
+      "35037412",
+      "40597935",
+      "40544210",
+      "38366907",
+      "41233664",
+      "32216630",
+      "40317384",
+      "40895068",
+      "28409241",
+      "39870964",
+      "42284987",
+      "41963560",
+      "41798945",
+      "40664624",
+      "42017338",
+      "41500779",
+      "39706338",
+      "38713229",
+      "42000858",
+      "40746552",
+      "29464534",
+      "41272387",
+      "34059009",
+      "41502507",
+      "41189173",
+      "39512680",
+      "39017815",
+      "41957879",
+      "38287674",
+      "41200166",
+      "37653627",
+      "42135732",
+      "40473720",
+      "41174714",
+      "32707305",
+      "39605106",
+      "39615806",
+      "41660919",
+      "41357233",
+      "30367623",
+      "38771140",
+      "40695981",
+      "33732282",
+      "40390219",
+      "40963625",
+      "27434289",
+      "40838069",
+      "39448672",
+      "40224950",
+      "42387880",
+      "28416776",
+      "39555060",
+      "36602784",
+      "42359574",
+      "42244292",
+      "40264099",
+      "40438115",
+      "41872824",
+      "33400208",
+      "35443644",
+      "39531174",
+      "23100016",
+      "41566505",
+      "33058542",
+      "41601635",
+      "33499770",
+      "40046063",
+      "40034693",
+      "41208974",
+      "40635123",
+      "39524444",
+      "40715365",
+      "38404059",
+      "40842081",
+      "41583466",
+      "41360825",
+      "41327380",
+      "28286209",
+      "38926258",
+      "32251269",
+      "32086588",
+      "34315402"
+    ],
+    "review": [
+      "39794693"
+    ],
+    "pmc": [
+      "11720925"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39794693/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "35881789",
+    "doi": "10.1073/pnas.2200667119",
+    "title": "Stochastic particle unbinding modulates growth dynamics and size of transcription factor condensates in living cells."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is emerging as a key physical principle for biological organization inside living cells, forming condensates that play important regulatory roles. Inside living nuclei, transcription factor (TF) condensates regulate transcriptional initiation and amplify the transcriptional output of expressed genes. However, the biophysical parameters controlling TF condensation are still poorly understood. Here we applied a battery of single-molecule imaging, theory, and simulations to investigate the physical properties of TF condensates of the progesterone receptor (PR) in living cells. Analysis of individual PR trajectories at different ligand concentrations showed marked signatures of a ligand-tunable LLPS process. Using a machine learning architecture, we found that receptor diffusion within condensates follows fractional Brownian motion resulting from viscoelastic interactions with chromatin. Interestingly, condensate growth dynamics at shorter times is dominated by Brownian motion coalescence (BMC), followed by a growth plateau at longer timescales that result in nanoscale condensate sizes. To rationalize these observations, we extended on the BMC model by including the stochastic unbinding of particles within condensates. Our model reproduced the BMC behavior together with finite condensate sizes at the steady state, fully recapitulating our experimental data. Overall, our results are consistent with condensate growth dynamics being regulated by the escaping probability of PR molecules from condensates. The interplay between condensation assembly and molecular escaping maintains an optimum physical condensate size. Such phenomena must have implications for the biophysical regulation of other nuclear condensates and could also operate in multiple biological scenarios.",
+    "keywords": [
+      "Brownian motion coalescence",
+      "biomolecular condensates",
+      "liquid-liquid phase separation",
+      "single particle tracking",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "*Cell Nucleus/chemistry",
+      "Chromatin/chemistry",
+      "Ligands",
+      "Machine Learning",
+      "Motion",
+      "*Receptors, Progesterone/chemistry",
+      "*Single Molecule Imaging",
+      "*Transcription Factors/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Munoz-Gil, Gorka",
+        "Romero-Aristizabal, Catalina",
+        "Mateos, Nicolas",
+        "Campelo, Felix",
+        "de Llobet Cucalon, Lara I",
+        "Beato, Miguel",
+        "Lewenstein, Maciej",
+        "Garcia-Parajo, Maria F",
+        "Torreno-Pina, Juan A"
+      ],
+      "short_names": [
+        "Munoz-Gil G",
+        "Romero-Aristizabal C",
+        "Mateos N",
+        "Campelo F",
+        "de Llobet Cucalon LI",
+        "Beato M",
+        "Lewenstein M",
+        "Garcia-Parajo MF",
+        "Torreno-Pina JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3272-2975",
+        "ORCID: 0000-0002-0786-9548",
+        "ORCID: 0000-0001-6249-7276",
+        "ORCID: 0000-0002-2878-2222",
+        "ORCID: 0000-0002-0210-7800",
+        "ORCID: 0000-0001-6618-3944",
+        "ORCID: 0000-0001-7314-3828"
+      ],
+      "affiliations": [
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "Institute for Theoretical Physics, University of Innsbruck, Technikerstr. 21a, A-6020 Innsbruck, Austria.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain.",
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain.",
+        "Universitat Pompeu Fabra (UPF), Barcelona 08002, Spain.",
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "ICREA-Catalan Institute for Research and Advanced Studies, Pg. Lluis Companys 23, Barcelona 08010, Spain.",
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "ICREA-Catalan Institute for Research and Advanced Studies, Pg. Lluis Companys 23, Barcelona 08010, Spain.",
+        "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muñoz-Gil, Gorka",
+        "short_name": "Muñoz-Gil G",
+        "identifiers": [],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+          "Institute for Theoretical Physics, University of Innsbruck, Technikerstr. 21a, A-6020 Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Romero-Aristizabal, Catalina",
+        "short_name": "Romero-Aristizabal C",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain."
+        ]
+      },
+      {
+        "full_name": "Mateos, Nicolas",
+        "short_name": "Mateos N",
+        "identifiers": [
+          "0000-0003-3272-2975"
+        ],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain."
+        ]
+      },
+      {
+        "full_name": "Campelo, Felix",
+        "short_name": "Campelo F",
+        "identifiers": [
+          "0000-0002-0786-9548"
+        ],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain."
+        ]
+      },
+      {
+        "full_name": "de Llobet Cucalon, Lara I",
+        "short_name": "de Llobet Cucalon LI",
+        "identifiers": [
+          "0000-0001-6249-7276"
+        ],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain."
+        ]
+      },
+      {
+        "full_name": "Beato, Miguel",
+        "short_name": "Beato M",
+        "identifiers": [
+          "0000-0002-2878-2222"
+        ],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain.",
+          "Universitat Pompeu Fabra (UPF), Barcelona 08002, Spain."
+        ]
+      },
+      {
+        "full_name": "Lewenstein, Maciej",
+        "short_name": "Lewenstein M",
+        "identifiers": [
+          "0000-0002-0210-7800"
+        ],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+          "ICREA-Catalan Institute for Research and Advanced Studies, Pg. Lluis Companys 23, Barcelona 08010, Spain."
+        ]
+      },
+      {
+        "full_name": "Garcia-Parajo, Maria F",
+        "short_name": "Garcia-Parajo MF",
+        "identifiers": [
+          "0000-0001-6618-3944"
+        ],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+          "ICREA-Catalan Institute for Research and Advanced Studies, Pg. Lluis Companys 23, Barcelona 08010, Spain."
+        ]
+      },
+      {
+        "full_name": "Torreno-Pina, Juan A",
+        "short_name": "Torreno-Pina JA",
+        "identifiers": [
+          "0000-0001-7314-3828"
+        ],
+        "affiliations": [
+          "CFO-Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Barcelona 08860, Spain.",
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Aug 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/27 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "41663397",
+      "41131710",
+      "39543064",
+      "39387532",
+      "39361642",
+      "38698644",
+      "38612940",
+      "37853693",
+      "37791849",
+      "37586643",
+      "37576125",
+      "37537310",
+      "37261897",
+      "37129580"
+    ],
+    "refs": [
+      "34716305",
+      "34677123",
+      "33561389",
+      "33543712",
+      "32487073",
+      "32101700",
+      "31792445",
+      "31792379",
+      "31594803",
+      "31421980",
+      "31398323",
+      "31391587",
+      "30833784",
+      "30552103",
+      "30449618",
+      "30244836",
+      "30065106",
+      "29930091",
+      "29930090",
+      "29509422",
+      "29313527",
+      "28935776",
+      "28869757",
+      "28690919",
+      "28636604",
+      "28635963",
+      "28225081",
+      "27713081",
+      "27582387",
+      "27257257",
+      "26351690",
+      "26151127",
+      "25288112",
+      "25030450",
+      "24925319",
+      "24785018",
+      "24630727",
+      "22411821",
+      "21803119",
+      "19460965",
+      "19048988",
+      "18291317",
+      "17416631",
+      "16299068",
+      "12241157",
+      "12058021"
+    ],
+    "similar": [
+      "35881789",
+      "40848932",
+      "40972943",
+      "38251748",
+      "34271007",
+      "38766065",
+      "39987501",
+      "40098319",
+      "34767801",
+      "40954121",
+      "34129784",
+      "40645941",
+      "38987300",
+      "39976773",
+      "36107323",
+      "35293386",
+      "39257779",
+      "40616404",
+      "37261897",
+      "37156794",
+      "40667293",
+      "39168125",
+      "34090478",
+      "37782826",
+      "33672806",
+      "39856105",
+      "34303933",
+      "38489385",
+      "40327693",
+      "37470705",
+      "39704952",
+      "36883003",
+      "40708200",
+      "40455990",
+      "40661408",
+      "23912807",
+      "35001622",
+      "34772789",
+      "33765580",
+      "40408482",
+      "34636323",
+      "31017394",
+      "38363841",
+      "30514760",
+      "36227487",
+      "39482532",
+      "40527409",
+      "38656803",
+      "37669232",
+      "32487073",
+      "34772787",
+      "37348448",
+      "39591652",
+      "41279444",
+      "39320949",
+      "40229261",
+      "39964249",
+      "38781207",
+      "34865286",
+      "37343188",
+      "40195119",
+      "40164149",
+      "34862761",
+      "38670952",
+      "37523989",
+      "38999934",
+      "35364105",
+      "37239436",
+      "41343645",
+      "39271032",
+      "36227474",
+      "40629499",
+      "40168179",
+      "40291420",
+      "36350032",
+      "40149942",
+      "40849651",
+      "38773325",
+      "35867936",
+      "40782375",
+      "40759847",
+      "39574691",
+      "37925283",
+      "35179885",
+      "36310226",
+      "39271915",
+      "40931032",
+      "36524527",
+      "38848869",
+      "40184654",
+      "40521608",
+      "37894933",
+      "39541973",
+      "37770423",
+      "40661423",
+      "37735903",
+      "35727989",
+      "41481439",
+      "38722189",
+      "39075031"
+    ],
+    "review": [
+      "35881789",
+      "34271007",
+      "34767801",
+      "34129784",
+      "39976773",
+      "40616404",
+      "34303933",
+      "34772789",
+      "33765580",
+      "39482532",
+      "40527409",
+      "34772787",
+      "37348448",
+      "39964249",
+      "34865286",
+      "37523989",
+      "37239436",
+      "39271032",
+      "36350032",
+      "40849651",
+      "38773325",
+      "40759847",
+      "37925283",
+      "35179885",
+      "36524527"
+    ],
+    "pmc": [
+      "9351496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2200667119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35881789/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35881789",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

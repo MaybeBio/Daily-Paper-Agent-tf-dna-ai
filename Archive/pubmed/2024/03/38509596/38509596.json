@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38509596",
+    "doi": "10.1186/s40246-024-00595-8",
+    "title": "Explicable prioritization of genetic variants by integration of rule-based and machine learning algorithms for diagnosis of rare Mendelian disorders."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In the process of finding the causative variant of rare diseases, accurate assessment and prioritization of genetic variants is essential. Previous variant prioritization tools mainly depend on the in-silico prediction of the pathogenicity of variants, which results in low sensitivity and difficulty in interpreting the prioritization result. In this study, we propose an explainable algorithm for variant prioritization, named 3ASC, with higher sensitivity and ability to annotate evidence used for prioritization. 3ASC annotates each variant with the 28 criteria defined by the ACMG/AMP genome interpretation guidelines and features related to the clinical interpretation of the variants. The system can explain the result based on annotated evidence and feature contributions. RESULTS: We trained various machine learning algorithms using in-house patient data. The performance of variant ranking was assessed using the recall rate of identifying causative variants in the top-ranked variants. The best practice model was a random forest classifier that showed top 1 recall of 85.6% and top 3 recall of 94.4%. The 3ASC annotates the ACMG/AMP criteria for each genetic variant of a patient so that clinical geneticists can interpret the result as in the CAGI6 SickKids challenge. In the challenge, 3ASC identified causal genes for 10 out of 14 patient cases, with evidence of decreased gene expression for 6 cases. Among them, two genes (HDAC8 and CASK) had decreased gene expression profiles confirmed by transcriptome data. CONCLUSIONS: 3ASC can prioritize genetic variants with higher sensitivity compared to previous methods by integrating various features related to clinical interpretation, including features related to false positive risk such as quality control and disease inheritance pattern. The system allows interpretation of each variant based on the ACMG/AMP criteria and feature contribution assessed using explainable AI techniques.",
+    "keywords": [
+      "Clinical genome interpretation",
+      "Explainable AI",
+      "Mendelian disorder",
+      "Variant prioritization"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Rare Diseases/diagnosis/genetics",
+      "*Algorithms",
+      "Genetic Testing",
+      "Machine Learning",
+      "Genetic Variation/genetics",
+      "Histone Deacetylases/genetics",
+      "Repressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Ho Heon",
+        "Kim, Dong-Wook",
+        "Woo, Junwoo",
+        "Lee, Kyoungyeul"
+      ],
+      "short_names": [
+        "Kim HH",
+        "Kim DW",
+        "Woo J",
+        "Lee K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea.",
+        "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea.",
+        "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea.",
+        "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea. ney8909@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Ho Heon",
+        "short_name": "Kim HH",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Dong-Wook",
+        "short_name": "Kim DW",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Woo, Junwoo",
+        "short_name": "Woo J",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Kyoungyeul",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Development Center, 3billion, 14th floor, 416 Teheran-ro, Gangnam-gu, Seoul, 06193, Republic of Korea. ney8909@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genomics"
+    ],
+    "journal_abbrev": [
+      "Hum Genomics"
+    ],
+    "pub_date": "2024 Mar 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/21 06:43",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41595426",
+      "41342159",
+      "40668553",
+      "39165556"
+    ],
+    "refs": [
+      "37043637",
+      "36990084",
+      "36413997",
+      "36054330",
+      "35864128",
+      "35391505",
+      "35169226",
+      "34955381",
+      "34270679",
+      "33981013",
+      "33106175",
+      "32960281",
+      "32901917",
+      "32755546",
+      "32720330",
+      "32434849",
+      "32020066",
+      "31479589",
+      "30304647",
+      "30192042",
+      "29300386",
+      "28771251",
+      "28567303",
+      "27899611",
+      "27776117",
+      "27535533",
+      "27268795",
+      "27144058",
+      "26931183",
+      "26582918",
+      "26562621",
+      "26432245",
+      "25741868",
+      "25533962",
+      "24681721",
+      "24217912",
+      "23990802",
+      "23696674",
+      "21653522",
+      "21520341",
+      "21472891",
+      "20354512",
+      "19800049",
+      "19561590",
+      "19505943",
+      "19451168",
+      "15608257",
+      "15608251",
+      "9885859"
+    ],
+    "similar": [
+      "38509596",
+      "38685113",
+      "30675030",
+      "35169226",
+      "31026367",
+      "34082700",
+      "38935959",
+      "30696458",
+      "31615419",
+      "36358902",
+      "38520562",
+      "35590234",
+      "29179779",
+      "27181684",
+      "37577678",
+      "34750410",
+      "37352901",
+      "32338743",
+      "34645491",
+      "32176464",
+      "29861492",
+      "39078460",
+      "39285047",
+      "28081714",
+      "28132688",
+      "33046849",
+      "28512736",
+      "36427457",
+      "34529933",
+      "37587458",
+      "34498682",
+      "31534211",
+      "39469763",
+      "34510646",
+      "35063063",
+      "28414800",
+      "33368787",
+      "36309956",
+      "32461655",
+      "37532488",
+      "28832562",
+      "26838676",
+      "37946251",
+      "30095857",
+      "37092535",
+      "36246618",
+      "34230634",
+      "32493955",
+      "31582890",
+      "34946832",
+      "31779139",
+      "38811176",
+      "30311386",
+      "29463208",
+      "34372920",
+      "30298955",
+      "37907381",
+      "28812537",
+      "36939041",
+      "30727941",
+      "35180879",
+      "31680375",
+      "31888639",
+      "33108757",
+      "39243101",
+      "29254502",
+      "34857774",
+      "37443090",
+      "31231902",
+      "29689380",
+      "30341947",
+      "34906454",
+      "36759776",
+      "35078481",
+      "35934592",
+      "32340307",
+      "37352859",
+      "35143088",
+      "29300386",
+      "35974416",
+      "33496739",
+      "31056107",
+      "31897316",
+      "35039090",
+      "33060171",
+      "38758754",
+      "38540429",
+      "28669401",
+      "39142283",
+      "36217948",
+      "34955381",
+      "38773771",
+      "25253562",
+      "29892087",
+      "37580177",
+      "25741868",
+      "30311375",
+      "33300245",
+      "31479589",
+      "28804138"
+    ],
+    "review": [
+      "38509596",
+      "37352901",
+      "29861492",
+      "39078460",
+      "34498682",
+      "37532488",
+      "31779139",
+      "39243101",
+      "36759776",
+      "35934592",
+      "37580177",
+      "25741868"
+    ],
+    "pmc": [
+      "10956189"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-024-00595-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rarediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rare Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38509596/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38509596",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

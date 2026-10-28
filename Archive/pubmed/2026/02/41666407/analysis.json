@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41666407",
+  "title": "CTAS: a network control theory-based approach to identify key regulatory TFs of AS events during epithelial-mesenchymal transition.",
+  "authors": "Gan, Yan; He, Yangsong; Zhao, Pu; Ching, Wai-Ki; Qiu, Yushan",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-02-10",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用网络控制理论从转录组数据推断TF→RBP→AS调控网络，虽涉及TF调控但无蛋白-DNA互作建模或AI/物理模拟方法，仅间接相关。",
+  "abstract": "Alternative splicing (AS) is a key driver of transcriptomic diversity and plays a pivotal role in epithelial-mesenchymal transition (EMT). During EMT, dynamic splicing changes contribute to cell plasticity and metastasis, yet the upstream regulatory logic remains unclear. Although transcription factors (TFs) are thought to influence AS programs, they typically act through RNA-binding proteins (RBPs), forming a hierarchical TF$\\rightarrow $RBP$\\rightarrow $AS cascade. Current computational strategies struggle to recover such multi-layered regulation from bulk cross-sectional data, limiting our ability to identify TFs that ultimately control EMT-related AS events. To address this gap, we developed CTAS, a network control theory-based approach to identify key regulatory TFs of AS events during EMT. CTAS integrates pseudotime ordering, trend analysis, sparse directed network inference, and control-theoretic screening into a unified framework. In simulations, CTAS reconstructs EMT trajectories with Spearman's $\\rho = 0.99946$ and directed networks with ROC AUC = 89.9%, and remains robust under noise. Applied to a TCGA BRCA cohort, CTAS builds a directed TF$\\to $RBP$\\to $AS network and identifies HOXA3 (1.00), PRDM8 (0.86), and TWIST2 (0.83) as top TF controllers, alongside significant dynamic shifts in nine AS events detected by Wilcoxon test ($P <.05$). A focused CD44 subnetwork further highlights ZNF521 (0.86) and HIC1 (0.65) as candidate regulators. These findings demonstrate that CTAS transforms cross-sectional data into dynamic regulatory insights and yields experimentally testable TFs that control AS during EMT.",
+  "abstract_zh": "选择性剪接（alternative splicing, AS）是转录组多样性的关键驱动因素，并在上皮-间质转化（epithelial-mesenchymal transition, EMT）中发挥重要作用。在EMT过程中，动态剪接变化促进细胞可塑性和转移，但其上游调控逻辑仍不清楚。尽管转录因子（transcription factors, TFs）被认为影响AS程序，但它们通常通过RNA结合蛋白（RNA-binding proteins, RBPs）发挥作用，形成层级性的TF$\\rightarrow $RBP$\\rightarrow $AS级联。当前的计算策略难以从批量横截面数据中恢复这种多层调控，限制了我们识别最终控制EMT相关AS事件的TFs的能力。为解决这一空白，我们开发了CTAS，一种基于网络控制理论的方法，用于识别EMT过程中AS事件的关键调控TFs。CTAS将伪时间排序、趋势分析、稀疏有向网络推断和控制理论筛选整合到一个统一框架中。在模拟中，CTAS以Spearman's $\\rho = 0.99946$重建EMT轨迹，并以ROC AUC = 89.9%构建有向网络，且在噪声下保持稳健。应用于TCGA BRCA队列时，CTAS构建了一个有向TF$\\to $RBP$\\to $AS网络，并识别出HOXA3（1.00）、PRDM8（0.86）和TWIST2（0.83）为顶级TF控制器，同时通过Wilcoxon检验（$P <.05$）检测到九个AS事件的显著动态变化。一个聚焦的CD44子网络进一步突出ZNF521（0.86）和HIC1（0.65）作为候选调控因子。这些发现表明，CTAS将横截面数据转化为动态调控见解，并产生在EMT过程中控制AS的可实验验证的TFs。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41666407/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41666407/",
+  "paper_page_path": "papers/pubmed/41666407/index.html"
+}

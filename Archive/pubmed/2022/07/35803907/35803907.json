@@ -1,0 +1,470 @@
+{
+  "identity": {
+    "pmid": "35803907",
+    "doi": "10.1038/s41467-022-31525-8",
+    "title": "Lipolysis regulates major transcriptional programs in brown adipocytes."
+  },
+  "content": {
+    "abstract": "beta-Adrenergic signaling is a core regulator of brown adipocyte function stimulating both lipolysis and transcription of thermogenic genes, thereby expanding the capacity for oxidative metabolism. We have used pharmacological inhibitors and a direct activator of lipolysis to acutely modulate the activity of lipases, thereby enabling us to uncover lipolysis-dependent signaling pathways downstream of beta-adrenergic signaling in cultured brown adipocytes. Here we show that induction of lipolysis leads to acute induction of several gene programs and is required for transcriptional regulation by beta-adrenergic signals. Using machine-learning algorithms to infer causal transcription factors, we show that PPARs are key mediators of lipolysis-induced activation of genes involved in lipid metabolism and thermogenesis. Importantly, however, lipolysis also activates the unfolded protein response and regulates the core circadian transcriptional machinery independently of PPARs. Our results demonstrate that lipolysis generates important metabolic signals that exert profound pleiotropic effects on transcription and function of cultured brown adipocytes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adipocytes, Brown/metabolism",
+      "Adipose Tissue, Brown/metabolism",
+      "Adrenergic Agents/pharmacology",
+      "*Lipolysis/genetics",
+      "Peroxisome Proliferator-Activated Receptors/metabolism",
+      "Thermogenesis/physiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Markussen, Lasse K",
+        "Rondini, Elizabeth A",
+        "Johansen, Olivia Sveidahl",
+        "Madsen, Jesper G S",
+        "Sustarsic, Elahu G",
+        "Marcher, Ann-Britt",
+        "Hansen, Jacob B",
+        "Gerhart-Hines, Zachary",
+        "Granneman, James G",
+        "Mandrup, Susanne"
+      ],
+      "short_names": [
+        "Markussen LK",
+        "Rondini EA",
+        "Johansen OS",
+        "Madsen JGS",
+        "Sustarsic EG",
+        "Marcher AB",
+        "Hansen JB",
+        "Gerhart-Hines Z",
+        "Granneman JG",
+        "Mandrup S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0518-0800",
+        "ORCID: 0000-0002-4792-4740",
+        "ORCID: 0000-0001-5249-2586",
+        "ORCID: 0000-0003-2981-4991",
+        "ORCID: 0000-0001-7013-6630",
+        "ORCID: 0000-0002-0961-5787"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+        "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark.",
+        "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, MI, USA.",
+        "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+        "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Embark Biotech ApS, Copenhagen, Denmark.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark.",
+        "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+        "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark.",
+        "Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+        "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Embark Biotech ApS, Copenhagen, Denmark.",
+        "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, MI, USA. jgranne@med.wayne.edu.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark. s.mandrup@bmb.sdu.dk.",
+        "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark. s.mandrup@bmb.sdu.dk.",
+        "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark. s.mandrup@bmb.sdu.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Markussen, Lasse K",
+        "short_name": "Markussen LK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+          "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+          "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Rondini, Elizabeth A",
+        "short_name": "Rondini EA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Johansen, Olivia Sveidahl",
+        "short_name": "Johansen OS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+          "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.",
+          "Embark Biotech ApS, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Madsen, Jesper G S",
+        "short_name": "Madsen JGS",
+        "identifiers": [
+          "0000-0002-0518-0800"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+          "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Sustarsic, Elahu G",
+        "short_name": "Sustarsic EG",
+        "identifiers": [
+          "0000-0002-4792-4740"
+        ],
+        "affiliations": [
+          "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Marcher, Ann-Britt",
+        "short_name": "Marcher AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+          "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+          "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hansen, Jacob B",
+        "short_name": "Hansen JB",
+        "identifiers": [
+          "0000-0001-5249-2586"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Gerhart-Hines, Zachary",
+        "short_name": "Gerhart-Hines Z",
+        "identifiers": [
+          "0000-0003-2981-4991"
+        ],
+        "affiliations": [
+          "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark.",
+          "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark.",
+          "Embark Biotech ApS, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Granneman, James G",
+        "short_name": "Granneman JG",
+        "identifiers": [
+          "0000-0001-7013-6630"
+        ],
+        "affiliations": [
+          "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, MI, USA. jgranne@med.wayne.edu."
+        ]
+      },
+      {
+        "full_name": "Mandrup, Susanne",
+        "short_name": "Mandrup S",
+        "identifiers": [
+          "0000-0002-0961-5787"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark. s.mandrup@bmb.sdu.dk.",
+          "Center for Adipocyte Signaling (AdipoSign), Odense, Denmark. s.mandrup@bmb.sdu.dk.",
+          "Center for Functional Genomics and Tissue Plasticity (ATLAS), Odense, Denmark. s.mandrup@bmb.sdu.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jul 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "42675150",
+      "42282667",
+      "42274594",
+      "42198461",
+      "41369396",
+      "41186614",
+      "41129595",
+      "41107224",
+      "40949097",
+      "40568942",
+      "40550948",
+      "40507926",
+      "40429675",
+      "40382687",
+      "40234625",
+      "40025173",
+      "39998957",
+      "39932848",
+      "39928840",
+      "39859293",
+      "39770930",
+      "39613256",
+      "39297160",
+      "38999988",
+      "38864666",
+      "38571921",
+      "38550985",
+      "38216738",
+      "38170777",
+      "38167670",
+      "38140341",
+      "37703635",
+      "37626963",
+      "37488770",
+      "37048443",
+      "36889280"
+    ],
+    "refs": [
+      "33592173",
+      "32457508",
+      "32130908",
+      "31668392",
+      "31497752",
+      "31451658",
+      "31028913",
+      "30833796",
+      "30655625",
+      "30395331",
+      "30193114",
+      "29855970",
+      "29752759",
+      "29590620",
+      "29472592",
+      "29439157",
+      "29386110",
+      "29346772",
+      "29233921",
+      "29138967",
+      "29118013",
+      "28988822",
+      "28988821",
+      "28957413",
+      "28930429",
+      "28928121",
+      "28768178",
+      "26971994",
+      "26411340",
+      "25564527",
+      "25559105",
+      "25516281",
+      "24793638",
+      "24703692",
+      "24162845",
+      "23487760",
+      "23434933",
+      "23104886",
+      "22685301",
+      "22405066",
+      "22273692",
+      "21857651",
+      "21728997",
+      "21641555",
+      "21526899",
+      "21505145",
+      "21160473",
+      "21106759",
+      "20956526",
+      "20513432",
+      "19850935",
+      "19721697",
+      "18981474",
+      "18559892",
+      "18390901",
+      "17114792",
+      "16675698",
+      "14715917",
+      "14205018",
+      "12397359",
+      "11369767",
+      "11171092",
+      "11108130",
+      "10802651",
+      "10629058",
+      "10198642",
+      "4381021",
+      "4324309",
+      "1314957",
+      "1036900",
+      "437931",
+      "174073",
+      "169252"
+    ],
+    "similar": [
+      "35803907",
+      "38128827",
+      "34100382",
+      "33248294",
+      "40787784",
+      "27763777",
+      "32344065",
+      "32473405",
+      "24917675",
+      "25135951",
+      "27454177",
+      "38158020",
+      "26706316",
+      "31401979",
+      "32246911",
+      "20935662",
+      "34048700",
+      "28107769",
+      "40220929",
+      "22685301",
+      "30033199",
+      "35709007",
+      "36595342",
+      "28988822",
+      "39566492",
+      "28949928",
+      "15243132",
+      "35063533",
+      "28427098",
+      "33171828",
+      "34195966",
+      "38382361",
+      "36419345",
+      "31767169",
+      "28123941",
+      "39155481",
+      "26733201",
+      "22033933",
+      "29514884",
+      "35167092",
+      "30862682",
+      "27132805",
+      "15762841",
+      "27686967",
+      "38747241",
+      "32480042",
+      "39848402",
+      "26306033",
+      "12959998",
+      "32620768",
+      "32240964",
+      "31573981",
+      "33285300",
+      "30022159",
+      "34953210",
+      "23990898",
+      "30867164",
+      "34233169",
+      "36480426",
+      "30279164",
+      "22307324",
+      "31840569",
+      "37549287",
+      "37321371",
+      "33683213",
+      "21878665",
+      "28988768",
+      "26527067",
+      "23257354",
+      "39470603",
+      "40025173",
+      "35331721",
+      "24159189",
+      "37716088",
+      "37121509",
+      "39454826",
+      "28928121",
+      "30841429",
+      "40180176",
+      "30478315",
+      "25071184",
+      "31411815",
+      "35491148",
+      "20509000",
+      "32207362",
+      "27833050",
+      "29954752",
+      "29784793",
+      "29514068",
+      "33246168",
+      "27986537",
+      "23736373",
+      "36195403",
+      "31094212",
+      "29175050",
+      "33963248",
+      "39278357",
+      "29346772",
+      "35305295",
+      "29675584"
+    ],
+    "review": [
+      "35803907",
+      "20935662",
+      "28949928",
+      "15243132",
+      "28427098",
+      "34195966",
+      "29514884",
+      "38747241",
+      "39470603"
+    ],
+    "pmc": [
+      "9270495"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-31525-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35803907/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35803907",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse202833",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

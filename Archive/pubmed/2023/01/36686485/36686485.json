@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "36686485",
+    "doi": "10.3389/fendo.2022.1005916",
+    "title": "Novel biomarkers predict prognosis and drug-induced neuroendocrine differentiation in patients with prostate cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: A huge focus is being placed on the development of novel signatures in the form of new combinatorial regimens to distinguish the neuroendocrine (NE) characteristics from castration resistant prostate cancer (CRPC) timely and accurately, as well as predict the disease-free survival (DFS) and progression-free survival (PFS) of prostate cancer (PCa) patients. METHODS: Single cell data of 4 normal samples, 3 CRPC samples and 3 CRPC-NE samples were obtained from GEO database, and CellChatDB was used for potential intercellular communication, Secondly, using the \"limma\" package (v3.52.0), we obtained the differential expressed genes between CRPC and CRPC-NE both in single-cell RNA seq and bulk RNA seq samples, and discovered 12 differential genes characterized by CRPC-NE. Then, on the one hand, the diagnosis model of CRPC-NE is developed by random forest algorithm and artificial neural network (ANN) through Cbioportal database; On the other hand, using the data in Cbioportal and GEO database, the DFS and PFS prognostic model of PCa was established and verified through univariate Cox analysis, least absolute shrinkage and selection operator (Lasso) regression and multivariate Cox regression in R software. Finally, somatic mutation and immune infiltration were also discussed. RESULTS: Our research shows that there exists specific intercellular communication in classified clusters. Secondly, a CRPC-NE diagnostic model of six genes (HMGN2, MLLT11, SOX4, PCSK1N, RGS16 and PTMA) has been established and verified, the area under the ROC curve (AUC) is as high as 0.952 (95% CI: 0.882-0.994). The mutation landscape shows that these six genes are rarely mutated in the CRPC and NEPC samples. In addition, NE-DFS signature (STMN1 and PCSK1N) and NE-PFS signature (STMN1, UBE2S and HMGN2) are good predictors of DFS and PFS in PCa patients and better than other clinical features. Lastly, the infiltration levels of plasma cells, T cells CD4 naive, Eosinophils and Monocytes were significantly different between the CRPC and NEPC groups. CONCLUSIONS: This study revealed the heterogeneity between CRPC and CRPC-NE from different perspectives, and developed a reliable diagnostic model of CRPC-NE and robust prognostic models for PCa.",
+    "keywords": [
+      "castration-resistant prostate cancer",
+      "cellular communication",
+      "neuroendocrine",
+      "prognosis",
+      "single-cell RNA-seq"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms, Castration-Resistant/genetics",
+      "*HMGN2 Protein",
+      "Prognosis",
+      "Biomarkers",
+      "Cell Differentiation",
+      "SOXC Transcription Factors",
+      "Neoplasm Proteins",
+      "Proto-Oncogene Proteins",
+      "Ubiquitin-Conjugating Enzymes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Jingwei",
+        "Cai, Yingxin",
+        "Wang, Zuomin",
+        "Ma, Yuxiang",
+        "Pan, Jinyou",
+        "Liu, Yangzhou",
+        "Zhao, Zhigang"
+      ],
+      "short_names": [
+        "Lin J",
+        "Cai Y",
+        "Wang Z",
+        "Ma Y",
+        "Pan J",
+        "Liu Y",
+        "Zhao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Jingwei",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yingxin",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zuomin",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuxiang",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jinyou",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yangzhou",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhigang",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology & Andrology, Minimally Invasive Surgery Center, Guangdong Provincial Key Laboratory of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/24 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "41950670",
+      "41574665",
+      "40678806",
+      "40377162",
+      "39513308",
+      "39080336",
+      "38595234",
+      "38510027",
+      "37534253"
+    ],
+    "refs": [
+      "35789834",
+      "35253622",
+      "35241665",
+      "35013146",
+      "34646089",
+      "34557778",
+      "34069563",
+      "34062119",
+      "33960594",
+      "33824525",
+      "33722664",
+      "33597522",
+      "33420371",
+      "33328604",
+      "33150960",
+      "32425694",
+      "32264916",
+      "32139297",
+      "31238254",
+      "31178118",
+      "31061129",
+      "30643263",
+      "30505247",
+      "30341162",
+      "30340784",
+      "29858066",
+      "29625048",
+      "29608179",
+      "29494958",
+      "29156689",
+      "29132337",
+      "29119053",
+      "28890368",
+      "28825705",
+      "28411207",
+      "28114287",
+      "28035005",
+      "27358110",
+      "26855148",
+      "26124369",
+      "26015225",
+      "25867923",
+      "25822800",
+      "25736687",
+      "25677125",
+      "25606573",
+      "25605792",
+      "25225419",
+      "24705311",
+      "24658644",
+      "23942095",
+      "23764001",
+      "23752196",
+      "23399728",
+      "23323831",
+      "23207293",
+      "23064263",
+      "22952424",
+      "22586648",
+      "22455463",
+      "22257669",
+      "21862681",
+      "21414208",
+      "20808728",
+      "20609350",
+      "20600637",
+      "20579941",
+      "20460542",
+      "19665027",
+      "19509421",
+      "19442514",
+      "19147588",
+      "18782595",
+      "18676866",
+      "17914087",
+      "17376392",
+      "16353248",
+      "15740851",
+      "15082200",
+      "14607271",
+      "12707036",
+      "11106548",
+      "11072132"
+    ],
+    "similar": [
+      "36686485",
+      "34646089",
+      "39014441",
+      "37729607",
+      "35058087",
+      "36601001",
+      "27550197",
+      "36681849",
+      "33859239",
+      "33598420",
+      "33037409",
+      "29844220",
+      "39318189",
+      "31371344",
+      "38197680",
+      "39154281",
+      "38250042",
+      "32091413",
+      "37070095",
+      "33568749",
+      "29666783",
+      "36258196",
+      "29569310",
+      "36424614",
+      "38739593",
+      "30274982",
+      "31376193",
+      "38057852",
+      "31238254",
+      "37369799",
+      "34625072",
+      "27497761",
+      "36982415",
+      "29544736",
+      "33671634",
+      "35780240",
+      "34312180",
+      "25964598",
+      "26990456",
+      "36105400",
+      "33675416",
+      "36607288",
+      "32294305",
+      "36974949",
+      "36973787",
+      "27198487",
+      "37244445",
+      "37355053",
+      "33199493",
+      "29555975",
+      "32133801",
+      "38730195",
+      "27037211",
+      "37730847",
+      "24054872",
+      "38585861",
+      "29944905",
+      "35620461",
+      "36470854",
+      "34970742",
+      "37502956",
+      "25129854",
+      "26297150",
+      "26135933",
+      "36741911",
+      "26689606",
+      "35836112",
+      "37950047",
+      "38566813",
+      "35052475",
+      "27410686",
+      "37679111",
+      "31181727",
+      "34806485",
+      "34591415",
+      "30962287",
+      "36401126",
+      "35918733",
+      "26015225",
+      "34572596",
+      "31897875",
+      "31575477",
+      "31814621",
+      "37370891",
+      "37563661",
+      "30141208",
+      "38657119",
+      "32449815",
+      "37346073",
+      "25759396",
+      "30444038",
+      "37166213",
+      "37069746",
+      "36034466",
+      "28487115",
+      "35008817",
+      "37010617",
+      "24968948",
+      "34298665",
+      "26325107",
+      "37305585",
+      "36752189",
+      "39335669",
+      "38842134",
+      "29383125",
+      "38746377",
+      "31396486",
+      "39418984",
+      "39399052",
+      "36828904",
+      "39361158",
+      "39153107"
+    ],
+    "review": [
+      "36686485",
+      "29844220",
+      "29569310",
+      "31181727",
+      "37166213",
+      "35008817"
+    ],
+    "pmc": [
+      "9849576"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36686485/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36686485",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3477",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2022.1005916",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

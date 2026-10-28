@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a conditional recurrent neural network (cRNN) generative model for de novo molecule design, where the conditioning signal is derived from 3D structural information of protein binding pockets. The pocket is characterized via a coarse-grain strategy, and the 3D information is encoded as sorted eigenvalues of the Coulomb matrix (EGCM) of coarse-grained pocket atoms. The model is compared against a standard RNN and against a cRNN conditioned on a previously reported descriptor, DeeplyTough. The authors report that molecules generated with protein environment conditioning show higher similarity to the original X-ray bound ligand and improved docking scores relative to the standard RNN. The abstract concludes that EGCM-controlled generation has potential for targeted molecule design and guided exploration of drug-like chemical space.
+- **Visible evidence base** Abstract text only; no quantitative results, no methodological details, no figures, no tables, no code or data references
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, training and validation datasets, hyperparameters, docking protocol, statistical analyses, and any comparison details. Without these, the core claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of 3D pocket information into a generative model for targeted molecule design. The idea of using a coarse-grained Coulomb matrix eigenvalue representation is novel and potentially useful. However, the abstract provides no quantitative evidence, no methodological detail, and no statistical validation. The claims of improved ligand similarity and docking performance are stated without supporting numbers, error bars, or baselines beyond a single comparison to a standard RNN. The work is at a preliminary stage and the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on generative models for drug discovery, particularly those interested in structure-based design and targeted library generation. Researchers developing protein pocket descriptors or conditional generative models would also find the approach relevant. The potential to steer generation toward known binding modes could appeal to those seeking to integrate structural biology with generative AI.
+- **Major strengths** The conceptual framing is clear and addresses a real gap in generative molecule design, namely the incorporation of 3D pocket context. The use of a coarse-grain strategy to reduce computational complexity is pragmatic. The comparison against a previously reported descriptor (DeeplyTough) is a reasonable benchmarking choice. The abstract is readable and the motivation is well articulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that molecules generated with protein environment conditioning show "a clear tendency on generating compounds with higher similarity to the original X-ray bound ligand than normal RNN model and also achieving better performance in terms of docking scores."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support this claim. There are no similarity values, docking score distributions, statistical tests, or effect sizes. The phrase "clear tendency" is vague and not backed by any reported metric.
+  - **Why it matters** The central claim of the work is that conditioning on pocket information improves generation quality. Without numbers, the reader cannot judge the magnitude of the effect, its consistency, or its significance. This is the core contribution and it is currently unverifiable.
+  - **Resolution test** Provide quantitative results, including mean and standard deviation or confidence intervals for ligand similarity (e.g., Tanimoto similarity) and docking scores for the cRNN-EGCM, cRNN-DeeplyTough, and standard RNN models. Include statistical significance testing (e.g., Wilcoxon or t-test) and report the number of targets and molecules generated per target.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "the composition of protein binding pocket is effectively characterized through a coarse-grain strategy and the three-dimensional information of the pocket can be represented by the sorted eigenvalues of the coulomb matrix (EGCM) of the coarse-grained atoms composing the binding pocket."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The coarse-grain strategy is not described. Which atoms are retained, how the coarse-graining is performed, and how the Coulomb matrix is constructed and normalized are not specified. The choice of eigenvalues as a representation is mentioned but no justification or validation is given.
+  - **Why it matters** The EGCM descriptor is the key novelty. Without a clear description of its construction, the method cannot be reproduced or compared fairly against DeeplyTough. The validity of the descriptor as a faithful representation of the pocket is not demonstrated.
+  - **Resolution test** Provide a detailed methods section describing the coarse-graining procedure, the atom selection rules, the Coulomb matrix construction, and the eigenvalue sorting and truncation. Include a validation analysis showing that EGCM captures relevant pocket features, e.g., by comparing against known pocket similarity measures or by ablation studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative rigor
+  - **Claim pointer** The abstract states that the cRNN models were trained using EGCM and DeeplyTough and their performance was compared.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The comparison between EGCM and DeeplyTough is mentioned but no results are reported. It is unclear whether EGCM outperforms, matches, or underperforms DeeplyTough. The choice of DeeplyTough as a comparator is not justified, and the training conditions for both models are not stated.
+  - **Why it matters** A fair comparison requires identical training data, model architecture, and evaluation protocol. Without these details, any observed difference could be attributed to confounding factors. The reader cannot assess whether EGCM offers any advantage over existing descriptors.
+  - **Resolution test** Report the comparative results explicitly, including the same evaluation metrics for both descriptors. State the training setup, including data splits, hyperparameters, and any differences in conditioning vector dimensions. Discuss why DeeplyTough was chosen and whether other descriptors were considered.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "conditional RNN (cRNN)" is introduced without a brief explanation of what conditioning means in this context. A reader unfamiliar with conditional generative models may not understand how the pocket information is injected into the RNN.
+  - **Required correction** Add a sentence explaining that the conditioning vector is concatenated or otherwise integrated into the RNN hidden state or input at each generation step.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Evaluation scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract claims "guided exploration on the drug-like chemical space" but does not specify how the exploration is guided or what metrics are used to assess drug-likeness beyond docking scores and ligand similarity.
+  - **Required correction** Clarify whether drug-likeness is assessed via physicochemical properties (e.g., QED, Lipinski rules) or solely via docking and similarity. If additional metrics were used, list them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of data availability, code release, or model availability. For a method paper, this is important for reproducibility.
+  - **Required correction** State in the abstract or main text whether code, trained models, and datasets will be made publicly available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, the lack of methodological detail for the EGCM descriptor, and the incomplete comparative analysis collectively prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The idea of using a coarse-grained Coulomb matrix eigenvalue representation for pocket conditioning is novel and could be of interest. Scientific importance: The potential to integrate 3D pocket information into generative models is relevant, but the significance is not demonstrated without quantitative evidence. Interdisciplinary readership: The work bridges structural biology and generative AI, which could appeal to a broad audience, but the abstract is too thin to engage nonspecialists. Technical soundness: Cannot be assessed from the abstract; the descriptor construction and model training are not described. Readability for nonspecialists: The abstract is readable but assumes familiarity with generative models and docking; the lack of context for cRNN and EGCM reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the direction is worth pursuing, but the abstract alone does not provide sufficient support for the claims. A full manuscript with quantitative results, methodological detail, and rigorous comparison would be needed to assess the work properly.
+
+## Risk / unsupported claims
+- The claim of "clear tendency" toward higher ligand similarity and better docking scores is unsupported by any reported data.
+- The claim that EGCM "effectively characterizes" the binding pocket composition is not validated.
+- The comparative performance of EGCM versus DeeplyTough is mentioned but not reported, making any implied superiority or equivalence unassessable.
+- The general applicability of the method to "guided exploration on the drug-like chemical space" is speculative without broader evaluation across diverse targets and property metrics.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40894645",
+  "title": "Active learning-guided optimization of cell-free biosensors for lead testing in drinking water.",
+  "authors": "Wang, Brenda M; Chiang, Nicole; Ekas, Holly M; Brown, Dylan M; Dildine, Garrett; Lucci, Tyler J; Feng, Siyuan; Bly, Vanessa; Gaillard, Jean-Francois; Lucks, Julius B; Karim, Ashty S; Shukla, Diwakar; Jewett, Michael C",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-02",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用主动学习与ML优化基于aTF PbrR的细胞游离生物传感器检测铅，虽涉及转录因子-配体互作而非DNA结合，但ML方法可迁移至TF-DNA互作建模。",
+  "abstract": "Point-of-use diagnostics based on allosteric transcription factors (aTFs) are promising tools for environmental monitoring and human health. However, biosensors relying on natural aTFs rarely exhibit the sensitivity and selectivity needed for real-world applications, and traditional directed evolution struggles to optimize multiple biosensor properties at once. To overcome these challenges, we develop a multi-objective, machine learning (ML)-guided cell-free gene expression workflow for engineering aTF-based biosensors. Our approach rapidly generates high-quality sequence-to-function data, which we transform into an augmented paired dataset to train an ML model using directional labels that capture how aTF mutations alter performance. We apply our workflow to engineer the aTF PbrR as a point-of-use diagnostic for lead contamination in water. We tune the sensitivity of PbrR to sense at the U.S. Environmental Protection Agency (EPA) action level for lead and modify the selectivity away from zinc, a common metal found in water supplies. Finally, we show that the engineered PbrR functions in freeze-dried cell-free reactions, enabling a diagnostic capable of detecting lead in drinking water down to ~5.7 ppb. Our ML-driven, multi-objective framework-powered by directional tokens-can generalize to other biosensors and proteins, accelerating the development of synthetic biology tools for biotechnology applications.",
+  "abstract_zh": "基于变构转录因子（aTF）的点-of-care诊断工具在环境监测和人类健康领域具有广阔前景。然而，依赖天然aTF的生物传感器在实际应用中很少展现出所需的灵敏度和选择性，而传统定向进化难以同时优化多种生物传感器性能。为克服这些挑战，我们开发了一种多目标、机器学习（ML）引导的无细胞基因表达工作流程，用于工程化基于aTF的生物传感器。我们的方法快速生成高质量的序列-功能数据，并将其转化为增强的配对数据集，利用方向性标签训练ML模型，以捕捉aTF突变如何改变性能。我们将该工作流程应用于工程化aTF PbrR，作为水中铅污染的点-of-care诊断工具。我们将PbrR的灵敏度调节至美国环境保护署（EPA）规定的铅作用水平，并调整其选择性，使其远离水中常见的金属锌。最后，我们展示了工程化PbrR在冻干无细胞反应中发挥作用，从而实现了能够检测饮用水中铅含量低至约5.7 ppb的诊断工具。我们的ML驱动、多目标框架——由方向性标记赋能——可推广至其他生物传感器和蛋白质，加速合成生物学工具在生物技术应用中的开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40894645/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40894645/",
+  "paper_page_path": "papers/pubmed/40894645/index.html"
+}

@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "37965425",
+    "doi": "10.1016/j.xjidi.2023.100229",
+    "title": "Strategic Approach to Heterogeneity Analysis of Cutaneous Adnexal Carcinomas Using Computational Pathology and Genomics."
+  },
+  "content": {
+    "abstract": "Cutaneous adnexal tumors are neoplasms that arise from skin appendages. Their morphologic diversity and phenotypic variability with rare progression to malignancy make them difficult to diagnose and classify, and there is currently no established treatment strategy. To overcome these difficulties, this study investigated the transcription factor SOX9 expression, morphology, and genetics of skin adnexal tumors for understanding their biology, especially their histogenesis. We showed that cutaneous adnexal tumors and their nontumor counterparts of skin and appendages exhibit expression patterns similar to that of SOX9. Its expression intensity and pattern, as well as histopathologic evaluation of tumors, were analyzed using digital images of 69 normal skin adnexal 9-type organs and 185 skin adnexal 29-type tumors as references. It was possible to distinguish basal cell carcinoma from squamous cell carcinoma, sebaceous carcinoma, and pilomatrixoma with significant differences, along with porocarcinoma from squamous cell carcinoma. Furthermore, unsupervised machine learning \"computational pathology\" was used to derive a multiregion whole-exome sequencing fusion method termed \"genocomputed pathology.\" The genocomputed pathology of three representable adnexal carcinomas (porocarcinoma, hidradenocarcinoma, and spiradenocarcinoma) was evaluated for total nine cases. We showed that there was more heterogeneity than expected within the tumors as well as the coexistence of components lacking driver fusion genes. The presence or absence of potential driver genes, such as PIK3CA, YAP1, and PTEN, in each region was identified, highlighting a therapeutic strategy for cutaneous adnexal carcinoma encompassing heterogeneous tumors.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nishimura, Yuuki",
+        "Ryo, Eijitsu",
+        "Inoue, Satoshi",
+        "Kawazu, Masahito",
+        "Ueno, Toshihide",
+        "Namikawa, Kenjiro",
+        "Takahashi, Akira",
+        "Ogata, Dai",
+        "Yoshida, Akihiko",
+        "Yamazaki, Naoya",
+        "Mano, Hiroyuki",
+        "Yatabe, Yasushi",
+        "Mori, Taisuke"
+      ],
+      "short_names": [
+        "Nishimura Y",
+        "Ryo E",
+        "Inoue S",
+        "Kawazu M",
+        "Ueno T",
+        "Namikawa K",
+        "Takahashi A",
+        "Ogata D",
+        "Yoshida A",
+        "Yamazaki N",
+        "Mano H",
+        "Yatabe Y",
+        "Mori T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Course of Advanced Clinical Research of Cancer, Juntendo University Graduate School of Medicine, Tokyo, Japan.",
+        "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan.",
+        "Course of Advanced Clinical Research of Cancer, Juntendo University Graduate School of Medicine, Tokyo, Japan.",
+        "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+        "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nishimura, Yuuki",
+        "short_name": "Nishimura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+          "Course of Advanced Clinical Research of Cancer, Juntendo University Graduate School of Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ryo, Eijitsu",
+        "short_name": "Ryo E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Inoue, Satoshi",
+        "short_name": "Inoue S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawazu, Masahito",
+        "short_name": "Kawazu M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ueno, Toshihide",
+        "short_name": "Ueno T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Namikawa, Kenjiro",
+        "short_name": "Namikawa K",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Akira",
+        "short_name": "Takahashi A",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ogata, Dai",
+        "short_name": "Ogata D",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshida, Akihiko",
+        "short_name": "Yoshida A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamazaki, Naoya",
+        "short_name": "Yamazaki N",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatologic Oncology, National Cancer Center Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mano, Hiroyuki",
+        "short_name": "Mano H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular Signaling, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yatabe, Yasushi",
+        "short_name": "Yatabe Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+          "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan.",
+          "Course of Advanced Clinical Research of Cancer, Juntendo University Graduate School of Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mori, Taisuke",
+        "short_name": "Mori T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan.",
+          "Division of Molecular Pathology, National Cancer Center Reserch Institute, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JID innovations : skin science from molecules to population health"
+    ],
+    "journal_abbrev": [
+      "JID Innov"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/15 06:42",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "39765541"
+    ],
+    "refs": [
+      "36484607",
+      "36114905",
+      "35119068",
+      "34912045",
+      "34779417",
+      "34316057",
+      "34108685",
+      "34023104",
+      "34018555",
+      "33990804",
+      "33739783",
+      "33246021",
+      "33222286",
+      "32060986",
+      "32025018",
+      "31994192",
+      "31624251",
+      "31285528",
+      "31145701",
+      "31101826",
+      "31091374",
+      "30914279",
+      "29948620",
+      "29920189",
+      "29695279",
+      "29606315",
+      "29550418",
+      "29480816",
+      "29203879",
+      "29079171",
+      "28445112",
+      "28203693",
+      "28187284",
+      "27940887",
+      "27749841",
+      "25885555",
+      "25842978",
+      "25808706",
+      "25685828",
+      "25601447",
+      "24492848",
+      "24487277",
+      "24470207",
+      "24086078",
+      "23558573",
+      "23318258",
+      "23290134",
+      "22722201",
+      "22397650",
+      "20736804",
+      "20105172",
+      "19384064",
+      "18636017",
+      "18593557",
+      "18333897",
+      "18087279",
+      "17334997",
+      "16085486"
+    ],
+    "similar": [
+      "37965425",
+      "33704800",
+      "35090811",
+      "20377670",
+      "33739783",
+      "17255777",
+      "32965516",
+      "28323779",
+      "26595821",
+      "26914519",
+      "34197659",
+      "35644638",
+      "37270318",
+      "28284233",
+      "18702242",
+      "25599317",
+      "23677677",
+      "37980855",
+      "21423156",
+      "25275018",
+      "34023104",
+      "36794976",
+      "30497677",
+      "16948517",
+      "35347560",
+      "35158743",
+      "20711062",
+      "37649299",
+      "35167714",
+      "15389254",
+      "6163367",
+      "28445202",
+      "20118912",
+      "32283901",
+      "23642680",
+      "31857679",
+      "15660649",
+      "22343111",
+      "30655849",
+      "18214401",
+      "17518775",
+      "24290802",
+      "18333897",
+      "17880584",
+      "36720791",
+      "24746214",
+      "20492080",
+      "30201149",
+      "16441408",
+      "25103327",
+      "11486166",
+      "18091376",
+      "11974507",
+      "19384065",
+      "24878016",
+      "31582261",
+      "35171883",
+      "28098399",
+      "36788082",
+      "30638401",
+      "32564423",
+      "20661019",
+      "30420449",
+      "37275796",
+      "11575649",
+      "31777957",
+      "20528966",
+      "34296453",
+      "34137901",
+      "11257620",
+      "26602416",
+      "26264868",
+      "19753272",
+      "20105172",
+      "4016704",
+      "28988763",
+      "28027201",
+      "8693890",
+      "26114606",
+      "25864700",
+      "15618924",
+      "23991738",
+      "11800652",
+      "35205753",
+      "20190734",
+      "35712610",
+      "33957741",
+      "28394798",
+      "18065959",
+      "36369200",
+      "24666868",
+      "34400089",
+      "32734594",
+      "24298500",
+      "38839526",
+      "36937642",
+      "38883170",
+      "38473026",
+      "39161408"
+    ],
+    "review": [
+      "37965425",
+      "34197659",
+      "37270318",
+      "25275018",
+      "34023104",
+      "30497677",
+      "35347560",
+      "35158743",
+      "20711062",
+      "35167714",
+      "28445202",
+      "15660649",
+      "18214401",
+      "30201149",
+      "25103327",
+      "24878016",
+      "32564423",
+      "26602416",
+      "28988763",
+      "26114606",
+      "34400089"
+    ],
+    "pmc": [
+      "10641284"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667-0267(23)00055-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37965425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37965425",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

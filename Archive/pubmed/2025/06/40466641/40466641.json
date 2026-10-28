@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "40466641",
+    "doi": "10.1016/j.cels.2025.101299",
+    "title": "Machine-guided dual-objective protein engineering for deimmunization and therapeutic functions."
+  },
+  "content": {
+    "abstract": "Cell and gene therapies often express nonhuman proteins, which carry a risk of anti-therapy immunogenicity. An emerging consensus is to instead use modified human protein domains, but these domains include nonhuman peptides around mutated residues and at interdomain junctions, which may also be immunogenic. We present a modular workflow to optimize protein function and minimize immunogenicity by using existing machine learning models that predict protein function and peptide-major histocompatibility complex (MHC) presentation. We first applied this workflow to existing transcriptional activation and RNA-binding domains by removing potentially immunogenic MHC II epitopes. We then generated small-molecule-controllable transcription factors with human-derived DNA-binding domains targeting non-genomic DNA sequences. Finally, we established a workflow for creating deimmunized zinc-finger arrays to target arbitrary DNA sequences and upregulated two therapeutically relevant genes, utrophin (UTRN) and sodium voltage-gated channel alpha subunit 1 (SCN1A), using it. Our modular workflow offers a way to potentially make cell and gene therapies safer and more efficacious using state-of-the-art algorithms.",
+    "keywords": [
+      "protein design",
+      "synthetic biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Protein Engineering/methods",
+      "Machine Learning",
+      "Zinc Fingers",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wolfsberg, Eric",
+        "Paul, Jean-Sebastien",
+        "Tycko, Josh",
+        "Chen, Binbin",
+        "Bassik, Michael C",
+        "Bintu, Lacramioara",
+        "Alizadeh, Ash A",
+        "Gao, Xiaojing J"
+      ],
+      "short_names": [
+        "Wolfsberg E",
+        "Paul JS",
+        "Tycko J",
+        "Chen B",
+        "Bassik MC",
+        "Bintu L",
+        "Alizadeh AA",
+        "Gao XJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical Engineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Biology, California Institute of Technology, Pasadena, CA 91125, USA; Department of Computer Science, California Institute of Technology, Pasadena, CA 91125, USA.",
+        "Department of Neurobiology, Harvard Medical School, Boston, MA 02115, USA; Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Division of Oncology, Department of Medicine, Stanford University, Stanford, CA 94305, USA; Vcreate, Menlo Park, CA 94025, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Sarafan ChEM-H, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Division of Oncology, Department of Medicine, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA; Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Chemical Engineering, Stanford University, Stanford, CA 94305, USA. Electronic address: xjgao@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wolfsberg, Eric",
+        "short_name": "Wolfsberg E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Paul, Jean-Sebastien",
+        "short_name": "Paul JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, California Institute of Technology, Pasadena, CA 91125, USA; Department of Computer Science, California Institute of Technology, Pasadena, CA 91125, USA."
+        ]
+      },
+      {
+        "full_name": "Tycko, Josh",
+        "short_name": "Tycko J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Harvard Medical School, Boston, MA 02115, USA; Department of Genetics, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Binbin",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Division of Oncology, Department of Medicine, Stanford University, Stanford, CA 94305, USA; Vcreate, Menlo Park, CA 94025, USA."
+        ]
+      },
+      {
+        "full_name": "Bassik, Michael C",
+        "short_name": "Bassik MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Sarafan ChEM-H, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Bintu, Lacramioara",
+        "short_name": "Bintu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Alizadeh, Ash A",
+        "short_name": "Alizadeh AA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncology, Department of Medicine, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA; Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaojing J",
+        "short_name": "Gao XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Stanford University, Stanford, CA 94305, USA. Electronic address: xjgao@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/05 00:28",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "41749288",
+      "41565816",
+      "41162648"
+    ],
+    "refs": [
+      "40181110",
+      "40155716",
+      "39814991",
+      "39633723",
+      "39487265",
+      "39276157",
+      "38963838",
+      "38933385",
+      "38868435",
+      "38751115",
+      "38718835",
+      "38561979",
+      "38295891",
+      "38291350",
+      "38152987",
+      "37909046",
+      "37364240",
+      "37095349",
+      "37023751",
+      "36998195",
+      "36927031",
+      "36894637",
+      "36873375",
+      "36702896",
+      "36520914",
+      "36465553",
+      "36334049",
+      "36192636",
+      "36124796",
+      "35677038",
+      "35427499",
+      "35105974",
+      "35013317",
+      "34819506",
+      "34458822",
+      "34350488",
+      "34232869",
+      "34096999",
+      "33875885",
+      "33633361",
+      "33632212",
+      "33486008",
+      "33425259",
+      "33408186",
+      "33333026",
+      "32850447",
+      "32786679",
+      "32434918",
+      "32406916",
+      "32034124",
+      "31871119",
+      "31847804",
+      "31680159",
+      "31636460",
+      "31611695",
+      "31589876",
+      "31375807",
+      "31230714",
+      "31069709",
+      "31015529",
+      "30850604",
+      "30692695",
+      "30683719",
+      "30599169",
+      "30504662",
+      "30357391",
+      "30245014",
+      "29490074",
+      "29168376",
+      "29126798",
+      "29083112",
+      "28830733",
+      "26869409",
+      "26730612",
+      "26196228",
+      "25730490",
+      "25690854",
+      "25655032",
+      "25593323",
+      "25516281",
+      "25108355",
+      "25089527",
+      "24880662",
+      "24799704",
+      "24746146",
+      "24568279",
+      "24328678",
+      "24310608",
+      "24227677",
+      "24097433",
+      "23363418",
+      "22945588",
+      "22222093",
+      "21305276",
+      "20717154",
+      "20400861",
+      "19798082",
+      "15869596",
+      "15772935",
+      "15577853",
+      "15294175",
+      "12592413",
+      "12228016",
+      "11289059",
+      "10613824",
+      "9223271",
+      "7809612",
+      "7561701",
+      "1319065",
+      "62364"
+    ],
+    "similar": [
+      "40466641",
+      "35685361",
+      "20478078",
+      "24877793",
+      "12592413",
+      "42475469",
+      "27914063",
+      "11340073",
+      "12590603",
+      "15288776",
+      "8114711",
+      "20192761",
+      "16845061",
+      "16732192",
+      "16107335",
+      "22840184",
+      "10529348",
+      "21044337",
+      "25989233",
+      "33904398",
+      "33952199",
+      "25568954",
+      "18366681",
+      "41733988",
+      "23208050",
+      "8723389",
+      "22898588",
+      "10924515",
+      "10722717",
+      "16735158",
+      "17937891",
+      "30155815",
+      "15843152",
+      "12750739",
+      "16253273",
+      "15340042",
+      "17612630",
+      "31308553",
+      "15239882",
+      "10077584",
+      "10871758",
+      "20046064",
+      "39356734",
+      "25145439",
+      "15680969",
+      "11821858",
+      "10893243",
+      "30408041",
+      "1631144",
+      "41511382",
+      "30199322",
+      "11171969",
+      "17493635",
+      "9295029",
+      "17537811",
+      "17526515",
+      "23521778",
+      "11395410",
+      "23742071",
+      "23384000",
+      "11237684",
+      "7579328",
+      "11054286",
+      "7969177",
+      "18754679",
+      "2016331",
+      "36193674",
+      "24880662",
+      "42292401",
+      "10873713",
+      "18812396",
+      "14595122",
+      "20380721",
+      "12054906",
+      "34060724",
+      "23363418",
+      "31855381",
+      "16108353",
+      "9843940",
+      "16600381",
+      "8692697",
+      "12492848",
+      "40099876",
+      "28542831",
+      "12097288",
+      "16411739",
+      "11171968",
+      "28986805",
+      "28835021",
+      "22963237",
+      "1453467",
+      "8065901",
+      "10448036",
+      "7588776",
+      "32626747",
+      "10656784",
+      "9618469",
+      "10899124",
+      "36702896",
+      "10779326"
+    ],
+    "review": [
+      "40466641",
+      "20478078",
+      "20192761",
+      "10529348",
+      "25989233",
+      "23208050",
+      "16735158",
+      "17937891",
+      "12750739",
+      "16253273",
+      "15340042",
+      "31308553",
+      "15239882",
+      "20046064",
+      "25145439",
+      "15680969",
+      "11821858",
+      "11395410",
+      "23742071",
+      "42292401",
+      "16108353",
+      "16411739"
+    ],
+    "pmc": [
+      "12276912"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00132-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40466641/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40466641",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "41939870",
+    "doi": "10.3389/fimmu.2026.1731068",
+    "title": "A conserved monocyte activation program links brain injury to systemic immune adaptation and clinical outcomes."
+  },
+  "content": {
+    "abstract": "RATIONALE: Systemic immune dysregulation after traumatic brain injury (TBI) contributes to secondary complications and influences long-term recovery, yet the cellular and molecular dynamics remain incompletely understood. OBJECTIVES: To characterize longitudinal immune responses following TBI and identify conserved transcriptional programs linked to clinical outcomes and mechanistically regulated monocyte states with potential prognostic and therapeutic significance. METHODS: We conducted longitudinal transcriptomic profiling of PBMCs from TBI patients (n =65 samples) at Day 1, Day 7, and Month 6 post-injury, alongside healthy controls (n =24). Cell type composition was assessed using computational deconvolution and validated by flow cytometry. Gene co-expression networks were constructed to identify temporally dynamic immune signatures. Monocyte-specific metabolic activity was inferred using genome-scale metabolic modeling and confirmed by plasma metabolite quantification. Genome-wide chromatin state was assessed by H3K27ac ChIP-sequencing in CD14(+) monocytes. External validation was performed across independent PBMC and monocyte datasets from bacterial and viral infections, including COVID-19 and pneumonia. MAIN RESULTS: TBI patients showed a transient increase in circulating monocytes at Day 1 and Day 7, returning to baseline by Month 6. Weighted gene co-expression analysis identified a data-driven monocyte-associated co-expression module (Yellow module) that dominated early responses and tracked with monocyte abundance. This module was conserved in sorted CD14(+) monocytes from an independent cohort and reflected sustained inflammatory activation. Metabolomic and flux balance analyses revealed coordinated remodeling of the aspartate-arginine-ornithine axis, indicating nitrogen stress and altered metabolic demands during monocyte activation. In external datasets of PBMCs from patients with acute infections, Yellow module expression was associated with clinical severity and independently predicted survival. Epigenomic profiling revealed dynamic enhancer remodeling at Yellow module loci, with PU.1 (SPI1), a monocyte lineage-defining transcription factor, identified as a putative upstream regulator linking transcriptional activation to regulatory architecture. CONCLUSIONS: TBI induces a prognostically informative, monocyte-enriched transcriptional program marked by inflammatory and metabolic reprogramming. This epigenetically regulated state is conserved across critical illness, correlates with patient outcomes, and identifies PU.1 as a key regulator of monocyte activation. These findings support the Yellow module as a candidate biomarker for risk stratification and a mechanistic link between brain injury and systemic immune adaptation.",
+    "keywords": [
+      "WGCNA (weighted gene co- expression network analyses)",
+      "inflammation",
+      "monocytes",
+      "transcriptomics",
+      "traumatic brain injury"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Monocytes/immunology/metabolism",
+      "Female",
+      "*Brain Injuries, Traumatic/immunology/genetics",
+      "Male",
+      "Adult",
+      "Middle Aged",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Adaptation, Physiological/immunology",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sadek, Abderrahmane",
+        "Petrier, Melanie",
+        "Fourgeux, Cynthia",
+        "Braud, Martin",
+        "Gourain, Victor",
+        "Bouras, Marwan",
+        "Poulain, Cecile",
+        "Moumni, Mohieddine",
+        "Roquilly, Antoine",
+        "Poschmann, Jeremie"
+      ],
+      "short_names": [
+        "Sadek A",
+        "Petrier M",
+        "Fourgeux C",
+        "Braud M",
+        "Gourain V",
+        "Bouras M",
+        "Poulain C",
+        "Moumni M",
+        "Roquilly A",
+        "Poschmann J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Biotechnology and Bioresources Valorization Laboratory, Biology Department, Faculty of Sciences, Moulay Ismail University, Meknes, Morocco.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Service d'Anesthesie Reanimation, Institut de Recherche en Sante 2 Nantes Biotech, Nantes Universite, CHU Nantes, Nantes, France.",
+        "Service d'Anesthesie Reanimation, Institut de Recherche en Sante 2 Nantes Biotech, Nantes Universite, CHU Nantes, Nantes, France.",
+        "Biotechnology and Bioresources Valorization Laboratory, Biology Department, Faculty of Sciences, Moulay Ismail University, Meknes, Morocco.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+        "Service d'Anesthesie Reanimation, Institut de Recherche en Sante 2 Nantes Biotech, Nantes Universite, CHU Nantes, Nantes, France.",
+        "Nantes Universite, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sadek, Abderrahmane",
+        "short_name": "Sadek A",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+          "Biotechnology and Bioresources Valorization Laboratory, Biology Department, Faculty of Sciences, Moulay Ismail University, Meknes, Morocco."
+        ]
+      },
+      {
+        "full_name": "Petrier, Melanie",
+        "short_name": "Petrier M",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Fourgeux, Cynthia",
+        "short_name": "Fourgeux C",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Braud, Martin",
+        "short_name": "Braud M",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Gourain, Victor",
+        "short_name": "Gourain V",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Bouras, Marwan",
+        "short_name": "Bouras M",
+        "identifiers": [],
+        "affiliations": [
+          "Service d'Anesthesie Réanimation, Institut de Recherche en Santé 2 Nantes Biotech, Nantes Université, CHU Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Poulain, Cecile",
+        "short_name": "Poulain C",
+        "identifiers": [],
+        "affiliations": [
+          "Service d'Anesthesie Réanimation, Institut de Recherche en Santé 2 Nantes Biotech, Nantes Université, CHU Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Moumni, Mohieddine",
+        "short_name": "Moumni M",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Bioresources Valorization Laboratory, Biology Department, Faculty of Sciences, Moulay Ismail University, Meknes, Morocco."
+        ]
+      },
+      {
+        "full_name": "Roquilly, Antoine",
+        "short_name": "Roquilly A",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France.",
+          "Service d'Anesthesie Réanimation, Institut de Recherche en Santé 2 Nantes Biotech, Nantes Université, CHU Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Poschmann, Jeremie",
+        "short_name": "Poschmann J",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, CHU Nantes, INSERM, Center for Research in Transplantation and Translational Immunology, UMR 1064, Nantes, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [
+      "42609326"
+    ],
+    "refs": [
+      "38684922",
+      "37735154",
+      "37573313",
+      "36530909",
+      "36353130",
+      "35486851",
+      "35380990",
+      "35102304",
+      "34790036",
+      "33609296",
+      "33495023",
+      "32424365",
+      "32066974",
+      "29421977",
+      "29253420",
+      "29083320",
+      "28910616",
+      "28776601",
+      "27884101",
+      "26594196",
+      "26121490",
+      "25822800",
+      "25799442",
+      "22455463",
+      "21942884",
+      "19114008",
+      "18195088",
+      "12055339"
+    ],
+    "similar": [
+      "41939870",
+      "41659414",
+      "41692836",
+      "39888372",
+      "42475469",
+      "40281593",
+      "42328163",
+      "41890845",
+      "42196237",
+      "42158856",
+      "41646974",
+      "41055884",
+      "42294721",
+      "41063986",
+      "41611834",
+      "42123445",
+      "42223712",
+      "42265520",
+      "41424060",
+      "41789066",
+      "42373949",
+      "42519304",
+      "41361486",
+      "40023733",
+      "42004243",
+      "41808327",
+      "41444673",
+      "42062698",
+      "42352897",
+      "42565562",
+      "42026465",
+      "42535174",
+      "36311769",
+      "42548765",
+      "42233387",
+      "40961400",
+      "42273678",
+      "41562085",
+      "42216049",
+      "41462079",
+      "34281628",
+      "42024670",
+      "35486851",
+      "42398182",
+      "42553137",
+      "41436831",
+      "42053371",
+      "40183401",
+      "26269925",
+      "42597971",
+      "42303152",
+      "39372399",
+      "42557490",
+      "33731173",
+      "42553378",
+      "37805492",
+      "41346577",
+      "41694396",
+      "42536655",
+      "34022039",
+      "31169830",
+      "41622228",
+      "41502897",
+      "42516950",
+      "41398680",
+      "41200169",
+      "41635814",
+      "42450190",
+      "39712003",
+      "42210282",
+      "42436415",
+      "42464264",
+      "33039247",
+      "35768823",
+      "41360505",
+      "32149839",
+      "42475371",
+      "29482641",
+      "41605306",
+      "41628512",
+      "26054584",
+      "41816337",
+      "37090732",
+      "39205185",
+      "41711656",
+      "42351682",
+      "41601671",
+      "42231444",
+      "36803375",
+      "42247722",
+      "41238421",
+      "33953790",
+      "34413853",
+      "42435052",
+      "41567189",
+      "41816324",
+      "41909649",
+      "34399830",
+      "41485251",
+      "42591655"
+    ],
+    "review": [
+      "41939870",
+      "35486851"
+    ],
+    "pmc": [
+      "13043442"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/traumaticbraininjury.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Traumatic Brain Injury"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41939870/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1731068",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

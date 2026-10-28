@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "39975126",
+    "doi": "10.1101/2025.01.24.634804",
+    "title": "Refining sequence-to-activity models by increasing model resolution."
+  },
+  "content": {
+    "abstract": "Decoding the cis-regulatory syntax that controls gene expression is essential for improving our understanding of cell differentiation and disease. To identify regulatory motifs and their regulatory syntax, deep learning based sequence-to-activity (S2A) models learn transcription factor binding motifs and their combinations from DNA sequence by modeling measured chromatin accessibility. Previously, we developed AI-TAC, a S2A model that predicts chromatin accessibility across various immune cell types in multi-task fashion, effectively decoding the regulatory syntax underlying immune cell differentiation. While ATAC-seq is commonly used to measure regional accessibility, it also provides high-resolution profiles, the distribution of Tn5 insertion sites, that offer additional insights into the precise location and strength of TF binding sites. Here we demonstrate that modeling ATAC-seq profiles alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types. Moreover, we also find that multi-task learning across related immune cell types consistently outperforms single-task models. To understand what additional information bpAITAC learns from ATAC-seq profiles, we systematically compare sequence attributions from models trained with and without ATAC-seq profiles. We identify novel motifs with strong effect sizes that emerge only when profile data is included. Our findings suggest that modeling ATAC-seq at base-pair resolution enables the model to learn a more nuanced and sensitive representation of the cis-regulatory syntax driving immune cell-specific chromatin landscapes.",
+    "keywords": [
+      "ATAC-seq",
+      "chromatin",
+      "deep learning",
+      "gene regulation",
+      "sequence-to-function models"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chandra, Nuria Alina",
+        "Hu, Yan",
+        "Buenrostro, Jason D",
+        "Mostafavi, Sara",
+        "Sasse, Alexander"
+      ],
+      "short_names": [
+        "Chandra NA",
+        "Hu Y",
+        "Buenrostro JD",
+        "Mostafavi S",
+        "Sasse A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4698-1177",
+        "ORCID: 0000-0001-7031-8848"
+      ],
+      "affiliations": [
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge 02142, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, 02138, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge 02142, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, 02138, MA, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA.",
+        "Canadian Institute for Advanced Research, Toronto, MG51ZB, ON, Canada.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA.",
+        "Center for Synthetic Genomics, Center for Molecular Biology Heidelberg (ZMBH), Heidelberg University, Heidelberg, 69120, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chandra, Nuria Alina",
+        "short_name": "Chandra NA",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Yan",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge 02142, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, 02138, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Buenrostro, Jason D",
+        "short_name": "Buenrostro JD",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge 02142, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, 02138, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mostafavi, Sara",
+        "short_name": "Mostafavi S",
+        "identifiers": [
+          "0000-0003-4698-1177"
+        ],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA.",
+          "Canadian Institute for Advanced Research, Toronto, MG51ZB, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Sasse, Alexander",
+        "short_name": "Sasse A",
+        "identifiers": [
+          "0000-0001-7031-8848"
+        ],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle 98195, WA, USA.",
+          "Center for Synthetic Genomics, Center for Molecular Biology Heidelberg (ZMBH), Heidelberg University, Heidelberg, 69120, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 06:22",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39843737",
+      "39286491",
+      "38662817",
+      "38654130",
+      "37962376",
+      "37557175",
+      "37542318",
+      "36814848",
+      "36277849",
+      "35941239",
+      "35190730",
+      "33603233",
+      "32978299",
+      "32848148",
+      "32014034",
+      "30686579",
+      "30290144",
+      "29158945",
+      "28738171",
+      "26550823",
+      "25559105",
+      "25215497",
+      "23498934",
+      "22955616",
+      "17324271",
+      "9597130"
+    ],
+    "similar": [
+      "39975126",
+      "42542664",
+      "36902216",
+      "34898596",
+      "34488759",
+      "39326643",
+      "31053165",
+      "30598689",
+      "35858748",
+      "33191916",
+      "32029221",
+      "42475469",
+      "39090688",
+      "39829783",
+      "41924246",
+      "37214836",
+      "35604124",
+      "41831316",
+      "36719906",
+      "40250421",
+      "39026761",
+      "41951735",
+      "37873116",
+      "29982337",
+      "22955984",
+      "41721429",
+      "39987573",
+      "39127768",
+      "41318386",
+      "42114111",
+      "37274120",
+      "35195064",
+      "39881144",
+      "33355120",
+      "41731605",
+      "37600946",
+      "30375457",
+      "41571655",
+      "39814021",
+      "40777328",
+      "38124496",
+      "39386531",
+      "28193859",
+      "38515040",
+      "32978299",
+      "37090616",
+      "27104615",
+      "37211599",
+      "38589969",
+      "41279708",
+      "39931505",
+      "37546906",
+      "41923161",
+      "32312703",
+      "36130957",
+      "29558892",
+      "28750606",
+      "40577680",
+      "37722500",
+      "26977395",
+      "42251185",
+      "34387350",
+      "39487131",
+      "37751945",
+      "42265104",
+      "38664790",
+      "35695574",
+      "35976093",
+      "42608577",
+      "40795153",
+      "31510655",
+      "41632825",
+      "38643066",
+      "32543102",
+      "34875002",
+      "34285090",
+      "31136738",
+      "34383745",
+      "42165138",
+      "30696696",
+      "36943152",
+      "30795793",
+      "42642593",
+      "40102719",
+      "27993786",
+      "36549922",
+      "36204155",
+      "36276837",
+      "37557175",
+      "32424069",
+      "39766899",
+      "39501301",
+      "41932342",
+      "41735542",
+      "41716379",
+      "36094959",
+      "38330939",
+      "30686579",
+      "36807077",
+      "36173566"
+    ],
+    "review": [
+      "39975126",
+      "32312703"
+    ],
+    "pmc": [
+      "11838202"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39975126/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.01.24.634804",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

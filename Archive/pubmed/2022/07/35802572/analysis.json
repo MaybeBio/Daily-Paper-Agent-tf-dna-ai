@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35802572",
+  "title": "Model-based translation of DNA damage signaling dynamics across cell types.",
+  "authors": "Heldring, Muriel M; Wijaya, Lukas S; Niemeijer, Marije; Yang, Huan; Lakhal, Talel; Le Devedec, Sylvia E; van de Water, Bob; Beltman, Joost B",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用计算模型描述DNA损伤响应中p53通路动态，但核心是细胞类型间信号动态翻译，不涉及蛋白质-DNA互作建模或TF-DNA结合机制，与课题关联微弱。",
+  "abstract": "Interindividual variability in DNA damage response (DDR) dynamics may evoke differences in susceptibility to cancer. However, pathway dynamics are often studied in cell lines as alternative to primary cells, disregarding variability. To compare DDR dynamics in the cell line HepG2 with primary human hepatocytes (PHHs), we developed a HepG2-based computational model that describes the dynamics of DDR regulator p53 and targets MDM2, p21 and BTG2. We used this model to generate simulations of virtual PHHs and compared the results to those for PHH donor samples. Correlations between baseline p53 and p21 or BTG2 mRNA expression in the absence and presence of DNA damage for HepG2-derived virtual samples matched the moderately positive correlations observed for 50 PHH donor samples, but not the negative correlations between p53 and its inhibitor MDM2. Model parameter manipulation that affected p53 or MDM2 dynamics was not sufficient to accurately explain the negative correlation between these genes. Thus, extrapolation from HepG2 to PHH can be done for some DDR elements, yet our analysis also reveals a knowledge gap within p53 pathway regulation, which makes such extrapolation inaccurate for the regulator MDM2. This illustrates the relevance of studying pathway dynamics in addition to gene expression comparisons to allow reliable translation of cellular responses from cell lines to primary cells. Overall, with our approach we show that dynamical modeling can be used to improve our understanding of the sources of interindividual variability of pathway dynamics.",
+  "abstract_zh": "DNA损伤应答（DDR）动力学的个体间差异可能引发癌症易感性的不同。然而，通路动力学通常在细胞系中作为原代细胞的替代进行研究，忽视了变异性。为比较细胞系HepG2与原代人肝细胞（PHHs）中的DDR动力学，我们开发了一个基于HepG2的计算模型，描述DDR调节因子p53及其靶标MDM2、p21和BTG2的动力学。我们利用该模型生成虚拟PHHs的模拟，并将结果与PHH供体样本进行比较。在无DNA损伤及存在DNA损伤情况下，HepG2衍生虚拟样本中基线p53与p21或BTG2 mRNA表达的相关性，与50个PHH供体样本中观察到的中度正相关匹配，但未匹配p53与其抑制剂MDM2之间的负相关。影响p53或MDM2动力学的模型参数操作不足以准确解释这些基因间的负相关。因此，从HepG2到PHH的外推可针对某些DDR元件进行，但我们的分析也揭示了p53通路调控中的知识空白，这使得对调节因子MDM2的外推不准确。这说明了在研究基因表达比较之外，还需研究通路动力学，以实现从细胞系到原代细胞细胞反应的可靠转化。总体而言，我们的方法表明，动力学建模可用于增进我们对通路动力学个体间差异来源的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35802572/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35802572/",
+  "paper_page_path": "papers/pubmed/35802572/index.html"
+}

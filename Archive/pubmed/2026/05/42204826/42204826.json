@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "42204826",
+    "doi": "10.1002/1878-0261.70255",
+    "title": "Interpreting the effects of DNA polymerase variants at the structural level."
+  },
+  "content": {
+    "abstract": "Genetic variants in the DNA polymerase enzymes POLE and POLD1 can affect protein function by altering stability, catalysis, DNA binding, and interactions with other biomolecules. Understanding the structural basis of these variants is important for a comprehensive interpretation of variant impact. In this study, we used MAVISp, a modular structure-based framework, and molecular dynamics simulations to analyze over 60 000 missense variants of POLE and POLD1. By integrating results from changes in folding and binding free energies, local alterations in the proximity of the active or phosphorylation sites, we provided a detailed structural interpretation of variants reported across various databases, including ClinVar, COSMIC, and cBioPortal. Moreover, we predicted the functional consequences of variants not found yet in disease-related databases, thereby creating a comprehensive catalog for future studies. Of note, our approach enabled us to classify 364 Variants of Uncertain Significance (VUS) as PP3 evidence and 323 as BP4 evidence, in accordance with the American College of Medical Genetics and Genomics (ACMG) guidelines. Additionally, we identified a group of variants that could alter the native orientation of the residues within the catalytic site of the exonuclease domain, such as POLE variants P297S and P436R. Finally, we identified a group of variants predicted to affect DNA-binding affinity and rationalized their effects in terms of different energetic contributions and structural features. Collectively, our results not only advance our understanding of protein variant effects in POLE and POLD1 at the structural level but also support future studies aimed at variant classification, variant prioritization for experimental studies, and functional interpretation across diverse biological contexts.",
+    "keywords": [
+      "cancer genomics",
+      "free energy calculations",
+      "long-range structural communication",
+      "protein stability",
+      "protein structures",
+      "variant effects"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*DNA Polymerase III/genetics/chemistry/metabolism",
+      "*DNA Polymerase II/genetics/chemistry/metabolism",
+      "*Genetic Variation",
+      "Mutation, Missense",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arnaudi, Matteo",
+        "Krzesinska, Karolina",
+        "Beltrame, Ludovica",
+        "Besora, Pablo Sanchez-Izquierdo",
+        "Tiberti, Matteo",
+        "Nilbert, Mef",
+        "Rohlin, Anna",
+        "Papaleo, Elena"
+      ],
+      "short_names": [
+        "Arnaudi M",
+        "Krzesinska K",
+        "Beltrame L",
+        "Besora PS",
+        "Tiberti M",
+        "Nilbert M",
+        "Rohlin A",
+        "Papaleo E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2717-1937",
+        "ORCID: 0000-0002-7376-5894"
+      ],
+      "affiliations": [
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Institute of Clinical Medicine, Dept. Oncology and Pathology, Lund University, Sweden.",
+        "Department of Clinical Research, Copenhagen University Hospital Amager and Hvidovre, Denmark.",
+        "Department of Clinical Genetics and Genomics, Sahlgrenska University Hospital, Gothenburg, Sweden.",
+        "Department of Laboratory Medicine, Institute for Biomedicine, Sahlgrenska Academy, University of Gothenburg, Sweden.",
+        "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arnaudi, Matteo",
+        "short_name": "Arnaudi M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Krzesińska, Karolina",
+        "short_name": "Krzesińska K",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Beltrame, Ludovica",
+        "short_name": "Beltrame L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Besora, Pablo Sánchez-Izquierdo",
+        "short_name": "Besora PS",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tiberti, Matteo",
+        "short_name": "Tiberti M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Nilbert, Mef",
+        "short_name": "Nilbert M",
+        "identifiers": [
+          "0000-0003-2717-1937"
+        ],
+        "affiliations": [
+          "Institute of Clinical Medicine, Dept. Oncology and Pathology, Lund University, Sweden.",
+          "Department of Clinical Research, Copenhagen University Hospital Amager and Hvidovre, Denmark."
+        ]
+      },
+      {
+        "full_name": "Rohlin, Anna",
+        "short_name": "Rohlin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics and Genomics, Sahlgrenska University Hospital, Gothenburg, Sweden.",
+          "Department of Laboratory Medicine, Institute for Biomedicine, Sahlgrenska Academy, University of Gothenburg, Sweden."
+        ]
+      },
+      {
+        "full_name": "Papaleo, Elena",
+        "short_name": "Papaleo E",
+        "identifiers": [
+          "0000-0002-7376-5894"
+        ],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular oncology"
+    ],
+    "journal_abbrev": [
+      "Mol Oncol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:32",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42045226",
+      "41944585",
+      "40738203",
+      "40680851",
+      "40225155",
+      "39245668",
+      "39112807",
+      "38219146",
+      "37848928",
+      "37733863",
+      "37437128",
+      "37405868",
+      "37388540",
+      "37184062",
+      "36915289",
+      "36690744",
+      "36461907",
+      "36243772",
+      "35449021",
+      "35323860",
+      "35037018",
+      "34707284",
+      "34700328",
+      "34694004",
+      "34265844",
+      "33764464",
+      "33193653",
+      "33134287",
+      "32792570",
+      "32424176",
+      "32392302",
+      "32111820",
+      "31777943",
+      "31680160",
+      "31406981",
+      "31278166",
+      "30874800",
+      "30818169",
+      "30670691",
+      "30661751",
+      "30498216",
+      "29500597",
+      "29401388",
+      "29352080",
+      "29056344",
+      "28821744",
+      "28747437",
+      "28430426",
+      "28373564",
+      "27964945",
+      "27819658",
+      "27666373",
+      "27320729",
+      "26851279",
+      "26412788",
+      "25866491",
+      "25514926",
+      "24861832",
+      "24788313",
+      "24472300",
+      "24035200",
+      "23900247",
+      "23550210",
+      "23065663",
+      "22022273",
+      "21226515",
+      "20334433",
+      "19486540",
+      "16699561",
+      "16510448",
+      "10592235"
+    ],
+    "similar": [
+      "42204826",
+      "42475469",
+      "32567205",
+      "30827058",
+      "28423643",
+      "41219970",
+      "41944585",
+      "37848928",
+      "34285382",
+      "23528559",
+      "31673068",
+      "26133394",
+      "23912807",
+      "42017297",
+      "32792570",
+      "40680851",
+      "41263451",
+      "25228659",
+      "29352080",
+      "37990341",
+      "35780178",
+      "38776551",
+      "26648449",
+      "32424176",
+      "35736817",
+      "38219146",
+      "41288544",
+      "33948826",
+      "29433424",
+      "34479923",
+      "37201251",
+      "40464633",
+      "41080992",
+      "40233743",
+      "25370038",
+      "36856825",
+      "41756679",
+      "30943891",
+      "34768775",
+      "36321557",
+      "40738203",
+      "29120461",
+      "32281771",
+      "39979869",
+      "31857678",
+      "37168384",
+      "38417439",
+      "37954151",
+      "32873932",
+      "37786696",
+      "35659507",
+      "41652012",
+      "39357517",
+      "29875124",
+      "31227806",
+      "34363023",
+      "28368425",
+      "30670696",
+      "40845847",
+      "42099593",
+      "37843401",
+      "38905920",
+      "39150724",
+      "36314330",
+      "41791661",
+      "35590056",
+      "23263490",
+      "41811047",
+      "42192302",
+      "39142283",
+      "35620275",
+      "32926152",
+      "32076423",
+      "37352859",
+      "33909605",
+      "42598702",
+      "36305854",
+      "35078481",
+      "38199457",
+      "33087888",
+      "32913252",
+      "41809564",
+      "30095857",
+      "34955381",
+      "41756011",
+      "40350394",
+      "40555656",
+      "41451501",
+      "30086056",
+      "36865205",
+      "31944473",
+      "34033342",
+      "37805574",
+      "35974416",
+      "42442366",
+      "39140857",
+      "38242199",
+      "36745735",
+      "36427457",
+      "33255942"
+    ],
+    "review": [
+      "42204826",
+      "26133394",
+      "42017297",
+      "35780178",
+      "41756679",
+      "36321557",
+      "34363023",
+      "39150724",
+      "40350394"
+    ],
+    "pmc": [
+      "13398764"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42204826/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/1878-0261.70255",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

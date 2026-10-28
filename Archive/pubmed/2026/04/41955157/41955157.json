@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "41955157",
+    "doi": "10.1109/TCBBIO.2026.3682485",
+    "title": "Multi-Omics Graph Attention Network for Key Gene Prediction in Triple-Negative Breast Cancer."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) is an aggressive malignancy lacking effective targeted therapies, underscoring the need for robust and interpretable biomarkers for personalized treatment. Here, we propose a graph attention network (GAT)-based multimodal framework that integrates scRNA-seq, scATAC-seq, and radiomics to capture cross-modal regulatory interactions underlying TNBC heterogeneity. Transcriptional, chromatin accessibility, and imaging features are aligned via canonical correlation analysis, with intercellular communication-derived gene relationships and transcription factor-binding-guided edges incorporated into a multimodal graph. Multi-head attention enables adaptive weighting of omics-specific interactions, while an ensemble multilayer perceptron with variational dropout stratifies patient prognosis. The model demonstrates strong predictive performance in an external TCGA-TNBC cohort (log-rank p<0.01), outperforming single-omics and alternative graph-based approaches (AUC-ROC = 0.839, 95% CI: 0.81-0.87). Pathway analysis validates canonical TNBC drivers, including PI3K, ERBB2, PTK6, and EGFR signaling, while revealing previously underappreciated regulatory programs involving complement-coagulation cascades, ECM-integrin-focal adhesion signaling, leukocyte transendothelial migration, sphingolipid-mediated metabolic-immune coupling, and nanoparticle-receptor interactions. Collectively, this framework provides an interpretable strategy for multimodal biomarker discovery in TNBC, uncovering both established and novel therapeutic vulnerabilities and offering a scalable approach toward precision oncology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/genetics/metabolism",
+      "Female",
+      "Multiomics/methods",
+      "Graph Neural Networks",
+      "Biomarkers, Tumor/genetics",
+      "*Computational Biology/methods",
+      "Radiomics",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Zixi",
+        "Cao, Kexin",
+        "Ge, Fang",
+        "Huang, Zhusheng"
+      ],
+      "short_names": [
+        "Jiang Z",
+        "Cao K",
+        "Ge F",
+        "Huang Z"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Zixi",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cao, Kexin",
+        "short_name": "Cao K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ge, Fang",
+        "short_name": "Ge F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Huang, Zhusheng",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2026 May-Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 18:31",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41955157",
+      "41759266",
+      "41299328",
+      "41727639",
+      "42265576",
+      "39206896",
+      "40541706",
+      "42023218",
+      "41451212",
+      "41554048",
+      "42353756",
+      "41576687",
+      "38704606",
+      "41488652",
+      "41520125",
+      "41058682",
+      "42099633",
+      "42032729",
+      "42045912",
+      "40145099",
+      "42500577",
+      "42576503",
+      "41957185",
+      "40457119",
+      "41566505",
+      "39834541",
+      "41344266",
+      "42035196",
+      "42032484",
+      "42475469",
+      "40155814",
+      "40438115",
+      "42323345",
+      "41031935",
+      "42206911",
+      "40975627",
+      "42310796",
+      "30302816",
+      "41525624",
+      "42501559",
+      "41666644",
+      "41554051",
+      "40197136",
+      "26965997",
+      "41588757",
+      "40557143",
+      "40217291",
+      "42650039",
+      "41168787",
+      "42159784",
+      "40330458",
+      "34108519",
+      "25611337",
+      "41512917",
+      "31072371",
+      "38474033",
+      "40994257",
+      "41482351",
+      "42270806",
+      "42520737",
+      "28629464",
+      "42560939",
+      "34053447",
+      "37263064",
+      "42684639",
+      "38904542",
+      "41325182",
+      "36933628",
+      "41293150",
+      "39800872",
+      "41188946",
+      "40604083",
+      "34022297",
+      "41595458",
+      "42499499",
+      "41866545",
+      "39591709",
+      "31974598",
+      "41671401",
+      "39689602",
+      "42614561",
+      "40971094",
+      "32595697",
+      "41751958",
+      "39317050",
+      "28423538",
+      "42751828",
+      "42278564",
+      "40217479",
+      "40361105",
+      "42641546",
+      "31639396",
+      "42749733",
+      "34830241",
+      "41423055",
+      "41139924",
+      "29920512",
+      "35627287",
+      "33495298",
+      "27902969"
+    ],
+    "review": [
+      "41955157",
+      "26965997",
+      "41512917"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

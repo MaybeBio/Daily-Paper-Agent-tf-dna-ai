@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "38151513",
+    "doi": "10.1038/s41598-023-50393-w",
+    "title": "StackER: a novel SMILES-based stacked approach for the accelerated and efficient discovery of ERalpha and ERbeta antagonists."
+  },
+  "content": {
+    "abstract": "The role of estrogen receptors (ERs) in breast cancer is of great importance in both clinical practice and scientific exploration. However, around 15-30% of those affected do not see benefits from the usual treatments owing to the innate resistance mechanisms, while 30-40% will gain resistance through treatments. In order to address this problem and facilitate community-wide efforts, machine learning (ML)-based approaches are considered one of the most cost-effective and large-scale identification methods. Herein, we propose a new SMILES-based stacked approach, termed StackER, for the accelerated and efficient identification of ERalpha and ERbeta inhibitors. In StackER, we first established an up-to-date dataset consisting of 1,996 and 1,207 compounds for ERalpha and ERbeta, respectively. Using the up-to-date dataset, StackER explored a wide range of different SMILES-based feature descriptors and ML algorithms in order to generate probabilistic features (PFs). Finally, the selected PFs derived from the two-step feature selection strategy were used for the development of an efficient stacked model. Both cross-validation and independent tests showed that StackER surpassed several conventional ML classifiers and the existing method in precisely predicting ERalpha and ERbeta inhibitors. Remarkably, StackER achieved MCC values of 0.829-0.847 and 0.712-0.786 in terms of the cross-validation and independent tests, respectively, which were 5.92-8.29 and 1.59-3.45% higher than the existing method. In addition, StackER was applied to determine useful features for being ERalpha and ERbeta inhibitors and identify FDA-approved drugs as potential ERalpha inhibitors in efforts to facilitate drug repurposing. This innovative stacked method is anticipated to facilitate community-wide efforts in efficiently narrowing down ER inhibitor screening.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Estrogen Receptor beta",
+      "Estrogen Receptor alpha",
+      "Receptors, Estrogen",
+      "*Breast Neoplasms/drug therapy",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schaduangrat, Nalini",
+        "Homdee, Nutta",
+        "Shoombuatong, Watshara"
+      ],
+      "short_names": [
+        "Schaduangrat N",
+        "Homdee N",
+        "Shoombuatong W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand. watshara.sho@mahidol.ac.th."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schaduangrat, Nalini",
+        "short_name": "Schaduangrat N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand."
+        ]
+      },
+      {
+        "full_name": "Homdee, Nutta",
+        "short_name": "Homdee N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand."
+        ]
+      },
+      {
+        "full_name": "Shoombuatong, Watshara",
+        "short_name": "Shoombuatong W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, 10700, Thailand. watshara.sho@mahidol.ac.th."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Dec 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/28 00:42",
+    "fetched_at": "2026-10-04 23:31:46"
+  },
+  "links": {
+    "cites": [
+      "42665762",
+      "41476546",
+      "41358099",
+      "40595974",
+      "40307679",
+      "39922825",
+      "39747442",
+      "39433940",
+      "39424816",
+      "39345892",
+      "39331271",
+      "39261346",
+      "39080568"
+    ],
+    "refs": [
+      "37557052",
+      "37495653",
+      "37149650",
+      "37019030",
+      "36916539",
+      "36844574",
+      "36838665",
+      "36774350",
+      "36423860",
+      "36408587",
+      "36180453",
+      "35831271",
+      "35748065",
+      "35546347",
+      "35542807",
+      "35273179",
+      "35260777",
+      "34854367",
+      "34838707",
+      "34648283",
+      "34622387",
+      "34509534",
+      "34285834",
+      "34278794",
+      "33980285",
+      "33841325",
+      "33335676",
+      "32944243",
+      "32857505",
+      "32786601",
+      "31839155",
+      "31757413",
+      "31635497",
+      "31289329",
+      "31215379",
+      "31146118",
+      "30940565",
+      "30398643",
+      "30108709",
+      "29414257",
+      "29289555",
+      "29268609",
+      "28248286",
+      "27810901",
+      "26400175",
+      "26003343",
+      "25614118",
+      "24185510",
+      "23144548",
+      "22587519",
+      "22105790",
+      "21425294",
+      "20427257",
+      "18784118",
+      "18760603",
+      "18570365",
+      "17901324",
+      "17884132",
+      "16918460",
+      "15520816",
+      "15122635",
+      "12444722",
+      "10660911"
+    ],
+    "similar": [
+      "38151513",
+      "19703124",
+      "11781824",
+      "18243688",
+      "24923734",
+      "18501937",
+      "34719637",
+      "12943986",
+      "25014417",
+      "27486755",
+      "24192230",
+      "34285834",
+      "35872983",
+      "34690921",
+      "12208749",
+      "16809442",
+      "14620916",
+      "21071990",
+      "24103091",
+      "23362266",
+      "9658195",
+      "23499841",
+      "10623650",
+      "10579320",
+      "17700529",
+      "14736707",
+      "23871935",
+      "24334513",
+      "12434414",
+      "19382890",
+      "9348186",
+      "11061546",
+      "16010412",
+      "33278557",
+      "23680332",
+      "12750263",
+      "17404078",
+      "26742628",
+      "11566442",
+      "9814476",
+      "36597609",
+      "26158518",
+      "16901971",
+      "21392396",
+      "16608893",
+      "17951536",
+      "25604459",
+      "17478088",
+      "22052998",
+      "19897598",
+      "18258689",
+      "27171902",
+      "24846829",
+      "12819932",
+      "30502347",
+      "36690079",
+      "11911952",
+      "23873111",
+      "18644836",
+      "20306984",
+      "21492444",
+      "18455292",
+      "16402932",
+      "12547836",
+      "21235772",
+      "24833090",
+      "15010868",
+      "12147303",
+      "17598955",
+      "25956916",
+      "19528477",
+      "14993442",
+      "28225892",
+      "15465114",
+      "32545494",
+      "9512344",
+      "12475719",
+      "24785256",
+      "11400111",
+      "11358690",
+      "17275032",
+      "15314175",
+      "11914179",
+      "15037120",
+      "10076999",
+      "21924251",
+      "22336175",
+      "23891847",
+      "18302941",
+      "11981030",
+      "16007178",
+      "15345745",
+      "36460099",
+      "9605413",
+      "15285303",
+      "28823012",
+      "11014220",
+      "36180453"
+    ],
+    "review": [
+      "38151513",
+      "18243688",
+      "18501937",
+      "34719637",
+      "34690921",
+      "36690079",
+      "14993442",
+      "32545494"
+    ],
+    "pmc": [
+      "10752908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-50393-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38151513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38151513",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Methods, results, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors train a gapped k-mer support vector machine (GKM-SVM) on adult human retinal ATAC-seq data to distinguish putative cis-regulatory elements (CREs) from genomic background, and use deltaSVM to score all possible single nucleotide variants within a hold-out set of 3,773 CREs. They report that predicted impact scores correlate with allele frequency, phylogenetic conservation, and transcription factor motif disruption, and validate against an existing massively parallel reporter assay dataset from the mouse rhodopsin promoter.
+- **Visible evidence base** Main text, Methods, Results, Discussion, figure legends referenced in text (Figures 1–5), supplementary figure and table references
+- **Missing materials affecting confidence** Figure panels and supplementary materials (Figures S1–S6, Tables S1–S4) were not provided. Exact hyperparameters for the negative set generation beyond GC-matching, and the full list of 39,437 CREs in the VISIONS track, were not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound application of an established machine learning framework (GKM-SVM/deltaSVM) to a new tissue type (adult human retina) and produces a potentially useful resource for variant prioritization. The validation strategy is thoughtful, particularly the comparison to MPRA data from the mouse rhodopsin promoter. However, several methodological details are under-specified, and some claims regarding clinical utility and model robustness are stronger than the evidence presented. The core finding, that deltaSVM scores correlate with conservation and allele frequency, is plausible but not novel in itself; the novelty lies in the tissue-specific application and the public resource.
+- **Who would be interested in the results, and why** Researchers in ophthalmic genetics, particularly those studying inherited retinal diseases and non-coding variant interpretation. Also relevant to computational biologists working on regulatory genomics and machine learning applications to epigenomic data. Clinicians involved in genetic diagnosis of retinal disorders may find the VISIONS track useful for variant prioritization.
+- **Major strengths** 1) Application of a well-established method to a clinically relevant tissue type with limited existing resources. 2) Clear demonstration of tissue specificity through comparison to non-retinal datasets. 3) Validation against experimental MPRA data, providing functional grounding. 4) Public availability of the scoring resource via UCSC genome browser.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves 95% accuracy in distinguishing retinal CREs from negative sequences, and this is presented as evidence of model validity.
+  - **Evidence pointer** Results, "Performance and Biological Relevance of the Trained SVM Model"; Figure 2A, 2B
+  - **Concern** The accuracy metric is reported for a binary classification task (CRE vs. genomic background), but the downstream application is variant effect prediction. High classification accuracy does not guarantee accurate deltaSVM scores. The manuscript does not report any direct evaluation of deltaSVM score accuracy, such as comparison to functional assays beyond the single MPRA dataset, or calibration of scores against known pathogenic variants.
+  - **Why it matters** The central claim of the paper is that deltaSVM scores predict functional impact. If the model is only validated as a classifier, not as a variant effect predictor, the conclusions about variant prioritization are not fully supported.
+  - **Resolution test** Provide additional validation of deltaSVM scores, such as ROC or precision-recall analysis for known pathogenic vs. benign variants in retinal CREs, or comparison to additional functional datasets (e.g., STARR-seq, CRISPR screens).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model was trained on 80% of 18,866 ATAC-seq peaks and tested on the remaining 20%, with a negative set of GC-matched genomic sequences.
+  - **Evidence pointer** Methods, "Input Data Sources" and "SVM Model Training and Validation"; Supplementary Figure S1
+  - **Concern** The description of the negative set generation is incomplete. The manuscript states that 1,000,000 random regions were selected and filtered against positive regions, but does not specify how GC-matching was performed (e.g., binning strategy, exact matching vs. approximate), nor whether the negative set was matched for other confounders such as repeat content or mappability. The number of negative regions actually used after filtering is not stated.
+  - **Why it matters** Inadequate specification of the negative set compromises reproducibility and makes it difficult to assess potential biases in model training. If the negative set is not well-matched, the reported accuracy may be inflated.
+  - **Resolution test** Provide a detailed description of the negative set generation, including the GC-matching algorithm, the number of regions after filtering, and any additional matching criteria. Ideally, make the negative set publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model "has the potential to expedite the characterization of pathogenic non-coding sequence variants in the context of unexplained retinal disease."
+  - **Evidence pointer** Conclusions; Discussion
+  - **Concern** The clinical utility claim is speculative. The manuscript does not demonstrate that the model can identify pathogenic variants in a real clinical cohort, nor does it compare performance to existing tools (e.g., CADD, Eigen, PrimateAI) for variant prioritization. The correlation with allele frequency and conservation is indirect evidence of utility.
+  - **Why it matters** For the resource to be clinically useful, it must be shown to add value beyond existing tools. Without a benchmark against current methods, the incremental contribution is unclear.
+  - **Resolution test** Perform a benchmark analysis comparing deltaSVM scores to existing variant effect predictors on a set of known retinal disease variants and matched benign variants. Report metrics such as AUC, sensitivity, and specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Variant Impact Scoring on In Silico Saturation Mutagenesis"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the custom script for saturation mutagenesis is vague. It is unclear whether all possible single nucleotide substitutions are generated for every position, and how the deltaSVM score is aggregated across the 11-mers that span a given variant.
+  - **Required correction** Provide a more detailed description of the mutagenesis script, including pseudocode or a clear algorithmic outline, and specify how deltaSVM scores are computed for each variant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Variant Impact Scores Correlate with Conservation of Non-Coding Sequences"
+  - **Evidence pointer** Figure 3B
+  - **Issue** The comparison of conservation scores across deltaSVM bins uses Kruskal-Wallis and Wilcoxon tests, but the effect sizes are not reported. The manuscript states p-values but not the magnitude of differences in phyloP scores between bins.
+  - **Required correction** Report median and interquartile ranges for phyloP scores in each deltaSVM bin, and consider reporting a measure of effect size (e.g., rank-biserial correlation).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Prediction Scores Across a Conserved CRE Match Changes in Reporter Expression"
+  - **Evidence pointer** Figure 5
+  - **Issue** The correlation coefficient (Pearson r = 0.506) is reported, but the figure is not provided. It is unclear whether the correlation is driven by a few extreme values or is robust across the range of deltaSVM scores.
+  - **Required correction** Include a scatter plot with a fitted regression line and confidence intervals. Report the number of variants used in the correlation analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of deltaSVM scores as variant effect predictors) and R1-M2 (incomplete specification of negative set) are the primary technical issues. Without addressing these, the core claims of the paper are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of GKM-SVM/deltaSVM to human retinal ATAC-seq data is new, but the method itself is established. The novelty is incremental rather than conceptual.
+  - Scientific importance: Moderate. The resource may be useful for the retinal genetics community, but the manuscript does not demonstrate a significant advance in understanding of regulatory variant impact.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to ophthalmic geneticists and computational biologists. The clinical translation claims are not sufficiently developed to attract a broader audience.
+  - Technical soundness: Adequate but with gaps. The classification performance is strong, but the variant effect prediction is not directly validated. The negative set generation is under-specified.
+  - Readability for nonspecialists: Acceptable. The manuscript is generally clear, but some methods sections assume familiarity with machine learning and genomics terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially useful resource, but the validation of variant effect prediction and the specification of the negative set must be addressed before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that the model can "expedite the characterization of pathogenic non-coding sequence variants" is not supported by direct evidence; it is a reasonable extrapolation but not demonstrated.
+- The claim that the model is "robust even across species" based on a single comparison to mouse MPRA data is overstated; cross-species robustness would require testing on multiple species or additional orthologous CREs.
+- The statement that the model "accurately predicted" MPRA expression changes is supported by a correlation coefficient of 0.506, which is moderate; the manuscript does not report how much variance is explained or whether the correlation is significantly different from zero after accounting for multiple testing.
+- The claim that the model is "less biased" than ChIP-seq-based approaches is plausible but not directly tested; no comparison to a ChIP-seq-trained model is provided.

@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "41082466",
+    "doi": "10.1049/syb2.70037",
+    "title": "PGK1: A Common Biomarker and Therapeutic Target Linking Sarcopenia and Osteoporosis Through Fibroblast-Mediated Pathways."
+  },
+  "content": {
+    "abstract": "Sarcopenia and osteoporosis share pathophysiological links, but their co-occurrence mechanisms remain unclear. This study aimed to identify molecular mediators of their co-development using bioinformatics. Datasets for sarcopenia (GSE56815) and osteoporosis (GSE9103) were retrieved from GEO. Differentially expressed genes (DEGs) were analysed via edgeR and limma. Gene ontology (GO), Kyoto encyclopaedia of genes and genomes (KEGG) and weighted gene co-expression network analysis (WGCNA) identified shared pathways and hub genes. Protein-protein interaction (PPI) networks were constructed using STRING and Cytoscape. We validated hub genes in independent datasets (GSE13850, GSE8479) and assessed via ROC curves. Immune infiltration, single-cell analysis and drug prediction were performed. We identified 134 common DEGs (30 upregulated, 104 downregulated). WGCNA and PPI analysis revealed 14 hub genes (APOE, CDK2, PGK1, HRAS, RUNX2 etc.), all with ROC-AUC > 0.6. PGK1 was consistently downregulated in both diseases and linked to 21 miRNAs and six transcription factors (HSF1, TP53, JUN etc.). Single-cell analysis localised PGK1 predominantly in skeletal muscle fibroblasts. DrugBank identified lamivudine as a potential PGK1-targeting therapeutic. PGK1 emerged as a central downregulated gene in sarcopenia and osteoporosis, enriched in fibroblasts and modulated by lamivudine. These findings highlight PGK1 as a shared diagnostic and therapeutic target, offering insights into musculoskeletal crosstalk.",
+    "keywords": [
+      "big data",
+      "bioinformatics",
+      "data analysis",
+      "molecular dynamics method",
+      "network analysis",
+      "signal transduction"
+    ],
+    "mesh_terms": [
+      "*Osteoporosis/genetics/metabolism/drug therapy",
+      "*Sarcopenia/genetics/metabolism/drug therapy",
+      "Humans",
+      "Protein Interaction Maps/genetics",
+      "*Phosphoglycerate Kinase/metabolism/genetics",
+      "Computational Biology",
+      "Biomarkers/metabolism",
+      "*Fibroblasts/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Signal Transduction/genetics",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Kun",
+        "Li, Hailong",
+        "Chen, Xinhong",
+        "Tang, Ping",
+        "Wang, Meng",
+        "Yang, Chunting",
+        "Su, Rong",
+        "Gao, Xiaqin",
+        "Zhang, Fan",
+        "Han, Juan"
+      ],
+      "short_names": [
+        "Zhang K",
+        "Li H",
+        "Chen X",
+        "Tang P",
+        "Wang M",
+        "Yang C",
+        "Su R",
+        "Gao X",
+        "Zhang F",
+        "Han J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5972-907X"
+      ],
+      "affiliations": [
+        "Department of Trauma Orthopedics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China.",
+        "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China.",
+        "Department of Geriatrics, Affiliated Hospital of Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Department of Geriatrics, Shenzhen Integrated Traditional Chinese and Western Medicine Hospital, Shenzhen, China.",
+        "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China.",
+        "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China.",
+        "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Department of Geriatrics, Affiliated Hospital of Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "Department of Trauma Orthopedics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China.",
+        "Department of Pediatrics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Kun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Trauma Orthopedics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hailong",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0002-5972-907X"
+        ],
+        "affiliations": [
+          "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China.",
+          "Department of Geriatrics, Affiliated Hospital of Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+          "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China.",
+          "Department of Geriatrics, Shenzhen Integrated Traditional Chinese and Western Medicine Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinhong",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ping",
+        "short_name": "Tang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Luohu Clinical College, School of Medicine, Shantou University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chunting",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Su, Rong",
+        "short_name": "Su R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaqin",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Affiliated Hospital of Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Han, Juan",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Trauma Orthopedics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China.",
+          "Department of Pediatrics, Gansu Provincial Traditional Chinese Medicine Hospital, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/13 18:29",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [
+      "42642681"
+    ],
+    "refs": [
+      "39894827",
+      "39394187",
+      "38432079",
+      "38396640",
+      "38372699",
+      "37969207",
+      "37881605",
+      "37723547",
+      "37683138",
+      "37663298",
+      "37582937",
+      "37249790",
+      "37007946",
+      "36983758",
+      "36907247",
+      "36849569",
+      "36759092",
+      "36736126",
+      "36728674",
+      "36509299",
+      "36358653",
+      "36213260",
+      "36187130",
+      "36182103",
+      "36147639",
+      "36059961",
+      "35608390",
+      "35527021",
+      "35387336",
+      "34960050",
+      "34716304",
+      "34667156",
+      "34315158",
+      "34067783",
+      "33960519",
+      "32203407",
+      "32202056",
+      "31815035",
+      "31767834",
+      "31198853",
+      "31171417",
+      "30111548",
+      "30098424"
+    ],
+    "similar": [
+      "41082466",
+      "40628511",
+      "40854963",
+      "41560007",
+      "40241169",
+      "38831425",
+      "41053312",
+      "40971977",
+      "42109727",
+      "40660573",
+      "42509823",
+      "41444522",
+      "38899746",
+      "42327749",
+      "38660311",
+      "42642681",
+      "40821971",
+      "41286033",
+      "41044520",
+      "41316541",
+      "41534648",
+      "42278407",
+      "30132538",
+      "40918403",
+      "38863714",
+      "40659785",
+      "40869253",
+      "35620387",
+      "39978305",
+      "40016711",
+      "31989994",
+      "40406126",
+      "38268224",
+      "39351239",
+      "38229237",
+      "38833128",
+      "41940395",
+      "38650009",
+      "42348043",
+      "42706545",
+      "39556279",
+      "38774257",
+      "34160465",
+      "42305270",
+      "33407587",
+      "40574839",
+      "41258630",
+      "41703488",
+      "38381273",
+      "32008037",
+      "41288681",
+      "40328901",
+      "39142001",
+      "40603423",
+      "41081092",
+      "40591229",
+      "39375405",
+      "41863100",
+      "41120603",
+      "40834023",
+      "38987624",
+      "31987036",
+      "28983581",
+      "31822116",
+      "37909603",
+      "41253465",
+      "32811479",
+      "41146237",
+      "42081554",
+      "40996982",
+      "41125916",
+      "41005317",
+      "39086489",
+      "39673621",
+      "40245021",
+      "42313235",
+      "39875572",
+      "32058995",
+      "40790764",
+      "39341952",
+      "41478499",
+      "41826854",
+      "39953769",
+      "41066424",
+      "38260098",
+      "40019588",
+      "38912048",
+      "41236100",
+      "40826767",
+      "41533020",
+      "32756534",
+      "40374840",
+      "30916045",
+      "41677890",
+      "34622712",
+      "41517672",
+      "35016690",
+      "41052072",
+      "38718074",
+      "34536521"
+    ],
+    "review": [
+      "41082466"
+    ],
+    "pmc": [
+      "12517354"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41082466/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.70037",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HRAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

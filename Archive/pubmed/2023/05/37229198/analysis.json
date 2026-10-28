@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37229198",
+  "title": "Comparative analysis of tissue-specific genes in maize based on machine learning models: CNN performs technically best, LightGBM performs biologically soundest.",
+  "authors": "Wang, Zijie; Zhu, Yuzhi; Liu, Zhule; Li, Hongfu; Tang, Xinqiang; Jiang, Yi",
+  "journal": "Frontiers in genetics",
+  "published_date": "2023-05-25",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习模型比较玉米组织特异基因识别，虽涉及转录因子发现，但核心是基因表达分类而非蛋白质-DNA互作建模，方法无三维结构或结合机制研究，仅边缘相关。",
+  "abstract": "Introduction: With the advancement of RNA-seq technology and machine learning, training large-scale RNA-seq data from databases with machine learning models can generally identify genes with important regulatory roles that were previously missed by standard linear analytic methodologies. Finding tissue-specific genes could improve our comprehension of the relationship between tissues and genes. However, few machine learning models for transcriptome data have been deployed and compared to identify tissue-specific genes, particularly for plants. Methods: In this study, an expression matrix was processed with linear models (Limma), machine learning models (LightGBM), and deep learning models (CNN) with information gain and the SHAP strategy based on 1,548 maize multi-tissue RNA-seq data obtained from a public database to identify tissue-specific genes. In terms of validation, V-measure values were computed based on k-means clustering of the gene sets to evaluate their technical complementarity. Furthermore, GO analysis and literature retrieval were used to validate the functions and research status of these genes. Results: Based on clustering validation, the convolutional neural network outperformed others with higher V-measure values as 0.647, indicating that its gene set could cover as many specific properties of various tissues as possible, whereas LightGBM discovered key transcription factors. The combination of three gene sets produced 78 core tissue-specific genes that had previously been shown in the literature to be biologically significant. Discussion: Different tissue-specific gene sets were identified due to the distinct interpretation strategy for machine learning models and researchers may use multiple methodologies and strategies for tissue-specific gene sets based on their goals, types of data, and computational resources. This study provided comparative insight for large-scale data mining of transcriptome datasets, shedding light on resolving high dimensions and bias difficulties in bioinformatics data processing.",
+  "abstract_zh": "引言：随着RNA-seq技术和机器学习的发展，利用机器学习模型对数据库中大规模RNA-seq数据进行训练，通常能够识别出标准线性分析方法此前遗漏的具有重要调控作用的基因。寻找组织特异性基因可增进我们对组织与基因之间关系的理解。然而，目前很少有用于转录组数据的机器学习模型被部署和比较以识别组织特异性基因，尤其是在植物中。方法：在本研究中，基于从公共数据库获取的1,548个玉米多组织RNA-seq数据，使用线性模型（Limma）、机器学习模型（LightGBM）和深度学习模型（CNN），结合信息增益和SHAP策略处理表达矩阵，以识别组织特异性基因。在验证方面，基于基因集的k-means聚类计算V-measure值，以评估其技术互补性。此外，使用GO分析和文献检索来验证这些基因的功能和研究现状。结果：基于聚类验证，卷积神经网络表现优于其他方法，其V-measure值更高，为0.647，表明其基因集能尽可能覆盖各组织的特异性特征，而LightGBM发现了关键转录因子。三个基因集的组合产生了78个核心组织特异性基因，这些基因此前已在文献中被证明具有生物学意义。讨论：由于机器学习模型的不同解释策略，识别出了不同的组织特异性基因集，研究者可根据其目标、数据类型和计算资源，采用多种方法和策略来获取组织特异性基因集。本研究为转录组数据集的大规模数据挖掘提供了比较性见解，有助于解决生物信息学数据处理中的高维度和偏差问题。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37229198/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37229198/",
+  "paper_page_path": "papers/pubmed/37229198/index.html"
+}

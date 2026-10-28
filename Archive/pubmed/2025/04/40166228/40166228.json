@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "40166228",
+    "doi": "10.1101/2025.03.14.643349",
+    "title": "Single-cell multiomics reveals disrupted glial gene regulatory programs in Alzheimer's disease via interpretable machine learning."
+  },
+  "content": {
+    "abstract": "Recent development of single-cell technology across multiple omics platforms has provided new ways to obtain holistic views of cells to study disease pathobiology. Alzheimer's disease (AD) is the most common form of dementia worldwide, yet the detailed understanding of its cellular and molecular mechanisms remains limited. In this study, we analyzed paired single-cell transcriptomic (scRNA-seq) and chromatin accessibility (scATAC-seq) data from the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) Consortium to investigate the molecular mechanisms of AD at a cell-subpopulation-specific resolution focusing on glial cells. We benchmarked various multi-omics integration methods using diverse metrics and built an analytic workflow that enabled effective batch correction and cross-modality alignment, creating a unified cell state space. Through integrative analysis of 26 human brain samples, we uncovered AD-associated gene expression and pathway changes in glial subpopulations and highlighted important transcriptomic and epigenomic signatures via functional inference and interpretable machine learning paradigms, discovering the profound involvement of the Solute Carrier proteins (SLC) family genes in multiple glial cell types. We also identified glial cell-specific regulatory programs mediated by key transcription factors such as JUN and FOSL2 in astrocytes, the Zinc Finger (ZNF) family genes in microglia, and the SOX family of transcription factors in oligodendrocytes. Our study provides a comprehensive workflow and a high-resolution view of how glial regulatory programs are disrupted in AD. Our findings offer novel insights into disease-related changes in gene regulation and suggest potential targets for further research and therapy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuwen",
+        "Hu, Hongru",
+        "Wang, Xue",
+        "Xiong, Chengjie",
+        "Asmann, Yan W",
+        "Ren, Yingxue"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Hu H",
+        "Wang X",
+        "Xiong C",
+        "Asmann YW",
+        "Ren Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0497-4796"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuwen",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hu, Hongru",
+        "short_name": "Hu H",
+        "identifiers": [
+          "0000-0003-0497-4796"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xiong, Chengjie",
+        "short_name": "Xiong C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Asmann, Yan W",
+        "short_name": "Asmann YW",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ren, Yingxue",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40166228",
+      "39773540",
+      "38979371",
+      "39149497",
+      "40297324",
+      "35236372",
+      "38699303",
+      "37789374",
+      "39500613",
+      "27799057",
+      "31399126",
+      "40018519",
+      "40304967",
+      "36254161",
+      "39376034",
+      "39830273",
+      "38664790",
+      "39959647",
+      "40336141",
+      "34600516",
+      "38559218",
+      "37189441",
+      "35849618",
+      "39107272",
+      "36332572",
+      "36297287",
+      "40196631",
+      "36943152",
+      "37712202",
+      "36778483",
+      "39737748",
+      "35109872",
+      "38956662",
+      "35295737",
+      "35623983",
+      "39507054",
+      "39543008",
+      "39605544",
+      "37340466",
+      "34925024",
+      "40267277",
+      "38481273",
+      "39993589",
+      "36138932",
+      "40296690",
+      "31614849",
+      "38167548",
+      "40235507",
+      "34993477",
+      "39184089",
+      "38913039",
+      "38534018",
+      "39920860",
+      "39944798",
+      "37790454",
+      "38493343",
+      "39741706",
+      "37682480",
+      "37434694",
+      "36648426",
+      "37334314",
+      "38502590",
+      "37671028",
+      "38971545",
+      "36401971",
+      "39142391",
+      "37724426",
+      "38020758",
+      "36383176",
+      "36902216",
+      "36326588",
+      "35572130",
+      "35143967",
+      "39690817",
+      "35853872",
+      "34189529",
+      "38826275",
+      "39859365",
+      "38191694",
+      "39652363",
+      "36062157",
+      "32045774",
+      "38056211",
+      "34704168",
+      "33717140",
+      "40181382",
+      "38249960",
+      "38807051",
+      "30189875",
+      "36945609",
+      "40130281",
+      "40166175",
+      "37030268",
+      "38944814",
+      "36153535",
+      "36405716",
+      "34616287",
+      "35685361",
+      "36827281",
+      "39068182"
+    ],
+    "review": [
+      "40166228",
+      "35236372",
+      "39500613",
+      "40304967",
+      "35623983",
+      "31614849",
+      "38534018",
+      "39741706",
+      "39142391",
+      "37724426",
+      "39652363",
+      "32045774",
+      "34704168"
+    ],
+    "pmc": [
+      "11957018"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40166228/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.14.643349",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

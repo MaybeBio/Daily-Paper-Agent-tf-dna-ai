@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.28.509620",
+  "title": "Integrated single-cell chromatin and transcriptomic analyses of human scalp reveal etiological insights into genetic risk for hair and skin disease",
+  "authors": "Ober-Reynolds B; Wang C; Ko JM; Rios EJ; Aasi SZ; Davis MM; Oro AE; Greenleaf WJ",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-29",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合人类头皮单细胞染色质与转录组数据构建基因调控网络，并用机器学习模型预测影响转录因子结合基序的SNP，虽涉及TF-DNA结合位点预测，但核心是疾病遗传变异解读而非TF-DNA互作机制建模。",
+  "abstract": "Genome-wide association studies (GWAS) of hair and skin disease have identified many genetic variants associated with disease phenotypes, but identifying causal variants and interpreting their function requires deciphering gene-regulatory networks in disease-relevant cell types. To this end, we generated matched scRNA- and scATAC-seq profiles of human scalp biopsies, identifying diverse cell types of the hair follicle niche. By interrogating the integrated datasets across multiple levels of cellular resolution, we infer 50-100% more enhancer-gene links than prior approaches, and show that the aggregate accessibility at linked enhancers for highly-regulated genes predicts expression. We use these gene-regulatory maps to prioritize cell types, genes, and causal variants implicated in the pathobiology of androgenetic alopecia (AGA), eczema, and other complex traits. AGA GWAS signals are strongly and specifically enriched in dermal papilla cell open chromatin regions, supporting the role of these cells as key drivers of AGA pathogenesis. Finally, we trained machine-learning models to nominate SNPs that affect gene expression through disruption of specific transcription factor binding motifs, identifying candidate functional SNPs linked to expression of WNT10A in AGA and IL18RAP in eczema. Together, this work reveals principles of gene regulation and identifies gene regulatory consequences of natural genetic variation in complex skin and hair diseases.",
+  "abstract_zh": "针对毛发和皮肤疾病的全基因组关联分析（GWAS）已识别出许多与疾病表型相关的遗传变异，但确定因果变异并解读其功能，需要解析疾病相关细胞类型中的基因调控网络。为此，我们生成了人类头皮活检组织的匹配单细胞RNA测序（scRNA-seq）和单细胞ATAC测序（scATAC-seq）图谱，识别出毛囊微环境中的多种细胞类型。通过在多层次细胞分辨率下查询整合数据集，我们推断出的增强子-基因连接比先前方法多50-100%，并表明高调控基因的关联增强子处的总体可及性可预测表达水平。我们利用这些基因调控图谱，优先排序与雄激素性脱发（AGA）、湿疹及其他复杂性状病理生物学相关的细胞类型、基因和因果变异。AGA的GWAS信号在真皮乳头细胞开放染色质区域中显著且特异性地富集，支持这些细胞作为AGA发病关键驱动因素的作用。最后，我们训练机器学习模型，以提名通过破坏特定转录因子结合基序影响基因表达的SNP，识别出与AGA中WNT10A表达及湿疹中IL18RAP表达相关的候选功能性SNP。综合而言，本研究揭示了基因调控原理，并阐明了自然遗传变异在复杂皮肤和毛发疾病中的基因调控后果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.28.509620",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.28.509620",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.28.509620/index.html"
+}

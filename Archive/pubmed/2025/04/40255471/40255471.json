@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "40255471",
+    "doi": "10.2147/DDDT.S508709",
+    "title": "Single-Cell Transcriptional Analysis Reveals the Mechanism of AZD6738 in HCC Immunotherapy via EZH2 Targeting."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aims to identify specific molecular targets sensitive to AZD6738 through the integration of network pharmacology and transcriptomic methods, and to assess their potential role in the treatment of hepatocellular carcinoma (HCC). Additionally, we explore the specific effects of AZD6738 on the tumor microenvironment and its ability to regulate immune responses. METHODS: We employed a combination of network pharmacology and transcriptomic analysis to identify specific molecules associated with HCC, including EZH2, CCNB1, PRKDC, CTSL, PSEN1, SLC6A3, and FKBP1A. Using these molecules and clinical features, we constructed a robust prognostic model for HCC. We further used single-cell transcriptomic technology to screen for core targets and performed spatial transcriptomic analysis to determine their spatial distribution. To validate the efficacy of AZD6738 in vivo, we established a subcutaneous tumor model, with the experimental group receiving oral administration of AZD6738 (75 mg/kg). Finally, we assessed the changes in the immune cell expression profile in tumor tissues post-AZD6738 treatment using flow cytometry. RESULTS: Our study indicates that the high expression of genes such as EZH2, CCNB1, PRKDC, and PSEN1 is associated with poor prognosis in HCC patients. Molecular docking and RT-PCR validation demonstrated that AZD6738 exhibits high affinity for these targets and significantly reduces the mRNA levels of EZH2, PRKDC, and CCNB1 in HCC cell lines, with EZH2 showing the most pronounced decrease. Animal experiments revealed that AZD6738 can enhance the immune microenvironment in liver cancer; specifically, AZD6738 not only promotes the proliferation of CD8+ T cells but also enhances their differentiation into effector memory T cells, indicating that the drug can potentiate anti-tumor immune responses. CONCLUSION: This study reveals that AZD6738 demonstrates significant therapeutic efficacy by targeting the key molecule EZH2, thereby modulating the tumor microenvironment and enhancing anti-tumor immunity.",
+    "keywords": [
+      "AZD6738",
+      "hepatocellular carcinoma",
+      "molecular docking",
+      "targeted therapy"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/antagonists & inhibitors/metabolism/genetics",
+      "*Carcinoma, Hepatocellular/drug therapy/pathology/metabolism",
+      "*Liver Neoplasms/drug therapy/pathology/metabolism",
+      "Humans",
+      "*Immunotherapy",
+      "Animals",
+      "Mice",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "*Single-Cell Analysis",
+      "Drug Screening Assays, Antitumor",
+      "Cell Proliferation/drug effects",
+      "Tumor Microenvironment/drug effects",
+      "*Pyrimidines/pharmacology",
+      "Dose-Response Relationship, Drug",
+      "Tumor Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ren-Peng",
+        "Wu, Guo-Zhi",
+        "Fang, Xi-Dong",
+        "Yang, Wen-Wen",
+        "Zhang, Hui-Yun",
+        "Yue, Han-Xun",
+        "Zheng, Ya",
+        "Wang, Yu-Ping",
+        "Zhou, Yong-Ning"
+      ],
+      "short_names": [
+        "Li RP",
+        "Wu GZ",
+        "Fang XD",
+        "Yang WW",
+        "Zhang HY",
+        "Yue HX",
+        "Zheng Y",
+        "Wang YP",
+        "Zhou YN"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1529-2296",
+        "ORCID: 0000-0003-0087-4771"
+      ],
+      "affiliations": [
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+        "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ren-Peng",
+        "short_name": "Li RP",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Guo-Zhi",
+        "short_name": "Wu GZ",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xi-Dong",
+        "short_name": "Fang XD",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wen-Wen",
+        "short_name": "Yang WW",
+        "identifiers": [
+          "0009-0003-1529-2296"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui-Yun",
+        "short_name": "Zhang HY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yue, Han-Xun",
+        "short_name": "Yue HX",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, People's Republic of China.",
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ya",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu-Ping",
+        "short_name": "Wang YP",
+        "identifiers": [
+          "0000-0003-0087-4771"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yong-Ning",
+        "short_name": "Zhou YN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China.",
+          "Gansu Province Clinical Research Center for Digestive Diseases, The First Hospital of Lanzhou University, Lanzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/21 06:26",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42670538",
+      "42118483"
+    ],
+    "refs": [
+      "39529584",
+      "38708523",
+      "38599123",
+      "38581991",
+      "38402224",
+      "37459919",
+      "37414763",
+      "37248248",
+      "37094826",
+      "36672374",
+      "36008377",
+      "34942552",
+      "34909652",
+      "34885159",
+      "34626299",
+      "34262941",
+      "34244479",
+      "33807605",
+      "33545267",
+      "33125945",
+      "32461345",
+      "31018854",
+      "30770349",
+      "30651720",
+      "30346772",
+      "29952768",
+      "29670361",
+      "29590617",
+      "29503564",
+      "28662958",
+      "28043904",
+      "27617969",
+      "9585407"
+    ],
+    "similar": [
+      "40255471",
+      "33121524",
+      "32461345",
+      "32464306",
+      "38008711",
+      "38623968",
+      "38948071",
+      "31305292",
+      "32178558",
+      "38505919",
+      "39988873",
+      "29316949",
+      "30150059",
+      "39375105",
+      "30274685",
+      "37085881",
+      "26715809",
+      "24211739",
+      "28338656",
+      "28648905",
+      "31727135",
+      "34517264",
+      "34156519",
+      "38787389",
+      "39023830",
+      "39390614",
+      "35659256",
+      "39516467",
+      "28928088",
+      "33180829",
+      "32669125",
+      "36087682",
+      "27899259",
+      "27644248",
+      "37001386",
+      "29784005",
+      "40295654",
+      "29581297",
+      "30414862",
+      "32179631",
+      "30711627",
+      "39988347",
+      "40069331",
+      "34510715",
+      "27890434",
+      "37459919",
+      "39608977",
+      "32000648",
+      "34244479",
+      "35184652",
+      "30626493",
+      "34509167",
+      "26800240",
+      "28284560",
+      "39814999",
+      "39955326",
+      "37747420",
+      "39933657",
+      "34880599",
+      "26099525",
+      "31757187",
+      "40322038",
+      "37851112",
+      "40085988",
+      "29669339",
+      "34545456",
+      "32129914",
+      "22962603",
+      "30786928",
+      "39838375",
+      "34664960",
+      "36043445",
+      "39504750",
+      "29408569",
+      "27207647",
+      "39393439",
+      "33679751",
+      "35627262",
+      "30836927",
+      "39071814",
+      "38816744",
+      "34265379",
+      "39850878",
+      "31981943",
+      "34378540",
+      "39773565",
+      "38858165",
+      "39466438",
+      "27491935",
+      "40211257",
+      "39095323",
+      "39085893",
+      "30342849",
+      "39202998",
+      "35208478",
+      "40057142",
+      "40282408",
+      "38861912",
+      "31113805",
+      "22559167"
+    ],
+    "review": [
+      "40255471"
+    ],
+    "pmc": [
+      "12007511"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40255471/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1236",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S508709",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "40082687",
+    "doi": "10.1038/s41598-025-93409-3",
+    "title": "Artificial intelligence-powered prediction of AIM-2 inflammasome sequences using transformers and graph attention networks in periodontal inflammation."
+  },
+  "content": {
+    "abstract": "Periodontal inflammation is a chronic condition affecting the tissues surrounding teeth. Initiated by dental plaque, it triggers an immune response leading to tissue destruction. The AIM-2 inflammasome regulates this response, and understanding its peptide sequences could aid in developing targeted therapeutics. This study explores using transformers and graph attention networks (GAT) to treat periodontal inflammation. UniProt was used to download AIM-2 inflammasome proteins and FASTA sequences with 100%, 90%, and 50% similarity. DeepBio, a web service for developing deep-learning architectures, analyzed these sequences. Peptide sequence prediction methods were evaluated using a transformer, RNN-CNN, and GAT models. The transformer model achieved 84% accuracy, the GAT model 86%, and the RNN-CNN 64%. Both transformer and GAT models predicted peptide sequences more effectively than the RNN-CNN model, with the Transformer showing the highest class accuracy at 85%, followed by the GAT model at 80%. Models exhibited varying sensitivity and specificity, with the Transformer demonstrating superior performance in overall and class-specific peptide sequence prediction. AI-based peptide sequence prediction using transformers, GAT, and RNN-CNN shows promise for accurately predicting AIM-2 peptide sequences, with transformers and GAT outperforming RNN-CNN in accuracy and class accuracy.",
+    "keywords": [
+      "Aim-2",
+      "Graph attention networks",
+      "Inflammasome",
+      "Periodontitis",
+      "RNN-CNN",
+      "Transformers"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Inflammasomes/metabolism/chemistry",
+      "*Artificial Intelligence",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Amino Acid Sequence",
+      "Inflammation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yadalam, Pradeep Kumar",
+        "Arumuganainar, Deepavalli",
+        "Natarajan, Prabhu Manickam",
+        "Ardila, Carlos M"
+      ],
+      "short_names": [
+        "Yadalam PK",
+        "Arumuganainar D",
+        "Natarajan PM",
+        "Ardila CM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Periodontics, Saveetha Institute of Medical and Technical Sciences, Saveetha Dental College and Hospital, Saveetha University, Chennai, Tamil Nadu, 600077, India.",
+        "Department of Periodontics, Saveetha Institute of Medical and Technical Sciences, Saveetha Dental College and Hospital, Saveetha University, Chennai, Tamil Nadu, 600077, India.",
+        "Department of Clinical Sciences, Center of Medical and Bio-allied Health Sciences and Research, College of Dentistry, Ajman University, Ajman, 346, United Arab Emirates. prabhuperio@gmail.com.",
+        "Department of Basic Sciences, Faculty of Dentistry, Universidad de Antioquia U de A, Medellin, 050010, Colombia. martin.ardila@udea.edu.co."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yadalam, Pradeep Kumar",
+        "short_name": "Yadalam PK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontics, Saveetha Institute of Medical and Technical Sciences, Saveetha Dental College and Hospital, Saveetha University, Chennai, Tamil Nadu, 600077, India."
+        ]
+      },
+      {
+        "full_name": "Arumuganainar, Deepavalli",
+        "short_name": "Arumuganainar D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontics, Saveetha Institute of Medical and Technical Sciences, Saveetha Dental College and Hospital, Saveetha University, Chennai, Tamil Nadu, 600077, India."
+        ]
+      },
+      {
+        "full_name": "Natarajan, Prabhu Manickam",
+        "short_name": "Natarajan PM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Sciences, Center of Medical and Bio-allied Health Sciences and Research, College of Dentistry, Ajman University, Ajman, 346, United Arab Emirates. prabhuperio@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Ardila, Carlos M",
+        "short_name": "Ardila CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Sciences, Faculty of Dentistry, Universidad de Antioquia U de A, Medellín, 050010, Colombia. martin.ardila@udea.edu.co."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 11:24",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42310664",
+      "42095999",
+      "41244204",
+      "41181406",
+      "41159323",
+      "40770330",
+      "40287476"
+    ],
+    "refs": [
+      "38170146",
+      "38023488",
+      "37642257",
+      "37480196",
+      "36796796",
+      "36563691",
+      "36540990",
+      "36433986",
+      "36408920",
+      "36342186",
+      "36273003",
+      "35896542",
+      "35844389",
+      "35810012",
+      "35571059",
+      "35566100",
+      "35330371",
+      "35020807",
+      "35008798",
+      "34526500",
+      "34177950",
+      "33368813",
+      "32903638",
+      "32533779",
+      "31960443",
+      "31850638",
+      "31775612",
+      "24126516",
+      "23138306"
+    ],
+    "similar": [
+      "40082687",
+      "31725778",
+      "37939407",
+      "38902287",
+      "35780100",
+      "39806960",
+      "36325476",
+      "38012574",
+      "39650481",
+      "39505514",
+      "38686001",
+      "38547658",
+      "37715137",
+      "39264388",
+      "36342186",
+      "37336152",
+      "38428432",
+      "38473348",
+      "35957417",
+      "40096020",
+      "39930351",
+      "39242748",
+      "40064460",
+      "37870890",
+      "38749465",
+      "40259941",
+      "36350463",
+      "36857952",
+      "36373611",
+      "38125287",
+      "37430716",
+      "39376879",
+      "36100856",
+      "39417227",
+      "39376880",
+      "39728226",
+      "37387145",
+      "39563402",
+      "37960599",
+      "37605997",
+      "37749595",
+      "36403092",
+      "38629931",
+      "37237656",
+      "34882195",
+      "40213272",
+      "37734134",
+      "37980798",
+      "36580181",
+      "36545260",
+      "39593373",
+      "40169776",
+      "38925473",
+      "34739967",
+      "37974507",
+      "40099145",
+      "32038699",
+      "35857731",
+      "34441318",
+      "38965166",
+      "39796814",
+      "38542665",
+      "40117795",
+      "36711471",
+      "34330244",
+      "36979438",
+      "39734235",
+      "35413196",
+      "37469840",
+      "39641088",
+      "39347119",
+      "38244570",
+      "37497802",
+      "37717365",
+      "35819537",
+      "38271837",
+      "37594157",
+      "39363122",
+      "39272696",
+      "40299730",
+      "29556905",
+      "38920477",
+      "35494855",
+      "39453040",
+      "36850768",
+      "39883541",
+      "40065142",
+      "38181611",
+      "36146170",
+      "40134890",
+      "39467867",
+      "39887473",
+      "35344803",
+      "39270885",
+      "37659113",
+      "39997998",
+      "38082822",
+      "37847663",
+      "37890420",
+      "38853240"
+    ],
+    "review": [
+      "40082687",
+      "37939407",
+      "37715137",
+      "39264388",
+      "40096020",
+      "38749465",
+      "37749595",
+      "40213272"
+    ],
+    "pmc": [
+      "11906867"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-93409-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40082687/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

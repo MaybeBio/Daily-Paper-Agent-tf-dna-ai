@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "38178084",
+    "doi": "10.1186/s12935-023-03185-1",
+    "title": "Transcription factors-related molecular subtypes and risk prognostic model: exploring the immunogenicity landscape and potential drug targets in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is the most prevalent form of liver cancer, with a high mortality rate and poor prognosis. Mutated or dysregulated transcription factors (TFs) are significantly associated with carcinogenesis. The aim of this study was to develop a TF-related prognostic risk model to predict the prognosis and guide the treatment of HCC patients. METHODS: RNA sequencing data were obtained from the TCGA database. The ICGC and GEO databases were used as validation datasets. The consensus clustering algorithm was used to classify the molecular subtypes of TFs. Kaplan‒Meier survival analysis and receiver operating characteristic (ROC) analysis were applied to evaluate the prognostic value of the model. The immunogenic landscape differences of molecular subtypes were evaluated by the TIMER and xCell algorithms. Autodock analysis was used to predict possible binding sites of trametinib to TFs. RT‒PCR was used to verify the effect of trametinib on the expression of core TFs. RESULTS: According to the differential expression of TFs, HCC samples were divided into two clusters (C1 and C2). The survival time, signaling pathways, abundance of immune cell infiltration and responses to chemotherapy and immunotherapy were significantly different between C1 and C2. Nine TFs with potential prognostic value, including HMGB2, ESR1, HMGA1, MYBL2, TCF19, E2F1, FOXM1, CENPA and ZIC2, were identified by Cox regression analysis. HCC patients in the high-risk group had a poor prognosis compared with those in the low-risk group (p < 0.001). Moreover, the area under the ROC curve (AUC) values of the 1-year, 2-year and 3-year survival rates were 0.792, 0.71 and 0.695, respectively. The risk model was validated in the ICGC database. Notably, trametinib sensitivity was highly correlated with the expression of core TFs, and molecular docking predicted the possible binding sites of trametinib with these TFs. More importantly, the expression of core TFs was downregulated under trametinib treatment. CONCLUSIONS: A prognostic signature with 9 TFs performed well in predicting the survival rate and chemotherapy/immunotherapy effect of HCC patients. Trimetinib has potential application value in HCC by targeting TFs.",
+    "keywords": [
+      "Drug sensitivity",
+      "Hepatocellular carcinoma",
+      "Immune microenvironment",
+      "Molecular subtype",
+      "Transcription factors (TF)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Meixia",
+        "Guo, Hanyao",
+        "Zhang, Bo",
+        "Shang, Yanan",
+        "Zhang, Sidi",
+        "Liu, Xiaoyu",
+        "Cao, Pengxiu",
+        "Fan, Yumei",
+        "Tan, Ke"
+      ],
+      "short_names": [
+        "Wang M",
+        "Guo H",
+        "Zhang B",
+        "Shang Y",
+        "Zhang S",
+        "Liu X",
+        "Cao P",
+        "Fan Y",
+        "Tan K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. caopengxiu@126.com.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. fanyumei@hebtu.edu.cn.",
+        "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. tanke@hebtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Meixia",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Hanyao",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bo",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Yanan",
+        "short_name": "Shang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sidi",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoyu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Pengxiu",
+        "short_name": "Cao P",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. caopengxiu@126.com."
+        ]
+      },
+      {
+        "full_name": "Fan, Yumei",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. fanyumei@hebtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tan, Ke",
+        "short_name": "Tan K",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Molecular and Cellular Biology, Hebei Research Center of the Basic Discipline of Cell Biology, Hebei Province Key Laboratory of Animal Physiology, Biochemistry and Molecular Biology, College of Life Sciences, Hebei Normal University, Shijiazhuang, Hebei, China. tanke@hebtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell international"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell Int"
+    ],
+    "pub_date": "2024 Jan 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/05 00:42",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42072721",
+      "41561382",
+      "41143001",
+      "40952912",
+      "40251374",
+      "40206274",
+      "40149497",
+      "38813057"
+    ],
+    "refs": [
+      "37197420",
+      "37168341",
+      "36685838",
+      "35227285",
+      "35020952",
+      "34881186",
+      "34675395",
+      "34664408",
+      "34603375",
+      "34233659",
+      "33688372",
+      "33675143",
+      "33450067",
+      "32957968",
+      "32437734",
+      "31632439",
+      "30614613",
+      "30026867",
+      "19274049",
+      "1449269"
+    ],
+    "similar": [
+      "38178084",
+      "37457742",
+      "37540264",
+      "36920176",
+      "36685838",
+      "36341373",
+      "36438201",
+      "34966575",
+      "37346073",
+      "36388696",
+      "35535359",
+      "36714595",
+      "37525171",
+      "35847972",
+      "35837167",
+      "37316840",
+      "36458010",
+      "35065633",
+      "36760376",
+      "36636069",
+      "33293862",
+      "38023241",
+      "35841206",
+      "37762710",
+      "37545521",
+      "38374122",
+      "36213162",
+      "33962640",
+      "36319928",
+      "34820376",
+      "37063920",
+      "36479122",
+      "35957699",
+      "36689018",
+      "35392063",
+      "32391055",
+      "36081998",
+      "37662906",
+      "37269346",
+      "37464443",
+      "32559715",
+      "35560794",
+      "37957420",
+      "36466855",
+      "33934539",
+      "34671598",
+      "33562824",
+      "36127654",
+      "37051238",
+      "35847985",
+      "34147074",
+      "37005878",
+      "37365028",
+      "36028814",
+      "36224658",
+      "34717566",
+      "37698679",
+      "36703728",
+      "36568383",
+      "36248822",
+      "34925311",
+      "37380815",
+      "34409040",
+      "37923899",
+      "35982956",
+      "34616672",
+      "36597032",
+      "36292980",
+      "36479114",
+      "32815653",
+      "37637055",
+      "36452343",
+      "33828988",
+      "36579330",
+      "36211267",
+      "35938001",
+      "36195833",
+      "32951492",
+      "37006257",
+      "35958598",
+      "35694087",
+      "35069936",
+      "36147735",
+      "34116652",
+      "36081504",
+      "37502362",
+      "37291405",
+      "35965795",
+      "35694712",
+      "33679749",
+      "35911976",
+      "37743471",
+      "35496321",
+      "37434092",
+      "35058711",
+      "39391504",
+      "33552157",
+      "26645049"
+    ],
+    "review": [
+      "38178084"
+    ],
+    "pmc": [
+      "10765642"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cancerci.biomedcentral.com/articles/10.1186/s12935-023-03185-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38178084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38178084",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

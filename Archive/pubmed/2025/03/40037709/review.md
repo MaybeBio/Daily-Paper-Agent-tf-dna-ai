@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the described method, experimental design, results, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present scMultiomeGRN, a deep learning framework based on graph convolutional networks, that integrates single-cell RNA sequencing and single-cell ATAC sequencing data to infer cell-specific gene regulatory networks. The method is claimed to outperform existing state-of-the-art approaches on benchmark datasets and to identify disease-relevant regulatory networks in Alzheimer's disease microglia.
+- **Visible evidence base** Text descriptions of methods and results; references to figures (Fig 1-6) and supplementary materials (Supplementary Figs S1-S9, Tables S1-S2) without actual figure content; performance metrics reported in text (AUROC, AUPR, KL divergence, p-values)
+- **Missing materials affecting confidence** All figures and supplementary materials; detailed mathematical formulations of the model architecture; complete experimental results tables; details of statistical testing methodology; information on hyperparameter tuning for the proposed model; ablation study details beyond text summary
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational approach for integrating two single-cell modalities to infer gene regulatory networks. The core idea of using modality-specific neighbor aggregation and cross-modal attention within a graph convolutional network framework is reasonable and timely. However, the current text provides insufficient detail to fully evaluate the technical soundness of the method, the rigor of the benchmarking, and the biological validity of the findings. Several claims appear to lack adequate statistical support as presented. The manuscript would benefit from substantial additional detail and analysis before the claims can be considered fully established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or applying single-cell multi-omics integration methods would be the primary audience. Researchers studying gene regulation in specific cell types, particularly in the context of Alzheimer's disease, may also find the application of interest. The method addresses a recognized challenge in the field, namely the high dropout rates and data sparsity in single-cell assays, and the integration of complementary modalities.
+- **Major strengths** The problem addressed is important and timely. The proposed architecture, combining modality-specific aggregation with cross-modal attention, is a sensible design choice that directly addresses the challenge of integrating heterogeneous data types. The application to Alzheimer's disease provides a potentially relevant use case. The authors compare against several existing methods and report performance improvements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scMultiomeGRN "outperforms state-of-the-art models on multiple benchmark datasets" is central to the paper's contribution.
+  - **Evidence pointer** Results section, "Performance evaluation of scMultiomeGRN"; Figure 2B
+  - **Concern** The text reports average AUROC and AUPR values for scMultiomeGRN and comparison methods, but provides no information on the variance of these metrics across the ten-fold cross-validation or across the multiple runs used for aggregation. Without measures of variance or statistical significance testing, it is impossible to determine whether the reported improvements are meaningful or within the range of random variation. The p-values reported for some comparisons appear to be from an unspecified test, and the text does not clarify what hypothesis is being tested or how multiple testing is handled.
+  - **Why it matters** The central claim of superiority over existing methods cannot be evaluated without appropriate statistical analysis. If the performance differences are not statistically significant, the primary contribution of the work is substantially weakened.
+  - **Resolution test** Provide confidence intervals or standard deviations for all reported metrics, and perform and report appropriate statistical significance tests (e.g., paired tests across folds) for all method comparisons. Clarify the statistical testing methodology and how multiple comparisons are addressed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The description of the model architecture and training procedure is incomplete, preventing reproduction and full evaluation.
+  - **Evidence pointer** Methods section, "scMultiomeGRN"
+  - **Concern** The text describes the components of the model at a conceptual level but omits critical implementation details. The number of layers, hidden dimensions, dropout rates, activation functions beyond ELU, normalization strategies, and the specific formulation of the loss function are not fully specified. The text mentions a "pointwise binary cross entropy (BCE) loss" but does not describe how the decoder output is thresholded or how the imbalance between positive and negative samples is handled during training beyond the data split. The optimization procedure, including learning rate schedules, batch size, and convergence criteria, is not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or build upon the method, and reviewers cannot fully assess the soundness of the design choices.
+  - **Resolution test** Provide a complete specification of the model architecture, including all hyperparameters, layer configurations, and training details. Consider providing pseudocode or a detailed algorithm box. Make the code available for review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The construction of the "ground truth" network used for training and evaluation is based on TF motif scanning of ATAC-seq peaks, which is described as generating "putative TF–gene networks."
+  - **Evidence pointer** Methods section, "Construction of initial adjacency matrix"
+  - **Concern** The method uses TF motif analysis on scATAC-seq data to define the initial adjacency matrix, which serves as the ground truth for training and evaluation. This is a computational prediction, not experimentally validated regulatory interactions. The text does not discuss the known limitations of motif-based approaches, including high false positive rates, the dependence on motif databases, and the inability to account for chromatin context, co-factors, or TF competition. The evaluation metrics therefore measure the model's ability to reconstruct motif-based predictions, not necessarily true regulatory interactions.
+  - **Why it matters** The biological validity of the inferred networks is a key claim of the paper. If the ground truth is itself noisy and potentially biased, the reported performance may not reflect the method's ability to identify true regulatory relationships. The application to Alzheimer's disease relies on the biological relevance of the inferred networks.
+  - **Resolution test** Discuss the limitations of motif-based ground truth and how they may affect results. Consider validating a subset of predicted interactions against experimental data (e.g., ChIP-seq, perturbation experiments) or comparing against databases of known regulatory interactions. At minimum, acknowledge this limitation explicitly and discuss its implications for the biological claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that scMultiomeGRN identified "Alzheimer's disease-relevant regulatory network of SPI1 and RUNX1 for microglia" is presented as a key application.
+  - **Evidence pointer** Results section, "scMultiomeGRN identify disease-relevant GRNs in microglia"; Figure 6
+  - **Concern** The text states that SPI1 and RUNX1 regulatory interactions increase in AD samples and that this is consistent with previous findings. However, the analysis appears to be descriptive. The text does not describe how significance was determined, whether the observed changes exceed what would be expected by chance, or how the specific TFs were selected for detailed analysis. The connection to AD genetics is based on a previous study, but the novelty of the current finding is unclear.
+  - **Why it matters** The disease application is likely to be of interest to a broad audience. If the findings are not rigorously supported, the broader impact of the work is diminished. The claim of identifying "disease-relevant" networks requires stronger evidence.
+  - **Resolution test** Provide statistical analysis of the differences between normal and AD networks, including appropriate significance testing. Clarify the criteria for selecting the top 20 core TFs. Discuss what is novel about the AD findings relative to previous work.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The robustness analysis using synthetic datasets with masked positive samples is described as demonstrating the model's ability to recover missing information.
+  - **Evidence pointer** Results section, "Performance evaluation of scMultiomeGRN"; Figure 2D-E
+  - **Concern** The text states that the model "recovered masked positive samples" but does not provide quantitative results for this recovery. The description of the masking procedure is incomplete, including what proportions were tested, how many replicates were performed, and what metrics were used to assess recovery. The claim of "high consistency" is not supported by specific data.
+  - **Why it matters** Robustness to missing data is an important property for a method applied to sparse single-cell data. Without quantitative evidence, this claim cannot be evaluated.
+  - **Resolution test** Provide quantitative results for the masking experiments, including the proportions tested, the metrics used, and the performance at each level of masking. Include appropriate statistical analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Datasets and preprocessing"
+  - **Evidence pointer** Text description
+  - **Issue** The text states "we used the following three standard ChIP-seq data for model testing" but only two datasets are subsequently described. The third dataset is not identified.
+  - **Required correction** Clarify which three datasets are used, or correct the statement to reflect the actual number of datasets.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Performance evaluation of scMultiomeGRN"
+  - **Evidence pointer** Figure 2C
+  - **Issue** The text reports KL divergence values comparing scMultiomeGRN to other methods but does not explain what the KL divergence measures in this context or why higher values indicate better discrimination between known and unknown networks.
+  - **Required correction** Provide a clear explanation of the KL divergence metric and its interpretation in the context of this evaluation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "scMultiomeGRN identify disease-relevant GRNs in microglia"
+  - **Evidence pointer** Figure 6
+  - **Issue** The text mentions "violin plots of SPI1 and RUNX1 motif variability" but does not explain what "motif variability" means or how it was calculated.
+  - **Required correction** Define "motif variability" and describe how it was computed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Text description
+  - **Issue** The sentence "the cross-modal attention layer is used to add an attention mechanism when combining modal features to learn non-Correlation between linear modes" contains unclear phrasing and appears to contain a typo.
+  - **Required correction** Revise for clarity and correct the apparent typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Training details"
+  - **Evidence pointer** Text description
+  - **Issue** The text specifies the PyTorch version and maximum iterations but does not specify the hardware used, training time, or computational resources required.
+  - **Required correction** Provide details on computational resources and training time to help readers assess practical usability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical analysis for performance comparisons), R1-M2 (incomplete model specification), R1-M3 (unvalidated ground truth network)
+- **Assessment against Nature-style criteria** Originality: The combination of modality-specific aggregation and cross-modal attention for GRN inference from single-cell multi-omics is a reasonable incremental advance, though the individual components are established techniques. Scientific importance: The problem of integrating single-cell modalities for regulatory network inference is important, but the current evidence does not clearly demonstrate a substantial advance over existing methods. Interdisciplinary readership: The topic is of interest to computational biologists and potentially to neuroscientists given the AD application, but the presentation is likely too technical for a broad interdisciplinary audience. Technical soundness: The technical details are insufficiently specified to fully assess soundness, and the statistical analysis is inadequate. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with both deep learning and single-cell genomics; the abstract is accessible but the methods would be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of superior performance and biological relevance require additional statistical analysis, methodological detail, and validation. The approach is potentially interesting, but the manuscript in its current form does not provide sufficient evidence to support its claims.
+
+## Risk / unsupported claims
+- The claim that scMultiomeGRN "outperforms state-of-the-art models" is unsupported without statistical significance testing and variance reporting.
+- The claim of identifying "Alzheimer's disease-relevant regulatory network of SPI1 and RUNX1" is not fully supported by the descriptive analysis presented.
+- The claim that the model demonstrates "high consistency" in robustness testing is unsupported without quantitative results.
+- The biological validity of the inferred GRNs is unverified, as the ground truth is based on computational motif predictions.
+- The statement about "three standard ChIP-seq data" is inconsistent with the two datasets described.

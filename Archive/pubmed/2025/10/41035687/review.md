@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figures, tables, and supplemental information descriptions.
+- **Assessment boundary** Technical soundness, reproducibility, and validity of claims regarding efficiency improvements, model correctness, and downstream task performance of the ESME implementation.
+- **Shared manuscript claim summary** The authors present an efficient reimplementation of ESM protein language models, termed ESME, integrating FlashAttention, sequence packing, quantization, activation checkpointing, and ZeRO-Offload. They report 4–9× faster inference, 3–14× lower memory usage, 6-fold faster training, and state-of-the-art performance on downstream tasks including variant effect prediction, melting point prediction, and transcription factor identification.
+- **Visible evidence base** Main text figures (Figures 1–5), tables referenced in text (Tables S1–S12), and methodological descriptions in STAR Methods.
+- **Missing materials affecting confidence** Raw benchmark data, hyperparameter configurations, training curves, and detailed ablation results are not fully provided. The manuscript does not include a full methods section for all downstream task setups, and the code repository is referenced but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: reducing the computational barrier for using large protein language models. The integration of established efficiency techniques into a unified implementation is practical and likely useful to the community. However, the novelty is limited, as the individual techniques are well-known in the NLP literature. The main contribution appears to be the engineering effort and benchmarking. The claims of state-of-the-art performance on downstream tasks are not fully supported by the evidence presented, and several technical details are missing that would be necessary for reproducibility.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and machine learning researchers working with protein sequences. The implementation could lower the barrier for academic labs with limited GPU resources to use large PLMs, making the work relevant to a broad audience in protein science and drug discovery.
+- **Major strengths** The work addresses a real bottleneck in applying PLMs. The benchmarking across multiple model sizes and tasks is comprehensive. The validation of the reimplementation via pseudo-perplexity and variant effect prediction is a good practice. The inclusion of multiple efficiency techniques in one package is practically valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ESME achieves 4–9× faster inference and 3–14× lower memory usage is presented as a headline result.
+  - **Evidence pointer** Figure 1, Tables S1 and S2
+  - **Concern** The reported speedups and memory reductions are not consistently defined. It is unclear whether these are measured for a single sequence, a batch, or across varying sequence lengths. The figures show trends, but the exact conditions (e.g., GPU type, batch size, sequence length distribution) are not fully specified. The comparison baseline is the original ESM implementation, but the original implementation may not be optimized, which could inflate the reported gains. A fair comparison against a well-tuned baseline is essential.
+  - **Why it matters** Without precise benchmarking conditions, the reported efficiency gains cannot be reproduced or compared with other implementations. This undermines the core contribution of the paper.
+  - **Resolution test** Provide a detailed benchmark protocol, including exact hardware, software versions, batch sizes, sequence length distributions, and the number of runs. Report speedups and memory usage for a fixed set of representative sequence lengths and batch sizes. Compare against a state-of-the-art optimized baseline, not just the original ESM code.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that ESME achieves state-of-the-art performance on melting point prediction (70% Spearman) and transcription factor identification (87% AU-PRC).
+  - **Evidence pointer** Figures 4 and 5, Tables S7–S11
+  - **Concern** The downstream task setups are not described in sufficient detail. For melting point prediction, the training/validation/test split, the number of proteins, and the exact fine-tuning protocol are not fully specified. For transcription factor prediction, the construction of the positive and negative sets, the threshold for calling a protein a TF, and the evaluation protocol are not fully described. The comparison to DeepTFactor is mentioned, but the exact comparison conditions are unclear.
+  - **Why it matters** Without a clear description of the experimental setup, the reported performance numbers cannot be verified or compared with existing benchmarks. This is critical for establishing the validity of the state-of-the-art claims.
+  - **Resolution test** Provide a complete description of the data splits, hyperparameters, and evaluation metrics for each downstream task. Include the number of training and test samples, and describe the baseline comparison protocol in detail. Make the fine-tuning code and configuration files publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the reimplementation accurately replicates the original models, validated by pseudo-perplexity and variant effect prediction.
+  - **Evidence pointer** Figure 2, Tables S3 and S4
+  - **Concern** The pseudo-perplexity comparison is performed on only 500 randomly sampled human proteins. This is a small sample, and the variance across proteins is not reported. The MSE values are small, but it is unclear if these are statistically significant. For variant effect prediction, the comparison is made on 94 proteins, but the original models are used with truncation for sequences longer than 1024 residues, while the ESME models use the full sequence. This difference in input handling could confound the comparison.
+  - **Why it matters** The validation of the reimplementation is a key claim. If the comparison is not rigorous, the correctness of the implementation is not established.
+  - **Resolution test** Increase the number of proteins for pseudo-perplexity evaluation and report confidence intervals. For variant effect prediction, compare the original and ESME models under identical input conditions (e.g., both truncated or both full-length) to isolate the effect of the implementation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the techniques are generalizable and will be utilized in training the next generation of PLMs.
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not demonstrate the generalizability of the techniques beyond the ESM family. The efficiency gains are shown for ESM models, but it is unclear if the same techniques would work for other PLM architectures, such as those with different attention mechanisms or model structures. The claim of generalizability is speculative.
+  - **Why it matters** The broader impact of the work depends on its applicability to other models. Without evidence, this claim is not supported.
+  - **Resolution test** Apply the efficiency techniques to at least one other PLM architecture and show similar gains. Alternatively, temper the claim to be specific to the ESM family.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Summary section
+  - **Issue** The abstract states "4–9× faster inference and 3–14× lower memory usage" but does not specify the model size or sequence length for which these numbers are representative. This could be misleading.
+  - **Required correction** Specify the range of model sizes and sequence lengths for which these numbers are reported, or state that they are representative across the tested range.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Data and code availability section
+  - **Issue** The code is available on GitHub, but the manuscript does not specify the version or commit hash. This makes it difficult to reproduce the exact results.
+  - **Required correction** Provide a specific version or commit hash for the code used in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Quantization analysis
+  - **Evidence pointer** Figure 1C, Figure S6
+  - **Issue** The analysis of quantization is limited to memory usage and runtime. The impact of quantization on model accuracy is only briefly mentioned for variant effect prediction. A more thorough analysis of the accuracy-runtime trade-off would be valuable.
+  - **Required correction** Include a more detailed analysis of the accuracy impact of quantization across different model sizes and tasks.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3A
+  - **Issue** The figure shows memory usage for different optimization techniques, but the y-axis scale is not clear. It is difficult to read the exact values.
+  - **Required correction** Use a clearer scale or add labels to the y-axis to make the values readable.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is an engineering contribution that combines existing techniques. The individual techniques are not novel, but the integration and benchmarking for protein models is useful. The originality is moderate.
+  - **Scientific importance** The problem of computational efficiency is important for the field. The work could have a practical impact by making large PLMs more accessible. However, the scientific importance is limited by the lack of new biological insights or methodological advances.
+  - **Interdisciplinary readership** The work is relevant to computational biology, bioinformatics, and machine learning. The writing is generally accessible, but the technical details may be challenging for non-specialists.
+  - **Technical soundness** The technical soundness is questionable due to the lack of detailed benchmarking conditions and incomplete descriptions of downstream task setups. The validation of the reimplementation is not fully rigorous.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, but the abstract and results sections could be clearer for a general audience. The methods section is dense and assumes familiarity with the techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of efficiency gains and state-of-the-art performance are not fully supported due to missing details and potential confounds. The work has potential, but significant revisions and additional experiments are needed.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art" performance on melting point and transcription factor prediction is not fully supported without a detailed comparison to existing methods under identical conditions.
+- The claim of "4–9× faster inference and 3–14× lower memory usage" is not reproducible without a precise benchmark protocol.
+- The claim that the techniques are "generalizable" to other PLM architectures is speculative and not demonstrated.
+- The claim that the reimplementation "accurately replicates" the original models is based on a small sample and a potentially confounded comparison for variant effect prediction.

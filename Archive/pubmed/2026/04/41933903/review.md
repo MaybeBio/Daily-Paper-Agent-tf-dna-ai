@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or simulation details
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to study how the multidomain structure of TDP-43 (IDR, RRMs, NTD) and RNA (polyA) modulate intermolecular interactions and viscoelastic properties of biomolecular condensates. They report that IDR interactions dominate, RRM2 increases packing while NTD decreases it, RNA binding replaces some TDP-43 interactions with TDP-43-polyA contacts, and that RRMs enhance viscosity while NTD reduces it, with polyA increasing elasticity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, force field details, system compositions, analysis methods, validation of condensate formation, quantitative data supporting viscoelastic claims, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in the biology of biomolecular condensates. The findings are plausible and align with emerging themes in the field, but the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the robustness of the conclusions, or the quantitative basis for the viscoelastic claims. The work could be of interest to the biophysics and phase separation community, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, RNA-binding proteins, and neurodegenerative disease mechanisms involving TDP-43. The work may also appeal to computational biophysicists interested in coarse-grained or atomistic simulations of multivalent protein-RNA systems and to experimentalists seeking mechanistic hypotheses for condensate material properties.
+- **Major strengths** The study addresses a timely and important question about how multidomain architecture and RNA modulate condensate properties. The systematic comparison of domain constructs (IDR alone versus IDR with RRMs and NTD) is a logical approach. The focus on viscoelastic properties, rather than only phase behavior, adds functional relevance. The finding that RNA can shift interaction networks and alter the balance of viscosity and elasticity is mechanistically interesting.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations reveal how TDP-43 multidomain structure and RNA interactions modulate condensate viscoelastic properties.
+  - **Evidence pointer** Abstract only; no methods or figures provided
+  - **Concern** The abstract provides no information about the simulation methodology, including the resolution of the model (atomistic versus coarse-grained), force field parameters, system size, simulation timescales, or how condensate formation was achieved and verified. Without this information, the technical validity of the simulations cannot be assessed.
+  - **Why it matters** The conclusions about packing, viscosity, and elasticity depend critically on the simulation approach. Coarse-grained models may not capture the specific residue-level interactions claimed (e.g., R268-F276), while atomistic simulations of condensates are computationally challenging and may suffer from limited sampling. The absence of methodological detail prevents evaluation of whether the simulations are adequate to support the claims.
+  - **Resolution test** Provide a detailed methods section describing the simulation model, force field, system construction, equilibration, production run lengths, and validation of condensate formation (e.g., density profiles, cluster analysis). Show that the simulations are converged and that the reported properties are robust to system size and initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that RRM2 increases condensate packing, NTD decreases it, RRMs enhance viscosity, NTD reduces viscosity, and polyA increases elasticity.
+  - **Evidence pointer** Abstract only; no quantitative data provided
+  - **Concern** The abstract reports qualitative directional effects (increase, decrease, enhance, reduce) without any quantitative values, error bars, or statistical comparisons. It is unclear whether these effects are large, small, or within noise. The claim that viscosity and elasticity become "comparable in magnitude" in the presence of polyA is not supported by any numbers.
+  - **Why it matters** The central conclusions of the paper are about the magnitude and direction of changes in material properties. Without quantitative data, the reader cannot judge the significance or robustness of these effects, nor compare them across conditions.
+  - **Resolution test** Provide quantitative values for packing density, viscosity, and elasticity for each domain construct with and without RNA, including measures of uncertainty (e.g., standard errors, confidence intervals) and appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors suggest that their findings have implications for how TDP-43 multidomain structure and RNA interactions orchestrate condensate organization in cellular contexts.
+  - **Evidence pointer** Abstract only; no connection to cellular or experimental data
+  - **Concern** The abstract does not discuss how the simulation conditions relate to physiological contexts, such as salt concentration, temperature, RNA length, or TDP-43 concentration. The use of polyA as a model RNA is mentioned, but the relevance to endogenous RNA species is not addressed.
+  - **Why it matters** The biological interpretation of the results depends on whether the simulated conditions are representative of cellular environments. If the conditions are far from physiological, the conclusions may not translate to real condensates.
+  - **Resolution test** Discuss the choice of simulation conditions in relation to known cellular parameters, and ideally validate key predictions with experimental data (e.g., rheology, FRAP, or microscopy) or clearly state the limitations of the model.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "viscoelastic properties"
+  - **Issue** The abstract uses "viscoelastic properties" but does not define whether viscosity and elasticity are computed from stress relaxation, shear modulus, or other rheological measures.
+  - **Required correction** Specify the rheological quantities computed and the method used to extract them from the simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Domain construct description
+  - **Evidence pointer** Abstract, "all domain constructs"
+  - **Issue** The abstract mentions "all domain constructs" but does not enumerate them. It is unclear which combinations of IDR, RRM1, RRM2, and NTD were simulated.
+  - **Required correction** List the specific constructs studied (e.g., IDR alone, IDR-RRM1-RRM2, full-length) in the abstract or refer to a figure that defines them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Residue range R268-F276
+  - **Evidence pointer** Abstract, "particularly around residues R268-F276"
+  - **Issue** The abstract highlights a specific residue range but does not explain why this region is significant or how it was identified.
+  - **Required correction** Provide context for the importance of this region (e.g., known functional role, conservation) or clarify that it is a simulation-derived observation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology not described), R1-M2 (no quantitative data or statistical support)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of how multidomain architecture and RNA modulate condensate viscoelasticity is not entirely new, but the specific focus on TDP-43 with its IDR, RRMs, and NTD is a reasonable contribution. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: The topic is of high importance given the role of TDP-43 in ALS/FTD and the general interest in condensate material properties. However, the abstract does not establish the broader significance beyond the specific system.
+  - Interdisciplinary readership: The work bridges molecular biophysics, computational biology, and cell biology, and could appeal to a broad readership if the findings are robust and clearly presented.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses domain-specific terms (e.g., RRM, NTD, viscoelasticity) without brief definitions, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the lack of methodological detail and quantitative support prevents a definitive assessment. I would be supportive if the full manuscript provides rigorous simulation details, validation, and quantitative results that substantiate the claims.
+
+## Risk / unsupported claims
+- The claim that IDR interactions are dominant in all domain constructs, particularly around R268-F276, is unsupported without interaction energy or contact frequency data.
+- The directional effects of RRM2 and NTD on packing, and of RRMs and NTD on viscosity, are unsupported without quantitative values.
+- The claim that polyA increases elasticity and makes viscosity and elasticity comparable is unsupported without numerical data.
+- The broader implication that these findings "orchestrate condensate organization" in cellular contexts is an extrapolation not supported by the abstract alone.

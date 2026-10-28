@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Sculptor, a deep generative algorithm for designing de novo epitope-specific binding proteins. The method jointly searches over positions, interactions, and generated conformations of a fold, using molecular dynamics to capture conformational landscapes. Sequences are designed via a residue-wise interaction database, a convolutional sequence design module, and Rosetta. The authors report successful design of a multi-toxin binder against a conserved venom toxin epitope from a small naïve library.
+- **Visible evidence base** Abstract text only; no experimental or computational results, figures, tables, or methods details
+- **Missing materials affecting confidence** Full manuscript, methods description, all figures and tables, experimental validation data, library construction details, binding assay results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful approach to de novo binding protein design, addressing a recognized limitation in the field by incorporating conformational dynamics. However, the evidence base is restricted to the abstract, which contains no quantitative results, no validation details, and no methodological specifics. The central claims of successful binder design and multi-toxin neutralization cannot be assessed from the supplied material. The conceptual framework is interesting, but the case is not established without access to the underlying data.
+- **Who would be interested in the results, and why** Researchers in computational protein design, deep generative modeling for biomolecules, and therapeutic antibody engineering would find this work relevant. The potential to generate epitope-specific binders without large libraries or immunization could appeal to those seeking rapid, generalizable design pipelines. The application to venom toxin neutralization may interest toxinology and infectious disease researchers.
+- **Major strengths** The abstract articulates a clear unmet need in protein design, namely the challenge of capturing loop dynamics and searching conformational space. The proposed integration of molecular dynamics with deep generative modeling is conceptually novel and addresses a real gap. The reported outcome, a multi-toxin binder from a small naïve library, suggests potential practical utility if substantiated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Sculptor "can generate backbones tailor-fit to an epitope" and that they "obtain a multi-toxin binder from a small naïve library."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data on binder affinity, specificity, yield, or library size. No experimental validation details are given, such as binding assays, negative controls, or reproducibility. The claim of a "multi-toxin binder" is stated without supporting measurements or characterization.
+  - **Why it matters** Without quantitative evidence, the central functional claim cannot be evaluated. The field requires demonstrated binding affinity, specificity against off-targets, and statistical confidence in the design success rate to assess whether the method works as described.
+  - **Resolution test** Provide binding affinity values (e.g., KD), specificity data against non-target toxins, library screening statistics, and replicate experiments in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that the algorithm "constitutes a joint search over the positions, interactions, and generated conformations of a fold" and uses "a residue-wise interaction database, a convolutional sequence design module, and Rosetta."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract lacks any description of the algorithm's architecture, training data, hyperparameters, or computational cost. The "residue-wise interaction database" and "convolutional sequence design module" are named but not defined. No comparison to existing methods is provided.
+  - **Why it matters** Reproducibility and benchmarking are essential for a computational method. Without methodological details, readers cannot assess novelty relative to prior work or evaluate the approach's generalizability.
+  - **Resolution test** Include a full methods section with algorithm pseudocode, training details, data sources, and benchmark comparisons against established design tools.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that "a model trained on such dense conformational data can generate backbones tailor-fit to an epitope."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No evidence is presented that the generated backbones are structurally accurate, that the conformational sampling from molecular dynamics is sufficient, or that the designed sequences fold to the intended structures. The link between conformational data and functional success is asserted but not demonstrated.
+  - **Why it matters** The core innovation is the use of conformational dynamics. Without structural validation (e.g., experimental structures, biophysical characterization, or computational folding predictions), the claim that dynamics improve design remains unsupported.
+  - **Resolution test** Provide structural validation of designed binders, such as crystal structures, cryo-EM, or circular dichroism, and show that designs based on static structures fail where Sculptor succeeds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "latent conformation optimization" in the title is not defined or explained in the abstract.
+  - **Required correction** Define the term in the abstract or introduction to clarify the methodological contribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate Sculptor relative to existing deep generative protein design methods, such as those based on diffusion models or autoregressive approaches.
+  - **Required correction** Add a sentence in the abstract or introduction that explicitly differentiates Sculptor from prior methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Application description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The venom toxin epitope is described as "conserved" and "implicated in neuromuscular paralysis," but the specific toxin family or target is not named.
+  - **Required correction** Specify the toxin target and the epitope sequence or structure to enable assessment of biological relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, methodological detail, and structural validation means the central claims are not currently supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using molecular dynamics-derived conformational ensembles in a deep generative framework for epitope-specific design appears novel, but the abstract does not provide enough detail to confirm distinctiveness from prior work.
+  - Scientific importance: If validated, the approach could address a significant challenge in de novo binder design, with potential therapeutic applications. However, importance is contingent on demonstrated success.
+  - Interdisciplinary readership: The work bridges machine learning, biophysics, and protein engineering, which could attract a broad audience. The abstract is accessible but lacks technical depth for specialists.
+  - Technical soundness: Not assessable from the abstract. No algorithmic details, validation metrics, or statistical analyses are provided.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "residue-wise interaction database" and "convolutional sequence design module" are not explained, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising, and the authors should be encouraged to resubmit with full data. The recommendation would become supportive if the technical concerns are resolved with quantitative validation and methodological transparency.
+
+## Risk / unsupported claims
+- The claim of successful generation of epitope-specific binders is unsupported without binding affinity or functional assay data.
+- The claim of a "multi-toxin binder" is unsupported without specificity and cross-reactivity data.
+- The claim that conformational dynamics improve design outcomes is unsupported without comparative studies against static-structure-based methods.
+- The generalizability of Sculptor to arbitrary epitopes is not assessable from the abstract.
+- The novelty of the method relative to existing deep generative design tools is not assessable without a methods section and literature comparison.

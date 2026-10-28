@@ -1,0 +1,178 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-l3gpw",
+  "title": "Predicting the binding sites of alkali atoms on transition metal dichalcogenides with a machine learning model based on electrostatics",
+  "doi": "10.26434/chemrxiv-2025-l3gpw",
+  "abstract": "Finding stable binding sites of alkali metal ions on two-dimensional transition metal dichalcogenides (TMDs) is crucial for predicting and engineering the usage of these materials in batteries and optoelectronic devices. However, conventional approaches using density functional theory (DFT), where the energies of the intercalated layers are analyzed upon sequential addition of each ion, face significant challenges due to the substantial number of calculations involved. Alternatively, one can employ point charge analysis to predict the most favorable binding sites. In this study, we first show that such analyses cannot be extended to arbitrary concentration of intercalated ions. Furthermore, we compare the DFT derived energies and electrostatic energies based on nearest neighbors and show that while it improves upon the direct point charge predictions, the correlation is still limited to certain concentrations. Finally, we develop a machine learning-based ranking model employing the electrostatic energies as predictive features. This model demonstrates high accuracy in predicting the ordering of the energies of different binding sites across a diverse range of alkali metal ion concentrations and types, as well as various sizes and types of TMDs.",
+  "authors": [
+    "Raheel Hammad",
+    "Soumya Ghosh"
+  ],
+  "published_date": "2025-02-26",
+  "updated_date": "2025-02-26T04:31:56Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-l3gpw",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-l3gpw",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:20:55Z",
+        "timestamp": 1778754055854,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            26
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                26
+              ]
+            ],
+            "date-time": "2025-02-26T00:00:00Z",
+            "timestamp": 1740528000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Finding stable binding sites of alkali metal ions on two-dimensional transition metal dichalcogenides (TMDs) is crucial for predicting and engineering the usage of these materials in batteries and optoelectronic devices. However, conventional approaches using density functional theory (DFT), where the energies of the intercalated layers are analyzed upon sequential addition of each ion, face significant challenges due to the substantial number of calculations involved. Alternatively, one can employ point charge analysis to predict the most favorable binding sites. In this study, we first show that such analyses cannot be extended to arbitrary concentration of intercalated ions. Furthermore, we compare the DFT derived energies and electrostatic energies based on nearest neighbors and show that while it improves upon the direct point charge predictions, the correlation is still limited to certain concentrations. Finally, we develop a machine learning-based ranking model employing the electrostatic energies as predictive features. This model demonstrates high accuracy in predicting the ordering of the energies of different binding sites across a diverse range of alkali metal ion concentrations and types, as well as various sizes and types of TMDs.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-l3gpw",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2025-02-26T04:31:56Z",
+        "timestamp": 1740544316000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Predicting the binding sites of alkali atoms on transition metal dichalcogenides with a machine learning model based on electrostatics"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-3423-6386",
+          "authenticated-orcid": false,
+          "given": "Raheel",
+          "family": "Hammad",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "TIFR"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Soumya",
+          "family": "Ghosh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TIFR"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-l3gpw",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:40:45Z",
+        "timestamp": 1778751645000
+      },
+      "score": 102.94625,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-l3gpw"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            26
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-l3gpw",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

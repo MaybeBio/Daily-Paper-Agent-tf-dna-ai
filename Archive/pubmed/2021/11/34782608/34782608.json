@@ -1,0 +1,463 @@
+{
+  "identity": {
+    "pmid": "34782608",
+    "doi": "10.1038/s41467-021-26913-5",
+    "title": "Structural basis of the regulation of the normal and oncogenic methylation of nucleosomal histone H3 Lys36 by NSD2."
+  },
+  "content": {
+    "abstract": "Dimethylated histone H3 Lys36 (H3K36me2) regulates gene expression, and aberrant H3K36me2 upregulation, resulting from either the overexpression or point mutation of the dimethyltransferase NSD2, is found in various cancers. Here we report the cryo-electron microscopy structure of NSD2 bound to the nucleosome. Nucleosomal DNA is partially unwrapped, facilitating NSD2 access to H3K36. NSD2 interacts with DNA and H2A along with H3. The NSD2 autoinhibitory loop changes its conformation upon nucleosome binding to accommodate H3 in its substrate-binding cleft. Kinetic analysis revealed that two oncogenic mutations, E1099K and T1150A, increase NSD2 catalytic turnover. Molecular dynamics simulations suggested that in both mutants, the autoinhibitory loop adopts an open state that can accommodate H3 more often than the wild-type. We propose that E1099K and T1150A destabilize the interactions that keep the autoinhibitory loop closed, thereby enhancing catalytic turnover. Our analyses guide the development of specific inhibitors of NSD2.",
+    "keywords": [],
+    "mesh_terms": [
+      "Carcinogenesis/*genetics/*metabolism",
+      "Cryoelectron Microscopy",
+      "*DNA Methylation",
+      "Epigenomics",
+      "Histone-Lysine N-Methyltransferase/chemistry/genetics/*metabolism",
+      "Histones/chemistry/genetics/*metabolism",
+      "Humans",
+      "Kinetics",
+      "Methylation",
+      "Molecular Dynamics Simulation",
+      "Neoplasms/genetics/metabolism",
+      "Oncogenes",
+      "Repressor Proteins/chemistry/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sato, Ko",
+        "Kumar, Amarjeet",
+        "Hamada, Keisuke",
+        "Okada, Chikako",
+        "Oguni, Asako",
+        "Machiyama, Ayumi",
+        "Sakuraba, Shun",
+        "Nishizawa, Tomohiro",
+        "Nureki, Osamu",
+        "Kono, Hidetoshi",
+        "Ogata, Kazuhiro",
+        "Sengoku, Toru"
+      ],
+      "short_names": [
+        "Sato K",
+        "Kumar A",
+        "Hamada K",
+        "Okada C",
+        "Oguni A",
+        "Machiyama A",
+        "Sakuraba S",
+        "Nishizawa T",
+        "Nureki O",
+        "Kono H",
+        "Ogata K",
+        "Sengoku T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7740-9881",
+        "ORCID: 0000-0001-5768-2389",
+        "ORCID: 0000-0001-7463-8398",
+        "ORCID: 0000-0003-1813-7008",
+        "ORCID: 0000-0001-5729-8707",
+        "ORCID: 0000-0001-9461-8714"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan.",
+        "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan.",
+        "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa, 230-0045, Japan.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan.",
+        "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan. ogata@yokohama-cu.ac.jp.",
+        "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan. tsengoku@yokohama-cu.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sato, Ko",
+        "short_name": "Sato K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan."
+        ]
+      },
+      {
+        "full_name": "Kumar, Amarjeet",
+        "short_name": "Kumar A",
+        "identifiers": [
+          "0000-0001-7740-9881"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Hamada, Keisuke",
+        "short_name": "Hamada K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan."
+        ]
+      },
+      {
+        "full_name": "Okada, Chikako",
+        "short_name": "Okada C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan."
+        ]
+      },
+      {
+        "full_name": "Oguni, Asako",
+        "short_name": "Oguni A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan."
+        ]
+      },
+      {
+        "full_name": "Machiyama, Ayumi",
+        "short_name": "Machiyama A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakuraba, Shun",
+        "short_name": "Sakuraba S",
+        "identifiers": [
+          "0000-0001-5768-2389"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishizawa, Tomohiro",
+        "short_name": "Nishizawa T",
+        "identifiers": [
+          "0000-0001-7463-8398"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan.",
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Nureki, Osamu",
+        "short_name": "Nureki O",
+        "identifiers": [
+          "0000-0003-1813-7008"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Kono, Hidetoshi",
+        "short_name": "Kono H",
+        "identifiers": [
+          "0000-0001-5729-8707"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, 8-1-7 Umemidai, Kizugawa, Kyoto, 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Ogata, Kazuhiro",
+        "short_name": "Ogata K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan. ogata@yokohama-cu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Sengoku, Toru",
+        "short_name": "Sengoku T",
+        "identifiers": [
+          "0000-0001-9461-8714"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama, Kanagawa, 236-0004, Japan. tsengoku@yokohama-cu.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Nov 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/17 06:00",
+    "fetched_at": "2026-09-28 01:55:23"
+  },
+  "links": {
+    "cites": [
+      "41995089",
+      "41760632",
+      "41301842",
+      "41051795",
+      "40770093",
+      "40683254",
+      "40523621",
+      "39656918",
+      "39644397",
+      "38965384",
+      "38851815",
+      "38519511",
+      "38516186",
+      "38371593",
+      "38286657",
+      "38076924",
+      "37578463",
+      "37445787",
+      "36232375",
+      "36105358",
+      "35581654",
+      "35419695",
+      "33769454"
+    ],
+    "refs": [
+      "33361816",
+      "32881101",
+      "32327602",
+      "31485078",
+      "31439846",
+      "30827843",
+      "30827841",
+      "30733384",
+      "30412051",
+      "29945974",
+      "29438829",
+      "29019976",
+      "28938122",
+      "28475873",
+      "28250466",
+      "28193767",
+      "28165473",
+      "27571355",
+      "27474439",
+      "27174990",
+      "26592709",
+      "26583988",
+      "26574453",
+      "26276557",
+      "26212454",
+      "25768909",
+      "25188243",
+      "24753421",
+      "24595546",
+      "24162739",
+      "24145436",
+      "24076604",
+      "23823660",
+      "22099308",
+      "21645855",
+      "21549310",
+      "21196496",
+      "20856692",
+      "20383002",
+      "20124702",
+      "19808676",
+      "19483677",
+      "17320507",
+      "15264254",
+      "15164071",
+      "11896389",
+      "9514715",
+      "8744570"
+    ],
+    "similar": [
+      "34782608",
+      "33361816",
+      "37150325",
+      "25494638",
+      "26912663",
+      "38851815",
+      "26787850",
+      "34555356",
+      "22099308",
+      "31248990",
+      "38709169",
+      "29945974",
+      "27183271",
+      "30171259",
+      "38923875",
+      "21196496",
+      "24019522",
+      "34671018",
+      "33211010",
+      "33621919",
+      "22869745",
+      "33619101",
+      "27164560",
+      "36232375",
+      "30334333",
+      "33574035",
+      "19481544",
+      "27604143",
+      "26272979",
+      "37807669",
+      "37756162",
+      "34782742",
+      "34271259",
+      "35341929",
+      "35581654",
+      "39390582",
+      "31306746",
+      "25188243",
+      "31217297",
+      "30066931",
+      "32169559",
+      "19808676",
+      "30923167",
+      "24595546",
+      "16519522",
+      "35736136",
+      "33742125",
+      "24076604",
+      "22212475",
+      "22645312",
+      "29728617",
+      "20139424",
+      "32573059",
+      "28256625",
+      "31485071",
+      "25942451",
+      "36863225",
+      "30171150",
+      "32862441",
+      "16185068",
+      "27229140",
+      "33976366",
+      "33823156",
+      "21549310",
+      "31804488",
+      "33589584",
+      "23823660",
+      "22923582",
+      "25402979",
+      "33602783",
+      "20946879",
+      "34147909",
+      "31526565",
+      "23339652",
+      "21293379",
+      "18172012",
+      "33536620",
+      "31255706",
+      "19155214",
+      "27474439",
+      "38687638",
+      "35389552",
+      "23557258",
+      "36189577",
+      "21248841",
+      "23269674",
+      "34417224",
+      "16497704",
+      "28933651",
+      "12514135",
+      "23980095",
+      "21106533",
+      "32332049",
+      "39368466",
+      "30670815",
+      "39163297",
+      "35532818",
+      "30181289",
+      "30827843",
+      "21243713",
+      "28584923",
+      "21550984",
+      "12130538",
+      "15014946",
+      "31733991",
+      "21187428",
+      "35704853",
+      "15485804",
+      "37098340",
+      "20498280",
+      "38748070",
+      "38236723",
+      "33115801",
+      "36976643",
+      "30770869",
+      "38124661",
+      "37463241",
+      "38419783",
+      "26940890",
+      "37016431",
+      "39032837",
+      "38412693",
+      "37578463",
+      "37905045",
+      "38598835",
+      "34440470",
+      "38400589",
+      "38965384",
+      "37961297"
+    ],
+    "review": [
+      "34782608",
+      "36232375",
+      "35581654",
+      "25942451",
+      "36863225",
+      "25402979",
+      "21248841",
+      "35532818",
+      "21243713",
+      "33115801",
+      "37578463"
+    ],
+    "pmc": [
+      "8593083"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-26913-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34782608/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34782608",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

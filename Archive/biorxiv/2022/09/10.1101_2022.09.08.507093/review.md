@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report in vitro single-molecule visualization of CTCF and cohesin on DNA, concluding that CTCF blocks both diffusing and loop-extruding cohesin, acts asymmetrically, and that this function is DNA-tension-dependent. They further propose that CTCF actively regulates cohesin loop extrusion by changing direction and inducing loop shrinkage, and that TAD boundary permeability can be modulated by DNA tension.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, single-molecule assay details, statistical analyses, control experiments, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding CTCF function in loop extrusion, with claims that challenge the prevailing passive-barrier model. However, the evidence base is limited to the abstract, and several key claims are not verifiable without detailed methods and quantitative data. The tension-dependence claim is particularly novel but requires careful validation to exclude artifacts. The manuscript could be of high interest if the technical rigor matches the ambition of the claims.
+- **Who would be interested in the results, and why** Researchers in genome architecture, chromatin biology, and single-molecule biophysics. The findings could inform models of TAD formation and gene regulation, and would be of interest to those studying cohesinopathies and CTCF-related diseases.
+- **Major strengths** The study addresses a fundamental open question about CTCF's mechanism of action. The use of single-molecule visualization is appropriate for dissecting dynamic interactions. The claim of tension-dependent regulation is novel and could shift the field's conceptual framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CTCF is sufficient to block diffusing cohesin" and "to block loop-extruding cohesin"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that CTCF blocks both diffusing and loop-extruding cohesin, but no quantitative data (e.g., blocking efficiency, dwell times, or frequencies) are provided. It is unclear whether blocking is complete or partial, and whether the observed effects are specific to CTCF or could arise from non-specific DNA binding or steric effects.
+  - **Why it matters** Without quantitative measures and appropriate controls (e.g., mutant CTCF or non-specific protein), the claim that CTCF is sufficient for blocking cannot be rigorously evaluated. This is central to the paper's main conclusion.
+  - **Resolution test** Provide single-molecule trajectories with defined blocking probabilities, compare to a negative control protein, and show that a CTCF mutant lacking DNA-binding specificity fails to block.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CTCF functions asymmetrically, as predicted, but unexpectedly is dependent on DNA tension"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The tension-dependence claim is central and novel, but the abstract provides no details on how tension was applied, the range of tensions tested, or the quantitative relationship between tension and CTCF function. It is also unclear whether tension affects CTCF binding, cohesin translocation, or the interaction between the two.
+  - **Why it matters** If tension effects are not carefully controlled, they could reflect artifacts of the experimental setup (e.g., DNA stretching altering protein binding kinetics) rather than a physiological regulatory mechanism. This claim requires robust biophysical validation.
+  - **Resolution test** Show a dose-response curve of blocking efficiency versus DNA tension, include controls for tension-induced DNA structural changes, and demonstrate that the effect is reversible and specific to CTCF.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "CTCF is not, as previously assumed, simply a barrier to cohesin-mediated loop extrusion but is an active regulator of this process"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that CTCF actively regulates loop extrusion by changing direction and inducing loop shrinkage is a strong departure from the current model. However, the abstract does not describe how these effects were measured or distinguished from passive steric hindrance or stochastic events.
+  - **Why it matters** This claim reframes CTCF's role and has broad implications for understanding TAD dynamics. If not supported by direct observation of direction changes and shrinkage events with sufficient statistics, the conclusion is premature.
+  - **Resolution test** Provide representative kymographs or traces showing direction reversal and loop shrinkage, with statistical comparison to a no-CTCF control, and rule out alternative explanations such as cohesin stalling and restarting.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "diffusing cohesin" and "loop-extruding cohesin" without defining the distinction, which may confuse readers unfamiliar with single-molecule assays.
+  - **Required correction** Briefly define these two modes of cohesin behavior in the abstract or use more accessible phrasing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify whether the experiments used purified proteins, Xenopus extracts, or other systems, which is critical for interpreting physiological relevance.
+  - **Required correction** State the experimental system (e.g., purified human cohesin and CTCF on lambda DNA) in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract implies a general mechanism but does not address whether the tension-dependence is specific to the DNA substrate used or likely to apply in vivo.
+  - **Required correction** Add a sentence acknowledging potential limitations or stating that in vivo relevance remains to be tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The tension-dependent regulation of CTCF is a novel concept that could change the field's understanding.
+  - Scientific importance: High if validated, as it directly addresses TAD boundary permeability and loop extrusion regulation.
+  - Interdisciplinary readership: Moderate to high. The topic bridges biophysics and molecular biology, but the abstract may be too specialized for a broad audience.
+  - Technical soundness: Not assessable from the abstract. The claims require detailed single-molecule data and controls that are not visible.
+  - Readability for nonspecialists: Moderate. The abstract is concise but uses jargon without sufficient context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The claims are exciting but currently not established from the provided evidence. Full manuscript review is necessary to assess the rigor of the single-molecule experiments and the validity of the tension-dependence model.
+
+## Risk / unsupported claims
+- The claim that CTCF is sufficient to block cohesin in both diffusive and loop-extrusion modes is unsupported without quantitative data and controls.
+- The claim that CTCF function is DNA-tension-dependent is unsupported without details on tension application and dose-response data.
+- The claim that CTCF actively changes loop extrusion direction and induces loop shrinkage is unsupported without direct observation and statistical analysis.
+- The generalizability of the findings to in vivo TAD boundary regulation is not assessable from the abstract.

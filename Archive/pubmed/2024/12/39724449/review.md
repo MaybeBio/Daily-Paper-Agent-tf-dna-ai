@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report the identification of small-molecule inhibitors of the TSG101-UEV/PTAP interaction through a high-throughput screening campaign combining differential scanning fluorimetry and AlphaScreen assays, with subsequent validation in cell-based assays including bimolecular complementation, virus-like particle budding, and live virus infection models for HIV-1 and Ebola virus. They further provide computational docking analyses to propose binding modes at the PTAP site.
+- **Visible evidence base** Results section with Figures 1-7 and Tables 1-4 as referenced; Materials and Methods section; Supplementary figure and table references (Figures S1-S17, Tables S1-S4)
+- **Missing materials affecting confidence** Actual figures and tables are not provided; supplementary data files are not accessible; specific numerical data for IC50 values, Tm shifts, and statistical analyses are referenced but not visible; compound structures are not shown
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in antiviral drug discovery, targeting a host factor involved in the budding of multiple enveloped viruses. The experimental workflow combining biophysical screening with cell-based validation is logical and comprehensive. However, the absence of visible primary data, including actual figures and tables, limits the ability to fully assess the robustness of the claims. The correlation between in vitro binding inhibition and antiviral activity is incomplete, with only two compounds showing activity against live Ebola virus. The docking studies, while informative, are presented with limited validation. The manuscript would benefit from clearer presentation of quantitative results and a more critical discussion of the limitations of the current findings.
+- **Who would be interested in the results, and why** Researchers in antiviral drug discovery, particularly those focused on host-targeted broad-spectrum antivirals; structural biologists studying protein-protein interaction inhibitors; virologists investigating viral budding mechanisms and the ESCRT pathway. The identified compounds and the screening workflow would be of interest to medicinal chemists seeking starting points for lead optimization.
+- **Major strengths** The study addresses a challenging target with a well-designed screening cascade. The combination of DSF and AlphaScreen provides orthogonal validation of binding and competition. The inclusion of multiple cell-based assays, including live virus experiments for both HIV-1 and Ebola virus, strengthens the translational relevance. The computational docking provides structural hypotheses for the binding mode. The identification of compounds with activity against multiple virus families supports the broad-spectrum potential of this approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that "a set of chemically diverse molecules block TSG101-UEV/L-domain binding with IC50s in the low μM range" and that these compounds "disrupt the interaction between full-length TSG101 and viral proteins in human cells and inhibit viral replication."
+  - **Evidence pointer** Results section, Figures 2-5, Tables 2-3; location not provided for specific data points
+  - **Concern** The primary data supporting the key claims are not visible in the provided manuscript. The IC50 values, dose-response curves, statistical significance, and the relationship between in vitro potency and cellular activity cannot be independently assessed. The claim of "low μM" potency is made without specific numerical values being presented in the text. The antiviral activity data, particularly for Ebola virus, appear to be based on a limited number of compounds, and the extent of viral inhibition is not quantified in the text.
+  - **Why it matters** The central thesis of the manuscript rests on the identification of compounds with meaningful potency and efficacy. Without visible quantitative data, the reader cannot evaluate whether the observed effects are robust, reproducible, and within a range that justifies further development. The discrepancy between the number of compounds active in biochemical assays versus those showing antiviral activity needs clearer quantification.
+  - **Resolution test** Provide the actual figures and tables with complete dose-response curves, IC50 values with confidence intervals, statistical analyses, and the full dataset for antiviral assays including multiplicity of infection, time of treatment, and quantitative measures of viral inhibition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the active compounds exploit binding hotspots at the PTAG binding site, unlocking the full binding potential of the TSG101-UEV binding pockets" based on docking studies.
+  - **Evidence pointer** Results section, Figures 6-7, Table 4; location not provided
+  - **Concern** The docking studies are presented as supporting the binding mode, but the methodology and validation are not fully described. The claim of "unlocking the full binding potential" is speculative and not directly supported by experimental evidence. The docking results are based on a single crystal structure (4EJE) and the energy differences between poses are acknowledged to be small and non-conclusive. The authors do not provide experimental validation of the proposed binding modes, such as mutagenesis studies or co-crystallization.
+  - **Why it matters** The structural interpretation is used to explain the activity of the compounds and to propose mechanisms for their potency. If the docking predictions are not validated, the mechanistic conclusions are weakened, and the proposed structure-activity relationships for future optimization are built on uncertain foundations.
+  - **Resolution test** Provide additional validation of the docking predictions, such as site-directed mutagenesis of key residues predicted to interact with the compounds, or biophysical characterization of the compound-UEV complex. Alternatively, temper the claims to reflect the hypothetical nature of the docking results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that "only the most potent ligands (low-μM IC50 values) showed activity in the BiMC assays" and that "UEV-10 and UEV-11 showed activity against Ebola virus."
+  - **Evidence pointer** Results section, Figures 3-5; location not provided
+  - **Concern** The relationship between biochemical potency, cellular activity, and antiviral efficacy is not systematically presented. The authors do not provide a clear comparison of the potencies across the different assays for each compound. The selectivity of the compounds for TSG101 over other ESCRT components or related UEV domains is not addressed. The potential off-target effects of the compounds are not discussed beyond basic cytotoxicity.
+  - **Why it matters** For a host-targeted antiviral approach, selectivity and a clear understanding of the structure-activity relationship across assays are critical. The lack of a systematic comparison limits the ability to prioritize compounds for further development and to understand the determinants of cellular activity.
+  - **Resolution test** Provide a comprehensive table comparing the activity of all compounds across the biochemical, BiMC, VLP, and antiviral assays, including selectivity data where available. Discuss the relationship between potency in different assays and the implications for compound optimization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction section
+  - **Issue** The abstract states that the compounds "inhibit viral replication" without specifying the viruses or the extent of inhibition. The introduction could more clearly distinguish between the roles of TSG101 in normal cellular function versus viral budding, to better contextualize the therapeutic window.
+  - **Required correction** Specify in the abstract which viruses were tested and the range of inhibition observed. Clarify in the introduction the potential consequences of TSG101 inhibition on normal cellular processes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Materials and Methods, DSF assay
+  - **Evidence pointer** Materials and Methods, "Differential scanning Fluorimetry assay" section
+  - **Issue** The DSF assay is described as being performed at a compound concentration of 800 μM, which is very high and may lead to non-specific effects. The rationale for this concentration and the solubility of compounds at this concentration are not discussed.
+  - **Required correction** Justify the use of 800 μM in the primary screen and discuss the potential for false positives due to non-specific protein stabilization or aggregation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, AlphaScreen assay
+  - **Evidence pointer** Results section, Figure 2, Table 2
+  - **Issue** The correlation between DSF Tm shifts and AlphaScreen IC50 values is described as "poor," but the actual data are not shown. The authors should present this comparison to support their statement.
+  - **Required correction** Include a scatter plot or table showing the relationship between ΔTm and IC50 for the confirmed hits.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, comparison with known inhibitors
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors mention structural similarities between their compounds and known antiviral agents (quinacrine, pyronaridine, lucanthone) but do not discuss whether these known compounds have been shown to interact with TSG101. This comparison could be misleading.
+  - **Required correction** Clarify whether the structural similarity implies a shared mechanism of action or is merely coincidental, and discuss the implications for the proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** The absence of visible primary data for the key claims is a critical failing. The manuscript cannot be fully evaluated without access to the figures and tables. The docking studies lack experimental validation. The relationship between biochemical activity and antiviral efficacy is not systematically quantified. The selectivity of the compounds for TSG101 over related proteins is not addressed.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic screening approach to a challenging target, though the concept of targeting TSG101 for antiviral development is not new. Scientific importance: The identification of drug-like inhibitors of TSG101-UEV with activity against multiple viruses is of potential importance for broad-spectrum antiviral development, but the current data are preliminary. Interdisciplinary readership: The work bridges virology, structural biology, and medicinal chemistry, and would appeal to a broad audience. Technical soundness: The experimental design is sound, but the lack of visible data and validation of computational predictions weakens the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with the ESCRT pathway and screening technologies.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question with a logical experimental approach. However, the absence of visible primary data and the incomplete validation of the computational predictions prevent full assessment of the claims. The authors should provide the complete dataset and strengthen the validation of the proposed binding modes before the case for druggability is fully established.
+
+## Risk / unsupported claims
+- The claim that the identified compounds "unlock the full binding potential of the TSG101-UEV binding pockets" is not supported by the visible evidence and is speculative.
+- The statement that the compounds "inhibit viral replication" is made without specific quantitative data on the extent of inhibition for each virus tested.
+- The suggestion that the compounds may also act against SARS-CoV-2 based on structural similarity to known inhibitors is speculative and not supported by experimental data in this manuscript.
+- The claim that the compounds are "valuable tools for investigating the involvement of ESCRT in the proliferation of different virus families" is reasonable but not directly demonstrated.
+- The assertion that the screening workflow is "efficient" is not fully supported by the visible data, as the hit rate and confirmation rates are not presented.

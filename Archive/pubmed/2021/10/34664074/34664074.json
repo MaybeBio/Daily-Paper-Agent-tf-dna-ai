@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "34664074",
+    "doi": "10.1093/bib/bbab445",
+    "title": "MAResNet: predicting transcription factor binding sites by combining multi-scale bottom-up and top-down attention and residual network."
+  },
+  "content": {
+    "abstract": "Accurate identification of transcription factor binding sites is of great significance in understanding gene expression, biological development and drug design. Although a variety of methods based on deep-learning models and large-scale data have been developed to predict transcription factor binding sites in DNA sequences, there is room for further improvement in prediction performance. In addition, effective interpretation of deep-learning models is greatly desirable. Here we present MAResNet, a new deep-learning method, for predicting transcription factor binding sites on 690 ChIP-seq datasets. More specifically, MAResNet combines the bottom-up and top-down attention mechanisms and a state-of-the-art feed-forward network (ResNet), which is constructed by stacking attention modules that generate attention-aware features. In particular, the multi-scale attention mechanism is utilized at the first stage to extract rich and representative sequence features. We further discuss the attention-aware features learned from different attention modules in accordance with the changes as the layers go deeper. The features learned by MAResNet are also visualized through the TMAP tool to illustrate that the method can extract the unique characteristics of transcription factor binding sites. The performance of MAResNet is extensively tested on 690 test subsets with an average AUC of 0.927, which is higher than that of the current state-of-the-art methods. Overall, this study provides a new and useful framework for the prediction of transcription factor binding sites by combining the funnel attention modules with the residual network.",
+    "keywords": [
+      "deep learning",
+      "multi-scale bottom-up and top-down attention",
+      "residual network",
+      "sequence analysis",
+      "transcription factor binding site"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Deep Learning",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Ke",
+        "Shen, Long-Chen",
+        "Zhu, Yi-Heng",
+        "Xu, Jian",
+        "Song, Jiangning",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Han K",
+        "Shen LC",
+        "Zhu YH",
+        "Xu J",
+        "Song J",
+        "Yu DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0045-4745",
+        "ORCID: 0000-0001-8031-9086",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China.",
+        "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, VIC 3800, Australia.",
+        "Monash Centre for Data Science, Faculty of Information Technology, Monash University, Melbourne, VIC 3800, Australia.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Ke",
+        "short_name": "Han K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Long-Chen",
+        "short_name": "Shen LC",
+        "identifiers": [
+          "0000-0002-0045-4745"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yi-Heng",
+        "short_name": "Zhu YH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jian",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jiangning",
+        "short_name": "Song J",
+        "identifiers": [
+          "0000-0001-8031-9086"
+        ],
+        "affiliations": [
+          "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, VIC 3800, Australia.",
+          "Monash Centre for Data Science, Faculty of Information Technology, Monash University, Melbourne, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/20 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "41152175",
+      "39640721",
+      "39623329",
+      "39124917",
+      "37508462"
+    ],
+    "refs": [
+      "34272562",
+      "34140507",
+      "34037796",
+      "34003870",
+      "33837387",
+      "33537753",
+      "33431043",
+      "32793956",
+      "31701148",
+      "31661923",
+      "31598637",
+      "31510640",
+      "31091308",
+      "30624619",
+      "30425802",
+      "30323198",
+      "29993783",
+      "29425488",
+      "29408627",
+      "29361215",
+      "29073372",
+      "28060704",
+      "27307608",
+      "27153639",
+      "27084946",
+      "26794315",
+      "26213851",
+      "25708928",
+      "25033408",
+      "23814189",
+      "20053844",
+      "20019064",
+      "16381825",
+      "15637633",
+      "11507185",
+      "9570129",
+      "2128034"
+    ],
+    "similar": [
+      "34664074",
+      "33837387",
+      "33522898",
+      "36935548",
+      "38733561",
+      "37328639",
+      "32960766",
+      "34272562",
+      "38319503",
+      "38236675",
+      "36748992",
+      "39350338",
+      "36155619",
+      "32770026",
+      "37598467",
+      "34073774",
+      "33137083",
+      "35471889",
+      "36049552",
+      "34752400",
+      "34929739",
+      "34534646",
+      "30835229",
+      "30808287",
+      "31634140",
+      "37723425",
+      "34571539",
+      "31372637",
+      "30922998",
+      "35263332",
+      "33372147",
+      "28245811",
+      "35652477",
+      "36094959",
+      "35189635",
+      "33496786",
+      "33272122",
+      "32976105",
+      "31521047",
+      "33538038",
+      "35945138",
+      "33334313",
+      "37815676",
+      "29993783",
+      "36067103",
+      "30106688",
+      "33780344",
+      "35883552",
+      "35666736",
+      "35709101",
+      "35462009",
+      "38732207",
+      "36398911",
+      "38049725",
+      "35872410",
+      "36694944",
+      "31336830",
+      "37028092",
+      "34781902",
+      "33594723",
+      "37215722",
+      "31856220",
+      "32572768",
+      "35525069",
+      "37100167",
+      "24042128",
+      "35768792",
+      "36532083",
+      "33740884",
+      "32635206",
+      "30866736",
+      "35471887",
+      "30323198",
+      "36653447",
+      "26818008",
+      "35163663",
+      "36478770",
+      "34962264",
+      "38349057",
+      "29722865",
+      "22115527",
+      "35200015",
+      "37845681",
+      "34613923",
+      "34882561",
+      "33007112",
+      "32599617",
+      "33767912",
+      "36064320",
+      "34524404",
+      "35719916",
+      "36146272",
+      "29990140",
+      "32501689",
+      "34559654",
+      "35217397",
+      "34627393",
+      "31521253",
+      "33808317",
+      "34034031",
+      "32808039",
+      "35136910",
+      "35671654",
+      "19956545",
+      "28234893",
+      "34312058",
+      "33522829",
+      "34073705",
+      "29084280",
+      "34637380",
+      "38630609",
+      "39154878",
+      "38886381",
+      "29081688",
+      "39174927",
+      "36588793",
+      "36374878",
+      "35618814",
+      "32905524",
+      "34971539",
+      "38007778",
+      "38734394",
+      "38796529",
+      "39001023",
+      "37401370",
+      "36305428",
+      "36999047"
+    ],
+    "review": [
+      "34664074",
+      "35652477"
+    ],
+    "pmc": [
+      "8769703"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34664074.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34664074/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34664074",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab445",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

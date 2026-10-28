@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce DeepMotifSyn, a deep learning tool that synthesizes heterodimeric DNA motifs from monomeric motif pairs. The tool comprises a U-Net-based generator and a machine learning-based evaluator. The authors claim that systematic evaluations on CAP-SELEX data show significant improvement over current state-of-the-art predictors, and that the tool can generate motifs with varied orientation and spacing settings, addressing limitations of previous models.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, dataset splits, or comparison details are provided
+- **Missing materials affecting confidence** Full manuscript, methods description, model architecture details, training and evaluation protocols, CAP-SELEX data processing steps, baseline definitions, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational tool for a relevant problem in gene regulation. However, the evidence provided is insufficient to evaluate the validity of the central claims. No quantitative results, methodological details, or comparison specifics are given. The claim of significant outperformance over state-of-the-art predictors is not verifiable from the supplied material. The tool's novelty relative to existing approaches is unclear, and the described architecture and evaluation strategy lack sufficient detail for assessment.
+- **Who would be interested in the results, and why** Researchers in computational biology, transcription factor biology, and gene regulation would be interested if the tool is validated. Specifically, those studying cooperative TF binding, cis-regulatory element prediction, and motif discovery could benefit from a reliable method to generate candidate heterodimeric motifs for experimental prioritization. The potential to reduce costly experimental validation of TF pairs is an appealing practical outcome.
+- **Major strengths** The problem addressed is relevant and timely, given the gap between experimentally identified heterodimeric motifs and the large number of inferred TF pairs. The proposed two-component design, separating generation from evaluation, is a reasonable conceptual framework. The stated ability to generate motifs with different orientation and spacing settings addresses a known limitation in prior models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DeepMotifSyn significantly outperforms current state-of-the-art predictors based on systematic evaluations on CAP-SELEX data.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, baseline names, statistical tests, or effect sizes. The phrase "significantly outperforms" is unsupported without any numerical evidence or description of the evaluation procedure.
+  - **Why it matters** The central claim of the manuscript is that the proposed method is superior to existing tools. Without any reported metrics or comparison details, the claim cannot be assessed, and the scientific contribution remains unverified.
+  - **Resolution test** Provide performance tables or figures comparing DeepMotifSyn against named baselines on the same CAP-SELEX test sets, including appropriate statistical significance measures and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The tool is described as a U-Net-based generator and a machine learning-based evaluator, but no architectural or training details are given.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the input representation, the alignment procedure for motif pairs, the training data construction, the loss functions, the hyperparameters, or the evaluator's feature set and model type. Without these details, the method cannot be reproduced or independently evaluated.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. The lack of methodological detail prevents other researchers from implementing or testing the approach, and it also prevents reviewers from assessing whether the design choices are sound.
+  - **Resolution test** Include a full methods section with model architecture diagrams, training procedures, data preprocessing steps, and code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The authors state that the ability to synthesize multiple heterodimeric motifs with different orientation and spacing settings addresses shortcomings of previous models.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No prior models are named, and no specific limitations of those models are described. It is unclear what exactly the previous models could not do and how DeepMotifSyn differs in its approach or capability.
+  - **Why it matters** The novelty claim is central to the manuscript's contribution. Without a clear comparison to existing methods and a description of their limitations, the incremental value of DeepMotifSyn cannot be established.
+  - **Resolution test** Provide a literature review of existing heterodimeric motif prediction tools, explicitly state their limitations, and demonstrate with examples how DeepMotifSyn overcomes them.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim the tool is "more practical and reliable" than current predictors for heterodimeric motif synthesis.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The evaluation is limited to CAP-SELEX data. It is unclear whether the model generalizes to other data types, other species, or unseen TF families. The claim of practicality and reliability extends beyond the described evaluation scope.
+  - **Why it matters** Overgeneralization from a single dataset undermines the credibility of the tool's broader applicability. The claim of reliability requires evidence of consistent performance across diverse conditions.
+  - **Resolution test** Include validation on independent datasets, cross-species tests, or at least a discussion of potential limitations and failure modes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "interaction patterns between TF binding motifs remain elusive" is vague. It is unclear what specific aspect of interaction patterns is being addressed.
+  - **Required correction** Specify the exact problem, such as predicting spacing, orientation, or sequence composition of cooperative binding sites.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The contact email is provided, but no mention is made of software availability, code repository, or web server access.
+  - **Required correction** State where the tool can be accessed, such as a GitHub repository or a web server URL.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "evaluator" description
+  - **Issue** The evaluator is described as "machine learning-based" without specifying the model type. This is too generic to be informative.
+  - **Required correction** Specify the model class, such as random forest, gradient boosting, or a neural network, and describe the input features.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, methodological detail, comparison to prior work, and generalizability evidence means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: The concept of synthesizing heterodimeric motifs from monomeric pairs is not entirely new, and the abstract does not clearly differentiate the approach from existing methods. Scientific importance: The problem is relevant, but the potential impact is not demonstrated without validation. Interdisciplinary readership: The abstract is accessible to computational biologists but lacks detail for experimental biologists to assess practical utility. Technical soundness: Cannot be evaluated from the abstract alone; no evidence of model performance or robustness is provided. Readability for nonspecialists: The abstract is generally clear but uses jargon such as "CAP-SELEX" and "heterodimeric motifs" without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of superior performance, novelty, or practical reliability. A full manuscript with detailed methods, quantitative results, and comparisons is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim of significant outperformance over state-of-the-art predictors is unsupported due to the absence of any quantitative results or comparison details.
+- The claim that DeepMotifSyn addresses shortcomings of previous models is unsupported because no prior models or their limitations are described.
+- The claim that the tool is "more practical and reliable" than current predictors is unsupported and extends beyond the described evaluation scope.
+- The generalizability of the tool beyond CAP-SELEX data is unassessable from the supplied material.

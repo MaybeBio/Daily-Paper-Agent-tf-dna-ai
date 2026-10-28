@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends.
+- **Assessment boundary** Scientific soundness, technical rigor, and support of claims based solely on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report biophysical and pharmacokinetic characterization of compound 7.44, a small-molecule inhibitor of RUNX1/ETO NHR2 tetramerization. They claim 7.44 destabilizes the NHR2 tetramer, increases dimer population, binds with micromolar affinity (Klig = 3.75 ± 1.22 µM), interacts via both heteroaromatic moieties at the NHR2 termini, and exhibits favorable drug-like properties.
+- **Visible evidence base** SEC, DSF, CD spectroscopy, MST, STD-NMR, 2D NMR, MD simulations, pKa determination, and in vitro ADME assays. Figures 1–8 and supplementary figures S1–S13 are referenced.
+- **Missing materials affecting confidence** Raw data for MST fits, NMR assignment completeness, MD simulation convergence metrics, and full ADME assay protocols are not fully detailed. Supplementary information is referenced but not provided in the submitted material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic biophysical characterization of a promising lead compound targeting a challenging protein-protein interaction. The experimental design is logical, and the integration of multiple orthogonal techniques strengthens the central claim that 7.44 destabilizes NHR2 tetramerization. However, several technical concerns regarding data interpretation, quantitative rigor, and the link between biophysical observations and functional outcomes require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers in targeted cancer therapy, particularly those focused on protein-protein interaction inhibitors for leukemia; structural biologists studying coiled-coil assemblies; and medicinal chemists interested in fragment-based or small-molecule lead optimization. The pharmacokinetic profiling adds value for drug discovery audiences.
+- **Major strengths** 1) Use of multiple independent biophysical methods (SEC, DSF, CD, MST, NMR) to cross-validate the tetramer-destabilizing effect. 2) First reported quantification of NHR2 tetramer dissociation constant and ligand binding affinity. 3) Integration of experimental NMR with unbiased MD simulations to propose a binding model. 4) Comprehensive early ADME profiling, including solubility, plasma stability, and CYP inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that 7.44 "interferes with NHR2 tetramer stability and leads to an increase in the dimer population of NHR2" based on SEC and DSF data.
+  - **Evidence pointer** Figure 2A–D, Results section "Influence of 7.44 on the NHR2 tetramer stability"
+  - **Concern** The SEC data (Fig. 2B) show qualitative changes in peak heights, but the authors explicitly state they refrained from quantitative analysis due to complications from higher-order oligomers and potential absorbance changes of 7.44. The DSF data (Fig. 2C) show decreased fluorescence at the tetramer melting temperature, but the interpretation is complicated by a strong background signal decreasing with temperature. The claim of a "dose-dependent" shift toward dimer is not rigorously supported without quantitative deconvolution of these overlapping effects.
+  - **Why it matters** The central mechanistic claim of the paper rests on demonstrating that 7.44 shifts the tetramer-dimer equilibrium. Without quantitative analysis, the possibility that 7.44 merely stabilizes a partially unfolded state or affects dye binding cannot be excluded.
+  - **Resolution test** Provide quantitative analysis of SEC peak areas or elution volumes across 7.44 concentrations, with appropriate controls for 7.44 absorbance. For DSF, deconvolute the background fluorescence and fit melting curves to extract Tm values for both transitions at each ligand concentration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report Klig = 3.75 ± 1.22 µM for 7.44 binding to the NHR2 dimer, derived from MST data.
+  - **Evidence pointer** Figure 3B, Results section "Dissociation constants", Equations S1–S12
+  - **Concern** The derivation of Klig from EC50 relies on assumptions stated in the text: 2:1 stoichiometry, identical Klig for both binding events, and the equilibrium model in Eq. 1. However, the MST data are fit with a 1:1 model (Eq. 3) to obtain EC50, and the Hill coefficient range of 1.0–1.5 suggests weak or no cooperativity. The conversion from EC50 to Klig using the full equilibrium model is not shown in detail, and the error propagation from the multiple assumptions is not discussed.
+  - **Why it matters** The reported Klig is a key quantitative output. If the model assumptions are incorrect or the error is underestimated, the affinity value could be misleading for future optimization efforts.
+  - **Resolution test** Show the full derivation from EC50 to Klig, including the equations used and the sensitivity of Klig to variations in Ktet and stoichiometry. Provide confidence intervals that account for uncertainty in all model parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that 7.44 "interacts with or leads to conformational changes in the N-termini of the NHR2 tetramer" and that MD simulations predict binding at epitopes involving tryptophan hot spots.
+  - **Evidence pointer** Figure 5A–D, Results sections "The presence of 7.44 induces CSPs" and "Prediction of molecular interaction patterns"
+  - **Concern** Only 32% of backbone amide resonances were assigned, all in the termini. The CSP data are therefore limited to a subset of residues. The MD simulations show binding poses, but no quantitative binding free energies or residence times are provided. The link between the observed CSPs and the specific MD-predicted epitopes is correlative, not direct.
+  - **Why it matters** The proposed binding model is a central contribution, but the experimental evidence is incomplete. Without full assignment or validation of the MD-predicted poses (e.g., via mutagenesis), the model remains speculative.
+  - **Resolution test** Provide additional assignment coverage or use complementary techniques (e.g., paramagnetic relaxation enhancement) to validate the binding interface. For MD, report binding free energies or residence times and test predictions with point mutations at the proposed epitopes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that 7.44 has "favorable physicochemical, pharmacokinetic, and toxicological properties."
+  - **Evidence pointer** Tables 2 and 3, Results section "Physicochemical, in vitro pharmacokinetic, and toxicological properties"
+  - **Concern** The ADME data are limited to a small set of in vitro assays. The CYP inhibition data show potential inhibition of four isoforms at 10 µM, which the authors acknowledge as a "slight potential for CYP-related drug-drug interaction." The toxicology predictions are purely computational. The claim of "favorable" properties is an overstatement given these limitations.
+  - **Why it matters** Overstating the drug-likeness of a lead compound could mislead readers about its readiness for further development.
+  - **Resolution test** Soften the language to "acceptable early-stage properties" and clearly distinguish between experimental and predicted data. Discuss the CYP inhibition risk in the context of the intended therapeutic dose.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "The affinity of 7.44 with respect to binding to NHR2 is Klig = 3.75 ± 1.22 µM" without defining Klig or explaining its significance to a general reader.
+  - **Required correction** Briefly define Klig as the dissociation constant for ligand binding to the NHR2 dimer and state its relevance in one clause.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MST section
+  - **Evidence pointer** Materials and methods, "Microscale thermophoresis"
+  - **Issue** The MST buffer composition is not specified, and the labeling efficiency of the NHR2 protein is not reported.
+  - **Required correction** Provide buffer composition and labeling efficiency, as these can affect MST measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, MD simulations
+  - **Evidence pointer** Results section "Prediction of molecular interaction patterns", Figure 5C
+  - **Issue** The number of MD simulations (35) and their length (1000 ns each) are stated, but no convergence metrics (e.g., RMSD over time) are shown.
+  - **Required correction** Include a supplementary figure showing convergence of the simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The comparison of Klig to "marketed PPIM or compounds subjected to clinical trials" is vague and lacks specific references.
+  - **Required correction** Provide specific examples with cited Kd or Ki values for context.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, pKa determination
+  - **Evidence pointer** Materials and methods, "pKa value determination of 7.44"
+  - **Issue** The pH range (2–13) and step size (0.5) are stated, but the buffer system used across this wide pH range is not described.
+  - **Required correction** Specify the buffer system or note if multiple buffers were used.
+
+## Risk / unsupported claims
+- The claim that 7.44 "fosters a tetramer-to-dimer transition" is supported qualitatively but not quantitatively, given the acknowledged limitations of SEC and DSF analyses.
+- The proposed binding model from MD simulations is not experimentally validated; the CSP data cover only 32% of residues, all in the termini.
+- The "favorable" pharmacokinetic and toxicological profile is based on limited in vitro data and computational predictions, which may not translate to in vivo behavior.
+- The Klig value is model-dependent and may carry larger uncertainty than reported, given the assumptions of 2:1 stoichiometry and identical binding affinities.

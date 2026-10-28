@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "41676719",
+    "doi": "10.64898/2026.02.05.703637",
+    "title": "Short-Context Regulatory DNA Language Models with Motif-Discovery Regularization."
+  },
+  "content": {
+    "abstract": "Self-supervised DNA language models (DNALMs) are typically trained at massive scale on whole genomes and long contexts. However, regulatory sequence features are sparse, heterogeneous, and dominated by poorly conserved flexible syntax of short motifs, which can be difficult to learn from genome-wide self-supervision. As a result, annotation agnostic, long-context DNALMs struggle to learn regulatory syntax and can underperform simpler baseline models on key regulatory tasks. We therefore introduce ARSENAL, a short-context masked DNA language model trained on a functionally enriched regulatory corpus and augmented with a novel regularizer than that encourages motif discovery. ARSENAL improves recovery of diverse transcription factor motifs de novo and prediction of regulatory variant effects in the zero-shot setting compared to other DNALMs. Incorporating ARSENAL embeddings also improves supervised chromatin accessibility prediction over strong ab-initio baselines across multiple cell types and yields improved regulatory variant scoring. Finally, ARSENAL serves as a practical generative prior, enabling targeted regulatory sequence design under downstream functional constraints. All code can be found at https://github.com/kundajelab/regulatory_lm, and models and data can be found at https://sageb.io/4ZpEnk.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patel, Aman",
+        "Kundaje, Anshul"
+      ],
+      "short_names": [
+        "Patel A",
+        "Kundaje A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2113-3251",
+        "ORCID: 0000-0003-3084-2287"
+      ],
+      "affiliations": [
+        "Department of Computer Science, School of Engineering, Stanford University.",
+        "Department of Computer Science, School of Engineering, Stanford University.",
+        "Department of Genetics, School of Medicine, Stanford University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patel, Aman",
+        "short_name": "Patel A",
+        "identifiers": [
+          "0000-0003-2113-3251"
+        ],
+        "affiliations": [
+          "Department of Computer Science, School of Engineering, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Computer Science, School of Engineering, Stanford University.",
+          "Department of Genetics, School of Medicine, Stanford University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 06:55",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41437153",
+      "41073788",
+      "39609566",
+      "39443793",
+      "39322281",
+      "38566111",
+      "37971293",
+      "36927031",
+      "36241719",
+      "34608324",
+      "33603233",
+      "32728249",
+      "27899622",
+      "22955616"
+    ],
+    "similar": [
+      "41676719",
+      "40799805",
+      "31510655",
+      "38566111",
+      "42475469",
+      "42492189",
+      "22912568",
+      "41282136",
+      "41000812",
+      "39829783",
+      "42135287",
+      "40119908",
+      "37883436",
+      "40950025",
+      "30423062",
+      "40060567",
+      "37450999",
+      "33538820",
+      "42320030",
+      "42368259",
+      "42480065",
+      "38853896",
+      "29621972",
+      "40501927",
+      "41310253",
+      "28056763",
+      "42289035",
+      "33662624",
+      "39975017",
+      "36163232",
+      "41096905",
+      "41757044",
+      "20579334",
+      "42182443",
+      "39975126",
+      "23144830",
+      "42704264",
+      "38605640",
+      "37749655",
+      "35293310",
+      "26016777",
+      "40160857",
+      "39667220",
+      "29069282",
+      "37669132",
+      "42094554",
+      "37577664",
+      "19843335",
+      "37214836",
+      "42099803",
+      "38940155",
+      "41454924",
+      "31510661",
+      "26254488",
+      "37294804",
+      "41951735",
+      "32938397",
+      "40627556",
+      "37873298",
+      "26941778",
+      "42521815",
+      "42036810",
+      "40751178",
+      "26291518",
+      "42627343",
+      "36451266",
+      "42412844",
+      "39990426",
+      "39489607",
+      "40529494",
+      "40501585",
+      "29654070",
+      "42739369",
+      "28633280",
+      "42567165",
+      "41929157",
+      "34717189",
+      "40791531",
+      "41162646",
+      "42568192",
+      "42007520",
+      "40503024",
+      "34486522",
+      "33962556",
+      "24532725",
+      "27084946",
+      "33515242",
+      "39709643",
+      "42401553",
+      "41158510",
+      "26971251",
+      "41541793",
+      "23323883",
+      "38150872",
+      "38189539",
+      "29066303",
+      "19343219",
+      "39117802",
+      "42229392",
+      "41283681"
+    ],
+    "review": [
+      "41676719",
+      "42492189",
+      "26941778",
+      "42739369"
+    ],
+    "pmc": [
+      "12889687"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41676719/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.05.703637",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

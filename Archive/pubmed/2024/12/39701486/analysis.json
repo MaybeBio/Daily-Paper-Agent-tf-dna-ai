@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39701486",
+  "title": "BCDB: A dual-branch network based on transformer for predicting transcription factor binding sites.",
+  "authors": "He, Jia; Zhang, Yupeng; Liu, Yuhang; Zhou, Zhigan; Li, Tianhao; Zhang, Yongqing; Xie, Boqia",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于Transformer双分支网络BCDB，整合DNABERT、CNN和多头注意力预测转录因子结合位点，核心聚焦TF-DNA互作且方法为深度学习，高度匹配本课题。",
+  "abstract": "Transcription factor binding sites (TFBSs) are critical in regulating gene expression. Precisely locating TFBSs can reveal the mechanisms of action of different transcription factors in gene transcription. Various deep learning methods have been proposed to predict TFBS; however, these models often need help demonstrating ideal performance under limited data conditions. Furthermore, these models typically have complex structures, which makes their decision-making processes difficult to transparentize. Addressing these issues, we have developed a framework named BCDB. This framework integrates multi-scale DNA information and employs a dual-branch output strategy. Integrating DNABERT, convolutional neural networks (CNN), and multi-head attention mechanisms enhances the feature extraction capabilities, significantly improving the accuracy of predictions. This innovative method aims to balance the extraction of global and local information, enhancing predictive performance while utilizing attention mechanisms to provide an intuitive way to explain the model's predictions, thus strengthening the overall interpretability of the model. Prediction results on 165 ChIP-seq datasets show that BCDB significantly outperforms other existing deep learning methods in terms of performance. Additionally, since the BCDB model utilizes transfer learning methods, it can transfer knowledge learned from many unlabeled data to specific cell line prediction tasks, allowing our model to achieve cross-cell line TFBS prediction. The source code for BCDB is available on https://github.com/ZhangLab312/BCDB.",
+  "abstract_zh": "转录因子结合位点（TFBSs）在调控基因表达中至关重要。精确定位TFBSs可以揭示不同转录因子在基因转录中的作用机制。已提出多种深度学习方法用于预测TFBS；然而，这些模型在有限数据条件下往往难以展示理想性能。此外，这些模型通常结构复杂，使其决策过程难以透明化。针对这些问题，我们开发了一个名为BCDB的框架。该框架整合了多尺度DNA信息，并采用双分支输出策略。通过整合DNABERT、卷积神经网络（CNN）和多头注意力机制，增强了特征提取能力，显著提高了预测准确性。这一创新方法旨在平衡全局与局部信息的提取，提升预测性能，同时利用注意力机制提供直观的方式来解释模型预测，从而增强模型的整体可解释性。在165个ChIP-seq数据集上的预测结果显示，BCDB在性能上显著优于其他现有深度学习方法。此外，由于BCDB模型利用迁移学习方法，它可以将从大量未标记数据中学到的知识迁移到特定细胞系预测任务中，使我们的模型能够实现跨细胞系的TFBS预测。BCDB的源代码可在https://github.com/ZhangLab312/BCDB获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39701486/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39701486/",
+  "paper_page_path": "papers/pubmed/39701486/index.html"
+}

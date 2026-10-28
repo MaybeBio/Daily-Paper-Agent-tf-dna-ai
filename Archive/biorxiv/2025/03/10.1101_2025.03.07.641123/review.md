@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report the design and experimental demonstration of an artificial protein motor, Tumbleweed (TW), which walks directionally along a designed DNA track under external ligand control. The motor comprises three legs, each bearing a ligand-gated DNA-binding domain. Directional stepping is shown using single-molecule fluorescence assays and a programmable microfluidic device. The authors claim that TW represents the first artificial motor protein and that their modular design strategy offers a platform for engineering advanced protein functionality.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, single-molecule trajectory data, microfluidic device design and operation details, protein construct sequences, DNA track design, ligand sequences and concentrations, statistical analyses, and control experiments.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in synthetic biology, namely the construction of a protein-based molecular walker that moves directionally along a DNA track. The concept is elegant and builds on established modular protein engineering principles. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental evidence, the rigor of the single-molecule analyses, or the generality of the claimed platform. The core claim of directional walking rests on data that are not visible in the supplied material. The work is likely to interest a broad readership if the full evidence supports the claims, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, molecular motors, biophysics, protein engineering, and nanotechnology would be interested. The work speaks to fundamental questions about how proteins transduce chemical energy into mechanical motion, and it offers a potential platform for building dynamic protein-based devices. The modular design approach may also appeal to those interested in directed evolution and de novo protein design.
+- **Major strengths** The design concept is clear and compelling, leveraging known ligand-gated DNA-binding domains in a modular three-legged architecture. The use of external ligand control to drive directional stepping is a sensible and testable strategy. The claim of creating an artificial motor protein addresses a long-standing goal in synthetic biology, and the work appears to integrate single-molecule fluorescence with microfluidics, which is methodologically ambitious.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TW "steps directionally along a designed DNA track in response to a defined sequence of ligand inputs."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that directional stepping was demonstrated using single-molecule fluorescence assays and a programmable microfluidic device, but no quantitative data, trajectory examples, step-size distributions, or statistical comparisons are provided. It is unclear how directionality was defined, how many molecules were observed, what the stepping efficiency was, or whether processive runs were distinguished from random binding events.
+  - **Why it matters** Directional walking is the central claim of the paper. Without visible evidence of step trajectories, dwell times, and directionality metrics, the claim cannot be assessed. The distinction between processive directional motion and stochastic binding with apparent bias is critical for establishing motor function.
+  - **Resolution test** Provide representative single-molecule trajectories, step-size histograms, directionality indices, and statistical comparisons against a null model of random walking. Show that directionality requires the specific ligand sequence and is lost under control conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that each leg has a "ligand-gated DNA-binding domain that enables selective interaction with specific sites along a DNA track."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not specify which ligand-gated domains were used, how gating was achieved, what the binding affinities and specificities are, or how the three legs are arranged geometrically to permit stepping without steric clashes. The mechanism by which sequential ligand inputs drive a coordinated three-leg walk is not described.
+  - **Why it matters** The motor function depends entirely on the orthogonality and timing of leg binding and release. If the domains are not sufficiently orthogonal or if the geometry does not permit alternating leg engagement, the observed motion could arise from non-specific effects. The mechanistic basis of the walk must be explicit for the claim to hold.
+  - **Resolution test** Provide binding curves and specificity data for each leg domain against all track sites, a structural or geometric model of the three-legged walker, and a clear description of the ligand input sequence that drives each step.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the platform
+  - **Claim pointer** The authors claim that their "design strategy thus offers a platform for engineering advanced and dynamic protein functionality."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract presents a single motor construct on a single DNA track design. No evidence is provided that the modular approach can be extended to other track geometries, other ligand-gated domains, or other motor functions such as cargo transport or force generation.
+  - **Why it matters** The platform claim is broader than the demonstration of one motor. Without evidence of modular interchangeability or at least a discussion of design rules, the platform claim is speculative.
+  - **Resolution test** Show that at least one component (e.g., a leg domain or track motif) can be swapped while retaining motor function, or provide a clear design framework with predictive rules supported by additional constructs.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "artificial protein motor" is used without defining what qualifies as a motor in this context. The abstract also uses "external control" without specifying whether control is temporal, spatial, or both.
+  - **Required correction** Define "motor" operationally (e.g., processive, directional, energy-consuming) and specify the nature of external control in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention of buffer conditions, temperature, ligand concentrations, or time scales of observation. These parameters are essential for reproducing single-molecule walking experiments.
+  - **Required correction** Include key experimental conditions in the methods summary or abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison to prior work
+  - **Affected element** Context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contrasts TW with small-molecule and DNA motors but does not discuss prior attempts at protein-based walkers or how TW differs from naturally occurring motor proteins beyond being artificial.
+  - **Required correction** Add a sentence contextualizing TW relative to prior protein-based motor attempts and to natural motors in terms of mechanism and performance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of directional walking and ligand-gated leg function require visible experimental evidence and mechanistic detail that are absent from the abstract. Without these, the case for an artificial motor protein is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a modular three-legged protein walker on DNA is original and addresses a recognized gap in synthetic biology. The claim of the first artificial motor protein is significant if substantiated.
+  - Scientific importance: If the full data support the claims, the work would be of high importance to molecular motor research and protein engineering. It could inform both fundamental biophysics and applied nanotechnology.
+  - Interdisciplinary readership: The topic bridges protein engineering, single-molecule biophysics, microfluidics, and synthetic biology, which would attract a broad interdisciplinary audience.
+  - Technical soundness: Cannot be assessed from the abstract. The methods are named but not described, and no data are visible. The technical soundness of the single-molecule assays and microfluidic control is unverified.
+  - Readability for nonspecialists: The abstract is generally clear and accessible, though terms like "ligand-gated DNA-binding domain" and "programmable microfluidic device" could be briefly explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the work may be suitable for a high-impact venue if the full manuscript provides rigorous single-molecule data, mechanistic validation, and control experiments. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that TW "steps directionally along a designed DNA track" is unsupported in the abstract, as no trajectory or directionality data are shown.
+- The claim that each leg has a "ligand-gated DNA-binding domain that enables selective interaction" is unsupported, as no binding data or domain identities are provided.
+- The claim that the design strategy "offers a platform for engineering advanced and dynamic protein functionality" is speculative and not supported by evidence of modular interchangeability.
+- The claim that TW represents "a step toward developing fully autonomous protein motors" is forward-looking and not directly supported by the data described in the abstract.
+- The overall claim of creating "an artificial protein motor" is not assessable without the full experimental evidence.

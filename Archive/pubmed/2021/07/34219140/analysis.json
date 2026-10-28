@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34219140",
+  "title": "Identifying complex motifs in massive omics data with a variable-convolutional layer in deep neural network.",
+  "authors": "Li, Jing-Yi; Jin, Shen; Tu, Xin-Ming; Ding, Yang; Gao, Ge",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-07-06",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 7,
+  "one_liner_zh": "提出可变卷积层vConv用于从组学数据中自适应学习基序长度，在DNA-蛋白结合预测中优于标准卷积，属于蛋白质-DNA互作结合位点预测的AI方法，但未聚焦TF-DNA特异性机制建模。",
+  "abstract": "Motif identification is among the most common and essential computational tasks for bioinformatics and genomics. Here we proposed a novel convolutional layer for deep neural network, named variable convolutional (vConv) layer, for effective motif identification in high-throughput omics data by learning kernel length from data adaptively. Empirical evaluations on DNA-protein binding and DNase footprinting cases well demonstrated that vConv-based networks have superior performance to their convolutional counterparts regardless of model complexity. Meanwhile, vConv could be readily integrated into multi-layer neural networks as an 'in-place replacement' of canonical convolutional layer. All source codes are freely available on GitHub for academic usage.",
+  "abstract_zh": "基序识别是生物信息学和基因组学中最常见且必不可少的计算任务之一。在此，我们提出了一种新颖的深度神经网络卷积层，命名为可变卷积（vConv）层，通过自适应地从数据中学习核长度，有效识别高通量组学数据中的基序。对DNA-蛋白质结合和DNase足迹案例的实证评估充分表明，基于vConv的网络在性能上优于其卷积对应物，无论模型复杂度如何。同时，vConv可以轻松集成到多层神经网络中，作为标准卷积层的“原位替换”。所有源代码均在GitHub上免费提供，供学术使用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34219140/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34219140/",
+  "paper_page_path": "papers/pubmed/34219140/index.html"
+}

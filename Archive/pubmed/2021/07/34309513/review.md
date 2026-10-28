@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and alignment with the stated claims. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose a Brownian ratchet model for DNA loop extrusion by the cohesin complex, based on structural data from a nucleotide-bound DNA gripping state. They argue that ATP hydrolysis triggers a conformational change that can either complete topological DNA entry or, if the kleisin N-gate is not passed, drive loop extrusion via biased diffusion. They support this with FRET experiments and computational simulations.
+- **Visible evidence base** Cryo-EM structures (referenced, PDB 6YUF, 6WG3), FRET measurements (Figure 2), single-molecule loop extrusion assays (Figure 4), and Monte Carlo simulations (Figures 5-6, Videos 1-2).
+- **Missing materials affecting confidence** Figure supplements and videos referenced but not fully described in the provided text. Detailed parameter values for simulations are in Supplementary file 1, not provided. Raw data and analysis code are available but not reviewed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and structurally grounded model for cohesin-mediated DNA loop extrusion. The authors integrate existing structural data with new FRET experiments and computational simulations to propose a specific molecular mechanism. The work is likely to stimulate discussion and further experiments. However, the evidence for the key claim, that the proposed Brownian ratchet is the actual mechanism of loop extrusion, is indirect. The FRET data support conformational changes but do not directly demonstrate the ratchet mechanism. The simulations show plausibility but are not a proof. The single-molecule data demonstrate loop extrusion by fission yeast cohesin but do not distinguish between the proposed and alternative models. The manuscript would be strengthened by a more critical discussion of alternative interpretations and by additional experimental tests of the model's predictions.
+- **Who would be interested in the results, and why** Researchers in chromosome biology, DNA repair, and genome organization. The work is also relevant to the biophysics community studying molecular motors and ratchet mechanisms. The proposed model provides a framework for understanding how SMC complexes might work, which is a central question in the field.
+- **Major strengths** The model is well-integrated with existing structural data. The FRET experiments provide new information about conformational dynamics. The computational simulations are a useful tool for exploring the plausibility of the proposed mechanism. The single-molecule data extend the range of species in which loop extrusion is observed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for the central claim
+  - **Claim pointer** The manuscript claims that the Brownian ratchet mechanism, driven by the conformational change from the gripping to the slipping state, is the basis for DNA loop extrusion.
+  - **Evidence pointer** Figures 2, 4, 5, 6; Discussion section
+  - **Concern** The central claim is that the proposed Brownian ratchet is the mechanism of loop extrusion. However, the evidence presented is largely circumstantial. The FRET data (Figure 2) show that the modules move relative to each other under different nucleotide conditions, which is consistent with the model but does not directly demonstrate that this movement drives loop extrusion. The single-molecule data (Figure 4) show that fission yeast cohesin can extrude loops, but this is a phenomenological observation that does not test the mechanism. The simulations (Figures 5-6) show that a Brownian ratchet can produce loop extrusion under the model's assumptions, but this only demonstrates plausibility, not that the actual mechanism is a Brownian ratchet. The authors do not provide a direct test that distinguishes their model from other proposed mechanisms, such as the tethered inchworm or scrunching models.
+  - **Why it matters** The central claim of the paper is the specific mechanism of loop extrusion. Without direct evidence for this mechanism, the paper is a proposal of a plausible model rather than a demonstration of the mechanism. This is a significant limitation for a paper that aims to establish a new model.
+  - **Resolution test** The authors should either (1) provide direct experimental evidence that the conformational change is coupled to loop extrusion, for example by showing that mutations that disrupt the ratchet also abolish loop extrusion, or (2) clearly frame the paper as a proposal of a plausible model and discuss alternative mechanisms in more depth.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative comparison with experiments
+  - **Claim pointer** The manuscript claims that the simulations recapitulate experimentally observed loop extrusion characteristics, including the rate and processivity.
+  - **Evidence pointer** Figure 4B, Figure 6, Discussion section
+  - **Concern** The manuscript states that the simulations match experimental observations, but the comparison is qualitative. The experimental loop extrusion rate is reported as ~1 kbp/s, and the simulations are said to produce a similar rate, but the exact values and the statistical comparison are not provided. The manuscript also discusses the variability in loop extrusion rates but does not show a quantitative comparison between the simulated and experimental distributions. The model parameters are not fully described in the main text, making it difficult to assess the robustness of the results.
+  - **Why it matters** A quantitative comparison is necessary to support the claim that the model recapitulates experimental observations. Without this, it is unclear how well the model actually matches the data and whether the agreement is meaningful or coincidental.
+  - **Resolution test** The authors should provide a quantitative comparison between the simulated and experimental loop extrusion rates, including the mean, standard deviation, and a statistical test. They should also provide a sensitivity analysis of the model parameters to show that the results are robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** The manuscript argues that the Brownian ratchet model is distinct from and superior to previous models, such as the tethered inchworm and scrunching models.
+  - **Evidence pointer** Discussion section
+  - **Concern** The discussion of alternative models is brief and does not fully address how the proposed model can be distinguished experimentally from these alternatives. For example, the tethered inchworm model also involves two DNA binding modules and could potentially produce similar loop extrusion dynamics. The authors do not provide a clear set of predictions that would differentiate their model from others.
+  - **Why it matters** A strong scientific paper should not only propose a new model but also explain how it can be tested against competing models. Without this, it is difficult for the field to make progress in determining the actual mechanism.
+  - **Resolution test** The authors should provide a more detailed comparison with alternative models, highlighting specific experimental predictions that would distinguish between them. For example, they could propose mutations or experimental conditions that would have different effects under different models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model description
+  - **Affected element** Figure 5 and associated text
+  - **Evidence pointer** Figure 5, Materials and methods
+  - **Issue** The description of the computational model is dense and may be difficult for a non-specialist to follow. The distinction between the "gripping" and "slipping" states and how they are implemented in the simulation could be clearer.
+  - **Required correction** Consider adding a schematic diagram that clearly illustrates the model states and the transitions between them, and provide a more accessible explanation of the simulation approach in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Parameter justification
+  - **Affected element** Materials and methods, Supplementary file 1
+  - **Evidence pointer** Materials and methods, Supplementary file 1
+  - **Issue** The choice of some simulation parameters, such as the persistence length of the coiled coils and the interaction strengths, is not fully justified. It is unclear how these values were determined and how sensitive the results are to them.
+  - **Required correction** Provide a brief justification for the chosen parameter values and include a sensitivity analysis to show that the main conclusions are not dependent on specific parameter choices.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** FRET data interpretation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The FRET data are interpreted as showing a conformational change, but the absolute FRET efficiencies are low. It would be helpful to discuss the potential limitations of the FRET measurements and whether the observed changes are within the dynamic range of the assay.
+  - **Required correction** Add a brief discussion of the FRET assay's limitations and the confidence in the interpretation of the observed changes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The term "Brownian ratchet" is used to describe the mechanism, but the specific type of ratchet (e.g., information ratchet, flashing ratchet) is not clearly defined. This could lead to confusion.
+  - **Required correction** Clarify the specific type of Brownian ratchet being proposed and how it differs from other ratchet mechanisms.
+
+## Risk / unsupported claims
+- The claim that the Brownian ratchet is the mechanism of loop extrusion is not directly supported by the evidence presented. The evidence is consistent with the model but does not exclude alternative mechanisms.
+- The claim that the simulations recapitulate experimental observations is not quantitatively supported.
+- The claim that the model extends to symmetric loop extrusion and z-loop formation is speculative and not directly tested.
+- The claim that the model has implications for in vivo cohesin function is plausible but not directly supported by the data presented.

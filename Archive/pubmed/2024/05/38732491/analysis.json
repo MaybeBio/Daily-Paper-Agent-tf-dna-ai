@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38732491",
+  "title": "Identification of Novel Regulators of Leaf Senescence Using a Deep Learning Model.",
+  "authors": "Guo, Chaocheng; Huang, Zhuoran; Chen, Jiahao; Yu, Guolong; Wang, Yudong; Wang, Xu",
+  "journal": "Plants (Basel, Switzerland)",
+  "published_date": "2024-05-11",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习模型DEGRN从表达数据推断拟南芥基因调控网络并预测TF-靶基因互作，但缺乏三维结构或结合位点层面的互作建模，仅属广义调控网络预测，与TF-DNA结合机制研究关联有限。",
+  "abstract": "Deep learning has emerged as a powerful tool for investigating intricate biological processes in plants by harnessing the potential of large-scale data. Gene regulation is a complex process that transcription factors (TFs), cooperating with their target genes, participate in through various aspects of biological processes. Despite its significance, the study of gene regulation has primarily focused on a limited number of notable instances, leaving numerous aspects and interactions yet to be explored comprehensively. Here, we developed DEGRN (Deep learning on Expression for Gene Regulatory Network), an innovative deep learning model designed to decipher gene interactions by leveraging high-dimensional expression data obtained from bulk RNA-Seq and scRNA-Seq data in the model plant Arabidopsis. DEGRN exhibited a compared level of predictive power when applied to various datasets. Through the utilization of DEGRN, we successfully identified an extensive set of 3,053,363 high-quality interactions, encompassing 1430 TFs and 13,739 non-TF genes. Notably, DEGRN's predictive capabilities allowed us to uncover novel regulators involved in a range of complex biological processes, including development, metabolism, and stress responses. Using leaf senescence as an example, we revealed a complex network underpinning this process composed of diverse TF families, including bHLH, ERF, and MYB. We also identified a novel TF, named MAF5, whose expression showed a strong linear regression relation during the progression of senescence. The mutant maf5 showed early leaf decay compared to the wild type, indicating a potential role in the regulation of leaf senescence. This hypothesis was further supported by the expression patterns observed across four stages of leaf development, as well as transcriptomics analysis. Overall, the comprehensive coverage provided by DEGRN expands our understanding of gene regulatory networks and paves the way for further investigations into their functional implications.",
+  "abstract_zh": "深度学习已成为一种强大的工具，通过利用大规模数据的潜力来研究植物中复杂的生物过程。基因调控是一个复杂的过程，转录因子（TFs）与其靶基因协同，参与生物过程的各个方面。尽管其重要性，基因调控的研究主要集中于少数显著实例，许多方面和相互作用仍有待全面探索。在此，我们开发了DEGRN（基于表达数据的基因调控网络深度学习），这是一种创新的深度学习模型，旨在通过利用模式植物拟南芥中批量RNA-Seq和scRNA-Seq数据获得的高维表达数据来解读基因相互作用。DEGRN在应用于各种数据集时表现出相当的预测能力。通过利用DEGRN，我们成功识别了3,053,363个高质量相互作用的广泛集合，涵盖1430个TFs和13,739个非TF基因。值得注意的是，DEGRN的预测能力使我们能够揭示参与一系列复杂生物过程（包括发育、代谢和应激响应）的新型调控因子。以叶片衰老为例，我们揭示了一个由多种TF家族（包括bHLH、ERF和MYB）组成的支撑该过程的复杂网络。我们还识别了一个名为MAF5的新型TF，其表达在衰老进程中显示出强烈的线性回归关系。与野生型相比，maf5突变体表现出早期叶片腐烂，表明其在叶片衰老调控中可能发挥作用。这一假设进一步得到了叶片发育四个阶段观察到的表达模式以及转录组学分析的支持。总体而言，DEGRN提供的全面覆盖扩展了我们对基因调控网络的理解，并为进一步研究其功能意义铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38732491/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38732491/",
+  "paper_page_path": "papers/pubmed/38732491/index.html"
+}

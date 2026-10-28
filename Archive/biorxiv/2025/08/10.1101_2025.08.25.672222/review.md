@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and suitability for a Nature-style journal. No assessment of formatting, grammar, or editorial policy.
+- **Shared manuscript claim summary** The authors propose that KSHV ORF24, a viral TBP mimic, uses a non-canonical, extended DNA-binding interface involving its C-terminal domain (CTD) to recognize viral late promoters, and that stable promoter binding requires pre-assembly of ORF24 with RNA polymerase II and ORF34, representing a departure from stepwise eukaryotic transcription initiation.
+- **Visible evidence base** AlphaFold3 structural predictions; sequence conservation analysis across 19 herpesvirus homologs; plasmid-based luciferase reporter assays with 17 ORF24 point mutants; co-immunoprecipitation for protein interactions; BAC16 recombineering in iSLK cells for lytic infection experiments; ChIP-qPCR for promoter occupancy.
+- **Missing materials affecting confidence** Figures and supplementary figures/tables referenced but not provided; no experimental structure (e.g., cryo-EM or X-ray) for ORF24-DNA complex; no direct binding assays (e.g., EMSA, ITC, or SPR) to quantify DNA binding affinity; no ChIP-qPCR data shown for early promoter negative control in mutant conditions; no quantification of protein expression levels for mutants in infected cells; no statistical analysis details for reporter assays beyond stated SD.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated combination of structural prediction and functional validation to characterize the DNA-binding mode of the KSHV TBP mimic ORF24. The identification of an extended CTD-based DNA-binding interface and the assembly-first mechanism for promoter engagement are conceptually interesting and potentially significant for the field of viral transcription. However, the evidence base is incomplete in several critical respects. The reliance on AlphaFold3 predictions without experimental structural validation, the absence of direct DNA-binding assays, and the lack of quantitative ChIP-qPCR data for the early promoter control weaken the strength of the central claims. The manuscript is technically sound in its overall approach but requires additional experimental support to fully establish the proposed model.
+- **Who would be interested in the results, and why** Virologists studying herpesvirus gene regulation, particularly those focused on gammaherpesviruses and the viral pre-initiation complex. Biochemists and structural biologists interested in TBP-like proteins and non-canonical DNA-binding domains. Researchers studying transcription initiation mechanisms, especially alternative or simplified initiation strategies in viruses. The assembly-first model may also interest those studying cooperative protein-DNA assembly in other systems.
+- **Major strengths** The study addresses a significant gap in understanding how KSHV ORF24 achieves promoter selectivity. The use of AlphaFold3 to generate testable hypotheses is timely and well-executed. The mutational screen is systematic and includes appropriate controls for protein expression and interaction. The validation in the context of lytic infection using BAC16 recombineering adds physiological relevance. The identification of a conserved CTD with functional importance across herpesviruses is a notable advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The manuscript claims that ORF24 uses a non-canonical DNA binding mode involving the CTD, based on AlphaFold3 predictions.
+  - **Evidence pointer** Results section "AlphaFold 3 predicts an extended DNA binding domain for KSHV ORF24"; Figure 1B-C; Figure 2A; Table 1
+  - **Concern** The central structural claim rests entirely on AlphaFold3 predictions. While AlphaFold3 is a powerful tool, it is not a substitute for experimental structural validation, especially for protein-DNA complexes where conformational flexibility and induced fit are common. The authors do not provide any experimental structure (cryo-EM, X-ray, or NMR) or even low-resolution data (e.g., SAXS, crosslinking) to support the predicted extended interface. The claim of a "non-canonical DNA binding mode" is therefore not experimentally established.
+  - **Why it matters** The novelty of the manuscript hinges on the structural model. Without experimental validation, the reader cannot distinguish between a genuine new binding mode and an artifact of computational prediction. This is particularly important given that the authors themselves note low-confidence regions in the model.
+  - **Resolution test** Provide experimental structural data (e.g., cryo-EM structure of ORF24-DNA complex) or at minimum complementary biochemical evidence such as hydrogen-deuterium exchange, hydroxyl radical footprinting, or crosslinking-mass spectrometry to validate the predicted DNA contacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct DNA binding
+  - **Claim pointer** The manuscript claims that specific residues in the ORF24 TBP-like domain and CTD are required for DNA binding and promoter occupancy.
+  - **Evidence pointer** Results sections "ORF24 vTBP and CTD residues predicted to bind DNA are necessary for late gene activation" and "ORF24 promoter occupancy in infected cells requires multiprotein complex pre-assembly"; Figures 2C-D, 5B
+  - **Concern** The functional assays (luciferase reporter, ChIP-qPCR) measure transcriptional output and promoter occupancy, respectively, but do not directly measure DNA binding. The authors infer DNA-binding defects from loss of function, but alternative explanations such as protein misfolding, altered protein-protein interactions, or reduced nuclear localization are not fully excluded. The co-IP data show that mutants retain interactions with ORF34 and Rpb1, but this does not rule out subtle conformational changes that could affect DNA binding. Direct binding assays are absent.
+  - **Why it matters** The claim that specific residues mediate DNA binding is a core part of the manuscript. Without direct binding data, the mechanistic interpretation is weakened. The distinction between a true DNA-binding mutant and a mutant that affects a downstream step in transcription initiation is critical.
+  - **Resolution test** Perform in vitro DNA-binding assays (EMSA, fluorescence anisotropy, or SPR) with purified wild-type and mutant ORF24 proteins (or ORF24-ORF34 complexes) against a labeled TATTWAA-containing DNA probe. This would directly demonstrate whether the mutations impair DNA binding affinity or specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative ChIP-qPCR data and controls
+  - **Claim pointer** The manuscript claims that wild-type ORF24 selectively binds the late K8.1 promoter but not the early ORF57 promoter, and that mutants fail to bind the late promoter.
+  - **Evidence pointer** Results section "ORF24 promoter occupancy in infected cells requires multiprotein complex pre-assembly"; Figure 5B
+  - **Concern** The ChIP-qPCR data are described qualitatively in the text, but no quantitative data (e.g., percent input, fold enrichment over IgG, or enrichment relative to a negative locus) are shown in the provided text. The figure is not available for inspection. The early promoter (ORF57) is mentioned as a negative control, but it is unclear whether this control was performed for all mutant conditions. Additionally, the authors note that mutant protein levels were lower than wild-type, which complicates interpretation of ChIP signals. Without normalization to protein expression levels or input, the reduced ChIP signal for mutants could reflect lower protein abundance rather than impaired DNA binding.
+  - **Why it matters** The ChIP data are the most direct evidence for promoter occupancy in the physiological context. If the data are not quantitative or properly controlled, the claim that mutants fail to bind the late promoter is not robustly supported.
+  - **Resolution test** Provide ChIP-qPCR data as percent input with IgG controls for all conditions, and normalize ChIP signals to the expression level of each ORF24 variant (e.g., by dividing ChIP signal by input-normalized protein level). Include the ORF57 early promoter as a negative control for all mutants, and ideally include a non-promoter genomic region as an additional negative control.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of mutant protein stability
+  - **Claim pointer** The manuscript states that ORF24 mutants were expressed at somewhat lower levels than wild-type in infected cells, but that this does not account for the observed functional defects.
+  - **Evidence pointer** Results section "ORF24 mutants have late gene defects in lytic infected cells"; Figure 3A
+  - **Concern** The authors acknowledge lower expression of some mutants but do not provide a quantitative assessment of how much lower. If the reduction in protein level is substantial, it could contribute to the observed defects in late gene expression and ChIP signals. The statement that the defects are not due to reduced expression is not supported by quantitative data or by experiments where expression levels are equalized.
+  - **Why it matters** The interpretation of mutant phenotypes in infected cells depends on distinguishing between loss of function due to the specific mutation versus reduced protein abundance. Without this distinction, the conclusions about the role of specific residues are less secure.
+  - **Resolution test** Quantify protein levels by densitometry from multiple independent experiments and report the fold difference. If possible, perform rescue experiments by expressing mutants at levels comparable to wild-type (e.g., using different promoters or viral titers) and assess whether late gene expression is still defective.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the assembly-first model
+  - **Claim pointer** The manuscript claims that ORF24 pre-assembles with RNA polymerase II and ORF34 before DNA binding, representing a fundamental departure from stepwise eukaryotic transcription initiation.
+  - **Evidence pointer** Results section "ORF34 and Rpb1 co-stabilize the vPIC complex during lytic infection" and "ORF24 promoter occupancy in infected cells requires multiprotein complex pre-assembly"; Figures 3B-C, 5B-C
+  - **Concern** The evidence for the assembly-first model is indirect. The co-IP experiments show that ORF24 interacts with ORF34 and Rpb1, and the ChIP experiments show that mutants disrupting these interactions fail to bind DNA. However, this does not directly demonstrate that the complex forms before DNA binding. An alternative model is that ORF24 binds DNA first and then recruits ORF34 and Pol II. The current data cannot distinguish between these temporal orders. The claim of a "fundamental departure" is therefore overstated given the available evidence.
+  - **Why it matters** The assembly-first model is a major conceptual claim of the manuscript. If the temporal order is not directly tested, the claim is not fully supported. This distinction is important for understanding the mechanism of viral transcription initiation and its relationship to cellular mechanisms.
+  - **Resolution test** Perform kinetic or order-of-addition experiments, such as in vitro assembly assays with purified components, or use techniques like single-molecule FRET or time-resolved ChIP to determine whether the ORF24-ORF34-Pol II complex forms prior to DNA engagement. Alternatively, use a mutant ORF24 that cannot bind DNA but retains ORF34 and Pol II interactions to test whether the complex can still form in the absence of DNA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section "Structural modeling and sequence analysis"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of AlphaFold3 modeling is brief. It is unclear how many models were generated, how the highest-confidence model was selected, and whether the DNA sequence used in modeling was the exact K8.1 promoter sequence or a consensus TATTWAA motif.
+  - **Required correction** Provide additional details on the modeling procedure, including the number of predictions, selection criteria, and the exact DNA sequence used. This will improve reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "ORF24 vTBP and CTD residues predicted to bind DNA are necessary for late gene activation"
+  - **Evidence pointer** Figure 2C-D, location not provided
+  - **Issue** The reporter assay data are described as mean ± SD of at least three independent biological replicates, but no statistical tests are reported. It is unclear whether the differences between wild-type and mutants are statistically significant.
+  - **Required correction** Report the statistical tests used (e.g., one-way ANOVA with Dunnett's post hoc test) and include p-values or significance indicators in the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of sequence conservation
+  - **Affected element** Results section "AlphaFold 3 predicts an extended DNA binding domain for KSHV ORF24"
+  - **Evidence pointer** Supplementary Figure 3, location not provided
+  - **Issue** The conservation analysis across 19 homologs is mentioned, but the criteria for defining "conserved" residues are not specified. It is unclear whether conservation was based on sequence identity, similarity, or structural equivalence.
+  - **Required correction** Define the conservation criteria and specify the threshold used to classify residues as conserved. This will strengthen the evolutionary argument.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 1-5, location not provided
+  - **Issue** The figures are not included in the provided text, making it impossible to assess the quality of the data presentation, the clarity of the structural models, or the gating of the ChIP data.
+  - **Required correction** Ensure that all figures are of high quality and clearly labeled. For the structural models, include confidence metrics (e.g., pLDDT coloring) and for ChIP data, include representative raw traces or quality control metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion does not explicitly address the limitations of using AlphaFold3 predictions without experimental structural validation. The authors acknowledge the need for future structural studies but do not discuss the potential impact of model uncertainty on their conclusions.
+  - **Required correction** Add a paragraph in the discussion acknowledging the limitations of computational predictions and outlining the specific experimental approaches needed to validate the proposed model.
+
+## Risk / unsupported claims
+- The claim of a "non-canonical DNA binding mode" is unsupported by experimental structural data; it is based solely on AlphaFold3 predictions.
+- The claim that ORF24 pre-assembles with RNA polymerase II and ORF34 before DNA binding is not directly tested; the data are consistent with but do not prove this temporal order.
+- The claim that the CTD is "essential" for late promoter recognition is based on mutational analysis, but the mechanistic role of the CTD (direct DNA contact vs. structural support) is not distinguished.
+- The claim that the assembly-first mechanism "resembles a prokaryotic strategy" is speculative and not directly supported by the data.
+- The quantitative ChIP-qPCR data and the early promoter negative control for all mutants are not fully described in the provided text, making the promoter occupancy claims difficult to evaluate.
+- The statement that "ORF24 requires intact interactions with both RNAP II and ORF34 for stable promoter binding" is supported by the ChIP data, but the reduced expression of some mutants complicates the interpretation.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36789431",
+  "title": "ChromDL: A Next-Generation Regulatory DNA Classifier.",
+  "authors": "Hill, Christopher; Hudaiberdiev, Sanjarbek; Ovcharenko, Ivan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-02-16",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了结合CNN、BiGRU和BiLSTM的深度学习模型ChromDL，用于从DNA序列预测转录因子结合位点、组蛋白修饰和DNase超敏位点，核心聚焦TF-DNA结合位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "MOTIVATION: Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. RESULTS: Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities. AVAILABILITY: The ChromDL source code can be found at https://github.com/chrishil1/ChromDL .",
+  "abstract_zh": "动机：仅利用DNA序列预测非编码DNA的调控功能，仍然是基因组学中的一项重大挑战。随着优化算法的改进、GPU速度的提升以及更复杂的机器学习库的出现，可以构建并应用混合卷积和循环神经网络架构，从非编码DNA中提取关键信息。结果：通过对数千种深度学习（DL）架构性能的比较分析，我们开发了ChromDL，这是一种结合双向门控循环单元（BiGRU）、卷积神经网络（CNN）和双向长短期记忆单元（BiLSTM）的神经网络架构，在转录因子结合位点（TFBS）、组蛋白修饰（HM）和DNase-I超敏感位点（DHS）检测方面，相较于其前身，显著提高了多项预测指标。结合一个次级模型，它可用于基因调控元件的准确分类。该模型还能以比先前开发的方法更高的准确性检测弱转录因子（TF）结合，并具有准确描绘TF结合基序特异性的潜力。可用性：ChromDL源代码可在https://github.com/chrishil1/ChromDL 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36789431/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36789431/",
+  "paper_page_path": "papers/pubmed/36789431/index.html"
+}

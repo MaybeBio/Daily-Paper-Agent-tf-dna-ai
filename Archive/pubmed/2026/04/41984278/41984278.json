@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "41984278",
+    "doi": "10.1007/s12031-026-02519-8",
+    "title": "Integrated Transcriptomics and Machine Learning Reveal Lipid Metabolism Related Genes in Ischemic Stroke."
+  },
+  "content": {
+    "abstract": "Lipid metabolism dysregulation is considered a key metabolic feature of ischemic stroke (IS) and may also contribute to its related neuropsychiatric complications. However, its critical regulatory molecules remain unclear. By integrating machine learning methods with transcriptomic analyses, this study systematically characterized the molecular networks underlying lipid metabolism in IS. Using bulk RNA-seq data obtained from the middle cerebral artery occlusion model, we observed a significant increase in lipid metabolic activity. By combining differential gene expression analysis, Weighted Gene Co-expression Network Analysis, and machine learning algorithms, we ultimately identified Hmox1, Stat3, and Tlr2 as core genes associated with lipid metabolism dysregulation. Functional enrichment analysis highlighted the strong association between these genes and lipid metabolism pathways. Further single-cell transcriptomic analyses emphasized the significant role of MG in the lipid metabolism disorder of IS. Furthermore, differential gene expression, functional enrichment analysis, and virtual knockout indicated that Hmox1, Stat3 and Tlr2 in microglia were closely related to lipid metabolic activity. In summary, this study identified Hmox1, Stat3, and Tlr2 as potential regulatory targets for microglial lipid metabolism in IS, providing a novel theoretical foundation for understanding the IS mechanism and its potential neuropsychiatric complications and for developing targeted intervention.",
+    "keywords": [
+      "Ischemic stroke",
+      "Lipid metabolism",
+      "Machine learning",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Lipid Metabolism",
+      "*Machine Learning",
+      "*Ischemic Stroke/genetics/metabolism",
+      "Toll-Like Receptor 2/genetics/metabolism",
+      "STAT3 Transcription Factor/genetics/metabolism",
+      "Heme Oxygenase-1/genetics/metabolism",
+      "Microglia/metabolism",
+      "*Transcriptome",
+      "Mice",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Qiu-Lin",
+        "Fang, Chang-Le",
+        "Bao, Tian-Hao",
+        "Niu, Rui-Ze"
+      ],
+      "short_names": [
+        "Wang QL",
+        "Fang CL",
+        "Bao TH",
+        "Niu RZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7022-6430"
+      ],
+      "affiliations": [
+        "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China.",
+        "School of Anesthesiology, Zunyi Medical University, Zunyi, 563000, China.",
+        "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China.",
+        "School of Anesthesiology, Zunyi Medical University, Zunyi, 563000, China.",
+        "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China. baotianhao@kmmu.edu.cn.",
+        "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China. niuruize1@kmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Qiu-Lin",
+        "short_name": "Wang QL",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China.",
+          "School of Anesthesiology, Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Chang-Le",
+        "short_name": "Fang CL",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China.",
+          "School of Anesthesiology, Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Tian-Hao",
+        "short_name": "Bao TH",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China. baotianhao@kmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Niu, Rui-Ze",
+        "short_name": "Niu RZ",
+        "identifiers": [
+          "0000-0002-7022-6430"
+        ],
+        "affiliations": [
+          "Affiliated Mental Health Center of Kunming Medical University, Kunming, 650225, China. niuruize1@kmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular neuroscience : MN"
+    ],
+    "journal_abbrev": [
+      "J Mol Neurosci"
+    ],
+    "pub_date": "2026 Apr 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/15 13:53",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41791190",
+      "41184254",
+      "41053014",
+      "40987840",
+      "40826098",
+      "40797087",
+      "40676368",
+      "40640504",
+      "40618011",
+      "40494203",
+      "40216746",
+      "40134420",
+      "39960563",
+      "39921309",
+      "39731912",
+      "39699007",
+      "39367511",
+      "39252446",
+      "38920054",
+      "38878634",
+      "38858351",
+      "38839958",
+      "38762885",
+      "38701781",
+      "38648030",
+      "38637751",
+      "38289861",
+      "38172565",
+      "38151703",
+      "38042110",
+      "37833292",
+      "37572760",
+      "37572732",
+      "37494933",
+      "37488674",
+      "37452512",
+      "37400870",
+      "37236196",
+      "37183260",
+      "36974367",
+      "36541061",
+      "36438975",
+      "36049612",
+      "35715443",
+      "35551349",
+      "35547748",
+      "35510185",
+      "35508321",
+      "35490732",
+      "35469367",
+      "35387495",
+      "35082281",
+      "34967217",
+      "34942286",
+      "34897996",
+      "34688467",
+      "34367186",
+      "34258151",
+      "33754049",
+      "33391532",
+      "32998014",
+      "32516576",
+      "32314126",
+      "31959936",
+      "31902528",
+      "31354274",
+      "30555566",
+      "30377701",
+      "29608179",
+      "28923114",
+      "27274215",
+      "22257669",
+      "20561675"
+    ],
+    "similar": [
+      "41984278",
+      "41055763",
+      "40588645",
+      "40207230",
+      "41354822",
+      "42265520",
+      "41703488",
+      "39507054",
+      "41246346",
+      "39278970",
+      "41425595",
+      "41826822",
+      "41735888",
+      "41235394",
+      "41895505",
+      "39478056",
+      "38649912",
+      "41432483",
+      "41261566",
+      "39862324",
+      "40764361",
+      "39743646",
+      "41474773",
+      "42326009",
+      "42259201",
+      "39793853",
+      "42363518",
+      "28438516",
+      "42123445",
+      "41878449",
+      "42068898",
+      "41232620",
+      "42015036",
+      "42338983",
+      "41874798",
+      "40589764",
+      "40977731",
+      "40916281",
+      "41107929",
+      "39326825",
+      "41162503",
+      "42391245",
+      "40787447",
+      "38678526",
+      "41221285",
+      "41939867",
+      "41436831",
+      "41941036",
+      "40070840",
+      "39524444",
+      "42100491",
+      "41816342",
+      "40967560",
+      "42389891",
+      "37891634",
+      "41388523",
+      "41299485",
+      "39732743",
+      "41601671",
+      "40296690",
+      "40083352",
+      "42024670",
+      "40507856",
+      "40877397",
+      "42112330",
+      "42233387",
+      "40404711",
+      "42292364",
+      "41611834",
+      "40085348",
+      "40676368",
+      "40317014",
+      "42249649",
+      "40265291",
+      "41200172",
+      "40467768",
+      "40681605",
+      "42361409",
+      "40532306",
+      "40819095",
+      "40540134",
+      "40340571",
+      "42175694",
+      "41359645",
+      "41214111",
+      "38865489",
+      "40302336",
+      "41009970",
+      "41189212",
+      "39859268",
+      "42004709",
+      "41200169",
+      "39398336",
+      "40525338",
+      "41508240",
+      "38052584",
+      "41733593",
+      "42292668",
+      "41792398",
+      "41136974"
+    ],
+    "review": [
+      "41984278",
+      "40467768"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12031-026-02519-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "42477884",
+    "doi": "10.1002/kjm2.70269",
+    "title": "FOXC1: A Key Transcription Factor of VSMC-Derived Foam Cell Formation in Atherosclerotic Plaque Instability."
+  },
+  "content": {
+    "abstract": "The instability of atherosclerotic plaques, particularly intraplaque hemorrhage (IPH), drives life-threatening cardiovascular events, a process in which vascular smooth muscle cell (VSMC)-derived foam cells play a significant role. We aim to identify key biomarkers associated with VSMC-derived foam cells and IPH by analyzing data from human IPH datasets and VSMC-derived foam cell datasets (GSE163154, GSE68021, GSE28829, and GSE43292). Weighted gene co-expression network analysis (WGCNA), differential expression analysis, and machine learning algorithms (LASSO and SVM-RFE) were employed to identify hub genes. The identified genes were validated in independent datasets and in experimental models, including oxidized low-density lipoprotein-stimulated VSMCs and atherosclerotic aortic tissues of high-fat diet-fed ApoE(-)/(-) mice. Transcription factor (TF) prediction and dual-luciferase reporter assays were performed to explore upstream regulatory mechanisms. We identified CD68 and CYBA as key hub genes significantly upregulated in both VSMC-derived foam cells and unstable atherosclerotic plaques, with high diagnostic accuracy (AUC > 0.9) by ROC analysis. Experimental validation confirmed their upregulated expression. FOXC1 was identified as a common upstream transcription factor regulating both CD68 and CYBA. FOXC1 protein levels were elevated in VSMC-derived foam cells, and dual-luciferase assays confirmed its direct activation of CD68 and CYBA promoters. FOXC1 overexpression promoted CD68 and CYBA expression and enhanced lipid accumulation in VSMCs, while FOXC1 knockdown exerted opposite effects. Immune infiltration analysis revealed significant correlations between these hub genes and immune cell populations in unstable plaques. This study identifies FOXC1 as a key TF regulating CD68 and CYBA expression, thereby promoting VSMC-derived foam cell formation and plaque instability.",
+    "keywords": [
+      "atherosclerosis",
+      "bioinformatics analysis",
+      "foam cell",
+      "plaque instability",
+      "vascular smooth muscle cell"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Ling-Lin",
+        "Li, Xue-Ling",
+        "Wang, Li-Hong",
+        "Yang, Wei",
+        "Jiang, Yu"
+      ],
+      "short_names": [
+        "Qian LL",
+        "Li XL",
+        "Wang LH",
+        "Yang W",
+        "Jiang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3975-6860",
+        "ORCID: 0000-0001-6403-4689",
+        "ORCID: 0000-0001-7080-546X"
+      ],
+      "affiliations": [
+        "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China.",
+        "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China.",
+        "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China.",
+        "Center for General Practice Medicine, General Practice and Health Management Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China.",
+        "Center for General Practice Medicine, General Practice and Health Management Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Ling-Lin",
+        "short_name": "Qian LL",
+        "identifiers": [],
+        "affiliations": [
+          "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xue-Ling",
+        "short_name": "Li XL",
+        "identifiers": [
+          "0000-0003-3975-6860"
+        ],
+        "affiliations": [
+          "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li-Hong",
+        "short_name": "Wang LH",
+        "identifiers": [
+          "0000-0001-6403-4689"
+        ],
+        "affiliations": [
+          "Heart Center, Department of Cardiovascular Medicine, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for General Practice Medicine, General Practice and Health Management Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yu",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0000-0001-7080-546X"
+        ],
+        "affiliations": [
+          "Center for General Practice Medicine, General Practice and Health Management Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Zhejiang, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Kaohsiung journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Kaohsiung J Med Sci"
+    ],
+    "pub_date": "2026 Jul 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/21 06:34",
+    "fetched_at": "2026-10-02 02:16:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40308195",
+      "40027512",
+      "39812806",
+      "39524227",
+      "39309965",
+      "38909884",
+      "38694921",
+      "37210082",
+      "36515941",
+      "35772589",
+      "35137605",
+      "34389841",
+      "33736825",
+      "33576407",
+      "32423015",
+      "32320073",
+      "32203286",
+      "31591603",
+      "31420554",
+      "31399717",
+      "31243391",
+      "31061481",
+      "30786740",
+      "30653442",
+      "30087027",
+      "29802249",
+      "28978793",
+      "28942246",
+      "27048830",
+      "26836481",
+      "24385514",
+      "23995626",
+      "21398643",
+      "16759310",
+      "15911695",
+      "10928986",
+      "9395269"
+    ],
+    "similar": [
+      "42477884",
+      "42007508",
+      "39026250",
+      "42143937",
+      "41024154",
+      "32160082",
+      "25522268",
+      "38760675",
+      "38518636",
+      "30315930",
+      "42125810",
+      "41297071",
+      "42107160",
+      "35513168",
+      "41264461",
+      "41873711",
+      "39960435",
+      "42013606",
+      "36211422",
+      "41325882",
+      "39520955",
+      "37945738",
+      "35656397",
+      "35137605",
+      "41895505",
+      "40577585",
+      "41851623",
+      "35090378",
+      "41213929",
+      "42424009",
+      "35183915",
+      "40931837",
+      "42030801",
+      "40027512",
+      "41914296",
+      "42248330",
+      "30462530",
+      "41644998",
+      "38716195",
+      "41580116",
+      "40475413",
+      "37284455",
+      "36823662",
+      "41822387",
+      "40332823",
+      "42092981",
+      "29891806",
+      "26883442",
+      "41262249",
+      "35598770",
+      "35842645",
+      "41787391",
+      "40060573",
+      "40808653",
+      "41509477",
+      "42557509",
+      "40836955",
+      "40916281",
+      "42303194",
+      "40727388",
+      "42165147",
+      "41052072",
+      "35870688",
+      "38904030",
+      "39896809",
+      "41519833",
+      "37607939",
+      "41665703",
+      "41231296",
+      "39873880",
+      "33519905",
+      "42269553",
+      "40630429",
+      "31367250",
+      "38561055",
+      "42288847",
+      "37017413",
+      "40612944",
+      "33353368",
+      "32499695",
+      "42292668",
+      "40406620",
+      "40017519",
+      "38667273",
+      "41784666",
+      "28699690",
+      "27439892",
+      "34608503",
+      "42112330",
+      "32929345",
+      "39914064",
+      "35236106",
+      "30371306",
+      "37127144",
+      "35599617",
+      "27256105",
+      "35008765",
+      "40377016",
+      "31119852",
+      "40493738"
+    ],
+    "review": [
+      "42477884",
+      "40630429"
+    ],
+    "pmc": [
+      "13399657"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42477884/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/kjm2.70269",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

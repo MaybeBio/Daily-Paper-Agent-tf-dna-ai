@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "42043940",
+    "doi": "10.1093/bib/bbag191",
+    "title": "BayesPI-FLY: a Bayesian neural network approach for inferring feature weighted TF-DNA interaction."
+  },
+  "content": {
+    "abstract": "Understanding how transcription factors (TFs) recognize DNA motifs is central to deciphering gene regulation. However, integrating multi-omics data, particularly DNA methylation, which can variably influence TF binding, remains a significant challenge. To address this, we developed BayesPI-Feature Learning Yard (BayesPI-FLY), a Bayesian neural network for de novo motif discovery that integrates DNA sequence information with DNA methylation status data. Building upon the classical biophysical model of TF-DNA interactions, BayesPI-FLY employs a two-layer inference architecture to jointly estimate model parameters and hyperparameters within a Bayesian framework. The core algorithms are implemented in C and parallelized through Python, ensuring computational efficiency. BayesPI-FLY quantitatively characterizes methylation effects at both single-nucleotide and motif levels, and generates position weight matrices and sequence logos to facilitate motif interpretation. Validation using synthetic and high-throughput sequencing datasets, including whole-genome bisulfite sequencing data, demonstrates that the framework can recapitulate known methylation-associated TF-binding patterns and infer strand-specific associations within the modeling framework. Collectively, BayesPI-FLY offers a versatile and extensible computational platform for characterizing methylation-related TF-DNA binding patterns across complex epigenetic contexts.",
+    "keywords": [
+      "Bayesian neural network",
+      "DNA methylation",
+      "high-throughput sequencing",
+      "position weight matrix",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "*Transcription Factors/metabolism",
+      "*Neural Networks, Computer",
+      "DNA Methylation",
+      "*DNA/metabolism/genetics",
+      "Algorithms",
+      "Humans",
+      "Computational Biology/methods",
+      "Binding Sites",
+      "Sequence Analysis, DNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Gege",
+        "Bai, Baoyan",
+        "Wang, Junbai"
+      ],
+      "short_names": [
+        "Liu G",
+        "Bai B",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5505-5613"
+      ],
+      "affiliations": [
+        "Department of Pathology, Oslo University Hospital-Norwegian Radium Hospital, 0379 Oslo, Norway.",
+        "Department of Clinical Molecular Biology (EpiGen), University of Oslo and Akershus University Hospital, 1478 Lorenskog, Norway.",
+        "Department of Clinical Molecular Biology (EpiGen), University of Oslo and Akershus University Hospital, 1478 Lorenskog, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Gege",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Oslo University Hospital-Norwegian Radium Hospital, 0379 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Bai, Baoyan",
+        "short_name": "Bai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Molecular Biology (EpiGen), University of Oslo and Akershus University Hospital, 1478 Lørenskog, Norway."
+        ]
+      },
+      {
+        "full_name": "Wang, Junbai",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0001-5505-5613"
+        ],
+        "affiliations": [
+          "Department of Clinical Molecular Biology (EpiGen), University of Oslo and Akershus University Hospital, 1478 Lørenskog, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 18:34",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40449144",
+      "38901187",
+      "38191487",
+      "37850642",
+      "37650641",
+      "37520692",
+      "35883107",
+      "35606422",
+      "35495111",
+      "35440061",
+      "33268789",
+      "32946061",
+      "32751889",
+      "32728249",
+      "32718321",
+      "31755929",
+      "31689433",
+      "29159284",
+      "28927002",
+      "28473536",
+      "28127428",
+      "27479905",
+      "26099425",
+      "25741452",
+      "25158938",
+      "25132561",
+      "23193258",
+      "22781841",
+      "21689397",
+      "20684785",
+      "19857274",
+      "17997593",
+      "17591856",
+      "17053089",
+      "16873464",
+      "16532500",
+      "15616584",
+      "11782440",
+      "9268651",
+      "7584402",
+      "5322617",
+      "3281160",
+      "3056778",
+      "1987636"
+    ],
+    "similar": [
+      "42043940",
+      "26202972",
+      "20579334",
+      "19857274",
+      "25722376",
+      "38300850",
+      "26552868",
+      "42475469",
+      "38653489",
+      "20684785",
+      "40102719",
+      "35240993",
+      "25158938",
+      "41405863",
+      "30380113",
+      "30423062",
+      "40279252",
+      "18426580",
+      "25775564",
+      "31372637",
+      "32054475",
+      "42099803",
+      "25957350",
+      "35410161",
+      "38940155",
+      "21602262",
+      "38844976",
+      "41288963",
+      "19956545",
+      "29617928",
+      "37650641",
+      "34272562",
+      "41761059",
+      "23461573",
+      "25070602",
+      "31742324",
+      "28718849",
+      "29363433",
+      "21124945",
+      "37520692",
+      "26818008",
+      "39012607",
+      "23497388",
+      "40598892",
+      "23272209",
+      "29684008",
+      "38950180",
+      "24927817",
+      "37850642",
+      "18725950",
+      "32960766",
+      "39482734",
+      "23935523",
+      "29993783",
+      "38451769",
+      "34613923",
+      "41920894",
+      "20870645",
+      "26680022",
+      "34962264",
+      "39950745",
+      "24039567",
+      "18411210",
+      "30547796",
+      "38654130",
+      "29419752",
+      "17381235",
+      "23144830",
+      "16362910",
+      "37805453",
+      "41325984",
+      "33381817",
+      "32770026",
+      "21124986",
+      "34534646",
+      "20838582",
+      "28213474",
+      "18556756",
+      "26971251",
+      "40914877",
+      "22069446",
+      "34465294",
+      "37214836",
+      "28472398",
+      "27899608",
+      "37833839",
+      "32471360",
+      "41997213",
+      "39833103",
+      "35440061",
+      "27567672",
+      "23144600",
+      "33413545",
+      "28753602",
+      "32649756",
+      "25887857",
+      "24926895",
+      "29133398",
+      "28726847",
+      "29116820"
+    ],
+    "review": [
+      "42043940",
+      "31742324"
+    ],
+    "pmc": [
+      "13114937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42043940/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag191",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

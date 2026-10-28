@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "39060289",
+    "doi": "10.1038/s41598-024-65112-2",
+    "title": "In-silico study unveils potential phytocompounds in Andrographis paniculata against E6 protein of the high-risk HPV-16 subtype for cervical cancer therapy."
+  },
+  "content": {
+    "abstract": "Despite therapeutic advancements, cervical cancer caused by high-risk subtypes of the human papillomavirus (HPV) remains a leading cause of cancer-related deaths among women worldwide. This study aimed to discover potential drug candidates from the Asian medicinal plant Andrographis paniculata, demonstrating efficacy against the E6 protein of high-risk HPV-16 subtype through an in-silico computational approach. The 3D structures of 32 compounds (selected from 42) derived from A. paniculata, exhibiting higher binding affinity, were obtained from the PubChem database. These structures underwent subsequent analysis and screening based on criteria including binding energy, molecular docking, drug likeness and toxicity prediction using computational techniques. Considering the spectrometry, pharmacokinetic properties, docking results, drug likeliness, and toxicological effects, five compounds-stigmasterol, 1H-Indole-3-carboxylic acid, 5-methoxy-, methyl ester (AP7), andrographolide, apigenin and wogonin-were selected as the potential inhibitors against the E6 protein of HPV-16. We also performed 200 ns molecular dynamics simulations of the compounds to analyze their stability and interactions as protein-ligand complexes using imiquimod (CID-57469) as a control. Screened compounds showed favorable characteristics, including stable root mean square deviation values, minimal root mean square fluctuations and consistent radius of gyration values. Intermolecular interactions, such as hydrogen bonds and hydrophobic contacts, were sustained throughout the simulations. The compounds displayed potential affinity, as indicated by negative binding free energy values. Overall, findings of this study suggest that the selected compounds have the potential to act as inhibitors against the E6 protein of HPV-16, offering promising prospects for the treatment and management of CC.",
+    "keywords": [
+      "A. paniculata",
+      "Cervical cancer",
+      "E6 inhibitors",
+      "High-risk HPV-16",
+      "Phytocompounds"
+    ],
+    "mesh_terms": [
+      "*Uterine Cervical Neoplasms/drug therapy/virology",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "Female",
+      "*Oncogene Proteins, Viral/metabolism/chemistry",
+      "*Andrographis/chemistry",
+      "*Human papillomavirus 16/drug effects",
+      "Repressor Proteins/metabolism/antagonists & inhibitors/chemistry",
+      "Phytochemicals/pharmacology/chemistry",
+      "Computer Simulation",
+      "Plant Extracts/chemistry/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Papillomavirus Infections/drug therapy/virology",
+      "Diterpenes/pharmacology/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Islam, Md Aminul",
+        "Hossain, Md Shohel",
+        "Hasnat, Soharth",
+        "Shuvo, Mahmudul Hasan",
+        "Akter, Shilpy",
+        "Maria, Mustary Anjum",
+        "Tahcin, Anika",
+        "Hossain, Md Arju",
+        "Hoque, M Nazmul"
+      ],
+      "short_names": [
+        "Islam MA",
+        "Hossain MS",
+        "Hasnat S",
+        "Shuvo MH",
+        "Akter S",
+        "Maria MA",
+        "Tahcin A",
+        "Hossain MA",
+        "Hoque MN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Advanced Molecular Lab, Department of Microbiology, President Abdul Hamid Medical College, Karimganj, 2310, Bangladesh. aminul@pahmc.edu.bd.",
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka, Bangladesh.",
+        "Molecular Biology and Bioinformatics Laboratory, Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, 1706, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh.",
+        "Department of Pharmacy, Comilla University, Shalmanpur, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh.",
+        "Department of Microbiology, Primeasia University, Dhaka, 1213, Bangladesh.",
+        "Molecular Biology and Bioinformatics Laboratory, Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, 1706, Bangladesh. nazmul90@bsmrau.edu.bd."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Islam, Md Aminul",
+        "short_name": "Islam MA",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Molecular Lab, Department of Microbiology, President Abdul Hamid Medical College, Karimganj, 2310, Bangladesh. aminul@pahmc.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Shohel",
+        "short_name": "Hossain MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasnat, Soharth",
+        "short_name": "Hasnat S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology and Bioinformatics Laboratory, Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, 1706, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Shuvo, Mahmudul Hasan",
+        "short_name": "Shuvo MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Akter, Shilpy",
+        "short_name": "Akter S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Comilla University, Shalmanpur, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Maria, Mustary Anjum",
+        "short_name": "Maria MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tahcin, Anika",
+        "short_name": "Tahcin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Noakhali Science and Technology University, Noakhali, 3814, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Arju",
+        "short_name": "Hossain MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Primeasia University, Dhaka, 1213, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hoque, M Nazmul",
+        "short_name": "Hoque MN",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology and Bioinformatics Laboratory, Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, 1706, Bangladesh. nazmul90@bsmrau.edu.bd."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jul 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/27 10:42",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42348584",
+      "41628231",
+      "40728964",
+      "40493574",
+      "40295467",
+      "40021806",
+      "40019889",
+      "39474614"
+    ],
+    "refs": [
+      "38684729",
+      "38647086",
+      "38595330",
+      "38572751",
+      "38102462",
+      "37880286",
+      "37783745",
+      "37552298",
+      "37448363",
+      "37060468",
+      "36943579",
+      "36923156",
+      "36865913",
+      "36851938",
+      "36743039",
+      "36578938",
+      "36059456",
+      "35839811",
+      "35682652",
+      "35298541",
+      "34946535",
+      "34833913",
+      "34832884",
+      "34650762",
+      "34278794",
+      "33513018",
+      "33299640",
+      "33194329",
+      "32735147",
+      "32615370",
+      "32191458",
+      "32038557",
+      "31812369",
+      "31691919",
+      "30616164",
+      "30400777",
+      "30136001",
+      "29531263",
+      "28884079",
+      "28571516",
+      "26457651",
+      "25950015",
+      "25618350",
+      "24981612",
+      "24200649",
+      "23955116",
+      "22628523",
+      "21702036",
+      "19874381",
+      "19499576",
+      "12612645",
+      "12517643",
+      "11579440"
+    ],
+    "similar": [
+      "39060289",
+      "26199214",
+      "24164050",
+      "24376816",
+      "37549730",
+      "30619353",
+      "31693922",
+      "33152438",
+      "36677967",
+      "30875378",
+      "24854633",
+      "30664221",
+      "23955116",
+      "34606995",
+      "34319220",
+      "39163297",
+      "32381054",
+      "30515767",
+      "28560716",
+      "18172569",
+      "34801511",
+      "33831465",
+      "35280831",
+      "31995016",
+      "24610458",
+      "10413422",
+      "29943809",
+      "21982220",
+      "37440290",
+      "25837567",
+      "31597772",
+      "19386711",
+      "31387520",
+      "35298541",
+      "20442590",
+      "28944962",
+      "33468698",
+      "25304375",
+      "32680634",
+      "27764154",
+      "31603527",
+      "38048896",
+      "14766263",
+      "26915086",
+      "30230542",
+      "21478701",
+      "33610710",
+      "35147481",
+      "26593212",
+      "27816058",
+      "26289783",
+      "37813330",
+      "35002506",
+      "24503077",
+      "26794656",
+      "20957472",
+      "27765367",
+      "15230643",
+      "32298665",
+      "34452559",
+      "19792047",
+      "26014966",
+      "33631046",
+      "17568661",
+      "27573495",
+      "35057815",
+      "31552532",
+      "9732239",
+      "31319108",
+      "26241675",
+      "30606718",
+      "29322839",
+      "32703126",
+      "25633640",
+      "17586029",
+      "26386540",
+      "30755547",
+      "35670907",
+      "30989655",
+      "22245994",
+      "17267502",
+      "37516391",
+      "16324714",
+      "21051983",
+      "18199779",
+      "32543978",
+      "30196013",
+      "28260046",
+      "32457393",
+      "24058440",
+      "35115618",
+      "33610706",
+      "20104743",
+      "26245695",
+      "37582106",
+      "16526022",
+      "26648323",
+      "33929758",
+      "23499609",
+      "25717103",
+      "21943319",
+      "32866332",
+      "19374192",
+      "37548653",
+      "39298437",
+      "37855345",
+      "37599470",
+      "37697733",
+      "39139718",
+      "39102052",
+      "37242487",
+      "39414839",
+      "34393414",
+      "39120789",
+      "39396813",
+      "39170106",
+      "39377405",
+      "37404365"
+    ],
+    "review": [
+      "39060289",
+      "18172569",
+      "33831465",
+      "33610710",
+      "37813330",
+      "33610706",
+      "33929758"
+    ],
+    "pmc": [
+      "11282209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-65112-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39060289/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

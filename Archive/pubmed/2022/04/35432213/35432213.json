@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "35432213",
+    "doi": "10.3389/fendo.2022.860649",
+    "title": "Network Pharmacological Study on Mechanism of the Therapeutic Effect of Modified Duhuo Jisheng Decoction in Osteoporosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Modified Duhuo Jisheng Decoction (MDHJSD) is a traditional Chinese medicine prescription for the treatment of osteoporosis (OP), but its mechanism of action has not yet been clarified. This study aims to explore the mechanism of MDHJSD in OP through a combination of network pharmacology analysis and experimental verification. METHODS: The active ingredients and corresponding targets of MDHJSD were acquired from the Traditional Chinese Medicine System Pharmacology (TCMSP) database. OP-related targets were acquired from databases, including Genecards, OMIM, Drugbank, CTD, and PGKB. The key compounds, core targets, major biological processes, and signaling pathways of MDHJSD that improve OP were identified by constructing and analysing the relevant networks. The binding affinities between key compounds and core targets were verified using AutoDock Vina software. A rat model of ovariectomized OP was used for the experimental verification. RESULTS: A total of 100 chemical constituents, 277 targets, and 4734 OP-related targets of MDHJSD were obtained. Subsequently, five core components and eight core targets were identified in the analysis. Pathway enrichment analysis revealed that overlapping targets were significantly enriched in the tumour necrosis factor-alpha (TNF-alpha) signaling pathway, an inflammation signaling pathway, which contained six of the eight core targets, including TNF-alpha, interleukin 6 (IL-6), transcription factor AP-1, mitogen-activated protein kinase 3, RAC-alpha serine/threonine-protein kinase, and caspase-3 (CASP3). Molecular docking analysis revealed close binding of the six core targets of the TNF signaling pathway to the core components. The results of experimental study show that MDHJSD can protect bone loss, inhibit the inflammatory response, and downregulate the expression levels of TNF-alpha, IL-6, and CASP3 in ovariectomized rats. CONCLUSION: The mechanism of MDHJSD in the treatment of OP may be related to the regulation of the inflammatory response in the bone tissue.",
+    "keywords": [
+      "Modified Duhuo Jisheng Decoction",
+      "TNF signaling pathway",
+      "molecular docking",
+      "network pharmacology",
+      "osteoporosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Caspase 3/therapeutic use",
+      "Drugs, Chinese Herbal",
+      "*Interleukin-6",
+      "Molecular Docking Simulation",
+      "*Osteoporosis/drug therapy",
+      "Rats",
+      "Tumor Necrosis Factor-alpha"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Xudong",
+        "Zhou, Zhou",
+        "Zheng, Yingyi",
+        "Fan, Guoshuai",
+        "Ni, Baihe",
+        "Liu, Meichen",
+        "Zhao, Minghua",
+        "Zeng, Lingfeng",
+        "Wang, Weiguo"
+      ],
+      "short_names": [
+        "Huang X",
+        "Zhou Z",
+        "Zheng Y",
+        "Fan G",
+        "Ni B",
+        "Liu M",
+        "Zhao M",
+        "Zeng L",
+        "Wang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "School of Basic Medical Science, Zhejiang University of Traditional Chinese Medicine, Hangzhou, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Xudong",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhou",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yingyi",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science, Zhejiang University of Traditional Chinese Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Guoshuai",
+        "short_name": "Fan G",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Baihe",
+        "short_name": "Ni B",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meichen",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Minghua",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Lingfeng",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weiguo",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+          "Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/19 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "41454270",
+      "39469911",
+      "38910274",
+      "37441527",
+      "36051307"
+    ],
+    "refs": [
+      "34452621",
+      "34028927",
+      "33880122",
+      "33014108",
+      "32081843",
+      "31792439",
+      "31067339",
+      "30941682",
+      "30590198",
+      "30476243",
+      "30450911",
+      "28689769",
+      "28573592",
+      "27180315",
+      "26590256",
+      "26327577",
+      "26255954",
+      "26138336",
+      "24735618",
+      "24592264",
+      "22543366",
+      "21209334",
+      "20961694",
+      "20350910",
+      "19038573",
+      "18722561",
+      "18285417",
+      "17921993",
+      "16985226",
+      "16670759",
+      "16410254",
+      "16313351",
+      "16234979",
+      "15288383",
+      "12746890",
+      "12049882",
+      "11723115",
+      "11089525",
+      "10968781",
+      "10791490"
+    ],
+    "similar": [
+      "35432213",
+      "36550856",
+      "33645090",
+      "37830364",
+      "36626454",
+      "33880122",
+      "36281111",
+      "37266623",
+      "38183673",
+      "38430615",
+      "35069454",
+      "35097126",
+      "37257711",
+      "35430443",
+      "32126522",
+      "36624435",
+      "36590764",
+      "39050570",
+      "33313323",
+      "35750104",
+      "33645093",
+      "32081843",
+      "34159207",
+      "33906674",
+      "36611103",
+      "32489064",
+      "33645094",
+      "34864624",
+      "33496116",
+      "37674371",
+      "34738439",
+      "37635236",
+      "34994141",
+      "35528163",
+      "35186104",
+      "35178959",
+      "34791846",
+      "37194226",
+      "35419071",
+      "33634308",
+      "33350195",
+      "35347967",
+      "34660782",
+      "35947018",
+      "34047084",
+      "38528143",
+      "35265311",
+      "33350196",
+      "35101570",
+      "38076660",
+      "35355555",
+      "35003325",
+      "34692849",
+      "33628311",
+      "33496115",
+      "35870685",
+      "34217946",
+      "38314262",
+      "33958856",
+      "38808725",
+      "32620113",
+      "34149863",
+      "33082858",
+      "37309760",
+      "34007291",
+      "34047081",
+      "35911404",
+      "35791093",
+      "35295951",
+      "38729247",
+      "35097123",
+      "34997010",
+      "34839256",
+      "32325182",
+      "34472273",
+      "34221084",
+      "34951253",
+      "34675488",
+      "37946483",
+      "34761652",
+      "33134394",
+      "35343164",
+      "33243703",
+      "33645092",
+      "34467694",
+      "34467696",
+      "34353059",
+      "34908920",
+      "33299870",
+      "36252878",
+      "34873575",
+      "33204683",
+      "38988173",
+      "32315738",
+      "35027934",
+      "35221674",
+      "33645072",
+      "36565386",
+      "34746316",
+      "35378193",
+      "33743701",
+      "35342751",
+      "34994140",
+      "33645014",
+      "35960074",
+      "33376732",
+      "37464262",
+      "33849106",
+      "34211578",
+      "32928080",
+      "35178962",
+      "33963719",
+      "35413412",
+      "31760157",
+      "35402622",
+      "38027135",
+      "38501406",
+      "37096878",
+      "36193286",
+      "35938504",
+      "36566207",
+      "35668929",
+      "36424369",
+      "38237172",
+      "38154965",
+      "36941586",
+      "37923747",
+      "32915649",
+      "35509624",
+      "37642288",
+      "36686973",
+      "38509819",
+      "38364892",
+      "35702106",
+      "36518044",
+      "35721171",
+      "38385487",
+      "31551787",
+      "36332760",
+      "37861542",
+      "36861803",
+      "38213143",
+      "38257113",
+      "33204290",
+      "37507774",
+      "36268464",
+      "37809453",
+      "39238407",
+      "38757042",
+      "35178102",
+      "36276446",
+      "37392529",
+      "35865965",
+      "37290281",
+      "35983515",
+      "36185080",
+      "35737512",
+      "35723292",
+      "39120624",
+      "37532006",
+      "35428337",
+      "37811432",
+      "38959199",
+      "36452325",
+      "37829646",
+      "35721142"
+    ],
+    "review": [
+      "35432213",
+      "33243703",
+      "37532006",
+      "36452325"
+    ],
+    "pmc": [
+      "9008312"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35432213/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35432213",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2022.860649",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

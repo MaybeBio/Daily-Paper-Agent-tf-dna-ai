@@ -1,0 +1,411 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.08.622635",
+  "title": "Transfer learning and DNA language models enhance transcription factor binding predictions",
+  "doi": "10.1101/2024.11.08.622635",
+  "abstract": "Identification of in vivo transcription factor (TF) binding sites is crucial to understand gene regulatory networks, but the lack of scalability in the methods for their experimental identification directs researchers towards computational models. TF binding site prediction models are often specific for a given TF, which also hinders the generalizability of models to previously unseen TFs. Here, we present an approach to predict in vivo TF binding sites using DNA accessibility, TF RNA expression and TF binding motifs. Our novel method leverages DNA language model embeddings and transfer learning to improve its accuracy and generalizability, achieving a mean area under the precision-recall curve (AUPR) of 0.51 in held-out cell types and chromosomes in the ENCODE-DREAM in vivo TFBS prediction challenge, outperforming the top-ranked methods. Furthermore, we show that prediction accuracy increases when TFs are highly active and exhibit cell-type specific expression. We finally test our models in an independent dataset on previously unseen TFs, and report a mean AUPR of 0.36, which is state-of-the-art in a cross-TF, cross-cell type and cross-chromosomal setting.",
+  "authors": [
+    "Ekin Deniz Aksu",
+    "Martin Vingron"
+  ],
+  "published_date": "2024-11-11",
+  "updated_date": "2024-11-11T12:30:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622635",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622635.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:28:52Z",
+        "timestamp": 1768516132189,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2024-11-11T00:00:00Z",
+            "timestamp": 1731283200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Identification of\n                  <jats:italic>in vivo</jats:italic>\n                  transcription factor (TF) binding sites is crucial to understand gene regulatory networks, but the lack of scalability in the methods for their experimental identification directs researchers towards computational models. TF binding site prediction models are often specific for a given TF, which also hinders the generalizability of models to previously unseen TFs. Here, we present an approach to predict\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding sites using DNA accessibility, TF RNA expression and TF binding motifs. Our novel method leverages DNA language model embeddings and transfer learning to improve its accuracy and generalizability, achieving a mean area under the precision-recall curve (AUPR) of 0.51 in held-out cell types and chromosomes in the ENCODE-DREAM\n                  <jats:italic>in vivo</jats:italic>\n                  TFBS prediction challenge, outperforming the top-ranked methods. Furthermore, we show that prediction accuracy increases when TFs are highly active and exhibit cell-type specific expression. We finally test our models in an independent dataset on previously unseen TFs, and report a mean AUPR of 0.36, which is state-of-the-art in a cross-TF, cross-cell type and cross-chromosomal setting.\n                </jats:p>",
+      "DOI": "10.1101/2024.11.08.622635",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2024-11-11T12:30:16Z",
+        "timestamp": 1731328216000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Transfer learning and DNA language models enhance transcription factor binding predictions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0427-5197",
+          "authenticated-orcid": false,
+          "given": "Ekin Deniz",
+          "family": "Aksu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1765-4241",
+          "authenticated-orcid": false,
+          "given": "Martin",
+          "family": "Vingron",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sa, L. et al. The Human Transcription Factors. Cell 172, (2018).",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.112623.110"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx174"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1603",
+          "DOI": "10.12688/f1000research.16200.2",
+          "article-title": "Predicting transcription factor binding using ensemble random forest models",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "F1000Research"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aba9031"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02690-2"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005403"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.YMETH.2019.03.020"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.237156.118"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1614-y"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010863"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18035-1"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4463"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-01938-4"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "High-performance single-cell gene regulatory network inference at scale: the Inferelator 3.0 | Bioinformatics | Oxford Academic. https://academic.oup.com/bioinformatics/article/38/9/2519/6533443.",
+          "DOI": "10.1093/bioinformatics/btac117"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.202311627"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-024-02182-7"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41588-021-00782-6"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae195"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2493-4"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj143"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.28",
+          "unstructured": "López Ruiz de Vargas, S. A comprehensive map of predicted enhancers on a large panel of human primary cells, cell lines and tissues. (2021) doi:https://repositori.upf.edu/handle/10230/49013."
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1860-7"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-017-1769-7"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01232-7"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02499-5"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.33",
+          "unstructured": "ENCODE-DREAM in vivo Transcription Factor Binding Site Prediction Challenge."
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab996"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3715005"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj144"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1072"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006372"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp554"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl565"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu056"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.169508.113"
+        },
+        {
+          "key": "2024111400050962000_2024.11.08.622635v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2939672.2939785"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.08.622635",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:26:02Z",
+        "timestamp": 1768461962000
+      },
+      "score": 196.04524,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.08.622635"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2024.11.08.622635",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

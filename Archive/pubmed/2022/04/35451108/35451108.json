@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "35451108",
+    "doi": "10.1002/hon.3003",
+    "title": "High inter-follicular spatial co-localization of CD8+FOXP3+ with CD4+CD8+ cells predicts favorable outcome in follicular lymphoma."
+  },
+  "content": {
+    "abstract": "The spatial architecture of the lymphoid tissue in follicular lymphoma (FL) presents unique challenges to studying its immune microenvironment. We investigated the spatial interplay of T cells, macrophages, myeloid cells and natural killer T cells using multispectral immunofluorescence images of diagnostic biopsies of 32 patients. A deep learning-based image analysis pipeline was tailored to the needs of follicular lymphoma spatial histology research, enabling the identification of different immune cells within and outside neoplastic follicles. We analyzed the density and spatial co-localization of immune cells in the inter-follicular and intra-follicular regions of follicular lymphoma. Low inter-follicular density of CD8+FOXP3+ cells and co-localization of CD8+FOXP3+ with CD4+CD8+ cells were significantly associated with relapse (p = 0.0057 and p = 0.0019, respectively) and shorter time to progression after first-line treatment (Logrank p = 0.0097 and log-rank p = 0.0093, respectively). A low inter-follicular density of CD8+FOXP3+ cells is associated with increased risk of relapse independent of follicular lymphoma international prognostic index (FLIPI) (p = 0.038, Hazard ratio (HR) = 0.42 [0.19, 0.95], but not independent of co-localization of CD8+FOXP3+ with CD4+CD8+ cells (p = 0.43). Co-localization of CD8+FOXP3+ with CD4+CD8+ cells is predictors of time to relapse independent of the FLIPI score and density of CD8+FOXP3+ cells (p = 0.027, HR = 0.0019 [7.19 x 10(-6) , 0.49], This suggests a potential role of inter-follicular CD8+FOXP3+ and CD4+CD8+ cells in the disease progression of FL, warranting further validation on larger patient cohorts.",
+    "keywords": [
+      "CD4+CD8+",
+      "CD8+FOXP3+",
+      "deep learning",
+      "follicular lymphoma",
+      "image analysis",
+      "multispectral immunofluorescence"
+    ],
+    "mesh_terms": [
+      "CD8-Positive T-Lymphocytes",
+      "Forkhead Transcription Factors",
+      "Humans",
+      "*Lymphoma, Follicular/pathology",
+      "Neoplasm Recurrence, Local",
+      "Prognosis",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hagos, Yeman B",
+        "Akarca, Ayse U",
+        "Ramsay, Alan",
+        "Rossi, Riccardo L",
+        "Pomplun, Sabine",
+        "Ngai, Victoria",
+        "Moioli, Alessia",
+        "Gianatti, Andrea",
+        "Mcnamara, Christopher",
+        "Rambaldi, Alessandro",
+        "Quezada, Sergio A",
+        "Linch, David",
+        "Gritti, Giuseppe",
+        "Yuan, Yinyin",
+        "Marafioti, Teresa"
+      ],
+      "short_names": [
+        "Hagos YB",
+        "Akarca AU",
+        "Ramsay A",
+        "Rossi RL",
+        "Pomplun S",
+        "Ngai V",
+        "Moioli A",
+        "Gianatti A",
+        "Mcnamara C",
+        "Rambaldi A",
+        "Quezada SA",
+        "Linch D",
+        "Gritti G",
+        "Yuan Y",
+        "Marafioti T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0357-6297"
+      ],
+      "affiliations": [
+        "Centre for Evolution and Cancer and Division of Molecular Pathology, The Institute of Cancer Research, London, UK.",
+        "Cancer Institute, University College London, London, UK.",
+        "Department of Histopathology, University College Hospitals London, London, UK.",
+        "Bioinformatics, Istituto Nazionale Genetica Molecolare, Milan, Italy.",
+        "Department of Histopathology, University College Hospitals London, London, UK.",
+        "Cancer Institute, University College London, London, UK.",
+        "Department of Histopathology, University College Hospitals London, London, UK.",
+        "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy.",
+        "Pathology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy.",
+        "Department of Haematology, University College London Hospital, London, UK.",
+        "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy.",
+        "Department of Oncology and Hematology-Oncology, University of Milan, Milan, Italy.",
+        "Cancer Immunology Unit, University College London Cancer Institute, University College London, London, UK.",
+        "Research Department of Haematology, University College London Cancer Institute, University College London, London, UK.",
+        "Research Department of Haematology, University College London Cancer Institute, University College London, London, UK.",
+        "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy.",
+        "Centre for Evolution and Cancer and Division of Molecular Pathology, The Institute of Cancer Research, London, UK.",
+        "Centre for Molecular Pathology, Royal Marsden Hospital, London, UK.",
+        "Cancer Institute, University College London, London, UK.",
+        "Department of Histopathology, University College Hospitals London, London, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hagos, Yeman B",
+        "short_name": "Hagos YB",
+        "identifiers": [
+          "0000-0002-0357-6297"
+        ],
+        "affiliations": [
+          "Centre for Evolution and Cancer and Division of Molecular Pathology, The Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Akarca, Ayse U",
+        "short_name": "Akarca AU",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Ramsay, Alan",
+        "short_name": "Ramsay A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histopathology, University College Hospitals London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Rossi, Riccardo L",
+        "short_name": "Rossi RL",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics, Istituto Nazionale Genetica Molecolare, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Pomplun, Sabine",
+        "short_name": "Pomplun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histopathology, University College Hospitals London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Ngai, Victoria",
+        "short_name": "Ngai V",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Institute, University College London, London, UK.",
+          "Department of Histopathology, University College Hospitals London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Moioli, Alessia",
+        "short_name": "Moioli A",
+        "identifiers": [],
+        "affiliations": [
+          "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy."
+        ]
+      },
+      {
+        "full_name": "Gianatti, Andrea",
+        "short_name": "Gianatti A",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy."
+        ]
+      },
+      {
+        "full_name": "Mcnamara, Christopher",
+        "short_name": "Mcnamara C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Haematology, University College London Hospital, London, UK."
+        ]
+      },
+      {
+        "full_name": "Rambaldi, Alessandro",
+        "short_name": "Rambaldi A",
+        "identifiers": [],
+        "affiliations": [
+          "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy.",
+          "Department of Oncology and Hematology-Oncology, University of Milan, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Quezada, Sergio A",
+        "short_name": "Quezada SA",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Unit, University College London Cancer Institute, University College London, London, UK.",
+          "Research Department of Haematology, University College London Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Linch, David",
+        "short_name": "Linch D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Department of Haematology, University College London Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Gritti, Giuseppe",
+        "short_name": "Gritti G",
+        "identifiers": [],
+        "affiliations": [
+          "Hematology Unit, Ospedale Papa Giovanni XXIII, Bergamo, Italy."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yinyin",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Evolution and Cancer and Division of Molecular Pathology, The Institute of Cancer Research, London, UK.",
+          "Centre for Molecular Pathology, Royal Marsden Hospital, London, UK."
+        ]
+      },
+      {
+        "full_name": "Marafioti, Teresa",
+        "short_name": "Marafioti T",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Institute, University College London, London, UK.",
+          "Department of Histopathology, University College Hospitals London, London, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hematological oncology"
+    ],
+    "journal_abbrev": [
+      "Hematol Oncol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/23 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "42199929",
+      "41820927",
+      "41103431",
+      "39609630",
+      "39456961",
+      "38516631",
+      "37963212",
+      "37854674",
+      "36211379"
+    ],
+    "refs": [
+      "35105854",
+      "34709880",
+      "34267181",
+      "33929583",
+      "33694181",
+      "33603754",
+      "33260693",
+      "32509058",
+      "32472096",
+      "32377574",
+      "31881972",
+      "31831752",
+      "31053601",
+      "30802265",
+      "30413715",
+      "30155493",
+      "30089912",
+      "29340116",
+      "28859291",
+      "28101314",
+      "27481837",
+      "27368803",
+      "27334853",
+      "26395345",
+      "26124482",
+      "25638802",
+      "25360000",
+      "25255081",
+      "24955247",
+      "24925224",
+      "24510338",
+      "24388756",
+      "22993621",
+      "21312192",
+      "20857491",
+      "20068089",
+      "20052413",
+      "19901260",
+      "19433592",
+      "19059937",
+      "18174380",
+      "18086798",
+      "18056169",
+      "17908969",
+      "17255259",
+      "17200149",
+      "17050078",
+      "15548776",
+      "4911896"
+    ],
+    "similar": [
+      "35451108",
+      "33929583",
+      "19901260",
+      "21237493",
+      "20068089",
+      "22993621",
+      "32540726",
+      "27341313",
+      "26256760",
+      "34267181",
+      "37373066",
+      "32853965",
+      "16825494",
+      "32383789",
+      "23775959",
+      "17033038",
+      "24510338",
+      "15367408",
+      "32758195",
+      "34006632",
+      "17135637",
+      "37723053",
+      "32196124",
+      "36261137",
+      "30918139",
+      "31631566",
+      "22394030",
+      "34845733",
+      "24244610",
+      "35996180",
+      "18223287",
+      "32534760",
+      "34362334",
+      "37331847",
+      "32112202",
+      "20221835",
+      "19224853",
+      "36169332",
+      "28414090",
+      "26439683",
+      "29878369",
+      "22879926",
+      "32216826",
+      "24727328",
+      "39248131",
+      "27334853",
+      "29475724",
+      "28446291",
+      "24691423",
+      "16343272",
+      "30530592",
+      "17255259",
+      "31488881",
+      "24331841",
+      "18067016",
+      "24566864",
+      "26722524",
+      "33686666",
+      "35140715",
+      "19887775",
+      "33136585",
+      "26043587",
+      "22495453",
+      "22795355",
+      "34226281",
+      "22829236",
+      "33790150",
+      "34558296",
+      "29886672",
+      "30999388",
+      "31773516",
+      "28885584",
+      "32610210",
+      "31841221",
+      "35484226",
+      "27687692",
+      "26341640",
+      "24274024",
+      "30894409",
+      "26209749",
+      "26757600",
+      "20452085",
+      "26641260",
+      "29870918",
+      "27502728",
+      "27369070",
+      "29768737",
+      "25011996",
+      "30474571",
+      "16902287",
+      "23207161",
+      "25446402",
+      "37635086",
+      "37173705",
+      "25555571",
+      "30784598",
+      "38428410",
+      "28579665",
+      "37038467"
+    ],
+    "review": [
+      "35451108",
+      "32540726",
+      "27334853"
+    ],
+    "pmc": [
+      "10577604"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/930688",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://www.ovid.com/35451108.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35451108/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35451108",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/hon.3003",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.04.09.439184",
+  "title": "Improved data sets and evaluation methods for the automatic prediction of DNA-binding proteins",
+  "doi": "10.1101/2021.04.09.439184",
+  "abstract": "Motivation Accurate automatic annotation of protein function relies on both innovative models and robust datasets. Due to their importance in biological processes, the identification of DNA-binding proteins directly from protein sequence has been the focus of many studies. However, the data sets used to train and evaluate these methods have suffered from substantial flaws. We describe some of the weaknesses of the data sets used in previous DNA-binding protein literature and provide several new data sets addressing these problems. We suggest new evaluative benchmark tasks that more realistically assess real-world performance for protein annotation models. We propose a simple new model for the prediction of DNA-binding proteins and compare its performance on the improved data sets to two previously published models. Additionally, we provide extensive tests showing how the best models predict across taxonomies. Results Our new gradient boosting model, which uses features derived from a published protein language model, outperforms the earlier models. Perhaps surprisingly, so does a baseline nearest neighbor model using BLAST percent identity. We evaluate the sensitivity of these models to perturbations of DNA-binding regions and control regions of protein sequences. The successful data-driven models learn to focus on DNA-binding regions. When predicting across taxonomies, the best models are highly accurate across species in the same kingdom and can provide some information when predicting across kingdoms. Code and Data Availability All the code and data for this paper can be found at https://github.com/AZaitzeff/tools_for_dna_binding_proteins . Contact alexander.zaitzeff@twosixtech.com",
+  "authors": [
+    "Alexander Zaitzeff",
+    "Nicholas Leiby",
+    "Francis C. Motta",
+    "Steven B. Haase",
+    "Jedediah M. Singer"
+  ],
+  "published_date": "2021-04-11",
+  "updated_date": "2021-04-11T17:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.04.09.439184",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.04.09.439184.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:31:07Z",
+        "timestamp": 1768494667817,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2021-04-11T00:00:00Z",
+            "timestamp": 1618099200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Accurate automatic annotation of protein function relies on both innovative models and robust datasets. Due to their importance in biological processes, the identification of DNA-binding proteins directly from protein sequence has been the focus of many studies. However, the data sets used to train and evaluate these methods have suffered from substantial flaws. We describe some of the weaknesses of the data sets used in previous DNA-binding protein literature and provide several new data sets addressing these problems. We suggest new evaluative benchmark tasks that more realistically assess real-world performance for protein annotation models. We propose a simple new model for the prediction of DNA-binding proteins and compare its performance on the improved data sets to two previously published models. Additionally, we provide extensive tests showing how the best models predict across taxonomies.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Our new gradient boosting model, which uses features derived from a published protein language model, outperforms the earlier models. Perhaps surprisingly, so does a baseline nearest neighbor model using BLAST percent identity. We evaluate the sensitivity of these models to perturbations of DNA-binding regions and control regions of protein sequences. The successful data-driven models learn to focus on DNA-binding regions. When predicting across taxonomies, the best models are highly accurate across species in the same kingdom and can provide some information when predicting across kingdoms.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Code and Data Availability</jats:title>\n                  <jats:p>\n                    All the code and data for this paper can be found at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AZaitzeff/tools_for_dna_binding_proteins\">https://github.com/AZaitzeff/tools_for_dna_binding_proteins</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>alexander.zaitzeff@twosixtech.com</jats:email>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.04.09.439184",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2021-04-11T17:55:13Z",
+        "timestamp": 1618163713000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Improved data sets and evaluation methods for the automatic prediction of DNA-binding proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9731-1873",
+          "authenticated-orcid": false,
+          "given": "Alexander",
+          "family": "Zaitzeff",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas",
+          "family": "Leiby",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0364-5440",
+          "authenticated-orcid": false,
+          "given": "Francis C.",
+          "family": "Motta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Steven B.",
+          "family": "Haase",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5255-4473",
+          "authenticated-orcid": false,
+          "given": "Jedediah M.",
+          "family": "Singer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1016/j.jtbi.2018.10.027",
+          "article-title": "Effective DNA binding protein prediction by using key features via Chou’s general PseAAC",
+          "volume": "460",
+          "year": "2019",
+          "journal-title": "J Theor Biol"
+        },
+        {
+          "issue": "7",
+          "key": "2024080519232090000_2021.04.09.439184v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "645",
+          "DOI": "10.1007/s10822-019-00207-x",
+          "article-title": "Dp-binder: machine learning model for prediction of dna-binding proteins by fusing evolutionary and physicochemical information",
+          "volume": "33",
+          "year": "2019",
+          "journal-title": "J Comput Aided Mol Des"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0076-6879(96)66029-7"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts608"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, T. and Guestrin, C. (2016). XGBoost: A scalable tree boosting system. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD ‘16, pages 785–794, New York, NY, USA. ACM.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13040-017-0155-3"
+        },
+        {
+          "issue": "1",
+          "key": "2024080519232090000_2021.04.09.439184v1.9",
+          "first-page": "1",
+          "article-title": "iDNAProt-ES: Identification of DNA-binding proteins using evolutionary and structural features",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "SciRep"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1055"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "issue": "8",
+          "key": "2024080519232090000_2021.04.09.439184v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "3119",
+          "DOI": "10.1021/acs.jproteome.9b00226",
+          "article-title": "Msdbp: Exploring dna-binding proteins by integrating multiscale sequence information via chou’s five-step rule",
+          "volume": "18",
+          "year": "2019",
+          "journal-title": "J Proteome Res"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. , Heinzinger, M. , Dallago, C. , Rihawi, G. , Wang, Y. , Jones, L. , Gibbs, T. , Feher, T. , Angerer, C. , Steinegger, M. , Bhowmik, D. , and Rost, B. (2020). Prottrans: Towards cracking the language of life’s code through self-supervised deep learning and high performance computing.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Giglio, M. , Tauber, R. , Nadendla, S. , Munro, J. , Olley, D. , Ball, S. , Mitraka, E. , Schriml, L. M. , Gaudet, P. , Hobbs, E. T. , Erill, I. , Siegele, D. A. , Hu, J. C. , Mungall, C. , and Chibucos, M. C. (2019). Eco, the evidence & conclusion ontology: community standard for evidence information. Nucleic Acids Res, 47(D1), D1186—D1194.",
+          "DOI": "10.1093/nar/gky1036"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0955-0674(97)80015-4"
+        },
+        {
+          "issue": "11",
+          "key": "2024080519232090000_2021.04.09.439184v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0225317",
+          "DOI": "10.1371/journal.pone.0225317",
+          "article-title": "An improved deep learning method for predicting dna-binding proteins based on contextual features in amino acid sequences",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "PLoS one"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jen, K.-Y. and Travers, A. (2013). Dna-binding proteins. In Brenner’s Encyclopedia of Genetics: Second Edition, pages 345–347. Elsevier Inc.",
+          "DOI": "10.1016/B978-0-12-374984-0.00439-3"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(87)90358-8"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-463"
+        },
+        {
+          "issue": "1",
+          "key": "2024080519232090000_2021.04.09.439184v1.20",
+          "first-page": "1",
+          "article-title": "Origin of the nuclear proteome on the basis of pre-existing nuclear localization signals in prokaryotic proteins",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Biol Direct"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0106691"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep08026"
+        },
+        {
+          "issue": "4",
+          "key": "2024080519232090000_2021.04.09.439184v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "328",
+          "DOI": "10.1109/TNB.2016.2555951",
+          "article-title": "Identification of dna-binding proteins by combining auto-cross covariance transformation and ensemble learning",
+          "volume": "15",
+          "year": "2016",
+          "journal-title": "IEEE Trans Nanobioscience"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0086703"
+        },
+        {
+          "issue": "12",
+          "key": "2024080519232090000_2021.04.09.439184v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0167345",
+          "DOI": "10.1371/journal.pone.0167345",
+          "article-title": "Dnabp: Identification of dna-binding proteins based on feature selection using a random forest and predicting binding residues",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "PLoS one"
+        },
+        {
+          "issue": "3",
+          "key": "2024080519232090000_2021.04.09.439184v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "433",
+          "DOI": "10.1093/bioinformatics/bty653",
+          "article-title": "Stackdppred: a stacking based prediction of dna-binding protein from sequence",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv805"
+        },
+        {
+          "issue": "1",
+          "key": "2024080519232090000_2021.04.09.439184v1.28",
+          "first-page": "3.1.1",
+          "article-title": "An introduction to sequence similarity (“homology”) searching",
+          "volume": "42",
+          "year": "2013",
+          "journal-title": "Curr Protoc Bioinform"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms11388"
+        },
+        {
+          "issue": "12",
+          "key": "2024080519232090000_2021.04.09.439184v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0188129",
+          "DOI": "10.1371/journal.pone.0188129",
+          "article-title": "On the prediction of dna-binding proteins only from primary sequences: A deep learning approach",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "PLoS one"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.31",
+          "first-page": "22",
+          "article-title": "Dpp-pseaac: A dna-binding protein prediction model using chou’s general pseaac",
+          "volume": "452",
+          "year": "2018",
+          "journal-title": "JTheorBiol"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives, A. , Meier, J. , Sercu, T. , Goyal, S. , Lin, Z. , Guo, D. , Ott, M. , Zitnick, C. L. , Ma, J. , and Fergus, R. (2019). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. bioRxiv.",
+          "DOI": "10.1101/622803"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J. , Zheng, H. , Yang, Y. , Xiao, W. , and Liu, T. (2020). Preddbp-stack: Prediction of dna-binding proteins from hmm profiles using a stacked ensemble method. Biomed Res Int, 2020.",
+          "DOI": "10.1155/2020/7297631"
+        },
+        {
+          "issue": "9",
+          "key": "2024080519232090000_2021.04.09.439184v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0185587",
+          "DOI": "10.1371/journal.pone.0185587",
+          "article-title": "Improved detection of dna-binding proteins via compression technology on pssm information",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "PloS one"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1016/j.neucom.2016.03.025",
+          "article-title": "Identification of dna binding proteins using evolutionary profiles position specific scoring matrix",
+          "volume": "199",
+          "year": "2016",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.36",
+          "first-page": "135",
+          "article-title": "Local-DPP:An improved DNA-binding protein prediction method by exploring local evolutionary information",
+          "volume": "384",
+          "year": "2017",
+          "journal-title": "InfSci (N Y)"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, R. , Zhou, J. , Liu, B. , Yao, L. , He, Y. , Zou, Q. , and Wang, X. (2014). endna-prot: identification of dna-binding proteins by applying ensemble learning. Biomed Res Int, 2014.",
+          "DOI": "10.1155/2014/294279"
+        },
+        {
+          "key": "2024080519232090000_2021.04.09.439184v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zaman, R. , Chowdhury, S. Y. , Rashid, M. A. , Sharma, A. , Dehzangi, A. , and Shatabda, S. (2017). Hmmbinder: Dna-binding protein prediction using hmm profile based features. Biomed Res Int, 2017.",
+          "DOI": "10.1155/2017/4590609"
+        },
+        {
+          "issue": "9",
+          "key": "2024080519232090000_2021.04.09.439184v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1856",
+          "DOI": "10.3390/ijms18091856",
+          "article-title": "Psfm-dbt: identifying dna-binding proteins by combing position specific frequency matrix and distance-bigram transformation",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Int J Mol Sci"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.04.09.439184",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:33:48Z",
+        "timestamp": 1768440828000
+      },
+      "score": 122.042656,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.04.09.439184"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            11
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2021.04.09.439184",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

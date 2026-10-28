@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "36692516",
+    "doi": "10.1007/s00011-023-01693-4",
+    "title": "Uncovering the role of transient receptor potential channels in pterygium: a machine learning approach."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: We aimed at identifying the role of transient receptor potential (TRP) channels in pterygium. METHODS: Based on microarray data GSE83627 and GSE2513, differentially expressed genes (DEGs) were screened and 20 hub genes were selected. After gene correlation analysis, 5 TRP-related genes were obtained and functional analyses of gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) were performed. Multifactor regulatory network including mRNA, microRNAs (miRNAs) and transcription factors (TFs) was constructed. The 5 gene TRP signature for pterygium was validated by multiple machine learning (ML) programs including support vector classifiers (SVC), random forest (RF), and k-nearest neighbors (KNN). Additionally, we outlined the immune microenvironment and analyzed the candidate drugs. Finally, in vitro experiments were performed using human conjunctival epithelial cells (CjECs) to confirm the bioinformatics results. RESULTS: Five TRP-related genes (MCOLN1, MCOLN3, TRPM3, TRPM6, and TRPM8) were validated by ML algorithms. Functional analyses revealed the participation of lysosome and TRP-regulated inflammatory pathways. A comprehensive immune infiltration landscape and TFs-miRNAs-mRNAs network was studied, which indicated several therapeutic targets (LEF1 and hsa-miR-455-3p). Through correlation analysis, MCOLN3 was proposed as the most promising immune-related biomarker. In vitro experiments further verified the reliability of our in silico results and demonstrated that the 5 TRP-related genes could influence the proliferation and proinflammatory signaling in conjunctival tissue contributing to the pathogenesis of pterygium. CONCLUSIONS: Our study suggested that TRP channels played an essential role in the pathogenesis of pterygium. The identified pivotal biomarkers (especially MCOLN3) and pathways provide novel directions for future mechanistic and therapeutic studies for pterygium.",
+    "keywords": [
+      "Gene signature",
+      "Immune landscape",
+      "Machine learning",
+      "Pterygium",
+      "Therapy",
+      "Transient receptor potential channels"
+    ],
+    "mesh_terms": [
+      "*Transient Receptor Potential Channels/genetics",
+      "Conjunctiva/abnormalities",
+      "Reproducibility of Results",
+      "*Pterygium/genetics",
+      "Humans",
+      "*MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Yuchen",
+        "Zhou, Tianyi",
+        "Chen, Jin",
+        "Cai, Xueyao",
+        "Fu, Yao"
+      ],
+      "short_names": [
+        "Cai Y",
+        "Zhou T",
+        "Chen J",
+        "Cai X",
+        "Fu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China.",
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China.",
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. billy112544op@gmail.com.",
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. drfuyao@126.com.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. drfuyao@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Yuchen",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tianyi",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xueyao",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. billy112544op@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Yao",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. drfuyao@126.com.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. drfuyao@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/25 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "40725962",
+      "40660393",
+      "40496889",
+      "40422222",
+      "39409822",
+      "39195219",
+      "38347388",
+      "37724272"
+    ],
+    "refs": [
+      "35798829",
+      "35570407",
+      "35169235",
+      "35131932",
+      "35128181",
+      "35002229",
+      "34323621",
+      "34206333",
+      "34070506",
+      "34030116",
+      "33756159",
+      "33304254",
+      "33057072",
+      "32602639",
+      "32545371",
+      "32470644",
+      "32243801",
+      "32215176",
+      "32029918",
+      "32004513",
+      "31799611",
+      "31533735",
+      "30260034",
+      "29313597",
+      "29045329",
+      "28849159",
+      "28549569",
+      "27163769",
+      "26982596",
+      "26027738",
+      "25511176",
+      "25460045",
+      "24439044",
+      "24253031",
+      "24250313",
+      "24103806",
+      "24099085",
+      "23720286",
+      "23499063",
+      "22114162",
+      "21763169",
+      "21424047",
+      "21401968",
+      "21290299",
+      "21281814",
+      "19515643",
+      "18264653",
+      "17579562",
+      "17095882",
+      "15337119",
+      "15094131"
+    ],
+    "similar": [
+      "36692516",
+      "36398070",
+      "33299863",
+      "32645133",
+      "38347388",
+      "36187094",
+      "36768371",
+      "36591215",
+      "23872359",
+      "34536521",
+      "35757392",
+      "36704339",
+      "33407587",
+      "34997134",
+      "36291136",
+      "31774554",
+      "35958412",
+      "36118873",
+      "28939059",
+      "31024802",
+      "39013779",
+      "35401659",
+      "34686186",
+      "36187128",
+      "34313877",
+      "30688676",
+      "35445627",
+      "35132271",
+      "33104965",
+      "35909518",
+      "31934299",
+      "28849159",
+      "35949853",
+      "30138363",
+      "36605987",
+      "36647068",
+      "34934349",
+      "35773742",
+      "35620387",
+      "38948951",
+      "35119030",
+      "34867824",
+      "34345178",
+      "28302149",
+      "36506310",
+      "36352034",
+      "34377019",
+      "34434654",
+      "35577542",
+      "34511934",
+      "36341343",
+      "32714978",
+      "36353576",
+      "35304111",
+      "36635346",
+      "35237223",
+      "29516510",
+      "31553078",
+      "34806315",
+      "30503955",
+      "29255496",
+      "32867783",
+      "34797582",
+      "35322101",
+      "19956562",
+      "32547322",
+      "34485383",
+      "33439992",
+      "36483920",
+      "33532314",
+      "31277149",
+      "32435051",
+      "28952134",
+      "32741804",
+      "33015184",
+      "32349536",
+      "35658960",
+      "25053875",
+      "32791870",
+      "33083497",
+      "36186471",
+      "34722763",
+      "34553293",
+      "28315020",
+      "36536067",
+      "36419192",
+      "31536386",
+      "34754625",
+      "36042613",
+      "33705733",
+      "35957838",
+      "38107964",
+      "38907016"
+    ],
+    "review": [
+      "36692516",
+      "34997134",
+      "35119030"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-023-01693-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

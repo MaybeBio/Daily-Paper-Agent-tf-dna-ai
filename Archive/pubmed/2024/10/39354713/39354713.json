@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "39354713",
+    "doi": "10.1016/j.bpj.2024.09.031",
+    "title": "RNA binding tunes the conformational plasticity and intradomain stability of TDP-43 tandem RNA recognition motifs."
+  },
+  "content": {
+    "abstract": "TAR DNA binding protein 43 (TDP-43) is a nuclear RNA/DNA-binding protein with pivotal roles in RNA-related processes such as splicing, transcription, transport, and stability. The high binding affinity and specificity of TDP-43 toward its cognate RNA sequences (GU-rich) is mediated by highly conserved residues in its tandem RNA recognition motif (RRM) domains (aa: 104-263). Importantly, the loss of RNA binding to the tandem RRMs caused by physiological stressors and chemical modifications promotes cytoplasmic mislocalization and pathological aggregation of TDP-43. Despite the substantial implications of RNA binding in TDP-43 function and pathology, its precise effects on the intradomain stability, and conformational dynamics of the tandem RRMs is not properly understood. Here, we employed all-atom molecular dynamics (MD) simulations to assess the effect of RNA binding on the conformational landscape and intradomain stability of TDP-43 tandem RRMs. RNA limits the overall conformational space of the tandem RRMs and promotes intradomain stability through a combination of specific base stacking interactions and transient electrostatic interactions. In contrast, tandem RRMs exhibit a high intrinsic conformational plasticity in the absence of RNA, which, surprisingly, is accompanied by a tendency of RRM1 to adopt partially unfolded conformations. Overall, our simulations reveal how RNA binding dynamically tunes the structural and conformational landscape of TDP-43 tandem RRMs, contributing to physiological function and mitigating pathological aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*RNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Protein Stability",
+      "*Protein Domains",
+      "*RNA Recognition Motif",
+      "Humans",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ozguney, Busra",
+        "Mohanty, Priyesh",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Ozguney B",
+        "Mohanty P",
+        "Mittal J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas. Electronic address: priyeshm@tamu.edu.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas; Department of Chemistry, Texas A&M University, College Station, Texas; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas. Electronic address: jeetain@tamu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ozguney, Busra",
+        "short_name": "Ozguney B",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas. Electronic address: priyeshm@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas; Department of Chemistry, Texas A&M University, College Station, Texas; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas. Electronic address: jeetain@tamu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Nov 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/02 07:01",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42135847",
+      "42096556",
+      "41909144",
+      "41683564",
+      "41446138",
+      "40404809",
+      "40281357"
+    ],
+    "refs": [
+      "38985864",
+      "38740056",
+      "38160320",
+      "37853696",
+      "37805934",
+      "37579155",
+      "37431963",
+      "36930291",
+      "36709343",
+      "36463773",
+      "36348631",
+      "35858577",
+      "35802394",
+      "35581326",
+      "35398094",
+      "35245737",
+      "35129612",
+      "34490845",
+      "34457335",
+      "34109652",
+      "33908654",
+      "33335017",
+      "33032406",
+      "32312191",
+      "32151887",
+      "32132204",
+      "31930403",
+      "31920533",
+      "31914861",
+      "31889193",
+      "31018129",
+      "30992467",
+      "30990694",
+      "30742796",
+      "30357366",
+      "30309612",
+      "30285443",
+      "29438978",
+      "29378935",
+      "29297679",
+      "27787702",
+      "27545621",
+      "27286828",
+      "27193998",
+      "27166375",
+      "26936937",
+      "26889708",
+      "26765584",
+      "26756435",
+      "25400522",
+      "25288112",
+      "24591609",
+      "24497641",
+      "24464995",
+      "24240615",
+      "23737961",
+      "23519609",
+      "23264757",
+      "23092511",
+      "22405725",
+      "22193716",
+      "21921995",
+      "21857680",
+      "21742258",
+      "21500218",
+      "20740007",
+      "20020773",
+      "19174564",
+      "18307167",
+      "17981595",
+      "17351000",
+      "17023659",
+      "16731699",
+      "15826655",
+      "15264254",
+      "14507727",
+      "11470789",
+      "11294794",
+      "9541397"
+    ],
+    "similar": [
+      "39354713",
+      "29279008",
+      "42740374",
+      "33441818",
+      "41905172",
+      "24240615",
+      "26838063",
+      "24497641",
+      "33151007",
+      "34599611",
+      "31262091",
+      "40960392",
+      "38160320",
+      "34490845",
+      "39558635",
+      "40404809",
+      "38985864",
+      "24464995",
+      "30694439",
+      "35538713",
+      "42136125",
+      "23558684",
+      "31914861",
+      "41565639",
+      "31759630",
+      "42176847",
+      "30992467",
+      "34944548",
+      "41933903",
+      "31241884",
+      "28330421",
+      "23300771",
+      "41397557",
+      "33577684",
+      "40908720",
+      "30520297",
+      "39073874",
+      "40147776",
+      "39397705",
+      "20947024",
+      "36454680",
+      "39610319",
+      "34109652",
+      "9115444",
+      "25584704",
+      "37061152",
+      "21743084",
+      "31898895",
+      "31035038",
+      "28566288",
+      "25635624",
+      "30315897",
+      "36202814",
+      "28315749",
+      "28334819",
+      "35751132",
+      "39804219",
+      "33705755",
+      "28167528",
+      "42096556",
+      "41594575",
+      "37853696",
+      "28793209",
+      "23840565",
+      "29866003",
+      "39548508",
+      "39426615",
+      "42717208",
+      "26883171",
+      "26099433",
+      "41298366",
+      "19174564",
+      "39305233",
+      "22154808",
+      "27226551",
+      "34390468",
+      "23247503",
+      "22761693",
+      "38567732",
+      "41182901",
+      "41046346",
+      "22563080",
+      "37046025",
+      "39116184",
+      "36841957",
+      "30135093",
+      "28935965",
+      "39380150",
+      "31479821",
+      "30309612",
+      "30356856",
+      "27101846",
+      "30418581",
+      "29050934",
+      "30742796",
+      "38615537",
+      "42135750",
+      "25081215",
+      "30933978",
+      "23603827"
+    ],
+    "review": [
+      "39354713",
+      "28315749",
+      "31479821"
+    ],
+    "pmc": [
+      "11560306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00658-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39354713/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

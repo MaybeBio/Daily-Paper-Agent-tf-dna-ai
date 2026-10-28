@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "39713364",
+    "doi": "10.1101/2024.12.09.627422",
+    "title": "L2G: Repurposing Language Models for Genomics Tasks."
+  },
+  "content": {
+    "abstract": "Pre-trained language models have transformed the field of natural language processing (NLP), and their success has inspired efforts in genomics to develop domain-specific foundation models (FMs). However, creating high-quality genomic FMs from scratch is resource-intensive, requiring significant computational power and high-quality pre-training data. The success of large language models (LLMs) in NLP has largely been driven by industrial-scale efforts leveraging vast, diverse corpora and massive computing infrastructure. In this work, we aim to bypass the data and computational bottlenecks of creating genomic FMs from scratch and instead propose repurposing existing LLMs for genomics tasks. Inspired by the recently observed 'cross-modal transfer' phenomenon - where transformers pre-trained on natural language can generalize to other modalities - we introduce L2G, which adapts a pre-trained LLM architecture for genomics using neural architecture search (NAS) and a novel three-stage training procedure. Remarkably, without requiring extensive pre-training on DNA sequence data, L2G achieves superior performance to fine-tuned genomic FMs and task-specific models on more than half of tasks across multiple genomics benchmarks. In an enhancer activity prediction task, L2G further demonstrates its capacity to identify significant transcription factor motifs. Our work not only highlights the generalizability and efficacy of language models in out-of-domain tasks such as genomics, but also opens new avenues for more efficient and less resource-intensive methodologies in genomic research.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Wenduo",
+        "Shen, Junhong",
+        "Khodak, Mikhail",
+        "Ma, Jian",
+        "Talwalkar, Ameet"
+      ],
+      "short_names": [
+        "Cheng W",
+        "Shen J",
+        "Khodak M",
+        "Ma J",
+        "Talwalkar A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4202-5834",
+        "ORCID: 0000-0001-6650-1893"
+      ],
+      "affiliations": [
+        "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Princeton Language & Intelligence, Princeton AI Lab, Princeton University, Princeton, NJ 08544, USA.",
+        "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Wenduo",
+        "short_name": "Cheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Junhong",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Khodak, Mikhail",
+        "short_name": "Khodak M",
+        "identifiers": [],
+        "affiliations": [
+          "Princeton Language & Intelligence, Princeton AI Lab, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Jian",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0000-0002-4202-5834"
+        ],
+        "affiliations": [
+          "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Talwalkar, Ameet",
+        "short_name": "Talwalkar A",
+        "identifiers": [
+          "0000-0001-6650-1893"
+        ],
+        "affiliations": [
+          "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 17:24",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40660356",
+      "40567809",
+      "39609566",
+      "39122941",
+      "38612878",
+      "37387183",
+      "37127596",
+      "35659533",
+      "35551305",
+      "34608324",
+      "33603233",
+      "33538820",
+      "33046897",
+      "29588361",
+      "27197224",
+      "26301843",
+      "19443682",
+      "19380483",
+      "3203380"
+    ],
+    "similar": [
+      "39713364",
+      "39500238",
+      "40849052",
+      "38422367",
+      "39121174",
+      "39083337",
+      "39374057",
+      "38447502",
+      "35448946",
+      "40627819",
+      "41158510",
+      "40153539",
+      "39998912",
+      "40567745",
+      "39786555",
+      "35485748",
+      "38657567",
+      "39435343",
+      "38259343",
+      "38587879",
+      "40773525",
+      "40660356",
+      "38514400",
+      "39923968",
+      "31501885",
+      "41061027",
+      "40752409",
+      "39471773",
+      "40060567",
+      "40619512",
+      "40795315",
+      "39671984",
+      "40631446",
+      "39600494",
+      "40162210",
+      "41300810",
+      "40530265",
+      "39379930",
+      "41060040",
+      "34479396",
+      "40190132",
+      "39167746",
+      "37211194",
+      "40502228",
+      "40018364",
+      "39982676",
+      "40258923",
+      "36068551",
+      "41021927",
+      "40417506",
+      "39997322",
+      "40540614",
+      "41426306",
+      "39272021",
+      "38875593",
+      "40199310",
+      "40055634",
+      "39669437",
+      "40665561",
+      "39730390",
+      "40606333",
+      "35382811",
+      "39208311",
+      "41132911",
+      "37939407",
+      "41061943",
+      "40425727",
+      "40092287",
+      "38833265",
+      "38739445",
+      "41041625",
+      "37765758",
+      "38084745",
+      "40101227",
+      "36380848",
+      "40997012",
+      "40021099",
+      "40854226",
+      "40605274",
+      "40252977",
+      "39978047",
+      "32308921",
+      "41028742",
+      "40529494",
+      "37722445",
+      "39212609",
+      "41383383",
+      "40706121",
+      "40119150",
+      "40577654",
+      "40160857",
+      "40461545",
+      "34330244",
+      "38468693",
+      "39588066",
+      "40531636",
+      "38366043",
+      "39792917",
+      "37131872",
+      "40997586"
+    ],
+    "review": [
+      "39713364",
+      "39374057",
+      "41158510",
+      "39998912",
+      "39435343",
+      "40530265",
+      "34479396",
+      "41021927",
+      "40199310",
+      "37939407",
+      "40021099",
+      "38366043"
+    ],
+    "pmc": [
+      "11661171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39713364/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3547",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.09.627422",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

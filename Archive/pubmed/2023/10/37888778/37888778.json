@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "37888778",
+    "doi": "10.15252/embr.202357234",
+    "title": "PLK1 promotes the mitotic surveillance pathway by controlling cytosolic 53BP1 availability."
+  },
+  "content": {
+    "abstract": "53BP1 acts at the crossroads between DNA repair and p53-mediated stress response. With its interactors p53 and USP28, it is part of the mitotic surveillance (or mitotic stopwatch) pathway (MSP), a sensor that monitors the duration of cell division, promoting p53-dependent cell cycle arrest when a critical time threshold is surpassed. Here, we show that Polo-like kinase 1 (PLK1) activity is essential for the time-dependent release of 53BP1 from kinetochores. PLK1 inhibition, which leads to 53BP1 persistence at kinetochores, prevents cytosolic 53BP1 association with p53 and results in a blunted MSP. Strikingly, the identification of CENP-F as the kinetochore docking partner of 53BP1 enabled us to show that measurement of mitotic timing by the MSP does not take place at kinetochores, as perturbing CENP-F-53BP1 binding had no measurable impact on the MSP. Taken together, we propose that PLK1 supports the MSP by generating a cytosolic pool of 53BP1 and that an unknown cytosolic mechanism enables the measurement of mitotic duration.",
+    "keywords": [
+      "53BP1",
+      "PLK1",
+      "kinetochore",
+      "mitotic stopwatch pathway",
+      "mitotic surveillance pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cell Cycle Proteins/metabolism",
+      "HeLa Cells",
+      "Kinetochores/metabolism",
+      "Mitosis",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "Tumor Suppressor Protein p53/genetics",
+      "Ubiquitin Thiolesterase/genetics",
+      "Polo-Like Kinase 1",
+      "Tumor Suppressor p53-Binding Protein 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Burigotto, Matteo",
+        "Vigorito, Vincenza",
+        "Gliech, Colin",
+        "Mattivi, Alessia",
+        "Ghetti, Sabrina",
+        "Bisio, Alessandra",
+        "Lolli, Graziano",
+        "Holland, Andrew J",
+        "Fava, Luca L"
+      ],
+      "short_names": [
+        "Burigotto M",
+        "Vigorito V",
+        "Gliech C",
+        "Mattivi A",
+        "Ghetti S",
+        "Bisio A",
+        "Lolli G",
+        "Holland AJ",
+        "Fava LL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1891-4057",
+        "ORCID: 0000-0002-5410-1718",
+        "ORCID: 0000-0002-4981-9012",
+        "ORCID: 0000-0002-3326-1923",
+        "ORCID: 0000-0002-8536-5599",
+        "ORCID: 0000-0002-6741-1723"
+      ],
+      "affiliations": [
+        "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Department of Molecular Biology and Genetics, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Laboratory of Radiobiology, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Laboratory of Protein Crystallography and Structure-Based Drug Design, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy.",
+        "Oncology Research, Amgen Research, Thousand Oaks, CA, USA.",
+        "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Burigotto, Matteo",
+        "short_name": "Burigotto M",
+        "identifiers": [
+          "0000-0003-1891-4057"
+        ],
+        "affiliations": [
+          "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Vigorito, Vincenza",
+        "short_name": "Vigorito V",
+        "identifiers": [],
+        "affiliations": [
+          "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Gliech, Colin",
+        "short_name": "Gliech C",
+        "identifiers": [
+          "0000-0002-5410-1718"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Mattivi, Alessia",
+        "short_name": "Mattivi A",
+        "identifiers": [],
+        "affiliations": [
+          "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Ghetti, Sabrina",
+        "short_name": "Ghetti S",
+        "identifiers": [
+          "0000-0002-4981-9012"
+        ],
+        "affiliations": [
+          "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Bisio, Alessandra",
+        "short_name": "Bisio A",
+        "identifiers": [
+          "0000-0002-3326-1923"
+        ],
+        "affiliations": [
+          "Laboratory of Radiobiology, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Lolli, Graziano",
+        "short_name": "Lolli G",
+        "identifiers": [
+          "0000-0002-8536-5599"
+        ],
+        "affiliations": [
+          "Laboratory of Protein Crystallography and Structure-Based Drug Design, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Holland, Andrew J",
+        "short_name": "Holland AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research, Amgen Research, Thousand Oaks, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fava, Luca L",
+        "short_name": "Fava LL",
+        "identifiers": [
+          "0000-0002-6741-1723"
+        ],
+        "affiliations": [
+          "Armenise-Harvard Laboratory of Cell Division, Department of Cellular, Computational and Integrative Biology - CIBIO, University of Trento, Trento, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EMBO reports"
+    ],
+    "journal_abbrev": [
+      "EMBO Rep"
+    ],
+    "pub_date": "2023 Dec 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/27 12:42",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "42380115",
+      "41889881",
+      "41553759",
+      "41495201",
+      "41495199",
+      "41365927",
+      "41253827",
+      "40884189",
+      "40596417",
+      "40551011",
+      "40166203",
+      "39789219",
+      "39398482",
+      "38935637"
+    ],
+    "refs": [
+      "38547292",
+      "35637307",
+      "35119294",
+      "34930405",
+      "34862179",
+      "34265844",
+      "33855309",
+      "33410253",
+      "33384372",
+      "33350486",
+      "33226141",
+      "32968743",
+      "32346721",
+      "32207772",
+      "29971233",
+      "29795284",
+      "29748388",
+      "29324744",
+      "28125021",
+      "27546791",
+      "27432897",
+      "27432896",
+      "27371829",
+      "27039078",
+      "26322680",
+      "24703952",
+      "24096242",
+      "23258294",
+      "21633387",
+      "21306900",
+      "20860994",
+      "20832310",
+      "20660628",
+      "20126263",
+      "19566935",
+      "18620061",
+      "17360533",
+      "16782009",
+      "16252009",
+      "15710747",
+      "11801725",
+      "11756470",
+      "9207794",
+      "2683077"
+    ],
+    "similar": [
+      "37888778",
+      "25607646",
+      "33248027",
+      "25670858",
+      "27477698",
+      "26323689",
+      "15964272",
+      "21525413",
+      "15458642",
+      "34551298",
+      "20126263",
+      "41365927",
+      "18922800",
+      "16760428",
+      "39516273",
+      "21454580",
+      "23455478",
+      "17291761",
+      "26206521",
+      "33226141",
+      "22908307",
+      "31685831",
+      "22869522",
+      "24777477",
+      "31863092",
+      "26259146",
+      "17081991",
+      "16860740",
+      "27371829",
+      "21474997",
+      "40166203",
+      "11801725",
+      "24407240",
+      "10477750",
+      "16753148",
+      "21726628",
+      "17351640",
+      "21507953",
+      "31468671",
+      "35563642",
+      "24166892",
+      "30414309",
+      "39442450",
+      "23574746",
+      "27432896",
+      "17617734",
+      "40498077",
+      "37712330",
+      "20581453",
+      "16507989",
+      "25533473",
+      "17129406",
+      "37639469",
+      "19307309",
+      "27432897",
+      "38402459",
+      "20664522",
+      "28930533",
+      "7790358",
+      "19289504",
+      "25109385",
+      "15280449",
+      "12719470",
+      "18477449",
+      "22427657",
+      "27043190",
+      "28415769",
+      "17121863",
+      "18427546",
+      "22262171",
+      "38547292",
+      "39018246",
+      "33910471",
+      "24451569",
+      "23079597",
+      "21041660",
+      "34260926",
+      "30021153",
+      "16046481",
+      "12686615",
+      "20573420",
+      "18460473",
+      "34635673",
+      "28188342",
+      "24667170",
+      "18065224",
+      "17635521",
+      "18477460",
+      "27546791",
+      "19015317",
+      "23548928",
+      "25169932",
+      "30726152",
+      "15210710",
+      "26378239",
+      "38008853",
+      "30859681",
+      "32286328",
+      "21768102",
+      "29170437"
+    ],
+    "review": [
+      "37888778",
+      "35563642",
+      "30414309",
+      "18477449",
+      "28188342"
+    ],
+    "pmc": [
+      "10702821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.15252/embr.202357234",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37888778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37888778",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37888778",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MST1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "33770434",
+    "doi": "10.1021/acs.jmedchem.1c00020",
+    "title": "Epigenetic Target Fishing with Accurate Machine Learning Models."
+  },
+  "content": {
+    "abstract": "Epigenetic targets are of significant importance in drug discovery research, as demonstrated by the eight approved epigenetic drugs for treatment of cancer and the increasing availability of chemogenomic data related to epigenetics. This data represents many structure-activity relationships that have not been exploited thus far to develop predictive models to support medicinal chemistry efforts. Herein, we report the first large-scale study of 26 318 compounds with a quantitative measure of biological activity for 55 protein targets with epigenetic activity. We built predictive models with high accuracy for small molecules' epigenetic target profiling through a systematic comparison of the machine learning models trained on different molecular fingerprints. The models were thoroughly validated, showing mean precisions of up to 0.952 for the epigenetic target prediction task. Our results indicate that the models reported herein have considerable potential to identify small molecules with epigenetic activity. Therefore, our results were implemented as a freely accessible web application.",
+    "keywords": [],
+    "mesh_terms": [
+      "Databases, Chemical/statistics & numerical data",
+      "Drug Discovery/*methods",
+      "Epigenomics/*methods",
+      "Histone Deacetylases/metabolism",
+      "*Machine Learning",
+      "Molecular Structure",
+      "Organic Chemicals/*chemistry/metabolism",
+      "Proof of Concept Study",
+      "Structure-Activity Relationship",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanchez-Cruz, Norberto",
+        "Medina-Franco, Jose L"
+      ],
+      "short_names": [
+        "Sanchez-Cruz N",
+        "Medina-Franco JL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2707-3966",
+        "ORCID: 0000-0003-4940-1107"
+      ],
+      "affiliations": [
+        "DIFACQUIM Research Group, Department of Pharmacy, School of Chemistry, Universidad Nacional Autonoma de Mexico, Mexico City 04510, Mexico.",
+        "DIFACQUIM Research Group, Department of Pharmacy, School of Chemistry, Universidad Nacional Autonoma de Mexico, Mexico City 04510, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sánchez-Cruz, Norberto",
+        "short_name": "Sánchez-Cruz N",
+        "identifiers": [
+          "0000-0003-2707-3966"
+        ],
+        "affiliations": [
+          "DIFACQUIM Research Group, Department of Pharmacy, School of Chemistry, Universidad Nacional Autónoma de México, Mexico City 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Medina-Franco, José L",
+        "short_name": "Medina-Franco JL",
+        "identifiers": [
+          "0000-0003-4940-1107"
+        ],
+        "affiliations": [
+          "DIFACQUIM Research Group, Department of Pharmacy, School of Chemistry, Universidad Nacional Autónoma de México, Mexico City 04510, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2021 Jun 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/27 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "39062489",
+      "39012589",
+      "38291477",
+      "37273421",
+      "36284125",
+      "36268124",
+      "36262399",
+      "35918745",
+      "34514220"
+    ],
+    "refs": [],
+    "similar": [
+      "33770434",
+      "37827992",
+      "23292636",
+      "31012353",
+      "31939664",
+      "28322513",
+      "31336592",
+      "29038074",
+      "33729791",
+      "29073761",
+      "23157236",
+      "25462557",
+      "33151084",
+      "30110511",
+      "30505052",
+      "28276705",
+      "31408336",
+      "32171238",
+      "27622288",
+      "27486309",
+      "30247811",
+      "30558418",
+      "28263088",
+      "31390176",
+      "34042449",
+      "25986171",
+      "28524769",
+      "31357419",
+      "32366098",
+      "30334214",
+      "29791132",
+      "30149906",
+      "33606526",
+      "26891251",
+      "30184341",
+      "32661900",
+      "26415726",
+      "27829350",
+      "27318122",
+      "31026752",
+      "30245394",
+      "26289576",
+      "33594823",
+      "25027371",
+      "32992153",
+      "31861982",
+      "29774657",
+      "34066072",
+      "31589422",
+      "18482335",
+      "30421670",
+      "32739717",
+      "24616246",
+      "29750902",
+      "29037046",
+      "30129407",
+      "26840291",
+      "34410004",
+      "26814169",
+      "31052598",
+      "32003548",
+      "28260517",
+      "28881183",
+      "29987709",
+      "30412667",
+      "30939415",
+      "32146413",
+      "24054876",
+      "31381559",
+      "30360705",
+      "34902252",
+      "28328209",
+      "32794756",
+      "30422657",
+      "30240186",
+      "33475073",
+      "32929248",
+      "29564576",
+      "30519952",
+      "22392809",
+      "31745082",
+      "32171918",
+      "25499665",
+      "33229136",
+      "25849257",
+      "29685973",
+      "32938352",
+      "26000723",
+      "30334213",
+      "30988417",
+      "32033537",
+      "30912017",
+      "27980103",
+      "27483216",
+      "27643925",
+      "30404432",
+      "31518124",
+      "29656681",
+      "33260876",
+      "34514220",
+      "21593731",
+      "35682792",
+      "30499195",
+      "38109786",
+      "39052103",
+      "35775386",
+      "35961924",
+      "38332817"
+    ],
+    "review": [
+      "33770434",
+      "29038074",
+      "28276705",
+      "28524769",
+      "32366098",
+      "30149906",
+      "26891251",
+      "27829350",
+      "27318122",
+      "30245394",
+      "26289576",
+      "25027371",
+      "32992153",
+      "29774657",
+      "30421670",
+      "32739717",
+      "24616246",
+      "29750902",
+      "26814169",
+      "31052598",
+      "28881183",
+      "32146413",
+      "24054876",
+      "33475073",
+      "22392809",
+      "32171918",
+      "25499665",
+      "33229136",
+      "29685973",
+      "32938352",
+      "26000723",
+      "30988417",
+      "30912017",
+      "29656681",
+      "34514220",
+      "21593731",
+      "30499195"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://scite.ai/reports/33770434",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.1c00020",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

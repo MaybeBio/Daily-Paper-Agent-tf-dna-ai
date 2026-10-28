@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "pmid": "41422091",
+    "doi": "10.1038/s41467-025-66964-6",
+    "title": "Active learning-guided optimization of cell-free biosensors for lead testing in drinking water."
+  },
+  "content": {
+    "abstract": "Point-of-use diagnostics based on allosteric transcription factors (aTFs) are promising tools for environmental monitoring and human health. However, biosensors relying on natural aTFs rarely exhibit the sensitivity and selectivity needed for real-world applications, and traditional directed evolution struggles to optimize multiple biosensor properties at once. To overcome these challenges, we develop a multi-objective, machine learning (ML)-guided cell-free gene expression workflow for engineering aTF-based biosensors. Our approach rapidly generates high-quality sequence-to-function data, which we transform into an augmented paired dataset to train an ML model using directional labels that capture how aTF mutations alter performance. We apply our workflow to engineer the aTF PbrR as a point-of-use diagnostic for lead contamination in water. We tune the sensitivity of PbrR to sense at the U.S. Environmental Protection Agency (EPA) action level for lead and modify the selectivity away from zinc, a common metal found in water supplies. Finally, we show that the engineered PbrR functions in freeze-dried cell-free reactions, enabling a diagnostic capable of detecting lead in drinking water down to ~5.7 ppb. Our ML-driven, multi-objective framework powered by directional tokens can generalize to other biosensors and proteins, accelerating the development of synthetic biology tools for biotechnology applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "*Lead/analysis",
+      "*Drinking Water/analysis/chemistry",
+      "*Machine Learning",
+      "Humans",
+      "*Water Pollutants, Chemical/analysis",
+      "Transcription Factors/genetics/metabolism",
+      "Cell-Free System",
+      "Environmental Monitoring/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Brenda M",
+        "Chiang, Nicole",
+        "Ekas, Holly M",
+        "Brown, Dylan M",
+        "Dildine, Garrett",
+        "Lucci, Tyler J",
+        "Feng, Siyuan",
+        "Bly, Vanessa",
+        "Gaillard, Jean-Francois",
+        "Lucks, Julius B",
+        "Karim, Ashty S",
+        "Shukla, Diwakar",
+        "Jewett, Michael C"
+      ],
+      "short_names": [
+        "Wang BM",
+        "Chiang N",
+        "Ekas HM",
+        "Brown DM",
+        "Dildine G",
+        "Lucci TJ",
+        "Feng S",
+        "Bly V",
+        "Gaillard JF",
+        "Lucks JB",
+        "Karim AS",
+        "Shukla D",
+        "Jewett MC"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-6876-6125",
+        "ORCID: 0000-0001-8153-7683",
+        "ORCID: 0000-0003-0300-7067",
+        "ORCID: 0000-0003-2374-4769",
+        "ORCID: 0009-0007-3294-6094",
+        "ORCID: 0000-0002-8276-6418",
+        "ORCID: 0000-0002-0619-6505",
+        "ORCID: 0000-0002-5789-7715",
+        "ORCID: 0000-0003-4079-5381",
+        "ORCID: 0000-0003-2948-6211"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+        "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Department of Civil and Environmental Engineering, Northwestern University, Evanston, IL, USA.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Department of Biomedical Engineering, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Bridges/Puentes: Justice Collective of the Southeast, Chicago, IL, USA.",
+        "Department of Civil and Environmental Engineering, Northwestern University, Evanston, IL, USA.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Center for Water Research, Northwestern University, Evanston, IL, USA.",
+        "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, USA.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+        "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Bioengineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA. mjewett@stanford.edu.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA. mjewett@stanford.edu.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu.",
+        "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Brenda M",
+        "short_name": "Wang BM",
+        "identifiers": [
+          "0009-0003-6876-6125"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chiang, Nicole",
+        "short_name": "Chiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Ekas, Holly M",
+        "short_name": "Ekas HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+          "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Brown, Dylan M",
+        "short_name": "Brown DM",
+        "identifiers": [
+          "0000-0001-8153-7683"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Dildine, Garrett",
+        "short_name": "Dildine G",
+        "identifiers": [
+          "0000-0003-0300-7067"
+        ],
+        "affiliations": [
+          "Department of Civil and Environmental Engineering, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Lucci, Tyler J",
+        "short_name": "Lucci TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Siyuan",
+        "short_name": "Feng S",
+        "identifiers": [
+          "0000-0003-2374-4769"
+        ],
+        "affiliations": [
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+          "Department of Biomedical Engineering, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Bly, Vanessa",
+        "short_name": "Bly V",
+        "identifiers": [
+          "0009-0007-3294-6094"
+        ],
+        "affiliations": [
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+          "Bridges/Puentes: Justice Collective of the Southeast, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Gaillard, Jean-François",
+        "short_name": "Gaillard JF",
+        "identifiers": [
+          "0000-0002-8276-6418"
+        ],
+        "affiliations": [
+          "Department of Civil and Environmental Engineering, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Lucks, Julius B",
+        "short_name": "Lucks JB",
+        "identifiers": [
+          "0000-0002-0619-6505"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA.",
+          "Center for Water Research, Northwestern University, Evanston, IL, USA.",
+          "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Karim, Ashty S",
+        "short_name": "Karim AS",
+        "identifiers": [
+          "0000-0002-5789-7715"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA.",
+          "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Shukla, Diwakar",
+        "short_name": "Shukla D",
+        "identifiers": [
+          "0000-0003-4079-5381"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+          "Department of Bioengineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+          "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+          "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Jewett, Michael C",
+        "short_name": "Jewett MC",
+        "identifiers": [
+          "0000-0003-2948-6211"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA. mjewett@stanford.edu.",
+          "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA. mjewett@stanford.edu.",
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu.",
+          "Chemistry of Life Processes Institute, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA. mjewett@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/21 01:48",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "41786720"
+    ],
+    "refs": [
+      "40216953",
+      "40181110",
+      "39982986",
+      "39934638",
+      "39833164",
+      "39821082",
+      "39818825",
+      "39805837",
+      "39700225",
+      "39617781",
+      "39562775",
+      "39541441",
+      "39373325",
+      "39255329",
+      "39244557",
+      "39095367",
+      "39080249",
+      "39055154",
+      "38435522",
+      "38421844",
+      "38194293",
+      "37909046",
+      "37774136",
+      "37699423",
+      "37573440",
+      "37433327",
+      "37328605",
+      "37095349",
+      "37034405",
+      "36927031",
+      "36777475",
+      "36725852",
+      "36598992",
+      "36548479",
+      "35896542",
+      "35811998",
+      "35799063",
+      "34453184",
+      "34267944",
+      "34232869",
+      "34183860",
+      "33899477",
+      "33828272",
+      "33536221",
+      "33372147",
+      "33065027",
+      "32999067",
+      "32632301",
+      "32359951",
+      "32277291",
+      "32152281",
+      "32078765",
+      "31829623",
+      "31825601",
+      "31798685",
+      "31780816",
+      "31308553",
+      "30979906",
+      "30979809",
+      "30596483",
+      "30498782",
+      "30478458",
+      "30270109",
+      "30083609",
+      "30083608",
+      "29652493",
+      "29650958",
+      "28981256",
+      "27837353",
+      "27662092",
+      "27472026",
+      "27160350",
+      "26689263",
+      "25727242",
+      "25417167",
+      "22008973",
+      "20368134",
+      "19728700",
+      "18854819",
+      "17675385",
+      "15808743",
+      "15286983",
+      "15007837",
+      "12483203",
+      "11544228"
+    ],
+    "similar": [
+      "41422091",
+      "40894645",
+      "39255329",
+      "39329821",
+      "35316041",
+      "31829623",
+      "35727451",
+      "39914342",
+      "33973468",
+      "41166934",
+      "40338181",
+      "25730473",
+      "27999352",
+      "41253954",
+      "32632301",
+      "35816794",
+      "38791777",
+      "41345436",
+      "40170310",
+      "27472026",
+      "31777933",
+      "32667120",
+      "36967257",
+      "38448769",
+      "31935067",
+      "35853551",
+      "35872379",
+      "29101876",
+      "40277535",
+      "40300535",
+      "30498782",
+      "27869274",
+      "39993995",
+      "35412319",
+      "24654958",
+      "38876330",
+      "40460061",
+      "40862960",
+      "17018258",
+      "31335131",
+      "40637449",
+      "29087190",
+      "41274205",
+      "30840628",
+      "32078765",
+      "38537355",
+      "32100538",
+      "41085760",
+      "25902341",
+      "39694312",
+      "41075414",
+      "40090897",
+      "36527604",
+      "39288707",
+      "39562775",
+      "32277291",
+      "23202034",
+      "29961891",
+      "22622848",
+      "39373325",
+      "30457325",
+      "40871809",
+      "33493842",
+      "34225337",
+      "37183053",
+      "41524958",
+      "37377408",
+      "40216649",
+      "39442304",
+      "26569281",
+      "39311836",
+      "40179701",
+      "37449325",
+      "39153609",
+      "41218488",
+      "27234828",
+      "11959470",
+      "40863014",
+      "40098216",
+      "37667618",
+      "28153254",
+      "40085406",
+      "40862935",
+      "25231170",
+      "39642065",
+      "16807703",
+      "40489203",
+      "26521244",
+      "36502964",
+      "28364706",
+      "40903802",
+      "27744683",
+      "35501522",
+      "31374814",
+      "40776718",
+      "40903364",
+      "33481567",
+      "41135853",
+      "41172555",
+      "38367841"
+    ],
+    "review": [
+      "41422091",
+      "40170310",
+      "27472026",
+      "32667120",
+      "36967257",
+      "35853551",
+      "35872379",
+      "40277535",
+      "40862960",
+      "38537355",
+      "41085760",
+      "40090897",
+      "36527604",
+      "39288707",
+      "40871809",
+      "33493842",
+      "34225337",
+      "37183053",
+      "41524958",
+      "37377408",
+      "40216649",
+      "37449325",
+      "40862935",
+      "16807703",
+      "40489203",
+      "26521244",
+      "36502964",
+      "28364706",
+      "40903364",
+      "41135853"
+    ],
+    "pmc": [
+      "12783771"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/drinkingwater.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drinking Water"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-66964-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41422091/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

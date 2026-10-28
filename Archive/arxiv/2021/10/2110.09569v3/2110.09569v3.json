@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2110.09569v3",
+  "title": "Constrained Discrete Black-Box Optimization using Mixed-Integer Programming",
+  "doi": "",
+  "abstract": "Discrete black-box optimization problems are challenging for model-based optimization (MBO) algorithms, such as Bayesian optimization, due to the size of the search space and the need to satisfy combinatorial constraints. In particular, these methods require repeatedly solving a complex discrete global optimization problem in the inner loop, where popular heuristic inner-loop solvers introduce approximations and are difficult to adapt to combinatorial constraints. In response, we propose NN+MILP, a general discrete MBO framework using piecewise-linear neural networks as surrogate models and mixed-integer linear programming (MILP) to optimize the acquisition function. MILP provides optimality guarantees and a versatile declarative language for domain-specific constraints. We test our approach on a range of unconstrained and constrained problems, including DNA binding, constrained binary quadratic problems from the MINLPLib benchmark, and the NAS-Bench-101 neural architecture search benchmark. NN+MILP surpasses or matches the performance of black-box algorithms tailored to the constraints at hand, with global optimization of the acquisition problem running in a few minutes using only standard software packages and hardware.",
+  "authors": [
+    "Theodore Papalexopoulos",
+    "Christian Tjandraatmadja",
+    "Ross Anderson",
+    "Juan Pablo Vielma",
+    "David Belanger"
+  ],
+  "published_date": "2021-10-18T18:39:53Z",
+  "updated_date": "2022-06-14T14:30:59Z",
+  "journal": "",
+  "category": "math.OC",
+  "landing_url": "https://arxiv.org/abs/2110.09569v3",
+  "pdf_url": "https://arxiv.org/pdf/2110.09569v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "3",
+  "keywords": [
+    "math.OC"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2110.09569v3",
+    "raw_categories": [
+      "math.OC"
+    ],
+    "journal_ref": ""
+  }
+}

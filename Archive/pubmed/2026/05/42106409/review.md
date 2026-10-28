@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation. No assessment of code availability or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present CT-TADB, a hybrid CNN-Transformer framework that integrates DNA sequence with histone modification and CTCF binding signals to predict TAD boundaries without Hi-C data. They claim competitive or superior performance relative to existing methods, robust cross-cell-type and cross-species generalization, interpretable feature attributions identifying CTCF as dominant, and clinically relevant predictions.
+- **Visible evidence base** Main text figures (Figs 1-7), supplementary figure references, and methods descriptions. No supplementary figures or tables were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced as Supplementary Figs 1-5, Supplementary Tables 1-2) were not provided. Detailed hyperparameter settings, training procedures, and data preprocessing pipelines are only partially described. No code or data availability statement is present.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in 3D genomics, namely predicting TAD boundaries from readily available epigenomic data rather than expensive Hi-C experiments. The hybrid CNN-Transformer architecture is reasonable and the authors present a comprehensive set of evaluations including cross-cell-type, cross-species, and clinically relevant validations. However, several methodological details are missing, some claims appear stronger than the evidence supports, and the lack of access to supplementary materials limits full assessment. The work is potentially valuable but requires substantial revision to establish the case convincingly.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on 3D genome architecture prediction, researchers studying chromatin organization and gene regulation, and clinicians interested in interpreting non-coding variants in disease contexts. The framework's ability to predict TAD boundaries without Hi-C could be useful for labs lacking access to Hi-C data.
+- **Major strengths** The problem is well-motivated and practically relevant. The evaluation strategy is thorough, including strict cross-chromosome partitioning to prevent data leakage, independent datasets from different annotation pipelines, and bidirectional cross-species transfer. The interpretability analyses (SHAP, ablation, attention) provide mechanistic insight. The clinical validation at the PITAD locus adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CT-TADB achieved AUC values of 0.932-0.950, demonstrating competitive or superior performance relative to existing multi-modal methods."
+  - **Evidence pointer** Fig. 1D, location not provided
+  - **Concern** The comparison with baseline methods is described as being performed "under unified experimental conditions," but the details of how each baseline was implemented, tuned, and trained are not provided. It is unclear whether baselines received the same hyperparameter optimization effort as CT-TADB. The choice of baselines is also limited; several recent deep learning methods for TAD boundary prediction are not included.
+  - **Why it matters** Without a fair and comprehensive comparison, the claim of "competitive or superior performance" cannot be substantiated. The reader cannot assess whether the improvement is due to the architecture or to unequal tuning effort.
+  - **Resolution test** Provide detailed implementation and tuning protocols for all baselines, including hyperparameter search ranges and final settings. Include additional state-of-the-art baselines. Report performance with confidence intervals across multiple random seeds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The model maintained stable performance on strictly independent and dataset-specific boundary subsets"
+  - **Evidence pointer** Fig. 2, location not provided
+  - **Concern** The independent validation uses a dataset from HTAD, which was generated with a fundamentally different annotation approach. However, the authors do not report how many samples were used, the class balance, or whether the model was retrained or fine-tuned on any portion of this dataset. The overlap analysis between training and independent datasets is described, but the criteria for "overlap" beyond exact and 1-bin positional matching are not fully specified.
+  - **Why it matters** The validity of the "strictly independent" claim depends on the rigor of the overlap removal and the clarity of the dataset construction. Without these details, the reader cannot assess potential data leakage or selection bias.
+  - **Resolution test** Report the full dataset construction pipeline for the independent set, including sample counts, class balance, and overlap removal criteria. State explicitly whether any fine-tuning was performed on the independent dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "quantitative attention analysis revealed significant long-range CTCF-mediated dependencies (p < 0.001)"
+  - **Evidence pointer** Supplementary Fig. 5, location not provided
+  - **Concern** The statistical test compares attention scores of farthest CTCF pairs against random pairs with smaller distances. The choice of "one-quarter of the maximum CTCF pair distance" for random controls is arbitrary and may not adequately control for distance effects. The authors do not report effect sizes, the number of samples, or whether multiple testing correction was applied.
+  - **Why it matters** The claim of "significant long-range CTCF-mediated dependencies" is central to the interpretability narrative. If the control is not properly matched, the significance may reflect distance effects rather than CTCF-specific interactions.
+  - **Resolution test** Provide a more rigorous distance-matched control (e.g., stratified by distance bins), report effect sizes and confidence intervals, and apply multiple testing correction if multiple comparisons are made.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CT-TADB further identified a clinically validated PITX2-associated TAD boundary linked to cardiac arrhythmia"
+  - **Evidence pointer** Fig. 6A, location not provided
+  - **Concern** The clinical validation is based on a single locus. The authors state that deletion of this boundary causes arrhythmia, citing reference 28, but it is unclear whether CT-TADB's prediction at this locus is genuinely novel or simply recapitulates a known boundary. The claim of "clinically validated" implies that the model's prediction was independently confirmed, but the evidence presented is a single example.
+  - **Why it matters** A single anecdotal example, even if clinically relevant, does not establish the model's utility for identifying disease-associated boundaries at scale. The claim as stated is overreaching.
+  - **Resolution test** Either temper the claim to "recapitulates a known clinically relevant boundary" or provide a systematic evaluation of disease-associated boundary predictions across multiple loci.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "exhibited robust cross-cell-type transferability and cross-species generalization between human and mouse (AUC > 0.80 for human-to-mouse transfer)"
+  - **Evidence pointer** Figs 3, 4, location not provided
+  - **Concern** The cross-species experiments use mouse data from G1E and E14 cell lines. For G1E, the authors state that TAD regions were converted to boundaries using "the same computational pipeline applied to human data," but it is unclear whether the model was retrained on mouse data or directly applied from human-trained models. The description of the cross-species protocol is ambiguous.
+  - **Why it matters** The interpretation of cross-species results depends critically on whether the model was trained on human data and tested on mouse data (true transfer) or retrained on mouse data (which would not demonstrate transfer). The current description does not allow the reader to distinguish these scenarios.
+  - **Resolution test** Clarify the exact training and evaluation protocol for cross-species experiments. If true transfer, state that no mouse data were used in training. If retraining was performed, describe the protocol and temper the "transfer" claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "Trained on six human cell lines" but does not specify which cell lines or how they were selected. This information is relevant for assessing generalizability.
+  - **Required correction** List the six cell lines in the abstract or refer to a table in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The methods section does not provide a data availability statement or a link to the code repository, despite the GitHub repository being mentioned in the context of CTCF motif scanning results.
+  - **Required correction** Add a "Data and code availability" section with URLs for code, trained models, and processed data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Fig. 1
+  - **Evidence pointer** Fig. 1, location not provided
+  - **Issue** Performance metrics are reported as point estimates without confidence intervals or variance across replicates. Given the stochastic nature of deep learning training, this is insufficient.
+  - **Required correction** Report mean and standard deviation across at least 3 independent training runs, or provide confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Fig. 5
+  - **Evidence pointer** Fig. 5, location not provided
+  - **Issue** The SHAP analysis is described for GM78 only. It is unclear whether similar patterns hold in other cell lines.
+  - **Required correction** State whether SHAP analysis was performed for all cell lines and, if not, justify the focus on GM78.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, attention analysis
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The attention score formula uses raw attention weights without describing how attention heads are aggregated. Different heads may capture different patterns.
+  - **Required correction** Describe how attention scores are aggregated across heads and whether results are consistent across heads.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Fig. 6
+  - **Evidence pointer** Fig. 6, location not provided
+  - **Issue** The description of boundary loss and gain events in K562 versus GM78 is qualitative. It is unclear how many such events were evaluated and whether the model's predictions were systematically compared to Hi-C data across the genome.
+  - **Required correction** Provide a quantitative summary of boundary loss/gain predictions versus Hi-C observations, or temper the claim to "case examples."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (baseline comparison fairness), R1-M2 (independent dataset construction details), R1-M3 (attention analysis statistical rigor), R1-M5 (cross-species protocol clarity).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of CNN and Transformer for TAD boundary prediction from sequence and epigenomic data is not entirely novel, as similar hybrid architectures exist in other genomics applications. The specific application and interpretability focus add some novelty.
+  - **Scientific importance** Moderate to high. TAD boundaries are biologically important, and a method that predicts them without Hi-C has practical value. However, the incremental advance over existing methods needs to be more clearly demonstrated.
+  - **Interdisciplinary readership** Moderate. The work will appeal to computational biologists and genomics researchers, but the clinical relevance section may broaden appeal if strengthened.
+  - **Technical soundness** Currently insufficient. Several methodological details are missing, and some claims are not fully supported by the presented evidence. The evaluation strategy is thoughtful but needs more rigor in implementation details.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written, but some sections (e.g., attention analysis) may be challenging for non-experts. Figures are informative but would benefit from more detailed legends.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the evaluation framework is thoughtful, but the current manuscript does not provide sufficient methodological detail to fully assess the claims. Major revisions are required to address the concerns above, particularly regarding baseline fairness, independent dataset construction, and cross-species protocol clarity.
+
+## Risk / unsupported claims
+- The claim of "competitive or superior performance relative to existing multi-modal methods" is not fully supported without detailed baseline implementation and tuning information.
+- The claim of "strictly independent" evaluation is not fully verifiable without details on overlap removal criteria and dataset construction.
+- The claim of "significant long-range CTCF-mediated dependencies" is not fully supported without more rigorous distance-matched controls and effect size reporting.
+- The claim of "clinically validated" boundary prediction is overstated for a single locus example.
+- The cross-species "transfer" claim is ambiguous without a clear description of whether mouse data were used in training.
+- The statement that "sequence features alone are insufficient" is based on a single comparison set and may not generalize across all possible sequence-based architectures.

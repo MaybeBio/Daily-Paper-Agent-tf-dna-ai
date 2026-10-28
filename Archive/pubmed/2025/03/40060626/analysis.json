@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40060626",
+  "title": "Machine Learning Prediction of Non-Coding Variant Impact in Cell-Class-Specific Human Retinal Cis-Regulatory Elements.",
+  "authors": "VandenBosch, Leah S; Cherry, Timothy J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用gapped k-mer SVM基于视网膜单核ATAC-seq预测非编码变异对细胞类特异性顺式调控元件的影响，虽涉及TF结合基序但未做三维互作建模，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Non-coding variants in cis-regulatory elements such as promoters and enhancers contribute to inherited retinal diseases (IRDs), however, characterizing the functional impact of most regulatory variants remains challenging. To improve identification of variants of interest, we implemented machine learning using a gapped k-mer support vector machine approach trained on single nucleus ATAC-seq data from specific cell classes of the adult and developing human retina. We developed 18 distinct ML models to predict the impact of non-coding variants on 39,437 cell-class-specific regulatory elements. These models demonstrate accuracy over 90% and a high degree of cell class specificity. Variant Impact Prediction (VIP) scores highlight specific sequences within candidate CREs, including putative transcription factor (TF) binding motifs, that are predicted to alter CRE function if mutated. Correlations to massively parallel reporter assays support the predictive value of VIP scores to model single nucleotide variants and indels in a cell-class-specific manner. These analyses demonstrate the capacity for single nucleus epigenomic data to predict the impact of non-coding sequence variants and allow for rapid prioritization of patient variants for further functional analysis.",
+  "abstract_zh": "顺式调控元件（如启动子和增强子）中的非编码变异与遗传性视网膜疾病（IRDs）相关，然而，表征大多数调控变异的功能影响仍具挑战性。为改进目标变异的识别，我们采用基于间隙k-mer支持向量机方法的机器学习，该方法使用来自成人和发育中人类视网膜特定细胞类别的单核ATAC-seq数据进行训练。我们开发了18个不同的机器学习模型，用于预测非编码变异对39,437个细胞类别特异性调控元件的影响。这些模型显示出超过90%的准确率以及高度的细胞类别特异性。变异影响预测（VIP）分数突出显示了候选CREs中的特定序列，包括推测的转录因子（TF）结合基序，这些序列若发生突变则被预测会改变CRE功能。与大规模平行报告分析的相关性支持VIP分数在细胞类别特异性方式下建模单核苷酸变异和插入缺失的预测价值。这些分析展示了单核表观基因组数据预测非编码序列变异影响的能力，并允许快速优先处理患者变异以进行进一步功能分析。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40060626/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40060626/",
+  "paper_page_path": "papers/pubmed/40060626/index.html"
+}

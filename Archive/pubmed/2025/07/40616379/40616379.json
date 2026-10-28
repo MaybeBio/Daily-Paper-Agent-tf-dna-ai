@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "40616379",
+    "doi": "10.1111/jdi.70117",
+    "title": "Identification and verification of feature biomarkers associated with CD14(+) monocytes in type 1 diabetes."
+  },
+  "content": {
+    "abstract": "AIMS/INTRODUCTION: Monocytes contribute to the immune dysregulation of pancreatic islets in Type 1 diabetes mellitus (T1D). This study aims to identify the feature genes of CD14(+) monocytes in T1D, which might offer a new perspective on immune dysregulation and potential therapeutic targets in T1D. MATERIALS AND METHODS: Two CD14(+) monocyte-related datasets were integrated for DEGs and WGCNA analysis. LASSO and SVM-RFE machine learning algorithms were applied for further screening of feature genes. Subsequent nomogram model and single-gene GSEA analysis were performed. The experiments in vitro and in vivo were conducted for the verification and functional investigation of the feature gene. RESULTS: Eleven up-regulated and five down-regulated DEGs in T1D samples were identified in the integrated dataset. WGCNA analysis obtained 13 gene co-expression modules in which the yellow module had a significantly positive correlation with the T1D phenotype, and the magenta module had a negative correlation. Thirteen intersecting genes between DEGs and WGCNA gene modules were subjected to LASSO and SVM-RFE machine learning, and the feature gene ID1 was eventually screened out and verified. In terms of the T1D diagnostic model, the calibration curve and ROC curve displayed high predictive accuracy and effectiveness. Single-gene GSEA analysis revealed that high ID1 was associated with the IL1/IL1R/JNK signaling pathway gene set. The increased ID1 was verified in high glucose-treated THP-1 cells and T1D subjects, and the deficiency of ID1 impaired the expression of the inflammatory cytokine IL6. CONCLUSIONS: We had identified ID1 as the feature gene of CD14(+) monocytes, which exhibited the ability for diagnosis and prediction of T1D.",
+    "keywords": [
+      "ID1",
+      "Monocytes",
+      "Type 1 diabetes"
+    ],
+    "mesh_terms": [
+      "*Diabetes Mellitus, Type 1/genetics/immunology/diagnosis/metabolism/blood",
+      "Humans",
+      "*Monocytes/metabolism/immunology",
+      "*Lipopolysaccharide Receptors/metabolism",
+      "*Biomarkers/analysis/metabolism",
+      "Animals",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "*Inhibitor of Differentiation Protein 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Jin",
+        "Ding, Yu",
+        "Yu, Tong",
+        "Chen, Shanshan",
+        "He, Jinrong",
+        "Shi, Lifeng",
+        "Wang, Xiuling"
+      ],
+      "short_names": [
+        "Huang J",
+        "Ding Y",
+        "Yu T",
+        "Chen S",
+        "He J",
+        "Shi L",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9682-4260"
+      ],
+      "affiliations": [
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Traditional Chinese Medicine, Humanwell Healthcare (Group) Co., Ltd., Wuhan, Hubei, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Medical Laboratory, The Central Hospital of Wuhan, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Medical Laboratory, The Central Hospital of Wuhan, Huazhong University of Science and Technology, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Jin",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yu",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tong",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Humanwell Healthcare (Group) Co., Ltd., Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shanshan",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "He, Jinrong",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Lifeng",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, The Central Hospital of Wuhan, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiuling",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-9682-4260"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratory, The Central Hospital of Wuhan, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of diabetes investigation"
+    ],
+    "journal_abbrev": [
+      "J Diabetes Investig"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/05 20:45",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38758799",
+      "37867222",
+      "37315560",
+      "35915457",
+      "35729334",
+      "35692135",
+      "35181641",
+      "33399849",
+      "33293704",
+      "33178820",
+      "32827432",
+      "32361395",
+      "32331412",
+      "32139386",
+      "32060144",
+      "31953577",
+      "31843946",
+      "31417297",
+      "31296363",
+      "30349097",
+      "29916386",
+      "29717116",
+      "29444892",
+      "29298776",
+      "28832681",
+      "28717166",
+      "28428167",
+      "28007779",
+      "27663096",
+      "27257970",
+      "23657602",
+      "22278018",
+      "19114008"
+    ],
+    "similar": [
+      "40616379",
+      "41013556",
+      "39375405",
+      "41300841",
+      "39923303",
+      "41324863",
+      "41200172",
+      "41029776",
+      "39396400",
+      "40789248",
+      "39243324",
+      "41146237",
+      "39904830",
+      "33827531",
+      "38951833",
+      "39697326",
+      "40328901",
+      "40313958",
+      "39686752",
+      "40244055",
+      "40997906",
+      "38767974",
+      "37608666",
+      "39735547",
+      "40830558",
+      "39616855",
+      "40630623",
+      "39733138",
+      "39754246",
+      "33042112",
+      "40263690",
+      "36148059",
+      "39333211",
+      "40901831",
+      "39507054",
+      "39142001",
+      "37691920",
+      "39650552",
+      "36650594",
+      "41479901",
+      "40374840",
+      "38371524",
+      "39509434",
+      "40860289",
+      "40892227",
+      "41322408",
+      "39069636",
+      "39394418",
+      "41462520",
+      "40315768",
+      "36532015",
+      "36792688",
+      "35764238",
+      "39351239",
+      "40406620",
+      "41214111",
+      "39559355",
+      "35713363",
+      "41432483",
+      "41388523",
+      "40362543",
+      "40964162",
+      "39206894",
+      "41137290",
+      "34054801",
+      "21980303",
+      "41291841",
+      "39331874",
+      "41378005",
+      "40312440",
+      "38291374",
+      "33551990",
+      "39749331",
+      "37732314",
+      "30942443",
+      "37359526",
+      "41189222",
+      "40183401",
+      "40207219",
+      "40129981",
+      "40754871",
+      "36968495",
+      "24204704",
+      "40192032",
+      "31881887",
+      "36291653",
+      "39695788",
+      "31953577",
+      "34107850",
+      "40957221",
+      "41424060",
+      "38277517",
+      "40936892",
+      "40296690",
+      "39170142",
+      "40956396",
+      "38608447",
+      "39011037",
+      "40619562",
+      "40808946"
+    ],
+    "review": [
+      "40616379"
+    ],
+    "pmc": [
+      "12400357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype1.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 1"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40616379/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jdi.70117",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

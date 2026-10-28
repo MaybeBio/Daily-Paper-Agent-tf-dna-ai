@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "37959807",
+    "doi": "10.3390/molecules28217388",
+    "title": "Quercetin and AMPK: A Dynamic Duo in Alleviating MG-Induced Inflammation via the AMPK/SIRT1/NF-kappaB Pathway."
+  },
+  "content": {
+    "abstract": "Mycoplasma gallisepticum (MG) is recognized as a principal causative agent of avian chronic respiratory disease, inflicting substantial economic losses upon the poultry industry. However, the extensive use of conventional antibiotics has resulted in the emergence of drug resistance and various challenges in their clinical application. Consequently, there is an urgent need to identify effective therapeutic agents for the prevention and treatment of mycoplasma-induced respiratory disease in avian species. AMP-activated protein kinase (AMPK) holds significant importance as a regulator of cellular energy metabolism and possesses the capacity to exert an anti-inflammatory effect by virtue of its downstream protein, SIRT1. This pathway has shown promise in counteracting the inflammatory responses triggered by pathogenic infections, thus providing a novel target for studying infectious inflammation. Quercetin possesses anti-inflammatory activity and has garnered attention as a potential alternative to antibiotics. However, there exists a gap in knowledge concerning the impact of this activation on MG-induced inflammatory damage. To address this knowledge gap, we employed AlphaFold2 prediction, molecular docking, and kinetic simulation methods to perform a systematic analysis. As expected, we found that both quercetin and the AMPK activator AICAR activate the chicken AMPKgamma1 subunit in a similar manner, which was further validated at the cellular level. Our project aims to unravel the underlying mechanisms of quercetin's action as an agonist of AMPK against the inflammatory damage induced by MG infection. Accordingly, we evaluated the effects of quercetin on the prevention and treatment of air sac injury, lung morphology, immunohistochemistry, AMPK/SIRT1/NF-kappaB pathway activity, and inflammatory factors in MG-infected chickens. The results confirmed that quercetin effectively inhibits the secretion of pro-inflammatory cytokines such as IL-1beta, TNF-alpha, and IL-6, leading to improved respiratory inflammation injury. Furthermore, quercetin was shown to enhance the levels of phosphorylated AMPK and SIRT1 while reducing the levels of phosphorylated P65 and pro-inflammatory factors. In conclusion, our study identifies the AMPK cascade signaling pathway as a novel cellular mediator responsible for quercetin's ability to counter MG-induced inflammatory damage. This finding highlights the potential significance of this pathway as an important target for anti-inflammatory drug research in the context of avian respiratory diseases.",
+    "keywords": [
+      "AMPK",
+      "Mycoplasma gallisepticum",
+      "activator",
+      "inflammation",
+      "quercetin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-kappa B/metabolism",
+      "AMP-Activated Protein Kinases/metabolism",
+      "Quercetin/pharmacology/therapeutic use",
+      "*Mycoplasma gallisepticum/metabolism",
+      "Sirtuin 1/metabolism",
+      "Molecular Docking Simulation",
+      "Chickens/metabolism",
+      "Inflammation/drug therapy/prevention & control",
+      "Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "Anti-Bacterial Agents/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Ziyin",
+        "Wang, Haozhen",
+        "Ishfaq, Muhammad",
+        "Han, Yufang",
+        "Zhang, Xiujin",
+        "Li, Xiang",
+        "Wang, Baoqi",
+        "Lu, Xiuli",
+        "Gao, Bing"
+      ],
+      "short_names": [
+        "Lu Z",
+        "Wang H",
+        "Ishfaq M",
+        "Han Y",
+        "Zhang X",
+        "Li X",
+        "Wang B",
+        "Lu X",
+        "Gao B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3522-9481",
+        "ORCID: 0000-0003-1376-8986"
+      ],
+      "affiliations": [
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "College of Computer Science, Huanggang Normal University, Huanggang 438000, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China.",
+        "Department of Cell Biology and Genetics, Shenyang Medical College, Shenyang 110034, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Ziyin",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haozhen",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0003-3522-9481"
+        ],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Ishfaq, Muhammad",
+        "short_name": "Ishfaq M",
+        "identifiers": [
+          "0000-0003-1376-8986"
+        ],
+        "affiliations": [
+          "College of Computer Science, Huanggang Normal University, Huanggang 438000, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yufang",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiujin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Baoqi",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiuli",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Liaoning University, Chongshanzhong-Lu No. 66, Shenyang 110036, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bing",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Genetics, Shenyang Medical College, Shenyang 110034, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Nov 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/14 06:42",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42699515",
+      "42461343",
+      "42406229",
+      "42353019",
+      "41648933",
+      "41632251",
+      "41383949",
+      "40906192",
+      "40590918",
+      "40574364",
+      "40429855",
+      "40213362",
+      "40080949",
+      "40076701",
+      "39659949",
+      "38474862"
+    ],
+    "refs": [
+      "37458798",
+      "37148622",
+      "36985615",
+      "36746315",
+      "36235082",
+      "36006306",
+      "35935939",
+      "35821769",
+      "35721807",
+      "35644425",
+      "35033906",
+      "34834040",
+      "34265844",
+      "34066434",
+      "33954055",
+      "33862221",
+      "33314684",
+      "33310297",
+      "33068868",
+      "32871523",
+      "32768201",
+      "32729138",
+      "32636851",
+      "32581761",
+      "32565851",
+      "31747547",
+      "31545277",
+      "30392493",
+      "30036742",
+      "29933659",
+      "29592806",
+      "29271686",
+      "28661724",
+      "28478286",
+      "28428988",
+      "27712936",
+      "26999194",
+      "26172468",
+      "24185692",
+      "23735482",
+      "21483672",
+      "19629071",
+      "17929310",
+      "16406173",
+      "14724246",
+      "14563492",
+      "10935272",
+      "10604689",
+      "9706080",
+      "6743175"
+    ],
+    "similar": [
+      "37959807",
+      "38744177",
+      "36746315",
+      "35929638",
+      "26202455",
+      "37717315",
+      "36944380",
+      "35499816",
+      "23071533",
+      "23735482",
+      "21146504",
+      "33182066",
+      "33010363",
+      "34688696",
+      "36940652",
+      "30069662",
+      "31100089",
+      "27657826",
+      "23770291",
+      "30755236",
+      "36913894",
+      "34334258",
+      "20421294",
+      "26481965",
+      "37624269",
+      "32758570",
+      "34554275",
+      "35121233",
+      "25108154",
+      "26673543",
+      "38320624",
+      "32615160",
+      "31531360",
+      "31916911",
+      "29678169",
+      "35364735",
+      "31558861",
+      "32693244",
+      "31585644",
+      "35122774",
+      "37895018",
+      "36985786",
+      "32005962",
+      "35985610",
+      "32871523",
+      "35035666",
+      "24465016",
+      "33068864",
+      "26218279",
+      "38225621",
+      "29447962",
+      "33709560",
+      "32997729",
+      "37334825",
+      "37005541",
+      "38636201",
+      "31271836",
+      "35658881",
+      "34023442",
+      "33243606",
+      "21431325",
+      "29864483",
+      "35533556",
+      "29471139",
+      "35644425",
+      "30424795",
+      "32034118",
+      "27613163",
+      "35274762",
+      "26404052",
+      "36227279",
+      "33601000",
+      "28338009",
+      "25798758",
+      "20690163",
+      "29916120",
+      "36566879",
+      "23603572",
+      "39154527",
+      "27665434",
+      "33200005",
+      "37047299",
+      "32268154",
+      "33252265",
+      "34715577",
+      "30662889",
+      "30791744",
+      "16636195",
+      "30044397",
+      "36773597",
+      "32070918",
+      "25057854",
+      "36463943",
+      "34656906",
+      "34308732",
+      "31212975",
+      "32957369",
+      "24231522",
+      "28499194",
+      "38429891",
+      "22694351",
+      "37656412",
+      "38796674",
+      "32485811",
+      "35563167",
+      "36450301",
+      "38387276",
+      "38449005",
+      "38889494",
+      "39253913",
+      "38688383",
+      "38265392",
+      "37704909",
+      "38229085",
+      "38026240",
+      "31530260",
+      "39052063",
+      "39100317",
+      "38808723",
+      "37608659",
+      "39307545",
+      "39315891",
+      "39040381",
+      "38398046"
+    ],
+    "review": [
+      "37959807",
+      "23770291",
+      "36913894",
+      "21431325",
+      "33601000",
+      "37047299",
+      "38429891",
+      "22694351",
+      "38796674",
+      "32485811",
+      "35563167",
+      "36450301",
+      "38889494",
+      "39253913",
+      "38265392",
+      "38026240",
+      "31530260",
+      "39052063",
+      "38808723",
+      "37608659",
+      "39307545",
+      "39040381"
+    ],
+    "pmc": [
+      "10650132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28217388",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37959807/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37959807",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

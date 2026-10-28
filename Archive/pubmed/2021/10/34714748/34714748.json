@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "34714748",
+    "doi": "10.1109/TCBB.2021.3123828",
+    "title": "Protein-DNA Binding Residue Prediction via Bagging Strategy and Sequence-Based Cube-Format Feature."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play an important role in diverse biological processes. Accurately identifying protein-DNA binding residues is a critical but challenging task for protein function annotations and drug design. Although wet-lab experimental methods are the most accurate way to identify protein-DNA binding residues, they are time consuming and labor intensive. There is an urgent need to develop computational methods to rapidly and accurately predict protein-DNA binding residues. In this study, we propose a novel sequence-based method, named PredDBR, for predicting DNA-binding residues. In PredDBR, for each query protein, its position-specific frequency matrix (PSFM), predicted secondary structure (PSS), and predicted probabilities of ligand-binding residues (PPLBR) are first generated as three feature sources. Secondly, for each feature source, the sliding window technique is employed to extract the matrix-format feature of each residue. Then, we design two strategies, i.e., square root (SR) and average (AVE), to separately transform PSFM-based and two predicted feature source-based, i.e., PSS-based and PPLBR-based, matrix-format features of each residue into three corresponding cube-format features. Finally, after serially combining the three cube-format features, the ensemble classifier is generated via applying bagging strategy to multiple base classifiers built by the framework of 2D convolutional neural network. The computational experimental results demonstrate that the proposed PredDBR achieves an average overall accuracy of 93.7% and a Mathew's correlation coefficient of 0.405 on two independent validation datasets and outperforms several state-of-the-art sequenced-based protein-DNA binding residue predictors. The PredDBR web-server is available at https://jun-csbio.github.io/PredDBR/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "Protein Binding",
+      "*Neural Networks, Computer",
+      "Protein Structure, Secondary",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Jun",
+        "Bai, Yan-Song",
+        "Zheng, Lin-Lin",
+        "Jia, Ning-Xin",
+        "Yu, Dong-Jun",
+        "Zhang, Gui-Jun"
+      ],
+      "short_names": [
+        "Hu J",
+        "Bai YS",
+        "Zheng LL",
+        "Jia NX",
+        "Yu DJ",
+        "Zhang GJ"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Jun",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bai, Yan-Song",
+        "short_name": "Bai YS",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zheng, Lin-Lin",
+        "short_name": "Zheng LL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jia, Ning-Xin",
+        "short_name": "Jia NX",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Gui-Jun",
+        "short_name": "Zhang GJ",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2022 Nov-Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/30 06:00",
+    "fetched_at": "2026-09-28 01:14:33"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "40271022",
+      "39833102",
+      "38747369",
+      "38349057"
+    ],
+    "refs": [],
+    "similar": [
+      "34714748",
+      "33971164",
+      "34478704",
+      "31208331",
+      "35809650",
+      "27740495",
+      "38679191",
+      "38316843",
+      "30808287",
+      "36719781",
+      "35378437",
+      "30040656",
+      "28841194",
+      "37054909",
+      "36190332",
+      "32622978",
+      "30419785",
+      "30668479",
+      "35652719",
+      "25189131",
+      "30321541",
+      "35834447",
+      "20377884",
+      "37015594",
+      "36049552",
+      "37022086",
+      "32472446",
+      "22574904",
+      "32821925",
+      "33410688",
+      "33577689",
+      "28851273",
+      "31027046",
+      "35753699",
+      "38830995",
+      "36403092",
+      "31323206",
+      "32142788",
+      "29125297",
+      "37193676",
+      "35709747",
+      "30866736",
+      "31881828",
+      "19137600",
+      "33740884",
+      "38986796",
+      "36503892",
+      "24854765",
+      "30943723",
+      "26478747",
+      "28961795",
+      "34699365",
+      "35039821",
+      "32091580",
+      "18847492",
+      "38949938",
+      "31593229",
+      "33454744",
+      "34731411",
+      "35487269",
+      "36997014",
+      "25734685",
+      "29745837",
+      "37133976",
+      "39121938",
+      "35922751",
+      "16712732",
+      "22868682",
+      "29028926",
+      "30414728",
+      "33930742",
+      "25474163",
+      "33477866",
+      "34297278",
+      "28430949",
+      "24334392",
+      "34637380",
+      "32337273",
+      "34379594",
+      "19091029",
+      "20483814",
+      "18803867",
+      "24093637",
+      "31793982",
+      "38127815",
+      "22174808",
+      "31228283",
+      "36748992",
+      "24475169",
+      "32938375",
+      "33537753",
+      "30535134",
+      "31521251",
+      "30106688",
+      "34073774",
+      "23282098",
+      "28245811",
+      "32808039",
+      "23737141",
+      "32144887",
+      "22591472",
+      "37824738",
+      "35785626",
+      "37866116",
+      "33780341",
+      "32920048",
+      "35417351",
+      "37327559",
+      "38486135",
+      "38053020",
+      "38460308",
+      "35594218",
+      "37815964",
+      "37915276",
+      "38015872",
+      "36147670",
+      "38303418",
+      "38349057",
+      "39357703",
+      "35536812",
+      "38063012",
+      "38334134",
+      "38241104",
+      "38388493",
+      "37186412",
+      "35615015",
+      "37387162"
+    ],
+    "review": [
+      "34714748"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3123828",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNCG-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3123828",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

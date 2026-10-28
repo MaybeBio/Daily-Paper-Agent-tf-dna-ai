@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "38841126",
+    "doi": "10.1093/bioadv/vbae074",
+    "title": "Predmoter-cross-species prediction of plant promoter and enhancer regions."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Identifying cis-regulatory elements (CREs) is crucial for analyzing gene regulatory networks. Next generation sequencing methods were developed to identify CREs but represent a considerable expenditure for targeted analysis of few genomic loci. Thus, predicting the outputs of these methods would significantly cut costs and time investment. RESULTS: We present Predmoter, a deep neural network that predicts base-wise Assay for Transposase Accessible Chromatin using sequencing (ATAC-seq) and histone Chromatin immunoprecipitation DNA-sequencing (ChIP-seq) read coverage for plant genomes. Predmoter uses only the DNA sequence as input. We trained our final model on 21 species for 13 of which ATAC-seq data and for 17 of which ChIP-seq data was publicly available. We evaluated our models on Arabidopsis thaliana and Oryza sativa. Our best models showed accurate predictions in peak position and pattern for ATAC- and histone ChIP-seq. Annotating putatively accessible chromatin regions provides valuable input for the identification of CREs. In conjunction with other in silico data, this can significantly reduce the search space for experimentally verifiable DNA-protein interaction pairs. AVAILABILITY AND IMPLEMENTATION: The source code for Predmoter is available at: https://github.com/weberlab-hhu/Predmoter. Predmoter takes a fasta file as input and outputs h5, and optionally bigWig and bedGraph files.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kindel, Felicitas",
+        "Triesch, Sebastian",
+        "Schluter, Urte",
+        "Randarevitch, Laura Alexandra",
+        "Reichel-Deland, Vanessa",
+        "Weber, Andreas P M",
+        "Denton, Alisandra K"
+      ],
+      "short_names": [
+        "Kindel F",
+        "Triesch S",
+        "Schluter U",
+        "Randarevitch LA",
+        "Reichel-Deland V",
+        "Weber APM",
+        "Denton AK"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6149-0224",
+        "ORCID: 0000-0001-7796-4631",
+        "ORCID: 0000-0002-9134-6511",
+        "ORCID: 0000-0002-1132-0224"
+      ],
+      "affiliations": [
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+        "Institute of Population Genetics, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+        "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Dusseldorf 40225, Germany.",
+        "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+        "Valence Labs, Montreal, Quebec H2S 3H1, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kindel, Felicitas",
+        "short_name": "Kindel F",
+        "identifiers": [
+          "0009-0000-6149-0224"
+        ],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany."
+        ]
+      },
+      {
+        "full_name": "Triesch, Sebastian",
+        "short_name": "Triesch S",
+        "identifiers": [
+          "0000-0001-7796-4631"
+        ],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany.",
+          "Cluster of Excellence on Plant Sciences (CEPLAS), Germany."
+        ]
+      },
+      {
+        "full_name": "Schlüter, Urte",
+        "short_name": "Schlüter U",
+        "identifiers": [
+          "0000-0002-9134-6511"
+        ],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany."
+        ]
+      },
+      {
+        "full_name": "Randarevitch, Laura Alexandra",
+        "short_name": "Randarevitch LA",
+        "identifiers": [],
+        "affiliations": [
+          "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+          "Institute of Population Genetics, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany."
+        ]
+      },
+      {
+        "full_name": "Reichel-Deland, Vanessa",
+        "short_name": "Reichel-Deland V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany."
+        ]
+      },
+      {
+        "full_name": "Weber, Andreas P M",
+        "short_name": "Weber APM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany.",
+          "Cluster of Excellence on Plant Sciences (CEPLAS), Germany."
+        ]
+      },
+      {
+        "full_name": "Denton, Alisandra K",
+        "short_name": "Denton AK",
+        "identifiers": [
+          "0000-0002-1132-0224"
+        ],
+        "affiliations": [
+          "Institute of Plant Biochemistry, Math.-Nat. Faculty, Heinrich Heine University, Düsseldorf 40225, Germany.",
+          "Cluster of Excellence on Plant Sciences (CEPLAS), Germany.",
+          "Valence Labs, Montréal, Québec H2S 3H1, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/06 06:43",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "41768065",
+      "40902506"
+    ],
+    "refs": [
+      "37113248",
+      "36719906",
+      "35941239",
+      "35866989",
+      "35641900",
+      "35533969",
+      "35190950",
+      "34608324",
+      "34383745",
+      "33978703",
+      "33590861",
+      "33325516",
+      "33227813",
+      "32689977",
+      "32412129",
+      "31740772",
+      "31024615",
+      "30375457",
+      "29229750",
+      "28581502",
+      "28417999",
+      "27783602",
+      "27312411",
+      "27079975",
+      "25969552",
+      "25738806",
+      "25083876",
+      "24695404",
+      "24670763",
+      "24205361",
+      "24097267",
+      "21750106",
+      "21160473",
+      "21106759",
+      "20485488",
+      "20393465",
+      "19295514",
+      "18798982",
+      "17558387",
+      "17540862",
+      "17346352",
+      "17179217",
+      "16344561",
+      "15199147",
+      "14143651",
+      "12353038",
+      "9377276",
+      "8825489",
+      "6277502",
+      "4867974",
+      "4041012",
+      "3052270",
+      "98262"
+    ],
+    "similar": [
+      "38841126",
+      "32321568",
+      "33191916",
+      "32014062",
+      "29052193",
+      "39127768",
+      "32044918",
+      "37600946",
+      "37211599",
+      "35858748",
+      "35799371",
+      "30598689",
+      "33584814",
+      "36719906",
+      "35604124",
+      "35997564",
+      "33074546",
+      "41514301",
+      "36711646",
+      "25442502",
+      "39724337",
+      "37217250",
+      "27903897",
+      "34273560",
+      "39041910",
+      "34284136",
+      "29229750",
+      "41971346",
+      "41325270",
+      "38643066",
+      "33662624",
+      "35561169",
+      "30948010",
+      "36656543",
+      "28789639",
+      "30795793",
+      "34488759",
+      "35195064",
+      "37811941",
+      "36030022",
+      "29155775",
+      "27490187",
+      "34219317",
+      "36173566",
+      "30477572",
+      "40102719",
+      "33606259",
+      "35848835",
+      "20598134",
+      "28881977",
+      "33325516",
+      "32312702",
+      "39255248",
+      "33509077",
+      "27519564",
+      "36807060",
+      "32039199",
+      "35255493",
+      "29572403",
+      "25303887",
+      "34765994",
+      "26484757",
+      "41984952",
+      "41518494",
+      "29982337",
+      "34898596",
+      "35776722",
+      "30416387",
+      "29490630",
+      "37989133",
+      "33188264",
+      "31664892",
+      "42642593",
+      "36712015",
+      "35359328",
+      "41719189",
+      "35867231",
+      "29605855",
+      "30064353",
+      "30375457",
+      "33923056",
+      "37100469",
+      "20122241",
+      "41028375",
+      "36427156",
+      "38338756",
+      "37500689",
+      "37950200",
+      "29178831",
+      "40029523",
+      "35866989",
+      "36124976",
+      "35809062",
+      "38515040",
+      "30821321",
+      "36466281",
+      "36738683",
+      "41663439",
+      "32620137",
+      "32543102"
+    ],
+    "review": [
+      "38841126",
+      "30948010",
+      "33606259",
+      "32312702",
+      "39255248",
+      "35255493",
+      "34765994"
+    ],
+    "pmc": [
+      "11150885"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38841126/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38841126",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbae074",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

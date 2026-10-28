@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38744843",
+  "title": "GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks.",
+  "authors": "Zinati, Yazdan; Takiddeen, Abdulrahman; Emad, Amin",
+  "journal": "Nature communications",
+  "published_date": "2024-05-15",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用因果生成对抗网络模拟单细胞RNA-seq数据，以GRN引导基因表达并支持TF敲除模拟，虽涉及TF调控但核心是数据生成而非TF-DNA结合建模，方法可迁移至TF-DNA互作研究。",
+  "abstract": "We introduce GRouNdGAN, a gene regulatory network (GRN)-guided reference-based causal implicit generative model for simulating single-cell RNA-seq data, in silico perturbation experiments, and benchmarking GRN inference methods. Through the imposition of a user-defined GRN in its architecture, GRouNdGAN simulates steady-state and transient-state single-cell datasets where genes are causally expressed under the control of their regulating transcription factors (TFs). Training on six experimental reference datasets, we show that our model captures non-linear TF-gene dependencies and preserves gene identities, cell trajectories, pseudo-time ordering, and technical and biological noise, with no user manipulation and only implicit parameterization. GRouNdGAN can synthesize cells under new conditions to perform in silico TF knockout experiments. Benchmarking various GRN inference algorithms reveals that GRouNdGAN effectively bridges the existing gap between simulated and biological data benchmarks of GRN inference algorithms, providing gold standard ground truth GRNs and realistic cells corresponding to the biological system of interest.",
+  "abstract_zh": "我们介绍GRouNdGAN，一种基因调控网络（GRN）引导的基于参考的因果隐式生成模型，用于模拟单细胞RNA-seq数据、进行计算机模拟扰动实验以及基准测试GRN推断方法。通过在架构中施加用户定义的GRN，GRouNdGAN模拟稳态和瞬态单细胞数据集，其中基因在其调控转录因子（TFs）的控制下因果表达。在六个实验参考数据集上训练后，我们展示了我们的模型能够捕捉非线性TF-基因依赖性，并保留基因身份、细胞轨迹、伪时间排序以及技术和生物噪声，无需用户操作，仅通过隐式参数化实现。GRouNdGAN能够在新条件下合成细胞，以执行计算机模拟TF敲除实验。对各种GRN推断算法的基准测试表明，GRouNdGAN有效弥合了GRN推断算法在模拟与生物数据基准之间的现有差距，为感兴趣的生物系统提供了金标准真实GRN和对应现实细胞。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38744843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38744843/",
+  "paper_page_path": "papers/pubmed/38744843/index.html"
+}

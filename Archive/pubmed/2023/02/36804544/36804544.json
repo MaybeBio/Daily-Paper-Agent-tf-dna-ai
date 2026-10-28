@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "36804544",
+    "doi": "10.1016/j.ejphar.2023.175604",
+    "title": "The combination of machine learning and transcriptomics reveals a novel megakaryopoiesis inducer, MO-A, that promotes thrombopoiesis by activating FGF1/FGFR1/PI3K/Akt/NF-kappaB signaling."
+  },
+  "content": {
+    "abstract": "Radiation-induced thrombocytopenia (RIT) occurs widely and causes high mortality and morbidity in cancer patients who receive radiotherapy. However, specific drugs for treating RIT remain woefully inadequate. Here, we first developed a drug screening model using naive Bayes, a machine learning (ML) algorithm, to virtually screen the active compounds promoting megakaryopoiesis and thrombopoiesis. A natural product library was screened by the model, and methylophiopogonanone A (MO-A) was identified as the most active compound. The activity of MO-A was then validated in vitro and showed that MO-A could markedly induce megakaryocyte (MK) differentiation of K562 and Meg-01 cells in a concentration-dependent manner. Furthermore, the therapeutic action of MO-A on RIT was evaluated, and MO-A significantly accelerated platelet level recovery, platelet activation, megakaryopoiesis, MK differentiation in RIT mice. Moreover, RNA-sequencing (RNA-seq) indicated that the PI3K cascade was closely related to MK differentiation induced by MO-A. Finally, experimental verification demonstrated that MO-A obviously induced the expression of FGF1 and FGFR1, and increased the phosphorylation of PI3K, Akt and NF-kappaB. Blocking FGFR1 with its inhibitor dovitinib suppressed MO-A-induced MK differentiation, and PI3K, Akt and NF-kappaB phosphorylation. Similarly, inhibition of PI3K-Akt signal pathway by its inhibitor LY294002 suppressed MK differentiation, and PI3K, Akt and NF-kappaB phosphorylation induced by MO-A. Taken together, our study provides an efficient drug discovery strategy for hematological diseases, and demonstrates that MO-A is a novel countermeasure for treating RIT through activation of the FGF1/FGFR1/PI3K/Akt/NF-kappaB signaling pathway.",
+    "keywords": [
+      "Megakaryocyte differentiation",
+      "Methylophiopogonanone A",
+      "PI3K",
+      "Platelet",
+      "Thrombocytopenia"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Bayes Theorem",
+      "Fibroblast Growth Factor 1",
+      "*NF-kappa B/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Signal Transduction",
+      "Thrombopoiesis",
+      "Transcriptome",
+      "Isoflavones",
+      "Benzodioxoles",
+      "Receptor, Fibroblast Growth Factor, Type 1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ting",
+        "Mo, Qi",
+        "Jiang, Nan",
+        "Wu, Yuesong",
+        "Yang, Xin",
+        "Chen, Wang",
+        "Li, Qinyao",
+        "Yang, Shuo",
+        "Yang, Jing",
+        "Zeng, Jing",
+        "Huang, Feihong",
+        "Huang, Qianqian",
+        "Luo, Jiesi",
+        "Wu, Jianming",
+        "Wang, Long"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Mo Q",
+        "Jiang N",
+        "Wu Y",
+        "Yang X",
+        "Chen W",
+        "Li Q",
+        "Yang S",
+        "Yang J",
+        "Zeng J",
+        "Huang F",
+        "Huang Q",
+        "Luo J",
+        "Wu J",
+        "Wang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacy, Chengdu Fifth People's Hospital, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, 611137, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: ljs@swmu.edu.cn.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China; School of Basic Medical Sciences, Southwest Medical University, Luzhou, Sichuan, 646000, China; Education Ministry Key Laboratory of Medical Electrophysiology, Sichuan Key Medical Laboratory of New Drug Discovery and Druggability Evaluation, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: jianmingwu@swmu.edu.cn.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: wanglong1226@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Qi",
+        "short_name": "Mo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Nan",
+        "short_name": "Jiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuesong",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wang",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qinyao",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuo",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Chengdu Fifth People's Hospital, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jing",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Feihong",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qianqian",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiesi",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: ljs@swmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Jianming",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China; School of Basic Medical Sciences, Southwest Medical University, Luzhou, Sichuan, 646000, China; Education Ministry Key Laboratory of Medical Electrophysiology, Sichuan Key Medical Laboratory of New Drug Discovery and Druggability Evaluation, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: jianmingwu@swmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Long",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, 646000, China. Electronic address: wanglong1226@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2023 Apr 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/23 06:00",
+    "fetched_at": "2026-09-28 20:46:54"
+  },
+  "links": {
+    "cites": [
+      "41847695",
+      "41226200",
+      "40371333",
+      "38573820",
+      "38540688",
+      "38318072"
+    ],
+    "refs": [],
+    "similar": [
+      "36804544",
+      "35077844",
+      "36430539",
+      "36297316",
+      "34140465",
+      "30093411",
+      "25085593",
+      "29864778",
+      "22548360",
+      "37501059",
+      "32564421",
+      "33444919",
+      "31483776",
+      "17158602",
+      "27816443",
+      "36280019",
+      "25454762",
+      "19074768",
+      "18452580",
+      "36610353",
+      "20947290",
+      "25727320",
+      "31696813",
+      "35281608",
+      "24534483",
+      "31918274",
+      "27113449",
+      "34180121",
+      "29572052",
+      "24726520",
+      "21570392",
+      "19027002",
+      "39383141",
+      "31781591",
+      "15970429",
+      "34450323",
+      "17638919",
+      "34895136",
+      "19717552",
+      "30362547",
+      "23667054",
+      "17634901",
+      "23735482",
+      "26829882",
+      "24506791",
+      "31756335",
+      "25979232",
+      "26813160",
+      "22193240",
+      "18243161",
+      "16034135",
+      "30668369",
+      "35899176",
+      "17307160",
+      "21266580",
+      "26091627",
+      "34596810",
+      "34737012",
+      "33182043",
+      "25708053",
+      "14708901",
+      "26453509",
+      "29669316",
+      "31806860",
+      "25122478",
+      "38573820",
+      "29037842",
+      "29323710",
+      "31506998",
+      "19369446",
+      "21856935",
+      "27764754",
+      "27865009",
+      "30813597",
+      "35982137",
+      "29441927",
+      "25888576",
+      "33378037",
+      "21325072",
+      "26935715",
+      "32911565",
+      "31448474",
+      "21712253",
+      "19118901",
+      "21620964",
+      "16732316",
+      "19553005",
+      "19435890",
+      "16316997",
+      "28385482",
+      "22455747",
+      "21844240",
+      "32621930",
+      "35157199",
+      "27156691",
+      "12952968",
+      "18720410",
+      "23069760",
+      "31887543",
+      "29310107",
+      "20574012",
+      "24680857",
+      "36412620",
+      "32460803",
+      "37156117",
+      "38701926",
+      "37164258",
+      "38757931",
+      "37119555",
+      "39152726",
+      "38540688",
+      "39239661",
+      "37528219",
+      "39266512"
+    ],
+    "review": [
+      "36804544"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(23)00115-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/36804544.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1773",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

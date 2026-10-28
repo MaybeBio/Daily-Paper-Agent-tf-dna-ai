@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, supplementary figure legends, and funding/acknowledgements sections
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided manuscript text. Figures and supplementary data files referenced but not provided in full are assessed based on textual descriptions only.
+- **Shared manuscript claim summary** The authors identify the BTB-zinc finger protein Tono (CG32121) as a muscle-specific transcriptional regulator required for proper sarcomere and mitochondria maturation in Drosophila indirect flight muscles. They propose that Tono senses mechanical pressure via liquid-liquid phase separation (LLPS) of its BTB domain, and that this mechano-responsive regulation controls a transcriptional switch during muscle development.
+- **Visible evidence base** Text descriptions of results including: mutant phenotypes (flightlessness, muscle atrophy, tendon rupture), rescue experiments (genomic fosmid, muscle-specific expression), domain deletion analyses (BTB, zinc fingers), osmotic stress experiments, live imaging of droplet formation and fusion, RNA-seq differential expression data, and bioinformatic analyses (KEGG pathways, Phasik/mitoXplorer)
+- **Missing materials affecting confidence** Full figures and supplementary figures not provided; raw RNA-seq data not accessible; supplementary movies not viewable; detailed statistical analyses not fully described; chromatin immunoprecipitation data absent; quantification methods for droplet dynamics not fully detailed
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting finding that a BTB-zinc finger transcriptional regulator, Tono, undergoes mechanosensitive liquid-liquid phase separation in muscle nuclei and regulates a developmental transcriptional switch. The genetic and phenotypic data supporting Tono's role in muscle maturation are solid, and the connection between mechanical pressure and Tono droplet formation is intriguing. However, the central claim that Tono senses mechanical pressure to regulate transcription via LLPS is not fully established from the provided evidence. Key gaps include: the lack of direct evidence linking droplet formation to transcriptional activity, the absence of mechanistic detail on how LLPS affects Tono function, and insufficient quantification of the droplet phenotypes. The manuscript would benefit from additional experiments to strengthen the causal chain from mechanical force to LLPS to transcriptional regulation.
+- **Who would be interested in the results, and why** Researchers studying muscle development, mechanotransduction, transcriptional regulation, and phase separation biology would find this work relevant. The Drosophila system offers genetic tractability, and the potential connection to human muscle disease (via ZBTB42) broadens the appeal. The concept of mechanosensitive LLPS in transcriptional regulation is timely and could interest cell biologists studying nuclear organization.
+- **Major strengths** 1) The identification of a novel muscle-specific transcriptional regulator through an unbiased genome-wide RNAi screen. 2) The generation of two independent mutant alleles and thorough phenotypic characterization. 3) The demonstration of muscle-autonomous function via tissue-specific rescue. 4) The connection between mechanical pressure and Tono droplet formation is conceptually novel. 5) The transcriptional data linking Tono to a metabolic switch is well-supported by pathway analyses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between LLPS and transcriptional regulation
+  - **Claim pointer** The authors state that Tono "senses high mechanical pressure to in turn adapt muscle transcription specifically at the sarcomere maturation stage" and that LLPS is the mechanism by which this occurs.
+  - **Evidence pointer** Results sections "Tono droplets form reversibly" and "Tono droplets respond to forces"; Discussion
+  - **Concern** The manuscript demonstrates that Tono forms droplets in response to osmotic or mechanical pressure, and that Tono is required for proper transcriptional regulation. However, no experiment directly links the droplet formation to the transcriptional function. It is possible that Tono's transcriptional activity is regulated by pressure through a mechanism independent of LLPS, or that droplet formation is a consequence rather than a cause of transcriptional changes. The authors do not show that disrupting LLPS (e.g., via mutations that prevent droplet formation without affecting other Tono functions) abolishes the transcriptional response.
+  - **Why it matters** The central hypothesis of the paper is that mechanosensitive LLPS is the mechanism by which Tono regulates transcription. Without direct evidence connecting these phenomena, the mechanistic claim is not established. This is the key novelty of the paper and is essential for the proposed model.
+  - **Resolution test** The authors should perform experiments where Tono LLPS is specifically disrupted (e.g., via point mutations in the BTB domain that prevent condensation but preserve other functions) and test whether transcriptional regulation and muscle maturation are affected. Alternatively, they could show that forcing Tono condensation in the absence of mechanical pressure is sufficient to drive the transcriptional program.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantification and rigor of droplet analyses
+  - **Claim pointer** The authors claim that Tono droplets "fuse," are "dynamic," and "form reversibly," and that granularity increases with pressure.
+  - **Evidence pointer** Results sections "Tono droplets form reversibly" and "Tono droplets respond to forces"; Methods section "Tono-granularity"
+  - **Concern** The droplet analyses rely heavily on qualitative descriptions and a single quantitative metric (mean/standard deviation of intensity). No fluorescence recovery after photobleaching (FRAP) data are presented to demonstrate liquid-like properties. The fusion events are described but not quantified. The granularity metric is indirect and may not specifically report on droplet formation. The simulation used to validate the method is acknowledged as an oversimplification but no sensitivity analysis is provided.
+  - **Why it matters** The classification of Tono droplets as LLPS condensates requires rigorous demonstration of liquid-like properties. The current evidence is suggestive but not conclusive. Without proper quantification, the claims of mechanosensitivity and reversibility are not fully supported.
+  - **Resolution test** The authors should perform FRAP experiments to demonstrate liquid-like dynamics. They should quantify droplet size, number, and fusion rates under different conditions. They should validate the granularity metric against direct droplet visualization and provide statistical comparisons across conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Transcriptional mechanism of Tono
+  - **Claim pointer** The authors state that Tono "regulates a metabolic switch during muscle maturation" and that this involves repression of early genes and activation of late genes.
+  - **Evidence pointer** Results section "Tono regulates a metabolic switch during muscle maturation"; Supplemental Figure 4; Supplemental Data 1
+  - **Concern** The RNA-seq data show many differentially expressed genes, but the direct targets of Tono are not identified. It is unclear whether Tono binds DNA directly (via its zinc fingers) or acts through other mechanisms. The authors do not perform chromatin immunoprecipitation or DNA binding assays. The connection between the transcriptional changes and the observed phenotypes (sarcomere and mitochondria defects) is correlative.
+  - **Why it matters** Understanding the molecular mechanism of Tono function is essential for the proposed model. Without knowing whether Tono directly regulates transcription and which genes are direct targets, the link between LLPS and transcriptional output remains speculative.
+  - **Resolution test** The authors should perform ChIP-seq or ChIP-qPCR to identify Tono binding sites. They could also use a heterologous system to test whether Tono can directly regulate candidate target genes. Alternatively, they could show that the transcriptional changes are dependent on Tono's DNA-binding activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of osmotic stress experiments
+  - **Claim pointer** The authors use osmotic stress (250 mM NaCl or 500 mM sucrose) to model mechanical pressure and show Tono droplet formation.
+  - **Evidence pointer** Results section "Tono droplets respond to forces"; Methods section "To induce hyper-osmotic stress"
+  - **Concern** The osmotic stress conditions used are quite extreme and may not reflect physiological conditions in developing flight muscles. The authors do not measure the actual pressure or osmolarity in developing muscles. The connection between osmotic stress and the mechanical pressure generated by growing myofibrils and mitochondria is not directly demonstrated.
+  - **Why it matters** The physiological relevance of the proposed mechanosensing mechanism depends on whether the experimental conditions mimic endogenous forces. If the osmotic stress is supra-physiological, the conclusions about mechanosensitivity may not apply to normal development.
+  - **Resolution test** The authors should measure or estimate the endogenous pressure in developing flight muscles and compare it to the pressure induced by their osmotic treatments. They could also use alternative methods to apply controlled mechanical forces to muscles and assess Tono droplet formation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary conservation and relevance to human disease
+  - **Claim pointer** The authors hypothesize that "a similar mechano-responsive regulation mechanism may control the activity of related BTB-zinc finger proteins that, if mutated, can result in uncontrolled force production in human muscle."
+  - **Evidence pointer** Discussion section
+  - **Concern** The connection to human disease is speculative. While ZBTB42 mutations cause contractures, there is no evidence presented that ZBTB42 or other human BTB-ZF proteins undergo mechanosensitive LLPS or regulate similar transcriptional programs. The authors do not provide any experimental data supporting the conservation of this mechanism.
+  - **Why it matters** The broader significance of the work depends on whether the mechanism is conserved. Without evidence, the claim about human relevance is not supported and may overstate the implications of the findings.
+  - **Resolution test** The authors should either temper the claims about human relevance or provide preliminary evidence (e.g., bioinformatic analysis, cell culture experiments) that human BTB-ZF proteins can undergo LLPS in response to mechanical stimuli.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phenotypic quantifications (flight tests, sarcomere length, mitochondria morphology)
+  - **Evidence pointer** Results sections; Methods section "Sarcomere length quantification"
+  - **Issue** The manuscript does not consistently report sample sizes, statistical tests, and effect sizes for the phenotypic analyses. For example, the flight test results are described but not statistically analyzed.
+  - **Required correction** Provide clear statistical reporting for all quantitative comparisons, including n numbers, test types, and p-values or confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The manuscript text refers to figures and supplemental figures, but the actual figures are not provided in the submitted material. This limits the ability to assess the quality and completeness of the data presentation.
+  - **Required correction** Ensure that all figures and supplemental figures are included in the submission and that they are of sufficient resolution to evaluate the claims.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Use of "Tono" vs. "CG32121"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The gene is referred to as both "Tono" and "CG32121" throughout the text. While the authors explain the naming, consistency would improve readability.
+  - **Required correction** Use "Tono" consistently after the initial introduction of the name, or define the abbreviation clearly at first use.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methods detail for RNA-seq analysis
+  - **Affected element** Transcriptomics methods
+  - **Evidence pointer** Methods section "For transcriptomics"
+  - **Issue** The RNA-seq analysis methods are described briefly. Details on read mapping, normalization, differential expression thresholds, and quality control are not fully provided.
+  - **Required correction** Provide a complete description of the RNA-seq analysis pipeline, including software versions, parameters, and quality metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarification of "internal pressure" concept
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction; Discussion
+  - **Issue** The concept of "internal pressure" in developing muscles is introduced but not clearly defined or measured. It is unclear whether this refers to hydrostatic pressure, osmotic pressure, or mechanical stress from myofibril growth.
+  - **Required correction** Define the term "internal pressure" more precisely and discuss how it relates to the experimental manipulations used.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct evidence linking Tono LLPS to transcriptional regulation (R1-M1). 2) Insufficient characterization of droplet liquid-like properties (no FRAP, no quantitative fusion analysis) (R1-M2). 3) No identification of direct transcriptional targets of Tono (R1-M3). 4) The physiological relevance of osmotic stress conditions is not established (R1-M4). 5) The claim about human disease relevance is speculative without supporting data (R1-M5).
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of mechanosensitive LLPS in transcriptional regulation is novel and would be of interest to a broad audience. However, the originality is somewhat tempered by the lack of mechanistic depth connecting LLPS to function.
+  - Scientific importance: The work addresses an important question in muscle development and mechanotransduction. If the central hypothesis is confirmed, it could have implications for understanding how mechanical forces regulate gene expression. The potential link to human muscle disease adds significance, though this remains speculative.
+  - Interdisciplinary readership: The topic bridges muscle biology, mechanobiology, and phase separation research, which could attract readers from multiple fields. The use of Drosophila genetics makes the work accessible to developmental biologists.
+  - Technical soundness: The genetic and phenotypic analyses appear technically sound. However, the LLPS characterization is incomplete, and the transcriptional mechanism is not fully explored. The statistical reporting needs improvement.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The concepts of LLPS and mechanosensing are explained clearly. However, some sections (e.g., the Phasik analysis) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important finding, but the central mechanistic claim (mechanosensitive LLPS regulating transcription) is not yet established from the provided evidence. The authors should address the major concerns, particularly the direct link between LLPS and transcriptional function, before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that Tono "senses high mechanical pressure" to regulate transcription is not directly supported; the authors show correlation between pressure and droplet formation, but not causation.
+- The classification of Tono droplets as LLPS condensates is not fully supported without FRAP or other biophysical characterization.
+- The hypothesis that related human BTB-ZF proteins may be regulated by similar mechanosensitive mechanisms is speculative and not supported by data presented.
+- The statement that "uncontrolled high sarcomere forces" cause the muscle atrophy phenotype is inferred from the Mhc[10] rescue but not directly measured.
+- The claim that Tono regulates a "metabolic switch" is based on transcriptomic data, but the functional significance of these changes is not experimentally validated.
+- The assertion that Tono droplets are "distinct from insulator bodies" is based on lack of co-localization, but the authors do not test for functional interactions or shared components.

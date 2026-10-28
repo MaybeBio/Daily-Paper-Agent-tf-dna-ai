@@ -1,0 +1,542 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-w89tc",
+  "title": "Virtual reality sampled pathways guide free energy calculation of protein-ligand binding",
+  "doi": "10.26434/chemrxiv-2022-w89tc",
+  "abstract": "We describe a novel two-step approach for combining cloud-mounted interactive molecular dynamics in virtual reality (iMD-VR) with free energy sampling (FES) approaches to quantitatively explore the dynamics of biological processes at the molecular level. The combined approach we refer to as the iMD-VR-FES protocol. Stage one involves using a state-of-the-art iMD-VR framework to quickly sample a diverse range of protein-ligand unbinding pathways, benefitting from the sophistication of human spatial and chemical intuition. Stage two involves using the iMD-VR-sampled pathways as initial guesses for defining a path-based reaction coordinate from which we can obtain a corresponding free energy profile using FES methods. To investigate the performance of the method, we apply iMR-VR-FES to investigate the unbinding of a benzamidine ligand from a trypsin protein. Unbinding free energies calculated using iMD-VR-FES show good internal consistency, and broadly agree with previous literature values. Moreover, the resulting free energy profiles can distinguish energetic differences corresponding to various protein-ligand conformations (e.g., helping to identifying favorable vs. unfavorable pathways) and also enable identification of metastable states along the unbinding pathways. The two-step iMD-VR-FES approach offers an intuitive way for researchers to test various hypotheses of dynamical and conformational change, in order to quickly obtain both qualitative and quantitative insight.",
+  "authors": [
+    "Helen Deeks",
+    "Kirill Zinovjev",
+    "Jonathan Barnoud",
+    "Adrian Mulholland",
+    "Marc van der Kamp",
+    "David Glowacki"
+  ],
+  "published_date": "2022-04-18",
+  "updated_date": "2022-04-19T00:44:40Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-w89tc",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-w89tc",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:21:12Z",
+        "timestamp": 1785435672236,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            18
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                18
+              ]
+            ],
+            "date-time": "2022-04-18T00:00:00Z",
+            "timestamp": 1650240000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000268",
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "BB/L018756/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BB/L018756/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000268",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000268",
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "BB/M026280/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BB/M026280/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000268",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/N509619/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/N509619/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/R026939/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/R026939/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/R026815/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/R026815/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/R026645/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/R026645/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/R027129/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/R027129/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/M022609/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/M022609/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/P021123/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/P021123/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000781",
+          "name": "European Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "NANOVR 866559"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NANOVR 866559"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000781",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/M013219/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/M013219/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100011033",
+          "name": "Agencia Estatal de Investigación (Spain)",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100011033",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>We describe a novel two-step approach for combining cloud-mounted interactive molecular dynamics in virtual reality (iMD-VR) with free energy sampling (FES) approaches to quantitatively explore the dynamics of biological processes at the molecular level. The combined approach we refer to as the iMD-VR-FES protocol. Stage one involves using a state-of-the-art iMD-VR framework to quickly sample a diverse range of protein-ligand unbinding pathways, benefitting from the sophistication of human spatial and chemical intuition. Stage two involves using the iMD-VR-sampled pathways as initial guesses for defining a path-based reaction coordinate from which we can obtain a corresponding free energy profile using FES methods. To investigate the performance of the method, we apply iMR-VR-FES to investigate the unbinding of a benzamidine ligand from a trypsin protein. Unbinding free energies calculated using iMD-VR-FES show good internal consistency, and broadly agree with previous literature values. Moreover, the resulting free energy profiles can distinguish energetic differences corresponding to various protein-ligand conformations (e.g., helping to identifying favorable vs. unfavorable pathways) and also enable identification of metastable states along the unbinding pathways. The two-step iMD-VR-FES approach offers an intuitive way for researchers to test various hypotheses of dynamical and conformational change, in order to quickly obtain both qualitative and quantitative insight.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-w89tc",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            19
+          ]
+        ],
+        "date-time": "2022-04-19T00:44:40Z",
+        "timestamp": 1650329080000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Virtual reality sampled pathways guide free energy calculation of protein-ligand binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0411-9343",
+          "authenticated-orcid": false,
+          "given": "Helen",
+          "family": "Deeks",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0524sp257",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bristol",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kirill",
+          "family": "Zinovjev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/043nxc105",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Valencia",
+              "place": [
+                "Spain"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Barnoud",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Citius the Research Centre on Intelligent Technologies of Santiago de Compostela — Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adrian",
+          "family": "Mulholland",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0524sp257",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bristol",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marc",
+          "family": "van der Kamp",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0524sp257",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bristol",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Glowacki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Citius the Research Centre on Intelligent Technologies of Santiago de Compostela — Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-w89tc",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:47:09Z",
+        "timestamp": 1778748429000
+      },
+      "score": 91.694176,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-w89tc"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            18
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-w89tc",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

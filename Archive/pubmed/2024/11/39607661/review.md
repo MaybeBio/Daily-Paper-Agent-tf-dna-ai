@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report structural, physicochemical, evolutionary, and protein-ligand interaction analyses of the six DMRT genes in grass carp (Ctenopharyngodon idella). They claim all DMRT proteins are acidic and nuclear-localized, that gene pairs evolved under strong purifying selection with two segmental duplications dated to approximately 18.30 and 24.90 million years ago, that recombination analysis identified six breakpoints, and that DMRTA1 shows highest binding affinity for androgen and progesterone receptors while DMRT2a and DMRT2b show highest affinity for estrogen receptor beta and gamma, respectively. They state this is the first study of DMRT binding scores and interface residues with gonadal receptors.
+- **Visible evidence base** Abstract text only; no methodological details, sequence accession numbers, phylogenetic trees, selection statistics, docking parameters, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical outputs, docking validation metrics, and sequence alignment details
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad bioinformatics and molecular docking study of the DMRT gene family in grass carp. The topic is of interest to fish reproductive biology and evolutionary genomics, but the abstract alone provides insufficient detail to evaluate the technical validity of the claims. Several statements are ambiguous or potentially overstated, particularly regarding the functional interpretation of docking scores and the evolutionary dating of segmental duplications. The claim of novelty is plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in fish reproductive genetics, sex determination and differentiation, comparative genomics of teleosts, and computational protein-ligand interaction studies would find the results relevant. The grass carp is an economically important aquaculture species, so applied fisheries biologists may also be interested in the potential links between DMRT genes and reproductive traits.
+- **Major strengths** The study addresses a gene family with clear biological significance in sex differentiation and reproduction. The combination of evolutionary analysis with protein-ligand docking is a useful integrative approach. The inclusion of all six DMRT genes in a single species provides a complete family-level view. The temporal estimation of segmental duplications adds an evolutionary dimension that is often missing in gene family studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DMRTA1 protein had a highest binding affinity of - 270.42 and - 267.16 for androgen receptors (AR) and progesterone receptors (PR), whereas, for estrogen receptors ER-beta and ER-gamma, the maximum binding affinity was observed with DMRT2a and DMRT2b proteins showing a docking score of - 254.22 and - 261.71, respectively."
+  - **Evidence pointer** Abstract only; docking methods and validation not provided
+  - **Concern** The docking scores are presented as absolute evidence of binding affinity, but no information is provided on the docking software, scoring function, receptor preparation, ligand preparation, or validation steps such as redocking or cross-docking controls. Negative docking scores alone do not establish biologically meaningful binding, and the units and scale of the scores are not defined.
+  - **Why it matters** Without methodological context and validation, the reader cannot assess whether the reported scores reflect genuine protein-ligand interactions or are artifacts of the docking protocol. The functional interpretation that these interactions "play a crucial role in fish growth, sex development and differentiation" is a significant extrapolation from in silico docking data.
+  - **Resolution test** Provide full docking methodology, including software version, scoring function, receptor and ligand preparation steps, and validation metrics such as root-mean-square deviation from known binding poses or comparison with experimental binding data. Show that the docking scores are statistically distinguishable from decoy or negative control ligands.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "All the DMRT gene pairs are under strong purifying selection with two segmental duplications envisaged about 18.30 (DMRT3a/DMRTA2) and 24.90 (DMRT2b/DMRT2a) million years ago (MYA)."
+  - **Evidence pointer** Abstract only; selection and dating methods not provided
+  - **Concern** The abstract states that all gene pairs are under strong purifying selection, but no selection metric (e.g., dN/dS or Ka/Ks values) is reported. The dating of segmental duplications to specific MYA values requires a molecular clock calibration, but no calibration method, substitution rate, or confidence intervals are given.
+  - **Why it matters** The evolutionary conclusions are central to the paper's contribution. Without reporting the actual selection statistics and the dating methodology, the claims cannot be evaluated or reproduced. The precision of the MYA estimates without confidence intervals is also concerning.
+  - **Resolution test** Report the selection metric with statistical support for each gene pair. Provide the molecular clock calibration approach, substitution rate used, and confidence intervals for the duplication dates. If possible, show that the duplication dates are robust to different calibration points.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "First time we studied the binding scores and interface residues of the DMRT genes as a ligand of gonadal receptors that play a crucial role in fish growth, sex development and differentiation, and spermatogenesis and oocyte maturation."
+  - **Evidence pointer** Abstract only; literature comparison not provided
+  - **Concern** The novelty claim is stated without a comparative literature review. It is unclear whether the novelty refers to grass carp specifically, to teleosts broadly, or to any species. The abstract does not demonstrate that no prior study has examined DMRT protein docking with gonadal receptors.
+  - **Why it matters** The claim of being "first" is a strong statement that requires explicit support. If the novelty is overstated, it could mislead readers about the contribution of the work.
+  - **Resolution test** Provide a clear literature search summary showing that no prior study has performed DMRT-gonadal receptor docking in any species, or appropriately scope the novelty claim to grass carp or teleosts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "diverse group of transcriptional factors" is grammatically awkward and could be clearer.
+  - **Required correction** Revise to "a diverse group of transcription factors" for grammatical accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Species name formatting
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The species name is written as "Ctenopharyngodon Idella" with an uppercase specific epithet, which is incorrect binomial nomenclature.
+  - **Required correction** Use "Ctenopharyngodon idella" with lowercase specific epithet throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Docking score interpretation
+  - **Evidence pointer** Abstract, docking results sentence
+  - **Issue** The phrase "highest binding affinity of - 270.42" is ambiguous because the sign convention for docking scores is not explained.
+  - **Required correction** State whether more negative scores indicate stronger binding and provide the score units.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, final sentence
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "in-depth phylogenomic study" is vague and does not specify what kind of follow-up work is envisioned.
+  - **Required correction** Specify the intended future analyses, such as functional validation or comparative genomics across species.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of functional binding and evolutionary dating cannot be assessed without the underlying methods and statistical outputs. The novelty claim in R1-M3 also requires verification but is not blocking if appropriately scoped.
+- **Assessment against Nature-style criteria** Originality: The integrative approach combining DMRT evolution with receptor docking is somewhat novel, but the abstract does not demonstrate a clear advance over existing gene family studies. Scientific importance: The work has potential relevance to aquaculture and reproductive biology, but the significance is not convincingly established from the abstract alone. Interdisciplinary readership: The topic bridges genomics, evolution, and computational biology, which could attract a broad audience, but the abstract is too technical in places for nonspecialists. Technical soundness: Not assessable from the abstract; the docking and evolutionary analyses require full methodological scrutiny. Readability for nonspecialists: The abstract is generally readable but contains jargon and ambiguous statements that need clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the blocking concerns regarding docking validation and evolutionary dating must be resolved with full methodological details before the claims can be considered credible.
+
+## Risk / unsupported claims
+- The claim that DMRT proteins "play a crucial role in fish growth, sex development and differentiation, and spermatogenesis and oocyte maturation" is an extrapolation from docking scores and is not supported by functional experiments in the abstract.
+- The statement that all DMRT gene pairs are under "strong purifying selection" is unsupported because no selection statistics are reported.
+- The specific MYA dates for segmental duplications are presented without confidence intervals or calibration details, making them unverifiable.
+- The novelty claim of being "first" to study DMRT binding scores with gonadal receptors is unverifiable without a literature comparison.
+- The biological relevance of the docking scores is not established; no experimental validation or comparison with known binding data is provided.

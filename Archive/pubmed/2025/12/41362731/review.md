@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Supplementary Material description)
+- **Assessment boundary** Scientific validity, technical soundness, and evidentiary support of the claims presented in the manuscript
+- **Shared manuscript claim summary** The manuscript claims that Schisandrin B (Sin B), a lignan from Schisandra chinensis, alleviates ANIT-induced cholestatic liver injury (CLI) by directly binding to the ligand-binding domain (LBD) of pregnane X receptor (PXR) at residues S106, G144, and W299, thereby activating PXR and enhancing bile acid metabolism through two pathways: (1) upregulation of metabolic enzymes and transporters (UGT1A1, CYP3A4/CYP3A11, MRPs) and (2) activation of TFEB-mediated autophagic lysosome formation. The authors further claim that PXR directly binds to the TFEB promoter to enhance TFEB transcription, and that these effects are PXR-dependent based on loss-of-function studies in Pxr-knockdown and Tfeb-knockout mice.
+- **Visible evidence base** Clinical samples (n=11), WRL68 cell line experiments, liver lobule chips, mouse models (C57BL/6J, Pxr-knockdown via AAV-shRNA, Tfeb-knockout), biophysical assays (ITC, SPR, CESTA, DARTS), molecular dynamics simulations, X-ray crystallography (mentioned, data not shown), transcriptomics, LC-MRM-MS bile acid profiling, western blotting, immunofluorescence, histology
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; Table 1 (primers) and Table 2 (crystallographic data) not provided; Supplementary Figures S1-S5 not provided; crystallographic structural data not shown; raw transcriptomic data not accessible; clinical sample details (disease etiology, medications, sample size justification) incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question and presents a plausible dual-pathway mechanism for Sin B in cholestatic liver injury. The combination of biophysical binding assays, structural modeling, in vitro and in vivo loss-of-function studies is commendable. However, several technical concerns undermine the strength of the conclusions. The claim that Sin B directly binds PXR at specific residues is supported by multiple orthogonal assays, but the crystallographic data referenced in the methods are not presented. The PXR-TFEB transcriptional axis is a novel finding but requires additional validation. The in vivo loss-of-function data for Pxr-knockdown are incomplete, and the Tfeb-knockout data show only partial effects, which the authors acknowledge but do not fully reconcile with their model. The clinical sample size is small and lacks detailed characterization. Overall, the work is potentially significant but requires substantial revision and additional data to fully establish the mechanistic claims.
+- **Who would be interested in the results, and why** Researchers in hepatology, particularly those studying cholestatic liver diseases and bile acid metabolism; investigators working on nuclear receptor biology, especially PXR and its role in xenobiotic metabolism; drug discovery scientists interested in natural product-based therapeutics for liver diseases; structural biologists studying nuclear receptor ligand-binding mechanisms; researchers in the field of autophagy and lysosomal biology as it relates to metabolic regulation.
+- **Major strengths** 1. The study employs a multi-pronged approach combining clinical samples, cell models, organ-on-chip technology, and multiple in vivo models. 2. The identification of specific PXR binding residues (S106, G144, W299) through multiple orthogonal biophysical assays (ITC, SPR, DARTS, CETSA, MD simulations) is rigorous. 3. The dual-pathway mechanism (metabolic enzyme upregulation and autophagy activation) is conceptually novel and well-integrated. 4. The use of Pxr-knockdown and Tfeb-knockout mice provides genetic evidence for target specificity. 5. The liver lobule chip model represents an innovative approach to validate findings in a more physiologically relevant in vitro system.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that Sin B directly binds to PXR at residues S106, G144, and W299, inducing conformational changes in the LBD, and that this was "verified through target fishing, molecular dynamics (MD) simulations, drug affinity responsive target stability assay, isothermal titration calorimetry and surface plasmon resonance."
+  - **Evidence pointer** Section 2.17 (Crystallization and structural characterization), Section 3.6, Section 3.7, Table 2
+  - **Concern** The methods section describes X-ray crystallography and references Table 2 for crystallographic data, but no structural coordinates, electron density maps, or refinement statistics are presented anywhere in the manuscript. The claim of "conformational changes" in the LBD requires structural evidence. Additionally, the MD simulations are described but the specific results (RMSD, RMSF, binding free energy calculations) are not shown in the main text or supplementary materials. The residue-level interactions (S106, G144, W299) are inferred from docking and MD but the experimental validation of these specific residues through mutagenesis is absent.
+  - **Why it matters** The specific binding mode and residue-level interactions are central to the mechanistic claim and to the potential for structure-based drug design, which the authors emphasize in the discussion. Without crystallographic or mutagenesis data, the claim of specific residue involvement remains speculative.
+  - **Resolution test** Provide the crystallographic data (or a clear statement that crystallization was unsuccessful and the model is based solely on computational predictions), include mutagenesis experiments (e.g., S106A, G144A, W299A PXR mutants) to functionally validate the binding site, and present the MD simulation results including RMSD, RMSF, and binding free energy analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that "Knockout of hepatic Pxr or Tfeb blocked these effects of Sin B" and that PXR directly binds to the TFEB promoter to enhance TFEB transcription.
+  - **Evidence pointer** Section 3.8, Section 3.9, Section 3.10, Figure 8, Figure 9, Figure 10
+  - **Concern** The Pxr-knockdown model uses AAV-shRNA, which typically results in partial knockdown rather than complete knockout. The manuscript states "Pxr-knockdown mice" but the claim says "Knockout of hepatic Pxr." The degree of knockdown efficiency is not quantified in the text. For the TFEB promoter binding claim, the authors used bioinformatics prediction (PROMO and JASPAR) and a luciferase reporter assay, but no ChIP assay or electrophoretic mobility shift assay (EMSA) is presented to demonstrate direct PXR binding to the TFEB promoter in a native chromatin context. The Tfeb-knockout data show only partial effects, which the authors acknowledge but do not fully reconcile with their proposed model.
+  - **Why it matters** The genetic loss-of-function experiments are the primary evidence for target specificity. Partial knockdown confounds interpretation. The direct PXR-TFEB promoter interaction is a novel claim that requires direct biochemical evidence beyond reporter assays.
+  - **Resolution test** Quantify Pxr knockdown efficiency (mRNA and protein) and show that residual PXR levels correlate with residual Sin B effects. Perform ChIP-qPCR to demonstrate PXR occupancy at the TFEB promoter in vivo. Provide a more detailed analysis of the Tfeb-knockout data, including which bile acid species remain elevated and whether the residual effects are attributable to PXR-independent pathways.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The manuscript claims that "Sin B treatment reduced BA levels and inflammation in ANIT-induced WRL68 cells, liver lobule chips, and mice" and presents extensive transcriptomic and metabolomic data.
+  - **Evidence pointer** Section 3.1, Section 3.3, Section 3.4, Section 3.5, Figures 1-5
+  - **Concern** The transcriptomic sequencing data are described but the raw data, differential expression analysis parameters, and full gene lists are not provided. The LC-MRM-MS bile acid profiling methodology is described but the complete list of 33 bile acids, their limits of detection, and quality control data are not shown. The clinical sample section mentions 11 patients but does not provide demographic data, disease etiologies, concurrent medications, or a power analysis justifying this sample size.
+  - **Why it matters** Reproducibility is a core requirement for high-impact publications. The omics data are central to the mechanistic claims, and the clinical data are used to establish disease relevance. Without access to these data, independent verification is impossible.
+  - **Resolution test** Deposit raw transcriptomic data in a public repository (e.g., GEO) and provide accession numbers. Provide the full bile acid profiling data as a supplementary table with quality control metrics. Expand the clinical sample description to include patient demographics, disease etiologies, and a justification for sample size.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that Sin B activates PXR to regulate bile acid homeostasis by "inhibiting the synthesis enzymes Cyp7a1, Cyp27a1, Cyp7b1, and Cyp8b1" and "upregulating the detoxifying enzymes CYP3A4 (in humans) or CYP3A11 (in mice) and the transporters Ugt1a1."
+  - **Evidence pointer** Section 3.4, Section 4 (Discussion), Figure 4, Supplementary Figure S5
+  - **Concern** The data for Cyp7a1, Cyp27a1, Cyp7b1, and Cyp8b1 inhibition are referenced to Supplementary Figure S5, which is not provided. The manuscript does not show whether these changes are direct transcriptional effects of PXR activation or secondary to other mechanisms. The authors do not address the known species differences in PXR ligand specificity between human and mouse, which is particularly relevant given that Sin B was tested in mice but CYP3A4 (human) is discussed.
+  - **Why it matters** The proposed dual-pathway mechanism depends on the coordinated regulation of synthesis enzymes, detoxifying enzymes, and transporters. Without the data for the synthesis enzymes, the pathway model is incomplete. Species differences in PXR pharmacology could affect the translational relevance of the findings.
+  - **Resolution test** Provide the Supplementary Figure S5 data in the main text or as a supplementary figure. Include a discussion of human versus mouse PXR ligand specificity and whether the observed effects are expected to translate to humans. Consider including a human PXR-expressing cell line to validate the human relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section 2.2 (Collection of human specimens)
+  - **Evidence pointer** Section 2.2
+  - **Issue** The clinical sample description is minimal. The manuscript states that 11 samples were collected, 8 with high bile acid levels and 3 with low bile acid levels, but does not specify the underlying liver diseases, whether patients were on any medications that could affect bile acid metabolism, or the age and sex distribution.
+  - **Required correction** Provide a more detailed description of the clinical cohort, including disease etiologies, medication history, and demographic information. If this information is unavailable, state this limitation explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.17 (Crystallization and structural characterization)
+  - **Evidence pointer** Section 2.17, Table 2
+  - **Issue** The crystallization section is brief and does not describe the crystallization conditions, data collection statistics, or structure refinement details. Table 2 is referenced but not provided.
+  - **Required correction** Either provide the full crystallographic data in Table 2 and describe the structure determination process, or remove the crystallization claim and rely on the computational modeling and biophysical data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.22 (Statistical analyses)
+  - **Evidence pointer** Section 2.22
+  - **Issue** The statistical methods section states that GraphPad Prism was used but does not specify which statistical tests were applied to which datasets. The manuscript does not state whether data were tested for normality or whether non-parametric tests were used when appropriate.
+  - **Required correction** Provide a more detailed description of the statistical tests used for each figure panel, including post-hoc tests for multiple comparisons and how normality was assessed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.5 (Liver lobule chips)
+  - **Evidence pointer** Section 3.5, Figure 5
+  - **Issue** The liver lobule chip experiments are described but the figure is not available for review. The manuscript does not specify how many independent chip experiments were performed or whether the results were reproducible across chips.
+  - **Required correction** Specify the number of independent chip experiments and include information about chip-to-chip variability in the figure legend or methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.6 (Target identification)
+  - **Evidence pointer** Section 3.6, Figure 6
+  - **Issue** The target fishing experiments identified PXR as a major target, but the manuscript does not discuss the other potential targets identified in the cross-target analysis (top 16 in WRL6 cells and top 18 in liver tissue). The significance of these other targets is not addressed.
+  - **Required correction** Briefly discuss the other potential targets identified and explain why PXR was prioritized for further investigation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Section 3.4, Figure 4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The text states "verall" instead of "Overall" at the beginning of a paragraph.
+  - **Required correction** Correct the typographical error.
+
+## Risk / unsupported claims
+- The claim that Sin B induces specific conformational changes in the PXR-LBD is not supported by the presented data, as no crystallographic or cryo-EM structural data are shown.
+- The claim that PXR directly binds to the TFEP promoter is based on bioinformatics prediction and reporter assays only; no ChIP, EMSA, or other direct DNA-binding evidence is provided.
+- The claim that "Knockout of hepatic Pxr" blocked Sin B effects is overstated, as the methods describe knockdown (via AAV-shRNA), not knockout.
+- The clinical correlation between bile acid accumulation and disease severity is based on only 11 patients without detailed clinical characterization, limiting the strength of this claim.
+- The claim that Sin B is "superior to the existing therapies OCA and UDCA" is not directly tested in this study and is an extrapolation from the discussion.
+- The species difference between human CYP3A4 and mouse CYP3A11 is mentioned but not experimentally addressed, leaving the human translational relevance of the findings uncertain.

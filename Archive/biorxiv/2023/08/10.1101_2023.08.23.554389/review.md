@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related work, proposed approach, experimental setup, results, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methodology, and evidence presented in the manuscript. No assessment of formatting, grammar, or editorial quality beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors propose a framework for protein-DNA binding site prediction that combines two embedding techniques (SeqVec and a sparse coding-based method using k-mers and one-hot encoding) with classical machine learning classifiers (Naive Bayes, Multi-layer Perceptron, K-Nearest Neighbors, Random Forest, Logistic Regression, Decision Tree). They claim superior performance over existing models including CLAPE (ProtBert + 1DCNN) on two benchmark datasets, and demonstrate adaptability to protein-ligand binding site prediction.
+- **Visible evidence base** Tables 1-6 (dataset statistics, baseline descriptions, classification results for Datasets 1 and 2), Figures 1-3 (sparse coding workflow, t-SNE visualizations), text descriptions of experimental setup and results
+- **Missing materials affecting confidence** The actual numerical values in Tables 1-6 are not provided in the supplied material. Figure 1 (sparse coding workflow) is referenced but not shown. The GitHub repository link is provided but not accessible for verification. Dataset details (sources, sizes, composition) are only partially described. No hyperparameter details for the ML classifiers are given. The fine-tuning details for ProtBert are mentioned but not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics, namely protein-DNA binding site prediction, and proposes a pragmatic combination of existing embedding techniques with classical ML classifiers. The motivation for replacing deep learning classifiers with simpler ML models is reasonable and supported by literature. However, the manuscript has several significant weaknesses. The core claims of superior performance cannot be verified because the actual numerical results are not visible in the supplied material. The comparison with baselines is incomplete and potentially unfair, as the authors do not report all relevant metrics for all methods consistently. The novelty of the approach is limited, as it primarily combines existing components (SeqVec, k-mer encoding, standard ML classifiers) without introducing a fundamentally new method. The sparse coding approach is described as "almost parameter free" but the choice of k=9 is a parameter that requires justification. The generalization claim to protein-ligand binding sites is not supported by any results in the visible text. The t-SNE visualizations are described as showing overlapping clusters, which does not support the claim of effective embedding quality. Overall, the manuscript presents a work-in-progress that requires substantial additional evidence and analysis to establish its claims.
+- **Who would be interested in the results, and why** Researchers working on protein-DNA and protein-ligand binding site prediction, particularly those interested in lightweight alternatives to deep learning models. The comparison of SeqVec and ProtBert embeddings with classical ML classifiers may be of interest to practitioners seeking computationally efficient solutions. The sparse coding approach, if validated, could appeal to those working in resource-constrained settings. The manuscript may also be of interest to researchers studying the applicability of language model embeddings to structured prediction tasks in biology.
+- **Major strengths** The problem is well-motivated and relevant. The authors correctly identify a limitation of deep learning models on tabular data and propose a sensible alternative. The use of multiple ML classifiers provides a broad comparison. The sparse coding approach is computationally efficient and conceptually simple. The authors provide code availability, which supports reproducibility. The manuscript is clearly written and the structure is logical.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim "superior performance when compared to existing models" based on "higher predictive behavior with AUC values on two benchmark datasets."
+  - **Evidence pointer** Tables 3, 4, 5, 6 (numerical values not visible in supplied material)
+  - **Concern** The actual numerical results are not provided in the supplied material. Without the values in Tables 3-6, it is impossible to assess whether the claimed superiority is statistically significant, clinically meaningful, or consistent across metrics. The text describes "near-perfect specificity" for several methods, which raises questions about dataset difficulty and ceiling effects. The claim of superiority appears to be based on selective metrics (specificity, precision) while other metrics (recall, F1, MCC, ROC-AUC) are acknowledged to be better for baselines. This selective reporting does not support the overall claim of superiority.
+  - **Why it matters** The central claim of the manuscript is that the proposed approach outperforms existing methods. Without visible numerical evidence, this claim cannot be evaluated. If the superiority is only in specificity and precision at the cost of recall and F1, the practical utility of the method is questionable, as binding site prediction typically requires a balance between precision and recall.
+  - **Resolution test** Provide the full numerical results for all metrics and all methods in Tables 3-6. Include statistical significance testing (e.g., confidence intervals, paired tests across cross-validation folds). Report the trade-off between precision and recall explicitly and discuss the practical implications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that "instead of using a One-dimensional Convolutional Neural Network (1DCNN) for the underlying classification... we use simple ML classifiers for the underlying supervised analysis" and that this is justified because "neural network-based methods do not work efficiently as compared to simple Machine Learning (ML) classifiers in the case of tabular data."
+  - **Evidence pointer** Section 3.2, Section 5, Tables 3-4
+  - **Concern** The comparison between ML classifiers and 1DCNN is confounded by the embedding method. The authors compare ProtBert + ML classifiers against ProtBert + 1DCNN (from CLAPE), but the ML classifiers are trained on embeddings that may have been processed differently. The claim that ML classifiers are superior to deep learning for tabular data is a general statement that may not hold for this specific task and feature representation. The authors do not provide a controlled comparison where the only variable is the classifier. Additionally, the ML classifiers are not optimized (no hyperparameter tuning is described), which may disadvantage them or, conversely, the 1DCNN from CLAPE may not have been re-tuned for these datasets.
+  - **Why it matters** The central methodological contribution is the replacement of deep learning classifiers with ML classifiers. If the comparison is not controlled, the conclusion that ML classifiers are preferable is not established. The practical recommendation to use ML classifiers over deep learning depends on this comparison being fair and comprehensive.
+  - **Resolution test** Provide a controlled comparison where the same embeddings are used with both ML classifiers and 1DCNN, with hyperparameter tuning for both. Report results across multiple random seeds and cross-validation schemes. Discuss the computational cost and inference time for each approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim "We further demonstrated the adaptability of our model as a universal framework for binding site prediction by training it on a variety of protein-ligand binding site datasets."
+  - **Evidence pointer** Section 5, Tables 5-6 (protein-ligand results)
+  - **Concern** The manuscript focuses on protein-DNA binding site prediction, but the claim of universality for protein-ligand binding sites is made without visible results. Tables 5 and 6 are described as showing results for ProteinBert embeddings on the same DNA datasets, not for protein-ligand datasets. The text does not describe any experiments on protein-ligand binding site datasets. The claim of universality is therefore unsupported by the visible evidence.
+  - **Why it matters** The claim of universality is a significant extension of the work's scope. If the method is only validated on DNA binding sites, the claim of applicability to other ligand types is speculative. This overstatement could mislead readers about the method's generalizability.
+  - **Resolution test** Either remove the claim of universality or provide experimental results on protein-ligand binding site datasets. If such experiments were performed, describe the datasets, results, and comparison with existing methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose a "sparse coding-based alternative, which involves the power of k-mers (for neighborhood context capturing) and one-hot encoding" and claim it is "almost parameter free."
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Concern** The sparse coding method is described as combining k-mers and one-hot encoding, but the technical details are insufficient. The choice of k=9 is stated to be "decided using the standard validation set approach," which means k is a parameter that requires tuning. The claim of "almost parameter free" is therefore misleading. Additionally, the dimensionality of the resulting embeddings is not specified, and the computational complexity of the encoding is not discussed. The handling of sequence boundaries (the "remaining n-k amino acids" mentioned in the text) is described but the exact procedure is unclear.
+  - **Why it matters** The sparse coding method is presented as a contribution of the work. If the technical details are not fully specified, the method cannot be reproduced or compared fairly with other approaches. The claim of being "almost parameter free" is inaccurate and could mislead readers about the method's simplicity.
+  - **Resolution test** Provide a complete formal description of the sparse coding encoding, including the exact algorithm, dimensionality, and handling of edge cases. Discuss the sensitivity of results to the choice of k. Provide a fair comparison of the computational cost of this method versus SeqVec and ProtBert.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline fairness
+  - **Claim pointer** The authors compare their approach against "existing models" including DRNAPred, DNAPred, SVMnuc, NCBPred, DBPred, and ProtBert + 1DCNN.
+  - **Evidence pointer** Section 4 (Baseline Models), Tables 3-4
+  - **Concern** The baseline methods are described in Table 2, but the details of how these baselines were implemented and evaluated are not provided. It is unclear whether the baselines were re-trained on the same datasets, whether their hyperparameters were tuned, and whether the same evaluation protocol (e.g., cross-validation scheme, data splits) was used. The comparison may be unfair if the baselines were not given the same opportunity for optimization.
+  - **Why it matters** A fair comparison with baselines is essential for establishing the claimed superiority of the proposed method. If baselines are not optimally configured, the comparison is biased in favor of the proposed approach.
+  - **Resolution test** Describe the implementation details of all baselines, including hyperparameter tuning, training procedure, and evaluation protocol. Provide the code or configuration files for all baselines to ensure reproducibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, sparse coding description
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Issue** The description of the sparse coding method is unclear regarding the exact procedure for handling sequence boundaries. The text states "for the remaining n-k amino acids, we take the k-mers-based sliding window in reverse order," but it is not clear how this affects the embedding of those amino acids or whether this introduces any bias.
+  - **Required correction** Provide a step-by-step algorithmic description of the sparse coding encoding, including a clear explanation of the boundary handling procedure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, Dataset Statistics
+  - **Evidence pointer** Table 1
+  - **Issue** The dataset statistics are referenced but the actual numbers are not visible. The text mentions "Dataset1" and "Dataset2" but does not describe the source of these datasets, the number of proteins, the number of residues, or the class distribution.
+  - **Required correction** Provide the full dataset statistics in Table 1, including the source of the datasets, the number of sequences, the total number of residues, and the proportion of binding versus non-binding residues.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4, Experimental Setup
+  - **Evidence pointer** Section 4
+  - **Issue** The manuscript states "All experiments are conducted using a server having Intel(R) Xeon(R) CPU E7-4880 v4 @ 2.40 GHz with Ubuntu 64 bit OS (16.04.7 LTS Xenial Xerus) having 3023 GB memory." This level of detail is unusual and does not contribute to reproducibility. More important details, such as software versions, library versions, and random seeds, are not provided.
+  - **Required correction** Replace the hardware description with software environment details, including the programming language, key library versions, and random seeds used for reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 5, Results and Discussion
+  - **Evidence pointer** Tables 3-6
+  - **Issue** The discussion of results is largely descriptive, stating which method performs best on which metric, without providing interpretation of why the observed patterns occur. For example, the authors note that ProtBert + ML classifiers show "near-perfect specificity and precision" but do not discuss why this occurs or what it implies about the method's practical utility.
+  - **Required correction** Add interpretation of the results, discussing the trade-offs between metrics, the implications for practical use, and the potential reasons for the observed performance patterns.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 2, Related Work
+  - **Evidence pointer** Section 2
+  - **Issue** The related work section is brief and does not provide a comprehensive overview of the state of the art in protein-DNA binding site prediction. Several recent deep learning approaches are not discussed, and the comparison with CLAPE is not placed in the context of other recent methods.
+  - **Required correction** Expand the related work section to include a more comprehensive review of recent methods, including deep learning approaches, and clearly position the proposed method relative to the state of the art.
+
+## Risk / unsupported claims
+- The claim of "superior performance when compared to existing models" is unsupported because the numerical results in Tables 3-6 are not visible in the supplied material.
+- The claim of "adaptability of our model as a universal framework for binding site prediction" is unsupported because no experiments on protein-ligand binding site datasets are described in the visible text.
+- The claim that the sparse coding method is "almost parameter free" is inaccurate because the choice of k=9 is a tunable parameter.
+- The claim that "neural network-based methods do not work efficiently as compared to simple Machine Learning classifiers" is a general statement that is not specifically validated for this task and feature representation.
+- The claim that SeqVec is more efficient than ProtBert for this task is not supported by any computational cost or performance comparison in the visible text.
+- The t-SNE visualization analysis is descriptive and does not provide quantitative evidence for the quality of the embeddings.

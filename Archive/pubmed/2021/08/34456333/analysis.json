@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34456333",
+  "title": "PCA-based unsupervised feature extraction for gene expression analysis of COVID-19 patients.",
+  "authors": "Fujisawa, Kota; Shimo, Mamoru; Taguchi, Y-H; Ikematsu, Shinya; Miyata, Ryota",
+  "journal": "Scientific reports",
+  "published_date": "2021-08-31",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 3,
+  "one_liner_zh": "用PCA无监督特征提取分析COVID-19患者基因表达，虽涉及转录因子NFKB1/RELA结合位点富集，但核心是表达谱分析而非蛋白-DNA互作建模，且无AI/物理模拟方法。",
+  "abstract": "Coronavirus disease 2019 (COVID-19) is raging worldwide. This potentially fatal infectious disease is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, the complete mechanism of COVID-19 is not well understood. Therefore, we analyzed gene expression profiles of COVID-19 patients to identify disease-related genes through an innovative machine learning method that enables a data-driven strategy for gene selection from a data set with a small number of samples and many candidates. Principal-component-analysis-based unsupervised feature extraction (PCAUFE) was applied to the RNA expression profiles of 16 COVID-19 patients and 18 healthy control subjects. The results identified 123 genes as critical for COVID-19 progression from 60,683 candidate probes, including immune-related genes. The 123 genes were enriched in binding sites for transcription factors NFKB1 and RELA, which are involved in various biological phenomena such as immune response and cell survival: the primary mediator of canonical nuclear factor-kappa B (NF-kappaB) activity is the heterodimer RelA-p50. The genes were also enriched in histone modification H3K36me3, and they largely overlapped the target genes of NFKB1 and RELA. We found that the overlapping genes were downregulated in COVID-19 patients. These results suggest that canonical NF-kappaB activity was suppressed by H3K36me3 in COVID-19 patient blood.",
+  "abstract_zh": "2019冠状病毒病（COVID-19）正在全球肆虐。这种潜在致命的传染病由严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）引起。然而，COVID-19的完整机制尚未被充分理解。因此，我们分析了COVID-19患者的基因表达谱，通过一种创新的机器学习方法识别疾病相关基因，该方法实现了从样本数量少且候选基因众多的数据集中进行数据驱动的基因选择策略。我们将基于主成分分析的无监督特征提取（PCAUFE）应用于16名COVID-19患者和18名健康对照者的RNA表达谱。结果从60,683个候选探针中鉴定出123个基因对COVID-19进展至关重要，其中包括免疫相关基因。这123个基因富集于转录因子NFKB1和RELA的结合位点，这些转录因子参与多种生物现象，如免疫反应和细胞存活：经典核因子-κB（NF-kappaB）活性的主要介导者是RelA-p50异二聚体。这些基因还富集于组蛋白修饰H3K36me3，并且与NFKB1和RELA的靶基因高度重叠。我们发现这些重叠基因在COVID-19患者中表达下调。这些结果表明，在COVID-19患者血液中，经典NF-kappaB活性被H3K36me3抑制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34456333/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34456333/",
+  "paper_page_path": "papers/pubmed/34456333/index.html"
+}

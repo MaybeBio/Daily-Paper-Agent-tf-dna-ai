@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as provided; no external data or code verification performed
+- **Shared manuscript claim summary** The authors propose a graph neural network approach, specifically Principal Node Aggregation (PNA), for gene expression prediction. The method integrates regulatory features (pair-wise gene correlation, biological pathways, protein-protein interaction networks, transcription factor regulation) and spatial structural features (chromosomal distance, histone modification, Hi-C inferred 3D genomic features) into a graph representation. The authors claim superior performance over traditional regression (L1000), other deep learning models (MLP, autoencoder), and prior graph-based methods (NCNN, GC-MERGE), validated on independent datasets across normal and tumor tissues.
+- **Visible evidence base** Full manuscript text including methods, results narrative, figure descriptions (Figures 1-5), table description (Table 1), and supplementary data references
+- **Missing materials affecting confidence** Actual figures and tables (only descriptions provided), Supplementary Table S1, exact numerical results for all comparisons, hyperparameter details, code execution verification, dataset preprocessing specifics, and statistical significance testing details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in gene expression prediction by extending the L1000 framework with graph neural networks and integrating multiple biological feature types. The concept of using regulatory and spatial structural features within a graph framework is timely and potentially valuable. However, the manuscript as presented has substantial gaps in methodological detail, quantitative reporting, and rigorous comparison that prevent full evaluation of the claims. The core finding that PNA outperforms alternatives is plausible but not convincingly established from the provided evidence. The writing is generally clear but contains some imprecise statements and the methods section lacks sufficient specificity for reproducibility.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene expression prediction, graph neural network applications in genomics, and integrative analysis of multi-omics data. Researchers interested in the L1000 platform and its extensions would also find relevance. The work could be of interest to those developing methods for missing data imputation in transcriptomics and for understanding gene regulatory relationships.
+- **Major strengths** (1) The problem is well-motivated and builds on an established framework (L1000) with clear limitations identified. (2) The integration of multiple diverse biological feature types (regulatory and spatial) into a unified graph representation is conceptually appealing and biologically grounded. (3) The use of independent validation datasets across normal, tumor, and cell line contexts is a methodological strength. (4) The comparison against multiple baseline methods including prior graph-based approaches (NCNN, GC-MERGE) is appropriate. (5) The authors address tissue specificity and disease-specific effects, which are important practical considerations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PNA models demonstrate "superior performance compared to traditional regression and other deep learning models" and that "PNA demonstrated overall better performance than GCN in the setting of gene expression prediction."
+  - **Evidence pointer** Results section, Figures 2B-J, Figure 3F-G, location not provided
+  - **Concern** The quantitative evidence supporting the performance claims is not presented in the manuscript text. While figures are referenced, the actual numerical values for recall, correlation, and tMSE for each model across all validation scenarios are not reported in the text. The authors state specific values for one example (PNA model: recall 0.92, correlation 0.81, tMSE 0.76) but do not provide a comprehensive comparison table or detailed numerical results for all models and conditions. Furthermore, no statistical significance testing is reported to support claims of superiority.
+  - **Why it matters** Without explicit numerical results and statistical tests, the reader cannot assess the magnitude of improvement, its consistency across conditions, or whether observed differences are meaningful or within noise. The central claim of the manuscript depends on demonstrating clear, statistically supported performance advantages.
+  - **Resolution test** Provide a comprehensive results table with all metrics for all models across all validation datasets, including measures of variance and statistical significance (e.g., paired tests across genes or bootstrap confidence intervals). Report effect sizes to allow assessment of practical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the remaining graph features are inferred from prior data" and that the method "necessitates solely a partial transcriptome as input, in our case, up to 70% fewer landmark genes from the L1000 method."
+  - **Evidence pointer** Abstract, Discussion section, Materials and methods (Datasets and models), location not provided
+  - **Concern** The manuscript does not clearly describe how the graph features are constructed from prior data and how they are integrated with the input gene expression data during training and inference. Specifically, it is unclear whether the graph edges are fixed or learned, how the different feature types are combined into a single graph, and whether the graph structure is the same across all samples or sample-specific. The sensitivity analysis mentions removing 70% of gene expression randomly, but the exact protocol and its implications for graph construction are not detailed.
+  - **Why it matters** Reproducibility is a fundamental requirement. Without a clear description of the graph construction process, feature integration, and the handling of missing input data, other researchers cannot implement or validate the method. The claim that only a partial transcriptome is needed depends critically on how the graph features compensate for missing expression data.
+  - **Resolution test** Provide a detailed algorithmic description of graph construction, including how each feature type is converted to edges, how edge weights are determined, and how the graph is used in the PNA architecture. Clarify whether the graph is static or dynamic and how missing gene expression values are handled during both training and inference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "GCN and PNA's edges input can be flexible" and that this is an advantage over NCNN where "edges were hardcoded into the model."
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The manuscript does not provide sufficient detail on the PNA architecture, including the number of layers, hidden dimensions, aggregation functions, and training procedure. The description of PNA is generic and does not specify how it is adapted for this particular problem. The claim of flexibility is not demonstrated experimentally, as no comparison is shown with varying graph structures or edge sets.
+  - **Why it matters** The architectural choices and training details are essential for understanding why PNA performs well and for reproducing the results. The claimed advantage of flexibility should be demonstrated through experiments that vary the graph structure and show consistent or improved performance.
+  - **Resolution test** Provide complete architectural details (layer count, dimensions, aggregation functions, learning rate, optimization, regularization, training epochs, etc.). Include experiments that vary the graph edge sets and demonstrate the flexibility claim empirically.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our method significantly advances the description of the intricate network of gene interactions, surpassing the performance, predictable scope, and initial requirements set by previous methods."
+  - **Evidence pointer** Abstract, Discussion section, location not provided
+  - **Concern** The claim of advancing "predictable scope" is not clearly supported. The authors mention attempting to augment the predictable gene count from 11,350 to a maximum of 17,965, but the actual number of genes successfully predicted and the conditions under which this augmentation is achieved are not reported. The comparison with Enformer is qualitative, and no direct performance comparison with Enformer is presented.
+  - **Why it matters** The claim of advancing beyond previous methods is a key contribution. Without quantitative comparison of predictable gene counts and direct performance comparison with Enformer, the significance of the advance cannot be evaluated.
+  - **Resolution test** Report the actual number of genes predicted in each configuration and compare directly with Enformer on the same validation datasets using the same evaluation metrics. Clarify the conditions under which the augmented gene count is achievable.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the tissue of origin influences the generalizability" of pair-wise correlations and that "the variation caused by carcinogenesis surpasses the variation observed between different normal tissue types."
+  - **Evidence pointer** Results (Generalizability of pair-wise gene correlation), Figure 1A-L, location not provided
+  - **Concern** The analysis of pair-wise correlation generalizability is described qualitatively. The specific correlation values, the number of gene pairs analyzed, and the criteria for determining generalizability are not provided. The comparison between tumor and normal tissue variation is not quantified.
+  - **Why it matters** These observations motivate the design choices and the tissue-agnostic modeling approach. Without quantitative support, the conclusions about generalizability and the relative contributions of tissue type versus disease state are not established.
+  - **Resolution test** Provide quantitative results for the correlation analyses, including the distribution of correlation values across dataset pairs, the number of gene pairs meeting thresholds, and statistical comparisons between tissue types and disease states.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Title
+  - **Evidence pointer** Title, location not provided
+  - **Issue** The title is overly complex and uses jargon ("regulatory and spatial structural empowerment via principal node aggregation") that may obscure the core contribution for a broad readership.
+  - **Required correction** Consider a more direct title that conveys the key contribution, such as "Graph neural network integrating regulatory and spatial features for gene expression prediction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Datasets and models
+  - **Evidence pointer** Materials and methods (Datasets and models), location not provided
+  - **Issue** The description of data preprocessing is incomplete. The authors do not specify how gene expression values were normalized, whether batch effects were addressed, or how the 955 landmark genes were selected for each dataset.
+  - **Required correction** Provide detailed preprocessing steps, including normalization methods, quality control criteria, and any batch effect correction procedures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Performance evaluation
+  - **Evidence pointer** Materials and methods (Performance evaluation), location not provided
+  - **Issue** The definition of recall is described but the background set Z is not fully specified. The choice of the 95th percentile threshold (0.66) is stated but not justified.
+  - **Required correction** Clarify the composition of the background set and provide justification for the threshold choice.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Model descriptions
+  - **Evidence pointer** Results (Model descriptions), location not provided
+  - **Issue** The manuscript refers to "Principe Node Aggregation" in one instance and "Principal Node Aggregation" in others. This inconsistency is confusing.
+  - **Required correction** Use consistent terminology throughout, preferably "Principal Node Aggregation" as used in the title and abstract.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Model training
+  - **Evidence pointer** Materials and methods (Model training), location not provided
+  - **Issue** The training details are sparse. The authors mention GPU requirements and training time but do not specify the optimization algorithm, learning rate schedule, batch size, early stopping criteria, or data splitting strategy.
+  - **Required correction** Provide complete training configuration details to enable reproduction.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The discussion contains some repetitive statements about the advantages of GNNs and could be more focused on the specific contributions and limitations of this work.
+  - **Required correction** Streamline the discussion to emphasize the novel contributions, key findings, and clear limitations with suggestions for future work.
+
+## Risk / unsupported claims
+- The claim of "superior performance" of PNA over all alternatives is not quantitatively supported in the text; numerical results and statistical tests are not provided.
+- The claim of advancing "predictable scope" to 17,965 genes is not supported with actual results.
+- The claim that the method "surpasses" Enformer is not supported by direct comparison.
+- The claim of "flexible" edges as an advantage is not experimentally demonstrated.
+- The generalizability of pair-wise correlations across datasets is described qualitatively without supporting statistics.
+- The relative contribution of tissue type versus disease state to gene expression variation is asserted without quantitative analysis.
+- The performance of the tissue-agnostic model versus tissue-specific models is described but not fully quantified.
+- The specific contribution of each graph feature type is claimed but not systematically evaluated with ablation studies.
+- The computational efficiency and scalability of the approach beyond the tested datasets are not discussed.
+- The biological interpretation of the improved predictions is not explored, limiting insight into whether the model captures meaningful regulatory relationships.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report the design of 5-methylcytosine analogues as chemical probes for the MBD domain of human MBD2. Using a protein thermal shift assay and an AlphaScreen-based assay, they identify three fragments that bind MBD2 and disrupt MBD2-methylated DNA interactions. Two-dimensional NMR and virtual docking suggest that the compounds interact with residues important for DNA recognition. The authors position these fragments as starting points for potent chemical probes for MBD proteins.
+- **Visible evidence base** Abstract text only. No figures, tables, experimental methods, or supplementary data are provided.
+- **Missing materials affecting confidence** Full manuscript, all experimental details, assay protocols, compound structures, NMR spectra, docking parameters, statistical analyses, and any negative or control data.
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise and plausible early-stage fragment discovery effort targeting MBD2. The combination of biophysical and biochemical assays with structural insights is appropriate for the stated goal. However, the abstract provides insufficient quantitative data to evaluate the strength of the binding, the specificity of the fragments, or the robustness of the disruption of the MBD2-methylated DNA interaction. The claim that these fragments constitute a starting point for potent chemical probes is reasonable but not yet substantiated by the evidence described. The work is of interest to the epigenetic chemical biology community, but the case for a significant advance is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in epigenetic drug discovery, chemical biology, and chromatin biology would be interested. Specifically, those studying methyl-CpG binding domain proteins, DNA methylation readout mechanisms, and the development of chemical tools to perturb protein-DNA interactions would find these fragments useful as initial scaffolds. The work may also appeal to medicinal chemists interested in fragment-based approaches targeting protein-nucleic acid interfaces.
+- **Major strengths** The study addresses an under-explored area, namely chemical probes for methyl-CpG readers, which is a gap in the epigenetic toolkit. The use of orthogonal assays (thermal shift and AlphaScreen) to identify and validate binders is a sound strategy. The inclusion of NMR and docking to provide mechanistic insight into the binding site is a strength, as it moves beyond simple hit identification.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that three fragments "bind MBD2 alone and disrupt the MBD2-methylated DNA interactions."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as binding affinities, IC50 values, or assay windows, to support the claim that the fragments bind MBD2 and disrupt the protein-DNA interaction. Without these data, it is impossible to assess the potency or efficacy of the fragments.
+  - **Why it matters** The central claim of the paper is the identification of fragments that bind and disrupt. If the binding is weak or the disruption is marginal, the utility of these fragments as starting points for chemical probes is questionable. The absence of quantitative evidence prevents the reader from evaluating the significance of the findings.
+  - **Resolution test** Provide binding constants (e.g., Kd from ITC or NMR) and functional disruption data (e.g., IC50 from AlphaScreen) with appropriate controls and replicates. Show that the observed effects are concentration-dependent and specific to MBD2.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity
+  - **Claim pointer** The abstract implies that the fragments are selective for MBD2, as they are described as "probes targeting MBD2."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No data are presented on selectivity against other MBD family members (e.g., MBD1, MBD3, MBD4, MeCP2) or against other methyl-CpG binding proteins. Without such data, the claim that these are probes for MBD2 specifically is unsupported.
+  - **Why it matters** Chemical probes must demonstrate selectivity to be useful in biological studies. If the fragments also bind other MBDs, their utility as MBD2-specific tools is compromised, and any biological conclusions drawn from their use would be confounded.
+  - **Resolution test** Include selectivity assays against a panel of related MBD domains and, ideally, unrelated proteins. Show that the fragments do not bind other MBDs at concentrations where they bind MBD2.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth
+  - **Claim pointer** The abstract states that "two-dimensional NMR experiments and virtual docking gave valuable insights into the interaction of the ligands with the protein showing that the compounds interact with residues that are important for DNA recognition."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which residues are involved, how the NMR data were interpreted, or how the docking was validated. The claim of "valuable insights" is vague and cannot be assessed without details on the structural model and the confidence in the docking poses.
+  - **Why it matters** The mechanistic interpretation is a key part of the paper's contribution. If the NMR and docking data are not robust, the proposed binding mode may be incorrect, which would mislead future optimization efforts.
+  - **Resolution test** Provide a clear description of the NMR chemical shift perturbations, the residues affected, and the docking protocol with scoring and validation (e.g., cross-docking or comparison with known structures). Show that the proposed binding mode is consistent across methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "the readers of the epigenetic marks are lacking enlightenment behind this revolution" is unclear and could be misinterpreted. It is not immediately obvious what "lacking enlightenment" means in this context.
+  - **Required correction** Rephrase to state more directly that the understanding of how DNA methylation is read by reader proteins has lagged behind other areas of epigenetics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the chemical structures or the diversity of the three fragments. Without this information, the reader cannot gauge the chemical novelty or the potential for further optimization.
+  - **Required correction** Include a brief description of the fragment scaffolds or refer to a figure in the full manuscript that shows the structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing tools
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state whether any chemical probes for MBD2 already exist. If they do, the novelty of these fragments should be positioned against them.
+  - **Required correction** Add a sentence in the introduction or discussion of the abstract that states the current landscape of MBD2 probes and how these fragments differ or improve upon existing tools.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without quantitative binding and disruption data, and without selectivity data, the central claims of the abstract are not supported. R1-M3 is not blocking but requires clarification to strengthen the mechanistic interpretation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The work addresses a relatively unexplored target class, which is a point in its favor. However, the approach of using 5-methylcytosine analogues is a logical extension of existing knowledge, and the abstract does not demonstrate a conceptually novel strategy.  
+  - Scientific importance: The importance is moderate. Chemical probes for MBD2 could enable studies of DNA methylation readout, but the abstract does not show that these fragments are potent or selective enough to be immediately useful.  
+  - Interdisciplinary readership: The work bridges chemistry and biology, which could appeal to a broad audience. However, the abstract is written in a way that is accessible to specialists but may not engage a wider readership without clearer statements of significance.  
+  - Technical soundness: The use of multiple assays is sound, but the lack of quantitative data and selectivity controls undermines the technical robustness as presented.  
+  - Readability for nonspecialists: The abstract is generally readable but contains jargon and vague phrasing that could be improved for clarity.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible early-stage fragment discovery effort, but the absence of quantitative and selectivity data means the core claims cannot be evaluated. The authors should be encouraged to provide the missing data, after which the work could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that three fragments "bind MBD2 alone and disrupt the MBD2-methylated DNA interactions" is unsupported without quantitative binding and disruption data.
+- The claim that the fragments are "chemical probes targeting MBD2" is unsupported without selectivity data against other MBD family members.
+- The claim that NMR and docking gave "valuable insights" is unverifiable from the abstract alone, as no specific residues or validation details are provided.
+- The statement that these fragments "constitute the starting point for the design of potent chemical probes" is a reasonable aspiration but is not supported by the evidence presented in the abstract.

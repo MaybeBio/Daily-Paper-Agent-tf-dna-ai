@@ -1,0 +1,186 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.11.463518",
+  "title": "Factorbook: an Updated Catalog of Transcription Factor Motifs and Candidate Regulatory Motif Sites",
+  "doi": "10.1101/2021.10.11.463518",
+  "abstract": "<h4>ABSTRACT</h4> The human genome contains roughly 1,600 transcription factors (TFs) (1), DNA-binding proteins recognizing characteristic sequence motifs to exert regulatory effects on gene expression. The binding specificities of these factors have been profiled both in vitro , using techniques such as HT-SELEX (2), and in vivo , using techniques including ChIP-seq (3, 4). We previously developed Factorbook, a TF-centric database of annotations, motifs, and integrative analyses based on ChIP-seq data from Phase II of the ENCODE Project. Here we present an update to Factorbook which significantly expands the breadth of cell type and TF coverage. The update includes an expanded motif catalog derived from thousands of ENCODE Phase II and III ChIP-seq experiments and HT-SELEX experiments; this motif catalog is integrated with the ENCODE registry of candidate cis-regulatory elements to annotate a comprehensive collection of genome-wide candidate TF binding sites. The database also offers novel tools for applying the motif models within machine learning frameworks and using these models for integrative analysis, including annotation of variants and disease and trait heritability. We will continue to expand the resource as ENCODE Phase IV data are released.",
+  "authors": [
+    "Pratt HE",
+    "Andrews GR",
+    "Phalke N",
+    "Purcaro MJ",
+    "van der Velde A",
+    "Moore JE",
+    "Weng Z"
+  ],
+  "published_date": "2021-10-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.11.463518",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.11.463518.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR406444",
+    "raw_record": {
+      "id": "PPR406444",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.11.463518",
+      "title": "Factorbook: an Updated Catalog of Transcription Factor Motifs and Candidate Regulatory Motif Sites",
+      "authorString": "Pratt HE, Andrews GR, Phalke N, Purcaro MJ, van der Velde A, Moore JE, Weng Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pratt HE",
+            "lastName": "Pratt",
+            "firstName": "Henry",
+            "initials": "HE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9413-834X"
+            }
+          },
+          {
+            "fullName": "Andrews GR",
+            "lastName": "Andrews",
+            "firstName": "Gregory",
+            "initials": "GR"
+          },
+          {
+            "fullName": "Phalke N",
+            "lastName": "Phalke",
+            "firstName": "Nishigandha",
+            "initials": "N"
+          },
+          {
+            "fullName": "Purcaro MJ",
+            "lastName": "Purcaro",
+            "firstName": "Michael",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4735-4215"
+            }
+          },
+          {
+            "fullName": "van der Velde A",
+            "lastName": "van der Velde",
+            "firstName": "Arjan",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1086-0859"
+            }
+          },
+          {
+            "fullName": "Moore JE",
+            "lastName": "Moore",
+            "firstName": "Jill",
+            "initials": "JE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3023-0806"
+            }
+          },
+          {
+            "fullName": "Weng Z",
+            "lastName": "Weng",
+            "firstName": "Zhiping",
+            "initials": "Z"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9413-834X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3023-0806"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4735-4215"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1086-0859"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  The human genome contains roughly 1,600 transcription factors (TFs) (1), DNA-binding proteins recognizing characteristic sequence motifs to exert regulatory effects on gene expression. The binding specificities of these factors have been profiled both  in vitro , using techniques such as HT-SELEX (2), and  in vivo , using techniques including ChIP-seq (3, 4). We previously developed Factorbook, a TF-centric database of annotations, motifs, and integrative analyses based on ChIP-seq data from Phase II of the ENCODE Project. Here we present an update to Factorbook which significantly expands the breadth of cell type and TF coverage. The update includes an expanded motif catalog derived from thousands of ENCODE Phase II and III ChIP-seq experiments and HT-SELEX experiments; this motif catalog is integrated with the ENCODE registry of candidate cis-regulatory elements to annotate a comprehensive collection of genome-wide candidate TF binding sites. The database also offers novel tools for applying the motif models within machine learning frameworks and using these models for integrative analysis, including annotation of variants and disease and trait heritability. We will continue to expand the resource as ENCODE Phase IV data are released.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/12/2021.10.11.463518.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.11.463518"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34755879",
+            "reference": "Nucleic acids research. 2022 Jan;50(D1):D141-D149",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-13",
+      "firstPublicationDate": "2021-10-12",
+      "firstIndexDate": "2021-10-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

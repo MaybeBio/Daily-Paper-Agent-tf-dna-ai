@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions based on the provided text
+- **Shared manuscript claim summary** The authors present an integrated framework (CEseek → TF-motif MPRA → GRACE) to discover, functionally characterize, and model composite elements (CEs) in the transcriptional regulatory code. They report thousands of candidate CEs, validate a subset as transcriptionally active in three human cell lines, train a deep learning model (GRACE) that learns CE activity at single-nucleotide resolution, and demonstrate convergence with an orthogonal chromatin accessibility model (ChromBPNet).
+- **Missing materials affecting confidence** Figures, tables, and supplementary data referenced in the text are not provided. Detailed quantitative results, statistical analyses, and model performance metrics are not available. The full methods for GRACE architecture and training hyperparameters are described but not independently verifiable from the text alone.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely problem in regulatory genomics: the systematic discovery and functional validation of composite elements that extend beyond simple TF motif catalogues. The integrated framework is conceptually strong and the combination of computational prediction, high-throughput experimental testing, and deep learning is appropriate and potentially impactful. However, the current text provides limited quantitative evidence, and several key claims cannot be fully evaluated without access to the figures, tables, and supplementary data. The manuscript would benefit from clearer presentation of validation statistics, model performance benchmarks, and explicit comparisons to existing methods.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, regulatory genomics, and computational biology would be interested. The work is also relevant to those studying gene regulatory networks, non-coding variant interpretation, and the application of deep learning to regulatory sequence function. The expanded CE lexicon and the GRACE model could serve as community resources for annotating regulatory elements and prioritizing disease-associated variants.
+- **Major strengths** The integrated multi-tiered approach is a notable strength, combining unbiased computational discovery with direct functional testing. The use of a custom MPRA library to test thousands of candidate CEs in multiple cell lines is a substantial experimental effort. The convergence analysis between GRACE and ChromBPNNET provides an elegant cross-validation of the learned regulatory lexicon using orthogonal data types. The focus on CEs as a higher-order regulatory code addresses a genuine gap in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that CEseek identified 22,698 statistically significant binary motif configurations, of which 5,063 were designated as high-confidence cCEs.
+  - **Evidence pointer** Results section "Discovery of Composite Elements using CEseek"; Figure 2D and 2E
+  - **Concern** The statistical methodology for identifying enriched configurations is described, but the text does not provide the actual enrichment statistics, effect sizes, or the distribution of p-values. The threshold of p < 1e-20 is stated, but the number of configurations passing this threshold and the false discovery rate are not reported. The criteria for distinguishing "digital" from "fuzzy" configurations (six or fewer versus 49 or more) appear arbitrary and are not justified.
+  - **Why it matters** The core discovery claim rests on the statistical robustness of the CEseek enrichment analysis. Without clear reporting of effect sizes, multiple testing correction, and the rationale for the digital/fuzzy threshold, the reliability of the cCE set cannot be assessed.
+  - **Resolution test** Provide a full statistical summary of the enrichment analysis, including the distribution of p-values, the number of configurations passing multiple testing correction, and a sensitivity analysis for the digital/fuzzy threshold. Justify the threshold choice with reference to known CE biology or simulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that GRACE achieves strong predictive performance (Pearson correlation of 0.802 in GM12878 cells) and that its learned contribution weight matrices (CWMs) closely match CEseek-derived position weight matrices (PWMs) for a large fraction of active CEs.
+  - **Evidence pointer** Results section "Using GRACE to predict TF motif and CE activities across cell types"; Figures 5B, 5C, 5E, 5F
+  - **Concern** The model performance is reported as a single Pearson correlation value, but no comparison to baseline models, alternative architectures, or simpler motif-based predictors is provided. The concordance rates between CWMs and PWMs (83.5% in GM12878, 80.3% in K562, 95.6% in Jurkat) are stated without the underlying statistical framework or the null distribution. The text does not describe how the CWM-PWM similarity threshold was set or whether the concordance rates are significantly better than chance.
+  - **Why it matters** The claim that GRACE learns a valid CE lexicon depends on demonstrating that its predictions are not merely recapitulating simple motif activity and that the CWM-PWM concordance is statistically meaningful. Without appropriate baselines and null models, the added value of the deep learning approach over existing methods is unclear.
+  - **Resolution test** Include benchmark comparisons against simpler models (e.g., PWM-based logistic regression, k-mer-based models) and report metrics such as AUROC or AUPRC in addition to Pearson correlation. Provide a statistical test for CWM-PWM concordance against a randomized null distribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that 30.9% (21/68) of functionally interpreted GWAS variants represent loss- or gain-of-function mutations in CEs.
+  - **Evidence pointer** Results section "GRACE predicts impact of GWAS variants at TF motifs and CEs"; Figure 7C
+  - **Concern** The text states that 68 functional variants were successfully predicted and interpreted, but the criteria for "successful prediction" are not fully described. The threshold for a significant GRACE-predicted variant effect (absolute value of 0.2) is stated, but the sensitivity and specificity of this threshold are not evaluated. The text does not clarify whether the 21 CE-disrupting variants are statistically enriched relative to what would be expected by chance given the genomic background.
+  - **Why it matters** The claim that CEs are important for interpreting disease-associated variation is a key translational implication of the work. Without a proper enrichment analysis or comparison to a null expectation, the significance of this finding is unclear.
+  - **Resolution test** Perform an enrichment analysis comparing the proportion of CE-disrupting variants to a matched set of non-functional variants or to variants in regions matched for TF density and chromatin state. Report the sensitivity and specificity of the GRACE prediction threshold.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the TF-motif MPRA library contained 60,714 sequences, including 3,795 unique cCEs and 153 simple motifs, with multiple mutant controls.
+  - **Evidence pointer** Results section "Functional characterization of cCEs using a TF-motif MPRA library"; Figure 3A
+  - **Concern** The design of the MPRA library is described, but the text does not provide details on the number of biological replicates per cell line, the sequencing depth, the quality control metrics for the MPRA data, or the criteria for defining a sequence as "active." The methods for calculating sequence-level and motif-level activities are described, but the statistical model used to call significant activity is not specified.
+  - **Why it matters** The functional characterization of CEs is a central pillar of the manuscript. Without clear reporting of the MPRA quality control and statistical framework, the reliability of the activity calls cannot be evaluated.
+  - **Resolution test** Provide detailed MPRA quality control metrics, including replicate concordance, sequencing depth, and the statistical model used to call active sequences. Include a description of how the activity threshold was determined.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that the extended motif catalog comprises "both synergistic and counteracting CEs," but the term "counteracting" is not defined in the text. It is unclear whether this refers to antagonistic TF-TF interactions, repressive CEs, or something else.
+  - **Required correction** Define "counteracting" in the abstract or use a more standard term such as "antagonistic" or "repressive."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Discovery of Composite Elements using CEseek"
+  - **Evidence pointer** Figure 2F and 2G
+  - **Issue** The text states that 41.5% of cCE PWMs matched de novo motifs from ChIP-seq and 44.0% of CAP-SELEX CEs matched cCEs, but the text does not describe the direction of the comparison for the CAP-SELEX analysis. It is unclear whether the 44.0% represents the fraction of CAP-SELEX CEs found in the cCE set or the fraction of cCEs found in the CAP-SELEX set.
+  - **Required correction** Clarify the direction of the comparison and report both fractions if available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "GRACE model"
+  - **Evidence pointer** Methods, GRACE model description
+  - **Issue** The text describes the GRACE architecture but does not specify the hyperparameter search procedure, the number of training epochs, the learning rate schedule, or the computational resources required for training. This limits reproducibility.
+  - **Required correction** Provide full hyperparameter details and training configuration in the Methods or Supplementary Information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "GRACE predicts impact of GWAS variants at TF motifs and CEs"
+  - **Evidence pointer** Figure 7A and 7B
+  - **Issue** The text reports a Pearson correlation of 0.512 for GRACE predictions versus MPRA measurements of variant effects, but it does not state whether this correlation is statistically significant or how it compares to a null model.
+  - **Required correction** Report the p-value for the correlation and, if possible, compare to a null distribution of correlations from permuted labels.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical reporting for CEseek), R1-M2 (model benchmarking and null models for CWM-PWM concordance), R1-M3 (enrichment analysis for GWAS variants), R1-M4 (MPRA quality control and statistical framework)
+- **Assessment against Nature-style criteria** Originality: High. The concept of systematically expanding the motif lexicon to include composite elements and validating them with a dedicated MPRA is a novel contribution. Scientific importance: High. If the claims are fully supported, the work could substantially improve the interpretation of regulatory sequences and non-coding variants. Interdisciplinary readership: Moderate to high. The work bridges computational biology, genomics, and molecular biology, and the findings would be of interest to a broad readership. Technical soundness: Currently not fully assessable. The described methods are reasonable, but the lack of quantitative detail and benchmarking prevents a full evaluation. Readability for nonspecialists: The text is generally clear, but the Results section is dense and would benefit from more explicit summaries of key findings and their significance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and experimental design are strong, and the work addresses an important gap in the field. However, the current manuscript does not provide sufficient quantitative evidence to fully support the major claims. The authors should address the statistical reporting, model benchmarking, and MPRA quality control issues before the case is established.
+
+## Risk / unsupported claims
+- The claim that 22,698 statistically significant binary motif configurations were identified is not supported by the reported statistics (no effect sizes, no multiple testing correction details).
+- The claim that GRACE achieves strong predictive performance is not supported by comparisons to baseline models or alternative approaches.
+- The claim that CWM-PWM concordance rates (83.5%, 80.3%, 95.6%) validate the CE lexicon is not supported by a statistical null model.
+- The claim that 30.9% of interpreted GWAS variants affect CEs is not supported by an enrichment analysis against a null expectation.
+- The claim that "very large proportions of active CEs exhibited strong similarity of their PWMs and CWMs" is not supported by the reported concordance rates without a statistical framework.
+- The claim that the CE lexicon "will greatly facilitate analyses of combinatorial control" is forward-looking and not directly testable from the provided data.

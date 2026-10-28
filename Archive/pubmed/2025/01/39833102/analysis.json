@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39833102",
+  "title": "Twenty years of advances in prediction of nucleic acid-binding residues in protein sequences.",
+  "authors": "Basu, Sushmita; Yu, Jing; Kihara, Daisuke; Kurgan, Lukasz",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-01-21",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 6,
+  "one_liner_zh": "综述了20年来基于序列预测核酸结合残基的80余种方法，涵盖DNA/RNA结合位点预测及深度学习进展，虽非聚焦TF-DNA三维互作建模，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Computational prediction of nucleic acid-binding residues in protein sequences is an active field of research, with over 80 methods that were released in the past 2 decades. We identify and discuss 87 sequence-based predictors that include dozens of recently published methods that are surveyed for the first time. We overview historical progress and examine multiple practical issues that include availability and impact of predictors, key features of their predictive models, and important aspects related to their training and assessment. We observe that the past decade has brought increased use of deep neural networks and protein language models, which contributed to substantial gains in the predictive performance. We also highlight advancements in vital and challenging issues that include cross-predictions between deoxyribonucleic acid (DNA)-binding and ribonucleic acid (RNA)-binding residues and targeting the two distinct sources of binding annotations, structure-based versus intrinsic disorder-based. The methods trained on the structure-annotated interactions tend to perform poorly on the disorder-annotated binding and vice versa, with only a few methods that target and perform well across both annotation types. The cross-predictions are a significant problem, with some predictors of DNA-binding or RNA-binding residues indiscriminately predicting interactions with both nucleic acid types. Moreover, we show that methods with web servers are cited substantially more than tools without implementation or with no longer working implementations, motivating the development and long-term maintenance of the web servers. We close by discussing future research directions that aim to drive further progress in this area.",
+  "abstract_zh": "蛋白质序列中核酸结合残基的计算预测是一个活跃的研究领域，过去20年间已发布超过80种方法。我们识别并讨论了87种基于序列的预测器，其中包括数十种首次被调查的近期发布方法。我们回顾了历史进展，并考察了多个实际问题，包括预测器的可用性和影响、其预测模型的关键特征，以及与其训练和评估相关的重要方面。我们观察到，过去十年中深度神经网络和蛋白质语言模型的使用增加，这促进了预测性能的显著提升。我们还强调了在关键且具有挑战性问题上的进展，包括脱氧核糖核酸（DNA）结合和核糖核酸（RNA）结合残基之间的交叉预测，以及针对两种不同来源的结合注释——基于结构的与基于内在无序性的。在结构注释相互作用上训练的方法往往在无序注释结合上表现不佳，反之亦然，只有少数方法能针对并在这两种注释类型上表现良好。交叉预测是一个显著问题，一些DNA结合或RNA结合残基的预测器不加区分地预测与两种核酸类型的相互作用。此外，我们表明，带有网络服务器的方法比没有实现或实现不再工作的工具被引用得多得多，这激励了网络服务器的开发和长期维护。最后，我们讨论了旨在推动该领域进一步进展的未来研究方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39833102/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39833102/",
+  "paper_page_path": "papers/pubmed/39833102/index.html"
+}

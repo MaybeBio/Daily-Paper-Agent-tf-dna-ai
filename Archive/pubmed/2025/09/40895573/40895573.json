@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40895573",
+    "doi": "10.3389/fimmu.2025.1514243",
+    "title": "Targeting macrophages and ion homeostasis in T2D: new genes and therapeutic pathways identified."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Type 2 diabetes (T2D) is characterized by insulin resistance and chronic inflammation, with macrophages playing a crucial role in pancreatic islet dysfunction. This study explored the intersection of macrophage-specific gene expression and abnormal blood monovalent inorganic cation concentration-related genes (ABRGs) in T2D patients via single-cell RNA sequencing (scRNA-seq) and machine learning to identify key genes and potential therapeutic targets. METHODS: ScRNA-seq data from the pancreatic islet cells of 27 nondiabetic (ND) patients and 17 T2D patients were analyzed to identify differentially expressed genes (DEGs) in macrophages. These DEGs were intersected with ABRGs to identify hub genes. Machine learning models were developed to predict T2D, and structural predictions of the hub proteins were performed. PPI networks and regulatory networks involving transcription factors (TFs) and miRNAs were also analyzed. Correlations between hub ABRGs and immune cell infiltration, as well as cytokine responses, were examined via ssGSEA and immune response enrichment analysis (IREA). RESULTS: Sixteen overlapping hub ABRGs, including ATP1A1, CACNA1D, and CLDN10, were identified. The GBM model demonstrated high predictive accuracy, with an AUC of 0.988. Correlation analysis revealed significant relationships between the hub genes and the infiltration of immune cells, particularly macrophages. Cytokine enrichment analysis revealed that macrophages in T2D exhibit a distinct signature of cytokines, including IL15, IFNalpha1, IFNbeta, and IL17F. PPI networks highlighted significant interactions among the hub genes. Regulatory network analysis revealed that STAT3 is a central TF and that miRNAs such as hsa-mir-1-3p are critical regulators. DISCUSSION: This study highlights the central roles of macrophages and ABRGs in T2D, identifying novel genes and regulatory networks that contribute to disease progression. The integration of scRNA-seq and machine learning provides valuable insights and potential therapeutic targets for T2D.",
+    "keywords": [
+      "ScRNA-seq",
+      "cytokine signatures",
+      "immune infiltration",
+      "ion homeostasis",
+      "machine learning",
+      "macrophages",
+      "therapeutic targets",
+      "type 2 diabetes (T2D)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/metabolism/immunology",
+      "*Diabetes Mellitus, Type 2/genetics/immunology/metabolism",
+      "*Homeostasis/genetics",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Protein Interaction Maps",
+      "Gene Expression Regulation",
+      "Single-Cell Analysis",
+      "Gene Expression Profiling",
+      "Ions/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mou, Lisha",
+        "Wang, Tony Bowei",
+        "Lu, Ying",
+        "Wu, Zijing",
+        "Chen, Yuxian",
+        "Luo, Ziqi",
+        "Wang, Xinyu",
+        "Pu, Zuhui"
+      ],
+      "short_names": [
+        "Mou L",
+        "Wang TB",
+        "Lu Y",
+        "Wu Z",
+        "Chen Y",
+        "Luo Z",
+        "Wang X",
+        "Pu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China.",
+        "Biology Department, Skidmore College, Saratoga Springs, NY, United States.",
+        "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China.",
+        "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+        "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China.",
+        "Imaging Department, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mou, Lisha",
+        "short_name": "Mou L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+          "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tony Bowei",
+        "short_name": "Wang TB",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Lu, Ying",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+          "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zijing",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Translational Medicine, Health Science Center, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China.",
+          "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxian",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ziqi",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Zuhui",
+        "short_name": "Pu Z",
+        "identifiers": [],
+        "affiliations": [
+          "MetaLife Center, Shenzhen Institute of Translational Medicine, Shenzhen, Guangdong, China.",
+          "Imaging Department, The First Affiliated Hospital of Shenzhen University, Shenzhen Second People's Hospital, Shenzhen, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:32",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "42500673",
+      "42205842"
+    ],
+    "refs": [
+      "39457523",
+      "39407333",
+      "39354070",
+      "39353925",
+      "38916841",
+      "38857502",
+      "38762475",
+      "38718835",
+      "38217125",
+      "38057668",
+      "37904054",
+      "37871132",
+      "37669939",
+      "37582230",
+      "37280296",
+      "37271317",
+      "37248386",
+      "37211559",
+      "37085594",
+      "36743910",
+      "36741319",
+      "36434066",
+      "35196393",
+      "34721537",
+      "34539839",
+      "34338988",
+      "34052916",
+      "33526907",
+      "32393754",
+      "31375662",
+      "31097787",
+      "30931480",
+      "29319160",
+      "28775125",
+      "27912756",
+      "27667667",
+      "27336716",
+      "26771021",
+      "24726385",
+      "24138885",
+      "23229155",
+      "23140642",
+      "21546393",
+      "12519996"
+    ],
+    "similar": [
+      "40895573",
+      "39926598",
+      "36967805",
+      "39375405",
+      "39893187",
+      "41424060",
+      "32041280",
+      "39923303",
+      "41006883",
+      "41107929",
+      "40328901",
+      "40503237",
+      "40834023",
+      "40711603",
+      "41044520",
+      "35992146",
+      "39221762",
+      "39080525",
+      "39079197",
+      "39512836",
+      "37153000",
+      "40574839",
+      "39067546",
+      "41300749",
+      "38957433",
+      "37740761",
+      "38815767",
+      "40997906",
+      "38979407",
+      "40849565",
+      "39872314",
+      "40296690",
+      "39176085",
+      "41162503",
+      "40977739",
+      "40406126",
+      "29620215",
+      "41120603",
+      "36743910",
+      "38268224",
+      "40948769",
+      "38987624",
+      "40685483",
+      "40374866",
+      "40716784",
+      "39433858",
+      "40771813",
+      "40804795",
+      "39177139",
+      "39116715",
+      "39478056",
+      "40442788",
+      "38319987",
+      "39877357",
+      "32029221",
+      "40589764",
+      "39501130",
+      "41198554",
+      "38800474",
+      "41291841",
+      "40244418",
+      "40725440",
+      "41132669",
+      "39182484",
+      "41200172",
+      "40739239",
+      "40496861",
+      "40936758",
+      "35016690",
+      "38873601",
+      "40561071",
+      "41316541",
+      "40973872",
+      "40055592",
+      "40216809",
+      "36104591",
+      "39026663",
+      "39697326",
+      "40659717",
+      "41146237",
+      "34536521",
+      "40247403",
+      "39888730",
+      "38062833",
+      "39496786",
+      "39080630",
+      "39384856",
+      "30708140",
+      "38690269",
+      "40252113",
+      "41409278",
+      "41052072",
+      "41102315",
+      "39160196",
+      "38863714",
+      "40659785",
+      "40775456",
+      "40332792",
+      "40612944",
+      "40350654"
+    ],
+    "review": [
+      "40895573"
+    ],
+    "pmc": [
+      "12391075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40895573/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1514243",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

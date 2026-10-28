@@ -1,0 +1,808 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.23.614502",
+  "title": "GRAS Family Transcription Factor Binding Behaviors in Sorghum bicolor, Oyrza, and Maize",
+  "doi": "10.1101/2024.09.23.614502",
+  "abstract": "Identifying non-coding regions that control gene expression has become an essential aspect of understanding gene regulatory networks that can play a role in crop improvements such as crop manipulation, stress response, and plant evolution. Transcription Factor (TF)-binding approaches can provide additional valuable insights and targets for reverse genetic approaches such as EMS-induced or natural SNP variant screens or CRISPR editing techniques (e.g. promoter bashing). Here, we present the first ever DAP-seq profiles of three GRAS family TFs (SHR, SCL23, and SCL3) in the crop Sorghum bicolor , Oryza sativa japonica , and Zea mays . The binding behaviors of the three GRAS TFs display unique and shared gene targets and categories of previously characterized DNA-binding motifs as well as novel sequences that could potentially be GRAS family-specific recognition motifs. Additional transcriptomic and chromatin accessibility data further facilitates the identification of root-specific GRAS regulatory targets corresponding to previous studies. These results provide unique insights into the GRAS family of TFs and novel regulatory targets for further molecular characterization.",
+  "authors": [
+    "Nicholas Gladman",
+    "Sunita Kumari",
+    "Audrey Fahey",
+    "Michael Regulski",
+    "Doreen Ware"
+  ],
+  "published_date": "2024-09-25",
+  "updated_date": "2024-09-25T16:35:29Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.23.614502",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.23.614502.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2026-07-03T01:51:42Z",
+        "timestamp": 1783043502276,
+        "version": "3.54.6"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 89,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2024-09-25T00:00:00Z",
+            "timestamp": 1727222400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Identifying non-coding regions that control gene expression has become an essential aspect of understanding gene regulatory networks that can play a role in crop improvements such as crop manipulation, stress response, and plant evolution. Transcription Factor (TF)-binding approaches can provide additional valuable insights and targets for reverse genetic approaches such as EMS-induced or natural SNP variant screens or CRISPR editing techniques (e.g. promoter bashing). Here, we present the first ever DAP-seq profiles of three GRAS family TFs (SHR, SCL23, and SCL3) in the crop\n                  <jats:italic>Sorghum bicolor</jats:italic>\n                  ,\n                  <jats:italic>Oryza sativa japonica</jats:italic>\n                  , and\n                  <jats:italic>Zea mays</jats:italic>\n                  . The binding behaviors of the three GRAS TFs display unique and shared gene targets and categories of previously characterized DNA-binding motifs as well as novel sequences that could potentially be GRAS family-specific recognition motifs. Additional transcriptomic and chromatin accessibility data further facilitates the identification of root-specific GRAS regulatory targets corresponding to previous studies. These results provide unique insights into the GRAS family of TFs and novel regulatory targets for further molecular characterization.\n                </jats:p>",
+      "DOI": "10.1101/2024.09.23.614502",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ],
+        "date-time": "2024-09-25T16:35:29Z",
+        "timestamp": 1727282129000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "GRAS Family Transcription Factor Binding Behaviors in Sorghum bicolor, Oyrza, and Maize"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9000-8377",
+          "authenticated-orcid": false,
+          "given": "Nicholas",
+          "family": "Gladman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6605-6985",
+          "authenticated-orcid": false,
+          "given": "Sunita",
+          "family": "Kumari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-4339-6943",
+          "authenticated-orcid": false,
+          "given": "Audrey",
+          "family": "Fahey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Regulski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8125-3821",
+          "authenticated-orcid": false,
+          "given": "Doreen",
+          "family": "Ware",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.116.029660"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adi5222"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/genes11060613"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.06.027"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1048967",
+          "DOI": "10.3389/fpls.2022.1048967",
+          "article-title": "Multiplex CRISPR/Cas9-mediated raffinose synthase gene editing reduces raffinose family oligosaccharides in soybean",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Front Plant Sci"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2135/cropsci2007.02.0080"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1016/j.jgg.2014.11.002",
+          "article-title": "TaSCL14, a novel wheat (Triticum aestivum L.) GRAS gene, regulates plant growth, photosynthesis, tolerance to photooxidative stress, and senescence",
+          "volume": "42",
+          "year": "2015",
+          "journal-title": "J Genet Genomics"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-5734-x"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.12470"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms20215359"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/159.2.777"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.166397.113"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1308973110"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.108.058974"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1668",
+          "DOI": "10.1111/tpj.16690",
+          "article-title": "Cell-type-specific transcriptomics uncovers spatial regulatory networks in bioenergy sorghum stems",
+          "volume": "118",
+          "year": "2024",
+          "journal-title": "Plant J"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.17.00282"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.114.125690"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.006197"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-004-0892-9"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e393",
+          "DOI": "10.1002/pld3.393",
+          "article-title": "Sorghum root epigenetic landscape during limiting phosphorus conditions",
+          "volume": "6",
+          "year": "2022",
+          "journal-title": "Plant Direct"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms20194951"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2012.09.044"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2005256118"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.02.001"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "17010",
+          "DOI": "10.1038/nplants.2017.10",
+          "article-title": "Structure of the SHR-SCR heterodimer bound to the BIRD/IDD transcriptional factor JKD",
+          "volume": "3",
+          "year": "2017",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2010.10.024"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "209",
+          "DOI": "10.1186/s12870-015-0590-6",
+          "article-title": "Genome-wide identification, phylogeny and expression analysis of GRAS gene family in tomato",
+          "volume": "15",
+          "year": "2015",
+          "journal-title": "BMC Plant Biol"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "248",
+          "DOI": "10.1016/j.pld.2020.08.001",
+          "article-title": "Flavonoid scutellarin positively regulates root length through NUTCRACKER",
+          "volume": "43",
+          "year": "2021",
+          "journal-title": "Plant Divers"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "105026",
+          "DOI": "10.1016/j.isci.2022.105026",
+          "article-title": "Multifaceted roles of GRAS transcription factors in growth and stress responses in plants",
+          "volume": "25",
+          "year": "2022",
+          "journal-title": "iScience"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.16.00373"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.34",
+          "first-page": "2267",
+          "article-title": "Efficient Identification of Causal Mutations through Sequencing of Bulked F 2 from Two Allelic Bloomless Mutants of Sorghum bicolor",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Front Plant Sci"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "822",
+          "DOI": "10.1038/s41467-018-03238-4",
+          "article-title": "MSD1 regulates pedicellate spikelet fertility in sorghum through the jasmonic acid pathway",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "841",
+          "DOI": "10.1038/s42003-024-06525-7",
+          "article-title": "Transcriptome and metabolome analyses reveal regulatory networks associated with nutrition synthesis in sorghum seeds",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "767",
+          "DOI": "10.1093/genetics/159.2.767",
+          "article-title": "Gibberellins are not required for normal stem growth in Arabidopsis thaliana in the absence of GAI and RGA",
+          "volume": "159",
+          "year": "2001",
+          "journal-title": "Genetics"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.250878.119"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/pbi.12601"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.113.118604"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38096-2"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.16.00018"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1038/s41477-021-00858-5",
+          "article-title": "Enhancing grain-yield-related traits by CRISPR-Cas9 promoter editing of maize CLE genes",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1038/s41438-020-00431-9",
+          "article-title": "SlGRAS4 accelerates fruit ripening by regulating ethylene biosynthesis genes and SlMADS1 in tomato",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Hortic Res"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "70",
+          "DOI": "10.1016/j.plaphy.2017.12.022",
+          "article-title": "Identification and functional analysis of cassava DELLA proteins in plant disease resistance against cassava bacterial blight",
+          "volume": "124",
+          "year": "2018",
+          "journal-title": "Plant Physiol Biochem"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/erq217"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.13781"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M301712200"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-3040.2007.01734.x"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "635",
+          "DOI": "10.1186/s12864-019-5985-6",
+          "article-title": "Genome-wide identification of GRAS genes in Brachypodium distachyon and functional characterization of BdSLR1 and BdSLRL1",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07723"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/aob/mcx073"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.11.23.3194"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/22307"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/erv205"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/pcp/pcs159"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "D174",
+          "DOI": "10.1093/nar/gkad1059",
+          "article-title": "JASPAR 2024: 20th anniversary of the open-access database of transcription factor binding profiles",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb2389"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.08.030"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0389-8"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.114.239392"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/treephys/27.10.1459"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009689",
+          "DOI": "10.1371/journal.pgen.1009689",
+          "article-title": "The native cistrome and sequence motif families of the maize ear",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-19"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.1.290"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbad370"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.10.2.155"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.333906"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0508169103"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.230702"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2105287118"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "101",
+          "DOI": "10.1007/978-1-0716-2067-0_5",
+          "article-title": "Gramene: A Resource for Comparative Analysis of Plants Genomes and Pathways",
+          "volume": "2443",
+          "year": "2022",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-313X.2009.03825.x"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.112.097394"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "2216",
+          "DOI": "10.1093/treephys/tpab066",
+          "article-title": "Simple, efficient and open-source CRISPR/Cas9 strategy for multi-site genome editing in Populus tremula × alba",
+          "volume": "41",
+          "year": "2021",
+          "journal-title": "Tree Physiol"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18832-8"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "e585",
+          "DOI": "10.1002/cpz1.585",
+          "article-title": "Exploring Epigenomic Datasets by ChIPseeker",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Curr Protoc"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.440307"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.112.101428"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.114.255430"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "373",
+          "DOI": "10.1007/s00299-010-0940-7",
+          "article-title": "Overexpression of the Brassica napus BnLAS gene in Arabidopsis affects plant development and increases drought tolerance",
+          "volume": "30",
+          "year": "2011",
+          "journal-title": "Plant Cell Rep"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang T , Ali M , Lin L , Li P , He H , Zhu Q , Sun C , Wu N , Zhang X , Huang T , et al (2023) Recoloring tomato fruit by CRISPR/Cas9-mediated multiplex gene editing. Hortic Res 10: uhac214",
+          "DOI": "10.1093/hr/uhac214"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.85",
+          "doi-asserted-by": "crossref",
+          "first-page": "1197",
+          "DOI": "10.1016/j.molp.2016.06.007",
+          "article-title": "Conservation and Diversification of the SHR-SCR-SCL23 Regulatory Network in the Development of the Functional Endodermis in Arabidopsis Shoots",
+          "volume": "9",
+          "year": "2016",
+          "journal-title": "Mol Plant"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.86",
+          "doi-asserted-by": "crossref",
+          "first-page": "655",
+          "DOI": "10.1007/s00299-015-1910-x",
+          "article-title": "Overexpression of VaPAT1, a GRAS transcription factor from Vitis amurensis, confers abiotic stress tolerance in Arabidopsis",
+          "volume": "35",
+          "year": "2016",
+          "journal-title": "Plant Cell Rep"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2301884120"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.88",
+          "doi-asserted-by": "crossref",
+          "first-page": "761059",
+          "DOI": "10.3389/fpls.2021.761059",
+          "article-title": "Profiling of H3K4me3 and H3K27me3 and Their Roles in Gene Subfunctionalization in Allotetraploid Cotton",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Front Plant Sci"
+        },
+        {
+          "key": "2024093005201083000_2024.09.23.614502v1.89",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1186/s13059-023-02890-4",
+          "article-title": "A translatome-transcriptome multi-omics gene regulatory network reveals the complicated functional landscape of maize",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Genome Biol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.23.614502",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:07:49Z",
+        "timestamp": 1768460869000
+      },
+      "score": 106.36189,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.23.614502"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ]
+      },
+      "references-count": 89,
+      "URL": "https://doi.org/10.1101/2024.09.23.614502",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

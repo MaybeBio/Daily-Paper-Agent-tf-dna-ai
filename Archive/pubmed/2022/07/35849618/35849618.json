@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "35849618",
+    "doi": "10.1371/journal.pcbi.1010287",
+    "title": "Single-cell network biology characterizes cell type gene regulation for drug repurposing and phenotype prediction in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "Dysregulation of gene expression in Alzheimer's disease (AD) remains elusive, especially at the cell type level. Gene regulatory network, a key molecular mechanism linking transcription factors (TFs) and regulatory elements to govern gene expression, can change across cell types in the human brain and thus serve as a model for studying gene dysregulation in AD. However, AD-induced regulatory changes across brain cell types remains uncharted. To address this, we integrated single-cell multi-omics datasets to predict the gene regulatory networks of four major cell types, excitatory and inhibitory neurons, microglia and oligodendrocytes, in control and AD brains. Importantly, we analyzed and compared the structural and topological features of networks across cell types and examined changes in AD. Our analysis shows that hub TFs are largely common across cell types and AD-related changes are relatively more prominent in some cell types (e.g., microglia). The regulatory logics of enriched network motifs (e.g., feed-forward loops) further uncover cell type-specific TF-TF cooperativities in gene regulation. The cell type networks are also highly modular and several network modules with cell-type-specific expression changes in AD pathology are enriched with AD-risk genes. The further disease-module-drug association analysis suggests cell-type candidate drugs and their potential target genes. Finally, our network-based machine learning analysis systematically prioritized cell type risk genes likely involved in AD. Our strategy is validated using an independent dataset which showed that top ranked genes can predict clinical phenotypes (e.g., cognitive impairment) of AD with reasonable accuracy. Overall, this single-cell network biology analysis provides a comprehensive map linking genes, regulatory networks, cell types and drug targets and reveals cell-type gene dysregulation in AD.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Alzheimer Disease/metabolism",
+      "Biology",
+      "Drug Repositioning",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks/genetics",
+      "Humans",
+      "Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Chirag",
+        "Xu, Jielin",
+        "Jin, Ting",
+        "Khullar, Saniya",
+        "Liu, Xiaoyu",
+        "Alatkar, Sayali",
+        "Cheng, Feixiong",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Gupta C",
+        "Xu J",
+        "Jin T",
+        "Khullar S",
+        "Liu X",
+        "Alatkar S",
+        "Cheng F",
+        "Wang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6121-7065",
+        "ORCID: 0000-0001-5073-0667",
+        "ORCID: 0000-0001-5984-461X",
+        "ORCID: 0000-0001-9190-3704"
+      ],
+      "affiliations": [
+        "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, United States of America.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Statistics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Computer Sciences, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, United States of America.",
+        "Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, Ohio, United States of America.",
+        "Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, Ohio, United States of America.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Computer Sciences, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Chirag",
+        "short_name": "Gupta C",
+        "identifiers": [
+          "0000-0002-6121-7065"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Xu, Jielin",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Jin, Ting",
+        "short_name": "Jin T",
+        "identifiers": [
+          "0000-0001-5073-0667"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Khullar, Saniya",
+        "short_name": "Khullar S",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoyu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Alatkar, Sayali",
+        "short_name": "Alatkar S",
+        "identifiers": [
+          "0000-0001-5984-461X"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Computer Sciences, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Cheng, Feixiong",
+        "short_name": "Cheng F",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, United States of America.",
+          "Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, Ohio, United States of America.",
+          "Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0001-9190-3704"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+          "Department of Computer Sciences, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/19 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "42573852",
+      "42509822",
+      "42502712",
+      "41677026",
+      "41049729",
+      "41040299",
+      "40972584",
+      "40695276",
+      "40260118",
+      "40082472",
+      "40026671",
+      "39502448",
+      "39427854",
+      "38948789",
+      "38826305",
+      "38781369",
+      "38562822",
+      "37695793",
+      "37525275",
+      "36950385",
+      "36794589",
+      "36648426"
+    ],
+    "refs": [
+      "36347858",
+      "35572351",
+      "34750486",
+      "34532569",
+      "34294785",
+      "34249082",
+      "34108016",
+      "34044854",
+      "33906951",
+      "33339957",
+      "33244151",
+      "33106633",
+      "32983082",
+      "32950641",
+      "32613609",
+      "32554779",
+      "32417776",
+      "32411016",
+      "32296183",
+      "32205467",
+      "31982325",
+      "31901293",
+      "31786210",
+      "31727856",
+      "31680165",
+      "31583593",
+      "31178118",
+      "31159854",
+      "31067475",
+      "31042697",
+      "31024627",
+      "30898012",
+      "30877270",
+      "30867426",
+      "30820047",
+      "30472149",
+      "30445434",
+      "30243986",
+      "30084846",
+      "29961576",
+      "29785561",
+      "29342231",
+      "29227469",
+      "29126136",
+      "28991892",
+      "28936969",
+      "28432014",
+      "28334103",
+      "27860527",
+      "27480489",
+      "27479844",
+      "27020329",
+      "26871627",
+      "26794315",
+      "26186194",
+      "26051941",
+      "25915600",
+      "25884877",
+      "25880651",
+      "25792098",
+      "25628217",
+      "25514926",
+      "25428363",
+      "25221582",
+      "25003367",
+      "24990881",
+      "24234451",
+      "24227675",
+      "23999428",
+      "23885309",
+      "23855984",
+      "23622250",
+      "23599502",
+      "23506861",
+      "23412653",
+      "23331499",
+      "23293287",
+      "23180781",
+      "22955619",
+      "22927416",
+      "22159132",
+      "22096227",
+      "22067443",
+      "21561415",
+      "21476939",
+      "21164525",
+      "21062810",
+      "20616000",
+      "20615961",
+      "19139764",
+      "19114008",
+      "19076432",
+      "18256261",
+      "18072811",
+      "17003135",
+      "16845399",
+      "15965470",
+      "15001476",
+      "14735121",
+      "14681466",
+      "14530388",
+      "12360213",
+      "12055342",
+      "11967538",
+      "10802651"
+    ],
+    "similar": [
+      "35849618",
+      "40653482",
+      "27799057",
+      "34189529",
+      "36648426",
+      "38913039",
+      "39830273",
+      "29935546",
+      "34953465",
+      "37340466",
+      "39604273",
+      "35114922",
+      "36254161",
+      "30598117",
+      "37100862",
+      "39641322",
+      "37691428",
+      "41009659",
+      "33441136",
+      "29110684",
+      "35637434",
+      "40642087",
+      "32803238",
+      "40181382",
+      "39266981",
+      "39920860",
+      "39993589",
+      "34600516",
+      "28446202",
+      "24628925",
+      "40696841",
+      "30466046",
+      "35397550",
+      "32255787",
+      "35012905",
+      "35980567",
+      "32006383",
+      "34044854",
+      "41291841",
+      "40429980",
+      "36635346",
+      "41189021",
+      "33140241",
+      "39188714",
+      "37333458",
+      "35012639",
+      "30558641",
+      "38195609",
+      "39841296",
+      "39375405",
+      "37789374",
+      "38062833",
+      "39730451",
+      "30124448",
+      "41317176",
+      "29675796",
+      "36946454",
+      "38699303",
+      "38809924",
+      "41081092",
+      "41300833",
+      "39778705",
+      "41404291",
+      "40411685",
+      "41313603",
+      "38559218",
+      "40297324",
+      "38976461",
+      "39213070",
+      "41115648",
+      "31563815",
+      "36138932",
+      "38167548",
+      "40301248",
+      "29262769",
+      "32054475",
+      "36788477",
+      "23406646",
+      "38741048",
+      "35236372",
+      "31612481",
+      "40787447",
+      "30844478",
+      "37904203",
+      "37769462",
+      "40216809",
+      "41390089",
+      "40148430",
+      "34556089",
+      "39928227",
+      "29297292",
+      "39845969",
+      "33627474",
+      "39068182",
+      "39905093",
+      "39806062",
+      "39819531",
+      "34670619",
+      "32951606",
+      "35640139"
+    ],
+    "review": [
+      "35849618",
+      "35236372"
+    ],
+    "pmc": [
+      "9333448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010287",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35849618/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35849618",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

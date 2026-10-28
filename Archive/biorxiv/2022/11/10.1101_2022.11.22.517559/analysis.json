@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.22.517559",
+  "title": "Quantitative assessment of association between noncoding variants and transcription factor binding",
+  "authors": "Ningxin Ouyang; Alan P. Boyle",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-23",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过TRACE方法整合染色质可及性与TF结合基序，预测个体特异的TF结合足迹并定位fpQTLs，属于TF-DNA结合位点预测的定量建模，但未涉及三维结构或动态互作机制，方法为统计建模而非AI/物理模拟。",
+  "abstract": "Association fine-mapping of molecular traits is an essential method for understanding the impact of genetic variation. Sequencing-based assays, including RNA-seq, DNase-seq and ChIP-seq, have been widely used to measure different cellular traits and enabled genome-wide mapping of quantitative trait loci (QTLs). The disruption of cis-regulatory sequence, often occurring through variation within transcription factor binding motifs, has been strongly associated with gene dysregulation and human disease. We recently developed a computational method, TRACE, for transcription factor binding footprint prediction. TRACE integrates chromatin accessibility and transcription factor binding motifs to produce quantitative scores that describe the binding affinity of a TF for a specific TFBS locus. Here we have extended this method to incorporate variant data for 57 Yoruban individuals. Using genome-wide chromatin-accessibility data and human TF binding motifs, we have generated precise, genome-wide predictions of individual-specific transcription factor binding footprints. Subsequent association mapping between these footprints and nearby regulatory variants yielded numerous footprint-variant pairs with significant evidence for correlation, which we call footprint-QTLs (fpQTLs). fpQTLs appear to affect TF binding in a distance-dependent manner and share significant overlap with known dsQTLs and eQTLs. fpQTLs provide a rich resource for the study of regulatory variants, both within and outside known TFBSs, leading to improved functional interpretation of noncoding variation.",
+  "abstract_zh": "分子性状的关联精细定位是理解遗传变异影响的重要方法。基于测序的检测手段，包括RNA-seq、DNase-seq和ChIP-seq，已被广泛用于测量不同的细胞性状，并实现了数量性状位点（QTLs）的全基因组定位。顺式调控序列的破坏，通常通过转录因子结合基序内的变异发生，与基因失调和人类疾病密切相关。我们近期开发了一种计算方法TRACE，用于转录因子结合足迹预测。TRACE整合了染色质可及性和转录因子结合基序，生成定量评分，描述转录因子（TF）对特定TFBS位点的结合亲和力。在此，我们扩展了该方法，以纳入57名约鲁巴个体的变异数据。利用全基因组染色质可及性数据和人类TF结合基序，我们生成了个体特异性转录因子结合足迹的精确全基因组预测。随后，这些足迹与邻近调控变异之间的关联定位产生了大量具有显著相关证据的足迹-变异对，我们称之为足迹QTLs（fpQTLs）。fpQTLs以距离依赖的方式影响TF结合，并与已知的dsQTLs和eQTLs有显著重叠。fpQTLs为研究调控变异提供了丰富资源，涵盖已知TFBSs内外，从而改善非编码变异的功能解读。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.22.517559",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.22.517559",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.22.517559/index.html"
+}

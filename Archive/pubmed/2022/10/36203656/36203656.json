@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "36203656",
+    "doi": "10.3389/fpubh.2022.979933",
+    "title": "Molecular classification of human papillomavirus-positive cervical cancers based on immune signature enrichment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Human papillomavirus-positive (HPV+) cervical cancers are highly heterogeneous in clinical and molecular characteristics. Thus, an investigation into their heterogeneous immunological profiles is meaningful in providing both biological and clinical insights into this disease. METHODS: Based on the enrichment of 29 immune signatures, we discovered immune subtypes of HPV+ cervical cancers by hierarchical clustering. To explore whether this subtyping method is reproducible, we analyzed three bulk and one single cell transcriptomic datasets. We also compared clinical and molecular characteristics between the immune subtypes. RESULTS: Clustering analysis identified two immune subtypes of HPV+ cervical cancers: Immunity-H and Immunity-L, consistent in the four datasets. In comparisons with Immunity-L, Immunity-H displayed stronger immunity, more stromal contents, lower tumor purity, proliferation potential, intratumor heterogeneity and stemness, higher tumor mutation burden, more neoantigens, lower levels of copy number alterations, lower DNA repair activity, as well as better overall survival prognosis. Certain genes, such as MUC17, PCLO, and GOLGB1, showed significantly higher mutation rates in Immunity-L than in Immunity-H. 16 proteins were significantly upregulated in Immunity-H vs. Immunity-L, including Caspase-7, PREX1, Lck, C-Raf, PI3K-p85, Syk, 14-3-3_epsilon, STAT5-alpha, GATA3, Src_pY416, NDRG1_pT346, Notch1, PDK1_pS241, Bim, NF-kB-p65_pS536, and p53. Pathway analysis identified numerous immune-related pathways more highly enriched in Immunity-H vs. Immunity-L, including cytokine-cytokine receptor interaction, natural killer cell-mediated cytotoxicity, antigen processing and presentation, T/B cell receptor signaling, chemokine signaling, supporting the stronger antitumor immunity in Immunity-H vs. Immunity-L. CONCLUSION: HPV+ cervical cancers are divided into two subgroups based on their immune signatures' enrichment. Both subgroups have markedly different tumor immunity, progression phenotypes, genomic features, and clinical outcomes. Our data offer novel perception in the tumor biology as well as clinical implications for HPV+ cervical cancer.",
+    "keywords": [
+      "human papillomavirus-positive cervical cancer",
+      "immunological classification",
+      "immunotherapy",
+      "machine learning",
+      "multi-omics analysis"
+    ],
+    "mesh_terms": [
+      "*Alphapapillomavirus",
+      "Caspase 7",
+      "Chemokines",
+      "Cytokines",
+      "Female",
+      "Humans",
+      "NF-kappa B",
+      "*Papillomavirus Infections/genetics/pathology",
+      "Phosphatidylinositol 3-Kinases",
+      "Receptors, Antigen, B-Cell",
+      "Receptors, Cytokine",
+      "STAT5 Transcription Factor",
+      "Tumor Suppressor Protein p53",
+      "*Uterine Cervical Neoplasms/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Guanghui",
+        "Luo, Jiangti",
+        "Zou, Shaohan",
+        "Lou, Fang",
+        "Zhang, Tianfang",
+        "Zhu, Xiaojun",
+        "Yang, Jianhua",
+        "Wang, Xiaosheng"
+      ],
+      "short_names": [
+        "Song G",
+        "Luo J",
+        "Zou S",
+        "Lou F",
+        "Zhang T",
+        "Zhu X",
+        "Yang J",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China.",
+        "Biomedical Informatics Research Lab, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+        "Cancer Genomics Research Center, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+        "Big Data Research Institute, China Pharmaceutical University, Nanjing, China.",
+        "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China.",
+        "Department of Medical Oncology, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Gynecology and Obstetrics, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+        "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China.",
+        "Biomedical Informatics Research Lab, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+        "Cancer Genomics Research Center, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+        "Big Data Research Institute, China Pharmaceutical University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Guanghui",
+        "short_name": "Song G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiangti",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Informatics Research Lab, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+          "Cancer Genomics Research Center, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+          "Big Data Research Institute, China Pharmaceutical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Shaohan",
+        "short_name": "Zou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Fang",
+        "short_name": "Lou F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianfang",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaojun",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianhua",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Sir Run Run Shaw Hospital, Medical School of Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaosheng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Informatics Research Lab, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+          "Cancer Genomics Research Center, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, China.",
+          "Big Data Research Institute, China Pharmaceutical University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in public health"
+    ],
+    "journal_abbrev": [
+      "Front Public Health"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/08 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "42161400",
+      "41571571",
+      "40699825",
+      "40619351",
+      "40438679",
+      "37731500"
+    ],
+    "refs": [
+      "34491908",
+      "34471493",
+      "34096997",
+      "33909988",
+      "33680928",
+      "33633150",
+      "33431788",
+      "33230435",
+      "33127608",
+      "33037113",
+      "32917965",
+      "32451460",
+      "32392361",
+      "31679945",
+      "31632972",
+      "31560714",
+      "31428295",
+      "31275382",
+      "31139574",
+      "30833271",
+      "30618016",
+      "30594216",
+      "30505715",
+      "30309915",
+      "30059832",
+      "29617664",
+      "29339539",
+      "28886376",
+      "28346451",
+      "28334399",
+      "28112728",
+      "28104840",
+      "27899662",
+      "25823737",
+      "25695955",
+      "25594174",
+      "25447675",
+      "25220842",
+      "24390348",
+      "24113773",
+      "23323831",
+      "21527027",
+      "19782763",
+      "18455843",
+      "16199517",
+      "12525422",
+      "9836663"
+    ],
+    "similar": [
+      "36203656",
+      "35126391",
+      "37426638",
+      "36671489",
+      "32408396",
+      "39346086",
+      "31055200",
+      "39206965",
+      "36618328",
+      "34332341",
+      "36635412",
+      "36000446",
+      "34792560",
+      "29572030",
+      "37599552",
+      "32003657",
+      "34471493",
+      "35047498",
+      "28626766",
+      "38253702",
+      "35568771",
+      "35716212",
+      "27143385",
+      "33361419",
+      "16850495",
+      "27220278",
+      "36224441",
+      "33017516",
+      "11586036",
+      "19015633",
+      "28771191",
+      "17098279",
+      "33994859",
+      "30581036",
+      "38637440",
+      "35495113",
+      "33145269",
+      "33819343",
+      "23521696",
+      "34939539",
+      "30783048",
+      "25885042",
+      "20862247",
+      "20167600",
+      "27036725",
+      "18338492",
+      "29706467",
+      "35093080",
+      "36094276",
+      "31375269",
+      "28717061",
+      "35176174",
+      "12821336",
+      "34973113",
+      "27619685",
+      "33436409",
+      "32411801",
+      "25675046",
+      "17586029",
+      "35090306",
+      "37686451",
+      "35380358",
+      "9367711",
+      "29472602",
+      "21747645",
+      "32077330",
+      "32918895",
+      "32889244",
+      "26577855",
+      "7841033",
+      "20442590",
+      "19940548",
+      "17671528",
+      "25304375",
+      "30536701",
+      "35057815",
+      "35769468",
+      "28891951",
+      "31058807",
+      "16681751",
+      "37800814",
+      "35073959",
+      "36064569",
+      "33311486",
+      "28077784",
+      "21640102",
+      "19386711",
+      "21815142",
+      "25581428",
+      "26222671",
+      "36609919",
+      "32975231",
+      "31102403",
+      "19755648",
+      "34696429",
+      "10469618",
+      "37093316",
+      "37356050",
+      "34079012",
+      "38948250",
+      "33907612",
+      "37426659",
+      "18182341",
+      "37599366",
+      "36684415",
+      "38432114",
+      "37654657",
+      "38054018",
+      "33194730",
+      "36824739",
+      "36170024",
+      "36710358"
+    ],
+    "review": [
+      "36203656",
+      "28771191",
+      "34939539",
+      "30783048",
+      "27036725",
+      "29706467",
+      "28717061",
+      "34973113",
+      "27619685",
+      "35380358",
+      "31058807",
+      "34696429",
+      "18182341"
+    ],
+    "pmc": [
+      "9531689"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/hpv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HPV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36203656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36203656",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1173",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpubh.2022.979933",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

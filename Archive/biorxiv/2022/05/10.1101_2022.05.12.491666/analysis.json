@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.12.491666",
+  "title": "Using methylation data to improve transcription factor binding prediction",
+  "authors": "Daniel Morgan; Dawn L. DeMeo; Kimberly Glass",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-13",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用CpG甲基化数据改进转录因子结合位点预测，虽涉及TF-DNA结合预测，但方法基于序列统计与表观数据，缺乏AI或物理模拟建模，属于广义互作预测的工程应用。",
+  "abstract": "Scanning the genome for the sequence patterns defined by Position Weight Matrices (PWM) is commonly used to estimate transcription factor (TF) binding “motif” locations. However, the PWM-based scores assigned to these inferred locations are associated with only modest accuracy when benchmarked against in vivo TF binding. One reason for this limited performance may be because PWMs do not incorporate information regarding the epigenetic context necessary for TF binding. To investigate this, we developed a framework to score inferred TF binding locations using CpG methylation data. We intersected motif locations identified using PWMs with methylation information captured in both whole genome bisulfite sequencing and Illumina EPIC array data for six cell lines, scored motif locations based on these data, and compared with experimental data characterizing TF binding (ChIP-seq). We found that, for most TFs, binding is better predicted using methylation-based scoring compared to standard PWM scores. In addition, our analysis shows that, while most TFs do not bind to methylated promoter regions, there are several exceptions to this rule, indicating that the role of methylation in TF binding may be cell-type and context specific. Finally, we also illustrate that our approach can be generalized to infer TF binding when methylation information is only proximally available, i.e . measured for nearby CpGs that do not directly overlap with a motif location. Overall, our approach provides a framework for inferring context specific TF binding using methylation data, a crucial initial step for understanding the impact of methylation on gene regulatory processes.",
+  "abstract_zh": "扫描基因组以寻找由位置权重矩阵（Position Weight Matrix, PWM）定义的序列模式，通常用于估计转录因子（transcription factor, TF）结合的“基序”位置。然而，当与体内TF结合进行基准测试时，基于PWM分配给这些推断位置的评分仅具有适度的准确性。这种有限性能的一个原因可能是PWM未纳入TF结合所需的表观遗传背景信息。为探究此问题，我们开发了一个框架，利用CpG甲基化数据对推断的TF结合位置进行评分。我们将使用PWM识别的基序位置与六种细胞系的全基因组亚硫酸盐测序及Illumina EPIC阵列数据中捕获的甲基化信息相交集，基于这些数据对基序位置进行评分，并与表征TF结合的实验数据（ChIP-seq）进行比较。我们发现，对于大多数TF，基于甲基化的评分相比标准PWM评分能更好地预测结合情况。此外，我们的分析表明，尽管大多数TF不结合甲基化的启动子区域，但存在若干例外，这表明甲基化在TF结合中的作用可能具有细胞类型和背景特异性。最后，我们还展示了当甲基化信息仅近似可用时，即针对不与基序位置直接重叠的邻近CpG进行测量，我们的方法可推广以推断TF结合。总体而言，我们的方法提供了一个利用甲基化数据推断背景特异性TF结合的框架，这是理解甲基化对基因调控过程影响的关键初始步骤。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.12.491666",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.12.491666",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.12.491666/index.html"
+}

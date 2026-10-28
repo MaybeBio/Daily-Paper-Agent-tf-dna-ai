@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and conclusions. No figures, tables, or supplementary materials were provided.
+- **Assessment boundary** The review is limited to the claims and evidence as presented in the text. Experimental details, statistical analyses, and data quality are assessed based on the descriptions provided. The absence of primary data, figures, and supplementary files limits the depth of verification.
+- **Shared manuscript claim summary** The authors report that MHO7, a marine-derived ophiobolin metabolite, reduces cell viability, migration, and clonogenic growth in ER-positive, tamoxifen-resistant, and triple-negative breast cancer cell lines; induces apoptosis associated with ROS accumulation; modulates YAP/TAZ-TEAD signaling; and suppresses tumor growth in an MDA-MB-231 xenograft model.
+- **Visible evidence base** Text descriptions of results, including IC50 values, apoptosis percentages, protein expression changes, docking scores, xenograft tumor measurements, and RT-qPCR data. No raw data, representative blots, microscopy images, or statistical outputs are visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the dose-response curves, flow cytometry plots, Western blot images, immunofluorescence images, docking visualizations, IHC images, and qPCR data. The absence of these materials prevents independent verification of the reported findings.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting natural product with activity in breast cancer models, and the proposed link to the Hippo pathway is a reasonable avenue of investigation. However, the current text is largely descriptive and the mechanistic claims are not fully supported by the evidence described. The docking data are presented as predictive but are not validated experimentally, and the causal relationship between ROS, apoptosis, and YAP modulation is not established. The in vivo study is limited to a single model with a single dose, and the molecular readouts are inconsistent in places. The manuscript would benefit from a more rigorous and integrated experimental approach to substantiate the central claims.
+- **Who would be interested in the results, and why** Researchers in the fields of natural product drug discovery, cancer biology, and Hippo pathway signaling would find this work of interest. The identification of a new marine-derived compound with activity in treatment-resistant breast cancer models, and its potential to modulate the YAP-TEAD axis, could be of relevance to those seeking new therapeutic leads and understanding mechanisms of action.
+- **Major strengths**
+    - The study addresses a clinically relevant problem, namely the need for new therapies for treatment-resistant breast cancer, including TNBC.
+    - The use of multiple breast cancer cell line models, including a tamoxifen-resistant line, is a strength.
+    - The integration of in vitro and in vivo data, including a xenograft model, provides a more comprehensive assessment of the compound's activity.
+    - The authors are appropriately cautious in interpreting the docking results as hypothesis-generating.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence quality and reproducibility
+    - **Claim summary** The manuscript claims that MHO7 promotes apoptosis and modulates the Hippo pathway, but the evidence is presented only as text descriptions without the underlying data.
+    - **Evidence pointer** Sections 2.2, 2.5, 2.6; Figures 2, 6, 7, 8 (not provided)
+    - **Concern** The core findings are presented without the primary data. The text describes changes in protein expression, apoptosis percentages, and IHC staining, but the actual blots, flow cytometry plots, and images are not available for review. This makes it impossible to assess the quality of the data, the specificity of the antibodies, the gating strategies, or the representativeness of the images. The statistical analyses are mentioned but the actual p-values, error bars, and sample sizes are not visible.
+    - **Why it matters** The conclusions of the paper rest entirely on these data. Without access to the primary evidence, the claims cannot be verified. This is a fundamental requirement for a scientific publication.
+    - **Resolution test** The authors must provide the full set of figures and supplementary data, including original Western blots with molecular weight markers, full flow cytometry plots with gating, representative microscopy images with scale bars, and complete statistical outputs for all quantitative analyses.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic support
+    - **Claim summary** The manuscript claims that MHO7 modulates the YAP-TEAD axis, but the evidence is limited to correlative changes in protein expression and localization.
+    - **Evidence pointer** Sections 2.5, 2.6; Figures 5, 6, 7, 8 (not provided)
+    - **Concern** The claim that MHO7 is a "Hippo pathway regulator" is not supported by the described experiments. The data show changes in YAP, TAZ, and TEAD4 levels and localization, but this does not demonstrate direct regulation of the pathway. The docking study is purely computational and does not provide evidence of binding. There are no experiments showing direct interaction between MHO7 and YAP or TEAD, no functional assays such as TEAD reporter assays, and no genetic or pharmacological rescue experiments to establish causality.
+    - **Why it matters** The title and central claim of the paper are that MHO7 acts as a regulator of the Hippo pathway. The current evidence is insufficient to support this. The observed changes could be a downstream consequence of other effects, such as general cellular stress or apoptosis.
+    - **Resolution test** The authors should provide direct evidence of target engagement, such as CETSA, SPR, or a cellular thermal shift assay. They should also use a TEAD luciferase reporter assay to demonstrate functional inhibition of YAP/TAZ-TEAD transcriptional activity. Rescue experiments, such as overexpression of a constitutively active YAP mutant, would help to establish the functional relevance of the pathway modulation.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Causal relationship
+    - **Claim summary** The manuscript suggests that ROS accumulation contributes to MHO7-induced apoptosis and YAP regulation, but the causal relationship is not established.
+    - **Evidence pointer** Sections 2.4, 2.5; Figure 4 (not provided)
+    - **Concern** The NAC experiments show that an antioxidant can partially reverse the effects of MHO7, but this is a relatively blunt tool. The text does not describe whether NAC also affects the Hippo pathway changes, and the temporal relationship between ROS production, apoptosis, and YAP modulation is not explored. The possibility that ROS production is a consequence of apoptosis, rather than a cause, is not addressed.
+    - **Why it matters** The proposed model in Figure 9 suggests a pathway where ROS and Hippo signaling are linked. Without a clear causal framework, the model is speculative.
+    - **Resolution test** The authors should perform time-course experiments to determine the sequence of events. They could also use more specific ROS scavengers or inducers, and measure ROS levels and Hippo pathway activity simultaneously. Genetic approaches to modulate ROS production or antioxidant capacity would provide stronger evidence.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** In vivo data robustness
+    - **Claim summary** The manuscript claims that MHO7 inhibits tumor growth in an MDA-MB-231 xenograft model.
+    - **Evidence pointer** Section 2.6; Figure 8 (not provided)
+    - **Concern** The in vivo study is described with a single dose of MHO7. There is no dose-response relationship, no data on body weight changes or other signs of toxicity, and no information on the number of animals per group. The tumor growth curves are described but not shown. The molecular analysis of the tumor tissue is limited to IHC and RT-qPCR, and the Western blot data for YAP and TEAD4 are described as showing limited change, which is inconsistent with the IHC findings.
+    - **Why it matters** A single-dose study in one xenograft model is insufficient to establish in vivo efficacy. The lack of toxicity data is a concern for a potential therapeutic lead. The inconsistency between the IHC and Western blot data needs to be explained.
+    - **Resolution test** The authors should include a dose-response study, provide data on animal weights and general health, and clarify the number of animals used. They should also address the discrepancy between the IHC and Western blot results for YAP and TEAD4.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Section 2.1, Figure 1
+    - **Evidence pointer** Section 2.1
+    - **Issue** The text states that MHO7 reduced wound closure, but the concentrations used for the wound healing assay are not specified in the text. It is also unclear if the effect on wound closure is due to reduced proliferation or reduced migration.
+    - **Required correction** Specify the concentrations of MHO7 used in the wound healing assay. Consider performing a proliferation-independent migration assay, such as a Boyden chamber assay, to distinguish between these two possibilities.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Section 2.2, Figure 2
+    - **Evidence pointer** Section 2.2
+    - **Issue** The text describes changes in Bax, Bcl-2, and caspase-3, but the description is qualitative. It is not clear if these changes are statistically significant or if they are consistent across replicates.
+    - **Required correction** Provide quantitative data with statistical analysis for the Western blot results, including the number of independent experiments and the statistical test used.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Methodology
+    - **Affected element** Section 4.11, Xenograft model
+    - **Evidence pointer** Section 4.11
+    - **Issue** The method describes implanting tumor fragments, but the initial cell number for the xenograft is not stated. The text also mentions that the MHO7 nanosuspension was prepared, but the final concentration and the vehicle control for the in vivo study are not described.
+    - **Required correction** Provide details on the number of cells injected for the initial tumor formation, the composition of the vehicle control, and the concentration of the MHO7 nanosuspension used for injection.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Section 4.14, Statistical Analysis
+    - **Evidence pointer** Section 4.14
+    - **Issue** The statistical methods are described, but the text does not specify which test was used for which experiment. For example, it is unclear if a t-test or ANOVA was used for the xenograft tumor volume data.
+    - **Required correction** Clearly state the statistical test used for each figure panel in the figure legends or in the results text.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of primary data for all key experiments.
+    - R1-M2: Lack of direct evidence for target engagement and functional modulation of the Hippo pathway.
+    - R1-M3: Lack of a clear causal framework linking ROS, apoptosis, and YAP modulation.
+    - R1-M4: Incomplete in vivo study design and reporting.
+- **Assessment against Nature-style criteria**
+    - **Originality** The use of a marine-derived ophiobolin metabolite to target the Hippo pathway is a novel angle, but the concept of targeting YAP-TEAD in cancer is not new. The originality is moderate.
+    - **Scientific importance** The findings could be of interest to the natural product and Hippo pathway communities, but the clinical relevance is not yet established. The importance is moderate.
+    - **Interdisciplinary readership** The work spans natural product chemistry, cancer biology, and cell signaling. It could appeal to a broad readership, but the current level of mechanistic insight is not sufficient to generate wide interest.
+    - **Technical soundness** The technical soundness cannot be fully assessed due to the lack of primary data. The described methods are standard, but the execution and analysis cannot be verified.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is easy to follow. However, the lack of figures makes it difficult for a nonspecialist to grasp the key findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not supported by the evidence as presented. The authors need to provide the full dataset and perform additional experiments to directly demonstrate the mechanism of action.
+
+## Risk / unsupported claims
+- The claim that MHO7 is a "Hippo pathway regulator" is unsupported. The data show correlative changes in protein expression and localization, but no direct evidence of pathway modulation.
+- The claim that MHO7 occupies the TEAD palmitoylation pocket is unsupported. This is based solely on a docking prediction and is not validated experimentally.
+- The claim that oxidative stress contributes to the apoptotic response is weakly supported. The NAC experiments are suggestive but do not establish a causal link.
+- The claim that MHO7 reduces tumor growth in vivo is not fully supported. The data are described but not shown, and the study design is incomplete.
+- The claim that MHO7 has broad antitumor activity is an overstatement. The data are limited to a small number of cell lines and a single xenograft model.

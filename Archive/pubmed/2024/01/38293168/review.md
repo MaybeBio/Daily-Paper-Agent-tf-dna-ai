@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DeepPBS, a geometric deep-learning model that predicts protein-DNA binding specificity from protein-DNA structures. The model is claimed to be interpretable, applicable to predicted structures, useful for complex modeling, and fast enough for simulation trajectory analysis. Interpretability is demonstrated via protein heavy atom-level importance scores, validated against alanine scanning mutagenesis data for p53. A molecular-dynamics simulation of a Drosophila Hox-DNA complex is used to show inference speed.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, dataset descriptions, or validation details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset specifications, benchmark definitions, baseline comparisons, statistical analyses, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of protein-DNA interaction prediction, combining geometric deep learning with interpretability tools. The core idea is timely and the application domains (predicted structures, simulation trajectories) are relevant. However, the abstract alone provides insufficient evidence to evaluate the model's performance, novelty relative to existing methods, or the robustness of the interpretability claims. The validation against alanine scanning data is mentioned but not quantified, and no comparison to existing predictors is described. The claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-DNA interaction prediction, structural biologists studying transcription factor binding specificity, and researchers in gene regulation who need interpretable models to guide experimental design. The potential application to predicted structures and molecular dynamics trajectories broadens the appeal to structural modeling and simulation communities.
+- **Major strengths** The proposed model addresses a clear and important problem with a modern methodological approach. The emphasis on interpretability at the atom and residue level is a significant strength, as it bridges prediction with mechanistic understanding. The demonstrated applicability to predicted structures and simulation trajectories suggests practical utility beyond static experimental structures.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model "predicts binding specificity across protein families based on protein-DNA structures" with performance implied to be sufficient for practical use.  
+  - **Evidence pointer** Abstract, no quantitative results provided  
+  - **Concern** The abstract provides no quantitative performance metrics, no comparison to existing methods, and no benchmark details. It is impossible to assess whether DeepPBS achieves state-of-the-art or even competitive accuracy.  
+  - **Why it matters** Without quantitative validation, the central claim of predictive capability cannot be evaluated. The field has existing predictors, and a new model must demonstrate clear advantages or at least comparable performance to justify its use.  
+  - **Resolution test** Provide benchmark results with standard metrics (e.g., AUC, correlation coefficients) against at least one or two established methods on a defined test set, with statistical significance testing.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "When aggregated at the protein residue level, these scores conform well with alanine scanning mutagenesis experimental data."  
+  - **Evidence pointer** Abstract, no quantitative agreement metrics provided  
+  - **Concern** The claim of agreement with experimental data is qualitative. No correlation coefficients, rank-based metrics, or statistical tests are reported. The scope of validation (how many residues, how many proteins) is also unspecified.  
+  - **Why it matters** Interpretability claims are only meaningful if the importance scores are rigorously validated. A qualitative statement of "conform well" is insufficient for a Nature-level claim.  
+  - **Resolution test** Report quantitative agreement metrics (e.g., Spearman correlation, ROC-AUC for binding vs non-binding residues) with confidence intervals, and specify the number of proteins and residues used in validation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The model is presented as a novel geometric deep-learning approach for protein-DNA binding specificity prediction.  
+  - **Evidence pointer** Abstract, no related work discussion  
+  - **Concern** The abstract does not describe how DeepPBS differs from existing geometric or graph-based deep learning models for protein-DNA interactions. The novelty is asserted but not contextualized.  
+  - **Why it matters** For a high-impact venue, the incremental contribution over existing methods must be clear. Without a comparison to prior work, the originality claim cannot be assessed.  
+  - **Resolution test** Include a brief description of key architectural innovations and a comparison to at least one prior geometric deep learning model for protein-DNA specificity.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** "DeepPBS can be applied to predicted structures, and can aid in the modeling of protein-DNA complexes."  
+  - **Evidence pointer** Abstract, no examples or case studies beyond p53 and Hox  
+  - **Concern** The claim of applicability to predicted structures is not supported by any example or accuracy assessment. The Hox example is used for speed, not for accuracy on predicted structures.  
+  - **Why it matters** Predicted structures are increasingly common, and a claim of applicability without validation could mislead users. The modeling aid claim is also vague.  
+  - **Resolution test** Provide a case study where DeepPBS is applied to predicted structures with accuracy compared to experimental structures, and describe a concrete modeling scenario where the model provides actionable guidance.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses technical terms such as "geometric deep-learning model" and "protein heavy atom-level importance scores" without brief explanations.  
+  - **Required correction** Add one sentence clarifying what geometric deep learning means in this context and what an atom-level importance score represents.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** No mention of code or data availability.  
+  - **Required correction** State in the abstract or elsewhere that code and data will be made publicly available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The inference speed claim is qualitative ("sufficiently fast") without any timing numbers.  
+  - **Required correction** Report a specific inference time per structure or per trajectory frame.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without quantitative performance metrics and rigorous validation of interpretability, the core claims of the model are not established. R1-M3 and R1-M4, while not blocking, are necessary to establish novelty and practical utility.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach is plausibly novel, but the abstract does not provide enough context to distinguish it from existing methods. Not established.  
+  - Scientific importance: The problem is important, and the potential for interpretable predictions is valuable. The importance is plausible but not demonstrated with concrete outcomes.  
+  - Interdisciplinary readership: The work could appeal to structural biology, computational biology, and gene regulation communities, but the abstract is too technical for nonspecialists and lacks context for broader impact.  
+  - Technical soundness: Not assessable from the abstract. No metrics, no benchmarks, no statistical validation.  
+  - Readability for nonspecialists: The abstract is dense and uses jargon without explanation. It is not accessible to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the absence of quantitative results and rigorous validation prevents a supportive recommendation. I would be supportive if the technical concerns are resolved with full data and analyses.
+
+## Risk / unsupported claims
+- The claim of accurate binding specificity prediction across protein families is unsupported without quantitative benchmarks.
+- The claim of agreement with alanine scanning data is unsupported without quantitative metrics.
+- The claim of applicability to predicted structures is unsupported without a validation example.
+- The claim of aiding in complex modeling is vague and unsupported.
+- The claim of sufficient inference speed for simulation trajectories is unsupported without timing data.
+- The novelty of the architecture relative to existing methods is unassessable from the abstract.

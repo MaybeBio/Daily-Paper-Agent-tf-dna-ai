@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "39932853",
+    "doi": "10.1093/cercor/bhae486",
+    "title": "Quantifying multilabeled brain cells in the whole prefrontal cortex reveals reduced inhibitory and a subtype of excitatory neuronal marker expression in serotonin transporter knockout rats."
+  },
+  "content": {
+    "abstract": "The prefrontal cortex regulates emotions and is influenced by serotonin. Rodents lacking the serotonin transporter (5-HTT) show increased anxiety and changes in excitatory and inhibitory cell markers in the prefrontal cortex. However, these observations are constrained by limitations in brain representation and cell segmentation, as standard immunohistochemistry is inadequate to consider volume variations in regions of interest. We utilized the deep learning network of the StarDist method in combination with novel open-source methods for automated cell counts in a wide range of prefrontal cortex subregions. We found that 5-HTT knockout rats displayed increased anxiety and diminished relative numbers of subclass excitatory VGluT2+ and activated DeltaFosB+ cells in the infralimbic and prelimbic cortices and of inhibitory GAD67+ cells in the prelimbic cortex. Anxiety levels and DeltaFosB cell counts were positively correlated in wild-type, but not in knockout, rats. In conclusion, we present a novel method to quantify whole brain subregions of multilabeled cells in animal models and demonstrate reduced excitatory and inhibitory neuronal marker expression in prefrontal cortex subregions of 5-HTT knockout rats.",
+    "keywords": [
+      "deep learning",
+      "immunohistochemistry",
+      "prefrontal cortex",
+      "serotonin transporter knockout"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Prefrontal Cortex/metabolism/cytology",
+      "*Serotonin Plasma Membrane Transport Proteins/genetics/deficiency",
+      "Rats",
+      "Male",
+      "*Neurons/metabolism",
+      "Proto-Oncogene Proteins c-fos/metabolism",
+      "Cell Count/methods",
+      "Vesicular Glutamate Transport Protein 2/metabolism",
+      "Anxiety/metabolism",
+      "Glutamate Decarboxylase/metabolism",
+      "Rats, Transgenic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Chao Ciu-Gwok",
+        "Xu, Yifan",
+        "Shan, Ling",
+        "Foka, Kyriaki",
+        "Memoli, Simone",
+        "Mulveen, Calum",
+        "Gijsbrechts, Barend",
+        "Verheij, Michel M",
+        "Homberg, Judith R"
+      ],
+      "short_names": [
+        "Guo CC",
+        "Xu Y",
+        "Shan L",
+        "Foka K",
+        "Memoli S",
+        "Mulveen C",
+        "Gijsbrechts B",
+        "Verheij MM",
+        "Homberg JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1734-8524"
+      ],
+      "affiliations": [
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Neuropsychiatric Disorders, Netherlands Institute for Neuroscience, an Institute of the Royal Netherlands Academy of Arts and Sciences, Meibergdreef 47, 1105 BA, Amsterdam, the Netherlands.",
+        "Department of Fundamental Neurosciences, University of Lausanne, Rue du Bugnon 9, 1005 Lausanne, Switzerland.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands.",
+        "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Chao Ciu-Gwok",
+        "short_name": "Guo CC",
+        "identifiers": [
+          "0000-0003-1734-8524"
+        ],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Xu, Yifan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Shan, Ling",
+        "short_name": "Shan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropsychiatric Disorders, Netherlands Institute for Neuroscience, an Institute of the Royal Netherlands Academy of Arts and Sciences, Meibergdreef 47, 1105 BA, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Foka, Kyriaki",
+        "short_name": "Foka K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Fundamental Neurosciences, University of Lausanne, Rue du Bugnon 9, 1005 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Memoli, Simone",
+        "short_name": "Memoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Mulveen, Calum",
+        "short_name": "Mulveen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gijsbrechts, Barend",
+        "short_name": "Gijsbrechts B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Verheij, Michel M",
+        "short_name": "Verheij MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Homberg, Judith R",
+        "short_name": "Homberg JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cognitive Neuroscience, Radboud University Medical Center, Donders Institute for Brain, Cognition, and Behaviour, Kapittelweg 29, 6525 EN, Nijmegen, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cerebral cortex (New York, N.Y. : 1991)"
+    ],
+    "journal_abbrev": [
+      "Cereb Cortex"
+    ],
+    "pub_date": "2025 Feb 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/11 18:22",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39932853",
+      "29427306",
+      "26132384",
+      "29485117",
+      "22012473",
+      "40485115",
+      "20388545",
+      "18358631",
+      "38220097",
+      "32187792",
+      "25522398",
+      "23164505",
+      "16978716",
+      "27957784",
+      "8848147",
+      "22693577",
+      "36991468",
+      "33606835",
+      "27235339",
+      "26088969",
+      "14596865",
+      "22505721",
+      "37568146",
+      "40451488",
+      "20159945",
+      "10377372",
+      "38280571",
+      "30885634",
+      "24760870",
+      "23261854",
+      "22916276",
+      "14751290",
+      "30576762",
+      "21733285",
+      "30677060",
+      "21886833",
+      "9723785",
+      "15682395",
+      "30594389",
+      "23551217",
+      "41225565",
+      "25536304",
+      "20513656",
+      "19336914",
+      "23195622",
+      "28687229",
+      "23433874",
+      "33114023",
+      "17706947",
+      "31772023",
+      "29807127",
+      "41516045",
+      "28221365",
+      "25818050",
+      "33007389",
+      "15295023",
+      "12713650",
+      "30024942",
+      "22183017",
+      "11840474",
+      "21818344",
+      "18718470",
+      "41391737",
+      "11988230",
+      "16953386",
+      "27335401",
+      "19800921",
+      "38228055",
+      "31911191",
+      "27365172",
+      "40063219",
+      "39128940",
+      "19020022",
+      "17467185",
+      "25780293",
+      "18499280",
+      "26391919",
+      "16388908",
+      "26818517",
+      "24315832",
+      "15993862",
+      "16216431",
+      "26387382",
+      "29407478",
+      "23451267",
+      "16783166",
+      "41125212",
+      "26424895",
+      "27720810",
+      "22982514",
+      "29174865",
+      "31184239",
+      "27569181",
+      "21606840",
+      "11840475",
+      "26314630",
+      "19765638",
+      "9466399",
+      "27030752",
+      "27580848"
+    ],
+    "review": [
+      "39932853"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/cercor/article-lookup/doi/10.1093/cercor/bhae486",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

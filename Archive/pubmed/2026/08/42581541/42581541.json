@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "pmid": "42581541",
+    "doi": "10.1016/j.molp.2026.08.005",
+    "title": "Decoding genetic basis of nitrogen-use efficiency in maize using AI-generated deep phenotypes."
+  },
+  "content": {
+    "abstract": "Improving nitrogen-use efficiency (NUE) is essential for sustainable agriculture, yet conventionally measured plant characteristics have limited value as NUE proxies. Here, we show that artificial intelligence (AI) can uncover previously unrecognized phenotypic variation associated with NUE, showing genetic variation that is largely missed by conventional phenotypes. We trained a convolutional neural network (CNN) on 25,080 maize images to learn features that distinguish how plants respond to low- and high-nitrogen (N) conditions, achieving 96.7% accuracy. The learned features were defined as deep phenotypes. Compared with conventional phenotypes, deep phenotypes showed greater phenotypic variation and higher heritability, enabling the identification of 523 significant loci compared with 21 for conventional phenotypes. We next investigated candidate genes underlying these loci and used these findings to interpret the learned features. Lower CNN layers largely reflected visual patterns overlapping with conventional phenotypes, whereas deeper layers encoded additional features associated with N-responsive genetic variation. To validate candidate genes identified by the AI framework, we functionally characterized Liguleless2 (LG2), a basic-leucine zipper transcription factor, and demonstrated that lg2 mutants exhibit enhanced root architecture and increased N-uptake efficiency. Field trials of 200 hybrids across diverse N environments further supported the AI findings, with each beneficial allele increasing ear weight by an average of 18 g per plot under low-N conditions. These results show how integrating AI and biology can uncover biologically relevant variation underlying complex traits such as NUE and enhance the interpretability of AI models.",
+    "keywords": [
+      "artificial intelligence",
+      "deep phenotype",
+      "genetics",
+      "high-throughput phenotyping",
+      "nitrogen-use efficiency"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Haoyan",
+        "Zeng, Lingju",
+        "Gou, Xiangjian",
+        "Shao, Yang",
+        "Song, Xianlong",
+        "Zhang, Shuang",
+        "Qian, Xiaoyan",
+        "Zhang, Zhenwei",
+        "Wang, Xiao",
+        "Li, Haitao",
+        "Peng, Bo",
+        "Anyanwu, Juliet Nkiruka",
+        "Zheng, Zihao",
+        "Han, Linqian",
+        "Zhou, Ling",
+        "Bulut, Mustafa",
+        "Song, Peng",
+        "Yang, Wanneng",
+        "Xiao, Yingjie",
+        "Li, Wenqiang",
+        "Dai, Mingqiu",
+        "Qiu, Fazhan",
+        "Zhang, Jian",
+        "Wang, Baobao",
+        "Fernie, Alisdair R",
+        "Wang, Haiyang",
+        "Zhao, Han",
+        "Li, Xianran",
+        "Yan, Jianbing",
+        "Guo, Tingting"
+      ],
+      "short_names": [
+        "Yang H",
+        "Zeng L",
+        "Gou X",
+        "Shao Y",
+        "Song X",
+        "Zhang S",
+        "Qian X",
+        "Zhang Z",
+        "Wang X",
+        "Li H",
+        "Peng B",
+        "Anyanwu JN",
+        "Zheng Z",
+        "Han L",
+        "Zhou L",
+        "Bulut M",
+        "Song P",
+        "Yang W",
+        "Xiao Y",
+        "Li W",
+        "Dai M",
+        "Qiu F",
+        "Zhang J",
+        "Wang B",
+        "Fernie AR",
+        "Wang H",
+        "Zhao H",
+        "Li X",
+        "Yan J",
+        "Guo T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "Department of Agronomy, Iowa State University, Ames, IA 50011-1051, USA.",
+        "Department of Crop and Soil Sciences, Washington State University, Pullman, WA 99164, USA.",
+        "Provincial Key Laboratory of Agrobiology, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China.",
+        "Max Planck Institute of Molecular Plant Physiology, Am Muhlenberg 1, 14476 Potsdam-Golm, Germany; Program Center MetaCom, Leibniz Institute of Plant Biochemistry, Weinberg 3, Halle (Saale) 06120, Germany.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China.",
+        "Biotechnology Research Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "Max Planck Institute of Molecular Plant Physiology, Am Muhlenberg 1, 14476 Potsdam-Golm, Germany.",
+        "Yazhouwan National Laboratory, Sanya 572024, China.",
+        "Provincial Key Laboratory of Agrobiology, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China.",
+        "Department of Crop and Soil Sciences, Washington State University, Pullman, WA 99164, USA; USDA-ARS Wheat Health, Genetics, and Quality Research Unit, Pullman, WA 99164, USA. Electronic address: xianran.li@usda.gov.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China. Electronic address: yjianbing@mail.hzau.edu.cn.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China. Electronic address: tguo@mail.hzau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Haoyan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Lingju",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Gou, Xiangjian",
+        "short_name": "Gou X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yang",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xianlong",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Xiaoyan",
+        "short_name": "Qian X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenwei",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haitao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Bo",
+        "short_name": "Peng B",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Anyanwu, Juliet Nkiruka",
+        "short_name": "Anyanwu JN",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zihao",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agronomy, Iowa State University, Ames, IA 50011-1051, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Linqian",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop and Soil Sciences, Washington State University, Pullman, WA 99164, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ling",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of Agrobiology, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Bulut, Mustafa",
+        "short_name": "Bulut M",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Plant Physiology, Am Mühlenberg 1, 14476 Potsdam-Golm, Germany; Program Center MetaCom, Leibniz Institute of Plant Biochemistry, Weinberg 3, Halle (Saale) 06120, Germany."
+        ]
+      },
+      {
+        "full_name": "Song, Peng",
+        "short_name": "Song P",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wanneng",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yingjie",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenqiang",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Mingqiu",
+        "short_name": "Dai M",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Fazhan",
+        "short_name": "Qiu F",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Baobao",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Research Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Fernie, Alisdair R",
+        "short_name": "Fernie AR",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Plant Physiology, Am Mühlenberg 1, 14476 Potsdam-Golm, Germany."
+        ]
+      },
+      {
+        "full_name": "Wang, Haiyang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Yazhouwan National Laboratory, Sanya 572024, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Han",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of Agrobiology, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xianran",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop and Soil Sciences, Washington State University, Pullman, WA 99164, USA; USDA-ARS Wheat Health, Genetics, and Quality Research Unit, Pullman, WA 99164, USA. Electronic address: xianran.li@usda.gov."
+        ]
+      },
+      {
+        "full_name": "Yan, Jianbing",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China. Electronic address: yjianbing@mail.hzau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Tingting",
+        "short_name": "Guo T",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China; Hubei Hongshan Laboratory, Wuhan 430070, China. Electronic address: tguo@mail.hzau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular plant"
+    ],
+    "journal_abbrev": [
+      "Mol Plant"
+    ],
+    "pub_date": "2026 Aug 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 06:05",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42581541",
+      "42475469",
+      "37851522",
+      "39942961",
+      "41163133",
+      "40851219",
+      "37090677",
+      "25873660",
+      "41818322",
+      "25978356",
+      "34925396",
+      "35894213",
+      "33643329",
+      "40365911",
+      "38792661",
+      "36850425",
+      "38139451",
+      "31822689",
+      "32997301",
+      "38581445",
+      "20308048",
+      "35035142",
+      "42074517",
+      "39492915",
+      "41752196",
+      "41029518",
+      "36136127",
+      "38132569",
+      "41315995",
+      "41237179",
+      "27818673",
+      "39146913",
+      "29283996",
+      "39013333",
+      "39703939",
+      "40818682",
+      "39515641",
+      "42237097",
+      "28973738",
+      "42318778",
+      "36723989",
+      "33953221",
+      "36447436",
+      "31341742",
+      "34054891",
+      "41634574",
+      "35150141",
+      "38417307",
+      "40876375",
+      "28744289",
+      "33968102",
+      "31736988",
+      "41411658",
+      "22029603",
+      "37880495",
+      "26940065",
+      "40553344",
+      "35332536",
+      "37874341",
+      "40605389",
+      "26421509",
+      "29967053",
+      "32092066",
+      "29033971",
+      "42179834",
+      "31759338",
+      "36642074",
+      "32411159",
+      "36903871",
+      "37299114",
+      "39252878",
+      "33613608",
+      "34686145",
+      "42404144",
+      "42296264",
+      "40918957",
+      "33926480",
+      "41474800",
+      "33552094",
+      "34834725",
+      "20237091",
+      "38526066",
+      "31487591",
+      "42084336",
+      "37020197",
+      "39909847",
+      "38348101",
+      "36507422",
+      "31694528",
+      "40741129",
+      "40595846",
+      "41547839",
+      "41095116",
+      "34561450",
+      "37967146",
+      "40828572",
+      "36321557",
+      "40894902",
+      "36531355",
+      "41288734"
+    ],
+    "review": [
+      "42581541",
+      "35035142",
+      "39013333",
+      "39515641",
+      "42318778",
+      "26421509",
+      "42404144",
+      "41095116"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1674-2052(26)00263-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and significance of the claims presented
+- **Shared manuscript claim summary** The authors present IceQream (IQ), a modeling and inference framework that uses physical models of transcription factor (TF) binding to quantitatively predict chromosomal accessibility from DNA sequence. IQ integrates sequence-derived TF binding energies with spatial preferences, non-linear response functions, and pairwise TF interactions to regress differential accessibility probabilities across differentiation trajectories. The authors report performance comparable to state-of-the-art deep learning models while providing interpretable, mechanistic components.
+- **Visible evidence base** Main figures 1-6, supplementary figures S1-S6, methods section, statistical test results reported in figure legends
+- **Missing materials affecting confidence** Source data files, code repository contents, detailed hyperparameter settings, cross-validation fold definitions, and complete list of TF models used
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually appealing approach to bridge the gap between black-box deep learning models and mechanistic understanding of TF-mediated chromatin accessibility. The core idea of using physical TF binding models with interpretable components is timely and potentially valuable. However, several technical aspects require clarification and additional validation before the claims of comparable performance to deep learning models can be fully supported. The normalization procedure, model comparison methodology, and statistical rigor need strengthening.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and epigenomics would find this work relevant. Those developing interpretable models for gene regulation, as well as experimentalists seeking to understand TF cooperativity and cis-regulatory logic, would benefit from the framework. The work also speaks to the broader community interested in benchmarking interpretable models against deep learning approaches.
+- **Major strengths**
+  - The conceptual framing of quantitative accessibility as a continuous variable (AP) rather than binary is well-motivated and biologically meaningful
+  - The model architecture explicitly incorporates physical principles of TF-DNA binding, providing interpretable components
+  - The homogenization approach across trajectories is a thoughtful solution to model consistency
+  - The comparison to multiple deep learning baselines is commendable
+  - The validation using ChIP-seq and MNase-seq data adds biological credibility
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that IQ achieves performance "on par with" deep learning models requires more rigorous and comprehensive benchmarking
+  - **Evidence pointer** Figure 5B-D, Methods "Training and benchmarking the DL models for ATAC regression"
+  - **Concern** The comparison to deep learning models appears limited in scope. Only a subset of trajectories is shown, and the hyperparameter optimization for DL models is not described in sufficient detail. The authors state they "took the best result for each model" but do not specify the search space or selection criteria. Additionally, the R² values reported appear to be on a single train/test split rather than repeated cross-validation, which raises concerns about variance in the estimates.
+  - **Why it matters** The central claim of the paper is that an interpretable physical model can match deep learning performance. If the comparison is not rigorously conducted, this claim is not established, undermining the paper's main contribution.
+  - **Resolution test** Provide comprehensive benchmarking across all trajectories with multiple random seeds, report mean and standard deviation of R² values, describe hyperparameter search spaces for all DL models, and include statistical tests for equivalence or non-inferiority rather than only tests for difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The normalization procedure converting raw ATAC counts to AP values is central to the approach but lacks sufficient validation
+  - **Evidence pointer** Figure 1B-D, Methods "Estimation of access probabilities (AP)"
+  - **Concern** The normalization relies on identifying "constitutive loci" with AP=1, but the criteria for selecting these loci are not fully specified. The threshold shown in Figure 1B appears arbitrary, and the sensitivity of downstream results to this choice is not examined. Furthermore, the claim that total AP correlates with epigenetic plasticity is intriguing but only supported by qualitative observations in two datasets.
+  - **Why it matters** If the normalization is unstable or dataset-specific, the AP values may not be comparable across conditions, and the regression targets could be biased. This would affect all downstream model fitting and interpretation.
+  - **Resolution test** Provide a sensitivity analysis varying the constitutive locus threshold, demonstrate robustness of model performance across these choices, and quantitatively test the relationship between total AP and epigenetic plasticity with appropriate statistical controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The biological insights derived from the model, particularly regarding TF cooperativity and low-affinity binding sites, require stronger validation
+  - **Evidence pointer** Figure 3C, G-I, Figure 4D
+  - **Concern** The inferred pairwise interactions and low-affinity site contributions are presented as biologically meaningful, but the validation is indirect. The ChIP-seq comparisons in Figure 2I validate individual TF models, but the interaction terms are not experimentally validated. The claim that specific spacing between TF binding sites correlates with stronger responses is intriguing but based on correlative analysis without controlling for confounding factors such as nucleosome positioning or DNA shape.
+  - **Why it matters** The paper positions itself as providing mechanistic insights, not just predictive performance. If the interaction terms and low-affinity contributions are not robustly validated, the mechanistic claims are overstated.
+  - **Resolution test** Provide additional validation of interaction terms, such as comparison to independent datasets (e.g., STARR-seq or MPRA), or at minimum demonstrate that the interaction effects are robust across different trajectory pairs and datasets. Control for potential confounders in the spacing analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model selection and regularization procedures may not adequately prevent overfitting
+  - **Evidence pointer** Methods "IQ step 2 – Further motif filtering using a simple model with L1 regularization", "IQ step 3 – PREGO-based motif cluster consolidation"
+  - **Concern** The manuscript describes a multi-step procedure with several user-defined parameters (e.g., number of clusters B, thresholds for filtering, lambda values). The sensitivity of results to these parameters is not systematically explored. The use of a fixed lambda=1e-5 for elastic net regularization seems arbitrary, and the clustering step may introduce instability.
+  - **Why it matters** If the model is sensitive to these parameters, the reported performance may not generalize to new datasets, and the interpretability claims may be compromised by unstable model components.
+  - **Resolution test** Perform a parameter sensitivity analysis, demonstrate stability of model components across reasonable parameter ranges, and consider using cross-validation for parameter selection rather than fixed values.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** GitHub link in Results section
+  - **Issue** The manuscript states code is available at a GitHub repository, but the repository contents are not described in the manuscript. No version number or DOI is provided.
+  - **Required correction** Provide a detailed description of the repository contents, including dependencies, usage examples, and a versioned release with DOI.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 2F
+  - **Evidence pointer** Figure 2F
+  - **Issue** The response curves in Figure 2F are described as showing positive and negative components, but the x-axis label "binding energy" is ambiguous. It is unclear whether higher values indicate stronger or weaker binding.
+  - **Required correction** Clarify the directionality of the binding energy axis and ensure consistency with the text description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 3H-I
+  - **Evidence pointer** Figure 3H-I
+  - **Issue** The ECDF plots in Figure 3H show differences between groups, but the statistical tests are only described in the figure legend without specifying the exact test used for each comparison. The sample sizes for the "both factors" group appear small.
+  - **Required correction** Clearly state which statistical test was used for each comparison, report exact p-values, and discuss the power limitations given the small sample sizes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods "Physical Binding Models"
+  - **Evidence pointer** Methods section
+  - **Issue** The normalization of binding energies (Equation 3) uses a 99th quantile from a "background set" but the composition of this background set is not described. The choice of background can significantly affect normalized energy values.
+  - **Required correction** Describe the background set composition and justify the choice. Consider testing sensitivity to different background definitions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods "R² comparisons"
+  - **Evidence pointer** Methods section
+  - **Concern** The train/test split is described as chromosome-based, but the specific chromosomes used for validation and testing are not listed. This information is critical for reproducibility.
+  - **Required correction** List the specific chromosomes used for training, validation, and testing in both mouse and human datasets.
+
+## Risk / unsupported claims
+- The claim that IQ performance is "on par with" deep learning models is not fully supported given the limited benchmarking described
+- The biological interpretation of pairwise TF interactions as representing cooperative binding or sequential regulatory transitions is speculative without direct experimental validation
+- The relationship between total AP and epigenetic plasticity is presented as a general principle but is only demonstrated in two datasets
+- The claim that the model "opens up multiple hypotheses" regarding low-affinity binding sites and TF cooperativity is reasonable but the supporting evidence is correlative
+- The statement that IQ "maximizes model interpretability without compromising precision" is too strong given the parameter sensitivity concerns
+- The generalizability of the homogenization approach to other cell types and developmental systems is asserted but not demonstrated

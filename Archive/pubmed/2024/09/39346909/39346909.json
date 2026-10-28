@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "39346909",
+    "doi": "10.3389/fimmu.2024.1440753",
+    "title": "Causal relationship, shared genes between rheumatoid arthritis and pulp and periapical disease: evidence from GWAS and transcriptome data."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Patients with rheumatoid arthritis (RA) have an increased risk of developing pulp and periapical disease (PAP), but the causal relationship and shared genetic factors between these conditions have not been explored. This study aimed to investigate the bidirectional causal relationship between RA and PAP and to analyze shared genes and pathogenic pathways. METHODS: We utilized GWAS data from the IEU Open GWAS Project and employed five Mendelian randomization methods (MR Egger, weighted median, inverse variance weighted, simple mode, and weighted mode) to investigate the bidirectional causal relationship between RA and PAP. Transcriptome data for RA and irreversible pulpitis (IRP) were obtained from the GEO database. Hub genes were identified through differential analysis, CytoHubba, machine learning (ML), and other methods. The immune infiltration of both diseases was analyzed using the ssGSEA method. Finally, we constructed a regulatory network for miRNAs, transcription factors, chemicals, diseases, and RNA-binding proteins based on the identified hub genes. RESULTS: RA was significantly associated with an increased risk of PAP (OR = 1.1284, 95% CI 1.0674-1.1929, p < 0.001). However, there was insufficient evidence to support the hypothesis that PAP increased the risk of RA. Integrating datasets and differential analysis identified 84 shared genes primarily involved in immune and inflammatory pathways, including the IL-17 signaling pathway, Th17 cell differentiation, and TNF signaling pathway. Using CytoHubba and three ML methods, we identified three hub genes (HLA-DRA, ITGAX, and PTPRC) that are significantly correlated and valuable for diagnosing RA and IRP. We then constructed a comprehensive regulatory network using the miRDB, miRWalk, ChipBase, hTFtarget, CTD, MalaCards, DisGeNET, and ENCORI databases. CONCLUSION: RA may increase the risk of PAP. The three key genes, HLA-DRA, ITGAX, and PTPRC, have significant diagnostic value for both RA and IRP.",
+    "keywords": [
+      "Mendelian randomization",
+      "hub genes",
+      "irreversible pulpitis",
+      "pulp and periapical disease",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/genetics",
+      "*Genome-Wide Association Study",
+      "*Transcriptome",
+      "*Genetic Predisposition to Disease",
+      "*Gene Regulatory Networks",
+      "Pulpitis/genetics",
+      "Gene Expression Profiling",
+      "Polymorphism, Single Nucleotide",
+      "Mendelian Randomization Analysis",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Huili",
+        "Wang, Lijuan",
+        "Qiu, Chenjie"
+      ],
+      "short_names": [
+        "Wu H",
+        "Wang L",
+        "Qiu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endodontics, Changzhou Stomatological Hospital, Changzhou, China.",
+        "Department of Endodontics, Changzhou Stomatological Hospital, Changzhou, China.",
+        "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Huili",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endodontics, Changzhou Stomatological Hospital, Changzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lijuan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endodontics, Changzhou Stomatological Hospital, Changzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chenjie",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/30 16:20",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "41695600",
+      "41358199",
+      "40343542"
+    ],
+    "refs": [
+      "39112631",
+      "38634023",
+      "38570939",
+      "38411530",
+      "38380335",
+      "38236462",
+      "38129488",
+      "37828236",
+      "37595682",
+      "37264964",
+      "36938490",
+      "36801619",
+      "36747086",
+      "36672249",
+      "36068354",
+      "35794593",
+      "35257683",
+      "35208514",
+      "35177557",
+      "35003389",
+      "34999915",
+      "34793561",
+      "34768405",
+      "34594039",
+      "34426474",
+      "34380042",
+      "34370914",
+      "34351963",
+      "34260959",
+      "33868244",
+      "33430905",
+      "33378579",
+      "33339725",
+      "33046027",
+      "33023239",
+      "33011745",
+      "32843324",
+      "32766528",
+      "31402462",
+      "31386235",
+      "31062938",
+      "31061532",
+      "30941641",
+      "30834230",
+      "30813927",
+      "30463850",
+      "30374345",
+      "30219863",
+      "29341486",
+      "29079059",
+      "28376277",
+      "27486138",
+      "26711533",
+      "26362738",
+      "26214836",
+      "25896535",
+      "25796386",
+      "25632051",
+      "25064373",
+      "24855941",
+      "24690414",
+      "24461396",
+      "24224782",
+      "21520060",
+      "20309874",
+      "20032971",
+      "19929953",
+      "15569606",
+      "12613579",
+      "11201744",
+      "1080878"
+    ],
+    "similar": [
+      "39346909",
+      "39059285",
+      "38507672",
+      "38783321",
+      "37957703",
+      "39304950",
+      "39343950",
+      "36532051",
+      "38090574",
+      "37930596",
+      "32143697",
+      "35000008",
+      "38151584",
+      "39151504",
+      "32599322",
+      "37926850",
+      "37937573",
+      "36578485",
+      "38970016",
+      "29974225",
+      "37324262",
+      "37855981",
+      "38711508",
+      "31965238",
+      "34484118",
+      "38608102",
+      "39058807",
+      "39058858",
+      "37849761",
+      "39139563",
+      "38817604",
+      "39090125",
+      "37979213",
+      "39311789",
+      "36238290",
+      "36446255",
+      "39258747",
+      "38022623",
+      "30167974",
+      "39260308",
+      "38962008",
+      "39210324",
+      "30209555",
+      "37505304",
+      "36256472",
+      "36869337",
+      "37600807",
+      "37978228",
+      "35844889",
+      "38437213",
+      "38698841",
+      "34583778",
+      "23053960",
+      "38948277",
+      "39227966",
+      "30710354",
+      "38022630",
+      "37033949",
+      "37567983",
+      "36454344",
+      "36973792",
+      "37039764",
+      "39312328",
+      "35154127",
+      "38649271",
+      "39314521",
+      "38332917",
+      "38410128",
+      "33836822",
+      "36762574",
+      "33482886",
+      "39290322",
+      "39044823",
+      "38863695",
+      "38966529",
+      "31697380",
+      "37302263",
+      "38008752",
+      "36899398",
+      "38858644",
+      "36455308",
+      "34015765",
+      "38941374",
+      "37492576",
+      "37582060",
+      "39136014",
+      "38433131",
+      "37577292",
+      "26253105",
+      "35349660",
+      "38244137",
+      "38416767",
+      "38460264",
+      "38680491",
+      "37947095",
+      "39160499",
+      "35932494",
+      "38394529",
+      "38573982",
+      "34113405",
+      "38556923",
+      "39352437",
+      "39336801"
+    ],
+    "review": [
+      "39346909",
+      "36578485",
+      "37324262",
+      "39258747",
+      "38437213",
+      "23053960",
+      "37567983",
+      "36454344",
+      "36762574",
+      "31697380",
+      "37302263",
+      "38008752",
+      "26253105",
+      "37947095"
+    ],
+    "pmc": [
+      "11427265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39346909/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1440753",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

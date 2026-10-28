@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, funding, and author contribution sections. Figures and tables are referenced but not fully visible; supplementary materials are mentioned but not provided.
+- **Assessment boundary** This review assesses the scientific claims, methodological soundness, and interpretive validity of the bioinformatic analyses presented. It does not assess editorial fit or journal-specific policy compliance beyond general Nature-style criteria.
+- **Shared manuscript claim summary** The authors present a bioinformatic characterization of the human THAP9 protein, including phylogenetic analysis across 178 vertebrate orthologs, domain architecture prediction, identification of novel conserved motifs in mammals, and structural comparison of the AlphaFold-predicted hTHAP9 model with experimentally determined DmTNP structures. They report previously unreported functional motifs, including a cluster of four adjacent motifs in mammals, and propose functional implications for THAP9 localization and catalytic activity.
+- **Visible evidence base** The manuscript text, including methods descriptions, results narrative, and discussion. Figures are referenced but not directly inspectable. Tables 1 and 2 are partially visible in text. Supplementary tables and figures are mentioned but not provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (including full domain architecture representations, motif tables, and sequence alignments), the actual figures themselves, and the AlphaFold structure files. The absence of these materials limits verification of several key claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward bioinformatic analysis of THAP9, combining phylogenetic, sequence-based, and structure-based approaches. The work is descriptive and largely confirmatory of previously known features of THAP9, with some novel observations regarding mammalian-specific motifs and a predicted C-terminal domain. The main value lies in the consolidation of existing knowledge and the identification of specific residues and motifs for future experimental testing. However, the study lacks experimental validation, and several claims are based on computational predictions that require cautious interpretation. The evolutionary analysis is limited by the absence of selection pressure analysis or molecular dating. The structural comparisons, while informative, are based on a single predicted model and a limited set of experimental structures. The manuscript would benefit from clearer presentation of methods, more rigorous statistical support for conservation claims, and a more cautious tone in the discussion of functional implications.
+- **Who would be interested in the results, and why** Researchers studying transposable element-derived genes, particularly those interested in THAP family proteins, P-element transposase evolution, and the domestication of transposases in vertebrate genomes. The identification of conserved motifs and structural features may inform targeted mutagenesis studies. The phylogenetic data may be useful for comparative genomics studies of transposase evolution. The work may also be of interest to structural biologists using AlphaFold predictions to generate hypotheses about protein function.
+- **Major strengths** The manuscript provides a comprehensive bioinformatic characterization of THAP9, integrating multiple computational approaches. The use of AlphaFold predictions to generate structural hypotheses is timely and appropriate. The identification of a novel C-terminal domain and mammalian-specific motif clusters represents a potentially useful contribution. The evolutionary analysis across 178 orthologs provides a broad taxonomic perspective. The comparison with DmTNP structures is well-motivated given the established homology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the four adjacent motifs (N-glycosylation site, PKC phosphorylation site, Leucine zipper, and bipartite NLS) are "highly conserved in mammals" and "may play a role in the subcellular localization of THAP9."
+  - **Evidence pointer** Results section, Figure 3, Supplementary Figure 1, Supplementary Table 2
+  - **Concern** The claim of high conservation in mammals is based on visual inspection of sequence logos or alignments, but no quantitative conservation scores, statistical tests, or explicit criteria for "high conservation" are provided. The functional inference regarding subcellular localization is purely speculative and not supported by experimental data. The authors do not demonstrate that these motifs are functionally relevant, nor do they compare conservation levels between mammals and other classes in a statistically rigorous manner. The overlap of the bipartite NLS with the Leucine zipper region is noted but not analyzed in terms of potential structural or functional interference.
+  - **Why it matters** The identification of novel conserved motifs is a central claim of the manuscript. Without quantitative support, the claim of "high conservation" is not established. The functional speculation about subcellular localization, while interesting, is presented with insufficient caution and could mislead readers into overinterpreting the significance of these computational predictions.
+  - **Resolution test** Provide quantitative conservation scores (e.g., Shannon entropy, conservation indices) with statistical comparisons between mammalian and non-mammalian orthologs. Clearly state the criteria used to define "high conservation." Either temper the functional claims or provide additional computational evidence (e.g., co-evolution analysis, structural context) to support the localization hypothesis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the RMSD between the hTHAP9 and DmTNP insertion domains is 1.8 Å, which they interpret as "considerably high dissimilarity."
+  - **Evidence pointer** Results section, Table 2, Figure 11
+  - **Concern** The interpretation of RMSD values is problematic. An RMSD of 1.8 Å for a domain-level comparison is generally considered low to moderate and often indicates structural similarity, not dissimilarity. The authors do not provide context for this value, such as the number of aligned residues, the percentage of the domain that was aligned, or comparison with RMSD values for other domain pairs. Without this context, the claim of "considerably high dissimilarity" is unsupported and potentially misleading. Additionally, the RMSD values reported in Table 2 for the full-length protein comparisons (1.785 Å and 1.039 Å) are presented without explanation of what was aligned or how the values should be interpreted.
+  - **Why it matters** The structural comparison is a key component of the manuscript. Misinterpreting RMSD values undermines the credibility of the structural analysis and could lead to incorrect conclusions about the evolutionary divergence of the insertion domain.
+  - **Resolution test** Provide detailed information on the structural alignment, including the number of aligned residues, the RMSD calculation method, and appropriate context for interpreting the values. Consider using additional metrics (e.g., TM-score, GDT-TS) to assess structural similarity. Revise the interpretation of the RMSD values accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the C-terminal domain (residues 681–865) is a "novel domain" observed "for the first time in the AlphaFold predicted structure of hTHAP9."
+  - **Evidence pointer** Results section, Figure 5E, Figure 13
+  - **Concern** The claim of novelty is not adequately supported. The authors do not perform a comprehensive search of known protein domains (e.g., using CATH, SCOP, or a DALI search against the PDB) to demonstrate that this fold has not been previously observed. The AlphaFold model itself is a prediction, and the authors do not assess the confidence of this region using pLDDT scores or other metrics. If the pLDDT scores for this region are low, the structural prediction may be unreliable, and the claim of a novel domain would be premature.
+  - **Why it matters** The identification of a novel domain is a significant claim that would be of interest to the structural biology community. Without proper validation, this claim is not established and could be misleading.
+  - **Resolution test** Perform a DALI or similar structural similarity search against the PDB to assess whether the predicted C-terminal domain resembles any known structures. Report the pLDDT scores for this region and discuss the confidence of the prediction. If the domain is genuinely novel, provide additional evidence such as conservation analysis across orthologs and predicted functional features.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the THAP domain shows high conservation within these organism classes" based on the analysis presented in Figure 7 and Supplementary Table 3.
+  - **Evidence pointer** Results section, Figure 7, Supplementary Table 3
+  - **Concern** The conservation analysis appears to be based on visual inspection of aligned sequences, but no quantitative measures of conservation are provided. The authors do not specify which residues were analyzed, how conservation was scored, or whether the analysis accounts for phylogenetic relationships. The statement that "distinct patterns within bats, camels, whales, rodents & lizards" were observed is vague and not supported by specific data.
+  - **Why it matters** The evolutionary conservation analysis is a central component of the manuscript. Without quantitative support, the claims of conservation and class-specific patterns are not verifiable.
+  - **Resolution test** Provide quantitative conservation scores (e.g., ConSurf, Rate4Site) with appropriate statistical tests. Clearly define the criteria for "high conservation" and "distinct patterns." Present the data in a way that allows readers to verify the claims.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the use of multiple bioinformatic tools, but key parameters, versions, and analysis details are not provided.
+  - **Evidence pointer** Methods section
+  - **Concern** The methods lack sufficient detail for reproducibility. For example, the authors do not specify the version of MEGA X used, the parameters for CLUSTALW alignment, the criteria for removing "divergent sequences," the settings for the MEME analysis, or the specific options used in SMART and ScanProsite. The description of the structural alignment using Chimera is also incomplete, lacking details on the alignment algorithm and parameters.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publications. The lack of methodological detail prevents other researchers from replicating the analysis and verifying the results.
+  - **Resolution test** Provide a detailed description of all computational tools, including versions, parameters, and analysis pipelines. Consider providing the scripts or a detailed workflow as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the study "provided insights about the C2CH motif and other DNA binding residues, RNase H-like catalytic domain and insertion domain of the THAP9 protein," but does not specify what those insights are. The abstract would benefit from a more specific summary of the key findings.
+  - **Required correction** Revise the abstract to include specific findings, such as the identification of the novel C-terminal domain, the mammalian-specific motif cluster, or the class-specific conservation patterns.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of myristoylation
+  - **Evidence pointer** Results section, Functional Motifs subsection
+  - **Issue** The authors speculate that myristoylation "could also localize to cytosolic locations via selective myristoylation," but this speculation is not well-developed. The presence of a myristoylation site does not necessarily imply functional myristoylation, and the authors do not discuss the structural accessibility of these sites or the likelihood of myristoylation based on known protein behavior.
+  - **Required correction** Either provide additional computational evidence (e.g., structural accessibility, conservation of the myristoylation motif) or temper the speculation with appropriate caveats.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure is described as showing the architecture of the N-terminal region of hTHAP9, but the description in the text is not fully clear. The relationship between the predicted motifs and the domain architecture could be presented more clearly.
+  - **Required correction** Ensure the figure clearly labels all motifs and domains, and consider adding a schematic representation of the full-length protein with all predicted features.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of HCF-1 interaction
+  - **Evidence pointer** Results section, Functional Motifs subsection
+  - **Issue** The authors mention the prediction of an HCF-1 binding motif but do not discuss the potential functional significance of this interaction in the context of THAP9 biology. Given that HCF-1 is a transcriptional co-regulator, this could be an important observation.
+  - **Required correction** Add a brief discussion of the potential functional implications of HCF-1 binding for THAP9, or explain why this is not considered significant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains several instances of informal language and unclear phrasing. For example, "we observed a novel structure" could be more precisely stated as "we identified a previously uncharacterized structural domain." Additionally, some sentences are overly long and could be split for clarity.
+  - **Required correction** Revise the manuscript for clarity and precision of language. Consider having a native English speaker review the text.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative conservation analysis (R1-M1, R1-M4), the misinterpretation of RMSD values (R1-M2), and the insufficient validation of the novel C-terminal domain claim (R1-M3) are the primary technical issues. Additionally, the methods section requires more detail for reproducibility (R1-M5).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The study applies established bioinformatic methods to a relatively understudied protein. The identification of a novel C-terminal domain and mammalian-specific motif clusters is potentially original, but the novelty claim requires stronger validation.
+  - **Scientific importance** Moderate. The study consolidates knowledge about THAP9 and generates hypotheses for future experimental work. However, the lack of experimental validation limits the immediate impact. The findings are unlikely to fundamentally change understanding of transposase biology.
+  - **Interdisciplinary readership** Limited. The study is primarily of interest to researchers in transposable element biology, evolutionary genomics, and structural bioinformatics. The methods and findings are unlikely to attract readers from outside these fields.
+  - **Technical soundness** The study is technically sound in its application of standard bioinformatic tools, but the interpretation of results is sometimes problematic (e.g., RMSD interpretation). The lack of quantitative support for conservation claims is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is generally readable but assumes familiarity with transposase biology and bioinformatic methods. The abstract and introduction are accessible, but the results section may be challenging for nonspecialists. The discussion could be more accessible with clearer explanations of the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a useful bioinformatic characterization of THAP9, but the claims of novel motifs, high conservation, and a novel C-terminal domain require stronger quantitative support and more careful interpretation. The methods need to be described in greater detail for reproducibility. If these issues are addressed, the manuscript would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the four adjacent motifs are "highly conserved in mammals" is not quantitatively supported.
+- The claim that the C-terminal domain is "novel" is not adequately validated against known protein structures.
+- The interpretation of the 1.8 Å RMSD as "considerably high dissimilarity" is likely incorrect and is not supported by the data presented.
+- The speculation that myristoylation may affect subcellular localization is not supported by structural or experimental evidence.
+- The claim that "distinct patterns within bats, camels, whales, rodents & lizards" exist in the THAP domain is vague and not supported by specific data.
+- The functional significance of the predicted HCF-1 binding motif is not discussed, leaving the claim of its identification without context.

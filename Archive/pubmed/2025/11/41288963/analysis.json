@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41288963",
+  "title": "scRegulate: single-cell regulatory-embedded variational inference of transcription factor activity from gene expression.",
+  "authors": "Zandigohar, Mehrdad; Rehman, Jalees; Dai, Yang",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发基于变分推断的深度学习框架scRegulate，从单细胞基因表达推断TF活性与基因调控网络，虽涉及TF-DNA调控关系但未聚焦三维互作建模，方法可迁移至TF-DNA结合预测。",
+  "abstract": "MOTIVATION: Accurately inferring transcription factor (TF) activity from single-cell RNA sequencing (scRNA-seq) data remains a fundamental challenge in computational biology. While existing methods rely on statistical models, motif enrichment, or prior-based inference, they often depend on deterministic assumptions about regulatory relationships and rely on static regulatory databases. Few approaches effectively integrate prior biological knowledge with data-driven inference to capture novel, dynamic, and context-specific regulatory interactions. RESULTS: To address these limitations, we develop scRegulate, a generative deep-learning framework leveraging variational inference to estimate TF activities guided by experimental TF-target gene relationships and progressively adapted based on the input scRNA-seq data. By integrating structured biological constraints with a probabilistic latent space model, scRegulate offers a scalable and biologically grounded estimation of TF activity and gene regulatory network (GRN). Comprehensively benchmarking on public experimental and synthetic datasets demonstrates scRegulate's superior ability. Further, scRegulate accurately recapitulates experimentally validated TF knockdown effects on a Perturb-seq dataset for key TFs. Applied to experimental human PBMC scRNA-seq data, scRegulate infers cell-type-specific GRNs and identifies differentially active TFs aligned with known regulatory pathways. scRegulate's TF activity representations capture transcriptional heterogeneity, enabling accurate clustering of cell types. scRegulate is highly efficient, frequently an order of magnitude faster than common baselines. Collectively, our results establish scRegulate as a powerful, interpretable, and scalable framework for inferring TF activities and GRNs from single-cell transcriptomics. AVAILABILITY AND IMPLEMENTATION: Results and scripts available at github.com/YDaiLab/scRegulate.",
+  "abstract_zh": "动机：从单细胞RNA测序（scRNA-seq）数据中准确推断转录因子（TF）活性仍是计算生物学中的一个基本挑战。尽管现有方法依赖于统计模型、基序富集或基于先验的推断，它们往往对调控关系做出确定性假设，并依赖静态调控数据库。很少有方法能有效整合先验生物学知识与数据驱动推断，以捕捉新颖、动态且情境特异的调控相互作用。结果：为解决这些局限性，我们开发了scRegulate，一种生成式深度学习框架，利用变分推断估计TF活性，该活性由实验性TF-靶基因关系引导，并根据输入的scRNA-seq数据逐步适应。通过将结构化生物学约束与概率潜空间模型相结合，scRegulate提供了可扩展且生物学基础的TF活性和基因调控网络（GRN）估计。对公共实验和合成数据集的全面基准测试展示了scRegulate的优越能力。此外，scRegulate在Perturb-seq数据集上准确重现了实验验证的关键TF敲除效应。应用于实验性人类PBMC scRNA-seq数据时，scRegulate推断出细胞类型特异的GRN，并识别出与已知调控通路对齐的差异活性TF。scRegulate的TF活性表示捕捉转录异质性，从而实现细胞类型的准确聚类。scRegulate高效性突出，通常比常见基线方法快一个数量级。总体而言，我们的结果确立了scRegulate作为从单细胞转录组学推断TF活性和GRN的强大、可解释且可扩展框架。可用性和实现：结果和脚本可在github.com/YDaiLab/scRegulate获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41288963/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41288963/",
+  "paper_page_path": "papers/pubmed/41288963/index.html"
+}

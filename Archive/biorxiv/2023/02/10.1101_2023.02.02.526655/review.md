@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use microsecond-long molecular dynamics simulations, time-series analyses, and graph-based networks to characterize the OB-domain of TPP1. They claim that conformational plasticity of the TEL-patch is governed by long-range allosteric communication networks, that HHS-associated variants Glu169Δ and Lys170Δ reduce TEL-patch plasticity and impair hTEN binding, and that the work provides structural basis for TPP1-targeting therapeutic design.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, network construction specifics, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, system setup, analysis code, statistical validation, and any experimental or functional validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically important interaction. However, the evidence base is limited to a summary of findings without any quantitative or methodological detail. The central claims regarding allosteric networks and variant-induced plasticity changes are not assessable from the supplied material. The therapeutic design claim is speculative and unsupported.
+- **Who would be interested in the results, and why** Researchers in telomere biology, telomerase regulation, and molecular dynamics simulation of protein-protein interactions would be interested. The potential link to Hoyeraal-Hreidarsson syndrome and telomerase-related diseases may attract translational researchers, though the computational nature limits immediate experimental applicability.
+- **Major strengths** The biological question is significant and clinically relevant. The combination of long-timescale simulations with network analysis is a modern and appropriate approach for studying allosteric communication. The focus on disease-associated variants provides a clear motivation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "conformational plasticity of the TPP1's TEL-patch region is influenced by a network of long-range amino acid communications"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological detail is provided on how the allosteric communication network was constructed, what metrics were used to define communication pathways, or how statistical significance was established. The claim of a causal influence of long-range communications on TEL-patch plasticity is not supported by any quantitative data.
+  - **Why it matters** Allosteric network inference from simulations is highly sensitive to analysis choices. Without details on network construction, edge weighting, and significance testing, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide a description of the network analysis methodology, including correlation metrics, community detection, and statistical validation. Show that the identified communication pathways are robust across simulation replicates and parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "in the Glu169Δ and Lys170Δ TPP1 variants, responsible for HHS, the plasticity of the TEL-patch region is reduced"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative measure of plasticity is defined, and no comparison between wild-type and variant simulations is shown. The abstract does not report error bars, statistical tests, or convergence assessments for the variant simulations.
+  - **Why it matters** The central biological conclusion depends on a reliable comparison between wild-type and variant systems. Without evidence of sampling convergence and statistical significance, the reduced plasticity claim is unsubstantiated.
+  - **Resolution test** Define the plasticity metric explicitly, report distributions for wild-type and variants, and provide statistical tests. Demonstrate that the simulations are converged and that the observed differences are not artifacts of insufficient sampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "our study provides an unprecedented structural basis for the design of TPP1-targeting ligands with therapeutic potential"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no structural details, binding site characterization, or ligand design rationale. The claim of therapeutic potential is speculative and not connected to any specific structural findings.
+  - **Why it matters** Overstating translational relevance without supporting data undermines the credibility of the work and misleads potential readers.
+  - **Resolution test** Either remove the therapeutic claim or provide specific structural features that could guide ligand design, such as identified binding pockets or druggable sites, with supporting data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "TEL-patch" is used without definition or context for readers unfamiliar with telomere biology.
+  - **Required correction** Define TEL-patch upon first use, for example as a conserved surface region on the OB-domain.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation length claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "microsecond-long molecular dynamics calculations" is vague. It is unclear how many independent simulations were performed, for how long, and for which systems.
+  - **Required correction** Specify the number of replicates, total simulation time per system, and whether the simulations were independent or continuous.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Disease link
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that Glu169Δ and Lys170Δ are "responsible for HHS" but does not cite or describe the experimental evidence for this assignment.
+  - **Required correction** Provide a reference or brief description of the clinical or functional evidence linking these variants to HHS.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of allosteric communication, variant-induced plasticity reduction, and therapeutic relevance are not supported by the abstract-level evidence. Methodological transparency and quantitative validation are required.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of network analysis to TPP1 is novel but the general approach is established. Scientific importance is high given the disease relevance, but the current evidence does not establish the significance of the findings. Interdisciplinary readership is plausible, but the abstract lacks sufficient context for nonspecialists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is limited by undefined jargon and lack of context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable study, but the absence of methodological and quantitative detail prevents any assessment of validity. A full manuscript with detailed methods, statistical validation, and careful interpretation would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim that long-range allosteric communication networks govern TEL-patch plasticity is unsupported without network analysis details.
+- The claim that Glu169Δ and Lys170Δ reduce TEL-patch plasticity is unsupported without quantitative plasticity measures and statistical comparison.
+- The claim of "unprecedented structural basis" for therapeutic design is unsupported and speculative.
+- The causal link between reduced TEL-patch plasticity and impaired telomere processivity is asserted but not demonstrated.
+- The clinical relevance to Hoyeraal-Hreidarsson syndrome is stated without supporting evidence or references.

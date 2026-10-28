@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report microsecond atomistic molecular dynamics simulations of full-length Pseudomonas aeruginosa ExsA bound to DNA and of the N-terminal DNA-binding domain. They propose that the C-terminal regulatory domain and N-terminal domain interact, that a lipid-binding pocket exists in the β-sheet bundle, that two novel druggable pockets are present at the NTD/CTD interface, and that a single helix-turn-helix motif drives DNA recognition and stabilizes the putative ligand-binding domain.
+- **Visible evidence base** Abstract text only
+- **Missing materials affecting confidence** Full manuscript, methods, simulation parameters, force fields, convergence criteria, structural coordinates, pocket prediction details, geometry analysis definitions, figures, tables, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with potential relevance to structure-based drug discovery against a clinically important virulence regulator. However, the evidence base available for review is limited to the abstract, which prevents verification of the methodological rigor, the validity of the simulation outcomes, and the strength of the structural claims. The central conclusion that a single helix-turn-helix motif drives DNA recognition and stabilizes the ligand-binding domain is intriguing but is not substantiated by the material provided.
+- **Who would be interested in the results, and why** Researchers in bacterial pathogenesis, type III secretion systems, transcriptional regulation, and computational drug discovery would be interested. The identification of novel druggable pockets in a virulence regulator could inform future therapeutic development against Pseudomonas aeruginosa infections.
+- **Major strengths** The study addresses an important and underexplored target, ExsA, for which no drugs exist. The use of microsecond atomistic MD simulations to capture conformational dynamics of a full-length transcriptional regulator bound to DNA is technically ambitious and potentially informative. The identification of putative druggable pockets at a protein interface is a practical contribution to structure-based drug design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that microsecond atomistic MD simulations reveal how the CTD and NTD interact and that a single helix-turn-helix motif drives DNA recognition and stabilizes the putative ligand-binding domain.
+  - **Evidence pointer** Abstract only; methods and simulation details not provided
+  - **Concern** The abstract provides no information on simulation setup, force field selection, system size, equilibration protocol, replication, or convergence assessment. Without these details, the reliability of the MD trajectories and the derived conformational conclusions cannot be evaluated. The claim that a single helix-turn-helix motif is sufficient for DNA recognition and domain stabilization is a strong mechanistic statement that requires mutational or free-energy validation, none of which is described.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and sampling quality. Overinterpretation of a single motif's functional role without experimental or enhanced-sampling support risks misleading the field. The central mechanistic claim is not established from the provided evidence.
+  - **Resolution test** Provide full methods including force field, water model, ion conditions, simulation length per replica, number of replicas, RMSD convergence plots, and free-energy calculations or mutational analysis to support the functional role of the helix-turn-helix motif.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims identification of a lipid-binding pocket in the β-sheet bundle and two novel druggable pockets at the NTD/CTD interface.
+  - **Evidence pointer** Abstract only; pocket prediction methodology and validation not provided
+  - **Concern** The pocket predictions are presented as definitive findings, but no details are given on the algorithms used, the criteria for pocket selection, the stability of the pockets across the trajectories, or any druggability assessment beyond geometry. The term "druggable" implies a level of validation that is not described.
+  - **Why it matters** Pocket prediction from MD trajectories can produce false positives, especially if the protein undergoes large conformational changes. Without evidence of pocket persistence and physicochemical suitability for ligand binding, the claim of druggability is premature and could misdirect future drug discovery efforts.
+  - **Resolution test** Describe the pocket detection method, report pocket occupancy and volume stability over time, and provide a druggability score or comparison with known druggable pockets. If possible, include a positive control or experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that no drugs targeting ExsA are available and that only static structural models of the protein have been generated.
+  - **Evidence pointer** Abstract only; literature context not provided
+  - **Concern** The novelty of the work is framed against a claim of limited prior structural and pharmacological data on ExsA. However, the abstract does not cite or summarize existing structural studies, and it is unclear whether the full-length dynamic behavior has been previously explored. The claim of novelty cannot be assessed without a literature comparison.
+  - **Why it matters** The scientific importance of the study depends on whether it fills a genuine gap. If prior work has already addressed ExsA dynamics or pocket identification, the contribution is incremental. The abstract does not allow this assessment.
+  - **Resolution test** Provide a brief literature review in the manuscript that explicitly compares prior ExsA structural and computational studies with the current work, highlighting what is genuinely new.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "putative ligand-binding domain" and "helix-turn-helix motif" without defining their functional significance for a general reader. The relationship between the NTD/CTD interface pockets and the proposed ligand-binding domain is not clearly explained.
+  - **Required correction** Briefly define the helix-turn-helix motif and clarify whether the putative ligand-binding domain is the CTD or a distinct region. State explicitly how the identified pockets relate to the proposed functional domain.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions simulations of full-length ExsA bound to DNA and of the NTD alone, but it does not state whether the CTD alone or an apo full-length form was simulated. This omission makes it difficult to interpret the domain interaction claims.
+  - **Required correction** Specify all simulated systems and their ligand or DNA binding states in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Drug discovery relevance
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract claims the pockets "could be used in future structure-based drug discovery campaigns" but does not indicate whether any ligand screening or binding-site validation was performed.
+  - **Required correction** Clarify that the pockets are computational predictions only and state whether any preliminary screening or docking was conducted.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and druggability claims cannot be verified from the abstract alone. The absence of simulation details and pocket validation means the case is not currently established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The target and approach are of interest, but the abstract does not demonstrate a clear advance over prior ExsA structural work. The claim of a single helix-turn-helix motif driving both DNA recognition and domain stabilization is potentially original but unverified.  
+  - Scientific importance: The work addresses a clinically relevant virulence regulator, which is important, but the significance of the findings depends on validation that is not shown.  
+  - Interdisciplinary readership: The topic bridges microbiology, structural biology, and computational chemistry, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail prevents any judgment on the reliability of the simulations or pocket predictions.  
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with MD simulations and bacterial secretion systems. It does not explain the biological relevance of the helix-turn-helix motif or the ligand-binding domain clearly.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient methodological or validation detail to support the central claims. A full manuscript with complete methods, convergence analysis, and pocket validation would be required to assess the work fairly.
+
+## Risk / unsupported claims
+- The claim that a single helix-turn-helix motif drives DNA recognition and stabilizes the putative ligand-binding domain is unsupported without mutational or free-energy evidence.
+- The identification of a lipid-binding pocket and two druggable pockets is unverifiable without details on the prediction method and trajectory-based validation.
+- The statement that only static structural models of ExsA have been generated is unverifiable without a literature comparison.
+- The functional interaction between CTD and NTD is asserted but not demonstrated with quantitative data.

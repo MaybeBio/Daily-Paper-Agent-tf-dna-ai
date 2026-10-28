@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "42289463",
+    "doi": "10.1038/s41598-026-58347-8",
+    "title": "Uncovering core regulators of multi-abiotic stress adaptation in Arabidopsis thaliana through integrative meta-analysis and machine learning with RT-qPCR validation."
+  },
+  "content": {
+    "abstract": "Abiotic stresses such as drought and salinity impose substantial constraints on agricultural productivity, underscoring the need to decipher the core transcriptional programs that underlie plant resilience. Here, we performed an integrative meta-analysis of Arabidopsis thaliana transcriptomes exposed to drought, salt, and abscisic acid (ABA) treatments. The three stresses exhibited distinct transcriptional architectures: salt stress triggered the most extensive reprogramming (957 DEGs), dominated by pronounced induction of ERF transcription factors (32 genes); drought induced a moderate response (634 DEGs), with NAC (9 genes) and MYB (8 genes) families most represented; and ABA elicited the smallest transcriptional shift (608 DEGs), characterized primarily by ERF and NAC regulators (9 genes each). From the shared stress-responsive gene set, a consensus machine learning framework integrating XGBoost, Random Forest, and AdaBoost identified eight high-confidence predictive biomarkers. To focus on novel discoveries, four candidates with less-established roles in stress signaling-At5g50360, At1g73480, At3g46230, and At1g16850-were prioritized for experimental validation. RT-qPCR analysis confirmed their robust induction under osmotic stress, while the weaker responses of At3g46230 and At1g16850 to exogenous ABA reflected their distinct cis-regulatory architectures, indicating activation through ABA-independent or combinatorial pathways. To link these hub genes to upstream regulation, Pearson correlation analysis across all biological replicates revealed strong positive correlations with ten commonly upregulated TFs (r = 0.67-0.90) and consistent negative correlations with a downregulated repressor (At5g28770, r = - 0.47 to - 0.74), consistent with both activation and de-repression mechanisms. Protein-protein interaction networks further positioned these genes within key stress-related modules, including ABA signaling, lipid metabolism, chaperone networks, and osmotic stress adaptation. Collectively, the integration of large-scale transcriptomic meta-analysis, ensemble machine learning, co-expression analysis, interaction network modeling, and experimental validation defines a conserved abiotic stress-responsive transcriptional signature and prioritizes candidate regulators for future functional characterization in plant stress biology.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "Abiotic stress",
+      "Machine learning",
+      "RT-qPCR"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/physiology",
+      "*Machine Learning",
+      "*Stress, Physiological/genetics",
+      "Gene Expression Regulation, Plant",
+      "Arabidopsis Proteins/genetics/metabolism",
+      "*Adaptation, Physiological/genetics",
+      "Abscisic Acid/pharmacology",
+      "Transcription Factors/genetics/metabolism",
+      "Droughts",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "Real-Time Polymerase Chain Reaction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mehdizadeh Hakkak, Maryam",
+        "Tohidfar, Masoud"
+      ],
+      "short_names": [
+        "Mehdizadeh Hakkak M",
+        "Tohidfar M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran.",
+        "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran. m_tohidfar@sbu.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mehdizadeh Hakkak, Maryam",
+        "short_name": "Mehdizadeh Hakkak M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Tohidfar, Masoud",
+        "short_name": "Tohidfar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran. m_tohidfar@sbu.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41862521",
+      "41155209",
+      "40927051",
+      "40833705",
+      "40652328",
+      "40439305",
+      "40404615",
+      "40392690",
+      "40219138",
+      "40065031",
+      "39849193",
+      "39826346",
+      "39079238",
+      "38705959",
+      "38584943",
+      "38256827",
+      "38221596",
+      "37990109",
+      "37740491",
+      "37712613",
+      "36647799",
+      "36589087",
+      "36525251",
+      "35666421",
+      "34815339",
+      "34439825",
+      "33802953",
+      "33726681",
+      "33436924",
+      "33280127",
+      "32695131",
+      "31896774",
+      "31882993",
+      "31261879",
+      "30044467",
+      "29232718",
+      "28857190",
+      "28217005",
+      "27924042",
+      "27242819",
+      "27162276",
+      "27095403",
+      "26932457",
+      "26276836",
+      "25104049",
+      "24868034",
+      "24803504",
+      "24773321",
+      "24676858",
+      "24676856",
+      "24235132",
+      "24009530",
+      "23558912",
+      "23399534",
+      "23378449",
+      "22829320",
+      "22519646",
+      "22404835",
+      "22257669",
+      "21620700",
+      "19924127",
+      "19906889",
+      "19901554",
+      "18849493",
+      "18835996",
+      "18261981",
+      "17999647",
+      "17905899",
+      "17888165",
+      "12925520",
+      "11846609",
+      "11752327",
+      "11208021"
+    ],
+    "similar": [
+      "42289463",
+      "41764430",
+      "41620995",
+      "42024294",
+      "33805821",
+      "28716048",
+      "42700232",
+      "39519116",
+      "25073793",
+      "27085597",
+      "22025559",
+      "26674968",
+      "30712230",
+      "39436424",
+      "24313737",
+      "25063324",
+      "42629436",
+      "34502511",
+      "40293551",
+      "42101208",
+      "27975189",
+      "38337133",
+      "33895677",
+      "41270873",
+      "32397956",
+      "40669157",
+      "22247272",
+      "30192796",
+      "39595960",
+      "23946351",
+      "19161942",
+      "41949801",
+      "27811239",
+      "41254527",
+      "23645342",
+      "33407148",
+      "23167462",
+      "26093896",
+      "42004709",
+      "34439825",
+      "23625358",
+      "25290154",
+      "42472482",
+      "29490615",
+      "27493213",
+      "26704641",
+      "28184867",
+      "24330668",
+      "25827016",
+      "30397148",
+      "40275192",
+      "24261563",
+      "27747895",
+      "41469497",
+      "32619295",
+      "23665901",
+      "30566447",
+      "24350984",
+      "42336289",
+      "25274312",
+      "31894456",
+      "42074544",
+      "25933420",
+      "36044943",
+      "24682461",
+      "41009797",
+      "41744312",
+      "38284474",
+      "42475469",
+      "25189341",
+      "32446917",
+      "40624271",
+      "24168327",
+      "23915077",
+      "23494614",
+      "20230648",
+      "24738645",
+      "25783413",
+      "42665831",
+      "30658512",
+      "33436924",
+      "24814155",
+      "20193749",
+      "40259236",
+      "32936726",
+      "28044345",
+      "31072449",
+      "31713664",
+      "40317365",
+      "40111517",
+      "27541276",
+      "41303435",
+      "33130909",
+      "21167067",
+      "41321083",
+      "22610487",
+      "42437400",
+      "23815736",
+      "22829319",
+      "42473451"
+    ],
+    "review": [
+      "42289463",
+      "41620995",
+      "38337133",
+      "30192796",
+      "34439825"
+    ],
+    "pmc": [
+      "13526860"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-58347-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42289463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

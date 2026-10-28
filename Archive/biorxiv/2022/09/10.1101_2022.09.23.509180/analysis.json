@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.23.509180",
+  "title": "Statistical learning quantifies transposable element-mediated cis-regulation",
+  "authors": "Pulver C; Grün D; Duc J; Sheppard S; Planet E; de Fondeville R; Pontis J; Trono D",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-23",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用统计学习从RNA-seq推断转座子嵌入的顺式调控元件对基因表达的影响，涉及TF结合预测，但核心是表达调控而非TF-DNA三维互作建模，方法为统计模型而非AI/物理模拟，故为中档相关。",
+  "abstract": "<h4>Background</h4> Transposable elements (TEs) have colonized the genomes of most metazoans, and many TE-embedded sequences function as cis-regulatory elements (CREs) for genes involved in a wide range of biological processes from early embryogenesis to innate immune responses. Because of their repetitive nature, TEs have the potential to form CRE platforms enabling the coordinated and genome-wide regulation of protein-coding genes by only a handful of trans-acting transcription factors (TFs). <h4>Results</h4> Here, we directly test this hypothesis through mathematical modeling and demonstrate that differences in expression at protein-coding genes alone are sufficient to estimate the magnitude and significance of TE-contributed cis-regulatory activities, even in contexts where TE-derived transcription fails to do so. We leverage hundreds of overexpression experiments and estimate that, overall, gene expression is influenced by TE-embedded CREs situated within approximately 200kb of promoters. Focusing on the cis-regulatory potential of TEs within the gene regulatory network of human embryonic stem cells, we find that pluripotency-specific and evolutionarily young TE subfamilies can be reactivated by TFs involved in post-implantation embryogenesis. Finally, we show that TE subfamilies can be split into truly regulatorily active versus inactive fractions based on additional information such as matched epigenomic data, observing that TF binding may better predict TE cis-regulatory activity than differences in histone marks. <h4>Conclusion</h4> Our results suggest that TE-embedded CREs contribute to gene regulation during and beyond gastrulation. On a methodological level, we provide a statistical tool that infers TE-dependent cis-regulation from RNA-seq data alone, thus facilitating the study of TEs in the next-generation sequencing era.",
+  "abstract_zh": "<h4>背景</h4> 转座元件（TEs）已定殖于大多数后生动物的基因组中，许多TE嵌入序列作为顺式调控元件（CREs）发挥作用，调控涉及从早期胚胎发生到先天免疫反应等广泛生物过程的基因。由于其重复性特征，TEs有潜力形成CRE平台，使得仅通过少数反式作用转录因子（TFs）即可实现蛋白质编码基因的协调和全基因组调控。<h4>结果</h4> 在此，我们通过数学建模直接检验了这一假设，并证明仅凭蛋白质编码基因表达差异即可估计TE贡献的顺式调控活性的幅度和显著性，即使在TE衍生转录无法实现此目的的情况下也是如此。我们利用数百次过表达实验，估计总体而言，基因表达受到位于启动子约200kb范围内的TE嵌入CREs的影响。聚焦于人类胚胎干细胞基因调控网络中TEs的顺式调控潜力，我们发现多能性特异性和进化上年轻的TE亚家族可被参与植入后胚胎发生的TFs重新激活。最后，我们表明，基于匹配的表观基因组数据等附加信息，TE亚家族可被分为真正具有调控活性和无活性的部分，并观察到TF结合可能比组蛋白标记差异更好地预测TE顺式调控活性。<h4>结论</h4> 我们的结果表明，TE嵌入CREs在原肠胚形成期间及之后对基因调控有所贡献。在方法论层面，我们提供了一个统计工具，仅从RNA-seq数据即可推断TE依赖的顺式调控，从而促进下一代测序时代对TEs的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.23.509180",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.23.509180",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.23.509180/index.html"
+}

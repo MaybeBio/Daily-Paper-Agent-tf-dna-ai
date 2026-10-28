@@ -1,0 +1,593 @@
+{
+  "identity": {
+    "pmid": "41684932",
+    "doi": "10.64898/2026.02.02.703046",
+    "title": "Selective Glucocorticoid Receptor Modulators of Immune Checkpoint Function."
+  },
+  "content": {
+    "abstract": "Glucocorticoids (GCs) coordinate immunity, inflammation, and metabolism through allosteric regulation of the glucocorticoid receptor (GR) transcription factor. GCs are indispensable anti-inflammatory drugs yet linking specific ligand-receptor structural states to specific biological outcomes has remained a major barrier to designing safer, more selective therapies. Using structure-based design, we developed selective glucocorticoid receptor modulators (SGRMs) of immune function by extending a steroidal scaffold from the ligand-binding pocket into an adjacent solvent channel. These SGRMs suppressed T cell pro-inflammatory cytokines and promoted differentiation of memory precursor T cells while showing minimal induction of M2 macrophage polarization or T cell checkpoint proteins PD-1 and CTLA-4, all key targets of immunotherapy. Molecular dynamics simulations revealed that solvent-channel substituents function as a lever arm to drive dynamic oscillations in the steroid core, thereby allosterically tuning GR activity states. Systematic perturbation of immune cells with a graded series of ligands enabled a ligand perturbation with machine learning (LPML) framework to map coregulated responses across cell types and identified effector T cell gene networks tightly coupled with immune checkpoint induction. This approach outlines a general strategy for decoding the logic of allosteric drug action, enabling the rational design of SGRMs with tailored immunomodulatory profiles.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kobylski, Robin R",
+        "Min, Charles K",
+        "Nwachukwu, Jerome C",
+        "Koenig, Marcel",
+        "Zhang, Haotian",
+        "Moncada, Lizbeth",
+        "Venables, Thomas T",
+        "Schell, Bin-Bin",
+        "Stein, William J",
+        "McCown, Claudia",
+        "Schumate, Justin",
+        "Bonilla, Emelie",
+        "Sobh, Amin",
+        "Romero-Toledo, Arantxa",
+        "Pipkin, Matthew E",
+        "Janiszewska, Michalina",
+        "Scampavia, Louis",
+        "Spicer, Timothy P",
+        "Licht, Jonathan D",
+        "Rogatsky, Inez",
+        "Kamenecka, Theodore M",
+        "Solt, Laura A",
+        "Nettles, Kendall W"
+      ],
+      "short_names": [
+        "Kobylski RR",
+        "Min CK",
+        "Nwachukwu JC",
+        "Koenig M",
+        "Zhang H",
+        "Moncada L",
+        "Venables TT",
+        "Schell BB",
+        "Stein WJ",
+        "McCown C",
+        "Schumate J",
+        "Bonilla E",
+        "Sobh A",
+        "Romero-Toledo A",
+        "Pipkin ME",
+        "Janiszewska M",
+        "Scampavia L",
+        "Spicer TP",
+        "Licht JD",
+        "Rogatsky I",
+        "Kamenecka TM",
+        "Solt LA",
+        "Nettles KW"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8820-2806",
+        "ORCID: 0000-0003-4313-9187",
+        "ORCID: 0000-0003-1755-2816",
+        "ORCID: 0000-0002-2299-0389",
+        "ORCID: 0000-0003-3013-1450",
+        "ORCID: 0000-0003-2988-5124",
+        "ORCID: 0000-0003-2799-9611",
+        "ORCID: 0009-0007-7698-4383",
+        "ORCID: 0000-0003-3635-8138",
+        "ORCID: 0000-0002-9688-0190",
+        "ORCID: 0000-0002-8592-5146",
+        "ORCID: 0000-0002-7734-0105",
+        "ORCID: 0000-0002-9080-4226",
+        "ORCID: 0000-0002-3942-1369",
+        "ORCID: 0000-0003-3514-5077",
+        "ORCID: 0000-0002-3077-0167",
+        "ORCID: 0000-0001-8807-0342",
+        "ORCID: 0000-0003-2917-7574"
+      ],
+      "affiliations": [
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA.",
+        "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA.",
+        "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA.",
+        "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA.",
+        "Van Andel Institute, Grand Rapids, MI, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA.",
+        "Van Andel Institute, Grand Rapids, MI, USA.",
+        "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA.",
+        "Graduate Program in Immunology and Microbial Pathogenesis, Weill Cornell Graduate School of Medical Sciences, New York, NY, USA.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, NY, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA.",
+        "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+        "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kobylski, Robin R",
+        "short_name": "Kobylski RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Min, Charles K",
+        "short_name": "Min CK",
+        "identifiers": [
+          "0009-0009-8820-2806"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nwachukwu, Jerome C",
+        "short_name": "Nwachukwu JC",
+        "identifiers": [
+          "0000-0003-4313-9187"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Koenig, Marcel",
+        "short_name": "Koenig M",
+        "identifiers": [
+          "0000-0003-1755-2816"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haotian",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Moncada, Lizbeth",
+        "short_name": "Moncada L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Venables, Thomas T",
+        "short_name": "Venables TT",
+        "identifiers": [
+          "0000-0002-2299-0389"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Schell, Bin-Bin",
+        "short_name": "Schell BB",
+        "identifiers": [
+          "0000-0003-3013-1450"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Stein, William J",
+        "short_name": "Stein WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "McCown, Claudia",
+        "short_name": "McCown C",
+        "identifiers": [
+          "0000-0003-2988-5124"
+        ],
+        "affiliations": [
+          "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schumate, Justin",
+        "short_name": "Schumate J",
+        "identifiers": [
+          "0000-0003-2799-9611"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Bonilla, Emelie",
+        "short_name": "Bonilla E",
+        "identifiers": [
+          "0009-0007-7698-4383"
+        ],
+        "affiliations": [
+          "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Sobh, Amin",
+        "short_name": "Sobh A",
+        "identifiers": [
+          "0000-0003-3635-8138"
+        ],
+        "affiliations": [
+          "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA.",
+          "Van Andel Institute, Grand Rapids, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Romero-Toledo, Arantxa",
+        "short_name": "Romero-Toledo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Pipkin, Matthew E",
+        "short_name": "Pipkin ME",
+        "identifiers": [
+          "0000-0002-9688-0190"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Janiszewska, Michalina",
+        "short_name": "Janiszewska M",
+        "identifiers": [
+          "0000-0002-8592-5146"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Scampavia, Louis",
+        "short_name": "Scampavia L",
+        "identifiers": [
+          "0000-0002-7734-0105"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Spicer, Timothy P",
+        "short_name": "Spicer TP",
+        "identifiers": [
+          "0000-0002-9080-4226"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Licht, Jonathan D",
+        "short_name": "Licht JD",
+        "identifiers": [
+          "0000-0002-3942-1369"
+        ],
+        "affiliations": [
+          "Division of Hematology/Oncology, University of Florida Health Cancer Center, Gainesville, FL, USA.",
+          "Van Andel Institute, Grand Rapids, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Rogatsky, Inez",
+        "short_name": "Rogatsky I",
+        "identifiers": [
+          "0000-0003-3514-5077"
+        ],
+        "affiliations": [
+          "Hospital for Special Surgery Research Institute, The David Rosenzweig Genomics Center, New York, NY, USA.",
+          "Graduate Program in Immunology and Microbial Pathogenesis, Weill Cornell Graduate School of Medical Sciences, New York, NY, USA.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kamenecka, Theodore M",
+        "short_name": "Kamenecka TM",
+        "identifiers": [
+          "0000-0002-3077-0167"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Solt, Laura A",
+        "short_name": "Solt LA",
+        "identifiers": [
+          "0000-0001-8807-0342"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA.",
+          "Department of Molecular Medicine, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Nettles, Kendall W",
+        "short_name": "Nettles KW",
+        "identifiers": [
+          "0000-0003-2917-7574"
+        ],
+        "affiliations": [
+          "Department of Immunology and Microbiology, The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology, Jupiter, FL, USA.",
+          "Skaggs Graduate School of Chemical and Biological Sciences, Scripps Research, La Jolla, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/13 06:32",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39714726",
+      "39424780",
+      "38467621",
+      "38429217",
+      "38057668",
+      "37820582",
+      "36752581",
+      "36596896",
+      "35325185",
+      "35212883",
+      "35198100",
+      "33510451",
+      "33397953",
+      "33149283",
+      "32937153",
+      "32868909",
+      "31537643",
+      "31227606",
+      "31113877",
+      "30333485",
+      "30073393",
+      "29669249",
+      "29198341",
+      "28569770",
+      "28288100",
+      "28053348",
+      "27919657",
+      "25506346",
+      "25188243",
+      "24771768",
+      "24111892",
+      "23524984",
+      "22653054",
+      "21546393",
+      "21499262",
+      "20200511",
+      "20096607",
+      "18344977",
+      "18160712",
+      "16199517",
+      "15709961",
+      "15265777",
+      "15044705",
+      "14617768",
+      "11748274",
+      "10920190"
+    ],
+    "similar": [
+      "41684932",
+      "35483323",
+      "21718312",
+      "41436831",
+      "17045197",
+      "33127380",
+      "33219395",
+      "31391291",
+      "25666906",
+      "33996408",
+      "27288728",
+      "30321666",
+      "30884490",
+      "37454592",
+      "38611825",
+      "15539428",
+      "26776223",
+      "42475469",
+      "31440237",
+      "41850767",
+      "23152771",
+      "29966221",
+      "32246174",
+      "41340286",
+      "36745138",
+      "17630119",
+      "34954109",
+      "31689103",
+      "42665792",
+      "40046051",
+      "30460461",
+      "41373561",
+      "23267834",
+      "36484727",
+      "28428441",
+      "39416199",
+      "29163463",
+      "29427627",
+      "29997111",
+      "40767153",
+      "42358824",
+      "39817774",
+      "30020783",
+      "24446728",
+      "30201977",
+      "41612481",
+      "12787894",
+      "31723031",
+      "28396564",
+      "17143692",
+      "35110698",
+      "17138619",
+      "24500711",
+      "17367809",
+      "41656832",
+      "25875480",
+      "40681374",
+      "16405259",
+      "34943949",
+      "24512031",
+      "17587493",
+      "33354501",
+      "40281554",
+      "28335888",
+      "40209952",
+      "16368528",
+      "42246097",
+      "35198100",
+      "38318841",
+      "37795090",
+      "25958032",
+      "30541848",
+      "25205742",
+      "21426128",
+      "35688558",
+      "42735200",
+      "18160712",
+      "31247261",
+      "34288827",
+      "11488985",
+      "22496903",
+      "23190711",
+      "34838956",
+      "42150704",
+      "25393397",
+      "34213830",
+      "40667210",
+      "17897077",
+      "41478845",
+      "33537094",
+      "37717739",
+      "29267302",
+      "33276107",
+      "34156843",
+      "35709653",
+      "42025778",
+      "26992368",
+      "40463087",
+      "21899328",
+      "22132201"
+    ],
+    "review": [
+      "41684932",
+      "17045197",
+      "33219395",
+      "33996408",
+      "27288728",
+      "30884490",
+      "37454592",
+      "26776223",
+      "31440237",
+      "41850767",
+      "29966221",
+      "36745138",
+      "17630119",
+      "23267834",
+      "40767153",
+      "30020783",
+      "17138619",
+      "40681374",
+      "16405259",
+      "34943949",
+      "17587493",
+      "33354501",
+      "40281554",
+      "28335888",
+      "16368528",
+      "35198100",
+      "25958032",
+      "25205742",
+      "21426128",
+      "42735200",
+      "11488985",
+      "34838956",
+      "34213830",
+      "41478845",
+      "37717739",
+      "29267302",
+      "33276107",
+      "42025778"
+    ],
+    "pmc": [
+      "12893056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41684932/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.02.703046",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, interpretation of results, and alignment with claims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The manuscript reports that the polyA/polyQ tract in the intrinsically disordered N-terminal region of the neuronal transcription factor Ascl1 acts as a conformational regulator. Using single-molecule FRET, the authors propose that this tract opposes compaction of the bHLH domain in the monomeric state, is remodeled upon heterodimerization with E12, promotes nonspecific DNA binding by the heterodimer, and drives aggregation in vitro, thereby limiting cellular abundance.
+- **Visible evidence base** smFRET efficiency histograms, fluorescence lifetime analysis, nsFCS measurements, binding isotherms, chemical denaturation profiles, turbidity measurements, AlphaFold3 predictions, and flow cytometry data in HEK293T cells, as described in the text and referenced figures.
+- **Missing materials affecting confidence** Actual figures and supplementary figures were not provided. Specific numerical values for some FRET efficiencies, reconfiguration times, and binding constants are reported in the text but the corresponding data plots, error analyses, and statistical details are not directly visible. Details on the number of independent replicates for key experiments are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in understanding how intrinsically disordered regions, particularly a polyA/polyQ tract, modulate the function of a pioneer transcription factor. The application of smFRET to a challenging, aggregation-prone protein is technically ambitious and appropriate. The central claims are largely supported by the described data, but several concerns regarding the interpretation of FRET changes, the quantitative analysis of binding, and the mechanistic link between conformational changes and aggregation require clarification. The study is potentially important for the fields of transcription factor biology and neurodegeneration, but the current evidence does not fully establish all mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, transcription factor dynamics, pioneer factor mechanisms, and the molecular basis of polyQ/polyA-mediated aggregation in neurodegenerative disease. The work also has relevance for those interested in the biophysical characterization of challenging protein systems using single-molecule methods.
+- **Major strengths** The use of smFRET to study a full-length, aggregation-prone transcription factor at picomolar concentrations is a notable technical achievement. The study provides a comprehensive view of conformational changes across multiple functional states (monomer, heterodimer, DNA-bound). The identification of a specific role for the polyA/polyQ tract in modulating both DNA binding and aggregation is a novel and interesting finding. The combination of biophysical and cellular experiments strengthens the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of FRET data
+  - **Claim pointer** The claim that the polyA/polyQ tract "opposes bHLH compaction" in the monomeric state is based on the observation that deletion of the tract increases FRET efficiency of the bHLH-labeled construct.
+  - **Evidence pointer** Results section, Figure 2A, location not provided
+  - **Concern** The interpretation that the increased FRET efficiency upon polyA/polyQ deletion directly reflects increased bHLH compaction assumes that the only effect of the deletion is on the bHLH domain conformation. However, the deletion could alter the local environment of the dyes, change the effective persistence length of the polypeptide, or affect interactions with other parts of the N-IDR in ways that are not directly related to bHLH compaction. The authors do not provide control experiments, such as measuring FRET in the isolated bHLH domain with and without the adjacent polyA/polyQ sequence, to rule out these alternative explanations.
+  - **Why it matters** The central mechanistic model of the paper relies on this specific interpretation. If the FRET change is due to other effects, the proposed role of the polyA/polyQ tract as a direct conformational antagonist of the bHLH domain is weakened.
+  - **Resolution test** Provide additional control experiments, such as FRET measurements on constructs where the polyA/polyQ tract is replaced by a different sequence of similar length and composition, or where the dyes are placed at different positions to confirm that the observed change is specific to bHLH compaction. Alternatively, use an orthogonal method like SAXS or NMR to validate the conformational change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis of binding
+  - **Claim pointer** The claim that the polyA/polyQ tract promotes nonspecific DNA binding is based on a seven-fold difference in Kd for nonspecific DNA between the wild-type heterodimer and the ΔAQ variant.
+  - **Evidence pointer** Results section, Figure 5E, location not provided
+  - **Concern** The Kd values are derived from fitting binding isotherms to the fraction of bound protein determined from FRET histograms. The text does not provide details on the error of these measurements, the number of replicates, or the goodness of fit. A seven-fold difference, while potentially significant, could be within the error of the method if the measurements are not highly reproducible. Furthermore, the mechanism by which the polyA/polyQ tract enhances nonspecific binding is not clear. The authors suggest it may increase the "capture radius," but this is speculative and not directly tested.
+  - **Why it matters** The functional significance of the polyA/polyQ tract in promoting nonspecific DNA engagement is a key finding. If the quantitative difference is not robust, the conclusion is not well-supported.
+  - **Resolution test** Provide a full statistical analysis of the Kd measurements, including the number of independent experiments, standard errors, and confidence intervals. Test the proposed mechanism by performing binding experiments with DNA of different lengths or by using a mutant where the polyA/polyQ tract is neutralized (e.g., substituted with a polar sequence) to see if the effect is due to its specific physicochemical properties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link to aggregation
+  - **Claim pointer** The claim that the polyA/polyQ tract "drives aggregation" is based on in vitro turbidity measurements and the observation that the ΔAQ variant is fully soluble.
+  - **Evidence pointer** Results section, Figure 3C, location not provided
+  - **Concern** The in vitro aggregation experiments are performed at picomolar to micromolar concentrations, which are far from physiological conditions. The relevance of this aggregation to the cellular context is not directly established. The cellular experiments show increased abundance of the ΔAQ variant, but this is attributed to reduced aggregation. However, increased abundance could also be due to increased protein stability or reduced degradation, which are not directly measured. The link between the in vitro aggregation propensity and the cellular abundance is therefore correlative.
+  - **Why it matters** The claim that the polyA/polyQ tract imposes a "cost in solubility and cellular abundance" is a major conclusion with implications for understanding Ascl1 regulation and its potential role in disease. A direct mechanistic link is not fully established.
+  - **Resolution test** Perform cellular experiments to directly measure protein half-life and degradation rates of WT and ΔAQ variants. Use a more physiologically relevant aggregation assay, such as a cellular model of protein aggregation, to confirm that the polyA/polyQ tract drives aggregation in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the polyA/polyQ tract "opposes bHLH compaction" and "promotes nonspecific DNA engagement." These are strong mechanistic statements. The results section provides evidence for these, but the language in the abstract could be slightly tempered to reflect the correlative nature of some of the findings, particularly regarding the mechanism of DNA binding promotion.
+  - **Required correction** Consider rephrasing to "is associated with" or "correlates with" for the DNA binding effect, or add a qualifier such as "suggesting a role in" to the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, "Analysis of transfer efficiency histograms", location not provided
+  - **Issue** The description of the global fitting of multiple histograms for binding affinity analysis is brief. It is not clear which parameters were shared across datasets and how the global fit was validated.
+  - **Required correction** Provide more detail on the global fitting procedure, including which parameters were constrained and how the goodness of fit was assessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of cellular data
+  - **Affected element** Results, "The polyA/polyQ tract drives aggregation and limits cellular abundance"
+  - **Evidence pointer** Results section, Figure 3F, location not provided
+  - **Issue** The flow cytometry data show increased abundance of the ΔAQ variant. The authors attribute this to reduced aggregation. However, the microscopy images (Figure 3E) show aggregation of both WT and ΔAQ upon proteasome inhibition. This seems contradictory and should be discussed more clearly.
+  - **Required correction** Clarify the relationship between the flow cytometry data (steady-state abundance) and the microscopy data (aggregation upon proteasome inhibition). Discuss whether the increased abundance of ΔAQ is due to reduced aggregation, increased stability, or other factors.
+- **Technical failings that need to be addressed before the case is established** The lack of detailed statistical analysis for key quantitative measurements (Kd values, FRET efficiencies) is a significant shortcoming. The interpretation of FRET changes as direct evidence for conformational compaction needs to be supported by control experiments. The link between in vitro aggregation and cellular abundance requires more direct experimental evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its application of smFRET to a full-length pioneer transcription factor and in its focus on the specific role of a polyA/polyQ tract. The finding that this tract modulates both DNA binding and aggregation is novel.
+  - **Scientific importance** The results are important for understanding the molecular function of Ascl1 and the general role of low-complexity IDRs in transcription factor regulation. The link to aggregation and cellular abundance has implications for neurodegenerative disease.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, structural biologists, and molecular biologists studying transcription. The potential disease relevance may broaden its appeal to neurobiologists.
+  - **Technical soundness** The technical approach is sound and well-suited to the problem. However, the lack of detailed statistical analysis and control experiments for some key interpretations is a concern.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The use of specialized terminology (e.g., smFRET, nsFCS) is explained, but the significance of the findings could be made clearer for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the current evidence does not fully establish all mechanistic claims. The authors should address the concerns regarding data interpretation, statistical rigor, and the link between in vitro and cellular observations.
+
+## Risk / unsupported claims
+- The claim that the polyA/polyQ tract "opposes bHLH compaction" is not fully supported without control experiments to rule out alternative explanations for the observed FRET changes.
+- The claim that the polyA/polyQ tract "promotes nonspecific DNA binding" is based on a single quantitative measurement (Kd) that lacks reported statistical rigor.
+- The claim that the polyA/polyQ tract "drives aggregation" and "limits cellular abundance" is supported by correlative data, but a direct mechanistic link between in vitro aggregation and cellular abundance is not established.
+- The functional significance of the increased dynamics in the N-IDR upon E12 binding is not fully explored or supported by functional assays.

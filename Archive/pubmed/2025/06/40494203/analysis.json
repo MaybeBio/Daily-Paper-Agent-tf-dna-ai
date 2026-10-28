@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40494203",
+  "title": "Machine learning algorithms integrate bulk and single-cell RNA data to reveal the crosstalk and heterogeneity of NOTCH and autophagy activity following idiopathic pulmonary fibrosis.",
+  "authors": "Lian, Zhichuang; Xu, Jingran; Maolahong, Sumanye; Ha, Yina; Hasimujiang, Maheliya; Maimaitiniyazi, Mailidan; Wu, Chao; Chen, Liping",
+  "journal": "International immunopharmacology",
+  "published_date": "2025-06-11",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习整合bulk和单细胞RNA数据研究IPF中NOTCH与自噬通路串扰，核心是通路活性与疾病基因预测，无蛋白质-DNA互作体系或结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: NOTCH and autophagy significantly impact the pathogenesis of idiopathic pulmonary fibrosis (IPF); however, studies exploring their heterogeneity and potential correlation at the single-cell level are still lacking. Identifying the feature genes that are commonly regulated by both NOTCH and autophagy could significantly increase our understanding of IPF. METHODS: We used single-cell RNA sequencing (scRNA-seq) to investigate the heterogeneity of NOTCH and autophagy activity across various cell types following IPF, with the aim of obtaining comprehensive biological insights into IPF. We utilized the AUCell, Ucell, singscore, ssGSEA, and AddModuleScore algorithms to identify common positively and negatively regulated NOTCH and autophagy activities at the IPF cellular level. Furthermore, we employed six machine learning algorithms, eXtreme Gradient Boosting, Boruta, random forest, least absolute shrinkage and selection operator, GBM, and SVM-RFE, to identify the optimal feature genes related to IPF at the BulkRNA-seq level. We further leveraged CellChat and pseudotime analysis to delve into the potential biological regulatory mechanisms of the characteristic genes.We further performed protein-level validation of key NOTCH and autophagy markers using Western blotting to confirm the consistency between transcriptomic predictions and pathway activation. RESULTS: For the first time, at the cellular level, we showed that NOTCH and autophagy activities exhibit heterogeneity across different cell layers following IPF. However, their activities are remarkably consistent; they are highly active in macrophages, fibroblasts, monocytes, and lymphatic endothelial cells, whereas they display lower activity in NK, T, and plasma cells. These findings indicate a correlation between these two pathways in IPF. Consequently, we defined a set of genes that coregulate both pathways at the IPF level. Using various machine learning algorithms, we further identified key predictive genes for IPF, namely, IGFBP7, PPIC, and RUNX1.Western blot assays confirmed that the protein expression of NOTCH1, HEY1, HES1, Beclin1, and P62 followed the same activation trends inferred from transcriptomic analysis. CONCLUSIONS: In IPF, IGFBP7, PPIC, and RUNX1 might simultaneously upregulate NOTCH and autophagy activities in fibroblasts and lymphatic endothelial cells and further contribute to IPF progression.",
+  "abstract_zh": "背景：NOTCH与自噬显著影响特发性肺纤维化（IPF）的发病机制；然而，在单细胞水平上探讨其异质性及潜在相关性的研究仍缺乏。识别由NOTCH和自噬共同调控的特征基因，可显著增进我们对IPF的理解。方法：我们使用单细胞RNA测序（scRNA-seq）研究IPF后不同细胞类型中NOTCH和自噬活性的异质性，旨在获得对IPF的全面生物学见解。我们利用AUCell、Ucell、singscore、ssGSEA和AddModuleScore算法，在IPF细胞水平上识别共同正向和负向调控的NOTCH与自噬活性。此外，我们采用六种机器学习算法，即eXtreme Gradient Boosting、Boruta、随机森林、最小绝对收缩和选择算子、GBM和SVM-RFE，在BulkRNA-seq水平上识别与IPF相关的最优特征基因。我们进一步利用CellChat和伪时间分析，深入探讨特征基因的潜在生物学调控机制。我们通过Western blotting对关键NOTCH和自噬标志物进行蛋白质水平验证，以确认转录组预测与通路激活之间的一致性。结果：我们首次在细胞水平上表明，IPF后NOTCH和自噬活性在不同细胞层中表现出异质性。然而，它们的活性高度一致；在巨噬细胞、成纤维细胞、单核细胞和淋巴内皮细胞中高度活跃，而在NK、T和浆细胞中活性较低。这些发现表明这两种通路在IPF中存在相关性。因此，我们定义了一组在IPF水平上共同调控两条通路的基因。利用多种机器学习算法，我们进一步识别了IPF的关键预测基因，即IGFBP7、PPIC和RUNX1。Western blot实验证实，NOTCH1、HEY1、HES1、Beclin1和P62的蛋白表达遵循转录组分析推断的相同激活趋势。结论：在IPF中，IGFBP7、PPIC和RUNX1可能同时上调成纤维细胞和淋巴内皮细胞中的NOTCH与自噬活性，并进一步促进IPF进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40494203/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40494203/",
+  "paper_page_path": "papers/pubmed/40494203/index.html"
+}

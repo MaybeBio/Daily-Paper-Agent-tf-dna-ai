@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that enhancer clusters associated with Pierre Robin sequence mutations regulate SOX9 expression over distances exceeding 1.25 megabases. Using ORCA imaging, they observe cell-type dependent changes in locus topology that arise from altered frequencies of shared conformations rather than unique structures. They identify two CTCF-bound elements within the SOX9 TAD that are centrally positioned in 3D space and mediate enhancer-promoter contacts through chromatin loops. Ablation of these elements reduces SOX9 expression and alters domain-wide contacts. Polymer models with uniform cohesin loading and frequent collisions recapitulate the observed multiloop geometry.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details were supplied
+- **Missing materials affecting confidence** All primary data, imaging analyses, quantification methods, ablation experiments, and simulation details are absent. The abstract alone cannot support quantitative or mechanistic claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important advance in understanding ultralong-range gene regulation at a disease locus, with a compelling combination of imaging, genetic perturbation, and polymer modeling. However, the evidence base provided is insufficient to evaluate the validity of the central claims. The distinction between ensemble-average and single-fiber analyses is conceptually interesting, but without access to the underlying data, the robustness of this conclusion cannot be assessed. The identification of CTCF-bound structural elements and their proposed role in bridging enhancer-promoter contacts is mechanistically plausible, yet the abstract does not provide enough detail to determine whether the evidence supports the multiloop model over alternative explanations.
+- **Who would be interested in the results, and why** Researchers in 3D genome architecture, gene regulation, developmental biology, and genomic medicine would find these results relevant. The work addresses a fundamental question about how enhancers act over megabase distances, which is of broad interest to those studying chromatin organization and its role in disease. The combination of super-resolution imaging with polymer modeling may also appeal to computational biologists and biophysicists working on genome folding.
+- **Major strengths** The study tackles a biologically and clinically significant question, namely how disease-associated enhancers regulate SOX9 over extreme genomic distances. The use of ORCA imaging to trace single chromatin fibers is technically sophisticated and offers a level of resolution that ensemble methods cannot provide. The integration of experimental perturbation with polymer simulations is a strong approach for testing mechanistic models. The observation that cell-type differences reflect altered frequencies of shared topologies rather than unique conformations is a nuanced and potentially important insight.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that ablation of the two CTCF-bound elements results in diminished SOX9 expression and altered domain-wide contacts.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract states that ablation of these elements reduces SOX9 expression and changes domain-wide contacts, but no quantitative data, effect sizes, or statistical significance are reported. It is unclear whether the observed changes are modest or substantial, and whether they are specific to the proposed mechanism.  
+  - **Why it matters** This is a central functional claim that links the structural elements to gene regulation. Without quantitative evidence, the reader cannot judge whether the effect is biologically meaningful or whether it could arise from indirect or off-target effects.  
+  - **Resolution test** Provide the magnitude of SOX9 expression change, the number of biological replicates, statistical tests used, and a demonstration that domain-wide contact changes are specific to the ablated elements rather than a general disruption of TAD architecture.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** The authors claim that polymer models with uniform loading and frequent cohesin collisions recapitulate the multiloop, centrally clustered geometry.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not describe how the polymer models were parameterized, what experimental data were used to constrain them, or how the fit to the observed topology was quantified. Without this information, it is impossible to assess whether the model is uniquely supported or whether alternative models could equally explain the data.  
+  - **Why it matters** The modeling is presented as a key mechanistic insight. If the model is not rigorously validated against the imaging data, the conclusion that this specific mechanism operates at the SOX9 locus is not established.  
+  - **Resolution test** Describe the model parameters, the fitting procedure, and provide quantitative comparisons between simulated and experimental contact frequencies or distance distributions. Show that alternative models, such as loop extrusion without central clustering, fail to reproduce the data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretation of single-fiber data  
+  - **Claim pointer** The authors claim that cell-type differences in locus topology arise from changes in frequency of commonly sampled topologies rather than cell-type unique conformations.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not specify how many single fibers were traced per cell type, how the conformations were classified, or what statistical framework was used to distinguish between shared and unique topologies. The claim is central to the paper's conceptual contribution, but the evidence is not described.  
+  - **Why it matters** If the classification of conformations is subjective or underpowered, the conclusion that cell types share the same structural repertoire could be an artifact of limited sampling.  
+  - **Resolution test** Provide the number of fibers analyzed, the criteria for defining distinct conformations, and a statistical test demonstrating that the same set of topologies is sampled in both cell types with different frequencies.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of structural elements  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract refers to two CTCF-bound elements but does not specify their genomic coordinates, sizes, or how they were identified.  
+  - **Required correction** Provide genomic locations and a brief description of the identification criteria, such as CTCF ChIP-seq peaks or conserved sequence features.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of the term stripe formation  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The term stripe formation is used without definition or context. It is unclear whether this refers to a specific contact pattern in Hi-C maps or a feature observed in imaging data.  
+  - **Required correction** Define the term and indicate the data type in which stripes are observed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Claim of ultralong-range regulation  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract states that regulation occurs over 1.25 megabases, but it is unclear whether this is a single distance or a range, and whether the mechanism is proposed to be general or specific to this locus.  
+  - **Required correction** Clarify the exact distances involved and state whether the authors propose this mechanism as a general principle or a locus-specific solution.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The functional consequence of element ablation, the validity of the polymer model, and the interpretation of single-fiber data are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of single-fiber imaging with polymer modeling to address ultralong-range regulation is conceptually novel and goes beyond standard Hi-C-based descriptions.  
+  - Scientific importance: The SOX9 locus is a well-studied disease-associated region, and understanding how enhancers act over megabase distances has broad implications for gene regulation and genomic medicine.  
+  - Interdisciplinary readership: The work bridges chromatin biology, imaging, and computational modeling, which should appeal to a wide audience.  
+  - Technical soundness: Cannot be evaluated from the abstract. The imaging, perturbation, and modeling approaches are described only superficially, and no validation or controls are presented.  
+  - Readability for nonspecialists: The abstract is concise and largely accessible, though terms such as stripe formation and multiloop geometry may require additional context for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the technical approach is ambitious, but the abstract does not provide sufficient detail to assess the validity of the central claims. A full review of the manuscript with figures and methods would be required to determine whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that ablation of CTCF-bound elements reduces SOX9 expression is unsupported without quantitative data.
+- The claim that polymer models recapitulate the observed topology is unsupported without model details and fit statistics.
+- The claim that cell-type differences arise from altered frequencies of shared topologies is unsupported without details on fiber classification and statistical analysis.
+- The mechanistic proposal that structural elements bridge enhancer-promoter contacts in a series of chromatin loops is plausible but not directly evidenced in the abstract.

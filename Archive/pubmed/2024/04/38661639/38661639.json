@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38661639",
+    "doi": "10.1111/aji.13847",
+    "title": "Validation of mitochondrial biomarkers and immune dynamics in polycystic ovary syndrome."
+  },
+  "content": {
+    "abstract": "PROBLEM: Polycystic ovary syndrome (PCOS), a prevalent endocrine-metabolic disorder, presents considerable therapeutic challenges due to its complex and elusive pathophysiology. METHOD OF STUDY: We employed three machine learning algorithms to identify potential biomarkers within a training dataset, comprising GSE138518, GSE155489, and GSE193123. The diagnostic accuracy of these biomarkers was rigorously evaluated using a validation dataset using area under the curve (AUC) metrics. Further validation in clinical samples was conducted using PCR and immunofluorescence techniques. Additionally, we investigate the complex interplay among immune cells in PCOS using CIBERSORT to uncover the relationships between the identified biomarkers and various immune cell types. RESULTS: Our analysis identified ACSS2, LPIN1, and NR4A1 as key mitochondria-related biomarkers associated with PCOS. A notable difference was observed in the immune microenvironment between PCOS patients and healthy controls. In particular, LPIN1 exhibited a positive correlation with resting mast cells, whereas NR4A1 demonstrated a negative correlation with monocytes in PCOS patients. CONCLUSION: ACSS2, LPIN1, and NR4A1 emerge as PCOS-related diagnostic biomarkers and potential intervention targets, opening new avenues for the diagnosis and management of PCOS.",
+    "keywords": [
+      "biomarkers",
+      "granulosa cell",
+      "machine learning",
+      "monocytes",
+      "polycystic ovary syndrome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Polycystic Ovary Syndrome/immunology/metabolism",
+      "Female",
+      "*Biomarkers/metabolism",
+      "*Mitochondria/metabolism",
+      "Machine Learning",
+      "Adult",
+      "Mast Cells/immunology/metabolism",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Hui-Hui",
+        "Zhang, Yang-Yang",
+        "Wang, Xuan-Yu",
+        "Li, Meng-Ying",
+        "Liu, Zhen-Xing",
+        "Wang, Ying",
+        "Ye, Jiang-Feng",
+        "Wu, Hui-Hua",
+        "Li, Ming-Qing"
+      ],
+      "short_names": [
+        "Shen HH",
+        "Zhang YY",
+        "Wang XY",
+        "Li MY",
+        "Liu ZX",
+        "Wang Y",
+        "Ye JF",
+        "Wu HH",
+        "Li MQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9276-0722"
+      ],
+      "affiliations": [
+        "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Laboratory for Reproductive Immunology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Shanghai Medical College, Fudan University, Shanghai, People's Republic of China.",
+        "College of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, People's Republic of China.",
+        "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Center of Reproduction and Genetics, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, People's Republic of China.",
+        "Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Qilu Hospital, Shandong University, Ji'nan, Shandong, People's Republic of China.",
+        "Institute for Molecular and Cell Biology, Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Center of Reproduction and Genetics, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, People's Republic of China.",
+        "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Laboratory for Reproductive Immunology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+        "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Hui-Hui",
+        "short_name": "Shen HH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+          "Laboratory for Reproductive Immunology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang-Yang",
+        "short_name": "Zhang YY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+          "Shanghai Medical College, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuan-Yu",
+        "short_name": "Wang XY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng-Ying",
+        "short_name": "Li MY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhen-Xing",
+        "short_name": "Liu ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Reproduction and Genetics, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Qilu Hospital, Shandong University, Ji'nan, Shandong, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jiang-Feng",
+        "short_name": "Ye JF",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Molecular and Cell Biology, Agency for Science, Technology and Research, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Wu, Hui-Hua",
+        "short_name": "Wu HH",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Reproduction and Genetics, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming-Qing",
+        "short_name": "Li MQ",
+        "identifiers": [
+          "0000-0002-9276-0722"
+        ],
+        "affiliations": [
+          "Institute of Obstetrics and Gynecology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+          "Laboratory for Reproductive Immunology, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China.",
+          "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Hospital of Obstetrics and Gynecology, Fudan University, Shanghai, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of reproductive immunology (New York, N.Y. : 1989)"
+    ],
+    "journal_abbrev": [
+      "Am J Reprod Immunol"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/25 12:50",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "40549330",
+      "39754246"
+    ],
+    "refs": [],
+    "similar": [
+      "38661639",
+      "35794640",
+      "39754246",
+      "39396400",
+      "40884580",
+      "39421991",
+      "41595448",
+      "41006883",
+      "41214666",
+      "40099263",
+      "41501917",
+      "39043888",
+      "40813744",
+      "39826031",
+      "35904610",
+      "42010639",
+      "41019094",
+      "40481029",
+      "39981695",
+      "39048886",
+      "41496105",
+      "37883387",
+      "40446578",
+      "40070254",
+      "41566537",
+      "39585802",
+      "38390208",
+      "36931262",
+      "39143634",
+      "41847139",
+      "37745699",
+      "34080962",
+      "41978723",
+      "42208847",
+      "40861442",
+      "39107365",
+      "39608739",
+      "40287692",
+      "40810622",
+      "41121229",
+      "38955938",
+      "41192647",
+      "30092830",
+      "41088367",
+      "39016329",
+      "34149613",
+      "41134103",
+      "36523600",
+      "34211435",
+      "41747841",
+      "38978626",
+      "39153978",
+      "40781325",
+      "39875693",
+      "37226082",
+      "37385616",
+      "32222648",
+      "40389976",
+      "41299509",
+      "30932905",
+      "40420300",
+      "39566253",
+      "41225634",
+      "40186314",
+      "41214786",
+      "39872943",
+      "40185328",
+      "39051051",
+      "32884937",
+      "40880058",
+      "41013727",
+      "39470566",
+      "41949882",
+      "41725222",
+      "39717045",
+      "40640941",
+      "40715316",
+      "35227296",
+      "31758934",
+      "39399434",
+      "39850475",
+      "40119083",
+      "41079183",
+      "39202579",
+      "34752415",
+      "41490440",
+      "41114485",
+      "40860051",
+      "39775242",
+      "39647252",
+      "34161185",
+      "17205306",
+      "34524677",
+      "41091548",
+      "25622783",
+      "41437396",
+      "29664055",
+      "39538292",
+      "42064078",
+      "39916834"
+    ],
+    "review": [
+      "38661639",
+      "34161185"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://www.ovid.com/38661639.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/aji.13847",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

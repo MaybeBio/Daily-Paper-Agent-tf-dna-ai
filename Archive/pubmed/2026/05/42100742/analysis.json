@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42100742",
+  "title": "Predicting protein-nucleic acid interactions via protein language models with biophysical and evolutionary priors.",
+  "authors": "Su, Zidong; Zhang, Xiaochun; Tian, Boxue",
+  "journal": "iScience",
+  "published_date": "2026-05-08",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出PNABPred多模态框架，融合蛋白语言模型与生物物理、进化先验预测蛋白-核酸互作及DNA结合位点，虽非聚焦TF-DNA特异性机制，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Protein interactions with nucleic acids are fundamental to numerous biological processes. Here, we present PNABPred, a multi-modal framework that integrates biophysical and evolutionary priors into a protein language model to predict protein-nucleic acid interactions. Specifically, semantic representations are combined with classical evolutionary representations and biophysical representations. Our results showed that PNABPred outperforms other state-of-the-art sequence-based methods. In RNA-binding protein classification tasks, PNABPred achieved an Matthews correlation coefficient (MCC) of 0.889 and area under the receiver operating characteristic curve (AUROC) of 0.990, 17.44% and 3.23% higher than the next best method (Seq-RBPPred), respectively. In DNA-binding site prediction, PNABPred also outperformed the transformer-based method CLAPE-DB by 20.31% and 4.65% (MCC 0.468; AUROC 0.922) on the Test_129 dataset. PNABPred employs only protein sequences as inputs, identifying nucleic acid binding sites even in intrinsically disordered regions. This framework supports scalable sequence screening and annotation of nucleic acid-binding proteins for basic research, biotechnology, and therapeutic development applications.",
+  "abstract_zh": "蛋白质与核酸的相互作用是众多生物过程的基础。在此，我们介绍了PNABPred，一个多模态框架，它将生物物理和进化先验信息整合到蛋白质语言模型中，以预测蛋白质-核酸相互作用。具体而言，语义表示与经典进化表示及生物物理表示相结合。我们的结果表明，PNABPred优于其他最先进的基于序列的方法。在RNA结合蛋白分类任务中，PNABPred达到了马修斯相关系数（MCC）0.889和接收者操作特征曲线下面积（AUROC）0.990，分别比次优方法（Seq-RBPPred）高出17.44%和3.23%。在DNA结合位点预测中，PNABPred在Test_129数据集上也优于基于变换器的方法CLAPE-DB，分别高出20.31%和4.65%（MCC 0.468；AUROC 0.922）。PNABPred仅使用蛋白质序列作为输入，即使在 intrinsically disordered regions（内在无序区域）中也能识别核酸结合位点。该框架支持可扩展的序列筛选和核酸结合蛋白的注释，适用于基础研究、生物技术和治疗开发应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42100742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42100742/",
+  "paper_page_path": "papers/pubmed/42100742/index.html"
+}

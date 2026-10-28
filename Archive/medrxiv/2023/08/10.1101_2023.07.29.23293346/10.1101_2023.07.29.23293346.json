@@ -1,0 +1,158 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.07.29.23293346",
+  "title": "Graphical Learning and Causal Inference for Drug Repurposing",
+  "doi": "10.1101/2023.07.29.23293346",
+  "abstract": "Gene expression profiles that connect drug perturbations, disease gene expression signatures, and clinical data are important for discovering potential drug repurposing indications. However, the current approach to gene expression reversal has several limitations. First, most methods focus on validating the reversal expression of individual genes. Second, there is a lack of causal approaches for identifying drug repurposing candidates. Third, few methods for passing and summarizing information on a graph have been used for drug repurposing analysis, with classical network propagation and gene set enrichment analysis being the most common. Fourth, there is a lack of graph-valued association analysis, with current approaches using real-valued association analysis one gene at a time to reverse abnormal gene expressions to normal gene expressions. To overcome these limitations, we propose a novel causal inference and graph neural network (GNN)-based framework for identifying drug repurposing candidates. We formulated a causal network as a continuous constrained optimization problem and developed a new algorithm for reconstructing large-scale causal networks of up to 1,000 nodes. We conducted large-scale simulations that demonstrated good false positive and false negative rates. To aggregate and summarize information on both nodes and structure from the spatial domain of the causal network, we used directed acyclic graph neural networks (DAGNN). We also developed a new method for graph regression in which both dependent and independent variables are graphs. We used graph regression to measure the degree to which drugs reverse altered gene expressions of disease to normal levels and to select potential drug repurposing candidates. To illustrate the application of our proposed methods for drug repurposing, we applied them to phase I and II L1000 connectivity map perturbational profiles from the Broad Institute LINCS, which consist of gene-expression profiles for thousands of perturbagens at a variety of time points, doses, and cell lines, as well as disease gene expression data under-expressed and over-expressed in response to SARS-CoV-2.",
+  "authors": [
+    "Xu T",
+    "Zhao J",
+    "Xiong M"
+  ],
+  "published_date": "2023-08-02",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.07.29.23293346",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.07.29.23293346.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR702010",
+    "raw_record": {
+      "id": "PPR702010",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR702010"
+        ]
+      },
+      "doi": "10.1101/2023.07.29.23293346",
+      "title": "Graphical Learning and Causal Inference for Drug Repurposing",
+      "authorString": "Xu T, Zhao J, Xiong M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Xu T",
+            "lastName": "Xu",
+            "firstName": "Tao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology, University of Florida, Gainesville, FL 32611, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao J",
+            "lastName": "Zhao",
+            "firstName": "Jinying",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology, University of Florida, Gainesville, FL 32611, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xiong M",
+            "lastName": "Xiong",
+            "firstName": "Momiao",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biostatistics and Data Science, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Gene expression profiles that connect drug perturbations, disease gene expression signatures, and clinical data are important for discovering potential drug repurposing indications. However, the current approach to gene expression reversal has several limitations. First, most methods focus on validating the reversal expression of individual genes. Second, there is a lack of causal approaches for identifying drug repurposing candidates. Third, few methods for passing and summarizing information on a graph have been used for drug repurposing analysis, with classical network propagation and gene set enrichment analysis being the most common. Fourth, there is a lack of graph-valued association analysis, with current approaches using real-valued association analysis one gene at a time to reverse abnormal gene expressions to normal gene expressions. To overcome these limitations, we propose a novel causal inference and graph neural network (GNN)-based framework for identifying drug repurposing candidates. We formulated a causal network as a continuous constrained optimization problem and developed a new algorithm for reconstructing large-scale causal networks of up to 1,000 nodes. We conducted large-scale simulations that demonstrated good false positive and false negative rates. To aggregate and summarize information on both nodes and structure from the spatial domain of the causal network, we used directed acyclic graph neural networks (DAGNN). We also developed a new method for graph regression in which both dependent and independent variables are graphs. We used graph regression to measure the degree to which drugs reverse altered gene expressions of disease to normal levels and to select potential drug repurposing candidates. To illustrate the application of our proposed methods for drug repurposing, we applied them to phase I and II L1000 connectivity map perturbational profiles from the Broad Institute LINCS, which consist of gene-expression profiles for thousands of perturbagens at a variety of time points, doses, and cell lines, as well as disease gene expression data under-expressed and over-expressed in response to SARS-CoV-2.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/08/02/2023.07.29.23293346.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.29.23293346"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR702010"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR702010&type=FILE&fileName=EMS184731-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS184731",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-05",
+      "firstPublicationDate": "2023-08-02",
+      "firstIndexDate": "2023-08-05",
+      "fullTextReceivedDate": "2023-09-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

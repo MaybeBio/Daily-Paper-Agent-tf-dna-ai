@@ -1,0 +1,163 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.11.598549",
+  "title": "Detection and classification of long terminal repeat sequences in plant LTR-retrotransposons and their analysis using explainable machine learning",
+  "doi": "10.1101/2024.06.11.598549",
+  "abstract": "<h4>Background</h4> Long terminal repeats (LTRs) represent important parts of LTR retrotransposons and retroviruses found in high copy numbers in a majority of eukaryotic genomes. LTRs contain regulatory sequences essential for the life cycle of the retrotransposon. Previous experimental and sequence studies have provided only limited information about LTR structure and composition, mostly from model systems. To enhance our understanding of these key compounds, we focused on the contrasts between LTRs of various retrotransposon families and other genomic regions. Furthermore, this approach can be utilized for the classification and prediction of LTRs. <h4>Results</h4> We used machine learning methods suitable for DNA sequence classification and applied them to a large dataset of plant LTR retrotransposon sequences. We trained three machine learning models using (i) traditional model ensembles (Gradient Boosting - GBC), (ii) hybrid CNN-LSTM models, and (iii) a pre-trained transformer-based model (DNABERT) using k-mer sequence representation. All three approaches were successful in classifying and isolating LTRs in this data, as well as providing valuable insights into LTR sequence composition. The best classification (expressed as F1 score) achieved for LTR detection was 0.85 using the CNN-LSTM hybrid network model. The most accurate classification task was superfamily classification (F1=0.89) while the least accurate was family classification (F1=0.74). The trained models were subjected to explainability analysis. SHAP positional analysis identified a mixture of interesting features, many of which had a preferred absolute position within the LTR and/or were biologically relevant, such as a centrally positioned TATA-box, and TG..CA patterns around both LTR edges. <h4>Conclusions</h4> Our results show that the models used here recognized biologically relevant motifs, such as core promoter elements in the LTR detection task, and a development and stress-related subclass of transcription factor binding sites in the family classification task. Explainability analysis also highlighted the importance of 5’- and 3’-edges in LTR identity and revealed need to analyze more than just dinucleotides at these ends. Our work shows the applicability of machine learning models to regulatory sequence analysis and classification, and demonstrates the important role of the identified motifs in LTR detection.",
+  "authors": [
+    "Horvath J",
+    "Jedlicka P",
+    "Kratka M",
+    "Kubat Z",
+    "Kejnovsky E",
+    "Lexa M"
+  ],
+  "published_date": "2024-06-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598549",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598549.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR868196",
+    "raw_record": {
+      "id": "PPR868196",
+      "source": "PPR",
+      "doi": "10.1101/2024.06.11.598549",
+      "title": "Detection and classification of long terminal repeat sequences in plant LTR-retrotransposons and their analysis using explainable machine learning",
+      "authorString": "Horvath J, Jedlicka P, Kratka M, Kubat Z, Kejnovsky E, Lexa M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Horvath J",
+            "lastName": "Horvath",
+            "firstName": "Jakub",
+            "initials": "J"
+          },
+          {
+            "fullName": "Jedlicka P",
+            "lastName": "Jedlicka",
+            "firstName": "Pavel",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9324-5151"
+            }
+          },
+          {
+            "fullName": "Kratka M",
+            "lastName": "Kratka",
+            "firstName": "Marie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Kubat Z",
+            "lastName": "Kubat",
+            "firstName": "Zdenek",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8278-9495"
+            }
+          },
+          {
+            "fullName": "Kejnovsky E",
+            "lastName": "Kejnovsky",
+            "firstName": "Eduard",
+            "initials": "E"
+          },
+          {
+            "fullName": "Lexa M",
+            "lastName": "Lexa",
+            "firstName": "Matej",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8278-9495"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9324-5151"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Background</h4>  Long terminal repeats (LTRs) represent important parts of LTR retrotransposons and retroviruses found in high copy numbers in a majority of eukaryotic genomes. LTRs contain regulatory sequences essential for the life cycle of the retrotransposon. Previous experimental and sequence studies have provided only limited information about LTR structure and composition, mostly from model systems. To enhance our understanding of these key compounds, we focused on the contrasts between LTRs of various retrotransposon families and other genomic regions. Furthermore, this approach can be utilized for the classification and prediction of LTRs. <h4>Results</h4>  We used machine learning methods suitable for DNA sequence classification and applied them to a large dataset of plant LTR retrotransposon sequences. We trained three machine learning models using (i) traditional model ensembles (Gradient Boosting - GBC), (ii) hybrid CNN-LSTM models, and (iii) a pre-trained transformer-based model (DNABERT) using k-mer sequence representation. All three approaches were successful in classifying and isolating LTRs in this data, as well as providing valuable insights into LTR sequence composition. The best classification (expressed as F1 score) achieved for LTR detection was 0.85 using the CNN-LSTM hybrid network model. The most accurate classification task was superfamily classification (F1=0.89) while the least accurate was family classification (F1=0.74). The trained models were subjected to explainability analysis. SHAP positional analysis identified a mixture of interesting features, many of which had a preferred absolute position within the LTR and/or were biologically relevant, such as a centrally positioned TATA-box, and TG..CA patterns around both LTR edges. <h4>Conclusions</h4>  Our results show that the models used here recognized biologically relevant motifs, such as core promoter elements in the LTR detection task, and a development and stress-related subclass of transcription factor binding sites in the family classification task. Explainability analysis also highlighted the importance of 5’- and 3’-edges in LTR identity and revealed need to analyze more than just dinucleotides at these ends. Our work shows the applicability of machine learning models to regulatory sequence analysis and classification, and demonstrates the important role of the identified motifs in LTR detection.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.11.598549"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.11.598549"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39696434",
+            "reference": "BioData mining. \n    2024 Dec;17(1):57",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-17",
+      "firstPublicationDate": "2024-06-14",
+      "firstIndexDate": "2024-06-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

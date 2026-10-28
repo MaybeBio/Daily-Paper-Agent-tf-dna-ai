@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "39479449",
+    "doi": "10.7150/thno.98400",
+    "title": "Targeting the smooth muscle cell Keap1-Nrf2-GSDMD-pyroptosis axis by cryptotanshinone prevents abdominal aortic aneurysm formation."
+  },
+  "content": {
+    "abstract": "Rationale: Abdominal aortic aneurysm (AAA) is an inflammatory, fatal aortic disease that currently lacks any effective drugs. Cryptotanshinone (CTS) is a prominent and inexpensive bioactive substance derived from Salvia miltiorrhiza Bunge, a well-known medicinal herb for treating cardiovascular diseases through its potent anti-inflammatory properties. Nevertheless, the therapeutic effect of CTS on AAA formation remains unknown. Methods: To investigate the therapeutic effect of CTS in AAA, variety of experimental approaches were employed, majorly including AAA mouse model establishment, real-time polymerase chain reaction (PCR), RNA sequencing, western blot, co-immunoprecipitation, scanning/transmission electron microscopy (SEM/TEM), enzyme-linked immunosorbent assay (ELISA), seahorse analysis, immunohistochemistry, and confocal imaging. Results: In this study, we demonstrated that CTS suppressed the formation of AAA in apolipoprotein E knock-out (ApoE(-/-)) mice infused with Ang II. A combination of network pharmacology and whole transcriptome sequencing analysis indicated that activation of the Keap1-Nrf2 pathway and regulation of programmed cell death in vascular smooth muscle cells (VSMCs) are closely linked to the anti-AAA effect of CTS. Mechanistically, CTS promoted the transcription of Nrf2 target genes, particularly Hmox-1, which prevented the activation of NLRP3 and GSDMD-initiated pyroptosis in VSMCs, thereby mitigating VSMC inflammation and maintaining the VSMC contractile phenotype. Subsequently, by utilizing molecular docking, together with the cellular thermal shift assay (CETSA) and isothermal titration calorimetry (ITC), a particular binding site was established between CTS and Keap1 at Arg415. To confirm the binding site, site-directed mutagenesis was performed, which intriguingly showed that the Arg415 mutation eliminated the binding between CTS and the Keap1-Nrf2 protein and abrogated the antioxidant and anti-pyroptosis effects of CTS. Furthermore, VSMC-specific Nrf2 knockdown in mice dramatically reversed the protective action of CTS in AAA and the inhibitory effect of CTS on VSMC pyroptosis. Conclusion: Naturally derived CTS exhibits promising efficacy as a treatment drug for AAA through its targeting of the Keap1-Nrf2-GSDMD-pyroptosis axis in VSMCs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Mice",
+      "Angiotensin II/metabolism/pharmacology",
+      "*Aortic Aneurysm, Abdominal/metabolism/drug therapy/pathology",
+      "Disease Models, Animal",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Mice, Inbred C57BL",
+      "Mice, Knockout",
+      "Muscle, Smooth, Vascular/metabolism/drug effects",
+      "*Myocytes, Smooth Muscle/drug effects/metabolism",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Phenanthrenes/pharmacology",
+      "*Pyroptosis/drug effects",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiaojiao",
+        "Ye, Weile",
+        "Zou, Jiami",
+        "Yang, Pinglian",
+        "Jin, Mei",
+        "Zheng, Zhihua",
+        "Zhou, Chunhong",
+        "Qiu, Wanlu",
+        "Lu, Jing",
+        "Li, Chengzhi",
+        "Guo, Shuai",
+        "Xu, Yiming",
+        "Huang, Zunnan",
+        "Liu, Peiqing",
+        "Liu, Zhiping"
+      ],
+      "short_names": [
+        "Wang J",
+        "Ye W",
+        "Zou J",
+        "Yang P",
+        "Jin M",
+        "Zheng Z",
+        "Zhou C",
+        "Qiu W",
+        "Lu J",
+        "Li C",
+        "Guo S",
+        "Xu Y",
+        "Huang Z",
+        "Liu P",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China.",
+        "National and Local United Engineering Lab of Druggability and New Drugs Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+        "Guangdong Provincial Key Laboratory of New Drug Design and Evaluation, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+        "Department of Interventional Radiology and Vascular Surgery, The First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "School of Basic Medical Sciences, State Key Lab of Respiratory Disease, Guangzhou Medical University, Guangzhou, 511436, China.",
+        "School of Basic Medical Sciences, State Key Lab of Respiratory Disease, Guangzhou Medical University, Guangzhou, 511436, China.",
+        "Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China.",
+        "National and Local United Engineering Lab of Druggability and New Drugs Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+        "Guangdong Provincial Key Laboratory of New Drug Design and Evaluation, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+        "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiaojiao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China.",
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Weile",
+        "short_name": "Ye W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Jiami",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pinglian",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Mei",
+        "short_name": "Jin M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhihua",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chunhong",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Wanlu",
+        "short_name": "Qiu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jing",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "National and Local United Engineering Lab of Druggability and New Drugs Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+          "Guangdong Provincial Key Laboratory of New Drug Design and Evaluation, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chengzhi",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and Vascular Surgery, The First Affiliated Hospital of Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Shuai",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, State Key Lab of Respiratory Disease, Guangzhou Medical University, Guangzhou, 511436, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yiming",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, State Key Lab of Respiratory Disease, Guangzhou Medical University, Guangzhou, 511436, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zunnan",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Peiqing",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "National and Local United Engineering Lab of Druggability and New Drugs Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China.",
+          "Guangdong Provincial Key Laboratory of New Drug Design and Evaluation, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiping",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Jinan University, Guangzhou, 511443, China.",
+          "Guangdong Province Key Laboratory of Pharmacodynamic Constituents of Traditional Chinese Medicine and New Drugs Research, College of Pharmacy, Jinan University, Guangzhou, 511443, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/31 10:55",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42552469",
+      "42350779",
+      "42333382",
+      "42327765",
+      "42004599",
+      "41960577",
+      "41930562",
+      "41923736",
+      "41893857",
+      "41803100",
+      "41615587",
+      "41497348",
+      "41488670",
+      "41361708",
+      "41211576",
+      "41142250",
+      "40917297",
+      "40850191",
+      "40370559",
+      "40079000"
+    ],
+    "refs": [
+      "38828140",
+      "38722818",
+      "38689095",
+      "38617538",
+      "38581245",
+      "38555855",
+      "38547621",
+      "38522762",
+      "37748024",
+      "37550363",
+      "37399718",
+      "37387260",
+      "37371479",
+      "37079380",
+      "36967061",
+      "36720357",
+      "36567267",
+      "36476853",
+      "36275758",
+      "36232377",
+      "36073366",
+      "36066968",
+      "35880522",
+      "35505966",
+      "35237153",
+      "35217818",
+      "34820581",
+      "34740817",
+      "34698377",
+      "34622673",
+      "34597613",
+      "34102573",
+      "34051089",
+      "33859743",
+      "33514947",
+      "33352229",
+      "33153394",
+      "32759274",
+      "32574955",
+      "32071300",
+      "31982491",
+      "31857579",
+      "31478560",
+      "31390798",
+      "31181334",
+      "30598511",
+      "30580562",
+      "30479344",
+      "30443031",
+      "30355232",
+      "30337540",
+      "29858337",
+      "29698387",
+      "29669788",
+      "29631368",
+      "29352570",
+      "29217508",
+      "28615314",
+      "28584912",
+      "28406184",
+      "28153878",
+      "28115390",
+      "27825853",
+      "27626316",
+      "27552339",
+      "27219696",
+      "27057123",
+      "26791157",
+      "26579458",
+      "26308600",
+      "26299839",
+      "25728796",
+      "25572313",
+      "25101824",
+      "24302760",
+      "24273736",
+      "21514386",
+      "20832800",
+      "20352534",
+      "20075419",
+      "19931668",
+      "19620291",
+      "19430489",
+      "19148178",
+      "19075767",
+      "18340563",
+      "17076246",
+      "16507366",
+      "14762128",
+      "14759804",
+      "14499836",
+      "9884385",
+      "9409264",
+      "9398846"
+    ],
+    "similar": [
+      "39479449",
+      "38763007",
+      "32574955",
+      "40193135",
+      "38995239",
+      "38722818",
+      "37979015",
+      "38723872",
+      "35723784",
+      "39945066",
+      "40370559",
+      "32787523",
+      "32354235",
+      "39742002",
+      "38047310",
+      "38262162",
+      "37098322",
+      "35217818",
+      "38331337",
+      "35414069",
+      "32059119",
+      "28369137",
+      "30074157",
+      "29685509",
+      "32384150",
+      "39965635",
+      "38564920",
+      "38686580",
+      "33309615",
+      "39721498",
+      "36567267",
+      "32897647",
+      "32903173",
+      "34942175",
+      "37958985",
+      "30726659",
+      "28865326",
+      "32321307",
+      "31512549",
+      "29499360",
+      "36066968",
+      "39484787",
+      "31651935",
+      "38881898",
+      "40225574",
+      "33737086",
+      "40415469",
+      "38916960",
+      "27634835",
+      "27198574",
+      "39846252",
+      "38104880",
+      "38557060",
+      "27023228",
+      "39490888",
+      "33147994",
+      "27089918",
+      "40412127",
+      "29943223",
+      "40345007",
+      "38979610",
+      "39658211",
+      "27488664",
+      "32060588",
+      "39179867",
+      "28729364",
+      "31316111",
+      "32463165",
+      "27650558",
+      "38821358",
+      "32938216",
+      "17468336",
+      "28433630",
+      "27283745",
+      "40242869",
+      "32685020",
+      "39831511",
+      "39305878",
+      "34646388",
+      "39207146",
+      "34997455",
+      "38160930",
+      "38453799",
+      "31071332",
+      "32678909",
+      "34354545",
+      "25912763",
+      "39601144",
+      "29089350",
+      "35924523",
+      "30354818",
+      "39450921",
+      "33356402",
+      "38327764",
+      "33227156",
+      "28882868",
+      "30302749",
+      "31992084",
+      "28978552",
+      "27889204"
+    ],
+    "review": [
+      "39479449"
+    ],
+    "pmc": [
+      "11519792"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39479449/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TTR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v14p6516.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

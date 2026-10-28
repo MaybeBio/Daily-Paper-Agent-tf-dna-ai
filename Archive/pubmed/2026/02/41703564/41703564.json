@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "41703564",
+    "doi": "10.1186/s12967-026-07861-4",
+    "title": "Growth differentiation factor 15 promotes the malignant progression of multiple myeloma via activation of PI3K/Akt/NF-kappaB signaling pathway."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Extramedullary disease (EMD) in multiple myeloma (MM) is associated with poor prognosis and presents considerable treatment challenges. However, the underlying molecular mechanisms remain incompletely understood. This study aimed to identify prognostic biomarkers through bioinformatics analysis and investigate the mechanisms governing proliferation and metastasis in MM. METHODS: Differentially expressed genes (DEGs) between MM and control samples were identified from datasets GSE146649 and GSE24870 through differential expression analysis. Prognostic biomarkers associated with MM were subsequently screened using weighted gene co-expression network analysis (WGCNA), support vector machine recursive feature elimination (SVM-RFE), and gene set enrichment analysis (GSEA). The biological effects and underlying mechanisms of growth differentiation factor 15 (GDF15) in MM were further evaluated using enzyme-linked immunosorbent assay (ELISA), CCK-8 assay, flow cytometry, cell adhesion assay, transwell migration assay, Western blotting, and co-immunoprecipitation (Co-IP). RESULTS: Four prognostic biomarkers-BIRC3, PRDX1, BCAP31, and GDF15 were identified as being involved in MM proliferation and metatasis. GDF15 was selected as the key gene for further investigation. Serum GDF15 levels were significantly elevated in MM patients with EMD compared to those without EMD and healthy controls. Inhibition of GFRAL, the specific receptor for GDF15, reversed the activation of the PI3K/Akt/NF-kappaB signaling pathway and attenuated upregulation of CXC chemokine receptors 4 (CXCR4) and matrix metalloproteinases 9 (MMP9). Treatment with uprosertib, a Akt inhibitor, abrogated the GDF15-induced increases in CXCR4 and MMP9 expression. CONCLUSION: Upregulation of GDF15 is positively correlated with MM progression. Moreover, GDF15 enhances the migratory and invasive capacities of MM cells via the PI3K/Akt/NF-kappaB signaling pathway, mediated by CXCR4 and MMP9. Thus, GDF15 may represent a potential therapeutic target for EMD in multiple myeloma.",
+    "keywords": [
+      "Bioinformatics",
+      "Extramedullary disease",
+      "GDF15",
+      "Machine learning",
+      "Multiple myeloma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Myeloma/pathology/genetics/metabolism",
+      "*Signal Transduction",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "*Growth Differentiation Factor 15/metabolism/genetics",
+      "*Phosphatidylinositol 3-Kinases/metabolism",
+      "*NF-kappa B/metabolism",
+      "*Disease Progression",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Cell Proliferation/genetics",
+      "Cell Movement/genetics",
+      "Prognosis",
+      "Biomarkers, Tumor/metabolism",
+      "Receptors, CXCR4/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Hongjie",
+        "Wu, Yiwen",
+        "Peng, Yuanyuan",
+        "Wang, Lingzhi",
+        "Tu, Shengke",
+        "Peng, Hui",
+        "Yang, Jing",
+        "Li, Xiaolan",
+        "Shi, Ziwei",
+        "Li, Min",
+        "Song, Kui"
+      ],
+      "short_names": [
+        "Fan H",
+        "Wu Y",
+        "Peng Y",
+        "Wang L",
+        "Tu S",
+        "Peng H",
+        "Yang J",
+        "Li X",
+        "Shi Z",
+        "Li M",
+        "Song K"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3156-7159"
+      ],
+      "affiliations": [
+        "Department of Hematology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China.",
+        "Medical College, Jishou University, Jishou, 416000, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Medical College, Jishou University, Jishou, 416000, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Medical College, Jishou University, Jishou, 416000, China.",
+        "Medical College, Jishou University, Jishou, 416000, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China. lucyminmin@163.com.",
+        "GCP Office, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China. lucyminmin@163.com.",
+        "Department of Hematology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China. js_hematology@163.com.",
+        "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China. js_hematology@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Hongjie",
+        "short_name": "Fan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China.",
+          "Medical College, Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yiwen",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yuanyuan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lingzhi",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Shengke",
+        "short_name": "Tu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Hui",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Jishou University, Jishou, 416000, China.",
+          "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaolan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ziwei",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of Jishou University, Jishou, 416000, China. lucyminmin@163.com.",
+          "GCP Office, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China. lucyminmin@163.com."
+        ]
+      },
+      {
+        "full_name": "Song, Kui",
+        "short_name": "Song K",
+        "identifiers": [
+          "0009-0006-3156-7159"
+        ],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, 524000, China. js_hematology@163.com.",
+          "Department of Hematology, The First Affiliated Hospital of Jishou University, Jishou, 416000, China. js_hematology@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Feb 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/18 10:07",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39389179",
+      "38810400",
+      "38477642",
+      "38343377",
+      "38230211",
+      "37757768",
+      "37511018",
+      "37497001",
+      "36401751",
+      "36364935",
+      "36332741",
+      "36169237",
+      "36142823",
+      "35935989",
+      "35845518",
+      "35679743",
+      "35609983",
+      "35472437",
+      "35314675",
+      "34977039",
+      "34836750",
+      "34818652",
+      "34588423",
+      "33918655",
+      "33750070",
+      "33617803",
+      "33151290",
+      "33144847",
+      "32198978",
+      "32004705",
+      "31825725",
+      "31713184",
+      "31545486",
+      "31538911",
+      "31114921",
+      "30621163",
+      "30582214",
+      "29912392",
+      "29434873",
+      "29400662",
+      "29156001",
+      "28846097",
+      "28783539",
+      "28314325",
+      "28199981",
+      "26058729",
+      "25287686",
+      "24913180",
+      "24345755",
+      "24216602",
+      "23728080",
+      "22394600",
+      "22301101",
+      "21414208",
+      "21037263",
+      "19946339",
+      "19114008",
+      "19082482",
+      "11584300",
+      "2830017"
+    ],
+    "similar": [
+      "41703564",
+      "36872359",
+      "37855350",
+      "36657019",
+      "42062902",
+      "25727320",
+      "34913078",
+      "42096959",
+      "31498483",
+      "32911926",
+      "29734183",
+      "41074114",
+      "37962862",
+      "40790482",
+      "41182793",
+      "41632921",
+      "36609711",
+      "32142767",
+      "38864525",
+      "39612152",
+      "42310749",
+      "32891122",
+      "35523884",
+      "39413115",
+      "32004974",
+      "31483776",
+      "29768063",
+      "12433678",
+      "40488790",
+      "39428922",
+      "41864048",
+      "41794281",
+      "40629333",
+      "30048971",
+      "42033528",
+      "42030890",
+      "40660234",
+      "41193823",
+      "39279704",
+      "39676643",
+      "33737080",
+      "30132507",
+      "41716413",
+      "42319496",
+      "30635935",
+      "33200804",
+      "39331093",
+      "35581606",
+      "40854921",
+      "41782040",
+      "41247919",
+      "41617935",
+      "28534966",
+      "39761856",
+      "36690987",
+      "42336904",
+      "32401379",
+      "31545486",
+      "39411963",
+      "41593181",
+      "42411678",
+      "41960369",
+      "38167030",
+      "33641529",
+      "42613511",
+      "29636108",
+      "41580703",
+      "41423460",
+      "38583438",
+      "29571014",
+      "41759697",
+      "39742381",
+      "38520747",
+      "41451212",
+      "33448321",
+      "23526143",
+      "42480727",
+      "21570392",
+      "30582214",
+      "30575903",
+      "28715819",
+      "31957323",
+      "41179295",
+      "39891722",
+      "41133234",
+      "24376747",
+      "41910003",
+      "41239461",
+      "35899176",
+      "15802268",
+      "41200902",
+      "35412944",
+      "31922233",
+      "37789274",
+      "33032635",
+      "41318819",
+      "42302928",
+      "38726826",
+      "38506034",
+      "31486482"
+    ],
+    "review": [
+      "41703564"
+    ],
+    "pmc": [
+      "13015019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07861-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41703564/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "37853696",
+    "doi": "10.1016/j.bpj.2023.10.016",
+    "title": "Multiscale simulations reveal TDP-43 molecular-level interactions driving condensation."
+  },
+  "content": {
+    "abstract": "The RNA-binding protein TDP-43 is associated with mRNA processing and transport from the nucleus to the cytoplasm. TDP-43 localizes in the nucleus as well as accumulating in cytoplasmic condensates such as stress granules. Aggregation and formation of amyloid-like fibrils of cytoplasmic TDP-43 are hallmarks of numerous neurodegenerative diseases, most strikingly present in >90% of amyotrophic lateral sclerosis (ALS) patients. If excessive accumulation of cytoplasmic TDP-43 causes, or is caused by, neurodegeneration is presently not known. In this work, we use molecular dynamics simulations at multiple resolutions to explore TDP-43 self- and cross-interaction dynamics. A full-length molecular model of TDP-43, all 414 amino acids, was constructed from select structures of the protein functional domains (N-terminal domain, and two RNA recognition motifs, RRM1 and RRM2) and modeling of disordered connecting loops and the low complexity glycine-rich C-terminus domain. All-atom CHARMM36m simulations of single TDP-43 proteins served as guides to construct a coarse-grained Martini 3 model of TDP-43. The Martini model and a coarser implicit solvent C⍺ model, optimized for disordered proteins, were subsequently used to probe TDP-43 interactions; self-interactions from single-chain full-length TDP-43 simulations, cross-interactions from simulations with two proteins and simulations with assemblies of dozens to hundreds of proteins. Our findings illustrate the utility of different modeling scales for accessing TDP-43 molecular-level interactions and suggest that TDP-43 has numerous interaction preferences or patterns, exhibiting an overall strong, but dynamic, association and driving the formation of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Protein Domains",
+      "*Amyotrophic Lateral Sclerosis/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "Molecular Dynamics Simulation",
+      "Amyloid"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ingolfsson, Helgi I",
+        "Rizuan, Azamat",
+        "Liu, Xikun",
+        "Mohanty, Priyesh",
+        "Souza, Paulo C T",
+        "Marrink, Siewert J",
+        "Bowers, Michael T",
+        "Mittal, Jeetain",
+        "Berry, Joel"
+      ],
+      "short_names": [
+        "Ingolfsson HI",
+        "Rizuan A",
+        "Liu X",
+        "Mohanty P",
+        "Souza PCT",
+        "Marrink SJ",
+        "Bowers MT",
+        "Mittal J",
+        "Berry J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California. Electronic address: ingolfsson1@llnl.gov.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas.",
+        "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California; Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas.",
+        "Molecular Microbiology and Structural Biochemistry (MMSB, UMR 5086), CNRS & University of Lyon, Lyon, France; Laboratory of Biology and Modeling of the Cell, Ecole Normale Superieure de Lyon, Universite Claude Bernard Lyon 1, CNRS UMR 5239 and Inserm U1293, 46 Allee d'Italie, Lyon, France.",
+        "Groningen Biomolecular Science and Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas; Department of Chemistry, Texas A&M University, College Station, Texas; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas.",
+        "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ingólfsson, Helgi I",
+        "short_name": "Ingólfsson HI",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California. Electronic address: ingolfsson1@llnl.gov."
+        ]
+      },
+      {
+        "full_name": "Rizuan, Azamat",
+        "short_name": "Rizuan A",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas."
+        ]
+      },
+      {
+        "full_name": "Liu, Xikun",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California; Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas."
+        ]
+      },
+      {
+        "full_name": "Souza, Paulo C T",
+        "short_name": "Souza PCT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Microbiology and Structural Biochemistry (MMSB, UMR 5086), CNRS & University of Lyon, Lyon, France; Laboratory of Biology and Modeling of the Cell, École Normale Supérieure de Lyon, Université Claude Bernard Lyon 1, CNRS UMR 5239 and Inserm U1293, 46 Allée d'Italie, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Groningen Biomolecular Science and Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bowers, Michael T",
+        "short_name": "Bowers MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M College of Engineering, College Station, Texas; Department of Chemistry, Texas A&M University, College Station, Texas; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas."
+        ]
+      },
+      {
+        "full_name": "Berry, Joel",
+        "short_name": "Berry J",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Nov 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/19 06:44",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "42656830",
+      "42602266",
+      "42564957",
+      "41991555",
+      "41965924",
+      "41667469",
+      "41407294",
+      "41283146",
+      "41088757",
+      "41001641",
+      "40801528",
+      "40781776",
+      "40521608",
+      "40314620",
+      "40236119",
+      "40138576",
+      "40128232",
+      "39534915",
+      "39354713",
+      "39349768",
+      "39279844",
+      "39189419",
+      "39148776",
+      "39055163",
+      "38961263",
+      "38901429",
+      "38885177",
+      "38389507",
+      "38160320"
+    ],
+    "refs": [
+      "37579155",
+      "37134270",
+      "36537242",
+      "35802394",
+      "35377637",
+      "34265844",
+      "34221333",
+      "33934416",
+      "33917983",
+      "33913726",
+      "33782607",
+      "33545530",
+      "33453922",
+      "33335017",
+      "33307683",
+      "33302617",
+      "32480125",
+      "32339173",
+      "32312191",
+      "32132204",
+      "31287959",
+      "31270472",
+      "30315897",
+      "29438978",
+      "29364893",
+      "29358076",
+      "28833982",
+      "28733604",
+      "28663553",
+      "28633759",
+      "28566288",
+      "28112502",
+      "27819658",
+      "27545621",
+      "27495267",
+      "27042944",
+      "27030292",
+      "26838063",
+      "26631602",
+      "26616630",
+      "26574472",
+      "26574417",
+      "26406374",
+      "25352545",
+      "25309628",
+      "25215604",
+      "24240615",
+      "23689371",
+      "23558684",
+      "23341755",
+      "22944662",
+      "22127299",
+      "21783422",
+      "21500218",
+      "20234357",
+      "19465477",
+      "19174564",
+      "18351591",
+      "18309045",
+      "17569554",
+      "17212484",
+      "11285240",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "37853696",
+      "29279008",
+      "34944548",
+      "38160320",
+      "24497641",
+      "36841957",
+      "26735904",
+      "30309612",
+      "30315897",
+      "38029395",
+      "23558684",
+      "19815002",
+      "27545621",
+      "39073874",
+      "31241884",
+      "31911437",
+      "38615537",
+      "28793209",
+      "35112738",
+      "41969219",
+      "33577819",
+      "27317832",
+      "23372158",
+      "39342654",
+      "31430111",
+      "41298366",
+      "41088757",
+      "28257838",
+      "32337711",
+      "39875548",
+      "28663553",
+      "39426615",
+      "38466778",
+      "29511089",
+      "23912807",
+      "22563080",
+      "19174564",
+      "33065281",
+      "23300771",
+      "37268555",
+      "41614607",
+      "29751083",
+      "38381071",
+      "33184287",
+      "34360978",
+      "34490845",
+      "39201466",
+      "33771571",
+      "31898895",
+      "36982587",
+      "39336748",
+      "33441818",
+      "34457335",
+      "33712624",
+      "36053560",
+      "31479821",
+      "21956718",
+      "34390468",
+      "30853299",
+      "31914861",
+      "41905172",
+      "30824544",
+      "34787357",
+      "37579155",
+      "41933903",
+      "33151007",
+      "42475469",
+      "38311174",
+      "22641816",
+      "20055380",
+      "30742796",
+      "40389455",
+      "33621087",
+      "42178983",
+      "27445339",
+      "31132467",
+      "36495262",
+      "36482422",
+      "33417141",
+      "27226551",
+      "35007165",
+      "40960392",
+      "28566288",
+      "30464263",
+      "30520297",
+      "32343854",
+      "38941189",
+      "30938443",
+      "37006777",
+      "27040765",
+      "41850140",
+      "35697676",
+      "32907712",
+      "40311013",
+      "29786080",
+      "19808791",
+      "38958608",
+      "41854301",
+      "38212334",
+      "25792726"
+    ],
+    "review": [
+      "37853696",
+      "38029395",
+      "37268555",
+      "34360978",
+      "31479821",
+      "21956718",
+      "31132467",
+      "30938443",
+      "19808791",
+      "38958608"
+    ],
+    "pmc": [
+      "10720261"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00652-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37853696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "38977339",
+    "doi": "10.12122/j.issn.1673-4254.2024.06.10",
+    "title": "[Identification of potential biomarkers and immunoregulatory mechanisms of rheumatoid arthritis based on multichip co-analysis of GEO database]."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To identify the biomarkers for early rheumatoid arthritis (RA) diagnosis and explore the possible immune regulatory mechanisms. METHODS: The differentially expressed genesin RA were screened and functionally annotated using the limma, RRA, batch correction, and clusterProfiler. The protein-protein interaction network was retrieved from the STRING database, and Cytoscape 3.8.0 and GeneMANIA were used to select the key genes and predicting their interaction mechanisms. ROC curves was used to validate the accuracy of diagnostic models based on the key genes. The disease-specific immune cells were selected via machine learning, and their correlation with the key genes were analyzed using Corrplot package. Biological functions of the key genes were explored using GSEA method. The expression of STAT1 was investigated in the synovial tissue of rats with collagen-induced arthritis (CIA). RESULTS: We identified 9 core key genes in RA (CD3G, CD8A, SYK, LCK, IL2RG, STAT1, CCR5, ITGB2, and ITGAL), which regulate synovial inflammation primarily through cytokines-related pathways. ROC curve analysis showed a high predictive accuracy of the 9 core genes, among which STAT1 had the highest AUC (0.909). Correlation analysis revealed strong correlations of CD3G, ITGAL, LCK, CD8A, and STAT1 with disease-specific immune cells, and STAT1 showed the strongest correlation with M1-type macrophages (R=0.68, P=2.9e-08). The synovial tissues of the ankle joints of CIA rats showed high expressions of STAT1 and p-STAT1 with significant differential expression of STAT1 between the nucleus and the cytoplasm of the synovial fibroblasts. The protein expressions of p-STAT1 and STAT1 in the cell nuclei were significantly reduced after treatment. CONCLUSION: CD3G, CD8A, SYK, LCK, IL2RG, STAT1, CCR5, ITGB2, and ITGAL may serve as biomarkers for early diagnosis of RA. Gene-immune cell pathways such as CD3G/CD8A/LCK-gammadelta T cells, ITGAL-Tfh cells, and STAT1-M1-type macrophages may be closely related with the development of RA.",
+    "keywords": [
+      "biomarkers",
+      "bionformatic",
+      "immune regulatory",
+      "machine learning",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/immunology/metabolism",
+      "Animals",
+      "Rats",
+      "*STAT1 Transcription Factor/metabolism",
+      "*Biomarkers/metabolism",
+      "*Protein Interaction Maps",
+      "*Synovial Membrane/metabolism",
+      "Arthritis, Experimental/immunology/metabolism",
+      "Lymphocyte Specific Protein Tyrosine Kinase p56(lck)/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Humans",
+      "CD8 Antigens/metabolism",
+      "Receptors, CCR5/metabolism/genetics",
+      "Syk Kinase/metabolism/genetics",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, L",
+        "Wu, T",
+        "Zhang, M",
+        "Ding, Z",
+        "Zhang, Y",
+        "Yang, Y",
+        "Zheng, J",
+        "Zhang, X"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wu T",
+        "Zhang M",
+        "Ding Z",
+        "Zhang Y",
+        "Yang Y",
+        "Zheng J",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Health Management, Bengbu Medical University, Bengbu 233030, China.",
+        "School of Public Health, Bengbu Medical University, Bengbu 233030, China.",
+        "Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Bengbu Medical University, Bengbu 233030, China.",
+        "School of Sports Medicine and Rehabilitation, Shandong First Medical University, Taian 271016, China.",
+        "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China.",
+        "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China.",
+        "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China.",
+        "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China.",
+        "Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Bengbu Medical University, Bengbu 233030, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, L",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Health Management, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Wu, T",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, M",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Bengbu Medical University, Bengbu 233030, China.",
+          "School of Sports Medicine and Rehabilitation, Shandong First Medical University, Taian 271016, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Z",
+        "short_name": "Ding Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Y",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Y",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, J",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, X",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Bengbu Medical University, Bengbu 233030, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nan fang yi ke da xue xue bao = Journal of Southern Medical University"
+    ],
+    "journal_abbrev": [
+      "Nan Fang Yi Ke Da Xue Xue Bao"
+    ],
+    "pub_date": "2024 Jun 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "40849565",
+      "40644421"
+    ],
+    "refs": [
+      "38598749",
+      "37984422",
+      "37569732",
+      "37230312",
+      "36618407",
+      "36591283",
+      "36564100",
+      "36516818",
+      "35926270",
+      "35896282",
+      "35840037",
+      "35748767",
+      "35693791",
+      "35663975",
+      "35643074",
+      "35140703",
+      "35055087",
+      "34768830",
+      "34691030",
+      "34681582",
+      "34484236",
+      "33880615",
+      "33674813",
+      "33646410",
+      "33412435",
+      "33407587",
+      "33268440",
+      "32910145",
+      "32840301",
+      "32258008",
+      "31520798",
+      "31285310",
+      "28866647",
+      "28255960",
+      "28228278",
+      "27008011",
+      "23348415",
+      "21538319",
+      "1532804"
+    ],
+    "similar": [
+      "38977339",
+      "34477936",
+      "36699262",
+      "34113405",
+      "30483789",
+      "34484236",
+      "38771826",
+      "34195267",
+      "32840301",
+      "33407587",
+      "32802866",
+      "34736376",
+      "36439145",
+      "36317112",
+      "34691030",
+      "36110846",
+      "30286793",
+      "36045515",
+      "35760450",
+      "38711508",
+      "14674010",
+      "25303734",
+      "29920650",
+      "36940554",
+      "32945465",
+      "38573982",
+      "30916045",
+      "27342824",
+      "35422654",
+      "36238290",
+      "32468016",
+      "27851983",
+      "27626941",
+      "38621928",
+      "33615742",
+      "36273177",
+      "25955571",
+      "39088353",
+      "17942634",
+      "32013628",
+      "32503893",
+      "36068607",
+      "32499775",
+      "37248839",
+      "33864023",
+      "34224029",
+      "30260019",
+      "34271942",
+      "37773661",
+      "36621784",
+      "22730375",
+      "39221753",
+      "36247278",
+      "20506224",
+      "32152704",
+      "11056662",
+      "28035365",
+      "31066041",
+      "20181277",
+      "37481139",
+      "11222499",
+      "22614743",
+      "35748767",
+      "9067521",
+      "33679701",
+      "16947773",
+      "21708001",
+      "29977931",
+      "19248119",
+      "34333356",
+      "31545276",
+      "26739088",
+      "11352233",
+      "33430905",
+      "22401175",
+      "20939892",
+      "36420648",
+      "35918412",
+      "27457515",
+      "20617529",
+      "38046263",
+      "36224010",
+      "26315300",
+      "31295689",
+      "19714586",
+      "21798287",
+      "38869013",
+      "24757143",
+      "20435930",
+      "24838610",
+      "24244022",
+      "14962955",
+      "21080925",
+      "25300256",
+      "35181628",
+      "17178563",
+      "26724776",
+      "26025971",
+      "23711830",
+      "30508140",
+      "38845009",
+      "39216308",
+      "35603148"
+    ],
+    "review": [
+      "38977339"
+    ],
+    "pmc": [
+      "11237296"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38977339/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.29.696805",
+  "title": "Integrative multiomic analysis on single-nucleotide variants identifies candidate genes for human craniofacial malformation",
+  "doi": "10.64898/2025.12.29.696805",
+  "abstract": "Craniofacial malformation (CFM) is a congenital defect encompassing a wide range of phenotypic presentations and is largely driven by genetics. Despite the discovery of more than 300 causal genes, there are a myriad of CFM cases with unknown genetic etiology. The complex gene regulations and heterogeneous cellular interactions in the developing head complicate disease-gene identification and prenatal genetic diagnosis. Recent progress in multiomic profiling of human embryogenesis enables the discovery of novel candidates from established GWAS data. Here, we developed an approach to prioritize GWAS variants using the epigenomes and single-cell transcriptomes of embryonic tissues and progenitor cells by implementing machine learning classifiers and combinatorial analysis. Systematic evaluation revealed significant improvement in the machine learning model performance after integrating transcriptome of neural crest cells (NCCs) and cranial placodes, as well as epigenomic profile of early craniofacial tissues. We identified 249 genes from the best-performing classifier, which include documented CFM-associated genes. Gene regulatory network (GRN) inference showed that 24 candidate genes were involved in NCC- and placode-specific regulons, of which 15 ( F11R, ISL1, KANK4, L1TD1, LAMB1, MIA, PRDM1, S100A10, S100A11, STOM, STT3B, TESK2, USP43, WDR86, ZNF439 ) were novel candidates for human CFM. Motif analysis revealed putative functional SNPs contributing to CFM pathogenesis by disrupting transcription factor binding motifs in neural crest and placodes. Our analyses suggested that PRDM1 and ISL1 are strong candidates for human CFM, as supported by other animal functional studies. This study demonstrates a successful method for disease gene identification using epigenomic and single-cell transcriptomic profiles, and sheds light on the linkage between early cell lineages and the pathogenic process of CFM. <h4>Author Summary</h4> Craniofacial malformation is one of the most common congenital disorders that affects food ingestion, speech and social interaction of the patients. The identification of craniofacial disease genes is difficult due to the dynamic gene expression and contribution from multiple cell types during embryonic development. In this study, we combine artificial intelligence with patient genetic and embryo multiomic information to identify new candidate genes for human craniofacial malformation. Using machine learning classifiers and combinatorial analyses, we prioritized single-nucleotide variants from patient datasets and identified 249 candidate genes. Annotation of the variants and candidate genes showed that some of them overlapped with known disease genes, demonstrating the efficacy of our approach. Further analyses using lineage reconstruction and motif analyses revealed a number of promising novel candidates, in particular PRDM1 and ISL1 , are likely to be causative genes for human CFM. Our study has demonstrated a translatable approach for disease gene identification utilizing machine learning algorithm and multiomic data, and provides a gene list for improving diagnostic panels and understanding the pathogenic processes of craniofacial disorders.",
+  "authors": [
+    "Yam MH",
+    "So KKH",
+    "Tong KK",
+    "Choy KW",
+    "Sham MH"
+  ],
+  "published_date": "2025-12-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696805",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696805.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1229588",
+    "raw_record": {
+      "id": "PPR1229588",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.29.696805",
+      "title": "Integrative multiomic analysis on single-nucleotide variants identifies candidate genes for human craniofacial malformation",
+      "authorString": "Yam MH, So KKH, Tong KK, Choy KW, Sham MH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yam MH",
+            "lastName": "Yam",
+            "firstName": "Ming Ho",
+            "initials": "MH"
+          },
+          {
+            "fullName": "So KKH",
+            "lastName": "So",
+            "firstName": "Karl Kam Hei",
+            "initials": "KKH"
+          },
+          {
+            "fullName": "Tong KK",
+            "lastName": "Tong",
+            "firstName": "Ka Kui",
+            "initials": "KK"
+          },
+          {
+            "fullName": "Choy KW",
+            "lastName": "Choy",
+            "firstName": "Kwong Wai",
+            "initials": "KW"
+          },
+          {
+            "fullName": "Sham MH",
+            "lastName": "Sham",
+            "firstName": "Mai Har",
+            "initials": "MH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1179-7839"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1179-7839"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Craniofacial malformation (CFM) is a congenital defect encompassing a wide range of phenotypic presentations and is largely driven by genetics. Despite the discovery of more than 300 causal genes, there are a myriad of CFM cases with unknown genetic etiology. The complex gene regulations and heterogeneous cellular interactions in the developing head complicate disease-gene identification and prenatal genetic diagnosis. Recent progress in multiomic profiling of human embryogenesis enables the discovery of novel candidates from established GWAS data. Here, we developed an approach to prioritize GWAS variants using the epigenomes and single-cell transcriptomes of embryonic tissues and progenitor cells by implementing machine learning classifiers and combinatorial analysis. Systematic evaluation revealed significant improvement in the machine learning model performance after integrating transcriptome of neural crest cells (NCCs) and cranial placodes, as well as epigenomic profile of early craniofacial tissues. We identified 249 genes from the best-performing classifier, which include documented CFM-associated genes. Gene regulatory network (GRN) inference showed that 24 candidate genes were involved in NCC- and placode-specific regulons, of which 15 (  F11R, ISL1, KANK4, L1TD1, LAMB1, MIA, PRDM1, S100A10, S100A11, STOM, STT3B, TESK2, USP43, WDR86, ZNF439 ) were novel candidates for human CFM. Motif analysis revealed putative functional SNPs contributing to CFM pathogenesis by disrupting transcription factor binding motifs in neural crest and placodes. Our analyses suggested that  PRDM1 and  ISL1 are strong candidates for human CFM, as supported by other animal functional studies. This study demonstrates a successful method for disease gene identification using epigenomic and single-cell transcriptomic profiles, and sheds light on the linkage between early cell lineages and the pathogenic process of CFM.  <h4>Author Summary</h4>  Craniofacial malformation is one of the most common congenital disorders that affects food ingestion, speech and social interaction of the patients. The identification of craniofacial disease genes is difficult due to the dynamic gene expression and contribution from multiple cell types during embryonic development. In this study, we combine artificial intelligence with patient genetic and embryo multiomic information to identify new candidate genes for human craniofacial malformation. Using machine learning classifiers and combinatorial analyses, we prioritized single-nucleotide variants from patient datasets and identified 249 candidate genes. Annotation of the variants and candidate genes showed that some of them overlapped with known disease genes, demonstrating the efficacy of our approach. Further analyses using lineage reconstruction and motif analyses revealed a number of promising novel candidates, in particular  PRDM1 and  ISL1 , are likely to be causative genes for human CFM. Our study has demonstrated a translatable approach for disease gene identification utilizing machine learning algorithm and multiomic data, and provides a gene list for improving diagnostic panels and understanding the pathogenic processes of craniofacial disorders.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.29.696805"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-29",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

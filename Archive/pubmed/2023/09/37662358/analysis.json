@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37662358",
+  "title": "Active learning of enhancer and silencer regulatory grammar in photoreceptors.",
+  "authors": "Friedman, Ryan Z; Ramu, Avinash; Lichtarge, Sara; Myers, Connie A; Granas, David M; Gause, Maria; Corbo, Joseph C; Cohen, Barak A; White, Michael A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-09-04",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用主动学习深度学习模型预测含CRX转录因子结合基序的顺式调控元件活性，虽聚焦增强子/沉默子功能而非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合位点预测与调控语法解析。",
+  "abstract": "Cis-regulatory elements (CREs) direct gene expression in health and disease, and models that can accurately predict their activities from DNA sequences are crucial for biomedicine. Deep learning represents one emerging strategy to model the regulatory grammar that relates CRE sequence to function. However, these models require training data on a scale that exceeds the number of CREs in the genome. We address this problem using active machine learning to iteratively train models on multiple rounds of synthetic DNA sequences assayed in live mammalian retinas. During each round of training the model actively selects sequence perturbations to assay, thereby efficiently generating informative training data. We iteratively trained a model that predicts the activities of sequences containing binding motifs for the photoreceptor transcription factor Cone-rod homeobox (CRX) using an order of magnitude less training data than current approaches. The model's internal confidence estimates of its predictions are reliable guides for designing sequences with high activity. The model correctly identified critical sequence differences between active and inactive sequences with nearly identical transcription factor binding sites, and revealed order and spacing preferences for combinations of motifs. Our results establish active learning as an effective method to train accurate deep learning models of cis-regulatory function after exhausting naturally occurring training examples in the genome.",
+  "abstract_zh": "顺式调控元件（cis-regulatory elements, CREs）在健康和疾病中指导基因表达，而能够从DNA序列准确预测其活性的模型对生物医学至关重要。深度学习代表了一种新兴策略，用于建模将CRE序列与功能联系起来的调控语法。然而，这些模型所需的训练数据规模超过了基因组中CRE的数量。我们通过主动机器学习（active machine learning）解决了这一问题，该方法在活体哺乳动物视网膜中测定的多轮合成DNA序列上迭代训练模型。在每轮训练中，模型主动选择序列扰动进行测定，从而高效生成信息丰富的训练数据。我们迭代训练了一个模型，该模型预测含有感光细胞转录因子锥杆同源盒（Cone-rod homeobox, CRX）结合基序的序列活性，其使用的训练数据比当前方法少一个数量级。模型对其预测的内部置信度估计是设计高活性序列的可靠指南。该模型正确识别了具有几乎相同转录因子结合位点的活性与非活性序列之间的关键序列差异，并揭示了基序组合的顺序和间距偏好。我们的结果确立了主动学习作为一种有效方法，在耗尽基因组中自然存在的训练示例后，训练顺式调控功能的准确深度学习模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37662358/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37662358/",
+  "paper_page_path": "papers/pubmed/37662358/index.html"
+}

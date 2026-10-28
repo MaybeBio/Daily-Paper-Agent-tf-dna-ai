@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and figure legends. Supplementary materials were referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the presented evidence, and clarity of presentation. No assessment of formatting or editorial style beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors present interpretable machine learning models (XGBoost and logistic regression) to predict tissue-specific BMAL1 binding to canonical E-box motifs (CANNTG) in accessible chromatin of mouse liver, kidney, and heart. They report that adding DNA shape and histone modification features to sequence features improves within-tissue prediction performance, and that feature importance analysis reveals tissue-specific binding determinants, including a prominent role for a flanking nucleotide in the liver.
+- **Visible evidence base** Main text figures (Figs. 1–6), Table 1, and referenced supplementary figures (Supplementary Figs. 1–6). Methods descriptions for data preprocessing, feature engineering, and model training.
+- **Missing materials affecting confidence** Supplementary figures and supplementary information files were not provided. Raw data, code, and hyperparameter tuning details are not fully specified. Details on cross-validation splitting, class imbalance handling beyond ratio reporting, and statistical significance testing for performance differences are absent.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in circadian biology and regulatory genomics, namely the prediction and mechanistic interpretation of tissue-specific BMAL1 binding. The use of interpretable machine learning with multiple feature types is appropriate and the within-tissue performance improvements are notable. However, several technical and conceptual issues limit the strength of the conclusions. The cross-tissue model results are presented in a confusing manner and the interpretation of feature importance is not sufficiently rigorous. The claim that the models provide "mechanistic insights" is overstated given the correlational nature of the analysis. The manuscript would benefit from clearer presentation of methods, additional validation, and more cautious interpretation.
+- **Who would be interested in the results, and why** Researchers in circadian biology, transcriptional regulation, and computational genomics would be interested. The work offers a framework for predicting TF binding using interpretable features and highlights tissue-specific determinants, which could inform studies of tissue-specific gene regulation and clock-controlled physiology. The methodological approach may also interest machine learning practitioners applying interpretable models to genomic data.
+- **Major strengths** The study addresses an important and under-explored question about tissue-specific TF binding using a well-defined biological system. The feature engineering is thoughtful, combining sequence, shape, and epigenetic data. The use of interpretable models (XGBoost with permutation importance) is appropriate and allows for biological interpretation. The within-tissue performance gains from adding shape and histone features are substantial and clearly demonstrated. The authors also acknowledge limitations, such as the use of unsynchronized tissues for histone data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "histone modifications, the local shape of the DNA, and the flanking sequence of the E-box motif are sufficient predictive features for BMAL1–DNA binding" and that the models provide "mechanistic insights into tissue specificity."
+  - **Evidence pointer** Results section "Feature importance reveals tissue-specific BMAL1 binding grammar", Fig. 4, Fig. 5
+  - **Concern** The feature importance analysis is based on permutation importance from a single model type (XGBoost) without reporting variance or stability across cross-validation folds. The claim that Seq-2 (G at position -2) is a strong predictor in the liver is based on aggregated importance scores, but no statistical test is provided to show that this enrichment is significant relative to background expectations. Furthermore, the authors state that the central two nucleotides of the E-box did not contribute to model performance, yet they also report that CACGTG is the most frequently bound E-box type. This apparent contradiction is not resolved. The mechanistic interpretation is further weakened by the lack of validation, such as motif enrichment analysis in independent datasets or experimental perturbation.
+  - **Why it matters** The central claim of the paper is that the models reveal biological determinants of BMAL1 binding. Without robust statistical support for feature importance and without reconciling the discrepancy between the importance of the core motif and the observed sequence preference, the mechanistic conclusions are not well supported.
+  - **Resolution test** Provide feature importance values with confidence intervals or standard deviations across cross-validation folds. Perform a statistical test (e.g., binomial test or permutation test) for the enrichment of G at position -2 in bound versus unbound E-boxes. Address the role of the core E-box dinucleotide in model predictions, possibly by ablating or permuting the core positions and measuring performance change. Validate the identified features in an independent dataset or with a complementary analysis (e.g., position weight matrix analysis).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "cross-tissue predictive model showed that even though there is high specificity for BMAL1 to bind certain DNA conformations and chromatin contexts, these specificities vary across tissues."
+  - **Evidence pointer** Results section "Cross-tissue models highlight differences in BMAL1–DNA binding in different tissues", Fig. 6
+  - **Concern** The cross-tissue model results are difficult to interpret. The authors report that adding shape and histone features decreased performance in most cross-tissue models, but the presentation of results in Fig. 6 is unclear. The figure shows AUROC, AUPRC, and true positive rates, but the text does not clearly explain the pattern of results. For example, the kidney_liver and heart_liver models show improved performance with the full feature set, but the authors do not explain why this is the case. The interpretation that this reflects tissue-specific binding determinants is plausible but not rigorously tested. The authors do not compare cross-tissue performance to a null expectation or to a model trained on shuffled labels.
+  - **Why it matters** The cross-tissue analysis is a key part of the paper's claim about tissue specificity. Without a clear and statistically grounded analysis, the conclusion that binding determinants are tissue-specific is not established.
+  - **Resolution test** Clarify the presentation of cross-tissue results, possibly with a heatmap or table showing all pairwise combinations. Provide statistical comparisons between cross-tissue and within-tissue performance (e.g., paired tests across folds). Include a control analysis, such as training on one tissue and testing on a randomly permuted version of another tissue, to establish a baseline. Discuss why certain cross-tissue combinations perform better than others.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods describe hyperparameter tuning via grid search, but the specific ranges and final hyperparameters are not reported.
+  - **Evidence pointer** Methods section "XGBoost"
+  - **Concern** The grid search space is described in terms of parameter ranges, but the final selected hyperparameters for each model and tissue are not provided. This limits reproducibility. Additionally, the number of trees, learning rate, and other key parameters are not reported. The authors also do not state whether the same hyperparameters were used for all tissues or whether they were tuned separately.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without the final hyperparameters, other researchers cannot replicate the models or assess the sensitivity of the results to parameter choices.
+  - **Resolution test** Provide a table or supplementary file listing the final hyperparameters for each model and tissue. Describe the grid search ranges more precisely and state the criterion for selecting the best hyperparameters (e.g., AUROC on validation set).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data handling
+  - **Claim pointer** The authors state that "E-box motifs in accessible chromatin regions but not overlapping their respective tissue ChIP-seq bed files were used as instances of unbound motifs."
+  - **Evidence pointer** Methods section "ChIP-seq dataset preprocessing"
+  - **Concern** The negative set is defined as all E-boxes in accessible chromatin not overlapping ChIP-seq peaks. This is a common approach, but it may introduce bias if some of these E-boxes are actually bound but not detected by ChIP-seq (e.g., due to technical limitations or transient binding). The authors do not discuss this potential mislabeling or its impact on model performance. Additionally, the choice of using all accessible E-boxes as negatives, rather than a matched set, may affect the generalizability of the models.
+  - **Why it matters** The quality of the negative set directly affects model training and evaluation. If the negative set contains false negatives, the models may learn to distinguish bound from unbound based on technical artifacts rather than biological features.
+  - **Resolution test** Discuss the potential for false negatives in the negative set and consider sensitivity analyses, such as using a more stringent negative set (e.g., E-boxes in regions with no ChIP-seq signal at any time point) or using a matched set based on accessibility levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the models are "interpretable" and provide "mechanistic insights," but the specific nature of these insights is not summarized. The abstract would benefit from a brief statement of the key finding, such as the importance of specific histone modifications or DNA shape features.
+  - **Required correction** Add one or two sentences in the abstract summarizing the main mechanistic finding, e.g., "Our analysis identified histone modification H3K27ac and the DNA shape feature electrostatic potential as dominant predictors of BMAL1 binding across tissues, with tissue-specific contributions from flanking sequence."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Performance of sequence + shape + histone modification (HM) models"
+  - **Evidence pointer** Table 1
+  - **Issue** The performance differences between models are reported as means with confidence intervals, but no statistical test is applied to determine whether the differences are significant. For example, the AUPRC improvement from sequence-only to sequence+shape+HM in the liver is large, but it is unclear if this is significant given the overlap in confidence intervals.
+  - **Required correction** Perform a statistical test (e.g., paired Wilcoxon test across folds) to compare model performances and report p-values or effect sizes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Fig. 6
+  - **Issue** The figure legend for Fig. 6 is incomplete. It does not explain the notation for the cross-tissue models (e.g., "liver_kidney") or the meaning of the different panels. The figure is also difficult to read because the bars are not labeled with values.
+  - **Required correction** Expand the figure legend to explain the notation and panels. Add value labels to the bars or provide a table with the exact numbers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Histone modification preprocessing"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that histone modification data were obtained from ENCODE, but the specific datasets (e.g., accession numbers, tissue types, antibodies) are not listed. This limits reproducibility.
+  - **Required correction** Provide a supplementary table listing the ENCODE accession numbers and relevant metadata for all histone modification datasets used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions that "DNA shape features by themselves do not enhance model accuracy," but this result is not shown in the main text or supplementary figures. The authors should either show this result or remove the claim.
+  - **Required correction** Add a supplementary figure or table showing the performance of DNA shape-only models, or remove the statement from the discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (feature importance robustness and statistical support), R1-M2 (cross-tissue model interpretation and statistical grounding), R1-M3 (hyperparameter reporting), R1-M4 (negative set bias).
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is moderately original. While machine learning approaches to TF binding prediction are common, the focus on tissue-specific BMAL1 binding with interpretable features is a novel application. The finding that DNA shape and histone modifications improve prediction is not entirely unexpected but is useful.
+  - **Scientific importance** The topic is of interest to circadian biology and regulatory genomics. However, the importance is limited by the lack of experimental validation and the correlational nature of the analysis. The claims of "mechanistic insights" are not fully supported.
+  - **Interdisciplinary readership** The work bridges computational biology and circadian biology, which could attract readers from both fields. However, the presentation is somewhat technical and may not be accessible to a broad audience.
+  - **Technical soundness** The technical approach is generally sound, but there are concerns about the robustness of feature importance, the interpretation of cross-tissue results, and the handling of the negative set. These issues need to be addressed.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but includes technical details that may be challenging for nonspecialists. The abstract and introduction are accessible, but the results and methods sections assume familiarity with machine learning and genomics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the within-tissue results are encouraging, but the current evidence does not fully support the mechanistic claims. The authors should address the concerns raised, particularly around feature importance robustness, cross-tissue interpretation, and reproducibility.
+
+## Risk / unsupported claims
+- The claim that the models provide "mechanistic insights into tissue specificity" is not fully supported by the evidence, as feature importance is not statistically validated and the cross-tissue analysis is not rigorously interpreted.
+- The statement that "histone modifications, the local shape of the DNA, and the flanking sequence of the E-box motif are sufficient predictive features" is an overstatement, as the models are correlational and the sufficiency of these features is not tested.
+- The claim that "DNA shape features by themselves do not enhance model accuracy" is not supported by any shown result.
+- The interpretation that the kidney_liver and heart_liver cross-tissue models show improved performance with full features is not explained or statistically tested.
+- The authors state that the central two nucleotides of the E-box did not contribute to model performance, but this is inconsistent with the observed preference for CACGTG and is not resolved.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.22.521698",
+  "title": "Deep Generative Design of Epitope-Specific Binding Proteins by Latent Conformation Optimization",
+  "authors": "Raphael R. Eguchi; Christian A. Choe; Udit Parekh; Irene S. Khalek; Michael D. Ward; Neha Vithani; Gregory R. Bowman; Joseph G. Jardine; Po-Ssu Huang",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度生成模型结合分子动力学构象采样设计表位特异性结合蛋白，虽非TF-DNA体系，但蛋白-表位互作建模与构象优化方法可迁移至TF-DNA结合设计。",
+  "abstract": "A bstract Designing de novo binding proteins against arbitrary epitopes using a single scaffold, as seen with natural antibodies, remains an unsolved challenge in protein design. Current design methods are unable to capture the structural dynamics of flexible loops nor search loop conformational space in a principled way. Here we present Sculptor, a deep generative design algorithm that creates epitope-specific protein binders. The Sculptor algorithm constitutes a joint search over the positions, interactions, and generated conformations of a fold, and crafts a backbone to complement a user-specified epitope. Sequences are designed onto generated backbones using a combination of a residue-wise interaction database, a convolutional sequence design module, and Rosetta. Instead of relying on static structures, we capture the local conformational landscape of a single fold using molecular dynamics, and demonstrate that a model trained on such dense conformational data can generate backbones tailor-fit to an epitope. We use Sculptor to design binders against a conserved epitope on venom toxins implicated in neuromuscular paralysis, and obtain a multi-toxin binder from a small naïve library – a promising step towards creating broadly neutralizing binders. This study constitutes a novel application of deep generative modeling for epitope-targeted design, leveraging conformational dynamics to achieve function.",
+  "abstract_zh": "摘要 利用单一支架针对任意表位设计从头结合蛋白，如同天然抗体所展现的那样，仍是蛋白质设计中的一个未解挑战。当前设计方法既无法捕捉柔性环的结构动态，也无法以原则性方式搜索环构象空间。在此，我们提出Sculptor，一种深度生成设计算法，用于创建表位特异性蛋白质结合物。Sculptor算法对折叠的位置、相互作用及生成构象进行联合搜索，并构建一个骨架以互补用户指定的表位。序列通过结合残基级相互作用数据库、卷积序列设计模块和Rosetta设计到生成的骨架上。我们不依赖静态结构，而是利用分子动力学 (molecular dynamics) 捕捉单一折叠的局部构象景观，并证明在这种密集构象数据上训练的模型能够生成针对表位量身定制的骨架。我们使用Sculptor针对与神经肌肉麻痹相关的毒液毒素上的保守表位设计结合物，并从一个小型初始文库中获得一种多毒素结合物——这是迈向生成广泛中和结合物的有前景一步。本研究代表了深度生成建模在表位靶向设计中的新颖应用，利用构象动态实现功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521698",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521698",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.22.521698/index.html"
+}

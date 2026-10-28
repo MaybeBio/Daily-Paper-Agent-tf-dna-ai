@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39527559",
+  "title": "Molecular dynamics simulations of a multicellular model with cell-cell interactions and Hippo signaling pathway.",
+  "authors": "Umegaki, Toshihito; Moriizumi, Hisashi; Ogushi, Fumiko; Takekawa, Mutsuhiro; Suzuki, Takashi",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用分子动力学模拟多细胞增殖模型与Hippo信号通路，但核心是细胞群体动力学而非蛋白质-DNA互作，且无AI或蛋白-DNA结合建模，与本课题无关。",
+  "abstract": "The transcriptional coactivator Yes-associated protein (YAP)/transcriptional co-activator with PDZ binding motif (TAZ) induces cell proliferation through nuclear localization at low cell density. Conversely, at extremely high cell density, the Hippo pathway, which regulates YAP/TAZ, is activated. This activation leads to the translocation of YAP/TAZ into the cytoplasm, resulting in cell cycle arrest. Various cancer cells have several times more YAP/TAZ than normal cells. However, it is not entirely clear whether this several-fold increase in YAP/TAZ alone is sufficient to overcome proliferation inhibition (contact inhibition) under high-density conditions, thereby allowing continuous proliferation. In this study, we construct a three-dimensional (3D) mathematical model of cell proliferation incorporating the Hippo-YAP/TAZ pathway. Herein, a significant innovation in our approach is the introduction of a novel modeling component that inputs cell density, which reflects cell dynamics, into the Hippo pathway and enables the simulation of cell proliferation as the output response. We assume such 3D model with cell-cell interactions by solving reaction and molecular dynamics (MD) equations by applying adhesion and repulsive forces that act between cells and frictional forces acting on each cell. We assume Lennard-Jones (12-6) potential with a softcore character so that each cell secures its exclusive domain. We set cell cycles composed of mitotic and cell growth phases in which cells divide and grow under the influence of cell kinetics. We perform mathematical simulations at various YAP/TAZ levels to investigate the extent of YAP/TAZ increase required for sustained proliferation at high density. The results show that a twofold increase in YAP/TAZ levels of cancer cells was sufficient to evade cell cycle arrest compared to normal cells, enabling cells to continue proliferating even under high-density conditions. Finally, this mathematical model, which incorporates cell-cell interactions and the Hippo-YAP/TAZ pathway, may be applicable for evaluating cancer malignancy based on YAP/TAZ levels, developing drugs to suppress the abnormal proliferation of cancer cells, and determining appropriate drug dosages. The source codes are freely available.",
+  "abstract_zh": "转录共激活因子Yes相关蛋白（YAP）/含PDZ结合基序的转录共激活因子（TAZ）在低细胞密度下通过核定位诱导细胞增殖。相反，在极高细胞密度下，调控YAP/TAZ的Hippo通路被激活。这种激活导致YAP/TAZ转位至细胞质，从而引起细胞周期停滞。多种癌细胞中的YAP/TAZ水平比正常细胞高出数倍。然而，尚不完全清楚仅凭YAP/TAZ的这几倍增加是否足以克服高密度条件下的增殖抑制（接触抑制），从而允许持续增殖。在本研究中，我们构建了一个包含Hippo-YAP/TAZ通路的三维（3D）细胞增殖数学模型。在此，我们方法的一个显著创新是引入了一个新型建模组件，该组件将反映细胞动力学的细胞密度输入到Hippo通路中，并能够模拟细胞增殖作为输出响应。我们假设这种3D模型具有细胞间相互作用，通过求解反应和分子动力学（molecular dynamics, MD）方程，并应用作用于细胞间的粘附力和排斥力以及作用于每个细胞的摩擦力来实现。我们假设具有软核特征的Lennard-Jones（12-6）势，以确保每个细胞占据其专属区域。我们设置了由有丝分裂期和细胞生长期组成的细胞周期，其中细胞在细胞动力学影响下进行分裂和生长。我们在不同YAP/TAZ水平下进行数学模拟，以探究在高密度下持续增殖所需的YAP/TAZ增加程度。结果表明，与正常细胞相比，癌细胞中YAP/TAZ水平的两倍增加足以逃避细胞周期停滞，使细胞即使在高密度条件下也能继续增殖。最后，这种结合了细胞间相互作用和Hippo-YAP/TAZ通路的数学模型，可能适用于基于YAP/TAZ水平评估癌症恶性程度、开发抑制癌细胞异常增殖的药物以及确定适当的药物剂量。源代码可免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39527559/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39527559/",
+  "paper_page_path": "papers/pubmed/39527559/index.html"
+}

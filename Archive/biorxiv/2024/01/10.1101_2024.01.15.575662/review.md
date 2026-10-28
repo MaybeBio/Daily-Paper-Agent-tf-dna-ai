@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with stated claims; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors use atomistic MD simulations and free energy calculations to show that ATP binding to free CDK1 is allosterically coupled to three protein-protein interaction interfaces (Cyclin-B, substrate, Cks), and that perturbations of the active site lysine K33 (acetylation or mutations) reduce ATP binding affinity while producing correlated but sometimes decoupled entropic and dynamic changes in these remote regions.
+- **Visible evidence base** Main text figures (Fig. 2, 3, 4, 5), supplementary figure references (Fig. S1–S15), supplementary tables (Table S1–S8), methods section (Sections 2.1–2.3), and prior published work (ref. 25)
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided; specific numerical values for free energies, entropies, and variances are not given in the main text; no error bars or statistical significance tests are reported; the quasi-harmonic entropy method's convergence criteria are not fully described; the docking protocol for ATP is described only briefly
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally intensive and potentially interesting study of allosteric communication in CDK1. The central claim, that ATP binding to the active site is thermodynamically and dynamically coupled to three remote protein-protein interaction interfaces, is supported by the qualitative trends described. However, the lack of quantitative data in the main text, incomplete methodological details, and the absence of validation against experimental binding free energies weaken the current presentation. The entropy decomposition scheme is a useful contribution, but its reliability and the interpretation of the correlation breakdown require more rigorous justification.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, enzymology, and cell cycle biology would be interested. The study addresses fundamental questions about allosteric regulation in kinases, a protein family of high therapeutic relevance. The entropy decomposition approach may also appeal to method developers in the MD simulation community.
+- **Major strengths** The study addresses a biologically important question with a rigorous computational framework. The use of multiple perturbed states (acetylation, K33Q, K33R) and both ATP-free and ATP-bound conditions provides a systematic exploration. The entropy decomposition into segmental contributions is a novel and potentially powerful analytical tool. The finding that entropy and flexibility changes can decouple in a subset of trajectories is an important cautionary observation for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "ATP binding is energetically more favorable in K33wt relative to all other states" and "free energy of ATP binding in CDK1 without Cyclin-B indeed reduces by 36, 40 and 12 kcal/mol" for K33Ac, K33Q, K33R respectively
+  - **Evidence pointer** Section 3.1, Fig. 2a
+  - **Concern** The reported free energy differences (36, 40, 12 kcal/mol) are extremely large for single amino acid substitutions or a post-translational modification. Typical binding free energy differences for such perturbations are on the order of 1–5 kcal/mol. The authors do not provide absolute binding free energies, error estimates, or a comparison with experimental values (e.g., from the FSBA competition assays mentioned). Without these, the quantitative claim is not verifiable and may indicate a methodological artifact.
+  - **Why it matters** The magnitude of the reported differences is central to the paper's conclusion that K33 perturbations significantly alter ATP binding. If the values are inflated due to methodological choices (e.g., MM-GBSA limitations, insufficient sampling), the biological interpretation would be compromised.
+  - **Resolution test** Provide absolute binding free energies with standard errors for all systems. Compare computed relative binding free energies with experimental values from ref. 25. If the large differences persist, demonstrate convergence with respect to simulation length and show that the MM-GBSA results are consistent with an independent method (e.g., thermodynamic integration or FEP).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** "We develop an entropy decomposition scheme which reveals... significant non-local entropy responses to ATP binding/perturbation of K33"
+  - **Evidence pointer** Section 2.3, Section 3.2, Fig. 2c–d
+  - **Concern** The quasi-harmonic entropy calculation is known to be sensitive to the number of modes included, the fitting procedure, and the simulation length. The authors state that entropy contributions saturate after ~300 modes, but no convergence tests are shown. The decomposition into segmental contributions assumes that the covariance matrix can be cleanly partitioned, which may not hold if modes are delocalized. The method is not benchmarked against a known system or an alternative entropy estimator.
+  - **Why it matters** The central novelty of the paper is the segmental entropy decomposition. If the method is not validated, the specific claims about which segments contribute entropically cannot be trusted.
+  - **Resolution test** Show convergence of entropy estimates with respect to simulation length and number of modes. Validate the decomposition on a system with known entropy contributions (e.g., a small peptide or a well-studied protein-ligand system). Compare quasi-harmonic results with an independent method (e.g., 2PT or Schlitter's formula).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical robustness
+  - **Claim pointer** "Statistical analysis of a large set of MD trajectories reveal that... correlations may be lost in about 9-48 % of the dataset depending on the segment"
+  - **Evidence pointer** Section 3.4, Fig. 4, Table S8
+  - **Concern** The authors report a wide range (9–48%) of trajectory pairs showing a lack of correlation between entropy and variance changes. The criteria for defining "lack of correlation" are not specified. It is unclear whether this is based on a correlation coefficient threshold, a significance test, or a qualitative assessment. The biological or methodological implications of this decoupling are not discussed in sufficient depth.
+  - **Why it matters** This finding is presented as a cautionary note about interpreting single-trajectory data. However, without a clear statistical framework, the reader cannot assess whether the decoupling is a real phenomenon or an artifact of the analysis.
+  - **Resolution test** Define the statistical criterion for correlation/decoupling explicitly. Provide a distribution of correlation coefficients across trajectory pairs. Discuss possible origins of the decoupling (e.g., anharmonicity, mode coupling) and test whether the decoupling is reduced with longer simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** "Our results clearly indicate the allosteric entropic contributions to ATP binding from functionally relevant PPI loop segments in CDK1" and "proving the bi-directional communication between the active site and CDK1:Cyclin-B interface"
+  - **Evidence pointer** Section 3.2, Section 5
+  - **Concern** The authors use the word "proving" in the abstract, which is too strong for a computational study. The simulations show correlations and energetic contributions, but they do not establish causality or demonstrate that the allosteric coupling is functionally relevant in a cellular context. The connection to the previous experimental study (ref. 25) is suggestive but not definitive.
+  - **Why it matters** Overstatement of conclusions can mislead readers and overstate the significance of the findings. The computational evidence is consistent with allostery but does not prove it in a biological sense.
+  - **Resolution test** Soften the language to "provide evidence for" or "are consistent with." Discuss explicitly what additional experiments would be needed to confirm the allosteric mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The equations for free energy calculations are referenced but not shown in the provided text. The notation is unclear (e.g., "where X is K33wt/Ac/Q/R" and the expressions for ΔG and ΔΔG are incomplete).
+  - **Required correction** Provide the full equations with all terms defined. Clarify the relationship between ΔG_X, ΔΔG, and the enthalpy/entropy decomposition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The docking protocol for ATP is described as "refined during molecular dynamics equilibrations," which is vague. It is unclear whether the ATP was placed manually, docked computationally, or taken from a homologous structure.
+  - **Required correction** Describe the initial placement of ATP in the active site, including any docking software used, and the criteria for accepting the initial pose.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, Fig. 2
+  - **Evidence pointer** Section 3.1, Fig. 2
+  - **Issue** The text states that "binding still remains favourable in these perturbed systems" but does not provide the absolute values of ΔG for any system. Without these, the reader cannot judge the magnitude of the reduction.
+  - **Required correction** Report absolute binding free energies (with errors) for all four systems in the main text or a table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4, Fig. 4
+  - **Issue** The discussion of the correlation breakdown is brief. The authors mention that entropy and variance changes correlate when the first 2 slowest modes are included but break down with higher modes. This is an interesting observation but is not connected to the physical interpretation of the system.
+  - **Required correction** Expand the discussion to explain what the mode-dependence implies for the nature of the allosteric coupling and whether this is expected for proteins of this size.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support), R1-M2 (methodological validation), R1-M3 (statistical robustness)
+- **Assessment against Nature-style criteria**
+  - **Originality** The entropy decomposition approach and the focus on multiple PPI interfaces in a single kinase are somewhat novel, but the general concept of allosteric coupling in kinases is well established. The study does not introduce a fundamentally new concept.
+  - **Scientific importance** The question of how active site perturbations affect remote protein-protein interactions is relevant for understanding kinase regulation and drug design. However, the study is purely computational and lacks experimental validation of the new predictions, limiting its immediate impact.
+  - **Interdisciplinary readership** The work will appeal to computational biophysicists and biochemists, but the presentation is technical and may not be accessible to a broader biological audience. The biological implications are not framed in a way that would engage cell biologists or pharmacologists.
+  - **Technical soundness** The methods are state-of-the-art, but the lack of convergence tests, error estimates, and validation of the entropy decomposition reduces confidence in the results. The large free energy differences are a red flag that requires explanation.
+  - **Readability for nonspecialists** The manuscript is dense and assumes familiarity with MD simulation techniques and free energy methods. The abstract is somewhat accessible, but the results section would be challenging for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the quantitative claims are not supported by the data presented, and the methodological novelty is not sufficiently validated. The authors should address the major concerns, particularly the free energy magnitudes and the entropy decomposition validation, before the case for allosteric coupling can be considered robust.
+
+## Risk / unsupported claims
+- The specific free energy differences (36, 40, 12 kcal/mol) are reported without error bars or comparison to experiment, making them unverifiable.
+- The claim of "proving" bidirectional communication is unsupported; the evidence is correlational and computational.
+- The entropy decomposition results are presented without validation of the method or convergence tests.
+- The statement that "all three PPI interfaces" are allosterically coupled is based on entropy changes in segments, but the functional relevance of these changes is not demonstrated.
+- The claim that "9-48% of trajectory pairs show a lack of correlation" is not accompanied by a statistical definition or significance testing.

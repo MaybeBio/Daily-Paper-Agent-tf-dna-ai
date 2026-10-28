@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38977339",
+  "title": "[Identification of potential biomarkers and immunoregulatory mechanisms of rheumatoid arthritis based on multichip co-analysis of GEO database].",
+  "authors": "Chen, L; Wu, T; Zhang, M; Ding, Z; Zhang, Y; Yang, Y; Zheng, J; Zhang, X",
+  "journal": "Nan fang yi ke da xue xue bao = Journal of Southern Medical University",
+  "published_date": "2024-07-09",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该文基于GEO数据库多芯片共分析筛选类风湿关节炎生物标志物并探讨免疫调控机制，属于纯转录组差异表达与免疫细胞关联分析，无蛋白质-DNA互作体系、无结合建模，亦无AI/物理模拟方法，与本课题无关。",
+  "abstract": "OBJECTIVE: To identify the biomarkers for early rheumatoid arthritis (RA) diagnosis and explore the possible immune regulatory mechanisms. METHODS: The differentially expressed genesin RA were screened and functionally annotated using the limma, RRA, batch correction, and clusterProfiler. The protein-protein interaction network was retrieved from the STRING database, and Cytoscape 3.8.0 and GeneMANIA were used to select the key genes and predicting their interaction mechanisms. ROC curves was used to validate the accuracy of diagnostic models based on the key genes. The disease-specific immune cells were selected via machine learning, and their correlation with the key genes were analyzed using Corrplot package. Biological functions of the key genes were explored using GSEA method. The expression of STAT1 was investigated in the synovial tissue of rats with collagen-induced arthritis (CIA). RESULTS: We identified 9 core key genes in RA (CD3G, CD8A, SYK, LCK, IL2RG, STAT1, CCR5, ITGB2, and ITGAL), which regulate synovial inflammation primarily through cytokines-related pathways. ROC curve analysis showed a high predictive accuracy of the 9 core genes, among which STAT1 had the highest AUC (0.909). Correlation analysis revealed strong correlations of CD3G, ITGAL, LCK, CD8A, and STAT1 with disease-specific immune cells, and STAT1 showed the strongest correlation with M1-type macrophages (R=0.68, P=2.9e-08). The synovial tissues of the ankle joints of CIA rats showed high expressions of STAT1 and p-STAT1 with significant differential expression of STAT1 between the nucleus and the cytoplasm of the synovial fibroblasts. The protein expressions of p-STAT1 and STAT1 in the cell nuclei were significantly reduced after treatment. CONCLUSION: CD3G, CD8A, SYK, LCK, IL2RG, STAT1, CCR5, ITGB2, and ITGAL may serve as biomarkers for early diagnosis of RA. Gene-immune cell pathways such as CD3G/CD8A/LCK-gammadelta T cells, ITGAL-Tfh cells, and STAT1-M1-type macrophages may be closely related with the development of RA.",
+  "abstract_zh": "目的：寻找早期类风湿关节炎（RA）诊断的生物标志物，并探讨可能的免疫调节机制。方法：利用limma、RRA、批次校正和clusterProfiler筛选RA中差异表达基因并进行功能注释。从STRING数据库获取蛋白质-蛋白质相互作用网络，使用Cytoscape 3.8.0和GeneMANIA选择关键基因并预测其相互作用机制。采用ROC曲线验证基于关键基因构建的诊断模型的准确性。通过机器学习选择疾病特异性免疫细胞，并使用Corrplot包分析其与关键基因的相关性。利用GSEA方法探讨关键基因的生物学功能。在胶原诱导性关节炎（CIA）大鼠滑膜组织中研究STAT1的表达。结果：我们在RA中鉴定出9个核心关键基因（CD3G、CD8A、SYK、LCK、IL2RG、STAT1、CCR5、ITGB2和ITGAL），这些基因主要通过细胞因子相关通路调节滑膜炎症。ROC曲线分析显示9个核心基因具有较高的预测准确性，其中STAT1的AUC最高（0.909）。相关性分析显示CD3G、ITGAL、LCK、CD8A和STAT1与疾病特异性免疫细胞存在强相关性，且STAT1与M1型巨噬细胞的相关性最强（R=0.68，P=2.9e-08）。CIA大鼠踝关节滑膜组织显示STAT1和p-STAT1高表达，且滑膜成纤维细胞核与细胞质中STAT1表达存在显著差异。治疗后，细胞核中p-STAT1和STAT1的蛋白表达显著降低。结论：CD3G、CD8A、SYK、LCK、IL2RG、STAT1、CCR5、ITGB2和ITGAL可能作为RA早期诊断的生物标志物。基因-免疫细胞通路，如CD3G/CD8A/LCK-γδT细胞、ITGAL-Tfh细胞和STAT1-M1型巨噬细胞，可能与RA的发生发展密切相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38977339/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38977339/",
+  "paper_page_path": "papers/pubmed/38977339/index.html"
+}

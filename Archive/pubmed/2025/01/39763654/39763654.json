@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "39763654",
+    "doi": "10.3389/fimmu.2024.1480542",
+    "title": "Identification and experimental validation of diagnostic and prognostic genes CX3CR1, PID1 and PTGDS in sepsis and ARDS using bulk and single-cell transcriptomic analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis is an uncontrolled reaction to infection that causes severe organ dysfunction and is a primary cause of ARDS. Patients suffering both sepsis and ARDS have a poor prognosis and high mortality. However, the mechanisms behind their simultaneous occurrence are unclear. METHODS: We acquired sepsis and ARDS datasets from GEO and Arrayexpress databases and screened hub genes by WGCNA and machine learning algorithm. For diagnosis and prognosis, ROC curve and survival analysis were used. We performed GO, KEGG, GSEA, immune cell infiltration, drug prediction, molecular docking, transcription factor prediction, and constructed PPI and ceRNA networks to explore these genes and the common mechanisms of sepsis and ARDS. Single-cell data analysis compared immune cell profiles and hub gene localization. Finally, RT-qPCR and H&E staining confirmed the reliability of hub genes using PBMCs samples and mouse models. RESULTS: We identified 242 common differentially expressed genes in sepsis and ARDS. WGCNA analysis showed that the turquoise module in GSE95233 is strongly linked to sepsis occurrence and poor prognosis, while the black module in GSE10474 is associated with ARDS. Using WGCNA and three machine learning methods (LASSO, random forest and Boruta), we identified three key genes CX3CR1, PID1 and PTGDS. Models built with them showed high AUC values in ROC curve evaluations and were validated by external datasets, accurately predicting the occurrence and mortality. We further explored the immunological landscape of these genes using immune infiltration and single-cell analysis. Then, the ceRNA, predicted drugs and molecular docking were analyzed. Ultimately, we demonstrated that these genes are expressed differently in human and mouse samples with sepsis and ARDS. CONCLUSION: This study identified three molecular signatures (CX3CR1, PID1 and PTGDS) linked to the diagnosis and poor prognosis of sepsis and ARDS, validated by RT-qPCR and H&E staining in both patient and mouse samples. This research may be valuable for identifying shared biological mechanisms and potential treatment targets for both diseases.",
+    "keywords": [
+      "ARDS",
+      "diagnosis",
+      "machine learning",
+      "prognosis",
+      "sepsis",
+      "single-cell"
+    ],
+    "mesh_terms": [
+      "*Sepsis/genetics/diagnosis/immunology",
+      "*Machine Learning",
+      "*Respiratory Distress Syndrome/genetics/immunology/diagnosis",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Gene Expression Profiling",
+      "*CX3C Chemokine Receptor 1/genetics",
+      "Prognosis",
+      "*Single-Cell Analysis",
+      "Transcriptome",
+      "Biomarkers",
+      "Gene Regulatory Networks",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Jijin",
+        "Chen, Yan",
+        "Su, Yue",
+        "Zhang, Li",
+        "Qian, Hao",
+        "Song, Xinmiao",
+        "Xu, Jin-Fu"
+      ],
+      "short_names": [
+        "Jiang J",
+        "Chen Y",
+        "Su Y",
+        "Zhang L",
+        "Qian H",
+        "Song X",
+        "Xu JF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Jijin",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yue",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Li",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Hao",
+        "short_name": "Qian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xinmiao",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jin-Fu",
+        "short_name": "Xu JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Institute of Respiratory Medicine, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/07 10:53",
+    "fetched_at": "2026-09-30 09:13:46"
+  },
+  "links": {
+    "cites": [
+      "42213300",
+      "41965341",
+      "41868226",
+      "41585697",
+      "41332909",
+      "40969353",
+      "40343466"
+    ],
+    "refs": [
+      "39476129",
+      "39449054",
+      "38953031",
+      "38840216",
+      "38698086",
+      "38660801",
+      "38609158",
+      "38558817",
+      "38423372",
+      "38395902",
+      "38242171",
+      "38236387",
+      "37901228",
+      "37700323",
+      "37326646",
+      "37228596",
+      "36936945",
+      "36920635",
+      "36835919",
+      "36795835",
+      "36775249",
+      "36270955",
+      "36209190",
+      "36203606",
+      "36070788",
+      "36070787",
+      "35782542",
+      "35745829",
+      "35729588",
+      "35651603",
+      "35411170",
+      "35222395",
+      "34991675",
+      "34758337",
+      "34705481",
+      "34400893",
+      "33679715",
+      "33151963",
+      "32733454",
+      "32617019",
+      "32554932",
+      "32527985",
+      "32120030",
+      "31954465",
+      "31625371",
+      "31477170",
+      "31385383",
+      "30872586",
+      "30462313",
+      "29976772",
+      "29967433",
+      "29937192",
+      "29895331",
+      "29691495",
+      "29544173",
+      "29391195",
+      "29297082",
+      "29080116",
+      "29045534",
+      "28603723",
+      "28345952",
+      "28169944",
+      "27789702",
+      "27740627",
+      "27364780",
+      "27217054",
+      "27199981",
+      "27172163",
+      "26903338",
+      "26903337",
+      "26787173",
+      "26529661",
+      "26414292",
+      "26320157",
+      "26160897",
+      "25732436",
+      "25525303",
+      "24838355",
+      "24232462",
+      "23874546",
+      "23085536",
+      "23043249",
+      "19620400",
+      "18497708",
+      "17675519",
+      "17540585"
+    ],
+    "similar": [
+      "39763654",
+      "40849369",
+      "40055592",
+      "40821971",
+      "41388523",
+      "40892227",
+      "39735547",
+      "41221285",
+      "40129981",
+      "35538832",
+      "41214769",
+      "42250009",
+      "39384856",
+      "40165133",
+      "41089329",
+      "40068062",
+      "42327749",
+      "40406126",
+      "40375981",
+      "41611834",
+      "38656728",
+      "40124361",
+      "40967560",
+      "41735888",
+      "40374840",
+      "40836320",
+      "41013556",
+      "41816342",
+      "38863714",
+      "35844622",
+      "40697417",
+      "41703488",
+      "41306613",
+      "40453984",
+      "42291298",
+      "39142001",
+      "39586719",
+      "39953444",
+      "40362233",
+      "41246299",
+      "42305536",
+      "39993996",
+      "42015036",
+      "42274933",
+      "42233387",
+      "41436831",
+      "40362669",
+      "41013727",
+      "41052072",
+      "41107929",
+      "33280594",
+      "40406620",
+      "41740292",
+      "41570454",
+      "42391245",
+      "41955235",
+      "40973872",
+      "41472734",
+      "41432483",
+      "42404897",
+      "41265166",
+      "39139563",
+      "40350654",
+      "42081554",
+      "41291841",
+      "41479901",
+      "40898483",
+      "40766309",
+      "40997906",
+      "37822934",
+      "42398170",
+      "39034722",
+      "38051734",
+      "40830558",
+      "38440848",
+      "41789070",
+      "41863100",
+      "41200172",
+      "39904039",
+      "39430765",
+      "40374866",
+      "39080525",
+      "40613299",
+      "42024670",
+      "42247642",
+      "41624884",
+      "39375405",
+      "40768057",
+      "40425742",
+      "42267557",
+      "40500570",
+      "39754246",
+      "41422136",
+      "40328901",
+      "39170609",
+      "38839020",
+      "39364223",
+      "39086489",
+      "41044520",
+      "41388329"
+    ],
+    "review": [
+      "39763654"
+    ],
+    "pmc": [
+      "11700820"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39763654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-686",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1480542",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

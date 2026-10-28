@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "37748390",
+    "doi": "10.1016/j.phymed.2023.155081",
+    "title": "Berberine ameliorate inflammation and apoptosis via modulating PI3K/AKT/NFkappaB and MAPK pathway on dry eye."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dry eye disease (DED) is a multifactorial disease in ocular surface, and inflammation plays an etiological role. Berberine (BBR) has shown efficacy in treating inflammatory diseases. Yet, there was no adequate information related to the therapeutic effects of BBR for DED. PURPOSE: To detect the effects and explore the potential mechanisms of BBR on DED. STUDY DESIGN: In vitro, in vivo study and network pharmacology analysis were involved. METHOD: The human corneal epithelium cells viability was evaluated with different concentrations of BBR. Dry eye murine model was established by exposing to the desiccating stress, and Ciclosporin (CSA), BBR eye drops or vehicle were topical administration for 7 days. The phenol red cotton tests, Oregon-green-dextran staining and Periodic acid-Schiff staining were performed and evaluated the dry eye after treatment. Inflammation and apoptosis levels of ocular surface were quantified. The potential targets related to berberine and dry eye were collected from databases. The Protein-Protein interaction network analysis and GO & KEGG enrichment analysis were realized by STRING database, Metascape platform and Cytoscape software to find core targets and signaling pathways. The SchrOdinger software was used to molecular docking and PyMOL software to visualization. Finally, the levels of PI3K/AKT/NFkappaB and MAPK pathways were detected. RESULT: The data revealed BBR could rescue impaired HCE under hyperosmotic conditions. In addition, BBR eye drops could ameliorate dry eye. And BBR eye drops suppressed the inflammatory factors and CD4(+)T cells infiltration in conjunctiva. Besides, BBR eye drops protected ocular surface by avoiding the severe apoptosis and decreasing the level of MMP-3 and MMP-9. 148 common targets intersection between BBR and dry eye were found via network pharmacology analysis. Core proteins and core pathways were identified through PPI and GO&KEGG enrichment analysis. Molecular docking displayed excellent binding between BBR and those core targets. Finally, in vivo study verified that BBR eye drops had a therapeutic effect in dry eye by inhibiting PI3K/AKT/NFkappaB and MAPK pathways. CONCLUSION: The research provided convincing evidence that BBR could be a candidate drug for dry eye.",
+    "keywords": [
+      "Apoptosis",
+      "Berberine",
+      "Dry eye disease",
+      "Inflammation",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Humans",
+      "Animals",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "*Berberine/chemistry",
+      "Molecular Docking Simulation",
+      "Apoptosis",
+      "NF-kappa B/metabolism",
+      "Inflammation/drug therapy",
+      "Ophthalmic Solutions/pharmacology",
+      "*Dry Eye Syndromes/drug therapy/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Yi",
+        "Guo, Shujia",
+        "Li, Yunpeng",
+        "Li, Jiani",
+        "Zhu, Linfangzi",
+        "Liu, Yuwen",
+        "Lv, Yufei",
+        "Yu, Dong",
+        "Zheng, Lan",
+        "Huang, Caihong",
+        "Li, Cheng",
+        "Hu, Jiaoyue",
+        "Liu, Zuguo"
+      ],
+      "short_names": [
+        "Han Y",
+        "Guo S",
+        "Li Y",
+        "Li J",
+        "Zhu L",
+        "Liu Y",
+        "Lv Y",
+        "Yu D",
+        "Zheng L",
+        "Huang C",
+        "Li C",
+        "Hu J",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "State Key Laboratory of Cellular Stress Biology, School of Life Sciences, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. Electronic address: cheng-li@xmu.edu.cn.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China. Electronic address: mydear_22000@163.com.",
+        "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. Electronic address: zuguoliu@xmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Yi",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Shujia",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yunpeng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiani",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Linfangzi",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuwen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Yufei",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, School of Life Sciences, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Lan",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Caihong",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China."
+        ]
+      },
+      {
+        "full_name": "Li, Cheng",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. Electronic address: cheng-li@xmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hu, Jiaoyue",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China. Electronic address: mydear_22000@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Zuguo",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Xiang'an Hospital of Xiamen University, Fujian Engineering and Research Center of Eye Regenerative Medicine, Fujian Provincial Key Laboratory of Ophthalmology and Visual Science, Eye Institute & Affiliated Xiamen Eye Center, School of Medicine, Xiamen University, Xiamen, Fujian, 361102, China; Department of Ophthalmology, the First Affiliated Hospital of University of South China, Postdoctoral mobile station of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. Electronic address: zuguoliu@xmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/26 00:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42327496",
+      "42298679",
+      "42205286",
+      "42175431",
+      "42138516",
+      "42121730",
+      "42088943",
+      "42057025",
+      "42039854",
+      "41988530",
+      "41931033",
+      "41909605",
+      "41843563",
+      "41821616",
+      "41758269",
+      "41757826",
+      "41731548",
+      "41684535",
+      "41615571",
+      "41601667",
+      "41596399",
+      "41399414",
+      "41383810",
+      "41347876",
+      "41341680",
+      "41074006",
+      "40994590",
+      "40980968",
+      "40761345",
+      "40733369",
+      "40728362",
+      "40719544",
+      "40675379",
+      "40241403",
+      "40210649",
+      "40205009",
+      "39979080",
+      "39905552",
+      "39224263",
+      "39100927",
+      "38888754",
+      "38858642",
+      "38542500",
+      "38239205",
+      "38050559"
+    ],
+    "refs": [],
+    "similar": [
+      "37748390",
+      "37605050",
+      "37977063",
+      "38640713",
+      "39362031",
+      "39068762",
+      "29204644",
+      "33444721",
+      "36590763",
+      "28973340",
+      "34246740",
+      "36403742",
+      "29549724",
+      "37214397",
+      "37070571",
+      "38679123",
+      "30025085",
+      "37442185",
+      "39146781",
+      "35442463",
+      "33556477",
+      "35616676",
+      "36108874",
+      "33957209",
+      "26979714",
+      "38110136",
+      "37439165",
+      "35970314",
+      "36083487",
+      "35151646",
+      "36806672",
+      "29357017",
+      "36827925",
+      "37844727",
+      "34712379",
+      "35837376",
+      "34692849",
+      "36281111",
+      "34496685",
+      "30807830",
+      "36116786",
+      "35899176",
+      "36872359",
+      "36419618",
+      "36280016",
+      "35628276",
+      "37480968",
+      "25829831",
+      "37282941",
+      "35667260",
+      "22355243",
+      "35734366",
+      "34994139",
+      "33000205",
+      "30510416",
+      "37282910",
+      "35926779",
+      "37369336",
+      "33524788",
+      "34349501",
+      "23211823",
+      "34306252",
+      "37005850",
+      "31545468",
+      "30325678",
+      "36604893",
+      "36743801",
+      "37080367",
+      "37391801",
+      "36424782",
+      "34889224",
+      "31738791",
+      "30519584",
+      "24559509",
+      "26807900",
+      "35429380",
+      "25257463",
+      "31503282",
+      "36414214",
+      "35757520",
+      "36452059",
+      "32389853",
+      "37390940",
+      "39421985",
+      "37576085",
+      "33417512",
+      "22469516",
+      "30664361",
+      "36174269",
+      "35777610",
+      "33412338",
+      "36576506",
+      "37192892",
+      "23555784",
+      "35590353",
+      "38165704",
+      "37056062",
+      "35681232",
+      "35528155",
+      "30445310",
+      "30816449",
+      "31354245",
+      "31142385",
+      "38510793",
+      "38502348",
+      "34592881",
+      "37938194",
+      "33174609",
+      "37909687",
+      "38720321",
+      "37047340",
+      "38629738",
+      "35520788",
+      "38428530",
+      "38957396",
+      "39430861",
+      "39329129",
+      "38103728",
+      "36614174",
+      "39263577",
+      "37891961",
+      "26402857",
+      "33039458",
+      "39309003",
+      "32855766",
+      "38372846",
+      "38589911",
+      "38399289",
+      "39338381",
+      "35321323",
+      "38702178",
+      "36119505",
+      "37250154",
+      "37033374",
+      "38040342",
+      "39319556",
+      "39100927",
+      "39255746",
+      "38420354"
+    ],
+    "review": [
+      "37748390",
+      "36108874",
+      "38957396",
+      "36614174",
+      "37891961",
+      "33039458",
+      "39309003",
+      "32855766",
+      "35321323",
+      "36119505",
+      "38420354"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00441-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "35388653",
+    "doi": "10.1515/jib-2021-0041",
+    "title": "Genome-wide expression reveals potential biomarkers in breast cancer bone metastasis."
+  },
+  "content": {
+    "abstract": "Breast cancer metastases are most commonly found in bone, an indication of poor prognosis. Pathway-based biomarkers identification may help elucidate the cellular signature of breast cancer metastasis in bone, further characterizing the etiology and promoting new therapeutic approaches. We extracted gene expression profiles from mouse macrophages from the GEO dataset, GSE152795 using the GEO2R webtool. The differentially expressed genes (DEGs) were filtered by log2 fold-change with threshold 1.5 (FDR < 0.05). STRING database and Enrichr were used for GO-term analysis, miRNA and TF analysis associated with DEGs. Autodock Vienna was exploited to investigate interaction of anti-cancer drugs, Actinomycin-D and Adriamycin. Sensitivity and specificity of DEGs was assessed using receiver operating characteristic (ROC) analyses. A total of 61 DEGs, included 27 down-regulated and 34 up-regulated, were found to be significant in breast cancer bone metastasis. Major DEGs were associated with lipid metabolism and immunological response of tumor tissue. Crucial DEGs, Bcl3, ADGRG7, FABP4, VCAN, and IRF4 were regulated by miRNAs, miR-497, miR-574, miR-138 and TFs, CCDN1, STAT6, IRF8. Docking analysis showed that these genes possessed strong binding with the drugs. ROC analysis demonstrated Bcl3 is specific to metastasis. DEGs Bcl3, ADGRG7, FABP4, IRF4, their regulating miRNAs and TFs have strong impact on proliferation and metastasis of breast cancer in bone tissues. In conclusion, present study revealed that DEGs are directly involved in of breast tumor metastasis in bone tissues. Identified genes, miRNAs, and TFs can be possible drug targets that may be used for the therapeutics. However, further experimental validation is necessary.",
+    "keywords": [
+      "biological networking",
+      "biomarkers",
+      "breast cancer",
+      "drug targets",
+      "genomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Antineoplastic Agents",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Computational Biology",
+      "Dactinomycin/metabolism",
+      "Doxorubicin",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Interferon Regulatory Factors/genetics/metabolism",
+      "Mice",
+      "*MicroRNAs/genetics",
+      "*Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Yashbir",
+        "Subbarao, Naidu",
+        "Jaimini, Abhinav",
+        "Hathaway, Quincy A",
+        "Kunovac, Amina",
+        "Erickson, Bradley",
+        "Swarup, Vishnu",
+        "Singh, Himanshu Narayan"
+      ],
+      "short_names": [
+        "Singh Y",
+        "Subbarao N",
+        "Jaimini A",
+        "Hathaway QA",
+        "Kunovac A",
+        "Erickson B",
+        "Swarup V",
+        "Singh HN"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8226-2319",
+        "ORCID: 0000-0002-5107-3993",
+        "ORCID: 0000-0003-0759-7818",
+        "ORCID: 0000-0003-4111-5165"
+      ],
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN, USA.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India.",
+        "Divisions of PET Imaging, MIRC, Institute of Nuclear Medicine and Allied Sciences (INMAS), Timarpur, Delhi, India.",
+        "Department of Cardiology, West Virginia University School of Medicine, Heart & Vascular Institute, Morgantown, WV, USA.",
+        "Division of Exercise Physiology, West Virginia University School of Medicine, Morgantown, WV, USA.",
+        "Department of Radiology, Mayo Clinic, Rochester, MN, USA.",
+        "Department of Neurology, All India Institute of Medical Sciences, New Delhi, India.",
+        "Aix-Marseille University, INSERM, TAGC, UMR 1090, Marseille 13288, France.",
+        "MTA Infotech, Varanasi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Yashbir",
+        "short_name": "Singh Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Mayo Clinic, Rochester, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Subbarao, Naidu",
+        "short_name": "Subbarao N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Jaimini, Abhinav",
+        "short_name": "Jaimini A",
+        "identifiers": [],
+        "affiliations": [
+          "Divisions of PET Imaging, MIRC, Institute of Nuclear Medicine and Allied Sciences (INMAS), Timarpur, Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Hathaway, Quincy A",
+        "short_name": "Hathaway QA",
+        "identifiers": [
+          "0000-0001-8226-2319"
+        ],
+        "affiliations": [
+          "Department of Cardiology, West Virginia University School of Medicine, Heart & Vascular Institute, Morgantown, WV, USA."
+        ]
+      },
+      {
+        "full_name": "Kunovac, Amina",
+        "short_name": "Kunovac A",
+        "identifiers": [
+          "0000-0002-5107-3993"
+        ],
+        "affiliations": [
+          "Division of Exercise Physiology, West Virginia University School of Medicine, Morgantown, WV, USA."
+        ]
+      },
+      {
+        "full_name": "Erickson, Bradley",
+        "short_name": "Erickson B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Mayo Clinic, Rochester, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Swarup, Vishnu",
+        "short_name": "Swarup V",
+        "identifiers": [
+          "0000-0003-0759-7818"
+        ],
+        "affiliations": [
+          "Department of Neurology, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Himanshu Narayan",
+        "short_name": "Singh HN",
+        "identifiers": [
+          "0000-0003-4111-5165"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR 1090, Marseille 13288, France.",
+          "MTA Infotech, Varanasi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of integrative bioinformatics"
+    ],
+    "journal_abbrev": [
+      "J Integr Bioinform"
+    ],
+    "pub_date": "2022 Sep 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/08 06:00",
+    "fetched_at": "2026-09-28 07:05:30"
+  },
+  "links": {
+    "cites": [
+      "40235658",
+      "39276358",
+      "38786015",
+      "37434687"
+    ],
+    "refs": [
+      "34532477",
+      "33761638",
+      "33231826",
+      "33151290",
+      "33144050",
+      "32525891",
+      "32021239",
+      "31921558",
+      "31912902",
+      "31885322",
+      "31562303",
+      "31243644",
+      "31137656",
+      "31077182",
+      "31063232",
+      "30653260",
+      "30627694",
+      "30069479",
+      "29860391",
+      "29755127",
+      "29593283",
+      "29156006",
+      "28584570",
+      "28303905",
+      "28245560",
+      "28194227",
+      "28057114",
+      "28033959",
+      "27825136",
+      "27556298",
+      "27424223",
+      "27083181",
+      "26923673",
+      "25932119",
+      "25873628",
+      "25633981",
+      "25311659",
+      "23865076",
+      "23636348",
+      "23586463",
+      "23018462",
+      "22969914",
+      "22823337",
+      "22588877",
+      "22028972",
+      "21982300",
+      "21376230",
+      "20578992",
+      "20498394",
+      "19752858",
+      "19499576",
+      "19399780",
+      "19059914",
+      "19008445",
+      "16824210",
+      "15994321",
+      "15922864",
+      "12483461",
+      "11122694",
+      "11064453",
+      "9009202",
+      "4735583"
+    ],
+    "similar": [
+      "35388653",
+      "34840985",
+      "31987036",
+      "34390411",
+      "34686186",
+      "28629469",
+      "29139094",
+      "31311829",
+      "30542696",
+      "34145869",
+      "29921304",
+      "28739740",
+      "30807603",
+      "31137244",
+      "32642095",
+      "33501609",
+      "29328395",
+      "29063236",
+      "33461524",
+      "31703725",
+      "30601194",
+      "34797837",
+      "32372307",
+      "33813720",
+      "33550915",
+      "31698633",
+      "32738584",
+      "32299382",
+      "28440475",
+      "35322335",
+      "31974598",
+      "31489987",
+      "28416776",
+      "29534586",
+      "31842912",
+      "30670912",
+      "25755742",
+      "35915456",
+      "34218797",
+      "34257614",
+      "32547322",
+      "33962174",
+      "32662828",
+      "25955758",
+      "36246872",
+      "30604369",
+      "35757392",
+      "29568201",
+      "35150335",
+      "33596783",
+      "31536386",
+      "35716513",
+      "31692035",
+      "30414611",
+      "28432618",
+      "31731384",
+      "33398982",
+      "31233344",
+      "33397428",
+      "32457603",
+      "35378210",
+      "30268144",
+      "28629464",
+      "26628405",
+      "31037764",
+      "31277149",
+      "28902367",
+      "31730405",
+      "28302149",
+      "35773742",
+      "33705733",
+      "32922167",
+      "36264868",
+      "30975489",
+      "25451164",
+      "32741804",
+      "28791367",
+      "34148372",
+      "28498428",
+      "34541602",
+      "30193961",
+      "33437215",
+      "32769887",
+      "27998789",
+      "35003328",
+      "33032291",
+      "31233342",
+      "35680454",
+      "29555574",
+      "29879044",
+      "38721137"
+    ],
+    "review": [
+      "35388653"
+    ],
+    "pmc": [
+      "9521824"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35388653/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35388653",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.degruyter.com/document/doi/10.1515/jib-2021-0041",
+        "provider": "De Gruyter",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

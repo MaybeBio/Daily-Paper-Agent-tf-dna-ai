@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "34329301",
+    "doi": "10.1371/journal.pcbi.1009265",
+    "title": "Modeling of DNA binding to the condensin hinge domain using molecular dynamics simulations guided by atomic force microscopy."
+  },
+  "content": {
+    "abstract": "The condensin protein complex compacts chromatin during mitosis using its DNA-loop extrusion activity. Previous studies proposed scrunching and loop-capture models as molecular mechanisms for the loop extrusion process, both of which assume the binding of double-strand (ds) DNA to the hinge domain formed at the interface of the condensin subunits Smc2 and Smc4. However, how the hinge domain contacts dsDNA has remained unknown. Here, we conducted atomic force microscopy imaging of the budding yeast condensin holo-complex and used this data as basis for coarse-grained molecular dynamics simulations to model the hinge structure in a transient open conformation. We then simulated the dsDNA binding to open and closed hinge conformations, predicting that dsDNA binds to the outside surface when closed and to the outside and inside surfaces when open. Our simulations also suggested that the hinge can close around dsDNA bound to the inside surface. Based on these simulation results, we speculate that the conformational change of the hinge domain might be essential for the dsDNA binding regulation and play roles in condensin-mediated DNA-loop extrusion.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphatases/*chemistry/*metabolism",
+      "Binding Sites",
+      "Computational Biology",
+      "Computer Simulation",
+      "DNA, Fungal/chemistry/*metabolism",
+      "DNA-Binding Proteins/*chemistry/*metabolism",
+      "Microscopy, Atomic Force",
+      "Models, Biological",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Multiprotein Complexes/*chemistry/*metabolism",
+      "Protein Conformation",
+      "Protein Interaction Domains and Motifs",
+      "Saccharomyces cerevisiae Proteins/*chemistry/*metabolism",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koide, Hiroki",
+        "Kodera, Noriyuki",
+        "Bisht, Shveta",
+        "Takada, Shoji",
+        "Terakawa, Tsuyoshi"
+      ],
+      "short_names": [
+        "Koide H",
+        "Kodera N",
+        "Bisht S",
+        "Takada S",
+        "Terakawa T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7468-6047",
+        "ORCID: 0000-0003-4880-8423",
+        "ORCID: 0000-0002-5566-3472",
+        "ORCID: 0000-0001-5385-7217",
+        "ORCID: 0000-0002-0151-1123"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kanazawa, Japan.",
+        "Cell Biology and Biophysics Unit, Structural and Computational Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "PREST, Japan Science and Technology Agency (JST), Kawaguchi, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koide, Hiroki",
+        "short_name": "Koide H",
+        "identifiers": [
+          "0000-0002-7468-6047"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Kodera, Noriyuki",
+        "short_name": "Kodera N",
+        "identifiers": [
+          "0000-0003-4880-8423"
+        ],
+        "affiliations": [
+          "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kanazawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Bisht, Shveta",
+        "short_name": "Bisht S",
+        "identifiers": [
+          "0000-0002-5566-3472"
+        ],
+        "affiliations": [
+          "Cell Biology and Biophysics Unit, Structural and Computational Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Takada, Shoji",
+        "short_name": "Takada S",
+        "identifiers": [
+          "0000-0001-5385-7217"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Terakawa, Tsuyoshi",
+        "short_name": "Terakawa T",
+        "identifiers": [
+          "0000-0002-0151-1123"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+          "PREST, Japan Science and Technology Agency (JST), Kawaguchi, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/31 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42444610",
+      "42017784",
+      "41495075",
+      "40933894",
+      "40184420",
+      "40087331",
+      "39838013",
+      "39030299",
+      "37007153",
+      "35797408"
+    ],
+    "refs": [
+      "34620869",
+      "32989304",
+      "32661420",
+      "32409525",
+      "32396063",
+      "32132705",
+      "31909999",
+      "31888987",
+      "31753851",
+      "31230958",
+      "31226277",
+      "31201090",
+      "31175837",
+      "30857399",
+      "30399354",
+      "30385633",
+      "29472443",
+      "29397721",
+      "29348367",
+      "29256119",
+      "28988770",
+      "28882993",
+      "28835994",
+      "28689660",
+      "28522692",
+      "28286005",
+      "26904946",
+      "26596457",
+      "26580048",
+      "26575522",
+      "26491021",
+      "26075356",
+      "25557547",
+      "25362344",
+      "24200812",
+      "23668488",
+      "22753508",
+      "22003125",
+      "21117236",
+      "21071403",
+      "20935627",
+      "20139420",
+      "16427008",
+      "15450300",
+      "12667442",
+      "12411491",
+      "11815634",
+      "11406600"
+    ],
+    "similar": [
+      "34329301",
+      "32989304",
+      "31226277",
+      "22645654",
+      "34951453",
+      "39078528",
+      "12773391",
+      "32661420",
+      "21765419",
+      "20139420",
+      "29118001",
+      "24837193",
+      "28825700",
+      "29472443",
+      "33005926",
+      "25922992",
+      "11815634",
+      "28988770",
+      "29912867",
+      "33080019",
+      "32445620",
+      "34723504",
+      "34620869",
+      "21395557",
+      "31548377",
+      "15148393",
+      "32049018",
+      "28882993",
+      "25716199",
+      "18508626",
+      "16055730",
+      "20823528",
+      "32132705",
+      "31147926",
+      "26491021",
+      "29791843",
+      "18635352",
+      "34309513",
+      "25520186",
+      "26904946",
+      "35835864",
+      "32810145",
+      "10811823",
+      "31147925",
+      "18959191",
+      "37820734",
+      "17268547",
+      "35045152",
+      "16100111",
+      "33767413",
+      "17356064",
+      "11909539",
+      "28238653",
+      "25634470",
+      "27826868",
+      "21540296",
+      "18083189",
+      "31953386",
+      "17825050",
+      "29079757",
+      "25231868",
+      "35653469",
+      "14607834",
+      "29970489",
+      "30385633",
+      "35173352",
+      "32184229",
+      "30914423",
+      "18296067",
+      "33078399",
+      "38578833",
+      "15883832",
+      "19135891",
+      "26686624",
+      "29452641",
+      "19481522",
+      "15190202",
+      "23084836",
+      "20703077",
+      "22197373",
+      "28301465",
+      "19141609",
+      "25332162",
+      "23218009",
+      "21633354",
+      "16199875",
+      "33119737",
+      "29474070",
+      "25975613",
+      "24945276",
+      "20075860",
+      "29019976",
+      "29267981",
+      "17079686",
+      "26538024",
+      "19211053",
+      "31816133",
+      "31629658",
+      "26257282",
+      "34762488",
+      "39030299",
+      "38602938",
+      "34869598",
+      "12060737"
+    ],
+    "review": [
+      "34329301",
+      "33005926",
+      "33767413",
+      "20703077",
+      "23218009",
+      "19211053"
+    ],
+    "pmc": [
+      "8357123"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009265",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34329301/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/34329301",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34329301",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/276673",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

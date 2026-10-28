@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "41429964",
+    "doi": "10.1007/s00122-025-05109-1",
+    "title": "Investigating cis-regulatory elements and gene expression in multiple tomato varieties using interpretable deep learning."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (CREs) govern gene expression, and the relationship between non-coding regulatory elements and gene expression is inherently complex. To further elucidate how these elements influence gene expression, we refined previous models and developed an interpretable deep learning model, termed L-CRE. By analyzing the flanking regions of genes from four distinct tomato varieties, this model successfully predicted high and low levels of gene expression, achieving a peak accuracy of 86.9%, demonstrating robust performance. To gain deeper insights into the model's predictive mechanisms, we conducted an interpretability analysis, calculating and evaluating the contribution scores of different genomic regions to the prediction outcomes. Through further exploration of these contribution scores, we identified several critical genomic regions that significantly influence the prediction of gene expression levels. Notably, these regions frequently encompass transcription factor binding sites. Moreover, based on the analysis of contribution scores, we successfully identified several experimentally validated regulatory elements. This study not only enhances our understanding of gene regulatory mechanisms in tomatoes but also provides novel insights and methodologies for future research in crop genetic improvement and functional genomics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Solanum lycopersicum/genetics",
+      "*Deep Learning",
+      "*Gene Expression Regulation, Plant",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Xiang",
+        "Wang, Cong",
+        "Zhang, He",
+        "Gong, Xiuyi",
+        "Zhu, Chunyu",
+        "Zhao, Yanshen",
+        "Liu, Yang",
+        "Han, Zhongzhi",
+        "He, Hang"
+      ],
+      "short_names": [
+        "Ji X",
+        "Wang C",
+        "Zhang H",
+        "Gong X",
+        "Zhu C",
+        "Zhao Y",
+        "Liu Y",
+        "Han Z",
+        "He H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5662-319X"
+      ],
+      "affiliations": [
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China.",
+        "Yantai Agricultural Science Research Institute, Yantai, China.",
+        "Qingdao Agricultural University, Qingdao, 266109, China. hanzhongzhi@qau.edu.cn.",
+        "Peking University, Beijing, 100871, China. hehang@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Xiang",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, He",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Xiuyi",
+        "short_name": "Gong X",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Chunyu",
+        "short_name": "Zhu C",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yanshen",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China.",
+          "Yantai Agricultural Science Research Institute, Yantai, China."
+        ]
+      },
+      {
+        "full_name": "Han, Zhongzhi",
+        "short_name": "Han Z",
+        "identifiers": [
+          "0000-0002-5662-319X"
+        ],
+        "affiliations": [
+          "Qingdao Agricultural University, Qingdao, 266109, China. hanzhongzhi@qau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Hang",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University, Beijing, 100871, China. hehang@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik"
+    ],
+    "journal_abbrev": [
+      "Theor Appl Genet"
+    ],
+    "pub_date": "2025 Dec 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 00:27",
+    "fetched_at": "2026-10-01 09:46:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39688669",
+      "39658657",
+      "39443793",
+      "38664394",
+      "38344648",
+      "38098107",
+      "37207335",
+      "36958327",
+      "35258588",
+      "34878146",
+      "34579788",
+      "33900593",
+      "33603233",
+      "31891640",
+      "30842277",
+      "28873253",
+      "28096395",
+      "27924042",
+      "26917685",
+      "26632355",
+      "26214476",
+      "25953851",
+      "25948244",
+      "20203663",
+      "17324271",
+      "9570129"
+    ],
+    "similar": [
+      "41429964",
+      "35258588",
+      "38664394",
+      "39964724",
+      "40782710",
+      "40369872",
+      "29855387",
+      "35196981",
+      "40382355",
+      "29743197",
+      "38187729",
+      "41544987",
+      "27260799",
+      "41300743",
+      "39690739",
+      "30537925",
+      "40140332",
+      "26459863",
+      "25442502",
+      "36536303",
+      "25303887",
+      "29371612",
+      "33667348",
+      "41030057",
+      "39462454",
+      "40332175",
+      "24870401",
+      "37439880",
+      "24289302",
+      "33034011",
+      "25516062",
+      "26196744",
+      "39199333",
+      "29298348",
+      "38917736",
+      "40457180",
+      "40065399",
+      "26241045",
+      "17848606",
+      "34772358",
+      "23057995",
+      "22915576",
+      "40908642",
+      "30732561",
+      "14630974",
+      "33502700",
+      "31638895",
+      "34576142",
+      "24903607",
+      "19261734",
+      "35293310",
+      "39322281",
+      "35892173",
+      "38889146",
+      "39090688",
+      "28339724",
+      "25204630",
+      "33846596",
+      "38631728",
+      "35562896",
+      "41595439",
+      "41081095",
+      "21036669",
+      "39904740",
+      "25266499",
+      "40545701",
+      "27250572",
+      "40318064",
+      "39107290",
+      "41024142",
+      "39843737",
+      "27193099",
+      "29551007",
+      "39604848",
+      "32561360",
+      "27161480",
+      "9700072",
+      "12820902",
+      "21947620",
+      "41022589",
+      "39766822",
+      "31216621",
+      "31467248",
+      "22425974",
+      "34914734",
+      "10652136",
+      "34491989",
+      "39408748",
+      "30646856",
+      "39025865",
+      "27519651",
+      "20697739",
+      "39510459",
+      "25005853",
+      "30121402",
+      "34995657",
+      "40914877",
+      "31311821",
+      "25941316",
+      "33104942"
+    ],
+    "review": [
+      "41429964",
+      "40140332"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00122-025-05109-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

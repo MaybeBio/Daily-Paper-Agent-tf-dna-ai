@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "39596658",
+    "doi": "10.3390/genes15111458",
+    "title": "Integration of Machine Learning and Experimental Validation to Identify Anoikis-Related Prognostic Signature for Predicting the Breast Cancer Tumor Microenvironment and Treatment Response."
+  },
+  "content": {
+    "abstract": "Background/Objectives: Anoikis-related genes (ANRGs) are crucial in the invasion and metastasis of breast cancer (BC). The underlying role of ANRGs in the prognosis of breast cancer patients warrants further study. Methods: The anoikis-related prognostic signature (ANRS) was generated using a variety of machine learning methods, and the correlation between the ANRS and the tumor microenvironment (TME), drug sensitivity, and immunotherapy was investigated. Moreover, single-cell analysis and spatial transcriptome studies were conducted to investigate the expression of prognostic ANRGs across various cell types. Finally, the expression of ANRGs was verified by RT-PCR and Western blot analysis (WB), and the expression level of PLK1 in the blood was measured by the enzyme-linked immunosorbent assay (ELISA). Results: The ANRS, consisting of five ANRGs, was established. BC patients within the high-ANRS group exhibited poorer prognoses, characterized by elevated levels of immune suppression and stromal scores. The low-ANRS group had a better response to chemotherapy and immunotherapy. Single-cell analysis and spatial transcriptomics revealed variations in ANRGs across cells. The results of RT-PCR and WB were consistent with the differential expression analyses from databases. NU.1025 and imatinib were identified as potential inhibitors for SPIB and PLK1, respectively. Additionally, findings from ELISA demonstrated increased expression levels of PLK1 in the blood of BC patients. Conclusions: The ANRS can act as an independent prognostic indicator for BC patients, providing significant guidance for the implementation of chemotherapy and immunotherapy in these patients. Additionally, PLK1 has emerged as a potential blood-based diagnostic marker for breast cancer patients.",
+    "keywords": [
+      "anoikis",
+      "breast cancer",
+      "machine learning",
+      "prognostic signature",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Aged",
+      "Female",
+      "Middle Aged",
+      "*Anoikis/genetics",
+      "Antineoplastic Agents/therapeutic use",
+      "Biomarkers, Tumor/blood/genetics",
+      "Blotting, Western",
+      "*Breast Neoplasms/drug therapy/genetics/mortality",
+      "Databases, Genetic",
+      "Drug Screening Assays, Antitumor/statistics & numerical data",
+      "Enzyme-Linked Immunosorbent Assay",
+      "Gene Expression/genetics",
+      "Gene Expression Profiling",
+      "Imatinib Mesylate/therapeutic use",
+      "Immunotherapy/statistics & numerical data",
+      "*Machine Learning",
+      "Predictive Value of Tests",
+      "Prognosis",
+      "Proportional Hazards Models",
+      "Real-Time Polymerase Chain Reaction",
+      "Reproducibility of Results",
+      "Reverse Transcriptase Polymerase Chain Reaction",
+      "*Transcriptome/genetics",
+      "Treatment Outcome",
+      "*Tumor Microenvironment/genetics",
+      "Humans",
+      "Polo-Like Kinase 1",
+      "DNA-Binding Proteins",
+      "Quinazolines",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Longpeng",
+        "Li, Longhui",
+        "Wang, Yaxin",
+        "Wu, Baoai",
+        "Guan, Yue",
+        "Chen, Yinghua",
+        "Zhao, Jinfeng"
+      ],
+      "short_names": [
+        "Li L",
+        "Li L",
+        "Wang Y",
+        "Wu B",
+        "Guan Y",
+        "Chen Y",
+        "Zhao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China.",
+        "School of Kinesiology and Health, Capital University of Physical Education and Sports, Beijing 100191, China.",
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China.",
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China.",
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China.",
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China.",
+        "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Longpeng",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Longhui",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Kinesiology and Health, Capital University of Physical Education and Sports, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaxin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Baoai",
+        "short_name": "Wu B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Yue",
+        "short_name": "Guan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yinghua",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jinfeng",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Education and Sport, Shanxi University, Taiyuan 030006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2024 Nov 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 06:19",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "40664635",
+      "40172726"
+    ],
+    "refs": [
+      "38507751",
+      "38242081",
+      "38025952",
+      "37965309",
+      "37879213",
+      "37781040",
+      "37550415",
+      "37537585",
+      "37418008",
+      "37415164",
+      "37222669",
+      "37190065",
+      "36931265",
+      "36822595",
+      "36797736",
+      "36633525",
+      "36384875",
+      "36321662",
+      "36150230",
+      "36115852",
+      "36103745",
+      "35963853",
+      "35950917",
+      "35947565",
+      "35933456",
+      "35912788",
+      "35904454",
+      "35874717",
+      "35864968",
+      "35461253",
+      "35367784",
+      "35191375",
+      "35153757",
+      "35113355",
+      "34875674",
+      "34647174",
+      "34608584",
+      "34579788",
+      "34276676",
+      "34260682",
+      "34242744",
+      "33838745",
+      "33812473",
+      "33731845",
+      "33621661",
+      "33546704",
+      "33538338",
+      "33537307",
+      "33531648",
+      "33483705",
+      "32901889",
+      "32686903",
+      "32612154",
+      "32203277",
+      "32129936",
+      "31988454",
+      "31563865",
+      "31548545",
+      "31367043",
+      "30996295",
+      "30537043",
+      "29625051",
+      "29362479",
+      "27888710",
+      "25605792",
+      "25286920",
+      "25098270",
+      "23830918",
+      "23376255",
+      "23374223",
+      "23323831",
+      "23139263",
+      "22505926",
+      "22455463",
+      "21953325",
+      "21677442",
+      "20808728",
+      "19543321",
+      "15094809",
+      "12372298",
+      "9836642",
+      "8106557"
+    ],
+    "similar": [
+      "39596658",
+      "39300389",
+      "39340434",
+      "40438115",
+      "39174890",
+      "39202452",
+      "37904416",
+      "38864225",
+      "36837559",
+      "36630752",
+      "38779664",
+      "39431237",
+      "39507529",
+      "40496857",
+      "39531174",
+      "40746552",
+      "39981252",
+      "37502362",
+      "40419914",
+      "40721013",
+      "39383787",
+      "39703515",
+      "38186570",
+      "36581948",
+      "40253524",
+      "40599775",
+      "37402968",
+      "40020330",
+      "39650663",
+      "41238648",
+      "41235257",
+      "39143438",
+      "39870964",
+      "39524444",
+      "40308601",
+      "41208987",
+      "41472745",
+      "36686684",
+      "37965307",
+      "41198549",
+      "38404059",
+      "40438100",
+      "41425595",
+      "40289088",
+      "41080607",
+      "41187171",
+      "40473720",
+      "37469408",
+      "40200221",
+      "38287356",
+      "37056778",
+      "37986299",
+      "38890248",
+      "38507233",
+      "39287311",
+      "39354417",
+      "39380996",
+      "39664392",
+      "37213475",
+      "39568815",
+      "39314848",
+      "38953023",
+      "34497605",
+      "34867821",
+      "39910129",
+      "38773226",
+      "38381376",
+      "40838069",
+      "39205467",
+      "38802480",
+      "41357242",
+      "37507593",
+      "36967927",
+      "39076986",
+      "39988478",
+      "41293150",
+      "41415282",
+      "39464883",
+      "41052233",
+      "41488744",
+      "39020010",
+      "40808956",
+      "37868988",
+      "41488652",
+      "33860055",
+      "37712959",
+      "38714517",
+      "39730892",
+      "38341586",
+      "40046063",
+      "33549054",
+      "40221624",
+      "34659224",
+      "32841536",
+      "39889154",
+      "35990668",
+      "40927650",
+      "40460484",
+      "38319706",
+      "38663918"
+    ],
+    "review": [
+      "39596658"
+    ],
+    "pmc": [
+      "11594124"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes15111458",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39596658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1264",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

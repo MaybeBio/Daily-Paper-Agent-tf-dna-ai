@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "37588985",
+    "doi": "10.3389/fendo.2023.1201755",
+    "title": "Identification of fibroblast-related genes based on single-cell and machine learning to predict the prognosis and endocrine metabolism of pancreatic cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Single-cell sequencing technology has become an indispensable tool in tumor mechanism and heterogeneity studies. Pancreatic adenocarcinoma (PAAD) lacks early specific symptoms, and comprehensive bioinformatics analysis for PAAD contributes to the developmental mechanisms. METHODS: We performed dimensionality reduction analysis on the single-cell sequencing data GSE165399 of PAAD to obtain the specific cell clusters. We then obtained cell cluster-associated gene modules by weighted co-expression network analysis and identified tumorigenesis-associated cell clusters and gene modules in PAAD by trajectory analysis. Tumor-associated genes of PAAD were intersected with cell cluster marker genes and within the signature module to obtain genes associated with PAAD occurrence to construct a prognostic risk assessment tool by the COX model. The performance of the model was assessed by the Kaplan-Meier (K-M) curve and the receiver operating characteristic (ROC) curve. The score of endocrine pathways was assessed by ssGSEA analysis. RESULTS: The PAAD single-cell dataset GSE165399 was filtered and downscaled, and finally, 17 cell subgroups were filtered and 17 cell clusters were labeled. WGCNA analysis revealed that the brown module was most associated with tumorigenesis. Among them, the brown module was significantly associated with C11 and C14 cell clusters. C11 and C14 cell clusters belonged to fibroblast and circulating fetal cells, respectively, and trajectory analysis showed low heterogeneity for fibroblast and extremely high heterogeneity for circulating fetal cells. Next, through differential analysis, we found that genes within the C11 cluster were highly associated with tumorigenesis. Finally, we constructed the RiskScore system, and K-M curves and ROC curves revealed that RiskScore possessed objective clinical prognostic potential and demonstrated consistent robustness in multiple datasets. The low-risk group presented a higher endocrine metabolism and lower immune infiltrate state. CONCLUSION: We identified prognostic models consisting of APOL1, BHLHE40, CLMP, GNG12, LOX, LY6E, MYL12B, RND3, SOX4, and RiskScore showed promising clinical value. RiskScore possibly carries a credible clinical prognostic potential for PAAD.",
+    "keywords": [
+      "RiskScore",
+      "endocrine metabolism",
+      "pancreatic adenocarcinoma",
+      "prognosis",
+      "single-cell sequencing",
+      "tumorigenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/diagnosis/genetics",
+      "*Adenocarcinoma",
+      "Prognosis",
+      "Machine Learning",
+      "Carcinogenesis",
+      "Cell Transformation, Neoplastic",
+      "Fibroblasts",
+      "SOXC Transcription Factors",
+      "Apolipoprotein L1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yinghua",
+        "Chen, Xionghuan",
+        "Liu, Nan",
+        "Chu, Zhong",
+        "Wang, Qiang"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Chen X",
+        "Liu N",
+        "Chu Z",
+        "Wang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of General Surgery, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Trauma Surgery, Tiantai People's Hospital of Zhejiang Province, Taizhou, China.",
+        "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yinghua",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xionghuan",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Department of Trauma Surgery, Tiantai People's Hospital of Zhejiang Province, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Nan",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Zhong",
+        "short_name": "Chu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiang",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine and Clinical Research, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/17 06:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42694836",
+      "42141708",
+      "40676405",
+      "39934849",
+      "38254861"
+    ],
+    "refs": [
+      "38868713",
+      "36905928",
+      "36501951",
+      "35688610",
+      "35108060",
+      "35078458",
+      "34976204",
+      "34883403",
+      "34861191",
+      "34681793",
+      "34593417",
+      "34579788",
+      "34557778",
+      "34489603",
+      "34341330",
+      "34218518",
+      "33597522",
+      "33538338",
+      "32859214",
+      "32593337",
+      "32415208",
+      "32393771",
+      "32380129",
+      "31980749",
+      "31932730",
+      "31273297",
+      "30787437",
+      "29998871",
+      "29686035",
+      "28835719",
+      "28315907",
+      "28280354",
+      "28270694",
+      "28197876",
+      "28102262",
+      "27683106",
+      "27550820",
+      "27216177",
+      "27197181",
+      "27065756",
+      "26996551",
+      "26830752",
+      "26430160",
+      "26000488",
+      "25822800",
+      "25605792",
+      "24840475",
+      "24808134",
+      "21678067",
+      "21455203",
+      "20808728",
+      "19114008",
+      "15516957"
+    ],
+    "similar": [
+      "37588985",
+      "38124367",
+      "35322324",
+      "34490033",
+      "38274323",
+      "32181755",
+      "35048799",
+      "36199146",
+      "39209222",
+      "38012210",
+      "33437202",
+      "38572434",
+      "34511988",
+      "36714025",
+      "32596278",
+      "38428843",
+      "39152432",
+      "36371178",
+      "36212154",
+      "34233576",
+      "35488119",
+      "35154122",
+      "33775699",
+      "34772375",
+      "37007021",
+      "33506742",
+      "34956177",
+      "34134622",
+      "33845841",
+      "37822927",
+      "33648511",
+      "35935823",
+      "35938160",
+      "38088494",
+      "36882663",
+      "37024802",
+      "31821092",
+      "36401386",
+      "39208654",
+      "33691542",
+      "35831362",
+      "37369808",
+      "37540295",
+      "34650124",
+      "39127164",
+      "38173505",
+      "38007705",
+      "37602449",
+      "37692763",
+      "37974070",
+      "35677632",
+      "37775715",
+      "32702921",
+      "36142142",
+      "38371527",
+      "31731384",
+      "38538250",
+      "34517516",
+      "35000541",
+      "39118300",
+      "33631610",
+      "34332578",
+      "34335699",
+      "39251459",
+      "38305809",
+      "33507917",
+      "36451085",
+      "32548103",
+      "38333724",
+      "35800432",
+      "37961859",
+      "36424614",
+      "32565937",
+      "38497885",
+      "36740149",
+      "36660936",
+      "34854950",
+      "33000197",
+      "37710166",
+      "33789615",
+      "34804059",
+      "37957639",
+      "33584809",
+      "36311789",
+      "34290570",
+      "36408702",
+      "38007403",
+      "35571561",
+      "34993253",
+      "36544710",
+      "38533068",
+      "37620430",
+      "34840598",
+      "36353555",
+      "31297864",
+      "35083488",
+      "38395786",
+      "37138146",
+      "37330494"
+    ],
+    "review": [
+      "37588985",
+      "35083488"
+    ],
+    "pmc": [
+      "10425556"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37588985/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37588985",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-Ly6E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2628",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2023.1201755",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

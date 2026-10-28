@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose MHHGRN, a multi-view hierarchical hypergraph neural network model for gene regulatory network inference. The model integrates heterogeneous biological information, uses hypergraph convolution to capture higher-order regulatory relationships, employs coupled information diffusion and cross-domain messaging for gene embedding optimization, and applies a channel attention mechanism for multi-view feature learning. The authors claim superior performance over baseline methods on DREAM5 E. coli and S. cerevisiae datasets and comparable or better cross-species generalization on scRNA-seq datasets from five mouse and two human cell lines.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methodology, hyperparameter settings, baseline descriptions, statistical significance tests, dataset preprocessing details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to GRN inference by addressing higher-order regulatory relationships through hypergraph learning, which is a genuine gap in existing graph-based methods. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, reproducibility, or validity of the claimed performance improvements. The methodological novelty is plausible but not fully verifiable from the supplied material, and the performance claims lack quantitative support.
+- **Who would be interested in the results, and why** Researchers in systems biology, computational biology, and machine learning applied to genomics would be interested. Specifically, those working on gene regulatory network inference, graph neural network applications in biology, and single-cell transcriptomics analysis would find the multi-view hypergraph approach relevant. The cross-species generalization aspect would appeal to those studying model transferability across organisms.
+- **Major strengths** The problem framing is clear and addresses a real limitation of pairwise graph-based GRN inference methods. The proposed architecture integrates multiple biologically meaningful information sources and mechanisms (hypergraph convolution, information diffusion, cross-domain messaging, channel attention) in a coherent manner. The evaluation across both bulk (DREAM5) and single-cell datasets suggests attention to practical applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves better results than baseline methods on DREAM5 benchmark datasets and comparable or better performance on scRNA-seq datasets
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative results, no effect sizes, no statistical significance measures, and no comparison metrics. The claim of "better results" and "comparable or better performance" is entirely unsupported by visible data.
+  - **Why it matters** Without quantitative evidence, the central performance claim cannot be assessed. The reader cannot determine whether the improvements are meaningful, marginal, or within noise. This is the core contribution of the paper, and its validity is currently unverifiable.
+  - **Resolution test** Provide specific performance metrics (e.g., AUROC, AUPRC) for MHHGRN and each baseline on all datasets, with confidence intervals or statistical tests. Show the magnitude of improvement and demonstrate it is consistent across replicates or cross-validation folds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The proposed MHHGRN model integrates multiple heterogeneous biological information sources and uses specific mechanisms (hypergraph convolution, coupled information diffusion, cross-domain messaging, channel attention)
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract describes the model architecture at a conceptual level but provides no details on how the multi-view hierarchical hypergraphs are constructed, what specific biological information is integrated, how hyperparameters are chosen, or how the mechanisms are implemented. This level of abstraction is insufficient for replication.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology methods. Without architectural details, input feature specifications, and implementation choices, other researchers cannot build upon or validate the approach. The method's utility depends on its implementability.
+  - **Resolution test** Provide a detailed methodology section with formal definitions of the hypergraph construction, the information diffusion and messaging mechanisms, the attention mechanism, and all hyperparameter values. Include code availability or a pseudocode algorithm.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The model has excellent cross-species generalization, achieving comparable or better performance on scRNA-seq datasets from five mouse and two human cell lines
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The cross-species evaluation is mentioned but no details are given about the datasets, the preprocessing, the cell types, the number of genes, the ground truth regulatory networks used for evaluation, or the comparison baselines. The phrase "comparable or better" is ambiguous and could mask inconsistent performance.
+  - **Why it matters** Cross-species generalization is a strong claim that requires careful evaluation design. Without knowing the ground truth construction, the evaluation protocol, and the baseline comparisons, the claim cannot be interpreted. The ambiguity of "comparable or better" weakens the scientific message.
+  - **Resolution test** Specify the scRNA-seq datasets, the ground truth GRN construction method, the evaluation metrics, and the baselines. Report performance separately for each cell line and clarify what "comparable" means quantitatively.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "coupled information diffusion mechanism and the cross-domain messaging mechanism" is jargon-heavy and not explained. A reader unfamiliar with these specific terms cannot understand what these mechanisms do.
+  - **Required correction** Provide brief functional descriptions of these mechanisms in the abstract or use more standard terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "baseline methods" but does not name them. Without knowing which methods were compared, the reader cannot judge the competitiveness of the comparison.
+  - **Required correction** Name the baseline methods in the abstract or state that they are described in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Problem motivation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that existing methods "often rely on limited prior regulatory knowledge, ignoring the structural information of GRNs in gene expression profiles." This is a broad claim that may not apply to all existing methods and is not substantiated.
+  - **Required correction** Soften the claim or provide specific examples of methods that exhibit this limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for performance claims) and R1-M2 (insufficient methodological detail for reproducibility) are the primary technical failings. Without addressing these, the central claims of the paper cannot be validated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The multi-view hierarchical hypergraph approach for GRN inference appears conceptually novel, as it addresses higher-order interactions that pairwise graph methods miss. However, the abstract does not clearly differentiate the contribution from existing hypergraph-based methods in other domains.
+  - Scientific importance: GRN inference is a significant problem in systems biology, and improving accuracy has broad implications. The potential to generalize across species and data types adds importance, but this is not yet demonstrated with evidence.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and biology and could appeal to both communities. However, the abstract is written in a way that may be more accessible to computational readers than to biologists, who may struggle with the mechanism descriptions.
+  - Technical soundness: Not assessable from the abstract. The architecture is plausible but unverified. The lack of quantitative results and implementation details prevents any judgment of technical correctness.
+  - Readability for nonspecialists: The abstract is reasonably clear in its problem statement but becomes dense and jargon-heavy in the method description. The mechanisms are named but not explained, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual contribution is interesting and the problem is well framed, but the abstract alone does not provide sufficient evidence to support the performance claims or to assess technical soundness. A full review of the complete manuscript would be required to determine whether the case can be established.
+
+## Risk / unsupported claims
+- The claim of "better results than the baseline methods" on DREAM5 datasets is unsupported by any quantitative data in the supplied material.
+- The claim of "excellent cross-species generalization" is unsupported and ambiguous without dataset details and quantitative comparisons.
+- The claim that existing methods "cannot model the many-to-many high-order regulatory patterns" is a broad generalization that is not substantiated with specific examples or a literature survey.
+- The functional efficacy of the "coupled information diffusion mechanism," "cross-domain messaging mechanism," and "channel attention mechanism" is not demonstrated or described in sufficient detail to be evaluated.
+- The overall model architecture and its components are described only at a conceptual level, making the technical implementation unverifiable from the supplied material.

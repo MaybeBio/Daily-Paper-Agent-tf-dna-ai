@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36973386",
+  "title": "Exploiting machine learning models to identify novel Alzheimer's disease biomarkers and potential targets.",
+  "authors": "Alamro, Hind; Thafar, Maha A; Albaradei, Somayah; Gojobori, Takashi; Essack, Magbubah; Gao, Xin",
+  "journal": "Scientific reports",
+  "published_date": "2023-03-28",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用机器学习识别阿尔茨海默病基因生物标志物，仅提及一个转录因子JUN，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "We still do not have an effective treatment for Alzheimer's disease (AD) despite it being the most common cause of dementia and impaired cognitive function. Thus, research endeavors are directed toward identifying AD biomarkers and targets. In this regard, we designed a computational method that exploits multiple hub gene ranking methods and feature selection methods with machine learning and deep learning to identify biomarkers and targets. First, we used three AD gene expression datasets to identify 1/ hub genes based on six ranking algorithms (Degree, Maximum Neighborhood Component (MNC), Maximal Clique Centrality (MCC), Betweenness Centrality (BC), Closeness Centrality, and Stress Centrality), 2/ gene subsets based on two feature selection methods (LASSO and Ridge). Then, we developed machine learning and deep learning models to determine the gene subset that best distinguishes AD samples from the healthy controls. This work shows that feature selection methods achieve better prediction performances than the hub gene sets. Beyond this, the five genes identified by both feature selection methods (LASSO and Ridge algorithms) achieved an AUC = 0.979. We further show that 70% of the upregulated hub genes (among the 28 overlapping hub genes) are AD targets based on a literature review and six miRNA (hsa-mir-16-5p, hsa-mir-34a-5p, hsa-mir-1-3p, hsa-mir-26a-5p, hsa-mir-93-5p, hsa-mir-155-5p) and one transcription factor, JUN, are associated with the upregulated hub genes. Furthermore, since 2020, four of the six microRNA were also shown to be potential AD targets. To our knowledge, this is the first work showing that such a small number of genes can distinguish AD samples from healthy controls with high accuracy and that overlapping upregulated hub genes can narrow the search space for potential novel targets.",
+  "abstract_zh": "尽管阿尔茨海默病（AD）是痴呆和认知功能障碍最常见的病因，我们仍缺乏有效的治疗方法。因此，研究努力正聚焦于识别AD的生物标志物和靶点。在此背景下，我们设计了一种计算方法，利用多种枢纽基因排序方法和特征选择方法，结合机器学习和深度学习，以识别生物标志物和靶点。首先，我们使用三个AD基因表达数据集，基于六种排序算法（度中心性（Degree）、最大邻域分量（MNC）、最大团中心性（MCC）、介数中心性（BC）、接近中心性和应力中心性）识别枢纽基因，并基于两种特征选择方法（LASSO和Ridge）识别基因子集。随后，我们开发了机器学习和深度学习模型，以确定最能区分AD样本与健康对照的基因子集。这项工作表明，特征选择方法在预测性能上优于枢纽基因集。此外，两种特征选择方法（LASSO和Ridge算法）共同识别的五个基因达到了AUC = 0.979。我们进一步显示，根据文献综述，28个重叠枢纽基因中70%的上调枢纽基因为AD靶点，并且六个miRNA（hsa-mir-16-5p、hsa-mir-34a-5p、hsa-mir-1-3p、hsa-mir-26a-5p、hsa-mir-93-5p、hsa-mir-155-5p）和一个转录因子JUN与上调枢纽基因相关。此外，自2020年以来，六个microRNA中的四个也被证明是潜在的AD靶点。据我们所知，这是首次表明如此少量的基因能够以高准确度区分AD样本与健康对照，并且重叠的上调枢纽基因可以缩小潜在新靶点的搜索范围。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36973386/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36973386/",
+  "paper_page_path": "papers/pubmed/36973386/index.html"
+}

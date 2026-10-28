@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "42162854",
+    "doi": "10.1016/j.jtbi.2026.112491",
+    "title": "A model of STAT1-p53 coordination: Regulating p21 and PUMA to program cell fate under stress."
+  },
+  "content": {
+    "abstract": "Signalling pathways tightly regulate stress-induced cell fate decisions, with p53 stabilization via attenuation of the p53-Mdm2 feedback being central to effective responses. Signal Transducer and Activator of Transcription 1 (STAT1) both represses Mdm2 transcription and co-activates p53 targets (p21 and PUMA), yet these dual roles have not been quantified within a unified framework. We build a mechanistic model that couples a biologically calibrated stress scale (S) and STAT1 activity (Sigma) to the canonical p53-Mdm2 core and to downstream p21 and PUMA modules. Key processes are not described by fixed parameters but by explicit functions of S, allowing the model to self-adjust across stress levels without manual re-fitting. This formulation ensures that oscillatory, damped, or plateau responses naturally emerge by varying S alone. The model is calibrated to reproduce the pulsatile/oscillatory p53 regime typically observed under DNA-damage stresses that generate DNA double-strand breaks (DSBs), such as ionizing radiation and radiomimetic or topoisomerase-targeting agents. STAT1 controls and acts as a transcriptional co-activator scaling promoter strengths. Bifurcation analysis reveals a two-dimensional Hopf region in the (S, Sigma) plane; increasing Sigma shifts this region to higher S and progressively narrows it, ultimately quenching oscillations at large Sigma. Simulations of a generic cell with time-varying S and Sigma, combined with a two-stage decision rule (early transient detection followed by stationary readout), map p53 dynamics to fate: sustained moderate oscillations align with arrest, damped intermediate responses with senescence, and strongly damped high plateaus with apoptosis. The model reproduces cell fate distributions reported in literature for different cell lines (MCF-7, HCT116, U2OS) without kinetic parameter re-fitting, and highlights cell-type-specific sensitivity to p21 versus PUMA. Our framework identifies STAT1 as a tunable amplifier and oscillation quencher of the stress-responsive p53 network, providing testable dynamics-based predictions for fate control.",
+    "keywords": [
+      "Apoptosis",
+      "Cell-fate",
+      "Hopf-bifurcation",
+      "Oscillations",
+      "STAT1",
+      "Senescence",
+      "Stress",
+      "p53-Mdm2"
+    ],
+    "mesh_terms": [
+      "*STAT1 Transcription Factor/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "*Cyclin-Dependent Kinase Inhibitor p21/metabolism",
+      "*Models, Biological",
+      "Proto-Oncogene Proteins c-mdm2/metabolism",
+      "*Apoptosis Regulatory Proteins/metabolism/genetics",
+      "Humans",
+      "*Proto-Oncogene Proteins/metabolism",
+      "*Stress, Physiological",
+      "Signal Transduction",
+      "DNA Damage"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mk, Francis Didier Tshianyi",
+        "Omana, Rebecca Walo",
+        "Ndondo, Apollinaire Mboma",
+        "Seya, Didier Kumwimba",
+        "Gonze, Didier"
+      ],
+      "short_names": [
+        "Mk FDT",
+        "Omana RW",
+        "Ndondo AM",
+        "Seya DK",
+        "Gonze D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Unit of Theoretical Chronobiology, Faculty of Sciences, Universite libre de Bruxelles (ULB), Brussels, Belgium; Departement des Mathematiques et Informatique, Faculte des Sciences et Technologies, Universite de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: francis.tshianyi.mwana.kalala@ulb.be.",
+        "Departement des Mathematiques et Informatique, Faculte des Sciences et Technologies, Universite de Kinshasa, Kinshasa, DR, Congo. Electronic address: rebecca.walo@unikin.ac.cd.",
+        "Departement des Mathematiques et Informatique, Faculte des Sciences et Technologies, Universite de Lubumbashi, Lubumbashi, DR, Congo; Departement des Sciences de Base, Faculte des Sciences Technologiques, Universite Nouveaux Horizons, Lubumbashi, DR, Congo. Electronic address: apondondo@gmail.com.",
+        "Departement des Mathematiques et Informatique, Faculte des Sciences et Technologies, Universite de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: didierkumwimba@gmail.com.",
+        "Departement des Mathematiques et Informatique, Faculte des Sciences et Technologies, Universite de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: didier.gonze@ulb.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mk, Francis Didier Tshianyi",
+        "short_name": "Mk FDT",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Theoretical Chronobiology, Faculty of Sciences, Université libre de Bruxelles (ULB), Brussels, Belgium; Département des Mathématiques et Informatique, Faculté des Sciences et Technologies, Université de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: francis.tshianyi.mwana.kalala@ulb.be."
+        ]
+      },
+      {
+        "full_name": "Omana, Rebecca Walo",
+        "short_name": "Omana RW",
+        "identifiers": [],
+        "affiliations": [
+          "Département des Mathématiques et Informatique, Faculté des Sciences et Technologies, Université de Kinshasa, Kinshasa, DR, Congo. Electronic address: rebecca.walo@unikin.ac.cd."
+        ]
+      },
+      {
+        "full_name": "Ndondo, Apollinaire Mboma",
+        "short_name": "Ndondo AM",
+        "identifiers": [],
+        "affiliations": [
+          "Département des Mathématiques et Informatique, Faculté des Sciences et Technologies, Université de Lubumbashi, Lubumbashi, DR, Congo; Département des Sciences de Base, Faculté des Sciences Technologiques, Université Nouveaux Horizons, Lubumbashi, DR, Congo. Electronic address: apondondo@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Seya, Didier Kumwimba",
+        "short_name": "Seya DK",
+        "identifiers": [],
+        "affiliations": [
+          "Département des Mathématiques et Informatique, Faculté des Sciences et Technologies, Université de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: didierkumwimba@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Gonze, Didier",
+        "short_name": "Gonze D",
+        "identifiers": [],
+        "affiliations": [
+          "Département des Mathématiques et Informatique, Faculté des Sciences et Technologies, Université de Lubumbashi, Lubumbashi, DR, Congo. Electronic address: didier.gonze@ulb.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of theoretical biology"
+    ],
+    "journal_abbrev": [
+      "J Theor Biol"
+    ],
+    "pub_date": "2026 Aug 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 05:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42162854",
+      "23665218",
+      "34193827",
+      "19617533",
+      "26627563",
+      "20858413",
+      "21460037",
+      "18602874",
+      "18719376",
+      "22914926",
+      "19965665",
+      "25814188",
+      "18783169",
+      "26904937",
+      "23684607",
+      "20444544",
+      "23585871",
+      "26640149",
+      "18706112",
+      "25168242",
+      "20419447",
+      "21450905",
+      "20624280",
+      "20595817",
+      "21368573",
+      "24126697",
+      "16986275",
+      "28757384",
+      "19544329",
+      "17063487",
+      "12792779",
+      "42139975",
+      "26397130",
+      "24177958",
+      "17072789",
+      "25301064",
+      "30745421",
+      "16152627",
+      "12080472",
+      "29298131",
+      "35834924",
+      "38811536",
+      "21680522",
+      "17189186",
+      "20703098",
+      "20935220",
+      "24260342",
+      "17700068",
+      "27129219",
+      "21562588",
+      "25313037",
+      "17297446",
+      "16186499",
+      "18215742",
+      "21491996",
+      "9067734",
+      "19657064",
+      "19197384",
+      "30414319",
+      "26309394",
+      "22713239",
+      "41714169",
+      "31812692",
+      "18793717",
+      "23462184",
+      "22262183",
+      "17585201",
+      "25145672",
+      "21768776",
+      "19249676",
+      "19534768",
+      "23437037",
+      "30482390",
+      "20370686",
+      "25433195",
+      "11158315",
+      "16288207",
+      "18377871",
+      "21060154",
+      "22912688",
+      "30262665",
+      "31318335",
+      "20803550",
+      "17317670",
+      "27124407",
+      "10611322",
+      "31749402",
+      "25644037",
+      "11739748",
+      "18025259",
+      "28442631",
+      "11328884",
+      "40744219",
+      "21292770",
+      "17510315",
+      "27956626",
+      "20812030",
+      "25785833",
+      "17371838",
+      "22114721"
+    ],
+    "review": [
+      "42162854",
+      "18783169"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-5193(26)00116-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

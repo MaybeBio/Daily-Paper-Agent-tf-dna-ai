@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, conclusions, and supplementary information references.
+- **Assessment boundary** Scientific validity of the genetic finding, quality of the in silico evidence, and the strength of the causal claim for the GATA6 H329Y variant in familial dilated cardiomyopathy.
+- **Shared manuscript claim summary** The authors report a novel heterozygous missense variant (c.985C>T, p.H329Y) in GATA6 identified by whole-exome sequencing in a single Iranian family with early-onset familial dilated cardiomyopathy. The variant segregates with affected individuals, is absent in unaffected family members and 50 healthy controls, and is predicted to be deleterious by multiple in silico tools. Molecular dynamics simulations suggest reduced stability and increased compactness of the mutant protein, which the authors interpret as supporting a causative role.
+- **Visible evidence base** Pedigree (Fig. 1), clinical and echocardiographic data (Table 1), Sanger sequencing chromatogram (Fig. 2), I-TASSER models (Fig. 3), MD simulation metrics (Table 2, Fig. 4), and supplementary tables referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Supplementary Tables 1–4 (variant filtering details, cardiomyopathy gene list, ACMG criteria, prediction scores) are referenced but not included. No raw sequencing data, coverage statistics, or bioinformatics pipeline details are provided. No functional validation (e.g., cellular assays, animal models) is described. The protein model template (PDB 4hc7) is a GATA3 structure, not GATA6, and the modelling quality metrics are only partially reported.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting clinical finding of a novel GATA6 variant in a family with dilated cardiomyopathy, but the evidence provided is insufficient to establish causality. The genetic association is based on a single family with limited segregation data, and the in silico analyses, while suggestive, are not adequately validated or connected to a plausible molecular mechanism. The manuscript would benefit from additional genetic evidence, functional studies, and a more rigorous presentation of the computational methods and results.
+- **Who would be interested in the results, and why** Clinicians and geneticists working on inherited cardiomyopathies, particularly those interested in the expanding phenotypic spectrum of GATA6 mutations. Researchers using in silico tools to predict variant pathogenicity may also find the methodological approach relevant, though the conclusions drawn here are limited by the lack of experimental validation.
+- **Major strengths** The study addresses an important clinical question using a clinically well-characterized family. The use of WES in a familial context is appropriate. The variant is novel, segregates with the phenotype in the available family members, and is absent in local controls. The application of multiple in silico prediction tools and molecular dynamics simulations is a reasonable first step in assessing variant impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic evidence
+  - **Claim pointer** The authors claim the H329Y variant is "causative" for familial DCM based on segregation in a single family.
+  - **Evidence pointer** Fig. 1, Table 1, Results section
+  - **Concern** The genetic evidence is limited to a single pedigree with only four affected individuals. The segregation pattern is consistent with autosomal dominant inheritance, but the number of informative meioses is small. No LOD score or formal statistical analysis is provided. The absence of the variant in 50 local controls is useful but does not establish rarity in the broader population. The variant is classified as VUS by ACMG criteria, which the authors acknowledge, yet they proceed to make a strong causal claim.
+  - **Why it matters** Establishing causality for a novel variant in a genetically heterogeneous disorder like DCM requires robust evidence, including larger cohort data, co-segregation statistics, and ideally functional validation. Overstating the causal role of a VUS based on limited family data can lead to misinterpretation in clinical and research settings.
+  - **Resolution test** Provide a formal segregation analysis (e.g., LOD score), screen additional DCM cohorts for variants in GATA6, and present population frequency data from large databases (gnomAD) for this specific variant. Ideally, include functional studies demonstrating a deleterious effect on GATA6 transcriptional activity or cardiac cell function.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In silico evidence
+  - **Claim pointer** The authors state that MD simulations show the H329Y mutation decreases protein stability and increases compactness, and they interpret this as supporting a pathogenic effect.
+  - **Evidence pointer** Table 2, Fig. 4, Results section
+  - **Concern** The MD simulation results are presented with minimal methodological detail. The force field, simulation time, number of replicates, and convergence criteria are not described. The RMSD values reported (approximately 1.0–1.2 nm) are unusually high for a folded protein domain, suggesting possible instability in the simulation setup rather than a genuine effect of the mutation. The Rg values differ dramatically between wild-type (6.93 nm) and mutant (2.68 nm), which is implausible for a single amino acid substitution and suggests a major conformational change that is not supported by the RMSD data. The interpretation of these metrics is also inconsistent; the authors state that higher RMSD indicates higher stability, which is not a standard interpretation.
+  - **Why it matters** The in silico results are the primary evidence for a functional effect of the variant. If the simulations are not robust or are misinterpreted, the central claim of the paper is unsupported. The reported values raise concerns about the validity of the modelling and simulation procedures.
+  - **Resolution test** Provide full details of the MD simulation protocol, including software parameters, equilibration, production run length, and replicate analyses. Show time-series plots for RMSD, Rg, and RMSF. Re-analyse the data using standard interpretations of these metrics. Consider using additional, well-validated stability prediction tools (e.g., FoldX, DDGun) to corroborate the findings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model quality
+  - **Claim pointer** The authors claim the I-TASSER models are of high quality based on PROCHECK and ERRAT scores.
+  - **Evidence pointer** Results section, Fig. 3
+  - **Concern** The reported Ramachandran plot statistics show a relatively low percentage of residues in the most favoured regions (55.3% and 56.4% for wild-type and mutant, respectively), with a notable fraction in disallowed regions (6.4% and 3.3%). These values are below what is typically expected for a high-quality model. The ERRAT scores (77.12% and 68.19%) are moderate. The template used (PDB 4hc7) is a GATA3 structure, and the sequence identity between GATA3 and GATA6 in the DNA-binding domain is not stated. The authors do not discuss the limitations of using a homologous structure as a template.
+  - **Why it matters** The reliability of the MD simulations depends on the quality of the starting structures. If the models are not accurate, the simulation results may not reflect the behaviour of the actual protein. The authors' claim of "high quality" is not fully supported by the data they present.
+  - **Resolution test** Provide the sequence identity between the template and GATA6, and discuss the suitability of the template. Consider using a GATA6-specific structure if available, or perform additional model validation (e.g., ProSA-web, Verify3D). Present the Ramachandran plot data in a standard format and discuss the implications of the residues in disallowed regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clinical data
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The clinical data in Table 1 are incomplete. For example, the "Symptoms" column for individual III-3 is listed as "Dyspnea, fatigue" but the NYHA class is III, which is inconsistent with the typical symptom burden. Additionally, the age of onset for individual II-4 is 20, but the age at evaluation is not provided, making it difficult to assess disease duration and progression.
+  - **Required correction** Provide complete clinical details for each individual, including age at evaluation, duration of symptoms, and any additional diagnostic findings (e.g., ECG, cardiac MRI results). Clarify the relationship between symptoms and NYHA class.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The introduction and discussion cite several studies on GATA6 mutations in congenital heart disease and DCM, but the connection between these studies and the current finding is not always clearly articulated. The discussion of GATA6 function in cardiac development is somewhat general and could be more focused on the specific role of the C-terminal region where the H329Y mutation resides.
+  - **Required correction** Strengthen the discussion by specifically addressing the potential impact of the H329Y mutation on the DNA-binding domain or protein-protein interactions, and relate this to known functional domains of GATA6. Cite relevant studies that have examined mutations in similar regions of GATA family members.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Materials and Methods, WES section
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The WES methodology is described in very general terms. The sequencing platform is mentioned (MGI-seq), but the depth of coverage, read length, and bioinformatics pipeline (alignment, variant calling, annotation) are not described. The criteria for selecting the GATA6 variant as the candidate are not fully transparent.
+  - **Required correction** Provide a detailed description of the WES workflow, including the capture kit, sequencing parameters, and bioinformatics tools used. Describe the variant filtering strategy in detail, including the thresholds applied for allele frequency, quality scores, and functional impact predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings that impede readability. For example, in the abstract, "whereas it was not established in any of the unaffected ones" is unclear. In the discussion, the sentence "The results of our study confirmed the presence of a variant in the GATA6 gene being suspicious of having a role in both formation and progression of early-onset FDCM" is convoluted.
+  - **Required correction** The manuscript should be carefully edited for language and clarity. Consider having a native English speaker review the text.
+
+## Risk / unsupported claims
+- The claim that H329Y is a "causative functional mutation" is not supported by the evidence presented. The variant is classified as VUS, and no functional validation is provided.
+- The interpretation of MD simulation results is not robust. The reported RMSD and Rg values are inconsistent with a stable protein simulation, and the authors' interpretation of these metrics is non-standard.
+- The claim that the models are of "high quality" is not fully supported by the reported PROCHECK and ERRAM scores, which are moderate at best.
+- The absence of the variant in 50 healthy controls is presented as evidence of rarity, but this is a small sample and does not establish population frequency.
+- The manuscript states that the variant is "conserved among paralogues and orthologues in some species," but the specific species and the degree of conservation are not detailed, making this claim difficult to evaluate.
+- The statement that "these data indicated that the mutation could affect the protein structure, which may be related to the functional impairment of GATA6" is speculative and not directly tested.

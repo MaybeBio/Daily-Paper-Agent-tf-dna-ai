@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "39677780",
+    "doi": "10.1101/2024.12.03.626660",
+    "title": "Transition paths across the EMT landscape are dictated by network logic."
+  },
+  "content": {
+    "abstract": "During development and cancer metastasis, cells transition reversibly from epithelial to mesenchymal via intermediate cell states during epithelial-mesenchymal transition (EMT). EMT is controlled by gene regulatory networks (GRNs) and can be described by a three-node GRN that permits tristable EMT landscapes. In this GRN, multiple inputs regulate the transcription factor ZEB that induces EMT. It is unknown how to choose the network logic for such regulation. Here we explore the effects of network logic on a tristable EMT network. We discover that the choice of additive vs multiplicative logic affects EMT phenotypes, leading to opposing predictions regarding the factors controlling EMT transition paths. We show that strong inhibition of miR-200 destabilizes the epithelial state and initiates EMT for multiplicative (AND) but not additive (OR) logic, suggesting that AND logic is in better agreement with experimental measurements of the effects of miR-200 regulation on EMT. Using experimental single-cell data, stochastic simulations, and perturbation analysis, we demonstrate how our results can be used to design experiments to infer the network logic of an EMT GRN in live cells. Our results explain how the manipulation of molecular interactions can stabilize or destabilize EMT hybrid states, of relevance during cancer progression and metastasis. More generally, we highlight the importance of the choice of network logic in GRN models in the presence of biological noise and multistability.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Anupam",
+        "MacLean, Adam L"
+      ],
+      "short_names": [
+        "Dey A",
+        "MacLean AL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0689-7907"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Anupam",
+        "short_name": "Dey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "MacLean, Adam L",
+        "short_name": "MacLean AL",
+        "identifiers": [
+          "0000-0003-0689-7907"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 17:25",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39076359",
+      "38553870",
+      "38552553",
+      "38307941",
+      "37726308",
+      "37190873",
+      "36710400",
+      "36580597",
+      "36215492",
+      "36158660",
+      "35737842",
+      "35411083",
+      "35188459",
+      "34626539",
+      "34536382",
+      "34518231",
+      "34061505",
+      "33533596",
+      "33284110",
+      "30560804",
+      "30405106",
+      "29623961",
+      "29259250",
+      "28443829",
+      "27008704",
+      "26901438",
+      "26554584",
+      "25607528",
+      "25270257",
+      "25084828",
+      "24812525",
+      "24154725",
+      "23972859",
+      "22797360",
+      "22753312",
+      "20418909",
+      "19544444",
+      "18411277",
+      "18376396",
+      "16729041",
+      "15983400",
+      "14607112",
+      "14530388",
+      "11872831",
+      "5789433"
+    ],
+    "similar": [
+      "39677780",
+      "40395204",
+      "26103982",
+      "35347688",
+      "24154725",
+      "24598159",
+      "41233338",
+      "30254295",
+      "27328302",
+      "38555331",
+      "31044454",
+      "30017802",
+      "32093616",
+      "27008704",
+      "34986805",
+      "35700712",
+      "34480928",
+      "22514743",
+      "23972859",
+      "30155271",
+      "22192526",
+      "25183783",
+      "34026435",
+      "32217696",
+      "35188459",
+      "31739095",
+      "30594349",
+      "38652107",
+      "24598126",
+      "41256596",
+      "36808651",
+      "31342918",
+      "36552758",
+      "37607190",
+      "30537698",
+      "30458000",
+      "25716682",
+      "36346808",
+      "38473317",
+      "24812525",
+      "33207810",
+      "34975907",
+      "32201364",
+      "38553870",
+      "33567424",
+      "24885626",
+      "29212455",
+      "27000495",
+      "21411626",
+      "36710400",
+      "34905218",
+      "24627491",
+      "32391378",
+      "30453041",
+      "31529614",
+      "37961316",
+      "41482352",
+      "29769331",
+      "31557902",
+      "35805066",
+      "32690031",
+      "31329868",
+      "28322181",
+      "26317796",
+      "36851919",
+      "26258068",
+      "32038999",
+      "26764010",
+      "40836845",
+      "29721073",
+      "34680284",
+      "37834263",
+      "32396572",
+      "27889319",
+      "36215492",
+      "25883654",
+      "37696879",
+      "22929591",
+      "23188671",
+      "28560682",
+      "28649800",
+      "28186090",
+      "29497351",
+      "41030230",
+      "25944618",
+      "28651527",
+      "37212485",
+      "40809482",
+      "30609805",
+      "30649699",
+      "24149370",
+      "28824874",
+      "34164628",
+      "22766682",
+      "29051564",
+      "41096743",
+      "28405157",
+      "33375334",
+      "30166344",
+      "36248730"
+    ],
+    "review": [
+      "39677780",
+      "30594349",
+      "24598126",
+      "36808651",
+      "38473317",
+      "24812525",
+      "33207810",
+      "38553870",
+      "30453041",
+      "31557902",
+      "35805066",
+      "28322181",
+      "26258068",
+      "37834263",
+      "25883654",
+      "28560682",
+      "28649800",
+      "30649699",
+      "28824874"
+    ],
+    "pmc": [
+      "11642844"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39677780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.03.626660",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

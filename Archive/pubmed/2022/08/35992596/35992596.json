@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "35992596",
+    "doi": "10.3389/fnagi.2022.925072",
+    "title": "Molecular Mechanism of Xingnao Kaiqiao Pill for Perioperative Neurocognitive Disorder and Its Correlation With Immune and Inflammatory Signaling Pathways Based on Network Pharmacology and Molecular Docking."
+  },
+  "content": {
+    "abstract": "To investigate the molecular mechanism of Xingnao Kaiqiao Pill in the treatment of perioperative neurocognitive disorder (PND) from the perspective of network pharmacology and molecular docking technology. Active ingredients of Xingnao Kaiqiao Pill were screened from the traditional Chinese medicine database and analysis platform, and the putative targets were predicted. The GeneCards database was searched to obtain PND-related targets. The genes corresponding to the targets were searched and annotated on the UniProt database. The VennDiagram package in R was employed to obtain common target genes. The overlap genes were introduced into STRING to obtain a protein-protein interaction (PPI) network; thus, key targets were screened. The target relationship network of \"Xingnao Kaiqiao Pill-traditional Chinese medicine-compound-common target\" was constructed by Cytoscape software. Using R language package Bioconductor, Gene Ontology (GO) and pathway enrichment analysis (Kyoto Encyclopedia of Genes and Genomes Pathway, KEGG Pathway) were performed on the common target genes. A total of 45 active ingredients of Xingnao Kaiqiao Pill were screened, with 182 potential targets, and 1,579 PND-related targets were retrieved from the GeneCards databases (Score >/= 1). Using VennDiagram, 132 overlap genes were gotten. Xingnao Kaiqiao Pill mainly acted on targets, such as MAPK and JUN. GO enrichment analysis displayed G protein-coupled amine receptor activity, nuclear receptor activity, ligand-activated transcription factor activity, G protein-coupled neurotransmitter receptor activity, steroid hormone receptor activity, and cytokine receptor activity. KEGG enrichment analysis exhibited 157 signaling pathways. The regulation of interleukin 17, tumor necrosis factor, hypoxia-inducible factor-1, and MAPK signaling pathways affected central nervous system (CNS) inflammatory response, cellular immunity, tumor-related signaling pathways, protected neurons, and inhibited PND. The active ingredients of Xingnao Kaiqiao Pill adjust interleukin 17, tumor necrosis factor, hypoxia-inducible factor-1, and MAPK signaling pathways by acting on cell targets, such as JUN, MAPK, AKT1, etc., and finally exert a therapeutic effect on PND.",
+    "keywords": [
+      "drug targets",
+      "inflammatory factors",
+      "molecular docking",
+      "network pharmacology",
+      "perioperative neurocognitive disorder"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Weiwei",
+        "Shi, Gaoxiang",
+        "Wang, Hui",
+        "Feng, Miaomiao",
+        "Gao, Xiang",
+        "Xie, Qipeng",
+        "Zhang, Ning",
+        "Lv, Zhigan"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Shi G",
+        "Wang H",
+        "Feng M",
+        "Gao X",
+        "Xie Q",
+        "Zhang N",
+        "Lv Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China.",
+        "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+        "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Weiwei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Gaoxiang",
+        "short_name": "Shi G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Miaomiao",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiang",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Qipeng",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ning",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhigan",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Shanxi Academy of Medical Sciences, Taiyuan, China.",
+          "Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in aging neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Aging Neurosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/23 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "42571316",
+      "42278435",
+      "42169880",
+      "41413847"
+    ],
+    "refs": [
+      "35677803",
+      "35652170",
+      "35418837",
+      "34557778",
+      "32113876",
+      "31654642",
+      "31146514",
+      "30995505",
+      "30883423",
+      "30325806",
+      "29344175",
+      "27604565",
+      "25731051",
+      "25289932",
+      "24735618",
+      "24661139",
+      "24660030",
+      "24011563",
+      "21812259",
+      "21323543",
+      "19519624",
+      "19399780",
+      "14597658"
+    ],
+    "similar": [
+      "35992596",
+      "38619514",
+      "36267750",
+      "34941025",
+      "36401375",
+      "33645090",
+      "36817858",
+      "35692141",
+      "33082858",
+      "33243703",
+      "35178959",
+      "37171332",
+      "36451445",
+      "33645014",
+      "35837376",
+      "34159207",
+      "35430443",
+      "34873575",
+      "33634308",
+      "35035498",
+      "37000070",
+      "34951253",
+      "35024051",
+      "34791846",
+      "35850844",
+      "36626454",
+      "34746302",
+      "35227068",
+      "34660782",
+      "34353081",
+      "35851128",
+      "36003525",
+      "33299870",
+      "34149863",
+      "36158000",
+      "36158488",
+      "34581057",
+      "34498478",
+      "32928080",
+      "33645094",
+      "38077804",
+      "34994141",
+      "37035395",
+      "35899228",
+      "35097126",
+      "34880921",
+      "36188543",
+      "35069454",
+      "34125845",
+      "35865953",
+      "34872267",
+      "33496115",
+      "35707470",
+      "36558908",
+      "35528155",
+      "34908920",
+      "33350195",
+      "34472273",
+      "35343164",
+      "35795275",
+      "35265311",
+      "34785888",
+      "38098593",
+      "36193152",
+      "35510223",
+      "35347967",
+      "34690752",
+      "35178927",
+      "36419618",
+      "33849116",
+      "35990826",
+      "35371275",
+      "34692849",
+      "35873639",
+      "34515002",
+      "36793356",
+      "33474949",
+      "34435046",
+      "34296561",
+      "34746316",
+      "35280377",
+      "36353478",
+      "35850814",
+      "37442189",
+      "35237152",
+      "35140796",
+      "34246740",
+      "35706803",
+      "34093213",
+      "33196098",
+      "34754315",
+      "33494738",
+      "36479181",
+      "35990823",
+      "33116763",
+      "32126522",
+      "35496280",
+      "35285205",
+      "36819540",
+      "32489062",
+      "33743701",
+      "33691446",
+      "35706800",
+      "35280425",
+      "36388782",
+      "37361210",
+      "36925608",
+      "38256932",
+      "37623233",
+      "38567354",
+      "36465453",
+      "35945711",
+      "34539848",
+      "36304300",
+      "36267087",
+      "36193133",
+      "36836696",
+      "36743801",
+      "35434037",
+      "36866196",
+      "35592869",
+      "33165417",
+      "36721211",
+      "36133787",
+      "36217431",
+      "36518044",
+      "37529040",
+      "36289509",
+      "38027735",
+      "36059675",
+      "36983855",
+      "36299877",
+      "37101493",
+      "36865917",
+      "36133785",
+      "36238608",
+      "36238548",
+      "36605402",
+      "33390971",
+      "36341127",
+      "36431060",
+      "36861803",
+      "36660701",
+      "37405022",
+      "39385284",
+      "36387362",
+      "36726458",
+      "38915950",
+      "36556480",
+      "36110188",
+      "36328424",
+      "36017263",
+      "39295931",
+      "36160389",
+      "37786545",
+      "32521487",
+      "38145100",
+      "36210824",
+      "35990842",
+      "36062178",
+      "36276446",
+      "37426810",
+      "36836768",
+      "36686663",
+      "34790116",
+      "36581573",
+      "37651081",
+      "38841189",
+      "39328139",
+      "36358362",
+      "36712666"
+    ],
+    "review": [
+      "35992596",
+      "33243703",
+      "37000070",
+      "36238548",
+      "36581573"
+    ],
+    "pmc": [
+      "9384889"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35992596/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35992596",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnagi.2022.925072",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

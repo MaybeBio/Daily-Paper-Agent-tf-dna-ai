@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "41158600",
+    "doi": "10.2147/JIR.S544162",
+    "title": "Potential Targets and Bioactive Constituents of Daying Decoction in Schizophrenia with Neuroinflammation: A Preliminary Exploratory Integrative Study."
+  },
+  "content": {
+    "abstract": "PURPOSE: Schizophrenia (SZ) is a serious disorder often linked to schizophrenia-related neuroinflammation (SZNI). While second-generation antipsychotics (SGAs) are available, their metabolic side effects highlight the need for alternative therapies. The traditional Chinese medicine compound Daying Decoction (DYD) has shown good clinical efficacy in the treatment of SZNI, but its molecular mechanisms and pharmacological targets are not well understood. There are also no studies that have yet reported their interaction with SZNI. METHODS: To find out how DYD might help with SZNI, we used bioinformatics tools to analyze things like gene activity, immune cell presence, and key gene patterns. We also did lab tests-including molecular docking, molecular dynamics simulation, and experiments in cell cultures-to check how the main active parts of DYD affect important genes. RESULTS: We identified, through bioinformatics analysis, that the transcription factor c-JUN may act as a key regulator in SZNI, and that rhein may serve as a core component. Molecular dynamics simulations and CETSA further confirmed the substantial structural stability of the c-JUN-Rhein complex. Finally, in vitro analyses indicated that rhein effectively reduced ROS levels and modulated neuroinflammatory biomarkers by inhibiting JNK/c-JUN phosphorylation and inflammatory factors. CONCLUSION: We conducted the first comprehensive study of DYD against SZNI, identifying that c-JUN might represent a candidate that could be explored as a potential therapeutic target and that rhein may contribute as a core active component. This serves as a starting point that can guide future in vivo studies and the development of potential small-molecule therapies for SZNI.",
+    "keywords": [
+      "Traditional Chinese Medicine",
+      "bioinformatics",
+      "machine learning",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "schizophrenia-related neuroinflammation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Lina",
+        "Zhang, Bilin",
+        "Liu, Meiying",
+        "Qin, Yuxi",
+        "Lu, Hongxiao",
+        "Wang, Ze",
+        "Yuan, Yiting",
+        "Zheng, Qian",
+        "Zhao, Guang",
+        "Qiao, Yanan",
+        "Ma, Ruodi",
+        "Lu, Bocheng",
+        "Li, Yunlan"
+      ],
+      "short_names": [
+        "Guo L",
+        "Zhang B",
+        "Liu M",
+        "Qin Y",
+        "Lu H",
+        "Wang Z",
+        "Yuan Y",
+        "Zheng Q",
+        "Zhao G",
+        "Qiao Y",
+        "Ma R",
+        "Lu B",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "Department of Pharmacy, Second hospital of Shanxi Medical University, Taiyuan, 030001, People's Republic of China.",
+        "School of Basic Medical Sciences, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, People's Republic of China.",
+        "Traditional Chinese Medicine Innovation team of Shanxi Traditional Chinese Medicine Administration, Shanxi Hospital of Traditional Chinese Medicine, Taiyuan, 030001, People's Republic of China.",
+        "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Lina",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bilin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meiying",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yuxi",
+        "short_name": "Qin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hongxiao",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ze",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yiting",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qian",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Guang",
+        "short_name": "Zhao G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yanan",
+        "short_name": "Qiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Second hospital of Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ma, Ruodi",
+        "short_name": "Ma R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Bocheng",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Innovation team of Shanxi Traditional Chinese Medicine Administration, Shanxi Hospital of Traditional Chinese Medicine, Taiyuan, 030001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Yunlan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science, Shanxi Medical University, Taiyuan, 030001, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 06:28",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41047022",
+      "40086054",
+      "39521235",
+      "39507523",
+      "39032899",
+      "38933815",
+      "38811984",
+      "38545378",
+      "37714424",
+      "37580560",
+      "37342937",
+      "36923645",
+      "36902268",
+      "36863382",
+      "36653905",
+      "36253406",
+      "36046834",
+      "35667260",
+      "35651331",
+      "35633029",
+      "35429009",
+      "35370650",
+      "35276900",
+      "35093231",
+      "34657518",
+      "34145941",
+      "33708122",
+      "33243703",
+      "33114371",
+      "32588080",
+      "32356892",
+      "31672575",
+      "30626291",
+      "30594344",
+      "29913427",
+      "29544874",
+      "28657646",
+      "25119539",
+      "24369441",
+      "23618831",
+      "21866342",
+      "19913061",
+      "18793328",
+      "14631816",
+      "12799614",
+      "12471596"
+    ],
+    "similar": [
+      "41158600",
+      "40916281",
+      "40676786",
+      "40885502",
+      "40460921",
+      "41475625",
+      "40510335",
+      "41045823",
+      "37469733",
+      "41504373",
+      "37799727",
+      "40279966",
+      "35932042",
+      "41448498",
+      "37832514",
+      "38992644",
+      "39310787",
+      "40669280",
+      "36389420",
+      "40469629",
+      "38322942",
+      "40015539",
+      "39743182",
+      "40816715",
+      "37083798",
+      "36740793",
+      "40958307",
+      "39917915",
+      "39805793",
+      "34349502",
+      "39278295",
+      "39993869",
+      "39306212",
+      "36550856",
+      "41101075",
+      "40543694",
+      "40326031",
+      "39631292",
+      "40013962",
+      "33513419",
+      "38008277",
+      "41357200",
+      "38898844",
+      "40446578",
+      "41189264",
+      "41244831",
+      "40086050",
+      "38310567",
+      "36158000",
+      "40134952",
+      "35616676",
+      "32307268",
+      "38565409",
+      "41155608",
+      "40615099",
+      "40329967",
+      "40585331",
+      "40661312",
+      "40128047",
+      "33831463",
+      "35186104",
+      "39742571",
+      "39244177",
+      "41213440",
+      "40645949",
+      "41488049",
+      "39610125",
+      "40322038",
+      "36221378",
+      "41101222",
+      "39002822",
+      "38124169",
+      "38316220",
+      "39259129",
+      "38518018",
+      "34353059",
+      "37957903",
+      "40132971",
+      "40266298",
+      "36634726",
+      "36911881",
+      "41498029",
+      "41137226",
+      "34994141",
+      "37244150",
+      "35751193",
+      "37009506",
+      "41015074",
+      "39842747",
+      "33496116",
+      "39380772",
+      "36535207",
+      "40992442",
+      "38994616",
+      "37233418",
+      "36093517",
+      "41031176",
+      "41342434",
+      "38758858",
+      "37084637"
+    ],
+    "review": [
+      "41158600",
+      "40015539",
+      "39743182"
+    ],
+    "pmc": [
+      "12554953"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41158600/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S544162",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

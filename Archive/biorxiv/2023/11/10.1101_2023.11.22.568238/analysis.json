@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.22.568238",
+  "title": "Boosting performance of generative diffusion model for molecular docking by training on artificial binding pockets",
+  "authors": "Taras Voitsitskyi; Volodymyr Bdzhola; Roman Stratiichuk; Ihor Koleiev; Zakhar Ostrovsky; Volodymyr Vozniak; Ivan Khropachov; Pavlo Henitsoi; Leonid Popryho; Roman Zhytar; Semen O Yesylevskyy; Alan Nafiiev; Serhii Starosyla",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出PocketCFDM扩散模型，通过人工结合口袋增强小分子对接性能，虽聚焦蛋白-配体而非TF-DNA，但生成式扩散对接方法可迁移至蛋白-DNA复合物建模。",
+  "abstract": "This study introduces the PocketCFDM generative diffusion model, aimed at improving the prediction of small molecule poses in the protein binding pockets. The model utilizes a novel data augmentation technique, involving the creation of numerous artificial binding pockets that mimic the statistical patterns of non-bond interactions found in actual protein-ligand complexes. An algorithmic method was developed to assess and replicate these interaction patterns in the artificial binding pockets built around small molecule conformers. It is shown that the integration of artificial binding pockets into the training process significantly enhanced the model’s performance. Notably, PocketCFDM surpassed DiffDock in terms of non-bond interaction quality, number of steric clashes, and inference speed. Future developments and optimizations of the model are discussed. Availability The inference code and final model weights of PocketCFDM are accessible publicly via the GitHub repository: https://github.com/vtarasv/pocket-cfdm.git .",
+  "abstract_zh": "本研究介绍了PocketCFDM生成扩散模型，旨在提高蛋白质结合口袋中小分子构象的预测精度。该模型采用了一种新颖的数据增强技术，涉及创建大量模拟真实蛋白质-配体复合物中非键相互作用统计模式的人工结合口袋。开发了一种算法方法，用于评估并在围绕小分子构象构建的人工结合口袋中复制这些相互作用模式。研究表明，将人工结合口袋整合到训练过程中显著提升了模型的性能。值得注意的是，PocketCFDM在非键相互作用质量、空间冲突数量和推理速度方面均超越了DiffDock。文中还讨论了模型的未来发展与优化方向。可用性 PocketCFDM的推理代码和最终模型权重可通过GitHub仓库公开获取：https://github.com/vtarasv/pocket-cfdm.git 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568238",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568238",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.22.568238/index.html"
+}

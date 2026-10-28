@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "37352385",
+    "doi": "10.1158/0008-5472.CAN-22-3113",
+    "title": "Whole Slide Imaging-Based Prediction of TP53 Mutations Identifies an Aggressive Disease Phenotype in Prostate Cancer."
+  },
+  "content": {
+    "abstract": "In prostate cancer, there is an urgent need for objective prognostic biomarkers that identify the metastatic potential of a tumor at an early stage. While recent analyses indicated TP53 mutations as candidate biomarkers, molecular profiling in a clinical setting is complicated by tumor heterogeneity. Deep learning models that predict the spatial presence of TP53 mutations in whole slide images (WSI) offer the potential to mitigate this issue. To assess the potential of WSIs as proxies for spatially resolved profiling and as biomarkers for aggressive disease, we developed TiDo, a deep learning model that achieves state-of-the-art performance in predicting TP53 mutations from WSIs of primary prostate tumors. In an independent multifocal cohort, the model showed successful generalization at both the patient and lesion level. Analysis of model predictions revealed that false positive (FP) predictions could at least partially be explained by TP53 deletions, suggesting that some FP carry an alteration that leads to the same histological phenotype as TP53 mutations. Comparative expression and histologic cell type analyses identified a TP53-like cellular phenotype triggered by expression of pathways affecting stromal composition. Together, these findings indicate that WSI-based models might not be able to perfectly predict the spatial presence of individual TP53 mutations but they have the potential to elucidate the prognosis of a tumor by depicting a downstream phenotype associated with aggressive disease biomarkers. SIGNIFICANCE: Deep learning models predicting TP53 mutations from whole slide images of prostate cancer capture histologic phenotypes associated with stromal composition, lymph node metastasis, and biochemical recurrence, indicating their potential as in silico prognostic biomarkers. See related commentary by Bordeleau, p. 2809.",
+    "keywords": [],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "Mutation",
+      "*Prostatic Neoplasms/genetics/pathology",
+      "Prognosis",
+      "Prostate/pathology",
+      "Phenotype",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pizurica, Marija",
+        "Larmuseau, Maarten",
+        "Van der Eecken, Kim",
+        "de Schaetzen van Brienen, Louise",
+        "Carrillo-Perez, Francisco",
+        "Isphording, Simon",
+        "Lumen, Nicolaas",
+        "Van Dorpe, Jo",
+        "Ost, Piet",
+        "Verbeke, Sofie",
+        "Gevaert, Olivier",
+        "Marchal, Kathleen"
+      ],
+      "short_names": [
+        "Pizurica M",
+        "Larmuseau M",
+        "Van der Eecken K",
+        "de Schaetzen van Brienen L",
+        "Carrillo-Perez F",
+        "Isphording S",
+        "Lumen N",
+        "Van Dorpe J",
+        "Ost P",
+        "Verbeke S",
+        "Gevaert O",
+        "Marchal K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6653-4094",
+        "ORCID: 0000-0003-0466-099X",
+        "ORCID: 0000-0002-4070-2512",
+        "ORCID: 0000-0002-5882-9458",
+        "ORCID: 0000-0003-0974-4092",
+        "ORCID: 0009-0006-4120-6648",
+        "ORCID: 0000-0003-1242-3644",
+        "ORCID: 0000-0001-8175-2930",
+        "ORCID: 0000-0002-2203-4848",
+        "ORCID: 0000-0002-5402-8581",
+        "ORCID: 0000-0002-9965-5466",
+        "ORCID: 0000-0002-2169-4588"
+      ],
+      "affiliations": [
+        "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+        "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium.",
+        "Department of Biomedical Data Science, Stanford University, School of Medicine, Stanford, California.",
+        "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+        "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium.",
+        "Department of Urology, Ghent University Hospital, Ghent, Belgium.",
+        "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+        "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium.",
+        "Department of Architecture and Computer Technology (ATC), University of Granada, Granada, Spain.",
+        "Stanford Center for Biomedical Informatics Research (BMIR), Stanford University, School of Medicine, Stanford, California.",
+        "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+        "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium.",
+        "Department of Urology, Ghent University Hospital, Ghent, Belgium.",
+        "Department of Urology, Ghent University Hospital, Ghent, Belgium.",
+        "Department of Radiotherapy, Ghent University Hospital, Ghent, Belgium.",
+        "Department of Urology, Ghent University Hospital, Ghent, Belgium.",
+        "Department of Biomedical Data Science, Stanford University, School of Medicine, Stanford, California.",
+        "Stanford Center for Biomedical Informatics Research (BMIR), Stanford University, School of Medicine, Stanford, California.",
+        "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+        "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pizurica, Marija",
+        "short_name": "Pizurica M",
+        "identifiers": [
+          "0000-0002-6653-4094"
+        ],
+        "affiliations": [
+          "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+          "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium.",
+          "Department of Biomedical Data Science, Stanford University, School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Larmuseau, Maarten",
+        "short_name": "Larmuseau M",
+        "identifiers": [
+          "0000-0003-0466-099X"
+        ],
+        "affiliations": [
+          "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+          "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van der Eecken, Kim",
+        "short_name": "Van der Eecken K",
+        "identifiers": [
+          "0000-0002-4070-2512"
+        ],
+        "affiliations": [
+          "Department of Urology, Ghent University Hospital, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "de Schaetzen van Brienen, Louise",
+        "short_name": "de Schaetzen van Brienen L",
+        "identifiers": [
+          "0000-0002-5882-9458"
+        ],
+        "affiliations": [
+          "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+          "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Carrillo-Perez, Francisco",
+        "short_name": "Carrillo-Perez F",
+        "identifiers": [
+          "0000-0003-0974-4092"
+        ],
+        "affiliations": [
+          "Department of Architecture and Computer Technology (ATC), University of Granada, Granada, Spain.",
+          "Stanford Center for Biomedical Informatics Research (BMIR), Stanford University, School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Isphording, Simon",
+        "short_name": "Isphording S",
+        "identifiers": [
+          "0009-0006-4120-6648"
+        ],
+        "affiliations": [
+          "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+          "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lumen, Nicolaas",
+        "short_name": "Lumen N",
+        "identifiers": [
+          "0000-0003-1242-3644"
+        ],
+        "affiliations": [
+          "Department of Urology, Ghent University Hospital, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Dorpe, Jo",
+        "short_name": "Van Dorpe J",
+        "identifiers": [
+          "0000-0001-8175-2930"
+        ],
+        "affiliations": [
+          "Department of Urology, Ghent University Hospital, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ost, Piet",
+        "short_name": "Ost P",
+        "identifiers": [
+          "0000-0002-2203-4848"
+        ],
+        "affiliations": [
+          "Department of Radiotherapy, Ghent University Hospital, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Verbeke, Sofie",
+        "short_name": "Verbeke S",
+        "identifiers": [
+          "0000-0002-5402-8581"
+        ],
+        "affiliations": [
+          "Department of Urology, Ghent University Hospital, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gevaert, Olivier",
+        "short_name": "Gevaert O",
+        "identifiers": [
+          "0000-0002-9965-5466"
+        ],
+        "affiliations": [
+          "Department of Biomedical Data Science, Stanford University, School of Medicine, Stanford, California.",
+          "Stanford Center for Biomedical Informatics Research (BMIR), Stanford University, School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Marchal, Kathleen",
+        "short_name": "Marchal K",
+        "identifiers": [
+          "0000-0002-2169-4588"
+        ],
+        "affiliations": [
+          "Internet Technology and Data Science Lab (IDLab/IMEC), Ghent University, Gent, Belgium.",
+          "Department of Plant biotechnology and Bioinformatics, Ghent University, Gent, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research"
+    ],
+    "journal_abbrev": [
+      "Cancer Res"
+    ],
+    "pub_date": "2023 Sep 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/23 19:11",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "42642435",
+      "42534734",
+      "42322380",
+      "41986319",
+      "41787470",
+      "41736695",
+      "41659707",
+      "40760335",
+      "40630532",
+      "40146354",
+      "40074858",
+      "39759153",
+      "39678498",
+      "39543087",
+      "39248300",
+      "39229200",
+      "37970196",
+      "37808782"
+    ],
+    "refs": [
+      "35588568",
+      "35422101",
+      "35122049",
+      "35020204",
+      "34771455",
+      "34686474",
+      "34597583",
+      "34413349",
+      "34289231",
+      "34168052",
+      "33953404",
+      "33763651",
+      "33649564",
+      "33584676",
+      "33505920",
+      "33324550",
+      "33311458",
+      "32550270",
+      "32536036",
+      "32459716",
+      "32194984",
+      "32122909",
+      "31748536",
+      "31740331",
+      "31561183",
+      "31552176",
+      "31304394",
+      "31160815",
+      "31068988",
+      "31061129",
+      "30674724",
+      "30340047",
+      "30224757",
+      "30154451",
+      "30013048",
+      "29610475",
+      "29441570",
+      "29206995",
+      "29203879",
+      "28922779",
+      "28435034",
+      "28412062",
+      "28152543",
+      "27270079",
+      "27268795",
+      "26000489",
+      "25605792",
+      "24633410",
+      "24485249",
+      "23587869",
+      "23586463",
+      "21273445",
+      "19910308",
+      "18556193",
+      "18369636",
+      "14532779"
+    ],
+    "similar": [
+      "37352385",
+      "37655432",
+      "33214693",
+      "32896505",
+      "9430782",
+      "34325986",
+      "28446506",
+      "38182487",
+      "35768267",
+      "39393313",
+      "16941491",
+      "30553611",
+      "39947084",
+      "35354846",
+      "37812042",
+      "40508118",
+      "28330676",
+      "8666367",
+      "31822380",
+      "22563073",
+      "40637064",
+      "32168400",
+      "19020536",
+      "29650325",
+      "30843003",
+      "23386643",
+      "19125417",
+      "27129168",
+      "15538112",
+      "30416077",
+      "33247697",
+      "11051239",
+      "21513535",
+      "33955569",
+      "27911979",
+      "38153859",
+      "37307876",
+      "14663467",
+      "29398457",
+      "38670879",
+      "34686474",
+      "41217768",
+      "29844131",
+      "41121095",
+      "24523142",
+      "12890146",
+      "38429210",
+      "16489069",
+      "30209161",
+      "39678362",
+      "34743450",
+      "35975690",
+      "7692074",
+      "21903770",
+      "22705054",
+      "37655984",
+      "41061530",
+      "29946184",
+      "31969336",
+      "30964122",
+      "32280037",
+      "39531992",
+      "29941308",
+      "40696478",
+      "31116024",
+      "30851334",
+      "18552821",
+      "26171916",
+      "32436611",
+      "37813279",
+      "19050681",
+      "39930342",
+      "40558274",
+      "30181068",
+      "30458854",
+      "21094160",
+      "40568593",
+      "39542104",
+      "31358900",
+      "39937427",
+      "24431303",
+      "39279246",
+      "17504517",
+      "32460015",
+      "39358807",
+      "20936707",
+      "26086041",
+      "16172461",
+      "27611608",
+      "35971249",
+      "29282038",
+      "31216325",
+      "29330202",
+      "39796175",
+      "41306958",
+      "30542790",
+      "24803582",
+      "30638634",
+      "40165604",
+      "37081749"
+    ],
+    "review": [
+      "37352385",
+      "39393313",
+      "16172461"
+    ],
+    "pmc": [
+      "10538366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37352385/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37352385",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerres/article-lookup/doi/10.1158/0008-5472.CAN-22-3113",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

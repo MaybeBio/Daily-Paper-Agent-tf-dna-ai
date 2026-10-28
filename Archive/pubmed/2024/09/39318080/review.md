@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, experimental sections) as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with the stated scope of the study. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report the synthesis of 20 novel benzothiazole and benzothiazole-thiazolidine-2,4-dione derivatives, their in silico evaluation (physicochemical properties, molecular docking, and 100 ns molecular dynamics simulations) against the FOXM1 DNA-binding domain, and in vitro cytotoxicity and FOXM1 expression inhibition in the MDA-MB-231 triple-negative breast cancer cell line. They claim that compounds KC12, KC21, and KC30 are potent FOXM1 inhibitors with superior activity compared to the reference inhibitor FDI-6, and suggest suitability for in vivo studies.
+- **Visible evidence base** Synthetic procedures and characterization data (FT-IR, 1H NMR, 13C NMR, mass spectrometry) for intermediates and final compounds; 2D NMR for KC12 and KC21; computational data (QikProp physicochemical predictions, docking scores, MD simulation interaction analyses); in vitro MTT cytotoxicity data; Western blot data for FOXM1 expression.
+- **Missing materials affecting confidence** The manuscript does not provide: (1) the actual docking scores or binding energies for all compounds in a table or figure (only a range is stated in the text); (2) the RMSD/RMSF plots or any quantitative MD simulation data (e.g., binding free energy calculations); (3) the full Western blot images with molecular weight markers; (4) statistical analysis details for the cytotoxicity data (e.g., number of replicates, error bars, statistical tests used); (5) purity data (e.g., elemental analysis or HPLC) for the final compounds; (6) the Supporting Information files referenced in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and reasonably executed medicinal chemistry study combining synthesis, computational modeling, and in vitro evaluation. The synthetic chemistry is generally well described, and the characterization data support the proposed structures. The computational work is standard but lacks depth in presentation and validation. The in vitro data are promising but incompletely reported, particularly regarding statistical rigor and the specificity of FOXM1 inhibition. The central claim that these compounds are "potential FOXM1 inhibitors" is supported by the data, but the evidence for superiority over FDI-6 is not fully substantiated. The manuscript would benefit from additional experimental details, quantitative computational analyses, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, particularly those focused on anticancer drug discovery targeting transcription factors. The work may also interest investigators studying FOXM1 biology and its role in triple-negative breast cancer, as well as computational chemists interested in structure-based drug design of FOXM1 inhibitors. The synthetic methodology and structure-activity relationship insights could be useful for groups developing benzothiazole-based therapeutics.
+- **Major strengths** (1) A clear and logical study design integrating synthesis, computational prediction, and biological evaluation. (2) A diverse set of 20 compounds with systematic structural variations enabling preliminary SAR analysis. (3) The use of multiple orthogonal techniques (docking, MD, MTT, Western blot) to support the claims. (4) The identification of three lead compounds with sub-micromolar IC50 values that are lower than the reference inhibitor FDI-6. (5) The detailed synthetic procedures and characterization data for the new compounds.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The manuscript claims that molecular docking revealed binding energies ranging from −6.8 to −5.8 kcal/mol, with KC21 showing the strongest binding energy.
+  - **Evidence pointer** Section "Molecular docking", Table 2 (referenced but not shown in the provided text)
+  - **Concern** The docking results are only summarized as a range in the text. Table 2, which presumably contains the individual binding energies for all 20 compounds, is not included in the provided manuscript text. Without the full data, it is impossible to assess the distribution of binding affinities, the relative ranking of the compounds, or the statistical significance of the differences between compounds. Furthermore, the docking protocol lacks critical details: the grid box dimensions and center are not specified, the exhaustiveness parameter is not given, and the validation of the docking protocol (e.g., redocking of a co-crystallized ligand) is not described. The RMSD value of 0.000 is mentioned but it is unclear what this refers to (e.g., docking pose RMSD or something else).
+  - **Why it matters** Docking is a predictive tool, and its reliability depends on the rigor of the protocol. Without the full results and methodological details, the docking claims cannot be independently verified or reproduced. This undermines the foundation of the computational argument for these compounds as FOXM1 inhibitors.
+  - **Resolution test** Provide Table 2 with all docking scores. Describe the grid box parameters, exhaustiveness, and any validation steps. Clarify what the RMSD value of 0.000 refers to.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and biological validation
+  - **Claim pointer** The manuscript claims that KC12, KC21, and KC30 "significantly inhibited FOXM1" and "reduced FOXM1 expression more effectively than FDI-6" based on Western blot analysis.
+  - **Evidence pointer** Section "Western blot analysis", Figure 14 (referenced but not shown in the provided text)
+  - **Concern** The Western blot data are described qualitatively. The figure is not available in the provided text, and no quantitative densitometry data are presented. The claim that these compounds inhibit FOXM1 "more effectively than FDI-6" requires quantitative comparison with appropriate statistical analysis. Additionally, the manuscript does not report whether the compounds affect FOXM1 protein stability, transcription, or translation. The specificity of the effect on FOXM1 versus other proteins is not addressed. The concentrations used (10 and 20 µM) are above the IC50 values for cytotoxicity, raising the question of whether FOXM1 reduction is a direct effect or a consequence of general cytotoxicity.
+  - **Why it matters** The central biological claim of the paper rests on the Western blot data. Without quantitative data and appropriate controls, the claim of superior FOXM1 inhibition is not established. The distinction between direct FOXM1 inhibition and non-specific cytotoxicity is critical for the interpretation of the results.
+  - **Resolution test** Provide the full Western blot images with molecular weight markers. Include densitometric quantification normalized to a loading control, with error bars and statistical analysis (e.g., ANOVA with post-hoc tests). Include a cytotoxicity control (e.g., a non-toxic compound) to demonstrate that FOXM1 reduction is not merely a consequence of cell death. Consider additional experiments such as qRT-PCR to assess FOXM1 mRNA levels or a FOXM1 reporter assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific context and claim substantiation
+  - **Claim pointer** The manuscript states that "the binding modes of KC12 and KC30 are distinct from that of FDI-6" and that this "appears to be particularly effective for FOXM1-DBD inhibition as evidenced by the in vitro data."
+  - **Evidence pointer** Sections "Molecular docking" and "Molecular dynamics simulation"
+  - **Concern** The claim that distinct binding modes are "more effective" is speculative. The manuscript does not provide a quantitative comparison of the binding modes (e.g., interaction fingerprints, energy decomposition) between the new compounds and FDI-6. The in vitro data show that KC12, KC21, and KC30 have lower IC50 values than FDI-6, but this does not necessarily mean that the distinct binding mode is the cause. Other factors such as cellular permeability, metabolic stability, or off-target effects could contribute to the observed differences. The manuscript does not discuss alternative explanations.
+  - **Why it matters** The interpretation of the structure-activity relationship and the proposed mechanism of action should be based on evidence, not speculation. Overinterpretation of docking poses without experimental validation can mislead future drug design efforts.
+  - **Resolution test** Provide a detailed comparison of the interaction patterns between the new compounds and FDI-6, such as a table of interacting residues or 2D interaction diagrams. Discuss alternative explanations for the observed potency differences. Consider performing a cellular thermal shift assay (CETSA) or a FOXM1-DNA binding assay to provide direct evidence of target engagement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness and data completeness
+  - **Claim pointer** The manuscript claims that "MD simulations supported the interactions with the key amino acids" and that the compounds exhibited "stable interactions over 100 ns."
+  - **Evidence pointer** Section "Molecular dynamics simulation", Figures 11-13 (referenced but not shown in the provided text)
+  - **Concern** The MD simulation results are described only in qualitative terms. No quantitative metrics are provided, such as RMSD plots, RMSF plots, radius of gyration, or binding free energy calculations (e.g., MM-GBSA or MM-PBSA). The figures are not available in the provided text. The manuscript does not state how many replicates were performed, whether the simulations converged, or how the stability was assessed. The statement that "the benzothiazole ring significantly contributes to protein-ligand interactions" is not supported by quantitative data.
+  - **Why it matters** MD simulations are only meaningful if the results are quantitatively analyzed and presented. Without these data, the claim of stable interactions is unsubstantiated. The reader cannot evaluate the quality of the simulations or the reliability of the conclusions drawn from them.
+  - **Resolution test** Provide RMSD and RMSF plots for the protein and ligand, and include a table of the key interactions (e.g., hydrogen bond occupancy, hydrophobic contacts) observed during the simulation. Consider performing MM-GBSA binding free energy calculations to support the stability claims.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The manuscript claims that the synthesized compounds are "potential FOXM1 inhibitors" and that they "exhibit better inhibitory activity than commonly used FOXM1 inhibitor FDI-6."
+  - **Evidence pointer** Abstract, Conclusion
+  - **Concern** The novelty of the compounds is not clearly established. The manuscript does not compare the structures of the new compounds with previously reported FOXM1 inhibitors beyond FDI-6. The claim of "better inhibitory activity" is based on IC50 values from a single cell line (MDA-MB-231) and a single assay (MTT). The manuscript does not report selectivity over other cancer cell lines or non-cancerous cells, nor does it assess the mechanism of FOXM1 inhibition (e.g., direct binding vs. indirect downregulation). The in silico predictions are not validated by experimental binding assays.
+  - **Why it matters** For a medicinal chemistry paper, the novelty and potential therapeutic advantage of the compounds must be clearly demonstrated. The current data are insufficient to support the claim of superiority over FDI-6, and the lack of selectivity data limits the assessment of the compounds' therapeutic potential.
+  - **Resolution test** Provide a comparison of the new compounds with known FOXM1 inhibitors in terms of structure and activity. Include selectivity data against a panel of cell lines, including non-cancerous cells. Consider performing a direct binding assay (e.g., SPR, ITC) or a FOXM1 transcriptional activity reporter assay to confirm the mechanism of action.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Physicochemical properties
+  - **Evidence pointer** Section "In silico evaluation of physicochemical properties", Table 1 (referenced but not shown in the provided text)
+  - **Issue** The text states that "all synthesized compounds align with acceptable ranges or recommended values for 95% of known drugs," but Table 1 is not provided. It is unclear which specific properties were calculated and how many compounds violated any of the criteria.
+  - **Required correction** Include Table 1 with all calculated properties and clearly indicate which compounds fall outside the recommended ranges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Synthetic yields
+  - **Evidence point** Section "Chemistry"
+  - **Issue** The yields for the final compounds KC10-KC13 and KC21-KC36 are not reported in the text. Only the yields for intermediates are given. This is important information for assessing the practicality of the synthetic route.
+  - **Required correction** Report the yields for all final compounds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Statistical analysis
+  - **Evidence point** Section "Statistical analysis"
+  - **Issue** The statistical analysis section is very brief. It states that "Student's t test and p values less than 0.05 was considered as statistically significant," but it does not specify how many replicates were performed, whether the data are presented as mean ± SD or SEM, or which comparisons were made.
+  - **Required correction** Provide details on the number of replicates, the error bars used, and the specific statistical tests performed for each comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Western blot concentrations
+  - **Evidence point** Section "Western blot analysis"
+  - **Issue** The text states that cells were treated with "varying concentrations" of KC12, KC21, and KC30 (10 and 20 µM), but it is not clear if the same concentrations were used for all three compounds and if the positive control FDI-6 was used at the same concentrations. The text mentions FDI-6 at 10 and 25 µM, which is inconsistent with the 10 and 20 µM used for the test compounds.
+  - **Required correction** Clarify the exact concentrations used for each compound and the positive control, and justify the use of different concentrations for FDI-6.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Figure quality
+  - **Evidence point** Figures 2-7, 8-13, 14, 15 (referenced but not shown in the provided text)
+  - **Issue** The figures are not available in the provided text. It is not possible to assess the quality of the NMR spectra, docking poses, MD simulation plots, or Western blot images.
+  - **Required correction** Ensure that all figures are of high quality and clearly labeled. For NMR spectra, include peak assignments. For docking poses, include the protein surface or key residues. For Western blots, include molecular weight markers and loading controls.
+- **Technical failings that need to be addressed before the case is established** (1) The docking protocol is insufficiently described and the full results are not presented (R1-M1). (2) The Western blot data are not quantified and lack appropriate controls (R1-M2). (3) The MD simulation results are not quantitatively presented (R1-M4). (4) The claim of superiority over FDI-6 is not supported by the data (R1-M5). (5) The manuscript does not provide evidence of direct FOXM1 binding or target engagement.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of benzothiazole and thiazolidine-2,4-dione scaffolds is not entirely new, and the target (FOXM1) is a known cancer target. The specific compounds are novel, but the overall approach is incremental.
+  - **Scientific importance** Moderate. FOXM1 is a relevant target in TNBC, and new inhibitors are of interest. However, the study is at an early stage (in vitro only) and does not provide mechanistic depth or in vivo validation.
+  - **Interdisciplinary readership** Limited. The paper is primarily of interest to medicinal chemists and cancer biologists. The computational and biological data are not sufficiently integrated or advanced to attract a broader readership.
+  - **Technical soundness** The synthetic chemistry appears sound, but the computational and biological validation is incomplete. The lack of quantitative data and statistical rigor weakens the technical foundation.
+  - **Readability for nonspecialists** The paper is written in a technical style that is accessible to specialists in medicinal chemistry. However, the lack of clear summaries of key findings and the absence of figures in the provided text make it difficult for nonspecialists to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit in its synthetic chemistry and preliminary biological data, but the computational and biological claims are not sufficiently supported. Major revisions are required to address the concerns raised, particularly regarding the presentation of quantitative data, statistical analysis, and the validation of the mechanism of action.
+
+## Risk / unsupported claims
+- The claim that KC12, KC21, and KC30 are "more effective" FOXM1 inhibitors than FDI-6 is not supported by quantitative Western blot data.
+- The claim that the "distinct binding modes" of KC12 and KC30 are responsible for their enhanced activity is speculative and not supported by experimental evidence.
+- The claim that the compounds "may be suitable for in vivo animal studies" is premature without additional pharmacokinetic and toxicity data.
+- The claim that the compounds exhibit "high oral bioavailability" based solely on in silico predictions is not supported by experimental data.
+- The claim that the compounds interact with "key amino acids" during MD simulations is not supported by quantitative data (e.g., interaction occupancy, binding free energies).

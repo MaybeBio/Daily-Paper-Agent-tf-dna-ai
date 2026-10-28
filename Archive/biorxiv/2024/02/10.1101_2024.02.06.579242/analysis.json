@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.06.579242",
+  "title": "Cross-species prediction of transcription factor binding by adversarial training of a novel nucleotide-level deep neural network",
+  "authors": "Qinhu Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-08",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出核苷酸级深度神经网络NLDNN并结合对抗训练实现跨物种TF结合位点预测，核心聚焦TF-DNA互作建模，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Cross-species prediction of TF binding remains a major challenge due to the rapid evolutionary turnover of individual TF binding sites, resulting in cross-species predictive performance being consistently worse than within-species performance. In this study, we first propose a novel Nucleotide-Level Deep Neural Network (NLDNN) to predict TF binding within or across species. NLDNN regards the task of TF binding prediction as a nucleotide-level regression task. Beyond predictive performance, we also assess model performance by locating potential TF binding regions, discriminating TF-specific single-nucleotide polymorphisms (SNPs), and identifying causal disease-associated SNPs. Then, we design a dual-path framework for adversarial training of NLDNN to further improve the cross-species prediction performance by pulling the domain space of human and mouse species closer.",
+  "abstract_zh": "跨物种预测转录因子（TF）结合仍是一项重大挑战，原因是单个TF结合位点的快速进化更替导致跨物种预测性能始终逊于种内性能。在本研究中，我们首先提出了一种新颖的核苷酸级深度神经网络（NLDNN），用于预测种内或跨物种的TF结合。NLDNN将TF结合预测任务视为核苷酸级回归任务。除预测性能外，我们还通过定位潜在TF结合区域、区分TF特异性单核苷酸多态性（SNPs）以及识别因果疾病相关SNPs来评估模型性能。随后，我们设计了一个双路径框架，用于对NLDNN进行对抗训练，通过拉近人类和小鼠物种的域空间，进一步提升跨物种预测性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.06.579242",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.06.579242",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.06.579242/index.html"
+}

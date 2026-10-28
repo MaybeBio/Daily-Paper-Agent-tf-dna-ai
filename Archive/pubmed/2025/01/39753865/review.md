@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that lactylation of ABCF1 at lysine 430 (ABCF1-K430la) is elevated in hepatocellular carcinoma (HCC) tissues, correlates with poor prognosis, promotes HCC growth and lung metastasis, and mechanistically acts via nuclear translocation, binding to the KDM3A promoter, upregulating KDM3A, and activating the KDM3A-H3K9me2-HIF1A axis. They also report a positive feedback loop (lactate-ABCF1(430Kla)-HIF1A-lactate), and identify tubuloside A as a small-molecule inhibitor of ABCF1-K430la with anti-HCC activity.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data displays are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods, statistical reporting, supplementary data, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel mechanism linking non-histone lactylation to HCC progression through transcriptional regulation. However, the claims are broad and mechanistic, and the abstract alone provides insufficient evidence to evaluate technical soundness, statistical rigor, or the strength of the causal chain. The finding of a positive feedback loop and a drug screen adds translational interest, but the lack of methodological detail prevents assessment of reproducibility or robustness. The work could be of interest to the HCC and epigenetics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in hepatocellular carcinoma biology, protein post-translational modifications (especially lactylation), transcriptional regulation, and hypoxia signaling. Clinicians and drug developers focused on HCC biomarkers and targeted therapies may also find the prognostic and therapeutic implications relevant.
+- **Major strengths** The abstract identifies a specific, non-histone lactylation site with prognostic relevance, which is a relatively underexplored area. The proposed mechanism links lactylation to transcriptional activation via a chromatin-modifying axis, and the identification of a positive feedback loop is conceptually interesting. The inclusion of a small-molecule screen provides a translational angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ABCF1-K430la promoted HCC growth and lung metastasis"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that ABCF1-K430la promotes HCC growth and lung metastasis, but no experimental models, sample sizes, or statistical outcomes are described. It is unclear whether these findings come from cell lines, patient-derived xenografts, or genetically engineered mouse models, and whether the effects are dependent on the lactylation site specifically.
+  - **Why it matters** Without details on the functional assays and controls, the causal role of ABCF1-K430la in tumor progression cannot be evaluated. The claim is central to the paper's significance.
+  - **Resolution test** Provide a description of the in vivo and in vitro models used, including sample sizes, statistical tests, and appropriate controls (e.g., K430R mutant, rescue experiments). Show that the observed effects are specific to lactylation at K430.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "ABCF1 entered the nucleus, bound to the KDM3A promoter to upregulate its expression, and activated the KDM3A-H3K9me2-HIF1A axis"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a direct mechanistic chain from lactylation to nuclear translocation, promoter binding, transcriptional upregulation, and downstream chromatin modification. No experimental methods (e.g., ChIP, reporter assays, knockdown/rescue) or quantitative results are provided to support these steps.
+  - **Why it matters** The novelty of the paper rests on this mechanism. Without evidence for each step, the claim that ABCF1 acts as a transcriptional regulator is not established, especially given the prior notion that ABCF1 functions in cytoplasmic translation.
+  - **Resolution test** Provide data for each mechanistic step, including nuclear localization assays, ChIP or promoter binding assays, transcriptional reporter assays, and functional validation of the KDM3A-H3K9me2-HIF1A axis with appropriate loss- and gain-of-function experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** "A small-molecule drug screen targeting ABCF1-K430la revealed that tubuloside A inhibits ABCF1-K430la and suppresses HCC development"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The drug screen and the identification of tubuloside A are mentioned without any details on the screening method, hit criteria, dose-response data, or in vivo efficacy. The specificity of tubuloside A for ABCF1-K430la versus other targets is not addressed.
+  - **Why it matters** The therapeutic claim is a major translational component. Without evidence of target specificity and efficacy, the conclusion that tubuloside A is a viable therapeutic agent is premature.
+  - **Resolution test** Describe the screening approach, provide dose-response and selectivity data, and show anti-HCC effects in relevant models with appropriate controls (e.g., tubuloside A in ABCF1-K430la-deficient settings).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "E2 ubiquitin ligase activity of ABCF1 remained unaffected" is ambiguous. It is unclear whether ABCF1 has intrinsic E2 ligase activity or whether the authors mean that lactylation does not alter ABCF1's interaction with or function in ubiquitination pathways.
+  - **Required correction** Clarify the intended meaning, and if relevant, specify the assay used to assess this activity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Prognostic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that ABCF1-K430la "correlated with poor patient prognosis" but does not report hazard ratios, confidence intervals, or the statistical test used.
+  - **Required correction** Include key statistical parameters (e.g., HR, CI, p-value) and specify the survival analysis method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Feedback loop claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The existence of a "lactate-ABCF1(430Kla)-HIF1A-lactate" loop is stated, but the abstract does not explain how the loop is closed (e.g., whether HIF1A increases lactate production or lactylation).
+  - **Required correction** Briefly describe the proposed loop mechanism and the evidence supporting each connection.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The concept of non-histone lactylation in transcriptional regulation is relatively novel, and the specific link to HIF1 signaling is potentially original. Scientific importance: If validated, the findings could have implications for HCC prognosis and therapy, but the importance is not yet demonstrated from the abstract alone. Interdisciplinary readership: The topic bridges cancer biology, epigenetics, and metabolism, which could attract a broad audience. Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the absence of experimental details and data prevents evaluation of the core claims. A full manuscript with rigorous methods and results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that ABCF1-K430la promotes HCC growth and lung metastasis is unsupported without functional data.
+- The mechanistic claim of nuclear translocation, promoter binding, and KDM3A-H3K9me2-HIF1A axis activation is unsupported without experimental evidence.
+- The existence of a lactate-ABCF1(430Kla)-HIF1A-lactate feedback loop is stated but not substantiated.
+- The therapeutic potential of tubuloside A is unsupported without screening and efficacy data.
+- The prognostic correlation is reported without statistical details, making it unverifiable.

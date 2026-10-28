@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40116657",
+    "doi": "10.1093/bib/bbaf110",
+    "title": "MOSim: bulk and single-cell multilayer regulatory network simulator."
+  },
+  "content": {
+    "abstract": "As multi-omics sequencing technologies advance, the need for simulation tools capable of generating realistic and diverse (bulk and single-cell) multi-omics datasets for method testing and benchmarking becomes increasingly important. We present MOSim, an R package that simulates both bulk (via mosim function) and single-cell (via sc_mosim function) multi-omics data. The mosim function generates bulk transcriptomics data (RNA-seq) and additional regulatory omics layers (ATAC-seq, miRNA-seq, ChIP-seq, Methyl-seq, and transcription factors), while sc_mosim simulates single-cell transcriptomics data (scRNA-seq) with scATAC-seq and transcription factors as regulatory layers. The tool supports various experimental designs, including simulation of gene co-expression patterns, biological replicates, and differential expression between conditions. MOSim enables users to generate quantification matrices for each simulated omics data type, capturing the heterogeneity and complexity of bulk and single-cell multi-omics datasets. Furthermore, MOSim provides differentially abundant features within each omics layer and elucidates the active regulatory relationships between regulatory omics and gene expression data at both bulk and single-cell levels. By leveraging MOSim, researchers will be able to generate realistic and customizable bulk and single-cell multi-omics datasets to benchmark and validate analytical methods specifically designed for the integrative analysis of diverse regulatory omics data.",
+    "keywords": [
+      "bulk",
+      "multi-omic simulator",
+      "single cell",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks",
+      "*Software",
+      "Humans",
+      "*Computational Biology/methods",
+      "Computer Simulation",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Monzo, Carolina",
+        "Aguerralde-Martin, Maider",
+        "Martinez-Mira, Carlos",
+        "Arzalluz-Luque, Angeles",
+        "Conesa, Ana",
+        "Tarazona, Sonia"
+      ],
+      "short_names": [
+        "Monzo C",
+        "Aguerralde-Martin M",
+        "Martinez-Mira C",
+        "Arzalluz-Luque A",
+        "Conesa A",
+        "Tarazona S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5346-1407"
+      ],
+      "affiliations": [
+        "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedratic Agustin Escardino Benlloch, Paterna 46980, Spain.",
+        "Applied Statistics, Operational Research and Quality Department, Universitat Politecnica de Valencia, Cami de Vera s/n, Valencia 46022, Spain.",
+        "Biobam Bioinformatics S.L., Marina de Valencia Base 5, BioHub, C/ de la Travesia, s/n, Sector Puerto 14 E, Valencia 46024, Spain.",
+        "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedratic Agustin Escardino Benlloch, Paterna 46980, Spain.",
+        "Applied Statistics, Operational Research and Quality Department, Universitat Politecnica de Valencia, Cami de Vera s/n, Valencia 46022, Spain.",
+        "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedratic Agustin Escardino Benlloch, Paterna 46980, Spain.",
+        "Applied Statistics, Operational Research and Quality Department, Universitat Politecnica de Valencia, Cami de Vera s/n, Valencia 46022, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Monzó, Carolina",
+        "short_name": "Monzó C",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedràtic Agustín Escardino Benlloch, Paterna 46980, Spain."
+        ]
+      },
+      {
+        "full_name": "Aguerralde-Martin, Maider",
+        "short_name": "Aguerralde-Martin M",
+        "identifiers": [],
+        "affiliations": [
+          "Applied Statistics, Operational Research and Quality Department, Universitat Politècnica de València, Camí de Vera s/n, València 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Martínez-Mira, Carlos",
+        "short_name": "Martínez-Mira C",
+        "identifiers": [],
+        "affiliations": [
+          "Biobam Bioinformatics S.L., Marina de Valencia Base 5, BioHub, C/ de la Travesía, s/n, Sector Puerto 14 E, València 46024, Spain."
+        ]
+      },
+      {
+        "full_name": "Arzalluz-Luque, Ángeles",
+        "short_name": "Arzalluz-Luque Á",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedràtic Agustín Escardino Benlloch, Paterna 46980, Spain.",
+          "Applied Statistics, Operational Research and Quality Department, Universitat Politècnica de València, Camí de Vera s/n, València 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Conesa, Ana",
+        "short_name": "Conesa A",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics of Gene Expression Lab, Institute for Integrative Systems Biology, Spanish National Research Council (CSIC-UV), C/ Catedràtic Agustín Escardino Benlloch, Paterna 46980, Spain."
+        ]
+      },
+      {
+        "full_name": "Tarazona, Sonia",
+        "short_name": "Tarazona S",
+        "identifiers": [
+          "0000-0001-5346-1407"
+        ],
+        "affiliations": [
+          "Applied Statistics, Operational Research and Quality Department, Universitat Politècnica de València, Camí de Vera s/n, València 46022, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/21 19:11",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "40830833",
+      "40708012",
+      "40538029"
+    ],
+    "refs": [
+      "38782963",
+      "38744843",
+      "37561790",
+      "37365273",
+      "37301826",
+      "37169966",
+      "37033732",
+      "36803416",
+      "36528240",
+      "35383181",
+      "35042561",
+      "34949812",
+      "34824223",
+      "34584103",
+      "34062119",
+      "33589635",
+      "32960767",
+      "32415966",
+      "32176273",
+      "32014031",
+      "31960894",
+      "31672995",
+      "31598633",
+      "31363220",
+      "31029063",
+      "27040832",
+      "26184878",
+      "25777524",
+      "25605792",
+      "24931974",
+      "24485249",
+      "23950696",
+      "21006841"
+    ],
+    "similar": [
+      "40116657",
+      "40471991",
+      "36383176",
+      "42509846",
+      "41353326",
+      "41964930",
+      "41087386",
+      "31068142",
+      "41719583",
+      "39800872",
+      "39207727",
+      "39376034",
+      "42745838",
+      "39893194",
+      "42225598",
+      "39049508",
+      "38887194",
+      "32051003",
+      "41655240",
+      "40247122",
+      "42074532",
+      "41941899",
+      "38483032",
+      "37365273",
+      "40856525",
+      "40429912",
+      "42134646",
+      "41601671",
+      "42650039",
+      "41939867",
+      "32600408",
+      "42024670",
+      "38653489",
+      "40591481",
+      "41325188",
+      "33663563",
+      "42243114",
+      "41385419",
+      "35195064",
+      "39026663",
+      "38831386",
+      "31682608",
+      "35715748",
+      "30763315",
+      "40797190",
+      "41231930",
+      "29342231",
+      "34115950",
+      "33661921",
+      "36626328",
+      "42129640",
+      "38944814",
+      "33573289",
+      "33153500",
+      "42332576",
+      "38709615",
+      "41978379",
+      "40622484",
+      "41518505",
+      "32332754",
+      "34374760",
+      "41029754",
+      "41744270",
+      "41288963",
+      "33778867",
+      "41805929",
+      "34030626",
+      "40711603",
+      "29536451",
+      "40062616",
+      "41319809",
+      "39800877",
+      "36047285",
+      "39101486",
+      "39762897",
+      "40920823",
+      "41770292",
+      "41871930",
+      "31569701",
+      "41643202",
+      "34020546",
+      "41120648",
+      "34168133",
+      "40538029",
+      "40633682",
+      "40764361",
+      "24053776",
+      "34251624",
+      "37985457",
+      "41886524",
+      "41385391",
+      "31178118",
+      "31455220",
+      "39691723",
+      "41407310",
+      "33244151",
+      "41987329",
+      "41067887",
+      "38976751",
+      "42233387"
+    ],
+    "review": [
+      "40116657",
+      "42509846",
+      "41353326",
+      "39207727",
+      "42074532",
+      "37365273",
+      "29342231",
+      "33778867",
+      "34020546",
+      "41385391"
+    ],
+    "pmc": [
+      "11926980"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40116657.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40116657/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://riunet.upv.es/handle/10251/229119",
+        "provider": "RiuNet Universitat Politecnica de Valencia",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf110",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "33953328",
+    "doi": "10.1038/s42003-021-02055-8",
+    "title": "The ribosome modulates folding inside the ribosomal exit tunnel."
+  },
+  "content": {
+    "abstract": "Proteins commonly fold co-translationally at the ribosome, while the nascent chain emerges from the ribosomal exit tunnel. Protein domains that are sufficiently small can even fold while still located inside the tunnel. However, the effect of the tunnel on the folding dynamics of these domains is not well understood. Here, we combine optical tweezers with single-molecule FRET and molecular dynamics simulations to investigate folding of the small zinc-finger domain ADR1a inside and at the vestibule of the ribosomal tunnel. The tunnel is found to accelerate folding and stabilize the folded state, reminiscent of the effects of chaperonins. However, a simple mechanism involving stabilization by confinement does not explain the results. Instead, it appears that electrostatic interactions between the protein and ribosome contribute to the observed folding acceleration and stabilization of ADR1a.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA-Binding Proteins/*chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Biosynthesis",
+      "Protein Domains",
+      "*Protein Folding",
+      "Ribosomes/*chemistry/metabolism",
+      "Saccharomyces cerevisiae/*metabolism",
+      "Saccharomyces cerevisiae Proteins/*chemistry/metabolism",
+      "Transcription Factors/*chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wruck, Florian",
+        "Tian, Pengfei",
+        "Kudva, Renuka",
+        "Best, Robert B",
+        "von Heijne, Gunnar",
+        "Tans, Sander J",
+        "Katranidis, Alexandros"
+      ],
+      "short_names": [
+        "Wruck F",
+        "Tian P",
+        "Kudva R",
+        "Best RB",
+        "von Heijne G",
+        "Tans SJ",
+        "Katranidis A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0426-3716",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-1785-1659"
+      ],
+      "affiliations": [
+        "AMOLF, Amsterdam, The Netherlands.",
+        "Department of Bionanoscience, Delft University of Technology, Van der Maasweg 9, Delft, The Netherlands.",
+        "Kavli Institute of Nanoscience, Delft, The Netherlands.",
+        "Protein Engineering, Novozymes A/S, Lyngby, Denmark.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health (NIH), Bethesda, MD, USA.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Stockholm University, Solna, Sweden.",
+        "AMOLF, Amsterdam, The Netherlands. tans@amolf.nl.",
+        "Department of Bionanoscience, Delft University of Technology, Van der Maasweg 9, Delft, The Netherlands. tans@amolf.nl.",
+        "Kavli Institute of Nanoscience, Delft, The Netherlands. tans@amolf.nl.",
+        "Institute of Biological Information Processing IBI-6, Forschungszentrum Julich (FZJ), Julich, Germany. a.katranidis@fz-juelich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wruck, Florian",
+        "short_name": "Wruck F",
+        "identifiers": [],
+        "affiliations": [
+          "AMOLF, Amsterdam, The Netherlands.",
+          "Department of Bionanoscience, Delft University of Technology, Van der Maasweg 9, Delft, The Netherlands.",
+          "Kavli Institute of Nanoscience, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Tian, Pengfei",
+        "short_name": "Tian P",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Engineering, Novozymes A/S, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kudva, Renuka",
+        "short_name": "Kudva R",
+        "identifiers": [
+          "0000-0003-0426-3716"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health (NIH), Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "von Heijne, Gunnar",
+        "short_name": "von Heijne G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+          "Science for Life Laboratory, Stockholm University, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Tans, Sander J",
+        "short_name": "Tans SJ",
+        "identifiers": [],
+        "affiliations": [
+          "AMOLF, Amsterdam, The Netherlands. tans@amolf.nl.",
+          "Department of Bionanoscience, Delft University of Technology, Van der Maasweg 9, Delft, The Netherlands. tans@amolf.nl.",
+          "Kavli Institute of Nanoscience, Delft, The Netherlands. tans@amolf.nl."
+        ]
+      },
+      {
+        "full_name": "Katranidis, Alexandros",
+        "short_name": "Katranidis A",
+        "identifiers": [
+          "0000-0002-1785-1659"
+        ],
+        "affiliations": [
+          "Institute of Biological Information Processing IBI-6, Forschungszentrum Jülich (FZJ), Jülich, Germany. a.katranidis@fz-juelich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2021 May 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/07 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42411408",
+      "42304112",
+      "41909617",
+      "41212623",
+      "40817089",
+      "40711920",
+      "40348781",
+      "40099877",
+      "40045790",
+      "39325584",
+      "39229094",
+      "39063227",
+      "38868219",
+      "38811604",
+      "38680456",
+      "38505517",
+      "38477936",
+      "38435509",
+      "38428431",
+      "38134335",
+      "38071940",
+      "37684425",
+      "36768987",
+      "36659994",
+      "36463403",
+      "36345281",
+      "35707224",
+      "35488088",
+      "35008947",
+      "35008565",
+      "34884581",
+      "34659725",
+      "34158520"
+    ],
+    "refs": [
+      "32513720",
+      "30475203",
+      "30413621",
+      "30409803",
+      "30224455",
+      "29370697",
+      "28507157",
+      "28436469",
+      "27092002",
+      "26925362",
+      "26321634",
+      "25908824",
+      "25713070",
+      "24077053",
+      "24055377",
+      "22194581",
+      "22128180",
+      "21549117",
+      "21370971",
+      "21204555",
+      "21062068",
+      "20541112",
+      "20210745",
+      "20149635",
+      "20139981",
+      "19270700",
+      "19173359",
+      "19073911",
+      "18722384",
+      "17286489",
+      "16784753",
+      "16299515",
+      "15006354",
+      "12829459",
+      "11560476",
+      "11378437",
+      "11051761",
+      "10468570",
+      "9407040",
+      "6207170",
+      "3047872"
+    ],
+    "similar": [
+      "33953328",
+      "26321634",
+      "30409803",
+      "24072706",
+      "30475203",
+      "26879042",
+      "27925654",
+      "16299515",
+      "28708998",
+      "38071940",
+      "20404317",
+      "33330942",
+      "29038496",
+      "19270700",
+      "35869078",
+      "32198371",
+      "15802566",
+      "25908824",
+      "34580293",
+      "28580913",
+      "28363900",
+      "20139981",
+      "31936054",
+      "24338021",
+      "21111607",
+      "30413621",
+      "33112737",
+      "16528757",
+      "29337993",
+      "21316217",
+      "38224454",
+      "21062068",
+      "28478285",
+      "39150098",
+      "35400283",
+      "28474852",
+      "19519521",
+      "20975935",
+      "21949410",
+      "15943964",
+      "15493983",
+      "30531789",
+      "31913464",
+      "27099964",
+      "31091298",
+      "27320387",
+      "30068186",
+      "35193250",
+      "28507157",
+      "11051761",
+      "16789821",
+      "17631312",
+      "17229726",
+      "15334087",
+      "33149120",
+      "29741886",
+      "18829863",
+      "21204555",
+      "20226819",
+      "34650236",
+      "30753870",
+      "15006354",
+      "31377116",
+      "31221966",
+      "34555360",
+      "20149635",
+      "35390638",
+      "17548477",
+      "15978066",
+      "32138505",
+      "26957181",
+      "18946046",
+      "19569194",
+      "23517476",
+      "12727515",
+      "35150281",
+      "27917864",
+      "32374986",
+      "26723252",
+      "30852061",
+      "27940242",
+      "24090034",
+      "23496542",
+      "21417991",
+      "31745560",
+      "22194581",
+      "31776255",
+      "36463403",
+      "11378437",
+      "32575289",
+      "28556777",
+      "29512650",
+      "9670014",
+      "39112704",
+      "26612953",
+      "36610950",
+      "23554576",
+      "22128180",
+      "37296145",
+      "20462496",
+      "26449596",
+      "37200608",
+      "30265800",
+      "20060838",
+      "24055377",
+      "20419889",
+      "35291071",
+      "34659725",
+      "35927328",
+      "36335428",
+      "19004020",
+      "20617452",
+      "21370971",
+      "34110829",
+      "39041433",
+      "33037221",
+      "38435509",
+      "33438724",
+      "38528060",
+      "20870713",
+      "14594547",
+      "34745542",
+      "35707224",
+      "34881571",
+      "33989618",
+      "35517860",
+      "28199113"
+    ],
+    "review": [
+      "33953328",
+      "38071940",
+      "28580913",
+      "31936054",
+      "21111607",
+      "21316217",
+      "15493983",
+      "11051761",
+      "20226819",
+      "20149635",
+      "35390638",
+      "12727515",
+      "32374986",
+      "27940242",
+      "21417991",
+      "11378437",
+      "21370971",
+      "33438724",
+      "14594547"
+    ],
+    "pmc": [
+      "8100117"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-021-02055-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33953328/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33953328",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

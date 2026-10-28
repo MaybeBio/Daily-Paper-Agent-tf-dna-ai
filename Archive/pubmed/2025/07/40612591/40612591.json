@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40612591",
+    "doi": "10.3389/fpls.2025.1611784",
+    "title": "Predictive prioritization of genes significantly associated with biotic and abiotic stresses in maize using machine learning algorithms."
+  },
+  "content": {
+    "abstract": "Both biotic and abiotic stresses pose serious threats to the growth and productivity of crop plants, including maize worldwide. Identifying genes and associated networks underlying stress resistance responses in maize is paramount. A meta-transcriptome approach was undertaken to interrogate 39,756 genes differentially expressed in response to biotic and abiotic stresses in maize were interrogated for prioritization through seven machine learning (ML) models, such as support vector machine (SVM), partial least squares discriminant analysis (PLSDA), k-nearest neighbors (KNN), gradient boosting machine (GBM), random forest (RF), naive bayes (NB), and decision tree (DT) to predict top-most significant genes for stress conditions. Improved performances of the algorithms via feature selection from the raw gene features identified 235 unique genes as top candidate genes across all models for all stresses. Three genes such as Zm00001eb176680, Zm00001eb176940, and Zm00001eb179190 expressed as bZIP transcription factor 68, glycine-rich cell wall structural protein 2, and aldehyde dehydrogenase 11 (ALDH11), respectively were commonly predicted as top-most candidates between abiotic stress and combined stresses and were identified from a weighted gene co-expression network as the hub genes in the brown module. However, only one gene Zm00001eb038720 encoding RNA-binding protein AU-1/Ribonuclease E/G, predicted by the PLSDA algorithm, was found commonly expressed under both biotic and abiotic stress. Genes involved in hormone signaling and nucleotide binding were significantly differentially regulated under stress conditions. These genes had an abundance of antioxidant responsive elements and abscisic acid responsive elements in their promoter region, suggesting their role in stress response. The top-ranked genes predicted to be key players in multiple stress resistance in maize need to be functional validated to ascertain their roles and further utilization in developing stress-resistant maize varieties.",
+    "keywords": [
+      "RNA-Seq",
+      "a(biotic) stress",
+      "artificial intelligence",
+      "gene expression",
+      "maize"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Anjan Kumar",
+        "Gandham, Prasad",
+        "Rajasekaran, Kanniah",
+        "Baisakh, Niranjan"
+      ],
+      "short_names": [
+        "Pradhan AK",
+        "Gandham P",
+        "Rajasekaran K",
+        "Baisakh N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States.",
+        "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States.",
+        "Southern Regional Research Center, USDA-ARS, New Orleans, LA, United States.",
+        "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Anjan Kumar",
+        "short_name": "Pradhan AK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States."
+        ]
+      },
+      {
+        "full_name": "Gandham, Prasad",
+        "short_name": "Gandham P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States."
+        ]
+      },
+      {
+        "full_name": "Rajasekaran, Kanniah",
+        "short_name": "Rajasekaran K",
+        "identifiers": [],
+        "affiliations": [
+          "Southern Regional Research Center, USDA-ARS, New Orleans, LA, United States."
+        ]
+      },
+      {
+        "full_name": "Baisakh, Niranjan",
+        "short_name": "Baisakh N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant, Environmental and Soil Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/04 06:26",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42116101"
+    ],
+    "refs": [
+      "40021958",
+      "39709520",
+      "39124175",
+      "38908121",
+      "38816789",
+      "38173311",
+      "37741865",
+      "37534296",
+      "37268151",
+      "36212378",
+      "36199583",
+      "35991451",
+      "35837132",
+      "35563623",
+      "35543494",
+      "35294695",
+      "34834621",
+      "34681032",
+      "34588562",
+      "34354054",
+      "34177152",
+      "33985439",
+      "33717668",
+      "33570802",
+      "33371388",
+      "33362861",
+      "32872156",
+      "32582038",
+      "32470066",
+      "32393173",
+      "31375807",
+      "31336603",
+      "31328030",
+      "31245774",
+      "31234785",
+      "30871211",
+      "30599307",
+      "30342485",
+      "30126870",
+      "29692558",
+      "29548860",
+      "29426290",
+      "29272523",
+      "29270183",
+      "28887464",
+      "28326315",
+      "28298920",
+      "28298916",
+      "28122503",
+      "26366857",
+      "25803026",
+      "25546584",
+      "24623520",
+      "24227677",
+      "24218491",
+      "23292878",
+      "22837360",
+      "21828105",
+      "19114008",
+      "18767902",
+      "18441049",
+      "16984999",
+      "14996940",
+      "14597658",
+      "12607117",
+      "12221975",
+      "11842437",
+      "11335717"
+    ],
+    "similar": [
+      "40612591",
+      "24235132",
+      "37741865",
+      "38816789",
+      "34544366",
+      "29156228",
+      "26284092",
+      "39000567",
+      "40830558",
+      "23398910",
+      "23985061",
+      "31328030",
+      "38173311",
+      "35151253",
+      "39457451",
+      "41036403",
+      "39850212",
+      "38570440",
+      "35163534",
+      "39308437",
+      "36271979",
+      "40027706",
+      "37151290",
+      "35214836",
+      "28298920",
+      "25933420",
+      "23961360",
+      "31412539",
+      "40648063",
+      "38162049",
+      "38705959",
+      "33101346",
+      "37000299",
+      "28154243",
+      "34833448",
+      "25422934",
+      "29145809",
+      "34025952",
+      "41459447",
+      "37018271",
+      "40428309",
+      "36098562",
+      "39396025",
+      "38287813",
+      "31286320",
+      "33574835",
+      "40069264",
+      "25149146",
+      "31443483",
+      "31575043",
+      "32977756",
+      "32646368",
+      "29489914",
+      "33184248",
+      "23649878",
+      "25557253",
+      "38023864",
+      "27314499",
+      "37060655",
+      "38490467",
+      "38927685",
+      "39427825",
+      "31376807",
+      "31514343",
+      "39857251",
+      "29107972",
+      "38223701",
+      "29951078",
+      "39722081",
+      "27085597",
+      "38943093",
+      "24224045",
+      "40986161",
+      "33313673",
+      "40629278",
+      "32383121",
+      "41261436",
+      "32080299",
+      "40061035",
+      "34192648",
+      "37799143",
+      "40093413",
+      "33097976",
+      "39695398",
+      "40833705",
+      "38584943",
+      "36939943",
+      "37309532",
+      "23800991",
+      "36063229",
+      "33750734",
+      "39532720",
+      "39858646",
+      "41092016",
+      "34891072",
+      "37558755",
+      "28555143",
+      "32095360",
+      "38337133",
+      "22467407"
+    ],
+    "review": [
+      "40612591",
+      "37741865",
+      "38816789",
+      "38173311",
+      "39850212",
+      "38570440",
+      "28154243",
+      "34025952",
+      "37018271",
+      "38287813",
+      "31286320",
+      "31575043",
+      "38023864",
+      "29951078",
+      "32383121",
+      "36063229",
+      "37558755",
+      "38337133"
+    ],
+    "pmc": [
+      "12222081"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40612591/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2025.1611784",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

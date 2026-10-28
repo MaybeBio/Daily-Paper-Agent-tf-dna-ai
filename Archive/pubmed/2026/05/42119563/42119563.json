@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42119563",
+    "doi": "10.1016/j.cell.2026.04.022",
+    "title": "RegVelo: Gene-regulatory-informed dynamics of single cells."
+  },
+  "content": {
+    "abstract": "Cell fate transitions are driven by regulatory circuitry, yet RNA velocity models cellular dynamics without explicitly accounting for gene regulatory interactions, limiting mechanistic insight. Conversely, gene regulatory network (GRN) inference methods largely neglect the dynamic nature of biological systems. To overcome this conceptual disconnect, we present RegVelo, a bottom-up, actionable, and interpretable deep learning framework that jointly models splicing kinetics and gene regulatory interactions. Across diverse biological systems, RegVelo provides reliable predictive power for terminal states, gene interactions, and perturbation simulations. By applying RegVelo to zebrafish neural crest development using full-length Smart-seq3 and shared gene expression and chromatin accessibility measurements, we delineate regulatory programs underlying fate specification. Guided by in silico perturbations and validated by CRISPR-Cas9 knockout and single-cell Perturb-seq, we establish tfec as an early driver and elf1 as a regulator of pigment cell fate. RegVelo establishes a quantitative framework for bridging gene regulation and cell fate decisions.",
+    "keywords": [
+      "cell fate decision",
+      "deep generative modeling",
+      "early drivers",
+      "gene regulatory network",
+      "in silico perturbation",
+      "in vivo Perturb-seq",
+      "mechanistic modeling",
+      "regulatory dynamics",
+      "transcriptional dynamics",
+      "zebrafish neural crest"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Zebrafish/genetics/embryology",
+      "*Gene Regulatory Networks/genetics",
+      "Neural Crest/metabolism/cytology",
+      "*Single-Cell Analysis/methods",
+      "Gene Expression Regulation, Developmental",
+      "Zebrafish Proteins/metabolism/genetics",
+      "Cell Differentiation/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Weixu",
+        "Hu, Zhiyuan",
+        "Weiler, Philipp",
+        "Mayes, Sarah",
+        "Lange, Marius",
+        "Fountain, Daniel M",
+        "Haug, Julianna O",
+        "Wang, Jingye",
+        "Xue, Zhengyuan",
+        "Sauka-Spengler, Tatjana",
+        "Theis, Fabian J"
+      ],
+      "short_names": [
+        "Wang W",
+        "Hu Z",
+        "Weiler P",
+        "Mayes S",
+        "Lange M",
+        "Fountain DM",
+        "Haug JO",
+        "Wang J",
+        "Xue Z",
+        "Sauka-Spengler T",
+        "Theis FJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany.",
+        "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK; Reproductive Medicine Center, Medical Research Institute, Frontier Science Center for Immunology and Metabolism, Zhongnan Hospital, Wuhan University, Wuhan, China.",
+        "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany; School of Computation, Information and Technology, Technical University of Munich, Munich, Germany.",
+        "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK.",
+        "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA; Department of Biology, New York University, New York, NY, USA.",
+        "School of Computation, Information and Technology, Technical University of Munich, Munich, Germany; Institute of Translational Genomics, Helmholtz Munich, Munich, Germany.",
+        "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK; Stowers Institute for Medical Research, Kansas City, MO, USA; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. Electronic address: tsauka-spengler@stowers.org.",
+        "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany; School of Computation, Information and Technology, Technical University of Munich, Munich, Germany. Electronic address: fabian.theis@helmholtz-munich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Weixu",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhiyuan",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK; Reproductive Medicine Center, Medical Research Institute, Frontier Science Center for Immunology and Metabolism, Zhongnan Hospital, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Weiler, Philipp",
+        "short_name": "Weiler P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany; School of Computation, Information and Technology, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Mayes, Sarah",
+        "short_name": "Mayes S",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Lange, Marius",
+        "short_name": "Lange M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Fountain, Daniel M",
+        "short_name": "Fountain DM",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Haug, Julianna O",
+        "short_name": "Haug JO",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingye",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA; Department of Biology, New York University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xue, Zhengyuan",
+        "short_name": "Xue Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Munich, Germany; Institute of Translational Genomics, Helmholtz Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Sauka-Spengler, Tatjana",
+        "short_name": "Sauka-Spengler T",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford, UK; Stowers Institute for Medical Research, Kansas City, MO, USA; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. Electronic address: tsauka-spengler@stowers.org."
+        ]
+      },
+      {
+        "full_name": "Theis, Fabian J",
+        "short_name": "Theis FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany; TUM School of Life Sciences Weihenstephan, Technical University of Munich, Munich, Germany; School of Computation, Information and Technology, Technical University of Munich, Munich, Germany. Electronic address: fabian.theis@helmholtz-munich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/13 00:29",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [
+      "42681529",
+      "42509564",
+      "42361180"
+    ],
+    "refs": [],
+    "similar": [
+      "42119563",
+      "30286071",
+      "33439865",
+      "34607603",
+      "21909283",
+      "38977847",
+      "40531881",
+      "34209401",
+      "31199790",
+      "32098766",
+      "42296344",
+      "27580035",
+      "22562198",
+      "34936864",
+      "41235466",
+      "33741714",
+      "38123534",
+      "41643202",
+      "23284303",
+      "41498638",
+      "41922342",
+      "36841529",
+      "14985255",
+      "29621239",
+      "32871105",
+      "40598278",
+      "16894598",
+      "35020872",
+      "39642879",
+      "41779826",
+      "23078916",
+      "19575671",
+      "37823232",
+      "33358912",
+      "20212526",
+      "37244909",
+      "35013168",
+      "41288963",
+      "41300707",
+      "41043336",
+      "38683994",
+      "33501917",
+      "25416748",
+      "38754366",
+      "26553192",
+      "40789027",
+      "33465092",
+      "39207727",
+      "34389276",
+      "29700227",
+      "41781486",
+      "27502435",
+      "41579640",
+      "23900542",
+      "41491310",
+      "18068699",
+      "30513303",
+      "41457100",
+      "21963426",
+      "34251620",
+      "39591963",
+      "42186138",
+      "31619682",
+      "18369445",
+      "38364856",
+      "28689736",
+      "38950180",
+      "27650846",
+      "23924634",
+      "41758996",
+      "38896510",
+      "42074532",
+      "35976093",
+      "24663100",
+      "41093852",
+      "41984520",
+      "38652107",
+      "36755098",
+      "38980373",
+      "41052197",
+      "32019417",
+      "35658971",
+      "11684650",
+      "42011025",
+      "42249125",
+      "31754327",
+      "31639368",
+      "41826830",
+      "39570626",
+      "16691572",
+      "30977075",
+      "38739758",
+      "32231307",
+      "42127893",
+      "31702881",
+      "12064604",
+      "21264220",
+      "20406684",
+      "38886858",
+      "26297922"
+    ],
+    "review": [
+      "42119563",
+      "19575671",
+      "39207727",
+      "41781486",
+      "41758996",
+      "42074532"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00457-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=42119563",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

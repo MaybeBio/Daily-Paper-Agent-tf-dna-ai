@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a semi-supervised learning (SSL) approach using cross-species pseudo-labeling to augment training data for regulatory sequence prediction models. They claim this method improves performance over standard supervised learning, particularly for transcription factors with few binding sites, and that small CNNs trained with SSL perform comparably or better than the large language model DNABERT2.
+- **Visible evidence base** Text descriptions of results, including reported performance metrics (AUROC, AUPR), statistical significance values, and correlation coefficients
+- **Missing materials affecting confidence** All figures (Fig. 1-3), tables (Table 1-2, S1-S2), and supplementary figures (Fig. S1-S6) are referenced but not provided; detailed experimental protocols, hyperparameter settings, and data preprocessing steps are incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in regulatory genomics: the limited availability of labeled functional data for training deep learning models. The proposed cross-species pseudo-labeling approach is conceptually sound and practically relevant. However, the current text lacks sufficient methodological detail and direct evidence to fully evaluate the claims. The reported improvements are promising, particularly for low-data regimes, but the absence of key figures and tables, along with incomplete descriptions of experimental procedures, prevents a complete assessment. The comparison with DNABERT2 is interesting but requires more rigorous benchmarking to support the strong claims made.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory sequence prediction, functional annotation of non-coding variants, and deep learning applications in genomics. The work is also relevant to researchers developing semi-supervised and transfer learning methods for biological sequence data, as it offers a computationally efficient alternative to large-scale self-supervised pretraining.
+- **Major strengths** The problem is well-motivated and practically important. The cross-species pseudo-labeling strategy is a creative and biologically grounded approach to data augmentation. The method is model-agnostic and can be applied to various architectures, increasing its potential utility. The focus on low-data regimes, where deep learning often struggles, is a valuable contribution. The comparison with a large language model addresses a timely question about the trade-offs between model complexity and data efficiency.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that SSL improves performance over standard supervised learning across multiple datasets and models
+  - **Evidence pointer** Figures 2, S1; Tables 1, 2, S2; location not provided
+  - **Concern** The core performance claims are presented without the actual figures and tables. The text reports specific percentage improvements and p-values, but the reader cannot verify these results or assess the magnitude of effects across all datasets. The description of "overall significant increase" is insufficient without visual or tabular evidence showing per-dataset comparisons.
+  - **Why it matters** The central contribution of the paper is the demonstrated improvement of SSL over SL. Without the actual data, the claims cannot be evaluated, and the practical significance of the improvements remains unclear.
+  - **Resolution test** Provide all figures and tables with clear labels, including per-dataset results, error bars or confidence intervals, and statistical test details. Ensure the text descriptions match the presented data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The description of the SSL and SSL-Noisy Student training procedures
+  - **Evidence pointer** Methods section, "Cross-species data labeling" and "Results" sections; location not provided
+  - **Concern** The training procedure is described at a high level but lacks critical details. The text mentions "two steps" and "five teacher-student iterations" but does not specify the exact loss functions, optimization algorithms, learning rates, batch sizes, early stopping criteria, or how the confidence weights are integrated into the loss. The Gaussian noise addition to weights is mentioned but its rationale and implementation are unclear. The handling of negative pseudo-labeled sequences and the balance between positive and negative samples are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement. Without precise methodological details, other researchers cannot implement or build upon the proposed method, and the validity of the results cannot be independently verified.
+  - **Resolution test** Provide a complete algorithmic description of the SSL and SSL-NS procedures, including all hyperparameters, loss formulations, and training schedules. Consider providing pseudocode or a detailed supplementary methods section.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparison validity
+  - **Claim pointer** The claim that small CNNs trained with SSL perform similarly or better than DNABERT2
+  - **Evidence pointer** Table 2, Table S2, Figure S5; location not provided
+  - **Concern** The comparison with DNABERT2 is a key selling point, but the experimental setup is not fully described. It is unclear whether DNABERT2 was fine-tuned with the same training data, the same number of epochs, the same optimization settings, and whether the same evaluation protocol was used. The text mentions "default parameters" for DNABERT2 but does not specify what these are. The computational cost of training each model is not reported, which is important for a fair comparison.
+  - **Why it matters** The claim that a 27K-parameter CNN can match a 117M-parameter LLM is strong and would be of significant interest. However, if the comparison is not fair or the LLM is not optimally fine-tuned, the conclusion may be misleading.
+  - **Resolution test** Describe the full experimental setup for all models, including training data, hyperparameters, computational resources, and number of runs. Report variance across runs and consider including a more comprehensive set of baselines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that SSL shows significant improvements, with specific p-values reported
+  - **Evidence pointer** Results section, Figures 2, S1; location not provided
+  - **Concern** The statistical analysis is not described. It is unclear what test was used to compute the reported p-values, whether multiple testing correction was applied, and whether the tests account for the non-independence of genomic regions. The text reports p-values for overall comparisons but does not provide effect sizes or confidence intervals for individual datasets.
+  - **Why it matters** The significance of the improvements is a central claim. Without proper statistical methodology, the robustness of the findings is uncertain.
+  - **Resolution test** Describe the statistical tests used, including the null hypothesis, the test statistic, and any corrections for multiple testing. Report effect sizes and confidence intervals alongside p-values.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "small models trained by SSL showed similar or better performance than large language model DNABERT2" but does not specify the evaluation metric or the datasets. This is too vague for a summary claim.
+  - **Required correction** Specify the metric (e.g., AUPR) and the conditions under which the claim holds (e.g., for specific TFs with small training data).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods, "Cross-species data labeling"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The term "pseudo-labeling" is used, but the process described is more accurately "cross-species label transfer" via liftover. The distinction matters because pseudo-labeling typically refers to model-generated labels, not orthologous sequence mapping.
+  - **Required correction** Clarify the terminology and distinguish the proposed approach from standard pseudo-labeling in semi-supervised learning.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Prediction of SNP effects"
+  - **Evidence pointer** Results section; location not provided
+  - **Concern** The SNP effect prediction analysis is described for CTCF and ANDR, but the number of SNPs tested, the source of the SNPs, and the evaluation protocol are not specified. The text mentions the ADASTRA database but does not describe how the comparison was performed.
+  - **Required correction** Provide details on the SNP dataset, the number of variants, and the exact procedure for computing and comparing predicted versus observed effects.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Implementation and availability"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The GitHub repository is mentioned, but the text does not specify the software versions, dependencies, or whether the code includes all preprocessing and evaluation scripts.
+  - **Required correction** Provide a detailed software environment description and ensure the repository includes all necessary code and instructions for reproducing the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, "Small models trained with SSL versus large language model"
+  - **Evidence pointer** Results section; location not provided
+  - **Concern** The text states that SSL did not improve DNABERT2 much, attributing this to the model's prior knowledge. This interpretation is speculative and not directly tested. Alternative explanations, such as the pseudo-labeled data not being informative for the LLM's fine-tuning, are not discussed.
+  - **Required correction** Soften the interpretation or provide additional analyses to support the claim, such as probing the learned representations or comparing with a randomly initialized transformer.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing evidence), R1-M2 (incomplete methods), R1-M3 (unfair comparison)
+- **Assessment against Nature-style criteria**
+  - **Originality** The cross-species pseudo-labeling approach is a novel contribution. While related to phylogenetic data augmentation, the specific use of liftover-based label transfer for SSL pretraining is not widely explored. The combination with Noisy Student principles adds a new dimension.
+  - **Scientific importance** The problem of limited labeled data in regulatory genomics is significant. The proposed method offers a practical solution that could benefit many downstream applications, including variant effect prediction. The comparison with LLMs addresses a timely and important question about model efficiency.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and machine learning researchers. The biological motivation is clear, but the technical details may limit broader appeal. The potential implications for clinical genomics could broaden the audience.
+  - **Technical soundness** The conceptual framework is sound, but the current presentation lacks sufficient detail to fully assess technical rigor. The missing figures and tables, incomplete statistical descriptions, and unclear experimental protocols are significant gaps.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction and conclusion are clear. However, the methods section assumes familiarity with deep learning and genomics terminology, which may be challenging for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results, as described, are potentially impactful. However, the current manuscript does not provide enough evidence to fully establish the claims. The authors must provide all missing data, complete methodological details, and a more rigorous statistical analysis before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that SSL outperforms SL across multiple datasets cannot be verified without the referenced figures and tables.
+- The claim that small CNNs trained with SSL perform comparably or better than DNABERT2 is not fully supported due to incomplete description of the comparison setup.
+- The claim that SSL-NS improves predictions for specific TFs is based on reported results that are not visible in the provided text.
+- The interpretation that SSL did not improve DNABERT2 due to its prior knowledge is speculative and not directly tested.
+- The statement that "on average, 18/22 = 82% of sequences are conserved" is presented without supporting data or statistical context.

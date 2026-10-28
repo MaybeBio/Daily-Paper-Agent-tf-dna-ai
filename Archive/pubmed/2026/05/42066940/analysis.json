@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42066940",
+  "title": "Stage-dependent redistribution of protein-protein interaction propensity in canonical Wnt/beta-catenin signaling.",
+  "authors": "Abdullah, Mishel; Jayadevan, K; Therayil, Amalkrishnan; Faiza, Alhan; Kumaraguruparan, Nivetha; Kokulakrishna, R",
+  "journal": "Developmental biology",
+  "published_date": "2026-05-02",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基于构象系综的对接框架分析Wnt/β-catenin信号通路中蛋白-蛋白互作的阶段依赖性，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模，故给5分。",
+  "abstract": "Embryonic development relies on precise temporal regulation of signaling pathways, yet most computational analyses of protein-protein interactions treat signaling events as static and time-invariant. Here, we present a time-resolved, ensemble-based docking framework to examine stage-dependent patterns in relative interaction propensity within the canonical Wnt/beta-catenin signaling pathway. Core pathway interactions spanning extracellular, membrane-associated, cytoplasmic, and regulatory components were analyzed using conformational ensembles generated without molecular dynamics simulations. To integrate structural variability with developmental context, we defined a Stage-Weighted Interaction Score (SWIS), which combines ensemble docking-derived structural compatibility, pose convergence, and stage-specific relevance weighting into a normalized comparative metric. SWIS is designed for relative evaluation of interaction features across stages and does not represent binding affinity, interaction stability, or kinetic properties. Application of this framework revealed stage-dependent differences in relative interaction propensity across early, mid, and late signaling phases. Receptor-proximal interactions exhibited higher composite scores during early stages, whereas intracellular adaptor and effector interactions showed increased relative prominence during intermediate stages. Late-stage analysis indicated reduced composite scores across the network. Network-level analysis further revealed stage-dependent redistribution of interaction features under context-specific weighting, rather than persistence of a fixed interaction architecture. These patterns reflect context-weighted redistribution of docking-derived interaction features rather than direct changes in intrinsic biochemical interaction stability. Together, this framework provides a scalable computational approach for comparative analysis of temporally contextualized signaling interactions and generates testable hypotheses regarding the temporal organization of developmental signaling networks.",
+  "abstract_zh": "胚胎发育依赖于信号通路的精确时间调控，然而大多数蛋白质-蛋白质相互作用的计算分析将信号事件视为静态且时间不变的。在此，我们提出了一种时间分辨的、基于集合的对接框架，以检查经典Wnt/β-catenin信号通路中相对相互作用倾向性的阶段依赖性模式。我们使用无需分子动力学模拟生成的构象集合，分析了涵盖细胞外、膜相关、细胞质和调控组分的核心通路相互作用。为了将结构变异性与发育背景整合，我们定义了一个阶段加权相互作用评分（Stage-Weighted Interaction Score, SWIS），该评分将基于集合对接的结构兼容性、姿态收敛性和阶段特异性相关性权重结合为一个归一化的比较指标。SWIS旨在跨阶段对相互作用特征进行相对评估，并不代表结合亲和力、相互作用稳定性或动力学特性。应用此框架揭示了早期、中期和晚期信号阶段中相对相互作用倾向性的阶段依赖性差异。受体近端相互作用在早期阶段表现出更高的综合评分，而细胞内适配器和效应器相互作用在中间阶段显示出相对增强的突出性。晚期分析表明，整个网络中的综合评分降低。网络层面分析进一步揭示了在背景特异性加权下，相互作用特征的阶段依赖性重新分布，而非固定相互作用架构的持续存在。这些模式反映了对接衍生相互作用特征的背景加权重新分布，而非内在生化相互作用稳定性的直接变化。总之，此框架提供了一种可扩展的计算方法，用于时间背景化信号相互作用的比较分析，并生成了关于发育信号网络时间组织的可测试假设。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42066940/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42066940/",
+  "paper_page_path": "papers/pubmed/42066940/index.html"
+}

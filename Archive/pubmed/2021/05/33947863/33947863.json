@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "33947863",
+    "doi": "10.1038/s41467-021-22787-9",
+    "title": "Proteomics of resistance to Notch1 inhibition in acute lymphoblastic leukemia reveals targetable kinase signatures."
+  },
+  "content": {
+    "abstract": "Notch1 is a crucial oncogenic driver in T-cell acute lymphoblastic leukemia (T-ALL), making it an attractive therapeutic target. However, the success of targeted therapy using gamma-secretase inhibitors (GSIs), small molecules blocking Notch cleavage and subsequent activation, has been limited due to development of resistance, thus restricting its clinical efficacy. Here, we systematically compare GSI resistant and sensitive cell states by quantitative mass spectrometry-based phosphoproteomics, using complementary models of resistance, including T-ALL patient-derived xenografts (PDX) models. Our datasets reveal common mechanisms of GSI resistance, including a distinct kinase signature that involves protein kinase C delta. We demonstrate that the PKC inhibitor sotrastaurin enhances the anti-leukemic activity of GSI in PDX models and completely abrogates the development of acquired GSI resistance in vitro. Overall, we highlight the potential of proteomics to dissect alterations in cellular signaling and identify druggable pathways in cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "Acetophenones/pharmacology",
+      "Amyloid Precursor Protein Secretases/*antagonists & inhibitors/metabolism",
+      "Animals",
+      "Antineoplastic Agents/*pharmacology/therapeutic use",
+      "Benzopyrans/pharmacology",
+      "Cell Line, Tumor",
+      "Cell Survival/drug effects",
+      "Chromatin Immunoprecipitation",
+      "Chromatography, High Pressure Liquid",
+      "*Drug Resistance, Neoplasm/genetics",
+      "Gene Ontology",
+      "Humans",
+      "Inhibitory Concentration 50",
+      "Mice",
+      "Mice, Inbred NOD",
+      "Oligopeptides/*pharmacology",
+      "Phosphorylation",
+      "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma/*drug therapy/*metabolism",
+      "Protein Array Analysis",
+      "Protein Biosynthesis/drug effects",
+      "Protein Kinase C/antagonists & inhibitors/genetics/*metabolism",
+      "Protein Kinases/metabolism",
+      "Proteomics",
+      "Receptor, Notch1/*antagonists & inhibitors/metabolism",
+      "Signal Transduction/drug effects",
+      "Tandem Mass Spectrometry",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Franciosa, Giulia",
+        "Smits, Jos G A",
+        "Minuzzo, Sonia",
+        "Martinez-Val, Ana",
+        "Indraccolo, Stefano",
+        "Olsen, Jesper V"
+      ],
+      "short_names": [
+        "Franciosa G",
+        "Smits JGA",
+        "Minuzzo S",
+        "Martinez-Val A",
+        "Indraccolo S",
+        "Olsen JV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5309-5558",
+        "ORCID: 0000-0001-5858-3905",
+        "ORCID: 0000-0002-8784-3822",
+        "ORCID: 0000-0002-4810-7136",
+        "ORCID: 0000-0002-4747-4938"
+      ],
+      "affiliations": [
+        "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Molecular Developmental Biology, Radboud University, Nijmegen, Netherlands.",
+        "Department of Surgery, Oncology and Gastroenterology, University of Padova, Padova, Italy.",
+        "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Surgery, Oncology and Gastroenterology, University of Padova, Padova, Italy.",
+        "Veneto Institute of Oncology IOV - IRCCS, Padova, Italy.",
+        "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark. jesper.olsen@cpr.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Franciosa, Giulia",
+        "short_name": "Franciosa G",
+        "identifiers": [
+          "0000-0001-5309-5558"
+        ],
+        "affiliations": [
+          "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Smits, Jos G A",
+        "short_name": "Smits JGA",
+        "identifiers": [
+          "0000-0001-5858-3905"
+        ],
+        "affiliations": [
+          "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark.",
+          "Department of Molecular Developmental Biology, Radboud University, Nijmegen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Minuzzo, Sonia",
+        "short_name": "Minuzzo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Oncology and Gastroenterology, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Martinez-Val, Ana",
+        "short_name": "Martinez-Val A",
+        "identifiers": [
+          "0000-0002-8784-3822"
+        ],
+        "affiliations": [
+          "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Indraccolo, Stefano",
+        "short_name": "Indraccolo S",
+        "identifiers": [
+          "0000-0002-4810-7136"
+        ],
+        "affiliations": [
+          "Department of Surgery, Oncology and Gastroenterology, University of Padova, Padova, Italy.",
+          "Veneto Institute of Oncology IOV - IRCCS, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Olsen, Jesper V",
+        "short_name": "Olsen JV",
+        "identifiers": [
+          "0000-0002-4747-4938"
+        ],
+        "affiliations": [
+          "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark. jesper.olsen@cpr.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 4",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/06 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42626068",
+      "41926643",
+      "41902882",
+      "41141391",
+      "41023502",
+      "41007654",
+      "40448620",
+      "39684550",
+      "39373514",
+      "39244606",
+      "38907068",
+      "38612731",
+      "38012673",
+      "38003301",
+      "37964935",
+      "37358480",
+      "37045827",
+      "36674902",
+      "36672506",
+      "36494469",
+      "35733807",
+      "35684327",
+      "35574376",
+      "35217681",
+      "34501239"
+    ],
+    "refs": [
+      "32051234",
+      "32034161",
+      "31819260",
+      "31765385",
+      "31699882",
+      "31467126",
+      "31142678",
+      "30833379",
+      "30537515",
+      "30476243",
+      "30450911",
+      "30395289",
+      "30224339",
+      "30104208",
+      "29763622",
+      "29535314",
+      "29362397",
+      "29195078",
+      "29191878",
+      "29183128",
+      "29023469",
+      "28843484",
+      "28671688",
+      "28655153",
+      "28601559",
+      "28174276",
+      "27959635",
+      "27670423",
+      "27582570",
+      "27451956",
+      "27397505",
+      "27348712",
+      "27141961",
+      "27070703",
+      "26828195",
+      "26407235",
+      "26390244",
+      "25966987",
+      "25724911",
+      "25394790",
+      "25369933",
+      "25043004",
+      "24781550",
+      "24584072",
+      "23791182",
+      "23774673",
+      "23721823",
+      "23651858",
+      "23532336",
+      "22460905",
+      "22070249",
+      "21873209",
+      "21254760",
+      "20709693",
+      "20371346",
+      "20332779",
+      "20068231",
+      "19379690",
+      "19318552",
+      "19246562",
+      "19029910",
+      "19001083",
+      "18758484",
+      "17873882",
+      "17646409",
+      "17363738",
+      "17081983",
+      "16286006",
+      "11309499",
+      "11035250",
+      "10221902"
+    ],
+    "similar": [
+      "33947863",
+      "28174276",
+      "19318552",
+      "24140475",
+      "22504949",
+      "27582570",
+      "28415816",
+      "21494254",
+      "24584072",
+      "19775282",
+      "19246562",
+      "19098907",
+      "19775286",
+      "22673746",
+      "21929314",
+      "34167562",
+      "32386594",
+      "30224339",
+      "30967635",
+      "19778842",
+      "25344525",
+      "23774673",
+      "20007543",
+      "24667249",
+      "18322257",
+      "33191568",
+      "19057901",
+      "19357700",
+      "25879451",
+      "26390244",
+      "22349824",
+      "26361419",
+      "20015880",
+      "33538669",
+      "24727676",
+      "16688224",
+      "23839278",
+      "23108395",
+      "29964327",
+      "26046801",
+      "23445313",
+      "19185842",
+      "18984862",
+      "27588497",
+      "27835864",
+      "37800623",
+      "25043004",
+      "20008304",
+      "27157619",
+      "25281505",
+      "25104330",
+      "31467126",
+      "20194733",
+      "18469855",
+      "25156146",
+      "20965628",
+      "26134677",
+      "29158376",
+      "21984373",
+      "25564152",
+      "20008221",
+      "20393564",
+      "31530562",
+      "27304189",
+      "17363738",
+      "17549349",
+      "31570389",
+      "35240234",
+      "20736329",
+      "27473087",
+      "27670423",
+      "26080839",
+      "22996635",
+      "25301704",
+      "29253571",
+      "28716817",
+      "16780947",
+      "20560956",
+      "28484265",
+      "28143869",
+      "36550553",
+      "21625236",
+      "30563887",
+      "21737799",
+      "19129776",
+      "31785807",
+      "24795015",
+      "22846929",
+      "29138297",
+      "23916913",
+      "20530712",
+      "20068386",
+      "16954387",
+      "29023469",
+      "23086478",
+      "34007050",
+      "35173274",
+      "30466748",
+      "22547687",
+      "21326611",
+      "32924017",
+      "35217681",
+      "38968151",
+      "35589701",
+      "37941480",
+      "24710376",
+      "38685813",
+      "24401270",
+      "19907487",
+      "36399528",
+      "33876224",
+      "29930300",
+      "21730014",
+      "35488386",
+      "33942287",
+      "36322781",
+      "28526832",
+      "28295194",
+      "20407034",
+      "36700404",
+      "37801708",
+      "21315665",
+      "33722259",
+      "29746793",
+      "34188174",
+      "33165851",
+      "35915142",
+      "35981563"
+    ],
+    "review": [
+      "33947863",
+      "24140475",
+      "27582570",
+      "22673746",
+      "21929314",
+      "19778842",
+      "19357700",
+      "33538669",
+      "20965628",
+      "20008221",
+      "31570389",
+      "30466748"
+    ],
+    "pmc": [
+      "8097059"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22787-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33947863/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33947863",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd018744",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://hdl.handle.net/11577/3410904",
+        "provider": "Padua Research Archive - University of Padua - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://scite.ai/reports/33947863",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

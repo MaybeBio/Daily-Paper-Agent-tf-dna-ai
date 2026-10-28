@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "40681575",
+    "doi": "10.1038/s41598-025-09244-z",
+    "title": "An in silico to in vivo approach identifies retinoid-X receptor activating tert-butylphenols used in food contact materials."
+  },
+  "content": {
+    "abstract": "The potential for food contact chemicals to disrupt genetic programs in development and metabolism raises concerns. Nuclear receptors (NRs) control many of these programs, and the retinoid-X receptor (RXR) is a DNA-binding partner for one-third of the NRs. RXR disruption could generate adverse outcomes in several NR pathways. We used machine learning and other in silico methods to identify RXR-interacting candidates from a list of over 57,000 chemicals. Butylphenols comprised the largest, high-probability, structural group (58 compounds); several are food contact chemicals with widespread commercial use. In vitro ToxCast data suggested that bulky, aliphatic substitution at C4 of 2,6-di-tert-butylphenol facilitated RXR activation. We tested six butylphenols with increasing bulk at C4 in vivo for their ability to disrupt thyroid hormone receptor (TR) signaling, using an integrated luciferase reporter driven by TR-RXR binding and quantifiable morphological changes in a Xenopus laevis precocious metamorphosis assay. Three tert-butylphenols potentiated TH action at nanomolar concentrations. Molecular modeling showed the three positives formed more frequent, stable interactions with RXRalpha, and bulkiness at C4 increased steric complementarity with the RXR ligand-binding pocket. Our findings establish a paradigm for machine learning coupled with a convenient, in vivo validation approach to identify chemicals interacting with RXR-NR-controlled genetic pathways.",
+    "keywords": [
+      "Artificial intelligence",
+      "Environmental exposure",
+      "Food contact chemicals",
+      "Machine learning",
+      "Molecular docking",
+      "New approach methods (NAMs)",
+      "Retinoid-X receptor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Retinoid X Receptors/metabolism/chemistry",
+      "Xenopus laevis",
+      "*Phenols/chemistry/pharmacology",
+      "Computer Simulation",
+      "Machine Learning",
+      "Humans",
+      "Protein Binding",
+      "Signal Transduction/drug effects",
+      "Receptors, Thyroid Hormone/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mengeling, Brenda J",
+        "Ettayapuram Ramaprasad, Azhagiya Singam",
+        "Smith, Martyn T",
+        "Turkieh, Dania",
+        "Kleinstreuer, Nicole C",
+        "Mansouri, Kamel",
+        "Durkin, Kathleen A",
+        "La Merrill, Michele A",
+        "Furlow, J David"
+      ],
+      "short_names": [
+        "Mengeling BJ",
+        "Ettayapuram Ramaprasad AS",
+        "Smith MT",
+        "Turkieh D",
+        "Kleinstreuer NC",
+        "Mansouri K",
+        "Durkin KA",
+        "La Merrill MA",
+        "Furlow JD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA.",
+        "Molecular Graphics and Computation Facility, College of Chemistry, University of California, Berkeley, CA, 94720, USA.",
+        "Division of Environmental Health Sciences, School of Public Health, University of California, Berkeley, CA, 94720, USA.",
+        "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA.",
+        "National Toxicology Program Interagency Center for the Evaluation of Alternative Toxicological Methods, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC, 27711, USA.",
+        "National Toxicology Program Interagency Center for the Evaluation of Alternative Toxicological Methods, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC, 27711, USA.",
+        "Molecular Graphics and Computation Facility, College of Chemistry, University of California, Berkeley, CA, 94720, USA.",
+        "Department of Environmental Toxicology, College of Agricultural and Environmental Studies, University of California, Davis, CA, 95616, USA. mlamerrill@ucdavis.edu.",
+        "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA. jdfurlow@ucdavis.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mengeling, Brenda J",
+        "short_name": "Mengeling BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA."
+        ]
+      },
+      {
+        "full_name": "Ettayapuram Ramaprasad, Azhagiya Singam",
+        "short_name": "Ettayapuram Ramaprasad AS",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Graphics and Computation Facility, College of Chemistry, University of California, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Martyn T",
+        "short_name": "Smith MT",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Environmental Health Sciences, School of Public Health, University of California, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Turkieh, Dania",
+        "short_name": "Turkieh D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA."
+        ]
+      },
+      {
+        "full_name": "Kleinstreuer, Nicole C",
+        "short_name": "Kleinstreuer NC",
+        "identifiers": [],
+        "affiliations": [
+          "National Toxicology Program Interagency Center for the Evaluation of Alternative Toxicological Methods, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC, 27711, USA."
+        ]
+      },
+      {
+        "full_name": "Mansouri, Kamel",
+        "short_name": "Mansouri K",
+        "identifiers": [],
+        "affiliations": [
+          "National Toxicology Program Interagency Center for the Evaluation of Alternative Toxicological Methods, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC, 27711, USA."
+        ]
+      },
+      {
+        "full_name": "Durkin, Kathleen A",
+        "short_name": "Durkin KA",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Graphics and Computation Facility, College of Chemistry, University of California, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "La Merrill, Michele A",
+        "short_name": "La Merrill MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Toxicology, College of Agricultural and Environmental Studies, University of California, Davis, CA, 95616, USA. mlamerrill@ucdavis.edu."
+        ]
+      },
+      {
+        "full_name": "Furlow, J David",
+        "short_name": "Furlow JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Physiology, and Behavior, College of Biological Sciences, University of California, Davis, CA, 95616, USA. jdfurlow@ucdavis.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/19 16:46",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41819403",
+      "41602274"
+    ],
+    "refs": [
+      "39285208",
+      "38788569",
+      "38555663",
+      "38378618",
+      "37805934",
+      "37348711",
+      "36750942",
+      "36639026",
+      "36513198",
+      "36473243",
+      "36408349",
+      "35585831",
+      "35417489",
+      "35383362",
+      "35210493",
+      "34293549",
+      "34126375",
+      "34110804",
+      "33934018",
+      "33272655",
+      "32961130",
+      "32915564",
+      "32709328",
+      "32672444",
+      "32513869",
+      "32074470",
+      "31816794",
+      "31702911",
+      "31506492",
+      "30954820",
+      "30517180",
+      "30456781",
+      "29860300",
+      "29762675",
+      "29689262",
+      "28977589",
+      "28662416",
+      "28324024",
+      "27367298",
+      "27167774",
+      "26908244",
+      "26153368",
+      "25744725",
+      "25541638",
+      "24976024",
+      "24679540",
+      "23322813",
+      "22743772",
+      "21036407",
+      "17875330",
+      "16464605",
+      "15597881",
+      "15456876",
+      "14701725",
+      "11804603",
+      "10835357",
+      "9692959"
+    ],
+    "similar": [
+      "40681575",
+      "29762675",
+      "35417489",
+      "28662416",
+      "1331778",
+      "24971931",
+      "26096596",
+      "12138189",
+      "14668324",
+      "19211732",
+      "41015096",
+      "41201921",
+      "27167774",
+      "9731705",
+      "27110634",
+      "11084025",
+      "15528208",
+      "22474364",
+      "21515403",
+      "19561066",
+      "9148917",
+      "33450664",
+      "7760854",
+      "15178767",
+      "9171239",
+      "24391967",
+      "7629123",
+      "17161906",
+      "9234730",
+      "19378296",
+      "24461695",
+      "10464303",
+      "8413250",
+      "20399831",
+      "7838157",
+      "7629175",
+      "25541638",
+      "20674387",
+      "7835272",
+      "9773977",
+      "7796935",
+      "15941851",
+      "12371907",
+      "7956930",
+      "25825955",
+      "22223330",
+      "1324421",
+      "7925126",
+      "7862171",
+      "35944650",
+      "8262045",
+      "8058736",
+      "18635662",
+      "10536369",
+      "7989311",
+      "8524810",
+      "11145963",
+      "9605927",
+      "11115777",
+      "1331079",
+      "14701725",
+      "9065436",
+      "20937572",
+      "8408652",
+      "32439374",
+      "19438714",
+      "8910436",
+      "16204233",
+      "8175681",
+      "8137825",
+      "36639026",
+      "8137826",
+      "8524299",
+      "31359388",
+      "10454590",
+      "33647291",
+      "34020531",
+      "10490654",
+      "31566444",
+      "16288995",
+      "26289479",
+      "9626662",
+      "7667283",
+      "1310259",
+      "9256364",
+      "7776974",
+      "7651427",
+      "27320334",
+      "17656367",
+      "19486925",
+      "9731697",
+      "33361153",
+      "8246986",
+      "31175293",
+      "17242407",
+      "7935418",
+      "12388159",
+      "10948200",
+      "14560013",
+      "15821117"
+    ],
+    "review": [
+      "40681575",
+      "21515403",
+      "20674387",
+      "34020531"
+    ],
+    "pmc": [
+      "12274580"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-09244-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40681575/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

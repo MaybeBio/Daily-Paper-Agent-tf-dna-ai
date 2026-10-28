@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39074174",
+  "title": "Incorporating prior information in gene expression network-based cancer heterogeneity analysis.",
+  "authors": "Li, Rong; Xu, Shaodong; Li, Yang; Tang, Zuojian; Feng, Di; Cai, James; Ma, Shuangge",
+  "journal": "Biostatistics (Oxford, England)",
+  "published_date": "2024-07-29",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用先验信息整合基因表达网络分析癌症异质性，虽涉及转录因子等调控因子，但未聚焦蛋白-DNA互作建模，且方法为统计网络分析而非AI或物理模拟，与本课题关联较弱。",
+  "abstract": "Cancer is molecularly heterogeneous, with seemingly similar patients having different molecular landscapes and accordingly different clinical behaviors. In recent studies, gene expression networks have been shown as more effective/informative for cancer heterogeneity analysis than some simpler measures. Gene interconnections can be classified as \"direct\" and \"indirect,\" where the latter can be caused by shared genomic regulators (such as transcription factors, microRNAs, and other regulatory molecules) and other mechanisms. It has been suggested that incorporating the regulators of gene expressions in network analysis and focusing on the direct interconnections can lead to a deeper understanding of the more essential gene interconnections. Such analysis can be seriously challenged by the large number of parameters (jointly caused by network analysis, incorporation of regulators, and heterogeneity) and often weak signals. To effectively tackle this problem, we propose incorporating prior information contained in the published literature. A key challenge is that such prior information can be partial or even wrong. We develop a two-step procedure that can flexibly accommodate different levels of prior information quality. Simulation demonstrates the effectiveness of the proposed approach and its superiority over relevant competitors. In the analysis of a breast cancer dataset, findings different from the alternatives are made, and the identified sample subgroups have important clinical differences.",
+  "abstract_zh": "癌症在分子水平上具有异质性，看似相似的患者可能拥有不同的分子景观，并因此表现出不同的临床行为。近期研究表明，基因表达网络在癌症异质性分析中比一些更简单的度量方法更为有效且信息丰富。基因间的相互连接可分为“直接”和“间接”两类，其中间接连接可能由共享的基因组调控因子（如转录因子、微小RNA及其他调控分子）及其他机制引起。有观点认为，在网络分析中纳入基因表达的调控因子并聚焦于直接相互连接，有助于更深入地理解更为本质的基因连接关系。此类分析可能因参数众多（由网络分析、调控因子纳入及异质性共同导致）及信号通常较弱而面临严峻挑战。为有效解决这一问题，我们提出整合已发表文献中的先验信息。一个关键挑战在于，此类先验信息可能不完整甚至错误。我们开发了一个两步程序，能够灵活适应不同质量的先验信息水平。模拟实验证明了所提方法的有效性及其相对于相关竞争方法的优越性。在对一个乳腺癌数据集的分析中，我们得出了与替代方法不同的发现，且识别出的样本亚组具有重要的临床差异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39074174/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39074174/",
+  "paper_page_path": "papers/pubmed/39074174/index.html"
+}

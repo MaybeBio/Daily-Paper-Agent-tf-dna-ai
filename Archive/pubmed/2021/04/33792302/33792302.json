@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "33792302",
+    "doi": "10.1021/acs.jcim.1c00296",
+    "title": "Structural Model for Recruitment of RIT1 to the LZTR1 E3 Ligase: Evidences from an Integrated Computational Approach."
+  },
+  "content": {
+    "abstract": "Leucine-zipper transcription regulator 1 (LZTR1) is a highly mutated tumor suppressor gene, involved in the pathogenesis of several cancer types and developmental disorders. In proteasomal degradation, it acts as an adaptor protein responsible for the recognition and recruitment of substrates to be ubiquitinated in Cullin3-RING ligase E3 (CRL3) machinery. LZTR1 belongs to the BTB-Kelch family, a multi-domain protein where the Kelch propeller plays as the substrate recognition region and for which no experimental structure has been solved. Recently, large effort mutational analyses pointed to the role of disease-associated LZTR1 mutations in the RAS/MAPK signaling pathway and RIT1, a small Ras-related GTPase protein, has been identified by mass spectroscopy to interact with LZTR1. Hence, a better understanding of native structure, molecular mechanism, and substrate specificity would help clarifying the role of LZTR1 in pathological diseases, thus promoting advancement in the development of novel therapeutic strategies. Here, we address the interaction model between adaptor LZTR1 and substrate RIT1 by applying an integrated computational approach, including molecular modeling and docking techniques. We observe that the interaction model LZTR1-RIT1 is stabilized by an electrostatic bond network established between the two protein surfaces, which is reminiscent of homologous ubiquitin ligases complexes. Then, running MD simulations, we characterize differential conformational dynamics of the multi-domain LZTR1, offering interesting implications on the mechanistic role of specific point mutations. We identify G248R and R283Q as damaging mutations involved in the recognition process of the substrate RIT1 and R412C as a possible allosteric mutation from the Kelch to the C-term BTB-domain. Our findings provide important structural insights on targeting CRL3s for drug discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "Models, Structural",
+      "Signal Transduction",
+      "*Transcription Factors",
+      "Ubiquitin",
+      "*Ubiquitin-Protein Ligases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paladino, Antonella",
+        "D'Angelo, Fulvio",
+        "Noviello, Teresa Maria Rosaria",
+        "Iavarone, Antonio",
+        "Ceccarelli, Michele"
+      ],
+      "short_names": [
+        "Paladino A",
+        "D'Angelo F",
+        "Noviello TMR",
+        "Iavarone A",
+        "Ceccarelli M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9397-1572",
+        "ORCID: 0000-0002-4940-4693",
+        "ORCID: 0000-0002-4702-6617"
+      ],
+      "affiliations": [
+        "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+        "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+        "Institute for Cancer Genetics, Columbia University, 1130 St Nicholas Ave, New York, New York 10032, United States.",
+        "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+        "Department of Electrical Engineering and Information Technology (DIETI), University of Naples \"Federico II\", Via Claudio 21, Naples 80128, Italy.",
+        "Institute for Cancer Genetics, Columbia University, 1130 St Nicholas Ave, New York, New York 10032, United States.",
+        "Department of Pathology and Cell Biology, Columbia University Medical Center, 1130 St Nicholas Ave, New York , New York 10032 United States.",
+        "Department of Neurology, Columbia University Medical Center, 1130 St Nicholas Ave, New York, New York 10032, United States.",
+        "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+        "Department of Electrical Engineering and Information Technology (DIETI), University of Naples \"Federico II\", Via Claudio 21, Naples 80128, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paladino, Antonella",
+        "short_name": "Paladino A",
+        "identifiers": [
+          "0000-0002-9397-1572"
+        ],
+        "affiliations": [
+          "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Angelo, Fulvio",
+        "short_name": "D'Angelo F",
+        "identifiers": [
+          "0000-0002-4940-4693"
+        ],
+        "affiliations": [
+          "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+          "Institute for Cancer Genetics, Columbia University, 1130 St Nicholas Ave, New York, New York 10032, United States."
+        ]
+      },
+      {
+        "full_name": "Noviello, Teresa Maria Rosaria",
+        "short_name": "Noviello TMR",
+        "identifiers": [],
+        "affiliations": [
+          "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+          "Department of Electrical Engineering and Information Technology (DIETI), University of Naples \"Federico II\", Via Claudio 21, Naples 80128, Italy."
+        ]
+      },
+      {
+        "full_name": "Iavarone, Antonio",
+        "short_name": "Iavarone A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, 1130 St Nicholas Ave, New York, New York 10032, United States.",
+          "Department of Pathology and Cell Biology, Columbia University Medical Center, 1130 St Nicholas Ave, New York , New York 10032 United States.",
+          "Department of Neurology, Columbia University Medical Center, 1130 St Nicholas Ave, New York, New York 10032, United States."
+        ]
+      },
+      {
+        "full_name": "Ceccarelli, Michele",
+        "short_name": "Ceccarelli M",
+        "identifiers": [
+          "0000-0002-4702-6617"
+        ],
+        "affiliations": [
+          "BIOGEM Istituto di Ricerche Genetiche \"G. Salvatore\", via Camporeale, Ariano Irpino 83031, Italy.",
+          "Department of Electrical Engineering and Information Technology (DIETI), University of Naples \"Federico II\", Via Claudio 21, Naples 80128, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2021 Apr 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/02 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "41436303",
+      "41121224",
+      "39857711",
+      "39352760",
+      "38338663"
+    ],
+    "refs": [
+      "33003385",
+      "32514133",
+      "32513959",
+      "32167602",
+      "32096993",
+      "32051583",
+      "31825969",
+      "31279627",
+      "30872527",
+      "30811704",
+      "30481304",
+      "30442766",
+      "30442762",
+      "30368668",
+      "29717933",
+      "29617661",
+      "28591624",
+      "28434917",
+      "28114375",
+      "28082425",
+      "28079879",
+      "27834739",
+      "27485899",
+      "27153583",
+      "26889708",
+      "26687681",
+      "25883141",
+      "25851949",
+      "25795793",
+      "24681721",
+      "24641320",
+      "24573470",
+      "24532726",
+      "24362817",
+      "23999291",
+      "23917401",
+      "23912815",
+      "23573258",
+      "23349464",
+      "23315928",
+      "23102044",
+      "22689647",
+      "22632832",
+      "21937436",
+      "20601685",
+      "20083119",
+      "20057044",
+      "19798438",
+      "19726686",
+      "17212484",
+      "17075131",
+      "16888629",
+      "16507366",
+      "16211538",
+      "16207353",
+      "15980490",
+      "15980461",
+      "15475350",
+      "14531054",
+      "11961546",
+      "9671560",
+      "8744570"
+    ],
+    "similar": [
+      "33792302",
+      "40204202",
+      "39194017",
+      "40934300",
+      "30481304",
+      "37626065",
+      "35467524",
+      "34113392",
+      "31337872",
+      "39352760",
+      "35904492",
+      "30872527",
+      "41436303",
+      "25301376",
+      "31898230",
+      "35685361",
+      "15772280",
+      "35114566",
+      "31898229",
+      "25011449",
+      "28925398",
+      "15601839",
+      "29560577",
+      "30442762",
+      "38453365",
+      "8550577",
+      "35000542",
+      "32986984",
+      "32175818",
+      "23837592",
+      "30826859",
+      "15611064",
+      "24450635",
+      "23912815",
+      "33199366",
+      "19818708",
+      "32574548",
+      "23695782",
+      "15282312",
+      "25224329",
+      "30442766",
+      "20301303",
+      "41067334",
+      "35563538",
+      "23912807",
+      "16964240",
+      "24058416",
+      "29128526",
+      "15544948",
+      "23734257",
+      "34222248",
+      "37903270",
+      "36445254",
+      "33643814",
+      "22889411",
+      "40152367",
+      "25147182",
+      "23349464",
+      "35320687",
+      "31924572",
+      "28839186",
+      "22911784",
+      "24747150",
+      "30814284",
+      "31213557",
+      "32573437",
+      "26464214",
+      "36304963",
+      "33086510",
+      "26903517",
+      "29079575",
+      "29643511",
+      "20486766",
+      "15280393",
+      "38625940",
+      "35158019",
+      "39459900",
+      "40211562",
+      "35379950",
+      "30404641",
+      "22172674",
+      "15684077",
+      "37024974",
+      "37788672",
+      "13679921",
+      "38878709",
+      "28784114",
+      "25003393",
+      "20804422",
+      "27200299",
+      "25707307",
+      "25342744",
+      "38909632",
+      "19376791",
+      "31801865",
+      "31732561",
+      "40906297",
+      "34136490",
+      "36368157",
+      "40208634"
+    ],
+    "review": [
+      "33792302",
+      "34113392",
+      "31898230",
+      "31898229",
+      "28925398",
+      "35000542",
+      "32986984",
+      "30826859",
+      "23912815",
+      "29128526",
+      "15544948",
+      "33643814",
+      "40152367",
+      "35320687",
+      "26464214",
+      "20486766",
+      "35158019",
+      "40211562",
+      "27200299",
+      "38909632",
+      "34136490"
+    ],
+    "pmc": [
+      "8154269"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jcim.1c00296",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33792302/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33792302",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33792302",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c00296",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

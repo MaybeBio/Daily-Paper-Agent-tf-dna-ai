@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and internal consistency of the claims as presented. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors report identification of eight post-translational modifications (six acetylated lysines, one phosphoserine, one phosphothreonine) on β-myosin heavy chain in nondiseased and failing human hearts. They report that acetylation at K951 is significantly reduced in both ischemic and nonischemic heart failure, and use molecular dynamics simulations to propose functional consequences for three modification sites.
+- **Visible evidence base** Mass spectrometry data (Figures 2, 3, 5, 6; Tables 1, 2), molecular dynamics simulations (Figures 7, 8, 9; Tables 3, 4), patient demographic table (Supplementary file 1), variant comparison (Supplementary file 2), and methodological descriptions in Materials and methods.
+- **Missing materials affecting confidence** Raw mass spectrometry spectra, peptide-level identification scores, localization probabilities for each PTM site, complete statistical outputs, simulation convergence metrics, force field parameter validation details, and full patient clinical data. The deposited Dryad dataset was not accessible for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive proteomic survey of PTMs on β-MHC in human hearts, with a limited set of molecular dynamics simulations. The identification of eight PTM sites is potentially useful, but the study is largely observational. The central claim that PTM patterns are "altered" in heart failure rests primarily on a single site (K951-Ac) with a modest effect size. The functional inferences drawn from MD simulations are speculative and not experimentally validated. The manuscript would benefit from a more rigorous quantitative framework and clearer distinction between identified, quantified, and functionally interpreted sites.
+- **Who would be interested in the results, and why** Researchers in cardiac sarcomere biology, myosin biophysics, and proteomics of heart failure. The PTM site inventory may be of interest to those studying MYH7 post-translational regulation and to computational biologists modeling myosin thick filament behavior. Clinically oriented readers may find the heart failure comparison relevant, though the translational implications are not developed.
+- **Major strengths** The study addresses an under-explored area, namely PTMs on the predominant human cardiac myosin isoform. The use of human tissue samples spanning nondiseased and two heart failure etiologies is a strength. The combination of mass spectrometry with MD simulations is a reasonable exploratory approach. The authors are appropriately cautious in some interpretations, acknowledging that simulations cannot directly assess functional outcomes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The abstract and results state that "K951-Ac was significantly reduced in both ischemic and nonischemic failing hearts compared to nondiseased hearts," and the discussion builds a functional narrative around this reduction.
+  - **Evidence pointer** Figure 5, Results section "Normalized peak areas of the PTM sites"
+  - **Concern** The quantitative basis for the K951-Ac claim is not fully transparent. The authors report ratios of modified peptide to an internal reference peptide, but do not provide the number of biological replicates per group, the variance within groups, the statistical test used, or the effect size. The figure shows individual data points, but the statistical comparison is not described in the text or figure legend. Without this information, the robustness of the "significant" reduction cannot be assessed.
+  - **Why it matters** The entire disease-related narrative of the paper depends on this single quantitative comparison. If the statistical basis is weak, the central claim is not established.
+  - **Resolution test** Provide the number of replicates per group, the statistical test and its output (test statistic, degrees of freedom, p-value), and a measure of effect size. If the comparison is underpowered, the claim should be softened or the analysis expanded.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional inference from simulations
+  - **Claim pointer** The discussion states that K951-Ac "disrupts the native structure of the coiled-coil and increases flexibility within the tail" and that this "may be associated with declining myocardial function."
+  - **Evidence pointer** Figure 7, Results section "Lysine 951", Discussion section "Lysine 951"
+  - **Concern** The MD simulations were performed on a truncated S2 fragment (residues 838–963) in implicit solvent, and the authors report increased Cα RMSD and altered interhelical distance. However, no quantitative metrics of simulation convergence, no comparison of force field effects, and no error estimates across replicate simulations are provided. The leap from "increased flexibility in a fragment" to "declining myocardial function" is a large inferential jump that is not supported by the data presented.
+  - **Why it matters** The functional significance of the PTMs is a major part of the paper's stated contribution. If the simulation evidence is not robust, the functional claims are not supported.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD vs time plots, block averaging), report the range of values across replicates, and temper the functional language to match the level of evidence. Ideally, include an experimental test of the predicted functional effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** PTM site validation
+  - **Claim pointer** The authors report eight PTM sites as "high-confidence" identifications.
+  - **Evidence pointer** Figures 2 and 3, Tables 1 and 2, Results section "Identification and location of PTMs on human cardiac β-MHC"
+  - **Concern** The criteria for "high-confidence" are not fully described. The authors mention ptmRS scoring in Proteome Discoverer, but do not report localization probabilities for each site, the false discovery rate threshold used, or whether sites were validated by manual spectral inspection. The K213-Ac/T215-P doubly modified peptide is described as having an isotope dot product below 0.5, which is typically considered low quality, yet it is still reported.
+  - **Why it matters** PTM identifications from bottom-up proteomics are prone to false positives, especially for low-abundance modifications. Without clear validation criteria, the reliability of the site inventory is uncertain.
+  - **Resolution test** Report localization probabilities for each site, the FDR threshold, and the number of spectral matches per peptide. For the doubly modified peptide, either provide additional validation or clearly label it as tentative.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The title and abstract imply that PTM patterns are altered in ischemic and nonischemic human hearts generally.
+  - **Evidence pointer** Supplementary file 1, Results section "Human heart data bank"
+  - **Concern** The sample size appears small (the demographics table lists a limited number of patients), and the groups are not matched for age, sex, or medication use. Heart failure patients are typically on multiple medications that could affect PTM levels. The authors do not discuss these confounders.
+  - **Why it matters** The claim of "altered patterns" in heart failure requires that observed differences are attributable to the disease state rather than to confounders.
+  - **Resolution test** Acknowledge the sample size and confounding limitations explicitly. If possible, include a sensitivity analysis or at least a discussion of how medications or comorbidities might affect the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Statistical methods
+  - **Evidence pointer** Materials and methods, "Statistical analysis"
+  - **Issue** The statistical analysis section states that "one-way ANOVA, followed by Bonferroni's post hoc test and Student's t-test" were used, but it is not clear which test was applied to which comparison.
+  - **Required correction** Specify which test was used for the K951-Ac comparison and for any other group comparisons.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The figure legend does not describe the statistical comparisons shown, the number of replicates, or the meaning of error bars.
+  - **Required correction** Expand the figure legend to include all necessary information for independent interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion, "Lysine 58"
+  - **Evidence pointer** Discussion section "Lysine 58"
+  - **Issue** The phrase "markedly reduced" is used for K58-Ac in ischemic hearts, but the data in Figure 5 do not appear to show a statistically significant difference for this site.
+  - **Required correction** Use language consistent with the statistical results, or clarify whether "markedly" refers to a non-significant trend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation parameters
+  - **Evidence pointer** Materials and methods, "Force field and explicit solvent molecular mechanics"
+  - **Issue** The methods describe the force field and solvent model but do not report the temperature coupling method, pressure coupling (for NPT steps), or the barostat parameters.
+  - **Required correction** Add the missing simulation parameters to allow reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The Dryad deposition is mentioned, but the specific files and their contents are not described.
+  - **Required correction** Provide a brief description of the deposited files and their format.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical basis for the central claim), R1-M2 (robustness of MD simulation evidence), R1-M3 (PTM site validation criteria). These need to be addressed before the case for altered PTM patterns with functional consequences is established.
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of PTMs on human β-MHC is a useful contribution, but the approach is not methodologically novel. Scientific importance: Moderate. The findings are potentially relevant to understanding myosin regulation in heart failure, but the functional significance is not demonstrated. Interdisciplinary readership: Limited. The work will primarily interest cardiac muscle biologists and proteomics specialists. Technical soundness: The mass spectrometry workflow is standard, but the quantitative analysis and simulation validation are incomplete. Readability for nonspecialists: The introduction and discussion are accessible, but the results section assumes familiarity with myosin domain nomenclature and MD simulation terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The descriptive PTM inventory is a reasonable starting point, but the central quantitative claim requires stronger statistical support, and the functional interpretations require either more robust simulations or experimental validation. The manuscript could become suitable for publication after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that K951-Ac is "significantly reduced" in both heart failure groups is not fully supported by the presented statistical information.
+- The claim that K951-Ac "may impact stability of thick filament tail interactions and ultimately myosin head positioning" is speculative and not directly tested.
+- The claim that K58-Ac "impedes binding of the SH3 domain to its targets" is inferred from simulations without experimental binding data.
+- The claim that K213-Ac/T215-P "altered loop 1's structure and dynamics" is based on simulations of a homology-built region and lacks experimental validation.
+- The statement that "acetylation levels may be influenced more by the PTM location than the type of heart disease" is an interpretation that goes beyond the data, as only one site showed a significant difference.
+- The functional extrapolations in the discussion regarding "declining myocardial function" and "fine-tuning" are not supported by direct functional measurements.

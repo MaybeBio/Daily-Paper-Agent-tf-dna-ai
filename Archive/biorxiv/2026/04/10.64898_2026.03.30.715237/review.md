@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present BALM-PPI, a sequence-only framework for predicting protein–protein binding affinity. It fine-tunes a protein language model (updating fewer than 1% of parameters), projects both proteins into a shared representational space, and uses their distance to reflect binding strength. Claims include: accuracy matching or exceeding structure-based methods on a benchmark of over 12,000 complexes; retained predictive power for proteins with less than 30% sequence identity to the training set; outperformance of a recent method trained on three times the data using only a subset of project-specific assay data; and residue-level attribution maps that recover experimentally validated interaction hotspots across multiple systems without structural input during training. A web server is stated to be freely accessible.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, baseline comparisons, statistical analyses, or validation protocols are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark construction details, training and evaluation splits, baseline definitions, statistical significance tests, attribution map methodology, web server URL and functionality, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to sequence-only binding affinity prediction, with a parameter-efficient fine-tuning strategy and an interpretability component. However, the claims as stated are broad and cannot be evaluated without the underlying methods and quantitative results. The central novelty relative to existing sequence-based affinity predictors is not clearly established, and several claims (e.g., matching structure-based methods, outperforming a recent method with less data) require careful benchmarking and statistical validation that are not visible in the abstract. The interpretability claim is compelling but needs methodological detail to assess whether the attribution maps are genuinely informative or merely correlational.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein interaction prediction; structural biologists interested in sequence-based alternatives to structure-dependent methods; antibody and protein engineering researchers seeking rapid affinity screening tools; and method developers in the protein language model community. The interpretability component may also appeal to experimentalists who need mechanistic hypotheses for mutagenesis prioritisation.
+- **Major strengths** The parameter-efficient fine-tuning strategy (fewer than 1% of parameters) is a practical and potentially impactful design choice. The sequence-only approach addresses a genuine bottleneck in the field, as structural data are unavailable for many clinically relevant targets. The emphasis on interpretability through residue-level attribution maps is a valuable addition that could bridge computational prediction and experimental validation. The claim of retained performance at low sequence identity, if substantiated, would indicate generalisation beyond trivial homology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BALM-PPI matches or exceeds the accuracy of structure-based methods" on a benchmark of over 12,000 complexes
+  - **Evidence pointer** Abstract only; no benchmark details, metrics, or baseline definitions provided
+  - **Concern** The abstract states that BALM-PPI matches or exceeds structure-based methods, but no specific metrics, benchmark composition, or comparison protocols are given. Structure-based methods vary widely in their inputs, training data, and evaluation standards, and "matching or exceeding" is not a precise claim without defined error measures (e.g., Pearson correlation, RMSE, or classification accuracy) and statistical significance testing.
+  - **Why it matters** This is the central performance claim of the work. If the comparison is not apples-to-apples (e.g., different test sets, different affinity units, or different complex types), the claim could be misleading. The field has seen inflated claims from benchmark leakage or inconsistent evaluation, and the abstract does not allow the reader to assess this risk.
+  - **Resolution test** Provide the full benchmark description, including complex types, affinity ranges, train/test splits (especially sequence identity thresholds), the specific structure-based baselines used, and the exact metrics with confidence intervals or significance tests. Show that the comparison is fair, e.g., that structure-based methods were not disadvantaged by missing structural inputs for the same test complexes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BALM-PPI outperforms a recent method trained on three times the data, suggesting that the model has already encoded the underlying interaction signals and requires only minimal supervision to specialise to a new target"
+  - **Evidence pointer** Abstract only; the "recent method" is not named, and the data subset size is not specified
+  - **Concern** This claim is vague. The identity of the comparator method, the nature of the "project-specific assay data" subset, and the evaluation metric are all unspecified. Without knowing the baseline method's architecture, training data, and evaluation setup, the claim of outperformance with less data cannot be interpreted. The inference that the model "has already encoded the underlying interaction signals" is a strong mechanistic statement that is not directly supported by a performance comparison.
+  - **Why it matters** This claim is used to argue for the model's efficiency and pre-existing knowledge. If the comparator method is weak or the evaluation is narrow, the claim loses significance. Conversely, if the comparison is robust, it would be a notable result, but the abstract does not provide enough detail to judge.
+  - **Resolution test** Name the comparator method, specify the exact data subset size and composition, describe the evaluation protocol, and report the performance difference with appropriate statistical testing. Clarify what "outperforms" means in terms of the chosen metric and whether the result is consistent across multiple test sets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The overall framing implies a novel contribution in sequence-only affinity prediction with interpretability
+  - **Evidence pointer** Abstract only; no related work discussion or comparison to existing sequence-based methods
+  - **Concern** The abstract does not situate BALM-PPI within the existing literature on sequence-based affinity prediction. Several methods already predict binding affinity from sequence, and protein language models have been applied to related tasks. The specific novelty of the shared representational space and the distance-based affinity readout needs to be articulated against prior work. Without this, the originality claim is not assessable.
+  - **Why it matters** For a Nature-style audience, the incremental advance over existing methods must be clear. If similar approaches have been published, the contribution may be marginal; if not, the authors should state what is genuinely new.
+  - **Resolution test** In the full manuscript, provide a systematic comparison to prior sequence-based affinity predictors, including those using language models or other embeddings. Clearly state the architectural and methodological differences and demonstrate where BALM-PPI improves upon the state of the art.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BALM-PPI further provides residue-level attribution maps that pinpoint the amino acid positions driving each affinity prediction, consistently recovering experimentally validated interaction hotspots"
+  - **Evidence pointer** Abstract only; no methodology for attribution or validation details provided
+  - **Concern** The attribution map claim is potentially the most interesting aspect, but the abstract gives no information on how the maps are generated (e.g., gradient-based, attention-based, or perturbation-based), how "consistently" is quantified, or how the experimental hotspots were defined and curated. The absence of structural input during training is noted, but the validation against structural evidence needs a clear protocol to avoid circularity or selection bias.
+  - **Why it matters** Interpretability claims are often overstated. If the attribution maps merely correlate with sequence features that are indirectly related to binding, the claim of recovering "interaction hotspots" could be misleading. The validation must be rigorous and independent.
+  - **Resolution test** Describe the attribution method in detail, specify the number of complexes and hotspot annotations used for validation, report quantitative agreement metrics (e.g., precision, recall, or enrichment), and show that the maps are not trivially explained by sequence conservation or other confounds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract opens with broad statements about the importance of protein interactions, which is appropriate, but the transition to the method is abrupt. The phrase "projected into a shared representational space, where their distance directly reflects binding strength" is not fully explained; a nonspecialist may not understand what "distance" means in this context.
+  - **Required correction** Briefly clarify what type of distance is used (e.g., Euclidean distance in embedding space) and how it is calibrated to binding affinity, or rephrase to be more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, "curated benchmark of over 12,000 protein complexes"
+  - **Issue** The benchmark is described as "curated," but no details are given on the curation criteria, the source databases, or the range of affinities and complex types. This makes it difficult to assess the generalisability of the results.
+  - **Required correction** In the full manuscript, describe the benchmark construction, including data sources, filtering criteria, affinity measurement types, and any redundancy reduction steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Web server claim
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The web server is stated to be freely accessible, but no URL is provided in the abstract. For a broad readership, this is a practical omission.
+  - **Required correction** Include the URL or state that it will be provided in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fine-tuning claim
+  - **Evidence pointer** Abstract, "updating fewer than 1% of its parameters"
+  - **Issue** The claim of updating fewer than 1% of parameters is stated without context. It is unclear whether this refers to the full model or a subset, and whether this is a deliberate design choice or a constraint. The phrase "targeted adaptation steers the model toward interface-relevant sequence signals" is a mechanistic claim that is not directly evidenced.
+  - **Required correction** Clarify which parameters are updated and provide evidence (e.g., ablation studies) that the fine-tuning strategy specifically enhances interface-relevant learning rather than general sequence features.
+
+## Risk / unsupported claims
+- The claim that BALM-PPI "matches or exceeds the accuracy of structure-based methods" is unsupported in the abstract due to the absence of quantitative metrics, baseline definitions, and statistical testing.
+- The claim that BALM-PPI "outperforms a recent method trained on three times the data" is unsupported because the comparator method, data subset, and evaluation protocol are not specified.
+- The claim that fine-tuning "steers the model toward interface-relevant sequence signals rather than spurious background correlations" is a mechanistic assertion with no supporting evidence in the abstract.
+- The claim that attribution maps "consistently recover experimentally validated interaction hotspots" is unsupported without a description of the attribution methodology and validation protocol.
+- The claim that the model "has already encoded the underlying interaction signals" is an inference from a performance comparison and is not directly testable from the abstract.
+- The generalisability claim for proteins with less than 30% sequence identity is not evaluable without details on how this was measured and what performance threshold was met.

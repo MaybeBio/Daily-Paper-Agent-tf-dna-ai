@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41534756",
+    "doi": "10.1016/j.jep.2026.121200",
+    "title": "Calycosin ameliorates high-altitude pulmonary edema by regulating macrophage polarization through the PPAR-gamma/NF-kappaB pathway: a comprehensive analysis of network pharmacology, molecular docking, and experimental validation."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: The rapid ascent to high-altitude regions poses a substantial risk for the development of high-altitude pulmonary edema (HAPE), a serious condition characterized by non-cardiogenic pulmonary edema and associated acute pulmonary hypertension. Calycosin, a flavonoid compound derived from Astragalus mongholicus Bunge, has documented antioxidant and anti-inflammatory properties; however, its protective role and mechanistic actions against HAPE have not been fully elucidated. AIM OF THE STUDY: This study aimed to investigate the prophylactic benefits of calycosin against HAPE and to delineate its underlying mechanism, with a focus on macrophage polarization via the PPAR-gamma/NF-kappaB signaling axis. MATERIALS AND METHODS: Rats were allocated into six groups (n = 6) and administered corn oil (vehicle), calycosin (20 and 40 mg/kg), or dexamethasone (4 mg/kg) before exposure to a hypobaric chamber simulating 6000 m altitude. The protective effects of calycosin were assessed through comprehensive evaluations, including hemodynamic measurements, arterial blood gas analysis, lung wet/dry weight ratio, histopathological assessment, and quantification of inflammatory cytokines and oxidative stress parameters. To investigate the underlying mechanism, potential therapeutic targets of calycosin related to HAPE were identified using multiple drug and disease databases (DrugBank, SwissTargetPrediction, GeneCards, OMIM). Core targets were prioritized through PPI network construction, functional enrichment (GO and KEGG), and molecular docking. The predicted interaction was further assessed by molecular dynamics simulations. Key findings from the bioinformatic analysis were subsequently validated in vivo and in vitro (via a PPAR-gamma-knockdown cell model) by immunofluorescence and Western blot analysis. RESULTS: Calycosin administration alleviated hypoxia-induced impairments in pulmonary hemodynamics, right ventricular stress (as reflected by BNP levels), lung edema, and tissue injury. It also rebalanced pro- and anti-inflammatory cytokine levels (TNF-alpha, IL-6; TGF-beta, IL-10) and reduced oxidative stress (evidenced by HIF-1alpha and MDA suppression, and GSH-Px restoration). Bioinformatics analysis identified 16 common targets, with TNF, PPARG, EGFR, and ESR1 as core genes. Enrichment outcomes highlighted immunomodulation and nuclear receptor signaling as key mechanisms. Molecular docking indicated a high-affinity interaction between calycosin and PPAR-gamma (binding energy: 8.8 kcal/mol), the stability of which was further confirmed by molecular dynamics simulations. Experimental validation confirmed that calycosin enhanced PPAR-gamma expression, impeded NF-kappaB p65 nuclear translocation, and facilitated a shift in macrophage polarization from the M1 to the M2 phenotype. CONCLUSION: Calycosin demonstrates protective effects against HAPE, significantly ameliorating the pathophysiological process including the associated acute pulmonary hypertension. The underlying mechanism is mediated through the upregulation of PPAR-gamma, subsequent inhibition of NF-kappaB signaling, and reprogramming of macrophage polarization. These findings nominate calycosin as a prospective natural candidate for preventing HAPE.",
+    "keywords": [
+      "Acute pulmonary hypertension",
+      "Calycosin",
+      "High-altitude pulmonary edema",
+      "Macrophage polarization",
+      "Network pharmacology",
+      "PPAR-gamma/NF-kappaB pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Isoflavones/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "*PPAR gamma/metabolism",
+      "*NF-kappa B/metabolism",
+      "*Altitude Sickness/drug therapy/metabolism",
+      "Male",
+      "Network Pharmacology",
+      "*Macrophages/drug effects/metabolism",
+      "Signal Transduction/drug effects",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "*Hypertension, Pulmonary/drug therapy/metabolism",
+      "*Anti-Inflammatory Agents/pharmacology",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qian",
+        "Jia, Nan",
+        "Zhang, Xiu",
+        "Liu, Junling",
+        "Shen, Zherui",
+        "Chen, Chen",
+        "Pei, Caixia",
+        "Wang, Yilan",
+        "He, Yacong",
+        "Zhao, Yuan",
+        "Wang, Fei",
+        "Wang, Zhenxing"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Jia N",
+        "Zhang X",
+        "Liu J",
+        "Shen Z",
+        "Chen C",
+        "Pei C",
+        "Wang Y",
+        "He Y",
+        "Zhao Y",
+        "Wang F",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: chenqian1627@stu.cdutcm.edu.cn.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: jianan0103@stu.cdutcm.edu.cn.",
+        "Pneumology Department, Qujing Hospital of Traditional Chinese Medicine, Qujing, China. Electronic address: 15974586243@163.com.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: liujunling@stu.cdutcm.edu.cn.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: shenzherui@stu.cdutcm.edu.cn.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: chenchen1@stu.cdutcm.edu.cn.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: peicaixia1@stu.cdutcm.edu.cn.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangyilan@stu.cdutcm.edu.cn.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: heyacong@cdutcm.edu.cn.",
+        "Classical Chinese Medicine Outpatient Department, Traditional Chinese Medicine Hospital of Meishan, Meishan, China. Electronic address: 475835610@qq.com.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangfei896@163.com.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangzhenxing@cdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qian",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: chenqian1627@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jia, Nan",
+        "short_name": "Jia N",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: jianan0103@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Pneumology Department, Qujing Hospital of Traditional Chinese Medicine, Qujing, China. Electronic address: 15974586243@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Junling",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: liujunling@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Zherui",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: shenzherui@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: chenchen1@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pei, Caixia",
+        "short_name": "Pei C",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: peicaixia1@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yilan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangyilan@stu.cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Yacong",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: heyacong@cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Classical Chinese Medicine Outpatient Department, Traditional Chinese Medicine Hospital of Meishan, Meishan, China. Electronic address: 475835610@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangfei896@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenxing",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. Electronic address: wangzhenxing@cdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 Apr 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "42693824",
+      "42182585"
+    ],
+    "refs": [],
+    "similar": [
+      "41534756",
+      "40499803",
+      "42052827",
+      "41404598",
+      "41795298",
+      "40805991",
+      "41974235",
+      "39490433",
+      "40850661",
+      "40133026",
+      "40889599",
+      "37100262",
+      "40865347",
+      "42107750",
+      "33444723",
+      "41724289",
+      "42173417",
+      "38588987",
+      "39222242",
+      "42019124",
+      "41265260",
+      "40912485",
+      "41814794",
+      "40049341",
+      "38692075",
+      "41416141",
+      "37776644",
+      "39307910",
+      "39879705",
+      "42302947",
+      "42208328",
+      "39922147",
+      "40109471",
+      "41033424",
+      "40684492",
+      "41489113",
+      "36209953",
+      "42108770",
+      "39369919",
+      "33857805",
+      "40553825",
+      "39006190",
+      "40330488",
+      "39488873",
+      "38851471",
+      "41655547",
+      "40274031",
+      "41930813",
+      "40133025",
+      "40120539",
+      "41314044",
+      "38688144",
+      "39075002",
+      "41512388",
+      "42134512",
+      "41296034",
+      "39940878",
+      "41126001",
+      "39374881",
+      "40816499",
+      "34243609",
+      "40737847",
+      "37812891",
+      "32128893",
+      "36624435",
+      "38104880",
+      "37454750",
+      "42197115",
+      "39999939",
+      "38696100",
+      "38621947",
+      "40860883",
+      "41031496",
+      "39447411",
+      "41963750",
+      "40682227",
+      "39128305",
+      "41802508",
+      "38228230",
+      "40858660",
+      "40884939",
+      "41151450",
+      "41619865",
+      "40164657",
+      "32512011",
+      "41924773",
+      "40020626",
+      "41641273",
+      "41791616",
+      "39427735",
+      "40172736",
+      "42011617",
+      "37400007",
+      "38788361",
+      "40273561",
+      "41794256",
+      "38697555",
+      "40676786",
+      "42237631",
+      "41508081"
+    ],
+    "review": [
+      "41534756"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(26)00051-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pulmonaryhypertension.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Hypertension"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

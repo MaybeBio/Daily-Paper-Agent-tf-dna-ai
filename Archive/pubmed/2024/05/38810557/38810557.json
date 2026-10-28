@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "38810557",
+    "doi": "10.1016/j.phymed.2024.155735",
+    "title": "Securinine inhibits carcinogenesis in gastric cancer by targeting AURKA-beta-catenin/Akt/STAT3 and the cell cycle pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is difficult to treat with currently available treatments. Securinine (SCR) has a lengthy history of use in the treatment of disorders of the nervous system, and its anticancer potential has been gaining attention in recent years. The aim of this study was to explore the repressive effect of SCR on GC and its fundamental mechanism. METHODS: The efficacy of SCR in GC cells was detected by MTT assays. Colony formation, flow cytometry and Transwell assays were used to assess the changes in the proliferation, apoptosis, cell cycle distribution, migration and invasion of GC cells after treatment. AGS (human gastric carcinoma cell)-derived xenografts were used to observe the effect of SCR on tumor growth in vivo. The molecular mechanism of action of SCR in GC was explored via RNA sequencing, bioinformatics analysis, Western blotting, molecular docking, and immunohistochemistry. RESULTS: SCR was first discovered to inhibit the proliferation, migration, and invasion of GC cells while initiating apoptosis and cell cycle arrest in vitro. It was also established that SCR has excellent anticancer effects in vivo. Interestingly, AURKA acts as a crucial target of SCR, and AURKA expression can be blocked by SCR. Moreover, this study revealed that SCR suppresses the cell cycle and the beta-catenin/Akt/STAT3 pathways, which were previously reported to be regulated by AURKA. CONCLUSION: SCR exerts a notable anticancer effect on GC by targeting AURKA and blocking the cell cycle and beta-catenin/Akt/STAT3 pathway. Thus, SCR is a promising pharmacological option for the treatment of GC.",
+    "keywords": [
+      "AURKA",
+      "Cell cycle",
+      "Gastric cancer",
+      "Securinine",
+      "beta-catenin/Akt/STAT3 signaling pathway"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/drug therapy",
+      "Humans",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Aurora Kinase A/metabolism",
+      "Cell Line, Tumor",
+      "Animals",
+      "*beta Catenin/metabolism",
+      "*Azepines/pharmacology",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Heterocyclic Compounds, Bridged-Ring/pharmacology",
+      "Apoptosis/drug effects",
+      "Cell Proliferation/drug effects",
+      "Cell Movement/drug effects",
+      "Mice, Nude",
+      "Dioxolanes/pharmacology",
+      "Mice, Inbred BALB C",
+      "Mice",
+      "Antineoplastic Agents, Phytogenic/pharmacology",
+      "Cell Cycle/drug effects",
+      "Signal Transduction/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Carcinogenesis/drug effects",
+      "Molecular Docking Simulation",
+      "Lactones",
+      "Piperidines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Caixia",
+        "Wang, Yun",
+        "Kong, Luke",
+        "Guo, Jianghong",
+        "Chen, Xiaoxia",
+        "Guo, Fengtao",
+        "Dong, Zhuanxia",
+        "Li, Zhiyuan",
+        "Yang, Xihua",
+        "Yang, Mudan",
+        "Yang, Wenhui",
+        "Li, Feng",
+        "Zhang, Huanhu"
+      ],
+      "short_names": [
+        "Lv C",
+        "Wang Y",
+        "Kong L",
+        "Guo J",
+        "Chen X",
+        "Guo F",
+        "Dong Z",
+        "Li Z",
+        "Yang X",
+        "Yang M",
+        "Yang W",
+        "Li F",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China.",
+        "The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Orthopedics, The Second People's Hospital of Changzhi, Changzhi, PR China.",
+        "Basic Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Medical Laboratory, Jincheng People's Hospital, Jincheng, PR China.",
+        "The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Pathology, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China.",
+        "Department of Medicine, Shanxi Renan Hospital, Taiyuan, PR China.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China.",
+        "Laboratory Animal Center, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China. Electronic address: yangwenhui-10012@sxmu.edu.cn.",
+        "Central Laboratory, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China. Electronic address: lifeng2@sxmu.edu.cn.",
+        "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; Shanxi University of Chinese Medicine, Jin Zhong, PR China. Electronic address: zhanghh@sxtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Caixia",
+        "short_name": "Lv C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yun",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Orthopedics, The Second People's Hospital of Changzhi, Changzhi, PR China."
+        ]
+      },
+      {
+        "full_name": "Kong, Luke",
+        "short_name": "Kong L",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Medical Laboratory, Jincheng People's Hospital, Jincheng, PR China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jianghong",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China; Department of Pathology, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoxia",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Shanxi Renan Hospital, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Guo, Fengtao",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Dong, Zhuanxia",
+        "short_name": "Dong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhiyuan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; The Second Clinical Medical College, Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xihua",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Animal Center, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mudan",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenhui",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China. Electronic address: yangwenhui-10012@sxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Feng",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, PR China. Electronic address: lifeng2@sxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huanhu",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Cancer Hospital Affiliated to Shanxi Medical University/Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences, Taiyuan, PR China; Shanxi University of Chinese Medicine, Jin Zhong, PR China. Electronic address: zhanghh@sxtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Jul 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/30 05:44",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "42445397",
+      "41288840",
+      "41158238",
+      "40722126",
+      "40718709",
+      "40553397",
+      "40202138",
+      "40115916",
+      "40022544",
+      "39609491"
+    ],
+    "refs": [],
+    "similar": [
+      "38810557",
+      "30975734",
+      "38518635",
+      "25609923",
+      "24676995",
+      "31351435",
+      "30922391",
+      "38484850",
+      "30678274",
+      "27121204",
+      "27777067",
+      "24716413",
+      "33154629",
+      "34614446",
+      "32004989",
+      "26191214",
+      "30138920",
+      "34176092",
+      "32113150",
+      "38830298",
+      "33372687",
+      "32576206",
+      "34968467",
+      "26109806",
+      "33524509",
+      "38520835",
+      "26487802",
+      "28779263",
+      "30831484",
+      "32504672",
+      "28893318",
+      "25624750",
+      "29339720",
+      "21907765",
+      "22203730",
+      "27792748",
+      "27569081",
+      "32319595",
+      "29273006",
+      "33549581",
+      "33382670",
+      "34954267",
+      "24297051",
+      "25945460",
+      "38705430",
+      "39214271",
+      "20969832",
+      "37718528",
+      "34565287",
+      "31257936",
+      "31085375",
+      "23993973",
+      "27731799",
+      "33310309",
+      "27122665",
+      "31118579",
+      "33347858",
+      "26855187",
+      "23800091",
+      "34997858",
+      "39249161",
+      "31014051",
+      "32106377",
+      "29363722",
+      "29902801",
+      "30896826",
+      "28670110",
+      "29915371",
+      "22246223",
+      "30257368",
+      "27288917",
+      "31102118",
+      "32679149",
+      "32631394",
+      "31322207",
+      "31541681",
+      "36604355",
+      "31918283",
+      "30717785",
+      "28241766",
+      "32106366",
+      "34687144",
+      "33744595",
+      "35979263",
+      "30961685",
+      "24387290",
+      "29047106",
+      "39214017",
+      "30273298",
+      "23334327",
+      "27356739",
+      "33132637",
+      "27259268",
+      "29673455",
+      "31004883",
+      "24240108",
+      "34880385",
+      "30429232",
+      "32669950",
+      "26684358",
+      "38581123",
+      "28374157",
+      "38997271",
+      "34116191",
+      "32276266",
+      "34453028",
+      "31283543",
+      "38994036",
+      "38561613",
+      "37957853",
+      "38879737",
+      "39152152",
+      "38669968",
+      "39265444",
+      "38970916",
+      "39193700",
+      "39071813",
+      "39106908",
+      "39021302",
+      "39029829",
+      "38876258",
+      "38783101",
+      "38824966",
+      "39135042",
+      "38869064",
+      "36144560",
+      "39363579",
+      "39369581",
+      "39403326"
+    ],
+    "review": [
+      "38810557",
+      "36144560"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00394-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

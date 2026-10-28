@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors state that they combined single-cell multiome sequencing, biophysical modeling, and deep learning to quantify mRNA transcription, splicing, nuclear export, and degradation rates across the cell cycle. They report that transcriptional and post-transcriptional processes show distinct oscillatory waves at specific cell cycle phases, that post-transcriptional regulation substantially shapes mRNA accumulation, and that dynamic chromatin accessibility and transcription factor binding footprints reveal key regulators. They conclude that their approach provides a high-resolution map of RNA metabolism and chromatin accessibility dynamics in proliferating cells.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, statistical details, model validation procedures, data availability statement, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable integration of single-cell multiomics with biophysical modeling and deep learning to dissect cell-cycle-coupled mRNA metabolism. The conceptual framing is strong, and the claim that post-transcriptional regulation plays a prominent role is interesting. However, the abstract alone provides no quantitative results, no validation of the modeling approach, no description of the deep learning architecture or training strategy, and no statistical support for the oscillatory claims. The core conclusions are therefore not assessable from the supplied material. The work may be of interest to a specialized audience in gene regulation and computational biology, but the evidence base is insufficient to evaluate technical soundness or the strength of the claims.
+- **Who would be interested in the results, and why** Researchers studying cell cycle regulation, mRNA metabolism, transcriptional and post-transcriptional control, single-cell genomics, and computational modeling of gene expression dynamics. The integration of multiome data with kinetic modeling could appeal to those interested in quantitative biology and regulatory network inference.
+- **Major strengths** The combination of single-cell multiome data with biophysical modeling and deep learning is a novel and integrative approach. The focus on post-transcriptional regulation as a shaping force of mRNA accumulation is a timely and important angle. The stated goal of producing a high-resolution temporal map of RNA metabolism is conceptually compelling.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have quantified rates of mRNA transcription, splicing, nuclear export, and degradation using a combination of single-cell multiome sequencing, biophysical modeling, and deep learning.
+  - **Evidence pointer** Abstract only; no methods or validation details provided
+  - **Concern** The abstract provides no description of the biophysical model, the deep learning architecture, the training data, the loss functions, or the validation strategy. Without these details, it is impossible to assess whether the inferred rates are identifiable, unbiased, or generalizable. The claim of quantification is central to the entire manuscript, yet no evidence of accuracy or uncertainty is presented.
+  - **Why it matters** If the rates are not reliably estimated, all downstream conclusions about oscillatory dynamics and post-transcriptional regulation are compromised. The technical approach is the foundation of the paper, and its soundness cannot be evaluated from the abstract.
+  - **Resolution test** Provide a detailed methods section with model equations, parameter estimation procedures, identifiability analysis, validation against independent measurements or simulations, and uncertainty quantification. Show that inferred rates recover known cell-cycle dynamics in control datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that transcriptional and post-transcriptional processes exhibit distinct oscillatory waves at specific cell cycle phases, and that post-transcriptional regulation plays a prominent role in shaping mRNA accumulation.
+  - **Evidence pointer** Abstract only; no figures or statistical tests provided
+  - **Concern** No statistical evidence is presented for the existence, phase, amplitude, or significance of the oscillatory waves. The claim of "distinct oscillatory waves" and the relative contribution of post-transcriptional regulation are not supported by any quantitative comparison, effect size, or confidence interval.
+  - **Why it matters** Oscillatory behavior in noisy single-cell data can arise from technical artifacts, batch effects, or modeling assumptions. Without rigorous statistical testing, the central biological claims are not established.
+  - **Resolution test** Provide statistical analyses showing that the observed oscillations are significant relative to null models, that phase differences between processes are reproducible across replicates, and that the contribution of post-transcriptional regulation is quantified with appropriate uncertainty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors claim to have identified key regulators underlying the oscillatory dynamics of mRNA through chromatin accessibility and transcription factor binding footprint analysis.
+  - **Evidence pointer** Abstract only; no data or code availability statement provided
+  - **Concern** No information is given about data access, code availability, or computational reproducibility. The deep learning and modeling components require code and trained models to be reproducible. The identification of "key regulators" is presented without any supporting evidence of functional validation or statistical enrichment.
+  - **Why it matters** Reproducibility is a core requirement for computational and multiomics studies. Without data and code, the results cannot be independently verified, and the regulator claims remain unsupported.
+  - **Resolution test** Provide a data availability statement with accession numbers, a code repository with versioned scripts and model weights, and a description of the regulator identification criteria including statistical thresholds and validation steps.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "precise temporal expression of thousands of cell-cycle-dependent genes" is vague and does not specify the organism, cell type, or experimental context.
+  - **Required correction** Specify the cell system and experimental conditions in the abstract to contextualize the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Biophysical modeling"
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The term "biophysical modeling" is broad and could refer to kinetic models, stochastic simulations, or mechanistic ODEs. The abstract does not clarify the model class.
+  - **Required correction** Briefly specify the type of model used, for example "kinetic modeling of RNA life cycle" or "stochastic differential equation modeling."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** "High-resolution map"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim of a "high-resolution map" is not defined in terms of temporal resolution, number of genes, or cell cycle phase coverage.
+  - **Required correction** Quantify the resolution and coverage, for example "at 20 cell cycle phase bins across 12,000 genes."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methods, validation, statistical evidence, and data availability means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The integration of single-cell multiome with kinetic modeling and deep learning is conceptually original, but the abstract does not demonstrate novelty beyond the combination of existing tools.
+  - Scientific importance: The question of cell-cycle-coupled mRNA metabolism is important, and the potential to separate transcriptional from post-transcriptional contributions is valuable. However, the importance is asserted rather than demonstrated.
+  - Interdisciplinary readership: The work bridges single-cell genomics, computational biology, and cell cycle biology, which could attract a broad readership if the methods are clearly presented.
+  - Technical soundness: Not assessable from the abstract. The modeling and deep learning components require detailed methods and validation.
+  - Readability for nonspecialists: The abstract is generally readable but uses technical terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of methods, results, and statistical support prevents any assessment of validity. A full manuscript with detailed methods, validation, and data availability would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The quantification of mRNA transcription, splicing, nuclear export, and degradation rates is unsupported without methods and validation.
+- The existence of distinct oscillatory waves at specific cell cycle phases is unsupported without statistical evidence.
+- The claim that post-transcriptional regulation plays a prominent role in shaping mRNA accumulation is unsupported without quantitative comparison.
+- The identification of key regulators underlying oscillatory mRNA dynamics is unsupported without enrichment or validation data.
+- The claim of a "high-resolution map" is unquantified and not assessable.

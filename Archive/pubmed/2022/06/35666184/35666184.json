@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "35666184",
+    "doi": "10.1093/g3journal/jkac144",
+    "title": "Predicting which genes will respond to transcription factor perturbations."
+  },
+  "content": {
+    "abstract": "The ability to predict which genes will respond to the perturbation of a transcription factor serves as a benchmark for our systems-level understanding of transcriptional regulatory networks. In previous work, machine learning models have been trained to predict static gene expression levels in a biological sample by using data from the same or similar samples, including data on their transcription factor binding locations, histone marks, or DNA sequence. We report on a different challenge-training machine learning models to predict which genes will respond to the perturbation of a transcription factor without using any data from the perturbed cells. We find that existing transcription factor location data (ChIP-seq) from human cells have very little detectable utility for predicting which genes will respond to perturbation of a transcription factor. Features of genes, including their preperturbation expression level and expression variation, are very useful for predicting responses to perturbation of any transcription factor. This shows that some genes are poised to respond to transcription factor perturbations and others are resistant, shedding light on why it has been so difficult to predict responses from binding locations. Certain histone marks, including H3K4me1 and H3K4me3, have some predictive power when located downstream of the transcription start site. However, the predictive power of histone marks is much less than that of gene expression level and expression variation. Sequence-based or epigenetic properties of genes strongly influence their tendency to respond to direct transcription factor perturbations, partially explaining the oft-noted difficulty of predicting responsiveness from transcription factor binding location data. These molecular features are largely reflected in and summarized by the gene's expression level and expression variation. Code is available at https://github.com/BrentLab/TFPertRespExplainer.",
+    "keywords": [
+      "ChIP-Seq",
+      "histone marks",
+      "machine learning",
+      "transcription factor perturbation",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Protein Binding",
+      "*Transcription Factors/genetics/metabolism",
+      "Transcription Initiation Site"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Yiming",
+        "Jung, Wooseok J",
+        "Brent, Michael R"
+      ],
+      "short_names": [
+        "Kang Y",
+        "Jung WJ",
+        "Brent MR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8852-7696",
+        "ORCID: 0000-0001-8439-2133",
+        "ORCID: 0000-0002-8689-0299"
+      ],
+      "affiliations": [
+        "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA.",
+        "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA.",
+        "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, MO 63110, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Yiming",
+        "short_name": "Kang Y",
+        "identifiers": [
+          "0000-0002-8852-7696"
+        ],
+        "affiliations": [
+          "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Jung, Wooseok J",
+        "short_name": "Jung WJ",
+        "identifiers": [
+          "0000-0001-8439-2133"
+        ],
+        "affiliations": [
+          "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Brent, Michael R",
+        "short_name": "Brent MR",
+        "identifiers": [
+          "0000-0002-8689-0299"
+        ],
+        "affiliations": [
+          "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63108, USA.",
+          "Department of Genetics, Washington University School of Medicine, St. Louis, MO 63110, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "G3 (Bethesda, Md.)"
+    ],
+    "journal_abbrev": [
+      "G3 (Bethesda)"
+    ],
+    "pub_date": "2022 Jul 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/07 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [
+      "41314178",
+      "39644900",
+      "39091757"
+    ],
+    "refs": [
+      "34335110",
+      "32767663",
+      "32728249",
+      "32671330",
+      "32433972",
+      "32433964",
+      "32181581",
+      "32060051",
+      "31792407",
+      "31605096",
+      "31509524",
+      "31422906",
+      "31341088",
+      "30976803",
+      "30846554",
+      "30842277",
+      "30526041",
+      "30476243",
+      "30476227",
+      "30407521",
+      "30349116",
+      "30073202",
+      "30013180",
+      "29945659",
+      "29588361",
+      "29563167",
+      "29449408",
+      "29425488",
+      "29126249",
+      "29022597",
+      "28968736",
+      "28945252",
+      "28854172",
+      "28605766",
+      "28369033",
+      "27899623",
+      "27852650",
+      "27708057",
+      "27643841",
+      "27587684",
+      "27442863",
+      "26832815",
+      "26390058",
+      "26314830",
+      "26301843",
+      "25801168",
+      "25693563",
+      "25516281",
+      "25468404",
+      "25383968",
+      "24603674",
+      "24146602",
+      "23715323",
+      "23525069",
+      "22955616",
+      "22954627",
+      "22950368",
+      "22572961",
+      "22140105",
+      "21764166",
+      "21471402",
+      "21330290",
+      "21324173",
+      "20927193",
+      "20133639",
+      "19995984",
+      "19536199",
+      "19247990",
+      "17189188",
+      "15262804"
+    ],
+    "similar": [
+      "35666184",
+      "26818008",
+      "15262804",
+      "39062717",
+      "39878927",
+      "31038680",
+      "22115494",
+      "22456606",
+      "24316986",
+      "18787082",
+      "28617232",
+      "41648187",
+      "28204599",
+      "35397520",
+      "27924033",
+      "33124660",
+      "29879919",
+      "21435340",
+      "40662821",
+      "21177963",
+      "21306619",
+      "23355544",
+      "24901363",
+      "23758851",
+      "30793699",
+      "23251550",
+      "20161818",
+      "25486472",
+      "41634097",
+      "24962804",
+      "23975789",
+      "30598100",
+      "25887857",
+      "27091612",
+      "27899623",
+      "16362910",
+      "37600946",
+      "40102719",
+      "25903933",
+      "22039215",
+      "32987152",
+      "31362726",
+      "38354497",
+      "32060051",
+      "19374772",
+      "29959670",
+      "25111868",
+      "31857203",
+      "33074101",
+      "39482734",
+      "23035652",
+      "38870532",
+      "32142982",
+      "23531767",
+      "38701417",
+      "33904398",
+      "38838009",
+      "37985457",
+      "38940174",
+      "23166525",
+      "37528982",
+      "34244796",
+      "39660643",
+      "21379568",
+      "28416760",
+      "31723409",
+      "25023089",
+      "41365655",
+      "37328639",
+      "34354157",
+      "23521628",
+      "21072189",
+      "22955978",
+      "25957781",
+      "24042128",
+      "36199141",
+      "15890068",
+      "39135102",
+      "34219317",
+      "39975293",
+      "18976224",
+      "26839600",
+      "26442457",
+      "18704158",
+      "22675074",
+      "39020164",
+      "35776722",
+      "39226889",
+      "29030827",
+      "26678747",
+      "27689934",
+      "25846873",
+      "38980373",
+      "16723008",
+      "21050490",
+      "35358653",
+      "25150249",
+      "18582382",
+      "21342559",
+      "40662800"
+    ],
+    "review": [
+      "35666184",
+      "25486472"
+    ],
+    "pmc": [
+      "9339286"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35666184/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35666184",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/g3journal/article-lookup/doi/10.1093/g3journal/jkac144",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

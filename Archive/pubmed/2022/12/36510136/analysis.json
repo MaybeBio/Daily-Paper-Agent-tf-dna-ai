@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36510136",
+  "title": "DeepTSS: multi-branch convolutional neural network for transcription start site identification from CAGE data.",
+  "authors": "Grigoriadis, Dimitris; Perdikopanis, Nikos; Georgakilas, Georgios K; Hatzigeorgiou, Artemis G",
+  "journal": "BMC bioinformatics",
+  "published_date": "2022-12-13",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多分支卷积神经网络从CAGE数据中识别转录起始位点，虽涉及DNA序列与转录调控，但核心是信号去噪与位点注释，而非TF-DNA结合互作建模，方法可迁移但对象与互作轴匹配度中等。",
+  "abstract": "BACKGROUND: The widespread usage of Cap Analysis of Gene Expression (CAGE) has led to numerous breakthroughs in understanding the transcription mechanisms. Recent evidence in the literature, however, suggests that CAGE suffers from transcriptional and technical noise. Regardless of the sample quality, there is a significant number of CAGE peaks that are not associated with transcription initiation events. This type of signal is typically attributed to technical noise and more frequently to random five-prime capping or transcription bioproducts. Thus, the need for computational methods emerges, that can accurately increase the signal-to-noise ratio in CAGE data, resulting in error-free transcription start site (TSS) annotation and quantification of regulatory region usage. In this study, we present DeepTSS, a novel computational method for processing CAGE samples, that combines genomic signal processing (GSP), structural DNA features, evolutionary conservation evidence and raw DNA sequence with Deep Learning (DL) to provide single-nucleotide TSS predictions with unprecedented levels of performance. RESULTS: To evaluate DeepTSS, we utilized experimental data, protein-coding gene annotations and computationally-derived genome segmentations by chromatin states. DeepTSS was found to outperform existing algorithms on all benchmarks, achieving 98% precision and 96% sensitivity (accuracy 95.4%) on the protein-coding gene strategy, with 96.66% of its positive predictions overlapping active chromatin, 98.27% and 92.04% co-localized with at least one transcription factor and H3K4me3 peak. CONCLUSIONS: CAGE is a key protocol in deciphering the language of transcription, however, as every experimental protocol, it suffers from biological and technical noise that can severely affect downstream analyses. DeepTSS is a novel DL-based method for effectively removing noisy CAGE signal. In contrast to existing software, DeepTSS does not require feature selection since the embedded convolutional layers can readily identify patterns and only utilize the important ones for the classification task. This study highlights the key role that DL can play in Molecular Biology, by removing the inherent flaws of experimental protocols, that form the backbone of contemporary research. Here, we show how DeepTSS can unleash the full potential of an already popular and mature method such as CAGE, and push the boundaries of coding and non-coding gene expression regulator research even further.",
+  "abstract_zh": "背景：Cap Analysis of Gene Expression（CAGE）的广泛应用已在理解转录机制方面取得了众多突破。然而，近期文献中的证据表明，CAGE存在转录和技术噪声。无论样本质量如何，都有大量CAGE峰与转录起始事件无关。这类信号通常归因于技术噪声，更常见的是随机五端加帽或转录副产物。因此，亟需开发计算方法，以准确提高CAGE数据中的信噪比，从而实现无误差的转录起始位点（TSS）注释和调控区域使用的量化。在本研究中，我们提出了DeepTSS，一种新颖的CAGE样本处理计算方法，它结合了基因组信号处理（GSP）、结构DNA特征、进化保守性证据和原始DNA序列与深度学习（DL），以提供单核苷酸分辨率的TSS预测，性能达到前所未有的水平。结果：为评估DeepTSS，我们利用了实验数据、蛋白质编码基因注释和基于染色质状态的计算基因组分割。研究发现，DeepTSS在所有基准测试中均优于现有算法，在蛋白质编码基因策略上实现了98%的精确度和96%的灵敏度（准确率95.4%），其阳性预测中有96.66%与活性染色质重叠，98.27%和92.04%分别与至少一个转录因子和H3K4me3峰共定位。结论：CAGE是解读转录语言的关键协议，然而，如同每个实验协议一样，它受到生物和技术噪声的影响，这些噪声可能严重影响下游分析。DeepTSS是一种基于DL的新方法，可有效去除CAGE信号中的噪声。与现有软件相比，DeepTSS无需特征选择，因为其嵌入的卷积层能迅速识别模式，并仅利用重要模式进行分类任务。本研究突显了DL在分子生物学中的关键作用，通过消除实验协议固有的缺陷，这些协议构成了当代研究的基石。在此，我们展示了DeepTSS如何释放CAGE这一已广泛流行且成熟方法的全部潜力，并进一步推动编码和非编码基因表达调控研究的边界。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36510136/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36510136/",
+  "paper_page_path": "papers/pubmed/36510136/index.html"
+}

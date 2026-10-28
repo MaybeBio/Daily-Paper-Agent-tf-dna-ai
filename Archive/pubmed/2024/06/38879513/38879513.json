@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "38879513",
+    "doi": "10.1186/s12859-024-05836-0",
+    "title": "CPMI: comprehensive neighborhood-based perturbed mutual information for identifying critical states of complex biological processes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: There exists a critical transition or tipping point during the complex biological process. Such critical transition is usually accompanied by the catastrophic consequences. Therefore, hunting for the tipping point or critical state is of significant importance to prevent or delay the occurrence of catastrophic consequences. However, predicting critical state based on the high-dimensional small sample data is a difficult problem, especially for single-cell expression data. RESULTS: In this study, we propose the comprehensive neighbourhood-based perturbed mutual information (CPMI) method to detect the critical states of complex biological processes. The CPMI method takes into account the relationship between genes and neighbours, so as to reduce the noise and enhance the robustness. This method is applied to a simulated dataset and six real datasets, including an influenza dataset, two single-cell expression datasets and three bulk datasets. The method can not only successfully detect the tipping points, but also identify their dynamic network biomarkers (DNBs). In addition, the discovery of transcription factors (TFs) which can regulate DNB genes and nondifferential 'dark genes' validates the effectiveness of our method. The numerical simulation verifies that the CPMI method is robust under different noise strengths and is superior to the existing methods on identifying the critical states. CONCLUSIONS: In conclusion, we propose a robust computational method, i.e., CPMI, which is applicable in both the bulk and single cell datasets. The CPMI method holds great potential in providing the early warning signals for complex biological processes and enabling early disease diagnosis.",
+    "keywords": [
+      "Dark genes",
+      "Dynamic network biomarker (DNB)",
+      "Perturbed neighbourhood mutual information (PMI)",
+      "Tipping point",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Transcription Factors/metabolism/genetics",
+      "Algorithms",
+      "Single-Cell Analysis/methods",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Jing",
+        "Li, Peiluan",
+        "Yan, Jinling"
+      ],
+      "short_names": [
+        "Ren J",
+        "Li P",
+        "Yan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China.",
+        "Longmen Laboratory, Luoyang, 471003, Henan, China.",
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China. 15038522015@163.com.",
+        "Longmen Laboratory, Luoyang, 471003, Henan, China. 15038522015@163.com.",
+        "Key Laboratory of Information Fusion Technology of Ministry of Education, School of Automation, Northwestern Polytechnical University, Xi'an, 710072, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Jing",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China.",
+          "Longmen Laboratory, Luoyang, 471003, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peiluan",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China. 15038522015@163.com.",
+          "Longmen Laboratory, Luoyang, 471003, Henan, China. 15038522015@163.com."
+        ]
+      },
+      {
+        "full_name": "Yan, Jinling",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Information Fusion Technology of Ministry of Education, School of Automation, Northwestern Polytechnical University, Xi'an, 710072, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2024 Jun 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/16 11:58",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42074543",
+      "41274904",
+      "40635685",
+      "39890881"
+    ],
+    "refs": [
+      "38280998",
+      "37415741",
+      "36766776",
+      "36705581",
+      "36690623",
+      "36654453",
+      "36632190",
+      "35929142",
+      "35864742",
+      "35598334",
+      "35547750",
+      "34954425",
+      "34916492",
+      "34270860",
+      "34254926",
+      "34150649",
+      "33816637",
+      "33808757",
+      "33490184",
+      "33488925",
+      "33477668",
+      "33308268",
+      "33262521",
+      "32825245",
+      "32659938",
+      "31598632",
+      "31019526",
+      "30349051",
+      "29332336",
+      "29073904",
+      "28167799",
+      "28101582",
+      "28027308",
+      "28027290",
+      "27534536",
+      "27153710",
+      "26883003",
+      "26876903",
+      "23775602",
+      "23756045",
+      "22461973",
+      "21924040",
+      "21901105",
+      "20880496",
+      "17825013",
+      "15772676",
+      "12652559",
+      "12612550",
+      "12145321",
+      "10873625",
+      "3346912"
+    ],
+    "similar": [
+      "38879513",
+      "36705581",
+      "38960408",
+      "38280998",
+      "31992202",
+      "35580862",
+      "29073904",
+      "36088546",
+      "34691933",
+      "36282843",
+      "38512768",
+      "23620135",
+      "31019526",
+      "28678795",
+      "30547796",
+      "38189541",
+      "35598334",
+      "33170214",
+      "29914350",
+      "29027943",
+      "35668489",
+      "31951859",
+      "34626720",
+      "24564939",
+      "32019417",
+      "30338927",
+      "27153710",
+      "36659203",
+      "35317238",
+      "32716923",
+      "20942926",
+      "26823190",
+      "23497388",
+      "29994127",
+      "32575789",
+      "38744843",
+      "34147483",
+      "30616516",
+      "28957658",
+      "34150649",
+      "34244782",
+      "38576021",
+      "28977434",
+      "31985403",
+      "34076236",
+      "30961611",
+      "27490400",
+      "36141135",
+      "25281301",
+      "34933256",
+      "25322838",
+      "21496241",
+      "30383247",
+      "36632190",
+      "22461973",
+      "27551778",
+      "26099273",
+      "36342190",
+      "20025723",
+      "34609489",
+      "33956788",
+      "24407294",
+      "32138647",
+      "35045805",
+      "32422654",
+      "29297370",
+      "34398763",
+      "38653489",
+      "16670008",
+      "22595208",
+      "35594220",
+      "23819540",
+      "36626328",
+      "29714955",
+      "36807044",
+      "26399969",
+      "29219084",
+      "24565134",
+      "25350697",
+      "24285602",
+      "20338053",
+      "38867193",
+      "34374760",
+      "33663384",
+      "35749386",
+      "38811747",
+      "19112081",
+      "28117655",
+      "25326829",
+      "37740957",
+      "27064982",
+      "36787234",
+      "32255787",
+      "29246163",
+      "29445139",
+      "22319435",
+      "28036274",
+      "30741379",
+      "21172055",
+      "17951820",
+      "38625746",
+      "35640613"
+    ],
+    "review": [
+      "38879513",
+      "34626720"
+    ],
+    "pmc": [
+      "11180411"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05836-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38879513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38879513",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

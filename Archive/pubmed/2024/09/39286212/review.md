@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific validity of the reported genetic finding, the evidence supporting pathogenicity, and the conclusions drawn from in silico analyses
+- **Shared manuscript claim summary** The authors report identification of a novel homozygous GATA4 variant c.551T>C (p.Phe184Ser) in a consanguineous Saudi family with congenital heart disease (CHD), characterized by absence of the right pulmonary artery, dilated left pulmonary artery, and multiple aortopulmonary collateral arteries. They claim this variant is pathogenic based on in silico prediction tools and structural modeling, and suggest it causes recessive CHD in this family.
+- **Visible evidence base** Whole-exome sequencing and Sanger sequencing chromatograms (Fig. 2), pedigree (Fig. 1), homology models (Fig. 3), and in silico prediction scores (Table 1)
+- **Missing materials affecting confidence** Raw sequencing data, variant filtering details (coverage, depth, quality scores), segregation data beyond parents, functional validation experiments, population frequency data for the variant, and any control cohort data
+
+## Reviewer
+- **Overall assessment** The manuscript reports a potentially interesting novel GATA4 variant in a consanguineous family with CHD. However, the evidence presented is insufficient to establish pathogenicity. The study relies entirely on in silico predictions and structural modeling without functional validation, and the genetic evidence is incomplete. The claim that this variant "causes" CHD is not supported by the data presented. The manuscript requires substantial additional evidence, including robust variant filtering details, segregation analysis, population frequency data, and ideally functional studies, before the case for pathogenicity can be established.
+- **Who would be interested in the results, and why** Clinical geneticists and researchers studying congenital heart disease genetics, particularly those interested in GATA4-related cardiac malformations and recessive inheritance patterns in consanguineous populations. The Saudi population context may be of interest to regional genetic epidemiology researchers.
+- **Major strengths** The study addresses an important clinical question in a population with high consanguinity rates. The clinical phenotyping is detailed. The use of multiple in silico tools is comprehensive. The family structure with consanguinity provides a clear hypothesis for recessive inheritance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic evidence
+  - **Claim pointer** The authors claim the variant c.551T>C (p.Phe184Ser) in GATA4 is the causative mutation for CHD in this family.
+  - **Evidence pointer** Results section, Fig. 2, Table 1
+  - **Concern** The genetic evidence is insufficient to establish causality. The authors do not provide details on the variant filtering pipeline, including coverage at the variant site, read depth, genotype quality, or how other candidate variants were excluded. No population frequency data (e.g., gnomAD) is reported for this variant. Most critically, only the proband and parents were analyzed; no segregation data from other affected or unaffected family members is presented. The claim of recessive inheritance is not supported by functional data or by evidence that biallelic loss of GATA4 function causes CHD, as GATA4-related CHD is typically described as dominant with variable penetrance.
+  - **Why it matters** Without robust genetic evidence, the assignment of pathogenicity is premature. The CHD could be caused by another variant not identified or reported. The conclusion that this variant is causative has direct implications for genetic counseling and prenatal screening recommendations.
+  - **Resolution test** Provide detailed variant filtering metrics, population frequency data, segregation analysis across all available family members, and ideally functional studies (e.g., luciferase reporter assays, electrophoretic mobility shift assays) demonstrating impaired DNA binding or transcriptional activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The authors conclude the F184S variant causes "functional impairment of DNA binding of transcription factors and zinc-ion binding activities of GATA4" based on HOPE analysis.
+  - **Evidence pointer** Results section, Table 1
+  - **Concern** The functional claims are based solely on computational predictions (HOPE, Missense3D) without any experimental validation. The Missense3D prediction explicitly states "structural damage was not predicted," which contradicts the authors' conclusion of structural and functional impairment. The SwissModel assessment shows only minor differences between wild-type and mutant structures, with the authors themselves noting "no significant differences" in most metrics. The increased clash score and bad bonds in the mutant model may reflect modeling artifacts rather than biologically meaningful changes.
+  - **Why it matters** Computational predictions are hypothesis-generating, not confirmatory. The authors' conclusion that this variant causes functional impairment is not supported by the structural data they present, which is largely negative. Overinterpretation of in silico results can lead to incorrect pathogenicity classifications.
+  - **Resolution test** Perform experimental validation, such as electrophoretic mobility shift assays to test DNA binding, zinc-binding assays, or transcriptional reporter assays comparing wild-type and mutant GATA4. At minimum, temper the conclusions to reflect the predictive nature of the findings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Inheritance model
+  - **Claim pointer** The authors state the variant "appears to cause recessive CHD in the family" and suggest the consanguineous pedigree supports homozygous inheritance.
+  - **Evidence pointer** Results section, Fig. 1, Fig. 2
+  - **Concern** The inheritance model is not adequately justified. GATA4 mutations are well-documented as causing autosomal dominant CHD with incomplete penetrance and variable expressivity. The authors do not discuss why a recessive model is preferred over a dominant model with reduced penetrance, especially since both parents are heterozygous and reportedly unaffected. The pedigree shows consanguinity, but this alone does not establish recessive inheritance. No functional data supports a recessive mechanism, and the literature on GATA4 does not support recessive CHD causation.
+  - **Why it matters** The proposed inheritance model directly impacts genetic counseling. If the variant is actually dominant with reduced penetrance, the recurrence risk and counseling message would be different. The authors' recommendation for prenatal screening is based on this unvalidated model.
+  - **Resolution test** Provide a clear rationale for the recessive model, including discussion of alternative models. If possible, assess GATA4 expression and function in the proband's cells. Consider whether other family members carry the variant and their phenotypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting quality
+  - **Affected element** Methods section, variant filtering
+  - **Evidence pointer** Materials and methods, Whole exome sequencing section
+  - **Issue** The variant filtering pipeline is described vaguely. The authors state approximately 40,000 variants were reduced to 3,000, but do not specify how GATA4 was prioritized over other candidate genes. The criteria for selecting GATA4 as "the main candidate gene" are not clearly defined.
+  - **Required correction** Provide a detailed description of the bioinformatics pipeline, including specific filtering steps, annotation databases used, and the rationale for prioritizing GATA4 over other variants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is difficult to interpret. The columns are not clearly labeled, and some values appear inconsistent (e.g., SIFT score reported as 0.99 in the table but described as 0 in the text). The table mixes different prediction scores without clear units or interpretation.
+  - **Required correction** Reformat Table 1 with clear column headers, consistent score reporting, and a legend explaining each tool's score range and interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not adequately address the existing literature on GATA4 variants and CHD. The authors mention other GATA4 mutations but do not compare the clinical phenotype of their patient with previously reported cases. The discussion of recessive inheritance is not contextualized within the known dominant inheritance pattern of GATA4-related CHD.
+  - **Required correction** Expand the discussion to compare the reported phenotype with previously described GATA4-associated CHD cases and address the discrepancy between the proposed recessive model and the established dominant inheritance pattern.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clinical data
+  - **Affected element** Case description
+  - **Evidence pointer** Materials and methods, Subjects recruitment section
+  - **Issue** The clinical description of the proband is limited. No information is provided on other cardiac or extracardiac anomalies, developmental history, or whether other family members have been clinically evaluated for CHD.
+  - **Required correction** Provide a more detailed clinical phenotype of the proband and report clinical evaluation of available family members.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient genetic evidence), R1-M2 (overinterpretation of in silico predictions), R1-M3 (unjustified recessive inheritance model)
+
+## Risk / unsupported claims
+- The claim that the F184S variant "causes" CHD is unsupported by the evidence presented.
+- The claim that the variant causes "functional impairment of DNA binding and zinc-ion binding activities" is unsupported, as it is based solely on computational prediction without experimental validation.
+- The claim of recessive inheritance is unsupported and contradicts the established dominant inheritance pattern of GATA4-related CHD.
+- The suggestion that prenatal screening is warranted based on these findings is premature given the lack of robust evidence for pathogenicity.
+- The statement that "other genes were not involved in cardiogenesis and showed pathogenicity" is not substantiated with specific data on the other candidate variants identified.

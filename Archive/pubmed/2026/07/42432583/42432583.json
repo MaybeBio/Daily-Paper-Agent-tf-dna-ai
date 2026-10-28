@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "42432583",
+    "doi": "10.1186/s12885-026-16479-0",
+    "title": "Uncovering the mechanism of DCLK3 in colorectal cancer progression through WGCNA and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is a prevalent malignant tumor of the digestive tract with high morbidity and mortality rates. Although doublecortin like kinase 3 (DCLK3) is upregulated in CRC and promotes disease progression, its specific mechanisms remain unclear. METHODS: Core factors of CRC were identified through bioinformatics analysis, weighted gene co-expression network analysis (WGCNA), and machine learning algorithms. The expression level of DCLK3 and ELK1 were evaluated using bioinformatics databases (GSE142279, The Cancer Genome Atlas (TCGA)) and experimental validation (quantitative real-time PCR (qRT-PCR), Western blot). Functional assays (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) assay, flow cytometry, Transwell assay, wound healing assay, sphere formation assay, tube formation assay, in vivo model, hematoxylin and eosin staining (HE), and immunohistochemistry (IHC)) and mechanism studies (prediction via Genecards and JASPAR databases, dual-luciferase reporter assay, and chromatin immunoprecipitation (ChIP)) were performed to validate and explore the molecular mechanism of DCLK3 in CRC. RESULTS: Bioinformatics analysis combined with WGCNA and machine learning algorithms identified DCLK3 as a core gene. DCLK3 was significantly upregulated in CRC, and its high expression was associated with poorer overall survival in patients. Knockdown of DCLK3 inhibited the proliferation of CRC cells, promoted apoptosis, and suppressed cell invasion, migration, cancer stemness, and angiogenesis. ETS like-1 protein (ELK1) promoted malignant phenotypes in CRC cells by transcriptionally activating DCLK3. Also, in vivo studies demonstrated that ELK1 activated DCLK3 to facilitate CRC tumor growth. CONCLUSION: DCLK3, identified through bioinformatic analysis, promotes CRC progression via its transcriptional activation by the transcription factor ELK1, highlighting its potential as a therapeutic target.",
+    "keywords": [
+      "Colorectal cancer",
+      "Doublecortin like kinase 3",
+      "ETS like-1 protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/pathology/metabolism",
+      "*Protein Serine-Threonine Kinases/genetics/metabolism",
+      "Doublecortin-Like Kinases",
+      "Animals",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic",
+      "ets-Domain Protein Elk-1/genetics/metabolism",
+      "*Machine Learning",
+      "Mice",
+      "Cell Proliferation/genetics",
+      "Computational Biology/methods",
+      "Cell Line, Tumor",
+      "Gene Regulatory Networks",
+      "Cell Movement/genetics",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lu",
+        "Han, Yanru",
+        "Ji, Juanjuan",
+        "Wang, Yuyu",
+        "Yang, Fang",
+        "Li, Wenjing",
+        "Guo, Xiaohe"
+      ],
+      "short_names": [
+        "Yang L",
+        "Han Y",
+        "Ji J",
+        "Wang Y",
+        "Yang F",
+        "Li W",
+        "Guo X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Department of Integrated Traditional Chinese and Western Medicine, The First Affiliated Hospital of Henan University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China. 15294857353@163.com.",
+        "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China. 15294857353@163.com.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Henan University of Medicine, 88 Jiankang Road, Xinxiang, Henan, 453100, China. 15294857353@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yanru",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China.",
+          "Department of Integrated Traditional Chinese and Western Medicine, The First Affiliated Hospital of Henan University of Medicine, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Juanjuan",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuyu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fang",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenjing",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaohe",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan, University of Medicine, Xinxiang, Henan, 453100, China. 15294857353@163.com.",
+          "Xinxiang Key Laboratory of Precision Diagnosis and Treatment for Inflammatory Bowel Disease, Xinxiang, Henan, 453100, China. 15294857353@163.com.",
+          "Department of Gastroenterology, The First Affiliated Hospital of Henan University of Medicine, 88 Jiankang Road, Xinxiang, Henan, 453100, China. 15294857353@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2026 Jul 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/11 05:37",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42432583",
+      "39973554",
+      "42470494",
+      "42501233",
+      "40112348",
+      "42069097",
+      "41436831",
+      "33831429",
+      "32889894",
+      "42637860",
+      "37917325",
+      "38760791",
+      "29439714",
+      "42050706",
+      "29734178",
+      "41106221",
+      "41572068",
+      "35795731",
+      "30662328",
+      "42472386",
+      "32690100",
+      "37547727",
+      "30010111",
+      "41198561",
+      "42717785",
+      "31902050",
+      "33247506",
+      "42749842",
+      "39316306",
+      "40435908",
+      "41045764",
+      "38253900",
+      "41086588",
+      "30037330",
+      "39987563",
+      "35962333",
+      "41687471",
+      "41628115",
+      "41580703",
+      "40778958",
+      "40518958",
+      "37266842",
+      "39851228",
+      "42530712",
+      "32843066",
+      "38824257",
+      "40696734",
+      "40860196",
+      "41782112",
+      "42139760",
+      "34085707",
+      "39781521",
+      "39816686",
+      "38775215",
+      "38844957",
+      "40269881",
+      "40691523",
+      "42401341",
+      "34253241",
+      "32799891",
+      "30066935",
+      "30081850",
+      "42716520",
+      "33664859",
+      "38546882",
+      "42530263",
+      "40164015",
+      "35679685",
+      "39739271",
+      "31539116",
+      "39425913",
+      "38771419",
+      "38669868",
+      "35091088",
+      "41831581",
+      "32064687",
+      "42169639",
+      "41418870",
+      "40405062",
+      "41491503",
+      "35123530",
+      "40682845",
+      "31693935",
+      "40668324",
+      "41430691",
+      "40486508",
+      "36994700",
+      "39497094",
+      "37062845",
+      "38384181",
+      "35089075",
+      "34281572",
+      "35108639",
+      "39701786",
+      "32552762",
+      "42444619",
+      "32776307",
+      "41296255",
+      "40846892",
+      "41006713"
+    ],
+    "review": [
+      "42432583"
+    ],
+    "pmc": [
+      "13602744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-026-16479-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42432583/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "identity": {
+    "pmid": "38926357",
+    "doi": "10.1038/s41467-024-49017-2",
+    "title": "AI-based histopathology image analysis reveals a distinct subset of endometrial cancers."
+  },
+  "content": {
+    "abstract": "Endometrial cancer (EC) has four molecular subtypes with strong prognostic value and therapeutic implications. The most common subtype (NSMP; No Specific Molecular Profile) is assigned after exclusion of the defining features of the other three molecular subtypes and includes patients with heterogeneous clinical outcomes. In this study, we employ artificial intelligence (AI)-powered histopathology image analysis to differentiate between p53abn and NSMP EC subtypes and consequently identify a sub-group of NSMP EC patients that has markedly inferior progression-free and disease-specific survival (termed 'p53abn-like NSMP'), in a discovery cohort of 368 patients and two independent validation cohorts of 290 and 614 from other centers. Shallow whole genome sequencing reveals a higher burden of copy number abnormalities in the 'p53abn-like NSMP' group compared to NSMP, suggesting that this group is biologically distinct compared to other NSMP ECs. Our work demonstrates the power of AI to detect prognostically different and otherwise unrecognizable subsets of EC where conventional and standard molecular or pathologic criteria fall short, refining image-based tumor classification. This study's findings are applicable exclusively to females.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/pathology/genetics",
+      "*Artificial Intelligence",
+      "Middle Aged",
+      "Aged",
+      "Image Processing, Computer-Assisted/methods",
+      "Prognosis",
+      "DNA Copy Number Variations",
+      "Whole Genome Sequencing",
+      "Tumor Suppressor Protein p53/genetics",
+      "Cohort Studies"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Darbandsari, Amirali",
+        "Farahani, Hossein",
+        "Asadi, Maryam",
+        "Wiens, Matthew",
+        "Cochrane, Dawn",
+        "Khajegili Mirabadi, Ali",
+        "Jamieson, Amy",
+        "Farnell, David",
+        "Ahmadvand, Pouya",
+        "Douglas, Maxwell",
+        "Leung, Samuel",
+        "Abolmaesumi, Purang",
+        "Jones, Steven J M",
+        "Talhouk, Aline",
+        "Kommoss, Stefan",
+        "Gilks, C Blake",
+        "Huntsman, David G",
+        "Singh, Naveena",
+        "McAlpine, Jessica N",
+        "Bashashati, Ali"
+      ],
+      "short_names": [
+        "Darbandsari A",
+        "Farahani H",
+        "Asadi M",
+        "Wiens M",
+        "Cochrane D",
+        "Khajegili Mirabadi A",
+        "Jamieson A",
+        "Farnell D",
+        "Ahmadvand P",
+        "Douglas M",
+        "Leung S",
+        "Abolmaesumi P",
+        "Jones SJM",
+        "Talhouk A",
+        "Kommoss S",
+        "Gilks CB",
+        "Huntsman DG",
+        "Singh N",
+        "McAlpine JN",
+        "Bashashati A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9503-1875",
+        "ORCID: 0000-0002-0489-6583",
+        "ORCID: 0000-0003-3394-2208",
+        "ORCID: 0000-0001-6003-485X",
+        "ORCID: 0000-0002-4212-7224"
+      ],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+        "Vancouver General Hospital, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada.",
+        "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada.",
+        "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Michael Smith Genome Sciences Center, British Columbia Cancer Research Center, Vancouver, BC, Canada.",
+        "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Women's Health, Tubingen University Hospital, Tubingen, Germany.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+        "Vancouver General Hospital, Vancouver, BC, Canada.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+        "Vancouver General Hospital, Vancouver, BC, Canada.",
+        "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada. ali.bashashati@ubc.ca.",
+        "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada. ali.bashashati@ubc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Darbandsari, Amirali",
+        "short_name": "Darbandsari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Farahani, Hossein",
+        "short_name": "Farahani H",
+        "identifiers": [
+          "0000-0002-9503-1875"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Asadi, Maryam",
+        "short_name": "Asadi M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Wiens, Matthew",
+        "short_name": "Wiens M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Cochrane, Dawn",
+        "short_name": "Cochrane D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Khajegili Mirabadi, Ali",
+        "short_name": "Khajegili Mirabadi A",
+        "identifiers": [
+          "0000-0002-0489-6583"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Jamieson, Amy",
+        "short_name": "Jamieson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Farnell, David",
+        "short_name": "Farnell D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+          "Vancouver General Hospital, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Ahmadvand, Pouya",
+        "short_name": "Ahmadvand P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Douglas, Maxwell",
+        "short_name": "Douglas M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Leung, Samuel",
+        "short_name": "Leung S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Abolmaesumi, Purang",
+        "short_name": "Abolmaesumi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Jones, Steven J M",
+        "short_name": "Jones SJM",
+        "identifiers": [
+          "0000-0003-3394-2208"
+        ],
+        "affiliations": [
+          "Michael Smith Genome Sciences Center, British Columbia Cancer Research Center, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Talhouk, Aline",
+        "short_name": "Talhouk A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Kommoss, Stefan",
+        "short_name": "Kommoss S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Women's Health, Tübingen University Hospital, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Gilks, C Blake",
+        "short_name": "Gilks CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+          "Vancouver General Hospital, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Huntsman, David G",
+        "short_name": "Huntsman DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+          "Department of Molecular Oncology, British Columbia Cancer Research Institute, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Singh, Naveena",
+        "short_name": "Singh N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+          "Vancouver General Hospital, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "McAlpine, Jessica N",
+        "short_name": "McAlpine JN",
+        "identifiers": [
+          "0000-0001-6003-485X"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Bashashati, Ali",
+        "short_name": "Bashashati A",
+        "identifiers": [
+          "0000-0002-4212-7224"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada. ali.bashashati@ubc.ca.",
+          "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada. ali.bashashati@ubc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Jun 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 00:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42725200",
+      "42653345",
+      "42460332",
+      "42366266",
+      "42290264",
+      "42251145",
+      "41773470",
+      "41481616",
+      "41402438",
+      "41168866",
+      "40966993",
+      "40940815",
+      "40810209",
+      "40703539",
+      "39932017",
+      "39816138",
+      "39781343",
+      "39747670",
+      "39206604",
+      "39030380"
+    ],
+    "refs": [
+      "37567170",
+      "36496303",
+      "36241860",
+      "36138135",
+      "36068311",
+      "35982331",
+      "35596966",
+      "35122049",
+      "35027755",
+      "34831000",
+      "34686474",
+      "34622237",
+      "34596362",
+      "34543435",
+      "34413349",
+      "33927352",
+      "33793971",
+      "33773296",
+      "33763651",
+      "33668727",
+      "33649564",
+      "33590861",
+      "33397713",
+      "33232359",
+      "33204028",
+      "33049577",
+      "32977465",
+      "32376737",
+      "31846532",
+      "31399699",
+      "31308507",
+      "31160815",
+      "30990737",
+      "30104763",
+      "30078506",
+      "29432521",
+      "29234806",
+      "28061006",
+      "27653561",
+      "27164577",
+      "26172027",
+      "26017442",
+      "25516281",
+      "25236618",
+      "24695404",
+      "24076778",
+      "23636398",
+      "23629444",
+      "22653804",
+      "22084253",
+      "21727090",
+      "20482850",
+      "19812674",
+      "18139350",
+      "14597658"
+    ],
+    "similar": [
+      "38926357",
+      "29505428",
+      "39326496",
+      "42195047",
+      "40657843",
+      "41773470",
+      "36496303",
+      "32749941",
+      "38536067",
+      "40414144",
+      "40433960",
+      "39662783",
+      "41855438",
+      "39174007",
+      "40913937",
+      "36241860",
+      "41288933",
+      "41314003",
+      "36788084",
+      "38508586",
+      "38277742",
+      "42195099",
+      "39676078",
+      "32737030",
+      "39577664",
+      "40792549",
+      "40966692",
+      "41207998",
+      "40896848",
+      "39798193",
+      "39811899",
+      "41826754",
+      "41891942",
+      "38303106",
+      "39828587",
+      "39751650",
+      "42224884",
+      "39878279",
+      "40341112",
+      "39878274",
+      "28939739",
+      "41684164",
+      "32331700",
+      "41911343",
+      "40891121",
+      "37666529",
+      "41385938",
+      "33668727",
+      "39815187",
+      "40267559",
+      "41967711",
+      "40769032",
+      "39764854",
+      "41713573",
+      "42492478",
+      "31829447",
+      "37287928",
+      "35078648",
+      "40891639",
+      "39501493",
+      "42025847",
+      "40616871",
+      "30050154",
+      "40209442",
+      "33232359",
+      "38780000",
+      "41653655",
+      "28061006",
+      "39878262",
+      "39052171",
+      "36669510",
+      "41931130",
+      "42690860",
+      "41886720",
+      "39515079",
+      "36943683",
+      "40966993",
+      "37580913",
+      "41308228",
+      "38639282",
+      "34446267",
+      "31846532",
+      "36562226",
+      "39173140",
+      "37240893",
+      "36008320",
+      "41861614",
+      "42242033",
+      "33589443",
+      "39610022",
+      "40223796",
+      "42366266",
+      "37773079",
+      "36532042",
+      "25720322",
+      "39537370",
+      "40907210",
+      "37229919",
+      "31678638",
+      "39235514"
+    ],
+    "review": [
+      "38926357",
+      "40657843",
+      "40966692",
+      "39878274",
+      "41653655",
+      "41886720",
+      "36943683",
+      "34446267",
+      "31846532",
+      "42242033",
+      "33589443"
+    ],
+    "pmc": [
+      "11208496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-49017-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38926357/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38926357",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

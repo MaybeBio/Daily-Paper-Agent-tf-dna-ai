@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated in silico, chemoproteomics-based, and in vitro approach to identify small-molecule inhibitors of c-Myc/Max heterodimerization. A virtual screening campaign selected 11 putative c-Myc binders; biophysical and biological assays identified three potential inhibitors, with compound 11 showing the most promising activity. Compound 11 displayed K(D) values of approximately 60 µM for c-Myc and 80 µM for Max, antiproliferative effects in three cancer cell lines, and an 85% reduction in c-Myc levels in U937 cells. Molecular dynamics simulations and proteomic studies were used to propose a binding site and key interacting residues.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond those stated, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, compound structures, SPR sensorgrams, dose-response curves, proteomics datasets, molecular dynamics simulation parameters and trajectories, statistical analysis details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially interesting integrated strategy for targeting the intrinsically disordered protein c-Myc, which is a challenging and clinically relevant target. The combination of virtual screening, biophysical validation, cellular assays, and computational modeling is commendable in principle. However, the evidence presented in the abstract is insufficient to establish the central claims. Key quantitative data are reported without error estimates or statistical context, the selectivity of compound 11 for c-Myc over other targets is not addressed, and the mechanistic link between c-Myc/Max disruption and the observed antiproliferative effects is not demonstrated. The abstract also lacks clarity on the chemoproteomics component, which is mentioned in the title but not described in the results. The work may be of interest to the cancer biology and drug discovery communities, but the current evidence base does not support the strength of the conclusions as stated.
+- **Who would be interested in the results, and why** Researchers in cancer drug discovery, particularly those focused on transcription factor targets and intrinsically disordered proteins, would be interested. The work also speaks to the broader community studying protein-protein interaction inhibitors and the use of integrated computational-experimental pipelines. The potential therapeutic relevance for acute myeloid leukemia and colorectal cancer adds translational interest.
+- **Major strengths** The integrated approach combining multiple orthogonal techniques is a methodological strength. The focus on c-Myc, a challenging and underexploited target, is scientifically important. The identification of a new chemical scaffold with measurable binding affinity and cellular activity provides a starting point for further optimization. The use of molecular dynamics and proteomics to propose a binding site adds mechanistic depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that compound 11 is a c-Myc/Max heterodimerization inhibitor based on K(D) values of approximately 60 µM for c-Myc and 80 µM for Max.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The K(D) values are reported as single numbers without error estimates, replicates, or statistical comparison to controls. The difference between compound 11 and the reference compound 10058-F4 (60 µM vs 40 µM) is described as "slightly higher," but no statistical analysis is presented to support this claim. More critically, the abstract does not provide direct evidence that compound 11 disrupts the c-Myc/Max heterodimer. Binding to individual proteins does not necessarily translate to inhibition of heterodimerization.
+  - **Why it matters** The central mechanistic claim of the paper is that compound 11 inhibits c-Myc/Max heterodimerization. Without direct evidence of heterodimer disruption, such as co-immunoprecipitation, fluorescence polarization, or cellular proximity assays, the conclusion is not supported. The modest binding affinities also raise questions about whether the observed cellular effects are due to specific c-Myc targeting or off-target effects.
+  - **Resolution test** Provide replicate K(D) measurements with standard deviations and statistical comparison to 10058-F4. Include a direct assay for c-Myc/Max heterodimerization inhibition, such as a pull-down or cellular protein-fragment complementation assay, with appropriate positive and negative controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** The abstract claims that compound 11 shows significant antiproliferative effects and an 85% reduction in c-Myc levels in U937 cells, implying a mechanism related to c-Myc modulation.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract does not establish a causal link between c-Myc reduction and the antiproliferative effects. The 85% reduction in c-Myc levels is reported for U937 cells, but it is unclear whether this is a direct consequence of c-Myc/Max disruption or a downstream effect of general cytotoxicity. No data are shown for c-Myc levels in the other two cell lines, and no rescue experiments or knockdown controls are described.
+  - **Why it matters** Without demonstrating that the antiproliferative effects are mediated through c-Myc/Max disruption, the specificity of the compound's mechanism remains unproven. This is essential for establishing the compound as a bona fide c-Myc inhibitor rather than a general cytotoxic agent.
+  - **Resolution test** Show dose-response relationships between c-Myc levels and cell viability across all three cell lines. Include a c-Myc overexpression or knockdown rescue experiment to demonstrate on-target specificity. Provide time-course data to establish that c-Myc reduction precedes cell death.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Selectivity and specificity
+  - **Claim pointer** The abstract implies that compound 11 is a selective c-Myc/Max disruptor, but no selectivity data are presented.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract does not report selectivity of compound 11 against other Myc family members (e.g., c-Myc vs N-Myc or L-Myc), other Max-interacting proteins, or unrelated proteins. Given the modest binding affinity, off-target effects are a significant concern. The chemoproteomics component mentioned in the title is not described in the abstract, leaving its contribution to selectivity assessment unclear.
+  - **Why it matters** For a compound to be useful as a chemical probe or lead, selectivity is critical. Without selectivity data, the observed cellular effects could be attributed to interactions with other targets, undermining the claim of specific c-Myc/Max disruption.
+  - **Resolution test** Provide selectivity profiling against a panel of related and unrelated proteins, including Myc family members and Max partners. Describe the chemoproteomics experiments and their results in the abstract or main text.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The abstract states that molecular dynamics simulations and proteomic studies were performed to identify the binding site and key interacting residues.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** No details are provided on the simulation methodology, force fields, simulation length, convergence criteria, or validation of the predicted binding site. Similarly, the proteomic studies are not described, including experimental design, controls, and how the data support the proposed binding site. The abstract does not indicate whether the computational predictions were experimentally validated.
+  - **Why it matters** The proposed binding site and key residues are central to the mechanistic understanding of compound 11's action. Without methodological rigor and experimental validation, these claims remain speculative and cannot be evaluated.
+  - **Resolution test** Provide detailed methods for molecular dynamics simulations, including convergence and validation. Describe the proteomics workflow and how it corroborates the computational predictions. Include mutagenesis or other experimental validation of the proposed binding site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound nomenclature
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The compound is referred to as "11" without a chemical name or structure. This is ambiguous and makes it difficult for readers to assess the novelty of the scaffold.
+  - **Required correction** Provide the chemical structure or IUPAC name of compound 11 in the abstract or a figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** K(D) values
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The K(D) values are reported without units of error or number of replicates. The comparison to 10058-F4 is qualitative.
+  - **Required correction** Report K(D) values with standard deviations and number of independent experiments. Include a statistical comparison to the reference compound.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Chemoproteomics description
+  - **Evidence pointer** Abstract, title; location not provided
+  - **Issue** The title mentions "chemoproteomics-based" approach, but the abstract does not describe any chemoproteomics experiments or results.
+  - **Required correction** Either describe the chemoproteomics experiments and their key findings in the abstract, or revise the title to accurately reflect the methods used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Disruption" vs "inhibition"
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract uses both "disruptors" and "inhibitors" to describe the compounds. These terms may imply different mechanisms.
+  - **Required correction** Use consistent terminology throughout the abstract and define the intended mechanism of action.
+
+## Risk / unsupported claims
+- The claim that compound 11 is a c-Myc/Max heterodimerization inhibitor is unsupported by direct evidence; binding to individual proteins is not sufficient.
+- The claim of "significant" antiproliferative effects is unsupported without statistical details or dose-response data.
+- The 85% reduction in c-Myc levels in U937 cells is reported without context on whether this is specific or a general cytotoxic effect.
+- The proposed binding site and key interacting residues from molecular dynamics and proteomics are unverifiable from the abstract and lack experimental validation.
+- The selectivity of compound 11 for c-Myc over other targets is not addressed and cannot be assessed.
+- The chemoproteomics component, highlighted in the title, is not described in the abstract, making its contribution to the conclusions unassessable.

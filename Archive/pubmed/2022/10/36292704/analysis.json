@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36292704",
+  "title": "Projection of Expression Profiles to Transcription Factor Activity Space Provides Added Information.",
+  "authors": "Bornshten, Rut; Danilenko, Michael; Rubin, Eitan",
+  "journal": "Genes",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用RTN推断AML患者转录因子活性并辅助聚类，虽涉及TF活性推断，但缺乏TF-DNA结合位点预测、互作建模或AI/物理模拟方法，仅基于表达谱统计推断，与课题核心关联较弱。",
+  "abstract": "Acute myeloid leukemia (AML) is an aggressive type of leukemia, characterized by the accumulation of highly proliferative blasts with a disrupted myeloid differentiation program. Current treatments are ineffective for most patients, partly due to the genetic heterogeneity of AML. This is driven by genetically distinct leukemia stem cells, resulting in relapse even after most of the tumor cells are destroyed. Thus, personalized treatment approaches addressing cellular heterogeneity are urgently required. Reconstruction of Transcriptional regulatory Networks (RTN) is a tool for inferring transcriptional activity in patients with various diseases. In this study, we applied this method to transcriptome profiles of AML patients to test if it provided additional information for the interpretation of transcriptome data. We showed that when RTN results were added to RNA-seq results, superior clusters were formed, which were more homogenous and allowed the better separation of patients with low and high survival rates. We concluded that the external knowledge used for RTN analysis improved the ability of unsupervised machine learning to find meaningful patterns in the data.",
+  "abstract_zh": "急性髓系白血病（AML）是一种侵袭性白血病类型，其特征是高度增殖的原始细胞积累，并伴有髓系分化程序紊乱。目前治疗方法对大多数患者无效，部分原因在于AML的遗传异质性。这种异质性由遗传上不同的白血病干细胞驱动，导致即使在大部分肿瘤细胞被摧毁后仍会复发。因此，迫切需要针对细胞异质性的个性化治疗方法。转录调控网络重建（RTN）是一种推断多种疾病患者转录活性的工具。在本研究中，我们将该方法应用于AML患者的转录组谱，以测试其是否为转录组数据的解读提供额外信息。我们表明，当RTN结果添加到RNA-seq结果中时，形成了更优的聚类，这些聚类更加同质，并能更好地区分低生存率和高生存率的患者。我们得出结论，用于RTN分析的外部知识提高了无监督机器学习在数据中发现有意义模式的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36292704/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36292704/",
+  "paper_page_path": "papers/pubmed/36292704/index.html"
+}

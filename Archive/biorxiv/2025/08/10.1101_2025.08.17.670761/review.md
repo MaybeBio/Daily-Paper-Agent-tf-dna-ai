@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends as embedded in text)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the provided text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors present Chromnitron, a multimodal foundation model integrating DNA sequence, chromatin accessibility, and protein amino acid sequence to predict genome-wide protein-DNA binding profiles. They claim accurate prediction for unseen proteins and cell types, discovery and experimental validation of ZNF865 as a regulator of T cell exhaustion, identification of ZNF766 via a CRISPR screen, and mapping of dynamic regulatory landscapes during neurogenesis.
+- **Visible evidence base** Abstract; Introduction; Results sections (narrative only, no figures or tables included in the provided text); Discussion; Materials and Methods (model architecture, data collection, preprocessing, training, benchmarking, in silico perturbation methods, experimental protocols); Data and Code Availability statements; Supplementary figure titles (1–26 referenced but not provided)
+- **Missing materials affecting confidence** All main figures (Fig. 1–4) and supplementary figures (Fig. 1–26) are referenced but not provided; quantitative performance metrics (e.g., correlation coefficients, AUROC/AUPR values) are described qualitatively but not reported numerically; benchmarking details against Enformer, Borzoi, AlphaGenome, maxATAC are described but results are not shown; CRISPR screen results are summarized without effect sizes or statistical details; RNA-seq differential expression results are not presented; no model architecture diagram or hyperparameter table is included
+
+## Reviewer
+- **Overall assessment** This manuscript describes an ambitious and potentially impactful multimodal foundation model for predicting protein-DNA binding across proteins and cell types. The conceptual advance of integrating protein sequence, DNA sequence, and chromatin accessibility in a single framework is timely and addresses a real gap in regulatory genomics. However, the provided text is largely narrative, with all quantitative evidence relegated to figures and supplementary materials that were not supplied for review. The experimental validation of ZNF865 and the CRISPR screen for ZNF766 are promising but are described with insufficient detail to assess rigor. The methods section is detailed and suggests technical competence, but several claims, particularly regarding generalizability and biological discovery, cannot be evaluated from the visible evidence. The manuscript has strong potential but is currently not established from the provided materials.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics, particularly those developing foundation models for genomics. Experimental biologists studying transcriptional regulation, T cell biology, and neurodevelopment would be interested in the demonstrated applications for discovering novel regulators. The multimodal learning framework may also attract researchers in protein-DNA interaction prediction and chromatin biology.
+- **Major strengths** 1) The multimodal architecture is conceptually novel, integrating three biologically relevant modalities in a single framework, which is a clear advance over sequence-only or accessibility-only models. 2) The focus on generalization to unseen proteins and cell types addresses a critical limitation of existing methods. 3) The inclusion of experimental validation for computational predictions, including CRISPR screening and in vitro T cell models, strengthens the translational relevance. 4) The methods section is thorough, covering data curation, preprocessing, training, and multiple in silico perturbation strategies, indicating technical rigor. 5) The potential for de novo prediction of uncharacterized proteins, such as ZNF865 and ZNF766, is scientifically compelling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that Chromnitron "accurately predicts CAP-binding profiles on par with experimental replicates" and "markedly outperformed" existing models.
+  - **Evidence pointer** Results section, "Chromnitron accurately predicts cell-type-specific CAP binding"; Supplementary Figures 7–13; location not provided
+  - **Concern** All quantitative performance metrics are described qualitatively. No numerical values for correlation coefficients, AUROC, AUPR, or other statistics are provided in the text. The benchmarking comparisons against Enformer, Borzoi, AlphaGenome, and maxATAC are mentioned but results are not shown. Without these data, the central claim of superior predictive performance cannot be assessed.
+  - **Why it matters** The core scientific contribution is the model's predictive accuracy and generalizability. If the performance metrics are not visible, the manuscript's primary claim is unverifiable.
+  - **Resolution test** Provide the actual performance numbers in the text or ensure figures with these metrics are available for review. Include statistical significance tests for comparisons with baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** The manuscript claims that "knockout of ZNF865 reduced TOX expression levels and consequently led to reduction in surface exhaustion markers and elevated effector cytokine production" and that ZNF766 "consistently showed the strongest functional effect, reducing T cell persistence under chronic stimulation."
+  - **Evidence pointer** Results section, "Chromnitron identifies ZNF865 as a TOX regulator during T cell exhaustion" and "A genome-wide screen with Chromnitron uncovers ZNF766 as a regulator of T cell exhaustion"; Figures 3C, 3G, 3H; Supplementary Figures 21–24; location not provided
+  - **Concern** The experimental results are described in a single sentence each, with no details on sample sizes, number of biological replicates, effect magnitudes, statistical tests, or controls. The CRISPR screen is described as targeting 65 genes but no screen quality metrics (e.g., sgRNA representation, hit threshold) are given. The RNA-seq analysis mentions two replicates per condition, which is underpowered for robust differential expression.
+  - **Why it matters** The biological discoveries are a key part of the manuscript's impact. Without rigorous experimental evidence, these claims are not convincing and could undermine the model's practical utility.
+  - **Resolution test** Provide full experimental details, including replicate numbers, statistical analysis, and effect sizes. For the CRISPR screen, include quality control metrics and hit-calling criteria. For RNA-seq, increase replication or justify the use of two replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability claim
+  - **Claim pointer** The manuscript claims that Chromnitron "accurately predicts the binding landscape for proteins and cell types not seen during training" and enables "de novo prediction of CAP binding profiles for previously unseen CAPs."
+  - **Evidence pointer** Results section, "Chromnitron accurately predicts cell-type-specific CAP binding" and "In silico perturbations reveal principles of protein-DNA interaction"; Supplementary Figures 4, 19; location not provided
+  - **Concern** The evaluation of unseen proteins and cell types is described, but the criteria for "unseen" are not defined. For example, are unseen proteins those with no homologs in training, or simply not present in the training set? The performance on unseen cell types is only evaluated with a prototype model trained on two cell types, which may not reflect the full model's capability. The de novo prediction for unseen CAPs is mentioned but not quantified.
+  - **Why it matters** Generalization to unseen contexts is the key differentiator of this model. If the evaluation protocol is not clear or the performance is not quantified, the claim is not substantiated.
+  - **Resolution test** Clearly define the split criteria for unseen proteins and cell types. Provide quantitative results for these evaluations, including comparisons to baselines. For unseen cell types, evaluate the full model, not just a prototype.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability and biological insight
+  - **Claim pointer** The manuscript claims that in silico mutagenesis "recapitulate canonical TF consensus motifs" and that Chromnitron "learns protein domain features relevant for their binding specificity."
+  - **Evidence pointer** Results section, "In silico perturbations reveal principles of protein-DNA interaction"; Figures 2E–G; Supplementary Figures 15–18; location not provided
+  - **Concern** The interpretability analyses are described qualitatively. For example, the claim that impact motifs align with known motifs is not supported by quantitative comparisons (e.g., motif enrichment scores). The protein mutagenesis analysis is described as identifying high-impact residues that align with DNA-binding domains, but no statistical enrichment is reported.
+  - **Why it matters** The interpretability of the model is a claimed advantage, and the biological insights derived from it are part of the manuscript's contribution. Without quantitative support, these claims are anecdotal.
+  - **Resolution test** Provide quantitative motif enrichment analyses (e.g., comparison to known motif databases) and statistical tests for domain enrichment. Show examples of novel motifs with validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods, "Model architecture"; location not provided
+  - **Issue** The description of the multimodal fusion and attention mechanism is high-level. The exact dimensions, number of layers, and how the three modalities are combined are not fully specified.
+  - **Required correction** Provide a more detailed architecture description, including tensor shapes, layer counts, and a clear explanation of the fusion strategy. A table of hyperparameters would be helpful.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Methods, "Model pretraining and fine-tuning"; location not provided
+  - **Issue** The training procedure is described, but key details such as batch size, learning rate schedule, data augmentation, and early stopping criteria are not fully specified. The use of FP32 for pretraining and TF32 for fine-tuning is mentioned but not justified.
+  - **Required correction** Include all training hyperparameters and a description of the optimization procedure. Justify the choice of precision formats.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Training data composition
+  - **Evidence pointer** Methods, "Genomic data collection"; location not provided
+  - **Issue** The manuscript states that 1,105 ChIP-seq datasets covering 767 CAPs across five cell types were used, but the distribution of datasets across cell types and CAPs is not described. The criteria for dataset inclusion and quality filtering are not detailed.
+  - **Required correction** Provide a breakdown of datasets by cell type and CAP, and describe the quality control criteria used for inclusion.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Benchmarking fairness
+  - **Affected element** Baseline comparisons
+  - **Evidence pointer** Results, "Chromnitron accurately predicts cell-type-specific CAP binding"; location not provided
+  - **Issue** The comparison to baselines is described, but it is unclear whether the baselines were trained on the same data and with the same evaluation protocol. The use of a prototype model for some comparisons may not be a fair assessment.
+  - **Required correction** Clarify the training and evaluation setup for all baselines. Ensure that comparisons are made under identical conditions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Results, "Chromnitron accurately predicts cell-type-specific CAP binding"; location not provided
+  - **Issue** The manuscript mentions "remarkable performance" and "markedly outperformed" without reporting confidence intervals or statistical tests.
+  - **Required correction** Report confidence intervals and perform statistical significance tests for all performance comparisons.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative performance data), R1-M2 (insufficient experimental detail), R1-M3 (unclear generalizability evaluation), R1-M4 (lack of quantitative interpretability analysis)
+- **Assessment against Nature-style criteria** Originality: High. The multimodal integration of protein sequence, DNA sequence, and chromatin accessibility in a single foundation model is a novel contribution. Scientific importance: Potentially high, as it addresses a fundamental problem in regulatory genomics and offers a generalizable framework. Interdisciplinary readership: The work bridges machine learning, genomics, and molecular biology, and would appeal to a broad audience if the claims are substantiated. Technical soundness: The methods are described in detail and appear technically sound, but the lack of visible quantitative results prevents a full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with deep learning and genomics terminology. The abstract and introduction are clear, but the results section relies heavily on figures that were not provided.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance and potential impact are significant, but the manuscript cannot be accepted in its current form because the core claims are not verifiable from the provided text. The authors must provide the missing figures and quantitative data, and strengthen the experimental validation sections.
+
+## Risk / unsupported claims
+- The claim that Chromnitron "accurately predicts CAP-binding profiles on par with experimental replicates" is unsupported without numerical metrics.
+- The claim of "markedly outperformed" existing models is unsupported without benchmarking results.
+- The biological discoveries (ZNF865, ZNF766) are described but not substantiated with experimental data.
+- The claim that in silico mutagenesis "recapitulate canonical TF consensus motifs" is unsupported without quantitative motif analysis.
+- The claim that Chromnitron "enables de novo prediction of CAP binding profiles for previously unseen CAPs" is not quantified.
+- The claim of "unprecedented scale of functional genomic prediction" is not supported by any scale metrics.
+- The efficiency gains from the OuterMix algorithm are described but not quantified.
+- The claim that Chromnitron "learns protein domain features relevant for their binding specificity" is not supported by statistical enrichment analysis.

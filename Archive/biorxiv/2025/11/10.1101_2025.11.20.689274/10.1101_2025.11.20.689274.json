@@ -1,0 +1,213 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.20.689274",
+  "title": "Dissecting sequence determinants of DNA methylation and in silico perturbation",
+  "doi": "10.1101/2025.11.20.689274",
+  "abstract": "DNA methylation shapes cellular identity and genome function, yet the sequence logic that governs its establishment remains largely unresolved. Here we present MethylAI, a cross-species–pretrained and human-specialized deep learning framework that predicts single-CpG methylation states directly from genomic sequence with high fidelity. Through quantitative attribution, MethylAI uncovers intrinsic cis-regulatory principles embedded in DNA, revealing conserved transcription factor (TF) motifs whose influence extends beyond CpG composition. Activated motifs demarcate gene-body CpG islands, encode lineage-defining methylation states, and align with TF occupancy and diverse histone modifications, thereby linking sequence syntax to local chromatin regulation. CTCF perturbation experiments validated MethylAI-predicted methylation shifts at activated motifs, showing strong concordance with in silico perturbations. Mapping genetic variants onto methylation-linked active motifs further uncovered widespread connections to zinc-finger TF families, providing mechanistic insight into how noncoding variation contributes to human traits and diseases. By transforming DNA sequence into interpretable methylation grammar, MethylAI establishes a generalizable framework for decoding the regulatory architecture of the human epigenome.",
+  "authors": [
+    "Chen F",
+    "Zhang Q",
+    "Zhu S",
+    "Liang J",
+    "Zhong S",
+    "Zhang Z",
+    "Su J",
+    "Guo Y",
+    "Fan X",
+    "Zhang Y",
+    "Yu F"
+  ],
+  "published_date": "2025-11-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689274",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689274.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1122708",
+    "raw_record": {
+      "id": "PPR1122708",
+      "source": "PPR",
+      "doi": "10.1101/2025.11.20.689274",
+      "title": "Dissecting sequence determinants of DNA methylation and in silico perturbation",
+      "authorString": "Chen F, Zhang Q, Zhu S, Liang J, Zhong S, Zhang Z, Su J, Guo Y, Fan X, Zhang Y, Yu F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen F",
+            "lastName": "Chen",
+            "firstName": "Faming",
+            "initials": "F"
+          },
+          {
+            "fullName": "Zhang Q",
+            "lastName": "Zhang",
+            "firstName": "Qinhao",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Zhu S",
+            "lastName": "Zhu",
+            "firstName": "Shiwei",
+            "initials": "S"
+          },
+          {
+            "fullName": "Liang J",
+            "lastName": "Liang",
+            "firstName": "Jinxia",
+            "initials": "J"
+          },
+          {
+            "fullName": "Zhong S",
+            "lastName": "Zhong",
+            "firstName": "Siyun",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Zehong",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Su J",
+            "lastName": "Su",
+            "firstName": "Jianzhong",
+            "initials": "J"
+          },
+          {
+            "fullName": "Guo Y",
+            "lastName": "Guo",
+            "firstName": "Yangfan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Fan X",
+            "lastName": "Fan",
+            "firstName": "Xiaoying",
+            "initials": "X"
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Yan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Yu F",
+            "lastName": "Yu",
+            "firstName": "Fulong",
+            "initials": "F"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "DNA methylation shapes cellular identity and genome function, yet the sequence logic that governs its establishment remains largely unresolved. Here we present MethylAI, a cross-species–pretrained and human-specialized deep learning framework that predicts single-CpG methylation states directly from genomic sequence with high fidelity. Through quantitative attribution, MethylAI uncovers intrinsic cis-regulatory principles embedded in DNA, revealing conserved transcription factor (TF) motifs whose influence extends beyond CpG composition. Activated motifs demarcate gene-body CpG islands, encode lineage-defining methylation states, and align with TF occupancy and diverse histone modifications, thereby linking sequence syntax to local chromatin regulation. CTCF perturbation experiments validated MethylAI-predicted methylation shifts at activated motifs, showing strong concordance with in silico perturbations. Mapping genetic variants onto methylation-linked active motifs further uncovered widespread connections to zinc-finger TF families, providing mechanistic insight into how noncoding variation contributes to human traits and diseases. By transforming DNA sequence into interpretable methylation grammar, MethylAI establishes a generalizable framework for decoding the regulatory architecture of the human epigenome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Key R&amp;D Program of Yunnan",
+            "grantId": "202403AC100002",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "32460155",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "32470634",
+            "orderIn": 0
+          },
+          {
+            "agency": "Clinical Medical Center for Cardiovascular Disease of Yunnan Province",
+            "grantId": "2024YNLCYXZX0195",
+            "orderIn": 0
+          },
+          {
+            "agency": "Major Project of Guangzhou National Laboratory",
+            "grantId": "GZNL2024A01003",
+            "orderIn": 0
+          },
+          {
+            "agency": "Key R&amp;D Program of Yunnan",
+            "grantId": "202302AD080004",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Key R&amp;D Program of China",
+            "grantId": "2023YFF1204701",
+            "orderIn": 0
+          },
+          {
+            "agency": "Major Project of Guangzhou National Laboratory",
+            "grantId": "GZNL2023A02002",
+            "orderIn": 0
+          },
+          {
+            "agency": "Guangdong Basic and Applied Basic Research Foundation",
+            "grantId": "2024B1515020080",
+            "orderIn": 0
+          },
+          {
+            "agency": "Talent Research Funding Project of Guangdong Provincial People&#146;s Hospital",
+            "grantId": "KY012023362",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.20.689274"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-21",
+      "firstPublicationDate": "2025-11-20",
+      "firstIndexDate": "2025-11-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

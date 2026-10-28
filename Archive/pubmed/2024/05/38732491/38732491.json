@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "38732491",
+    "doi": "10.3390/plants13091276",
+    "title": "Identification of Novel Regulators of Leaf Senescence Using a Deep Learning Model."
+  },
+  "content": {
+    "abstract": "Deep learning has emerged as a powerful tool for investigating intricate biological processes in plants by harnessing the potential of large-scale data. Gene regulation is a complex process that transcription factors (TFs), cooperating with their target genes, participate in through various aspects of biological processes. Despite its significance, the study of gene regulation has primarily focused on a limited number of notable instances, leaving numerous aspects and interactions yet to be explored comprehensively. Here, we developed DEGRN (Deep learning on Expression for Gene Regulatory Network), an innovative deep learning model designed to decipher gene interactions by leveraging high-dimensional expression data obtained from bulk RNA-Seq and scRNA-Seq data in the model plant Arabidopsis. DEGRN exhibited a compared level of predictive power when applied to various datasets. Through the utilization of DEGRN, we successfully identified an extensive set of 3,053,363 high-quality interactions, encompassing 1430 TFs and 13,739 non-TF genes. Notably, DEGRN's predictive capabilities allowed us to uncover novel regulators involved in a range of complex biological processes, including development, metabolism, and stress responses. Using leaf senescence as an example, we revealed a complex network underpinning this process composed of diverse TF families, including bHLH, ERF, and MYB. We also identified a novel TF, named MAF5, whose expression showed a strong linear regression relation during the progression of senescence. The mutant maf5 showed early leaf decay compared to the wild type, indicating a potential role in the regulation of leaf senescence. This hypothesis was further supported by the expression patterns observed across four stages of leaf development, as well as transcriptomics analysis. Overall, the comprehensive coverage provided by DEGRN expands our understanding of gene regulatory networks and paves the way for further investigations into their functional implications.",
+    "keywords": [
+      "deep learning",
+      "gene regulation network",
+      "leaf senescence",
+      "single-cell transcriptome analysis",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Chaocheng",
+        "Huang, Zhuoran",
+        "Chen, Jiahao",
+        "Yu, Guolong",
+        "Wang, Yudong",
+        "Wang, Xu"
+      ],
+      "short_names": [
+        "Guo C",
+        "Huang Z",
+        "Chen J",
+        "Yu G",
+        "Wang Y",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9267-8278"
+      ],
+      "affiliations": [
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Chaocheng",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhuoran",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiahao",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Guolong",
+        "short_name": "Yu G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yudong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-9267-8278"
+        ],
+        "affiliations": [
+          "Shanghai Collaborative Innovation Center of Agri-Seeds, Joint Center for Single Cell Biology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plants (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Plants (Basel)"
+    ],
+    "pub_date": "2024 May 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/11 19:44",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "42011563",
+      "41125905",
+      "38903438"
+    ],
+    "refs": [
+      "37789484",
+      "37706525",
+      "35134336",
+      "35039061",
+      "34687312",
+      "34562334",
+      "34557778",
+      "34530165",
+      "34287908",
+      "34214659",
+      "34174007",
+      "34045707",
+      "34037796",
+      "33974299",
+      "33955487",
+      "33846597",
+      "33824350",
+      "33822225",
+      "33725481",
+      "33631799",
+      "33522607",
+      "33400914",
+      "33152518",
+      "32871105",
+      "32579231",
+      "32311530",
+      "32246506",
+      "32027440",
+      "31822622",
+      "31817716",
+      "31708954",
+      "31599330",
+      "31006360",
+      "30923229",
+      "30718350",
+      "30547394",
+      "30445315",
+      "29735710",
+      "29491878",
+      "29272447",
+      "28957658",
+      "27924042",
+      "27666516",
+      "27655842",
+      "27203113",
+      "26494755",
+      "26390296",
+      "26216374",
+      "26201819",
+      "25533953",
+      "24659488",
+      "24567189",
+      "23926065",
+      "23250625",
+      "22796662",
+      "22708996",
+      "22268143",
+      "21689171",
+      "21673078",
+      "21059685",
+      "20488898",
+      "20388856",
+      "20156199",
+      "19114008",
+      "19088331",
+      "18835563",
+      "18797474",
+      "17999647",
+      "17960244",
+      "17376166",
+      "16603661",
+      "16400151",
+      "16344103",
+      "16038894",
+      "15980264",
+      "15923334",
+      "15604721",
+      "15215864",
+      "11323677",
+      "10096298",
+      "9707537",
+      "7948881"
+    ],
+    "similar": [
+      "38732491",
+      "27295368",
+      "30150852",
+      "24659488",
+      "25849479",
+      "37324695",
+      "34305965",
+      "18721312",
+      "22268143",
+      "31752425",
+      "21447789",
+      "32054475",
+      "32313054",
+      "21377757",
+      "23926065",
+      "26206233",
+      "37265004",
+      "36982696",
+      "37788349",
+      "36168811",
+      "35205426",
+      "35563875",
+      "19854800",
+      "33793897",
+      "36643763",
+      "38277833",
+      "31088368",
+      "21496241",
+      "36307979",
+      "25110882",
+      "38652750",
+      "33569692",
+      "29879919",
+      "30622549",
+      "30922232",
+      "32294898",
+      "33974299",
+      "24993183",
+      "35321646",
+      "22709441",
+      "23629833",
+      "20704747",
+      "30181903",
+      "30836615",
+      "37367898",
+      "31481223",
+      "36519581",
+      "29192149",
+      "26132509",
+      "31128694",
+      "34608238",
+      "35064997",
+      "24803504",
+      "31651254",
+      "37289769",
+      "30811218",
+      "29648620",
+      "22898356",
+      "31072449",
+      "23539153",
+      "14617064",
+      "29534430",
+      "25920996",
+      "37085776",
+      "26734052",
+      "31361386",
+      "28973044",
+      "37686146",
+      "32634860",
+      "37108512",
+      "34063046",
+      "25928853",
+      "31856735",
+      "34174007",
+      "26071420",
+      "23184988",
+      "15949531",
+      "26552372",
+      "21981858",
+      "24228871",
+      "37047111",
+      "32002335",
+      "22784627",
+      "26547795",
+      "33410920",
+      "25532107",
+      "38337133",
+      "30646631",
+      "31412781",
+      "28198676",
+      "17177638",
+      "33153500",
+      "34424948",
+      "21172055",
+      "24064769",
+      "37789484"
+    ],
+    "review": [
+      "38732491",
+      "18721312",
+      "38277833",
+      "32294898",
+      "30811218",
+      "15949531",
+      "38337133",
+      "17177638"
+    ],
+    "pmc": [
+      "11085074"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=plants13091276",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38732491/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38732491",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

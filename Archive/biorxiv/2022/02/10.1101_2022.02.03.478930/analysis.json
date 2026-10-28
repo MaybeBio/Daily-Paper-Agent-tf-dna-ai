@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.03.478930",
+  "title": "Comprehensive analysis of next-generation sequencing data in COVID-19 and its secondary complications",
+  "authors": "Giriyappagoudar M; Vastrad B; Horakeri R; Vastrad C",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-04",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文分析COVID-19测序数据中的差异表达基因及调控网络，虽含TF-hub基因网络但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "The ongoing pandemic of coronavirus disease 2019 (COVID-19) has made a serious public health threat globally. To discover key molecular changes in COVID-19 and its secondary complications, we analyzed next-generation sequencing (NGS) data of COVID-19. NGS data (GSE163151) was screened and downloaded from the Gene Expression Omnibus database (GEO). Differentially expressed genes (DEGs) were identified in the present study, using DESeq2 package in R programming software. Gene ontology (GO) and pathway enrichment analysis were performed, and the protein-protein interaction (PPI) network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network were established. Subsequently, receiver operating characteristic curve (ROC) analysis was used to validate the diagonostics valuesof the hub genes. Firstly, 954 DEGs (477 up regulated and 477 down regulated) were identified from the four NGS dataset. GO enrichment analysis revealed enrichment of DEGs in genes related to the immune system process and multicellular organismal process, and REACTOME pathway enrichment analysis showed enrichment of DEGs in the immune system and formation of the cornified envelope. Hub genes were identified from the PPI network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network. Furthermore, the ROC analysis indicate that COVID-19 and its secondary complications with following hub genes, namely, RPL10, FYN, FLNA, EEF1A1, UBA52, BMI1, ACTN2, CRMP1, TRIM42 and PTCH1, had good diagnostics values. This study identified several genes associated with COVID-19 and its secondary complications, which improves our knowledge of the disease mechanism.",
+  "abstract_zh": "持续蔓延的2019冠状病毒病（COVID-19）大流行已对全球公共卫生构成严重威胁。为揭示COVID-19及其继发并发症中的关键分子变化，我们分析了COVID-19的下一代测序（NGS）数据。从基因表达综合数据库（GEO）中筛选并下载了NGS数据（GSE163151）。本研究使用R编程软件中的DESeq2包识别差异表达基因（DEGs）。进行了基因本体论（GO）和通路富集分析，并构建了蛋白质-蛋白质相互作用（PPI）网络、模块分析、miRNA-枢纽基因调控网络和转录因子（TF）-枢纽基因调控网络。随后，采用受试者工作特征曲线（ROC）分析验证枢纽基因的诊断价值。首先，从四个NGS数据集中识别出954个DEGs（477个上调，477个下调）。GO富集分析显示DEGs在与免疫系统过程和多细胞生物过程相关的基因中富集，REACTOME通路富集分析显示DEGs在免疫系统和角质化包膜形成中富集。从PPI网络、模块分析、miRNA-枢纽基因调控网络和TF-枢纽基因调控网络中识别出枢纽基因。此外，ROC分析表明，COVID-19及其继发并发症与以下枢纽基因，即RPL10、FYN、FLNA、EEF1A1、UBA52、BMI1、ACTN2、CRMP1、TRIM42和PTCH1，具有良好的诊断价值。本研究识别了多个与COVID-19及其继发并发症相关的基因，这增进了我们对疾病机制的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.03.478930",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.03.478930",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.03.478930/index.html"
+}

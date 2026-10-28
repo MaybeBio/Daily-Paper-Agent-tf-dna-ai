@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39012568",
+    "doi": "10.1007/s00894-024-06067-z",
+    "title": "Uncovering potential CDK9 inhibitors from natural compound databases through docking-based virtual screening and MD simulations."
+  },
+  "content": {
+    "abstract": "CONTEXT: Cyclin-dependent kinase 9 (CDK9) plays a significant role in gene regulation and RNA polymerase II transcription under basal and stimulated conditions. The upregulation of transcriptional homeostasis by CDK9 leads to various malignant tumors and therefore acts as a valuable drug target in addressing cancer incidences. Ongoing drug development endeavors targeting CDK9 have yielded numerous clinical candidate molecules currently undergoing investigation as potential CDK9 modulators, though none have yet received Food and Drug Administration (FDA) approval. METHODS: In this study, we employ in silico approaches including the molecular docking and molecular dynamics simulations for the virtual screening over the natural compounds library to identify novel promising selective CDK9 inhibitors. The compounds derived from the initial virtual screening were subsequently employed for molecular dynamics simulations and binding free energy calculations to study the compound's stability under virtual physiological conditions. The first-generation CDK inhibitor Flavopiridol was used as a reference to compare with our novel hit compound as a CDK9 antagonist. The 500-ns molecular dynamics simulation and binding free energy calculation showed that two natural compounds showed better binding affinity and interaction mode with CDK9 receptors over the reference Flavopiridol. They also showed reasonable figures in the predicted absorption, distribution, metabolism, excretion, and toxicity (ADMET) calculations as well as in computational cytotoxicity predictions. Therefore, we anticipate that the proposed scaffolds could contribute to developing potential and selective CDK9 inhibitors subjected to further validations.",
+    "keywords": [
+      "Cancer",
+      "Cyclin-dependent kinases (CDKs)",
+      "Molecular docking",
+      "Molecular dynamics simulations",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Cyclin-Dependent Kinase 9/antagonists & inhibitors/metabolism/chemistry",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "*Protein Kinase Inhibitors/chemistry/pharmacology",
+      "Humans",
+      "Protein Binding",
+      "Biological Products/chemistry/pharmacology",
+      "Flavonoids/chemistry/pharmacology",
+      "Piperidines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Pooja",
+        "Kumar, Vikas",
+        "Jung, Tae Sung",
+        "Lee, Jeong Sang",
+        "Lee, Keun Woo",
+        "Hong, Jong Chan"
+      ],
+      "short_names": [
+        "Singh P",
+        "Kumar V",
+        "Jung TS",
+        "Lee JS",
+        "Lee KW",
+        "Hong JC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3734-175X",
+        "ORCID: 0000-0003-4468-3459"
+      ],
+      "affiliations": [
+        "Division of Applied Life Science, (BK21 Four), Plant Molecular Biology and Biotechnology Research Center (PMBBRC), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea.",
+        "Department of Bio & Medical Big Data (BK4 Program), Division of Life Sciences, Research Institute of Natural Science (RINS), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea.",
+        "Computational Biophysics Lab, Basque Center for Materials, Applications, and Nanostructures (BCMaterials), Building Martina Casiano, Pl. 3 Parque Cientifico UPV/EHU Barrio Sarriena, 48940, Leioa, Spain.",
+        "Laboratory of Aquatic Animal Diseases, College of Veterinary Medicine, Research Institute of Natural Science, Gyeongsang National University, Jinju, 52828, Republic of Korea.",
+        "GSCRO, Research Spin-Off Company, Innopolis Jeonbuk, Jeonju, 55069, Korea.",
+        "Department of Food and Nutrition, College of Medical Science, Jeonju University, Jeonju, 55069, Republic of Korea.",
+        "Department of Bio & Medical Big Data (BK4 Program), Division of Life Sciences, Research Institute of Natural Science (RINS), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea. kwlee@gnu.ac.kr.",
+        "Angel I-Drug Design (AiDD), 33-3 Jinyangho-Ro 44, Jinju, 52650, Republic of Korea. kwlee@gnu.ac.kr.",
+        "Division of Applied Life Science, (BK21 Four), Plant Molecular Biology and Biotechnology Research Center (PMBBRC), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea. jchong@gnu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Pooja",
+        "short_name": "Singh P",
+        "identifiers": [
+          "0000-0003-3734-175X"
+        ],
+        "affiliations": [
+          "Division of Applied Life Science, (BK21 Four), Plant Molecular Biology and Biotechnology Research Center (PMBBRC), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kumar, Vikas",
+        "short_name": "Kumar V",
+        "identifiers": [
+          "0000-0003-4468-3459"
+        ],
+        "affiliations": [
+          "Department of Bio & Medical Big Data (BK4 Program), Division of Life Sciences, Research Institute of Natural Science (RINS), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea.",
+          "Computational Biophysics Lab, Basque Center for Materials, Applications, and Nanostructures (BCMaterials), Building Martina Casiano, Pl. 3 Parque Científico UPV/EHU Barrio Sarriena, 48940, Leioa, Spain."
+        ]
+      },
+      {
+        "full_name": "Jung, Tae Sung",
+        "short_name": "Jung TS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aquatic Animal Diseases, College of Veterinary Medicine, Research Institute of Natural Science, Gyeongsang National University, Jinju, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeong Sang",
+        "short_name": "Lee JS",
+        "identifiers": [],
+        "affiliations": [
+          "GSCRO, Research Spin-Off Company, Innopolis Jeonbuk, Jeonju, 55069, Korea.",
+          "Department of Food and Nutrition, College of Medical Science, Jeonju University, Jeonju, 55069, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Keun Woo",
+        "short_name": "Lee KW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio & Medical Big Data (BK4 Program), Division of Life Sciences, Research Institute of Natural Science (RINS), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea. kwlee@gnu.ac.kr.",
+          "Angel I-Drug Design (AiDD), 33-3 Jinyangho-Ro 44, Jinju, 52650, Republic of Korea. kwlee@gnu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Hong, Jong Chan",
+        "short_name": "Hong JC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Science, (BK21 Four), Plant Molecular Biology and Biotechnology Research Center (PMBBRC), Gyeongsang National University (GNU), 501 Jinju-Daero, Jinju, 52828, Republic of Korea. jchong@gnu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2024 Jul 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/16 12:45",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42049837",
+      "41594554",
+      "41075096",
+      "40230495",
+      "39089617"
+    ],
+    "refs": [
+      "37935912",
+      "37244149",
+      "36675202",
+      "36087428",
+      "35708082",
+      "35271993",
+      "35039800",
+      "34811514",
+      "34223559",
+      "34041038",
+      "32866383",
+      "32781071",
+      "32071145",
+      "30227759",
+      "29139324",
+      "29118092",
+      "28720122",
+      "28174091",
+      "27797603",
+      "27171036",
+      "27031562",
+      "26766294",
+      "26620784",
+      "25860834",
+      "25420233",
+      "25180339",
+      "24850022",
+      "21882947",
+      "21541964",
+      "21534921",
+      "21425293",
+      "21333571",
+      "20971684",
+      "18566585",
+      "18469809",
+      "16106379",
+      "12612645",
+      "12036371",
+      "11259830",
+      "9126849",
+      "8744570"
+    ],
+    "similar": [
+      "39012568",
+      "32781071",
+      "36562191",
+      "35980073",
+      "30688165",
+      "27171036",
+      "32866383",
+      "23296566",
+      "25596730",
+      "38269624",
+      "37956676",
+      "30557817",
+      "29683402",
+      "18566585",
+      "32911607",
+      "21088252",
+      "24102143",
+      "39149808",
+      "29550093",
+      "21639898",
+      "17956865",
+      "37403288",
+      "37581526",
+      "32471245",
+      "36774892",
+      "30052133",
+      "20201073",
+      "22276149",
+      "32120300",
+      "27715402",
+      "36799050",
+      "38898093",
+      "37244149",
+      "19757441",
+      "35049884",
+      "30798436",
+      "28852971",
+      "22391209",
+      "33581551",
+      "38685605",
+      "21484792",
+      "28605994",
+      "32611550",
+      "37462851",
+      "38856753",
+      "31603123",
+      "34156395",
+      "32342802",
+      "29182053",
+      "36087428",
+      "24886624",
+      "32070031",
+      "25909811",
+      "34647738",
+      "38878756",
+      "38159453",
+      "20851342",
+      "34948218",
+      "18473913",
+      "32402934",
+      "37424193",
+      "34814708",
+      "21143121",
+      "28486912",
+      "32447197",
+      "30253346",
+      "32934219",
+      "30196207",
+      "33917039",
+      "37029759",
+      "36332552",
+      "36615314",
+      "32315834",
+      "32770459",
+      "31172362",
+      "35410409",
+      "28651979",
+      "12054639",
+      "26349627",
+      "34443556",
+      "30025343",
+      "35949161",
+      "30423939",
+      "28627969",
+      "28338290",
+      "36378653",
+      "35208955",
+      "20980437",
+      "37688373",
+      "27488304",
+      "23247501",
+      "35032738",
+      "23252711",
+      "17942543",
+      "26766294",
+      "34727985",
+      "36990409",
+      "26686753",
+      "31376566",
+      "37349947",
+      "22976951",
+      "29334340",
+      "31262335",
+      "39169082",
+      "39310674",
+      "37643015",
+      "39216402",
+      "37855345",
+      "38785951",
+      "39425154",
+      "39189018",
+      "36854448",
+      "39360537",
+      "38864978",
+      "39279120",
+      "39096645",
+      "39417979",
+      "39286883",
+      "39368143",
+      "39363725",
+      "39263808",
+      "39298888",
+      "34207158",
+      "38902503",
+      "37701513",
+      "39170746"
+    ],
+    "review": [
+      "39012568",
+      "32866383",
+      "19757441",
+      "18473913",
+      "26766294"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-024-06067-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

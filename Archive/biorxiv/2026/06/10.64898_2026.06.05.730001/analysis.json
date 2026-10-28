@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.05.730001",
+  "title": "Multi-level, multi-body atomic interaction graphs for machine learning-based prediction of protein-ligand binding energies",
+  "authors": "Tram TH. Le; Huy Vo; Nhat HM. Nguyen; Binh T. Nguyen; Duc Duy Nguyen",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-07",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络预测蛋白-配体结合亲和力，虽非TF-DNA体系，但多体原子相互作用图建模方法可迁移至蛋白质-DNA互作界面预测。",
+  "abstract": "Accurate prediction of binding affinity is crucial for rational drug design and discovery. Traditional computational methods often rely on complex scoring functions that incorporate a multitude of physical and chemical descriptors, leading to high computational demands and sometimes limited generalizability. In this work, we propose a novel scoring function that models multi-level, multi-body atomic interactions using graph-based representations. Our method constructs comprehensive interaction graphs that incorporate both pairwise and triplet-wise atomic features that help capture cooperative spatial patterns essential for binding affinity prediction. By employing a feature fusion strategy, GMI-Score maintains model simplicity while enhancing accuracy. Extensive evaluation across multiple datasets, such as PDBbind v2013, PDBbind v2016, PDBbind v2020, CSAR-NRC-HiQ, and PDBbind-Redocked, demonstrates that our model consistently outperforms state-of-the-art scoring functions, achieving Pearson correlation coefficients up to 0.877. Furthermore, it retains strong predictive power under strict data leakage controls and realistic docking conditions to high-light its robustness and generalizability. Scientific Contribution In this study, we present a scoring methodology that systematically captures higher-order atomic interactions within a unified graph framework, making a conceptual shift in cheminformatics scoring functions. Its consistent outperformances of existing methods and strong validity under redocked and withheld atascenarios demonstrate its utility for broad-scale molecular modeling applications and open heminformaticsworkflows.",
+  "abstract_zh": "结合亲和力的准确预测对于理性药物设计和发现至关重要。传统计算方法通常依赖于包含多种物理和化学描述符的复杂评分函数，导致计算需求高且有时泛化能力有限。在本研究中，我们提出了一种新颖的评分函数，利用基于图的表示来建模多层次、多体原子相互作用。我们的方法构建了全面的相互作用图，其中包含成对和三重原子特征，这些特征有助于捕捉对结合亲和力预测至关重要的协同空间模式。通过采用特征融合策略，GMI-Score在保持模型简洁性的同时提高了准确性。在多个数据集上的广泛评估，如PDBbind v2013、PDBbind v2016、PDBbind v2020、CSAR-NRC-HiQ和PDBbind-Redocked，表明我们的模型始终优于最先进的评分函数，实现了高达0.877的皮尔逊相关系数。此外，在严格的数据泄漏控制和实际对接条件下，它仍保持强大的预测能力，凸显了其稳健性和泛化性。科学贡献 在本研究中，我们提出了一种评分方法，在统一的图框架内系统性地捕捉高阶原子相互作用，这在化学信息学评分函数中实现了概念性转变。其持续优于现有方法的表现，以及在重新对接和保留数据集场景下的强有效性，证明了其在广泛分子建模应用和开放化学信息学工作流程中的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730001",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730001",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.05.730001/index.html"
+}

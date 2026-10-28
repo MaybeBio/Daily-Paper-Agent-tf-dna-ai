@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "40453984",
+    "doi": "10.2147/COPD.S510846",
+    "title": "Identifying Common Diagnostic Biomarkers and Therapeutic Targets between COPD and Sepsis: A Bioinformatics and Machine Learning Approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Evidence suggests a bidirectional association between chronic obstructive pulmonary disease (COPD) and sepsis, but the underlying mechanisms remain unclear. This study aimed to explore shared diagnostic genes, potential mechanisms, and the role of immune cells in the COPD-sepsis relationship using Mendelian randomization (MR) and bioinformatics approaches, while also identifying potential therapeutic drugs. METHODS: Two-sample MR analysis was performed using genome-wide association data to assess genetically predicted COPD and sepsis. Immune cell-mediated effects were quantified using a two-way two-sample MR analysis. Differential expression gene (DEG) analysis and weighted gene co-expression network analysis (WGCNA) were used to identify common genes. Functional enrichment analyses were conducted to explore the biological roles of these genes. LASSO and SVM-RFE algorithms identified shared diagnostic genes, which were evaluated using receiver operating characteristic (ROC) curves. Immune cell infiltration was analyzed with CIBERSORT, while transcription factor (TF) and miRNA networks were constructed using NetworkAnalyst. Drug predictions were made using DSigDB, and molecular docking validated potential drugs. RESULTS: Three immune cell types were identified as mediators between COPD and sepsis, with genetically predicted effects mediated by these cells at rates of 6.5%, 12.8%, and 3.9%. A total of 33 overlapping genes were identified, and AIM2 and RNF125 were highlighted as key diagnostic genes. Immune infiltration analysis revealed dysregulated monocyte, macrophage, plasma, and dendritic cells. Regulatory network analysis identified nine key co-regulators. Ten potential drug targets were identified, with seven validated via molecular docking. CONCLUSION: AIM2 and RNF125 may serve as diagnostic biomarkers, and identified immune cell subsets could mediate the COPD-sepsis connection, offering insights into potential therapeutic targets.",
+    "keywords": [
+      "Mendelian randomization",
+      "chronic obstructive pulmonary disease",
+      "co-diagnostic genes",
+      "comprehensive bioinformatics analysis",
+      "immune cells",
+      "machine learning",
+      "molecular docking",
+      "predictive drugs",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pulmonary Disease, Chronic Obstructive/genetics/diagnosis/drug therapy/immunology",
+      "*Sepsis/genetics/diagnosis/drug therapy/immunology",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Genome-Wide Association Study",
+      "Mendelian Randomization Analysis",
+      "Genetic Predisposition to Disease",
+      "Molecular Docking Simulation",
+      "Predictive Value of Tests",
+      "Biomarkers",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xinyi",
+        "Xiao, Yuyang",
+        "Yang, Meng",
+        "Zhang, Xupeng",
+        "Yuan, Zhangchi",
+        "Zhang, Zaiqiu",
+        "Zhang, Hanyong",
+        "Liu, Lin",
+        "Zhao, Mingyi"
+      ],
+      "short_names": [
+        "Li X",
+        "Xiao Y",
+        "Yang M",
+        "Zhang X",
+        "Yuan Z",
+        "Zhang Z",
+        "Zhang H",
+        "Liu L",
+        "Zhao M"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1727-3979",
+        "ORCID: 0009-0002-9330-0274",
+        "ORCID: 0009-0002-7726-0241",
+        "ORCID: 0000-0002-2884-0736"
+      ],
+      "affiliations": [
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Development of Novel Pharmaceutical Preparations, Changsha Medical University, Changsha, 410219, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China.",
+        "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xinyi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yuyang",
+        "short_name": "Xiao Y",
+        "identifiers": [
+          "0009-0007-1727-3979"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Meng",
+        "short_name": "Yang M",
+        "identifiers": [
+          "0009-0002-9330-0274"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xupeng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Zhangchi",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zaiqiu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hanyong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Development of Novel Pharmaceutical Preparations, Changsha Medical University, Changsha, 410219, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0009-0002-7726-0241"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Mingyi",
+        "short_name": "Zhao M",
+        "identifiers": [
+          "0000-0002-2884-0736"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital of Central South University, Changsha, Hunan, 410013, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of chronic obstructive pulmonary disease"
+    ],
+    "journal_abbrev": [
+      "Int J Chron Obstruct Pulmon Dis"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 06:28",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "41809453",
+      "41399648",
+      "41318717",
+      "41079049"
+    ],
+    "refs": [
+      "39647487",
+      "38819446",
+      "37951197",
+      "37946194",
+      "37563621",
+      "37534739",
+      "37365091",
+      "37233751",
+      "37086629",
+      "36912495",
+      "36819547",
+      "36794439",
+      "36573636",
+      "36359774",
+      "36332811",
+      "36304809",
+      "35965501",
+      "35832381",
+      "35715504",
+      "35670956",
+      "35533707",
+      "35216346",
+      "34895164",
+      "34521812",
+      "34507265",
+      "34325468",
+      "34014039",
+      "34008206",
+      "33961203",
+      "33798017",
+      "33505023",
+      "33381656",
+      "33279869",
+      "32946794",
+      "32941422",
+      "32929287",
+      "32856188",
+      "32745458",
+      "32712030",
+      "32690231",
+      "32660715",
+      "32631717",
+      "32589363",
+      "32559619",
+      "32498634",
+      "32377471",
+      "32357909",
+      "32301392",
+      "32184108",
+      "31954465",
+      "31938164",
+      "31628655",
+      "31509517",
+      "31190075",
+      "30959045",
+      "30205516",
+      "29884286",
+      "29846171",
+      "29686387",
+      "29487724",
+      "29449899",
+      "29442524",
+      "29251177",
+      "29149188",
+      "29146235",
+      "29079157",
+      "28813641",
+      "28743646",
+      "28527048",
+      "28505344",
+      "28476934",
+      "28358376",
+      "28010132",
+      "27328971",
+      "27061298",
+      "26927800",
+      "26903338",
+      "26374280",
+      "26366554",
+      "26338799",
+      "25990557",
+      "25591766",
+      "25064373",
+      "24198245",
+      "24114802",
+      "23245604",
+      "22483801",
+      "21414999",
+      "20981092",
+      "20429416",
+      "19499576",
+      "19158676",
+      "19158675",
+      "19131956",
+      "19131592",
+      "19033363",
+      "18518822",
+      "18074465",
+      "17765528",
+      "15843525",
+      "12202830",
+      "11752295",
+      "11327101",
+      "10592235",
+      "1935902"
+    ],
+    "similar": [
+      "40453984",
+      "39346628",
+      "39142001",
+      "40332792",
+      "40093012",
+      "40129981",
+      "40350654",
+      "41052072",
+      "39029061",
+      "41340627",
+      "40274954",
+      "39845878",
+      "41863100",
+      "41479901",
+      "40768057",
+      "39962573",
+      "40406126",
+      "40617086",
+      "41859015",
+      "40964458",
+      "41570454",
+      "35350787",
+      "40362669",
+      "39691970",
+      "40161396",
+      "40108736",
+      "40588645",
+      "41328289",
+      "40755754",
+      "41013727",
+      "41132649",
+      "41214111",
+      "40787468",
+      "41137279",
+      "39139563",
+      "40165133",
+      "41399492",
+      "42099899",
+      "38873611",
+      "39344484",
+      "41868721",
+      "40374840",
+      "40421012",
+      "39586719",
+      "41013556",
+      "39509434",
+      "40909263",
+      "40830558",
+      "40207230",
+      "41080564",
+      "41155519",
+      "40849369",
+      "38912048",
+      "39950836",
+      "40747360",
+      "40681713",
+      "39763654",
+      "41044520",
+      "39512681",
+      "40244418",
+      "39430765",
+      "41611834",
+      "41432483",
+      "40425742",
+      "41909697",
+      "39730379",
+      "40524719",
+      "40754871",
+      "41333919",
+      "41316541",
+      "41731716",
+      "38711508",
+      "41816328",
+      "40328901",
+      "41605052",
+      "41142807",
+      "40045538",
+      "40394719",
+      "41563994",
+      "37115484",
+      "38863714",
+      "41300841",
+      "42004467",
+      "41246299",
+      "35637927",
+      "40898483",
+      "39780155",
+      "39349929",
+      "39717623",
+      "41788971",
+      "38440848",
+      "41739808",
+      "39375405",
+      "41239605",
+      "39953444",
+      "40826767",
+      "41132669",
+      "38851159",
+      "37057099",
+      "40374866"
+    ],
+    "review": [
+      "40453984"
+    ],
+    "pmc": [
+      "12126980"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40453984/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/COPD.S510846",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

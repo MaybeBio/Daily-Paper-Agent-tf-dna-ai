@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39380054",
+    "doi": "10.1186/s13287-024-03969-w",
+    "title": "Single-cell dissection reveals promotive role of ENO1 in leukemia stem cell self-renewal and chemoresistance in acute myeloid leukemia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Quiescent self-renewal of leukemia stem cells (LSCs) and resistance to conventional chemotherapy are the main factors leading to relapse of acute myeloid leukemia (AML). Alpha-enolase (ENO1), a key glycolytic enzyme, has been shown to regulate embryonic stem cell differentiation and promote self-renewal and malignant phenotypes in various cancer stem cells. Here, we sought to test whether and how ENO1 influences LSCs renewal and chemoresistance within the context of AML. METHODS: We analyzed single-cell RNA sequencing data from bone marrow samples of 8 relapsed/refractory AML patients and 4 healthy controls using bioinformatics and machine learning algorithms. In addition, we compared ENO1 expression levels in the AML cohort with those in 37 control subjects and conducted survival analyses to correlate ENO1 expression with clinical outcomes. Furthermore, we performed functional studies involving ENO1 knockdown and inhibition in AML cell line. RESULTS: We used machine learning to model and infer malignant cells in AML, finding more primitive malignant cells in the non-response (NR) group. The differentiation capacity of LSCs and progenitor malignant cells exhibited an inverse correlation with glycolysis levels. Trajectory analysis indicated delayed myeloid cell differentiation in NR group, with high ENO1-expressing LSCs at the initial stages of differentiation being preserved post-treatment. Simultaneously, ENO1 and stemness-related genes were upregulated and co-expressed in malignant cells during early differentiation. ENO1 level in our AML cohort was significantly higher than the controls, with higher levels in NR compared to those in complete remission. Knockdown of ENO1 in AML cell line resulted in the activation of LSCs, promoting cell differentiation and apoptosis, and inhibited proliferation. ENO1 inhibitor can impede the proliferation of AML cells. Furthermore, survival analyses associated higher ENO1 expression with poorer outcome in AML patients. CONCLUSIONS: Our findings underscore the critical role of ENO1 as a plausible driver of LSC self-renewal, a potential target for AML target therapy and a biomarker for AML prognosis.",
+    "keywords": [
+      "ENO1",
+      "AML",
+      "Chemoresistance",
+      "LSCs",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/metabolism/pathology/drug therapy/genetics",
+      "*Phosphopyruvate Hydratase/metabolism/genetics",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Tumor Suppressor Proteins/metabolism/genetics",
+      "Female",
+      "*Drug Resistance, Neoplasm",
+      "*Single-Cell Analysis",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Male",
+      "Middle Aged",
+      "Cell Self Renewal",
+      "Adult",
+      "Cell Line, Tumor",
+      "Cell Differentiation",
+      "Aged",
+      "Biomarkers, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Yun",
+        "Guo, Jiafan",
+        "Mao, Lipeng",
+        "Chen, Zhixi",
+        "Zhang, Xingwei",
+        "Li, Yangqiu",
+        "Zhang, Yikai",
+        "Zha, Xianfeng",
+        "Luo, Oscar Junhong"
+      ],
+      "short_names": [
+        "Tian Y",
+        "Guo J",
+        "Mao L",
+        "Chen Z",
+        "Zhang X",
+        "Li Y",
+        "Zhang Y",
+        "Zha X",
+        "Luo OJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1266-3069"
+      ],
+      "affiliations": [
+        "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China.",
+        "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+        "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China. yanqiuli@hotmail.com.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. yanqiuli@hotmail.com.",
+        "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China. jnuyikaizhang@163.com.",
+        "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. jnuyikaizhang@163.com.",
+        "Guangdong Provincial Key Laboratory of Spine and Spinal Cord Reconstruction, The Fifth Affiliated Hospital of Jinan University (Heyuan Shenhe People's Hospital), Jinan University, Heyuan, 517000, China. jnuyikaizhang@163.com.",
+        "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. zhaxianfeng_0@163.com.",
+        "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China. luojh@jnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Yun",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China.",
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+          "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jiafan",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+          "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Lipeng",
+        "short_name": "Mao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhixi",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China.",
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xingwei",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China.",
+          "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yangqiu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China. yanqiuli@hotmail.com.",
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. yanqiuli@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yikai",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Regenerative Medicine of Ministry of Education, Institute of Hematology, Jinan University, Guangzhou, 510632, China. jnuyikaizhang@163.com.",
+          "Department of Hematology, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. jnuyikaizhang@163.com.",
+          "Guangdong Provincial Key Laboratory of Spine and Spinal Cord Reconstruction, The Fifth Affiliated Hospital of Jinan University (Heyuan Shenhe People's Hospital), Jinan University, Heyuan, 517000, China. jnuyikaizhang@163.com."
+        ]
+      },
+      {
+        "full_name": "Zha, Xianfeng",
+        "short_name": "Zha X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. zhaxianfeng_0@163.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Oscar Junhong",
+        "short_name": "Luo OJ",
+        "identifiers": [
+          "0000-0002-1266-3069"
+        ],
+        "affiliations": [
+          "Department of Systems Biomedical Sciences, School of Medicine, Jinan University, Guangzhou, 510632, China. luojh@jnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell research & therapy"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Res Ther"
+    ],
+    "pub_date": "2024 Oct 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/09 00:23",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42467453",
+      "42213171",
+      "42196455",
+      "42048629",
+      "41823547",
+      "40557150"
+    ],
+    "refs": [
+      "38858750",
+      "38473245",
+      "38013255",
+      "37500770",
+      "37339578",
+      "37319434",
+      "37228781",
+      "37016705",
+      "36820953",
+      "36768924",
+      "36742185",
+      "36722405",
+      "36722403",
+      "36706355",
+      "36455613",
+      "36266736",
+      "36250203",
+      "36245043",
+      "35865470",
+      "35709751",
+      "35700013",
+      "35637521",
+      "35434271",
+      "35223487",
+      "35176279",
+      "35121990",
+      "34671213",
+      "34482364",
+      "34343492",
+      "34335983",
+      "34272396",
+      "34246314",
+      "34237654",
+      "34103536",
+      "33953856",
+      "33579362",
+      "33494824",
+      "33462507",
+      "33318144",
+      "33290546",
+      "32518943",
+      "32024967",
+      "31740819",
+      "31245788",
+      "31207603",
+      "30827681",
+      "30787437",
+      "29913409",
+      "29538538",
+      "28407145",
+      "28159741",
+      "27926740",
+      "27280437",
+      "27104376",
+      "26592446",
+      "26376137",
+      "25941818",
+      "25867923",
+      "25516281",
+      "24678812",
+      "24658644",
+      "24607403",
+      "23993337",
+      "23323831",
+      "22455463",
+      "22258766",
+      "21539722",
+      "21383193",
+      "21149340",
+      "20463365",
+      "20435467",
+      "20395242",
+      "20087440",
+      "18084642",
+      "17253940",
+      "16483794",
+      "15378077",
+      "11017702",
+      "7509044"
+    ],
+    "similar": [
+      "39380054",
+      "31784425",
+      "40752747",
+      "33067426",
+      "40462177",
+      "32174258",
+      "34711181",
+      "18200595",
+      "28548950",
+      "34167558",
+      "31097000",
+      "39536753",
+      "28137265",
+      "28468777",
+      "33108352",
+      "39828712",
+      "26387756",
+      "37334727",
+      "36906205",
+      "31519687",
+      "35461365",
+      "33633448",
+      "30858548",
+      "41168198",
+      "26678889",
+      "33159047",
+      "30472158",
+      "31438833",
+      "39720891",
+      "38750343",
+      "38517039",
+      "28193998",
+      "27008269",
+      "33494824",
+      "36593968",
+      "40866598",
+      "27801668",
+      "32040550",
+      "39841459",
+      "24639110",
+      "30106501",
+      "31218757",
+      "41107983",
+      "40700577",
+      "28137304",
+      "40976411",
+      "33579362",
+      "37828578",
+      "33893245",
+      "28397012",
+      "32580769",
+      "35803452",
+      "39726280",
+      "28710745",
+      "28245563",
+      "34407399",
+      "38579286",
+      "31968250",
+      "31431517",
+      "41353343",
+      "26559765",
+      "23988911",
+      "40250439",
+      "41410498",
+      "30922328",
+      "38271660",
+      "30540936",
+      "41208958",
+      "33539590",
+      "32252668",
+      "36245043",
+      "37872214",
+      "41082341",
+      "25737450",
+      "34411647",
+      "40621878",
+      "30172749",
+      "28525970",
+      "40543323",
+      "39503165",
+      "29910151",
+      "25887760",
+      "36890137",
+      "41035257",
+      "33369192",
+      "38424136",
+      "26279267",
+      "31756985",
+      "37031536",
+      "34477035",
+      "28951561",
+      "25545165",
+      "39948547",
+      "31134500",
+      "33599085",
+      "28518151",
+      "39623456",
+      "27611922",
+      "40440957",
+      "23249862"
+    ],
+    "review": [
+      "39380054",
+      "28137265",
+      "38750343",
+      "28137304",
+      "35803452",
+      "37031536"
+    ],
+    "pmc": [
+      "11463110"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-024-03969-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39380054/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-70",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

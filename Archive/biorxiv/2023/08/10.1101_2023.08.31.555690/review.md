@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, data availability, funding, author contributions, and acknowledgements
+- **Assessment boundary** Scientific content, technical soundness, structural biology quality, biochemical validation, in vivo functional correlation, and evolutionary claims
+- **Shared manuscript claim summary** The authors present the 2.05-Å crystal structure of the bacteriophage λ RexA dimer, revealing a two-domain architecture with structural homology to RdgC. They propose a closed-to-open conformational change required for DNA binding, supported by mutagenesis, EMSA, limited proteolysis, and DEER spectroscopy. They report that DNA binding does not correlate with T4 rII exclusion in vivo, but that a D215W mutant with enhanced DNA binding promotes lytic transition in a cro-deficient background. They also show that RexA homologs from other temperate phages dimerize and bind DNA non-specifically.
+- **Visible evidence base** Crystal structure (PDB 8TWQ), SEC-MALS data, EMSA data, limited proteolysis gels, DEER spectroscopy data, in vivo phage exclusion assays, papillation assays, sequence alignments, and AlphaFold models
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw data files for papillation counts not available; AlphaFold model coordinates not deposited; DEER raw time-domain data not shown; no structural coordinates for homolog models
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-executed structural and biochemical characterization of the λ RexA protein, with the first atomic-resolution structure of this phage exclusion factor. The structural homology to RdgC is intriguing and the conformational change hypothesis is supported by multiple independent biochemical approaches. However, several concerns regarding the interpretation of the in vivo data, the strength of the conformational change evidence, and the generalizability of the homolog claims require careful consideration. The manuscript is technically sound in its core structural work but would benefit from additional experimental support for some of the broader functional claims.
+- **Who would be interested in the results, and why** Researchers studying phage-bacteria interactions, anti-phage defense systems, bistable genetic switches, and structural biology of DNA-binding proteins. The work also has relevance to those interested in the evolution of bacterial defense mechanisms and the diverse functions of phage-encoded proteins. The structural homology to RdgC may attract investigators studying recombination-associated proteins.
+- **Major strengths** The crystal structure is determined at high resolution (2.05 Å) with good refinement statistics. The identification of structural homology to RdG C is unexpected and provides a framework for understanding RexA function. The combination of multiple biochemical techniques (EMSA, limited proteolysis, DEER) to support the conformational change hypothesis is commendable. The inclusion of in vivo functional assays bridges the structural work to biological relevance. The demonstration that RexA homologs from diverse phages share biochemical properties extends the significance beyond λ.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional interpretation
+  - **Claim pointer** The authors claim that "DNA binding is not a strict requirement for phage exclusion" based on the observation that mutants with impaired DNA binding still exclude T4 rII.
+  - **Evidence pointer** Results section "RexA DNA binding does not correlate with T4 rII exclusion", Figure 6
+  - **Concern** The conclusion that DNA binding is not required for phage exclusion is based on a limited set of mutants. The R219A/K221A mutant completely abolishes DNA binding in vitro, yet the authors report it still excludes T4 rII. However, the in vivo assay used measures plaque formation, which is a qualitative readout. The authors do not provide quantitative measurements of exclusion efficiency, such as efficiency of plating (EOP) values. A partial reduction in exclusion that still prevents plaque formation at the dilutions tested would be consistent with the data but would not support the strong claim that DNA binding is dispensable.
+  - **Why it matters** This claim is central to the manuscript's thesis that RexA's DNA binding activity is functionally separable from its role in phage exclusion. If the in vivo assay lacks sensitivity to detect partial defects, the conclusion may be overstated. This distinction is important for understanding the molecular mechanism of RexA function.
+  - **Resolution test** Provide quantitative EOP measurements for wildtype and mutant RexA strains across a range of phage dilutions. If the DNA-binding mutants show reduced but not abolished exclusion, the claim should be revised to reflect a partial requirement. Alternatively, complementation experiments with DNA-binding defective mutants in a rexA null background would strengthen the conclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conformational change evidence
+  - **Claim pointer** The authors claim that DEER spectroscopy supports a DNA-dependent conformational change in RexA, with distances changing from 5.43 nm (closed) to 2.41 nm (open).
+  - **Evidence pointer** Results section "Mutational analysis supports a DNA-dependent conformational change in RexA", Figure 5B-D
+  - **Concern** The DEER data show a distance distribution centered around 5.8 nm for apo RexA and 2.0 nm in the presence of DNA. While this is consistent with the predicted closed and open conformations, the authors do not provide error estimates or confidence intervals for these distances. Additionally, the D215W mutant, which is proposed to mimic the open conformation, was not directly measured by DEER in the absence of DNA. The control experiment with D168C shows no change upon DNA binding, which is reassuring, but the lack of a D215W DEER measurement weakens the claim that this mutation stabilizes the open state.
+  - **Why it matters** The conformational change model is a key mechanistic proposal of the manuscript. Without direct evidence that D215W adopts the open conformation in solution, the interpretation of the enhanced DNA binding phenotype remains speculative. The DEER data support a DNA-induced change but do not directly demonstrate that the D215W mutation mimics this change.
+  - **Resolution test** Perform DEER measurements on the D215W mutant in the absence of DNA to determine if it adopts a distance distribution similar to the DNA-bound wildtype. Additionally, provide error estimates for the distance distributions and consider using multiple spin label positions to increase confidence in the conformational change model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary claims
+  - **Claim pointer** The authors state that "RexA homologs from other temperate phages also dimerize and bind DNA in vitro" and suggest this indicates a conserved function.
+  - **Evidence pointer** Results section "RexA homologs bind DNA non-specifically", Figure 7
+  - **Concern** The manuscript demonstrates that three homologs (Sbash gp30, CarolAnn gp44, Toast gp42) dimerize and bind DNA. However, the evolutionary relationship between these proteins and λ RexA is not quantitatively assessed. The authors do not provide sequence identity/similarity values or a phylogenetic analysis. The claim that these represent "RexA homologs" is based on sequence similarity, but the degree of conservation is not documented. Furthermore, the functional significance of DNA binding by these homologs in their native phage contexts is not addressed.
+  - **Why it matters** The evolutionary claims extend the significance of the work beyond λ. Without a clear demonstration of the evolutionary relationships and functional conservation, the generalizability of the findings is uncertain. The presence of DNA binding activity in vitro does not necessarily indicate that these proteins perform the same function in their native contexts.
+  - **Resolution test** Provide a phylogenetic analysis of RexA homologs with sequence identity/similarity values. If possible, test whether the homologs can complement RexA function in λ or demonstrate that they interact with their cognate RexB partners. At minimum, discuss the sequence conservation in the context of the structural model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors model an open conformation of RexA based on structural homology to RdgC and AlphaFold predictions, suggesting that "significant reorganization of the globular domains would be required for DNA binding."
+  - **Evidence pointer** Results section "Structural homology with RdgC implicates a conserved mode of DNA binding", Figures 2-3
+  - **Concern** The open conformation model is based on computational predictions and homology to RdgC, but no experimental structure of the open state is provided. The AlphaFold model is mentioned but not shown or validated. The authors do not provide a quantitative comparison between the modeled open conformation and the RdgC structure to support the proposed conformational change. The claim that the closed conformation "occludes" DNA binding is based on visual inspection rather than quantitative analysis.
+  - **Why it matters** The conformational change model is central to the manuscript's mechanistic proposal. Without experimental validation of the open state, the model remains speculative. The authors have DEER data that support a change in distance between spin labels, but this does not directly demonstrate the proposed domain reorganization.
+  - **Resolution test** Provide a more detailed analysis of the modeled open conformation, including a comparison with the RdgC structure. Consider using small-angle X-ray scattering (SAXS) or hydrogen-deuterium exchange mass spectrometry to experimentally validate the conformational change. If the open conformation cannot be experimentally validated, the claims should be tempered.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5A
+  - **Evidence pointer** Results section "Mutational analysis supports a DNA-dependent conformational change in RexA"
+  - **Issue** The limited proteolysis data are presented as a single gel image. The authors state that "five major undigested fragments appear when DNA is added," but the fragments are not labeled or quantified. The difference between wildtype and mutant patterns is described qualitatively.
+  - **Required correction** Label the proteolytic fragments and provide densitometry quantification. Consider showing a time course of proteolysis to better demonstrate the protective effect of DNA binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Figure 6E
+  - **Evidence pointer** Results section "D251W promotes transition to the lytic state in vivo"
+  - **Issue** The papillation data are presented as scatterplots, but no statistical analysis is described. The authors state that D215W produces "more colonies with >10 papillation events per colony" but do not provide a statistical test to support this claim.
+  - **Required correction** Provide statistical analysis (e.g., Mann-Whitney U test or ANOVA) for the papillation counts. State the number of biological replicates and the statistical significance level.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Title and text
+  - **Evidence pointer** Throughout
+  - **Issue** The title states "novel insights" but the concept of RexA as a DNA binding protein was previously established by the authors' earlier work. The novelty lies in the structural details, which should be emphasized more precisely.
+  - **Required correction** Consider revising the title to emphasize the structural findings, such as "Crystal structure of bacteriophage λ RexA reveals a closed conformation and DNA-dependent conformational changes"
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** DEER spectroscopy
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The DEER spectroscopy methods lack important experimental details, including the spin label used, labeling efficiency, buffer conditions, and data analysis parameters. The authors state that measurements were performed at 60 K using a home-built spectrometer but do not provide sufficient detail for reproducibility.
+  - **Required correction** Provide complete experimental details for DEER spectroscopy, including spin labeling protocol, buffer composition, and data analysis software and parameters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss the limitations of their conformational change model. The DEER data are consistent with a DNA-dependent change, but the authors acknowledge that "a more thorough mapping of the λ RexA structure by PDS techniques in the future will be valuable." This limitation should be more prominently discussed in the context of the overall conclusions.
+  - **Required correction** Add a paragraph in the Discussion acknowledging the limitations of the current evidence for the conformational change model and outlining specific future experiments to address these limitations.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of quantitative in vivo exclusion data (R1-M1). The qualitative plaque assay may not be sensitive enough to detect partial defects in exclusion. Additionally, the DEER data for the D215W mutant in the absence of DNA would strengthen the conformational change model (R1-M2). The evolutionary claims would benefit from a quantitative sequence analysis (R1-M3). The structural interpretation of the open conformation would be strengthened by experimental validation (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The crystal structure of λ RexA is novel and provides the first atomic-resolution view of this protein. The structural homology to RdgC is unexpected and provides new evolutionary insights. However, the concept of RexA as a DNA binding protein was previously established, and the conformational change model, while plausible, is not entirely unprecedented given the known flexibility of DNA-binding proteins.
+  - **Scientific importance** The work advances understanding of phage exclusion mechanisms and the regulation of lysogenic-lytic transitions. The potential connection to RdgC and broader evolutionary implications for anti-phage defense systems adds significance. However, the functional importance of RexA DNA binding in the context of phage exclusion remains unclear, and the in vivo data do not fully resolve this question.
+  - **Interdisciplinary readership** The work will appeal to structural biologists, phage biologists, and those studying bacterial defense systems. The evolutionary connections to RdgC may attract a broader audience interested in protein evolution and function. However, the specialized nature of the phage exclusion system may limit the breadth of interest.
+  - **Technical soundness** The structural work is technically sound with good resolution and refinement statistics. The biochemical assays are appropriate and well-executed. The main technical weakness is the lack of quantitative in vivo data and the incomplete validation of the conformational change model.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction provides sufficient background for understanding the Rex system. However, some sections, particularly the structural description, may be challenging for nonspecialists. The figures are clear and support the text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural work is solid and the biochemical data are compelling. However, the in vivo functional claims require quantitative support, and the conformational change model would benefit from additional validation. The evolutionary claims should be tempered until a more rigorous sequence analysis is provided.

@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "42605800",
+    "doi": "10.1093/nar/gkag820",
+    "title": "DeepPNI: a language- and graph-based model for mutation-driven protein-nucleic acid binding energetics."
+  },
+  "content": {
+    "abstract": "Protein-nucleic acid interactions (PNIs) are central to fundamental biological processes, and mutations can disrupt these interactions by altering local structural features and binding free energy. Here, we present DeepPNI, a deep learning regression model that integrates sequence- and structure-based features to estimate mutation-induced changes in binding free energy in protein-nucleic acid complexes. The model was developed using a comprehensive dataset of 1754 mutations spanning protein-DNA and protein-RNA complexes, representing one of the largest curated datasets for PNI binding free energy prediction. Structural features were encoded using an edge-aware relational graph convolutional network, while sequence features were represented using the Evolutionary Scale Modeling 2 protein language model. Despite the increased dataset size and heterogeneity, DeepPNI achieved an overall Pearson correlation coefficient of 0.76 in five-fold cross-validation. Consistent performance was observed across protein-DNA and protein-RNA subsets, datasets grouped by experimental temperature, and external blind test datasets, suggesting robustness against dataset heterogeneity. DeepPNI is freely available as a web server at https://research.iitbhilai.ac.in/molinfo/deeppni.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Mutation",
+      "Protein Binding",
+      "*RNA/chemistry/metabolism/genetics",
+      "*DNA/chemistry/metabolism/genetics",
+      "*DNA-Binding Proteins/genetics/chemistry/metabolism",
+      "*Deep Learning",
+      "Graph Neural Networks",
+      "*Software",
+      "*RNA-Binding Proteins/genetics/chemistry/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Somnath",
+        "Mondal, Tinkal",
+        "Pramanik, Soumajit",
+        "Mehra, Rukmankesh"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Mondal T",
+        "Pramanik S",
+        "Mehra R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6010-1514"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India.",
+        "Department of Bioscience and Biomedical Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India.",
+        "Department of Computer Science and Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India.",
+        "Department of Chemistry, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India.",
+        "Department of Bioscience and Biomedical Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Somnath",
+        "short_name": "Mondal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Tinkal",
+        "short_name": "Mondal T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Biomedical Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India."
+        ]
+      },
+      {
+        "full_name": "Pramanik, Soumajit",
+        "short_name": "Pramanik S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India."
+        ]
+      },
+      {
+        "full_name": "Mehra, Rukmankesh",
+        "short_name": "Mehra R",
+        "identifiers": [
+          "0000-0001-6010-1514"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India.",
+          "Department of Bioscience and Biomedical Engineering, Indian Institute of Technology Bhilai, Durg, Chhattisgarh 491002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/17 11:40",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41242392",
+      "41139314",
+      "41107297",
+      "40966495",
+      "40719555",
+      "40594444",
+      "40349948",
+      "40032118",
+      "40013003",
+      "39913370",
+      "39256728",
+      "38458968",
+      "37931730",
+      "36927031",
+      "36481587",
+      "36281733",
+      "36167828",
+      "34805992",
+      "34606614",
+      "34389843",
+      "34343273",
+      "34039967",
+      "33961438",
+      "33872313",
+      "31697913",
+      "30533007",
+      "30341220",
+      "29588420",
+      "28383703",
+      "27830784",
+      "27503141",
+      "26506533",
+      "25925569",
+      "25870409",
+      "25075907",
+      "24691053",
+      "24281696",
+      "23665295",
+      "22399265",
+      "20877328",
+      "20864052",
+      "20516128",
+      "20182602",
+      "19265799",
+      "16339886",
+      "15779906",
+      "11724731"
+    ],
+    "similar": [
+      "42605800",
+      "28383703",
+      "40601256",
+      "40719555",
+      "41045511",
+      "42349588",
+      "34905768",
+      "33872313",
+      "39847079",
+      "42412843",
+      "39596413",
+      "39833102",
+      "33577689",
+      "41339092",
+      "39858648",
+      "39576589",
+      "25977296",
+      "40646507",
+      "38491248",
+      "32920048",
+      "40119464",
+      "30933978",
+      "42083872",
+      "39214282",
+      "19357098",
+      "25940624",
+      "28132027",
+      "40391089",
+      "32621227",
+      "38783112",
+      "26776208",
+      "37824738",
+      "31483777",
+      "38281252",
+      "40914361",
+      "27936518",
+      "40662818",
+      "33454744",
+      "25474259",
+      "37745556",
+      "34606614",
+      "38830995",
+      "40143108",
+      "19487258",
+      "27720642",
+      "31395671",
+      "29253082",
+      "30423078",
+      "25935161",
+      "41686649",
+      "25760613",
+      "35150250",
+      "38718170",
+      "39256728",
+      "22373313",
+      "42377576",
+      "30535108",
+      "42288985",
+      "35662456",
+      "39892680",
+      "41168713",
+      "40343467",
+      "42190366",
+      "40544633",
+      "27198220",
+      "40914406",
+      "22238259",
+      "39478454",
+      "23912807",
+      "40919912",
+      "11691931",
+      "40359455",
+      "31513916",
+      "22574904",
+      "24475169",
+      "29722865",
+      "24209914",
+      "34932484",
+      "29091991",
+      "17326079",
+      "29125747",
+      "26068746",
+      "39270885",
+      "39240325",
+      "32866236",
+      "40331414",
+      "42584949",
+      "39546630",
+      "26156556",
+      "42468752",
+      "42475469",
+      "28245811",
+      "31106363",
+      "32144844",
+      "30962376",
+      "20478832",
+      "32243832",
+      "40449614",
+      "42235009",
+      "36516298"
+    ],
+    "review": [
+      "42605800",
+      "39833102",
+      "29253082",
+      "25935161",
+      "40544633",
+      "42468752"
+    ],
+    "pmc": [
+      "13478755"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42605800/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag820",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

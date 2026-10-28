@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report 100 microseconds of molecular dynamics simulations of free Cre recombinase, starting from five structures representing different stages of intasome assembly. They propose that the linker between the CBD and CAT domains is an intrinsically disordered region (IDR), that the C-terminal Helix N in the CAT domain is also an IDR transiently forming an autoinhibited complex, that the active site can assemble without DNA albeit inefficiently, that the CAT domain exhibits clam-like motion, and that Helix A in the CBD domain slides like a windshield wiper. They conclude that free Cre samples primed DNA-binding surfaces and uses conformational selection during intasome assembly.
+- **Visible evidence base** Abstract text only; no simulation methods, force field parameters, convergence analyses, structural validation, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field choice, equilibration protocol, convergence assessment, free energy calculations, structural ensembles, comparison to experimental data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious computational study aimed at characterizing the conformational landscape of free Cre recombinase, a protein for which high-resolution structural information is lacking. The central claims regarding IDR behavior, autoinhibition, and conformational selection are biologically plausible and potentially significant for understanding intasome assembly. However, the abstract alone provides insufficient evidence to evaluate the technical rigor of the simulations, the statistical significance of the observed dynamics, or the robustness of the conclusions. The claims are qualitatively stated without quantitative support, and several assertions appear to exceed what can be established from the described evidence. The work is potentially interesting to the genome engineering and site-specific recombination communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in genome engineering, particularly those using Cre-loxP systems for genetic modification, would be interested in understanding the initial steps of intasome assembly. Computational biophysicists studying intrinsically disordered regions and conformational selection mechanisms in multidomain proteins would also find the approach relevant. Structural biologists studying recombinase family proteins may value the proposed dynamic model of free Cre, which complements existing static complex structures.
+- **Major strengths** The study addresses a genuine gap in knowledge, as free Cre structure is indeed missing from the PDB. The use of long-timescale simulations (100 microseconds) is appropriate for sampling domain rearrangements and transient interactions. The proposal that the linker and Helix N are IDRs is a testable hypothesis that could guide future experimental work. The concept of conformational selection with primed DNA-binding surfaces provides a mechanistic framework for intasome assembly.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that 100 microseconds of molecular dynamics simulations, starting from five Cre structures, generate an ensemble in which the linker is an IDR and Helix N is an IDR that transiently forms an autoinhibited complex.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no information on the force field, water model, temperature/pressure coupling, equilibration protocol, or simulation software. It is also unclear whether the five starting structures were simulated independently for 100 microseconds each or whether the total aggregate time is 100 microseconds. No convergence analysis is described, and no metrics are given to support the IDR assignments or the transient nature of the autoinhibited complex.  
+  - **Why it matters** Without these details, the reliability of the simulated ensemble cannot be assessed. IDR classification depends on order parameters and statistical sampling that must be validated. The claim of transient autoinhibition requires evidence of reversible binding and unbinding events with sufficient sampling.  
+  - **Resolution test** Provide full methods, convergence metrics (e.g., RMSD time series, block averaging, replica comparisons), and quantitative definitions of IDR behavior (e.g., secondary structure propensity, radius of gyration distributions). Show that the autoinhibited state is sampled multiple times with reversible transitions.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the active site can be assembled in the absence of DNA, albeit inefficiently, and that the CAT domain has a clam-like motion opening and closing the cavity where Helix N docks.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative data are presented to support the claim of active site assembly. The term "inefficiently" is undefined. The clam-like motion is described qualitatively without metrics such as principal component analysis, distance distributions between domain lobes, or free energy profiles.  
+  - **Why it matters** These claims are central to the proposed mechanism of priming and autoinhibition. Without quantitative descriptors, the reader cannot judge whether the observed motions are statistically significant or merely thermal fluctuations.  
+  - **Resolution test** Provide quantitative measures of active site geometry (e.g., catalytic residue distances) over time, with a defined threshold for "assembled." Show a free energy surface or probability distribution for the clam-like motion, with error bars from independent simulations.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The authors conclude that free Cre uses conformational selection, with primed DNA-binding surfaces in both domains, during intasome assembly.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not compare the simulated free Cre ensemble to the known Cre-DNA complex structures in a systematic way. The claim of "primed" surfaces implies a pre-existing population of conformations resembling the bound state, but no overlap metrics, clustering analyses, or structural comparisons are described.  
+  - **Why it matters** Conformational selection is a specific mechanistic hypothesis that requires demonstrating that bound-like conformations exist in the free ensemble with appreciable population. Without such evidence, the conclusion is speculative.  
+  - **Resolution test** Perform clustering of the simulated ensemble and quantify the population of conformations that match the DNA-bound structures (e.g., via RMSD to known complexes). Show that these populations are non-negligible and that binding kinetics would favor selection over induced fit.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Simulation time description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "100 mus of molecular dynamics simulations" is ambiguous regarding whether this is total aggregate time or per-replica time.  
+  - **Required correction** Specify the number of replicas and the simulation length per replica, e.g., "five independent 20 microsecond simulations totaling 100 microseconds."
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** IDR assignment  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "intrinsically disordered region" is used for both the linker and Helix N, but the abstract does not clarify whether this assignment is based on sequence prediction, simulation metrics, or both.  
+  - **Required correction** State the criteria used for IDR classification, such as secondary structure propensity below a threshold or lack of stable tertiary contacts.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to experimental data  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions that high-resolution structures of free Cre are missing, but does not reference any experimental validation of the simulated ensemble, such as SAXS, FRET, or hydrogen-deuterium exchange data.  
+  - **Required correction** If available, include a statement on how the simulations compare to any experimental solution data, or explicitly note the absence of such validation as a limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, quantitative support, and systematic comparison to known complex structures prevents the central claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses a novel question, as free Cre dynamics have not been characterized computationally. The proposal of IDR-mediated autoinhibition is a fresh perspective. However, the originality is tempered by the absence of a clear advance over existing simulation studies of recombinase systems.  
+  - Scientific importance: Understanding the initial steps of intasome assembly is important for genome engineering applications. The potential to explain how Cre primes itself for DNA binding is significant, but the importance is not fully realized without robust evidence.  
+  - Interdisciplinary readership: The topic bridges computational biophysics, structural biology, and genome engineering. The abstract is written in a way that is accessible to nonspecialists, but the lack of quantitative detail limits its utility to experts.  
+  - Technical soundness: Not assessable from the abstract. The absence of simulation parameters, convergence checks, and statistical analyses is a major gap.  
+  - Readability for nonspecialists: The abstract is clearly written and uses accessible analogies such as "windshield wiper" and "clam-like motion." However, the term "intasome" and the domain abbreviations may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the technical and quantitative support needed to validate the claims. A full manuscript with detailed methods, convergence analyses, and structural comparisons would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the linker and Helix N are IDRs is unsupported without simulation metrics or sequence-based predictions.
+- The claim that the active site can assemble in the absence of DNA is unsupported without quantitative geometric analysis.
+- The claim of "inefficient" active site assembly is undefined and not quantifiable from the abstract.
+- The claim of clam-like motion in the CAT domain is unsupported without principal component analysis or free energy calculations.
+- The claim of windshield wiper motion of Helix A is unsupported without trajectory analysis.
+- The conclusion of conformational selection is unsupported without population analysis of bound-like conformations in the free ensemble.
+- The statement that free Cre retains approximately 70% of its surface available for interaction with loxP is unsupported without solvent-accessible surface area calculations.

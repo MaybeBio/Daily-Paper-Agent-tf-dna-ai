@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose an ensemble learning method combining deep recurrent neural networks, convolutional feature extraction, and hard negative pattern mining to detect promoter sequences, with and without TATA-boxes, across four species. They report a new state-of-the-art performance exceeding 98% Matthews correlation coefficient (MCC) in all eight organism categories.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the stated MCC threshold, no dataset descriptions, no baseline comparisons, no statistical details
+- **Missing materials affecting confidence** Full methods, dataset composition and preprocessing, model architecture details, training and validation protocols, independent test set definitions, baseline method descriptions, error analysis, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to promoter prediction, combining established deep learning components with hard negative mining. However, the evidence provided is insufficient to evaluate the validity of the central performance claim. The reported MCC of over 98% across all eight categories is striking and would require rigorous benchmarking against diverse baselines and careful handling of data leakage to be credible. Without access to methodological details and full results, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory element prediction, particularly those developing deep learning methods for genomic sequence analysis. Researchers building genetic regulatory networks or studying promoter architecture across species would also find improved promoter detection tools relevant. The cross-species scope and TATA-box classification could appeal to those interested in regulatory evolution.
+- **Major strengths** The problem is well motivated and of clear biological importance. The combination of convolutional feature extraction, recurrent networks, and hard negative mining is a sensible and potentially effective design. The claim of cross-species generalization across four species and eight categories suggests a broad evaluation scope, which is commendable if properly executed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method sets a new state-of-the-art of over 98% MCC in all eight organism categories for promoter recognition.
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Concern** The abstract provides no details on how the 98% MCC was computed, which datasets were used, how independent tests were constructed, or which baselines were compared. A universal MCC above 98% across all categories is unusually high for genomic sequence classification and raises questions about possible data leakage, class imbalance handling, or evaluation protocol artifacts.
+  - **Why it matters** Without transparent evaluation details, the central performance claim cannot be independently assessed. Overstated performance in genomic prediction is a known risk, and the community relies on rigorous benchmarking to trust new methods.
+  - **Resolution test** Provide full experimental setup including dataset splits, sequence length, positive and negative ratio, cross-validation or holdout strategy, and a comparison table against at least three published methods per category with statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The proposed ensemble learning technique uses deep recurrent neural networks with convolutional feature extraction and hard negative pattern mining.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not specify the model architecture, hyperparameters, training procedure, or how hard negative mining was implemented. Without these details, the method cannot be reproduced or compared fairly.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. A novel ensemble approach that is not fully specified cannot be validated or built upon by other researchers.
+  - **Resolution test** Include a detailed methods section with architecture diagrams, hyperparameter values, training epochs, loss functions, and pseudocode or code availability statement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The method detects promoter sequences with and without TATA-boxes within DNA sequences of four different species.
+  - **Evidence pointer** Abstract, scope statement; location not provided
+  - **Concern** The abstract does not clarify which four species were used, how representative they are of broader genomic diversity, or whether the TATA-box classification is a separate task or a subanalysis. The biological significance of the cross-species claim is therefore unclear.
+  - **Why it matters** Promoter structure varies substantially across taxa. Without specifying the species and justifying their selection, the generalizability claim is not interpretable.
+  - **Resolution test** List the four species, provide per-species performance breakdown, and discuss how the chosen species represent different promoter architectures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, overall text
+  - **Issue** The abstract mixes motivation, method, and results in a single dense paragraph, making it difficult to identify the key contribution quickly.
+  - **Required correction** Restructure the abstract into clear sections for background, methods, results, and conclusion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metric reporting
+  - **Evidence pointer** Abstract, results statement
+  - **Issue** Only MCC is reported. MCC alone does not convey precision, recall, or specificity, which are important for imbalanced genomic classification tasks.
+  - **Required correction** Report additional metrics such as sensitivity, specificity, precision, and F1-score, along with confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data description
+  - **Evidence pointer** Abstract, scope statement
+  - **Issue** The abstract does not state the source of the DNA sequences or the promoter annotation standards used.
+  - **Required correction** Specify the genome assemblies, annotation databases, and any filtering criteria applied to construct the datasets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claim and the method description are both insufficiently supported by the abstract alone. R1-M3, while not blocking, requires clarification for the cross-species claim to be meaningful.
+- **Assessment against Nature-style criteria** Originality: The combination of hard negative mining with deep ensembles for promoter detection is moderately novel, though each component is established. Scientific importance: Promoter prediction is a relevant problem, but the abstract does not demonstrate a conceptual advance beyond improved accuracy. Interdisciplinary readership: The work is primarily of interest to computational biologists; the abstract does not frame the findings for a broader biological or clinical audience. Technical soundness: Not assessable from the abstract due to missing methodological and evaluation details. Readability for nonspecialists: The abstract is accessible but lacks context on why the performance improvement matters biologically.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially strong method, but the central claims require full methodological transparency and rigorous benchmarking to be verified. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "new state-of-the-art" is unsupported without a full baseline comparison.
+- The universal MCC above 98% across all eight categories is unsupported and potentially misleading without evaluation details.
+- The cross-species generalizability claim is unverifiable without specifying the species and per-species results.
+- The effectiveness of hard negative mining as a contributing factor is not demonstrated in isolation.

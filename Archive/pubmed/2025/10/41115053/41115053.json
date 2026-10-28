@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "41115053",
+    "doi": "10.1021/acs.jcim.5c01437",
+    "title": "Assessment of the Binding Patterns for Endocrine Disrupting Chemicals in Complex with Estrogen and Androgen Receptors by Leveraging the Asclepios Enalos KNIME Nodes."
+  },
+  "content": {
+    "abstract": "Endocrine disrupting chemicals (EDCs) have been shown to mediate metabolic disruptions in human cells and have been associated with severe adverse health effects. By antagonizing the hormones that act on nuclear hormone receptors, like the estrogen receptor alpha (ERalpha) and the androgen receptor (AR), these chemicals disrupt the regulation of various biochemical processes, thereby adversely affecting metabolic homeostasis. The expression of estrogen and androgen receptors in the liver and pancreas, which play an important role in lipid and glucose homeostasis regulation, has made them prime targets affected by EDCs. The different chemical structures of EDCs impose limitations on elucidating their binding mechanisms in nuclear receptors. In this context, in silico tools are able to highlight the potential interactions between the chemicals and the receptors. The aim of this study is to apply molecular simulation and experimental techniques to identify common patterns in the binding process of selected EDCs to ERalpha and AR and, thus, pinpoint key elements that could be characterized as molecular initiating events (MIE). MM-GBSA and alchemical relative binding free energy (RBFE) calculations have verified the trends observed in the experimental assays regarding the binding affinity of bisphenol compounds. The findings that confirm the agreement between computational and experimental methods offer a framework for future studies on the behavior of EDCs with other metabolically relevant receptors.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Endocrine Disruptors/metabolism/chemistry",
+      "*Receptors, Androgen/metabolism/chemistry",
+      "Humans",
+      "Protein Binding",
+      "*Estrogen Receptor alpha/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "*Receptors, Estrogen/metabolism/chemistry",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tzoupis, Haralampos",
+        "Papadourakis, Michail",
+        "Papavasileiou, Konstantinos D",
+        "Burk, Oliver",
+        "Lauschke, Volker M",
+        "Tsoumanis, Andreas",
+        "Melagraki, Georgia",
+        "Afantitis, Antreas"
+      ],
+      "short_names": [
+        "Tzoupis H",
+        "Papadourakis M",
+        "Papavasileiou KD",
+        "Burk O",
+        "Lauschke VM",
+        "Tsoumanis A",
+        "Melagraki G",
+        "Afantitis A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2322-7422",
+        "ORCID: 0000-0002-1140-6204",
+        "ORCID: 0000-0001-7547-2342",
+        "ORCID: 0000-0002-0977-8180"
+      ],
+      "affiliations": [
+        "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+        "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+        "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+        "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus.",
+        "Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart 70376, Germany.",
+        "University of Tubingen, Tubingen 72074, Germany.",
+        "Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart 70376, Germany.",
+        "University of Tubingen, Tubingen 72074, Germany.",
+        "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm 17177, Sweden.",
+        "Department of Pharmacy, the Second Xiangya Hospital, Central South University, 139 Renmin, Changsha 410017, China.",
+        "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+        "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus.",
+        "Division of Physical Sciences and Applications, Hellenic Military Academy, Vari 16672, Greece.",
+        "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+        "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tzoupis, Haralampos",
+        "short_name": "Tzoupis H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+          "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Papadourakis, Michail",
+        "short_name": "Papadourakis M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece."
+        ]
+      },
+      {
+        "full_name": "Papavasileiou, Konstantinos D",
+        "short_name": "Papavasileiou KD",
+        "identifiers": [
+          "0000-0002-2322-7422"
+        ],
+        "affiliations": [
+          "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+          "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Burk, Oliver",
+        "short_name": "Burk O",
+        "identifiers": [],
+        "affiliations": [
+          "Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart 70376, Germany.",
+          "University of Tübingen, Tübingen 72074, Germany."
+        ]
+      },
+      {
+        "full_name": "Lauschke, Volker M",
+        "short_name": "Lauschke VM",
+        "identifiers": [
+          "0000-0002-1140-6204"
+        ],
+        "affiliations": [
+          "Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart 70376, Germany.",
+          "University of Tübingen, Tübingen 72074, Germany.",
+          "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm 17177, Sweden.",
+          "Department of Pharmacy, the Second Xiangya Hospital, Central South University, 139 Renmin, Changsha 410017, China."
+        ]
+      },
+      {
+        "full_name": "Tsoumanis, Andreas",
+        "short_name": "Tsoumanis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+          "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Melagraki, Georgia",
+        "short_name": "Melagraki G",
+        "identifiers": [
+          "0000-0001-7547-2342"
+        ],
+        "affiliations": [
+          "Division of Physical Sciences and Applications, Hellenic Military Academy, Vari 16672, Greece."
+        ]
+      },
+      {
+        "full_name": "Afantitis, Antreas",
+        "short_name": "Afantitis A",
+        "identifiers": [
+          "0000-0002-0977-8180"
+        ],
+        "affiliations": [
+          "Department of ChemoInformatics, NovaMechanics Ltd., Nicosia CY-1070, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE., Piraeus GR-185 45, Greece.",
+          "Division of Data Driven Innovation, Entelos Institute, Larnaca CY-6059, Cyprus."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/20 18:29",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40216312",
+      "40200431",
+      "39997924",
+      "39558165",
+      "39312176",
+      "38791255",
+      "38494006",
+      "38447786",
+      "38442602",
+      "37532173",
+      "36697634",
+      "36674785",
+      "35477414",
+      "35461094",
+      "35455978",
+      "35157438",
+      "35089383",
+      "34760182",
+      "34638561",
+      "34406000",
+      "34354111",
+      "34125331",
+      "34084371",
+      "33728745",
+      "33328560",
+      "32899216",
+      "32707118",
+      "32407980",
+      "32299655",
+      "31521998",
+      "31415812",
+      "31287713",
+      "31092862",
+      "30682876",
+      "30658300",
+      "30569509",
+      "30465854",
+      "30009950",
+      "29993249",
+      "29914135",
+      "29389661",
+      "29104009",
+      "28746339",
+      "27729652",
+      "27580485",
+      "27544113",
+      "26804600",
+      "26574453",
+      "26303083",
+      "25927714",
+      "25487359",
+      "25455890",
+      "25071315",
+      "24998974",
+      "24909511",
+      "23460719",
+      "23360585",
+      "23074026",
+      "22927406",
+      "22482773",
+      "21982300",
+      "21935973",
+      "21899826",
+      "21163906",
+      "21117705",
+      "19548705",
+      "19499576",
+      "18678925",
+      "17132855",
+      "15328534",
+      "15273660",
+      "15231873",
+      "15116359",
+      "11937504",
+      "9875847",
+      "8530400"
+    ],
+    "similar": [
+      "41115053",
+      "30857347",
+      "33799614",
+      "25282305",
+      "25349334",
+      "24928891",
+      "23707773",
+      "32208804",
+      "32786601",
+      "40200431",
+      "40178351",
+      "28319747",
+      "40059543",
+      "32003036",
+      "39694292",
+      "25349983",
+      "32973678",
+      "30633647",
+      "21053929",
+      "40970403",
+      "40216312",
+      "31127318",
+      "40243467",
+      "29392883",
+      "29295509",
+      "23973438",
+      "33557243",
+      "26379041",
+      "40484165",
+      "36113621",
+      "40455734",
+      "29777833",
+      "38710238",
+      "41197816",
+      "34859678",
+      "39245003",
+      "40228673",
+      "27684650",
+      "18921983",
+      "32656810",
+      "33640727",
+      "31760044",
+      "20546840",
+      "21327625",
+      "23384675",
+      "33064576",
+      "23279634",
+      "29055205",
+      "34444624",
+      "31336298",
+      "31325560",
+      "40828129",
+      "30668916",
+      "25260197",
+      "26210185",
+      "23688835",
+      "35988584",
+      "32392092",
+      "34452687",
+      "37451095",
+      "15597887",
+      "38594491",
+      "30664347",
+      "31310931",
+      "34562481",
+      "32505947",
+      "19862954",
+      "38442602",
+      "34206613",
+      "31421215",
+      "30513371",
+      "26700111",
+      "35876442",
+      "29914135",
+      "41075969",
+      "28159674",
+      "32909075",
+      "30584954",
+      "40147811",
+      "38871163",
+      "39064835",
+      "14579009",
+      "29389661",
+      "24015248",
+      "28464759",
+      "24687371",
+      "22494775",
+      "39571823",
+      "29522903",
+      "33961950",
+      "40633518",
+      "20405856",
+      "31491443",
+      "27074246",
+      "25799048",
+      "11000528",
+      "24496634",
+      "21120754",
+      "12137791",
+      "31995776"
+    ],
+    "review": [
+      "41115053",
+      "32973678",
+      "30633647",
+      "21053929",
+      "29295509",
+      "33557243",
+      "31760044",
+      "23279634",
+      "31325560",
+      "23688835",
+      "34562481",
+      "28159674",
+      "28464759"
+    ],
+    "pmc": [
+      "12606622"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41115053/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01437",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

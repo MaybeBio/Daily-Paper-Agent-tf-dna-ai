@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40279967",
+    "doi": "10.1016/j.phymed.2025.156779",
+    "title": "Targeting mitochondrial DNA-STING-NF-kappaB Axis-mediated microglia activation by cryptotanshinone alleviates ischemic retinopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic retinopathy, a leading cause of vision impairment, involves oxidative stress and dysregulated inflammation, with microglia playing a key role. Cryptotanshinone (CTS), a bioactive compound from Salvia miltiorrhiza, exhibits anti-inflammatory and antioxidant properties and thus has the potential for development as a therapeutic agent. However, the actual mechanism of action of CTS in ischemic retinopathy is not known. Overactivation of the STING pathway in microglia is critical in ischemic retinopathy pathogenesis and a potential target of CTS. PURPOSE: This study aimed to explore whether CTS alleviates ischemic retinopathy by modulating microglial STING signaling. METHODS: Oxygen-induced retinopathy (OIR) mice and hypoxia-induced microglial cells were used. CTS efficacy in ischemic retinopathy was evaluated at multiple stages using fluorescein fundus angiography, electroretinogram, H&E staining, and Western blotting of relevant proteins. Network pharmacology and RNA sequencing identified STING as a key target. Furthermore, surface plasmon resonance (SPR), molecular docking, and site-directed mutagenesis were systematically employed to elucidate the precise binding interface between CTS and the STING protein. STING activation and knockout models were employed to further investigate the mechanisms of action of CTS. RESULTS: CTS treatment reduced microglial activation and pathological retinal angiogenesis, and protected both retinal function and structure in OIR mice. Network pharmacology, RNA sequencing, and experimental validation demonstrated a significant link between the protective effect of CTS and the inhibition of STING signaling. Mechanistically, CTS suppressed cytosolic mtDNA release, blocked STING translocation from the ER to the Golgi, and enhanced lysosomal STING degradation. These CTS-mediated effects were abolished by STING activation and absent in Sting-deficient OIR mice. Notably, CTS combined with anti-VEGF therapy showed synergistic efficacy in suppressing pathological retinal neovascularization. CONCLUSION: CTS, a natural inhibitor of STING, alleviated ischemic retinopathy by inhibiting the mtDNA-STING-NF-kappaB signaling pathway via multifaceted mechanisms in microglia.",
+    "keywords": [
+      "Cryptotanshinone",
+      "Ischemic retinopathy",
+      "Microglia",
+      "STING",
+      "mtDNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Microglia/drug effects/metabolism",
+      "*Membrane Proteins/metabolism/genetics",
+      "*Phenanthrenes/pharmacology",
+      "*NF-kappa B/metabolism",
+      "Mice",
+      "*DNA, Mitochondrial/metabolism",
+      "Signal Transduction/drug effects",
+      "*Retinal Diseases/drug therapy",
+      "Mice, Inbred C57BL",
+      "Male",
+      "*Ischemia/drug therapy",
+      "Molecular Docking Simulation",
+      "STING Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Wanlu",
+        "Zheng, Zhihua",
+        "Wang, Jiaojiao",
+        "Cai, Youran",
+        "Zou, Jiami",
+        "Huang, Ziqing",
+        "Yang, Pinglian",
+        "Ye, Weile",
+        "Jin, Mei",
+        "Zhang, Dongmei",
+        "Little, Peter J",
+        "Zhou, Qing",
+        "Liu, Zhiping"
+      ],
+      "short_names": [
+        "Qiu W",
+        "Zheng Z",
+        "Wang J",
+        "Cai Y",
+        "Zou J",
+        "Huang Z",
+        "Yang P",
+        "Ye W",
+        "Jin M",
+        "Zhang D",
+        "Little PJ",
+        "Zhou Q",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; The Affiliated Guangdong Second Provincial General Hospital, Postdoctoral Research Station of Traditional Chinese Medicine, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China. Electronic address: jjwang89@163.com.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China.",
+        "Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China.",
+        "School of Pharmacy, Pharmacy Australia Centre of Excellence, The University of Queensland, Woolloongabba, QLD 4102, Australia; Department of Pharmacy, Guangzhou Xinhua University, Guangzhou, 510520, China.",
+        "Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China. Electronic address: Kerryzh@163.com.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China. Electronic address: zhiping0414@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Wanlu",
+        "short_name": "Qiu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhihua",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; The Affiliated Guangdong Second Provincial General Hospital, Postdoctoral Research Station of Traditional Chinese Medicine, School of Pharmacy, Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiaojiao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Key Laboratory of Big Data Mining and Precision Drug Design of Guangdong Medical University, Key Laboratory of Computer-Aided Drug Design of Dongguan City, Key Laboratory for Research and Development of Natural Drugs of Guangdong Province, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China. Electronic address: jjwang89@163.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Youran",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China; Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Jiami",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ziqing",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pinglian",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Weile",
+        "short_name": "Ye W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Mei",
+        "short_name": "Jin M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dongmei",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Little, Peter J",
+        "short_name": "Little PJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Pharmacy Australia Centre of Excellence, The University of Queensland, Woolloongabba, QLD 4102, Australia; Department of Pharmacy, Guangzhou Xinhua University, Guangzhou, 510520, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qing",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, the First Affiliated Hospital, Jinan University, Guangzhou 510006, China. Electronic address: Kerryzh@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiping",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, Guangdong Province Key Laboratory of Pharmacodynamic Constituents of TCM and New Drugs Research, International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education (MOE), College of Pharmacy, Jinan University, Guangzhou 510632, China. Electronic address: zhiping0414@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/26 16:08",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42360583",
+      "42311669",
+      "40924459"
+    ],
+    "refs": [],
+    "similar": [
+      "40279967",
+      "36409895",
+      "35450066",
+      "40158743",
+      "40022162",
+      "39217915",
+      "38709389",
+      "33115500",
+      "39479449",
+      "31400857",
+      "39694424",
+      "39986223",
+      "31365278",
+      "39110392",
+      "38918759",
+      "34740080",
+      "39326131",
+      "39121926",
+      "38720350",
+      "38701540",
+      "39580997",
+      "38679216",
+      "31182996",
+      "40022819",
+      "38493721",
+      "25605261",
+      "40263985",
+      "38527567",
+      "33386422",
+      "38238499",
+      "40192637",
+      "32863951",
+      "25572313",
+      "40025497",
+      "28666239",
+      "37751655",
+      "36119027",
+      "19401198",
+      "33662979",
+      "39631292",
+      "40213650",
+      "35695424",
+      "34418356",
+      "35611927",
+      "38763007",
+      "40135489",
+      "39889491",
+      "39496476",
+      "40174341",
+      "33745949",
+      "20490642",
+      "29678169",
+      "33275652",
+      "39612000",
+      "40064060",
+      "38804253",
+      "39413938",
+      "27239699",
+      "37402504",
+      "39904032",
+      "40049341",
+      "37435898",
+      "29544517",
+      "38636801",
+      "33811906",
+      "38915069",
+      "39986195",
+      "38749188",
+      "38850784",
+      "40285509",
+      "35689216",
+      "39414157",
+      "39436199",
+      "32460188",
+      "37770901",
+      "28670110",
+      "40307881",
+      "35287559",
+      "38917524",
+      "39798476",
+      "23766263",
+      "40273561",
+      "39236458",
+      "37382136",
+      "39954622",
+      "18761708",
+      "40300857",
+      "34674376",
+      "30876881",
+      "39009094",
+      "24600004",
+      "27032067",
+      "32535536",
+      "39146784",
+      "33985878",
+      "40189684",
+      "37689326",
+      "38833090",
+      "39970859",
+      "39762437"
+    ],
+    "review": [
+      "40279967"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00417-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/retinaldisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Retinal Disorders"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TTR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

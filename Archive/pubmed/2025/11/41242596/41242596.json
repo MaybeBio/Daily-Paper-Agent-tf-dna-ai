@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41242596",
+    "doi": "10.1016/j.ejphar.2025.178374",
+    "title": "Dipyridamole alleviates necroptosis and renal inflammation via cAMP/CREB signaling pathways in septic AKI mice."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis-associated acute kidney injury (SA-AKI) is a severe complication characterized by inflammation, hemodynamic instability, and organ dysfunction, with high morbidity and mortality. Despite advances in supportive care, targeted therapies remain limited. Given the critical role of cAMP signaling in immune regulation and cellular homeostasis, this study explored the therapeutic potential of dipyridamole, a phosphodiesterase (PDE) inhibitor, mitigating SA-AKI. METHODS: Transcriptomic profiling of kidneys from LPS-induced SA-AKI and control mice was performed to identify dysregulated pathways. The effects of dipyridamole on renal pathology and function were evaluated using biochemical assays, PAS staining, TUNEL staining, electron microscopy, and immunohistochemistry. Mechanistic studies included ELISA, qPCR, western blotting, molecular docking, and PDE12 knockdown in TCMK-1 cells with siRNA transfection. RESULTS: Transcriptomic analysis revealed widespread dysfunction of inflammatory and metabolic pathways in SA-AKI kidneys, with upregulation of NF-kappaB/TLR signaling and suppression of cAMP-related pathways. Among PDE isoforms, PDE12 was most significantly upregulated, and molecular docking demonstrated strong binding of dipyridamole to PDE12. Dipyridamole treatment restored cAMP levels, enhanced CREB phosphorylation, suppressed pro-inflammatory cytokines (TNF-alpha and IL-6), and attenuated necroptosis via inhibition of RIPK3/MLKL signaling. Importantly, siRNA-mediated PDE12 knockdown reproduced these protective effects, confirming PDE12 as a pathogenic mediator of LPS-induced tubular injury. These molecular and cellular changes translated into significant improvements in renal function and histological integrity. CONCLUSIONS: Dipyridamole alleviates SA-AKI by targeting PDE12, restoring cAMP signaling, and suppressing inflammation and necroptosis. These findings highlight PDE12 as a novel therapeutic target and support dipyridamole as a promising candidate for clinical translation in SA-AKI.",
+    "keywords": [
+      "Necroptosis",
+      "Phosphodiesterase",
+      "Sepsis-associated acute kidney injury"
+    ],
+    "mesh_terms": [
+      "*Dipyridamole/pharmacology",
+      "*Necroptosis/drug effects",
+      "Animals",
+      "Mice",
+      "Inflammation",
+      "*Signal Transduction",
+      "*Sepsis/complications/drug therapy",
+      "*Acute Kidney Injury/drug therapy/etiology",
+      "Phosphodiesterase Inhibitors/pharmacology",
+      "Transcriptome",
+      "Molecular Docking Simulation",
+      "Cyclic AMP/metabolism",
+      "Cyclic AMP Response Element-Binding Protein/metabolism",
+      "Phosphoric Diester Hydrolases",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xing, Jia",
+        "Lin, Geng",
+        "Chen, Zhao-Xuan",
+        "Zhao, Wan-Ting",
+        "Mo, Shu-Wen",
+        "Zhai, Xiao-Yue",
+        "Zhang, Jie"
+      ],
+      "short_names": [
+        "Xing J",
+        "Lin G",
+        "Chen ZX",
+        "Zhao WT",
+        "Mo SW",
+        "Zhai XY",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "Department of Experimental Teaching Center, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China; Institute of Nephropathology, China Medical University, 110122, Shenyang, Liaoning, China.",
+        "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China. Electronic address: zhangjie@cmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xing, Jia",
+        "short_name": "Xing J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Geng",
+        "short_name": "Lin G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental Teaching Center, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhao-Xuan",
+        "short_name": "Chen ZX",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wan-Ting",
+        "short_name": "Zhao WT",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Shu-Wen",
+        "short_name": "Mo SW",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital of China Medical University, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Xiao-Yue",
+        "short_name": "Zhai XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China; Institute of Nephropathology, China Medical University, 110122, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, School of Basic Medicine, China Medical University, 110122, Shenyang, Liaoning, China. Electronic address: zhangjie@cmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/17 00:29",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41242596",
+      "41537746",
+      "31918290",
+      "41539097",
+      "35692206",
+      "41588430",
+      "40829320",
+      "40216046",
+      "40846098",
+      "34337860",
+      "39216682",
+      "35038964",
+      "38497110",
+      "40683426",
+      "31315969",
+      "41740623",
+      "41034042",
+      "41353881",
+      "40509797",
+      "40318271",
+      "40991986",
+      "38960057",
+      "39008938",
+      "33773190",
+      "41747788",
+      "37284448",
+      "36737765",
+      "41811702",
+      "38950457",
+      "39226829",
+      "41846049",
+      "38563049",
+      "41799201",
+      "41303615",
+      "32169782",
+      "39378861",
+      "39800248",
+      "40967330",
+      "40783104",
+      "36166972",
+      "30365367",
+      "40779843",
+      "41157947",
+      "39034431",
+      "40220405",
+      "41046829",
+      "40306112",
+      "39311631",
+      "40883684",
+      "39580586",
+      "32449901",
+      "39544009",
+      "38402163",
+      "41481962",
+      "31754396",
+      "41320257",
+      "41406481",
+      "38910256",
+      "39755185",
+      "38237511",
+      "39283715",
+      "41140036",
+      "39367511",
+      "41152139",
+      "41447840",
+      "41218584",
+      "40335920",
+      "41821570",
+      "40304823",
+      "35367313",
+      "30833971",
+      "41799772",
+      "38779751",
+      "31084615",
+      "33843271",
+      "39885380",
+      "40669331",
+      "17308037",
+      "39733737",
+      "39387943",
+      "40899121",
+      "34333083",
+      "35696803",
+      "29334668",
+      "30562560",
+      "29875323",
+      "41317539",
+      "41713137",
+      "34212425",
+      "33603340",
+      "39289683",
+      "37657770",
+      "39054771",
+      "40501235",
+      "32615888",
+      "33833407",
+      "40595246",
+      "35658715",
+      "37592376",
+      "38873767"
+    ],
+    "review": [
+      "41242596"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(25)01128-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://www.ovid.com/41242596.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-903",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15000327/v1",
+  "title": "Machine Learning Prediction of Antibody-mediated Effector Function Using Structural Features of Fc-Glycans and Binding Affinity to an Fc-receptor",
+  "authors": "Heguang Lin; Pei-Kang Tsou; Hsin-Kai Tseng; Jennifer M Lo; Gannedi Veeranjaneyulu; Chi-Huey Wong",
+  "journal": "ChemRxiv",
+  "published_date": "2026-02-23",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测抗体Fc糖基化与Fc受体结合亲和力，虽涉及蛋白-糖互作，但非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅方法上可部分借鉴，故评分低。",
+  "abstract": "Fc-glycosylation critically modulates antibody effector functions including antibody-dependent cellular cytotoxicity (ADCC) and antibody-dependent cellular phagocytosis (ADCP), yet computational tools for predicting Fc-receptor binding affinity remain limited. Here, we present a systematic machine learning benchmark evaluating 10 machine learning methods for predicting Fc binding affinity to FcγRIIIa receptor which is responsible for the ADCC activity. Using a curated dataset of 22 structurally diverse N-glycans on antibodies with experimentally measured binding affinities of antibody-glycoforms FcγRIIIa-receptor, we compared traditional machine learning approaches using glycan structural motif features against deep learning methods employing pretrained graph neural network embeddings. Support vector regression with a linear kernel achieved the best performance (Spearman ρ = 0.85), followed closely by ElasticNet (ρ = 0.82) and Ridge regression (ρ = 0.81). Notably, simpler linear models consistently outperformed more complex ensemble methods and deep learning approaches, with the pretrained SweetNet graph neural network yielding substantially lower correlation (ρ = 0.58). The superior performance of linear models suggests that glycan structural motifs capture essential features to predict receptor binding affinity. Our rigorous nested leave-one-out cross-validation protocol with bootstrap confidence intervals provides robust performance estimates suitable for small datasets. This study demonstrated that by decoding the impact of Fc-glycosylation on Fc-receptor binding, we can build the dataset for AI-driven prediction of ADCC, and this approach is extensible to other Fc receptors and the corresponding effector functions",
+  "abstract_zh": "Fc-糖基化关键性地调节抗体效应功能，包括抗体依赖性细胞毒性（ADCC）和抗体依赖性细胞吞噬作用（ADCP），然而用于预测Fc受体结合亲和力的计算工具仍然有限。在此，我们提出一个系统的机器学习基准评估，比较10种机器学习方法，用于预测与ADCC活性相关的FcγRIIIa受体的Fc结合亲和力。利用一个包含22种结构多样的抗体上N-聚糖的精选数据集，以及实验测得的抗体糖型-FcγRIIIa受体结合亲和力，我们将使用聚糖结构基序特征的传统机器学习方法与采用预训练图神经网络嵌入的深度学习方法进行了比较。具有线性核的支持向量回归实现了最佳性能（Spearman ρ = 0.85），紧随其后的是ElasticNet（ρ = 0.82）和岭回归（ρ = 0.81）。值得注意的是，更简单的线性模型始终优于更复杂的集成方法和深度学习方法，其中预训练的SweetNet图神经网络产生的相关性显著较低（ρ = 0.58）。线性模型的优越性能表明，聚糖结构基序捕获了预测受体结合亲和力的关键特征。我们严格的嵌套留一法交叉验证协议结合自举置信区间，为适合小数据集提供了稳健的性能估计。本研究证明，通过解码Fc-糖基化对Fc受体结合的影响，我们可以构建用于AI驱动的ADCC预测的数据集，且该方法可扩展到其他Fc受体及相应的效应功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15000327/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15000327/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15000327_v1/index.html"
+}

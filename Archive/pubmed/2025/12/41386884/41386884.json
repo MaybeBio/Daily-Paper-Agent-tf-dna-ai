@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "41386884",
+    "doi": "10.1016/j.jgeb.2025.100620",
+    "title": "DeepBovC2H2-ZF: deep learning-guided prediction and molecular dynamics validation of C2H2 zinc finger transcription factors in Bovidae."
+  },
+  "content": {
+    "abstract": "C2H2 zinc finger (ZF) transcription factors (TFs) are among the most abundant and versatile regulatory proteins, playing critical roles in development, differentiation, apoptosis, stress response, and immune regulation. In livestock, especially within the Bovidae family, these TFs regulate gene expression linked to economically important traits such as growth, reproduction, milk production, and disease resistance. However, genome-wide identification of C2H2-ZF TFs in Bovidae remains limited due to the lack of specialized computational tools. To address this, we developed DeepBovC2H2-ZF, a deep learning-based framework for predicting C2H2-ZF TFs using only protein sequence information. The model was trained on a curated dataset of validated C2H2-ZF and non-C2H2-ZF TFs, utilizing sequence-derived features that capture the unique domain signatures. DeepBovC2H2-ZF achieved high prediction accuracy, sensitivity, and specificity, outperforming traditional machine learning models. A correctly predicted C2H2-ZF protein, Kruppel-like factor 4 (KLF4), was further validated through molecular docking and three independent molecular dynamics (MD) simulations of both the protein and its DNA-bound complex. The simulations confirmed structural stability and strong DNA-binding affinity, supporting the reliability of DeepBovC2H2-ZF for functional genomics studies in Bovidae.",
+    "keywords": [
+      "BiLSTM",
+      "Bovidae",
+      "CNN",
+      "Deep learning",
+      "KLF4"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pandey, Bharati",
+        "Singh, Manbir"
+      ],
+      "short_names": [
+        "Pandey B",
+        "Singh M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ICAR-National Dairy Research Institute (NDRI), Karnal, Haryana, India. Electronic address: bharati.pandey@icar.org.in.",
+        "Postgraduate Institute of Medical Education and Research, Chandigarh, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pandey, Bharati",
+        "short_name": "Pandey B",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Dairy Research Institute (NDRI), Karnal, Haryana, India. Electronic address: bharati.pandey@icar.org.in."
+        ]
+      },
+      {
+        "full_name": "Singh, Manbir",
+        "short_name": "Singh M",
+        "identifiers": [],
+        "affiliations": [
+          "Postgraduate Institute of Medical Education and Research, Chandigarh, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal, genetic engineering & biotechnology"
+    ],
+    "journal_abbrev": [
+      "J Genet Eng Biotechnol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 00:32",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40646487",
+      "40286422",
+      "39909391",
+      "38779481",
+      "38317660",
+      "37805934",
+      "37698691",
+      "36702896",
+      "36268869",
+      "36124796",
+      "34421986",
+      "32867687",
+      "32739762",
+      "31302435",
+      "27557051",
+      "26410586",
+      "25594872",
+      "21557079",
+      "20408171",
+      "19008249",
+      "18940856",
+      "14681378",
+      "10940247",
+      "9396800"
+    ],
+    "similar": [
+      "41386884",
+      "36124796",
+      "34804129",
+      "31787818",
+      "30288657",
+      "26237514",
+      "32453726",
+      "37247027",
+      "31316872",
+      "33575598",
+      "34407757",
+      "27852650",
+      "25690854",
+      "22484790",
+      "37457025",
+      "24792165",
+      "24097433",
+      "29381770",
+      "27401554",
+      "25748510",
+      "40575833",
+      "17264128",
+      "38754172",
+      "25593323",
+      "22911852",
+      "18286240",
+      "25953800",
+      "20680832",
+      "21572177",
+      "33747699",
+      "28877740",
+      "36571165",
+      "29467740",
+      "10504263",
+      "35955798",
+      "31059545",
+      "19008249",
+      "39260627",
+      "15344332",
+      "20167128",
+      "30155812",
+      "39810081",
+      "36262662",
+      "19261184",
+      "38486071",
+      "33672655",
+      "36292728",
+      "25098749",
+      "41159612",
+      "31788352",
+      "26972249",
+      "26384429",
+      "36862995",
+      "40646487",
+      "31510939",
+      "30258345",
+      "38317660",
+      "17937891",
+      "24699649",
+      "24915771",
+      "8654390",
+      "18752680",
+      "25827285",
+      "11018257",
+      "33919240",
+      "12271138",
+      "9698361",
+      "27103457",
+      "17225966",
+      "40873471",
+      "39624126",
+      "21888896",
+      "34402752",
+      "15236668",
+      "36207690",
+      "20360772",
+      "39408854",
+      "21321018",
+      "9804994",
+      "28292252",
+      "35269875",
+      "36369302",
+      "41495890",
+      "33034011",
+      "38668980",
+      "12271125",
+      "32547602",
+      "15530409",
+      "20169401",
+      "25042805",
+      "40823929",
+      "12514243",
+      "29551271",
+      "31776846",
+      "21784874",
+      "39903729",
+      "15640031",
+      "22323524",
+      "38152142",
+      "18602114"
+    ],
+    "review": [
+      "41386884",
+      "30288657",
+      "37457025",
+      "38754172",
+      "17937891",
+      "35269875"
+    ],
+    "pmc": [
+      "12689212"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1687-157X(25)00164-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41386884/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

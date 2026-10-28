@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report multi-microsecond molecular dynamics simulations of the TFIIIA ZF456 fragment, in reduced and oxidized states, both free and in complex with 5S RNA. They claim that oxidation induces differential unfolding of individual zinc finger domains, disrupts key RNA interactions for ZF5 and ZF6, and that ZF4 interactions depend on the protonation state of His119.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, convergence metrics, or structural analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation setup details, force field parameters, oxidation state modeling approach, protonation state treatment, trajectory analyses, error estimates, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the effect of cysteine oxidation on a zinc finger protein and its RNA complex. However, the evidence base is limited to a summary of qualitative observations. The central claims regarding domain unfolding, loss of beta-beta-alpha folds, and disruption of hydrogen bonding are not supported by quantitative data in the provided material. The dependence of ZF4 interactions on His119 protonation is mentioned without context or justification. The study's significance for oxidative stress biology and zinc finger function is clear, but the technical soundness cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational biochemistry, particularly those studying zinc finger proteins, metal-mediated protein folding, and redox regulation of nucleic acid binding. The work may also interest experimentalists investigating oxidative stress mechanisms in gene expression and DNA repair, as it provides mechanistic hypotheses about how cysteine oxidation could alter protein-RNA recognition.
+- **Major strengths** The study addresses a biologically relevant question with potential implications for understanding oxidative stress pathways. The use of multi-microsecond simulations suggests an attempt to capture slow conformational transitions. The comparison between free and RNA-bound states, and between reduced and oxidized conditions, provides a systematic framework for isolating the effects of oxidation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that oxidation causes individual ZF domains to unfold to various degrees, yielding a globular peptide with ZF4 and ZF6 losing their beta-beta-alpha folds.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative metrics are provided to support the claim of differential unfolding. The abstract does not report root-mean-square deviation, root-mean-square fluctuation, secondary structure assignment percentages, or free energy estimates. The term "various degrees" is vague and cannot be evaluated without numerical data.  
+  - **Why it matters** The central conclusion of the study rests on the assertion that oxidation differentially destabilizes the three zinc finger domains. Without quantitative measures of structural stability, the claim is not verifiable and the biological interpretation is weakened.  
+  - **Resolution test** Provide per-domain secondary structure occupancy over time, RMSD and RMSF profiles for reduced versus oxidized states, and statistical comparisons across replicate simulations. Show that the observed differences exceed simulation noise.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that in the presence of RNA, oxidation disrupts key hydrogen bonding interactions between ZF5/ZF6 and 5S RNA.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not specify which hydrogen bonds are considered "key," how they were identified, or what criteria were used to define disruption. No occupancy values, distance distributions, or interaction energy data are provided. The claim is presented as a qualitative outcome without supporting evidence.  
+  - **Why it matters** The functional relevance of the study depends on demonstrating that oxidation specifically perturbs RNA contacts. Without quantitative interaction analysis, the claim that oxidation disrupts binding is not established.  
+  - **Resolution test** Report hydrogen bond occupancy for each ZF-RNA contact in reduced and oxidized states, with time series and statistical significance. Identify which specific residues and RNA bases are involved and show that the changes are reproducible.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and methodology  
+  - **Claim pointer** The abstract states that ZF4 interactions with RNA depend on the protonation state of His119.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The protonation state of His119 is mentioned as a determining factor, but the abstract does not explain why this residue is relevant, what protonation states were tested, or how the choice was made. The connection between His119 protonation and ZF4-RNA interactions is not contextualized.  
+  - **Why it matters** This claim introduces an additional variable that could affect the interpretation of the oxidation effects. Without clarity on the protonation state treatment, the reader cannot assess whether the observed ZF4 behavior is an artifact of the chosen simulation conditions.  
+  - **Resolution test** Describe the protonation state assignment for His119, justify it based on pKa estimates or experimental data, and show how the ZF4-RNA interaction profile changes between protonation states with quantitative comparisons.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "conditionally unravels early in the simulation" for ZF5 is ambiguous. It is unclear what "conditionally" refers to and whether this unraveling is reversible or persistent.  
+  - **Required correction** Specify the condition under which ZF5 unravels and provide a time frame or trajectory segment for this event.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Simulation scope  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not state how many independent simulations were performed or whether replicates were used to assess variability.  
+  - **Required correction** Include the number of replicates and a statement on reproducibility in the abstract or methods.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Biological relevance  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions that zinc release through cysteine oxidation is associated with disruption of gene expression and DNA repair, but the connection to the specific ZF456 fragment and 5S RNA is not made explicit.  
+  - **Required correction** Briefly state why TFIIIA and 5S RNA are relevant to the biological context of oxidative stress.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of differential unfolding and disruption of RNA interactions are not supported by quantitative evidence in the provided material. R1-M3 is non-blocking but requires clarification to ensure the interpretation is robust.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of how oxidation affects zinc finger structure and RNA binding is not entirely new, but the specific focus on TFIIIA ZF456 and the use of multi-microsecond simulations may offer a fresh perspective. The originality cannot be fully assessed from the abstract.  
+  - Scientific importance: The topic is relevant to redox biology and transcriptional regulation, but the significance of the specific findings is not demonstrated without quantitative evidence.  
+  - Interdisciplinary readership: The work could appeal to computational chemists, structural biologists, and redox biologists, but the abstract is written in a specialized manner that may limit broader accessibility.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results prevents evaluation of the simulation quality and analysis rigor.  
+  - Readability for nonspecialists: The abstract is concise but uses domain-specific terminology without sufficient explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative support needed to validate the central claims. A revised version with detailed methods and results, including statistical analyses and interaction metrics, would be required to assess the study's validity.
+
+## Risk / unsupported claims
+- The claim that oxidation causes differential unfolding of ZF domains is unsupported without quantitative structural metrics.
+- The claim that oxidation disrupts key hydrogen bonding interactions between ZF5/ZF6 and 5S RNA is unsupported without interaction analysis data.
+- The claim that ZF4 interactions depend on His119 protonation is unverifiable without details on protonation state treatment and comparative results.
+- The statement that ZF5 participates in nonspecific interactions through its alpha-helix is presented without supporting evidence.
+- The overall biological implication that oxidation disrupts gene expression and DNA repair is stated as background but not directly connected to the simulation results.

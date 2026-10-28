@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "39674890",
+    "doi": "10.1016/j.bpj.2024.12.014",
+    "title": "Multiscale simulations reveal architecture of NOTCH protein and ligand specific features."
+  },
+  "content": {
+    "abstract": "NOTCH, a single-pass transmembrane protein, plays a crucial role in cell fate determination through cell-to-cell communication. It interacts with two canonical ligands, Delta-like (DLL) and Jagged (JAG), located on neighboring cells to regulate diverse cellular processes. Despite extensive studies on the functional roles of NOTCH and its ligands in cellular growth, the structural details of full-length NOTCH and its ligands remain poorly understood. In this study, we employed fragment-based modeling and multiscale simulations to study the full-length structure of the human NOTCH ectodomain, comprising 1756 amino acids. We performed coarse-grained dynamics simulations of NOTCH in both glycosylated and nonglycosylated forms to investigate the role of glycosylation in modulating its conformational dynamics. In apo form, coarse-grained simulations revealed that glycosylated NOTCH protein can transition from an elongated structure of  approximately 86 nm from the membrane surface to a semicompact state ( approximately 23.81 +/- 9.98 nm), which aligns with cryo-EM data. To transition from the apo form to ligand-bound forms of NOTCH, we followed an atomistic and integrative modeling approach to model the interactions between NOTCH-DLL4 and NOTCH-JAG1. Atomistic simulations of the smaller bound fragment EGF8-13 patch revealed conformational plasticity critical for NOTCH binding, while integrative modeling of full-length complexes suggested a larger binding surface than reported previously. Simulations of pathogenic mutations revealed that E360K and R448Q disrupted the NOTCH-ligand interaction surfaces, causing dissociation. In contrast, C1133Y in the Abruptex domain compromised protein stability by disrupting the domain's interaction with the ligand-binding domain in the apo form of NOTCH-ECD. These findings provide a detailed molecular understanding of NOTCH and its ligands, offering insights that could enable the development of novel therapeutic approaches to selectively target pathogenic NOTCH signaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ligands",
+      "Humans",
+      "Glycosylation",
+      "*Molecular Dynamics Simulation",
+      "*Receptors, Notch/chemistry/metabolism/genetics",
+      "Protein Domains",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rathore, Surabhi",
+        "Gahlot, Deepanshi",
+        "Castin, Jesu",
+        "Pandey, Arastu",
+        "Arvindekar, Shreyas",
+        "Viswanath, Shruthi",
+        "Thukral, Lipi"
+      ],
+      "short_names": [
+        "Rathore S",
+        "Gahlot D",
+        "Castin J",
+        "Pandey A",
+        "Arvindekar S",
+        "Viswanath S",
+        "Thukral L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India.",
+        "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India.",
+        "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India.",
+        "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India.",
+        "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India. Electronic address: lipi.thukral@igib.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rathore, Surabhi",
+        "short_name": "Rathore S",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Gahlot, Deepanshi",
+        "short_name": "Gahlot D",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Castin, Jesu",
+        "short_name": "Castin J",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Pandey, Arastu",
+        "short_name": "Pandey A",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Arvindekar, Shreyas",
+        "short_name": "Arvindekar S",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Shruthi",
+        "short_name": "Viswanath S",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences (NCBS), Tata Institute of Fundamental Research (TIFR), GKVK, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Thukral, Lipi",
+        "short_name": "Thukral L",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Genomics and Integrative Biology, New Delhi, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India. Electronic address: lipi.thukral@igib.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Jan 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 11:29",
+    "fetched_at": "2026-10-05 02:04:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37516933",
+      "36040254",
+      "35332121",
+      "34791371",
+      "34301900",
+      "34265844",
+      "33166013",
+      "32820046",
+      "32702979",
+      "32472127",
+      "32423029",
+      "31396911",
+      "30207383",
+      "29398116",
+      "29321718",
+      "29211988",
+      "28729422",
+      "28710774",
+      "28572448",
+      "28548104",
+      "28486129",
+      "28439555",
+      "28254785",
+      "27268051",
+      "26996961",
+      "26759717",
+      "26575938",
+      "26046801",
+      "25975260",
+      "25963545",
+      "25907971",
+      "25883148",
+      "25839328",
+      "25700513",
+      "24909690",
+      "24239355",
+      "23355521",
+      "22842086",
+      "22373641",
+      "22326375",
+      "22272186",
+      "22128846",
+      "22098752",
+      "22006338",
+      "21757702",
+      "20479883",
+      "20161710",
+      "19825158",
+      "19524514",
+      "19379690",
+      "19075186",
+      "18854236",
+      "18660822",
+      "18411416",
+      "18208612",
+      "17569554",
+      "17329366",
+      "17212484",
+      "17098192",
+      "15692013",
+      "15687296",
+      "15611340",
+      "15576031",
+      "15561108",
+      "15472075",
+      "15264254",
+      "12459547",
+      "9653148",
+      "9336830",
+      "8744570",
+      "8254673",
+      "2185893",
+      "1657403"
+    ],
+    "similar": [
+      "39674890",
+      "30030820",
+      "27639253",
+      "42475469",
+      "22571430",
+      "30940183",
+      "36219682",
+      "33670724",
+      "41373621",
+      "23912807",
+      "23839946",
+      "25387766",
+      "31934853",
+      "12826675",
+      "17584081",
+      "18208612",
+      "16525728",
+      "35357214",
+      "32201074",
+      "36067866",
+      "23072667",
+      "39332668",
+      "29333477",
+      "15749783",
+      "35421813",
+      "29541959",
+      "41535340",
+      "20816393",
+      "39751380",
+      "25747658",
+      "22326375",
+      "19783294",
+      "25255288",
+      "22265678",
+      "32820046",
+      "39074091",
+      "21829530",
+      "17920278",
+      "29366964",
+      "18296446",
+      "20959466",
+      "28533486",
+      "25805821",
+      "28254785",
+      "15994325",
+      "23382875",
+      "39932958",
+      "39684679",
+      "18758484",
+      "23339193",
+      "41206513",
+      "24189144",
+      "20720151",
+      "37440242",
+      "17923477",
+      "19594638",
+      "30168730",
+      "24821984",
+      "33728914",
+      "32457739",
+      "24158800",
+      "28533359",
+      "29042443",
+      "24239355",
+      "23300864",
+      "41656810",
+      "25975260",
+      "25605936",
+      "21875150",
+      "16140393",
+      "30619307",
+      "30957116",
+      "29321062",
+      "31631837",
+      "16410827",
+      "25053497",
+      "21372153",
+      "25715738",
+      "23379739",
+      "42118388",
+      "41129232",
+      "41174261",
+      "24803430",
+      "24244115",
+      "23571220",
+      "22306180",
+      "17964136",
+      "28566049",
+      "24573085",
+      "31722217",
+      "23567106",
+      "33063666",
+      "42611282",
+      "28486782",
+      "27861609",
+      "39982680",
+      "23094046",
+      "19607805",
+      "28394891",
+      "30214079"
+    ],
+    "review": [
+      "39674890",
+      "30030820",
+      "33670724",
+      "35421813",
+      "20816393",
+      "22326375",
+      "18758484",
+      "19594638",
+      "24158800",
+      "16140393",
+      "22306180",
+      "17964136"
+    ],
+    "pmc": [
+      "11788485"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)04075-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39674890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

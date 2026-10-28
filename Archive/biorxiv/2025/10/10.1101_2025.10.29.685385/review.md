@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose 11 rules governing cooperative DNA binding of Paired-like homeodomain transcription factors to palindromic P3 sites, demonstrate that these rules can predict and alter cooperative behavior, and identify disease-associated missense variants that selectively disrupt cooperativity without affecting intrinsic DNA binding affinity.
+- **Visible evidence base** Abstract text only; no structural, biochemical, or bioinformatic data are directly visible
+- **Missing materials affecting confidence** Full text, all figures and tables, methods descriptions, statistical analyses, sequence alignments, structural coordinates, and variant validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important conceptual advance in understanding how highly similar homeodomain transcription factors achieve DNA binding specificity through cooperative interactions. The proposed rule-based framework is ambitious and clinically relevant, given the association of Paired-like factors with developmental disorders. However, the abstract alone provides insufficient detail to evaluate the robustness of the 11 rules, the experimental validation strategy, or the statistical strength of the disease variant predictions. The central claim that cooperativity can be selectively disrupted without affecting DNA binding affinity is intriguing but requires direct evidence that is not visible in the abstract.
+- **Who would be interested in the results, and why** Developmental biologists studying transcription factor specificity, structural biologists interested in protein-DNA recognition mechanisms, and clinical geneticists interpreting missense variants in homeodomain genes associated with congenital disorders. The work also has relevance for computational biologists developing predictive models of transcription factor binding.
+- **Major strengths** The study addresses a fundamental question in gene regulation with clear translational implications. The integration of structural, biochemical, and bioinformatic approaches is appropriate for the problem. The explicit formulation of testable rules and the validation against disease-associated variants provide a framework that could be broadly applicable beyond the Paired-like family.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that 11 rules "describe homeodomain residues that are critical, permissive, and inhibitory to cooperativity on the P3 site."
+  - **Evidence pointer** Abstract only; no figures, tables, or methods provided
+  - **Concern** The derivation of 11 rules from structural, biochemical, and bioinformatic approaches is stated without any indication of how these rules were defined, how many residues are covered, what thresholds distinguish "critical," "permissive," and "inhibitory" categories, or how the rules were validated internally.
+  - **Why it matters** Without clarity on rule derivation and validation, the central framework of the paper cannot be assessed for robustness or generalizability. The rules are the foundation for all subsequent predictions and experimental tests.
+  - **Resolution test** Provide a clear description of the rule derivation process, including the structural basis, the biochemical assays used, the criteria for categorizing residues, and any cross-validation performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "thirty-eight disease-associated missense variants across ten Paired-like proteins alter cooperativity" and that "eleven of twelve of these disease-associated variants impact cooperativity but not DNA binding affinity."
+  - **Evidence pointer** Abstract only; no variant list, no quantitative binding data, no statistical analysis provided
+  - **Concern** The prediction of 38 variants and experimental confirmation of 11 of 12 tested variants is presented without any indication of the predictive accuracy, the selection criteria for the 12 tested variants, the effect sizes observed, or the statistical significance of the cooperativity changes.
+  - **Why it matters** The clinical relevance of the study depends on the reliability of these predictions. If the false positive rate is high or the effect sizes are small, the translational implications would be substantially weakened.
+  - **Resolution test** Provide the complete list of predicted variants, the selection criteria for experimental testing, quantitative cooperativity measurements with statistical comparisons, and a clear statement of predictive performance metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the rules can be applied to "identify residues that prevent the related Antennapedia class of homeodomains from binding cooperatively."
+  - **Evidence pointer** Abstract only; no experimental data on Antennapedia class proteins provided
+  - **Concern** The abstract states that residues preventing cooperative binding in Antennapedia class homeodomains were identified, but no experimental validation is described for this specific claim. It is unclear whether this is a prediction only or was tested experimentally.
+  - **Why it matters** This claim extends the generalizability of the rules beyond the Paired-like family. If not experimentally validated, the claim should be framed as a prediction rather than an established finding.
+  - **Resolution test** Clarify whether Antennapedia class predictions were experimentally tested, and if so, provide the data. If not, revise the claim to indicate prediction status.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of P3 site
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract defines P3 as "palindromic sites spaced three base pairs apart" but does not specify the consensus sequence or the spacing orientation.
+  - **Required correction** Provide the consensus P3 sequence and clarify the spacing definition to allow readers to understand the binding site architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Disease association statement
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that missense variants in 24 genes are associated with diseases but does not specify which diseases or provide references.
+  - **Required correction** Add a brief summary of the disease spectrum or cite the relevant literature in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "Fifteen different diseases" claim
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract states that variants associated with "as many as fifteen different diseases" can disrupt cooperative binding, but the mapping between the 10 Paired-like proteins and the 15 diseases is not explained.
+  - **Required correction** Clarify the relationship between the affected genes and the associated diseases, and specify whether the 15 diseases are distinct or overlapping.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to evaluate the derivation of the 11 rules, the reliability of the disease variant predictions, or the experimental validation of the Antennapedia class claim.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of defining explicit rules for cooperative binding specificity in a transcription factor family is a novel contribution that extends beyond previous descriptive studies of homeodomain DNA recognition.
+  - **Scientific importance** The work addresses a fundamental question in developmental biology and has direct relevance for interpreting disease-associated variants, which is of high importance.
+  - **Interdisciplinary readership** The findings would appeal to structural biologists, developmental geneticists, and clinical geneticists, but the abstract does not currently make the work accessible to a broad interdisciplinary audience due to the lack of context on homeodomain biology.
+  - **Technical soundness** Cannot be assessed from the abstract alone. The claims require detailed experimental and computational evidence that is not visible.
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with homeodomain biology and cooperative binding concepts. The significance of the P3 site and the rule-based framework would benefit from additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling framework and clinically relevant findings, but the absence of supporting data prevents assessment of the core claims. A full review of the manuscript with all figures, methods, and supplementary materials would be required to determine whether the case is established.
+
+## Risk / unsupported claims
+- The 11 rules governing cooperative binding are stated without any visible derivation or validation data.
+- The prediction that 38 disease-associated variants alter cooperativity is unsupported without the variant list and predictive model details.
+- The experimental confirmation that 11 of 12 variants impact cooperativity but not DNA binding affinity is unsupported without quantitative data.
+- The claim that residues preventing cooperative binding in Antennapedia class homeodomains were identified is unsupported without experimental evidence.
+- The statement that variants associated with 15 different diseases can selectively disrupt cooperative binding is unsupported without disease mapping and functional data.

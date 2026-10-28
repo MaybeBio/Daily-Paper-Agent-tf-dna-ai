@@ -1,0 +1,407 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.08.575577",
+  "title": "PLAPT: Protein-Ligand Binding Affinity Prediction Using Pretrained Transformers",
+  "doi": "10.1101/2024.02.08.575577",
+  "abstract": "A bstract Predicting protein-ligand binding affinity is crucial for drug discovery, as it enables efficient identification of drug candidates. We introduce PLAPT, a novel model utilizing transfer learning from pre-trained transformers like ProtBERT and ChemBERTa to predict binding affinities with high accuracy. Our method processes one-dimensional protein and ligand sequences, leveraging a branching neural network architecture for feature integration and affinity estimation. We demonstrate PLAPT’s superior performance through validation on multiple datasets, achieving state-of-the-art results while requiring significantly less computational resources for training compared to existing models. Our findings indicate that PLAPT offers a highly effective and accessible approach for accelerating drug discovery efforts.",
+  "authors": [
+    "Tyler Rose",
+    "Nicolò Monti",
+    "Navvye Anand",
+    "Tianyu Shen"
+  ],
+  "published_date": "2024-02-09",
+  "updated_date": "2024-02-09T10:46:00Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.08.575577",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.08.575577.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T06:11:47Z",
+        "timestamp": 1789625507296,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 32,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>Predicting protein-ligand binding affinity is crucial for drug discovery, as it enables efficient identification of drug candidates. We introduce PLAPT, a novel model utilizing transfer learning from pre-trained transformers like ProtBERT and ChemBERTa to predict binding affinities with high accuracy. Our method processes one-dimensional protein and ligand sequences, leveraging a branching neural network architecture for feature integration and affinity estimation. We demonstrate PLAPT’s superior performance through validation on multiple datasets, achieving state-of-the-art results while requiring significantly less computational resources for training compared to existing models. Our findings indicate that PLAPT offers a highly effective and accessible approach for accelerating drug discovery efforts.</jats:p>",
+      "DOI": "10.1101/2024.02.08.575577",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ],
+        "date-time": "2024-02-09T10:46:00Z",
+        "timestamp": 1707475560000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "PLAPT: Protein-Ligand Binding Affinity Prediction Using Pretrained Transformers"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-1392-5063",
+          "authenticated-orcid": false,
+          "given": "Tyler",
+          "family": "Rose",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicolò",
+          "family": "Monti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Navvye",
+          "family": "Anand",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tianyu",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "2024021419350865000_2024.02.08.575577v3.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.1016/S0165-6147(00)01584-4",
+          "article-title": "In silico research in drug discovery",
+          "volume": "22",
+          "year": "2001",
+          "journal-title": "Trends in pharmacological sciences"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23905"
+        },
+        {
+          "issue": "4",
+          "key": "2024021419350865000_2024.02.08.575577v3.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003571",
+          "DOI": "10.1371/journal.pcbi.1003571",
+          "article-title": "rdock: a fast, versatile and open source program for docking ligands to proteins and nucleic acids",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "2",
+          "key": "2024021419350865000_2024.02.08.575577v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1007/s12551-016-0247-1",
+          "article-title": "Software for molecular docking: a review",
+          "volume": "9",
+          "year": "2017",
+          "journal-title": "Biophysical Reviews"
+        },
+        {
+          "issue": "10",
+          "key": "2024021419350865000_2024.02.08.575577v3.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1520",
+          "DOI": "10.1038/s41587-022-01307-0",
+          "article-title": "Prediction of protein–ligand binding affinity from sequencing data with interpretable machine learning",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsomega.9b01997"
+        },
+        {
+          "issue": "5",
+          "key": "2024021419350865000_2024.02.08.575577v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab072",
+          "DOI": "10.1093/bib/bbab072",
+          "article-title": "DeepDTAF: a deep learning method to predict protein–ligand binding affinity",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2024021419350865000_2024.02.08.575577v3.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad049",
+          "DOI": "10.1093/bioinformatics/btad049",
+          "article-title": "CAPLA: improved prediction of protein–ligand binding affinity by a deep learning approach based on a cross-attention mechanism",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2022.105772"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.13",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N. Gomez , Lukasz Kaiser , and Illia Polosukhin . Attention is all you need. CoRR, abs/1706.03762, 2017."
+        },
+        {
+          "issue": "1",
+          "key": "2024021419350865000_2024.02.08.575577v3.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbad001",
+          "DOI": "10.1093/bioadv/vbad001",
+          "article-title": "Applications of transformer-based language models in bioinformatics: a survey",
+          "volume": "3",
+          "year": "2023",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.16",
+          "unstructured": "Seyone Chithrananda , Gabriel Grand , and Bharath Ramsundar . Chemberta: Large-scale self-supervised pretraining for molecular property prediction. CoRR, abs/2010.09885, 2020."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.17",
+          "first-page": "4171",
+          "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "volume": "1",
+          "year": "2019"
+        },
+        {
+          "issue": "5-6",
+          "key": "2024021419350865000_2024.02.08.575577v3.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "587",
+          "DOI": "10.1177/10943420221121804",
+          "article-title": "Language models for the prediction of sars-cov-2 inhibitors",
+          "volume": "36",
+          "year": "2022",
+          "journal-title": "The International Journal of High Performance Computing Applications"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmed Elnaggar , Michael Heinzinger , Christian Dallago , Ghalia Rehawi , Yu Wang , Llion Jones , Tom Gibbs , Tamas Feher , Christoph Angerer , Martin Steinegger , Debsindhu Bhowmik , and Burkhard Rost . Prottrans: Towards cracking the language of life’s code through self-supervised deep learning and high performance computing. CoRR, abs/2007.06225, 2020.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.20",
+          "unstructured": "Ahmed Elnaggar , Michael Heinzinger , Christian Dallago , Ghalia Rehawi , Yu Wang , Llion Jones , Tom Gibbs , Tamas Feher , Christoph Angerer , Martin Steinegger , DEBSINDHU Bhowmik , and Burkhard Rost . prot_bert. https://huggingface.co/Rostlab/prot_bert, 2024. Accessed: 2024-02-07."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Philippe Schwaller , Daniel Probst , Alain C. Vaucher , Vishnu H Nair , David Kreutter , Teodoro Laino , and Jean-Louis Reymond . Mapping the space of chemical reactions using attention-based neural networks. ChemRxiv, 2020.",
+          "DOI": "10.26434/chemrxiv.9897365"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.22",
+          "unstructured": "Yinhan Liu , Myle Ott , Naman Goyal , Jingfei Du , Mandar Joshi , Danqi Chen , Omer Levy , Mike Lewis , Luke Zettlemoyer , and Veselin Stoyanov . Roberta: A robustly optimized bert pretraining approach, 2019."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.23",
+          "unstructured": "Imtiaz Masud Ziko , Freddy Lecue , and Ismail Ben Ayed . Task adaptive feature transformation for one-shot learning. arXiv.org, abs/2304.06832, 2023."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.24",
+          "unstructured": "Jens Glaser . Binding affinity dataset. https://huggingface.co/datasets/jglaser/binding_affinity, 2021. Accessed: 1/27/2024."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci200082t"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.26",
+          "unstructured": "Wolfram Research . Nettrain. https://reference.wolfram.com/language/ref/NetTrain.html, 2024. Accessed: 2024-01-27."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.27",
+          "unstructured": "Diederik P. Kingma and Jimmy Ba . Adam: A method for stochastic optimization. arXiv 2017."
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01306"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1088",
+          "DOI": "10.1016/j.csbj.2022.02.004",
+          "article-title": "Protein-ligand binding affinity prediction based on profiles of intermolecular contacts",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang Zhang , Gengmo Zhou , Zhewei Wei , and Hongteng Xu . Predicting protein-ligand binding affinity via joint global-local interaction modeling. 2022.",
+          "DOI": "10.1109/ICDM54844.2022.00175"
+        },
+        {
+          "key": "2024021419350865000_2024.02.08.575577v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.1c01830"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.02.08.575577",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:54:31Z",
+        "timestamp": 1768456471000
+      },
+      "score": 102.53668,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.02.08.575577"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "references-count": 32,
+      "URL": "https://doi.org/10.1101/2024.02.08.575577",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "37248527",
+    "doi": "10.1186/s12916-023-02898-4",
+    "title": "Multimodal-based machine learning strategy for accurate and non-invasive prediction of intramedullary glioma grade and mutation status of molecular markers: a retrospective study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Determining the grade and molecular marker status of intramedullary gliomas is important for assessing treatment outcomes and prognosis. Invasive biopsy for pathology usually carries a high risk of tissue damage, especially to the spinal cord, and there are currently no non-invasive strategies to identify the pathological type of intramedullary gliomas. Therefore, this study aimed to develop a non-invasive machine learning model to assist doctors in identifying the intramedullary glioma grade and mutation status of molecular markers. METHODS: A total of 461 patients from two institutions were included, and their sagittal (SAG) and transverse (TRA) T2-weighted magnetic resonance imaging scans and clinical data were acquired preoperatively. We employed a transformer-based deep learning model to automatically segment lesions in the SAG and TRA phases and extract their radiomics features. Different feature representations were fed into the proposed neural networks and compared with those of other mainstream models. RESULTS: The dice similarity coefficients of the Swin transformer in the SAG and TRA phases were 0.8697 and 0.8738, respectively. The results demonstrated that the best performance was obtained in our proposed neural networks based on multimodal fusion (SAG-TRA-clinical) features. In the external validation cohort, the areas under the receiver operating characteristic curve for graded (WHO I-II or WHO III-IV), alpha thalassemia/mental retardation syndrome X-linked (ATRX) status, and tumor protein p53 (P53) status prediction tasks were 0.8431, 0.7622, and 0.7954, respectively. CONCLUSIONS: This study reports a novel machine learning strategy that, for the first time, is based on multimodal features to predict the ATRX and P53 mutation status and grades of intramedullary gliomas. The generalized application of these models could non-invasively provide more tumor-specific pathological information for determining the treatment and prognosis of intramedullary gliomas.",
+    "keywords": [
+      "Alpha thalassemia/mental retardation syndrome X-linked",
+      "Intramedullary gliomas",
+      "Machine learning",
+      "Multimodal",
+      "Tumor protein p53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Retrospective Studies",
+      "Tumor Suppressor Protein p53/genetics",
+      "*Brain Neoplasms/genetics",
+      "Magnetic Resonance Imaging/methods",
+      "*Glioma/diagnosis/genetics",
+      "Machine Learning",
+      "Biomarkers",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Chao",
+        "Wang, Liyang",
+        "Song, Dengpan",
+        "Gao, Chuntian",
+        "Jing, Linkai",
+        "Lu, Yang",
+        "Liu, Dongkang",
+        "Man, Weitao",
+        "Yang, Kaiyuan",
+        "Meng, Zhe",
+        "Zhang, Huifang",
+        "Xue, Ping",
+        "Zhang, Yupeng",
+        "Guo, Fuyou",
+        "Wang, Guihuai"
+      ],
+      "short_names": [
+        "Ma C",
+        "Wang L",
+        "Song D",
+        "Gao C",
+        "Jing L",
+        "Lu Y",
+        "Liu D",
+        "Man W",
+        "Yang K",
+        "Meng Z",
+        "Zhang H",
+        "Xue P",
+        "Zhang Y",
+        "Guo F",
+        "Wang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Hepato-Pancreato-Biliary Center, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China.",
+        "Institute for Precision Medicine, Tsinghua University, Beijing, China.",
+        "State Key Laboratory of Low-Dimensional Quantum Physics and Department of Physics, Tsinghua University, Collaborative Innovation Center of Quantum Matter and Beijing Advanced Innovation Center for Structural Biology, Beijing, 100084, China.",
+        "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, 100070, China. zhangyupeng1003@gmail.com.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China. chyou666@hotmail.com.",
+        "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China. guihuai_wang@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Chao",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liyang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+          "Hepato-Pancreato-Biliary Center, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Song, Dengpan",
+        "short_name": "Song D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Chuntian",
+        "short_name": "Gao C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Tsinghua University, Beijing, China.",
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Linkai",
+        "short_name": "Jing L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yang",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongkang",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Man, Weitao",
+        "short_name": "Man W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kaiyuan",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zhe",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huifang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Ping",
+        "short_name": "Xue P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Precision Medicine, Tsinghua University, Beijing, China.",
+          "State Key Laboratory of Low-Dimensional Quantum Physics and Department of Physics, Tsinghua University, Collaborative Innovation Center of Quantum Matter and Beijing Advanced Innovation Center for Structural Biology, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yupeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, 100070, China. zhangyupeng1003@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Guo, Fuyou",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China. chyou666@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Guihuai",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, China. guihuai_wang@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Med"
+    ],
+    "pub_date": "2023 May 29",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/30 01:06",
+    "fetched_at": "2026-09-29 01:30:34"
+  },
+  "links": {
+    "cites": [
+      "42307635",
+      "41684868",
+      "41681963",
+      "41582184",
+      "41422220",
+      "41331485",
+      "41331080",
+      "40959426",
+      "40836018",
+      "40703691",
+      "40654157",
+      "40606348",
+      "40593874",
+      "39901654",
+      "39757116",
+      "39716317",
+      "39578848",
+      "39430391",
+      "39252824",
+      "39015321",
+      "38896238",
+      "38791871",
+      "38784914",
+      "38333513"
+    ],
+    "refs": [
+      "36331795",
+      "36139616",
+      "36110992",
+      "36003791",
+      "35997927",
+      "35956236",
+      "35794172",
+      "35788352",
+      "35494212",
+      "35378734",
+      "35133485",
+      "34352654",
+      "34185076",
+      "33942853",
+      "33735760",
+      "33495960",
+      "33121211",
+      "33014836",
+      "32771057",
+      "31124566",
+      "31084753",
+      "31005161",
+      "30243796",
+      "29993462",
+      "29497819",
+      "29404769",
+      "29092951",
+      "28982791",
+      "27716832",
+      "26061751",
+      "24892406",
+      "19765887",
+      "11465400"
+    ],
+    "similar": [
+      "37248527",
+      "29527478",
+      "30194745",
+      "35984514",
+      "29404769",
+      "31828414",
+      "33553421",
+      "32162004",
+      "30661193",
+      "29394005",
+      "33819703",
+      "32193643",
+      "35133485",
+      "38223098",
+      "31464116",
+      "31691122",
+      "29770897",
+      "33393131",
+      "31563963",
+      "26699864",
+      "33243896",
+      "26968173",
+      "29050070",
+      "31870275",
+      "32706862",
+      "34270479",
+      "31704598",
+      "35927323",
+      "31745161",
+      "32740813",
+      "36327857",
+      "34826036",
+      "32239241",
+      "28251430",
+      "30097822",
+      "34233259",
+      "37891702",
+      "36547672",
+      "33574103",
+      "33121211",
+      "36853347",
+      "35454365",
+      "33179832",
+      "28714279",
+      "35956236",
+      "25180159",
+      "31637430",
+      "28795231",
+      "33757198",
+      "26741321",
+      "31811342",
+      "31650265",
+      "30097251",
+      "32025832",
+      "37325712",
+      "28004160",
+      "35136934",
+      "35999374",
+      "32359929",
+      "34417848",
+      "32315266",
+      "32929644",
+      "32875375",
+      "33211141",
+      "36244075",
+      "27982759",
+      "37995996",
+      "31150762",
+      "36086447",
+      "29573085",
+      "33509914",
+      "34508971",
+      "29748206",
+      "30850092",
+      "30529899",
+      "32040669",
+      "24874469",
+      "29980868",
+      "33691798",
+      "35794409",
+      "26210286",
+      "30735871",
+      "33475317",
+      "28869450",
+      "35788352",
+      "36123880",
+      "31957551",
+      "35595562",
+      "31413006",
+      "22890969",
+      "31834910",
+      "31344432",
+      "33826716",
+      "33014836",
+      "39060383",
+      "36534622",
+      "37770204",
+      "37461358",
+      "37201155",
+      "30061525",
+      "34490121",
+      "38972953",
+      "39211987",
+      "36430631",
+      "37510059",
+      "38595094",
+      "37884599",
+      "37760597",
+      "38904769",
+      "37693051",
+      "36991216",
+      "37393383",
+      "37363852",
+      "38641744",
+      "37315204",
+      "38978642",
+      "38672647"
+    ],
+    "review": [
+      "37248527",
+      "32193643",
+      "33243896",
+      "37995996",
+      "30850092",
+      "33826716",
+      "37770204",
+      "38972953",
+      "38904769",
+      "37693051"
+    ],
+    "pmc": [
+      "10228074"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02898-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37248527/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37248527",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

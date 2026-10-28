@@ -1,0 +1,692 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2024.10.07.24315029",
+  "title": "NIAGADS: A Comprehensive National Data Repository for Alzheimer’s Disease and Related Dementia Genetics and Genomics Research",
+  "doi": "10.1101/2024.10.07.24315029",
+  "abstract": "NIAGADS is the National Institute on Aging (NIA) designated national data repository for human genetics research on Alzheimer’s Disease and related dementia (ADRD). NIAGADS maintains a high-quality data collection for ADRD genetic/genomic research and supports genetics data production and analysis. NIAGADS hosts whole genome and exome sequence data from the Alzheimer’s Disease Sequencing Project (ADSP) and other genotype/phenotype data, encompassing 209,000 samples. NIAGADS shares these data with hundreds of research groups around the world via the Data Sharing Service, a FISMA moderate compliant cloud- based platform that fully supports the NIH Genome Data Sharing Policy. NIAGADS Open Access consists of multiple knowledge bases with genome-wide association summary statistics and rich annotations on the biological significance of genetic variants and genes across the human genome. NIAGADS stands as a keystone in promoting collaborations to advance the understanding and treatment of Alzheimer’s disease.",
+  "authors": [
+    "Kuzma A",
+    "Valladares O",
+    "Greenfest-Allen E",
+    "Nicaretta H",
+    "Kirsch M",
+    "Ren Y",
+    "Katanic Z",
+    "White H",
+    "Wilk A",
+    "Bass L",
+    "Brettschneider J",
+    "Carter L",
+    "Cifello J",
+    "Chuang W",
+    "Clark K",
+    "Gangadharan P",
+    "Haut J",
+    "Ho P",
+    "Horng W",
+    "Iqbal T",
+    "Jin Y",
+    "Keskinen P",
+    "Rose AL",
+    "Moon MK",
+    "Manuel J",
+    "Qu L",
+    "Robbins F",
+    "Saravanan N",
+    "Sha J",
+    "Tate S",
+    "Zhao Y",
+    "Cantwell L",
+    "Gardner J",
+    "Chou S",
+    "Tzeng J",
+    "Bush W",
+    "Naj A",
+    "Kuksa P",
+    "Lee W",
+    "Leung YY",
+    "Schellenberg G",
+    "Wang L"
+  ],
+  "published_date": "2024-10-08",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2024.10.07.24315029",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2024.10.07.24315029.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR921257",
+    "raw_record": {
+      "id": "PPR921257",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR921257"
+        ]
+      },
+      "doi": "10.1101/2024.10.07.24315029",
+      "title": "NIAGADS: A Comprehensive National Data Repository for Alzheimer’s Disease and Related Dementia Genetics and Genomics Research",
+      "authorString": "Kuzma A, Valladares O, Greenfest-Allen E, Nicaretta H, Kirsch M, Ren Y, Katanic Z, White H, Wilk A, Bass L, Brettschneider J, Carter L, Cifello J, Chuang W, Clark K, Gangadharan P, Haut J, Ho P, Horng W, Iqbal T, Jin Y, Keskinen P, Rose AL, Moon MK, Manuel J, Qu L, Robbins F, Saravanan N, Sha J, Tate S, Zhao Y, Alzheimer’s Disease Sequencing Project, Cantwell L, Gardner J, Chou S, Tzeng J, Bush W, Naj A, Kuksa P, Lee W, Leung YY, Schellenberg G, Wang L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kuzma A",
+            "lastName": "Kuzma",
+            "firstName": "Amanda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valladares O",
+            "lastName": "Valladares",
+            "firstName": "Otto",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greenfest-Allen E",
+            "lastName": "Greenfest-Allen",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nicaretta H",
+            "lastName": "Nicaretta",
+            "firstName": "Heather",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kirsch M",
+            "lastName": "Kirsch",
+            "firstName": "Maureen",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ren Y",
+            "lastName": "Ren",
+            "firstName": "Youli",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Katanic Z",
+            "lastName": "Katanic",
+            "firstName": "Zivadin",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "White H",
+            "lastName": "White",
+            "firstName": "Heather",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilk A",
+            "lastName": "Wilk",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bass L",
+            "lastName": "Bass",
+            "firstName": "Lauren",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brettschneider J",
+            "lastName": "Brettschneider",
+            "firstName": "Jascha",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carter L",
+            "lastName": "Carter",
+            "firstName": "Luke",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cifello J",
+            "lastName": "Cifello",
+            "firstName": "Jeffrey",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chuang W",
+            "lastName": "Chuang",
+            "firstName": "Wei-Hsuan",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clark K",
+            "lastName": "Clark",
+            "firstName": "Kaylyn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gangadharan P",
+            "lastName": "Gangadharan",
+            "firstName": "Prabhakaran",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haut J",
+            "lastName": "Haut",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ho P",
+            "lastName": "Ho",
+            "firstName": "Pei-Chuan",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Horng W",
+            "lastName": "Horng",
+            "firstName": "Wenhwai",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iqbal T",
+            "lastName": "Iqbal",
+            "firstName": "Taha",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jin Y",
+            "lastName": "Jin",
+            "firstName": "Yumi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keskinen P",
+            "lastName": "Keskinen",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rose AL",
+            "lastName": "Rose",
+            "firstName": "Alexis Lerro",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moon MK",
+            "lastName": "Moon",
+            "firstName": "Michelle",
+            "initials": "MK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Manuel J",
+            "lastName": "Manuel",
+            "firstName": "Joseph",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qu L",
+            "lastName": "Qu",
+            "firstName": "Liming",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robbins F",
+            "lastName": "Robbins",
+            "firstName": "Flawless",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saravanan N",
+            "lastName": "Saravanan",
+            "firstName": "Naveensri",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sha J",
+            "lastName": "Sha",
+            "firstName": "Jin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tate S",
+            "lastName": "Tate",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao Y",
+            "lastName": "Zhao",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Penn Neurodegeneration Genomics Center, Perelman School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Alzheimer’s Disease Sequencing Project"
+          },
+          {
+            "fullName": "Cantwell L",
+            "lastName": "Cantwell",
+            "firstName": "Laura",
+            "initials": "L"
+          },
+          {
+            "fullName": "Gardner J",
+            "lastName": "Gardner",
+            "firstName": "Jake",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer and Information Science, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chou S",
+            "lastName": "Chou",
+            "firstName": "Shin-Yi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Economics, , , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tzeng J",
+            "lastName": "Tzeng",
+            "firstName": "Jung-Ying",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Research Center, , ,"
+                },
+                {
+                  "affiliation": "Department of Statistics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bush W",
+            "lastName": "Bush",
+            "firstName": "William",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cleveland Institute for Computational Biology, Department of Population and Quantitative Health Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Naj A",
+            "lastName": "Naj",
+            "firstName": "Adam",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuksa P",
+            "lastName": "Kuksa",
+            "firstName": "Pavel",
+            "initials": "P"
+          },
+          {
+            "fullName": "Lee W",
+            "lastName": "Lee",
+            "firstName": "Wan-Ping",
+            "initials": "W"
+          },
+          {
+            "fullName": "Leung YY",
+            "lastName": "Leung",
+            "firstName": "Yuk Yee",
+            "initials": "YY"
+          },
+          {
+            "fullName": "Schellenberg G",
+            "lastName": "Schellenberg",
+            "firstName": "Gerard",
+            "initials": "G"
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Li-San",
+            "initials": "L"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "NIAGADS is the National Institute on Aging (NIA) designated national data repository for human genetics research on Alzheimer’s Disease and related dementia (ADRD). NIAGADS maintains a high-quality data collection for ADRD genetic/genomic research and supports genetics data production and analysis. NIAGADS hosts whole genome and exome sequence data from the Alzheimer’s Disease Sequencing Project (ADSP) and other genotype/phenotype data, encompassing 209,000 samples. NIAGADS shares these data with hundreds of research groups around the world via the Data Sharing Service, a FISMA moderate compliant cloud- based platform that fully supports the NIH Genome Data Sharing Policy. NIAGADS Open Access consists of multiple knowledge bases with genome-wide association summary statistics and rich annotations on the biological significance of genetic variants and genes across the human genome. NIAGADS stands as a keystone in promoting collaborations to advance the understanding and treatment of Alzheimer’s disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "175.010.200",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "340755",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "340755",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "047.017.043",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "911-03-012",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.07.24315029"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR921257"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR921257&type=FILE&fileName=EMS199309-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199309",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-10-10",
+      "firstPublicationDate": "2024-10-08",
+      "firstIndexDate": "2024-10-10",
+      "fullTextReceivedDate": "2024-12-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

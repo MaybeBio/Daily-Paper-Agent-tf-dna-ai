@@ -1,0 +1,757 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.07.471700",
+  "title": "Differential Histone-DNA Interactions Dictate Nucleosome Recognition of the Pioneer Transcription Factor Sox",
+  "doi": "10.1101/2021.12.07.471700",
+  "abstract": "Pioneer transcription factors (PTFs) have the remarkable ability to directly bind to chromatin for stimulating vital cellular processes. In this work, we dissect the universal binding mode of Sox PTF by combining extensive molecular simulations and DNA footprinting techniques. As a result, we show that when Sox consensus DNA is located at the solvent-facing DNA strand, Sox binds to the compact nucleosome without imposing any significant conformational changes. We also reveal that the basespecific Sox:DNA interactions (base reading) and the Sox-induced DNA changes (shape reading) are concurrently required for the sequence-specific DNA recognition. Among different nucleosomal positions, such a specific reading mechanism is satisfied solely at superhelical location 2 (SHL2). While SHL2 acts transparently to Sox binding, SHL4 permits only shape reading, and SHL0 (dyad) allows no reading mechanism. These findings demonstrate for the first time that Sox-based nucleosome recognition is essentially guided by the distinct histone-DNA interactions, permitting varying degrees of DNA flexibility.",
+  "authors": [
+    "Burcu Ozden",
+    "Ramachandran Boopathi",
+    "Ayşe Berçin Barlas",
+    "Imtiaz N. Lone",
+    "Jan Bednar",
+    "Carlo Petosa",
+    "Seyit Kale",
+    "Ali Hamiche",
+    "Dimitar Angelov",
+    "Stefan Dimitrov",
+    "Ezgi Karaca"
+  ],
+  "published_date": "2021-12-09",
+  "updated_date": "2021-12-09T13:41:07Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471700",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471700.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:55:08Z",
+        "timestamp": 1768499708123,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 81,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Pioneer transcription factors (PTFs) have the remarkable ability to directly bind to chromatin for stimulating vital cellular processes. In this work, we dissect the universal binding mode of Sox PTF by combining extensive molecular simulations and DNA footprinting techniques. As a result, we show that when Sox consensus DNA is located at the solvent-facing DNA strand, Sox binds to the compact nucleosome without imposing any significant conformational changes. We also reveal that the basespecific Sox:DNA interactions (base reading) and the Sox-induced DNA changes (shape reading) are concurrently required for the sequence-specific DNA recognition. Among different nucleosomal positions, such a specific reading mechanism is satisfied solely at superhelical location 2 (SHL2). While SHL2 acts transparently to Sox binding, SHL4 permits only shape reading, and SHL0 (dyad) allows no reading mechanism. These findings demonstrate for the first time that Sox-based nucleosome recognition is essentially guided by the distinct histone-DNA interactions, permitting varying degrees of DNA flexibility.</jats:p>",
+      "DOI": "10.1101/2021.12.07.471700",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2021-12-09T13:41:07Z",
+        "timestamp": 1639057267000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Differential Histone-DNA Interactions Dictate Nucleosome Recognition of the Pioneer Transcription Factor Sox"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9338-2199",
+          "authenticated-orcid": false,
+          "given": "Burcu",
+          "family": "Ozden",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ramachandran",
+          "family": "Boopathi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3100-9553",
+          "authenticated-orcid": false,
+          "given": "Ayşe Berçin",
+          "family": "Barlas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Imtiaz N.",
+          "family": "Lone",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Bednar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Carlo",
+          "family": "Petosa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Seyit",
+          "family": "Kale",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ali",
+          "family": "Hamiche",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dimitar",
+          "family": "Angelov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1326-3630",
+          "authenticated-orcid": false,
+          "given": "Stefan",
+          "family": "Dimitrov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4926-7991",
+          "authenticated-orcid": false,
+          "given": "Ezgi",
+          "family": "Karaca",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4612-3490-6"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.04.012"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr573"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1000309107"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.83.2.403"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van Holde,K.E. (1989) Chromatin Springer New York, New York, NY.",
+          "DOI": "10.1007/978-1-4612-3490-6"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1016/j.sbi.2019.07.011",
+          "article-title": "Structural transition of the nucleosome during chromatin remodeling and transcription",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-051013-022819"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.26"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.07.011"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/SQB.1993.058.01.027"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Beato,M. and Eisfeld,K. (1997) Transcription factor access to chromatin Oxford University Press.",
+          "DOI": "10.1093/nar/25.18.3559"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eisfeld,K. , Candau,R. , Truss,M. and Beato,M. (1997) Binding of NF1 to the MMTV promoter in nucleosomes: influence of rotational phasing, translational positioning and histone H1 Oxford University Press.",
+          "DOI": "10.1093/nar/25.18.3733"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.24.2.697-707.2004"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.15",
+          "first-page": "20167",
+          "article-title": "MCB.20.6.2167-2175.2000",
+          "volume": "20",
+          "year": "2000",
+          "journal-title": "Molecular and Cellular Biology"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.241422.114"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lone,I.N. , Shukla,M.S. , Charles Richard,J.L. , Peshev,Z.Y. , Dimitrov,S. and Angelov,D. (2013) Binding of NF-κB to nucleosomes: effect of translational positioning, nucleosome remodeling and linker histone H1. PLoS Genet, 9.",
+          "DOI": "10.1371/journal.pgen.1003830"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aab1223"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.03.001"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.03.017"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.05.024"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1804663115"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/23.6.1019"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(00)00063-0"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.950150807"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/21.15.3427"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-291X(03)00184-0"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "647",
+          "DOI": "10.1021/acs.biochem.6b00569",
+          "article-title": "HMGB1 stimulates activity of polymerase β on nucleosome substrates",
+          "volume": "56",
+          "year": "2017",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "496",
+          "DOI": "10.1016/j.gde.2005.08.007",
+          "article-title": "HMG proteins: dynamic players in gene regulation and differentiation",
+          "volume": "15",
+          "year": "2005",
+          "journal-title": "Current Opinion in Genetics & Development"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.152.6.1197"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0077-z"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-007-7162-3"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.274.3.1628"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(01)01801-1"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Frum,T. , Murphy,T.M. and Ralston,A. (2018) HIPPO signaling resolves embryonic cell fate conflicts during establishment of pluripotency in vivo. Elife, 7.",
+          "DOI": "10.7554/eLife.42298"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2017.06.005"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1016/j.trecan.2017.06.002",
+          "article-title": "SOX4: Joining the Master Regulators of Epithelial-to-Mesenchymal Transition?",
+          "volume": "3",
+          "year": "2017",
+          "journal-title": "Trends in Cancer"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccr.2013.04.020"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2012.09.003"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2016.08.005"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw130"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060408-091030"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2195-y"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1110/ps.35501",
+          "article-title": "HMG-D complexed to a bulge DNA: An NMR model",
+          "volume": "10",
+          "year": "2001",
+          "journal-title": "Protein Science: A Publication of the Protein Society"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1995.tb07110.x"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00785-X"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.08.035"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/24.6.1047"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "5639",
+          "DOI": "10.1002/j.1460-2075.1994.tb06902.x",
+          "article-title": "The DNA sequence specificity of HMG boxes lies in the minor wing of the structure",
+          "volume": "13",
+          "year": "1994",
+          "journal-title": "The EMBO Journal"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Werner,M.H. , Huth,J.R. , Gronenborn,A.M. and Clore,G.M. (1995) Molecular Basis of Human 46X,Y Sex Reversal Revealed from the Three-Dimensional Solution Structure of the Human SRY-DNA Complex.",
+          "DOI": "10.1016/0092-8674(95)90532-4"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.08.035"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1511"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0076-6879(91)08021-9"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1007/978-1-60327-015-1_5",
+          "article-title": "Hydroxyl radical footprinting of protein-DNA complexes",
+          "volume": "543",
+          "year": "2009",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Churchill,M.E.A. , Hayes,J.J. and Tullius,T.D. (1990) Detection of Drug Binding to DNA by Hydroxyl Radical Footprinting. Relationship of Distamycin Binding Sites to DNA Structure and Positioned Nucleosomes on 5s RNA Genes of Xenopus+.",
+          "DOI": "10.1021/bi00477a023"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.09.027"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja016426a"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.58",
+          "first-page": "481",
+          "article-title": "UV Laser Footprinting and Protein-DNA Crosslinking",
+          "volume": "119",
+          "year": "1999",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0968-0004(91)90133-G"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M407235200"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi9905260"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.03.017"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jarmoskaite,I. , AlSadhan,I. , Vaidyanathan,P.P. and Herschlag,D. (2020) How to measure and evaluate binding affinities. Elife, 9.",
+          "DOI": "10.7554/eLife.57264"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2010.11.006"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang,L. , Wang,E. , Prado Balcazar,J. , Wu,Z. , Xiang,K. , Wang,Y. , Huang,Q. , Negrete,M. , Chen,K.Y. , Li,W. , et al. (2021) Chromatin Remodeling of Colorectal Cancer Liver Metastasis is Mediated by an HGF-PU.1-DPP4 Axis. Advanced Science, 8.",
+          "DOI": "10.1002/advs.202004673"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Clapier,C.R. (2021) Sophisticated conversations between chromatin and chromatin remodelers, and dissonances in cancer. International Journal of Molecular Sciences, 22.",
+          "DOI": "10.3390/ijms22115578"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0549-5"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks261"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lobbia,V.R. , Trueba Sanchez,M.C. and van Ingen,H. (2021) Beyond the Nucleosome: Nucleosome-Protein Interactions and Higher Order Chromatin Structure. Journal of Molecular Biology, 433.",
+          "DOI": "10.1016/j.jmb.2021.166827"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "4959",
+          "DOI": "10.1002/j.1460-2075.1996.tb00876.x",
+          "article-title": "Differential association of HMG1 and linker histones B4 and H1 with dinucleosomal DNA: structural transitions and transcriptional repression",
+          "volume": "15",
+          "year": "1996",
+          "journal-title": "The EMBO Journal"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20291"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3658"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eswar,N. , Webb,B. , Marti-Renom,M.A. , Madhusudhan,M.S. , Eramian,D. , Shen,M. , Pieper,U. and Sali,A. (2007) Comparative protein structure modeling using MODELLER. Curr Protoc Protein Sci, Chapter 2.",
+          "DOI": "10.1002/0471140864.ps0209s50"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.74",
+          "first-page": "1213",
+          "article-title": "3DNA: a versatile, integrated software system for the analysis, rebuilding and visualization of three-dimensional nucleic-acid structures",
+          "volume": "3",
+          "year": "2008",
+          "journal-title": "Nature Protocols 2008 3:7"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.75",
+          "unstructured": "Rodrigues,J. , Valentine,C. and Jimenez,B. (2019) JoaoRodrigues/interfacea: first beta version of the API."
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.76",
+          "unstructured": "MATLAB R2020B. Natick, Massachusetts: The MathWorks Inc"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.08.039"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja026939x"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.09.014"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4392"
+        },
+        {
+          "key": "2022112106250508000_2021.12.07.471700v4.81",
+          "unstructured": "SYSTAT. San Jose, CA: Systat Software"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.07.471700",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:27:57Z",
+        "timestamp": 1768444077000
+      },
+      "score": 75.30855,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.07.471700"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "references-count": 81,
+      "URL": "https://doi.org/10.1101/2021.12.07.471700",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

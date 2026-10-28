@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41752517",
+  "title": "GenReP: An Ensemble Model for Predicting TP53 in Response to Pharmaceutical Compounds.",
+  "authors": "Spadaro, Austin; Sharma, Alok; Dehzangi, Iman",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用集成机器学习预测化合物对TP53基因表达的影响，属于药物反应预测，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "TP53 is a tumor-suppressor gene involved in regulating apoptosis, DNA repair, and genomic stability. Mutations in TP53 are implicated in approximately half of all detected cancers, including breast, lung, colorectal, and ovarian cancers, making it a significant target for therapeutic interventions. Many pharmaceutical drugs aim to restore TP53 function, and there is a need for predictive tools to assess how compounds may affect TP53 expression. In this study, we propose a new ensemble machine-learning model to predict the direction of TP53 relative gene expression in response to pharmaceutical compounds. Our model utilizes molecular fingerprints, descriptors, and scaffold-based features extracted from SMILES representations of compounds concatenated into a single feature vector. Trained using our newly generated benchmark dataset based on the Connectivity Map (CMap) database and addressing class imbalance with the Synthetic Minority Over-sampling Technique (SMOTE), our model achieves 62.9%, 93.9%, 40.3%, and 0.39 in terms of accuracy, sensitivity, specificity, and Matthews Correlation Coefficient (MCC), respectively. As the first-of-its-kind TP53 gene regulation prediction, our study serves as a convincing proof-of-concept that paves the way for future investigation. GenReP as a stand-alone predictor, its source code, and our newly generated benchmark dataset are publicly available.",
+  "abstract_zh": "TP53是一个肿瘤抑制基因，参与调控细胞凋亡、DNA修复和基因组稳定性。TP53的突变与约半数检测到的癌症相关，包括乳腺癌、肺癌、结直肠癌和卵巢癌，使其成为治疗干预的重要靶点。许多药物旨在恢复TP53功能，因此需要预测工具来评估化合物可能如何影响TP53表达。在本研究中，我们提出了一种新的集成机器学习模型，以预测药物化合物作用下TP53相对基因表达的方向。我们的模型利用从化合物SMILES表示中提取的分子指纹、描述符和基于骨架的特征，并将它们拼接成单一特征向量。使用我们基于连接图谱（Connectivity Map, CMap）数据库新生成的基准数据集进行训练，并通过合成少数类过采样技术（Synthetic Minority Over-sampling Technique, SMOTE）解决类别不平衡问题，我们的模型在准确率、灵敏度、特异性和马修斯相关系数（Matthews Correlation Coefficient, MCC）方面分别达到62.9%、93.9%、40.3%和0.39。作为首个此类TP53基因调控预测研究，我们的工作提供了一个令人信服的概念验证，为未来研究铺平了道路。GenReP作为独立预测工具，其源代码和我们新生成的基准数据集均可公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41752517/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41752517/",
+  "paper_page_path": "papers/pubmed/41752517/index.html"
+}

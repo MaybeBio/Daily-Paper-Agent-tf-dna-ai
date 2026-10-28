@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35299890",
+  "title": "Establishment of a Combined Diagnostic Model of Abdominal Aortic Aneurysm with Random Forest and Artificial Neural Network.",
+  "authors": "Duan, Yixuan; Xie, Enrui; Liu, Chang; Sun, Jingjing; Deng, Jie",
+  "journal": "BioMed research international",
+  "published_date": "2022-03-19",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用随机森林和人工神经网络构建腹主动脉瘤诊断模型，虽含转录因子调控网络，但核心是基因表达诊断而非蛋白质-DNA互作建模，方法为传统机器学习，与本课题关联弱。",
+  "abstract": "OBJECTIVES: Abdominal aortic aneurysm (AAA), a disease with high mortality, is limited by the current diagnostic methods in the early screening. This study aimed to screen novel and significant biomarkers and construct a diagnostic model for AAA by using a novel machine learning method, i.e., an ensemble of the random forest (RF) algorithm and artificial neural network (ANN). METHODS AND RESULTS: Through a search of the Gene Expression Omnibus (GEO) database, two large-sample gene expression datasets (GSE57691 and GSE47472) were downloaded and preprocessed. Differentially expressed genes (DEGs) in GSE57691 were identified by R software, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment using the Database for Annotation, Visualization, and Integrated Discovery (DAVID). Essential metabolic pathways related to positive regulation of cell death and NAD binding were found. Then, RF was used to identify key genes from the DEGs, and an AAA diagnostic model was established by ANN. A transcription factor (TF) regulatory network of key genes related to angiogenesis and endothelial migration was constructed. Finally, a validation dataset was used to validate the model and the area under the receiver operating characteristic curve (AUC) value was high. CONCLUSION: Potential AAA-associated gene biomarkers were identified by RF, and a novel early diagnostic model of AAA was established by ANN. The AUC indicated that the diagnostic model had a highly satisfactory diagnostic performance. In conclusion, this study will provide a promising theoretical basis for further clinical and experimental studies.",
+  "abstract_zh": "目的：腹主动脉瘤（AAA）是一种高死亡率疾病，现有诊断方法在早期筛查方面存在局限。本研究旨在利用一种新颖的机器学习方法，即随机森林（RF）算法与人工神经网络（ANN）的集成，筛选新型且显著的生物标志物，并构建AAA的诊断模型。方法与结果：通过检索基因表达综合（GEO）数据库，下载并预处理了两个大样本基因表达数据集（GSE57691和GSE47472）。使用R软件识别GSE57691中的差异表达基因（DEGs），随后利用注释、可视化和集成发现数据库（DAVID）进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析。发现了与细胞死亡正调控和NAD结合相关的重要代谢通路。然后，使用RF从DEGs中识别关键基因，并通过ANN建立AAA诊断模型。构建了与血管生成和内皮迁移相关的关键基因转录因子（TF）调控网络。最后，使用验证数据集验证模型，受试者工作特征曲线下面积（AUC）值较高。结论：通过RF识别了潜在的AAA相关基因生物标志物，并通过ANN建立了新颖的AAA早期诊断模型。AUC表明该诊断模型具有高度满意的诊断性能。总之，本研究将为进一步的临床和实验研究提供有前景的理论基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35299890/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35299890/",
+  "paper_page_path": "papers/pubmed/35299890/index.html"
+}

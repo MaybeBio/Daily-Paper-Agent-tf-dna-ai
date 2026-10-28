@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "38777607",
+    "doi": "10.1101/gr.278565.123",
+    "title": "Machine learning identifies activation of RUNX/AP-1 as drivers of mesenchymal and fibrotic regulatory programs in gastric cancer."
+  },
+  "content": {
+    "abstract": "Gastric cancer (GC) is the fifth most common cancer worldwide and is a heterogeneous disease. Among GC subtypes, the mesenchymal phenotype (Mes-like) is more invasive than the epithelial phenotype (Epi-like). Although gene expression of the epithelial-to-mesenchymal transition (EMT) has been studied, the regulatory landscape shaping this process is not fully understood. Here we use ATAC-seq and RNA-seq data from a compendium of GC cell lines and primary tumors to detect drivers of regulatory state changes and their transcriptional responses. Using the ATAC-seq data, we developed a machine learning approach to determine the transcription factors (TFs) regulating the subtypes of GC. We identified TFs driving the mesenchymal (RUNX2, ZEB1, SNAI2, AP-1 dimer) and the epithelial (GATA4, GATA6, KLF5, HNF4A, FOXA2, GRHL2) states in GC. We identified DNA copy number alterations associated with dysregulation of these TFs, specifically deletion of GATA4 and amplification of MAPK9 Comparisons with bulk and single-cell RNA-seq data sets identified activation toward fibroblast-like epigenomic and expression signatures in Mes-like GC. The activation of this mesenchymal fibrotic program is associated with differentially accessible DNA cis-regulatory elements flanking upregulated mesenchymal genes. These findings establish a map of TF activity in GC and highlight the role of copy number driven alterations in shaping epigenomic regulatory programs as potential drivers of GC heterogeneity and progression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Stomach Neoplasms/genetics/pathology/metabolism",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Gene Expression Regulation, Neoplastic",
+      "Transcription Factor AP-1/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Fibrosis/genetics",
+      "Core Binding Factor Alpha 1 Subunit/genetics/metabolism",
+      "DNA Copy Number Variations",
+      "Core Binding Factor Alpha 2 Subunit"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Razavi-Mohseni, Milad",
+        "Huang, Weitai",
+        "Guo, Yu A",
+        "Shigaki, Dustin",
+        "Ho, Shamaine Wei Ting",
+        "Tan, Patrick",
+        "Skanderup, Anders J",
+        "Beer, Michael A"
+      ],
+      "short_names": [
+        "Razavi-Mohseni M",
+        "Huang W",
+        "Guo YA",
+        "Shigaki D",
+        "Ho SWT",
+        "Tan P",
+        "Skanderup AJ",
+        "Beer MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6052-3159",
+        "ORCID: 0000-0001-9955-3809"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA.",
+        "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+        "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+        "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA.",
+        "Laboratory of Cancer Epigenetic Regulation, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+        "Laboratory of Cancer Epigenetic Regulation, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+        "Cancer and Stem Cell Biology Program, Duke-NUS Medical School, Singapore 169857.",
+        "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117593.",
+        "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+        "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA; mbeer@jhu.edu skanderupamj@gis.a-star.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Razavi-Mohseni, Milad",
+        "short_name": "Razavi-Mohseni M",
+        "identifiers": [
+          "0000-0002-6052-3159"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Weitai",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672."
+        ]
+      },
+      {
+        "full_name": "Guo, Yu A",
+        "short_name": "Guo YA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672."
+        ]
+      },
+      {
+        "full_name": "Shigaki, Dustin",
+        "short_name": "Shigaki D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Ho, Shamaine Wei Ting",
+        "short_name": "Ho SWT",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Epigenetic Regulation, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672."
+        ]
+      },
+      {
+        "full_name": "Tan, Patrick",
+        "short_name": "Tan P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Epigenetic Regulation, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672.",
+          "Cancer and Stem Cell Biology Program, Duke-NUS Medical School, Singapore 169857.",
+          "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117593."
+        ]
+      },
+      {
+        "full_name": "Skanderup, Anders J",
+        "short_name": "Skanderup AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Cancer Genomics, Genome Institute of Singapore (GIS), Agency for Science, Technology and Research (A*STAR), Singapore 138672."
+        ]
+      },
+      {
+        "full_name": "Beer, Michael A",
+        "short_name": "Beer MA",
+        "identifiers": [
+          "0000-0001-9955-3809"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland 21205, USA; mbeer@jhu.edu skanderupamj@gis.a-star.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2024 Jun 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/23 00:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42618921",
+      "42210916",
+      "41867258",
+      "41484652",
+      "41028816",
+      "40785647",
+      "40476057",
+      "40411278",
+      "40283972",
+      "40256325",
+      "40194986",
+      "39781447",
+      "39335515"
+    ],
+    "refs": [
+      "37492096",
+      "37488417",
+      "36918265",
+      "36805539",
+      "35817555",
+      "35087207",
+      "34635154",
+      "34557100",
+      "34092790",
+      "34062119",
+      "33594051",
+      "33505025",
+      "33115806",
+      "32879300",
+      "32778778",
+      "32443951",
+      "32364535",
+      "32300252",
+      "32147542",
+      "32124310",
+      "31980749",
+      "31713622",
+      "31461652",
+      "31395879",
+      "31217334",
+      "31110351",
+      "31106481",
+      "30903020",
+      "30841909",
+      "30594036",
+      "30568591",
+      "30562350",
+      "30503521",
+      "30361341",
+      "30357393",
+      "29988122",
+      "29725014",
+      "29462906",
+      "29425488",
+      "29326430",
+      "28810883",
+      "28747339",
+      "28569272",
+      "28220625",
+      "28120510",
+      "27708434",
+      "27458787",
+      "27325420",
+      "27153639",
+      "27153584",
+      "27100738",
+      "26949250",
+      "26771021",
+      "26634437",
+      "26075791",
+      "25998163",
+      "25894828",
+      "25693563",
+      "25605140",
+      "25301070",
+      "25260700",
+      "25079317",
+      "25053715",
+      "25033408",
+      "25030941",
+      "24914328",
+      "23861010",
+      "23715323",
+      "23684942",
+      "23550210",
+      "22955616",
+      "22641097",
+      "22588877",
+      "22388286",
+      "22249256",
+      "22147512",
+      "21720494",
+      "21684283",
+      "21546393",
+      "21527027",
+      "19910308",
+      "18798982",
+      "17297478",
+      "16707453",
+      "16572188",
+      "16288205",
+      "16199517",
+      "12808457",
+      "11978510",
+      "11279127",
+      "9069263"
+    ],
+    "similar": [
+      "38777607",
+      "25053715",
+      "38812308",
+      "39256881",
+      "32860837",
+      "25080937",
+      "30943047",
+      "35817555",
+      "41205579",
+      "29956735",
+      "30646925",
+      "28501849",
+      "32180230",
+      "41053012",
+      "40205350",
+      "22641097",
+      "40254092",
+      "30632714",
+      "34635154",
+      "24945379",
+      "30917930",
+      "36603607",
+      "40543274",
+      "38467548",
+      "30953349",
+      "32535615",
+      "33824282",
+      "40774945",
+      "23687415",
+      "40966274",
+      "27010547",
+      "35413540",
+      "39354571",
+      "34160112",
+      "35362543",
+      "38894657",
+      "35524544",
+      "31559693",
+      "31113461",
+      "29489064",
+      "39463228",
+      "30161272",
+      "34202606",
+      "29940566",
+      "37679111",
+      "35094634",
+      "27836001",
+      "25301070",
+      "39301785",
+      "41177810",
+      "34667277",
+      "28874138",
+      "31309567",
+      "31260797",
+      "31607270",
+      "31463827",
+      "30829316",
+      "30661291",
+      "24833870",
+      "34855108",
+      "27114453",
+      "28485805",
+      "30717708",
+      "26729198",
+      "23943797",
+      "31150646",
+      "37812924",
+      "34427967",
+      "29992789",
+      "32020707",
+      "23045275",
+      "39960839",
+      "39717922",
+      "32703484",
+      "28076840",
+      "38065939",
+      "24317510",
+      "41303526",
+      "29335012",
+      "41174748",
+      "34706749",
+      "41118587",
+      "38532115",
+      "36274500",
+      "27611950",
+      "40752540",
+      "40702072",
+      "40657397",
+      "27654478",
+      "28440473",
+      "31801938",
+      "39540948",
+      "27878953",
+      "41372983",
+      "27007162",
+      "31063022",
+      "31420917",
+      "32857323",
+      "28266048",
+      "36208698"
+    ],
+    "review": [
+      "38777607",
+      "24833870"
+    ],
+    "pmc": [
+      "11216402"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38777607/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI2-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse264550",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

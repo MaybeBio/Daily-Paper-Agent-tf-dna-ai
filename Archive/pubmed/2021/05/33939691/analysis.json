@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33939691",
+  "title": "Pseudocell Tracer-A method for inferring dynamic trajectories using scRNAseq and its application to B cells undergoing immunoglobulin class switch recombination.",
+  "authors": "Reiman, Derek; Manakkat Vijay, Godhev Kumar; Xu, Heping; Sonin, Andrew; Chen, Dianyu; Salomonis, Nathan; Singh, Harinder; Khan, Aly A",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-05-04",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用scRNAseq和GAN推断B细胞免疫球蛋白类别转换的动态轨迹，核心是细胞转录状态轨迹推断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Single cell RNA sequencing (scRNAseq) can be used to infer a temporal ordering of cellular states. Current methods for the inference of cellular trajectories rely on unbiased dimensionality reduction techniques. However, such biologically agnostic ordering can prove difficult for modeling complex developmental or differentiation processes. The cellular heterogeneity of dynamic biological compartments can result in sparse sampling of key intermediate cell states. To overcome these limitations, we develop a supervised machine learning framework, called Pseudocell Tracer, which infers trajectories in pseudospace rather than in pseudotime. The method uses a supervised encoder, trained with adjacent biological information, to project scRNAseq data into a low-dimensional manifold that maps the transcriptional states a cell can occupy. Then a generative adversarial network (GAN) is used to simulate pesudocells at regular intervals along a virtual cell-state axis. We demonstrate the utility of Pseudocell Tracer by modeling B cells undergoing immunoglobulin class switch recombination (CSR) during a prototypic antigen-induced antibody response. Our results revealed an ordering of key transcription factors regulating CSR to the IgG1 isotype, including the concomitant expression of Nfkb1 and Stat6 prior to the upregulation of Bach2 expression. Furthermore, the expression dynamics of genes encoding cytokine receptors suggest a poised IL-4 signaling state that preceeds CSR to the IgG1 isotype.",
+  "abstract_zh": "单细胞RNA测序（scRNAseq）可用于推断细胞状态的时间顺序。当前用于推断细胞轨迹的方法依赖于无偏降维技术。然而，这种生物学上不可知的排序在建模复杂发育或分化过程时可能较为困难。动态生物区室的细胞异质性可能导致关键中间细胞状态的稀疏采样。为克服这些限制，我们开发了一种名为Pseudocell Tracer的监督机器学习框架，该框架在伪空间而非伪时间中推断轨迹。该方法使用一个监督编码器，通过相邻生物学信息进行训练，将scRNAseq数据投影到低维流形中，该流形映射细胞可能占据的转录状态。随后，使用生成对抗网络（GAN）沿虚拟细胞状态轴以规则间隔模拟伪细胞。我们通过建模在原型抗原诱导抗体反应中进行免疫球蛋白类别转换重组（CSR）的B细胞，展示了Pseudocell Tracer的实用性。我们的结果揭示了调控向IgG1同种型CSR的关键转录因子的排序，包括在Bach2表达上调之前Nfkb1和Stat6的共表达。此外，编码细胞因子受体的基因表达动态表明，在向IgG1同种型CSR之前存在一个预备的IL-4信号状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33939691/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33939691/",
+  "paper_page_path": "papers/pubmed/33939691/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DSAC, a dual-branch network combining convolutional and self-attention mechanisms, to predict transcription factor binding sites (TFBSs) from DNA sequence. They claim that DSAC outperforms five other deep learning methods across 165 ChIP-seq datasets and that the dual-branch architecture enables effective fusion of local features and global representations.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset details, baseline specifications, or code verification are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed experimental setup, hyperparameter choices, baseline method descriptions, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible architectural idea, namely combining convolutional and self-attention branches for TFBS prediction, which is a reasonable direction given the complementary strengths of these mechanisms. However, the abstract provides no quantitative evidence, no comparison details, and no methodological specifics that would allow an independent assessment of the claimed performance. The central claim of outperforming five other methods on 165 datasets is unverifiable from the supplied material. The work may have merit, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing deep learning models for sequence-based prediction of protein-DNA interactions. Researchers interested in hybrid architectures that combine local feature extraction with long-range dependency modeling may also find the approach relevant.
+- **Major strengths** The conceptual motivation is clear and well articulated. The authors correctly identify the limitations of purely convolutional and purely self-attention approaches for sequence analysis. The proposed dual-branch design is a sensible strategy to address these limitations. The use of 165 ChIP-seq datasets suggests a broad evaluation scope, assuming the claim is accurate.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DSAC "obviously outperforms other five deep learning based methods" on 165 ChIP-seq datasets.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, no effect sizes, no confidence intervals, and no statistical tests. The word "obviously" is subjective and unsupported by any numerical data in the supplied material.
+  - **Why it matters** The central claim of the manuscript is the superior predictive performance of DSAC. Without any numbers, the reader cannot judge the magnitude of improvement, whether it is practically meaningful, or whether it is statistically robust. This is the core evidence needed to establish the value of the proposed method.
+  - **Resolution test** Provide performance metrics such as AUC, AUPRC, or F1 scores for DSAC and all baselines across the 165 datasets, along with statistical significance tests (e.g., paired tests with multiple testing correction) and effect size measures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that DSAC "fuses local features and global representations in an interactive way" and that the "dual-branch structure makes the convolution and the self-attention mechanism can be fully utilized."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the fusion is implemented. Terms such as "interactive way" and "fully utilized" are vague. There is no information on the network depth, the number of parameters, the fusion mechanism (e.g., concatenation, attention-based weighting, gating), or the training procedure.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology methods. Without architectural details, other researchers cannot implement or evaluate the method. The claimed advantage of the dual-branch design cannot be assessed without knowing what specifically was done.
+  - **Resolution test** Provide a detailed description of the network architecture, including layer types, dimensions, fusion strategy, and training hyperparameters, either in the main text or supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline comparability
+  - **Claim pointer** The authors claim DSAC outperforms "five other deep learning based methods."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The five baseline methods are not named. There is no information on whether these baselines were reimplemented, whether their hyperparameters were tuned, or whether the comparison was fair in terms of training data, evaluation protocol, and computational budget.
+  - **Why it matters** Performance comparisons are only meaningful if baselines are appropriately configured and evaluated under identical conditions. Without this information, the claimed improvement could be due to suboptimal baselines rather than genuine architectural advantages.
+  - **Resolution test** List the baseline methods, describe their configurations, and state the evaluation protocol clearly. Ideally, use published implementations with recommended settings and report any tuning performed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "the dual-branch structure makes the convolution and the self-attention mechanism can be fully utilized" is grammatically awkward and unclear.
+  - **Required correction** Rephrase to something like "the dual-branch structure allows both convolution and self-attention to contribute effectively to feature extraction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions 165 ChIP-seq datasets but does not specify the species, cell types, or transcription factors involved.
+  - **Required correction** Add a brief description of the dataset composition, such as the range of transcription factors and cell types, to contextualize the evaluation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The code repository is mentioned but its contents, documentation, and usability are not described.
+  - **Required correction** State that the code includes model definitions, training scripts, and instructions for reproduction, or note any limitations in the repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, architectural details, and baseline specifications means the core claims cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of convolution and self-attention is not entirely novel, as hybrid architectures exist in other domains, but applying it specifically to TFBS prediction with a dual-branch design may offer a modest contribution. The originality is not clearly established from the abstract.
+  - Scientific importance: TFBS prediction is an important problem in regulatory genomics. However, the abstract does not demonstrate that DSAC provides a meaningful advance over existing methods, so the scientific importance of the specific contribution is unclear.
+  - Interdisciplinary readership: The topic is relevant to computational biology and machine learning audiences. The abstract is accessible to these groups, but the lack of technical detail limits its usefulness to practitioners.
+  - Technical soundness: Cannot be assessed from the abstract. The architectural description is too vague, and no results are provided.
+  - Readability for nonspecialists: The abstract is generally readable, but terms like "self-attention" and "ChIP-seq" are used without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable idea but lacks the quantitative and methodological substance needed to support the claims. The manuscript may become publishable if the full text provides the missing details and results, but this cannot be determined from the supplied material.
+
+## Risk / unsupported claims
+- The claim that DSAC "obviously outperforms" five other methods is unsupported by any numerical data in the supplied material.
+- The claim that the dual-branch architecture "fuses local features and global representations in an interactive way" is unverifiable without architectural details.
+- The claim that the model "can effectively predict TFBSs based on sequence feature alone" is not supported by any performance metrics in the abstract.
+- The general statement that deep learning methods "have shown huge potential" in this area is a broad assertion that is not directly tied to the manuscript's results.

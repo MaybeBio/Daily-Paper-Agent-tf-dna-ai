@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40163554",
+    "doi": "10.1371/journal.pone.0319205",
+    "title": "Computational network biology analysis revealed COVID-19 severity markers: Molecular interplay between HLA-II with CIITA."
+  },
+  "content": {
+    "abstract": "COVID-19, severe acute respiratory syndrome coronavirus 2, rapidly spread worldwide. Severe and critical patients are expected to rapidly deteriorate. Although several studies have attempted to uncover the mechanisms underlying COVID-19 severity, most have focused on the perturbations of single genes. However, the complex mechanism of COVID-19 involves numerous perturbed genes in a molecular network rather than a single abnormal gene. Thus, we aimed to identify COVID-19 severity-specific markers in the Japanese population using gene network analysis. In order to reveal the severity-specific molecular interplays, we developed a novel computational network biology strategy that measures dissimilarity between networks based on the comprehensive information of gene network (i.e., expression levels of genes and network structure) by using Kullback-Leibler divergence. Monte Carlo simulations demonstrated the effectiveness of our strategy for differential gene network analysis. We applied this method to publicly available whole blood RNA-seq data from the Japan coronavirus disease 2019 Task Force and identified differentially regulated molecular interplays between 368 severe and 105 non-severe samples. Our analysis suggests the gene network between HLA class II, CIITA, and CD74 as a COVID-19 severity specific molecular marker. Although the association between HLA class II and COVID-19 has been demonstrated, our data analysis revealed that the molecular interplay of HLA class II with its target and/or regulator is a crucial marker for COVID-19 severity. Our findings from computational network biology analysis suggest that suppression and activation of the molecular interplay between HLA class II, CIITA, and CD74 provide crucial clues to uncover the mechanisms of COVID-19 severity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics/pathology",
+      "Gene Regulatory Networks",
+      "Severity of Illness Index",
+      "SARS-CoV-2",
+      "*Histocompatibility Antigens Class II/genetics/metabolism",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Monte Carlo Method",
+      "Japan",
+      "Antigens, Differentiation, B-Lymphocyte",
+      "Nuclear Proteins",
+      "Trans-Activators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Heewon",
+        "Miyano, Satoru"
+      ],
+      "short_names": [
+        "Park H",
+        "Miyano S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2773-8596",
+        "ORCID: 0000-0002-1753-6616"
+      ],
+      "affiliations": [
+        "School of Mathematics, Statistics and Data Science, Sungshin Women's University, Seoul, Republic of Korea.",
+        "M&D Data Science Center, Institute of Science Tokyo, Bunkyo-ku, Tokyo, Japan.",
+        "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Minato-ku, Tokyo, Japan.",
+        "M&D Data Science Center, Institute of Science Tokyo, Bunkyo-ku, Tokyo, Japan.",
+        "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Minato-ku, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Heewon",
+        "short_name": "Park H",
+        "identifiers": [
+          "0000-0002-2773-8596"
+        ],
+        "affiliations": [
+          "School of Mathematics, Statistics and Data Science, Sungshin Women's University, Seoul, Republic of Korea.",
+          "M&D Data Science Center, Institute of Science Tokyo, Bunkyo-ku, Tokyo, Japan.",
+          "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Minato-ku, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Miyano, Satoru",
+        "short_name": "Miyano S",
+        "identifiers": [
+          "0000-0002-1753-6616"
+        ],
+        "affiliations": [
+          "M&D Data Science Center, Institute of Science Tokyo, Bunkyo-ku, Tokyo, Japan.",
+          "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Minato-ku, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:18",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42123467"
+    ],
+    "refs": [
+      "39505948",
+      "38655085",
+      "38510977",
+      "38117652",
+      "37853311",
+      "37622330",
+      "37508378",
+      "35995775",
+      "35928229",
+      "35682950",
+      "35582503",
+      "35528178",
+      "35434695",
+      "35188837",
+      "34850892",
+      "34344463",
+      "34239034",
+      "34141432",
+      "34065123",
+      "33933681",
+      "33896121",
+      "33713961",
+      "33371891",
+      "32916130",
+      "32855215",
+      "32845042",
+      "32446795",
+      "32423917",
+      "32408118",
+      "32050004",
+      "19689953",
+      "18310618",
+      "18079126",
+      "17612399",
+      "15937031"
+    ],
+    "similar": [
+      "40163554",
+      "40580453",
+      "38968283",
+      "40362649",
+      "41348599",
+      "41915715",
+      "38394313",
+      "34975885",
+      "15528357",
+      "39093763",
+      "35185875",
+      "34137173",
+      "38752789",
+      "41155463",
+      "39170609",
+      "32855215",
+      "11889043",
+      "33993223",
+      "36059456",
+      "19245431",
+      "20197681",
+      "40408617",
+      "7600294",
+      "37777104",
+      "21940994",
+      "35974335",
+      "38640424",
+      "15644645",
+      "38784379",
+      "26500140",
+      "40600526",
+      "41544194",
+      "34954105",
+      "40796616",
+      "41930954",
+      "36414950",
+      "36119022",
+      "10903745",
+      "39684907",
+      "14586411",
+      "15577315",
+      "36575422",
+      "25631773",
+      "41066424",
+      "40508150",
+      "21458073",
+      "34831321",
+      "42123467",
+      "35938548",
+      "38682259",
+      "33831468",
+      "8898960",
+      "40301887",
+      "41849252",
+      "36104591",
+      "33968060",
+      "35749386",
+      "37040729",
+      "34535795",
+      "37610997",
+      "35264675",
+      "20013806",
+      "33235138",
+      "25740990",
+      "33830530",
+      "39965013",
+      "37936693",
+      "40429912",
+      "36797091",
+      "38259479",
+      "41751534",
+      "9300692",
+      "40338916",
+      "9564838",
+      "10449097",
+      "34352044",
+      "10221658",
+      "39928675",
+      "24475282",
+      "15627980",
+      "36189314",
+      "10725870",
+      "34712201",
+      "34895312",
+      "35185890",
+      "39317638",
+      "15326139",
+      "9233601",
+      "41729824",
+      "32303592",
+      "9670958",
+      "38878325",
+      "34750486",
+      "33732261",
+      "11777970",
+      "36420258",
+      "21368758",
+      "40391199",
+      "9144488",
+      "24038328"
+    ],
+    "review": [
+      "40163554"
+    ],
+    "pmc": [
+      "11957389"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0319205",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40163554/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, data availability, acknowledgements) as provided. Supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific claims, technical soundness, and significance as assessable from the provided text. Structural biology claims are evaluated based on reported statistics and descriptions; raw data and supplementary figures are not available for independent verification.
+- **Shared manuscript claim summary** The authors report a modular protein–DNA co-crystal scaffold (CC1) that can be expanded by inserting DNA struts of variable length and sequence, producing porous lattices with solvent channels large enough for guest protein diffusion. They demonstrate asynchronous installation of six DNA-binding proteins by soaking, with X-ray diffraction structures obtained for each. They further show that guest binding registers can be shifted by design, and they discuss driving forces for guest binding in crystallo.
+- **Visible evidence base** Main text descriptions of crystal growth, diffraction resolution values, solvent content estimates, pore size estimates, confocal microscopy of guest loading, ITC binding measurements, and structural results for six guest proteins. PDB accession codes are mentioned (7U6K, 9Z08, 9YZQ) but no structural statistics tables are provided in the visible text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S25), structural statistics tables (S8–S10), crystallographic refinement details, electron density map quality metrics, ITC raw data and fits, confocal microscopy images, and the guest register scanning code outputs. Without these, several quantitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a technically ambitious and potentially valuable platform for structural biology of DNA-binding proteins. The core concept, separating scaffold crystal growth from guest installation, is well articulated and the reported results, if fully supported by the supplementary data, would represent a meaningful advance. The demonstration of six diverse DNA-binding domains resolved by X-ray diffraction within a modular, programmable scaffold is impressive. However, the provided text lacks sufficient quantitative detail to fully evaluate the quality of the structural evidence, the robustness of the claims regarding guest binding specificity, and the generality of the approach. The discussion of binding driving forces is speculative and would benefit from more direct experimental support. The manuscript is likely to interest structural biologists, protein engineers, and researchers in DNA nanotechnology, but the strength of the conclusions depends on the quality of the supplementary materials, which were not available for this review.
+- **Who would be interested in the results, and why** Structural biologists studying protein–DNA interactions, particularly those interested in high-throughput structure determination. Researchers in DNA nanotechnology and programmed self-assembly will be interested in the modular scaffold design and the demonstration of positional control of guest macromolecules. Protein engineers and crystallographers may find the asynchronous guest loading concept useful for overcoming crystallization bottlenecks. The potential applications in nanobiotechnology, such as organizing functional proteins in 3D lattices, will appeal to a broader interdisciplinary audience.
+- **Major strengths** The conceptual advance of decoupling crystal growth from guest installation is clear and well motivated. The modularity of the DNA strut design, with demonstrated sequence and length variation, is a significant technical achievement. The use of ligation to stabilize crystals for buffer exchange is a practical and important innovation. The demonstration of six diverse DNA-binding proteins resolved in the same scaffold, including a fluorescent protein fusion, supports the generality of the approach. The discussion of non-canonical binding sites and the role of the lattice environment in driving guest binding is thoughtful and adds depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The authors state that six guest proteins were "visualized in expected binding modes" and that "clear electron density" was observed for each, with resolutions ranging from 3.0 Å to 7.2 Å.
+  - **Evidence pointer** Results section "Asynchronous Loading of Guest Proteins"; Table S8 (not provided); PDB accessions mentioned but no structural statistics provided in the text.
+  - **Concern** The manuscript does not provide any crystallographic statistics, such as R-factors, completeness, I/σI, or B-factors, for any of the reported structures. At 7.2 Å resolution, the interpretation of "expected binding modes" is particularly challenging and requires careful validation. The claim that guest placement is unbiased relies on omit maps, but no map quality metrics are given. Without these data, the structural conclusions cannot be independently evaluated.
+  - **Why it matters** The central claim of the manuscript is that guest proteins can be reliably installed and structurally observed. If the electron density is not of sufficient quality to unambiguously place the guest, the conclusions about binding modes and register selection are weakened. The absence of structural statistics is a critical gap for a manuscript whose primary evidence is crystallographic.
+  - **Resolution test** Provide a supplementary table with complete crystallographic statistics for each structure, including resolution, completeness, R-work/R-free, and map quality indicators. For lower-resolution structures, provide additional validation, such as simulated annealing omit maps or comparison with known structures, to support the placement of the guest.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the claim of "programmable installation"
+  - **Claim pointer** The authors claim that DNA strut variation allows "positionally-controlled installation of diverse DNA binding guest proteins" and that register shifts are "concomitant with rotation, echoing the goniometer analogy."
+  - **Evidence pointer** Results section "Operating a Crystalline Molecular Goniometer"; Figure 4 (not provided); Figure S18 (not provided).
+  - **Concern** The text describes five variants with shifted binding registers, but no structural details are given for these variants. It is unclear whether the guest proteins were resolved in the expected new registers, whether the rotation predicted by the DNA helical twist was observed, and whether the binding affinity or occupancy was affected by the register shift. The "goniometer" analogy is evocative but requires structural evidence to be convincing.
+  - **Why it matters** The claim of programmable installation is a key differentiator of this platform. If the register shifts do not result in the predicted guest positions, the programmability claim is weakened. The current text does not provide enough information to assess this.
+  - **Resolution test** Provide structural figures and statistics for the five register-shift variants, showing the guest position relative to the predicted register and the observed rotation. If any variants failed to bind or were disordered, this should be reported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the approach
+  - **Claim pointer** The authors state that "no fundamental barrier prevents scale-up to obtain DBD structures in hundreds of solution conditions, nor with numerous DNA sequence variants."
+  - **Evidence pointer** Results section "Asynchronous Loading of Guest Proteins"; Discussion section "CC1 vs Other Crystal Scaffold Systems".
+  - **Concern** The claim of scalability is extrapolated from a limited set of examples. The manuscript reports six guest proteins, all of which are DNA-binding domains with relatively well-characterized binding modes. It is not clear whether the approach would work for proteins with different shapes, sizes, or binding affinities, or whether the scaffold would tolerate more extreme sequence variations. The authors acknowledge that CC1 +21 crystals grew less frequently, indicating that there are limits to expansion.
+  - **Why it matters** The broader impact of the platform depends on its generality. If the approach only works for a narrow class of proteins or conditions, its utility is limited. The current evidence does not establish the claimed scalability.
+  - **Resolution test** Provide additional examples of guest proteins with different structural classes or binding modes, or discuss the expected limitations of the approach in more detail. If the authors have data on failed attempts, this would be informative.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of non-canonical binding
+  - **Claim pointer** The authors report that homeodomains bound to non-canonical sequences (R1 and R2) in the crystal, and that ITC measurements showed relatively weak binding in solution for R1 and R2, with one exception (R2 for UBX-HD, 147±53 nM).
+  - **Evidence pointer** Results section "Asynchronous Loading of Guest Proteins"; Discussion section "Scaffold Binding Driving Forces"; Figure S16 (not provided).
+  - **Concern** The authors hypothesize that the pre-organized compressed minor groove and lattice contacts drive binding to non-canonical sites. This is a plausible hypothesis, but the evidence is indirect. The ITC measurements were done in solution, not in the crystal, and the relationship between solution affinity and crystallographic occupancy is not straightforward. The role of lattice contacts is inferred from symmetry considerations but not directly tested.
+  - **Why it matters** Understanding the driving forces for guest binding is important for predicting which proteins can be installed and for designing new binding sites. The current discussion is speculative and would benefit from more direct experimental evidence, such as mutagenesis of the proposed minor groove contacts or lattice contact residues.
+  - **Resolution test** Provide additional experiments that directly test the proposed driving forces, or temper the discussion to clearly distinguish between hypothesis and established fact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Crystal growth conditions
+  - **Evidence pointer** Results section "Modular Crystal Construction and Scaffold Expansion"; Figure S3 (not provided).
+  - **Issue** The text states that reducing Mg(II) concentration favored non-interpenetrating growth, but the specific conditions used for the final crystals are not described in the main text.
+  - **Required correction** Provide a brief description of the crystallization conditions in the main text or refer clearly to the methods section in the supplementary materials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of data reporting
+  - **Affected element** ITC data
+  - **Evidence pointer** Results section "Asynchronous Loading of Guest Proteins"; Figure S16 (not provided).
+  - **Issue** The ITC measurements are described qualitatively, and only one Kd value is given in the text. It is unclear how many replicates were performed and what the errors are.
+  - **Required correction** Provide a table of ITC-derived binding parameters for all measured interactions, including errors and the number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Molecular goniometer"
+  - **Evidence pointer** Results section "Operating a Crystalline Molecular Goniometer".
+  - **Issue** The term "goniometer" is used to describe the rotation of the guest binding site with register shifts. While the analogy is useful, it may be confusing to readers unfamiliar with the term.
+  - **Required correction** Define the term clearly on first use and consider whether a more descriptive phrase, such as "rotational register control," would be clearer.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures S1–S25
+  - **Evidence pointer** Throughout the text.
+  - **Issue** The main text relies heavily on supplementary figures and tables, but these are not available for review. Some key data, such as the structural figures for the register-shift variants, are only in the supplementary materials.
+  - **Required correction** Consider moving at least one representative structural figure for the register-shift variants into the main text, or ensure that the supplementary materials are clearly described and accessible.
+- **Technical failings that need to be addressed before the case is established** The absence of crystallographic statistics for all reported structures is the most significant technical gap. Without R-factors, map quality indicators, and refinement details, the structural claims cannot be verified. The lack of structural details for the register-shift variants is also a concern, as this is a key claim of the manuscript. The ITC data are reported too sparsely to support the quantitative statements about binding affinity.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using a modular protein–DNA co-crystal scaffold for asynchronous guest installation is original and builds on Seeman's vision in a novel way. The demonstration of multiple guest proteins in the same scaffold is a new result.  
+  - **Scientific importance** If fully validated, the platform could provide a new tool for structural biology of DNA-binding proteins and for nanobiotechnology. The potential for high-throughput structure determination is significant.  
+  - **Interdisciplinary readership** The work bridges structural biology, DNA nanotechnology, and protein engineering, and should appeal to readers across these fields. The writing is generally accessible, though some crystallographic details are assumed.  
+  - **Technical soundness** The technical execution appears sound based on the text, but the lack of structural statistics prevents full assessment. The claims about binding driving forces are speculative and not fully supported.  
+  - **Readability for nonspecialists** The abstract and introduction are clear and well written. The results section is dense but understandable for a technical audience. The discussion is thoughtful but could be more concise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the reported results are potentially significant, but the manuscript in its current form does not provide sufficient evidence to fully establish the claims. The authors should provide complete crystallographic statistics, structural details for the register-shift variants, and more complete ITC data. The discussion of binding driving forces should be tempered or supported with additional experiments.
+
+## Risk / unsupported claims
+- The claim that "no fundamental barrier prevents scale-up" is unsupported by the presented data and is speculative.
+- The hypothesis that the pre-organized compressed minor groove drives non-canonical binding is not directly tested and should be presented as a hypothesis.
+- The statement that the CC1 platform provides "the first plug-and-play installation of guest macromolecules within scaffold crystals" is a strong claim that would require a thorough literature comparison to substantiate.
+- The claim that guest proteins were "visualized in expected binding modes" cannot be assessed without structural statistics and electron density maps.
+- The assertion that the "goniometer" analogy holds, i.e., that register shifts produce predictable rotations, is not supported by structural data in the provided text.

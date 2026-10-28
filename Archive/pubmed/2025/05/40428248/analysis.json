@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40428248",
+  "title": "Deep Reinforcement Learning for CT-Based Non-Invasive Prediction of SOX9 Expression in Hepatocellular Carcinoma.",
+  "authors": "Liu, Minghui; Wei, Yi; Xie, Tianshu; Yang, Meiyi; Cheng, Xuan; Xu, Lifeng; Li, Qian; Che, Feng; Xu, Qing; Song, Bin; Liu, Ming",
+  "journal": "Diagnostics (Basel, Switzerland)",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度强化学习从CT影像预测肝细胞癌中SOX9转录因子表达，虽涉及转录因子但无蛋白质-DNA互作建模，方法为影像分类而非AI/物理模拟的分子互作研究，与本课题关联微弱。",
+  "abstract": "Background: The transcription factor SOX9 plays a critical role in various diseases, including hepatocellular carcinoma (HCC), and has been implicated in resistance to sorafenib treatment. Accurate assessment of SOX9 expression is important for guiding personalized therapy in HCC patients; however, a reliable non-invasive method for evaluating SOX9 status remains lacking. This study aims to develop a deep learning (DL) model capable of preoperatively and non-invasively predicting SOX9 expression from CT images in HCC patients. Methods: We retrospectively analyzed a dataset comprising 4011 CT images from 101 HCC patients who underwent surgical resection followed by sorafenib therapy at West China Hospital, Sichuan University. A deep reinforcement learning (DRL) approach was proposed to enhance prediction accuracy by identifying and focusing on image regions highly correlated with SOX9 expression, thereby reducing the impact of background noise. Results: Our DRL-based model achieved an area under the curve (AUC) of 91.00% (95% confidence interval: 88.64-93.15%), outperforming conventional DL methods by over 10%. Furthermore, survival analysis revealed that patients with SOX9-positive tumors had significantly shorter recurrence-free survival (RFS) and overall survival (OS) compared to SOX9-negative patients, highlighting the prognostic value of SOX9 status. Conclusions: This study demonstrates that a DRL-enhanced DL model can accurately and non-invasively predict SOX9 expression in HCC patients using preoperative CT images. These findings support the clinical utility of imaging-based SOX9 assessment in informing treatment strategies and prognostic evaluation for patients with advanced HCC.",
+  "abstract_zh": "背景：转录因子SOX9在包括肝细胞癌（HCC）在内的多种疾病中发挥关键作用，并与索拉非尼治疗耐药性相关。准确评估SOX9表达对于指导HCC患者的个体化治疗具有重要意义；然而，目前仍缺乏一种可靠的非侵入性方法来评估SOX9状态。本研究旨在开发一种深度学习（DL）模型，能够从HCC患者的CT图像中术前、非侵入性地预测SOX9表达。方法：我们回顾性分析了来自四川大学华西医院101例接受手术切除后行索拉非尼治疗的HCC患者的4011张CT图像数据集。提出了一种深度强化学习（DRL）方法，通过识别并聚焦于与SOX9表达高度相关的图像区域，从而减少背景噪声的影响，以提高预测准确性。结果：基于DRL的模型实现了91.00%的曲线下面积（AUC）（95%置信区间：88.64-93.15%），优于传统DL方法超过10%。此外，生存分析显示，与SOX9阴性患者相比，SOX9阳性肿瘤患者的无复发生存期（RFS）和总生存期（OS）显著缩短，凸显了SOX9状态的预后价值。结论：本研究表明，DRL增强的DL模型能够利用术前CT图像准确、非侵入性地预测HCC患者的SOX9表达。这些发现支持基于影像的SOX9评估在晚期HCC患者治疗策略制定和预后评估中的临床实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40428248/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40428248/",
+  "paper_page_path": "papers/pubmed/40428248/index.html"
+}

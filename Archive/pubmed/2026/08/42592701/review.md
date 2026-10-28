@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a structure-guided discovery of biaryl hydroxy-naphthamides as disruptors of the c-Myb–CBP/p300 KIX protein–protein interaction, using virtual screening, docking, molecular dynamics simulations, free-energy landscape analysis, MM/PBSA calculations, ADMET profiling, and experimental validation by microscale thermophoresis. They identify C1 as the most potent disruptor with an IC50 of 9.50 µM, outperforming a reference compound, and propose 3-hydroxy-2-naphthamides as promising scaffolds.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods parameters, experimental protocols, raw data, statistical analyses, compound synthesis details, and any validation data beyond the abstract
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrated computational-experimental approach to targeting the c-Myb–KIX interaction, with a clear rationale and a plausible hit series. However, the evidence as presented in the abstract is insufficient to fully evaluate the robustness of the computational predictions, the validity of the experimental results, or the biological relevance of the claimed disruption. Several quantitative claims lack necessary context, and the abstract alone does not establish the case for the scaffold's promise beyond preliminary in vitro data.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, chemical biology, and cancer biology, particularly those focused on protein–protein interaction inhibitors, transcription factor targeting, and MYB-dependent leukemias. The work may also interest computational chemists developing integrated virtual screening and MD-based workflows for PPI disruptor discovery.
+- **Major strengths** The study combines multiple computational methods with experimental validation, which is a strength in principle. The identification of a specific scaffold class with a clear mechanistic hypothesis (disruption of the c-Myb–KIX interface) is a useful contribution. The inclusion of a reference compound comparison and the use of microscale thermophoresis for direct binding and disruption assays adds experimental credibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Docking showed that all selected compounds occupied the c-Myb-facing groove of the KIX domain and reproduced key interfacial contacts."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that docking reproduced key interfacial contacts, but no details are given on the docking protocol, scoring functions, or how "reproduction" was defined or benchmarked. Without a clear reference to known c-Myb–KIX contacts or a validation set, this claim is unverifiable.
+  - **Why it matters** Docking results are highly dependent on the chosen method and parameters. If the docking was not validated against known binders or experimental structures, the claim of reproducing key contacts may be overstated, which would undermine the structure-guided premise.
+  - **Resolution test** Provide docking validation details, including the crystal structure used, the docking software and scoring function, and a comparison of docked poses with known c-Myb contacts or co-crystal structures. Show that the docking protocol can enrich known binders over decoys.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Differential MM/PBSA analysis of the protein–protein interface showed that C1 produced the largest predicted weakening of the c-Myb–KIX interaction (ΔΔGPPI = +38.81 kcal/mol), followed by C4 (+29.90), C5 (+27.78), and C3 (+25.81 kcal/mol), whereas C2 was predicted to stabilize the complex (−5.41 kcal/mol)."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The ΔΔGPPI values are reported with high precision (two decimal places) but no error estimates, convergence criteria, or methodological details are given. MM/PBSA calculations are known to be sensitive to setup, and values of this magnitude (tens of kcal/mol) are unusually large for a PPI weakening, raising questions about the method's calibration.
+  - **Why it matters** If the MM/PBSA values are not converged or are systematically biased, the ranking of compounds and the predicted "weakening" may not be reliable. The claim that C1 produces the largest weakening is central to the prioritization of C1, so this needs to be robust.
+  - **Resolution test** Provide error bars or standard deviations from multiple independent simulations, show convergence of the MM/PBSA estimates over time, and describe the entropic and solvation terms. Compare the predicted ΔΔGPPI values with experimental binding data to calibrate the method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "Experimental validation by microscale thermophoresis confirmed direct binding of the assay proteins (Kd = 26.72 ± 0.82 µM) and demonstrated that the naphthanilides disrupt the interaction in vitro. C1 was the most potent disruptor (IC50 = 9.50 ± 0.22 µM), outperforming Naphthol AS-E phosphate (IC50 = 32.84 ± 9.46 µM)."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a Kd for the protein–protein interaction and IC50 values for the compounds, but it is unclear whether the IC50 values are for disruption of the pre-formed complex or for inhibition of complex formation. The assay format, protein concentrations, and buffer conditions are not described, and no replicates or statistical details beyond the stated errors are given.
+  - **Why it matters** Without knowing the assay design, the IC50 values may not be directly comparable to the reference compound or to the computational predictions. The claim that C1 "outperforms" the reference is only meaningful if the assay conditions are equivalent and the errors are properly accounted for.
+  - **Resolution test** Provide a detailed description of the MST assay, including the labeled species, concentration ranges, and whether the IC50 is for disruption or inhibition. Show dose-response curves, replicate numbers, and statistical analysis. Confirm that the reference compound was tested under identical conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** "These findings establish 3-hydroxy-2-naphthamides as promising scaffolds for targeting the c-Myb–CBP/p300 KIX interface."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only in vitro binding and disruption data. No cellular or in vivo activity is shown, and the selectivity of the compounds for the c-Myb–KIX interaction over other KIX-binding partners or other PPIs is not addressed.
+  - **Why it matters** The term "promising scaffolds" implies potential therapeutic utility, but without selectivity data or cellular activity, this claim is premature. The c-Myb–KIX interface is one of several interactions involving KIX, and off-target effects could limit utility.
+  - **Resolution test** Provide selectivity data against other KIX-binding partners (e.g., MLL, p53, CREB) and, if possible, cellular assays demonstrating on-target activity in a MYB-dependent context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Virtual screening description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "A focused library of 1143 biaryl hydroxy-naphthamides (naphthanilides) was subjected virtual screening filters" but does not specify the filters used or the criteria for prioritization to five candidates.
+  - **Required correction** Briefly describe the virtual screening filters (e.g., pharmacophore, shape-based, docking score thresholds) and the rationale for selecting the five candidates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MD simulation claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims "distinct stability and disruption profiles" from 1000 ns MD simulations but provides no quantitative metrics (e.g., RMSD, RMSF, contact persistence) to support this.
+  - **Required correction** Include key quantitative metrics from the MD simulations, such as average RMSD values, binding site occupancy, or interaction energy time series, to substantiate the qualitative claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** ADMET interpretation
+  - **Affected element** Drug-likeness claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states the series is "drug-like by Lipinski criteria but carried liabilities related to solubility, metabolism, and predicted toxicity," which is internally contradictory and needs clarification.
+  - **Required correction** Clarify whether the compounds pass Lipinski's rules but fail other ADMET parameters, and specify which parameters are of concern and to what degree.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking validation), R1-M2 (MM/PBSA robustness), R1-M3 (MST assay design and statistical rigor). These are required to establish the reliability of the computational prioritization and the experimental confirmation.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The target and scaffold class are not entirely novel, but the specific combination of biaryl hydroxy-naphthamides and the integrated computational-experimental workflow may offer some new elements.  
+  - Scientific importance: Moderate. The c-Myb–KIX interaction is a relevant target in leukemia, but the abstract does not demonstrate a significant advance over existing inhibitors or provide new biological insight.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to medicinal chemists and computational biologists; the abstract does not frame the findings in a way that would attract a broad readership.  
+  - Technical soundness: Not fully assessable from the abstract. Key computational and experimental details are missing, and some claims are not supported by the presented evidence.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and preliminary results, but the lack of methodological detail and the absence of validation data for key computational and experimental claims prevent a definitive assessment. The authors should be encouraged to provide the full manuscript with detailed methods and supporting data.
+
+## Risk / unsupported claims
+- The claim that docking "reproduced key interfacial contacts" is unsupported without docking validation details.
+- The ΔΔGPPI values are reported without error estimates or methodological context, making them unverifiable.
+- The claim that C1 "outperforms" the reference compound is not fully supported without assay details and statistical comparison.
+- The statement that the compounds "disrupt the interaction in vitro" is only weakly supported by the abstract, as the assay format is not described.
+- The conclusion that 3-hydroxy-2-naphthamides are "promising scaffolds" is premature without selectivity or cellular data.

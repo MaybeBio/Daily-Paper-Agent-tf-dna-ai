@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract claims that SARA promotes PD-associated peritoneal fibrosis via Smad2/3 phosphorylation; that Smad3 promotes SARA degradation during fibrosis progression; that PTL does not affect SARA protein stability but restores SARA expression transcriptionally; that PTL disrupts the SARA-Smad3 interaction by directly binding to the Smad3-binding interface of SARA at Pro788 and Ser795; and that this mechanism underlies PTL-mediated alleviation of peritoneal fibrosis and MMT.
+- **Visible evidence base** scRNA-seq data; long-dwell PD fluid samples; PD mouse model; TGF-beta1-induced MMT model; CRISPR/Cas9 ZFYVE9 knockout MeT-5A cells; luciferin reporter assays; in vitro and in vivo coimmunoprecipitation; molecular docking; PTL-biotin pulldown assays
+- **Missing materials affecting confidence** Full methods, quantitative results, statistical analyses, figure panels, docking scores, pulldown validation details, and any negative controls; no information on sample sizes, replicates, or effect magnitudes
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically coherent and potentially interesting story linking SARA, Smad2/3 signaling, and PTL in peritoneal fibrosis. However, the evidence as summarized is insufficient to establish the central claims. Several key assertions are supported only by qualitative statements, and the relationship between SARA degradation, transcriptional recovery, and direct binding is not fully reconciled. The claim of direct binding at specific residues rests on docking and pulldown data that cannot be evaluated from the abstract alone. The work may be of interest to the peritoneal dialysis and fibrosis communities, but the case is not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying peritoneal dialysis complications, peritoneal fibrosis, TGF-beta/Smad signaling, and mesothelial-mesenchymal transition. Investigators interested in natural-product-based antifibrotic therapies and in the molecular regulation of Smad adaptor proteins may also find the work relevant.
+- **Major strengths** The study addresses a clinically relevant complication with an identified molecular target. The combination of human samples, animal models, cell-based assays, and computational and biochemical binding approaches is ambitious and potentially comprehensive. The proposed negative feedback loop involving Smad3-mediated SARA degradation adds conceptual interest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that SARA activates Smad2/3 and that Smad3 promotes SARA degradation, leading to downregulation of SARA during fibrosis progression.
+  - **Evidence pointer** PD fluid samples, PD mice, TGF-beta1-treated MeT-5A and HMrSV5 cells; location not provided
+  - **Concern** The abstract states these findings without reporting quantitative data, time courses, or statistical comparisons. It is unclear whether SARA downregulation is consistent across all models, what magnitude of change is observed, and whether the proposed Smad3-dependent degradation is directly demonstrated or inferred from correlative expression patterns.
+  - **Why it matters** The negative feedback loop is a central mechanistic pillar of the paper. Without direct evidence of Smad3-mediated SARA degradation, such as ubiquitination assays, protease inhibitor studies, or mutant Smad3 constructs, the claim remains speculative.
+  - **Resolution test** Provide quantitative expression data across models with statistical analysis, and include direct biochemical evidence for Smad3-dependent SARA degradation, such as cycloheximide chase assays or ubiquitination experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract claims that PTL does not regulate SARA protein stability but that luciferin reporter experiments show transcriptional recovery of PTL effects on SARA consistent with its antifibrotic effects.
+  - **Evidence pointer** Luciferin reporter gene experiments; location not provided
+  - **Concern** The logic connecting transcriptional recovery, SARA expression, and antifibrotic effects is unclear. The abstract does not specify which promoter or response element was used, whether SARA is a direct transcriptional target of PTL, or how the reporter data distinguish transcriptional from post-transcriptional effects.
+  - **Why it matters** The claim that PTL restores SARA expression transcriptionally is distinct from the claim that PTL disrupts SARA-Smad3 binding. These two mechanisms may be independent or linked, but the abstract does not clarify their relationship or relative contribution to the antifibrotic effect.
+  - **Resolution test** Specify the reporter construct and promoter context, show dose-response and time-course data, and clarify whether SARA transcriptional recovery is required for the antifibrotic effect using loss-of-function or overexpression experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that PTL directly binds to the Smad3-binding interface of SARA at Pro788 and Ser795, disrupting the SARA-Smad3 interaction.
+  - **Evidence pointer** Molecular docking and PTL-biotin pulldown assays; location not provided
+  - **Concern** The abstract provides no quantitative docking scores, no validation of the predicted binding residues by mutagenesis, and no evidence that the PTL-biotin pulldown is specific. It is unclear whether the Pro788 and Ser795 residues were identified by docking alone or confirmed experimentally.
+  - **Why it matters** Direct binding at specific residues is a strong mechanistic claim that underpins the proposed mode of action. Without mutagenesis or binding affinity measurements, the claim is not established.
+  - **Resolution test** Include mutagenesis of Pro788 and Ser795 with functional and binding assays, report docking scores and binding affinities, and show specificity controls for the pulldown, such as competition with unlabeled PTL or a negative control compound.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract uses "luciferin reporter gene experiments" which is imprecise; the standard term is luciferase reporter assays.
+  - **Required correction** Replace with "luciferase reporter assays" for accuracy and consistency with field conventions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** Mechanistic interpretation
+  - **Evidence pointer** Abstract, results summary
+  - **Issue** The abstract states that PTL "restores SARA expression" but does not specify whether this restoration is a consequence of reduced Smad3 activity, direct transcriptional effects, or both. The causal ordering is ambiguous.
+  - **Required correction** Clarify whether SARA restoration is a downstream consequence of Smad3 inhibition or an independent effect of PTL, and state the proposed sequence of events explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract, concluding statement
+  - **Issue** The abstract claims a "theoretical foundation for clinical diagnosis and treatment" but no diagnostic or therapeutic validation is presented.
+  - **Required correction** Soften the claim to reflect that the findings provide a mechanistic basis for further preclinical evaluation, unless clinical data are included in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that Smad3 promotes SARA degradation is not directly supported by the abstract; no degradation assays are described.
+- The claim that PTL directly binds SARA at Pro788 and Ser795 is not established without mutagenesis or binding affinity data.
+- The claim that PTL restores SARA expression transcriptionally is not supported by sufficient reporter assay detail.
+- The claim that SARA downregulation occurs "during fibrosis progression" across all models is not quantitatively supported.
+- The concluding claim of a "theoretical foundation for clinical diagnosis and treatment" is overstated relative to the evidence summarized.

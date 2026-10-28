@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, figure legends, and table legends. Figures themselves were not provided; only figure legends and in-text references were available.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the text. Statistical methods and computational analyses were assessed based on the descriptions provided. No raw data, supplementary figures, or source data files were available for independent verification.
+- **Shared manuscript claim summary** The authors investigate the molecular basis for divergence in co-TF (Pho2) dependence between two orthologous yeast transcription factors, ScPho4 and CgPho4. They propose and test two non-mutually exclusive models: enhanced activity and autoinhibition. Through a combination of in vitro DNA binding assays, yeast one-hybrid assays, and a systematic chimera library of 50 constructs, they identify three intrinsically disordered regions (IDRs) that contribute to the divergence: two activation enhancer domains (AEDs) in CgPho4 that boost activation potential, and a dual-functional Pho2 interaction domain (P2ID) in ScPho4 that both enables Pho2-dependent activation and restricts activity in its absence.
+- **Visible evidence base** Results from protein binding microarrays (uPBM, gcPBM), biolayer interferometry (BLI), electrophoretic mobility shift assays (EMSA), yeast one-hybrid (Y1H) assays, yeast two-hybrid (Y2H) assays, flow cytometry-based reporter assays, and fluorescence microscopy. Sequence conservation analysis and PADDLE predictions are also presented.
+- **Missing materials affecting confidence** Figures themselves (only legends available), supplementary figures and tables, source data files, raw flow cytometry data, raw BLI sensorgrams, raw microarray data, and the full statistical output for all models. The absence of these materials limits independent verification of quantitative claims and effect sizes.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and well-designed investigation into the evolution of transcription factor co-dependence, using the yeast PHO pathway as a model system. The chimera library approach is a significant strength, allowing the authors to dissect contributions of individual regions in a native protein context. The identification of two AEDs and the dual-functional P2ID provides novel insight into how IDRs can modulate TF activity and dependence on co-factors. However, several concerns need to be addressed, particularly regarding the quantitative interpretation of the chimera data, the mechanistic basis for AED function, and the generalizability of the findings beyond the two species examined. The manuscript is clearly written and will be of interest to researchers studying transcription factor evolution, gene regulation, and intrinsically disordered proteins.
+- **Who would be interested in the results, and why** Researchers studying eukaryotic transcription factor function and evolution, particularly those interested in combinatorial control and co-factor dependence. The work will also appeal to investigators studying intrinsically disordered regions and their roles in protein function, as well as those using yeast as a model system for gene regulatory network evolution. The methodological approach, particularly the systematic chimera library, may serve as a template for similar studies in other systems.
+- **Major strengths** 1) The systematic chimera library approach is comprehensive and well-designed, allowing for the identification of specific regions contributing to the phenotypic difference. 2) The combination of in vitro and in vivo assays provides complementary evidence for the claims. 3) The identification of two distinct AEDs and the dual-functional P2ID is a novel finding that advances our understanding of IDR function in TFs. 4) The authors test two explicit, non-mutually exclusive models, providing a clear conceptual framework. 5) The discussion thoughtfully addresses limitations and future directions, including the unresolved role of DNA binding affinity differences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation / quantitative analysis
+  - **Claim pointer** The authors claim that "R1:Cg and NLS:Cg each had significant, positive effects on their own on both APHO2 and Apho2∆" and that these regions "conferred higher activity independent of Pho2."
+  - **Evidence pointer** Figure 5, Table 1, Results section "The two activation enhancer domains (AEDs) in CgPho4 increased the activity of the chimeric TFs but were insufficient to make them Pho2-independent"
+  - **Concern** The quantitative interpretation of the chimera data relies on the assumption that the activity measurements (APHO2 and Apho2∆) are directly comparable across constructs with different protein stabilities, folding efficiencies, or nuclear localization. While the authors normalize by mNeon fluorescence, this only accounts for total protein levels, not for the fraction of properly folded or functional protein. The authors should address whether differences in protein quality or stability could confound the interpretation of the chimera results. Additionally, the linear model used for epistasis analysis assumes additivity on the raw activity scale, which may not be appropriate for ratio-based measurements. The authors should justify this choice or consider alternative models (e.g., log-transformed activities).
+  - **Why it matters** The central conclusion that specific IDRs contribute to Pho2-dependence divergence depends on the validity of the quantitative comparisons across chimeric constructs. If the activity measurements are confounded by differences in protein quality or if the statistical model is inappropriate, the identification of specific contributing regions could be incorrect.
+  - **Resolution test** The authors should provide additional validation that the chimeric proteins are properly folded and functional, for example by showing that the mNeon-tagged proteins are full-length and stable (e.g., by Western blot) and that the observed activity differences are not due to differences in protein degradation or aggregation. They should also perform sensitivity analyses using alternative statistical models (e.g., log-transformed data, non-parametric tests) to confirm that the main conclusions are robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic insight
+  - **Claim pointer** The authors state that "the two AEDs in CgPho4 increased the activity of the chimeric TFs" and propose that they "boost its activation domain's activity."
+  - **Evidence pointer** Figure 3, Results section "CgPho4 encodes two additional activation enhancer domains (AEDs)"
+  - **Concern** The mechanism by which the AEDs enhance activation remains unclear. The authors show that the AEDs can enhance the activity of a heterologous activation domain (Gal4 DBD fusion), but the molecular basis for this enhancement is not investigated. Is it through direct protein-protein interactions with co-activators? Does it affect the conformation of the AD? Does it promote nuclear retention or stability? The authors speculate on possible mechanisms in the Discussion but do not provide experimental evidence.
+  - **Why it matters** Understanding the mechanism of AED function is important for generalizing the findings beyond this specific system. Without mechanistic insight, it is difficult to predict whether similar IDR-based enhancer elements exist in other TFs or how they might evolve.
+  - **Resolution test** The authors should perform additional experiments to probe the mechanism of AED function. For example, they could test whether the AEDs interact with known co-activators (e.g., by co-immunoprecipitation), whether they affect the conformation of the AD (e.g., by limited proteolysis or HDX-MS), or whether they promote recruitment of the transcriptional machinery (e.g., by ChIP of RNA Pol II). Alternatively, they could perform alanine-scanning mutagenesis of the AEDs to identify critical residues and test whether these residues are required for the enhancer activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability / evolutionary relevance
+  - **Claim pointer** The authors suggest that "IDR divergence drives TF interdependence evolution" and that this "can lead to significant rewiring of the regulatory network."
+  - **Evidence pointer** Discussion section, Supplementary Figure 8
+  - **Concern** The study focuses on a single pair of orthologs (S. cerevisiae and C. glabrata). While the authors provide preliminary data on eight additional orthologs (Supplementary Figure 8), this analysis is described as "preliminary" and is not presented in detail. The claim that IDR divergence generally drives TF interdependence evolution would be strengthened by a more comprehensive comparative analysis across a broader range of species, or by experimental manipulation of the identified regions in additional orthologs.
+  - **Why it matters** The evolutionary significance of the findings depends on whether the identified mechanism is general or specific to this particular pair of species. If the mechanism is not general, the broader claims about IDR-driven evolution of TF interdependence would be overstated.
+  - **Resolution test** The authors should expand the comparative analysis to include a larger number of Pho4 orthologs with known Pho2-dependence levels, and test whether the presence/absence of AEDs and the P2ID properties correlate with Pho2-dependence across this broader set. Alternatively, they could experimentally test whether introducing the CgPho4 AEDs into a different Pho4 ortholog with high Pho2-dependence reduces its dependence, or vice versa.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that "CgPho4 binds the same consensus motif with a higher affinity compared to ScPho4" based on BLI and EMSA measurements.
+  - **Evidence pointer** Figure 2D, E, Supplementary Figure 4, Results section "CgPho4 binds the same consensus motif with a higher affinity compared to ScPho4"
+  - **Concern** The BLI and EMSA experiments were performed with purified DBD constructs, not full-length proteins. It is possible that regions outside the DBD could influence DNA binding affinity in the context of the full-length protein. Additionally, the authors report a 3-4 fold difference in KD, which is relatively modest. The biological significance of this difference is unclear, especially given that the authors later show that swapping the DBD alone does not recapitulate the Pho2-independence phenotype.
+  - **Why it matters** The claim of higher DNA binding affinity for CgPho4 is presented as supporting the "enhanced activity" model. If this difference is not biologically significant or is not maintained in the full-length protein context, the relevance of this finding to the overall mechanism would be diminished.
+  - **Resolution test** The authors should measure DNA binding affinity using full-length proteins, or at least discuss the potential limitations of using isolated DBDs. They should also provide a more quantitative assessment of the biological significance of the 3-4 fold affinity difference, for example by modeling the expected occupancy of target promoters at physiological protein concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Figure 1C
+  - **Evidence pointer** Figure 1C legend
+  - **Issue** The figure legend describes the conservation scores and predicted alpha helices, but the figure itself is not provided. The description of the five regions (R1, AD, NLS, P2ID, DBD) is clear, but the relationship between the conservation scores and the region boundaries is not fully explained.
+  - **Required correction** Please clarify in the legend how the conservation scores were calculated and how the region boundaries were defined based on the alignment. If possible, include the alignment in a supplementary figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2E
+  - **Evidence pointer** Figure 2E legend, Statistical analyses section
+  - **Issue** The authors report a Student's t-test on log-transformed KD values and a Wilcoxon rank-sum test on raw KD values, both yielding P < 0.01. However, the number of replicates (n = 5) is small, and the figure legend does not indicate whether the KD values are from independent protein preparations or repeated measurements of the same preparation.
+  - **Required correction** Please clarify the experimental design for the BLI replicates and consider reporting effect sizes or confidence intervals in addition to P-values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary Figure 8
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors reference preliminary analyses of eight Pho4 orthologs in Supplementary Figure 8, but this figure is not described in detail in the text. The reader cannot assess the strength of this evidence.
+  - **Required correction** Please provide a more detailed description of the methods and results for the analysis shown in Supplementary Figure 8, including the species used, the alignment method, and the specific metrics plotted.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The term "co-TF dependence" is used throughout, but the authors do not explicitly define what constitutes "dependence" in quantitative terms. Is it the ratio of activity with and without Pho2? The fold-change in activity upon Pho2 deletion?
+  - **Required correction** Please provide an explicit definition of "co-TF dependence" as used in this study, ideally with a formula or a clear description of the metric used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The authors mention that "not all eukaryotic TFs require other TFs to function" and cite Gal4 as an example. However, the discussion of TF autonomy versus dependence could be enriched by referencing additional examples of TFs that have evolved to be more or less dependent on co-factors.
+  - **Required correction** Consider adding a brief discussion of other known examples of TF co-dependence evolution to place the current findings in a broader context.
+- **Technical failings that need to be addressed before the case is established** 1) The potential confounding effect of protein stability/folding on chimera activity measurements (R1-M1). 2) The lack of mechanistic insight into how AEDs enhance activation (R1-M2). 3) The limited generalizability of the findings without a broader comparative analysis (R1-M3). 4) The use of isolated DBDs for DNA binding affinity measurements without validation in the full-length context (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The study addresses a relatively underexplored question in transcription factor biology: how co-TF dependence itself evolves. The identification of IDRs as key determinants of this divergence is a novel contribution. **Scientific importance:** The findings have implications for understanding combinatorial control, gene regulatory network evolution, and the role of IDRs in TF function. The work is likely to stimulate further studies in other systems. **Interdisciplinary readership:** The topic is of interest to molecular biologists, evolutionary biologists, and computational biologists. The methods span biochemistry, genetics, and genomics, which broadens the potential audience. **Technical soundness:** The experimental design is generally rigorous, with appropriate controls and replication. However, the concerns raised above regarding quantitative interpretation and mechanistic insight need to be addressed. **Readability for nonspecialists:** The manuscript is clearly written and the logic is easy to follow. The use of models (Figure 1B) and summaries (Figure 7) helps convey the main findings. However, some sections, particularly the statistical analyses, may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are novel and potentially important, but the quantitative interpretation of the chimera data needs to be strengthened, and the mechanistic basis for AED function should be explored further. The authors should also provide additional evidence for the generalizability of their conclusions.
+
+## Risk / unsupported claims
+- The claim that the two AEDs "boost its activation domain's activity" is supported by the Y1H data, but the mechanism is not established.
+- The claim that "IDR divergence drives TF interdependence evolution" is supported by the comparison of two orthologs, but the broader evolutionary relevance is not fully established without a more comprehensive comparative analysis.
+- The claim that the P2ID in ScPho4 "restricts its activity without Pho2" is supported by the chimera data, but the molecular mechanism of this autoinhibition is not investigated.
+- The biological significance of the 3-4 fold difference in DNA binding affinity between ScPho4 and CgPho4 is not quantitatively assessed.
+- The preliminary analysis of eight additional Pho4 orthologs (Supplementary Figure 8) is mentioned but not described in sufficient detail to evaluate.

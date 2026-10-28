@@ -1,0 +1,418 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.23.550199",
+  "title": "Position-specific evolution in transcription factor binding sites, and a fast likelihood calculation for the F81 model",
+  "doi": "10.1101/2023.07.23.550199",
+  "abstract": "Transcription factor binding sites (TFBS), like other DNA sequence, evolve via mutation and selection relating to their function. Models of nucleotide evolution describe DNA evolution via single-nucleotide mutation. A stationary vector of such a model is the long-term distribution of nucleotides, unchanging under the model. Neutrally evolving sites may have uniform stationary vectors, but one expects that sites within a TFBS instead have stationary vectors reflective of the fitness of various nucleotides at those positions. We introduce “position-specific stationary vectors” (PSSVs), the collection of stationary vectors at each site in a TFBS locus, analogous to the position weight matrix (PWM) commonly used to describe TFBS. We infer PSSVs for human TFs using two evolutionary models (Felsenstein 1981 and Hasegawa-Kishino-Yano 1985). We find that PSSVs reflect the nucleotide distribution from PWMs, but with reduced specificity. We infer ancestral nucleotide distributions at individual positions and calculate “conditional PSSVs” conditioned on specific choices of majority ancestral nucleotide. We find that certain ancestral nucleotides exert a strong evolutionary pressure on neighbouring sequence while others have a negligible effect. Finally, we present a fast likelihood calculation for the F81 model on moderate-sized trees that makes this approach feasible for large-scale studies along these lines.",
+  "authors": [
+    "Pavitra Selvakumar",
+    "Rahul Siddharthan"
+  ],
+  "published_date": "2023-07-25",
+  "updated_date": "2023-07-25T18:15:20Z",
+  "journal": "bioRxiv",
+  "category": "Evolutionary Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.23.550199",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.23.550199.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Evolutionary Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Evolutionary Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:57:06Z",
+        "timestamp": 1768507026124,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            25
+          ]
+        ]
+      },
+      "group-title": "Evolutionary Biology",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Transcription factor binding sites (TFBS), like other DNA sequence, evolve via mutation and selection relating to their function. Models of nucleotide evolution describe DNA evolution via single-nucleotide mutation. A stationary vector of such a model is the long-term distribution of nucleotides, unchanging under the model. Neutrally evolving sites may have uniform stationary vectors, but one expects that sites within a TFBS instead have stationary vectors reflective of the fitness of various nucleotides at those positions. We introduce “position-specific stationary vectors” (PSSVs), the collection of stationary vectors at each site in a TFBS locus, analogous to the position weight matrix (PWM) commonly used to describe TFBS. We infer PSSVs for human TFs using two evolutionary models (Felsenstein 1981 and Hasegawa-Kishino-Yano 1985). We find that PSSVs reflect the nucleotide distribution from PWMs, but with reduced specificity. We infer ancestral nucleotide distributions at individual positions and calculate “conditional PSSVs” conditioned on specific choices of majority ancestral nucleotide. We find that certain ancestral nucleotides exert a strong evolutionary pressure on neighbouring sequence while others have a negligible effect. Finally, we present a fast likelihood calculation for the F81 model on moderate-sized trees that makes this approach feasible for large-scale studies along these lines.</jats:p>",
+      "DOI": "10.1101/2023.07.23.550199",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2023-07-25T18:15:20Z",
+        "timestamp": 1690308920000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Position-specific evolution in transcription factor binding sites, and a fast likelihood calculation for the F81 model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4872-5276",
+          "authenticated-orcid": false,
+          "given": "Pavitra",
+          "family": "Selvakumar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2233-0954",
+          "authenticated-orcid": false,
+          "given": "Rahul",
+          "family": "Siddharthan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.4.1183"
+        },
+        {
+          "issue": "8",
+          "key": "2023122606150466000_2023.07.23.550199v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000154",
+          "DOI": "10.1371/journal.pcbi.1000154",
+          "article-title": "A feature-based approach to modeling protein–DNA interactions",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0009722"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.4",
+          "first-page": "146",
+          "volume-title": "In: International Conference on Bioinformatics Models, Methods and Algorithms",
+          "volume": "2",
+          "year": "2013"
+        },
+        {
+          "issue": "7",
+          "key": "2023122606150466000_2023.07.23.550199v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005176",
+          "DOI": "10.1371/journal.pcbi.1005176",
+          "article-title": "Automated incorporation of pairwise dependency in transcription factor binding site prediction using dinucleotide weight tensors",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.849004"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.7",
+          "first-page": "21",
+          "article-title": "Evolution of protein molecules",
+          "volume": "3",
+          "year": "1969",
+          "journal-title": "Mammalian protein metabolism"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01731581"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oxfordjournals.molbev.a025995"
+        },
+        {
+          "issue": "1",
+          "key": "2023122606150466000_2023.07.23.550199v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/1471-2148-3-1",
+          "article-title": "Position specific variation in the rate of evolution in transcription factor binding sites",
+          "volume": "3",
+          "year": "2003",
+          "journal-title": "BMC evolutionary biology"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01734359"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02101694"
+        },
+        {
+          "issue": "7",
+          "key": "2023122606150466000_2023.07.23.550199v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "e67",
+          "DOI": "10.1371/journal.pcbi.0010067",
+          "article-title": "PhyloGibbs: a Gibbs sampling motif finder that incorporates phylogeny",
+          "volume": "1",
+          "year": "2005",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "D1",
+          "key": "2023122606150466000_2023.07.23.550199v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "D100",
+          "DOI": "10.1093/nar/gky1128",
+          "article-title": "GTRD: a database on gene transcription regulation—2019 update",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1057"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1089"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.06.001"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0085629"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.11.058"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00239-002-2335-z"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.022388499"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12038-007-0084-2"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0805909105"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.139105.112"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1251"
+        },
+        {
+          "issue": "12",
+          "key": "2023122606150466000_2023.07.23.550199v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1001025",
+          "DOI": "10.1371/journal.pcbi.1001025",
+          "article-title": "Identifying a high fraction of the human genome to be under selective constraint using GERP++",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gbe/evaa040"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oxfordjournals.molbev.a004169"
+        },
+        {
+          "issue": "10",
+          "key": "2023122606150466000_2023.07.23.550199v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "e130",
+          "DOI": "10.1371/journal.pcbi.0020130",
+          "article-title": "Large-scale turnover of functional transcription factor binding sites in Drosophila",
+          "volume": "2",
+          "year": "2006",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1000343"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.276715.122"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.34",
+          "first-page": "57",
+          "article-title": "Some probabilistic and statistical problems on the analysis of DNA sequence",
+          "volume": "17",
+          "year": "1986",
+          "journal-title": "Lecture of Mathematics for Life Science"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02100115"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10635150490522269"
+        },
+        {
+          "key": "2023122606150466000_2023.07.23.550199v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xia X. Deriving transition probabilities and evolutionary distances from substitu-tion rate matrix by probability reasoning. J Genet Genome Res. 2017;3(031).",
+          "DOI": "10.23937/2378-3648/1410031"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.23.550199",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:58:53Z",
+        "timestamp": 1768453133000
+      },
+      "score": 121.587395,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.23.550199"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            25
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2023.07.23.550199",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1098/rsos.231088",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

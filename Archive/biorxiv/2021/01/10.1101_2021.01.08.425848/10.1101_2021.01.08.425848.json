@@ -1,0 +1,236 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.08.425848",
+  "title": "Somatic mutations in CTCF zinc fingers produce cellular phenotypes explained by structure-function relationships",
+  "doi": "10.1101/2021.01.08.425848",
+  "abstract": "<h4>Background</h4> Human cancers commonly contain mutations in transcription factors that lead to aberrant DNA binding or altered effector function at target sites. One such factor significantly mutated in cancer is the evolutionarily-conserved CCCTC-binding factor (CTCF), which has fundamental roles in maintaining chromatin architecture and transcriptional regulation. Numerous cancer genome sequencing and functional studies have revealed CTCF’s role as a haploinsufficient tumour suppressor gene. However, to date, structure-function relationships of somatic CTCF mutations have not been examined. <h4>Methods</h4> We collated somatic CTCF mutations from cancer genome portals and published studies to determine their nature, frequency, distribution and potential functional impact. We undertook an in-depth examination of 5 CTCF missense zinc finger (ZF) mutations occurring within key intra- and inter-ZF residues. We performed functional analyses including cell growth, colony-formation, chromatin immunoprecipitation and transcriptional reporter assays. Based on their homology, each ZF mutation was then modelled on CTCF’s ZF domain crystal structure and its structural impact analysed using molecular dynamics simulations. <h4>Results</h4> We observed an enrichment of somatic missense mutations occurring in the ZF region of CTCF, compared to the unstructured N- and C-termini. Functional characterisation of CTCF ZF mutations revealed a complete (L309P, R339W, R377H) or intermediate (R339Q) abrogation as well as an enhancement (G420D) of the anti-proliferative effects of CTCF. DNA binding at select sites was disrupted and transcriptional regulatory activities abrogated. In silico mutagenesis revealed that L309P had the highest mutation energy and thus most severe impact on protein stability. Molecular docking and molecular dynamics simulations confirmed that mutations in residues specifically contacting DNA bases or backbone exhibited loss of DNA binding (R339Q, R339W, R377H). Remarkably, R339Q and G420D were stabilised by the formation of new primary DNA bonds. All mutations exhibited some loss or gain of bonds at neighbouring residues, often in adjacent zinc fingers. <h4>Conclusions</h4> Our data confirm the significant negative impact haploinsufficient CTCF ZF mutations have on its tumour suppressor function. A spectrum of loss-, change- and gain-of-function impacts in CTCF zinc fingers are observed in cell growth regulation and gene regulatory activities. We have established that diverse cellular phenotypes in CTCF are explained by examining structure-function relationships.",
+  "authors": [
+    "Bailey CG",
+    "Gupta S",
+    "Metierre C",
+    "Amarasekera PM",
+    "O’Young P",
+    "Kyaw W",
+    "Laletin T",
+    "Francis H",
+    "Semaan C",
+    "Singh KP",
+    "Mullighan CG",
+    "Wolkenhauer O",
+    "Schmitz U",
+    "Rasko JE"
+  ],
+  "published_date": "2021-01-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425848",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425848.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR263573",
+    "raw_record": {
+      "id": "PPR263573",
+      "source": "PPR",
+      "doi": "10.1101/2021.01.08.425848",
+      "title": "Somatic mutations in CTCF zinc fingers produce cellular phenotypes explained by structure-function relationships",
+      "authorString": "Bailey CG, Gupta S, Metierre C, Amarasekera PM, O’Young P, Kyaw W, Laletin T, Francis H, Semaan C, Singh KP, Mullighan CG, Wolkenhauer O, Schmitz U, Rasko JE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bailey CG",
+            "lastName": "Bailey",
+            "firstName": "Charles",
+            "initials": "CG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4725-7829"
+            }
+          },
+          {
+            "fullName": "Gupta S",
+            "lastName": "Gupta",
+            "firstName": "Shailendra",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3470-3260"
+            }
+          },
+          {
+            "fullName": "Metierre C",
+            "lastName": "Metierre",
+            "firstName": "Cynthia",
+            "initials": "C"
+          },
+          {
+            "fullName": "Amarasekera PM",
+            "lastName": "Amarasekera",
+            "firstName": "Punkaja MS",
+            "initials": "PM"
+          },
+          {
+            "fullName": "O’Young P",
+            "lastName": "O’Young",
+            "firstName": "Patrick",
+            "initials": "P"
+          },
+          {
+            "fullName": "Kyaw W",
+            "lastName": "Kyaw",
+            "firstName": "Wunna",
+            "initials": "W"
+          },
+          {
+            "fullName": "Laletin T",
+            "lastName": "Laletin",
+            "firstName": "Tatyana",
+            "initials": "T"
+          },
+          {
+            "fullName": "Francis H",
+            "lastName": "Francis",
+            "firstName": "Habib",
+            "initials": "H"
+          },
+          {
+            "fullName": "Semaan C",
+            "lastName": "Semaan",
+            "firstName": "Crystal",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-7109-1535"
+            }
+          },
+          {
+            "fullName": "Singh KP",
+            "lastName": "Singh",
+            "firstName": "Krishna",
+            "initials": "KP"
+          },
+          {
+            "fullName": "Mullighan CG",
+            "lastName": "Mullighan",
+            "firstName": "Charles",
+            "initials": "CG"
+          },
+          {
+            "fullName": "Wolkenhauer O",
+            "lastName": "Wolkenhauer",
+            "firstName": "Olaf",
+            "initials": "O"
+          },
+          {
+            "fullName": "Schmitz U",
+            "lastName": "Schmitz",
+            "firstName": "Ulf",
+            "initials": "U"
+          },
+          {
+            "fullName": "Rasko JE",
+            "lastName": "Rasko",
+            "firstName": "John EJ",
+            "initials": "JE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2975-807X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3470-3260"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4725-7829"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2975-807X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-7109-1535"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Background</h4>  Human cancers commonly contain mutations in transcription factors that lead to aberrant DNA binding or altered effector function at target sites. One such factor significantly mutated in cancer is the evolutionarily-conserved CCCTC-binding factor (CTCF), which has fundamental roles in maintaining chromatin architecture and transcriptional regulation. Numerous cancer genome sequencing and functional studies have revealed CTCF’s role as a haploinsufficient tumour suppressor gene. However, to date, structure-function relationships of somatic CTCF mutations have not been examined. <h4>Methods</h4>  We collated somatic CTCF mutations from cancer genome portals and published studies to determine their nature, frequency, distribution and potential functional impact. We undertook an in-depth examination of 5 CTCF missense zinc finger (ZF) mutations occurring within key intra- and inter-ZF residues. We performed functional analyses including cell growth, colony-formation, chromatin immunoprecipitation and transcriptional reporter assays. Based on their homology, each ZF mutation was then modelled on CTCF’s ZF domain crystal structure and its structural impact analysed using molecular dynamics simulations. <h4>Results</h4>  We observed an enrichment of somatic missense mutations occurring in the ZF region of CTCF, compared to the unstructured N- and C-termini. Functional characterisation of CTCF ZF mutations revealed a complete (L309P, R339W, R377H) or intermediate (R339Q) abrogation as well as an enhancement (G420D) of the anti-proliferative effects of CTCF. DNA binding at select sites was disrupted and transcriptional regulatory activities abrogated.  In silico mutagenesis revealed that L309P had the highest mutation energy and thus most severe impact on protein stability. Molecular docking and molecular dynamics simulations confirmed that mutations in residues specifically contacting DNA bases or backbone exhibited loss of DNA binding (R339Q, R339W, R377H). Remarkably, R339Q and G420D were stabilised by the formation of new primary DNA bonds. All mutations exhibited some loss or gain of bonds at neighbouring residues, often in adjacent zinc fingers.  <h4>Conclusions</h4>  Our data confirm the significant negative impact haploinsufficient CTCF ZF mutations have on its tumour suppressor function. A spectrum of loss-, change- and gain-of-function impacts in CTCF zinc fingers are observed in cell growth regulation and gene regulatory activities. We have established that diverse cellular phenotypes in CTCF are explained by examining structure-function relationships.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2021.01.08.425848"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.08.425848"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34657170",
+            "reference": "Cellular and molecular life sciences : CMLS. 2021 Dec;78(23):7519-7536",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-11",
+      "firstPublicationDate": "2021-01-08",
+      "firstIndexDate": "2021-01-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.01.610735",
+  "title": "Benchmarking Recent Computational Tools for DNA-binding Protein Identification",
+  "doi": "10.1101/2024.09.01.610735",
+  "abstract": "Identification of DNA-binding proteins (DBPs) is a crucial task in genome annotation, as it aids in understanding gene regulation, DNA replication, transcriptional control and various cellular processes. In this paper, we conduct an unbiased benchmarking of eleven state-of-the-art computational tools as well as traditional tools such as ScanProsite, BLAST, and HMMER for identifying DBPs. We highlight the data leakage issue in conventional datasets leading to inflated performance. We introduce new evaluation datasets to support further development. Through a comprehensive evaluation pipeline, we identify potential limitations in models, feature extraction techniques and training methods; and recommend solutions regarding these issues. We show that combining the predictions of the two best computational tools with BLAST based prediction significantly enhances DBP identification capability. We provide this consensus method as user-friendly software. The datasets and software are available at: https://github.com/Rafeed-bot/DNA_BP_Benchmarking . 1. Key Points We designed a comprehensive evaluation pipeline which systematically evaluates eleven recent machine learning (ML) based DBP identification tools. We analyzed the test prediction mistakes made by top-performing tools identifying their potential limitations in terms of model architecture, feature extraction and class balancing. We showed that although the best of these tools do not convincingly outperform BLAST, they still provide substantial value when integrated together with BLAST into a simple majority-voting ensemble. We provide recommendations on more robust development & evaluation and better usability of future tools. We provide the two best-performing ML-based tools, BLAST and the ensemble method as user-friendly software, as well as our proposed datasets, publicly available via GitHub.",
+  "authors": [
+    "Xizi Luo",
+    "Amadeus Song Yi Chi",
+    "Andre Huikai Lin",
+    "Tze Jet Ong",
+    "Limsoon Wong",
+    "Chowdhury Rafeed Rahman"
+  ],
+  "published_date": "2024-09-03",
+  "updated_date": "2024-09-04T01:05:37Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.01.610735",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.01.610735.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:24:24Z",
+        "timestamp": 1768515864228,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 103,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2024-09-03T00:00:00Z",
+            "timestamp": 1725321600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Identification of DNA-binding proteins (DBPs) is a crucial task in genome annotation, as it aids in understanding gene regulation, DNA replication, transcriptional control and various cellular processes. In this paper, we conduct an unbiased benchmarking of eleven state-of-the-art computational tools as well as traditional tools such as ScanProsite, BLAST, and HMMER for identifying DBPs. We highlight the data leakage issue in conventional datasets leading to inflated performance. We introduce new evaluation datasets to support further development. Through a comprehensive evaluation pipeline, we identify potential limitations in models, feature extraction techniques and training methods; and recommend solutions regarding these issues. We show that combining the predictions of the two best computational tools with BLAST based prediction significantly enhances DBP identification capability. We provide this consensus method as user-friendly software. The datasets and software are available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Rafeed-bot/DNA_BP_Benchmarking\">https://github.com/Rafeed-bot/DNA_BP_Benchmarking</jats:ext-link>\n                  .\n                </jats:p>\n                <jats:sec>\n                  <jats:label>1.</jats:label>\n                  <jats:title>Key Points</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>We designed a comprehensive evaluation pipeline which systematically evaluates eleven recent machine learning (ML) based DBP identification tools.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We analyzed the test prediction mistakes made by top-performing tools identifying their potential limitations in terms of model architecture, feature extraction and class balancing.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We showed that although the best of these tools do not convincingly outperform BLAST, they still provide substantial value when integrated together with BLAST into a simple majority-voting ensemble.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We provide recommendations on more robust development &amp; evaluation and better usability of future tools.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We provide the two best-performing ML-based tools, BLAST and the ensemble method as user-friendly software, as well as our proposed datasets, publicly available via GitHub.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2024.09.01.610735",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2024-09-04T01:05:37Z",
+        "timestamp": 1725411937000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Benchmarking Recent Computational Tools for DNA-binding Protein Identification"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Xizi",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amadeus Song",
+          "family": "Yi Chi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Andre Huikai",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tze Jet",
+          "family": "Ong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Limsoon",
+          "family": "Wong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chowdhury Rafeed",
+          "family": "Rahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0079-6107(86)90005-2"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)94115-3"
+        },
+        {
+          "issue": "1",
+          "key": "2024111312250863000_2024.09.01.610735v2.3",
+          "first-page": "269",
+          "article-title": "Methods for transcription factor separation",
+          "volume": "797",
+          "author": "Interactions in Biological Systems",
+          "year": "2003",
+          "journal-title": "Journal of Chromatography B"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-010909-095056"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1357-2725(97)00085-X"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/38444"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/abio.1998.3056"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/141.4.1253"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2003.11.004"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq061"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1486"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1570-9639(03)00112-2"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki949"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.14",
+          "unstructured": "Gajendra PS Raghava , Michael M Gromiha , and Manish Kumar . Identification of dna-binding proteins using support vector machines and evolutionary profiles. 2007."
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-12-1"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2014.09.002"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn583"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq019"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2018.05.006"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2006.07.149"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0188129"
+        },
+        {
+          "issue": "1",
+          "key": "2024111312250863000_2024.09.01.610735v2.23",
+          "first-page": "9705275",
+          "article-title": "Research on dna-binding protein identification method based on lstm-cnn feature fusion",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "Computational and Mathematical Methods in Medicine"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guobin Li , Xiuquan Du , Xinlu Li, L. Zou, Guanhong Zhang , and Zhize Wu . Prediction of dna binding proteins using local features and long-term dependencies with primary sequences based on deep learning. PeerJ, 9:e11262, 2021.",
+          "DOI": "10.7717/peerj.11262"
+        },
+        {
+          "issue": "10",
+          "key": "2024111312250863000_2024.09.01.610735v2.25",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.26",
+          "unstructured": "Roshan Rao , Nicholas Bhattacharya , Neil Thomas , Yan Duan , Peter Chen , John Canny , Pieter Abbeel , and Yun Song . Evaluating protein transfer learning with tape. Advances in neural information processing systems, 32, 2019."
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.27",
+          "unstructured": "A Vaswani . Attention is all you need. Advances in Neural Information Processing Systems, 2017."
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.02.053"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2009.10507281"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00726-007-0568-2"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00726-007-0016-3"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-15-1"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/minf.201400025"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dawei Qi , Chen Song , and Taigang Liu . Predbp-plms: Prediction of dna-binding proteins based on pre-trained protein language models and convolutional neural networks. Analytical Biochemistry, 694:115603, 2024.",
+          "DOI": "10.1016/j.ab.2024.115603"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jinfeng Li , Shun Zhang , and Chun Fang . Pb_dbp: Identifying dna-binding proteins using probert_bilstm model. In Proceedings of the 2023 6th International Conference on Big Data Technologies, pages 242–246, 2023.",
+          "DOI": "10.1145/3627377.3627415"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0086703"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-14945-1"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-019-00207-x"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl124"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "135",
+          "DOI": "10.1016/j.ins.2016.06.026",
+          "article-title": "Local-dpp: An improved dna-binding protein prediction method by exploring local evolutionary information",
+          "volume": "384",
+          "year": "2017",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0167345"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty653"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2018.10.027"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.imu.2020.100318"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuran Jia , Shan Huang , and Tianjiao Zhang . Kk-dbp: a multi-feature fusion method for dna-binding protein identification based on random forest. Frontiers in Genetics, 12:811158, 2021.",
+          "DOI": "10.3389/fgene.2021.811158"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2012.106"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.181.4096.223"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1219021"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuedong Yang , Rhys Heffernan , Kuldip Paliwal , James Lyons , Abdollah Dehzangi , Alok Sharma , Jihua Wang , Abdul Sattar , and Yaoqi Zhou . Spider2: a package to predict secondary structure, accessible surface area, and main-chain torsional angles by deep neural networks. Prediction of protein secondary structure, pages 55–63, 2017.",
+          "DOI": "10.1007/978-1-4939-6406-2_6"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.01.071"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.54",
+          "first-page": "1157",
+          "article-title": "An introduction to variable and feature selection",
+          "volume": "3",
+          "year": "2003",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "273",
+          "DOI": "10.1007/BF00994018",
+          "article-title": "Support-vector networks",
+          "volume": "20",
+          "year": "1995",
+          "journal-title": "Machine learning"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Trevor Hastie , Robert Tibshirani , Jerome H Friedman , and Jerome H Friedman . The elements of statistical learning: data mining, inference, and prediction, volume 2. Springer, 2009.",
+          "DOI": "10.1007/978-0-387-84858-7"
+        },
+        {
+          "issue": "3",
+          "key": "2024111312250863000_2024.09.01.610735v2.58",
+          "first-page": "175",
+          "article-title": "An introduction to kernel and nearest-neighbor nonparametric regression",
+          "volume": "46",
+          "year": "1992",
+          "journal-title": "The AmericanStatistician"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bernhard Schölkopf and Alexander J Smola . Learning with kernels: support vector machines, regularization, optimization, and beyond. MIT press, 2002.",
+          "DOI": "10.7551/mitpress/4175.001.0001"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.726791"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1997.9.8.1735"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0106691"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki402"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.65",
+          "first-page": "111",
+          "article-title": "The class imbalance problem: Significance and strategies",
+          "volume": "56",
+          "year": "2000",
+          "journal-title": "In Proc. of the Int’l Conf. on artificial intelligence"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2008.239"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2021.10.017"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1035"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-5347(03)00033-8"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-020-6490-7"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Frank Wilcoxon . Individual comparisons by ranking methods. In Breakthroughs in statistics: Methodology and distribution, pages 196–202. Springer, 1992.",
+          "DOI": "10.1007/978-1-4612-4380-9_16"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(81)90087-5"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.75",
+          "article-title": "Semi-supervised classification with graph convolutional networks",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "20",
+          "key": "2024111312250863000_2024.09.01.610735v2.76",
+          "first-page": "10",
+          "article-title": "Graph attention networks",
+          "volume": "1050",
+          "year": "2017",
+          "journal-title": "stat"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.78",
+          "unstructured": "Razvan Pascanu , Tomas Mikolov , and Yoshua Bengio . On the difficulty of training recurrent neural networks. In International conference on machine learning, pages 1310–1318. Pmlr, 2013."
+        },
+        {
+          "issue": "10",
+          "key": "2024111312250863000_2024.09.01.610735v2.79",
+          "first-page": "2222",
+          "article-title": "Lstm: A search space odyssey",
+          "volume": "28",
+          "year": "2016",
+          "journal-title": "IEEE transactions on neural networks and learning systems"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jessica Lin , Eamonn Keogh , Stefano Lonardi , and Bill Chiu . A symbolic representation of time series, with implications for streaming algorithms. In Proceedings of the 8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery, pages 2–11, 2003.",
+          "DOI": "10.1145/882082.882086"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.81",
+          "article-title": "Neural machine translation by jointly learning to align and translate",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.82",
+          "article-title": "Effective approaches to attention-based neural machine translation",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac142"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2022.05.001"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab200"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac444"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fbinf.2023.1120370"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.89",
+          "unstructured": "Trevor Hastie . The elements of statistical learning: data mining, inference, and prediction, 2009."
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2019.10.118"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.91",
+          "unstructured": "Gilles Louppe , Louis Wehenkel , Antonio Sutera , and Pierre Geurts . Understanding variable importances in forests of randomized trees. Advances in neural information processing systems, 26, 2013."
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-89850-9"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.93",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mark J Van der Laan , Eric C Polley , and Alan E Hubbard . Super learner. Statistical applications in genetics and molecular biology, 6(1), 2007.",
+          "DOI": "10.2202/1544-6115.1309"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.94",
+          "article-title": "Feature-weighted linear stacking",
+          "year": "2009",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "10",
+          "key": "2024111312250863000_2024.09.01.610735v2.95",
+          "first-page": "e84",
+          "article-title": "Drnapred, fast sequence-based method that accurately predicts and discriminates dna-and rna-binding residues",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1131"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1007730.1007735"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2008.239"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eswa.2008.06.108"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz595"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx431"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00028"
+        },
+        {
+          "key": "2024111312250863000_2024.09.01.610735v2.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty1051"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.01.610735",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:59:09Z",
+        "timestamp": 1768460349000
+      },
+      "score": 144.25557,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.01.610735"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "references-count": 103,
+      "URL": "https://doi.org/10.1101/2024.09.01.610735",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

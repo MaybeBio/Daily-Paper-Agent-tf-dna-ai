@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Technical soundness and validity of claims based solely on the provided text; no assessment of code functionality, figure accuracy, or supplementary data
+- **Shared manuscript claim summary** The authors present ChromDL, a hybrid deep learning architecture combining BiGRU, CNN, and BiLSTM layers, which they claim outperforms existing models (DeepSEA, DanQ, DanQ-JASPAR) in predicting transcription factor binding sites, histone modifications, and DNase I hypersensitive sites, and can be coupled with a secondary classifier for enhancer prediction and regulatory variant effect quantification
+- **Visible evidence base** Text descriptions of model architecture, training procedures, evaluation metrics (auROC, auPRC), comparative performance claims, and validation approaches including ChIP-seq signal analysis, motif discovery, and raQTL enrichment
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, exact performance numbers, statistical test details, and code; the loss function equation is referenced but not shown; no quantitative results are provided in the text
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful deep learning architecture for regulatory genomics, but the provided text is almost entirely qualitative. No actual performance numbers, statistical comparisons, or validation results are presented in the main text, making it impossible to evaluate the central claims of improved accuracy. The methodological descriptions are incomplete, and several claims go beyond what the described analyses can support. The work may have merit, but the current manuscript does not establish its case from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics, particularly those developing deep learning models for functional annotation of non-coding DNA. The hybrid architecture combining multiple RNN types with CNNs could be of interest to those seeking architectural innovations. Researchers studying transcription factor binding specificity and regulatory variant interpretation may also find the claimed capabilities relevant.
+- **Major strengths** The authors have conducted a large-scale architecture search (approximately 7,800 models) which is a substantial computational effort. The combination of BiGRU and BiLSTM layers in a single architecture is a reasonable design choice given the complementary properties of these recurrent units. The validation strategy, including ChIP-seq signal intensity analysis, motif discovery, and raQTL enrichment, addresses multiple aspects of model utility. The use of established benchmarks (DeepSEA dataset) facilitates comparison with prior work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims ChromDL "significantly improves upon a range of prediction metrics compared to its predecessors" and "outperforms these DL models across all categories"
+  - **Evidence pointer** Results section, "ChromDL Architecture Discovery"; Tables 1-3 referenced but not provided
+  - **Concern** No quantitative performance values are reported in the text. The claims of superiority over DeepSEA, DanQ, and DanQ-JASPAR are made without presenting any auROC or auPRC numbers, confidence intervals, or statistical significance tests for the overall performance comparison. The only numbers given are median auROC values for ChromDL itself (0.961 overall, 0.970 TFBS, 0.936 DHS, 0.864 HM) and percentage of labels where ChromDL outperforms comparators (95%, 88%, 85%), but the actual comparator values are absent.
+  - **Why it matters** The central claim of the manuscript is that ChromDL improves upon existing methods. Without reporting the actual performance metrics of all models, the reader cannot verify the magnitude of improvement, assess whether differences are meaningful, or determine if the improvement is consistent across the 919 regulatory features. The claim of "significantly improves" requires statistical evidence that is not presented.
+  - **Resolution test** Provide a table with auROC and auPRC values for all four models across all 919 features, including appropriate statistical tests (e.g., paired tests across features) and confidence intervals. Report the exact numbers for the "across all categories" claim, including the HM category where DanQ-JASPAR reportedly performs better.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript states the model was trained by "minimizing the binary cross-entropy loss function" and provides an equation, but the equation itself is not shown in the text.
+  - **Evidence pointer** Methods section, "Model Architecture and Training"; the loss function equation is referenced but missing
+  - **Concern** The loss function equation is referenced but not displayed. Additionally, critical training details are missing: learning rate schedule, early stopping criteria, batch normalization specifics, dropout rates beyond the one mentioned (20% in one BiLSTM layer), weight initialization, and regularization parameters. The architecture description mentions "separable convolutional layer" and "standard convolutional layer" but does not specify kernel sizes beyond the one given (16 for the separable layer), stride, padding, or the number of filters in the standard layer.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. The authors state the code is available, but the manuscript itself should contain sufficient detail for a reader to understand the architecture and training procedure. Missing architectural and training details prevent independent verification and make it difficult to assess whether the architecture search was conducted fairly.
+  - **Resolution test** Provide the complete loss function equation, full architectural specifications for all layers (including filter counts, kernel sizes, strides, padding, pooling windows, dropout rates, and regularization), and complete training details (optimizer parameters, learning rate schedule, batch size, early stopping criteria, and number of training epochs).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The manuscript claims ChromDL "has the potential to accurately delineate TF binding motif specificities" and that it "can detect weak transcription factor (TF) binding with higher accuracy"
+  - **Evidence pointer** Results section, "Accurate Prediction of TF binding"; Figure 4 referenced but not provided
+  - **Concern** The motif analysis is based on only 16 motifs, of which 8 were discarded as "not visually discernible" with insignificant alignment scores. The remaining 8 are all c-Fos/c-Jun motifs. This is a very narrow basis for claiming general improvement in motif specificity delineation. For the weak TF binding claim, the analysis shows ChromDL predicts a higher proportion of low-signal peaks correctly, but the text does not report the actual proportions, the magnitude of improvement, or whether the improvement is consistent across the 690 TFBS datasets. The claim that this "could allow detection of sequencing and mapping errors" is speculative and not supported by any analysis.
+  - **Why it matters** The claims about weak TF binding and motif specificity are presented as significant advances, but the evidence base is limited to a small number of motifs from one TF family and qualitative descriptions of improvement. The speculative extension to error detection goes beyond what the data can support.
+  - **Resolution test** Report the actual proportions of correctly predicted peaks for all four models across all signal intensity bins, with statistical tests. For the motif analysis, either expand the set of motifs examined or temper the claims to reflect the limited scope. Remove or clearly label speculative statements about error detection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The manuscript claims the enhancer model "can be applied for the accurate prediction of regulatory mutations and the degree of enhancer modulation by these mutations" and that it has been "experimentally validated"
+  - **Evidence pointer** Results section, "Reporter assay QTL validation of ChromDL Regulatory Variant predictions"; Figure 5 referenced but not provided
+  - **Concern** The raQTL validation shows a trend of increasing delta scores correlating with higher density in enhancer regions, but no quantitative measures of this correlation are provided. The "experimental validation" consists of two observations: a trend in enrichment and alignment with previously published proportions of deleterious mutations. No comparison with other models' performance on the same raQTL data is presented, so it is unclear whether ChromDL adds predictive value beyond existing methods. The in silico mutagenesis results (52.8% detrimental, 2.2% deactivating) are presented as novel, but the text notes these align with prior reports, raising the question of what new information this provides.
+  - **Why it matters** The claim of accurate prediction of regulatory mutations requires demonstrating that the model's predictions are not only correlated with experimental data but also superior to or complementary with existing approaches. The current analysis does not establish this.
+  - **Resolution test** Provide quantitative correlation statistics between delta scores and enhancer density, compare ChromDL's raQTL predictions with those from existing models (e.g., DeepSEA, DanQ) on the same datasets, and report the actual enrichment values and confidence intervals for each bin.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims "statistically significantly higher proportion" of TFBS correctly predicted in low signal bins, with p-values from "three separate one sided independent t-tests"
+  - **Evidence pointer** Methods section, "TF ChIP-seq signal intensity analysis"; Figure 3 referenced but not provided
+  - **Concern** The statistical analysis uses one-sided t-tests without correction for multiple testing across the ten percentile bins and four models. The text does not report the number of peaks in each bin, the variance of the proportions, or the effect sizes. The use of t-tests on proportions may be inappropriate if the proportions are not normally distributed or if the sample sizes are small. The pooling of all 690 cell lines for each bin may mask cell-type-specific effects.
+  - **Why it matters** The claim of statistical significance is central to the weak TF binding improvement. Inappropriate statistical methods or unreported multiple testing corrections could lead to false positive claims of improvement.
+  - **Resolution test** Report the full statistical details: number of peaks per bin, mean proportions and standard deviations for each model, effect sizes, and p-values with multiple testing correction. Consider using non-parametric tests or mixed-effects models that account for cell-type variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract states ChromDL "significantly improves upon a range of prediction metrics" but does not provide any quantitative context. The term "significantly" is used without statistical backing in the abstract.
+  - **Required correction** Add representative performance numbers to the abstract or rephrase to avoid implying statistical significance without evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Model Architecture and Training"
+  - **Evidence pointer** Methods section, "Model Architecture and Training"
+  - **Issue** The description of the architecture search is vague. Terms like "random sampling and semi-supervised architecture design" and "about 1,100 models" and "about 6,000 models" lack precision. The criteria for selecting the final architecture are not described.
+  - **Required correction** Provide a clear description of the architecture search procedure, including the search space, sampling strategy, evaluation criteria, and how the final architecture was selected.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "ChromDL Architecture Discovery"
+  - **Evidence pointer** Results section, "ChromDL Architecture Discovery"
+  - **Issue** The claim that "the input BiGRU layer yields higher overall prediction accuracy as compared to a conventional CNN layer" is presented without the actual comparison values or the architecture of the alternative model.
+  - **Required correction** Report the auROC and auPRC values for both configurations and describe the alternative architecture used for comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section, "ChromDL-based Enhancer Predictor"
+  - **Evidence pointer** Results section, "ChromDL-based Enhancer Predictor"
+  - **Issue** The text states that "weaker" enhancer groups resulted in more accurate classification according to auPRC, but the interpretation of this finding is unclear. The authors suggest this is expected based on prior experimental results, but the connection between auPRC and biological enhancer strength is not explained.
+  - **Required correction** Clarify the biological interpretation of the auPRC differences and explain why weaker enhancers would be expected to yield better precision-recall performance.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings, including "in it's training" (should be "its"), "it's properties" (should be "its"), "it's relatively rapid convergence" (should be "its"), "it's flexibility" (should be "its"), and "it's basepair sensitivity" (should be "its"). The phrase "with the initialized motifs observed improved performance" is grammatically incorrect.
+  - **Required correction** Thorough proofreading for grammar and clarity.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Methods section, "Enhancer Scoring Validation"
+  - **Evidence pointer** Methods section, "Enhancer Scoring Validation"
+  - **Issue** The citation for the Cherry et al. reference is incomplete and formatted inconsistently with the rest of the references.
+  - **Required correction** Complete the citation and ensure consistent reference formatting.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance comparison), R1-M2 (incomplete methodological details), R1-M3 (limited evidence for motif and weak binding claims), R1-M4 (inadequate validation comparison)
+- **Assessment against Nature-style criteria** Originality: The hybrid architecture combining BiGRU, CNN, and BiLSTM layers is a reasonable incremental contribution, but the manuscript does not articulate a clear conceptual advance over existing architectures. Scientific importance: The problem of regulatory element prediction is important, and improved performance would be valuable, but the manuscript does not demonstrate such improvement with data. Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, but the presentation is too technical for a general audience and too vague for specialists. Technical soundness: Cannot be assessed from the provided text due to missing quantitative results and incomplete methods. Readability for nonspecialists: The introduction provides useful context, but the results section assumes familiarity with deep learning architectures and genomic assays without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the central claims of improved performance are not supported by any quantitative data in the supplied text. The authors must provide full performance comparisons, complete methodological details, and more rigorous validation before the case for ChromDL's utility can be assessed.
+
+## Risk / unsupported claims
+- The claim that ChromDL "significantly improves upon a range of prediction metrics" is unsupported as no quantitative comparisons are provided.
+- The claim that ChromDL "outperforms these DL models across all categories" is contradicted by the text itself, which notes DanQ-JASPAR performs better in HM categories.
+- The claim that ChromDL "has the potential to accurately delineate TF binding motif specificities" is based on only 8 motifs from one TF family and is overstated.
+- The claim that the enhancer model has been "experimentally validated" is misleading; the validation is computational and indirect, based on correlation with published raQTL data.
+- The statement that higher sensitivity "could allow detection of sequencing and mapping errors in existing datasets" is speculative and not supported by any analysis.
+- The claim that ChromDL is "the most accurate regulatory classifier to date" is unsubstantiated and cannot be evaluated without comprehensive benchmarking.
+- The assertion that the model "has the potential to accurately predict TF binding affinities" is not supported by the described analyses, which measure classification accuracy rather than binding affinity prediction.

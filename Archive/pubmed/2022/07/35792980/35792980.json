@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "35792980",
+    "doi": "10.1007/s12031-022-02042-6",
+    "title": "Network Biology Approaches to Uncover Therapeutic Targets Associated with Molecular Signaling Pathways from circRNA in Postoperative Cognitive Dysfunction Pathogenesis."
+  },
+  "content": {
+    "abstract": "Postoperative cognitive dysfunction (POCD) is a cognitive deterioration and dementia that arise after a surgical procedure, affecting up to 40% of surgery patients over the age of 60. The precise etiology and molecular mechanisms underlying POCD remain uncovered. These reasons led us to employ integrative bioinformatics and machine learning methodologies to identify several biological signaling pathways involved and molecular signatures to better understand the pathophysiology of POCD. A total of 223 differentially expressed genes (DEGs) comprising 156 upregulated and 67 downregulated genes were identified from the circRNA microarray dataset by comparing POCD and non-POCD samples. Gene ontology (GO) analyses of DEGs were significantly involved in neurogenesis, autophagy regulation, translation in the postsynapse, modulating synaptic transmission, regulation of the cellular catabolic process, macromolecule modification, and chromatin remodeling. Pathway enrichment analysis indicated some key molecular pathways, including mTOR signaling pathway, AKT phosphorylation of cytosolic targets, MAPK and NF-kappaB signaling pathway, PI3K/AKT signaling pathway, nitric oxide signaling pathway, chaperones that modulate interferon signaling pathway, apoptosis signaling pathway, VEGF signaling pathway, cellular senescence, RANKL/RARK signaling pathway, and AGE/RAGE pathway. Furthermore, seven hub genes were identified from the PPI network and also determined transcription factors and protein kinases. Finally, we identified a new predictive drug for the treatment of SCZ using the LINCS L1000, GCP, and P100 databases. Together, our results bring a new era of the pathogenesis of a deeper understanding of POCD, identified novel therapeutic targets, and predicted drug inhibitors in POCD.",
+    "keywords": [
+      "Bioinformatics methods",
+      "Biological signaling pathways",
+      "Differentially expressed genes (DEGs)",
+      "Gene ontology (GO)",
+      "POCD",
+      "Therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "Humans",
+      "Phosphatidylinositol 3-Kinases",
+      "*Postoperative Cognitive Complications",
+      "Proto-Oncogene Proteins c-akt",
+      "*RNA, Circular",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhuiyan, Piplu",
+        "Chuwdhury, G S",
+        "Sun, Zhaochu",
+        "Chen, Yinan",
+        "Dong, Hongquan",
+        "Ahmed, Fee Faysal",
+        "Nana, Li",
+        "Rahman, Md Habibur",
+        "Qian, Yanning"
+      ],
+      "short_names": [
+        "Bhuiyan P",
+        "Chuwdhury GS",
+        "Sun Z",
+        "Chen Y",
+        "Dong H",
+        "Ahmed FF",
+        "Nana L",
+        "Rahman MH",
+        "Qian Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China.",
+        "Department of Computer Science and Engineering, International Islamic University Chittagong, Chittagong, Bangladesh.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China.",
+        "Department of Mathematics, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China. yanning_qian@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhuiyan, Piplu",
+        "short_name": "Bhuiyan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chuwdhury, G S",
+        "short_name": "Chuwdhury GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, International Islamic University Chittagong, Chittagong, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhaochu",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yinan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Hongquan",
+        "short_name": "Dong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Fee Faysal",
+        "short_name": "Ahmed FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Nana, Li",
+        "short_name": "Nana L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Habibur",
+        "short_name": "Rahman MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd."
+        ]
+      },
+      {
+        "full_name": "Qian, Yanning",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, Jiangsu, People's Republic of China. yanning_qian@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular neuroscience : MN"
+    ],
+    "journal_abbrev": [
+      "J Mol Neurosci"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/07 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "40778222",
+      "40668243",
+      "40665444",
+      "39664113",
+      "39596303",
+      "36230916"
+    ],
+    "refs": [
+      "35418837",
+      "34622713",
+      "34192824",
+      "33935683",
+      "33871050",
+      "33818491",
+      "33765445",
+      "33519423",
+      "33177827",
+      "33077953",
+      "32760073",
+      "32698899",
+      "32655392",
+      "32480240",
+      "32400333",
+      "32279045",
+      "32082482",
+      "31901293",
+      "31765741",
+      "31516357",
+      "31341187",
+      "31060905",
+      "31049689",
+      "30641141",
+      "30586550",
+      "30542695",
+      "30542270",
+      "30355501",
+      "30348620",
+      "30221701",
+      "30214393",
+      "29800326",
+      "29670465",
+      "29571823",
+      "29528863",
+      "29312496",
+      "29201025",
+      "29199020",
+      "29180259",
+      "29170981",
+      "29167670",
+      "29044209",
+      "28942966",
+      "28734823",
+      "28165545",
+      "27615800",
+      "27599409",
+      "27372924",
+      "27141961",
+      "27069541",
+      "26926225",
+      "25921073",
+      "25645581",
+      "25483902",
+      "25449673",
+      "25436094",
+      "25049453",
+      "24814703",
+      "24676769",
+      "24622758",
+      "24193238",
+      "22986281",
+      "21414488",
+      "21053365",
+      "21041647",
+      "20818791",
+      "20428496",
+      "17916244",
+      "16254221",
+      "11967539"
+    ],
+    "similar": [
+      "35792980",
+      "31524256",
+      "40594616",
+      "30132538",
+      "32655392",
+      "36221354",
+      "32756534",
+      "37902837",
+      "34553293",
+      "35164778",
+      "32082482",
+      "31673979",
+      "39662703",
+      "35444525",
+      "33120861",
+      "32004974",
+      "31987036",
+      "32908877",
+      "41044520",
+      "28432618",
+      "29063236",
+      "30213925",
+      "36096037",
+      "33422657",
+      "36863641",
+      "33416124",
+      "29546564",
+      "29240723",
+      "38669428",
+      "30349449",
+      "35757392",
+      "32400333",
+      "38261527",
+      "39251231",
+      "40939860",
+      "36316897",
+      "36992583",
+      "34432208",
+      "34483886",
+      "29845250",
+      "40628511",
+      "32049798",
+      "39474976",
+      "36041498",
+      "35909518",
+      "32873329",
+      "34389038",
+      "32226705",
+      "36303457",
+      "34016144",
+      "36872359",
+      "31545495",
+      "39118438",
+      "34966440",
+      "31747387",
+      "32160845",
+      "34271942",
+      "40186750",
+      "36166989",
+      "28623929",
+      "29286093",
+      "35756405",
+      "31794546",
+      "28957794",
+      "35378210",
+      "41006883",
+      "28952134",
+      "40345270",
+      "32344560",
+      "39151711",
+      "29745857",
+      "36860851",
+      "41253465",
+      "30525236",
+      "38064496",
+      "34246740",
+      "40059764",
+      "31277141",
+      "35002537",
+      "28791394",
+      "35835403",
+      "31424263",
+      "27581154",
+      "30569116",
+      "33080677",
+      "30048971",
+      "33149760",
+      "36203795",
+      "32578582",
+      "33640831",
+      "40547031",
+      "36116924",
+      "37802426",
+      "32846838",
+      "36403742",
+      "33747117",
+      "35901340",
+      "30365099",
+      "32641130",
+      "30519576"
+    ],
+    "review": [
+      "35792980",
+      "33080677"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12031-022-02042-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

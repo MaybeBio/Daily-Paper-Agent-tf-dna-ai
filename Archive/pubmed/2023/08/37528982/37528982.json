@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "37528982",
+    "doi": "10.3389/fpls.2023.1212073",
+    "title": "Predicting transcriptional responses to heat and drought stress from genomic features using a machine learning approach in rice."
+  },
+  "content": {
+    "abstract": "Plants have evolved various mechanisms to adapt to adverse environmental stresses, such as the modulation of gene expression. Expression of stress-responsive genes is controlled by specific regulators, including transcription factors (TFs), that bind to sequence-specific binding sites, representing key components of cis-regulatory elements and regulatory networks. Our understanding of the underlying regulatory code remains, however, incomplete. Recent studies have shown that, by training machine learning (ML) algorithms on genomic sequence features, it is possible to predict which genes will transcriptionally respond to a specific stress. By identifying the most important features for gene expression prediction, these trained ML models allow, in theory, to further elucidate the regulatory code underlying the transcriptional response to abiotic stress. Here, we trained random forest ML models to predict gene expression in rice (Oryza sativa) in response to heat or drought stress. Apart from thoroughly assessing model performance and robustness across various input training data, the importance of promoter and gene body sequence features to train ML models was evaluated. The use of enriched promoter oligomers, complementing known TF binding sites, allowed us to gain novel insights in DNA motifs contributing to the stress regulatory code. By comparing genomic feature importance scores for drought and heat stress over time, general and stress-specific genomic features contributing to the performance of the learned models and their temporal variation were identified. This study provides a solid foundation to build and interpret ML models accurately predicting transcriptional responses and enables novel insights in biological sequence features that are important for abiotic stress responses.",
+    "keywords": [
+      "machine learning interpretation",
+      "regulation of drought stress",
+      "regulation of heat stress",
+      "regulatory elements",
+      "rice"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smet, Dajo",
+        "Opdebeeck, Helder",
+        "Vandepoele, Klaas"
+      ],
+      "short_names": [
+        "Smet D",
+        "Opdebeeck H",
+        "Vandepoele K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+        "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+        "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+        "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium.",
+        "Bioinformatics Institute Ghent, Ghent University, Ghent, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smet, Dajo",
+        "short_name": "Smet D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+          "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Opdebeeck, Helder",
+        "short_name": "Opdebeeck H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+          "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vandepoele, Klaas",
+        "short_name": "Vandepoele K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, Ghent, Belgium.",
+          "Center for Plant Systems Biology, Vlaams Instituut voor Biotechnologie (VIB), Ghent, Belgium.",
+          "Bioinformatics Institute Ghent, Ghent University, Ghent, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/02 06:42",
+    "fetched_at": "2026-09-29 04:59:33"
+  },
+  "links": {
+    "cites": [
+      "42654918",
+      "42589656",
+      "42197609",
+      "41010053",
+      "40739410",
+      "40552708",
+      "40439305",
+      "38712066",
+      "38664394"
+    ],
+    "refs": [
+      "37676542",
+      "36903861",
+      "36100536",
+      "35544234",
+      "35095971",
+      "34865154",
+      "34837041",
+      "34791404",
+      "34747486",
+      "34735005",
+      "34561623",
+      "34281241",
+      "34179082",
+      "34149757",
+      "34083762",
+      "34066424",
+      "33796125",
+      "33658387",
+      "33643337",
+      "33575601",
+      "33374376",
+      "33262328",
+      "33101390",
+      "33013974",
+      "32776991",
+      "32717820",
+      "32607472",
+      "32117601",
+      "32087683",
+      "31913281",
+      "31727128",
+      "31701148",
+      "31613368",
+      "31544012",
+      "31399242",
+      "31345953",
+      "31293607",
+      "30964000",
+      "30873200",
+      "30842277",
+      "30833955",
+      "30709850",
+      "30447332",
+      "30326829",
+      "29872215",
+      "29743197",
+      "29272447",
+      "29223924",
+      "28591841",
+      "28263959",
+      "27924042",
+      "27862521",
+      "27655842",
+      "27621742",
+      "27557757",
+      "27508061",
+      "27453463",
+      "26904076",
+      "26183606",
+      "25844119",
+      "25825364",
+      "25215497",
+      "24695404",
+      "24177688",
+      "22609971",
+      "22392217",
+      "21330290",
+      "21327513",
+      "20385727",
+      "20110278",
+      "19805390",
+      "19682982",
+      "18802440",
+      "16126853",
+      "12824389",
+      "11891240",
+      "9801140"
+    ],
+    "similar": [
+      "37528982",
+      "25445270",
+      "27766460",
+      "34249082",
+      "33575601",
+      "23994683",
+      "26858735",
+      "36982696",
+      "30496782",
+      "24904597",
+      "26578693",
+      "38859561",
+      "24130197",
+      "27499678",
+      "17672917",
+      "29785071",
+      "38424499",
+      "38490467",
+      "21106056",
+      "26959651",
+      "38354497",
+      "35219299",
+      "32206999",
+      "26493149",
+      "20809928",
+      "27193099",
+      "20023425",
+      "36613735",
+      "38708347",
+      "22136664",
+      "23398910",
+      "25416131",
+      "28178571",
+      "26057839",
+      "33643383",
+      "19758430",
+      "26734052",
+      "14645724",
+      "32643113",
+      "29329517",
+      "37366497",
+      "17535819",
+      "21792744",
+      "29590108",
+      "26261267",
+      "36340401",
+      "22930426",
+      "33475863",
+      "26369665",
+      "28729874",
+      "33025523",
+      "15262804",
+      "30066217",
+      "24247850",
+      "17132712",
+      "18813955",
+      "24235132",
+      "35012508",
+      "31238869",
+      "21406116",
+      "24604734",
+      "34103003",
+      "37294468",
+      "34299275",
+      "31286320",
+      "23660286",
+      "38551174",
+      "18813954",
+      "28119334",
+      "31376807",
+      "24130868",
+      "35807608",
+      "31575043",
+      "39273165",
+      "21966459",
+      "34149757",
+      "23984864",
+      "31059518",
+      "29259968",
+      "37853316",
+      "29363433",
+      "25711810",
+      "34680963",
+      "34899804",
+      "31454543",
+      "17225073",
+      "38712066",
+      "27448724",
+      "30099612",
+      "26818008",
+      "26566840",
+      "34735005",
+      "28373393",
+      "36939943",
+      "15952066",
+      "16723008",
+      "37108512",
+      "26067440",
+      "31856731",
+      "33046001"
+    ],
+    "review": [
+      "37528982",
+      "24904597",
+      "22136664",
+      "19758430",
+      "36340401",
+      "37294468",
+      "31286320",
+      "31575043",
+      "23984864",
+      "31059518",
+      "29259968"
+    ],
+    "pmc": [
+      "10390317"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37528982/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37528982",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2023.1212073",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

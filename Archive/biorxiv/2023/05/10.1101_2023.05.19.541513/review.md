@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supplementary materials description)
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, suitability for Nature-style publication
+- **Shared manuscript claim summary** The authors present a new coarse-grained (CG) DNA model with 2-bead and 3-bead variants, parameterized to reproduce DNA melting thermodynamics and structural properties. The model is made compatible with the HPS-Urry CG protein model via a hydropathy-based cross-interaction scheme. The authors validate the model against experimental melting temperatures, structural properties of dsDNA, and a protein-DNA binding affinity. They then apply the model to simulate a full nucleosome with and without histone tails, and investigate the influence of nucleosomes on HP1α liquid-liquid phase separation (LLPS).
+- **Visible evidence base** Main text figures (Figures 1, 3, 4, 6, 7, 8), tables (Tables 1-6), supplementary figure references (Figures S1-S8), supplementary table references (Tables S1-S4), supplementary movie references (Movies M1-M2)
+- **Missing materials affecting confidence** Supplementary Information content (figures, tables, movies) not provided; specific simulation parameters for nucleosome and HP1α systems not fully detailed; convergence criteria for phase coexistence simulations not described; error analysis methodology for reported uncertainties not specified
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful and potentially impactful CG DNA model that addresses a genuine gap in the field, namely the lack of DNA models compatible with existing CG protein models for studying protein-DNA interactions and LLPS. The validation against experimental data for melting temperature and structural properties is reasonable, and the application to nucleosome simulations demonstrates the model's utility. However, several technical concerns regarding parameterization strategy, validation rigor, and interpretation of the LLPS results need to be addressed before the case is fully established. The claim that the model captures "protein-DNA interactions" broadly is only supported by a single test case, and the mechanistic conclusions about histone tail competition with HP1α require stronger evidence.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists studying protein-DNA interactions, chromatin structure, and LLPS. Researchers developing CG models for biomolecular systems would be interested in the methodological approach. The nucleosome and HP1α applications would interest the chromatin biology community, though the biological conclusions are preliminary.
+- **Major strengths** The model addresses a clear need for CG DNA models compatible with protein CG models. The parameterization strategy using experimental melting data is sensible. The demonstration of compatibility with the HPS-Urry protein model is valuable. The application to nucleosome simulations over microsecond timescales showcases the model's efficiency. The hydropathy-based cross-interaction scheme is a reasonable and transferable approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the model "reasonably reproduces the experimental binding affinity for a prototypical protein-DNA system" based on a single test case (C-terminus of histone H1 with 20-bp dsDNA).
+  - **Evidence pointer** Section 3.4, Figure 5
+  - **Concern** The validation of protein-DNA interactions relies on a single system. The Kd values obtained (73.4 nM and 75.4 nM for 2-bead and 3-bead models) are compared to one experimental value (101 ± 20 nM). This single-point validation is insufficient to establish general transferability of the cross-interaction parameters. The authors should test additional protein-DNA systems with different binding modes (e.g., sequence-specific binding, minor groove binding) to demonstrate broader applicability.
+  - **Why it matters** The central claim of the manuscript is that the model is suitable for studying protein-DNA interactions. Without multi-system validation, the generalizability of the hydropathy-based cross-interaction scheme remains unestablished.
+  - **Resolution test** Provide additional validation against at least 2-3 more protein-DNA systems with known experimental binding affinities, preferably with different binding modes and affinities spanning a range of Kd values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the 3-bead model "can result in improved structural properties of dsDNA duplex" and that the inclusion of additional HB beads "leads to enhanced agreement with the experimental data in terms of the local structural properties."
+  - **Evidence pointer** Section 3.3, Table 6
+  - **Concern** The improvement of the 3-bead model over the 2-bead model is not quantified statistically. Table 6 reports mean values and standard deviations, but no statistical comparison (e.g., root-mean-square deviation from experimental values, confidence intervals) is provided. The claim of "enhanced agreement" appears to be based on visual inspection of the values. Additionally, the authors do not report whether the differences between the 2-bead and 3-bead models are significant given the reported uncertainties.
+  - **Why it matters** The choice between the 2-bead and 3-bead models has computational cost implications. A rigorous quantitative comparison is needed to justify the added complexity of the 3-bead model.
+  - **Resolution test** Provide quantitative error metrics (e.g., RMSD from experimental values) for both models across all structural properties, with uncertainty propagation, and state whether the 3-bead model is statistically superior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "histone tails interact favorably with DNA, influencing the conformational ensemble of the DNA and antagonizing the contacts between HP1α and DNA, thus affecting the ability of DNA to promote LLPS of HP1α."
+  - **Evidence pointer** Section 3.5, Figures 6, 7, 8
+  - **Concern** The mechanistic conclusion that histone tails "antagonize" HP1α-DNA contacts is inferred from comparing systems with and without histone tails. However, the comparison is confounded by the fact that removing histone tails also changes the nucleosome structure and stability. The authors do not directly demonstrate competition between histone tails and HP1α for the same DNA binding sites. Additionally, the LLPS results are based on a single concentration and temperature condition, and the phase coexistence simulation methodology is not described in sufficient detail to assess whether equilibrium was reached.
+  - **Why it matters** The biological interpretation is a key selling point of the manuscript. If the competition mechanism is not rigorously established, the biological conclusions are overstated.
+  - **Resolution test** Perform direct competition experiments (e.g., titrating HP1α in the presence of nucleosomes with and without tails, measuring binding site occupancy) or use mutation/deletion analysis to identify specific histone tail residues that compete with HP1α. Provide evidence of equilibrium convergence for the phase coexistence simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the model "can be used to investigate protein-DNA complexes, such as nucleosomes, or LLPS of proteins with DNA, enabling a mechanistic understanding of how molecular information may be propagated at the genome level."
+  - **Evidence pointer** Section 3.5, Figure 8
+  - **Concern** The nucleosome simulations are performed with a single nucleosome and 50 HP1α chains in a 17x17x100 nm³ box. The system size and composition may not be representative of physiological conditions, and the authors do not discuss finite-size effects or the sensitivity of the results to system size. The claim that the model can enable "micron-scale studies" is not directly demonstrated, as the simulations described are at the nanometer scale.
+  - **Why it matters** The stated applicability of the model to micron-scale studies is a key claim. Without demonstrating that the model can handle larger systems or discussing the computational scaling, this claim is not supported.
+  - **Resolution test** Provide benchmark simulations showing computational scaling with system size, or demonstrate a larger-scale simulation (e.g., multiple nucleosomes) to support the micron-scale claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section numbering
+  - **Evidence pointer** Sections 1.2, 1.3, 2.1, 3.2, 3.3, 3.4, 3.5
+  - **Issue** The section numbering is inconsistent. The Introduction is Section 1, but the Model and Methods section is Section 2, and the Results and Discussion is Section 3. However, subsections within the Model and Methods are numbered 1.2 and 1.3, and subsections within Results and Discussion are numbered 3.2-3.5. This suggests the Model and Methods should be Section 1, or the subsections should be renumbered.
+  - **Required correction** Renumber sections consistently, for example, Model and Methods as Section 2 with subsections 2.1, 2.2, 2.3, and Results and Discussion as Section 3 with subsections 3.1-3.5.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Equation 9
+  - **Evidence pointer** Section 1.3
+  - **Issue** The equation for calculating Kd from the PMF is presented without derivation or citation. The integration limits and the meaning of the variable b are not clearly defined in the text.
+  - **Required correction** Provide a brief derivation or citation for the Kd calculation, and clearly define all variables in the equation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation convergence
+  - **Evidence pointer** Section 1.3
+  - **Issue** The authors state that the first 50 ns of simulation data are discarded as equilibration, but no convergence analysis is provided to justify this choice. For the umbrella sampling simulations, no assessment of sampling convergence is presented beyond the histogram overlap mentioned in the SI.
+  - **Required correction** Provide convergence metrics (e.g., block averaging, autocorrelation times) for the REMD and umbrella sampling simulations, and justify the equilibration period.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of Figure 1 in the text is brief and does not fully explain the mapping scheme, particularly the distinction between the 2-bead and 3-bead models.
+  - **Required correction** Expand the figure caption or text to clearly describe the mapping scheme, including the role of the dummy bead in the 3-bead model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Salt concentration
+  - **Evidence pointer** Sections 1.3, 3.2
+  - **Issue** The model is parameterized at 120 mM salt concentration, but the nucleosome and HP1α simulations are performed at 100 mM salt concentration. The authors do not discuss whether the model parameters are salt-dependent or whether this difference affects the results.
+  - **Required correction** Discuss the salt concentration dependence of the model parameters and justify the use of 100 mM in the application simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (single-system validation of protein-DNA interactions), R1-M2 (lack of statistical comparison between 2-bead and 3-bead models), R1-M3 (confounded interpretation of histone tail competition)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its specific combination of a CG DNA model with hydropathy-based cross-interactions for protein-DNA compatibility. However, the approach builds on existing CG DNA models and the HPS framework, so the novelty is incremental rather than transformative.
+  - Scientific importance: The model addresses a real need in the field and has potential for broad application. However, the demonstrated applications are limited, and the biological insights are preliminary.
+  - Interdisciplinary readership: The work bridges computational biophysics, physical chemistry, and chromatin biology, which could attract a broad readership. However, the technical nature of the model development may limit accessibility.
+  - Technical soundness: The parameterization strategy is reasonable, but the validation is incomplete (single protein-DNA system, no statistical comparison between model variants). The simulation methodology is generally sound but lacks convergence analysis.
+  - Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with CG modeling and LLPS concepts. The abstract is accessible, but the methods section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model has clear potential value, and the applications are interesting. However, the validation needs to be strengthened, and the biological interpretation needs to be more rigorously supported before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that the model "can be used to investigate protein-DNA complexes... enabling a mechanistic understanding of how molecular information may be propagated at the genome level" is speculative and not directly supported by the presented results.
+- The statement that the model "is suitable to facilitate micron-scale studies" is not demonstrated, as the largest simulation described is at the nanometer scale.
+- The conclusion that histone tails "antagonize" HP1α-DNA contacts is not directly supported by the data, as the comparison is confounded by structural differences between nucleosomes with and without tails.
+- The claim that the 3-bead model provides "enhanced agreement" with experimental data is not statistically quantified.
+- The transferability of the hydropathy-based cross-interaction parameters to protein-DNA systems beyond the single test case is unestablished.

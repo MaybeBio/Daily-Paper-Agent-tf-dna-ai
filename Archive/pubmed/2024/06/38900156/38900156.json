@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "38900156",
+    "doi": "10.1007/s00432-024-05778-3",
+    "title": "Mutant TP53 promotes invasion of lung cancer cells by regulating desmoglein 3."
+  },
+  "content": {
+    "abstract": "PURPOSE: Targeted therapies have markedly improved the prognosis of lung cancer patients; nevertheless, challenges persist, including limited beneficiary populations and the emergence of drug resistance. This study investigates the molecular mechanisms of mutant TP53 in lung cancer, aiming to contribute to novel strategies for targeted therapy. METHODS: The TCGA database was employed to delineate the mutational landscape of TP53 in lung cancer patients. Differential gene expression between TP53-mutant and wild-type patients was analyzed, followed by functional enrichment. DSG3 protein expression in lung cancer patients was assessed using IHC, and its impact on prognosis was analyzed in the TCGA database. The influence of TP53 on the downstream gene DSG3 was investigated using qPCR, ChIP-qPCR, and luciferase reporter gene assays. Protein enrichment in the DSG3 promoter region was examined through IP-MS, and the regulatory role of the HIF1-alpha/TP53 complex on DSG3 was explored using Co-IP, luciferase assays, and ChIP-qPCR. Molecular interactions between TP53 (R273H) and HIF1-alpha were detected through immunoprecipitation and molecular docking. The effects and mechanisms of DSG3 on lung cancer phenotypes were assessed through WB, transwell, and wound healing assays. RESULTS: TP53 mutations were present in 47.44% of patients, predominantly as missense mutations. DSG3 exhibited high expression in TP53-mutant lung cancer patients, and this elevated expression correlated with a poorer prognosis. TP53 interference led to a reduction in DSG3 mRNA expression, with TP53 mutant P53 enriching at the P2 site of the DSG3 promoter region, a recruitment facilitated by HIF1-alpha. The DBD region of TP53 (R273H) demonstrated interaction with HIF1-alpha. DSG3, activated through Ezrin phosphorylation, played a role in promoting invasion and metastasis. CONCLUSIONS: Mutant TP53 facilitates lung cancer cell invasion by modulating desmoglein 3.",
+    "keywords": [
+      "Invasion",
+      "Lung cancer",
+      "Molecular interaction",
+      "TP53"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Cell Line, Tumor",
+      "*Desmoglein 3/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/genetics/metabolism",
+      "*Lung Neoplasms/genetics/pathology/metabolism",
+      "*Mutation",
+      "*Neoplasm Invasiveness",
+      "Prognosis",
+      "*Tumor Suppressor Protein p53/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Yu",
+        "Qian, Rulin",
+        "Cui, Dong",
+        "Luan, Jiaqiang",
+        "Xu, Mingxing",
+        "Wang, Ling",
+        "Li, Ruijie",
+        "Wu, Xiao",
+        "Chang, Chaoying"
+      ],
+      "short_names": [
+        "Feng Y",
+        "Qian R",
+        "Cui D",
+        "Luan J",
+        "Xu M",
+        "Wang L",
+        "Li R",
+        "Wu X",
+        "Chang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Clinical Laboratory, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China. cuidong820620@yeah.net.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Clinical Laboratory, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Medical Oncology, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+        "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Yu",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China.",
+          "Department of Clinical Laboratory, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qian, Rulin",
+        "short_name": "Qian R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cui, Dong",
+        "short_name": "Cui D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China. cuidong820620@yeah.net."
+        ]
+      },
+      {
+        "full_name": "Luan, Jiaqiang",
+        "short_name": "Luan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Mingxing",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ling",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruijie",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Henan Provincial Chest Hospital, Zhengzhou University, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiao",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chang, Chaoying",
+        "short_name": "Chang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Henan Provincial Chest Hospital, Zhengzhou University, No. 1 Weiwu Road, Zhengzhou, 450000, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cancer research and clinical oncology"
+    ],
+    "journal_abbrev": [
+      "J Cancer Res Clin Oncol"
+    ],
+    "pub_date": "2024 Jun 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/20 12:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42394706",
+      "41234577",
+      "40605005"
+    ],
+    "refs": [
+      "37743495",
+      "37040401",
+      "36810079",
+      "36375372",
+      "35752404",
+      "35361963",
+      "35332311",
+      "34583722",
+      "32774167",
+      "32768595",
+      "32061310",
+      "31775562",
+      "31582719",
+      "31378236",
+      "31289209",
+      "30804430",
+      "30653256",
+      "30577483",
+      "30538286",
+      "30381462",
+      "30341162",
+      "30255744",
+      "29125602",
+      "26734571",
+      "26404825",
+      "26080815",
+      "26067754",
+      "25629808",
+      "25079552",
+      "24532726",
+      "24343302",
+      "24157709",
+      "23863845",
+      "23268595",
+      "23033253",
+      "22713868",
+      "22455463",
+      "22265415",
+      "20332115",
+      "17363498"
+    ],
+    "similar": [
+      "38900156",
+      "23752190",
+      "33144694",
+      "23737966",
+      "30126368",
+      "19342368",
+      "39164746",
+      "16878157",
+      "24554706",
+      "38844957",
+      "24630396",
+      "32768595",
+      "30578766",
+      "24487586",
+      "28368395",
+      "26497680",
+      "34359836",
+      "25468811",
+      "27517620",
+      "24568510",
+      "26469831",
+      "33310890",
+      "31366730",
+      "32034480",
+      "30562757",
+      "24677579",
+      "31455383",
+      "34635074",
+      "24782306",
+      "31582719",
+      "31148594",
+      "26780934",
+      "18343367",
+      "25069832",
+      "33314730",
+      "22796473",
+      "24714748",
+      "28610954",
+      "32927274",
+      "34812534",
+      "24374933",
+      "31835537",
+      "32878637",
+      "33980247",
+      "28499267",
+      "23995788",
+      "24934917",
+      "36376931",
+      "31067569",
+      "27630122",
+      "31539077",
+      "31391338",
+      "28596680",
+      "32743759",
+      "28887320",
+      "33356494",
+      "17636407",
+      "35396567",
+      "28838393",
+      "33956533",
+      "26171916",
+      "26910472",
+      "37672936",
+      "26899019",
+      "26819207",
+      "23880140",
+      "31661871",
+      "31894331",
+      "22114072",
+      "35702826",
+      "30048458",
+      "28629431",
+      "31037155",
+      "32215176",
+      "11677115",
+      "29969588",
+      "34031188",
+      "27132513",
+      "33370709",
+      "34848535",
+      "24687952",
+      "24038464",
+      "29885057",
+      "28628120",
+      "32985124",
+      "27880943",
+      "31228622",
+      "9405290",
+      "30755230",
+      "30279729",
+      "28285689",
+      "38671369",
+      "25547174",
+      "37019300",
+      "30180862",
+      "38067138",
+      "32299384",
+      "34010493",
+      "26477306",
+      "30867818"
+    ],
+    "review": [
+      "38900156",
+      "32299384"
+    ],
+    "pmc": [
+      "11189974"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38900156/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38900156/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00432-024-05778-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38900156",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38900156",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-62",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

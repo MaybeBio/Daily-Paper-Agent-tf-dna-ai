@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods summary, results, discussion, conclusion) as provided by the user. Supplementary information referenced but not supplied.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report that Yohimbine (Yh) binds to GC and AT hairpin duplex oligonucleotides via a groove-binding mode, with binding affinities on the order of 10^5 M^-1, exothermic and entropy-driven thermodynamics, and a dominant non-polyelectrolytic contribution to the binding free energy. The binding mode is supported by multiple spectroscopic assays and molecular docking.
+- **Visible evidence base** Abstract, Introduction, Materials and methods (summary), Results and discussion sections for UV-Vis, steady-state fluorescence, temperature-dependent fluorescence, salt-dependent fluorescence, KI quenching, urea denaturation, competitive dye displacement, CD spectroscopy, and molecular docking. Tables 1-4 and Figures 2-12 are referenced but not all are visible in the supplied text.
+- **Missing materials affecting confidence** Full methods details (referenced as Supplementary Information S1), actual figures and tables (only referenced by number), raw data, error bars, replicate information, and docking output details (e.g., RMSD values, docking scores beyond binding energy). These omissions limit quantitative verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in DNA-ligand interactions, specifically the binding mode of a natural alkaloid to model hairpin duplexes. The combination of spectroscopic and computational methods is appropriate in principle. However, the presented evidence is largely qualitative, with several internal inconsistencies and missing quantitative details that prevent the core claims from being fully established. The conclusion that Yh binds via groove binding is plausible but not rigorously proven from the data as described.
+- **Who would be interested in the results, and why** Researchers in nucleic acid chemistry, drug discovery, and biophysical chemistry, particularly those interested in natural product-DNA interactions and the development of DNA-targeted therapeutics. The work may also be of interest to computational chemists studying docking-based binding mode prediction.
+- **Major strengths** The study employs a multi-technique approach, which is commendable for cross-validation. The use of complementary assays (KI quenching, urea denaturation, dye displacement, CD) to probe binding mode is a reasonable strategy. The inclusion of molecular docking provides a structural hypothesis. The work addresses a relatively understudied compound (Yohimbine) in the context of DNA binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and quantitative support
+  - **Claim pointer** The manuscript claims binding affinities of 2.1 x 10^5 M^-1 and 2.3 x 10^5 M^-1 for GC and AT hairpin duplexes, respectively, derived from Scatchard analysis with McGhee-von Hippel non-cooperative binding model.
+  - **Evidence pointer** Results and discussion, "Steady-state spectroscopy study" section; Table 1 (referenced); Figure 3 inset (referenced)
+  - **Concern** The binding constants are reported without error estimates, replicate numbers, or goodness-of-fit parameters. The Scatchard plot is described as "non-linear" but the analysis method and the quality of the fit are not described. The McGhee-von Hippel model requires knowledge of the binding site size, which is not stated. The reported "n" value of 2.1 is ambiguous; it is unclear whether this is the number of binding sites per duplex or the binding site size in base pairs.
+  - **Why it matters** The binding affinity is a central quantitative claim of the manuscript. Without error bars, replicates, and clear model fitting details, the reader cannot assess the reliability or significance of the reported values. The ambiguity in "n" undermines the interpretation of stoichiometry.
+  - **Resolution test** Provide replicate measurements with standard deviations, describe the fitting procedure in detail, state the binding site size used in the McGhee-von Hippel analysis, and clarify the meaning of "n" with appropriate statistical support.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency and thermodynamic interpretation
+  - **Claim pointer** The manuscript states that the binding is exothermic with positive entropy and negative enthalpy, and that the process is entropy-driven. It also claims that non-polyelectrolytic forces dominate the interaction.
+  - **Evidence pointer** Results and discussion, "Fluorescence Spectral Study (Temperature-Dependent)" and "Fluorescence Spectral Study (Salt-Dependent)" sections; Tables 2, 3, and 4 (referenced)
+  - **Concern** The thermodynamic parameters are reported as ΔH° = -6.86 kJ/mol and -7.9 kJ/mol, and ΔS° = 79.08 J/mol·K and 76.15 J/mol·K for GC and AT, respectively. These values are stated without error estimates. The interpretation of "entropy-driven" is questionable given the small magnitude of the enthalpy change; the relative contributions of enthalpy and entropy to the free energy are not quantitatively discussed. Furthermore, the salt-dependent data are used to claim a dominant non-polyelectrolytic contribution, but the actual calculated values of ΔG°_pe and ΔG°_t are only partially reported, and the methodology for partitioning the free energy is not described. The claim that non-polyelectrolytic forces dominate is not supported by a clear quantitative comparison.
+  - **Why it matters** The thermodynamic characterization is a key part of the manuscript's contribution. Inconsistent or poorly supported thermodynamic claims weaken the overall argument. The partitioning of free energy into polyelectrolytic and non-polyelectrolytic components requires a rigorous framework (e.g., Manning's counterion condensation theory) and clear presentation of the calculated values.
+  - **Resolution test** Provide error estimates for all thermodynamic parameters. Present a quantitative comparison of the enthalpy and entropy contributions to the free energy. Describe the method for calculating ΔG°_pe and ΔG°_t in detail, and show the full values for both components at all salt concentrations tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for binding mode conclusion
+  - **Claim pointer** The manuscript concludes that Yh binds via groove binding based on KI quenching, urea denaturation, dye displacement, and CD spectroscopy.
+  - **Evidence pointer** Results and discussion, "Potassium iodide (KI) quenching assay", "Urea-induced denaturation study", "Competitive drug displacement assay", and "CD Spectral study" sections; Figures 7, 8, 9, and 10 (referenced)
+  - **Concern** The KI quenching results show only a modest difference in K_sv values between free Yh and Yh-DNA complexes (1.3 x 10^3 vs. 1.02-1.05 x 10^3 M^-1). This difference is small and may not be statistically significant, yet it is used to support groove binding. The urea denaturation study is described as showing "no noticeable difference" in fluorescence intensity, which is a negative result and not a strong positive indicator of groove binding. The dye displacement assay shows a decrease in fluorescence for rhodamine B but not for ethidium bromide, which is consistent with groove binding, but the magnitude of the effect and the concentrations used are not reported. The CD spectra are described as showing "minor perturbation," which is again a weak qualitative statement. None of these assays individually or collectively provide strong, quantitative evidence for groove binding over other modes.
+  - **Why it matters** The binding mode is the central conclusion of the manuscript. The evidence presented is largely qualitative and lacks statistical rigor. A definitive assignment of groove binding requires more discriminating experiments or quantitative analysis.
+  - **Resolution test** Provide statistical analysis of the K_sv differences. Quantify the fluorescence changes in the dye displacement assay with appropriate controls. Show the CD spectra with clear labeling of wavelength shifts and magnitude changes. Consider additional experiments (e.g., competitive binding with a known groove binder, viscosity measurements, or molecular dynamics simulations) to strengthen the binding mode assignment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational validation
+  - **Claim pointer** The molecular docking analysis reports binding energies of -9.35 kcal/mol and -9.89 kcal/mol for GC and AT hairpin duplexes, respectively, and identifies hydrogen bonding interactions.
+  - **Evidence pointer** Results and discussion, "Molecular modeling studies" section; Figures 11 and 12 (referenced)
+  - **Concern** The docking results are presented without validation. No RMSD values, docking score comparisons with known binders, or re-docking validation are provided. The binding energies are reported as single values without any indication of the range of poses or the confidence in the docking prediction. The hydrogen bond distances are reported (2.106 Å and 1.77 Å) but the chemical context is unclear; the manuscript states the "carboxylate component of Yh" forms a hydrogen bond, but Yohimbine does not contain a carboxylate group. This is a significant error that undermines the credibility of the docking analysis.
+  - **Why it matters** The docking results are used to support the experimental findings. Without validation and with a clear chemical error, the computational evidence is unreliable and cannot be used to corroborate the binding mode.
+  - **Resolution test** Correct the chemical description of Yh. Provide validation of the docking protocol (e.g., re-docking with known RMSD, comparison with experimental binding affinities). Report the range of docking scores and the number of poses considered. Clarify the specific atoms involved in hydrogen bonding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and methods section
+  - **Evidence pointer** "Materials and methods" section; Supplementary Information S1 (referenced)
+  - **Issue** The methods section is a summary, with full details relegated to Supplementary Information. Key experimental parameters such as excitation/emission wavelengths, slit widths, temperature control precision, and data analysis software are not provided in the main text.
+  - **Required correction** Include essential experimental parameters in the main text or ensure the Supplementary Information is accessible and clearly referenced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Tables and figures
+  - **Evidence pointer** Tables 1-4 and Figures 2-12 (referenced)
+  - **Issue** The tables and figures are referenced but not shown in the provided text. It is unclear whether the data in the tables include error bars, replicates, or statistical tests. The figures are described qualitatively.
+  - **Required correction** Ensure all tables include error estimates and sample sizes. Provide figure captions that clearly describe the data and any statistical analyses performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Steady-state spectroscopy study" section
+  - **Evidence pointer** Results and discussion, "Steady-state spectroscopy study" section
+  - **Issue** The term "steady-state spectroscopy" is used, but the section describes fluorescence quenching experiments. The term is imprecise and could be confused with other steady-state techniques.
+  - **Required correction** Use more specific terminology, such as "fluorescence quenching study" or "steady-state fluorescence titration."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction claims this is the first comprehensive study of Yh-DNA interactions, but no systematic literature search is presented to support this claim. Related studies on similar alkaloids are not discussed in detail.
+  - **Required correction** Provide a more thorough literature review to substantiate the novelty claim and contextualize the work within the broader field.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data), R1-M2 (thermodynamic consistency), R1-M3 (binding mode evidence), R1-M4 (docking validation and chemical accuracy).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of a multi-technique approach to Yohimbine-DNA interactions is somewhat novel, but the methods are standard and the conclusions are not surprising. The claim of "first comprehensive study" is not fully substantiated.
+  - **Scientific importance** Limited. The findings are incremental and do not fundamentally advance understanding of DNA-ligand interactions or drug design. The biological relevance of the observed binding is not discussed.
+  - **Interdisciplinary readership** The topic is of interest to biophysical chemists and drug discovery researchers, but the narrow scope and lack of broader implications limit its appeal to a wide interdisciplinary audience.
+  - **Technical soundness** The experimental design is reasonable in principle, but the lack of quantitative rigor, error analysis, and validation of computational results significantly weakens the technical soundness.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains jargon and lacks clear explanations of the significance of the findings for a broader audience. The figures and tables are not self-explanatory.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and uses appropriate techniques, but the quantitative support for the central claims is insufficient. Major revisions are required to address the concerns outlined above, particularly regarding binding affinity measurements, thermodynamic analysis, binding mode evidence, and docking validation. If these issues are resolved, the work could be suitable for a specialized journal, but it is unlikely to meet the high-impact, broad-interest criteria of Nature.
+
+## Risk / unsupported claims
+- The claim that Yh binds with "2:1 stoichiometry" is unsupported. The "n" value of 2.1 is ambiguous and not clearly linked to stoichiometry.
+- The claim that non-polyelectrolytic forces dominate the binding is not quantitatively supported. The partitioning of free energy is not fully described.
+- The claim that the binding is "entropy-driven" is weakly supported given the small enthalpy values and lack of error analysis.
+- The docking results are unreliable due to the chemical error (carboxylate group in Yh) and lack of validation.
+- The claim of "first comprehensive study" is not substantiated by a thorough literature review.
+- The biological significance of the binding and its potential therapeutic implications are stated but not experimentally addressed.

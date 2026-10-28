@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2604.05774v1",
+  "title": "GenomeQA: Benchmarking General Large Language Models for Genome Sequence Understanding",
+  "doi": "",
+  "abstract": "Large Language Models (LLMs) are increasingly adopted as conversational assistants in genomics, where they are mainly used to reason over biological knowledge, annotations, and analysis outputs through natural language interfaces. However, existing benchmarks either focus on specialized DNA models trained for sequence prediction or evaluate biological knowledge using text-only questions, leaving the behavior of general-purpose LLMs when directly exposed to raw genome sequences underexplored. We introduce GenomeQA, a benchmark designed to provide a controlled evaluation setting for general-purpose LLMs on sequence-based genome inference tasks. GenomeQA comprises 5,200 samples drawn from multiple biological databases, with sequence lengths ranging from 6 to 1,000 base pairs (bp), spanning six task families: Enhancer and Promoter Identification, Splice Site Identification, Taxonomic Classification, Histone Mark Prediction, Transcription Factor Binding Site Prediction, and TF Motif Prediction. Across six frontier LLMs, we find that models consistently outperform random baselines and can exploit local sequence signals such as GC content and short motifs, while performance degrades on tasks that require more indirect or multi-step inference over sequence patterns. GenomeQA establishes a diagnostic benchmark for studying and improving the use of general-purpose LLMs on raw genomic sequences.",
+  "authors": [
+    "Weicai Long",
+    "Yusen Hou",
+    "Junning Feng",
+    "Houcheng Su",
+    "Shuo Yang",
+    "Donglin Xie",
+    "Yanlin Zhang"
+  ],
+  "published_date": "2026-04-07T12:14:20Z",
+  "updated_date": "2026-04-07T12:14:20Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.CL",
+  "landing_url": "https://arxiv.org/abs/2604.05774v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.05774v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN",
+    "cs.CL"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2604.05774v1",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.CL"
+    ],
+    "journal_ref": ""
+  }
+}

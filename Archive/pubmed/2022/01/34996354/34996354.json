@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "34996354",
+    "doi": "10.1186/s12864-021-08234-5",
+    "title": "Computational modeling of chromatin accessibility identified important epigenomic regulators."
+  },
+  "content": {
+    "abstract": "Chromatin accessibility is essential for transcriptional activation of genomic regions. It is well established that transcription factors (TFs) and histone modifications (HMs) play critical roles in chromatin accessibility regulation. However, there is a lack of studies that quantify these relationships. Here we constructed a two-layer model to predict chromatin accessibility by integrating DNA sequence, TF binding, and HM signals. By applying the model to two human cell lines (GM12878 and HepG2), we found that DNA sequences had limited power for accessibility prediction, while both TF binding and HM signals predicted chromatin accessibility with high accuracy. According to the HM model, HM features determined chromatin accessibility in a cell line shared manner, with the prediction power attributing to five core HM types. Results from the TF model indicated that chromatin accessibility was determined by a subset of informative TFs including both cell line-specific and generic TFs. The combined model of both TF and HM signals did not further improve the prediction accuracy, indicating that they provide redundant information in terms of chromatin accessibility prediction. The TFs and HM models can also distinguish the chromatin accessibility of proximal versus distal transcription start sites with high accuracy.",
+    "keywords": [
+      "Chromatin accessibility",
+      "ENCODE",
+      "Histone modifications",
+      "Machine learning",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Chromatin/genetics",
+      "Chromatin Immunoprecipitation",
+      "Computer Simulation",
+      "*Epigenomics",
+      "Humans",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yanding",
+        "Dong, Yadong",
+        "Hong, Wei",
+        "Jiang, Chongming",
+        "Yao, Kevin",
+        "Cheng, Chao"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Dong Y",
+        "Hong W",
+        "Jiang C",
+        "Yao K",
+        "Cheng C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+        "Department of Electrical and Computer Engineering, Texas A&M University, College Station, TX, 77843, USA.",
+        "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA. chao.cheng@bcm.edu.",
+        "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA. chao.cheng@bcm.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yanding",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+          "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, Yadong",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+          "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Wei",
+        "short_name": "Hong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+          "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chongming",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA.",
+          "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Yao, Kevin",
+        "short_name": "Yao K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Texas A&M University, College Station, TX, 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Chao",
+        "short_name": "Cheng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA. chao.cheng@bcm.edu.",
+          "The Institute for Clinical and Translational Research, Baylor College of Medicine, Room ICTR 100D, One Baylor Plaza, Baylor College of Medicine, Houston, TX, 77030, USA. chao.cheng@bcm.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2022 Jan 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/09 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "42041409",
+      "41757800",
+      "40777328",
+      "36325618"
+    ],
+    "refs": [
+      "38410680",
+      "34766130",
+      "33480184",
+      "33230473",
+      "33137190",
+      "32907840",
+      "32864100",
+      "32119833",
+      "31794382",
+      "31701148",
+      "31605096",
+      "31510655",
+      "31427911",
+      "31200754",
+      "31133750",
+      "31011690",
+      "30948010",
+      "30760518",
+      "30675018",
+      "30598100",
+      "29725406",
+      "29519871",
+      "29503092",
+      "29224777",
+      "29069282",
+      "28536180",
+      "27346641",
+      "27079975",
+      "26747248",
+      "26330523",
+      "26301843",
+      "26075791",
+      "25765347",
+      "25561719",
+      "25495456",
+      "25473421",
+      "25149140",
+      "24812630",
+      "23614038",
+      "22955617",
+      "22955616",
+      "22183607",
+      "21926158",
+      "21330290",
+      "21321607",
+      "20435884",
+      "20347819",
+      "20150147",
+      "19355820",
+      "18663475",
+      "17970695",
+      "17567990",
+      "17179217",
+      "14172992",
+      "12520026",
+      "10638745",
+      "3416976",
+      "2249772"
+    ],
+    "similar": [
+      "34996354",
+      "29326300",
+      "28750606",
+      "30598100",
+      "22955984",
+      "26818008",
+      "25957350",
+      "26291518",
+      "26590261",
+      "35681170",
+      "25433490",
+      "22954627",
+      "32029002",
+      "37486787",
+      "25489339",
+      "25319995",
+      "27899623",
+      "38940155",
+      "30567711",
+      "30967126",
+      "35293310",
+      "23527292",
+      "25231769",
+      "30853548",
+      "22955978",
+      "31114856",
+      "22955990",
+      "34174819",
+      "28334916",
+      "30598689",
+      "19956545",
+      "21926158",
+      "32574834",
+      "19487031",
+      "31723409",
+      "26868017",
+      "22300769",
+      "38600550",
+      "34544361",
+      "24339764",
+      "31639474",
+      "31406384",
+      "22863112",
+      "31038680",
+      "29970004",
+      "34488759",
+      "36484687",
+      "36360189",
+      "36797258",
+      "35609992",
+      "20838582",
+      "30580963",
+      "38422958",
+      "27625394",
+      "24603674",
+      "28576882",
+      "31006511",
+      "35456374",
+      "39316943",
+      "32858223",
+      "24236298",
+      "36208178",
+      "31742324",
+      "21473766",
+      "32424069",
+      "38236718",
+      "34386808",
+      "28118358",
+      "33372147",
+      "20098497",
+      "33857234",
+      "21304941",
+      "32660981",
+      "24039567",
+      "32615918",
+      "23748248",
+      "32664951",
+      "29579165",
+      "27492288",
+      "24918633",
+      "36040971",
+      "26245832",
+      "25373146",
+      "23554463",
+      "29325176",
+      "22537144",
+      "25486472",
+      "35263332",
+      "22479205",
+      "27490187",
+      "27456004",
+      "31672653",
+      "24465194",
+      "38354497",
+      "19158363",
+      "24253304",
+      "20663846",
+      "33635929",
+      "38836027",
+      "37144127",
+      "38853998",
+      "36243974",
+      "26246865",
+      "39026761",
+      "37007588"
+    ],
+    "review": [
+      "34996354",
+      "31639474",
+      "36208178",
+      "31742324",
+      "29579165"
+    ],
+    "pmc": [
+      "8742372"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-08234-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34996354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34996354",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

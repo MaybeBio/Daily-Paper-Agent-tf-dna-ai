@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "38664566",
+    "doi": "10.1038/s41594-024-01290-x",
+    "title": "ISWI catalyzes nucleosome sliding in condensed nucleosome arrays."
+  },
+  "content": {
+    "abstract": "How chromatin enzymes work in condensed chromatin and how they maintain diffusional mobility inside remains unexplored. Here we investigated these challenges using the Drosophila ISWI remodeling ATPase, which slides nucleosomes along DNA. Folding of chromatin fibers did not affect sliding in vitro. Catalytic rates were also comparable in- and outside of chromatin condensates. ISWI cross-links and thereby stiffens condensates, except when ATP hydrolysis is possible. Active hydrolysis is also required for ISWI's mobility in condensates. Energy from ATP hydrolysis therefore fuels ISWI's diffusion through chromatin and prevents ISWI from cross-linking chromatin. Molecular dynamics simulations of a 'monkey-bar' model in which ISWI grabs onto neighboring nucleosomes, then withdraws from one before rebinding another in an ATP hydrolysis-dependent manner, qualitatively agree with our data. We speculate that monkey-bar mechanisms could be shared with other chromatin factors and that changes in chromatin dynamics caused by mutations in remodelers could contribute to pathologies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/metabolism/chemistry",
+      "Animals",
+      "*Adenosine Triphosphatases/metabolism/chemistry/genetics",
+      "*Molecular Dynamics Simulation",
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "Chromatin Assembly and Disassembly",
+      "Adenosine Triphosphate/metabolism",
+      "Drosophila melanogaster/metabolism/genetics",
+      "Hydrolysis",
+      "Drosophila Proteins/metabolism/chemistry/genetics",
+      "DNA/metabolism/chemistry",
+      "Chromatin/metabolism/chemistry",
+      "Drosophila/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vizjak, Petra",
+        "Kamp, Dieter",
+        "Hepp, Nicola",
+        "Scacchetti, Alessandro",
+        "Gonzalez Pisfil, Mariano",
+        "Bartho, Joseph",
+        "Halic, Mario",
+        "Becker, Peter B",
+        "Smolle, Michaela",
+        "Stigler, Johannes",
+        "Mueller-Planitz, Felix"
+      ],
+      "short_names": [
+        "Vizjak P",
+        "Kamp D",
+        "Hepp N",
+        "Scacchetti A",
+        "Gonzalez Pisfil M",
+        "Bartho J",
+        "Halic M",
+        "Becker PB",
+        "Smolle M",
+        "Stigler J",
+        "Mueller-Planitz F"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-4528-6499",
+        "ORCID: 0000-0002-5588-5358",
+        "ORCID: 0000-0002-0254-3717",
+        "ORCID: 0000-0002-5008-8763",
+        "ORCID: 0000-0002-0061-7372",
+        "ORCID: 0000-0001-7186-0372",
+        "ORCID: 0000-0001-8900-1541",
+        "ORCID: 0000-0003-2472-5332",
+        "ORCID: 0000-0001-8273-6473"
+      ],
+      "affiliations": [
+        "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universitat Dresden, Dresden, Germany.",
+        "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "Early Stage Bioprocess Development, Boehringer Ingelheim Pharma GmbH & Co. KG, Biberach an der Riss, Germany.",
+        "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universitat Dresden, Dresden, Germany.",
+        "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "Department of Clinical Genetics, Rigshospitalet, Copenhagen University Hospital, Copenhagen, Denmark.",
+        "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "Epigenetics Institute and Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Core Facility Bioimaging and Walter-Brendel-Centre of Experimental Medicine, Biomedical Center, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "Department of Physiological Chemistry, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "BioPhysics Core Facility, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universitat Munchen, Planegg-Martinsried, Germany.",
+        "ViraTherapeutics GmbH, Rum, Austria.",
+        "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany. stigler@genzentrum.lmu.de.",
+        "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universitat Dresden, Dresden, Germany. felix.mueller-planitz@tu-dresden.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vizjak, Petra",
+        "short_name": "Vizjak P",
+        "identifiers": [
+          "0009-0009-4528-6499"
+        ],
+        "affiliations": [
+          "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany.",
+          "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany.",
+          "Early Stage Bioprocess Development, Boehringer Ingelheim Pharma GmbH & Co. KG, Biberach an der Riss, Germany."
+        ]
+      },
+      {
+        "full_name": "Kamp, Dieter",
+        "short_name": "Kamp D",
+        "identifiers": [
+          "0000-0002-5588-5358"
+        ],
+        "affiliations": [
+          "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Hepp, Nicola",
+        "short_name": "Hepp N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany.",
+          "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany.",
+          "Department of Clinical Genetics, Rigshospitalet, Copenhagen University Hospital, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Scacchetti, Alessandro",
+        "short_name": "Scacchetti A",
+        "identifiers": [
+          "0000-0002-0254-3717"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany.",
+          "Epigenetics Institute and Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez Pisfil, Mariano",
+        "short_name": "Gonzalez Pisfil M",
+        "identifiers": [
+          "0000-0002-5008-8763"
+        ],
+        "affiliations": [
+          "Core Facility Bioimaging and Walter-Brendel-Centre of Experimental Medicine, Biomedical Center, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Bartho, Joseph",
+        "short_name": "Bartho J",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Halic, Mario",
+        "short_name": "Halic M",
+        "identifiers": [
+          "0000-0002-0061-7372"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Becker, Peter B",
+        "short_name": "Becker PB",
+        "identifiers": [
+          "0000-0001-7186-0372"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Smolle, Michaela",
+        "short_name": "Smolle M",
+        "identifiers": [
+          "0000-0001-8900-1541"
+        ],
+        "affiliations": [
+          "Department of Physiological Chemistry, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany.",
+          "BioPhysics Core Facility, Biomedical Center, Faculty of Medicine, Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany.",
+          "ViraTherapeutics GmbH, Rum, Austria."
+        ]
+      },
+      {
+        "full_name": "Stigler, Johannes",
+        "short_name": "Stigler J",
+        "identifiers": [
+          "0000-0003-2472-5332"
+        ],
+        "affiliations": [
+          "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany. stigler@genzentrum.lmu.de."
+        ]
+      },
+      {
+        "full_name": "Mueller-Planitz, Felix",
+        "short_name": "Mueller-Planitz F",
+        "identifiers": [
+          "0000-0001-8273-6473"
+        ],
+        "affiliations": [
+          "Institute of Physiological Chemistry, Faculty of Medicine Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany. felix.mueller-planitz@tu-dresden.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/26 00:52",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42317538",
+      "42174182",
+      "41037607",
+      "41020717",
+      "39757199",
+      "39314305"
+    ],
+    "refs": [
+      "38177688",
+      "37094140",
+      "36526633",
+      "36444977",
+      "35922507",
+      "35907400",
+      "35901134",
+      "34717733",
+      "34526716",
+      "34313223",
+      "34313222",
+      "34035521",
+      "33640380",
+      "33639738",
+      "33326747",
+      "33219211",
+      "33058778",
+      "32958761",
+      "32805219",
+      "32763226",
+      "32719551",
+      "32101700",
+      "31543265",
+      "30088474",
+      "29971727",
+      "29961577",
+      "29901776",
+      "29898402",
+      "29664398",
+      "29644850",
+      "29628210",
+      "29395785",
+      "29358072",
+      "29323272",
+      "28801535",
+      "28767641",
+      "28751582",
+      "28428255",
+      "27072995",
+      "27003292",
+      "26248702",
+      "26119342",
+      "25768910",
+      "25684208",
+      "25563347",
+      "25090252",
+      "24516652",
+      "24113208",
+      "23374341",
+      "23246002",
+      "23202585",
+      "22743772",
+      "21525927",
+      "20974961",
+      "20822486",
+      "20033040",
+      "19701201",
+      "19254554",
+      "18790853",
+      "18485363",
+      "18075583",
+      "17981902",
+      "17309839",
+      "16387760",
+      "16369541",
+      "16001076",
+      "15833917",
+      "14607115",
+      "14536084",
+      "14507678",
+      "12947417",
+      "11154274",
+      "10779516",
+      "10692345",
+      "10399912",
+      "10078206",
+      "10029546",
+      "9475737",
+      "7171729",
+      "4128918",
+      "1064861"
+    ],
+    "similar": [
+      "38664566",
+      "38106060",
+      "23143334",
+      "23202585",
+      "40982624",
+      "26116984",
+      "40179160",
+      "18922045",
+      "41067406",
+      "24113208",
+      "18535655",
+      "22124157",
+      "11809876",
+      "19380479",
+      "24898734",
+      "28801535",
+      "24516652",
+      "10078206",
+      "24898619",
+      "28104838",
+      "19995906",
+      "33576335",
+      "23005680",
+      "20833099",
+      "19940112",
+      "26248702",
+      "25733687",
+      "15262970",
+      "23374341",
+      "28982979",
+      "10399913",
+      "20194965",
+      "22426536",
+      "24561830",
+      "17760996",
+      "16909894",
+      "15643425",
+      "31402386",
+      "31094676",
+      "34313222",
+      "11154274",
+      "23795465",
+      "21448136",
+      "9230310",
+      "31269447",
+      "12612068",
+      "24008565",
+      "10385622",
+      "11683384",
+      "19595716",
+      "21616185",
+      "15457208",
+      "10944116",
+      "31819269",
+      "33403747",
+      "41037607",
+      "30395604",
+      "14636590",
+      "21810179",
+      "24606212",
+      "20974961",
+      "28533432",
+      "16606615",
+      "16025127",
+      "11420723",
+      "24126763",
+      "21810178",
+      "16094444",
+      "39704949",
+      "21704204",
+      "14975295",
+      "20060707",
+      "29395785",
+      "17717186",
+      "14752009",
+      "12192415",
+      "28767641",
+      "29971727",
+      "27391925",
+      "18250149",
+      "19567737",
+      "30867599",
+      "23161016",
+      "21812931",
+      "14635254",
+      "10399912",
+      "24414837",
+      "9252192",
+      "23334290",
+      "18786525",
+      "21637796",
+      "20421732",
+      "25407555",
+      "27046080",
+      "11741543",
+      "11163188",
+      "36113480",
+      "21738833",
+      "33174727",
+      "37408183"
+    ],
+    "review": [
+      "38664566",
+      "20833099",
+      "24561830",
+      "16909894",
+      "24008565",
+      "11683384",
+      "21616185",
+      "21810179",
+      "11420723",
+      "21810178",
+      "16094444",
+      "21704204",
+      "14975295",
+      "20060707",
+      "27391925",
+      "21812931",
+      "14635254"
+    ],
+    "pmc": [
+      "7618249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=38664566",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41594-024-01290-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38664566/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "42227336",
+    "doi": "10.1093/nar/gkag549",
+    "title": "MDNA : a software module for DNA structure generation and analysis."
+  },
+  "content": {
+    "abstract": "Exploring the dynamical and structural properties of molecular complexes involving DNA is a fundamentally important aspect of understanding many biological processes. Although tools exist for modeling linear DNA and simple complexes, significant challenges remain in generating intricate biomolecular assemblies and incorporating biologically relevant modifications. These limitations restrict the ability to create accurate starting configurations for advanced molecular simulation studies. Here, we introduce MDNA, a molecular modeling toolkit that bridges these gaps by enabling the construction and analysis of complex DNA structures. MDNA provides a versatile solution to generate DNA shapes using a spline-based mapping technique that enables the construction of DNA configurations with arbitrary shapes. Key features include support for (non-)canonical base modifications, such as Watson-Crick-Franklin to Hoogsteen transitions, DNA methylation, and the ability to refine structures using Monte Carlo minimization. The toolkit also provides geometric analysis tools based on rigid body formalism to evaluate DNA structures and trajectories. Together, these features enable users to model and analyze DNA configurations in high detail with a modular Python interface. By integrating structure generation and analysis into a single workflow, MDNA facilitates the study of DNA-protein interactions, supporting new insights into DNA dynamics and molecular simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry",
+      "*Software",
+      "*Nucleic Acid Conformation",
+      "Molecular Dynamics Simulation",
+      "Monte Carlo Method",
+      "DNA Methylation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "van Heesch, Thor",
+        "Skoruppa, Enrico",
+        "Bolhuis, Peter G",
+        "Schiessel, Helmut",
+        "Vreede, Jocelyne"
+      ],
+      "short_names": [
+        "van Heesch T",
+        "Skoruppa E",
+        "Bolhuis PG",
+        "Schiessel H",
+        "Vreede J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5878-7422",
+        "ORCID: 0000-0003-3568-0272",
+        "ORCID: 0000-0002-3698-9258",
+        "ORCID: 0000-0001-5040-6488",
+        "ORCID: 0000-0002-6977-6603"
+      ],
+      "affiliations": [
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands.",
+        "Cluster of Excellence Physics of Life, TU Dresden, Helmholtzstr. 10, 01069 Dresden, Germany.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands.",
+        "Cluster of Excellence Physics of Life, TU Dresden, Helmholtzstr. 10, 01069 Dresden, Germany.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "van Heesch, Thor",
+        "short_name": "van Heesch T",
+        "identifiers": [
+          "0000-0001-5878-7422"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Skoruppa, Enrico",
+        "short_name": "Skoruppa E",
+        "identifiers": [
+          "0000-0003-3568-0272"
+        ],
+        "affiliations": [
+          "Cluster of Excellence Physics of Life, TU Dresden, Helmholtzstr. 10, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Bolhuis, Peter G",
+        "short_name": "Bolhuis PG",
+        "identifiers": [
+          "0000-0002-3698-9258"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schiessel, Helmut",
+        "short_name": "Schiessel H",
+        "identifiers": [
+          "0000-0001-5040-6488"
+        ],
+        "affiliations": [
+          "Cluster of Excellence Physics of Life, TU Dresden, Helmholtzstr. 10, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Vreede, Jocelyne",
+        "short_name": "Vreede J",
+        "identifiers": [
+          "0000-0002-6977-6603"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 12:46",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40347109",
+      "39468889",
+      "38718835",
+      "38452047",
+      "38030726",
+      "38011026",
+      "37953329",
+      "37932264",
+      "37774136",
+      "36742032",
+      "35668321",
+      "35341743",
+      "35030035",
+      "35013176",
+      "34265844",
+      "33956157",
+      "33300028",
+      "32962378",
+      "32939066",
+      "32902529",
+      "32734663",
+      "32442277",
+      "32232413",
+      "31506435",
+      "31301183",
+      "31114927",
+      "30845209",
+      "30792304",
+      "30767498",
+      "30336030",
+      "29064490",
+      "28949292",
+      "28746339",
+      "28595422",
+      "28180333",
+      "26949976",
+      "26604800",
+      "26583988",
+      "26488642",
+      "26093573",
+      "25838463",
+      "25732337",
+      "25662221",
+      "25355527",
+      "24805238",
+      "24283923",
+      "23685436",
+      "23506098",
+      "23368161",
+      "23146088",
+      "23039613",
+      "22889332",
+      "22781841",
+      "22660438",
+      "21361556",
+      "20632340",
+      "20145802",
+      "19789266",
+      "19625494",
+      "19474339",
+      "19417072",
+      "18600227",
+      "17677812",
+      "15452275",
+      "12930962",
+      "12079350",
+      "10966775",
+      "8744570",
+      "7875316",
+      "5767305"
+    ],
+    "similar": [
+      "42227336",
+      "23912807",
+      "42475469",
+      "42241776",
+      "16287814",
+      "21830782",
+      "30943891",
+      "8670616",
+      "27192827",
+      "35341743",
+      "8422353",
+      "33591181",
+      "8219740",
+      "23644419",
+      "8800475",
+      "30593679",
+      "39194135",
+      "31106363",
+      "1406320",
+      "10698101",
+      "22370965",
+      "33577557",
+      "38989613",
+      "34904892",
+      "26642982",
+      "30101346",
+      "32910644",
+      "35429155",
+      "42161574",
+      "27665602",
+      "19417072",
+      "26600167",
+      "28017738",
+      "28594167",
+      "40423839",
+      "28102461",
+      "31613092",
+      "10373369",
+      "15042433",
+      "38738621",
+      "33931885",
+      "25503688",
+      "30404229",
+      "28482032",
+      "7818504",
+      "30950607",
+      "34009383",
+      "40626554",
+      "42584949",
+      "30898165",
+      "25802084",
+      "14624611",
+      "21823822",
+      "27300587",
+      "41165252",
+      "32789613",
+      "30420522",
+      "23666816",
+      "26072475",
+      "28369571",
+      "1538391",
+      "7545446",
+      "31114927",
+      "35026703",
+      "11444368",
+      "35615897",
+      "35621307",
+      "32913127",
+      "23716644",
+      "9017213",
+      "34629032",
+      "27063730",
+      "8286053",
+      "41507775",
+      "8672466",
+      "24319979",
+      "18989907",
+      "39237564",
+      "22570416",
+      "15193317",
+      "41875330",
+      "39846243",
+      "35775742",
+      "37356910",
+      "41621783",
+      "25977296",
+      "29675775",
+      "28292714",
+      "28431131",
+      "30501194",
+      "26024667",
+      "34655449",
+      "41274550",
+      "29662229",
+      "40345379",
+      "8807829",
+      "26627654",
+      "16489208",
+      "23685436",
+      "26575522"
+    ],
+    "review": [
+      "42227336",
+      "21830782",
+      "33591181",
+      "8800475",
+      "39194135",
+      "1406320",
+      "30101346",
+      "28594167",
+      "40423839",
+      "30404229",
+      "15193317"
+    ],
+    "pmc": [
+      "13227108"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42227336/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag549",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

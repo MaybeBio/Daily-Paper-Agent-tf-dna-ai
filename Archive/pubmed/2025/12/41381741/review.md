@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Results, Discussion, Methods) as provided
+- **Assessment boundary** Scientific soundness, technical validity, and claims as supported by the provided evidence; no assessment of supplementary files, figures, or tables beyond what is described in text
+- **Shared manuscript claim summary** The authors trained 18 cell-class-specific gkm-SVM models on human retinal snATAC-seq data (plus one RPE ATAC-seq dataset), generated deltaSVM variant impact prediction (VIP) scores for 22,983 candidate CREs, validated these scores against two published massively parallel reporter assay (MPRA) datasets, and released a UCSC Genome Browser track hub ("csVISIONS") for querying predicted regulatory variant impacts across retinal cell classes.
+- **Visible evidence base** Text descriptions of Figures 1–5, Supplementary Figures S1–S4, Supplementary Tables S1–S2; methods descriptions for model training, motif identification, and MPRA comparisons; references to prior publications for datasets and methods
+- **Missing materials affecting confidence** Actual figures, supplementary files, and tables were not provided; exact numerical results (AUROC values, correlation coefficients beyond those stated) are only partially reported in text; code repository and data availability are referenced but not independently verified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a useful and well-motivated resource for cell-class-specific regulatory variant prioritization in the human retina. The core approach—training interpretable gkm-SVM models on snATAC-seq-defined cell classes and applying deltaSVM for variant effect prediction—is technically sound and represents a meaningful advance over bulk-tissue models. The validation against two independent MPRA datasets, including a single-cell resolved assay, is a notable strength. However, several technical details and validations are incompletely described in the provided text, and the manuscript would benefit from clearer reporting of model performance metrics, explicit handling of rare cell classes, and a more rigorous demonstration of added value over existing deep learning tools. The resource itself is likely to be of interest to the retinal genetics community.
+- **Who would be interested in the results, and why** Researchers studying inherited retinal disorders (IRDs), particularly those seeking to interpret non-coding variants in a cell-class-specific context; computational biologists working on regulatory genomics and variant effect prediction; clinicians and geneticists involved in diagnostic sequencing for retinal diseases; and developers of similar resources for other tissues.
+- **Major strengths** 1) The use of single-nucleus ATAC-seq data to train cell-class-specific models is a clear improvement over bulk-tissue approaches and directly addresses the heterogeneity of the retina. 2) The validation against two independent MPRA datasets, including a single-cell resolved assay, provides strong empirical support for the predictive utility of the models. 3) The public release of the csVISIONS track hub is a valuable community resource. 4) The interpretability of gkm-SVM models, as opposed to black-box deep learning approaches, is a practical advantage for hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation completeness
+  - **Claim pointer** "These correlations demonstrate the ability of these models to predict the impact of more complex variants beyond individual SNVs."
+  - **Evidence pointer** Figure 3D, E; text in Results section "Models predict CRE-directed expression changes in a class-specific manner"
+  - **Concern** The validation against the Zhao et al. MPRA data is described only qualitatively in the text. The authors state that VIP scores "mirror changes in expression" and report Pearson correlations for SNVs (0.575 for bipolar, 0.49 for rods, 0.072 for Müller glia), but the validation for deletions (Figure 3D, E) is described without any quantitative metric. The claim that the models predict the impact of "more complex variants beyond individual SNVs" (i.e., deletions) is therefore not quantitatively supported in the provided text.
+  - **Why it matters** The ability to score non-SNV variants (e.g., indels) is a distinct and important claim. Without a quantitative assessment (e.g., correlation coefficient, rank-based metric) for the deletion validation, the reader cannot evaluate the strength of this claim. This is particularly relevant given that the models were trained on k-mer features that may not fully capture the effects of larger structural variants.
+  - **Resolution test** Provide a quantitative comparison between VIP scores and MPRA-measured expression changes for the deletion constructs, including a correlation coefficient or equivalent metric, and report the number of deletions tested.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / model evaluation
+  - **Claim pointer** "All models performed extremely well, with Area Under the Curve (AUROC) values above 0.90 for each (Figure S1)."
+  - **Evidence pointer** Figure 1C; Supplementary Figure S1; Methods section "Model training"
+  - **Concern** The AUROC values are reported as "above 0.90" but the exact values, the range across the 18 models, and the standard deviations (if any) are not provided in the text. More critically, the AUROC is computed from five-fold cross-validation on the training data, which may overestimate performance due to potential redundancy in the peak sets (e.g., overlapping peaks from the same genomic loci). The authors do not describe any effort to control for this, such as chromosome-split validation or peak-level deduplication.
+  - **Why it matters** AUROC is a standard metric, but its interpretation depends on the validation scheme. If peaks from the same locus appear in both training and test folds, the reported accuracy may be inflated. This would undermine the claim of model accuracy and, by extension, the reliability of the VIP scores.
+  - **Resolution test** Report exact AUROC values with confidence intervals, and describe whether any steps were taken to avoid data leakage (e.g., splitting by chromosome or by genomic locus). If not, perform a chromosome-split validation and report those results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / added value
+  - **Claim pointer** "We provide additional evidence for this by comparing our gkmSVM/delta SVM approach to DeepSEA, a CNN-based approach."
+  - **Evidence pointer** Supplementary Figure S2C, D; Results section "Variant impact predictions identify critical sequence motifs"
+  - **Concern** The comparison to DeepSEA is limited to a single locus (the rhodopsin promoter) and reports Pearson correlations of 0.48 (rod model) and 0.29 (Müller glia) between VIP scores and DeepSEA predictions. This is a very narrow comparison and does not constitute a systematic benchmark. The authors do not compare across multiple loci, cell types, or variant types, nor do they assess whether the two methods agree on the direction of effect (enhancing vs. repressing). The claim of "additional evidence" for the value of the gkm-SVM approach is therefore overstated.
+  - **Why it matters** The manuscript positions the gkm-SVM approach as a competitive alternative to deep learning methods. A single-locus comparison is insufficient to support this claim. A more systematic comparison would strengthen the case for the utility of the resource and help users understand when to prefer one tool over another.
+  - **Resolution test** Expand the comparison to a larger set of loci (e.g., all validated MPRA variants) and report agreement metrics beyond Pearson correlation, such as concordance of predicted effect direction or rank-based metrics. If a full benchmark is not feasible, temper the claim accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / data quality
+  - **Claim pointer** "Rare cell classes with lower snATAC-seq coverage present a challenge. This sparsity of input features can potentially compromise the robustness and generalizability of the model's predictions."
+  - **Evidence pointer** Discussion section; Methods section "Training data"
+  - **Concern** The authors acknowledge the limitation of rare cell classes but do not provide any quantitative assessment of how model performance varies across cell classes with different numbers of nuclei or peak counts. It is unclear which of the 18 models are most and least reliable, and whether the validation against MPRA data was performed only for well-represented cell classes (e.g., rods, bipolar cells) or also for rare ones.
+  - **Why it matters** Users of the csVISIONS resource need to know which cell-class models are trustworthy. Without a per-cell-class performance summary, the resource may be used inappropriately for rare cell types where predictions are unreliable.
+  - **Resolution test** Provide a table or figure showing, for each of the 18 cell classes, the number of nuclei, number of peaks used for training, cross-validation AUROC, and (where applicable) validation performance against MPRA data. Discuss any cell classes where performance is notably lower.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section "Model training"
+  - **Evidence pointer** Methods section; code repository link
+  - **Issue** The hyperparameters for gkmtrain are listed (L = 11, k = 7, d = 3, C = 1, t = 2, e = 0.005), but the rationale for these choices is not provided. It is unclear whether these were selected based on prior work, a grid search, or heuristic.
+  - **Required correction** Briefly state the basis for hyperparameter selection, or note that they follow prior work (cite reference 35) and that no additional tuning was performed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / interpretation
+  - **Affected element** Results section "Variant impact predictions identify critical sequence motifs"
+  - **Evidence pointer** Figure 2A–F; text description
+  - **Issue** The text states that VIP scores for TF motif disruptions "reach their most negative impact near the center of the motif" for SOX2 and LHX2, but it is not clear whether this pattern is statistically significant or simply anecdotal. No error bars or confidence intervals are described for the line plots in Figure 2.
+  - **Required correction** Clarify whether the line plots represent mean values across all motif instances, and if so, include a measure of variance (e.g., standard error) or state that the plots are representative examples.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness / resource description
+  - **Affected element** Results section "A resource for cell-class-specific human retinal regulatory variant predictions"
+  - **Evidence pointer** Text description of csVISIONS; URL provided
+  - **Issue** The description of the csVISIONS resource is brief. It is not clear how many total variants are scored, whether scores are provided for all possible SNVs in the included CREs, or how users can download the underlying data (e.g., BED files, VCFs).
+  - **Required correction** Provide a brief description of the data format, the total number of scored variants, and instructions for downloading the full dataset, not just browsing via the UCSC track hub.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation / overstatement
+  - **Affected element** Results section "GWAS predictions narrow variant search windows"
+  - **Evidence pointer** Figure 5B, C; text description
+  - **Issue** The example of rs36212732 and rs36212733 in the ARMS2 intron is presented as a demonstration of the utility of VIP scores for prioritizing GWAS variants. However, the text states that "only rs36212733 has a predicted negative impact" without providing the actual VIP values or a comparison to the distribution of scores across all GWAS variants. This makes it difficult to assess how strong the predicted effect is.
+  - **Required correction** Report the specific VIP scores for these two variants and, ideally, the percentile rank of these scores within the full set of scored GWAS variants.
+- **Technical failings that need to be addressed before the case is established** 1) Quantitative validation for deletion variants (R1-M1) is missing. 2) Cross-validation methodology may be susceptible to data leakage (R1-M2). 3) The comparison to Deep Learning methods is too limited to support the stated claim (R1-M3). 4) Per-cell-class performance metrics are not reported (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The application of gkm-SVM to single-nucleus ATAC-seq data for cell-class-specific regulatory variant prediction in the retina is novel and represents a logical extension of prior bulk-tissue work. The csVISIONS resource is a new contribution. **Scientific importance:** The work addresses a real need in the IRD community, where non-coding variant interpretation remains a major bottleneck. The resource has clear potential utility. **Interdisciplinary readership:** The manuscript is likely to appeal to both computational biologists and retinal disease researchers, though the technical detail may be dense for the latter. **Technical soundness:** The core methodology is sound, but the validation gaps described above (deletion scoring, cross-validation leakage, limited DL comparison) need to be addressed to fully establish the claims. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, though the Results section assumes familiarity with machine learning concepts (e.g., k-mers, SVM, deltaSVM). A brief primer or more intuitive explanations would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable resource and a sound approach, but the validation and reporting gaps identified above must be addressed before the claims are fully established. Specifically, the authors should provide quantitative validation for deletion variants, clarify the cross-validation scheme to rule out data leakage, expand the comparison to deep learning methods, and report per-cell-class performance metrics.
+
+## Risk / unsupported claims
+- The claim that VIP scores predict the impact of "more complex variants beyond individual SNVs" (deletions) is not quantitatively supported in the provided text.
+- The claim that the models are "highly cell class specific" is supported by Figure 1D, but the text does not provide a quantitative metric (e.g., classification accuracy of held-out peaks) beyond the AUROC values, which are only reported as "above 0.90."
+- The claim that the models are more predictive than DeepSEA for the rhodopsin promoter (Pearson 0.44 vs. 0.39) is based on a single locus and a single MPRA dataset; this is insufficient to generalize.
+- The statement that "these scores highlight the specificity and utility of these models to predict the cell-type-specific impact of regulatory variants" is partially supported by the MPRA validation for SNVs, but the extent to which this generalizes across all 18 cell classes and 22,983 CREs is not established.

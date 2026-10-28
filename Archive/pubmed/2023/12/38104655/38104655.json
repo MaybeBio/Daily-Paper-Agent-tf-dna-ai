@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "38104655",
+    "doi": "10.1016/j.tox.2023.153708",
+    "title": "A deep-learning approach for identifying prospective chemical hazards."
+  },
+  "content": {
+    "abstract": "With the aim of helping to set safe exposure limits for the general population, various techniques have been implemented to conduct risk assessments for chemicals and other environmental stressors; however, none of these tools facilitate the identification of completely new chemicals that are likely hazardous and elicit an adverse biological effect. Here, we detail a novel in silico, deep-learning framework that is designed to systematically generate structures for new chemical compounds that are predicted to be chemical hazards. To assess the utility of the framework, we applied the tool to four endpoints related to environmental toxicants and their impacts on human and animal health: (i) toxicity to honeybees, (ii) immunotoxicity, (iii) endocrine disruption via ER-alpha antagonism, and (iv) mutagenicity. In addition, we characterized the predicted potency of these compounds and examined their structural relationship to existing chemicals of concern. As part of the array of emerging new approach methodologies (NAMs), we anticipate that such a framework will be a significant asset to risk assessors and other environmental scientists when planning and forecasting. Though not in the scope of the present study, we expect that the methodology detailed here could also be useful in the de novo design of more environmentally-friendly industrial chemicals.",
+    "keywords": [
+      "De novo",
+      "Deep learning",
+      "Hazard identification",
+      "Machine learning",
+      "QSAR"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Deep Learning",
+      "Prospective Studies",
+      "Hazardous Substances/toxicity",
+      "Receptors, Estrogen",
+      "Mutagens",
+      "Risk Assessment/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Habiballah, Sohaib",
+        "Heath, Lenwood S",
+        "Reisfeld, Brad"
+      ],
+      "short_names": [
+        "Habiballah S",
+        "Heath LS",
+        "Reisfeld B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Colorado State University, Fort Collins, CO 80523-1370, USA.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061-0106, USA.",
+        "Department of Chemical and Biological Engineering, Colorado State University, Fort Collins, CO 80523-1370, USA; Colorado School of Public Health, Colorado State University, Fort Collins, CO 80523-1612, USA. Electronic address: brad.reisfeld@colostate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Habiballah, Sohaib",
+        "short_name": "Habiballah S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Colorado State University, Fort Collins, CO 80523-1370, USA."
+        ]
+      },
+      {
+        "full_name": "Heath, Lenwood S",
+        "short_name": "Heath LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061-0106, USA."
+        ]
+      },
+      {
+        "full_name": "Reisfeld, Brad",
+        "short_name": "Reisfeld B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Colorado State University, Fort Collins, CO 80523-1370, USA; Colorado School of Public Health, Colorado State University, Fort Collins, CO 80523-1612, USA. Electronic address: brad.reisfeld@colostate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxicology"
+    ],
+    "journal_abbrev": [
+      "Toxicology"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/18 00:42",
+    "fetched_at": "2026-10-04 23:06:40"
+  },
+  "links": {
+    "cites": [
+      "41118227",
+      "41096558",
+      "40326805"
+    ],
+    "refs": [],
+    "similar": [
+      "38104655",
+      "29793188",
+      "18818964",
+      "36969097",
+      "23913910",
+      "18328408",
+      "35188647",
+      "10717364",
+      "11665649",
+      "27650663",
+      "12836845",
+      "31711016",
+      "11893397",
+      "31302400",
+      "26087353",
+      "33934018",
+      "31781791",
+      "34666016",
+      "11893401",
+      "28543973",
+      "38857761",
+      "14630131",
+      "24279462",
+      "33272655",
+      "23792420",
+      "8867144",
+      "23534394",
+      "26887668",
+      "20574897",
+      "28135038",
+      "32640355",
+      "26111584",
+      "10189582",
+      "19544189",
+      "22974738",
+      "37224004",
+      "25372701",
+      "31709603",
+      "23558296",
+      "25980812",
+      "37068727",
+      "37390684",
+      "16843577",
+      "31532525",
+      "11067778",
+      "33469990",
+      "31453632",
+      "24428755",
+      "17482223",
+      "34590786",
+      "32162772",
+      "31377337",
+      "21425326",
+      "29600706",
+      "16020181",
+      "21047985",
+      "36429435",
+      "35103819",
+      "10854124",
+      "16930827",
+      "31233757",
+      "15060191",
+      "26777143",
+      "31634658",
+      "27825359",
+      "27743518",
+      "30537638",
+      "21145574",
+      "29226926",
+      "7570665",
+      "26887838",
+      "36534483",
+      "31460798",
+      "29090718",
+      "7570662",
+      "21609253",
+      "22683832",
+      "14758980",
+      "32645429",
+      "33227364",
+      "2200260",
+      "7570651",
+      "26022396",
+      "16707203",
+      "19766685",
+      "35774572",
+      "27167159",
+      "21130487",
+      "25797653",
+      "25377590",
+      "30505052",
+      "29269952",
+      "22104386",
+      "28485542"
+    ],
+    "review": [
+      "38104655",
+      "36969097",
+      "18328408",
+      "10717364",
+      "11665649",
+      "27650663",
+      "31711016",
+      "11893397",
+      "33934018",
+      "34666016",
+      "11893401",
+      "14630131",
+      "33272655",
+      "23534394",
+      "19544189",
+      "22974738",
+      "37224004",
+      "25372701",
+      "31709603",
+      "31453632",
+      "24428755",
+      "34590786",
+      "29600706",
+      "31233757",
+      "15060191",
+      "30537638",
+      "29226926",
+      "7570665",
+      "7570662",
+      "21609253",
+      "2200260",
+      "7570651"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0300-483X(23)00295-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0300-483X(23)00295-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

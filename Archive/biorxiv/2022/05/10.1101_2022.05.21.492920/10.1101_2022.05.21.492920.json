@@ -1,0 +1,562 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.21.492920",
+  "title": "The SARS-CoV-2 spike protein binds and modulates estrogen receptors",
+  "doi": "10.1101/2022.05.21.492920",
+  "abstract": "The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike (S) protein binds angiotensin-converting enzyme 2 (ACE2) at the cell surface, which constitutes the primary mechanism driving SARS-CoV-2 infection. Molecular interactions between the transduced S and endogenous proteins likely occur post-infection, but such interactions are not well understood. We used an unbiased primary screen to profile the binding of full-length S against >9,000 human proteins and found significant S-host protein interactions, including one between S and human estrogen receptor alpha (ERα). After confirming this interaction in a secondary assay, we used bioinformatics, supercomputing, and experimental assays to identify a highly conserved and functional nuclear receptor coregulator (NRC) LXD-like motif on the S2 subunit and an S-ERα binding mode. In cultured cells, S DNA transfection increased ERα cytoplasmic accumulation, and S treatment induced ER-dependent biological effects and ACE2 expression. Noninvasive multimodal PET/CT imaging in SARS-CoV-2-infected hamsters using [ 18 F]fluoroestradiol (FES) localized lung pathology with increased ERα lung levels. Postmortem experiments in lung tissues from SARS-CoV-2-infected hamsters and humans confirmed an increase in cytoplasmic ERα expression and its colocalization with S protein in alveolar macrophages. These findings describe the discovery and characterization of a novel S-ERα interaction, imply a role for S as an NRC, and are poised to advance knowledge of SARS-CoV-2 biology, COVID-19 pathology, and mechanisms of sex differences in the pathology of infectious disease.",
+  "authors": [
+    "Solis O",
+    "Beccari AR",
+    "Iaconis D",
+    "Talarico C",
+    "Ruiz-Bedoya CA",
+    "Nwachukwu JC",
+    "Cimini A",
+    "Castelli V",
+    "Bertini R",
+    "Montopoli M",
+    "Cocetta V",
+    "Borocci S",
+    "Prandi IG",
+    "Flavahan K",
+    "Bahr M",
+    "Napiorkowski A",
+    "Chillemi G",
+    "Ooka M",
+    "Yang X",
+    "Zhang S",
+    "Xia M",
+    "Zheng W",
+    "Bonaventura J",
+    "Pomper MG",
+    "Hooper JE",
+    "Morales M",
+    "Rosenberg AZ",
+    "Nettles KW",
+    "Jain SK",
+    "Allegretti M",
+    "Michaelides M"
+  ],
+  "published_date": "2022-05-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.21.492920",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.21.492920.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496814",
+    "raw_record": {
+      "id": "PPR496814",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR496814"
+        ]
+      },
+      "doi": "10.1101/2022.05.21.492920",
+      "title": "The SARS-CoV-2 spike protein binds and modulates estrogen receptors",
+      "authorString": "Solis O, Beccari AR, Iaconis D, Talarico C, Ruiz-Bedoya CA, Nwachukwu JC, Cimini A, Castelli V, Bertini R, Montopoli M, Cocetta V, Borocci S, Prandi IG, Flavahan K, Bahr M, Napiorkowski A, Chillemi G, Ooka M, Yang X, Zhang S, Xia M, Zheng W, Bonaventura J, Pomper MG, Hooper JE, Morales M, Rosenberg AZ, Nettles KW, Jain SK, Allegretti M, Michaelides M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Solis O",
+            "lastName": "Solis",
+            "firstName": "Oscar",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, 21224, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beccari AR",
+            "lastName": "Beccari",
+            "firstName": "Andrea",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "EXSCALATE, Dompé farmaceutici S.p.A, Napoli, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iaconis D",
+            "lastName": "Iaconis",
+            "firstName": "Daniela",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "EXSCALATE, Dompé farmaceutici S.p.A, Napoli, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Talarico C",
+            "lastName": "Talarico",
+            "firstName": "Carmine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "EXSCALATE, Dompé farmaceutici S.p.A, Napoli, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruiz-Bedoya CA",
+            "lastName": "Ruiz-Bedoya",
+            "firstName": "Camilo",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Tuberculosis Research, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nwachukwu JC",
+            "lastName": "Nwachukwu",
+            "firstName": "Jerome",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, 130 Scripps Way, Jupiter, FL 33458, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cimini A",
+            "lastName": "Cimini",
+            "firstName": "Annamaria",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sbarro Institute for Cancer Research and Molecular Medicine, Department of Biology, Temple University, Philadelphia, PA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castelli V",
+            "lastName": "Castelli",
+            "firstName": "Vanessa",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life, Health and Environmental Sciences, University of L’Aquila, L’Aquila, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bertini R",
+            "lastName": "Bertini",
+            "firstName": "Riccardo",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Atreius S.a.s., L’Aquila, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montopoli M",
+            "lastName": "Montopoli",
+            "firstName": "Monica",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VIMM- Veneto Institute of Molecular Medicine, Fondazione per la Ricerca Biomedica Avanzata, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cocetta V",
+            "lastName": "Cocetta",
+            "firstName": "Veronica",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmaceutical and Pharmacological Sciences, University of Padova, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borocci S",
+            "lastName": "Borocci",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Innovation in Biological, Agro-Food and Forest Systems, DIBAF, University of Tuscia, Viterbo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prandi IG",
+            "lastName": "Prandi",
+            "firstName": "Ingrid",
+            "initials": "IG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Innovation in Biological, Agro-Food and Forest Systems, DIBAF, University of Tuscia, Viterbo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flavahan K",
+            "lastName": "Flavahan",
+            "firstName": "Kelly",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Tuberculosis Research, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bahr M",
+            "lastName": "Bahr",
+            "firstName": "Melissa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Tuberculosis Research, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Napiorkowski A",
+            "lastName": "Napiorkowski",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Tuberculosis Research, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chillemi G",
+            "lastName": "Chillemi",
+            "firstName": "Giovanni",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Innovation in Biological, Agro-Food and Forest Systems, DIBAF, University of Tuscia, Viterbo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ooka M",
+            "lastName": "Ooka",
+            "firstName": "Masato",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Preclinical Innovation, National Center for Advancing Translational Sciences, Rockville, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang X",
+            "lastName": "Yang",
+            "firstName": "Xiaoping",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Shiliang",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neuronal Networks Section, National Institute on Drug Abuse Intramural Research Program, Baltimore, 21224, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xia M",
+            "lastName": "Xia",
+            "firstName": "Menghang",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Preclinical Innovation, National Center for Advancing Translational Sciences, Rockville, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zheng W",
+            "lastName": "Zheng",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Preclinical Innovation, National Center for Advancing Translational Sciences, Rockville, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bonaventura J",
+            "lastName": "Bonaventura",
+            "firstName": "Jordi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departament de Patologia i Terapèutica Experimental, Institut de Neurociències, Universitat de Barcelona, L’Hospitalet de Llobregat, Catalonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pomper MG",
+            "lastName": "Pomper",
+            "firstName": "Martin",
+            "initials": "MG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Radiology and Radiological Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hooper JE",
+            "lastName": "Hooper",
+            "firstName": "Jody",
+            "initials": "JE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morales M",
+            "lastName": "Morales",
+            "firstName": "Marisela",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neuronal Networks Section, National Institute on Drug Abuse Intramural Research Program, Baltimore, 21224, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosenberg AZ",
+            "lastName": "Rosenberg",
+            "firstName": "Avi",
+            "initials": "AZ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nettles KW",
+            "lastName": "Nettles",
+            "firstName": "Kendall",
+            "initials": "KW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, 130 Scripps Way, Jupiter, FL 33458, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jain SK",
+            "lastName": "Jain",
+            "firstName": "Sanjay",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Tuberculosis Research, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Allegretti M",
+            "lastName": "Allegretti",
+            "firstName": "Marcello",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dompé farmaceutici S.p.A, L’Aquila, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michaelides M",
+            "lastName": "Michaelides",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry & Behavioral Sciences, Johns Hopkins School of Medicine, Baltimore, MD, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike (S) protein binds angiotensin-converting enzyme 2 (ACE2) at the cell surface, which constitutes the primary mechanism driving SARS-CoV-2 infection. Molecular interactions between the transduced S and endogenous proteins likely occur post-infection, but such interactions are not well understood. We used an unbiased primary screen to profile the binding of full-length S against >9,000 human proteins and found significant S-host protein interactions, including one between S and human estrogen receptor alpha (ERα). After confirming this interaction in a secondary assay, we used bioinformatics, supercomputing, and experimental assays to identify a highly conserved and functional nuclear receptor coregulator (NRC) LXD-like motif on the S2 subunit and an S-ERα binding mode. In cultured cells, S DNA transfection increased ERα cytoplasmic accumulation, and S treatment induced ER-dependent biological effects and ACE2 expression. Noninvasive multimodal PET/CT imaging in SARS-CoV-2-infected hamsters using [  18 F]fluoroestradiol (FES) localized lung pathology with increased ERα lung levels. Postmortem experiments in lung tissues from SARS-CoV-2-infected hamsters and humans confirmed an increase in cytoplasmic ERα expression and its colocalization with S protein in alveolar macrophages. These findings describe the discovery and characterization of a novel S-ERα interaction, imply a role for S as an NRC, and are poised to advance knowledge of SARS-CoV-2 biology, COVID-19 pathology, and mechanisms of sex differences in the pathology of infectious disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/23/2022.05.21.492920.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.21.492920"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR496814"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR496814&type=FILE&fileName=EMS146910-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36449624",
+            "reference": "Science advances. 2022 Dec;8(48):eadd4150",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS146910",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-05-25",
+      "firstPublicationDate": "2022-05-23",
+      "firstIndexDate": "2022-05-25",
+      "fullTextReceivedDate": "2022-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

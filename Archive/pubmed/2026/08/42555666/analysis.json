@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42555666",
+  "title": "Motif-Cluster: Motif driven prioritization of transcription factor binding clusters.",
+  "authors": "Zhou, Mengyuan; Yao, Qiuming",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-08-05",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于序列基序密度聚类的框架，用于优先排序TF结合簇，虽涉及TF-DNA结合位点预测，但仅用序列信息、无三维互作建模或AI/物理模拟方法，深度有限。",
+  "abstract": "Genome-wide analyses of transcription factor (TF) motif binding sites have largely emphasized individual high-affinity sites, while overlooking the regulatory importance of locally repetitive motif clusters. Such clusters, including combinations of weak and strong binding sites, can collectively enhance TF occupancy and regulatory activity. Here we present Motif-Cluster, an open-source framework for motif-driven prioritization and visualization of TF binding clusters using sequence information alone. Motif-Cluster integrates a density-based clustering strategy with flexible modeling of binding-site gaps and affinity signals, enabling the identification and ranking of candidate regulatory regions without requiring experimental binding data. Through simulations and multiple real-data analyses, we show that combining gap distributions with binding affinity effectively balances cluster size and signal strength while reducing noise from weak sites. Application to ZNF410 successfully recovers the previously characterized binding clusters in the CHD4 promoter, which are conserved between human and mouse. Additional case studies involving PHB1, TWIST1, and EGR1 further demonstrate the general applicability of the method across diverse transcription factors. Motif-Cluster also provides intuitive visualization and reproducible workflows to facilitate interpretation of spatially dense motif patterns. Overall, Motif-Cluster offers a robust and flexible approach for prioritizing transcription factor regulatory regions from genome-wide motif scans, enabling biological discovery and guiding experimental design, particularly in settings where direct genome-wide binding assays are unavailable.",
+  "abstract_zh": "转录因子（TF）基序结合位点的全基因组分析主要侧重于单个高亲和力位点，而忽视了局部重复基序簇的调控重要性。此类簇，包括弱结合位点与强结合位点的组合，能够协同增强转录因子的占据率及调控活性。在此，我们提出Motif-Cluster，一个仅利用序列信息进行基序驱动的转录因子结合簇优先排序和可视化的开源框架。Motif-Cluster将基于密度的聚类策略与结合位点间隙和亲和力信号的灵活建模相结合，无需实验结合数据即可识别和排序候选调控区域。通过模拟实验和多项真实数据分析，我们表明，将间隙分布与结合亲和力相结合，能有效平衡簇大小与信号强度，同时减少弱位点带来的噪声。应用于ZNF410时，该方法成功恢复了先前在CHD4启动子中表征的结合簇，这些簇在人类和小鼠之间保守。涉及PHB1、TWIST1和EGR1的额外案例研究进一步证明了该方法在不同转录因子中的普遍适用性。Motif-Cluster还提供直观的可视化和可重复的工作流程，以促进对空间密集基序模式的理解。总体而言，Motif-Cluster为从全基因组基序扫描中优先排序转录因子调控区域提供了一种稳健且灵活的方法，支持生物学发现并指导实验设计，尤其在直接全基因组结合测定不可用的情况下。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42555666/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42555666/",
+  "paper_page_path": "papers/pubmed/42555666/index.html"
+}

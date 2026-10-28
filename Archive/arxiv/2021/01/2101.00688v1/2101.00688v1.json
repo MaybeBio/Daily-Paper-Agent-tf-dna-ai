@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2101.00688v1",
+  "title": "Segmentation and genome annotation algorithms",
+  "doi": "10.1371/journal.pcbi.1009423",
+  "abstract": "Segmentation and genome annotation (SAGA) algorithms are widely used to understand genome activity and gene regulation. These algorithms take as input epigenomic datasets, such as chromatin immunoprecipitation-sequencing (ChIP-seq) measurements of histone modifications or transcription factor binding. They partition the genome and assign a label to each segment such that positions with the same label exhibit similar patterns of input data. SAGA algorithms discover categories of activity such as promoters, enhancers, or parts of genes without prior knowledge of known genomic elements. In this sense, they generally act in an unsupervised fashion like clustering algorithms, but with the additional simultaneous function of segmenting the genome. Here, we review the common methodological framework that underlies these methods, review variants of and improvements upon this basic framework, catalogue existing large-scale reference annotations, and discuss the outlook for future work.",
+  "authors": [
+    "Maxwell W Libbrecht",
+    "Rachel CW Chan",
+    "Michael M Hoffman"
+  ],
+  "published_date": "2021-01-03T19:08:36Z",
+  "updated_date": "2021-01-03T19:08:36Z",
+  "journal": "PLoS Comput Biol 17 (2021) e1009423",
+  "category": "q-bio.GN, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2101.00688v1",
+  "pdf_url": "https://arxiv.org/pdf/2101.00688v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2101.00688v1",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.LG"
+    ],
+    "journal_ref": "PLoS Comput Biol 17 (2021) e1009423"
+  }
+}

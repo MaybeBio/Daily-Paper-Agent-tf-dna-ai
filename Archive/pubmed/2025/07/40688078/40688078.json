@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40688078",
+    "doi": "10.3389/fimmu.2025.1592416",
+    "title": "Integrated multiomics analysis identifies PHLDA1+ fibroblasts as prognostic biomarkers and mediators of biological functions in pancreatic cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic cancer (PC) is marked by extensive heterogeneity, posing significant challenges to effective treatment. The tumor microenvironment (TME), particularly cancer-associated fibroblasts (CAFs), plays a critical role in driving PC progression. However, the prognostic and functional contributions of distinct CAF subtypes remain inadequately understood. Here, we introduce a novel 7-gene risk model that not only robustly stratifies PC patients but also unveils the unique role of PHLDA1 as a key mediator in tumor-stroma crosstalk. METHODS: By integrating single-cell RNA sequencing (scRNA-seq), spatial transcriptomics, and bulk RNA sequencing data, we comprehensively characterized the heterogeneity of CAFs in PC. We identified five CAF subtypes and focused on matrix CAFs (mCAFs), which were strongly associated with poor prognosis. A 7-gene mCAF-associated risk model was constructed using advanced machine learning algorithms, and the biological significance of PHLDA1 was validated through co-culture experiments and pan-cancer analyses. RESULTS: Our multiomics analysis revealed that the novel 7-gene model (comprising USP36, KLF5, MT2A, KDM6B, PHLDA1, REL, and DDIT4) accurately predicts patient survival, immunotherapy response, and TME status. Notably, PHLDA1 was uniquely overexpressed in CAFs and correlated with the activation of key protumorigenic pathways, including EMT, KRAS, and TGF-beta, underscoring its central role in modulating the crosstalk between CAFs and malignant ductal cells. Pan-cancer analysis further supported PHLDA1's prognostic and immunomodulatory significance across multiple tumor types. CONCLUSION: Our study presents a novel 7-gene prognostic model that significantly enhances risk stratification in PC and identifies PHLDA1+ CAFs as promising prognostic biomarkers and therapeutic targets. These findings provide new insights into the TME of PC and open avenues for personalized treatment strategies.",
+    "keywords": [
+      "PHLDA1",
+      "pancreatic cancer",
+      "prognostic biomarker",
+      "spatial transcriptomics",
+      "tumor microenvironment (TME)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/pathology/metabolism/mortality",
+      "Prognosis",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Tumor Microenvironment/genetics",
+      "*Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Single-Cell Analysis",
+      "Transcriptome",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Rui",
+        "Qin, Guan-Hua",
+        "Jiang, Yifei",
+        "Chen, Fu-Xiang",
+        "Wang, Zi-Han",
+        "Ju, Lin-Ling",
+        "Chen, Lin",
+        "Fu, Da",
+        "Liu, En-Yu",
+        "Zhang, Su-Qing",
+        "Cai, Wei-Hua"
+      ],
+      "short_names": [
+        "Wang R",
+        "Qin GH",
+        "Jiang Y",
+        "Chen FX",
+        "Wang ZH",
+        "Ju LL",
+        "Chen L",
+        "Fu D",
+        "Liu EY",
+        "Zhang SQ",
+        "Cai WH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Medical School of Nantong University, Nantong, Jiangsu, China.",
+        "Medical School of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Nuclear Medicine, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China.",
+        "Medical School of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Medical School of Nantong University, Nantong, Jiangsu, China.",
+        "Nantong Institute of Liver Disease, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Nantong Institute of Liver Disease, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China.",
+        "Department of General Surgery, Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+          "Medical School of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Guan-Hua",
+        "short_name": "Qin GH",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Nantong University, Nantong, Jiangsu, China.",
+          "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yifei",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fu-Xiang",
+        "short_name": "Chen FX",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Nantong University, Nantong, Jiangsu, China.",
+          "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zi-Han",
+        "short_name": "Wang ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+          "Medical School of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ju, Lin-Ling",
+        "short_name": "Ju LL",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Liver Disease, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Institute of Liver Disease, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Da",
+        "short_name": "Fu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, En-Yu",
+        "short_name": "Liu EY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Su-Qing",
+        "short_name": "Zhang SQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Tumor Hospital of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Wei-Hua",
+        "short_name": "Cai WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/21 12:39",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "42434270",
+      "42174633",
+      "42033556"
+    ],
+    "refs": [
+      "40392604",
+      "39680287",
+      "39515328",
+      "38297291",
+      "37795337",
+      "37772937",
+      "37633924",
+      "37463917",
+      "36411320",
+      "36340504",
+      "36192637",
+      "36127333",
+      "36107262",
+      "36083003",
+      "35538548",
+      "35020204",
+      "34919432",
+      "34624218",
+      "34450029",
+      "34145435",
+      "34027052",
+      "33677091",
+      "33531485",
+      "33033240",
+      "32988401",
+      "32843638",
+      "32455670",
+      "32434947",
+      "31980749",
+      "31740700",
+      "31475157",
+      "31462327",
+      "31350295",
+      "30470818",
+      "30429887",
+      "29935372",
+      "29921731",
+      "29717230",
+      "29625050",
+      "29467127",
+      "29198524",
+      "29033130",
+      "28564637",
+      "28319088",
+      "28232471",
+      "27197190",
+      "26998263",
+      "26690480",
+      "26247463",
+      "25948244",
+      "24840647",
+      "24645915",
+      "24131140",
+      "23918603",
+      "23871637",
+      "22439937",
+      "21561347",
+      "21282607",
+      "21191189",
+      "17234758",
+      "15016911",
+      "11300493"
+    ],
+    "similar": [
+      "40688078",
+      "41019085",
+      "39703515",
+      "40303408",
+      "40589759",
+      "40616092",
+      "41235257",
+      "39238647",
+      "39611243",
+      "40582491",
+      "41107799",
+      "41121153",
+      "39966876",
+      "40102930",
+      "39332020",
+      "40307786",
+      "40375605",
+      "39755821",
+      "40721434",
+      "41208981",
+      "38728370",
+      "41504052",
+      "39712016",
+      "40520021",
+      "39138551",
+      "40719841",
+      "40443651",
+      "35794563",
+      "40430018",
+      "39894886",
+      "39575252",
+      "32931156",
+      "40045162",
+      "41083996",
+      "40788933",
+      "41050689",
+      "40019403",
+      "40443671",
+      "41504058",
+      "37010552",
+      "40711603",
+      "40375987",
+      "40543274",
+      "33819739",
+      "39342165",
+      "39402590",
+      "40781483",
+      "30575030",
+      "36613599",
+      "40765357",
+      "40330458",
+      "40859405",
+      "38154529",
+      "40236698",
+      "40154487",
+      "39034310",
+      "39759507",
+      "39747201",
+      "37729702",
+      "39636224",
+      "40438115",
+      "40657391",
+      "39120743",
+      "40666516",
+      "40145099",
+      "34418441",
+      "41080575",
+      "40308576",
+      "41246350",
+      "40179430",
+      "37565899",
+      "32432930",
+      "41344266",
+      "40050872",
+      "38702814",
+      "30805811",
+      "32988401",
+      "37685980",
+      "41074434",
+      "40423850",
+      "39759522",
+      "32453916",
+      "38982491",
+      "40855439",
+      "36148955",
+      "41074447",
+      "37833788",
+      "41383634",
+      "32496970",
+      "40141028",
+      "39896800",
+      "40068177",
+      "33737108",
+      "41387974",
+      "41088372",
+      "41035636",
+      "38484940",
+      "39871271",
+      "39323331",
+      "37369799"
+    ],
+    "review": [
+      "40688078",
+      "32432930",
+      "38982491"
+    ],
+    "pmc": [
+      "12271128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40688078/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1592416",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

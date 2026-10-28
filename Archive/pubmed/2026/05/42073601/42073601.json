@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "42073601",
+    "doi": "10.3390/cancers18081278",
+    "title": "Integrated Characterization of AP-2delta Reveals Distinct Regulatory Architecture in Lung Adenocarcinoma and Lung Squamous Cell Carcinoma."
+  },
+  "content": {
+    "abstract": "Background/Objectives: AP-2delta, encoded by TFAP2D, is one of the least characterized members of the AP-2 transcription factor family, although available evidence suggests biologically relevant roles in lung cancer that have not yet been thoroughly examined. The aim of the present study was to provide an integrated characterization of AP-2delta/TFAP2D in lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC). Methods: LUAD and LUSC data were obtained from The Cancer Genome Atlas. The analysis comprised the expression profiling of AP-2delta target genes, survival-guided TFAP2D stratification, clinical profiling, differential expression and intersection analyses, methylation-derived chromatin compartment profiling, TFAP2D-associated cofactor rewiring, and genome-wide enrichment of AP-2delta targets. In parallel, pocket prioritization was performed using an AlphaFold model of AP-2delta with cross-tool consensus mapping. Results: TFAP2D stratification delineated biologically-distinct states in both histological subtypes (LUAD and LUSC). AP-2delta target genes showed subtype-specific expression patterns and functional organization. The consistent survival association was observed for progression-free interval rather than uniformly across all endpoints. Clinical profiling was more closely associated with molecular subtype composition than broad clinicopathological differences. Differential expression analyses identified both shared and histology-dependent programs associated with TFAP2D. In the chromatin-compartment analysis, LUSC showed a broader and more coherent footprint, whereas LUAD displayed more selective cofactor rewiring. Structure-based analysis prioritized a small set of reproducible candidate pockets concentrated within ordered regions of the TF_AP-2 domain. Conclusions: AP-2delta marks biologically meaningful but histologically non-uniform regulatory states in lung cancer. These findings provide an integrated framework for understanding TFAP2D-dependent regulation in LUAD and LUSC, highlighting AP-2delta as a candidate for future mechanistic and translational investigation.",
+    "keywords": [
+      "AP-2delta",
+      "TFAP2D",
+      "bioinformatics",
+      "chromatin compartments",
+      "clinical profiling",
+      "differential coexpression",
+      "expression patterns",
+      "ligandability",
+      "lung adenocarcinoma",
+      "lung squamous cell carcinoma"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kolat, Damian",
+        "Kruczkowska, Weronika",
+        "Kaluzinska-Kolat, Zaneta",
+        "Zemnou, Cromwel Tepap",
+        "Kciuk, Mateusz",
+        "Zhao, Lin-Yong",
+        "Kontek, Renata",
+        "Pluciennik, Elzbieta"
+      ],
+      "short_names": [
+        "Kolat D",
+        "Kruczkowska W",
+        "Kaluzinska-Kolat Z",
+        "Zemnou CT",
+        "Kciuk M",
+        "Zhao LY",
+        "Kontek R",
+        "Pluciennik E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1086-3796",
+        "ORCID: 0000-0003-1699-8912",
+        "ORCID: 0000-0002-2335-3293",
+        "ORCID: 0000-0001-8405-373X",
+        "ORCID: 0000-0002-8616-3825",
+        "ORCID: 0000-0003-2859-9839",
+        "ORCID: 0000-0002-6682-0402"
+      ],
+      "affiliations": [
+        "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+        "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland.",
+        "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+        "International Doctoral School, Medical University of Lodz, Hallera Square 1, 90-647 Lodz, Poland.",
+        "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+        "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland.",
+        "School of Engineering BioMedTech, EuroMed University of Fes (UEMF), Fes 30070, Morocco.",
+        "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+        "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland.",
+        "Department of General Surgery, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland.",
+        "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kołat, Damian",
+        "short_name": "Kołat D",
+        "identifiers": [
+          "0000-0002-1086-3796"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+          "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Kruczkowska, Weronika",
+        "short_name": "Kruczkowska W",
+        "identifiers": [
+          "0000-0003-1699-8912"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+          "International Doctoral School, Medical University of Lodz, Hallera Square 1, 90-647 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Kałuzińska-Kołat, Żaneta",
+        "short_name": "Kałuzińska-Kołat Ż",
+        "identifiers": [
+          "0000-0002-2335-3293"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+          "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Zemnou, Cromwel Tepap",
+        "short_name": "Zemnou CT",
+        "identifiers": [
+          "0000-0001-8405-373X"
+        ],
+        "affiliations": [
+          "School of Engineering BioMedTech, EuroMed University of Fes (UEMF), Fes 30070, Morocco."
+        ]
+      },
+      {
+        "full_name": "Kciuk, Mateusz",
+        "short_name": "Kciuk M",
+        "identifiers": [
+          "0000-0002-8616-3825"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland.",
+          "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lin-Yong",
+        "short_name": "Zhao LY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, West China Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Kontek, Renata",
+        "short_name": "Kontek R",
+        "identifiers": [
+          "0000-0003-2859-9839"
+        ],
+        "affiliations": [
+          "Department of Molecular Biotechnology and Genetics, University of Lodz, 90-237 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Płuciennik, Elżbieta",
+        "short_name": "Płuciennik E",
+        "identifiers": [
+          "0000-0002-6682-0402"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics, Medical University of Lodz, 90-752 Lodz, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancers"
+    ],
+    "journal_abbrev": [
+      "Cancers (Basel)"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 06:32",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41828532",
+      "41559111",
+      "40993741",
+      "40946801",
+      "40825871",
+      "40812348",
+      "40384566",
+      "40104050",
+      "40083325",
+      "39273087",
+      "39260417",
+      "38773108",
+      "38395734",
+      "38327600",
+      "38082439",
+      "37973374",
+      "37774136",
+      "37409559",
+      "37291585",
+      "37130052",
+      "36831334",
+      "36552887",
+      "36468037",
+      "36304306",
+      "36123698",
+      "35899081",
+      "35580127",
+      "35509102",
+      "35325185",
+      "35132191",
+      "35117502",
+      "35117146",
+      "34385702",
+      "34116262",
+      "34006959",
+      "33824285",
+      "33720400",
+      "33619257",
+      "32462520",
+      "32157212",
+      "31848212",
+      "31511663",
+      "31319941",
+      "30944313",
+      "30824562",
+      "30393970",
+      "29760808",
+      "29625055",
+      "29487002",
+      "29393731",
+      "29129908",
+      "28560415",
+      "28341226",
+      "28035060",
+      "27296106",
+      "26655721",
+      "26363011",
+      "26316348",
+      "25855957",
+      "25823023",
+      "25605792",
+      "25519684",
+      "25487261",
+      "25079552",
+      "24789576",
+      "24766673",
+      "24658644",
+      "24485249",
+      "24161719",
+      "22960745",
+      "22666376",
+      "22590557",
+      "22588877",
+      "22553366",
+      "22401635",
+      "21858141",
+      "21120482",
+      "20643781",
+      "20139697",
+      "18495928",
+      "16420676",
+      "16220686",
+      "12586840",
+      "11744733"
+    ],
+    "similar": [
+      "42073601",
+      "36552887",
+      "40826767",
+      "41808476",
+      "31270041",
+      "42475469",
+      "30317601",
+      "35254116",
+      "33672117",
+      "30066858",
+      "40210478",
+      "32965722",
+      "38333684",
+      "38841624",
+      "36831334",
+      "38847309",
+      "41593801",
+      "34992687",
+      "42272771",
+      "42201046",
+      "42079738",
+      "30127874",
+      "29088286",
+      "35676822",
+      "31750732",
+      "36263088",
+      "30039492",
+      "41577803",
+      "34745015",
+      "35984198",
+      "28560415",
+      "30128019",
+      "36451444",
+      "38198447",
+      "33786615",
+      "34112123",
+      "42289490",
+      "41704746",
+      "27797003",
+      "37985446",
+      "41320661",
+      "37801862",
+      "34257525",
+      "33664813",
+      "36105402",
+      "36232866",
+      "31692283",
+      "38867248",
+      "38463626",
+      "39940703",
+      "33362860",
+      "31837325",
+      "39067405",
+      "39227966",
+      "34238200",
+      "40179422",
+      "42122127",
+      "39670016",
+      "29843532",
+      "41710851",
+      "31159869",
+      "30575913",
+      "40718829",
+      "27863400",
+      "29486777",
+      "41779351",
+      "41769099",
+      "42180849",
+      "42495647",
+      "42358820",
+      "33549049",
+      "33869018",
+      "30127882",
+      "34656143",
+      "42412368",
+      "37197486",
+      "42136962",
+      "40948843",
+      "34315392",
+      "33196759",
+      "42206269",
+      "39787672",
+      "42110019",
+      "31898160",
+      "21858141",
+      "38948253",
+      "27903974",
+      "34446056",
+      "38677736",
+      "30549039",
+      "42171853",
+      "37841237",
+      "38590195",
+      "34172784",
+      "40796933",
+      "42288924",
+      "40415318",
+      "39171952",
+      "27623992",
+      "37790630"
+    ],
+    "review": [
+      "42073601",
+      "38867248"
+    ],
+    "pmc": [
+      "13114337"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cancers18081278",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42073601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that TP53 mutations are frequent in HNSCC, associate with poor prognosis, alter TP53 and miRNA expression, and that six specific missense mutations (R273C, G105C, G266E, Q136H/P, R280G) are deleterious, oncogenic, and destabilizing to protein structure and DNA binding, with hsa-miR-133b proposed as a novel biomarker.
+- **Visible evidence base** TCGA data via cBioPortal and UALCAN; computational predictions from VEP, SIFT, Polyphen, PhD-SNP, PANTHER, SNPs&GO, CScape, FATHMM, I-Mutant, CUPSAT, MUpro, ConSurf, Mutation 3D, GPS 5.0, CASTp, SOPMA, HOPE, AutoDock, HDOCK, pyDOCK, NAMD/VMD molecular dynamics simulations
+- **Missing materials affecting confidence** No supplementary data files (S1–S5 Data, S1–S5 Figs, S1 Table) were provided; no raw TCGA sample identifiers or analysis scripts; no statistical details for survival analyses; no validation of computational predictions against experimental data beyond one cited in vitro study
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in HNSCC biology and applies a broad range of computational tools to characterize TP53 mutations. However, the study is largely descriptive and correlative, with several claims exceeding what the presented evidence can support. Key issues include inconsistent sample numbers, unclear statistical methodology, overinterpretation of docking and molecular dynamics results, and a lack of experimental validation. The novelty is limited given the extensive prior literature on TP53 mutations in HNSCC. The manuscript requires substantial revision and additional analyses before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers in head and neck oncology, TP53 biology, and computational cancer genomics may find the catalog of predicted mutation effects and the proposed biomarker (hsa-miR-133b) of interest. Clinicians involved in precision oncology might also be interested in the potential diagnostic and therapeutic implications, though these remain speculative.
+- **Major strengths** The manuscript integrates multiple bioinformatics resources and prediction tools, providing a comprehensive in silico characterization of TP53 mutations in HNSCC. The identification of specific mutations with predicted functional impact and the focus on miRNA interactions add some value. The molecular dynamics simulations, while limited, represent an attempt to assess dynamic behavior beyond static predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data consistency
+  - **Claim pointer** The authors claim that TP53 mutations are significantly associated with HNSCC presence (P = 0.0349) and reduced progression-free survival (P = 0.0102) based on 1332 samples.
+  - **Evidence pointer** Section 3.2, Table 1
+  - **Concern** The sample numbers are inconsistent across the manuscript. Section 2.1 states that three cBioPortal studies were used with 530, 279, and 523 samples, totaling 1332, but it is unclear how these were combined and whether overlapping samples were properly excluded. The statistical test used for the P values is not described, and no confidence intervals or effect sizes are provided. The survival analysis methodology is not detailed, including censoring, follow-up time, or whether the analysis was adjusted for confounders such as HPV status, tumor stage, or treatment.
+  - **Why it matters** The central claim that TP53 mutations are associated with disease presence and progression depends on these statistics. Without proper methodology and consistent sample handling, the P values cannot be interpreted, and the conclusion is not reproducible.
+  - **Resolution test** Provide a clear description of the cohort assembly, including how the three datasets were merged and duplicates removed. Specify the statistical tests used for each comparison, report effect sizes and confidence intervals, and describe the survival analysis methodology in detail, including covariates and censoring.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of computational predictions
+  - **Claim pointer** The authors state that six mutations (R273C, G105C, G266E, Q136H/P, R280G) were identified as deleterious, carcinogenic, driver, highly conserved, and exposed, and that these mutations decrease protein stability and DNA binding affinity.
+  - **Evidence pointer** Sections 3.4.3–3.4.11, Tables 2–5, Figs 4–6
+  - **Concern** The manuscript does not specify the criteria for selecting these six mutations from the 90 predicted as disease-causing. The statement that they are "deleterious, carcinogenic, driver, highly conserved, and exposed" is presented as a composite conclusion, but the individual tool outputs are not shown, and the agreement between tools is not quantified. The stability predictions from I-Mutant, CUPSAT, and MUpro are reported as a single conclusion without showing the individual results or the direction of change. The docking scores are reported as decreased, but the units, statistical significance, and biological relevance of the differences are not discussed. The molecular dynamics simulations are described with average RMSD values, but the number of replicates, convergence criteria, and error estimates are not provided.
+  - **Why it matters** The identification of these six mutations as the most impactful is a key finding. If the selection criteria are not transparent and the predictions are not critically evaluated, the claim that these are driver mutations with functional consequences is not supported. Overinterpretation of in silico predictions as definitive evidence of pathogenicity is a common pitfall that undermines the manuscript's credibility.
+  - **Resolution test** Clearly state the selection criteria for the six mutations, including the number of tools that agreed and the thresholds used. Present the individual tool outputs for each mutation in a supplementary table. For stability and docking, report the numerical values and their ranges, and discuss whether the differences are within the error of the methods. For molecular dynamics, provide convergence plots, replicate information, and error bars.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for biomarker claim
+  - **Claim pointer** The authors conclude that hsa-miR-133b could be a promising novel biomarker for monitoring HNSCC progression.
+  - **Evidence pointer** Section 3.3, Fig 3, S1 Fig
+  - **Concern** The evidence for this claim is limited to a single observation that hsa-miR-133b expression is reduced in TP53-mutated samples and that this reduction is associated with poorer survival. No data are shown for the expression levels in normal versus tumor tissue, no receiver operating characteristic analysis is provided, and the specificity and sensitivity of hsa-miR-133b as a biomarker are not assessed. The claim of novelty is also questionable given prior publications on miR-133b in HNSCC.
+  - **Why it matters** A biomarker claim requires demonstration of diagnostic or prognostic utility beyond a simple association. Without validation in independent cohorts, assessment of confounding factors, and comparison with existing biomarkers, the claim is premature and potentially misleading.
+  - **Resolution test** Provide the full survival analysis for hsa-miR-133b, including hazard ratios and confidence intervals. Assess whether the association is independent of TP53 mutation status and other clinical variables. If possible, validate the finding in an independent dataset. Tone down the claim to reflect the preliminary nature of the observation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contextualization
+  - **Claim pointer** The authors state that the study provides "novel insights" and that the positions of G105C and Q136H/P are "underexplored opportunities for therapeutic intervention."
+  - **Evidence pointer** Sections 1, 4
+  - **Concern** The introduction and discussion do not adequately position this work within the existing literature on TP53 mutations in HNSCC. Many of the findings, such as the high frequency of TP53 mutations and their association with poor prognosis, are well established. The claim that G105C and Q136H/P are novel is not supported by a literature search, and the discussion does not compare these mutations with known TP53 hotspot mutations in terms of frequency or clinical relevance.
+  - **Why it matters** For a study to claim novelty, it must demonstrate that the findings add new knowledge beyond what is already known. The current framing overstates the contribution and does not provide the reader with a clear sense of what is genuinely new.
+  - **Resolution test** Revise the introduction and discussion to clearly state what is known from prior studies and what this study adds. Conduct a literature search to verify the novelty of G105C and Q136H/P in HNSCC and cite relevant prior work. Avoid overstatement of novelty where the evidence does not support it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "The genomic profile changes that were examined mutations incloud putative copy number alterations (CNAs), and structural variants."
+  - **Issue** The sentence contains a grammatical error ("incloud" should be "included") and is unclear about whether CNAs and structural variants were analyzed in the same samples as the TP53 mutations.
+  - **Required correction** Rewrite the sentence for clarity and correct the typo. Specify which data types were used for which analyses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figs 5 and 6
+  - **Evidence pointer** Section 3.4.12
+  - **Issue** The hydrogen bond and clash analyses are described in the text, but the figures are not provided in the manuscript text. It is unclear how the reader is expected to evaluate these results.
+  - **Required correction** Ensure that all figures are included and properly labeled, with clear legends explaining what is shown. If the figures are in supplementary files, refer to them explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Section 3.4.3
+  - **Evidence pointer** "which six mutations (R273C, G105C, G266E, Q136H/P, R280G) were identified as driver mutations and nine as passenger mutations"
+  - **Issue** The sentence lists five mutations but states "six mutations." This is a numerical inconsistency that needs correction.
+  - **Required correction** Correct the count or the list. If Q136H/P is counted as two separate mutations, this should be stated explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Missing information
+  - **Affected element** Section 2.4.12
+  - **Evidence pointer** Molecular dynamics simulation parameters
+  - **Issue** The simulation parameters are described in terms of hardware and software, but key simulation parameters such as the force field, water model, salt concentration, and equilibration protocol are not provided.
+  - **Required correction** Add the missing simulation parameters to allow reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and readability
+  - **Affected element** Throughout
+  - **Evidence pointer** Various sections
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings (e.g., "has-mir-133b" in the abstract, "visualised visualized" in Section 2.3, "illustratedthe" in Section 3.4.14). These detract from readability.
+  - **Required correction** Perform a thorough language edit to correct grammatical errors and improve sentence flow.
+- **Technical failings that need to be addressed before the case is established** The statistical methodology for survival and association analyses is not described, making the P values uninterpretable. The selection criteria for the six mutations are not transparent. The molecular dynamics simulations lack essential methodological details and error analysis. The biomarker claim for hsa-miR-133b is not supported by appropriate analyses. The manuscript does not provide the supplementary data that are referenced, preventing verification of the results.
+- **Assessment against Nature-style criteria** Originality: Limited. The high frequency of TP53 mutations in HNSCC and their prognostic significance are well documented. The specific mutations identified and the miRNA analysis provide some incremental novelty, but the claim of "novel insights" is overstated. Scientific importance: Moderate. The findings are potentially relevant to HNSCC biology and precision oncology, but the lack of experimental validation and the descriptive nature of the study limit its impact. Interdisciplinary readership: The manuscript may appeal to computational biologists and cancer researchers, but the clinical implications are speculative and not developed sufficiently to attract a broad clinical audience. Technical soundness: Weak. The statistical analyses are not described, the computational predictions are not critically evaluated, and the molecular dynamics simulations lack methodological rigor. Readability for nonspecialists: The manuscript is generally readable but contains technical jargon and grammatical errors that may hinder comprehension for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and applies a wide range of computational tools, but the methodological gaps and overinterpretation of results prevent the conclusions from being supported. Substantial revision, including clearer statistical reporting, transparent selection criteria, and tempered claims, is required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that TP53 mutations are significantly associated with HNSCC presence and reduced progression-free survival is not supported due to missing statistical methodology.
+- The claim that the six mutations are "deleterious, carcinogenic, driver, highly conserved, and exposed" is not supported because the selection criteria and individual tool outputs are not provided.
+- The claim that hsa-miR-133b is a "promising novel biomarker" is not supported by appropriate diagnostic or prognostic analyses.
+- The claim that G105C and Q136H/P are "novel mutations" and "underexplored opportunities for therapeutic intervention" is not supported by a literature review.
+- The molecular dynamics conclusion that mutations confer a "gain of function" is not supported by the presented data, as the simulations only assess structural stability and dynamics, not functional outcomes.
+- The statement that "the precise positioning of R280G and R273C within the methylation site and Q136H/P in the binding site has been documented for the first time" is unverifiable without a literature search and is likely overstated.

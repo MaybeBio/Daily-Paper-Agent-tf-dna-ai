@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.05.475140",
+  "title": "Machine learning guided batched design of a bacterial Ribosome Binding Site",
+  "authors": "Mengyan Zhang; Maciej Bartosz Holowko; Huw Hayman Zumpe; Cheng Soon Ong",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-06",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习设计细菌核糖体结合位点以优化翻译水平，属于RNA-蛋白互作而非蛋白质-DNA互作，且无结合建模，与本课题关联微弱。",
+  "abstract": "Optimisation of gene expression levels is an essential part of the organism design process. Fine control of this process can be achieved through engineering transcription and translation control elements, including the ribosome binding site (RBS). Unfortunately, design of specific genetic parts can still be challenging due to lack of reliable design methods. To address this problem, we have created a machine learning guided Design-Build-Test-Learn (DBTL) cycle for the experimental design of bacterial RBSs to show how small genetic parts can be reliably designed using relatively small, high-quality data sets. We used Gaussian Process Regression for the Learn phase of cycle and the Upper Confidence Bound multi-armed bandit algorithm for the Design of genetic variants to be tested in vivo. We have integrated these machine learning algorithms with laboratory automation and high-throughput processes for reliable data generation. Notably, by Testing a total of 450 RBS variants in four DBTL cycles, we experimentally validated RBSs with high translation initiation rates equalling or exceeding our benchmark RBS by up to 34%. Overall, our results show that machine learning is a powerful tool for designing RBSs, and they pave the way towards more complicated genetic devices.",
+  "abstract_zh": "基因表达水平的优化是生物体设计过程中的关键环节。通过工程化转录和翻译控制元件，包括核糖体结合位点（RBS），可以实现对这一过程的精细调控。然而，由于缺乏可靠的设计方法，特定遗传部件的设计仍具挑战性。为解决此问题，我们构建了一个机器学习引导的设计-构建-测试-学习（DBTL）循环，用于细菌RBS的实验设计，以展示如何利用相对小规模但高质量的数据集可靠地设计小型遗传部件。在循环的学习阶段，我们采用了高斯过程回归；在设计阶段，则使用了上置信界多臂老虎机算法来选择体内测试的遗传变异体。我们将这些机器学习算法与实验室自动化及高通量流程相结合，以确保数据生成的可靠性。值得注意的是，通过在四个DBTL循环中测试总共450个RBS变异体，我们实验验证了具有高翻译起始率的RBS，其效率等于或超过基准RBS，最高提升达34%。总体而言，我们的结果表明，机器学习是设计RBS的强大工具，并为更复杂的遗传装置的设计铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.05.475140",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.05.475140",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.05.475140/index.html"
+}

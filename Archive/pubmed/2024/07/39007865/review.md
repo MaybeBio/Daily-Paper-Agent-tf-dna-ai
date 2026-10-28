@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to propose that the R248W mutation in the p53 core domain (p53C) induces conformational changes, including a shift of helix H2 and beta-hairpin S2-S2', disruption of neighboring beta-sheets, formation of a hydrophobic core cavity, and increased solvent exposure of aggregation-prone regions S9 and S10. They further claim that the proteomimetic inhibitor ADH-6 binds dynamically to the mutation site and destabilized regions, partially reversing these effects, reducing solvent exposure of S9 and S10, and preserving a wild-type-like dynamical network.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, structural figures, quantitative metrics (e.g., RMSD, RMSF, solvent accessible surface area), binding free energy calculations, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis supported by molecular dynamics simulations, but the evidence base is insufficient to evaluate the rigor of the claims. The findings are potentially interesting to the biophysics and cancer biology communities, yet the lack of methodological detail and quantitative results prevents a full assessment of technical soundness and reproducibility.
+- **Who would be interested in the results, and why** Researchers studying p53 misfolding and aggregation in cancer, computational biophysicists interested in mutation-induced protein destabilization, and medicinal chemists developing inhibitors targeting protein aggregation. The work could inform therapeutic strategies for p53-aggregation-associated cancers.
+- **Major strengths** The study addresses a clinically relevant problem with clear translational implications. The use of all-atom simulations to dissect mutation-induced conformational changes and inhibitor binding is appropriate. The focus on aggregation-prone regions provides a mechanistic link between structural perturbation and aggregation propensity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The R248W mutation leads to a shift of helix H2 and beta-hairpin S2-S2' towards the mutation site, destruction of neighboring beta-sheet structure, formation of a hydrophobic core cavity, and reduced beta-sandwich stability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data supporting these structural changes. No RMSD, RMSF, or free energy values are reported. The claim of "destruction" of beta-sheet structure and "formation of a cavity" requires structural metrics and statistical validation across independent simulations.
+  - **Why it matters** Without quantitative evidence and convergence analysis, the observed conformational changes could be simulation artifacts or insufficiently sampled events. The core mechanistic claims depend on these structural perturbations being robust and reproducible.
+  - **Resolution test** Provide quantitative metrics (e.g., RMSD, RMSF, secondary structure assignment over time, cavity volume calculations) with error bars from multiple independent simulation replicates, and demonstrate convergence of these metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** ADH-6 dynamically binds to the mutation site and multiple destabilized regions, partially inhibiting the shift of helix H2 and beta-hairpin S2-S2', preventing beta-sheet disruption and cavity formation, and reducing solvent exposure of APRs S9 and S10.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The binding mode and its functional consequences are described qualitatively. No binding free energies, contact maps, or occupancy analyses are presented. The claim that ADH-6 "preserves the WT-like dynamical network" is vague and lacks a defined metric for dynamical network comparison.
+  - **Why it matters** The therapeutic relevance of ADH-6 depends on a stable and specific binding interaction that measurably alters p53C dynamics. Without quantitative binding and network analyses, the protective mechanism remains speculative.
+  - **Resolution test** Report binding free energy calculations (e.g., MM-PBSA or similar), per-residue contact occupancy, and a defined dynamical network metric (e.g., correlation matrices or community analysis) comparing WT, mutant, and mutant-plus-inhibitor systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** All-atom molecular dynamics simulations of R248W p53C in the absence and presence of ADH-6, and of WT p53C, were conducted.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, simulation length, temperature/pressure coupling, number of replicates, or system setup. Without these, the simulations cannot be reproduced or assessed for adequacy.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The absence of these details prevents any evaluation of whether the sampling was sufficient to support the conclusions.
+  - **Resolution test** Provide full simulation parameters in the methods section, including software version, force field, water model, salt concentration, simulation time per replicate, number of replicates, and equilibration protocol.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "the involvement of p53 aggregation in cancer pathogenesis emphasizes the importance" is generic and does not specify the cancer type or the evidence linking aggregation to pathogenesis.
+  - **Required correction** Provide a specific reference or context for the role of p53 aggregation in cancer, or rephrase to be more precise.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The conclusion states that the study "elucidates the mechanisms" but the abstract does not mention any limitations or the need for experimental validation.
+  - **Required correction** Add a sentence acknowledging that the findings are based on simulations and require experimental confirmation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "proteomimetic amyloid inhibitor"
+  - **Evidence pointer** Abstract, title and text
+  - **Issue** The term "proteomimetic" is not defined or explained, which may confuse readers unfamiliar with the concept.
+  - **Required correction** Briefly define or cite a reference for "proteomimetic" in the introduction or abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative structural data, binding analyses, and simulation details means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a specific mutation-inhibitor pair with potential novelty, but the general approach of using MD to study p53 mutations is not new. The originality is moderate.
+  - Scientific importance: The topic is clinically relevant, but the abstract does not demonstrate a significant advance over existing knowledge without quantitative validation.
+  - Interdisciplinary readership: The work bridges biophysics, computational chemistry, and cancer biology, which could appeal to a broad audience if the evidence is robust.
+  - Technical soundness: Currently not assessable due to missing methodological and quantitative details.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "proteomimetic", "APRs") without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis, but the lack of quantitative results and methodological transparency prevents a supportive recommendation. The authors should provide full simulation details and quantitative analyses to substantiate the claims.
+
+## Risk / unsupported claims
+- The claim that R248W mutation "destroys" neighboring beta-sheet structure is unsupported without secondary structure analysis.
+- The claim that ADH-6 "preserves the WT-like dynamical network" is unsupported without a defined network metric.
+- The claim that ADH-6 "reduces solvent exposure of APRs S9 and S10" is unsupported without solvent accessible surface area calculations.
+- The overall mechanistic model is plausible but not verifiable from the abstract alone.

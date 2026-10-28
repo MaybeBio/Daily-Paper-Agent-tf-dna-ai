@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that HSFA1 transcription factors are conserved master regulators of heat stress-induced chromatin accessibility at cis-regulatory elements across land plants, mice, and humans. They propose that HSFA1-dependent chromatin remodeling is separable from ABA-mediated transcriptional modulation, and they present a machine learning framework that integrates chromatin accessibility and CRE information to predict cross-species gene expression under stress.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data visualization are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical reporting, model architecture and training details, species comparison datasets, and any validation of the machine learning predictions
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding how heat shock transcription factors coordinate chromatin dynamics across plant and animal lineages. The claim of evolutionary conservation of HSFA1-dependent cis-regulatory element accessibility across land plants, mice, and humans is striking and, if rigorously supported, would be of broad interest. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the genetic, genomic, or computational analyses. Several claims, particularly the cross-kingdom conservation and the machine learning predictive framework, require detailed methodological scrutiny that is not possible from the supplied material. The separation of ABA-dependent transcriptional effects from HSFA1-dependent chromatin remodeling is an interesting conceptual distinction, but the evidence base for this dissociation is not visible.
+- **Who would be interested in the results, and why** Plant stress biologists studying heat response mechanisms; chromatin and epigenetics researchers interested in transcription factor-driven chromatin dynamics; comparative genomics researchers examining regulatory conservation across eukaryotes; computational biologists developing cross-species gene expression prediction models. The potential conservation of HSFA1 function across plants and animals would attract broad readership in molecular evolution and stress signaling.
+- **Major strengths** The study addresses a fundamental question about how transcription factors coordinate chromatin architecture during stress responses. The use of two plant model systems (Marchantia polymorpha and Arabidopsis thaliana) provides evolutionary depth within plants. The claim of conservation extending to mice and humans, if validated, would substantially elevate the significance of the work. The integration of gene regulatory network modeling with machine learning represents a modern, multi-pronged analytical approach. The proposed separation of ABA signaling from HSFA1-dependent chromatin remodeling offers a conceptually clean framework for dissecting stress response pathways.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we identify HSFA1 as a key regulator of HS-induced cis-regulatory element (CRE) accessibility, a mechanism conserved across land plants, mice, and humans"
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The central claim of cross-kingdom conservation of HSFA1-dependent CRE accessibility is stated without any visible comparative data. The abstract does not describe how Marchantia, Arabidopsis, mouse, and human datasets were aligned, what orthology criteria were used, whether the same CRE types were assayed, or how statistical significance of conservation was established. The leap from plant mutants to mammalian systems requires either direct experimental evidence or a clearly described comparative bioinformatic analysis, neither of which is visible.
+  - **Why it matters** This is the headline claim of the manuscript. If the conservation claim is not rigorously supported, the broader significance of the work is substantially diminished. Cross-species claims are notoriously sensitive to methodological differences in chromatin assays, peak calling, and orthology mapping. Without visible evidence, the claim cannot be evaluated.
+  - **Resolution test** Provide the comparative analysis showing that HSFA1-dependent chromatin accessibility changes at orthologous CREs are statistically enriched across all four species, with appropriate multiple testing correction and demonstration that the effect is specific to HSFA1 rather than a general stress response.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we develop a machine learning framework integrating chromatin accessibility and CRE information to predict gene expression across species"
+  - **Evidence pointer** Abstract only; model architecture and performance metrics not provided
+  - **Concern** The machine learning framework is described in a single sentence with no information about model type, feature encoding, training and test set construction, cross-species transfer strategy, or prediction performance. Without these details, it is impossible to assess whether the framework is genuinely predictive or merely descriptive. The claim of cross-species prediction is particularly demanding because regulatory grammar may differ between plants and animals.
+  - **Why it matters** Machine learning claims in biology are only meaningful when accompanied by rigorous benchmarking, appropriate train-test separation, and demonstration of generalizability. The abstract provides none of these. If the framework is a minor component, it should be positioned as such; if it is a major deliverable, the lack of detail is a serious omission.
+  - **Resolution test** Provide model architecture, feature definitions, training and evaluation protocols, and performance metrics including cross-species transfer accuracy compared to appropriate baselines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ABA modulates gene expression in an HSFA1-dependent manner without inducing chromatin remodeling"
+  - **Evidence pointer** Abstract only; no experimental data shown
+  - **Concern** This claim posits a clean separation between ABA-dependent transcriptional regulation and chromatin remodeling. The abstract does not indicate what chromatin assays were performed under ABA treatment, what loci were examined, what statistical thresholds were used to conclude "no remodeling," or how the HSFA1 dependence of ABA effects was established. A negative result of this kind requires explicit power analysis and demonstration that the assay would have detected remodeling if it occurred.
+  - **Why it matters** The dissociation of ABA signaling from chromatin remodeling is presented as a key conceptual finding. If the negative result is underpowered or the assay conditions are suboptimal, the conclusion would be misleading. This claim also has implications for how the field thinks about hormone signaling and chromatin dynamics.
+  - **Resolution test** Show that ABA treatment produces no significant chromatin accessibility changes at a genome-wide scale with appropriate statistical power, and that ABA-responsive gene expression changes are attenuated or abolished in HSFA1 mutants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "chromatin dynamics" is used without definition. It is unclear whether this refers to nucleosome positioning, histone modifications, chromatin accessibility, or higher-order structure.
+  - **Required correction** Define the specific chromatin features assayed in the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Gene regulatory network modeling
+  - **Evidence pointer** Abstract, sentence on MpWRKY10 and MpABI5B
+  - **Issue** The terms "indirect" and "negative" regulators are used without explanation of the network inference approach or the criteria for classifying regulators as indirect or negative.
+  - **Required correction** Briefly describe the network modeling approach and define what constitutes indirect and negative regulation in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Species comparison
+  - **Evidence pointer** Abstract, conservation claim
+  - **Issue** The abstract states conservation across "land plants, mice, and humans" but does not specify which plant species beyond Marchantia and Arabidopsis were examined, or whether the mouse and human data were generated in this study or reanalyzed from public datasets.
+  - **Required correction** Clarify which species were directly assayed versus reanalyzed, and specify the data sources for mouse and human chromatin accessibility data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cross-kingdom conservation evidence), R1-M2 (machine learning framework validation), R1-M3 (negative result for ABA-induced chromatin remodeling)
+- **Assessment against Nature-style criteria** Originality: The claim of HSFA1-dependent chromatin remodeling conserved across plants and animals is potentially original and would represent a conceptual advance if rigorously supported. Scientific importance: High, given the fundamental role of heat stress responses in agriculture and medicine, and the potential for a unified regulatory model across kingdoms. Interdisciplinary readership: The topic bridges plant biology, chromatin biology, comparative genomics, and computational biology, which would attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the three major concerns above must be resolved. Readability for nonspecialists: The abstract is generally accessible, though terms such as "cis-regulatory element accessibility" and "gene regulatory network modeling" could benefit from brief contextual framing for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an ambitious and potentially important set of claims, but the evidence base is entirely invisible. I would be supportive if the full manuscript resolves the three blocking concerns with rigorous experimental and computational validation. The cross-kingdom conservation claim and the machine learning framework are the two elements that most require detailed scrutiny.
+
+## Risk / unsupported claims
+- Cross-kingdom conservation of HSFA1-dependent CRE accessibility across land plants, mice, and humans is unsupported by the visible evidence.
+- The machine learning framework's ability to predict gene expression across species is unverifiable from the abstract.
+- The claim that ABA modulates gene expression without inducing chromatin remodeling is an unsupported negative result.
+- The classification of MpWRKY10 and MpABI5B as indirect and negative HS regulators is not supported by visible data.
+- The statement that HSFA1 is "a key regulator" of HS-induced CRE accessibility is plausible but cannot be evaluated without effect sizes or statistical comparisons.

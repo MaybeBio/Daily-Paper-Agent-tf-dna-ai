@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Not assessed: editorial fit, formatting, or literature completeness beyond what is visible.
+- **Shared manuscript claim summary** The manuscript claims that the histone variant H2A.Z enhances binding of pioneer transcription factors Sox2 and Oct2 to nucleosomes by increasing DNA unwrapping and mobility, altering H3 N-terminal tail dynamics and reducing H3 tail-DNA contacts, and that these effects are DNA-sequence dependent and most pronounced in the less stable Lin28B nucleosome.
+- **Visible evidence base** EMSA binding assays, ExoIII nuclease digestion, restriction enzyme (MslI) accessibility assay, FRET-based DNA end-distancing measurements, solution NMR (1H-15N HSQC) of H3, H4, H2A/H2A.Z tails, and 1 μs MD simulations of 601 and Lin28B nucleosomes with and without Sox2.
+- **Missing materials affecting confidence** Full NMR assignment tables, complete MD trajectory analysis details (e.g., convergence criteria, replica reproducibility), raw gel images, exact quantification procedures for EMSA, and the full set of supplementary figures and tables referenced but not provided in the submitted text.
+
+## Reviewer
+- **Overall assessment** This is a technically sophisticated and largely well-executed study that combines biochemical, biophysical, and computational approaches to address a mechanistically important question. The central claim, that H2A.Z promotes Sox2 and Oct4 binding by increasing DNA accessibility and reducing H3 tail competition, is plausible and partially supported. However, the evidence for the causal link between the observed dynamic changes and the enhanced binding is largely correlative, and several key controls and quantitative comparisons are missing or underreported. The manuscript would be strengthened by direct tests of the proposed mechanism and by more rigorous quantification of the binding and dynamics data.
+- **Who would be interested in the results, and why** Researchers studying chromatin structure and dynamics, histone variants, pioneer transcription factors, and the molecular basis of epigenetic regulation. The work is also relevant to those interested in the biophysical characterization of protein-DNA interactions in a chromatin context and to computational biologists studying nucleosome dynamics.
+- **Major strengths** The study uses a multi-pronged approach, integrating experiment and simulation. The use of defined nucleosome positioning sequences and specific Sox2-Oct4 composite motifs is a strength. The NMR data on H3 tail dynamics in the context of intact nucleosomes is valuable and technically challenging. The MD simulations provide atomistic detail that complements the experimental observations. The identification of a potential H3 R42-H2A E121 interaction is an interesting and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between observed dynamics and binding enhancement
+  - **Claim pointer** The manuscript claims that H2A.Z enhances Sox2 and Oct4 binding "by promoting DNA and histone H3 tail mobility" and that reduced H3 tail competition "could" favor binding.
+  - **Evidence pointer** Results sections "H2A.Z stimulates DNA unwrapping...", "H2A.Z alters the conformational dynamics...", "H2A.Z enhances Sox2 and Oct4 binding...", and "Sox2 displaces the H3 N-terminal tail..."
+  - **Concern** The study demonstrates a correlation between H2A.Z-induced changes in DNA unwrapping/H3 tail dynamics and enhanced Sox2/Oct4 binding. However, it does not provide direct evidence that these dynamic changes are the cause of the enhanced binding. The H3 tail displacement by Sox2 is shown, but it is not demonstrated that this displacement is required for, or mechanistically linked to, the enhanced binding affinity. Alternative explanations, such as H2A.Z-induced changes in the histone fold or direct allosteric effects on the Sox2 binding site, are not excluded.
+  - **Why it matters** The central mechanistic claim of the paper rests on this link. Without direct evidence, the conclusion is correlative and the proposed model remains a hypothesis.
+  - **Resolution test** The authors should perform experiments that directly test the role of the H3 tail in H2A.Z-mediated binding enhancement. This could include: (1) using nucleosomes with H3 tail truncations or specific point mutations (e.g., R26A, R17A) to see if the H2A.Z enhancement is lost; (2) using a Sox2 mutant that cannot displace the H3 tail to see if binding enhancement is reduced; (3) comparing binding affinity of Sox2 to H2A and H2A.Z nucleosomes under conditions where H3 tail-DNA interactions are weakened (e.g., high salt). If the H3 tail is the key mediator, the H2A.Z enhancement should be diminished or abolished in these contexts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of binding data
+  - **Claim pointer** The claim that H2A.Z "enhances" Sox2 and Oct4 association is based on EMSA data.
+  - **Evidence pointer** Results section "H2A.Z enhances Sox2 and Oct4 binding to modified 601 nucleosomes", Figure 5, Supplementary Figure S12.
+  - **Concern** The EMSA data are presented as representative gels and bar graphs of "fraction bound" from 3-4 independent experiments. However, no apparent binding affinities (Kd values) or quantitative comparisons of binding curves are provided. It is unclear if the reported differences in "fraction bound" between H2A and H2A.Z nucleosomes are statistically significant across the full range of protein concentrations tested, or if they represent a shift in the binding curve. The text mentions "visibly increased" and "enhanced" but lacks a quantitative measure of the enhancement.
+  - **Why it matters** To support the claim of enhanced binding, a quantitative measure of affinity or a statistically robust comparison of binding is required. Visual inspection of gels is insufficient to establish a quantitative difference.
+  - **Resolution test** The authors should provide a quantitative analysis of the EMSA data, such as fitting the binding curves to determine apparent Kd values for Sox2 and Oct4 binding to H2A and H2A.Z nucleosomes. This would allow a direct and statistically rigorous comparison of binding affinities. Alternatively, a more detailed statistical analysis of the fraction bound at multiple protein concentrations should be provided.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of NMR data
+  - **Claim pointer** The claim that H2A.Z alters H3 N-terminal tail dynamics and that Sox2 displaces the H3 tail from DNA.
+  - **Evidence pointer** Results sections "H2A.Z alters the conformational dynamics...", "Sox2 displaces the H3 N-terminal tail...", Figures 3, 7, 8, Supplementary Figures S5, S15, S16.
+  - **Concern** The interpretation of the NMR data is complex. The authors attribute changes in peak intensity to changes in dynamics (μs-ms vs ps-ns) but do not provide direct measurements of relaxation rates (R1, R2) or heteronuclear NOEs to support these claims. The assignment of H2A.Z residues is described as "guessed" for some, which is a significant concern for the reliability of the CSP analysis for H2A.Z. The statement that "low sample concentrations here prevented reliable NMR relaxation measurements" is a significant limitation.
+  - **Why it matters** The conclusions about altered dynamics and specific interactions (e.g., H3 R42-H2A E121) rely heavily on the accuracy of the NMR assignments and the interpretation of intensity changes. Without rigorous dynamics measurements, the conclusions about specific timescales of motion are speculative.
+  - **Resolution test** The authors should provide more robust evidence for their dynamic interpretations. This could include: (1) performing and reporting standard NMR relaxation experiments (R1, R2, hetNOE) to directly measure dynamics; (2) providing a more detailed and confident assignment strategy for H2A.Z, perhaps using site-specific labeling or mutants; (3) for the H3 R42-H2A E121 interaction, performing a targeted mutation (e.g., H3 R42A or H2A E121Q) and showing the effect on the NMR spectra and binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation validation and analysis
+  - **Claim pointer** The claim that MD simulations reveal increased DNA unwrapping, inter-gyre gapping, and H3 tail flexibility in H2A.Z nucleosomes.
+  - **Evidence pointer** Results sections "H2A.Z stimulates DNA unwrapping...", "H2A.Z alters the conformational dynamics...", Figures 2, 4, 9, Supplementary Figures S6-S11, S18-S21.
+  - **Concern** The MD simulations are a key part of the study, but the analysis presented is limited. The authors report on average properties (e.g., RMSF, contacts) but do not show that the simulations are converged or that the three replicas are consistent. The methods section is brief and refers to "SI Methods" for details, which are not provided. The functional significance of the observed changes (e.g., a 3.5% vs 2% beta-sheet content) is unclear.
+  - **Why it matters** For the computational results to be convincing, the simulations must be shown to be well-equilibrated and reproducible. The lack of detail on convergence and replica analysis makes it difficult to assess the robustness of the conclusions.
+  - **Resolution test** The authors should provide a more detailed analysis of the MD simulations, including: (1) time series of key observables (e.g., RMSD, radius of gyration) to demonstrate convergence; (2) a comparison of the three replicas to show reproducibility; (3) a more detailed description of the simulation setup and analysis in the main text or a fully provided supplementary methods section.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "pioneer factor" is used, but the specific definition in the context of this study (i.e., factors that can engage nucleosomal DNA) could be stated more explicitly for a general audience.
+  - **Required correction** Briefly define "pioneer factor" upon first use, e.g., "transcription factors that can bind to their target motifs on nucleosomal DNA."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figure 5, Supplementary Figure S12
+  - **Evidence pointer** Results section "H2A.Z enhances Sox2 and Oct4 binding...", Figure 5, Supplementary Figure S12
+  - **Issue** The statistical test used for the EMSA "fraction bound" comparisons is not stated in the main text.
+  - **Required correction** State the statistical test used (e.g., Student's t-test, ANOVA) and the number of replicates (n) for each comparison in the figure legends or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Results section "H2A.Z stimulates DNA unwrapping...", Figure 1
+  - **Issue** The ExoIII digestion data are presented as "fraction of DNA at each SHL" but the method for quantifying this from gel images is not described in the main text.
+  - **Required correction** Briefly describe the quantification method for the ExoIII gels in the methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods, Molecular dynamics simulation
+  - **Evidence pointer** Methods section "Molecular dynamics simulation"
+  - **Issue** The methods section for MD is very brief and refers to "SI Methods" for details. This is insufficient for a standalone assessment.
+  - **Required correction** Provide a more complete description of the simulation parameters, including the force field, water model, ion concentration, temperature/pressure coupling, and the length of equilibration and production runs in the main text or a fully accessible supplementary methods file.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results, "H2A.Z modulates an altered Lin2B nucleosome conformation..."
+  - **Evidence pointer** Results section "H2A.Z modulates an altered Lin28B nucleosome conformation in the presence of Sox2"
+  - **Issue** The text states that H2A.Z had "little effect" on Sox2 binding to Lin28B nucleosomes, but the DNaseI data show "enhanced cleavage at the dyad and SHL±1" in the presence of H2A.Z. This seems like a significant effect on the nucleosome structure, even if not on the apparent binding affinity.
+  - **Required correction** Clarify the distinction between binding affinity and structural effect. The lack of an effect on binding does not preclude a significant effect on nucleosome conformation, which is an interesting finding in itself.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding affinities (R1-M2) and the lack of direct evidence for the causal role of H3 tail dynamics in binding enhancement (R1-M1) are the primary technical failings. The incomplete description of the MD simulations (R1-M4) and the tentative NMR assignments (R1-M3) also need to be addressed.
+- **Assessment against Nature-style criteria**
+  - **Originality** The study is original in its specific focus on the mechanistic link between H2A.Z-induced dynamics and Sox2/Oct4 binding, and in its combination of techniques. However, the general concept that H2A.Z destabilizes nucleosomes is not new.
+  - **Scientific importance** The question of how pioneer factors access their target sites in chromatin is of fundamental importance. The study provides a plausible and testable model, but the lack of direct causal evidence limits its current impact.
+  - **Interdisciplinary readership** The topic is of interest to molecular biologists, biochemists, biophysicists, and computational biologists. The writing is generally accessible, but the results section is dense and would benefit from clearer summaries of the key findings.
+  - **Technical soundness** The experimental techniques are state-of-the-art and generally well-executed. The main weaknesses are in the quantitative analysis of the binding data and the lack of validation for the MD simulations and NMR interpretations.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The results and discussion are more technical and may be challenging for a general reader, but the main conclusions are stated clearly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and presents a plausible model, but the central mechanistic claim is not yet fully established from the provided evidence. The authors must provide quantitative binding data and direct tests of the proposed mechanism to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that H2A.Z enhances Sox2/Oct4 binding *because* of increased DNA and H3 tail mobility is not directly supported; it is a correlative model.
+- The claim that the H3 tail "competes" with Sox2 for DNA binding is supported by the displacement data, but the functional significance of this competition for binding affinity is not demonstrated.
+- The specific interaction between H3 R42 and H2A E121 is proposed based on MD and one NMR observation, but is not directly validated by mutation.
+- The statement that H2A.Z "simultaneously stabilizes certain internal DNA regions" is based on a single observation (suppressed internal ExoIII cleavage) and is not fully explored or supported by other data.
+- The functional significance of the "altered Lin28B nucleosome conformation" in the presence of Sox2 and H2A.Z is unclear, as it is not linked to a change in binding affinity.

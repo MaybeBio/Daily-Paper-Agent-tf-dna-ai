@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2023.07.29.23293346",
+  "title": "Graphical Learning and Causal Inference for Drug Repurposing",
+  "authors": "Xu T; Zhao J; Xiong M",
+  "journal": "medRxiv",
+  "published_date": "2023-08-02",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出基于因果推断和GNN的药物重定位框架，核心是基因表达逆转而非蛋白质-DNA互作，无TF-DNA结合建模，仅方法上GNN可迁移但对象与互作轴均不匹配。",
+  "abstract": "Gene expression profiles that connect drug perturbations, disease gene expression signatures, and clinical data are important for discovering potential drug repurposing indications. However, the current approach to gene expression reversal has several limitations. First, most methods focus on validating the reversal expression of individual genes. Second, there is a lack of causal approaches for identifying drug repurposing candidates. Third, few methods for passing and summarizing information on a graph have been used for drug repurposing analysis, with classical network propagation and gene set enrichment analysis being the most common. Fourth, there is a lack of graph-valued association analysis, with current approaches using real-valued association analysis one gene at a time to reverse abnormal gene expressions to normal gene expressions. To overcome these limitations, we propose a novel causal inference and graph neural network (GNN)-based framework for identifying drug repurposing candidates. We formulated a causal network as a continuous constrained optimization problem and developed a new algorithm for reconstructing large-scale causal networks of up to 1,000 nodes. We conducted large-scale simulations that demonstrated good false positive and false negative rates. To aggregate and summarize information on both nodes and structure from the spatial domain of the causal network, we used directed acyclic graph neural networks (DAGNN). We also developed a new method for graph regression in which both dependent and independent variables are graphs. We used graph regression to measure the degree to which drugs reverse altered gene expressions of disease to normal levels and to select potential drug repurposing candidates. To illustrate the application of our proposed methods for drug repurposing, we applied them to phase I and II L1000 connectivity map perturbational profiles from the Broad Institute LINCS, which consist of gene-expression profiles for thousands of perturbagens at a variety of time points, doses, and cell lines, as well as disease gene expression data under-expressed and over-expressed in response to SARS-CoV-2.",
+  "abstract_zh": "连接药物扰动、疾病基因表达特征和临床数据的基因表达谱对于发现潜在的药物再利用适应症至关重要。然而，当前的基因表达逆转方法存在若干局限性。首先，大多数方法侧重于验证单个基因的逆转表达。其次，缺乏用于识别药物再利用候选药物的因果方法。第三，在药物再利用分析中，用于在图上传递和汇总信息的方法很少，其中经典网络传播和基因集富集分析最为常见。第四，缺乏图值关联分析，当前方法使用实值关联分析一次处理一个基因，以将异常基因表达逆转至正常基因表达。为克服这些局限性，我们提出了一种基于因果推断和图神经网络（GNN）的新框架，用于识别药物再利用候选药物。我们将因果网络构建为连续约束优化问题，并开发了一种新算法，用于重建多达1,000个节点的大规模因果网络。我们进行了大规模模拟，展示了良好的假阳性和假阴性率。为从因果网络的空间域中聚合和汇总节点及结构信息，我们使用了有向无环图神经网络（DAGNN）。我们还开发了一种新的图回归方法，其中因变量和自变量均为图。我们使用图回归来测量药物将疾病改变的基因表达逆转至正常水平的程度，并选择潜在的药物再利用候选药物。为说明我们提出的方法在药物再利用中的应用，我们将其应用于来自Broad Institute LINCS的I期和II期L1000连接图谱扰动谱，这些谱包含数千种扰动剂在不同时间点、剂量和细胞系中的基因表达谱，以及响应SARS-CoV-2时下调和上调的疾病基因表达数据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2023.07.29.23293346",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2023.07.29.23293346",
+  "paper_page_path": "papers/medrxiv/10.1101_2023.07.29.23293346/index.html"
+}

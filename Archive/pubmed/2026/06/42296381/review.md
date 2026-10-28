@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, availability statements)
+- **Assessment boundary** Scientific claims, methodological soundness, validation strategy, and interpretation as presented in the provided text; code and data availability statements are noted but not independently verified
+- **Shared manuscript claim summary** The authors introduce causal circuit tracing for single-cell foundation models (scFMs) by ablating individual sparse autoencoder (SAE) features and measuring downstream effects, producing directed graphs of feature-to-feature dependencies. They report inhibitory dominance (65.5%–89.4% of edges negative), biological coherence via ontology enrichment (2.9–6.2× over permutation null), cross-model convergence between Geneformer and scGPT (1142 shared domain pairs), and weak but detectable validation against CRISPRi perturbation data after sign-bias correction.
+- **Visible evidence base** Full text including methods (Sections 2.1–2.13), results (Sections 3.1–3.12), tables referenced (Tables 1–4, Table 11 in supplementary), figures referenced (Figs 1–3), and supplementary material descriptions
+- **Missing materials affecting confidence** Actual figures and tables are not provided; supplementary material is referenced but not included; code repository and SAE atlas are not independently inspected; exact gene lists, feature annotations, and full statistical outputs are not available for verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial methodological contribution to mechanistic interpretability of single-cell foundation models. The scale of the analysis (96,892 edges, 80,191 forward passes) is impressive, and the authors demonstrate commendable scientific honesty in quantifying selection bias, reporting null results, and correcting for sign-bias in validation metrics. The core finding of inhibitory dominance is novel and potentially important for the field. However, several technical concerns must be addressed before the case is fully established, particularly regarding the interpretation of ablation effects, the biological meaning of "inhibitory dominance," and the strength of the CRISPRi validation.
+- **Who would be interested in the results, and why** Researchers in mechanistic interpretability of biological foundation models, computational biologists working with Geneformer or scGPT, and developers of single-cell AI models. The methodological framework (causal circuit tracing, sign-bias correction, direct/indirect target partitioning) will be of interest to anyone seeking to validate or interpret large biological models. The finding of inhibitory dominance has implications for how the community interprets SAE features and designs intervention studies.
+- **Major strengths** (1) Large-scale systematic causal analysis at a scale not previously attempted for biological FMs; (2) explicit quantification of selection bias through random-feature baselines; (3) sign-bias correction for directional accuracy metrics, which is methodologically rigorous and not standard in the field; (4) cross-model comparison under a common protocol; (5) transparent reporting of null results (e.g., Shifrut transfer failure); (6) clear separation of model-internal causality from biological causality.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of ablation effects
+  - **Claim pointer** "Inhibitory dominance (fraction of ablation edges with d<0, i.e. source activation supports downstream target) is 65.5%–89.4%"
+  - **Evidence pointer** Section 3.1, Fig. 2C
+  - **Concern** The interpretation of negative d values as "inhibitory" requires careful scrutiny. The authors define d as Cohen's d of the change in downstream feature activation when a source feature is ablated (zeroed). A negative d means that ablating the source feature reduces downstream activation. The authors interpret this as "source activation supports downstream target." However, this interpretation assumes that the SAE feature activations are linearly related to the underlying biological signal and that zeroing a feature is equivalent to removing its contribution. SAE features are nonlinear decompositions; zeroing a feature in the sparse code and decoding may produce a residual stream that is not simply the original minus that feature's contribution. The reconstruction error cancellation argument (Section 2.6) addresses first-order effects but does not fully justify the causal interpretation. Furthermore, the claim that "inhibitory dominance" is an "architectural feature" of the models requires stronger evidence that this is not an artifact of the SAE training objective or the specific threshold choices.
+  - **Why it matters** The central descriptive claim of the paper—that these models compute with "inhibitory dominance"—depends entirely on the validity of interpreting d<0 as inhibition. If the ablation procedure produces artifacts (e.g., due to nonlinear interactions in the decoder), the entire interpretation collapses. The authors need to demonstrate that their ablation procedure is a faithful causal intervention, perhaps by comparing against alternative intervention methods (e.g., activation patching with counterfactual replacements) or by validating on synthetic data with known ground-truth circuits.
+  - **Resolution test** Provide validation of the ablation methodology on a synthetic or semi-synthetic setting where ground-truth feature dependencies are known. Alternatively, compare zero-ablation results against an alternative intervention (e.g., replacing the feature activation with its mean value rather than zero, or using a different decoding strategy) and show that the qualitative conclusions (inhibitory dominance) are robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation strength
+  - **Claim pointer** "Gene-level CRISPRi validation on Replogle K562 and the noncancer RPE1 arm... after sign-bias correction shows excess over baseline of +0.03 and +0.35 percentage points on K562 and RPE1, respectively"
+  - **Evidence pointer** Section 3.11, Table 3
+  - **Concern** The reported CRISPRi validation results are extremely weak. An excess of +0.03 percentage points on K562 (from a baseline of 52.06%) means the model's directional predictions are essentially indistinguishable from chance after correcting for sign bias. The RPE1 result (+0.35 pp) is slightly better but still very small. The authors acknowledge this weakness but frame it as "weakly but detectably enriched." However, the statistical significance of these effects is not reported with confidence intervals or effect-size measures beyond the point estimates. Moreover, the direct versus indirect partition (Section 3.9) shows a 10–30× ratio in excess, but the absolute excess values for direct pairs (+0.89 pp K562, +1.03 pp RPE1) remain small. The claim that the models "capture a weak but detectable direct regulatory signal" needs stronger statistical backing, including confidence intervals, and a discussion of whether such small effects are practically meaningful for biological discovery.
+  - **Why it matters** The paper's validation strategy is a key differentiator from prior work. If the biological validation is this weak, readers may question whether the circuit graphs have any biological utility. The authors need to either strengthen the validation (e.g., by focusing on high-confidence direct pairs, using more stringent thresholds, or aggregating across related targets) or temper their claims about biological relevance.
+  - **Resolution test** Provide confidence intervals for all excess-over-baseline estimates. Perform a power analysis to determine whether the sample sizes are adequate to detect the claimed effects. Consider whether a more focused validation (e.g., on a curated set of high-confidence TF–target pairs with strong ChIP-seq support) would yield larger effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cross-model comparison validity
+  - **Claim pointer** "Cross-model consensus yields 1142 architecture-invariant domain pairs... 10.6× enrichment over permutation null"
+  - **Evidence pointer** Section 3.7, Fig. 3
+  - **Concern** The cross-model comparison is a strength, but the interpretation of "architecture-invariant" requires more nuance. The two models differ in architecture, tokenization, and training data. The authors attribute consensus to "computational architectures" but do not disentangle the contributions of these factors. The 10.6× enrichment is impressive, but the absolute number of consensus pairs (1142) is small relative to the total number of possible domain pairs. Additionally, the permutation null for cross-model consensus is described as "feature-correspondence shuffles" but the exact procedure is not fully specified in the text provided. The authors should clarify what is being shuffled and why this is the appropriate null.
+  - **Why it matters** The claim of "cross-model convergence" is one of the headline findings. If the consensus is driven primarily by shared training data (e.g., both models trained on similar cell atlases) rather than architectural principles, the interpretation changes. The authors need to more carefully separate these factors or acknowledge the confounding.
+  - **Resolution test** Provide a more detailed description of the permutation null. Consider additional analyses that control for training data overlap (e.g., comparing models trained on identical data with different architectures, or vice versa). Discuss the extent to which the consensus pairs reflect shared biological signal in the training data versus architectural convergence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of ontology enrichment
+  - **Claim pointer** "edges share GO/KEGG/Reactome/STRING/TRRUST ontology terms at 50.9%–68.5%, a 2.9–6.2× enrichment over a configuration-preserving permutation null (P<.002)"
+  - **Evidence pointer** Section 3.2, Table 2
+  - **Concern** The ontology enrichment analysis is central to the biological coherence claim, but several aspects require clarification. First, the multiple testing burden across 120 source features, multiple ontologies, and multiple conditions is not addressed; the reported P<.002 appears to be per-condition without correction. Second, the "configuration-preserving permutation null" shuffles term sets within layers, but the authors do not report the distribution of the null or the stability of the enrichment across permutations. Third, the selection bias quantification (21.5%–26.3% for random features) is valuable, but the authors should also report the enrichment for random features relative to the null to establish the baseline rate.
+  - **Why it matters** The ontology coherence numbers are a key piece of evidence for biological meaningfulness. If the statistical approach is not rigorous, the claim is weakened. The authors need to demonstrate that their enrichment is robust to multiple testing corrections and that the permutation null is appropriate.
+  - **Resolution test** Report multiple-testing-corrected P-values (e.g., Benjamini–Hochberg across all source features and ontologies). Provide the full null distribution for at least one condition. Report enrichment for random features relative to the same null to establish the baseline.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section 2.3, ablation procedure
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the ablation procedure is somewhat terse. Specifically, it is unclear whether the ablation is applied to the source feature's activation in the sparse code before decoding, and whether the modified residual stream is then passed through the remaining layers of the transformer or only used for SAE encoding of downstream layers. The phrase "zeroing one SAE feature at a source layer and measuring the resulting change in all downstream SAE features" suggests the latter, but this should be stated explicitly.
+  - **Required correction** Clarify the exact sequence of operations in the ablation procedure, including whether the modified residual stream is passed through the full transformer or only through the SAE encoders at downstream layers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Computational cost reporting
+  - **Affected element** Section 2.13, availability
+  - **Evidence pointer** Section 2.13
+  - **Issue** The authors report that full K562/K562 tracing completes in 7.5 hours on a single Apple Silicon laptop. This is surprisingly fast for 80,191 forward passes on a 316M-parameter model. It would be helpful to report the batch size, the number of cells per forward pass, and whether this timing includes the SAE encoding of all layers or only the traced layers.
+  - **Required correction** Provide additional details on the computational setup, including batch sizes and the number of cells processed per forward pass, to allow readers to assess the scalability of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of "inhibitory dominance"
+  - **Affected element** Section 3.1, Fig. 2C
+  - **Evidence pointer** Section 3.1
+  - **Issue** The term "inhibitory dominance" is potentially misleading. In neuroscience, "inhibition" has a specific meaning related to suppressive synaptic transmission. Here, the authors use it to describe the sign of ablation effects. A more neutral term such as "negative-dominance" or "suppressive dominance" might be clearer, or the authors should explicitly define what they mean by "inhibitory" in this context.
+  - **Required correction** Define "inhibitory dominance" explicitly in the text and consider whether a less loaded term would be more appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1–3
+  - **Evidence pointer** Figures referenced in Sections 3.1, 3.6, 3.7
+  - **Issue** The figures are referenced but not provided in the manuscript text. Given that the figures are central to the results, it would be helpful to include at least a brief description of what each figure shows in the text, or to ensure the figures are available in the supplementary material.
+  - **Required correction** Ensure figures are accessible and provide brief captions or in-text descriptions of the key visual elements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Author contribution statement
+  - **Affected element** Author contributions section
+  - **Evidence pointer** Author contributions
+  - **Issue** The author contribution statement lists "Conceptualization [equal]" for a single author. The "[equal]" designation is typically used for multi-author papers to indicate equal contributions. For a single-author paper, this is redundant and could be simplified.
+  - **Required correction** Simplify the author contribution statement for a single-author paper, removing the "[equal]" designations.
+- **Technical failings that need to be addressed before the case is established** (1) Validation of the ablation methodology as a faithful causal intervention (R1-M1); (2) statistical rigor of the CRISPRi validation, including confidence intervals and power analysis (R1-M2); (3) clarification of the permutation null for cross-model consensus (R1-M3); (4) multiple testing correction for ontology enrichment (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The application of causal circuit tracing to single-cell foundation models at this scale is novel. The systematic quantification of selection bias and the sign-bias correction are methodologically innovative.
+  - **Scientific importance** Moderate to high. Understanding how scFMs compute internally is important for the field, and the finding of inhibitory dominance, if validated, could influence how these models are interpreted and improved. However, the weak biological validation limits the immediate practical impact.
+  - **Interdisciplinary readership** Moderate. The paper will appeal to computational biologists and AI researchers working on biological models, but the methods are specialized and may not attract a broader readership without clearer biological implications.
+  - **Technical soundness** The methodology is largely sound, but the concerns above regarding ablation interpretation and statistical rigor need to be addressed. The computational scale is impressive, and the stability analyses are well designed.
+  - **Readability for nonspecialists** The abstract is clear, but the full text is dense and assumes familiarity with SAEs, transformer architectures, and single-cell genomics. The authors make an effort to explain concepts, but the paper would benefit from a brief primer on SAEs and causal tracing for nonspecialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable methodological contribution with honest reporting of limitations. However, the central interpretation of inhibitory dominance and the strength of the biological validation need to be more rigorously established before the case is fully made. I recommend major revision with a focus on the technical concerns identified above.
+
+## Risk / unsupported claims
+- The claim that "inhibitory dominance" is an "architectural feature" of the models is not fully supported without validation of the ablation methodology (R1-M1).
+- The claim that the models "capture a weak but detectable direct regulatory signal" is based on very small excess-over-baseline values without confidence intervals (R1-M2).
+- The claim of "cross-model convergence" as evidence of "architecture-invariant" computation is confounded by shared training data and tokenization differences (R1-M3).
+- The statement that "the graph encodes structure beyond bivariate correlation" (R2=0.010) is supported, but the practical significance of this finding is unclear.
+- The claim that "the circuit graph is therefore highly reproducible as an effect-size map" is supported by the stability analyses, but the biological utility of this reproducibility is not demonstrated.
+- The statement that "most circuit domains match at least one" disease category is vague and does not quantify the overlap.
+- The claim that "the set is a structured hypothesis space for targeted experimental follow-up" is speculative and not validated by any experimental evidence.

@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "41852002",
+    "doi": "10.34172/aim.34814",
+    "title": "In Silico Transcriptomic Analysis for Identification of Potential Diagnostic and Prognostic Biomarkers and Therapeutic Targets in Cervical Cancer using a Hybrid Genetic Algorithm-Support Vector Machine Approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cervical cancer is the leading malignancy among women worldwide, posing clinical and public health challenges. This in silico study aims to identify potential diagnostic biomarkers, therapeutic targets, and prognostic markers associated with cervical cancer through integrative bioinformatics approaches. METHODS: A hybrid machine learning approach, combining genetic algorithm (GA) and support vector machine (SVM), was applied to high-dimensional gene expression data from publicly available transcriptomic datasets, including the Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA). A total of 72 Geo samples (Affymetrix, Illumina) served as the primary dataset after normalization. RESULTS: The GA-SVM model achieved about 99% accuracy and AUC with 10-fold cross validation, clearly separating cervical cancer from normal tissues. Eight genes (CXCL9, CTGF, ZNF704, ZEB2, SASH1, PTN, KPNA2, SLC5A1) were identified as diagnostic biomarkers. Protein-protein interaction (PPI) and functional enrichment analyses revealed 42 therapeutic targets (e.g. CDK1, BRCA1, CCNB1, and AURKB) linked to regulating cell cycle, DNA repair, and mitotic processes. Survival analysis identified six genes (CXCL1, DNMT1, MMP1, MYBL2, PCNA, and RRM2) as key prognostic markers. Additionally, transcription factor analysis identified E2F1 and TP63 as major regulators of the prognostic genes, elucidating the molecular mechanisms underlying cervical cancer progression. CONCLUSION: The identified gene signatures may serve as candidates for hypothesis generation and provide a computational framework to prioritize biomarkers and therapeutic targets in cervical cancer. However, these findings are based on in silico analyses and require experimental and clinical validation before translation into practice.",
+    "keywords": [
+      "Biomarkers",
+      "Cervix neoplasm",
+      "Gene expression",
+      "Genetic algorithm",
+      "Support vector machine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/genetics/diagnosis/therapy",
+      "*Support Vector Machine",
+      "*Biomarkers, Tumor/genetics",
+      "Prognosis",
+      "Genetic Algorithms",
+      "*Gene Expression Profiling/methods",
+      "Computer Simulation",
+      "Transcriptome",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nezamabadi Farahani, Leila",
+        "Kazemnejad, Anoshirvan",
+        "Afrasiabi, Mahlagha",
+        "Tapak, Leili"
+      ],
+      "short_names": [
+        "Nezamabadi Farahani L",
+        "Kazemnejad A",
+        "Afrasiabi M",
+        "Tapak L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3932-6062",
+        "ORCID: 0000-0002-0143-9635",
+        "ORCID: 0000-0001-9472-4453",
+        "ORCID: 0000-0002-4378-3143"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Department of Biostatistics, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Department of Computer, Hamedan University of Technology, Hamedan, Iran.",
+        "Modeling of Noncommunicable Diseases Research Center, Institute of Health Sciences and Technologies, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Department of Biostatistics, School of Public Health, Hamadan University of Medical Sciences, Hamadan, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nezamabadi Farahani, Leila",
+        "short_name": "Nezamabadi Farahani L",
+        "identifiers": [
+          "0000-0002-3932-6062"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Kazemnejad, Anoshirvan",
+        "short_name": "Kazemnejad A",
+        "identifiers": [
+          "0000-0002-0143-9635"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Afrasiabi, Mahlagha",
+        "short_name": "Afrasiabi M",
+        "identifiers": [
+          "0000-0001-9472-4453"
+        ],
+        "affiliations": [
+          "Department of Computer, Hamedan University of Technology, Hamedan, Iran."
+        ]
+      },
+      {
+        "full_name": "Tapak, Leili",
+        "short_name": "Tapak L",
+        "identifiers": [
+          "0000-0002-4378-3143"
+        ],
+        "affiliations": [
+          "Modeling of Noncommunicable Diseases Research Center, Institute of Health Sciences and Technologies, Hamadan University of Medical Sciences, Hamadan, Iran.",
+          "Department of Biostatistics, School of Public Health, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of Iranian medicine"
+    ],
+    "journal_abbrev": [
+      "Arch Iran Med"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 07:11",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40600320",
+      "37940644",
+      "36849997",
+      "36829667",
+      "35444805",
+      "35429302",
+      "35201567",
+      "34671205",
+      "34540995",
+      "34482737",
+      "33829064",
+      "33155930",
+      "31354287",
+      "31071170",
+      "30931480",
+      "29737570",
+      "29436615",
+      "28407145",
+      "26988373",
+      "24662128",
+      "22484226",
+      "21999220",
+      "21423737",
+      "21296855",
+      "20473886",
+      "18006270",
+      "17938014",
+      "16398926",
+      "12044010",
+      "9459645",
+      "9023828",
+      "8276293"
+    ],
+    "similar": [
+      "41852002",
+      "42477639",
+      "38863714",
+      "41872824",
+      "42074514",
+      "40305445",
+      "41342434",
+      "42336904",
+      "41233664",
+      "40763562",
+      "40328901",
+      "42479091",
+      "41511815",
+      "41405958",
+      "34814332",
+      "41099090",
+      "42500207",
+      "29608985",
+      "41106766",
+      "41351424",
+      "42180604",
+      "41388523",
+      "40419032",
+      "40496857",
+      "37212262",
+      "41239481",
+      "41611834",
+      "41220724",
+      "42164373",
+      "34372798",
+      "42589294",
+      "41169155",
+      "34404366",
+      "42274933",
+      "36852684",
+      "41300841",
+      "39507054",
+      "26701206",
+      "40355485",
+      "40320470",
+      "32922202",
+      "42123756",
+      "41214111",
+      "40313958",
+      "39372720",
+      "41723567",
+      "34384424",
+      "32181600",
+      "36049413",
+      "40406126",
+      "42024670",
+      "39294534",
+      "40804485",
+      "41415264",
+      "31337953",
+      "36195955",
+      "41188996",
+      "34555052",
+      "40238057",
+      "41200172",
+      "30654001",
+      "41320661",
+      "39835132",
+      "40761790",
+      "42397093",
+      "41367897",
+      "39586719",
+      "41345436",
+      "41436831",
+      "42236612",
+      "40681784",
+      "41146237",
+      "42120472",
+      "30020984",
+      "40084401",
+      "42558367",
+      "40725485",
+      "41546812",
+      "41006883",
+      "33616161",
+      "41836220",
+      "40747615",
+      "40826700",
+      "39904830",
+      "41643488",
+      "41642369",
+      "42475371",
+      "41716413",
+      "34151839",
+      "41329415",
+      "33447084",
+      "30942460",
+      "40908400",
+      "40317014",
+      "42195052",
+      "40755754",
+      "41751534",
+      "39400774",
+      "39512836",
+      "42051519"
+    ],
+    "review": [
+      "41852002",
+      "37212262"
+    ],
+    "pmc": [
+      "13000335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.34172/aim.34814",
+        "provider": "Academy Of Medical Sciences of I.R. of Iran",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://screening.iarc.fr/viavili.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A practical manual on visual screening for cervical neoplasia"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41852002/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CXCL9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

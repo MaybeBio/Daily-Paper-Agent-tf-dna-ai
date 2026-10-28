@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors present an interpretable recurrent neural network framework that identifies and characterizes upstream and downstream genetic elements flanking transcription factor binding motifs, and use this framework to model twenty-six transcription factors, scoring TF-DNA binding at base-pair resolution. They report significant differences in DNA context feature activations between bound and unbound sequences, and propose that their framework enables identification and annotation of DNA sequence elements that modulate TF-DNA binding. They also note that data processing choices substantially influence model performance.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, evaluation metrics, or dataset descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, model architecture specification, training and validation datasets, performance metrics, comparison with existing methods, interpretation validation procedures, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful deep-learning approach for studying sequence context effects on transcription factor binding. The central idea, that flanking genetic elements beyond the core motif contribute to binding selectivity, is biologically plausible and of interest. However, the abstract provides insufficient technical detail to evaluate the novelty of the architecture, the rigor of the evaluation, or the validity of the interpretability claims. The claim of base-pair resolution scoring and the identification of modulating elements requires substantial methodological support that is not visible in the supplied material. The statement regarding data processing influence on performance is vague and raises questions about robustness. As presented, the case for a significant advance is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding prediction and regulatory genomics would be the primary audience. Researchers studying cis-regulatory logic and non-coding variant interpretation may also find the interpretability features relevant. The potential to identify flanking elements that modulate binding could interest experimental biologists studying gene regulation, though they would require clearer biological validation.
+- **Major strengths** The focus on sequence context beyond the core motif addresses a recognized gap in transcription factor binding models. The use of an interpretable recurrent architecture is appropriate for capturing positional dependencies in flanking sequence. The application to twenty-six transcription factors suggests a reasonably broad scope. The explicit acknowledgment that data processing affects performance indicates some methodological awareness.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The framework "scores the TF-DNA binding at a base-pair resolution" and "identifies and annotates DNA sequence with possible elements that modulate TF-DNA binding"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract claims base-pair resolution scoring and identification of modulating elements, but no details are given on how base-pair resolution is achieved, how the recurrent architecture assigns contributions to individual positions, or how identified elements are validated. Without a description of the interpretation method, such as attention weights, gradient-based attribution, or perturbation analysis, the claim of identifying and annotating modulating elements is unsupported.  
+  - **Why it matters** The central novelty appears to rest on the interpretability and the ability to pinpoint functional flanking elements. If the interpretation method is not rigorously validated, the biological conclusions drawn from it may be artifacts of the model rather than genuine regulatory features.  
+  - **Resolution test** Provide a detailed description of the interpretation mechanism, demonstrate its accuracy on simulated or experimentally validated cases, and show that identified elements are enriched for known regulatory features or are supported by independent experimental evidence.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "We find significant differences in activations of DNA context features for bound and unbound sequences"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No statistical details are provided for this claim. It is unclear what test was used, how multiple testing across twenty-six transcription factors was handled, what the effect sizes were, and whether the differences were consistent across factors. The term "significant" is used without reporting p-values, confidence intervals, or any measure of magnitude.  
+  - **Why it matters** This is a core empirical claim that supports the framework's utility. Without proper statistical reporting, the reader cannot assess whether the observed differences are meaningful or could arise from noise or model artifacts.  
+  - **Resolution test** Report the statistical test used, the distribution of effect sizes across transcription factors, correction for multiple comparisons, and ideally show that the differences are reproducible across cross-validation folds or independent datasets.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The framework is presented as novel, with "outstanding interpretability" that enables identification of modulating elements  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not situate this work relative to existing interpretable deep learning methods for transcription factor binding, such as DeepBind, DeepSEA, or more recent attention-based and explainable AI approaches. It is unclear what specific architectural or interpretability advances are being claimed. The phrase "outstanding interpretability" is subjective and not substantiated with comparisons.  
+  - **Why it matters** For a methods paper, the novelty claim is central. If similar interpretable frameworks already exist, the contribution may be incremental rather than a significant advance.  
+  - **Resolution test** Provide a clear comparison with prior interpretable models, specify the architectural innovations, and demonstrate quantitatively that the interpretability is superior or that the biological insights are new.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "differences in data processing have a huge influence on the overall model performance"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This statement is vague. It is unclear which data processing steps were varied, how performance was measured, and whether the authors identified an optimal pipeline. The lack of specificity makes it impossible to assess the robustness of the reported results or to reproduce the findings.  
+  - **Why it matters** Data processing choices are known to affect deep learning performance in genomics. If the authors do not specify their pipeline clearly, other researchers cannot build on the work or trust the reported results.  
+  - **Resolution test** Describe the data processing steps tested, report performance differences quantitatively, and specify the final pipeline used for all reported results.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "relative analysis of sequence context features" is unclear. It is not obvious what "relative" means in this context, whether it refers to position relative to the motif, or to comparisons between bound and unbound sequences.  
+  - **Required correction** Clarify the meaning of "relative analysis" and specify what comparisons are being made.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Dataset description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state which cell types, experimental assays, or genomic regions were used to define bound and unbound sequences for the twenty-six transcription factors.  
+  - **Required correction** Specify the source of the training and evaluation data, such as ChIP-seq datasets, and the criteria for defining bound versus unbound sites.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Validation  
+  - **Affected element** Biological validation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract claims identification of elements that modulate binding but does not mention any experimental validation, such as reporter assays or electrophoretic mobility shift assays, to confirm the predicted effects.  
+  - **Required correction** State whether any experimental validation was performed, or clearly indicate that the predictions are computational hypotheses requiring further testing.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The interpretation method and the statistical basis for the central empirical claim must be fully described and validated. R1-M3 and R1-M4, while not blocking, are important for establishing novelty and reproducibility.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of using interpretable deep learning to study flanking sequence effects is not entirely new, and the abstract does not clearly differentiate this work from existing methods. Originality is currently not established.  
+  - Scientific importance: The question of how flanking elements modulate transcription factor binding is important for understanding gene regulation. However, the abstract does not demonstrate that the framework yields new biological insights beyond what is already known.  
+  - Interdisciplinary readership: The work could appeal to both computational and experimental biologists, but the abstract is written in a way that is accessible primarily to those already familiar with deep learning in genomics. The biological significance is not framed for a broader audience.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and statistical reporting prevents evaluation.  
+  - Readability for nonspecialists: The abstract is reasonably concise but uses jargon such as "interpretable recurrent neural network architecture" and "base-pair resolution" without sufficient explanation for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, statistical support, or comparison with existing work to assess whether the claims are valid. A full manuscript with detailed methods, validation, and results would be required to evaluate the contribution.
+
+## Risk / unsupported claims
+- The claim of base-pair resolution scoring is unsupported without a description of the scoring mechanism.
+- The claim of identifying and annotating modulating elements is unsupported without details of the interpretation method and validation.
+- The claim of significant differences in context feature activations is unsupported without statistical reporting.
+- The claim of "outstanding interpretability" is subjective and not substantiated.
+- The statement that data processing differences have a huge influence on performance is vague and not quantifiable.
+- The overall utility of the framework for novel biological insights is not demonstrated from the abstract.

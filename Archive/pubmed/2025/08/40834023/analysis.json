@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40834023",
+  "title": "Common molecular links and therapeutic insights between type 2 diabetes and kidney cancer.",
+  "authors": "Ahmmed, Reaz; Islam, Mohammad Amirul; Hasan, Md Taohid; Sarker, Arnob; Ali, Md Ahad; Islam, Md Saiful; Sultana, Mst Zafrin; Mollah, Md Nurul Haque",
+  "journal": "PloS one",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过转录组与PPI网络分析糖尿病与肾癌共享基因，并涉及TF调控网络与分子对接，但核心是疾病关联而非蛋白质-DNA互作机制建模，方法以常规生信为主，与课题匹配度低。",
+  "abstract": "INTRODUCTION: Type 2 diabetes (T2D) is considered as a risk factor for kidney cancer (KC). However, so far, there is no study in the literature that has explored genetic factors through which T2D drive the development and progression of KC. Therefore, this study attempted to explore T2D- and KC-causing shared key genes (sKGs) for revealing shared pathogenesis and therapeutic drugs as their common treatments. METHODS: The integrated bioinformatics and system biology approaches were utilized in this study. The statistical LIMMA approach was used based web-tool GEO2R to detect differentially expressed genes (DEGs) through transcriptomics analysis. Then upregulated and downregulated DEGs for T2D and KC were combined to obtained shared DEGs (sDEGs) between T2D and KC. The STRING database was used to construct the protein-protein interaction (PPI) network of sDEGs. Then Cytohubba plugin-in Cytoscape were used in the PPI network to disclose the sKGs based on different topological measures. The RegNetwork database was used in NetworkAnalyst to analyze co-regulatory networks of sKGs with transcription factors (TFs) and micro-RNAs to identify key TFs and miRNAs as the transcriptional and post-transcriptional regulators of sKGs, respectively. AutoDock Vina is a tool used for molecular docking. ADME/T properties were 24 assessed using pkCSM and SwissADME. RESULTS: At first, 74 shared DEGs (sDEGs) were identified that can distinguish both KC and T2D patients from control samples. Through protein-protein interaction (PPI) network analysis, top-ranked 6 sDEGs (CD74, TFRC, CREB1, MCL1, SCARB1 and JUN) were detected as the sKGs that drive both KC and T2D development and progression. The most common sKG 'CD74' is associated with key pathways, such as NF-kappaB signaling transduction, apoptotic processes, B cell proliferation. Differential expression patterns of sKGs validated by independent datasets of NCBI database for T2D and TCGA and GTEx databases for KC. Furthermore, sKGs were found to be significant at several CpG sites in DNA methylation studies. Regulatory network analysis identified three TFs proteins (SMAD5, ATF1 and NR2F1) and two miRNAs (hsa-mir-1-3p and hsa-mir-34a-5p) as the regulators of sKGs. The enrichment analysis of sKGs with KEGG-pathways and Gene Ontology (GO) terms revealed some crucial shared pathogenetic mechanisms (sPM) between two diseases. Finally, sKGs-guided four potential therapeutic drug molecules (Imatinib, Pazopanib hydrochloride, Sorafenib and Glibenclamide) were recommended as the common therapies for KC with T2D. CONCLUSION: The results of this study may be useful resources for the diagnosis and therapy of KC with the co-existence of T2D.",
+  "abstract_zh": "引言：2型糖尿病（T2D）被视为肾癌（KC）的风险因素。然而，迄今为止，文献中尚无研究探讨T2D通过遗传因素驱动KC发生和进展的机制。因此，本研究试图探索T2D和KC共有的关键基因（sKGs），以揭示其共享的发病机制及作为共同治疗方案的药物。方法：本研究采用整合生物信息学和系统生物学方法。基于网络工具GEO2R使用统计LIMMA方法，通过转录组学分析检测差异表达基因（DEGs）。然后，将T2D和KC的上调和下调DEGs合并，以获得T2D和KC之间的共享DEGs（sDEGs）。使用STRING数据库构建sDEGs的蛋白质-蛋白质相互作用（PPI）网络。随后，在PPI网络中使用Cytoscape的Cytohubba插件，基于不同拓扑测度揭示sKGs。在NetworkAnalyst中使用RegNetwork数据库分析sKGs与转录因子（TFs）和微小RNA的共调控网络，以分别识别作为sKGs转录和转录后调控因子的关键TFs和miRNAs。AutoDock Vina是用于分子对接的工具。使用pkCSM和SwissADME评估ADME/T性质。结果：首先，鉴定出74个共享DEGs（sDEGs），这些基因可区分KC和T2D患者与对照样本。通过蛋白质-蛋白质相互作用（PPI）网络分析，排名前6的sDEGs（CD74、TFRC、CREB1、MCL1、SCARB1和JUN）被检测为驱动KC和T2D发生及进展的sKGs。最常见的sKG“CD74”与关键通路相关，如NF-kappaB信号转导、凋亡过程、B细胞增殖。sKGs的差异表达模式通过NCBI数据库中T2D的独立数据集以及TCGA和GTEx数据库中KC的独立数据集验证。此外，在DNA甲基化研究中，sKGs在多个CpG位点被发现具有显著性。调控网络分析识别出三个TF蛋白（SMAD5、ATF1和NR2F1）和两个miRNAs（hsa-mir-1-3p和hsa-mir-34a-5p）作为sKGs的调控因子。sKGs与KEGG通路和基因本体（GO）术语的富集分析揭示了两疾病间一些关键的共享发病机制（sPM）。最后，基于sKGs推荐了四种潜在治疗药物分子（伊马替尼、帕唑帕尼盐酸盐、索拉非尼和格列本脲）作为KC伴T2D的常见疗法。结论：本研究结果可能为KC伴T2D共存的诊断和治疗提供有用资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40834023/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40834023/",
+  "paper_page_path": "papers/pubmed/40834023/index.html"
+}

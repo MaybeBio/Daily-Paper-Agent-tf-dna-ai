@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "41291229",
+    "doi": "10.1038/s41587-025-02880-w",
+    "title": "Multiplexed profiling of transcriptional regulators in plant cells."
+  },
+  "content": {
+    "abstract": "Transcriptional regulators play key roles in plant growth, development and environmental responses; however, understanding how their regulatory activity is encoded at the protein level has been hindered by a lack of multiplexed large-scale methods to characterize protein libraries in planta. Here we present enrichment of nuclear trans-elements reporter assay in plants with sequencing (ENTRAP-seq), a high-throughput method that introduces protein-coding libraries into plant cells to drive a nuclear magnetic sorting-based reporter, enabling multiplexed measurement of regulatory activity from thousands of protein variants. Using ENTRAP-seq and machine learning, we screen 1,495 plant viruses and identify hundreds of putative transcriptional regulatory domains found in structural proteins and enzymes not associated with gene regulation. In addition, we combine ENTRAP-seq with machine-guided design to engineer the activity of a plant transcription factor in a semirational fashion. Our findings demonstrate how scalable protein function assays deployed in planta will enable the characterization of natural and synthetic coding diversity in plants.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alamos, Simon",
+        "Waldburger, Lucas",
+        "Dee, Amanda",
+        "Owens, Lauren A",
+        "Rattan, Rohan",
+        "Ong, Shirlyne",
+        "Shih, Patrick M"
+      ],
+      "short_names": [
+        "Alamos S",
+        "Waldburger L",
+        "Dee A",
+        "Owens LA",
+        "Rattan R",
+        "Ong S",
+        "Shih PM"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6312-4058",
+        "ORCID: 0009-0003-1874-7102",
+        "ORCID: 0000-0002-2119-3345"
+      ],
+      "affiliations": [
+        "Joint BioEnergy Institute, Emeryville, CA, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Joint BioEnergy Institute, Emeryville, CA, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Bioengineering, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Electrical Engineering and Computer Science, University of California, Berkeley, Berkeley, CA, USA.",
+        "Joint BioEnergy Institute, Emeryville, CA, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Joint BioEnergy Institute, Emeryville, CA, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Bioengineering, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Joint BioEnergy Institute, Emeryville, CA, USA. pmshih@berkeley.edu.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. pmshih@berkeley.edu.",
+        "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA. pmshih@berkeley.edu.",
+        "Innovative Genomics Institute, Berkeley, CA, USA. pmshih@berkeley.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alamos, Simon",
+        "short_name": "Alamos S",
+        "identifiers": [],
+        "affiliations": [
+          "Joint BioEnergy Institute, Emeryville, CA, USA.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Waldburger, Lucas",
+        "short_name": "Waldburger L",
+        "identifiers": [],
+        "affiliations": [
+          "Joint BioEnergy Institute, Emeryville, CA, USA.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, CA, USA.",
+          "Department of Electrical Engineering and Computer Science, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dee, Amanda",
+        "short_name": "Dee A",
+        "identifiers": [
+          "0009-0008-6312-4058"
+        ],
+        "affiliations": [
+          "Joint BioEnergy Institute, Emeryville, CA, USA.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Owens, Lauren A",
+        "short_name": "Owens LA",
+        "identifiers": [],
+        "affiliations": [
+          "Joint BioEnergy Institute, Emeryville, CA, USA.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rattan, Rohan",
+        "short_name": "Rattan R",
+        "identifiers": [
+          "0009-0003-1874-7102"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, CA, USA.",
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ong, Shirlyne",
+        "short_name": "Ong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shih, Patrick M",
+        "short_name": "Shih PM",
+        "identifiers": [
+          "0000-0002-2119-3345"
+        ],
+        "affiliations": [
+          "Joint BioEnergy Institute, Emeryville, CA, USA. pmshih@berkeley.edu.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. pmshih@berkeley.edu.",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, USA. pmshih@berkeley.edu.",
+          "Innovative Genomics Institute, Berkeley, CA, USA. pmshih@berkeley.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature biotechnology"
+    ],
+    "journal_abbrev": [
+      "Nat Biotechnol"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 00:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42678666",
+      "42052258"
+    ],
+    "refs": [],
+    "similar": [
+      "41291229",
+      "30190553",
+      "26072432",
+      "40419657",
+      "25182327",
+      "25901577",
+      "40667316",
+      "24551185",
+      "32424304",
+      "38014045",
+      "40580800",
+      "41283681",
+      "37851522",
+      "31503413",
+      "26072434",
+      "29752265",
+      "34520169",
+      "32281984",
+      "36125316",
+      "35082832",
+      "32111691",
+      "37745555",
+      "35858748",
+      "38659825",
+      "26977395",
+      "25400128",
+      "28623581",
+      "28623586",
+      "35404453",
+      "38355921",
+      "28198676",
+      "32694125",
+      "36711646",
+      "41280085",
+      "40631122",
+      "29558892",
+      "29720103",
+      "33055256",
+      "38906116",
+      "33326746",
+      "27103533",
+      "37853316",
+      "40640145",
+      "28204611",
+      "28848232",
+      "32343414",
+      "37348464",
+      "37083366",
+      "24069019",
+      "41465249",
+      "39727154",
+      "26458893",
+      "39386495",
+      "35435921",
+      "27777610",
+      "29859265",
+      "31551359",
+      "33196096",
+      "28423944",
+      "32291279",
+      "29169319",
+      "35530514",
+      "27557758",
+      "40445450",
+      "26578693",
+      "28044313",
+      "41045024",
+      "31881735",
+      "39644900",
+      "40742019",
+      "28124247",
+      "22377322",
+      "37127332",
+      "41188593",
+      "27924033",
+      "35231571",
+      "17705847",
+      "24053776",
+      "19385720",
+      "29396371",
+      "32409318",
+      "36227538",
+      "41251490",
+      "23869562",
+      "36798324",
+      "27008018",
+      "28651538",
+      "39091757",
+      "32522044",
+      "36694903",
+      "39362779",
+      "30723486",
+      "30535394",
+      "41353258",
+      "32995547",
+      "40501650",
+      "38196637",
+      "34516287",
+      "36807072",
+      "33333550"
+    ],
+    "review": [
+      "41291229",
+      "26072432",
+      "40580800",
+      "26072434",
+      "41465249",
+      "29859265",
+      "33196096",
+      "28423944",
+      "31881735",
+      "41188593",
+      "32522044",
+      "39362779"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41587-025-02880-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/4g45j1xv",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

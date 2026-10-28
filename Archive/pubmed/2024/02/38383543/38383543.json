@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "38383543",
+    "doi": "10.1038/s41467-024-45766-2",
+    "title": "Design of target specific peptide inhibitors using generative deep learning and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "We introduce a computational approach for the design of target-specific peptides. Our method integrates a Gated Recurrent Unit-based Variational Autoencoder with Rosetta FlexPepDock for peptide sequence generation and binding affinity assessment. Subsequently, molecular dynamics simulations are employed to narrow down the selection of peptides for experimental assays. We apply this computational strategy to design peptide inhibitors that specifically target beta-catenin and NF-kappaB essential modulator. Among the twelve beta-catenin inhibitors, six exhibit improved binding affinity compared to the parent peptide. Notably, the best C-terminal peptide binds beta-catenin with an IC(50) of 0.010 +/- 0.06 muM, which is 15-fold better than the parent peptide. For NF-kappaB essential modulator, two of the four tested peptides display substantially enhanced binding compared to the parent peptide. Collectively, this study underscores the successful integration of deep learning and structure-based modeling and simulation for target specific peptide design.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "beta Catenin/metabolism",
+      "NF-kappa B/metabolism",
+      "*Deep Learning",
+      "Protein Binding",
+      "Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Sijie",
+        "Lin, Tong",
+        "Basu, Ruchira",
+        "Ritchey, Jeremy",
+        "Wang, Shen",
+        "Luo, Yichuan",
+        "Li, Xingcan",
+        "Pei, Dehua",
+        "Kara, Levent Burak",
+        "Cheng, Xiaolin"
+      ],
+      "short_names": [
+        "Chen S",
+        "Lin T",
+        "Basu R",
+        "Ritchey J",
+        "Wang S",
+        "Luo Y",
+        "Li X",
+        "Pei D",
+        "Kara LB",
+        "Cheng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8466-6808",
+        "ORCID: 0000-0002-2057-6934",
+        "ORCID: 0000-0002-7396-3225"
+      ],
+      "affiliations": [
+        "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA.",
+        "Mechanical Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA.",
+        "Machine Learning Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA.",
+        "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA.",
+        "Electrical and Computer Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA.",
+        "Department of Radiology, Affiliated Hospital and Medical School of Nantong University, 20 West Temple Road, Nantong, Jiangsu, China.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA. pei.3@osu.edu.",
+        "Mechanical Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA. lkara@cmu.edu.",
+        "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA. cheng.1302@osu.edu.",
+        "Translational Data Analytics Institute, The Ohio State University, 1760 Neil Ave, Columbus, OH, USA. cheng.1302@osu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Sijie",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Tong",
+        "short_name": "Lin T",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanical Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA.",
+          "Machine Learning Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Basu, Ruchira",
+        "short_name": "Basu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Ritchey, Jeremy",
+        "short_name": "Ritchey J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Shen",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-8466-6808"
+        ],
+        "affiliations": [
+          "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Yichuan",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical and Computer Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xingcan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Affiliated Hospital and Medical School of Nantong University, 20 West Temple Road, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Dehua",
+        "short_name": "Pei D",
+        "identifiers": [
+          "0000-0002-2057-6934"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA. pei.3@osu.edu."
+        ]
+      },
+      {
+        "full_name": "Kara, Levent Burak",
+        "short_name": "Kara LB",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanical Engineering Department, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, USA. lkara@cmu.edu."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xiaolin",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0000-0002-7396-3225"
+        ],
+        "affiliations": [
+          "College of Pharmacy, The Ohio State University, 281 W Lane Ave, Columbus, OH, USA. cheng.1302@osu.edu.",
+          "Translational Data Analytics Institute, The Ohio State University, 1760 Neil Ave, Columbus, OH, USA. cheng.1302@osu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Feb 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/22 00:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42666915",
+      "42598742",
+      "42591521",
+      "42552640",
+      "42515682",
+      "42502839",
+      "42446537",
+      "42444292",
+      "42399444",
+      "42367058",
+      "42319927",
+      "42153319",
+      "42007396",
+      "41990130",
+      "41973186",
+      "41726754",
+      "41710577",
+      "41597221",
+      "41555497",
+      "41513959",
+      "41487131",
+      "41463438",
+      "41376388",
+      "41358742",
+      "41301573",
+      "41160200",
+      "40906195",
+      "40903666",
+      "40787887",
+      "40741609",
+      "40720534",
+      "40374848",
+      "40305228",
+      "40191455",
+      "40153158",
+      "39935356",
+      "39833407",
+      "39657811",
+      "39313455",
+      "38856172"
+    ],
+    "refs": [
+      "37903231",
+      "36576241",
+      "36542066",
+      "36163001",
+      "35896542",
+      "35165272",
+      "34980884",
+      "34586825",
+      "34286954",
+      "34265844",
+      "34099674",
+      "33783110",
+      "33707779",
+      "33536635",
+      "33237286",
+      "32910647",
+      "32775866",
+      "32672961",
+      "32286790",
+      "31820983",
+      "31737642",
+      "31657556",
+      "30352998",
+      "30322927",
+      "29982280",
+      "29532027",
+      "29024246",
+      "28759605",
+      "28759230",
+      "28430426",
+      "28042966",
+      "27856346",
+      "27617575",
+      "26929989",
+      "25578807",
+      "24059499",
+      "23869206",
+      "23139141",
+      "23104376",
+      "23071338",
+      "21622962",
+      "21572516",
+      "21316780",
+      "21075118",
+      "20455260",
+      "18462684",
+      "17052462",
+      "16473368",
+      "15145317",
+      "15048829",
+      "12739936",
+      "12198485",
+      "11848877",
+      "11136974",
+      "11123888",
+      "10911992",
+      "10911991",
+      "10723801",
+      "9894904"
+    ],
+    "similar": [
+      "38383543",
+      "41524971",
+      "40419055",
+      "39064955",
+      "22576240",
+      "40573419",
+      "41881211",
+      "28279820",
+      "41483313",
+      "16473368",
+      "39148280",
+      "39613993",
+      "41251395",
+      "29137527",
+      "40223692",
+      "33155881",
+      "34793168",
+      "40466244",
+      "29729328",
+      "22408446",
+      "40897867",
+      "37003158",
+      "28122173",
+      "30486742",
+      "39954776",
+      "39466714",
+      "24830845",
+      "39772512",
+      "41168660",
+      "22803956",
+      "23076147",
+      "36219223",
+      "40714557",
+      "27263470",
+      "39318004",
+      "39862740",
+      "39818002",
+      "31891416",
+      "28754059",
+      "40653229",
+      "38693737",
+      "40310892",
+      "39333310",
+      "17335007",
+      "41539507",
+      "21523491",
+      "24587223",
+      "41351698",
+      "26914059",
+      "41265253",
+      "33200935",
+      "21299226",
+      "38679255",
+      "42013547",
+      "39167026",
+      "41030196",
+      "41493642",
+      "39754310",
+      "37501100",
+      "36898348",
+      "41696819",
+      "31640814",
+      "38513389",
+      "30731167",
+      "39227512",
+      "40287570",
+      "37903231",
+      "22733526",
+      "41826537",
+      "38958133",
+      "29501581",
+      "35575349",
+      "30415122",
+      "28013146",
+      "34000187",
+      "37888817",
+      "40804473",
+      "31397025",
+      "40623964",
+      "26984442",
+      "26935067",
+      "27287023",
+      "41925960",
+      "26299997",
+      "41967251",
+      "40406858",
+      "41873490",
+      "16684367",
+      "15466857",
+      "27487990",
+      "14711835",
+      "38196284",
+      "26776161",
+      "34341401",
+      "39437699",
+      "38732131",
+      "29102725",
+      "41170868",
+      "36512534",
+      "28236237"
+    ],
+    "review": [
+      "38383543",
+      "41168660",
+      "37888817"
+    ],
+    "pmc": [
+      "10882002"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-45766-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38383543/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38383543",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.03.527081",
+  "title": "MICA: A multi-omics method to predict gene regulatory networks in early human embryos",
+  "authors": "Alanis-Lobato G; Bartlett TE; Huang Q; Simon C; McCarthy A; Elder K; Snell P; Christie L; Niakan KK",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多组学方法预测早期人类胚胎的基因调控网络，虽涉及转录因子-靶基因互作，但主要基于表达和染色质可及性统计推断，缺乏三维结构或物理模拟建模，方法为传统GRN预测而非AI/物理模拟，故属广义蛋白-DNA互作但深度不足。",
+  "abstract": "Recent advances in single-cell-omics have been transformative to characterise cell types in challenging to study biological contexts. It is technically difficult to infer transcription factor-gene regulatory interactions from these datasets, especially in contexts with limited single-cell sample number such as the early human embryo. Here we systematically assessed the application of four different linear or non-linear gene regulatory network (GRN) prediction strategies to single-cell simulated and human embryo transcriptome datasets. We also compared how gene expression normalisation methods impact on regulatory network predictions, finding that TPM (transcripts per million reads) outperformed alternative methods. We identified more reproducible GRN inferences using a non-linear method based on mutual information (MI) applied to single-cell transcriptome datasets refined with chromatin accessibility (CA) (called MICA), compared to alternative network prediction methods tested. MICA captures complex non-monotonic dependencies and feedback loops. Using MICA, we generated the first GRN inferences in early human development. MICA predicted co-localisation of the AP-1 transcription factor subunit proto-oncogene JUND and the TFAP2C transcription factor AP-2ψ in human preimplantation embryos. These interactions were supported by previous findings in other developmental and stem cell contexts. Overall, our comparative analysis of gene regulatory network prediction methods defines a pipeline that can be applied to single-cell multi-omics datasets in especially challenging contexts to infer interactions between transcription factor expression and target gene regulation.",
+  "abstract_zh": "单细胞组学的最新进展在难以研究的生物学背景下对细胞类型表征具有变革性意义。从这些数据集中推断转录因子-基因调控相互作用在技术上具有难度，尤其是在单细胞样本数量有限的背景下，如早期人类胚胎。在此，我们系统评估了四种不同的线性或非线性基因调控网络（GRN）预测策略在单细胞模拟和人类胚胎转录组数据集中的应用。我们还比较了基因表达归一化方法对调控网络预测的影响，发现TPM（每百万读段的转录本数）优于其他方法。我们使用基于互信息（MI）的非线性方法（称为MICA），应用于经染色质可及性（CA）精炼的单细胞转录组数据集，识别出比测试的其他网络预测方法更可重复的GRN推断。MICA能够捕捉复杂的非单调依赖关系和反馈回路。利用MICA，我们生成了早期人类发育中的首个GRN推断。MICA预测了AP-1转录因子亚基原癌基因JUND与TFAP2C转录因子AP-2ψ在人类植入前胚胎中的共定位。这些相互作用得到了其他发育和干细胞背景下先前发现的支持。总体而言，我们对基因调控网络预测方法的比较分析定义了一个流程，可应用于特别具有挑战性背景下的单细胞多组学数据集，以推断转录因子表达与靶基因调控之间的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527081",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527081",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.03.527081/index.html"
+}

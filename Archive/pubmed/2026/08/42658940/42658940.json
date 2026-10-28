@@ -1,0 +1,1232 @@
+{
+  "identity": {
+    "pmid": "42658940",
+    "doi": "10.1126/science.ady4523",
+    "title": "Autism mutations rewire protein interaction networks to drive neurodevelopmental pathology."
+  },
+  "content": {
+    "abstract": "Systematic mapping of protein-protein interaction (PPI) networks and determining how causal mutations rewire them in autism spectrum disorder (ASD) provide a powerful framework for uncovering disease mechanisms and therapeutic opportunities. Using affinity purification-mass spectrometry, we systematically mapped PPIs for 100 high-confidence ASD genes, uncovering more than 1800 interactions. By assessing the impact of pathogenic missense mutations, leveraging AlphaFold, and validating key findings in human-derived model systems, we identified marked convergence onto shared protein complexes in the wild-type state and convergent PPI rewiring driven by independent mutations. For example, distinct patient-derived variants in FOXP1 disrupt its interactions with FOXP4, leading to changes in cortical neurogenesis and neural activity in brain organoids. Overall, these findings link genetic variation to protein networks and convergent neurodevelopmental dysfunction in ASD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Autism Spectrum Disorder/genetics/physiopathology",
+      "Brain",
+      "Forkhead Transcription Factors/genetics/metabolism",
+      "*Mutation, Missense",
+      "Neurodevelopment",
+      "Neurogenesis/genetics",
+      "Protein Interaction Mapping",
+      "*Protein Interaction Maps/genetics",
+      "Xenopus"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Belinda",
+        "Vartak, Rasika",
+        "Hennick, Kelsey M",
+        "Zaltsman, Yefim",
+        "Naing, Zun Zar Chi",
+        "Polacco, Benjamin J",
+        "Bashir, Ali",
+        "Eckhardt, Manon",
+        "Bouhaddou, Mehdi",
+        "Xu, Jiewei",
+        "Sun, Nawei",
+        "Lasser, Micaela C",
+        "Zhou, Yuan",
+        "McKetney, Justin",
+        "Guiley, Keelan Z",
+        "Gniewek, Pawel",
+        "Chan, Una",
+        "Amirani, Naufa",
+        "Griffiths, Owen",
+        "Chadha, Nishant",
+        "Tognatta, Reshmi",
+        "Cakir, Merve",
+        "Gordon, Martin",
+        "Khare, Prachi",
+        "Drake, Sam",
+        "Drury, Vanessa",
+        "Burke, David F",
+        "Gonzalez, Silvano",
+        "Alkhairy, Sahar",
+        "Thomas, Reuben",
+        "Lam, Stephanie",
+        "Morris, Montana",
+        "Bader, Ethel",
+        "Dos Santos, Melanie",
+        "Komarova, Anastassia V",
+        "Bennett, Maxwell",
+        "Ennis, Craig",
+        "Castillo, Octavio",
+        "Lim, Yvonne",
+        "Martin, Robert",
+        "Seyler, Meghan",
+        "Baum, Tierney",
+        "Krasnoff, Rebecca",
+        "Wang, George",
+        "Middya, Sagnik",
+        "Wang, Sheng",
+        "Pham, Presley",
+        "Arbelaez, Juan",
+        "Pratt, Dexter",
+        "Bali, Sofia",
+        "Chag, Shivali",
+        "Kaye, Julia A",
+        "Mahmood, Nadir",
+        "Spraggon, Lee",
+        "Rolland, Thomas",
+        "Hervey-Jumper, Shawn",
+        "Fraser, James S",
+        "Bourgeron, Thomas",
+        "Finkbeiner, Steven",
+        "Demeret, Caroline",
+        "Swaney, Danielle L",
+        "Bandyopadhyay, Sourav",
+        "Ideker, Trey",
+        "Beltrao, Pedro",
+        "Willsey, Helen Rankin",
+        "Huttenhain, Ruth",
+        "Obernier, Kirsten",
+        "Nowakowski, Tomasz J",
+        "State, Matthew W",
+        "Willsey, A Jeremy",
+        "Krogan, Nevan J"
+      ],
+      "short_names": [
+        "Wang B",
+        "Vartak R",
+        "Hennick KM",
+        "Zaltsman Y",
+        "Naing ZZC",
+        "Polacco BJ",
+        "Bashir A",
+        "Eckhardt M",
+        "Bouhaddou M",
+        "Xu J",
+        "Sun N",
+        "Lasser MC",
+        "Zhou Y",
+        "McKetney J",
+        "Guiley KZ",
+        "Gniewek P",
+        "Chan U",
+        "Amirani N",
+        "Griffiths O",
+        "Chadha N",
+        "Tognatta R",
+        "Cakir M",
+        "Gordon M",
+        "Khare P",
+        "Drake S",
+        "Drury V",
+        "Burke DF",
+        "Gonzalez S",
+        "Alkhairy S",
+        "Thomas R",
+        "Lam S",
+        "Morris M",
+        "Bader E",
+        "Dos Santos M",
+        "Komarova AV",
+        "Bennett M",
+        "Ennis C",
+        "Castillo O",
+        "Lim Y",
+        "Martin R",
+        "Seyler M",
+        "Baum T",
+        "Krasnoff R",
+        "Wang G",
+        "Middya S",
+        "Wang S",
+        "Pham P",
+        "Arbelaez J",
+        "Pratt D",
+        "Bali S",
+        "Chag S",
+        "Kaye JA",
+        "Mahmood N",
+        "Spraggon L",
+        "Rolland T",
+        "Hervey-Jumper S",
+        "Fraser JS",
+        "Bourgeron T",
+        "Finkbeiner S",
+        "Demeret C",
+        "Swaney DL",
+        "Bandyopadhyay S",
+        "Ideker T",
+        "Beltrao P",
+        "Willsey HR",
+        "Huttenhain R",
+        "Obernier K",
+        "Nowakowski TJ",
+        "State MW",
+        "Willsey AJ",
+        "Krogan NJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5563-894X",
+        "ORCID: 0009-0006-7568-7726",
+        "ORCID: 0000-0002-6127-2400",
+        "ORCID: 0000-0002-2979-8197",
+        "ORCID: 0000-0002-6320-5084",
+        "ORCID: 0000-0003-1570-9234",
+        "ORCID: 0000-0002-5240-9604",
+        "ORCID: 0000-0001-8143-6129",
+        "ORCID: 0000-0002-8647-4172",
+        "ORCID: 0000-0002-1393-5476",
+        "ORCID: 0000-0002-2405-8288",
+        "ORCID: 0000-0002-8149-4262",
+        "ORCID: 0000-0002-2102-9297",
+        "ORCID: 0009-0003-7017-1470",
+        "ORCID: 0000-0001-7460-1843",
+        "ORCID: 0000-0003-1803-5693",
+        "ORCID: 0009-0009-5253-6505",
+        "ORCID: 0000-0001-8830-3951",
+        "ORCID: 0000-0003-1457-9802",
+        "ORCID: 0000-0003-3176-7303",
+        "ORCID: 0000-0001-5453-302X",
+        "ORCID: 0000-0001-6501-9675",
+        "ORCID: 0000-0002-9998-8447",
+        "ORCID: 0009-0004-1318-3026",
+        "ORCID: 0000-0001-6497-0397",
+        "ORCID: 0009-0002-9396-7140",
+        "ORCID: 0009-0007-4769-2031",
+        "ORCID: 0009-0008-2007-9066",
+        "ORCID: 0009-0001-7499-957X",
+        "ORCID: 0009-0005-7879-3519",
+        "ORCID: 0000-0003-3328-2836",
+        "ORCID: 0000-0002-1471-9513",
+        "ORCID: 0000-0003-4699-260X",
+        "ORCID: 0000-0002-5080-2859",
+        "ORCID: 0000-0001-8164-9220",
+        "ORCID: 0000-0002-3480-394X",
+        "ORCID: 0000-0002-1103-6805",
+        "ORCID: 0000-0001-6119-6084",
+        "ORCID: 0000-0002-1708-8454",
+        "ORCID: 0000-0002-2724-7703",
+        "ORCID: 0000-0001-8404-3291",
+        "ORCID: 0000-0002-0896-5910",
+        "ORCID: 0000-0002-4025-1299",
+        "ORCID: 0000-0003-2345-4964",
+        "ORCID: 0000-0003-1624-8302",
+        "ORCID: 0000-0002-9922-3612",
+        "ORCID: 0000-0003-4902-337X"
+      ],
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Rezo Therapeutics, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Rezo Therapeutics, San Francisco, CA, USA.",
+        "Rezo Therapeutics, San Francisco, CA, USA.",
+        "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Cambridge, UK.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France.",
+        "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Institute for Genomic Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Taube/Koret Center for Neurodegenerative Disease, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Rezo Therapeutics, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Human Genetics and Cognitive Functions, Institut Pasteur, UMR3571 CNRS, IUF, Universite Paris Cite, Paris, France.",
+        "Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Human Genetics and Cognitive Functions, Institut Pasteur, UMR3571 CNRS, IUF, Universite Paris Cite, Paris, France.",
+        "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Taube/Koret Center for Neurodegenerative Disease, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Neurology, University of California, San Francisco, CA, USA.",
+        "Department of Physiology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Neuroscience Graduate Program and Biomedical Sciences Program, University of California, San Francisco, San Francisco, CA, USA.",
+        "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Physiology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Rezo Therapeutics, San Francisco, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Institute for Genomic Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Cambridge, UK.",
+        "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Biohub, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA, USA.",
+        "Kavli Institute for Fundamental Neuroscience, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Langley Porter Psychiatric Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Belinda",
+        "short_name": "Wang B",
+        "identifiers": [
+          "0000-0001-5563-894X"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vartak, Rasika",
+        "short_name": "Vartak R",
+        "identifiers": [
+          "0009-0006-7568-7726"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hennick, Kelsey M",
+        "short_name": "Hennick KM",
+        "identifiers": [
+          "0000-0002-6127-2400"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zaltsman, Yefim",
+        "short_name": "Zaltsman Y",
+        "identifiers": [
+          "0000-0002-2979-8197"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Naing, Zun Zar Chi",
+        "short_name": "Naing ZZC",
+        "identifiers": [
+          "0000-0002-6320-5084"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Polacco, Benjamin J",
+        "short_name": "Polacco BJ",
+        "identifiers": [
+          "0000-0003-1570-9234"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bashir, Ali",
+        "short_name": "Bashir A",
+        "identifiers": [
+          "0000-0002-5240-9604"
+        ],
+        "affiliations": [
+          "Rezo Therapeutics, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Eckhardt, Manon",
+        "short_name": "Eckhardt M",
+        "identifiers": [
+          "0000-0001-8143-6129"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bouhaddou, Mehdi",
+        "short_name": "Bouhaddou M",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiewei",
+        "short_name": "Xu J",
+        "identifiers": [
+          "0000-0002-8647-4172"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Nawei",
+        "short_name": "Sun N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lasser, Micaela C",
+        "short_name": "Lasser MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuan",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0002-1393-5476"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McKetney, Justin",
+        "short_name": "McKetney J",
+        "identifiers": [
+          "0000-0002-2405-8288"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Guiley, Keelan Z",
+        "short_name": "Guiley KZ",
+        "identifiers": [
+          "0000-0002-8149-4262"
+        ],
+        "affiliations": [
+          "Rezo Therapeutics, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gniewek, Pawel",
+        "short_name": "Gniewek P",
+        "identifiers": [
+          "0000-0002-2102-9297"
+        ],
+        "affiliations": [
+          "Rezo Therapeutics, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chan, Una",
+        "short_name": "Chan U",
+        "identifiers": [
+          "0009-0003-7017-1470"
+        ],
+        "affiliations": [
+          "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Amirani, Naufa",
+        "short_name": "Amirani N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Griffiths, Owen",
+        "short_name": "Griffiths O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chadha, Nishant",
+        "short_name": "Chadha N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tognatta, Reshmi",
+        "short_name": "Tognatta R",
+        "identifiers": [
+          "0000-0001-7460-1843"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cakir, Merve",
+        "short_name": "Cakir M",
+        "identifiers": [
+          "0000-0003-1803-5693"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gordon, Martin",
+        "short_name": "Gordon M",
+        "identifiers": [
+          "0009-0009-5253-6505"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Khare, Prachi",
+        "short_name": "Khare P",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Drake, Sam",
+        "short_name": "Drake S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Drury, Vanessa",
+        "short_name": "Drury V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Burke, David F",
+        "short_name": "Burke DF",
+        "identifiers": [
+          "0000-0001-8830-3951"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Silvano",
+        "short_name": "Gonzalez S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Alkhairy, Sahar",
+        "short_name": "Alkhairy S",
+        "identifiers": [
+          "0000-0003-1457-9802"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Reuben",
+        "short_name": "Thomas R",
+        "identifiers": [
+          "0000-0003-3176-7303"
+        ],
+        "affiliations": [
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Stephanie",
+        "short_name": "Lam S",
+        "identifiers": [
+          "0000-0001-5453-302X"
+        ],
+        "affiliations": [
+          "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Morris, Montana",
+        "short_name": "Morris M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bader, Ethel",
+        "short_name": "Bader E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dos Santos, Mélanie",
+        "short_name": "Dos Santos M",
+        "identifiers": [
+          "0000-0001-6501-9675"
+        ],
+        "affiliations": [
+          "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Komarova, Anastassia V",
+        "short_name": "Komarova AV",
+        "identifiers": [
+          "0000-0002-9998-8447"
+        ],
+        "affiliations": [
+          "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bennett, Maxwell",
+        "short_name": "Bennett M",
+        "identifiers": [
+          "0009-0004-1318-3026"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ennis, Craig",
+        "short_name": "Ennis C",
+        "identifiers": [
+          "0000-0001-6497-0397"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Castillo, Octavio",
+        "short_name": "Castillo O",
+        "identifiers": [
+          "0009-0002-9396-7140"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lim, Yvonne",
+        "short_name": "Lim Y",
+        "identifiers": [
+          "0009-0007-4769-2031"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Robert",
+        "short_name": "Martin R",
+        "identifiers": [
+          "0009-0008-2007-9066"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Seyler, Meghan",
+        "short_name": "Seyler M",
+        "identifiers": [
+          "0009-0001-7499-957X"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Baum, Tierney",
+        "short_name": "Baum T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Krasnoff, Rebecca",
+        "short_name": "Krasnoff R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, George",
+        "short_name": "Wang G",
+        "identifiers": [
+          "0009-0005-7879-3519"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Middya, Sagnik",
+        "short_name": "Middya S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Sheng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pham, Presley",
+        "short_name": "Pham P",
+        "identifiers": [
+          "0000-0003-3328-2836"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Arbelaez, Juan",
+        "short_name": "Arbelaez J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pratt, Dexter",
+        "short_name": "Pratt D",
+        "identifiers": [
+          "0000-0002-1471-9513"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+          "Institute for Genomic Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bali, Sofia",
+        "short_name": "Bali S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chag, Shivali",
+        "short_name": "Chag S",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kaye, Julia A",
+        "short_name": "Kaye JA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+          "Taube/Koret Center for Neurodegenerative Disease, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mahmood, Nadir",
+        "short_name": "Mahmood N",
+        "identifiers": [],
+        "affiliations": [
+          "Rezo Therapeutics, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Spraggon, Lee",
+        "short_name": "Spraggon L",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rolland, Thomas",
+        "short_name": "Rolland T",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics and Cognitive Functions, Institut Pasteur, UMR3571 CNRS, IUF, Université Paris Cité, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Hervey-Jumper, Shawn",
+        "short_name": "Hervey-Jumper S",
+        "identifiers": [
+          "0000-0003-4699-260X"
+        ],
+        "affiliations": [
+          "Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fraser, James S",
+        "short_name": "Fraser JS",
+        "identifiers": [
+          "0000-0002-5080-2859"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bourgeron, Thomas",
+        "short_name": "Bourgeron T",
+        "identifiers": [
+          "0000-0001-8164-9220"
+        ],
+        "affiliations": [
+          "Human Genetics and Cognitive Functions, Institut Pasteur, UMR3571 CNRS, IUF, Université Paris Cité, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Finkbeiner, Steven",
+        "short_name": "Finkbeiner S",
+        "identifiers": [
+          "0000-0002-3480-394X"
+        ],
+        "affiliations": [
+          "Center for Systems and Therapeutics, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+          "Taube/Koret Center for Neurodegenerative Disease, Gladstone Institutes, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Neurology, University of California, San Francisco, CA, USA.",
+          "Department of Physiology, University of California, San Francisco, San Francisco, CA, USA.",
+          "Neuroscience Graduate Program and Biomedical Sciences Program, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Demeret, Caroline",
+        "short_name": "Demeret C",
+        "identifiers": [
+          "0000-0002-1103-6805"
+        ],
+        "affiliations": [
+          "Interactomics, RNA and Immunity, Institut Pasteur, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Swaney, Danielle L",
+        "short_name": "Swaney DL",
+        "identifiers": [
+          "0000-0001-6119-6084"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Physiology, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bandyopadhyay, Sourav",
+        "short_name": "Bandyopadhyay S",
+        "identifiers": [],
+        "affiliations": [
+          "Rezo Therapeutics, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ideker, Trey",
+        "short_name": "Ideker T",
+        "identifiers": [
+          "0000-0002-1708-8454"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+          "Institute for Genomic Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Beltrao, Pedro",
+        "short_name": "Beltrao P",
+        "identifiers": [
+          "0000-0002-2724-7703"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Cambridge, UK.",
+          "Institute of Molecular Systems Biology, Department of Biology, ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Willsey, Helen Rankin",
+        "short_name": "Willsey HR",
+        "identifiers": [
+          "0000-0001-8404-3291"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Biohub, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hüttenhain, Ruth",
+        "short_name": "Hüttenhain R",
+        "identifiers": [
+          "0000-0002-0896-5910"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Obernier, Kirsten",
+        "short_name": "Obernier K",
+        "identifiers": [
+          "0000-0002-4025-1299"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nowakowski, Tomasz J",
+        "short_name": "Nowakowski TJ",
+        "identifiers": [
+          "0000-0003-2345-4964"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Anatomy, University of California, San Francisco, San Francisco, CA, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA, USA.",
+          "Kavli Institute for Fundamental Neuroscience, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "State, Matthew W",
+        "short_name": "State MW",
+        "identifiers": [
+          "0000-0003-1624-8302"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Langley Porter Psychiatric Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Willsey, A Jeremy",
+        "short_name": "Willsey AJ",
+        "identifiers": [
+          "0000-0002-9922-3612"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Behavioral Sciences, UCSF Weill Institute for Neurosciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Krogan, Nevan J",
+        "short_name": "Krogan NJ",
+        "identifiers": [
+          "0000-0003-4902-337X"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2026 Aug 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 17:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42658940",
+      "38076945",
+      "36417873",
+      "41611887",
+      "33032641",
+      "29090079",
+      "41844341",
+      "42475469",
+      "42010670",
+      "25232744",
+      "33497602",
+      "42526765",
+      "36579832",
+      "38566250",
+      "28741757",
+      "42450350",
+      "30927234",
+      "34353896",
+      "30124790",
+      "40048431",
+      "31743624",
+      "40526590",
+      "28344757",
+      "40680984",
+      "39836689",
+      "26494785",
+      "34639097",
+      "40428426",
+      "31220273",
+      "41010006",
+      "26647308",
+      "35123134",
+      "41992872",
+      "32578146",
+      "33749153",
+      "29801487",
+      "34354167",
+      "30385778",
+      "36830629",
+      "28867142",
+      "41651809",
+      "39038939",
+      "33054850",
+      "41539592",
+      "40869915",
+      "40790933",
+      "24916451",
+      "38030818",
+      "42019823",
+      "26949225",
+      "33892622",
+      "39123267",
+      "31311581",
+      "27956632",
+      "40076702",
+      "41889174",
+      "39825710",
+      "41010054",
+      "39788508",
+      "28540026",
+      "27483382",
+      "39422188",
+      "38764027",
+      "31199603",
+      "27043210",
+      "42531028",
+      "32653993",
+      "32269107",
+      "40090136",
+      "42636188",
+      "33165687",
+      "42650067",
+      "34169527",
+      "37776011",
+      "38525876",
+      "30165121",
+      "37946050",
+      "32942984",
+      "41741416",
+      "41549851",
+      "42169156",
+      "40223535",
+      "40228162",
+      "28735298",
+      "29788201",
+      "31111659",
+      "26105128",
+      "42281968",
+      "31398340",
+      "41485656",
+      "35165191",
+      "31754030",
+      "26446216",
+      "42201483",
+      "31500805",
+      "29663862",
+      "31196716",
+      "33261099",
+      "26668231",
+      "41034646"
+    ],
+    "review": [
+      "42658940",
+      "42450350",
+      "34639097",
+      "41010006",
+      "36830629",
+      "41539592",
+      "24916451",
+      "26949225",
+      "33892622",
+      "28540026",
+      "40090136",
+      "34169527",
+      "30165121",
+      "41549851",
+      "40223535",
+      "26105128"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.ady4523",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

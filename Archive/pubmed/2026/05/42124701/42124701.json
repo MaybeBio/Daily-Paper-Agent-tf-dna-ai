@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42124701",
+    "doi": "10.64898/2026.02.26.708306",
+    "title": "The ChIP-FRiP pipeline quantifies co-binding and reveals how antibody background contributes to cohesin ChIP-seq patterns."
+  },
+  "content": {
+    "abstract": "Quantitative interpretation of ChIP-seq data is instrumental to derive insight into chromatin and transcription factor biology. Here we developed ChIP-FRiP, an end-to-end pipeline enabling systematic comparison of pairwise protein positioning, and applied it to the study of cohesin. In mammalian interphase, loop extruding cohesin complexes are positioned by CTCF barriers to generate locus-specific 3D genome folding patterns. Many aspects of our understanding of cohesin loop extrusion come from interpreting the amount of cohesin ChIP-seq signal at CTCF barriers, which has been reported to change variably after perturbing cohesin co-factors, such as NIPBL, PDS5A/B, and WAPL. Using ChIP-FRiP to homogeneously process 140 cohesin ChIP-seq datasets from 13 publicly available studies, we observed substantial variation attributable to technical effects, obscuring biological interpretability. To better understand how technical considerations, such as antibody specificity, influence apparent cohesin binding patterns, we integrated technical aspects of ChIP-seq into biophysical simulations of loop extrusion. Leveraging a simple biochemical model for background ChIP-seq signal, we derived a strategy to estimate and correct for the background using paired spike-in ChIP-seq data from wild-type and depletion conditions. Our results establish a framework for reliable comparative analysis, demonstrating that accurate background correction is requisite for interpreting the roles of cohesin cofactors in cohesin positioning.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Yao",
+        "Anderson, Erika C",
+        "Rahmaninejad, Hadi",
+        "Nora, Elphege",
+        "Fudenberg, Geoffrey"
+      ],
+      "short_names": [
+        "Xiao Y",
+        "Anderson EC",
+        "Rahmaninejad H",
+        "Nora E",
+        "Fudenberg G"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-3361-1303",
+        "ORCID: 0000-0002-0029-6230",
+        "ORCID: 0000-0001-6717-7319",
+        "ORCID: 0000-0002-8347-4396",
+        "ORCID: 0000-0001-5905-6517"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, CA, USA.",
+        "Chan-Zuckerberg Biohub San Francisco, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Yao",
+        "short_name": "Xiao Y",
+        "identifiers": [
+          "0009-0009-3361-1303"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Anderson, Erika C",
+        "short_name": "Anderson EC",
+        "identifiers": [
+          "0000-0002-0029-6230"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rahmaninejad, Hadi",
+        "short_name": "Rahmaninejad H",
+        "identifiers": [
+          "0000-0001-6717-7319"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nora, Elphège",
+        "short_name": "Nora E",
+        "identifiers": [
+          "0000-0002-8347-4396"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, CA, USA.",
+          "Chan-Zuckerberg Biohub San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fudenberg, Geoffrey",
+        "short_name": "Fudenberg G",
+        "identifiers": [
+          "0000-0001-5905-6517"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/13 06:32",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40628528",
+      "39547207",
+      "39211331",
+      "38262930",
+      "38071364",
+      "37726281",
+      "36747153",
+      "36424654",
+      "36129789",
+      "35986423",
+      "35420890",
+      "34035898",
+      "33767413",
+      "33725485",
+      "33590861",
+      "33545664",
+      "33318687",
+      "33290745",
+      "33154377",
+      "32994221",
+      "32939066",
+      "32294452",
+      "31905366",
+      "30423086",
+      "29217591",
+      "28475897",
+      "28424523",
+      "27875550",
+      "26685864",
+      "26499245",
+      "26130708",
+      "25437568",
+      "25223782",
+      "24173036",
+      "23975099",
+      "23090257",
+      "22955991",
+      "22388286",
+      "18798982",
+      "18237772",
+      "18235444"
+    ],
+    "similar": [
+      "42124701",
+      "36897969",
+      "27526722",
+      "40628528",
+      "39416077",
+      "29593713",
+      "42475469",
+      "39543681",
+      "36449519",
+      "40586309",
+      "27582050",
+      "37786717",
+      "41102415",
+      "36129789",
+      "40210441",
+      "23804403",
+      "36424654",
+      "42079139",
+      "40011778",
+      "40374602",
+      "28424523",
+      "39229088",
+      "37961446",
+      "42146630",
+      "32065581",
+      "31666380",
+      "20158869",
+      "22780989",
+      "34321070",
+      "33545664",
+      "32680543",
+      "36182691",
+      "31205001",
+      "42463888",
+      "42239201",
+      "32250245",
+      "32631111",
+      "24676094",
+      "42030945",
+      "31653198",
+      "36898992",
+      "37076620",
+      "25128017",
+      "30598100",
+      "27716038",
+      "38670416",
+      "39988079",
+      "25070602",
+      "29217591",
+      "40271018",
+      "31204999",
+      "28475897",
+      "31905366",
+      "35986423",
+      "31937660",
+      "40181539",
+      "41980771",
+      "24415941",
+      "28855971",
+      "21358819",
+      "23010778",
+      "39605491",
+      "40082674",
+      "20219941",
+      "37774974",
+      "34309513",
+      "28467304",
+      "22952237",
+      "30016502",
+      "41648525",
+      "36050765",
+      "36471071",
+      "33091336",
+      "35585235",
+      "40490791",
+      "34404353",
+      "24146601",
+      "32308830",
+      "26388941",
+      "39709822",
+      "37163018",
+      "24279297",
+      "18550811",
+      "30096364",
+      "41430607",
+      "33154377",
+      "42427660",
+      "33788948",
+      "42635245",
+      "42030943",
+      "24927817",
+      "39748119",
+      "35440598",
+      "39160275",
+      "41616049",
+      "40452075",
+      "35710836",
+      "41810376",
+      "33320934",
+      "30897079"
+    ],
+    "review": [
+      "42124701",
+      "33545664",
+      "32631111",
+      "22952237",
+      "39709822"
+    ],
+    "pmc": [
+      "13160089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42124701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NIPBL-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.26.708306",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

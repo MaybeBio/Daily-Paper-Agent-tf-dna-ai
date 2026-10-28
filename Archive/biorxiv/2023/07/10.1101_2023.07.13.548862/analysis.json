@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.13.548862",
+  "title": "Accurately identifying nucleic-acid-binding sites through geometric graph learning on language model predicted structures",
+  "authors": "Yidong Song; Qianmu Yuan; Huiying Zhao; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-15",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用ESMFold预测结构结合几何图学习与语言模型，识别蛋白质-DNA/RNA结合位点，属于广义蛋白-核酸互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "The interactions between nucleic acids and proteins are important in diverse biological processes. The high-quality prediction of nucleic-acid-binding sites continues to pose a significant challenge. Presently, the predictive efficacy of sequence-based methods is constrained by their exclusive consideration of sequence context information, whereas structure-based methods are unsuitable for proteins lacKing Known tertiary structures. Though protein structures predicted by AlphaFold2 could be used, the extensive computing requirement of AlphaFold2 hinders its use for genome-wide applications. Based on the recent breaKthrough of ESMFold for fast prediction of protein structures, we have developed GLMSite, which accurately identifies DNA and RNA-binding sites using geometric graph learning on ESMFold predicted structures. Here, the predicted protein structures are employed to construct protein structural graph with residues as nodes and spatially neighboring residue pairs for edges. The node representations are further enhanced through the pre-trained language model ProtTrans. The networK was trained using a geometric vector perceptron, and the geometric embeddings were subsequently fed into a common networK to acquire common binding characteristics. Then two fully connected layers were employed to learn specific binding patterns for DNA and RNA, respectively. Through comprehensive tests on DNA/RNA benchmarK datasets, GLMSite was shown to surpass the latest sequence-based methods and be comparable with structure-based methods. Moreover, the prediction was shown useful for the inference of nucleic-acid-binding proteins, demonstrating its potential for protein function discovery. The datasets, codes, together with trained models are available at https://github.com/biomed-AI/nucleic-acid-binding .",
+  "abstract_zh": "核酸与蛋白质之间的相互作用在多种生物过程中具有重要意义。核酸结合位点的高质量预测仍然是一个重大挑战。目前，基于序列的方法的预测效能受限于其仅考虑序列上下文信息，而基于结构的方法则不适用于缺乏已知三级结构的蛋白质。尽管可以使用AlphaFold2预测的蛋白质结构，但AlphaFold2的大量计算需求阻碍了其在全基因组范围内的应用。基于近期ESMFold在蛋白质结构快速预测方面的突破，我们开发了GLMSite，它利用几何图学习在ESMFold预测的结构上准确识别DNA和RNA结合位点。在此，预测的蛋白质结构被用于构建蛋白质结构图，其中残基作为节点，空间上相邻的残基对作为边。节点表示通过预训练语言模型ProtTrans进一步增强。网络使用几何向量感知器进行训练，几何嵌入随后被输入到一个通用网络中以获取共同的结合特征。然后，使用两个全连接层分别学习DNA和RNA的特异性结合模式。通过对DNA/RNA基准数据集的全面测试，GLMSite被证明超越了最新的基于序列的方法，并与基于结构的方法相当。此外，该预测被证明对核酸结合蛋白的推断有用，展示了其在蛋白质功能发现方面的潜力。数据集、代码及训练好的模型可在 https://github.com/biomed-AI/nucleic-acid-binding 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548862",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548862",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.13.548862/index.html"
+}

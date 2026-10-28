@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42344596",
+  "title": "AI-Enabled Mapping of Structure-Hazard Relationships for Emerging Contaminants.",
+  "authors": "Zhang, Shuo; Guo, Jun; Qian, Yunkun; Mao, Mengjun; An, Dong",
+  "journal": "Environment & health (Washington, D.C.)",
+  "published_date": "2026-06-25",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究新兴污染物的结构-危害关系映射，虽涉及转录因子预测但核心是环境化学物筛选，无蛋白质-DNA互作体系与结合建模，与本课题无关。",
+  "abstract": "Emerging contaminant hazards are widespread, yet evidence is fragmented across the literature, registries, inventories, and bioassays. This study presents an integrated, reproducible framework that aligns literature-derived signals with molecular structure and regulatory hazard dimensions within a persistence, bioaccumulation, mobility, and toxicity (PBMT) lens. A task-tuned large language model extracted 21,277 mentions from 9,557 publications; harmonization across CompTox, PubChem, and Wikipedia yielded 1,081 unique candidates with 94.6% name consistency against 17 inventories. The landscape shows abundant toxicity information but limited mobility data. Structure profiling identified a recurring motifan aromatic core with branched alkyl substituents and oxygenated groupsand directional associations with composite hazard (positive for halogenation and negative for several oxygenated groups). To extend pathway inference to list-naive chemicals, AutoGluon models trained on Tox21/ToxCast were applied to 49 additional candidates. This produced end-point-level predictions concentrated at the protein-function level (receptors, enzymes, transcription factors), which is operationally useful for prioritization. Combining model scores with PBMT evidence density yielded an auditable prioritization, highlighting where mobility measurements and focused assays would most increase confidence. The framework links textual, structural, regulatory, and predictive streams to enable rapid screening, targeted data acquisition, safer substitution, and adaptive regulatory updating.",
+  "abstract_zh": "新兴污染物危害广泛存在，但相关证据在文献、注册库、清单和生物测定中分散不一。本研究提出一个整合且可复现的框架，在持久性、生物累积性、迁移性和毒性（PBMT）视角下，将文献来源的信号与分子结构和监管危害维度对齐。一个任务调优的大型语言模型从9,557篇出版物中提取了21,277条提及；跨CompTox、PubChem和Wikipedia的协调统一产生了1,081个独特候选物，与17个清单的名称一致性达94.6%。该景观显示毒性信息丰富，但迁移性数据有限。结构分析识别出一个重复出现的基序——带有支链烷基取代基和含氧基团的芳香核心——以及与复合危害的方向性关联（卤化呈正相关，若干含氧基团呈负相关）。为将通路推断扩展至清单外化学品，将基于Tox21/ToxCast训练的AutoGluon模型应用于49个额外候选物。这产生了集中于蛋白质功能层面（受体、酶、转录因子）的终点级预测，对优先级排序具有操作实用性。将模型评分与PBMT证据密度结合，得出一个可审计的优先级排序，突出显示迁移性测量和聚焦测定最能提升置信度的领域。该框架连接文本、结构、监管和预测流，以实现快速筛选、定向数据获取、更安全替代和适应性监管更新。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42344596/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42344596/",
+  "paper_page_path": "papers/pubmed/42344596/index.html"
+}

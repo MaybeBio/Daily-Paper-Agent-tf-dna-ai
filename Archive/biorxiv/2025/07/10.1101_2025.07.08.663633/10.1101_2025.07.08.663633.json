@@ -1,0 +1,512 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.08.663633",
+  "title": "EPEPDI: prediction of binding free energy changes from missense mutations in double and single-stranded DNA-binding proteins",
+  "doi": "10.1101/2025.07.08.663633",
+  "abstract": "Predicting changes in binding free energy due to missense mutations (MMs) in protein-DNA interactions (PDIs) is vital for understanding disease mechanisms and advancing therapeutic strategies. However, many existing models fail to account for the unique characteristics of MMs in double-stranded DNA binding proteins (DSBs) and single-stranded DNA binding proteins (SSBs). To address this, we constructed a comprehensive dataset from diverse sources, clearly distinguishing between DSBs and SSBs. Using sequence-based embeddings from pre-trained protein language models, including ESM2, ProtTrans, and ESM1v, we developed EPEPDI, a deep learning framework that integrates these embeddings through a multi-channel architecture. To refine predictive accuracy, we introduced an information entropy-based algorithm, determining 181 residues as the optimal sequence length where amino acid contributions and entropy dynamics balance. This approach boosts both precision and computational efficiency, enabling scalable analysis of mutation impacts on DNA-binding proteins. Ablation studies validated optimal feature combinations, demonstrating that EPEPDI outperforms existing approaches, achieving an average Pearson correlation coefficient of 0.755 on the MPD276 dataset via ten-fold cross-validation and 0.632 on independent tests for both DSBs and SSBs. This work highlights the importance of distinguishing DSBs and SSBs in PDIs and shows the potential of advanced machine learning in biological research.",
+  "authors": [
+    "Xuan Yu"
+  ],
+  "published_date": "2025-07-11",
+  "updated_date": "2025-07-12T04:30:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663633",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663633.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:53:22Z",
+        "timestamp": 1768524802009,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                11
+              ]
+            ],
+            "date-time": "2025-07-11T00:00:00Z",
+            "timestamp": 1752192000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting changes in binding free energy due to missense mutations (MMs) in protein-DNA interactions (PDIs) is vital for understanding disease mechanisms and advancing therapeutic strategies. However, many existing models fail to account for the unique characteristics of MMs in double-stranded DNA binding proteins (DSBs) and single-stranded DNA binding proteins (SSBs). To address this, we constructed a comprehensive dataset from diverse sources, clearly distinguishing between DSBs and SSBs. Using sequence-based embeddings from pre-trained protein language models, including ESM2, ProtTrans, and ESM1v, we developed EPEPDI, a deep learning framework that integrates these embeddings through a multi-channel architecture. To refine predictive accuracy, we introduced an information entropy-based algorithm, determining 181 residues as the optimal sequence length where amino acid contributions and entropy dynamics balance. This approach boosts both precision and computational efficiency, enabling scalable analysis of mutation impacts on DNA-binding proteins. Ablation studies validated optimal feature combinations, demonstrating that EPEPDI outperforms existing approaches, achieving an average Pearson correlation coefficient of 0.755 on the MPD276 dataset via ten-fold cross-validation and 0.632 on independent tests for both DSBs and SSBs. This work highlights the importance of distinguishing DSBs and SSBs in PDIs and shows the potential of advanced machine learning in biological research.</jats:p>",
+      "DOI": "10.1101/2025.07.08.663633",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            12
+          ]
+        ],
+        "date-time": "2025-07-12T04:30:15Z",
+        "timestamp": 1752294615000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "EPEPDI: prediction of binding free energy changes from missense mutations in double and single-stranded DNA-binding proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-9279-9179",
+          "authenticated-orcid": false,
+          "given": "Xuan",
+          "family": "Yu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki204"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki875"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbx168"
+        },
+        {
+          "issue": "3",
+          "key": "2025071506450500000_2025.07.08.663633v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "321",
+          "DOI": "10.2174/0929867023371085",
+          "article-title": "DNA-binding of drugs used in medicinal therapies",
+          "volume": "9",
+          "year": "2002",
+          "journal-title": "Current medicinal chemistry"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. Yang , S. N. Velgos , S. P. Boddapati , et al. Probing antibody-antigen interactions, Antibodies for infectious diseases, pp. 381–397, 2015.",
+          "DOI": "10.1128/9781555817411.ch22"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. Ghosh and R. Sharma . Affinity-based clinical biomarkers for early disease detection, Biosensors for personalized healthcare, pp. 49–68: Springer, 2024.",
+          "DOI": "10.1007/978-981-97-5473-1_3"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.7b00305"
+        },
+        {
+          "issue": "33",
+          "key": "2025071506450500000_2025.07.08.663633v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "18480",
+          "DOI": "10.1039/C8RA02683A",
+          "article-title": "Molecular basis of rutin inhibition of protein disulfide isomerase (PDI) by combined in silico and experimental methods",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "RSC advances"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0027185"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Delgado , R. Reche , D. Cianferoni , et al. FoldX force field revisited, an improved version, Bioinformatics, pp. btaf064, 2025.",
+          "DOI": "10.1093/bioinformatics/btaf064"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx698"
+        },
+        {
+          "issue": "1",
+          "key": "2025071506450500000_2025.07.08.663633v1.12",
+          "first-page": "17.8. 1",
+          "article-title": "Isothermal titration calorimetry",
+          "volume": "23",
+          "year": "2004",
+          "journal-title": "Current protocols in cell biology"
+        },
+        {
+          "issue": "8",
+          "key": "2025071506450500000_2025.07.08.663633v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1849",
+          "DOI": "10.1038/nprot.2007.249",
+          "article-title": "Electrophoretic mobility shift assay (EMSA) for detecting protein–nucleic acid interactions",
+          "volume": "2",
+          "year": "2007",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Chai , Z. Xie , and E. Grotewold . SELEX (systematic evolution of ligands by exponential enrichment), as a powerful tool for deciphering the protein-DNA interaction space, Plant transcription factors: methods and protocols, pp. 249–258, 2011.",
+          "DOI": "10.1007/978-1-61779-154-3_14"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr254"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/17.11.1027"
+        },
+        {
+          "issue": "12",
+          "key": "2025071506450500000_2025.07.08.663633v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006615",
+          "DOI": "10.1371/journal.pcbi.1006615",
+          "article-title": "PremPDI estimates and interprets the effects of missense mutations on protein-DNA interactions",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "W1",
+          "key": "2025071506450500000_2025.07.08.663633v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "W241",
+          "DOI": "10.1093/nar/gkx236",
+          "article-title": "mCSM-NA: predicting the effects of mutations on protein–nucleic acids interactions",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "4",
+          "key": "2025071506450500000_2025.07.08.663633v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008951",
+          "DOI": "10.1371/journal.pcbi.1008951",
+          "article-title": "Systematic comparison and prediction of the effects of missense mutations on protein-DNA and protein-RNA interactions",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.21",
+          "unstructured": "Y. Shamoo . Single-stranded DNA-binding proteins, Encyclopedia of Life sciences, pp. 1–7, 2002."
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gnh109"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/20.1.111"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-15-1"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-1452-4"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom12091187"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Gerelchuluun . DNA damage, repair mechanisms, and chromosomal aberrations, Proton Beam Radiotherapy: Physics and Biology, pp. 183–208, 2020.",
+          "DOI": "10.1007/978-981-13-7454-8_15"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/abbs/gmw044"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. H. Marceau . Functions of single-strand DNA-binding proteins in DNA replication, recombination, and repair, Single-stranded DNA binding proteins: methods and protocols, pp. 1–21, 2012.",
+          "DOI": "10.1007/978-1-62703-032-8_1"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx917"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.33",
+          "first-page": "29287",
+          "article-title": "Language models enable zero-shot prediction of the effects of mutations on protein function",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "issue": "10",
+          "key": "2025071506450500000_2025.07.08.663633v1.34",
+          "first-page": "7112",
+          "article-title": "Prottrans: toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "10",
+          "key": "2025071506450500000_2025.07.08.663633v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "5188",
+          "DOI": "10.1021/acs.jcim.5c00478",
+          "article-title": "TransABseq: a two-stage approach for predicting antigen–antibody binding affinity changes upon mutation based on protein sequences",
+          "volume": "65",
+          "year": "2025",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0437-4"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Steinegger , and J. Söding , Clustering huge protein sequence sets in linear time, Nature communications, vol. 9, no. 1, pp. 2542, 2018.",
+          "DOI": "10.1038/s41467-018-04964-5"
+        },
+        {
+          "issue": "6",
+          "key": "2025071506450500000_2025.07.08.663633v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "520",
+          "DOI": "10.1002/prot.25674",
+          "article-title": "NetSurfP-2.0: Improved prediction of protein structural features by integrated deep learning",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: structure, function, and bioinformatics"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.42",
+          "unstructured": "J. Devlin , M.-W. Chang , K. Lee , et al. Bert: pre-training of deep bidirectional transformers for language understanding, Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, vol., pp. 4171–4186, 2019."
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "issue": "4",
+          "key": "2025071506450500000_2025.07.08.663633v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1394",
+          "DOI": "10.1021/acs.jcim.3c02025",
+          "article-title": "FCMSTrans: Accurate prediction of disease-associated nsSNPs by utilizing multiscale convolution and deep feature combination within a transformer framework",
+          "volume": "64",
+          "year": "2024",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Awad , R. Khanna , M. Awad , et al. Support vector regression, Efficient learning machines: Theories, concepts, and applications for engineers and system designers, pp. 67–80, 2015.",
+          "DOI": "10.1007/978-1-4302-5990-9_4"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1023/A:1010933404324",
+          "article-title": "Random forests",
+          "volume": "45",
+          "year": "2001",
+          "journal-title": "Machine learning"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0167-9473(01)00065-2"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. E. Schapire . Explaining adaboost, Empirical inference: festschrift in honor of vladimir N. Vapnik, pp. 37–52: Springer, 2013.",
+          "DOI": "10.1007/978-3-642-41136-6_5"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.49",
+          "unstructured": "C. Williams , and C. Rasmussen . Gaussian processes for regression, Advances in neural information processing systems, vol. 8, 1995."
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Chen , and C. Guestrin . Xgboost: a scalable tree boosting system. Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining, pp. 785–794, 2016.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.51",
+          "unstructured": "L. Van der Maaten , and G. Hinton .Visualizing data using t-SNE, Journal of machine learning research, vol. 9, no. 11, 2008."
+        },
+        {
+          "key": "2025071506450500000_2025.07.08.663633v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3083898"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.08.663633",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:06:33Z",
+        "timestamp": 1768467993000
+      },
+      "score": 157.83463,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.08.663633"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            11
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.1101/2025.07.08.663633",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

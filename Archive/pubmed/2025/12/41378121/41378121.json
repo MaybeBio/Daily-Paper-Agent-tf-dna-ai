@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "41378121",
+    "doi": "10.1155/mi/6267309",
+    "title": "TMOD2 and DOCK4 as Novel Gut Microbiota-Associated Biomarkers for Colorectal Adenoma: Integrated Transcriptomic Analysis and Therapeutic Target Identification."
+  },
+  "content": {
+    "abstract": "Colorectal adenomas (CRA) represent critical precursors to colorectal cancer (CRC), yet reliable transcriptomic biomarkers for early detection and therapeutic targeting remain limited. Integration of gut microbiota (GM) genetics with transcriptomics offers a novel approach to identify disease-associated molecular signatures. We sought to identify GM-associated molecular signatures that could serve as early intervention targets. We integrated transcriptomic data with Mendelian randomization (MR) analysis to establish causal relationships between GM and CRA development. Machine learning algorithms identified robust biomarkers, which we validated through expression analysis and receiver operating characteristic (ROC) analysis to construct predictive nomogram models. Comprehensive molecular characterization included Gene Set Enrichment Analysis (GSEA), immune profiling, and regulatory network analysis. Single-cell RNA sequencing (scRNA-seq) analysis further validated biomarker expression patterns across distinct cell populations in the tumor microenvironment. We discovered 12 GM species with significant causal relationships to CRA risk. Two biomarkers, TMOD2 and DOCK4, emerged as powerful predictive indicators with strong correlation (r = 0.66, p  < 0.001). These biomarkers demonstrated excellent diagnostic performance in ROC analysis and revealed previously unrecognized connections to cell adhesion pathways critical for adenoma progression. Single-cell analysis revealed TMOD2 expression across multiple cell clusters with notable exclusion in mast cells, while DOCK4 expression was predominantly restricted to fibroblasts, myeloid, and epithelial cells. Notably, we identified distinct immune cell infiltration patterns, including altered naive B cells and macrophage populations, suggesting immune dysregulation as a key mechanism. GSEA revealed enrichment in cell adhesion molecule (CAM) pathways. Regulatory network analysis uncovered complex control by 18 microRNAs (miRNAs), 40 long noncoding RNAs (lncRNAs), and 10 transcription factors (TFs), with EIF3A emerging as a key m6A reader protein. Drug screening identified 22 potential therapeutic compounds, with trichostatin A showing optimal binding affinity. These findings establish TMOD2 and DOCK4 as novel biomarkers linking GM dysbiosis to CRA development, opening new avenues for microbiome-targeted early intervention strategies.",
+    "keywords": [
+      "biomarker discovery",
+      "colorectal adenoma",
+      "gut microbiome",
+      "immune infiltration",
+      "molecular targets",
+      "single-cell RNA sequencing",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/genetics/microbiology",
+      "*Gastrointestinal Microbiome/genetics/physiology",
+      "*Adenoma/metabolism/genetics/microbiology",
+      "Gene Expression Profiling",
+      "Biomarkers, Tumor/metabolism/genetics",
+      "Transcriptome/genetics",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chuang",
+        "Wang, Li",
+        "Huai, Jianguo",
+        "He, Song",
+        "Su, Qiang",
+        "Min, Qiuming",
+        "An, Zhenxiang"
+      ],
+      "short_names": [
+        "Liu C",
+        "Wang L",
+        "Huai J",
+        "He S",
+        "Su Q",
+        "Min Q",
+        "An Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4405-0531",
+        "ORCID: 0009-0004-1331-0881",
+        "ORCID: 0009-0002-5112-9608"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Department of Pathology, Wuhu No. 1 People's Hospital, Wuhu, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Department of Traditional Chinese Medicine Classics, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chuang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Huai, Jianguo",
+        "short_name": "Huai J",
+        "identifiers": [
+          "0000-0002-4405-0531"
+        ],
+        "affiliations": [
+          "Department of Pathology, Wuhu No. 1 People's Hospital, Wuhu, China."
+        ]
+      },
+      {
+        "full_name": "He, Song",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Su, Qiang",
+        "short_name": "Su Q",
+        "identifiers": [
+          "0009-0004-1331-0881"
+        ],
+        "affiliations": [
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Min, Qiuming",
+        "short_name": "Min Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine Classics, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "An, Zhenxiang",
+        "short_name": "An Z",
+        "identifiers": [
+          "0009-0002-5112-9608"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, China.",
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 07:43",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "42459302"
+    ],
+    "refs": [
+      "40528122",
+      "40485571",
+      "40256259",
+      "40148026",
+      "40139615",
+      "40067484",
+      "40021742",
+      "39817124",
+      "39789354",
+      "39530209",
+      "39466813",
+      "39107816",
+      "39097127",
+      "38998487",
+      "38952160",
+      "38938284",
+      "38898987",
+      "38782896",
+      "38746988",
+      "38339037",
+      "38090588",
+      "38031173",
+      "37510250",
+      "37509634",
+      "37497234",
+      "37006260",
+      "36963620",
+      "36938572",
+      "36871255",
+      "36624530",
+      "35809314",
+      "35788194",
+      "35751589",
+      "35646079",
+      "35477279",
+      "35221332",
+      "35115689",
+      "35030478",
+      "34489408",
+      "34400351",
+      "34298878",
+      "34234865",
+      "34109988",
+      "34021502",
+      "33880596",
+      "33613670",
+      "33559155",
+      "33538338",
+      "33532580",
+      "33462485",
+      "33462482",
+      "33061623",
+      "32804729",
+      "32565985",
+      "31916281",
+      "31284710",
+      "31273190",
+      "31204720",
+      "31157273",
+      "31019307",
+      "30655814",
+      "30426503",
+      "30301754",
+      "29846171",
+      "27613100",
+      "27207943",
+      "27126680",
+      "26811603",
+      "25605792",
+      "23299388",
+      "23280316",
+      "23210778",
+      "22552631",
+      "21269502"
+    ],
+    "similar": [
+      "41378121",
+      "40362431",
+      "38772522",
+      "32071266",
+      "41342434",
+      "40960294",
+      "32600361",
+      "33249197",
+      "36631756",
+      "41341599",
+      "40898185",
+      "35189961",
+      "20878084",
+      "40782934",
+      "40068177",
+      "29112225",
+      "33052235",
+      "41145546",
+      "40760681",
+      "26288821",
+      "41191606",
+      "40097519",
+      "41333919",
+      "39563409",
+      "40266079",
+      "30157754",
+      "30794590",
+      "41074150",
+      "40664942",
+      "40711603",
+      "40347726",
+      "40804688",
+      "40419032",
+      "41305603",
+      "34562842",
+      "40607411",
+      "37925119",
+      "41049004",
+      "39993547",
+      "39022342",
+      "40818935",
+      "40298367",
+      "33317591",
+      "39958359",
+      "32103871",
+      "39107816",
+      "39028420",
+      "24472434",
+      "29490987",
+      "40438100",
+      "40383716",
+      "39984869",
+      "40532306",
+      "38572984",
+      "34344319",
+      "40963600",
+      "40969769",
+      "41219406",
+      "40145096",
+      "40175093",
+      "32337748",
+      "41200172",
+      "35907803",
+      "41143616",
+      "41080564",
+      "40936758",
+      "40981487",
+      "34745388",
+      "41409278",
+      "34500520",
+      "37458451",
+      "36198381",
+      "36793496",
+      "24855012",
+      "41388523",
+      "37563724",
+      "40764361",
+      "40484863",
+      "41351424",
+      "31756546",
+      "40119640",
+      "34750964",
+      "31694571",
+      "40461820",
+      "40646181",
+      "41504052",
+      "27880935",
+      "41235474",
+      "41038145",
+      "37012201",
+      "34741675",
+      "39647286",
+      "41415264",
+      "41234880",
+      "39086748",
+      "36453905",
+      "19096147",
+      "40419156",
+      "40860289",
+      "39859524"
+    ],
+    "review": [
+      "41378121",
+      "41305603",
+      "34562842",
+      "41219406",
+      "36198381",
+      "24855012",
+      "37563724",
+      "31756546",
+      "34750964",
+      "37012201"
+    ],
+    "pmc": [
+      "12688639"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41378121/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/6267309",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

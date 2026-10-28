@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "38370978",
+    "doi": "10.3389/fmolb.2023.1298457",
+    "title": "Construction and evaluation of endometriosis diagnostic prediction model and immune infiltration based on efferocytosis-related genes."
+  },
+  "content": {
+    "abstract": "Background: Endometriosis (EM) is a long-lasting inflammatory disease that is difficult to treat and prevent. Existing research indicates the significance of immune infiltration in the progression of EM. Efferocytosis has an important immunomodulatory function. However, research on the identification and clinical significance of efferocytosis-related genes (EFRGs) in EM is sparse. Methods: The EFRDEGs (differentially expressed efferocytosis-related genes) linked to datasets associated with endometriosis were thoroughly examined utilizing the Gene Expression Omnibus (GEO) and GeneCards databases. The construction of the protein-protein interaction (PPI) and transcription factor (TF) regulatory network of EFRDEGs ensued. Subsequently, machine learning techniques including Univariate logistic regression, LASSO, and SVM classification were applied to filter and pinpoint diagnostic biomarkers. To establish and assess the diagnostic model, ROC analysis, multivariate regression analysis, nomogram, and calibration curve were employed. The CIBERSORT algorithm and single-cell RNA sequencing (scRNA-seq) were employed to explore immune cell infiltration, while the Comparative Toxicogenomics Database (CTD) was utilized for the identification of potential therapeutic drugs for endometriosis. Finally, immunohistochemistry (IHC) and reverse transcription quantitative polymerase chain reaction (RT-qPCR) were utilized to quantify the expression levels of biomarkers in clinical samples of endometriosis. Results: Our findings revealed 13 EFRDEGs associated with EM, and the LASSO and SVM regression model identified six hub genes (ARG2, GAS6, C3, PROS1, CLU, and FGL2). Among these, ARG2, GAS6, and C3 were confirmed as diagnostic biomarkers through multivariate logistic regression analysis. The ROC curve analysis of GSE37837 (AUC = 0.627) and GSE6374 (AUC = 0.635), along with calibration and DCA curve assessments, demonstrated that the nomogram built on these three biomarkers exhibited a commendable predictive capacity for the disease. Notably, the ratio of nine immune cell types exhibited significant differences between eutopic and ectopic endometrial samples, with scRNA-seq highlighting M0 Macrophages, Fibroblasts, and CD8 Tex cells as the cell populations undergoing the most substantial changes in the three biomarkers. Additionally, our study predicted seven potential medications for EM. Finally, the expression levels of the three biomarkers in clinical samples were validated through RT-qPCR and IHC, consistently aligning with the results obtained from the public database. Conclusion: we identified three biomarkers and constructed a diagnostic model for EM in this study, these findings provide valuable insights for subsequent mechanistic research and clinical applications in the field of endometriosis.",
+    "keywords": [
+      "and machine learning",
+      "bioinformatics",
+      "efferocytosis",
+      "endometriosis",
+      "immune infiltration"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Fang-Li",
+        "Jia, Jin-Jin",
+        "Lin, Shu-Hong",
+        "Chen, Xiao-Xin",
+        "Wu, Li-Zheng",
+        "Lin, Zeng-Xian",
+        "Sun, Bo-Wen",
+        "Zeng, Cheng"
+      ],
+      "short_names": [
+        "Pei FL",
+        "Jia JJ",
+        "Lin SH",
+        "Chen XX",
+        "Wu LZ",
+        "Lin ZX",
+        "Sun BW",
+        "Zeng C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Fang-Li",
+        "short_name": "Pei FL",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Jin-Jin",
+        "short_name": "Jia JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shu-Hong",
+        "short_name": "Lin SH",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiao-Xin",
+        "short_name": "Chen XX",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Li-Zheng",
+        "short_name": "Wu LZ",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Zeng-Xian",
+        "short_name": "Lin ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Bo-Wen",
+        "short_name": "Sun BW",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Cheng",
+        "short_name": "Zeng C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/19 06:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42173876",
+      "40943271",
+      "40762681",
+      "40722613",
+      "40465087"
+    ],
+    "refs": [
+      "37187757",
+      "36660690",
+      "36660246",
+      "36624343",
+      "36474131",
+      "36153633",
+      "36126794",
+      "36059959",
+      "35760703",
+      "35585523",
+      "35492879",
+      "35480868",
+      "35400205",
+      "34670865",
+      "34330642",
+      "34244439",
+      "34233737",
+      "34099740",
+      "34062411",
+      "34036608",
+      "33992553",
+      "33476720",
+      "32660000",
+      "32499785",
+      "32307915",
+      "32117261",
+      "31907005",
+      "31843088",
+      "31822793",
+      "31552087",
+      "31117011",
+      "30781885",
+      "30570809",
+      "30533018",
+      "30369943",
+      "30187085",
+      "30021652",
+      "29441073",
+      "29386018",
+      "28668152",
+      "27475412",
+      "27128987",
+      "26771021",
+      "25930708",
+      "25910588",
+      "25822800",
+      "25605792",
+      "25484082",
+      "24903103",
+      "24315997",
+      "23832324",
+      "23460397",
+      "23372570",
+      "23318455",
+      "23130157",
+      "23006437",
+      "22990516",
+      "22928666",
+      "22914895",
+      "22907951",
+      "22455463",
+      "22257669",
+      "20720586",
+      "20126470",
+      "19321495",
+      "18688027",
+      "18414680",
+      "17640886",
+      "17510236",
+      "17070183",
+      "16199517",
+      "16076888",
+      "15483103",
+      "14960456",
+      "12796028",
+      "12763528",
+      "8636381"
+    ],
+    "similar": [
+      "38370978",
+      "36524127",
+      "38660311",
+      "36011263",
+      "38302849",
+      "35938015",
+      "39061076",
+      "36660246",
+      "38098472",
+      "39107816",
+      "39026250",
+      "38371524",
+      "37308800",
+      "36186997",
+      "38476236",
+      "37732314",
+      "37575252",
+      "36930359",
+      "35845512",
+      "39188323",
+      "37359526",
+      "36699262",
+      "37974098",
+      "37346073",
+      "37264340",
+      "38601640",
+      "38287255",
+      "35713363",
+      "37965330",
+      "36823662",
+      "35757721",
+      "36211422",
+      "36660690",
+      "36438903",
+      "36341343",
+      "36451813",
+      "35350787",
+      "34536521",
+      "38348042",
+      "36589450",
+      "37837870",
+      "36341378",
+      "39149122",
+      "38704432",
+      "38601664",
+      "36968845",
+      "37582718",
+      "34421979",
+      "38333413",
+      "38549776",
+      "32425988",
+      "38808722",
+      "38029552",
+      "36704339",
+      "37908757",
+      "37783761",
+      "36405745",
+      "38044432",
+      "37650991",
+      "37779906",
+      "35378934",
+      "39391037",
+      "37128203",
+      "38644543",
+      "33564304",
+      "37545529",
+      "38017285",
+      "37032823",
+      "36470144",
+      "36742332",
+      "38894720",
+      "37539146",
+      "36246593",
+      "36725810",
+      "38428097",
+      "38051734",
+      "35942730",
+      "36313022",
+      "37822923",
+      "38328563",
+      "35928610",
+      "34107850",
+      "36148059",
+      "35651940",
+      "37259023",
+      "37033969",
+      "36690956",
+      "37740762",
+      "35865542",
+      "38020758",
+      "35381314",
+      "35958412",
+      "38035102",
+      "36405716",
+      "35794640",
+      "35966794",
+      "38017559",
+      "35764238",
+      "36311708",
+      "37359552",
+      "37312900",
+      "37860112",
+      "38318171",
+      "38249960",
+      "35585523",
+      "38104954",
+      "36993785",
+      "38862450",
+      "38788026",
+      "39411815",
+      "37555920",
+      "38320734",
+      "38613800",
+      "39225907",
+      "39427832",
+      "38828052",
+      "38085498",
+      "38944364",
+      "39234566",
+      "39400603",
+      "38595290",
+      "38868049",
+      "36061826",
+      "38456992",
+      "38799203",
+      "39085562",
+      "38381715",
+      "38259465",
+      "39313721",
+      "38795170",
+      "38702954",
+      "39130409",
+      "37995798",
+      "39316330",
+      "38384278",
+      "38058697",
+      "39430538",
+      "39265844",
+      "38510116",
+      "35557708"
+    ],
+    "review": [
+      "38370978"
+    ],
+    "pmc": [
+      "10870152"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38370978/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38370978",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CLU-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2023.1298457",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse213216",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

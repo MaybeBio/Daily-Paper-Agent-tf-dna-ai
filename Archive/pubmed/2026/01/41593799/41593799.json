@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41593799",
+    "doi": "10.1186/s40001-026-03902-2",
+    "title": "Deciphering stromal cell interactions in osteosarcoma highlights CDKN2A and MMP14 as novel diagnostic and therapeutic biomarkers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma (OS) progression is critically influenced by the stromal microenvironment, yet we face a lack of reliable biomarkers. This study integrated single-cell and transcriptomic analyses to decipher stromal cell networks and identify novel diagnostic markers and therapeutic targets for OS. METHODS: Using scRNA-Seq data and transcriptomic datasets obtained from the Gene Expression Omnibus (GEO), clustering analysis and communication analysis were performed with Seurat and CellChat packages, respectively. High-dimensional WGCNA (hdWGCNA) was applied to stromal cells to identify key gene modules. Hub genes from these modules were intersected with differentially expressed genes (DEGs) from DESeq2 analysis to pinpoint potential biomarkers. Their regulatory networks were predicted using the hTFtarget and ENCORI databases. Potential targeted drugs were screened via the DSigDB database and validated by molecular docking. Finally, functional assays were conducted using OS cell lines. RESULTS: Single-cell transcriptomics analysis identified seven major cell subpopulations (macrophages, stromal cells, T cells, plasma cells, endothelial cells, plasmacytoid dendritic cells, and mast cells). Cell communication analysis showed that stromal cells and macrophages can interact via CD99-CD99. hdWGCNA analysis clustered 19 gene modules in stromal cells, among which modules M14, M15, and M17 were closely associated with OS and enriched in pathways, such as ossification, extracellular matrix organization, and skeletal system development. Two potential biomarkers (CDKN2A and MMP14) were screened. Transcription factor (TF) and miRNA regulatory network predictions indicated that both the two potential biomarkers were situated in a complex post-transcriptional regulatory network. Drug prediction and molecular docking results revealed that MMP14 can stably bind to resveratrol. The proliferation, invasion, and migration capabilities of MMP14-silenced OS cell lines were significantly downregulated. CONCLUSION: This study identified CDKN2A and MMP14 as potential OS biomarkers and elucidated their role within the stromal cell network, suggesting resveratrol as a candidate therapeutic molecule targeting MMP14. The present discoveries provided new insights for understanding the progression mechanisms and developing precise diagnosis and treatment strategies for OS.",
+    "keywords": [
+      "HdWGCNA",
+      "MiRNA",
+      "Molecular docking",
+      "Osteosarcoma",
+      "Stromal cells",
+      "Transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Xiwen",
+        "Jiang, Haobo",
+        "Sun, Yicheng",
+        "Ge, Jinwen",
+        "Luo, Zhenhua"
+      ],
+      "short_names": [
+        "Peng X",
+        "Jiang H",
+        "Sun Y",
+        "Ge J",
+        "Luo Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Integrated Traditional Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410007, China.",
+        "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410007, China.",
+        "Research Institute, Hunan University of Chinese Medicine, Changsha, 410000, China. 40831556@qq.com.",
+        "Department of Second Spine, The First Affiliated Hospital of Hunan University of Chinese Medicine, Changsha, 410000, China. 310145@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Xiwen",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Traditional Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Haobo",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410007, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yicheng",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410007, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Jinwen",
+        "short_name": "Ge J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute, Hunan University of Chinese Medicine, Changsha, 410000, China. 40831556@qq.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhenhua",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Second Spine, The First Affiliated Hospital of Hunan University of Chinese Medicine, Changsha, 410000, China. 310145@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:46",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40730813",
+      "40193126",
+      "40090634",
+      "39916962",
+      "39489850",
+      "39444939",
+      "39399244",
+      "39359731",
+      "39245737",
+      "39172098",
+      "39159682",
+      "39033109",
+      "38755647",
+      "38654934",
+      "38544826",
+      "38420143",
+      "37594664",
+      "37543674",
+      "37452172",
+      "37236196",
+      "37228445",
+      "37064872",
+      "37023991",
+      "36830767",
+      "36194371",
+      "35955799",
+      "35332311",
+      "35271994",
+      "34831016",
+      "34729248",
+      "34700112",
+      "34572097",
+      "33359211",
+      "33303760",
+      "32717819",
+      "32326444",
+      "31443114",
+      "31178118",
+      "29125563",
+      "28270508",
+      "27812189",
+      "25199469",
+      "20401516"
+    ],
+    "similar": [
+      "41593799",
+      "42136960",
+      "42265520",
+      "42040898",
+      "41052072",
+      "42391245",
+      "41031145",
+      "41388523",
+      "41126414",
+      "41655191",
+      "41716413",
+      "41845882",
+      "40764361",
+      "40661076",
+      "41371106",
+      "42517396",
+      "42136238",
+      "36506310",
+      "42475371",
+      "42089585",
+      "42530267",
+      "42530245",
+      "41180476",
+      "42477639",
+      "40216809",
+      "40754871",
+      "41591671",
+      "41630199",
+      "40433364",
+      "41918402",
+      "40846806",
+      "42147787",
+      "42211757",
+      "39896809",
+      "41288681",
+      "42471019",
+      "37063851",
+      "41503916",
+      "42123445",
+      "40977739",
+      "42404762",
+      "39067546",
+      "41487007",
+      "42348043",
+      "42227003",
+      "40860289",
+      "40532306",
+      "42292668",
+      "41299753",
+      "40406126",
+      "34218797",
+      "37031292",
+      "41044520",
+      "42236612",
+      "41631009",
+      "42248268",
+      "40374840",
+      "40574839",
+      "42249833",
+      "42486346",
+      "42301521",
+      "42061206",
+      "42565562",
+      "42509698",
+      "39742274",
+      "41316541",
+      "38259479",
+      "42278407",
+      "41432483",
+      "41787525",
+      "41479901",
+      "42107160",
+      "41234865",
+      "41884632",
+      "42010192",
+      "42059276",
+      "39509434",
+      "41006377",
+      "31934299",
+      "41895505",
+      "42529293",
+      "40933471",
+      "35151325",
+      "41450821",
+      "40711603",
+      "41716396",
+      "40831924",
+      "41566326",
+      "41533020",
+      "40766309",
+      "38980440",
+      "39893187",
+      "40895569",
+      "42120472",
+      "42303913",
+      "42295138",
+      "40289127",
+      "35434042",
+      "41107929",
+      "36627660"
+    ],
+    "review": [
+      "41593799"
+    ],
+    "pmc": [
+      "12918496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-026-03902-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41593799/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

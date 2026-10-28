@@ -1,0 +1,764 @@
+{
+  "identity": {
+    "pmid": "41325984",
+    "doi": "10.1093/nar/gkaf1209",
+    "title": "JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models."
+  },
+  "content": {
+    "abstract": "JASPAR (https://jaspar.elixir.no/) is an open-access database that has provided high-quality, manually curated, and non-redundant DNA binding profiles for transcription factors (TFs) as position frequency matrices (PFMs) for over 20 years. We expanded the CORE (306 new profiles, 12% increase) and UNVALIDATED (433, 60% increase) collections with new PFMs and updated 13 existing profiles. We updated the TF binding site predictions and genome tracks for eight species. TF binding profile clusters and familial TF binding sites were updated accordingly. We integrate the inMOTIFin software to easily simulate regulatory sequences using JASPAR PFMs. To enrich TFs' annotations, we provide scientific literature-based human TF target information. Notably, this release features a deep learning (DL) collection, providing a paradigm shift in modeling and characterizing TF-DNA interactions with 1259 BPNet models trained on Homo sapiens ENCODE chromatin immunoprecipitation followed by sequencing (ChIP-seq) datasets from 240 TFs and interpreted to reveal predictive motif patterns for the models. The motifs associated with the same TF were clustered to provide a summary of the binding properties, resulting in 240 primary and 113 alternative motif patterns in the DL collection. The JASPAR 2026 collections lay a foundation for future endeavors in genomic research, serving the scientific community in uncovering the mechanisms of gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "*Deep Learning",
+      "Humans",
+      "Binding Sites",
+      "*Software",
+      "*Databases, Genetic",
+      "DNA/metabolism",
+      "Protein Binding",
+      "Animals",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Nucleotide Motifs",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ovek Baydar, Damla",
+        "Rauluseviciute, Ieva",
+        "Aronsen, Dina R",
+        "Blanc-Mathieu, Romain",
+        "Bonthuis, Ine",
+        "de Beukelaer, Herman",
+        "Ferenc, Katalin",
+        "Jegou, Alice",
+        "Kumar, Vipin",
+        "Lemma, Roza Berhanu",
+        "Lucas, Jeremy",
+        "Pochon, Mathis",
+        "Yun, Chang M",
+        "Ramalingam, Vivekanandan",
+        "Deshpande, Salil Sanjay",
+        "Patel, Aman",
+        "Marinov, Georgi K",
+        "Wang, Austin T",
+        "Aguirre, Alejandro",
+        "Castro-Mondragon, Jaime A",
+        "Baranasic, Damir",
+        "Cheneby, Jeanne",
+        "Gundersen, Sveinung",
+        "Johansen, Morten",
+        "Khan, Aziz",
+        "Kuijjer, Marieke L",
+        "Hovig, Eivind",
+        "Lenhard, Boris",
+        "Sandelin, Albin",
+        "Vandepoele, Klaas",
+        "Wasserman, Wyeth W",
+        "Parcy, Francois",
+        "Kundaje, Anshul",
+        "Mathelier, Anthony"
+      ],
+      "short_names": [
+        "Ovek Baydar D",
+        "Rauluseviciute I",
+        "Aronsen DR",
+        "Blanc-Mathieu R",
+        "Bonthuis I",
+        "de Beukelaer H",
+        "Ferenc K",
+        "Jegou A",
+        "Kumar V",
+        "Lemma RB",
+        "Lucas J",
+        "Pochon M",
+        "Yun CM",
+        "Ramalingam V",
+        "Deshpande SS",
+        "Patel A",
+        "Marinov GK",
+        "Wang AT",
+        "Aguirre A",
+        "Castro-Mondragon JA",
+        "Baranasic D",
+        "Cheneby J",
+        "Gundersen S",
+        "Johansen M",
+        "Khan A",
+        "Kuijjer ML",
+        "Hovig E",
+        "Lenhard B",
+        "Sandelin A",
+        "Vandepoele K",
+        "Wasserman WW",
+        "Parcy F",
+        "Kundaje A",
+        "Mathelier A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5300-8098",
+        "ORCID: 0000-0001-9253-8825",
+        "ORCID: 0009-0001-1293-7293",
+        "ORCID: 0000-0002-9485-6330",
+        "ORCID: 0009-0000-2048-4821",
+        "ORCID: 0000-0002-3968-7386",
+        "ORCID: 0000-0002-3006-4297",
+        "ORCID: 0009-0002-1713-8412",
+        "ORCID: 0000-0003-1069-8011",
+        "ORCID: 0000-0002-2252-4732",
+        "ORCID: 0009-0004-4088-3319",
+        "ORCID: 0000-0003-3793-8265",
+        "ORCID: 0000-0001-6096-9444",
+        "ORCID: 0000-0003-4069-357X",
+        "ORCID: 0000-0001-5948-0932",
+        "ORCID: 0000-0003-4553-3110",
+        "ORCID: 0000-0001-9888-7954",
+        "ORCID: 0000-0002-6459-6224",
+        "ORCID: 0000-0001-6280-3130",
+        "ORCID: 0000-0002-9103-1077",
+        "ORCID: 0000-0002-1114-1509",
+        "ORCID: 0000-0002-7109-7378",
+        "ORCID: 0000-0003-4790-2725",
+        "ORCID: 0000-0001-6098-6412",
+        "ORCID: 0000-0003-2191-500X",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0001-5127-5459"
+      ],
+      "affiliations": [
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Laboratoire Physiologie Cellulaire et Vegetale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9051, Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB 9051 Ghent, Belgium.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Laboratoire Physiologie Cellulaire et Vegetale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Laboratoire Physiologie Cellulaire et Vegetale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France.",
+        "Laboratoire Physiologie Cellulaire et Vegetale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France.",
+        "Department of Chemical Engineering, Stanford University, Stanford, CA 94305,United States.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305,United States.",
+        "Institute for Computational and Mathematical Engineering (ICME), Stanford University, Stanford, CA 94305,United States.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305,United States.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305,United States.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305,United States.",
+        "Department of Medical Genetics, University of British Columbia, Vancouver, BC V6T 1Z3,Canada.",
+        "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, BC V5Z 4H4  Vancouver 950 W 28th Ave, Canada.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Akershus University Hospital, Department of Clinical Molecular Biology, Unit for Precision Medicine, Lorenskog, 1478, Norway.",
+        "Division of Electronics, Ruder Boskovic Institute, 10000 Zagreb Bijenicka cesta, Croatia.",
+        "MRC Laboratory of Medical Sciences, London W12 0NN Du Cane Road, United Kingdom.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, Hammersmith Hospital Campus, London W12 0NN Du Cane Road, United Kingdom.",
+        "Department of Biosciences, University of Oslo, Oslo 0316, Norway.",
+        "Department of Biosciences, University of Oslo, Oslo 0316, Norway.",
+        "Department of Biosciences, University of Oslo, Oslo 0316, Norway.",
+        "Department of Computational Biology, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "iCAN Flagship in Digital Precision Cancer Medicine, University of Helsinki, Helsinki, 00014,Finland.",
+        "Department of Biochemistry and Developmental Biology, University of Helsinki, Helsinki, 00014,Finland.",
+        "Department of Biosciences, University of Oslo, Oslo 0316, Norway.",
+        "MRC Laboratory of Medical Sciences, London W12 0NN Du Cane Road, United Kingdom.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, Hammersmith Hospital Campus, London W12 0NN Du Cane Road, United Kingdom.",
+        "Department of Biology and Biotech Research and Innovation Centre, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK2200 N, Denmark.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9051, Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB 9051 Ghent, Belgium.",
+        "Center for AI & Computational Biology, VIB, Ghent  9051, Belgium.",
+        "Department of Medical Genetics, University of British Columbia, Vancouver, BC V6T 1Z3,Canada.",
+        "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, BC V5Z 4H4  Vancouver 950 W 28th Ave, Canada.",
+        "Laboratoire Physiologie Cellulaire et Vegetale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305,United States.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305,United States.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Department of Medical Genetics, Institute of Clinical Medicine, Oslo University Hospital and University of Oslo, Oslo 0318, Norway.",
+        "Bioinformatics in Life Science (BiLS) initiative, Department of Pharmacy, University of Oslo, Oslo 0316, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ovek Baydar, Damla",
+        "short_name": "Ovek Baydar D",
+        "identifiers": [
+          "0000-0001-5300-8098"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Rauluseviciute, Ieva",
+        "short_name": "Rauluseviciute I",
+        "identifiers": [
+          "0000-0001-9253-8825"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Aronsen, Dina R",
+        "short_name": "Aronsen DR",
+        "identifiers": [
+          "0009-0001-1293-7293"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Blanc-Mathieu, Romain",
+        "short_name": "Blanc-Mathieu R",
+        "identifiers": [
+          "0000-0002-9485-6330"
+        ],
+        "affiliations": [
+          "Laboratoire Physiologie Cellulaire et Végétale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France."
+        ]
+      },
+      {
+        "full_name": "Bonthuis, Ine",
+        "short_name": "Bonthuis I",
+        "identifiers": [
+          "0009-0000-2048-4821"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "de Beukelaer, Herman",
+        "short_name": "de Beukelaer H",
+        "identifiers": [
+          "0000-0002-3968-7386"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9051, Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB 9051 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ferenc, Katalin",
+        "short_name": "Ferenc K",
+        "identifiers": [
+          "0000-0002-3006-4297"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Jegou, Alice",
+        "short_name": "Jegou A",
+        "identifiers": [
+          "0009-0002-1713-8412"
+        ],
+        "affiliations": [
+          "Laboratoire Physiologie Cellulaire et Végétale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France."
+        ]
+      },
+      {
+        "full_name": "Kumar, Vipin",
+        "short_name": "Kumar V",
+        "identifiers": [],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Lemma, Roza Berhanu",
+        "short_name": "Lemma RB",
+        "identifiers": [
+          "0000-0003-1069-8011"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Lucas, Jérémy",
+        "short_name": "Lucas J",
+        "identifiers": [
+          "0000-0002-2252-4732"
+        ],
+        "affiliations": [
+          "Laboratoire Physiologie Cellulaire et Végétale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France."
+        ]
+      },
+      {
+        "full_name": "Pochon, Mathis",
+        "short_name": "Pochon M",
+        "identifiers": [
+          "0009-0004-4088-3319"
+        ],
+        "affiliations": [
+          "Laboratoire Physiologie Cellulaire et Végétale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France."
+        ]
+      },
+      {
+        "full_name": "Yun, Chang M",
+        "short_name": "Yun CM",
+        "identifiers": [
+          "0000-0003-3793-8265"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Ramalingam, Vivekanandan",
+        "short_name": "Ramalingam V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Deshpande, Salil Sanjay",
+        "short_name": "Deshpande SS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Computational and Mathematical Engineering (ICME), Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Patel, Aman",
+        "short_name": "Patel A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Marinov, Georgi K",
+        "short_name": "Marinov GK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Austin T",
+        "short_name": "Wang AT",
+        "identifiers": [
+          "0000-0001-6096-9444"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Aguirre, Alejandro",
+        "short_name": "Aguirre A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of British Columbia, Vancouver, BC V6T 1Z3,Canada.",
+          "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, BC V5Z 4H4  Vancouver 950 W 28th Ave, Canada."
+        ]
+      },
+      {
+        "full_name": "Castro-Mondragon, Jaime A",
+        "short_name": "Castro-Mondragon JA",
+        "identifiers": [
+          "0000-0003-4069-357X"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+          "Akershus University Hospital, Department of Clinical Molecular Biology, Unit for Precision Medicine, Lørenskog, 1478, Norway."
+        ]
+      },
+      {
+        "full_name": "Baranasic, Damir",
+        "short_name": "Baranasic D",
+        "identifiers": [
+          "0000-0001-5948-0932"
+        ],
+        "affiliations": [
+          "Division of Electronics, Ruđer Bošković Institute, 10000 Zagreb Bijenička cesta, Croatia.",
+          "MRC Laboratory of Medical Sciences, London W12 0NN Du Cane Road, United Kingdom.",
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, Hammersmith Hospital Campus, London W12 0NN Du Cane Road, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Chèneby, Jeanne",
+        "short_name": "Chèneby J",
+        "identifiers": [
+          "0000-0003-4553-3110"
+        ],
+        "affiliations": [
+          "Department of Biosciences, University of Oslo, Oslo 0316, Norway."
+        ]
+      },
+      {
+        "full_name": "Gundersen, Sveinung",
+        "short_name": "Gundersen S",
+        "identifiers": [
+          "0000-0001-9888-7954"
+        ],
+        "affiliations": [
+          "Department of Biosciences, University of Oslo, Oslo 0316, Norway."
+        ]
+      },
+      {
+        "full_name": "Johansen, Morten",
+        "short_name": "Johansen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, University of Oslo, Oslo 0316, Norway."
+        ]
+      },
+      {
+        "full_name": "Khan, Aziz",
+        "short_name": "Khan A",
+        "identifiers": [
+          "0000-0002-6459-6224"
+        ],
+        "affiliations": [
+          "Department of Computational Biology, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Kuijjer, Marieke L",
+        "short_name": "Kuijjer ML",
+        "identifiers": [
+          "0000-0001-6280-3130"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+          "iCAN Flagship in Digital Precision Cancer Medicine, University of Helsinki, Helsinki, 00014,Finland.",
+          "Department of Biochemistry and Developmental Biology, University of Helsinki, Helsinki, 00014,Finland."
+        ]
+      },
+      {
+        "full_name": "Hovig, Eivind",
+        "short_name": "Hovig E",
+        "identifiers": [
+          "0000-0002-9103-1077"
+        ],
+        "affiliations": [
+          "Department of Biosciences, University of Oslo, Oslo 0316, Norway."
+        ]
+      },
+      {
+        "full_name": "Lenhard, Boris",
+        "short_name": "Lenhard B",
+        "identifiers": [
+          "0000-0002-1114-1509"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Medical Sciences, London W12 0NN Du Cane Road, United Kingdom.",
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, Hammersmith Hospital Campus, London W12 0NN Du Cane Road, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Sandelin, Albin",
+        "short_name": "Sandelin A",
+        "identifiers": [
+          "0000-0002-7109-7378"
+        ],
+        "affiliations": [
+          "Department of Biology and Biotech Research and Innovation Centre, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK2200 N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Vandepoele, Klaas",
+        "short_name": "Vandepoele K",
+        "identifiers": [
+          "0000-0003-4790-2725"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9051, Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB 9051 Ghent, Belgium.",
+          "Center for AI & Computational Biology, VIB, Ghent  9051, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wasserman, Wyeth W",
+        "short_name": "Wasserman WW",
+        "identifiers": [
+          "0000-0001-6098-6412"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, University of British Columbia, Vancouver, BC V6T 1Z3,Canada.",
+          "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, BC V5Z 4H4  Vancouver 950 W 28th Ave, Canada."
+        ]
+      },
+      {
+        "full_name": "Parcy, François",
+        "short_name": "Parcy F",
+        "identifiers": [
+          "0000-0003-2191-500X"
+        ],
+        "affiliations": [
+          "Laboratoire Physiologie Cellulaire et Végétale, Univ. Grenoble Alpes, CNRS, CEA, INRAE, IRIG-DBSCI-LPCV, Grenoble F-38054 17 avenue des martyrs, France."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305,United States.",
+          "Department of Computer Science, Stanford University, Stanford, CA 94305,United States."
+        ]
+      },
+      {
+        "full_name": "Mathelier, Anthony",
+        "short_name": "Mathelier A",
+        "identifiers": [
+          "0000-0001-5127-5459"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+          "Department of Medical Genetics, Institute of Clinical Medicine, Oslo University Hospital and University of Oslo, Oslo 0318, Norway.",
+          "Bioinformatics in Life Science (BiLS) initiative, Department of Pharmacy, University of Oslo, Oslo 0316, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "42653468",
+      "42645209",
+      "42643694",
+      "42614148",
+      "42551425",
+      "42547575",
+      "42533117",
+      "42533086",
+      "42529268",
+      "42495444",
+      "42477143",
+      "42473638",
+      "42463491",
+      "42441976",
+      "42439407",
+      "42411323",
+      "42402843",
+      "42389267",
+      "42304212",
+      "42282846",
+      "42234579",
+      "42227941",
+      "42206375",
+      "42197712",
+      "42188182",
+      "42187732",
+      "42183351",
+      "42074115",
+      "42064062",
+      "42062474",
+      "42059479",
+      "42033229",
+      "41978384",
+      "41977769",
+      "41961469",
+      "41934637",
+      "41922599",
+      "41912484",
+      "41898152",
+      "41840057",
+      "41818299",
+      "41801802",
+      "41659457",
+      "41654690",
+      "41557841"
+    ],
+    "refs": [
+      "40825859",
+      "40626041",
+      "40205063",
+      "39107889",
+      "39048682",
+      "37971293",
+      "37962376",
+      "37730438",
+      "37370113",
+      "36192604",
+      "35659235",
+      "34875418",
+      "33603233",
+      "33221922",
+      "33137083",
+      "32574834",
+      "32053778",
+      "31713622",
+      "31133749",
+      "30971806",
+      "30040077",
+      "29425488",
+      "29284660",
+      "29253085",
+      "29140464",
+      "27546793",
+      "26789876",
+      "26552868",
+      "25925574",
+      "25273974",
+      "25215497",
+      "25033408",
+      "24039567",
+      "23953112",
+      "22955616",
+      "16845064",
+      "14681366"
+    ],
+    "similar": [
+      "41325984",
+      "31701148",
+      "37962376",
+      "19906716",
+      "34850907",
+      "26531826",
+      "29140473",
+      "42099803",
+      "40102719",
+      "35240993",
+      "16381983",
+      "31742324",
+      "31372637",
+      "23272209",
+      "23748563",
+      "34174819",
+      "19956545",
+      "24194598",
+      "37805453",
+      "33372147",
+      "25070602",
+      "39402535",
+      "22189060",
+      "40848288",
+      "20838582",
+      "30517703",
+      "33603233",
+      "37650641",
+      "42114111",
+      "30380113",
+      "39796242",
+      "41035197",
+      "26291518",
+      "24927817",
+      "28957653",
+      "25775564",
+      "34272562",
+      "24214955",
+      "26971251",
+      "39271116",
+      "40702706",
+      "28718849",
+      "14681366",
+      "31665425",
+      "25957350",
+      "38654130",
+      "28334916",
+      "37850642",
+      "40279252",
+      "33975951",
+      "24039567",
+      "23203885",
+      "31340985",
+      "40598892",
+      "18006571",
+      "22955990",
+      "25927199",
+      "18725950",
+      "23209563",
+      "22955984",
+      "27052996",
+      "28359978",
+      "19158363",
+      "30395277",
+      "31723409",
+      "34465294",
+      "28750606",
+      "22534400",
+      "31138617",
+      "34953471",
+      "26160164",
+      "24441470",
+      "39482734",
+      "34755879",
+      "32858223",
+      "28849563",
+      "30133315",
+      "41359035",
+      "30897079",
+      "31899481",
+      "41536793",
+      "34607350",
+      "33999190",
+      "41527853",
+      "23427986",
+      "35263332",
+      "29363433",
+      "27780826",
+      "27567672",
+      "40065237",
+      "26818008",
+      "22863112",
+      "30040077",
+      "30709337",
+      "39535534",
+      "32324215",
+      "32825662",
+      "21486936",
+      "26285121",
+      "31942977"
+    ],
+    "review": [
+      "41325984",
+      "31742324"
+    ],
+    "pmc": [
+      "12807658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41325984/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1209",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

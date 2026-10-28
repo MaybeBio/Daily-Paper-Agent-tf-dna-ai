@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "39906159",
+    "doi": "10.1016/j.csbj.2025.01.004",
+    "title": "From homogeneity to heterogeneity: Refining stochastic simulations of gene regulation."
+  },
+  "content": {
+    "abstract": "Cellular processes are intricately controlled through gene regulation, which is significantly influenced by intrinsic noise due to the small number of molecules involved. The Gillespie algorithm, a widely used stochastic simulation method, is pervasively employed to model these systems. However, this algorithm typically assumes that DNA is homogeneously distributed throughout the nucleus, which is not realistic. In this study, we evaluated whether stochastic simulations based on the assumption of spatial homogeneity can accurately capture the dynamics of gene regulation. Our findings indicate that when transcription factors diffuse slowly, these simulations fail to accurately capture gene expression, highlighting the necessity to account for spatial heterogeneity. However, incorporating spatial heterogeneity considerably increases computational time. To address this, we explored various stochastic quasi-steady-state approximations (QSSAs) that simplify the model and reduce simulation time. While both the stochastic total quasi-steady state approximation (stQSSA) and the stochastic low-state quasi-steady-state approximation (slQSSA) reduced simulation time, only the slQSSA provided an accurate model reduction. Our study underscores the importance of utilizing appropriate methods for efficient and accurate stochastic simulations of gene regulatory dynamics, especially when incorporating spatial heterogeneity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chae, Seok Joo",
+        "Shin, Seolah",
+        "Lee, Kangmin",
+        "Lee, Seunggyu",
+        "Kim, Jae Kyoung"
+      ],
+      "short_names": [
+        "Chae SJ",
+        "Shin S",
+        "Lee K",
+        "Lee S",
+        "Kim JK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+        "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+        "Department of Bioengineering, Rice University, Houston, 77005, TX, United States of America.",
+        "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+        "Department of Applied Mathematics, Korea University, Seoul, 02841, Republic of Korea.",
+        "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+        "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+        "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+        "Department of Applied Mathematics, Korea University, Seoul, 02841, Republic of Korea.",
+        "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+        "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+        "Department of Medicine, College of Medicine, Korea University, Seoul, 02841, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chae, Seok Joo",
+        "short_name": "Chae SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+          "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+          "Department of Bioengineering, Rice University, Houston, 77005, TX, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shin, Seolah",
+        "short_name": "Shin S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+          "Department of Applied Mathematics, Korea University, Seoul, 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Kangmin",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+          "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Seunggyu",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+          "Department of Applied Mathematics, Korea University, Seoul, 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Jae Kyoung",
+        "short_name": "Kim JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, KAIST, Daejeon, 34141, Republic of Korea.",
+          "Biomedical Mathematics group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon, 34126, Republic of Korea.",
+          "Department of Medicine, College of Medicine, Korea University, Seoul, 02841, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 06:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "40473596"
+    ],
+    "refs": [
+      "38843305",
+      "38750123",
+      "38656966",
+      "38493227",
+      "38439967",
+      "38427894",
+      "37889068",
+      "37524714",
+      "37123226",
+      "36537810",
+      "36519932",
+      "36125857",
+      "36117994",
+      "35986819",
+      "35450279",
+      "35440114",
+      "35285799",
+      "35193959",
+      "34662330",
+      "34260581",
+      "33237849",
+      "33106420",
+      "33090989",
+      "32330456",
+      "32324332",
+      "31640499",
+      "31165406",
+      "30756234",
+      "29208922",
+      "29103939",
+      "28957658",
+      "28582397",
+      "27959915",
+      "27444022",
+      "27222432",
+      "27146686",
+      "26764732",
+      "26597159",
+      "25788627",
+      "25349675",
+      "25099817",
+      "24480713",
+      "24243859",
+      "23212247",
+      "23007888",
+      "22014521",
+      "21886771",
+      "21506553",
+      "21390269",
+      "21261403",
+      "21149679",
+      "20363979",
+      "20159560",
+      "19782025",
+      "19623245",
+      "19414282",
+      "19123500",
+      "18718493",
+      "18694558",
+      "18621809",
+      "18304323",
+      "17614590",
+      "17406082",
+      "17052123",
+      "16500958",
+      "16238434",
+      "15817692",
+      "15638651",
+      "15256515",
+      "12237400",
+      "10852944",
+      "10659856",
+      "2673023"
+    ],
+    "similar": [
+      "39906159",
+      "26327626",
+      "24832255",
+      "22583770",
+      "26597159",
+      "16356038",
+      "25099817",
+      "25632368",
+      "30756234",
+      "38843305",
+      "34825985",
+      "18621809",
+      "34662330",
+      "26298113",
+      "27146686",
+      "29058744",
+      "19414282",
+      "23912807",
+      "29797051",
+      "19044893",
+      "25652460",
+      "16504125",
+      "12754937",
+      "22629320",
+      "15893556",
+      "27549182",
+      "22852595",
+      "11934747",
+      "25612700",
+      "29030804",
+      "21513377",
+      "18205926",
+      "17867731",
+      "22929591",
+      "29992454",
+      "24070313",
+      "25909953",
+      "29040384",
+      "16199522",
+      "23046840",
+      "22088045",
+      "34986805",
+      "29448774",
+      "37074578",
+      "40039843",
+      "23367174",
+      "19919689",
+      "19534796",
+      "30931019",
+      "22723865",
+      "29175206",
+      "31672406",
+      "23163359",
+      "39133278",
+      "25243072",
+      "26561778",
+      "28341132",
+      "35776210",
+      "23345804",
+      "24384703",
+      "25339894",
+      "17824731",
+      "17945691",
+      "39541410",
+      "25833240",
+      "30380310",
+      "34241042",
+      "25505503",
+      "24920118",
+      "35513730",
+      "30411251",
+      "34800180",
+      "23063780",
+      "23496560",
+      "39433119",
+      "25045716",
+      "40199347",
+      "30120244",
+      "24886608",
+      "28582397",
+      "29673907",
+      "19459014",
+      "20144620",
+      "23095709",
+      "36075715",
+      "20202198",
+      "34162329",
+      "22225140",
+      "29644519",
+      "23134718",
+      "24309434",
+      "27768683",
+      "28388111",
+      "23267473",
+      "27703710",
+      "26156221",
+      "20210383",
+      "16648266",
+      "33090989",
+      "16796551"
+    ],
+    "review": [
+      "39906159",
+      "12754937",
+      "23367174",
+      "25505503"
+    ],
+    "pmc": [
+      "11791169"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00002-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39906159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

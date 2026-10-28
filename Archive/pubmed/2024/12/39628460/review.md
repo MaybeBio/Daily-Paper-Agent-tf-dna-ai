@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors report in vitro formation of stable hairpin structures in the sense strand of the c-Fos Serum Response Element (SRE), characterized by UV melting, NMR spectroscopy, and MD simulations, and propose relevance to cruciform formation and SRF recognition
+- **Visible evidence base** UV absorption melting curves, 1H NMR variable-temperature spectra, NOESY-derived distance constraints, fluorescence titration data, MD simulation snapshots, thermodynamic parameters in Tables 1 and 2, Figures 1-10
+- **Missing materials affecting confidence** Full experimental spectra (raw UV, NMR, fluorescence), detailed fitting parameters, ESI content referenced but not provided, MD simulation trajectory details, error analysis for thermodynamic parameters, sequence context of c-Fos promoter region
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic in vitro study of hairpin formation in the c-Fos SRE sense strand, combining multiple biophysical techniques. The experimental design is logical and the evidence for hairpin formation is generally convincing. However, several technical concerns regarding data analysis, interpretation of thermodynamic parameters, and the biological relevance of the findings need to be addressed. The study is technically sound in its core methodology but the extrapolation to cruciform formation and SRF recognition remains speculative without direct evidence.
+- **Who would be interested in the results, and why** Researchers in DNA structure and biophysics, transcription factor biology, gene regulation, and nucleic acid folding. The study provides a detailed characterization of a non-canonical DNA structure in a regulatory element, which is relevant to understanding how DNA sequence and structure influence transcription factor binding and gene expression.
+- **Major strengths** 1) Comprehensive multi-technique approach (UV, NMR, fluorescence, MD) providing complementary evidence for hairpin formation. 2) Careful exclusion of homoduplex formation through concentration-dependent analysis. 3) Systematic length-dependence study providing insight into hairpin stability determinants. 4) Atomic-level structural model supported by NMR-derived distance constraints.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the folded structure is a hairpin based on linewidth comparisons with reference duplexes, absence of imino resonances, and chemical shift predictions.
+  - **Evidence pointer** Section "Folding of SRE single strand into a hairpin", Figure 3, Figure S5, Figure S6
+  - **Concern** The linewidth comparison with reference octamer duplexes is used to infer molecular weight and thus unimolecular folding. However, the reference duplexes are only 8 base pairs, while the SREseg16 hairpin stem is 5 base pairs with a 6-nucleotide loop. The rotational correlation time depends on overall shape and flexibility, not just molecular weight. A compact hairpin with a structured loop could have a similar correlation time to a short duplex despite different molecular weights. The authors should provide more rigorous evidence, such as concentration-independent melting temperatures across a wider concentration range, or pulsed-field-gradient NMR diffusion measurements to directly determine molecular size.
+  - **Why it matters** The distinction between hairpin and homoduplex is central to the manuscript's conclusions. If the folded species is actually a homoduplex, the entire interpretation of the results and the proposed relevance to cruciform formation would be invalid.
+  - **Resolution test** Provide concentration-dependent melting curves over at least two orders of magnitude (e.g., 1 μM to 1 mM) showing invariant Tm for unimolecular folding. Alternatively, perform DOSY NMR to measure diffusion coefficients and compare with calculated values for hairpin versus duplex species.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the folding enthalpy and entropy per Watson-Crick pair from the hairpin model agree with reference values, while the duplex model gives values only 50-60% of references.
+  - **Evidence pointer** Section "Folding of SRE single strand into a hairpin", Table 1
+  - **Concern** The thermodynamic parameters in Table 1 are presented without error estimates. The comparison between hairpin and duplex models relies on the quality of the fits, but no goodness-of-fit statistics or confidence intervals are provided. Furthermore, the reference duplexes used for comparison are fully palindromic octamers with different sequences and GC content, making direct comparison of per-base-pair thermodynamic parameters potentially misleading. The authors should provide error bars and statistical comparison of model fits.
+  - **Why it matters** The thermodynamic analysis is used as key evidence for the hairpin assignment. Without proper error analysis and statistical comparison, the conclusion that the hairpin model is superior to the duplex model is not rigorously established.
+  - **Resolution test** Provide standard errors for all thermodynamic parameters, perform an F-test or AIC comparison of the two models, and use sequence-matched reference duplexes for comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that the hairpin structure could form a cruciform in vivo and serve as a topological recognition site for SRF.
+  - **Evidence pointer** Section "Relevance to the SRF-SRE interaction", Figure 10
+  - **Concern** The biological relevance section is entirely speculative. No experiments are performed to test whether the hairpin forms in the context of double-stranded DNA, whether cruciform formation occurs under physiological conditions, or whether SRF binds differently to cruciform versus linear DNA. The cited in vivo studies are correlative and do not directly demonstrate cruciform formation at the c-Fos SRE.
+  - **Why it matters** The manuscript's broader significance and potential impact depend on the biological relevance of the findings. Without direct evidence linking the in vitro hairpin to in vivo function, the claims remain speculative and weaken the overall contribution.
+  - **Resolution test** Perform experiments with double-stranded DNA containing the SRE sequence to test hairpin formation in a more physiologically relevant context. Alternatively, test SRF binding to hairpin versus duplex DNA in vitro, or use chemical probes to detect cruciform formation in cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report the presence of three unexpected exchangeable protons assigned to adenine amino groups involved in non-canonical hydrogen bonds.
+  - **Evidence pointer** Section "Folding of SRE single strand into a hairpin", Figure 3
+  - **Concern** The assignment of these exchangeable protons to specific adenine amino groups is not fully justified. No isotope labeling or site-specific mutagenesis is performed to confirm the assignment. The chemical shift range for adenine amino protons can overlap with other exchangeable protons, and the authors do not discuss alternative assignments.
+  - **Why it matters** The non-canonical hydrogen bonding in the loop is a key structural feature of the proposed hairpin model. If the assignment is incorrect, the structural model may be flawed.
+  - **Resolution test** Perform site-specific deuteration or use 15N-labeled samples to confirm the assignment. Alternatively, mutate individual adenines to other bases and observe the disappearance of specific resonances.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we identified the emergence of a remarkably stable structure" without providing quantitative context (e.g., Tm values) that would help readers assess the claim.
+  - **Required correction** Include representative Tm values or a range in the abstract to support the "remarkably stable" claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, UV-vis absorbance spectroscopy
+  - **Evidence pointer** Section "UV-vis absorbance spectroscopy"
+  - **Issue** The temperature step is described as "approximately 4 °C step" but the equilibration time at each temperature is not specified. This could affect the accuracy of melting curves.
+  - **Required correction** Specify the equilibration time and temperature accuracy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR
+  - **Evidence pointer** Section "NMR"
+  - **Issue** The mixing time for NOESY is stated as 200 ms (120 ms for SREseg12), but no justification is provided for the choice of mixing times or the potential for spin diffusion effects.
+  - **Required correction** Justify the choice of mixing times or discuss the potential impact of spin diffusion on distance estimates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The thermodynamic parameters for longer oligonucleotides (SREseg20, SREseg28, SREseg36) are derived from UV data only, without independent verification by NMR or other methods.
+  - **Required correction** Acknowledge this limitation and discuss potential systematic errors in UV-only analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Relevance to the SRF-SRE interaction"
+  - **Evidence pointer** Section "Relevance to the SRF-SRE interaction"
+  - **Issue** The description of the SRF-SRE complex structure and the potential role of cruciform formation is dense and could benefit from a clearer schematic or summary figure.
+  - **Required correction** Consider adding a schematic figure illustrating the proposed cruciform-to-duplex transition and SRF binding.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Fluorescence measurements
+  - **Evidence pointer** Section "Fluorescence measurements"
+  - **Issue** The fluorescence experiments are described as being performed at "ambient temperature (about 21 °C)" but the titration experiment uses a 1:3000 ratio of labeled to unlabeled DNA. The authors do not discuss potential inner filter effects or concentration-dependent artifacts at such high ratios.
+  - **Required correction** Discuss potential artifacts and how they were controlled for.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (hairpin versus duplex distinction), R1-M2 (thermodynamic analysis without error estimates)
+- **Assessment against Nature-style criteria** Originality: Moderate. The study applies established techniques to a specific sequence, but the finding of a stable hairpin in the c-Fos SRE is novel. Scientific importance: Moderate. The biological relevance is speculative and not directly demonstrated. Interdisciplinary readership: Limited. The study is primarily of interest to biophysicists and molecular biologists studying DNA structure. Technical soundness: Generally sound but with notable gaps in error analysis and model comparison. Readability for nonspecialists: The manuscript is well-structured but assumes familiarity with NMR and thermodynamic analysis techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of hairpin formation is plausible and well-supported by multiple techniques, but the distinction from homoduplex formation needs to be more rigorously established, and the biological relevance claims should be tempered or supported by additional experiments.
+
+## Risk / unsupported claims
+- The claim that the hairpin structure could serve as a topological recognition site for SRF is unsupported by direct experimental evidence.
+- The extrapolation from in vitro hairpin formation to in vivo cruciform formation is speculative.
+- The assignment of three exchangeable protons to adenine amino groups is not fully verified.
+- The claim that the hairpin structure represents "an unprecedented structural motif" is overstated given the limited comparison to existing literature on DNA hairpins with similar loop sizes.

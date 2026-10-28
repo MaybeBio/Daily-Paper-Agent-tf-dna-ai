@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39668715",
+    "doi": "10.1080/15476286.2024.2437590",
+    "title": "Identification of deleterious non-synonymous single nucleotide polymorphisms in the mRNA decay activator ZFP36L2."
+  },
+  "content": {
+    "abstract": "More than 4,000 single nucleotide polymorphisms (SNP) variants have been identified in the human ZFP36L2 gene, however only a few have been studied in the context of protein function. The tandem zinc finger domain of ZFP36L2, an RNA binding protein, is the functional domain that binds to its target mRNAs. This protein/RNA interaction triggers mRNA degradation, controlling gene expression. We identified 32 non-synonymous SNPs (nsSNPs) in the tandem zinc finger domain of ZFP36L2 that could have possible deleterious impacts in humans. Using different bioinformatic strategies, we prioritized five among these 32 nsSNPs, namely rs375096815, rs1183688047, rs1214015428, rs1215671792 and rs920398592 to be validated. When we experimentally tested the functionality of these protein variants using gel shift assays, all five (Y154H, R160W, R184C, G204D, and C206F) resulted in a dramatic reduction in RNA binding compared to the WT protein. To understand the mechanistic effect of these variants on the protein/RNA interaction, we employed DUET, DynaMut and PyMOL to investigate structural changes in the protein. Additionally, we conducted Molecular Docking and Molecular Dynamics Simulations to fine tune the active behaviour of this biomolecular system at an atomic level. Our results propose atomic explanations for the impact of each of these five genetic variants identified.",
+    "keywords": [
+      "Adenine Uridine Rich Elements (AREs)",
+      "RNA binding protein",
+      "Zinc finger protein 36 like 2",
+      "deleterious effect",
+      "non-synonymous single nucleotide polymorphisms (nsSNPs)"
+    ],
+    "mesh_terms": [
+      "*Polymorphism, Single Nucleotide",
+      "Humans",
+      "*RNA Stability",
+      "*Protein Binding",
+      "Zinc Fingers",
+      "RNA, Messenger/genetics/metabolism/chemistry",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "RNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akcesme, Betul",
+        "Hekimoglu, Hilal",
+        "Chirasani, Venkat R",
+        "Is, Seyma",
+        "Atmaca, Habibe Nur",
+        "Waldern, Justin M",
+        "Ramos, Silvia B V"
+      ],
+      "short_names": [
+        "Akcesme B",
+        "Hekimoglu H",
+        "Chirasani VR",
+        "Is S",
+        "Atmaca HN",
+        "Waldern JM",
+        "Ramos SBV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7900-9806"
+      ],
+      "affiliations": [
+        "Program of Genetics and Bioengineering, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Ilidza/Sarajevo, Bosnia and Herzegovina.",
+        "Hamidiye School of Medicine, Department of Basic Medical Sciences, Division of Medical Biology, University of Health Sciences, Uskudar/Istanbul, Turkey.",
+        "Institute of Health Sciences, Istanbul University, Fatih/Istanbul, Turkey.",
+        "Biochemistry and Biophysics Department, School of Medicine, University of North Carolina, Chapel Hill, NC, USA.",
+        "Biochemistry and Biophysics Department, R. L. Juliano Structural Bioinformatics Core, School of Medicine, University of North Carolina, Chapel Hill, NC, USA.",
+        "Hamidiye School of Medicine, Department of Basic Medical Sciences, Division of Medical Biology, University of Health Sciences, Uskudar/Istanbul, Turkey.",
+        "Department of Molecular Biotechnology, Division of Bioinformatics, Turkish-German University, Beykoz/Istanbul, Turkey.",
+        "Department of Medical Biology, Faculty of Medicine, Ondokuz Mayis University, Atakum/Samsun, Turkey.",
+        "Biology Department, University of North Carolina, Chapel Hill, NC, USA.",
+        "Biochemistry and Biophysics Department, School of Medicine, University of North Carolina, Chapel Hill, NC, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akçeşme, Betül",
+        "short_name": "Akçeşme B",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Genetics and Bioengineering, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Ilidža/Sarajevo, Bosnia and Herzegovina.",
+          "Hamidiye School of Medicine, Department of Basic Medical Sciences, Division of Medical Biology, University of Health Sciences, Üsküdar/İstanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Hekimoğlu, Hilal",
+        "short_name": "Hekimoğlu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Sciences, İstanbul University, Fatih/İstanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Chirasani, Venkat R",
+        "short_name": "Chirasani VR",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Biophysics Department, School of Medicine, University of North Carolina, Chapel Hill, NC, USA.",
+          "Biochemistry and Biophysics Department, R. L. Juliano Structural Bioinformatics Core, School of Medicine, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "İş, Şeyma",
+        "short_name": "İş Ş",
+        "identifiers": [],
+        "affiliations": [
+          "Hamidiye School of Medicine, Department of Basic Medical Sciences, Division of Medical Biology, University of Health Sciences, Üsküdar/İstanbul, Turkey.",
+          "Department of Molecular Biotechnology, Division of Bioinformatics, Turkish-German University, Beykoz/İstanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Atmaca, Habibe Nur",
+        "short_name": "Atmaca HN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Ondokuz Mayıs University, Atakum/Samsun, Turkey."
+        ]
+      },
+      {
+        "full_name": "Waldern, Justin M",
+        "short_name": "Waldern JM",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Ramos, Silvia B V",
+        "short_name": "Ramos SBV",
+        "identifiers": [
+          "0000-0001-7900-9806"
+        ],
+        "affiliations": [
+          "Biochemistry and Biophysics Department, School of Medicine, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RNA biology"
+    ],
+    "journal_abbrev": [
+      "RNA Biol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/13 11:32",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36269839",
+      "35449125",
+      "35380695",
+      "34611029",
+      "34502288",
+      "34395534",
+      "34225665",
+      "32881105",
+      "32655569",
+      "31702846",
+      "31693276",
+      "30864256",
+      "29718330",
+      "29426877",
+      "29408237",
+      "28860350",
+      "28525590",
+      "28521030",
+      "28482034",
+      "28455422",
+      "27862697",
+      "27166375",
+      "26841758",
+      "26620784",
+      "26410586",
+      "24830504",
+      "24453961",
+      "24281696",
+      "24253039",
+      "23819482",
+      "23748442",
+      "22968342",
+      "22367205",
+      "21727090",
+      "21278420",
+      "21109922",
+      "20478830",
+      "20354512",
+      "19633199",
+      "18971256",
+      "18367448",
+      "17526529",
+      "16981200",
+      "15980475",
+      "15965030",
+      "15814898",
+      "15342461",
+      "15264254",
+      "15226444",
+      "14981510",
+      "12824425",
+      "12499312",
+      "12202775",
+      "12054509",
+      "11796723",
+      "11181995",
+      "10751406",
+      "10706852",
+      "10330172",
+      "9703499",
+      "9234718",
+      "8825554",
+      "8630730",
+      "3684574",
+      "2677677"
+    ],
+    "similar": [
+      "39668715",
+      "39356734",
+      "42319349",
+      "34827731",
+      "34276705",
+      "41084424",
+      "41628231",
+      "37173831",
+      "40892789",
+      "38656135",
+      "39854591",
+      "23561625",
+      "24635033",
+      "38953172",
+      "25342740",
+      "35685361",
+      "35380695",
+      "41277739",
+      "40370698",
+      "30768627",
+      "28718627",
+      "35092861",
+      "17105199",
+      "32787631",
+      "25014217",
+      "22203679",
+      "28388287",
+      "36056132",
+      "42322085",
+      "24697206",
+      "18042546",
+      "33066695",
+      "30884445",
+      "39715225",
+      "36995110",
+      "40983009",
+      "40493574",
+      "39021990",
+      "19633199",
+      "38858637",
+      "31902252",
+      "38062275",
+      "25228083",
+      "25955820",
+      "20193655",
+      "31302457",
+      "41787560",
+      "37278385",
+      "41539145",
+      "23892092",
+      "24253039",
+      "23792016",
+      "34921182",
+      "30781512",
+      "39972499",
+      "33491267",
+      "30676783",
+      "37640005",
+      "22367205",
+      "42309611",
+      "34710812",
+      "39589570",
+      "27487322",
+      "19177353",
+      "39673052",
+      "31712642",
+      "35452998",
+      "25584704",
+      "16648466",
+      "14981510",
+      "42369210",
+      "40375167",
+      "28329689",
+      "40375073",
+      "10448036",
+      "17636033",
+      "29476931",
+      "39456902",
+      "28808060",
+      "20574513",
+      "35727487",
+      "37817532",
+      "15535838",
+      "38165846",
+      "39321355",
+      "34643435",
+      "24521053",
+      "41231851",
+      "34591015",
+      "39927874",
+      "12657633",
+      "39541331",
+      "34853389",
+      "30802828",
+      "17273963",
+      "37139544",
+      "28208577",
+      "41917079",
+      "36544314",
+      "28974714"
+    ],
+    "review": [
+      "39668715",
+      "34276705",
+      "24697206",
+      "25955820"
+    ],
+    "pmc": [
+      "12710939"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15476286.2024.2437590?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39668715/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15476286.2024.2437590",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract, without access to full methods, results, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a new feature extraction strategy, TPSO, which divides protein sequences into N- and C-terminal fragments and extracts pseudo features from three parts (full sequence and two fragments). They combine TPSO with a deep neural network (BiLSTM and fully connected layers) to predict DNA-binding proteins, reporting accuracy of 87.01%, recall of 85.30%, and Matthew's correlation coefficient of 0.741, outperforming most existing state-of-the-art methods. A standalone package and web server are provided.
+- **Visible evidence base** Abstract text only; no figures, tables, datasets, benchmark details, or code documentation are provided
+- **Missing materials affecting confidence** Full methods, dataset composition and splits, hyperparameter settings, baseline comparisons, statistical significance tests, ablation studies, and validation on independent datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible approach to improving DNA-binding protein prediction by incorporating sequence-order information through a three-part feature extraction strategy. The reported performance metrics are competitive, but the abstract alone does not provide sufficient detail to verify the methodological novelty, the rigor of the experimental design, or the robustness of the claimed improvements. The core claims are not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology, particularly those working on protein function prediction, DNA-protein interaction modeling, and machine learning applications in bioinformatics. The work may also interest developers of predictive tools for genome annotation and drug discovery, as improved DBP prediction can aid in understanding gene regulation and identifying potential therapeutic targets.
+- **Major strengths** The proposed TPSO strategy addresses a recognized limitation in existing methods by explicitly incorporating sequence-order information from terminal fragments. The use of a deep learning framework combining BiLSTM and fully connected layers is appropriate for capturing nonlinear relationships. The provision of a standalone package and web server enhances accessibility and reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that TPSO-DBP achieves an accuracy of 87.01%, recall of 85.30%, and MCC of 0.741, and that these results are "significantly higher than most existing state-of-the-art DBP prediction methods."
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract reports performance metrics without specifying the benchmark dataset, the evaluation protocol (e.g., cross-validation scheme, independent test set), or the statistical significance of the differences compared to baseline methods. Without this information, the claimed superiority cannot be assessed.
+  - **Why it matters** Performance claims in predictive modeling are only meaningful when the evaluation setup is clearly defined and comparable to prior work. Lack of dataset and protocol details prevents verification of whether the improvements are genuine or artifacts of data partitioning or overfitting.
+  - **Resolution test** Provide the dataset name, sequence redundancy reduction criteria, cross-validation strategy, and results of statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing TPSO-DBP to each baseline method on the same data splits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The abstract states that TPSO is a "new three-part sequence-order feature extraction strategy" that extracts "more discriminative information" by dividing sequences into N- and C-terminal fragments.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The novelty of TPSO relative to existing feature extraction methods is not established. Fragment-based sequence analysis and pseudo-feature extraction are common in the field, and the abstract does not clarify what specific aspects of TPSO are new or how they differ from prior approaches.
+  - **Why it matters** For a methods paper, demonstrating novelty is essential. If TPSO is a straightforward combination of existing techniques, the contribution may be incremental rather than substantive.
+  - **Resolution test** Include a comparative analysis of TPSO against existing feature extraction methods (e.g., PseAAC, PSSM-based features) on the same datasets, and clearly articulate the conceptual or algorithmic innovations in TPSO.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "the standalone package and web server of TPSO-DBP are freely available" at a provided URL.
+  - **Evidence pointer** Abstract, availability statement; location not provided
+  - **Concern** The abstract does not describe the implementation details, dependencies, or usage instructions for the standalone package. It is unclear whether the package is fully functional, documented, and tested on the reported datasets.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without clear documentation and verification, the tool may not be usable by the community, undermining the practical impact of the work.
+  - **Resolution test** Provide a detailed user manual, example input/output files, and a demonstration of the package reproducing the reported results on a public benchmark dataset.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, background section
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The opening sentence is dense and could be clearer for readers unfamiliar with the field. The phrase "dig out information embedded in the DNA-protein interaction" is informal and imprecise.
+  - **Required correction** Rephrase to "Identifying DNA-binding proteins (DBPs) is important for understanding the mechanisms of DNA replication, transcription, and repair, as it helps reveal information embedded in DNA-protein interactions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, TPSO description; location not provided
+  - **Issue** The abstract states that TPSO "divides its primary sequence features into N- and C-terminal fragments" but does not specify how the fragments are defined (e.g., fixed length, percentage of sequence, or functional domain boundaries).
+  - **Required correction** Clarify the fragment definition in the abstract or refer to a detailed methods section that specifies the fragmentation rule.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract, performance metrics
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract reports accuracy, recall, and MCC but does not mention other relevant metrics such as specificity, precision, or F1-score, which would provide a more complete picture of model performance.
+  - **Required correction** Include additional performance metrics or state that they are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation protocol and statistical significance), R1-M2 (novelty demonstration), R1-M3 (reproducibility of the software)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Not established from the abstract. The fragment-based feature extraction approach is not clearly differentiated from existing methods.
+  - **Scientific importance** The problem of DBP prediction is relevant, but the abstract does not demonstrate a major advance over current state-of-the-art methods beyond incremental metric improvements.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians; the abstract does not clearly convey broader implications for molecular biology or medicine.
+  - **Technical soundness** The deep learning architecture is reasonable, but the lack of dataset details, baseline comparisons, and statistical tests prevents verification of the reported performance.
+  - **Readability for nonspecialists** The abstract is generally accessible but contains some informal phrasing and lacks context for the significance of the performance improvements.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible method, but the core claims of novelty and superior performance require full manuscript details, including dataset specifications, evaluation protocols, and statistical analyses, to be verified.
+
+## Risk / unsupported claims
+- The claim that TPSO-DBP outperforms "most existing state-of-the-art DBP prediction methods" is unsupported without specifying the comparison methods, datasets, and statistical significance.
+- The claim that TPSO extracts "more discriminative information" is not verifiable without ablation studies or feature importance analyses.
+- The availability of a functional standalone package and web server is stated but not verifiable from the abstract alone.

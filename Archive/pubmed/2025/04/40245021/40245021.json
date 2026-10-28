@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40245021",
+    "doi": "10.1371/journal.pone.0321734",
+    "title": "Association between hyperlipidemia and nephrolithiasis: A comprehensive bioinformatics analysis deciphering the potential common denominator pathogenesis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Evidence suggests that nephrolithiasis and hyperlipidemia are linked. The study is designed to identify diagnostic biomarkers for nephrolithiasis in conjunction with hyperlipidemia using bioinformatics analysis, while exploring the potential common denominator pathogenesis. METHODS: The NCBI Gene Expression Omnibus (GEO) database provided separate datasets for nephrolithiasis and hyperlipidemia. We employed the R limma package to detect differentially expressed genes (DEGs), which were subsequently analyzed for enrichment using Gene Set Enrichment Analysis (GSEA), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways. Immune cell infiltration was analyzed by the CIBERSORT method. The WGCNA-R package clustered genes with similar expression profiles, followed by an analysis of the associations between the modules and specific traits or phenotypes. The STRING database was utilized to establish a protein-protein interaction (PPI) network and key functional modules, which were then analyzed using Cytoscape software. Diagnostic genes for both diseases were screened from core hub genes using least absolute shrinkage and selection operator (Lasso) regression. Subsequently, we generated receiver operating characteristic (ROC) curves to validate the predictive ability of these diagnostic genes for diagnosing nephrolithiasis in combination with hyperlipidemia. Lastly, the Network Analyst platform facilitated the construction of transcription factor-gene (TF-gene) and TF-miRNA regulatory networks. RESULTS: Based on datasets of nephrolithiasis and hyperlipidemia, we identified 167 DEGs and 74 hub genes through WGCNA. Using PPI networks and machine learning techniques, we recognized three frequently diagnostic genes (HSP90AB1, HSPA5, and STUB1), which demonstrated high diagnostic validity. The functional enrichment of these three diagnostic genes primarily involved pathways related to cellular metabolism. CONCLUSIONS: Our study identified three candidate diagnostic genes that can predict nephrolithiasis in conjunction with hyperlipidemia, providing a solid foundation for further exploration into the pathogenesis of nephrolithiasis and hyperlipidemia.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Hyperlipidemias/genetics/complications",
+      "*Nephrolithiasis/genetics",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Gene Ontology",
+      "ROC Curve",
+      "Biomarkers/metabolism",
+      "Endoplasmic Reticulum Chaperone BiP"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Zhikai",
+        "Ling, Zhenjie",
+        "Chen, Haoqiang",
+        "Hu, Lei",
+        "Xiang, Songtao",
+        "Li, Qian",
+        "Zhou, Jianfu"
+      ],
+      "short_names": [
+        "Su Z",
+        "Ling Z",
+        "Chen H",
+        "Hu L",
+        "Xiang S",
+        "Li Q",
+        "Zhou J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1422-9215"
+      ],
+      "affiliations": [
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Urology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Chinese Medicine Syndrome Research Team, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Urology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Zhikai",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Zhenjie",
+        "short_name": "Ling Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haoqiang",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lei",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Songtao",
+        "short_name": "Xiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese Medicine Syndrome Research Team, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jianfu",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-1422-9215"
+        ],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 18:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42164380"
+    ],
+    "refs": [
+      "39606015",
+      "38898140",
+      "38655315",
+      "38564006",
+      "38471267",
+      "38107516",
+      "38092149",
+      "37696625",
+      "37506582",
+      "37105906",
+      "36435345",
+      "36300620",
+      "36212542",
+      "35846300",
+      "35405952",
+      "35328466",
+      "34163221",
+      "33660401",
+      "33080674",
+      "32565652",
+      "32247632",
+      "31848472",
+      "31733571",
+      "31717752",
+      "31534518",
+      "31443682",
+      "30978349",
+      "30931480",
+      "30834044",
+      "30476243",
+      "29716941",
+      "29535716",
+      "29421299",
+      "29242247",
+      "29222575",
+      "29145196",
+      "28875258",
+      "28720363",
+      "28442375",
+      "28294966",
+      "28236332",
+      "28139722",
+      "27698400",
+      "27065756",
+      "26096629",
+      "25822800",
+      "25605792",
+      "25521941",
+      "25428369",
+      "25383321",
+      "22796524",
+      "22492668",
+      "21834954",
+      "20576703",
+      "20303879",
+      "20139469",
+      "19114008",
+      "18667483",
+      "16199517",
+      "14597658",
+      "1905217",
+      "1731198"
+    ],
+    "similar": [
+      "40245021",
+      "40263537",
+      "39586719",
+      "39556279",
+      "38736878",
+      "39609718",
+      "38899746",
+      "39875572",
+      "39142001",
+      "39341981",
+      "39403102",
+      "39375405",
+      "40241169",
+      "38701300",
+      "35713363",
+      "40312440",
+      "39188714",
+      "39673621",
+      "37359526",
+      "39086489",
+      "39377750",
+      "34233597",
+      "39713769",
+      "38755717",
+      "38319987",
+      "38912048",
+      "37250717",
+      "39671358",
+      "39953769",
+      "40129981",
+      "38650009",
+      "39670237",
+      "38863714",
+      "39344316",
+      "39351239",
+      "38774864",
+      "39853851",
+      "35313524",
+      "38831425",
+      "36225941",
+      "38941397",
+      "38718074",
+      "35278479",
+      "39496786",
+      "38987624",
+      "38268224",
+      "39337585",
+      "40331545",
+      "30045016",
+      "31987036",
+      "39341952",
+      "37426642",
+      "33407587",
+      "33741890",
+      "38509535",
+      "39509434",
+      "35003319",
+      "32008037",
+      "39636891",
+      "40313958",
+      "39290707",
+      "31416885",
+      "39557900",
+      "40091022",
+      "35818227",
+      "39699225",
+      "33640831",
+      "39870856",
+      "36148059",
+      "35558576",
+      "39928821",
+      "39396400",
+      "38660311",
+      "38774257",
+      "32756534",
+      "35562622",
+      "37179305",
+      "39501535",
+      "36013591",
+      "30825595",
+      "35069594",
+      "38858671",
+      "31838482",
+      "36195955",
+      "39284931",
+      "33437215",
+      "32626989",
+      "39805933",
+      "38764052",
+      "35016690",
+      "36276976",
+      "40209528",
+      "32853947",
+      "40173189",
+      "39695788",
+      "33468161",
+      "39392250",
+      "39125762",
+      "39342024",
+      "28432618"
+    ],
+    "review": [
+      "40245021"
+    ],
+    "pmc": [
+      "12005553"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneystones.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Stones"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0321734",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40245021/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-524",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

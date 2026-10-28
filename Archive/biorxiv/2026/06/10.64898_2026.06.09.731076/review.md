@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text sections, figure legends referenced but not provided in full)
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and interpretation as presented in the supplied text
+- **Shared manuscript claim summary** The authors report that the transcription factor NANOG forms self-limiting, micelle-like assemblies driven by its intrinsically disordered tryptophan repeat domain. These micelles expose DNA-binding domains, act as multivalent crosslinkers of DNA, and drive a sol-gel transition and aging in NANOG-DNA solutions at physiological concentrations. The authors propose that this gelation and aging may modulate genome dynamics and contribute to pluripotency maintenance.
+- **Visible evidence base** Main text sections (Abstract, Gelling and aging of NANOG solutions, Simulations reveal NANOG assembles into selflimiting micelles, Experimental validation of self-limiting NANOG assemblies, NANOG-DNA solutions form aging gels at physiological concentrations, Conclusions), figure references (Fig. 1a-i, Fig. 2a-g, Fig. 3a-c, Fig. 4, SI Fig. S1-S5), methods described in text
+- **Missing materials affecting confidence** Full methods section, complete figure panels and legends, supplementary information details, raw data, statistical analysis details, experimental replicates information, protein purification and sample preparation protocols
+
+## Reviewer
+- **Overall assessment** This manuscript presents an intriguing and potentially significant finding that NANOG, a key pluripotency transcription factor, forms self-limiting micelle-like assemblies rather than unbounded condensates, and that these assemblies can drive gelation and aging in DNA solutions. The combination of simulations, microrheology, cryo-EM, and mass photometry is ambitious and appropriate. However, several technical concerns and gaps in evidence limit the current strength of the conclusions. The claim that NANOG micelles act as aging crosslinkers of DNA and modulate genome dynamics in vivo remains largely conjectural, and key quantitative details are missing. The work is original and likely to interest the biophysics and stem cell biology communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Biophysicists studying phase separation and condensate formation of proteins and nucleic acids would be interested in the self-limiting micelle behavior, which contrasts with the more commonly reported unbounded condensates. Stem cell biologists studying NANOG function and pluripotency maintenance would be interested in the proposed physical mechanism of gene regulation. Researchers working on intrinsically disordered proteins and their material properties would also find relevance. The polymer physics community may appreciate the block-copolymer analogy and the aging gel behavior.
+- **Major strengths** The study combines multiple complementary techniques (simulations, cryo-EM, mass photometry, DLS, microrheology) to characterize NANOG assemblies. The observation of self-limiting micelles rather than unbounded condensates is novel and distinguishes this system from other IDPs. The functional link between the disordered WR domain and gelation is supported by the W10A mutant control. The physiological relevance of the concentrations used is addressed. The aging behavior and its potential biological implications are thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NANOG WT forms self-limiting micelles of approximately 22-25 monomers based on mass photometry and cryo-EM, and that these micelles are thermodynamically stable.
+  - **Evidence pointer** Fig. 2e-f, "Experimental validation of self-limiting NANOG assemblies" section
+  - **Concern** The mass photometry data reports a molecular weight of approximately 0.8 MDa, corresponding to 22-25 monomers. However, the cryo-EM data is described as showing complexes that are "heterogeneous in shape and did not lock into a discrete conformational space," and the authors state they could not solve the structure. The discrepancy between the monodisperse size claim from cryo-EM and the heterogeneous shape description is not fully reconciled. Additionally, the mass photometry measurement appears to be a single method for determining the oligomer number, and no independent verification (e.g., analytical ultracentrifugation or SEC-MALS) is provided. The claim of thermodynamic stability is based on a single simulation re-equilibration experiment, which may not be sufficient to establish equilibrium behavior.
+  - **Why it matters** The self-limiting micelle model is central to the entire manuscript. If the assembly size is not robustly established, the interpretation of the gelation mechanism and the proposed biological function are weakened. The distinction between self-limiting micelles and other types of oligomeric assemblies is critical for the novelty claim.
+  - **Resolution test** Provide additional independent measurements of the assembly size (e.g., SEC-MALS, AUC). Show representative cryo-EM images with clear size distributions. Demonstrate thermodynamic stability through multiple independent simulation runs with different initial conditions and longer timescales, or through experimental dilution experiments showing reversible assembly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the sol-gel transition observed in NANOG solutions is driven by the formation of sticky self-limiting micelles that overlap and form a percolating network, and that the estimated overlap concentration c* is approximately 0.14 mM.
+  - **Evidence pointer** "Gelling and aging of NANOG solutions" section, Fig. 1c-i, "Experimental validation" section
+  - **Concern** The overlap concentration is estimated using the hydrodynamic size of the micelles (sigma approximately 80 nm) and molecular weight (0.8 MDa). However, the hydrodynamic size is measured by DLS at 30 micromolar, while the gelation experiments are performed at 1 mM. The assumption that the micelle size remains constant across this concentration range is not tested. Furthermore, the microrheology data showing gelation is presented as MSD curves, but the frequency-dependent moduli G' and G'' are only shown at one time point (around 5 hours). The time-cure superposition analysis is mentioned as not aligning with simple Maxwell fluids, but the details are relegated to the SI. The relationship between the observed gelation and the micelle model is inferred rather than directly demonstrated.
+  - **Why it matters** The mechanism of gelation is a key claim. If the micelles are not the crosslinking species, or if the overlap concentration is incorrect, the interpretation of the entire gelation phenomenon changes. The physiological relevance argument depends on the concentration at which gelation occurs.
+  - **Resolution test** Measure the micelle size as a function of concentration to confirm that c* is correctly estimated. Provide rheological data showing the evolution of G' and G'' over time and frequency, with clear identification of the gel point. Perform structural characterization (e.g., SAXS or SANS) of the gel state to confirm the percolating network of micelles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that NANOG WT, in the presence of DNA at physiological concentrations (1-10 micromolar), forms aging gels that restrict DNA dynamics, and that this is due to micelles acting as multivalent crosslinkers.
+  - **Evidence pointer** "NANOG-DNA solutions form aging gels at physiological concentrations" section, Fig. 3a-c, Fig. 4
+  - **Concern** The DNA concentration used (250 ng/microliter, 7.9 nM for lambda DNA) is described as being around 10-fold above the DNA overlap concentration, but the actual entanglement density is not quantified. The abrupt sub-diffusive behavior at around 7.9 micromolar NANOG is presented, but the concentration dependence is only shown for a limited range. The claim that this is a "physiological concentration" is based on reported in vivo values of 80-750 nM, but the gelation is observed at 7.9 micromolar, which is 10-fold higher than the upper end of the reported range. The authors note that NANOG forms foci with higher local concentration, but this is speculative. The aging behavior in the presence of DNA is described but not quantified in terms of timescales or compared to the protein-only case.
+  - **Why it matters** The biological relevance of the observed gelation depends on whether it occurs at concentrations that are actually present in cells. If the gelation only occurs at concentrations 10-fold above the reported physiological range, the in vivo significance is questionable. The mechanism of DNA crosslinking by micelles is inferred but not directly demonstrated.
+  - **Resolution test** Provide a more complete concentration series for the DNA-NANOG gelation, including concentrations within the reported physiological range. Quantify the aging timescales and compare with and without DNA. Perform experiments with different DNA lengths to test the proposed crosslinking mechanism. Consider using fluorescence recovery after photobleaching (FRAP) or single-molecule tracking to directly measure DNA dynamics in the gel.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the gelation and aging behavior is "in line with the aging Maxwell fluids model" but that their time-cure superposition analysis "does not align with the one expected for simple Maxwell fluids and instead displays multiple characteristic timescales."
+  - **Evidence pointer** "Gelling and aging of NANOG solutions" section, SI Fig. S2
+  - **Concern** The manuscript acknowledges that the aging behavior is more complex than a simple Maxwell fluid but does not provide an alternative model or a detailed characterization of the multiple timescales. The statement that this will be "explored further in the future" is not satisfactory for establishing the physical mechanism. The aging behavior is a key part of the proposed biological function (mechanical memory), but the physical basis is not well characterized.
+  - **Why it matters** The claim that aging may "ingrain mechanical memory" in gene regulatory networks depends on a robust understanding of the aging process. Without a quantitative model of the aging behavior, this claim remains speculative.
+  - **Resolution test** Provide a more detailed analysis of the aging behavior, including the time dependence of the moduli, the distribution of relaxation times, and a comparison with known aging models. If multiple timescales are present, identify their physical origins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that NANOG forms "self-limiting aging micelles" but the term "aging" is used without definition. The abstract also claims that NANOG "may contribute to regulate gene expression by creating local gel-like environments" but this is presented as a conjecture without clear distinction from established findings.
+  - **Required correction** Define "aging" in the context of the abstract or rephrase to avoid ambiguity. Clearly distinguish between experimental findings and conjectures in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** "Gelling and aging of NANOG solutions" section
+  - **Issue** The protein concentration of 1 mM is used for the gelation experiments, but the purification and buffer conditions are not described in the main text. The statement that "performing a systematic bulk rheology study on mL of NANOG protein at high concentration is not feasible" is not justified with specific volume or yield information.
+  - **Required correction** Provide details on protein expression, purification, and buffer conditions in the main text or refer to a methods section. Justify the concentration choice with reference to protein yield and solubility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Fig. 1c
+  - **Issue** The description of the sol-gel transition in Fig. 1c is qualitative (visual observation of tube inversion). The time at which the transition occurs is not precisely defined.
+  - **Required correction** Provide a quantitative definition of the gel point (e.g., the time at which G' crosses G'') and show the time evolution of the samples.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Evidence strength
+  - **Affected element** Simulation section
+  - **Evidence pointer** "Simulations reveal NANOG assembles into selflimiting micelles" section
+  - **Issue** The simulation uses 50 proteins in a box at a density of 0.1 g/cm3. The relationship between this density and the experimental concentrations (1 mM for gelation, 30 micromolar for DLS) is not discussed. The simulation temperature is 300 K, while experiments are at 37 degrees C (310 K).
+  - **Required correction** Discuss the relationship between simulation density and experimental concentrations. Justify the temperature difference or perform simulations at 310 K.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The statement that "NANOG would modulate genome dynamics, rather than its 3D organization" is presented as a strong conclusion, but the evidence is indirect and based on in vitro experiments. The distinction between dynamics and organization may be artificial, as changes in dynamics can lead to changes in organization over time.
+  - **Required correction** Soften this claim and discuss the relationship between dynamics and organization more carefully.
+
+## Risk / unsupported claims
+- The claim that NANOG micelles are "thermodynamically stable" is based on a single simulation re-equilibration experiment and is not supported by experimental thermodynamic measurements.
+- The claim that NANOG "may contribute to regulate gene expression by creating local gel-like environments" in vivo is conjectural and not directly supported by the in vitro data presented.
+- The claim that aging may "ingrain mechanical memory" in gene regulatory networks is speculative and lacks a quantitative physical model.
+- The relationship between the simulation density (0.1 g/cm3) and the experimental concentrations is not established, making the direct comparison between simulation and experiment uncertain.
+- The physiological relevance of the gelation at 7.9 micromolar NANOG is not fully established, as this is above the reported in vivo range of 80-750 nM, and the argument for local concentration enhancement in foci is speculative.
+- The statement that the aging behavior is "in line with the aging Maxwell fluids model" is contradicted by the authors' own observation that the time-cure superposition does not align with simple Maxwell fluids, leaving the physical model unclear.

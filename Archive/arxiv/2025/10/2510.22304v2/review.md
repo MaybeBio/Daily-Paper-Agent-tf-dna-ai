@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2510.22304v2)
+- **Assessment boundary** Scientific claims, methodology, benchmarking, and reporting quality as presented in the provided text. No supplementary figures, tables, or code were available for inspection.
+- **Shared manuscript claim summary** The authors present ODesign, a generative "world model" for biomolecular interaction design, built on an AlphaFold3-like architecture. It claims all-to-all design across proteins, nucleic acids, and small molecules, with fine-grained control at entity, motif, and atom levels, and superior throughput and performance relative to modality-specific baselines across eleven benchmark tasks.
+- **Visible evidence base** Main text figures referenced (Figures 2a-d, 3a-d, 4a-e), Appendix A (architecture, training, loss), Appendix B (inference, JSON formats, partial diffusion), Appendix C (benchmark protocols). No actual data values, error bars, or statistical tests are reported in the text.
+- **Missing materials affecting confidence** Supplementary figures (S1-S4), tables (S1-S3), algorithms (S1-S12), benchmark datasets, code, model weights, and any experimental validation data. No quantitative results are presented in the main text; all performance claims are qualitative or refer to figures not available for review.
+
+## Reviewer
+- **Overall assessment** This manuscript describes an ambitious and potentially impactful system that unifies biomolecular design across multiple modalities within a single generative framework. The architectural choices are reasonable and build sensibly on AlphaFold3. However, the current text is essentially a system description without quantitative evidence. All performance claims are qualitative or deferred to figures that were not provided. The absence of any numerical results, statistical analysis, or comparison tables makes it impossible to evaluate the central claims of superiority. The manuscript is not yet suitable for publication in its current form.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and AI researchers working on generative models for molecular design would be interested. The claim of a unified all-to-all design framework spanning proteins, nucleic acids, and small molecules addresses a recognized gap in the field, where most models are modality-specific. The reported throughput improvements, if substantiated, would be practically relevant for high-throughput screening applications.
+- **Major strengths** The conceptual framing of a "world model" for biomolecular interactions is timely and well-articulated. The architecture builds on a proven structure-prediction backbone (AlphaFold3-like) and extends it with a hierarchical tokenization scheme that respects modality-specific chemical units. The two-stage design paradigm (backbone generation followed by sequence design) is well-motivated. The inclusion of flexible and rigid receptor modes, epitope-level control, and a partial diffusion strategy for optimizing existing binders demonstrates thoughtful attention to practical design scenarios.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "ODesign outperformed all other methods across each target (average 2672), achieving an order-of-magnitude improvement in design throughput compared to the second-best method, RFDiffusion (average 555)."
+  - **Evidence pointer** Figure 2a; location not provided for numerical values
+  - **Concern** The central quantitative claim of the paper is presented without any numerical data in the text. The reader is directed to figures that are not included in the provided material. No standard deviations, confidence intervals, or statistical significance tests are reported. The throughput metric itself is not clearly defined (what constitutes a "successful design" is described, but the computational cost model behind the extrapolation to "per day" is not fully transparent).
+  - **Why it matters** The entire case for ODesign's superiority rests on these benchmark numbers. Without access to the actual data, the claim cannot be verified or reproduced. Nature-style publication requires that key quantitative results be available in the manuscript or supplementary material.
+  - **Resolution test** Provide the full numerical results for all benchmarks in tabular form, including means, variances, and sample sizes. Report statistical significance where comparisons are made. Clearly define the throughput metric and the computational assumptions behind the per-day extrapolation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability / external validity
+  - **Claim pointer** "ODesign is among the first models capable of designing small molecules that target DNA structures" and "ODesign is the first deep generative model capable of protein-binding RNA aptamer design."
+  - **Evidence pointer** Section 5, Appendix C; location not provided
+  - **Concern** These are strong novelty claims. The text does not provide a systematic comparison with prior work in these specific niches. For DNA-targeting small molecules and RNA aptamer design, the authors state that no benchmarks exist and therefore construct their own, but they do not demonstrate that their model outperforms any existing approach, because none are compared. The claims of "first" are also difficult to verify without a thorough literature review.
+  - **Why it matters** Novelty is a core criterion for publication. If prior methods exist for these tasks, the claims of being "first" are overstated. If no methods exist, the authors should still benchmark against reasonable baselines (e.g., general-purpose docking or aptamer prediction tools) to contextualize performance.
+  - **Resolution test** Provide a comprehensive literature review demonstrating the absence of prior generative models for these tasks. Include comparisons against any available baselines, even if weak, to establish a performance floor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** "ODesign demonstrates superior performance across multiple molecular design tasks" and "achieves substantial improvements in design throughput"
+  - **Evidence pointer** Section 3-5, Appendix C; location not provided
+  - **Concern** The evaluation protocol relies heavily on in silico refolding (AlphaFold3, ESMFold, Chai-1) as a proxy for design success. This is a reasonable first-pass filter, but it is well known that computational refolding success does not guarantee experimental function. The manuscript does not report any experimental validation of designed molecules, nor does it discuss the known limitations of using the same family of models (AlphaFold3-like) for both design and evaluation, which risks circularity.
+  - **Why it matters** For a paper claiming to be a "world model" for biomolecular design, the absence of any wet-lab validation is a significant gap. At minimum, the authors should acknowledge this limitation explicitly and discuss the risk of model-model circularity in their evaluation.
+  - **Resolution test** Add a discussion of the limitations of in silico-only validation. If any experimental data exist (even preliminary), include it. Otherwise, temper the claims of "superior performance" to "superior in silico performance."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "ODesign is available at https://odesign.lglab.ac.cn, allowing users to generate binding partners without coding expertise."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The availability statement is vague. It is unclear whether the full model weights, training code, and inference scripts are released, or only a hosted web service. For a methodological paper, reproducibility requires access to the underlying code and model.
+  - **Why it matters** Reproducibility is a core expectation for computational papers. A web interface is useful but does not allow researchers to verify results, fine-tune the model, or adapt it to new tasks.
+  - **Resolution test** Clarify the exact terms of availability. If code and weights are released, provide a repository link. If only a web service is offered, state this explicitly and discuss limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "all-to-all biomolecular interaction design" but the benchmarks cover only a subset of possible interaction types (protein-protein, protein-ligand, protein-RNA, protein-DNA, RNA/DNA-ligand). The term "all-to-all" is potentially misleading.
+  - **Required correction** Qualify the claim, e.g., "all-to-all across the major biomolecular classes" or list the specific interaction types covered.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Section 2, Architecture
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The description of the tokenization scheme is high-level. It is unclear how "minimal chemical units" are defined for each modality and how the unified token space handles the variable granularity (e.g., residues vs. atoms).
+  - **Required correction** Provide a more detailed description of the tokenization, possibly with a schematic figure or pseudocode.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3, Protein design benchmarks
+  - **Evidence pointer** Section 3; location not provided
+  - **Concern** The choice of eleven benchmark targets is described as "selected from previous protein design work," but the selection criteria are not stated. It is unclear whether these targets represent a diverse or biased sample.
+  - **Required correction** State the selection criteria and discuss potential biases.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3-5, All benchmarks
+  - **Evidence pointer** Section 3-5; location not provided
+  - **Issue** No statistical analysis is reported. It is unclear whether performance differences between methods are significant given the sample sizes.
+  - **Required correction** Report appropriate statistical tests or at least confidence intervals for key comparisons.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Appendix C, Benchmark protocols
+  - **Evidence pointer** Appendix C; location not provided
+  - **Concern** The exact versions of baseline models and their configuration files are not fully specified. For example, RFDiffusion "base" checkpoint is mentioned, but the specific commit or version is not given.
+  - **Required correction** Provide version numbers or commit hashes for all baseline models and tools.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 6, Conclusions
+  - **Evidence pointer** Section 6; location not provided
+  - **Issue** The conclusion states "up to two to four orders of magnitude higher design throughput" but the main text only shows an order-of-magnitude improvement in one figure. The basis for the larger claim is unclear.
+  - **Required correction** Reconcile the numbers in the conclusion with those presented in the results, or provide the additional data supporting the larger claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative data), R1-M2 (unsubstantiated novelty claims), R1-M3 (no experimental validation, potential circularity), R1-M4 (unclear availability).
+- **Assessment against Nature-style criteria** Originality: The concept of a unified cross-modal generative model for biomolecular design is original and timely. However, the novelty claims for specific tasks (DNA-targeting ligands, RNA aptamers) require more careful literature positioning. Scientific importance: If the claims are substantiated, this would be an important contribution with broad applicability in drug discovery and synthetic biology. The current lack of quantitative evidence prevents assessment of actual impact. Interdisciplinary readership: The work bridges AI, structural biology, and chemistry, which is well-suited to a broad audience. The writing is accessible but would benefit from clearer definitions of key terms. Technical soundness: The architecture is plausible and builds on established methods, but the evaluation methodology has significant gaps (no statistics, no experimental validation, potential circularity). Readability for nonspecialists: The main text is generally clear, but the appendices are dense and would benefit from more explanatory text. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially valuable system, but the absence of quantitative results, statistical analysis, and experimental validation means the central claims cannot be evaluated. I would be supportive if the authors provide the full benchmark data, address the novelty claims with a thorough literature review, and discuss the limitations of in silico-only validation.
+
+## Risk / unsupported claims
+- "ODesign outperformed all other methods across each target" (no data provided)
+- "achieving an order-of-magnitude improvement in design throughput" (no data provided)
+- "ODesign is among the first models capable of designing small molecules that target DNA structures" (no literature comparison provided)
+- "ODesign is the first deep generative model capable of protein-binding RNA aptamer design" (no literature comparison provided)
+- "up to two to four orders of magnitude higher design throughput" (inconsistent with data presented in text)
+- "ODesign consistently outperforms modality-specific models" (no data provided)
+- "superior controllability and performance to modality-specific baselines" (no data provided)
+- All claims referencing specific figure values (e.g., "average 2672", "12.1-fold improvement", "57.8-fold") are unverifiable without the figures.

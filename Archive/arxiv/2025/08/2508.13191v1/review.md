@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related work, methods, experiments, limitations, conclusion) as provided in the submission.
+- **Assessment boundary** The review is confined to the content supplied in the manuscript. No external data, code, or supplementary materials were accessed. Claims regarding benchmark results, model architecture, and analyses are assessed solely on the basis of the text provided.
+- **Shared manuscript claim summary** The authors introduce NucEL, described as the first ELECTRA-style genomic foundation model using replaced token detection (RTD) with single-nucleotide tokenization and ModernBERT-inspired hybrid attention. They claim state-of-the-art performance on multiple genomic benchmarks (GUE, GB, NT) with fewer parameters than comparable MLM-based models, improved training efficiency, and enhanced interpretability via attention analysis.
+- **Visible evidence base** The manuscript includes descriptions of methods, benchmark protocols, and results summarized in Tables 1-4 and Figures 1-4, but the actual tables and figures are not included in the provided text. Ablation studies and attention analyses are referenced but not detailed in the supplied material.
+- **Missing materials affecting confidence** The absence of all tables, figures, and appendices prevents verification of quantitative results, statistical significance, and the specifics of ablation and attention analyses. Training details, hyperparameter settings, and data preprocessing steps are only partially described. No code or reproducibility information is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable contribution by adapting ELECTRA-style pre-training to genomics with single-nucleotide resolution. The motivation is clear and the proposed approach addresses a genuine limitation of MLM-based genomic models. However, the current submission lacks the essential evidence needed to substantiate the central claims. Without the actual benchmark tables, figures, and detailed experimental protocols, the state-of-the-art performance claims, efficiency gains, and interpretability advantages cannot be evaluated. The writing is generally clear, but the scientific case is incomplete as presented.
+- **Who would be interested in the results, and why** Researchers in computational genomics and machine learning, particularly those developing or applying foundation models to DNA sequences. The work is relevant to those interested in pre-training objectives beyond MLM, efficient genomic representation learning, and interpretability of genomic language models. The cross-species generalization results, if verified, would be of interest to a broader genomics audience.
+- **Major strengths** The core idea of applying ELECTRA-style RTD to genomic sequences is novel and well-motivated. Single-nucleotide tokenization combined with dense supervision is a sensible design choice for preserving base-level resolution. The integration of ModernBERT architectural innovations is appropriate. The manuscript is well-structured and the writing is accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims state-of-the-art performance on GUE, GB, and NT benchmarks, including outperforming models 25 times larger.
+  - **Evidence pointer** Tables 1-3, referenced in Sections 4.1-4.3, but not provided in the submitted material.
+  - **Concern** The central performance claims are presented as results in tables that are not included in the manuscript text. Without the actual numerical results, standard deviations, and comparison baselines, it is impossible to assess whether NucEL indeed achieves state-of-the-art performance, whether differences are statistically significant, or whether the comparisons are fair and consistent across models.
+  - **Why it matters** The primary contribution of the paper rests on these benchmark results. If the tables are missing from the submission, the evidence base for the main claims is absent, and the scientific case cannot be evaluated.
+  - **Resolution test** Provide the full tables with all compared models, metrics, and standard deviations. Include details on the number of seeds, statistical testing, and the exact evaluation protocols used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that NucEL was pre-trained on the human genome with specific hyperparameters and fine-tuned on downstream tasks.
+  - **Evidence pointer** Section 3.4, "Pre-training and Fine-tuning Details"; location not provided for full details.
+  - **Concern** The training description is incomplete. Key details such as the number of training steps, learning rate schedule, warmup specifics, batch size per GPU, gradient accumulation, sequence sampling strategy, and the exact composition of the training data (e.g., chromosome-wise splits, handling of ambiguous bases) are not fully specified. The appendix is referenced but not included.
+  - **Why it matters** Reproducibility is a cornerstone of scientific contribution. Without complete training and fine-tuning details, other researchers cannot replicate the results or build upon the work.
+  - **Resolution test** Provide a complete description of all hyperparameters, data processing steps, and training procedures, either in the main text or a fully accessible appendix.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** The manuscript claims that attention analyses reveal NucEL's superior ability to capture biologically relevant sequence motifs compared to NT, with higher signal-to-noise ratios.
+  - **Evidence pointer** Section 4.7 and Figure 4; location not provided for the synthetic task details and attention analysis methodology.
+  - **Concern** The interpretability analysis is described only in summary form. The synthetic "motif-order" task is mentioned, but the full methodology, including how motifs were generated, the sequence length, the number of training samples, and the exact computation of SNR, is not provided. The claim of superior interpretability is thus not substantiated.
+  - **Why it matters** Interpretability is a stated key advantage of NucEL. If the analysis is not fully described and the results not shown, this claim remains unverified.
+  - **Resolution test** Provide a detailed description of the synthetic task, the attention extraction and SNR computation methods, and the full results, including statistical comparisons with baselines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ablation completeness
+  - **Claim pointer** The manuscript states that ablation studies provide critical insights into tokenization and masking strategies.
+  - **Evidence pointer** Section 4.4 and Figure 2; location not provided for the ablation details.
+  - **Concern** The ablation studies are referenced but not presented. The impact of tokenization schemes (single-nucleotide vs. k-mer vs. BPE) is discussed, but the actual results, including performance curves over training epochs, are not shown. The interaction between tokenization and RTD is asserted but not demonstrated.
+  - **Why it matters** Ablations are essential for understanding which design choices contribute to the reported performance. Without them, the claimed advantages of specific components cannot be isolated.
+  - **Resolution test** Include the full ablation results, with performance metrics for each tokenization and masking strategy, and a discussion of the statistical significance of differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, equations
+  - **Evidence pointer** Section 3.1; location not provided
+  - **Issue** The equations for the generator and discriminator losses are mentioned but not displayed in the provided text. The loss weighting parameter λ is stated as 50.0, but the rationale for this specific value is not explained.
+  - **Required correction** Display the full equations and provide a brief justification for the choice of λ, possibly with a sensitivity analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4.1, "zero-shot generalization"
+  - **Evidence pointer** Section 4.1; location not provided
+  - **Issue** The term "zero-shot generalization" is used to describe performance on non-human species, but the fine-tuning protocol for these tasks is not described. It is unclear whether the model was fine-tuned on each species-specific task or evaluated without fine-tuning.
+  - **Required correction** Clarify the evaluation protocol for cross-species tasks. If fine-tuning was performed, the term "zero-shot" is misleading and should be revised.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.6, embedding analysis
+  - **Evidence pointer** Section 4.6 and Table 4; location not provided
+  - **Issue** The embedding analysis uses t-SNE and an XGBoost classifier, but the details of the classifier training, hyperparameters, and the statistical significance of F1 score differences are not reported.
+  - **Required correction** Provide details on the classifier setup and include confidence intervals or significance tests for the F1 scores.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 5, Limitations
+  - **Evidence pointer** Section 5; location not provided
+  - **Issue** The limitations section is brief and focuses only on the lack of multi-species pre-training. Other potential limitations, such as the choice of sequence length, the impact of single-nucleotide tokenization on computational cost, and the generalizability of the attention findings, are not discussed.
+  - **Required correction** Expand the limitations section to address additional potential weaknesses and their implications.
+- **Technical failings that need to be addressed before the case is established** The absence of all tables, figures, and appendices is a critical failing. The manuscript cannot be evaluated for its central claims without this evidence. Additionally, the incomplete training details and the lack of a full description of the interpretability analysis further undermine the ability to assess the work.
+- **Assessment against Nature-style criteria** Originality: The application of ELECTRA-style RTD to genomics is a novel contribution, distinct from existing MLM-based genomic models. Scientific importance: If the performance and efficiency claims are verified, the work could have significant impact on genomic representation learning by offering a more efficient and interpretable alternative. Interdisciplinary readership: The work bridges machine learning and genomics, and would appeal to both communities, though the current lack of evidence limits its immediate appeal. Technical soundness: The proposed architecture is reasonable, but the technical soundness cannot be fully assessed without the missing results and methodological details. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and context, though some sections assume familiarity with transformer architectures.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea, but the missing tables, figures, and methodological details prevent verification of the core claims. The authors should be encouraged to resubmit a complete version with all evidence included.
+
+## Risk / unsupported claims
+- The claim of state-of-the-art performance on GUE, GB, and NT benchmarks is unsupported because the corresponding tables are not provided.
+- The claim of superior interpretability based on attention analysis is unsupported because the analysis details and results are not included.
+- The claim of improved training efficiency relative to MLM-based models is not quantitatively substantiated with training time or computational cost comparisons.
+- The claim that NucEL "rivals models 25 times larger" is unverifiable without the benchmark tables.
+- The assertion that single-nucleotide tokenization combined with RTD optimizes efficiency and precision is plausible but not demonstrated with ablation results.

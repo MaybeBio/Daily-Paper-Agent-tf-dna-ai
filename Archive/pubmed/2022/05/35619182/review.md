@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, figures, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, and support for the stated conclusions based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors report the identification of a novel small-molecule inhibitor, D347-2761, which targets c-Myc through a dual mechanism: blocking c-Myc/Max heterodimerization and promoting c-Myc protein degradation via increased Thr58 phosphorylation. They demonstrate anti-myeloma activity in vitro and in vivo, including synergy with bortezomib and activity against bortezomib-resistant cells.
+- **Visible evidence base** Molecular docking, dual-luciferase reporter assays, cell viability assays, flow cytometry, western blotting, immunoprecipitation, GST pull-down, EMSA, qPCR, ChIP, and xenograft mouse models.
+- **Missing materials affecting confidence** Raw data files, uncropped western blots, full statistical details, gating strategies for flow cytometry, detailed docking scores for all compounds, and complete supplementary figures and tables were not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting compound with a proposed dual mechanism of action against c-Myc in multiple myeloma. The in vitro and in vivo data are extensive and generally support the anti-myeloma activity of D347-2761. However, several technical concerns and gaps in the evidence weaken the support for the specific mechanistic claims, particularly regarding the direct binding and the precise role of Thr58 phosphorylation. The claim of "dual-targeting" requires stronger direct biochemical evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of cancer biology, hematology, and drug discovery, particularly those focused on targeting transcription factors like c-Myc, understanding protein-protein interaction inhibitors, and developing new therapeutic strategies for multiple myeloma, including overcoming drug resistance.
+- **Major strengths**
+  - The study addresses a challenging and important target, c-Myc, which is a major driver in multiple myeloma.
+  - The identification of a small molecule that may simultaneously disrupt a key protein-protein interaction and promote protein degradation is a conceptually interesting approach.
+  - The combination of in vitro mechanistic studies with in vivo efficacy data in relevant mouse models strengthens the translational potential of the findings.
+  - The exploration of synergy with bortezomib and activity in a resistant cell line addresses a significant clinical need.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of mechanistic claims
+  - **Claim pointer** The manuscript claims D347-2761 is a "dual-targeting" inhibitor that blocks c-Myc/Max heterodimerization and disturbs c-Myc stability.
+  - **Evidence pointer** Results sections "Compound D347-2761 could block c-Myc/Max heterodimerization" (Fig. 7B, 7C, 7F) and "Compound D347-2761 disturbed c-Myc stability to regulate downstream target genes" (Fig. 8).
+  - **Concern** The evidence for direct disruption of c-Myc/Max heterodimerization is indirect. The IP and GST pull-down assays show reduced interaction, but this could be a consequence of reduced c-Myc protein levels, as the authors also show D347-2761 decreases c-Myc expression. The EMSA data, while showing reduced binding, does not distinguish between inhibition of complex formation and reduced protein levels in the assay. The molecular docking is purely computational and requires experimental validation, such as surface plasmon resonance (SPR), isothermal titration calorimetry (ITC), or a cellular thermal shift assay (CETSA) to demonstrate direct target engagement.
+  - **Why it matters** The central claim of the paper is the dual mechanism of action. Without direct evidence of binding to the c-Myc/Max interface and a clear demonstration that the effect on heterodimerization is independent of the effect on protein stability, the "dual-targeting" claim is not established. The observed effects could be primarily due to the compound's impact on c-Myc protein stability.
+  - **Resolution test** Provide direct binding data (e.g., SPR or ITC) showing D347-2761 binds to the c-Myc/Max complex or its components. Perform experiments under conditions where protein degradation is blocked (e.g., with a proteasome inhibitor) to demonstrate that the inhibition of heterodimerization is a primary effect, not a secondary consequence of reduced c-Myc levels.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for proposed degradation mechanism
+  - **Claim pointer** The manuscript claims D347-2761 promotes c-Myc protein degradation via stimulating c-Myc Thr58 phosphorylation.
+  - **Evidence pointer** Results section "Compound D347-2761 disturbed c-Myc stability to regulate downstream target genes" (Fig. 8B, 8C, 8D).
+  - **Concern** The data show that D347-2761 increases Thr58 phosphorylation and decreases c-Myc half-life. However, the manuscript does not demonstrate that the increased Thr58 phosphorylation is the cause of the decreased stability. The authors do not show that a Thr58A mutant of c-Myc is resistant to D347-2761-mediated degradation. Furthermore, the role of GSK3β is unclear. The authors show a decrease in p-GSK3β (inactive form), which would suggest more active GSK3β, but they state GSK3β levels are not changed. The data on GSK3β and the effect of LiCl are only mentioned in the discussion as "data not shown," which is not acceptable for a key mechanistic point.
+  - **Why it matters** The proposed mechanism of action is a key part of the paper's novelty. Without a direct causal link between Thr58 phosphorylation and the observed degradation, the mechanism remains correlative. The lack of data for the LiCl experiment, which is used to support the mechanism, is a significant omission.
+  - **Resolution test** Perform experiments with a c-Myc T58A mutant to show that D347-2761 cannot promote its degradation. Provide the data for the LiCl experiments or remove the claim. Use a specific GSK3β inhibitor to confirm the pathway.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo model relevance and dosing
+  - **Claim pointer** The manuscript claims D347-2761 represses myeloma growth and distal infiltration in vivo.
+  - **Evidence pointer** Results section "D347-2761 inhibited myeloma growth and infiltration in vivo" (Fig. 5, Fig. 6).
+  - **Concern** The in vivo experiments use a subcutaneous xenograft model, which is not the most clinically relevant model for multiple myeloma, as it does not recapitulate the bone marrow microenvironment. The manuscript does not provide information on the pharmacokinetics of D347-2761, the dosing schedule rationale, or potential toxicity. The statement that D347-2761 did not affect mouse weight is insufficient to establish safety.
+  - **Why it matters** While the in vivo efficacy is encouraging, the lack of a more relevant model and basic pharmacological data limits the translational significance of the findings. The therapeutic window and safety profile of the compound are unknown.
+  - **Resolution test** Validate the efficacy in a more relevant model, such as an orthotopic or systemic model of myeloma. Provide basic pharmacokinetic data and a more thorough toxicity assessment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Results section "Molecular docking-based virtual screening and evaluation of candidate compounds"
+  - **Issue** The workflow in Figure 1B is not described in the text. It is unclear what the specific steps and criteria were for selecting the eight compounds.
+  - **Required correction** Add a description of the workflow in the text or figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2F
+  - **Evidence pointer** Results section "Compound D347-2761 showed cytotoxicity for myeloma cells"
+  - **Issue** The text states that dual knockout of Bak/Bax "partially restored" D347-2761-mediated cell death, but the figure legend does not provide the statistical significance for this partial rescue.
+  - **Required correction** Clarify the statistical analysis and significance levels for the partial rescue in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 7F
+  - **Evidence pointer** Results section "Compound D347-2761 could block c-Myc/Max heterodimerization"
+  - **Issue** The EMSA figure is not shown, only described. It is unclear if the "shift" is a supershift or a loss of the bound complex.
+  - **Required correction** Show the EMSA gel and clarify the interpretation of the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 8D
+  - **Evidence pointer** Results section "Compound D347-2761 disturbed c-Myc stability to regulate downstream target genes"
+  - **Issue** The western blot for p-GSK3β is shown, but the total GSK3β is also shown. The text states GSK3β is not changed, but the figure is not quantified.
+  - **Required correction** Provide quantification of the western blots to support the claims.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 8F
+  - **Evidence pointer** Results section "Compound D347-2761 disturbed c-Myc stability to regulate downstream target genes"
+  - **Issue** The ChIP data is only shown for CDK4. It is unclear if the other genes that showed reduced mRNA expression (ACAT1, NME1, PIM3, SMYD2) were also tested for promoter binding.
+  - **Required correction** Clarify if ChIP was performed for the other target genes or state that only CDK4 was tested.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "D347-2761 repressed myeloma distal infiltration"
+  - **Issue** The figure shows liver metastases, but the text mentions the spleen and kidney were also examined. The results for these organs are not shown.
+  - **Required correction** Show the data for all organs examined or state that no metastases were found in the spleen and kidney.
+
+## Risk / unsupported claims
+- The claim that D347-2761 is a "dual-targeting" inhibitor is not fully supported by direct biochemical evidence of binding to both the c-Myc/Max interface and the c-Myc unstable domain.
+- The claim that D347-2761 promotes c-Myc degradation specifically via Thr58 phosphorylation is correlative and lacks a causal demonstration (e.g., with a T58A mutant).
+- The statement that D347-2761 overcomes bortezomib resistance is based on in vitro data in a single resistant cell line and requires further validation.
+- The in vivo efficacy data are from a subcutaneous model, which may not be fully representative of multiple myeloma biology.
+- The manuscript mentions "data not shown" for key experiments (e.g., LiCl treatment, GSK3β localization), which are used to support the proposed mechanism. This is not acceptable for a peer-reviewed publication.

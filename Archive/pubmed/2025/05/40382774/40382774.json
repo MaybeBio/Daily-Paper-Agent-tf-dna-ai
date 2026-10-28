@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "40382774",
+    "doi": "10.1016/j.celrep.2025.115726",
+    "title": "Machine-guided cell-fate engineering."
+  },
+  "content": {
+    "abstract": "The creation of induced pluripotent stem cells (iPSCs) has enabled scientists to explore the function, mechanisms, and differentiation processes of many types of cells. One of the fastest and most efficient approaches is transcription factor (TF) over-expression. However, finding the right combination of TFs to over-express to differentiate iPSCs directly into other cell types is a difficult task. Here, we describe a machine-learning (ML) pipeline, called CellCartographer, that uses chromatin accessibility and transcriptomics data to design multiplex TF pooled-screening experiments for cell-type conversions that then may be iteratively refined. We validate this method by differentiating iPSCs into twelve cell types at low efficiency in preliminary screens and iteratively refine our TF combinations to achieve high-efficiency differentiation for six of these cell types in <6 days. Finally, we functionally characterize iPSC-derived cytotoxic T cells (iCytoTs), regulatory T cells (iTregs), type II astrocytes (iAstIIs), and hepatocytes (iHeps) to validate functionally accurate differentiation.",
+    "keywords": [
+      "CP: Stem cell research",
+      "cell-fate engineering",
+      "computer-aided design",
+      "machine learning",
+      "stem cell biology"
+    ],
+    "mesh_terms": [
+      "*Induced Pluripotent Stem Cells/cytology/metabolism",
+      "Cell Differentiation",
+      "*Machine Learning",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Hepatocytes/cytology/metabolism",
+      "*Cell Engineering/methods",
+      "Astrocytes/cytology/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Appleton, Evan",
+        "Tao, Jenhan",
+        "Liu, Songlei",
+        "Glass, Christopher",
+        "Fonseca, Gregory",
+        "Church, George"
+      ],
+      "short_names": [
+        "Appleton E",
+        "Tao J",
+        "Liu S",
+        "Glass C",
+        "Fonseca G",
+        "Church G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: evan.appleton@gmail.com.",
+        "Cellular and Molecular Medicine, University of California at San Diego, La Jolla, CA 92093, USA. Electronic address: jenhantao@gmail.com.",
+        "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA.",
+        "Cellular and Molecular Medicine, University of California at San Diego, La Jolla, CA 92093, USA.",
+        "Meakins-Christe Laboratories, Research Institute of McGill University Health Centre, Montreal, QC H4A-3J1, Canada; Quantitative Life Sciences, McGill University, Montreal, QC H4A-3J1, Canada; Department of Medicine, Division of Experimental Medicine, McGill University, Montreal, QC H4A-3J1, Canada.",
+        "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: gchurch@genetics.med.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Appleton, Evan",
+        "short_name": "Appleton E",
+        "identifiers": [],
+        "affiliations": [
+          "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: evan.appleton@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Tao, Jenhan",
+        "short_name": "Tao J",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Medicine, University of California at San Diego, La Jolla, CA 92093, USA. Electronic address: jenhantao@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Songlei",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Glass, Christopher",
+        "short_name": "Glass C",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Medicine, University of California at San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Fonseca, Gregory",
+        "short_name": "Fonseca G",
+        "identifiers": [],
+        "affiliations": [
+          "Meakins-Christe Laboratories, Research Institute of McGill University Health Centre, Montréal, QC H4A-3J1, Canada; Quantitative Life Sciences, McGill University, Montréal, QC H4A-3J1, Canada; Department of Medicine, Division of Experimental Medicine, McGill University, Montréal, QC H4A-3J1, Canada."
+        ]
+      },
+      {
+        "full_name": "Church, George",
+        "short_name": "Church G",
+        "identifiers": [],
+        "affiliations": [
+          "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, MA 02115, USA; Department of Genetics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: gchurch@genetics.med.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Jun 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/18 18:52",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42208532",
+      "41640493",
+      "41594834"
+    ],
+    "refs": [],
+    "similar": [
+      "40382774",
+      "40494892",
+      "31358055",
+      "31465481",
+      "39495460",
+      "29793831",
+      "23277278",
+      "30900179",
+      "22378611",
+      "21658760",
+      "27569862",
+      "23968684",
+      "23769173",
+      "23073833",
+      "23272148",
+      "40089127",
+      "27512979",
+      "30388030",
+      "26022688",
+      "21162674",
+      "22767332",
+      "32492423",
+      "30092828",
+      "28262545",
+      "25599714",
+      "34324179",
+      "28456008",
+      "23801830",
+      "23926210",
+      "19688839",
+      "25586786",
+      "25173165",
+      "29328449",
+      "23582880",
+      "38127186",
+      "23421367",
+      "28383341",
+      "24834837",
+      "41057965",
+      "27530815",
+      "26218131",
+      "25002137",
+      "39453535",
+      "31124103",
+      "23043799",
+      "29625575",
+      "27421950",
+      "28167799",
+      "26254731",
+      "30630505",
+      "29523187",
+      "30745514",
+      "29139614",
+      "41150379",
+      "29579079",
+      "40377485",
+      "28407125",
+      "31398826",
+      "34217893",
+      "27899623",
+      "28591655",
+      "39988667",
+      "26378261",
+      "33602141",
+      "20442654",
+      "30017813",
+      "22613578",
+      "24736403",
+      "30565686",
+      "21102561",
+      "28073086",
+      "22573568",
+      "29924488",
+      "25751620",
+      "28114969",
+      "28407791",
+      "25625326",
+      "21631388",
+      "28733363",
+      "24881998",
+      "38250613",
+      "27789413",
+      "31612883",
+      "29220667",
+      "39256463",
+      "39348466",
+      "30387318",
+      "23079387",
+      "23157212",
+      "36608654",
+      "25889179",
+      "30884942",
+      "26087622",
+      "35327542",
+      "29740017",
+      "23056209",
+      "25463491",
+      "33293480",
+      "24466060",
+      "22948752"
+    ],
+    "review": [
+      "40382774",
+      "23277278",
+      "23968684",
+      "23073833",
+      "22767332",
+      "25599714",
+      "23801830",
+      "28383341",
+      "27530815",
+      "30745514",
+      "28407125",
+      "31398826",
+      "20442654",
+      "30565686",
+      "22573568",
+      "39348466",
+      "23079387",
+      "30884942",
+      "26087622"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00497-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

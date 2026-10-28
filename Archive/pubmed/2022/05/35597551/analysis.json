@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35597551",
+  "title": "Inadequacy of Evolutionary Profiles Vis-a-vis Single Sequences in Predicting Transient DNA-Binding Sites in Proteins.",
+  "authors": "Arya, Ajay; Mary Varghese, Dana; Kumar Verma, Ajay; Ahmad, Shandar",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-05-22",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文比较PSSM进化谱与单序列特征在预测蛋白DNA结合残基（含瞬时结合位点）中的机器学习性能，虽聚焦蛋白-DNA互作位点预测，但未涉及TF-DNA特异性体系或三维结构建模，方法为传统机器学习而非AI/物理模拟前沿。",
+  "abstract": "Sequence-based prediction of DNA-binding residues in a protein is a widely studied problem for which machine learning methods with continuously improving predictive power have been developed. Concatenated rows within a sliding window of a Position Specific Substitution Matrix (PSSM) of the protein are currently used as the primary feature set in almost all the methods of predicting DNA-binding residues. Here we report that these evolutionary profiles are powerful, only for identifying conserved binding sites and fall short for the residue positions which undergo binding to non-binding transitions in closely related proteins. We created a database of highly similar protein pairs with known protein-DNA complexes and investigated differential predictability of conserved and transient binding residues within each pair. Retraining machine learning models uniformly, we compared the predictive powers of the models trained on PSSMs against similarly trained models on sparse-encoded single sequences. We found that the transient binding site predictions from evolutionary profiles are outperformed by single-sequence based models under controlled experiments by as much as 8 percentage points. Thus, we conclude that the PSSM-based models are inadequate to predict high-specificity DNA-binding residues. These findings are of critical significance for the design of mutant- and species-specific DNA ligands and for homology based modeling of protein-DNA complexes.",
+  "abstract_zh": "基于序列的蛋白质中DNA结合残基预测是一个被广泛研究的问题，为此已开发出预测能力不断提升的机器学习方法。目前，在几乎所有预测DNA结合残基的方法中，蛋白质位置特异性替换矩阵（PSSM）滑动窗口内的串联行被用作主要特征集。我们在此报告，这些进化谱仅在识别保守结合位点时有效，而对于在密切相关蛋白质中经历结合到非结合转变的残基位置则表现不足。我们创建了一个包含已知蛋白质-DNA复合物的高度相似蛋白质对数据库，并研究了每对中保守和瞬时结合残基的差异可预测性。通过统一重新训练机器学习模型，我们比较了基于PSSM训练的模型与基于稀疏编码单序列训练的类似模型的预测能力。我们发现，在受控实验中，基于进化谱的瞬时结合位点预测性能低于基于单序列的模型，差距高达8个百分点。因此，我们得出结论，基于PSSM的模型不足以预测高特异性的DNA结合残基。这些发现对于设计突变体和物种特异性DNA配体以及基于同源性的蛋白质-DNA复合物建模具有关键意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35597551/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35597551/",
+  "paper_page_path": "papers/pubmed/35597551/index.html"
+}

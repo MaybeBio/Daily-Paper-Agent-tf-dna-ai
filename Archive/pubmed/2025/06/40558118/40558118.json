@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "40558118",
+    "doi": "10.3390/arm93030019",
+    "title": "Harnessing Natural Product Compounds to Target Dormancy Survival Regulator (DosR) in Latent Tuberculosis Infection (LTBI): An In Silico Strategy Against Dormancy."
+  },
+  "content": {
+    "abstract": "Dormancy occurs when Mycobacterium tuberculosis (Mtb) enters a non-replicating and metabolically inactive state in response to hostile environment. During this state, it is highly resistant to conventional antibiotics, which increase the urgency to develop new potential drugs against dormant bacilli. In view of this, the dormancy survival regulator (DosR) protein is thought to be an essential component that plays a key role in bacterial adaptation to dormancy during hypoxic conditions. Herein, the NP-lib database containing natural product compounds was screened virtually against the binding site of the DosR protein using the MTiopen screen web server. A series of computational analyses were performed, including redocking, intermolecular interaction analysis, and MDS, followed by binding free energy analysis. Through screening, 1000 natural product compounds were obtained with docking energy ranging from -8.5 to -4.1 kcal/mol. The top four lead compounds were then selected for further investigation. On comparative analysis of intermolecular interaction, dynamics simulation and MM/GBSA calculation revealed that M3 docked with the DosR protein (docking score = -8.1 kcal/mol, RMSD = ~7 A and DeltaG Bind = -53.51 kcal/mol) exhibited stronger stability than reference compound Ursolic acid (docking score = -6.2 kcal/mol, RMSD = ~13.5 A and DeltaG Bind = -44.51 kcal/mol). Hence, M3 is recommended for further validation through in vitro and in vivo studies against latent tuberculosis infection.",
+    "keywords": [
+      "DosR",
+      "dormancy",
+      "molecular dynamics simulation",
+      "structure-based virtual screening",
+      "tuberculosis"
+    ],
+    "mesh_terms": [
+      "*Latent Tuberculosis/drug therapy/microbiology",
+      "*Mycobacterium tuberculosis/drug effects",
+      "*Bacterial Proteins/drug effects/metabolism",
+      "*Biological Products/pharmacology",
+      "Humans",
+      "*Antitubercular Agents/pharmacology",
+      "Molecular Docking Simulation",
+      "Computer Simulation",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chouhan, Mandeep",
+        "Kumar, Mukesh",
+        "Dwivedi, Vivek Dhar",
+        "Kashyap, Vivek Kumar",
+        "Singh, Himanshu Narayan",
+        "Kumar, Sanjay"
+      ],
+      "short_names": [
+        "Chouhan M",
+        "Kumar M",
+        "Dwivedi VD",
+        "Kashyap VK",
+        "Singh HN",
+        "Kumar S"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-9443-9784",
+        "ORCID: 0000-0003-0767-1328",
+        "ORCID: 0000-0003-4111-5165",
+        "ORCID: 0000-0001-6296-0291"
+      ],
+      "affiliations": [
+        "Biological and Bio-Computational Lab, Department of Life Science, School of Basic Sciences and Research, Sharda University, Greater Noida 201310, UP, India.",
+        "Department of Biophysics, All India Institute of Medical Sciences, New Delhi 110029, India.",
+        "Bioinformatics Research Division, Quanta Calculus, Greater Noida 201310, UP, India.",
+        "Division of Cancer Immunology and Microbiology, Medicine and Oncology Integrated Service Unit, School of Medicine, University of Texas Rio Grande Valley, McAllen, TX 78504, USA.",
+        "South Texas Center of Excellence in Cancer Research, School of Medicine, University of Texas Rio Grande Valley, McAllen, TX 78504, USA.",
+        "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032, USA.",
+        "Department of Radiology, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA.",
+        "Biological and Bio-Computational Lab, Department of Life Science, School of Basic Sciences and Research, Sharda University, Greater Noida 201310, UP, India.",
+        "DST-FIST Facility, Sharda University, Greater Noida 201310, UP, India.",
+        "Centre of Excellence for Artificial Intelligence in Medicine, Imaging & Forensics, Sharda University, Greater Noida 201310, UP, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chouhan, Mandeep",
+        "short_name": "Chouhan M",
+        "identifiers": [
+          "0009-0007-9443-9784"
+        ],
+        "affiliations": [
+          "Biological and Bio-Computational Lab, Department of Life Science, School of Basic Sciences and Research, Sharda University, Greater Noida 201310, UP, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Mukesh",
+        "short_name": "Kumar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, All India Institute of Medical Sciences, New Delhi 110029, India."
+        ]
+      },
+      {
+        "full_name": "Dwivedi, Vivek Dhar",
+        "short_name": "Dwivedi VD",
+        "identifiers": [
+          "0000-0003-0767-1328"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Division, Quanta Calculus, Greater Noida 201310, UP, India."
+        ]
+      },
+      {
+        "full_name": "Kashyap, Vivek Kumar",
+        "short_name": "Kashyap VK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Immunology and Microbiology, Medicine and Oncology Integrated Service Unit, School of Medicine, University of Texas Rio Grande Valley, McAllen, TX 78504, USA.",
+          "South Texas Center of Excellence in Cancer Research, School of Medicine, University of Texas Rio Grande Valley, McAllen, TX 78504, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Himanshu Narayan",
+        "short_name": "Singh HN",
+        "identifiers": [
+          "0000-0003-4111-5165"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032, USA.",
+          "Department of Radiology, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Sanjay",
+        "short_name": "Kumar S",
+        "identifiers": [
+          "0000-0001-6296-0291"
+        ],
+        "affiliations": [
+          "Biological and Bio-Computational Lab, Department of Life Science, School of Basic Sciences and Research, Sharda University, Greater Noida 201310, UP, India.",
+          "DST-FIST Facility, Sharda University, Greater Noida 201310, UP, India.",
+          "Centre of Excellence for Artificial Intelligence in Medicine, Imaging & Forensics, Sharda University, Greater Noida 201310, UP, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in respiratory medicine"
+    ],
+    "journal_abbrev": [
+      "Adv Respir Med"
+    ],
+    "pub_date": "2025 Jun 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 12:28",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39472851",
+      "39135797",
+      "38921019",
+      "38919703",
+      "37139795",
+      "37033483",
+      "36722482",
+      "35014594",
+      "33183167",
+      "33150855",
+      "32053005",
+      "31980498",
+      "31731988",
+      "31521502",
+      "31326120",
+      "29559631",
+      "28875543",
+      "27490491",
+      "26584231",
+      "26490974",
+      "25855812",
+      "25434510",
+      "25048654",
+      "22719925",
+      "21764934",
+      "20023019",
+      "19827833",
+      "19499576",
+      "18353359",
+      "18231589",
+      "16931093",
+      "15549884",
+      "15264254",
+      "15207491",
+      "15033981",
+      "10592235",
+      "9582936",
+      "1493231"
+    ],
+    "similar": [
+      "40558118",
+      "37033483",
+      "42112455",
+      "40512441",
+      "32438079",
+      "37551014",
+      "36722482",
+      "40530732",
+      "36964456",
+      "38514663",
+      "42192177",
+      "37578620",
+      "29557724",
+      "39096353",
+      "42352985",
+      "39918712",
+      "41501134",
+      "28605994",
+      "29753941",
+      "40033499",
+      "40879877",
+      "41207941",
+      "33923734",
+      "37139795",
+      "26980494",
+      "39115579",
+      "40685718",
+      "31234337",
+      "37728544",
+      "33183167",
+      "26299907",
+      "38771283",
+      "34502340",
+      "28043637",
+      "42240825",
+      "24245755",
+      "37117557",
+      "41016330",
+      "39777139",
+      "37340670",
+      "33477495",
+      "37948198",
+      "30556506",
+      "40132354",
+      "22833514",
+      "41780347",
+      "28255560",
+      "41508963",
+      "33150855",
+      "30528871",
+      "40632318",
+      "37526169",
+      "28607021",
+      "40770126",
+      "40460691",
+      "37424186",
+      "35617724",
+      "35549811",
+      "38088766",
+      "32306850",
+      "29502488",
+      "37747063",
+      "39585898",
+      "28874407",
+      "31422761",
+      "41671945",
+      "30743161",
+      "30836915",
+      "31755360",
+      "35163931",
+      "38109128",
+      "31656981",
+      "37311288",
+      "42390567",
+      "40187434",
+      "38760437",
+      "39486266",
+      "34332157",
+      "32961233",
+      "33065513",
+      "40494261",
+      "22719925",
+      "39856492",
+      "19827833",
+      "29559631",
+      "40498301",
+      "41349426",
+      "39295212",
+      "19577518",
+      "36291570",
+      "38726567",
+      "18018602",
+      "31597510",
+      "35612766",
+      "32279872",
+      "33382017",
+      "38895953",
+      "33059386",
+      "40653924",
+      "41075756"
+    ],
+    "review": [
+      "40558118",
+      "41207941"
+    ],
+    "pmc": [
+      "12190169"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=arm93030019",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40558118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

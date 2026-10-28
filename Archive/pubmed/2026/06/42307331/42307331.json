@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "42307331",
+    "doi": "10.1002/advs.76118",
+    "title": "A Phase-Resolved Geometric Deep Learning Framework Maps Structural Determinants of Disease-Associated Protein Aggregation and Guides Suppressor Design."
+  },
+  "content": {
+    "abstract": "Protein aggregation drives major neurodegenerative diseases, yet most computational predictors collapse assembly into static risk scores and do not resolve the distinct structural determinants of nucleation and elongation. Here, we present SKALE 2.0, a phase-resolved geometric deep learning framework that represents proteins as multimodal structural graphs and learns mutation-induced aggregation phenotypes directly from three-dimensional topology. Across SOD1, TDP-43, MAPT, and PRNP, SKALE 2.0 recovered a conserved latent transition from nucleation to elongation while resolving distinct mutation-specific phase sensitivities. Representative protein language model, AlphaFold-derived feature, and non-phase-aware structural baselines failed to recover both phase-dependent mutation modulation and phase separability, indicating that explicit phase conditioning is essential. The learned geometry showed that nucleation is preferentially coupled to buried hydrophobic perturbations, whereas elongation is shaped by solvent-accessible interfaces that support fibril propagation. This framework explains how pathogenic variants can remain globally folded yet acquire aggregation competence through localized structural rewiring. Recombinant SOD1 experiments validated predicted suppressor, enhancer, and phase-switch mutations, demonstrating that initiation and propagation can be tuned independently. SKALE 2.0 links atomic topology to phase-specific assembly kinetics and enables a constraint-aware design of aggregation suppressors.",
+    "keywords": [
+      "artificial intelligence",
+      "computational biology",
+      "deep learning",
+      "enhancer",
+      "fibril",
+      "language model",
+      "nucleation",
+      "prnp",
+      "protein aggregation",
+      "suppressor"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Humans",
+      "Superoxide Dismutase-1/genetics/chemistry",
+      "*Protein Aggregation, Pathological/genetics",
+      "*Protein Aggregates/genetics",
+      "*Neurodegenerative Diseases/genetics",
+      "Mutation/genetics",
+      "DNA-Binding Proteins/genetics",
+      "tau Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sio, Jia Shen",
+        "Loo, Wei Xuan Wilson",
+        "Loo, Yan Shan",
+        "Tan, Wen Xin",
+        "Lim, Hui Xuan",
+        "Liu, Huitao",
+        "Ng, Chen Seng"
+      ],
+      "short_names": [
+        "Sio JS",
+        "Loo WXW",
+        "Loo YS",
+        "Tan WX",
+        "Lim HX",
+        "Liu H",
+        "Ng CS"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-4313-3072",
+        "ORCID: 0009-0000-1132-5669",
+        "ORCID: 0000-0001-9220-9685",
+        "ORCID: 0009-0004-5699-6537",
+        "ORCID: 0000-0002-8594-2886",
+        "ORCID: 0000-0002-3169-5795"
+      ],
+      "affiliations": [
+        "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia.",
+        "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia.",
+        "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia.",
+        "Department of Pharmaceutics and Biopharmaceutics, University of Marburg, Robert-Koch-Str. 4, Marburg, Germany.",
+        "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia.",
+        "Department of Biomedical Sciences, Sir Jeffrey Cheah Sunway Medical School, Faculty of Medical and Life Sciences, Sunway University, Jalan Universiti, Selangor, Malaysia.",
+        "Sunway Microbiome Centre, Faculty of Medical and Life Sciences, Sunway University, Jalan Universiti, Selangor, Malaysia.",
+        "Henan Linker Technology Key Laboratory, College of Advanced Interdisciplinary Science and Technology, Henan University of Technology, Zhengzhou, China.",
+        "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sio, Jia Shen",
+        "short_name": "Sio JS",
+        "identifiers": [
+          "0009-0007-4313-3072"
+        ],
+        "affiliations": [
+          "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Loo, Wei Xuan Wilson",
+        "short_name": "Loo WXW",
+        "identifiers": [
+          "0009-0000-1132-5669"
+        ],
+        "affiliations": [
+          "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Loo, Yan Shan",
+        "short_name": "Loo YS",
+        "identifiers": [
+          "0000-0001-9220-9685"
+        ],
+        "affiliations": [
+          "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia.",
+          "Department of Pharmaceutics and Biopharmaceutics, University of Marburg, Robert-Koch-Str. 4, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tan, Wen Xin",
+        "short_name": "Tan WX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Lim, Hui Xuan",
+        "short_name": "Lim HX",
+        "identifiers": [
+          "0009-0004-5699-6537"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, Sir Jeffrey Cheah Sunway Medical School, Faculty of Medical and Life Sciences, Sunway University, Jalan Universiti, Selangor, Malaysia.",
+          "Sunway Microbiome Centre, Faculty of Medical and Life Sciences, Sunway University, Jalan Universiti, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Liu, Huitao",
+        "short_name": "Liu H",
+        "identifiers": [
+          "0000-0002-8594-2886"
+        ],
+        "affiliations": [
+          "Henan Linker Technology Key Laboratory, College of Advanced Interdisciplinary Science and Technology, Henan University of Technology, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ng, Chen Seng",
+        "short_name": "Ng CS",
+        "identifiers": [
+          "0000-0002-3169-5795"
+        ],
+        "affiliations": [
+          "School of Science, Monash University Malaysia, Jalan Lagoon Selatan, Selangor, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/17 13:28",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41379813",
+      "41299034",
+      "40960157",
+      "40876628",
+      "40815260",
+      "40207671",
+      "40025162",
+      "39875596",
+      "39196271",
+      "38907110",
+      "38801076",
+      "38274251",
+      "37943662",
+      "37898314",
+      "37540751",
+      "37248338",
+      "36959205",
+      "36927031",
+      "36108050",
+      "36070155",
+      "35960802",
+      "35844223",
+      "35712074",
+      "35445695",
+      "34265844",
+      "33876751",
+      "33747245",
+      "33051572",
+      "32637039",
+      "32414930",
+      "32290481",
+      "32144830",
+      "31583788",
+      "31344643",
+      "31088827",
+      "31049593",
+      "31001578",
+      "30145245",
+      "29886534",
+      "29852407",
+      "29214606",
+      "28746339",
+      "27573854",
+      "26574453",
+      "26488642",
+      "26340370",
+      "26074072",
+      "25883144",
+      "25225856",
+      "24854788",
+      "23663965",
+      "23104145",
+      "22509003",
+      "21257910",
+      "17853878",
+      "17677198",
+      "17588526",
+      "16756495",
+      "15361882",
+      "15358352",
+      "15036202",
+      "12482932",
+      "3843705"
+    ],
+    "similar": [
+      "42307331",
+      "33825682",
+      "41065501",
+      "34166783",
+      "42723829",
+      "42475469",
+      "30341612",
+      "34339840",
+      "34199513",
+      "30806161",
+      "41548690",
+      "37975411",
+      "32056106",
+      "42690718",
+      "28566288",
+      "38835240",
+      "40866479",
+      "31669277",
+      "39950286",
+      "37156398",
+      "29734651",
+      "42295787",
+      "33549703",
+      "36592929",
+      "25316790",
+      "40254275",
+      "36756854",
+      "32207466",
+      "37131250",
+      "28585802",
+      "31999698",
+      "23861388",
+      "40311013",
+      "25463043",
+      "28950184",
+      "30824544",
+      "40772974",
+      "29649360",
+      "39643934",
+      "28711596",
+      "30399166",
+      "41935163",
+      "25284680",
+      "41871974",
+      "41614607",
+      "42678414",
+      "41780808",
+      "30602569",
+      "28833749",
+      "30142602",
+      "34830074",
+      "40862394",
+      "38196030",
+      "29298892",
+      "42418847",
+      "40063831",
+      "28396410",
+      "39840791",
+      "35640762",
+      "28768772",
+      "37782142",
+      "33522485",
+      "29686043",
+      "41275793",
+      "42119874",
+      "25220364",
+      "33810689",
+      "34369377",
+      "25656065",
+      "38522514",
+      "34076319",
+      "33262278",
+      "28487370",
+      "27540759",
+      "30742061",
+      "30341600",
+      "39461630",
+      "26520394",
+      "23755211",
+      "28560609",
+      "41021316",
+      "30716021",
+      "42675502",
+      "40420425",
+      "34425874",
+      "29157189",
+      "40412392",
+      "41732904",
+      "30260512",
+      "28190398",
+      "32691116",
+      "28558143",
+      "28657719",
+      "30622123",
+      "23076148",
+      "25720411",
+      "28321933",
+      "30543828",
+      "41107545",
+      "31661961"
+    ],
+    "review": [
+      "42307331",
+      "34199513",
+      "39950286",
+      "42295787",
+      "33549703",
+      "40254275",
+      "28711596",
+      "28833749",
+      "34830074",
+      "42418847",
+      "25656065",
+      "30742061",
+      "42675502",
+      "34425874"
+    ],
+    "pmc": [
+      "13336538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/degenerativenervediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Degenerative Nerve Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42307331/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42307331",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3945",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

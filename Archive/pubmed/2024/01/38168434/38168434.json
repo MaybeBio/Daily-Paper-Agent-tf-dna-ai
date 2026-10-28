@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "38168434",
+    "doi": "10.1101/2023.12.15.571887",
+    "title": "Benchmarking DNA binding affinity models using allele-specific transcription factor binding data."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) bind to DNA in a highly sequence-specific manner. This specificity can manifest itself in vivo at heterozygous loci as a difference in TF occupancy between the two alleles. When applied on a genomic scale, functional genomic assays such as ChIP-seq typically lack the statistical power to detect allele-specific binding (ASB) at the level of individual variants. To address this, we propose a framework for benchmarking sequence-to-affinity models for TF binding in terms of their ability to predict allelic imbalances in ChIP-seq counts. We show that a likelihood function based on an over-dispersed binomial distribution can aggregate evidence for allelic preference across the genome without requiring statistical significance for individual variants. This allows us to systematically compare predictive performance when multiple binding models for the same TF are available. We introduce PyProBound, an easily extensible reimplementation of the ProBound biophysically interpretable machine learning framework. Configuring PyProBound to explicitly account for a confounding sequence-specific bias in DNA fragmentation rate yields improved TF binding models when training on ChIP-seq data. We also show how our likelihood function can be leveraged to perform de novo motif discovery on the raw allele-aware ChIP-seq counts.",
+    "keywords": [
+      "CTCF",
+      "ChIP-seq",
+      "DNA binding specificity",
+      "Gene expression regulation",
+      "allele-specific binding",
+      "biophysically interpretable machine learning",
+      "motif discovery",
+      "non-coding genetic variation",
+      "statistical modeling",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiaoting",
+        "Melo, Lucas A N",
+        "Bussemaker, Harmen J"
+      ],
+      "short_names": [
+        "Li X",
+        "Melo LAN",
+        "Bussemaker HJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4938-7587",
+        "ORCID: 0000-0002-7563-7554",
+        "ORCID: 0000-0002-7274-5277"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY 10032, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiaoting",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0003-4938-7587"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Melo, Lucas A N",
+        "short_name": "Melo LAN",
+        "identifiers": [
+          "0000-0002-7563-7554"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Bussemaker, Harmen J",
+        "short_name": "Bussemaker HJ",
+        "identifiers": [
+          "0000-0002-7274-5277"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+          "Department of Systems Biology, Columbia University, New York, NY 10032, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 01:18",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38168434",
+      "39482734",
+      "37805453",
+      "37214836",
+      "39152038",
+      "20158869",
+      "29363433",
+      "19956545",
+      "30598100",
+      "37873117",
+      "20838582",
+      "24039567",
+      "38517697",
+      "27492288",
+      "26818008",
+      "26971251",
+      "27104615",
+      "32850739",
+      "24472686",
+      "28957321",
+      "28849563",
+      "35968123",
+      "23194258",
+      "37158941",
+      "25070602",
+      "39944799",
+      "22950704",
+      "25294828",
+      "24927817",
+      "39605530",
+      "35410161",
+      "31362726",
+      "19597778",
+      "24339764",
+      "38352411",
+      "35606422",
+      "38937662",
+      "22300769",
+      "29617928",
+      "39535534",
+      "24428924",
+      "37682473",
+      "23935523",
+      "36043696",
+      "42180427",
+      "34448158",
+      "41536793",
+      "23812975",
+      "31742324",
+      "27311443",
+      "21543442",
+      "24565265",
+      "31723409",
+      "26291518",
+      "35799193",
+      "27526722",
+      "25486472",
+      "38066439",
+      "23762209",
+      "28750606",
+      "23804403",
+      "24564277",
+      "39975017",
+      "26040656",
+      "26406244",
+      "30517703",
+      "25775564",
+      "28235418",
+      "40102719",
+      "40250421",
+      "41518494",
+      "36945558",
+      "21811232",
+      "25722376",
+      "26285121",
+      "38831039",
+      "38826350",
+      "40874594",
+      "18684996",
+      "22863112",
+      "37090616",
+      "24920305",
+      "30897079",
+      "42134988",
+      "24039560",
+      "22780989",
+      "23790213",
+      "22912568",
+      "41518500",
+      "26552868",
+      "33975875",
+      "26941778",
+      "21602262",
+      "39605729",
+      "21347314",
+      "22863142",
+      "30578913",
+      "37486787",
+      "35240993",
+      "27899623"
+    ],
+    "review": [
+      "38168434",
+      "31742324",
+      "25486472",
+      "23790213"
+    ],
+    "pmc": [
+      "10760129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38168434/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38168434",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.15.571887",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

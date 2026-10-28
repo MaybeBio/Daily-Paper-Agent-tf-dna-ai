@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report identification of small molecule inhibitors targeting the CgMed15a KIX domain of Candida glabrata, with Chebulinic acid showing a KD of 0.339 µM and growth inhibitory effects on C. glabrata, supported by computational screening and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or raw data provided
+- **Missing materials affecting confidence** Full methods, compound screening details, binding assay protocols, growth inhibition data, MD simulation parameters, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to antifungal drug discovery by targeting a transcriptional coactivator domain. However, the evidence base is too limited to evaluate the validity of the key claims. The reported KD value and growth inhibition are promising but lack contextual data, controls, and reproducibility details. The study's novelty is plausible but not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in antifungal drug discovery, microbial pathogenesis, and transcriptional regulation. The work may also interest medicinal chemists seeking natural product inhibitors of protein-protein interactions, given the focus on Chebulinic acid as a phytochemical lead.
+- **Major strengths** The target selection is biologically rational, as the Med15a KIX-Pdr1 interaction is a known mediator of multidrug resistance. The use of high-throughput computational screening followed by experimental validation is a standard and reasonable workflow. The identification of a specific compound with a quantitative binding affinity adds concreteness to the claim.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Chebulinic acid binds to the CgMed15a KIX domain with a KD value of 0.339 µM and shows significant inhibitory effects on the growth of Candida glabrata."  
+  - **Evidence pointer** Abstract only; no figure or table referenced  
+  - **Concern** The abstract provides no experimental context for the KD measurement, such as the assay method, replicates, error margins, or comparison to controls. Similarly, the growth inhibition claim lacks quantitative data, such as IC50 values, concentration ranges, or strain information.  
+  - **Why it matters** Without these details, the reader cannot assess the reliability or biological relevance of the binding affinity or the antifungal effect. A single KD value without error or method is insufficient to support a strong claim of inhibition.  
+  - **Resolution test** Provide the full binding assay data, including method, replicates, and statistical analysis, and present growth inhibition data with dose-response curves and appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and mechanism  
+  - **Claim pointer** "This domain plays a crucial role by interacting with the Pleiotropic Drug Resistance transcription factor Pdr1, a key regulator of the multidrug resistance pathway."  
+  - **Evidence pointer** Abstract only; no functional assay referenced  
+  - **Concern** The abstract implies that inhibiting the KIX domain will disrupt Pdr1 function and thereby affect drug resistance, but no data are shown to demonstrate that Chebulinic acid actually disrupts the KIX-Pdr1 interaction or alters Pdr1-mediated transcriptional activity.  
+  - **Why it matters** The proposed mechanism of action is central to the study's rationale. Without evidence that the compound perturbs the specific protein-protein interaction, the link between binding and antifungal activity remains speculative.  
+  - **Resolution test** Include co-immunoprecipitation, pull-down, or reporter assays showing disruption of the KIX-Pdr1 interaction, and ideally demonstrate that the effect on growth is dependent on this pathway.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Selectivity and off-target effects  
+  - **Claim pointer** "Chebulinic acid ... shows significant inhibitory effects on the growth of Candida glabrata."  
+  - **Evidence pointer** Abstract only; no selectivity data referenced  
+  - **Concern** The abstract does not address whether Chebulinic acid's growth inhibition is specific to C. glabrata or whether it affects other fungal species or mammalian cells. This is critical for assessing potential toxicity and therapeutic window.  
+  - **Why it matters** A compound with broad cytotoxicity would not be a viable antifungal lead. Selectivity data are essential to support the claim of a "novel potential antifungal compound."  
+  - **Resolution test** Provide cytotoxicity assays against mammalian cell lines and growth inhibition data against other fungal species, including a non-pathogenic yeast control.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Computational validation  
+  - **Claim pointer** "Molecular dynamics simulation studies further revealed the structural stability of the CgMed15a KIX-Chebulinic acid complex."  
+  - **Evidence pointer** Abstract only; no simulation details referenced  
+  - **Concern** The abstract does not specify simulation length, force field, solvent model, or convergence criteria. "Structural stability" is a vague term that could refer to RMSD, RMSF, or binding free energy, none of which are quantified.  
+  - **Why it matters** MD simulations are only meaningful if parameters and metrics are clearly defined. Without this, the claim of stability is not verifiable.  
+  - **Resolution test** Report simulation conditions and provide quantitative stability metrics, such as RMSD and RMSF plots, and ideally binding free energy calculations.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Compound selection  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states "We selected six potential candidates with high affinity" but does not name the other five compounds or explain why Chebulinic acid was prioritized.  
+  - **Required correction** List the six candidates and briefly justify the selection of Chebulinic acid for further study.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Data presentation  
+  - **Affected element** KD value  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The KD value is reported as 0.339 µM without error bars or replicate number, which is insufficient for a quantitative claim.  
+  - **Required correction** Report the KD with standard deviation and number of independent experiments.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "High throughput computational screening"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "high throughput" is not defined in terms of dataset size or computational resources, which may overstate the scale of the screening.  
+  - **Required correction** Specify the number of compounds screened and the virtual screening method used.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core claims of binding, mechanism, and antifungal activity are not supported by sufficient evidence in the abstract. The computational stability claim is also under-specified.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The target (Med15a KIX domain) is relatively underexplored for antifungal development, which adds some originality. However, the use of computational screening and a known phytochemical is not novel in itself.  
+  - **Scientific importance** The problem of multidrug resistance in C. glabrata is clinically significant, and targeting transcriptional regulators is a plausible strategy. The importance is moderate but not transformative based on the abstract.  
+  - **Interdisciplinary readership** The work bridges computational biology, biochemistry, and mycology, which could appeal to a broad audience. However, the abstract lacks sufficient detail to engage specialists in any single field.  
+  - **Technical soundness** The workflow is reasonable, but the lack of experimental detail and controls prevents assessment of technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear and accessible, but terms like "KIX domain" and "Med15a" are not explained, which may hinder nonspecialist understanding.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary data, but the absence of experimental details, controls, and selectivity data means the core claims cannot be validated. Supportive if the full manuscript addresses the major concerns, particularly the binding assay rigor, mechanism of action, and selectivity.
+
+## Risk / unsupported claims
+- The claim that Chebulinic acid "shows significant inhibitory effects on the growth of Candida glabrata" is unsupported without dose-response data and statistical analysis.
+- The claim that the KIX domain "plays a crucial role" in the multidrug resistance pathway is presented as fact but is not experimentally demonstrated in the abstract.
+- The KD value of 0.339 µM is reported without error or method, making it unverifiable.
+- The "structural stability" of the complex from MD simulations is not quantified or contextualized.
+- The selection of "six potential candidates" is mentioned but not substantiated with any data.

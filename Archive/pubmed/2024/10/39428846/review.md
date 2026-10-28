@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that the FDA-approved tyrosine kinase inhibitor radotinib, identified through molecular docking of an FDA-approved anticancer drug library against STAT3, FOXO3a, and Pim-1 kinase, exerts anti-hepatocellular carcinoma (HCC) effects via modulation of these targets, supported by in vitro assays and gene/protein expression analyses.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological specifics provided
+- **Missing materials affecting confidence** Full methods, docking scores, statistical analyses, Western blot images, cell line details, dose-response data, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible drug repurposing hypothesis for radotinib in HCC, with a logical progression from in silico screening to in vitro validation. However, the evidence as summarized is insufficient to establish the mechanistic claim that radotinib acts through STAT3, FOXO3a, and Pim-1 kinase, given the partial and inconsistent expression data reported. The work may be of interest to the HCC and drug repurposing communities, but the current abstract does not provide enough detail to assess technical rigor or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in hepatocellular carcinoma therapeutics, drug repurposing, and kinase inhibitor pharmacology would find the results relevant. The focus on multitarget modulation and use of an FDA-approved drug may appeal to translational oncology investigators seeking faster clinical pathways.
+- **Major strengths** The study addresses a clinically relevant problem, namely resistance and toxicity in advanced HCC, and proposes a multitarget strategy. The use of an FDA-approved drug library enhances translational potential. The combination of in silico and in vitro approaches is appropriate for an initial repurposing screen.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that radotinib targets STAT3, FOXO3a, and Pim-1 kinase, and that this underlies its potential anti-HCC effect.
+  - **Evidence pointer** Abstract text, gene expression and Western blot results; location not provided
+  - **Concern** The gene expression data show reduced FOXO3a and Pim-1 but no basal-level alteration of STAT3, while the Western blot shows decreased phospho-STAT3. This inconsistency is not reconciled. The abstract does not clarify whether the claimed targeting is at the transcriptional, translational, or post-translational level, nor whether the observed effects are direct or indirect.
+  - **Why it matters** The central mechanistic claim is that radotinib acts through these three targets. Without consistent evidence across all targets, the multitarget hypothesis is not established. The lack of STAT3 mRNA change but reduced phosphorylation could indicate post-translational regulation, but this is not stated or supported with data.
+  - **Resolution test** Provide quantitative data for mRNA and protein levels of all three targets, with statistical comparisons, and explicitly state the mechanistic level at which each target is modulated. Show dose-response and time-course data to support direct engagement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** The abstract states that in vitro experiments were performed to evaluate the effect of radotinib in human hepatoblastoma cell line/hepatocellular carcinoma cells.
+  - **Evidence pointer** Abstract text, MTT, live/dead, DAPI, clonogenic assays; location not provided
+  - **Concern** The abstract does not specify which cell line was used, the concentration range of radotinib, the duration of treatment, or the number of replicates. Without these details, the reliability and generalizability of the in vitro results cannot be assessed.
+  - **Why it matters** Reproducibility and interpretation of cell-based assays depend critically on these parameters. The ambiguous cell line description (hepatoblastoma versus hepatocellular carcinoma) is particularly problematic, as these are distinct entities with different biology.
+  - **Resolution test** Specify the exact cell line(s), culture conditions, drug concentrations, exposure times, and replicate numbers. Provide dose-response curves and statistical analysis for each assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Translational claim
+  - **Claim pointer** The abstract concludes that radotinib could be considered a potential candidate for repurposing in HCC treatment.
+  - **Evidence pointer** Abstract text, in silico and in vitro results; location not provided
+  - **Concern** The translational claim is based solely on in silico docking and in vitro assays. No in vivo data, pharmacokinetic assessment, or comparison with standard HCC therapies is provided. The abstract does not address whether radotinib concentrations used in vitro are clinically achievable.
+  - **Why it matters** Drug repurposing claims require evidence of efficacy in relevant models and feasibility of achieving therapeutic concentrations in humans. The current evidence is too preliminary to support a repurposing recommendation.
+  - **Resolution test** Include in vivo efficacy data, pharmacokinetic analysis, or at minimum a discussion of clinically achievable concentrations relative to in vitro effective doses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cell line description
+  - **Evidence pointer** Abstract text, in vitro methods; location not provided
+  - **Issue** The phrase "human hepatoblastoma cell line/hepatocellular carcinoma cells" is ambiguous and does not identify a specific, well-characterized cell line.
+  - **Required correction** Name the exact cell line used (e.g., HepG2, Huh7, Hep3B) and clarify whether it is of hepatoblastoma or HCC origin.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Docking results
+  - **Evidence pointer** Abstract text, molecular docking; location not provided
+  - **Issue** The abstract states that radotinib and capmatinib were top compounds and that radotinib showed significant binding values, but no numerical docking scores or comparison thresholds are provided.
+  - **Required correction** Report docking scores for all top compounds and specify the scoring function and criteria used to define "significant" binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** STAT3 expression data
+  - **Evidence pointer** Abstract text, gene expression and Western blot; location not provided
+  - **Issue** The abstract reports no basal-level alteration of STAT3 mRNA but decreased phospho-STAT3 protein. This distinction is not explained.
+  - **Required correction** Clarify whether the effect on STAT3 is post-translational and discuss the implications for the proposed targeting mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The inconsistent target modulation data and lack of experimental details prevent the mechanistic and translational claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: Moderate. Drug repurposing of radotinib for HCC is a reasonable but not novel concept, given existing literature on kinase inhibitors in HCC. Scientific importance: Moderate. The clinical need is real, but the abstract does not demonstrate a significant advance over current knowledge. Interdisciplinary readership: Limited. The work is primarily of interest to oncology and pharmacology specialists. Technical soundness: Not assessable from the abstract due to missing methodological details and inconsistent data. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting, but the abstract does not provide sufficient data to support the mechanistic or translational claims. Reconsideration would require full experimental details and consistent evidence across all proposed targets.
+
+## Risk / unsupported claims
+- The claim that radotinib targets STAT3, FOXO3a, and Pim-1 kinase is unsupported due to inconsistent expression data and lack of direct binding or functional validation.
+- The claim that radotinib could be repurposed for HCC treatment is unsupported without in vivo data or pharmacokinetic feasibility.
+- The identification of radotinib and capmatinib as top compounds is not assessable without docking scores and comparison criteria.
+- The in vitro efficacy of radotinib is not assessable without cell line identity, dose-response data, and statistical analysis.

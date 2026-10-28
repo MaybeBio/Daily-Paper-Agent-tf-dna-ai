@@ -1,0 +1,508 @@
+{
+  "identity": {
+    "pmid": "39979259",
+    "doi": "10.1038/s41467-025-56889-5",
+    "title": "Increasingly efficient chromatin binding of cohesin and CTCF supports chromatin architecture formation during zebrafish embryogenesis."
+  },
+  "content": {
+    "abstract": "The three-dimensional folding of chromosomes is essential for nuclear functions such as DNA replication and gene regulation. The emergence of chromatin architecture is thus an important process during embryogenesis. To shed light on the molecular and kinetic underpinnings of chromatin architecture formation, we characterized biophysical properties of cohesin and CTCF binding to chromatin and their changes upon cofactor depletion using single-molecule imaging in live developing zebrafish embryos. We found that chromatin-bound fractions of both cohesin and CTCF increased significantly between the 1000-cell and shield stages, which we could explain through changes in both their association and dissociation rates. Moreover, increasing binding of cohesin restricted chromatin motion, potentially via loop extrusion, and showed distinct stage-dependent nuclear distribution. Polymer simulations with experimentally derived parameters recapitulated the experimentally observed gradual emergence of chromatin architecture. Our findings reveal molecular kinetics underlying chromatin architecture formation during zebrafish embryogenesis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Zebrafish/embryology/metabolism/genetics",
+      "*Chromatin/metabolism",
+      "Cohesins",
+      "*CCCTC-Binding Factor/metabolism/genetics",
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics",
+      "*Cell Cycle Proteins/metabolism/genetics",
+      "*Embryonic Development/genetics",
+      "*Zebrafish Proteins/metabolism/genetics",
+      "Protein Binding",
+      "Embryo, Nonmammalian/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cossmann, Jonas",
+        "Kos, Pavel I",
+        "Varamogianni-Mamatsi, Vassiliki",
+        "Assenheimer, Devin S",
+        "Bischof, Tobias A",
+        "Kuhn, Timo",
+        "Vomhof, Thomas",
+        "Papantonis, Argyris",
+        "Giorgetti, Luca",
+        "Gebhardt, J Christof M"
+      ],
+      "short_names": [
+        "Cossmann J",
+        "Kos PI",
+        "Varamogianni-Mamatsi V",
+        "Assenheimer DS",
+        "Bischof TA",
+        "Kuhn T",
+        "Vomhof T",
+        "Papantonis A",
+        "Giorgetti L",
+        "Gebhardt JCM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3625-0939",
+        "ORCID: 0009-0000-0201-7373",
+        "ORCID: 0000-0003-0194-7186",
+        "ORCID: 0000-0001-7551-1073",
+        "ORCID: 0000-0002-9664-9087",
+        "ORCID: 0000-0003-1900-600X"
+      ],
+      "affiliations": [
+        "Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany.",
+        "Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland.",
+        "Department of Biomedicine, University of Basel, Basel, Switzerland.",
+        "Institute of Pathology, University Medical Center Gottingen, Gottingen, Germany.",
+        "Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany.",
+        "Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany.",
+        "Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institute of Pathology, University Medical Center Gottingen, Gottingen, Germany.",
+        "Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland.",
+        "Institute of Biophysics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de.",
+        "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Coßmann, Jonas",
+        "short_name": "Coßmann J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany.",
+          "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Kos, Pavel I",
+        "short_name": "Kos PI",
+        "identifiers": [
+          "0000-0002-3625-0939"
+        ],
+        "affiliations": [
+          "Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland.",
+          "Department of Biomedicine, University of Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Varamogianni-Mamatsi, Vassiliki",
+        "short_name": "Varamogianni-Mamatsi V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Göttingen, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Assenheimer, Devin S",
+        "short_name": "Assenheimer DS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany.",
+          "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Bischof, Tobias A",
+        "short_name": "Bischof TA",
+        "identifiers": [
+          "0009-0000-0201-7373"
+        ],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany.",
+          "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Kuhn, Timo",
+        "short_name": "Kuhn T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Vomhof, Thomas",
+        "short_name": "Vomhof T",
+        "identifiers": [
+          "0000-0003-0194-7186"
+        ],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Papantonis, Argyris",
+        "short_name": "Papantonis A",
+        "identifiers": [
+          "0000-0001-7551-1073"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Göttingen, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Giorgetti, Luca",
+        "short_name": "Giorgetti L",
+        "identifiers": [
+          "0000-0002-9664-9087"
+        ],
+        "affiliations": [
+          "Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gebhardt, J Christof M",
+        "short_name": "Gebhardt JCM",
+        "identifiers": [
+          "0000-0003-1900-600X"
+        ],
+        "affiliations": [
+          "Institute of Biophysics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de.",
+          "Institute of Experimental Physics and IQST, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Feb 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/21 00:21",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "41380688",
+      "39898979",
+      "39229088"
+    ],
+    "refs": [
+      "38774252",
+      "37872232",
+      "37430091",
+      "37408191",
+      "37381036",
+      "37354885",
+      "37137166",
+      "37076620",
+      "37062615",
+      "37012454",
+      "37010886",
+      "36898992",
+      "36897969",
+      "36693321",
+      "36509793",
+      "36471076",
+      "36243734",
+      "36050765",
+      "35710836",
+      "35710835",
+      "35585235",
+      "35420890",
+      "34678064",
+      "34595173",
+      "34569155",
+      "34518536",
+      "34297911",
+      "34152157",
+      "34060631",
+      "34006570",
+      "34006569",
+      "33947895",
+      "33767413",
+      "33649325",
+      "33378672",
+      "33154377",
+      "33091336",
+      "32822575",
+      "32541019",
+      "32528656",
+      "32515737",
+      "32451505",
+      "32396063",
+      "32334414",
+      "32312289",
+      "32253279",
+      "32220807",
+      "32065581",
+      "32032532",
+      "32019978",
+      "31940339",
+      "31937660",
+      "31905366",
+      "31801998",
+      "31792445",
+      "31780627",
+      "31753851",
+      "31570370",
+      "31527274",
+      "31321794",
+      "31222142",
+      "31205001",
+      "31204999",
+      "30948728",
+      "30922844",
+      "30573849",
+      "30523256",
+      "29972771",
+      "29932904",
+      "29728444",
+      "29611806",
+      "29300163",
+      "29217591",
+      "29158440",
+      "29094699",
+      "29076501",
+      "28985562",
+      "28962522",
+      "28914604",
+      "28855971",
+      "28827596",
+      "28751582",
+      "28712725",
+      "28709003",
+      "28703188",
+      "28529057",
+      "28504701",
+      "28487148",
+      "28475897",
+      "28467304",
+      "28424523",
+      "28388407",
+      "27858508",
+      "27799150",
+      "27210764",
+      "26990990",
+      "26903600",
+      "26527277",
+      "26499245",
+      "26244658",
+      "25818644",
+      "25768910",
+      "25732821",
+      "25599551",
+      "25497547",
+      "25342811",
+      "25255084",
+      "24925319",
+      "24056933",
+      "23990805",
+      "23975099",
+      "23760082",
+      "23707059",
+      "23681123",
+      "23524394",
+      "23481518",
+      "23043155",
+      "22955621",
+      "22844090",
+      "22743772",
+      "22495304",
+      "22495300",
+      "22388286",
+      "22341456",
+      "22261046",
+      "22039349",
+      "21922053",
+      "21288905",
+      "21111234",
+      "20959109",
+      "20513432",
+      "20300217",
+      "20110278",
+      "19886810",
+      "19815776",
+      "18798982",
+      "18552824",
+      "18538653",
+      "17567667",
+      "17349791",
+      "17113138",
+      "17112726",
+      "16951251",
+      "16890534",
+      "16412219",
+      "15837422",
+      "15383284",
+      "11983169",
+      "10882066",
+      "9007228",
+      "9001205",
+      "8589427",
+      "7317363",
+      "461187"
+    ],
+    "similar": [
+      "39979259",
+      "29158440",
+      "28467304",
+      "36182691",
+      "24321385",
+      "31937660",
+      "37076620",
+      "29593713",
+      "35440598",
+      "39988079",
+      "41102415",
+      "18550811",
+      "39709822",
+      "31666380",
+      "40586309",
+      "38742641",
+      "40374602",
+      "31204999",
+      "33154377",
+      "40628528",
+      "23804403",
+      "40011778",
+      "41690937",
+      "31905366",
+      "41238959",
+      "29217591",
+      "32631111",
+      "34197738",
+      "32065581",
+      "39093600",
+      "42476989",
+      "38206813",
+      "40118069",
+      "35456389",
+      "42463888",
+      "38808662",
+      "35710842",
+      "33545664",
+      "29706548",
+      "28737770",
+      "29757144",
+      "28424523",
+      "42336833",
+      "39721581",
+      "40804526",
+      "29217590",
+      "41349519",
+      "39984730",
+      "39543681",
+      "39173638",
+      "32451376",
+      "24335803",
+      "35180428",
+      "33091336",
+      "22952237",
+      "38975838",
+      "41512858",
+      "17567667",
+      "23010778",
+      "38129077",
+      "41381500",
+      "31264253",
+      "32680543",
+      "27582050",
+      "38670416",
+      "41254162",
+      "42030945",
+      "20553708",
+      "36097291",
+      "34309513",
+      "41980771",
+      "35420890",
+      "29110030",
+      "39748119",
+      "21502535",
+      "28475897",
+      "42258543",
+      "26439501",
+      "39392751",
+      "21637801",
+      "31968256",
+      "29867216",
+      "25299688",
+      "31216471",
+      "41145704",
+      "42639792",
+      "34580493",
+      "22740398",
+      "38217027",
+      "30031214",
+      "40452075",
+      "34518536",
+      "35471149",
+      "35879286",
+      "41650249",
+      "23704192",
+      "40613712",
+      "31491387",
+      "33187878",
+      "42192110"
+    ],
+    "review": [
+      "39979259",
+      "39709822",
+      "32631111",
+      "35456389",
+      "33545664",
+      "22952237",
+      "31264253",
+      "29110030",
+      "26439501",
+      "30031214"
+    ],
+    "pmc": [
+      "11842872"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-56889-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39979259/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39979259",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1038/s41467-025-56889-5",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

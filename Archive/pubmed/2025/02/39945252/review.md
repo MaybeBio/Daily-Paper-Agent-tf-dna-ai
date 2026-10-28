@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a comparative computational and experimental study of novel zinc/tin metal coordinates bearing BRCA-1 mimetics against wild-type and mutant p53 proteins. They claim superior binding affinities, binding free energies, and in vitro cytotoxicity for their designed compounds, particularly TSCO5-Zn and TSCO5-Sn, compared to the known p53 activator PRIMA-1.
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed methods are provided
+- **Missing materials affecting confidence** Full methods, docking scores, MM-GBSA data tables, MD simulation trajectories and analyses, synthesis characterization data, MTT assay protocols, statistical analyses, and compound structures
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach combining computational screening and experimental validation for p53 reactivation in breast cancer. However, the evidence provided is insufficient to support the strong claims of superiority over PRIMA-1. Key quantitative data are presented without statistical context, and the relationship between the pharmacophore model, docking scores, and experimental outcomes is not clearly established. The work may have merit, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in cancer drug discovery, particularly those focused on p53-targeted therapies, metal-based anticancer agents, and computational drug design. The combination of in silico and in vitro approaches may appeal to medicinal chemists and structural biologists interested in mutant p53 reactivation strategies.
+- **Major strengths** The study addresses a clinically relevant target (mutant p53 in breast cancer) and combines multiple computational methods (docking, MM-GBSA, MD simulations) with experimental synthesis and cytotoxicity testing. The inclusion of two mutant p53 variants (R175H and R273H) and comparison with a known activator (PRIMA-1) provides a reasonable benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The claim that TSCO5 metal coordinates show "significant cytotoxicity" with IC50 values of 0.089 and 0.074 µM (WTp53 and MTp53, respectively) for TSCO5-Zn, and 0.092 and 0.073 µM for TSCO5-Sn.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract reports IC50 values without any indication of replicates, standard deviations, or statistical comparison to PRIMA-1. The term "significant" implies statistical testing, but no p-values, confidence intervals, or error estimates are provided.
+  - **Why it matters** Without statistical context, the reader cannot determine whether the observed differences between TSCO5 compounds and PRIMA-1 are meaningful or within experimental noise. This is critical for the central claim of superior potency.
+  - **Resolution test** Provide IC50 values with standard deviations from at least three independent experiments, and perform appropriate statistical tests (e.g., t-test or ANOVA) comparing TSCO5 compounds to PRIMA-1 in both cell lines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the designed compound TSCO5 metal coordinates have shown good in silico and in vitro activity on mutated p53 cell lines and are more potent than the p53 activator PRIMA-1."
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The abstract reports docking scores and MM-GBSA binding free energies for multiple compounds, but only two compounds (TSCO5-Zn and TSCO5-Sn) are highlighted for in vitro activity. The connection between computational predictions and experimental results is not explicitly demonstrated. For example, it is unclear whether the top-scoring compounds in docking were the same ones synthesized and tested, and whether the MM-GBSA rankings correlated with experimental potency.
+  - **Why it matters** The claim of superiority over PRIMA-1 rests on both computational and experimental evidence. If the computational and experimental results are not concordant, the predictive value of the in silico approach is undermined, and the conclusion becomes less robust.
+  - **Resolution test** Clearly state which compounds were selected for synthesis based on computational rankings, and show a direct comparison of computational scores and experimental IC50 values for all tested compounds, including PRIMA-1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The claim that "The p53 activators established a three-featured (2RA, 1HBA) pharmacophore."
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The pharmacophore model is described with minimal detail. It is unclear which p53 activators were used to generate the model, how the features (2RA, 1HBA) were defined, and whether the model was validated. The abbreviation "2RA" is not defined.
+  - **Why it matters** The pharmacophore is presented as a key outcome, but without details on its construction and validation, its reliability and utility for compound design cannot be assessed.
+  - **Resolution test** Describe the pharmacophore generation method, list the training set compounds, define all features, and provide validation metrics (e.g., ROC curves or enrichment factors).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abbreviation "MMGBSA" is used without definition, and the term "MTp53" is used interchangeably with specific mutants (R175H, R273H) without clear distinction.
+  - **Required correction** Define all abbreviations at first use and specify which mutant is referred to when using "MTp53" in each context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results reporting
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The abstract states that "six metal coordinates were synthesised" but only two (TSCO5-Zn and TSCO5-Sn) are discussed in the results. The outcomes for the other four compounds are not mentioned.
+  - **Required correction** Briefly report the in vitro results for all six synthesized compounds, or explicitly state why only two are highlighted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** MD simulation description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The MD simulation is described as "100 ns" for "TSCO5/3KMD-MT" and "TSCO5/3KMD-WT," but the protein structures, force fields, and analysis metrics (e.g., RMSD, RMSF) are not specified.
+  - **Required correction** Provide details on the simulation setup and the specific stability metrics used to conclude that the MT complex is more stable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity), R1-M2 (evidence sufficiency), R1-M3 (methodological clarity)
+- **Assessment against Nature-style criteria** Originality: The combination of metal coordinates with BRCA-1 mimetics for p53 reactivation is somewhat novel, but the abstract does not clearly differentiate this from existing p53 activator research. Scientific importance: The target is clinically relevant, but the abstract does not provide sufficient mechanistic insight or broad implications. Interdisciplinary readership: The work spans computational chemistry, medicinal chemistry, and cancer biology, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Cannot be fully assessed from the abstract; the lack of statistical detail and methodological clarity is concerning. Readability for nonspecialists: The abstract is dense with jargon and abbreviations, making it difficult for a general scientific audience to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising preliminary data, but the lack of statistical context, incomplete reporting of results, and unclear methodological details prevent a definitive assessment of the claims. The authors should address the major concerns and provide a more complete and transparent account of their methods and results.

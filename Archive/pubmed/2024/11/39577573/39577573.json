@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "39577573",
+    "doi": "10.1016/j.biotechadv.2024.108479",
+    "title": "Leveraging independent component analysis to unravel transcriptional regulatory networks: A critical review and future directions."
+  },
+  "content": {
+    "abstract": "Transcriptional regulatory networks (TRNs) play a crucial role in exploring microbial life activities and complex regulatory mechanisms. The comprehensive reconstruction of TRNs requires the integration of large-scale experimental data, which poses significant challenges due to the complexity of regulatory relationships. The application of machine learning tools, such as clustering analysis, has been employed to investigate TRNs, but these methods have limitations in capturing both global and local co-expression effects. In contrast, Independent Component Analysis (ICA) has emerged as a powerful analysis algorithm for modularizing independently regulated gene sets in TRNs, allowing it to account for both global and local co-expression effects. In this review, we comprehensively summarize the application of ICA in unraveling TRNs and highlight the research progress in three key aspects: (1) extending TRNs with iModulon analysis; (2) elucidating the regulatory mechanisms triggered by environmental perturbation; and (3) exploring the mechanisms of transcriptional regulation triggered by changes in microbial physiological state. At the end of this review, we also address the challenges facing ICA in TRN analysis and outline future research directions to promote the advancement of ICA-based transcriptomics analysis in biotechnology and related fields.",
+    "keywords": [
+      "Independent component analysis",
+      "Independently-modulated gene sets",
+      "Transcription factor",
+      "Transcriptional regulatory mechanism",
+      "Transcriptional regulatory network",
+      "Transcriptomics analysis"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks/genetics",
+      "Gene Expression Profiling/methods",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yuhan",
+        "Zhao, Jianxiao",
+        "Sun, Xi",
+        "Zheng, Yangyang",
+        "Chen, Tao",
+        "Wang, Zhiwen"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Zhao J",
+        "Sun X",
+        "Zheng Y",
+        "Chen T",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; School of Life Science, Ningxia University, Yinchuan 750021, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; School of Life Science, Ningxia University, Yinchuan 750021, China. Electronic address: zww@tju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yuhan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jianxiao",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xi",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; School of Life Science, Ningxia University, Yinchuan 750021, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yangyang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tao",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiwen",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; School of Life Science, Ningxia University, Yinchuan 750021, China. Electronic address: zww@tju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biotechnology advances"
+    ],
+    "journal_abbrev": [
+      "Biotechnol Adv"
+    ],
+    "pub_date": "2025 Jan-Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/23 11:13",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "41587323",
+      "41364237"
+    ],
+    "refs": [],
+    "similar": [
+      "39577573",
+      "26950762",
+      "32093656",
+      "36317888",
+      "28874552",
+      "22849367",
+      "39527186",
+      "34251616",
+      "25227087",
+      "24739361",
+      "32471360",
+      "39264300",
+      "35814713",
+      "37683565",
+      "34522292",
+      "35306876",
+      "25723545",
+      "23437514",
+      "32393779",
+      "33558504",
+      "33045728",
+      "29715506",
+      "35489688",
+      "38349131",
+      "39451156",
+      "18769717",
+      "38189271",
+      "32616573",
+      "39213391",
+      "37939200",
+      "27483142",
+      "37628727",
+      "37278526",
+      "24348226",
+      "27600242",
+      "19366454",
+      "26529780",
+      "26772805",
+      "37023256",
+      "39707003",
+      "20942926",
+      "17708679",
+      "30547796",
+      "26164700",
+      "37804608",
+      "39095705",
+      "30961611",
+      "23504016",
+      "17244365",
+      "38891842",
+      "32717108",
+      "36557619",
+      "22397531",
+      "32541819",
+      "21827425",
+      "39269777",
+      "22784627",
+      "39494532",
+      "17397539",
+      "17688426",
+      "34777307",
+      "26577401",
+      "28529066",
+      "31797920",
+      "39173585",
+      "34740743",
+      "17931418",
+      "21668997",
+      "18980677",
+      "24888606",
+      "29222512",
+      "33663384",
+      "21890453",
+      "38323821",
+      "22428058",
+      "32606380",
+      "25024739",
+      "19476620",
+      "28114032",
+      "31701125",
+      "27287878",
+      "39133097",
+      "39585480",
+      "38634607",
+      "26356904",
+      "25279447",
+      "38354497",
+      "29545622",
+      "37561790",
+      "25599335",
+      "21141733",
+      "24278007",
+      "18366611",
+      "21989140",
+      "31964336",
+      "22456606",
+      "18848887",
+      "31985403",
+      "19008874",
+      "27479082"
+    ],
+    "review": [
+      "39577573",
+      "26950762",
+      "34522292",
+      "27600242",
+      "37804608",
+      "32717108",
+      "27287878",
+      "39585480",
+      "37561790",
+      "21141733"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0734-9750(24)00173-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3549",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

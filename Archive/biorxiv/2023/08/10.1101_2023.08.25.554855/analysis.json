@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.25.554855",
+  "title": "Reengineering of a flavin-binding fluorescent protein using ProteinMPNN",
+  "authors": "Andrey Nikolaev; Alexander Kuzmin; Elena Markeeva; Elizaveta Kuznetsova; Oleg Semenov; Arina Anuchina; Alina Remeeva; Ivan Gushchin",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-27",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用ProteinMPNN重设计黄素结合荧光蛋白，虽涉及蛋白-配体结合，但对象非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法可迁移性有限。",
+  "abstract": "Recent advances in machine learning techniques have led to development of a number of protein design and engineering approaches. One of them, ProteinMPNN, predicts an amino acid sequence that would fold and match user-defined backbone structure. In this short report, we test whether ProteinMPNN can be used to reengineer a flavin-binding fluorescent protein, CagFbFP. We fixed the native backbone conformation and the identity of 20 amino acids interacting with the chromophore (flavin mononucleotide, FMN), while letting ProteinMPNN predict the rest of the sequence. The software package suggested replacing 36-48 out of the remaining 86 amino acids. The three designs that we tested experimentally displayed different expression levels, yet all were able to bind FMN and displayed fluorescence, thermal stability and other properties similar to those of CagFbFP. Our results demonstrate that ProteinMPNN can be used to generate diverging unnatural variants of fluorescent proteins, and, more generally, to reengineer proteins without losing their ligand-binding capabilities.",
+  "abstract_zh": "机器学习技术的最新进展催生了多种蛋白质设计与工程方法。其中之一，ProteinMPNN，能够预测会折叠并与用户定义的骨架结构匹配的氨基酸序列。在本短报告中，我们测试了ProteinMPNN是否可用于重新设计一种黄素结合荧光蛋白CagFbFP。我们固定了天然骨架构象以及与发色团（黄素单核苷酸，FMN）相互作用的20个氨基酸的身份，同时让ProteinMPNN预测其余序列。该软件包建议替换剩余86个氨基酸中的36至48个。我们实验测试的三种设计表现出不同的表达水平，但均能结合FMN，并显示出与CagFbFP相似的荧光、热稳定性及其他特性。我们的结果表明，ProteinMPNN可用于生成荧光蛋白的分歧性非天然变体，更广泛地说，可用于在不丧失配体结合能力的情况下重新设计蛋白质。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.25.554855",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.25.554855",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.25.554855/index.html"
+}

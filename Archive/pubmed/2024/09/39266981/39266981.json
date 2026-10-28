@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "39266981",
+    "doi": "10.1186/s12903-024-04775-9",
+    "title": "Discovering common pathogenetic processes between periodontitis and Alzheimer's disease by bioinformatics and system biology approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: There is increasing evidence that inflammation plays a key role in the pathophysiology of periodontitis (PT) and Alzheimer's disease (AD), but the roles of inflammation in linking PT and AD are not clear. Our aim is to analyze the potential molecular mechanisms between these two diseases using bioinformatics and systems biology approaches. METHODS: To elucidate the link between PT and AD, we selected shared genes (SGs) with gene-disease-association scores of >/= 0.1 from the Disease Gene Network (DisGeNET) database, followed by extracting the hub genes. Based on these genes, we constructed gene ontology (GO) enrichment analysis, pathway enrichment analysis, protein-protein interaction (PPI) networks, transcription factors (TFs)-gene networks, microRNAs (miRNAs)-gene regulatory networks, and gene-disease association analyses. Finally, the Drug Signatures database (DSigDB) was utilized to predict candidate molecular drugs related to hub genes. RESULTS: A total of 21 common SGs between PT and AD were obtained. Cell cytokine activity, inflammatory response, and extracellular membrane were the most important enriched items in GO analysis. Interleukin-10 Signaling, LTF Danger Signal Response Pathway, and RAGE Pathway were identified as important shared pathways. IL6, IL10, IL1B, TNF, IFNG, CXCL8, CCL2, MMP9, TLR4 were identified as hub genes. Both shared pathways and hub genes are closely related to endoplasmic reticulum (ER) stress and mitochondrial dysfunction. Importantly, glutathione, simvastatin, and dexamethasone were identified as important candidate drugs for the treatment of PT and AD. CONCLUSIONS: There is a close link between PT and AD pathogenesis, which may involve in the inflammation, ER and mitochondrial function.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Endoplasmic reticulum stress",
+      "Hub gene",
+      "Inflammation",
+      "Mitochondrial dysfunction",
+      "Periodontitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Periodontitis/genetics",
+      "*Alzheimer Disease/genetics",
+      "*Computational Biology",
+      "*Systems Biology",
+      "Gene Regulatory Networks/genetics",
+      "Protein Interaction Maps/genetics",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Fei",
+        "Zhao, Yang",
+        "Zheng, Jinren",
+        "Xiang, Qun",
+        "Luo, Pei",
+        "Zhu, Lu",
+        "He, Huiyu"
+      ],
+      "short_names": [
+        "Ge F",
+        "Zhao Y",
+        "Zheng J",
+        "Xiang Q",
+        "Luo P",
+        "Zhu L",
+        "He H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral Implantology and Prosthodontics, The First Affiliated Hospital of Xinjiang Medical University (The Affiliated Stomatology Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China.",
+        "Department of Pacing and Electrophysiology, The First Affiliated Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China.",
+        "Department of Clinical Laboratory, Eyes ENT Hospital of Urumqi, Urumqi, 830002, People's Republic of China.",
+        "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China.",
+        "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China.",
+        "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China.",
+        "Department of Oral Implantology and Prosthodontics, The First Affiliated Hospital of Xinjiang Medical University (The Affiliated Stomatology Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China. hehuiyu01@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Fei",
+        "short_name": "Ge F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology and Prosthodontics, The First Affiliated Hospital of Xinjiang Medical University (The Affiliated Stomatology Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yang",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pacing and Electrophysiology, The First Affiliated Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jinren",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Eyes ENT Hospital of Urumqi, Urumqi, 830002, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Qun",
+        "short_name": "Xiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Pei",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lu",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Affiliated Huanan Hospital of Shenzhen University, Shenzhen, 518111, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "He, Huiyu",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology and Prosthodontics, The First Affiliated Hospital of Xinjiang Medical University (The Affiliated Stomatology Hospital of Xinjiang Medical University, Urumqi, 830054, People's Republic of China. hehuiyu01@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC oral health"
+    ],
+    "journal_abbrev": [
+      "BMC Oral Health"
+    ],
+    "pub_date": "2024 Sep 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/13 00:46",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42163709",
+      "41089822",
+      "40659086",
+      "40082811"
+    ],
+    "refs": [
+      "38189011",
+      "38162574",
+      "35563231",
+      "35262553",
+      "35173828",
+      "34698990",
+      "33511728",
+      "33328614",
+      "32719612",
+      "32385876",
+      "32054121",
+      "31647101",
+      "31564456",
+      "30907320",
+      "30897827",
+      "30476243",
+      "30428305",
+      "30312664",
+      "30250633",
+      "29912392",
+      "29552326",
+      "29520228",
+      "29436584",
+      "29425488",
+      "29140473",
+      "29085294",
+      "28784164",
+      "28489816",
+      "27924018",
+      "27784770",
+      "27447113",
+      "27141961",
+      "27104907",
+      "27011164",
+      "26435627",
+      "26341399",
+      "26253919",
+      "26228060",
+      "26199919",
+      "25990557",
+      "25950236",
+      "25521941",
+      "25120434",
+      "25106630",
+      "25061055",
+      "24820230",
+      "24677171",
+      "24303924",
+      "24189435",
+      "23666172",
+      "22198378",
+      "22186024",
+      "22101233",
+      "22033559",
+      "21542062",
+      "21378306",
+      "20045723",
+      "19875812",
+      "19228370",
+      "18973185",
+      "17237347",
+      "17220915",
+      "16842573",
+      "15919760",
+      "15553977",
+      "10931172",
+      "9458167",
+      "9453600"
+    ],
+    "similar": [
+      "39266981",
+      "38189472",
+      "34556089",
+      "35397550",
+      "33869630",
+      "35114922",
+      "39213070",
+      "36635346",
+      "37100862",
+      "39427050",
+      "38167125",
+      "34732058",
+      "31989994",
+      "33586092",
+      "33941565",
+      "32781959",
+      "38062833",
+      "31346329",
+      "31987036",
+      "38073349",
+      "34326892",
+      "34975885",
+      "26334995",
+      "37740761",
+      "34776447",
+      "29516510",
+      "39210294",
+      "39188714",
+      "35637434",
+      "34243818",
+      "36321868",
+      "32812532",
+      "38268224",
+      "36617784",
+      "31377428",
+      "37848007",
+      "37382793",
+      "33204697",
+      "38904678",
+      "38167011",
+      "34553293",
+      "38736878",
+      "36051483",
+      "39093763",
+      "38902567",
+      "34931168",
+      "38993198",
+      "37355898",
+      "37063926",
+      "39202387",
+      "36316672",
+      "39396083",
+      "33299863",
+      "34813915",
+      "30602391",
+      "39079412",
+      "38527674",
+      "36778155",
+      "30918899",
+      "38957433",
+      "39086489",
+      "28952134",
+      "39252231",
+      "33193074",
+      "31424269",
+      "36104591",
+      "36765431",
+      "35868868",
+      "32389853",
+      "30047339",
+      "36211429",
+      "38863714",
+      "37986309",
+      "36049413",
+      "32481304",
+      "38809924",
+      "34671419",
+      "36902271",
+      "36471356",
+      "32468026",
+      "32925027",
+      "39337647",
+      "31233344",
+      "30542696",
+      "25483140",
+      "28302149",
+      "34697589",
+      "33413749",
+      "33104965",
+      "36499614",
+      "37605414",
+      "38206700",
+      "34788142",
+      "37233843",
+      "34160465",
+      "35016690",
+      "29851783",
+      "24965283",
+      "35378210",
+      "34859622",
+      "33313948",
+      "32853947",
+      "33083497",
+      "30937635",
+      "38809349",
+      "39236079",
+      "39262940",
+      "39395900"
+    ],
+    "review": [
+      "39266981",
+      "32481304"
+    ],
+    "pmc": [
+      "11391628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-024-04775-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39266981/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3885",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

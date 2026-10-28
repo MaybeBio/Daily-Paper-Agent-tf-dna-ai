@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39742481",
+  "title": "Deep learning predicts DNA methylation regulatory variants in specific brain cell types and enhances fine mapping for brain disorders.",
+  "authors": "Zhou, Jiyun; Weinberger, Daniel R; Han, Shizhong",
+  "journal": "Science advances",
+  "published_date": "2025-01-02",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用Transformer模型预测脑细胞类型特异性DNA甲基化调控变异，虽涉及基因调控但非蛋白质-DNA互作或TF-DNA结合体系，且无三维互作建模，仅属边缘相关。",
+  "abstract": "DNA methylation (DNAm) is essential for brain development and function and potentially mediates the effects of genetic risk variants underlying brain disorders. We present INTERACT, a transformer-based deep learning model to predict regulatory variants affecting DNAm levels in specific brain cell types, leveraging existing single-nucleus DNAm data from the human brain. We show that INTERACT accurately predicts cell type-specific DNAm profiles, achieving an average area under the receiver operating characteristic curve of 0.99 across cell types. Furthermore, INTERACT predicts cell type-specific DNAm regulatory variants, which reflect cellular context and enrich the heritability of brain-related traits in relevant cell types. We demonstrate that incorporating predicted variant effects and DNAm levels of CpG sites enhances the fine mapping for three brain disorders-schizophrenia, depression, and Alzheimer's disease-and facilitates mapping causal genes to particular cell types. Our study highlights the power of deep learning in identifying cell type-specific regulatory variants, which will enhance our understanding of the genetics of complex traits.",
+  "abstract_zh": "DNA甲基化（DNAm）对大脑发育和功能至关重要，并可能介导脑部疾病背后遗传风险变异的影响。我们提出了INTERACT，一种基于Transformer的深度学习模型，用于预测影响特定脑细胞类型中DNAm水平的调控变异，利用现有的人脑单核DNAm数据。我们证明INTERACT能准确预测细胞类型特异性的DNAm谱，在各类细胞中平均接收者操作特征曲线下面积达到0.99。此外，INTERACT预测细胞类型特异性的DNAm调控变异，这些变异反映细胞环境，并在相关细胞类型中富集脑相关性状的遗传力。我们证明，结合预测的变异效应和CpG位点的DNAm水平，增强了对三种脑部疾病——精神分裂症、抑郁症和阿尔茨海默病——的精细定位，并有助于将因果基因映射到特定细胞类型。我们的研究强调了深度学习在识别细胞类型特异性调控变异方面的能力，这将增强我们对复杂性状遗传学的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39742481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39742481/",
+  "paper_page_path": "papers/pubmed/39742481/index.html"
+}

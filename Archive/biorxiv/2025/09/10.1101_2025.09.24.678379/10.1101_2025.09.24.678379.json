@@ -1,0 +1,786 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.24.678379",
+  "title": "It’s Not Always Crystal Clear: In-Pocket Analysis for Understanding Binding Site Microenvironment Properties",
+  "doi": "10.1101/2025.09.24.678379",
+  "abstract": "Structural biology enabled key advances in biochemistry, drug discovery, and AI-driven three-dimensional structure modelling. Despite its importance, reliable and general computational tools for chemical validation of structural models remain limited, especially when small-molecule ligands are involved. This challenge is exacerbated when experimental resolution is insufficient to define interaction chemistry, leaving critical interpretations ambiguous. We introduce In-Pocket, a quantum mechanical optimisation method biased by experimental data that evaluates the chemical nature of protein-ligand binding interfaces. In-Pocket improves model quality, corrects chemically inconsistent structures, and identifies the energetically most favourable ligand-conformers within biomacromolecular complexes. The approach is generally applicable to a wide range of systems, including those containing transition metals. Benchmarking demonstrates that In-Pocket enhances the reliability of legacy and newly solved structures. With automated, user-friendly routine chemical validation, In-Pocket offers unique opportunities to improve the integrity of structural databases and impact diverse domains: from molecular biology to rational drug design and application of generative AI.",
+  "authors": [
+    "Filipe Menezes",
+    "Tony Fröhlich",
+    "Lucy C. Schofield",
+    "Julian Cremer",
+    "Jon Agirre",
+    "Robbie P. Joosten",
+    "Raphael Bourgeas",
+    "Sihyun Sung",
+    "José Antonio Marquez",
+    "Garib Murshudov",
+    "Oliver Plettenburg",
+    "Michael Sattler",
+    "Grzegorz M. Popowicz"
+  ],
+  "published_date": "2025-09-27",
+  "updated_date": "2025-09-27T22:45:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.24.678379",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.24.678379.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2026-02-07T10:49:41Z",
+        "timestamp": 1770461381331,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 53,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                27
+              ]
+            ],
+            "date-time": "2025-09-27T00:00:00Z",
+            "timestamp": 1758931200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002347",
+          "name": "Bundesministerium für Bildung und Forschung",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "031L0268"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "031L0268"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002347",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002347",
+          "name": "Bundesministerium für Bildung und Forschung",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "03DPS1234"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "03DPS1234"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002347",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100021130",
+          "name": "Bundesministerium für Wirtschaft und Klimaschutz",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "KK5710001BA4"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "KK5710001BA4"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100021130",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001659",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "CRC387"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CRC387"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001659",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Structural biology enabled key advances in biochemistry, drug discovery, and AI-driven three-dimensional structure modelling. Despite its importance, reliable and general computational tools for chemical validation of structural models remain limited, especially when small-molecule ligands are involved. This challenge is exacerbated when experimental resolution is insufficient to define interaction chemistry, leaving critical interpretations ambiguous. We introduce In-Pocket, a quantum mechanical optimisation method biased by experimental data that evaluates the chemical nature of protein-ligand binding interfaces. In-Pocket improves model quality, corrects chemically inconsistent structures, and identifies the energetically most favourable ligand-conformers within biomacromolecular complexes. The approach is generally applicable to a wide range of systems, including those containing transition metals. Benchmarking demonstrates that In-Pocket enhances the reliability of legacy and newly solved structures. With automated, user-friendly routine chemical validation, In-Pocket offers unique opportunities to improve the integrity of structural databases and impact diverse domains: from molecular biology to rational drug design and application of generative AI.</jats:p>",
+      "DOI": "10.1101/2025.09.24.678379",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            27
+          ]
+        ],
+        "date-time": "2025-09-27T22:45:13Z",
+        "timestamp": 1759013113000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "It’s Not Always Crystal Clear: In-Pocket Analysis for Understanding Binding Site Microenvironment Properties"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7630-5447",
+          "authenticated-orcid": false,
+          "given": "Filipe",
+          "family": "Menezes",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            },
+            {
+              "name": "TUM School of Natural Sciences, Department of Bioscience, Bayerisches NMR Zentrum, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tony",
+          "family": "Fröhlich",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            },
+            {
+              "name": "TUM School of Natural Sciences, Department of Bioscience, Bayerisches NMR Zentrum, Technical University of Munich, Garching, Germany"
+            },
+            {
+              "name": "Institute of Medicinal Chemistry, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lucy C.",
+          "family": "Schofield",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "York Structural Biology Laboratory, Department of Chemistry, University of York, York YO10 5DD, England"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6319-7283",
+          "authenticated-orcid": false,
+          "given": "Julian",
+          "family": "Cremer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Machine Learning & Computational Sciences, Pfizer Worldwide R&D, Berlin, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1086-0253",
+          "authenticated-orcid": false,
+          "given": "Jon",
+          "family": "Agirre",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "York Structural Biology Laboratory, Department of Chemistry, University of York, York YO10 5DD, England"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2323-2686",
+          "authenticated-orcid": false,
+          "given": "Robbie P.",
+          "family": "Joosten",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, Netherlands Cancer Institute, Amsterdam, the Netherlands"
+            },
+            {
+              "name": "Oncode Institute, the Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8564-6155",
+          "authenticated-orcid": false,
+          "given": "Raphael",
+          "family": "Bourgeas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "European Molecular Biology Laboratory, EMBL Grenoble, 71 avenue des Martyrs, 9018 38042 Grenoble, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5820-4696",
+          "authenticated-orcid": false,
+          "given": "Sihyun",
+          "family": "Sung",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "European Molecular Biology Laboratory, EMBL Grenoble, 71 avenue des Martyrs, 9018 38042 Grenoble, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3453-9261",
+          "authenticated-orcid": false,
+          "given": "José Antonio",
+          "family": "Marquez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "European Molecular Biology Laboratory, EMBL Grenoble, 71 avenue des Martyrs, 9018 38042 Grenoble, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6483-3587",
+          "authenticated-orcid": false,
+          "given": "Garib",
+          "family": "Murshudov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Studies Division, MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9671-278X",
+          "authenticated-orcid": false,
+          "given": "Oliver",
+          "family": "Plettenburg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Medicinal Chemistry, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            },
+            {
+              "name": "Institute of Organic Chemistry, Center of Biomolecular Drug Research (BMWZ) and Laboratory for Quantum and Nano Engineering (LNQE), Leibniz Universität Hannover, Hannover, Germany"
+            },
+            {
+              "name": "Institute for Lung Health (ILH), Giessen, Germany"
+            },
+            {
+              "name": "German Center for Diabetes Research (DZD), Neuherberg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1594-0527",
+          "authenticated-orcid": false,
+          "given": "Michael",
+          "family": "Sattler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            },
+            {
+              "name": "TUM School of Natural Sciences, Department of Bioscience, Bayerisches NMR Zentrum, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2818-7498",
+          "authenticated-orcid": false,
+          "given": "Grzegorz M.",
+          "family": "Popowicz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany"
+            },
+            {
+              "name": "TUM School of Natural Sciences, Department of Bioscience, Bayerisches NMR Zentrum, Technical University of Munich, Garching, Germany"
+            },
+            {
+              "name": "Khumbu.Ai GmbH"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky949"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adl2528"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14119"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1251652"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/s2059798316017964"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444998012645"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-024-00627-2"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.10",
+          "unstructured": "NIST Computational Chemistry Comparison and Benchmark Database, NIST Standard Reference Database Number 101 Release 22, May 2022, Editor: Russell D. Johnson III http://cccbdb.nist.gov/."
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11224-007-9186-6"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.6b00306"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/s2059798323002413"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/s2059798321009475"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-021-00195-4"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi2008382"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.2c01887"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1806797115"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.19",
+          "unstructured": "https://github.com/project-gemmi/gemmi."
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2052252514009324"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AAC.00123-20"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-10363-1"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.09.006"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0025365"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0094177"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798324011458"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21838"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030563w"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444904033669"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.062343206"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00894-008-0420-y"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202427399"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1758-2946-3-33"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.34",
+          "unstructured": "RDKit: Open-source cheminformatics. https://www.rdkit.org."
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00757"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3791/62491"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798323003595"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejmech.2021.114054"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bmcl.2010.04.069"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14348/molcells.2018.2219"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04467-w"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9SC01818B"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18632/oncotarget.10037"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja044885g"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(96)00031-7"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3330"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq453"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909018885"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aal1807"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910005494"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1208341109"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.47839"
+        },
+        {
+          "key": "2026020608592210000_2025.09.24.678379v4.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-020-0442-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.24.678379",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T16:59:31Z",
+        "timestamp": 1770397171000
+      },
+      "score": 78.0003,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.24.678379"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            27
+          ]
+        ]
+      },
+      "references-count": 53,
+      "URL": "https://doi.org/10.1101/2025.09.24.678379",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "41566703",
+    "doi": "10.1021/acs.jcim.5c02637",
+    "title": "DeepDBPI: DNA-Binding Protein Identifier Using a Deep Learning Model with Transformed Denoised Features."
+  },
+  "content": {
+    "abstract": "Motivation: DNA-binding proteins (DBPs) play a significant role in the entire biological system. Many DNA-related studies actively investigate to understand whether a protein binds to DNA. Conventionally, wet-lab experiments are conducted to characterize DBP functions. However, these methods are often expensive and time-intensive. With the rapid advancement of bioinformatics, there is a growing demand for efficient computational protocols to predict DBPs. Several sequence-based computational tools have been designed to predict DBPs; however, research gaps persist for further improvement. Method: We developed a novel deep learning (DL)-based predictor, called DeepDBPI, for enhancing DBP prediction. The proposed DeepDBPI model leverages the evolutionary and graphical-based properties of protein sequences using novel descriptors, namely covariance correlation-based position-specific scoring matrix (CC-PSSM), binary-profile-based (BP-PSSM), Trigram (TRG-PSSM), and feature encoding based on graphical and statistical (FEGS) methods. Then, we applied the wavelet denoising (WD) algorithm to remove the noise from sequence-derived features. We fed the filtered features to ResNet, LSTM, BiLSTM, RNN, BiRNN, and BiGRU. Results: The DeepDBPI model achieved the best prediction performance with Bi-GRU using the denoised-based FEGS encoding method under 5-fold cross-validation, evaluated by ACC, SN, SP, and MCC. Our proposed model achieved 92.13% ACC, 93.07% SN, 91.19% SP, and 0.8427 MCC on the independent test. We believe the effectiveness of the developed bioinformatics protocol provides insights for drug discovery and other proteomic problems. All data, including the dataset, feature extraction techniques, and models, are available at: https://doi.org/10.5281/zenodo.17496063.",
+    "keywords": [
+      "BiGRU",
+      "DNA-binding proteins",
+      "Deep learning",
+      "FEGS",
+      "PSSM"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Computational Biology/methods",
+      "DNA/metabolism",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arshad, Kamran",
+        "Arif, Muhammad",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Arshad K",
+        "Arif M",
+        "Yu DJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0941-0999",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China.",
+        "College of Science and Engineering, Hammad Bin Khalefa University, Doha 34110, Qatar.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arshad, Kamran",
+        "short_name": "Arshad K",
+        "identifiers": [
+          "0009-0006-0941-0999"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      },
+      {
+        "full_name": "Arif, Muhammad",
+        "short_name": "Arif M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science and Engineering, Hammad Bin Khalefa University, Doha 34110, Qatar."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Feb 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/22 07:43",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41566703",
+      "35378437",
+      "38316843",
+      "35447463",
+      "36211019",
+      "33267753",
+      "31123959",
+      "36744119",
+      "33238837",
+      "25708928",
+      "31027046",
+      "41162940",
+      "40439671",
+      "30032213",
+      "37651627",
+      "33780341",
+      "39215231",
+      "39043738",
+      "38986796",
+      "35943134",
+      "41172803",
+      "38580921",
+      "34291709",
+      "36719781",
+      "28851273",
+      "39173785",
+      "36416116",
+      "38747369",
+      "32144887",
+      "39514139",
+      "40121399",
+      "32949607",
+      "39098908",
+      "33986992",
+      "39270885",
+      "22868682",
+      "39695955",
+      "34571539",
+      "28961273",
+      "38491248",
+      "35652477",
+      "19091029",
+      "31725778",
+      "24475169",
+      "37459792",
+      "39423981",
+      "31874633",
+      "34073774",
+      "36427763",
+      "38903752",
+      "37437362",
+      "41168713",
+      "40209920",
+      "28606086",
+      "33617347",
+      "38856168",
+      "40613943",
+      "34932484",
+      "23282098",
+      "42374910",
+      "27565741",
+      "40386224",
+      "34176069",
+      "32920048",
+      "33837387",
+      "39905861",
+      "38871095",
+      "33410688",
+      "41686649",
+      "31693872",
+      "40820010",
+      "28764874",
+      "21342579",
+      "35799660",
+      "35242211",
+      "36328750",
+      "35421797",
+      "40302345",
+      "30813451",
+      "28841194",
+      "32300371",
+      "34078264",
+      "23747746",
+      "39214282",
+      "36403092",
+      "42380674",
+      "34749096",
+      "22574904",
+      "15720719",
+      "42377576",
+      "29753757",
+      "39060345",
+      "31472418",
+      "30668479",
+      "38830995",
+      "19594868",
+      "29989064",
+      "40238838",
+      "31621050",
+      "38295475"
+    ],
+    "review": [
+      "41566703",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02637",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

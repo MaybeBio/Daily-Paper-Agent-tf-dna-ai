@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "38323915",
+    "doi": "10.1021/acs.jpcb.3c06516",
+    "title": "Addressing Suboptimal Poses in Nonequilibrium Alchemical Calculations."
+  },
+  "content": {
+    "abstract": "Alchemical transformations can be used to quantitatively estimate absolute binding free energies at a reasonable computational cost. However, most of the approaches currently in use require knowledge of the correct (crystallographic) pose. In this paper, we present a combined Hamiltonian replica exchange nonequilibrium alchemical method that allows us to reliably calculate absolute binding free energies, even when starting from suboptimal initial binding poses. Performing a preliminary Hamiltonian replica exchange enhances the sampling of slow degrees of freedom of the ligand and the target, allowing the system to populate the correct binding pose when starting from an approximate docking pose. We apply the method on 6 ligands of the first bromodomain of the BRD4 bromodomain-containing protein. For each ligand, we start nonequilibrium alchemical transformations from both the crystallographic pose and the top-scoring docked pose that are often significantly different. We show that the method produces statistically equivalent binding free energies, making it a useful tool for computational drug discovery pipelines.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "Thermodynamics",
+      "*Molecular Dynamics Simulation",
+      "Ligands",
+      "*Nuclear Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karrenbrock, Maurice",
+        "Rizzi, Valerio",
+        "Procacci, Piero",
+        "Gervasio, Francesco Luigi"
+      ],
+      "short_names": [
+        "Karrenbrock M",
+        "Rizzi V",
+        "Procacci P",
+        "Gervasio FL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1280-8464",
+        "ORCID: 0000-0001-5126-8996",
+        "ORCID: 0000-0003-2667-3847",
+        "ORCID: 0000-0003-4831-5039"
+      ],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland.",
+        "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland.",
+        "Chemistry Department, University of Florence, Via della Lastruccia 3-13, 50019 Sesto Fiorentino, Italy.",
+        "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland.",
+        "Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CH-1206 Geneva, Switzerland.",
+        "Chemistry Department, University College London (UCL), WC1E 6BT London, U.K.",
+        "Swiss Bioinformatics Institute, University of Geneva, CH-1206 Geneva, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karrenbrock, Maurice",
+        "short_name": "Karrenbrock M",
+        "identifiers": [
+          "0000-0003-1280-8464"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Rizzi, Valerio",
+        "short_name": "Rizzi V",
+        "identifiers": [
+          "0000-0001-5126-8996"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Procacci, Piero",
+        "short_name": "Procacci P",
+        "identifiers": [
+          "0000-0003-2667-3847"
+        ],
+        "affiliations": [
+          "Chemistry Department, University of Florence, Via della Lastruccia 3-13, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Gervasio, Francesco Luigi",
+        "short_name": "Gervasio FL",
+        "identifiers": [
+          "0000-0003-4831-5039"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, University of Geneva, Rue Michel-Servet 1, CH-1206 Geneva, Switzerland.",
+          "Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CH-1206 Geneva, Switzerland.",
+          "Chemistry Department, University College London (UCL), WC1E 6BT London, U.K.",
+          "Swiss Bioinformatics Institute, University of Geneva, CH-1206 Geneva, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Feb 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/07 12:44",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [
+      "39302888"
+    ],
+    "refs": [],
+    "similar": [
+      "38323915",
+      "35653503",
+      "29486559",
+      "33037549",
+      "27984798",
+      "26085821",
+      "38538531",
+      "35258972",
+      "29112430",
+      "28564537",
+      "30253098",
+      "33905257",
+      "35266690",
+      "37450482",
+      "35889299",
+      "37285579",
+      "23267463",
+      "28992706",
+      "33220532",
+      "33090785",
+      "34978000",
+      "24297454",
+      "32449538",
+      "35352744",
+      "36222107",
+      "31621932",
+      "29594774",
+      "37902715",
+      "31984465",
+      "37862058",
+      "34990555",
+      "31396905",
+      "35293737",
+      "37531558",
+      "21684797",
+      "30411639",
+      "27193181",
+      "39331379",
+      "31397498",
+      "39302888",
+      "28600826",
+      "25266271",
+      "35490003",
+      "38291966",
+      "28884249",
+      "37948537",
+      "36853624",
+      "22350568",
+      "37831619",
+      "39468848",
+      "32427471",
+      "28024402",
+      "30327139",
+      "32968887",
+      "27485604",
+      "32936637",
+      "33441879",
+      "30218199",
+      "30324304",
+      "36459593",
+      "33443434",
+      "31894691",
+      "29134431",
+      "30404450",
+      "31691920",
+      "32869148",
+      "36401553",
+      "31575187",
+      "22125475",
+      "37570684",
+      "27696242",
+      "27494802",
+      "36945557",
+      "35255214",
+      "24504704",
+      "28185549",
+      "29119352",
+      "28902511",
+      "38568961",
+      "25906170",
+      "34978001",
+      "34516130",
+      "37042797",
+      "36878475",
+      "32277315",
+      "25160060",
+      "32539386",
+      "24881672",
+      "32786707",
+      "31560539",
+      "21303099",
+      "27070865",
+      "29052792",
+      "28510433",
+      "28466681",
+      "40136079",
+      "31624982",
+      "27092480",
+      "37167486",
+      "32101691"
+    ],
+    "review": [
+      "38323915",
+      "33220532",
+      "37902715"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c06516",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

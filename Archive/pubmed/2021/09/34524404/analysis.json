@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34524404",
+  "title": "DeepMotifSyn: a deep learning approach to synthesize heterodimeric DNA motifs.",
+  "authors": "Lin, Jiecong; Huang, Lei; Chen, Xingjian; Zhang, Shixiong; Wong, Ka-Chun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-09-16",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用U-Net深度学习模型从单体基序对合成异二聚体TF-DNA基序，聚焦TF协同结合位点预测，与课题高度匹配。",
+  "abstract": "The cooperativity of transcription factors (TFs) is a widespread phenomenon in the gene regulation system. However, the interaction patterns between TF binding motifs remain elusive. The recent high-throughput assays, CAP-SELEX, have identified over 600 composite DNA sites (i.e. heterodimeric motifs) bound by cooperative TF pairs. However, there are over 25 000 inferentially effective heterodimeric TFs in the human cells. It is not practically feasible to validate all heterodimeric motifs due to cost and labor. We introduce DeepMotifSyn, a deep learning-based tool for synthesizing heterodimeric motifs from monomeric motif pairs. Specifically, DeepMotifSyn is composed of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that can synthesize heterodimeric motifs from aligned motif pairs. The evaluator is a machine learning-based model that can score the generated heterodimeric motif candidates based on the motif sequence features. Systematic evaluations on CAP-SELEX data illustrate that DeepMotifSyn significantly outperforms the current state-of-the-art predictors. In addition, DeepMotifSyn can synthesize multiple heterodimeric motifs with different orientation and spacing settings. Such a feature can address the shortcomings of previous models. We believe DeepMotifSyn is a more practical and reliable model than current predictors on heterodimeric motif synthesis. Contact:kc.w@cityu.edu.hk.",
+  "abstract_zh": "转录因子（TFs）的协同性在基因调控系统中是一种普遍现象。然而，TF结合基序之间的相互作用模式仍不明确。最近的高通量检测方法CAP-SELEX已识别出超过600个由协同TF对结合的复合DNA位点（即异二聚体基序）。然而，人类细胞中推断有效的异二聚体TF超过25,000个。由于成本和人力限制，验证所有异二聚体基序在实际中不可行。我们引入了DeepMotifSyn，一种基于深度学习的方法，用于从单体基序对合成异二聚体基序。具体而言，DeepMotifSyn由异二聚体基序生成器和评估器组成。生成器是一个基于U-Net的神经网络，能够从对齐的基序对合成异二聚体基序。评估器是一个基于机器学习的模型，能够根据基序序列特征对生成的异二聚体基序候选进行评分。对CAP-SELEX数据的系统评估表明，DeepMotifSyn显著优于当前最先进的预测器。此外，DeepMotifSyn能够合成具有不同方向和间距设置的多种异二聚体基序。这一特性可以弥补先前模型的不足。我们相信，在异二聚体基序合成方面，DeepMotifSyn比当前预测器更实用且更可靠。联系方式：kc.w@cityu.edu.hk。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34524404/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34524404/",
+  "paper_page_path": "papers/pubmed/34524404/index.html"
+}

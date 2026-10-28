@@ -1,0 +1,37 @@
+{
+  "source": "arxiv",
+  "source_id": "2310.15202v2",
+  "title": "Predicting Transcription Factor Binding Sites using Transformer based Capsule Network",
+  "doi": "",
+  "abstract": "Prediction of binding sites for transcription factors is important to understand how they regulate gene expression and how this regulation can be modulated for therapeutic purposes. Although in the past few years there are significant works addressing this issue, there is still space for improvement. In this regard, a transformer based capsule network viz. DNABERT-Cap is proposed in this work to predict transcription factor binding sites mining ChIP-seq datasets. DNABERT-Cap is a bidirectional encoder pre-trained with large number of genomic DNA sequences, empowered with a capsule layer responsible for the final prediction. The proposed model builds a predictor for transcription factor binding sites using the joint optimisation of features encompassing both bidirectional encoder and capsule layer, along with convolutional and bidirectional long-short term memory layers. To evaluate the efficiency of the proposed approach, we use a benchmark ChIP-seq datasets of five cell lines viz. A549, GM12878, Hep-G2, H1-hESC and Hela, available in the ENCODE repository. The results show that the average area under the receiver operating characteristic curve score exceeds 0.91 for all such five cell lines. DNABERT-Cap is also compared with existing state-of-the-art deep learning based predictors viz. DeepARC, DeepTF, CNN-Zeng and DeepBind, and is seen to outperform them.",
+  "authors": [
+    "Nimisha Ghosh",
+    "Daniele Santoni",
+    "Indrajit Saha",
+    "Giovanni Felici"
+  ],
+  "published_date": "2023-10-23T09:08:57Z",
+  "updated_date": "2023-12-28T18:25:20Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.AI, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2310.15202v2",
+  "pdf_url": "https://arxiv.org/pdf/2310.15202v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.GN",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2310.15202v2",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

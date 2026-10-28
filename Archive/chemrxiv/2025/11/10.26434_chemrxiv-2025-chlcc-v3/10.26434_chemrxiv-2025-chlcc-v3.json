@@ -1,0 +1,240 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-chlcc-v3",
+  "title": "Machine-Learning Adaptivity, DFT-Level Accuracy, and Semi-Empirical Quantum-Chemistry Speed with Neural-Network Extended Tight-Binding",
+  "doi": "10.26434/chemrxiv-2025-chlcc-v3",
+  "abstract": "Fast, general, and interpretable quantum accuracy remains a challenge. To address it, we introduce Neural Network Extended Tight-Binding (NN-xTB), a Hamiltonian-preserving scheme that augments the GFN2-xTB operator with small, bounded, environment-dependent shifts to a compact set of physically interpretable parameters predicted by neural network. NN-xTB confines learning to atom/shell local parameters and to a few global scalings, enhancing local chemical adaptivity while preserving analytic long-range limits, native charge and spin treatment, and self-consistency, and ensuring that all observables are derived from a single adapted electronic state. Across complementary benchmarks, NN-xTB attains DFT-like accuracy at near-xTB cost. On GMTKN55 it achieves a WTMAD-2 of 4 kcal/mol (versus 25 kcal/mol for GFN2-xTB and 9.3 kcal/mol for g-xTB). Relative to strong equivariant machine-learned interatomic potentials (MLIPs), NN-xTB yields the lowest force MAE on eight out of ten rMD17 molecules and delivers 10-40% RMSE reductions on large subsets of MACEOFF23 and SPICE. Under temperature shift on the 3BPA dataset, errors remain substantially below competing MLIPs up to 1200 K, indicating stronger out-of-distribution generalization. On VQM24, the vibrational-frequency MAE drops from 200.6 cm^{-1} (GFN2-xTB) to 12.7 cm^{-1} (more than 90% reduction). The neural component adds less than 20% wall-time overhead, preserving the throughput that motivates semi-empirical quantum methods. By adapting the Hamiltonian rather than directly regressing energies or forces, NN-xTB bridges much of the accuracy gap to DFT while retaining interpretability, correct asymptotics, and robustness, offering a practical route to quantum-accurate molecular simulation and modeling at scale.",
+  "authors": [
+    "Yufan Xia",
+    "Albert Thie",
+    "Joshua Soon",
+    "Giuseppe Maria Junior Barca"
+  ],
+  "published_date": "2025-11-17",
+  "updated_date": "2025-11-17T11:45:46Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-chlcc-v3",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-chlcc-v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "3",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T10:47:02Z",
+        "timestamp": 1785408422382,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                17
+              ]
+            ],
+            "date-time": "2025-11-17T00:00:00Z",
+            "timestamp": 1763337600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Fast, general, and interpretable quantum accuracy remains a challenge. To address it, we introduce Neural Network Extended Tight-Binding (NN-xTB), a Hamiltonian-preserving scheme that augments the GFN2-xTB operator with small, bounded, environment-dependent shifts to a compact set of physically interpretable parameters predicted by neural network. NN-xTB confines learning to atom/shell local parameters and to a few global scalings, enhancing local chemical adaptivity while preserving analytic long-range limits, native charge and spin treatment, and self-consistency, and ensuring that all observables are derived from a single adapted electronic state.            Across complementary benchmarks, NN-xTB attains DFT-like accuracy at near-xTB cost. On GMTKN55 it achieves a WTMAD-2 of 4 kcal/mol (versus 25 kcal/mol for GFN2-xTB and 9.3 kcal/mol for g-xTB). Relative to strong equivariant machine-learned interatomic potentials (MLIPs), NN-xTB yields the lowest force MAE on eight out of ten rMD17 molecules and delivers 10-40% RMSE reductions on large subsets of MACEOFF23 and SPICE. Under temperature shift on the 3BPA dataset, errors remain substantially below competing MLIPs up to 1200 K, indicating stronger out-of-distribution generalization. On VQM24, the vibrational-frequency MAE drops from 200.6 cm^{-1} (GFN2-xTB) to 12.7 cm^{-1} (more than 90% reduction). The neural component adds less than 20% wall-time overhead, preserving the throughput that motivates semi-empirical quantum methods.            By adapting the Hamiltonian rather than directly regressing energies or forces, NN-xTB bridges much of the accuracy gap to DFT while retaining interpretability, correct asymptotics, and robustness, offering a practical route to quantum-accurate molecular simulation and modeling at scale.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-chlcc-v3",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2025-11-17T11:45:46Z",
+        "timestamp": 1763379946000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Machine-Learning Adaptivity, DFT-Level Accuracy, and Semi-Empirical Quantum-Chemistry Speed with Neural-Network Extended Tight-Binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Yufan",
+          "family": "Xia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "QDX Technologies"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0978-4588",
+          "authenticated-orcid": false,
+          "given": "Albert",
+          "family": "Thie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "QDX"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua",
+          "family": "Soon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "QDX"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5109-4279",
+          "authenticated-orcid": false,
+          "given": "Giuseppe Maria Junior",
+          "family": "Barca",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/019wvm592",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Australian National University",
+              "place": [
+                "Australia"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02bfwt286",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Monash University",
+              "place": [
+                "Australia"
+              ]
+            },
+            {
+              "name": "QDX Technologies"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-chlcc-v3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:13:21Z",
+        "timestamp": 1778753601000
+      },
+      "score": 115.54527,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-chlcc-v3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-chlcc-v3",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

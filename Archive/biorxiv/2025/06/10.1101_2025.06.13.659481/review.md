@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, materials and methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and internal consistency of the provided manuscript text only. Figures, tables, and supplementary information referenced but not provided are outside the assessment boundary.
+- **Shared manuscript claim summary** The authors claim that continuous wave EPR spectroscopy with site-directed spin labeling can resolve domain-specific dissociation dynamics of the MAX:MAX homodimer and MAX:MAX-DNA trimer. They report a sequential unfolding pathway in the DNA-free state (NTD, then HLH, then LZ), a cooperative all-or-none transition in the DNA-bound state, and that a BRCA1 fragment (residues 219-504) facilitates dissociation by selectively destabilizing DNA contacts in the NTD and HLH regions without perturbing the LZ.
+- **Visible evidence base** Text descriptions of EPR spectra and fitting results, reported T_c values, reference to Supporting Information Figures S1-S4 and S5-S13, reference to NMR control experiments (Figure S1), reference to Script S1 for spectral fitting
+- **Missing materials affecting confidence** All figures (Fig. 1-4), all tables (Table 1), all Supporting Information figures and scripts, raw EPR spectra, NMR spectra, and experimental details regarding sample conditions for EPR measurements beyond buffer composition
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of CW EPR spectroscopy to study protein-DNA dissociation mechanisms with domain-level resolution. The conceptual framework is appealing and the biological question is relevant. However, the provided text does not contain sufficient quantitative data presentation to evaluate the robustness of the spectral fitting, the statistical significance of the reported T_c differences, or the validity of the mechanistic interpretations. The central claims regarding cooperative melting and BRCA1-mediated facilitated dissociation rest on temperature shifts that are described qualitatively in the text but cannot be verified from the supplied material. The manuscript would benefit from clearer presentation of the fitting methodology, error analysis, and control experiments.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dynamics, protein-DNA interactions, and facilitated dissociation mechanisms would find these results relevant. The methodological community interested in EPR applications to biomolecular systems would also be interested. The work may appeal to those studying MYC-associated regulatory networks given the involvement of MAX and BRCA1.
+- **Major strengths** The application of CW EPR to resolve domain-specific dissociation events is methodologically distinctive. The use of multiple spin label positions to probe different domains is a sound strategy. The comparison between DNA-free and DNA-bound states provides an internal control for the effect of DNA binding. The inclusion of a competitor protein (BRCA1) to test facilitated dissociation adds biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of data analysis
+  - **Claim pointer** The authors claim that a two-component spectral model provides a minimal and robust fit to the EPR data and that single-component models failed to reproduce the observed features.
+  - **Evidence pointer** Results section, "Sequential unfolding of MAX" paragraph; Figure 2C referenced but not provided
+  - **Concern** The manuscript states that two-component models were required but provides no quantitative assessment of fit quality, no comparison metrics between single and two-component fits, and no error analysis for the extracted parameters. The rotational correlation times are reported to three significant figures without associated uncertainties. The criteria for determining that a two-component model is "minimal and robust" are not stated.
+  - **Why it matters** The entire interpretation of domain-specific dissociation rests on the ability to distinguish and quantify two spectral components. Without demonstrated statistical justification for the two-component model over alternatives, the derived T_c values and their interpretation are not securely grounded.
+  - **Resolution test** Provide quantitative fit quality metrics (e.g., reduced chi-squared values) for single versus two-component models, report uncertainties on all fitted parameters, and describe the model selection criteria used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claims
+  - **Claim pointer** The authors claim that DNA binding reorganizes the dissociation process into a cooperative all-or-none transition, wherein destabilization of the LZ triggers concerted collapse of the entire trimeric MAX:MAX-DNA complex.
+  - **Evidence pointer** Results section, "DNA Binding Shifts the Dissociation Profile of MAX Toward Cooperative Melting" paragraph; Figures 3B and 4 referenced but not provided
+  - **Concern** The claim of cooperativity is based on the observation that all three spin labels show a transition at approximately 322 K in the DNA-bound state. However, the text does not provide quantitative measures of cooperativity, such as van't Hoff analysis, comparison of transition widths, or statistical tests demonstrating that the three transition temperatures are not significantly different. The assertion that LZ destabilization "triggers" the collapse implies causality that correlation of transition temperatures cannot establish.
+  - **Why it matters** The cooperative transition is a central mechanistic finding of the paper. Without quantitative evidence that the transitions are truly simultaneous and that LZ destabilization is the initiating event, the mechanistic model is not established.
+  - **Resolution test** Provide statistical comparison of T_c values across the three labels in the DNA-bound state, report transition widths or Hill coefficients, and discuss whether the data can distinguish between a truly cooperative transition and coincidental overlap of independent transitions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for facilitated dissociation claim
+  - **Claim pointer** The authors claim that BRCA1 219-504 facilitates dissociation by selectively destabilizing DNA contacts in the NTD and HLH regions, without perturbing the LZ, and that this represents direct evidence of facilitated dissociation.
+  - **Evidence pointer** Results section, "BRCA1 Facilitates Dissociation by Destabilizing the DNA-Bound Complex" paragraph; Figures 3C and 4 referenced but not provided
+  - **Concern** The text reports that BRCA1 reduces the DNA-induced stabilization effect, with T_c of R5C elevated by approximately 8 K with EBOX DNA alone but only approximately 4 K with BRCA1 present. However, no error bars, replicate numbers, or statistical significance tests are reported. The claim that BRCA1 does not perturb the LZ is based on the observation that R55C "remained unaffected," but no quantitative data are provided. The mechanistic interpretation that BRCA1 competes for DNA binding is presented without direct binding data.
+  - **Why it matters** The facilitated dissociation mechanism is the most novel biological claim of the manuscript. The evidence presented in the text is insufficient to distinguish between BRCA1 competing for DNA binding, BRCA1 allosterically destabilizing the DNA-bound state, or experimental variability.
+  - **Resolution test** Provide replicate measurements with error bars, statistical tests for the T_c differences, direct binding assays for BRCA1-DNA interaction, and quantitative comparison of R55C behavior with and without BRCA1.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that the observed EPR spectral changes reflect domain-specific unfolding or dissociation events and that the T_c values correspond to the stability of individual MAX domains.
+  - **Evidence pointer** Results section, "Sequential unfolding of MAX" paragraph; NMR control experiments referenced as Supporting Information Figure S1
+  - **Concern** The interpretation of T_c as a domain stability measure assumes that the spin label mobility reports specifically on local unfolding rather than global tumbling or other non-specific effects. The manuscript mentions NMR control experiments but provides no description of what was measured, what was compared, or what conclusions were drawn. The relationship between spin label mobility and domain unfolding is asserted rather than demonstrated.
+  - **Why it matters** The domain-resolved interpretation is the core methodological claim. If the EPR spectral changes reflect global protein dynamics rather than domain-specific events, the entire mechanistic model would need revision.
+  - **Resolution test** Provide a detailed description of the NMR control experiments and their results, discuss how spin label mobility was calibrated to domain unfolding, and address potential contributions from global tumbling or aggregation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Materials and methods, EPR section
+  - **Evidence pointer** Materials and methods, "EPR" paragraph
+  - **Issue** The EPR measurement conditions are incompletely described. The buffer composition is stated as MES buffer but pH and ionic strength are not specified for the EPR samples. The protein concentration is given as 100 micromolar but the DNA concentration in the trimer experiments is not stated.
+  - **Required correction** Specify buffer composition, pH, and ionic strength for all EPR samples. State the DNA concentration used in the MAX:MAX-DNA experiments and the BRCA1 concentration in the three-component experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of fitting description
+  - **Affected element** Materials and methods, Simulations and Data Fitting section
+  - **Evidence pointer** Materials and methods, "Simulations and Data Fitting" paragraph
+  - **Issue** The sigmoidal function used to fit the temperature dependence of the spectral weights is not shown. The equation is referenced but the actual functional form is missing from the text.
+  - **Required correction** Provide the explicit equation for the sigmoidal function used in the fitting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, "Here, we employ continuous wave electron paramagnetic resonance" and Results, "we conducted temperature-dependent CW EPR spectroscopy"
+  - **Issue** The abstract describes the dissociation process as "stepwise" in the DNA-free state, while the Results section describes it as "sequential." The Discussion uses both terms. Consistent terminology would improve clarity.
+  - **Required correction** Use consistent terminology throughout the manuscript to describe the dissociation pathway.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of T_c values
+  - **Affected element** Results, "Sequential unfolding of MAX" paragraph
+  - **Evidence pointer** Results, "The corresponding temperatures T c are shown in the bar chart in Fig. 4 and listed Table 1"
+  - **Issue** The text states that T_c values correspond to the temperature at which fast and slow components become equally populated. However, the interpretation of these values as domain stability measures is presented without discussion of potential systematic offsets or calibration.
+  - **Required correction** Briefly discuss the relationship between T_c and thermodynamic stability, and acknowledge any assumptions in this interpretation.
+
+## Risk / unsupported claims
+- The claim that DNA binding induces a cooperative all-or-none transition is not quantitatively supported in the provided text. No measures of cooperativity or statistical comparisons are presented.
+- The claim that BRCA1 facilitates dissociation via competitive DNA binding is presented without direct binding data or alternative mechanism exclusion.
+- The claim that the observed T_c values correspond to domain stability is asserted without calibration or validation beyond a brief reference to unreported NMR controls.
+- The statement that the mutations "do not perturb dimerization or ligand binding" is referenced to prior work but no data are shown in this manuscript.
+- The claim that EPR spectroscopy offers resolution "not achievable with other techniques" is overstated given that the manuscript does not compare EPR results to those from other methods beyond a brief mention of NMR controls.
+- The assertion that BRCA1 "selectively destabilizes DNA contacts in the NTD and HLH regions" is based on T_c shifts that are described qualitatively without statistical support.
+- The claim of "direct evidence" of facilitated dissociation is not supported by the evidence presented in the text, which is indirect and based on thermal stability shifts.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34233610",
+  "title": "DeepHBV: a deep learning model to predict hepatitis B virus (HBV) integration sites.",
+  "authors": "Wu, Canbiao; Guo, Xiaofang; Li, Mengyuan; Shen, Jingxian; Fu, Xiayu; Xie, Qingyu; Hou, Zeliang; Zhai, Manman; Qiu, Xiaofan; Cui, Zifeng; Xie, Hongxian; Qin, Pengmin; Weng, Xuchu; Hu, Zheng; Liang, Jiuxing",
+  "journal": "BMC ecology and evolution",
+  "published_date": "2021-07-09",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用注意力深度学习模型预测HBV整合位点，虽涉及转录因子结合位点富集分析，但核心是病毒整合位点预测而非TF-DNA互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "BACKGROUND: The hepatitis B virus (HBV) is one of the main causes of viral hepatitis and liver cancer. HBV integration is one of the key steps in the virus-promoted malignant transformation. RESULTS: An attention-based deep learning model, DeepHBV, was developed to predict HBV integration sites. By learning local genomic features automatically, DeepHBV was trained and tested using HBV integration site data from the dsVIS database. Initially, DeepHBV showed an AUROC of 0.6363 and an AUPR of 0.5471 for the dataset. The integration of genomic features of repeat peaks and TCGA Pan-Cancer peaks significantly improved model performance, with AUROCs of 0.8378 and 0.9430 and AUPRs of 0.7535 and 0.9310, respectively. The transcription factor binding sites (TFBS) were significantly enriched near the genomic positions that were considered. The binding sites of the AR-halfsite, Arnt, Atf1, bHLHE40, bHLHE41, BMAL1, CLOCK, c-Myc, COUP-TFII, E2A, EBF1, Erra, and Foxo3 were highlighted by DeepHBV in both the dsVIS and VISDB datasets, revealing a novel integration preference for HBV. CONCLUSIONS: DeepHBV is a useful tool for predicting HBV integration sites, revealing novel insights into HBV integration-related carcinogenesis.",
+  "abstract_zh": "背景：乙型肝炎病毒（HBV）是病毒性肝炎和肝癌的主要原因之一。HBV整合是病毒促进恶性转化的关键步骤之一。结果：开发了一种基于注意力的深度学习模型DeepHBV，用于预测HBV整合位点。通过自动学习局部基因组特征，DeepHBV使用来自dsVIS数据库的HBV整合位点数据进行了训练和测试。最初，DeepHBV在该数据集上的AUROC为0.6363，AUPR为0.5471。整合重复峰和TCGA泛癌峰的基因组特征显著提升了模型性能，AUROC分别达到0.8378和0.9430，AUPR分别达到0.7535和0.9310。转录因子结合位点（TFBS）在所考虑的基因组位置附近显著富集。DeepHBV在dsVIS和VISDB数据集中均突出了AR-halfsite、Arnt、Atf1、bHLHE40、bHLHE41、BMAL1、CLOCK、c-Myc、COUP-TFII、E2A、EBF1、Erra和Foxo3的结合位点，揭示了HBV的一种新型整合偏好。结论：DeepHBV是预测HBV整合位点的有用工具，为HBV整合相关致癌机制提供了新的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34233610/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34233610/",
+  "paper_page_path": "papers/pubmed/34233610/index.html"
+}

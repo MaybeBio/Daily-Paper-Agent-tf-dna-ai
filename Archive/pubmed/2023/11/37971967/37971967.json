@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "37971967",
+    "doi": "10.1371/journal.pcbi.1011563",
+    "title": "FUN-PROSE: A deep learning approach to predict condition-specific gene expression in fungi."
+  },
+  "content": {
+    "abstract": "mRNA levels of all genes in a genome is a critical piece of information defining the overall state of the cell in a given environmental condition. Being able to reconstruct such condition-specific expression in fungal genomes is particularly important to metabolically engineer these organisms to produce desired chemicals in industrially scalable conditions. Most previous deep learning approaches focused on predicting the average expression levels of a gene based on its promoter sequence, ignoring its variation across different conditions. Here we present FUN-PROSE-a deep learning model trained to predict differential expression of individual genes across various conditions using their promoter sequences and expression levels of all transcription factors. We train and test our model on three fungal species and get the correlation between predicted and observed condition-specific gene expression as high as 0.85. We then interpret our model to extract promoter sequence motifs responsible for variable expression of individual genes. We also carried out input feature importance analysis to connect individual transcription factors to their gene targets. A sizeable fraction of both sequence motifs and TF-gene interactions learned by our model agree with previously known biological information, while the rest corresponds to either novel biological facts or indirect correlations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae/genetics",
+      "Computational Biology",
+      "*Deep Learning",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nambiar, Ananthan",
+        "Dubinkina, Veronika",
+        "Liu, Simon",
+        "Maslov, Sergei"
+      ],
+      "short_names": [
+        "Nambiar A",
+        "Dubinkina V",
+        "Liu S",
+        "Maslov S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9767-9456"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+        "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+        "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+        "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+        "The Gladstone Institute of Data Science and Biotechnology, San Francisco, California, United States of America.",
+        "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+        "Department of Computer Science, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+        "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+        "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+        "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+        "Computing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nambiar, Ananthan",
+        "short_name": "Nambiar A",
+        "identifiers": [
+          "0000-0002-9767-9456"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+          "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dubinkina, Veronika",
+        "short_name": "Dubinkina V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+          "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+          "The Gladstone Institute of Data Science and Biotechnology, San Francisco, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Liu, Simon",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+          "Department of Computer Science, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Maslov, Sergei",
+        "short_name": "Maslov S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+          "Carl R. Woese Institute for Genomic Biology, Urbana, Illinois, United States of America.",
+          "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois, United States of America.",
+          "Computing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/17 15:31",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42656278",
+      "42413033",
+      "41831045",
+      "40402294"
+    ],
+    "refs": [
+      "37744106",
+      "35264797",
+      "34322657",
+      "33692541",
+      "33603233",
+      "33262328",
+      "32675233",
+      "32433972",
+      "32329779",
+      "32181581",
+      "32160258",
+      "32111691",
+      "32060051",
+      "31372637",
+      "30922998",
+      "30073202",
+      "30024981",
+      "29784812",
+      "28802259",
+      "28359978",
+      "27810962",
+      "27104977",
+      "26967285",
+      "24766815",
+      "24686414",
+      "24374639",
+      "24170807",
+      "23089682",
+      "21931670",
+      "21554735",
+      "21295696",
+      "18304934",
+      "18073188",
+      "17324271",
+      "17242366",
+      "16467472",
+      "16317069",
+      "16280626",
+      "15972284",
+      "15649368",
+      "12952525",
+      "12712197",
+      "12455968",
+      "12453218",
+      "12096114",
+      "10022859",
+      "9415887",
+      "9065387"
+    ],
+    "similar": [
+      "37971967",
+      "18769540",
+      "32054475",
+      "16362910",
+      "15113405",
+      "19158363",
+      "26291518",
+      "25041923",
+      "23555806",
+      "16464824",
+      "23368633",
+      "32770026",
+      "19594885",
+      "31985403",
+      "33372147",
+      "19961622",
+      "15287978",
+      "19008939",
+      "20829281",
+      "20238415",
+      "9697188",
+      "33137083",
+      "12946282",
+      "16723008",
+      "17437025",
+      "12399584",
+      "18369443",
+      "34073774",
+      "38980373",
+      "10447593",
+      "15262804",
+      "33904398",
+      "31615113",
+      "38848239",
+      "12054769",
+      "38644393",
+      "33262328",
+      "12490441",
+      "31372637",
+      "12421759",
+      "23674068",
+      "39227799",
+      "26576632",
+      "17241460",
+      "11876822",
+      "17417638",
+      "12775844",
+      "34272562",
+      "37068644",
+      "15331021",
+      "30709337",
+      "16381908",
+      "35927611",
+      "19933262",
+      "40914877",
+      "22189060",
+      "34137374",
+      "41022589",
+      "12376372",
+      "17224918",
+      "32397453",
+      "22393375",
+      "33438713",
+      "20237471",
+      "29462625",
+      "37598467",
+      "33950192",
+      "26679776",
+      "21723826",
+      "22113266",
+      "19959498",
+      "12748633",
+      "25030889",
+      "19652015",
+      "11472992",
+      "20739709",
+      "15773999",
+      "41503157",
+      "32976105",
+      "18305101",
+      "28212748",
+      "23636944",
+      "2677740",
+      "21703335",
+      "17868481",
+      "16362907",
+      "34534646",
+      "41288963",
+      "21942931",
+      "28485712",
+      "8018880",
+      "16899653",
+      "11409177",
+      "17052348",
+      "39679439",
+      "18544606",
+      "41042660",
+      "23950146",
+      "15870279",
+      "24336359"
+    ],
+    "review": [
+      "37971967"
+    ],
+    "pmc": [
+      "10653424"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011563",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37971967/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37971967",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

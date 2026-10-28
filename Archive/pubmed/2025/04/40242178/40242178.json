@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "40242178",
+    "doi": "10.3389/fpsyt.2025.1504699",
+    "title": "Identification of biomarkers related to propionate metabolism in schizophrenia."
+  },
+  "content": {
+    "abstract": "PURPOSE: Schizophrenia (SCZ) is a severe mental disorder with complex etiology. Research shows propionate metabolism is crucial for neurological function and health. This suggests abnormalities in propionate metabolism may link to SCZ. Therefore, identifying biomarkers associated with propionate metabolism might be beneficial for the diagnosis and treatment of SCZ patients. METHODS: SCZ datasets and propionate metabolism-related genes (PMRGs) from public databases were obtained. DE-PMRGs were identified through differential and correlation analysis of PMRGs. Machine learning was used to screen for key genes and validate expression levels, aiming to identify potential biomarkers. Gene Set Enrichment Analysis (GSEA) and immune infiltration analysis were performed on the biomarkers. An upstream regulatory network was constructed, and potential drugs targeting these biomarkers were explored. Finally, real-time fluorescence quantitative PCR (qPCR) was used to verify biomarker expression levels. RESULT: A total of 11 DE-PMRGs were identified, and machine learning technology was employed to further screen for 5 key genes. Among these, LY96 and TMEM123 emerged as potential biomarkers through expression verification. A diagnostic model was developed, achieving an area under the curve (AUC) greater than 0.7, which indicates strong diagnostic performance. Additionally, nomograms based on these biomarkers demonstrated promising predictive capabilities in assessing the risk of SCZ. To explore gene functions and regulatory mechanisms at a deeper level, a competitive endogenous RNA (ceRNA) regulatory network was constructed, including 2 biomarkers, 72 microRNAs, and 202 long non-coding RNAs. In addition, a regulatory network containing 2 biomarkers and 104 transcription factors (TFs) was also established to investigate the transcription factors interacting with the biomarkers. Potential biomarker-targeted drugs were identified by exploring the DrugBank database; notably, LY96 exhibited higher binding affinities for four drugs, with docking scores consistently below-5 kcal/mol. The qPCR results indicated that the expression levels of LY96 and TMEM123 in the whole blood of SCZ patients were significantly higher than those in the healthy control group, which was consistent with the results in the GSE38484 and GSE27383 datasets. CONCLUSION: This study identified disease diagnostic biomarkers associated with propionate metabolism in SCZ, specifically LY96 and TMEM123. These findings offer novel perspectives for the diagnosis and management of SCZ.",
+    "keywords": [
+      "biomarkers",
+      "diagnosis",
+      "propionate metabolism",
+      "schizophrenia",
+      "treatment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Weiqi",
+        "Luo, Zhihong",
+        "Xiao, Jiang",
+        "Zhang, Xuehua",
+        "Zhang, Chanjuan",
+        "Yang, Ping",
+        "Li, Liang"
+      ],
+      "short_names": [
+        "Xie W",
+        "Luo Z",
+        "Xiao J",
+        "Zhang X",
+        "Zhang C",
+        "Yang P",
+        "Li L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Weiqi",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhihong",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jiang",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuehua",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chanjuan",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ping",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Hunan Brain Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in psychiatry"
+    ],
+    "journal_abbrev": [
+      "Front Psychiatry"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 10:57",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "40794250"
+    ],
+    "refs": [
+      "39128713",
+      "38601098",
+      "38412096",
+      "38351068",
+      "37986224",
+      "37582716",
+      "37458987",
+      "37239308",
+      "36674542",
+      "36402500",
+      "36151052",
+      "36118418",
+      "35887246",
+      "35751100",
+      "35633394",
+      "35093231",
+      "35002807",
+      "34566972",
+      "34557778",
+      "34453506",
+      "33505301",
+      "33161894",
+      "33151290",
+      "32773342",
+      "32488128",
+      "32159713",
+      "32055369",
+      "32038330",
+      "31658159",
+      "31655452",
+      "31249307",
+      "31114921",
+      "31068207",
+      "30917537",
+      "30769138",
+      "30718903",
+      "30679740",
+      "30466882",
+      "30296006",
+      "30089790",
+      "29554978",
+      "29336872",
+      "29126136",
+      "28824374",
+      "28751664",
+      "28674674",
+      "28346888",
+      "28289277",
+      "28239307",
+      "28150229",
+      "27913408",
+      "27626030",
+      "27322403",
+      "27189524",
+      "27008011",
+      "26771021",
+      "26661153",
+      "26358722",
+      "26294704",
+      "26092265",
+      "25810428",
+      "25644383",
+      "25605792",
+      "24577058",
+      "24465804",
+      "24296893",
+      "24167344",
+      "23587629",
+      "23583403",
+      "23323831",
+      "22569850",
+      "21900387",
+      "21064192",
+      "21037263",
+      "20808728",
+      "20684831",
+      "20576703",
+      "19423332",
+      "17961713",
+      "17569869",
+      "16687321",
+      "15725423",
+      "14433692",
+      "11481458",
+      "11163547",
+      "10592235",
+      "9734359",
+      "4719827",
+      "2415198",
+      "1981623"
+    ],
+    "similar": [
+      "40242178",
+      "37953553",
+      "40313243",
+      "39444490",
+      "38390236",
+      "34952924",
+      "37808224",
+      "36410410",
+      "37552420",
+      "35716513",
+      "39975557",
+      "35091780",
+      "35757392",
+      "39509434",
+      "35016150",
+      "40311511",
+      "37259023",
+      "39972407",
+      "38690269",
+      "39507054",
+      "37100927",
+      "40093012",
+      "39512836",
+      "39312067",
+      "39855613",
+      "36913932",
+      "39075554",
+      "36524127",
+      "36313022",
+      "38670447",
+      "38886359",
+      "38419436",
+      "37325630",
+      "37150680",
+      "38411755",
+      "40165133",
+      "39375405",
+      "39295860",
+      "25985888",
+      "40211224",
+      "40078458",
+      "34969953",
+      "40097519",
+      "38843579",
+      "36405929",
+      "40276515",
+      "35543802",
+      "36690956",
+      "38863043",
+      "40197384",
+      "39348809",
+      "39433267",
+      "38370978",
+      "40082645",
+      "38089628",
+      "37794663",
+      "40070840",
+      "33359735",
+      "36321557",
+      "35444449",
+      "40291595",
+      "39622968",
+      "38863714",
+      "35599275",
+      "38260098",
+      "40151199",
+      "40273141",
+      "39564883",
+      "39697326",
+      "39072329",
+      "39713769",
+      "36532015",
+      "37822923",
+      "40312440",
+      "39559355",
+      "38464965",
+      "39022342",
+      "39754246",
+      "31811028",
+      "36419192",
+      "38650009",
+      "34721526",
+      "39403102",
+      "40025442",
+      "37305753",
+      "39263286",
+      "39139563",
+      "40216809",
+      "36439178",
+      "39966875",
+      "37697333",
+      "38839020",
+      "37752199",
+      "36158120",
+      "36468003",
+      "37854191",
+      "36341343",
+      "39270557",
+      "35938015",
+      "39965388"
+    ],
+    "review": [
+      "40242178",
+      "38670447",
+      "38419436",
+      "36321557",
+      "34721526"
+    ],
+    "pmc": [
+      "12000038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40242178/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpsyt.2025.1504699",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

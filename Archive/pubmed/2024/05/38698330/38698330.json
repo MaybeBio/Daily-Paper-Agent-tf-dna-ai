@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "38698330",
+    "doi": "10.1186/s11658-024-00583-9",
+    "title": "Sesamolin serves as an MYH14 inhibitor to sensitize endometrial cancer to chemotherapy and endocrine therapy via suppressing MYH9/GSK3beta/beta-catenin signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometrial cancer (EC) is one of the most common gynecological cancers. Herein, we aimed to define the role of specific myosin family members in EC because this protein family is involved in the progression of various cancers. METHODS: Bioinformatics analyses were performed to reveal EC patients' prognosis-associated genes in patients with EC. Furthermore, colony formation, immunofluorescence, cell counting kit 8, wound healing, and transwell assays as well as coimmunoprecipitation, cycloheximide chase, luciferase reporter, and cellular thermal shift assays were performed to functionally and mechanistically analyze human EC samples, cell lines, and a mouse model, respectively. RESULTS: Machine learning techniques identified MYH14, a member of the myosin family, as the prognosis-associated gene in patients with EC. Furthermore, bioinformatics analyses based on public databases showed that MYH14 was associated with EC chemoresistance. Moreover, immunohistochemistry validated MYH14 upregulation in EC cases compared with that in normal controls and confirmed that MYH14 was an independent and unfavorable prognostic indicator of EC. MYH14 impaired cell sensitivity to carboplatin, paclitaxel, and progesterone, and increased cell proliferation and metastasis in EC. The mechanistic study showed that MYH14 interacted with MYH9 and impaired GSK3beta-mediated beta-catenin ubiquitination and degradation, thus facilitating the Wnt/beta-catenin signaling pathway and epithelial-mesenchymal transition. Sesamolin, a natural compound extracted from Sesamum indicum (L.), directly targeted MYH14 and attenuated EC progression. Additionally, the compound disrupted the interplay between MYH14 and MYH9 and repressed MYH9-regulated Wnt/beta-catenin signaling. The in vivo study further verified sesamolin as a therapeutic drug without side effects. CONCLUSIONS: Herein, we identified that EC prognosis-associated MYH14 was independently responsible for poor overall survival time of patients, and it augmented EC progression by activating Wnt/beta-catenin signaling. Targeting MYH14 by sesamolin, a cytotoxicity-based approach, can be applied synergistically with chemotherapy and endocrine therapy to eventually mitigate EC development. This study emphasizes MYH14 as a potential target and sesamolin as a valuable natural drug for EC therapy.",
+    "keywords": [
+      "Chemotherapy",
+      "Endocrine therapy",
+      "Endometrial cancer",
+      "MYH14",
+      "Sesamolin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/drug therapy/genetics/metabolism/pathology",
+      "*Myosin Heavy Chains/metabolism/genetics",
+      "Animals",
+      "*Glycogen Synthase Kinase 3 beta/metabolism/genetics",
+      "Cell Line, Tumor",
+      "*beta Catenin/metabolism/genetics",
+      "Mice",
+      "Cell Proliferation/drug effects",
+      "Mice, Nude",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Signal Transduction/drug effects",
+      "Prognosis",
+      "Antineoplastic Agents/pharmacology/therapeutic use",
+      "Middle Aged",
+      "Naphthoquinones/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yibin",
+        "Chen, Xiao",
+        "Lin, Linping",
+        "Xu, Benhua",
+        "Zhu, Xiaofeng",
+        "Lin, Xian"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Chen X",
+        "Lin L",
+        "Xu B",
+        "Zhu X",
+        "Lin X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9043-2648"
+      ],
+      "affiliations": [
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, Fujian, China.",
+        "Department of Intensive Care Unit, The First Affiliated Hospital, Fujian Medical University, Fuzhou, 350005, Fujian, China.",
+        "Department of Intensive Care Unit, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital, Fujian Medical University, Fuzhou, 350212, Fujian, China.",
+        "Hunan Institute of Engineering, Xiangtan, 411100, Hunan, China.",
+        "Department of Radiation Oncology, Fujian Medical University Union Hospital, Xinquan Road 29, Gulou District, Fuzhou, 350001, Fujian, China. benhuaxu@163.com.",
+        "Department of Oral Maxillo-Facial Surgery, The First Affiliated Hospital, Fujian Medical University, No. 20 Chazhong Road, Taijing District, Fuzhou, 350005, Fujian, China. zhuxiaofengfjmu@163.com.",
+        "Department of Oral Maxillo-Facial Surgery, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital, Fujian Medical University, Fuzhou, 350212, China. zhuxiaofengfjmu@163.com.",
+        "Shenzhen Key Laboratory of Inflammatory and Immunology Diseases, No. 1120 Lianhua Road, Futian District, Shenzhen, 518036, Guangdong, China. linxiangabriel@fjmu.edu.cn.",
+        "Peking University Shenzhen Hospital, Shenzhen, 518036, Guangdong, China. linxiangabriel@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yibin",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiao",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, The First Affiliated Hospital, Fujian Medical University, Fuzhou, 350005, Fujian, China.",
+          "Department of Intensive Care Unit, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital, Fujian Medical University, Fuzhou, 350212, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Linping",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Institute of Engineering, Xiangtan, 411100, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Benhua",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Fujian Medical University Union Hospital, Xinquan Road 29, Gulou District, Fuzhou, 350001, Fujian, China. benhuaxu@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaofeng",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Maxillo-Facial Surgery, The First Affiliated Hospital, Fujian Medical University, No. 20 Chazhong Road, Taijing District, Fuzhou, 350005, Fujian, China. zhuxiaofengfjmu@163.com.",
+          "Department of Oral Maxillo-Facial Surgery, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital, Fujian Medical University, Fuzhou, 350212, China. zhuxiaofengfjmu@163.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Xian",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0001-9043-2648"
+        ],
+        "affiliations": [
+          "Shenzhen Key Laboratory of Inflammatory and Immunology Diseases, No. 1120 Lianhua Road, Futian District, Shenzhen, 518036, Guangdong, China. linxiangabriel@fjmu.edu.cn.",
+          "Peking University Shenzhen Hospital, Shenzhen, 518036, Guangdong, China. linxiangabriel@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular & molecular biology letters"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Biol Lett"
+    ],
+    "pub_date": "2024 May 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/03 00:50",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42694276",
+      "42618600",
+      "42424360",
+      "42382700",
+      "42349317",
+      "42092754",
+      "41694334",
+      "41389964",
+      "41322602",
+      "40804837",
+      "40703517",
+      "40277919",
+      "39930544",
+      "39365298",
+      "39227917"
+    ],
+    "refs": [
+      "37799384",
+      "37383713",
+      "37377483",
+      "37263826",
+      "37216761",
+      "37212033",
+      "37120773",
+      "37100507",
+      "36972022",
+      "36929669",
+      "36845072",
+      "36841635",
+      "36829176",
+      "36760254",
+      "36662766",
+      "36632751",
+      "36627652",
+      "36594088",
+      "36526973",
+      "36370117",
+      "36183999",
+      "36118852",
+      "36076302",
+      "35932608",
+      "35716914",
+      "35449078",
+      "35418160",
+      "35397864",
+      "35236304",
+      "35227877",
+      "35028953",
+      "34979906",
+      "34906777",
+      "34641392",
+      "34518686",
+      "34039951",
+      "33634968",
+      "33420377",
+      "33183764",
+      "33082238",
+      "32848073",
+      "32726992",
+      "32581224",
+      "32296025",
+      "32169021",
+      "32119069",
+      "31857700",
+      "31754475",
+      "31695788",
+      "31612825",
+      "31594754",
+      "31472054",
+      "31358530",
+      "31215145",
+      "30996127",
+      "30813939",
+      "30243096",
+      "28545688",
+      "21141889"
+    ],
+    "similar": [
+      "38698330",
+      "32296025",
+      "32685004",
+      "32058212",
+      "35589707",
+      "31594754",
+      "34038589",
+      "30452118",
+      "31915116",
+      "37120773",
+      "37186152",
+      "31892849",
+      "33220169",
+      "37287079",
+      "38849840",
+      "35986274",
+      "37054536",
+      "36757050",
+      "29497051",
+      "36827869",
+      "34743203",
+      "38057867",
+      "34887392",
+      "33356805",
+      "38825640",
+      "36614043",
+      "31533968",
+      "34736163",
+      "27481517",
+      "30831484",
+      "36424704",
+      "30253791",
+      "27738313",
+      "30594556",
+      "36454672",
+      "27050373",
+      "29888640",
+      "28418915",
+      "37789778",
+      "27459115",
+      "27092879",
+      "27783993",
+      "34480403",
+      "23135473",
+      "30806153",
+      "30885941",
+      "28099945",
+      "38981872",
+      "22555103",
+      "31419987",
+      "31967350",
+      "30691517",
+      "29784906",
+      "31486482",
+      "31769973",
+      "38165547",
+      "35609318",
+      "37779078",
+      "31081718",
+      "31071331",
+      "29692251",
+      "29859044",
+      "32032891",
+      "29350680",
+      "27645308",
+      "37005078",
+      "29216929",
+      "26722596",
+      "32631394",
+      "36280040",
+      "33549581",
+      "26485754",
+      "34257616",
+      "25945460",
+      "38853192",
+      "26943030",
+      "30521071",
+      "30896826",
+      "28631286",
+      "34352441",
+      "33323973",
+      "33326197",
+      "30678687",
+      "38686653",
+      "37573302",
+      "36355209",
+      "29274277",
+      "25632187",
+      "31410201",
+      "27816443",
+      "38637831",
+      "31502580",
+      "31051214",
+      "34450253",
+      "31337688",
+      "37144734",
+      "24966918",
+      "34463000",
+      "27776341",
+      "33515347",
+      "31746409",
+      "35296779",
+      "38568742",
+      "38953887",
+      "38616327",
+      "38967825",
+      "37567170",
+      "39082833",
+      "39127769",
+      "39242574",
+      "37066339"
+    ],
+    "review": [
+      "38698330",
+      "31752447"
+    ],
+    "pmc": [
+      "11067147"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cmbl.biomedcentral.com/articles/10.1186/s11658-024-00583-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38698330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s11658-024-00583-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38698330",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3994",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

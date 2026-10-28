@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "37925496",
+    "doi": "10.1038/s41598-023-46455-8",
+    "title": "Identification of genetic biomarkers, drug targets and agents for respiratory diseases utilising integrated bioinformatics approaches."
+  },
+  "content": {
+    "abstract": "Respiratory diseases (RD) are significant public health burdens and malignant diseases worldwide. However, the RD-related biological information and interconnection still need to be better understood. Thus, this study aims to detect common differential genes and potential hub genes (HubGs), emphasizing their actions, signaling pathways, regulatory biomarkers for diagnosing RD and candidate drugs for treating RD. In this paper we used integrated bioinformatics approaches (such as, gene ontology (GO) and KEGG pathway enrichment analysis, molecular docking, molecular dynamic simulation and network-based molecular interaction analysis). We discovered 73 common DEGs (CDEGs) and ten HubGs (ATAD2B, PPP1CB, FOXO1, AKT3, BCR, PDE4D, ITGB1, PCBP2, CD44 and SMARCA2). Several significant functions and signaling pathways were strongly related to RD. We recognized six transcription factor (TF) proteins (FOXC1, GATA2, FOXL1, YY1, POU2F2 and HINFP) and five microRNAs (hsa-mir-218-5p, hsa-mir-335-5p, hsa-mir-16-5p, hsa-mir-106b-5p and hsa-mir-15b-5p) as the important transcription and post-transcription regulators of RD. Ten HubGs and six major TF proteins were considered drug-specific receptors. Their binding energy analysis study was carried out with the 63 drug agents detected from network analysis. Finally, the five complexes (the PDE4D-benzo[a]pyrene, SMARCA2-benzo[a]pyrene, HINFP-benzo[a]pyrene, CD44-ketotifen and ATAD2B-ponatinib) were selected for RD based on their strong binding affinity scores and stable performance as the most probable repurposable protein-drug complexes. We believe our findings will give readers, wet-lab scientists, and pharmaceuticals a thorough grasp of the biology behind RD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "Benzo(a)pyrene",
+      "*MicroRNAs/genetics",
+      "Genetic Markers",
+      "*Respiration Disorders",
+      "*Respiratory Tract Diseases",
+      "Computational Biology",
+      "Gene Regulatory Networks",
+      "RNA-Binding Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmed, Fee Faysal",
+        "Das, Arnob Dip",
+        "Sumi, Mst Joynab",
+        "Islam, Md Zohurul",
+        "Rahman, Md Shahedur",
+        "Rashid, Md Harun",
+        "Alyami, Salem A",
+        "Alotaibi, Naif",
+        "Azad, A K M",
+        "Moni, Mohammad Ali"
+      ],
+      "short_names": [
+        "Ahmed FF",
+        "Das AD",
+        "Sumi MJ",
+        "Islam MZ",
+        "Rahman MS",
+        "Rashid MH",
+        "Alyami SA",
+        "Alotaibi N",
+        "Azad AKM",
+        "Moni MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh. ffa.math@just.edu.bd.",
+        "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "High Performance Computing (HPC) Laboratory, Department of Mathematics, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Bioinformatics and Microbial Biotechnology Laboratory, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia.",
+        "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia.",
+        "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia.",
+        "Artificial Intelligence and Data Science, School of Health and Rehabilitation Sciences, Faculty of Health and Behavioural Sciences, The University of Queensland, St Lucia, QLD, 4072, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmed, Fee Faysal",
+        "short_name": "Ahmed FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh. ffa.math@just.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Das, Arnob Dip",
+        "short_name": "Das AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sumi, Mst Joynab",
+        "short_name": "Sumi MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Zohurul",
+        "short_name": "Islam MZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "High Performance Computing (HPC) Laboratory, Department of Mathematics, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Shahedur",
+        "short_name": "Rahman MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Bioinformatics and Microbial Biotechnology Laboratory, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rashid, Md Harun",
+        "short_name": "Rashid MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Faculty of Science, Jashore University of Science and Technology, Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Alyami, Salem A",
+        "short_name": "Alyami SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alotaibi, Naif",
+        "short_name": "Alotaibi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Azad, A K M",
+        "short_name": "Azad AKM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 13318, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Moni, Mohammad Ali",
+        "short_name": "Moni MA",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence and Data Science, School of Health and Rehabilitation Sciences, Faculty of Health and Behavioural Sciences, The University of Queensland, St Lucia, QLD, 4072, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Nov 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/05 06:41",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "41959150",
+      "40745316",
+      "39103379",
+      "38138924"
+    ],
+    "refs": [
+      "37177999",
+      "36300620",
+      "35893690",
+      "34195595",
+      "33995121",
+      "33926483",
+      "33832481",
+      "33811184",
+      "33810356",
+      "33727076",
+      "33540650",
+      "33251388",
+      "33251083",
+      "33182754",
+      "33151290",
+      "32971089",
+      "32946266",
+      "32839951",
+      "32640394",
+      "32437367",
+      "32299382",
+      "32295188",
+      "32074444",
+      "31898491",
+      "31833833",
+      "31703732",
+      "31571851",
+      "31419013",
+      "31293574",
+      "31244822",
+      "30982974",
+      "30936871",
+      "30931480",
+      "30877881",
+      "30664219",
+      "30447346",
+      "30355907",
+      "30349363",
+      "30090398",
+      "30018981",
+      "29922886",
+      "29758111",
+      "29391557",
+      "29351437",
+      "29238183",
+      "29197876",
+      "29138552",
+      "28987381",
+      "28972861",
+      "28955434",
+      "28775042",
+      "28435457",
+      "28413462",
+      "28062486",
+      "27575817",
+      "26735770",
+      "26398396",
+      "26042604",
+      "25879889",
+      "24803855",
+      "24089590",
+      "23656508",
+      "23563700",
+      "23441154",
+      "23365422",
+      "23222870",
+      "23193258",
+      "22972474",
+      "22183550",
+      "21071411",
+      "21063955",
+      "20864681",
+      "20820852",
+      "20503391",
+      "20421987",
+      "19841878",
+      "19499576",
+      "18957447",
+      "18046900",
+      "17446529",
+      "16644253",
+      "16381955",
+      "15156279",
+      "14681366",
+      "12760826",
+      "12174704",
+      "12037327",
+      "11752295",
+      "11123888",
+      "10982861",
+      "7889565",
+      "6682668",
+      "385401"
+    ],
+    "similar": [
+      "37925496",
+      "35390032",
+      "36991484",
+      "32041280",
+      "36913345",
+      "38717954",
+      "36104591",
+      "37893423",
+      "36786134",
+      "35632527",
+      "37993790",
+      "31842912",
+      "35322101",
+      "33407587",
+      "32299382",
+      "32888289",
+      "31703725",
+      "37534476",
+      "37261353",
+      "34337040",
+      "36291136",
+      "35313857",
+      "32912111",
+      "32046405",
+      "37400149",
+      "34313877",
+      "33813720",
+      "32435051",
+      "33506940",
+      "29032608",
+      "37169818",
+      "36187128",
+      "36647068",
+      "37179305",
+      "25189652",
+      "35968647",
+      "34190177",
+      "33862181",
+      "39281421",
+      "36927770",
+      "34536521",
+      "33532314",
+      "33045885",
+      "30606694",
+      "35757478",
+      "36319098",
+      "35169647",
+      "32802839",
+      "36189314",
+      "34254931",
+      "36059456",
+      "33578541",
+      "35655923",
+      "36118873",
+      "34867824",
+      "36154667",
+      "34632546",
+      "37063926",
+      "30503955",
+      "36930090",
+      "37711894",
+      "32102656",
+      "29063236",
+      "34530741",
+      "35386284",
+      "36420648",
+      "34600545",
+      "32535071",
+      "37065602",
+      "33104965",
+      "31377428",
+      "35114922",
+      "36798788",
+      "35813414",
+      "36238488",
+      "31788082",
+      "33439992",
+      "32832554",
+      "35909518",
+      "30616374",
+      "32013934",
+      "33378838",
+      "36998473",
+      "34366885",
+      "33299863",
+      "34934349",
+      "30865617",
+      "31730405",
+      "29543360",
+      "35409328",
+      "35452485",
+      "36343018",
+      "36204659",
+      "31989994",
+      "31775841",
+      "38033382"
+    ],
+    "review": [
+      "37925496",
+      "37993790",
+      "37169818",
+      "34632546",
+      "32102656"
+    ],
+    "pmc": [
+      "10625598"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-46455-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37925496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37925496",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

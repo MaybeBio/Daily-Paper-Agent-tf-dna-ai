@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "40406858",
+    "doi": "10.1021/acs.jmedchem.5c00896",
+    "title": "HighPlay: Cyclic Peptide Sequence Design Based on Reinforcement Learning and Protein Structure Prediction."
+  },
+  "content": {
+    "abstract": "The structural diversity and good biocompatibility of cyclic peptides have led to their emergence as potential therapeutic agents. Existing cyclic peptide design methods, whether traditional or emerging AI-assisted, rely on a multitude of experiments and face challenges such as limited molecular diversity, high cost, and time-consuming. In this study, we propose HighPlay, which integrates reinforcement learning (MCTS) with the HighFold structural prediction model to design cyclic peptide sequences based solely on the target protein sequence information, to achieve the synergistic optimization of cyclic peptide sequences and binding sites and to dynamically explore the sequence space without the need for predefined target information. The model was applied to the design of cyclic peptide sequences for three different targets, which were screened and verified through molecular dynamics simulations, demonstrating good binding affinity. Specifically, the cyclic peptide sequences designed for the TEAD4 target exhibited micromolar-level affinity in further experimental validation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides, Cyclic/chemistry/chemical synthesis",
+      "*Drug Design",
+      "Molecular Dynamics Simulation",
+      "Amino Acid Sequence",
+      "Protein Conformation",
+      "Humans",
+      "Binding Sites",
+      "Transcription Factors/chemistry/metabolism",
+      "DNA-Binding Proteins/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Huitian",
+        "Zhu, Cheng",
+        "Shang, Tianfeng",
+        "Zhu, Ning",
+        "Lin, Kang",
+        "Zhang, Chengyun",
+        "Shao, Xiang",
+        "Wang, Xudong",
+        "Duan, Hongliang"
+      ],
+      "short_names": [
+        "Lin H",
+        "Zhu C",
+        "Shang T",
+        "Zhu N",
+        "Lin K",
+        "Zhang C",
+        "Shao X",
+        "Wang X",
+        "Duan H"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-6897-7040",
+        "ORCID: 0000-0002-9194-0115"
+      ],
+      "affiliations": [
+        "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China.",
+        "AI department, Shenzhen Highslab Therapeutics. Inc, Shenzhen 518000, China.",
+        "Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China.",
+        "AI department, Shenzhen Highslab Therapeutics. Inc, Shenzhen 518000, China.",
+        "Centralab, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China.",
+        "Department of Nephrology, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China.",
+        "Chronic Kidney Disease Sarcopenia Research Center, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China.",
+        "Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Huitian",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0009-0001-6897-7040"
+        ],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Cheng",
+        "short_name": "Zhu C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Tianfeng",
+        "short_name": "Shang T",
+        "identifiers": [],
+        "affiliations": [
+          "AI department, Shenzhen Highslab Therapeutics. Inc, Shenzhen 518000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ning",
+        "short_name": "Zhu N",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Kang",
+        "short_name": "Lin K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chengyun",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "AI department, Shenzhen Highslab Therapeutics. Inc, Shenzhen 518000, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Xiang",
+        "short_name": "Shao X",
+        "identifiers": [],
+        "affiliations": [
+          "Centralab, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China.",
+          "Department of Nephrology, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China.",
+          "Chronic Kidney Disease Sarcopenia Research Center, Suzhou Kowloon Hospital, Shanghai Jiao Tong University School of Medicine, Suzhou 215028, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xudong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Hongliang",
+        "short_name": "Duan H",
+        "identifiers": [
+          "0000-0002-9194-0115"
+        ],
+        "affiliations": [
+          "Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2025 Jun 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/23 06:26",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42216689",
+      "41982931",
+      "41980520"
+    ],
+    "refs": [],
+    "similar": [
+      "40406858",
+      "41069089",
+      "33051202",
+      "40223692",
+      "40782270",
+      "32286937",
+      "19053244",
+      "38706323",
+      "39177727",
+      "33426882",
+      "40824037",
+      "40975836",
+      "16923020",
+      "14671789",
+      "40495275",
+      "41266029",
+      "37903231",
+      "39801200",
+      "7885338",
+      "34617942",
+      "15330641",
+      "29589926",
+      "25264829",
+      "40399308",
+      "34023738",
+      "28013146",
+      "38131333",
+      "12712499",
+      "17486664",
+      "39571720",
+      "28756481",
+      "40255206",
+      "23548907",
+      "2076180",
+      "41214817",
+      "10852714",
+      "8808738",
+      "15293995",
+      "33331371",
+      "25566700",
+      "33046654",
+      "9746540",
+      "11341843",
+      "10673369",
+      "10197961",
+      "40305587",
+      "8706671",
+      "7492543",
+      "25974856",
+      "28482272",
+      "9788997",
+      "22015269",
+      "31134568",
+      "24160865",
+      "1483474",
+      "28059415",
+      "33283479",
+      "29102725",
+      "38751042",
+      "39210505",
+      "23405984",
+      "31847417",
+      "17261031",
+      "17120268",
+      "33065433",
+      "27287023",
+      "8251519",
+      "30307134",
+      "15787467",
+      "30605335",
+      "7639928",
+      "9606017",
+      "19362470",
+      "11168419",
+      "30051771",
+      "12848533",
+      "7894602",
+      "22578098",
+      "28091629",
+      "22233517",
+      "27878880",
+      "31226791",
+      "16141208",
+      "32448094",
+      "25741627",
+      "15102053",
+      "31894111",
+      "27826791",
+      "2088934",
+      "22943434",
+      "32267689",
+      "29845162",
+      "9440004",
+      "37827517",
+      "38944933",
+      "29433424",
+      "39341398",
+      "30368623",
+      "26863382",
+      "22582818"
+    ],
+    "review": [
+      "40406858",
+      "33426882",
+      "14671789",
+      "38131333",
+      "31134568"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.5c00896",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

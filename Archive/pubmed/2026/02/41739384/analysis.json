@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41739384",
+  "title": "GRU-based de novo design and in-silico prioritization of EZH2 inhibitors.",
+  "authors": "Yu, Na; Wang, Maoqi; Chen, Xiaodie; Liu, Rong; Zou, Liang; Shu, Mao",
+  "journal": "Molecular diversity",
+  "published_date": "2026-02-25",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用GRU生成模型和分子对接设计EZH2小分子抑制剂，对象为蛋白-小分子而非蛋白质-DNA互作，方法虽含AI和模拟但与本课题TF-DNA结合机制无关。",
+  "abstract": "EZH2 (Enhancer-Homozygous Protein 2), as a key epigenetic regulator, is closely associated with multiple cancers. Consequently, the design of EZH2-targeting inhibitors has become a significant focus in drug development. The application of deep learning methods in the chemical field can accelerate the process of discovering new molecules. This study utilized the SMILES sequence information of 1,202,321 small molecules from the ChEMBL29 database and the known molecular structures of 11 compounds with EZH2 inhibitory activity. A molecular generation model based on a gated recurrent unit (GRU) network and transfer learning was constructed, generating 50,000 SMILES molecular sequences. Through classification prediction by an ECFP4-SVM model, 37,802 effective and novel molecular structures were screened. Subsequent virtual screening incorporated Lipinski's Rules, ADMET properties, and molecular docking, ultimately identifying 10 candidate compounds for 100 ns molecular dynamics simulations and density functional theory (DFT) calculations. MM-GBSA calculations revealed binding free energies </= - 42.3518 kcal/mol for the candidate compounds, suggesting strong interactions with EZH2. DFT calculations further characterized the electronic interaction features underlying ligand-protein binding. This study demonstrates the feasibility of a deep learning-driven computational framework for the virtual identification and prioritization of potential EZH2 inhibitor candidates.",
+  "abstract_zh": "EZH2（增强子同源蛋白2）作为一种关键的表观遗传调控因子，与多种癌症密切相关。因此，设计靶向EZH2的抑制剂已成为药物开发的重要焦点。深度学习方法在化学领域的应用可以加速新分子发现的过程。本研究利用了ChEMBL29数据库中1,202,321个小分子的SMILES序列信息，以及11种具有EZH2抑制活性的已知分子结构。构建了基于门控循环单元（GRU）网络和迁移学习的分子生成模型，生成了50,000个SMILES分子序列。通过ECFP4-SVM模型的分类预测，筛选出37,802个有效且新颖的分子结构。后续的虚拟筛选结合了Lipinski规则、ADMET性质和分子对接，最终确定了10个候选化合物，用于100 ns分子动力学模拟和密度泛函理论（DFT）计算。MM-GBSA计算显示候选化合物的结合自由能≤ -42.3518 kcal/mol，表明其与EZH2存在强相互作用。DFT计算进一步表征了配体-蛋白质结合背后的电子相互作用特征。本研究证明了深度学习驱动的计算框架在虚拟识别和优先排序潜在EZH2抑制剂候选物方面的可行性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41739384/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41739384/",
+  "paper_page_path": "papers/pubmed/41739384/index.html"
+}

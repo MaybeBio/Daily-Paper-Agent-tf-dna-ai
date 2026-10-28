@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37651627",
+  "title": "DBPMod: a supervised learning model for computational recognition of DNA-binding proteins in model organisms.",
+  "authors": "Pradhan, Upendra K; Meher, Prabina K; Naha, Sanchita; Sharma, Nitesh K; Agarwal, Aarushi; Gupta, Ajit; Parsad, Rajender",
+  "journal": "Briefings in functional genomics",
+  "published_date": "2023-08-31",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习方法预测物种特异性DNA结合蛋白，属于广义蛋白-DNA互作识别，但未聚焦TF-DNA结合位点或三维互作机制，方法为传统浅层/深度学习，可迁移但深度有限。",
+  "abstract": "DNA-binding proteins (DBPs) play critical roles in many biological processes, including gene expression, DNA replication, recombination and repair. Understanding the molecular mechanisms underlying these processes depends on the precise identification of DBPs. In recent times, several computational methods have been developed to identify DBPs. However, because of the generic nature of the models, these models are unable to identify species-specific DBPs with higher accuracy. Therefore, a species-specific computational model is needed to predict species-specific DBPs. In this paper, we introduce the computational DBPMod method, which makes use of a machine learning approach to identify species-specific DBPs. For prediction, both shallow learning algorithms and deep learning models were used, with shallow learning models achieving higher accuracy. Additionally, the evolutionary features outperformed sequence-derived features in terms of accuracy. Five model organisms, including Caenorhabditis elegans, Drosophila melanogaster, Escherichia coli, Homo sapiens and Mus musculus, were used to assess the performance of DBPMod. Five-fold cross-validation and independent test set analyses were used to evaluate the prediction accuracy in terms of area under receiver operating characteristic curve (auROC) and area under precision-recall curve (auPRC), which was found to be ~89-92% and ~89-95%, respectively. The comparative results demonstrate that the DBPMod outperforms 12 current state-of-the-art computational approaches in identifying the DBPs for all five model organisms. We further developed the web server of DBPMod to make it easier for researchers to detect DBPs and is publicly available at https://iasri-sg.icar.gov.in/dbpmod/. DBPMod is expected to be an invaluable tool for discovering DBPs, supplementing the current experimental and computational methods.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在许多生物过程中扮演关键角色，包括基因表达、DNA复制、重组和修复。理解这些过程背后的分子机制依赖于对DBPs的精确识别。近年来，已开发出多种计算方法来识别DBPs。然而，由于模型的通用性，这些模型无法以更高准确性识别物种特异性的DBPs。因此，需要一种物种特异性的计算模型来预测物种特异性的DBPs。本文中，我们介绍了计算性DBPMod方法，该方法利用机器学习途径识别物种特异性的DBPs。在预测中，同时使用了浅层学习算法和深度学习模型，其中浅层学习模型达到了更高的准确性。此外，进化特征在准确性方面优于序列衍生特征。包括秀丽隐杆线虫（Caenorhabditis elegans）、黑腹果蝇（Drosophila melanogaster）、大肠杆菌（Escherichia coli）、智人（Homo sapiens）和家鼠（Mus musculus）在内的五种模式生物被用于评估DBPMod的性能。通过五折交叉验证和独立测试集分析，以受试者工作特征曲线下面积（auROC）和精确率-召回率曲线下面积（auPRC）评估预测准确性，分别约为89-92%和89-95%。比较结果表明，DBPMod在识别所有五种模式生物的DBPs方面优于12种当前最先进的计算方法。我们进一步开发了DBPMod的网页服务器，以便研究人员更容易检测DBPs，并公开访问于https://iasri-sg.icar.gov.in/dbpmod/。预计DBPMod将成为发现DBPs的宝贵工具，补充现有的实验和计算方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37651627/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37651627/",
+  "paper_page_path": "papers/pubmed/37651627/index.html"
+}

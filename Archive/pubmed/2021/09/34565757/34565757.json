@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "34565757",
+    "doi": "10.1266/ggs.21-00025",
+    "title": "AI for the collective analysis of a massive number of genome sequences: various examples from the small genome of pandemic SARS-CoV-2 to the human genome."
+  },
+  "content": {
+    "abstract": "In genetics and related fields, huge amounts of data, such as genome sequences, are accumulating, and the use of artificial intelligence (AI) suitable for big data analysis has become increasingly important. Unsupervised AI that can reveal novel knowledge from big data without prior knowledge or particular models is highly desirable for analyses of genome sequences, particularly for obtaining unexpected insights. We have developed a batch-learning self-organizing map (BLSOM) for oligonucleotide compositions that can reveal various novel genome characteristics. Here, we explain the data mining by the BLSOM: an unsupervised AI. As a specific target, we first selected SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) because a large number of viral genome sequences have been accumulated via worldwide efforts. We analyzed more than 0.6 million sequences collected primarily in the first year of the pandemic. BLSOMs for short oligonucleotides (e.g., 4-6-mers) allowed separation into known clades, but longer oligonucleotides further increased the separation ability and revealed subgrouping within known clades. In the case of 15-mers, there is mostly one copy in the genome; thus, 15-mers that appeared after the epidemic started could be connected to mutations, and the BLSOM for 15-mers revealed the mutations that contributed to separation into known clades and their subgroups. After introducing the detailed methodological strategies, we explain BLSOMs for various topics, such as the tetranucleotide BLSOM for over 5 million 5-kb fragment sequences derived from almost all microorganisms currently available and its use in metagenome studies. We also explain BLSOMs for various eukaryotes, including fishes, frogs and Drosophila species, and found a high separation ability among closely related species. When analyzing the human genome, we found enrichments in transcription factor-binding sequences in centromeric and pericentromeric heterochromatin regions. The tDNAs (tRNA genes) could be separated according to their corresponding amino acid.",
+    "keywords": [
+      "COVID-19",
+      "artificial intelligence",
+      "metagenome",
+      "oligonucleotide composition",
+      "self-organizing map"
+    ],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "Cluster Analysis",
+      "Codon Usage",
+      "Computational Biology/*methods",
+      "*Genome, Human",
+      "*Genome, Viral",
+      "Humans",
+      "Metagenomics/methods",
+      "Mutation",
+      "RNA, Transfer",
+      "SARS-CoV-2/*genetics",
+      "Time Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ikemura, Toshimichi",
+        "Iwasaki, Yuki",
+        "Wada, Kennosuke",
+        "Wada, Yoshiko",
+        "Abe, Takashi"
+      ],
+      "short_names": [
+        "Ikemura T",
+        "Iwasaki Y",
+        "Wada K",
+        "Wada Y",
+        "Abe T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology.",
+        "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology.",
+        "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology.",
+        "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology.",
+        "Department of Information Engineering, Faculty of Engineering, Niigata University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ikemura, Toshimichi",
+        "short_name": "Ikemura T",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Iwasaki, Yuki",
+        "short_name": "Iwasaki Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Wada, Kennosuke",
+        "short_name": "Wada K",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Wada, Yoshiko",
+        "short_name": "Wada Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioscience, Nagahama Institute of Bio-Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Abe, Takashi",
+        "short_name": "Abe T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Engineering, Faculty of Engineering, Niigata University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & genetic systems"
+    ],
+    "journal_abbrev": [
+      "Genes Genet Syst"
+    ],
+    "pub_date": "2021 Dec 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/28 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "38464746",
+      "36044525",
+      "35804296"
+    ],
+    "refs": [],
+    "similar": [
+      "34565757",
+      "35804296",
+      "32161227",
+      "35272618",
+      "28344190",
+      "38464746",
+      "27694768",
+      "36044525",
+      "26119665",
+      "24804244",
+      "23896648",
+      "24741568",
+      "26495297",
+      "21444341",
+      "23964903",
+      "32928234",
+      "19801558",
+      "33757449",
+      "34357528",
+      "34207362",
+      "12671005",
+      "24800745",
+      "33875001",
+      "33677109",
+      "33374492",
+      "33764553",
+      "32451808",
+      "33807682",
+      "32512929",
+      "16364569",
+      "33242581",
+      "34468193",
+      "33479725",
+      "32940906",
+      "33127745",
+      "21498923",
+      "32161228",
+      "24549846",
+      "35599960",
+      "33253058",
+      "23303373",
+      "32878627",
+      "24822057",
+      "32771430",
+      "33273962",
+      "32867854",
+      "24781747",
+      "32426387",
+      "33755704",
+      "33181329",
+      "34773624",
+      "29258555",
+      "36166141",
+      "35450524",
+      "35594018",
+      "33824882",
+      "34764587",
+      "35264799",
+      "33782563",
+      "39039337",
+      "39122959"
+    ],
+    "review": [
+      "34565757",
+      "27694768",
+      "32451808"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34565757",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1266/ggs.21-00025",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medicalonline.jp/meteo_linkout.php?issn=1341-7568&volume=96&issue=4&spage=165",
+        "provider": "Medical Online, Meteo Inc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

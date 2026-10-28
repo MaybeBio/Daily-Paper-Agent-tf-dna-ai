@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present a machine learning approach using convolutional neural networks to predict tissue-specific open chromatin conservation across mammals, outperforming nucleotide-level conservation scores, and apply this to identify lineage-specific regulatory elements.
+- **Visible evidence base** Main text, figures (Figs. 1–5), tables (Tables 1–3), and references to supplementary materials
+- **Missing materials affecting confidence** Supplementary figures, tables, and methods; detailed hyperparameter tuning results; full dataset descriptions; code availability
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important gap in regulatory genomics by proposing a novel framework for predicting tissue-specific regulatory conservation using CNNs rather than nucleotide alignment. The approach is well-motivated and the evaluation criteria are thoughtfully designed. However, several technical concerns regarding model validation, statistical rigor, and generalizability need to be addressed before the claims are fully established.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, evolutionary biology, and computational biology would find this work valuable. It offers a practical tool for annotating enhancer conservation across many species, which is relevant for studying gene regulation evolution, disease-associated variants, and comparative genomics.
+- **Major strengths** 
+  - Novel application of CNNs to predict tissue-specific regulatory conservation, moving beyond nucleotide-level approaches
+  - Comprehensive evaluation criteria that address limitations of previous studies
+  - Demonstration of biological relevance through clustering and enrichment analyses
+  - Practical applicability to hundreds of mammalian genomes
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that models "accurately predict tissue-specific conservation and divergence in open chromatin between primate and rodent species" is central to the paper.
+  - **Evidence pointer** Results section, Figs. 2–3, Supplemental Figs. 1–9
+  - **Concern** The evaluation sets for lineage-specific and tissue-specific accuracy are constructed using the same data sources as the training sets (e.g., mouse, macaque, rat open chromatin data). This potential data leakage could inflate performance estimates. The authors need to clarify how independence between training and evaluation sets is ensured, particularly for the multi-species models.
+  - **Why it matters** If evaluation sets overlap with training data, the reported accuracies may not reflect true generalization to unseen species or tissues, undermining the core claim of predictive accuracy.
+  - **Resolution test** Provide explicit details on chromosome-level separation between training and evaluation sets, or use completely held-out species for validation. Re-run evaluations with strict non-overlapping partitions and report updated metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that "brain enhancers associated with neuron activity have a stronger tendency than the general population to have predicted lineage-specific open chromatin" is based on enrichment analyses.
+  - **Evidence pointer** Results section, Fig. 5, Supplemental Table 17–19
+  - **Concern** The enrichment analysis uses hypergeometric tests with a Bonferroni correction, but the choice of background (universe) and the handling of multiple testing across clusters and enhancer sets are not fully described. The authors need to justify the statistical model and ensure that the reported enrichments are robust to alternative background definitions.
+  - **Why it matters** Without rigorous statistical validation, the biological interpretations may be overclaimed, affecting the reliability of the conclusions about lineage-specific regulatory elements.
+  - **Resolution test** Provide detailed description of the statistical framework, including background selection, multiple testing correction, and sensitivity analyses with different universe definitions. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the framework "provides a mechanism to annotate tissue-specific regulatory function across hundreds of genomes" implies broad applicability.
+  - **Evidence pointer** Discussion section, Applications subsection
+  - **Concern** The models are trained and evaluated primarily on brain and liver data from a limited set of species (mouse, rat, macaque, human). The authors do not demonstrate performance on other tissues or more distantly related species, which limits the generalizability of the framework.
+  - **Why it matters** The stated goal of annotating regulatory function across hundreds of genomes requires evidence that the approach works beyond the tested conditions. Without such evidence, the claim is premature.
+  - **Resolution test** Include additional validation on at least one other tissue type and on species from more divergent clades (e.g., marsupials or monotremes) to show the framework's versatility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The figure is dense and the distinction between "clade-specific" and "species-specific" OCRs is not immediately clear from the schematic.
+  - **Required correction** Add a brief legend or annotation to clarify these definitions directly in the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, Training mouse-only brain model
+  - **Issue** The hyperparameter tuning process is described only briefly, and the final hyperparameters for the mouse-only models are not provided in the main text.
+  - **Required correction** Include the final hyperparameters for all models in the main text or a supplementary table for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, Limitations
+  - **Evidence pointer** Discussion, Limitations subsection
+  - **Issue** The discussion of limitations focuses on model performance but does not address potential biases in the input data (e.g., species-specific sequencing depth or tissue composition).
+  - **Required correction** Add a brief note on how data quality variations across species might affect predictions and interpretations.
+
+## Risk / unsupported claims
+- The claim that the framework "vastly out-performs leading nucleotide alignment-based approaches" is supported by the presented comparisons, but the lack of independent validation on completely held-out species weakens this claim.
+- The biological relevance of the identified lineage-specific OCRs is suggested but not experimentally validated; the enrichment analyses are correlational and require further support.
+- The applicability to "hundreds of genomes" is asserted but not demonstrated; no results from large-scale application are shown.

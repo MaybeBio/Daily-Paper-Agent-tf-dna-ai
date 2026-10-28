@@ -1,0 +1,250 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.64898/2025.12.18.25342557",
+  "title": "Machine Learning and Micro Capture-C resolve GWAS associations revealing endothelial stress pathways in Coronary Artery Disease",
+  "doi": "10.64898/2025.12.18.25342557",
+  "abstract": "Resolving the gene targets of non-coding genetic variation is the major bottleneck in translating genome wide association studies into mechanistic understanding of complex diseases such as coronary artery disease (CAD). Combining new Transformer-based Machine Learning (ML) approaches trained on cardiovascular epigenetics with high-resolution, allele-specific genomic and transcriptomic technologies we create a highly scalable platform to simultaneously resolve causal variants, cell-type of action, output gene, and direction of effect. When applied to CAD genetics, our ML predicts causal variants from 20,747 candidate SNPs across 9 vessel cell-types and identifies disrupted transcription factor binding motifs using ML feature attributions. We investigate 94 of the top predictions in endothelial cells using Micro Capture-C, revealing the importance of fluid shear stress and TGF-β signaling pathways. We exploit allelic skew in heterozygous cells to demonstrate both variant causality and effect direction, demonstrating this platform can be used to rapidly resolve non-coding genetics in complex disease.",
+  "authors": [
+    "Baxter M",
+    "Sanders E",
+    "Riva SG",
+    "Hamley JC",
+    "Gur ER",
+    "Dalgleish JLT",
+    "Freund IM",
+    "Roberts N",
+    "Raymond G",
+    "Sergeant M",
+    "Downes DJ",
+    "Li H",
+    "McVey DG",
+    "Ye S",
+    "Grace C",
+    "Hentges LD",
+    "Dujardin G",
+    "Webb TR",
+    "Davies JOJ",
+    "Kyriakou T",
+    "Goel A",
+    "Watkins H",
+    "Hughes JR"
+  ],
+  "published_date": "2025-12-20",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.64898/2025.12.18.25342557",
+  "pdf_url": "https://www.medrxiv.org/content/10.64898/2025.12.18.25342557.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1270582",
+    "raw_record": {
+      "id": "PPR1270582",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.18.25342557",
+      "title": "Machine Learning and Micro Capture-C resolve GWAS associations revealing endothelial stress pathways in Coronary Artery Disease",
+      "authorString": "Baxter M, Sanders E, Riva SG, Hamley JC, Gur ER, Dalgleish JLT, Freund IM, Roberts N, Raymond G, Sergeant M, Downes DJ, Li H, McVey DG, Ye S, Grace C, Hentges LD, Dujardin G, Webb TR, Davies JOJ, Kyriakou T, Goel A, Watkins H, Hughes JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Baxter M",
+            "lastName": "Baxter",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3612-2574"
+            }
+          },
+          {
+            "fullName": "Sanders E",
+            "lastName": "Sanders",
+            "firstName": "Edward",
+            "initials": "E"
+          },
+          {
+            "fullName": "Riva SG",
+            "lastName": "Riva",
+            "firstName": "Simone",
+            "initials": "SG"
+          },
+          {
+            "fullName": "Hamley JC",
+            "lastName": "Hamley",
+            "firstName": "Joseph",
+            "initials": "JC"
+          },
+          {
+            "fullName": "Gur ER",
+            "lastName": "Gur",
+            "firstName": "Ravza",
+            "initials": "ER"
+          },
+          {
+            "fullName": "Dalgleish JLT",
+            "lastName": "Dalgleish",
+            "firstName": "James",
+            "initials": "JLT"
+          },
+          {
+            "fullName": "Freund IM",
+            "lastName": "Freund",
+            "firstName": "Isabella",
+            "initials": "IM"
+          },
+          {
+            "fullName": "Roberts N",
+            "lastName": "Roberts",
+            "firstName": "Nigel",
+            "initials": "N"
+          },
+          {
+            "fullName": "Raymond G",
+            "lastName": "Raymond",
+            "firstName": "Gabrielle",
+            "initials": "G"
+          },
+          {
+            "fullName": "Sergeant M",
+            "lastName": "Sergeant",
+            "firstName": "Martin",
+            "initials": "M"
+          },
+          {
+            "fullName": "Downes DJ",
+            "lastName": "Downes",
+            "firstName": "Damien",
+            "initials": "DJ"
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Hangpeng",
+            "initials": "H"
+          },
+          {
+            "fullName": "McVey DG",
+            "lastName": "McVey",
+            "firstName": "David",
+            "initials": "DG"
+          },
+          {
+            "fullName": "Ye S",
+            "lastName": "Ye",
+            "firstName": "Shu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Grace C",
+            "lastName": "Grace",
+            "firstName": "Christopher",
+            "initials": "C"
+          },
+          {
+            "fullName": "Hentges LD",
+            "lastName": "Hentges",
+            "firstName": "Lance",
+            "initials": "LD"
+          },
+          {
+            "fullName": "Dujardin G",
+            "lastName": "Dujardin",
+            "firstName": "Gwendal",
+            "initials": "G"
+          },
+          {
+            "fullName": "Webb TR",
+            "lastName": "Webb",
+            "firstName": "Tom",
+            "initials": "TR"
+          },
+          {
+            "fullName": "Davies JOJ",
+            "lastName": "Davies",
+            "firstName": "James",
+            "initials": "JOJ"
+          },
+          {
+            "fullName": "Kyriakou T",
+            "lastName": "Kyriakou",
+            "firstName": "Theodosios",
+            "initials": "T"
+          },
+          {
+            "fullName": "Goel A",
+            "lastName": "Goel",
+            "firstName": "Anuj",
+            "initials": "A"
+          },
+          {
+            "fullName": "Watkins H",
+            "lastName": "Watkins",
+            "firstName": "Hugh",
+            "initials": "H"
+          },
+          {
+            "fullName": "Hughes JR",
+            "lastName": "Hughes",
+            "firstName": "Jim",
+            "initials": "JR"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3612-2574"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Resolving the gene targets of non-coding genetic variation is the major bottleneck in translating genome wide association studies into mechanistic understanding of complex diseases such as coronary artery disease (CAD). Combining new Transformer-based Machine Learning (ML) approaches trained on cardiovascular epigenetics with high-resolution, allele-specific genomic and transcriptomic technologies we create a highly scalable platform to simultaneously resolve causal variants, cell-type of action, output gene, and direction of effect. When applied to CAD genetics, our ML predicts causal variants from 20,747 candidate SNPs across 9 vessel cell-types and identifies disrupted transcription factor binding motifs using ML feature attributions. We investigate 94 of the top predictions in endothelial cells using Micro Capture-C, revealing the importance of fluid shear stress and TGF-β signaling pathways. We exploit allelic skew in heterozygous cells to demonstrate both variant causality and effect direction, demonstrating this platform can be used to rapidly resolve non-coding genetics in complex disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.18.25342557"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-03",
+      "firstPublicationDate": "2025-12-20",
+      "firstIndexDate": "2026-07-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

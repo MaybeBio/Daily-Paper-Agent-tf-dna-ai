@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39027976",
+    "doi": "10.1097/FJC.0000000000001598",
+    "title": "Quercetin Protects Against Hypertensive Renal Injury by Attenuating Apoptosis: An Integrated Approach Using Network Pharmacology and RNA Sequencing."
+  },
+  "content": {
+    "abstract": "Quercetin is known for its antihypertensive effects. However, its role on hypertensive renal injury has not been fully elucidated. In this study, hematoxylin and eosin staining, terminal deoxynucleotidyl transferase dUTP nick-end labeling (TUNEL) staining, and Annexin V staining were used to assess the pathological changes and cell apoptosis in the renal tissues of angiotensin II (Ang II)-infused mice and Ang II-stimulated renal tubular epithelial cell line (NRK-52E). A variety of technologies, including network pharmacology, RNA-sequencing, immunohistochemistry, and Western blotting, were performed to investigate its underlying mechanisms. Network pharmacology analysis identified multiple potential candidate targets (including TP53, Bcl-2, and Bax) and enriched signaling pathways (including apoptosis and p53 signaling pathway). Quercetin treatment significantly alleviated the pathological changes in renal tissues of Ang II-infused mice and reversed 464 differentially expressed transcripts, as well as enriched several signaling pathways, including those related apoptosis and p53 pathway. Furthermore, quercetin treatment significantly inhibited the cell apoptosis in renal tissues of Ang II-infused mice and Ang II-stimulated NRK-52E cells. In addition, quercetin treatment inhibited the upregulation of p53, Bax, cleaved-caspase-9, and cleaved-caspase-3 protein expression and the downregulation of Bcl-2 protein expression in both renal tissue of Ang II-infused mice and Ang II-stimulated NRK-52E cells. Moreover, the molecular docking results indicated a potential binding interaction between quercetin and TP53. Quercetin treatment significantly attenuated hypertensive renal injury and cell apoptosis in renal tissues of Ang II-infused mice and Ang II-stimulated NRK-52E cells and by targeting p53 may be one of the potential underlying mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Quercetin/pharmacology",
+      "Animals",
+      "*Apoptosis/drug effects",
+      "Cell Line",
+      "*Disease Models, Animal",
+      "*Network Pharmacology",
+      "Male",
+      "*Signal Transduction/drug effects",
+      "*Antihypertensive Agents/pharmacology",
+      "Rats",
+      "*Mice, Inbred C57BL",
+      "*Angiotensin II",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "Gene Regulatory Networks/drug effects",
+      "Apoptosis Regulatory Proteins/metabolism/genetics",
+      "Kidney/pathology/drug effects/metabolism",
+      "RNA-Seq",
+      "Gene Expression Regulation/drug effects",
+      "Mice",
+      "Blood Pressure/drug effects",
+      "Hypertension, Renal/metabolism/drug therapy/pathology",
+      "Nephritis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiu-Li",
+        "Li, Jia-Peng",
+        "Wu, Mei-Zhu",
+        "Wu, Jin-Kong",
+        "He, Shu-Yu",
+        "Lu, Yao",
+        "Ding, Qi-Hang",
+        "Wen, Ying",
+        "Long, Lin-Zi",
+        "Fu, Chang-Geng",
+        "Farman, Ali",
+        "Shen, A-Ling",
+        "Peng, Jun"
+      ],
+      "short_names": [
+        "Zhang XL",
+        "Li JP",
+        "Wu MZ",
+        "Wu JK",
+        "He SY",
+        "Lu Y",
+        "Ding QH",
+        "Wen Y",
+        "Long LZ",
+        "Fu CG",
+        "Farman A",
+        "Shen AL",
+        "Peng J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1972-7632",
+        "ORCID: 0000-0002-5081-3523"
+      ],
+      "affiliations": [
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Department of Physical Education, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Department of Geriatrics, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ; and.",
+        "National Clinical Research Center for Chinese Medicine Cardiology, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China .",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ; and.",
+        "National Clinical Research Center for Chinese Medicine Cardiology, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China .",
+        "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+        "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiu-Li",
+        "short_name": "Zhang XL",
+        "identifiers": [
+          "0000-0003-1972-7632"
+        ],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jia-Peng",
+        "short_name": "Li JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Education, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mei-Zhu",
+        "short_name": "Wu MZ",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jin-Kong",
+        "short_name": "Wu JK",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "He, Shu-Yu",
+        "short_name": "He SY",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yao",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Qi-Hang",
+        "short_name": "Ding QH",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ying",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Long, Lin-Zi",
+        "short_name": "Long LZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Chang-Geng",
+        "short_name": "Fu CG",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ; and.",
+          "National Clinical Research Center for Chinese Medicine Cardiology, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ."
+        ]
+      },
+      {
+        "full_name": "Farman, Ali",
+        "short_name": "Farman A",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Shen, A-Ling",
+        "short_name": "Shen AL",
+        "identifiers": [
+          "0000-0002-5081-3523"
+        ],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China.",
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ; and.",
+          "National Clinical Research Center for Chinese Medicine Cardiology, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China ."
+        ]
+      },
+      {
+        "full_name": "Peng, Jun",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Institute, The Second Affiliated Hospital and Academy of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Key Laboratory of Integrative Medicine on Geriatrics, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China.",
+          "Fujian Collaborative Innovation Center for Integrative Medicine in Prevention and Treatment of Major Chronic Cardiovascular Diseases, Fuzhou, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cardiovascular pharmacology"
+    ],
+    "journal_abbrev": [
+      "J Cardiovasc Pharmacol"
+    ],
+    "pub_date": "2024 Sep 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/19 06:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42363525",
+      "41226708",
+      "40109455"
+    ],
+    "refs": [],
+    "similar": [
+      "39027976",
+      "40109455",
+      "35222007",
+      "41416166",
+      "37296538",
+      "39915557",
+      "40522426",
+      "40341164",
+      "42198971",
+      "39528105",
+      "42035996",
+      "38712979",
+      "21586345",
+      "41747788",
+      "40550195",
+      "11168946",
+      "41543314",
+      "35862110",
+      "40451491",
+      "26556707",
+      "33867822",
+      "41990999",
+      "39338362",
+      "42177886",
+      "41420903",
+      "33378940",
+      "39393558",
+      "33852804",
+      "24269250",
+      "42011617",
+      "29568897",
+      "38400848",
+      "42102610",
+      "23515840",
+      "33164579",
+      "35219163",
+      "34654783",
+      "38725104",
+      "38992718",
+      "29956588",
+      "38445356",
+      "30340829",
+      "38821252",
+      "41656809",
+      "29490296",
+      "41429619",
+      "41488110",
+      "36733505",
+      "10454454",
+      "33921823",
+      "40684819",
+      "38583728",
+      "39127302",
+      "34896544",
+      "40517918",
+      "36403742",
+      "41065914",
+      "11959625",
+      "32962526",
+      "23848144",
+      "19808082",
+      "39440778",
+      "39565140",
+      "23127917",
+      "42359648",
+      "42172986",
+      "26017473",
+      "40840143",
+      "41330018",
+      "40783939",
+      "41544688",
+      "41508211",
+      "25277160",
+      "40284165",
+      "10523336",
+      "40139580",
+      "42262191",
+      "37812949",
+      "39939539",
+      "39019831",
+      "42324107",
+      "39871379",
+      "40615101",
+      "39742571",
+      "30991286",
+      "39701737",
+      "35871203",
+      "29266709",
+      "25523932",
+      "31857626",
+      "41421277",
+      "41876239",
+      "25148511",
+      "30715105",
+      "35715796",
+      "28322341",
+      "25395699",
+      "32320986",
+      "14871401",
+      "26245758"
+    ],
+    "review": [
+      "39027976"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=84&issue=3&spage=370&aulast=Zhang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bloodpressuremedicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Blood Pressure Medicines"
+      },
+      {
+        "url": "https://www.ovid.com/39027976.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/FJC.0000000000001598",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

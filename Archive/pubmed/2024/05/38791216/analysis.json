@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38791216",
+  "title": "ARIP: A Tool for Precise Interatomic Contact Area and Volume Calculation in Proteins.",
+  "authors": "Ma, Tao; Li, Wenhui; Tang, Zhiping; Sun, Xiangwei; Li, Lijuan; Liu, Zhonghua; Zhang, Gaihua",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-05-25",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍ARIP工具，通过改进算法计算蛋白质内原子接触面积与体积，并应用于蛋白-DNA结合（SPI1）案例，虽涉及蛋白-DNA互作但非核心聚焦TF-DNA机制建模，方法可迁移至界面分析。",
+  "abstract": "The interplay patterns of amino acid residues are pivotal in determining the tertiary structure and flexibility of proteins, which in turn are intricately linked to their functionality and interactions with other molecules. Here, we introduce ARIP, a novel tool designed to identify contact residues within proteins. ARIP employs a modified version of the dr_sasa algorithm and an atomic overlap weighted algorithm to directly calculate the contact area and volume between atoms based on their van der Waals radius. It also allows for the selection of solvent radii, recognizing that not every atom in proteins can interact with water molecules. The solvent parameters were derived from the analysis of approximately 5000 protein and nucleic acid structures with water molecules determined using X-ray crystallography. One advantage of the modified algorithm is its capability to analyze multiple models within a single PDB file, making it suitable for molecular dynamic capture. The contact volume is symmetrically distributed between the interacting atoms, providing more informative results than contact area for the analysis of intra- and intermolecular interactions and the development of scoring functions. Furthermore, ARIP has been applied to four distinct cases: capturing key residue-residue contacts in NMR structures of P4HB, protein-drug binding of CYP17A1, protein-DNA binding of SPI1, and molecular dynamic simulations of BRD4.",
+  "abstract_zh": "氨基酸残基的相互作用模式在决定蛋白质的三级结构和柔性方面至关重要，而这又与其功能及与其他分子的相互作用密切相关。在此，我们介绍ARIP，一种旨在识别蛋白质内接触残基的新型工具。ARIP采用改良版的dr_sasa算法和原子重叠加权算法，基于原子的范德华半径直接计算原子间的接触面积和体积。它还允许选择溶剂半径，认识到蛋白质中并非每个原子都能与水分子相互作用。溶剂参数来源于对约5000个通过X射线晶体学确定并含有水分子的蛋白质和核酸结构的分析。改良算法的一个优势是能够分析单个PDB文件中的多个模型，使其适用于分子动力学捕获。接触体积在相互作用原子之间对称分布，为分析分子内和分子间相互作用以及开发评分函数提供了比接触面积更具信息量的结果。此外，ARIP已应用于四个不同案例：捕捉P4HB的NMR结构中的关键残基-残基接触、CYP17A1的蛋白质-药物结合、SPI1的蛋白质-DNA结合，以及BRD4的分子动力学模拟。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38791216/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38791216/",
+  "paper_page_path": "papers/pubmed/38791216/index.html"
+}

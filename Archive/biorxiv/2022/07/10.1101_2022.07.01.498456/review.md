@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided; no figures, tables, or supplementary materials were included in the supplied material.
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity as presented in the text. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors use conventional and constant pH molecular dynamics simulations to study the pH-dependent binding of guanidinium ions to the active site of hen egg-white lysozyme. They report multiple binding pathways, pH-sensitive binding and unbinding rate constants, and the formation of higher-order complexes with up to three Gdm+ ions bound. They propose implications for designing multivalent guanidine-based inhibitors.
+- **Visible evidence base** Text descriptions of simulation protocols, free energy surfaces, rate constant calculations, and Markov state model analyses. No numerical data, figures, or tables were available for direct verification.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and quantitative results (e.g., free energy values, rate constants, equilibrium probabilities) were not provided. This substantially limits the ability to verify the reported findings.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in drug design, namely how pH modulates ligand binding to enzyme active sites. The choice of HEWL with its two active-site acidic residues and Gdm+ as a model ligand is well justified. The simulation approach combining cMD and cpHMD is appropriate, and the use of Markov state models to extract kinetic information is commendable. However, the absence of quantitative data and figures in the provided material prevents a full evaluation of the claims. Several methodological details are under-specified, and some interpretations appear to extend beyond what the described analyses can support. The core finding of a sharp pH-dependent transition in binding kinetics near the pKa of Glu35 is plausible but requires verification against the actual data.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying protein-ligand interactions, particularly those interested in pH-dependent phenomena and constant pH molecular dynamics. Researchers in structure-based drug design targeting enzymes with acidic active-site residues, especially those developing guanidine-containing therapeutics, would find the results relevant. The work may also interest method developers working on Markov state models for binding kinetics.
+- **Major strengths** The study addresses a biologically and pharmacologically relevant question with a well-chosen model system. The combination of unbiased cMD and cpHMD simulations is methodologically sound and appropriate for probing pH effects. The identification of multiple binding pathways and intermediate states adds mechanistic detail. The use of Markov state models to quantify kinetics is a strength. The potential design implication regarding multivalent guanidine-based inhibitors is an interesting and forward-looking conclusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "there is a sharp jump in the ligand-binding rate constant when the pH approaches the largest pKa of the acidic residue present in the active site."
+  - **Evidence pointer** Results section "Gdm+ Binding Rate Constants Depend on the pH"; Figure 4A (not provided)
+  - **Concern** The central quantitative claim of a sharp jump in binding rate constants near the pKa of Glu35 cannot be evaluated without the actual numerical data or the figure. The text describes the trend but provides no values, error estimates, or statistical significance. Furthermore, the rate constants are computed from mean first passage times using Kramers' theory, but the text does not specify how the assumptions of this theory are validated for this system, nor how many binding/unbinding events were observed to ensure convergence.
+  - **Why it matters** This is the primary quantitative result of the paper and underpins the proposed design implications. Without verifiable data and a clear demonstration that the computed rate constants are converged and statistically robust, the claim is not established.
+  - **Resolution test** Provide the numerical values of k_on and k_off with error bars for each pH condition, specify the number of binding/unbinding events used, and demonstrate convergence of the mean first passage time estimates. Show that the jump is statistically significant relative to the estimated uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that "the simulations reveal that, at most, three Gdm+ can bind at the active site, with the Gdm+ bound in the cavity of the active site acting as a scaffold for the other two Gdm+ ions binding."
+  - **Evidence pointer** Results section "Multiple Gdm+ Can Bind to the HEWL Active Site"; Figure 3 (not provided)
+  - **Concern** The claim of up to three Gdm+ ions binding is based on the free energy surface projected onto a coordination number collective variable. The text does not provide the free energy values, the depths of the minima, or the statistical uncertainty in these minima. It is also unclear whether the simulations were long enough to observe equilibrium between all states, particularly the higher-order states T and D, which have low populations. The text mentions that state T has an equilibrium probability of 0.007, but it is not stated whether this is a converged estimate.
+  - **Why it matters** The existence of higher-order binding states is a novel and potentially important finding. However, if these states are rarely populated and the estimates are not converged, the claim may be overstated. The design implication of multivalent inhibitors depends critically on the stability and relevance of these higher-order states.
+  - **Resolution test** Provide the free energy values and uncertainties for each state, demonstrate convergence of the equilibrium probabilities, and show that the simulations sample all relevant states multiple times. If possible, provide independent validation of the higher-order states, for example through additional simulations or different analysis methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational rigor
+  - **Claim pointer** The authors propose that "the possibility of designing large molecules with multiple guanidinium moieties that can efficiently bind to inhibit enzyme activity" is a direct implication of their findings.
+  - **Evidence pointer** Conclusions section
+  - **Concern** This design implication is presented as a natural consequence of the observed higher-order binding states. However, the simulations use a bare Gdm+ ion at millimolar concentrations, whereas a drug molecule with multiple guanidinium moieties would have very different steric, electrostatic, and entropic properties. The text does not discuss these differences or the limitations of extrapolating from a small ion to a complex drug-like molecule.
+  - **Why it matters** Overstating the translational relevance of a model-system study can mislead readers, particularly those in drug discovery. The claim should be framed as a hypothesis or a speculative implication, not a direct consequence of the data.
+  - **Resolution test** Soften the language to clearly indicate that this is a speculative design hypothesis. Discuss the limitations of the model system and the factors that would need to be considered in translating these findings to drug-like molecules.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, cpHMD simulations
+  - **Evidence pointer** Methods and Materials, "Constant pH Molecular Dynamics (cpHMD) Simulations"
+  - **Issue** The text states that pKa values of titratable residues are taken from experiments and given as input, but it does not specify which experimental values were used for Glu35 and Asp52 beyond the values of 6.2 and 3.6 mentioned in the Results. It is also unclear how the cpHMD method handles the coupling between protonation state changes and the conformational dynamics of the protein.
+  - **Required correction** Clarify the source of the pKa values and describe the cpHMD algorithm's treatment of protonation-conformation coupling. Specify whether the pKa values were held fixed or allowed to shift in response to the local environment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, simulation protocols
+  - **Evidence pointer** Methods and Materials, "Conventional Molecular Dynamics Simulations"
+  - **Issue** The text mentions that simulations were run with both NAMD and GROMACS packages, but it does not specify whether the same initial configurations, equilibration protocols, and analysis methods were used across both packages. It is also unclear whether the 1 microsecond simulations were used in the same analyses as the shorter ones.
+  - **Required correction** Provide a clear description of how data from different simulation packages and lengths were combined or compared. State whether any cross-validation was performed to ensure consistency.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, Markov state model
+  - **Evidence pointer** Results section "Network of Transitions in Gdm+ Binding"
+  - **Issue** The text describes the construction of a Markov state model and the use of transition path theory, but it does not report the number of microstates, the implied timescale spectrum beyond the statement that they flattened at 1 ns, or the results of the Chapman-Kolmogorov test beyond a reference to Figure S3B.
+  - **Required correction** Provide a summary of the model validation, including the number of states, the lag time dependence, and the quality of the Chapman-Kolmogorov test. This is essential for assessing the reliability of the kinetic network.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "binding rate constant" is used interchangeably with "association rate constant" and "k_on" without a clear definition of the units or the reference concentration. The text also refers to "binding thermodynamics" in the abstract but focuses on kinetics in the results.
+  - **Required correction** Define all rate constants with their units and the standard state used. Clarify whether the study addresses thermodynamics, kinetics, or both, and ensure the abstract accurately reflects the scope.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative claims cannot be verified from the provided material. The lack of numerical data, figures, and convergence analyses means the case for pH-dependent binding kinetics and higher-order binding states is not established. R1-M3 is not blocking but requires reframing to avoid overstatement.
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific combination of cpHMD with binding kinetics analysis for a model enzyme, though the general concept of pH-dependent ligand binding is well established. Scientific importance: The findings could be relevant to drug design, but the significance is currently limited by the model-system nature and the lack of quantitative validation. Interdisciplinary readership: The topic bridges biophysics, chemistry, and pharmacology, and the writing is generally accessible, though some methodological details may be challenging for non-specialists. Technical soundness: The simulation approach is appropriate, but the lack of convergence analyses and quantitative reporting undermines confidence. Readability for nonspecialists: The abstract and introduction are clear, but the results section assumes familiarity with collective variables, Markov state models, and transition path theory without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question with an appropriate methodology, but the absence of quantitative data and convergence analyses prevents verification of the central claims. The authors should provide the missing data, demonstrate statistical robustness, and reframe the design implications as speculative. If these concerns are addressed, the work could be suitable for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The sharp jump in binding rate constants near the pKa of Glu35 is unsupported without numerical data and error estimates.
+- The existence and stability of higher-order binding states with up to three Gdm+ ions are unsupported without free energy values and convergence analyses.
+- The claim that the bound Gdm+ acts as a scaffold for additional ions is an interpretation that requires direct structural evidence.
+- The design implication for multivalent guanidine-based inhibitors is speculative and not directly supported by the data.
+- The statement that "the residues close to the active site that can anchor the ligand could play a critical role" is presented without specific evidence identifying which residues and what role they play.
+- The approximation of mean first passage times as binding/unbinding rate constants using Kramers' theory is not validated for this system.

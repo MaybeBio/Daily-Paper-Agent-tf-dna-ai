@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors model the CED-9/CED-4/EGL-1 ternary complex and use molecular dynamics simulations of six CED-9-containing systems to propose a mechanism for CED-4 release from CED-9 upon EGL-1 binding, implicating the winged-helix domain of CED-4a in dissociation and describing potential intermediate states.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or structural analyses are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup details, convergence criteria, structural figures, interaction analysis tables, PCA results, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically relevant question in the C. elegans apoptotic pathway. The central claim, that EGL-1 binding weakens CED-4a-CED-9 interactions and that the winged-helix domain plays a key role in CED-4 release, is mechanistically interesting. However, the abstract lacks sufficient quantitative detail to evaluate the robustness of the simulations, the significance of the observed dynamics, or the validity of the proposed intermediate states. The case is not established from the provided material alone.
+- **Who would be interested in the results, and why** Researchers studying apoptosis regulation, particularly the C. elegans model system, and computational biologists interested in protein-protein interaction dynamics and allosteric mechanisms. The findings could inform experimental studies on CED-4 release and potentially translate to understanding Apaf-1 regulation in mammals.
+- **Major strengths** The study addresses a gap in structural knowledge by modeling the ternary complex. The use of multiple simulation systems to compare CED-9 dynamics across different binding states is a sound approach. The focus on differential dynamics and specific domain contributions provides a testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "majority of non-covalent interactions involving CARD domain in the CED-4a-CED-9 interface have weakened" upon EGL-1 binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative metrics for interaction strength, no definition of "weakened," and no comparison to a control or baseline. Without specific interaction energies, contact lifetimes, or occupancy data, this claim cannot be evaluated.
+  - **Why it matters** This is a central mechanistic conclusion. If the interaction weakening is not robustly quantified, the proposed release mechanism lacks a solid foundation.
+  - **Resolution test** Provide quantitative interaction analysis (e.g., hydrogen bond occupancy, contact maps, interaction energies) with error estimates and statistical comparison across systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "only half of the contacts found in the crystal structure between alpha/beta domain of CED4a and CED-9 are found to be stable."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The term "stable" is undefined. No criteria for stability (e.g., contact persistence threshold, simulation time) are given. The abstract does not specify which contacts are lost or how this was determined.
+  - **Why it matters** This quantitative claim is essential for supporting the proposed dissociation mechanism. Without clear stability criteria, the result is not reproducible or verifiable.
+  - **Resolution test** Define stability criteria explicitly, list the specific contacts retained and lost, and show representative time series or occupancy distributions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "winged-helix domain may play a key role in CED-4a's dissociation from CED-9" based on "additional stable contacts in the ternary complex and differential dynamics."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe what these additional stable contacts are, where they occur, or how differential dynamics specifically implicate the winged-helix domain. The causal link between observed dynamics and a functional role in dissociation is speculative.
+  - **Why it matters** This is the key mechanistic proposal. Without specific structural or dynamic evidence linking the winged-helix domain to the release process, the conclusion is not supported.
+  - **Resolution test** Provide detailed analysis of the winged-helix domain motion (e.g., PCA projections, domain displacement vectors) and identify specific contacts that change upon EGL-1 binding, with a clear argument for how these changes drive dissociation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "potential intermediate states that are likely to occur when CED-4a is released from CED-9" have been identified.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No description of these intermediate states is provided. The abstract does not specify their structural features, lifetimes, or how they were identified from the simulations.
+  - **Why it matters** The identification of intermediate states is a major claim that would be of significant interest. Without any detail, this claim is unverifiable and appears premature.
+  - **Resolution test** Describe the intermediate states structurally, provide evidence for their population and stability, and show how they connect to the release pathway.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses domain names (e.g., CARD, winged-helix, alpha/beta domain) without brief functional context, which may be unclear to readers outside the structural biology field.
+  - **Required correction** Add a brief parenthetical description of each domain's role or location when first mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not explicitly state the potential implications for mammalian apoptosis or Apaf-1 regulation, which would broaden the significance of the findings.
+  - **Required correction** Add one sentence connecting the C. elegans findings to potential relevance for mammalian homologs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "six different systems involving CED-9" but does not list what these systems are, making it difficult to assess the scope of the comparison.
+  - **Required correction** Briefly enumerate the six systems (e.g., apo CED-9, CED-9/EGL-1, CED-9/CED-4, ternary complex, etc.) in the abstract or refer to a table in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative interaction data, stability criteria, specific structural details of the winged-helix domain role, and any description of the proposed intermediate states. These are essential to support the mechanistic claims.
+- **Assessment against Nature-style criteria** Originality: The study addresses a known gap (ternary complex structure) and proposes a novel mechanistic hypothesis, which is original. Scientific importance: The topic is relevant to apoptosis research, but the abstract does not clearly articulate broader implications, limiting perceived importance. Interdisciplinary readership: The work is primarily of interest to structural biologists and computational chemists; the abstract does not make it accessible to a wider biological audience. Technical soundness: Not assessable from the abstract alone; the lack of quantitative detail is a major concern. Readability for nonspecialists: The abstract is reasonably clear but uses domain-specific jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic claims are plausible but unsupported by the abstract-level information. A full review of the manuscript with detailed methods and results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that "majority of non-covalent interactions involving CARD domain have weakened" is unsupported without quantitative data.
+- The claim that "only half of the contacts found in the crystal structure are stable" is unsupported without defined stability criteria.
+- The claim that "winged-helix domain may play a key role in CED-4a's dissociation" is speculative and not supported by specific evidence in the abstract.
+- The claim of identifying "potential intermediate states" is unsupported as no description or evidence is provided.
+- The overall conclusion that the study provides "molecular level understanding" of the release mechanism is not verifiable from the abstract alone.

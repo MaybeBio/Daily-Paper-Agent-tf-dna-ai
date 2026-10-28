@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "34161324",
+    "doi": "10.1371/journal.pone.0252901",
+    "title": "Revealing nuclear receptor hub modules from Basal-like breast cancer expression networks."
+  },
+  "content": {
+    "abstract": "Nuclear receptors are a class of transcriptional factors. Together with their co-regulators, they regulate development, homeostasis, and metabolism in a ligand-dependent manner. Their ability to respond to environmental stimuli rapidly makes them versatile cellular components. Their coordinated activities regulate essential pathways in normal physiology and in disease. Due to their complexity, the challenge remains in understanding their direct associations in cancer development. Basal-like breast cancer is an aggressive form of breast cancer that often lacks ER, PR and Her2. The absence of these receptors limits the treatment for patients to the non-selective cytotoxic and cytostatic drugs. To identify potential drug targets it is essential to identify the most important nuclear receptor association network motifs in Basal-like subtype progression. This research aimed to reveal the transcriptional network patterns, in the hope to capture the underlying molecular state driving Basal-like oncogenesis. In this work, we illustrate a multidisciplinary approach of integrating an unsupervised machine learning clustering method with network modelling to reveal unique transcriptional patterns (network motifs) underlying Basal-like breast cancer. The unsupervised clustering method provides a natural stratification of breast cancer patients, revealing the underlying heterogeneity in Basal-like. Identification of gene correlation networks (GCNs) from Basal-like patients in both the TCGA and METABRIC databases revealed three critical transcriptional regulatory constellations that are enriched in Basal-like. These represent critical NR components implicated in Basal-like breast cancer transcription. This approach is easily adaptable and applicable to reveal critical signalling relationships in other diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomarkers, Tumor/*genetics",
+      "Breast Neoplasms/genetics/metabolism/*pathology",
+      "Basal Cell Carcinoma/genetics/metabolism/*pathology",
+      "Female",
+      "Gene Expression Regulation, Neoplastic",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "Erb-b2 Receptor Tyrosine Kinases/*metabolism",
+      "Receptors, Estrogen/*metabolism",
+      "Receptors, Progesterone/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hsu, Sharon Nienyun",
+        "Hui, Erika Wong En",
+        "Liu, Mengzhen",
+        "Wu, Di",
+        "Hughes, Thomas A",
+        "Smith, James"
+      ],
+      "short_names": [
+        "Hsu SN",
+        "Hui EWE",
+        "Liu M",
+        "Wu D",
+        "Hughes TA",
+        "Smith J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2356-9155"
+      ],
+      "affiliations": [
+        "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom.",
+        "Astbury Centre, Faculty of Biological Sciences, University of Leeds, Leeds, United Kingdom.",
+        "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom.",
+        "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom.",
+        "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom.",
+        "School of Medicine, University of Leeds, Leeds, United Kingdom.",
+        "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hsu, Sharon Nienyun",
+        "short_name": "Hsu SN",
+        "identifiers": [
+          "0000-0003-2356-9155"
+        ],
+        "affiliations": [
+          "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom.",
+          "Astbury Centre, Faculty of Biological Sciences, University of Leeds, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hui, Erika Wong En",
+        "short_name": "Hui EWE",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengzhen",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wu, Di",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hughes, Thomas A",
+        "short_name": "Hughes TA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University of Leeds, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Smith, James",
+        "short_name": "Smith J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science & Nutrition, Faculty of Environment, University of Leeds, Leeds, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/24 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "39561175"
+    ],
+    "refs": [
+      "31278301",
+      "31084623",
+      "30679171",
+      "30087365",
+      "29628290",
+      "29279606",
+      "29115304",
+      "29069648",
+      "28432122",
+      "28087820",
+      "26693050",
+      "26631912",
+      "26280373",
+      "26253814",
+      "25794775",
+      "24488081",
+      "24362405",
+      "24336805",
+      "24194826",
+      "23801603",
+      "23686490",
+      "23517088",
+      "23404817",
+      "23292282",
+      "23219555",
+      "23000897",
+      "22983151",
+      "22579276",
+      "22522925",
+      "21965334",
+      "21164525",
+      "20861225",
+      "20490655",
+      "20370926",
+      "19660130",
+      "19582160",
+      "19204204",
+      "18417735",
+      "18282479",
+      "18054268",
+      "17851544",
+      "17683609",
+      "17609497",
+      "17575275",
+      "17570479",
+      "17157791",
+      "17009623",
+      "16729877",
+      "16646851",
+      "16643655",
+      "16339439",
+      "16199154",
+      "16115903",
+      "15604419",
+      "14735121",
+      "14555986",
+      "12917485",
+      "12829800",
+      "11553815",
+      "11402336",
+      "10963602",
+      "7794075"
+    ],
+    "similar": [
+      "34161324",
+      "20716336",
+      "30128822",
+      "22524806",
+      "24521995",
+      "19538528",
+      "19130459",
+      "18654595",
+      "18752049",
+      "21693047",
+      "17950079",
+      "20049641",
+      "35699854",
+      "24008056",
+      "21388048",
+      "22821401",
+      "16757721",
+      "19089739",
+      "32423453",
+      "19270750",
+      "24498016",
+      "18479610",
+      "25605142",
+      "19723150",
+      "37789381",
+      "27477822",
+      "17885672",
+      "31324173",
+      "30679318",
+      "34462207",
+      "19432961",
+      "34257555",
+      "20104967",
+      "22450930",
+      "18681317",
+      "31359505",
+      "23012297",
+      "21055152",
+      "37947928",
+      "24245483",
+      "19950556",
+      "23392719",
+      "23845471",
+      "22343619",
+      "20131996",
+      "21388060",
+      "19034706",
+      "27666130",
+      "31276668",
+      "24045095",
+      "23255137",
+      "29523126",
+      "21442348",
+      "34406386",
+      "25261374",
+      "18316557",
+      "31290783",
+      "27315045",
+      "24652232",
+      "27456970",
+      "25756514",
+      "22290394",
+      "25339035",
+      "19801938",
+      "23799842",
+      "21278435",
+      "19489221",
+      "29286222",
+      "24122391",
+      "24307349",
+      "19608352",
+      "23269487",
+      "29383648",
+      "32856720",
+      "28178722",
+      "24119434",
+      "27760283",
+      "24344720",
+      "27666436",
+      "27619909",
+      "21424368",
+      "22957400",
+      "23098526",
+      "39193850",
+      "22903686",
+      "29409530",
+      "27743431",
+      "25339043",
+      "20041316",
+      "30798446",
+      "29484537",
+      "23506684",
+      "22119825",
+      "33585986",
+      "30706224",
+      "24297604",
+      "25880075",
+      "22057681",
+      "16938528",
+      "31197620"
+    ],
+    "review": [
+      "34161324",
+      "21388048",
+      "19089739",
+      "19270750",
+      "18479610",
+      "23012297",
+      "20131996",
+      "21278435",
+      "24307349"
+    ],
+    "pmc": [
+      "8221501"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0252901",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34161324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34161324",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/174692/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

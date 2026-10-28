@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "40274384",
+    "doi": "10.1631/jzus.B2300678",
+    "title": "Roles of PANoptosis and related genes in acute liver failure: neoteric insight from bioinformatics analysis and animal experiment verification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: PANoptosis has the features of pyroptosis, apoptosis, and necroptosis. Numerous studies have confirmed the diverse roles of various types of cell death in acute liver failure (ALF), but limited attention has been given to the crosstalk among them. In this study, we aimed to explore the role of PANoptosis in ALF and uncover new targets for its prevention or treatment. METHODS: Three ALF-related datasets (GSE14668, GSE62029, and GSE74000) were downloaded from the Gene Expression Omnibus (GEO) database to identify differentially expressed genes (DEGs). Hub genes were identified through intersecting DEGs, genes obtained from weighted gene co-expression network analysis (WGCNA), and genes related to PANoptosis. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), protein‍‒‍protein interaction (PPI) analyses and gene set enrichment analysis (GSEA) were performed to determine functional roles. Verification was performed using an ALF mouse model. RESULTS: Our results showed that expression of seven hub genes (B-cell lymphoma-2-modifying factor (BMF), B-cell lymphoma-2-interacting protein 3-like (BNIP3L), Caspase-1 (CASP1), receptor-interacting protein kinase 3 (RIPK3), uveal autoantigen with coiled-coil domains and ankyrin repeats protein (UACA), uncoordinated-5 homolog B receptor (UNC5B), and Z-DNA-binding protein 1 (ZBP1)) was up-regulated in liver samples of patients. However, in the ALF mouse model, the expression of BNIP3L, RIPK3, phosphorylated RIPK3 (P-RIPK3), UACA, and cleaved caspase-1 was up-regulated, while the expression of CASP1 and UNC5B was down-regulated. The expression of ZBP1 and BMF increased only during the development of ALF, and there was no significant change in the end stage. Immunofluorescence of mouse liver tissue showed that macrophages expressed all seven markers. Western blot results showed that pyroptosis, apoptosis, and necroptosis were always involved in lipopolysaccharide (LPS)/ d-galactosamine (d-gal)‍-induced ALF mice. The ALF cell model showed that bone marrow-derived macrophages (BMDMs) form PANoptosomes after LPS stimulation. CONCLUSIONS: Our results suggest that PANoptosis of macrophages promotes the development of ALF. The seven new ALF biomarkers identified and validated in this study may contribute to further investigation of diagnostic markers or novel therapeutic targets of ALF.",
+    "keywords": [
+      "Acute liver failure",
+      "Biomarker",
+      "Gene Expression Omnibus (GEO)",
+      "PANoptosis",
+      "Therapeutic target"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Liver Failure, Acute/genetics",
+      "Computational Biology",
+      "Mice",
+      "*Pyroptosis/genetics",
+      "Humans",
+      "Protein Interaction Maps",
+      "Apoptosis/genetics",
+      "*Necroptosis/genetics",
+      "Gene Regulatory Networks",
+      "Gene Ontology",
+      "Gene Expression Profiling",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Tiantian",
+        "Chen, Yao",
+        "Pang, Lantian",
+        "Shao, Junwei",
+        "Chen, Zhi"
+      ],
+      "short_names": [
+        "Ge T",
+        "Chen Y",
+        "Pang L",
+        "Shao J",
+        "Chen Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China.",
+        "Department of Infectious Diseases, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310009, China.",
+        "Division of Hepatobiliary and Pancreatic Surgery, Department of Surgery, The Second Affiliated Hospital, Zhejiang University, School of Medicine, Hangzhou 310009, China. sjw507@163.com.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China. zjuchenzhi@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Tiantian",
+        "short_name": "Ge T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Lantian",
+        "short_name": "Pang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310009, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Junwei",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hepatobiliary and Pancreatic Surgery, Department of Surgery, The Second Affiliated Hospital, Zhejiang University, School of Medicine, Hangzhou 310009, China. sjw507@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhi",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310003, China. zjuchenzhi@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of Zhejiang University. Science. B"
+    ],
+    "journal_abbrev": [
+      "J Zhejiang Univ Sci B"
+    ],
+    "pub_date": "2025 Apr 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/25 01:21",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39944246",
+      "37589593",
+      "37568009",
+      "37352727",
+      "37223475",
+      "37200384",
+      "37090697",
+      "36822457",
+      "36670464",
+      "36543135",
+      "36400204",
+      "36142136",
+      "35979583",
+      "35974411",
+      "35900430",
+      "35806192",
+      "35470064",
+      "35221331",
+      "34686350",
+      "34537233",
+      "33662432",
+      "33431796",
+      "33278357",
+      "32771377",
+      "32547960",
+      "31850239",
+      "31498101",
+      "30250076",
+      "29772377",
+      "29500178",
+      "28318352",
+      "27917412",
+      "25662614",
+      "25236395",
+      "24582829",
+      "24369077",
+      "22310284",
+      "22257669",
+      "21463242",
+      "21238923",
+      "19590578",
+      "19187222",
+      "17618271",
+      "16971260",
+      "16909112",
+      "16879151",
+      "16373335",
+      "16200193",
+      "15358194",
+      "12761289",
+      "11973609",
+      "11559532",
+      "11546872"
+    ],
+    "similar": [
+      "40274384",
+      "39650656",
+      "38587531",
+      "38404827",
+      "40091022",
+      "39393431",
+      "38652339",
+      "39991755",
+      "39556889",
+      "39351239",
+      "35957838",
+      "39394418",
+      "40307356",
+      "29850453",
+      "32686296",
+      "35036448",
+      "39223367",
+      "40019588",
+      "36246593",
+      "31521462",
+      "33100826",
+      "34553293",
+      "39074415",
+      "38549107",
+      "38062833",
+      "37460430",
+      "32626989",
+      "39586719",
+      "39466748",
+      "35965803",
+      "38319987",
+      "36911196",
+      "38957433",
+      "32547960",
+      "38353723",
+      "33109609",
+      "38852523",
+      "35016690",
+      "40086567",
+      "38764052",
+      "38749785",
+      "35480868",
+      "30591937",
+      "38890348",
+      "39172048",
+      "39870856",
+      "38886539",
+      "30132538",
+      "36291136",
+      "40098903",
+      "36918839",
+      "32756534",
+      "32853947",
+      "35346191",
+      "39285310",
+      "40207151",
+      "36225941",
+      "33407587",
+      "38656456",
+      "31987036",
+      "39111872",
+      "32729116",
+      "39284931",
+      "36514015",
+      "39832635",
+      "29384847",
+      "37773866",
+      "37168540",
+      "37861483",
+      "34154417",
+      "35563804",
+      "38281281",
+      "38774257",
+      "39697326",
+      "38736878",
+      "39833634",
+      "39829117",
+      "33437215",
+      "30825595",
+      "34949204",
+      "38946402",
+      "38073349",
+      "34218797",
+      "38172209",
+      "39838688",
+      "34257537",
+      "40173189",
+      "33102593",
+      "39953769",
+      "39311631",
+      "38562657",
+      "37224002",
+      "36157062",
+      "30542696",
+      "39342024",
+      "31746405",
+      "38142454",
+      "38851781",
+      "38965970",
+      "31802832"
+    ],
+    "review": [
+      "40274384",
+      "32729116",
+      "35563804"
+    ],
+    "pmc": [
+      "12021540"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40274384/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-903",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://www.jzus.zju.edu.cn/article.php?doi=10.1631/jzus.B2300678",
+        "provider": "Zhejiang University Press",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

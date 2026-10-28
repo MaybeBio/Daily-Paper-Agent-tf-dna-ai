@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33861755",
+  "title": "Identification of long regulatory elements in the genome of Plasmodium falciparum and other eukaryotes.",
+  "authors": "Menichelli, Christophe; Guitard, Vincent; Martins, Rafael M; Lebre, Sophie; Lopez-Rubio, Jose-Juan; Lecellier, Charles-Henri; Brehelin, Laurent",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-04-17",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 4,
+  "one_liner_zh": "提出DExTER算法识别长调控元件并预测基因表达，虽涉及基因调控但非蛋白质-DNA互作建模，且方法为序列统计而非AI/物理模拟，与TF-DNA结合机制课题关联较弱。",
+  "abstract": "Long regulatory elements (LREs), such as CpG islands, polydA:dT tracts or AU-rich elements, are thought to play key roles in gene regulation but, as opposed to conventional binding sites of transcription factors, few methods have been proposed to formally and automatically characterize them. We present here a computational approach named DExTER (Domain Exploration To Explain gene Regulation) dedicated to the identification of candidate LREs (cLREs) and apply it to the analysis of the genomes of P. falciparum and other eukaryotes. Our analyses show that all tested genomes contain several cLREs that are somewhat conserved along evolution, and that gene expression can be predicted with surprising accuracy on the basis of these long regions only. Regulation by cLREs exhibits very different behaviours depending on species and conditions. In P. falciparum and other Apicomplexan organisms as well as in Dictyostelium discoideum, the process appears highly dynamic, with different cLREs involved at different phases of the life cycle. For multicellular organisms, the same cLREs are involved in all tissues, but a dynamic behavior is observed along embryonic development stages. In P. falciparum, whose genome is known to be strongly depleted of transcription factors, cLREs are predictive of expression with an accuracy above 70%, and our analyses show that they are associated with both transcriptional and post-transcriptional regulation signals. Moreover, we assessed the biological relevance of one LRE discovered by DExTER in P. falciparum using an in vivo reporter assay. The source code (python) of DExTER is available at https://gite.lirmm.fr/menichelli/DExTER.",
+  "abstract_zh": "长调控元件（LREs），如CpG岛、polydA:dT序列或AU富集元件，被认为在基因调控中发挥关键作用，但与转录因子的常规结合位点不同，目前很少有方法被提出用于正式且自动地表征它们。我们在此提出一种名为DExTER（Domain Exploration To Explain gene Regulation）的计算方法，专门用于识别候选长调控元件（cLREs），并将其应用于恶性疟原虫及其他真核生物基因组的分析。我们的分析表明，所有测试的基因组均包含多个在进化过程中相对保守的cLREs，且仅基于这些长区域即可以惊人的准确性预测基因表达。cLREs介导的调控在不同物种和条件下表现出非常不同的行为。在恶性疟原虫及其他顶复门生物以及盘基网柄菌中，该过程显得高度动态，不同生命周期的阶段涉及不同的cLREs。对于多细胞生物，所有组织中涉及相同的cLREs，但在胚胎发育阶段观察到动态行为。在恶性疟原虫中，其基因组已知严重缺乏转录因子，cLREs对表达的预测准确性超过70%，且我们的分析表明它们与转录和转录后调控信号均相关。此外，我们通过体内报告基因实验评估了DExTER在恶性疟原虫中发现的一个LRE的生物学相关性。DExTER的源代码（python）可在https://gite.lirmm.fr/menichelli/DExTER获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33861755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33861755/",
+  "paper_page_path": "papers/pubmed/33861755/index.html"
+}

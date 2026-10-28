@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that PLXNC1 is a novel target in gastric cancer (GC) that promotes both tumor cell proliferation and GC cell-mediated M2 polarization of tumor-associated macrophages (TAMs). They further claim that epigallocatechin gallate (EGCG), a component of Hedyotis diffusa Willd (HDW) injection, directly binds STAT3, reduces its nuclear localization, and transcriptionally represses PLXNC1, thereby inhibiting M2 polarization induced by GC cell-derived exosomal miR-92b-5p.
+- **Visible evidence base** Abstract only; methods and results summarized without numerical data, statistical details, or experimental replicates
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, statistical analyses, experimental protocols, and raw sequencing data
+
+## Reviewer
+- **Overall assessment** The abstract presents a complex and potentially interesting mechanistic pathway linking a natural product, a transcription factor, a cell surface receptor, and exosomal miRNA to M2 macrophage polarization in gastric cancer. However, the evidence base provided is insufficient to evaluate the validity, rigor, or novelty of the claims. The pathway is described in a linear and highly interconnected manner, but the abstract lacks quantitative results, controls, and methodological details necessary to assess technical soundness. The clinical relevance and translational potential are stated but not supported by data in the abstract.
+- **Who would be interested in the results, and why** Researchers in tumor immunology, particularly those studying tumor-associated macrophages and the tumor microenvironment; investigators interested in natural product pharmacology and drug discovery for cancer; and scientists working on epigenetic or transcriptional regulation of immune evasion mechanisms in gastrointestinal cancers.
+- **Major strengths** The study addresses an important clinical problem, namely the reversal of M2 TAM polarization as a therapeutic strategy. The integration of multiple experimental approaches, including RNA-seq, WGCNA, exosome characterization, molecular docking, and in vivo models, suggests a comprehensive effort. The identification of a natural product (EGCG) with a defined molecular target (STAT3) and downstream transcriptional repression of PLXNC1 provides a coherent mechanistic narrative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PLXNC1 promoted GC cell proliferation and facilitated TAMs M2 polarization by transferring GC cell-derived exosomal miR-92b-5p, inhibiting SOCS7-STAT3 interactions and subsequently activating STAT3 in macrophages."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract claims a direct mechanistic link from PLXNC1 to exosomal miR-92b-5p to SOCS7-STAT3 interaction to STAT3 activation in macrophages. However, no quantitative data are provided to support any of these steps. It is unclear whether the effects are direct or indirect, whether the exosomal transfer is quantitatively significant, and whether the proposed molecular interactions were validated with appropriate controls (e.g., loss-of-function and rescue experiments).
+  - **Why it matters** The central claim of the paper rests on this multi-step pathway. Without evidence for each step, the mechanistic model is not established. The abstract does not allow the reader to assess whether the pathway is causal or merely correlative.
+  - **Resolution test** Provide quantitative data from experiments that manipulate each node of the pathway (e.g., PLXNC1 knockdown, miR-92b-5p inhibition, SOCS7 overexpression) and demonstrate that the downstream effects on M2 polarization are specifically mediated through the proposed mechanism. Include statistical comparisons and appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target validation
+  - **Claim pointer** "EGCG as a natural product directly bound to STAT3 to diminish its nuclear localization, resulting in the transcriptional repression of PLXNC1 and the reversal of M2 polarization induced by PLXNC1-mediated GC cell-derived exosomes."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The claim that EGCG directly binds STAT3 and reduces its nuclear localization is based on molecular docking, SPR, and CETSA, but the abstract does not report binding affinities, specificity controls, or whether the effect on nuclear localization is dose-dependent and reversible. The transcriptional repression of PLXNC1 by STAT3 is claimed but the abstract does not specify the promoter region, the binding site, or the functional relevance of this regulation in the context of EGCG treatment.
+  - **Why it matters** Direct target engagement is a critical claim for a natural product. Without quantitative binding data and functional validation, the specificity of EGCG for STAT3 and the causal link to PLXNC1 repression are not established. This is essential for the translational relevance of the study.
+  - **Resolution test** Report binding constants (e.g., KD) from SPR, show CETSA melting curves with appropriate controls, and demonstrate that STAT3 knockdown or mutation of the putative binding site abolishes EGCG-mediated PLXNC1 repression. Provide ChIP-seq or ChIP-qPCR data showing STAT3 occupancy at the PLXNC1 promoter and its reduction upon EGCG treatment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical relevance
+  - **Claim pointer** "PLXNC1 is a novel target exerting dual effects on GC cell proliferation and GC cell-mediated M2 polarization."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract claims that PLXNC1 is a novel target with dual effects, but no data are presented on the clinical relevance of PLXNC1 expression in patient samples, its correlation with survival, or its association with M2 macrophage infiltration beyond a brief mention of screening. The abstract does not report hazard ratios, confidence intervals, or the strength of the association.
+  - **Why it matters** The translational significance of the study depends on the clinical relevance of PLXNC1. Without patient-derived data, the claim of clinical importance is unsupported.
+  - **Resolution test** Provide survival analyses with hazard ratios and confidence intervals, and show correlation between PLXNC1 expression and M2 macrophage markers in independent patient cohorts. Include multivariable analyses adjusting for known prognostic factors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Methods section
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** The abstract lists many methods but does not specify the number of replicates, statistical tests used, or how significance was defined. This limits the interpretability of the results.
+  - **Required correction** Include a brief statement on statistical methods and sample sizes in the abstract, or refer to the full methods for details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Issue** The term "transcriptionally represses" is used without specifying the mechanism (e.g., histone modification, chromatin remodeling, or direct promoter occupancy). This is ambiguous.
+  - **Required correction** Clarify the mechanism of transcriptional repression or use more precise language.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Issue** The abstract mentions "network of HDI constituent-hub TF-HRmRNA" but does not explain how this network was constructed or validated. This is a key methodological step that is not described.
+  - **Required correction** Provide a brief description of the network construction and validation in the abstract or refer to the full methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed pathway is complex and may be novel, but the abstract does not provide enough context to assess whether the individual components (e.g., PLXNC1, miR-92b-5p, STAT3) have been previously implicated in M2 polarization. The claim of novelty is not substantiated.  
+  - Scientific importance: The topic is important, as M2 TAMs are a major barrier to effective cancer immunotherapy. However, the abstract does not demonstrate that the findings have broad implications beyond the specific model system.  
+  - Interdisciplinary readership: The work spans cancer biology, immunology, and natural product pharmacology, which could appeal to a broad audience. However, the abstract is dense and assumes familiarity with multiple specialized techniques.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of quantitative data and methodological details prevents evaluation of the rigor of the experiments.  
+  - Readability for nonspecialists: The abstract is not accessible to nonspecialists due to the heavy use of jargon and the lack of context for the pathway.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible but unverified mechanistic model. The claims require substantial additional evidence, including quantitative data, controls, and clinical validation, before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that PLXNC1 is a "novel target" is unsupported without a literature comparison or functional validation in the abstract.
+- The direct binding of EGCG to STAT3 and its functional consequences are not supported by quantitative data in the abstract.
+- The clinical relevance of PLXNC1 and its association with M2 macrophage infiltration are stated but not demonstrated with patient data.
+- The role of exosomal miR-92b-5p in mediating the effects of PLXNC1 is not supported by direct evidence in the abstract.
+- The in vivo relevance of the findings is mentioned but not described with any data.

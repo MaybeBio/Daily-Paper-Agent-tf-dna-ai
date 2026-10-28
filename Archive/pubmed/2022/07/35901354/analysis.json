@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35901354",
+  "title": "A Comparative Evaluation of Cancer Classification via TP53 Gene Mutations Using Machin Learning.",
+  "authors": "Mikhail, Dina Yousif; Al-Mukhtar, Firas H; Kareem, Shahab Wahab",
+  "journal": "Asian Pacific journal of cancer prevention : APJCP",
+  "published_date": "2022-07-29",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习（MLP/SVM）基于TP53基因突变数据分类癌症类型，但仅做序列突变统计分类，无蛋白质-DNA互作、结合位点或三维结构建模，与本课题核心无关。",
+  "abstract": "OBJECTIVE: Cancer is one of the horrendous diseases. Classifying cancer is founded on identifying cancer-causing mutations in gene sequences. Although genetic analysis can predict certain types of cancer, there is currently no effective method for predicting cancers. Therefore, the purpose of this paper is to predict the cancer types and to find a data mining technique that uses two different machine learning algorithms for classifying cancer. Moreover, earlier detection of the mutated tumor protein P53 gene can predict treatment and gene therapy techniques. METHODS: (UMD-2010) the Universal Mutation Database is used to diagnose mutations in genes. The challenge, however, is that the database very basic. Besides, it is an excel format database. Due to its limitations, the data base cannot be used to classify cancer. In addition, bioinformatics techniques such as pairwise alignment and BLAST are used, followed by machine learning algorithms that use neural network algorithms to classify cancer based on malignant mutations in the TP53 gene, by selecting (12) out of (53) database fields for the TP53 gene database in the second stage. It should be noted that the (UMDCell-line2010) database does not have one of these twelve fields (Field of gene locus). RESULT: As a Utilizing MLP and SVM for training and testing a set number of fields, the Machin learning methods were found to be an effective way to classify cancers. Where the Relative Absolute Error for MLP and SVM is 83.6005 % ,65.6605 %, the accuracy is 90 %, 93.7% respectively. CONCLUSION: Following the learning and testing stages, the mean absolute error (MAE), used to measure the errors was found in the SVM less than the (MAE) in MLP algorithm. we can conclude that using SVM is considered better than the MLP algorithm because the accuracy in SVM better than the accuracy of MLP.",
+  "abstract_zh": "目的：癌症是一种可怕的疾病。癌症的分类基于识别基因序列中导致癌症的突变。尽管遗传分析可以预测某些类型的癌症，但目前尚无有效的方法来预测癌症。因此，本文旨在预测癌症类型，并找到一种使用两种不同机器学习算法进行癌症分类的数据挖掘技术。此外，早期检测突变的肿瘤蛋白P53基因可以预测治疗和基因治疗技术。方法：使用通用突变数据库（UMD-2010）来诊断基因突变。然而，挑战在于该数据库非常基础。此外，它是一个Excel格式的数据库。由于其局限性，该数据库无法用于癌症分类。另外，使用生物信息学技术，如成对比对和BLAST，随后采用机器学习算法，利用神经网络算法基于TP53基因中的恶性突变对癌症进行分类，在第二阶段从TP53基因数据库的（53）个字段中选择（12）个字段。需要注意的是，（UMDCell-line2010）数据库缺少这十二个字段中的一个（基因位点字段）。结果：通过使用MLP和SVM对设定数量的字段进行训练和测试，发现机器学习方法是分类癌症的有效途径。其中，MLP和SVM的相对绝对误差分别为83.6005%和65.6605%，准确率分别为90%和93.7%。结论：在学习和测试阶段之后，用于测量误差的平均绝对误差（MAE）在SVM中小于MLP算法中的MAE。我们可以得出结论，使用SVM被认为优于MLP算法，因为SVM的准确率高于MLP的准确率。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35901354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35901354/",
+  "paper_page_path": "papers/pubmed/35901354/index.html"
+}

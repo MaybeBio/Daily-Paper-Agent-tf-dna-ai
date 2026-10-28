@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39051143",
+  "title": "Construction of transcript regulation mechanism prediction models based on binding motif environment of transcription factor AoXlnR in Aspergillus oryzae.",
+  "authors": "Oka, Hiroya; Kojima, Takaaki; Kato, Ryuji; Ihara, Kunio; Nakano, Hideo",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2024-07-26",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用DNA形状结构参数和机器学习预测转录因子AoXlnR结合位点是否参与下游基因表达调控，虽聚焦TF-DNA结合位点功能预测，但未涉及三维互作建模或分子模拟，方法可迁移但深度有限。",
+  "abstract": "DNA-binding transcription factors (TFs) play a central role in transcriptional regulation mechanisms, mainly through their specific binding to target sites on the genome and regulation of the expression of downstream genes. Therefore, a comprehensive analysis of the function of these TFs will lead to the understanding of various biological mechanisms. However, the functions of TFs in vivo are diverse and complicated, and the identified binding sites on the genome are not necessarily involved in the regulation of downstream gene expression. In this study, we investigated whether DNA structural information around the binding site of TFs can be used to predict the involvement of the binding site in the regulation of the expression of genes located downstream of the binding site. Specifically, we calculated the structural parameters based on the DNA shape around the DNA binding motif located upstream of the gene whose expression is directly regulated by one TF AoXlnR from Aspergillus oryzae, and showed that the presence or absence of expression regulation can be predicted from the sequence information with high accuracy ([Formula: see text]-1.0) by machine learning incorporating these parameters.",
+  "abstract_zh": "DNA结合转录因子（TFs）在转录调控机制中发挥核心作用，主要通过其与基因组上靶位点的特异性结合以及调控下游基因的表达来实现。因此，对这些转录因子功能的全面分析将有助于理解各种生物机制。然而，转录因子在体内的功能多样且复杂，已识别的基因组结合位点不一定参与下游基因表达的调控。在本研究中，我们探讨了转录因子结合位点周围的DNA结构信息是否可用于预测该结合位点是否参与其下游基因表达的调控。具体而言，我们计算了位于米曲霉（Aspergillus oryzae）中一个转录因子AoXlnR直接调控的基因上游DNA结合基序周围的基于DNA形状的结构参数，并表明通过结合这些参数的机器学习，可以从序列信息中以高精度（[公式：见原文]-1.0）预测表达调控的存在与否。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39051143/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39051143/",
+  "paper_page_path": "papers/pubmed/39051143/index.html"
+}

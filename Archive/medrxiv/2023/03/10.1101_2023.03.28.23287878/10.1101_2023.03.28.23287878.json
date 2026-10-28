@@ -1,0 +1,312 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.03.28.23287878",
+  "title": "Clinically meaningful metrics of speech in neurodegenerative disease: Quantification of speech intelligibility and naturalness in ataxia",
+  "doi": "10.1101/2023.03.28.23287878",
+  "abstract": "<h4>Background</h4> Digital biomarkers continue to make headway in the clinic and clinical trials for neurological conditions. Speech is a domain with great promise. <h4>Objectives</h4> Using Friedreich ataxia (FRDA) as an exemplar population, we aimed to align objective measures of speech with markers of disease severity, speech related quality of life and subjective judgements of speech using supervised machine learning techniques. <h4>Methods</h4> 132 participants with genetically confirmed diagnosis of FRDA were assessed using digital speech tests, disease severity scores (Friedreich Ataxia Rating Scale, FARS) and speech related quality of life ratings over a 10-year period. Speech was analyzed perceptually by expert listeners for intelligibility (ability to be understood) and naturalness (deviance from healthy norm) and acoustically across 344 features. Features were selected and presented into a random forest and a support vector machine classifier in a standard supervised learning setup designed to replicate expert-produced scores. <h4>Results</h4> We demonstrate a subset of measures are strongly associated with all four clinical scales. Objective speech data replicated experts’ assessments of naturalness and intelligibility. These scores represent a lower level of variability than observed between subjective listener ratings. Findings provide evidence there are specific objective markers of speech that change over time and reflect clinical aspects of the disease. <h4>Discussion</h4> The use of a large dataset yielded a speech assay capable of accurately approximating expert listener ratings of key clinical aspects of dysarthria severity. Distinct but complementary subsets align with disease severity and speech related quality of life.",
+  "authors": [
+    "Vogel AP",
+    "Maruff P",
+    "Reece H",
+    "Carter H",
+    "Tai G",
+    "Schultz BG",
+    "Corben L",
+    "Delatycki MB",
+    "Tsanas A"
+  ],
+  "published_date": "2023-03-29",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.03.28.23287878",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.03.28.23287878.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR637735",
+    "raw_record": {
+      "id": "PPR637735",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR637735"
+        ]
+      },
+      "doi": "10.1101/2023.03.28.23287878",
+      "title": "Clinically meaningful metrics of speech in neurodegenerative disease: Quantification of speech intelligibility and naturalness in ataxia",
+      "authorString": "Vogel AP, Maruff P, Reece H, Carter H, Tai G, Schultz BG, Corben L, Delatycki MB, Tsanas A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vogel AP",
+            "lastName": "Vogel",
+            "firstName": "Adam",
+            "initials": "AP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3505-2631"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience of Speech, The University of Melbourne, Australia"
+                },
+                {
+                  "affiliation": "Department of Neurodegenerative Diseases, Hertie Institute for Clinical Brain Research, University of Tübingen, Germany"
+                },
+                {
+                  "affiliation": "Redenlab, Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maruff P",
+            "lastName": "Maruff",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6947-9537"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cogstate, Melbourne Australia"
+                },
+                {
+                  "affiliation": "Florey Institute of Neuroscience and Mental Health"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reece H",
+            "lastName": "Reece",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience of Speech, The University of Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carter H",
+            "lastName": "Carter",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience of Speech, The University of Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tai G",
+            "lastName": "Tai",
+            "firstName": "Geneieve",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bruce Lefroy Centre for Genetic Health Research, Murdoch Children’s Research Institute, Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schultz BG",
+            "lastName": "Schultz",
+            "firstName": "Benjamin",
+            "initials": "BG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8306-0206"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience of Speech, The University of Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Corben L",
+            "lastName": "Corben",
+            "firstName": "Louise",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8767-4582"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bruce Lefroy Centre for Genetic Health Research, Murdoch Children’s Research Institute, Melbourne, Australia"
+                },
+                {
+                  "affiliation": "Department of Paediatrics, The University of Melbourne, Australia"
+                },
+                {
+                  "affiliation": "School of Psychological Sciences, Monash University, Melbourne Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delatycki MB",
+            "lastName": "Delatycki",
+            "firstName": "Martin",
+            "initials": "MB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bruce Lefroy Centre for Genetic Health Research, Murdoch Children’s Research Institute, Melbourne, Australia"
+                },
+                {
+                  "affiliation": "Department of Paediatrics, The University of Melbourne, Australia"
+                },
+                {
+                  "affiliation": "School of Psychological Sciences, Monash University, Melbourne Australia"
+                },
+                {
+                  "affiliation": "Monash Health, Melbourne, Australia"
+                },
+                {
+                  "affiliation": "Victorian Clinical Genetics Service, Melbourne, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsanas A",
+            "lastName": "Tsanas",
+            "firstName": "Athanasios",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0994-8100"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Usher Institute, University of Edinburgh, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8767-4582"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0994-8100"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3505-2631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6947-9537"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8306-0206"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Background</h4> Digital biomarkers continue to make headway in the clinic and clinical trials for neurological conditions. Speech is a domain with great promise. <h4>Objectives</h4> Using Friedreich ataxia (FRDA) as an exemplar population, we aimed to align objective measures of speech with markers of disease severity, speech related quality of life and subjective judgements of speech using supervised machine learning techniques. <h4>Methods</h4> 132 participants with genetically confirmed diagnosis of FRDA were assessed using digital speech tests, disease severity scores (Friedreich Ataxia Rating Scale, FARS) and speech related quality of life ratings over a 10-year period. Speech was analyzed perceptually by expert listeners for intelligibility (ability to be understood) and naturalness (deviance from healthy norm) and acoustically across 344 features. Features were selected and presented into a random forest and a support vector machine classifier in a standard supervised learning setup designed to replicate expert-produced scores. <h4>Results</h4> We demonstrate a subset of measures are strongly associated with all four clinical scales. Objective speech data replicated experts’ assessments of naturalness and intelligibility. These scores represent a lower level of variability than observed between subjective listener ratings. Findings provide evidence there are specific objective markers of speech that change over time and reflect clinical aspects of the disease. <h4>Discussion</h4> The use of a large dataset yielded a speech assay capable of accurately approximating expert listener ratings of key clinical aspects of dysarthria severity. Distinct but complementary subsets align with disease severity and speech related quality of life.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "098461/Z/12/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/03/29/2023.03.28.23287878.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.28.23287878"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR637735"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR637735&type=FILE&fileName=EMS173295-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS173295",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-31",
+      "firstPublicationDate": "2023-03-29",
+      "firstIndexDate": "2023-04-05",
+      "fullTextReceivedDate": "2023-04-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

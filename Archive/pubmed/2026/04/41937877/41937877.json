@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41937877",
+    "doi": "10.5603/rpor.108659",
+    "title": "A competing TMPO-AS1-let-7b-5p-kinesin superfamily RNA network predicts poor lung cancer patient survival."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The high morbidity and mortality rates of lung cancer associated with smoking underscore the need for a deeper understanding of prognosis-related kinesin family-microRNA-long non-coding RNA-competitive endogenous RNA (KIFs-miRNA-lncRNA-ceRNA) networks. MATERIALS AND METHODS: Survival analysis was performed using Kaplan-Meier (KM) Plotter (log-rank test, p < 0.05), while differential expression was analyzed using The University of ALabama at Birmingham CANcer data portal (UALCAN), On-coDB, Gene Expression Profiling Interactive Analysis (GEPIA), and The Encyclopedia of RNA Interactomes (ENCORI) databases (|log(2)FC|>1). Transcription factor analysis was conducted using Enrichment Analysis Resource (Enrichr), and the microRNA Network (miRNet) database was used to construct the ceRNA network. The miRWalk and RNA22 databases predicted folding energy and binding affinities between KIF genes and miRNAs. Additionally, molecular docking was performed to evaluate the binding affinities of KIF proteins with natural compounds, chemotherapeutic agents, and carcinogenic inducers. RESULTS: KIF18B, KIF20A, KIF2C, KIF4A, and KIFC1 were significantly upregulated in lung cancer, particularly in lung adenocarcinoma (LUAD) (p < 0.05), and strongly associated with poor survival [hazard ratio (HR) = 1.5-2.0]. Transcription factor analysis revealed eukaryotic transcription factor 1 (E2F1) as a potential key regulator. These genes showed positive correlations with long non-coding RNA (lncRNA) thymopoietin antisense transcript 1 (TMPO-AS1) (R = 0.6) and negative correlations with miRNA homosapiens microRNA family (hsa-let-7b-5p) (R = -0.4 to -0.3). Targeting this regulatory axis, especially by enhancing hsa-let-7b-5p expression, could improve patient prognosis and suppress aggressive tumor growth. Strong folding energies were observed between KIF genes and hsa-let-7b-5p (-15.2 to -18.4 kcal/mol), while docking analysis demonstrated higher binding affinities of natural compounds compared to conventional chemotherapeutic agents. CONCLUSIONS: Our findings identify the KIF18B/KIF20A/KIF2C/KIF4A/KIFC1/TMPO-AS1/E2F1/hsa-let-7b-5p regulatory axis as a potential therapeutic target in LUAD, particularly among high-risk smokers. This suggests that its regulatory mechanisms could lead to new targeted therapies.",
+    "keywords": [
+      "KIF family",
+      "ceRNA network",
+      "lung adenocarcinoma",
+      "prognosis",
+      "smoking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kousik, Sakshi Priya",
+        "Singh, Jagriti",
+        "Vats, Prerna",
+        "Baweja, Bhavika",
+        "Saini, Chainsee",
+        "Nema, Rajeev"
+      ],
+      "short_names": [
+        "Kousik SP",
+        "Singh J",
+        "Vats P",
+        "Baweja B",
+        "Saini C",
+        "Nema R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kousik, Sakshi Priya",
+        "short_name": "Kousik SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Jagriti",
+        "short_name": "Singh J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Vats, Prerna",
+        "short_name": "Vats P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Baweja, Bhavika",
+        "short_name": "Baweja B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Saini, Chainsee",
+        "short_name": "Saini C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Nema, Rajeev",
+        "short_name": "Nema R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reports of practical oncology and radiotherapy : journal of Greatpoland Cancer Center in Poznan and Polish Society of Radiation Oncology"
+    ],
+    "journal_abbrev": [
+      "Rep Pract Oncol Radiother"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39394463",
+      "38462148",
+      "38433242",
+      "38254834",
+      "38034403",
+      "37979378",
+      "37920308",
+      "37783508",
+      "37479810",
+      "37446814",
+      "37406550",
+      "37330525",
+      "37245177",
+      "37027426",
+      "36264497",
+      "35078134",
+      "34834454",
+      "34718715",
+      "34500460",
+      "34445366",
+      "33780170",
+      "33574944",
+      "33014515",
+      "32971585",
+      "32509165",
+      "32142370",
+      "32130260",
+      "32050794",
+      "31807007",
+      "31114875",
+      "31072351",
+      "30335862",
+      "30127624",
+      "29541455",
+      "28616658",
+      "28525372",
+      "26766971",
+      "24297251",
+      "23414349",
+      "16990141",
+      "11416179"
+    ],
+    "similar": [
+      "41937877",
+      "41094477",
+      "40445483",
+      "41793675",
+      "41398961",
+      "40635988",
+      "40584906",
+      "40439393",
+      "41975423",
+      "40242419",
+      "39471036",
+      "41268575",
+      "35116848",
+      "35311097",
+      "35774125",
+      "34819106",
+      "35386284",
+      "33281971",
+      "34301211",
+      "32802839",
+      "32257949",
+      "33678324",
+      "32741804",
+      "35313857",
+      "38176923",
+      "38937856",
+      "32135645",
+      "34485383",
+      "35531948",
+      "41326474",
+      "36202651",
+      "36171401",
+      "36300102",
+      "39958058",
+      "41551936",
+      "34264003",
+      "33042838",
+      "36352081",
+      "33274216",
+      "37954276",
+      "42363465",
+      "32642095",
+      "42565562",
+      "30995921",
+      "33371806",
+      "34463892",
+      "35322101",
+      "32062549",
+      "40507971",
+      "42180880",
+      "39028420",
+      "35090416",
+      "35071451",
+      "42238936",
+      "33627711",
+      "41405758",
+      "33123295",
+      "31391008",
+      "38094657",
+      "36173063",
+      "30258285",
+      "36897674",
+      "33681226",
+      "38495494",
+      "31061236",
+      "40210478",
+      "38411863",
+      "33027767",
+      "39108112",
+      "35965793",
+      "34898376",
+      "32299382",
+      "35251966",
+      "33750326",
+      "38994652",
+      "34806315",
+      "32533823",
+      "33237828",
+      "32221048",
+      "31322267",
+      "38393298",
+      "34630705",
+      "31898160",
+      "34254931",
+      "34734036",
+      "32300359",
+      "35249869",
+      "35284121",
+      "31720124",
+      "33628780",
+      "33194594",
+      "41462522",
+      "36101742",
+      "40792171",
+      "33106209",
+      "39213211",
+      "41132901",
+      "31159706",
+      "30593585",
+      "35340554"
+    ],
+    "review": [
+      "41937877"
+    ],
+    "pmc": [
+      "13046409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41937877/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KIF2C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

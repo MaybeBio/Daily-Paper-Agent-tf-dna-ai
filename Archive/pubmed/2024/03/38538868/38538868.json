@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "38538868",
+    "doi": "10.1093/bjr/tqae066",
+    "title": "Determination of p53abn endometrial cancer: a multitask analysis using radiological-clinical nomogram on MRI."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: We aimed to differentiate endometrial cancer (EC) between TP53mutation (P53abn) and Non-P53abn subtypes using radiological-clinical nomogram on EC body volume MRI. METHODS: We retrospectively recruited 227 patients with pathologically proven EC from our institution. All these patients have undergone molecular pathology diagnosis based on the Cancer Genome Atlas. Clinical characteristics and histological diagnosis were recorded from the hospital information system. Radiomics features were extracted from online Pyradiomics processors. The diagnostic performance across different acquisition protocols was calculated and compared. The radiological-clinical nomogram was established to determine the nonendometrioid, high-risk, and P53abn EC group. RESULTS: The best MRI sequence for differentiation P53abn from the non-P53abn group was contrast-enhanced T1WI (test AUC: 0.8). The best MRI sequence both for differentiation endometrioid cancer from nonendometrioid cancer and high-risk from low- and intermediate-risk groups was apparent diffusion coefficient map (test AUC: 0.665 and 0.690). For all 3 tasks, the combined model incorporating all the best discriminative features from each sequence yielded the best performance. The combined model achieved an AUC of 0.845 in the testing cohorts for P53abn cancer identification. The MR-based radiomics diagnostic model performed better than the clinical-based model in determining P53abn EC (AUC: 0.834 vs 0.682). CONCLUSION: In the present study, the diagnostic model based on the combination of both radiomics and clinical features yielded a higher performance in differentiating nonendometrioid and P53abn cancer from other EC molecular subgroups, which might help design a tailed treatment, especially for patients with high-risk EC. ADVANCES IN KNOWLEDGE: (1) The contrast-enhanced T1WI was the best MRI sequence for differentiation P53abn from the non-P53abn group (test AUC: 0.8). (2) The radiomics-based diagnostic model performed better than the clinical-based model in determining P53abn EC (AUC: 0.834 vs 0.682). (3) The proposed model derived from multi-parametric MRI images achieved a higher accuracy in P53abn EC identification (AUC: 0.845).",
+    "keywords": [
+      "endometrial neoplasms",
+      "genes",
+      "machine learning",
+      "magnetic resonance imaging",
+      "nomograms",
+      "p53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/diagnostic imaging",
+      "Retrospective Studies",
+      "Middle Aged",
+      "*Magnetic Resonance Imaging/methods",
+      "*Nomograms",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Aged",
+      "Mutation",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ning, Yan",
+        "Liu, Wei",
+        "Wang, Haijie",
+        "Zhang, Feiran",
+        "Chen, Xiaojun",
+        "Wang, Yida",
+        "Wang, Tianping",
+        "Yang, Guang",
+        "Zhang, He"
+      ],
+      "short_names": [
+        "Ning Y",
+        "Liu W",
+        "Wang H",
+        "Zhang F",
+        "Chen X",
+        "Wang Y",
+        "Wang T",
+        "Yang G",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3782-1411"
+      ],
+      "affiliations": [
+        "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China.",
+        "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China.",
+        "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China.",
+        "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China.",
+        "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China.",
+        "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ning, Yan",
+        "short_name": "Ning Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haijie",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feiran",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaojun",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yida",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianping",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guang",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Magnetic Resonance, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, He",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0003-3782-1411"
+        ],
+        "affiliations": [
+          "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, 200011, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The British journal of radiology"
+    ],
+    "journal_abbrev": [
+      "Br J Radiol"
+    ],
+    "pub_date": "2024 May 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/28 06:45",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42376199",
+      "41583907",
+      "40386259",
+      "40377781",
+      "40357300",
+      "38836884"
+    ],
+    "refs": [
+      "36059674",
+      "36018785",
+      "35819326",
+      "35585829",
+      "35348862",
+      "35061079",
+      "34524610",
+      "34484650",
+      "34233478",
+      "34233456",
+      "34182801",
+      "34088515",
+      "34049140",
+      "33397713",
+      "33368243",
+      "33200420",
+      "32749583",
+      "32727213",
+      "32624161",
+      "32399703",
+      "32337640",
+      "31829447",
+      "31649877",
+      "31375170",
+      "31375169",
+      "30102441",
+      "29995239",
+      "27993480",
+      "25136971",
+      "24668009",
+      "23636398"
+    ],
+    "similar": [
+      "38538868",
+      "38639282",
+      "32681608",
+      "33741266",
+      "37661630",
+      "40304002",
+      "35992858",
+      "35758644",
+      "39732615",
+      "40262460",
+      "38441631",
+      "33949727",
+      "40295942",
+      "38088478",
+      "39232912",
+      "40159045",
+      "32700020",
+      "39415127",
+      "39577664",
+      "38189937",
+      "30972543",
+      "38471960",
+      "38997568",
+      "39107190",
+      "36159011",
+      "39276192",
+      "37812296",
+      "36259352",
+      "38092588",
+      "35945526",
+      "40155892",
+      "36929220",
+      "37312525",
+      "35022079",
+      "35042289",
+      "38349392",
+      "37321954",
+      "39417854",
+      "38988546",
+      "39215773",
+      "38844718",
+      "32476800",
+      "38472624",
+      "35898886",
+      "31276426",
+      "36053805",
+      "39672993",
+      "39604917",
+      "32315482",
+      "36300676",
+      "38086918",
+      "36241860",
+      "36925335",
+      "34837512",
+      "40292290",
+      "36448476",
+      "38887926",
+      "38992609",
+      "38529651",
+      "31088553",
+      "37532903",
+      "31829447",
+      "34235069",
+      "39147885",
+      "38644089",
+      "34453461",
+      "39304802",
+      "37909025",
+      "40228322",
+      "38642400",
+      "38902111",
+      "37773079",
+      "39129106",
+      "33200420",
+      "37068415",
+      "39789538",
+      "38631535",
+      "39289097",
+      "39938342",
+      "33569620",
+      "39569550",
+      "39998133",
+      "38816315",
+      "36995415",
+      "38272767",
+      "38135437",
+      "35128572",
+      "38609076",
+      "37955154",
+      "38206403",
+      "39181825",
+      "33851471",
+      "38757628",
+      "37414635",
+      "36192204",
+      "38613869",
+      "32749941",
+      "38849236",
+      "36895487",
+      "38517817"
+    ],
+    "review": [
+      "38538868",
+      "38135437"
+    ],
+    "pmc": [
+      "11075989"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://www.ovid.com/38538868.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38538868/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bjr/article-lookup/doi/10.1093/bjr/tqae066",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

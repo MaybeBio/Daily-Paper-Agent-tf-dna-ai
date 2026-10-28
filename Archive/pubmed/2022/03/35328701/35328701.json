@@ -1,0 +1,517 @@
+{
+  "identity": {
+    "pmid": "35328701",
+    "doi": "10.3390/ijms23063280",
+    "title": "A Comparative Transcriptomic Analysis Reveals That HSP90AB1 Is Involved in the Immune and Inflammatory Responses to Porcine Deltacoronavirus Infection."
+  },
+  "content": {
+    "abstract": "PDCoV is an emerging enteropathogenic coronavirus that mainly causes acute diarrhea in piglets, seriously affecting pig breeding industries worldwide. To date, the molecular mechanisms of PDCoV-induced immune and inflammatory responses or host responses in LLC-PK cells in vitro are not well understood. HSP90 plays important roles in various viral infections. In this study, HSP90AB1 knockout cells (HSP90AB1(KO)) were constructed and a comparative transcriptomic analysis between PDCoV-infected HSP90AB1(WT) and HSP90AB1(KO) cells was conducted using RNA sequencing to explore the effect of HSP90AB1 on PDCoV infection. A total of 1295 and 3746 differentially expressed genes (DEGs) were identified in PDCoV-infected HSP90AB1(WT) and HSP90AB1(KO) cells, respectively. Moreover, most of the significantly enriched pathways were related to immune and inflammatory response-associated pathways upon PDCoV infection. The DEGs enriched in NF-kappaB pathways were specifically detected in HSP90AB1(WT) cells, and NF-kappaB inhibitors JSH-23, SC75741 and QNZ treatment reduced PDCoV infection. Further research revealed most cytokines associated with immune and inflammatory responses were upregulated during PDCoV infection. Knockout of HSP90AB1 altered the upregulated levels of some cytokines. Taken together, our findings provide new insights into the host response to PDCoV infection from the transcriptome perspective, which will contribute to illustrating the molecular basis of the interaction between PDCoV and HSP90AB1.",
+    "keywords": [
+      "HSP90AB1",
+      "PDCoV",
+      "immune and inflammatory response",
+      "transcriptomic analysis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Computational Biology/methods",
+      "Coronavirus Infections/*veterinary",
+      "*Deltacoronavirus",
+      "Disease Susceptibility",
+      "*Gene Expression Profiling",
+      "Gene Knockdown Techniques",
+      "Gene Ontology",
+      "HSP90 Heat-Shock Proteins/*genetics",
+      "Host-Pathogen Interactions/genetics/immunology",
+      "Immunity/*genetics",
+      "NF-kappa B/metabolism",
+      "Swine",
+      "Swine Diseases/*etiology",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yujia",
+        "Chen, Rui",
+        "Xiao, Dai",
+        "Zhang, Luwen",
+        "Song, Daili",
+        "Wen, Yiping",
+        "Wu, Rui",
+        "Zhao, Qin",
+        "Du, Senyan",
+        "Wen, Xintian",
+        "Cao, Sanjie",
+        "Huang, Xiaobo"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Chen R",
+        "Xiao D",
+        "Zhang L",
+        "Song D",
+        "Wen Y",
+        "Wu R",
+        "Zhao Q",
+        "Du S",
+        "Wen X",
+        "Cao S",
+        "Huang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7791-4167",
+        "ORCID: 0000-0003-3214-9662"
+      ],
+      "affiliations": [
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Sichuan Science-Observation Experimental Station for Veterinary Drugs and Veterinary Diagnostic Technology, Ministry of Agriculture, Chengdu 611130, China.",
+        "National Animal Experiments Teaching Demonstration Center, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+        "Sichuan Science-Observation Experimental Station for Veterinary Drugs and Veterinary Diagnostic Technology, Ministry of Agriculture, Chengdu 611130, China.",
+        "National Animal Experiments Teaching Demonstration Center, Sichuan Agricultural University, Chengdu 611130, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yujia",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Rui",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Dai",
+        "short_name": "Xiao D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Luwen",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Song, Daili",
+        "short_name": "Song D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yiping",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Rui",
+        "short_name": "Wu R",
+        "identifiers": [
+          "0000-0001-7791-4167"
+        ],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qin",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Du, Senyan",
+        "short_name": "Du S",
+        "identifiers": [
+          "0000-0003-3214-9662"
+        ],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Xintian",
+        "short_name": "Wen X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Sanjie",
+        "short_name": "Cao S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+          "Sichuan Science-Observation Experimental Station for Veterinary Drugs and Veterinary Diagnostic Technology, Ministry of Agriculture, Chengdu 611130, China.",
+          "National Animal Experiments Teaching Demonstration Center, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaobo",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Swine Diseases, College of Veterinary Medicine, Sichuan Agricultural University, Chengdu 611130, China.",
+          "Sichuan Science-Observation Experimental Station for Veterinary Drugs and Veterinary Diagnostic Technology, Ministry of Agriculture, Chengdu 611130, China.",
+          "National Animal Experiments Teaching Demonstration Center, Sichuan Agricultural University, Chengdu 611130, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Mar 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/26 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "40530025",
+      "40383912",
+      "40207165",
+      "38327651",
+      "38257774",
+      "37780385",
+      "37511286",
+      "37009229",
+      "36963723"
+    ],
+    "refs": [
+      "35033844",
+      "34954542",
+      "33966045",
+      "33960702",
+      "33894664",
+      "33813212",
+      "33799115",
+      "33740580",
+      "33668405",
+      "33585804",
+      "33542409",
+      "33515858",
+      "33493866",
+      "33296695",
+      "33242760",
+      "33204339",
+      "33179566",
+      "33045833",
+      "32941951",
+      "32923756",
+      "32768229",
+      "32763501",
+      "32656094",
+      "32639977",
+      "32582042",
+      "32461317",
+      "32402351",
+      "32272626",
+      "32244328",
+      "32243879",
+      "32213866",
+      "31963776",
+      "31961296",
+      "31752115",
+      "31574122",
+      "31484751",
+      "31463771",
+      "31382996",
+      "31351410",
+      "31234434",
+      "31226933",
+      "31143181",
+      "31109068",
+      "31071330",
+      "31068417",
+      "30654269",
+      "30593372",
+      "30577726",
+      "30401745",
+      "30335904",
+      "30158430",
+      "29981708",
+      "29769346",
+      "29760102",
+      "28374120",
+      "28250121",
+      "27995863",
+      "27086031",
+      "27029407",
+      "25473098",
+      "24964136",
+      "24618592",
+      "23811282",
+      "23051682",
+      "19058829"
+    ],
+    "similar": [
+      "35328701",
+      "38092149",
+      "33668405",
+      "33740580",
+      "39368071",
+      "31574122",
+      "38675921",
+      "39012141",
+      "39096790",
+      "38257774",
+      "34954542",
+      "33493866",
+      "30593372",
+      "34127062",
+      "36314946",
+      "39084161",
+      "27086031",
+      "38411106",
+      "32768229",
+      "36453883",
+      "35126380",
+      "29981708",
+      "34586858",
+      "39078151",
+      "34952414",
+      "27152478",
+      "30992015",
+      "36495740",
+      "32461317",
+      "32376622",
+      "39078176",
+      "29636467",
+      "31936476",
+      "34960711",
+      "39222358",
+      "35033844",
+      "36376395",
+      "32833205",
+      "32056711",
+      "38145807",
+      "34696421",
+      "32944812",
+      "37125733",
+      "30971240",
+      "31859605",
+      "27396171",
+      "29769346",
+      "28250121",
+      "31232001",
+      "29618640",
+      "38353538",
+      "33476696",
+      "38070302",
+      "32247757",
+      "27619798",
+      "38289117",
+      "38101217",
+      "36016405",
+      "33894664",
+      "35916536",
+      "37846983",
+      "37243181",
+      "31234434",
+      "33515858",
+      "25740769",
+      "29569144",
+      "31670218",
+      "37962380",
+      "31129785",
+      "31546302",
+      "31109068",
+      "33797313",
+      "34524535",
+      "31541590",
+      "35458502",
+      "34372544",
+      "31962065",
+      "31143181",
+      "38349151",
+      "31752115",
+      "27270129",
+      "38855411",
+      "33460683",
+      "33012120",
+      "28860101",
+      "26711029",
+      "35927214",
+      "37133375",
+      "26103099",
+      "31351410",
+      "37289083",
+      "33600848",
+      "28758347",
+      "31940691",
+      "29363288",
+      "34549985",
+      "35526257",
+      "35981694",
+      "27939164",
+      "31463771",
+      "34411994",
+      "29363281",
+      "36982944",
+      "32956749",
+      "38712547",
+      "32582042",
+      "38262568",
+      "35311551",
+      "34983523",
+      "37815351",
+      "28337545",
+      "31961296",
+      "38543810",
+      "30051342",
+      "32656094",
+      "28934984",
+      "38886840",
+      "29940190",
+      "34928072",
+      "28853254",
+      "32892248",
+      "32052195",
+      "28177368",
+      "32923756",
+      "29695146",
+      "37801439",
+      "27060624",
+      "38919620",
+      "33756424",
+      "30377826",
+      "29607611",
+      "32239666",
+      "26250097",
+      "27984784",
+      "35691873",
+      "27277214",
+      "34851149",
+      "38550592",
+      "36181744",
+      "38118371",
+      "35336903",
+      "38851153",
+      "37483295",
+      "37882521",
+      "35304871",
+      "33045833",
+      "38159369",
+      "34406863",
+      "37777448",
+      "38461791",
+      "36081520",
+      "35336895",
+      "35697915",
+      "37762237",
+      "37541479",
+      "38932231",
+      "36067658",
+      "31689475",
+      "38181302",
+      "39154555",
+      "36059492",
+      "39244909",
+      "36851421",
+      "38792704",
+      "32837537",
+      "36332407",
+      "39406325"
+    ],
+    "review": [
+      "35328701",
+      "27086031",
+      "27396171",
+      "34524535"
+    ],
+    "pmc": [
+      "8953809"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23063280",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35328701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35328701",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35328701",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3376",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

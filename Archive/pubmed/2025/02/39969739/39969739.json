@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "39969739",
+    "doi": "10.1007/s11030-025-11128-3",
+    "title": "Computational exploration in search for novel natural product-derived EZH2 inhibitors for advancing anti-cancer therapy."
+  },
+  "content": {
+    "abstract": "Epigenetic regulation intricately governs cellular mechanisms, including proliferation, death, differentiation, and cell cycle orchestration. One such target, Enhancer of zeste homolog 2 (EZH2), is essential for epigenetic regulation. EZH2 trimethylates histone H3 lys27 (H3K27me3), inhibiting target gene transcription and promoting chromatin condensation, thereby initiating tumorigenesis, thus a potentially plausible target to disrupt cancer progression. In this virtual screening study, we utilized two large, open-source natural product libraries, NPASS and LOTUS, to search for potential natural product scaffolds capable of EZH2 inhibition. The merged library was filtered through increasingly rigorous criteria at each stage, including Medchem-based rule filters, 2D Tanimoto similarity, sequential rounds of docking, rescoring via ML-based functions, and binding pose visualization, funneling down to the most promising candidates for further pharmacokinetics and toxicological profiles. The best hits were analyzed for their binding stability through molecular dynamics simulation and their binding free energy estimations. Exploratory chemical analysis was conducted to understand the similarity of hits with known EZH2 chemical space. This comprehensive workflow identified one potential inhibitor, LTS0131784, which exhibited favorable pharmacokinetic toxicity profiling with binding stability and free energy better than the FDA-approved EZH2 inhibitor, Tazemetostat. Furthermore, the plausible binding mechanism was also elucidated by analyzing the per residue-free decomposition of the simulated trajectories, which indicated the involvement of the LTS0131784 with the key residues TYR:111, TRP:521, CYS:560, ASN:585, and SER:561.",
+    "keywords": [
+      "2D similarity",
+      "Cancer",
+      "Chemical space",
+      "Epigenetic regulation",
+      "MMPBSA",
+      "Molecular docking",
+      "Molecular dynamics simulations",
+      "Natural products",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/antagonists & inhibitors/chemistry/metabolism",
+      "*Biological Products/chemistry/pharmacology",
+      "Humans",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shyamal, Sagar Singh"
+      ],
+      "short_names": [
+        "Shyamal SS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8849-6199"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Engineering and Technology, Indian Institute of Technology (Banaras Hindu University), Varanasi, Uttar Pradesh, India. sagarsinghshyamal17@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shyamal, Sagar Singh",
+        "short_name": "Shyamal SS",
+        "identifiers": [
+          "0000-0002-8849-6199"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Engineering and Technology, Indian Institute of Technology (Banaras Hindu University), Varanasi, Uttar Pradesh, India. sagarsinghshyamal17@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/19 12:25",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39237523",
+      "38826100",
+      "38244292",
+      "37156182",
+      "37148376",
+      "36624664",
+      "35994325",
+      "34586825",
+      "34351144",
+      "34050894",
+      "33893803",
+      "33709777",
+      "33579905",
+      "33542326",
+      "32938196",
+      "32445090",
+      "32020866",
+      "31752930",
+      "30688165",
+      "29718510",
+      "29351847",
+      "29211475",
+      "28440302",
+      "26934322",
+      "26900761",
+      "26897747",
+      "26631602",
+      "25558886",
+      "24367611",
+      "23680150",
+      "23297835",
+      "23184418",
+      "22716043",
+      "22418278",
+      "21798853",
+      "20735049",
+      "20385124",
+      "20131845",
+      "19767730",
+      "18064617",
+      "18006806",
+      "17012222",
+      "16293602",
+      "16291709",
+      "16211538",
+      "5703893"
+    ],
+    "similar": [
+      "39969739",
+      "41237543",
+      "41504013",
+      "40944978",
+      "32093567",
+      "34577052",
+      "33479735",
+      "38640588",
+      "27289323",
+      "40024903",
+      "39571304",
+      "30747066",
+      "40549449",
+      "40048009",
+      "34664960",
+      "33635506",
+      "23826380",
+      "28741798",
+      "39581340",
+      "30690451",
+      "34196564",
+      "37715109",
+      "39769907",
+      "40111060",
+      "39016126",
+      "29507419",
+      "28323035",
+      "40884958",
+      "38008711",
+      "41465587",
+      "33609540",
+      "39709735",
+      "32723346",
+      "38242973",
+      "30150059",
+      "39368576",
+      "27793053",
+      "32000648",
+      "28052011",
+      "34020664",
+      "29473431",
+      "38703440",
+      "40670559",
+      "25409661",
+      "38580135",
+      "34998031",
+      "32394628",
+      "34029540",
+      "33709777",
+      "34802040",
+      "31791385",
+      "32098708",
+      "39847188",
+      "30942459",
+      "30338896",
+      "26004298",
+      "32448308",
+      "36858198",
+      "39082677",
+      "39655332",
+      "29650362",
+      "38520556",
+      "27713574",
+      "29732557",
+      "39878501",
+      "39429127",
+      "31171828",
+      "27278257",
+      "41045314",
+      "37747726",
+      "28925507",
+      "41293954",
+      "27135271",
+      "39012568",
+      "29896299",
+      "39293534",
+      "27207647",
+      "33664859",
+      "40816411",
+      "25179367",
+      "30112706",
+      "37572850",
+      "33103538",
+      "27312177",
+      "31819273",
+      "34093860",
+      "28561778",
+      "30305391",
+      "40464712",
+      "39488559",
+      "29899112",
+      "33940225",
+      "40117728",
+      "39960560",
+      "41223588",
+      "39115579",
+      "41255260",
+      "33391480",
+      "39647236",
+      "40340349"
+    ],
+    "review": [
+      "39969739",
+      "33479735",
+      "40048009",
+      "39769907",
+      "40111060",
+      "28323035",
+      "40884958",
+      "39709735",
+      "32723346",
+      "27793053",
+      "29473431",
+      "32098708",
+      "30338896",
+      "32448308",
+      "39082677",
+      "39655332",
+      "38520556",
+      "25179367",
+      "30112706",
+      "33103538",
+      "28561778",
+      "39960560"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-025-11128-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

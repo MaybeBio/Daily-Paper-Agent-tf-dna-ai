@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "41607310",
+    "doi": "10.1111/1756-185x.70524",
+    "title": "Identification of SDC1 as a Key Regulator and Therapeutic Target in Rheumatoid Arthritis via JAK2-STAT3 Pathway."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Rheumatoid arthritis (RA) is a chronic autoimmune disorder with unclear molecular mechanisms, complicating early diagnosis and treatment. This study aimed to identify hub genes and pathways driving RA pathogenesis and assess their therapeutic potential. METHODS: Gene expression datasets related to RA were retrieved from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified and analyzed by functional enrichment and protein-protein interaction network construction. Machine learning approaches, including LASSO regression, random forest, and SVM-RFE, were used to screen hub genes. Pathway associations were explored using Gene Set Enrichment Analysis (GSEA). Experimental validation was performed in collagen-induced arthritis (CIA) rat models and MH7A synovial fibroblast cells through Western blot and functional assays. RESULTS: A total of 106 DEGs were identified in RA synovial tissues, including 76 upregulated and 30 downregulated genes. Enrichment analyses revealed involvement in cytokine-cytokine receptor interaction, lymphocyte-mediated immunity, and immunoglobulin complexes. SDC1 emerged as a key hub gene across all three machine learning methods. GSEA indicated its significant correlation with the JAK-STAT pathway. In CIA rats, SDC1 expression was markedly elevated alongside p-JAK2 and p-STAT3 levels. Silencing SDC1 in MH7A cells reduced cell proliferation, decreased p-JAK2 and p-STAT3 expression, and promoted apoptosis. CONCLUSIONS: This study identifies SDC1 as a central hub gene in RA pathogenesis through activation of the JAK2-STAT3 signaling pathway. These findings highlight SDC1 as a potential biomarker for early diagnosis and a promising target for therapeutic intervention, providing new insights into RA management.",
+    "keywords": [
+      "Syndecan-1",
+      "collagen-induced arthritis",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*STAT3 Transcription Factor/metabolism/genetics",
+      "*Arthritis, Rheumatoid/genetics/enzymology/metabolism/pathology/drug therapy",
+      "Signal Transduction",
+      "*Arthritis, Experimental/genetics/enzymology/pathology/metabolism",
+      "*Janus Kinase 2/metabolism/genetics",
+      "Databases, Genetic",
+      "Cell Proliferation",
+      "*Fibroblasts/enzymology/pathology",
+      "*Syndecan-1/genetics/metabolism",
+      "*Synovial Membrane/enzymology/pathology",
+      "Protein Interaction Maps",
+      "Phosphorylation",
+      "Gene Expression Profiling/methods",
+      "Cell Line",
+      "Gene Regulatory Networks",
+      "Rats",
+      "Humans",
+      "Male",
+      "Apoptosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Gan",
+        "Wu, Zhihui",
+        "Du, Yatao",
+        "Dai, Dongxue",
+        "Sun, Yang",
+        "Jia, Xi",
+        "Cai, Huixin"
+      ],
+      "short_names": [
+        "Cao G",
+        "Wu Z",
+        "Du Y",
+        "Dai D",
+        "Sun Y",
+        "Jia X",
+        "Cai H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3824-6888"
+      ],
+      "affiliations": [
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China.",
+        "The Pathology Department, Xi'an Chest Hospital, Xi'an City, Shanxi Province, China.",
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China.",
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China.",
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China.",
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China.",
+        "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Gan",
+        "short_name": "Cao G",
+        "identifiers": [
+          "0000-0002-3824-6888"
+        ],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhihui",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Pathology Department, Xi'an Chest Hospital, Xi'an City, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yatao",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Dongxue",
+        "short_name": "Dai D",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Xi",
+        "short_name": "Jia X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Huixin",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Laboratory Department, Baoding No. 1 Central Hospital, Baoding City, Hebei Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of rheumatic diseases"
+    ],
+    "journal_abbrev": [
+      "Int J Rheum Dis"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 07:34",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40166826",
+      "40166070",
+      "40164074",
+      "40164073",
+      "40155751",
+      "40153321",
+      "40141401",
+      "40043355",
+      "39509329",
+      "39273320",
+      "39259785",
+      "38669615",
+      "38598569",
+      "38451352",
+      "38105293",
+      "37938494",
+      "37907515",
+      "37372319",
+      "37208335",
+      "37150238",
+      "36927649",
+      "36649877",
+      "36593091",
+      "35913916",
+      "35315883",
+      "34831081",
+      "34305919",
+      "34212822",
+      "32499126",
+      "31810587",
+      "30588283",
+      "29942363",
+      "29226950",
+      "28255960",
+      "27558380",
+      "27156434",
+      "25587654",
+      "25563413",
+      "25512478"
+    ],
+    "similar": [
+      "41607310",
+      "38771826",
+      "41963573",
+      "33465441",
+      "41737229",
+      "41116042",
+      "39466354",
+      "39244174",
+      "38151179",
+      "40636121",
+      "41482061",
+      "33223115",
+      "38621928",
+      "41816328",
+      "40644421",
+      "41811544",
+      "38977339",
+      "39953769",
+      "39520962",
+      "40592131",
+      "28035365",
+      "33604823",
+      "40955790",
+      "41583523",
+      "38706209",
+      "30916045",
+      "34271942",
+      "39390367",
+      "32945465",
+      "39041131",
+      "41021591",
+      "38573982",
+      "38908493",
+      "40073707",
+      "38711508",
+      "30483789",
+      "40462241",
+      "29652658",
+      "39845946",
+      "31545276",
+      "39326197",
+      "42011617",
+      "41634491",
+      "42259110",
+      "35426800",
+      "34224029",
+      "41508240",
+      "34113405",
+      "34583778",
+      "40833035",
+      "33407587",
+      "41984125",
+      "41990066",
+      "37315652",
+      "36699262",
+      "40571227",
+      "36317112",
+      "40835949",
+      "41616419",
+      "39139563",
+      "39724808",
+      "39534605",
+      "29501867",
+      "42266693",
+      "39838477",
+      "32683798",
+      "39118036",
+      "39489858",
+      "23406906",
+      "40288069",
+      "40706389",
+      "39509434",
+      "39537231",
+      "40165005",
+      "41146237",
+      "37021908",
+      "30260019",
+      "42327749",
+      "32468016",
+      "40466361",
+      "40153325",
+      "41595435",
+      "34808131",
+      "40596265",
+      "33325525",
+      "39987090",
+      "39067546",
+      "35602512",
+      "34358861",
+      "38334875",
+      "35495609",
+      "38199156",
+      "32044269",
+      "42292400",
+      "40682832",
+      "36110846",
+      "42083525",
+      "42243611",
+      "40500570",
+      "33337986"
+    ],
+    "review": [
+      "41607310"
+    ],
+    "pmc": [
+      "12853146"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41607310/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/1756-185x.70524",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4060",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

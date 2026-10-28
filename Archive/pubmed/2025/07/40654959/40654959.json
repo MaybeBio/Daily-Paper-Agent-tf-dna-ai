@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "40654959",
+    "doi": "10.1101/2025.04.17.649372",
+    "title": "scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Accurately inferring transcription factor (TF) activity from single-cell RNA sequencing (scRNA-seq) data remains a fundamental challenge in computational biology. While existing methods rely on statistical models, motif enrichment, or prior-based inference, they often depend on deterministic assumptions about regulatory relationships and rely on static regulatory databases. Moreover, few approaches can effectively integrate prior biological knowledge with data-driven inference to capture novel, dynamic, and context-specific regulatory interactions. RESULTS: To address these limitations, we develop scRegulate, a generative deep learning framework that leverages variational inference to infer TF activities while incorporating gene regulatory network (GRN) priors. By integrating structured biological constraints with a probabilistic latent space model, scRegulate offers a scalable and biologically interpretable solution for prediction of regulatory interactions from scRNA-seq data. We comprehensively benchmark scRegulate using multiple public experimental and synthetic datasets generated from GRouNdGAN to demonstrate its ability to infer TF activities and GRNs that are consistent with the underlying ground-truth regulatory interactions. scRegulate outperforms existing TF inference methods, achieving AUROC values of 0.71-0.86 and AUPRC values of 0.80-0.95 on three synthetic datasets. Additionally, scRegulate accurately recapitulates experimentally validated TF knockdown effects on a Perturb-seq dataset, achieving a mean log2 fold change of -0.61 to -18.92 (p </= 8.06x10(-13)) for key TFs such as ELK1, EGR1, and CREB1. Applied to the PBMC scRNA-seq data, scRegulate reconstructs cell-type-specific GRNs and identifies differentially active TFs that align with known immune regulatory pathways. Furthermore, we show that scRegulate's TF embeddings capture meaningful transcriptional heterogeneity, enabling accurate clustering of cell types. Collectively, our results establish scRegulate as a powerful, interpretable, and scalable framework for inferring TF activities and regulatory networks from single-cell transcriptomics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zandigohar, Mehrdad",
+        "Rehman, Jalees",
+        "Dai, Yang"
+      ],
+      "short_names": [
+        "Zandigohar M",
+        "Rehman J",
+        "Dai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3772-2683",
+        "ORCID: 0000-0002-2787-9292",
+        "ORCID: 0000-0002-7638-849X"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States.",
+        "Department of Biochemistry and Molecular Genetics, University of Illinois College of Medicine, Chicago, Illinois, United States.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zandigohar, Mehrdad",
+        "short_name": "Zandigohar M",
+        "identifiers": [
+          "0000-0003-3772-2683"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States."
+        ]
+      },
+      {
+        "full_name": "Rehman, Jalees",
+        "short_name": "Rehman J",
+        "identifiers": [
+          "0000-0002-2787-9292"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States.",
+          "Department of Biochemistry and Molecular Genetics, University of Illinois College of Medicine, Chicago, Illinois, United States."
+        ]
+      },
+      {
+        "full_name": "Dai, Yang",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0002-7638-849X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, Illinois, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39833103",
+      "38940624",
+      "38744843",
+      "38564635",
+      "37843125",
+      "37706624",
+      "37443338",
+      "36755098",
+      "36699385",
+      "35132262",
+      "34193535",
+      "32975352",
+      "32176273",
+      "31594952",
+      "31178118",
+      "30283141",
+      "29425488",
+      "29409532",
+      "28991892",
+      "27984732",
+      "24342920",
+      "23684984",
+      "22261438",
+      "21970955",
+      "20513432",
+      "19664942",
+      "19578362"
+    ],
+    "similar": [
+      "40654959",
+      "41288963",
+      "38980373",
+      "41043336",
+      "40062616",
+      "37985457",
+      "41067887",
+      "40251476",
+      "35961023",
+      "37085776",
+      "40662821",
+      "30547796",
+      "39975293",
+      "39062480",
+      "38589899",
+      "38744843",
+      "41206950",
+      "38653489",
+      "38261340",
+      "37004161",
+      "40708222",
+      "39535258",
+      "36168811",
+      "39934680",
+      "41300707",
+      "39605181",
+      "35692809",
+      "18426580",
+      "39939367",
+      "37686146",
+      "41329984",
+      "39960893",
+      "28961802",
+      "37897702",
+      "38342857",
+      "34251625",
+      "38950180",
+      "37244909",
+      "40699953",
+      "40220759",
+      "36418514",
+      "38510148",
+      "38896510",
+      "39800872",
+      "41052197",
+      "41317402",
+      "38217125",
+      "41093852",
+      "39082647",
+      "36778259",
+      "36585783",
+      "36147664",
+      "41452988",
+      "34424948",
+      "34193535",
+      "37577525",
+      "38806476",
+      "37788349",
+      "40591481",
+      "23525069",
+      "37434694",
+      "40116659",
+      "27794550",
+      "36626328",
+      "41488124",
+      "40699807",
+      "39833103",
+      "39684451",
+      "25162401",
+      "37682477",
+      "40661601",
+      "40806243",
+      "24228871",
+      "36303726",
+      "32174324",
+      "41000745",
+      "40094454",
+      "40551620",
+      "36204155",
+      "41050338",
+      "41139927",
+      "33631799",
+      "41230160",
+      "41022541",
+      "41042660",
+      "39417321",
+      "41255833",
+      "38879931",
+      "35050715",
+      "32054475",
+      "41257571",
+      "34980200",
+      "39311699",
+      "29769331",
+      "39649598",
+      "35715748",
+      "40983951",
+      "34292930",
+      "19594874",
+      "40596788"
+    ],
+    "review": [
+      "40654959",
+      "39939367"
+    ],
+    "pmc": [
+      "12248043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40654959/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.04.17.649372",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

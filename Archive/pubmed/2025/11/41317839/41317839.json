@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "41317839",
+    "doi": "10.1016/j.tox.2025.154360",
+    "title": "Acetyl tributyl citrate induces intestinal toxicity by regulating the IDH2/NF-kappaB pathway and lipid peroxidation."
+  },
+  "content": {
+    "abstract": "In recent years, the increasing prevalence of environmental pollutants has raised concerns about their potential role in intestinal-related diseases. Previous studies have shown that various chemicals, including plasticizers like acetyl tributyl citrate (ATBC), may adversely affect intestinal health, but the specific mechanisms remain unclear. Herein, we aimed to elucidate the potential molecular mechanisms underlying ATBC-induced intestinal toxicity. We systematically screened professional databases, including ChEMBL, STITCH, and GSE16879, and identified 29 potential targets associated with ATBC-related intestinal toxicity. Through rigorous filtering using the STRING platform and Cytoscape software, 15 hub genes were ultimately selected, and four core targets-ATM, FYN, IDH2, and TOP1-were identified using two machine-learning methods. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses revealed that these core targets were primarily enriched in NF-kappab pathways. Molecular docking simulations using the AutoDock software further confirmed strong binding interactions between ATBC and the core targets, and IDH2 was selected for the following analyses. In vitro experiments demonstrated that ATBC treatment decreases IDH2 expression in NCM460 and HCT116 cells and activates the NF-kappaB pathway. Given the pivotal role of the IDH2 gene in cellular energy metabolism, we systematically evaluated reactive oxygen species (ROS) levels and performed JC-1 staining assays. Our findings demonstrate that ATBC significantly promotes intracellular ROS accumulation, induces mitochondrial membrane-potential depolarization, and concurrently triggers cellular lipid peroxidation damage. Overall, our findings confirm that ATBC induces intestinal damage by regulating the IDH2/NF-kappaB pathway and lipid peroxidation, and lay the foundation for the development of preventive and therapeutic strategies against intestinal damage caused by exposure to ATBC-containing plastics.",
+    "keywords": [
+      "ATBC",
+      "IDH2",
+      "Intestinal toxicity",
+      "Molecular docking",
+      "Network toxicology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-kappa B/metabolism/genetics",
+      "*Lipid Peroxidation/drug effects",
+      "*Isocitrate Dehydrogenase/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "Signal Transduction/drug effects",
+      "HCT116 Cells",
+      "*Plasticizers/toxicity",
+      "Reactive Oxygen Species/metabolism",
+      "*Intestines/drug effects/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Kai",
+        "Huang, Ying"
+      ],
+      "short_names": [
+        "Kang K",
+        "Huang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ultrasound, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, China.",
+        "Department of Ultrasound, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, China. Electronic address: huangy1@sj-hospital.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Kai",
+        "short_name": "Kang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ying",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, China. Electronic address: huangy1@sj-hospital.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxicology"
+    ],
+    "journal_abbrev": [
+      "Toxicology"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/30 00:30",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42047295"
+    ],
+    "refs": [],
+    "similar": [
+      "41317839",
+      "39657862",
+      "41643307",
+      "41898778",
+      "39615059",
+      "40625361",
+      "40790309",
+      "40705527",
+      "41574914",
+      "39580138",
+      "37858827",
+      "41044206",
+      "41909102",
+      "41823681",
+      "40741007",
+      "41299770",
+      "41629985",
+      "41814794",
+      "41846032",
+      "40671224",
+      "40865347",
+      "40330488",
+      "42172986",
+      "39874850",
+      "40946514",
+      "39447411",
+      "41814740",
+      "41187890",
+      "41593181",
+      "36646160",
+      "41492010",
+      "41756100",
+      "40682227",
+      "41489113",
+      "40462131",
+      "41564679",
+      "41619865",
+      "36691639",
+      "42217408",
+      "39490433",
+      "42032714",
+      "40273561",
+      "40570565",
+      "41814772",
+      "38115276",
+      "41934903",
+      "41310176",
+      "37451151",
+      "41073487",
+      "37382018",
+      "40676786",
+      "40838869",
+      "40359556",
+      "39085510",
+      "41786520",
+      "39125368",
+      "40692598",
+      "38948281",
+      "40696610",
+      "38910274",
+      "39701786",
+      "38914662",
+      "41096726",
+      "38840248",
+      "40174762",
+      "40331038",
+      "39392030",
+      "39617073",
+      "35622496",
+      "36872242",
+      "40916281",
+      "39636495",
+      "40013962",
+      "40255473",
+      "36872359",
+      "39547017",
+      "41309766",
+      "39747465",
+      "37480968",
+      "41641566",
+      "40924735",
+      "39490646",
+      "36860812",
+      "41605328",
+      "40754029",
+      "39978769",
+      "41303381",
+      "39251712",
+      "40129159",
+      "41134653",
+      "35899176",
+      "42022191",
+      "36604925",
+      "39307810",
+      "41428039",
+      "41795298",
+      "37055963",
+      "41609079",
+      "41365176",
+      "41555083"
+    ],
+    "review": [
+      "41317839"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0300-483X(25)00319-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TOP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-221",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0300-483X(25)00319-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

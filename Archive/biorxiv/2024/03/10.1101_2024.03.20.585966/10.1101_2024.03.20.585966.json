@@ -1,0 +1,453 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.20.585966",
+  "title": "High-throughput selection of glucose-binding proteins from massive datasets: Integrating molecular docking and molecular dynamics simulations",
+  "doi": "10.1101/2024.03.20.585966",
+  "abstract": "Selecting suitable glucose-binding proteins (GBPs) is vital for biosensor development for medical diagnostics and quality control in the food industry. Biosensors offer advantages such as high specificity, selectivity, fast response time, continuous measurement, and cost-effectiveness. The current work utilized a combination of molecular docking, molecular dynamics (MD) simulations, and free energy calculations to develop a high-throughput bioinformatics pipeline to select GBP candidates from an extensive protein database (37,325 proteins). Using molecular docking, GBPs with good binding affinity to glucose (1,447 candidates) were virtually screened from the Protein Data Bank. MD simulations ascertained the binding dynamics of a few selected candidates. Further, steered MD (Brownian dynamics fluctuation-dissipation-theorem) was used to estimate binding free energies of the ligand-protein complex. Correlations between ligand-binding parameters obtained from longer MD simulations and binding parameters interpreted from significantly faster docking simulations were investigated. The correlation plots suggested that a combination of threshold values of the following three docking parameters: docking binding energy, binding cavity depth, and the number of hydrogen bonds between the ligand and binding site residues can be used to predict candidate GBPs reliably. Thus, a high-throughput and accurate protein selection process based on relatively faster docking simulations was proposed to screen GBPs for glucose biosensing.",
+  "authors": [
+    "Anurag Makare",
+    "Amit Chaudhary",
+    "Debankita De",
+    "Parijat Deshpande",
+    "Ajay Singh Panwar"
+  ],
+  "published_date": "2024-03-23",
+  "updated_date": "2024-03-23T20:50:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585966",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585966.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:36:39Z",
+        "timestamp": 1768509399762,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 32,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Selecting suitable glucose-binding proteins (GBPs) is vital for biosensor development for medical diagnostics and quality control in the food industry. Biosensors offer advantages such as high specificity, selectivity, fast response time, continuous measurement, and cost-effectiveness. The current work utilized a combination of molecular docking, molecular dynamics (MD) simulations, and free energy calculations to develop a high-throughput bioinformatics pipeline to select GBP candidates from an extensive protein database (37,325 proteins). Using molecular docking, GBPs with good binding affinity to glucose (1,447 candidates) were virtually screened from the Protein Data Bank. MD simulations ascertained the binding dynamics of a few selected candidates. Further, steered MD (Brownian dynamics fluctuation-dissipation-theorem) was used to estimate binding free energies of the ligand-protein complex. Correlations between ligand-binding parameters obtained from longer MD simulations and binding parameters interpreted from significantly faster docking simulations were investigated. The correlation plots suggested that a combination of threshold values of the following three docking parameters: docking binding energy, binding cavity depth, and the number of hydrogen bonds between the ligand and binding site residues can be used to predict candidate GBPs reliably. Thus, a high-throughput and accurate protein selection process based on relatively faster docking simulations was proposed to screen GBPs for glucose biosensing.</jats:p>",
+      "DOI": "10.1101/2024.03.20.585966",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            23
+          ]
+        ],
+        "date-time": "2024-03-23T20:50:10Z",
+        "timestamp": 1711227010000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "High-throughput selection of glucose-binding proteins from massive datasets: Integrating molecular docking and molecular dynamics simulations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Anurag",
+          "family": "Makare",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amit",
+          "family": "Chaudhary",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Debankita",
+          "family": "De",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Parijat",
+          "family": "Deshpande",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ajay Singh",
+          "family": "Panwar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Singh S , Kumar V , Dhanjal DS , et al. Biological Biosensors for Monitoring and Diagnosis. Microb Biotechnol Basic Res Appl [Internet]. 2020 [cited 2023 Oct 26];317. Available from: /pmc/articles/PMC7340096/.",
+          "DOI": "10.1007/978-981-15-2817-0_14"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1016/j.jiec.2022.02.010",
+          "article-title": "Recent progress and growth in biosensors technology: A critical review",
+          "volume": "109",
+          "year": "2022",
+          "journal-title": "J Ind Eng Chem"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1007/978-981-19-7107-5_3",
+          "article-title": "Overview of Biosensors and Its Application in Health Care",
+          "volume": "322",
+          "year": "2023",
+          "journal-title": "Smart Innov Syst Technol [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "493",
+          "DOI": "10.7150/thno.64035",
+          "article-title": "Glucose biosensors in clinical practice: principles, limits and perspectives of currently used devices",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Theranostics [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "568",
+          "DOI": "10.3390/bios13050568",
+          "article-title": "A Review on Photonic Sensing Technologies: Status and Outlook",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Biosens"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": ":4558",
+          "DOI": "10.3390/s100504558",
+          "article-title": "Glucose Biosensors: An Overview of Use in Clinical Practice",
+          "volume": "10",
+          "year": "2010",
+          "journal-title": "Sensors (Basel) [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biotechadv.2009.04.003"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "439",
+          "DOI": "10.1016/S0003-2670(01)82476-4",
+          "article-title": "An enzyme electrode for the amperometric determination of glucose",
+          "volume": "64",
+          "year": "1973",
+          "journal-title": "Anal Chim Acta [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)62246-X"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": ":433",
+          "DOI": "10.2337/diacare.20.3.433",
+          "article-title": "Noninvasive blood glucose monitoring",
+          "volume": "20",
+          "year": "1997",
+          "journal-title": "Diabetes Care [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2337/diacare.5.3.254"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c9an02354b"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/CLINCHEM/45.9.1587"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2263",
+          "DOI": "10.2337/diacare.25.12.2263",
+          "article-title": "Noninvasive blood glucose monitoring with optical coherence tomography: a pilot study in human subjects",
+          "volume": "25",
+          "year": "2002",
+          "journal-title": "Diabetes Care [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1109/MSP.2012.2233865",
+          "article-title": "Machine Learning with Brain Graphs: Predictive Modeling Approaches for Functional Imaging in Systems Neuroscience",
+          "volume": "30",
+          "year": "2013",
+          "journal-title": "IEEE Signal Process Mag"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.16",
+          "first-page": ":49",
+          "article-title": "Effective use of biosensors for high-throughput library screening for metabolite production",
+          "volume": "48",
+          "year": "2021",
+          "journal-title": "J Ind Microbiol Biotechnol [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2200052",
+          "DOI": "10.1002/adsr.202200052",
+          "article-title": "High-Throughput Screening of Metabolic Biomarkers and Wearable Biosensors for the Quantification of Metabolites",
+          "volume": "2",
+          "year": "2023",
+          "journal-title": "Adv Sens Res [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-02974-x"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1402",
+          "DOI": "10.1080/07391102.2017.1323673",
+          "article-title": "Structural basis of pesticide detection by enzymatic biosensing: a molecular docking and MD simulation study",
+          "volume": "36",
+          "year": "2018",
+          "journal-title": "J Biomol Struct Dyn [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.20",
+          "first-page": "2888",
+          "article-title": "Emerging Trends In Computational Biosensors: Challenges And Future Directions",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "J Surv Fish Sci [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1246/bcsj.20230030"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sahil M , Singh J , Sahu S , et al. Identifying Selectivity Filters in Protein Biosensor for Ligand Screening. JACS Au [Internet]. 2023 [cited 2023 Oct 27]; Available from: https://pubs.acs.org/doi/full/10.1021/jacsau.3c00374.",
+          "DOI": "10.1021/jacsau.3c00374"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Berman HM , Westbrook J , Feng Z , et al. The Protein Data Bank [Internet]. Nucleic Acids Res. Oxford University Press; 2000 [cited 2021 Feb 21]. p. 235–242. Available from: https://pubmed.ncbi.nlm.nih.gov/10592235/.",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Trott O , Olson AJ. AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J Comput Chem [Internet]. 2009 [cited 2020 Nov 23];31:NA-NA. Available from: /pmc/articles/PMC3041641/?report=abstract.",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1016/j.compbiolchem.2018.02.012",
+          "article-title": "POAP: A GNU parallel based multithreaded pipeline of open babel and AutoDock suite for boosted high throughput virtual screening",
+          "volume": "74",
+          "year": "2018",
+          "journal-title": "Comput Biol Chem [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.26",
+          "unstructured": "Studio D. Discovery studio. Accelrys [21] [Internet]. 2008 [cited 2023 Oct 26]; Available from: https://www.researchgate.net/profile/Tanweer-Alam-2/post/hi_can_somebody_plz_tell_me_how_to_import_a_database_into_Discovery_Studio_for_a_3D_database_search/attachment/59d63bb879197b8077998bbd/AS%3A412232203685889%401475295224962/download/ds-overview-20.pdf."
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "3150",
+          "DOI": "10.1093/bioinformatics/bts565",
+          "article-title": "CD-HIT: accelerated for clustering the next-generation sequencing data",
+          "volume": "28",
+          "year": "2012",
+          "journal-title": "Bioinformatics [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "403",
+          "DOI": "10.1016/S0022-2836(05)80360-2",
+          "article-title": "Basic local alignment search tool",
+          "volume": "215",
+          "year": "1990",
+          "journal-title": "J Mol Biol [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00935"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/nmeth.4067",
+          "article-title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nat Methods [Internet"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024040200500705000_2024.03.20.585966v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen LY . Nonequilibrium fluctuation-dissipation theorem of Brownian dynamics. J Chem Phys [Internet]. 2008 [cited 2023 Oct 23];129. Available from:/aip/jcp/article/129/14/144113/187218/Nonequilibrium-fluctuation-dissipation-theorem-of.",
+          "DOI": "10.1063/1.2992153"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.20.585966",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:09:10Z",
+        "timestamp": 1768457350000
+      },
+      "score": 87.40258,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.20.585966"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            23
+          ]
+        ]
+      },
+      "references-count": 32,
+      "URL": "https://doi.org/10.1101/2024.03.20.585966",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

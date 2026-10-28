@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "42242226",
+    "doi": "10.1016/j.cell.2026.05.014",
+    "title": "Single-cell mapping of regulatory DNA-protein interactions."
+  },
+  "content": {
+    "abstract": "Gene expression is controlled by transcription factors (TFs), whose genome binding is shaped by chromatin accessibility and histone modifications, yet mapping these interactions, particularly those with weak affinity or a transient nature, in single cells remains technically challenging. To address this gap, we developed docking and deamination followed by sequencing (D&D-seq), a single-cell immuno-tethering technology for profiling DNA-protein interactions. D&D-seq couples an antibody-binding nanobody to a cytosine base editor, a combination that enables detection of weak or transient factor binding through targeted cytosine-to-uracil editing at protein-bound genomic sites. This approach is compatible with standard single-cell multi-omic workflows and therefore allows integrated analyses of gene regulation. Using assay for transposase-accessible chromatin using sequencing (ATAC-seq) and single-cell ATAC-seq (scATAC-seq), we assessed chromatin accessibility as a functional readout of TF activity, and by coupling D&D-seq with whole-genome sequencing, we captured CTCF binding in both active and inactive chromatin compartments.",
+    "keywords": [
+      "clonal hematopoiesis",
+      "epigenomics",
+      "gene regulation",
+      "single-cell",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Single-Cell Analysis/methods",
+      "*Transcription Factors/metabolism",
+      "Mice",
+      "Chromatin/metabolism",
+      "CCCTC-Binding Factor/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "*DNA/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chi, Wei-Yu",
+        "Yoon, Sang-Ho",
+        "Goksel, Evrim",
+        "Mekerishvili, Levan",
+        "Pelt, Joe",
+        "Lin, Yiyun",
+        "Prieto, Tamara",
+        "Zinno, John",
+        "Ganesan, Saravanan",
+        "Potenski, Catherine",
+        "Izzo, Franco",
+        "Landau, Dan A",
+        "Raimondi, Ivan"
+      ],
+      "short_names": [
+        "Chi WY",
+        "Yoon SH",
+        "Goksel E",
+        "Mekerishvili L",
+        "Pelt J",
+        "Lin Y",
+        "Prieto T",
+        "Zinno J",
+        "Ganesan S",
+        "Potenski C",
+        "Izzo F",
+        "Landau DA",
+        "Raimondi I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA; Physiology, Biophysics and Systems Biology Graduate Program, Weill Cornell Medicine, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA; Physiology, Biophysics and Systems Biology Graduate Program, Weill Cornell Medicine, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA; Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA. Electronic address: dlandau@nygenome.org.",
+        "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA. Electronic address: iraimondi@nygenome.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chi, Wei-Yu",
+        "short_name": "Chi WY",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA; Physiology, Biophysics and Systems Biology Graduate Program, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yoon, Sang-Ho",
+        "short_name": "Yoon SH",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Goksel, Evrim",
+        "short_name": "Goksel E",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mekerishvili, Levan",
+        "short_name": "Mekerishvili L",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA; Physiology, Biophysics and Systems Biology Graduate Program, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Pelt, Joe",
+        "short_name": "Pelt J",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Yiyun",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Prieto, Tamara",
+        "short_name": "Prieto T",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zinno, John",
+        "short_name": "Zinno J",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ganesan, Saravanan",
+        "short_name": "Ganesan S",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Potenski, Catherine",
+        "short_name": "Potenski C",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Izzo, Franco",
+        "short_name": "Izzo F",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA; Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Landau, Dan A",
+        "short_name": "Landau DA",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA. Electronic address: dlandau@nygenome.org."
+        ]
+      },
+      {
+        "full_name": "Raimondi, Ivan",
+        "short_name": "Raimondi I",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, USA; New York Genome Center, New York, NY, USA. Electronic address: iraimondi@nygenome.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:34",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42065963",
+      "40205063",
+      "39939719",
+      "38720070",
+      "38402612",
+      "38177329",
+      "37460895",
+      "37239985",
+      "37231261",
+      "37118452",
+      "36973556",
+      "36852270",
+      "36634672",
+      "36624151",
+      "36536150",
+      "36411356",
+      "36071116",
+      "35993175",
+      "35478247",
+      "35379961",
+      "35332340",
+      "34725479",
+      "34669510",
+      "34465366",
+      "34099548",
+      "34083792",
+      "34062119",
+      "33958790",
+      "33927415",
+      "33911257",
+      "33846646",
+      "33846645",
+      "33627798",
+      "33590861",
+      "33589836",
+      "33512425",
+      "33098772",
+      "32848148",
+      "32780989",
+      "32641830",
+      "32051003",
+      "32014034",
+      "31897230",
+      "31730858",
+      "31701148",
+      "31695190",
+      "31604482",
+      "31270458",
+      "31036827",
+      "30955888",
+      "30877125",
+      "30787437",
+      "30737237",
+      "30675018",
+      "30078726",
+      "30026227",
+      "29572359",
+      "29425488",
+      "29352114",
+      "29140464",
+      "28991892",
+      "28825706",
+      "28759029",
+      "28525758",
+      "28349863",
+      "27079975",
+      "26700815",
+      "26344043",
+      "25953851",
+      "25079858",
+      "24638828",
+      "24227677",
+      "22955616",
+      "22313908",
+      "21251613",
+      "21221095",
+      "20110278",
+      "19372391",
+      "18798982",
+      "18555785",
+      "16862119",
+      "16381938",
+      "15864311",
+      "15684376",
+      "15572441",
+      "12482752",
+      "11544028",
+      "10851229",
+      "10790365",
+      "9707565",
+      "9482838"
+    ],
+    "similar": [
+      "42242226",
+      "39803441",
+      "41924246",
+      "42443520",
+      "33191916",
+      "35858748",
+      "39326643",
+      "40795153",
+      "32807906",
+      "34083792",
+      "26083756",
+      "31053165",
+      "42114111",
+      "30580963",
+      "30598689",
+      "36902216",
+      "39487131",
+      "29572403",
+      "35195064",
+      "39572230",
+      "34488759",
+      "31653198",
+      "29593713",
+      "18684996",
+      "39738353",
+      "39881144",
+      "31629814",
+      "31164146",
+      "25486472",
+      "40029523",
+      "34429148",
+      "36536150",
+      "30559361",
+      "28750606",
+      "24339764",
+      "40781032",
+      "33693880",
+      "34544361",
+      "29561703",
+      "38664790",
+      "34417498",
+      "39127768",
+      "40624534",
+      "27582050",
+      "31431618",
+      "39700048",
+      "42265104",
+      "38338756",
+      "20158869",
+      "22863112",
+      "24603674",
+      "39888372",
+      "31752933",
+      "32710817",
+      "16966320",
+      "41439990",
+      "32431014",
+      "29579165",
+      "37805453",
+      "30598100",
+      "26818008",
+      "26977395",
+      "40753156",
+      "32143622",
+      "22479205",
+      "39769196",
+      "31177910",
+      "41279708",
+      "39768207",
+      "39080437",
+      "36161934",
+      "38653489",
+      "38940155",
+      "34686316",
+      "32637041",
+      "41603298",
+      "28801897",
+      "41932342",
+      "25957350",
+      "30078704",
+      "30082317",
+      "34251618",
+      "30359306",
+      "33633365",
+      "34016988",
+      "29155775",
+      "38092913",
+      "36719906",
+      "32312702",
+      "30532068",
+      "34769020",
+      "38330939",
+      "30696696",
+      "31375813",
+      "37682473",
+      "29786094",
+      "36738683",
+      "32619460",
+      "32376693",
+      "41511382"
+    ],
+    "review": [
+      "42242226",
+      "25486472",
+      "38338756",
+      "29579165",
+      "32637041"
+    ],
+    "pmc": [
+      "13366695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00573-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42242226/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42242226",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

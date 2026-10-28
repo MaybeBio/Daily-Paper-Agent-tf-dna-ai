@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "40289127",
+    "doi": "10.1038/s41598-025-98070-4",
+    "title": "Exploring the molecular mechanisms underlying intervertebral disc degeneration by analysing multiple datasets."
+  },
+  "content": {
+    "abstract": "The purpose of this study was to explore the genetic characteristics and immune cell infiltration related to intervertebral disc degeneration through multidataset analysis, predict potential therapeutic drugs, and provide a theoretical basis for clinical treatment. The gene expression profile data of the GSE70362, GSE186542, and GSE245147 datasets were downloaded from the Gene Expression Omnibus (GEO) database, and the hub genes were identified through differentially expressed gene analysis, Gene Ontology (GO) and Kyoto Encyclopaedia of Genes and Genomes (KEGG) functional annotation and Mendelian randomization analysis were performed. Hub genes and immune cells were identified. Infiltration status was determined through GSEA and GSVA to clarify the specific signalling pathways associated with key genes and explore the potential molecular mechanisms by which key genes affect disease progression. The key genes were reversely predicted using miRNA grid construction and transcription factor regulation, and genes related to disease regulation were obtained from the GeneCards database. Finally, the differentially expressed genes were used for drug prediction through the Connectivity Map database to identify potential drugs for the treatment of intervertebral disc degeneration. The feasibility of the predicted drugs was tested by molecular docking technology. Real-time quantitative PCR was used to confirm the expression of key genes in the tissue samples.A total of 126 differentially expressed genes were identified in the GEO database, and 4 differentially expressed hub genes (COL6A2, DCXR, GLRX, and PDGFRB) were identified through bioinformatics methods. Immune infiltration analysis revealed that NK cells, macrophages, and eosinophils were activated during IVDD, whereas mast cells and T cells were suppressed. GO and KEGG analyses revealed that key genes are involved in the development of this disease through signalling pathways such as the glycolysis pathway, the oxidative phosphorylation pathway, the cholesterol regulatory pathway, and the haem metabolism pathway. Analysis of the constructed miRNA grid revealed that key genes are jointly regulated by multiple transcription factors, among which the most important motif is cisbp_M5578. Disease regulation-related genes were obtained through the GeneCards database, analysis of the correlation with key genes was performed, and the expression levels of the two mRNA and miRNA were significantly correlated. Finally, drug prediction performed through the Connectivity Map database revealed that drugs such as Abt-751, LY-2183240, podophyllotoxin, and vindesine can alleviate or even reverse the disease state. Finally, we collected 10 IVDD and 10 healthy disc tissue samples, and the RT‒qPCR results were consistent with the bioinformatics results. We identified COL6A2, DCXR, GLRX, and PDGFRB as key genes involved in IVDD. In addition, drugs such as Abt-751 are expected to control and reverse the progression of the disease. In the future, these key genes and predicted drugs may provide new directions for further mechanistic studies as well as new therapies for IVDD patients.",
+    "keywords": [
+      "Drug-gene interaction analysis",
+      "Hub gene",
+      "Immune inflammation",
+      "Intervertebral disc degeneration",
+      "Multidataset analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intervertebral Disc Degeneration/genetics/metabolism/pathology/drug therapy",
+      "Gene Regulatory Networks",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Gene Ontology",
+      "Computational Biology/methods",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation",
+      "Transcriptome",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Longquan",
+        "Li, Da",
+        "Cai, Gangfeng",
+        "Zheng, Gengyang",
+        "Huang, Dianfeng",
+        "Liu, Hua",
+        "Lin, Shunxin",
+        "Zhao, Feng"
+      ],
+      "short_names": [
+        "Lin L",
+        "Li D",
+        "Cai G",
+        "Zheng G",
+        "Huang D",
+        "Liu H",
+        "Lin S",
+        "Zhao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China. 467796153@qq.com.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China.",
+        "Department of Neurosurgery, Fujian Medical University Union Hospital, Fujian, 350000, China. caigangfeng2023@sina.com.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China.",
+        "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Longquan",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China. 467796153@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Da",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Gangfeng",
+        "short_name": "Cai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Fujian Medical University Union Hospital, Fujian, 350000, China. caigangfeng2023@sina.com."
+        ]
+      },
+      {
+        "full_name": "Zheng, Gengyang",
+        "short_name": "Zheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Dianfeng",
+        "short_name": "Huang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hua",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shunxin",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Feng",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The 910th Hospital of PLA, Quanzhou, 362000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/28 00:27",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [
+      "42691205",
+      "42621705",
+      "42587749",
+      "42395832",
+      "41953721",
+      "41890150",
+      "41381667",
+      "41354850"
+    ],
+    "refs": [
+      "39207014",
+      "39096902",
+      "39019974",
+      "38896358",
+      "38883390",
+      "38823582",
+      "38744373",
+      "38624083",
+      "38379239",
+      "38226983",
+      "38187091",
+      "38167807",
+      "38055799",
+      "38020614",
+      "37597405",
+      "37539055",
+      "37520321",
+      "37492576",
+      "37479733",
+      "37090223",
+      "36911415",
+      "36879254",
+      "36841375",
+      "36749410",
+      "36512705",
+      "36300620",
+      "36267810",
+      "36059551",
+      "35767190",
+      "35711934",
+      "35486489",
+      "35404423",
+      "35265617",
+      "34545328",
+      "33869626",
+      "33738788",
+      "33634362",
+      "33536009",
+      "33478005",
+      "33391459",
+      "33329553",
+      "33198793",
+      "33111436",
+      "32312982",
+      "32161689",
+      "31731008",
+      "31441146",
+      "30487517",
+      "29031872",
+      "28970490",
+      "27899662",
+      "27447821",
+      "27211863",
+      "26910849",
+      "23988570",
+      "22009908",
+      "21212348",
+      "20154735",
+      "16978532",
+      "10592173",
+      "2760210"
+    ],
+    "similar": [
+      "40289127",
+      "39349110",
+      "37784117",
+      "39182249",
+      "37632659",
+      "39556889",
+      "39717265",
+      "39328407",
+      "39697339",
+      "37325631",
+      "39633111",
+      "37325630",
+      "38704519",
+      "39704340",
+      "36267810",
+      "38222811",
+      "40281518",
+      "37026912",
+      "34545328",
+      "39586719",
+      "38041088",
+      "29039500",
+      "37700277",
+      "39919458",
+      "40096894",
+      "37736497",
+      "37520321",
+      "31987036",
+      "40225045",
+      "39430414",
+      "39627301",
+      "33233925",
+      "26200140",
+      "26439025",
+      "26498025",
+      "40091022",
+      "36972403",
+      "39874850",
+      "38940022",
+      "32686499",
+      "39341981",
+      "25801299",
+      "34805401",
+      "34395625",
+      "35840955",
+      "39555740",
+      "38736878",
+      "40061887",
+      "38492610",
+      "37266623",
+      "40216809",
+      "29901136",
+      "35042389",
+      "35711934",
+      "39512836",
+      "37597405",
+      "26847698",
+      "31056633",
+      "39670237",
+      "35757392",
+      "39673621",
+      "39050860",
+      "39636180",
+      "38104954",
+      "38863714",
+      "40319252",
+      "38555595",
+      "34880601",
+      "39346628",
+      "36879254",
+      "34122424",
+      "34536521",
+      "33764282",
+      "34553293",
+      "40241169",
+      "38957433",
+      "33459443",
+      "34402383",
+      "39125762",
+      "38142454",
+      "38890795",
+      "39794775",
+      "39769264",
+      "39172048",
+      "32873329",
+      "31703725",
+      "38073349",
+      "26134418",
+      "34218797",
+      "31424263",
+      "23661466",
+      "38755717",
+      "32756534",
+      "40303407",
+      "36193061",
+      "34238741",
+      "35562622",
+      "35132271",
+      "34722763",
+      "34823491"
+    ],
+    "review": [
+      "40289127"
+    ],
+    "pmc": [
+      "12034803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-98070-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40289127/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-492",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

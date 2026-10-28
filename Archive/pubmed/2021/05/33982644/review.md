@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational analysis of 124 non-synonymous mutations in the TRFH domain of TRF1, identifying 12 deleterious mutations via multiple prediction tools, and performing 200 ns all-atom MD simulations on TRF1-WT, L79R, and P150R mutants, observing significant conformational change in P150R and concluding that these mutations affect TRF1 structure and function, contributing to disease progression.
+- **Visible evidence base** Abstract text only; no numerical results, simulation details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, MD simulation trajectories and analyses, prediction scores for all 124 mutations, selection criteria for the 12 deleterious mutations, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational screening of TRF1 mutations, but the evidence provided is insufficient to evaluate the robustness of the predictions, the justification for selecting only three mutants for MD simulations, or the biological significance of the observed conformational change. The claim that these mutations lead to disease progression is not supported by the data described in the abstract.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, shelterin complex function, and TRF1-related pathologies, as well as computational biologists interested in mutation effect prediction and MD simulation approaches. Clinicians or geneticists working on telomere-related disorders may also find the catalog of potentially deleterious mutations useful, provided the predictions are validated.
+- **Major strengths** The study addresses a relevant question regarding the functional impact of naturally occurring TRF1 mutations. The use of multiple established computational tools for mutation effect prediction is a reasonable approach. The inclusion of MD simulations to assess structural consequences adds a dynamic perspective beyond static predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 12 mutations were identified as deleterious with high confidence based on predictions from SIFT, PolyPhen-2, PROVEAN, Mutation Assessor, mCSM, SDM, STRUM, MAESTRO, and DUET.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the criteria used to define "high confidence" or how predictions from these diverse tools were integrated. Different tools use different scales and thresholds, and no consensus method or statistical measure is described. Without this information, the selection of the 12 mutations cannot be reproduced or assessed for reliability.
+  - **Why it matters** The entire downstream analysis, including MD simulations, depends on the validity of this selection. If the filtering criteria are arbitrary or inconsistent, the conclusions about specific mutants may be misleading.
+  - **Resolution test** Provide a clear description of the scoring scheme, thresholds, and consensus rules used to classify mutations as deleterious. Include a supplementary table with scores from all tools for all 124 mutations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MD simulations were performed on TRF1-WT, L79R, and P150R mutants for 200 ns and that a significant conformational change was observed in P150R.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not justify why only L79R and P150R were selected for MD simulations from the 12 deleterious mutations. No rationale is given, and no comparison with other mutants is provided. Additionally, the term "significant conformational change" is not quantified, and no metrics such as RMSD, RMSF, radius of gyration, or secondary structure analysis are mentioned.
+  - **Why it matters** Without a clear selection rationale and quantitative measures of conformational change, the claim that P150R has a significant structural impact is not verifiable. The choice of only two mutants may introduce selection bias and limits the generalizability of the findings.
+  - **Resolution test** Explain the criteria for selecting L79R and P150R. Provide quantitative MD analysis results, including convergence checks, and compare the conformational changes across all simulated systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that the studied mutations lead to structural changes in TRF1 and subsequent functional alterations, "leading to the progression of many diseases."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no direct link between the computational predictions or MD observations and any specific disease phenotype. No disease-associated data, clinical correlations, or functional assays are presented. The phrase "leading to the progression of many diseases" is a broad generalization unsupported by the evidence described.
+  - **Why it matters** The claim of disease relevance is a key motivation for the study, but without experimental or epidemiological evidence, it remains speculative. Overstating the implications may mislead readers about the clinical significance of the findings.
+  - **Resolution test** Either remove or substantially temper the disease progression claim, or provide supporting evidence such as known disease associations for the specific mutations studied, or experimental validation of functional impact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists nine computational tools without explaining their distinct purposes or outputs, which may be overwhelming for readers unfamiliar with bioinformatics.
+  - **Required correction** Briefly describe the categories of tools used, such as sequence-based predictors, structure-based stability predictors, and consensus approaches, to improve clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutation selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the 124 mutations were derived from public databases, literature, or clinical samples, nor whether they are all naturally occurring variants.
+  - **Required correction** Specify the source of the mutations and any filtering applied to exclude rare or common variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The conclusion that the study provides "a comprehensive understanding" is overstated given that only two mutants were simulated and no experimental validation was performed.
+  - **Required correction** Rephrase the conclusion to reflect the computational and predictive nature of the study, such as "provides a preliminary computational assessment."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of multiple prediction tools to TRF1 mutations is not novel, but the specific focus on the TRFH domain and MD simulations of selected mutants may offer some new data.  
+  - Scientific importance: Limited as presented. The abstract does not establish a clear link to disease mechanisms or provide functional validation, which is essential for broad impact.  
+  - Interdisciplinary readership: The topic may appeal to structural biologists, computational biologists, and telomere researchers, but the abstract lacks sufficient detail to engage a wider audience.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the reliability of the predictions and simulations.  
+  - Readability for nonspecialists: The abstract is reasonably clear but includes tool names without context, which may hinder comprehension for non-bioinformaticians.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting computational study, but the lack of methodological transparency, quantitative results, and disease relevance means the claims cannot be evaluated. The authors should provide full details of the prediction criteria, MD simulation analyses, and any available validation before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that 12 mutations are "deleterious with high confidence" is unsupported without defined criteria or consensus rules.
+- The claim of a "significant conformational change" in P150R is unsupported without quantitative MD metrics.
+- The claim that the mutations lead to "the progression of many diseases" is unsupported by any direct evidence in the abstract.
+- The general conclusion of "comprehensive understanding" is overstated relative to the evidence described.

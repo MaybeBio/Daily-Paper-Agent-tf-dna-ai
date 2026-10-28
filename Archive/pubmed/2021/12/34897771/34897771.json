@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "34897771",
+    "doi": "10.1002/sim.9279",
+    "title": "Bayesian regularization for a nonstationary Gaussian linear mixed effects model."
+  },
+  "content": {
+    "abstract": "In omics experiments, estimation and variable selection can involve thousands of proteins/genes observed from a relatively small number of subjects. Many regression regularization procedures have been developed for estimation and variable selection in such high-dimensional problems. However, approaches have predominantly focused on linear regression models that ignore correlation arising from long sequences of repeated measurements on the outcome. Our work is motivated by the need to identify proteomic biomarkers that improve the prediction of rapid lung-function decline for individuals with cystic fibrosis (CF) lung disease. We extend four Bayesian penalized regression approaches for a Gaussian linear mixed effects model with nonstationary covariance structure to account for the complicated structure of longitudinal lung function data while simultaneously estimating unknown parameters and selecting important protein isoforms to improve predictive performance. Different types of shrinkage priors are evaluated to induce variable selection in a fully Bayesian framework. The approaches are studied with simulations. We apply the proposed method to real proteomics and lung-function outcome data from our motivating CF study, identifying a set of relevant clinical/demographic predictors and a proteomic biomarker for rapid decline of lung function. We also illustrate the methods on CD4 yeast cell-cycle genomic data, confirming that the proposed method identifies transcription factors that have been highlighted in the literature for their importance as cell cycle transcription factors.",
+    "keywords": [
+      "Bayesian regularization",
+      "MCMC",
+      "integrated Brownian motion",
+      "irregular longitudinal data",
+      "mixed effects models",
+      "shrinkage priors"
+    ],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "*Genomics",
+      "Humans",
+      "Linear Models",
+      "Normal Distribution",
+      "*Proteomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gecili, Emrah",
+        "Sivaganesan, Siva",
+        "Asar, Ozgur",
+        "Clancy, John P",
+        "Ziady, Assem",
+        "Szczesniak, Rhonda D"
+      ],
+      "short_names": [
+        "Gecili E",
+        "Sivaganesan S",
+        "Asar O",
+        "Clancy JP",
+        "Ziady A",
+        "Szczesniak RD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5221-4922",
+        "ORCID: 0000-0001-7093-8078",
+        "ORCID: 0000-0003-0603-1409",
+        "ORCID: 0000-0003-0705-715X"
+      ],
+      "affiliations": [
+        "Division of Biostatistics and Epidemiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA.",
+        "Division of Statistics and Data Science, Department of Mathematical Sciences, University of Cincinnati, Cincinnati, Ohio, USA.",
+        "Department of Biostatistics and Medical Informatics, Acibadem University, Istanbul, Turkey.",
+        "Cystic Fibrosis Foundation, Bethesda, Maryland, USA.",
+        "Division of Pulmonary Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA.",
+        "Division of Biostatistics and Epidemiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gecili, Emrah",
+        "short_name": "Gecili E",
+        "identifiers": [
+          "0000-0001-5221-4922"
+        ],
+        "affiliations": [
+          "Division of Biostatistics and Epidemiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Sivaganesan, Siva",
+        "short_name": "Sivaganesan S",
+        "identifiers": [
+          "0000-0001-7093-8078"
+        ],
+        "affiliations": [
+          "Division of Statistics and Data Science, Department of Mathematical Sciences, University of Cincinnati, Cincinnati, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Asar, Ozgur",
+        "short_name": "Asar O",
+        "identifiers": [
+          "0000-0003-0603-1409"
+        ],
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, Acibadem University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Clancy, John P",
+        "short_name": "Clancy JP",
+        "identifiers": [],
+        "affiliations": [
+          "Cystic Fibrosis Foundation, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Ziady, Assem",
+        "short_name": "Ziady A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Szczesniak, Rhonda D",
+        "short_name": "Szczesniak RD",
+        "identifiers": [
+          "0000-0003-0705-715X"
+        ],
+        "affiliations": [
+          "Division of Biostatistics and Epidemiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Statistics in medicine"
+    ],
+    "journal_abbrev": [
+      "Stat Med"
+    ],
+    "pub_date": "2022 Feb 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/14 06:00",
+    "fetched_at": "2026-09-28 02:54:55"
+  },
+  "links": {
+    "cites": [
+      "41800355",
+      "40804631",
+      "39117222",
+      "36775890"
+    ],
+    "refs": [
+      "31816119",
+      "29357817",
+      "26514925",
+      "26478762",
+      "25519432",
+      "25305041",
+      "24511433",
+      "24476026",
+      "24103586",
+      "23895232",
+      "23810128",
+      "23667412",
+      "23176322",
+      "22555277",
+      "21955051",
+      "21156729",
+      "19470318",
+      "17463025",
+      "16157877",
+      "14627835",
+      "9843569",
+      "7168798"
+    ],
+    "similar": [
+      "34897771",
+      "34126655",
+      "26333238",
+      "35484507",
+      "35428983",
+      "33104698",
+      "24511433",
+      "16918908",
+      "36930589",
+      "35924977",
+      "38483282",
+      "22275239",
+      "35562659",
+      "26514925",
+      "38547174",
+      "33739907",
+      "36389409",
+      "33761580",
+      "32414914",
+      "35758839",
+      "32729965",
+      "27342738",
+      "26956682",
+      "20092655",
+      "23839712",
+      "33123305",
+      "39377518",
+      "33368210",
+      "32413169",
+      "19397585",
+      "35187547",
+      "32455423",
+      "27286957",
+      "24089585",
+      "32935375",
+      "24948842",
+      "21551140",
+      "32452081",
+      "33155717",
+      "16368248",
+      "36911105",
+      "23821618",
+      "29990066",
+      "30400837",
+      "25897512",
+      "9192446",
+      "32842919",
+      "24323668",
+      "31672065",
+      "30484887",
+      "29588381",
+      "26355519",
+      "28943688",
+      "35636264",
+      "29055677",
+      "21138363",
+      "37981999",
+      "23990355",
+      "25808951",
+      "30760541",
+      "17357989",
+      "28391241",
+      "19342340",
+      "27019543",
+      "31108237",
+      "38483283",
+      "22554888",
+      "25926276",
+      "21767461",
+      "28836944",
+      "19436774",
+      "26399857",
+      "33368447",
+      "22573502",
+      "16135028",
+      "38105917",
+      "35699116",
+      "33336826",
+      "29589558",
+      "26466667",
+      "29069967",
+      "18329292",
+      "18163157",
+      "24024641",
+      "20949128",
+      "34394707",
+      "25619995",
+      "26650958",
+      "31329553",
+      "32869690",
+      "28081861",
+      "18252487",
+      "30994361",
+      "28534238",
+      "26313144",
+      "32106341",
+      "33716358",
+      "22904608",
+      "29881129",
+      "39330127",
+      "39324030",
+      "36690931",
+      "29357817",
+      "24795490",
+      "28710702",
+      "38577633",
+      "32542104"
+    ],
+    "review": [
+      "34897771",
+      "35562659",
+      "33761580",
+      "33368447"
+    ],
+    "pmc": [
+      "8795479"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34897771/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/34897771",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34897771",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

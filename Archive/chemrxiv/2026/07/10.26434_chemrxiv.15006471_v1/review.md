@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The authors report a structure-guided strategy combining fragment screening and covalent chemistry to target protein-DNA interfaces, demonstrated on RAD52. They claim identification of DNA-mimetic fragments, a recurrent 2:1 binding mode enabling fragment linking, conversion to covalent inhibitors via C64, and optimization to FORX-864, a beyond-rule-of-5 covalent probe with low-nanomolar activity, favorable in vitro properties, and submicromolar cellular inhibition of single-strand annealing.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, crystallographic data, compound characterization, assay details, cellular data, selectivity data, and pharmacokinetic or in vitro property data
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially significant strategy for targeting protein-DNA interfaces, a class of targets historically considered undruggable. The progression from fragment screening to covalent inhibition is logical and the reported potency of FORX-864 is impressive. However, the abstract alone provides insufficient evidence to assess the robustness of the structural claims, the specificity of the covalent engagement, or the validity of the cellular results. The work is of high interest to the chemical biology and drug discovery communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Chemical biologists and medicinal chemists working on challenging protein-protein or protein-nucleic acid interfaces; researchers in DNA repair and genome stability, particularly those studying RAD52 and homologous recombination; drug discovery scientists interested in covalent inhibitor design and fragment-based lead generation; structural biologists using X-ray crystallography for fragment screening.
+- **Major strengths** The strategy addresses a genuinely difficult target class with a rational, structure-guided approach. The combination of fragment screening with covalent capture is innovative and potentially generalizable. The reported progression from fragment hits to a low-nanomolar covalent probe with cellular activity suggests a well-executed optimization campaign. The use of a beyond-rule-of-5 compound as a chemical probe is notable and may expand the chemical space considered for such targets.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that fragments "recapitulate key phosphate-backbone interactions of ssDNA" within the RAD52 groove.
+  - **Evidence pointer** Abstract only; no structural figures or crystallographic statistics provided
+  - **Concern** The abstract asserts a specific structural mimicry of ssDNA phosphate backbone interactions, but no crystallographic data, electron density maps, or interaction distances are shown. Without these, it is impossible to verify whether the fragments truly mimic the DNA interactions or merely occupy a similar region.
+  - **Why it matters** The entire strategy hinges on the validity of the DNA-mimetic binding mode. If the fragments do not genuinely recapitulate ssDNA interactions, the rationale for fragment linking and subsequent optimization is weakened.
+  - **Resolution test** Provide crystallographic figures with clear depiction of fragment binding, including hydrogen bonds and electrostatic interactions with the phosphate-binding residues, along with refinement statistics and B-factors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that FORX-864 achieves "efficient covalent target engagement" and "submicromolar inhibition of RAD52-dependent single-strand annealing in cells."
+  - **Evidence pointer** Abstract only; no assay protocols, cellular data, or selectivity data provided
+  - **Concern** The abstract reports cellular activity and covalent engagement but provides no details on the assays used, the cell lines, the concentrations tested, or the selectivity of FORX-864 for RAD52 over other cysteine-containing proteins. The term "efficient" is qualitative and requires quantitative context such as occupancy, rate of labeling, or IC50 values in cells.
+  - **Why it matters** Cellular activity is a key translational claim. Without evidence of on-target specificity and quantitative engagement, the possibility of off-target effects or non-specific reactivity cannot be excluded, which would undermine the probe's utility.
+  - **Resolution test** Provide dose-response curves for cellular single-strand annealing inhibition, a demonstration of RAD52 occupancy in cells (e.g., via a fluorescent probe or mass spectrometry), and selectivity profiling against a panel of cysteine-containing proteins or a proteome-wide reactivity assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract states this "provides a chemical strategy for targeting DNA-binding proteins through DNA-mimetic fragments."
+  - **Evidence pointer** Abstract only; no data on other DNA-binding proteins
+  - **Concern** The generalizability of the strategy is implied but only demonstrated on a single target, RAD52. It is unclear whether the 2:1 fragment-binding mode and the proximity of a nucleophilic cysteine are unique to RAD52 or broadly applicable to other DNA-binding proteins.
+  - **Why it matters** The broader significance of the work depends on its transferability. If the approach requires a specific geometric arrangement of a groove and a cysteine, its utility may be limited.
+  - **Resolution test** Provide evidence of the strategy applied to at least one additional DNA-binding protein, or a structural analysis of the RAD52 groove features that are likely to be conserved across other targets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology "beyond-rule-of-5"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "beyond-rule-of-5" is used without defining the specific physicochemical properties that place FORX-864 in this category. This is a descriptor that may be unfamiliar to some readers.
+  - **Required correction** Briefly define the term or provide the relevant properties (e.g., molecular weight, cLogP) in the abstract or a footnote.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** "Favorable in vitro properties"
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims favorable in vitro properties but does not specify which properties were assessed (e.g., solubility, permeability, metabolic stability, plasma protein binding).
+  - **Required correction** List the specific in vitro properties evaluated and, if space permits, include key numerical values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "Low-nanomolar ssDNA-displacement activity"
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify whether this activity is reported as an IC50, Ki, or another parameter, nor the assay format used.
+  - **Required correction** Specify the assay type and the exact parameter reported (e.g., IC50 in a fluorescence polarization displacement assay).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural basis of DNA mimicry and the cellular specificity of covalent engagement must be substantiated with full data. R1-M3, while not blocking, requires additional evidence to support the generalizability claim.
+- **Assessment against Nature-style criteria** Originality: High. The combination of fragment screening with covalent capture to target protein-DNA interfaces is a novel approach not commonly described. Scientific importance: High. DNA-binding proteins are under-explored as drug targets, and a generalizable strategy would be impactful. Interdisciplinary readership: Moderate to high. The work bridges structural biology, medicinal chemistry, and cell biology, and would appeal to readers across these fields. Technical soundness: Not assessable from the abstract alone. The claims require rigorous validation that is not visible in the supplied material. Readability for nonspecialists: The abstract is well-written and accessible, though terms like "beyond-rule-of-5" and "single-strand annealing" may require some background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The strategy is promising and the reported results are potentially significant, but the current evidence base is insufficient to fully establish the claims. Full manuscript review with complete data is necessary.
+
+## Risk / unsupported claims
+- The claim that fragments "recapitulate key phosphate-backbone interactions" is unsupported without crystallographic evidence.
+- The claim of "efficient covalent target engagement" is unsupported without quantitative occupancy or labeling data.
+- The claim of "submicromolar inhibition of RAD52-dependent single-strand annealing in cells" is unsupported without assay details and dose-response data.
+- The generalizability of the strategy to other DNA-binding proteins is not supported by the data presented.
+- The "favorable in vitro properties" of FORX-864 are not specified and thus not assessable.

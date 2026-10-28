@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "41176615",
+    "doi": "10.1016/j.bpj.2025.10.038",
+    "title": "Comparing PAS domain-coupled intrinsic dynamics in bHLH-PAS domain transcription factor complexes."
+  },
+  "content": {
+    "abstract": "The basic helix-loop-helix Per-Arnt-Sim (bHLH-PAS) transcription factors (TFs) are regulators of several critical cellular functions such as circadian rhythm, hypoxia response, and neuronal development. Although PAS domains adopt a conserved fold, recent studies suggest that their interaction interfaces differ distinctly in different TF complexes. However, the implications of these differences on the intrinsic dynamics of PAS domains remain unclear. In this study, we performed a comparative analysis of PAS domain dynamics across multiple bHLH-PAS TF complexes using all-atom elastic network model (ENM)-based normal mode analysis and molecular dynamics simulations. We decomposed the intrinsic dynamics of PAS domains using a domain-domain coupled motions analysis method into self-coupled (internal domain dynamics) and directly coupled (interaction partner-influenced dynamics) motions using a projection-based approach. Our results show that self-coupled motions are more conserved across PAS domains than structure or sequence alone, whereas directly coupled motions capture the context-specific influence of partner proteins. Furthermore, hierarchical clustering of the overall covariance-based similarity scores revealed distinct grouping of CLOCK:BMAL1-type and HIF:ARNT-type complexes, which were not captured by sequence or structural comparisons. Root mean-square fluctuation profiles derived from both molecular dynamics and the all-atom ENM normal mode analysis-based approaches showed strong correspondence, validating the utility of ENMs and domain-domain coupled motions analysis in capturing biologically relevant dynamics, even in cases where the structural complexes were modeled using AlphaFold3. PAS-B domains were generally found to be less flexible than PAS-A domains for all the complexes analyzed. Regions with high directly coupled flexibility were generally localized regions with high interface propensity in class I PAS-B domains, suggesting a higher level of coupled dynamics between PAS-B domains. Our results highlight how PAS domain intrinsic dynamics are shaped by both their internal architecture and complex-specific interactions, offering new insights into the functional diversification of bHLH-PAS TFs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Basic Helix-Loop-Helix Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sudarsanam, Karthik",
+        "Srivastava, Ashutosh",
+        "Tiwari, Sandhya P"
+      ],
+      "short_names": [
+        "Sudarsanam K",
+        "Srivastava A",
+        "Tiwari SP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences and Engineering, Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, India.",
+        "Department of Biological Sciences and Engineering, Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, India. Electronic address: ashutosh.s@iitgn.ac.in.",
+        "Laboratory for Biomolecular Modeling and Dynamics, Institute for Protein Research, The University of Osaka, 3-2 Yamadaoka, Suita, Osaka, Japan. Electronic address: sandhya.tiwari.ipr@osaka-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sudarsanam, Karthik",
+        "short_name": "Sudarsanam K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences and Engineering, Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Ashutosh",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences and Engineering, Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, India. Electronic address: ashutosh.s@iitgn.ac.in."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Sandhya P",
+        "short_name": "Tiwari SP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biomolecular Modeling and Dynamics, Institute for Protein Research, The University of Osaka, 3-2 Yamadaoka, Suita, Osaka, Japan. Electronic address: sandhya.tiwari.ipr@osaka-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jan 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/02 06:33",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41176615",
+      "42475469",
+      "29489822",
+      "39059491",
+      "14638687",
+      "42561019",
+      "27721191",
+      "16520375",
+      "32932609",
+      "36343253",
+      "23912807",
+      "27782878",
+      "14668441",
+      "21512126",
+      "37992889",
+      "37935255",
+      "16181639",
+      "31357385",
+      "16704425",
+      "14643885",
+      "8940073",
+      "41362097",
+      "20112293",
+      "27295348",
+      "9079689",
+      "7628454",
+      "33780250",
+      "9368100",
+      "7823943",
+      "11089639",
+      "12944374",
+      "41495897",
+      "9632792",
+      "42039383",
+      "8065341",
+      "9704006",
+      "40724986",
+      "28143926",
+      "42048441",
+      "27814402",
+      "11782478",
+      "27153104",
+      "19324882",
+      "22653727",
+      "21245039",
+      "9271372",
+      "25627682",
+      "27472814",
+      "29899116",
+      "9144434",
+      "23229515",
+      "41666207",
+      "29052279",
+      "8537407",
+      "31391885",
+      "7969169",
+      "42189225",
+      "9284047",
+      "30523118",
+      "33799876",
+      "28904176",
+      "36027865",
+      "19129502",
+      "16098197",
+      "24001774",
+      "15820977",
+      "10403839",
+      "30070186",
+      "36321557",
+      "15894636",
+      "10559277",
+      "35695677",
+      "32503642",
+      "16129688",
+      "19196990",
+      "37120484",
+      "8816435",
+      "10757985",
+      "37126718",
+      "24603188",
+      "28393157",
+      "28571517",
+      "23599003",
+      "23116263",
+      "23707926",
+      "7488247",
+      "24598755",
+      "10077321",
+      "9343420",
+      "22331899",
+      "9890965",
+      "31527239",
+      "15315827",
+      "8657146",
+      "11502749",
+      "28366537",
+      "18949049",
+      "16861921",
+      "24736273",
+      "15342239"
+    ],
+    "review": [
+      "41176615",
+      "27721191",
+      "37992889",
+      "37935255",
+      "31357385",
+      "14643885",
+      "41362097",
+      "20112293",
+      "42189225",
+      "36321557",
+      "35695677",
+      "23116263"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00729-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41627694",
+  "title": "A Deep Learning Framework with Multi-perspective Feature Fusion for Transcription Factor Binding Site Prediction.",
+  "authors": "Wang, Tong; Liu, Zhendong",
+  "journal": "Interdisciplinary sciences, computational life sciences",
+  "published_date": "2026-02-03",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出融合DNABERT-2全局特征与经典序列编码局部特征的深度学习框架GLNet-TFBS，用于转录因子结合位点预测，核心聚焦TF-DNA互作且方法为AI，高度匹配本课题。",
+  "abstract": "Transcription factor binding sites (TFBS) play pivotal roles in various biological functions, and their precise identification is crucial for deciphering gene regulatory mechanisms. However, conventional experimental approaches are often time-consuming and expensive, while existing computational methods face challenges in further improving prediction accuracy, largely due to their limited ability to capture complex hidden information from DNA sequences. To address these limitations, this study proposes a hybrid deep learning framework named GLNet-TFBS, which integrates dual-path feature learning modules-global and local-to enhance TFBS prediction performance. One path employs the pre-trained DNABERT-2 model, leveraging its Transformer-based architecture to capture rich global contextual information from DNA sequences. The other path incorporates three classical sequence encoding techniques to extract discriminative local patterns. Experimental results show that the fusion of features from both paths significantly improves prediction accuracy and robustness. As a result, our model outperforms existing benchmarks on key evaluation metrics, including ACC, ROC-AUC, and PR-AUC, demonstrating its strong potential for broad applicability across diverse biological contexts. The source code and data are available at https://github.com/zjxywt/GLNet-TFBS .",
+  "abstract_zh": "转录因子结合位点（TFBS）在多种生物功能中发挥关键作用，其精确识别对于解析基因调控机制至关重要。然而，传统实验方法往往耗时且昂贵，而现有计算方法在进一步提高预测准确性方面面临挑战，主要归因于其从DNA序列中捕获复杂隐藏信息的能力有限。为解决这些局限性，本研究提出了一种名为GLNet-TFBS的混合深度学习框架，该框架整合了双路径特征学习模块——全局与局部——以增强TFBS预测性能。一条路径采用预训练的DNABERT-2模型，利用其基于Transformer的架构从DNA序列中捕获丰富的全局上下文信息。另一条路径结合三种经典序列编码技术，以提取判别性局部模式。实验结果表明，两条路径特征的融合显著提高了预测准确性和鲁棒性。因此，我们的模型在关键评估指标（包括ACC、ROC-AUC和PR-AUC）上优于现有基准，展示了其在多种生物环境中广泛应用的强大潜力。源代码和数据可在 https://github.com/zjxywt/GLNet-TFBS 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41627694/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41627694/",
+  "paper_page_path": "papers/pubmed/41627694/index.html"
+}

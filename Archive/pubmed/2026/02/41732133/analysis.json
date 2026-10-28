@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41732133",
+  "title": "Subclassification of Small Cell Lung Cancer Based on Gene Expression Signatures and Machine Learning.",
+  "authors": "Kiedanski, Nicole; Kreis, Julian; Spangenberg, Lucia; Staub, Eike",
+  "journal": "Cancer research communications",
+  "published_date": "2026-02-24",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用机器学习基于转录因子下游表达特征对SCLC进行分子分型，虽涉及TF但核心是表达谱分类而非TF-DNA互作建模，方法为传统ML且无三维互作机制研究，与课题关联较弱。",
+  "abstract": "Small cell lung cancer (SCLC) is frequently subdivided into four molecular subtypes according to the activity of key transcription factors (TF): NEUROD1, ASCL1, POU2F3, and YAP1 (NAPY). There is no consensus on the diagnostic procedures to determine these subtypes. Downstream transcriptional programs of the four TFs could play an important role in the development of an advanced SCLC subtyping approach. We analyzed transcriptomic and genomic sequencing data from a novel cohort of 460 real-world patients with SCLC. We extracted gene expression signatures specific for the four TFs and used them as features to train machine learning (ML) models to predict SCLC-NAPY subtypes in a nested cross-validation approach. Our ML model for transcriptional programs downstream of the four NAPY TFs predicted the NAPY subtypes at an average accuracy of  approximately 90% in clinical SCLC samples and cell lines. We assessed genomic alterations and our compendium of cancer pathway signatures RosettaSX for subtype-specific signals in our SCLC cohort. Survival analyses of an extensive-stage SCLC subset revealed significant prognostic differences and predictive capacities for several molecular phenotypes. We propose a diagnostic algorithm for NAPY classification which demands that high expression of a NAPY TF is matched by a high signal of its downstream expression signature, thereby providing functional robustness to NAPY class calls compared with schemes that rely solely on the expression of TFs. Based on this NAPY consensus classification of our SCLCs, we describe the redetection of known and identification of novel associations of molecular and clinical patters across the four major molecular subtypes. SIGNIFICANCE: Based on analysis of our novel real-word SCLC cohort, we extend the methods space for SCLC diagnosis by developing four downstream transcriptional programs linked to the key TFs that we used for ML-based NAPY classification. By combining evidence from TFs and their downstream signatures, we add functional robustness to current classification schemes. Furthermore, we describe distinct molecular and clinical patters observed across our NAPY subtypes.",
+  "abstract_zh": "小细胞肺癌（SCLC）常根据关键转录因子（TF）的活性细分为四种分子亚型：NEUROD1、ASCL1、POU2F3和YAP1（NAPY）。目前对于确定这些亚型的诊断程序尚无共识。四种转录因子的下游转录程序可能在先进SCLC分型方法的发展中发挥重要作用。我们分析了一个包含460例真实世界SCLC患者的新队列的转录组和基因组测序数据。我们提取了针对四种转录因子特异的基因表达特征，并将其作为特征，在嵌套交叉验证方法中训练机器学习（ML）模型以预测SCLC-NAPY亚型。我们针对四种NAPY转录因子下游转录程序的ML模型在临床SCLC样本和细胞系中预测NAPY亚型的平均准确率约为90%。我们评估了基因组改变以及我们的癌症通路特征汇编RosettaSX，以检测SCLC队列中的亚型特异性信号。对广泛期SCLC亚组的生存分析揭示了多种分子表型的显著预后差异和预测能力。我们提出了一种用于NAPY分类的诊断算法，该算法要求NAPY转录因子的高表达与其下游表达特征的高信号相匹配，从而与仅依赖转录因子表达的方案相比，为NAPY类别判定提供了功能稳健性。基于我们SCLC的NAPY共识分类，我们描述了在四种主要分子亚型中已知关联的重新检测和新关联的发现。意义：基于我们新真实世界SCLC队列的分析，我们通过开发与关键转录因子相关的四种下游转录程序，扩展了SCLC诊断的方法空间，这些程序用于基于ML的NAPY分类。通过结合转录因子及其下游特征的证据，我们为当前分类方案增加了功能稳健性。此外，我们描述了在NAPY亚型中观察到的不同分子和临床模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41732133/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41732133/",
+  "paper_page_path": "papers/pubmed/41732133/index.html"
+}

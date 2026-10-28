@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40634958",
+    "doi": "10.1186/s12964-025-02285-x",
+    "title": "In vivo CRISPR screening identifies POU3F3 as a novel regulator of ferroptosis resistance in hepatocellular carcinoma via retinoic acid signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sorafenib, a ferroptosis agonist, is a first-line treatment for advanced hepatocellular carcinoma (HCC). However, its clinical efficacy is limited due to drug resistance, resulting in modest improvements in patient survival. Hence, the present study has been designed to identify critical molecular targets associated with sorafenib resistance and investigate the potential inhibitors in overcoming this therapeutic challenge. METHODS: In vivo whole-genome CRISPR/Cas9 library screens were conducted to identify resistance factors to ferroptosis agonists, such as RSL3 and sorafenib, in HCC. The effects and underlying molecular mechanisms of these resistance factors were investigated in HCC cells using ferroptosis detection assays, xenograft tumor models, chromatin immunoprecipitation (ChIP), and dual-luciferase reporter assays. Potential inhibitors targeting these factors were evaluated through computer-aided virtual screening, molecular dynamics simulations, surface plasmon resonance analysis, and functional evaluations. RESULTS: A retinoic acid metabolism gene cluster, including ADH4, ALDH1A1, ALDH1A3, FABP5, RBP1, and RDH10, was found demonstrating upregulation in HCC cells treated with ferroptosis agonist, sorafenib. This gene cluster contributes to the ferroptosis resistance by producing the strong reducing agent retinoic acid. The transcription factor POU3F3 was identified as a key regulator for the retinoic acid metabolism gene cluster, which simultaneously binds to their promoters, increasing their transcription and promoting retinoic acid production. Knockdown of POU3F3 significantly enhanced the pro-ferroptotic and inhibitory effects of sorafenib on HCC cells by suppressing retinoic acid metabolism. Furthermore, rosarin was identified as a POU3F3 inhibitor, with an equilibrium dissociation constant of 7.57 microM, and demonstrated a synergistic effect with sorafenib against HCC cells both in vitro and in vivo. CONCLUSIONS: According to the results, POU3F3 acts as a protective regulator against sorafenib-induced ferroptosis in HCC cells by enhancing the transcription of multiple retinoic acid metabolism genes and promoting retinoic acid production. The POU3F3 inhibitor, rosarin, shows potential as an ideal candidate for overcoming sorafenib resistance in HCC.",
+    "keywords": [
+      "CRISPR library screening",
+      "Hepatocellular carcinoma",
+      "POU3F3",
+      "Retinoic acid metabolism",
+      "Sorafenib"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects/genetics",
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism/drug therapy",
+      "*Liver Neoplasms/genetics/pathology/metabolism/drug therapy",
+      "Animals",
+      "*Drug Resistance, Neoplasm/genetics/drug effects",
+      "*Signal Transduction/drug effects",
+      "*Tretinoin/metabolism",
+      "Sorafenib/pharmacology",
+      "Mice",
+      "*Octamer Transcription Factor-3/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Mice, Nude",
+      "*CRISPR-Cas Systems/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Yu",
+        "Bao, Xin",
+        "Lei, Shan",
+        "Huang, Youcai",
+        "Wang, Xiaoling",
+        "Tu, Yanyang",
+        "He, Qinglian",
+        "Zhang, Feixiang",
+        "Xu, Haicheng",
+        "Ashrafizadeh, Milad",
+        "Sethi, Gautam",
+        "Wang, Furong",
+        "Zeng, Zhirui"
+      ],
+      "short_names": [
+        "Tian Y",
+        "Bao X",
+        "Lei S",
+        "Huang Y",
+        "Wang X",
+        "Tu Y",
+        "He Q",
+        "Zhang F",
+        "Xu H",
+        "Ashrafizadeh M",
+        "Sethi G",
+        "Wang F",
+        "Zeng Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China.",
+        "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China.",
+        "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China.",
+        "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China.",
+        "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China.",
+        "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China.",
+        "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China.",
+        "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China.",
+        "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China.",
+        "Department of Radiation Oncology, Shandong Provincial Key Laboratory of Radiation Oncology, Shandong Cancer Hospital and Institute, Shandong First Medical University, Shandong Academy of Medical Sciences, Jinan, 250117, Shandong, China.",
+        "Department of Pharmacology and NUS Centre for Cancer Research, Yong Loo Lin School of Medicine, National University of Singapore 16 Medical Drive, Singapore, 117600, Singapore. phcgs@nus.edu.sg.",
+        "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China. ldyy_wangfr@lzu.edu.com.",
+        "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China. zengzhirui@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Yu",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xin",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Shan",
+        "short_name": "Lei S",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Youcai",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoling",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Yanyang",
+        "short_name": "Tu Y",
+        "identifiers": [],
+        "affiliations": [
+          "1Science Research Center,the Huizhou Central People's Hospital, Guangdong Medical University, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "He, Qinglian",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feixiang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Haicheng",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ashrafizadeh, Milad",
+        "short_name": "Ashrafizadeh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Shandong Provincial Key Laboratory of Radiation Oncology, Shandong Cancer Hospital and Institute, Shandong First Medical University, Shandong Academy of Medical Sciences, Jinan, 250117, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Sethi, Gautam",
+        "short_name": "Sethi G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and NUS Centre for Cancer Research, Yong Loo Lin School of Medicine, National University of Singapore 16 Medical Drive, Singapore, 117600, Singapore. phcgs@nus.edu.sg."
+        ]
+      },
+      {
+        "full_name": "Wang, Furong",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Huizhou Central People's Hospital, Guangdong Medical University, No.41 E Ling North Road, Huizhou, Guangdong, China. ldyy_wangfr@lzu.edu.com."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhirui",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Chronic Disease Diagnosis and Treatment, School of Basic Medicine, Guizhou Medical University, No. 9 Beijing Road, Guiyang, Guizhou, 550009, China. zengzhirui@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 00:36",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42509343",
+      "42397623",
+      "42266751",
+      "42199338",
+      "42196223"
+    ],
+    "refs": [
+      "38859833",
+      "38366038",
+      "37735472",
+      "37357101",
+      "37351514",
+      "37126443",
+      "36738977",
+      "36680397",
+      "36592231",
+      "36196170",
+      "34997215",
+      "34737964",
+      "34006959",
+      "33000412",
+      "32782275",
+      "32632141",
+      "32532960",
+      "32165281",
+      "31634900",
+      "31511663",
+      "31303265",
+      "31273085",
+      "30888116",
+      "30762028",
+      "30684591",
+      "28655737",
+      "27830503",
+      "26207888",
+      "25543955",
+      "25216638",
+      "24651067",
+      "23690847",
+      "22305928",
+      "22179180",
+      "21515404",
+      "16929317",
+      "16219352",
+      "2044958"
+    ],
+    "similar": [
+      "40634958",
+      "34983546",
+      "39629121",
+      "40959275",
+      "39510148",
+      "38918793",
+      "40198582",
+      "40126852",
+      "39871338",
+      "34980204",
+      "41028904",
+      "38811968",
+      "39652303",
+      "40902399",
+      "39657434",
+      "38745179",
+      "39276458",
+      "40763203",
+      "41198556",
+      "39529192",
+      "38582885",
+      "39353360",
+      "39055886",
+      "40405713",
+      "41136937",
+      "39159723",
+      "38623968",
+      "38652216",
+      "39210442",
+      "40983050",
+      "33097833",
+      "41035649",
+      "40838989",
+      "36604718",
+      "38426342",
+      "40514377",
+      "40341781",
+      "38653946",
+      "31771617",
+      "40609277",
+      "38948063",
+      "40058099",
+      "36657316",
+      "36635256",
+      "40262414",
+      "40593458",
+      "40840765",
+      "40680452",
+      "34421355",
+      "37337470",
+      "40222446",
+      "37554285",
+      "38967794",
+      "38701867",
+      "38596684",
+      "40154588",
+      "41082996",
+      "33378944",
+      "39106149",
+      "31319849",
+      "39122708",
+      "32699265",
+      "33962073",
+      "31337603",
+      "40831000",
+      "41049428",
+      "40217256",
+      "41209553",
+      "38609562",
+      "40715090",
+      "33931597",
+      "39735272",
+      "41232667",
+      "41299678",
+      "40120675",
+      "33097691",
+      "34768109",
+      "38839744",
+      "35999564",
+      "33162029",
+      "41016296",
+      "33203790",
+      "38036507",
+      "37433225",
+      "40750706",
+      "30981107",
+      "29369785",
+      "33875785",
+      "37966480",
+      "40412057",
+      "38262246",
+      "40685383",
+      "39954713",
+      "32754282",
+      "39431335",
+      "41275854",
+      "29604056",
+      "34340705",
+      "35013144",
+      "39702014"
+    ],
+    "review": [
+      "40634958",
+      "41275854"
+    ],
+    "pmc": [
+      "12243207"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-025-02285-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40634958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3632",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

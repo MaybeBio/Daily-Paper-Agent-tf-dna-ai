@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "39488873",
+    "doi": "10.1016/j.phymed.2024.156169",
+    "title": "Mechanism of Xue-Jie-San treating Crohn's disease complicated by atherosclerosis: Network pharmacology, molecular docking and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Crohn's disease (CD), as a chronic systemic inflammatory disease, is strongly associated with the development of premature atherosclerosis (AS). Atherosclerotic cardiovascular disease, including coronary heart disease, myocardial infarction and stroke, is a lethal complication of CD. Nowadays, there is a lack of effective monotherapy for CD complicated by AS. PURPOSE: To explore the underlying effects and mechanisms of Xue-Jie-San (XJS) on treating CD complicated by AS via network pharmacology and experimental validation. METHODS: The targets of XJS components were obtained from TCMSP, ETCM and PubChem databases as well as the disease genes of CD and AS from GeneCards, DisGeNET and OMIM databases. The core targets were screened out from the drug-disease common targets identified by protein-protein interaction (PPI) network analysis and then analyzed with GO and KEGG enrichment. The interaction between core target and XJS component was detected by molecular docking and molecular dynamics simulation. Subsequently, the core targets were validated via GEO datasets and their biological functions were confirmed in vitro. Nile red staining was used to evaluated lipid accumulation in human umbilical vein endothelial cells (HUVECs) challenged by lipopolysaccharide (LPS) combined with oxidized low-density lipoprotein (ox-LDL). Levels of pro-inflammatory cytokines were examined by enzyme-linked immunosorbent assay. Chemokine CCL2 and CXCL8 were detected by immunofluorescence staining. The activity of the TLR4/Myd88/NF-kappaB signaling pathway was assessed using Western blot. RESULTS: In total, 26 common target genes of XJS, CD and AS were found. Among them, 11 core genes were identified by PPI network analysis. The effects of XJS treating CD complicated by AS were mainly mediated by the lipid and atherosclerosis pathway, inflammatory bowel disease pathway and toll-like receptor signaling pathway. Molecular docking and molecular dynamics simulation displayed strong binding affinity between XJS component and the core target. Six core genes including TLR4, IL-1beta, TNF, ICAM1, CCL2 and CXCL8 were validated by GEO datasets. In vitro, the effects of XJS on reducing lipid accumulation, secretion of IL-1beta, IL6, TNF-alpha, CCL2 and CXCL8, and the protein expressions of TLR4, Myd88, p-p65 and ICAM1 were verified. CONCLUSION: XJS is a potential candidate drug for the treatment of CD complicated by AS. The underlying mechanisms involve mitigation of lipid accumulation-mediated endothelial dysfunction and blockage of immune inflammatory response by targeting TLR4.",
+    "keywords": [
+      "Atherosclerosis",
+      "Crohn's disease",
+      "Network pharmacology",
+      "TLR4",
+      "Xue-Jie-San"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Crohn Disease/drug therapy",
+      "*Atherosclerosis/drug therapy",
+      "*Toll-Like Receptor 4/metabolism",
+      "*Network Pharmacology",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry",
+      "Human Umbilical Vein Endothelial Cells",
+      "Myeloid Differentiation Factor 88/metabolism",
+      "Protein Interaction Maps",
+      "Signal Transduction/drug effects",
+      "Chemokine CCL2/metabolism",
+      "Lipoproteins, LDL/metabolism",
+      "Intercellular Adhesion Molecule-1/metabolism",
+      "Interleukin-8/metabolism",
+      "Molecular Dynamics Simulation",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Dan",
+        "Lin, Qiu",
+        "Wang, Zhuo",
+        "Huang, Hua",
+        "Song, Xiudao",
+        "Gao, Yin",
+        "Yang, Xiao",
+        "Wen, Ke",
+        "Sun, Xueliang"
+      ],
+      "short_names": [
+        "Wu D",
+        "Lin Q",
+        "Wang Z",
+        "Huang H",
+        "Song X",
+        "Gao Y",
+        "Yang X",
+        "Wen K",
+        "Sun X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Colorectal Surgery, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing 210000, China.",
+        "Department of Clinical Laboratory, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Anorectal Surgery, Changshu Hospital Affiliated to Nanjing University of Chinese Medicine, Changshu 215500, China.",
+        "Clinical Pharmaceutical Laboratory of Traditional Chinese Medicine, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China.",
+        "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China. Electronic address: sunxueliang-2005@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Dan",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Qiu",
+        "short_name": "Lin Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhuo",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hua",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Changshu Hospital Affiliated to Nanjing University of Chinese Medicine, Changshu 215500, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiudao",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Pharmaceutical Laboratory of Traditional Chinese Medicine, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yin",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiao",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ke",
+        "short_name": "Wen K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xueliang",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Suzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Suzhou 215000, China. Electronic address: sunxueliang-2005@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 00:31",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42505262",
+      "42191940",
+      "42157729",
+      "41271965",
+      "41155564",
+      "40973891",
+      "40949132",
+      "40170727"
+    ],
+    "refs": [],
+    "similar": [
+      "39488873",
+      "39343107",
+      "38951468",
+      "39004032",
+      "38910274",
+      "38696100",
+      "37153794",
+      "34087397",
+      "38213245",
+      "37807411",
+      "37263315",
+      "34369277",
+      "38417244",
+      "36148321",
+      "37499457",
+      "38383835",
+      "39075002",
+      "27569284",
+      "39577223",
+      "34416296",
+      "26677678",
+      "39552028",
+      "40013962",
+      "40057244",
+      "38230788",
+      "38621947",
+      "34234411",
+      "39701711",
+      "39259129",
+      "37382018",
+      "27452656",
+      "39310787",
+      "25135647",
+      "39730994",
+      "37802827",
+      "36646160",
+      "35622496",
+      "38640713",
+      "39374881",
+      "38775721",
+      "39871254",
+      "39810933",
+      "35970313",
+      "37657026",
+      "36872242",
+      "37340752",
+      "39929664",
+      "38604509",
+      "37190808",
+      "38964628",
+      "39015338",
+      "39934490",
+      "39074420",
+      "39617073",
+      "22574597",
+      "35097126",
+      "36471978",
+      "39326136",
+      "36604925",
+      "37287284",
+      "39066538",
+      "36817858",
+      "32237519",
+      "35430443",
+      "40033067",
+      "38964626",
+      "38812235",
+      "39006190",
+      "29775893",
+      "38555283",
+      "39081706",
+      "38916485",
+      "38888753",
+      "37880698",
+      "37454750",
+      "39093467",
+      "39044211",
+      "35249866",
+      "35730236",
+      "38588987",
+      "38115276",
+      "31580158",
+      "36280016",
+      "38914662",
+      "38109076",
+      "39856662",
+      "39125368",
+      "38571354",
+      "37608040",
+      "39610125",
+      "39095732",
+      "38776853",
+      "34159207",
+      "20467793",
+      "39465880",
+      "40124554",
+      "38582151",
+      "38114126",
+      "39041167",
+      "39076092"
+    ],
+    "review": [
+      "39488873"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00826-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/crohnsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Crohn's Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

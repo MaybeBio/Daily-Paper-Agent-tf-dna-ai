@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "39325855",
+    "doi": "10.1093/gpbjnl/qzae064",
+    "title": "Identify Non-mutational p53 Functional Deficiency in Human Cancers."
+  },
+  "content": {
+    "abstract": "An accurate assessment of p53's functional statuses is critical for cancer genomic medicine. However, there is a significant challenge in identifying tumors with non-mutational p53 inactivation which is not detectable through DNA sequencing. These undetected cases are often misclassified as p53-normal, leading to inaccurate prognosis and downstream association analyses. To address this issue, we built the support vector machine (SVM) models to systematically reassess p53's functional statuses in TP53 wild-type (TP53WT) tumors from multiple The Cancer Genome Atlas (TCGA) cohorts. Cross-validation demonstrated the good performance of the SVM models with a mean area under the receiver operating characteristic curve (AUROC) of 0.9822, precision of 0.9747, and recall of 0.9784. Our study revealed that a significant proportion (87%-99%) of TP53WT tumors actually had compromised p53 function. Additional analyses uncovered that these genetically intact but functionally impaired (termed as predictively reduced function of p53 or TP53WT-pRF) tumors exhibited genomic and pathophysiologic features akin to TP53-mutant tumors: heightened genomic instability and elevated levels of hypoxia. Clinically, patients with TP53WT-pRF tumors experienced significantly shortened overall survival or progression-free survival compared to those with predictively normal function of p53 (TP53WT-pN) tumors, and these patients also displayed increased sensitivity to platinum-based chemotherapy and radiation therapy.",
+    "keywords": [
+      "Cancer",
+      "Composite expression",
+      "DNA mutation",
+      "Machine learning",
+      "p53 deficiency"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Neoplasms/genetics",
+      "Support Vector Machine",
+      "Mutation",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qianpeng",
+        "Zhang, Yang",
+        "Luo, Sicheng",
+        "Zhang, Zhang",
+        "Oberg, Ann L",
+        "Kozono, David E",
+        "Lu, Hua",
+        "Sarkaria, Jann N",
+        "Ma, Lina",
+        "Wang, Liguo"
+      ],
+      "short_names": [
+        "Li Q",
+        "Zhang Y",
+        "Luo S",
+        "Zhang Z",
+        "Oberg AL",
+        "Kozono DE",
+        "Lu H",
+        "Sarkaria JN",
+        "Ma L",
+        "Wang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6984-5499",
+        "ORCID: 0009-0005-4503-9907",
+        "ORCID: 0009-0006-7729-6921",
+        "ORCID: 0000-0001-6603-5060",
+        "ORCID: 0000-0003-2539-9807",
+        "ORCID: 0000-0002-8916-396X",
+        "ORCID: 0000-0002-9285-7209",
+        "ORCID: 0000-0001-7489-4885",
+        "ORCID: 0000-0001-6390-6289",
+        "ORCID: 0000-0003-2072-4826"
+      ],
+      "affiliations": [
+        "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+        "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+        "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+        "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+        "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Division of Computational Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+        "Department of Radiation Oncology, Dana-Farber Cancer Institute and Brigham and Women's Hospital, Boston, MA 02215, USA.",
+        "Department of Biochemistry & Molecular Biology and Tulane Cancer Center, Tulane University School of Medicine, New Orleans, LA 70112, USA.",
+        "Department of Radiation Oncology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+        "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+        "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Division of Computational Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+        "Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+        "Bioinformatics and Computational Biology Graduate Program, University of Minnesota Rochester, Rochester, MN 55904, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qianpeng",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0000-0001-6984-5499"
+        ],
+        "affiliations": [
+          "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+          "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0005-4503-9907"
+        ],
+        "affiliations": [
+          "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+          "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Sicheng",
+        "short_name": "Luo S",
+        "identifiers": [
+          "0009-0006-7729-6921"
+        ],
+        "affiliations": [
+          "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+          "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhang",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0001-6603-5060"
+        ],
+        "affiliations": [
+          "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+          "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Oberg, Ann L",
+        "short_name": "Oberg AL",
+        "identifiers": [
+          "0000-0003-2539-9807"
+        ],
+        "affiliations": [
+          "Division of Computational Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA."
+        ]
+      },
+      {
+        "full_name": "Kozono, David E",
+        "short_name": "Kozono DE",
+        "identifiers": [
+          "0000-0002-8916-396X"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Dana-Farber Cancer Institute and Brigham and Women's Hospital, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Hua",
+        "short_name": "Lu H",
+        "identifiers": [
+          "0000-0002-9285-7209"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology and Tulane Cancer Center, Tulane University School of Medicine, New Orleans, LA 70112, USA."
+        ]
+      },
+      {
+        "full_name": "Sarkaria, Jann N",
+        "short_name": "Sarkaria JN",
+        "identifiers": [
+          "0000-0001-7489-4885"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Lina",
+        "short_name": "Ma L",
+        "identifiers": [
+          "0000-0001-6390-6289"
+        ],
+        "affiliations": [
+          "National Genomics Data Center, China National Center for Bioinformation, Beijing 100101, China.",
+          "Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liguo",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0003-2072-4826"
+        ],
+        "affiliations": [
+          "Division of Computational Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+          "Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine and Science, Rochester, MN 55905, USA.",
+          "Bioinformatics and Computational Biology Graduate Program, University of Minnesota Rochester, Rochester, MN 55904, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2024 Dec 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/26 19:03",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "41663181",
+      "41217970",
+      "38282973"
+    ],
+    "refs": [
+      "35613413",
+      "35087226",
+      "34088837",
+      "33741950",
+      "33670160",
+      "32157215",
+      "32015526",
+      "31852831",
+      "31665499",
+      "31365877",
+      "31359406",
+      "31113863",
+      "30824861",
+      "30625331",
+      "30538286",
+      "29799511",
+      "29549180",
+      "29490944",
+      "28825732",
+      "28288132",
+      "28280037",
+      "27918441",
+      "27329033",
+      "27145840",
+      "26634437",
+      "26577528",
+      "25965177",
+      "25954001",
+      "25904749",
+      "25516281",
+      "25201193",
+      "24916693",
+      "24739573",
+      "24670686",
+      "23945592",
+      "23539594",
+      "23323831",
+      "22713868",
+      "22431589",
+      "22090360",
+      "21614094",
+      "20308559",
+      "20182618",
+      "20087356",
+      "20033038",
+      "19847166",
+      "19536131",
+      "19505943",
+      "19204204",
+      "19033443",
+      "18989396",
+      "17388661",
+      "17380161",
+      "17097565",
+      "16543940",
+      "16156896",
+      "16025287",
+      "15688066",
+      "15525938",
+      "12826609",
+      "12719715",
+      "12243922",
+      "11498783",
+      "10704742",
+      "10698510",
+      "10640274",
+      "9690622",
+      "9153395",
+      "9039259",
+      "8516323",
+      "8378077",
+      "7973635",
+      "7753819",
+      "7677190",
+      "1905840",
+      "1614522",
+      "1353891"
+    ],
+    "similar": [
+      "39325855",
+      "38670879",
+      "24374933",
+      "31539077",
+      "32896505",
+      "11429213",
+      "39089654",
+      "31365877",
+      "16322298",
+      "42025847",
+      "24074787",
+      "26743472",
+      "31088544",
+      "32484602",
+      "29330617",
+      "8998185",
+      "41402909",
+      "33899789",
+      "32234756",
+      "35380714",
+      "31000522",
+      "17054774",
+      "8632491",
+      "21552211",
+      "40165301",
+      "25385265",
+      "33356494",
+      "30458197",
+      "32951572",
+      "8423624",
+      "42195047",
+      "41233664",
+      "27129168",
+      "38153859",
+      "19941079",
+      "41306958",
+      "19336573",
+      "27630122",
+      "27956228",
+      "24687952",
+      "20021639",
+      "28061006",
+      "27166782",
+      "11595686",
+      "30683142",
+      "8931611",
+      "16161005",
+      "11920641",
+      "39506768",
+      "30902072",
+      "39843568",
+      "17388661",
+      "41898804",
+      "11832530",
+      "25201195",
+      "40867533",
+      "12629332",
+      "42161402",
+      "38890278",
+      "40683332",
+      "15538112",
+      "38790205",
+      "25811670",
+      "15930341",
+      "41861614",
+      "10699900",
+      "21118481",
+      "34450259",
+      "17496437",
+      "32662546",
+      "8927612",
+      "34325986",
+      "11212247",
+      "10557071",
+      "27880943",
+      "39596373",
+      "32799124",
+      "25537218",
+      "24415648",
+      "18172257",
+      "37095494",
+      "37356294",
+      "10754498",
+      "38308422",
+      "40444411",
+      "31564192",
+      "33483624",
+      "18094376",
+      "28148293",
+      "33879103",
+      "25156865",
+      "38627035",
+      "30900104",
+      "23967324",
+      "37081749",
+      "41919885",
+      "32013587",
+      "16528528",
+      "32722796",
+      "28277540"
+    ],
+    "review": [
+      "39325855",
+      "24074787",
+      "32951572",
+      "27166782",
+      "40867533",
+      "12629332",
+      "17496437"
+    ],
+    "pmc": [
+      "11702981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39325855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1093/gpbjnl/qzae064",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

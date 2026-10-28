@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) provided as preprint text; no figures or supplementary materials were available for inspection.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology as described, and internal consistency of the provided text. Figures, tables, and supplementary materials referenced in the text were not accessible and therefore could not be independently evaluated.
+- **Shared manuscript claim summary** The authors use a chemically specific coarse-grained molecular dynamics model to show that full-length Oct4 promotes DNA accessibility in chromatin fibres not by global decondensation but by driving fibres into compact, liquid-like states. They propose a three-stage mechanism of Oct4 cluster formation (nucleation, chromatin association, growth) and report that linker DNA length tunes the extent and mode of Oct4-mediated chromatin remodelling.
+- **Visible evidence base** Text descriptions of simulation results, including sedimentation coefficients, nucleosome contact analyses, Oct4–DNA contact frequencies, cluster size distributions, and residue-level interaction energies. Methodological descriptions of the coarse-grained model, simulation protocols, and analysis procedures.
+- **Missing materials affecting confidence** All figures and supplementary figures; quantitative values underlying reported medians and ranges; simulation trajectory data; control simulation details for Oct4 in the absence of chromatin; sequence-specific binding data; experimental validation data.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and conceptually interesting study of how Oct4, a pioneer transcription factor, may remodel chromatin at the fibre level. The central claim, that Oct4 enhances DNA accessibility by promoting a compact liquid-like chromatin state rather than by decondensation, is provocative and potentially significant. However, the evidence base available for review is incomplete: all quantitative results are presented as text descriptions without access to the corresponding figures, and several key analyses are described only qualitatively. The mechanistic model proposed is plausible but rests on simulation inferences that require more rigorous quantitative support and clearer connection to experimental observables. The manuscript is well written and the conceptual framing is strong, but the current evidence, as presented in text form, does not fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying pioneer transcription factors, chromatin structure and dynamics, phase separation in the nucleus, and the physical mechanisms of gene regulation during reprogramming. The work is also relevant to computational biophysicists developing and applying coarse-grained models of chromatin. The proposed link between Oct4 clustering, chromatin flexibility, and the transcription-factor search problem could interest a broad readership in gene regulation and epigenetics.
+- **Major strengths** The study addresses an important and unresolved question: how pioneer factors remodel chromatin beyond the single-nucleosome scale. The use of a chemically specific coarse-grained model that retains residue-level detail is a methodological strength. The conceptual proposal that accessibility and compaction can be jointly achieved through a liquid-like state is novel and intellectually appealing. The three-stage mechanism of cluster formation is clearly articulated and provides testable predictions. The authors also connect their findings to known experimental observations, such as the importance of the Oct4 linker region for reprogramming.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that Oct4 enhances DNA accessibility by driving chromatin into compact liquid-like states, supported by increased sedimentation coefficients and altered nucleosome contact patterns.
+  - **Evidence pointer** Results section "Concentration-dependent liquid-like reorganisation of chromatin by Oct4"; Figure 1C–E
+  - **Concern** The central claim of the paper, that Oct4 promotes accessibility through a compact liquid-like state, is presented without access to the actual quantitative data. The text reports median sedimentation coefficients (37.6 S to 42.5 S) and qualitative descriptions of contact topology changes, but the figures that would substantiate these claims were not available for review. The magnitude of the reported changes, the statistical significance, and the convergence across independent trajectories cannot be assessed. Furthermore, the claim that accessibility is enhanced is inferred from nucleosome breathing and transient DNA exposure, but no direct measure of DNA accessibility (e.g., to transcription factors or other proteins) is presented.
+  - **Why it matters** The central thesis of the manuscript depends on demonstrating that the liquid-like state genuinely increases accessibility. Without direct evidence or a well-validated proxy, the claim remains speculative. The reported changes in sedimentation coefficient, while consistent with compaction, do not by themselves demonstrate enhanced accessibility.
+  - **Resolution test** Provide the quantitative data underlying Figures 1C–E, including distributions, error bars, and statistical tests. Include a direct or well-validated proxy measure of DNA accessibility within the simulated fibres, such as computed solvent-accessible surface area of DNA, frequency and duration of unwrapping events, or binding free energy of a model transcription factor to nucleosomal versus linker DNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The manuscript claims that the coarse-grained model recapitulates experimentally observed Oct4–DNA binding interfaces, specifically the helices α4 of POU_S and α3 of POU_HD.
+  - **Evidence pointer** Results section "Oct4 preferentially binds free linker DNA through its DNA-binding domains"; Figure 3C
+  - **Concern** The authors state that their simulations reproduce the experimentally observed binding interfaces of Oct4 to DNA, citing peaks of contact frequency for α4 and α3. However, the model does not include sequence-specific base recognition, and the comparison to crystal structures is made only qualitatively. The text does not describe how the comparison was quantified, what metric was used, or whether the agreement is statistically meaningful. The claim of recapitulation is therefore difficult to evaluate.
+  - **Why it matters** Model validation against experimental data is essential for establishing the credibility of the simulation results. If the model reproduces known binding interfaces, this strengthens confidence in its predictive power for less well-characterised behaviours. A qualitative statement without quantitative comparison is insufficient.
+  - **Resolution test** Provide a quantitative comparison between simulated contact frequencies and experimentally determined contacts from crystal structures, including a defined metric (e.g., fraction of native contacts, root-mean-square deviation of contact maps) and a statistical test of agreement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The manuscript claims that Oct4 binding lowers the energetic penalty for DNA bending and torsion, facilitating linker DNA to adopt a broader range of conformations.
+  - **Evidence pointer** Results section "Concentration-dependent liquid-like reorganisation of chromatin by Oct4"; Figure 1E
+  - **Concern** The claim that Oct4 lowers the energetic penalty for DNA bending is presented as a mechanistic explanation, but no free-energy calculations or direct measurements of bending energetics are described. The increased fraction of first-neighbour interactions is cited as evidence, but this is an indirect proxy. The text does not explain how bending energetics were derived from the simulations.
+  - **Why it matters** The proposed mechanism relies on specific biophysical effects (reduced bending penalty) that are asserted rather than demonstrated. Without direct evidence, the mechanistic explanation remains speculative.
+  - **Resolution test** Provide free-energy calculations for DNA bending in the presence and absence of Oct4, or a clear description of how bending energetics were inferred from the simulation data, with appropriate uncertainty estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability
+  - **Claim pointer** The manuscript claims that the three-stage mechanism of Oct4 cluster formation (nucleation, chromatin association, growth) is a general principle of Oct4 action on chromatin.
+  - **Evidence pointer** Results section "Chromatin acts as a nucleation site for Oct4 clusters"; Figure 4
+  - **Concern** The three-stage mechanism is derived from simulations of a single chromatin fibre length (12 nucleosomes) and a limited set of linker lengths. The text does not discuss whether this mechanism would hold for longer fibres, different nucleosome densities, or in the presence of other chromatin-associated proteins. The generality of the proposed mechanism is therefore not established.
+  - **Why it matters** The manuscript presents the three-stage mechanism as a general principle, but the evidence base is narrow. Overgeneralisation from limited simulation conditions weakens the broader relevance of the findings.
+  - **Resolution test** Discuss the limitations of the simulation system and explicitly state the conditions under which the proposed mechanism is expected to hold. If possible, include simulations with different fibre lengths or nucleosome densities to test the robustness of the mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Methods section, sedimentation coefficient analysis
+  - **Evidence pointer** Materials and Methods, "Analyses"
+  - **Issue** The equation for the sedimentation coefficient is incomplete in the provided text. The symbols for partial specific volume, solvent density, and solvent viscosity are mentioned but the full equation is not shown.
+  - **Required correction** Provide the complete equation for the sedimentation coefficient calculation, with all variables clearly defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Results section, Oct4–DNA contact analysis
+  - **Evidence pointer** Results section "Oct4 preferentially binds free linker DNA through its DNA-binding domains"; Figure 3
+  - **Issue** The text reports that 20–60% of Oct4 molecules bound to linker regions and 2–5% bound to the nucleosome entry-exit, but the basis for these ranges across different conditions is not described. It is unclear whether these are ranges across linker lengths, stoichiometries, or time points.
+  - **Required correction** Clarify the conditions over which these ranges are reported and provide the corresponding data in the figure or supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Chromatin acts as a nucleation site for Oct4 clusters"
+  - **Evidence pointer** Results section "Chromatin acts as a nucleation site for Oct4 clusters"; Figure 4
+  - **Issue** The term "wet the fibre surface" is used to describe Oct4 cluster behaviour at short linker lengths. This term is not defined and may be ambiguous to readers unfamiliar with surface physics terminology.
+  - **Required correction** Define the term or replace it with a more standard description of the observed behaviour.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion mentions that the proposed mechanism may help circumvent the search problem, but no quantitative estimate of search time or comparison to experimental measurements is provided.
+  - **Required correction** Either provide a quantitative estimate of how the proposed mechanism could reduce search time, or clearly state that this is a qualitative hypothesis requiring future testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence sufficiency for the central claim), R1-M2 (quantitative model validation), R1-M3 (direct evidence for reduced bending penalty).
+- **Assessment against Nature-style criteria** Originality: The proposal that pioneer factors enhance accessibility by promoting a compact liquid-like state rather than by decondensation is original and conceptually novel. Scientific importance: The question of how pioneer factors remodel chromatin is of high importance for understanding gene regulation and reprogramming. Interdisciplinary readership: The work bridges computational biophysics, chromatin biology, and gene regulation, and could appeal to readers across these fields. Technical soundness: The coarse-grained model is well established in the authors' prior work, but the specific analyses supporting the central claims are not fully described in the text and the figures were not available for review. Readability for nonspecialists: The manuscript is clearly written and the conceptual framework is accessible, though some technical details in the results section assume familiarity with chromatin biophysics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the study addresses an important question, but the evidence base, as presented in the text without access to figures, is insufficient to fully establish the central claims. The authors should provide the quantitative data underlying their key findings, add direct evidence for enhanced accessibility, and strengthen the validation of their model against experimental data.

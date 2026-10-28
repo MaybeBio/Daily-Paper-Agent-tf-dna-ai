@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "40282274",
+    "doi": "10.3390/biology14040409",
+    "title": "Identification of Key Nucleotide Metabolism Genes in Diabetic Retinopathy Based on Bioinformatics Analysis and Experimental Verification."
+  },
+  "content": {
+    "abstract": "A dysregulated nucleotide metabolism has been implicated in the pathogenesis of diabetic retinopathy (DR). RNA sequencing datasets, GSE102485, GSE60436, and GSE165784, were downloaded from the GEO database. The differentially expressed genes (DEGs) between the DR and controls overlapped with nucleotide metabolism-related genes (NM-RGs), resulting in the differentially expressed NM-RGs (DE-NMRGs). Next, the core genes were identified by the five algorithms of the CytoHubba plugin. Receiver Operating Characteristic (ROC) curves and gene expression analysis were utilized to confirm the biomarkers. Then, the correlations between biomarker expression and the immune-related module were analyzed. The miRNA and transcription factor (TF) predictions, biomarker-targeting drugs, and molecular docking were implemented separately. The interaction between each subcluster of DR was elucidated through single-cell RNA (scRNA) analysis. Moreover, RT-PCR was applied to verify the expression of the biomarkers. In GSE102485, 48 DE-NMRGs were identified via the intersection of 1359 DEGs and 882 NM-RGs. Using the CytoHubba plugin, HMOX1, TLR4, and ACE were selected as core genes. As per the GSVA result, the interferon alpha response, IL6_JAK_STAT3 signaling, and apoptosis were activated in the DR group. The TF prediction identified TLR4 and HMOX1 as potential target genes of USF2. In conclusion, ACE and HMOX1 were possible diagnostic biomarkers related to nucleotide metabolism in DR.",
+    "keywords": [
+      "RT-PCR",
+      "biomarker",
+      "diabetic retinopathy",
+      "nucleotide metabolism",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wei",
+        "Gong, Jianyang"
+      ],
+      "short_names": [
+        "Wang W",
+        "Gong J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The First Affiliated Hospital of Anhui Medical University, Hefei 230022, China.",
+        "Anhui Public Health Clinical Center, Hefei 230022, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Anhui Medical University, Hefei 230022, China.",
+        "Anhui Public Health Clinical Center, Hefei 230022, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Anhui Medical University, Hefei 230022, China.",
+          "Anhui Public Health Clinical Center, Hefei 230022, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Jianyang",
+        "short_name": "Gong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Anhui Medical University, Hefei 230022, China.",
+          "Anhui Public Health Clinical Center, Hefei 230022, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2025 Apr 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/26 16:13",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38594466",
+      "38443950",
+      "38262506",
+      "36689408",
+      "36506045",
+      "36201855",
+      "36040491",
+      "36009978",
+      "36008505",
+      "35957838",
+      "35837069",
+      "35751589",
+      "35692390",
+      "35651615",
+      "35574010",
+      "35061025",
+      "34718133",
+      "34557778",
+      "34508760",
+      "33823302",
+      "33584279",
+      "33414502",
+      "33316144",
+      "33248932",
+      "32132672",
+      "32065092",
+      "31982408",
+      "31802381",
+      "31788713",
+      "31787868",
+      "31323682",
+      "29344893",
+      "29301251",
+      "28668721",
+      "27207943",
+      "27035868",
+      "26676667",
+      "25924878",
+      "25063298",
+      "24409948",
+      "24156506",
+      "23937229",
+      "23323831",
+      "22299633",
+      "21902835",
+      "21414208",
+      "20939803",
+      "20401516",
+      "18498620",
+      "18304834",
+      "16199517",
+      "14597658",
+      "12855817",
+      "11875494",
+      "11829463",
+      "9785353"
+    ],
+    "similar": [
+      "40282274",
+      "36506045",
+      "38464965",
+      "38443950",
+      "39697326",
+      "39483475",
+      "37522124",
+      "38504565",
+      "37773794",
+      "38739977",
+      "36689408",
+      "37867507",
+      "36439178",
+      "39156775",
+      "40331545",
+      "35651615",
+      "38650009",
+      "39968099",
+      "39704112",
+      "39022342",
+      "39975557",
+      "36157062",
+      "37207868",
+      "32294661",
+      "39427825",
+      "39634176",
+      "38084838",
+      "34536521",
+      "37359526",
+      "37760894",
+      "37283588",
+      "40078458",
+      "38260098",
+      "35911963",
+      "39280014",
+      "32290826",
+      "35814228",
+      "39779817",
+      "39725717",
+      "40124361",
+      "35957838",
+      "39762849",
+      "39403102",
+      "34218797",
+      "38310446",
+      "37622114",
+      "37318461",
+      "39402134",
+      "39965388",
+      "36823662",
+      "37346073",
+      "40321502",
+      "35757392",
+      "34295549",
+      "40055592",
+      "38286349",
+      "40251588",
+      "40308566",
+      "35937822",
+      "37325483",
+      "39028999",
+      "38899746",
+      "35151359",
+      "35313524",
+      "33622336",
+      "36443035",
+      "38308666",
+      "36532015",
+      "37250717",
+      "36636067",
+      "38509535",
+      "39710725",
+      "38912048",
+      "39375405",
+      "30542696",
+      "35558576",
+      "36316672",
+      "38691241",
+      "39953608",
+      "37684281",
+      "38718074",
+      "35909518",
+      "38244370",
+      "38987612",
+      "39072329",
+      "39875572",
+      "37144125",
+      "39022110",
+      "35368701",
+      "34405947",
+      "40216809",
+      "38594466",
+      "34384424",
+      "35711934",
+      "36386304",
+      "31987036",
+      "40274183",
+      "39144431",
+      "37235492",
+      "38526604"
+    ],
+    "review": [
+      "40282274"
+    ],
+    "pmc": [
+      "12024606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology14040409",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40282274/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

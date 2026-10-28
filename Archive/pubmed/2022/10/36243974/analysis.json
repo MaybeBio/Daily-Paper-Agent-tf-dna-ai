@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36243974",
+  "title": "Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers.",
+  "authors": "Tao, Yifeng; Ma, Xiaojun; Palmer, Drake; Schwartz, Russell; Lu, Xinghua; Osmanbeyoglu, Hatice Ulku",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-10-17",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释深度学习模型CITRUS，基于染色质开放区域中的TF结合基序推断体细胞变异对转录因子活性和下游转录程序的影响，虽涉及TF-DNA结合基序建模，但核心是癌症转录组推断而非TF-DNA互作机制建模，方法可迁移但深度不足。",
+  "abstract": "Cancer is a disease of gene dysregulation, where cells acquire somatic and epigenetic alterations that drive aberrant cellular signaling. These alterations adversely impact transcriptional programs and cause profound changes in gene expression. Interpreting somatic alterations within context-specific transcriptional programs will facilitate personalized therapeutic decisions but is a monumental task. Toward this goal, we develop a partially interpretable neural network model called Chromatin-informed Inference of Transcriptional Regulators Using Self-attention mechanism (CITRUS). CITRUS models the impact of somatic alterations on transcription factors and downstream transcriptional programs. Our approach employs a self-attention mechanism to model the contextual impact of somatic alterations. Furthermore, CITRUS uses a layer of hidden nodes to explicitly represent the state of transcription factors (TFs) to learn the relationships between TFs and their target genes based on TF binding motifs in the open chromatin regions of tumor samples. We apply CITRUS to genomic, transcriptomic, and epigenomic data from 17 cancer types profiled by The Cancer Genome Atlas. CITRUS predicts patient-specific TF activities and reveals transcriptional program variations between and within tumor types. We show that CITRUS yields biological insights into delineating TFs associated with somatic alterations in individual tumors. Thus, CITRUS is a promising tool for precision oncology.",
+  "abstract_zh": "癌症是一种基因调控失调的疾病，其中细胞获得驱动异常细胞信号传导的体细胞和表观遗传改变。这些改变对转录程序产生不利影响，并导致基因表达的深刻变化。在特定情境的转录程序中解读体细胞改变将有助于个性化治疗决策，但这是一项艰巨的任务。为此，我们开发了一种部分可解释的神经网络模型，称为基于自注意力机制的染色质知情转录调控因子推断（CITRUS）。CITRUS模拟体细胞改变对转录因子及下游转录程序的影响。我们的方法采用自注意力机制来模拟体细胞改变的情境影响。此外，CITRUS使用一层隐藏节点来显式表示转录因子（TFs）的状态，基于肿瘤样本开放染色质区域中的TF结合基序，学习TFs与其靶基因之间的关系。我们将CITRUS应用于癌症基因组图谱（The Cancer Genome Atlas）分析的17种癌症类型的基因组、转录组和表观基因组数据。CITRUS预测患者特异性的TF活性，并揭示肿瘤类型间及类型内的转录程序变异。我们表明，CITRUS在描绘与个体肿瘤中体细胞改变相关的TFs方面提供了生物学见解。因此，CITRUS是精准肿瘤学中一个有前景的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36243974/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36243974/",
+  "paper_page_path": "papers/pubmed/36243974/index.html"
+}

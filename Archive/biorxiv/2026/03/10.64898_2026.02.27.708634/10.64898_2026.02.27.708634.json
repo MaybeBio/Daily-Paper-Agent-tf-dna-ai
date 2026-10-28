@@ -1,0 +1,403 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.27.708634",
+  "title": "GTA-5: A Unified Graph Transformer Framework for Ligands and Protein Binding Sites — Part I: Constructing the PDB Pocket and Ligand Space",
+  "doi": "10.64898/2026.02.27.708634",
+  "abstract": "Structural recognition between a protein target and a ligand underpins therapeutic innovation, yet computational representations of protein binding sites and small molecules remain largely disjoint. Here we introduce GTA-5, a unified graph transformer auto-encoder framework designed to capture the geometric structure and chemical composition of ligands and protein binding pockets, embedding them into multidimensional latent spaces where proximity reflects functional compatibility. Ligands and pockets are represented as three-dimensional point clouds annotated with Tripos atom type labels, omitting explicit bond connectivity to enable structural reasoning based on spatial context rather than predefined connectivity graphs. By not enforcing bond topology, GTA-5 maintains representational flexibility across molecular modalities while preserving chemically meaningful local environments. The model was trained on a curated dataset from the Protein Data Bank comprising 64,124 liganded pockets and 23,133 unique ligands spanning 2,257 protein families. We find that functional protein families cluster coherently in both pocket and ligand latent spaces while retaining biologically meaningful heterogeneity. The model captures physicochemical pocket properties such as volume, exposure, and hydrophobicity directly from raw structural data, while ligands with distinct scaffolds co-localise when occupying similar binding environments. This provides a basis for several downstream applications including scaffold hopping in ligand-based virtual screening, QSAR/QSPR modelling using embedding-derived descriptors, and drug repurposing via pocket similarity. More broadly, the GTA-5 framework establishes a foundation for structural reasoning across molecular modalities in drug discovery.",
+  "authors": [
+    "Bogdan C. Ciambur",
+    "Raphaël Pageau",
+    "Olivier Sperandio"
+  ],
+  "published_date": "2026-03-02",
+  "updated_date": "2026-03-03T01:50:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708634",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708634.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2026-03-04T17:20:46Z",
+        "timestamp": 1772644846772,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2026-03-02T00:00:00Z",
+            "timestamp": 1772409600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "ANR",
+          "award": [
+            "ANR-20-PAMR-0011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANR-20-PAMR-0011"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Structural recognition between a protein target and a ligand underpins therapeutic innovation, yet computational representations of protein binding sites and small molecules remain largely disjoint. Here we introduce GTA-5, a unified graph transformer auto-encoder framework designed to capture the geometric structure and chemical composition of ligands and protein binding pockets, embedding them into multidimensional latent spaces where proximity reflects functional compatibility. Ligands and pockets are represented as three-dimensional point clouds annotated with\n                  <jats:italic>Tripos</jats:italic>\n                  atom type labels, omitting explicit bond connectivity to enable structural reasoning based on spatial context rather than predefined connectivity graphs. By not enforcing bond topology, GTA-5 maintains representational flexibility across molecular modalities while preserving chemically meaningful local environments. The model was trained on a curated dataset from the Protein Data Bank comprising 64,124 liganded pockets and 23,133 unique ligands spanning 2,257 protein families. We find that functional protein families cluster coherently in both pocket and ligand latent spaces while retaining biologically meaningful heterogeneity. The model captures physicochemical pocket properties such as volume, exposure, and hydrophobicity directly from raw structural data, while ligands with distinct scaffolds co-localise when occupying similar binding environments. This provides a basis for several downstream applications including scaffold hopping in ligand-based virtual screening, QSAR/QSPR modelling using embedding-derived descriptors, and drug repurposing via pocket similarity. More broadly, the GTA-5 framework establishes a foundation for structural reasoning across molecular modalities in drug discovery.\n                </jats:p>",
+      "DOI": "10.64898/2026.02.27.708634",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T01:50:13Z",
+        "timestamp": 1772502613000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "GTA-5: A Unified Graph Transformer Framework for Ligands and Protein Binding Sites — Part I: Constructing the PDB Pocket and Ligand Space"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7387-1366",
+          "authenticated-orcid": false,
+          "given": "Bogdan C.",
+          "family": "Ciambur",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Structural Bioinformatics Unit, Institut Pasteur, Université de Paris Cité, CNRS UMR3528, Paris, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0157-7740",
+          "authenticated-orcid": false,
+          "given": "Raphaël",
+          "family": "Pageau",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Bioinformatics Unit, Institut Pasteur, Université de Paris Cité, CNRS UMR3528, Paris, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6610-2729",
+          "authenticated-orcid": false,
+          "given": "Olivier",
+          "family": "Sperandio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Bioinformatics Unit, Institut Pasteur, Université de Paris Cité, CNRS UMR3528, Paris, France"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm9602928"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "6",
+          "key": "2026030405402702000_2026.02.27.708634v1.3",
+          "first-page": "1857",
+          "article-title": "On scaffold hopping",
+          "volume": "49",
+          "year": "2006",
+          "journal-title": "Journal of Medicinal Chemistry"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0707684105"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300184x"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.6",
+          "unstructured": "Fuchs, F. B. , Worrall, D. E. , Fischer, V. , and Welling, M. (2022). Se(3)-transformers: 3d roto-translation equivariant attention networks. Transactions on Machine Learning Research."
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00237"
+        },
+        {
+          "issue": "2",
+          "key": "2026030405402702000_2026.02.27.708634v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1021/acscentsci.7b00572",
+          "article-title": "Automatic chemical design using a data-driven continuous representation of molecules",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "ACS Central Science"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.9",
+          "first-page": "eadf1234",
+          "article-title": "Boltz-2: Integrative modeling of protein complexes under a unified framework",
+          "volume": "9",
+          "year": "2023",
+          "journal-title": "Science Advances"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.11",
+          "first-page": "689",
+          "article-title": "Highly accurate protein structure prediction with alphafold3",
+          "volume": "620",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq479"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2033241"
+        },
+        {
+          "issue": "11",
+          "key": "2026030405402702000_2026.02.27.708634v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1342",
+          "DOI": "10.1038/s41589-023-01349-8",
+          "article-title": "Deep learning-guided discovery of an antibiotic targeting Acinetobacter baumannii",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Nature Chemical Biology"
+        },
+        {
+          "issue": "7",
+          "key": "2026030405402702000_2026.02.27.708634v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "btae414",
+          "DOI": "10.1093/bioinformatics/btae414",
+          "article-title": "Protein interaction explorer (pie): a compre-hensive platform for navigating protein–protein interactions and ligand binding pockets",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAA913"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1038/s41597-024-03233-z",
+          "article-title": "A comprehensive dataset of protein-protein interactions and ligand binding pockets for advancing drug discovery",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Scientific data"
+        },
+        {
+          "issue": "1",
+          "key": "2026030405402702000_2026.02.27.708634v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1186/s13321-020-0416-x",
+          "article-title": "Visualization of very large high-dimensional data sets as minimum spanning trees",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2026030405402702000_2026.02.27.708634v1.19",
+          "first-page": "652",
+          "article-title": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "volume": "43",
+          "year": "2019",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.20",
+          "unstructured": "Rong, Y. , Bian, Y. , Xu, T. , Xie, W. , Wei, Y. , and Huang, W. (2020). Self-supervised graph transformer on large-scale molecular data. Advances in Neural Information Processing Systems."
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5019779"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20291"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.24",
+          "first-page": "1025",
+          "article-title": "Rfdiffusion: Structure-aware generative modeling of protein–ligand complexes",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026030405402702000_2026.02.27.708634v1.25",
+          "article-title": "Do transformers really perform bad for graph representation?",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.27.708634",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2026-03-04T13:40:34Z",
+        "timestamp": 1772631634000
+      },
+      "score": 101.87633,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.27.708634"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.64898/2026.02.27.708634",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

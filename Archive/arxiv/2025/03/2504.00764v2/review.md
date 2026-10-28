@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text, including main figures referenced but not provided, and supplementary materials described but not accessible.
+- **Assessment boundary** Assessment is limited to the claims, methods, and evidence as described in the provided text. No figures, tables, or supplementary files were available for direct inspection.
+- **Shared manuscript claim summary** The authors propose a DNA-centric framework for understanding protein–DNA recognition in N6-methyladenine (6mA) methylation. Using in vivo methylation data from 63 species, they employ linguistic modeling, association rule mining (Apriori), and LSTM deep learning to identify novel methylation motifs and short flanking "auxiliary" nucleotides. They propose two search mechanisms: a protein-driven diffusion mechanism and a DNA sequence-driven "protein trap" mechanism. They also suggest evolutionary trajectories of motifs, with GATC as a potential ancestral motif.
+- **Visible evidence base** The manuscript text describes results in Figures 1–5 and Supplementary Figures 1–6, and references Supplementary Folders A–C. However, none of these figures, tables, or supplementary data were provided for review. The only quantitative results mentioned in the text are: LSTM performance improvements after data cleaning (specific values not given), a P(pos) threshold of 0.99 for motif mapping, support threshold of 0.06 and confidence of 1.0 for Apriori, and specific distribution values for Methylocystis sp. LW5 (0.641 for GATC, 1.0 for GATCGATC).
+- **Missing materials affecting confidence** All figures, tables, and supplementary folders (A–C) are missing. This includes the motif discovery results (Fig. 1), LSTM performance metrics (Fig. 2), cross-validation heatmaps (Fig. 3, Supp. Fig. 1), molecular interaction landscapes (Fig. 4, Supp. Fig. 2), evolutionary analyses (Fig. 5, Supp. Figs. 3–5), and all supporting data files. Without these, the core claims cannot be independently evaluated.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an intriguing and potentially novel conceptual framework, positioning DNA sequence information itself as a readout for protein-binding behavior. The idea of using in vivo methylation patterns to infer search mechanisms, and the distinction between protein-driven and DNA-driven modes, is conceptually appealing and could be of interest to a broad readership. However, the manuscript as provided is severely under-supported. The central results are described only in figures and supplementary files that were not made available for review. The methodological descriptions are at times vague, and several claims go beyond what the described analyses can support. The writing is also disorganized, with duplicated paragraphs and sections that appear out of place. While the conceptual direction is promising, the evidence base is currently insufficient to establish the claims.
+- **Who would be interested in the results, and why** Researchers in epigenetics, DNA repair, and protein–DNA interactions would be the primary audience. The proposed DNA-centric approach could offer a new analytical tool for studying sequence-specific binding proteins beyond methyltransferases. The evolutionary analysis of methylation motifs could also interest comparative genomicists and evolutionary biologists. The use of NLP-inspired methods for DNA sequence analysis may appeal to computational biologists and bioinformaticians.
+- **Major Strengths**
+  - The conceptual shift from protein-centric to DNA-centric analysis is a genuinely interesting and potentially field-advancing perspective.
+  - The use of in vivo data from 63 diverse species is a significant strength, providing broad comparative power.
+  - The integration of multiple computational methods (rule mining, deep learning, linguistic modeling) is methodologically ambitious.
+  - The proposal of two distinct search mechanisms, and the attempt to ground them in sequence-level observations, is a valuable theoretical contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims the discovery of novel, unannotated 6mA methylation motifs in six prokaryotic species (Section 2, Fig. 1) and the identification of conserved auxiliary nucleotide patterns.
+  - **Evidence pointer** Fig. 1, Supplementary Folder A, File A1. Location not provided.
+  - **Concern** The central discovery claim rests entirely on Figure 1 and supplementary files that were not provided. No motif sequences, statistical support values, or comparative analysis against existing databases are shown in the text. The claim that these motifs are "unannotated" requires a demonstration of absence from databases, which is not shown.
+  - **Why it matters** This is the foundational result of the paper. Without the actual motif data and evidence of novelty, the entire framework lacks empirical grounding.
+  - **Resolution test** Provide Figure 1 and the relevant supplementary data. Show the identified motif sequences, their support and confidence values, and a clear demonstration that they are absent from REBASE and other relevant databases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that LSTM models trained on "cleaned" datasets (where false-negative samples were removed) show consistent improvements in ACC, F1, AUC, and MCC, supporting the biological relevance of auxiliary nucleotides.
+  - **Evidence pointer** Fig. 2, Supplementary Fig. 1, Fig. 5. Location not provided.
+  - **Concern** The described cleaning procedure is circular. The authors define false-negative samples as those containing motifs that are characteristic of positive samples (distribution >80%). Removing these from the negative set and then showing improved model performance is expected and does not independently validate the biological significance of the auxiliary nucleotides. The improvement could simply reflect the removal of hard-to-classify examples. A proper control would involve removing an equivalent number of random negative samples.
+  - **Why it matters** The claim that auxiliary nucleotides are biologically meaningful is a key pillar of the paper. The current analysis does not rule out a trivial data-cleaning artifact.
+  - **Resolution test** Provide the actual performance numbers. Re-run the experiment with a control where random negatives are removed, and show that the improvement is specific to the motif-based cleaning. Show that the improvement is consistent across all species and not driven by a few outliers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript proposes two distinct search mechanisms: a protein-driven diffusion mechanism (sliding, hopping, walking) and a DNA sequence-driven "protein trap" mechanism, with the latter dominant in multicellular eukaryotes.
+  - **Evidence pointer** Fig. 3, Fig. 4, Supplementary Fig. 2, Supplementary Folders B and C. Location not provided.
+  - **Concern** The distinction between the two mechanisms is inferred from the distribution of auxiliary nucleotides and motifs. However, the text does not provide a clear, testable definition of either mechanism. The "protein trap" mechanism is speculative, and the link between the observed sequence patterns and the proposed biophysical behavior is not established. The evidence for the protein-driven mechanism relies on citing prior literature on EcoDam and other proteins, but the connection to the new data is not made explicit.
+  - **Why it matters** The two-mechanism model is the central theoretical contribution. If the inference from sequence patterns to mechanism is not rigorous, the model remains an unsupported hypothesis.
+  - **Resolution test** Provide a clear operational definition of each mechanism. Show quantitative differences in motif distribution, spacing, or clustering between prokaryotes and multicellular eukaryotes that support the dichotomy. Provide a falsifiable prediction that distinguishes the two mechanisms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims to trace evolutionary trajectories of recognition motifs and proposes GATC as a potential ancestral motif, with a pathway GAT or ATC → GATC → GATCC.
+  - **Evidence pointer** Fig. 5, Supplementary Fig. 3–5, Supplementary Folder A. Location not provided.
+  - **Concern** The evolutionary claims are based on cross-species presence of motifs and a phylogenetic tree. However, no phylogenetic analysis is shown in the text. The claim of ancestry requires a formal ancestral state reconstruction or a clear phylogenetic signal, neither of which is described. The observation that GATC is common does not make it ancestral.
+  - **Why it matters** The evolutionary narrative is a major part of the discussion and adds to the paper's significance. Without proper phylogenetic methods, this claim is unsupported.
+  - **Resolution test** Provide the phylogenetic tree and the method used for ancestral state reconstruction. Show that the proposed pathway is statistically supported over alternative scenarios.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes a method of converting DNA sequences into a "Chinese symbolic system" to simulate transition states, and uses this for motif mining.
+  - **Evidence pointer** Methods section, reference [12]. Location not provided.
+  - **Concern** The description of the symbolic conversion is insufficient for reproduction. The mapping rules, the nature of the "transition states," and how this conversion aids in motif discovery are not explained. The reliance on a previous paper [12] is problematic if that paper does not provide a full methodological account.
+  - **Why it matters** Reproducibility is a core requirement. A method that cannot be understood or replicated cannot be evaluated or built upon.
+  - **Resolution test** Provide a complete, step-by-step description of the symbolic conversion process, including examples. Clarify what information is preserved and what is lost in the conversion, and why this is beneficial for motif discovery.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2, Section 3
+  - **Evidence pointer** Text. Location not provided.
+  - **Issue** Sections 2 and 3 contain duplicated paragraphs. The description of LSTM results in Section 3 is repeated almost verbatim. This suggests poor manuscript preparation.
+  - **Required correction** Remove the duplicated text and ensure each section presents unique content.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4, "protein trap" mechanism
+  - **Evidence pointer** Text. Location not provided.
+  - **Issue** The term "protein trap" is used without a clear definition. It is unclear if this is a new concept or borrowed from existing literature. The mechanism is described as "aggregating randomly diffusing proteins," but the sequence-level features that enable this are not specified.
+  - **Required correction** Define the term explicitly and describe the proposed molecular basis for the trap mechanism.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and Code Availability sections
+  - **Evidence pointer** Text. Location not provided.
+  - **Concern** The data are deposited on Zenodo but under embargo, and code is in a private repository. This limits the ability of reviewers and readers to verify the results.
+  - **Required correction** Provide access to the data and code for review purposes, or at least a detailed description of the data structure and code functionality.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 6, cross-validation
+  - **Evidence pointer** Fig. 5, Supplementary Fig. 1. Location not provided.
+  - **Concern** The cross-validation heatmap is described as showing "correlations between multiple species," but the metric used is accuracy. It is unclear what biological conclusion can be drawn from cross-species model accuracy. The interpretation of this analysis is vague.
+  - **Required correction** Clarify the purpose of the cross-validation analysis and what the heatmap is intended to show. Provide a statistical measure of significance for the observed correlations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Text. Location not provided.
+  - **Concern** The discussion of the two search mechanisms would benefit from a more explicit comparison with existing models of protein–DNA recognition, such as facilitated diffusion. The novelty of the proposed framework relative to these models is not clearly articulated.
+  - **Required correction** Add a paragraph explicitly contrasting the proposed DNA-centric view with established protein-centric models, and state what new predictions or insights this framework offers.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Core motif discovery results are not visible.
+  - R1-M2: Data cleaning control is inadequate and potentially circular.
+  - R1-M3: The two-mechanism model is not operationally defined or quantitatively supported.
+  - R1-M4: Evolutionary claims lack phylogenetic methodology.
+  - R1-M5: The symbolic conversion method is not reproducible.
+- **Assessment against Nature-style criteria**
+  - **Originality** The DNA-centric perspective is a refreshing and potentially original contribution. The idea of using the DNA sequence itself, rather than protein structure or dynamics, as the primary readout for binding mechanisms is a conceptual shift that could inspire new approaches. However, the originality of the specific findings cannot be assessed without the data.
+  - **Scientific importance** If the claims are substantiated, the work could have broad implications for understanding protein–DNA recognition, particularly for the large class of sequence-specific DNA-binding proteins. The proposed evolutionary trajectory of motifs is also of general interest. The importance is high, but contingent on evidence.
+  - **Interdisciplinary readership** The work sits at the intersection of molecular biology, computational biology, and evolutionary genomics. The use of NLP methods may attract computational readers, while the biological questions will appeal to molecular biologists. The potential readership is broad.
+  - **Technical soundness** The technical soundness is currently questionable. The data-cleaning procedure is a major concern, and the lack of methodological detail for the symbolic conversion is a significant weakness. The statistical framework for the evolutionary claims is absent. These issues need to be resolved.
+  - **Readability for nonspecialists** The conceptual framing is clear and accessible. The idea of DNA as a "language" or "information store" is intuitive. However, the writing is disorganized, with duplicated sections and abrupt transitions, which detracts from readability. The manuscript would benefit from significant editing.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the scope is ambitious, but the core empirical claims are not verifiable from the materials provided. The manuscript requires major revisions, including the provision of all data and figures, a rigorous control for the data-cleaning experiment, a clear operational definition of the proposed mechanisms, and a proper phylogenetic analysis. I would be supportive of the manuscript if these technical concerns are resolved and the evidence supports the claims.
+
+## Risk / unsupported claims
+- The discovery of novel, unannotated motifs in six prokaryotic species is unsupported without the actual motif data and a demonstration of absence from databases.
+- The claim that auxiliary nucleotides are biologically significant and not artifacts is unsupported due to the circular data-cleaning procedure.
+- The distinction between protein-driven and DNA sequence-driven search mechanisms is speculative and not quantitatively supported.
+- The proposal of GATC as an ancestral motif and the specific evolutionary pathway (GAT/ATC → GATC → GATCC) is unsupported without phylogenetic analysis.
+- The claim that the framework "overcomes the limitations of conventional in vitro protein-centric methods" is overstated, as no direct comparison with wet-lab or structural data is provided.
+- The claim that the approach "decodes the logic of protein–DNA recognition" is too broad given that only 6mA methyltransferases are analyzed.

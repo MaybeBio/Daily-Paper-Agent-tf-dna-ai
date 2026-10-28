@@ -1,0 +1,973 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.24.620005",
+  "title": "UV irradiation alters TFAM binding specificity and compaction of DNA",
+  "doi": "10.1101/2024.10.24.620005",
+  "abstract": "Mitochondria lack nucleotide excision repair; however, mitochondrial DNA (mtDNA) is resistant to mutation accumulation following DNA damage. These observations suggest additional damage sensing or protection mechanisms. Transcription Factor A, Mitochondrial (TFAM) compacts mtDNA into nucleoids and binds differentially to certain forms of DNA damage. As such, TFAM has emerged as a candidate for protecting mtDNA or sensing damage. To examine the possibilities that TFAM might protect DNA from damage or act as a damage sensing protein for irreparable forms of mtDNA damage, we used live-cell imaging and HeLa cell-based assays, atomic force microscopy (AFM), and high-throughput protein-DNA binding assays to characterize the binding properties of human TFAM to ultraviolet-C (UVC) irradiated DNA and the cellular consequences of UVC irradiation. Our cell data show increased TFAM mRNA after exposure and suggest an increase in mtDNA degradation without a loss in mitochondrial membrane potential that might trigger mitophagy. Our protein-DNA binding assays indicate a reduction in sequence specificity of TFAM following UVC irradiation and a redistribution of TFAM binding throughout the mitochondrial genome. Our AFM data show increased compaction of DNA by TFAM in the presence of damage. Despite the TFAM-mediated compaction of mtDNA in vitro , we do not observe any protective effect of increased TFAM protein on DNA damage formation in cells or in vitro . Increased TFAM protein did not alter levels of mtDNA damage over time after UVC exposure in vivo , but knockdown of TFAM did alter mtDNA damage levels in HeLa cells both at baseline and after UVC exposure. Taken together, these studies indicate that UVC-induced DNA damage alters TFAM binding and promotes compaction by TFAM in vitro . We hypothesize that that TFAM may act as a damage sensing protein in vivo , sequestering damaged genomes to prevent mutagenesis by facilitating removal or suppression of replication.",
+  "authors": [
+    "Dillon E. King",
+    "Emily E. Beard",
+    "Matthew J. Satusky",
+    "Alex George",
+    "Ian Ryde",
+    "Caitlin Johnson",
+    "Emma L. Dolan",
+    "Yuning Zhang",
+    "Wei Zhu",
+    "Hunter Wilkins",
+    "Evan Corden",
+    "Susan K. Murphy",
+    "Dorothy Erie",
+    "Raluca Gordân",
+    "Joel N. Meyer"
+  ],
+  "published_date": "2024-10-24",
+  "updated_date": "2024-10-25T01:55:18Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.620005",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.620005.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:00:36Z",
+        "timestamp": 1785427236844,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 79,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                24
+              ]
+            ],
+            "date-time": "2024-10-24T00:00:00Z",
+            "timestamp": 1729728000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "GRFP DGE-1644868"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GRFP DGE-1644868"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/021nxhr62",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "MCB 2324614"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MCB 2324614"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/021nxhr62",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000066",
+          "name": "National Institute of Environmental Health Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "P42ES010356"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P42ES010356"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000066",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000066",
+          "name": "National Institute of Environmental Health Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "T32ES021432"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T32ES021432"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000066",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "award": [
+            "R35 GM127151"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35 GM127151"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Mitochondria lack nucleotide excision repair; however, mitochondrial DNA (mtDNA) is resistant to mutation accumulation following DNA damage. These observations suggest additional damage sensing or protection mechanisms. Transcription Factor A, Mitochondrial (TFAM) compacts mtDNA into nucleoids and binds differentially to certain forms of DNA damage. As such, TFAM has emerged as a candidate for protecting mtDNA or sensing damage. To examine the possibilities that TFAM might protect DNA from damage or act as a damage sensing protein for irreparable forms of mtDNA damage, we used live-cell imaging and HeLa cell-based assays, atomic force microscopy (AFM), and high-throughput protein-DNA binding assays to characterize the binding properties of human TFAM to ultraviolet-C (UVC) irradiated DNA and the cellular consequences of UVC irradiation. Our cell data show increased TFAM mRNA after exposure and suggest an increase in mtDNA degradation without a loss in mitochondrial membrane potential that might trigger mitophagy. Our protein-DNA binding assays indicate a reduction in sequence specificity of TFAM following UVC irradiation and a redistribution of TFAM binding throughout the mitochondrial genome. Our AFM data show increased compaction of DNA by TFAM in the presence of damage. Despite the TFAM-mediated compaction of mtDNA\n                  <jats:italic>in vitro</jats:italic>\n                  , we do not observe any protective effect of increased TFAM protein on DNA damage formation in cells or\n                  <jats:italic>in vitro</jats:italic>\n                  . Increased TFAM protein did not alter levels of mtDNA damage over time after UVC exposure\n                  <jats:italic>in vivo</jats:italic>\n                  , but knockdown of TFAM did alter mtDNA damage levels in HeLa cells both at baseline and after UVC exposure. Taken together, these studies indicate that UVC-induced DNA damage alters TFAM binding and promotes compaction by TFAM\n                  <jats:italic>in vitro</jats:italic>\n                  . We hypothesize that that TFAM may act as a damage sensing protein\n                  <jats:italic>in vivo</jats:italic>\n                  , sequestering damaged genomes to prevent mutagenesis by facilitating removal or suppression of replication.\n                </jats:p>",
+      "DOI": "10.1101/2024.10.24.620005",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ],
+        "date-time": "2024-10-25T01:55:18Z",
+        "timestamp": 1729821318000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "UV irradiation alters TFAM binding specificity and compaction of DNA"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1685-5252",
+          "authenticated-orcid": false,
+          "given": "Dillon E.",
+          "family": "King",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Nicholas School of the Environment, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8660-6094",
+          "authenticated-orcid": false,
+          "given": "Emily E.",
+          "family": "Beard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of North Carolina at Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2089-6935",
+          "authenticated-orcid": false,
+          "given": "Matthew J.",
+          "family": "Satusky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "George",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nicholas School of the Environment, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ian",
+          "family": "Ryde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nicholas School of the Environment, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3474-8204",
+          "authenticated-orcid": false,
+          "given": "Caitlin",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of North Carolina at Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1086-3275",
+          "authenticated-orcid": false,
+          "given": "Emma L.",
+          "family": "Dolan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacology, Duke University"
+            },
+            {
+              "name": "Department of Obstetrics and Gynecology, Duke University Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuning",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biostatistics and Bioinformatics, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Genetics and Microbiology, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hunter",
+          "family": "Wilkins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of North Carolina at Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evan",
+          "family": "Corden",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Program in Computational Biology and Bioinformatics, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Susan K.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Obstetrics and Gynecology, Duke University Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0363-4693",
+          "authenticated-orcid": false,
+          "given": "Dorothy",
+          "family": "Erie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of North Carolina at Chapel Hill"
+            },
+            {
+              "name": "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6404-6556",
+          "authenticated-orcid": false,
+          "given": "Raluca",
+          "family": "Gordân",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biostatistics and Bioinformatics, Duke University"
+            },
+            {
+              "name": "Department of Molecular Genetics and Microbiology, Duke University"
+            },
+            {
+              "name": "Department of Computer Science, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1219-0983",
+          "authenticated-orcid": false,
+          "given": "Joel N.",
+          "family": "Meyer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nicholas School of the Environment, Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmet.2022.10.008"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060815-014402"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2017/8060949"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1741-7007-2-9"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2011.11.005"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/iub.282"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/mcp.M300035-MCP200"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10545-011-9330-8"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1512131112"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E07-05-0404"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005939"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(00)01688-1"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-024-01225-6"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2021.110000"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrestox.0c00083"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/toxsci/kft102"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a012641"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2020.102916"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2025.103814"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.71.7.2777"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040483f"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jbt.21440"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks532"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mito.2014.11.001"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2015.06.034"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw716"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac666"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/genes12081246"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2012.03.002"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms4077"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mito.2006.11.017"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg251"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2159"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2160"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1230"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0006-291x(02)00757-x"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2010.07.009"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1214"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.39",
+          "first-page": "3729",
+          "article-title": "p53 Physically Interacts with Mitochondrial Transcription Factor A and Differentially Regulates Binding to Damaged",
+          "volume": "63",
+          "year": "2003",
+          "journal-title": "DNA1 Cancer Research"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp750"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.analchem.0c04224"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1911252116"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1144"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.44",
+          "unstructured": "EC, F., GC, W., W, W., RD, W., RA, S., and T, E. (2006) DNA damage In DNA Repair and Mutagenesis, Second Ed. ASM Press, Washington, DC Chapter 2, 29-35"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-052621-092014"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbamcr.2010.09.019"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040463d"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddh109"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.230409.117"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr787"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0074513"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004832"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.08.011"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.55",
+          "first-page": "4",
+          "article-title": "The possible effects of the aggregation of the molecules of haemoglobin on its dissociation curves",
+          "volume": "40",
+          "year": "1910",
+          "journal-title": "The Journal of Physiology"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2843-2"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2025.07.003"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja005750n"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1046-2023(02)00308-0"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M801004200"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz406"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms2001"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0075622"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms18081715"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s12276-022-00894-x"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600465"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "2770",
+          "DOI": "10.3390/ijms20112770",
+          "article-title": "Organization of DNA in Mammalian Mitochondria International",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Journal of Molecular Sciences"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0308230101"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-024-01419-6"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-34205-9"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-023-01343-1"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fcomp.2022.777728"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2818.2003.01239.x"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-62703-739-6_31"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.marenvres.2014.04.007"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2007.08.002"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2217422120"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2026020608405407000_2024.10.24.620005v5.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.16904/envidat.177"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.24.620005",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T16:41:04Z",
+        "timestamp": 1770396064000
+      },
+      "score": 97.829124,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.24.620005"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "references-count": 79,
+      "URL": "https://doi.org/10.1101/2024.10.24.620005",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.108862.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.108862.1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.108862.2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

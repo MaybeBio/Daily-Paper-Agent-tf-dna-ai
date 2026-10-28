@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40251810",
+  "title": "Deciphering Sequence Determinants of Zygotic Genome Activation Genes: Insights From Machine Learning and the ZGAExplorer Platform.",
+  "authors": "Xing, Jixiang; Yang, Siqi; Liang, Yuchao; Hu, Pengwei; Dai, Bingjie; Li, Hanshuang; Xing, Yongqiang; Zuo, Yongchun",
+  "journal": "Cell proliferation",
+  "published_date": "2025-04-19",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释机器学习模型预测ZGA基因并挖掘TF结合基序，虽涉及TF-DNA序列偏好，但缺乏三维互作建模与动态机制研究，属于广义蛋白-DNA互作的可借鉴方法学文献。",
+  "abstract": "The mammalian life cycle initiates with the transition of genetic control from the maternal to the embryonic genome during zygotic genome activation (ZGA), which becomes pivotal for development. Nevertheless, understanding the conservation of genes and transcription factors (TFs) that underlie mammalian ZGA remains limited. Here, we compiled a comprehensive set of ZGA genes from mice, humans, pigs, bovines and goats, including Nr5a2 and TPRX1/2. The identification of 111 homologous genes through comparative analyses was followed by the discovery of a conserved genetic coding region, suggesting potential sequence preferences for ZGA genes. Notably, an interpretable machine learning model based on k-mer core features showed excellent performance in predicting ZGA genes (area under the ROC curve [AUC] > 0.81), revealing abundant and intricate 6-base sequence specific patterns and potential binding TFs, including motifs from NR5A2 and TPRX1/2. Further analysis demonstrated that gene sequence features and epigenetic modification features play equally important roles in regulating ZGA genes. Ultimately, we developed the ZGAExplorer platform to provide an invaluable resource for screening ZGA genes. Our study unravels the sequence determinants of ZGA genes across species through multi-omics data integration and machine learning, yielding insights into ZGA regulatory mechanisms and embryonic developmental arrest.",
+  "abstract_zh": "哺乳动物生命周期始于合子基因组激活（zygotic genome activation, ZGA）期间遗传控制从母体基因组向胚胎基因组的转变，这一过程对发育至关重要。然而，对支撑哺乳动物ZGA的基因和转录因子（transcription factors, TFs）保守性的理解仍然有限。在此，我们汇编了来自小鼠、人类、猪、牛和山羊的全面ZGA基因集，包括Nr5a2和TPRX1/2。通过比较分析鉴定出111个同源基因，随后发现了一个保守的遗传编码区域，提示ZGA基因可能存在序列偏好性。值得注意的是，基于k-mer核心特征的可解释机器学习模型在预测ZGA基因方面表现出优异性能（受试者工作特征曲线下面积 [AUC] > 0.81），揭示了丰富而复杂的6碱基序列特异模式及潜在结合TFs，包括来自NR5A2和TPRX1/2的基序。进一步分析表明，基因序列特征和表观遗传修饰特征在调控ZGA基因中发挥同等重要作用。最终，我们开发了ZGAExplorer平台，为筛选ZGA基因提供了宝贵资源。我们的研究通过多组学数据整合和机器学习揭示了跨物种ZGA基因的序列决定因素，为ZGA调控机制和胚胎发育停滞提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40251810/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40251810/",
+  "paper_page_path": "papers/pubmed/40251810/index.html"
+}

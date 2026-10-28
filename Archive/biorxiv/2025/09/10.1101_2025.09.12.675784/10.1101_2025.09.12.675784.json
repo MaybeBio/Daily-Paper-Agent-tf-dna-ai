@@ -1,0 +1,315 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.12.675784",
+  "title": "Modanovo: A Unified Model for Post-Translational Modification-Aware de Novo Sequencing Using Experimental Spectra from In Vivo and Synthetic Peptides",
+  "doi": "10.1101/2025.09.12.675784",
+  "abstract": "Post-translational modifications (PTMs) play a central role in cellular regulation and are implicated in numerous diseases. Database searching remains the standard for identifying modified peptides from tandem mass spectra, but is hindered by the combinatorial expansion of modification types and sites. De novo peptide sequencing offers an attractive alternative, yet existing methods remain limited to unmodified peptides or a narrow set of PTMs. Here, we curated a large dataset of spectra from endogenous and synthetic peptides from ProteomeTools spanning 19 biologically relevant amino acid-PTM combinations, covering phosphorylation, acetylation, and ubiquitination. We used this dataset to develop Modanovo, an extension of the Casanovo transformer architecture for de novo peptide sequencing. Modanovo achieved robust performance across these amino acid-PTM combinations (median area under the precision-coverage curve 0.92), while maintaining performance on unmodified peptides (0.93), nearly identical to Casanovo (0.94). The model outperformed π-PrimeNovo-PTM and showed increased precision and complementarity to the database search tool MSFragger. Robustness was confirmed across independent datasets, particularly at peptide lengths frequently represented in the curated dataset. Applied to a phosphoproteomics dataset from monkeypox virus-infected cells, Modanovo recovered numerous confident peptides not reported by database search, including new viral phosphosites supported by spectral evidence, thereby demonstrating its complementarity to database-driven identification approaches. These results establish Modanovo as a broadly applicable model for comprehensive de novo sequencing of both modified and unmodified peptides.",
+  "authors": [
+    "Klaproth-Andrade D",
+    "Bruns Y",
+    "Gabriel W",
+    "Nix C",
+    "Bergant V",
+    "Pichlmair A",
+    "Wilhelm M",
+    "Gagneur J"
+  ],
+  "published_date": "2025-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675784",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675784.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1085887",
+    "raw_record": {
+      "id": "PPR1085887",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1085887"
+        ]
+      },
+      "doi": "10.1101/2025.09.12.675784",
+      "title": "Modanovo: A Unified Model for Post-Translational Modification-Aware de Novo Sequencing Using Experimental Spectra from In Vivo and Synthetic Peptides",
+      "authorString": "Klaproth-Andrade D, Bruns Y, Gabriel W, Nix C, Bergant V, Pichlmair A, Wilhelm M, Gagneur J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Klaproth-Andrade D",
+            "lastName": "Klaproth-Andrade",
+            "firstName": "Daniela",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-4223-2199"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bruns Y",
+            "lastName": "Bruns",
+            "firstName": "Yanik",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gabriel W",
+            "lastName": "Gabriel",
+            "firstName": "Wassim",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6440-9794"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nix C",
+            "lastName": "Nix",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-5718-3452"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bergant V",
+            "lastName": "Bergant",
+            "firstName": "Valter",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Virology, , School of Medicine, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pichlmair A",
+            "lastName": "Pichlmair",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0166-1367"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Virology, , School of Medicine, ,"
+                },
+                {
+                  "affiliation": ", Partner site Munich, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilhelm M",
+            "lastName": "Wilhelm",
+            "firstName": "Mathias",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9224-3258"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": "Munich Data Science Institute (MDSI), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gagneur J",
+            "lastName": "Gagneur",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8924-8365"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TUM School of Computation, Information and Technology, , ,"
+                },
+                {
+                  "affiliation": "Munich Data Science Institute (MDSI), , ,"
+                },
+                {
+                  "affiliation": ", School of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Computational Health Center, Helmholtz Center Munich, Neuherberg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6440-9794"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0166-1367"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8924-8365"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9224-3258"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-5718-3452"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-4223-2199"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Post-translational modifications (PTMs) play a central role in cellular regulation and are implicated in numerous diseases. Database searching remains the standard for identifying modified peptides from tandem mass spectra, but is hindered by the combinatorial expansion of modification types and sites. De novo peptide sequencing offers an attractive alternative, yet existing methods remain limited to unmodified peptides or a narrow set of PTMs. Here, we curated a large dataset of spectra from endogenous and synthetic peptides from ProteomeTools spanning 19 biologically relevant amino acid-PTM combinations, covering phosphorylation, acetylation, and ubiquitination. We used this dataset to develop Modanovo, an extension of the Casanovo transformer architecture for de novo peptide sequencing. Modanovo achieved robust performance across these amino acid-PTM combinations (median area under the precision-coverage curve 0.92), while maintaining performance on unmodified peptides (0.93), nearly identical to Casanovo (0.94). The model outperformed π-PrimeNovo-PTM and showed increased precision and complementarity to the database search tool MSFragger. Robustness was confirmed across independent datasets, particularly at peptide lengths frequently represented in the curated dataset. Applied to a phosphoproteomics dataset from monkeypox virus-infected cells, Modanovo recovered numerous confident peptides not reported by database search, including new viral phosphosites supported by spectral evidence, thereby demonstrating its complementarity to database-driven identification approaches. These results establish Modanovo as a broadly applicable model for comprehensive de novo sequencing of both modified and unmodified peptides.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101077037",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.12.675784"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1085887"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1085887&type=FILE&fileName=EMS208962-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41453616",
+            "reference": "Molecular & cellular proteomics : MCP. 2026 Feb;25(2):101501",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208962",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-19",
+      "firstPublicationDate": "2025-09-16",
+      "firstIndexDate": "2025-09-19",
+      "fullTextReceivedDate": "2025-09-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

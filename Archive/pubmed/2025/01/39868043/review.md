@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods summary, figure legends)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence consistency, and alignment with stated conclusions. No line-by-line editorial review.
+- **Shared manuscript claim summary** The authors use a deep learning framework (TREDNet) to identify positive (PAR) and negative (NAR) activity regions within HepG2 enhancers. They report that NARs are enriched for repressor TF binding sites, that enhancers predominantly populated by NARs ("repressive impact enhancers", RIEs) are associated with reduced enhancer activity and lower flanking gene expression, that RIE-flanking genes show stage-specific expression decline during late liver development, and that a substantial fraction of human NARs arose from neutral rhesus macaque sequence, correlating with reduced human gene expression relative to macaque.
+- **Visible evidence base** Main text figures 1–4, supplementary figures S1–S4, methods descriptions, statistical annotations in figure legends
+- **Missing materials affecting confidence** Full STAR Methods details (model architecture, training data, hyperparameters), exact statistical test outputs, effect sizes, confidence intervals, code for reproducibility, full supplementary tables, and detailed figure source data
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the role of repressor binding sites in human enhancers. The computational framework is ambitious and the integration of multiple experimental datasets (Sharpr-MPRA, STARR-seq, ChIP-seq, RNA-seq) is commendable. However, the central claims rest on a series of correlative analyses whose causal interpretation is not fully established. Several methodological details are insufficiently described to assess robustness, and some statistical comparisons appear underpowered or incompletely reported. The evolutionary analysis, while interesting, relies on assumptions about orthology and functional conservation that require more careful treatment. The manuscript is potentially of interest to a specialized readership in gene regulation and computational genomics, but the current evidence does not fully support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying enhancer biology, transcriptional repression, gene regulatory evolution, and computational genomics. The work may also be of interest to those developing deep learning approaches for regulatory element annotation and to investigators studying liver development and species-specific gene regulation.
+- **Major strengths** The study addresses an under-explored aspect of enhancer biology, namely the role of repressor binding sites within active enhancers. The use of a deep learning framework to dissect enhancer sub-regions at nucleotide resolution is methodologically interesting. The integration of multiple orthogonal datasets (MPRA, STARR-seq, ChIP-seq, RNA-seq, evolutionary comparisons) provides a multi-layered view. The evolutionary comparison between human and rhesus macaque is a valuable addition that moves beyond static annotation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the DL-based activity region detection
+  - **Claim pointer** The manuscript claims that PARs and NARs identified by TREDNet represent functionally distinct activity regions within enhancers, validated by overlap with Sharpr-MPRA and STARR-seq data.
+  - **Evidence pointer** Figure 1A, Figure 2B–2D, STAR Methods (TREDNet description)
+  - **Concern** The description of the TREDNet model and the procedure for identifying PARs and NARs is insufficiently detailed. The threshold for calling a region "positive" or "negative" (false positive rate < 0.01) is mentioned, but the calibration procedure, the choice of window sizes, and the handling of overlapping or adjacent regions are not described. The validation against Sharpr-MPRA and STARR-seq is presented as correlative, but the degree of overlap, the statistical significance of the overlap, and whether the direction of effects (activating vs. repressive) is concordant are not quantified in the main text. The claim that NARs are "repressive" rests on the assumption that negative delta scores correspond to repressive function, which is not independently validated.
+  - **Why it matters** The entire downstream analysis depends on the reliability of the PAR/NAR calls. If the model produces false positives or misclassifies neutral regions, all subsequent claims about RIEs, developmental expression, and evolutionary gains are compromised. The validation presented is not sufficiently rigorous to establish that the predicted regions correspond to bona fide functional elements.
+  - **Resolution test** Provide a detailed description of the model training, validation, and threshold selection. Quantify the overlap between predicted PARs/NARs and experimentally validated regulatory nucleotides (e.g., fraction of Sharpr-MPRA repressive nucleotides that fall within NARs, and vice versa). Show that the direction of predicted effects (positive vs. negative delta score) matches the direction of experimentally measured effects at the same loci. Provide precision-recall or ROC-type analyses for the PAR/NAR classifiers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of the evolutionary comparison
+  - **Claim pointer** The manuscript claims that 16.7% of human NARs emerged from neutral rhesus macaque DNA and that this gain of repressor binding sites is associated with a 30% decrease in average expression of flanking genes in humans compared to rhesus macaque.
+  - **Evidence pointer** Figure 3G–3H, STAR Methods (Evolutionary gain of NARs)
+  - **Concern** The evolutionary analysis relies on the identification of orthologous sequences between human and rhesus macaque, but the criteria for orthology, the handling of indels and rearrangements, and the quality of the pairwise alignment are not described. The classification of rhesus sequences as "neutral" is based on the absence of PAR/NAR calls in the rhesus genome, but this absence could be due to technical reasons (e.g., lower model sensitivity in rhesus, different chromatin context) rather than true neutrality. The permutation test used to assess significance is described only briefly, and the p-value threshold for significance is not stated. The 30% expression decrease is a key quantitative claim, but the confidence interval, the number of genes analyzed, and the statistical test used are not reported.
+  - **Why it matters** The evolutionary claim is one of the most novel and potentially impactful findings of the study. If the orthology mapping is inaccurate or the "neutral" classification is confounded by technical artifacts, the conclusion that human-specific repressor binding sites have been gained and are functionally relevant would be unsupported.
+  - **Resolution test** Provide detailed methods for orthology mapping, including alignment quality metrics and filtering criteria. Validate the "neutral" classification by showing that rhesus sequences classified as neutral are not simply regions where the model fails (e.g., by comparing model confidence scores). Report the number of genes, the effect size with confidence intervals, and the statistical test used for the expression comparison. Consider controlling for confounding factors such as gene length, GC content, or expression level.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal interpretation of developmental expression patterns
+  - **Claim pointer** The manuscript claims that RIEs are associated with a stage-specific decline in expression of flanking genes during late liver development (12–20 weeks post-conception), suggesting a role in trimming enhancer activities.
+  - **Evidence pointer** Figure 3A–3C
+  - **Concern** The developmental expression analysis is purely correlative. The observation that genes flanking RIEs show lower expression at 12–20 wpc does not establish that the RIEs are responsible for this decline. Alternative explanations, such as changes in chromatin state, transcription factor availability, or other regulatory elements, are not addressed. The comparison between RIE-flanking genes and PAR-flanking genes is informative, but the analysis does not control for potential confounders such as the genomic context, the number of enhancers in the locus, or the baseline expression level. The claim that RIEs "trim" enhancer activity implies a causal mechanism that is not directly tested.
+  - **Why it matters** The developmental timing of RIE effects is a central part of the manuscript's narrative. If the observed expression patterns are driven by other factors, the specific role of RIEs in fine-tuning gene regulation during development would be weakened.
+  - **Resolution test** Perform a more rigorous statistical analysis that controls for potential confounders. Consider using a matched control design (e.g., genes flanked by enhancers with similar activity but without NARs). If possible, use experimental perturbations (e.g., CRISPR-based deletion of NARs) to directly test the causal role of RIEs in modulating expression. At minimum, acknowledge the correlational nature of the evidence and discuss alternative explanations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 2A
+  - **Evidence pointer** Figure 2A
+  - **Issue** The x-axis labels in Figure 2A are difficult to interpret. The distinction between "1PAR", "2PAR", "3+PAR" and the corresponding NAR categories is not clearly explained in the legend. The reader cannot easily determine whether these categories refer to the number of PARs/NARs within a single enhancer or across a locus.
+  - **Required correction** Clarify the definition of these categories in the figure legend. Consider adding a schematic diagram to illustrate the classification scheme.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of statistical details
+  - **Affected element** Figure 3H
+  - **Evidence pointer** Figure 3H
+  - **Issue** The p-value for the 30% expression decrease is reported as < 10^-20, which is extremely small. The number of genes in each category and the effect size distribution are not shown. The reader cannot assess whether this result is driven by a few outliers.
+  - **Required correction** Provide a box plot or violin plot showing the full distribution of expression fold changes. Report the number of genes in each category and the median and interquartile range.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** STAR Methods, "Datasets used and definition of enhancers"
+  - **Evidence pointer** STAR Methods
+  - **Issue** The definition of enhancers as 400 bp segments centered on DHS regions with H3K27ac and H3K4me1 overlap is clear, but the filtering criteria (e.g., minimum signal thresholds, exclusion of promoter-overlapping regions) are not fully specified. The number of enhancers remaining after filtering is not stated.
+  - **Required correction** Provide the exact filtering criteria and the final number of enhancers analyzed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of TF motif enrichment
+  - **Affected element** Figure 2A, Results section
+  - **Evidence pointer** Figure 2A
+  - **Issue** The motif enrichment analysis identifies TF motifs enriched in PARs and NARs, but the manuscript does not discuss whether the identified repressor TFs (e.g., ZEB1, TCF4, SNAI1) are actually expressed in HepG2 cells. The inclusion criterion "only TF genes expressed in HepG2" is mentioned, but the expression threshold is not defined.
+  - **Required correction** Specify the expression threshold used and consider discussing whether the identified TFs are known to function as repressors in the liver context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (DL model validation) and R1-M2 (evolutionary analysis rigor) are the most critical. The manuscript's central claims depend on the reliability of the PAR/NAR calls and the accuracy of the orthology-based evolutionary inference. Without addressing these, the case for RIEs as functionally relevant, evolutionarily dynamic elements is not fully established.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using deep learning to dissect enhancers into positive and negative activity regions and linking these to repressor binding sites is moderately original. The evolutionary comparison adds a novel dimension. However, the idea that repressor binding sites exist within enhancers is not new, and the manuscript does not fundamentally challenge existing paradigms.
+  - **Scientific importance** The work addresses an important question about the role of repression in enhancer function. If the findings are robust, they could have implications for understanding gene regulation, disease-associated variants, and evolutionary adaptation. However, the current evidence is largely correlative, and the importance is somewhat diminished by the lack of direct functional validation.
+  - **Interdisciplinary readership** The manuscript is likely to appeal primarily to computational biologists and researchers in gene regulation. The deep learning approach may attract interest from the machine learning community, but the biological findings are somewhat specialized. The evolutionary analysis could broaden the appeal, but the technical details may limit accessibility.
+  - **Technical soundness** The deep learning framework is a strength, but the lack of detailed validation and the correlative nature of many analyses weaken the technical soundness. The statistical reporting is incomplete in several places, and the evolutionary analysis has potential confounders that are not addressed.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the main concepts are explained clearly. However, the methods section is dense and assumes familiarity with deep learning and genomics. The figures are informative but some are difficult to interpret without careful reading of the legends.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents a potentially useful computational framework. However, the central claims are not fully established from the provided evidence. The authors should be encouraged to provide more rigorous validation of the PAR/NAR calls, more detailed statistical reporting, and a more careful treatment of the evolutionary analysis. If these concerns are addressed, the manuscript could make a valuable contribution to the field.

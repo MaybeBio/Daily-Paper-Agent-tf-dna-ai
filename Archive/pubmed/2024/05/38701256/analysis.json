@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38701256",
+  "title": "Potential mechanisms of traditional Chinese medicine in treating insomnia: A network pharmacology, GEO validation, and molecular-docking study.",
+  "authors": "Liu, Xing; Sun, Pengcheng; Bao, Xuejie; Cao, Yanqi; Wang, Liying; Wang, Qi",
+  "journal": "Medicine",
+  "published_date": "2024-05-03",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用网络药理学和分子对接探讨中药治疗失眠的机制，虽含分子对接和TF-miRNA-mRNA网络，但核心是药物-靶点而非蛋白质-DNA互作，且TF网络仅作转录调控背景，与本课题关联弱。",
+  "abstract": "The purpose of this study is to investigate the potential mechanisms of Chinese herbs for the treatment of insomnia using a combination of data mining, network pharmacology, and molecular-docking validation. All the prescriptions for insomnia treated by the academician Qi Wang from 2020 to 2022 were collected. The Ancient and Modern Medical Case Cloud Platform v2.3 was used to identify high-frequency Chinese medicinal herbs and the core prescription. The Traditional Chinese Medicine Systems Pharmacology and UniProt databases were utilized to predict the effective active components and targets of the core herbs. Insomnia-related targets were collected from 4 databases. The intersecting targets were utilized to build a protein-protein interaction network and conduct gene ontology enrichment analysis and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis using the STRING database, Cytoscape software, and clusterProfiler package. Gene chip data (GSE208668) were obtained from the Gene Expression Omnibus database. The limma package was applied to identify differentially expressed genes (DEGs) between insomnia patients and healthy controls. To create a \"transcription factor (TF)-miRNA-mRNA\" network, the differentially expressed miRNAs were entered into the TransmiR, FunRich, Targetscan, and miRDB databases. Subsequently, the overlapping targets were validated using the DEGs, and further validations were conducted through molecular docking and molecular dynamics simulations. Among the 117 prescriptions, 65 herbs and a core prescription were identified. Network pharmacology and bioinformatics analysis revealed that active components such as beta-sitosterol, stigmasterol, and canadine acted on hub targets, including interleukin-6, caspase-3, and hypoxia-inducible factor-1alpha. In GSE208668, 6417 DEGs and 7 differentially expressed miRNAs were identified. A \"TF-miRNA-mRNA\" network was constructed by 4 \"TF-miRNA\" interaction pairs and 66 \"miRNA-mRNA\" interaction pairs. Downstream mRNAs exert therapeutic effects on insomnia by regulating circadian rhythm. Molecular-docking analyses demonstrated good docking between core components and hub targets. Molecular dynamics simulation displayed the strong stability of the complex formed by small molecule and target. The core prescription by the academician Qi Wang for treating insomnia, which involves multiple components, targets, and pathways, showed the potential to improve sleep, providing a basis for clinical treatment of insomnia.",
+  "abstract_zh": "本研究旨在结合数据挖掘、网络药理学和分子对接验证，探讨中药治疗失眠的潜在机制。收集了2020年至2022年王琦院士治疗失眠的所有处方。利用古今医案云平台v2.3识别高频中药及核心处方。采用中药系统药理学数据库和UniProt数据库预测核心药物的有效活性成分及靶点。从4个数据库收集失眠相关靶点。利用STRING数据库、Cytoscape软件和clusterProfiler包，基于交集靶点构建蛋白质-蛋白质相互作用网络，并进行基因本体富集分析和京都基因与基因组百科全书通路富集分析。从基因表达综合数据库获取基因芯片数据（GSE208668）。应用limma包识别失眠患者与健康对照之间的差异表达基因（DEGs）。为构建“转录因子（TF）-miRNA-mRNA”网络，将差异表达miRNAs输入TransmiR、FunRich、Targetscan和miRDB数据库。随后，利用DEGs验证重叠靶点，并通过分子对接和分子动力学模拟进行进一步验证。在117个处方中，识别出65味中药及一个核心处方。网络药理学和生物信息学分析显示，β-谷甾醇、豆甾醇和坎那定等活性成分作用于核心靶点，包括白细胞介素-6、半胱氨酸天冬氨酸蛋白酶-3和缺氧诱导因子-1α。在GSE208668中，识别出6417个DEGs和7个差异表达miRNAs。通过4个“TF-miRNA”相互作用对和66个“miRNA-mRNA”相互作用对构建了“TF-miRNA-mRNA”网络。下游mRNAs通过调节昼夜节律发挥对失眠的治疗作用。分子对接分析显示核心成分与核心靶点之间具有良好的对接性。分子动力学模拟显示小分子与靶点形成的复合物具有强稳定性。王琦院士治疗失眠的核心处方涉及多成分、多靶点和多通路，显示出改善睡眠的潜力，为失眠的临床治疗提供了依据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38701256/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38701256/",
+  "paper_page_path": "papers/pubmed/38701256/index.html"
+}

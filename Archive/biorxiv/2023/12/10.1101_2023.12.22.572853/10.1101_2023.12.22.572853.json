@@ -1,0 +1,760 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.22.572853",
+  "title": "ANTIPASTI: interpretable prediction of antibody binding affinity exploiting Normal Modes and Deep Learning",
+  "doi": "10.1101/2023.12.22.572853",
+  "abstract": "The high binding affinity of antibodies towards their cognate targets is key to eliciting effective immune responses, as well as to the use of antibodies as research and therapeutic tools. Here, we propose ANTIPASTI, a Convolutional Neural Network model that achieves state-of-the-art performance in the prediction of antibody binding affinity using as input a representation of antibody-antigen structures in terms of Normal Mode correlation maps derived from Elastic Network Models. This representation captures not only structural features but energetic patterns of local and global residue fluctuations. The learnt representations are interpretable: they reveal similarities of binding patterns among antibodies targeting the same antigen type, and can be used to quantify the importance of antibody regions contributing to binding affinity. Our results show the importance of the antigen imprint in the Normal Mode landscape, and the dominance of cooperative effects and long-range correlations between antibody regions to determine binding affinity.",
+  "authors": [
+    "Kevin Michalewicz",
+    "Mauricio Barahona",
+    "Barbara Bravi"
+  ],
+  "published_date": "2023-12-23",
+  "updated_date": "2023-12-23T22:10:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.572853",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.572853.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:37:02Z",
+        "timestamp": 1768509422775,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 80,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>The high binding affinity of antibodies towards their cognate targets is key to eliciting effective immune responses, as well as to the use of antibodies as research and therapeutic tools. Here, we propose ANTIPASTI, a Convolutional Neural Network model that achieves state-of-the-art performance in the prediction of antibody binding affinity using as input a representation of antibody-antigen structures in terms of Normal Mode correlation maps derived from Elastic Network Models. This representation captures not only structural features but energetic patterns of local and global residue fluctuations. The learnt representations are interpretable: they reveal similarities of binding patterns among antibodies targeting the same antigen type, and can be used to quantify the importance of antibody regions contributing to binding affinity. Our results show the importance of the antigen imprint in the Normal Mode landscape, and the dominance of cooperative effects and long-range correlations between antibody regions to determine binding affinity.</jats:p>",
+      "DOI": "10.1101/2023.12.22.572853",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2023-12-23T22:10:15Z",
+        "timestamp": 1703369415000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ANTIPASTI: interpretable prediction of antibody binding affinity exploiting Normal Modes and Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6584-2749",
+          "authenticated-orcid": false,
+          "given": "Kevin",
+          "family": "Michalewicz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1089-5675",
+          "authenticated-orcid": false,
+          "given": "Mauricio",
+          "family": "Barahona",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Barbara",
+          "family": "Bravi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.1",
+          "first-page": "86",
+          "article-title": "Current progress in innovative engineered antibodies",
+          "volume": "9",
+          "year": "2017",
+          "journal-title": "Protein & Cell"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-019-0592-z"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1038/s41392-021-00868-x",
+          "article-title": "Emerging new therapeutic antibody derivatives for cancer treatment",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "Signal Transduction and Targeted Therapy"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mark L. Chiu , Dennis R. Goulet , Alexey Teplyakov , and Gary L. Gilliland . Antibody structure and function: The basis for engineering therapeutics. Antibodies, 8(4), 2019.",
+          "DOI": "10.3390/antib8040055"
+        },
+        {
+          "issue": "24",
+          "key": "2023122723250515000_2023.12.22.572853v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "9137",
+          "DOI": "10.1039/C8CS00523K",
+          "article-title": "Third generation antibody discovery methods: in silico rational design",
+          "volume": "47",
+          "year": "2018",
+          "journal-title": "Chemical Society Reviews"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hristo Svilenov , Julia Sacherl , Ulrike Protzer , Martin Zacharias , and Johannes Buchner . Mechanistic principles of an ultra-long bovine cdr reveal strategies for antibody design. Nature Communications, 12, November 2021.",
+          "DOI": "10.1038/s41467-021-27103-z"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Inbal Sela-Culang , Vered Kunik , and Yanay Ofran . The structural basis of antibody-antigen recognition. Frontiers in Immunology, 4, 2013.",
+          "DOI": "10.3389/fimmu.2013.00302"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2031482",
+          "DOI": "10.1080/19420862.2022.2031482",
+          "article-title": "In silico proof of principle of machine learning-based antibody design at unconstrained scale",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "mAbs"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pedro B. P. S. Reis , German P. Barletta , Luca Gagliardi , Sara Fortuna , Miguel A. Soler , and Walter Rocchia . Antibody-antigen binding interface analysis in the big data era. Frontiers in Molecular Biosciences, 9, 2022.",
+          "DOI": "10.3389/fmolb.2022.945808"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz714"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.4205"
+        },
+        {
+          "issue": "D1",
+          "key": "2023122723250515000_2023.12.22.572853v1.12",
+          "first-page": "D1140",
+          "article-title": "SAbDab: the structural antibody database",
+          "volume": "42",
+          "year": "2013",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "issue": "D1",
+          "key": "2023122723250515000_2023.12.22.572853v1.13",
+          "first-page": "D1368",
+          "article-title": "SAbDab in the age of biotherapeutics: updates including SAbDab-nano, the nanobody structure tracker",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.15",
+          "first-page": "btac732",
+          "article-title": "Paragraph—antibody paratope prediction using graph neural networks with minimal feature vectors",
+          "volume": "39",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/BIOINFORMATICS/BTAA644"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa263"
+        },
+        {
+          "issue": "2",
+          "key": "2023122723250515000_2023.12.22.572853v1.18",
+          "first-page": "377",
+          "article-title": "DLAB: deep learning methods for structure-based virtual screening of antibodies",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laith Alzubaidi , Jinglan Zhang , Amjad J. Humaidi , Ayad Al-dujaili , Ye Duan , Omran Al-Shamma , José I. Santamaría , Mohammed Abdulraheem Fadhel , Muthana Al-Amidie , and Laith Farhan . Review of deep learning: concepts, cnn architectures, challenges, applications, future directions. Journal of Big Data, 8, 2021.",
+          "DOI": "10.1186/s40537-021-00444-8"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rohit Singh and Mitul Saha . Identifying structural motifs in proteins. Pacific Symposium on Biocomputing, pages 228–239, February 2003.",
+          "DOI": "10.1142/9789812776303_0022"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sobhan Soleymani , Ali Dabouei , Hadi Kazemi , Jeremy Dawson , and Nasser M. Nasrabadi . Multilevel feature abstraction from convolutional neural networks for multimodal biometric identification, 2018.",
+          "DOI": "10.1109/ICPR.2018.8545061"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.22",
+          "unstructured": "Yue Kang , Dawei Leng , Jinjiang Guo , and Lurong Pan . Sequence-based deep learning antibody design for in silico antibody affinity maturation, 2021."
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sarah Sirin , James Apgar , Eric Bennett , and Amy Keating . Ab-bind: Antibody binding mutational database for computational affinity predictions. Protein Science, 25, October 2015.",
+          "DOI": "10.1002/pro.2829"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yoichi Kurumida , Yutaka Saito , and Tomoshi Kameda . Predicting antibody affinity changes upon mutations by combining multiple predictors. Scientific Reports, 10, November 2020.",
+          "DOI": "10.1038/s41598-020-76369-8"
+        },
+        {
+          "issue": "4",
+          "key": "2023122723250515000_2023.12.22.572853v1.25",
+          "first-page": "1141",
+          "article-title": "CSM-AB: graph-based antibody–antigen binding affinity prediction and docking scoring function",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "108364",
+          "DOI": "10.1016/j.jmgm.2022.108364",
+          "article-title": "Binding affinity prediction for antibody–protein antigen complexes: A machine learning analysis based on interface and surface areas",
+          "volume": "118",
+          "year": "2023",
+          "journal-title": "Journal of Molecular Graphics and Modelling"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1016/j.csbj.2022.12.039",
+          "article-title": "Beyond sequence: Structure-based machine learning",
+          "volume": "21",
+          "year": "2023",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "issue": "7",
+          "key": "2023122723250515000_2023.12.22.572853v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "100513",
+          "DOI": "10.1016/j.patter.2022.100513",
+          "article-title": "Deciphering the language of antibodies using self-supervised learning",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "Patterns"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sara D’Angelo , Fortunato Ferrara , Leslie Naranjo , M. Frank Erasmus , Peter Hraber , and Andrew R. M. Bradbury . Many routes to an antibody heavy-chain cdr3: Necessary, yet insufficient, for specific binding. Frontiers in Immunology, 9, 2018.",
+          "DOI": "10.3389/fimmu.2018.00395"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.71393"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1218256109"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huafeng Xu , Aaron Schmidt , Timothy O’donnell , Matthew Therkelsen , Thomas Kepler , M. Moody , Barton Haynes , Hua-Xin Liao , Stephen Harrison , and David Shaw . Key mutations stabilize antigenbinding conformation during affinity maturation of a broadly neutralizing influenza antibody lineage. Proteins: Structure, Function, and Bioinformatics, 83, December 2014.",
+          "DOI": "10.1002/prot.24745"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1422401112"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arjun K. Mishra and Roy A. Mariuzza . Insights into the structural basis of antibody affinity maturation from next-generation sequencing. Frontiers in Immunology, 9, 2018.",
+          "DOI": "10.3389/fimmu.2018.00117"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Monica L. Fernández-Quintero , Johannes R. Loeffler , Lisa M. Bacher , Franz Waibl , Clarissa A. Seidler , and Klaus R. Liedl . Local and Global Rigidification Upon Antibody Affinity Maturation. Frontiers in Molecular Biosciences, 7, 2020.",
+          "DOI": "10.3389/fmolb.2020.00182"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.pbiomolbio.2016.09.002",
+          "article-title": "Proarticleuous antibodies characterised by their physico-chemical properties: From sequence to structure and back",
+          "volume": "128",
+          "year": "2017",
+          "journal-title": "Progress in Biophysics and Molecular Biology"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "e33038",
+          "DOI": "10.7554/eLife.33038",
+          "article-title": "Role of framework mutations and antibody flexibility in the evolution of broadly neutralizing antibodies",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "eLife"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.83628"
+        },
+        {
+          "issue": "21",
+          "key": "2023122723250515000_2023.12.22.572853v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "7359",
+          "DOI": "10.1021/jp906421v",
+          "article-title": "Molecular description of flexibility in an antibody combining site",
+          "volume": "114",
+          "year": "2010",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "issue": "3",
+          "key": "2023122723250515000_2023.12.22.572853v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "628",
+          "DOI": "10.1016/j.xphs.2021.10.039",
+          "article-title": "Stress-dependent flexibility of a full-length human monoclonal antibody: Insights from molecular dynamics to support biopharmaceutical development",
+          "volume": "111",
+          "year": "2022",
+          "journal-title": "Journal of Pharmaceutical Sciences"
+        },
+        {
+          "issue": "42",
+          "key": "2023122723250515000_2023.12.22.572853v1.41",
+          "first-page": "423202",
+          "article-title": "Normal mode analysis and applications in biological physics",
+          "volume": "22",
+          "year": "2010",
+          "journal-title": "Journal of Physics: Condensed Matter"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.77.1905"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.093008.131258"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0902159106"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-014-0399-6"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr497"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr168"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.48",
+          "unstructured": "Schrödinger, LLC . The PyMOL Molecular Graphics System, Version 1.8, November 2015."
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(87)90412-8"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.50",
+          "unstructured": "Pierre Baldi and Gianluca Pollastri . The principled design of large-scale recursive neural network architectures–dag-rnns and the protein structure prediction problem. Journal of Machine Learning Research, 4, 2003."
+        },
+        {
+          "issue": "29",
+          "key": "2023122723250515000_2023.12.22.572853v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "861",
+          "DOI": "10.21105/joss.00861",
+          "article-title": "Umap: Uniform manifold approximation and projection",
+          "volume": "3",
+          "year": "2018",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1613231114"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19420862.2015.1057364"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbac072",
+          "DOI": "10.1093/bioadv/vbac072",
+          "article-title": "Reciprocal best structure hits: using AlphaFold models to discover distant homologues",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0280077"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.56",
+          "first-page": "1",
+          "article-title": "Highly accurate protein structure pre-diction with alphafold",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Richard Evans , Michael O’Neill , Alexander Pritzel , Natasha Antropova , Andrew Senior , Tim Green , Augustin Žídek , Russ Bates , Sam Blackwell , Jason Yim , Olaf Ronneberger , Sebastian Bodenstein , Michal Zielinski , Alex Bridgland , Anna Potapenko , Andrew Cowie , Kathryn Tunyasuvunakool , Rishub Jain , Ellen Clancy , Pushmeet Kohli , John Jumper , and Demis Hassabis . Protein complex prediction with alphafold-multimer. bioRxiv, 2022.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.58",
+          "first-page": "12477",
+          "volume-title": "Nature Communications",
+          "volume": "7",
+          "year": "2016"
+        },
+        {
+          "issue": "2",
+          "key": "2023122723250515000_2023.12.22.572853v1.59",
+          "first-page": "1",
+          "article-title": "Long-range correlation in protein dynamics: Confirmation by structural data and normal mode analysis",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nan Wu , Léonie Strömich , and Sophia N Yaliraki . Prediction of allosteric sites and signaling: Insights from benchmarking datasets. Patterns, 3(1), 2022.",
+          "DOI": "10.1016/j.patter.2021.100408"
+        },
+        {
+          "issue": "6",
+          "key": "2023122723250515000_2023.12.22.572853v1.61",
+          "first-page": "730",
+          "volume-title": "Nature Methods",
+          "volume": "19",
+          "year": "2022"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiaoxiao Li , Yuan Zhou , Nicha C. Dvornek , Yufeng Gu , Pamela Ventola , and James S. Duncan . Efficient shapley explanation for features importance estimation under uncertainty. In Anne L. Martel , Purang Abolmaesumi , Danail Stoyanov , Diana Mateus , Maria A. Zuluaga , S. Kevin Zhou , Daniel Racoceanu , and Leo Joskowicz , editors, Medical Image Computing and Computer Assisted Intervention – MICCAI 2020, pages 792–801, Cham, 2020. Springer International Publishing.",
+          "DOI": "10.1007/978-3-030-59710-8_77"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab160"
+        },
+        {
+          "issue": "1",
+          "key": "2023122723250515000_2023.12.22.572853v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1016/j.cels.2018.12.004",
+          "article-title": "Epistasis in a Fitness Landscape Defined by Antibody-Antigen Binding Free Energy",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mathieu Dondelinger , Patrice Filée , Eric Sauvage , Birgit Quinting , Serge Muyldermans , Moreno Galleni , and Marylène S. Vandevenne . Understanding the significance and implications of antibody numbering and antigen-binding surface/residue definition. Frontiers in Immunology, 9, 2018.",
+          "DOI": "10.3389/fimmu.2018.02278"
+        },
+        {
+          "issue": "2",
+          "key": "2023122723250515000_2023.12.22.572853v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "100406",
+          "DOI": "10.1016/j.patter.2021.100406",
+          "article-title": "Antibody structure prediction using interpretable deep learning",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "Patterns"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jacob A. Bauer , Jelena Pavlović , and Vladena Bauerová-Hlinková . Normal mode analysis as a routine part of a structural investigation. Molecules, 24(18), 2019.",
+          "DOI": "10.3390/molecules24183293"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/14.1.1"
+        },
+        {
+          "issue": "17",
+          "key": "2023122723250515000_2023.12.22.572853v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "167696",
+          "DOI": "10.1016/j.jmb.2022.167696",
+          "article-title": "Optimising elastic network models for protein dynamics and allostery: Spatial and modal cut-offs and backbone stiffness",
+          "volume": "434",
+          "year": "2022",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "issue": "11",
+          "key": "2023122723250515000_2023.12.22.572853v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1647",
+          "DOI": "10.1016/j.str.2006.09.003",
+          "article-title": "Interpreting correlated motions using normal mode analysis",
+          "volume": "14",
+          "year": "2006",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00124a002"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.72",
+          "first-page": "8024",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "32",
+          "year": "2019"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.73",
+          "unstructured": "Juntang Zhuang , Tommy Tang , Yifan Ding , Sekhar Tatikonda , Nicha Dvornek , Xenophon Papademetris , and James S. Duncan . Adabelief optimizer: Adapting stepsizes by the belief in observed gradients. arXiv:2010.07468, 2020."
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.74",
+          "unstructured": "Juntang Zhuang , Yifan Ding , Tommy Tang , Nicha Dvornek , Sekhar Tatikonda , and James Duncan . Momentum centering and asynchronous update for adaptive gradient methods. Conference on Neural Information Processing Systems, 2021."
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "286",
+          "DOI": "10.1016/j.neunet.2019.08.015",
+          "article-title": "Transformed 𝓁1 regularization for learning sparse deep neural networks",
+          "volume": "119",
+          "year": "2019",
+          "journal-title": "Neural networks : the official journal of the International Neural Network Society"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Takuya Akiba , Shotaro Sano , Toshihiko Yanase , Takeru Ohta , and Masanori Koyama . Optuna: A next-generation hyperparameter optimization framework, 2019.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Jasmin Güven , Nora Molkenthin , Steffen Mühle , and Antonia S.J.S. Mey . What geometrically constrained models can tell us about real-world protein contact maps. Physical Biology, 20(4), May 2023.",
+          "DOI": "10.1088/1478-3975/acd543"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1038/s41592-022-01488-1",
+          "article-title": "Colabfold: making protein folding accessible to all",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2023122723250515000_2023.12.22.572853v1.80",
+          "doi-asserted-by": "crossref",
+          "first-page": "2389",
+          "DOI": "10.1038/s41467-023-38063-x",
+          "article-title": "Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.22.572853",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:42:54Z",
+        "timestamp": 1768455774000
+      },
+      "score": 92.809814,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.22.572853"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "references-count": 80,
+      "URL": "https://doi.org/10.1101/2023.12.22.572853",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.str.2024.10.001",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "40027191",
+    "doi": "10.7150/ijms.103892",
+    "title": "Galactose-Induced Cataracts in Rats: A Machine Learning Analysis."
+  },
+  "content": {
+    "abstract": "Background: Rat models are widely used to study cataracts due to their cost-effectiveness and prominent physiological and genetic similarities to humans The objective of this study was to identify genes involved in cataractogenesis due to galactose exposure in rats. Methods: We analyzed four datasets from the Gene Expression Omnibus, including both ex vivo and in vivo models of cataracts in different rat strains. Feature selection tools were used to identify genes potentially relevant in cataract-related gene expression. A decision tree algorithm was implemented, and its predictions were interpreted using SHAP and LIME. To validate gene expression levels, PCR was conducted on six rat lenses cultured in M199 medium and galactose to induce cataract and six lenses cultured in M199 alone. Results: Using feature selection tools, four key genes-PLAGL2, CMTM7, PCYT1B, and NR1D2-were identified. Only PCYT1B was significantly differentially expressed between the cataract and control groups across analyzed datasets. The model showed strong predictive performance, particularly in ex vivo datasets. SHAP and LIME analyses revealed that CMTM7 had the largest impact on model predictions. PCR results did not show significant differences in gene expression between the cataract and control groups. Conclusion: The decision tree model trained on an in vivo dataset could predict ex vivo and in vivo cataracts despite no significant gene expression differences found between the cataract and control groups. Given a small number of samples, larger studies are needed to validate our findings.",
+    "keywords": [
+      "PCR",
+      "cataract",
+      "decision tree",
+      "eye",
+      "rat"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cataract/genetics/chemically induced/pathology",
+      "Rats",
+      "*Machine Learning",
+      "*Galactose/toxicity",
+      "Disease Models, Animal",
+      "Humans",
+      "Lens, Crystalline/pathology/metabolism/drug effects",
+      "Gene Expression Profiling",
+      "Transcription Factors/genetics",
+      "Male",
+      "Gene Expression Regulation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Al-Mashhadani, Ahmed Jasim Mahmood",
+        "Gong, Qi",
+        "Shehaj, Franko",
+        "Zhou, Lianhong"
+      ],
+      "short_names": [
+        "Al-Mashhadani AJM",
+        "Gong Q",
+        "Shehaj F",
+        "Zhou L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China.",
+        "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China.",
+        "Department of Orthopedics, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China.",
+        "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Al-Mashhadani, Ahmed Jasim Mahmood",
+        "short_name": "Al-Mashhadani AJM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gong, Qi",
+        "short_name": "Gong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Shehaj, Franko",
+        "short_name": "Shehaj F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lianhong",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Renmin Hospital of Wuhan University, Wuhan 430060, Hubei Province, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Med Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 17:12",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38858683",
+      "38644534",
+      "38416732",
+      "37875594",
+      "37649636",
+      "37454211",
+      "37164027",
+      "36947612",
+      "36897197",
+      "36830827",
+      "36201855",
+      "36149903",
+      "36077427",
+      "36055464",
+      "35421924",
+      "35345318",
+      "35176707",
+      "34925047",
+      "34882480",
+      "34795498",
+      "34604738",
+      "34359804",
+      "34350828",
+      "34297945",
+      "34201256",
+      "34051364",
+      "33826856",
+      "33803139",
+      "33426783",
+      "33391500",
+      "33281830",
+      "33275949",
+      "33127832",
+      "33091314",
+      "33080303",
+      "32969499",
+      "32931824",
+      "32911665",
+      "32898686",
+      "32832559",
+      "32534441",
+      "32335942",
+      "32122441",
+      "31846072",
+      "30971806",
+      "30891150",
+      "30651774",
+      "30342883",
+      "30106111",
+      "29887230",
+      "27820750",
+      "24618482",
+      "21843641",
+      "20840752",
+      "20591424",
+      "20478531",
+      "20238011",
+      "20090208",
+      "19412192",
+      "18443588",
+      "16193498",
+      "12842190",
+      "6873248",
+      "1834202",
+      "1475073"
+    ],
+    "similar": [
+      "40027191",
+      "39219252",
+      "23428743",
+      "7715918",
+      "6407858",
+      "33310056",
+      "22193206",
+      "15161862",
+      "7720403",
+      "16936110",
+      "27419531",
+      "8320860",
+      "31882756",
+      "12802258",
+      "15761720",
+      "3979462",
+      "13680251",
+      "3039435",
+      "8320866",
+      "40314657",
+      "8125742",
+      "21656371",
+      "36417410",
+      "8994357",
+      "12921892",
+      "6468540",
+      "12823987",
+      "3228036",
+      "17202592",
+      "10048350",
+      "14667828",
+      "2587618",
+      "22275806",
+      "27145928",
+      "2488018",
+      "8222727",
+      "1743265",
+      "3181643",
+      "26119284",
+      "12815193",
+      "25593511",
+      "6303825",
+      "30854967",
+      "33204712",
+      "33153341",
+      "17653057",
+      "16999028",
+      "23872361",
+      "2545646",
+      "7556479",
+      "10420116",
+      "23504868",
+      "1541343",
+      "27752786",
+      "2189687",
+      "9523093",
+      "39115645",
+      "3533434",
+      "14707970",
+      "6641821",
+      "3186199",
+      "1513336",
+      "27168717",
+      "36149903",
+      "2015861",
+      "24940038",
+      "40147683",
+      "21179241",
+      "2806422",
+      "22162625",
+      "1375837",
+      "9660488",
+      "7303008",
+      "1475076",
+      "26091066",
+      "15604593",
+      "38374148",
+      "10980657",
+      "28446133",
+      "9702179",
+      "25515571",
+      "14743612",
+      "22712555",
+      "22393276",
+      "1553878",
+      "37536438",
+      "19084592",
+      "31231834",
+      "22410565",
+      "38416732",
+      "19628735",
+      "8106840",
+      "32735797",
+      "18400216",
+      "26283862",
+      "25530357",
+      "30820147",
+      "32622754",
+      "11877224",
+      "2209751"
+    ],
+    "review": [
+      "40027191"
+    ],
+    "pmc": [
+      "11866541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cataract.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cataract"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40027191/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LIME1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medsci.org/v22p1138.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

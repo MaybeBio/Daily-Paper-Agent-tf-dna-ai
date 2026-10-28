@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.03.686214",
+  "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects",
+  "authors": "Abakarova M; Freiberger MI; Liehrmann A; Rera M; Laine E",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-04",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 4,
+  "one_liner_zh": "ProteoCast是一个预测错义变异效应的网络服务器，结合进化约束和结构上下文，但核心是变异功能预测而非蛋白质-DNA互作或TF-DNA结合建模，方法上无AI或物理模拟，仅边缘相关。",
+  "abstract": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of the underlying data. Here we present ProteoCast, a user-friendly web server that predicts variant effects through evolutionary constraint analysis and structural context integration. ProteoCast provides a three-tier variant classification (impactful, mild, neutral) to help prioritise mutations for clinical interpretation and experimental validation. It incorporates multiple sequence alignment quality controls to ensure prediction reliability and flag positions with insufficient evolutionary information. Beyond single-variant classification, ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions. Interactive visualisations guide users through results interpretation, from variant-level predictions to protein-wide functional landscapes. Evaluation on 63,000 ClinVar variants demonstrates 77% sensitivity and 87% specificity for pathogenicity prediction, with performance maintained across species (85% accuracy on Drosophila lethal mutations). ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods. Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability. With its transparent, unsupervised methodology and computational efficiency (minutes per protein), ProteoCast democratises access to variant effect prediction and functional site discovery for the broader research community. The web server is freely available at: https://proteocast.ijm.fr/ . <h4>Highlights</h4> ProteoCast web server democratises variant effect prediction through a fast, transparent platform combining evolutionary analysis and structural context Three-tier variant classification enables prioritisation for clinical interpretation and genome editing experiments Novel mutational sensitivity segmentation approach identifies functional peptides in disordered regions Interactive visualisations and input alignment quality controls guide interpretation",
+  "abstract_zh": "理解突变如何影响蛋白质功能仍然至关重要且具有挑战性，尤其是对于临床数据库中缺乏实验表征的变异以及 intrinsically disordered regions（内在无序区域）中的变异。当前的计算方法通常作为黑箱运作，提供预测时缺乏足够的透明度或对基础数据的质量评估。在此，我们介绍 ProteoCast，一个用户友好的网络服务器，通过 evolutionary constraint analysis（进化约束分析）和 structural context integration（结构背景整合）预测变异效应。ProteoCast 提供三级变异分类（impactful（有影响）、mild（温和）、neutral（中性）），以帮助优先处理用于临床解释和实验验证的突变。它整合了 multiple sequence alignment（多序列比对）质量控制，以确保预测可靠性，并标记进化信息不足的位置。除了单变异分类外，ProteoCast 采用一种基于突变敏感性的新型分割方法，以识别无序区域中的功能性线性肽。交互式可视化引导用户进行结果解释，从变异水平预测到全蛋白质功能景观。对 63,000 个 ClinVar 变异的评估显示，致病性预测的敏感性为 77%，特异性为 87%，且性能跨物种保持（果蝇致死突变上的准确率为 85%）。与基于保守性的系统发育方法相比，ProteoCast 在内在无序区域中成功识别的功能基序数量是其两倍。预测可针对特定构象进行调整，例如蛋白质复合物中的结合形式，以提高准确性和可解释性。凭借其透明、无监督的方法论和计算效率（每个蛋白质仅需数分钟），ProteoCast 为更广泛的研究社区普及了变异效应预测和功能位点发现。该网络服务器免费提供，网址为：https://proteocast.ijm.fr/ 。<h4>亮点</h4> ProteoCast 网络服务器通过结合进化分析和结构背景的快速、透明平台，普及了变异效应预测 三级变异分类有助于优先处理临床解释和基因组编辑实验 新型突变敏感性分割方法识别无序区域中的功能性肽 交互式可视化和输入比对质量控制指导解释",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686214",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686214",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.03.686214/index.html"
+}

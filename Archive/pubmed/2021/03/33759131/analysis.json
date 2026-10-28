@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33759131",
+  "title": "Markov State Models to Elucidate Ligand Binding Mechanism.",
+  "authors": "Ge, Yunhui; Voelz, Vincent A",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2021-03-25",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文综述了利用马尔可夫状态模型分析分子动力学模拟以阐明配体结合机制的方法，虽涉及蛋白-配体结合而非TF-DNA体系，但其结合路径与动力学建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "Molecular dynamics simulations can now routinely access the microsecond timescale, making feasible direct sampling of ligand association events. While Markov State Model (MSM) approaches offer a useful framework for analyzing such trajectory data to gain insight into binding mechanisms, accurate modeling of ligand association pathways and kinetics must be done carefully. We describe methods and good practices for constructing MSMs of ligand binding from unbiased trajectory data and discuss how to use time-lagged independent component analysis (tICA) to build informative models, using as an example recent simulation work to model the binding of phenylalanine to the regulatory ACT domain dimer of phenylalanine hydroxylase. We describe a variety of methods for estimating association rates from MSMs and discuss how to distinguish between conformational selection and induced-fit mechanisms using MSMs. In addition, we review some examples of MSMs constructed to elucidate the mechanisms by which p53 transactivation domain (TAD) and related peptides bind the oncoprotein MDM2.",
+  "abstract_zh": "分子动力学模拟现在可以常规地访问微秒时间尺度，使得直接采样配体结合事件成为可能。尽管马尔可夫状态模型（MSM）方法为分析此类轨迹数据以洞察结合机制提供了有用的框架，但配体结合途径和动力学的准确建模必须谨慎进行。我们描述了从无偏轨迹数据构建配体结合的MSM的方法和良好实践，并讨论了如何使用时间滞后独立成分分析（tICA）来构建信息丰富的模型，以最近的模拟工作为例，模拟苯丙氨酸与苯丙氨酸羟化酶的调节性ACT域二聚体的结合。我们描述了从MSM估计结合速率的多种方法，并讨论了如何使用MSM区分构象选择和诱导契合机制。此外，我们回顾了一些构建的MSM示例，以阐明p53反式激活域（TAD）及相关肽如何结合致癌蛋白MDM2的机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33759131/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33759131/",
+  "paper_page_path": "papers/pubmed/33759131/index.html"
+}

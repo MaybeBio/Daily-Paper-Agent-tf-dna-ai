@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "34962264",
+    "doi": "10.1093/bib/bbab533",
+    "title": "Detection of transcription factors binding to methylated DNA by deep recurrent neural network."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are proteins specifically involved in gene expression regulation. It is generally accepted in epigenetics that methylated nucleotides could prevent the TFs from binding to DNA fragments. However, recent studies have confirmed that some TFs have capability to interact with methylated DNA fragments to further regulate gene expression. Although biochemical experiments could recognize TFs binding to methylated DNA sequences, these wet experimental methods are time-consuming and expensive. Machine learning methods provide a good choice for quickly identifying these TFs without experimental materials. Thus, this study aims to design a robust predictor to detect methylated DNA-bound TFs. We firstly proposed using tripeptide word vector feature to formulate protein samples. Subsequently, based on recurrent neural network with long short-term memory, a two-step computational model was designed. The first step predictor was utilized to discriminate transcription factors from non-transcription factors. Once proteins were predicted as TFs, the second step predictor was employed to judge whether the TFs can bind to methylated DNA. Through the independent dataset test, the accuracies of the first step and the second step are 86.63% and 73.59%, respectively. In addition, the statistical analysis of the distribution of tripeptides in training samples showed that the position and number of some tripeptides in the sequence could affect the binding of TFs to methylated DNA. Finally, on the basis of our model, a free web server was established based on the proposed model, which can be available at https://bioinfor.nefu.edu.cn/TFPM/.",
+    "keywords": [
+      "deep recurrent neural network",
+      "methylated DNA",
+      "transcription factors",
+      "tripeptide",
+      "tripeptide word vector"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Binding Sites",
+      "DNA/genetics",
+      "*DNA Methylation",
+      "DNA-Binding Proteins",
+      "Deep Learning",
+      "Gene Expression Regulation",
+      "Humans",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "Transcription Factors/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hongfei",
+        "Gong, Yue",
+        "Liu, Yifeng",
+        "Lin, Hao",
+        "Wang, Guohua"
+      ],
+      "short_names": [
+        "Li H",
+        "Gong Y",
+        "Liu Y",
+        "Lin H",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4104-3966",
+        "ORCID: 0000-0001-6265-2862",
+        "ORCID: 0000-0001-7381-2374"
+      ],
+      "affiliations": [
+        "College of Information and Computer Engineering at Northeast Forestry University of China.",
+        "College of Information and Computer Engineering at Northeast Forestry University of China.",
+        "School of management at Henan Institute of Technology of China.",
+        "Center for Informational Biology at University of Electronic Science and Technology of China.",
+        "College of Information and Computer Engineering at Northeast Forestry University of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hongfei",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0003-4104-3966"
+        ],
+        "affiliations": [
+          "College of Information and Computer Engineering at Northeast Forestry University of China."
+        ]
+      },
+      {
+        "full_name": "Gong, Yue",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering at Northeast Forestry University of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yifeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of management at Henan Institute of Technology of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Hao",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0000-0001-6265-2862"
+        ],
+        "affiliations": [
+          "Center for Informational Biology at University of Electronic Science and Technology of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guohua",
+        "short_name": "Wang G",
+        "identifiers": [
+          "0000-0001-7381-2374"
+        ],
+        "affiliations": [
+          "College of Information and Computer Engineering at Northeast Forestry University of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/29 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [
+      "41965504",
+      "40362469",
+      "40359430",
+      "37510209",
+      "37315069",
+      "37125199",
+      "36937275",
+      "36560938",
+      "36120041",
+      "36119976",
+      "35891778",
+      "35747826",
+      "35526094"
+    ],
+    "refs": [],
+    "similar": [
+      "34962264",
+      "36119976",
+      "33372147",
+      "33294291",
+      "39367138",
+      "35799193",
+      "35652477",
+      "29145608",
+      "32770026",
+      "34272562",
+      "32399547",
+      "38049725",
+      "18426580",
+      "29617928",
+      "34073774",
+      "36155619",
+      "34534646",
+      "38316843",
+      "22917900",
+      "31336830",
+      "33571101",
+      "31665425",
+      "23590861",
+      "19158363",
+      "24015356",
+      "34613923",
+      "33808317",
+      "38267081",
+      "29993783",
+      "16267080",
+      "31372637",
+      "30323198",
+      "33708244",
+      "29221486",
+      "35197482",
+      "28472398",
+      "36748992",
+      "37780374",
+      "21498098",
+      "32960766",
+      "31267738",
+      "31186519",
+      "28750606",
+      "24918633",
+      "27052996",
+      "28716409",
+      "35142952",
+      "31725778",
+      "33837387",
+      "23812975",
+      "25428367",
+      "30075670",
+      "21690103",
+      "23012405",
+      "32858223",
+      "26285121",
+      "24349230",
+      "33334313",
+      "25775564",
+      "9153230",
+      "22189060",
+      "32822422",
+      "29357837",
+      "26130577",
+      "26818008",
+      "26679776",
+      "31521253",
+      "23497388",
+      "38644393",
+      "30922998",
+      "30106688",
+      "31742324",
+      "34524404",
+      "22888987",
+      "25760736",
+      "31093693",
+      "30957840",
+      "23847101",
+      "36560938",
+      "36719781",
+      "20403812",
+      "2648001",
+      "28439033",
+      "20827602",
+      "22426343",
+      "29588420",
+      "31634140",
+      "30866736",
+      "27264535",
+      "21557082",
+      "27871221",
+      "19956545",
+      "27694116",
+      "34812044",
+      "28240320",
+      "18221524",
+      "24790155",
+      "19815308",
+      "21193520",
+      "32608476",
+      "32578842",
+      "32806782",
+      "26969025",
+      "16772031",
+      "18513408",
+      "35809058",
+      "34664074",
+      "33833783",
+      "35043144",
+      "33796819",
+      "35134239"
+    ],
+    "review": [
+      "34962264",
+      "35652477",
+      "22917900",
+      "28716409",
+      "31742324",
+      "31093693",
+      "21557082",
+      "26969025"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34962264.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab533",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

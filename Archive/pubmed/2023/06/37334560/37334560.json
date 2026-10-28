@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "37334560",
+    "doi": "10.1111/ijlh.14124",
+    "title": "Immunophenotype distinctions of CEBPA mutation subtypes in acute myeloid leukemia."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Acute myeloid leukemia (AML) patients with CEBPA double mutation (CEBPA(dm) ) were associated with distinct immunophenotypes and prognosis. Recently, both International Consensus Classification (ICC) and World Health Organization (WHO) classifications incorporated BZIP single mutations (CEBPA(smBZIP) ) into the favorable risk group. However, the immunophenotypes of CEBPA(smBZIP) mutations have not been characterized, especially when compared with the immunophenotypes of CEBPA(dm) . METHODS: Retrospectively, we investigated and compared the immunophenotypes of AML with CEBPA mutations. Randomforest model and XGBoost algorithm were used to set up a scoring system based on the immunophenotypes of those patients. RESULTS: In a total of 967 AML patients: 218 were CEBPA(dm) (198 consisted of mutations in the BZIP region [CEBPA(dmBZIP) ], 20 were double mutations outside BZIP region [CEBPA(dm-woBZIP) ]), 117 were CEBPA(sm) (54 CEBPA(smBZIP) and 63 were single mutations outside BZIP region [CEBPA(sm-woBZIP) ]) and the others were wildtype CEBPA (CEBPA(wt) ). Patients with CEBPA(dmBZIP) , CEBPA(dm-woBZIP) and CEBPA(smBZIP) shared the distinct immunophenotype of CD7(+) CD34(+) MPO(+) HLA-DR(+) CD19(-) , in contrast to patients with CEBPA(sm-woBZIP) and CEBPA(wt) who showed reduced expression of CD7, HLA-DR, MPO, CD34 and a higher expression of CD19. Based on these immunophenotypes, we developed a scoring system to preemptively identify AML with CEBPA(smBZIP) and CEBPA(dm) and validated it internally and externally. CONCLUSIONS: AML with CEBPA(dmBZIP) , CEBPA(dm-woBZIP) , and CEBPA(smBZIP) shared similar immunophenotypic profiles, whereas profoundly differed from the CEBPA(sm-woBZIP) and CEBPA(wt) AML.",
+    "keywords": [
+      "CEBPA",
+      "acute myeloid leukemia",
+      "immunophenotyping",
+      "machine learning",
+      "prediction model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Retrospective Studies",
+      "*Leukemia, Myeloid, Acute/genetics",
+      "CCAAT-Enhancer-Binding Proteins/genetics",
+      "Prognosis",
+      "HLA-DR Antigens",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Qiaoxue",
+        "Qi, Ling",
+        "Yang, Miao",
+        "Zhang, Xue",
+        "Li, Fei",
+        "Wei, Hui",
+        "Wang, Jianxiang"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Qi L",
+        "Yang M",
+        "Zhang X",
+        "Li F",
+        "Wei H",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2597-7411"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "The Center of Hematology, The First Affiliated Hospital of Nanchang University, Nanchang, China.",
+        "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "The Center of Hematology, The First Affiliated Hospital of Nanchang University, Nanchang, China.",
+        "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "National Clinical Research Center for Blood Disease, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "Haihe Laboratory of Cell Ecosystem, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "Leukemia Center, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "National Clinical Research Center for Blood Disease, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "Haihe Laboratory of Cell Ecosystem, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+        "Leukemia Center, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Qiaoxue",
+        "short_name": "Liu Q",
+        "identifiers": [
+          "0000-0002-2597-7411"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Ling",
+        "short_name": "Qi L",
+        "identifiers": [],
+        "affiliations": [
+          "The Center of Hematology, The First Affiliated Hospital of Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Miao",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "The Center of Hematology, The First Affiliated Hospital of Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Hui",
+        "short_name": "Wei H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "National Clinical Research Center for Blood Disease, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "Haihe Laboratory of Cell Ecosystem, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "Leukemia Center, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianxiang",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "National Clinical Research Center for Blood Disease, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "Haihe Laboratory of Cell Ecosystem, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
+          "Leukemia Center, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of laboratory hematology"
+    ],
+    "journal_abbrev": [
+      "Int J Lab Hematol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/19 06:42",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37334560",
+      "24441947",
+      "31557597",
+      "15746035",
+      "33951732",
+      "37690321",
+      "39020042",
+      "20970189",
+      "35314954",
+      "26537612",
+      "21177436",
+      "32135624",
+      "25241285",
+      "36066283",
+      "33594943",
+      "38183444",
+      "22990006",
+      "25400766",
+      "25227715",
+      "37621152",
+      "26692090",
+      "31041512",
+      "38671183",
+      "37261703",
+      "34448807",
+      "25014773",
+      "38253683",
+      "36853451",
+      "23601747",
+      "33550446",
+      "34288448",
+      "24598643",
+      "29025912",
+      "38228680",
+      "20038735",
+      "35032366",
+      "18729193",
+      "22731647",
+      "23906447",
+      "35981362",
+      "19706798",
+      "19277035",
+      "21674360",
+      "24915920",
+      "33243747",
+      "23485358",
+      "25987038",
+      "20306678",
+      "19623175",
+      "23521373",
+      "28250006",
+      "31077683",
+      "35123604",
+      "23611213",
+      "18768433",
+      "20439648",
+      "23560626",
+      "19171880",
+      "34320176",
+      "39134486",
+      "24054719",
+      "21389317",
+      "26676635",
+      "15746041",
+      "36701843",
+      "26460249",
+      "34816468",
+      "38442594",
+      "22442349",
+      "12353422",
+      "29310020",
+      "19304957",
+      "22649106",
+      "37794021",
+      "35178345",
+      "24056881",
+      "28637622",
+      "21134981",
+      "18587575",
+      "34975010",
+      "15946475",
+      "33592885",
+      "31607284",
+      "14726504",
+      "24801015",
+      "29932212",
+      "27350755",
+      "20542566",
+      "19374802",
+      "25932436",
+      "12351377",
+      "9583894",
+      "33445848",
+      "28895127",
+      "23496932",
+      "17671232",
+      "17708783",
+      "23114160",
+      "32086816",
+      "34087345",
+      "21596848",
+      "22362118",
+      "27436336",
+      "24164801",
+      "21538063",
+      "37716188",
+      "33197296",
+      "34216417",
+      "18457262",
+      "38594276",
+      "36879149",
+      "37680323",
+      "38634126",
+      "38359363",
+      "39011127",
+      "37883109",
+      "37131653",
+      "38244295",
+      "34762131",
+      "39278810"
+    ],
+    "review": [
+      "37334560",
+      "25227715",
+      "37621152",
+      "38671183",
+      "37261703",
+      "34288448",
+      "19706798",
+      "12353422",
+      "35178345",
+      "28637622",
+      "33592885",
+      "24801015",
+      "23114160",
+      "32086816",
+      "34087345",
+      "36879149"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://www.ovid.com/37334560.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/ijlh.14124",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DRA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

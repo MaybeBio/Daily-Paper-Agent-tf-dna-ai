@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39757625",
+    "doi": "10.2174/0115672050353736241218054012",
+    "title": "Development of a Novel Mitochondrial Dysfunction-Related Alzheimer's Disease Diagnostic Model Using Bioinformatics and Machine Learning."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Alzheimer's disease (AD) represents the most common neurodegenerative disorder, characterized by progressive cognitive decline and memory loss. Despite the recognition of mitochondrial dysfunction as a critical factor in the pathogenesis of AD, the specific molecular mechanisms remain largely undefined. METHODS: This study aimed to identify novel biomarkers and therapeutic strategies associated with mitochondrial dysfunction in AD by employing bioinformatics combined with machine learning methodologies. We performed Weighted Gene Co-expression Network Analysis (WGCNA) utilizing gene expression data from the NCBI Gene Expression Omnibus (GEO) database and isolated mitochondria-related genes through the MitoCarta3.0 database. By intersecting WGCNA-derived module genes with identified mitochondrial genes, we compiled a list of 60 mitochondrial dysfunction- related genes (MRGs) significantly enriched in pathways pertinent to mitochondrial function, such as the citrate cycle and oxidative phosphorylation. RESULTS: Employing machine learning techniques, including random forest and LASSO, along with the CytoHubba algorithm, we identified key genes with strong diagnostic potential, such as ACO2, CS, MRPS27, SDHA, SLC25A20, and SYNJ2BP, verified through ROC analysis. Furthermore, an interaction network involving miRNA-MRGs-transcription factors and a protein-drug interaction network revealed potential therapeutic compounds such as Congo red and kynurenic acid that target MRGs. CONCLUSION: These findings delineate the intricate role of mitochondrial dysfunction in AD and highlight promising avenues for further exploration of biomarkers and therapeutic interventions in this devastating disease.",
+    "keywords": [
+      "Alzheimer's disease",
+      "CytoHubba algorithm",
+      "Machine learning",
+      "devastating disease",
+      "kynurenic acid.",
+      "mitochondrial genes"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/diagnosis/genetics/metabolism",
+      "*Machine Learning",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Mitochondria/metabolism/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Kuo",
+        "Yang, Kai",
+        "Yu, Gongchang",
+        "Shi, Bin"
+      ],
+      "short_names": [
+        "Zhang K",
+        "Yang K",
+        "Yu G",
+        "Shi B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China.",
+        "Department of Neurology, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China.",
+        "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Kuo",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kai",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Gongchang",
+        "short_name": "Yu G",
+        "identifiers": [],
+        "affiliations": [
+          "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Bin",
+        "short_name": "Shi B",
+        "identifiers": [],
+        "affiliations": [
+          "Neck-Pain Hospital of Shoulder and Lumbocrural Shandong First Medical University, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current Alzheimer research"
+    ],
+    "journal_abbrev": [
+      "Curr Alzheimer Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/06 10:07",
+    "fetched_at": "2026-09-30 09:13:46"
+  },
+  "links": {
+    "cites": [
+      "41754433",
+      "41088987"
+    ],
+    "refs": [
+      "39195183",
+      "39002675",
+      "38774717",
+      "37434203",
+      "37047022",
+      "36982508",
+      "36890488",
+      "36569892",
+      "36551781",
+      "36467613",
+      "36405716",
+      "36358538",
+      "36332757",
+      "36203194",
+      "35907632",
+      "35754968",
+      "35522844",
+      "35453527",
+      "34557778",
+      "34276768",
+      "34067173",
+      "34063708",
+      "33676027",
+      "33654198",
+      "33440662",
+      "33266387",
+      "33260715",
+      "32951593",
+      "32710561",
+      "32503894",
+      "32471464",
+      "32462551",
+      "32019928",
+      "31755935",
+      "31334330",
+      "31256118",
+      "31083585",
+      "30970186",
+      "30675901",
+      "30605887",
+      "30503937",
+      "30275044",
+      "30250423",
+      "29937276",
+      "29365294",
+      "29036828",
+      "29026901",
+      "28379197",
+      "28092660",
+      "28042572",
+      "27873462",
+      "27438184",
+      "26992325",
+      "26214837",
+      "25990557",
+      "25822800",
+      "25605792",
+      "25521941",
+      "25147107",
+      "25100593",
+      "24958105",
+      "24781757",
+      "24692138",
+      "24389273",
+      "23867235",
+      "23622250",
+      "23435331",
+      "23333272",
+      "22841715",
+      "22678511",
+      "21425186",
+      "21269502",
+      "20533901",
+      "19775775",
+      "18307102",
+      "17077275",
+      "17051205",
+      "16096348",
+      "14960456",
+      "14597658",
+      "11019860",
+      "9500544",
+      "8624132"
+    ],
+    "similar": [
+      "39757625",
+      "39920860",
+      "39507054",
+      "41009659",
+      "40642087",
+      "41052072",
+      "41146472",
+      "37434203",
+      "39394418",
+      "39844282",
+      "39730451",
+      "41088987",
+      "39819531",
+      "40441253",
+      "40966021",
+      "40948769",
+      "40313958",
+      "40329774",
+      "41291841",
+      "41013727",
+      "41305746",
+      "39142001",
+      "39890844",
+      "40025954",
+      "42098401",
+      "41013556",
+      "40192032",
+      "41731906",
+      "41115648",
+      "40274954",
+      "39375405",
+      "39609718",
+      "41316541",
+      "41081092",
+      "41308013",
+      "41300833",
+      "41364313",
+      "39965013",
+      "38044432",
+      "42474555",
+      "38141185",
+      "41703488",
+      "40374866",
+      "40332792",
+      "41634496",
+      "42154093",
+      "41861196",
+      "41184495",
+      "37100862",
+      "40406126",
+      "34367470",
+      "41663970",
+      "39026663",
+      "40207815",
+      "38291374",
+      "42009747",
+      "41365992",
+      "41197132",
+      "41883400",
+      "40085351",
+      "40885831",
+      "38863714",
+      "39762477",
+      "40328901",
+      "41810912",
+      "40108056",
+      "39263286",
+      "40671224",
+      "39139563",
+      "40148430",
+      "41479901",
+      "40338387",
+      "38755717",
+      "40362669",
+      "39188714",
+      "38692009",
+      "41351083",
+      "42064079",
+      "40997906",
+      "40093012",
+      "40685632",
+      "42292668",
+      "27756223",
+      "38384969",
+      "41402885",
+      "39506420",
+      "42228255",
+      "37334608",
+      "38537674",
+      "41300841",
+      "39806062",
+      "38195609",
+      "41508240",
+      "40421012",
+      "36635346",
+      "39905093",
+      "41422136",
+      "38808722",
+      "40374840",
+      "42178007"
+    ],
+    "review": [
+      "39757625",
+      "40025954"
+    ],
+    "pmc": [
+      "12376136"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39757625/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-440",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/237656/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

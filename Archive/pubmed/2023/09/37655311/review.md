@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, experimental procedures, tables, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and alignment with stated conclusions. Editorial and stylistic aspects are considered only where they affect clarity or comprehension.
+- **Shared manuscript claim summary** The authors report the NMR structure of the putative zinc finger domain (Z*) of transcription factor ZNF750, previously classified as degenerate. They demonstrate that Z* binds Zn2+ with picomolar affinity, adopts a canonical ββα fold, and uses a CCHC rather than the expected CCHH coordination set. The structure is compared to classical zinc fingers, and implications for DNA versus protein binding are discussed.
+- **Visible evidence base** CD spectroscopy, 1D and 2D NMR experiments, NMR-based structure calculation statistics, sequence analysis, structural comparisons, and a table of cancer-associated mutations.
+- **Missing materials affecting confidence** Raw NMR spectra, chemical shift assignments (deposited but not shown), NOE assignment tables, structure validation metrics (e.g., MolProbity scores), and experimental details for the Zn2+ competition assay. The full structure coordinate file is not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically competent NMR structure determination of a previously uncharacterized, degenerate zinc finger domain. The work is clearly presented, and the conclusion that Z* adopts a CCHC coordination is well supported by the experimental data. The study addresses a specific and somewhat narrow question, but the findings have implications for the classification and functional interpretation of non-canonical zinc finger domains. The main limitations are the absence of functional data linking the structure to ZNF750 activity, and the speculative discussion regarding DNA versus protein binding, which is not resolved by the presented experiments.
+- **Who would be interested in the results, and why** Structural biologists studying zinc finger domains, researchers working on transcription factors involved in skin differentiation and disease, and computational biologists interested in benchmarking structure prediction methods such as AlphaFold against experimental data. The work may also be of interest to those studying the evolution of zinc finger motifs and the functional significance of non-canonical coordination sets.
+- **Major strengths** The NMR structure determination is thorough, with careful attention to avoiding bias in ligand identification. The use of a mutant peptide to confirm the coordination set is a good experimental control. The comparison to classical zinc finger structures is informative, and the discussion of CCHC versus CCHH families is useful. The manuscript is well written and the figures are clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors suggest that Z* may have a protein-binding rather than DNA-binding function, based on the CCHC coordination set and the presence of a single zinc finger domain.
+  - **Evidence pointer** Discussion section, Figure 6
+  - **Concern** The manuscript does not provide any direct experimental evidence to distinguish between DNA binding and protein binding for Z*. The discussion is speculative and relies on indirect inferences from the structure and sequence. While the authors acknowledge this limitation, the title and framing of the paper imply a functional significance that is not experimentally addressed.
+  - **Why it matters** The functional role of ZNF750 is central to its biological importance. Without experimental data on binding partners or DNA targets, the significance of the structural findings for understanding ZNF750 function remains unclear.
+  - **Resolution test** The authors should either provide direct binding data (e.g., electrophoretic mobility shift assay, pull-down, or isothermal titration calorimetry) or clearly state that the functional implications are hypotheses that require future testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors report a Kd of 4.0 ± 0.4 × 10⁻¹² M for Zn2+ binding to Z*.
+  - **Evidence pointer** Figure 2B, Results section
+  - **Concern** The Zn2+ binding affinity is measured using a competition assay with EGTA, but the experimental details are not fully described. The reported picomolar affinity is unusually high for a zinc finger domain, and the methodology for calculating free Zn2+ concentrations and fitting the data should be described in sufficient detail to allow replication. The Hill coefficient of 1.2 suggests possible cooperativity, which is not discussed.
+  - **Why it matters** The affinity measurement is a key quantitative result of the paper. If the methodology is not transparent or the value is not reproducible, the conclusion that Z* is a genuine zinc finger with high Zn2+ affinity is weakened.
+  - **Resolution test** Provide a detailed description of the competition experiment, including the concentration of EGTA, the range of Zn2+ concentrations used, the calculation of free Zn2+, and the fitting procedure. Discuss the Hill coefficient and whether cooperativity is expected for a single-site binding model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that the Z* structure is "remarkably close" to the Xfin-31 zinc finger with a backbone RMSD of 1.1 Å.
+  - **Evidence pointer** Figure 5D, Table 1
+  - **Concern** The RMSD of 1.1 Å is reported for the backbone of the entire domain, but it is unclear over which residues this comparison was made. The Z* domain has a non-canonical CCHC coordination, and the structural similarity to a CCHH domain may be limited to the core fold. A more detailed comparison, including the positioning of the metal-binding residues and the conformation of the α-helix, would strengthen the claim of structural similarity.
+  - **Why it matters** The structural comparison is used to support the conclusion that Z* is a genuine zinc finger. If the similarity is only superficial, the interpretation may be misleading.
+  - **Resolution test** Specify the residues used for the RMSD calculation and provide a residue-by-residue comparison of the secondary structure elements and metal-binding site geometry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention the CCHC coordination set, which is a key finding of the paper.
+  - **Required correction** Include a brief statement about the CCHC coordination in the abstract to accurately summarize the main result.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The CD spectra in Figure 2A are shown at three temperatures, but the full temperature series is not displayed. The text states that data were collected in 4-degree increments, but only three are shown.
+  - **Required correction** Either show the full temperature series or state that only representative temperatures are shown for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of CCHC zinc fingers would benefit from a more comprehensive citation of the literature, particularly regarding the functional roles of CCHC domains in protein-protein interactions.
+  - **Required correction** Add relevant references to support the claim that CCHC domains are associated with protein binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The term "eponymous" in the title is used to indicate that ZNF750 is named after its zinc finger domain. This is clear, but the term may be unfamiliar to some readers.
+  - **Required correction** Consider rephrasing the title or adding a brief explanation in the introduction.
+- **Technical failings that need to be addressed before the case is established** The Zn2+ binding affinity measurement requires more methodological detail. The structural comparison to Xfin-31 should be more rigorously defined. The functional implications of the CCHC coordination are speculative and should be clearly labeled as such.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in that it provides the first experimental structure of the ZNF750 zinc finger domain and demonstrates a non-canonical CCHC coordination. However, the overall concept of a zinc finger domain with a non-canonical coordination set is not new.
+  - **Scientific importance** The findings are of moderate importance. They clarify the structural basis of a domain that is functionally relevant in skin biology and cancer, but the lack of functional data limits the broader impact.
+  - **Interdisciplinary readership** The work will primarily appeal to structural biologists and those studying zinc finger proteins. The broader cell biology and cancer communities may find the results relevant, but the paper is not written to attract a wide interdisciplinary audience.
+  - **Technical soundness** The NMR structure determination appears technically sound, with appropriate attention to avoiding bias. The main technical weakness is the lack of detail in the Zn2+ binding assay.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible, but the discussion of NMR methods and structure calculations may be challenging for nonspecialists. The figures are clear and help convey the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural findings are likely correct and of interest to the specialist community, but the manuscript would be strengthened by additional experimental detail and a more cautious interpretation of functional implications.
+
+## Risk / unsupported claims
+- The claim that Z* may bind proteins rather than DNA is unsupported by direct experimental evidence and should be presented as a hypothesis.
+- The statement that the Z* structure is "remarkably close" to Xfin-31 is based on a single RMSD value and requires more detailed comparison.
+- The suggestion that AlphaFold's low confidence prediction for Z* is due to sequence unfamiliarity rather than dynamics is speculative and not directly tested.
+- The list of potential CCHC zinc fingers in Table 3 is based on sequence analysis only and has not been experimentally validated.

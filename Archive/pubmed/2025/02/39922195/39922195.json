@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "39922195",
+    "doi": "10.1016/j.molcel.2025.01.014",
+    "title": "Single-molecule m(6)A detection empowered by endogenous labeling unveils complexities across RNA isoforms."
+  },
+  "content": {
+    "abstract": "The landscape of N(6)-methyadenosine (m(6)A) on different RNA isoforms is still incompletely understood. Here, in HEK293T cells, we endogenously label the methylated m(6)A sites on single Oxford Nanopore Technology (ONT) direct RNA sequencing (DRS) reads by APOBEC1-YTH-induced C-to-U mutations 10-100 nt away, obtaining 1,020,237 5-mer single-read m(6)A signals. We then trained m6Aiso, a deep residual neural network model that accurately identifies and quantifies m(6)A at single-read resolution. Analyzing m6Aiso-determined m(6)A on single reads and isoforms uncovers distance-dependent linkages of m(6)A sites along single molecules. It also uncovers specific methylation of identical m(6)A sites on intron-retained isoforms, partly due to their differential distances to exon junctions and isoform-specific binding of TARBP2. Moreover, we find that transcription factor SMAD3 promotes m(6)A deposition on its transcribed RNA isoforms during epithelial-mesenchymal transition, resulting in isoform-specific regulation of m(6)A on isoforms with alternative promoters. Our study underscores the effectiveness of m6Aiso in elucidating the intricate dynamics and complexities of m(6)A across RNA isoforms.",
+    "keywords": [
+      "N(6)-methyadenosine",
+      "Oxford Nanopore direct RNA sequencing",
+      "RNA isoform",
+      "alternative promoter",
+      "deep residual neural network",
+      "epithelial-mesenchymal transition",
+      "isoform-specific"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "HEK293 Cells",
+      "*Adenosine/analogs & derivatives/metabolism/genetics",
+      "*RNA Isoforms/genetics/metabolism",
+      "Smad3 Protein/metabolism/genetics",
+      "Methylation",
+      "RNA-Binding Proteins/metabolism/genetics",
+      "Sequence Analysis, RNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Wenbing",
+        "Ren, Zhijun",
+        "Huang, Xiang",
+        "Liu, Jiayin",
+        "Shao, Jingwen",
+        "Ma, Xiaojun",
+        "Wei, Chuanchuan",
+        "Cun, Yixian",
+        "He, Jialiang",
+        "Zhang, Jie",
+        "Wu, Zehong",
+        "Guo, Yang",
+        "Zhang, Zijun",
+        "Feng, Zhengming",
+        "He, Jianbo",
+        "Wang, Jinkai"
+      ],
+      "short_names": [
+        "Guo W",
+        "Ren Z",
+        "Huang X",
+        "Liu J",
+        "Shao J",
+        "Ma X",
+        "Wei C",
+        "Cun Y",
+        "He J",
+        "Zhang J",
+        "Wu Z",
+        "Guo Y",
+        "Zhang Z",
+        "Feng Z",
+        "He J",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China.",
+        "Division of Artificial Intelligence in Medicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China.",
+        "GeneMind Biosciences Company Limited, Shenzhen 518000, China.",
+        "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China. Electronic address: wangjk@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Wenbing",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Zhijun",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiang",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiayin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Jingwen",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaojun",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chuanchuan",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China; Medical College of Jiaying University, Meizhou 514031, China."
+        ]
+      },
+      {
+        "full_name": "Cun, Yixian",
+        "short_name": "Cun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "He, Jialiang",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zehong",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yang",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Engineering, Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zijun",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Artificial Intelligence in Medicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Zhengming",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "He, Jianbo",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "GeneMind Biosciences Company Limited, Shenzhen 518000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinkai",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histoembryology and Cell Biology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China; Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou 510080, China. Electronic address: wangjk@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/09 06:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42465423",
+      "42164653",
+      "42014698",
+      "41940144",
+      "41924274",
+      "41921196",
+      "41816793",
+      "41473688",
+      "40986143",
+      "40634109",
+      "40593665"
+    ],
+    "refs": [],
+    "similar": [
+      "39922195",
+      "31624092",
+      "38755290",
+      "34728536",
+      "28957512",
+      "34872615",
+      "32652016",
+      "38743231",
+      "29789545",
+      "38902764",
+      "30201725",
+      "37843096",
+      "38768930",
+      "35429629",
+      "33051455",
+      "31503412",
+      "35182749",
+      "34244519",
+      "32440711",
+      "34850115",
+      "33693705",
+      "30306128",
+      "39438075",
+      "39350015",
+      "33436621",
+      "39567235",
+      "39080448",
+      "35612954",
+      "40090530",
+      "37137666",
+      "38839373",
+      "39658200",
+      "39592939",
+      "38758523",
+      "34591015",
+      "38778214",
+      "32807178",
+      "33106685",
+      "32887688",
+      "33096183",
+      "26463393",
+      "26475308",
+      "39406497",
+      "28328508",
+      "23783272",
+      "38782298",
+      "39271295",
+      "31121301",
+      "33835462",
+      "30637779",
+      "37291427",
+      "34620214",
+      "28454774",
+      "38906680",
+      "37024980",
+      "37823705",
+      "33413586",
+      "36123450",
+      "38759861",
+      "31548708",
+      "29610101",
+      "34187903",
+      "21258410",
+      "38347203",
+      "39900762",
+      "19303045",
+      "38262343",
+      "27602518",
+      "27746021",
+      "39134520",
+      "29474557",
+      "26318451",
+      "37609156",
+      "30778204",
+      "39824841",
+      "39110520",
+      "29476152",
+      "35301264",
+      "37149708",
+      "29791134",
+      "36593406",
+      "38956576",
+      "28532419",
+      "34834915",
+      "31232449",
+      "35081365",
+      "29508290",
+      "32735361",
+      "24130305",
+      "33835463",
+      "38889266",
+      "32024662",
+      "30870073",
+      "38796701",
+      "22409537",
+      "25560536",
+      "40162895",
+      "35895259",
+      "34382072",
+      "39011882"
+    ],
+    "review": [
+      "39922195",
+      "29789545",
+      "39567235",
+      "31121301",
+      "38347203",
+      "31232449"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(25)00049-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

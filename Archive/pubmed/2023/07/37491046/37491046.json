@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "37491046",
+    "doi": "10.26508/lsa.202301988",
+    "title": "Gene-regulation modules in nonalcoholic fatty liver disease revealed by single-nucleus ATAC-seq."
+  },
+  "content": {
+    "abstract": "We investigated the progression of nonalcoholic fatty liver disease from fatty liver to steatohepatitis using single-nucleus and bulk ATAC-seq on the livers of rats fed a high-fat diet (HFD). Rats fed HFD for 4 wk developed fatty liver, and those fed HFD for 8 wk further progressed to steatohepatitis. We observed an increase in the proportion of inflammatory macrophages, consistent with the pathological progression. Utilizing machine learning, we divided global gene regulation into modules, wherein transcription factors within a module could regulate genes within the same module, reaffirming known regulatory relationships between transcription factors and biological processes. We identified core genes-central to co-expression and protein-protein interaction-for the biological processes discovered. Notably, a large part of the core genes overlapped with genes previously implicated in nonalcoholic fatty liver disease. Single-nucleus ATAC-seq, combined with data-driven statistical analysis, offers insight into in vivo global gene regulation as a combination of modules and assists in identifying core genes of relevant biological processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Rats",
+      "Animals",
+      "*Non-alcoholic Fatty Liver Disease/genetics",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Gene Expression Regulation/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takeuchi, Fumihiko",
+        "Liang, Yi-Qiang",
+        "Shimizu-Furusawa, Hana",
+        "Isono, Masato",
+        "Ang, Mia Yang",
+        "Mori, Kotaro",
+        "Mori, Taizo",
+        "Kakazu, Eiji",
+        "Yoshio, Sachiyo",
+        "Kato, Norihiro"
+      ],
+      "short_names": [
+        "Takeuchi F",
+        "Liang YQ",
+        "Shimizu-Furusawa H",
+        "Isono M",
+        "Ang MY",
+        "Mori K",
+        "Mori T",
+        "Kakazu E",
+        "Yoshio S",
+        "Kato N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3185-5661",
+        "ORCID: 0000-0001-9444-3272",
+        "ORCID: 0000-0002-9469-5960"
+      ],
+      "affiliations": [
+        "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan fumihiko@takeuchi.name.",
+        "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Systems Genomics Laboratory, Baker Heart and Diabetes Institute, Melbourne, Australia.",
+        "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Department of Hygiene and Public Health, School of Medicine, Teikyo University, Tokyo, Japan.",
+        "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Department of Clinical Genome Informatics, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan.",
+        "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan.",
+        "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan.",
+        "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+        "Department of Clinical Genome Informatics, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takeuchi, Fumihiko",
+        "short_name": "Takeuchi F",
+        "identifiers": [
+          "0000-0003-3185-5661"
+        ],
+        "affiliations": [
+          "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan fumihiko@takeuchi.name.",
+          "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+          "Systems Genomics Laboratory, Baker Heart and Diabetes Institute, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Liang, Yi-Qiang",
+        "short_name": "Liang YQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimizu-Furusawa, Hana",
+        "short_name": "Shimizu-Furusawa H",
+        "identifiers": [
+          "0000-0001-9444-3272"
+        ],
+        "affiliations": [
+          "Department of Hygiene and Public Health, School of Medicine, Teikyo University, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Isono, Masato",
+        "short_name": "Isono M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ang, Mia Yang",
+        "short_name": "Ang MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+          "Department of Clinical Genome Informatics, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mori, Kotaro",
+        "short_name": "Mori K",
+        "identifiers": [
+          "0000-0002-9469-5960"
+        ],
+        "affiliations": [
+          "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mori, Taizo",
+        "short_name": "Mori T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan."
+        ]
+      },
+      {
+        "full_name": "Kakazu, Eiji",
+        "short_name": "Kakazu E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshio, Sachiyo",
+        "short_name": "Yoshio S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Diseases, The Research Center for Hepatitis and Immunology, National Center for Global Health and Medicine, Chiba, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Norihiro",
+        "short_name": "Kato N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gene Diagnostics and Therapeutics, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+          "Medical Genomics Center, Research Institute, National Center for Global Health and Medicine, Tokyo, Japan.",
+          "Department of Clinical Genome Informatics, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/26 01:06",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "42359002"
+    ],
+    "refs": [
+      "37537351",
+      "37443338",
+      "37121019",
+      "37073532",
+      "37055018",
+      "36755098",
+      "36325073",
+      "36204155",
+      "36198796",
+      "35242173",
+      "34289181",
+      "34062119",
+      "33633365",
+      "33609303",
+      "33340570",
+      "33012900",
+      "32740968",
+      "32547592",
+      "32437795",
+      "32332754",
+      "32321567",
+      "32213349",
+      "32054859",
+      "31597160",
+      "31510660",
+      "31493546",
+      "31398325",
+      "30914743",
+      "30746746",
+      "30078704",
+      "29967350",
+      "29941873",
+      "29463625",
+      "29167450",
+      "29032836",
+      "28981748",
+      "28953222",
+      "28922680",
+      "28846090",
+      "28825706",
+      "28517979",
+      "28323124",
+      "28301573",
+      "28193155",
+      "28166538",
+      "27532276",
+      "27216040",
+      "27055959",
+      "26868085",
+      "26684344",
+      "25215497",
+      "25074471",
+      "24930441",
+      "24651825",
+      "24573882",
+      "24396649",
+      "24385430",
+      "23405244",
+      "22970906",
+      "22713124",
+      "21075118",
+      "20927193",
+      "20598126",
+      "20577048",
+      "20019186",
+      "19725107",
+      "19562798",
+      "19119140",
+      "18852176",
+      "18798982",
+      "18000736",
+      "17932230",
+      "17098863",
+      "16199517",
+      "16156896",
+      "15564374",
+      "15016911",
+      "10233851"
+    ],
+    "similar": [
+      "37491046",
+      "36851897",
+      "32755310",
+      "30964207",
+      "37063432",
+      "34894722",
+      "26472223",
+      "33229553",
+      "31639005",
+      "33603666",
+      "35422452",
+      "27749006",
+      "33626072",
+      "26973390",
+      "34838715",
+      "30283077",
+      "37565549",
+      "28608557",
+      "37506783",
+      "38936659",
+      "28082742",
+      "31905026",
+      "25623289",
+      "33779332",
+      "25851235",
+      "26290633",
+      "29113135",
+      "32450149",
+      "38619504",
+      "38004149",
+      "33078654",
+      "32040876",
+      "37895168",
+      "29769552",
+      "34825068",
+      "24627601",
+      "32554245",
+      "26668503",
+      "35779187",
+      "33266321",
+      "36341798",
+      "34898596",
+      "37015806",
+      "28494548",
+      "32184169",
+      "38469144",
+      "32928450",
+      "30794826",
+      "25562147",
+      "30135001",
+      "30519850",
+      "32863955",
+      "34183378",
+      "35451807",
+      "32579753",
+      "32289885",
+      "37394587",
+      "31390281",
+      "31594095",
+      "28928235",
+      "31928222",
+      "28774869",
+      "31529495",
+      "33302736",
+      "32476787",
+      "24650559",
+      "32737656",
+      "30611282",
+      "26868515",
+      "29129819",
+      "35581287",
+      "27321734",
+      "30802722",
+      "32043636",
+      "32967529",
+      "31907123",
+      "31366865",
+      "28741270",
+      "24097666",
+      "37129245",
+      "27836672",
+      "31372694",
+      "35804799",
+      "34563665",
+      "26937139",
+      "26794005",
+      "27318147",
+      "24418250",
+      "30824402",
+      "33103454",
+      "26097546",
+      "26036873",
+      "31705800",
+      "32083947",
+      "25136608",
+      "31832001",
+      "28177674",
+      "22878918",
+      "36181835"
+    ],
+    "review": [
+      "37491046"
+    ],
+    "pmc": [
+      "10368228"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202301988",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37491046/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37491046",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

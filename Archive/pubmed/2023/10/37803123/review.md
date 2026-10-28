@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a methods protocol chapter for predicting gene regulatory networks using deep learning in R. Assessment is limited to the claims and evidence presented in the abstract.
+- **Shared manuscript claim summary** The abstract claims that a deep learning protocol using TensorFlow and Keras in R/RStudio makes genome-wide prediction of transcription factor-gene regulatory interactions accessible to biologists without specialized expertise, using publicly available gene expression data and benchmarks, and that the protocol is readily modifiable for diverse research problems.
+- **Visible evidence base** Abstract text only. No figures, tables, code, data, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full chapter text, code implementation, validation results, benchmark details, data sources, performance metrics, and any comparative analyses against existing methods. Without these, the protocol's effectiveness, reproducibility, and novelty cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful educational protocol for applying deep learning to gene regulatory network prediction in R. However, the abstract is largely descriptive and lacks quantitative evidence of performance, validation against benchmarks, or comparison with existing tools. The claim of accessibility for non-specialists is plausible but unsubstantiated without demonstration of usability or training requirements. The scientific contribution appears to be primarily pedagogical rather than methodological, which may limit its impact for a broad research audience.
+- **Who would be interested in the results, and why** Biologists and bioinformaticians seeking practical guidance on applying deep learning to gene regulatory network inference, particularly those working in R rather than Python. Educators developing computational biology curricula may also find the protocol useful as a teaching resource. Researchers in regulatory genomics who need accessible tools for predicting transcription factor-gene interactions could benefit, provided the protocol demonstrates competitive performance.
+- **Major strengths** The protocol addresses a real accessibility gap by providing an R-based deep learning workflow for a biological problem that is typically dominated by Python-based tools. The step-by-step structure covering data preprocessing, architecture design, training, validation, and parameter tuning is pedagogically sound. The emphasis on using publicly available data and benchmarks supports reproducibility.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims the protocol enables "genome-wide prediction of regulatory interactions between transcription factors and genes" and that it leverages "well-established benchmarks."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract provides no quantitative results, performance metrics, or validation outcomes from applying the protocol. It is unclear whether the protocol achieves accurate predictions, how it compares to existing methods, or whether the benchmarks were used for evaluation or only for training data.  
+  - **Why it matters** Without evidence of predictive performance, the protocol's utility for actual research applications is unestablished. A methods protocol that does not demonstrate effectiveness cannot be assessed for scientific value.  
+  - **Resolution test** Provide results from applying the protocol to benchmark datasets, including metrics such as area under the ROC curve, precision-recall, or correlation with known regulatory interactions, and a comparison with at least one existing method.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract claims the protocol is a "step-by-step" guide that makes deep learning "accessible for individuals without specialized expertise."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not describe the specific steps, required computational resources, expected runtime, or level of user expertise needed. No information is given on data formats, preprocessing details, or how users should handle common pitfalls.  
+  - **Why it matters** Reproducibility is a core requirement for any protocol. Without details on implementation, users cannot determine whether they can execute the protocol in their own environments.  
+  - **Resolution test** Include a detailed description of the workflow, software versions, hardware requirements, and example code or a link to a repository with the full implementation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and contribution  
+  - **Claim pointer** The abstract implies the protocol is a novel contribution by making deep learning accessible in R for gene regulatory network prediction.  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not state how this protocol differs from existing R-based deep learning tutorials or from established tools such as GENIE3, GRNBoost2, or other network inference methods. The novelty appears to be limited to the choice of programming language and framework.  
+  - **Why it matters** For a methods chapter, the contribution must be clearly positioned relative to existing resources. Without this, the added value for the community is unclear.  
+  - **Resolution test** Add a section comparing the protocol with existing R-based deep learning resources and network inference tools, highlighting specific advantages or unique features.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "utilize TensorFlow and the Keras API in R/RStudio"  
+  - **Issue** The phrase "utilize" is grammatically awkward; "uses" would be clearer.  
+  - **Required correction** Revise to "uses TensorFlow and the Keras API in R/RStudio."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope definition  
+  - **Affected element** Abstract claim of modifiability  
+  - **Evidence pointer** Abstract, "readily modifiable to serve diverse research problems"  
+  - **Issue** The abstract does not specify what aspects of the protocol are modifiable or what types of research problems it could be adapted to.  
+  - **Required correction** Provide examples of potential modifications or alternative applications.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "genome-wide prediction"  
+  - **Evidence pointer** Abstract, "genome-wide prediction of regulatory interactions"  
+  - **Issue** The term "genome-wide" is used without specifying the organism or the scale of the prediction task.  
+  - **Required correction** Clarify the organism and the number of transcription factors and genes considered in the protocol.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The protocol's effectiveness and reproducibility cannot be evaluated from the abstract alone. R1-M3 is non-blocking but should be addressed to clarify the contribution.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract does not demonstrate clear originality beyond the choice of R as the implementation language. Existing deep learning approaches for gene regulatory network inference are well established, and the protocol appears to be an adaptation rather than a novel method.  
+  - **Scientific importance** The problem of gene regulatory network inference is important, but the abstract does not show that this protocol advances the field beyond current tools. The contribution is primarily educational, which has value but is limited in scientific impact.  
+  - **Interdisciplinary readership** The protocol targets biologists and bioinformaticians, which spans two disciplines. However, the abstract does not provide enough detail to attract readers outside those directly involved in network inference.  
+  - **Technical soundness** Cannot be assessed from the abstract. No technical details, code, or validation results are provided.  
+  - **Readability for nonspecialists** The abstract is written in accessible language and avoids excessive jargon, which is appropriate for the target audience. However, the lack of concrete examples or outcomes reduces its clarity for readers unfamiliar with deep learning.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful educational resource, but the absence of performance data, implementation details, and comparison with existing methods prevents a supportive recommendation. If the full chapter provides these elements, the protocol could be considered a valuable contribution to the methods literature.
+
+## Risk / unsupported claims
+- The claim that the protocol makes deep learning "accessible for individuals without specialized expertise" is unsupported without evidence of usability testing or user feedback.
+- The claim of "genome-wide prediction" is unsubstantiated without specifying the scale of validation or the organism studied.
+- The claim that the protocol is "readily modifiable to serve diverse research problems" is unsupported without examples or discussion of adaptation strategies.
+- The claim of leveraging "well-established benchmarks" is unverifiable without naming the benchmarks or showing results on them.

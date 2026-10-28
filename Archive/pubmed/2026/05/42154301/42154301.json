@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "42154301",
+    "doi": "10.1007/s11011-026-01817-9",
+    "title": "Mechanistic study on the alleviating effects of cinnamaldehyde on aluminum chloride-induced cognitive impairment in zebrafish through modulating the TLR4/NF-kappaB signaling pathway."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is a prevalent neurodegenerative condition distinguished by intricate pathological mechanisms. Cinnamaldehyde, a natural active chemical sourced from the bark of Cinnamomum species, exhibits remarkable neuroprotective properties that have been validated in various neurological disorders. In this study, network pharmacology alongside zebrafish experiments was employed to investigate the molecular mechanisms and signaling pathways through which cinnamaldehyde ameliorates AD. Potential targets of cinnamaldehyde were found using the SuperPred, TargetNet, SwissTargetPrediction, and SEA databases, whilst AD-related targets were obtained from TTD, OMIM, GeneCards, and DrugBank databases. Subsequently, protein-protein interaction analysis was performed using the STRING database, followed by GO and KEGG enrichment studies via the DAVID platform. Finally, molecular docking validation was conducted using CB-Dock2. The network pharmacology results indicated that cinnamaldehyde might impact its beneficial effects on AD via regulating the toll-like receptor 4 (TLR4)/Nuclear factor kappa B (NF-kappaB) signaling pathway. To further validate this mechanism, an AD model was established in zebrafish induced by aluminum chloride (AlCl(3)). Behavioral assays demonstrated that cinnamaldehyde significantly improved AlCl(3)-induced cognitive impairment. Hematoxylin-eosin and Nissl staining revealed that cinnamaldehyde attenuated neuropathological damage. Biochemical analyses indicated that cinnamaldehyde alleviated oxidative stress and restored cholinergic dysfunction. Furthermore, RT-qPCR findings indicated that cinnamaldehyde reduced inflammatory mediator expression and diminished TLR4 and NF-kappaB p65 mRNA levels, while western blotting confirmed reduced TLR4 and phosphorylated NF-kappaB p65 protein expression. In summary, cinnamaldehyde may mitigate neuroinflammation through suppressing the TLR4/NF-kappaB signaling pathway, thereby ameliorating AlCl(3)-induced cognitive impairment, neuropathological injury, oxidative stress imbalance, and cholinergic system dysfunction in zebrafish.",
+    "keywords": [
+      "Aluminum chloride",
+      "Alzheimer's disease",
+      "Cinnamaldehyde",
+      "Cognitive impairment",
+      "TLR4/NF-kappaB"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Acrolein/analogs & derivatives/pharmacology/therapeutic use",
+      "Zebrafish",
+      "*Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "Aluminum Chloride/toxicity",
+      "*Toll-Like Receptor 4/metabolism",
+      "*Cognitive Dysfunction/chemically induced/drug therapy/metabolism",
+      "Oxidative Stress/drug effects",
+      "*Neuroprotective Agents/pharmacology/therapeutic use",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhong, Guangcheng",
+        "Shi, Jiahui",
+        "Jiang, Yue",
+        "Li, Shiyin",
+        "Wang, Xuejing",
+        "Zhang, Ting",
+        "Chen, Zhuo",
+        "Wang, Qi",
+        "Liu, Shan"
+      ],
+      "short_names": [
+        "Zhong G",
+        "Shi J",
+        "Jiang Y",
+        "Li S",
+        "Wang X",
+        "Zhang T",
+        "Chen Z",
+        "Wang Q",
+        "Liu S"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0158-1956",
+        "ORCID: 0000-0001-7626-676X"
+      ],
+      "affiliations": [
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China.",
+        "School of Chinese Material Medica, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Clinical Medical College of Acupuncture Moxibustion and Rehabilitation, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China. wangqi@gzucm.edu.cn.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China. liushan@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhong, Guangcheng",
+        "short_name": "Zhong G",
+        "identifiers": [
+          "0009-0005-0158-1956"
+        ],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jiahui",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Material Medica, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yue",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College of Acupuncture Moxibustion and Rehabilitation, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shiyin",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuejing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhuo",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [
+          "0000-0001-7626-676X"
+        ],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China. wangqi@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Shan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, No. 12, Airport Road, Baiyun District, Guangzhou, Guangdong Province, 510405, China. liushan@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Metabolic brain disease"
+    ],
+    "journal_abbrev": [
+      "Metab Brain Dis"
+    ],
+    "pub_date": "2026 May 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 12:37",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40633695",
+      "40615002",
+      "40453666",
+      "40419676",
+      "40311879",
+      "40171680",
+      "40165251",
+      "39985073",
+      "39985048",
+      "39922232",
+      "39612989",
+      "39581354",
+      "39537528",
+      "39236855",
+      "39232848",
+      "39197961",
+      "38934689",
+      "38903995",
+      "38827230",
+      "38733347",
+      "38615895",
+      "38419106",
+      "37953279",
+      "37943830",
+      "37713619",
+      "37489782",
+      "37127846",
+      "36803484",
+      "36653304",
+      "36506569",
+      "36370105",
+      "36305812",
+      "36210429",
+      "35843305",
+      "35783137",
+      "35609983",
+      "35524552",
+      "35395415",
+      "35325185",
+      "35069578",
+      "34813026",
+      "34689040",
+      "34515594",
+      "34224887",
+      "34087275",
+      "33211854",
+      "33099001",
+      "32391019",
+      "32296418",
+      "32238887",
+      "31707126",
+      "31376499",
+      "30627377",
+      "30445645",
+      "29179999",
+      "28966576",
+      "28915465",
+      "28138159",
+      "27881951",
+      "27288790",
+      "27167132",
+      "27054030",
+      "26835020",
+      "24857745",
+      "24150894",
+      "23316765",
+      "22459042",
+      "19586561",
+      "17287757",
+      "17234302",
+      "14597658"
+    ],
+    "similar": [
+      "42154301",
+      "40815396",
+      "41192695",
+      "42406171",
+      "41814794",
+      "38305705",
+      "41814740",
+      "41038367",
+      "41265260",
+      "38423408",
+      "40553825",
+      "36653304",
+      "39447411",
+      "30676698",
+      "36872242",
+      "33749522",
+      "38621947",
+      "34104079",
+      "29417448",
+      "41920384",
+      "41534756",
+      "38688144",
+      "42284764",
+      "37778523",
+      "41450541",
+      "42242486",
+      "41508235",
+      "39245241",
+      "42019124",
+      "42543283",
+      "39670511",
+      "42011618",
+      "41981193",
+      "41963750",
+      "37661037",
+      "40613545",
+      "42423842",
+      "42294648",
+      "41905441",
+      "40634934",
+      "34650664",
+      "41724289",
+      "42543266",
+      "41274484",
+      "42348083",
+      "40712813",
+      "38996953",
+      "39791155",
+      "38910274",
+      "35292770",
+      "41577012",
+      "41864553",
+      "41508081",
+      "38981149",
+      "42093362",
+      "41968216",
+      "40858660",
+      "39923228",
+      "42013993",
+      "39879705",
+      "41948887",
+      "40449268",
+      "42398656",
+      "38006400",
+      "42576455",
+      "38797377",
+      "42435091",
+      "38057817",
+      "41489113",
+      "42004947",
+      "39321702",
+      "41120087",
+      "42137339",
+      "39938168",
+      "40571230",
+      "42320769",
+      "41419172",
+      "31376499",
+      "26897372",
+      "33582452",
+      "26577110",
+      "41365196",
+      "40682227",
+      "38972239",
+      "40570565",
+      "41668754",
+      "39580135",
+      "36646160",
+      "39864778",
+      "42489766",
+      "41038330",
+      "38493721",
+      "40712077",
+      "39848022",
+      "40394132",
+      "40273561",
+      "41389887",
+      "40350886",
+      "42280233",
+      "34032295"
+    ],
+    "review": [
+      "42154301"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11011-026-01817-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=42154301",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-964",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

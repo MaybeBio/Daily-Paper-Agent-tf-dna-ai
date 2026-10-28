@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "41620995",
+    "doi": "10.1007/s10709-026-00261-y",
+    "title": "Identifying a conserved transcriptional signature of drought and salt stress in Arabidopsis thaliana through meta-analysis, consensus network analysis, and deep learning."
+  },
+  "content": {
+    "abstract": "Understanding plant responses to abiotic stress is critical for improving stress resilience. Here, we performed an integrative analysis that uniquely converges three synergistic approaches: meta-analysis, consensus network analysis, and deep learning on Arabidopsis thaliana transcriptomic datasets under drought and salt conditions, comprising 64 samples across multiple studies. This novel framework allowed us to robustly identify 576 differentially expressed genes (397 upregulated, 170 downregulated), including At5g59310 (LTP4) as the most induced and At1g22690 (GASA9) as the most repressed. Functional annotation revealed that upregulated genes were enriched in stress-related pathways, including oxidoreductase and UDP-glycosyltransferase activities, while downregulated genes were associated with growth, hormone signaling, and photosynthesis. Among DEGs, 60 transcription factors spanning 15 families were identified, highlighting the central role of NAC, ERF, WRKY, bHLH, and bZIP families in stress regulation. Consensus co-expression network analysis revealed four modules with coordinated responses across both stresses, reflecting a growth-defense trade-off. Leveraging a deep learning pipeline featuring an Autoencoder for feature extraction and an MLP for classification, we distinguished stress versus normal samples with 94% accuracy and near-perfect AUC (0.992). Crucially, the convergence of these three methods pinpointed three high-confidence hub genes (At2g30250, At2g35070, and At2g30010), which were validated against independent RNA-seq datasets as core components of a general stress response. This work not only presents a powerful analytical blueprint but also delivers validated, high-priority genetic targets for direct application in engineering climate-resilient crops, with At2g35070 and At2g30010 emerging as particularly promising novel biomarkers.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "Abiotic stress",
+      "Consensus co-expression network analysis",
+      "Deep learning",
+      "Meta-analysis"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics",
+      "Arabidopsis Proteins/genetics",
+      "Deep Learning",
+      "Droughts",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Plant",
+      "Gene Regulatory Networks",
+      "*Salt Stress/genetics",
+      "Stress, Physiological/genetics",
+      "Transcription Factors/genetics",
+      "*Transcriptome",
+      "Consensus Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hakkak, Maryam Mehdizadeh",
+        "Tohidfar, Masoud"
+      ],
+      "short_names": [
+        "Hakkak MM",
+        "Tohidfar M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran.",
+        "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran. m_tohidfar@sbu.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hakkak, Maryam Mehdizadeh",
+        "short_name": "Hakkak MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Tohidfar, Masoud",
+        "short_name": "Tohidfar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran. m_tohidfar@sbu.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetica"
+    ],
+    "journal_abbrev": [
+      "Genetica"
+    ],
+    "pub_date": "2026 Feb 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/01 15:45",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40869193",
+      "40833705",
+      "39849193",
+      "38712066",
+      "38705959",
+      "38612919",
+      "38576997",
+      "38514098",
+      "38402152",
+      "38396864",
+      "38311674",
+      "38148182",
+      "37971599",
+      "37958870",
+      "37508427",
+      "37445921",
+      "36829667",
+      "36714750",
+      "35628224",
+      "35269875",
+      "35222469",
+      "34815339",
+      "34759939",
+      "34636184",
+      "34439825",
+      "33919078",
+      "33281852",
+      "31882993",
+      "31701126",
+      "30192796",
+      "30158955",
+      "28705956",
+      "27995748",
+      "27559336",
+      "27242819",
+      "27162276",
+      "27135320",
+      "26904044",
+      "26846812",
+      "25935420",
+      "25538257",
+      "24868034",
+      "24803504",
+      "24520154",
+      "24009530",
+      "23918184",
+      "23487796",
+      "22324391",
+      "22257669",
+      "21569837",
+      "21336597",
+      "20709683",
+      "19114008",
+      "18849493",
+      "18839316",
+      "18835996",
+      "17905899",
+      "12925520"
+    ],
+    "similar": [
+      "41620995",
+      "30192796",
+      "24130868",
+      "40360985",
+      "33407148",
+      "34351541",
+      "38337133",
+      "23536844",
+      "41824065",
+      "30876925",
+      "23645342",
+      "33477464",
+      "41254527",
+      "38539093",
+      "30039430",
+      "39519116",
+      "39718137",
+      "41303435",
+      "41663936",
+      "34502511",
+      "40021992",
+      "41898850",
+      "32111079",
+      "31412539",
+      "37166353",
+      "40597593",
+      "39595960",
+      "34891072",
+      "32446917",
+      "40251318",
+      "30261913",
+      "39471485",
+      "37298675",
+      "31089915",
+      "25730421",
+      "41198950",
+      "32866164",
+      "24059455",
+      "36293038",
+      "35328693",
+      "33390157",
+      "36474134",
+      "37108512",
+      "38739961",
+      "30802474",
+      "38816789",
+      "32623576",
+      "34988675",
+      "39436424",
+      "40065031",
+      "39201448",
+      "40685744",
+      "34677713",
+      "40404991",
+      "22355415",
+      "41092016",
+      "31286320",
+      "38671396",
+      "39838282",
+      "30200246",
+      "20105335",
+      "39702019",
+      "31200084",
+      "41455314",
+      "26951633",
+      "32916530",
+      "33726681",
+      "35363798",
+      "29631006",
+      "23189148",
+      "20840729",
+      "32397956",
+      "29534548",
+      "35981439",
+      "40293551",
+      "40869111",
+      "19161942",
+      "41836164",
+      "40413961",
+      "41068586",
+      "32576152",
+      "38916149",
+      "19772648",
+      "36142707",
+      "40676511",
+      "40259236",
+      "37510320",
+      "35328474",
+      "25923822",
+      "25422934",
+      "40593149",
+      "39812128",
+      "27105420",
+      "41044543",
+      "25619813",
+      "32646368",
+      "39859558",
+      "28893196",
+      "27085597",
+      "33096644"
+    ],
+    "review": [
+      "41620995",
+      "30192796",
+      "38337133",
+      "38816789",
+      "40065031",
+      "31286320",
+      "20840729",
+      "35981439",
+      "40869111"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s10709-026-00261-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

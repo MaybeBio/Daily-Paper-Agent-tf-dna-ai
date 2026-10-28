@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41024282",
+    "doi": "10.1186/s13287-025-04653-3",
+    "title": "MSCs-derived HGF alleviates senescence after AKI by modulating mitoSTAT3-controlled copper flux and respiration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Human umbilical cord-derived mesenchymal stem cells (hUC-MSCs) can reverse senescence after acute kidney injury (AKI) via maintaining mitochondrial homeostasis. Copper accumulation and STAT3 nuclear translocation promote senescence, but their mitochondrial localization in response to MSCs remains unclear. METHODS: C57 mice with renal unilateral ischemia reperfusion injury (uIRI) were renal capsular transplanted with hUC-MSCs for two weeks to assessed treatment efficacy. Then, RNA sequencing, protein co-immunoprecipitation, molecular docking, and molecular dynamic simulation were used to found the relationship between senescence, mitochondrial translocation of STAT3 (mitoSTAT3), and copper homeostasis. Furthermore, inhibition of cMet/HGFR, mitoSTAT3, or COX17 were used to validated their contact. RESULTS: HUC-MSCs improved renal function, reduced senescence markers (SA-beta-gal, p53, p21, p16), and increased STAT3pSer727 and COX17 levels. RNA sequencing revealed that senescence regulation is associated with copper homeostasis and respiratory chain complex IV. Blocking MSCs-derived HGF via lentivirus decreased STAT3pSer727, COX17, and mt-Co1 (a key subunit of complex IV). Co-immunoprecipitation and molecular docking confirmed tight binding between STAT3pSer727 and COX17. Inhibiting cMet produced similar effects as HGF deficiency, with increasing mitochondrial copper and decreasing mt-Co1. In hypoxic renal tubular epithelial cells (RTECs), blocking HGF or cMet diminished STAT3 mitochondrial translocation, and inhibiting mitoSTAT3 decreased COX17 and mt-Co1. Furthermore, knockdown COX17 aggravated loss of complex IV activity, copper accumulation and RTECs senescence. CONCLUSIONS: HUC-MSCs-derived HGF promotes STAT3 mitochondrial translocation via cMet, enhancing mitochondrial respiration and copper excretion through COX17, thereby reducing renal senescence after AKI.",
+    "keywords": [
+      "Acute kidney injury (AKI)",
+      "Cellular senescence",
+      "Copper flux",
+      "Hepatocyte growth factor (HGF)",
+      "Human umbilical cord-derived mesenchymal stem cells (hUC-MSCs)",
+      "Mitochondrial STAT3 (mitoSTAT3)"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Copper/metabolism",
+      "*Acute Kidney Injury/therapy/metabolism/pathology",
+      "Mice",
+      "Humans",
+      "*Mesenchymal Stem Cells/metabolism/cytology",
+      "*Cellular Senescence",
+      "Mice, Inbred C57BL",
+      "*STAT3 Transcription Factor/metabolism",
+      "Male",
+      "Mitochondria/metabolism",
+      "*Hepatocyte Growth Factor/metabolism",
+      "*Mesenchymal Stem Cell Transplantation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuang, Kaiting",
+        "Wang, Wenjuan",
+        "Xu, Cheng",
+        "Wang, Siyang",
+        "Chen, Yuhao",
+        "Zhang, Yingjie",
+        "Liang, Yanjun",
+        "Zheng, Xumin",
+        "Chen, Xiangmei",
+        "Feng, Zhe",
+        "Cai, Guangyan"
+      ],
+      "short_names": [
+        "Zhuang K",
+        "Wang W",
+        "Xu C",
+        "Wang S",
+        "Chen Y",
+        "Zhang Y",
+        "Liang Y",
+        "Zheng X",
+        "Chen X",
+        "Feng Z",
+        "Cai G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China. zhezhe_4025@126.com.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China. caiguangyan@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuang, Kaiting",
+        "short_name": "Zhuang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjuan",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Cheng",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siyang",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuhao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yingjie",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yanjun",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xumin",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangmei",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zhe",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China. zhezhe_4025@126.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Guangyan",
+        "short_name": "Cai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, National Clinical Research Center for Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, Beijing, 100853, China. caiguangyan@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell research & therapy"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Res Ther"
+    ],
+    "pub_date": "2025 Sep 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 06:37",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42375344",
+      "41631470"
+    ],
+    "refs": [
+      "39826969",
+      "39563422",
+      "39120696",
+      "38642724",
+      "38552738",
+      "38499958",
+      "38091880",
+      "37837188",
+      "37742764",
+      "37484722",
+      "37217601",
+      "36293101",
+      "36232742",
+      "35370682",
+      "35298263",
+      "34974065",
+      "34621061",
+      "34256837",
+      "30042492",
+      "29605530",
+      "29579719",
+      "27269970",
+      "26283727",
+      "25951043",
+      "24658400",
+      "23102833",
+      "22113526",
+      "10942209",
+      "9440692",
+      "4302664"
+    ],
+    "similar": [
+      "41024282",
+      "39563422",
+      "23734757",
+      "40669331",
+      "23029541",
+      "40312744",
+      "32736659",
+      "28129785",
+      "34256837",
+      "38802835",
+      "40324626",
+      "31801626",
+      "40457488",
+      "33391511",
+      "20446811",
+      "38056156",
+      "21546276",
+      "37217601",
+      "29500491",
+      "32657444",
+      "41359162",
+      "41316397",
+      "40023296",
+      "29701108",
+      "38198960",
+      "26222206",
+      "31054183",
+      "39831589",
+      "30880031",
+      "28476205",
+      "39543734",
+      "41234106",
+      "31122700",
+      "26830766",
+      "39627775",
+      "29398486",
+      "26857230",
+      "41162865",
+      "40358967",
+      "25145540",
+      "39871082",
+      "34061176",
+      "35013938",
+      "40369633",
+      "39720856",
+      "25276829",
+      "36701989",
+      "40753405",
+      "31012325",
+      "39909387",
+      "39776315",
+      "31965731",
+      "32765771",
+      "28612523",
+      "39236098",
+      "31927554",
+      "22862802",
+      "29594894",
+      "40194762",
+      "40671148",
+      "25793303",
+      "31411175",
+      "41042750",
+      "40208785",
+      "39044003",
+      "35525026",
+      "41389974",
+      "28173878",
+      "39026086",
+      "39802634",
+      "36543894",
+      "40989887",
+      "31452434",
+      "30242894",
+      "30359321",
+      "36723877",
+      "29042548",
+      "32820304",
+      "31046805",
+      "39294780",
+      "39019426",
+      "27025401",
+      "34183058",
+      "31354698",
+      "35546754",
+      "32995116",
+      "24126885",
+      "35690871",
+      "39120480",
+      "30358003",
+      "39269318",
+      "24646687",
+      "37548627",
+      "40022148",
+      "28619106",
+      "29988034",
+      "26824459",
+      "33323934",
+      "25143451",
+      "31940632"
+    ],
+    "review": [
+      "41024282",
+      "29701108"
+    ],
+    "pmc": [
+      "12482249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-025-04653-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41024282/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40729372",
+    "doi": "10.1371/journal.pcbi.1013336",
+    "title": "DNFE: Directed network flow entropy for detecting tipping points during biological processes."
+  },
+  "content": {
+    "abstract": "Typically, in dynamic biological processes, there is a critical state or tipping point that marks the transition from one stable state to another, surpassing which a considerable qualitative shift takes place. Identifying this tipping point and its driving network is essential to avert or delay disastrous outcomes. However, most traditional approaches built upon undirected networks still suffer from a lack of robustness and effectiveness when implemented based on high-dimensional small-sample data, especially for single-cell data. To address this challenge, we develop a directed network flow entropy (DNFE) method, which can transform measured omics data into a directed network. This method is applicable to both single-cell RNA-sequencing (scRNA-seq) and bulk data. Applying this algorithm to six real datasets, including three single-cell datasets, two bulk tumor datasets, and a blood dataset, the method is proved to be effective not only in identifying critical states, as well as their dynamic network biomarkers, but also in helping explore regulatory relationships between genes. Numerical simulation results demonstrate that the DNFE algorithm is robust across various noise levels and outperforms existing methods in detecting tipping points. Furthermore, the numerical simulations for 100-node and 1000-node gene regulatory networks illustrate the method's application for large-scale data. The DNFE method predicts active transcription factors, and further identified \"dark genes\", which are usually overlooked with traditional methods.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Entropy",
+      "*Computational Biology/methods",
+      "Humans",
+      "Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks/genetics",
+      "Computer Simulation",
+      "Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Xueqing",
+        "Qiao, Rui",
+        "Li, Peiluan",
+        "Chen, Luonan"
+      ],
+      "short_names": [
+        "Peng X",
+        "Qiao R",
+        "Li P",
+        "Chen L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5545-6185",
+        "ORCID: 0000-0002-3960-0068"
+      ],
+      "affiliations": [
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+        "Longmen Laboratory, Luoyang, Henan, China.",
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+        "Longmen Laboratory, Luoyang, Henan, China.",
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+        "Longmen Laboratory, Luoyang, Henan, China.",
+        "School of Mathematical Sciences and School of AI, Shanghai Jiao Tong University, Shanghai, China.",
+        "Guangdong Institute of Intelligence Science and Technology, Hengqin, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Xueqing",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+          "Longmen Laboratory, Luoyang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Rui",
+        "short_name": "Qiao R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+          "Longmen Laboratory, Luoyang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peiluan",
+        "short_name": "Li P",
+        "identifiers": [
+          "0000-0001-5545-6185"
+        ],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, China.",
+          "Longmen Laboratory, Luoyang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Luonan",
+        "short_name": "Chen L",
+        "identifiers": [
+          "0000-0002-3960-0068"
+        ],
+        "affiliations": [
+          "School of Mathematical Sciences and School of AI, Shanghai Jiao Tong University, Shanghai, China.",
+          "Guangdong Institute of Intelligence Science and Technology, Hengqin, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 18:33",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42474679",
+      "42467644",
+      "42074543",
+      "42032137",
+      "40847264"
+    ],
+    "refs": [
+      "40166114",
+      "39494219",
+      "38716473",
+      "38504523",
+      "38317820",
+      "37833841",
+      "37365273",
+      "36810839",
+      "36705581",
+      "36671045",
+      "36553506",
+      "36282843",
+      "35640613",
+      "35580862",
+      "35353567",
+      "35022204",
+      "34954425",
+      "34691933",
+      "34691649",
+      "34295818",
+      "34244796",
+      "34150649",
+      "33991650",
+      "33956788",
+      "33872597",
+      "33556167",
+      "33072610",
+      "32656205",
+      "32545187",
+      "32489526",
+      "31992202",
+      "31822622",
+      "31598632",
+      "31500660",
+      "31273792",
+      "31019526",
+      "30962246",
+      "30936559",
+      "30349051",
+      "29994499",
+      "29073904",
+      "27534536",
+      "26284108",
+      "24897931",
+      "22461973",
+      "17825013",
+      "16129948",
+      "15840441",
+      "15661355",
+      "15209374",
+      "14685683",
+      "12145321",
+      "11942415",
+      "11489940",
+      "8197455",
+      "8114739"
+    ],
+    "similar": [
+      "40729372",
+      "38879513",
+      "38960408",
+      "30547796",
+      "41274904",
+      "36705581",
+      "42475469",
+      "35580862",
+      "33170214",
+      "39585902",
+      "40956752",
+      "32716923",
+      "40804307",
+      "39890881",
+      "36282843",
+      "41896196",
+      "42467644",
+      "40062616",
+      "42312700",
+      "38280998",
+      "38512768",
+      "30961611",
+      "38879931",
+      "28977434",
+      "31985403",
+      "34954425",
+      "30864667",
+      "40116657",
+      "37740957",
+      "40116659",
+      "38976751",
+      "32019417",
+      "42074543",
+      "30441472",
+      "33956788",
+      "41786602",
+      "40251476",
+      "29073904",
+      "29297370",
+      "29914350",
+      "42560939",
+      "31992202",
+      "41704237",
+      "40699953",
+      "40591481",
+      "39417321",
+      "39708840",
+      "42378449",
+      "35234401",
+      "37833841",
+      "42032137",
+      "36626328",
+      "31964336",
+      "42653305",
+      "41871930",
+      "34398763",
+      "31598632",
+      "41436831",
+      "42061403",
+      "35692809",
+      "39960893",
+      "35598334",
+      "30967106",
+      "35834604",
+      "42650039",
+      "35176023",
+      "40401439",
+      "42316003",
+      "42021132",
+      "40708222",
+      "40633682",
+      "41183100",
+      "38189541",
+      "40341271",
+      "26823190",
+      "39934680",
+      "40409400",
+      "23717196",
+      "29630593",
+      "34160582",
+      "38950180",
+      "41052197",
+      "41848991",
+      "41288963",
+      "41554051",
+      "28957658",
+      "30758825",
+      "38810116",
+      "40281370",
+      "40166114",
+      "41984780",
+      "27479082",
+      "41588477",
+      "40426257",
+      "42379340",
+      "27556418",
+      "31068142",
+      "38980373",
+      "42332576",
+      "28143596"
+    ],
+    "review": [
+      "40729372"
+    ],
+    "pmc": [
+      "12316398"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013336",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40729372/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

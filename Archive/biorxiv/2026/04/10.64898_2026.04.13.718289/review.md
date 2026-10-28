@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No external data, supplementary figures, or unpublished materials were assessed.
+- **Shared manuscript claim summary** The authors identify small molecules that bind within the PAS-A domain cavity of CLOCK and NPAS2, characterize a gatekeeping mutant (L170F) that reduces binding affinity, demonstrate ligand-induced stabilization of the domain via high-pressure NMR, and show dose-dependent inhibition of CLOCK:BMAL1 DNA binding in vitro.
+- **Visible evidence base** NMR chemical shift perturbation data, binding titrations, high-pressure NMR stability assays, X-ray crystallography of the L170F mutant, EMSA-based DNA binding assays, and cell-based reporter assays.
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1–S4), Table S1 (crystallography statistics), full NMR assignment details, and raw data for binding curves and statistical analyses were not provided. These are essential for full verification of the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous approach to identifying and characterizing small-molecule ligands for the CLOCK PAS-A domain, with a clear demonstration that ligand binding can modulate DNA binding by the CLOCK:BMAL1 complex. The work is conceptually interesting and addresses an important gap in the field, namely the pharmacological targeting of the core circadian transcription factor. However, the modest binding affinities, the lack of a co-crystal structure, and the absence of cellular or in vivo functional validation limit the current impact. The claims are largely supported by the data presented, but several technical details and missing controls need to be addressed to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in circadian biology, structural biology of PAS domains, and drug discovery targeting transcription factors. The work provides a proof-of-principle that PAS-A domains in CLOCK can be drugged, which is of interest to those studying circadian rhythm modulation for therapeutic purposes, particularly in cancer and metabolic disorders.
+- **Major strengths** 1) The use of NMR-based screening to identify specific, low-molecular-weight ligands for a challenging protein-protein interaction surface. 2) The combination of mutagenesis, high-pressure NMR, and crystallography to validate the binding site and mechanism. 3) The clear demonstration of a functional consequence (inhibition of DNA binding) that is consistent with the proposed allosteric mechanism. 4) The specificity of the ligands for CLOCK/NPAS2 PAS-A over other PAS domains in the complex.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that KG-296 binds within the buried cavity of CLOCK PAS-A, but the evidence is indirect. The L170F mutant reduces binding, and high-pressure NMR shows stabilization, but no direct structural evidence of the ligand in the cavity is provided.
+  - **Evidence pointer** Section "Gatekeeping mutant attenuates ligand binding", Fig. 3, Fig. S3F-G
+  - **Concern** The authors state that they could only partially resolve density for KG-296 in the crystal structure, and the composite omit map validation is mentioned but not shown. Without a clear, unambiguous electron density for the ligand, the claim of a specific binding site within the cavity is not fully established. The observed backbone rearrangements could be due to crystal packing or non-specific effects.
+  - **Why it matters** The central thesis of the paper is that small molecules can regulate CLOCK:BMAL1 by occupying the PAS-A cavity. If the binding site is not definitively confirmed, the mechanistic interpretation is weakened, and the utility of these ligands as tools for studying allosteric regulation is questionable.
+  - **Resolution test** Provide a high-resolution co-crystal structure of KG-296 bound to CLOCK PAS-A with clear electron density, or use NMR-based paramagnetic relaxation enhancement (PRE) or NOE data to unambiguously define the ligand binding pose within the cavity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that this work provides a foundation for therapeutic approaches targeting CLOCK:BMAL1, but the functional relevance is only shown in vitro with a truncated protein construct.
+  - **Evidence pointer** Section "Ligand binding inhibits DNA binding to CLOCK:BMAL1", Fig. 5
+  - **Concern** The EMSA experiments use a bHLH-PAS-AB fragment, not the full-length protein, and the effect of KG-296 on DNA binding is only demonstrated in vitro. The authors acknowledge the modest affinity precludes cellular studies, but this limits the translational significance. The claim that this could be beneficial in cancer contexts is speculative without any cellular or in vivo data.
+  - **Why it matters** For a Nature-style audience, the impact of the work depends on its potential to influence biological function in a relevant context. Without cellular validation, the therapeutic implications remain hypothetical.
+  - **Resolution test** Demonstrate that a higher-affinity analog (or a prodrug approach) can modulate CLOCK:BMAL1 activity in cell-based circadian assays or in a disease-relevant model, even if only at a proof-of-concept level.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the L170F mutation acts as a "gatekeeping" mutant that reduces ligand access, but the functional data on DNA binding with this mutant are not shown in the context of ligand competition.
+  - **Evidence pointer** Section "Ligand binding inhibits DNA binding to CLOCK:BMAL1", Fig. 5E-F
+  - **Concern** In Fig. 5F, the L170F mutant shows reduced ligand-induced disruption of DNA binding, which is consistent with reduced affinity. However, the authors do not show whether the L170F mutant alone (without ligand) has altered DNA binding affinity or complex stability compared to WT. This is a critical control to ensure that the mutant's effect is specifically due to reduced ligand binding and not to a general perturbation of the protein's function.
+  - **Why it matters** Without this control, the interpretation that the L170F effect is solely due to ligand binding is not fully supported. The mutant could have pleiotropic effects on protein stability or DNA binding that confound the results.
+  - **Resolution test** Perform EMSA with L170F in the absence of ligand to confirm that its DNA binding affinity and complex formation are comparable to WT. Also, measure the Kd of L170F for DNA directly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction are dense with jargon (e.g., "bHLH-PAS," "PAS-A," "gatekeeping mutant") without sufficient context for a general scientific audience. The significance of the work could be more clearly framed.
+  - **Required correction** Briefly explain the role of CLOCK:BMAL1 in circadian rhythms and why targeting its PAS domain is novel, perhaps with a simple analogy or a clearer statement of the potential therapeutic relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR spectroscopy
+  - **Evidence pointer** Section "NMR Spectroscopy"
+  - **Issue** The equation for Kd determination is presented without derivation or citation. The fitting assumes a 1:1 binding model, but this is not justified for the ligand-protein interaction.
+  - **Required correction** Provide a citation for the binding model or justify the 1:1 assumption. Also, report the error in the Kd values (e.g., 95% confidence intervals) from the fits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Ligand binding stabilizes CLOCK PAS-A under pressure perturbation"
+  - **Evidence pointer** Fig. 4
+  - **Issue** The statistical analysis of the pressure data is described as "one way ANOVA" but the details (e.g., post-hoc tests, number of replicates) are not provided in the text or figure legend.
+  - **Required correction** Specify the statistical test used, the number of independent experiments, and the post-hoc comparisons performed. Also, report the exact p-values.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct structural evidence for KG-296 binding in the PAS-A cavity (R1-M1). 2) Absence of cellular or in vivo functional validation of the ligand's effect (R1-M2). 3) Missing control experiments for the L170F mutant's baseline function (R1-M3). 4) Incomplete statistical reporting for binding and pressure data (R1-m2, R1-m3).
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific targeting of the CLOCK PAS-A domain, which has not been previously explored for small-molecule binding. However, the concept of targeting PAS domains in bHLH-PAS transcription factors is not new, given prior work on HIF2α. Scientific importance: The findings are of moderate importance, providing a proof-of-principle but lacking the potency and functional validation needed for immediate therapeutic relevance. Interdisciplinary readership: The work will appeal to structural biologists, circadian biologists, and drug discovery researchers, but may not have broad appeal across all scientific disciplines. Technical soundness: The methods are generally sound, but the missing structural evidence and controls weaken the overall case. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from clearer framing of the broader significance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are interesting and potentially significant, but the lack of direct binding evidence, missing controls, and absence of functional validation in a more relevant context prevent the claims from being fully established. Addressing these issues would strengthen the manuscript considerably.
+
+## Risk / unsupported claims
+- The claim that KG-296 binds within the buried cavity of CLOCK PAS-A is not directly supported by structural data; the evidence is indirect (mutagenesis and stabilization).
+- The claim that ligand binding "regulates" DNA binding by CLOCK:BMAL1 is only shown in vitro with a truncated construct; the physiological relevance is unproven.
+- The statement that this work "lays the foundation for therapeutic approaches" is speculative and not supported by any cellular or in vivo data.
+- The assertion that the L170F mutation specifically acts as a "gatekeeping" mutant is plausible but not fully proven without additional functional characterization of the mutant in the absence of ligand.

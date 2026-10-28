@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, web server description, conclusion, supplementary data references)
+- **Assessment boundary** Evaluation of the webserver's scientific claims, technical implementation, and presentation quality based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present xBind, a freely accessible webserver for cross-molecular protein binding-site prediction (protein–protein, protein–DNA, protein–RNA) that integrates ESM-2 LLM embeddings with sequence- and structure-derived features in E(3)-equivariant graph neural networks. The server accepts sequence or structure inputs, offers on-the-fly AlphaFold2 structure prediction, and provides interactive visualization and threshold calibration. The underlying methods (EquiPPIS, EquiPNAS) are claimed to achieve state-of-the-art performance with statistical significance.
+- **Visible evidence base** Abstract, Introduction, Materials and methods (overview only), Results (performance summary, case study), Web server section, Conclusion, Supplementary data references
+- **Missing materials affecting confidence** Supplementary Text S1, S2, S3; Supplementary Table S1; Table 1 (referenced but not provided); Figure 1 and Figure 2 (referenced but not provided); detailed benchmark methodology; full performance data; webserver URL not accessible for verification
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful webserver that unifies three types of protein binding-site prediction in a single platform. The integration of LLM embeddings with equivariant graph networks is timely and the emphasis on usability (sequence-only input, AlphaFold2 fallback, interactive visualization) addresses a genuine community need. However, the manuscript as provided is largely descriptive and the core scientific evidence (benchmark tables, supplementary methods, figures) is not visible in the supplied material. The claims of state-of-the-art performance and statistical significance cannot be independently assessed from the text alone. The webserver's novelty relative to existing tools is asserted but not contextualized against a clear landscape of current servers. The manuscript would benefit from a more detailed description of the underlying models' architecture, training data, and a clearer statement of what is genuinely new compared to the authors' prior publications.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, interaction prediction, and structural bioinformatics. Researchers who need accessible tools for predicting binding sites on proteins without experimental structures would find the webserver's features (sequence-only input, AlphaFold2 integration) attractive. The cross-molecular scope (protein–protein, protein–DNA, protein–RNA) broadens the potential user base beyond those focused on a single interaction type.
+- **Major strengths** 1) The webserver addresses a real gap by unifying three interaction types in one platform. 2) The use of ESM-2 embeddings and E(3)-equivariant networks is methodologically current. 3) The emphasis on usability (sequence-only input, on-the-fly structure prediction, interactive visualization, threshold calibration) is commendable. 4) The authors report statistical significance testing, which is good practice. 5) The server is freely available with no login barrier mentioned.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "EquiPPIS for protein–protein interactions and EquiPNAS for protein–DNA and protein–RNA interactions demonstrate state-of-the-art performance and statistically outperform competing methods at the 95% confidence level (P <.05), both in terms of ROC-AUC and PR-AUC across all test sets."
+  - **Evidence pointer** Table 1 (not provided); Supplementary Table S1 (not provided); Text S3 (not provided)
+  - **Concern** The central performance claim is made in the Results section but the actual data (Table 1) and detailed benchmark descriptions (Supplementary Text S3, Table S1) are not visible in the supplied material. The reader cannot verify the magnitude of improvements, the number of test sets, the specific competing methods compared, or the statistical test details.
+  - **Why it matters** The scientific case for the webserver's utility rests on these performance claims. Without the underlying data, the claims are unverifiable and the manuscript's core contribution cannot be evaluated.
+  - **Resolution test** Provide Table 1 and Supplementary Table S1 with full numerical results, and Supplementary Text S3 with complete benchmark methodology, including dataset descriptions, train/test splits, competing methods, and statistical test procedures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and contextualization
+  - **Claim pointer** "Public tools that seamlessly support both protein–protein and protein–nucleic acid binding-site prediction using either experimental or predicted structures are still limited. Therefore, a unified, publicly accessible webserver for accurate and scalable cross-molecular protein binding-site prediction would have broad utility."
+  - **Evidence pointer** Introduction (location not provided)
+  - **Concern** The manuscript asserts a gap in existing tools but does not provide a systematic comparison with currently available webservers for binding-site prediction. It is unclear which specific tools were considered, what their limitations are, and how xBind differs functionally or in performance from them. The relationship between xBind and the authors' prior methods (EquiPPIS, EquiPNAS) is mentioned but the incremental contribution of the webserver itself (beyond the underlying models) is not clearly delineated.
+  - **Why it matters** For a webserver paper, demonstrating clear utility relative to existing resources is essential. Without a comparative analysis, the claim of addressing a gap is not substantiated.
+  - **Resolution test** Add a table or section comparing xBind with existing binding-site prediction webservers, listing input types, supported interaction types, structure prediction options, output formats, and performance where available. Clearly state what is new in xBind relative to the authors' prior publications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical reproducibility
+  - **Claim pointer** "xBind leverages LLM embeddings from the ESM-2 model together with sequence- and structure-derived features to predict protein–protein, protein–DNA, and protein–RNA binding sites using symmetry-aware deep graph neural networks."
+  - **Evidence pointer** Materials and methods (Overview section); Text S1 and S2 (not provided)
+  - **Concern** The methods section provides only a high-level overview. The specific features used, graph construction details, model architectures, training procedures, hyperparameters, and the exact role of ESM-2 embeddings are not described in the main text. The authors refer to supplementary texts, but these are not visible in the supplied material.
+  - **Why it matters** Reproducibility is a core expectation for method-driven papers. Without sufficient technical detail, other researchers cannot implement or adapt the approach, and the scientific validity of the design choices cannot be assessed.
+  - **Resolution test** Provide the full content of Text S1 and S2, or expand the main text methods to include sufficient detail on feature engineering, model architecture, and training. At minimum, the key hyperparameters and data splits should be stated.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and limitations
+  - **Claim pointer** "xBind accepts either a monomeric protein structure or a protein amino acid sequence as input... proteins of ∼10–500 residues are recommended."
+  - **Evidence pointer** Web server section (Input and output)
+  - **Concern** The manuscript does not discuss the limitations of the webserver in terms of protein length range, multimeric proteins, or proteins with unusual features (e.g., disordered regions, post-translational modifications). The recommended length range of 10–500 residues is stated without justification or discussion of performance outside this range.
+  - **Why it matters** Users need to understand the applicability domain of the tool. A clear statement of limitations helps set expectations and guides appropriate use.
+  - **Resolution test** Add a paragraph discussing the rationale for the length range, performance on proteins outside this range, and any known failure modes or limitations of the underlying models.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states "cross-molecular protein binding-site prediction" but the term "cross-molecular" is not defined. It appears to mean prediction across different molecular interaction types (protein, DNA, RNA), but this is not explicit.
+  - **Required correction** Define "cross-molecular" in the abstract or use a clearer term such as "multi-type" or "protein–protein and protein–nucleic acid."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Web server section
+  - **Evidence pointer** Web server section (Hardware and software)
+  - **Issue** The hardware and software description mentions PHP, MySQL, and Python environments but does not describe the computational resources required for a typical job (e.g., GPU requirements, expected runtime).
+  - **Required correction** Add information on expected runtime and computational requirements for typical inputs, which is important for users planning large-scale analyses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Usability
+  - **Affected element** Web server section
+  - **Evidence pointer** Web server section (Input and output)
+  - **Issue** The manuscript mentions "user-adjustable probability thresholds" but does not explain the default threshold or how users should interpret the probability scores in biological terms.
+  - **Required correction** Provide guidance on interpreting probability scores and selecting appropriate thresholds, perhaps with reference to the benchmark results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web server section
+  - **Evidence pointer** Web server section (Input and output)
+  - **Issue** The manuscript does not state whether the webserver requires registration or login, or whether there are any usage limits.
+  - **Required correction** Clarify the access model (open, registration required, usage quotas) in the webserver description.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Future work
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion (location not provided)
+  - **Issue** The future work section mentions accounting for modeling uncertainties and conformational dynamics, but does not mention potential extensions to other interaction types (e.g., protein–ligand, protein–peptide) or integration with other prediction tasks.
+  - **Required correction** Consider broadening the future work discussion to include other potential extensions that would increase the webserver's utility.
+
+## Technical failings that need to be addressed before the case is established
+- R1-M1 (performance data not visible)
+- R1-M2 (lack of comparison with existing tools)
+- R1-M3 (insufficient technical detail for reproducibility)
+
+## Assessment against Nature-style criteria
+- **Originality** The concept of unifying protein–protein, protein–DNA, and protein–RNA binding-site prediction in a single webserver with LLM-based embeddings is a reasonable contribution, but the underlying models (EquiPPIS, EquiPNAS) appear to be previously published by the same group. The webserver itself is an integration and deployment effort rather than a fundamentally new algorithmic approach. Originality is moderate.
+- **Scientific importance** Binding-site prediction is an important problem in structural bioinformatics, and a user-friendly, cross-molecular tool could have broad utility. However, the scientific importance of the webserver depends on the demonstrated performance advantage over existing tools, which cannot be assessed from the provided material.
+- **Interdisciplinary readership** The tool is relevant to computational biologists, structural biologists, and potentially experimental biologists who need binding-site annotations. The cross-molecular scope broadens the potential audience. However, the manuscript is written primarily for a bioinformatics audience and may not be fully accessible to experimental biologists without additional context.
+- **Technical soundness** The technical approach (ESM-2 embeddings, E(3)-equivariant graph networks) is sound and current. However, the lack of detailed methods in the main text and the invisibility of supplementary materials prevent a full assessment of technical soundness.
+- **Readability for nonspecialists** The manuscript is generally well-written and the webserver features are described clearly. However, the methods section assumes familiarity with graph neural networks and protein language models, which may limit accessibility for nonspecialists.
+
+## Risk / unsupported claims
+- "State-of-the-art performance and statistically outperform competing methods at the 95% confidence level (P <.05)" - Unsupported in the provided material because Table 1 and supplementary benchmark details are not visible.
+- "Public tools that seamlessly support both protein–protein and protein–nucleic acid binding-site prediction using either experimental or predicted structures are still limited" - Unsupported because no systematic survey of existing tools is provided.
+- "xBind leverages LLM embeddings from the ESM-2 model together with sequence- and structure-derived features" - Partially supported by the text but the specific features and their contribution are not described in the main text.
+- "Rigorously benchmarked on multiple datasets across a diverse set of predictive modeling scenarios" - Unsupported because the benchmark details are not visible in the provided material.
+- "Proteins of ∼10–500 residues are recommended" - Unsupported because no justification or performance data outside this range is provided.

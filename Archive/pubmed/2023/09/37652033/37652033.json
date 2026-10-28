@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37652033",
+    "doi": "10.1088/1361-6579/acf5c7",
+    "title": "HIRA: Heart Rate Interval based Rapid Alert score to characterize autonomic dysfunction among patients with sepsis-related acute respiratory failure (ARF)."
+  },
+  "content": {
+    "abstract": "Objective. To examine whether heart rate interval based rapid alert (HIRA) score derived from a combination model of heart rate variability (HRV) and modified early warning score (MEWS) is a surrogate for the detection of acute respiratory failure (ARF) in critically ill sepsis patients.Approach. Retrospective HRV analysis of sepsis patients admitted to Emory healthcare intensive care unit (ICU) was performed between sepsis-related ARF and sepsis controls without ARF. HRV measures such as time domain, frequency domain, and nonlinear measures were analyzed up to 24 h after patient admission, 1 h before the onset of ARF, and a random event time in the sepsis controls. Statistical significance was computed by the Wilcoxon Rank Sum test. Machine learning algorithms such as eXtreme Gradient Boosting and logistic regression were developed to validate the HIRA score model. The performance of HIRA and early warning score models were evaluated using the area under the receiver operating characteristic (AUROC).Main Results. A total of 89 (ICU) patients with sepsis were included in this retrospective cohort study, of whom 31 (34%) developed sepsis-related ARF and 58 (65%) were sepsis controls without ARF. Time-domain HRV for Electrocardiogram (ECG) Beat-to-Beat RR intervals strongly distinguished ARF patients from controls. HRV measures for nonlinear and frequency domains were significantly altered (p< 0.05) among ARF compared to controls. The HIRA score AUC: 0.93; 95% confidence interval (CI): 0.88-0.98) showed a higher predictive ability to detect ARF when compared to MEWS (AUC: 0.71; 95% CI: 0.50-0.90).Significance. HRV was significantly impaired across patients who developed ARF when compared to controls. The HIRA score uses non-invasively derived HRV and may be used to inform diagnostic and therapeutic decisions regarding the severity of sepsis and earlier identification of the need for mechanical ventilation.",
+    "keywords": [
+      "acute respiratory failure",
+      "heart rate variability",
+      "machine learning",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Retrospective Studies",
+      "Heart Rate/physiology",
+      "*Sepsis/complications/diagnosis",
+      "Intensive Care Units",
+      "ROC Curve",
+      "*Respiratory Insufficiency/complications/diagnosis",
+      "Transcription Factors",
+      "Cell Cycle Proteins",
+      "Histone Chaperones"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krishnan, Preethi",
+        "Rad, Milad G",
+        "Agarwal, Palak",
+        "Marshall, Curtis",
+        "Yang, Philip",
+        "Bhavani, Sivasubramanium V",
+        "Holder, Andre L",
+        "Esper, Annette",
+        "Kamaleswaran, Rishikesan"
+      ],
+      "short_names": [
+        "Krishnan P",
+        "Rad MG",
+        "Agarwal P",
+        "Marshall C",
+        "Yang P",
+        "Bhavani SV",
+        "Holder AL",
+        "Esper A",
+        "Kamaleswaran R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2296-4594",
+        "ORCID: 0000-0002-9642-4101"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Emory University, Atlanta, GA, Georgia.",
+        "Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia.",
+        "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia.",
+        "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia.",
+        "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+        "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krishnan, Preethi",
+        "short_name": "Krishnan P",
+        "identifiers": [
+          "0000-0002-2296-4594"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Emory University, Atlanta, GA, Georgia.",
+          "Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia.",
+          "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Rad, Milad G",
+        "short_name": "Rad MG",
+        "identifiers": [
+          "0000-0002-9642-4101"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Palak",
+        "short_name": "Agarwal P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Marshall, Curtis",
+        "short_name": "Marshall C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Yang, Philip",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Bhavani, Sivasubramanium V",
+        "short_name": "Bhavani SV",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Holder, Andre L",
+        "short_name": "Holder AL",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Esper, Annette",
+        "short_name": "Esper A",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      },
+      {
+        "full_name": "Kamaleswaran, Rishikesan",
+        "short_name": "Kamaleswaran R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, Georgia.",
+          "Department of Biomedical Informatics, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Emory Critical Care Center, Emory University School of Medicine, Atlanta, GA, Georgia.",
+          "Department of Medicine, Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, Emory University School of Medicine, Atlanta, GA, Georgia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physiological measurement"
+    ],
+    "journal_abbrev": [
+      "Physiol Meas"
+    ],
+    "pub_date": "2023 Oct 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/01 00:41",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "41778976"
+    ],
+    "refs": [
+      "34605781",
+      "33693419",
+      "33046318",
+      "32734167",
+      "32647693",
+      "31982224",
+      "31285898",
+      "30768188",
+      "30529232",
+      "30204803",
+      "30199376",
+      "29691495",
+      "29034226",
+      "26903338",
+      "26316739",
+      "26161013",
+      "24201173",
+      "17389245",
+      "15649244",
+      "11588210"
+    ],
+    "similar": [
+      "37652033",
+      "37873716",
+      "29879021",
+      "38813628",
+      "39778237",
+      "31109414",
+      "42028136",
+      "37545445",
+      "27751799",
+      "41331889",
+      "40202400",
+      "40629657",
+      "41054570",
+      "32697602",
+      "32385993",
+      "40808362",
+      "37593856",
+      "30732136",
+      "30373653",
+      "40130722",
+      "39780664",
+      "40255847",
+      "34984336",
+      "33308142",
+      "29961290",
+      "37987131",
+      "35078027",
+      "41617215",
+      "40017356",
+      "39354616",
+      "35692197",
+      "32385994",
+      "22715923",
+      "41876243",
+      "31645093",
+      "39321493",
+      "40418571",
+      "41833345",
+      "39973838",
+      "27132455",
+      "39894045",
+      "41500684",
+      "41958125",
+      "40200699",
+      "34346037",
+      "38009405",
+      "40293793",
+      "30617993",
+      "38813626",
+      "27649072",
+      "24859127",
+      "41368432",
+      "30902348",
+      "30585862",
+      "37441816",
+      "32520960",
+      "36567563",
+      "29308756",
+      "35983521",
+      "41017175",
+      "38147839",
+      "28737573",
+      "39238403",
+      "39671551",
+      "34112297",
+      "12006450",
+      "28625260",
+      "31771725",
+      "26113162",
+      "40814704",
+      "27694098",
+      "41876237",
+      "38551135",
+      "35470597",
+      "35320314",
+      "37031626",
+      "26161013",
+      "41634187",
+      "18214439",
+      "34296680",
+      "29151053",
+      "35125039",
+      "40010820",
+      "39877257",
+      "31898562",
+      "35574739",
+      "24713049",
+      "33071081",
+      "41965712",
+      "14595568",
+      "26645559",
+      "41856149",
+      "34596157",
+      "36177931",
+      "35830576",
+      "36747139",
+      "35991649",
+      "37545448",
+      "41027023",
+      "41130672"
+    ],
+    "review": [
+      "37652033"
+    ],
+    "pmc": [
+      "10571460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1088/1361-6579/acf5c7",
+        "provider": "IOP Publishing Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/respiratoryfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Respiratory Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37652033/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37652033",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

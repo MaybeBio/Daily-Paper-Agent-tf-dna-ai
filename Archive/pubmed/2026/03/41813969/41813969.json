@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "41813969",
+    "doi": "10.1038/s43588-026-00965-3",
+    "title": "De novo design of functional nucleic acids of aptamers."
+  },
+  "content": {
+    "abstract": "Functional nucleic acids (FNAs) are essential elements for designing advanced molecular tools, yet their de novo design faces challenges due to the vast sequence space and inefficiency of experimental screening methods. Nucleic acid large language models (NA-LLMs) offer new opportunities for FNA design, but their generative capability remains underexplored. Here we introduce InstructNA, a framework leveraging NA-LLMs and high-throughput systematic evolution of ligands by exponential enrichment (HT-SELEX) to guide de novo design of FNAs without relying on structural information. InstructNA encodes semantically rich FNA representations and robustly decodes FNA sequences, enabling the generation of various types of FNA such as transcription factor-binding DNA and protein-binding aptamers with enhanced functionality and high sequence diversity. Compared with the traditional HT-SELEX, InstructNA generates 100% and 200% more strong aptamer binders for two protein targets, with a sequence similarity to the original HT-SELEX aptamers as low as 38%. These results underscore the efficacy and robustness of InstructNA, demonstrating its potential for FNA design.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/chemistry/genetics",
+      "*SELEX Aptamer Technique/methods",
+      "Large Language Models",
+      "*Nucleic Acids/chemistry",
+      "Ligands",
+      "Base Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhiming",
+        "Jiang, Meng",
+        "He, Axin",
+        "Zhu, Youyuan",
+        "Wang, Ercheng",
+        "Wan, Liqi",
+        "Qiu, Jiezhong",
+        "Guo, Pei",
+        "Chen, Guangyong",
+        "Han, Da"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Jiang M",
+        "He A",
+        "Zhu Y",
+        "Wang E",
+        "Wan L",
+        "Qiu J",
+        "Guo P",
+        "Chen G",
+        "Han D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8383-5040",
+        "ORCID: 0000-0003-2074-4077",
+        "ORCID: 0000-0003-3663-2678",
+        "ORCID: 0000-0001-9514-0708",
+        "ORCID: 0000-0001-7760-5786",
+        "ORCID: 0000-0002-5892-8608",
+        "ORCID: 0000-0002-0804-2964"
+      ],
+      "affiliations": [
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China.",
+        "Zhejiang Laboratory, Hangzhou, China.",
+        "Zhejiang Laboratory, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. qiujiezhong@him.cas.cn.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. guopei@ibmc.ac.cn.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. chenguangyong@him.cas.cn.",
+        "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. dahan@sjtu.edu.cn.",
+        "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. dahan@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhiming",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Meng",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Axin",
+        "short_name": "He A",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Youyuan",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-8383-5040"
+        ],
+        "affiliations": [
+          "Zhejiang Laboratory, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ercheng",
+        "short_name": "Wang E",
+        "identifiers": [
+          "0000-0003-2074-4077"
+        ],
+        "affiliations": [
+          "Zhejiang Laboratory, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Liqi",
+        "short_name": "Wan L",
+        "identifiers": [
+          "0000-0003-3663-2678"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jiezhong",
+        "short_name": "Qiu J",
+        "identifiers": [
+          "0000-0001-9514-0708"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. qiujiezhong@him.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Pei",
+        "short_name": "Guo P",
+        "identifiers": [
+          "0000-0001-7760-5786"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. guopei@ibmc.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Guangyong",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0000-0002-5892-8608"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. chenguangyong@him.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Han, Da",
+        "short_name": "Han D",
+        "identifiers": [
+          "0000-0002-0804-2964"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Functional Nucleic Acids for Basic and Clinical Application, Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, China. dahan@sjtu.edu.cn.",
+          "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. dahan@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature computational science"
+    ],
+    "journal_abbrev": [
+      "Nat Comput Sci"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/12 07:04",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42506713",
+      "42252764"
+    ],
+    "refs": [
+      "40662791",
+      "40164941",
+      "39818825",
+      "39703563",
+      "39609566",
+      "39572716",
+      "39541441",
+      "39506080",
+      "39443793",
+      "39431516",
+      "39117705",
+      "38985770",
+      "38718835",
+      "38597606",
+      "38437533",
+      "38177576",
+      "37996753",
+      "37909046",
+      "37813854",
+      "37710046",
+      "37667013",
+      "37473438",
+      "37308471",
+      "37277648",
+      "37262137",
+      "37246641",
+      "37207331",
+      "36927031",
+      "36702895",
+      "36108050",
+      "35875870",
+      "35739092",
+      "35073490",
+      "34427974",
+      "34282049",
+      "33538820",
+      "32537639",
+      "31548726",
+      "23354101",
+      "23332764",
+      "19520057",
+      "16731699"
+    ],
+    "similar": [
+      "41813969",
+      "34756455",
+      "33808496",
+      "32537639",
+      "26642994",
+      "33233573",
+      "41428391",
+      "37527564",
+      "39431516",
+      "31591283",
+      "26395772",
+      "26678795",
+      "37302912",
+      "40053911",
+      "35416400",
+      "17627883",
+      "36208449",
+      "29495282",
+      "41149295",
+      "41533571",
+      "39732319",
+      "23405949",
+      "17312962",
+      "34227370",
+      "42599228",
+      "34028561",
+      "30378352",
+      "20714306",
+      "35320268",
+      "25237853",
+      "24125636",
+      "28513534",
+      "36591965",
+      "40531093",
+      "22689764",
+      "25325213",
+      "41298250",
+      "29186809",
+      "26163061",
+      "32580745",
+      "37086150",
+      "30193856",
+      "39378058",
+      "31128787",
+      "19159108",
+      "24878869",
+      "24963654",
+      "38253971",
+      "23662585",
+      "32813254",
+      "35274201",
+      "31714748",
+      "26538121",
+      "31010064",
+      "34343165",
+      "41951835",
+      "40133195",
+      "20077028",
+      "26980177",
+      "31664817",
+      "42623114",
+      "29186905",
+      "36156775",
+      "19377997",
+      "22480209",
+      "36136560",
+      "27467247",
+      "39056626",
+      "20582587",
+      "24779017",
+      "40331607",
+      "40320157",
+      "28627727",
+      "21838689",
+      "26607475",
+      "19352549",
+      "19377982",
+      "26293334",
+      "21720957",
+      "40515565",
+      "25875077",
+      "19450981",
+      "30379519",
+      "27080809",
+      "19480397",
+      "30626772",
+      "40563458",
+      "32234785",
+      "38012571",
+      "27613616",
+      "21639912",
+      "21838692",
+      "24044051",
+      "27526193",
+      "41685932",
+      "29198584",
+      "19997645",
+      "25159850",
+      "31482459",
+      "26530075"
+    ],
+    "review": [
+      "41813969",
+      "34756455",
+      "33808496",
+      "33233573",
+      "37527564",
+      "31591283",
+      "37302912",
+      "35416400",
+      "17627883",
+      "41149295",
+      "39732319",
+      "42599228",
+      "20714306",
+      "28513534",
+      "36591965",
+      "41298250",
+      "29186809",
+      "30193856",
+      "39378058",
+      "31128787",
+      "38253971",
+      "35274201",
+      "41951835",
+      "40133195",
+      "26980177",
+      "31664817",
+      "42623114",
+      "29186905",
+      "39056626",
+      "40331607",
+      "40320157",
+      "21838689",
+      "26607475",
+      "40563458",
+      "21838692",
+      "24044051",
+      "29198584"
+    ],
+    "pmc": [
+      "13121014"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s43588-026-00965-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41813969/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

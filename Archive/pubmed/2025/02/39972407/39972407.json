@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "39972407",
+    "doi": "10.1186/s12888-025-06512-0",
+    "title": "Bioinformatics-based identification of CTSS, DOK2, and ENTPD1 as potential blood biomarkers of schizophrenia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although schizophrenia is a severe mental disorder that significantly impacts patients and society, there are currently no reliable blood-based biomarkers to assist in its diagnosis. The diagnosis primarily relies on clinical assessment and patient history, a method that is inherently subjective and prone to errors, potentially leading to diagnostic delays. In this study, we aim to utilize bioinformatics approaches to explore potential blood-based biomarkers for the diagnosis of schizophrenia. By employing advanced bioinformatics techniques, we hope to identify key genes and construct an effective diagnostic model, providing the clinic with a more objective and accurate diagnostic tool. METHODS: In this research, we employed bioinformatics techniques to identify potential blood-based biomarkers for the diagnosis of schizophrenia. Initially, we selected schizophrenia-associated differentially expressed genes (DEGs) from the Gene Expression Omnibus (GEO) database through the datasets GSE27383, GSE38484, and GSE38481. Subsequently, we performed Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses on these DEGs to elucidate their biological functions and related pathways. Furthermore, we constructed a protein-protein interaction (PPI) network of the differentially expressed genes to identify key genes and matched them with their target microRNAs (miRNAs). In addition, we assessed the diagnostic potential of these key genes through immune infiltration analysis. The aim of this study is to reveal the roles of these hub genes in the pathogenesis of schizophrenia. RESULTS: Through bioinformatics analysis, we have identified three potential hub genes associated with the pathogenesis of schizophrenia: CTSS, DOK2, and ENTPD1. These genes are significantly correlated with the development of schizophrenia and may serve as promising diagnostic biomarkers for the condition. CONCLUSION: In this study, we have identified three pivotal genes-CTSS, DOK2, and ENTPD1-that are intimately associated with the pathogenesis of schizophrenia. The discovery of these genes not only enhances the precision of diagnostic efforts for schizophrenia but also provides a robust scientific foundation for the development of innovative treatment approaches for schizophrenia and related disorders. The identification of these biomarkers offers a tangible basis for early, accurate diagnosis, treatment, prognostic assessment, and rehabilitation evaluation in schizophrenia, potentially improving patients' quality of life and supporting the development of personalized therapeutics and antipsychotic medications.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Biomarker",
+      "Gene expression omnibus",
+      "Schizophrenia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Schizophrenia/blood/genetics/diagnosis",
+      "*Computational Biology",
+      "Biomarkers/blood",
+      "*Adaptor Proteins, Signal Transducing/blood/genetics",
+      "Protein Interaction Maps",
+      "*DNA-Binding Proteins/blood/genetics",
+      "Gene Ontology",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lei",
+        "Zhang, Jiale",
+        "Wang, Na",
+        "Liu, Chenwei",
+        "Wang, Shuting",
+        "Dong, Xiaotao",
+        "Yang, Lu",
+        "Bao, Xiaohong",
+        "Nie, Xiaobo",
+        "Li, Jicheng"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Zhang J",
+        "Wang N",
+        "Liu C",
+        "Wang S",
+        "Dong X",
+        "Yang L",
+        "Bao X",
+        "Nie X",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "Department of Cardiothoracic Surgery, School of Medicine, Taizhou Central Hospital, Taizhou University, Taizhou, 318000, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+        "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China. zjulijicheng@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiale",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Na",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chenwei",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuting",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xiaotao",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xiaohong",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, School of Medicine, Taizhou Central Hospital, Taizhou University, Taizhou, 318000, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Xiaobo",
+        "short_name": "Nie X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jicheng",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China. zjulijicheng@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC psychiatry"
+    ],
+    "journal_abbrev": [
+      "BMC Psychiatry"
+    ],
+    "pub_date": "2025 Feb 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 00:21",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42650131",
+      "41781900",
+      "41595424",
+      "40837791"
+    ],
+    "refs": [
+      "36347860",
+      "35875972",
+      "35741729",
+      "35524619",
+      "35353173",
+      "34505522",
+      "34360833",
+      "33958577",
+      "33353966",
+      "33045579",
+      "32728220",
+      "31729301",
+      "31699796",
+      "31569988",
+      "31056225",
+      "30718903",
+      "30319362",
+      "29762765",
+      "29680514",
+      "29108803",
+      "27733283",
+      "27189524",
+      "26903267",
+      "26455353",
+      "26172069",
+      "25671328",
+      "25424713",
+      "25056210",
+      "24833903",
+      "24806109",
+      "24487234",
+      "23601906",
+      "23193258",
+      "22761806",
+      "22696929",
+      "22393424",
+      "21641581",
+      "21072242",
+      "20431046",
+      "19786546",
+      "19579286",
+      "18754655",
+      "18005941",
+      "17728696",
+      "17551020",
+      "12837516",
+      "12363384",
+      "11596127",
+      "11166086",
+      "10981966"
+    ],
+    "similar": [
+      "39972407",
+      "33407587",
+      "29257295",
+      "40209528",
+      "41189173",
+      "40949741",
+      "39118438",
+      "39833772",
+      "40821971",
+      "40628511",
+      "34553293",
+      "31987036",
+      "41196851",
+      "38509535",
+      "40523760",
+      "41044520",
+      "32756534",
+      "41291978",
+      "40320470",
+      "34536521",
+      "40500570",
+      "38774257",
+      "39351239",
+      "40374840",
+      "40790764",
+      "41146237",
+      "39342024",
+      "41511918",
+      "41316541",
+      "33437215",
+      "40245021",
+      "32575108",
+      "36506310",
+      "30132538",
+      "33640831",
+      "39182249",
+      "39466354",
+      "31703725",
+      "32598242",
+      "40340571",
+      "37359526",
+      "39387979",
+      "38701300",
+      "36195955",
+      "34313877",
+      "37235492",
+      "39097701",
+      "41940395",
+      "40178603",
+      "39375405",
+      "39341981",
+      "39284931",
+      "38384969",
+      "40763562",
+      "38268224",
+      "39713769",
+      "41716396",
+      "34233597",
+      "41258630",
+      "35403252",
+      "39586719",
+      "39556279",
+      "39403102",
+      "34390411",
+      "41300749",
+      "38899746",
+      "32435051",
+      "38013317",
+      "41544137",
+      "34814332",
+      "38902567",
+      "36056316",
+      "42164373",
+      "30633343",
+      "34160465",
+      "33950960",
+      "39125762",
+      "31424263",
+      "40068024",
+      "39945271",
+      "40574839",
+      "30542696",
+      "41104127",
+      "39251231",
+      "32626989",
+      "38355637",
+      "35658960",
+      "40091022",
+      "34218797",
+      "37212262",
+      "38847690",
+      "35346191",
+      "38863714",
+      "41251871",
+      "40859027",
+      "31258663",
+      "31772617",
+      "42172251",
+      "41316378",
+      "38912048"
+    ],
+    "review": [
+      "39972407",
+      "39387979"
+    ],
+    "pmc": [
+      "11841330"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-025-06512-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/schizophrenia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Schizophrenia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39972407/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ENTPD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3897",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

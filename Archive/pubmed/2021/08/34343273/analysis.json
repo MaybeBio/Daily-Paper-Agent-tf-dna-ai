@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34343273",
+  "title": "SAMPDI-3D: predicting the effects of protein and DNA mutations on protein-DNA interactions.",
+  "authors": "Li, Gen; Panday, Shailesh Kumar; Peng, Yunhui; Alexov, Emil",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2021-08-04",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用梯度提升决策树机器学习方法预测蛋白和DNA突变对蛋白-DNA结合自由能变化的影响，核心聚焦蛋白-DNA互作结合亲和力建模，方法为AI且可迁移至TF-DNA体系，高度匹配课题。",
+  "abstract": "MOTIVATION: Mutations that alter protein-DNA interactions may be pathogenic and cause diseases. Therefore, it is extremely important to quantify the effect of mutations on protein-DNA binding free energy to reveal the molecular origin of diseases and to assist the development of treatments. Although several methods that predict the change of protein-DNA binding affinity upon mutations in the binding protein were developed, the effect of DNA mutations was not considered yet. RESULTS: Here, we report a new version of SAMPDI, the SAMPDI-3D, which is a gradient boosting decision tree machine learning method to predict the change of the protein-DNA binding free energy caused by mutations in both the binding protein and the bases of the corresponding DNA. The method is shown to achieve Pearson correlation coefficient of 0.76 and 0.80 in a benchmarking test against experimentally determined change of the binding free energy caused by mutations in the binding protein or DNA, respectively. Furthermore, three datasets collected from literature were used to do blind benchmark for SAMPDI-3D and it is shown that it outperforms all existing state-of-the-art methods. The method is very fast allowing for genome-scale investigations. AVAILABILITYAND IMPLEMENTATION: It is available as a web server and a stand-code at http://compbio.clemson.edu/SAMPDI-3D/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：改变蛋白质-DNA相互作用的突变可能具有致病性并导致疾病。因此，量化突变对蛋白质-DNA结合自由能的影响，以揭示疾病的分子起源并辅助治疗开发，极为重要。尽管已有多种方法预测结合蛋白中突变引起的蛋白质-DNA结合亲和力变化，但DNA突变的影响尚未被考虑。结果：在此，我们报告了新版本的SAMPDI，即SAMPDI-3D，这是一种梯度提升决策树机器学习方法，用于预测由结合蛋白及其对应DNA碱基中的突变引起的蛋白质-DNA结合自由能变化。该方法在基准测试中，针对实验确定的由结合蛋白或DNA突变引起的结合自由能变化，分别实现了0.76和0.80的皮尔逊相关系数。此外，使用从文献中收集的三个数据集对SAMPDI-3D进行了盲测，结果显示其优于所有现有的最先进方法。该方法速度极快，适用于基因组规模的研究。可用性与实现：该方法可作为网络服务器和独立代码获取，网址为http://compbio.clemson.edu/SAMPDI-3D/。补充信息：补充数据可在《生物信息学》在线版获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34343273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34343273/",
+  "paper_page_path": "papers/pubmed/34343273/index.html"
+}

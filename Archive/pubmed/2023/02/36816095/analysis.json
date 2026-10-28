@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36816095",
+  "title": "Automated Molecular Subtyping of Breast Carcinoma Using Deep Learning Techniques.",
+  "authors": "Niyas, S; Bygari, Ramya; Naik, Rachita; Viswanath, Bhavishya; Ugwekar, Dhananjay; Mathew, Tojo; Kavya, J; Kini, Jyoti R; Rajan, Jeny",
+  "journal": "IEEE journal of translational engineering in health and medicine",
+  "published_date": "2023-02-24",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习对乳腺癌IHC图像进行分子分型，属于纯图像分割与临床病理分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: Molecular subtyping is an important procedure for prognosis and targeted therapy of breast carcinoma, the most common type of malignancy affecting women. Immunohistochemistry (IHC) analysis is the widely accepted method for molecular subtyping. It involves the assessment of the four molecular biomarkers namely estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor 2 (HER2), and antigen Ki67 using appropriate antibody reagents. Conventionally, these biomarkers are assessed manually by a pathologist, who finally combines individual results to identify the molecular subtype. Molecular subtyping necessitates the status of all the four biomarkers together, and to the best of our knowledge, no such automated method exists. This paper proposes a novel deep learning framework for automatic molecular subtyping of breast cancer from IHC images. METHODS AND PROCEDURES: A modified LadderNet architecture is proposed to segment the immunopositive elements from ER, PR, HER2, and Ki67 biomarker slides. This architecture uses long skip connections to pass encoder feature space from different semantic levels to the decoder layers, allowing concurrent learning with multi-scale features. The entire architecture is an ensemble of multiple fully convolutional neural networks, and learning pathways are chosen adaptively based on input data. The segmentation stage is followed by a post-processing stage to quantify the extent of immunopositive elements to predict the final status for each biomarker. RESULTS: The performance of segmentation models for each IHC biomarker is evaluated qualitatively and quantitatively. Furthermore, the biomarker prediction results are also evaluated. The results obtained by our method are highly in concordance with manual assessment by pathologists. CLINICAL IMPACT: Accurate automated molecular subtyping can speed up this pathology procedure, reduce pathologists' workload and associated costs, and facilitate targeted treatment to obtain better outcomes.",
+  "abstract_zh": "目的：分子分型是乳腺癌（影响女性最常见的恶性肿瘤类型）预后和靶向治疗的重要步骤。免疫组织化学（Immunohistochemistry, IHC）分析是广泛接受的分子分型方法，涉及使用适当的抗体试剂评估四种分子生物标志物，即雌激素受体（estrogen receptor, ER）、孕激素受体（progesterone receptor, PR）、人表皮生长因子受体2（human epidermal growth factor receptor 2, HER2）和抗原Ki67。传统上，这些生物标志物由病理学家手动评估，最终结合各项结果以确定分子亚型。分子分型需要同时考虑所有四种生物标志物的状态，据我们所知，目前尚无此类自动化方法。本文提出了一种新颖的深度学习框架，用于从IHC图像中自动进行乳腺癌分子分型。方法与程序：提出了一种改进的LadderNet架构，用于从ER、PR、HER2和Ki67生物标志物切片中分割免疫阳性元素。该架构使用长跳跃连接，将不同语义级别的编码器特征空间传递到解码器层，实现多尺度特征的并行学习。整个架构是多个全卷积神经网络的集成，学习路径根据输入数据自适应选择。分割阶段之后是后处理阶段，用于量化免疫阳性元素的程度，以预测每种生物标志物的最终状态。结果：对每种IHC生物标志物的分割模型性能进行了定性和定量评估。此外，还评估了生物标志物预测结果。我们方法获得的结果与病理学家手动评估高度一致。临床影响：准确的自动化分子分型可以加速这一病理学流程，减轻病理学家的工作负担及相关成本，并促进靶向治疗以获得更好的结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36816095/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36816095/",
+  "paper_page_path": "papers/pubmed/36816095/index.html"
+}

@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "41807414",
+    "doi": "10.1038/s41467-026-70554-5",
+    "title": "A meta learning and task adaptive approach for drug target affinity prediction."
+  },
+  "content": {
+    "abstract": "Accurate and robust prediction of drug-target affinity (DTA) plays a critical role in drug discovery. While deep learning has advanced DTA prediction, existing methods struggle with limited training data and poor generalization. In this study, we propose AdaMBind, a novel DTA prediction model based on meta-learning framework with an adaptive task module designed for low-data scenarios. It employs a dynamic \"easy-to-hard\" task scheduling mechanism to enhance training efficiency and robustness. Experimental results on three benchmark datasets demonstrate that AdaMBind outperforms 8 baseline models in predicting affinity for unseen targets, particularly under few-shot conditions. Under stringent data constraints, the model successfully identifies high-affinity compounds for ESR and TP53, achieving outstanding virtual screening performance. Furthermore, when applied to inhibitor discovery against FLT3 for acute myeloid leukemia, AdaMBind successfully identified candidate compounds with potent inhibitory activity, as verified by preliminary experimental assays. In summary, AdaMBind provides a robust framework for few-shot DTA prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Drug Discovery/methods",
+      "Prediction Algorithms",
+      "Humans",
+      "Predictive Learning Models",
+      "Deep Learning",
+      "Tumor Suppressor Protein p53/metabolism/antagonists & inhibitors",
+      "Adaptive Algorithms",
+      "fms-Like Tyrosine Kinase 3/antagonists & inhibitors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wan, Mengxuan",
+        "Zhao, Yanpeng",
+        "Zhang, Yixin",
+        "Xu, Huiyan",
+        "Yi, Duoyun",
+        "Zan, Peng",
+        "He, Song",
+        "Bo, Xiaochen"
+      ],
+      "short_names": [
+        "Wan M",
+        "Zhao Y",
+        "Zhang Y",
+        "Xu H",
+        "Yi D",
+        "Zan P",
+        "He S",
+        "Bo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2117-630X",
+        "ORCID: 0000-0003-2588-2188",
+        "ORCID: 0000-0002-4136-6151",
+        "ORCID: 0000-0003-1911-7922"
+      ],
+      "affiliations": [
+        "School of Medicine, Shanghai University, Shanghai, China.",
+        "Academy of Military Medical Sciences, Beijing, China.",
+        "School of Medicine, Shanghai University, Shanghai, China.",
+        "Academy of Military Medical Sciences, Beijing, China.",
+        "Academy of Military Medical Sciences, Beijing, China.",
+        "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China.",
+        "Academy of Military Medical Sciences, Beijing, China.",
+        "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China.",
+        "School of Medicine, Shanghai University, Shanghai, China. zanpeng@shu.edu.cn.",
+        "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China. zanpeng@shu.edu.cn.",
+        "Academy of Military Medical Sciences, Beijing, China. hes1224@163.com.",
+        "Academy of Military Medical Sciences, Beijing, China. boxc@bmi.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wan, Mengxuan",
+        "short_name": "Wan M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Shanghai University, Shanghai, China.",
+          "Academy of Military Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yanpeng",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-2117-630X"
+        ],
+        "affiliations": [
+          "School of Medicine, Shanghai University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yixin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Huiyan",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing, China.",
+          "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Duoyun",
+        "short_name": "Yi D",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing, China.",
+          "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zan, Peng",
+        "short_name": "Zan P",
+        "identifiers": [
+          "0000-0003-2588-2188"
+        ],
+        "affiliations": [
+          "School of Medicine, Shanghai University, Shanghai, China. zanpeng@shu.edu.cn.",
+          "Shanghai Key Laboratory of Power Station Automation Technology, School of Mechatronics Engineering and Automation, Shanghai University, Shanghai, China. zanpeng@shu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Song",
+        "short_name": "He S",
+        "identifiers": [
+          "0000-0002-4136-6151"
+        ],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing, China. hes1224@163.com."
+        ]
+      },
+      {
+        "full_name": "Bo, Xiaochen",
+        "short_name": "Bo X",
+        "identifiers": [
+          "0000-0003-1911-7922"
+        ],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing, China. boxc@bmi.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:56",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42545448"
+    ],
+    "refs": [
+      "39365726",
+      "39183297",
+      "38517694",
+      "38265905",
+      "38221904",
+      "38194961",
+      "38181572",
+      "38141210",
+      "38030641",
+      "37983161",
+      "37976593",
+      "37597410",
+      "37023142",
+      "36708000",
+      "36342217",
+      "36305812",
+      "35008101",
+      "34948055",
+      "34896257",
+      "34652996",
+      "32282202",
+      "31824921",
+      "31487867",
+      "31101454",
+      "30976107",
+      "30568173",
+      "30472429",
+      "30423097",
+      "29528376",
+      "29126136",
+      "28644114",
+      "27895058",
+      "27411231",
+      "26283676",
+      "25098269",
+      "24521231",
+      "22037378",
+      "20105026",
+      "19654408",
+      "19499576",
+      "19068426",
+      "18478346",
+      "17288412",
+      "17145705",
+      "16912228",
+      "7630882"
+    ],
+    "similar": [
+      "41807414",
+      "36071406",
+      "42131843",
+      "39133595",
+      "38365583",
+      "39208057",
+      "40715097",
+      "40811267",
+      "41540516",
+      "41589601",
+      "42475469",
+      "41636346",
+      "41547300",
+      "40031740",
+      "37903413",
+      "41077294",
+      "38930976",
+      "38608327",
+      "40811402",
+      "41818722",
+      "38940179",
+      "41233668",
+      "37983161",
+      "39833138",
+      "37000857",
+      "40811270",
+      "41973256",
+      "39792322",
+      "40989310",
+      "38888163",
+      "35134828",
+      "39639198",
+      "41405961",
+      "41806518",
+      "42486025",
+      "41285097",
+      "42692314",
+      "42622746",
+      "37597410",
+      "40149941",
+      "38552281",
+      "42420390",
+      "41222841",
+      "40030699",
+      "40662832",
+      "37176031",
+      "42295634",
+      "36960771",
+      "41171175",
+      "42476249",
+      "38536684",
+      "30372617",
+      "40073710",
+      "37976593",
+      "39183297",
+      "38181572",
+      "38724911",
+      "41481576",
+      "42024183",
+      "38598378",
+      "42286075",
+      "42296331",
+      "41025463",
+      "42288645",
+      "41608985",
+      "40019659",
+      "41478193",
+      "42286477",
+      "41642902",
+      "41299450",
+      "35292100",
+      "39998589",
+      "39878060",
+      "39772628",
+      "42032471",
+      "41527527",
+      "39321746",
+      "36943645",
+      "40857188",
+      "38767996",
+      "38190664",
+      "41564724",
+      "40814226",
+      "38628639",
+      "36804213",
+      "42053777",
+      "36083952",
+      "38791165",
+      "42541540",
+      "40288256",
+      "41963700",
+      "41870652",
+      "36155250",
+      "41441912",
+      "39961610",
+      "40346536",
+      "40890450",
+      "42334640",
+      "41820521",
+      "40447614"
+    ],
+    "review": [
+      "41807414",
+      "38608327"
+    ],
+    "pmc": [
+      "13102954"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70554-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41807414/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

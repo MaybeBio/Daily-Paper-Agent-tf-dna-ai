@@ -1,0 +1,229 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2024-87xr8",
+  "title": "Computing Ligand Binding Free Energy in a Large Flexible Pocket of a Large Protein",
+  "doi": "10.26434/chemrxiv-2024-87xr8",
+  "abstract": "Protein-ligand standard binding free energy (SBFE) calculations based on molecular dynamics simulations have recently emerged as an efficient tool for computer-aided drug design. However, the majority of studies have focused on well-defined ligand binding pockets in small proteins, while computing SBFE of a small molecule ligand to a large, flexible binding site remains problematic. Numerous proteins with large flexible binding pockets play an important role in biological processes and are of pharmaceutical importance. Therefore, the calculation of the ligand SBFE with such proteins is an important challenge. In this work, we developed a hierarchical approach to compute SBFE of a flexible multi-conformational system as an ensemble average of individual local SBFEs to specific conformational states of the protein-ligand complex. This approach allows us to simulate a truncated portion of a large protein, which brings an intractable system within the reach of modern computational tools. Our approach also accounts for the differences in conformational preferences between a ligand-bound and an apo states of the protein. The approach is validated using the T4 lysozyme mutant in complex with a small molecule inhibitor. Binding energies of a non-competitive antagonist (GYKI) with the GluA2 glutamate receptor of AMPA type (AMPAR) are computed for several poses of GYKI in the binding pocket to help facilitate structure validation at relatively low resolution.",
+  "authors": [
+    "Evgeny Gutkin",
+    "Chamali Narangoda",
+    "Maria Kurnikova"
+  ],
+  "published_date": "2024-11-10",
+  "updated_date": "2024-11-10T23:58:55Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2024-87xr8",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-87xr8",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:55:26Z",
+        "timestamp": 1785437726721,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            10
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2024-11-10T00:00:00Z",
+            "timestamp": 1731196800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-ligand standard binding free energy (SBFE) calculations based on molecular dynamics simulations have recently emerged as an efficient tool for computer-aided drug design. However, the majority of studies have focused on well-defined ligand binding pockets in small proteins, while computing SBFE of a small molecule ligand to a large, flexible binding site remains problematic. Numerous proteins with large flexible binding pockets play an important role in biological processes and are of pharmaceutical importance. Therefore, the calculation of the ligand SBFE with such proteins is an important challenge. In this work, we developed a hierarchical approach to compute SBFE of a flexible multi-conformational system as an ensemble average of individual local SBFEs to specific conformational states of the protein-ligand complex. This approach allows us to simulate a truncated portion of a large protein, which brings an intractable system within the reach of modern computational tools. Our approach also accounts for the differences in conformational preferences between a ligand-bound and an apo states of the protein. The approach is validated using the T4 lysozyme mutant in complex with a small molecule inhibitor. Binding energies of a non-competitive antagonist (GYKI) with the GluA2 glutamate receptor of AMPA type (AMPAR) are computed for several poses of GYKI in the binding pocket to help facilitate structure validation at relatively low resolution.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2024-87xr8",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2024-11-10T23:58:55Z",
+        "timestamp": 1731283135000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Computing Ligand Binding Free Energy in a Large Flexible Pocket of a Large Protein"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4522-6049",
+          "authenticated-orcid": false,
+          "given": "Evgeny",
+          "family": "Gutkin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6786-3992",
+          "authenticated-orcid": false,
+          "given": "Chamali",
+          "family": "Narangoda",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8010-8374",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Kurnikova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-87xr8",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:26:11Z",
+        "timestamp": 1778750771000
+      },
+      "score": 99.84208,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-87xr8"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            10
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2024-87xr8",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "41977330",
+    "doi": "10.3390/ijms27073145",
+    "title": "Binding Affinity and Interaction Profiles of Erinacines and Erinacerins with iNOS and NF-kappaB Revealed by Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Chronic neuroinflammation driven by microglial activation is a pathological hallmark of neurodegenerative diseases, and the NF-kappaB/iNOS signaling axis plays a central role in propagating this damage. NF-kappaB-mediated iNOS transcription generates excessive nitric oxide, causing oxidative neuronal injury. The medicinal mushroom Hericium erinaceus produces cyathane diterpenoid erinacines and isoindolinone erinacerins, both reported to attenuate neuroinflammation; however, the molecular basis of their interactions with iNOS and NF-kappaB remains poorly characterized. We screened 21 erinacerins and 18 erinacines against both targets using validated molecular docking, then subjected top-ranked candidates and negative controls to 100 ns molecular dynamics simulations, MM-PBSA binding free energy calculations (+/-SEM), per-residue energy decomposition, backbone RMSD, and ligand-protein minimum distance analyses, with quercetin as reference. The analysis revealed scaffold-dependent target selectivity: erinacerins exhibited preferential stability with iNOS (erinacerin L: RMSD 0.185 nm), whereas erinacines formed more stable complexes with NF-kappaB (erinacines G and J: RMSD < 0.36 nm). Minimum-distance monitoring confirmed that the elevated ligand RMSD in iNOS predominantly reflected surface relocation rather than dissociation. Erinacine S emerged as the most promising dual-target candidate (DeltaGbind: -24.31 +/- 0.16 and -14.24 +/- 0.11 kcal/mol for iNOS and NF-kappaB, respectively), over twofold stronger than quercetin for iNOS. Negative controls revealed that docking-based ranking was target-dependent in its discriminative capacity, underscoring the need for MD-based refinement. These results identify erinacine S as a priority candidate for experimental validation.",
+    "keywords": [
+      "Hericium erinaceus",
+      "MM-PBSA",
+      "NF-kappaB",
+      "binding affinity",
+      "erinacerins",
+      "erinacines",
+      "iNOS",
+      "molecular docking",
+      "molecular dynamics",
+      "neuroinflammation"
+    ],
+    "mesh_terms": [
+      "*Nitric Oxide Synthase Type II/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*NF-kappa B/metabolism/chemistry",
+      "Molecular Docking Simulation",
+      "*Diterpenes/chemistry/metabolism/pharmacology",
+      "Protein Binding",
+      "Humans",
+      "Hericium/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hernandez-Munguia, April Michelle",
+        "Reyes-Chaparro, Andres",
+        "Fregoso-Aguilar, Tomas Alejandro",
+        "Tenorio-Barajas, Aldo Yair",
+        "Mendoza-Perez, Jorge Alberto",
+        "Aguilar-Garay, Ricardo",
+        "Nicolas-Alvarez, Dulce E"
+      ],
+      "short_names": [
+        "Hernandez-Munguia AM",
+        "Reyes-Chaparro A",
+        "Fregoso-Aguilar TA",
+        "Tenorio-Barajas AY",
+        "Mendoza-Perez JA",
+        "Aguilar-Garay R",
+        "Nicolas-Alvarez DE"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1755-4859",
+        "ORCID: 0000-0002-6677-0740",
+        "ORCID: 0000-0003-0824-1792",
+        "ORCID: 0000-0001-7256-5199",
+        "ORCID: 0000-0002-8651-3506",
+        "ORCID: 0000-0002-3566-1330",
+        "ORCID: 0000-0002-1717-9081"
+      ],
+      "affiliations": [
+        "Laboratorio de Hormonas y Conducta, Departamento de Fisiologia, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico.",
+        "Departamento de Morfologia, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 11340, Mexico.",
+        "Laboratorio de Hormonas y Conducta, Departamento de Fisiologia, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico.",
+        "Laboratorio de Nanobiotecnologia, Facultad de Ciencias Fisico Matematicas, Benemerita Universidad de Puebla, Av. San Cladio y 18 Sur, Col. San Manuel, Edif. FM6-108, Ciudad Universitaria, Puebla 72570, Mexico.",
+        "Laboratorio de Tecnologias Limpias, Desarrollo de Procesos Ambientales e Ingenieria Verde, Departamento de Ingenieria en Sistemas Ambientales, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico.",
+        "Laboratorio de Hormonas y Conducta, Departamento de Fisiologia, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico.",
+        "Laboratorio de Tecnologias Limpias, Desarrollo de Procesos Ambientales e Ingenieria Verde, Departamento de Ingenieria en Sistemas Ambientales, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico.",
+        "Laboratorio de Hormonas y Conducta, Departamento de Fisiologia, Escuela Nacional de Ciencias Biologicas, Instituto Politecnico Nacional, Ciudad de Mexico 07700, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hernandez-Munguia, April Michelle",
+        "short_name": "Hernandez-Munguia AM",
+        "identifiers": [
+          "0009-0004-1755-4859"
+        ],
+        "affiliations": [
+          "Laboratorio de Hormonas y Conducta, Departamento de Fisiología, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico."
+        ]
+      },
+      {
+        "full_name": "Reyes-Chaparro, Andrés",
+        "short_name": "Reyes-Chaparro A",
+        "identifiers": [
+          "0000-0002-6677-0740"
+        ],
+        "affiliations": [
+          "Departamento de Morfología, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 11340, Mexico."
+        ]
+      },
+      {
+        "full_name": "Fregoso-Aguilar, Tomas Alejandro",
+        "short_name": "Fregoso-Aguilar TA",
+        "identifiers": [
+          "0000-0003-0824-1792"
+        ],
+        "affiliations": [
+          "Laboratorio de Hormonas y Conducta, Departamento de Fisiología, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico."
+        ]
+      },
+      {
+        "full_name": "Tenorio-Barajas, Aldo Yair",
+        "short_name": "Tenorio-Barajas AY",
+        "identifiers": [
+          "0000-0001-7256-5199"
+        ],
+        "affiliations": [
+          "Laboratorio de Nanobiotecnologia, Facultad de Ciencias Físico Matemáticas, Benemerita Universidad de Puebla, Av. San Cladio y 18 Sur, Col. San Manuel, Edif. FM6-108, Ciudad Universitaria, Puebla 72570, Mexico."
+        ]
+      },
+      {
+        "full_name": "Mendoza-Pérez, Jorge Alberto",
+        "short_name": "Mendoza-Pérez JA",
+        "identifiers": [
+          "0000-0002-8651-3506"
+        ],
+        "affiliations": [
+          "Laboratorio de Tecnologías Limpias, Desarrollo de Procesos Ambientales e Ingeniería Verde, Departamento de Ingeniería en Sistemas Ambientales, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico."
+        ]
+      },
+      {
+        "full_name": "Aguilar-Garay, Ricardo",
+        "short_name": "Aguilar-Garay R",
+        "identifiers": [
+          "0000-0002-3566-1330"
+        ],
+        "affiliations": [
+          "Laboratorio de Hormonas y Conducta, Departamento de Fisiología, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico.",
+          "Laboratorio de Tecnologías Limpias, Desarrollo de Procesos Ambientales e Ingeniería Verde, Departamento de Ingeniería en Sistemas Ambientales, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico."
+        ]
+      },
+      {
+        "full_name": "Nicolás-Álvarez, Dulce E",
+        "short_name": "Nicolás-Álvarez DE",
+        "identifiers": [
+          "0000-0002-1717-9081"
+        ],
+        "affiliations": [
+          "Laboratorio de Hormonas y Conducta, Departamento de Fisiología, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Ciudad de México 07700, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Mar 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 06:32",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38951436",
+      "38433280",
+      "38398564",
+      "37687209",
+      "37100941",
+      "36803602",
+      "35054997",
+      "34998485",
+      "34630027",
+      "34586825",
+      "34361662",
+      "34278794",
+      "33435246",
+      "32162523",
+      "31547327",
+      "31022946",
+      "30186166",
+      "30061498",
+      "29951133",
+      "29364170",
+      "28256516",
+      "27819658",
+      "27412492",
+      "26990767",
+      "26244378",
+      "26205061",
+      "25565282",
+      "25558886",
+      "25167134",
+      "21117705",
+      "21033739",
+      "19399780",
+      "18849972",
+      "18274639",
+      "17882254",
+      "17212484",
+      "16171798",
+      "15264254",
+      "11259830",
+      "11213362",
+      "9717962"
+    ],
+    "similar": [
+      "41977330",
+      "42302947",
+      "41121478",
+      "42000649",
+      "42070473",
+      "41417815",
+      "30415122",
+      "42280394",
+      "31547327",
+      "42011130",
+      "38760355",
+      "41621295",
+      "30295165",
+      "40973684",
+      "33815659",
+      "34090414",
+      "12057007",
+      "42576455",
+      "40651433",
+      "42488094",
+      "42295684",
+      "35972751",
+      "32915501",
+      "40129159",
+      "42431281",
+      "39775383",
+      "11551948",
+      "42434172",
+      "42042067",
+      "40649339",
+      "41825171",
+      "41771473",
+      "35807562",
+      "39355861",
+      "40262123",
+      "37301608",
+      "40033499",
+      "41265260",
+      "37308226",
+      "26467650",
+      "42159125",
+      "11755929",
+      "41534756",
+      "22826608",
+      "34343646",
+      "41045314",
+      "33164832",
+      "41396357",
+      "42043606",
+      "10085153",
+      "41795298",
+      "42585268",
+      "40714410",
+      "42399461",
+      "41801298",
+      "40616975",
+      "39275052",
+      "39948258",
+      "23454417",
+      "41788045",
+      "39938176",
+      "11131279",
+      "41924773",
+      "39766197",
+      "12427126",
+      "42108770",
+      "11254551",
+      "42069157",
+      "40273561",
+      "36789516",
+      "41713229",
+      "41579555",
+      "40157706",
+      "42390567",
+      "25167134",
+      "11156959",
+      "42208171",
+      "9446561",
+      "11110796",
+      "42344111",
+      "24985096",
+      "41888226",
+      "41844019",
+      "42265167",
+      "14638407",
+      "28099528",
+      "42295420",
+      "37394802",
+      "11921057",
+      "35447407",
+      "40737296",
+      "42150247",
+      "37054525",
+      "10066820",
+      "42535608",
+      "41780347",
+      "28634786",
+      "41349705",
+      "23735482",
+      "16527246"
+    ],
+    "review": [
+      "41977330",
+      "41801298"
+    ],
+    "pmc": [
+      "13073928"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27073145",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41977330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

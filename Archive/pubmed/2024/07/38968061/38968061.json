@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "38968061",
+    "doi": "10.3233/THC-231051",
+    "title": "Integrating network pharmacology and Mendelian randomization to explore potential targets of matrine against ovarian cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Matrine has been reported inhibitory effects on ovarian cancer (OC) cell progression, development, and apoptosis. However, the molecular targets of matrine against OC and the underlying mechanisms of action remain elusive. OBJECTIVE: This study endeavors to unveil the potential targets of matrine against OC and to explore the intricate relationships between these targets and the pathogenesis of OC. METHODS: The effects of matrine on the OC cells (A2780 and AKOV3) viability, apoptosis, migration, and invasion was investigated through CCK-8, flow cytometry, wound healing, and Transwell analyses, respectively. Next, Matrine-related targets, OC-related genes, and ribonucleic acid (RNA) sequence data were harnessed from publicly available databases. Differentially expressed analyses, protein-protein interaction (PPI) network, and Venn diagram were involved to unravel the core targets of matrine against OC. Leveraging the GEPIA database, we further validated the expression levels of these core targets between OC cases and controls. Mendelian randomization (MR) study was implemented to delve into potential causal associations between core targets and OC. The AutoDock software was used for molecular docking, and its results were further validated using RT-qPCR in OC cell lines. RESULTS: Matrine reduced the cell viability, migration, invasion and increased the cell apoptosis of A2780 and AKOV3 cells (P< 0.01). A PPI network with 578 interactions among 105 candidate targets was developed. Finally, six core targets (TP53, CCND1, STAT3, LI1B, VEGFA, and CCL2) were derived, among which five core targets (TP53, CCND1, LI1B, VEGFA, and CCL2) differential expressed in OC and control samples were further picked for MR analysis. The results revealed that CCND1 and TP53 were risk factors for OC. Molecular docking analysis demonstrated that matrine had good potential to bind to TP53, CCND1, and IL1B. Moreover, matrine reduced the expression of CCND1 and IL1B while elevating P53 expression in OC cell lines. CONCLUSIONS: We identified six matrine-related targets against OC, offering novel insights into the molecular mechanisms underlying the therapeutic effects of matrine against OC. These findings provide valuable guidance for developing more efficient and targeted therapeutic approaches for treating OC.",
+    "keywords": [
+      "Matrine",
+      "Mendelian randomization",
+      "Ovarian cancer",
+      "molecular docking",
+      "target"
+    ],
+    "mesh_terms": [
+      "*Quinolizines/pharmacology",
+      "*Matrines",
+      "*Alkaloids/pharmacology",
+      "Humans",
+      "*Ovarian Neoplasms/drug therapy/genetics/pathology",
+      "Female",
+      "Cell Line, Tumor",
+      "*Network Pharmacology",
+      "*Molecular Docking Simulation",
+      "*Mendelian Randomization Analysis",
+      "Apoptosis/drug effects",
+      "Cell Movement/drug effects",
+      "Protein Interaction Maps",
+      "Tumor Suppressor Protein p53/genetics",
+      "Vascular Endothelial Growth Factor A/metabolism/genetics",
+      "Cyclin D1/genetics/metabolism",
+      "Cell Survival/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Xiaoqun",
+        "Song, Yingliang"
+      ],
+      "short_names": [
+        "Chen X",
+        "Song Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ultrasound, Affiliated Hospital of Shaoxing University (The Shaoxing Municipal Hospital), Shaoxing, Zhejiang, China.",
+        "Department of Gynaecology and Obstetrics, Xinchang County People's Hospital, Xinchang, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Xiaoqun",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Affiliated Hospital of Shaoxing University (The Shaoxing Municipal Hospital), Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yingliang",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Xinchang County People's Hospital, Xinchang, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology and health care : official journal of the European Society for Engineering and Medicine"
+    ],
+    "journal_abbrev": [
+      "Technol Health Care"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 18:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42127414"
+    ],
+    "refs": [
+      "37328812",
+      "35524552",
+      "34986599",
+      "34659889",
+      "34597654",
+      "34136095",
+      "33786627",
+      "33628311",
+      "33538338",
+      "33237311",
+      "33093476",
+      "33027558",
+      "32914876",
+      "31601793",
+      "31450922",
+      "31208196",
+      "31106366",
+      "31099893",
+      "30209783",
+      "28569269",
+      "28425270",
+      "27815305",
+      "27695879",
+      "27313731",
+      "26541098",
+      "26372896",
+      "25835351",
+      "24665023",
+      "24403492",
+      "24231072",
+      "23436775",
+      "22162124",
+      "22159447",
+      "22065993",
+      "21521830",
+      "20689021",
+      "20463001",
+      "18347178",
+      "16252735",
+      "11748975",
+      "9317174",
+      "7942844"
+    ],
+    "similar": [
+      "38968061",
+      "36976504",
+      "34597654",
+      "33786627",
+      "34614446",
+      "36062197",
+      "33517789",
+      "37282910",
+      "39310787",
+      "37605410",
+      "39293329",
+      "38032489",
+      "30466620",
+      "38789637",
+      "31601793",
+      "37799727",
+      "37366364",
+      "37287284",
+      "35178962",
+      "39948579",
+      "23092573",
+      "38381309",
+      "40259338",
+      "33164645",
+      "39238373",
+      "38446216",
+      "34029939",
+      "29356020",
+      "28000853",
+      "24088803",
+      "24554536",
+      "39415176",
+      "38243957",
+      "29845233",
+      "38415456",
+      "36193082",
+      "40031975",
+      "39701786",
+      "34088288",
+      "29155301",
+      "39823480",
+      "34306252",
+      "39457402",
+      "38809293",
+      "29119376",
+      "39654220",
+      "33912166",
+      "38561549",
+      "36977503",
+      "27650610",
+      "38971025",
+      "21061465",
+      "25629992",
+      "24510386",
+      "30209783",
+      "25712669",
+      "32915649",
+      "24716952",
+      "39061044",
+      "36216196",
+      "24718323",
+      "38783288",
+      "31119752",
+      "32505823",
+      "23056487",
+      "22832383",
+      "20930385",
+      "25371071",
+      "32862598",
+      "39429125",
+      "27959389",
+      "29045804",
+      "28447756",
+      "31609759",
+      "28656237",
+      "30236029",
+      "38914662",
+      "23404079",
+      "38864908",
+      "23912239",
+      "18392946",
+      "24452711",
+      "39257141",
+      "35430443",
+      "30370542",
+      "26034977",
+      "27773936",
+      "34159207",
+      "35771149",
+      "30155612",
+      "36403742",
+      "21519796",
+      "40259252",
+      "25572156",
+      "38571359",
+      "19166015",
+      "21717192",
+      "35220895",
+      "18412860",
+      "29845238"
+    ],
+    "review": [
+      "38968061"
+    ],
+    "pmc": [
+      "11613084"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.3233/THC-231051?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38968061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41826889",
+    "doi": "10.1186/s12884-026-08884-x",
+    "title": "Ferroptosis-related gene BACH1 is associated with preeclampsia and shows potential as a biomarker."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preeclampsia (PE) is a pregnancy-specific syndrome with unclear pathogenesis. Emerging evidence suggests that ferroptosis-related molecular pathways may be associated with oxidative stress and placental dysfunction observed in PE. In this study, we developed a PE classification model based on ferroptosis-related genes using machine learning and identified potential biomarkers. METHODS: We downloaded bulk and single-cell transcriptomic data of PE and normal placental tissues from the Gene Expression Omnibus (GEO) database. Ferroptosis-related genes were identified using weighted gene co-expression network analysis (WGCNA), differential expression analysis, and LASSO regression. Based on these genes, we developed a machine learning model to predict PE. Key marker genes were further selected using the random forest algorithm and validated in single-cell transcriptomic data. RESULTS: A total of 27 ferroptosis-related genes associated with PE were identified by overlapping 1,434 differentially expressed genes (DEGs) in PE, 268 known ferroptosis-related genes, and 1,151 PE-related genes. LASSO regression further selected 11 key genes with potential predictive value. Among them, BACH1 was significantly upregulated in PE and showed the strongest predictive performance as a single gene in the blood sample dataset (GSE48424). The machine learning classification model based on the selected genes exhibited strong discriminative performance, with the random forest classifier achieving an AUC of 0.87 in the test dataset (GSE75010). In the independent validation datasets (GSE149437, GSE25906, and GSE48424), the AUC values were 0.7, 0.78, and 0.81. Validation using the single-cell dataset GSE173193 confirmed that BACH1 was predominantly expressed in neutrophils from PE patients. CONCLUSIONS: This study established a transcriptomic classification model for preeclampsia based on ferroptosis-related genes and identified BACH1 as a ferroptosis-related gene associated with preeclampsia, with potential as a blood-based biomarker pending prospective validation.",
+    "keywords": [
+      "BACH1",
+      "Biomarker",
+      "Ferroptosis",
+      "Machine learning",
+      "Preeclampsia"
+    ],
+    "mesh_terms": [
+      "*Pre-Eclampsia/genetics/blood",
+      "Humans",
+      "Female",
+      "*Basic-Leucine Zipper Transcription Factors/genetics",
+      "*Ferroptosis/genetics",
+      "Pregnancy",
+      "Biomarkers/blood",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Predictive Learning Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Chenxu",
+        "Wang, Yuting",
+        "Wang, Liqun",
+        "Zhang, Ning",
+        "Liu, Yajun"
+      ],
+      "short_names": [
+        "Wu C",
+        "Wang Y",
+        "Wang L",
+        "Zhang N",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Life Science and Technology, ShanghaiTech University, Shanghai, 201203, China.",
+        "Department of Obstetrics, Qingdao Women and Children's Hospital, Qingdao University, Qingdao, Shandong Province, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province, China.",
+        "Department of Obstetrics, Affiliated Hospital of Qingdao University, No. 16 Jiangsu Road, Qingdao, Shandong Province, China.",
+        "Department of Obstetrics, Affiliated Hospital of Qingdao University, No. 16 Jiangsu Road, Qingdao, Shandong Province, China. yajunliu2025@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Chenxu",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, ShanghaiTech University, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuting",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Qingdao Women and Children's Hospital, Qingdao University, Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liqun",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ning",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Affiliated Hospital of Qingdao University, No. 16 Jiangsu Road, Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yajun",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Affiliated Hospital of Qingdao University, No. 16 Jiangsu Road, Qingdao, Shandong Province, China. yajunliu2025@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pregnancy and childbirth"
+    ],
+    "journal_abbrev": [
+      "BMC Pregnancy Childbirth"
+    ],
+    "pub_date": "2026 Mar 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 06:34",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40751739",
+      "39315605",
+      "39062815",
+      "38200445",
+      "37817070",
+      "37729725",
+      "37227568",
+      "37020283",
+      "36446230",
+      "36357981",
+      "36310300",
+      "36300619",
+      "35883776",
+      "35190654",
+      "34665260",
+      "34531444",
+      "34195686",
+      "34025588",
+      "33707686",
+      "33537073",
+      "33046083",
+      "32971013",
+      "32413317",
+      "31926626",
+      "31595562",
+      "31277367",
+      "30792480",
+      "30664679",
+      "30406908",
+      "27160201",
+      "24349325",
+      "23034156",
+      "22632970",
+      "21183218",
+      "20598363",
+      "15947178",
+      "15733721"
+    ],
+    "similar": [
+      "41826889",
+      "39707003",
+      "37817070",
+      "40552285",
+      "42564306",
+      "40374866",
+      "41044520",
+      "41325315",
+      "40592741",
+      "39934690",
+      "36258174",
+      "39709373",
+      "41667698",
+      "42473750",
+      "40861438",
+      "39853851",
+      "40970657",
+      "39984919",
+      "41858783",
+      "40016711",
+      "41508240",
+      "40151199",
+      "35100981",
+      "40823529",
+      "42030320",
+      "41034826",
+      "36101331",
+      "40048749",
+      "40830558",
+      "38428097",
+      "39544937",
+      "38259479",
+      "37525915",
+      "41021591",
+      "39815029",
+      "38941397",
+      "41425595",
+      "39675129",
+      "37474873",
+      "41380586",
+      "41810647",
+      "42024670",
+      "36541903",
+      "36061193",
+      "40973872",
+      "41703488",
+      "38788026",
+      "42435052",
+      "40966021",
+      "42302511",
+      "41988156",
+      "40532551",
+      "40203595",
+      "42140017",
+      "41996226",
+      "39586719",
+      "41106221",
+      "41405396",
+      "40442789",
+      "41407310",
+      "42267557",
+      "35711567",
+      "40901474",
+      "38650009",
+      "41656803",
+      "40948782",
+      "31416885",
+      "40207223",
+      "42602620",
+      "42326009",
+      "40776827",
+      "41291841",
+      "40118372",
+      "36343018",
+      "41656195",
+      "39735537",
+      "42544308",
+      "37120553",
+      "42050225",
+      "40428318",
+      "40745616",
+      "42530267",
+      "38846957",
+      "42429909",
+      "40973864",
+      "42377012",
+      "33535891",
+      "35880174",
+      "42675787",
+      "41029776",
+      "40708018",
+      "40124361",
+      "38863714",
+      "40325818",
+      "40618698",
+      "42210128",
+      "41200172",
+      "41071246",
+      "41457818",
+      "39930027"
+    ],
+    "review": [
+      "41826889"
+    ],
+    "pmc": [
+      "13101171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-026-08884-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41826889/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRIP1-5",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-918",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and acknowledgements
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors present a minimal structure-based model of protein-DNA target search, combining electrostatic and hydrogen-bonding interactions, to construct free energy landscapes for protein diffusion and association/dissociation along DNA. They claim the model reproduces experimental diffusion coefficients, predicts sequence-dependent stepping patterns, and shows that protein dissociation is dominated by lateral diffusion to flanking sequences.
+- **Visible evidence base** Abstract, Sections I-V (Introduction, Methods, Results, Discussion), Figures 1-5 referenced, Table 1 referenced, Supplementary materials referenced
+- **Missing materials affecting confidence** Supplementary figures and derivations (S1, S2, S3, S4, S5, S10, S11) not provided; full parameter values and simulation details not fully specified; Figure contents not directly viewable
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially valuable theoretical framework for understanding protein-DNA target search dynamics. The central idea of constructing a 2D free energy landscape that couples diffusion and association/dissociation is conceptually appealing and could provide useful insights. However, the current presentation has several significant issues that need to be addressed. The model construction is described with insufficient detail in several places, making reproducibility difficult. The connection between the analytical derivations and numerical simulations is not always clear. Most critically, the manuscript makes strong claims about experimental consistency and predictive power that are not fully supported by the evidence presented. The writing is dense and at times unclear, with several typographical errors and undefined symbols that impede comprehension. The work has potential, but in its current form, the case is not fully established.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and molecular recognition would find this work relevant. Those studying transcription factor target search mechanisms, protein-DNA interactions, and facilitated diffusion models would be the primary audience. The work could also interest experimentalists using single-molecule techniques or high-throughput binding assays who seek theoretical frameworks to interpret their data. The connection between diffusion dynamics and binding affinity measurements is a topic of broad interest in gene regulation research.
+- **Major strengths** The manuscript addresses an important and timely problem in understanding how proteins search for specific DNA binding sites. The model attempts to bridge the gap between detailed molecular interactions and coarse-grained descriptions, which is a valuable goal. The explicit treatment of both electrostatic and hydrogen-bonding interactions within a tractable framework is commendable. The authors make concrete predictions about stepping patterns and dissociation pathways that could be experimentally testable. The discussion of how binding affinity measurements may be affected by flanking sequences and protein dynamics is thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model "well reproduces experimentally measured diffusion coefficients" and that the derived diffusion coefficients are "consistent with experimental measurements."
+  - **Evidence pointer** Section III.B, Figure 3B, location not provided
+  - **Concern** The comparison with experimental data is presented in a cursory manner. The manuscript states that the corrected diffusion coefficient is "close to the TF protein diffusion rates measured experimentally" but does not provide a systematic comparison with a range of experimental values, nor does it discuss the variability in experimental measurements across different systems. The specific experimental references cited (49) are not discussed in detail, and the criteria for "consistency" are not defined.
+  - **Why it matters** The claim of experimental consistency is a key validation of the model. Without a rigorous and transparent comparison, the reader cannot assess whether the agreement is meaningful or coincidental. This is particularly important because the model involves several simplifying assumptions and adjustable parameters.
+  - **Resolution test** Provide a quantitative comparison between model predictions and a compilation of experimental diffusion coefficients from multiple studies, including error bars and discussion of system-specific factors. Define the acceptance criteria for "consistency" and show sensitivity of results to parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the model captures "sequence-dependent protein sliding or stepping patterns along DNA" and that these are "regulated by collective interfacial HB dynamics."
+  - **Evidence pointer** Section III.B, Figure 4, location not provided
+  - **Concern** The analysis of stepping patterns relies on a measure of "collective HBs" defined in the text, but the definition is incomplete. The equation for this measure is not fully specified, and the criteria for identifying a "step" or "quasi-cycle" are not clearly defined. The distinction between 1-bp and multi-bp steps appears to be based on distances between free energy minima, but the statistical significance of these distinctions is not assessed. The claim that stepping patterns are "regulated" by HB dynamics implies causality that is not directly demonstrated.
+  - **Why it matters** The stepping patterns are a central prediction of the model and a claimed point of experimental testability. If the definitions and analysis methods are not transparent, the predictions cannot be properly evaluated or reproduced by others.
+  - **Resolution test** Provide complete definitions of the collective HB measure, step identification criteria, and statistical analysis methods. Show that the identified stepping patterns are robust to reasonable variations in these definitions. Demonstrate the causal link between HB dynamics and stepping through controlled perturbations or comparative analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the protein binding or association free energy profiling along DNA smoothens over the 1D diffusion free energy landscape" and that this leads to "population variations for an order of magnitude upon a marginal free energy smoothening."
+  - **Evidence pointer** Section III.A, Figure 2C, Table 1, location not provided
+  - **Concern** The relationship between the 2D free energy surface, the 1D diffusion profile, and the binding affinity profile is not fully clarified. The manuscript states that the binding profile "smoothens" over the diffusion profile, but the quantitative relationship between these quantities is not derived or explained in detail. The claim about "order of magnitude" population variations is presented without a clear derivation or sensitivity analysis. The comparison between the analytical and numerical results is not systematically shown.
+  - **Why it matters** This is a central conceptual claim of the paper, with implications for interpreting experimental binding measurements. If the relationship between diffusion and binding profiles is not rigorously established, the practical implications of the work are unclear.
+  - **Resolution test** Provide a clear mathematical derivation of the relationship between the 2D free energy surface, the 1D diffusion profile, and the binding affinity profile. Show explicitly how the smoothing arises from the integration over protein rotational degrees of freedom. Present a sensitivity analysis demonstrating the conditions under which the "order of magnitude" effect occurs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the protein unbinding or dissociation from a comparatively high-binding affinity DNA site is dominated by lateral diffusion to the flanking low-affinity sites."
+  - **Evidence pointer** Section III.B, Figure 5A-D, location not provided
+  - **Concern** The evidence for this claim is based on identifying "dominant paths" in the simulated dissociation trajectories. However, the criteria for classifying paths as "lateral diffusion first" versus "vertical" or "diffusion-coupled" are not clearly defined. The percentages quoted (93.5%, 3%, 3.5%) are presented without statistical uncertainty estimates. The dependence of these path distributions on model parameters, particularly the relative strengths of electrostatic versus HB interactions, is not explored.
+  - **Why it matters** This is a significant mechanistic claim with implications for understanding how proteins leave their binding sites. If the path classification is not robust or the result is highly parameter-dependent, the claim may not be generalizable.
+  - **Resolution test** Provide clear operational definitions of path categories with visual examples. Present statistical uncertainties and show robustness of the path distributions to parameter variations. Discuss the physical conditions under which the lateral diffusion pathway would or would not dominate.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes a "minimal structure-based model" and claims it is "computationally non-intensive."
+  - **Evidence pointer** Section II, location not provided
+  - **Concern** The model description lacks sufficient detail for reproduction. The total energy function in Equation 4 is not fully written out, with components only described verbally. The parameter values used in simulations are not systematically listed. The numerical integration scheme, time steps, and simulation lengths are not specified. The procedure for constructing the 2D free energy surface from simulations is not described in detail.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific work. Without complete model specifications, other researchers cannot build on this work or verify the results.
+  - **Resolution test** Provide a complete specification of the model, including all equations, parameters, and numerical procedures. Consider making simulation code available. Include a table of all parameter values used and their physical justification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and uses technical terms without sufficient context. The phrase "protein target search diffusion-association/dissociation free energy landscape" is unwieldy and could be simplified. The abstract does not clearly state the main quantitative findings or predictions.
+  - **Required correction** Rewrite the abstract to be more accessible, clearly stating the main results and their significance. Consider breaking down complex phrases into simpler terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Section I, location not provided
+  - **Issue** The introduction contains several typographical errors and unclear phrases. For example, "the studies rely on high-performance computing (HPC) and are resource demanding, hardly approaching to or beyond millisecond long time scale" is awkwardly phrased. The transition from discussing experimental challenges to introducing the model could be smoother.
+  - **Required correction** Proofread the introduction for typographical errors and improve sentence flow. Clarify the specific gap the model addresses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods
+  - **Evidence pointer** Section II.A, location not provided
+  - **Issue** The description of the Debye-Huckel potential is incomplete. The equation is referenced but not shown, and the effective charges are not fully defined. The relationship between the model parameters and physical quantities is not always clear.
+  - **Required correction** Provide the complete equation for the Debye-Huckel potential and define all variables. Clarify the physical interpretation of the effective charges and other parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Section III.A, location not provided
+  - **Issue** The distinction between the "binding free energy profile" and the "diffusion free energy landscape" is not always clear in the text. The symbols and notation used for these quantities are not consistently defined.
+  - **Required correction** Define all symbols and notation clearly. Use consistent terminology throughout the results section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Section IV, location not provided
+  - **Issue** The discussion of limitations is brief. The authors acknowledge that DNA is modeled as linear and static, but do not discuss the potential impact of DNA bending, supercoiling, or other structural features on their conclusions. The discussion of how the model could be extended is also limited.
+  - **Required correction** Expand the discussion of limitations and potential extensions. Consider addressing how the model might be adapted to account for more realistic DNA conformations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 1-5, location not provided
+  - **Issue** The figure captions are not provided in the manuscript text, making it difficult to assess the content of the figures. The figures are referenced in the text but their specific content is not described.
+  - **Required correction** Provide complete figure captions that describe the content of each panel. Ensure that all figures are referenced appropriately in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental comparison not rigorous), R1-M2 (stepping analysis not fully defined), R1-M3 (smoothing relationship not rigorously derived), R1-M4 (path classification not robustly defined), R1-M5 (model description incomplete for reproduction)
+- **Assessment against Nature-style criteria** Originality: The work presents a novel combination of electrostatic and hydrogen-bonding interactions in a tractable model for protein-DNA search, which is a creative contribution. However, the conceptual framework of facilitated diffusion is well-established, and the specific novelty of the model construction needs to be more clearly articulated. Scientific importance: The problem of protein-DNA target search is of significant importance in gene regulation. The potential connection between diffusion dynamics and binding affinity measurements is valuable. However, the importance is not fully demonstrated without rigorous validation of the model predictions. Interdisciplinary readership: The work bridges biophysics, computational biology, and molecular biology, which could appeal to a broad audience. However, the technical density and incomplete definitions may limit accessibility. Technical soundness: The model construction has a reasonable physical basis, but the incomplete specification and lack of rigorous validation undermine confidence. The analytical derivations are not fully shown, and the numerical methods are not described in sufficient detail. Readability for nonspecialists: The manuscript is challenging to read for nonspecialists due to dense technical language, undefined symbols, and incomplete explanations. The abstract and introduction could be made more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting conceptual framework with potentially valuable insights, but the technical details are insufficiently specified and the key claims are not rigorously validated. The authors should address the major concerns, particularly the experimental comparison, the definition of stepping analysis, the derivation of the smoothing relationship, and the completeness of the model description, before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that the model "well reproduces experimentally measured diffusion coefficients" is not rigorously supported due to the cursory comparison with experimental data.
+- The claim that "sequence-dependent protein sliding or stepping patterns" are "regulated by collective interfacial HB dynamics" is not fully supported due to incomplete definitions and lack of causal analysis.
+- The claim that binding affinity profiles "smoothen" over diffusion profiles leading to "order of magnitude" population variations is not rigorously derived or quantified.
+- The claim that protein dissociation is "dominated by lateral diffusion to the flanking low-affinity sites" is not robustly supported due to unclear path classification and lack of statistical analysis.
+- The quantitative values of free energy differences and diffusion coefficients presented in the text are not fully traceable to the model parameters and methods described.
+- The relationship between the model predictions and experimental measurements from PBM or ChIP-seq is asserted but not demonstrated with specific comparisons.

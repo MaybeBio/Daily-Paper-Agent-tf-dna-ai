@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.07.663595",
+  "title": "A Corporative Language Model for Protein–Protein Interaction, Binding Affinity, and Interface Contact Prediction",
+  "authors": "Jun Liu; Hungyu Chen; Yang Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-10",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出共表示蛋白语言模型PPLM用于蛋白-蛋白互作、结合亲和力及界面接触预测，虽非TF-DNA体系，但其双序列联合编码与互作建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Understanding protein–protein interactions (PPIs) is crucial for deciphering cellular processes and guiding therapeutic discovery. While recent protein language models have advanced sequence-based protein representation, most are designed for individual chains and fail to capture inherent PPI patterns. Here, we introduce a novel Protein–Protein Language Model (PPLM) that jointly encodes paired sequences, enabling direct learning of interaction-aware representations beyond what single-chain models can provide. Building on this foundation, we develop PPLM-PPI, PPLM-Affinity, and PPLM-Contact for binary interaction, binding affinity, and interface contact prediction. Large-scale experiments show that PPLM-PPI achieves state-of-the-art performance across different species on binary interaction prediction, while PPLM-Affinity outperforms both ESM2 and structure-based methods on binding affinity modeling, particularly on challenging cases including antibody–antigen and TCR–pMHC complexes. PPLM-Contact further surpasses existing contact predictors on inter-protein contact prediction and interface residue recognition, including those deduced from cutting-edge complex structure predictions. Together, these results highlight the potential of co-represented language models to advance computational modeling of PPIs.",
+  "abstract_zh": "理解蛋白质-蛋白质相互作用（PPIs）对于解析细胞过程和指导治疗发现至关重要。尽管近期蛋白质语言模型在基于序列的蛋白质表示方面取得了进展，但大多数模型针对单链设计，未能捕捉固有的PPI模式。在此，我们引入一种新型蛋白质-蛋白质语言模型（PPLM），该模型联合编码配对序列，能够直接学习超越单链模型所能提供的相互作用感知表示。基于此基础，我们开发了PPLM-PPI、PPLM-Affinity和PPLM-Contact，分别用于二元相互作用、结合亲和力和界面接触预测。大规模实验表明，PPLM-PPI在二元相互作用预测中跨物种实现了最先进性能，而PPLM-Affinity在结合亲和力建模方面优于ESM2和基于结构的方法，特别是在具有挑战性的案例中，包括抗体-抗原和TCR-pMHC复合物。PPLM-Contact进一步在蛋白质间接触预测和界面残基识别上超越了现有接触预测器，包括那些从尖端复合物结构预测中推导出的方法。综合这些结果，凸显了共表示语言模型在推进PPIs计算建模方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.07.663595",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.07.663595",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.07.663595/index.html"
+}

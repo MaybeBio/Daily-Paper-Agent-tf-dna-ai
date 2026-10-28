@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, discussion, conclusions, future directions)
+- **Assessment boundary** Scientific content, technical soundness, evidence quality, and alignment with stated aims; no assessment of formatting or editorial compliance
+- **Shared manuscript claim summary** The authors propose that machine learning models (RL, GNNs, Bayesian inference, GANs) can be applied to model molecular flux disruptions in ophthalmic diseases (glaucoma, ARMD, optic neuritis, ischemic optic neuropathy) to advance precision medicine. The paper is positioned as a systematic review of AI-driven methods in this context.
+- **Visible evidence base** Abstract, Sections 1–7, one table referenced (Table 1, not provided), 58 references cited (not individually verifiable from supplied material)
+- **Missing materials affecting confidence** Table 1 (referenced but not supplied), full reference list, any figures (e.g., Figure 1 referenced in Section 1), no empirical data, no case studies, no model validation results
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptual review of AI/ML methods applied to molecular flux modeling in ophthalmic diseases. The topic is timely and potentially relevant to the growing field of AI in precision medicine. However, the paper is largely speculative, lacks empirical evidence or concrete case demonstrations, and does not provide a systematic methodology for the review. The claims about clinical applicability are not supported by data or validated examples. The manuscript reads more as a perspective or opinion piece than a systematic review, and the scientific case for the proposed applications is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers and clinicians at the intersection of computational biology, AI, and ophthalmology may find the conceptual framework interesting. Those working on precision medicine approaches for optic neuropathies (glaucoma, optic neuritis) might see potential directions for future work. However, the lack of concrete results limits the audience to those seeking high-level conceptual overviews rather than actionable scientific findings.
+- **Major strengths** The manuscript addresses a relevant and emerging topic (AI in molecular modeling for ophthalmology). The authors correctly identify a gap in linking molecular-level dynamics to clinical ophthalmic outcomes. The structure of introducing four AI methods (RL, GNNs, Bayesian inference, GANs) in a unified framework is conceptually clear. The discussion of limitations (data constraints, interpretability, regulatory issues) shows awareness of real-world challenges.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The paper claims to "systematically review" AI-driven methods for ophthalmic precision medicine, implying a comprehensive and structured analysis.
+  - **Evidence pointer** Abstract, Section 1, Section 3
+  - **Concern** No systematic review methodology is described. There is no search strategy, inclusion/exclusion criteria, quality assessment, or synthesis framework. The selection of the four AI methods appears arbitrary, and the coverage of literature is not demonstrated to be comprehensive.
+  - **Why it matters** A systematic review requires transparent and reproducible methods to support its conclusions. Without this, the paper cannot be distinguished from a selective narrative review, and the claims of systematic coverage are unsupported.
+  - **Resolution test** Provide a clear methodology section detailing literature search databases, search terms, time range, inclusion/exclusion criteria, and a PRISMA-style flow diagram. Alternatively, reframe the paper as a perspective or narrative review and temper claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The paper claims that RL, GNNs, Bayesian inference, and GANs can "map and correct MF disruptions" and provide "clinically actionable" insights for ophthalmic diseases.
+  - **Evidence pointer** Section 3, Section 4, Section 5
+  - **Concern** The manuscript provides no empirical demonstrations, case studies, or validation results for any of the proposed AI applications. All statements about model performance, clinical utility, and predictive capability are hypothetical. The mathematical formulation (Fick's First Law) is presented but not connected to any actual model implementation or data.
+  - **Why it matters** For a scientific audience, claims about model capabilities require evidence of at least proof-of-concept demonstrations, benchmark results, or validation against real datasets. Without this, the technical feasibility of the proposed approaches remains unsubstantiated.
+  - **Resolution test** Include at least one worked example or pilot study showing how one of the AI methods is applied to a real or simulated ophthalmic dataset, with quantitative results. Alternatively, clearly label all statements as speculative and remove claims of demonstrated utility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The paper implies novelty in "the practical application of these models and the insights they offer" for ophthalmic precision medicine.
+  - **Evidence pointer** Section 3, Section 5
+  - **Concern** The manuscript does not clearly differentiate its contribution from existing reviews or prior work on AI in ophthalmology. The four AI methods discussed are well-established in computational biology, and their potential application to ophthalmic diseases has been discussed elsewhere. The paper does not identify a specific gap in the literature that it uniquely addresses.
+  - **Why it matters** For a review to be publishable, it must offer a novel synthesis, framework, or critical insight that advances the field beyond what is already known. The current manuscript does not articulate such a contribution.
+  - **Resolution test** Clearly state what is new about this review compared to existing literature. Provide a comparative analysis of prior reviews and specify the unique conceptual or practical contribution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The paper aims to bridge molecular biology with computational models for clinical ophthalmology, implying accessibility to both computational and clinical audiences.
+  - **Evidence pointer** Sections 1–5
+  - **Concern** The manuscript uses technical jargon from both AI (e.g., "reward structures," "node weighting") and molecular biology (e.g., "transcription factor binding," "molecular flux") without sufficient explanation for nonspecialists. Clinicians may struggle with the AI concepts, while computational readers may find the biological descriptions oversimplified.
+  - **Why it matters** For a cross-disciplinary review to be impactful, it must be accessible to readers from all relevant fields. The current level of explanation may limit its usefulness to a narrow audience.
+  - **Resolution test** Add a glossary of key terms, provide more intuitive explanations of AI methods for clinicians, and ensure biological concepts are explained for computational readers. Consider adding a conceptual diagram illustrating the proposed workflow.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2, first paragraph
+  - **Evidence pointer** Section 2
+  - **Issue** The term "molecular flux" is introduced and defined, but the abbreviation "MF" is used inconsistently. In Section 5, "molecular framework" is used instead of "molecular flux," which is confusing.
+  - **Required correction** Standardize the terminology throughout. If "MF" stands for "molecular flux," use it consistently and correct the "molecular framework" error in Section 5.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Section 3, Table 1 (not provided)
+  - **Issue** Table 1 is referenced but not included in the supplied material. Its content and relevance cannot be assessed.
+  - **Required correction** Ensure Table 1 is provided and that it clearly summarizes the AI methods, their applications, and any comparative information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The integrated framework described in Section 4 is presented as a cohesive approach, but the practical steps for implementation are vague. The example of a patient with progressive optic neuritis is illustrative but lacks specificity.
+  - **Required correction** Provide a more concrete workflow or step-by-step description of how the combined AI approach would be operationalized in a clinical setting.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Reference list
+  - **Evidence pointer** References [1]–[58] (not individually verifiable)
+  - **Issue** The reference list is not provided in the supplied material, so the appropriateness and currency of citations cannot be assessed.
+  - **Required correction** Ensure all references are relevant, current, and properly cited. Verify that key claims in the text are supported by appropriate literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of systematic methodology), R1-M2 (no empirical evidence or validation), R1-M3 (unclear novelty)
+- **Assessment against Nature-style criteria** Originality: The manuscript does not demonstrate sufficient novelty; the application of AI methods to ophthalmic diseases is not new, and the specific framework proposed lacks a clear differentiator. Scientific importance: The topic is important, but the speculative nature of the claims limits the scientific contribution. Interdisciplinary readership: The manuscript attempts to bridge fields but does not achieve sufficient accessibility for a broad audience. Technical soundness: The technical descriptions are conceptually plausible but lack any validation or demonstration, making the soundness unassessable. Readability for nonspecialists: The manuscript is moderately readable but would benefit from clearer explanations of technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions to address the lack of systematic methodology, provide empirical evidence or clearly reframe as a perspective piece, and articulate a novel contribution. If these issues are resolved, the manuscript could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that RL, GNNs, Bayesian inference, and GANs can "map and correct MF disruptions" in ophthalmic diseases is unsupported by any empirical data or case demonstrations.
+- The assertion that these AI methods can "guide personalized treatment regimens" and "optimize" therapies such as plasmapheresis and IVIG is speculative and not backed by evidence.
+- The statement that integrating molecular flux data with imaging techniques like OCT and fMRI "could provide dynamic insights" is presented as a possibility but not substantiated with examples or literature.
+- The claim that the paper is a "systematic review" is unsupported due to the absence of a described methodology.
+- The relevance and accuracy of all 58 references cannot be assessed as the reference list was not provided.

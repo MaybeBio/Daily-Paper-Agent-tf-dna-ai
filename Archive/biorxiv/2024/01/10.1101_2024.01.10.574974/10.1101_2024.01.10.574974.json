@@ -1,0 +1,328 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.10.574974",
+  "title": "NGN3 oscillatory expression controls the timing of human pancreatic endocrine differentiation",
+  "doi": "10.1101/2024.01.10.574974",
+  "abstract": "<h4>Summary</h4> Understanding protein expression dynamics is crucial for the mechanistic understanding of cell differentiation. We investigate the dynamics of NGN3, a transcription factor critical for pancreatic endocrine development, including their function and decoding mechanisms. A knock-in endogenous reporter shows that the expression of NGN3 protein oscillates with a 13-hour periodicity in human iPS-derived endocrine progenitors and is switched off as cells differentiate to β-like and α-like cells. Increasing the stability of NGN3 protein results in one broad peak of expression instead of oscillations, with a larger peak to trough fold-change. This leads to precocious endocrine differentiation to both β-like and α-like cells and precocious expression of key NGN3 target genes. Single-cell analysis of dynamics, mathematical modelling and bioinformatics suggest that decoding of NGN3 oscillations occurs by fold-change detection via an incoherent feedforward motif that explains both normal and precocious differentiation. Our findings suggest that oscillatory NGN3 dynamics control the timing of differentiation, but not fate specification.",
+  "authors": [
+    "Miller A",
+    "Biga V",
+    "Rowntree A",
+    "Chhatriwala M",
+    "Woods F",
+    "Marinopoulou E",
+    "Kamath A",
+    "Vallier L",
+    "Papalopulu N"
+  ],
+  "published_date": "2024-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.10.574974",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.10.574974.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR786396",
+    "raw_record": {
+      "id": "PPR786396",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR786396"
+        ]
+      },
+      "doi": "10.1101/2024.01.10.574974",
+      "title": "NGN3 oscillatory expression controls the timing of human pancreatic endocrine differentiation",
+      "authorString": "Miller A, Biga V, Rowntree A, Chhatriwala M, Woods F, Marinopoulou E, Kamath A, Vallier L, Papalopulu N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Miller A",
+            "lastName": "Miller",
+            "firstName": "Anzy",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6384-8795"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biga V",
+            "lastName": "Biga",
+            "firstName": "Veronica",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rowntree A",
+            "lastName": "Rowntree",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3220-0720"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chhatriwala M",
+            "lastName": "Chhatriwala",
+            "firstName": "Mariya",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6240-2847"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woods F",
+            "lastName": "Woods",
+            "firstName": "Florence",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-7667-4361"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marinopoulou E",
+            "lastName": "Marinopoulou",
+            "firstName": "Elli",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6379-5168"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamath A",
+            "lastName": "Kamath",
+            "firstName": "Anoushka",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vallier L",
+            "lastName": "Vallier",
+            "firstName": "Ludovic",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3848-2602"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome-MRC Cambridge Stem Cell Institute, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Berlin Institute of Health (BIH), BIH Centre for Regenerative Therapies (BCRT), Charité-Universitätsmedizin Berlin, Berlin, Germany"
+                },
+                {
+                  "affiliation": "Max Planck Institute for Molecular Genetics, Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papalopulu N",
+            "lastName": "Papalopulu",
+            "firstName": "Nancy",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Developmental Biology and Medicine, School of Medical Sciences, Faculty of Biology Medicine and Health, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6240-2847"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6384-8795"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3848-2602"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6379-5168"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3220-0720"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-7667-4361"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Understanding protein expression dynamics is crucial for the mechanistic understanding of cell differentiation. We investigate the dynamics of NGN3, a transcription factor critical for pancreatic endocrine development, including their function and decoding mechanisms. A knock-in endogenous reporter shows that the expression of NGN3 protein oscillates with a 13-hour periodicity in human iPS-derived endocrine progenitors and is switched off as cells differentiate to β-like and α-like cells. Increasing the stability of NGN3 protein results in one broad peak of expression instead of oscillations, with a larger peak to trough fold-change. This leads to precocious endocrine differentiation to both β-like and α-like cells and precocious expression of key NGN3 target genes. Single-cell analysis of dynamics, mathematical modelling and bioinformatics suggest that decoding of NGN3 oscillations occurs by fold-change detection via an incoherent feedforward motif that explains both normal and precocious differentiation. Our findings suggest that oscillatory NGN3 dynamics control the timing of differentiation, but not fate specification.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "210912/Z/18/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "224394/Z/21/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/11/2024.01.10.574974.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.10.574974"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR786396"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR786396&type=FILE&fileName=EMS193381-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40570854",
+            "reference": "Developmental cell. 2025 Sep;60(18):2518-2532.e9",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193381",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "cellosaurus",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-13",
+      "firstPublicationDate": "2024-01-11",
+      "firstIndexDate": "2024-01-13",
+      "fullTextReceivedDate": "2024-01-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

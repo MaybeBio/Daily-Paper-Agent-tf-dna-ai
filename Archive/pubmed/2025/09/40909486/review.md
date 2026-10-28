@@ -1,0 +1,63 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose that KSHV ORF24, a TBP mimic, uses a non-canonical DNA binding mode involving its C-terminal domain (CTD) and conserved TBP-like phenylalanines to recognize viral late promoters. They further claim that ORF24 pre-assembles with RNA polymerase II and ORF34 to achieve stable promoter binding, a mechanism they describe as a departure from stepwise eukaryotic transcription initiation.
+- **Visible evidence base** AlphaFold3 structural predictions, targeted mutagenesis in transfected cells and during KSHV lytic replication, chromatin occupancy data during infection
+- **Missing materials affecting confidence** Full methods, structural models and validation data, mutagenesis details, occupancy assay specifics, statistical analyses, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic finding regarding a viral TBP mimic, but the evidence base described is insufficient to evaluate the strength of the structural and functional claims. The central assertion of a non-canonical DNA binding mode and a pre-assembled initiation complex is plausible but not established from the provided material. The work may appeal to virologists and transcription biologists, but the current abstract alone does not support the broad mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers studying herpesvirus gene regulation, viral mimicry of host transcription factors, and eukaryotic transcription initiation mechanisms. The proposed prokaryotic-like assembly strategy could interest those examining evolutionary parallels in transcription machinery.
+- **Major strengths** The study addresses a poorly characterized aspect of KSHV late gene transcription, a topic of direct relevance to viral pathogenesis. The combination of structural prediction with functional validation in infection contexts is a reasonable approach. The identification of a CTD contribution beyond the canonical TBP fold is a specific and testable claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "AlphaFold3 to predict the structure of ORF24 in complex with DNA and validated key features"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that AlphaFold3 predictions were validated, but no details are given on the validation approach, the confidence of the predicted complex, or whether the DNA binding mode was confirmed experimentally beyond mutagenesis. AlphaFold3 predictions of protein-DNA complexes are not benchmarked to the same standard as protein-protein interactions, and the abstract does not indicate how the non-canonical binding mode was distinguished from artifacts.
+  - **Why it matters** The central claim of a non-canonical DNA binding mode rests on the reliability of the structural model. Without evidence of experimental validation, such as crosslinking, crystallography, or binding assays with mutant proteins, the structural interpretation remains speculative.
+  - **Resolution test** Provide experimental validation of the predicted ORF24-DNA interface, such as electrophoretic mobility shift assays or chromatin immunoprecipitation with mutant ORF24 variants, and show that the CTD contacts are functionally required for DNA binding in vitro.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** "ORF24 pre-assembles with RNA polymerase II and the viral protein ORF34 to achieve stable promoter binding"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims a pre-assembled complex without specifying the experimental approach used to demonstrate this. It is unclear whether this was shown by co-immunoprecipitation, biochemical reconstitution, or fluorescence-based assays. The phrase "pre-assembles" implies a stable complex formed before promoter engagement, but the abstract does not provide evidence that the complex exists independently of DNA.
+  - **Why it matters** This claim is presented as a fundamental departure from stepwise initiation, but the evidence for a pre-formed complex is not described. If the complex only assembles on DNA, the conclusion would be overstated.
+  - **Resolution test** Show biochemical or biophysical evidence of a stable ORF24-ORF34-RNA polymerase II complex in the absence of DNA, and demonstrate that this complex is recruited to promoters as a unit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** "Targeted mutagenesis confirmed that ORF24 requires conserved TBP-like phenylalanines alongside a polar-rich binding interface distinct from cellular TBP"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which residues were mutated, how the polar-rich interface was defined, or what functional assays were used to assess the effects. Without this information, the claim that the binding interface is "distinct from cellular TBP" cannot be evaluated.
+  - **Why it matters** The distinction from cellular TBP is a key part of the non-canonical claim. If the mutagenesis only tested a few residues, the conclusion may be premature.
+  - **Resolution test** List the specific mutations, the rationale for their selection, and the functional readouts. Provide comparative data with cellular TBP mutants to support the claim of a distinct interface.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "resembling a prokaryotic strategy within the eukaryotic nucleus" is evocative but not defined. It is unclear what specific prokaryotic feature is being referenced.
+  - **Required correction** Clarify the specific prokaryotic mechanism being compared, such as sigma factor-promoter recognition or RNA polymerase holoenzyme assembly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Occupancy data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that ORF24 occupancy at viral late promoters requires both the TBP-like domain and CTD, but does not indicate how occupancy was measured or whether occupancy correlates with transcriptional output.
+  - **Required correction** Specify the occupancy assay, such as ChIP-seq or ChIP-qPCR, and state whether the mutants that reduce occupancy also reduce late gene expression.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The proposed non-canonical DNA binding mode and pre-assembled complex are potentially original, but the abstract does not provide enough detail to assess novelty against existing literature on viral TBP mimics. Scientific importance: The topic is relevant to viral transcription and host-pathogen interactions, but the significance of the mechanistic departure is not fully contextualized. Interdisciplinary readership: The work may interest virologists and transcription biologists, but the abstract is too specialized for a broad audience. Technical soundness: Not assessable from the abstract alone; the reliance on AlphaFold3 without clear experimental validation is a concern. Readability for nonspecialists: The abstract is dense and assumes familiarity with transcription initiation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are interesting but require the full manuscript to verify the structural predictions, the mutagenesis data, and the evidence for a pre-assembled complex. I would be supportive if the technical concerns are resolved in the full text.
+
+## Risk / unsupported claims
+- The non-canonical DNA binding mode is unsupported without experimental validation of the AlphaFold3 model.
+- The pre-assembly of ORF24 with RNA polymerase II and ORF34 is unsupported without evidence that the complex forms independently of DNA.
+- The claim that the binding interface is distinct from cellular TBP is unsupported without detailed mutagenesis data.
+- The comparison to a prokaryotic strategy is not defined and cannot be evaluated.

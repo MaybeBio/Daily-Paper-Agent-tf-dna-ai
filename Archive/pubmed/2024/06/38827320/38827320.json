@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "38827320",
+    "doi": "10.32604/or.2024.047257",
+    "title": "Reversal of tamoxifen resistance by artemisinin in ER+ breast cancer: bioinformatics analysis and experimental validation."
+  },
+  "content": {
+    "abstract": "Breast cancer is the leading cause of cancer-related deaths in women worldwide, with Hormone Receptor (HR)+ being the predominant subtype. Tamoxifen (TAM) serves as the primary treatment for HR+ breast cancer. However, drug resistance often leads to recurrence, underscoring the need to develop new therapies to enhance patient quality of life and reduce recurrence rates. Artemisinin (ART) has demonstrated efficacy in inhibiting the growth of drug-resistant cells, positioning art as a viable option for counteracting endocrine resistance. This study explored the interaction between artemisinin and tamoxifen through a combined approach of bioinformatics analysis and experimental validation. Five characterized genes (ar, cdkn1a, erbb2, esr1, hsp90aa1) and seven drug-disease crossover genes (cyp2e1, rorc, mapk10, glp1r, egfr, pgr, mgll) were identified using WGCNA crossover analysis. Subsequent functional enrichment analyses were conducted. Our findings confirm a significant correlation between key cluster gene expression and immune cell infiltration in tamoxifen-resistant and -sensitized patients. scRNA-seq analysis revealed high expression of key cluster genes in epithelial cells, suggesting artemisinin's specific impact on tumor cells in estrogen receptor (ER)-positive BC tissues. Molecular target docking and in vitro experiments with artemisinin on LCC9 cells demonstrated a reversal effect in reducing migratory and drug resistance of drug-resistant cells by modulating relevant drug resistance genes. These results indicate that artemisinin could potentially reverse tamoxifen resistance in ER-positive breast cancer.",
+    "keywords": [
+      "Artemisinin",
+      "Breast cancer",
+      "Tamoxifen resistance"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Antineoplastic Agents, Hormonal/pharmacology/therapeutic use",
+      "*Artemisinins/pharmacology/therapeutic use",
+      "*Breast Neoplasms/drug therapy/genetics/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "*Computational Biology",
+      "*Drug Resistance, Neoplasm/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Docking Simulation",
+      "*Receptors, Estrogen/metabolism",
+      "*Tamoxifen/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuo, Zhili",
+        "Zhang, Dongni",
+        "Lu, Wenping",
+        "Wu, Xiaoqing",
+        "Cui, Yongjia",
+        "Zhang, Weixuan",
+        "Zhang, Mengfan"
+      ],
+      "short_names": [
+        "Zhuo Z",
+        "Zhang D",
+        "Lu W",
+        "Wu X",
+        "Cui Y",
+        "Zhang W",
+        "Zhang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China.",
+        "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuo, Zhili",
+        "short_name": "Zhuo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dongni",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wenping",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaoqing",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yongjia",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weixuan",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mengfan",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, China Academy of Chinese Medical Sciences Guang'anmen Hospital, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oncology research"
+    ],
+    "journal_abbrev": [
+      "Oncol Res"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/03 06:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "41860671",
+      "41857240",
+      "40756346",
+      "40729050",
+      "40490812",
+      "40370453",
+      "39697539"
+    ],
+    "refs": [
+      "37727789",
+      "37284314",
+      "35916842",
+      "35862873",
+      "35388683",
+      "35254385",
+      "35124000",
+      "35123662",
+      "35116730",
+      "34674757",
+      "34320285",
+      "34284099",
+      "34278794",
+      "34276676",
+      "34006822",
+      "33950524",
+      "33927368",
+      "33891890",
+      "33538338",
+      "33516778",
+      "33462444",
+      "33324567",
+      "33075360",
+      "32856350",
+      "32807225",
+      "32758647",
+      "32679734",
+      "32376875",
+      "32374071",
+      "32289273",
+      "31928404",
+      "31577379",
+      "30808674",
+      "30622340",
+      "30477536",
+      "30180881",
+      "30153855",
+      "30135474",
+      "29455641",
+      "29360925",
+      "29117498",
+      "29115304",
+      "29078133",
+      "28934000",
+      "28763097",
+      "28301631",
+      "28213089",
+      "27797789",
+      "27532364",
+      "27264120",
+      "27251275",
+      "26830312",
+      "26487496",
+      "26251289",
+      "26181253",
+      "26122181",
+      "26006114",
+      "25822800",
+      "25677125",
+      "25605792",
+      "24651011",
+      "24414992",
+      "23323831",
+      "22510516",
+      "22455463",
+      "20697068",
+      "19798054",
+      "19114008",
+      "16198984",
+      "16001072"
+    ],
+    "similar": [
+      "38827320",
+      "33198803",
+      "21707964",
+      "25971350",
+      "23499324",
+      "26487496",
+      "36334189",
+      "30497079",
+      "30066905",
+      "16831274",
+      "21299862",
+      "32843722",
+      "21499302",
+      "28415819",
+      "22417809",
+      "36997866",
+      "36232636",
+      "32093034",
+      "33783288",
+      "15199112",
+      "25990368",
+      "29804556",
+      "32684154",
+      "34209871",
+      "26115764",
+      "25284587",
+      "19609946",
+      "16827106",
+      "38914552",
+      "36697070",
+      "24752803",
+      "9815855",
+      "24698107",
+      "24289103",
+      "29626519",
+      "30278449",
+      "14676837",
+      "27065334",
+      "38864530",
+      "31588558",
+      "19238537",
+      "21281480",
+      "37443749",
+      "25213081",
+      "21447808",
+      "21506106",
+      "31897900",
+      "24928526",
+      "34407787",
+      "31647985",
+      "39362925",
+      "30640711",
+      "24684682",
+      "9023387",
+      "33453094",
+      "24557447",
+      "30391994",
+      "23876235",
+      "18769129",
+      "36859733",
+      "21789246",
+      "29128895",
+      "26883574",
+      "28637868",
+      "35447603",
+      "34101751",
+      "25885472",
+      "21346144",
+      "31710162",
+      "25756514",
+      "22821401",
+      "26397135",
+      "31927036",
+      "28216163",
+      "24622579",
+      "25848915",
+      "9852399",
+      "24355041",
+      "37803002",
+      "35041152",
+      "14531500",
+      "28643021",
+      "18409049",
+      "23547709",
+      "18997820",
+      "9142958",
+      "30975104",
+      "24457069",
+      "33121419",
+      "32417506",
+      "23752064",
+      "29028222",
+      "20602165",
+      "23053650",
+      "39129315",
+      "33262438",
+      "25203051",
+      "33099086",
+      "31670920",
+      "32087276",
+      "39277462",
+      "39164523",
+      "39112519"
+    ],
+    "review": [
+      "38827320",
+      "31647985",
+      "9142958"
+    ],
+    "pmc": [
+      "11136689"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0965-0407&volume=32&issue=6&spage=1093&aulast=Zhuo",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38827320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38827320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

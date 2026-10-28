@@ -1,0 +1,510 @@
+{
+  "identity": {
+    "pmid": "35606422",
+    "doi": "10.1038/s41587-022-01307-0",
+    "title": "Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning."
+  },
+  "content": {
+    "abstract": "Protein-ligand interactions are increasingly profiled at high throughput using affinity selection and massively parallel sequencing. However, these assays do not provide the biophysical parameters that most rigorously quantify molecular interactions. Here we describe a flexible machine learning method, called ProBound, that accurately defines sequence recognition in terms of equilibrium binding constants or kinetic rates. This is achieved using a multi-layered maximum-likelihood framework that models both the molecular interactions and the data generation process. We show that ProBound quantifies transcription factor (TF) behavior with models that predict binding affinity over a range exceeding that of previous resources; captures the impact of DNA modifications and conformational flexibility of multi-TF complexes; and infers specificity directly from in vivo data such as ChIP-seq without peak calling. When coupled with an assay called K(D)-seq, it determines the absolute affinity of protein-ligand interactions. We also apply ProBound to profile the kinetics of kinase-substrate interactions. ProBound opens new avenues for decoding biological networks and rationally engineering protein-ligand interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Chromatin Immunoprecipitation",
+      "DNA/genetics",
+      "Ligands",
+      "*Machine Learning",
+      "Protein Binding",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rube, H Tomas",
+        "Rastogi, Chaitanya",
+        "Feng, Siqian",
+        "Kribelbauer, Judith F",
+        "Li, Allyson",
+        "Becerra, Basheer",
+        "Melo, Lucas A N",
+        "Do, Bach Viet",
+        "Li, Xiaoting",
+        "Adam, Hammaad H",
+        "Shah, Neel H",
+        "Mann, Richard S",
+        "Bussemaker, Harmen J"
+      ],
+      "short_names": [
+        "Rube HT",
+        "Rastogi C",
+        "Feng S",
+        "Kribelbauer JF",
+        "Li A",
+        "Becerra B",
+        "Melo LAN",
+        "Do BV",
+        "Li X",
+        "Adam HH",
+        "Shah NH",
+        "Mann RS",
+        "Bussemaker HJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9155-9341",
+        "ORCID: 0000-0003-0650-9134",
+        "ORCID: 0000-0002-8072-7773",
+        "ORCID: 0000-0003-2359-7703",
+        "ORCID: 0000-0003-4403-7959",
+        "ORCID: 0000-0002-7563-7554",
+        "ORCID: 0000-0002-1186-0626",
+        "ORCID: 0000-0002-4749-2765",
+        "ORCID: 0000-0002-7274-5277"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, University of California, Merced, Merced, CA, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Chemistry, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Chemistry, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA. hjb2004@columbia.edu.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA. hjb2004@columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rube, H Tomas",
+        "short_name": "Rube HT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, Merced, Merced, CA, USA.",
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Rastogi, Chaitanya",
+        "short_name": "Rastogi C",
+        "identifiers": [
+          "0000-0001-9155-9341"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Siqian",
+        "short_name": "Feng S",
+        "identifiers": [
+          "0000-0003-0650-9134"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kribelbauer, Judith F",
+        "short_name": "Kribelbauer JF",
+        "identifiers": [
+          "0000-0002-8072-7773"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Allyson",
+        "short_name": "Li A",
+        "identifiers": [
+          "0000-0003-2359-7703"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Becerra, Basheer",
+        "short_name": "Becerra B",
+        "identifiers": [
+          "0000-0003-4403-7959"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Melo, Lucas A N",
+        "short_name": "Melo LAN",
+        "identifiers": [
+          "0000-0002-7563-7554"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Do, Bach Viet",
+        "short_name": "Do BV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Adam, Hammaad H",
+        "short_name": "Adam HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Shah, Neel H",
+        "short_name": "Shah NH",
+        "identifiers": [
+          "0000-0002-1186-0626"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mann, Richard S",
+        "short_name": "Mann RS",
+        "identifiers": [
+          "0000-0002-4749-2765"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bussemaker, Harmen J",
+        "short_name": "Bussemaker HJ",
+        "identifiers": [
+          "0000-0002-7274-5277"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA. hjb2004@columbia.edu.",
+          "Department of Systems Biology, Columbia University, New York, NY, USA. hjb2004@columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature biotechnology"
+    ],
+    "journal_abbrev": [
+      "Nat Biotechnol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/24 06:00",
+    "fetched_at": "2026-09-28 08:58:11"
+  },
+  "links": {
+    "cites": [
+      "42620112",
+      "42557242",
+      "42079234",
+      "42079151",
+      "42053648",
+      "42043940",
+      "41932309",
+      "41509325",
+      "41495897",
+      "41428391",
+      "41188645",
+      "41141623",
+      "41088778",
+      "40994438",
+      "40991325",
+      "40903577",
+      "40899670",
+      "40874594",
+      "40837489",
+      "40673435",
+      "40563406",
+      "40355450",
+      "40335485",
+      "40297762",
+      "40291688",
+      "40234030",
+      "40111986",
+      "40047357",
+      "40032996",
+      "39879549",
+      "39764007",
+      "39638796",
+      "39605729",
+      "39605503",
+      "39482734",
+      "39468510",
+      "39431516",
+      "39401247",
+      "39372787",
+      "39363017",
+      "39287129",
+      "39257791",
+      "39206846",
+      "38956474",
+      "38893627",
+      "38826350",
+      "38798671",
+      "38798625",
+      "38718117",
+      "38680871",
+      "38628639",
+      "38561980",
+      "38549031",
+      "38352411",
+      "38284090",
+      "38128482",
+      "37873734",
+      "37802967",
+      "37656809",
+      "37646780",
+      "37552831",
+      "37177995",
+      "37114997",
+      "37013986",
+      "36973556",
+      "36927728",
+      "36713200",
+      "36430386"
+    ],
+    "refs": [
+      "33381817",
+      "32991679",
+      "32973096",
+      "32758356",
+      "31778140",
+      "31406384",
+      "30619465",
+      "30423078",
+      "30250250",
+      "30017583",
+      "29883606",
+      "29610332",
+      "29547119",
+      "29385521",
+      "29275860",
+      "29159284",
+      "29140473",
+      "29140464",
+      "29126249",
+      "28614722",
+      "28473536",
+      "28379348",
+      "28186491",
+      "28167566",
+      "28092692",
+      "27700984",
+      "27479905",
+      "27027282",
+      "26550823",
+      "26472909",
+      "26213851",
+      "25936837",
+      "25720775",
+      "25557079",
+      "25514926",
+      "25319759",
+      "25215497",
+      "25209146",
+      "24837674",
+      "23590861",
+      "23525215",
+      "23354101",
+      "23332764",
+      "22153072",
+      "21903629",
+      "21726817",
+      "21654662",
+      "20583021",
+      "20513432",
+      "20378718",
+      "19843614",
+      "19458158",
+      "19443739",
+      "19372393",
+      "19139070",
+      "18585359",
+      "18480093",
+      "17334365",
+      "17218526",
+      "16873464",
+      "16809671",
+      "8076589",
+      "1865905"
+    ],
+    "similar": [
+      "35606422",
+      "28234893",
+      "26818008",
+      "38168434",
+      "22369349",
+      "27899623",
+      "30517703",
+      "24581441",
+      "19956545",
+      "24564528",
+      "20158869",
+      "30897079",
+      "18684996",
+      "27104615",
+      "22863112",
+      "23580539",
+      "20827590",
+      "31406384",
+      "24564277",
+      "27519564",
+      "35681170",
+      "38352411",
+      "25957350",
+      "28334224",
+      "25128017",
+      "22576095",
+      "30869146",
+      "32053778",
+      "29525962",
+      "22955984",
+      "19160518",
+      "21602262",
+      "25486472",
+      "24146601",
+      "20946807",
+      "26163319",
+      "28623580",
+      "24279297",
+      "26704972",
+      "22479205",
+      "28750606",
+      "25213249",
+      "33928555",
+      "23975789",
+      "24927817",
+      "24336317",
+      "25827087",
+      "33568025",
+      "22533622",
+      "19652015",
+      "22115494",
+      "22517426",
+      "37682473",
+      "26703974",
+      "23595148",
+      "35240993",
+      "30423062",
+      "21400695",
+      "12101405",
+      "25827896",
+      "17558387",
+      "27153645",
+      "28981893",
+      "21486936",
+      "23790213",
+      "22039215",
+      "25775564",
+      "32946398",
+      "24472686",
+      "21914728",
+      "28361672",
+      "29684008",
+      "27845669",
+      "23275538",
+      "27659971",
+      "17951829",
+      "31093693",
+      "21779159",
+      "20144209",
+      "23427986",
+      "26490019",
+      "27159844",
+      "29525963",
+      "23771147",
+      "22898448",
+      "34019290",
+      "28842899",
+      "23758851",
+      "38293094",
+      "36798377",
+      "39192093"
+    ],
+    "review": [
+      "35606422",
+      "25486472",
+      "33568025",
+      "23790213"
+    ],
+    "pmc": [
+      "9546773"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41587-022-01307-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35606422/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35606422",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse175942",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

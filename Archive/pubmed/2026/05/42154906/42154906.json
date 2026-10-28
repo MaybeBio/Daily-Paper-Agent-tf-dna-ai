@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "42154906",
+    "doi": "10.1177/15330338261452636",
+    "title": "Prognostic and Therapeutic Significance of DPP4 in SMARCA4-Deficient Non-Small Cell Lung Cancer."
+  },
+  "content": {
+    "abstract": "IntroductionSMARCA4-deficient NSCLC is an aggressive subtype lacking robust biomarkers and therapeutic targets. To define the expression pattern and clinical significance of DPP4 in SMARCA4-dNSCLC and explore whether DPP4 may represent a therapeutic vulnerability in this subtype.Materials and MethodsThe Cancer Genome Atlas NSCLC cohort was analyzed to compare SMARCA4-low tumors with adjacent normal lung using differential expression, Cox regression, protein-protein interaction networks, and machine-learning ranking. An exploratory immunohistochemistry case series of SMARCA4-dNSCLC from three centers (n=9) quantified DPP4 by percentage of tumor cells; >/=20% cells defined DPP4-high. Clinicopathologic features, RECIST response, and survival were summarized descriptively by DPP4 status. In HCC827 cells, SMARCA4 knockdown and DPP4 inhibition (P32/98) were evaluated alone and in combination using colony-formation, and motility (migration/wound-healing) assays.ResultsDPP4 was downregulated in SMARCA4-low tumors versus adjacent normal lung, yet within tumors higher residual DPP4 expression was associated with worse overall and disease-free survival. In the immunohistochemistry case series, DPP4 protein expression was weaker in SMARCA4-dNSCLC than in adjacent alveolar epithelium. Within this low-expressing background, DPP4-high tumors showed descriptive trends toward inferior survival, lower disease-control rate after first-line therapy, and more extensive baseline organ involvement than DPP4-low tumors. In vitro, SMARCA4 knockdown and P32/98 each reduced clonogenic growth and motility versus control, with the combination producing the greatest inhibition (about 60%-70% reductions).ConclusionsDPP4 is downregulated at the mRNA and protein levels in SMARCA4-dNSCLC compared with normal lung, yet higher residual expression may mark a more aggressive phenotype. Combined SMARCA4 knockdown and DPP4 inhibition suppress growth and motility in vitro, suggesting DPP4 as a candidate prognostic marker and a candidate therapeutic target that requires orthogonal specificity controls and validation in larger cohorts.",
+    "keywords": [
+      "DPP4",
+      "SMARCA4-deficient non-small cell lung cancer",
+      "SMARCA4-low",
+      "biomarker",
+      "prognosis",
+      "targeted therapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/deficiency/genetics",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/pathology/metabolism/mortality/therapy",
+      "*Nuclear Proteins/deficiency/genetics",
+      "Prognosis",
+      "*DNA Helicases/deficiency/genetics",
+      "*Dipeptidyl Peptidase 4/genetics/metabolism",
+      "*Lung Neoplasms/genetics/metabolism/pathology/mortality/therapy",
+      "*Biomarkers, Tumor",
+      "Female",
+      "Male",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Middle Aged",
+      "Aged",
+      "Immunohistochemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Chaopeng",
+        "Zhong, Zebin",
+        "Luo, Xiaoling",
+        "Dai, Weiping",
+        "Xu, Lujian",
+        "Cai, Wenping",
+        "Xu, Zhibin",
+        "Liang, Guolian",
+        "Pang, Lijuan"
+      ],
+      "short_names": [
+        "Chen C",
+        "Zhong Z",
+        "Luo X",
+        "Dai W",
+        "Xu L",
+        "Cai W",
+        "Xu Z",
+        "Liang G",
+        "Pang L"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-5933-9737"
+      ],
+      "affiliations": [
+        "Department of Pathology, Guangdong Nongken Central School of Clinical Medicine, Guangdong Medical University (Central Hospital of Guangdong Provincial Nongken), Zhanjiang, Guangdong, China.",
+        "Department of Pathology, The Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China. RINGGOLD: 584022",
+        "Department of Pathology, The Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China. RINGGOLD: 584022",
+        "Department of Pathology, Guangdong Nongken Central School of Clinical Medicine, Guangdong Medical University (Central Hospital of Guangdong Provincial Nongken), Zhanjiang, Guangdong, China.",
+        "Department of Imaging, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Department of Pathology, Guangdong Medical University (Central People's Hospital of Zhanjiang), Zhanjiang, Guangdong, China. RINGGOLD: 12453",
+        "Department of Organ Transplantation, Guangzhou Institute of Respiratory Health, National Center for Respiratory Medicine, National Clinical Research Center for Respiratory Disease, State Key Laboratory of Respiratory Disease, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China. RINGGOLD: 555049",
+        "Department of Thoracic Surgery, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China.",
+        "Zhanjiang Central School of Clinical Medicine, Guangdong Medical University (Central People's Hospital of Zhanjiang), Zhanjiang, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Chaopeng",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Nongken Central School of Clinical Medicine, Guangdong Medical University (Central Hospital of Guangdong Provincial Nongken), Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Zebin",
+        "short_name": "Zhong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xiaoling",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Weiping",
+        "short_name": "Dai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Nongken Central School of Clinical Medicine, Guangdong Medical University (Central Hospital of Guangdong Provincial Nongken), Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lujian",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Imaging, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Wenping",
+        "short_name": "Cai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Medical University (Central People's Hospital of Zhanjiang), Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhibin",
+        "short_name": "Xu Z",
+        "identifiers": [
+          "0009-0007-5933-9737"
+        ],
+        "affiliations": [
+          "Department of Organ Transplantation, Guangzhou Institute of Respiratory Health, National Center for Respiratory Medicine, National Clinical Research Center for Respiratory Disease, State Key Laboratory of Respiratory Disease, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Guolian",
+        "short_name": "Liang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Central Hospital of Guangdong Provincial Nongken, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Lijuan",
+        "short_name": "Pang L",
+        "identifiers": [],
+        "affiliations": [
+          "Zhanjiang Central School of Clinical Medicine, Guangdong Medical University (Central People's Hospital of Zhanjiang), Zhanjiang, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology in cancer research & treatment"
+    ],
+    "journal_abbrev": [
+      "Technol Cancer Res Treat"
+    ],
+    "pub_date": "2026 Jan-Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 18:32",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41004982",
+      "40392023",
+      "39541774",
+      "38908333",
+      "38866262",
+      "38683947",
+      "38572751",
+      "38542211",
+      "38469626",
+      "38374950",
+      "37949470",
+      "37184108",
+      "36949656",
+      "36775193",
+      "36450331",
+      "35650221",
+      "35309368",
+      "34808341",
+      "33845210",
+      "33614513",
+      "33367658",
+      "32709715",
+      "30894647",
+      "30822465",
+      "30641726",
+      "27137491",
+      "26919392",
+      "26671446",
+      "26242871",
+      "26075911",
+      "23828940",
+      "23638030",
+      "23508173",
+      "21894438",
+      "21183794",
+      "16061680",
+      "2902942",
+      "2879510"
+    ],
+    "similar": [
+      "42154906",
+      "41777060",
+      "40412045",
+      "40158181",
+      "40400412",
+      "42124413",
+      "37184108",
+      "39500550",
+      "40854149",
+      "40105165",
+      "38374950",
+      "34440689",
+      "42066656",
+      "37985152",
+      "41454764",
+      "34633874",
+      "41243917",
+      "40928867",
+      "38763102",
+      "41202699",
+      "39954349",
+      "39555952",
+      "40302575",
+      "39812394",
+      "39808383",
+      "41354162",
+      "41855992",
+      "39541774",
+      "28555282",
+      "41394854",
+      "40313929",
+      "40946875",
+      "39864548",
+      "41161592",
+      "36002194",
+      "41653129",
+      "38124509",
+      "42398850",
+      "39360506",
+      "41004982",
+      "28575350",
+      "26671993",
+      "32854100",
+      "33367658",
+      "41055968",
+      "38413251",
+      "37408395",
+      "38180245",
+      "35468657",
+      "39709652",
+      "38844957",
+      "41142791",
+      "35491322",
+      "41593906",
+      "32709715",
+      "39109577",
+      "40991405",
+      "41283988",
+      "40405273",
+      "40471357",
+      "18469354",
+      "31916995",
+      "41484780",
+      "28038711",
+      "38956906",
+      "30972962",
+      "40453096",
+      "42091016",
+      "31630044",
+      "38702192",
+      "40275321",
+      "24560493",
+      "39080761",
+      "33845210",
+      "41364474",
+      "23626784",
+      "42331552",
+      "41550197",
+      "39193606",
+      "39799294",
+      "24113549",
+      "31230044",
+      "41564857",
+      "42452865",
+      "22493729",
+      "41812299",
+      "26177862",
+      "36450331",
+      "26337230",
+      "30451731",
+      "22178381",
+      "37903457",
+      "40404793",
+      "30662330",
+      "42527418",
+      "28256572",
+      "41217429",
+      "42267455",
+      "41577374",
+      "38416596"
+    ],
+    "review": [
+      "42154906",
+      "34440689",
+      "41454764",
+      "41243917",
+      "39812394",
+      "40313929",
+      "33367658",
+      "40405273",
+      "31916995",
+      "38702192",
+      "41364474",
+      "36450331"
+    ],
+    "pmc": [
+      "13187498"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15330338261452636?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42154906/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1367",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

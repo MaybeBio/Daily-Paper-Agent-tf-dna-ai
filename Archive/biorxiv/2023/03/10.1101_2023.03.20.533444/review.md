@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, data availability, acknowledgements) as provided
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims based solely on the supplied text; no external validation of data or figures possible
+- **Shared manuscript claim summary** The authors present a cryo-EM structure of human SIRT6 bound to a nucleosome, identify two principal conformational movements involving the Rossmann fold domain and DNA unwrapping, and use molecular dynamics simulations to propose that this binding mode poises the SIRT6 active site for deacetylation of H3 tail lysines, including residues close to the H3 core.
+- **Visible evidence base** Abstract, introduction, results sections (overall structure, zinc finger domain, DNA exit site, H3 tail analysis), discussion, methods, data availability, acknowledgements
+- **Missing materials affecting confidence** Figures and supplemental figures are referenced but not provided; detailed cryo-EM statistics, validation metrics, and MD simulation parameters are not fully described; no raw data or model quality indicators are available for independent assessment
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question in chromatin biology: how SIRT6 achieves its nucleosome-stimulated deacetylase activity. The structural data, if validated, would represent an important advance. However, the current text lacks sufficient quantitative detail and validation metrics to fully support the central claims. The molecular dynamics component is described but not rigorously benchmarked, and the functional conclusions drawn from the simulations require stronger experimental or computational support. The manuscript is well written and logically organized, but several technical aspects need clarification before the conclusions can be considered fully established.
+- **Who would be interested in the results, and why** Researchers in chromatin structure and function, histone modification enzymology, sirtuin biology, and epigenetic regulation. The work also has potential relevance for drug discovery efforts targeting SIRT6 in aging, cancer, and metabolic diseases. The structural insights into nucleosome recognition by a chromatin-modifying enzyme will interest the broader structural biology community.
+- **Major strengths** The study addresses a long-standing mechanistic question with a direct structural approach. The identification of two distinct conformational states of the SIRT6-nucleosome complex is novel and mechanistically informative. The integration of cryo-EM with MD simulations to explore H3 tail accessibility is a thoughtful approach. The authors acknowledge and contextualize their findings relative to two contemporaneous studies, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the cryo-EM structure reveals SIRT6 binding to the nucleosome with the zinc finger domain at the acidic patch and the Rossmann fold at the DNA terminus, and that this binding mode is functionally relevant.
+  - **Evidence pointer** Results, "Overall structure" section; Figure 1; Supplemental Figures 2-4
+  - **Concern** The resolution of the Rossmann fold domain is stated as 4.0-6.0 Å, which is insufficient for unambiguous assignment of side-chain interactions or precise positioning of the active site. The authors do not provide local resolution maps, FSC curves, or model-to-map fit statistics. Without these, the structural interpretation of the Rossmann fold-DNA interaction and the active site positioning relative to the H3 tail remains uncertain.
+  - **Why it matters** The central mechanistic claim depends on the precise placement of the SIRT6 active site relative to the H3 tail. If the Rossmann fold domain is only resolved at moderate resolution, the conclusions about active site poising and substrate accessibility are weakened.
+  - **Resolution test** Provide local resolution estimates, FSC curves, and model validation metrics (e.g., MolProbity scores, map-to-model CC) for the Rossmann fold domain. If possible, show side-chain density for key active site residues and the three arginines (R220, R231, R248) proposed to bind DNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that MD simulations show the SIRT6 active site is "perfectly poised" to catalyze deacetylation of H3 tail lysines, and that DNA unwrapping allows access to lysines close to the H3 core.
+  - **Evidence pointer** Results, "SIRT6 is poised to deacetylate the H3 tail" section; Figure 4; Supplemental Figure 7
+  - **Concern** The MD simulation methodology is described only briefly. The authors state that 15 published H3-tail conformations were used, but do not describe how these were selected, whether they are representative of the full conformational ensemble, or how the simulations were validated against experimental data. The claim that new H3 tail conformations appear in the SIRT6-bound simulations that are absent in the control is not supported by quantitative analysis (e.g., free energy profiles, population distributions, or statistical significance testing).
+  - **Why it matters** The functional conclusion that SIRT6 can access H3K27 and other core-proximal lysines depends on the reliability of the MD predictions. Without rigorous validation and quantitative comparison, this claim remains speculative.
+  - **Resolution test** Provide detailed MD simulation parameters, convergence criteria, and validation against experimental data (e.g., NMR chemical shifts, SAXS profiles). Quantify the population of H3 tail conformations that place lysines in the active site, and compare these distributions between SIRT6-bound and free nucleosome simulations with appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the conformational flexibility between the zinc finger and Rossell fold domains serves as a "fine-tuning mechanism" for scanning the H3 tail.
+  - **Evidence pointer** Results, "Overall structure" section; Figure 2; Discussion
+  - **Concern** The functional significance of the observed domain movements is inferred but not directly tested. The authors do not provide mutational or biochemical data to show that the flexibility is required for activity or that restricting the movement would impair deacetylation. The claim that the movement "could serve to fine-tune" is appropriately cautious, but the discussion extends this to a proposed scanning mechanism without direct evidence.
+  - **Why it matters** The proposed scanning mechanism is a novel and potentially important concept, but it requires experimental validation to distinguish it from alternative explanations, such as passive diffusion of the tail or conformational selection.
+  - **Resolution test** Perform mutagenesis experiments that restrict or enhance the interdomain flexibility and measure the effect on deacetylase activity. Alternatively, use HDX-MS or other biophysical methods to directly probe the dynamics of the interdomain hinge in the presence and absence of nucleosomes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the DNA unwrapping observed in the cryo-EM structure is coupled to SIRT6 binding, based on the absence of such unwrapping in free nucleosomes in the dataset.
+  - **Evidence pointer** Results, "Overall structure" section; Supplemental Figure 5c
+  - **Concern** The comparison to free nucleosomes is based on a small subset of particles and is not quantitatively described. The authors state that free nucleosomes "did not show any deviation from the canonical conformations," but no statistical comparison or quantitative measure of the DNA end position is provided. The MD simulations are cited as supporting evidence, but the simulation details are not fully described.
+  - **Why it matters** The claim that SIRT6 actively unwraps DNA is a key mechanistic finding. If the unwrapping is instead a pre-existing conformational state that SIRT6 selectively binds, the mechanism would be different.
+  - **Resolution test** Provide quantitative measurements of DNA end position distributions for SIRT6-bound versus free nucleosomes, with appropriate statistical analysis. If possible, perform time-resolved experiments or use FRET-based assays to distinguish between induced fit and conformational selection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Zinc finger domain binds the acidic patch" section
+  - **Evidence pointer** Figure 3a
+  - **Issue** The text states that "Four side chains of the SIRT6 zinc-finger domain extend into different sections of the acidic patch groove" but does not clearly specify which residues correspond to which interactions. The description of the arginine anchor motif is somewhat dense and could benefit from a clearer schematic or table.
+  - **Required correction** Provide a clear table or annotated figure listing each SIRT6 residue and its corresponding nucleosome interaction partner.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "SIRT6 is poised to deacetylate the H3 tail" section
+  - **Evidence pointer** Figure 4
+  - **Issue** The description of the MD simulation results is qualitative. The statement that "in several H3 conformations, the tail is located in close proximity (<15 Å) to the SIRT6 active site" would be more informative with a quantitative distribution of distances across the full ensemble.
+  - **Required correction** Provide a histogram or cumulative distribution of the minimum distance between H3 lysine residues and the SIRT6 active site across the MD ensemble, for both SIRT6-bound and free nucleosome simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Molecular Dynamics simulations" section
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the MD simulations lacks several key parameters, including the specific AMBER force field version, the water model, the salt concentration, the temperature and pressure coupling schemes, and the total simulation time per replicate. The statement that "three replicates were performed" is not accompanied by information on how convergence was assessed.
+  - **Required correction** Provide a complete list of MD simulation parameters, including software version, force field, water model, ion concentration, thermostat and barostat settings, and convergence criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison to the two contemporaneous studies (Chio et al., 2023; Wang et al., 2023) is brief and does not clearly delineate the unique contributions of the present work beyond the MD simulations. The statement that the conclusions are "similar" could be more specific.
+  - **Required correction** Provide a more detailed comparison of the structural findings, highlighting specific differences in binding mode, DNA unwrapping extent, or conformational dynamics between the three studies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Binding and gel-shift assays" section
+  - **Evidence pointer** Location not provided
+  - **Issue** The gel-shift assay description does not specify the concentration range of SIRT6 used, the number of replicates, or how binding affinity was quantified. The statement that binding is "mildly (but statistically significant) stronger" for H2A.Z nucleosomes lacks statistical details.
+  - **Required correction** Provide the full experimental details for the gel-shift assays, including SIRT6 concentration range, number of replicates, and the statistical test used to assess significance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM resolution and validation of the Rossmann fold domain), R1-M2 (MD simulation methodology and validation), R1-M4 (quantitative comparison of DNA unwrapping between SIRT6-bound and free nucleosomes)
+- **Assessment against Nature-style criteria** Originality: The study is original in its integration of cryo-EM with MD simulations to address the mechanism of SIRT6 activation by nucleosomes. However, the structural findings overlap significantly with two contemporaneous studies, reducing the novelty of the core structural observation. Scientific importance: The question of how SIRT6 achieves nucleosome-stimulated activity is important for understanding chromatin regulation and has implications for disease. The proposed scanning mechanism, if validated, would be a significant conceptual advance. Interdisciplinary readership: The work will appeal to structural biologists, chromatin researchers, and enzymologists. The MD component may also interest computational biologists. Technical soundness: The cryo-EM analysis appears generally sound but lacks sufficient validation metrics for the lower-resolution domain. The MD simulations are described too briefly to assess their reliability. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the results section assumes familiarity with cryo-EM and MD terminology. A brief explanation of key concepts would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data, if properly validated, would represent a valuable contribution. The MD simulations, if rigorously benchmarked and quantitatively analyzed, would strengthen the functional conclusions. The manuscript is currently not fully established from the provided evidence due to the lack of validation metrics and quantitative analysis.
+
+## Risk / unsupported claims
+- The claim that the SIRT6 active site is "perfectly poised" to catalyze deacetylation of H3 tail lysines is not quantitatively supported by the provided data.
+- The claim that DNA unwrapping by SIRT6 allows access to H3K27 and other core-proximal lysines is based on MD simulations that are not fully described or validated.
+- The proposed "fine-tuning" and "scanning" mechanism for the interdomain flexibility is speculative and not directly tested.
+- The statement that the DNA unwrapping is coupled to SIRT6 binding is not quantitatively supported by the comparison to free nucleosomes.
+- The functional significance of the H2A.Z binding difference is not explored or explained.

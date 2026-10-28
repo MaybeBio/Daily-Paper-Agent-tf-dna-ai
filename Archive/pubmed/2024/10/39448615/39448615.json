@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "39448615",
+    "doi": "10.1038/s41540-024-00433-6",
+    "title": "Multistability and predominant hybrid phenotypes in a four node mutually repressive network of Th1/Th2/Th17/Treg differentiation."
+  },
+  "content": {
+    "abstract": "Elucidating the emergent dynamics of cellular differentiation networks is crucial to understanding cell-fate decisions. Toggle switch - a network of mutually repressive lineage-specific transcription factors A and B - enables two phenotypes from a common progenitor: (high A, low B) and (low A, high B). However, the dynamics of networks enabling differentiation of more than two phenotypes from a progenitor cell has not been well-studied. Here, we investigate the dynamics of a four-node network A, B, C, and D inhibiting each other, forming a toggle tetrahedron. Our simulations show that this network is multistable and predominantly allows for the co-existence of six hybrid phenotypes where two of the nodes are expressed relatively high as compared to the remaining two, for instance (high A, high B, low C, low D). Finally, we apply our results to understand naive CD4(+) T cell differentiation into Th1, Th2, Th17 and Treg subsets, suggesting Th1/Th2/Th17/Treg decision-making to be a two-step process.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cell Differentiation/genetics",
+      "*Phenotype",
+      "*T-Lymphocytes, Regulatory/immunology",
+      "*Th17 Cells/immunology",
+      "*Th1 Cells/immunology",
+      "Humans",
+      "Th2 Cells/immunology",
+      "Transcription Factors/genetics",
+      "Gene Regulatory Networks/genetics",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duddu, Atchuta Srinivas",
+        "Andreas, Elizabeth",
+        "Bv, Harshavardhan",
+        "Grover, Kaushal",
+        "Singh, Vivek Raj",
+        "Hari, Kishore",
+        "Jhunjhunwala, Siddharth",
+        "Cummins, Breschine",
+        "Gedeon, Tomas",
+        "Jolly, Mohit Kumar"
+      ],
+      "short_names": [
+        "Duddu AS",
+        "Andreas E",
+        "Bv H",
+        "Grover K",
+        "Singh VR",
+        "Hari K",
+        "Jhunjhunwala S",
+        "Cummins B",
+        "Gedeon T",
+        "Jolly MK"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-8876-5864",
+        "ORCID: 0000-0002-3097-5277",
+        "ORCID: 0000-0002-6631-2109"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+        "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA.",
+        "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+        "IISc Mathematics Initiative, Indian Institute of Science, 560012, Bangalore, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, 110067, India.",
+        "Undergraduate Program, Indian Institute of Science, Bangalore, 560012, India.",
+        "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+        "Department of Physics, Northeastern University, MA, 02115, Boston, USA.",
+        "Center for Theoretical Biological Physics, Northeastern University, MA, 02115, Boston, USA.",
+        "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+        "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA. breschine.cummins@montana.edu.",
+        "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA. tgedeon@montana.edu.",
+        "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India. mkjolly@iisc.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duddu, Atchuta Srinivas",
+        "short_name": "Duddu AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India."
+        ]
+      },
+      {
+        "full_name": "Andreas, Elizabeth",
+        "short_name": "Andreas E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA."
+        ]
+      },
+      {
+        "full_name": "Bv, Harshavardhan",
+        "short_name": "Bv H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+          "IISc Mathematics Initiative, Indian Institute of Science, 560012, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Grover, Kaushal",
+        "short_name": "Grover K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Vivek Raj",
+        "short_name": "Singh VR",
+        "identifiers": [
+          "0009-0004-8876-5864"
+        ],
+        "affiliations": [
+          "Undergraduate Program, Indian Institute of Science, Bangalore, 560012, India."
+        ]
+      },
+      {
+        "full_name": "Hari, Kishore",
+        "short_name": "Hari K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India.",
+          "Department of Physics, Northeastern University, MA, 02115, Boston, USA.",
+          "Center for Theoretical Biological Physics, Northeastern University, MA, 02115, Boston, USA."
+        ]
+      },
+      {
+        "full_name": "Jhunjhunwala, Siddharth",
+        "short_name": "Jhunjhunwala S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India."
+        ]
+      },
+      {
+        "full_name": "Cummins, Breschine",
+        "short_name": "Cummins B",
+        "identifiers": [
+          "0000-0002-3097-5277"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA. breschine.cummins@montana.edu."
+        ]
+      },
+      {
+        "full_name": "Gedeon, Tomas",
+        "short_name": "Gedeon T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Montana State University, Bozeman, MT, 59717, USA. tgedeon@montana.edu."
+        ]
+      },
+      {
+        "full_name": "Jolly, Mohit Kumar",
+        "short_name": "Jolly MK",
+        "identifiers": [
+          "0000-0002-6631-2109"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bangalore, 560012, India. mkjolly@iisc.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2024 Oct 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/25 06:23",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "41917471",
+      "40829640",
+      "40223976"
+    ],
+    "refs": [
+      "38838155",
+      "38811598",
+      "38565887",
+      "37531952",
+      "37400474",
+      "36579714",
+      "36551270",
+      "36269057",
+      "36052070",
+      "35353012",
+      "35176267",
+      "35050677",
+      "33729159",
+      "33037096",
+      "32993428",
+      "32909810",
+      "32735846",
+      "32488086",
+      "32424264",
+      "32057819",
+      "31069317",
+      "31021593",
+      "30774565",
+      "30759395",
+      "30658053",
+      "30282028",
+      "30116195",
+      "29991564",
+      "29784817",
+      "28630089",
+      "28607488",
+      "28397688",
+      "28362798",
+      "26875830",
+      "26307665",
+      "25779890",
+      "25170733",
+      "23976880",
+      "23735670",
+      "22225794",
+      "22210907",
+      "21829337",
+      "21151104",
+      "21146896",
+      "21116397",
+      "19608860",
+      "19043543",
+      "18684923",
+      "18368049",
+      "18162042",
+      "17412320",
+      "16714385",
+      "15641723",
+      "12594267",
+      "10659857",
+      "10542403",
+      "4588055"
+    ],
+    "similar": [
+      "39448615",
+      "32993428",
+      "35353012",
+      "39812465",
+      "30001736",
+      "23734780",
+      "30587599",
+      "41606283",
+      "42392819",
+      "40829640",
+      "22156341",
+      "27974866",
+      "21966367",
+      "21270506",
+      "24429356",
+      "28607488",
+      "40350818",
+      "26514620",
+      "22474485",
+      "29715455",
+      "24140602",
+      "27344332",
+      "23178269",
+      "32971928",
+      "27085037",
+      "28649995",
+      "29768397",
+      "32552719",
+      "21861858",
+      "28502089",
+      "22088452",
+      "40898227",
+      "29275836",
+      "23405905",
+      "27576175",
+      "24530745",
+      "22941119",
+      "30036637",
+      "28520232",
+      "31262519",
+      "31467933",
+      "26000298",
+      "30246693",
+      "19531753",
+      "29469406",
+      "28362822",
+      "25348066",
+      "22056434",
+      "19912251",
+      "38918985",
+      "22225794",
+      "33454392",
+      "21445087",
+      "36052070",
+      "28423590",
+      "39293523",
+      "28690889",
+      "19075796",
+      "22984077",
+      "26564244",
+      "24845722",
+      "25352158",
+      "25760640",
+      "23064699",
+      "25449852",
+      "23578791",
+      "22833233",
+      "30327657",
+      "38531201",
+      "25595306",
+      "21865674",
+      "29162668",
+      "17328715",
+      "21551360",
+      "41034792",
+      "36211418",
+      "32027660",
+      "19768385",
+      "18024079",
+      "25024610",
+      "33358580",
+      "40809135",
+      "25261202",
+      "40029535",
+      "27338754",
+      "35898499",
+      "30258282",
+      "27183640",
+      "21524750",
+      "24185641",
+      "31066252",
+      "27787789",
+      "19602708",
+      "22424785",
+      "26239429",
+      "25034833",
+      "27687555",
+      "17978190",
+      "42365464",
+      "31514450"
+    ],
+    "review": [
+      "39448615",
+      "39812465",
+      "27974866",
+      "21270506",
+      "40350818",
+      "22474485",
+      "21861858",
+      "29275836",
+      "23405905",
+      "29469406",
+      "19912251",
+      "23578791",
+      "17328715",
+      "25261202",
+      "35898499"
+    ],
+    "pmc": [
+      "11502801"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-024-00433-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39448615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

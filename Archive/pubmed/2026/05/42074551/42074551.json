@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "42074551",
+    "doi": "10.3390/genes17040433",
+    "title": "Computational Mapping of Hedgehog Pathway Kinase Module Predicts Node-Specific Craniofacial Phenotypes."
+  },
+  "content": {
+    "abstract": "BACKGROUND/OBJECTIVES: Craniofacial malformations such as orofacial clefts affect ~1 in 700 births; 40-60% lack clear genetic etiology, and many exhibit asymmetry and variable expressivity unexplained by classical Sonic Hedgehog (SHH) morphogen gradient models. We investigated whether integrated molecular modules linking morphogen signaling with metabolic stress responses may better account for craniofacial developmental outcomes. METHODS: Sequential UniProt gene set integration identified 186 candidate craniofacial regulators. STRING network analysis revealed modular architecture. Molecular docking profiled 17 compounds against SMO, CK1delta, PINK1, and TIE2 (control). Pathway reconstruction integrated the SHH-CK1delta-HIF1A-HEY1-PINK1 axis with in-silico-predicted CK1delta phosphorylation sites on SMO (S615, T593, S751), HIF1A (Ser247), and GLI1/2/3 transcription factors. A developmental decision tree mapped affinity profiles to node-specific phenotype hypotheses. RESULTS: CK1delta and PINK1 emerged as candidate nodes coupling morphogen signaling with mitochondrial quality control. Cross-docking showed preferential binding to developmental kinases (CK1delta: -8.34 kcal/mol; PINK1: -8.80 kcal/mol) versus TIE2 control (-6.76 kcal/mol; p < 0.001). Pathway reconstruction suggested that CK1delta-mediated Ser247 phosphorylation of HIF1A disrupts ARNT dimerization, redirecting HIF1A toward ARNT-independent HEY1 induction and consequent PINK1 suppression. Based on computed profiles, node-specific associations were proposed as computational hypotheses: SMO perturbation --> midline defects; CK1delta --> facial asymmetry/clefting; PINK1 --> mandibular hypoplasia. Multi-target compounds (e.g., purmorphamine, taladegib) generated composite phenotype predictions consistent with clinical complexity. CONCLUSIONS: This strictly in silico study identifies candidate integrated morphogenic modules whose multi-node perturbation may underlie anatomically specific craniofacial malformation patterns. Node-phenotype associations are prioritized computational hypotheses requiring experimental validation; if confirmed, the framework could inform developmental toxicity assessment, therapeutic design, and reclassification of idiopathic craniofacial anomalies.",
+    "keywords": [
+      "CK1delta",
+      "PINK1",
+      "Sonic Hedgehog",
+      "craniofacial malformations",
+      "developmental toxicology",
+      "molecular docking",
+      "morphogenic modules",
+      "network medicine",
+      "neural crest"
+    ],
+    "mesh_terms": [
+      "*Hedgehog Proteins/metabolism/genetics",
+      "Signal Transduction",
+      "Humans",
+      "*Craniofacial Abnormalities/genetics/metabolism/pathology",
+      "Phenotype",
+      "Molecular Docking Simulation",
+      "*Protein Kinases/metabolism/genetics",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gramatikoff, Kosi",
+        "Stoykov, Miroslav",
+        "Hormann, Karl",
+        "Milkov, Mario"
+      ],
+      "short_names": [
+        "Gramatikoff K",
+        "Stoykov M",
+        "Hormann K",
+        "Milkov M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0740-5743"
+      ],
+      "affiliations": [
+        "Research Institute, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 55 Marin Drinov Str., 9002 Varna, Bulgaria.",
+        "Department of Dental Material Science and Prosthetic Dental Medicine, Faculty of Dental Medicine, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 84 Tsar Osvoboditel Blvd, 9002 Varna, Bulgaria.",
+        "Mannheim University Hospital, Fichtestrasse 2, D-68165 Mannheim, Germany.",
+        "Department of Dental Material Science and Prosthetic Dental Medicine, Faculty of Dental Medicine, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 84 Tsar Osvoboditel Blvd, 9002 Varna, Bulgaria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gramatikoff, Kosi",
+        "short_name": "Gramatikoff K",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 55 Marin Drinov Str., 9002 Varna, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Stoykov, Miroslav",
+        "short_name": "Stoykov M",
+        "identifiers": [
+          "0000-0002-0740-5743"
+        ],
+        "affiliations": [
+          "Department of Dental Material Science and Prosthetic Dental Medicine, Faculty of Dental Medicine, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 84 Tsar Osvoboditel Blvd, 9002 Varna, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Hörmann, Karl",
+        "short_name": "Hörmann K",
+        "identifiers": [],
+        "affiliations": [
+          "Mannheim University Hospital, Fichtestraße 2, D-68165 Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Milkov, Mario",
+        "short_name": "Milkov M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dental Material Science and Prosthetic Dental Medicine, Faculty of Dental Medicine, Medical University \"Prof. Dr. Paraskev Stoyanov\"-Varna, 84 Tsar Osvoboditel Blvd, 9002 Varna, Bulgaria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Apr 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 06:32",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40854917",
+      "40145366",
+      "39552041",
+      "39498806",
+      "37481904",
+      "37054910",
+      "36408920",
+      "36370105",
+      "36300620",
+      "35609983",
+      "35422062",
+      "35325185",
+      "33328221",
+      "33237311",
+      "31819034",
+      "31642701",
+      "31580536",
+      "31545507",
+      "31376410",
+      "31171666",
+      "31022843",
+      "29443958",
+      "27581207",
+      "27339986",
+      "27190038",
+      "25783684",
+      "25611507",
+      "25512501",
+      "25349414",
+      "25306547",
+      "25200911",
+      "24780627",
+      "24692404",
+      "24648492",
+      "23719536",
+      "21695114",
+      "21534921",
+      "21331089",
+      "21164525",
+      "20699359",
+      "20126261",
+      "20059947",
+      "18328428",
+      "15722192",
+      "15107405",
+      "15087508",
+      "14756330",
+      "11731473",
+      "11389462",
+      "11276090",
+      "9436976",
+      "8896572",
+      "7221553"
+    ],
+    "similar": [
+      "42074551",
+      "41595715",
+      "28686747",
+      "28965847",
+      "25053433",
+      "29945554",
+      "42475469",
+      "23872235",
+      "17525797",
+      "37481904",
+      "10518503",
+      "41092386",
+      "33060130",
+      "26509735",
+      "30729724",
+      "40350407",
+      "29438014",
+      "32680836",
+      "42421348",
+      "15554946",
+      "30653446",
+      "42153145",
+      "23055936",
+      "23071453",
+      "15314685",
+      "33383187",
+      "23872071",
+      "34884862",
+      "40910302",
+      "20106874",
+      "26979762",
+      "34033651",
+      "26875496",
+      "26658865",
+      "34275739",
+      "41492010",
+      "40020794",
+      "32404987",
+      "17884337",
+      "27280464",
+      "40145366",
+      "10067756",
+      "25327282",
+      "41614567",
+      "21935430",
+      "32391617",
+      "38529886",
+      "20024066",
+      "42543341",
+      "16020517",
+      "41020943",
+      "24816261",
+      "26719128",
+      "34672258",
+      "42263871",
+      "22275045",
+      "26912062",
+      "38623785",
+      "21649559",
+      "42586262",
+      "21183473",
+      "41814823",
+      "15042696",
+      "25829542",
+      "32576205",
+      "39588392",
+      "19948063",
+      "29975682",
+      "32703609",
+      "33446260",
+      "42494425",
+      "35001679",
+      "42103044",
+      "31642701",
+      "41554453",
+      "21305689",
+      "39255949",
+      "28213462",
+      "22461522",
+      "25693592",
+      "32413283",
+      "41150817",
+      "26425560",
+      "26173831",
+      "42278407",
+      "10574760",
+      "41559994",
+      "41539633",
+      "34210780",
+      "28286175",
+      "28506991",
+      "31018557",
+      "37885410",
+      "29571613",
+      "41060747",
+      "36495293",
+      "26859575",
+      "29975848",
+      "11460262",
+      "28891097"
+    ],
+    "review": [
+      "42074551",
+      "37481904",
+      "40350407",
+      "32680836",
+      "33383187",
+      "34884862",
+      "26875496",
+      "10067756",
+      "20024066",
+      "38623785",
+      "42103044",
+      "21305689",
+      "28213462",
+      "26425560"
+    ],
+    "pmc": [
+      "13116340"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17040433",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/craniofacialabnormalities.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Craniofacial Abnormalities"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42074551/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3433",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

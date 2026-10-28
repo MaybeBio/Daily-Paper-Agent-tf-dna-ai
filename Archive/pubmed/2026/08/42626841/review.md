@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors investigate the molecular interaction between the meiotic double-strand break protein Mer2 and the H3K4me3 reader Spp1 in Saccharomyces cerevisiae. They report a 4:2 (Mer2:Spp1) stoichiometry for the complex, present AlphaFold-derived structural models supported by mutagenesis and SAXS, characterize single-molecule binding kinetics by AFM-based force spectroscopy, and identify a positively charged motif in Spp1 that contributes to DNA binding within the tripartite Mer2-Spp1-DNA complex. They further show that this DNA-binding motif is dispensable for meiotic DSB formation in vivo.
+- **Visible evidence base** Results sections describing AFM force spectroscopy (Fig. 1), AlphaFold modeling (Figs. 2, 4, 5), pulldown assays (Figs. 1C, 2B, 3), SEC-MALS (Fig. 4A), SEC-SAXS (Fig. 4B-C), gel shift assays (Figs. 5, 7), condensation assays (Fig. 6), and in vivo DSB analysis (Fig. 8C, Supplementary Fig. S11). Methods sections for protein expression, purification, AFM, SEC-MALS, SEC-SAXS, and yeast genetics.
+- **Missing materials affecting confidence** Actual figures and supplementary figures are not provided, only figure legends referenced in text. Supplementary Tables S1-S5 are referenced but not provided. Raw data, statistical analysis details, and full experimental replicates are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thorough biochemical and biophysical characterization of the Mer2-Spp1 interaction, a key step in understanding meiotic DSB formation. The combination of AlphaFold modeling with experimental validation through mutagenesis, SAXS, and single-molecule force spectroscopy is commendable. The identification of a 4:2 stoichiometry and the occlusion-compensation model for Mer2-Spp1-DNA interactions are interesting contributions. However, several concerns regarding the interpretation of the AFM data, the discrepancy between single-molecule and ensemble affinity measurements, and the in vivo relevance of the identified DNA-binding motif require clarification. The manuscript is technically sound in most aspects but would benefit from additional controls and more nuanced discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, chromosome organization, and the molecular mechanisms of DNA double-strand break formation. The work also has relevance for those interested in the application of AlphaFold to protein-protein and protein-DNA complexes, as well as the use of single-molecule force spectroscopy to characterize weak protein interactions. The structural models and biochemical data provide a foundation for future studies on the meiotic DSB machinery.
+- **Major strengths** 1) The combination of multiple biophysical techniques (AFM, SEC-MALS, SEC-SAXS) to characterize the Mer2-Spp1 interaction is rigorous and complementary. 2) The AlphaFold models are experimentally tested through targeted mutagenesis, strengthening the structural predictions. 3) The identification of a specific positively charged motif in Spp1 that mediates DNA binding within the complex is a novel finding. 4) The occlusion-compensation model provides a conceptual framework for understanding how Spp1 and DNA co-exist on the Mer2 tetramer. 5) The in vivo analysis of the R5K mutant, while showing no phenotype, is an important negative control that prevents overinterpretation of the in vitro data.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Data interpretation and claim support
+- **Claim pointer** The authors claim that the AFM-based single-molecule assay captures specific interactions between Spp1 and Mer2, and that the measured KD of 1.9 ± 1.6 µM reflects the true affinity of this interaction.
+- **Evidence pointer** Fig. 1F-I, Supplementary Table S1
+- **Concern** The AFM binding frequency for the specific Mer2-Spp1 interaction is only 7.6 ± 1.8%, while the negative controls (no Spp1 or no Mer2) show approximately 2% binding. This difference, while statistically significant, is relatively small. More critically, the V195D mutant, which is described as "strongly compromising" the interaction in pulldown assays, still shows 4.5 ± 1.3% binding frequency, which is more than double the background level. This suggests that a substantial fraction of the measured binding events may be non-specific or that the V195D mutation does not fully abolish the interaction. The authors should address whether the residual binding of V195D represents a true residual interaction or non-specific adhesion.
+- **Why it matters** The kinetic parameters (koff, kon, KD) derived from the AFM data are central to the authors' claim that single-molecule interactions differ from ensemble measurements. If the AFM assay captures a mixture of specific and non-specific interactions, the derived kinetic parameters would be unreliable. The discrepancy between the AFM-derived KD (1.9 µM) and the previously reported MST-derived affinity (approximately 100-fold higher) is a key observation, but the interpretation depends critically on the specificity of the AFM signal.
+- **Resolution test** The authors should provide additional controls, such as competition experiments with an excess of unlabeled Spp1 or a peptide spanning the Mer2-binding region of Spp1, to demonstrate that the AFM-detected binding events are specifically competed. Alternatively, they could perform AFM experiments with the V195D mutant at multiple concentrations to establish a dose-response relationship and distinguish specific from non-specific binding.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** No
+- **Axis** Experimental design and interpretation
+- **Claim pointer** The authors propose an occlusion-compensation model where Spp1 binding partially occludes the DNA-binding surface of Mer2, but this is compensated by direct Spp1-DNA interactions via the R5K motif.
+- **Evidence pointer** Fig. 7, Fig. 8A
+- **Concern** The evidence for the occlusion-compensation model is indirect. The authors show that Spp1-R5K mutation reduces the formation of tripartite Mer2-Spp1-DNA complexes and favors Mer2-DNA complexes, but they do not directly demonstrate that Spp1 binding reduces Mer2's intrinsic DNA-binding affinity. The claim that Spp1 "inherently reduces the DNA-binding activity of Mer2" is inferred from the shift in complex populations rather than measured directly. Additionally, the authors do not quantify the DNA-binding affinity of Mer2 in the presence and absence of Spp1, which would be necessary to support the occlusion component of the model.
+- **Why it matters** The occlusion-compensation model is a central conceptual contribution of the manuscript. If the model is not directly supported by quantitative binding measurements, the interpretation remains speculative. The distinction between occlusion (steric/electrostatic interference) and competition (direct overlap of binding sites) has mechanistic implications for how the meiotic DSB machinery assembles.
+- **Resolution test** The authors should perform quantitative DNA-binding assays (e.g., fluorescence anisotropy or electrophoretic mobility shift assays with varying concentrations) to measure the DNA-binding affinity of Mer2 alone, Mer2 with wild-type Spp1, and Mer2 with Spp1-R5K. This would directly test whether Spp1 reduces Mer2's DNA affinity and whether the R5K motif compensates for this reduction.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** In vivo relevance and interpretation
+- **Claim pointer** The authors state that the R5K DNA-binding motif of Spp1 is dispensable for meiotic DSB formation, based on the lack of phenotype in the SPP1-R5K mutant.
+- **Evidence pointer** Fig. 8C, Supplementary Fig. S11
+- **Concern** The in vivo analysis is limited to two DSB hotspots (CYS3 and DEP1) and one cold spot (PES4). While the authors show that the R5K mutation does not recapitulate the spp1Δ phenotype at these loci, this is a limited sampling of the genome. The authors acknowledge this limitation in the discussion but do not address whether the R5K motif might have locus-specific effects that are not captured by the selected hotspots. Additionally, the authors do not assess whether the R5K mutation affects the kinetics of DSB formation or repair, only steady-state levels at specific time points.
+- **Why it matters** The conclusion that the DNA-binding activity of Spp1 is dispensable for meiotic function is based on a negative result at a small number of loci. If the R5K motif has subtle or locus-specific effects, the conclusion would need to be revised. The authors' own discussion suggests that the motif may have functions in other contexts (e.g., replication fork protection), which raises questions about the specificity of the in vivo analysis.
+- **Resolution test** The authors should either expand the in vivo analysis to include a broader set of DSB hotspots (e.g., using genome-wide DSB mapping) or temper the conclusion to reflect the limited scope of the analysis. Alternatively, they could test the R5K mutant in sensitized genetic backgrounds (as they suggest in the discussion) to reveal potential synthetic phenotypes.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Structural model validation
+- **Claim pointer** The authors state that the AlphaFold model of the Mer2-Spp1 complex is supported by SAXS experiments and mutagenesis.
+- **Evidence pointer** Fig. 4B-C, Supplementary Fig. S7
+- **Concern** The SAXS validation is described as showing "excellent agreement" between experimental data and the AlphaFold model (χ2 = 1.5). However, the authors do not provide a comparison with alternative models or a discussion of what level of agreement would be expected for a correct versus incorrect model. The mutagenesis data (Fig. 3) support the involvement of specific residues but do not validate the overall architecture of the complex. The authors also note that the AlphaFold model does not explain the 4:2 stoichiometry, which is a significant limitation.
+- **Why it matters** The structural model is a key output of the manuscript. If the SAXS validation is not rigorous (e.g., no comparison with alternative conformations or oligomeric states), the confidence in the model is limited. The inability of the model to explain the observed stoichiometry suggests that the model may be incomplete or that additional conformational states exist.
+- **Resolution test** The authors should provide a more detailed SAXS analysis, including a comparison of the experimental scattering profile with models of alternative stoichiometries (e.g., 4:4) and a discussion of the resolution limits of the SAXS data. They could also perform additional validation, such as cross-linking mass spectrometry or hydrogen-deuterium exchange, to test the model predictions.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity and presentation
+- **Affected element** Fig. 1F-I, AFM data presentation
+- **Evidence pointer** Fig. 1F-I
+- **Issue** The AFM data are presented as binding frequencies and rupture force histograms, but the number of force-distance curves analyzed, the number of independent experiments, and the statistical tests used are not clearly stated in the text.
+- **Required correction** Please provide the number of curves analyzed, the number of independent experiments, and the statistical methods used for comparing binding frequencies and rupture forces.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Data interpretation
+- **Affected element** Fig. 7A, Spp1 DNA-binding
+- **Evidence pointer** Fig. 7A
+- **Issue** The authors state that full-length Spp1 does not bind DNA, but the C-terminal domain (161-353) does. The gel-shift data for full-length Spp1 are not shown, only described in the text.
+- **Required correction** Please include the full-length Spp1 gel-shift data or provide a clear reference to where these data are shown.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Supplementary Table S1
+- **Evidence pointer** Supplementary Table S1
+- **Issue** The kinetic parameters (koff, kon, KD) are presented in Supplementary Table S1, but the table is not provided in the manuscript text.
+- **Required correction** Please ensure the table is included in the supplementary materials and that all values are clearly defined with errors and sample sizes.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Interpretation
+- **Affected element** Fig. 6, condensate recruitment
+- **Evidence pointer** Fig. 6
+- **Issue** The authors show that Spp1 is recruited to Mer2 condensates, but the quantification of this recruitment (e.g., fluorescence intensity ratios, colocalization coefficients) is not described.
+- **Required correction** Please provide quantitative measures of Spp1 recruitment to Mer2 condensates, including appropriate controls and statistical analysis.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Discussion completeness
+- **Affected element** Discussion section
+- **Evidence pointer** Discussion
+- **Issue** The authors discuss the potential role of Spp1 DNA-binding in replication fork protection but do not cite specific evidence for this claim.
+- **Required correction** Please add appropriate references to support the statement about Spp1 function at replication forks.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Technical detail
+- **Affected element** Methods, AFM experiments
+- **Evidence pointer** Methods section
+- **Issue** The AFM methods describe the functionalization of tips and surfaces but do not provide details on the spring constant calibration of the cantilevers or the criteria used to define a specific binding event.
+- **Required correction** Please add details on cantilever calibration and the criteria for identifying specific binding events in the force-distance curves.
+
+## Risk / unsupported claims
+- The claim that the AFM-derived KD (1.9 ± 1.6 µM) represents the true affinity of the Mer2-Spp1 interaction is not fully supported, given the relatively small difference between specific and non-specific binding frequencies and the lack of competition controls.
+- The occlusion-compensation model is inferred from indirect evidence (shift in complex populations) rather than direct quantitative binding measurements.
+- The conclusion that the R5K DNA-binding motif is dispensable for meiotic DSB formation is based on a limited analysis of three loci and may not be generalizable.
+- The AlphaFold model of the Mer2-Spp1 complex is presented as validated by SAXS, but the validation is not rigorous (no comparison with alternative models or stoichiometries).
+- The statement that Spp1 recruitment to Mer2 condensates is "essentially as a client" is based on qualitative fluorescence microscopy data without quantitative support.
+- The claim that the C-terminal Mer2 IDR "may weakly contribute" to the interaction is based on a small but reproducible reduction in binding, but the statistical significance and biological relevance are not fully established.

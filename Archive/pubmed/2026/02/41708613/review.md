@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report a cryo-EM structure of DNMT3A2 bound to DNMT3L, revealing a hierarchical autoinhibitory mechanism involving the PWWP, ADD, and methyltransferase domains. They propose that PWWP-ADD interactions block both the H3K36me2-binding pocket and the CpG-recognition TRD loop, coupling histone mark sensing with enzymatic activation. Disease-associated mutations at the PWWP-ADD interface disrupt autoinhibition, leading to altered substrate specificity and aberrant methylation patterns.
+- **Visible evidence base** Cryo-EM structure at 3.66 Å, ITC binding assays, NMR spectroscopy, in vitro methylation assays on DNA and nucleosome substrates, MD simulations, and analysis of published CUT&RUN and EM-seq datasets
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; source data files not accessible; details of MD simulation parameters partially provided; statistical details for some comparisons incomplete
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally grounded model of DNMT3A autoinhibition that extends previous work by incorporating the PWWP domain as an additional regulatory layer. The cryo-EM structure is a valuable contribution, and the combination of biochemical, computational, and genomic approaches strengthens the functional relevance of the findings. However, several technical concerns regarding the resolution of the structure, the interpretation of MD simulations, and the quantitative support for key claims need to be addressed before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, and structural biology would find this work relevant. The mechanistic insights into DNMT3A regulation have implications for understanding DNA methylation establishment during development and its dysregulation in diseases such as AML and microcephalic dwarfism. The study also provides a framework for interpreting disease-associated mutations in epigenetic regulators.
+- **Major strengths** The cryo-EM structure of the full-length DNMT3A2-DNMT3L complex is a significant technical achievement, revealing the PWWP domain in a previously uncharacterized autoinhibitory position. The combination of structural, biochemical, and cellular data provides multiple lines of evidence supporting the proposed model. The identification of disease mutations at the PWWP-ADD interface and their functional characterization links basic mechanistic findings to clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structure of the DNMT3A2-DNMT3L complex was solved at 3.66 Å overall resolution, and the PWWP domain was traced in one subunit.
+  - **Evidence pointer** Results section "Cryo-EM structure of the DNMT3A2-DNMT3L complex", Figure 1, Supplementary Figures 1-2, Supplementary Table 1
+  - **Concern** The overall resolution of 3.66 Å is modest for detailed interpretation of side-chain interactions. The authors describe specific hydrogen bonds and van der Waals contacts at the PWWP-ADD and PWWP-MTase interfaces, but at this resolution, such interactions are difficult to assign with confidence. The local resolution of the PWWP domain, which is described as dynamic and only visible in one subunit, is not reported. It is unclear whether the PWWP-ADD interface is resolved well enough to support the specific contacts described.
+  - **Why it matters** The central claim of the paper is that specific PWWP-ADD interactions mediate autoinhibition. If the structural basis for these interactions is not firmly established, the mechanistic model is weakened. The authors need to demonstrate that the interface is reliably modeled and that the described contacts are supported by the density.
+  - **Resolution test** Provide local resolution maps and representative density for the PWWP-ADD and PWWP-MTase interfaces. Report the model-to-map fit (e.g., Q-score or local CC) for the PWWP domain. If side-chain assignments are ambiguous, state this explicitly and temper the interpretation accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** MD simulations reveal that relief of PWWP-mediated autoinhibition and ADD-H3K4me0 interaction lead to disengagement of the TRD loop from autoinhibitory interaction, increasing its solvent exposure.
+  - **Evidence pointer** Results section "MD simulation analysis of DNMT3A activation", Figure 5
+  - **Concern** The MD simulation analysis is based on structural models generated by removing the PWWP domain or by docking the H3K4me0 peptide. The simulation time is 200 ns, which may be insufficient to capture large conformational rearrangements such as TRD loop disengagement. The authors report RMSF differences but do not provide convergence analysis or replicate statistics beyond three runs. It is unclear whether the observed TRD loop mobility is statistically significant or an artifact of the simulation setup.
+  - **Why it matters** The MD simulations are used to propose a mechanistic model of DNMT3A activation. If the simulations are not robust or well-converged, the conclusions drawn from them are speculative. The authors need to demonstrate that the observed dynamics are reproducible and meaningful.
+  - **Resolution test** Provide convergence plots, replicate-to-replicate variability, and a comparison of the simulated TRD loop conformations with known active-state structures. Consider longer simulations or enhanced sampling methods to support the proposed activation mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** Disease-associated mutations W330R, D333N, and E545G disrupt the PWWP-ADD interaction, leading to impaired autoinhibition and altered substrate specificity.
+  - **Evidence pointer** Results section "Disrupting the PWWP-ADD interaction boosts DNMT3A-mediated DNA methylation" and "Functional analysis of the autoinhibition-disrupting disease mutations", Figures 2, 6
+  - **Concern** The in vitro methylation assays show increased activity for mutants on naked DNA, but the effects on nucleosome substrates are more complex. For example, E545G shows reduced activity on H3K4me0 and H3K36me2 nucleosomes but increased activity on H3K4me3 nucleosomes. The authors attribute these differences to altered autoinhibition, but the assays are performed with excess substrate, which may not reflect physiological conditions. The link between the observed in vitro changes and the in vivo methylation patterns is correlative rather than causal.
+  - **Why it matters** The clinical relevance of the findings depends on establishing a clear mechanistic link between the mutations, loss of autoinhibition, and disease-associated methylation changes. The current data do not fully exclude alternative explanations, such as altered protein stability, folding, or interactions with other partners.
+  - **Resolution test** Perform kinetic analyses of methylation activity under subsaturating conditions. Test whether the mutations affect protein stability or folding. Use isogenic cell lines with knock-in mutations to directly assess the impact on methylation patterns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The genomic methylation analysis shows that W330R leads to increased methylation in H3K36me2-poor regions.
+  - **Evidence pointer** Results section "Functional analysis of the autoinhibition-disrupting disease mutations", Figure 6f-g, Supplementary Figure 7
+  - **Concern** The analysis is based on published datasets from a previous study. The authors do not provide details on how the data were processed, normalized, or statistically compared beyond the described box plots. The number of biological replicates is not stated for the genomic analysis. The observed differences, while statistically significant, are modest and may be influenced by the choice of binning or filtering criteria.
+  - **Why it matters** The genomic data are used to support the claim that disruption of autoinhibition leads to promiscuous methylation. If the analysis is not robust or the effect is small, the conclusion may be overstated.
+  - **Resolution test** Provide detailed analysis parameters, including read depth thresholds, binning strategy, and statistical methods. Include a power analysis or effect size calculation. Consider validating the findings in an independent dataset or with additional replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1b-c
+  - **Issue** The color coding of domains in Figure 1b-c is described in the legend, but the correspondence between the density map and the atomic model is not immediately clear. The two views shown are described as "opposite views," but the orientation is not labeled.
+  - **Required correction** Add orientation labels (e.g., front/back or rotated 180°) and consider showing the density map and atomic model in the same orientation for direct comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Molecular dynamics (MD) simulation"
+  - **Issue** The MD simulation methods lack details on the force field parameters for the zinc ions, the protonation states of ionizable residues, and the equilibration protocol. The number of water molecules and ions added is not specified.
+  - **Required Correction** Provide complete simulation parameters, including the number of atoms, box size, and any restraints applied. This is essential for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2f-g
+  - **Evidence pointer** Figure 2f-g
+  - **Issue** The statistical tests used are stated, but the exact p-values are not reported. For the ITC data, only two independent measurements were performed, which limits the statistical power.
+  - **Required Correction** Report exact p-values and confidence intervals. Consider increasing the number of replicates for key comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The comparison to DNMT1 activation is brief and not fully developed. The authors mention a similar regulatory principle but do not discuss potential differences in the activation mechanisms.
+  - **Required Correction** Expand the comparison to DNMT1, highlighting both similarities and differences, to provide a more complete perspective.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural interpretation at 3.66 Å), R1-M2 (MD simulation robustness), R1-M3 (causal link between mutations and disease methylation)
+- **Assessment against Nature-style criteria** Originality: The work is original in its structural characterization of the PWWP-ADD-MTase autoinhibitory network, which has not been previously described at this level of detail. Scientific importance: The findings have broad implications for understanding DNMT3A regulation and its role in disease, making this a potentially high-impact contribution. Interdisciplinary readership: The work will appeal to structural biologists, epigenetics researchers, and clinicians interested in methylation disorders. Technical soundness: The structural and biochemical data are generally well-executed, but concerns about resolution and simulation robustness need to be addressed. Readability for nonspecialists: The manuscript is clearly written, with helpful figures, though some sections assume familiarity with structural biology techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural findings are novel and potentially important, but the current evidence does not fully establish the mechanistic model as presented. Addressing the concerns about structural interpretation, simulation robustness, and the causal link to disease would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The specific hydrogen bonds and van der Waals contacts at the PWWP-ADD interface are described with confidence that may not be justified at 3.66 Å resolution.
+- The MD simulation conclusion that TRP loop disengagement leads to enhanced DNA accessibility is based on 200-ns simulations that may not be converged.
+- The claim that disease mutations cause "impaired autoinhibition and substrate specificity" is supported by in vitro data, but the extrapolation to in vivo disease mechanisms is not fully established.
+- The statement that the PWWP-ADD interaction is "largely preserved in DNMT3B" is based on sequence analysis, but functional conservation is not directly tested.
+- The model presented in Figure 7, proposing a hierarchical activation mechanism, is speculative and goes beyond the direct experimental evidence.

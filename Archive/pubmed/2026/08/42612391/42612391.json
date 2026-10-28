@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "42612391",
+    "doi": "10.1016/j.bbrc.2026.154435",
+    "title": "Integrative multi-omics and machine learning identify the SPI1-METTL16-PLIN4 axis as a candidate driver of steatosis in HepG2 cells."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Non-alcoholic fatty liver disease (NAFLD) is a prevalent metabolic disorder with limited therapeutic options. This study aimed to identify potential regulators and explore their functional roles in a cellular model of NAFLD. METHODS: WGCNA was performed on the hepatic transcriptomic dataset GSE126848 (31 NAFLD vs. 26 controls), followed by integration with serum proteomic data from 12 NAFLD patients and 12 healthy controls. Hub genes were prioritized using three machine learning algorithms. Functional validation was conducted in a HepG2 cellular steatosis model induced by high fructose (3.2 g/L) and oleic acid (400 muM) for 48 h. Lipid accumulation was assessed by Oil Red O staining and triglyceride/total cholesterol measurement. Inflammation was evaluated by TNF-alpha and IL-6 secretion (ELISA), and oxidative stress by ROS levels (flow cytometry). The binding interaction between METTL16 and PLIN4 mRNA was validated by RNA immunoprecipitation (RIP)-quantitative PCR. METTL16-mediated m6A modification of PLIN4 was assessed by Methylated RIP (MeRIP)-quantitative PCR. Transcriptional regulation of METTL16 by SPI1 was examined by chromatin immunoprecipitation (ChIP) and dual-luciferase reporter assays. RESULTS: Integrative analysis identified PLIN4 as a core hub gene. PLIN4 was upregulated in the HepG2 steatosis model (P < 0.001). PLIN4 knockdown alleviated lipid droplet accumulation (P < 0.001), reduced TNF-alpha and IL-6 secretion (P < 0.01), and decreased ROS levels (P < 0.001) in fructose/oleic acid-treated HepG2 cells. Mechanistically, METTL16 mediated its m6A modification to enhance PLIN4 mRNA stability. Furthermore, SPI1 was found to transcriptionally activate METTL16 by binding to its promoter (P < 0.001). PLIN4 re-expression partially reversed the protective effects of SPI1 knockdown on lipid accumulation (P = 0.01), inflammation (P < 0.05), and oxidative stress (P < 0.001). CONCLUSION: This study identifies the SPI1/METTL16/PLIN4 axis as a potential regulatory mechanism contributing to in vitro steatosis, inflammation, and oxidative stress in steatotic HepG2 cells.",
+    "keywords": [
+      "Inflammation",
+      "Machine learning",
+      "Multi-omics",
+      "Non-alcoholic fatty liver disease",
+      "Perilipin 4",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Hep G2 Cells",
+      "*Non-alcoholic Fatty Liver Disease/metabolism/genetics/pathology",
+      "*Machine Learning",
+      "Multiomics",
+      "Oxidative Stress",
+      "Oleic Acid",
+      "Proteomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Zhizhou",
+        "Bian, Huawei",
+        "Huang, Ying"
+      ],
+      "short_names": [
+        "Xiao Z",
+        "Bian H",
+        "Huang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Nutrition, The Third Affiliated Hospital of Sun Yat-sen University, Guangzhou, China.",
+        "Department of Clinical Nutrition, The Third Affiliated Hospital of Sun Yat-sen University, Guangzhou, China.",
+        "Department of Clinical Nutrition, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. Electronic address: dietaryguidelines@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Zhizhou",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Nutrition, The Third Affiliated Hospital of Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Huawei",
+        "short_name": "Bian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Nutrition, The Third Affiliated Hospital of Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ying",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Nutrition, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. Electronic address: dietaryguidelines@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Oct 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/18 23:36",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42612391",
+      "41806388",
+      "42484789",
+      "42609119",
+      "36518278",
+      "41547913",
+      "32205994",
+      "39962463",
+      "42232754",
+      "33977953",
+      "41690460",
+      "23603006",
+      "41139042",
+      "40615099",
+      "40194991",
+      "30668424",
+      "31195981",
+      "29452209",
+      "42123354",
+      "32884949",
+      "27889747",
+      "31064820",
+      "39536891",
+      "25057104",
+      "40752845",
+      "30142454",
+      "27845265",
+      "31799678",
+      "40907406",
+      "28449683",
+      "32023702",
+      "30514673",
+      "39748602",
+      "24735863",
+      "40916281",
+      "40674914",
+      "33272734",
+      "42715255",
+      "36835095",
+      "41997405",
+      "26637457",
+      "39388920",
+      "38184503",
+      "41707056",
+      "40739771",
+      "31998789",
+      "39577491",
+      "35504134",
+      "41731716",
+      "41952207",
+      "39919328",
+      "39973559",
+      "38503000",
+      "42329327",
+      "38940024",
+      "30402207",
+      "38476236",
+      "31401392",
+      "42519307",
+      "36376950",
+      "42486310",
+      "33075563",
+      "41413486",
+      "32026851",
+      "28759727",
+      "41087767",
+      "37282950",
+      "40240962",
+      "33098868",
+      "42126781",
+      "27490779",
+      "38630788",
+      "39434688",
+      "28577437",
+      "29864915",
+      "38245790",
+      "39903889",
+      "35280674",
+      "37952731",
+      "36443854",
+      "41865215",
+      "40294666",
+      "42372586",
+      "42315856",
+      "39496918",
+      "42565569",
+      "40947715",
+      "32579753",
+      "35837772",
+      "32580141",
+      "32375182",
+      "42011589",
+      "30537742",
+      "38084145",
+      "40074128",
+      "42181846",
+      "34078383",
+      "41933745",
+      "30547786",
+      "29525610"
+    ],
+    "review": [
+      "42612391"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)01199-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PLIN4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

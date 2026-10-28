@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "41125957",
+    "doi": "10.1007/s00277-025-06675-6",
+    "title": "ResNet50 and Single-Cell Multi-Omics analysis identify key cellular and molecular features in pediatric acute lymphoblastic leukemia."
+  },
+  "content": {
+    "abstract": "Acute lymphoblastic leukemia (ALL) is the most common hematologic malignancy in children, posing challenges for early diagnosis, relapse prediction, and individualized treatment due to its high cellular and immune heterogeneity. This study addresses these challenges by integrating deep learning-based imaging analysis with single-cell transcriptomics and T-cell receptor sequencing (TCR-seq). A ResNet50-based deep learning model was developed to classify leukemia single-cell images, achieving an accuracy of ~ 85% and an AUC of 0.86. Gradient-weighted Class Activation Mapping (Grad-CAM) indicated that nuclear morphology was the key feature for cell identification. Concurrently, Louvain clustering of single-cell RNA sequencing data revealed 18 distinct cellular subpopulations, with Cluster 4 exhibiting strong immune activity and pronounced TCRbeta rearrangement. Functional analyses highlighted the roles of UBE2C and HMGB2 in leukemogenesis. Integration with TCR-seq further uncovered immune microenvironment alterations and potential relapse biomarkers. These results demonstrate that combining deep learning with single-cell multi-omics is a powerful strategy for elucidating disease mechanisms, improving early diagnosis, and informing personalized therapies for pediatric ALL.",
+    "keywords": [
+      "Acute lymphoblastic leukemia",
+      "Deep learning",
+      "Immune microenvironment",
+      "Single-cell transcriptomics",
+      "T-cell receptor sequencing"
+    ],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "Cluster Analysis",
+      "*Deep Learning",
+      "*Genes, T-Cell Receptor",
+      "HMGB2 Protein/genetics",
+      "*Precursor Cell Lymphoblastic Leukemia-Lymphoma/diagnostic imaging/genetics/metabolism",
+      "*Single-Cell Gene Expression Analysis/methods",
+      "Ubiquitin-Conjugating Enzymes/genetics",
+      "Male",
+      "Female",
+      "Multiomics",
+      "Tumor Microenvironment/immunology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Suo, Taoli",
+        "Zhang, Jing",
+        "Chen, Yanli",
+        "Shi, Hongyu",
+        "Lu, Haiyan"
+      ],
+      "short_names": [
+        "Suo T",
+        "Zhang J",
+        "Chen Y",
+        "Shi H",
+        "Lu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China.",
+        "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China.",
+        "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China.",
+        "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China.",
+        "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China. S15835129416@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Suo, Taoli",
+        "short_name": "Suo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yanli",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Shi, Hongyu",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Haiyan",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Children's Hospital of Shanxi, Women Health Center of Shanxi, No. 65 Jinxi Street, Taiyuan, 030025, Shanxi Province, P.R. China. S15835129416@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of hematology"
+    ],
+    "journal_abbrev": [
+      "Ann Hematol"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 00:26",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39742502",
+      "38893109",
+      "38871816",
+      "38819254",
+      "38578123",
+      "38026291",
+      "37965341",
+      "37768027",
+      "37532715",
+      "36353677",
+      "35926109",
+      "35879805",
+      "35541919",
+      "35472844",
+      "35352511",
+      "35084434",
+      "34599006",
+      "34108022",
+      "33828217",
+      "33434063",
+      "33054110",
+      "32617333",
+      "32317670",
+      "32030660",
+      "31455892",
+      "31267007",
+      "31229559",
+      "31133758"
+    ],
+    "similar": [
+      "41125957",
+      "39955305",
+      "41246350",
+      "39247201",
+      "41155287",
+      "39465162",
+      "36439178",
+      "40031269",
+      "41312364",
+      "8161789",
+      "34646384",
+      "40963604",
+      "40610551",
+      "37845689",
+      "27590521",
+      "41035636",
+      "39498293",
+      "40845691",
+      "38844062",
+      "41504052",
+      "39863799",
+      "41230137",
+      "40330458",
+      "34906116",
+      "39614426",
+      "39075091",
+      "30393877",
+      "40330470",
+      "41139200",
+      "40399768",
+      "40145864",
+      "40753948",
+      "32692727",
+      "39694444",
+      "41284982",
+      "20730889",
+      "41009952",
+      "40977710",
+      "40886194",
+      "40642093",
+      "40582297",
+      "40783578",
+      "40474806",
+      "39675761",
+      "28476192",
+      "40598554",
+      "40068854",
+      "39829399",
+      "34716967",
+      "25261097",
+      "39712016",
+      "41006377",
+      "28650467",
+      "40078987",
+      "41293156",
+      "40229347",
+      "37725723",
+      "40589759",
+      "40745068",
+      "32129446",
+      "34006631",
+      "40910197",
+      "40517210",
+      "40200221",
+      "40887856",
+      "40450339",
+      "41290867",
+      "38796378",
+      "35214531",
+      "37651607",
+      "32470390",
+      "41019085",
+      "40097519",
+      "39431668",
+      "27880933",
+      "12526921",
+      "39372403",
+      "40795161",
+      "10551409",
+      "40241525",
+      "39190087",
+      "41271691",
+      "39081317",
+      "41423668",
+      "29058513",
+      "35622320",
+      "41004701",
+      "41099090",
+      "37725872",
+      "20699438",
+      "37673824",
+      "41164190",
+      "40198985",
+      "39703515",
+      "40375984",
+      "39376034",
+      "31857684",
+      "34867958",
+      "40423850",
+      "39346916"
+    ],
+    "review": [
+      "41125957",
+      "40963604",
+      "40886194",
+      "37651607",
+      "39190087",
+      "37725872",
+      "34867958"
+    ],
+    "pmc": [
+      "12672778"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41125957/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00277-025-06675-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-UBE2C-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3820",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

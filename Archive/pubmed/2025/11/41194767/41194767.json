@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "41194767",
+    "doi": "10.1039/d5cp02530c",
+    "title": "Characterizing the conformational ensemble of PROTAC degraders in solutions via atomistic simulations."
+  },
+  "content": {
+    "abstract": "Targeted protein degradation has emerged as a promising strategy for developing novel therapeutics, particularly for \"undruggable\" disease-related proteins. One approach is the use of PROteolysis TArgeting Chimeras (PROTACs) degraders, which induce the formation of ternary complexes between the target protein and E3 ligase, leading to ubiquitination and degradation of the target protein. Understanding the conformational behavior of PROTACs in solutions and how it relates to their pharmacokinetic properties and membrane permeability is crucial for optimizing PROTAC design and efficacy. Due to the large size and flexibility of PROTACs and their chameleonic character, it is essential to understand their conformational ensembles, and how they depend on the environment. Here, we introduce a novel methodology for exploring PROTAC conformational behavior using atomistic simulations. We employ the enhanced sampling method parallel bias metadynamics, where we bias generic local collective variables, specifically all rotatable dihedral angles, thereby avoiding the considerable challenge of identifying suitable global collective variables for biasing. The methodology allows for obtaining free energy surfaces of global CVs via reweighting. We apply the method to the prototypical case of the MZ1 PROTAC degrader, which targets bromodomain-containing protein-4 (BRD4) for degradation via the von Hippel-Lindau (VHL) E3 ligase, and elucidate its conformational behavior in different solvents, allowing us to gain insights into the chameleonic property of MZ1. Our results confirm that MZ1 adopts distinct conformations depending on the solvent, exhibiting collapsed conformations in water and chloroform, and extended conformations in DMSO. Collapsed conformations in chloroform have been correlated to increased cell permeability. Thus, our results show that MZ1 takes on conformations suitable for membrane permeation in apolar environments. Our methodological framework is generally applicable to large flexible molecules like PROTACs, and the results demonstrate its efficiency, laying the groundwork for similar investigations for other PROTACs and other \"beyond-rule-of-5\" drug candidates. This work provides valuable insights into the design and optimization of PROTACs, ultimately contributing to developing novel therapeutics for \"undruggable\" proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Proteolysis",
+      "Humans",
+      "Cell Cycle Proteins/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Transcription Factors/metabolism/chemistry",
+      "Solutions",
+      "Protein Conformation",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhusal, Shikshya",
+        "Valsson, Omar"
+      ],
+      "short_names": [
+        "Bhusal S",
+        "Valsson O"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5668-645X",
+        "ORCID: 0000-0001-7971-4767"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of North Texas, Denton, Texas 76203, USA. omar.valsson@unt.edu.",
+        "Department of Chemistry, University of North Texas, Denton, Texas 76203, USA. omar.valsson@unt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhusal, Shikshya",
+        "short_name": "Bhusal S",
+        "identifiers": [
+          "0000-0001-5668-645X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of North Texas, Denton, Texas 76203, USA. omar.valsson@unt.edu."
+        ]
+      },
+      {
+        "full_name": "Valsson, Omar",
+        "short_name": "Valsson O",
+        "identifiers": [
+          "0000-0001-7971-4767"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of North Texas, Denton, Texas 76203, USA. omar.valsson@unt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2025 Nov 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/06 06:29",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41194767",
+      "40014381",
+      "30721025",
+      "40659131",
+      "37388700",
+      "41022846",
+      "35018781",
+      "40317844",
+      "40208910",
+      "38199162",
+      "28288108",
+      "40665123",
+      "38377822",
+      "39864384",
+      "40223615",
+      "40202531",
+      "38609561",
+      "35101445",
+      "40295770",
+      "38284361",
+      "39688565",
+      "36606710",
+      "40516451",
+      "36448571",
+      "33143537",
+      "39140051",
+      "39392888",
+      "38383787",
+      "39591691",
+      "40994151",
+      "30540463",
+      "38478885",
+      "36749883",
+      "36787659",
+      "34081921",
+      "34432243",
+      "38746111",
+      "35084845",
+      "37443112",
+      "41313965",
+      "33792163",
+      "28378579",
+      "40343767",
+      "37126968",
+      "40550492",
+      "35983982",
+      "40911906",
+      "36170570",
+      "41184304",
+      "38437473",
+      "40937862",
+      "34675414",
+      "39606859",
+      "30631068",
+      "34432242",
+      "41045927",
+      "39783892",
+      "36300631",
+      "37224698",
+      "31553577",
+      "34878263",
+      "31064868",
+      "40522120",
+      "39475482",
+      "36075213",
+      "36961978",
+      "39932098",
+      "32338867",
+      "40667573",
+      "39361611",
+      "39641357",
+      "34494353",
+      "30175757",
+      "41219525",
+      "39087481",
+      "40788235",
+      "40792622",
+      "31746102",
+      "26035625",
+      "35500825",
+      "35418290",
+      "30826187",
+      "37279091",
+      "36098871",
+      "36235052",
+      "38621319",
+      "40254254",
+      "32976709",
+      "34432249",
+      "39374557",
+      "34397373",
+      "39322067",
+      "38702019",
+      "38394929",
+      "39816690",
+      "35410300",
+      "31879210",
+      "40671234",
+      "29473971",
+      "33567268"
+    ],
+    "review": [
+      "41194767",
+      "38199162",
+      "33143537",
+      "39591691",
+      "35983982",
+      "37224698",
+      "40667573",
+      "34494353",
+      "30175757",
+      "41219525",
+      "35500825",
+      "35418290",
+      "36098871",
+      "36235052",
+      "38621319",
+      "39374557",
+      "39322067",
+      "35410300",
+      "40671234"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5cp02530c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

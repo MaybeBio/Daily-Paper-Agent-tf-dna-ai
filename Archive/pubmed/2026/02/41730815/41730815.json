@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41730815",
+    "doi": "10.1016/j.bioorg.2026.109660",
+    "title": "In silico discovery and biological evaluation of a novel selective HDAC8 inhibitor featuring 1H-pyrazolo[3,4-b]pyridine scaffold."
+  },
+  "content": {
+    "abstract": "Histone deacetylase 8 (HDAC8), a pivotal epigenetic regulator orchestrating chromatin remodeling and transcriptional control, has emerged as a compelling anticancer target owing to its frequent dysregulation in malignancies. The development of isoform-selective inhibitors, however, confronts substantial challenges because of the pronounced structural conservation across HDAC isoforms. This study developed a high-efficiency drug screening pipeline primarily leveraging artificial learning (AI) models and molecular simulation techniques, and further evaluated the biological activity of computationally prioritized compounds through enzymatic inhibition assays and cellular experiments. The structurally novel compound Cmpd.16 was successfully identified, exhibiting promising inhibitory activity against HDAC8 (IC(50) = 0.16 +/- 0.01 muM) and moderately inhibited HCT116 cell proliferation mainly through the induction of apoptosis and G2/M phase cell cycle arrest. Subsequently, molecular dynamics simulations were employed to investigate the binding conformation of Cmpd.16 within the active pocket, and the key residues identified through free energy decomposition further elucidated the drug-target binding mode. Collectively, Cmpd.16, featuring 1H-pyrazolo[3,4-b]pyridine scaffold, was discovered via an efficient screening workflow, offering valuable insights to guide the rational design of HDAC8-targeted agents.",
+    "keywords": [
+      "Binding mechanism",
+      "Biological activity",
+      "Deep learning",
+      "HDAC8",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Histone Deacetylase Inhibitors/pharmacology/chemistry/chemical synthesis",
+      "*Pyridines/pharmacology/chemistry/chemical synthesis",
+      "Cell Proliferation/drug effects",
+      "Structure-Activity Relationship",
+      "*Histone Deacetylases/metabolism",
+      "*Repressor Proteins/antagonists & inhibitors/metabolism",
+      "*Drug Discovery",
+      "*Antineoplastic Agents/pharmacology/chemistry/chemical synthesis",
+      "Molecular Structure",
+      "Drug Screening Assays, Antitumor",
+      "*Pyrazoles/pharmacology/chemistry/chemical synthesis",
+      "Dose-Response Relationship, Drug",
+      "Apoptosis/drug effects",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Wenying",
+        "Shi, He",
+        "Li, Tingting",
+        "Fu, Yan",
+        "Zhang, Yusha",
+        "Zhang, Yang",
+        "Liu, Jie",
+        "Li, Xuedong"
+      ],
+      "short_names": [
+        "Yan W",
+        "Shi H",
+        "Li T",
+        "Fu Y",
+        "Zhang Y",
+        "Zhang Y",
+        "Liu J",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Pharmacy, Hebei Medical University Third Hospital, Shijiazhuang 050051, China. Electronic address: 38900624@hebmu.edu.cn.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Fourth Hospital of Shijiazhuang, Shijiazhuang Obstetrics and Gynecology Hospital, Shijiazhuang 050000, China.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Key Laboratory of Neural and Vascular Biology, Ministry of Education, Hebei Medical University, Shijiazhuang 050017, China.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China. Electronic address: liujie@hebmu.edu.cn.",
+        "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Key Laboratory of Neural and Vascular Biology, Ministry of Education, Hebei Medical University, Shijiazhuang 050017, China. Electronic address: lxuedong@hebmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Wenying",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, Hebei Medical University Third Hospital, Shijiazhuang 050051, China. Electronic address: 38900624@hebmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, He",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Fourth Hospital of Shijiazhuang, Shijiazhuang Obstetrics and Gynecology Hospital, Shijiazhuang 050000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yusha",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Key Laboratory of Neural and Vascular Biology, Ministry of Education, Hebei Medical University, Shijiazhuang 050017, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China. Electronic address: liujie@hebmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xuedong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei Medical University, Shijiazhuang 050017, China; The Key Laboratory of Neural and Vascular Biology, Ministry of Education, Hebei Medical University, Shijiazhuang 050017, China. Electronic address: lxuedong@hebmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Chem"
+    ],
+    "pub_date": "2026 Jun 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 00:29",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41730815",
+      "32151834",
+      "29533873",
+      "40054131",
+      "30836926",
+      "27665180",
+      "40879260",
+      "24403121",
+      "34959179",
+      "41421683",
+      "41997004",
+      "40383016",
+      "29202397",
+      "33848944",
+      "39549507",
+      "41936799",
+      "41855502",
+      "41720839",
+      "33220015",
+      "40491377",
+      "39276491",
+      "34507234",
+      "25874326",
+      "26264503",
+      "33784602",
+      "42107269",
+      "33663315",
+      "34116381",
+      "28044941",
+      "40815993",
+      "39357770",
+      "38896936",
+      "40706541",
+      "34120025",
+      "39291901",
+      "41365064",
+      "31421254",
+      "34796536",
+      "39039678",
+      "40561648",
+      "39119716",
+      "41785528",
+      "41878673",
+      "42217499",
+      "31748509",
+      "41880788",
+      "28391133",
+      "31400938",
+      "42035225",
+      "40079180",
+      "40319810",
+      "35408604",
+      "25763653",
+      "32063430",
+      "31179474",
+      "38949959",
+      "42054745",
+      "31406093",
+      "24304348",
+      "39717958",
+      "27253830",
+      "27774878",
+      "37144599",
+      "26845132",
+      "41109068",
+      "34753060",
+      "31271961",
+      "31267876",
+      "39089850",
+      "40893045",
+      "32446120",
+      "29190092",
+      "40267875",
+      "33744686",
+      "40782411",
+      "32247939",
+      "30831410",
+      "21548582",
+      "31901516",
+      "41219568",
+      "39604351",
+      "32707280",
+      "33756235",
+      "39094428",
+      "38889633",
+      "40480106",
+      "29080240",
+      "29150330",
+      "39583632",
+      "33421913",
+      "32848361",
+      "41588865",
+      "41001797",
+      "41429096",
+      "41046623",
+      "24285590",
+      "32650178",
+      "42035271",
+      "32591593",
+      "25218912"
+    ],
+    "review": [
+      "41730815",
+      "39039678"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-2068(26)00196-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41393260",
+    "doi": "10.3389/fcvm.2025.1672513",
+    "title": "Identification and validation of key biomarkers of the glycolysis-ketone body metabolism in heart failure based on multi-omics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic remodeling, particularly involving glycolysis and ketone body metabolism, is a hallmark of heart failure (HF) pathophysiology. However, the regulatory network linking energy metabolism with immune dysregulation remains poorly understood. OBJECTIVES: This study aimed to identify and validate key biomarkers within the glycolysis-ketone body metabolism axis that contribute to the progression of HF, and to explore their association with immune microenvironment alterations. METHODS: Transcriptomic data from HF patients were integrated with glycolysis and ketone metabolism gene sets. Differentially expressed genes (DEGs) were identified and analyzed through Weighted Gene Co-expression Network Analysis (WGCNA). Candidate genes were refined using machine learning algorithms (LASSO regression and Boruta), with functional enrichment assessed via Gene Set Enrichment Analysis (GSEA). Immune infiltration was profiled using ssGSEA, and regulatory networks were constructed by integrating miRNA and transcription factor predictions. Experimental validation was conducted in a murine myocardial infarction model using qPCR and cardiac ultrasound imaging. RESULTS: Five candidate genes related to glycolysis and ketone metabolism were identified, among which TIMP1 emerged as the key hub gene. TIMP1 expression was significantly elevated in HF and correlated with enriched pathways including inflammatory signaling and mitochondrial dysfunction. Immune profiling revealed that TIMP1 positively associated with the infiltration of activated CD8(+) T cells and dendritic cells, potentially mediated by chemokines such as CCL2. Regulatory network analysis suggested that upstream transcription factors and miRNAs may contribute to TIMP1 overexpression. Animal model validation confirmed the upregulation of TIMP1 and other core genes, supporting its central role in HF progression. CONCLUSION: This study identifies TIMP1 as a central regulator linking glycolysis-ketone metabolic imbalance with immune microenvironment dysregulation in heart failure. These findings offer new mechanistic insights and propose TIMP1 as a potential diagnostic biomarker and therapeutic target in HF.",
+    "keywords": [
+      "glycolysis",
+      "heart failure",
+      "immune infiltration",
+      "ketone body metabolism",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Na",
+        "Liu, Jing",
+        "Chen, Zhe",
+        "Geng, Xiaoyong"
+      ],
+      "short_names": [
+        "Xiao N",
+        "Liu J",
+        "Chen Z",
+        "Geng X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China.",
+        "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China.",
+        "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China.",
+        "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Na",
+        "short_name": "Xiao N",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhe",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Xiaoyong",
+        "short_name": "Geng X",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 13:10",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40604895",
+      "40404619",
+      "40252789",
+      "39357068",
+      "39122845",
+      "38890311",
+      "38830933",
+      "38691671",
+      "38358377",
+      "37969376",
+      "37893149",
+      "37879334",
+      "37392421",
+      "37153746",
+      "37104043",
+      "36996176",
+      "36607775",
+      "36264497",
+      "36201541",
+      "36163148",
+      "36007522",
+      "35875800",
+      "35778451",
+      "35363499",
+      "35150240",
+      "34932384",
+      "34850130",
+      "34463784",
+      "34446165",
+      "34254872",
+      "33983836",
+      "33749159",
+      "32902739",
+      "32749493",
+      "32144406",
+      "31598675",
+      "31504780",
+      "30903160",
+      "30717842",
+      "30537294",
+      "30346946",
+      "30335862",
+      "29138119",
+      "28373589",
+      "27340270",
+      "26771021",
+      "26267216",
+      "24174628",
+      "24161319",
+      "22811423",
+      "22733818",
+      "20427988",
+      "19114008",
+      "19038972",
+      "16103240",
+      "12873541",
+      "11034943",
+      "9450646"
+    ],
+    "similar": [
+      "41393260",
+      "40406620",
+      "37008314",
+      "41432483",
+      "41268541",
+      "40405297",
+      "41189222",
+      "41200169",
+      "39351221",
+      "40149456",
+      "38509983",
+      "40842856",
+      "36148059",
+      "40617086",
+      "40151199",
+      "38656659",
+      "40927774",
+      "40532306",
+      "41422136",
+      "41013556",
+      "41424060",
+      "41080564",
+      "41388523",
+      "40055592",
+      "40630623",
+      "41044520",
+      "38291374",
+      "39354722",
+      "39507054",
+      "40818967",
+      "41479901",
+      "40589764",
+      "39375405",
+      "36576616",
+      "36304554",
+      "38987688",
+      "41358199",
+      "39403102",
+      "40626177",
+      "41052072",
+      "40496861",
+      "40764361",
+      "41502897",
+      "39062507",
+      "41305746",
+      "39351239",
+      "41153026",
+      "41170011",
+      "40950882",
+      "40933310",
+      "40330470",
+      "41030501",
+      "40967560",
+      "41168872",
+      "40406126",
+      "38533476",
+      "41170378",
+      "36782329",
+      "36704339",
+      "40160813",
+      "40540134",
+      "40165133",
+      "41224720",
+      "34218797",
+      "41291841",
+      "41094572",
+      "40662135",
+      "41006883",
+      "37974098",
+      "41099090",
+      "40948644",
+      "40630963",
+      "40722708",
+      "38371524",
+      "41200172",
+      "40596265",
+      "40948782",
+      "35651940",
+      "40552285",
+      "41442003",
+      "41323394",
+      "35764238",
+      "41291978",
+      "41265166",
+      "41214111",
+      "41102315",
+      "40313958",
+      "40819162",
+      "41110612",
+      "39268370",
+      "41145553",
+      "41158506",
+      "41013727",
+      "39588536",
+      "40665394",
+      "40340571",
+      "39754246",
+      "39512836",
+      "41146237",
+      "39229380"
+    ],
+    "review": [
+      "41393260"
+    ],
+    "pmc": [
+      "12695798"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41393260/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-680",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2025.1672513",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

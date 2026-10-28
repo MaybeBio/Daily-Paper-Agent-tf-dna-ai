@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2606.27942v1",
+  "title": "Towards coevolution-aware ancestral sequence reconstruction",
+  "doi": "",
+  "abstract": "Ancestral sequence reconstruction (ASR) is a powerful approach for studying molecular evolution and the emergence of protein function. Yet most ASR methods assume that sites evolve independently, neglecting the epistatic constraints that shape protein structure, stability, and function. This simplification affects both ancestral inference and its evaluation: maximum-a-posteriori reconstructions may over-concentrate probability into a single over-idealized sequence, whereas independent posterior sampling can generate implausible or poorly functional ancestors. Here, we introduce a coevolution-aware ASR framework that combines standard phylogenetic inference with Direct Coupling Analysis (DCA), thereby preserving site-wise ancestral uncertainty while enforcing residue-residue constraints learned from extant protein families. To benchmark the method, we develop a controlled forward-evolution framework based on a DCA evolutionary sampler, allowing reconstructed ancestors to be compared with known ground-truth sequences generated under realistic epistatic constraints. Applied to beta-lactamases and DNA-binding domains, the approach improves reconstruction when ancestral states are epistatically constrained, and yields ensembles of candidate ancestors that are both phylogenetically consistent and statistically compatible with natural protein families. This framework bridges the gap between single-sequence MAP reconstruction and unconstrained posterior sampling, providing a practical route toward ancestral reconstructions that better reflect the coupled nature of protein evolution.",
+  "authors": [
+    "Alya Zeinaty",
+    "Leonardo di Bari",
+    "Saverio Rossi",
+    "Pierre Barrat-Charlaix",
+    "Francesco Zamponi",
+    "Martin Weigt"
+  ],
+  "published_date": "2026-06-26T10:32:11Z",
+  "updated_date": "2026-06-26T10:32:11Z",
+  "journal": "",
+  "category": "q-bio.BM, physics.bio-ph, q-bio.PE",
+  "landing_url": "https://arxiv.org/abs/2606.27942v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.27942v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM",
+    "physics.bio-ph",
+    "q-bio.PE"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2606.27942v1",
+    "raw_categories": [
+      "q-bio.BM",
+      "physics.bio-ph",
+      "q-bio.PE"
+    ],
+    "journal_ref": ""
+  }
+}

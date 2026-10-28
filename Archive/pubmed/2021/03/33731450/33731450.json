@@ -1,0 +1,633 @@
+{
+  "identity": {
+    "pmid": "33731450",
+    "doi": "10.1523/JNEUROSCI.2210-20.2021",
+    "title": "Dissociable Roles of Pallidal Neuron Subtypes in Regulating Motor Patterns."
+  },
+  "content": {
+    "abstract": "We have previously established that PV(+) neurons and Npas1(+) neurons are distinct neuron classes in the external globus pallidus (GPe): they have different topographical, electrophysiological, circuit, and functional properties. Aside from Foxp2(+) neurons, which are a unique subclass within the Npas1(+) class, we lack driver lines that effectively capture other GPe neuron subclasses. In this study, we examined the utility of Kcng4-Cre, Npr3-Cre, and Npy2r-Cre mouse lines (both males and females) for the delineation of GPe neuron subtypes. By using these novel driver lines, we have provided the most exhaustive investigation of electrophysiological studies of GPe neuron subtypes to date. Corroborating our prior studies, GPe neurons can be divided into two statistically distinct clusters that map onto PV(+) and Npas1(+) classes. By combining optogenetics and machine learning-based tracking, we showed that optogenetic perturbation of GPe neuron subtypes generated unique behavioral structures. Our findings further highlighted the dissociable roles of GPe neurons in regulating movement and anxiety-like behavior. We concluded that Npr3(+) neurons and Kcng4(+) neurons are distinct subclasses of Npas1(+) neurons and PV(+) neurons, respectively. Finally, by examining local collateral connectivity, we inferred the circuit mechanisms involved in the motor patterns observed with optogenetic perturbations. In summary, by identifying mouse lines that allow for manipulations of GPe neuron subtypes, we created new opportunities for interrogations of cellular and circuit substrates that can be important for motor function and dysfunction.SIGNIFICANCE STATEMENT Within the basal ganglia, the external globus pallidus (GPe) has long been recognized for its involvement in motor control. However, we lacked an understanding of precisely how movement is controlled at the GPe level as a result of its cellular complexity. In this study, by using transgenic and cell-specific approaches, we showed that genetically-defined GPe neuron subtypes have distinct roles in regulating motor patterns. In addition, the in vivo contributions of these neuron subtypes are in part shaped by the local, inhibitory connections within the GPe. In sum, we have established the foundation for future investigations of motor function and disease pathophysiology.",
+    "keywords": [
+      "arkypallidal neurons",
+      "behavioral dynamics",
+      "body kinematics",
+      "local collaterals",
+      "machine learning",
+      "reciprocal inhibition"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Anxiety/psychology",
+      "Basic Helix-Loop-Helix Proteins/genetics",
+      "Behavior, Animal",
+      "Biomechanical Phenomena",
+      "Electrophysiological Phenomena",
+      "Female",
+      "Globus Pallidus/*cytology/*physiology",
+      "Machine Learning",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Motor Activity/*physiology",
+      "Nerve Net/cytology/physiology",
+      "Nerve Tissue Proteins/genetics",
+      "Neurons/*physiology",
+      "Optogenetics",
+      "Potassium Channels, Voltage-Gated/genetics",
+      "Receptors, Atrial Natriuretic Factor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Qiaoling",
+        "Pamukcu, Arin",
+        "Cherian, Suraj",
+        "Chang, Isaac Y M",
+        "Berceau, Brianna L",
+        "Xenias, Harry S",
+        "Higgs, Matthew H",
+        "Rajamanickam, Shivakumar",
+        "Chen, Yi",
+        "Du, Xixun",
+        "Zhang, Yu",
+        "McMorrow, Hayley",
+        "Abecassis, Zachary A",
+        "Boca, Simina M",
+        "Justice, Nicholas J",
+        "Wilson, Charles J",
+        "Chan, C Savio"
+      ],
+      "short_names": [
+        "Cui Q",
+        "Pamukcu A",
+        "Cherian S",
+        "Chang IYM",
+        "Berceau BL",
+        "Xenias HS",
+        "Higgs MH",
+        "Rajamanickam S",
+        "Chen Y",
+        "Du X",
+        "Zhang Y",
+        "McMorrow H",
+        "Abecassis ZA",
+        "Boca SM",
+        "Justice NJ",
+        "Wilson CJ",
+        "Chan CS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9502-0973",
+        "ORCID: 0000-0002-3474-1718"
+      ],
+      "affiliations": [
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Biology, University of Texas at San Antonio, San Antonio 78249, Texas.",
+        "Center for Metabolic and degenerative disease, Institute of Molecular Medicine, University of Texas, Houston 77030, Texas.",
+        "Department of Integrative Pharmacology, University of Texas, Houston 77030, Texas.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison 53706, Wisconsin.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois.",
+        "Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington 20057, DC.",
+        "Center for Metabolic and degenerative disease, Institute of Molecular Medicine, University of Texas, Houston 77030, Texas.",
+        "Department of Integrative Pharmacology, University of Texas, Houston 77030, Texas.",
+        "Department of Biology, University of Texas at San Antonio, San Antonio 78249, Texas.",
+        "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois saviochan@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Qiaoling",
+        "short_name": "Cui Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Pamukcu, Arin",
+        "short_name": "Pamukcu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Cherian, Suraj",
+        "short_name": "Cherian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Chang, Isaac Y M",
+        "short_name": "Chang IYM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Berceau, Brianna L",
+        "short_name": "Berceau BL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Xenias, Harry S",
+        "short_name": "Xenias HS",
+        "identifiers": [
+          "0000-0002-9502-0973"
+        ],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Higgs, Matthew H",
+        "short_name": "Higgs MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Texas at San Antonio, San Antonio 78249, Texas."
+        ]
+      },
+      {
+        "full_name": "Rajamanickam, Shivakumar",
+        "short_name": "Rajamanickam S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Metabolic and degenerative disease, Institute of Molecular Medicine, University of Texas, Houston 77030, Texas.",
+          "Department of Integrative Pharmacology, University of Texas, Houston 77030, Texas."
+        ]
+      },
+      {
+        "full_name": "Chen, Yi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison 53706, Wisconsin."
+        ]
+      },
+      {
+        "full_name": "Du, Xixun",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "McMorrow, Hayley",
+        "short_name": "McMorrow H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Abecassis, Zachary A",
+        "short_name": "Abecassis ZA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois."
+        ]
+      },
+      {
+        "full_name": "Boca, Simina M",
+        "short_name": "Boca SM",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington 20057, DC."
+        ]
+      },
+      {
+        "full_name": "Justice, Nicholas J",
+        "short_name": "Justice NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Metabolic and degenerative disease, Institute of Molecular Medicine, University of Texas, Houston 77030, Texas.",
+          "Department of Integrative Pharmacology, University of Texas, Houston 77030, Texas."
+        ]
+      },
+      {
+        "full_name": "Wilson, Charles J",
+        "short_name": "Wilson CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Texas at San Antonio, San Antonio 78249, Texas."
+        ]
+      },
+      {
+        "full_name": "Chan, C Savio",
+        "short_name": "Chan CS",
+        "identifiers": [
+          "0000-0002-3474-1718"
+        ],
+        "affiliations": [
+          "Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago 60611, Illinois saviochan@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of neuroscience : the official journal of the Society for Neuroscience"
+    ],
+    "journal_abbrev": [
+      "J Neurosci"
+    ],
+    "pub_date": "2021 May 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/19 06:00",
+    "fetched_at": "2026-09-27 14:44:41"
+  },
+  "links": {
+    "cites": [
+      "42248772",
+      "41928958",
+      "41771740",
+      "41632839",
+      "41346798",
+      "41279724",
+      "40833252",
+      "40799737",
+      "40703439",
+      "40490756",
+      "40460125",
+      "40253429",
+      "39990452",
+      "39692887",
+      "39510836",
+      "39149277",
+      "38957401",
+      "38849935",
+      "38759649",
+      "38478096",
+      "38196745",
+      "37973381",
+      "37866012",
+      "37703876",
+      "37532091",
+      "37336974",
+      "37207651",
+      "37175643",
+      "36935263",
+      "36817646",
+      "36802196",
+      "36741471",
+      "36623877",
+      "36483523",
+      "36383658",
+      "36147730",
+      "35274227",
+      "35058372",
+      "33731445",
+      "33729831",
+      "32868462"
+    ],
+    "refs": [
+      "34616071",
+      "34004146",
+      "33731445",
+      "33420090",
+      "33316152",
+      "33306949",
+      "33248017",
+      "33188733",
+      "33186530",
+      "33157020",
+      "33067362",
+      "32989293",
+      "32940600",
+      "32937133",
+      "32868462",
+      "32757349",
+      "32574593",
+      "32519952",
+      "32303147",
+      "31953369",
+      "31811030",
+      "31711567",
+      "31435019",
+      "31299170",
+      "31227823",
+      "31222186",
+      "31018098",
+      "30886408",
+      "30382198",
+      "30359598",
+      "30127430",
+      "30096299",
+      "30007418",
+      "29779950",
+      "29569009",
+      "29089360",
+      "29022877",
+      "28742497",
+      "28481350",
+      "28384468",
+      "28361918",
+      "28103476",
+      "27880915",
+      "27780050",
+      "27710791",
+      "27669410",
+      "27194328",
+      "27135927",
+      "27012960",
+      "26961101",
+      "26892802",
+      "26841063",
+      "26777273",
+      "26727548",
+      "26642797",
+      "26612957",
+      "26562431",
+      "26530468",
+      "26359400",
+      "26311767",
+      "26131933",
+      "25969447",
+      "25926446",
+      "25892222",
+      "25843402",
+      "25740526",
+      "25739505",
+      "25581560",
+      "25126785",
+      "25102561",
+      "25032493",
+      "24821804",
+      "24645192",
+      "24645191",
+      "24501350",
+      "24464039",
+      "23904615",
+      "23852117",
+      "23035084",
+      "22764222",
+      "22743772",
+      "22131403",
+      "22090484",
+      "21878933",
+      "21835227",
+      "21541304",
+      "21314848",
+      "21154909",
+      "21076425",
+      "21048144",
+      "20944662",
+      "20466536",
+      "20181580",
+      "20181579",
+      "20023653",
+      "19729372",
+      "19109506",
+      "18558860",
+      "17978025",
+      "17567796",
+      "17517682",
+      "17499111",
+      "17210805",
+      "17151600",
+      "16510720",
+      "16087877",
+      "15772356",
+      "15708631",
+      "15525777",
+      "15067433",
+      "14607789",
+      "14597658",
+      "11566503",
+      "11069964",
+      "10997578",
+      "10660885",
+      "9881853",
+      "9801382",
+      "9518590",
+      "9004351",
+      "8989416",
+      "8986874",
+      "8821727",
+      "8091209",
+      "8012814",
+      "7948856",
+      "7820633",
+      "7526961",
+      "7509081",
+      "6715208",
+      "5573022",
+      "4997823",
+      "4135902",
+      "4031996",
+      "3986561",
+      "2479133",
+      "1698947",
+      "1695404",
+      "1677608",
+      "356929",
+      "51667"
+    ],
+    "similar": [
+      "33731450",
+      "32868462",
+      "31811030",
+      "27194328",
+      "26311767",
+      "33731445",
+      "36623877",
+      "24501350",
+      "29917235",
+      "33729831",
+      "33188066",
+      "35058372",
+      "21835227",
+      "33306949",
+      "33067362",
+      "37872145",
+      "38596834",
+      "32112413",
+      "29569009",
+      "27827370",
+      "33248017",
+      "26841063",
+      "34193559",
+      "36443000",
+      "29691329",
+      "33723433",
+      "27389780",
+      "33737869",
+      "33421565",
+      "25926446",
+      "8985875",
+      "38979883",
+      "28481350",
+      "37475558",
+      "20484651",
+      "10660885",
+      "37532091",
+      "37336974",
+      "30626701",
+      "20107133",
+      "27194335",
+      "22396421",
+      "25926452",
+      "36798372",
+      "37175643",
+      "36640317",
+      "18057213",
+      "10482766",
+      "29022877",
+      "21993572",
+      "25843402",
+      "30726572",
+      "25392486",
+      "38853899",
+      "37400253",
+      "30414556",
+      "15537873",
+      "20700458",
+      "38755012",
+      "29500819",
+      "25542079",
+      "2016643",
+      "17362935",
+      "32856336",
+      "17344390",
+      "37703876",
+      "19864438",
+      "23616523",
+      "33316152",
+      "28608288",
+      "21925240",
+      "16775143",
+      "31690946",
+      "29762102",
+      "15292054",
+      "37992783",
+      "15292053",
+      "31315945",
+      "31940230",
+      "32433955",
+      "33360930",
+      "23197459",
+      "25577577",
+      "19073810",
+      "27529459",
+      "22001773",
+      "2016642",
+      "23035084",
+      "10380964",
+      "26433544",
+      "26263048",
+      "18093168",
+      "28842412",
+      "15269251",
+      "22726837",
+      "25858108",
+      "27671661",
+      "37438336",
+      "27147651",
+      "28902833",
+      "27336845",
+      "27618125",
+      "28377699",
+      "39153478",
+      "37207651",
+      "38795352",
+      "36778499",
+      "36935263",
+      "38659055",
+      "38196745",
+      "35576146",
+      "38604778",
+      "29110301",
+      "37398060",
+      "38829885",
+      "26687221",
+      "31680817",
+      "30949034"
+    ],
+    "review": [
+      "33731450",
+      "21835227",
+      "26841063",
+      "33737869",
+      "37336974",
+      "25392486",
+      "21925240",
+      "27529459",
+      "38659055"
+    ],
+    "pmc": [
+      "8176746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.jneurosci.org/cgi/pmidlookup?view=long&pmid=33731450",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/33731450",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33731450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33731450",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33731450",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

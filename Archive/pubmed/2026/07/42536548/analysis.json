@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42536548",
+  "title": "The role of cellular senescence in sepsis and its mechanism in copper death: An analysis based on machine learning.",
+  "authors": "Ma, Qi; Yang, Hai-Rong; Wang, Jian-Zhong; Zhang, Yao-Lin; Zhang, Xiao-Ya; Zhou, Wen-Jie",
+  "journal": "Medicine",
+  "published_date": "2026-07-31",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于机器学习分析脓毒症中铜死亡与细胞衰老相关基因，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Sepsis is characterized by potentially fatal organ failure resulting from the host's abnormal response to infection. Due to the complex and rapid progression of sepsis, timely diagnosis and intervention are required to improve patient prognosis. Copper-dependent cell death, known as \"cuproptosis,\" is a newly discovered mode of cell death that relies on copper. Senescence refers to a state of irreversible cessation of cell division. Both processes play significant roles in various diseases. However, the roles of genes related to cuproptosis and senescence in the pathogenesis of sepsis remain insufficiently understood. In this study, we utilized bioinformatics techniques to explore the involvement of copper-dependent cell death and its connections to sepsis and cellular senescence. We obtained 3 sepsis datasets (GSE28750, GSE54514, and GSE131761) from the Gene Expression Omnibus database and classified the raw data using R packages (R Foundation for Statistical Computing). Copper death- and aging-related genes were manually screened, and differentially expressed cuproptosis and cellular senescence-related differentially expressed genes associated with sepsis were identified. Subsequently, enrichment analysis was applied, and key genes were screened using machine learning techniques for the construction and validation of a sepsis diagnostic model. We then constructed mRNA-miRNA and mRNA-transcription factors interaction networks for the key genes, followed by differential gene analysis, immune infiltration, and enrichment analysis. We identified 17 cuproptosis and cellular senescence-related differentially expressed genes and performed gene enrichment analysis. Subsequently, using least absolute shrinkage and selection operator regression analysis and random forest algorithm, we identified sepsis-related cuproptosis and senescence-associated differentially expressed genes. After taking the intersection, we obtained 11 key genes. Next, through immune infiltration analysis, we found a positive correlation between pyruvate dehydrogenase E1 subunit beta (PDHB) and central memory cluster of differentiation 4 (CD4) T cells, glutaminase and activated CD8 T cells, as well as prion protein, PDHB, and monocytic lineage. There was a negative correlation between PDHB and type 17 T helper cells, amyloid beta precursor protein and activated CD8 T cells, PDHB and neutrophils, and CD274 and B lineage cells. These results suggest that cuproptosis may promote the development of sepsis by affecting the immune system and metabolic functions, providing new insights into the potential pathogenic mechanisms and therapeutic targets of sepsis.",
+  "abstract_zh": "脓毒症的特征是宿主对感染的反应异常，导致可能致命的器官衰竭。由于脓毒症进展复杂且迅速，需要及时诊断和干预以改善患者预后。铜依赖性细胞死亡，称为“铜死亡 (cuproptosis)”，是一种新发现的依赖于铜的细胞死亡模式。衰老 (senescence) 指的是细胞分裂不可逆停止的状态。这两个过程在多种疾病中发挥重要作用。然而，铜死亡和衰老相关基因在脓毒症发病机制中的作用仍未被充分理解。在本研究中，我们利用生物信息学技术探讨了铜依赖性细胞死亡的参与及其与脓毒症和细胞衰老的联系。我们从Gene Expression Omnibus数据库获取了3个脓毒症数据集（GSE28750、GSE54514和GSE131761），并使用R包（R Foundation for Statistical Computing）对原始数据进行分类。人工筛选了铜死亡和衰老相关基因，并鉴定了与脓毒症相关的差异表达铜死亡和细胞衰老相关差异表达基因。随后，进行了富集分析，并使用机器学习技术筛选关键基因，以构建和验证脓毒症诊断模型。我们随后构建了关键基因的mRNA-miRNA和mRNA-转录因子相互作用网络，接着进行了差异基因分析、免疫浸润和富集分析。我们鉴定了17个铜死亡和细胞衰老相关差异表达基因，并进行了基因富集分析。随后，使用最小绝对收缩和选择算子回归分析及随机森林算法，我们鉴定了脓毒症相关的铜死亡和衰老相关差异表达基因。取交集后，我们获得了11个关键基因。接下来，通过免疫浸润分析，我们发现丙酮酸脱氢酶E1亚基β (PDHB) 与中央记忆簇分化4 (CD4) T细胞、谷氨酰胺酶与活化CD8 T细胞，以及朊蛋白、PDHB与单核细胞谱系之间存在正相关。PDHB与17型辅助T细胞、淀粉样β前体蛋白与活化CD8 T细胞、PDHB与中性粒细胞，以及CD274与B细胞谱系之间存在负相关。这些结果表明，铜死亡可能通过影响免疫系统和代谢功能促进脓毒症的发展，为脓毒症的潜在致病机制和治疗靶点提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42536548/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42536548/",
+  "paper_page_path": "papers/pubmed/42536548/index.html"
+}

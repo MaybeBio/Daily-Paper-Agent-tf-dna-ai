@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report a multi-technique biophysical and computational investigation of thalidomide binding to calf thymus DNA, concluding that thalidomide binds in the minor groove via electrostatic interactions, and claim this is the first demonstration of such binding.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, raw spectra, docking scores, simulation parameters, statistical analyses, and supporting figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and technically broad study of thalidomide-DNA interactions, but the evidence as summarized is insufficient to substantiate the central claims. The conclusion that thalidomide is a minor groove binder rests on qualitative statements without quantitative data, and the claim of "first instance" is not verifiable from the supplied material. The abstract also contains internal inconsistencies and imprecise language that undermine clarity.
+- **Who would be interested in the results, and why** Researchers in nucleic acid-small molecule interactions, drug-DNA binding mechanisms, and biophysical chemistry would find the topic relevant. Those studying thalidomide's pharmacological mechanisms, particularly its teratogenic and immunomodulatory effects, may also be interested in whether direct DNA binding contributes to its biological activity.
+- **Major strengths** The study employs a wide range of complementary techniques, which is appropriate for characterizing ligand-DNA interactions. The combination of experimental and computational methods is commendable. The topic is of potential pharmacological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CD spectroscopy, thermal denaturation and viscosity measurement explained that thalidomide is groove binder."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that three techniques "explained" groove binding, but no specific data, quantitative parameters, or comparative controls are presented. For example, thermal denaturation typically distinguishes intercalation from groove binding by the magnitude of melting temperature shift, but no ΔTm value is given. Viscosity results are mentioned without any numerical or comparative data. CD spectral changes are described without specifying the nature of the induced signal.
+  - **Why it matters** The central mechanistic conclusion rests on these three techniques. Without quantitative evidence, the reader cannot assess whether the data genuinely support groove binding over intercalation or partial insertion. This is the core claim of the study.
+  - **Resolution test** Provide specific values such as ΔTm, relative viscosity changes, and CD spectral features with appropriate controls, and explain how each result distinguishes groove binding from intercalation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** "Molecular dynamic simulation indicated that the thalidomide-DNA system was stabilized by electrostatic attraction as the main interaction and mode of binding is minor groove."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract earlier states that CD, thermal denaturation, and viscosity "explained" groove binding, and that dye displacement and docking confirmed minor groove binding. The MD simulation is then said to indicate electrostatic attraction as the "main interaction." These two statements are not necessarily contradictory, but the abstract does not reconcile them. Groove binding is often driven by hydrogen bonding and van der Waals contacts, and the claim that electrostatics dominate requires specific energetic decomposition data. The abstract does not provide such data.
+  - **Why it matters** The mechanism of binding is the central scientific contribution. If the dominant interaction is electrostatic, this has implications for ionic strength dependence and sequence selectivity, which are not addressed. The inconsistency between "groove binder" and "electrostatic main interaction" needs explicit clarification.
+  - **Resolution test** Report the energy decomposition from MD simulations, such as MM-PBSA or MM-GBSA contributions, and discuss how electrostatic dominance is consistent with minor groove binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim verification
+  - **Claim pointer** "To our knowledge, this is the first instance thalidomide was shown to binds with calf thymus DNA."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of priority is unverifiable from the abstract alone. No literature search strategy, comparison with prior studies, or citation context is provided. The phrasing is also grammatically incorrect, which further weakens the claim's credibility.
+  - **Why it matters** Priority claims are strong statements that require thorough literature verification. If prior work exists, this claim would be inaccurate and could mislead readers. Even if accurate, the claim needs to be supported by a clear statement of the search methodology.
+  - **Resolution test** Provide a comprehensive literature review in the full manuscript demonstrating that no prior study has reported thalidomide binding to calf thymus DNA, and correct the grammatical error.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical completeness
+  - **Claim pointer** "Molecular docking analysis highlighted that thalidomide binds trough minor groove of calf thymus DNA which also confirmed from dye displacement experiment."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The docking analysis is mentioned but no scoring values, binding energy, or comparison with alternative binding modes is provided. The dye displacement experiment is mentioned but the specific dye used, the displacement pattern, and the quantitative results are absent. The typo "trough" for "through" also appears.
+  - **Why it matters** Docking results are only meaningful with quantitative scores and comparison to known binders. Dye displacement assays require specification of the dye and the expected displacement pattern for groove versus intercalative binding. Without these details, the claims are not assessable.
+  - **Resolution test** Report docking scores, the dye used, displacement percentages, and appropriate positive and negative controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract sentence structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract contains grammatical errors and awkward phrasing, including "binds trough" and "it mechanism." These errors reduce readability and professional quality.
+  - **Required correction** Proofread the abstract and correct all grammatical and typographical errors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technique justification
+  - **Affected element** List of techniques
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists UV-vis, cyclic voltammetry, FT-IR, and 1H NMR as techniques used, but no results from these techniques are described in the abstract. The reader cannot assess their contribution to the conclusions.
+  - **Required correction** Either briefly state the key finding from each technique or remove them from the list if they are not central to the conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "electrostatic attraction as the main interaction"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The term "electrostatic attraction" is vague. It could refer to ionic interactions, hydrogen bonding, or cation-pi interactions. The abstract does not specify which type of electrostatic interaction is dominant.
+  - **Required correction** Specify the type of electrostatic interaction and provide the corresponding energetic or structural evidence.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria**  
+  - Originality: The claim of being the first study of thalidomide-calf thymus DNA binding is potentially original, but it is not verifiable from the abstract. The approach itself is not methodologically novel.  
+  - Scientific importance: The topic is of moderate interest, but the abstract does not articulate why this binding is biologically or pharmacologically significant beyond a general statement about "pharmacological effects."  
+  - Interdisciplinary readership: The study bridges chemistry, biophysics, and pharmacology, which could appeal to a broad audience, but the abstract does not frame the findings in a way that would engage nonspecialists.  
+  - Technical soundness: The use of multiple techniques is appropriate, but the lack of quantitative data prevents assessment of technical rigor.  
+  - Readability for nonspecialists: The abstract is not accessible to nonspecialists due to jargon and grammatical errors, and it does not provide sufficient context for the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the central claims are not supported by quantitative data, the priority claim is unverifiable, and internal inconsistencies remain. A revised manuscript with full experimental details and corrected language would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that thalidomide is a groove binder based on CD, thermal denaturation, and viscosity is unsupported without quantitative data.
+- The claim that MD simulation shows electrostatic attraction as the main interaction is unsupported without energy decomposition data.
+- The claim of being the first demonstration of thalidomide binding to calf thymus DNA is unverifiable from the abstract.
+- The docking and dye displacement results are mentioned but not substantiated with any numerical or comparative data.
+- The relevance of the findings to thalidomide's pharmacological effects is asserted but not explained.

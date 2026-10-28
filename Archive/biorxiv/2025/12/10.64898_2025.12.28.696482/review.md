@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific validity, technical soundness, claims versus evidence, and suitability for a high-impact general audience
+- **Shared manuscript claim summary** The authors present GenoME, a Mixture of Experts (MoE)-based generative model that integrates DNA sequence and cell-type-specific ATAC-seq signals to predict a unified multimodal genomic profile (gene expression, histone modifications, TF binding, chromatin conformation) at native resolutions. The model is claimed to generalize to unseen cell types from a single ATAC-seq input, enable in silico perturbation for causal inference, and outperform specialized models in enhancer-promoter linkage prediction.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative descriptions), Discussion, Methods (data preprocessing, model architecture, training, evaluation, perturbation framework, E-P prediction, motif discovery), Data availability, Competing interests, Acknowledgements, Footnotes
+- **Missing materials affecting confidence** All figures and supplementary figures/tables are referenced but not provided. Quantitative results (correlation coefficients, auPRC values, bootstrap analyses) are described but not shown numerically in the text. Model architecture details are incomplete (e.g., exact parameter counts, training hyperparameters beyond learning rate schedule). Code and trained model weights are not mentioned as available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an ambitious and potentially valuable contribution to generative genomic modeling. The core idea of using a MoE architecture conditioned on cell-type-specific ATAC-seq to enable cross-cell-type generalization is conceptually sound and addresses a real limitation of existing sequence-only models. The in silico perturbation framework and the Gradient-ABC score for enhancer-promoter prediction are interesting extensions. However, the manuscript as provided is essentially a narrative summary without the actual figures, tables, or quantitative results needed to evaluate the claims. The Methods section contains several incomplete sentences and unclear passages. The claims of superiority over specialized models cannot be assessed without the underlying data. The work is potentially significant, but the evidence base is currently insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and genomics researchers working on regulatory genomics, deep learning models for gene expression prediction, and functional annotation of non-coding elements. The cross-cell-type generalization capability would be of interest to those studying cell-type-specific regulation and personalized genomics. The in silico perturbation framework could appeal to researchers interested in causal inference from genomic data. The E-P prediction approach would interest those working on enhancer-target gene mapping and variant prioritization.
+- **Major strengths** 1. The conceptual advance of using MoE with cell-type conditioning signals to achieve cross-cell-type generalization is well-motivated and addresses a clear gap in the field. 2. The unified multimodal prediction framework covering epigenomics, transcriptomics, and 3D conformation in a single model is ambitious and potentially powerful. 3. The in silico perturbation framework with multiple perturbation modes (epigenetic, sequence, gradual transition) provides a versatile tool for mechanistic investigation. 4. The Gradient-ABC score combining model attributions with ABC scores is a novel approach to E-P prediction. 5. The validation against CRISPRi-FlowFISH data and auxin-degradation experiments demonstrates an effort to ground predictions in experimental reality.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GenoME achieved correlations with experimental data that were comparable to or surpassed those of baseline models" and "GenoME yielded superior distance-stratified and insulation correlations relative to specialized models including Orca and C.Origami"
+  - **Evidence pointer** Results section, Figure 1e-i; location not provided
+  - **Concern** The quantitative results supporting the central performance claims are not presented in the text. No correlation coefficients, confidence intervals, or statistical comparisons are provided. The figures that would contain this information are not included in the provided material.
+  - **Why it matters** The core claim of the manuscript is that GenoME performs comparably or better than existing models. Without the actual numbers and statistical tests, this claim cannot be evaluated. The reader cannot determine whether the differences are meaningful or within noise.
+  - **Resolution test** Provide the actual correlation values, with confidence intervals and appropriate statistical tests, for all comparisons against baseline models. Show the figures with the data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalization claim
+  - **Claim pointer** "GenoME generalizes to predict the full regulatory landscape of unseen or individualized cell types from a single ATAC-seq input"
+  - **Evidence pointer** Results section, Figure 2; location not provided
+  - **Concern** The claim of generalization to unseen cell types is central to the manuscript's significance. However, the evaluation methodology is not fully described. It is unclear how "unseen" is defined (e.g., held-out cell types, held-out donors, held-out tissues), how many unseen cell types were tested, and whether the ATAC-seq input for unseen cell types was from the same or different batches/platforms. The comparison to EPCOT2 and Enformer-Celltyping for unseen cell types is mentioned but not quantified.
+  - **Why it matters** Cross-cell-type generalization is the key differentiator from sequence-only models. If the evaluation is limited or the definition of "unseen" is narrow, the claim may be overstated. The practical utility of the model depends on its ability to generalize to genuinely novel cell types.
+  - **Resolution test** Clearly define the train/test split for cell types. Report performance metrics for a substantial number of held-out cell types, with details on the diversity of those cell types. Show that the ATAC-seq input alone (without any fine-tuning) is sufficient for accurate prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Perturbation validation
+  - **Claim pointer** "GenoME accurately predicted the consequent changes in both RNA-seq and CTCF ChIP-seq signals" following auxin-induced degradation of key regulatory proteins
+  - **Evidence pointer** Results section, Figure 3a-c; location not provided
+  - **Concern** The perturbation experiments are described qualitatively. No quantitative metrics (e.g., correlation between predicted and observed differential signals, ROC/AUC for identifying differentially expressed genes) are provided. The claim that the model "accurately predicted" changes needs quantitative support. Additionally, it is unclear how the model was given the ATAC-seq profile of the perturbed state (was it measured experimentally or simulated?).
+  - **Why it matters** The in silico perturbation framework is a major claimed contribution. If the validation is only qualitative or anecdotal, the reliability of the framework for mechanistic inference is not established. The distinction between predicting the ATAC-seq changes and predicting downstream consequences of given ATAC-seq changes is important.
+  - **Resolution test** Provide quantitative metrics for perturbation prediction accuracy across all tested perturbations. Clarify the input protocol for perturbed states. Show genome-wide correlation analyses as mentioned in the footnotes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** E-P prediction evaluation
+  - **Claim pointer** "the combinative score derived from the integrated gradient contribution, ATAC-seq inputs, the predicted H3K27ac and contact maps (i.e. Grad-ABC score) achieved superior precision-recall performance compared to the established ABC score, in silico mutagenesis (ISM) and DeepLIFT score"
+  - **Evidence pointer** Results section, Figure 4a-b; location not provided
+  - **Concern** The E-P prediction results are described but not shown. The auPRC values, the bootstrap confidence intervals, and the specific comparisons are not provided. The evaluation set is described as 173 E-P pairs with 38 positives, which is a small dataset, and the potential for overfitting or dataset-specific artifacts is not discussed.
+  - **Why it matters** The claim of superiority over the established ABC score is significant and would be of interest to the field. However, with only 38 positive pairs, the statistical power is limited, and the generalizability of the finding is uncertain. The evaluation methodology needs to be described in sufficient detail to assess potential biases.
+  - **Resolution test** Provide the full auPRC results with confidence intervals. Discuss the limitations of the small evaluation set. Consider additional validation on independent E-P datasets.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methods clarity
+  - **Claim pointer** The Methods section describes the model architecture, training, and evaluation procedures
+  - **Evidence pointer** Methods section; location not provided
+  - **Concern** The Methods section contains incomplete sentences and unclear passages. For example, the sentence "The global chromatin accessibility corresponds to the chromatin accessibility for 3 kb around the transcriptional start site of 1216 marker genes nominated by PangloaDB 49 was also labeled as cell-type features feed to the Mixture of Experts (MoE) layer for better gating during training" is grammatically broken and unclear. The description of the MoE architecture (number of experts, routing mechanism, auxiliary losses) is incomplete. The training procedure (optimizer settings beyond learning rate, batch size, number of steps) is not fully specified.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. If the methods are not described clearly and completely, other researchers cannot build on this work. The unclear passages suggest the manuscript may be in an early draft stage.
+  - **Resolution test** Rewrite the Methods section for clarity and completeness. Provide all necessary details for reproduction, including model architecture diagrams, hyperparameter settings, and data processing pipelines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "outperforming specialized models like Activity-by-Contact" but does not specify the metric or context. This is a strong claim that should be qualified.
+  - **Required correction** Specify the evaluation metric and the specific comparison in the abstract, or soften the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figure 1; location not provided
+  - **Issue** The description of the benchmarking against AlphaGenome mentions "selected chromosomes from an adult liver donor" but does not specify which chromosomes or how many. The choice of chromosomes could affect the results.
+  - **Required correction** Specify the chromosomes used for evaluation and justify the choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, Figure 4d
+  - **Evidence pointer** Results section, Figure 4d; location not provided
+  - **Issue** The Pearson correlation of 0.53 between predicted and measured fractional expression changes is reported without a confidence interval or p-value. With a small number of E-P pairs, this correlation may not be statistically significant.
+  - **Required correction** Report the confidence interval and p-value for the correlation, and discuss the sample size.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section; location not provided
+  - **Issue** The data availability statement says data are from public sources but does not mention code availability. For a computational model, code release is essential for reproducibility.
+  - **Required correction** Add a code availability statement with a repository link.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion of the trade-off between adding output modalities and performance is interesting but brief. The observation that adding splice junction prediction reduced accuracy for other tracks deserves more analysis.
+  - **Required correction** Expand the discussion of multi-task learning trade-offs and potential solutions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Model architecture
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of the MoE gating mechanism is incomplete. It is unclear how the global cell-type context vector is integrated with local sequence embeddings in the gating network.
+  - **Required correction** Provide a more detailed description of the gating mechanism, possibly with a diagram.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Validation
+  - **Affected element** Results section, Figure 5
+  - **Evidence pointer** Results section, Figure 5; location not provided
+  - **Issue** The TF motif analysis at the HBG2 locus is described qualitatively. The claim that GenoME "correctly identifies activating motifs" needs quantitative validation, such as comparison to known motif databases or experimental perturbation data.
+  - **Required correction** Provide quantitative metrics for motif discovery accuracy, such as the fraction of discovered motifs matching known TF motifs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative results missing), R1-M2 (generalization evaluation unclear), R1-M3 (perturbation validation lacks metrics), R1-M4 (E-P evaluation incomplete), R1-M5 (Methods incomplete and unclear)
+- **Assessment against Nature-style criteria** Originality: The MoE-based approach with cell-type conditioning is a novel contribution that goes beyond existing sequence-only models. The unified multimodal prediction framework is ambitious. Scientific importance: If the claims are substantiated, the work would be important for regulatory genomics and personalized medicine. However, the importance cannot be fully assessed without the quantitative results. Interdisciplinary readership: The work bridges deep learning, genomics, and epigenetics, and would appeal to a broad audience if the presentation is clear. Technical soundness: The architecture is plausible, but the incomplete Methods and missing results prevent a full assessment. Readability for nonspecialists: The manuscript is generally well-written at the narrative level, but the Methods section needs significant revision for clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the absence of quantitative results, incomplete Methods, and unclear evaluation protocols prevent a positive recommendation. The authors should provide the full figures, tables, and statistical analyses, and revise the Methods for completeness and clarity.

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a machine learning assisted engineering approach to improve a recombinant B-family DNA polymerase for efficient incorporation of an unnatural nucleotide. They identify two mutations, 485I and 451L, that synergistically enhance catalytic efficiency by one order of magnitude, with 451L described as a novel active site. A proposed allosteric mechanism involving a "half-closed" binding pocket conformation and cooperative primer template binding is claimed to accelerate substrate incorporation, molecular recognition, and release of incorrect nucleotides.
+- **Visible evidence base** Abstract text only; no experimental details, sequence data, kinetic measurements, structural data, or model validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary information, training and testing datasets, model architecture and hyperparameters, kinetic assay protocols, structural or simulation data, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful approach to enzyme engineering, combining machine learning with rational mutagenesis to enhance polymerase function. However, the current evidence base is limited to a summary of claims without access to the underlying data. The novelty of the 451L site and the proposed allosteric mechanism are intriguing but cannot be evaluated for technical soundness or reproducibility from the abstract alone. The claim of a one order of magnitude improvement in catalytic efficiency is specific but lacks supporting quantitative data. The manuscript may be of interest to the protein engineering and synthetic biology communities, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in protein engineering, directed evolution, and machine learning assisted enzyme design would be interested in the dual-site boosting strategy and the identification of a new functional site. Synthetic biologists and biotechnologists working on unnatural nucleotide incorporation, such as in aptamer production or xenobiotic nucleic acid synthesis, would value the reported efficiency gains. Computational biologists may also find the machine learning workflow relevant for similar function oriented engineering challenges.
+- **Major strengths** The abstract clearly identifies a specific problem in defining determinant amino acid positions for combinatorial library construction. The use of a small training set (hundreds of points) and limited testing samples (dozens) suggests a resource efficient approach, which is practically appealing. The discovery of a previously unknown active site (451L) and the proposed allosteric mechanism provide a conceptual advance beyond simple additive mutation effects. The potential for broad biotechnological applications is well framed.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that catalytic efficiency is improved by one order of magnitude through specific mutations at 485I and 451L.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract states a one order of magnitude improvement in catalytic efficiency but provides no quantitative data, such as kcat/KM values, fold changes, or error bars. Without these, the magnitude and statistical significance of the improvement cannot be assessed.  
+  - **Why it matters** The central quantitative claim underpins the entire study. If the improvement is not robustly demonstrated with appropriate replicates and controls, the conclusion of synergistic boosting is unsupported.  
+  - **Resolution test** Provide kinetic parameters (e.g., kcat, KM, kcat/KM) for the wild type, single mutants, and double mutant, with standard deviations and statistical tests, in a figure or table.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that 451L is a "split-new active site" discovered by the approach.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The term "active site" is used without structural or functional evidence. The abstract does not specify whether 451L is a catalytic residue, a binding site residue, or a position that affects activity indirectly. No structural data, mutagenesis validation, or mechanistic experiments are described.  
+  - **Why it matters** Mislabeling a position as an active site could mislead future engineering efforts. The novelty claim depends on demonstrating that 451L has a distinct functional role, not just a beneficial mutation.  
+  - **Resolution test** Provide structural or homology model data showing the location of residue 451 relative to the active site, and functional assays (e.g., single site saturation mutagenesis, binding studies) to support its role.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The claim that machine learning assisted screening with hundreds of training points and dozens of testing samples led to the identified mutations.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No details are given on the machine learning model, feature representation, training procedure, validation strategy, or criteria for selecting candidate mutations. The abstract does not specify how the model was used to prioritize sites or whether the approach is generalizable.  
+  - **Why it matters** Reproducibility is a core requirement for Nature style manuscripts. Without model details, other researchers cannot apply or benchmark the method, and the claim of a general approach is unverifiable.  
+  - **Resolution test** Include a methods section describing the model architecture, training data generation, feature encoding, cross validation, and selection criteria, plus code or data availability statements.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The claim that a "half-closed" conformation and cooperative binding of primer and template DNA strands accelerate substrate incorporation, molecular recognition, and release of incorrect nucleotides.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The proposed allosteric mechanism is presented as a conclusion, but no experimental or computational evidence is described. The abstract does not mention structural studies, molecular dynamics simulations, or kinetic analyses that would support the conformational and binding claims.  
+  - **Why it matters** The mechanism is a major part of the study's significance. Without evidence, the mechanism remains speculative and does not strengthen the engineering claim.  
+  - **Resolution test** Provide structural data (e.g., X ray crystallography, cryo EM) or simulation results showing the half-closed conformation, and binding assays or kinetic analyses demonstrating cooperative primer template binding.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "split-new active site" is ambiguous and nonstandard.  
+  - **Required correction** Replace with a precise description, such as "a previously unidentified functional residue" or "a novel determinant of activity," and define the basis for calling it an active site.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Unnatural nucleotide identity  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract refers to "one unnatural nucleotide" but does not specify which nucleotide was used.  
+  - **Required correction** Name the specific unnatural nucleotide (e.g., 2' fluoro modified nucleotide) in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Comparison to prior work  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states that position 485 is known to dominate local conformation but does not cite or contextualize this prior knowledge.  
+  - **Required correction** Add a brief citation or explanation of the prior evidence for position 485 to frame the novelty of 451L.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Quantitative claim  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "one order of magnitude" is used without specifying the baseline or conditions.  
+  - **Required correction** Specify the exact fold improvement and the assay conditions (e.g., substrate concentration, temperature) in the abstract or results.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative improvement not supported), R1-M2 (active site claim not supported), R1-M3 (machine learning method not reproducible), R1-M4 (mechanism not supported). These are blocking because the core conclusions depend on them.
+- **Assessment against Nature-style criteria**  
+  - Originality: The dual-site boosting concept and the identification of a new functional residue are potentially original, but the abstract does not provide enough detail to distinguish from prior directed evolution or machine learning approaches.  
+  - Scientific importance: If validated, the findings could have significant implications for polymerase engineering and unnatural nucleotide incorporation, which is a growing field. However, the importance is not yet demonstrated.  
+  - Interdisciplinary readership: The work bridges machine learning, protein engineering, and enzymology, which could appeal to a broad audience, but the abstract is too technical and lacks accessible context for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract; the lack of quantitative data, model details, and mechanistic evidence prevents evaluation.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with polymerase structure and machine learning, which may limit accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising ideas, but the absence of supporting data and methods makes it impossible to assess the validity of the claims. I would be supportive if the full manuscript provides robust kinetic data, model details, and mechanistic evidence that address the blocking concerns.
+
+## Risk / unsupported claims
+- The one order of magnitude improvement in catalytic efficiency is unsupported without quantitative kinetic data.
+- The designation of 451L as a "split-new active site" is unsupported without structural or functional evidence.
+- The proposed allosteric mechanism (half-closed conformation, cooperative binding) is unsupported without experimental or computational data.
+- The effectiveness of the machine learning approach is unassessable without model and data details.
+- The generalizability of the approach to other polymerases or unnatural nucleotides is claimed but not evidenced.

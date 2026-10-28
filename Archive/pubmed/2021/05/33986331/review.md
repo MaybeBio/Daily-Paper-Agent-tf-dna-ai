@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, figure legends, tables) as provided by the user.
+- **Assessment boundary** The review is limited to the content of the supplied manuscript text. No external data, supplementary files, or figures were independently accessed or verified.
+- **Shared manuscript claim summary** The authors use a computational pipeline combining sequence-based (SIFT, PolyPhen-2, PROVEAN, Mutation Assessor, PON-P2) and structure-based (STRUM, MAESTRO, SDM2, mCSM, DUET) tools to identify deleterious nsSNPs in the C-terminal OB-fold of CTC1. They report 11 pathogenic mutations, and use MD simulations (200 ns) to characterize conformational changes for two mutants (R806C, R806L), concluding that R806C induces significant structural destabilization.
+- **Visible evidence base** Main text, Tables 1 and 2, Figures 1–9 (legends only), and references to Supplementary Tables S1–S4.
+- **Missing materials affecting confidence** Supplementary Tables S1–S4 (detailed per-tool scores), Figure 3 (pipeline overview), Figure 4–6 (per-tool distributions), Figure 7 (conservation analysis), Figure 8–9 (MD simulation data), and the PDB structure files used for modeling. Without these, per-residue scores, simulation convergence metrics, and structural validation cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and reasonably comprehensive computational analysis of nsSNPs in the CTC1 C-terminal OB-fold. The multi-tool consensus approach is appropriate for reducing false positives. However, the study is largely descriptive and predictive, with no experimental validation. The MD simulation component is limited to two mutants and lacks key validation metrics (e.g., convergence checks, replicate runs). The link between predicted destabilization and disease mechanism remains speculative. The manuscript is technically sound in its execution of standard bioinformatics tools but does not provide new methodological insight or definitive biological conclusions.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, particularly the CST complex and its role in Coats plus syndrome and dyskeratosis congenita. Computational biologists interested in SNP effect prediction pipelines may also find the workflow useful as a case study. Clinicians or geneticists seeking candidate pathogenic variants in CTC1 for diagnostic or functional follow-up could use the shortlisted mutations as a starting point.
+- **Major strengths**
+  - Use of multiple complementary prediction tools (sequence- and structure-based) to increase confidence in identifying deleterious variants.
+  - Focus on a biologically relevant and understudied protein domain (C-terminal OB-fold of CTC1).
+  - Inclusion of MD simulations to assess dynamic effects, going beyond static structure analysis.
+  - Clear presentation of the filtering strategy from 971 nsSNPs to 11 high-confidence pathogenic candidates.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations show "a significant conformational change in the structure of the R806C mutant" and that this supports a mechanism of CTC1 destabilization.
+  - **Evidence pointer** Figure 9 (RMSD, RMSF, Rg plots); Methods section "MD simulations"
+  - **Concern** The MD simulation analysis is based on a single 200 ns trajectory per system. No replicate simulations, convergence assessment (e.g., block averaging, RMSD plateau analysis), or statistical error estimates are provided. The claim of "significant" conformational change is not supported by quantitative comparison (e.g., standard deviation across replicates, p-values). The RMSD difference between R806C (~4 Å) and WT (~3.5 Å) is modest and may not be statistically meaningful without replicates.
+  - **Why it matters** The central conclusion of the paper, that R806C is destabilizing, rests on this simulation. Without proper sampling and statistical treatment, the claim is not robust. Overinterpretation of single-trajectory MD data is a common pitfall that undermines confidence in the findings.
+  - **Resolution test** Provide at least three independent simulation replicates per system, report mean and standard error for RMSD, RMSF, and Rg, and include a convergence analysis (e.g., RMSD vs. time with block averaging). If the R806C effect persists across replicates with non-overlapping error bars, the claim would be supported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the 11 identified mutations "may be a possible reason for CTC1 instability and consequent diseases" and that the study "provides a valuable direction to understand the molecular basis of CTC1 dysfunction."
+  - **Evidence pointer** Abstract; Conclusion section
+  - **Concern** The study is entirely computational and predictive. No experimental validation (e.g., cellular assays, binding studies, thermal stability measurements) is provided to confirm that the predicted mutations actually destabilize CTC1 or affect its function. The connection between predicted in silico destabilization and disease phenotype is speculative. The manuscript does not demonstrate that any of the 11 mutations are novel or that the predictions have been tested against known clinical data beyond what is in the databases used.
+  - **Why it matters** For a study to have scientific impact, predictions must be testable and ideally tested. Without experimental confirmation, the clinical relevance of the findings remains uncertain. The paper does not advance beyond what is already known about CTC1 mutations and disease.
+  - **Resolution test** Include experimental validation for at least a subset of the predicted mutations (e.g., expression and stability assays, binding affinity measurements, or cellular telomere length assays). Alternatively, clearly frame the study as a hypothesis-generating computational screen and temper the conclusions accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "75 mutations were found to be deleterious and destabilizing" based on consensus across three sequence-based and four structure-based tools.
+  - **Evidence pointer** Results section "Identification of deleterious nsSNPs"; Supplementary Tables S1–S2
+  - **Concern** The criteria for "high confidence" (three sequence-based and four structure-based tools) are arbitrary and not justified. The choice of thresholds for each tool (e.g., SIFT score ≤ 0.05, PolyPhen-2 score > 0.96) is standard, but the consensus rule is not benchmarked against a gold standard dataset. The false positive and false negative rates of this combined approach are unknown.
+  - **Why it matters** The reliability of the final 11 mutations depends entirely on the filtering criteria. If the criteria are too lenient or too strict, the list may miss true pathogenic variants or include false positives. Without benchmarking, the confidence in the shortlist is unclear.
+  - **Resolution test** Validate the consensus approach on a known dataset of pathogenic and benign variants in CTC1 or a related protein. Report sensitivity, specificity, and positive predictive value. Alternatively, justify the thresholds based on prior published benchmarks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The description of telomere biology and the CST complex is dense and assumes significant background knowledge. Terms like "OB-fold," "CST complex," and "G-quadruplex" are introduced without brief definitions.
+  - **Required correction** Add one or two sentences explaining these terms for a general scientific audience, or provide a glossary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "MD simulations"
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The force field (GROMOS 43a1) is relatively old and may not be optimal for protein simulations. The choice is not justified, and no comparison with more recent force fields is provided.
+  - **Required correction** Justify the choice of force field or acknowledge its limitations. Consider testing with a more modern force field (e.g., CHARMM36m, AMBER ff19SB) to ensure results are not force-field dependent.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of MD results
+  - **Evidence pointer** Results section "MD simulations"
+  - **Issue** The authors note that "loss of the N-terminal helix was observed in both mutants during the early phase of the simulation, while it seems to disappear after 100 ns in the case of WT." This observation is not discussed in terms of its functional relevance or whether it is an artifact of the simulation setup.
+  - **Required correction** Provide a more detailed analysis of secondary structure changes over time and discuss whether the helix loss is biologically meaningful or a simulation artifact.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 8 and 9 legends
+  - **Issue** The figure legends are brief and do not fully explain the panels or the statistical treatment (or lack thereof) of the data.
+  - **Required correction** Expand the legends to describe each panel, the simulation conditions, and how the plotted values were calculated (e.g., mean over time, per-residue averages).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The table lists interaction counts for WT and mutants, but the values for some mutants (e.g., R806C) appear similar to WT. The authors do not discuss whether these differences are within the noise of the method.
+  - **Required correction** Add a brief discussion of the magnitude of changes and whether they are likely to be functionally significant.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (MD simulation statistical rigor)
+  - R1-M2 (lack of experimental validation)
+  - R1-M3 (unbenchmarked consensus filtering criteria)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of a multi-tool computational pipeline to CTC1 is somewhat novel, but the methodology is standard and has been applied to many other proteins. No new computational method or biological insight is presented.
+  - **Scientific importance** Limited. The study is hypothesis-generating but does not provide definitive evidence for the pathogenicity of the identified mutations. The clinical relevance is speculative without experimental validation.
+  - **Interdisciplinary readership** Narrow. The work will primarily interest computational biologists and telomere researchers. It is unlikely to attract a broad readership across disciplines.
+  - **Technical soundness** Partially adequate. The use of multiple prediction tools is appropriate, but the MD simulation analysis lacks statistical rigor, and the consensus filtering is not benchmarked. The manuscript would need substantial revision to meet the technical standards expected for a high-impact journal.
+  - **Readability for nonspecialists** Acceptable but could be improved. The writing is generally clear, but the introduction assumes background knowledge in telomere biology. Some terms and concepts are not explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational screen but lacks experimental validation and statistical rigor in the MD simulations. The conclusions are overstated relative to the evidence. Major revisions, including additional simulations, benchmarking, and tempering of claims, would be required before the case for functional impact is established.
+
+## Risk / unsupported claims
+- The claim that R806C causes "a significant conformational change" is unsupported due to lack of replicate simulations and statistical analysis.
+- The claim that the 11 mutations are "pathogenic" is based solely on in silico predictions and is not validated experimentally or against clinical outcomes beyond database annotations.
+- The statement that "almost 45% of the pathogenic mutations present in the C-terminal OB-fold of CTC1 tend to form aggregates or become less soluble" is based on a single prediction tool (SODA) and is not experimentally confirmed.
+- The assertion that the study "provides a valuable direction to understand the molecular basis of CTC1 dysfunction" is speculative and not supported by functional data.
+- The filtering criteria for "high confidence" mutations (three sequence-based and four structure-based tools) are arbitrary and not benchmarked, making the reliability of the final list uncertain.

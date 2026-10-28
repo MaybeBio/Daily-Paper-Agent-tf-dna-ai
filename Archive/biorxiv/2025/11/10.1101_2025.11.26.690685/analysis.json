@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.26.690685",
+  "title": "RegEvol: detection of directional selection in regulatory sequences through phenotypic predictions and phenotype-to-fitness functions",
+  "authors": "Laverré A; Latrille T; Robinson-Rechavi M",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-29",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用机器学习预测转录因子结合并耦合进化模型检测调控序列中的定向选择，虽涉及TF-DNA结合预测但核心是进化选择推断而非互作机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Regulatory DNA controls when and where genes are expressed, making it a key driver of phenotypic evolution. Yet detecting selection in non-coding regions remains difficult, as most approaches rely on sequence conservation or changes in substitution rate rather than molecular effects. RegEvol bridges this gap by linking machine learning-based predictions of transcription factor binding to explicit evolutionary models. It uses the distribution of predicted mutational effects to infer fitness functions under different evolutionary scenarios including random drift, stabilising selection, and directional selection. Through maximum-likelihood estimation, it identifies the regime that best explains observed changes along a lineage from an ancestral sequence. When substitution numbers are limited, such as along short evolutionary branches, likelihood differences can be aggregated across sets of regulatory elements to increase statistical power. RegEvol corrects biases that affected previous tests based on machine learning of transcription factor binding, while remaining conservative across different levels of divergence. Applied to over 3 million Drosophila melanogaster regulatory regions, we identify 5.1% under directional selection, enriched near reproductive and immune genes. Applying the aggregation strategy to human CTCF binding across tissues reveals enrichment of directional signals in nervous and male reproductive systems. The framework is readily applicable to experimentally detected regulatory elements with alignable ancestral sequences and is flexible to future advances in understanding regulatory function, providing a powerful basis for investigating adaptation in non-coding regions.",
+  "abstract_zh": "调控DNA控制基因表达的时间和位置，使其成为表型进化的关键驱动因素。然而，在非编码区域检测选择仍然困难，因为大多数方法依赖于序列保守性或替代率变化，而非分子效应。RegEvol通过将基于机器学习的转录因子结合预测与显式进化模型相连接，弥合了这一差距。它利用预测突变效应的分布，在不同进化情景下推断适应度函数，包括随机漂变、稳定选择和定向选择。通过最大似然估计，它识别最能解释从祖先序列沿谱系观察到的变化的机制。当替代数量有限时，例如在短进化分支上，似然差异可以跨调控元件集合聚合，以增加统计功效。RegEvol纠正了先前基于转录因子结合机器学习测试中的偏差，同时在不同分化水平上保持保守性。应用于超过300万个黑腹果蝇（Drosophila melanogaster）调控区域，我们识别出5.1%处于定向选择下，这些区域富集于生殖和免疫基因附近。将聚合策略应用于人类CTCF跨组织结合，揭示了神经和雄性生殖系统中定向信号的富集。该框架可直接应用于具有可比对祖先序列的实验检测调控元件，并灵活适应未来对调控功能理解的进展，为研究非编码区域适应提供了强大基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690685",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690685",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.26.690685/index.html"
+}

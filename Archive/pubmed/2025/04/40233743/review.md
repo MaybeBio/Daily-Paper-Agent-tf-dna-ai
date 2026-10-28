@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplemental figure/table legends.
+- **Assessment boundary** The scientific validity of the claims, methodological soundness, and the utility of the proposed approach for ACMG/AMP variant classification. The review does not assess editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that structure-informed computational scores, specifically AlphaMissense and FoldX5.0-derived ΔΔG, can improve the PP3/BP4 computational evidence in ACMG/AMP classification of BRCA1 missense variants. They report that AlphaMissense outperforms BayesDel in providing similar evidence strength with fewer uninformative scores, that combining AlphaMissense with ΔΔG adds evidence strength granularity, and that relative solvent accessibility (RSA) critically modulates BP4 evidence, with benignity evidence only applicable to buried or partially buried residues.
+- **Visible evidence base** Main text, Tables 1–3, Figures 1–4, and referenced supplemental items (Figures S1–S15, Tables S1–S6, supplemental methods).
+- **Missing materials affecting confidence** The supplemental methods, Tables S1–S6, and Figures S1–S15 were not provided in the submitted material. These are referenced extensively for methodological details, full data, and stratified analyses. Their absence limits the ability to fully verify the statistical analyses, the construction of the MAVE test cohort, and the detailed results of stratified and cascade analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and practically important question in clinical variant interpretation: whether structure-informed computational tools can enhance the PP3/BP4 evidence codes within the ACMG/AMP framework. The study is well-motivated, uses a robust benchmark (MAVE functional data) and a clinically relevant validation cohort (BRIDGES), and the main finding that AlphaMissense provides comparable evidence strength to BayesDel with fewer uninformative calls is potentially useful. The observation that RSA modulates BP4 evidence is novel and mechanistically plausible. However, the manuscript has several technical and presentational issues that need to be addressed. The most significant concerns are the lack of a clear, pre-specified analytical plan for the cascade combination of scores, the absence of key methodological details in the main text, and the incomplete reporting of the validation cohort's characteristics. The claim that the combined approach "adds evidence strength granularity" is supported by the data presented, but the practical implementation and generalizability of this approach require further clarification and validation.
+- **Who would be interested in the results, and why** Clinical molecular geneticists, variant curation experts, and researchers developing or applying computational predictors for variant interpretation. The work is directly relevant to ClinGen Variant Curation Expert Panels and clinical laboratories that use ACMG/AMP guidelines. The findings on RSA and the performance of AlphaMissense could influence how PP3/BP4 codes are applied in practice.
+- **Major strengths**
+    1.  The study uses a large, well-annotated MAVE dataset as a gold standard for functional impact, which is a strong benchmark for evaluating computational predictors.
+    2.  The validation using the BRIDGES case-control cohort provides clinically meaningful evidence that the computational scores identify variants with actionable breast cancer risk.
+    3.  The finding that AlphaMissense reduces the rate of uninformative scores compared to BayesDel is a clear, practical advantage.
+    4.  The identification of RSA as a critical modulator of BP4 evidence is a novel and mechanistically insightful observation that could refine the application of computational evidence.
+    5.  The study is clearly written and the main figures are informative.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that "AlphaMissense combined with ΔΔG increases evidence strength granularity" and propose a cascade stratification approach (Figure S11).
+    - **Evidence pointer** Results section, Figures S9–S11, Table 1.
+    - **Concern** The methodology for combining AlphaMissense and ΔΔG into a single evidence strength is not described in sufficient detail in the main text. The authors refer to a "cascade stratification" approach in the supplemental methods, which were not provided. It is unclear how the thresholds for each step of the cascade were chosen, whether this was a pre-specified or data-driven approach, and how the final evidence strength was assigned when scores were concordant or discordant. The risk of overfitting to the MAVE dataset when deriving these thresholds is a significant concern.
+    - **Why it matters** Without a clear, pre-specified, and reproducible method for combining scores, the claim of "increased granularity" cannot be independently validated or applied by other groups. A data-driven approach without proper cross-validation could lead to overly optimistic performance estimates.
+    - **Resolution test** The authors must provide a detailed, step-by-step description of the cascade algorithm in the main text or a clearly accessible supplement. They should state whether the thresholds were pre-defined or derived from the data, and if data-derived, they must demonstrate the robustness of the approach through internal or external cross-validation. The performance of the cascade should be compared to the individual tools in a way that clearly shows the added value.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "AlphaMissense outperforms ΔΔG and BayesDel, providing similar PP3/BP4 evidence strengths with lower rate of variants in the uninformative score range."
+    - **Evidence pointer** Results section, Table 1, Figure 2.
+    - **Concern** The comparison of evidence strengths is based on log2 likelihood ratios (LRs) calculated from the MAVE dataset. The authors do not report confidence intervals for these LRs in the main text, nor do they perform a statistical test to determine if the differences in the proportion of uninformative variants are significant. The claim of "outperforms" is based on a descriptive difference in the percentage of uninformative variants (5% for AlphaMissense vs. 14% for BayesDel), but the significance of this difference is not established.
+    - **Why it matters** The conclusion that AlphaMissense is superior is a central claim of the paper. Without statistical support, the difference could be due to chance, and the practical benefit of switching from BayesDel to AlphaMissense is not rigorously demonstrated.
+    - **Resolution test** The authors should provide 95% confidence intervals for the log2 LRs for each tool and threshold. They should also perform a formal statistical comparison (e.g., McNemar's test) of the proportion of variants in the uninformative range between AlphaMissense and BayesDel.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors state that "our analysis suggests that regions other than the RING, CC, and BRCT domains might be functionally important" based on a protein-wide AlphaMissense analysis (Figure S12).
+    - **Evidence pointer** Results section, Figure S12.
+    - **Concern** This claim is based on a single, exploratory analysis using AlphaMissense predictions. The identified regions (e.g., residues 127-133, 180-185) are not validated with any functional or clinical data. The authors do not provide a statistical framework for identifying these clusters, and the biological rationale for these specific regions is not discussed.
+    - **Why it matters** This is a potentially interesting observation, but as presented, it is speculative and could be misleading if interpreted as evidence for new functional domains. It is not a central claim of the paper, but it is presented as a finding.
+    - **Resolution test** The authors should either temper this claim, clearly label it as a hypothesis-generating observation, or provide additional supporting evidence, such as cross-referencing with known protein interaction data or evolutionary conservation.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "AlphaFold2 models perform well as input templates for ΔΔG predictions."
+    - **Evidence pointer** Results section, Figures S2, S3, S8.
+    - **Concern** The comparison between ΔΔGPDB and ΔΔGAF is presented as a key methodological finding. However, the analysis is limited to two protein domains with known experimental structures. The authors acknowledge that the performance of ΔΔGAF may be dependent on the quality of the AlphaFold2 model, which in turn is influenced by the availability of experimental structures. The generalizability of this finding to other proteins, especially those without experimental structures, is unclear.
+    - **Why it matters** The practical utility of the proposed approach depends on the ability to use AlphaFold2 models for proteins where no experimental structure exists. The current analysis does not adequately address this scenario.
+    - **Resolution test** The authors should discuss the limitations of their analysis in this context. They could also perform a proof-of-concept analysis on a protein domain without an experimental structure, or at least provide a more detailed discussion of the factors that influence the quality of AlphaFold2 models for ΔΔG prediction.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction, Figure 1
+    - **Evidence pointer** Figure 1
+    - **Issue** The description of the current ACMG/AMP framework and the role of the ClinGen ENIGMA VCEP is clear, but the figure legend for Figure 1 is dense and may be difficult for a non-specialist to follow.
+    - **Required correction** Consider simplifying the figure legend and breaking it into more digestible parts. The figure itself is informative, but the legend could be more accessible.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Results
+    - **Evidence pointer** Table 2
+    - **Issue** The diagnostic test evaluation in Table 2 reports sensitivity, specificity, PPV, and NPV. It is not clear how the "threshold" for each tool was selected for this analysis. Was it the same as the optimal threshold for the LR analysis?
+    - **Required correction** Clarify the relationship between the thresholds used for the LR analysis and those used for the diagnostic test evaluation.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, Discussion
+    - **Evidence pointer** Table 3, Figure 4
+    - **Issue** The BRIDGES validation is a key strength, but the authors do not discuss the potential for ascertainment bias or the generalizability of the odds ratios to other populations.
+    - **Required correction** Add a brief comment on the limitations of the BRIDGES cohort and the generalizability of the risk estimates.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The five general principles listed at the end of the Discussion are useful, but they are presented as a list without much context.
+    - **Required correction** Consider adding a short introductory sentence to frame these principles and explain how they might be applied in practice.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The lack of a detailed, pre-specified method for the combined cascade analysis is a significant technical failing that prevents the central claim of "increased granularity" from being fully evaluated.
+    - R1-M2: The absence of statistical comparison for the "outperformance" claim of AlphaMissense over BayesDel is a technical failing that needs to be addressed.
+- **Assessment against Nature-style criteria**
+    - **Originality** The application of AlphaMissense and ΔΔG to refine PP3/BP4 evidence within the ACMG/AMP framework is a novel and practical contribution. The finding that RSA modulates BP4 evidence is an original observation.
+    - **Scientific importance** The work addresses a critical bottleneck in clinical genetics: the interpretation of VUSs. The findings have the potential to directly impact clinical practice by providing a more granular and potentially more accurate application of computational evidence. The validation in a large case-control cohort strengthens the clinical relevance.
+    - **Interdisciplinary readership** The topic is of high interest to clinical geneticists, variant scientists, and computational biologists. The methods and findings are likely to be of interest to a broader audience interested in the application of AI-based tools in medicine.
+    - **Technical soundness** The study is generally well-designed, using a strong functional benchmark and a clinical validation cohort. However, the lack of detail on the cascade methodology and the absence of statistical comparisons for key claims are significant weaknesses that need to be addressed.
+    - **Readability for nonspecialists** The manuscript is clearly written and the main concepts are explained well. The figures are informative, though some figure legends are dense. The clinical context is well-established, making the paper accessible to a broad scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially valuable and clinically relevant. However, the manuscript cannot be accepted in its current form. The authors must provide a detailed and reproducible description of their combined analysis method, add statistical support for their key comparative claims, and clarify the limitations of their validation. Once these issues are addressed, the paper would be a strong contribution to the field.

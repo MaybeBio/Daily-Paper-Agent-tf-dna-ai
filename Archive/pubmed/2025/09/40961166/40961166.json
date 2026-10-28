@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40961166",
+    "doi": "10.1371/journal.pcbi.1013462",
+    "title": "Reconstructing noisy gene regulation dynamics using extrinsic-noise-driven neural stochastic differential equations."
+  },
+  "content": {
+    "abstract": "Proper regulation of cell signaling and gene expression is crucial for maintaining cellular function, development, and adaptation to environmental changes. Reaction dynamics in cell populations is often noisy because of (i) inherent stochasticity of intracellular biochemical reactions (\"intrinsic noise\") and (ii) heterogeneity of cellular states across different cells that are influenced by external factors (\"extrinsic noise\"). In this work, we introduce an extrinsic-noise-driven neural stochastic differential equation (END-nSDE) framework that utilizes the Wasserstein distance to accurately reconstruct SDEs from stochastic trajectories measured across a heterogeneous population of cells (extrinsic noise). We demonstrate the effectiveness of our approach using both simulated and experimental data from three different systems in cell biology: (i) circadian rhythms, (ii) RPA-DNA binding dynamics, and (iii) NF[Formula: see text]B signaling processes. Our END-nSDE reconstruction method can model how cellular heterogeneity (extrinsic noise) modulates reaction dynamics in the presence of intrinsic noise. It also outperforms existing time-series analysis methods such as recurrent neural networks (RNNs) and long short-term memory networks (LSTMs). By inferring cellular heterogeneities from data, our END-nSDE reconstruction method can reproduce noisy dynamics observed in experiments. In summary, the reconstruction method we propose offers a useful surrogate modeling approach for complex biophysical processes, where high-fidelity mechanistic models may be impractical.",
+    "keywords": [],
+    "mesh_terms": [
+      "Stochastic Processes",
+      "*Gene Expression Regulation/physiology/genetics",
+      "Signal Transduction/genetics",
+      "Computational Biology/methods",
+      "Computer Simulation",
+      "Humans",
+      "Circadian Rhythm/genetics",
+      "Neural Networks, Computer",
+      "Animals",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiancheng",
+        "Li, Xiangting",
+        "Guo, Xiaolu",
+        "You, Zhaoyi",
+        "Bottcher, Lucas",
+        "Mogilner, Alex",
+        "Hoffmann, Alexander",
+        "Chou, Tom",
+        "Xia, Mingtao"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Li X",
+        "Guo X",
+        "You Z",
+        "Bottcher L",
+        "Mogilner A",
+        "Hoffmann A",
+        "Chou T",
+        "Xia M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5740-2428",
+        "ORCID: 0000-0002-2116-4712"
+      ],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, University of California, Riverside, California, United States of America.",
+        "Department of Computational Medicine, University of California, Los Angeles, California, United States of America.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG) and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, California, United States of America.",
+        "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Computational Science and Philosophy, Frankfurt School of Finance and Management, Frankfurt am Main, Germany.",
+        "Laboratory for Systems Medicine, Department of Medicine, University of Florida, Gainesville, Florida, United States of America.",
+        "Courant Institute of Mathematical Sciences, New York University, New York, New York, United States of America.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG) and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, California, United States of America.",
+        "Department of Computational Medicine, University of California, Los Angeles, California, United States of America.",
+        "Department of Mathematics, University of California, Los Angeles, California, United States of America.",
+        "Department of Mathematics, University of Houston, Houston, Texas, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiancheng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine, University of California, Los Angeles, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-5740-2428"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG) and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "You, Zhaoyi",
+        "short_name": "You Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Böttcher, Lucas",
+        "short_name": "Böttcher L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Science and Philosophy, Frankfurt School of Finance and Management, Frankfurt am Main, Germany.",
+          "Laboratory for Systems Medicine, Department of Medicine, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mogilner, Alex",
+        "short_name": "Mogilner A",
+        "identifiers": [],
+        "affiliations": [
+          "Courant Institute of Mathematical Sciences, New York University, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG) and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chou, Tom",
+        "short_name": "Chou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine, University of California, Los Angeles, California, United States of America.",
+          "Department of Mathematics, University of California, Los Angeles, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Xia, Mingtao",
+        "short_name": "Xia M",
+        "identifiers": [
+          "0000-0002-2116-4712"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of Houston, Houston, Texas, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/17 18:31",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42244590",
+      "42223636"
+    ],
+    "refs": [
+      "40840293",
+      "40593748",
+      "40078154",
+      "39916132",
+      "39808665",
+      "38986837",
+      "38913886",
+      "38872050",
+      "38851792",
+      "37962996",
+      "37391417",
+      "37097945",
+      "36117994",
+      "35858045",
+      "35039488",
+      "34480928",
+      "34316690",
+      "34140389",
+      "34026435",
+      "33979588",
+      "32864512",
+      "32856505",
+      "32043799",
+      "31972132",
+      "31114032",
+      "30971810",
+      "30638813",
+      "29623300",
+      "28257700",
+      "27875323",
+      "26859137",
+      "26174880",
+      "25569257",
+      "25228772",
+      "24444693",
+      "24412977",
+      "24391934",
+      "23790383",
+      "23527780",
+      "22929617",
+      "22805626",
+      "19956762",
+      "17122776",
+      "17048983",
+      "16369570",
+      "15802287",
+      "15166317",
+      "12432408",
+      "12424381",
+      "12237400",
+      "12183631",
+      "11438714",
+      "9242902"
+    ],
+    "similar": [
+      "40961166",
+      "36075715",
+      "42000010",
+      "39541410",
+      "28881987",
+      "42475469",
+      "23912807",
+      "30679440",
+      "34636320",
+      "40662824",
+      "34986805",
+      "23437034",
+      "23742268",
+      "20038296",
+      "16457708",
+      "22225397",
+      "28341132",
+      "27902699",
+      "33405216",
+      "16822039",
+      "40911462",
+      "24751941",
+      "30411251",
+      "23875784",
+      "17212835",
+      "20800602",
+      "28748400",
+      "39836686",
+      "41183100",
+      "19735554",
+      "24391934",
+      "27058315",
+      "18351872",
+      "34034535",
+      "42054479",
+      "29058744",
+      "26588000",
+      "40932777",
+      "27536771",
+      "23990771",
+      "20685607",
+      "22081598",
+      "22253584",
+      "42088462",
+      "29448774",
+      "27549182",
+      "29472589",
+      "23101662",
+      "42494025",
+      "32668933",
+      "19045819",
+      "25504722",
+      "15473072",
+      "12237400",
+      "39095346",
+      "39896674",
+      "39230705",
+      "28566513",
+      "19911036",
+      "20550887",
+      "21730172",
+      "24730883",
+      "29925035",
+      "40840293",
+      "29451874",
+      "24412977",
+      "19268387",
+      "21187228",
+      "17384073",
+      "18463620",
+      "23821649",
+      "41564117",
+      "29570064",
+      "30051742",
+      "34319990",
+      "26156221",
+      "22583770",
+      "17014165",
+      "23434891",
+      "21771321",
+      "18097413",
+      "20481749",
+      "29768444",
+      "30523505",
+      "16822033",
+      "14643492",
+      "41773951",
+      "18950646",
+      "42430380",
+      "16880117",
+      "15113411",
+      "22761552",
+      "27897008",
+      "37074578",
+      "41398330",
+      "42365212",
+      "42160268",
+      "17524148",
+      "34919546",
+      "26329725"
+    ],
+    "review": [
+      "40961166",
+      "27058315"
+    ],
+    "pmc": [
+      "12513633"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013462",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40961166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

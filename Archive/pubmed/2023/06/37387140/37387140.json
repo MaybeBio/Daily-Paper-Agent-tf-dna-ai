@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "37387140",
+    "doi": "10.1093/bioinformatics/btad271",
+    "title": "An intrinsically interpretable neural network architecture for sequence-to-function learning."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Sequence-based deep learning approaches have been shown to predict a multitude of functional genomic readouts, including regions of open chromatin and RNA expression of genes. However, a major limitation of current methods is that model interpretation relies on computationally demanding post hoc analyses, and even then, one can often not explain the internal mechanics of highly parameterized models. Here, we introduce a deep learning architecture called totally interpretable sequence-to-function model (tiSFM). tiSFM improves upon the performance of standard multilayer convolutional models while using fewer parameters. Additionally, while tiSFM is itself technically a multilayer neural network, internal model parameters are intrinsically interpretable in terms of relevant sequence motifs. RESULTS: We analyze published open chromatin measurements across hematopoietic lineage cell-types and demonstrate that tiSFM outperforms a state-of-the-art convolutional neural network model custom-tailored to this dataset. We also show that it correctly identifies context-specific activities of transcription factors with known roles in hematopoietic differentiation, including Pax5 and Ebf1 for B-cells, and Rorc for innate lymphoid cells. tiSFM's model parameters have biologically meaningful interpretations, and we show the utility of our approach on a complex task of predicting the change in epigenetic state as a function of developmental transition. AVAILABILITY AND IMPLEMENTATION: The source code, including scripts for the analysis of key findings, can be found at https://github.com/boooooogey/ATAConv, implemented in Python.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Immunity, Innate",
+      "*Lymphocytes",
+      "Chromatin",
+      "B-Lymphocytes",
+      "Neural Networks, Computer",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balci, Ali Tugrul",
+        "Ebeid, Mark Maher",
+        "Benos, Panayiotis V",
+        "Kostka, Dennis",
+        "Chikina, Maria"
+      ],
+      "short_names": [
+        "Balci AT",
+        "Ebeid MM",
+        "Benos PV",
+        "Kostka D",
+        "Chikina M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1460-5487",
+        "ORCID: 0000-0003-2550-5403"
+      ],
+      "affiliations": [
+        "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States.",
+        "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States.",
+        "Department of Epidemiology, University of Florida, Gainesville, FL 32610, United States.",
+        "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States.",
+        "Department of Developmental Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States.",
+        "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balcı, Ali Tuğrul",
+        "short_name": "Balcı AT",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States."
+        ]
+      },
+      {
+        "full_name": "Ebeid, Mark Maher",
+        "short_name": "Ebeid MM",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States."
+        ]
+      },
+      {
+        "full_name": "Benos, Panayiotis V",
+        "short_name": "Benos PV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, University of Florida, Gainesville, FL 32610, United States."
+        ]
+      },
+      {
+        "full_name": "Kostka, Dennis",
+        "short_name": "Kostka D",
+        "identifiers": [
+          "0000-0002-1460-5487"
+        ],
+        "affiliations": [
+          "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States.",
+          "Department of Developmental Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States."
+        ]
+      },
+      {
+        "full_name": "Chikina, Maria",
+        "short_name": "Chikina M",
+        "identifiers": [
+          "0000-0003-2550-5403"
+        ],
+        "affiliations": [
+          "Joint Carnegie Mellon University-University of Pittsburgh Program in Computational Biology, Pittsburgh, PA 15213, United States.",
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15213, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Jun 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/30 06:42",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42509369",
+      "41022589",
+      "40626041",
+      "37974990"
+    ],
+    "refs": [
+      "37370113",
+      "35442882",
+      "34630413",
+      "34615872",
+      "34608324",
+      "34508359",
+      "34312548",
+      "33619557",
+      "33603233",
+      "33433611",
+      "32978299",
+      "32657418",
+      "31856220",
+      "31541153",
+      "29519871",
+      "29208628",
+      "27197224",
+      "27111144",
+      "27084946",
+      "26301843",
+      "26213851",
+      "25506356",
+      "25215497",
+      "25185710",
+      "23021953",
+      "22955616",
+      "22566953",
+      "21735360",
+      "21646301",
+      "21543443",
+      "19151747",
+      "17098775",
+      "16091451"
+    ],
+    "similar": [
+      "37387140",
+      "36747873",
+      "28881969",
+      "29069282",
+      "37328639",
+      "28245811",
+      "37387152",
+      "33634313",
+      "32657407",
+      "35191481",
+      "36495179",
+      "37370113",
+      "33381816",
+      "31865908",
+      "36935548",
+      "33581335",
+      "36140783",
+      "31318408",
+      "31510706",
+      "35293310",
+      "37127596",
+      "33930742",
+      "29970003",
+      "37669132",
+      "34273146",
+      "36209437",
+      "31093705",
+      "30423062",
+      "30808287",
+      "33031552",
+      "32657370",
+      "34042953",
+      "31870282",
+      "30423078",
+      "35043942",
+      "35536111",
+      "31510640",
+      "27490187",
+      "33611053",
+      "35066446",
+      "35924336",
+      "20207529",
+      "34849591",
+      "34320631",
+      "33371891",
+      "35171981",
+      "36174933",
+      "34666191",
+      "36723807",
+      "37473576",
+      "32053156",
+      "29659719",
+      "20451411",
+      "37740295",
+      "34788368",
+      "37004267",
+      "31206543",
+      "36124954",
+      "37490428",
+      "36943380",
+      "31077303",
+      "37076856",
+      "34329376",
+      "33334313",
+      "34383754",
+      "37216900",
+      "37572298",
+      "30307536",
+      "31935100",
+      "30768156",
+      "36736643",
+      "33714842",
+      "33119053",
+      "29868832",
+      "37387156",
+      "29993783",
+      "29931149",
+      "36084008",
+      "34535759",
+      "30977780",
+      "30423072",
+      "36959539",
+      "31510916",
+      "31298694",
+      "29931128",
+      "37205975",
+      "37808087",
+      "37745003",
+      "37711878"
+    ],
+    "review": [
+      "37387140",
+      "20207529"
+    ],
+    "pmc": [
+      "10311317"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37387140/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37387140",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btad271",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "identity": {
+    "pmid": "34223192",
+    "doi": "10.1038/s43018-020-00169-2",
+    "title": "Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients."
+  },
+  "content": {
+    "abstract": "Cell-line screens create expansive datasets for learning predictive markers of drug response, but these models do not readily translate to the clinic with its diverse contexts and limited data. In the present study, we apply a recently developed technique, few-shot machine learning, to train a versatile neural network model in cell lines that can be tuned to new contexts using few additional samples. The model quickly adapts when switching among different tissue types and in moving from cell-line models to clinical contexts, including patient-derived tumor cells and patient-derived xenografts. It can also be interpreted to identify the molecular features most important to a drug response, highlighting critical roles for RB1 and SMAD4 in the response to CDK inhibition and RNF8 and CHD4 in the response to ATM inhibition. The few-shot learning framework provides a bridge from the many samples surveyed in high-throughput screens (n-of-many) to the distinctive contexts of individual patients (n-of-one).",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA-Binding Proteins",
+      "Humans",
+      "*Machine Learning",
+      "*Neural Networks, Computer",
+      "Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Jianzhu",
+        "Fong, Samson H",
+        "Luo, Yunan",
+        "Bakkenist, Christopher J",
+        "Shen, John Paul",
+        "Mourragui, Soufiane",
+        "Wessels, Lodewyk F A",
+        "Hafner, Marc",
+        "Sharan, Roded",
+        "Peng, Jian",
+        "Ideker, Trey"
+      ],
+      "short_names": [
+        "Ma J",
+        "Fong SH",
+        "Luo Y",
+        "Bakkenist CJ",
+        "Shen JP",
+        "Mourragui S",
+        "Wessels LFA",
+        "Hafner M",
+        "Sharan R",
+        "Peng J",
+        "Ideker T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1656-6995",
+        "ORCID: 0000-0003-1337-7598",
+        "ORCID: 0000-0002-1736-2978",
+        "ORCID: 0000-0002-1708-8454"
+      ],
+      "affiliations": [
+        "Department of Medicine, University of California San Diego, La Jolla, CA, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+        "Department of Medicine, University of California San Diego, La Jolla, CA, USA.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA, USA.",
+        "Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Radiation Oncology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.",
+        "Department of Gastrointestinal Medical Oncology, University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Division of Molecular Carcinogenesis, Oncode Institute, The Netherlands Cancer Institute, Amsterdam, the Netherlands.",
+        "Faculty of Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, the Netherlands.",
+        "Division of Molecular Carcinogenesis, Oncode Institute, The Netherlands Cancer Institute, Amsterdam, the Netherlands.",
+        "Faculty of Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bioinformatics and Computational Biology, Genentech, Inc., South San Francisco, CA, USA.",
+        "Blavatnik School of Computer Science, Tel Aviv University, Tel Aviv, Israel.",
+        "Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Department of Medicine, University of California San Diego, La Jolla, CA, USA. tideker@ucsd.edu.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA, USA. tideker@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Jianzhu",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California San Diego, La Jolla, CA, USA.",
+          "Department of Computer Science, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Fong, Samson H",
+        "short_name": "Fong SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California San Diego, La Jolla, CA, USA.",
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Yunan",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Bakkenist, Christopher J",
+        "short_name": "Bakkenist CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, John Paul",
+        "short_name": "Shen JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Medical Oncology, University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mourragui, Soufiane",
+        "short_name": "Mourragui S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Carcinogenesis, Oncode Institute, The Netherlands Cancer Institute, Amsterdam, the Netherlands.",
+          "Faculty of Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wessels, Lodewyk F A",
+        "short_name": "Wessels LFA",
+        "identifiers": [
+          "0000-0002-1656-6995"
+        ],
+        "affiliations": [
+          "Division of Molecular Carcinogenesis, Oncode Institute, The Netherlands Cancer Institute, Amsterdam, the Netherlands.",
+          "Faculty of Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hafner, Marc",
+        "short_name": "Hafner M",
+        "identifiers": [
+          "0000-0003-1337-7598"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics and Computational Biology, Genentech, Inc., South San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sharan, Roded",
+        "short_name": "Sharan R",
+        "identifiers": [],
+        "affiliations": [
+          "Blavatnik School of Computer Science, Tel Aviv University, Tel Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Peng, Jian",
+        "short_name": "Peng J",
+        "identifiers": [
+          "0000-0002-1736-2978"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Ideker, Trey",
+        "short_name": "Ideker T",
+        "identifiers": [
+          "0000-0002-1708-8454"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California San Diego, La Jolla, CA, USA. tideker@ucsd.edu.",
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA, USA. tideker@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cancer"
+    ],
+    "journal_abbrev": [
+      "Nat Cancer"
+    ],
+    "pub_date": "2021 Feb",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/06 06:00",
+    "fetched_at": "2026-10-04 20:00:55"
+  },
+  "links": {
+    "cites": [
+      "42572661",
+      "42539804",
+      "42412833",
+      "42306099",
+      "42265257",
+      "42161910",
+      "42130472",
+      "42129298",
+      "42085479",
+      "41921208",
+      "41756848",
+      "41726490",
+      "41696592",
+      "41654506",
+      "41525315",
+      "41512871",
+      "41495240",
+      "41492394",
+      "41473283",
+      "41446807",
+      "41421504",
+      "41340127",
+      "41245657",
+      "40892374",
+      "40804292",
+      "40796376",
+      "40721872",
+      "40678484",
+      "40510031",
+      "40377071",
+      "40164749",
+      "40160429",
+      "40055572",
+      "40036568",
+      "39952993",
+      "39948231",
+      "39905954",
+      "39776849",
+      "39772905",
+      "39760657",
+      "39730699",
+      "39677367",
+      "39458196",
+      "39334272",
+      "39319265",
+      "39048590",
+      "38895093",
+      "38869157",
+      "38826258",
+      "38746274",
+      "38660174",
+      "38627866",
+      "38617201",
+      "38434246",
+      "38317226",
+      "38157302",
+      "38113075",
+      "37889038",
+      "37750448",
+      "37664631",
+      "37519889",
+      "37488023",
+      "37485338",
+      "37444566",
+      "37234088",
+      "37045827",
+      "37041243",
+      "36873878",
+      "36706315",
+      "36656507",
+      "36652496",
+      "36382402",
+      "36374194",
+      "36277820",
+      "36085310",
+      "36064595",
+      "36010942",
+      "35976726",
+      "35822563",
+      "35731938",
+      "35726091",
+      "35161650",
+      "34881776",
+      "34873596",
+      "34873056",
+      "34805988",
+      "34693370",
+      "34619752",
+      "34471495",
+      "34417181",
+      "34382071",
+      "33916824"
+    ],
+    "refs": [
+      "31695042",
+      "31068700",
+      "30357367",
+      "30349086",
+      "30348783",
+      "29733391",
+      "29483830",
+      "29253077",
+      "29083409",
+      "28470045",
+      "27892958",
+      "27641504",
+      "27397505",
+      "27189322",
+      "26659050",
+      "26479923",
+      "26464794",
+      "25506400",
+      "25417706",
+      "24052618",
+      "23115235",
+      "23038782",
+      "22370318",
+      "22281684",
+      "22051800",
+      "21734071",
+      "21071392",
+      "20805324",
+      "19447865",
+      "18548043",
+      "15611645",
+      "10070856",
+      "9665134"
+    ],
+    "similar": [
+      "34223192",
+      "39883957",
+      "41242073",
+      "41327945",
+      "41013610",
+      "36410391",
+      "32214348",
+      "39626533",
+      "41374716",
+      "41335867",
+      "40024050",
+      "29036709",
+      "38048895",
+      "41638099",
+      "37890365",
+      "39180048",
+      "41666490",
+      "22531782",
+      "37922714",
+      "39208463",
+      "40220563",
+      "38867287",
+      "39581046",
+      "40554299",
+      "40691480",
+      "32256680",
+      "18337245",
+      "36460664",
+      "39177261",
+      "33372606",
+      "32828455",
+      "41576653",
+      "38587946",
+      "39911906",
+      "40803020",
+      "40090300",
+      "40056840",
+      "31228724",
+      "38073546",
+      "39642639",
+      "38914821",
+      "29096442",
+      "32502756",
+      "32822293",
+      "35408261",
+      "41478141",
+      "33360149",
+      "40997403",
+      "39010256",
+      "40648488",
+      "39563482",
+      "35468555",
+      "37729793",
+      "36099221",
+      "39225007",
+      "41616642",
+      "31640541",
+      "41983348",
+      "35615277",
+      "25304081",
+      "38733794",
+      "27909234",
+      "41072102",
+      "39334272",
+      "34750410",
+      "41682401",
+      "30537954",
+      "32813663",
+      "37070625",
+      "38875537",
+      "38950281",
+      "40544698",
+      "39892680",
+      "28793243",
+      "38468193",
+      "35201629",
+      "41139924",
+      "32986543",
+      "18534020",
+      "37276813",
+      "37037059",
+      "40825541",
+      "33945480",
+      "40644145",
+      "41405961",
+      "34280263",
+      "39089147",
+      "35831895",
+      "38658129",
+      "40602627",
+      "40449232",
+      "40163964",
+      "41421504",
+      "33557728",
+      "34727569",
+      "39144045",
+      "18006705",
+      "33854109",
+      "37081495",
+      "40674900"
+    ],
+    "review": [
+      "34223192",
+      "37922714",
+      "41421504"
+    ],
+    "pmc": [
+      "8248912"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s43018-020-00169-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34223192/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34223192",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ATM-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1268",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt8xn4r3qz",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

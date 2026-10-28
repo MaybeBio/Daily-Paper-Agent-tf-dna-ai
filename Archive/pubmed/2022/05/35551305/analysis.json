@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35551305",
+  "title": "DeepSTARR predicts enhancer activity from DNA sequence and enables the de novo design of synthetic enhancers.",
+  "authors": "de Almeida, Bernardo P; Reiter, Franziska; Pagani, Michaela; Stark, Alexander",
+  "journal": "Nature genetics",
+  "published_date": "2022-05-14",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型DeepSTARR从DNA序列预测增强子活性并设计合成增强子，虽聚焦增强子调控而非TF-DNA结合机制建模，但涉及TF基序识别与语法规则，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Enhancer sequences control gene expression and comprise binding sites (motifs) for different transcription factors (TFs). Despite extensive genetic and computational studies, the relationship between DNA sequence and regulatory activity is poorly understood, and de novo enhancer design has been challenging. Here, we built a deep-learning model, DeepSTARR, to quantitatively predict the activities of thousands of developmental and housekeeping enhancers directly from DNA sequence in Drosophila melanogaster S2 cells. The model learned relevant TF motifs and higher-order syntax rules, including functionally nonequivalent instances of the same TF motif that are determined by motif-flanking sequence and intermotif distances. We validated these rules experimentally and demonstrated that they can be generalized to humans by testing more than 40,000 wildtype and mutant Drosophila and human enhancers. Finally, we designed and functionally validated synthetic enhancers with desired activities de novo.",
+  "abstract_zh": "增强子序列控制基因表达，并包含不同转录因子（TFs）的结合位点（基序）。尽管进行了大量的遗传学和计算研究，DNA序列与调控活性之间的关系仍知之甚少，且从头设计增强子一直颇具挑战。在此，我们构建了一个深度学习模型DeepSTARR，用于直接从果蝇S2细胞的DNA序列中定量预测数千个发育性和管家增强子的活性。该模型学习了相关的转录因子基序及高阶语法规则，包括由基序侧翼序列和基序间距离决定的同一转录因子基序的功能非等价实例。我们通过实验验证了这些规则，并通过对超过40,000个野生型和突变型果蝇及人类增强子的测试，证明这些规则可推广至人类。最后，我们从头设计并功能验证了具有预期活性的合成增强子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35551305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35551305/",
+  "paper_page_path": "papers/pubmed/35551305/index.html"
+}

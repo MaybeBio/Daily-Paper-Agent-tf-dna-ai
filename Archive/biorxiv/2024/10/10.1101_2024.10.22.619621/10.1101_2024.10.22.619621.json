@@ -1,0 +1,810 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.22.619621",
+  "title": "The Single-Stranded DNA-Binding Factor SUB1/PC4 Alleviates Replication Stress at Telomeres and is a Vulnerability of ALT Cancer Cells",
+  "doi": "10.1101/2024.10.22.619621",
+  "abstract": "A bstract To achieve replicative immortality, cancer cells must activate telomere maintenance mechanisms. In 10-15% of cancers, this is enabled by recombination-based alternative lengthening of telomeres pathways (ALT). ALT cells display several hallmarks including heterogeneous telomere length, extrachromosomal telomeric repeats and ALT-associated PML bodies. ALT cells also have high telomeric replication stress (RS) enhanced by fork-stalling structures (R-loops, G4s) and altered chromatin states. In ALT cells, telomeric RS promotes telomere elongation but above a certain threshold becomes detrimental to cell survival. Manipulating RS at telomeres has thus been proposed as a therapeutic strategy against ALT cancers. Through analysis of genome-wide CRISPR fitness screens, we identified ALT-specific vulnerabilities and describe here our characterization of the roles of SUB1, a ssDNA-binding protein, as a novel regulator of telomere stability. SUB1 depletion further increases RS at ALT telomeres, profoundly impairing ALT cell growth without impacting telomerase-positive cancer cells. During RS, SUB1 is recruited to stalled forks and ALT telomeres via its ssDNA-binding domain. This recruitment is potentiated by RPA depletion, suggesting that these factors may compete for ssDNA. The viability of ALT cells and their resilience towards RS also requires ssDNA-binding by SUB1. SUB1 depletion accelerates cell death induced by FANCM depletion, triggering unsustainable levels of telomeric damage specifically in ALT cells. Finally, combining SUB1 depletion with RS-inducing drugs rapidly induces replication catastrophe in ALT cells. Altogether, our work identifies SUB1 as a new ALT susceptibility with important roles in the mitigation of RS at ALT telomeres and suggests new therapeutic strategies for a host of still poorly managed cancers. S ignificance S tatement Currently, there are few treatment options for ALT cancers with chemotherapy still occupying center stage despite often limited efficacy. ALT cancer cells experience high levels of replication stress at telomeres and its enhancement (e.g. via ATR inhibition) is a promising therapeutic strategy. Sensitivity to ATR inhibition varies amongst ALT cell lines/tumors warranting the development of additional ways to modulate telomeric replication stress. Here we identify SUB1, a single-stranded DNA-binding protein, as a vulnerability of ALT cells. SUB1 localizes to ALT telomeres and mitigates deleterious replication stress. SUB1 depletion synergizes with ATR inhibition and FANCM downregulation suggesting that co-targeting SUB1 with other regulators of replication stress at telomeres may kill ALT cancer cells more effectively.",
+  "authors": [
+    "Jean-Christophe Dubois",
+    "Erin Bonnell",
+    "Julie Frion",
+    "Samuel Zimmer",
+    "Muhammad Riaz Khan",
+    "Gabriela M. Teplitz",
+    "Lisa Casimir",
+    "Élie Méthot",
+    "Amélie Filion",
+    "Mouhamed Idrissou",
+    "Pierre-Étienne Jacques",
+    "Raymund J. Wellinger",
+    "Alexandre Maréchal"
+  ],
+  "published_date": "2024-10-25",
+  "updated_date": "2024-10-25T17:45:23Z",
+  "journal": "bioRxiv",
+  "category": "Cancer Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619621",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619621.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Cancer Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cancer Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:36:50Z",
+        "timestamp": 1768520210140,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ]
+      },
+      "group-title": "Cancer Biology",
+      "reference-count": 88,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                25
+              ]
+            ],
+            "date-time": "2024-10-25T00:00:00Z",
+            "timestamp": 1729814400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>To achieve replicative immortality, cancer cells must activate telomere maintenance mechanisms. In 10-15% of cancers, this is enabled by recombination-based alternative lengthening of telomeres pathways (ALT). ALT cells display several hallmarks including heterogeneous telomere length, extrachromosomal telomeric repeats and ALT-associated PML bodies. ALT cells also have high telomeric replication stress (RS) enhanced by fork-stalling structures (R-loops, G4s) and altered chromatin states. In ALT cells, telomeric RS promotes telomere elongation but above a certain threshold becomes detrimental to cell survival. Manipulating RS at telomeres has thus been proposed as a therapeutic strategy against ALT cancers.</jats:p>\n                <jats:p>Through analysis of genome-wide CRISPR fitness screens, we identified ALT-specific vulnerabilities and describe here our characterization of the roles of SUB1, a ssDNA-binding protein, as a novel regulator of telomere stability. SUB1 depletion further increases RS at ALT telomeres, profoundly impairing ALT cell growth without impacting telomerase-positive cancer cells. During RS, SUB1 is recruited to stalled forks and ALT telomeres via its ssDNA-binding domain. This recruitment is potentiated by RPA depletion, suggesting that these factors may compete for ssDNA. The viability of ALT cells and their resilience towards RS also requires ssDNA-binding by SUB1. SUB1 depletion accelerates cell death induced by FANCM depletion, triggering unsustainable levels of telomeric damage specifically in ALT cells. Finally, combining SUB1 depletion with RS-inducing drugs rapidly induces replication catastrophe in ALT cells. Altogether, our work identifies SUB1 as a new ALT susceptibility with important roles in the mitigation of RS at ALT telomeres and suggests new therapeutic strategies for a host of still poorly managed cancers.</jats:p>\n                <jats:sec>\n                  <jats:title>\n                    S\n                    <jats:sc>ignificance</jats:sc>\n                    S\n                    <jats:sc>tatement</jats:sc>\n                  </jats:title>\n                  <jats:p>Currently, there are few treatment options for ALT cancers with chemotherapy still occupying center stage despite often limited efficacy. ALT cancer cells experience high levels of replication stress at telomeres and its enhancement (e.g. via ATR inhibition) is a promising therapeutic strategy. Sensitivity to ATR inhibition varies amongst ALT cell lines/tumors warranting the development of additional ways to modulate telomeric replication stress. Here we identify SUB1, a single-stranded DNA-binding protein, as a vulnerability of ALT cells. SUB1 localizes to ALT telomeres and mitigates deleterious replication stress. SUB1 depletion synergizes with ATR inhibition and FANCM downregulation suggesting that co-targeting SUB1 with other regulators of replication stress at telomeres may kill ALT cancer cells more effectively.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2024.10.22.619621",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ],
+        "date-time": "2024-10-25T17:45:23Z",
+        "timestamp": 1729878323000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "The Single-Stranded DNA-Binding Factor SUB1/PC4 Alleviates Replication Stress at Telomeres and is a Vulnerability of ALT Cancer Cells"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jean-Christophe",
+          "family": "Dubois",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Erin",
+          "family": "Bonnell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Julie",
+          "family": "Frion",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Samuel",
+          "family": "Zimmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Riaz",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gabriela M.",
+          "family": "Teplitz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lisa",
+          "family": "Casimir",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Élie",
+          "family": "Méthot",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amélie",
+          "family": "Filion",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mouhamed",
+          "family": "Idrissou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pierre-Étienne",
+          "family": "Jacques",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Raymund J.",
+          "family": "Wellinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alexandre",
+          "family": "Maréchal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2016.171"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2259"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.02.004"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trecan.2015.07.007"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.06.021"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.202000222"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2020.02.006"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature20099"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajpath.2011.06.018"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.10",
+          "first-page": "12",
+          "article-title": "Loss of ATRX, genome instability, and an altered DNA damage response are hallmarks of the alternative lengthening of Telomeres pathway",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.1725"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.09.019"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.66.1.61"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-022-00490-1"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.11.045"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1257216"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2016.10.048"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm738"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060713-035428"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/nucl.1.3.11739"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20241-w"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.09.012"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2016.01.011"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-10179-z"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-10180-6"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1708065114"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1510750112"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.28",
+          "first-page": "1",
+          "article-title": "SMARCAL1 and telomeres: Replicating the troublesome ends",
+          "volume": "1034",
+          "year": "2016",
+          "journal-title": "Nucleus"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Zimmermann , et al., Guiding ATR and PARP inhibitor combinationswith chemogenomic screens. Cell Rep. 40 (2022).",
+          "DOI": "10.1016/j.celrep.2022.111081"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coph.2023.102380"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Bhargava , M. L. Lynskey , R. J. O’Sullivan , New twists to the ALTernative endings at telomeres. DNA Repair (Amst ). 115, 103342 (2022).",
+          "DOI": "10.1016/j.dnarep.2022.103342"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.06.010"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1103-9"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3984"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Lu , H. A. Pickett , Telomeric replication stress: The beginning and the end for alternative lengthening of telomeres cancers. Open Biol. 12 (2022).",
+          "DOI": "10.1098/rsob.220011"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn995"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00294-017-0715-6"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15476286.2020.1761639"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1995.tb07358.x"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/onc.2015.135"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200808097"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.42",
+          "first-page": "1",
+          "article-title": "TOP3A amplification and ATRX inactivation are mutually exclusive events in pediatric osteosarcomas using ALT",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "EMBO Mol. Med"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Hu , M. Ghandi , F. W. Huang , Integrated evaluation of telomerase activation and telomere maintenance across cancer cell lines. Elife 10 (2021).",
+          "DOI": "10.7554/eLife.66198"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx201"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.24.13.6084-6093.2004"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb1197-900"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.47",
+          "first-page": "4175",
+          "article-title": "Telomerase-negative immortalized human cells contain a novel type of promyelocytic leukemia (PML) body",
+          "volume": "59",
+          "year": "1999",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/11.25.3135"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1015"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp1248"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200908136"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.17.5103"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.324905.119"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2020.12.030"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.333963.119"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.07.010"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2016.08.004"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20241-w"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.10.043"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.05.001"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.07.029"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13805-y"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Rai , Y. Chen , M. Lei , S. Chang , TRF2-RAP1 is required to protect telomeres from engaging in homologous recombination-mediated deletions and fusions. Nat. Commun. 7 (2016).",
+          "DOI": "10.1038/ncomms10881"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.64",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Rai , et al., Homology directed telomere clustering, ultrabright telomere formation and nuclear envelope rupture in cells lacking TRF2B and RAP1. Nat. Commun. 14 (2023).",
+          "DOI": "10.1038/s41467-023-37761-w"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.07.030"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb2918"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.271.36.22111"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.09.013"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.08.055"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2023114334"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.71",
+          "first-page": "1",
+          "article-title": "G-quadruplexes mark alternative lengthening of telomeres",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "NAR Cancer"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-022-00474-x"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.09.026"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Sakellariou , et al., MutSβ regulates G4-associated telomeric R-loops to maintain telomere integrity in ALT cancer cells. Cell Rep. 39 (2022).",
+          "DOI": "10.1016/j.celrep.2022.110602"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11010-015-2621-x"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C5CC00742A"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M117.776211"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad315"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms5105"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.80",
+          "first-page": "3",
+          "article-title": "The alternative lengthening of telomeres mechanism jeopardizes telomere integrity if not properly restricted",
+          "volume": "119",
+          "year": "2022",
+          "journal-title": "Proc. Natl. Acad. Sci. U. S. A"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trecan.2019.12.009"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.03.015"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.83",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Frank , et al., ALT-FISH quantifies alternative lengthening of telomeres activity by imaging of single-stranded repeats. Nucleic Acids Res. 50, E61 (2022).",
+          "DOI": "10.1093/nar/gkac113"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1587"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00603-08"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Dehairs , A. Talebi , Y. Cherifi , J. V. Swinnen , CRISP-ID: Decoding CRISPR mediated indels by Sanger sequencing. Sci. Rep. 6 (2016).",
+          "DOI": "10.1038/srep28973"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.87",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. E. Carpenter , et al., CellProfiler: image analysis software for identifying and quantifying cell phenotypes. Genome Biol. 7, R100 (2006).",
+          "DOI": "10.1186/gb-2006-7-10-r100"
+        },
+        {
+          "key": "2024102904350594000_2024.10.22.619621v1.88",
+          "first-page": "1",
+          "article-title": "SIRF: A Single-cell Assay for in situ Protein Interaction with Nascent DNA Replication Forks",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Bio-protocol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.22.619621",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:20:05Z",
+        "timestamp": 1768461605000
+      },
+      "score": 105.27271,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.22.619621"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ]
+      },
+      "references-count": 88,
+      "URL": "https://doi.org/10.1101/2024.10.22.619621",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1073/pnas.2419712122",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

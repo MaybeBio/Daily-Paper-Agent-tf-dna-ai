@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a methods protocol for simulating transcription factor protein movements along DNA, combining all-atom MD simulations, Markov state model construction, and coarse-grained MD simulations
+- **Shared manuscript claim summary** The authors present a protocol for studying transcription factor sliding along DNA using a multi-scale simulation approach, based on their prior all-atom MD simulations capturing 1-bp stepping of a WRKY domain TF, extended with MSM construction and CG MD simulations to access longer timescales
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or results data provided
+- **Missing materials affecting confidence** Full protocol text, all figures and tables, simulation parameters, MSM validation metrics, CG model details, comparison data between all-atom and CG results, and any quantitative outcomes
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful multi-scale simulation protocol for studying TF-DNA sliding dynamics. The combination of all-atom MD, MSM, and CG approaches is conceptually sound and addresses a genuine experimental challenge. However, the abstract provides insufficient technical detail to evaluate the protocol's validity, reproducibility, or novelty relative to existing methods. The claims about capturing spontaneous 1-bp stepping and the utility of CG simulations for electrostatic effects are plausible but cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein-DNA interactions, particularly those interested in facilitated diffusion mechanisms of transcription factors. Researchers developing multi-scale simulation protocols for biomolecular systems would also find the methodological workflow relevant. Experimentalists studying TF target search kinetics might use these approaches to generate structural hypotheses.
+- **Major strengths** The multi-scale strategy is well conceived, bridging atomic-level stepping events to longer-timescale diffusional processes. The explicit focus on electrostatic effects in CG simulations addresses a key physical determinant of TF sliding. The protocol's basis in prior all-atom simulations provides a concrete foundation rather than a purely abstract methodology.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The protocol shows how to construct MSM for 1-bp protein stepping with various numbers of micro- and macro-states tested
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that various numbers of micro- and macro-states were tested for MSM construction, but provides no information on the criteria used to select optimal state definitions, the validation metrics employed (e.g., Chapman-Kolmogorov tests, implied timescales), or the statistical uncertainty in the resulting model. Without these details, the MSM construction protocol cannot be evaluated for robustness or reproducibility.
+  - **Why it matters** MSM construction is highly sensitive to state definition choices, and inadequate validation can produce misleading kinetic models. A protocol that does not specify validation procedures risks propagating methodological errors to users.
+  - **Resolution test** The full protocol should include specific state decomposition criteria, validation metrics with acceptance thresholds, and error analysis for the MSM. The abstract should summarize at least the key validation approach.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** CG MD simulations sample long-time scale dynamics and reveal protein-DNA electrostatic impacts on processive diffusional motions above tens of microseconds
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that CG simulations reveal electrostatic impacts on processive diffusion, but provides no details on the CG model's resolution, how electrostatics are represented, how the model was parameterized or validated against the all-atom results, or what specific electrostatic effects were observed. The comparison between CG and all-atom timescales is stated but not substantiated with any quantitative data.
+  - **Why it matters** CG models require careful parameterization and validation to ensure they capture the physics relevant to the process under study. Without evidence that the CG model reproduces known all-atom behavior or experimental observations, the claimed electrostatic insights cannot be trusted.
+  - **Resolution test** The full protocol should include CG model construction details, parameterization strategy, validation against all-atom simulations or experimental data, and specific electrostatic findings with quantitative comparisons.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The protocol is based on prior all-atom MD simulations capturing spontaneous 1-bp stepping of a WRKY domain TF
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract references prior work but does not establish what is novel about this protocol relative to existing multi-scale simulation approaches for protein-DNA systems. The combination of all-atom MD, MSM, and CG is not inherently new, and the abstract does not articulate specific methodological innovations or advantages over published alternatives.
+  - **Why it matters** For a methods protocol, establishing novelty and practical advantage over existing approaches is essential for justifying publication and guiding user adoption.
+  - **Resolution test** The full protocol should clearly state what is new about this workflow, compare it to existing methods, and provide evidence of improved performance, accuracy, or efficiency.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses specialized terms such as "Markov state model," "coarse-grained MD," and "processive 1-D diffusional search" without brief definitions or context for readers unfamiliar with computational biophysics.
+  - **Required correction** Add brief parenthetical explanations for key technical terms, or provide a short introductory sentence contextualizing the multi-scale approach for a broader audience.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation timescales
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "10 micros WRKY stepping path" and "tens of microseconds" for CG simulations, but does not specify simulation software, force fields, or system preparation details that would be needed to reproduce the workflow.
+  - **Required correction** The full protocol should include all software versions, force field parameters, system construction steps, and simulation settings. The abstract should at least mention the software used.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not connect the simulated TF sliding behavior to specific biological predictions or experimental testable hypotheses, limiting the perceived impact for a broader biological audience.
+  - **Required correction** Add a sentence in the abstract or protocol describing how the simulation results could inform experimental studies of TF target search or gene regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MSM validation details missing), R1-M2 (CG model parameterization and validation absent), R1-M3 (novelty not established)
+- **Assessment against Nature-style criteria** 
+  - Originality: Not established from the abstract. The multi-scale approach is plausible but the specific innovations are not articulated.
+  - Scientific importance: Moderate. TF sliding is a relevant biological problem, but the abstract does not demonstrate how this protocol advances understanding beyond existing studies.
+  - Interdisciplinary readership: Limited. The abstract is written for computational biophysicists and would not be accessible to a broader biological or biochemical audience without significant revision.
+  - Technical soundness: Cannot be assessed. Critical methodological details for MSM construction and CG simulations are absent from the abstract.
+  - Readability for nonspecialists: Poor. The abstract assumes substantial familiarity with simulation techniques and does not provide sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful protocol, but the absence of technical details, validation data, and clear novelty claims prevents assessment of whether the case is made. A full manuscript with complete methodological descriptions and validation results would be required for a supportive recommendation.
+
+## Risk / unsupported claims
+- The claim that all-atom MD simulations captured spontaneous 1-bp stepping of a WRKY domain TF is referenced but not verifiable from the abstract alone
+- The claim that CG simulations reveal electrostatic impacts on processive diffusion is unsupported without model details and quantitative results
+- The comparison between CG and all-atom timescales (tens of microseconds versus sub-microseconds to microseconds) is stated without supporting data
+- The utility of the protocol for examining processive 1-D diffusional search is asserted but not demonstrated with any example outcomes

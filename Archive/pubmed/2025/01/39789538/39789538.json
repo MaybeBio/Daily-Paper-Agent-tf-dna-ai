@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "39789538",
+    "doi": "10.1186/s12885-025-13424-5",
+    "title": "Estimation of TP53 mutations for endometrial cancer based on diffusion-weighted imaging deep learning and radiomics features."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To construct a prediction model based on deep learning (DL) and radiomics features of diffusion weighted imaging (DWI), and clinical variables for evaluating TP53 mutations in endometrial cancer (EC). METHODS: DWI and clinical data from 155 EC patients were included in this study, consisting of 80 in the training set, 35 in the test set, and 40 in the external validation set. Radiomics features, convolutional neural network-based DL features, and clinical variables were analyzed. Feature selection was performed using Mann-Whitney U test, LASSO regression, and SelectKBest. Prediction models were established by gaussian process (GP) and decision tree (DT) algorithms and evaluated by the area under the receiver operating characteristic curve (AUC), net reclassification index (NRI), calibration curves, and decision curve analysis (DCA). RESULTS: Compared to the DL (AUC(training) = 0.830, AUC(test) = 0.779, and AUC(validation) = 0.711), radiomics (AUC(training) = 0.810, AUC(test) = 0.710, and AUC(validation) = 0.839), and clinical (AUC(training) = 0.780, AUC(test) = 0.685, and AUC(validation) = 0.695) models, the combined model based on the GP algorithm, which consisted of four DL features, five radiomics features, and two clinical variables, not only demonstrated the highest diagnostic efficacy (AUC(training) = 0.949, AUC(test) = 0.877, and AUC(validation) = 0.914) but also led to an improvement in risk reclassification of the TP53 mutation (NIR(training) = 66.38%, 56.98%, and 83.48%, NIR(test) = 50.72%, 80.43%, and 89.49%, and NIR(validation) = 64.58%, 87.50%, and 120.83%, respectively). In addition, the combined model exhibited good agreement and clinical utility in calibration curves and DCA analyses, respectively. CONCLUSIONS: A prediction model based on the GP algorithm and consisting of DL and radiomics features of DWI as well as clinical variables can effectively assess TP53 mutation in EC.",
+    "keywords": [
+      "Deep learning",
+      "Diffusion-weighted imaging",
+      "Endometrial cancer",
+      "Radiomics",
+      "TP53 mutation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/genetics/diagnostic imaging/pathology",
+      "*Diffusion Magnetic Resonance Imaging/methods",
+      "*Deep Learning",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Mutation",
+      "Middle Aged",
+      "Aged",
+      "Adult",
+      "ROC Curve",
+      "Algorithms",
+      "Retrospective Studies",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Lei",
+        "Dai, Bo",
+        "Dou, Shewei",
+        "Yan, Fengshan",
+        "Yang, Tianyun",
+        "Wu, Yaping"
+      ],
+      "short_names": [
+        "Shen L",
+        "Dai B",
+        "Dou S",
+        "Yan F",
+        "Yang T",
+        "Wu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China. ypwu@ha.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Lei",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Bo",
+        "short_name": "Dai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Shewei",
+        "short_name": "Dou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Fengshan",
+        "short_name": "Yan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tianyun",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yaping",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Provincial People's Hospital & Zhengzhou University People's Hospital, Zhengzhou, Henan, China. ypwu@ha.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Jan 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/10 00:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42440471",
+      "42015304",
+      "41204528",
+      "40959426",
+      "40586816",
+      "40304002",
+      "40195139"
+    ],
+    "refs": [
+      "38001250",
+      "37723592",
+      "37707860",
+      "37661630",
+      "37593813",
+      "37530809",
+      "37493356",
+      "36766853",
+      "36192204",
+      "36111158",
+      "35771720",
+      "35735273",
+      "35658479",
+      "35583712",
+      "35501705",
+      "35133200",
+      "35127515",
+      "35029732",
+      "35020204",
+      "34819042",
+      "33991377",
+      "33787335",
+      "33741266",
+      "33547553",
+      "32776391",
+      "32560580",
+      "32337640",
+      "32106683",
+      "32060219",
+      "32030660",
+      "31829441",
+      "30422086",
+      "30332563",
+      "29092951",
+      "28850876",
+      "21431559",
+      "15112367"
+    ],
+    "similar": [
+      "39789538",
+      "39171859",
+      "39276192",
+      "39732615",
+      "38153859",
+      "38316655",
+      "37855421",
+      "38969576",
+      "37530809",
+      "32681608",
+      "39665892",
+      "39319553",
+      "39251494",
+      "38887926",
+      "36259352",
+      "35992858",
+      "35758644",
+      "36895487",
+      "38935330",
+      "36656410",
+      "39417854",
+      "39496536",
+      "33565512",
+      "36563341",
+      "34861530",
+      "40075375",
+      "40223991",
+      "39375609",
+      "37643927",
+      "40295942",
+      "39732135",
+      "38982357",
+      "37926572",
+      "31942672",
+      "39415127",
+      "38016821",
+      "37660398",
+      "39638641",
+      "39289097",
+      "33829708",
+      "39545983",
+      "39753479",
+      "39735531",
+      "33638577",
+      "39354269",
+      "38471960",
+      "38690027",
+      "39639211",
+      "39129106",
+      "39690384",
+      "31828414",
+      "34745008",
+      "39304802",
+      "34714568",
+      "31016445",
+      "38750186",
+      "40097664",
+      "38779088",
+      "32749583",
+      "37933890",
+      "39552295",
+      "39815247",
+      "37222638",
+      "38088478",
+      "38472624",
+      "36282309",
+      "38135624",
+      "35771720",
+      "31712961",
+      "36650498",
+      "38272767",
+      "39013503",
+      "39085930",
+      "40113926",
+      "35720336",
+      "32417712",
+      "39672993",
+      "37171486",
+      "38600452",
+      "34462986",
+      "31773297",
+      "37897302",
+      "39618212",
+      "38783014",
+      "39448917",
+      "39232912",
+      "35692806",
+      "32538891",
+      "38086918",
+      "37949702",
+      "36896953",
+      "39271161",
+      "38992110",
+      "39090668",
+      "36620141",
+      "36081562",
+      "32787353",
+      "39147885",
+      "40217563",
+      "38982267"
+    ],
+    "review": [
+      "39789538"
+    ],
+    "pmc": [
+      "11715916"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-13424-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39789538/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1744",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

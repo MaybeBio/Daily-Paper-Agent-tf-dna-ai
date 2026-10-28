@@ -1,0 +1,256 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15006567/v1",
+  "title": "MCSwell: Thermodynamic Characterization of Binding Site Hydration",
+  "doi": "10.26434/chemrxiv.15006567/v1",
+  "abstract": "Water molecules in protein binding sites play a central role in ligand recognition by mediating stabilizing interactions and contributing desolvation penalties upon displacement. Reliable identification of hydration sites and quantification of their thermodynamic contributions remain challenging, as experimental water placement is often uncertain and direct experimental measurements of individual water free energies are not available. Molecular dynamics (MD) simulations are commonly used to characterize binding-site hydration, but their ability to sample buried or partially occluded sites is limited by kinetic barriers and substantial computational cost. In this work, we present MCSwell, a GPU-accelerated Grand Canonical Monte Carlo (GCMC) method for efficient sampling of water molecules in protein binding sites. By enabling rapid insertion and deletion moves, MCSwell provides robust identification of both exposed and buried hydration sites and estimates their thermodynamic favorability within a rigorous statistical mechanical framework. The method is highly configurable and accessible through a lightweight Python interface, facilitating integration into structure-based drug discovery workflows. We evaluate MCSwell across several protein systems by comparison with hydration patterns derived from MD simulations and with WaterKit, a previously reported MC-based approach. MCSwell achieves comparable accuracy while reducing computational cost from hours to minutes, enabling rapid and systematic hydration site analysis. These results demonstrate the utility of MCSwell as an efficient tool for modeling binding-site hydration in molecular design applications.",
+  "authors": [
+    "Niccolo’ Bruciaferri",
+    "Diogo Santos-Martins",
+    "Matthew Holcomb",
+    "Manuel A. Llanos",
+    "Stefano Forli"
+  ],
+  "published_date": "2026-07-27",
+  "updated_date": "2026-07-27T07:33:12Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15006567/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15006567/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T08:02:19Z",
+        "timestamp": 1785139339867,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Water molecules in protein binding sites play a central role in ligand recognition by mediating stabilizing interactions and contributing desolvation penalties upon displacement. Reliable identification of hydration sites and quantification of their thermodynamic contributions remain challenging, as experimental water placement is often uncertain and direct experimental measurements of individual water free energies are not available. Molecular dynamics (MD) simulations are commonly used to characterize binding-site hydration, but their ability to sample buried or partially occluded sites is limited by kinetic barriers and substantial computational cost. In this work, we present MCSwell, a GPU-accelerated Grand Canonical Monte Carlo (GCMC) method for efficient sampling of water molecules in protein binding sites. By enabling rapid insertion and deletion moves, MCSwell provides robust identification of both exposed and buried hydration sites and estimates their thermodynamic favorability within a rigorous statistical mechanical framework. The method is highly configurable and accessible through a lightweight Python interface, facilitating integration into structure-based drug discovery workflows. We evaluate MCSwell across several protein systems by comparison with hydration patterns derived from MD simulations and with WaterKit, a previously reported MC-based approach. MCSwell achieves comparable accuracy while reducing computational cost from hours to minutes, enabling rapid and systematic hydration site analysis. These results demonstrate the utility of MCSwell as an efficient tool for modeling binding-site hydration in molecular design applications.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15006567/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T07:33:12Z",
+        "timestamp": 1785137592000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "MCSwell: Thermodynamic Characterization of Binding Site Hydration"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Niccolo’",
+          "family": "Bruciaferri",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Integrative Structural and Computational Biology",
+              "place": [
+                "La Jolla, USA"
+              ]
+            },
+            {
+              "name": "Scripps Research Institute",
+              "place": [
+                "La Jolla, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Diogo",
+          "family": "Santos-Martins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Integrative Structural and Computational Biology",
+              "place": [
+                "La Jolla, USA"
+              ]
+            },
+            {
+              "name": "Scripps Research Institute",
+              "place": [
+                "La Jolla, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Holcomb",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Integrative Structural and Computational Biology",
+              "place": [
+                "La Jolla, USA"
+              ]
+            },
+            {
+              "name": "Scripps Research Institute",
+              "place": [
+                "La Jolla, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manuel A.",
+          "family": "Llanos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Integrative Structural and Computational Biology",
+              "place": [
+                "La Jolla, USA"
+              ]
+            },
+            {
+              "name": "Scripps Research Institute",
+              "place": [
+                "La Jolla, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5964-7111",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Forli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Integrative Structural and Computational Biology",
+              "place": [
+                "La Jolla, USA"
+              ]
+            },
+            {
+              "name": "Scripps Research Institute",
+              "place": [
+                "La Jolla, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15006567/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T07:33:12Z",
+        "timestamp": 1785137592000
+      },
+      "score": 107.31305,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006567/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15006567/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

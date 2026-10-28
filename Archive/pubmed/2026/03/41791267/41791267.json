@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "41791267",
+    "doi": "10.1016/j.compbiolchem.2026.108979",
+    "title": "HGCTBind: A hybrid architecture for predicting protein-DNA binding sites based on interpretable and contextual adaptive feature fusion."
+  },
+  "content": {
+    "abstract": "Accurate identification of protein-DNA binding sites is crucial for understanding the molecular mechanisms underlying related biological processes. However, most existing computational methods still primarily rely on single-modality information (either sequence or structure), therefore there remains a lack of effective strategies for fusing protein features derived from different sources. To overcome these limitations, we introduce HGCTBind, a novel hybrid architecture to predict DNA-binding sites, which combines Graph Convolutional Networks II (GCNII) and Transformer to collaboratively extract structural and sequence information. And a contextual adaptive feature fusion module is introduced to effectively integrate handcrafted features with protein language model embeddings. Given the class imbalance issue in the dataset, a weighted focal loss function is applied during model training for optimization. Experimental results on multiple DNA datasets show that HGCTBind consistently outperforms all baseline sequence- or structure-based methods. Interpretability analysis of different fusion strategies reveals latent relationships among various features, and shows that the feature fusion module substantially enhances feature representation quality, thereby improving binding site prediction. Further experiments show that the feature fusion strategy presented in this study demonstrates consistent and robust performance when applied to nine architectures and six other ProtTrans models embeddings. To assess the versatility of HGCTBind, we extended it to six additional ligand binding site prediction tasks, where it achieved competitive or superior performance across all cases.",
+    "keywords": [
+      "Contextual adaptive feature fusion",
+      "Hybrid architecture",
+      "Interpretability analysis",
+      "Protein-DNA binding site"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA/chemistry/metabolism",
+      "*Computational Biology",
+      "*Proteins/chemistry",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Wentao",
+        "Zhang, Feifan",
+        "Chen, Junfan",
+        "Lu, Kehan"
+      ],
+      "short_names": [
+        "Gong W",
+        "Zhang F",
+        "Chen J",
+        "Lu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Science, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: gwentao@cau.edu.cn.",
+        "College of Science, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: feifanzhang@cau.edu.cn.",
+        "College of Information and Electrical Engineering, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: 2022307150610@cau.edu.cn.",
+        "College of Information and Electrical Engineering, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: kehan_lu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Wentao",
+        "short_name": "Gong W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: gwentao@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feifan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: feifanzhang@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Junfan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Electrical Engineering, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: 2022307150610@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Kehan",
+        "short_name": "Lu K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Electrical Engineering, China Agricultural University, Tsinghua East Road, Beijing 100083, China. Electronic address: kehan_lu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/07 01:37",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41791267",
+      "38975896",
+      "39357703",
+      "39214282",
+      "41168713",
+      "41677811",
+      "40919912",
+      "39848362",
+      "40742755",
+      "41172803",
+      "39471921",
+      "24448651",
+      "41977286",
+      "41286535",
+      "40684093",
+      "42412843",
+      "41608988",
+      "40889326",
+      "25756377",
+      "41495146",
+      "42242678",
+      "40359455",
+      "37866116",
+      "42099803",
+      "41880480",
+      "39573831",
+      "40646507",
+      "41094395",
+      "39456153",
+      "40977268",
+      "42234353",
+      "40601256",
+      "40569190",
+      "42032471",
+      "38599417",
+      "41045511",
+      "40209920",
+      "42377576",
+      "40353937",
+      "41222559",
+      "38015872",
+      "42323855",
+      "39488202",
+      "41454719",
+      "42119874",
+      "38830995",
+      "38181611",
+      "39092854",
+      "34929739",
+      "27282833",
+      "40914361",
+      "33837387",
+      "41056347",
+      "40119803",
+      "36918766",
+      "40772277",
+      "40143108",
+      "40279085",
+      "35652477",
+      "39244557",
+      "39137295",
+      "42412847",
+      "39596413",
+      "41527527",
+      "40719555",
+      "42227990",
+      "41478395",
+      "40000026",
+      "39900285",
+      "35039821",
+      "40439671",
+      "23788679",
+      "41376296",
+      "29182548",
+      "39550226",
+      "30891794",
+      "38237792",
+      "42050415",
+      "34073705",
+      "42021142",
+      "40673435",
+      "40888747",
+      "24475169",
+      "41077294",
+      "19008251",
+      "40705403",
+      "41257600",
+      "41290782",
+      "35378437",
+      "34714748",
+      "40613943",
+      "40001524",
+      "41436386",
+      "41651269",
+      "41805524",
+      "38349057",
+      "41399733",
+      "39121938",
+      "41144541",
+      "30106688"
+    ],
+    "review": [
+      "41791267",
+      "25756377",
+      "40209920"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00104-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

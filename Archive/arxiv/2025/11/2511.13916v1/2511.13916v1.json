@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2511.13916v1",
+  "title": "Structural Flexibility of the TCF7L2-DNA Complex with the Type 2 Diabetes SNP rs7903146",
+  "doi": "",
+  "abstract": "The single nucleotide polymorphism (SNP) rs7903146 in the TCF7L2 gene has been determined as one of the strongest common genetic risk factors for Type 2 Diabetes (T2D). The location of the SNP in a non-coding region suggests a regulatory mechanism, meaning the SNP doesn't change the protein's own structure but rather affects how the TCF7L2 protein binds to DNA to control other genes. This binding, however, is highly dependent on the shape and flexibility of the DNA. This study aims to reveal the atomic-level effects of the SNP's cytosine-to-thymine substitution on the TCF7L2-DNA complex. We first utilized AlphaFold to generate individual high-confidence structures of the TCF7L2 protein and two 15-base pair DNA duplexes: one containing the reference C allele and one containing the variant T allele. These structures were then used as inputs for Neurosnap's Boltz2 deep learning model to generate two complete protein-DNA complexes of the TCF7L2 HMG-box bound to each DNA variant. Using the iMODS server, we conducted a Normal Mode Analysis (NMA) to predict and compare large-scale flexibility and differences in interactions between the complexes. The protein-DNA interface was dissected using PDBsum to locate atomic contacts, clefts, and interaction maps. Overall, our results show that the T allele variant exhibits increased global stiffness with a higher eigenvalue and reduced flexibility, suggesting that the SNP disrupts the mechanism and biomechanical balance needed for efficient TCF7L2-DNA binding, thus affecting downstream gene regulation.",
+  "authors": [
+    "Karthik Venuturimilli",
+    "Yang Ha"
+  ],
+  "published_date": "2025-11-17T21:13:42Z",
+  "updated_date": "2025-11-17T21:13:42Z",
+  "journal": "",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2511.13916v1",
+  "pdf_url": "https://arxiv.org/pdf/2511.13916v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2511.13916v1",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

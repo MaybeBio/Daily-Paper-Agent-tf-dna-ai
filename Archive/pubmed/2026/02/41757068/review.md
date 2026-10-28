@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, materials and methods, and acknowledgments. No figures or supplementary materials were provided.
+- **Assessment boundary** The assessment is limited to the textual content of the preprint. Claims are evaluated based on the described methodology and reported results, without access to the underlying data, code, or visualizations.
+- **Shared manuscript claim summary** The authors propose that tissue-resident alveolar macrophages (AMs) exhibit more restrained inflammatory responses compared to recruited monocyte-derived AMs, and that this restraint is due to a stabilizing gene regulatory network (GRN) architecture centered on the transcription factors PU.1 and CEBP/β. This conclusion is derived from integrative analysis of published scRNA-seq data, newly generated ATAC-seq data, and deep-learning-based chromatin accessibility modeling.
+- **Visible evidence base** The manuscript describes analyses of a published murine scRNA-seq dataset (GSE280003), newly generated ATAC-seq data from naïve and LPS-treated mice, ChromBPNet modeling, TF-MoDISco and HOMER motif analyses, and CellOracle-based GRN construction with in silico perturbation experiments. No figures, tables, or numerical results are provided in the submitted text.
+- **Missing materials affecting confidence** Figures 1 and 2 are referenced but not included. No quantitative results, statistical tests, or effect sizes are reported. The ATAC-seq data accession numbers (GSE231217, GSE319365) are mentioned but not verified. Code availability is not stated. These omissions substantially limit the ability to evaluate the technical soundness and robustness of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in macrophage biology, namely how GRN architecture shapes the differential inflammatory responses of tissue-resident versus recruited macrophages. The integrative approach combining scRNA-seq, ATAC-seq, and deep-learning-based modeling is timely and potentially impactful. However, the current text provides only qualitative descriptions of results, with no quantitative evidence presented. The central claim that PU.1 and CEBP/β stabilize GRN architecture to constrain inflammation rests on in silico perturbation analyses whose validity and statistical significance cannot be assessed from the provided material. The manuscript would benefit from clearer presentation of the computational pipeline, validation of the GRN predictions, and direct experimental or orthogonal support for the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying macrophage biology, transcriptional regulation, and innate immunity would be the primary audience. The work is also relevant to those interested in gene regulatory network inference methods and their application to tissue-resident cell populations. The potential to explain functional diversity among macrophage subsets through network architecture could inform therapeutic strategies targeting macrophage states in inflammatory lung diseases.
+- **Major strengths** The study addresses a significant gap in understanding how higher-order regulatory interactions, rather than individual TFs, coordinate macrophage identity and inflammatory responses. The integration of multiple data types (scRNA-seq, ATAC-seq, deep-learning models) is methodologically ambitious and appropriate for the question. The focus on tissue-resident versus recruited AMs in vivo is biologically relevant and clinically meaningful. The use of topic modeling to define functional programs and link them to GRN structure is a thoughtful analytical approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "inflammatory responses are more restrained in tissue-resident alveolar macrophages compared with recruited macrophages due to a stabilizing regulatory network architecture involving PU.1 and CEBP/β."
+  - **Evidence pointer** Results and Discussion, Figures 2A-F (not provided)
+  - **Concern** The central claim of differential inflammatory restraint is based on topic modeling of scRNA-seq data, but no quantitative comparison of topic scores or inflammatory gene expression between tissue-resident and recruited AMs is presented. The statement that tissue-resident AMs "manifested low levels of the inflammation topic" is qualitative and lacks statistical support. Furthermore, the in silico perturbation results (Figure 2C, 2F) are described only in terms of "vector magnitudes" without reporting actual values, distributions, or significance testing.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the observed differences are biologically meaningful or statistically robust. The claim that GRN architecture "constrains" inflammatory responses implies a causal relationship that requires demonstration of significant differences in perturbation outcomes between the two cell populations.
+  - **Resolution test** Provide quantitative comparisons of topic loadings and perturbation scores between tissue-resident and recruited AMs, including effect sizes, confidence intervals, and appropriate statistical tests. Show that the differences are reproducible across biological replicates and robust to parameter choices in the GRN construction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "CEBP/β and PU.1 promote homeostatic programming while constraining inflammatory programs in tissue-resident AMs" based on in silico knockout experiments.
+  - **Evidence pointer** Results and Discussion, Figure 2F (not provided)
+  - **Concern** The in silico perturbation approach (CellOracle) simulates TF knockout by setting expression to zero and measures changes in topic vector trajectories. The validity of this approach depends critically on the accuracy of the inferred GRN, which itself relies on motif scanning and correlation-based methods. No validation of the GRN predictions is provided, such as comparison with known TF binding data, ChIP-seq, or perturbation experiments. The claim that PU.1 and CEBP/β specifically stabilize the network is not supported by any sensitivity analysis or alternative network inference methods.
+  - **Why it matters** In silico predictions are only as reliable as the underlying network model. Without validation, the specific role attributed to PU.1 and CEBP/β remains speculative. The manuscript acknowledges these TFs are "well established as key regulators" of AM homeostasis, but the novel claim is their network-stabilizing function, which requires stronger evidence.
+  - **Resolution test** Validate the GRN using independent data (e.g., ChIP-seq for PU.1 and CEBP/β in AMs), compare predictions with known regulatory interactions, and test robustness of the perturbation results to different GRN inference parameters or alternative methods. Ideally, provide experimental validation of the predicted phenotype following modulation of PU.1 or CEBP/β activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The manuscript describes a complex computational pipeline integrating multiple datasets and tools, but provides insufficient detail for replication.
+  - **Evidence pointer** Materials and Methods, Data Processing, Topic Modeling, ATAC-seq and Contribution Scores, Gene Regulatory Network Construction, Systematic in silico Perturbation
+  - **Concern** Key parameters and steps are underspecified. For example, the number of principal components (47) and k (598) for KNN imputation are given, but the rationale and sensitivity to these choices are not discussed. The selection of k=7 topics is stated but the evaluation criteria are vague ("best model performance"). The processing of ATAC-seq data from GSE100738 for training ChromBPNet models is described, but the custom Tn5-bias model is not detailed. The integration of data from different sources (GSE280003, GSE231217, GSE319365) is mentioned without clarity on batch effects or compatibility.
+  - **Why it matters** Reproducibility is a core requirement for computational biology studies. The lack of detail prevents independent verification of the results and undermines confidence in the conclusions. The choice of parameters in network inference and topic modeling can substantially affect outcomes.
+  - **Resolution test** Provide a detailed, step-by-step description of the computational pipeline, including all parameters, software versions, and data processing steps. Make code and processed data publicly available. Include sensitivity analyses for key parameters (e.g., number of topics, KNN parameters, GRN inference thresholds).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and causality
+  - **Claim pointer** The authors conclude that "dense TF interconnectivity stabilizes GRN architecture and constrains inflammatory responses in tissue resident AMs."
+  - **Evidence pointer** Results and Discussion, Figures 2A-C (not provided)
+  - **Concern** The interpretation that higher eigenvector centrality and denser TF-TF connectivity confer stability is plausible but not directly tested. The observation that global TF perturbations have smaller effects in tissue-resident AMs (Figure 2C) is interpreted as evidence of stability, but alternative explanations, such as differences in TF expression levels or network size, are not considered. The causal link between network architecture and inflammatory restraint is inferred rather than demonstrated.
+  - **Why it matters** The manuscript's central thesis is that network architecture, rather than individual TF activity, determines the inflammatory response. This is an important conceptual claim that requires careful distinction between correlation and causation. Without addressing alternative explanations, the conclusion may be overstated.
+  - **Resolution test** Perform additional analyses to test the stability hypothesis, such as comparing network robustness to random vs. targeted perturbations, examining whether the observed differences in perturbation sensitivity correlate with network properties beyond connectivity, and discussing or testing alternative models (e.g., differences in TF expression levels, chromatin accessibility).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that the work "suggest[s] that inflammatory responses are more restrained in tissue-resident alveolar macrophages compared with recruited macrophages," but the term "restrained" is not operationally defined. The introduction would benefit from a clearer statement of the hypothesis and the specific predictions that distinguish the proposed model from alternatives.
+  - **Required correction** Define "restrained" in terms of specific measurable outcomes (e.g., magnitude or duration of inflammatory gene expression). State the hypothesis and predictions explicitly in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Materials and Methods, Topic Modeling
+  - **Evidence pointer** Materials and Methods, Topic Modeling
+  - **Issue** The description of topic modeling states that "we took the top 1000 genes with the greatest log fold change for KEGG pathway enrichment analysis," but the log fold change is not defined in this context. It is unclear whether this refers to differential expression between topics or between conditions.
+  - **Required correction** Clarify the definition of log fold change in the context of topic modeling and specify the comparison used to rank genes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Materials and Methods, ATAC-seq and Contribution Scores
+  - **Evidence pointer** Materials and Methods, ATAC-seq and Contribution Scores
+  - **Issue** The text states that "ATAC-seq data from GSE100738 was processed as described and used to train alveolar macrophage ChromBPNet models." The reference to "as described" is vague, and the specific processing steps are not detailed.
+  - **Required correction** Provide a specific reference or a brief description of the processing steps used for the training data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, paragraph 3
+  - **Evidence pointer** Results and Discussion, paragraph 3
+  - **Issue** The statement that "high-contribution transcription factors CEBP/β and PU.1 may maintain the regulatory landscape that coordinates functional plasticity" is speculative. The link between motif contribution scores and the proposed stabilizing function is not fully explained.
+  - **Required correction** Clarify the reasoning connecting high contribution scores to the proposed role in maintaining regulatory landscape and functional plasticity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, Data Processing
+  - **Evidence pointer** Materials and Methods, Data Processing
+  - **Issue** The description of scRNA-seq data processing states that data was "filtered to obtain only the gene expression values from the sorted alveolar macrophages" and that k-means clustering identified "two main clusters out of five." The criteria for selecting these clusters and the markers used for annotation are not specified.
+  - **Required correction** Provide details on the clustering approach, the markers used to distinguish tissue-resident from recruited AMs, and the rationale for selecting the two clusters.
+
+## Risk / unsupported claims
+- The claim that inflammatory responses are "more restrained" in tissue-resident AMs is not quantitatively supported in the provided text.
+- The specific role of PU.1 and CEBP/β in stabilizing GRN architecture is based solely on in silico predictions without validation.
+- The assertion that "dense TF interconnectivity stabilizes GRN architecture" is an interpretation not directly tested against alternative models.
+- The generalizability of the findings beyond the specific mouse model and LPS stimulation protocol is not discussed.
+- The claim that the integrative framework "can be applied to various tissue contexts" is speculative and not demonstrated.
+- The statement that "CEBP/β and PU.1 promote homeostatic programming while constraining inflammatory programs" implies a causal relationship that is not established by the presented evidence.

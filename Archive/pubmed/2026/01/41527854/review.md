@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency based solely on the provided text; visual data (figures) and supplementary tables referenced but not inspected
+- **Shared manuscript claim summary** The authors present EpiXFormer, a transformer-based neural network integrating DNA sequence and epigenomic features via cross-attention, to predict cell type-specific transcription factor binding sites (TFBSs) across multiple cell lines, with claims of superior performance over existing methods, interpretability of learned motifs, identification of pioneer factors, and delineation of cell type-specific regulatory functions of MYC
+- **Visible evidence base** Main text results sections, methods descriptions, and references to figures (Fig. 1-6) and supplementary items (Tables S1-S6, Figures S1-S5) that were not provided
+- **Missing materials affecting confidence** All figures, supplementary tables, supplementary notes, and detailed benchmark comparisons; without these, quantitative performance claims and architectural details cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in regulatory genomics with a plausible architectural innovation, but the provided text alone does not permit verification of the central performance claims, benchmark fairness, or statistical rigor. The conceptual framing is sound and the potential applications are compelling, yet several technical details and evidence items are either missing or described at a level that precludes assessment. The work is likely of interest to the computational genomics community, but the case for its superiority over existing methods is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing deep learning methods for regulatory genomics; experimental biologists studying transcription factor binding, chromatin state, and cell type specification; researchers interested in pioneer factor identification and gene regulatory network reconstruction. The cross-attention mechanism for integrating sequence and epigenomic modalities may also interest the broader machine learning for genomics community.
+- **Major strengths** The problem is well-motivated and practically important. The architectural choice of cross-attention to integrate two distinct modalities is conceptually clean and potentially more interpretable than concatenation-based approaches. The inclusion of ns-DBPs is a valuable extension beyond typical TF-focused studies. The demonstration of biological applications (pioneer factor inference, cell type-specific regulatory functions) suggests translational utility beyond raw prediction accuracy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EpiXFormer achieves exceptional performance in predicting binding sites of DNA-binding proteins (DBPs) across a diverse collection of cell types" and "EpiXFormer achieved higher AUROCs than these two methods when applied to both TFs and ns-DBPs for each cell line"
+  - **Evidence pointer** Results section "EpiXFormer achieves high performance in genome-scale binding site prediction of DBPs", Figures 2A-F, Supplementary Table S3
+  - **Concern** The performance claims rest entirely on figures and supplementary tables that were not provided. The mean AUROC of 0.9905 with a narrow range suggests possible overfitting or data leakage, but this cannot be assessed without seeing the distribution of results, the train/test split methodology, and the baseline comparisons. The comparison against DeepBind and FIMO is described but the specific implementation details, hyperparameters, and whether these baselines were optimally configured are not stated.
+  - **Why it matters** The central contribution of the manuscript is the claimed predictive superiority. Without verifiable performance data and fair benchmarking, the scientific case is not established. High AUROC values in TFBS prediction can arise from trivial sequence features or leakage between training and test sets, and the text does not rule these out.
+  - **Resolution test** Provide the full performance tables, ROC/PR curves, and a detailed description of the train/test split ensuring no genomic overlap between training and test regions. Include a comparison with baselines using identical data splits and evaluation protocols, and report confidence intervals or variance across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EpiXFormer effectively models the impact of local epigenomic context on DBP binding" and "proximal epigenomic information played a dominant role in TF binding, while distal regions exerted weaker influence"
+  - **Evidence pointer** Results section "Interpretation of cross-attention weights reveals distinct effects of proximal and distal epigenomic information on DBP binding", Figures 4A-E, Figure S3
+  - **Concern** The interpretation of cross-attention weights as a measure of "impact" or "influence" of epigenomic features on binding is not rigorously justified. Attention weights are not necessarily causal or proportional to feature importance, a well-known limitation in the interpretability literature. The claim that proximal effects dominate is based on visual inspection of attention profiles, but no statistical test is described to support this conclusion. The comparison across TF families and the statement that variation "did not exhibit a clear association with TF family" lacks quantitative support.
+  - **Why it matters** The interpretability claims are a key differentiator of this work from prior methods. If the attention-based interpretation is not validated against known biology or alternative attribution methods, the conclusions about proximal versus distal effects and the biological insights drawn from them are not reliable.
+  - **Resolution test** Validate attention-based importance against established attribution methods (e.g., in silico mutagenesis, integrated gradients) on a subset of TFs. Provide statistical tests for the difference between proximal and distal attention scores, and for the comparison across TF families. Consider a permutation test or ablation study to confirm that attention weights track functional relevance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EpiXFormer detected the motifs of their tethering proteins" and "both models detected the POU5F1::SOX2 motif" leading to the claim that "EpiXFormer can infer pioneer factors during cell type transition"
+  - **Evidence pointer** Results section "Motif analysis of EpiXFormer facilitates the identification of pioneer factors", Figures 5A-D, Supplementary Table S4
+  - **Concern** The motif analysis is described qualitatively. The NeuronMotif algorithm is cited but the parameters, significance thresholds, and the criteria for declaring a motif "detected" are not specified. The claim that detecting the POU5F1::SOX2 motif in BRG1 and BAF155 models constitutes "inference of pioneer factors" is a logical leap: detecting a co-occurring motif does not establish that the factor is a pioneer factor, which requires functional evidence of chromatin opening. The validation of this claim appears to rest on a single example without systematic evaluation.
+  - **Why it matters** The pioneer factor identification claim is a significant biological contribution if true, but the evidence presented is anecdotal and the inference chain is not fully justified. Overclaiming from motif co-occurrence could mislead readers about the method's capabilities.
+  - **Resolution test** Provide a systematic evaluation of motif recovery across all TFs, with quantitative comparison to known motifs (e.g., using Tomtom p-values with a defined threshold). For the pioneer factor claim, either temper the language to "co-occurring factor detection" or provide additional evidence (e.g., chromatin accessibility dynamics, functional validation) that the detected factors act as pioneer factors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "EpiXFormer is helpful to delineate the regulatory role of the same TF in distinct cellular scenarios" based on MYC analysis
+  - **Evidence pointer** Results section "Cross-cell type binding site prediction reveals MYC cell type-specific regulatory functions", Figures 6C-F, Figure S5C-D
+  - **Concern** The MYC analysis is presented as a demonstration of the method's utility, but the validation is limited. The comparison with experimental data (Chronis et al.) is mentioned but the concordance is not quantified. The functional enrichment results are stated to be significant (FDR < 0.05) but the specific terms and their relevance to known MYC biology are not discussed in sufficient detail. The claim that the model "delineates" regulatory functions is stronger than what the evidence supports, which appears to be prediction followed by enrichment analysis.
+  - **Why it matters** The translational value of the method depends on its ability to generate biologically meaningful hypotheses. Without quantitative validation against independent experimental data, the utility claim is not fully supported.
+  - **Resolution test** Provide quantitative metrics for agreement between predicted and experimentally observed MYC binding (e.g., overlap coefficient, correlation of signal intensity). Include a more detailed discussion of the enriched pathways and how they relate to known MYC functions in each cell type. Consider validating a subset of novel predictions experimentally or against additional public datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract uses terms like "cross-attention mechanism" and "multiscale embedding" without brief explanation, which may be opaque to experimental biologists who are a likely target audience.
+  - **Required correction** Add one sentence in the abstract briefly explaining the cross-attention concept in plain language, e.g., "a mechanism that allows the model to weigh the relevance of different genomic features when making predictions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Training and test datasets"
+  - **Evidence pointer** Methods section "Training and test datasets"
+  - **Issue** The negative sample generation for TFs combines two strategies, but the relative proportion of each type of negative is not specified. This could affect model performance and comparability with other methods.
+  - **Required correction** State the proportion of negatives from each strategy, or clarify that the final set is a balanced combination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "EpiXFormer achieves high performance"
+  - **Evidence pointer** Results section "EpiXFormer achieves high performance in genome-scale binding site prediction of DBPs"
+  - **Issue** The comparison with "recent state-of-the-art methods" in Figure 2F is described but the specific benchmark datasets and the number of TFs/cell types used for comparison are not stated in the text.
+  - **Required correction** Specify the benchmark datasets, the number of common TFs, and the evaluation protocol in the main text or refer clearly to a supplementary table that provides these details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of limitations is brief and focuses only on the number of TFs. Other limitations, such as the reliance on peak calls as ground truth, potential batch effects across ENCODE datasets, and the fixed 200 bp resolution, are not acknowledged.
+  - **Required correction** Expand the limitations paragraph to address these points and discuss how they might affect generalizability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Epigenomic information feature"
+  - **Evidence pointer** Methods section "Epigenomic information feature"
+  - **Issue** The binarization of epigenomic signals (peak vs. no peak) discards quantitative information. The choice of threshold for defining a peak is not described.
+  - **Required correction** Justify the binarization approach and state the peak-calling threshold or criteria used to define presence/absence.
+- **Assessment against Nature-style criteria** Originality: The cross-attention architecture for integrating sequence and epigenomic modalities is a reasonable incremental advance over prior concatenation-based approaches, though the core idea of using attention for multimodal integration is not novel in the broader machine learning literature. Scientific importance: The problem of cell type-specific TFBS prediction is important, and the demonstrated applications to pioneer factor inference and cell type-specific regulatory functions are potentially valuable. Interdisciplinary readership: The work bridges computational and experimental genomics, and the biological applications should attract interest beyond pure bioinformatics. Technical soundness: Cannot be fully assessed from the provided text; the performance claims, benchmark comparisons, and interpretability analyses require the missing figures and supplementary materials. Readability for nonspecialists: The main text is generally clear, but the abstract and some results sections assume familiarity with deep learning terminology; the biological rationale is well explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual approach is promising and the biological applications are compelling, but the current submission does not provide sufficient verifiable evidence to establish the central claims. The authors should provide the missing figures and supplementary data, strengthen the benchmark comparisons, and temper or better support the interpretability and pioneer factor claims.
+
+## Risk / unsupported claims
+- The claim of "exceptional performance" and superiority over existing methods is unsupported without the actual performance data and benchmark details.
+- The claim that attention weights reflect the "impact" of epigenomic information on binding is not validated against alternative interpretability methods.
+- The inference of pioneer factors from motif co-occurrence is an overstatement; the evidence supports detection of co-occurring motifs, not functional pioneer factor activity.
+- The claim that EpiXFormer "delineates" cell type-specific regulatory functions of MYC is stronger than what the described analysis (prediction plus enrichment) supports.
+- The generalizability claim to "other cell types of interest" is not supported by the provided evidence, as only a limited set of cell lines was examined.
+- The statement that EpiXFormer "effectively models the impact of local epigenomic context" is not quantitatively supported without the attention analysis details and statistical tests.

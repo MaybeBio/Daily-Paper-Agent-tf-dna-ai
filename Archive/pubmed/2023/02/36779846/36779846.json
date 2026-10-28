@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "36779846",
+    "doi": "10.1158/0008-5472.CAN-22-1910",
+    "title": "Bayesian Machine Learning Enables Identification of Transcriptional Network Disruptions Associated with Drug-Resistant Prostate Cancer."
+  },
+  "content": {
+    "abstract": "Survival rates of patients with metastatic castration-resistant prostate cancer (mCRPC) are low due to lack of response or acquired resistance to available therapies, such as abiraterone (Abi). A better understanding of the underlying molecular mechanisms is needed to identify effective targets to overcome resistance. Given the complexity of the transcriptional dynamics in cells, differential gene expression analysis of bulk transcriptomics data cannot provide sufficient detailed insights into resistance mechanisms. Incorporating network structures could overcome this limitation to provide a global and functional perspective of Abi resistance in mCRPC. Here, we developed TraRe, a computational method using sparse Bayesian models to examine phenotypically driven transcriptional mechanistic differences at three distinct levels: transcriptional networks, specific regulons, and individual transcription factors (TF). TraRe was applied to transcriptomic data from 46 patients with mCRPC with Abi-response clinical data and uncovered abrogated immune response transcriptional modules that showed strong differential regulation in Abi-responsive compared with Abi-resistant patients. These modules were replicated in an independent mCRPC study. Furthermore, key rewiring predictions and their associated TFs were experimentally validated in two prostate cancer cell lines with different Abi-resistance features. Among them, ELK3, MXD1, and MYB played a differential role in cell survival in Abi-sensitive and Abi-resistant cells. Moreover, ELK3 regulated cell migration capacity, which could have a direct impact on mCRPC. Collectively, these findings shed light on the underlying transcriptional mechanisms driving Abi response, demonstrating that TraRe is a promising tool for generating novel hypotheses based on identified transcriptional network disruptions. SIGNIFICANCE: The computational method TraRe built on Bayesian machine learning models for investigating transcriptional network structures shows that disruption of ELK3, MXD1, and MYB signaling cascades impacts abiraterone resistance in prostate cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Bayes Theorem",
+      "Transcription, Genetic",
+      "*Gene Regulatory Networks",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Prostatic Neoplasms/drug therapy/genetics",
+      "Humans",
+      "Male",
+      "Proto-Oncogene Proteins c-ets/genetics",
+      "Repressor Proteins/genetics",
+      "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/genetics",
+      "Proto-Oncogene Proteins c-myb/genetics",
+      "*Androstenes/therapeutic use",
+      "Gene Expression Profiling",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blatti, Charles",
+        "de la Fuente, Jesus",
+        "Gao, Huanyao",
+        "Marin-Goni, Irene",
+        "Chen, Zikun",
+        "Zhao, Sihai D",
+        "Tan, Winston",
+        "Weinshilboum, Richard",
+        "Kalari, Krishna R",
+        "Wang, Liewei",
+        "Hernaez, Mikel"
+      ],
+      "short_names": [
+        "Blatti C",
+        "de la Fuente J",
+        "Gao H",
+        "Marin-Goni I",
+        "Chen Z",
+        "Zhao SD",
+        "Tan W",
+        "Weinshilboum R",
+        "Kalari KR",
+        "Wang L",
+        "Hernaez M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4683-6271",
+        "ORCID: 0000-0003-1856-2469",
+        "ORCID: 0000-0002-9441-9579",
+        "ORCID: 0000-0002-5060-0712",
+        "ORCID: 0000-0002-9933-9658",
+        "ORCID: 0000-0001-5980-5071",
+        "ORCID: 0000-0003-4706-0310",
+        "ORCID: 0000-0002-4911-7985",
+        "ORCID: 0000-0001-8944-8378",
+        "ORCID: 0000-0003-3818-8531",
+        "ORCID: 0000-0003-0443-2305"
+      ],
+      "affiliations": [
+        "NCSA, University of Illinois at Urbana-Champaign, Champaign, Illinois.",
+        "TECNUN School of Engineering, University of Navarra, Navarra, Spain.",
+        "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota.",
+        "Computational Biology Program, CIMA University of Navarra, Navarra, Spain.",
+        "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, Illinois.",
+        "Department of Statistics, University of Illinois at Urbana-Champaign, Champaign, Illinois.",
+        "Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Champaign, Illinois.",
+        "Department of Internal Medicine, Mayo Clinic, Rochester, Minnesota.",
+        "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota.",
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, Minnesota.",
+        "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota.",
+        "Computational Biology Program, CIMA University of Navarra, Navarra, Spain.",
+        "Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Champaign, Illinois."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blatti, Charles",
+        "short_name": "Blatti C",
+        "identifiers": [
+          "0000-0002-4683-6271"
+        ],
+        "affiliations": [
+          "NCSA, University of Illinois at Urbana-Champaign, Champaign, Illinois."
+        ]
+      },
+      {
+        "full_name": "de la Fuente, Jesús",
+        "short_name": "de la Fuente J",
+        "identifiers": [
+          "0000-0003-1856-2469"
+        ],
+        "affiliations": [
+          "TECNUN School of Engineering, University of Navarra, Navarra, Spain."
+        ]
+      },
+      {
+        "full_name": "Gao, Huanyao",
+        "short_name": "Gao H",
+        "identifiers": [
+          "0000-0002-9441-9579"
+        ],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota."
+        ]
+      },
+      {
+        "full_name": "Marín-Goñi, Irene",
+        "short_name": "Marín-Goñi I",
+        "identifiers": [
+          "0000-0002-5060-0712"
+        ],
+        "affiliations": [
+          "Computational Biology Program, CIMA University of Navarra, Navarra, Spain."
+        ]
+      },
+      {
+        "full_name": "Chen, Zikun",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0002-9933-9658"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, Illinois."
+        ]
+      },
+      {
+        "full_name": "Zhao, Sihai D",
+        "short_name": "Zhao SD",
+        "identifiers": [
+          "0000-0001-5980-5071"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of Illinois at Urbana-Champaign, Champaign, Illinois.",
+          "Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Champaign, Illinois."
+        ]
+      },
+      {
+        "full_name": "Tan, Winston",
+        "short_name": "Tan W",
+        "identifiers": [
+          "0000-0003-4706-0310"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Mayo Clinic, Rochester, Minnesota."
+        ]
+      },
+      {
+        "full_name": "Weinshilboum, Richard",
+        "short_name": "Weinshilboum R",
+        "identifiers": [
+          "0000-0002-4911-7985"
+        ],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota."
+        ]
+      },
+      {
+        "full_name": "Kalari, Krishna R",
+        "short_name": "Kalari KR",
+        "identifiers": [
+          "0000-0001-8944-8378"
+        ],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, Minnesota."
+        ]
+      },
+      {
+        "full_name": "Wang, Liewei",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0003-3818-8531"
+        ],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, Minnesota."
+        ]
+      },
+      {
+        "full_name": "Hernaez, Mikel",
+        "short_name": "Hernaez M",
+        "identifiers": [
+          "0000-0003-0443-2305"
+        ],
+        "affiliations": [
+          "Computational Biology Program, CIMA University of Navarra, Navarra, Spain.",
+          "Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, Champaign, Illinois."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research"
+    ],
+    "journal_abbrev": [
+      "Cancer Res"
+    ],
+    "pub_date": "2023 Apr 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/14 06:00",
+    "fetched_at": "2026-09-28 20:28:41"
+  },
+  "links": {
+    "cites": [
+      "41390519",
+      "41071881",
+      "40949469",
+      "40840524",
+      "40269930",
+      "38835346",
+      "38597610",
+      "38522008"
+    ],
+    "refs": [
+      "35288936",
+      "34799729",
+      "34751401",
+      "33914026",
+      "32943575",
+      "32888405",
+      "32661177",
+      "32550913",
+      "32104682",
+      "31912902",
+      "31552182",
+      "31287491",
+      "31061129",
+      "30952671",
+      "30930119",
+      "30778251",
+      "30514346",
+      "30476243",
+      "30445495",
+      "29713515",
+      "29331675",
+      "29071717",
+      "29069303",
+      "28991892",
+      "28655021",
+      "28543796",
+      "28335719",
+      "28240607",
+      "27977008",
+      "27793987",
+      "27153652",
+      "26883200",
+      "26771021",
+      "26544944",
+      "25583238",
+      "25560933",
+      "24830722",
+      "24511378",
+      "24315100",
+      "23883936",
+      "23260764",
+      "22894553",
+      "22849396",
+      "22563072",
+      "21681210",
+      "21612468",
+      "21245848",
+      "21129771",
+      "21127252",
+      "20659323",
+      "20570387",
+      "20159814",
+      "19769460",
+      "19657377",
+      "19274049",
+      "19182785",
+      "19114008",
+      "18332111",
+      "18172298",
+      "17925352",
+      "16912186",
+      "16723010",
+      "16359438",
+      "15372033",
+      "15231528",
+      "14995526",
+      "11432821"
+    ],
+    "similar": [
+      "36779846",
+      "37634036",
+      "31294486",
+      "34157173",
+      "28027516",
+      "40470696",
+      "31452414",
+      "40670254",
+      "31176623",
+      "30068710",
+      "33046366",
+      "38963459",
+      "40397306",
+      "28818355",
+      "30142421",
+      "34197212",
+      "35689436",
+      "31092441",
+      "39561358",
+      "39115414",
+      "34096667",
+      "32387417",
+      "25242736",
+      "36353661",
+      "20479932",
+      "41402347",
+      "39153249",
+      "24200698",
+      "33307509",
+      "23112173",
+      "27404039",
+      "32944756",
+      "30106011",
+      "31405013",
+      "31601523",
+      "27601596",
+      "39301921",
+      "25712683",
+      "26306637",
+      "29367197",
+      "30928160",
+      "41193272",
+      "38458891",
+      "28249598",
+      "34435696",
+      "34184132",
+      "40455815",
+      "24837187",
+      "30419548",
+      "32513898",
+      "34985518",
+      "35218371",
+      "22429837",
+      "27794047",
+      "25284586",
+      "32702615",
+      "31013891",
+      "34318630",
+      "38632244",
+      "34761715",
+      "28890368",
+      "39195285",
+      "32156728",
+      "34822183",
+      "34548234",
+      "34373138",
+      "30242092",
+      "32661959",
+      "26067250",
+      "24156649",
+      "31276932",
+      "22027694",
+      "39218743",
+      "26373956",
+      "24101480",
+      "30131546",
+      "25184630",
+      "29797220",
+      "41028522",
+      "22753664",
+      "37031196",
+      "30316578",
+      "26196735",
+      "21491078",
+      "32112280",
+      "29037513",
+      "31587172",
+      "37882463",
+      "32690869",
+      "26342718",
+      "24968068",
+      "31919096",
+      "40951478",
+      "25630658",
+      "41006377",
+      "32721059",
+      "33419944",
+      "31861415",
+      "36410437",
+      "25708161"
+    ],
+    "review": [
+      "36779846",
+      "40397306",
+      "34184132",
+      "34548234",
+      "26067250",
+      "26373956",
+      "29797220",
+      "30316578",
+      "26196735",
+      "29037513",
+      "37882463"
+    ],
+    "pmc": [
+      "10102853"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36779846/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36779846",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerres/article-lookup/doi/10.1158/0008-5472.CAN-22-1910",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

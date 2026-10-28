@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41963877",
+    "doi": "10.1186/s12906-026-05359-6",
+    "title": "Exploring the molecular mechanism of Er Miao San for treating rheumatoid arthritis based on network pharmacology."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aimed to elucidate the molecular mechanism of Er Miao San (EMS) in treating rheumatoid arthritis (RA) by integrating network pharmacology, molecular docking, and experimental validation. METHODS: Using public databases, potential targets of EMS, RA-related targets, and NF-kappaB pathway targets were cross-referenced to identify common genes. These were analyzed via protein-protein interaction (PPI)network, GO/KEGG enrichment analyses (via DAVID), and hub gene identification (using Cytoscape and cytoHubba). Core predictions were validated by molecular docking, with therapeutic efficacy confirmed in adjuvant-induced arthritis (AA)rats and NF-kappaB pathway inhibition confirmed in TNF-alpha-induced fibroblast-like synoviocytes (FLSs). RESULTS: Integrated analysis identified 34 common targets of Er Miao San (EMS) for rheumatoid arthritis (RA) treatment, with NFKBIA, RELA, and TNF recognized as the top hub genes. Molecular docking revealed stable binding between these targets and the core active components (fumarine, berberine, and wogonin). Experimentally, EMS alleviated joint pathology in AA rats and concentration-dependently suppressed TNF-alpha-induced proliferation of FLSs and the secretion of IL-1beta and IL-6. Mechanistically, EMS inhibited NF-kappaB signaling by reducing the phosphorylation of IkappaBalpha and p65 and blocking the nuclear translocation of p65. CONCLUSION: The therapeutic effects of EMS on RA are mediated through the inhibition of the NF-kappaB signaling pathway, thereby elucidating its mechanism of action.",
+    "keywords": [
+      "Molecular docking",
+      "NF-kappaB signaling pathway",
+      "Network pharmacology",
+      "Rheumatoid arthritis",
+      "Traditional Chinese medicine"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/drug therapy",
+      "Animals",
+      "Network Pharmacology",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Molecular Docking Simulation",
+      "Rats",
+      "NF-kappa B/metabolism",
+      "Signal Transduction/drug effects",
+      "Protein Interaction Maps",
+      "Synoviocytes/drug effects",
+      "Arthritis, Experimental/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xuan, Zihua",
+        "Chen, Simeng",
+        "Men, Xiangwen",
+        "Wang, Jin",
+        "Cheng, Zhiluo",
+        "Liu, Min",
+        "Wang, Jiayu",
+        "Zhang, Min",
+        "Jia, Xiaoyi"
+      ],
+      "short_names": [
+        "Xuan Z",
+        "Chen S",
+        "Men X",
+        "Wang J",
+        "Cheng Z",
+        "Liu M",
+        "Wang J",
+        "Zhang M",
+        "Jia X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China.",
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China, Hefei, 230012, China. doczhangmin@ustc.edu.cn.",
+        "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China. jiaxy@ahtcm.edu.cn.",
+        "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China. jiaxy@ahtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xuan, Zihua",
+        "short_name": "Xuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Simeng",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Men, Xiangwen",
+        "short_name": "Men X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Zhiluo",
+        "short_name": "Cheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Min",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiayu",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China, Hefei, 230012, China. doczhangmin@ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jia, Xiaoyi",
+        "short_name": "Jia X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Anhui University of Chinese Medicine, Hefei, 230012, China. jiaxy@ahtcm.edu.cn.",
+          "Anhui Province Key Laboratory of Bioactive Natural Products, Hefei, 230012, China. jiaxy@ahtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC complementary medicine and therapies"
+    ],
+    "journal_abbrev": [
+      "BMC Complement Med Ther"
+    ],
+    "pub_date": "2026 Apr 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38424418",
+      "38133702",
+      "37716035",
+      "37559380",
+      "37547337",
+      "36708884",
+      "36414214",
+      "35608068",
+      "34834107",
+      "34742322",
+      "34423492",
+      "33967784",
+      "33917986",
+      "33264402",
+      "33220636",
+      "32907876",
+      "32899148",
+      "32704073",
+      "32637608",
+      "32505843",
+      "32497675",
+      "32393826",
+      "32037930",
+      "31721330",
+      "31680165",
+      "31520804",
+      "31401380",
+      "31319599",
+      "31276975",
+      "31220533",
+      "31106366",
+      "30904715",
+      "30643209",
+      "30536757",
+      "30450911",
+      "30319603",
+      "30303512",
+      "30285183",
+      "30002985",
+      "28573592",
+      "27924014",
+      "27642302",
+      "27322403",
+      "26801246",
+      "25884228",
+      "25521941",
+      "24735618",
+      "21706061",
+      "19131956",
+      "19033363"
+    ],
+    "similar": [
+      "41963877",
+      "40204052",
+      "41866004",
+      "35221674",
+      "39701711",
+      "39490433",
+      "42197115",
+      "42335406",
+      "35702063",
+      "42192134",
+      "40955790",
+      "37802827",
+      "41389887",
+      "39259129",
+      "40466361",
+      "40269643",
+      "40349405",
+      "40830133",
+      "35135448",
+      "34838694",
+      "38107658",
+      "39733801",
+      "33444723",
+      "41316260",
+      "39488873",
+      "41616419",
+      "42421348",
+      "41482061",
+      "39244174",
+      "36472040",
+      "38696100",
+      "38565409",
+      "41489113",
+      "39075002",
+      "42543350",
+      "34864624",
+      "40013962",
+      "40958307",
+      "33465444",
+      "42054737",
+      "38104871",
+      "42083525",
+      "39369919",
+      "40682227",
+      "38213142",
+      "42190416",
+      "39004032",
+      "40330488",
+      "41572697",
+      "41963573",
+      "38914662",
+      "39520962",
+      "34826542",
+      "40570565",
+      "41814772",
+      "40988391",
+      "39186991",
+      "34737112",
+      "38621947",
+      "37390879",
+      "41365176",
+      "41418734",
+      "37716035",
+      "40499803",
+      "20039418",
+      "40725994",
+      "41496113",
+      "39135759",
+      "37674371",
+      "35790443",
+      "37075579",
+      "40221466",
+      "37802828",
+      "38552763",
+      "31010320",
+      "41655547",
+      "39537223",
+      "38697555",
+      "41189252",
+      "34047081",
+      "39093467",
+      "29367090",
+      "41534756",
+      "40593998",
+      "30851708",
+      "41261616",
+      "42294648",
+      "41814794",
+      "37947068",
+      "35525528",
+      "41534747",
+      "39917915",
+      "39765191",
+      "37382018",
+      "38216101",
+      "41963750",
+      "42543283",
+      "39610125",
+      "34560546",
+      "27613480"
+    ],
+    "review": [
+      "41963877"
+    ],
+    "pmc": [
+      "13188287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-026-05359-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41963877/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

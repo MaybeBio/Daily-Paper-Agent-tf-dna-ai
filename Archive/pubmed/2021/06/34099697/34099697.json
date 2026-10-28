@@ -1,0 +1,634 @@
+{
+  "identity": {
+    "pmid": "34099697",
+    "doi": "10.1038/s41467-021-23663-2",
+    "title": "A deep learning approach to identify gene targets of a therapeutic for human splicing disorders."
+  },
+  "content": {
+    "abstract": "Pre-mRNA splicing is a key controller of human gene expression. Disturbances in splicing due to mutation lead to dysregulated protein expression and contribute to a substantial fraction of human disease. Several classes of splicing modulator compounds (SMCs) have been recently identified and establish that pre-mRNA splicing represents a target for therapy. We describe herein the identification of BPN-15477, a SMC that restores correct splicing of ELP1 exon 20. Using transcriptome sequencing from treated fibroblast cells and a machine learning approach, we identify BPN-15477 responsive sequence signatures. We then leverage this model to discover 155 human disease genes harboring ClinVar mutations predicted to alter pre-mRNA splicing as targets for BPN-15477. Splicing assays confirm successful correction of splicing defects caused by mutations in CFTR, LIPA, MLH1 and MAPT. Subsequent validations in two disease-relevant cellular models demonstrate that BPN-15477 increases functional protein, confirming the clinical potential of our predictions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Computational Biology",
+      "Cystic Fibrosis Transmembrane Conductance Regulator/genetics",
+      "*Deep Learning",
+      "Exons",
+      "Gene Targeting/*methods",
+      "HEK293 Cells",
+      "Humans",
+      "Mice",
+      "Mice, Transgenic",
+      "MutL Protein Homolog 1/genetics",
+      "Mutation",
+      "Phenethylamines/administration & dosage",
+      "Pyridazines/administration & dosage",
+      "*RNA Splicing",
+      "Sterol Esterase/genetics",
+      "Transcriptome",
+      "tau Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Dadi",
+        "Morini, Elisabetta",
+        "Salani, Monica",
+        "Krauson, Aram J",
+        "Chekuri, Anil",
+        "Sharma, Neeraj",
+        "Ragavendran, Ashok",
+        "Erdin, Serkan",
+        "Logan, Emily M",
+        "Li, Wencheng",
+        "Dakka, Amal",
+        "Narasimhan, Jana",
+        "Zhao, Xin",
+        "Naryshkin, Nikolai",
+        "Trotta, Christopher R",
+        "Effenberger, Kerstin A",
+        "Woll, Matthew G",
+        "Gabbeta, Vijayalakshmi",
+        "Karp, Gary",
+        "Yu, Yong",
+        "Johnson, Graham",
+        "Paquette, William D",
+        "Cutting, Garry R",
+        "Talkowski, Michael E",
+        "Slaugenhaupt, Susan A"
+      ],
+      "short_names": [
+        "Gao D",
+        "Morini E",
+        "Salani M",
+        "Krauson AJ",
+        "Chekuri A",
+        "Sharma N",
+        "Ragavendran A",
+        "Erdin S",
+        "Logan EM",
+        "Li W",
+        "Dakka A",
+        "Narasimhan J",
+        "Zhao X",
+        "Naryshkin N",
+        "Trotta CR",
+        "Effenberger KA",
+        "Woll MG",
+        "Gabbeta V",
+        "Karp G",
+        "Yu Y",
+        "Johnson G",
+        "Paquette WD",
+        "Cutting GR",
+        "Talkowski ME",
+        "Slaugenhaupt SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3638-8479",
+        "ORCID: 0000-0002-1658-5213",
+        "ORCID: 0000-0001-7948-5730",
+        "ORCID: 0000-0002-0652-2630",
+        "ORCID: 0000-0001-6587-2625",
+        "ORCID: 0000-0001-8427-7231",
+        "ORCID: 0000-0002-8250-8590",
+        "ORCID: 0000-0001-7958-6494"
+      ],
+      "affiliations": [
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA.",
+        "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA.",
+        "McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "PTC Therapeutics, Inc., South Plainfield, NJ, USA.",
+        "NuPharmAdvise LLC, Sanbornton, NH, USA.",
+        "Albany Molecular Research Inc., Albany, NY, USA.",
+        "McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA. MTALKOWSKI@mgh.harvard.edu.",
+        "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA. MTALKOWSKI@mgh.harvard.edu.",
+        "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA. MTALKOWSKI@mgh.harvard.edu.",
+        "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA. slaugenhaupt@mgh.harvard.edu.",
+        "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA. slaugenhaupt@mgh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Dadi",
+        "short_name": "Gao D",
+        "identifiers": [
+          "0000-0002-3638-8479"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+          "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA.",
+          "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Morini, Elisabetta",
+        "short_name": "Morini E",
+        "identifiers": [
+          "0000-0002-1658-5213"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+          "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Salani, Monica",
+        "short_name": "Salani M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Krauson, Aram J",
+        "short_name": "Krauson AJ",
+        "identifiers": [
+          "0000-0001-7948-5730"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Chekuri, Anil",
+        "short_name": "Chekuri A",
+        "identifiers": [
+          "0000-0002-0652-2630"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+          "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Sharma, Neeraj",
+        "short_name": "Sharma N",
+        "identifiers": [],
+        "affiliations": [
+          "McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ragavendran, Ashok",
+        "short_name": "Ragavendran A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+          "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Erdin, Serkan",
+        "short_name": "Erdin S",
+        "identifiers": [
+          "0000-0001-6587-2625"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA.",
+          "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Logan, Emily M",
+        "short_name": "Logan EM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Wencheng",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Dakka, Amal",
+        "short_name": "Dakka A",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Narasimhan, Jana",
+        "short_name": "Narasimhan J",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Naryshkin, Nikolai",
+        "short_name": "Naryshkin N",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Trotta, Christopher R",
+        "short_name": "Trotta CR",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Effenberger, Kerstin A",
+        "short_name": "Effenberger KA",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Woll, Matthew G",
+        "short_name": "Woll MG",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Gabbeta, Vijayalakshmi",
+        "short_name": "Gabbeta V",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Karp, Gary",
+        "short_name": "Karp G",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Yong",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "PTC Therapeutics, Inc., South Plainfield, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Graham",
+        "short_name": "Johnson G",
+        "identifiers": [],
+        "affiliations": [
+          "NuPharmAdvise LLC, Sanbornton, NH, USA."
+        ]
+      },
+      {
+        "full_name": "Paquette, William D",
+        "short_name": "Paquette WD",
+        "identifiers": [
+          "0000-0001-8427-7231"
+        ],
+        "affiliations": [
+          "Albany Molecular Research Inc., Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Cutting, Garry R",
+        "short_name": "Cutting GR",
+        "identifiers": [
+          "0000-0002-8250-8590"
+        ],
+        "affiliations": [
+          "McKusick-Nathans Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Talkowski, Michael E",
+        "short_name": "Talkowski ME",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA. MTALKOWSKI@mgh.harvard.edu.",
+          "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA. MTALKOWSKI@mgh.harvard.edu.",
+          "Program in Medical and Population Genetics and Stanley Center for Psychiatric Research, Broad Institute of Harvard and MIT, Cambridge, MA, USA. MTALKOWSKI@mgh.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Slaugenhaupt, Susan A",
+        "short_name": "Slaugenhaupt SA",
+        "identifiers": [
+          "0000-0001-7958-6494"
+        ],
+        "affiliations": [
+          "Center for Genomic Medicine, Massachusetts General Hospital Research Institute, Boston, MA, USA. slaugenhaupt@mgh.harvard.edu.",
+          "Department of Neurology, Massachusetts General Hospital Research Institute and Harvard Medical School, Boston, MA, USA. slaugenhaupt@mgh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Jun 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/09 06:00",
+    "fetched_at": "2026-09-27 19:01:59"
+  },
+  "links": {
+    "cites": [
+      "42401536",
+      "42395399",
+      "41716687",
+      "41536810",
+      "41524923",
+      "41385477",
+      "39940931",
+      "38871816",
+      "38829854",
+      "38609352",
+      "38424098",
+      "38272886",
+      "37958843",
+      "37875914",
+      "37261600",
+      "37190199",
+      "37019920",
+      "36809767",
+      "36639689",
+      "36197721",
+      "35909892",
+      "35905737",
+      "35457243",
+      "34908112",
+      "34826045",
+      "33912213"
+    ],
+    "refs": [
+      "32461654",
+      "32461652",
+      "31160820",
+      "31077303",
+      "30905397",
+      "30888834",
+      "30661751",
+      "30617335",
+      "30444886",
+      "30407821",
+      "30334693",
+      "30334692",
+      "30224349",
+      "30085848",
+      "30044619",
+      "29941426",
+      "29805046",
+      "29672717",
+      "29505604",
+      "29099344",
+      "28716821",
+      "28475858",
+      "27299569",
+      "27197224",
+      "26865511",
+      "26694805",
+      "26628584",
+      "26402605",
+      "26400733",
+      "26030728",
+      "25981758",
+      "25781545",
+      "25675486",
+      "25557785",
+      "25104390",
+      "25104373",
+      "25066652",
+      "25037086",
+      "24792990",
+      "24234437",
+      "24129438",
+      "23974870",
+      "23536893",
+      "23512601",
+      "23424026",
+      "23403440",
+      "23104886",
+      "22714864",
+      "22628075",
+      "22138108",
+      "22047557",
+      "21816910",
+      "21775922",
+      "21757691",
+      "21594784",
+      "21543442",
+      "21368223",
+      "20624852",
+      "19937601",
+      "19733268",
+      "19239895",
+      "19033881",
+      "18978772",
+      "17684229",
+      "17644305",
+      "17416541",
+      "17295913",
+      "17206408",
+      "16964593",
+      "16937374",
+      "16787944",
+      "16436646",
+      "16008820",
+      "15950767",
+      "15285897",
+      "14709595",
+      "12577200",
+      "12426569",
+      "11810271",
+      "11459421",
+      "10521349",
+      "10369862",
+      "9836646",
+      "9641683",
+      "9636220",
+      "8668147",
+      "8617513"
+    ],
+    "similar": [
+      "34099697",
+      "26553470",
+      "12913074",
+      "26761715",
+      "10593905",
+      "28475858",
+      "23420618",
+      "16149910",
+      "11127576",
+      "33085659",
+      "21317048",
+      "16995940",
+      "11597137",
+      "29505604",
+      "25403292",
+      "15198676",
+      "17024213",
+      "15241793",
+      "32905759",
+      "15472711",
+      "32520327",
+      "26075213",
+      "10915765",
+      "25735457",
+      "11810271",
+      "17715352",
+      "26277102",
+      "7689009",
+      "7512993",
+      "16275783",
+      "23680655",
+      "1710599",
+      "7477025",
+      "25826665",
+      "14993601",
+      "17076271",
+      "27174726",
+      "30851139",
+      "26400733",
+      "11753361",
+      "21594784",
+      "14754881",
+      "23349053",
+      "30793898",
+      "19298730",
+      "1375156",
+      "14602710",
+      "32363481",
+      "18561205",
+      "7689062",
+      "25781545",
+      "11560926",
+      "17475917",
+      "24958810",
+      "16357104",
+      "15580565",
+      "31434312",
+      "29729314",
+      "10329720",
+      "16341550",
+      "1382071",
+      "15695522",
+      "11459421",
+      "15300854",
+      "27034411",
+      "20334484",
+      "34141058",
+      "34141060"
+    ],
+    "review": [
+      "34099697"
+    ],
+    "pmc": [
+      "8185002"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://ccr.coriell.org/Sections/Search/PubSamples.aspx?PgId=516&id=34099697&lvl=0",
+        "provider": "Coriell Cell Repositories",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-23663-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34099697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34099697",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34099697",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse158947",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

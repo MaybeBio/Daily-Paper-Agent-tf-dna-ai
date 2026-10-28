@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "39727188",
+    "doi": "10.1093/nar/gkae1264",
+    "title": "The ATPase activity of yeast chromosome axis protein Hop1 affects the frequency of meiotic crossovers."
+  },
+  "content": {
+    "abstract": "Saccharomyces cerevisiae meiosis-specific Hop1, a structural constituent of the synaptonemal complex, also facilitates the formation of programmed DNA double-strand breaks and the pairing of homologous chromosomes. Here, we reveal a serendipitous discovery that Hop1 possesses robust DNA-independent ATPase activity, although it lacks recognizable sequence motifs required for ATP binding and hydrolysis. By leveraging molecular docking combined with molecular dynamics simulations and biochemical assays, we identified an ensemble of five amino acid residues in Hop1 that could potentially participate in ATP-binding and hydrolysis. Consistent with this premise, we found that Hop1 binds to ATP and that substitution of amino acid residues in the putative ATP-binding site significantly impaired its ATPase activity, suggesting that this activity is intrinsic to Hop1. Notably, K65A and N67Q substitutions in the Hop1 N-terminal HORMA domain synergistically abolished its ATPase activity, noticeably impaired its DNA-binding affinity and reduced its association with meiotic chromosomes, while enhancing the frequency of meiotic crossovers (COs). Overall, our study establishes Hop1 as a DNA-independent ATPase and reveals a potential biological function for its ATPase activity in the regulation of meiotic CO frequency.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "*Meiosis/genetics",
+      "*Saccharomyces cerevisiae/genetics/metabolism/enzymology",
+      "*Adenosine Triphosphatases/metabolism/genetics/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Crossing Over, Genetic",
+      "Chromosomes, Fungal/genetics",
+      "Adenosine Triphosphate/metabolism",
+      "Protein Binding",
+      "Molecular Docking Simulation",
+      "Binding Sites",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dhyani, Kshitiza M",
+        "Dash, Suman",
+        "Joshi, Sameer",
+        "Garg, Aditi",
+        "Pal, Debnath",
+        "Nishant, Koodali T",
+        "Muniyappa, Kalappa"
+      ],
+      "short_names": [
+        "Dhyani KM",
+        "Dash S",
+        "Joshi S",
+        "Garg A",
+        "Pal D",
+        "Nishant KT",
+        "Muniyappa K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0098-595X",
+        "ORCID: 0000-0002-3591-5978",
+        "ORCID: 0000-0002-4342-7501",
+        "ORCID: 0000-0002-9192-9194"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India.",
+        "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India.",
+        "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India.",
+        "Computational and Data Sciences, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India.",
+        "Computational and Data Sciences, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India.",
+        "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India.",
+        "Department of Biochemistry, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dhyani, Kshitiza M",
+        "short_name": "Dhyani KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India."
+        ]
+      },
+      {
+        "full_name": "Dash, Suman",
+        "short_name": "Dash S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Sameer",
+        "short_name": "Joshi S",
+        "identifiers": [
+          "0000-0002-0098-595X"
+        ],
+        "affiliations": [
+          "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India."
+        ]
+      },
+      {
+        "full_name": "Garg, Aditi",
+        "short_name": "Garg A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Data Sciences, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Debnath",
+        "short_name": "Pal D",
+        "identifiers": [
+          "0000-0002-3591-5978"
+        ],
+        "affiliations": [
+          "Computational and Data Sciences, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India."
+        ]
+      },
+      {
+        "full_name": "Nishant, Koodali T",
+        "short_name": "Nishant KT",
+        "identifiers": [
+          "0000-0002-4342-7501"
+        ],
+        "affiliations": [
+          "School of Biology, Indian Institute of Science Education and Research, Maruthamala(PO), Vithura, Thiruvananthapuram 695551, India."
+        ]
+      },
+      {
+        "full_name": "Muniyappa, Kalappa",
+        "short_name": "Muniyappa K",
+        "identifiers": [
+          "0000-0002-9192-9194"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, CV Raman Road, Bengaluru 560012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/27 12:20",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42036042"
+    ],
+    "refs": [
+      "38950075",
+      "38332377",
+      "38124392",
+      "37616582",
+      "37471284",
+      "37159901",
+      "37145037",
+      "36992817",
+      "35887019",
+      "35876814",
+      "35412621",
+      "35041460",
+      "35022326",
+      "34849874",
+      "34530636",
+      "34520757",
+      "34355210",
+      "34260586",
+      "33928091",
+      "33689714",
+      "33604699",
+      "33502312",
+      "33184224",
+      "32916108",
+      "32602194",
+      "32571927",
+      "32494071",
+      "31665745",
+      "31236671",
+      "30814509",
+      "30619450",
+      "30595448",
+      "30488757",
+      "29550859",
+      "29323635",
+      "29290403",
+      "29186573",
+      "29103092",
+      "28986788",
+      "28659378",
+      "28642366",
+      "28538144",
+      "28315832",
+      "28262352",
+      "28045371",
+      "27257060",
+      "27142324",
+      "27037766",
+      "26870961",
+      "26598612",
+      "26598523",
+      "26258962",
+      "26225562",
+      "26130708",
+      "25986558",
+      "25883148",
+      "25640896",
+      "25446517",
+      "25016281",
+      "24814187",
+      "24717437",
+      "24465650",
+      "24367111",
+      "24271400",
+      "23841450",
+      "23121004",
+      "23087378",
+      "23050259",
+      "22995829",
+      "22872477",
+      "22570420",
+      "22388286",
+      "22072981",
+      "21931288",
+      "21816273",
+      "21642421",
+      "21515575",
+      "21376234",
+      "20981028",
+      "20347988",
+      "19629178",
+      "19629172",
+      "19499576",
+      "18329363",
+      "18326568",
+      "18305165",
+      "17935355",
+      "17911163",
+      "17526735",
+      "17506634",
+      "17434124",
+      "17027027",
+      "16873061",
+      "16555016",
+      "16221890",
+      "16211538",
+      "16154534",
+      "16096027",
+      "15611158",
+      "15473851",
+      "15334558",
+      "15123624",
+      "15115800",
+      "15066280",
+      "14711569",
+      "14643120",
+      "14595109",
+      "14078957",
+      "12721364",
+      "12529393",
+      "12526806",
+      "12408862",
+      "12186950",
+      "11805114",
+      "11754339",
+      "11283700",
+      "11274193",
+      "10973068",
+      "10958662",
+      "10903318",
+      "10869041",
+      "10848609",
+      "10648621",
+      "10485848",
+      "10412984",
+      "10319812",
+      "9880561",
+      "9832507",
+      "9757827",
+      "9488458",
+      "9323140",
+      "9286666",
+      "9177999",
+      "9060462",
+      "8878674",
+      "8692262",
+      "8626558",
+      "8462842",
+      "8287479",
+      "8254673",
+      "8150275",
+      "8013903",
+      "7785336",
+      "3552710",
+      "3519363",
+      "3413075",
+      "2653960",
+      "2107981",
+      "2005794",
+      "942051",
+      "439147",
+      "161695"
+    ],
+    "similar": [
+      "39727188",
+      "24367111",
+      "22072981",
+      "27257060",
+      "15123624",
+      "35876814",
+      "23841450",
+      "29550859",
+      "18329363",
+      "29186573",
+      "37243502",
+      "39048717",
+      "23121004",
+      "2107981",
+      "17935355",
+      "18329359",
+      "14662740",
+      "28642366",
+      "23047948",
+      "9488458",
+      "27855779",
+      "22319460",
+      "17027027",
+      "33604699",
+      "11971962",
+      "28505149",
+      "30902890",
+      "26225562",
+      "31665745",
+      "28538144",
+      "24465650",
+      "10419822",
+      "30814509",
+      "30496175",
+      "24367271",
+      "32916108",
+      "16581767",
+      "8649386",
+      "8462842",
+      "15115800",
+      "11940665",
+      "16221890",
+      "8150275",
+      "10648621",
+      "32569318",
+      "23316435",
+      "31423733",
+      "2653960",
+      "9060462",
+      "30289413",
+      "34260586",
+      "20825495",
+      "29853474",
+      "34849874",
+      "38332377",
+      "26682552",
+      "20123974",
+      "31226277",
+      "14595109",
+      "16154534",
+      "17174924",
+      "19629172",
+      "26114667",
+      "12529393",
+      "10958662",
+      "1508177",
+      "34951404",
+      "31597673",
+      "23382701",
+      "16214425",
+      "20026132",
+      "8207053",
+      "23775120",
+      "20347988",
+      "9286666",
+      "21816273",
+      "7567455",
+      "8536992",
+      "25975613",
+      "8878674",
+      "18305165",
+      "29440262",
+      "27184389",
+      "29748240",
+      "30944090",
+      "12890674",
+      "32152049",
+      "11717305",
+      "18615017",
+      "30566683",
+      "28068333",
+      "30467025",
+      "28986445",
+      "30865432",
+      "39630591",
+      "10855495",
+      "19851446",
+      "21173162",
+      "30859296",
+      "23593021"
+    ],
+    "review": [
+      "39727188",
+      "33604699"
+    ],
+    "pmc": [
+      "11797056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39727188/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae1264",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

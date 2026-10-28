@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "38480882",
+    "doi": "10.1038/s41586-024-07169-7",
+    "title": "AIRE relies on Z-DNA to flag gene targets for thymic T cell tolerization."
+  },
+  "content": {
+    "abstract": "AIRE is an unconventional transcription factor that enhances the expression of thousands of genes in medullary thymic epithelial cells and promotes clonal deletion or phenotypic diversion of self-reactive T cells(1-4). The biological logic of AIRE's target specificity remains largely unclear as, in contrast to many transcription factors, it does not bind to a particular DNA sequence motif. Here we implemented two orthogonal approaches to investigate AIRE's cis-regulatory mechanisms: construction of a convolutional neural network and leveraging natural genetic variation through analysis of F1 hybrid mice(5). Both approaches nominated Z-DNA and NFE2-MAF as putative positive influences on AIRE's target choices. Genome-wide mapping studies revealed that Z-DNA-forming and NFE2L2-binding motifs were positively associated with the inherent ability of a gene's promoter to generate DNA double-stranded breaks, and promoters showing strong double-stranded break generation were more likely to enter a poised state with accessible chromatin and already-assembled transcriptional machinery. Consequently, AIRE preferentially targets genes with poised promoters. We propose a model in which Z-DNA anchors the AIRE-mediated transcriptional program by enhancing double-stranded break generation and promoter poising. Beyond resolving a long-standing mechanistic conundrum, these findings suggest routes for manipulating T cell tolerance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*AIRE Protein/metabolism",
+      "Chromatin/genetics/metabolism",
+      "DNA Breaks, Double-Stranded",
+      "*DNA, Z-Form/chemistry/genetics/metabolism",
+      "Epithelial Cells/metabolism",
+      "Genetic Variation",
+      "*Immune Tolerance",
+      "Neural Networks, Computer",
+      "NF-E2-Related Factor 2/metabolism",
+      "Promoter Regions, Genetic",
+      "*T-Lymphocytes/cytology/immunology",
+      "*Thymus Gland/cytology",
+      "Transcription, Genetic",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Yuan",
+        "Bansal, Kushagra",
+        "Mostafavi, Sara",
+        "Benoist, Christophe",
+        "Mathis, Diane"
+      ],
+      "short_names": [
+        "Fang Y",
+        "Bansal K",
+        "Mostafavi S",
+        "Benoist C",
+        "Mathis D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1172-6555",
+        "ORCID: 0000-0002-6110-4626"
+      ],
+      "affiliations": [
+        "Department of Immunology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Molecular and Cellular Biology, Harvard University, Cambridge, MA, USA.",
+        "Molecular Biology and Genetics Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA, USA.",
+        "Canadian Institute for Advanced Research, Toronto, Ontario, Canada.",
+        "Department of Immunology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Immunology, Harvard Medical School, Boston, MA, USA. dm@hms.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Yuan",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Molecular and Cellular Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bansal, Kushagra",
+        "short_name": "Bansal K",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology and Genetics Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Mostafavi, Sara",
+        "short_name": "Mostafavi S",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA, USA.",
+          "Canadian Institute for Advanced Research, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Benoist, Christophe",
+        "short_name": "Benoist C",
+        "identifiers": [
+          "0000-0003-1172-6555"
+        ],
+        "affiliations": [
+          "Department of Immunology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mathis, Diane",
+        "short_name": "Mathis D",
+        "identifiers": [
+          "0000-0002-6110-4626"
+        ],
+        "affiliations": [
+          "Department of Immunology, Harvard Medical School, Boston, MA, USA. dm@hms.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/14 06:47",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "42539132",
+      "42528816",
+      "42003556",
+      "41933202",
+      "41665007",
+      "41509384",
+      "41461613",
+      "41332640",
+      "41326407",
+      "41182320",
+      "41098393",
+      "40836089",
+      "40803946",
+      "40464763",
+      "40330469",
+      "40247628",
+      "40067588",
+      "40037715",
+      "39731911",
+      "39440452",
+      "39169235",
+      "39169234",
+      "38684778"
+    ],
+    "refs": [
+      "37674082",
+      "37164635",
+      "36192604",
+      "36008259",
+      "35787683",
+      "35714609",
+      "35614224",
+      "35573091",
+      "34608324",
+      "34518235",
+      "33760053",
+      "33176163",
+      "32728249",
+      "32687525",
+      "32367065",
+      "31676866",
+      "31570834",
+      "31202576",
+      "31036827",
+      "31027997",
+      "30686579",
+      "30661751",
+      "29779944",
+      "29588361",
+      "29335648",
+      "28735753",
+      "28497783",
+      "28242760",
+      "28237796",
+      "28235418",
+      "28186491",
+      "28135252",
+      "28100584",
+      "27649880",
+      "27526324",
+      "27374614",
+      "27043002",
+      "26301843",
+      "26280331",
+      "26237553",
+      "26237550",
+      "26083756",
+      "26052046",
+      "25953851",
+      "25867923",
+      "25619691",
+      "25516281",
+      "25224068",
+      "25215497",
+      "24948510",
+      "24799436",
+      "24670764",
+      "24434558",
+      "23618408",
+      "23616785",
+      "23571756",
+      "23125372",
+      "23104886",
+      "22576172",
+      "22388286",
+      "22203960",
+      "21921910",
+      "21903627",
+      "21771901",
+      "21330290",
+      "21221095",
+      "20526281",
+      "20513432",
+      "20110278",
+      "20085707",
+      "19505943",
+      "19008896",
+      "18798982",
+      "18687966",
+      "18180458",
+      "17938200",
+      "17485386",
+      "16923960",
+      "16537901",
+      "12376594",
+      "11509180",
+      "9030691",
+      "8293429",
+      "7118931",
+      "6383204",
+      "1848849"
+    ],
+    "similar": [
+      "38480882",
+      "20085707",
+      "20615959",
+      "40244172",
+      "23319629",
+      "17974569",
+      "41461613",
+      "34545959",
+      "19833494",
+      "26237550",
+      "17938200",
+      "26216992",
+      "34518235",
+      "41831309",
+      "23041971",
+      "16111640",
+      "26453754",
+      "41429646",
+      "22203960",
+      "26579596",
+      "18838677",
+      "34930780",
+      "18840680",
+      "40836089",
+      "29101311",
+      "25224068",
+      "32338592",
+      "21505196",
+      "24464130",
+      "29285761",
+      "15883360",
+      "18515183",
+      "21163636",
+      "35061506",
+      "27941786",
+      "38581680",
+      "23116172",
+      "22310661",
+      "30283453",
+      "20850570",
+      "17687331",
+      "21683072",
+      "29867946",
+      "19008896",
+      "20861360",
+      "26254339",
+      "24434558",
+      "25552543",
+      "22552229",
+      "33226342",
+      "22036612",
+      "25429061",
+      "20085700",
+      "21048786",
+      "21352256",
+      "27765528",
+      "28242760",
+      "25978041",
+      "35172142",
+      "15492124",
+      "18350550",
+      "23571756",
+      "26503950",
+      "39117004",
+      "34700158",
+      "18566406",
+      "41686483",
+      "24515814",
+      "21079643",
+      "38709934",
+      "18780794",
+      "27851927",
+      "18832676",
+      "23885257",
+      "19077444",
+      "26450177",
+      "19744957",
+      "17502664",
+      "27505711",
+      "39328409",
+      "28135252",
+      "26481130",
+      "27048654",
+      "19302042",
+      "10925280",
+      "29427825",
+      "29483906",
+      "21488892",
+      "36231130",
+      "28226225",
+      "28701508",
+      "18214467",
+      "15981475",
+      "19487417",
+      "29335648",
+      "30022164",
+      "26527800",
+      "20976004",
+      "31322727",
+      "35678896"
+    ],
+    "review": [
+      "38480882",
+      "41461613",
+      "34545959",
+      "19833494",
+      "26579596",
+      "21163636",
+      "20850570",
+      "19008896",
+      "39117004",
+      "21079643",
+      "26450177",
+      "19302042",
+      "29427825",
+      "29483906",
+      "21488892"
+    ],
+    "pmc": [
+      "11091860"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/38480882",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-024-07169-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38480882/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse224551",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

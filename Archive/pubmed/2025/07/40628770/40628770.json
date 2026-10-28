@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40628770",
+    "doi": "10.1038/s41598-025-06463-2",
+    "title": "Identifying propionate metabolism-related genes as biomarkers of sepsis development and therapeutic targets."
+  },
+  "content": {
+    "abstract": "The treatment of sepsis is challenging due to unclear mechanisms. Propionate is increasingly seen as critical to sepsis pathophysiology by bridging gut microbiota and immunity, but the mechanisms remain unclear. Our study analysed differences in propionate metabolism in peripheral blood mononuclear cells from septic patients and healthy controls using single-cell RNA-seq (scRNA-seq) data. Differentially expressed genes (DEGs) analysis, pathway enrichment, transcription factor (TF) prediction, intercellular communication, and trajectory inference were used to explore the role of propionate metabolism in sepsis. We constructed a sepsis diagnostic model using LASSO and machine learning (XGBoost, CatBoost, NGBoost) with bulk RNA-seq data. scRNA-seq analysis revealed that propionate metabolism was highest in plasma cells (PCs), which can be classified into high and low metabolism groups, identifying 9,155 DEGs. High propionate metabolism was associated with metabolism such as short-chain fatty acids, while low metabolism was related to negative regulation of wound healing. The DoRothEA regulator algorithm showed TFs such as IRF4, ARID3A, FOXO4, and ATF2 were activated in high propionate metabolism subgroups, whereas NR5A1, BCL6, and CDX2 were activated in low subgroups. Cell-cell communication revealed that both groups interacted primarily with B cells and neutrophils, with the high propionate metabolism PCs showing more significant interactions. The receptor-ligand pairs primarily involved were VEGFA-FLT1 and VEGFB-FLT1, and the high propionate metabolism PCs and B cells might interact through BMP8B-BMPR2. Trajectory analysis indicated differentiation from B cells, first to low, then high propionate metabolism PCs. Finally, the LASSO algorithm identified 13 key genes, with the CatBoost model achieving perfect diagnostic performance (AUC = 1.000). These 13 key genes were validated through in vitro experiments. Collectively, these findings suggest that propionic acid metabolism may be a potential target for diagnosing and treating sepsis, offering new insights into its pathophysiology.",
+    "keywords": [
+      "Diagnostic modeling",
+      "Machine learning",
+      "Plasma cells",
+      "Propionate metabolism",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/genetics/metabolism/diagnosis",
+      "*Propionates/metabolism",
+      "Biomarkers/metabolism",
+      "Leukocytes, Mononuclear/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Male",
+      "Single-Cell Analysis",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lechen",
+        "Shang, Weifeng",
+        "Chen, Dongjie",
+        "Qian, Hang",
+        "Zhang, Sheng",
+        "Pan, Xiaojun",
+        "Huang, Sisi",
+        "Liu, Jiao",
+        "Chen, Dechang"
+      ],
+      "short_names": [
+        "Yang L",
+        "Shang W",
+        "Chen D",
+        "Qian H",
+        "Zhang S",
+        "Pan X",
+        "Huang S",
+        "Liu J",
+        "Chen D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Pancreatic Surgery, Zhongshan Hospital, Fudan University, Shanghai, 200032, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China. catherine015@163.com.",
+        "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China. 18918520002@189.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lechen",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Weifeng",
+        "short_name": "Shang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dongjie",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Zhongshan Hospital, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Hang",
+        "short_name": "Qian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sheng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xiaojun",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Sisi",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China. catherine015@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Dechang",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No.197 Ruijin 2nd Road, Shanghai, 200025, China. 18918520002@189.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/09 00:27",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42627418",
+      "42396442",
+      "41948584",
+      "41582389",
+      "41053042",
+      "40909263"
+    ],
+    "refs": [
+      "39511328",
+      "39310065",
+      "39019974",
+      "38762479",
+      "38082381",
+      "37869005",
+      "37759175",
+      "37231261",
+      "37208586",
+      "37095375",
+      "36699385",
+      "36299625",
+      "36238855",
+      "35756942",
+      "35658593",
+      "35642838",
+      "34821076",
+      "34599691",
+      "34253862",
+      "34048002",
+      "33597522",
+      "32238208",
+      "31965266",
+      "31727175",
+      "31340985",
+      "30770822",
+      "30671061",
+      "30478315",
+      "30177845",
+      "29914354",
+      "29750914",
+      "27522115",
+      "27476413",
+      "27432941",
+      "26963409",
+      "26215705",
+      "25180604",
+      "24837099",
+      "23323831",
+      "22579288",
+      "22390425",
+      "20154735",
+      "19560465",
+      "19415738",
+      "16266701"
+    ],
+    "similar": [
+      "40628770",
+      "40909263",
+      "39384856",
+      "40830558",
+      "39444490",
+      "40362233",
+      "41346577",
+      "39763654",
+      "40453984",
+      "39578562",
+      "40296690",
+      "40124361",
+      "40362669",
+      "40350654",
+      "41503916",
+      "40129981",
+      "40458850",
+      "39108261",
+      "38739758",
+      "40055592",
+      "38593502",
+      "40589764",
+      "41024209",
+      "39586719",
+      "40165133",
+      "36439178",
+      "39509434",
+      "41246299",
+      "35322335",
+      "39182484",
+      "39640258",
+      "39950836",
+      "39923303",
+      "39762897",
+      "39067546",
+      "37235492",
+      "39735547",
+      "41031145",
+      "39430765",
+      "38440848",
+      "39173401",
+      "39993996",
+      "41432483",
+      "39904039",
+      "32922168",
+      "40325173",
+      "32280132",
+      "40276515",
+      "41044520",
+      "41200169",
+      "41310117",
+      "41152979",
+      "35757392",
+      "39793232",
+      "40895573",
+      "38678059",
+      "36880832",
+      "40425742",
+      "36389695",
+      "40221459",
+      "41246346",
+      "41013727",
+      "38868781",
+      "41088263",
+      "41089329",
+      "34594344",
+      "40756031",
+      "41333476",
+      "39674047",
+      "40768057",
+      "41112767",
+      "41445732",
+      "31059023",
+      "39747316",
+      "40861493",
+      "41075755",
+      "39697326",
+      "41305822",
+      "39326643",
+      "41291841",
+      "39814058",
+      "29257295",
+      "40877393",
+      "24612859",
+      "39896809",
+      "39496918",
+      "37684281",
+      "40311462",
+      "40612944",
+      "40784892",
+      "39830504",
+      "37359526",
+      "40375981",
+      "41262879",
+      "41254473",
+      "41009952",
+      "38239341",
+      "39926598",
+      "38702721",
+      "22381171"
+    ],
+    "review": [
+      "40628770",
+      "36880832"
+    ],
+    "pmc": [
+      "12238408"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-06463-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40628770/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2209",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

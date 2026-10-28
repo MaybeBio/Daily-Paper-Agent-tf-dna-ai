@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "37184020",
+    "doi": "10.1063/5.0138782",
+    "title": "Domain tethering impacts dimerization and DNA-mediated allostery in the human transcription factor FoxP1."
+  },
+  "content": {
+    "abstract": "Transcription factors are multidomain proteins with specific DNA binding and regulatory domains. In the human FoxP subfamily (FoxP1, FoxP2, FoxP3, and FoxP4) of transcription factors, a 90 residue-long disordered region links a Leucine Zipper (ZIP)-known to form coiled-coil dimers-and a Forkhead (FKH) domain-known to form domain swapping dimers. We used replica exchange discrete molecular dynamics simulations, single-molecule fluorescence experiments, and other biophysical tools to understand how domain tethering in FoxP1 impacts dimerization at ZIP and FKH domains and how DNA binding allosterically regulates their dimerization. We found that domain tethering promotes FoxP1 dimerization but inhibits a FKH domain-swapped structure. Furthermore, our findings indicate that the linker mediates the mutual organization and dynamics of ZIP and FKH domains, forming closed and open states with and without interdomain contacts, thus highlighting the role of the linkers in multidomain proteins. Finally, we found that DNA allosterically promotes structural changes that decrease the dimerization propensity of FoxP1. We postulate that, upon DNA binding, the interdomain linker plays a crucial role in the gene regulatory function of FoxP1.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "Dimerization",
+      "*DNA/chemistry",
+      "Protein Domains",
+      "Gene Expression Regulation",
+      "Repressor Proteins/chemistry/genetics/metabolism",
+      "Forkhead Transcription Factors/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cruz, Perla",
+        "Paredes, Nicolas",
+        "Asela, Isabel",
+        "Kolimi, Narendar",
+        "Molina, Jose Alejandro",
+        "Ramirez-Sarmiento, Cesar A",
+        "Goutam, Rajen",
+        "Huang, Gangton",
+        "Medina, Exequiel",
+        "Sanabria, Hugo"
+      ],
+      "short_names": [
+        "Cruz P",
+        "Paredes N",
+        "Asela I",
+        "Kolimi N",
+        "Molina JA",
+        "Ramirez-Sarmiento CA",
+        "Goutam R",
+        "Huang G",
+        "Medina E",
+        "Sanabria H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4118-8794",
+        "ORCID: 0009-0006-2235-6376",
+        "ORCID: 0000-0003-4647-903X",
+        "ORCID: 0009-0006-4080-7193",
+        "ORCID: 0000-0001-8631-7014",
+        "ORCID: 0000-0002-1040-6720",
+        "ORCID: 0000-0001-7068-6827"
+      ],
+      "affiliations": [
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile.",
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile.",
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Av. Vicuna Mackenna 4860, Santiago 7820436, Chile.",
+        "ANID - Millennium Science Initiative Program - Millennium Institute for Integrative Biology (iBio), Santiago 7820436, Chile.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Av. Vicuna Mackenna 4860, Santiago 7820436, Chile.",
+        "ANID - Millennium Science Initiative Program - Millennium Institute for Integrative Biology (iBio), Santiago 7820436, Chile.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA.",
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cruz, Perla",
+        "short_name": "Cruz P",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Paredes, Nicolás",
+        "short_name": "Paredes N",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Asela, Isabel",
+        "short_name": "Asela I",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Kolimi, Narendar",
+        "short_name": "Kolimi N",
+        "identifiers": [
+          "0000-0003-4118-8794"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Molina, José Alejandro",
+        "short_name": "Molina JA",
+        "identifiers": [
+          "0009-0006-2235-6376"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile.",
+          "ANID - Millennium Science Initiative Program - Millennium Institute for Integrative Biology (iBio), Santiago 7820436, Chile."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Sarmiento, César A",
+        "short_name": "Ramírez-Sarmiento CA",
+        "identifiers": [
+          "0000-0003-4647-903X"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile.",
+          "ANID - Millennium Science Initiative Program - Millennium Institute for Integrative Biology (iBio), Santiago 7820436, Chile."
+        ]
+      },
+      {
+        "full_name": "Goutam, Rajen",
+        "short_name": "Goutam R",
+        "identifiers": [
+          "0009-0006-4080-7193"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Gangton",
+        "short_name": "Huang G",
+        "identifiers": [
+          "0000-0001-8631-7014"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Medina, Exequiel",
+        "short_name": "Medina E",
+        "identifiers": [
+          "0000-0002-1040-6720"
+        ],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Sanabria, Hugo",
+        "short_name": "Sanabria H",
+        "identifiers": [
+          "0000-0001-7068-6827"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 May 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/15 13:06",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [
+      "42347970",
+      "41992872",
+      "40354236",
+      "39856215"
+    ],
+    "refs": [
+      "36671389",
+      "36069777",
+      "34888535",
+      "34265844",
+      "33319247",
+      "33246199",
+      "32735805",
+      "32088186",
+      "31197269",
+      "30976006",
+      "30931977",
+      "30887622",
+      "30214057",
+      "29638214",
+      "29610332",
+      "29102621",
+      "28262589",
+      "27276253",
+      "26831906",
+      "26675644",
+      "26638022",
+      "26493723",
+      "26230837",
+      "25748042",
+      "25047417",
+      "25027557",
+      "24763499",
+      "24155921",
+      "24056732",
+      "23012409",
+      "22813742",
+      "21458306",
+      "21416545",
+      "19956618",
+      "19531597",
+      "19519454",
+      "19465020",
+      "19436439",
+      "18824006",
+      "18725194",
+      "18602415",
+      "18406148",
+      "18371978",
+      "18316037",
+      "17522674",
+      "16769892",
+      "16731568",
+      "16407075",
+      "16002048",
+      "15273314",
+      "14730976",
+      "14701752",
+      "12692134",
+      "11141063",
+      "11017199",
+      "10518519",
+      "9540998",
+      "7915030"
+    ],
+    "similar": [
+      "37184020",
+      "32735805",
+      "14701752",
+      "12692134",
+      "21416545",
+      "27276253",
+      "20651048",
+      "38585429",
+      "38946055",
+      "40354236",
+      "16407075",
+      "37199668",
+      "42282810",
+      "25724387",
+      "41992872",
+      "33319247",
+      "30931977",
+      "30887622",
+      "38747678",
+      "28741757",
+      "26950495",
+      "28265091",
+      "25027557",
+      "29365100",
+      "16580748",
+      "29090079",
+      "19956618",
+      "10653693",
+      "28507505",
+      "40794436",
+      "29878882",
+      "34555362",
+      "26021489",
+      "2113670",
+      "14516685",
+      "30227110",
+      "28910978",
+      "37485372",
+      "37625686",
+      "30385778",
+      "12617805",
+      "16920951",
+      "25527076",
+      "11358962",
+      "16725346",
+      "10556033",
+      "26647308",
+      "10777209",
+      "28408745",
+      "20185820",
+      "41355963",
+      "30643266",
+      "20713004",
+      "10982829",
+      "42323999",
+      "35926508",
+      "22492998",
+      "1641337",
+      "11713274",
+      "25556631",
+      "26800223",
+      "7811964",
+      "10995226",
+      "11283257",
+      "32198183",
+      "15876365",
+      "31641053",
+      "19332160",
+      "15313602",
+      "25567984",
+      "19352412",
+      "30831269",
+      "34638644",
+      "41511382",
+      "18640093",
+      "25044110",
+      "11735389",
+      "21655267",
+      "27056922",
+      "27909217",
+      "1911752",
+      "16769892",
+      "10026784",
+      "31892537",
+      "15342239",
+      "15388801",
+      "28890397",
+      "39629895",
+      "29487240",
+      "20175877",
+      "29845391",
+      "26055196",
+      "40990245",
+      "24023716",
+      "23832113",
+      "11124029",
+      "21901488",
+      "18561326",
+      "17586580",
+      "37895307"
+    ],
+    "review": [
+      "37184020",
+      "16580748",
+      "34638644"
+    ],
+    "pmc": [
+      "10188207"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37184020/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37184020",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0138782",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

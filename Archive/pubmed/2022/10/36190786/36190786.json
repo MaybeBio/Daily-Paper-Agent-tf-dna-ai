@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "36190786",
+    "doi": "10.1002/jcc.26997",
+    "title": "Toward more potent imidazopyridine inhibitors of Candida albicans Bdf1: Modeling the role of structural waters in selective ligand binding."
+  },
+  "content": {
+    "abstract": "Novel agents to treat invasive fungal infections are urgently needed because the small number of established targets in pathogenic fungi makes the existing drug repertoire particularly vulnerable to the emergence of resistant strains. Recently, we reported that Candida albicans Bdf1, a bromodomain and extra-terminal domain (BET) bromodomain with paired acetyl-lysine (AcK) binding sites (BD1 and BD2) is essential for fungal cell growth and that an imidazopyridine (1) binds to BD2 with selectivity versus both BD1 and human BET bromodomains. Bromodomain binding pockets contain a conserved array of structural waters. Molecular dynamics simulations now reveal that one water molecule is less tightly bound to BD2 than to BD1, explaining the site selectivity of 1. This insight is useful in the performance of ligand docking studies to guide design of more effective Bdf1 inhibitors, as illustrated by the design of 10 new imidazopyridine BD2 ligands 1a-j, for which experimental binding and site selectivity data are presented.",
+    "keywords": [
+      "BET inhibition",
+      "Candida albicans",
+      "antifungal drugs",
+      "bromodomains",
+      "molecular dynamics",
+      "receptor-binding model",
+      "structural water"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Candida albicans/metabolism",
+      "Ligands",
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "Imidazoles",
+      "Pyridines"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yingsheng",
+        "Overhulse, Justin M",
+        "Dupper, Nathan J",
+        "Guo, Yanchun",
+        "Kashemirov, Boris A",
+        "Wei, Kaiyao",
+        "Govin, Jerome",
+        "Petosa, Carlo",
+        "McKenna, Charles E"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Overhulse JM",
+        "Dupper NJ",
+        "Guo Y",
+        "Kashemirov BA",
+        "Wei K",
+        "Govin J",
+        "Petosa C",
+        "McKenna CE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5511-6965",
+        "ORCID: 0000-0002-9975-1167",
+        "ORCID: 0000-0002-3540-6663"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA.",
+        "Univ. Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble, 38000, France.",
+        "Univ. Grenoble Alpes, Inserm, CNRS, Institute for Advanced Biosciences (IAB), Grenoble, 38000, France.",
+        "Univ. Grenoble Alpes, Inserm, CNRS, Institute for Advanced Biosciences (IAB), Grenoble, 38000, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble, 38000, France.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yingsheng",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Overhulse, Justin M",
+        "short_name": "Overhulse JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Dupper, Nathan J",
+        "short_name": "Dupper NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Yanchun",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Kashemirov, Boris A",
+        "short_name": "Kashemirov BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Kaiyao",
+        "short_name": "Wei K",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble, 38000, France.",
+          "Univ. Grenoble Alpes, Inserm, CNRS, Institute for Advanced Biosciences (IAB), Grenoble, 38000, France."
+        ]
+      },
+      {
+        "full_name": "Govin, Jérôme",
+        "short_name": "Govin J",
+        "identifiers": [
+          "0000-0001-5511-6965"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, Inserm, CNRS, Institute for Advanced Biosciences (IAB), Grenoble, 38000, France."
+        ]
+      },
+      {
+        "full_name": "Petosa, Carlo",
+        "short_name": "Petosa C",
+        "identifiers": [
+          "0000-0002-9975-1167"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble, 38000, France."
+        ]
+      },
+      {
+        "full_name": "McKenna, Charles E",
+        "short_name": "McKenna CE",
+        "identifiers": [
+          "0000-0002-3540-6663"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Southern California, Los Angeles, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computational chemistry"
+    ],
+    "journal_abbrev": [
+      "J Comput Chem"
+    ],
+    "pub_date": "2022 Dec 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/04 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "38916566"
+    ],
+    "refs": [
+      "34912117",
+      "33326239",
+      "32327584",
+      "31997414",
+      "31273347",
+      "30768902",
+      "29773744",
+      "28741610",
+      "28516956",
+      "27873247",
+      "27819658",
+      "26707800",
+      "26444731",
+      "26432192",
+      "26208641",
+      "26145250",
+      "25864491",
+      "25091787",
+      "24304323",
+      "23804246",
+      "22929806",
+      "22788793",
+      "21810482",
+      "21387345",
+      "21366509",
+      "19434839",
+      "17717034",
+      "14748798",
+      "12206971"
+    ],
+    "similar": [
+      "36190786",
+      "28849824",
+      "33637650",
+      "29605436",
+      "30260047",
+      "27282480",
+      "28516956",
+      "35622893",
+      "38295759",
+      "28821780",
+      "37744850",
+      "32651255",
+      "17848202",
+      "29139214",
+      "32149490",
+      "37923569",
+      "37432115",
+      "38134745",
+      "36215732",
+      "30926312",
+      "32929408",
+      "32324999",
+      "32193360",
+      "37967462",
+      "34547507",
+      "29656650",
+      "38876177",
+      "31969702",
+      "39401417",
+      "34105560",
+      "37478496",
+      "32787145",
+      "9258368",
+      "35423696",
+      "34232650",
+      "29170024",
+      "30411639",
+      "30160288",
+      "36841551",
+      "35156677",
+      "33820450",
+      "38142510",
+      "35943085",
+      "35239184",
+      "35324195",
+      "35333526",
+      "32702236",
+      "36040095",
+      "31789032",
+      "38465537",
+      "35234137",
+      "24497639",
+      "31461688",
+      "34932262",
+      "34137374",
+      "11836127",
+      "25266565",
+      "37570684",
+      "38876176",
+      "34139120",
+      "33603976",
+      "19828451",
+      "39220497",
+      "28945351",
+      "37004437",
+      "24568369",
+      "34251219",
+      "25036774",
+      "17148447",
+      "24946055",
+      "37683545",
+      "27494802",
+      "32410449",
+      "21494601",
+      "36773087",
+      "21726415",
+      "32691589",
+      "34260229",
+      "36577036",
+      "29241420",
+      "35786907",
+      "28696179",
+      "32691591",
+      "32975004",
+      "28068333",
+      "38749341",
+      "29732121",
+      "20709061",
+      "24248379",
+      "38163253",
+      "36262390",
+      "33776776",
+      "31587361",
+      "38376217",
+      "18500820",
+      "28974538",
+      "26707800",
+      "34450309",
+      "19794495"
+    ],
+    "review": [
+      "36190786",
+      "34547507",
+      "38465537",
+      "37683545",
+      "33776776",
+      "26707800"
+    ],
+    "pmc": [
+      "9669269"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36190786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36190786",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jcc.26997",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNK2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.12.08.22283219",
+  "title": "Deep Learning and Single Cell Phenotyping for Rapid Antimicrobial Susceptibility Testing",
+  "doi": "10.1101/2022.12.08.22283219",
+  "abstract": "The rise of antimicrobial resistance (AMR) is one of the greatest public health challenges, already causing up to 1.2 million deaths annually and rising. Current gold-standard antimicrobial susceptibility tests (ASTs) are low-throughput and can take up to 48 hours, with implications for patient care. We present advances towards a novel, rapid AST, based on the deep-learning of single-cell specific phenotypes directly associated with antimicrobial susceptibility in Escherichia coli . Our models can reliably (80% single-cell accuracy) classify untreated and treated susceptible cells, across a range of antibiotics and phenotypes - including phenotypes not visually distinct to a trained, human observer. Applying models trained on lab-reference susceptible strains to clinical isolates of E. coli treated with ciprofloxacin, we demonstrate our models reveal significant (p<0.001) differences between resistant and susceptible populations, around a fixed treatment level. Conversely, deploying on cells treated with a range of ciprofloxacin concentrations, we show single-cell phenotyping has the potential to provide equivalent information to a 24-hour growth AST assay, but in as little as 30 minutes.",
+  "authors": [
+    "Zagajewski A",
+    "Turner P",
+    "Feehily C",
+    "El Sayyed H",
+    "Andersson M",
+    "Barrett L",
+    "Oakley S",
+    "Stracy M",
+    "Crook D",
+    "Nellåker C",
+    "Stoesser N",
+    "Kapanidis AN"
+  ],
+  "published_date": "2022-12-09",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.12.08.22283219",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.12.08.22283219.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR581919",
+    "raw_record": {
+      "id": "PPR581919",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR581919"
+        ]
+      },
+      "doi": "10.1101/2022.12.08.22283219",
+      "title": "Deep Learning and Single Cell Phenotyping for Rapid Antimicrobial Susceptibility Testing",
+      "authorString": "Zagajewski A, Turner P, Feehily C, El Sayyed H, Andersson M, Barrett L, Oakley S, Stracy M, Crook D, Nellåker C, Stoesser N, Kapanidis AN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zagajewski A",
+            "lastName": "Zagajewski",
+            "firstName": "Aleksander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8860-3815"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, University of Oxford, Parks Road, Oxford, OX1 3PJ, United Kingdom"
+                },
+                {
+                  "affiliation": "Kavli Institute for Nanoscience Discovery, University of Oxford, South Parks Road, Oxford OX1 3QU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Turner P",
+            "lastName": "Turner",
+            "firstName": "Piers",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3644-0636"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, University of Oxford, Parks Road, Oxford, OX1 3PJ, United Kingdom"
+                },
+                {
+                  "affiliation": "Kavli Institute for Nanoscience Discovery, University of Oxford, South Parks Road, Oxford OX1 3QU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feehily C",
+            "lastName": "Feehily",
+            "firstName": "Conor",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1253-7353"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Medicine, University of Oxford, John Radcliffe Hospital, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "El Sayyed H",
+            "lastName": "El Sayyed",
+            "firstName": "Hafez",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7550-4428"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, University of Oxford, Parks Road, Oxford, OX1 3PJ, United Kingdom"
+                },
+                {
+                  "affiliation": "Kavli Institute for Nanoscience Discovery, University of Oxford, South Parks Road, Oxford OX1 3QU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andersson M",
+            "lastName": "Andersson",
+            "firstName": "Monique",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0619-1074"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Medicine, University of Oxford, John Radcliffe Hospital, Oxford, OX3 9DU, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barrett L",
+            "lastName": "Barrett",
+            "firstName": "Lucinda",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oakley S",
+            "lastName": "Oakley",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stracy M",
+            "lastName": "Stracy",
+            "firstName": "Mathew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5685-0352"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford, OX1 3RE, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crook D",
+            "lastName": "Crook",
+            "firstName": "Derrick",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Medicine, University of Oxford, John Radcliffe Hospital, Oxford, OX3 9DU, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nellåker C",
+            "lastName": "Nellåker",
+            "firstName": "Christoffer",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Women’s & Reproductive Health, University of Oxford, Big Data Institute, Oxford, OX3 7LF, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stoesser N",
+            "lastName": "Stoesser",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Medicine, University of Oxford, John Radcliffe Hospital, Oxford, OX3 9DU, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, Oxford, OX3 9DU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapanidis AN",
+            "lastName": "Kapanidis",
+            "firstName": "Achillefs",
+            "initials": "AN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, University of Oxford, Parks Road, Oxford, OX1 3PJ, United Kingdom"
+                },
+                {
+                  "affiliation": "Kavli Institute for Nanoscience Discovery, University of Oxford, South Parks Road, Oxford OX1 3QU, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5685-0352"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8860-3815"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1253-7353"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2887-2068"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3644-0636"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7550-4428"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0619-1074"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The rise of antimicrobial resistance (AMR) is one of the greatest public health challenges, already causing up to 1.2 million deaths annually and rising. Current gold-standard antimicrobial susceptibility tests (ASTs) are low-throughput and can take up to 48 hours, with implications for patient care. We present advances towards a novel, rapid AST, based on the deep-learning of single-cell specific phenotypes directly associated with antimicrobial susceptibility in Escherichia coli . Our models can reliably (80% single-cell accuracy) classify untreated and treated susceptible cells, across a range of antibiotics and phenotypes - including phenotypes not visually distinct to a trained, human observer. Applying models trained on lab-reference susceptible strains to clinical isolates of E. coli treated with ciprofloxacin, we demonstrate our models reveal significant (p<0.001) differences between resistant and susceptible populations, around a fixed treatment level. Conversely, deploying on cells treated with a range of ciprofloxacin concentrations, we show single-cell phenotyping has the potential to provide equivalent information to a 24-hour growth AST assay, but in as little as 30 minutes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S008896/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/N018656/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "110164/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/12/09/2022.12.08.22283219.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.08.22283219"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR581919"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR581919&type=FILE&fileName=EMS158382-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158382",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-12-10",
+      "firstPublicationDate": "2022-12-09",
+      "firstIndexDate": "2022-12-10",
+      "fullTextReceivedDate": "2022-12-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

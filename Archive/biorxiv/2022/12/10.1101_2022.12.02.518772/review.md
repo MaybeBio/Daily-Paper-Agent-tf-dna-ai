@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusion, supplementary references) as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the reported findings based solely on the supplied material. No external data, figures, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors use a PWM-based predictive model (SNP2TFBS) to identify non-coding SNPs predicted to alter NKX2-5 DNA-binding affinity. Five variants associated with cardiovascular traits are selected for in vitro validation via EMSA using recombinant NKX2-5 homeodomain. The authors report that all five variants significantly alter binding affinity, with four increasing and one decreasing affinity relative to reference, and conclude that differential TF-DNA binding is a plausible causal mechanism for disease-associated non-coding variants.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1, 2, 3; Supplementary Figures 1, 2, 3; Supplementary Tables 1, 2; Equation 1. No actual data, images, or numerical values are provided in the supplied text.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, raw EMSA data, binding curves, Kd values, statistical analyses, and the full SNP2TFBS output. The manuscript text alone does not contain quantitative results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question, namely whether non-coding disease-associated variants can alter transcription factor DNA-binding affinity, using NKX2-5 as a model. The conceptual framework is sound and the experimental approach is appropriate. However, the provided text is insufficient to evaluate the technical quality of the data. Key quantitative results, including Kd values, binding curve fits, and statistical comparisons, are not presented in the text. The claim that all five variants significantly alter binding affinity is not verifiable from the supplied material. The manuscript has potential but requires substantial additional detail and data presentation before the conclusions can be assessed.
+- **Who would be interested in the results, and why** Researchers in human genetics, regulatory genomics, and cardiovascular biology would be interested. The work speaks to the functional interpretation of non-coding GWAS variants, a major challenge in the field. Demonstrating that disease-associated SNPs can alter TF binding affinity in vitro provides a mechanistic link that is of broad interest to those studying gene regulation and disease etiology.
+- **Major strengths** The study addresses a significant and unresolved problem, the causal mechanism of non-coding disease variants. The use of a well-established predictive model (SNP2TFBS) combined with direct biochemical validation (EMSA) is a logical and rigorous approach. The focus on NKX2-5, a transcription factor with clear disease relevance, strengthens the potential impact. The authors are transparent about discrepancies between predictions and experimental results, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and evidence sufficiency
+  - **Claim pointer** "all five variants significantly altered NKX2-5 DNA binding affinities as determined by changes in their values" (Section 4.3, Conclusion).
+  - **Evidence pointer** Section 4.3, Figure 3, Supplementary Figure 3, Supplementary Table 1. Location not provided for specific data points.
+  - **Concern** The central claim that all five variants significantly alter binding affinity is not supported by any quantitative data presented in the text. No Kd values, fold-changes, error estimates, or statistical test results are reported. The text mentions fold-changes for some variants (e.g., rs3892630, 2.3-fold decrease; rs61216514, 1.3-fold increase; rs7719885, 1.3-fold decrease; rs747334, 1.8-fold decrease) but does not provide the actual Kd values, replicates, or statistical significance. For rs7350789, the authors state that binding could not be quantified, yet still include it in the claim that all five variants alter binding. This is a logical inconsistency.
+  - **Why it matters** The conclusion rests entirely on the quantitative demonstration of differential binding. Without raw data, binding curves, fitted parameters, and statistical analysis, the claim is unverifiable. The inability to quantify rs7350789 undermines the "all five" claim. The scientific case is not established from the provided evidence.
+  - **Resolution test** Provide a table with Kd values (mean ± SD or SEM) for reference and variant alleles for all five SNPs, including the number of independent replicates. Report statistical tests (e.g., t-test or ANOVA) with p-values. For rs7350789, either provide a quantifiable Kd or explicitly exclude it from the "all five" claim and discuss the qualitative observation separately.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** "Binding curves were constructed to derive apparent dissociation constants" (Abstract, Section 3.5).
+  - **Evidence pointer** Section 3.5, Equation 1. Location not provided.
+  - **Concern** The methods for determining Kd are described only superficially. The text states that "one-site specific binding" non-linear regression was used, but does not specify the protein concentration range, the number of data points per curve, the number of experimental replicates, or how the fraction of bound DNA was calculated beyond a reference to Equation 1, which is not shown in the text. The equation itself is not provided. This level of detail is insufficient for replication.
+  - **Why it matters** Reproducibility is a core requirement for a study of this nature. Without a complete description of the binding assay, including the equation used, the concentration range, and replicate structure, other laboratories cannot repeat the experiments. The reliability of the Kd values cannot be assessed.
+  - **Resolution test** Provide the full text of Equation 1, the protein concentration range tested, the number of data points and replicates per curve, and a description of how the fraction of bound DNA was calculated from gel images. Include representative raw gel images and fitted curves in the main text or supplement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and generalizability
+  - **Claim pointer** "Our findings suggest that differential TF-DNA binding affinity can be key in establishing a causal mechanism of pathogenic variants" (Abstract, Conclusion).
+  - **Evidence pointer** Section 4.3, Conclusion. Location not provided.
+  - **Concern** The authors generalize from five variants at a single TF to a broad statement about the causal mechanism of pathogenic variants. While the data may support a role for altered binding affinity in these specific cases, the leap to a general mechanism is not justified by the evidence presented. The authors do not discuss the functional consequences of the altered binding (e.g., changes in gene expression) nor do they address the possibility that the observed affinity changes may not translate to phenotypic effects in vivo.
+  - **Why it matters** The conclusion overreaches the data. The study demonstrates in vitro binding differences, but does not establish a causal link to disease. The claim of "key" importance is speculative without functional validation in a cellular or organismal context.
+  - **Resolution test** Soften the conclusion to state that the results provide evidence that non-coding variants can alter NKX2-5 binding affinity in vitro, and that this may contribute to disease risk. Discuss the need for future functional studies to establish causality. Alternatively, add data linking the binding changes to gene expression or other downstream effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section 4.3, text describing rs7350789
+  - **Evidence pointer** Section 4.3. Location not provided.
+  - **Issue** The text states that rs7350789 "could not be quantified due to low binding affinity in the reference sequence." This is ambiguous. Does this mean the reference sequence did not bind, or that the signal was too weak to fit a curve? The distinction is important for interpretation.
+  - **Required correction** Clarify the experimental observation for rs7350789. Specify whether the reference allele showed no detectable binding or whether the binding was too weak for reliable quantification. Provide the raw data or a representative gel image.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 4.1, Table 1
+  - **Evidence pointer** Section 4.1, Table 1. Location not provided.
+  - **Issue** The text states that the five selected variants are associated with traits like "hemoglobin and cholesterol levels, red blood cell traits, and systolic blood pressure." However, the specific traits and their associated p-values or effect sizes are not listed in the text. This information is presumably in Table 1, but the table is not provided.
+  - **Required correction** Ensure Table 1 includes the rs ID, the associated trait or disease, the GWAS p-value, and the predicted ΔPWM score. This information is essential for the reader to assess the relevance of the selected variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4.3, text describing fold-changes
+  - **Evidence pointer** Section 4.3. Location not provided.
+  - **Issue** The text uses "fold-change increase of its Kd" and "fold-change decrease" in a way that is confusing. For example, "rs61216514... resulting in a 1.3-fold change increase of its Kd" and "rs7719885... Both increased, resulting in a 1.3- and 1.8-fold change decrease, respectively." The direction of change is not clearly stated relative to the reference.
+  - **Required correction** Use consistent and unambiguous language. For example, state "the Kd for the variant allele was 1.3-fold higher than the reference" or "the Kd for the variant allele was 1.8-fold lower than the reference." Avoid the phrase "fold-change increase of its Kd."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.3, binding affinity comparisons
+  - **Evidence pointer** Section 4.3. Location not provided.
+  - **Issue** The text states that "all five variants significantly altered NKX2-5 DNA binding affinities" but does not report any statistical test or p-value. The word "significantly" is used without support.
+  - **Required correction** Report the statistical test used (e.g., unpaired t-test) and the p-values for each comparison. If the sample size is too small for statistical testing, state this explicitly and describe the data as descriptive.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative data and statistical support for the central claim), R1-M2 (insufficient methodological detail for reproducibility). These are blocking issues. R1-M3 is a non-blocking concern about overinterpretation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of whether non-coding variants alter TF binding is not new, but the specific application to NKX2-5 and the combination of predictive modeling with in vitro validation is a reasonable contribution. The originality is moderate.
+  - Scientific importance: The problem of interpreting non-coding variants is of high importance. However, the study as presented is a small-scale validation of five variants and does not yet provide a generalizable framework or novel biological insight. The importance is moderate.
+  - Interdisciplinary readership: The topic bridges genetics, genomics, and cardiovascular biology. The writing is accessible to a broad scientific audience, but the lack of quantitative detail limits its utility to specialists.
+  - Technical soundness: The experimental approach is appropriate, but the technical execution cannot be evaluated from the text. The absence of data and statistical analysis is a major deficiency.
+  - Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. The abstract and introduction are accessible. However, the results section is too vague to be informative.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and the approach is sound, but the central claim is not supported by the data presented in the text. The authors must provide the full quantitative results, including Kd values, statistical analyses, and complete methodological details, before the case can be evaluated. If these are provided and the data are robust, the manuscript could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that "all five variants significantly altered NKX2-5 DNA binding affinities" is unsupported by any quantitative data in the text.
+- The claim that "differential TF-DNA binding affinity can be key in establishing a causal mechanism of pathogenic variants" is an overgeneralization not supported by the data, which only show in vitro binding differences for five variants.
+- The statement that "three out of five predictions were consistent with in vitro observations" is presented without the actual data needed to verify this.
+- The claim that rs7350789 "could not be quantified due to low binding affinity" is ambiguous and not supported by any shown data.
+- The methodological description of Kd determination is incomplete, making the reported results non-reproducible and thus not assessable.

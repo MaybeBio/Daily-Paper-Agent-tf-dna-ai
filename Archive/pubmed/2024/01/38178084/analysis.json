@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38178084",
+  "title": "Transcription factors-related molecular subtypes and risk prognostic model: exploring the immunogenicity landscape and potential drug targets in hepatocellular carcinoma.",
+  "authors": "Wang, Meixia; Guo, Hanyao; Zhang, Bo; Shang, Yanan; Zhang, Sidi; Liu, Xiaoyu; Cao, Pengxiu; Fan, Yumei; Tan, Ke",
+  "journal": "Cancer cell international",
+  "published_date": "2024-01-05",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究基于TCGA数据构建肝细胞癌转录因子相关预后风险模型，结合分子分型、免疫景观和药物对接，但核心是临床预后预测而非TF-DNA结合机制建模，方法上仅用分子对接预测药物结合位点，缺乏AI或物理模拟的互作机制研究。",
+  "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is the most prevalent form of liver cancer, with a high mortality rate and poor prognosis. Mutated or dysregulated transcription factors (TFs) are significantly associated with carcinogenesis. The aim of this study was to develop a TF-related prognostic risk model to predict the prognosis and guide the treatment of HCC patients. METHODS: RNA sequencing data were obtained from the TCGA database. The ICGC and GEO databases were used as validation datasets. The consensus clustering algorithm was used to classify the molecular subtypes of TFs. Kaplan‒Meier survival analysis and receiver operating characteristic (ROC) analysis were applied to evaluate the prognostic value of the model. The immunogenic landscape differences of molecular subtypes were evaluated by the TIMER and xCell algorithms. Autodock analysis was used to predict possible binding sites of trametinib to TFs. RT‒PCR was used to verify the effect of trametinib on the expression of core TFs. RESULTS: According to the differential expression of TFs, HCC samples were divided into two clusters (C1 and C2). The survival time, signaling pathways, abundance of immune cell infiltration and responses to chemotherapy and immunotherapy were significantly different between C1 and C2. Nine TFs with potential prognostic value, including HMGB2, ESR1, HMGA1, MYBL2, TCF19, E2F1, FOXM1, CENPA and ZIC2, were identified by Cox regression analysis. HCC patients in the high-risk group had a poor prognosis compared with those in the low-risk group (p < 0.001). Moreover, the area under the ROC curve (AUC) values of the 1-year, 2-year and 3-year survival rates were 0.792, 0.71 and 0.695, respectively. The risk model was validated in the ICGC database. Notably, trametinib sensitivity was highly correlated with the expression of core TFs, and molecular docking predicted the possible binding sites of trametinib with these TFs. More importantly, the expression of core TFs was downregulated under trametinib treatment. CONCLUSIONS: A prognostic signature with 9 TFs performed well in predicting the survival rate and chemotherapy/immunotherapy effect of HCC patients. Trimetinib has potential application value in HCC by targeting TFs.",
+  "abstract_zh": "背景：肝细胞癌（HCC）是最常见的肝癌类型，具有高死亡率和不良预后。突变或失调的转录因子（TFs）与癌变显著相关。本研究旨在开发一种与转录因子相关的预后风险模型，以预测HCC患者的预后并指导治疗。方法：从TCGA数据库获取RNA测序数据。ICGC和GEO数据库用作验证数据集。采用共识聚类算法对转录因子的分子亚型进行分类。应用Kaplan-Meier生存分析和受试者工作特征（ROC）分析评估模型的预后价值。通过TIMER和xCell算法评估分子亚型的免疫原性景观差异。使用Autodock分析预测曲美替尼与转录因子的可能结合位点。采用RT-PCR验证曲美替尼对核心转录因子表达的影响。结果：根据转录因子的差异表达，HCC样本被分为两个聚类（C1和C2）。C1和C2之间的生存时间、信号通路、免疫细胞浸润丰度以及化疗和免疫治疗反应存在显著差异。通过Cox回归分析确定了9个具有潜在预后价值的转录因子，包括HMGB2、ESR1、HMGA1、MYBL2、TCF19、E2F1、FOXM1、CENPA和ZIC2。高风险组HCC患者的预后较低风险组差（p < 0.001）。此外，1年、2年和3年生存率的ROC曲线下面积（AUC）值分别为0.792、0.71和0.695。该风险模型在ICGC数据库中得到了验证。值得注意的是，曲美替尼敏感性与核心转录因子的表达高度相关，分子对接预测了曲美替尼与这些转录因子的可能结合位点。更重要的是，在曲美替尼处理下，核心转录因子的表达下调。结论：包含9个转录因子的预后特征在预测HCC患者的生存率及化疗/免疫治疗效果方面表现良好。曲美替尼通过靶向转录因子在HCC中具有潜在应用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38178084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38178084/",
+  "paper_page_path": "papers/pubmed/38178084/index.html"
+}

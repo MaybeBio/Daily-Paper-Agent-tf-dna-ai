@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific and technical evaluation of the presented methods, results, and claims; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors present TF-AGNet, an attentive gated neural network architecture adapted from AGNet, to predict continuous in vivo transcription factor binding intensities from DNA sequence in GM12878 cells. They report superior performance over CNN-based DeFine models, demonstrate generalizability across four additional cell lines for 20 TFs, and show improved classification of allele-specific binding variants compared to seven existing variant annotation tools.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, no figures or tables visible), Discussion, Methods (training procedures, data preprocessing, comparison protocols, ASB evaluation)
+- **Missing materials affecting confidence** All figures and supplementary tables (S1, S2) are referenced but not provided; no quantitative performance metrics beyond median PCC values and AUROC values cited in text; no model architecture diagram; no hyperparameter details; no baseline comparison details for DeFine models beyond citation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in regulatory genomics, namely the quantification of non-coding variant effects on transcription factor binding. The adaptation of AGNet to this task is a reasonable and potentially valuable contribution. However, the current manuscript has significant gaps in reporting that prevent full evaluation of the claims. Key results are presented without supporting figures or tables, and several methodological details are insufficiently specified. The comparative analyses, while promising, require more rigorous statistical treatment and clearer reporting of data handling. The work has potential, but the evidence as presented is incomplete.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and statistical genetics would be interested. Specifically, those working on variant effect prediction, transcription factor binding models, and interpretation of non-coding variants in complex disease would find the TF-AGNet models potentially useful. The cross-cell-type generalizability analysis and the comparison with existing annotation tools are of practical relevance for variant prioritization in disease studies.
+- **Major strengths** The problem is well motivated and important. The adaptation of a modern architecture (AGNet) to TF binding prediction is a novel application. The inclusion of position embeddings and dual attention mechanisms is conceptually sound for capturing positional effects within binding sites. The cross-cell-type training strategy is a thoughtful approach to assess generalizability. The comparison with multiple existing tools for ASB classification is comprehensive in scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim TF-AGNet models outperform conventional CNNs for predicting TF binding intensity, with median PCC values of 0.768 (build37) and 0.733 (build38), and outperform DeFine models on TF-AGNet peak regions (Median-PCC 0.806 vs 0.449).
+  - **Evidence pointer** Results section, Figure 2 (not provided)
+  - **Concern** The central performance claims are presented without the actual figures or underlying data. Figure 2, which is critical for evaluating the comparison between TF-AGNet and DeFine models, is not available. The PCC values are reported in text, but without the distribution plots, correlation scatter plots, or per-TF breakdowns, it is impossible to assess the robustness of these results. The claim of superiority over DeFine on TF-AGNet peak regions is particularly concerning, as this comparison may be confounded by differences in training data and preprocessing.
+  - **Why it matters** The primary contribution of the paper is the claimed performance improvement. Without the visual evidence and detailed statistics, the reader cannot verify the magnitude, consistency, or significance of the improvement across TFs. The comparison on TF-AGNet peak regions may not be a fair test if the models were trained on different data distributions.
+  - **Resolution test** Provide Figure 2 with per-TF PCC distributions, scatter plots of observed vs predicted intensities for representative TFs, and statistical tests (e.g., paired Wilcoxon tests) with effect sizes. Clarify whether the DeFine models were retrained on the same data or used as pre-trained models, and report performance on a common held-out set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that TF-AGNet models more accurately classify non-coding variants that significantly affect TF binding compared to 7 variant annotation tools, with average AUROC values of 0.647-0.745 for GOB and 0.702-0.738 for LOB events.
+  - **Evidence pointer** Results section, Figure 3 (not provided); Methods section "Determining the accuracy of the TF-AGNet models for predicting allele specific binding(ASB) TF binding events"
+  - **Concern** The ASB classification evaluation is described but the results are not fully reported. The AUROC values are given in text, but Figure 3, which presumably shows ROC curves or AUROC comparisons across thresholds and tools, is missing. The methodology for defining ASB events using percentile thresholds is unusual and may not reflect standard practice. The use of only 10 TFs and 1,915 ASB events is a limited evaluation, and the authors do not report confidence intervals or statistical significance of AUROC differences between methods. The handling of the non-ASB set and potential class imbalance is not described.
+  - **Why it matters** The claim of superior ASB classification is a key practical contribution. Without the full results, statistical rigor, and clarity on the evaluation protocol, the reader cannot determine whether the improvement is meaningful or an artifact of the specific thresholding approach. The limited number of TFs and events raises concerns about generalizability.
+  - **Resolution test** Provide Figure 3 with ROC curves or AUROC bar plots with error bars and statistical comparisons (e.g., DeLong test for paired AUROC). Report the number of ASB and non-ASB events per TF, describe the class balance, and justify the percentile threshold approach. Consider using a fixed significance threshold for ASB calls rather than percentile-based cutoffs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the TF-AGNet architecture and training procedure, including GloVe embeddings, multi-scale CNNs, position embeddings, dual attention layers, GCNs, and GRNs.
+  - **Evidence pointer** Methods section "Training the TF-AGNet neural network models"
+  - **Concern** The description of the model architecture is incomplete. The authors reference the AGNet paper for details, but the specific adaptations for TF binding prediction are not fully specified. Key hyperparameters (learning rate, batch size, number of epochs, dropout rates, L2 regularization strength) are not reported. The GloVe training details are partially given (vector size 100, 100 iterations), but the corpus construction and k-mer parameters (k=6, stride=2) are described. The handling of variable-length peak regions (capped at 2000bp) and the negative set generation are described, but the exact criteria for negative region selection are vague.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architecture and hyperparameter details, other researchers cannot replicate the models or apply them to new data. The lack of a model diagram or pseudocode further hampers understanding.
+  - **Resolution test** Provide a complete architecture specification, including layer dimensions, activation functions, regularization parameters, and optimization settings. Include a model diagram or pseudocode. Report the exact procedure for negative set generation and the criteria for selecting peak regions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report median PCC values for cross-cell-type models (K562=0.88, H1=0.89, HepG2=0.91, HeLa=0.85) and note one exception (BRCA1-K562 PCC=0.422).
+  - **Evidence pointer** Results section, Figure 2B (not provided)
+  - **Concern** The cross-cell-type results are presented as medians, but the spread of PCC values across the 20 TFs is not reported. The single exception (BRCA1-K562) is mentioned but not discussed in terms of potential causes. The comparison with GM12878 models is not made explicit, and it is unclear whether the cross-cell-type models are as accurate as the cell-line-specific models.
+  - **Why it matters** The generalizability claim depends on the consistency of performance across TFs and cell lines. Reporting only medians obscures potential failures or variability. The BRCA1-K562 outlier suggests that some TFs may not transfer well, which is important for practical applications.
+  - **Resolution test** Provide per-TF PCC values for all cell lines, with distributions (e.g., boxplots) and a comparison with GM12878 models. Discuss the BRCA1-K562 result and any other outliers. Report whether the cross-cell-type models are statistically different from cell-line-specific models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "A large proportion of non-coding variants are present within binding sites of transcription factors(TFs)" is imprecise. It should specify the proportion or context, as not all non-coding variants are in TF binding sites.
+  - **Required correction** Rephrase to indicate the proportion of non-coding variants in TF binding sites, e.g., "A substantial proportion of non-coding variants associated with complex traits are located within TF binding sites."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, first paragraph
+  - **Issue** The results section is entirely narrative with no figures or tables embedded. All references to figures and supplementary tables are to materials not provided in the manuscript text.
+  - **Required correction** Ensure that all figures and tables are included in the manuscript or clearly referenced as supplementary materials with full captions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, GloVe training
+  - **Evidence pointer** Methods, "Training the TF-AGNet neural network models"
+  - **Issue** The GloVe training uses a corpus of k-mers from all TF binding sites, but the rationale for using GloVe (typically used for word embeddings) on k-mers is not explained. The choice of k=6 and stride=2 is not justified.
+  - **Required correction** Provide a brief justification for using GloVe on k-mers and for the chosen k-mer parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, ASB evaluation
+  - **Evidence pointer** Methods, "Determining the accuracy of the TF-AGNet models for predicting allele specific binding(ASB) TF binding events"
+  - **Issue** The description of the ASB evaluation is confusing. The authors state they used thresholds of 25th, 20th, and 15th percentiles to classify GOB and LOB events, but it is unclear how these thresholds are applied to the scores and how the non-ASB events are defined.
+  - **Required correction** Clarify the thresholding procedure, including how the percentile cutoffs are applied to the score distributions and how the ground truth ASB/non-ASB labels are used in the AUROC calculation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of interpretability is brief and does not address potential approaches to improve interpretability of TF-AGNet models, such as attention weight analysis or saliency mapping.
+  - **Required correction** Expand the discussion on interpretability, including potential methods to extract motif information from the attention layers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and data for central performance claims), R1-M2 (incomplete ASB evaluation and statistical rigor), R1-M3 (incomplete architecture and hyperparameter reporting)
+- **Assessment against Nature-style criteria** Originality: The application of AGNet to TF binding prediction is novel, though the architecture itself is not new. The combination of position embeddings and dual attention for this task is a reasonable extension. Scientific importance: The problem of quantifying non-coding variant effects on TF binding is of high importance for understanding regulatory genomics and disease mechanisms. Interdisciplinary readership: The work is primarily of interest to computational biologists and genomicists; the clinical or disease relevance is mentioned but not deeply explored. Technical soundness: The methods are plausible, but the incomplete reporting of architecture, hyperparameters, and evaluation details prevents full assessment. Readability for nonspecialists: The manuscript is written for a specialized audience and assumes familiarity with deep learning and genomics; the abstract is accessible but the methods are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is important, but the current manuscript does not provide sufficient evidence to fully establish the claims. The missing figures, incomplete methodological details, and limited statistical rigor must be addressed before the case for superiority over existing methods is convincing.
+
+## Risk / unsupported claims
+- The claim that TF-AGNet models outperform DeFine models on TF-AGNet peak regions (Median-PCC 0.806 vs 0.449) is not fully supported without the actual data and a clear description of the comparison protocol.
+- The claim of superior ASB classification accuracy compared to 7 tools is not fully supported without Figure 3 and statistical tests.
+- The generalizability claim across cell lines is based on median PCC values only, without reporting variability or per-TF performance.
+- The statement that poorly performing TFs "could point towards poor quality of their ChIP-seq data or could mean that these TFs act as co-factors" is speculative and not tested.
+- The claim that TF-AGNet models can be used to derive regulatory roles of millions of non-coding variants is a forward-looking statement without demonstrated scalability or application to whole-genome data.

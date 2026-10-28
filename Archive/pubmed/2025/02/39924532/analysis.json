@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39924532",
+  "title": "An assessment of breast cancer HER2, ER, and PR expressions based on mammography using deep learning with convolutional neural networks.",
+  "authors": "Zeng, Shun; Chen, Hongyu; Jing, Rui; Yang, Wenzhuo; He, Ligong; Zou, Tianle; Liu, Peng; Liang, Bo; Shi, Dan; Wu, Wenhao; Lin, Qiusheng; Ma, Zhenyu; Zha, Jinhui; Zhong, Yonghao; Zhang, Xianbin; Shao, Guangrui; Gong, Peng",
+  "journal": "Scientific reports",
+  "published_date": "2025-02-10",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用深度学习从乳腺X光影像预测乳腺癌受体表达，属纯影像诊断，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Mammography is the recommended imaging modality for breast cancer screening. Expressions of human epidermal growth factor receptor 2 (HER2), estrogen receptor (ER), and progesterone receptor (PR) are critical to the development of therapeutic strategies for breast cancer. In this study, a deep learning model (CBAM ResNet-18) was developed to predict the expression of these three receptors on mammography without manual segmentation of masses. Mammography of patients with pathologically proven breast cancer was obtained from two centers. A deep learning-based model (CBAM ResNet-18) for predicting HER2, ER, and PR expressions was trained and validated using five-fold cross-validation on a training dataset. The performance of the model was further tested using an external test dataset. Area under receiver operating characteristic curve (AUC), accuracy (ACC), and F1-score were calculated to assess the ability of the model to predict each receptor. For comparison we also developed original ResNet-18 without attention module and VGG-19 with and without attention module. The AUC (95% CI), ACC, and F1-score were 0.708 (0.609, 0.808), 0.651, 0.528, respectively, in the HER2 test dataset; 0.785 (0.673, 0.897), 0.845, 0.905, respectively, in the ER test dataset; and 0.706 (0.603, 0.809), 0.678, 0.773, respectively, in the PR test dataset. The proposed model demonstrates superior performance compared to the original ResNet-18 without attention module and VGG-19 with and without attention module. The model has the potential to predict HER2, PR, and especially ER expressions, and thus serve as an adjunctive diagnostic tool for breast cancer.",
+  "abstract_zh": "乳腺X线摄影是乳腺癌筛查中推荐的影像学检查方法。人表皮生长因子受体2（HER2）、雌激素受体（ER）和孕激素受体（PR）的表达对于制定乳腺癌治疗策略至关重要。本研究开发了一种深度学习模型（CBAM ResNet-18），用于在无需手动分割肿块的情况下，在乳腺X线摄影中预测这三种受体的表达。从两个中心获取了经病理证实为乳腺癌的患者的乳腺X线摄影图像。使用训练数据集上的五折交叉验证，训练并验证了用于预测HER2、ER和PR表达的基于深度学习的模型（CBAM ResNet-18）。模型的性能进一步通过外部测试数据集进行了测试。计算了受试者工作特征曲线下面积（AUC）、准确率（ACC）和F1分数，以评估模型预测每种受体的能力。为了比较，我们还开发了不带注意力模块的原始ResNet-18以及带和不带注意力模块的VGG-19。在HER2测试数据集中，AUC（95% CI）、ACC和F1分数分别为0.708（0.609, 0.808）、0.651和0.528；在ER测试数据集中，分别为0.785（0.673, 0.897）、0.845和0.905；在PR测试数据集中，分别为0.706（0.603, 0.809）、0.678和0.773。所提出的模型相比不带注意力模块的原始ResNet-18以及带和不带注意力模块的VGG-19，表现出更优越的性能。该模型有潜力预测HER2、PR，尤其是ER的表达，从而作为乳腺癌的辅助诊断工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39924532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39924532/",
+  "paper_page_path": "papers/pubmed/39924532/index.html"
+}

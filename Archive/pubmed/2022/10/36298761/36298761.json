@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "36298761",
+    "doi": "10.3390/v14102206",
+    "title": "The Vaccinia Virus DNA Helicase Structure from Combined Single-Particle Cryo-Electron Microscopy and AlphaFold2 Prediction."
+  },
+  "content": {
+    "abstract": "Poxviruses are large DNA viruses with a linear double-stranded DNA genome circularized at the extremities. The helicase-primase D5, composed of six identical 90 kDa subunits, is required for DNA replication. D5 consists of a primase fragment flexibly attached to the hexameric C-terminal polypeptide (res. 323-785) with confirmed nucleotide hydrolase and DNA-binding activity but an elusive helicase activity. We determined its structure by single-particle cryo-electron microscopy. It displays an AAA+ helicase core flanked by N- and C-terminal domains. Model building was greatly helped by the predicted structure of D5 using AlphaFold2. The 3.9 A structure of the N-terminal domain forms a well-defined tight ring while the resolution decreases towards the C-terminus, still allowing the fit of the predicted structure. The N-terminal domain is partially present in papillomavirus E1 and polyomavirus LTA helicases, as well as in a bacteriophage NrS-1 helicase domain, which is also closely related to the AAA+ helicase domain of D5. Using the Pfam domain database, a D5_N domain followed by DUF5906 and Pox_D5 domains could be assigned to the cryo-EM structure, providing the first 3D structures for D5_N and Pox_D5 domains. The same domain organization has been identified in a family of putative helicases from large DNA viruses, bacteriophages, and selfish DNA elements.",
+    "keywords": [
+      "DNA helicase",
+      "DNA replication",
+      "Pfam domain",
+      "SF3 helicase",
+      "cryo-electron microscopy",
+      "helicase",
+      "orthopoxvirus",
+      "poxvirus",
+      "structure prediction"
+    ],
+    "mesh_terms": [
+      "*DNA Primase/chemistry/genetics/metabolism",
+      "Cryoelectron Microscopy",
+      "*Vaccinia virus/genetics",
+      "DNA Helicases/genetics",
+      "DNA",
+      "DNA Replication",
+      "Nucleotides"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hutin, Stephanie",
+        "Ling, Wai Li",
+        "Tarbouriech, Nicolas",
+        "Schoehn, Guy",
+        "Grimm, Clemens",
+        "Fischer, Utz",
+        "Burmeister, Wim P"
+      ],
+      "short_names": [
+        "Hutin S",
+        "Ling WL",
+        "Tarbouriech N",
+        "Schoehn G",
+        "Grimm C",
+        "Fischer U",
+        "Burmeister WP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0206-3959",
+        "ORCID: 0000-0002-1459-3201",
+        "ORCID: 0000-0003-0876-6118"
+      ],
+      "affiliations": [
+        "Institut de Biologie Structurale (IBS), Universite Grenoble Alpes (UGA), Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France.",
+        "Institut de Biologie Structurale (IBS), Universite Grenoble Alpes (UGA), Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France.",
+        "Institut de Biologie Structurale (IBS), Universite Grenoble Alpes (UGA), Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France.",
+        "Institut de Biologie Structurale (IBS), Universite Grenoble Alpes (UGA), Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France.",
+        "Biozentrum, University of Wurzburg, 97070 Wurzburg, Germany.",
+        "Biozentrum, University of Wurzburg, 97070 Wurzburg, Germany.",
+        "Institut de Biologie Structurale (IBS), Universite Grenoble Alpes (UGA), Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hutin, Stephanie",
+        "short_name": "Hutin S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), Université Grenoble Alpes (UGA), Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Ling, Wai Li",
+        "short_name": "Ling WL",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), Université Grenoble Alpes (UGA), Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Tarbouriech, Nicolas",
+        "short_name": "Tarbouriech N",
+        "identifiers": [
+          "0000-0002-0206-3959"
+        ],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), Université Grenoble Alpes (UGA), Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Schoehn, Guy",
+        "short_name": "Schoehn G",
+        "identifiers": [
+          "0000-0002-1459-3201"
+        ],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), Université Grenoble Alpes (UGA), Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Grimm, Clemens",
+        "short_name": "Grimm C",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Würzburg, 97070 Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Fischer, Utz",
+        "short_name": "Fischer U",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Würzburg, 97070 Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Burmeister, Wim P",
+        "short_name": "Burmeister WP",
+        "identifiers": [
+          "0000-0003-0876-6118"
+        ],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), Université Grenoble Alpes (UGA), Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), Centre National de la Recherche Scientifique (CNRS), 38000 Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Viruses"
+    ],
+    "journal_abbrev": [
+      "Viruses"
+    ],
+    "pub_date": "2022 Oct 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/28 06:00",
+    "fetched_at": "2026-09-28 15:21:55"
+  },
+  "links": {
+    "cites": [
+      "42527601",
+      "41305332",
+      "41047692",
+      "40659969",
+      "40143346",
+      "40035768",
+      "39621269",
+      "39167653",
+      "38914567",
+      "38753765",
+      "38250244",
+      "38177671",
+      "37625552",
+      "37587714",
+      "37376615",
+      "36918529"
+    ],
+    "refs": [
+      "36459501",
+      "35148313",
+      "34545080",
+      "34404299",
+      "34311576",
+      "34265844",
+      "33536322",
+      "33270897",
+      "33208940",
+      "33125078",
+      "32882158",
+      "32016421",
+      "31932370",
+      "31730249",
+      "31176489",
+      "30942691",
+      "30412051",
+      "30198894",
+      "29872004",
+      "28671674",
+      "26912611",
+      "26278980",
+      "24439902",
+      "24384117",
+      "24040512",
+      "23000701",
+      "21994715",
+      "20124702",
+      "19762479",
+      "18329872",
+      "17093187",
+      "16855583",
+      "16061814",
+      "16027112",
+      "15454080",
+      "15264254",
+      "15215455",
+      "11689653",
+      "10781095",
+      "10706293",
+      "9847191",
+      "8253092",
+      "7636979"
+    ],
+    "similar": [
+      "36298761",
+      "26912611",
+      "38177671",
+      "9696837",
+      "30679383",
+      "19574219",
+      "21984415",
+      "18000036",
+      "15897200",
+      "22887996",
+      "25098604",
+      "37506699",
+      "35500649",
+      "15837199",
+      "30797687",
+      "26277776",
+      "20685648",
+      "28003473",
+      "20591822",
+      "39311578",
+      "21865075",
+      "37474605",
+      "11531331",
+      "10535735",
+      "9653122",
+      "15738414",
+      "11735390",
+      "21644056",
+      "14636571",
+      "10480949",
+      "21907611",
+      "19841750",
+      "28743747",
+      "34102080",
+      "25278021",
+      "29143083",
+      "23175373",
+      "37803262",
+      "16935879",
+      "21927003",
+      "22869700",
+      "9482751",
+      "26854665",
+      "15939015",
+      "18039713",
+      "16612544",
+      "18157148",
+      "2466840",
+      "24747220",
+      "8308039",
+      "30315069",
+      "11673465",
+      "22205752",
+      "10625492",
+      "35779765",
+      "15044475",
+      "24439902",
+      "15926203",
+      "30563453",
+      "8262961",
+      "29070678",
+      "17553899",
+      "11188698",
+      "21515672",
+      "18650940",
+      "17093187",
+      "23675753",
+      "10585474",
+      "26264665",
+      "25023283",
+      "23430154",
+      "39167653",
+      "22074440",
+      "7635818",
+      "34545080",
+      "17324440",
+      "19838204",
+      "16699004",
+      "9849877",
+      "11178907",
+      "7731998",
+      "15649896",
+      "26888060",
+      "23452619",
+      "11832483",
+      "12228732",
+      "36528058",
+      "36400570",
+      "21068246",
+      "15718137",
+      "8662872",
+      "8011649",
+      "38581152",
+      "2153101",
+      "17947583",
+      "15173380",
+      "17499029",
+      "23585534",
+      "14557266",
+      "19762479",
+      "19593381",
+      "37832548"
+    ],
+    "review": [
+      "36298761",
+      "21865075",
+      "21907611",
+      "34102080",
+      "16935879",
+      "15939015",
+      "11188698"
+    ],
+    "pmc": [
+      "9611036"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=v14102206",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36298761/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36298761",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

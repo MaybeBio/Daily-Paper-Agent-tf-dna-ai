@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40948769",
+    "doi": "10.3389/fimmu.2025.1627173",
+    "title": "Integrative transcriptomic and machine learning analyses identify HDAC9 as a key regulator of mitochondrial dysfunction and senescence-associated inflammation in diabetic nephropathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic nephropathy (DN), a major complication of type 2 diabetes mellitus (DM), is driven by complex mechanisms involving mitochondrial dysfunction, senescence, and chronic inflammation. Despite therapeutic advances, interventions specifically targeting mitochondrial dysfunction, senescence, and inflammation remain elusive. METHODS: An integrative analysis was performed on bulk RNA-seq data from DN and normal kidney samples to identify differentially expressed genes (DEGs) associated with the disease. Weighted gene co-expression network analysis (WGCNA) was utilized to reveal gene modules linked to DN, mitochondrial dysfunction, and senescence. The key genes were determined using multiple machine learning approaches, and their diagnostic value was verified using external datasets. At single-cell resolution, the cellular landscape of DN was explored and the distinct expression patterns across different cell types were explored. Key genes and markers associated with mitochondrial dysfunction and senescence were validated through single-cell RNA sequencing (scRNA-seq) data and in vitro high-glucose-induced HK-2 cell models. Finally, functional studies were conducted using Small interfering RNA (siRNA)-mediated gene knockdown to predict the biological roles of selected targets. RESULTS: We identified 2,176 DEGs between DN and normal kidney tissues, among which 259 mitochondrial-related genes (MRGs) and 273 senescence-related genes (SRGs) were significantly enriched in inflammatory and metabolic pathways. WGCNA revealed DN-associated gene modules strongly linked to mitochondrial dysfunction and senescence. Through integrated machine learning, five hub genes-CLDN1, TYROBP, HDAC9, CASP3, and RCN1-were selected, with the support vector machine (SVM) model achieving high diagnostic accuracy. ScRNA-seq revealed 13 distinct kidney cell types, with proximal tubule (PT) cells emerging as key contributors to the signaling pathway associated with mitochondrial dysfunction and senescence. These transcriptomic findings were corroborated by functional assays, in which HDAC9 upregulation in high-glucose-stimulated HK-2 cells was accompanied by mitochondrial impairment and increased levels of p53, p21, p16, and senescence associated secretory phenotype (SASP) factors. Conversely, HDAC9 knockdown mitigated these effects, underscoring its pathogenic role in DN. CONCLUSION: Mitochondrial dysfunction and senescence-associated inflammation contribute to DN progression. The five identified hub genes demonstrate strong diagnostic potential, and HDAC9 is likely to be a potential therapeutic target for reducing mitochondrial injury, senescence, and inflammation in DN.",
+    "keywords": [
+      "biomarker",
+      "diabetic nephropathy",
+      "machine learning",
+      "mitochondrial dysfunction",
+      "senescence"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetic Nephropathies/genetics/metabolism/pathology/etiology",
+      "*Mitochondria/metabolism/genetics/pathology",
+      "*Machine Learning",
+      "*Inflammation/genetics/metabolism",
+      "*Cellular Senescence/genetics",
+      "*Histone Deacetylases/genetics/metabolism",
+      "*Transcriptome",
+      "*Repressor Proteins/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Junming",
+        "Pang, Dong",
+        "Fan, Chenglong",
+        "Yang, Guanglin",
+        "Chen, Jinji",
+        "Chen, Shaohua"
+      ],
+      "short_names": [
+        "Huang J",
+        "Pang D",
+        "Fan C",
+        "Yang G",
+        "Chen J",
+        "Chen S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Department of Obstetrics and Gynecology, The People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, China.",
+        "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Junming",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Dong",
+        "short_name": "Pang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Chenglong",
+        "short_name": "Fan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guanglin",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinji",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shaohua",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:35",
+    "fetched_at": "2026-10-01 02:10:26"
+  },
+  "links": {
+    "cites": [
+      "42670392",
+      "42152122",
+      "41639881",
+      "41527570",
+      "41368248"
+    ],
+    "refs": [
+      "40765836",
+      "40630391",
+      "39723350",
+      "39600316",
+      "39361429",
+      "39238645",
+      "39021818",
+      "38983761",
+      "38956064",
+      "38910210",
+      "38789496",
+      "38788963",
+      "38487541",
+      "38474100",
+      "38390397",
+      "38200266",
+      "38169625",
+      "37943391",
+      "37928264",
+      "37745702",
+      "37404805",
+      "37396184",
+      "37196129",
+      "36859596",
+      "36547021",
+      "36499760",
+      "35879417",
+      "35837297",
+      "35280997",
+      "35115137",
+      "34879977",
+      "34760900",
+      "33328614",
+      "33152903",
+      "32853095",
+      "32774664",
+      "32677473",
+      "32467649",
+      "32161396",
+      "32152499",
+      "31578193",
+      "31000567",
+      "30065258",
+      "30046148",
+      "28443030",
+      "20303872",
+      "18614015"
+    ],
+    "similar": [
+      "40948769",
+      "40374840",
+      "39265357",
+      "41479901",
+      "40742465",
+      "27633396",
+      "39916957",
+      "40641111",
+      "34215202",
+      "39838413",
+      "40243723",
+      "40312440",
+      "39920798",
+      "38851464",
+      "38053423",
+      "40775242",
+      "39557806",
+      "41422136",
+      "39026663",
+      "38968594",
+      "39187837",
+      "40467639",
+      "37312900",
+      "37063851",
+      "40296690",
+      "32677473",
+      "37385224",
+      "39370621",
+      "39814306",
+      "31106482",
+      "40033248",
+      "41503644",
+      "37396184",
+      "38951833",
+      "40555691",
+      "40835195",
+      "36482994",
+      "40230799",
+      "40046619",
+      "40703651",
+      "38390397",
+      "41107929",
+      "39988817",
+      "38394492",
+      "37957539",
+      "36251411",
+      "37745718",
+      "40950408",
+      "39953123",
+      "33887734",
+      "37622120",
+      "40888672",
+      "41438111",
+      "39268370",
+      "39395579",
+      "38774257",
+      "40969366",
+      "41073490",
+      "27855634",
+      "41329505",
+      "40328901",
+      "37250717",
+      "30078220",
+      "36681521",
+      "35663304",
+      "40313958",
+      "27279428",
+      "32685522",
+      "37113991",
+      "40456498",
+      "39865825",
+      "36911691",
+      "41377896",
+      "39085362",
+      "41024137",
+      "41481634",
+      "40505639",
+      "41462390",
+      "37760894",
+      "37738894",
+      "41046974",
+      "39378654",
+      "41200172",
+      "41122706",
+      "33444721",
+      "39602449",
+      "29367621",
+      "39923303",
+      "41335031",
+      "41424060",
+      "41009952",
+      "39364414",
+      "37916327",
+      "41388523",
+      "36891052",
+      "33779731",
+      "41291841",
+      "40362669",
+      "32691413",
+      "39823264"
+    ],
+    "review": [
+      "40948769",
+      "38394492"
+    ],
+    "pmc": [
+      "12425722"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40948769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-266",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1627173",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

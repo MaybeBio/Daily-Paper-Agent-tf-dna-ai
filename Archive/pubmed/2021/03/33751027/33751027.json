@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "33751027",
+    "doi": "10.1093/bib/bbab047",
+    "title": "iDHS-Deep: an integrated tool for predicting DNase I hypersensitive sites by deep neural network."
+  },
+  "content": {
+    "abstract": "DNase I hypersensitive site (DHS) refers to the hypersensitive region of chromatin for the DNase I enzyme. It is an important part of the noncoding region and contains a variety of regulatory elements, such as promoter, enhancer, and transcription factor-binding site, etc. Moreover, the related locus of disease (or trait) are usually enriched in the DHS regions. Therefore, the detection of DHS region is of great significance. In this study, we develop a deep learning-based algorithm to identify whether an unknown sequence region would be potential DHS. The proposed method showed high prediction performance on both training datasets and independent datasets in different cell types and developmental stages, demonstrating that the method has excellent superiority in the identification of DHSs. Furthermore, for the convenience of related wet-experimental researchers, the user-friendly web-server iDHS-Deep was established at http://lin-group.cn/server/iDHS-Deep/, by which users can easily distinguish DHS and non-DHS and obtain the corresponding developmental stage ofDHS.",
+    "keywords": [
+      "DNase I hypersensitive site",
+      "deep learning",
+      "regulatory elements",
+      "web-server"
+    ],
+    "mesh_terms": [
+      "Arabidopsis/*genetics/metabolism",
+      "Chromatin/metabolism/ultrastructure",
+      "DNA/chemistry/*genetics/metabolism",
+      "Datasets as Topic",
+      "*Deep Learning",
+      "Deoxyribonuclease I/*genetics/metabolism",
+      "Enhancer Elements, Genetic",
+      "Genetic Loci",
+      "Humans",
+      "Internet",
+      "Oryza/*genetics/metabolism",
+      "Promoter Regions, Genetic",
+      "Protein Binding",
+      "*Software",
+      "Transcription Factors/genetics/metabolism",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dao, Fu-Ying",
+        "Lv, Hao",
+        "Su, Wei",
+        "Sun, Zi-Jie",
+        "Huang, Qin-Lai",
+        "Lin, Hao"
+      ],
+      "short_names": [
+        "Dao FY",
+        "Lv H",
+        "Su W",
+        "Sun ZJ",
+        "Huang QL",
+        "Lin H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6265-2862"
+      ],
+      "affiliations": [
+        "Informational Biology at University of Electronic Science and Technology of China, China.",
+        "Informational Biology at University of Electronic Science and Technology of China, China.",
+        "Informational Biology at University of Electronic Science and Technology of China, China.",
+        "Informational Biology at University of Electronic Science and Technology of China, China.",
+        "Informational Biology at University of Electronic Science and Technology of China, China.",
+        "Informational Biology at University of Electronic Science and Technology of China, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dao, Fu-Ying",
+        "short_name": "Dao FY",
+        "identifiers": [],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Hao",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      },
+      {
+        "full_name": "Su, Wei",
+        "short_name": "Su W",
+        "identifiers": [],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zi-Jie",
+        "short_name": "Sun ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qin-Lai",
+        "short_name": "Huang QL",
+        "identifiers": [],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Hao",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0000-0001-6265-2862"
+        ],
+        "affiliations": [
+          "Informational Biology at University of Electronic Science and Technology of China, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 Sep 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/23 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "40660290",
+      "38779332",
+      "38485768",
+      "37966613",
+      "36778738",
+      "36553042",
+      "36520922",
+      "36385847",
+      "35753698",
+      "35526094",
+      "35288750",
+      "35273581",
+      "35154264",
+      "35069791",
+      "34976030",
+      "34966294",
+      "34595489"
+    ],
+    "refs": [],
+    "similar": [
+      "33751027",
+      "36650801",
+      "33295914",
+      "30598079",
+      "25215331",
+      "38859561",
+      "7610053",
+      "36166165",
+      "27153623",
+      "32685987",
+      "26605532",
+      "31377426",
+      "25625239",
+      "29304739",
+      "22955617",
+      "30043382",
+      "28552554",
+      "28642500",
+      "29074739",
+      "24923879",
+      "38964595",
+      "25757768",
+      "27259149",
+      "34251618",
+      "23657885",
+      "32728217",
+      "21981728",
+      "26156321",
+      "29604265",
+      "15195136",
+      "7680097",
+      "33481716",
+      "29669733",
+      "33279983",
+      "22900019",
+      "24852592",
+      "27558448",
+      "34101388",
+      "30131367",
+      "37525156",
+      "8462871",
+      "19449463",
+      "9611237",
+      "33219661",
+      "17283013",
+      "2800333",
+      "3384331",
+      "39222575",
+      "15654880",
+      "7748489",
+      "26400163",
+      "12871210",
+      "9818094",
+      "10079079",
+      "37897092",
+      "25957350",
+      "28623584",
+      "9620609",
+      "31201999",
+      "29463772",
+      "22955828",
+      "29022941",
+      "2304464",
+      "29416743",
+      "34798459",
+      "26373455",
+      "10561583",
+      "9395238",
+      "3015490",
+      "14660676",
+      "11856314",
+      "24465674",
+      "12080064",
+      "29526463",
+      "29594496",
+      "12885916",
+      "22968456",
+      "8816476",
+      "23785304",
+      "10523648",
+      "29772251",
+      "11937547",
+      "8118044",
+      "19129223",
+      "17696881",
+      "23811145",
+      "8321206",
+      "30590402",
+      "9780231",
+      "3573142",
+      "22955983",
+      "14758038",
+      "19243610",
+      "3600646",
+      "15893750",
+      "31117818",
+      "24244184",
+      "2436225",
+      "34751401",
+      "10490592",
+      "1652054",
+      "9013762",
+      "22761590",
+      "1377279",
+      "11984004",
+      "12804118",
+      "1942252",
+      "34048560",
+      "28874753",
+      "34291710",
+      "30922998",
+      "33454736",
+      "32228704",
+      "37402191",
+      "36171722"
+    ],
+    "review": [
+      "33751027",
+      "25625239",
+      "24923879",
+      "3015490"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33751027.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_idhs-deep",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33751027",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab047",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

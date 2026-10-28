@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.19.745697",
+  "title": "A self-supervised DNA foundation model with collapse-resistant multimodal fusion",
+  "authors": "Yuyan Chen",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出一种自监督DNA多模态基础模型，融合序列与染色质可及性生成可复用嵌入，虽非直接研究TF-DNA结合机制，但其多模态融合与嵌入方法可迁移至转录因子结合位点预测等互作建模任务。",
+  "abstract": "Genomic foundation models pretrained on DNA sequence have achieved strong performance across many tasks, but sequence-only representations cannot fully capture regulatory information from additional DNA-centric modalities. Existing multimodal genomic models are optimized for specific prediction tasks rather than reusable embeddings. Directly fusing heterogeneous modalities is challenging because sparse, peak-shaped regulatory signals and dense sequence embeddings have markedly different statistical structures, making naive alignment prone to near-zero solutions. We present a self-supervised DNA-centric multimodal foundation model integrating DNA sequence embeddings with local and global chromatin accessibility in a shared encoder to produce reusable window-level embeddings. We show that global normalization alleviates this collapse, enabling effective joint learning. The resulting embeddings improve regulatory activity prediction, regulatory signal ranking and chromatin accessibility peak detection, achieving a 4.6-fold AUPRC improvement over the DNA-only baseline, with further gains on external ClinVar, GTEx eQTL and PBMC caQTL datasets.",
+  "abstract_zh": "基于DNA序列预训练的基因组基础模型已在许多任务上取得强劲表现，但仅序列表示无法完全捕获来自额外DNA中心模态的调控信息。现有多模态基因组模型针对特定预测任务进行优化，而非生成可复用的嵌入。直接融合异质模态具有挑战性，因为稀疏、峰状的调控信号与密集的序列嵌入具有显著不同的统计结构，使得朴素对齐容易陷入接近零的解。我们提出一种自监督的DNA中心多模态基础模型，在共享编码器中整合DNA序列嵌入与局部和全局染色质可及性，以生成可复用的窗口级嵌入。我们表明，全局归一化缓解了这种坍缩，从而实现有效的联合学习。所得嵌入改善了调控活性预测、调控信号排序和染色质可及性峰检测，在仅DNA基线上实现了4.6倍的AUPRC提升，并在外部ClinVar、GTEx eQTL和PBMC caQTL数据集上获得进一步增益。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745697",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745697",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.19.745697/index.html"
+}

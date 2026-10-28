@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "39843429",
+    "doi": "10.1038/s41467-025-55914-x",
+    "title": "Real-world clinical multi-omics analyses reveal bifurcation of ER-independent and ER-dependent drug resistance to CDK4/6 inhibitors."
+  },
+  "content": {
+    "abstract": "To better understand drug resistance mechanisms to CDK4/6 inhibitors and inform precision medicine, we analyze real-world multi-omics data from 400 HR+/HER2- metastatic breast cancer patients treated with CDK4/6 inhibitors plus endocrine therapies, including 200 pre-treatment and 227 post-progression samples. The prevalences of ESR1 and RB1 alterations significantly increase in post-progression samples. Integrative clustering analysis identifies three subgroups harboring different resistance mechanisms: ER driven, ER co-driven and ER independent. The ER independent subgroup, growing from 5% pre-treatment to 21% post-progression, is characterized by down-regulated estrogen signaling and enrichment of resistance markers including TP53 mutations, CCNE1 over-expression and Her2/Basal subtypes. Trajectory inference analyses identify a pseudotime variable strongly correlated with ER independence and disease progression; and revealed bifurcated evolutionary trajectories for ER-independent vs. ER-dependent drug resistance mechanisms. Machine learning models predict therapeutic dependency on ESR1 and CDK4 among ER-dependent tumors and CDK2 dependency among ER-independent tumors, confirmed by experimental validation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Cyclin-Dependent Kinase 4/antagonists & inhibitors/metabolism/genetics",
+      "*Breast Neoplasms/drug therapy/genetics/metabolism/pathology",
+      "*Cyclin-Dependent Kinase 6/antagonists & inhibitors/metabolism/genetics",
+      "Female",
+      "*Estrogen Receptor alpha/metabolism/genetics",
+      "*Protein Kinase Inhibitors/therapeutic use/pharmacology",
+      "*Receptors, Estrogen/metabolism/genetics",
+      "Retinoblastoma Binding Proteins/genetics/metabolism",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Cyclin E/genetics/metabolism",
+      "Oncogene Proteins/genetics/metabolism",
+      "Mutation",
+      "Gene Expression Regulation, Neoplastic",
+      "Machine Learning",
+      "Multiomics",
+      "Ubiquitin-Protein Ligases",
+      "Cyclin-Dependent Kinase 2"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kan, Zhengyan",
+        "Wen, Ji",
+        "Bonato, Vinicius",
+        "Webster, Jennifer",
+        "Yang, Wenjing",
+        "Ivanov, Vladimir",
+        "Kim, Kimberly Hyunjung",
+        "Roh, Whijae",
+        "Liu, Chaoting",
+        "Mu, Xinmeng Jasmine",
+        "Lapira-Miller, Jennifer",
+        "Oyer, Jon",
+        "VanArsdale, Todd",
+        "Rejto, Paul A",
+        "Bienkowska, Jadwiga"
+      ],
+      "short_names": [
+        "Kan Z",
+        "Wen J",
+        "Bonato V",
+        "Webster J",
+        "Yang W",
+        "Ivanov V",
+        "Kim KH",
+        "Roh W",
+        "Liu C",
+        "Mu XJ",
+        "Lapira-Miller J",
+        "Oyer J",
+        "VanArsdale T",
+        "Rejto PA",
+        "Bienkowska J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4280-0850",
+        "ORCID: 0000-0002-3327-5591",
+        "ORCID: 0000-0002-7395-9939"
+      ],
+      "affiliations": [
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA. zhengyan.kan@pfizer.com.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Biostatistics, Pfizer Inc., San Diego, CA, USA.",
+        "Real World Evidence, Pfizer Inc., New York, NY, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Global Biometrics & Data Management, Pfizer Inc., Cambridge, MA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA.",
+        "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA. Jadwiga.R.Bienkowska@pfizer.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kan, Zhengyan",
+        "short_name": "Kan Z",
+        "identifiers": [
+          "0000-0003-4280-0850"
+        ],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA. zhengyan.kan@pfizer.com."
+        ]
+      },
+      {
+        "full_name": "Wen, Ji",
+        "short_name": "Wen J",
+        "identifiers": [
+          "0000-0002-3327-5591"
+        ],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bonato, Vinicius",
+        "short_name": "Bonato V",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatistics, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Webster, Jennifer",
+        "short_name": "Webster J",
+        "identifiers": [],
+        "affiliations": [
+          "Real World Evidence, Pfizer Inc., New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenjing",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ivanov, Vladimir",
+        "short_name": "Ivanov V",
+        "identifiers": [],
+        "affiliations": [
+          "Global Biometrics & Data Management, Pfizer Inc., Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Kimberly Hyunjung",
+        "short_name": "Kim KH",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Roh, Whijae",
+        "short_name": "Roh W",
+        "identifiers": [
+          "0000-0002-7395-9939"
+        ],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Chaoting",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mu, Xinmeng Jasmine",
+        "short_name": "Mu XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lapira-Miller, Jennifer",
+        "short_name": "Lapira-Miller J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Oyer, Jon",
+        "short_name": "Oyer J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "VanArsdale, Todd",
+        "short_name": "VanArsdale T",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rejto, Paul A",
+        "short_name": "Rejto PA",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bienkowska, Jadwiga",
+        "short_name": "Bienkowska J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Research & Development, Pfizer Inc., San Diego, CA, USA. Jadwiga.R.Bienkowska@pfizer.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jan 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/23 05:16",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42539880",
+      "42505223",
+      "42279298",
+      "42230553",
+      "42146900",
+      "42045425",
+      "41762297",
+      "41712871",
+      "41646442",
+      "41551535",
+      "41226406",
+      "40967492",
+      "40881104",
+      "40164816"
+    ],
+    "refs": [
+      "38503755",
+      "38462150",
+      "37537300",
+      "37500767",
+      "37475004",
+      "37289194",
+      "36859337",
+      "36059650",
+      "35981096",
+      "35881197",
+      "35594047",
+      "35538119",
+      "35469013",
+      "35243422",
+      "34520734",
+      "34493872",
+      "34183353",
+      "34098105",
+      "33712601",
+      "33446413",
+      "33286070",
+      "33241287",
+      "33095682",
+      "32404308",
+      "32152485",
+      "31570899",
+      "31539305",
+      "31435878",
+      "31040929",
+      "30988514",
+      "30914743",
+      "30914635",
+      "30847853",
+      "30807234",
+      "30787437",
+      "30478914",
+      "30206110",
+      "29083409",
+      "28753430",
+      "28397828",
+      "28194015",
+      "27748766",
+      "27748765",
+      "27270079",
+      "26771021",
+      "26557899",
+      "26343385",
+      "25849221",
+      "25594174",
+      "24777111",
+      "24113773",
+      "23431203",
+      "23323831",
+      "17389406",
+      "15016911"
+    ],
+    "similar": [
+      "39843429",
+      "32860163",
+      "39087959",
+      "33409716",
+      "38788968",
+      "40186268",
+      "39821039",
+      "36071033",
+      "31780379",
+      "39128978",
+      "32415339",
+      "40244377",
+      "31471681",
+      "32307447",
+      "28626036",
+      "31852484",
+      "39614985",
+      "39730704",
+      "32393270",
+      "39955556",
+      "31878959",
+      "34508104",
+      "38381406",
+      "32426848",
+      "25991817",
+      "39530636",
+      "27564114",
+      "40121890",
+      "39449657",
+      "40082241",
+      "32086342",
+      "30531871",
+      "32795346",
+      "39992682",
+      "30537512",
+      "38815172",
+      "28448864",
+      "39425174",
+      "30054831",
+      "31439820",
+      "38819400",
+      "33189562",
+      "32297248",
+      "39875975",
+      "40141282",
+      "34830174",
+      "35137602",
+      "24444383",
+      "33323381",
+      "38886784",
+      "31970560",
+      "38943828",
+      "39667501",
+      "27020857",
+      "27748766",
+      "39177933",
+      "31859246",
+      "39090361",
+      "39393354",
+      "34864350",
+      "32446638",
+      "28197838",
+      "29847850",
+      "39305463",
+      "22564725",
+      "39670390",
+      "32130619",
+      "29497278",
+      "29086897",
+      "38954773",
+      "39603379",
+      "39779447",
+      "38781103",
+      "37889120",
+      "39718288",
+      "34433817",
+      "36749874",
+      "29893769",
+      "39352623",
+      "27472462",
+      "39433229",
+      "39195280",
+      "26896604",
+      "37475004",
+      "38861871",
+      "27634906",
+      "30389903",
+      "37567972",
+      "32899866",
+      "29226311",
+      "28249908",
+      "28794284",
+      "34392831",
+      "34460112",
+      "38480701",
+      "37801608",
+      "22767154",
+      "29729807",
+      "33453094",
+      "26977878"
+    ],
+    "review": [
+      "39843429",
+      "33409716",
+      "39821039",
+      "32415339",
+      "40244377",
+      "31471681",
+      "39614985",
+      "32426848",
+      "39530636",
+      "40121890",
+      "40082241",
+      "28448864",
+      "30054831",
+      "34830174",
+      "35137602",
+      "31970560",
+      "38943828",
+      "39177933",
+      "34864350",
+      "32446638",
+      "28197838",
+      "29847850",
+      "39305463",
+      "29497278",
+      "29086897",
+      "39718288",
+      "39433229",
+      "30389903",
+      "32899866",
+      "29226311",
+      "34392831"
+    ],
+    "pmc": [
+      "11754447"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-55914-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39843429/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

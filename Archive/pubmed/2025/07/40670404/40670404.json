@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "40670404",
+    "doi": "10.1038/s41598-025-06756-6",
+    "title": "Potential diagnostic and therapeutic gene in chronic low back pain through pyroptosis modulation: A silico study based on the dataset analysis."
+  },
+  "content": {
+    "abstract": "Chronic low back pain (cLBP ) is a common condition that affects the quality of life, can be caused by disc degeneration, facet arthropathy, myofascial pain, sacroiliac joint pain, spondyloarthropathies, and nociplastic pain etc. Research suggests that excessive pyroptosis may trigger cytokine release and harmful inflammation, leading to tissue damage and organ dysfunction, which could be a potential molecular mechanism underlying these conditions. Our aim in this research was to look into the effects of genes associated with pyroptosis in cLBP, with the goal of describing possible markers for diagnosis and targets for treatment. A comprehensive analysis of Differentially Expressed Genes (DEGs) was performed utilizing the GSE177034 datasets sourced from the Gene Expression Omnibus (GEO) repository. GSE177034 included 98 patients admitted to the hospital for treatment of low back pain, all of whom had peripheral blood extracted and sequenced. We identified 883 DEGs, including 397 upregulated and 486 downregulated genes, in cLBP. The WGCNA revealed 11 co-expression modules, with the blue module presenting the utmost positive connection to pyroptosis. The GO and KEGG analyses showed that DEGs associated with pyroptosis were substantially enriched in pathways like the NF-kappaB transcription factor activity and the MyD88-dependent signaling pathway of Toll-like receptors. Machine learning approaches identified five pyroptosis relate hub genes (AVIL, PADI4, ARHGAP24, ST3GAL6, and BICDL2) as potential biomarkers. The cLBP diagnostic column chart model was established, demonstrating the accuracy of hub genes as biomarkers. A hub mRNA-related interaction network was constructed to identify potential therapeutic drugs, followed by verification of hub gene expression levels to validate their role in cLBP. Moreover, the investigation into immune cell infiltration revealed substantial disparities in the presence of five distinct immune cell types between the chronic LBP and acute LBP cohorts. Specifically, activated effector memory CD8 T cells (R = - 0.5407, p-value < 0.001) ,and CD56bright natural killer cells (R = - 0.5438, p-value < 0.001) were all found to be significantly different. These findings suggest that immune involvement may play a role in the development of cLBP. This study identified diagnostic biomarkers and therapeutic targets for cLBP, offering promising avenues for improved diagnosis and treatment. The identification of specific biomarkers, including AVIL, PADI4, ARHGAP24, ST3GAL6, and BICDL2, enhances diagnostic precision by enabling the stratification of cLBP subtypes based on underlying pathophysiology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Low Back Pain/genetics/diagnosis/therapy",
+      "*Pyroptosis/genetics",
+      "*Chronic Pain/genetics/diagnosis",
+      "Gene Expression Profiling",
+      "Computer Simulation",
+      "Gene Regulatory Networks",
+      "Biomarkers",
+      "Gene Expression Regulation",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Jintao",
+        "Sun, Tao"
+      ],
+      "short_names": [
+        "Guo J",
+        "Sun T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong Provincial Hospital, Shandong University, Jinan, 250100, China.",
+        "Department of PainManagement, Shandong Provincial Hospital, Shandong University, Jinan, 250001, China. sunt@sdfmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Jintao",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Provincial Hospital, Shandong University, Jinan, 250100, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Tao",
+        "short_name": "Sun T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of PainManagement, Shandong Provincial Hospital, Shandong University, Jinan, 250001, China. sunt@sdfmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 04:42",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39799497",
+      "39519354",
+      "37809657",
+      "37352727",
+      "36801999",
+      "36412502",
+      "36263145",
+      "36168627",
+      "34836746",
+      "34515922",
+      "34239691",
+      "34115979",
+      "33828074",
+      "33239404",
+      "33209869",
+      "31501419",
+      "31430374",
+      "30903160",
+      "30842595",
+      "29627532",
+      "29573870",
+      "29372025",
+      "28813641",
+      "27344193",
+      "25879280",
+      "23702978",
+      "19693652",
+      "10592173"
+    ],
+    "similar": [
+      "40670404",
+      "40977739",
+      "40659785",
+      "39512836",
+      "36291136",
+      "38062833",
+      "40091022",
+      "37386410",
+      "36565345",
+      "40350654",
+      "41044520",
+      "40216809",
+      "41145553",
+      "41479901",
+      "38890348",
+      "38277535",
+      "40367231",
+      "41146237",
+      "40307356",
+      "35578687",
+      "37359526",
+      "39978305",
+      "39670237",
+      "40830558",
+      "40574839",
+      "40263537",
+      "40374840",
+      "41410587",
+      "39375405",
+      "41052072",
+      "39953123",
+      "39069636",
+      "39028495",
+      "37491198",
+      "35957838",
+      "40259750",
+      "38402873",
+      "39699225",
+      "40860289",
+      "39341952",
+      "37837870",
+      "36438903",
+      "35558576",
+      "38863714",
+      "41316541",
+      "40119934",
+      "37325630",
+      "40374866",
+      "37752552",
+      "40274384",
+      "40781631",
+      "38509535",
+      "39328407",
+      "40406126",
+      "41239481",
+      "40821971",
+      "38899746",
+      "40510349",
+      "41120603",
+      "40500570",
+      "39341981",
+      "39050860",
+      "40949741",
+      "33099311",
+      "39953769",
+      "30132538",
+      "35713363",
+      "36044931",
+      "40055592",
+      "38774864",
+      "41401161",
+      "38333413",
+      "38993198",
+      "39086489",
+      "34536521",
+      "36854280",
+      "37235492",
+      "35378210",
+      "40766309",
+      "36699262",
+      "32811479",
+      "33407587",
+      "35069594",
+      "34553293",
+      "40628511",
+      "40753530",
+      "40093012",
+      "40634444",
+      "36576616",
+      "37740761",
+      "40996982",
+      "40663577",
+      "38981197",
+      "36967805",
+      "41196851",
+      "40313958",
+      "31987036",
+      "36918839",
+      "40289127",
+      "39403102"
+    ],
+    "review": [
+      "40670404",
+      "36565345"
+    ],
+    "pmc": [
+      "12267434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/chronicpain.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Pain"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-06756-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40670404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1140",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

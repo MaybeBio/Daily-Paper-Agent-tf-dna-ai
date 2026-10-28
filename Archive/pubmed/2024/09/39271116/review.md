@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a multi-modal deep learning model, EPBDxDNABERT-2, that integrates DNA breathing features derived from the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear dynamics model with the DNABERT-2 foundational model. They report improved genome-wide prediction of human transcription factor (TF) binding across 690 ChIP-seq experiments (161 TFs, 91 cell types), with AUROC gains up to 9.6% over a baseline without biophysical features. They also report validation on HT-SELEX data (215 TFs, 27 families) and claim improved interpretation of disease-related non-coding variants from GWAS.
+- **Visible evidence base** Abstract text only; no quantitative details beyond AUROC improvement, no model architecture specifics, no dataset splits, no baseline definitions, no variant analysis results
+- **Missing materials affecting confidence** Full methods, model architecture diagram, training and evaluation protocols, baseline model specification, statistical significance tests, HT-SELEX comparison details, variant analysis methodology and results, code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable integration of biophysical DNA dynamics with a deep learning foundational model for TF binding prediction. The reported AUROC improvements are notable, and the scope of validation across ChIP-seq and HT-SELEX datasets is commendable. However, the abstract lacks critical methodological details and statistical rigor to fully assess the robustness and generalizability of the claims. The variant interpretation component is mentioned but not substantiated with any results. The work is of interest to computational genomics and regulatory biology communities, but the current evidence base is insufficient to establish the case without access to the full manuscript.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF binding prediction and regulatory genomics would be interested due to the novel integration of biophysical features with a foundational model. Researchers studying DNA dynamics and its functional consequences would also find relevance. Additionally, those investigating non-coding variant interpretation in disease contexts may benefit from the proposed approach, provided the variant analysis claims are substantiated.
+- **Major strengths** The integration of a physics-based DNA dynamics model with a modern deep learning foundational model is conceptually novel and biologically motivated. The scale of training data (690 ChIP-seq experiments, 161 TFs) and external validation (HT-SELEX) suggests broad applicability. The reported AUROC improvement of up to 9.6% is substantial if consistent across TFs and cell types. The potential to link biophysical features to disease-related variants adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EPBDxDNABERT-2 significantly improves the prediction of over 660 TF-DNA, with an increase in the area under the receiver operating characteristic (AUROC) metric of up to 9.6% when compared to the baseline model that does not leverage DNA biophysical properties."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the baseline model architecture, whether the baseline uses the same DNABERT-2 backbone without EPBD features, or how the 9.6% AUROC improvement is distributed across TFs. The term "over 660 TF-DNA" is ambiguous, and no statistical significance measures (e.g., confidence intervals, p-values) are provided.
+  - **Why it matters** Without a clear baseline and statistical rigor, the reported improvement could be due to confounding factors such as dataset leakage, hyperparameter differences, or evaluation on a subset of TFs where the baseline performs poorly. The claim of "significant" improvement requires formal testing.
+  - **Resolution test** Provide a detailed description of the baseline model, report AUROC distributions across all TFs with confidence intervals, and include statistical tests (e.g., paired Wilcoxon signed-rank test) comparing EPBDxDNABERT-2 to the baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** "We expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (HT-SELEX) dataset of 215 TFs from 27 families, comparing EPBD with established frameworks."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which "established frameworks" were compared, the evaluation metrics used for HT-SELEX, or whether the model was retrained or fine-tuned for this dataset. No quantitative results from this comparison are presented.
+  - **Why it matters** The HT-SELEX validation is a key claim of generalizability, but without details on comparators and metrics, the reader cannot assess whether the improvement is meaningful or specific to certain TF families.
+  - **Resolution test** List the comparator frameworks, report performance metrics (e.g., AUROC, recall at fixed precision) for each, and describe the training or transfer learning protocol for HT-SELEX.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "EPBDxDNABERT-2, trained on a large-scale multi-species genomes, with a cross-attention mechanism, improved predictive power shedding light on the mechanisms underlying disease-related non-coding variants discovered in genome-wide association studies."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims that the model "sheds light" on disease-related non-coding variants, but no results, examples, or evaluation of variant interpretation are provided. The phrase "trained on a large-scale multi-species genomes" is also vague, as the earlier text mentions human ChIP-seq data.
+  - **Why it matters** This claim extends the work to a clinically relevant domain, but without any supporting evidence, it is currently unsupported and may overstate the model's utility.
+  - **Resolution test** Provide a dedicated section on variant analysis with concrete examples (e.g., known GWAS loci), quantitative metrics (e.g., enrichment of predicted binding sites in risk variants), and comparison to existing variant effect predictors.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "DNA breathing, thermodynamic stability, as well as transcriptional activity and transcription factor (TF) bindings are functionally correlated" is vague and does not specify the direction or strength of these correlations.
+  - **Required correction** Clarify the nature of these correlations with citations or brief examples to motivate the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, AUROC claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "over 660 TF-DNA" is imprecise; it is unclear if this refers to TF-DNA pairs, experiments, or unique TFs.
+  - **Required correction** Use precise terminology, e.g., "660 TF-cell type pairs" or "660 experiments," and specify the number of unique TFs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, model description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "cross-attention mechanism" but does not explain what modalities are being attended to or how this contributes to performance.
+  - **Required correction** Briefly describe the multi-modal architecture and the role of cross-attention in integrating DNA breathing features with sequence embeddings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (baseline and statistical rigor), R1-M2 (HT-SELEX comparison details), R1-M3 (variant analysis evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The integration of a nonlinear DNA dynamics model with a foundational deep learning model is original and not commonly explored in TF binding prediction. This is a strength.
+  - Scientific importance: Improved TF binding prediction has broad implications for regulatory genomics and disease variant interpretation, making the work potentially important if claims are robust.
+  - Interdisciplinary readership: The work bridges biophysics, machine learning, and genomics, which could attract a diverse audience. However, the abstract may be too technical for nonspecialists without clearer context.
+  - Technical soundness: Currently not established from the abstract due to missing baseline details, statistical tests, and validation specifics.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with EPBD, DNABERT-2, and ChIP-seq/HT-SELEX. A brief explanation of DNA breathing and its biological relevance would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the abstract alone does not provide sufficient evidence to establish the claims. Full manuscript review is necessary to verify the methodology and results.
+
+## Risk / unsupported claims
+- The claim of "significant" improvement in AUROC is unsupported without statistical tests.
+- The claim that the model "sheds light" on disease-related non-coding variants is unsupported, as no variant analysis results are presented.
+- The statement "trained on a large-scale multi-species genomes" is inconsistent with the earlier focus on human ChIP-seq data and is not verifiable from the abstract.
+- The HT-SELEX comparison to "established frameworks" is unquantified and cannot be evaluated.

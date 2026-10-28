@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "39904941",
+    "doi": "10.1007/s10278-024-01376-4",
+    "title": "Preoperatively Predicting PIT1 Expression in Pituitary Adenomas Using Habitat, Intra-tumoral and Peri-tumoral Radiomics Based on MRI."
+  },
+  "content": {
+    "abstract": "The study aimed to predict expression of pituitary transcription factor 1 (PIT1) in pituitary adenomas using habitat, intra-tumoral and peri-tumoral radiomics models. A total of 129 patients with pituitary adenoma (training set, n = 103; test set, n = 26) were retrospectively enrolled. A total of 12, 18, 14, 13, and 14 radiomics features were selected from the ROI(intra), ROI(intra+peri) (ROI(intra+2mm), ROI(intra+4mm), ROI(intra+6mm)), and ROI(habitat), respectively. Then, three machine learning algorithms were employed to develop radiomic models, including logistic regression (LR), support vector machines (SVM), and multilayer perceptron (MLP). The performances of the intra-tumoral, combined intra-tumoral and peri-tumoral, and habitat models were evaluated. The peritumoral region (ROI(2mm), ROI(4mm), ROI(6mm)) of the combined model with the highest performance was individually selected for further peritumoral analysis. Moreover, a deep learning radiomics nomogram (DLRN) was constructed incorporating clinical characteristics and the peri-tumoral and habitat models for individual prediction. The combined model(intra+2mm) based on ROI(intra+2mm) achieved a better performance (AUC, 0.800) than that of the intra-tumoral model alone (AUC, 0.731). And the habitat model showed a higher performance (AUC, 0.806) than that of the intra-tumoral model. In addition, the performance of the peri-tumoral model based on ROI(2mm) was 0.694 in the testing set. Furthermore, the DLRN achieved the highest performance of 0.900 in the test set. The DLRN showed the best performance for PIT1 expression in pituitary adenomas, followed by the habitat, combined model(intra+2mm), intra-tumoral model, and peri-tumoral model based on ROI(2mm), respectively. These different models are helpful for the model choice in clinical work.",
+    "keywords": [
+      "Habitat",
+      "PIT1",
+      "Peri-tumoral region",
+      "Pituitary adenoma",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pituitary Neoplasms/diagnostic imaging/metabolism",
+      "*Magnetic Resonance Imaging/methods",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "Retrospective Studies",
+      "*Adenoma/diagnostic imaging/metabolism",
+      "Adult",
+      "*Transcription Factor Pit-1/metabolism",
+      "Nomograms",
+      "Machine Learning",
+      "Aged",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zang, Yuying",
+        "Zheng, Fei",
+        "Feng, Limei",
+        "Shi, Xinyao",
+        "Chen, Xuzhu"
+      ],
+      "short_names": [
+        "Zang Y",
+        "Zheng F",
+        "Feng L",
+        "Shi X",
+        "Chen X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, The Affiliated Children's Hospital, Capital Institute of Pediatrics, Beijing, China.",
+        "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China. radiology888@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zang, Yuying",
+        "short_name": "Zang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Children's Hospital, Capital Institute of Pediatrics, Beijing, China.",
+          "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Fei",
+        "short_name": "Zheng F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Limei",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Xinyao",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuzhu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China. radiology888@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of imaging informatics in medicine"
+    ],
+    "journal_abbrev": [
+      "J Imaging Inform Med"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 00:19",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38090477",
+      "37967742",
+      "37841255",
+      "37661840",
+      "37597123",
+      "37568660",
+      "37418134",
+      "37330356",
+      "37119095",
+      "37020103",
+      "36856733",
+      "36631635",
+      "35911979",
+      "35725837",
+      "35454768",
+      "35345309",
+      "35291028",
+      "35061210",
+      "34692548",
+      "34673544",
+      "33146792",
+      "33106857",
+      "33028594",
+      "33000120",
+      "32622312",
+      "32601340",
+      "32509567",
+      "32488759",
+      "32432035",
+      "32154773",
+      "32087466",
+      "31784650",
+      "31507537",
+      "31375883",
+      "31316464",
+      "31129097",
+      "31011772",
+      "31002322",
+      "30561278",
+      "30255254",
+      "29922931",
+      "29714680",
+      "29572634",
+      "29348883",
+      "29092951"
+    ],
+    "similar": [
+      "39904941",
+      "38750186",
+      "40082786",
+      "41064090",
+      "40976768",
+      "40091561",
+      "40771372",
+      "39698668",
+      "39934078",
+      "29572634",
+      "39814661",
+      "37488296",
+      "30255254",
+      "34837512",
+      "39477745",
+      "40676529",
+      "39773380",
+      "32087466",
+      "40155892",
+      "39736623",
+      "40011817",
+      "40841689",
+      "40229300",
+      "38844718",
+      "40624579",
+      "32781640",
+      "40632147",
+      "40022114",
+      "38001326",
+      "38609076",
+      "40640519",
+      "41044494",
+      "40319246",
+      "40329236",
+      "40145094",
+      "40116948",
+      "41130881",
+      "39662425",
+      "40924329",
+      "40044546",
+      "34422095",
+      "37160427",
+      "38916618",
+      "38642400",
+      "40214734",
+      "39972270",
+      "37330356",
+      "39399393",
+      "40085941",
+      "38156921",
+      "38016821",
+      "41290428",
+      "37642722",
+      "39729136",
+      "37987856",
+      "39472207",
+      "37170546",
+      "40884974",
+      "33646452",
+      "40702236",
+      "39140631",
+      "39569528",
+      "40899931",
+      "41102694",
+      "40108506",
+      "35971393",
+      "31561943",
+      "39910477",
+      "40960691",
+      "40204586",
+      "38997568",
+      "37410710",
+      "37060378",
+      "40760028",
+      "41310289",
+      "34307178",
+      "41173217",
+      "34683132",
+      "40987673",
+      "38871552",
+      "34745008",
+      "39735531",
+      "41389260",
+      "40615943",
+      "41272572",
+      "40866274",
+      "32860977",
+      "36738323",
+      "37723572",
+      "39604895",
+      "39222703",
+      "37643927",
+      "39060962",
+      "39854715",
+      "40813162",
+      "39415127",
+      "40555637",
+      "38378316",
+      "39464711",
+      "40330775"
+    ],
+    "review": [
+      "39904941"
+    ],
+    "pmc": [
+      "12701193"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39904941/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

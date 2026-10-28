@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "37902912",
+    "doi": "10.1007/s10528-023-10530-6",
+    "title": "Integrated Network Pharmacology and Molecular Docking to Elucidate the Efficacy and Potential Mechanisms of Tea Ingredients in Sepsis Treatment."
+  },
+  "content": {
+    "abstract": "Sepsis, a critical health condition induced by an overactive innate immune response and reactive oxygen species (ROS)-driven host damage through apoptosis and ferroptosis, continues to pose a significant mortality risk. Despite accumulating evidence of the potential therapeutic properties of tea ingredients, their specific anti-sepsis potential remains inadequately explored. This study comprehensively investigates the targeted genes of tea ingredients, notably epigallocatechin 3-gallate (EGCG), and their correlation with sepsis signature genes. Our findings elucidate that tea ingredients, especially EGCG, exhibit substantial potential in mitigating inflammation and sepsis-induced damage. Through the inhibition of the MAPK cascade and macrophage activation and by impeding the transcriptional activity of RELA (transcription factor p65) in sepsis, EGCG demonstrates significant anti-sepsis efficacy. Molecular docking analysis further underpins this by revealing the close proximity of EGCG and (-)-catechin gallate binding sites to that of RELA on DNA. Subsequent in vitro assays illuminated EGCG's instrumental role in modulating macrophage M2 polarization, balancing M1 and M2 differentiation of bone marrow-derived macrophages (BMDMs), curtailing inflammatory factor secretion, and inhibiting ROS production. Moreover, EGCG effectively suppresses the expression of ferroptosis/apoptosis markers in LPS-induced macrophages during their early stages. Our study advances our understanding of sepsis prevention and treatment strategies, suggesting that tea ingredients such as EGCG could play a pivotal role in developing future sepsis therapies due to their protective effects.",
+    "keywords": [
+      "EGCG",
+      "Molecular docking",
+      "Network pharmacology",
+      "Sepsis",
+      "Tea ingredients"
+    ],
+    "mesh_terms": [
+      "*Sepsis/drug therapy/metabolism",
+      "*Molecular Docking Simulation",
+      "*Tea/chemistry",
+      "*Catechin/analogs & derivatives/pharmacology/therapeutic use/chemistry",
+      "Animals",
+      "Mice",
+      "Network Pharmacology",
+      "Macrophages/drug effects/metabolism",
+      "Transcription Factor RelA/metabolism",
+      "Humans",
+      "Reactive Oxygen Species/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Lei",
+        "Jiang, Ye",
+        "Tao, Qing",
+        "Shi, Jianfeng",
+        "Lu, Min",
+        "Yao, Xiaoming"
+      ],
+      "short_names": [
+        "Wang L",
+        "Jiang Y",
+        "Tao Q",
+        "Shi J",
+        "Lu M",
+        "Yao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+        "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China.",
+        "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+        "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China.",
+        "Center for Translational Medicine and Jiangsu Key Laboratory of Molecular Medicine, Medical School, Nanjing University, Nanjing, 210093, Jiangsu, China.",
+        "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+        "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China.",
+        "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China. lumin_njucm@163.com.",
+        "Gastroenterology Department, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China. lumin_njucm@163.com.",
+        "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China. yaoxm73@sina.com.",
+        "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China. yaoxm73@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+          "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ye",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+          "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Qing",
+        "short_name": "Tao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translational Medicine and Jiangsu Key Laboratory of Molecular Medicine, Medical School, Nanjing University, Nanjing, 210093, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jianfeng",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China.",
+          "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Min",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China. lumin_njucm@163.com.",
+          "Gastroenterology Department, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China. lumin_njucm@163.com."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaoming",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210028, China. yaoxm73@sina.com.",
+          "Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, 210028, China. yaoxm73@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/30 18:43",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "41137229",
+      "39910395"
+    ],
+    "refs": [
+      "35988289",
+      "35453758",
+      "35287352",
+      "35182399",
+      "35094491",
+      "33330900",
+      "33241658",
+      "33216711",
+      "33040826",
+      "32415945",
+      "29635128",
+      "26293782",
+      "25818455",
+      "23136259",
+      "22570747",
+      "19302050"
+    ],
+    "similar": [
+      "37902912",
+      "32575718",
+      "29843451",
+      "33038311",
+      "34875388",
+      "22020144",
+      "10775421",
+      "27191001",
+      "31918176",
+      "21364905",
+      "22480519",
+      "12592390",
+      "38662666",
+      "38543009",
+      "22022384",
+      "34126197",
+      "31371944",
+      "34385001",
+      "24249144",
+      "23087143",
+      "34018522",
+      "34562843",
+      "27531904",
+      "33069855",
+      "35669076",
+      "36139034",
+      "17987129",
+      "25644976",
+      "35345998",
+      "20011976",
+      "27825679",
+      "22753231",
+      "27634207",
+      "31005721",
+      "31376653",
+      "9281609",
+      "29862488",
+      "35640712",
+      "19065584",
+      "32660101",
+      "33907248",
+      "22742579",
+      "32092951",
+      "28532672",
+      "11349063",
+      "16537022",
+      "31174271",
+      "16211268",
+      "32726662",
+      "26586942",
+      "15113942",
+      "9868178",
+      "17363366",
+      "26375285",
+      "23582951",
+      "36597465",
+      "26293782",
+      "31743829",
+      "17545942",
+      "32316306",
+      "38055068",
+      "14672711",
+      "15637567",
+      "39380150",
+      "24953562",
+      "39093995",
+      "39116773",
+      "16890209",
+      "33451050",
+      "32688217",
+      "28679060",
+      "10048310",
+      "22639915",
+      "21827739",
+      "36080195",
+      "17392095",
+      "29267216",
+      "30528995",
+      "22918967",
+      "16471901",
+      "29468843",
+      "33371812",
+      "12395181",
+      "27956351",
+      "23107686",
+      "19406223",
+      "22959059",
+      "16115949",
+      "27832636",
+      "27664626",
+      "24494192",
+      "35211881",
+      "25329972",
+      "19325845",
+      "32512188",
+      "33023525",
+      "16876833",
+      "30104534",
+      "27338284",
+      "21328612",
+      "35287352",
+      "24044575",
+      "26602917",
+      "38893431",
+      "37216484",
+      "39272451"
+    ],
+    "review": [
+      "37902912",
+      "29843451",
+      "22020144",
+      "31918176",
+      "38543009",
+      "27531904",
+      "35345998",
+      "27634207",
+      "32660101",
+      "23582951",
+      "36597465",
+      "10048310",
+      "21827739",
+      "24494192",
+      "16876833",
+      "30104534",
+      "37216484"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10528-023-10530-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

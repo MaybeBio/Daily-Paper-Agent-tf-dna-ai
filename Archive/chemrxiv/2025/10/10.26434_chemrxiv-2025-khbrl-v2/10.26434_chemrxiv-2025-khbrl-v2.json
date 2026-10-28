@@ -1,0 +1,315 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-khbrl-v2",
+  "title": "Data-centric training enables meaningful interaction learning in protein–ligand binding affinity prediction",
+  "doi": "10.26434/chemrxiv-2025-khbrl-v2",
+  "abstract": "Predicting protein–ligand binding affinity remains a fundamental challenge in drug discovery, where machine learning models often struggle with rotational sensitivity, overfitting, and poor generalization. Here, we present a convolutional neural network (CNN)–based scoring function that emphasizes the careful design of the training strategy over architectural complexity. Systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance. We also introduce a simple regularization technique that reduces reliance on isolated protein or ligand features and, together with random rotation, promotes learning of meaningful intermolecular interaction patterns. The resulting model, built on a simple architecture, generalizes across diverse test conditions, including structurally disjoint splits, and matches or exceeds the performance of state-of-the-art methods. Through systematic ablation studies and interpretability experiments, we provide insights into model behaviour, highlighting the importance of data-centric design in developing reliable scoring functions.",
+  "authors": [
+    "Matheus da Silva",
+    "Lincon Vidal",
+    "Isabella Guedes",
+    "Camila de Magalhães",
+    "Fábio Custódio",
+    "Laurent Dardenne"
+  ],
+  "published_date": "2025-10-06",
+  "updated_date": "2025-10-06T07:17:55Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-khbrl-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-khbrl-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2026-08-22T09:27:41Z",
+        "timestamp": 1787390861968,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2025-10-06T00:00:00Z",
+            "timestamp": 1759708800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Predicting protein–ligand binding affinity remains a fundamental challenge in drug discovery, where machine learning models often struggle with rotational sensitivity, overfitting, and poor generalization. Here, we present a convolutional neural network (CNN)–based scoring function that emphasizes the careful design of the training strategy over architectural complexity. Systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance. We also introduce a simple regularization technique that reduces reliance on isolated protein or ligand features and, together with random rotation, promotes learning of meaningful intermolecular interaction patterns. The resulting model, built on a simple architecture, generalizes across diverse test conditions, including structurally disjoint splits, and matches or exceeds the performance of state-of-the-art methods. Through systematic ablation studies and interpretability experiments, we provide insights into model behaviour, highlighting the importance of data-centric design in developing reliable scoring functions.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-khbrl-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2025-10-06T07:17:55Z",
+        "timestamp": 1759735075000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Data-centric training enables meaningful interaction learning in protein–ligand binding affinity prediction"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Matheus",
+          "family": "da Silva",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0498ekt05",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lincon",
+          "family": "Vidal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0498ekt05",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabella",
+          "family": "Guedes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0498ekt05",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Camila",
+          "family": "de Magalhães",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03490as77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Universidade Federal do Rio de Janeiro",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fábio",
+          "family": "Custódio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0498ekt05",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8518-8062",
+          "authenticated-orcid": false,
+          "given": "Laurent",
+          "family": "Dardenne",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0498ekt05",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-khbrl-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2026-08-22T09:09:36Z",
+        "timestamp": 1787389776000
+      },
+      "score": 105.1855,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-khbrl-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-khbrl-v2",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13321-026-01288-1",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

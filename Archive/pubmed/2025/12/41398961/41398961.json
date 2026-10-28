@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41398961",
+    "doi": "10.1186/s13008-025-00173-x",
+    "title": "hsa-let-7b-5p-associated BUB1/TMPO-AS1 ceRNA axis identified as a potential biomarker in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: BUB1, a key mitotic checkpoint kinase, is often dysregulated in cancer, yet its regulatory mechanism remains unclear. This study investigates the BUB1-centered miRNA-lncRNA-mRNA (ceRNA) network, its role in cell cycle regulation and immune modulation. METHODS: Prognostic significance and expression profiles were assessed using TCGA-based databases such as KM Plotter, UALCAN, OncoDB, ENCORI, GEPIA2, Lung Cancer Explorer, and TCGAnalyzeR. Transcription factors were identified via Enrichr, and a ceRNA network was constructed using miRNet. Binding affinity and folding energy between BUB1, miRNA, and lncRNA were predicted using miRWalk and RNA22v2. Molecular docking evaluated interactions with natural compounds, chemotherapeutics, and inhibitor. Immune subpopulations were visualized using the SPRING viewer and correlation analysis with the immune cells was conducted using the GSCA and TIMER2.0 databases. RESULTS: BUB1 overexpression correlated with poor LUAD prognosis, especially in smokers (HR = 1.76), with transcriptomic analysis showing a 2.46 log2-fold increase in BUB1 transcript levels in tumor. TF-E2F1 and lncRNA-TMPO-AS1 were positively correlated with BUB1 (R = 0.664 and R = 0.632, respectively), while miRNA hsa-let-7b-5p showed a negative correlation (R = - 0.366). TMPO-AS1 exhibited an inverse association with hsa-let-7b-5p, suggesting a molecular sponge formation, repressing its tumor-suppressive activity. Docking revealed strong binding affinity of hesperidin (- 9.4 kcal/mol) with BUB1. Additionally, BUB1 expression negatively correlated with CD4(+) T cells, suggesting an immunosuppressive role. CONCLUSION: This study identifies the BUB1/E2F1/TMPO-AS1/hsa-let-7b-5p axis as a potential prognostic biomarker and therapeutic target in LUAD. Targeting hsa-let-7b-5p may modulate this network, offering opportunities for both diagnostic and prognostic interventions.",
+    "keywords": [
+      "Competitive endogenous RNA network",
+      "Lung adenocarcinoma",
+      "Molecular docking",
+      "Prognosis",
+      "Smoking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baweja, Bhavika",
+        "Vats, Prerna",
+        "Saini, Chainsee",
+        "Kumar, Ashok",
+        "Nema, Rajeev"
+      ],
+      "short_names": [
+        "Baweja B",
+        "Vats P",
+        "Saini C",
+        "Kumar A",
+        "Nema R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Saket Nagar, Bhopal, Madhya Pradesh, 462020, India. ashok.biochemistry@aiimsbhopal.edu.in.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India. rajeev.nema@jaipur.manipal.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baweja, Bhavika",
+        "short_name": "Baweja B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Vats, Prerna",
+        "short_name": "Vats P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Saini, Chainsee",
+        "short_name": "Saini C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ashok",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Saket Nagar, Bhopal, Madhya Pradesh, 462020, India. ashok.biochemistry@aiimsbhopal.edu.in."
+        ]
+      },
+      {
+        "full_name": "Nema, Rajeev",
+        "short_name": "Nema R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India. rajeev.nema@jaipur.manipal.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell division"
+    ],
+    "journal_abbrev": [
+      "Cell Div"
+    ],
+    "pub_date": "2025 Dec 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/16 06:29",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41035023",
+      "40739089",
+      "40715478",
+      "40693237",
+      "40563443",
+      "40459946",
+      "40437556",
+      "40183319",
+      "40069598",
+      "40016762",
+      "39725978",
+      "39430818",
+      "39409911",
+      "39352464",
+      "39282581",
+      "39215192",
+      "39147662",
+      "39048649",
+      "39036545",
+      "39025206",
+      "39013849",
+      "38987356",
+      "38983267",
+      "38863037",
+      "38766122",
+      "38438207",
+      "38396175",
+      "38295934",
+      "38254834",
+      "38243040",
+      "38132337",
+      "38070277",
+      "38053725",
+      "38034403",
+      "37974107",
+      "37823596",
+      "37721630",
+      "37466419",
+      "37390982",
+      "37258578",
+      "37019900",
+      "37000212",
+      "36968215",
+      "36873301",
+      "36869384",
+      "36856946",
+      "36845346",
+      "36833320",
+      "36590503",
+      "36549921",
+      "36309619",
+      "36303832",
+      "36264497",
+      "36237324",
+      "36217480",
+      "35931874",
+      "35769782",
+      "35534623",
+      "35493295",
+      "35184951",
+      "35078134",
+      "35031926",
+      "35016691",
+      "34852826",
+      "34718715",
+      "34500460",
+      "34387689",
+      "34385702",
+      "34282757",
+      "34273640",
+      "33872216",
+      "33807717",
+      "33780170",
+      "33601912",
+      "33591942",
+      "33494181",
+      "33409811",
+      "33330110",
+      "32781708",
+      "32564237",
+      "32442275",
+      "32269624",
+      "31114875",
+      "30532070",
+      "30429199",
+      "30335862",
+      "30335161",
+      "30329142",
+      "29228172",
+      "27580177",
+      "27188576",
+      "25466864",
+      "25378319",
+      "24297251",
+      "24114481",
+      "23258294",
+      "22787409",
+      "21605702",
+      "19802373",
+      "19399780",
+      "19216791",
+      "16990141",
+      "15933723",
+      "15264254"
+    ],
+    "similar": [
+      "41398961",
+      "41094477",
+      "40445483",
+      "40584906",
+      "40439393",
+      "40242419",
+      "41268575",
+      "39471036",
+      "40635988",
+      "35311097",
+      "35774125",
+      "35531948",
+      "38937856",
+      "32062549",
+      "35386284",
+      "41326474",
+      "38094657",
+      "41551936",
+      "33293866",
+      "33678324",
+      "31680323",
+      "35116848",
+      "32257949",
+      "35040749",
+      "33194594",
+      "33371806",
+      "32139259",
+      "35155200",
+      "33042838",
+      "34819106",
+      "41132901",
+      "35707363",
+      "40792171",
+      "37954276",
+      "39883704",
+      "32802839",
+      "37864213",
+      "34061466",
+      "36171401",
+      "33733556",
+      "34463892",
+      "30995921",
+      "38411863",
+      "35140744",
+      "34629892",
+      "33664819",
+      "36352081",
+      "32642095",
+      "35008626",
+      "33281971",
+      "34786045",
+      "36173063",
+      "34553021",
+      "36825773",
+      "32087328",
+      "37143115",
+      "32135645",
+      "41015145",
+      "35711945",
+      "32110100",
+      "34746134",
+      "41357570",
+      "37603701",
+      "38176923",
+      "38495494",
+      "33262650",
+      "31106044",
+      "38862441",
+      "34655361",
+      "34485383",
+      "38864705",
+      "41030788",
+      "41133496",
+      "40913903",
+      "33295056",
+      "35600383",
+      "40123810",
+      "34264003",
+      "29849986",
+      "33717544",
+      "38370382",
+      "31211984",
+      "34589524",
+      "38062804",
+      "38393298",
+      "37244051",
+      "34374893",
+      "39117252",
+      "34516341",
+      "34398996",
+      "32221048",
+      "38410497",
+      "33123295",
+      "39028420",
+      "33371795",
+      "34620091",
+      "40916530",
+      "34301211",
+      "33215415",
+      "31914881"
+    ],
+    "review": [
+      "41398961"
+    ],
+    "pmc": [
+      "12821949"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://celldiv.biomedcentral.com/articles/10.1186/s13008-025-00173-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41398961/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

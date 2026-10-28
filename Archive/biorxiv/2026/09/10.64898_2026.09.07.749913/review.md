@@ -1,76 +1,101 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
-- **Shared manuscript claim summary** The authors present TransBind2, a deep learning model that predicts transcription factor (TF)–DNA binding by integrating DNA sequence, DNase-seq accessibility, genome mappability, and TF sequence and structure via a protein language model (ProstT5) with bidirectional cross-attention. The model is framed as binary classification of DNA bin–TF–cell type triplets. Reported performance includes macro AUROC 0.9648 and AUPR 0.4215 across 690 human ChIP-seq experiments, a ≥12.67% relative AUPR gain over baselines, cross-species zero-shot transfer to mouse, saliency-based peak localization with median error 12–38 bp, and ablation support for each added component.
-- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
-- **Missing materials affecting confidence** Full methods, model architecture details, training and evaluation protocols, baseline descriptions, statistical significance testing, ablation results, saliency analysis methodology, cross-species evaluation details, and all underlying data
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors present TransBind2, a deep learning model for transcription factor (TF)-DNA binding prediction that integrates DNA sequence, DNase-seq accessibility, genome mappability, and TF sequence/structure via a bidirectional cross-attention mechanism. The model is framed as binary classification over individual <DNA bin, TF, cell type> triplets. The authors report state-of-the-art performance on 690 human ChIP-seq experiments, cross-species zero-shot generalization to mouse, and the ability to localize binding sites via saliency maps despite window-level training labels.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Sections 1.1-1.3), Results (Sections 2.1-2.3), Ablation Study (Section 3), Discussion (Section 4), Data Availability, Acknowledgements. Tables 1-5 and Figures 1-7 are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Figures 1-7, Tables 1-5, Supplementary Notes S1, Supplementary Figures S1-S3, and the referenced GitHub repository were not provided. These are essential for verifying architectural details, quantitative results, and statistical analyses.
 
 ## Reviewer
-- **Overall assessment** The abstract describes a plausible and potentially valuable extension of a prior model, with a sensible design rationale and strong reported performance. However, the evidence base available for review is limited to the abstract, which prevents independent verification of the core claims. Several claims, particularly the AUPR gain, cross-species generalization, and saliency-based localization, require detailed methodological and statistical support that is not visible here. The work is likely of interest to the computational genomics and gene regulation communities, but the case is not fully established from the supplied material.
-- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF–DNA binding prediction, regulatory genomics, and deep learning applications to genomics. Researchers developing protein-aware or multimodal models for sequence-function prediction would also find the architectural choices relevant. The cross-species generalization claim may interest those studying model transferability across organisms.
-- **Major strengths** The design rationale is clear and well motivated, addressing a recognized limitation in the field by incorporating chromatin context and TF structure. The use of a bidirectional cross-attention mechanism and a protein language model is a reasonable and current approach. The evaluation scale, 690 ChIP-seq experiments across 161 TFs and 91 cell types, is substantial. The inclusion of ablation studies and cross-species zero-shot testing indicates attention to model interpretability and generalizability.
-- **Major Concerns** 
+- **Overall assessment** The manuscript presents a well-motivated extension of a previously published model (TransBind) with several plausible architectural and input improvements. The core idea of combining chromatin context, TF structure, and bidirectional cross-attention is scientifically sound and timely. However, the provided text lacks the actual figures and tables, making it impossible to verify the reported quantitative results, architectural details, or the validity of the statistical claims. The methodological description is incomplete in several key areas, and the cross-species generalization claim requires closer scrutiny given the known differences in genome mappability and chromatin state between species. The saliency analysis is interesting but its biological interpretation needs more careful validation. Overall, the work has potential, but the current submission does not provide sufficient evidence to fully establish the claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, TF binding site prediction, and deep learning applications in genomics. Researchers developing protein-aware models for DNA-protein interactions would also find the architectural choices relevant. The cross-species zero-shot result, if validated, would be of interest to the broader genomics community studying regulatory evolution.
+- **Major strengths** 1. The problem is well-motivated and addresses a clear limitation of existing DNA-centric models. 2. The architectural improvements (bidirectional cross-attention, ProstT5 embeddings) are reasonable and potentially impactful. 3. The reformulation as binary triplet classification is a conceptually clean approach that naturally supports generalization to new TFs. 4. The inclusion of chromatin accessibility and mappability is biologically well-justified. 5. The ablation study design is systematic and addresses both input modalities and fusion strategies.
+- **Major Concerns**
   - **Concern ID** R1-M1
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Evidence sufficiency
-  - **Claim pointer** TransBind2 achieves a macro AUROC of 0.9648 and AUPR of 0.4215, outperforming TransBind and other baselines, with a ≥12.67% relative AUPR gain.
-  - **Evidence pointer** Abstract; location not provided
-  - **Concern** The performance claims are presented without any supporting statistical detail. No confidence intervals, standard errors, or significance tests are reported. The AUPR value of 0.4215 is notably low in absolute terms, and the relative gain of ≥12.67% is stated without specifying which baseline it refers to or how it was computed.
-  - **Why it matters** Without statistical rigor, the reported improvements could be within noise, especially given the class imbalance typical of genomic binding data. The absolute AUPR value also raises questions about practical utility, which the abstract does not address.
-  - **Resolution test** Provide confidence intervals or significance tests for all reported metrics, specify the exact baseline for the relative gain, and discuss the practical implications of the absolute AUPR value.
+  - **Axis** Evidence quality
+  - **Claim pointer** "TransBind2 achieved the best performance among all methods, with an AUROC of 0.9648 and an AUPR of 0.4215. Relative to the second-best model, TransBind (AUROC 0.9508, AUPR 0.3741), this corresponds to relative improvements of 1.47% in AUROC and 12.67% in AUPR."
+  - **Evidence pointer** Table 2, Figure 5, Section 2.1
+  - **Concern** The central quantitative claim of the paper is presented in Table 2 and Figure 5, but these are not provided in the submitted text. Without the actual data, it is impossible to assess the validity of the reported performance metrics, the statistical significance of the improvements, or the variance across the 690 experiments. The claim that TransBind2 outperforms all baselines cannot be verified.
+  - **Why it matters** The entire premise of the paper rests on the reported performance improvements. If the data are not available for review, the core claim is unverifiable.
+  - **Resolution test** Provide Table 2 and Figure 5, including per-experiment performance distributions, confidence intervals, and details on how the macro-averaging was performed. Include statistical tests comparing TransBind2 to each baseline.
   - **Concern ID** R1-M2
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Generalizability claim
-  - **Claim pointer** The model trained on human data also performs well in cross-species zero-shot prediction on mouse data.
-  - **Evidence pointer** Abstract; location not provided
-  - **Concern** The cross-species claim is stated without any quantitative result. No AUROC, AUPR, or other metric is given for the mouse data, and the evaluation setup is not described. It is unclear whether the mouse data are held out entirely, whether any fine-tuning was applied, or how the TF and cell type overlap was handled.
-  - **Why it matters** Cross-species generalization is a strong claim that requires careful evaluation design. Without numbers and protocol details, the claim cannot be assessed, and it may overstate the model's transferability.
-  - **Resolution test** Report quantitative cross-species metrics, describe the evaluation protocol, and clarify whether any species-specific information was used during training.
+  - **Axis** Technical soundness
+  - **Claim pointer** "TransBind2 was implemented using PyTorch Lightning. It was trained on the training data and its hyperparameter optimization was performed on the validation data using Optuna... The final model was trained using the selected hyperparameter configuration."
+  - **Evidence pointer** Section 1.3, Supplementary Note S1
+  - **Concern** The hyperparameter optimization procedure is described only superficially. The search space, number of trials, and selection criteria are not specified. More critically, the text does not describe how the final model was trained after hyperparameter selection. Was the model retrained on the combined training and validation data? If not, the validation set was used for model selection, which is acceptable, but the final model's performance on the test set may be optimistically biased if the validation set was used extensively for early stopping and hyperparameter tuning. The early stopping criterion (15 epochs without improvement) is mentioned, but the total training budget and the number of epochs are not stated.
+  - **Why it matters** Reproducibility is a cornerstone of computational biology. Without a complete description of the training and hyperparameter optimization protocol, other researchers cannot replicate the results or assess potential overfitting to the validation set.
+  - **Resolution test** Provide a complete description of the hyperparameter search space, the number of trials, the selection criterion, and the final training protocol. Clarify whether the validation set was used for early stopping and whether the final model was retrained on the combined training and validation data.
   - **Concern ID** R1-M3
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Interpretability claim
-  - **Claim pointer** Saliency analysis shows that it can identify TF-binding peaks with a median error of 12–38 base pairs (bps) despite being trained on window-level labels.
-  - **Evidence pointer** Abstract; location not provided
-  - **Concern** The saliency analysis is described in a single sentence with no methodological detail. It is unclear how saliency maps were computed, how peaks were called from them, how the error was measured, and what the range 12–38 bp represents across different TFs or cell types.
-  - **Why it matters** The claim that the model can localize binding sites at near-base-pair resolution is surprising given window-level training. This requires a rigorous and clearly described analysis to be credible, and the current description is insufficient.
-  - **Resolution test** Provide a detailed description of the saliency methodology, peak calling procedure, error metric, and the distribution of errors across TFs and cell types.
-- **Minor Comments** 
+  - **Axis** Evidence quality
+  - **Claim pointer** "The cross-species zero-shot results show that TransBind2 can generalize beyond the human genome used for training. The model achieved performance clearly above random (AUROC = 0.725 vs. 0.5) on mouse ChIP-seq data."
+  - **Evidence pointer** Section 2.2, Table 3
+  - **Concern** The cross-species zero-shot evaluation is a key novelty claim, but the details are insufficient. The text states that mouse-specific features were used (DNase-seq, mappability, TF structures), but it is unclear how the model was adapted. The DNA sequence input encoding strategy is stated to be unchanged, but the model was trained on human sequences. How were mouse sequences encoded? Were they mapped to the human reference? The choice of 26 TF-cell type combinations and 22 unique TFs is not justified. The performance variance (AUROC = 0.725 ± 0.088) is substantial, and the text does not discuss which TFs performed well or poorly and why.
+  - **Why it matters** The claim of cross-species generalization is a major selling point of the paper. If the evaluation protocol is not clearly described, the result cannot be interpreted or compared to other methods.
+  - **Resolution test** Provide a detailed description of the mouse data processing pipeline, including how DNA sequences, DNase-seq, mappability, and TF structures were obtained and formatted. Justify the choice of mouse TFs and cell types. Discuss the performance variation across TFs and provide per-TF results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The agreement between saliency-based predictions and ChIP-seq peak locations across eight TFs representing six structural families suggests that the model learns biologically meaningful positional information about TF-DNA binding events within genomic windows."
+  - **Evidence pointer** Section 2.3, Figure 7
+  - **Concern** The saliency analysis is interesting, but the methodology is not fully described. The text states that input × gradient saliency maps were computed for "correctly predicted bound examples" and the position with the highest saliency score was compared to ChIP-seq summit positions. However, it is unclear how the comparison was made. Was the distance between the predicted position and the summit calculated? What was the tolerance threshold? The Pearson correlation coefficients (r = 0.616 to 0.809) are reported, but the text does not explain what was correlated. The choice of eight TFs is not justified, and it is unclear if these are representative of the broader set of 161 TFs.
+  - **Why it matters** The claim that the model implicitly learns binding site locations is a significant finding with potential practical applications. However, without a clear description of the evaluation methodology, the result is difficult to interpret and could be an artifact of the analysis.
+  - **Resolution test** Provide a detailed description of the saliency analysis methodology, including how the predicted position was defined, how the distance to the ChIP-seq summit was calculated, and what the Pearson correlation was computed between. Justify the choice of the eight TFs and discuss whether the results generalize to the full set of TFs.
+- **Minor Comments**
   - **Concern ID** R1-m1
   - **Severity** Minor
   - **Axis** Clarity
-  - **Affected element** Model naming and framing
-  - **Evidence pointer** Abstract; location not provided
-  - **Issue** The abstract states the model "uses a biomodal protein language model," which appears to be a typo for "bimodal." This is a minor but noticeable error in a high-visibility context.
-  - **Required correction** Correct the typo to "bimodal."
+  - **Affected element** Section 1.1, data description
+  - **Evidence pointer** Section 1.1
+  - **Issue** The description of the dataset is incomplete. The text states that the dataset is derived from the EPBDXDNA dataset and that the chromosome-based split is retained, but it does not specify the total number of genomic bins, the number of positive and negative examples, or the distribution of examples across the training, validation, and test sets. Table 1 is referenced but not provided.
+  - **Required correction** Provide a complete description of the dataset, including the number of bins, the number of positive and negative examples, and the distribution across splits. Include Table 1.
   - **Concern ID** R1-m2
   - **Severity** Minor
-  - **Axis** Completeness
-  - **Affected element** Baseline description
-  - **Evidence pointer** Abstract; location not provided
-  - **Issue** The abstract mentions "TransBind and other baselines" but does not specify which baselines were used or how they were configured. This limits the interpretability of the comparative claims.
-  - **Required correction** List the baselines and briefly describe their configurations or cite prior work where they are defined.
+  - **Axis** Clarity
+  - **Affected element** Section 1.2, model architecture
+  - **Evidence pointer** Section 1.2, Figure 1
+  - **Issue** The description of the model architecture is incomplete. The text mentions a "bidirectional cross-attention mechanism" and a "residual fusion step" but does not provide sufficient detail on the exact tensor shapes, the number of attention heads, the feed-forward network dimensions, or the layer normalization scheme. Figure 1 is referenced but not provided.
+  - **Required correction** Provide a more detailed description of the model architecture, including tensor dimensions and layer configurations. Include Figure 1.
   - **Concern ID** R1-m3
   - **Severity** Minor
-  - **Axis** Reproducibility
-  - **Affected element** Data and code availability
-  - **Evidence pointer** Abstract; location not provided
-  - **Issue** No mention is made of data availability, code release, or model weights. For a computational methods paper, this is an important omission.
-  - **Required correction** State whether code, trained models, and processed data will be made publicly available, and if so, where.
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core performance claims, cross-species generalization, and saliency-based localization all require additional methodological detail and statistical support that are not present in the abstract.
-- **Assessment against Nature-style criteria** 
-  - Originality: The combination of bidirectional cross-attention, a protein language model, and chromatin accessibility features is a reasonable incremental advance over the authors' prior work. It is not clear from the abstract whether this constitutes a sufficiently novel conceptual contribution for a high-impact venue.
-  - Scientific importance: Accurate TF–DNA binding prediction is an important problem in regulatory genomics. The potential to generalize to new TFs and cell types, and across species, is scientifically valuable if substantiated.
-  - Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers in genomics. The abstract is written in a way that is accessible to these groups, but the broader interdisciplinary appeal is limited.
-  - Technical soundness: Cannot be assessed from the abstract alone. The reported metrics and claims require detailed methods and statistical analysis to evaluate.
-  - Readability for nonspecialists: The abstract is concise and generally clear, though terms such as "genome mappability tracks" and "biomodal protein language model" may be opaque to readers outside the field.
-- **Recommendation posture** Currently not established from the provided evidence. The design rationale and reported results are promising, but the abstract alone does not provide sufficient methodological or statistical detail to support the core claims. A full manuscript with methods, results, and data availability would be required to assess whether the case can be made.
+  - **Axis** Clarity
+  - **Affected element** Section 1.3, evaluation metrics
+  - **Evidence pointer** Section 1.3
+  - **Issue** The text states that AUROC and AUPR are used for evaluation, but it does not specify how these metrics are computed for the binary classification task. Specifically, it is unclear whether the metrics are computed per TF-cell type experiment and then averaged, or whether they are computed globally across all experiments. The text mentions "macro-averaged" but does not define the averaging procedure.
+  - **Required correction** Clarify the exact procedure for computing AUROC and AUPR, including how macro-averaging is performed across the 690 experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, baseline comparison
+  - **Evidence pointer** Section 2.1, Table 2
+  - **Issue** The text states that TransBind2 was compared to several baselines, including DeepSEA, DanQ, TBiNet, DNABERT-2, EPBD DNABERT-2, TransBind, and TFBindFormer. However, it is not clear whether all baselines were retrained on the same data and with the same hyperparameter optimization protocol. The text notes that EPBD DNABERT-2 could not be retrained, but it does not specify the training protocol for the other baselines.
+  - **Required correction** Provide details on the training and evaluation protocol for each baseline, including whether they were retrained and with what hyperparameters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, mouse data
+  - **Evidence pointer** Section 2.2, Table 3
+  - **Issue** The text states that mouse-specific features were used, including DNase-seq, mappability, and TF structures, but it does not specify the sources of these data. The mouse genome version is stated as mm9, but the human genome version is hg19. The text does not discuss potential issues with cross-species mappability or the comparability of DNase-seq data between species.
+  - **Required correction** Provide details on the sources of mouse data and discuss potential cross-species biases in the features.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, ablation study
+  - **Evidence pointer** Section 3, Tables 4 and 5
+  - **Issue** The ablation study is described in the text, but the results are presented in Tables 4 and 5, which are not provided. The text mentions that removing the protein embedding causes a 63.5% relative loss in AUPR, but it does not provide the absolute values or the performance of the other ablation variants.
+  - **Required correction** Provide Tables 4 and 5 with the full results of the ablation study.
+- **Technical failings that need to be addressed before the case is established** 1. The central quantitative results (Tables 2-5, Figures 5-7) are not provided in the submitted text, making the core claims unverifiable. 2. The hyperparameter optimization and training protocol are incompletely described, hindering reproducibility. 3. The cross-species zero-shot evaluation protocol is not fully specified, particularly regarding how mouse sequences and features were processed. 4. The saliency analysis methodology is not described in sufficient detail to assess the validity of the localization claim.
+- **Assessment against Nature-style criteria** Originality: The work is an incremental extension of the authors' previous TransBind model. The combination of bidirectional cross-attention, ProstT5 embeddings, and chromatin context is novel, but the individual components are not new. Scientific importance: TF-DNA binding prediction is an important problem, and the reported improvements, if validated, would be of interest. However, the magnitude of the improvement (12.67% relative AUPR gain) is modest and may not represent a major advance. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The methods are not easily accessible to experimental biologists without a strong computational background. Technical soundness: The architectural choices are reasonable, but the incomplete description of the training and evaluation protocols prevents a full assessment of technical soundness. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with deep learning and genomics. The abstract is clear, but the methods section is dense and would be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible and well-motivated approach, but the absence of the actual results tables and figures, combined with incomplete methodological descriptions, prevents verification of the central claims. The authors should be invited to resubmit with the full set of figures and tables, a complete description of the training and evaluation protocols, and a more detailed analysis of the cross-species and saliency results.
 
 ## Risk / unsupported claims
-- The reported AUROC and AUPR values, and the relative AUPR gain, are unsupported without statistical detail and baseline specification.
-- The cross-species zero-shot performance claim is unsupported without quantitative results and evaluation protocol.
-- The saliency-based peak localization claim is unsupported without methodological description.
-- The ablation claims that TF structure, chromatin accessibility, and bidirectional attention each improve performance are unsupported without ablation results.
-- The claim of generalizability to new TFs and cell types is not substantiated with specific evaluation details.
+- The claim that TransBind2 outperforms all baselines (Section 2.1) is unsupported without Table 2 and Figure 5.
+- The claim of cross-species zero-shot generalization (Section 2.2) is unsupported without Table 3 and a detailed description of the mouse data processing.
+- The claim that saliency maps localize binding sites (Section 2.3) is unsupported without Figure 7 and a detailed description of the evaluation methodology.
+- The claim that bidirectional cross-attention is superior to unidirectional attention (Section 3.0.2) is unsupported without Table 5.
+- The claim that the model captures conserved regulatory features across species (Section 2.2) is speculative and not directly supported by the presented results.

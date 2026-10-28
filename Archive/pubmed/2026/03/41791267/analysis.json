@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41791267",
+  "title": "HGCTBind: A hybrid architecture for predicting protein-DNA binding sites based on interpretable and contextual adaptive feature fusion.",
+  "authors": "Gong, Wentao; Zhang, Feifan; Chen, Junfan; Lu, Kehan",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-03-07",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 8,
+  "one_liner_zh": "提出HGCTBind混合架构，融合GCNII结构特征与Transformer序列信息及上下文自适应特征融合，用于蛋白质-DNA结合位点预测，核心聚焦蛋白-DNA互作且方法为AI深度学习，高度匹配课题。",
+  "abstract": "Accurate identification of protein-DNA binding sites is crucial for understanding the molecular mechanisms underlying related biological processes. However, most existing computational methods still primarily rely on single-modality information (either sequence or structure), therefore there remains a lack of effective strategies for fusing protein features derived from different sources. To overcome these limitations, we introduce HGCTBind, a novel hybrid architecture to predict DNA-binding sites, which combines Graph Convolutional Networks II (GCNII) and Transformer to collaboratively extract structural and sequence information. And a contextual adaptive feature fusion module is introduced to effectively integrate handcrafted features with protein language model embeddings. Given the class imbalance issue in the dataset, a weighted focal loss function is applied during model training for optimization. Experimental results on multiple DNA datasets show that HGCTBind consistently outperforms all baseline sequence- or structure-based methods. Interpretability analysis of different fusion strategies reveals latent relationships among various features, and shows that the feature fusion module substantially enhances feature representation quality, thereby improving binding site prediction. Further experiments show that the feature fusion strategy presented in this study demonstrates consistent and robust performance when applied to nine architectures and six other ProtTrans models embeddings. To assess the versatility of HGCTBind, we extended it to six additional ligand binding site prediction tasks, where it achieved competitive or superior performance across all cases.",
+  "abstract_zh": "准确识别蛋白质-DNA结合位点对于理解相关生物过程的分子机制至关重要。然而，现有的大多数计算方法仍主要依赖单模态信息（序列或结构），因此缺乏有效策略来融合来自不同来源的蛋白质特征。为克服这些局限，我们引入了HGCTBind，一种新颖的混合架构，用于预测DNA结合位点，该架构结合了图卷积网络II（GCNII）和Transformer，协同提取结构和序列信息。同时，引入了一个上下文自适应特征融合模块，以有效整合手工特征与蛋白质语言模型嵌入。针对数据集中的类别不平衡问题，在模型训练过程中应用了加权焦点损失函数进行优化。在多个DNA数据集上的实验结果表明，HGCTBind在所有基线序列或结构方法中均表现出一致的优越性。对不同融合策略的可解释性分析揭示了各特征之间的潜在关系，并表明特征融合模块显著提升了特征表示质量，从而改善了结合位点预测。进一步实验显示，本研究中提出的特征融合策略在应用于九种架构和六种其他ProtTrans模型嵌入时，表现出一致且稳健的性能。为评估HGCTBind的多功能性，我们将其扩展到六个额外的配体结合位点预测任务，在所有情况下均取得了具有竞争力或更优的性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41791267/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41791267/",
+  "paper_page_path": "papers/pubmed/41791267/index.html"
+}

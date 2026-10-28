@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.24.619975",
+  "title": "Contextualising transcription factor binding during embryogenesis using natural sequence variation",
+  "authors": "Olga M. Sigalova; Mattia Forneris; Frosina Stojanovska; Bingqing Zhao; Rebecca R. Viales; Adam Rabinowitz; Fayrouz Hamal; Benoît Ballester; Judith B Zaugg; Eileen E.M. Furlong",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-24",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用自然序列变异和等位基因特异性分析研究胚胎发生中TF结合，并用CNN预测变异对结合的影响，虽涉及TF-DNA互作和AI方法，但侧重遗传变异效应而非三维结构建模或动态机制，故为中档匹配。",
+  "abstract": "Understanding how genetic variation impacts transcription factor (TF) binding remains a major challenge, limiting our ability to model disease-associated variants. Here, we used a highly controlled system of F1 crosses with extensive genetic diversity to profile allele-specific binding of four TFs at several embryonic time-points, using Drosophila as a model. Using a combined haplotype test, we identified 9-18% of TF bound regions impacted by genetic variation. By expanding WASP (a tool for allele-specific read mapping) to examine INDELs, we increased detection of allele imbalanced (AI) peaks by 30-50%. This fine-grained ‘mutagenesis’ could reconstruct functionalized binding motifs of all factors. To prioritise potential causal variants, we trained a convolutional neural network (Basenji) to predict TF binding from DNA sequence. The model could accurately predict experimental AI for strong effect variants, providing a mechanistic interpretation for how genetic variation impacted TF binding. This revealed unexpected relationships between TFs, including potential cooperative pairs, and mechanisms of tissue specific recruitment of the ubiquitous factor CTCF.",
+  "abstract_zh": "理解遗传变异如何影响转录因子（TF）结合仍是一项重大挑战，限制了我们对疾病相关变异进行建模的能力。在此，我们利用具有广泛遗传多样性的高度受控F1杂交系统，以果蝇为模型，在多个胚胎时间点分析了四种TF的等位基因特异性结合。通过联合单倍型检验，我们识别出9-18%的TF结合区域受遗传变异影响。通过扩展WASP（一种用于等位基因特异性读段比对的工具）以检查插入缺失（INDEL），我们将等位基因失衡（AI）峰的检测率提高了30-50%。这种精细的“诱变”能够重建所有因子的功能化结合基序。为了优先筛选潜在因果变异，我们训练了一个卷积神经网络（Basenji）来从DNA序列预测TF结合。该模型能准确预测强效应变异的实验性AI，为遗传变异如何影响TF结合提供了机制性解释。这揭示了TF之间意想不到的关系，包括潜在的协同配对，以及普遍存在的因子CTCF组织特异性招募的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619975",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619975",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.24.619975/index.html"
+}

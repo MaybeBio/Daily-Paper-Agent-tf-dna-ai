@@ -1,0 +1,649 @@
+{
+  "identity": {
+    "pmid": "34526716",
+    "doi": "10.1038/s41586-021-03903-7",
+    "title": "UTX condensation underlies its tumour-suppressive activity."
+  },
+  "content": {
+    "abstract": "UTX (also known as KDM6A) encodes a histone H3K27 demethylase and is an important tumour suppressor that is frequently mutated in human cancers(1). However, as the demethylase activity of UTX is often dispensable for mediating tumour suppression and developmental regulation(2-8), the underlying molecular activity of UTX remains unknown. Here we show that phase separation of UTX underlies its chromatin-regulatory activity in tumour suppression. A core intrinsically disordered region (cIDR) of UTX forms phase-separated liquid condensates, and cIDR loss caused by the most frequent cancer mutation of UTX is mainly responsible for abolishing tumour suppression. Deletion, mutagenesis and replacement assays of the intrinsically disordered region demonstrate a critical role of UTX condensation in tumour suppression and embryonic stem cell differentiation. As shown by reconstitution in vitro and engineered systems in cells, UTX recruits the histone methyltransferase MLL4 (also known as KMT2D) to the same condensates and enriches the H3K4 methylation activity of MLL4. Moreover, UTX regulates genome-wide histone modifications and high-order chromatin interactions in a condensation-dependent manner. We also found that UTY, the Y chromosome homologue of UTX with weaker tumour-suppressive activity, forms condensates with reduced molecular dynamics. These studies demonstrate a crucial biological function of liquid condensates with proper material states in enabling the tumour-suppressive activity of a chromatin regulator.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Cell Differentiation",
+      "*Chromatin",
+      "DNA-Binding Proteins/metabolism",
+      "Embryonic Stem Cells/cytology",
+      "*Genes, Tumor Suppressor",
+      "HEK293 Cells",
+      "Histone Demethylases/*genetics",
+      "Humans",
+      "Intrinsically Disordered Proteins/genetics",
+      "Mice",
+      "Neoplasm Proteins/metabolism",
+      "Protein Processing, Post-Translational",
+      "THP-1 Cells"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Bi",
+        "Li, Wei",
+        "Song, Yansu",
+        "Wang, Zhenjia",
+        "Ju, Rui",
+        "Ulman, Aleksandra",
+        "Hu, Jing",
+        "Palomba, Francesco",
+        "Zhao, Yanfang",
+        "Le, John Philip",
+        "Jarrard, William",
+        "Dimoff, David",
+        "Digman, Michelle A",
+        "Gratton, Enrico",
+        "Zang, Chongzhi",
+        "Jiang, Hao"
+      ],
+      "short_names": [
+        "Shi B",
+        "Li W",
+        "Song Y",
+        "Wang Z",
+        "Ju R",
+        "Ulman A",
+        "Hu J",
+        "Palomba F",
+        "Zhao Y",
+        "Le JP",
+        "Jarrard W",
+        "Dimoff D",
+        "Digman MA",
+        "Gratton E",
+        "Zang C",
+        "Jiang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3566-5793",
+        "ORCID: 0000-0002-8077-6890",
+        "ORCID: 0000-0002-2249-2961",
+        "ORCID: 0000-0003-4611-7100",
+        "ORCID: 0000-0003-1890-9813"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Center for Public Health Genomics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham School of Medicine, Birmingham, AL, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA.",
+        "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Center for Public Health Genomics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Public Health Sciences, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "UVA Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA. hj8d@virginia.edu.",
+        "Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham School of Medicine, Birmingham, AL, USA. hj8d@virginia.edu.",
+        "UVA Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA. hj8d@virginia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Bi",
+        "short_name": "Shi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-3566-5793"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yansu",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenjia",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Public Health Genomics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Ju, Rui",
+        "short_name": "Ju R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Ulman, Aleksandra",
+        "short_name": "Ulman A",
+        "identifiers": [
+          "0000-0002-8077-6890"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Jing",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Palomba, Francesco",
+        "short_name": "Palomba F",
+        "identifiers": [
+          "0000-0002-2249-2961"
+        ],
+        "affiliations": [
+          "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yanfang",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham School of Medicine, Birmingham, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Le, John Philip",
+        "short_name": "Le JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Jarrard, William",
+        "short_name": "Jarrard W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Dimoff, David",
+        "short_name": "Dimoff D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Digman, Michelle A",
+        "short_name": "Digman MA",
+        "identifiers": [
+          "0000-0003-4611-7100"
+        ],
+        "affiliations": [
+          "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gratton, Enrico",
+        "short_name": "Gratton E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zang, Chongzhi",
+        "short_name": "Zang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+          "Center for Public Health Genomics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+          "Department of Public Health Sciences, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+          "UVA Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hao",
+        "short_name": "Jiang H",
+        "identifiers": [
+          "0000-0003-1890-9813"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA. hj8d@virginia.edu.",
+          "Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham School of Medicine, Birmingham, AL, USA. hj8d@virginia.edu.",
+          "UVA Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA. hj8d@virginia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/17 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "42587091",
+      "42493596",
+      "42392895",
+      "42249226",
+      "42218299",
+      "42212366",
+      "42118696",
+      "42064063",
+      "42049713",
+      "41999490",
+      "41957206",
+      "41910388",
+      "41781700",
+      "41756950",
+      "41691482",
+      "41486777",
+      "41184251",
+      "41116205",
+      "41097674",
+      "41039633",
+      "41028837",
+      "40969122",
+      "40949882",
+      "40849651",
+      "40712585",
+      "40647534",
+      "40536321",
+      "40507965",
+      "40468084",
+      "40442783",
+      "40429936",
+      "40394324",
+      "40252079",
+      "40229436",
+      "40133254",
+      "40118455",
+      "39967956",
+      "39886491",
+      "39875604",
+      "39868536",
+      "39707168",
+      "39591970",
+      "39551864",
+      "39516712",
+      "39500865",
+      "39464253",
+      "39450904",
+      "39443723",
+      "39433596",
+      "39403928",
+      "39253293",
+      "39251719",
+      "39183958",
+      "39123067",
+      "39071719",
+      "39048311",
+      "39046770",
+      "39037698",
+      "39000010",
+      "38926050",
+      "38870936",
+      "38811792",
+      "38788489",
+      "38777743",
+      "38773325",
+      "38664566",
+      "38655899",
+      "38622203",
+      "38622120",
+      "38612940",
+      "38551058",
+      "38537412",
+      "38481812",
+      "38468348",
+      "38439960",
+      "38370615",
+      "38315854",
+      "38279052",
+      "38266981",
+      "38258457",
+      "38128453",
+      "38110976",
+      "38106060",
+      "37992172",
+      "37951955",
+      "37903757",
+      "37760474",
+      "37738977",
+      "37717144",
+      "37475546",
+      "37464880",
+      "37418217",
+      "37410700",
+      "37388925",
+      "37370727",
+      "37349246",
+      "37300822",
+      "37265348",
+      "37218279",
+      "37198323",
+      "37191808",
+      "37142882",
+      "37091742",
+      "36980177",
+      "36894639",
+      "36875159",
+      "36821650",
+      "36720973",
+      "36710442",
+      "36690068",
+      "36638328",
+      "36539553",
+      "36513698",
+      "36511816",
+      "36454369",
+      "36309561",
+      "36264143",
+      "36215037",
+      "36213329",
+      "36157489",
+      "36138006",
+      "36050314",
+      "35887017",
+      "35672304",
+      "35640156",
+      "35588748",
+      "35532219",
+      "35427897",
+      "35406602",
+      "35252219",
+      "35149762",
+      "34859151",
+      "34271007"
+    ],
+    "refs": [
+      "33651988",
+      "33169020",
+      "32817139",
+      "32719551",
+      "32243837",
+      "31630970",
+      "31165883",
+      "30986246",
+      "30944313",
+      "30753822",
+      "30628063",
+      "30449618",
+      "30006524",
+      "29961577",
+      "29736013",
+      "29533787",
+      "29073101",
+      "28732206",
+      "28225081",
+      "28076807",
+      "28041848",
+      "27992400",
+      "27886167",
+      "27869828",
+      "27643841",
+      "27638352",
+      "27466232",
+      "27302555",
+      "26999603",
+      "26944678",
+      "26619908",
+      "26412307",
+      "25516281",
+      "25139354",
+      "24491801",
+      "23573229",
+      "23430654",
+      "23104886",
+      "23028370",
+      "22949634",
+      "22801502",
+      "22493065",
+      "21816040",
+      "21335234",
+      "21095589",
+      "21030952",
+      "20212086",
+      "20110278",
+      "19505943",
+      "19505939",
+      "19451168",
+      "19131956",
+      "19067357",
+      "18798982",
+      "16418172",
+      "15006351",
+      "6828386"
+    ],
+    "similar": [
+      "34526716",
+      "28732206",
+      "32817139",
+      "24491801",
+      "22949634",
+      "35128450",
+      "22801502",
+      "30753822",
+      "23028370",
+      "31221981",
+      "29073101",
+      "37300822",
+      "37198323",
+      "29736013",
+      "26303947",
+      "26999603",
+      "25101834",
+      "33253789",
+      "27367247",
+      "30628063",
+      "27533081",
+      "23573229",
+      "31685800",
+      "22192413",
+      "32071397",
+      "36412518",
+      "24561908",
+      "17761849",
+      "26306033",
+      "23365460",
+      "32989154",
+      "38527695",
+      "22570628",
+      "31097364",
+      "37370727",
+      "32215989",
+      "32977832",
+      "22826230",
+      "28188179",
+      "28669924",
+      "26762983",
+      "29479066",
+      "28130569",
+      "34588217",
+      "33633164",
+      "34859151",
+      "26819089",
+      "20123895",
+      "28319137",
+      "30872525",
+      "18434530",
+      "29483212",
+      "30718900",
+      "18003914",
+      "23057811",
+      "33766022",
+      "25920016",
+      "31495776",
+      "29421189",
+      "22306297",
+      "31285428",
+      "26328764",
+      "27671333",
+      "26193001",
+      "22589717",
+      "30166694",
+      "17851529",
+      "31595154",
+      "30514760",
+      "20650264",
+      "26431949",
+      "22713656",
+      "25071154",
+      "25320243",
+      "31341023",
+      "21602794",
+      "32125007",
+      "29247011",
+      "29358331",
+      "29632194",
+      "34667079",
+      "35676242",
+      "23527641",
+      "23112189",
+      "33174606",
+      "34090875",
+      "28534508",
+      "34509979",
+      "29045832",
+      "26944678",
+      "27151432",
+      "36928413",
+      "22040993",
+      "32679064",
+      "32326336",
+      "24081332",
+      "34780480",
+      "23459941",
+      "36813208",
+      "31044091",
+      "33033055",
+      "38777743",
+      "37679762",
+      "38353647",
+      "37692474",
+      "37546969",
+      "37458596",
+      "37922870",
+      "34890228"
+    ],
+    "review": [
+      "34526716",
+      "32817139",
+      "30753822",
+      "31221981",
+      "30628063",
+      "24561908",
+      "31097364",
+      "28669924",
+      "26193001",
+      "27151432",
+      "22040993"
+    ],
+    "pmc": [
+      "9008583"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-021-03903-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34526716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34526716",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34526716",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-978",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/55x6w442",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/34526716",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse149420",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

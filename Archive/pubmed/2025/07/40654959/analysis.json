@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40654959",
+  "title": "scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression.",
+  "authors": "Zandigohar, Mehrdad; Rehman, Jalees; Dai, Yang",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-14",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用变分推断深度学习从单细胞转录组推断TF活性与GRN，虽涉及TF-DNA调控关系但无三维互作建模，方法可迁移但非核心TF-DNA结合机制研究。",
+  "abstract": "MOTIVATION: Accurately inferring transcription factor (TF) activity from single-cell RNA sequencing (scRNA-seq) data remains a fundamental challenge in computational biology. While existing methods rely on statistical models, motif enrichment, or prior-based inference, they often depend on deterministic assumptions about regulatory relationships and rely on static regulatory databases. Moreover, few approaches can effectively integrate prior biological knowledge with data-driven inference to capture novel, dynamic, and context-specific regulatory interactions. RESULTS: To address these limitations, we develop scRegulate, a generative deep learning framework that leverages variational inference to infer TF activities while incorporating gene regulatory network (GRN) priors. By integrating structured biological constraints with a probabilistic latent space model, scRegulate offers a scalable and biologically interpretable solution for prediction of regulatory interactions from scRNA-seq data. We comprehensively benchmark scRegulate using multiple public experimental and synthetic datasets generated from GRouNdGAN to demonstrate its ability to infer TF activities and GRNs that are consistent with the underlying ground-truth regulatory interactions. scRegulate outperforms existing TF inference methods, achieving AUROC values of 0.71-0.86 and AUPRC values of 0.80-0.95 on three synthetic datasets. Additionally, scRegulate accurately recapitulates experimentally validated TF knockdown effects on a Perturb-seq dataset, achieving a mean log2 fold change of -0.61 to -18.92 (p </= 8.06x10(-13)) for key TFs such as ELK1, EGR1, and CREB1. Applied to the PBMC scRNA-seq data, scRegulate reconstructs cell-type-specific GRNs and identifies differentially active TFs that align with known immune regulatory pathways. Furthermore, we show that scRegulate's TF embeddings capture meaningful transcriptional heterogeneity, enabling accurate clustering of cell types. Collectively, our results establish scRegulate as a powerful, interpretable, and scalable framework for inferring TF activities and regulatory networks from single-cell transcriptomics.",
+  "abstract_zh": "动机：从单细胞RNA测序（scRNA-seq）数据中准确推断转录因子（TF）活性仍是计算生物学中的一项基本挑战。现有方法虽依赖统计模型、基序富集或基于先验的推断，但往往对调控关系作出确定性假设，并依赖静态调控数据库。此外，很少有方法能有效整合先验生物学知识与数据驱动推断，以捕捉新颖、动态且情境特异的调控相互作用。结果：为解决这些局限，我们开发了scRegulate，一种生成式深度学习框架，利用变分推断来推断TF活性，同时整合基因调控网络（GRN）先验。通过将结构化生物学约束与概率潜空间模型相结合，scRegulate为从scRNA-seq数据预测调控相互作用提供了可扩展且生物学可解释的解决方案。我们使用多个由GRouNdGAN生成的公共实验和合成数据集对scRegulate进行全面基准测试，以展示其推断与底层真实调控相互作用一致的TF活性和GRN的能力。scRegulate优于现有TF推断方法，在三个合成数据集上实现了0.71-0.86的AUROC值和0.80-0.95的AUPRC值。此外，scRegulate在Perturb-seq数据集上准确重现了实验验证的TF敲除效应，对关键TF如ELK1、EGR1和CREB1实现了平均log2倍数变化为-0.61至-18.92（p ≤ 8.06x10(-13)）。应用于PBMC scRNA-seq数据时，scRegulate重建了细胞类型特异的GRN，并识别出与已知免疫调控通路一致的差异活性TF。进一步，我们展示了scRegulate的TF嵌入捕捉了有意义的转录异质性，从而实现细胞类型的准确聚类。综合来看，我们的结果确立了scRegulate作为从单细胞转录组学推断TF活性和调控网络的强大、可解释且可扩展的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40654959/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40654959/",
+  "paper_page_path": "papers/pubmed/40654959/index.html"
+}

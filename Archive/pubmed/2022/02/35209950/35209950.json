@@ -1,0 +1,795 @@
+{
+  "identity": {
+    "pmid": "35209950",
+    "doi": "10.1186/s13073-022-01027-9",
+    "title": "DrABC: deep learning accurately predicts germline pathogenic mutation status in breast cancer patients based on phenotype data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Identifying breast cancer patients with DNA repair pathway-related germline pathogenic variants (GPVs) is important for effectively employing systemic treatment strategies and risk-reducing interventions. However, current criteria and risk prediction models for prioritizing genetic testing among breast cancer patients do not meet the demands of clinical practice due to insufficient accuracy. METHODS: The study population comprised 3041 breast cancer patients enrolled from seven hospitals between October 2017 and 11 August 2019, who underwent germline genetic testing of 50 cancer predisposition genes (CPGs). Associations among GPVs in different CPGs and endophenotypes were evaluated using a case-control analysis. A phenotype-based GPV risk prediction model named DNA-repair Associated Breast Cancer (DrABC) was developed based on hierarchical neural network architecture and validated in an independent multicenter cohort. The predictive performance of DrABC was compared with currently used models including BRCAPRO, BOADICEA, Myriad, PENN II, and the NCCN criteria. RESULTS: In total, 332 (11.3%) patients harbored GPVs in CPGs, including 134 (4.6%) in BRCA2, 131 (4.5%) in BRCA1, 33 (1.1%) in PALB2, and 37 (1.3%) in other CPGs. GPVs in CPGs were associated with distinct endophenotypes including the age at diagnosis, cancer history, family cancer history, and pathological characteristics. We developed a DrABC model to predict the risk of GPV carrier status in BRCA1/2 and other important CPGs. In predicting GPVs in BRCA1/2, the performance of DrABC (AUC = 0.79 [95% CI, 0.74-0.85], sensitivity = 82.1%, specificity = 63.1% in the independent validation cohort) was better than that of previous models (AUC range = 0.57-0.70). In predicting GPVs in any CPG, DrABC (AUC = 0.74 [95% CI, 0.69-0.79], sensitivity = 83.8%, specificity = 51.3% in the independent validation cohort) was also superior to previous models in their current versions (AUC range = 0.55-0.65). After training these previous models with the Chinese-specific dataset, DrABC still outperformed all other methods except for BOADICEA, which was the only previous model with the inclusion of pathological features. The DrABC model also showed higher sensitivity and specificity than the NCCN criteria in the multi-center validation cohort (83.8% and 51.3% vs. 78.8% and 31.2%, respectively, in predicting GPVs in any CPG). The DrABC model implementation is available online at http://gifts.bio-data.cn/ . CONCLUSIONS: By considering the distinct endophenotypes associated with different CPGs in breast cancer patients, a phenotype-driven prediction model based on hierarchical neural network architecture was created for identification of hereditary breast cancer. The model achieved superior performance in identifying GPV carriers among Chinese breast cancer patients.",
+    "keywords": [
+      "BRCA1/2",
+      "Deep learning",
+      "Genetic test",
+      "Genotype-phenotype correlation",
+      "Hereditary breast cancer"
+    ],
+    "mesh_terms": [
+      "BRCA1 Protein/genetics",
+      "BRCA2 Protein/genetics",
+      "*Breast Neoplasms/diagnosis/genetics",
+      "DNA Repair",
+      "*Deep Learning",
+      "Female",
+      "Genetic Predisposition to Disease",
+      "Germ Cells",
+      "Germ-Line Mutation",
+      "Humans",
+      "Mutation",
+      "Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jiaqi",
+        "Zhao, Hengqiang",
+        "Zheng, Yu",
+        "Dong, Lin",
+        "Zhao, Sen",
+        "Huang, Yukuan",
+        "Huang, Shengkai",
+        "Qian, Tianyi",
+        "Zou, Jiali",
+        "Liu, Shu",
+        "Li, Jun",
+        "Yan, Zihui",
+        "Li, Yalun",
+        "Zhang, Shuo",
+        "Huang, Xin",
+        "Wang, Wenyan",
+        "Li, Yiqun",
+        "Wang, Jie",
+        "Ming, Yue",
+        "Li, Xiaoxin",
+        "Xing, Zeyu",
+        "Qin, Ling",
+        "Zhao, Zhengye",
+        "Jia, Ziqi",
+        "Li, Jiaxin",
+        "Liu, Gang",
+        "Zhang, Menglu",
+        "Feng, Kexin",
+        "Wu, Jiang",
+        "Zhang, Jianguo",
+        "Yang, Yongxin",
+        "Wu, Zhihong",
+        "Liu, Zhihua",
+        "Ying, Jianming",
+        "Wang, Xin",
+        "Su, Jianzhong",
+        "Wang, Xiang",
+        "Wu, Nan"
+      ],
+      "short_names": [
+        "Liu J",
+        "Zhao H",
+        "Zheng Y",
+        "Dong L",
+        "Zhao S",
+        "Huang Y",
+        "Huang S",
+        "Qian T",
+        "Zou J",
+        "Liu S",
+        "Li J",
+        "Yan Z",
+        "Li Y",
+        "Zhang S",
+        "Huang X",
+        "Wang W",
+        "Li Y",
+        "Wang J",
+        "Ming Y",
+        "Li X",
+        "Xing Z",
+        "Qin L",
+        "Zhao Z",
+        "Jia Z",
+        "Li J",
+        "Liu G",
+        "Zhang M",
+        "Feng K",
+        "Wu J",
+        "Zhang J",
+        "Yang Y",
+        "Wu Z",
+        "Liu Z",
+        "Ying J",
+        "Wang X",
+        "Su J",
+        "Wang X",
+        "Wu N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9429-2889"
+      ],
+      "affiliations": [
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Fintech Innovation Center, Southwestern University of Finance and Economics, Chengdu, 611130, China.",
+        "Department of Pathology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China.",
+        "School of Biomedical Engineering, School of Ophthalmology & Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, 325027, China.",
+        "Department of Laboratory Medicine, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgery, Guiyang Maternal and Child Healthcare Hospital, Guiyang, 550001, China.",
+        "Department of Breast Surgery, the Affiliated Hospital of Guizhou Medical University, Guiyang, 550004, China.",
+        "Department of Molecular Pathology, the Affiliated Cancer Hospital of Zhengzhou University, Zhengzhou, 450000, China.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China.",
+        "Department of Breast Surgery, the Fourth Hospital of Hebei Medical University, Shijiazhuang, 050019, Hebei, China.",
+        "Department of Breast Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Department of Breast Surgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, 100070, China.",
+        "Department of Oncology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Ultrasound, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "PET-CT Center, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Medical Research Center, Beijing Key Laboratory for Genetic Research of Skeletal Deformity & Key Laboratory of Big Data for Spinal Deformities, All at Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, Cancer Hospital of HuanXing, Beijing, 100021, China.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Machine Intelligence Group, University of Edinburgh, Edinburgh, EH8 9YL, UK.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Medical Research Center, Beijing Key Laboratory for Genetic Research of Skeletal Deformity & Key Laboratory of Big Data for Spinal Deformities, All at Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+        "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Pathology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China. sujz@wmu.edu.cn.",
+        "School of Biomedical Engineering, School of Ophthalmology & Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, 325027, China. sujz@wmu.edu.cn.",
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, 325011, China. sujz@wmu.edu.cn.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China. xiangw@vip.sina.com.",
+        "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+        "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+        "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+        "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jiaqi",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hengqiang",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yu",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fintech Innovation Center, Southwestern University of Finance and Economics, Chengdu, 611130, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Lin",
+        "short_name": "Dong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Sen",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yukuan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China.",
+          "School of Biomedical Engineering, School of Ophthalmology & Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shengkai",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Tianyi",
+        "short_name": "Qian T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Jiali",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Guiyang Maternal and Child Healthcare Hospital, Guiyang, 550001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, the Affiliated Hospital of Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jun",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathology, the Affiliated Cancer Hospital of Zhengzhou University, Zhengzhou, 450000, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Zihui",
+        "short_name": "Yan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yalun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuo",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, the Fourth Hospital of Hebei Medical University, Shijiazhuang, 050019, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenyan",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, 100070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yiqun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Ming, Yue",
+        "short_name": "Ming Y",
+        "identifiers": [],
+        "affiliations": [
+          "PET-CT Center, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoxin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Center, Beijing Key Laboratory for Genetic Research of Skeletal Deformity & Key Laboratory of Big Data for Spinal Deformities, All at Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zeyu",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Ling",
+        "short_name": "Qin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, Cancer Hospital of HuanXing, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhengye",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ziqi",
+        "short_name": "Jia Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaxin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Gang",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Menglu",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Kexin",
+        "short_name": "Feng K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiang",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianguo",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yongxin",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Machine Intelligence Group, University of Edinburgh, Edinburgh, EH8 9YL, UK."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhihong",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Medical Research Center, Beijing Key Laboratory for Genetic Research of Skeletal Deformity & Key Laboratory of Big Data for Spinal Deformities, All at Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China.",
+          "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhihua",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Jianming",
+        "short_name": "Ying J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center /National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Su, Jianzhong",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Big Data, Wenzhou Medical University, Wenzhou, 325027, China. sujz@wmu.edu.cn.",
+          "School of Biomedical Engineering, School of Ophthalmology & Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, 325027, China. sujz@wmu.edu.cn.",
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, 325011, China. sujz@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China. xiangw@vip.sina.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Nan",
+        "short_name": "Wu N",
+        "identifiers": [
+          "0000-0002-9429-2889"
+        ],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+          "Beijing Key Laboratory for Genetic Research of Skeletal Deformity, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+          "Key Laboratory of Big Data for Spinal Deformities, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn.",
+          "State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, 100730, China. dr.wunan@pumch.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2022 Feb 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/26 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "41841102",
+      "40439693",
+      "39328331",
+      "39304962",
+      "38424620",
+      "38149678",
+      "37237042",
+      "36324133"
+    ],
+    "refs": [
+      "34354733",
+      "33020566",
+      "32980694",
+      "32381727",
+      "32259785",
+      "32154851",
+      "32125938",
+      "32027353",
+      "31779674",
+      "31744524",
+      "31640753",
+      "31342359",
+      "31308460",
+      "31095268",
+      "30980208",
+      "30964716",
+      "30917004",
+      "30643217",
+      "30526229",
+      "30526228",
+      "30120215",
+      "29998407",
+      "29262283",
+      "29069473",
+      "28838210",
+      "28822332",
+      "28418444",
+      "28159408",
+      "28132688",
+      "27560719",
+      "26483301",
+      "26153499",
+      "25983549",
+      "25741868",
+      "25593598",
+      "25009752",
+      "24454456",
+      "24346285",
+      "22427173",
+      "21990146",
+      "21962505",
+      "21614564",
+      "20512419",
+      "20482762",
+      "17938396",
+      "17579227",
+      "16446345",
+      "16421416",
+      "15709182",
+      "12381714",
+      "11896095",
+      "10931515",
+      "3203132"
+    ],
+    "similar": [
+      "35209950",
+      "28589637",
+      "23564750",
+      "32125938",
+      "31308460",
+      "36119527",
+      "20512419",
+      "38035841",
+      "29979200",
+      "30061222",
+      "34036661",
+      "34336698",
+      "16965326",
+      "31432574",
+      "39226054",
+      "35218119",
+      "16417652",
+      "28715532",
+      "22507745",
+      "31060593",
+      "26727920",
+      "27928164",
+      "35806485",
+      "29161300",
+      "31768816",
+      "38069345",
+      "28120249",
+      "33128190",
+      "22270937",
+      "18413374",
+      "34601666",
+      "30927264",
+      "22160602",
+      "30799262",
+      "30167906",
+      "20683152",
+      "18097771",
+      "32862574",
+      "27039803",
+      "25948675",
+      "22684231",
+      "28664506",
+      "16760289",
+      "27741520",
+      "32318955",
+      "30240537",
+      "26181175",
+      "32029870",
+      "31435815",
+      "32339256",
+      "31451522",
+      "18807178",
+      "31477031",
+      "29409476",
+      "31706072",
+      "20614180",
+      "33507482",
+      "32772980",
+      "33428613",
+      "27025497",
+      "31112341",
+      "32980694",
+      "31847907",
+      "28477318",
+      "32068069",
+      "12491499",
+      "32445176",
+      "30715675",
+      "36988750",
+      "29297111",
+      "24807107",
+      "29801090",
+      "31526714",
+      "31446535",
+      "21356067",
+      "27194814",
+      "36744932",
+      "31331294",
+      "30625039",
+      "37536918",
+      "31511339",
+      "16288312",
+      "28619461",
+      "36947458",
+      "37011610",
+      "38362852",
+      "38870570",
+      "39029294",
+      "37149903",
+      "33201204",
+      "37174101",
+      "36162852",
+      "37886874",
+      "38484211",
+      "36136330",
+      "32504368",
+      "28623477",
+      "26677205",
+      "39260602",
+      "22490389",
+      "38458854",
+      "34354733",
+      "33020566",
+      "39367739",
+      "33543354",
+      "26538066",
+      "34274008",
+      "37814187",
+      "34703010",
+      "32822302",
+      "34884835",
+      "36945459",
+      "39038933",
+      "36172325",
+      "38050080",
+      "31963545",
+      "36707770",
+      "38032355",
+      "38418940",
+      "39294438",
+      "38633773",
+      "36242564",
+      "36232840",
+      "39427061",
+      "39111546",
+      "34689757",
+      "36831433",
+      "31144781",
+      "36528806",
+      "37328908",
+      "34680343",
+      "38593782",
+      "35690313",
+      "34872100",
+      "37873507",
+      "23596205",
+      "37105446",
+      "35021209",
+      "38021917",
+      "34366303",
+      "35629097",
+      "37228159",
+      "33408741",
+      "36705815",
+      "38627848",
+      "38108720",
+      "37714994"
+    ],
+    "review": [
+      "35209950",
+      "35806485",
+      "38069345",
+      "30240537",
+      "38870570",
+      "38458854"
+    ],
+    "pmc": [
+      "8876403"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-022-01027-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35209950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35209950",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PALB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3284",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

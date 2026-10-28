@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "39824912",
+    "doi": "10.1038/s41598-025-86134-4",
+    "title": "Integrative genetics and multiomics analysis reveal mechanisms and therapeutic targets in vitiligo highlighting JAK STAT pathway regulation of CTSS."
+  },
+  "content": {
+    "abstract": "Vitiligo is a complex autoimmune disease characterized by the loss of melanocytes, leading to skin depigmentation. Despite advances in understanding its genetic and molecular basis, the precise mechanisms driving vitiligo remain elusive. Integrating multiple layers of omics data can provide a comprehensive view of disease pathogenesis and identify potential therapeutic targets. The study aims to delineate the genetic and molecular mechanisms of vitiligo pathogenesis using an integrative multiomics strategy. We focus on exploring the regulatory influence of the JAK/STAT pathway on Cathepsin S, a potential therapeutic target in vitiligo. Our GWAS-meta analysis pinpointed five druggable genes: ERBB3, RHOH, CDK10, MC1R, and NDUFAF3, and underwent drug target exploration and molecular docking. SMR analysis linked CTSS, CTSH, STX8, KIR2DL3, and GRHPR to vitiligo through pQTL and eQTL associations. Microarray and single-cell RNA-seq data showed differential expression of CTSS and STAT1/3 in vitiligo patients' blood and skin lesions. Our study offers novel perspectives on vitiligo's genetic and molecular basis, highlighting the JAK/STAT pathway's role in regulating CTSS for antigen processing in melanocytes. Further research is needed to confirm these results and assess the therapeutic potential of CTSS and related genes.",
+    "keywords": [
+      "Bioinformatics",
+      "CTSS",
+      "GWAS",
+      "Multiomics",
+      "Therapeutic targets",
+      "Vitiligo"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Vitiligo/genetics/metabolism/drug therapy",
+      "*Janus Kinases/metabolism/genetics",
+      "Signal Transduction",
+      "Genome-Wide Association Study",
+      "*STAT Transcription Factors/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "Melanocytes/metabolism",
+      "Quantitative Trait Loci",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Zi-Yue",
+        "He, Ming-Jie",
+        "Yu, Yong-Kai",
+        "Wang, Fang",
+        "Zhao, Peng-Yuan",
+        "Ran, De-Long",
+        "Fu, De-Shuang",
+        "He, Qing",
+        "Yang, Run-Ping",
+        "Zhang, Jiang-An"
+      ],
+      "short_names": [
+        "Dong ZY",
+        "He MJ",
+        "Yu YK",
+        "Wang F",
+        "Zhao PY",
+        "Ran DL",
+        "Fu DS",
+        "He Q",
+        "Yang RP",
+        "Zhang JA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Zhengzhou People's Hospital, Zhengzhou, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, Jiangsu Province Hospital and Nanjing Medical University First Affiliated Hospital, Nanjing, Jiangsu, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China.",
+        "Department of Dermatology, The Sixth Medical Center of Chinese, PLA General Hospital, 6 Fucheng Road, Haidian District, Beijing, 100048, China. yrp7691@163.com.",
+        "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China. zja7691@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Zi-Yue",
+        "short_name": "Dong ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Zhengzhou People's Hospital, Zhengzhou, Henan, China.",
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "He, Ming-Jie",
+        "short_name": "He MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yong-Kai",
+        "short_name": "Yu YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Jiangsu Province Hospital and Nanjing Medical University First Affiliated Hospital, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fang",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Peng-Yuan",
+        "short_name": "Zhao PY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Ran, De-Long",
+        "short_name": "Ran DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Fu, De-Shuang",
+        "short_name": "Fu DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "He, Qing",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Run-Ping",
+        "short_name": "Yang RP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Sixth Medical Center of Chinese, PLA General Hospital, 6 Fucheng Road, Haidian District, Beijing, 100048, China. yrp7691@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiang-An",
+        "short_name": "Zhang JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, First Affiliated Hospital of Zhengzhou University, No.1 Longhu Outer Ring Road, Jinshui District, Zhengzhou, 450052, Henan, China. zja7691@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jan 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/18 15:10",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42511873",
+      "42375086",
+      "42216045",
+      "42072733",
+      "40837363"
+    ],
+    "refs": [
+      "39062464",
+      "38898508",
+      "38840241",
+      "38715599",
+      "38572516",
+      "38476235",
+      "38103512",
+      "37924773",
+      "37794186",
+      "37726845",
+      "37697373",
+      "37612393",
+      "37575231",
+      "37429843",
+      "37231261",
+      "35990632",
+      "35962439",
+      "35804044",
+      "35653192",
+      "34857953",
+      "34475573",
+      "33790887",
+      "33200838",
+      "32913098",
+      "29500431",
+      "28619557",
+      "28129744",
+      "27899599",
+      "27723757",
+      "27019110",
+      "26387449",
+      "25950236",
+      "25885710",
+      "25625855",
+      "25596811",
+      "25230094",
+      "24886126",
+      "22955616",
+      "22561518",
+      "21839315",
+      "20616382",
+      "19085980",
+      "16350851",
+      "15308097",
+      "15284232",
+      "10592173"
+    ],
+    "similar": [
+      "39824912",
+      "37575231",
+      "34868078",
+      "37403086",
+      "37230920",
+      "33679896",
+      "36375683",
+      "34492272",
+      "40198440",
+      "33823765",
+      "28129744",
+      "38862942",
+      "36672151",
+      "38159176",
+      "20217138",
+      "38917875",
+      "39885576",
+      "39567266",
+      "37982238",
+      "24685392",
+      "28323260",
+      "34824210",
+      "28893190",
+      "39890561",
+      "39707330",
+      "29274790",
+      "28525837",
+      "39461013",
+      "26294736",
+      "30902022",
+      "31078730",
+      "34800646",
+      "31072055",
+      "38005266",
+      "22676255",
+      "28494922",
+      "35286692",
+      "29650799",
+      "30215638",
+      "40148470",
+      "18426409",
+      "36946306",
+      "39844246",
+      "38520787",
+      "23888780",
+      "26398764",
+      "36518035",
+      "31677846",
+      "35411132",
+      "32589961",
+      "38933282",
+      "40091050",
+      "21777851",
+      "31684858",
+      "36528067",
+      "31871544",
+      "21980035",
+      "35003057",
+      "39038503",
+      "34630419",
+      "27723757",
+      "22121102",
+      "19923887",
+      "28255960",
+      "37140667",
+      "38273387",
+      "40311696",
+      "39051921",
+      "20737505",
+      "30775947",
+      "38068541",
+      "18291658",
+      "38138551",
+      "31808852",
+      "40045304",
+      "36671504",
+      "37492565",
+      "38182908",
+      "39994070",
+      "28555727",
+      "21418178",
+      "33634995",
+      "38521921",
+      "39985719",
+      "25587654",
+      "23006893",
+      "26172316",
+      "24077308",
+      "23888769",
+      "40128726",
+      "35222802",
+      "22454431",
+      "40199813",
+      "38050341",
+      "21965617",
+      "39369964",
+      "32152180",
+      "39119340",
+      "17626283",
+      "18765289"
+    ],
+    "review": [
+      "39824912",
+      "34868078",
+      "37230920",
+      "34492272",
+      "40198440",
+      "33823765",
+      "39567266",
+      "37982238",
+      "24685392",
+      "28323260",
+      "34824210",
+      "39890561",
+      "30902022",
+      "30215638",
+      "36946306",
+      "38520787",
+      "26398764",
+      "36518035",
+      "31677846",
+      "21777851",
+      "36528067",
+      "27723757",
+      "28255960",
+      "37140667",
+      "38273387",
+      "20737505",
+      "38068541",
+      "18291658",
+      "38138551",
+      "31808852",
+      "36671504",
+      "37492565",
+      "28555727",
+      "25587654",
+      "39369964",
+      "39119340",
+      "18765289"
+    ],
+    "pmc": [
+      "11742684"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/vitiligo.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Vitiligo"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-86134-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39824912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3897",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

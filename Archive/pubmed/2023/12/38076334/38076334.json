@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "38076334",
+    "doi": "10.2147/JIR.S437266",
+    "title": "Analysis and Verification of Glycosylation Characteristics of Septic Acute Kidney Injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Septic acute kidney injury (S-AKI) results from an imbalance in the regulation of systemic inflammatory responses. Glycosylation plays an important role in inflammatory responses. However, the relationship between S-AKI and glycosylation is unclear. METHODS: The datasets of the public platform were analyzed using R language to obtain glycosylation-related differentially expressed genes (GRDEGs) in S-AKI. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes pathway (KEGG) enrichment analyses were performed for GRDEGs. Hub genes were obtained using three machine learning algorithms and their diagnostic values were evaluated using receiver operating characteristic (ROC) curves. The relationships between the hub genes, immune cells, and signaling pathways were analyzed, and the upstream miRNAs, transcription factors, and compounds of the hub genes were predicted. Mouse models of AKI with sepsis were constructed and the expression of the hub genes was verified. RESULTS: We obtained 45 GRDEGs that were mainly enriched in glycoprotein metabolism and immune inflammatory response, such as \"O-glycan biosynthesis\", \"phagosome\", \"pathogenic Escherichia coli infection\", \"glycosyltransferase activity\", etc. Seven hub genes that have potential diagnostic value were identified and were associated with the regulation of immune cells. Through gene set enrichment analysis (GSEA) of hub genes, it was found that these genes may be involved in metabolism, signaling transduction, and inflammation-related signaling pathways, such as \"metabolism of amino and derivatives\", \"RHO GTPase cycle\", \"transport of small molecules\", \"neutrophil degranulation\", \"immune system\", etc. We then predicted 100 miRNAs, 60 TFs, and 23 compounds of the hub genes using forecasting tools. Finally, animal experiments confirmed the differential expression of ASGR1, UMOD, SPTBN1, and ADAMTS17. CONCLUSION: This study identified and validated four biomarkers associated with abnormal glycosylation that could be potential targets for AKI in sepsis.",
+    "keywords": [
+      "acute kidney injury",
+      "bioinformatics",
+      "glycosylation",
+      "hub genes",
+      "sepsis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Si",
+        "Gan, Hua"
+      ],
+      "short_names": [
+        "Chen S",
+        "Gan H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, People's Republic of China.",
+        "Department of Nephrology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Si",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gan, Hua",
+        "short_name": "Gan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/11 12:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "41327509",
+      "40830297",
+      "40308762",
+      "39563263"
+    ],
+    "refs": [
+      "37423640",
+      "37345040",
+      "36621538",
+      "36527113",
+      "35881244",
+      "35833138",
+      "35486714",
+      "34726173",
+      "34645615",
+      "34570260",
+      "33519818",
+      "33361116",
+      "32878103",
+      "32704420",
+      "31963743",
+      "31795528",
+      "31443997",
+      "30251656",
+      "29921663",
+      "29727589",
+      "29596458",
+      "28192060",
+      "27217054",
+      "26567221",
+      "26398704",
+      "26086942",
+      "25861592",
+      "25295306",
+      "24614541",
+      "22021718",
+      "12544491"
+    ],
+    "similar": [
+      "38076334",
+      "38212812",
+      "35957725",
+      "33863396",
+      "35658960",
+      "37033969",
+      "37359526",
+      "37250717",
+      "36148059",
+      "36643579",
+      "35192775",
+      "35958412",
+      "37503333",
+      "39096939",
+      "35562622",
+      "37235492",
+      "36189314",
+      "37740761",
+      "36793712",
+      "37576602",
+      "38476535",
+      "36860851",
+      "37113991",
+      "36992583",
+      "35463752",
+      "35069594",
+      "36506310",
+      "33224526",
+      "33927789",
+      "37035738",
+      "36195955",
+      "37409245",
+      "34754625",
+      "35313524",
+      "36225941",
+      "36125921",
+      "35634481",
+      "35996248",
+      "36660246",
+      "35958546",
+      "36438903",
+      "36443035",
+      "31667013",
+      "34536521",
+      "35059728",
+      "38020614",
+      "37752199",
+      "35016690",
+      "37460430",
+      "35711934",
+      "37426635",
+      "36642989",
+      "37974210",
+      "37684281",
+      "37089399",
+      "36532040",
+      "34671419",
+      "35680809",
+      "37179305",
+      "37063876",
+      "35996406",
+      "36712272",
+      "37287971",
+      "36627660",
+      "36856573",
+      "35713363",
+      "37553608",
+      "37083129",
+      "36118873",
+      "35286184",
+      "36660690",
+      "35091780",
+      "36514015",
+      "36635346",
+      "33777519",
+      "34856750",
+      "35773742",
+      "37234868",
+      "33705733",
+      "35757392",
+      "37478215",
+      "37740762",
+      "37283588",
+      "37325483",
+      "37691276",
+      "35401659",
+      "33748037",
+      "35637927",
+      "33376723",
+      "34553293",
+      "35004856",
+      "37122694",
+      "35911963",
+      "35111390",
+      "36313022",
+      "37008314",
+      "37153000",
+      "36704339",
+      "37180171"
+    ],
+    "review": [
+      "38076334"
+    ],
+    "pmc": [
+      "10710256"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/JIR.S437266?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38076334/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38076334",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-984",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S437266",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

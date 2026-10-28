@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "40417780",
+    "doi": "10.1111/jnc.70093",
+    "title": "A Computational Approach to Identify Novel Protein Targets Uncovers New Potential Mechanisms of Action of Mirtazapine S(+) and R(-) Enantiomers in Rett Syndrome."
+  },
+  "content": {
+    "abstract": "Rett syndrome (RTT) is a progressive neurodevelopmental disorder that affects approximately 1:10000 newborn girls and is primarily caused by mutations in the X-linked gene MECP2. Due to reduced brain monoamine levels in RTT, antidepressants have been explored as potential therapies. In previous studies, we demonstrated that the antidepressant mirtazapine (MTZ) alleviates symptoms in Mecp2-mutant mice and RTT adult patients. However, the mechanism of action of MTZ, a racemic mixture that binds to multiple receptors, remains unclear. This study introduces a computational approach to screen the \"human pocketome,\" comprising over 25 K ligand-bound pockets derived from more than 210 K human protein structures available in the RCSB Protein Data Bank, aiming to identify binding pockets with high affinity for each MTZ enantiomer. Novelty concerns the approach to compare the two enantiomers of MTZ to other drugs experimentally determined as inactive for RTT. This approach introduces a new metric, the ZZscore, which ranks tested proteins and pockets based on their degree of interaction with the tested drugs. This enables the identification of potential drug-protein interactions relevant to the disease and/or phenotypic traits under study. Initial relaxed settings and thresholds parameters suggested over 30 potential targets, among which the RASH/SOS1 complex, but in vitro experiments on cultured hippocampal neurons from Mecp2-KO mice excluded any MTZ effect on it. Thus, we refined the procedure with more stringent parameters and identified 16 protein targets for S(+)MTZ and 14 for R(-)MTZ, with 5 common targets. Pathway enrichment analysis revealed 25 pathways for S(+)MTZ and 24 for R(-)MTZ, with 11 common pathways, many related to MeCP2 functions disrupted in RTT, such as epigenetic chromatin regulation, intracellular signaling, energy metabolism, cholesterol and lipid metabolism, and catecholamine biosynthesis. Overall, the presented computational modeling strategy for target identification allowed us to hypothesize new mechanisms of action for the two MTZ enantiomers.",
+    "keywords": [
+      "BioGPS",
+      "Rett syndrome",
+      "antidepressants",
+      "drug-protein docking",
+      "intellectual disability",
+      "mirtazapine",
+      "target deconvolution"
+    ],
+    "mesh_terms": [
+      "*Rett Syndrome/drug therapy/metabolism/genetics",
+      "Humans",
+      "Animals",
+      "*Mirtazapine/chemistry/pharmacology/therapeutic use",
+      "Methyl-CpG-Binding Protein 2/genetics/metabolism",
+      "Mice",
+      "Stereoisomerism",
+      "Molecular Docking Simulation",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roggero, Ottavia Maria",
+        "Gualandi, Nicolo",
+        "Ciraci, Viviana",
+        "Berutto, Vittoria",
+        "Carosati, Emanuele",
+        "Tongiorgi, Enrico"
+      ],
+      "short_names": [
+        "Roggero OM",
+        "Gualandi N",
+        "Ciraci V",
+        "Berutto V",
+        "Carosati E",
+        "Tongiorgi E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7159-5262",
+        "ORCID: 0000-0003-0622-6118",
+        "ORCID: 0000-0003-1812-3204",
+        "ORCID: 0009-0003-6764-8450",
+        "ORCID: 0000-0003-0657-5035",
+        "ORCID: 0000-0003-0485-0603"
+      ],
+      "affiliations": [
+        "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy.",
+        "Computational Genomics Laboratory, Scuola Internazionale Superiore di Studi Avanzati (SISSA), Trieste, Italy.",
+        "Department of Medicine, University of Udine, Udine, Italy.",
+        "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy.",
+        "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences, University of Trieste, Trieste, Italy.",
+        "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roggero, Ottavia Maria",
+        "short_name": "Roggero OM",
+        "identifiers": [
+          "0000-0002-7159-5262"
+        ],
+        "affiliations": [
+          "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Gualandi, Nicolò",
+        "short_name": "Gualandi N",
+        "identifiers": [
+          "0000-0003-0622-6118"
+        ],
+        "affiliations": [
+          "Computational Genomics Laboratory, Scuola Internazionale Superiore di Studi Avanzati (SISSA), Trieste, Italy.",
+          "Department of Medicine, University of Udine, Udine, Italy."
+        ]
+      },
+      {
+        "full_name": "Ciraci, Viviana",
+        "short_name": "Ciraci V",
+        "identifiers": [
+          "0000-0003-1812-3204"
+        ],
+        "affiliations": [
+          "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Berutto, Vittoria",
+        "short_name": "Berutto V",
+        "identifiers": [
+          "0009-0003-6764-8450"
+        ],
+        "affiliations": [
+          "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Carosati, Emanuele",
+        "short_name": "Carosati E",
+        "identifiers": [
+          "0000-0003-0657-5035"
+        ],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Tongiorgi, Enrico",
+        "short_name": "Tongiorgi E",
+        "identifiers": [
+          "0000-0003-0485-0603"
+        ],
+        "affiliations": [
+          "Cellular and Developmental Neurobiology Lab-Department of Life Sciences, University of Trieste, Trieste, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neurochemistry"
+    ],
+    "journal_abbrev": [
+      "J Neurochem"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/26 12:36",
+    "fetched_at": "2026-09-30 18:45:06"
+  },
+  "links": {
+    "cites": [
+      "41726704"
+    ],
+    "refs": [
+      "38661212",
+      "38642703",
+      "38585646",
+      "38419783",
+      "38408883",
+      "38371593",
+      "37884937",
+      "37481701",
+      "36727213",
+      "36475542",
+      "36305812",
+      "35997367",
+      "35448478",
+      "35358499",
+      "35330113",
+      "35322809",
+      "35241779",
+      "34819604",
+      "34472659",
+      "33924466",
+      "33871180",
+      "33857522",
+      "33783220",
+      "33650079",
+      "33564394",
+      "33429932",
+      "33045747",
+      "32988385",
+      "32630125",
+      "32051524",
+      "31974426",
+      "31707420",
+      "31430649",
+      "31362019",
+      "30912017",
+      "30604454",
+      "30392561",
+      "30258545",
+      "30220058",
+      "30205005",
+      "29936317",
+      "29468173",
+      "29445033",
+      "29145629",
+      "28961699",
+      "28662117",
+      "28611656",
+      "28411170",
+      "28270862",
+      "28063942",
+      "27899562",
+      "27445961",
+      "27404817",
+      "27296483",
+      "27214381",
+      "26894670",
+      "26806603",
+      "26500705",
+      "26424401",
+      "26355717",
+      "26060191",
+      "25920810",
+      "25875630",
+      "25870282",
+      "25779967",
+      "25627476",
+      "25556939",
+      "25353170",
+      "25326797",
+      "24633655",
+      "24550777",
+      "24529706",
+      "24524207",
+      "23226952",
+      "22970894",
+      "22550944",
+      "22455463",
+      "21989414",
+      "21131950",
+      "20970519",
+      "20951595",
+      "20690627",
+      "20231667",
+      "20007372",
+      "19851857",
+      "19002580",
+      "18572337",
+      "17998271",
+      "17988628",
+      "17917669",
+      "17439480",
+      "17381166",
+      "17237885",
+      "16865103",
+      "16573649",
+      "16342227",
+      "16339024",
+      "16199517",
+      "16173113",
+      "15934889",
+      "15629253",
+      "15003397",
+      "12455930",
+      "11779497",
+      "11607047",
+      "11242117",
+      "11005791",
+      "10592235",
+      "10508514",
+      "9917581",
+      "9825937",
+      "9669186",
+      "9554320",
+      "9523552",
+      "9090576",
+      "9006657",
+      "7876888"
+    ],
+    "similar": [
+      "40417780",
+      "35358499",
+      "32988385",
+      "24594195",
+      "30012595",
+      "25960047",
+      "22207122",
+      "29090078",
+      "21372149",
+      "26806603",
+      "32105570",
+      "35670902",
+      "16682435",
+      "33429932",
+      "25870282",
+      "25076025",
+      "29445033",
+      "32616668",
+      "39300547",
+      "27288453",
+      "33598674",
+      "36430502",
+      "30820643",
+      "31366578",
+      "32246495",
+      "17309881",
+      "29464197",
+      "18989361",
+      "26214522",
+      "27881780",
+      "40427580",
+      "33383186",
+      "35091041",
+      "27974239",
+      "27071793",
+      "27884167",
+      "34201747",
+      "19442733",
+      "33916879",
+      "23348913",
+      "32317254",
+      "38672521",
+      "31409060",
+      "21916843",
+      "37710353",
+      "19000991",
+      "36931532",
+      "32652084",
+      "23077217",
+      "16446133",
+      "20163734",
+      "30673959",
+      "38429622",
+      "26344767",
+      "24399845",
+      "20504995",
+      "26236424",
+      "36652535",
+      "34572143",
+      "32393583",
+      "29769330",
+      "26507912",
+      "33919253",
+      "26647311",
+      "24615633",
+      "20569274",
+      "39519108",
+      "21878110",
+      "26984561",
+      "36575558",
+      "28544139",
+      "35460749",
+      "36232428",
+      "27254746",
+      "21824415",
+      "23744605",
+      "26456390",
+      "29258545",
+      "35785421",
+      "21982064",
+      "28093257",
+      "40442389",
+      "32051524",
+      "37965930",
+      "10508514",
+      "12750821",
+      "23770587",
+      "24129406",
+      "31229631",
+      "35263890",
+      "25118178",
+      "21966470",
+      "11532982",
+      "28323142",
+      "20682201",
+      "26842955",
+      "32851591",
+      "15549394",
+      "39768168",
+      "39300821"
+    ],
+    "review": [
+      "40417780",
+      "24594195",
+      "25960047",
+      "33429932",
+      "25076025",
+      "29445033",
+      "30820643",
+      "27071793",
+      "27884167",
+      "33916879",
+      "31409060",
+      "21916843",
+      "16446133",
+      "24615633",
+      "21878110",
+      "36232428",
+      "23744605",
+      "35785421",
+      "40442389",
+      "12750821",
+      "31229631"
+    ],
+    "pmc": [
+      "12104967"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rettsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rett Syndrome"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/40417780",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40417780.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40417780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/jnc.70093",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1554",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

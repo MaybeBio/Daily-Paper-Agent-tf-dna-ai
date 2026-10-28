@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40719555",
+  "title": "MutPNI: A Unified Model Architecture for Accurately Predicting the Effects of Mutations on Protein-Nucleic Acid Interactions.",
+  "authors": "Yan, Zihao; Ge, Fang; Zhang, Ying; Yan, He; Liu, Yan; Zhu, Yi-Heng; Song, Jiangning; Yu, Dong-Jun",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出MutPNI模型，结合ESM-2/ProtT5蛋白语言模型与突变体结构能量项，预测蛋白-DNA/RNA结合亲和力变化，属于广义蛋白-核酸互作且方法可迁移至TF-DNA体系，但非聚焦TF-DNA特异性结合机制。",
+  "abstract": "Missense mutations in DNA- and RNA-binding proteins can disrupt vital interaction networks and frequently lead to disease. However, current methods for predicting changes in binding affinity between protein-DNA and protein-RNA remain fragmented and inefficient. In this study, we introduce MutPNI, a novel general regression model that predicts the effects of missense mutations in DNA-binding and RNA-binding proteins. To achieve this, we integrate feature embeddings from pretrained ESM-2 and ProtT5 protein language models and incorporate energy terms derived from mutant protein structures. We then train the model through a Transformer-based encoder, enabling it to attain PCC values of 0.661 and 0.701 on DNA and RNA benchmark test sets, respectively. Furthermore, our final strategy relies on the same model architecture, rather than identical parameters, to predict mutations in both protein-DNA and protein-RNA complexes, thereby highlighting shared features as well as key distinctions in the two data sets. Finally, the method's high computational efficiency allows for scaling to large biological data sets, offering a robust platform for future research. The web server and data sets for MutPNI are publicly available at https://csbioinformatics.njust.edu.cn/mutpni/ for academic use.",
+  "abstract_zh": "DNA和RNA结合蛋白中的错义突变可能破坏关键的相互作用网络，并常导致疾病。然而，目前预测蛋白质-DNA和蛋白质-RNA之间结合亲和力变化的方法仍显零散且效率低下。在本研究中，我们引入了MutPNI，一种新颖的通用回归模型，用于预测DNA结合蛋白和RNA结合蛋白中错义突变的影响。为实现这一目标，我们整合了预训练的ESM-2和ProtT5蛋白质语言模型的特征嵌入，并纳入了源自突变蛋白结构的能量项。随后，我们通过基于Transformer的编码器训练模型，使其在DNA和RNA基准测试集上分别达到0.661和0.701的PCC值。此外，我们的最终策略依赖于相同的模型架构，而非相同参数，来预测蛋白质-DNA和蛋白质-RNA复合物中的突变，从而突出两个数据集中的共享特征及关键差异。最后，该方法的高计算效率使其能够扩展到大型生物数据集，为未来研究提供了稳健的平台。MutPNI的Web服务器和数据集可在https://csbioinformatics.njust.edu.cn/mutpni/公开获取，供学术使用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40719555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40719555/",
+  "paper_page_path": "papers/pubmed/40719555/index.html"
+}

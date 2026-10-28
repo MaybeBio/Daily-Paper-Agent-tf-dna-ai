@@ -1,0 +1,1198 @@
+{
+  "identity": {
+    "pmid": "36443295",
+    "doi": "10.1038/s41467-022-34815-3",
+    "title": "DNA methylation-based classification of sinonasal tumors."
+  },
+  "content": {
+    "abstract": "The diagnosis of sinonasal tumors is challenging due to a heterogeneous spectrum of various differential diagnoses as well as poorly defined, disputed entities such as sinonasal undifferentiated carcinomas (SNUCs). In this study, we apply a machine learning algorithm based on DNA methylation patterns to classify sinonasal tumors with clinical-grade reliability. We further show that sinonasal tumors with SNUC morphology are not as undifferentiated as their current terminology suggests but rather reassigned to four distinct molecular classes defined by epigenetic, mutational and proteomic profiles. This includes two classes with neuroendocrine differentiation, characterized by IDH2 or SMARCA4/ARID1A mutations with an overall favorable clinical course, one class composed of highly aggressive SMARCB1-deficient carcinomas and another class with tumors that represent potentially previously misclassified adenoid cystic carcinomas. Our findings can aid in improving the diagnostic classification of sinonasal tumors and could help to change the current perception of SNUCs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Transcription Factors",
+      "Proteomics",
+      "Maxillary Sinus Neoplasms",
+      "DNA Helicases/genetics",
+      "*Carcinoma",
+      "Reproducibility of Results",
+      "*DNA Methylation/genetics",
+      "Humans",
+      "Nuclear Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jurmeister, Philipp",
+        "Gloss, Stefanie",
+        "Roller, Renee",
+        "Leitheiser, Maximilian",
+        "Schmid, Simone",
+        "Mochmann, Liliana H",
+        "Paya Capilla, Emma",
+        "Fritz, Rebecca",
+        "Dittmayer, Carsten",
+        "Friedrich, Corinna",
+        "Thieme, Anne",
+        "Keyl, Philipp",
+        "Jarosch, Armin",
+        "Schallenberg, Simon",
+        "Blaker, Hendrik",
+        "Hoffmann, Inga",
+        "Vollbrecht, Claudia",
+        "Lehmann, Annika",
+        "Hummel, Michael",
+        "Heim, Daniel",
+        "Haji, Mohamed",
+        "Harter, Patrick",
+        "Englert, Benjamin",
+        "Frank, Stephan",
+        "Hench, Jurgen",
+        "Paulus, Werner",
+        "Hasselblatt, Martin",
+        "Hartmann, Wolfgang",
+        "Dohmen, Hildegard",
+        "Keber, Ursula",
+        "Jank, Paul",
+        "Denkert, Carsten",
+        "Stadelmann, Christine",
+        "Bremmer, Felix",
+        "Richter, Annika",
+        "Wefers, Annika",
+        "Ribbat-Idel, Julika",
+        "Perner, Sven",
+        "Idel, Christian",
+        "Chiariotti, Lorenzo",
+        "Della Monica, Rosa",
+        "Marinelli, Alfredo",
+        "Schuller, Ulrich",
+        "Bockmayr, Michael",
+        "Liu, Jacklyn",
+        "Lund, Valerie J",
+        "Forster, Martin",
+        "Lechner, Matt",
+        "Lorenzo-Guerra, Sara L",
+        "Hermsen, Mario",
+        "Johann, Pascal D",
+        "Agaimy, Abbas",
+        "Seegerer, Philipp",
+        "Koch, Arend",
+        "Heppner, Frank",
+        "Pfister, Stefan M",
+        "Jones, David T W",
+        "Sill, Martin",
+        "von Deimling, Andreas",
+        "Snuderl, Matija",
+        "Muller, Klaus-Robert",
+        "Forgo, Erna",
+        "Howitt, Brooke E",
+        "Mertins, Philipp",
+        "Klauschen, Frederick",
+        "Capper, David"
+      ],
+      "short_names": [
+        "Jurmeister P",
+        "Gloss S",
+        "Roller R",
+        "Leitheiser M",
+        "Schmid S",
+        "Mochmann LH",
+        "Paya Capilla E",
+        "Fritz R",
+        "Dittmayer C",
+        "Friedrich C",
+        "Thieme A",
+        "Keyl P",
+        "Jarosch A",
+        "Schallenberg S",
+        "Blaker H",
+        "Hoffmann I",
+        "Vollbrecht C",
+        "Lehmann A",
+        "Hummel M",
+        "Heim D",
+        "Haji M",
+        "Harter P",
+        "Englert B",
+        "Frank S",
+        "Hench J",
+        "Paulus W",
+        "Hasselblatt M",
+        "Hartmann W",
+        "Dohmen H",
+        "Keber U",
+        "Jank P",
+        "Denkert C",
+        "Stadelmann C",
+        "Bremmer F",
+        "Richter A",
+        "Wefers A",
+        "Ribbat-Idel J",
+        "Perner S",
+        "Idel C",
+        "Chiariotti L",
+        "Della Monica R",
+        "Marinelli A",
+        "Schuller U",
+        "Bockmayr M",
+        "Liu J",
+        "Lund VJ",
+        "Forster M",
+        "Lechner M",
+        "Lorenzo-Guerra SL",
+        "Hermsen M",
+        "Johann PD",
+        "Agaimy A",
+        "Seegerer P",
+        "Koch A",
+        "Heppner F",
+        "Pfister SM",
+        "Jones DTW",
+        "Sill M",
+        "von Deimling A",
+        "Snuderl M",
+        "Muller KR",
+        "Forgo E",
+        "Howitt BE",
+        "Mertins P",
+        "Klauschen F",
+        "Capper D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1769-5393",
+        "ORCID: 0000-0001-6165-0187",
+        "ORCID: 0000-0002-7609-5021",
+        "ORCID: 0000-0002-0539-7065",
+        "ORCID: 0000-0001-7076-0476",
+        "ORCID: 0000-0002-2249-0982",
+        "ORCID: 0000-0003-1766-5458",
+        "ORCID: 0000-0002-8731-1121",
+        "ORCID: 0000-0002-9249-4292",
+        "ORCID: 0000-0002-7123-0773",
+        "ORCID: 0000-0002-5959-6289",
+        "ORCID: 0000-0002-0445-8161",
+        "ORCID: 0000-0002-4707-7991",
+        "ORCID: 0000-0001-9816-8917",
+        "ORCID: 0000-0002-5863-540X",
+        "ORCID: 0000-0002-0309-6680",
+        "ORCID: 0000-0002-2245-528X",
+        "ORCID: 0000-0003-1945-497X"
+      ],
+      "affiliations": [
+        "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbruck Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany.",
+        "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "MDC Graduate School, Max Delbruck Center for Molecular Medicine in the Helmholtz Association, Berlin, Germany.",
+        "Humboldt Universitat zu Berlin, Institute of Chemistry, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Institute of Pathology, University Hospital Leipzig, Leipzig, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbruck Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Institute of Neurology (Edinger Institute), Goethe-University Frankfurt am Main, Frankfurt am Main, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Frankfurt/Mainz, Frankfurt am Main, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Institute of Neuropathology, Ludwig Maximilians University Hospital Munich, Munich, Germany.",
+        "Department of Neuropathology, Institute of Pathology, Basel University Hospital, Basel, Switzerland.",
+        "Department of Neuropathology, Institute of Pathology, Basel University Hospital, Basel, Switzerland.",
+        "Institute of Neuropathology, University Hospital Munster, Munster, Germany.",
+        "Institute of Neuropathology, University Hospital Munster, Munster, Germany.",
+        "Division of Translational Pathology, Gerhard-Domagk-Institute of Pathology, University Hospital Munster, Munster, Germany.",
+        "Institute of Neuropathology, University of Giessen, Giessen, Germany.",
+        "Institute of Neuropathology, Philipps-University, Marburg, Germany.",
+        "Institute of Pathology, Philipps-University Marburg and University Hospital Marburg, Marburg, Germany.",
+        "Institute of Pathology, Philipps-University Marburg and University Hospital Marburg, Marburg, Germany.",
+        "Institute for Neuropathology, University Medical Centre Gottingen, Gottingen, Germany.",
+        "Institute of Pathology, University Medical Center, Gottingen, Germany.",
+        "Institute of Pathology, University Medical Center, Gottingen, Germany.",
+        "Department of Neuropathology, University Hospital Heidelberg, Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neuropathology, German Cancer Consortium (DKTK), German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Institute of Neuropathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University of Luebeck and University Hospital Schleswig-Holstein, Campus Luebeck, Luebeck, Germany.",
+        "Institute of Pathology, University of Luebeck and University Hospital Schleswig-Holstein, Campus Luebeck, Luebeck, Germany.",
+        "Pathology, Research Center Borstel, Leibniz Lung Center, Borstel, Germany.",
+        "German Center for Lung Research (DZL), Partner Site Luebeck, Luebeck, Germany.",
+        "Department of Otorhinolaryngology, University Hospital Schleswig-Holstein, Campus Lubeck, Lubeck, Germany.",
+        "Dipartimento di Medicina Molecolare e Biotecnologie Mediche, Universita degli Studi di Napoli Federico II, Via S. Pansini 5, 80131, Naples, Italy.",
+        "CEINGE Biotecnologie Avanzate, 80145, Naples, Italy.",
+        "CEINGE Biotecnologie Avanzate, 80145, Naples, Italy.",
+        "Department of Medicina Clinica e Chirurgia, University Federico II, Naples, Italy.",
+        "Institute of Neuropathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Department of Pediatric Hematology and Oncology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Research Institute Children's Cancer Center Hamburg, Hamburg, Germany.",
+        "Institute of Pathology, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Department of Pediatric Hematology and Oncology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Research Institute Children's Cancer Center Hamburg, Hamburg, Germany.",
+        "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+        "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK.",
+        "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+        "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK.",
+        "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+        "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK.",
+        "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+        "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK.",
+        "Department of Head and Neck Oncology, Instituto de Investigacion Sanitaria del Principado de Asturias (ISPA), Oviedo, Spain.",
+        "Department of Head and Neck Oncology, Instituto de Investigacion Sanitaria del Principado de Asturias (ISPA), Oviedo, Spain.",
+        "Swabian Childrens' Cancer Center, University Childrens' Hospital Augsburg and EU-RHAB Registry, Augsburg, Germany.",
+        "Institute of Pathology, Friedrich-Alexander-University Erlangen-Nurnberg, University Hospital, Erlangen, Germany.",
+        "Machine-Learning Group, Department of Software Engineering and Theoretical Computer Science, Technical University of Berlin, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany.",
+        "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany.",
+        "Division of Pediatric Neurooncology, German Cancer Research Center (DKFZ) and German Cancer Consortium (DKTK), Heidelberg, Germany.",
+        "Department of Hematology and Oncology, Heidelberg University Hospital, Heidelberg, Germany.",
+        "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany.",
+        "Division of Pediatric Glioma Research, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany.",
+        "Department of Neuropathology, University Hospital Heidelberg, Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neuropathology, German Cancer Consortium (DKTK), German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Division of Neuropathology, NYU Langone Health, New York, USA.",
+        "Laura and Isaac Perlmutter Cancer Center, NYU Langone Health, New York, USA.",
+        "Division of Molecular Pathology and Diagnostics, NYU Langone Health, New York, USA.",
+        "Machine-Learning Group, Department of Software Engineering and Theoretical Computer Science, Technical University of Berlin, Berlin, Germany.",
+        "Department of Artificial Intelligence, Korea University, Seoul, South Korea.",
+        "Max-Planck-Institute for Informatics, Saarbrucken, Germany.",
+        "BIFOLD - Berlin Institute for the Foundations of Learning and Data, Berlin, Germany.",
+        "Stanford University School of Medicine, Stanford, CA, USA.",
+        "Stanford University School of Medicine, Stanford, CA, USA.",
+        "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbruck Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany.",
+        "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "BIFOLD - Berlin Institute for the Foundations of Learning and Data, Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Department of Neuropathology, Chariteplatz 1, Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jurmeister, Philipp",
+        "short_name": "Jurmeister P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany. philipp.jurmeister@med.uni-muenchen.de.",
+          "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany. philipp.jurmeister@med.uni-muenchen.de."
+        ]
+      },
+      {
+        "full_name": "Glöß, Stefanie",
+        "short_name": "Glöß S",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Roller, Renée",
+        "short_name": "Roller R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Leitheiser, Maximilian",
+        "short_name": "Leitheiser M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmid, Simone",
+        "short_name": "Schmid S",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Mochmann, Liliana H",
+        "short_name": "Mochmann LH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Payá Capilla, Emma",
+        "short_name": "Payá Capilla E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Fritz, Rebecca",
+        "short_name": "Fritz R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Dittmayer, Carsten",
+        "short_name": "Dittmayer C",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Friedrich, Corinna",
+        "short_name": "Friedrich C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "MDC Graduate School, Max Delbrück Center for Molecular Medicine in the Helmholtz Association, Berlin, Germany.",
+          "Humboldt Universität zu Berlin, Institute of Chemistry, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Thieme, Anne",
+        "short_name": "Thieme A",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Keyl, Philipp",
+        "short_name": "Keyl P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Jarosch, Armin",
+        "short_name": "Jarosch A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Schallenberg, Simon",
+        "short_name": "Schallenberg S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Bläker, Hendrik",
+        "short_name": "Bläker H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Inga",
+        "short_name": "Hoffmann I",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Vollbrecht, Claudia",
+        "short_name": "Vollbrecht C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lehmann, Annika",
+        "short_name": "Lehmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Hummel, Michael",
+        "short_name": "Hummel M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Heim, Daniel",
+        "short_name": "Heim D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Haji, Mohamed",
+        "short_name": "Haji M",
+        "identifiers": [],
+        "affiliations": [
+          "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Harter, Patrick",
+        "short_name": "Harter P",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Institute of Neurology (Edinger Institute), Goethe-University Frankfurt am Main, Frankfurt am Main, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Frankfurt/Mainz, Frankfurt am Main, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Englert, Benjamin",
+        "short_name": "Englert B",
+        "identifiers": [
+          "0000-0002-1769-5393"
+        ],
+        "affiliations": [
+          "Institute of Neuropathology, Ludwig Maximilians University Hospital Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Frank, Stephan",
+        "short_name": "Frank S",
+        "identifiers": [
+          "0000-0001-6165-0187"
+        ],
+        "affiliations": [
+          "Department of Neuropathology, Institute of Pathology, Basel University Hospital, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hench, Jürgen",
+        "short_name": "Hench J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Institute of Pathology, Basel University Hospital, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Paulus, Werner",
+        "short_name": "Paulus W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuropathology, University Hospital Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Hasselblatt, Martin",
+        "short_name": "Hasselblatt M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuropathology, University Hospital Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Wolfgang",
+        "short_name": "Hartmann W",
+        "identifiers": [
+          "0000-0002-7609-5021"
+        ],
+        "affiliations": [
+          "Division of Translational Pathology, Gerhard-Domagk-Institute of Pathology, University Hospital Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Dohmen, Hildegard",
+        "short_name": "Dohmen H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuropathology, University of Giessen, Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Keber, Ursula",
+        "short_name": "Keber U",
+        "identifiers": [
+          "0000-0002-0539-7065"
+        ],
+        "affiliations": [
+          "Institute of Neuropathology, Philipps-University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jank, Paul",
+        "short_name": "Jank P",
+        "identifiers": [
+          "0000-0001-7076-0476"
+        ],
+        "affiliations": [
+          "Institute of Pathology, Philipps-University Marburg and University Hospital Marburg, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Denkert, Carsten",
+        "short_name": "Denkert C",
+        "identifiers": [
+          "0000-0002-2249-0982"
+        ],
+        "affiliations": [
+          "Institute of Pathology, Philipps-University Marburg and University Hospital Marburg, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stadelmann, Christine",
+        "short_name": "Stadelmann C",
+        "identifiers": [
+          "0000-0003-1766-5458"
+        ],
+        "affiliations": [
+          "Institute for Neuropathology, University Medical Centre Göttingen, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bremmer, Felix",
+        "short_name": "Bremmer F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Richter, Annika",
+        "short_name": "Richter A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Wefers, Annika",
+        "short_name": "Wefers A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, University Hospital Heidelberg, Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neuropathology, German Cancer Consortium (DKTK), German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Institute of Neuropathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ribbat-Idel, Julika",
+        "short_name": "Ribbat-Idel J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University of Luebeck and University Hospital Schleswig-Holstein, Campus Luebeck, Luebeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Perner, Sven",
+        "short_name": "Perner S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University of Luebeck and University Hospital Schleswig-Holstein, Campus Luebeck, Luebeck, Germany.",
+          "Pathology, Research Center Borstel, Leibniz Lung Center, Borstel, Germany.",
+          "German Center for Lung Research (DZL), Partner Site Luebeck, Luebeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Idel, Christian",
+        "short_name": "Idel C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, University Hospital Schleswig-Holstein, Campus Lübeck, Lübeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Chiariotti, Lorenzo",
+        "short_name": "Chiariotti L",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Medicina Molecolare e Biotecnologie Mediche, Università degli Studi di Napoli Federico II, Via S. Pansini 5, 80131, Naples, Italy.",
+          "CEINGE Biotecnologie Avanzate, 80145, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Della Monica, Rosa",
+        "short_name": "Della Monica R",
+        "identifiers": [],
+        "affiliations": [
+          "CEINGE Biotecnologie Avanzate, 80145, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Marinelli, Alfredo",
+        "short_name": "Marinelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicina Clinica e Chirurgia, University Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Schüller, Ulrich",
+        "short_name": "Schüller U",
+        "identifiers": [
+          "0000-0002-8731-1121"
+        ],
+        "affiliations": [
+          "Institute of Neuropathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+          "Department of Pediatric Hematology and Oncology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+          "Research Institute Children's Cancer Center Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bockmayr, Michael",
+        "short_name": "Bockmayr M",
+        "identifiers": [
+          "0000-0002-9249-4292"
+        ],
+        "affiliations": [
+          "Institute of Pathology, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin, Germany.",
+          "Department of Pediatric Hematology and Oncology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+          "Research Institute Children's Cancer Center Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Liu, Jacklyn",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+          "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Lund, Valerie J",
+        "short_name": "Lund VJ",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+          "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Forster, Martin",
+        "short_name": "Forster M",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+          "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Lechner, Matt",
+        "short_name": "Lechner M",
+        "identifiers": [
+          "0000-0002-7123-0773"
+        ],
+        "affiliations": [
+          "UCL Cancer Institute, University College London, 72 Huntley Street, London, WC1E 6BT, UK.",
+          "UCL Academic Head and Neck Centre, Division of Surgery and Interventional Science, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Lorenzo-Guerra, Sara L",
+        "short_name": "Lorenzo-Guerra SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Oncology, Instituto de Investigación Sanitaria del Principado de Asturias (ISPA), Oviedo, Spain."
+        ]
+      },
+      {
+        "full_name": "Hermsen, Mario",
+        "short_name": "Hermsen M",
+        "identifiers": [
+          "0000-0002-5959-6289"
+        ],
+        "affiliations": [
+          "Department of Head and Neck Oncology, Instituto de Investigación Sanitaria del Principado de Asturias (ISPA), Oviedo, Spain."
+        ]
+      },
+      {
+        "full_name": "Johann, Pascal D",
+        "short_name": "Johann PD",
+        "identifiers": [],
+        "affiliations": [
+          "Swabian Childrens' Cancer Center, University Childrens' Hospital Augsburg and EU-RHAB Registry, Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Agaimy, Abbas",
+        "short_name": "Agaimy A",
+        "identifiers": [
+          "0000-0002-0445-8161"
+        ],
+        "affiliations": [
+          "Institute of Pathology, Friedrich-Alexander-University Erlangen-Nürnberg, University Hospital, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Seegerer, Philipp",
+        "short_name": "Seegerer P",
+        "identifiers": [
+          "0000-0002-4707-7991"
+        ],
+        "affiliations": [
+          "Machine-Learning Group, Department of Software Engineering and Theoretical Computer Science, Technical University of Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Koch, Arend",
+        "short_name": "Koch A",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Heppner, Frank",
+        "short_name": "Heppner F",
+        "identifiers": [
+          "0000-0001-9816-8917"
+        ],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Pfister, Stefan M",
+        "short_name": "Pfister SM",
+        "identifiers": [],
+        "affiliations": [
+          "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany.",
+          "Division of Pediatric Neurooncology, German Cancer Research Center (DKFZ) and German Cancer Consortium (DKTK), Heidelberg, Germany.",
+          "Department of Hematology and Oncology, Heidelberg University Hospital, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jones, David T W",
+        "short_name": "Jones DTW",
+        "identifiers": [],
+        "affiliations": [
+          "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany.",
+          "Division of Pediatric Glioma Research, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sill, Martin",
+        "short_name": "Sill M",
+        "identifiers": [],
+        "affiliations": [
+          "Hopp Children's Cancer Center Heidelberg (KiTZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "von Deimling, Andreas",
+        "short_name": "von Deimling A",
+        "identifiers": [
+          "0000-0002-5863-540X"
+        ],
+        "affiliations": [
+          "Department of Neuropathology, University Hospital Heidelberg, Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neuropathology, German Cancer Consortium (DKTK), German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Snuderl, Matija",
+        "short_name": "Snuderl M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neuropathology, NYU Langone Health, New York, USA.",
+          "Laura and Isaac Perlmutter Cancer Center, NYU Langone Health, New York, USA.",
+          "Division of Molecular Pathology and Diagnostics, NYU Langone Health, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Müller, Klaus-Robert",
+        "short_name": "Müller KR",
+        "identifiers": [],
+        "affiliations": [
+          "Machine-Learning Group, Department of Software Engineering and Theoretical Computer Science, Technical University of Berlin, Berlin, Germany.",
+          "Department of Artificial Intelligence, Korea University, Seoul, South Korea.",
+          "Max-Planck-Institute for Informatics, Saarbrücken, Germany.",
+          "BIFOLD - Berlin Institute for the Foundations of Learning and Data, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Forgó, Erna",
+        "short_name": "Forgó E",
+        "identifiers": [],
+        "affiliations": [
+          "Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Howitt, Brooke E",
+        "short_name": "Howitt BE",
+        "identifiers": [
+          "0000-0002-0309-6680"
+        ],
+        "affiliations": [
+          "Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mertins, Philipp",
+        "short_name": "Mertins P",
+        "identifiers": [
+          "0000-0002-2245-528X"
+        ],
+        "affiliations": [
+          "Proteomics Platform, Berlin Institute of Health (BIH) and Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Klauschen, Frederick",
+        "short_name": "Klauschen F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Ludwig Maximilians University Hospital Munich, Munich, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Munich, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "BIFOLD - Berlin Institute for the Foundations of Learning and Data, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Capper, David",
+        "short_name": "Capper D",
+        "identifiers": [
+          "0000-0003-1945-497X"
+        ],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Berlin, and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Neuropathology, Charitéplatz 1, Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Nov 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/29 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "42611353",
+      "42552597",
+      "42537502",
+      "42414478",
+      "42375542",
+      "42183964",
+      "42101690",
+      "42095034",
+      "42070010",
+      "42053816",
+      "41989963",
+      "41950381",
+      "41803273",
+      "41681839",
+      "41652205",
+      "41579222",
+      "41498635",
+      "41246587",
+      "41221671",
+      "41075874",
+      "41074112",
+      "40475474",
+      "40470317",
+      "40427163",
+      "40423244",
+      "40237827",
+      "39995602",
+      "39979307",
+      "39902391",
+      "39768999",
+      "39682120",
+      "39607989",
+      "39523345",
+      "39359021",
+      "39263605",
+      "39123479",
+      "39044555",
+      "38928223",
+      "38760587",
+      "38666952",
+      "38593586",
+      "38576030",
+      "38376625",
+      "38336771",
+      "38315198",
+      "38201285",
+      "37184733",
+      "37173898",
+      "36980561",
+      "36831778",
+      "36685834"
+    ],
+    "refs": [
+      "38244574",
+      "34878655",
+      "34265800",
+      "34117251",
+      "33479225",
+      "33355250",
+      "32726565",
+      "32404150",
+      "32160940",
+      "31949479",
+      "31934917",
+      "31932775",
+      "31876581",
+      "31876536",
+      "31511427",
+      "31426421",
+      "31419933",
+      "31222125",
+      "31186531",
+      "31091374",
+      "30013764",
+      "29967940",
+      "29730775",
+      "29683816",
+      "29539639",
+      "29507386",
+      "29324471",
+      "28247233",
+      "28084339",
+      "27713570",
+      "27069025",
+      "26958079",
+      "26919435",
+      "26830401",
+      "26619026",
+      "25972926",
+      "25605792",
+      "25534130",
+      "25480372",
+      "24752781",
+      "24690455",
+      "24478339",
+      "23631413",
+      "22505352",
+      "19935646",
+      "19729990",
+      "19451168",
+      "19029910",
+      "18244377",
+      "10562893",
+      "3756890"
+    ],
+    "similar": [
+      "36443295",
+      "31186531",
+      "28176137",
+      "35307773",
+      "31876536",
+      "34871352",
+      "31934917",
+      "34638515",
+      "35257325",
+      "28493366",
+      "32520761",
+      "30779592",
+      "32337786",
+      "34265800",
+      "36206446",
+      "29396607",
+      "38369189",
+      "30206411",
+      "37478521",
+      "26551623",
+      "36580412",
+      "36537260",
+      "28291122",
+      "33331994",
+      "33663878",
+      "28084340",
+      "38928223",
+      "27526015",
+      "28069272",
+      "35218556",
+      "33381364",
+      "37286851",
+      "31054892",
+      "37925057",
+      "32927372",
+      "33999421",
+      "37184733",
+      "28616785",
+      "29683816",
+      "27656868",
+      "37054973",
+      "15900114",
+      "31468350",
+      "36252860",
+      "28643792",
+      "25007146",
+      "28084339",
+      "30932264",
+      "32978032",
+      "36680532",
+      "33125840",
+      "23544055",
+      "33451916",
+      "24114197",
+      "33409598",
+      "38967182",
+      "29700418",
+      "34271067",
+      "34633874",
+      "31751681",
+      "38085333",
+      "36396744",
+      "38502274",
+      "37651059",
+      "36937407",
+      "34767264",
+      "38351682",
+      "35151345",
+      "26343384",
+      "31567195",
+      "20090218",
+      "25920939",
+      "30120966",
+      "38416596",
+      "35326613",
+      "32222462",
+      "29689242",
+      "38457069",
+      "31876581",
+      "26407663",
+      "25168959",
+      "28256572",
+      "32305127",
+      "30897306",
+      "35864317",
+      "31132763",
+      "12459626",
+      "32343857",
+      "25992139",
+      "35466749",
+      "30451731",
+      "32897960",
+      "29133142",
+      "37556934",
+      "26743474",
+      "31255411",
+      "28863077",
+      "38501690",
+      "37903457",
+      "35394077",
+      "37873676"
+    ],
+    "review": [
+      "36443295",
+      "31876536",
+      "35257325",
+      "30779592",
+      "29396607",
+      "36580412",
+      "36537260",
+      "33663878",
+      "27526015",
+      "37286851",
+      "37184733",
+      "15900114",
+      "32978032",
+      "33451916",
+      "33409598",
+      "36396744",
+      "38502274",
+      "36937407",
+      "20090218",
+      "35326613",
+      "32305127",
+      "31132763",
+      "25992139",
+      "31255411",
+      "38501690"
+    ],
+    "pmc": [
+      "9705411"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-34815-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36443295/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36443295",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1367",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse189778",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

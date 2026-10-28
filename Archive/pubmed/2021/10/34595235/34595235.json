@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "34595235",
+    "doi": "10.1155/2021/2291899",
+    "title": "Crosstalk between Heart Failure and Cognitive Impairment via hsa-miR-933/RELB/CCL21 Pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The association between heart failure (HF) and cognitive impairment has received increasing attention from scholars and researchers in recent years. However, no systematic studies have been carried out yet focused on the crosstalk between heart failure and cognitive impairment via miRNAs. METHODS: GSE104150, GSE53473, GSE120584, and GSE116250 with RNA-seq data and clinical data were downloaded from the GSE database. All data were statistically analysed using R software to detect DE-miRNAs and DE-mRNAs associated with both HF and cognitive impairment. Protein-protein interaction (PPI) networks were mapped, and a logistic regression model for cognitive impairment prediction was developed. Furthermore, the TTRUST database and miRWalk were used to map miRNA-transcription factor (TF) and messenger RNA (mRNA) regulatory pathways. Finally, core TFs were enriched for analysis. RESULTS: Differentially enriched DE-miRNAs and DE-mRNAs both present in HF and cognitive impairment were determined. A logistic regression model established based on DE-miRNAs was validated to have a strong performance in cognitive impairment prediction. The core miRNA-TF-mRNA pathway was formed by mapping the PPI networks associated with the two diseases. Further GSEA was performed with V-rel reticuloendotheliosis viral oncogene homolog B (RELB) as the core TF, and the retinol metabolism and gap junction pathways were analysed. CONCLUSIONS: This study was the first attempt to predict the crosstalk and examine underlying mechanisms between HF and cognitive impairment applying bioinformatics. The findings suggested a potential hsa-miR-933/RELB/CCL21 regulatory axis correlated with HF and neurological disorders (or cognitive impairment), according to PPI networks.",
+    "keywords": [],
+    "mesh_terms": [
+      "Analysis of Variance",
+      "Chemokine CCL21/*metabolism",
+      "Cognitive Dysfunction/*genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Heart Failure/*genetics",
+      "Humans",
+      "Logistic Models",
+      "MicroRNAs/*genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "RNA, Messenger/genetics/metabolism",
+      "*Signal Transduction/genetics",
+      "Transcription Factor RelB/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Wenxiao",
+        "Yang, Jie",
+        "Song, Wenchao",
+        "Xue, Yitao"
+      ],
+      "short_names": [
+        "Feng W",
+        "Yang J",
+        "Song W",
+        "Xue Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0547-5753"
+      ],
+      "affiliations": [
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Shandong, China.",
+        "Jinan Changqing District People's Hospital, China.",
+        "Department of Cardiovascular, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China.",
+        "Department of Encephalopathy, Zouping Hospital of Traditional Chinese Medicine, Shandong, China.",
+        "Department of Cardiovascular, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Wenxiao",
+        "short_name": "Feng W",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Shandong, China.",
+          "Jinan Changqing District People's Hospital, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jie",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Song, Wenchao",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Zouping Hospital of Traditional Chinese Medicine, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yitao",
+        "short_name": "Xue Y",
+        "identifiers": [
+          "0000-0003-0547-5753"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/02 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "37505309",
+      "37288268",
+      "36733447",
+      "36238480",
+      "36061202",
+      "35720085",
+      "35481271"
+    ],
+    "refs": [
+      "33765842",
+      "33669699",
+      "33459504",
+      "33053610",
+      "32993798",
+      "32911833",
+      "32910935",
+      "32898852",
+      "32145043",
+      "31824269",
+      "31708792",
+      "31297884",
+      "31035921",
+      "30881384",
+      "30836355",
+      "30820472",
+      "30768589",
+      "30588338",
+      "30531004",
+      "30419824",
+      "30301887",
+      "29273502",
+      "29128328",
+      "29068585",
+      "28949058",
+      "28633305",
+      "28359413",
+      "28344129",
+      "28259597",
+      "27378479",
+      "27353019",
+      "26640239",
+      "26504850",
+      "25876745",
+      "25619197",
+      "25605792",
+      "25426862",
+      "24465270",
+      "23917007",
+      "23574921",
+      "23305823",
+      "23305821",
+      "22455463",
+      "20638137",
+      "20439917",
+      "16337133",
+      "16216938",
+      "16174730",
+      "16096348",
+      "15596614"
+    ],
+    "similar": [
+      "34595235",
+      "30602391",
+      "29620143",
+      "34600545",
+      "32737762",
+      "25807437",
+      "25087086",
+      "32435051",
+      "30569169",
+      "31886250",
+      "34867824",
+      "34218797",
+      "34337040",
+      "34252359",
+      "30268144",
+      "35620387",
+      "30503955",
+      "30138363",
+      "30542696",
+      "32456463",
+      "27350400",
+      "28302149",
+      "34777635",
+      "33557733",
+      "30249878",
+      "32714975",
+      "33204705",
+      "31621692",
+      "32626985",
+      "35008808",
+      "31305134",
+      "33390802",
+      "28965123",
+      "32299382",
+      "31989994",
+      "33813720",
+      "32714978",
+      "34471635",
+      "31747387",
+      "32860342",
+      "28939059",
+      "31658856",
+      "32127169",
+      "30370655",
+      "32908877",
+      "34722763",
+      "35346191",
+      "34844599",
+      "30286756",
+      "34868339",
+      "34041839",
+      "31073530",
+      "34368354",
+      "30844478",
+      "32163759",
+      "31422208",
+      "33868359",
+      "34341761",
+      "35672672",
+      "32338587",
+      "32939938",
+      "33224973",
+      "34840985",
+      "31875420",
+      "28260060",
+      "33287936",
+      "33383027",
+      "32013934",
+      "34530741",
+      "33892654",
+      "23998897",
+      "35313857",
+      "33861762",
+      "22703586",
+      "34280006",
+      "27809691",
+      "33299863",
+      "33439992",
+      "34130612",
+      "35798913",
+      "34388477"
+    ],
+    "review": [
+      "34595235",
+      "34530741"
+    ],
+    "pmc": [
+      "8478533"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34595235/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34595235",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/2291899",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

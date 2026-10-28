@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41739384",
+    "doi": "10.1007/s11030-026-11481-x",
+    "title": "GRU-based de novo design and in-silico prioritization of EZH2 inhibitors."
+  },
+  "content": {
+    "abstract": "EZH2 (Enhancer-Homozygous Protein 2), as a key epigenetic regulator, is closely associated with multiple cancers. Consequently, the design of EZH2-targeting inhibitors has become a significant focus in drug development. The application of deep learning methods in the chemical field can accelerate the process of discovering new molecules. This study utilized the SMILES sequence information of 1,202,321 small molecules from the ChEMBL29 database and the known molecular structures of 11 compounds with EZH2 inhibitory activity. A molecular generation model based on a gated recurrent unit (GRU) network and transfer learning was constructed, generating 50,000 SMILES molecular sequences. Through classification prediction by an ECFP4-SVM model, 37,802 effective and novel molecular structures were screened. Subsequent virtual screening incorporated Lipinski's Rules, ADMET properties, and molecular docking, ultimately identifying 10 candidate compounds for 100 ns molecular dynamics simulations and density functional theory (DFT) calculations. MM-GBSA calculations revealed binding free energies </= - 42.3518 kcal/mol for the candidate compounds, suggesting strong interactions with EZH2. DFT calculations further characterized the electronic interaction features underlying ligand-protein binding. This study demonstrates the feasibility of a deep learning-driven computational framework for the virtual identification and prioritization of potential EZH2 inhibitor candidates.",
+    "keywords": [
+      "DFT",
+      "Deep learning",
+      "EZH2 inhibitors",
+      "Molecular dynamics",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/antagonists & inhibitors/chemistry",
+      "*Drug Design",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Ligands",
+      "Humans",
+      "Recurrent Neural Networks",
+      "Protein Binding",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Na",
+        "Wang, Maoqi",
+        "Chen, Xiaodie",
+        "Liu, Rong",
+        "Zou, Liang",
+        "Shu, Mao"
+      ],
+      "short_names": [
+        "Yu N",
+        "Wang M",
+        "Chen X",
+        "Liu R",
+        "Zou L",
+        "Shu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China. shumao@cqut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Na",
+        "short_name": "Yu N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Maoqi",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaodie",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Rong",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Liang",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Mao",
+        "short_name": "Shu M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China. shumao@cqut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 13:35",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40944978",
+      "40884958",
+      "40655207",
+      "40230275",
+      "40028722",
+      "39952201",
+      "39392180",
+      "38660042",
+      "38347613",
+      "37323454",
+      "37228094",
+      "37171592",
+      "37033493",
+      "36964610",
+      "36937869",
+      "36578091",
+      "36188615",
+      "35191696",
+      "35077357",
+      "30152113"
+    ],
+    "similar": [
+      "41739384",
+      "41237543",
+      "41187366",
+      "40815358",
+      "38954072",
+      "41720062",
+      "35744817",
+      "41497266",
+      "40117728",
+      "41251882",
+      "37904331",
+      "42118388",
+      "33635506",
+      "30557817",
+      "41940910",
+      "40114577",
+      "41780347",
+      "41386877",
+      "34577052",
+      "40126695",
+      "41001798",
+      "39613993",
+      "41524971",
+      "41704643",
+      "40239488",
+      "42254291",
+      "41504013",
+      "41452360",
+      "40593894",
+      "40578154",
+      "41084624",
+      "37962580",
+      "41224866",
+      "40239487",
+      "41240885",
+      "42227492",
+      "39948258",
+      "41461937",
+      "39969739",
+      "38204222",
+      "37907683",
+      "38084766",
+      "37932607",
+      "40047244",
+      "42308822",
+      "37288783",
+      "38059345",
+      "36430386",
+      "37120484",
+      "42371179",
+      "42332812",
+      "38779737",
+      "40498230",
+      "41045314",
+      "39354859",
+      "28116998",
+      "42390567",
+      "40939396",
+      "37943000",
+      "29842849",
+      "40397334",
+      "42043606",
+      "41442824",
+      "24587223",
+      "42112455",
+      "41337159",
+      "40934169",
+      "41662777",
+      "31554227",
+      "36586228",
+      "41557214",
+      "39638823",
+      "37349947",
+      "42192177",
+      "29475408",
+      "42090979",
+      "39115579",
+      "41309835",
+      "41688667",
+      "36841551",
+      "40632195",
+      "42185552",
+      "40272693",
+      "38907013",
+      "38898093",
+      "27145135",
+      "41238606",
+      "39135338",
+      "35163234",
+      "40033499",
+      "40070330",
+      "34592225",
+      "37676262",
+      "41373728",
+      "41752823",
+      "34443556",
+      "36774892",
+      "40973684",
+      "40120151",
+      "31773394"
+    ],
+    "review": [
+      "41739384"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-026-11481-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

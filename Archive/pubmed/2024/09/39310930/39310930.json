@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "39310930",
+    "doi": "10.1080/07853890.2024.2405879",
+    "title": "Expression, potential biological behaviour and clinical significance of MCM3 in pancreatic adenocarcinoma: a comprehensive study integrating high throughput sequencing, CRISPR screening and in-house immunohistochemistry."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Minichromosome maintenance complex component 3 (MCM3) plays a key role in various tumours. However, it remains largely unknown what the specific role and clinical significance of MCM3 in pancreatic adenocarcinoma (PAAD) are. MATERIALS AND METHODS: We integrated high-throughput data from PAAD worldwide to analyse the expression level of MCM3 mRNA. We used immunohistochemistry to analyse MCM3 protein expression levels in 145 cases in the PAAD group and 29 cases in the non-PAAD group. We also mainly analysed the necessity of MCM3 for PAAD growth based on CRISPR screen data. In addition, we used enrichment analysis and protein-protein interaction networks to explore the molecular mechanism of MCM3 in PAAD. We also analysed the correlation between MCM3 expression, components of the immune microenvironment in PAAD tissue and clinical prognosis. RESULTS: In PAAD, we observed for the first time that MCM3 was significantly highly expressed at both the mRNA (SMD = 0.67, 95% CI: 0.38  approximately  0.96) and the protein level (p < 0.05). The mRNA (AUC = 0.78, 95% CI: 0.74  approximately  0.81; sensitivity = 0.66, 95% CI: 0.55  approximately  0.76; specificity = 0.76, 95% CI: 0.67  approximately  0.84) and protein (AUC = 0.929) expression levels of MCM3 had a good ability to distinguish between PAAD and non-PAAD tissue. There was heterogeneity reflected by the differential expression of MCM3 protein in PAAD cells. MCM3 played an essential role in PAAD growth, through abnormal DNA replication, p53 signalling and cell cycle checkpoints. PAAD with high MCM3 expression was sensitive to c-75, brivanib, flavopiridol and VNLG/124 drugs, with stable molecular docking models. CONCLUSION: MCM3 is likely to be a critical element in promoting the initiation and growth of PAAD. Flavopiridol may exert its anti-PAAD effect through the interaction between MCM3, classic CDK1 targets in the cell cycle checkpoint and p53 pathway as well as related molecules in other pathways.",
+    "keywords": [
+      "CRISPR screening",
+      "MCM3",
+      "high-throughput sequencing",
+      "immunohistochemistry",
+      "pancreatic adenocarcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Minichromosome Maintenance Complex Component 3/metabolism/genetics",
+      "*Pancreatic Neoplasms/genetics/metabolism/pathology",
+      "*Adenocarcinoma/genetics/metabolism/pathology",
+      "*High-Throughput Nucleotide Sequencing",
+      "*Immunohistochemistry",
+      "Prognosis",
+      "CRISPR-Cas Systems",
+      "Biomarkers, Tumor/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Tumor Microenvironment/genetics",
+      "RNA, Messenger/metabolism",
+      "Male",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Female",
+      "Clinical Relevance"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yi",
+        "Li, Liu-Yan",
+        "Li, Jian-Di",
+        "He, Rong-Quan",
+        "Huang, Zhi-Guang",
+        "Huang, Wan-Ying",
+        "Luo, Jia-Yuan",
+        "Dang, Yi-Wu",
+        "Chen, Gang",
+        "Wei, Dan-Ming"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Li LY",
+        "Li JD",
+        "He RQ",
+        "Huang ZG",
+        "Huang WY",
+        "Luo JY",
+        "Dang YW",
+        "Chen G",
+        "Wei DM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0236-7263",
+        "ORCID: 0009-0002-5344-7458",
+        "ORCID: 0000-0001-7050-371X",
+        "ORCID: 0000-0002-7752-2080",
+        "ORCID: 0000-0003-4457-9491",
+        "ORCID: 0000-0002-8314-5963",
+        "ORCID: 0000-0003-4712-5217",
+        "ORCID: 0000-0003-2402-2987",
+        "ORCID: 0000-0002-2180-9226"
+      ],
+      "affiliations": [
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Medical Oncology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+        "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+        "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yi",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0003-0236-7263"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Liu-Yan",
+        "short_name": "Li LY",
+        "identifiers": [
+          "0009-0002-5344-7458"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Di",
+        "short_name": "Li JD",
+        "identifiers": [
+          "0000-0001-7050-371X"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Rong-Quan",
+        "short_name": "He RQ",
+        "identifiers": [
+          "0000-0002-7752-2080"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China.",
+          "Department of Medical Oncology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhi-Guang",
+        "short_name": "Huang ZG",
+        "identifiers": [
+          "0000-0003-4457-9491"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wan-Ying",
+        "short_name": "Huang WY",
+        "identifiers": [
+          "0000-0002-8314-5963"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jia-Yuan",
+        "short_name": "Luo JY",
+        "identifiers": [
+          "0000-0003-4712-5217"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Dang, Yi-Wu",
+        "short_name": "Dang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0000-0003-2402-2987"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dan-Ming",
+        "short_name": "Wei DM",
+        "identifiers": [
+          "0000-0002-2180-9226"
+        ],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Guangxi Medical University, Guangxi Zhuang Autonomous Region, PR China.",
+          "Guangxi key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Zhuang Autonomous Region, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of medicine"
+    ],
+    "journal_abbrev": [
+      "Ann Med"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/23 12:43",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "41502508",
+      "40530165"
+    ],
+    "refs": [
+      "37778682",
+      "37774567",
+      "37744290",
+      "37741887",
+      "37740620",
+      "37736542",
+      "37686675",
+      "37681557",
+      "37563591",
+      "37526267",
+      "37445651",
+      "37444534",
+      "37427102",
+      "37373398",
+      "37369808",
+      "37330494",
+      "37233482",
+      "37022483",
+      "36959160",
+      "36835086",
+      "36781852",
+      "36721000",
+      "36681079",
+      "36657260",
+      "36623952",
+      "36445337",
+      "36047964",
+      "36003621",
+      "35696436",
+      "35609983",
+      "35567389",
+      "35438632",
+      "35428170",
+      "35419757",
+      "35343383",
+      "35253647",
+      "34930405",
+      "34819397",
+      "34777634",
+      "34671420",
+      "34665339",
+      "34629806",
+      "34503199",
+      "34404366",
+      "34276676",
+      "34178669",
+      "33816217",
+      "33538338",
+      "33398005",
+      "33359678",
+      "33316381",
+      "32597491",
+      "32429421",
+      "31381149",
+      "31262887",
+      "31043744",
+      "30903160",
+      "30553276",
+      "30389920",
+      "30289549",
+      "30233242",
+      "29955894",
+      "24861921",
+      "23550210",
+      "22706380",
+      "22588877",
+      "21965652",
+      "19499576"
+    ],
+    "similar": [
+      "39310930",
+      "39208654",
+      "41315624",
+      "39622735",
+      "40226617",
+      "37024802",
+      "39604668",
+      "40302186",
+      "39791146",
+      "41346611",
+      "39747410",
+      "35154122",
+      "35322324",
+      "32181755",
+      "36142142",
+      "33507917",
+      "33648511",
+      "39127164",
+      "41716413",
+      "33000197",
+      "34332578",
+      "40677006",
+      "36371178",
+      "39026679",
+      "40141028",
+      "33437202",
+      "39152432",
+      "41482412",
+      "29903985",
+      "33129696",
+      "40129158",
+      "38012210",
+      "38333724",
+      "41327677",
+      "32597491",
+      "39875873",
+      "40683608",
+      "34777634",
+      "31821092",
+      "37861515",
+      "39209222",
+      "38538250",
+      "34671420",
+      "39342295",
+      "39332020",
+      "35083488",
+      "36408702",
+      "36459296",
+      "40258406",
+      "23821456",
+      "31731384",
+      "41284141",
+      "36199146",
+      "36311789",
+      "38783033",
+      "39044066",
+      "39773340",
+      "34804059",
+      "36782176",
+      "34840598",
+      "39454972",
+      "33661995",
+      "33169793",
+      "39538226",
+      "38102653",
+      "37563820",
+      "38944166",
+      "40683920",
+      "40926605",
+      "32185195",
+      "37822927",
+      "41151864",
+      "32203889",
+      "32241274",
+      "38030175",
+      "34134622",
+      "41350704",
+      "32985124",
+      "38817665",
+      "40191200",
+      "40281485",
+      "27956228",
+      "33506742",
+      "35601487",
+      "42158830",
+      "33994864",
+      "42170968",
+      "39847517",
+      "36834898",
+      "31208444",
+      "38502348",
+      "33465729",
+      "40812519",
+      "42212130",
+      "40705960",
+      "40507914",
+      "39118300",
+      "41465903",
+      "35720314",
+      "41502508"
+    ],
+    "review": [
+      "39310930",
+      "35083488"
+    ],
+    "pmc": [
+      "11421141"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07853890.2024.2405879?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39310930/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07853890.2024.2405879",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

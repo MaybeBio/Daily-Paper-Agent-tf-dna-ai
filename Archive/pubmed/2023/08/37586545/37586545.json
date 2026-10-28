@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "37586545",
+    "doi": "10.1016/j.cbi.2023.110677",
+    "title": "Molecular determinants of the response of cancer cells towards geldanamycin and its derivatives."
+  },
+  "content": {
+    "abstract": "Geldanamycin is an ansamycin-derivative of a benzoquinone isolated from Streptomyces hygroscopicus. It inhibits tyrosine kinases and heat shock protein 90 (HSP90). Geldanamycin and 11 derivatives were subjected to molecular docking to HSP90, and 17-desmethoxy-17-N,N-dimethylamino-geldanamycin (17-DMAG) was the compound with the highest binding affinity (-7.73 +/- 0.12 kcal/mol) and the lowest inhibition constant (2.16 +/- 0.49 muM). Therefore, 17-DMAG was selected for further experiments in comparison to geldanamycin. Multidrug resistance (MDR) represents a major problem for successful cancer therapy. We tested geldanamycin and 17-DMAG against various drug-resistant cancer cell lines. Although geldanamycin and 17-DMAG inhibited the proliferation in all cell lines tested, multidrug-resistant P-glycoprotein-overexpressing CEM/ADR5000 cells were cross-resistant, DeltaEGFR-overexpressing tumor cells and p53 knockout cells were sensitive to these two compounds. COMPARE and hierarchical cluster analyses were performed, and 60 genes were identified to predict the sensitivity or resistance of 59 NCI tumor cell lines towards geldanamycin and 17-DMAG. The distribution of cell lines according to their mRNA expression profiles indicated sensitivity or resistance to both compounds with statistical significance. Moreover, bioinformatic tools were used to study possible mechanisms of action of geldanamycin and 17-DMAG. Galaxy Cistrome analyses were carried out to predict transcription factor binding motifs in the promoter regions of the candidate genes. Interestingly, the NF-kB DNA binding motif (Rel) was identified as the top transcription factor. Furthermore, these 60 genes were subjected to Ingenuity Pathway Analysis (IPA) to study the signaling pathway interactions of these genes. Interestingly, IPA also revealed the NF-kB pathway as the top network among these genes. Finally, NF-kB reporter assays confirmed the bioinformatic prediction, and both geldanamycin and 17-DMAG significantly inhibited NF-kappaB activity after exposure for 24 h. In conclusion, geldanamycin and 17-DMAG exhibited cytotoxic activity against different tumor cell lines. Their activity was not restricted to HSP90 but indicated an involvement of the NF-KB pathway.",
+    "keywords": [
+      "Antibiotics",
+      "Natural product",
+      "Network pharmacology",
+      "Targeted chemotherapy",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "Lactams, Macrocyclic/pharmacology",
+      "*NF-kappa B",
+      "Molecular Docking Simulation",
+      "Benzoquinones/pharmacology",
+      "Cell Line, Tumor",
+      "HSP90 Heat-Shock Proteins/metabolism",
+      "*Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Seo, Ean-Jeong",
+        "Khelifi, Daycem",
+        "Fayez, Shaimaa",
+        "Feineis, Doris",
+        "Bringmann, Gerhard",
+        "Efferth, Thomas",
+        "Dawood, Mona"
+      ],
+      "short_names": [
+        "Seo EJ",
+        "Khelifi D",
+        "Fayez S",
+        "Feineis D",
+        "Bringmann G",
+        "Efferth T",
+        "Dawood M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany.",
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany.",
+        "Institute of Organic Chemistry, University of Wurzburg, Germany; Department of Pharmacognosy, Ain-Shams University, Cairo, Egypt.",
+        "Institute of Organic Chemistry, University of Wurzburg, Germany.",
+        "Institute of Organic Chemistry, University of Wurzburg, Germany.",
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany.",
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany; Department of Molecular Biology, Al-Neelain University, Khartoum, Sudan. Electronic address: modawood@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Seo, Ean-Jeong",
+        "short_name": "Seo EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Khelifi, Daycem",
+        "short_name": "Khelifi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Fayez, Shaimaa",
+        "short_name": "Fayez S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, University of Würzburg, Germany; Department of Pharmacognosy, Ain-Shams University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Feineis, Doris",
+        "short_name": "Feineis D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, University of Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bringmann, Gerhard",
+        "short_name": "Bringmann G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, University of Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Efferth, Thomas",
+        "short_name": "Efferth T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Dawood, Mona",
+        "short_name": "Dawood M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128, Mainz, Germany; Department of Molecular Biology, Al-Neelain University, Khartoum, Sudan. Electronic address: modawood@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemico-biological interactions"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Interact"
+    ],
+    "pub_date": "2023 Sep 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/17 00:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "41461859",
+      "40908691",
+      "40723843",
+      "39282566",
+      "38542061"
+    ],
+    "refs": [],
+    "similar": [
+      "37586545",
+      "22694478",
+      "17579866",
+      "34213719",
+      "22105779",
+      "25404267",
+      "26219569",
+      "19805107",
+      "20351313",
+      "26662567",
+      "21663398",
+      "27878398",
+      "23635099",
+      "33370472",
+      "18676857",
+      "19809428",
+      "18455150",
+      "18281615",
+      "22327510",
+      "16432176",
+      "21767894",
+      "20211249",
+      "17363505",
+      "19464103",
+      "18645008",
+      "25813406",
+      "17662999",
+      "23860250",
+      "17975158",
+      "17085670",
+      "15853661",
+      "25637544",
+      "20154064",
+      "27887849",
+      "12725864",
+      "21430289",
+      "12843186",
+      "18220746",
+      "19861537",
+      "18794130",
+      "30021337",
+      "31611575",
+      "21778327",
+      "18313664",
+      "29602128",
+      "28542188",
+      "18852129",
+      "15610846",
+      "28624441",
+      "9672245",
+      "18243703",
+      "27498942",
+      "29618179",
+      "32151689",
+      "18771179",
+      "17168310",
+      "9228040",
+      "29247221",
+      "20428829",
+      "27658586",
+      "16328963",
+      "25374192",
+      "11472980",
+      "9020108",
+      "19440708",
+      "15661225",
+      "16024644",
+      "25366476",
+      "17596719",
+      "29499568",
+      "19850405",
+      "20394503",
+      "10701840",
+      "22433057",
+      "22687408",
+      "24903735",
+      "23124337",
+      "16842154",
+      "23641970",
+      "10319410",
+      "19405528",
+      "23661493",
+      "27909289",
+      "24317439",
+      "14660597",
+      "22592212",
+      "19308924",
+      "29651431",
+      "25920748",
+      "28823258",
+      "21448187",
+      "9296382",
+      "35397061",
+      "27268613",
+      "31089638",
+      "29535630",
+      "38368795",
+      "39201449",
+      "38542061",
+      "37767457",
+      "21711488",
+      "37276434",
+      "39361055",
+      "37111592"
+    ],
+    "review": [
+      "37586545",
+      "15853661",
+      "18220746",
+      "29602128",
+      "19850405",
+      "16842154",
+      "23641970"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-2797(23)00344-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

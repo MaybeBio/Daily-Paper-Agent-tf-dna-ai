@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39119181",
+    "doi": "10.3389/fbinf.2024.1425419",
+    "title": "A hybrid approach for predicting transcription factors."
+  },
+  "content": {
+    "abstract": "Transcription factors are essential DNA-binding proteins that regulate the transcription rate of several genes and control the expression of genes inside a cell. The prediction of transcription factors with high precision is important for understanding biological processes such as cell differentiation, intracellular signaling, and cell-cycle control. In this study, we developed a hybrid method that combines alignment-based and alignment-free methods for predicting transcription factors with higher accuracy. All models have been trained, tested, and evaluated on a large dataset that contains 19,406 transcription factors and 523,560 non-transcription factor protein sequences. To avoid biases in evaluation, the datasets were divided into training and validation/independent datasets, where 80% of the data was used for training, and the remaining 20% was used for external validation. In the case of alignment-free methods, models were developed using machine learning techniques and the composition-based features of a protein. Our best alignment-free model obtained an AUC of 0.97 on an independent dataset. In the case of the alignment-based method, we used BLAST at different cut-offs to predict the transcription factors. Although the alignment-based method demonstrated excellent performance, it was unable to cover all transcription factors due to instances of no hits. To combine the strengths of both methods, we developed a hybrid method that combines alignment-free and alignment-based methods. In the hybrid method, we added the scores of the alignment-free and alignment-based methods and achieved a maximum AUC of 0.99 on the independent dataset. The method proposed in this study performs better than existing methods. We incorporated the best models in the webserver/Python Package Index/standalone package of \"TransFacPred\" (https://webs.iiitd.edu.in/raghava/transfacpred).",
+    "keywords": [
+      "DNA-binding proteins",
+      "alignment-based methods",
+      "alignment-free methods",
+      "hybrid method",
+      "regulation of transcription",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patiyal, Sumeet",
+        "Tiwari, Palak",
+        "Ghai, Mohit",
+        "Dhapola, Aman",
+        "Dhall, Anjali",
+        "Raghava, Gajendra P S"
+      ],
+      "short_names": [
+        "Patiyal S",
+        "Tiwari P",
+        "Ghai M",
+        "Dhapola A",
+        "Dhall A",
+        "Raghava GPS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patiyal, Sumeet",
+        "short_name": "Patiyal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Palak",
+        "short_name": "Tiwari P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Ghai, Mohit",
+        "short_name": "Ghai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Dhapola, Aman",
+        "short_name": "Dhapola A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Dhall, Anjali",
+        "short_name": "Dhall A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Raghava, Gajendra P S",
+        "short_name": "Raghava GPS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/09 06:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "40484957",
+      "40378137"
+    ],
+    "refs": [
+      "36251780",
+      "36132086",
+      "35943134",
+      "35580839",
+      "34450382",
+      "34195082",
+      "33796120",
+      "33372147",
+      "32372224",
+      "32296011",
+      "32082172",
+      "31972687",
+      "31947757",
+      "31881735",
+      "31871779",
+      "31654438",
+      "31511663",
+      "31395865",
+      "29658952",
+      "29608647",
+      "29425488",
+      "27867341",
+      "26645049",
+      "25674384",
+      "24768519",
+      "24766815",
+      "24349230",
+      "23756045",
+      "23498934",
+      "23153078",
+      "22931831",
+      "22855723",
+      "22499939",
+      "22464321",
+      "22385556",
+      "22302935",
+      "21931639",
+      "21557083",
+      "20409277",
+      "20304701",
+      "19402042",
+      "19383285",
+      "19274049",
+      "19038062",
+      "18554421",
+      "18287689",
+      "17515932",
+      "17380161",
+      "16669782",
+      "16469913",
+      "15549674",
+      "15215342",
+      "15131651",
+      "12853946",
+      "12777501",
+      "10592178",
+      "7600975"
+    ],
+    "similar": [
+      "39119181",
+      "38295479",
+      "39038391",
+      "37058758",
+      "37126926",
+      "37032893",
+      "39305039",
+      "35595541",
+      "38379813",
+      "36452927",
+      "35943134",
+      "37525341",
+      "33201237",
+      "35152041",
+      "36516298",
+      "38803012",
+      "38391554",
+      "36524996",
+      "32082326",
+      "36318663",
+      "36742312",
+      "32153395",
+      "34450382",
+      "32770192",
+      "35580839",
+      "35325031",
+      "29535692",
+      "34388468",
+      "30210341",
+      "33034338",
+      "34880873",
+      "38644481",
+      "31490960",
+      "30914676",
+      "29970096",
+      "26029265",
+      "31654438",
+      "38048895",
+      "23596523",
+      "22373313",
+      "38026835",
+      "15166027",
+      "23517638",
+      "36763673",
+      "38872916",
+      "19152693",
+      "17854501",
+      "31998366",
+      "30416494",
+      "32082172",
+      "32938375",
+      "35334314",
+      "17932917",
+      "28890846",
+      "18928201",
+      "32628616",
+      "35242211",
+      "19908123",
+      "37980960",
+      "15932901",
+      "25272949",
+      "24992720",
+      "32324757",
+      "29706944",
+      "24475169",
+      "31498794",
+      "35652477",
+      "36416116",
+      "33639834",
+      "24304645",
+      "38828069",
+      "33267753",
+      "34126874",
+      "36749620",
+      "15145798",
+      "36868685",
+      "32667760",
+      "15988830",
+      "20677174",
+      "37936066",
+      "28361677",
+      "35603393",
+      "28361707",
+      "18282281",
+      "29047157",
+      "29763967",
+      "37498381",
+      "36825452",
+      "34555591",
+      "19293946",
+      "35466079",
+      "37676603",
+      "16526956",
+      "30399150",
+      "28541376",
+      "37191574",
+      "37704048",
+      "36989252",
+      "15215421"
+    ],
+    "review": [
+      "39119181",
+      "35652477"
+    ],
+    "pmc": [
+      "11306938"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39119181/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2024.1425419",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

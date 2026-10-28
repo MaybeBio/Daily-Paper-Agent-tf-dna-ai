@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38863710",
+    "doi": "10.3389/fimmu.2024.1407470",
+    "title": "Interpretable deep learning reveals the role of an E-box motif in suppressing somatic hypermutation of AGCT motifs within human immunoglobulin variable regions."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Somatic hypermutation (SHM) of immunoglobulin variable (V) regions by activation induced deaminase (AID) is essential for robust, long-term humoral immunity against pathogen and vaccine antigens. AID mutates cytosines preferentially within WRCH motifs (where W=A or T, R=A or G and H=A, C or T). However, it has been consistently observed that the mutability of WRCH motifs varies substantially, with large variations in mutation frequency even between multiple occurrences of the same motif within a single V region. This has led to the notion that the immediate sequence context of WRCH motifs contributes to mutability. Recent studies have highlighted the potential role of local DNA sequence features in promoting mutagenesis of AGCT, a commonly mutated WRCH motif. Intriguingly, AGCT motifs closer to 5' ends of V regions, within the framework 1 (FW1) sub-region1, mutate less frequently, suggesting an SHM-suppressing sequence context. METHODS: Here, we systematically examined the basis of AGCT positional biases in human SHM datasets with DeepSHM, a machine-learning model designed to predict SHM patterns. This was combined with integrated gradients, an interpretability method, to interrogate the basis of DeepSHM predictions. RESULTS: DeepSHM predicted the observed positional differences in mutation frequencies at AGCT motifs with high accuracy. For the conserved, lowly mutating AGCT motifs in FW1, integrated gradients predicted a large negative contribution of 5'C and 3'G flanking residues, suggesting that a CAGCTG context in this location was suppressive for SHM. CAGCTG is the recognition motif for E-box transcription factors, including E2A, which has been implicated in SHM. Indeed, we found a strong, inverse relationship between E-box motif fidelity and mutation frequency. Moreover, E2A was found to associate with the V region locale in two human B cell lines. Finally, analysis of human SHM datasets revealed that naturally occurring mutations in the 3'G flanking residues, which effectively ablate the E-box motif, were associated with a significantly increased rate of AGCT mutation. DISCUSSION: Our results suggest an antagonistic relationship between mutation frequency and the binding of E-box factors like E2A at specific AGCT motif contexts and, therefore, highlight a new, suppressive mechanism regulating local SHM patterns in human V regions.",
+    "keywords": [
+      "E-box transcription factors",
+      "E2A",
+      "activation induced deaminase (AID)",
+      "deep learning",
+      "immunoglobulin heavy chain",
+      "integrated gradients",
+      "somatic hypermutation (SHM)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Somatic Hypermutation, Immunoglobulin/genetics",
+      "*Deep Learning",
+      "*Immunoglobulin Variable Region/genetics",
+      "*Nucleotide Motifs",
+      "Mutation",
+      "Cytidine Deaminase/genetics/metabolism",
+      "Amino Acid Motifs",
+      "AICDA (Activation-Induced Cytidine Deaminase)"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tambe, Abhik",
+        "MacCarthy, Thomas",
+        "Pavri, Rushad"
+      ],
+      "short_names": [
+        "Tambe A",
+        "MacCarthy T",
+        "Pavri R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY, United States.",
+        "Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, NY, United States.",
+        "Research Institute of Molecular Pathology (IMP), Vienna, Austria.",
+        "Peter Gorer Department of Immunobiology, School of Immunology & Microbial Sciences, King's College London, London, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tambe, Abhik",
+        "short_name": "Tambe A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY, United States."
+        ]
+      },
+      {
+        "full_name": "MacCarthy, Thomas",
+        "short_name": "MacCarthy T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Pavri, Rushad",
+        "short_name": "Pavri R",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna, Austria.",
+          "Peter Gorer Department of Immunobiology, School of Immunology & Microbial Sciences, King's College London, London, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 06:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "41381731"
+    ],
+    "refs": [
+      "37098343",
+      "36434987",
+      "35967453",
+      "35113731",
+      "35036866",
+      "34862258",
+      "34850907",
+      "34253616",
+      "33590861",
+      "33188076",
+      "33072076",
+      "33035336",
+      "32728046",
+      "32434680",
+      "32425948",
+      "32015543",
+      "31851922",
+      "31821534",
+      "31821414",
+      "30089192",
+      "29374026",
+      "28215280",
+      "28039326",
+      "28011774",
+      "27835756",
+      "27261530",
+      "27079975",
+      "26441954",
+      "26069265",
+      "25646473",
+      "25483777",
+      "25483776",
+      "25288395",
+      "25119026",
+      "24691034",
+      "24298272",
+      "23610419",
+      "23087403",
+      "22843687",
+      "22388286",
+      "22346767",
+      "21746811",
+      "21572036",
+      "21255825",
+      "21139053",
+      "20887897",
+      "20671152",
+      "20513432",
+      "20100870",
+      "19596805",
+      "19433618",
+      "19276123",
+      "18798982",
+      "18772346",
+      "18538592",
+      "18304001",
+      "18273020",
+      "17328676",
+      "16818776",
+      "16785535",
+      "16239924",
+      "15004135",
+      "12932357",
+      "12819663",
+      "12818155",
+      "12692548",
+      "12651944",
+      "12097915",
+      "11007475",
+      "11007474",
+      "9881976",
+      "9847182",
+      "8657279"
+    ],
+    "similar": [
+      "38863710",
+      "41381731",
+      "34040612",
+      "23836058",
+      "18718665",
+      "17371989",
+      "21070232",
+      "21990614",
+      "23087403",
+      "35036866",
+      "15949042",
+      "18606684",
+      "29957488",
+      "16412510",
+      "27273795",
+      "32425948",
+      "15004135",
+      "24084171",
+      "25646473",
+      "30877298",
+      "25860234",
+      "11823785",
+      "16424195",
+      "30915081",
+      "27258794",
+      "21288574",
+      "18081040",
+      "15767564",
+      "38363477",
+      "23181381",
+      "18723029",
+      "37098343",
+      "27707999",
+      "33603748",
+      "30154794",
+      "12202747",
+      "32346855",
+      "24507160",
+      "12646636",
+      "33188076",
+      "28541550",
+      "24836470",
+      "16541139",
+      "11854365",
+      "20100870",
+      "35246784",
+      "25994147",
+      "35432321",
+      "34253616",
+      "26582132",
+      "15613101",
+      "20082153",
+      "34873043",
+      "12097915",
+      "42475469",
+      "18197815",
+      "18417471",
+      "31566237",
+      "16564751",
+      "27716525",
+      "24923561",
+      "16087866",
+      "28747530",
+      "11994424",
+      "17190841",
+      "31127309",
+      "31640780",
+      "15128044",
+      "16574227",
+      "12819663",
+      "19363484",
+      "19023113",
+      "21388430",
+      "24279419",
+      "21709240",
+      "32385154",
+      "22391874",
+      "36202784",
+      "29872436",
+      "22393257",
+      "16323428",
+      "19442251",
+      "14695232",
+      "21592579",
+      "17227912",
+      "11526098",
+      "16964591",
+      "31622795",
+      "25320089",
+      "20048284",
+      "22083360",
+      "23178850",
+      "22232677",
+      "17724134",
+      "16210621",
+      "23803409",
+      "21194753",
+      "19156553",
+      "22962683",
+      "27449479"
+    ],
+    "review": [
+      "38863710",
+      "27273795",
+      "30915081",
+      "23181381",
+      "30154794",
+      "20082153",
+      "18197815",
+      "17190841",
+      "21388430",
+      "16323428",
+      "16964591",
+      "23178850"
+    ],
+    "pmc": [
+      "11165027"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38863710/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38863710",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1407470",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

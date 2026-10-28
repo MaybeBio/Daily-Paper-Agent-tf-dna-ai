@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, concluding remarks, and supplementary information references)
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and significance of the reported findings
+- **Shared manuscript claim summary** The authors apply Molearn, a hybrid molecular dynamics–deep generative framework, to generate apo RNA conformations that contain cryptic ligand-binding cavities for HIV-1 TAR and, in a scalability test, for an IRES element, without using ligand-bound structural information during training.
+- **Visible evidence base** Main text figures (Figures 1, 3, 4, 5, 6), Tables (Table 1), and references to supplementary figures and tables (Figures S1–S17, Tables S1–S7)
+- **Missing materials affecting confidence** Supplementary Information (SI-1 through SI-13) was not provided; detailed numerical data for docking scores, cavity volumes, and RMSD values are only partially reported in the main text; code and data availability are via external repositories not assessed here
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of a hybrid MD–deep generative framework to a challenging problem in RNA structural biology. The central claim, that generative models can access cryptic ligand-binding conformations from apo RNA ensembles, is potentially significant. However, the evidence provided in the main text is insufficient to fully establish this claim. Key quantitative results are relegated to the supplementary information, which was not available for review. The lack of a direct comparison with existing methods under matched conditions, the absence of rigorous statistical validation, and the acknowledged failure to reproduce global RNA folds limit the strength of the conclusions. The work is a useful proof-of-concept but requires substantial additional validation and clarification before the central claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in RNA structural biology, computational drug discovery, and generative modeling for biomolecules would find this work relevant. The demonstration that a generative model can produce ligand-binding-competent conformations from apo RNA ensembles addresses a recognized bottleneck in RNA-targeted structure-based drug design. The methodological discussion regarding limitations of 1D-CNN architectures and potential improvements via equivariant diffusion models is also of interest to the machine learning for structural biology community.
+- **Major strengths** The study addresses a timely and important problem: predicting cryptic RNA ligand-binding sites from apo conformations. The use of a well-characterized model system (HIV-1 TAR) with known ligand-bound structures provides a clear benchmark. The authors are transparent about limitations, including model-to-model variability and global fold inaccuracies. The scalability test on a larger IRES system is a valuable addition. The geometric criteria for binding-compatible conformations are clearly defined and applied post hoc, avoiding circularity in training.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Molearn generates TAR conformations harboring cryptic MV2003-binding cavities that are "comparable" to NMR-derived complexes, and that this is the "first demonstration that a generative model can access cryptic RNA conformations that are ligand-binding competent."
+  - **Evidence pointer** Figure 6, Table 1, Section "Functional validation of Molearn-generated TAR conformations by MV2003 docking"
+  - **Concern** The central claim of generating binding-competent cryptic conformations rests on docking scores and geometric criteria. However, the main text reports only aggregate statistics (e.g., "approximately 86% of docking poses fall within this range") without providing the full distribution, confidence intervals, or statistical comparisons with appropriate controls. The number of conformations tested per model, the reproducibility across the ten trained models, and the criteria for selecting the "best" conformation are not fully specified in the main text. The claim of "first demonstration" requires a more thorough literature comparison than the brief discussion provided.
+  - **Why it matters** Without detailed quantitative evidence and appropriate statistical treatment, the reader cannot assess whether the observed binding-compatible conformations arise from genuine generative capability or from chance sampling in a high-dimensional space. The "first demonstration" claim has strong precedence implications and requires a more rigorous literature survey.
+  - **Resolution test** Provide full distributions of docking scores and geometric parameters for all generated conformations, with confidence intervals. Include a negative control (e.g., conformations generated by a null model or random perturbations of apo structures) to demonstrate that the observed binding-compatible conformations are non-trivial. Expand the literature comparison to justify the "first demonstration" claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Molearn was trained exclusively on apo TAR conformations" and that "no information from MV2003-bound TAR structures was used during model training."
+  - **Evidence pointer** Section "Molecular Dynamics Simulations", Section "Molearn model and the training procedure", Section "Structural descriptors for identifying MV2003-binding cavities in TAR"
+  - **Concern** The training data are derived from MD simulations starting from apo NMR structures. However, the MD simulations use a fixed-charge force field (AMBER ff99bsc0χOL3), which the authors themselves note may have imbalances in electrostatic interactions. The claim that the training set is "apo" is only as strong as the force field's ability to represent the apo state. More critically, the geometric criteria used to identify binding-compatible conformations were derived from the MV2003-bound NMR structures. While the authors correctly state these were applied post hoc, the choice of descriptors (cavity volume, d2-6, d4-6) was informed by knowledge of the bound state. This does not invalidate the approach, but the claim of "exclusively apo" training should be nuanced to acknowledge that the evaluation criteria are bound-state-derived.
+  - **Why it matters** The central novelty is the ability to generate cryptic conformations without bound-state information. If the evaluation criteria are derived from the bound state, the claim of "de novo" cryptic site discovery is weakened. The distinction between "generating" and "selecting" binding-competent conformations needs to be clearer.
+  - **Resolution test** Clarify the extent to which the choice of geometric descriptors was influenced by knowledge of the bound state. Consider testing whether alternative descriptors, chosen without knowledge of the bound state, would also identify binding-competent conformations. Discuss the force field limitations more explicitly in the context of the "apo" training claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors report that "seven of the ten independently trained Molearn models succeeded in generating TAR conformations harboring MV2003-binding-compatible cavities."
+  - **Evidence pointer** Table 1, Section "Generative expansion of apo TAR conformations toward MV2003-binding-compatible cavity geometries"
+  - **Concern** The variability across the ten trained models is acknowledged, but the main text does not provide sufficient detail on the sources of this variability or its implications for the reliability of the method. The authors state that the variability "likely reflects stochastic effects intrinsic to model initialization and data sampling," but no analysis is presented to support this interpretation. The practical implications of this variability for users of the method are unclear.
+  - **Why it matters** For a method to be useful in drug discovery, it must be reliable and reproducible. If three of ten training runs fail to produce any binding-competent conformations, the method's practical utility is questionable. Understanding the sources of variability is essential for improving the method.
+  - **Resolution test** Provide a detailed analysis of the variability across the ten models, including the distribution of generated conformations, the characteristics of the three "failed" models, and any correlations with training dynamics or initialization. Discuss strategies to reduce variability or to identify successful models a priori.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation rigor
+  - **Claim pointer** The authors state that docking scores for Molearn-generated conformations are "comparable to those of NMR-derived complexes" and that the generated conformations are "ligand-binding competent."
+  - **Evidence pointer** Section "Functional validation of Molearn-generated TAR conformations by MV2003 docking", Figure 6
+  - **Concern** The validation relies exclusively on computational docking and scoring. No experimental validation (e.g., NMR, ITC, or other biophysical assays) is provided. While computational validation is acceptable for a proof-of-concept, the claim of "ligand-binding competent" is stronger than what computational docking alone can establish. The authors should temper their language or provide additional computational evidence (e.g., molecular dynamics simulations of the docked complexes to assess stability).
+  - **Why it matters** Computational docking is known to produce false positives. Without experimental validation or more rigorous computational validation (e.g., MD-based binding free energy calculations), the claim that the generated conformations are truly "binding-competent" is not fully supported.
+  - **Resolution test** Either temper the language to "computationally predicted to be binding-competent" or provide additional validation, such as short MD simulations of the docked complexes to assess stability, or binding free energy calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title uses the term "expands apo RNA ensembles toward cryptic ligand-binding conformations." The word "expands" is somewhat vague and could be interpreted as either generating new conformations or enlarging an existing ensemble. The term "cryptic ligand-binding conformations" is also used without defining "cryptic" in the title context.
+  - **Required correction** Consider revising the title to be more precise, e.g., "Generative expansion of apo RNA ensembles to access cryptic ligand-binding conformations: application to HIV-1 TAR." Define "cryptic" in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Molearn model and the training procedure"
+  - **Issue** The description of the Molearn architecture and training procedure is brief. Key hyperparameters (e.g., learning rate schedule, batch size, number of training samples per epoch) are not fully specified. The exact modifications made to the original Molearn code for RNA support are not detailed.
+  - **Required correction** Provide a more complete description of the model architecture, training hyperparameters, and modifications made to the original code. Consider including a table summarizing the key parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results
+  - **Evidence pointer** Section "Functional validation of Molearn-generated TAR conformations by MV2003 docking", Figure 6
+  - **Issue** The comparison of docking scores between generated and NMR-derived conformations is presented as a distribution overlap, but no statistical test is reported. The statement "approximately 86% of docking poses fall within this range" is descriptive but not inferential.
+  - **Required correction** Report the median and interquartile range for both groups, and perform a statistical comparison (e.g., Mann-Whitney U test) to support the claim of comparability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section "Complementary roles of Molearn relative to existing computational approaches"
+  - **Issue** The discussion of prior work on cryptic site prediction is brief. The authors mention SHAMAN and general deep generative models but do not provide a systematic comparison of prior approaches to RNA cryptic site prediction.
+  - **Required correction** Expand the literature review to include a more comprehensive survey of prior computational approaches to RNA cryptic site prediction, including any that may have achieved similar results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement provides links to external repositories but does not specify the exact contents of these repositories or provide a persistent identifier (e.g., DOI) for the datasets.
+  - **Required correction** Provide a more detailed description of the deposited data and consider using a persistent identifier (e.g., Zenodo DOI) to ensure long-term accessibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The terms "binding-compatible" and "bindable" are introduced and defined, but the distinction is not consistently maintained throughout the text. In some places, "bindable" is used where "binding-compatible" would be more accurate.
+  - **Required correction** Ensure consistent use of the defined terms throughout the manuscript. Consider adding a brief glossary or definition box.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient quantitative evidence for the central claim), R1-M2 (nuance needed in the "exclusively apo" training claim), R1-M3 (insufficient analysis of model-to-model variability), R1-M4 (overstated validation claims without experimental or more rigorous computational support)
+- **Assessment against Nature-style criteria** Originality: The application of a hybrid MD–deep generative framework to RNA cryptic site prediction is novel, though the underlying concept of generative conformational sampling is not new. Scientific importance: The problem addressed is important for RNA-targeted drug discovery, and a successful method would be highly valuable. However, the current evidence does not fully establish that the method achieves its stated goal. Interdisciplinary readership: The work bridges machine learning, molecular dynamics, and RNA biology, which would appeal to a broad readership. Technical soundness: The methodology is reasonable but has limitations that are not fully addressed, particularly regarding statistical validation and the interpretation of the "apo-only" training. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some technical details in the methods could be clarified for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are suggestive, but the evidence presented in the main text is insufficient to fully establish the central claims. The authors should address the major concerns, particularly by providing more detailed quantitative results, statistical analyses, and a clearer discussion of the limitations and novelty of their approach.

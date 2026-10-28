@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary figure legends as referenced)
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and claims as presented in the provided text. No line numbers were available; references to specific locations use section and figure/table names.
+- **Shared manuscript claim summary** The authors propose that DNA-PK controls Apollo-mediated resection of leading-end telomeres by direct binding and by DNA-PKcs autophosphorylation on the ABCDE/Thr2609 cluster, which positions Apollo's nuclease domain at the DNA end. They support this with epistasis experiments, localization studies, co-immunoprecipitation, and AlphaFold-based structural modeling.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results (Figures 1–5 and Supplementary Figures S1–S8 as referenced), Discussion, Data availability statement.
+- **Missing materials affecting confidence** Full figure panels and raw data images were not provided; only figure legends and in-text descriptions were available. Supplementary figures were referenced but not fully described. Statistical details for some comparisons were incomplete. The structural modeling section lacked detailed validation metrics beyond pLDDT and RMSD.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and unresolved question in telomere biology: how DNA-PK, a factor best known for promoting DNA end joining, paradoxically prevents telomere fusions. The authors provide compelling genetic evidence for an epistatic relationship between DNA-PK kinase activity and Apollo, and they identify a putative Apollo motif that mediates binding to DNA-PK. The structural modeling is suggestive but not definitive. The work is of high interest to the telomere and DNA repair communities, and the proposed model is conceptually novel. However, several technical concerns, particularly regarding the specificity of the Apollo-DNA-PK interaction and the functional relevance of the predicted conformational changes, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Telomere biologists, DNA repair researchers, and scientists studying genome stability. The work provides a mechanistic link between DNA-PK and telomere processing, which has implications for understanding how telomeres avoid being recognized as DNA double-strand breaks. It also has potential relevance for cancer biology, given that both DNA-PK and Apollo are implicated in tumor suppression and therapy responses.
+- **Major strengths** The study addresses a long-standing paradox in the field with a clear hypothesis. The epistasis experiments are well designed and include appropriate controls. The identification of a specific Apollo region required for DNA-PK binding and telomere protection is a significant advance. The use of AlphaFold-based modeling to generate testable structural predictions is forward-looking. The manuscript is clearly written and the model presented in the Discussion is logically coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct interaction
+  - **Claim pointer** The authors claim that Apollo binds DNA-PK through a motif in amino acids 344–360, and that this interaction is required for telomere protection.
+  - **Evidence pointer** Results section "Interaction between DNA-PKcs and the C-terminal region of Apollo is required for telomere protection"; Figure 6C
+  - **Concern** The co-immunoprecipitation experiment shows reduced interaction of Apollo-ΔPK with DNA-PKcs, but the reduction is not quantified and no statistical analysis is provided. Moreover, the experiment was performed with overexpressed proteins in 293T cells, which may not reflect the endogenous situation at telomeres. The authors also note that they cannot rule out that the deletion compromises Apollo's catalytic activity, which would confound the interpretation.
+  - **Why it matters** The central claim of the paper is that DNA-PK directly controls Apollo's access to telomeres. If the interaction is not specific or if the deletion affects Apollo's intrinsic activity, the model would be substantially weakened.
+  - **Resolution test** Provide quantitative co-immunoprecipitation data with statistical analysis, ideally using endogenous proteins or a complemented system. Test whether Apollo-ΔPK retains catalytic activity in vitro. Perform a rescue experiment with an Apollo mutant that cannot bind DNA-PK but retains nuclease activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural modeling validation
+  - **Claim pointer** The authors state that AlphaFold-Multimer predicts extensive interactions between Apollo and DNA-PKcs, and that comparison to the Artemis-bound cryo-EM structure suggests DNA-PK can grant Apollo access to the DNA end.
+  - **Evidence pointer** Results section "Phosphorylation on the DNA-PK ABCDE/Thr2609 cluster is predicted to provide Apollo access to DNA ends"; Figure 5
+  - **Concern** The structural modeling is based on a truncated DNA-PKcs construct (residues 1981–2760) and full-length Apollo, but the C-terminal half of Apollo was predicted with low confidence and removed. The authors do not provide a clear metric for how many of the 816 models support the proposed binding mode, nor do they show whether the predicted interface is conserved across models. The superposition onto the cryo-EM structures is qualitative, and the RMSD values alone do not establish that the Apollo-DNA-PK complex is physiologically relevant.
+  - **Why it matters** The model that DNA-PK phosphorylation opens a gate for Apollo is central to the paper's conceptual advance. If the structural predictions are not robust, the model remains speculative.
+  - **Resolution test** Provide a more detailed analysis of the model ensemble, including interface residues, confidence scores across models, and a comparison of the predicted Apollo-DNA-PK interface with the Artemis-DNA-PK interface. Ideally, validate the model with mutagenesis of predicted interface residues followed by functional assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of DNA-PK autophosphorylation at telomeres
+  - **Claim pointer** The authors claim that DNA-PK autophosphorylation on the ABCDE/Thr2609 cluster is required for Apollo's function at telomeres.
+  - **Evidence pointer** Results section "DNA-PKcs kinase activity and Apollo act in the same pathway to prevent alt-EJ of leading-end telomeres"; Figure 4C,D
+  - **Concern** The DNA-PK3A/3A mutant cells show increased telomere fusions, but the authors do not directly demonstrate that this is due to impaired Apollo access. The experiment shows that DNA-PK inhibitor treatment further increases fusions in 3A/3A cells, which is interpreted as evidence that other phosphorylation sites or substrates are involved. However, the possibility that the 3A mutation affects DNA-PK's overall stability or its interaction with other proteins is not addressed.
+  - **Why it matters** The claim that the ABCDE/Thr2609 cluster is specifically required for Apollo function is important for the model. If the 3A mutation has broader effects, the conclusion would be less specific.
+  - **Resolution test** Assess DNA-PK protein levels and kinase activity in 3A/3A cells. Test whether a phosphomimetic mutant of the ABCDE cluster can rescue the telomere phenotype. Examine Apollo localization and overhang formation in 3A/3A cells directly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1 and Figure 2 quantifications
+  - **Evidence pointer** Results section "DNA-PKcs kinase activity and Apollo act in the same pathway to prevent alt-EJ of leading-end telomeres"
+  - **Issue** The number of independent experiments and the specific statistical tests used for each comparison are not consistently reported in the text.
+  - **Required correction** Add a detailed statistical methods section or table specifying the test used, the number of replicates, and the exact p-values for each figure panel.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of model presentation
+  - **Affected element** Figure 7
+  - **Evidence pointer** Discussion section
+  - **Issue** The model figure is described in the text but not shown in the provided materials. The description is clear, but a visual representation would help readers understand the proposed mechanism.
+  - **Required correction** Ensure Figure 7 is included in the final version and that it clearly depicts the steps from DNA-PK binding to Apollo access and overhang formation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of findings
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss differences between Apollo and Artemis regulation but do not address whether the proposed mechanism is specific to telomeres or could apply to other DNA-PK substrates.
+  - **Required correction** Add a brief paragraph in the Discussion considering whether the DNA-PK gating mechanism could be a general feature of DNA-PK-dependent nuclease activation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct interaction evidence), R1-M2 (structural modeling robustness), R1-M3 (specificity of ABCDE cluster requirement)
+- **Assessment against Nature-style criteria** Originality: High. The manuscript provides a novel mechanistic model for DNA-PK function at telomeres, which has not been previously proposed. Scientific importance: High. The work resolves a long-standing paradox and has implications for understanding telomere maintenance and genome stability. Interdisciplinary readership: Moderate. The work will primarily appeal to telomere and DNA repair specialists, though the structural modeling component may attract a broader structural biology audience. Technical soundness: Moderate. The genetic experiments are solid, but the biochemical and structural evidence is incomplete. Readability for nonspecialists: Good. The manuscript is clearly written and the model is logically presented, though some familiarity with telomere biology and DNA repair is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core genetic evidence is compelling, and the proposed model is conceptually important. However, the direct interaction between Apollo and DNA-PK, the robustness of the structural predictions, and the specificity of the ABCDE cluster requirement need to be strengthened before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that DNA-PK directly gates Apollo's access to telomeres is supported by genetic epistasis but lacks direct biochemical or structural validation.
+- The prediction that Apollo's nuclease domain is positioned at the DNA end in a phosphorylation-dependent manner is based on computational modeling and has not been experimentally tested.
+- The statement that DNA-PK inhibitor-induced degradation of Apollo is an off-target effect is based on observations in mouse cells; the mechanism of this degradation is not explored.
+- The claim that the Apollo motif (amino acids 344–360) is functionally important is supported by deletion analysis, but the specificity of this region for DNA-PK binding versus other functions is not fully established.

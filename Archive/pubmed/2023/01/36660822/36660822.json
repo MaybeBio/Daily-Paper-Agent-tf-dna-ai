@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "36660822",
+    "doi": "10.1093/nar/gkac1274",
+    "title": "Allosteric autoregulation of DNA binding via a DNA-mimicking protein domain: a biophysical study of ZNF410-DNA interaction using small angle X-ray scattering."
+  },
+  "content": {
+    "abstract": "ZNF410 is a highly-conserved transcription factor, remarkable in that it recognizes a 15-base pair DNA element but has just a single responsive target gene in mammalian erythroid cells. ZNF410 includes a tandem array of five zinc-fingers (ZFs), surrounded by uncharacterized N- and C-terminal regions. Unexpectedly, full-length ZNF410 has reduced DNA binding affinity, compared to that of the isolated DNA binding ZF array, both in vitro and in cells. AlphaFold predicts a partially-folded N-terminal subdomain that includes a 30-residue long helix, preceded by a hairpin loop rich in acidic (aspartate/glutamate) and serine/threonine residues. This hairpin loop is predicted by AlphaFold to lie against the DNA binding interface of the ZF array. In solution, ZNF410 is a monomer and binds to DNA with 1:1 stoichiometry. Surprisingly, the single best-fit model for the experimental small angle X-ray scattering profile, in the absence of DNA, is the original AlphaFold model with the N-terminal long-helix and the hairpin loop occupying the ZF DNA binding surface. For DNA binding, the hairpin loop presumably must be displaced. After combining biophysical, biochemical, bioinformatic and artificial intelligence-based AlphaFold analyses, we suggest that the hairpin loop mimics the structure and electrostatics of DNA, and provides an additional mechanism, supplementary to sequence specificity, of regulating ZNF410 DNA binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Amino Acid Sequence",
+      "Artificial Intelligence",
+      "Mammals/genetics",
+      "Protein Binding",
+      "Protein Domains",
+      "Zinc Fingers/genetics",
+      "*Transcription Factors/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Gundeep",
+        "Ren, Ren",
+        "Hammel, Michal",
+        "Horton, John R",
+        "Yang, Jie",
+        "Cao, Yu",
+        "He, Chenxi",
+        "Lan, Fei",
+        "Lan, Xianjiang",
+        "Blobel, Gerd A",
+        "Blumenthal, Robert M",
+        "Zhang, Xing",
+        "Cheng, Xiaodong"
+      ],
+      "short_names": [
+        "Kaur G",
+        "Ren R",
+        "Hammel M",
+        "Horton JR",
+        "Yang J",
+        "Cao Y",
+        "He C",
+        "Lan F",
+        "Lan X",
+        "Blobel GA",
+        "Blumenthal RM",
+        "Zhang X",
+        "Cheng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6967-6362"
+      ],
+      "affiliations": [
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Shanghai Key Laboratory of Medical Epigenetics, International Laboratory of Medical Epigenetics and Metabolism, Ministry of Science and Technology, Institutes of Biomedical Sciences, Fudan University and Key Laboratory of Carcinogenesis and Cancer Invasion, Ministry of Education, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Shanghai Key Laboratory of Medical Epigenetics, International Laboratory of Medical Epigenetics and Metabolism, Ministry of Science and Technology, Institutes of Biomedical Sciences, Fudan University and Key Laboratory of Carcinogenesis and Cancer Invasion, Ministry of Education, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Systems Biology for Medicine, School of Basic Medical Sciences; Department of Liver Surgery and Transplantation, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Division of Hematology, the Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA.",
+        "Division of Hematology, the Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA.",
+        "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Medical Microbiology and Immunology, and Program in Bioinformatics, The University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Gundeep",
+        "short_name": "Kaur G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Ren",
+        "short_name": "Ren R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Hammel, Michal",
+        "short_name": "Hammel M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Horton, John R",
+        "short_name": "Horton JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jie",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Yu",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "He, Chenxi",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Medical Epigenetics, International Laboratory of Medical Epigenetics and Metabolism, Ministry of Science and Technology, Institutes of Biomedical Sciences, Fudan University and Key Laboratory of Carcinogenesis and Cancer Invasion, Ministry of Education, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Fei",
+        "short_name": "Lan F",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Medical Epigenetics, International Laboratory of Medical Epigenetics and Metabolism, Ministry of Science and Technology, Institutes of Biomedical Sciences, Fudan University and Key Laboratory of Carcinogenesis and Cancer Invasion, Ministry of Education, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Xianjiang",
+        "short_name": "Lan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology for Medicine, School of Basic Medical Sciences; Department of Liver Surgery and Transplantation, Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+          "Division of Hematology, the Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Blobel, Gerd A",
+        "short_name": "Blobel GA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology, the Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA.",
+          "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Blumenthal, Robert M",
+        "short_name": "Blumenthal RM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Microbiology and Immunology, and Program in Bioinformatics, The University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xing",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xiaodong",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0000-0002-6967-6362"
+        ],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Feb 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/21 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42232506",
+      "40301632",
+      "40246927",
+      "39720519",
+      "38466836",
+      "37924864",
+      "37786681"
+    ],
+    "refs": [
+      "35941187",
+      "35526095",
+      "34995477",
+      "34709368",
+      "34265844",
+      "34149677",
+      "34056803",
+      "33859418",
+      "33859416",
+      "33482089",
+      "33301730",
+      "32299090",
+      "31282880",
+      "30578665",
+      "30371978",
+      "30049795",
+      "29764979",
+      "29605933",
+      "28740726",
+      "28706995",
+      "28529057",
+      "27372763",
+      "27151198",
+      "27145840",
+      "27079975",
+      "27057074",
+      "26816381",
+      "26320411",
+      "26145171",
+      "26068747",
+      "24265157",
+      "24203338",
+      "23619693",
+      "23340908",
+      "22936215",
+      "22435546",
+      "22044150",
+      "21509745",
+      "21135870",
+      "20513432",
+      "19592714",
+      "19261174",
+      "18078545",
+      "17141628",
+      "16815576",
+      "16734424",
+      "15751111",
+      "15109498",
+      "12370286",
+      "11361095",
+      "11028910",
+      "10637432",
+      "10600690",
+      "9366517",
+      "8217775",
+      "7888182",
+      "7754375",
+      "1643656",
+      "1516134"
+    ],
+    "similar": [
+      "36660822",
+      "10504263",
+      "25098749",
+      "10092462",
+      "33301730",
+      "8654390",
+      "24097990",
+      "23175611",
+      "30355731",
+      "9698361",
+      "10448036",
+      "12941967",
+      "14636595",
+      "1538401",
+      "15969093",
+      "10421761",
+      "25801860",
+      "10026784",
+      "28801461",
+      "15709764",
+      "11018257",
+      "10656784",
+      "33859416",
+      "27401554",
+      "18602114",
+      "20680832",
+      "36124796",
+      "9367756",
+      "23521535",
+      "11735399",
+      "29381770",
+      "11844803",
+      "8700901",
+      "32453726",
+      "37439339",
+      "16051273",
+      "12504096",
+      "32878989",
+      "8692697",
+      "7739529",
+      "10606657",
+      "9837943",
+      "29965776",
+      "10672011",
+      "29294058",
+      "7610056",
+      "40158221",
+      "40411314",
+      "1762917",
+      "9698548",
+      "32316259",
+      "15342239",
+      "16415340",
+      "24699649",
+      "28986805",
+      "10637336",
+      "8318900",
+      "8332909",
+      "18286240",
+      "37013936",
+      "36498928",
+      "11329270",
+      "24289163",
+      "16554053",
+      "7643379",
+      "1640455",
+      "9655916",
+      "25187181",
+      "10587460",
+      "8841116",
+      "26158299",
+      "29551271",
+      "38870938",
+      "8114711",
+      "16055450",
+      "7549873",
+      "38754172",
+      "22300642",
+      "12393497",
+      "27369384",
+      "24214968",
+      "12549926",
+      "9774661",
+      "9533883",
+      "7891721",
+      "10954607",
+      "17189472",
+      "8377197",
+      "9925775",
+      "7669760",
+      "31226215",
+      "9426240",
+      "10687855",
+      "1453468",
+      "9578568",
+      "31642121",
+      "8433970",
+      "40228386",
+      "23436653",
+      "1567844"
+    ],
+    "review": [
+      "36660822",
+      "10026784"
+    ],
+    "pmc": [
+      "9976917"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36660822/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36660822",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=36660822",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac1274",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

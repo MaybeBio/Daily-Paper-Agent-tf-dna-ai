@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41319043",
+    "doi": "10.1093/bib/bbaf634",
+    "title": "ETNet: an interpretable transformer framework for enhancer-enhancer interaction prediction with cross-context transferability."
+  },
+  "content": {
+    "abstract": "Enhancer-enhancer interactions (EEIs) are critical regulatory components in transcriptional networks but remain computationally challenging to predict. While enhancer-promoter interactions have been extensively studied, EEIs remain comparatively underexplored. We developed ETNet (Enhancer-enhancer Interaction Explainable Transformer Network), a deep learning architecture integrating convolutional neural networks with Transformer modules to predict EEIs from DNA sequences. Evaluation across three cell lines (GM12878, K562, MCF-7) demonstrated superior performance compared to existing methods including EnContact, with statistical significance confirmed through DeLong tests across six cell lines. Rigorous validation through cross-validation and enhancer-level data partitioning confirmed robust generalization. ETNet exhibited effective cross-cell type transfer learning and showed transferability to enhancer-promoter interaction tasks, providing exploratory evidence for shared chromatin interaction principles. Feature attribution analysis recovered cell-type-specific regulatory motifs consistent with known transcription factors and revealed computational evidence for super-additive cooperative mechanisms, with cooperativity negatively correlating with sequence similarity-patterns representing hypothesis-generating observations requiring experimental validation. Proof-of-concept analysis demonstrated how single-nucleotide polymorphisms in JAK-STAT pathway genes may influence predicted interactions through motif alterations. ETNet advances computational approaches for studying enhancer interactions and provides a framework combining predictive capability with exploratory interpretability.",
+    "keywords": [
+      "enhancer-enhancer interactions",
+      "model interpretability",
+      "regulatory genomics",
+      "transfer learning",
+      "transformer architecture"
+    ],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic",
+      "Humans",
+      "*Deep Learning",
+      "*Computational Biology/methods",
+      "*Neural Networks, Computer",
+      "Promoter Regions, Genetic",
+      "*Gene Regulatory Networks",
+      "MCF-7 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Shuaibin",
+        "Chen, Tong",
+        "Yang, Zhongxin",
+        "Liang, Zhen",
+        "Shen, Yin"
+      ],
+      "short_names": [
+        "Wang S",
+        "Chen T",
+        "Yang Z",
+        "Liang Z",
+        "Shen Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7002-4022"
+      ],
+      "affiliations": [
+        "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+        "The Affiliated Chuzhou Hospital of Anhui Medical University (The First People's Hospital of Chuzhou), No. 369 Zuiweng West Road, Nanqiao District, Chuzhou 239001, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+        "Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Economic and Technological Development Zone, Hefei 230601, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Shuaibin",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tong",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhongxin",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhen",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+          "The Affiliated Chuzhou Hospital of Anhui Medical University (The First People's Hospital of Chuzhou), No. 369 Zuiweng West Road, Nanqiao District, Chuzhou 239001, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yin",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0001-7002-4022"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, No. 81 Meishan Road, Shushan District, Hefei 230032, Anhui, China.",
+          "Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Economic and Technological Development Zone, Hefei 230601, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/30 06:31",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41031058",
+      "40011812",
+      "39808848",
+      "39766779",
+      "39721581",
+      "39466837",
+      "39293804",
+      "39284975",
+      "38866979",
+      "38706316",
+      "38670416",
+      "38430521",
+      "38058185",
+      "38053013",
+      "36495179",
+      "36351387",
+      "34680352",
+      "34607350",
+      "34552244",
+      "34399797",
+      "34113473",
+      "31784727",
+      "31565573",
+      "31501517",
+      "31465963",
+      "30869141",
+      "29697742",
+      "28945252",
+      "27064255",
+      "26438538",
+      "25043047",
+      "24670763",
+      "19941826",
+      "17971780",
+      "8047147",
+      "3203132"
+    ],
+    "similar": [
+      "41319043",
+      "38890584",
+      "40869356",
+      "27490187",
+      "39519295",
+      "31905774",
+      "40515390",
+      "31318408",
+      "41229401",
+      "39684652",
+      "39546160",
+      "39766779",
+      "35633468",
+      "40203028",
+      "33160328",
+      "40902506",
+      "39577030",
+      "33234095",
+      "40772277",
+      "30905748",
+      "38485768",
+      "33137083",
+      "40613943",
+      "40335860",
+      "38064959",
+      "37607147",
+      "39096613",
+      "33096548",
+      "39184348",
+      "37348298",
+      "40036975",
+      "34473626",
+      "35410163",
+      "33539511",
+      "34292930",
+      "38430611",
+      "37539835",
+      "31565573",
+      "39884279",
+      "34103507",
+      "39929298",
+      "23512712",
+      "40753949",
+      "39420601",
+      "40914970",
+      "25228660",
+      "41062795",
+      "40883359",
+      "34570239",
+      "28865451",
+      "39131276",
+      "39701486",
+      "20808951",
+      "39561516",
+      "33581335",
+      "38724920",
+      "35605495",
+      "36520922",
+      "34573367",
+      "33741075",
+      "33983921",
+      "39337329",
+      "34508359",
+      "28633280",
+      "29728367",
+      "28579514",
+      "30562350",
+      "40613852",
+      "39806960",
+      "41031058",
+      "29764360",
+      "37760334",
+      "33577560",
+      "41381695",
+      "33535061",
+      "40553343",
+      "19961622",
+      "24565409",
+      "39143563",
+      "39747934",
+      "35062021",
+      "30869141",
+      "39965455",
+      "40770344",
+      "38950180",
+      "26338778",
+      "39550226",
+      "32443951",
+      "38599417",
+      "39695955",
+      "32029002",
+      "27986453",
+      "32568326",
+      "38385876",
+      "41257586",
+      "41042660",
+      "30374023",
+      "39208057",
+      "29219068",
+      "40251476"
+    ],
+    "review": [
+      "41319043",
+      "33234095"
+    ],
+    "pmc": [
+      "12665038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41319043.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41319043/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf634",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "35039821",
+    "doi": "10.1093/bib/bbab564",
+    "title": "AlphaFold2-aware protein-DNA binding site prediction using graph transformer."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play crucial roles in the biological systems, and identifying protein-DNA binding sites is the first step for mechanistic understanding of various biological activities (such as transcription and repair) and designing novel drugs. How to accurately identify DNA-binding residues from only protein sequence remains a challenging task. Currently, most existing sequence-based methods only consider contextual features of the sequential neighbors, which are limited to capture spatial information. Based on the recent breakthrough in protein structure prediction by AlphaFold2, we propose an accurate predictor, GraphSite, for identifying DNA-binding residues based on the structural models predicted by AlphaFold2. Here, we convert the binding site prediction problem into a graph node classification task and employ a transformer-based variant model to take the protein structural information into account. By leveraging predicted protein structures and graph transformer, GraphSite substantially improves over the latest sequence-based and structure-based methods. The algorithm is further confirmed on the independent test set of 181 proteins, where GraphSite surpasses the state-of-the-art structure-based method by 16.4% in area under the precision-recall curve and 11.2% in Matthews correlation coefficient, respectively. We provide the datasets, the predicted structures and the source codes along with the pre-trained models of GraphSite at https://github.com/biomed-AI/GraphSite. The GraphSite web server is freely available at https://biomed.nscc-gz.cn/apps/GraphSite.",
+    "keywords": [
+      "AlphaFold2",
+      "graph transformer",
+      "predicted protein structure",
+      "protein-DNA binding site"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Binding Sites",
+      "DNA/metabolism",
+      "Protein Binding",
+      "Protein Domains",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Qianmu",
+        "Chen, Sheng",
+        "Rao, Jiahua",
+        "Zheng, Shuangjia",
+        "Zhao, Huiying",
+        "Yang, Yuedong"
+      ],
+      "short_names": [
+        "Yuan Q",
+        "Chen S",
+        "Rao J",
+        "Zheng S",
+        "Zhao H",
+        "Yang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6098-9103",
+        "ORCID: 0000-0002-6840-8198",
+        "ORCID: 0000-0001-9747-4285"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+        "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+        "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+        "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+        "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510000, China.",
+        "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+        "Key Laboratory of Machine Intelligence and Advanced Computing of MOE, Sun Yat-sen University, Guangzhou 510000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Qianmu",
+        "short_name": "Yuan Q",
+        "identifiers": [
+          "0000-0001-6098-9103"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Sheng",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      },
+      {
+        "full_name": "Rao, Jiahua",
+        "short_name": "Rao J",
+        "identifiers": [
+          "0000-0002-6840-8198"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Shuangjia",
+        "short_name": "Zheng S",
+        "identifiers": [
+          "0000-0001-9747-4285"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Huiying",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuedong",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou 510000, China.",
+          "Key Laboratory of Machine Intelligence and Advanced Computing of MOE, Sun Yat-sen University, Guangzhou 510000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Mar 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/19 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42636031",
+      "42605055",
+      "42598852",
+      "42428842",
+      "42323855",
+      "42100742",
+      "42030390",
+      "42012716",
+      "41568098",
+      "41454719",
+      "41451391",
+      "41366732",
+      "41286535",
+      "41168713",
+      "41134132",
+      "41095231",
+      "41045511",
+      "40919912",
+      "40742755",
+      "40728615",
+      "40728609",
+      "40601265",
+      "40601256",
+      "40448683",
+      "40388205",
+      "40359455",
+      "40102529",
+      "39995900",
+      "39935356",
+      "39739114",
+      "39475544",
+      "39345796",
+      "39341999",
+      "39294165",
+      "39202449",
+      "39075407",
+      "38975896",
+      "38796523",
+      "38738636",
+      "38630609",
+      "38349057",
+      "38327870",
+      "38324068",
+      "38295475",
+      "38281252",
+      "38189543",
+      "38175787",
+      "38171929",
+      "38015872",
+      "37973874",
+      "37672551",
+      "37651442",
+      "37175868",
+      "36686396",
+      "36659927",
+      "36625126",
+      "36008947"
+    ],
+    "refs": [],
+    "similar": [
+      "35039821",
+      "37039829",
+      "34498061",
+      "37824738",
+      "36964722",
+      "38015872",
+      "36008947",
+      "37369035",
+      "36274238",
+      "36637199",
+      "35514186",
+      "38975896",
+      "29028926",
+      "37847755",
+      "33577689",
+      "31800243",
+      "35842895",
+      "36564866",
+      "23166753",
+      "38738636",
+      "38281252",
+      "36574037",
+      "36682013",
+      "30414728",
+      "38824535",
+      "34714748",
+      "38457109",
+      "36324073",
+      "31141211",
+      "37651442",
+      "37054909",
+      "37013942",
+      "37015594",
+      "37745556",
+      "34270697",
+      "38171929",
+      "33971164",
+      "34773871",
+      "36711471",
+      "38630609",
+      "34469019",
+      "29895149",
+      "35933804",
+      "35973091",
+      "23737141",
+      "38486135",
+      "33454744",
+      "38334115",
+      "30020406",
+      "37740195",
+      "30808287",
+      "32840562",
+      "39361250",
+      "39120878",
+      "37144951",
+      "19008251",
+      "37193676",
+      "19997483",
+      "35974061",
+      "24792350",
+      "37387159",
+      "37114568",
+      "30957840",
+      "24854765",
+      "30020551",
+      "22848404",
+      "37947474",
+      "33410688",
+      "32821925",
+      "29753757",
+      "39108640",
+      "25189131",
+      "32144844",
+      "25756377",
+      "37786533",
+      "38308869",
+      "38513769",
+      "26176857",
+      "35200015",
+      "30943723",
+      "35524575",
+      "26441427",
+      "24448651",
+      "38175787",
+      "34180966",
+      "35030496",
+      "30649184",
+      "26833816",
+      "22574904",
+      "19558651",
+      "37933773",
+      "33068261",
+      "24334392",
+      "26671809",
+      "35595534",
+      "37961732",
+      "19594868",
+      "31593229",
+      "38194782",
+      "34671814",
+      "28056090",
+      "38212995",
+      "22974051",
+      "36924867",
+      "36051869",
+      "38065275",
+      "11478868",
+      "36700110",
+      "25521807",
+      "26661785",
+      "34029193",
+      "39050251",
+      "18320590",
+      "29097781",
+      "29718097",
+      "35108362",
+      "30698427",
+      "21268114",
+      "33822882",
+      "35108355",
+      "36824789",
+      "23912807",
+      "35383281",
+      "30668479",
+      "38177395",
+      "21689482",
+      "17316627",
+      "18922190",
+      "23788679",
+      "38529493",
+      "28074879",
+      "18235992",
+      "33872313",
+      "37836636",
+      "22666491",
+      "28459991",
+      "36290358",
+      "31106357",
+      "29673311",
+      "33280588",
+      "32142788",
+      "38303418",
+      "25229688",
+      "33387562",
+      "15720719",
+      "35834447",
+      "37409346",
+      "38040847",
+      "35273146",
+      "36993750",
+      "37788318",
+      "38305456",
+      "37466225",
+      "39357703",
+      "38552762",
+      "37204193",
+      "35615740",
+      "38326495",
+      "38195719",
+      "38047234",
+      "37870486",
+      "37293014",
+      "36006049",
+      "37546775",
+      "37371487",
+      "37976823",
+      "34423306",
+      "36532870",
+      "38780156",
+      "38766001",
+      "38854010",
+      "37662346",
+      "38464121",
+      "38665640",
+      "37171364",
+      "35702990",
+      "36686236",
+      "38600144",
+      "38250435",
+      "37440570"
+    ],
+    "review": [
+      "35039821",
+      "37114568",
+      "25756377"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35039821.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35039821",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab564",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

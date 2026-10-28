@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, experimental methods, results, discussion, and conclusions. Figures and tables are referenced but not directly provided.
+- **Assessment boundary** The review is limited to the scientific content, methodology, data interpretation, and conclusions as presented in the supplied text. No external validation or replication of experiments was performed.
+- **Shared manuscript claim summary** The manuscript claims that phosphorylation of human centrin 2 (HsCen2) reduces its binding affinity for Tb3+ ions, enhances its DNA binding affinity, and promotes its endonuclease-like activity. These effects are proposed to be relevant to the role of HsCen2 in nucleotide excision repair (NER).
+- **Visible evidence base** The evidence base includes spectroscopic data (FRET, RLS, CD, fluorescence), gel electrophoresis assays, and molecular docking simulations, all described in the text. Specific numerical values for binding constants, rate constants, and IC50 values are reported.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary information are not available for direct inspection. This limits the ability to verify the quality of the raw data, the statistical analysis, and the reproducibility of the presented results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the regulatory role of phosphorylation on the biochemical properties of human centrin 2, specifically its metal ion binding and endonuclease-like activity. The experimental design is logical and the use of multiple complementary techniques is commendable. However, the study is largely descriptive and correlative, and the mechanistic insights are inferred rather than directly demonstrated. The lack of quantitative rigor in some analyses, the absence of key controls, and the limited discussion of the physiological relevance of the observed effects prevent the current version from being fully convincing. The claims are supported by the data presented, but the depth of the analysis and the novelty of the findings are not sufficient for a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in the fields of calcium-binding proteins, DNA repair mechanisms, and post-translational modifications would find this work of interest. The study provides a link between phosphorylation and the biochemical activity of centrin, which could be relevant for understanding the regulation of NER. The use of Tb3+ as a probe for metal binding is also of methodological interest to biophysicists studying lanthanide-protein interactions.
+- **Major strengths**
+  - The study employs a multi-technique approach (FRET, RLS, CD, fluorescence, gel electrophoresis, and docking) to characterize the effects of phosphorylation, providing a broad view of the changes in protein properties.
+  - The research addresses a relevant and understudied topic, namely the functional consequences of centrin phosphorylation beyond its role in centrosome duplication.
+  - The comparison between phosphorylated and non-phosphorylated forms of the protein under identical conditions allows for a clear assessment of the phosphorylation effect.
+  - The inclusion of molecular docking simulations provides a structural rationale for the observed biochemical differences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that phosphorylation enhances the endonuclease-like activity of HsCen2, based on gel electrophoresis showing conversion of supercoiled DNA (Form I) to nicked (Form II) and linear (Form III) forms.
+  - **Evidence pointer** Results and discussion, section "Phosphorylation promoting the endonuclease-like activity of HsCen2", Figures 6 and 7.
+  - **Concern** The endonuclease-like activity is assessed by visual inspection of gel electrophoresis bands. The quantification of the DNA forms (Form I, II, III) is not described in detail. The method for calculating IC50 values and rate constants from these gels is not fully explained. It is unclear if the assays were performed under conditions that ensure the observed cleavage is enzymatic (e.g., protein in catalytic amounts) rather than stoichiometric binding-induced distortion. The possibility of contaminating nucleases in the protein preparations is not addressed.
+  - **Why it matters** The central claim of the paper is that phosphorylation promotes endonuclease activity. If the assay is not rigorously quantitative or if the observed DNA cleavage is due to a contaminant, the main conclusion would be invalid. A clear demonstration of catalytic, phosphorylation-dependent cleavage is essential.
+  - **Resolution test** Provide a detailed description of the gel quantification method, including how band intensities were converted to DNA concentrations. Include control experiments with heat-inactivated proteins, and show that the cleavage activity is saturable and follows Michaelis-Menten kinetics. Demonstrate that the protein is acting catalytically by showing that substoichiometric amounts of protein can cleave DNA. Address the potential for nuclease contamination by using protease-treated or affinity-purified protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that phosphorylation weakens Tb3+ binding to HsCen2, with binding constants of 1.10 × 10^5 M^-1 for HsCen2 and 3.10 × 10^4 M^-1 for HsCen2p.
+  - **Evidence pointer** Results and discussion, section "Phosphorylation reduced the binding of protein to metal ions", Figure 1 and Table 1.
+  - **Concern** The binding constants are derived from FRET and RLS data using an iterative fitting method. The details of the fitting procedure are described, but the quality of the fits is not shown. The manuscript does not report the number of independent experiments, the standard deviations for the reported constants, or the statistical significance of the difference between the two proteins. The assumption of two independent and identical binding sites may not be valid for HsCen2, which has four EF-hand motifs.
+  - **Why it matters** The conclusion that phosphorylation reduces metal binding is a key finding. If the binding constants are not accurately determined or if the difference is not statistically significant, this conclusion is weakened. The use of a potentially inappropriate binding model could lead to incorrect values.
+  - **Resolution test** Show representative fits of the data to the model. Report the mean and standard deviation of the binding constants from at least three independent titrations. Perform a statistical test (e.g., t-test) to compare the binding constants of HsCen2 and HsCen2p. Justify the use of a two-site model or consider a more general model that accounts for the four EF-hand domains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the results "provide clear insights into the effects of phosphorylation on the properties of HsCen2 and offer important clues for further exploration of how phosphorylation affects protein-driven functions."
+  - **Evidence pointer** Abstract and Conclusions.
+  - **Concern** The physiological relevance of the observed effects is not established. The study uses in vitro assays with a model DNA substrate (pBR322) and a non-physiological metal ion (Tb3+). The link to NER is speculative, as no experiments are performed to show that phosphorylation of HsCen2 affects NER activity in cells or in a reconstituted system. The specific kinase responsible for phosphorylating HsCen2 in vivo is not identified, and the phosphorylation site(s) are not mapped.
+  - **Why it matters** For the findings to be of broad interest, the connection to the proposed biological function (NER) needs to be strengthened. Without this, the study remains a biophysical characterization of a modified protein, which is of limited significance.
+  - **Resolution test** Identify the specific phosphorylation site(s) on HsCen2 and generate phosphomimetic or phospho-null mutants. Test the effect of these mutations on NER activity in a cell-based assay or in a defined in vitro NER system. Alternatively, demonstrate that a known kinase can phosphorylate HsCen2 and that this modification occurs in cells under conditions of DNA damage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1.
+  - **Issue** The introduction provides a brief overview of centrin and NER but could be more accessible to a broader audience. The significance of the study is not clearly framed in the context of human disease or therapeutic potential.
+  - **Required correction** Add a sentence or two explaining why understanding the regulation of NER is important for human health, and how this study could contribute to that understanding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular docking simulation"
+  - **Evidence pointer** Experimental, "Molecular docking simulation".
+  - **Issue** The description of the docking method is brief. It is unclear how the phosphorylated serine was modeled, and whether the docking results were validated or scored in a way that supports the conclusions drawn from them.
+  - **Required correction** Provide more details on the docking protocol, including how the phosphorylation was introduced into the structure, the scoring function used, and how the top-ranked poses were selected and analyzed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and discussion, section "The characterization of protein interacting with DNA"
+  - **Evidence pointer** Results and discussion, Figure 4.
+  - **Issue** The manuscript states that the fluorescence of tyrosine at 306 nm is quenched upon DNA binding, but the mechanism of quenching is not discussed. It is also unclear if the binding stoichiometry of 1:1 is rigorously determined.
+  - **Required correction** Briefly discuss the possible quenching mechanisms (e.g., static vs. dynamic). If the 1:1 stoichiometry is a conclusion, show the data that supports it, such as a Job plot or a fit to a specific binding model.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of rigorous quantification and controls for the endonuclease activity assay.
+  - R1-M2: Incomplete reporting of binding constant determination, including statistical analysis and model justification.
+- **Assessment against Nature-style criteria**
+  - **Originality** The study is moderately original. While the effect of phosphorylation on protein activity is a common theme, its application to centrin's endonuclease-like activity is relatively novel. However, the concept that phosphorylation can modulate DNA binding and cleavage is not new.
+  - **Scientific importance** The importance is moderate. The findings could be relevant to the field of DNA repair, but the lack of direct evidence linking the observed biochemical changes to NER function limits the significance.
+  - **Interdisciplinary readership** The topic is at the interface of biochemistry, biophysics, and cell biology. The use of Tb3+ as a probe and the docking studies may appeal to biophysicists, while the NER connection may interest cell biologists. However, the narrow focus and lack of physiological context may limit broader appeal.
+  - **Technical soundness** The technical soundness is currently insufficient due to the issues with the endonuclease assay quantification and the incomplete reporting of binding data. The use of multiple techniques is a strength, but the analysis needs to be more rigorous.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is easy to follow. However, some sections, particularly the methods for binding constant calculation, are dense and could be clarified for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting, and the preliminary data are suggestive. However, the current evidence does not fully establish the main claims. The authors must address the concerns regarding the quantification of the endonuclease assay, provide a more robust statistical analysis of the binding data, and strengthen the link to the proposed biological function.
+
+## Risk / unsupported claims
+- The claim that phosphorylation "promotes the endonuclease-like activity" is supported by the gel data, but the lack of quantitative analysis and controls makes this claim not fully established.
+- The claim that the observed effects "offer important clues for further exploration of how phosphorylation affects protein-driven functions" is speculative and not directly supported by the data.
+- The claim that Tb3+ is a suitable probe for Ca2+ binding is stated but not critically evaluated in the context of the different ionic radii and coordination preferences of the two ions.
+- The molecular docking results are presented as supportive evidence, but the methodology is not described in sufficient detail to assess its validity.

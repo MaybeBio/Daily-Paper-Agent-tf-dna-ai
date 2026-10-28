@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present MCSwell, a GPU-accelerated Grand Canonical Monte Carlo (GCMC) method for sampling water molecules in protein binding sites. They claim robust identification of exposed and buried hydration sites, thermodynamic estimates within a rigorous statistical mechanical framework, comparable accuracy to MD simulations and WaterKit, and a reduction in computational cost from hours to minutes.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or system descriptions are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark system details, comparison protocols, and code availability information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational tool for hydration site analysis in structure-based drug discovery. The core idea of applying GPU-accelerated GCMC to this problem is timely and could address real limitations of MD-based approaches. However, the abstract provides no quantitative evidence to support the central claims of accuracy, speed, or thermodynamic rigor. The comparison to MD and WaterKit is described only qualitatively, and no error metrics, system details, or validation statistics are given. As presented, the case for the method's utility is plausible but not established.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug discovery, particularly those involved in binding site analysis, water mapping, and lead optimization. The promise of reduced computational cost from hours to minutes would appeal to practitioners who currently rely on MD-based water mapping. Method developers in the GCMC and molecular simulation community may also find the GPU acceleration and Python interface of interest.
+- **Major strengths** The problem addressed is well recognized and practically important. The choice of GCMC is methodologically appropriate for water sampling in occluded sites where kinetic barriers limit MD. The emphasis on GPU acceleration and a lightweight Python interface addresses real usability barriers in the field. The comparison against both MD and WaterKit, if properly executed, would provide a meaningful benchmark.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MCSwell achieves comparable accuracy while reducing computational cost from hours to minutes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central quantitative claim of comparable accuracy and dramatic speedup is presented without any supporting numbers. No accuracy metrics, benchmark system names, simulation lengths, hardware specifications, or statistical uncertainties are given. The phrase "comparable accuracy" is undefined and could mean anything from near-identical to within an order of magnitude.
+  - **Why it matters** This is the primary claim that would justify adoption of the method. Without quantitative evidence, the reader cannot assess whether the trade-off between accuracy and speed is acceptable for their use case. The claim as stated is unfalsifiable from the provided material.
+  - **Resolution test** Provide a table or figure comparing MCSwell, MD, and WaterKit on the same set of systems, with explicit error metrics (e.g., hydration site overlap, free energy differences), wall-clock times, and hardware details. Statistical significance or uncertainty estimates should be included.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "estimates their thermodynamic favorability within a rigorous statistical mechanical framework"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims thermodynamic estimates but does not specify what quantity is computed (e.g., excess chemical potential, relative free energy, occupancy-weighted free energy), how it is derived from GCMC sampling, or how convergence is assessed. The phrase "rigorous statistical mechanical framework" is a strong claim that requires demonstration of correct treatment of finite-size effects, long-range interactions, and sampling convergence.
+  - **Why it matters** Thermodynamic quantities from GCMC are sensitive to simulation parameters and convergence criteria. Without details on the formalism and validation, the reader cannot judge whether the reported thermodynamic values are physically meaningful or artifacts of the sampling protocol.
+  - **Resolution test** Describe the exact thermodynamic quantity computed, the statistical mechanical derivation, and the convergence criteria used. Provide validation against known systems or experimental data where available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** "We evaluate MCSwell across several protein systems by comparison with hydration patterns derived from MD simulations and with WaterKit"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states "several protein systems" without specifying how many, which types, or how they were chosen. The comparison to MD is described as a reference, but MD itself has known limitations in sampling buried sites, which is the stated motivation for MCSwell. It is unclear whether the MD comparison is a fair benchmark or a strawman.
+  - **Why it matters** The generalizability of the method depends on the diversity and representativeness of the test set. If the systems are few or biased toward easy cases, the claimed utility is overstated. The choice of MD as a reference standard is also questionable given the stated limitations of MD.
+  - **Resolution test** List the number and identity of test systems, their structural features (e.g., buried vs. exposed sites, protein families), and justify the choice of MD as a reference. Include a discussion of cases where MD and MCSwell disagree and how those are resolved.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method name and description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The name "MCSwell" is introduced without explanation of its origin or meaning. The abstract also does not clarify whether the method is a new GCMC implementation or a wrapper around an existing GCMC engine.
+  - **Required correction** Briefly explain the name and clarify the relationship to existing GCMC implementations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code availability, input files, or benchmark data. For a computational method paper, this is a significant omission for reproducibility.
+  - **Required correction** State where the code and example data will be made available (e.g., GitHub, Zenodo) and under what license.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions WaterKit as a prior MC-based approach but does not situate MCSwell relative to other GCMC water mapping tools (e.g., GCMC/BD, Warnke et al., or other recent GPU-accelerated implementations).
+  - **Required correction** Add a sentence in the introduction or discussion that positions MCSwell within the broader landscape of GCMC-based water mapping methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, methodological detail, and a clearly described validation scope. These are not minor omissions; they are the core of the paper's contribution.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. GCMC for water placement is not new, but GPU acceleration and a user-friendly Python interface could represent a practical advance. The originality claim is not fully assessable from the abstract alone.
+  - Scientific importance: Potentially high for the drug discovery community, but the importance depends on demonstrated accuracy and speed gains, which are not shown.
+  - Interdisciplinary readership: The topic sits at the interface of computational chemistry, structural biology, and drug design. The abstract is written in a way that is accessible to these communities, but the lack of quantitative results limits its impact.
+  - Technical soundness: Not assessable from the abstract. The statistical mechanical framework is claimed but not described.
+  - Readability for nonspecialists: The abstract is clear and well structured. Technical terms are used appropriately, and the motivation is easy to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially useful method, but the central claims of accuracy, speed, and thermodynamic rigor are unsupported by quantitative data. A full manuscript with detailed methods, validation, and benchmarks would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- "MCSwell achieves comparable accuracy while reducing computational cost from hours to minutes" is unsupported; no accuracy or timing data are provided.
+- "estimates their thermodynamic favorability within a rigorous statistical mechanical framework" is unverifiable without methodological details.
+- "robust identification of both exposed and buried hydration sites" is a qualitative claim with no supporting evidence.
+- The comparison to MD and WaterKit is described but no results are shown, making the claim of "comparable accuracy" untestable.
+- The generalizability implied by "several protein systems" cannot be assessed without knowing the number and diversity of systems.

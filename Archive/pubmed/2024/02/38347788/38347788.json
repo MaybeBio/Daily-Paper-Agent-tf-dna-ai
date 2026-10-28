@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "38347788",
+    "doi": "10.2174/0115734099277249240129114123",
+    "title": "WSHNN: A Weakly Supervised Hybrid Neural Network for the Identification of DNA-protein Binding Sites."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Transcription factors are vital biological components that control gene expression, and their primary biological function is to recognize DNA sequences. As related research continues, it was found that the specificity of DNA-protein binding has a significant role in gene expression, regulation, and especially gene therapy. Convolutional Neural Networks (CNNs) have become increasingly popular for predicting DNa-protein-specific binding sites, but their accuracy in prediction needs to be improved. METHODS: We proposed a framework for combining Multi-Instance Learning (MIL) and a hybrid neural network named WSHNN. First, we utilized sliding windows to split the DNA sequences into multiple overlapping instances, each instance containing multiple bags. Then, the instances were encoded using a K-mer encoding. Afterward, the scores of all instances in the same bag were calculated separately by a hybrid neural network. RESULTS: Finally, a fully connected network was utilized as the final prediction for that bag. The framework could achieve the performances of 90.73% in Pre, 82.77% in Recall, 87.17% in Acc, 0.8657 in F1-score, and 0.7462 in MCC, respectively. In addition, we discussed the performance of K-mer encoding. Compared with other art-of-the-state efforts, the model has better performance with sequence information. CONCLUSION: From the experimental results, it can be concluded that Bi-directional Long-Short- Term Memory (Bi-LSTM) can better capture the long-sequence relationships between DNA sequences (the code and data can be visited at https://github.com/baowz12345/Weak_ Super_Network).",
+    "keywords": [
+      "DNA-protein binding",
+      "bioinformatics",
+      "convolutional neural networks.",
+      "multiple-instance learning",
+      "transcription factor binding site prediction",
+      "weakly supervised"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA-Binding Proteins/metabolism",
+      "*Neural Networks, Computer",
+      "Software Validation",
+      "*Supervised Machine Learning",
+      "Protein Binding",
+      "*DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bao, Wenzheng",
+        "Chen, Baitong",
+        "Zhang, Yue"
+      ],
+      "short_names": [
+        "Bao W",
+        "Chen B",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Information Engineering, Xuzhou University of Technology, Xuzhou, China.",
+        "Department of Stomatology, Xuzhou First People's Hospital, Xuzhou, China.",
+        "University of Jinan, School of Information Science, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bao, Wenzheng",
+        "short_name": "Bao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Xuzhou University of Technology, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Baitong",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Xuzhou First People's Hospital, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yue",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Jinan, School of Information Science, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current computer-aided drug design"
+    ],
+    "journal_abbrev": [
+      "Curr Comput Aided Drug Des"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/13 06:44",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "41890631",
+      "40263997"
+    ],
+    "refs": [
+      "37443151",
+      "37250391",
+      "37108441",
+      "36643564",
+      "36589238",
+      "36136096",
+      "35534579",
+      "35303790",
+      "35171173",
+      "34301293",
+      "34272562",
+      "33837387",
+      "33567341",
+      "33522829",
+      "33498086",
+      "33398053",
+      "33385708",
+      "32728248",
+      "30425802",
+      "30304373",
+      "30224646",
+      "30106688",
+      "29993783",
+      "29425488",
+      "28334224",
+      "26213851",
+      "23814189",
+      "15849315",
+      "15637633"
+    ],
+    "similar": [
+      "38347788",
+      "31186519",
+      "30106688",
+      "34073774",
+      "40102719",
+      "33334313",
+      "37328639",
+      "28881969",
+      "36403092",
+      "39214282",
+      "35588568",
+      "39270885",
+      "35652477",
+      "35043942",
+      "39096613",
+      "38150872",
+      "39350338",
+      "29970003",
+      "29722865",
+      "39913995",
+      "35768792",
+      "38643066",
+      "38643551",
+      "39714563",
+      "33845759",
+      "38141798",
+      "35471886",
+      "37845681",
+      "40275343",
+      "31323206",
+      "36789431",
+      "34320631",
+      "33837387",
+      "35693256",
+      "32248132",
+      "34645863",
+      "40386224",
+      "32572768",
+      "33740884",
+      "30323198",
+      "28334224",
+      "36241966",
+      "34033532",
+      "30351403",
+      "37467642",
+      "36049552",
+      "40919912",
+      "40334196",
+      "39951880",
+      "34038367",
+      "36791462",
+      "30071670",
+      "35602136",
+      "39695955",
+      "36719781",
+      "40183298",
+      "34571539",
+      "38178985",
+      "29155928",
+      "36748992",
+      "38701417",
+      "30918943",
+      "40646507",
+      "38871095",
+      "39461102",
+      "38643080",
+      "30040656",
+      "30419785",
+      "31593229",
+      "37387183",
+      "35952419",
+      "41354216",
+      "32657370",
+      "35945138",
+      "39121059",
+      "40598008",
+      "39747934",
+      "36067103",
+      "36088891",
+      "34929739",
+      "31228283",
+      "34252943",
+      "33049578",
+      "29993783",
+      "30020551",
+      "36503892",
+      "31537716",
+      "30649185",
+      "38733561",
+      "37430865",
+      "39709643",
+      "40588070",
+      "33964886",
+      "33930742",
+      "41260195",
+      "35190950",
+      "36988912",
+      "28155662",
+      "39541896",
+      "38082253"
+    ],
+    "review": [
+      "38347788",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/226873/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

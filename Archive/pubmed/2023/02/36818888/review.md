@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Discussion, Conclusion) as provided by the user, without supplementary files or figures.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment with the stated aims of the study, based solely on the supplied text.
+- **Shared manuscript claim summary** The authors propose that abscisic acid (ABA), derived from the fern *Lygodium japonicum*, can enhance drought resistance in *Solanum lycopersicum* (tomato) by binding to a WRKY transcription factor, as predicted through molecular docking and molecular dynamics simulations. The central claim is that ABA acts as a drought enhancer via computational evidence of stable binding to a WRKY protein (PDB ID: 2AYD).
+- **Visible evidence base** Text descriptions of virtual screening, molecular docking, and MD simulation results, including binding affinity (-7.4 kcal/mol), inhibitory concentration (Ki 0.12 µM), RMSD, RMSF, hydrogen bonding, and radius of gyration. References to Figures 1-6 and Table 1 are made, but the actual figures and table are not provided.
+- **Missing materials affecting confidence** Figures 1-6, Table 1, supplementary data, PDB structure details, validation metrics for docking, and any experimental validation. The manuscript lacks raw data, statistical analyses, and methodological details necessary to reproduce the computational work.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a purely computational study that claims to identify abscisic acid as a drought resistance enhancer in tomato via binding to a WRKY transcription factor. The work is conceptually simple but suffers from significant methodological flaws, unclear target selection, and overinterpretation of computational results. The target protein (PDB ID: 2AYD) is described as "β-Secretase" in the methods, which is unrelated to WRKY transcription factors, creating a critical inconsistency. The claims of drought resistance enhancement are not supported by experimental data, and the computational evidence is insufficient to establish biological relevance. The manuscript requires major revisions and additional validation before the case is established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians interested in plant stress responses might find the docking approach of peripheral interest. Plant breeders and molecular biologists studying drought tolerance in tomato could be interested if the findings were experimentally validated, but the current lack of validation limits appeal. The work may attract readers in the field of in silico drug or ligand discovery applied to plant systems, but the relevance to practical drought resistance is not demonstrated.
+- **Major strengths** The manuscript addresses an important agricultural problem (drought resistance in tomato). The use of computational methods, including virtual screening and MD simulations, is a modern approach. The authors attempt to link a plant hormone (ABA) with a transcription factor (WRKY) in a plausible biological context. The writing is generally clear in the introduction and discussion sections, providing background on drought stress and WRKY proteins.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the target protein for docking is a WRKY transcription factor, but the methods state that the 3D structure of "β-Secretase protein" (PDB ID: 2AYD) was used.
+  - **Evidence pointer** Methods section, "Potential target preparation" paragraph
+  - **Concern** The target protein is misidentified. PDB ID 2AYD corresponds to a beta-secretase (BACE1) from *Homo sapiens*, not a WRKY transcription factor from any plant species. This is a fundamental error that invalidates the entire docking and simulation study, as the binding interactions are not with the intended biological target.
+  - **Why it matters** The central claim of the study is that ABA binds to a WRKY protein to enhance drought resistance. If the protein is not WRKY, the results are irrelevant to the stated hypothesis. This error undermines the scientific basis of the work.
+  - **Resolution test** The authors must identify and use the correct 3D structure of a WRKY transcription factor from *Solanum lycopersicum* or a closely related species, and re-run all docking and MD simulations. The revised manuscript must clearly state the correct PDB ID or homology model and provide validation of the target structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that ABA "makes plants drought-resistant" and "enhances drought tolerance" based solely on computational binding affinity.
+  - **Evidence pointer** Results and Discussion sections
+  - **Concern** The study provides no experimental evidence, such as plant growth assays, gene expression analysis, or physiological measurements, to support the claim that ABA enhances drought resistance. The computational binding affinity alone cannot establish a biological effect.
+  - **Why it matters** The title and conclusions overstate the findings. Without experimental validation, the claim of drought resistance enhancement is speculative and not scientifically established. This limits the practical relevance and impact of the work.
+  - **Resolution test** The authors must either add experimental validation (e.g., ABA treatment of tomato plants under drought conditions, measuring survival, stomatal conductance, or ABA-responsive gene expression) or substantially revise the claims to be limited to computational predictions of binding, clearly stating that biological effects are not demonstrated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports a binding affinity of -7.4 kcal/mol and Ki of 0.12 µM for ABA with the target protein.
+  - **Evidence pointer** Results section, "Molecular docking investigation" paragraph
+  - **Concern** The docking methodology is inadequately described. The grid box dimensions (X=12, Y=20, Z=30) are given, but the grid center is not specified. The exhaustiveness is set to 8, which is low for reliable docking. The preparation of the protein and ligand is not detailed, and no validation of the docking protocol (e.g., redocking of co-crystallized ligand with RMSD comparison) is reported. The Ki value is calculated from binding affinity, but the equation used is not provided.
+  - **Why it matters** Poorly described and potentially unreliable docking methods can lead to false positive results. The lack of validation and detail prevents reproducibility and undermines confidence in the reported binding affinity.
+  - **Resolution test** The authors must provide a complete description of the docking protocol, including grid center coordinates, ligand and protein preparation steps, and validation of the docking method (e.g., redocking the co-crystallized ligand and reporting the RMSD). They should also justify the choice of exhaustiveness and provide the equation used to calculate Ki.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that MD simulations show "extremely stable structure" and "significant compactness" of the ABA-2AYD complex.
+  - **Evidence pointer** Results section, "Molecular dynamic simulation study" paragraph
+  - **Concern** The MD simulation results are reported descriptively without quantitative analysis. The RMSD fluctuation of 1.99 Å is mentioned, but no comparison to a control (e.g., apo protein) is provided. The RMSF, hydrogen bonding, and Rg values are described qualitatively, but no statistical analysis or error bars are shown. The claim of "enhancing drought resistance" based on hydrogen bond count is not justified.
+  - **Why it matters** MD simulations require rigorous analysis to demonstrate stability, including convergence checks, replicate runs, and comparison to controls. The current presentation is insufficient to support the claim of a stable complex.
+  - **Resolution test** The authors must provide quantitative MD results, including time-series plots of RMSD, RMSF, Rg, and hydrogen bonds, with error estimates from multiple runs. They should also include a control simulation of the unbound protein and discuss the biological relevance of the observed stability.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript claims that ABA is "derived from *Lygodium japonicum*" and is a "drought enhancer."
+  - **Evidence pointer** Title and Introduction
+  - **Concern** The source of ABA is not clearly established. ABA is a common plant hormone produced by many plants, not specifically derived from *Lygodium japonicum*. The relevance of this fern to the study is unclear, and no data are provided to link ABA from this source to the computational results.
+  - **Why it matters** The title is misleading, suggesting a novel source of ABA, but the study does not address the origin or extraction of ABA from *Lygodium japonicum*. This confuses the reader and detracts from the scientific message.
+  - **Resolution test** The authors must clarify the role of *Lygodium japonicum* in the study, either by providing data on ABA extraction from this fern or by revising the title and text to avoid implying a source that is not investigated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** First paragraph
+  - **Issue** The introduction contains redundant and repetitive statements about drought stress and WRKY proteins, which could be streamlined for clarity.
+  - **Required correction** Condense the introduction to focus on the specific gap in knowledge and the rationale for using computational methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Virtual screening" paragraph
+  - **Evidence pointer** "AutoDock vina 4.2.6" and "AutoDock vina" are used inconsistently; the version number is unclear.
+  - **Issue** The software version is inconsistently reported, and the use of "AutoDock vina 4.2.6" is likely incorrect, as AutoDock Vina versions are typically 1.x.
+  - **Required correction** Correct the software version and ensure consistency throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Molecular docking investigation" paragraph
+  - **Evidence pointer** "residues leucine, valine, proline, alanine, asparagine, serine, cystine, leucine, glycine"
+  - **Issue** The list of residues is incomplete and lacks specific residue numbers, making it impossible to identify the binding pocket.
+  - **Required correction** Provide a complete list of interacting residues with their corresponding residue numbers and chain identifiers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Final paragraph
+  - **Issue** The discussion repeats the results without providing deeper interpretation or context, and the link to drought resistance is not clearly explained.
+  - **Required correction** Rewrite the discussion to interpret the computational findings in the context of known ABA signaling pathways and WRKY functions, and explicitly state the limitations of the study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular dynamic Simulations" paragraph
+  - **Evidence pointer** "Schrodinger, LLC’s Desmond 2020.1"
+  - **Issue** The MD simulation parameters are incomplete, including the temperature coupling method, pressure coupling, and simulation ensemble details.
+  - **Required correction** Provide a full description of the MD simulation parameters, including thermostat, barostat, and integration time step.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (target protein misidentification), R1-M2 (lack of experimental validation), R1-M3 (inadequate docking methodology), R1-M4 (insufficient MD analysis).
+- **Assessment against Nature-style criteria** 
+  - Originality: Low. The use of docking and MD to study ABA-WRKY interactions is not novel, and the approach is standard. No new computational or biological insight is provided.
+  - Scientific importance: Low. The study does not advance understanding of drought resistance mechanisms, and the claims are not supported by experimental data. The misidentification of the target protein further reduces importance.
+  - Interdisciplinary readership: Limited. The work may appeal to computational biologists, but the lack of experimental context and the target protein error make it unlikely to attract plant biologists or agronomists.
+  - Technical soundness: Poor. The target protein is incorrect, docking methods are inadequately described, and MD results are not rigorously analyzed. The study is not reproducible as presented.
+  - Readability for nonspecialists: Moderate. The text is generally readable, but the repetitive introduction and overinterpretation of results may confuse nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has fundamental flaws, including a misidentified target protein and unsupported biological claims. Major revisions and additional experimental or corrected computational work are required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that ABA enhances drought resistance in tomato is unsupported by any experimental data.
+- The claim that the target protein is a WRKY transcription factor is contradicted by the methods, which state the use of β-secretase (PDB ID: 2AYD).
+- The reported binding affinity and Ki are not reliable due to inadequate docking methodology and lack of validation.
+- The MD simulation results are presented without quantitative analysis or controls, making the claim of stability unsupported.
+- The relevance of *Lygodium japonicum* as a source of ABA is not established and appears to be a misleading addition to the title.

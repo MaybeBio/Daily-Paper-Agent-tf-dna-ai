@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34861473",
+  "title": "A computer-aided drug design approach to discover tumour suppressor p53 protein activators for colorectal cancer therapy.",
+  "authors": "Patricio, Rui P S; Videira, Paula A; Pereira, Florbela",
+  "journal": "Bioorganic & medicinal chemistry",
+  "published_date": "2021-12-04",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用QSAR和机器学习预测小分子对p53蛋白的活性并进行虚拟筛选，虽涉及p53蛋白但非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅属边缘相关。",
+  "abstract": "Colorectal cancer (CRC) is the third most detected cancer and the second foremost cause of cancer deaths in the world. Intervention targeting p53 provides potential therapeutic strategies, but thus far no p53-based therapy has been successfully translated into clinical cancer treatment. Here we developed a Quantitative Structure-Activity Relationships (QSAR) classification models using empirical molecular descriptors and fingerprints to predict the activity against the p53 protein, using the potency value with the active or inactive label, were developed. These models were built using in total 10,505 molecules that were extracted from the ChEMBL, ZINC and Reaxys(R) databases, and recent literature. Three machine learning (ML) techniques e.g., Random Forest, Support Vector Machine, Convolutional Neural Network were explored to build models for p53 inhibitor prediction. The performances of the models were successfully evaluated by internal and external validation. Moreover, based on the best in silico p53 model, a virtual screening campaign was carried out using 1443 FDA-approved drugs that were extracted from the ZINC database. A list of virtual screening hits was assented on base of some limits established in this approach, such as: (1) probability of being active against p53; (2) applicability domain; (3) prediction of the affinity between the p53, and ligands, through molecular docking. The most promising according to the limits established above was dihydroergocristine. This compound revealed cytotoxic activity against a p53-expressing CRC cell line with an IC(50) of 56.8 microM. This study demonstrated that the computer-aided drug design approach can be used to identify previously unknown molecules for targeting p53 protein with anti-cancer activity and thus pave the way for the study of a therapeutic solution for CRC.",
+  "abstract_zh": "结直肠癌（CRC）是全球第三大常见癌症，也是癌症死亡的第二大主要原因。针对p53的干预提供了潜在的治疗策略，但迄今为止，尚无基于p53的疗法成功转化为临床癌症治疗。在此，我们利用经验分子描述符和指纹图谱，开发了定量构效关系（QSAR）分类模型，以预测对p53蛋白的活性，并使用活性或非活性标签的效能值进行标记。这些模型基于从ChEMBL、ZINC和Reaxys(R)数据库及近期文献中提取的共10,505个分子构建。我们探索了三种机器学习（ML）技术，即随机森林、支持向量机、卷积神经网络，以构建p53抑制剂预测模型。通过内部和外部验证，模型性能得到了成功评估。此外，基于最佳的计算p53模型，我们使用从ZINC数据库中提取的1443种FDA批准药物进行了虚拟筛选活动。根据本方法中设定的某些限制，如：（1）对p53具有活性的概率；（2）适用域；（3）通过分子对接预测p53与配体之间的亲和力，确定了一系列虚拟筛选命中物。根据上述限制，最有前景的是二氢麦角隐亭。该化合物对表达p53的CRC细胞系显示出细胞毒性活性，其IC(50)为56.8微摩尔。本研究证明，计算机辅助药物设计方法可用于识别先前未知的靶向p53蛋白且具有抗癌活性的分子，从而为研究CRC的治疗方案铺平道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34861473/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34861473/",
+  "paper_page_path": "papers/pubmed/34861473/index.html"
+}

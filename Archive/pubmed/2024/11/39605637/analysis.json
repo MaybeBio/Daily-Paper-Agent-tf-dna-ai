@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39605637",
+  "title": "Unveiling epigenetic regulatory elements associated with breast cancer development.",
+  "authors": "Jardanowska-Kotuniak, Marta; Draminski, Michal; Wlasnowolski, Michal; Lapinski, Marcin; Sengupta, Kaustav; Agarwal, Abhishek; Filip, Adam; Ghosh, Nimisha; Pancaldi, Vera; Grynberg, Marcin; Saha, Indrajit; Plewczynski, Dariusz; Dabrowski, Michal J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究基于TCGA多组学数据筛选乳腺癌相关表观遗传特征，虽涉及转录因子结合位点与3D染色质分析，但核心为组学统计与分类，缺乏TF-DNA互作建模或AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "Breast cancer is the most common cancer in women and the 2nd most common cancer worldwide, yearly impacting over 2 million females and causing 650 thousand deaths. It has been widely studied, but its epigenetic variation is not entirely unveiled. We aimed to identify epigenetic mechanisms impacting the expression of breast cancer related genes to detect new potential biomarkers and therapeutic targets. We considered The Cancer Genome Atlas database with over 800 samples and several omics datasets such as mRNA, miRNA, DNA methylation, which we used to select 2701 features that were statistically significant to differ between cancer and control samples using the Monte Carlo Feature Selection and Interdependency Discovery algorithm, from an initial total of 417,486. Their biological impact on cancerogenesis was confirmed using: statistical analysis, natural language processing, linear and machine learning models as well as: transcription factors identification, drugs and 3D chromatin structure analyses. Classification of cancer vs control samples on the selected features returned high classification weighted Accuracy from 0.91 to 0.98 depending on feature-type: mRNA, miRNA, DNA methylation, and classification algorithm. In general, cancer samples showed lower expression of differentially expressed genes and increased beta-values of differentially methylated sites. We identified mRNAs whose expression is well explained by miRNA expression and differentially methylated sites beta-values. We recognized differentially methylated sites possibly affecting NRF1 and MXI1 transcription factors binding, causing a disturbance in NKAPL and PITX1 expression, respectively. Our 3D models showed more loosely packed chromatin in cancer. This study successfully points out numerous possible regulatory dependencies.",
+  "abstract_zh": "乳腺癌是女性中最常见的癌症，也是全球第二常见的癌症，每年影响超过200万名女性，并导致65万人死亡。该疾病已被广泛研究，但其表观遗传变异尚未完全揭示。我们旨在识别影响乳腺癌相关基因表达的表观遗传机制，以发现新的潜在生物标志物和治疗靶点。我们考虑了癌症基因组图谱（The Cancer Genome Atlas）数据库，包含超过800个样本及多种组学数据集，如mRNA、miRNA、DNA甲基化，并利用这些数据通过蒙特卡洛特征选择与相互依赖发现算法（Monte Carlo Feature Selection and Interdependency Discovery algorithm）从初始总计417,486个特征中筛选出2701个在癌症与对照样本间具有统计学显著差异的特征。这些特征的生物学影响通过统计分析、自然语言处理、线性和机器学习模型以及转录因子识别、药物和3D染色质结构分析得到确认。基于所选特征对癌症与对照样本进行分类，根据特征类型（mRNA、miRNA、DNA甲基化）和分类算法的不同，加权分类准确率在0.91至0.98之间。总体而言，癌症样本显示出差异表达基因的表达水平较低，以及差异甲基化位点的β值增加。我们识别出表达水平可由miRNA表达和差异甲基化位点β值良好解释的mRNA。我们发现了可能影响NRF1和MXI1转录因子结合的差异甲基化位点，分别导致NKAPL和PITX1表达紊乱。我们的3D模型显示癌症中染色质包装更松散。本研究成功指出了众多可能的调控依赖性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39605637/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39605637/",
+  "paper_page_path": "papers/pubmed/39605637/index.html"
+}

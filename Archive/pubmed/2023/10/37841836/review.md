@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, Research Square, 2023)
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors present MrMOD, a training data-free algorithm for predicting cis-regulatory modules (CRMs) in mammalian genomes, and claim comprehensive, high-resolution, genome-wide CRM annotation for mouse and human, validated by multiple orthogonal datasets and an in ovo transgenic reporter assay.
+- **Visible evidence base** Abstract, Background, Results, Discussion, Methods, Data availability, Acknowledgments; figures and tables referenced but not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, code, and browser session data; experimental details for the in ovo assay are incomplete; no statistical details for enrichment analyses
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in regulatory genomics by proposing a training data-free CRM prediction method with fixed genomic coordinates, analogous to gene models. The concept is timely and potentially useful. However, the evidence presented is insufficient to fully evaluate the method's novelty, performance relative to existing tools, and the biological validity of the predictions. Several claims are overreaching given the data shown, and key methodological details are missing. The manuscript requires substantial revision and additional validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, epigenomics, and gene regulation would be interested in a comprehensive CRM annotation resource. Those studying transcriptional control in development, disease, and evolution, as well as computational biologists developing regulatory element prediction tools, would find the resource potentially valuable. The proposed fixed CRM model concept could appeal to those analyzing epigenomic data across conditions.
+- **Major strengths** The manuscript addresses a real need for a comprehensive, position-fixed CRM annotation analogous to gene models. The use of multiple orthogonal datasets for validation is commendable. The demonstration that predicted CRMs can guide experimental design to delineate sub-enhancers is a valuable proof-of-concept. The unsupervised clustering approach to functionally annotate CRMs is a thoughtful addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MrMOD provides "a comprehensive set of high-resolution CRMs" and "accurate CRM prediction" in mammalian genomes.
+  - **Evidence pointer** Results sections "Genome-wide TFBS prediction and validation" and "Whole-genome-wide CRM prediction"; Figures 1-4 (not provided)
+  - **Concern** The core validation relies on overlap between predicted CRMs and external datasets. However, the choice of overlap thresholds (1bp and 50%) is permissive, and the statistical framework for assessing significance beyond odds ratios is not described. The manuscript does not compare MrMOD's performance against existing CRM prediction tools, which is essential to establish its utility. The claim of "training data-free" is presented as an advantage, but the method still relies on conservation (PhyloNet) and motif information, which are derived from training data. The biological significance of the predicted CRMs, beyond overlap with putative elements, is not demonstrated.
+  - **Why it matters** Without a rigorous comparison to existing methods and a clear demonstration of improved accuracy or unique capabilities, the scientific contribution of MrMOD is not established. The permissive overlap criteria may inflate performance metrics.
+  - **Resolution test** Provide a benchmark comparison against at least two existing CRM prediction methods using the same evaluation datasets and metrics. Include precision-recall curves and discuss the trade-offs. Justify the overlap thresholds and provide confidence intervals for all reported odds ratios. Clarify the role of conservation and motif information in the "training data-free" claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Claim substantiation
+  - **Claim pointer** The claim that the analysis of chromosome 17 CRMs using unsupervised machine learning "identified groups of CRMs with multiple lines of evidence supporting their functionality, linking CRMs with upstream binding transcription factors and downstream target genes."
+  - **Evidence pointer** Results section "Unsupervised machine learning for CRM functional annotation"; Figures 5-6 (not provided)
+  - **Concern** The functional annotation and linking of CRMs to target genes is presented as a key result, but the methodology is only briefly described. The criteria for "multiple lines of evidence" are not defined. The pathway and disease enrichment analyses are described, but the statistical thresholds and the background model are only partially specified. The biological validation is limited to one example (VISTA enhancer hs52), and the in ovo assay results are not shown in detail.
+  - **Why it matters** The claim of linking CRMs to function and disease is a major part of the manuscript's significance. Without a clear and rigorous demonstration of this link, the claim is not supported.
+  - **Resolution test** Provide a detailed description of the clustering methodology, including feature selection, normalization, and cluster number determination. Define the criteria for "multiple lines of evidence." Show the full results of the pathway and disease enrichment analyses, including effect sizes and confidence intervals. Present the in ovo assay results with appropriate controls and quantification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The overall claim of providing a "comprehensive regulatory map" and a "base pair resolution annotation of the functional regulatory elements and non-functional regions in the mammalian genomes."
+  - **Evidence pointer** Methods sections "Genome sequence and orthologous genes", "PWM prediction using PhyloNet", "Whole-genome-wide CRM identification"; Data availability
+  - **Concern** The methods for PWM prediction and CRM identification are described at a high level, but critical parameters are missing. The exact command-line options for PhyloNet are given, but the interpretation of its output and the consolidation process are not fully detailed. The CRM extension algorithm is described, but the rationale for the 30bp threshold is not provided. The code and data are said to be available via a browser session, but no direct link to a code repository or downloadable data files is given. The manuscript does not state the version of the genome assemblies used for the final CRM coordinates.
+  - **Why it matters** Reproducibility is a cornerstone of scientific validity. Without complete methodological details and accessible code/data, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a step-by-step protocol for MrMOD, including all parameters and thresholds. Make the code available in a public repository (e.g., GitHub) with a DOI. Provide the full list of predicted CRMs as a downloadable BED file. Specify the exact genome assembly versions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "We computationally validated MrMOD predictions used a compendium of 21 orthogonal experimental data sets" which is grammatically incorrect.
+  - **Required correction** Rewrite to "We computationally validated MrMOD predictions using a compendium of 21 orthogonal experimental data sets."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Genome-wide TFBS prediction and validation"
+  - **Evidence pointer** Results, first paragraph
+  - **Issue** The number of predicted CRMs for mouse and human is not stated in the text, only the genome coverage percentages.
+  - **Required correction** State the total number of predicted CRMs for each genome.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1
+  - **Issue** The sentence "It has been pointed out that the majority of putative elements identified by empirical methods are merely predictive" is vague; please cite specific references.
+  - **Required correction** Add appropriate citations to support this statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, "Unsupervised machine learning"
+  - **Evidence pointer** Methods section
+  - **Issue** The use of Seurat, a single-cell tool, for clustering genomic regions is unusual and not justified.
+  - **Required correction** Explain why Seurat was chosen over other clustering methods and how the data were formatted for input.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, "Statistical evaluation"
+  - **Evidence pointer** Results section, Tables 2-3
+  - **Issue** The odds ratios are reported, but the confidence intervals are not shown in the text.
+  - **Required correction** Include confidence intervals for all reported odds ratios.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "In ovo assay"
+  - **Evidence pointer** Methods, "Animals and procedures"
+  - **Issue** The number of biological replicates for the in ovo assay is not stated.
+  - **Required correction** State the number of embryos analyzed per construct.
+
+## Risk / unsupported claims
+- The claim of a "comprehensive regulatory map" is not supported, as the method likely misses condition-specific or non-conserved elements, and the validation is based on a limited set of datasets.
+- The claim that MrMOD is "training data-free" is misleading, as it relies on conservation and motif databases that are derived from training data.
+- The biological significance of the predicted CRMs is not established beyond overlap with putative elements; no direct evidence of regulatory function (e.g., CRISPR perturbation) is provided.
+- The generalizability of the method to other mammalian species is claimed but not tested.
+- The claim that the predicted CRMs can serve as a "reference" for epigenomic data analysis is plausible but not demonstrated with an example application.
+- The performance of MrMOD relative to existing tools is not assessed, making its utility unclear.

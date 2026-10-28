@@ -1,0 +1,685 @@
+{
+  "identity": {
+    "pmid": "36399356",
+    "doi": "10.1158/2159-8290.CD-22-0659",
+    "title": "Detecting Liver Cancer Using Cell-Free DNA Fragmentomes."
+  },
+  "content": {
+    "abstract": "Liver cancer is a major cause of cancer mortality worldwide. Screening individuals at high risk, including those with cirrhosis and viral hepatitis, provides an avenue for improved survival, but current screening methods are inadequate. In this study, we used whole-genome cell-free DNA (cfDNA) fragmentome analyses to evaluate 724 individuals from the United States, the European Union, or Hong Kong with hepatocellular carcinoma (HCC) or who were at average or high-risk for HCC. Using a machine learning model that incorporated multifeature fragmentome data, the sensitivity for detecting cancer was 88% in an average-risk population at 98% specificity and 85% among high-risk individuals at 80% specificity. We validated these results in an independent population. cfDNA fragmentation changes reflected genomic and chromatin changes in liver cancer, including from transcription factor binding sites. These findings provide a biological basis for changes in cfDNA fragmentation in patients with liver cancer and provide an accessible approach for noninvasive cancer detection. SIGNIFICANCE: There is a great need for accessible and sensitive screening approaches for HCC worldwide. We have developed an approach for examining genome-wide cfDNA fragmentation features to provide a high-performing and cost-effective approach for liver cancer detection. See related commentary Rolfo and Russo, p. 532. This article is highlighted in the In This Issue feature, p. 517.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Liver Neoplasms/diagnosis/genetics/pathology",
+      "*Carcinoma, Hepatocellular/diagnosis/genetics/pathology",
+      "*Cell-Free Nucleic Acids/genetics",
+      "Liver Cirrhosis/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Foda, Zachariah H",
+        "Annapragada, Akshaya V",
+        "Boyapati, Kavya",
+        "Bruhm, Daniel C",
+        "Vulpescu, Nicholas A",
+        "Medina, Jamie E",
+        "Mathios, Dimitrios",
+        "Cristiano, Stephen",
+        "Niknafs, Noushin",
+        "Luu, Harry T",
+        "Goggins, Michael G",
+        "Anders, Robert A",
+        "Sun, Jing",
+        "Meta, Shruti H",
+        "Thomas, David L",
+        "Kirk, Gregory D",
+        "Adleff, Vilmos",
+        "Phallen, Jillian",
+        "Scharpf, Robert B",
+        "Kim, Amy K",
+        "Velculescu, Victor E"
+      ],
+      "short_names": [
+        "Foda ZH",
+        "Annapragada AV",
+        "Boyapati K",
+        "Bruhm DC",
+        "Vulpescu NA",
+        "Medina JE",
+        "Mathios D",
+        "Cristiano S",
+        "Niknafs N",
+        "Luu HT",
+        "Goggins MG",
+        "Anders RA",
+        "Sun J",
+        "Meta SH",
+        "Thomas DL",
+        "Kirk GD",
+        "Adleff V",
+        "Phallen J",
+        "Scharpf RB",
+        "Kim AK",
+        "Velculescu VE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3591-8482",
+        "ORCID: 0000-0002-9097-6511",
+        "ORCID: 0000-0002-1731-7480",
+        "ORCID: 0000-0002-8436-501X",
+        "ORCID: 0000-0003-1310-0257",
+        "ORCID: 0000-0002-6124-0548",
+        "ORCID: 0000-0002-0792-6880",
+        "ORCID: 0000-0002-7375-2364",
+        "ORCID: 0000-0002-4852-3674",
+        "ORCID: 0000-0001-6130-9915",
+        "ORCID: 0000-0002-4286-2296",
+        "ORCID: 0000-0002-2363-9072",
+        "ORCID: 0000-0003-3741-0962",
+        "ORCID: 0000-0002-2523-0959",
+        "ORCID: 0000-0002-0749-925X",
+        "ORCID: 0000-0002-7829-1405",
+        "ORCID: 0000-0002-5001-1766",
+        "ORCID: 0000-0002-5492-9013",
+        "ORCID: 0000-0003-4702-2656",
+        "ORCID: 0000-0001-6121-9581",
+        "ORCID: 0000-0003-1195-438X"
+      ],
+      "affiliations": [
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland.",
+        "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Foda, Zachariah H",
+        "short_name": "Foda ZH",
+        "identifiers": [
+          "0000-0002-3591-8482"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Annapragada, Akshaya V",
+        "short_name": "Annapragada AV",
+        "identifiers": [
+          "0000-0002-9097-6511"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Boyapati, Kavya",
+        "short_name": "Boyapati K",
+        "identifiers": [
+          "0000-0002-1731-7480"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Bruhm, Daniel C",
+        "short_name": "Bruhm DC",
+        "identifiers": [
+          "0000-0002-8436-501X"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Vulpescu, Nicholas A",
+        "short_name": "Vulpescu NA",
+        "identifiers": [
+          "0000-0003-1310-0257"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Medina, Jamie E",
+        "short_name": "Medina JE",
+        "identifiers": [
+          "0000-0002-6124-0548"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Mathios, Dimitrios",
+        "short_name": "Mathios D",
+        "identifiers": [
+          "0000-0002-0792-6880"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Cristiano, Stephen",
+        "short_name": "Cristiano S",
+        "identifiers": [
+          "0000-0002-7375-2364"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Niknafs, Noushin",
+        "short_name": "Niknafs N",
+        "identifiers": [
+          "0000-0002-4852-3674"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Luu, Harry T",
+        "short_name": "Luu HT",
+        "identifiers": [
+          "0000-0001-6130-9915"
+        ],
+        "affiliations": [
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Goggins, Michael G",
+        "short_name": "Goggins MG",
+        "identifiers": [
+          "0000-0002-4286-2296"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Anders, Robert A",
+        "short_name": "Anders RA",
+        "identifiers": [
+          "0000-0002-2363-9072"
+        ],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Sun, Jing",
+        "short_name": "Sun J",
+        "identifiers": [
+          "0000-0003-3741-0962"
+        ],
+        "affiliations": [
+          "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Meta, Shruti H",
+        "short_name": "Meta SH",
+        "identifiers": [
+          "0000-0002-2523-0959"
+        ],
+        "affiliations": [
+          "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Thomas, David L",
+        "short_name": "Thomas DL",
+        "identifiers": [
+          "0000-0002-0749-925X"
+        ],
+        "affiliations": [
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Kirk, Gregory D",
+        "short_name": "Kirk GD",
+        "identifiers": [
+          "0000-0002-7829-1405"
+        ],
+        "affiliations": [
+          "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Adleff, Vilmos",
+        "short_name": "Adleff V",
+        "identifiers": [
+          "0000-0002-5001-1766"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Phallen, Jillian",
+        "short_name": "Phallen J",
+        "identifiers": [
+          "0000-0002-5492-9013"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Scharpf, Robert B",
+        "short_name": "Scharpf RB",
+        "identifiers": [
+          "0000-0003-4702-2656"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Kim, Amy K",
+        "short_name": "Kim AK",
+        "identifiers": [
+          "0000-0001-6121-9581"
+        ],
+        "affiliations": [
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Velculescu, Victor E",
+        "short_name": "Velculescu VE",
+        "identifiers": [
+          "0000-0003-1195-438X"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland.",
+          "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer discovery"
+    ],
+    "journal_abbrev": [
+      "Cancer Discov"
+    ],
+    "pub_date": "2023 Mar 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/19 06:00",
+    "fetched_at": "2026-09-28 16:21:20"
+  },
+  "links": {
+    "cites": [
+      "42547899",
+      "42529886",
+      "42382778",
+      "42353299",
+      "42167247",
+      "42002034",
+      "42001480",
+      "41971416",
+      "41845059",
+      "41779869",
+      "41772265",
+      "41703285",
+      "41668289",
+      "41640798",
+      "41581950",
+      "41372534",
+      "41303467",
+      "41301037",
+      "41279066",
+      "41249499",
+      "41228374",
+      "41063741",
+      "41062719",
+      "41057751",
+      "40977920",
+      "40919824",
+      "40887474",
+      "40528595",
+      "40499050",
+      "40426850",
+      "40397745",
+      "40340952",
+      "40299319",
+      "40225244",
+      "40149374",
+      "40122951",
+      "40055844",
+      "40055581",
+      "40038442",
+      "40034794",
+      "40027946",
+      "39980834",
+      "39944482",
+      "39915447",
+      "39867387",
+      "39843210",
+      "39833354",
+      "39776291",
+      "39722612",
+      "39704423",
+      "39604328",
+      "39493259",
+      "39466000",
+      "39433569",
+      "39406379",
+      "39380213",
+      "39354069",
+      "39345137",
+      "39222060",
+      "39178576",
+      "39107309",
+      "39093127",
+      "39068267",
+      "39030196",
+      "38946864",
+      "38890792",
+      "38866008",
+      "38854007",
+      "38774408",
+      "38772709",
+      "38742973",
+      "38707238",
+      "38680658",
+      "38673779",
+      "38600351",
+      "38522508",
+      "38478628",
+      "38466935",
+      "38293154",
+      "38161500",
+      "38107663",
+      "38104635",
+      "37907748",
+      "37809326",
+      "37798661",
+      "37795908",
+      "37696619",
+      "37628834",
+      "37553805",
+      "37349125",
+      "37240238",
+      "37212770",
+      "37087533",
+      "36930945",
+      "36832164"
+    ],
+    "refs": [
+      "36008383",
+      "34954829",
+      "34674650",
+      "34490703",
+      "34417454",
+      "34391922",
+      "34176681",
+      "33860124",
+      "33754036",
+      "33613720",
+      "33589745",
+      "33538338",
+      "33433946",
+      "32889146",
+      "31966074",
+      "31954490",
+      "31665499",
+      "31604930",
+      "31485568",
+      "31358576",
+      "31334336",
+      "31142840",
+      "31034924",
+      "30986389",
+      "30858324",
+      "30423086",
+      "30373822",
+      "30266282",
+      "30168613",
+      "29425931",
+      "29109393",
+      "29035356",
+      "28834146",
+      "28130846",
+      "28104840",
+      "27784971",
+      "27748915",
+      "26771485",
+      "26470729",
+      "26316348",
+      "26138043",
+      "25697820",
+      "25646427",
+      "25456131",
+      "25116425",
+      "24691105",
+      "23703832",
+      "22750103",
+      "22655206",
+      "22388286",
+      "22215266",
+      "21414208",
+      "21400513",
+      "20824704",
+      "20110278",
+      "19252489",
+      "15042359",
+      "12834318",
+      "11836196",
+      "10949927",
+      "9305661"
+    ],
+    "similar": [
+      "36399356",
+      "41779869",
+      "35027051",
+      "31695765",
+      "32741373",
+      "36417488",
+      "29229500",
+      "34299031",
+      "40500793",
+      "31358576",
+      "36220554",
+      "40279344",
+      "40299319",
+      "37936230",
+      "37099161",
+      "37302583",
+      "41129333",
+      "31560893",
+      "31234922",
+      "31004682",
+      "37762533",
+      "38184937",
+      "40757819",
+      "37803338",
+      "41668289",
+      "34133846",
+      "34490703",
+      "34954829",
+      "33508734",
+      "39406379",
+      "40038442",
+      "33589745",
+      "35798798",
+      "35403666",
+      "35587130",
+      "33947693",
+      "36600275",
+      "30858324",
+      "41703285",
+      "32998139",
+      "30935424",
+      "34791072",
+      "32100879",
+      "37990622",
+      "40472984",
+      "28920172",
+      "35467432",
+      "31641155",
+      "36803362",
+      "39382996",
+      "38852920",
+      "37769223",
+      "41653917",
+      "29749129",
+      "40375278",
+      "38163441",
+      "32512514",
+      "36697374",
+      "30983815",
+      "36786635",
+      "41163059",
+      "28333958",
+      "30056068",
+      "37315449",
+      "41406506",
+      "38829053",
+      "30889843",
+      "15703821",
+      "30126319",
+      "35120838",
+      "26778414",
+      "38630548",
+      "28592717",
+      "27248174",
+      "27678364",
+      "34028025",
+      "36464701",
+      "24377595",
+      "28096363",
+      "29789629",
+      "21452143",
+      "38976830",
+      "33765926",
+      "36057362",
+      "35263170",
+      "39909829",
+      "34939323",
+      "25996938",
+      "39073362",
+      "39206580",
+      "35760369",
+      "31639042",
+      "30439517",
+      "38154055",
+      "34440448",
+      "24008390",
+      "31173963",
+      "41153430",
+      "37369179",
+      "41941615"
+    ],
+    "review": [
+      "36399356",
+      "37099161",
+      "31004682",
+      "37762533",
+      "40038442",
+      "37990622",
+      "36697374",
+      "30983815",
+      "30056068",
+      "37315449",
+      "30889843"
+    ],
+    "pmc": [
+      "9975663"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D36399356",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36399356/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36399356",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerdiscovery/article-lookup/doi/10.1158/2159-8290.CD-22-0659",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed framework, its validation, and the claims made, based solely on the supplied text.
+- **Shared manuscript claim summary** The authors propose CapsEnhancer, a two-stage deep learning framework using chaos game representation (CGR) to encode DNA sequences as images and a capsule network to classify enhancers vs. non-enhancers (stage 1) and strong vs. weak enhancers (stage 2). They report state-of-the-art accuracy (94.5% and 95% for stages 1 and 2, respectively) and claim this is the first application of computer vision methods to enhancer identification.
+- **Visible evidence base** Benchmark dataset description (from Liu et al.), model architecture description, performance comparison tables (Tables 3 and 4), PCA visualizations (Figure 5), ablation study (Table 5, Figure 6), feature clustering analysis (Figure 7), and supplementary figures referenced (Figures S1–S3, Table S1, Algorithm S1).
+- **Missing materials affecting confidence** Dataset accession details, hyperparameter grid specifics (Table S1 not provided), algorithm pseudocode (Algorithm S1 not provided), case study details (referenced but not included), code availability statement, and full details of baseline method implementations for fair comparison.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound and clearly written framework that combines CGR encoding with capsule networks for enhancer prediction. The performance improvements over existing methods are substantial and the ablation study supports the contribution of the capsule network component. However, several methodological details and validation aspects require clarification and strengthening before the claims can be fully accepted. The novelty, while present in the specific combination, is incremental given prior work on CGR-based encoding and capsule networks in bioinformatics.
+- **Who would be interested in the results, and why** Researchers in computational genomics and regulatory genomics, particularly those working on enhancer prediction and functional element annotation. The work may also interest method developers applying computer vision techniques to biological sequence analysis, and those exploring capsule networks beyond standard CNN architectures.
+- **Major strengths** Clear problem framing and motivation. Effective use of CGR to convert sequences to images, enabling computer vision approaches. Strong reported performance gains over existing methods. Ablation study and PCA visualizations provide useful insight into the model's behavior. Well-structured two-stage framework addressing both enhancer identification and strength prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CapsEnhancer achieves state-of-the-art performance with accuracy improvements of 8% and 3.5% over previous best methods in stages 1 and 2, respectively.
+  - **Evidence pointer** Tables 3 and 4, Results section
+  - **Concern** The comparison with existing methods may not be entirely fair or complete. The manuscript does not specify whether all baseline methods were retrained and evaluated under identical conditions (e.g., same data splits, same preprocessing, same evaluation protocol). Differences in implementation details, hyperparameter tuning, or data handling could bias the comparison. Additionally, the manuscript does not report variance or confidence intervals for the performance metrics, making it difficult to assess the statistical significance of the reported improvements.
+  - **Why it matters** Without a rigorous and transparent comparison protocol, the claimed state-of-the-art performance cannot be reliably established. Statistical significance testing is essential to confirm that the observed improvements are not due to chance or favorable evaluation conditions.
+  - **Resolution test** Provide details on the evaluation protocol, including whether baselines were retrained, the data splits used, and any hyperparameter tuning performed for baselines. Report performance metrics with standard deviations or confidence intervals across multiple runs or cross-validation folds. Perform and report statistical significance tests (e.g., McNemar's test or paired bootstrap) comparing CapsEnhancer against the best-performing baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework's implementation and the specific hyperparameter settings used to achieve the reported results.
+  - **Evidence pointer** Methods section, Table S1 (referenced but not provided)
+  - **Concern** The manuscript lacks sufficient detail for reproducibility. The hyperparameter search space is only referenced as Table S1, which is not provided in the supplied material. The exact architecture configuration (e.g., number of layers, filter sizes, capsule dimensions, routing iterations) is not fully specified. The training procedure mentions 100 epochs and Adam optimizer with learning rate 0.1, but details on batch size, learning rate scheduling, and early stopping criteria are absent. No code availability statement is provided.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete methodological details and access to code or data, other researchers cannot independently verify or build upon the reported results.
+  - **Resolution test** Provide the full hyperparameter grid and the best-performing configuration. Specify all architectural details and training hyperparameters. Include a code availability statement with a repository link or state that code will be made available upon request. Consider depositing the dataset and trained models in a public repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that this work represents the "pioneering application of computer vision methods to enhancer identification tasks."
+  - **Evidence pointer** Introduction, Abstract
+  - **Concern** The novelty claim is overstated. While the specific combination of CGR and capsule networks may be new for enhancer prediction, CGR-based encoding has been used in other bioinformatics tasks, and capsule networks have been applied to various biological sequence problems. The manuscript does not adequately discuss these prior works or clearly delineate the specific novel contribution beyond the combination. The claim of "pioneering" is difficult to verify without a more comprehensive literature review.
+  - **Why it matters** Accurate positioning of the work within the existing literature is essential for assessing its scientific contribution. Overstated novelty claims can mislead readers and detract from the actual technical merits of the work.
+  - **Resolution test** Revise the novelty claim to be more precise, acknowledging prior uses of CGR and capsule networks in bioinformatics while highlighting the specific novel aspects of this work (e.g., the two-stage framework, the specific architecture design, or the application domain). Provide a more thorough literature review in the introduction to contextualize the contribution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The robustness of the model to sequencing errors and its ability to handle sequences of non-uniform lengths, as mentioned in the case study.
+  - **Evidence pointer** Results section, "case study section in Supporting Information" (referenced but not provided)
+  - **Concern** The case study supporting the model's robustness to sequencing errors and variable-length sequences is only referenced and not included in the supplied material. These are important practical considerations for real-world applications, and the evidence for these claims cannot be evaluated.
+  - **Why it matters** The ability to handle real-world data imperfections is a key practical advantage claimed by the authors. Without the actual case study results, this claim remains unsubstantiated.
+  - **Resolution test** Include the full case study in the main text or supplementary material. Provide quantitative results demonstrating the model's performance under simulated sequencing errors and on sequences of varying lengths, with appropriate comparisons to baseline methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3A,B
+  - **Issue** The description of the CGR encoding process in the text is somewhat abstract. The figure would benefit from a more detailed caption explaining the step-by-step process, particularly for readers unfamiliar with CGR.
+  - **Required correction** Expand the figure caption to include a clear step-by-step explanation of how a DNA sequence is converted to a CGR image, including the coordinate calculation and the interpretation of the resulting plot.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Equation 7
+  - **Evidence pointer** Methods section, Equation 7
+  - **Issue** The formula for computing the predicted probabilities from the capsule vector lengths is not fully explained. It is unclear how the lengths are normalized or converted to probabilities.
+  - **Required correction** Clarify the formula, specifying whether a softmax or other normalization is applied to the vector lengths to obtain probabilities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The summary of related work in Table 1 is not discussed in detail in the text. A brief discussion of the key differences and similarities between these methods and CapsEnhancer would strengthen the positioning of the work.
+  - **Required correction** Add a paragraph in the introduction or results section discussing the methods listed in Table 1, highlighting their limitations and how CapsEnhancer addresses them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Benchmark Data Set section
+  - **Issue** The description of the dataset mentions that it was constructed by Liu et al., but the specific genomic coordinates, assembly version, and filtering criteria are not provided. This limits the ability to assess potential biases or reproduce the dataset.
+  - **Required correction** Provide a reference to the original dataset publication and include details on the genome assembly, the method for defining enhancer boundaries, and any additional filtering steps applied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (comparison fairness and statistical significance), R1-M2 (reproducibility details), R1-M4 (case study evidence for robustness claims).
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of CGR and capsule networks is novel for this specific task, but the individual components are established. Scientific importance: Moderate. Enhancer prediction is an important problem, and improved accuracy is valuable, but the conceptual advance is incremental. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and bioinformaticians. Technical soundness: Needs improvement. The evaluation protocol and reproducibility details require strengthening. Readability for nonspecialists: Good. The manuscript is clearly written and the concepts are explained accessibly, though some familiarity with deep learning is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the reported results are impressive, but the evaluation rigor and reproducibility must be improved to fully establish the claims.
+
+## Risk / unsupported claims
+- The claim of "pioneering application of computer vision methods to enhancer identification" is not fully supported by the provided literature review.
+- The robustness to sequencing errors and variable-length sequences is claimed but the supporting case study is not provided.
+- The statistical significance of the performance improvements over baseline methods is not established.
+- The generalizability of the method beyond the specific benchmark dataset is not demonstrated.

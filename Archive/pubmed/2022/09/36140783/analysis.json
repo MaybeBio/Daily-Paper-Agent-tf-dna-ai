@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36140783",
+  "title": "Multinomial Convolutions for Joint Modeling of Regulatory Motifs and Sequence Activity Readouts.",
+  "authors": "Park, Minjun; Singh, Salvi; Khan, Samin Rahman; Abrar, Mohammed Abid; Grisanti, Francisco; Rahman, M Sohel; Samee, Md Abul Hassan",
+  "journal": "Genes",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于多项分布卷积的CNN模型MuSeAM，用于联合建模调控基序与序列活性，可复现已知转录因子基序，属于AI方法在TF-DNA结合位点预测与基序发现中的应用，但未深入三维互作机制建模。",
+  "abstract": "A common goal in the convolutional neural network (CNN) modeling of genomic data is to discover specific sequence motifs. Post hoc analysis methods aid in this task but are dependent on parameters whose optimal values are unclear and applying the discovered motifs to new genomic data is not straightforward. As an alternative, we propose to learn convolutions as multinomial distributions, thus streamlining interpretable motif discovery with CNN model fitting. We developed MuSeAM (Multinomial CNNs for Sequence Activity Modeling) by implementing multinomial convolutions in a CNN model. Through benchmarking, we demonstrate the efficacy of MuSeAM in accurately modeling genomic data while fitting multinomial convolutions that recapitulate known transcription factor motifs.",
+  "abstract_zh": "在卷积神经网络（CNN）建模基因组数据中，一个常见目标是发现特定的序列基序。事后分析方法有助于此任务，但依赖于参数，其最优值尚不明确，且将发现的基序应用于新的基因组数据并不直接。作为替代方案，我们提出将卷积学习为多项分布，从而简化可解释的基序发现与CNN模型拟合。我们通过在多CNN模型中实现多项卷积，开发了MuSeAM（用于序列活性建模的多项卷积神经网络）。通过基准测试，我们证明了MuSeAM在准确建模基因组数据的同时，拟合能重现已知转录因子基序的多项卷积的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36140783/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36140783/",
+  "paper_page_path": "papers/pubmed/36140783/index.html"
+}

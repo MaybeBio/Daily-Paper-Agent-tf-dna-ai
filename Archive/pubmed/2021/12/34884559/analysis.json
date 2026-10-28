@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34884559",
+  "title": "Sparsely Connected Autoencoders: A Multi-Purpose Tool for Single Cell omics Analysis.",
+  "authors": "Alessandri, Luca; Ratto, Maria Luisa; Contaldo, Sandro Gepiro; Beccuti, Marco; Cordero, Francesca; Arigoni, Maddalena; Calogero, Raffaele A",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-12-11",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出稀疏连接自编码器用于单细胞组学数据分析，虽涉及转录因子表达聚类，但未聚焦蛋白质-DNA互作或结合机制建模，方法为通用深度学习工具，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Biological processes are based on complex networks of cells and molecules. Single cell multi-omics is a new tool aiming to provide new incites in the complex network of events controlling the functionality of the cell. METHODS: Since single cell technologies provide many sample measurements, they are the ideal environment for the application of Deep Learning and Machine Learning approaches. An autoencoder is composed of an encoder and a decoder sub-model. An autoencoder is a very powerful tool in data compression and noise removal. However, the decoder model remains a black box from which is impossible to depict the contribution of the single input elements. We have recently developed a new class of autoencoders, called Sparsely Connected Autoencoders (SCA), which have the advantage of providing a controlled association among the input layer and the decoder module. This new architecture has the benefit that the decoder model is not a black box anymore and can be used to depict new biologically interesting features from single cell data. RESULTS: Here, we show that SCA hidden layer can grab new information usually hidden in single cell data, like providing clustering on meta-features difficult, i.e. transcription factors expression, or not technically not possible, i.e. miRNA expression, to depict in single cell RNAseq data. Furthermore, SCA representation of cell clusters has the advantage of simulating a conventional bulk RNAseq, which is a data transformation allowing the identification of similarity among independent experiments. CONCLUSIONS: In our opinion, SCA represents the bioinformatics version of a universal \"Swiss-knife\" for the extraction of hidden knowledgeable features from single cell omics data.",
+  "abstract_zh": "背景：生物过程基于细胞和分子的复杂网络。单细胞多组学是一种新工具，旨在为控制细胞功能的复杂事件网络提供新见解。方法：由于单细胞技术提供了大量样本测量，它们是应用深度学习 (Deep Learning) 和机器学习 (Machine Learning) 方法的理想环境。自编码器 (autoencoder) 由编码器和解码器子模型组成。自编码器在数据压缩和噪声去除方面是一种非常强大的工具。然而，解码器模型仍然是一个黑箱，无法从中描绘单个输入元素的贡献。我们最近开发了一类新型自编码器，称为稀疏连接自编码器 (Sparsely Connected Autoencoders, SCA)，其优势在于提供了输入层与解码器模块之间的受控关联。这种新架构的优点是解码器模型不再是黑箱，可用于从单细胞数据中描绘新的生物学相关特征。结果：在此，我们展示了SCA隐藏层能够捕捉通常隐藏在单细胞数据中的新信息，例如提供对难以描绘的元特征（如转录因子表达）或技术上不可能描绘的元特征（如miRNA表达）的聚类，这些在单细胞RNAseq数据中难以或无法实现。此外，SCA对细胞聚类的表示具有模拟传统批量RNAseq (bulk RNAseq) 的优势，这是一种数据转换，允许识别独立实验之间的相似性。结论：我们认为，SCA代表了从单细胞组学数据中提取隐藏知识特征的通用“瑞士军刀”的生物信息学版本。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34884559/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34884559/",
+  "paper_page_path": "papers/pubmed/34884559/index.html"
+}

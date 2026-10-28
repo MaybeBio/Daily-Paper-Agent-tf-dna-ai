@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "39355251",
+    "doi": "10.3389/fimmu.2024.1475235",
+    "title": "From single-cell to spatial transcriptomics: decoding the glioma stem cell niche and its clinical implications."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gliomas are aggressive brain tumors associated with a poor prognosis. Cancer stem cells (CSCs) play a significant role in tumor recurrence and resistance to therapy. This study aimed to identify and characterize glioma stem cells (GSCs), analyze their interactions with various cell types, and develop a prognostic signature. METHODS: Single-cell RNA sequencing data from 44 primary glioma samples were analyzed to identify GSC populations. Spatial transcriptomics and gene regulatory network analyses were performed to investigate GSC localization and transcription factor activity. CellChat analysis was conducted to infer cell-cell communication patterns. A GSC signature (GSCS) was developed using machine learning algorithms applied to bulk RNA sequencing data from multiple cohorts. In vitro and in vivo experiments were conducted to validate the role of TUBA1C, a key gene within the signature. RESULTS: A distinct GSC population was identified, characterized by high proliferative potential and an enrichment of E2F1, E2F2, E2F7, and BRCA1 regulons. GSCs exhibited spatial proximity to myeloid-derived suppressor cells (MDSCs). CellChat analysis revealed an active MIF signaling pathway between GSCs and MDSCs. A 26-gene GSCS demonstrated superior performance compared to existing prognostic models. Knockdown of TUBA1C significantly inhibited glioma cell migration, and invasion in vitro, and reduced tumor growth in vivo. CONCLUSION: This study offers a comprehensive characterization of GSCs and their interactions with MDSCs, while presenting a robust GSCS. The findings offer new insights into glioma biology and identify potential therapeutic targets, particularly TUBA1C, aimed at improving patient outcomes.",
+    "keywords": [
+      "TUBA1C",
+      "cancer stem cells",
+      "prognostic signature",
+      "single-cell RNA sequencing",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Glioma/genetics/pathology",
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Brain Neoplasms/genetics/pathology",
+      "Animals",
+      "*Single-Cell Analysis",
+      "Mice",
+      "*Transcriptome",
+      "*Stem Cell Niche/genetics",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Tumor Microenvironment/genetics",
+      "Gene Expression Profiling",
+      "Prognosis",
+      "Cell Communication/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Lei",
+        "Lu, Xu",
+        "Wang, Xia",
+        "Wu, Hao",
+        "Miao, Xiaye"
+      ],
+      "short_names": [
+        "Cao L",
+        "Lu X",
+        "Wang X",
+        "Wu H",
+        "Miao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China.",
+        "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China.",
+        "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China.",
+        "Department of Oncology, The Affiliated Huai'an Hospital of Xuzhou Medical University and the Second People's Hospital of Huai'an, Huai'an, China.",
+        "Department of Laboratory Medicine, Northern Jiang su People's Hospital, Yangzhou, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Lei",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xia",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Suqian First People's Hospital of Nanjing Medical University, Suqian, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Huai'an Hospital of Xuzhou Medical University and the Second People's Hospital of Huai'an, Huai'an, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Xiaye",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Northern Jiang su People's Hospital, Yangzhou, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/02 11:42",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42634206",
+      "42586960",
+      "42464299",
+      "42231441",
+      "42169944",
+      "42139232",
+      "42131814",
+      "41857701",
+      "41827847",
+      "41723505",
+      "41368628",
+      "41300790",
+      "40806492",
+      "40564208",
+      "40564022",
+      "40442365",
+      "40090864",
+      "39981232",
+      "39519068"
+    ],
+    "refs": [
+      "39052149",
+      "39046884",
+      "38994371",
+      "38946232",
+      "38597415",
+      "38372748",
+      "38195504",
+      "37886854",
+      "37842637",
+      "37816979",
+      "37778681",
+      "37774952",
+      "37601684",
+      "37565774",
+      "37475857",
+      "36430704",
+      "36065190",
+      "35246504",
+      "35140215",
+      "34476219",
+      "34417225",
+      "34337348",
+      "33892537",
+      "33662628",
+      "33653340",
+      "33603203",
+      "33244588",
+      "33152694",
+      "33123732",
+      "32810693",
+      "32396858",
+      "32332754",
+      "32317623",
+      "32117719",
+      "31974247",
+      "31740819",
+      "31273285",
+      "31234336",
+      "30954475",
+      "30944313",
+      "30890159",
+      "30787437",
+      "30777100",
+      "30412261",
+      "30106394",
+      "29914354",
+      "29221200",
+      "29194401",
+      "29072289",
+      "28991892",
+      "28767320",
+      "27593939",
+      "27244880",
+      "27145382",
+      "27124452",
+      "27090007",
+      "26996076",
+      "25867923",
+      "24925914",
+      "24552317",
+      "24120142",
+      "22455463",
+      "22257669",
+      "19920198",
+      "19269895",
+      "17317837",
+      "16685397",
+      "15758009",
+      "1541850"
+    ],
+    "similar": [
+      "39355251",
+      "33133100",
+      "30257451",
+      "29927689",
+      "32067282",
+      "30940662",
+      "36070228",
+      "38829550",
+      "26822103",
+      "32468039",
+      "35619544",
+      "28651608",
+      "29440289",
+      "38803001",
+      "32396858",
+      "25955030",
+      "18940013",
+      "31593561",
+      "23207870",
+      "39112517",
+      "30269995",
+      "31853695",
+      "38884661",
+      "23079585",
+      "34517210",
+      "33789359",
+      "30978441",
+      "29115585",
+      "26683773",
+      "25397368",
+      "33413577",
+      "28264064",
+      "37349788",
+      "25176161",
+      "23339114",
+      "24374932",
+      "28423669",
+      "38768760",
+      "29684521",
+      "32632040",
+      "20186265",
+      "29587824",
+      "36348001",
+      "32894165",
+      "35115572",
+      "30098794",
+      "32843056",
+      "32616845",
+      "39333557",
+      "22648970",
+      "27765847",
+      "21321379",
+      "27472461",
+      "38158714",
+      "30564876",
+      "38926605",
+      "24604164",
+      "22230766",
+      "34233294",
+      "32896567",
+      "39063221",
+      "27166258",
+      "38643837",
+      "28410224",
+      "28802102",
+      "26935642",
+      "26706414",
+      "35562901",
+      "38479552",
+      "33391492",
+      "32443824",
+      "33378970",
+      "21342503",
+      "21483406",
+      "24274717",
+      "38885819",
+      "39075485",
+      "39346536",
+      "24930954",
+      "38599441",
+      "38806611",
+      "29016805",
+      "31292920",
+      "27041571",
+      "34131285",
+      "39257581",
+      "29132362",
+      "23791939",
+      "25736407",
+      "23652300",
+      "32451841",
+      "20515450",
+      "29115569",
+      "34066996",
+      "23530497",
+      "36380368",
+      "24777293",
+      "33470499",
+      "36583266",
+      "25228266",
+      "39380997",
+      "38906738",
+      "38017371",
+      "39332586",
+      "39371093",
+      "39391717"
+    ],
+    "review": [
+      "39355251",
+      "32396858",
+      "31593561",
+      "25397368",
+      "24374932",
+      "29684521",
+      "39063221",
+      "29016805",
+      "23530497",
+      "38906738"
+    ],
+    "pmc": [
+      "11443156"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39355251/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSC-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1475235",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

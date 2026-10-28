@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36779846",
+  "title": "Bayesian Machine Learning Enables Identification of Transcriptional Network Disruptions Associated with Drug-Resistant Prostate Cancer.",
+  "authors": "Blatti, Charles; de la Fuente, Jesus; Gao, Huanyao; Marin-Goni, Irene; Chen, Zikun; Zhao, Sihai D; Tan, Winston; Weinshilboum, Richard; Kalari, Krishna R; Wang, Liewei; Hernaez, Mikel",
+  "journal": "Cancer research",
+  "published_date": "2023-02-14",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用稀疏贝叶斯模型分析前列腺癌耐药中的转录网络扰动，虽涉及转录因子调控网络，但缺乏TF-DNA三维互作建模与AI/物理模拟方法，属于广义转录调控分析，对本课题借鉴有限。",
+  "abstract": "Survival rates of patients with metastatic castration-resistant prostate cancer (mCRPC) are low due to lack of response or acquired resistance to available therapies, such as abiraterone (Abi). A better understanding of the underlying molecular mechanisms is needed to identify effective targets to overcome resistance. Given the complexity of the transcriptional dynamics in cells, differential gene expression analysis of bulk transcriptomics data cannot provide sufficient detailed insights into resistance mechanisms. Incorporating network structures could overcome this limitation to provide a global and functional perspective of Abi resistance in mCRPC. Here, we developed TraRe, a computational method using sparse Bayesian models to examine phenotypically driven transcriptional mechanistic differences at three distinct levels: transcriptional networks, specific regulons, and individual transcription factors (TF). TraRe was applied to transcriptomic data from 46 patients with mCRPC with Abi-response clinical data and uncovered abrogated immune response transcriptional modules that showed strong differential regulation in Abi-responsive compared with Abi-resistant patients. These modules were replicated in an independent mCRPC study. Furthermore, key rewiring predictions and their associated TFs were experimentally validated in two prostate cancer cell lines with different Abi-resistance features. Among them, ELK3, MXD1, and MYB played a differential role in cell survival in Abi-sensitive and Abi-resistant cells. Moreover, ELK3 regulated cell migration capacity, which could have a direct impact on mCRPC. Collectively, these findings shed light on the underlying transcriptional mechanisms driving Abi response, demonstrating that TraRe is a promising tool for generating novel hypotheses based on identified transcriptional network disruptions. SIGNIFICANCE: The computational method TraRe built on Bayesian machine learning models for investigating transcriptional network structures shows that disruption of ELK3, MXD1, and MYB signaling cascades impacts abiraterone resistance in prostate cancer.",
+  "abstract_zh": "转移性去势抵抗性前列腺癌（mCRPC）患者的生存率较低，原因在于对现有疗法（如阿比特龙（Abi））缺乏反应或产生获得性耐药。需要更深入地理解潜在分子机制，以识别克服耐药的有效靶点。鉴于细胞中转录动力学的复杂性，基于批量转录组数据的差异基因表达分析无法提供足够详细的耐药机制见解。整合网络结构可克服这一局限，从而提供mCRPC中Abi耐药的全局性和功能性视角。在此，我们开发了TraRe，一种使用稀疏贝叶斯模型的计算方法，用于在三个不同层面检查表型驱动的转录机制差异：转录网络、特定调节子以及单个转录因子（TF）。TraRe被应用于来自46名具有Abi反应临床数据的mCRPC患者的转录组数据，并揭示了在Abi响应型与Abi耐药型患者中表现出强烈差异调控的免疫反应转录模块受损。这些模块在独立的mCRPC研究中得到复现。此外，关键重连预测及其相关TF在两个具有不同Abi耐药特征的前列腺癌细胞系中得到了实验验证。其中，ELK3、MXD1和MYB在Abi敏感型和Abi耐药型细胞的存活中发挥差异作用。此外，ELK3调控细胞迁移能力，这可能对mCRPC产生直接影响。总体而言，这些发现揭示了驱动Abi反应的潜在转录机制，表明TraRe是基于识别出的转录网络破坏生成新假设的有前景工具。意义：基于贝叶斯机器学习模型构建的计算方法TraRe用于研究转录网络结构，表明ELK3、MXD1和MYB信号级联的破坏影响前列腺癌中的阿比特龙耐药。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36779846/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36779846/",
+  "paper_page_path": "papers/pubmed/36779846/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.20.585966",
+  "title": "High-throughput selection of glucose-binding proteins from massive datasets: Integrating molecular docking and molecular dynamics simulations",
+  "authors": "Anurag Makare; Amit Chaudhary; Debankita De; Parijat Deshpande; Ajay Singh Panwar",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-23",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用分子对接和MD模拟高通量筛选葡萄糖结合蛋白，虽为蛋白-小分子互作而非TF-DNA体系，但对接与MD结合流程可迁移至TF-DNA结合位点筛选与互作建模。",
+  "abstract": "Selecting suitable glucose-binding proteins (GBPs) is vital for biosensor development for medical diagnostics and quality control in the food industry. Biosensors offer advantages such as high specificity, selectivity, fast response time, continuous measurement, and cost-effectiveness. The current work utilized a combination of molecular docking, molecular dynamics (MD) simulations, and free energy calculations to develop a high-throughput bioinformatics pipeline to select GBP candidates from an extensive protein database (37,325 proteins). Using molecular docking, GBPs with good binding affinity to glucose (1,447 candidates) were virtually screened from the Protein Data Bank. MD simulations ascertained the binding dynamics of a few selected candidates. Further, steered MD (Brownian dynamics fluctuation-dissipation-theorem) was used to estimate binding free energies of the ligand-protein complex. Correlations between ligand-binding parameters obtained from longer MD simulations and binding parameters interpreted from significantly faster docking simulations were investigated. The correlation plots suggested that a combination of threshold values of the following three docking parameters: docking binding energy, binding cavity depth, and the number of hydrogen bonds between the ligand and binding site residues can be used to predict candidate GBPs reliably. Thus, a high-throughput and accurate protein selection process based on relatively faster docking simulations was proposed to screen GBPs for glucose biosensing.",
+  "abstract_zh": "选择合适的葡萄糖结合蛋白（GBPs）对于开发用于医学诊断和食品工业质量控制的生物传感器至关重要。生物传感器具有高特异性、高选择性、快速响应时间、连续测量和成本效益等优势。本研究结合分子对接、分子动力学（MD）模拟和自由能计算，开发了一种高通量生物信息学流程，用于从庞大的蛋白质数据库（37,325个蛋白质）中筛选GBP候选物。通过分子对接，从蛋白质数据银行中虚拟筛选出对葡萄糖具有良好结合亲和力的GBPs（1,447个候选物）。MD模拟确定了少数选定候选物的结合动力学。此外，使用定向MD（布朗动力学涨落-耗散定理）估算配体-蛋白质复合物的结合自由能。研究了较长MD模拟获得的配体结合参数与显著更快的对接模拟解释的结合参数之间的相关性。相关性图表明，结合以下三个对接参数的阈值组合：对接结合能、结合腔深度以及配体与结合位点残基之间的氢键数量，可以可靠地预测候选GBPs。因此，提出了一种基于相对较快对接模拟的高通量且准确的蛋白质选择流程，用于筛选葡萄糖生物传感的GBPs。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585966",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585966",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.20.585966/index.html"
+}

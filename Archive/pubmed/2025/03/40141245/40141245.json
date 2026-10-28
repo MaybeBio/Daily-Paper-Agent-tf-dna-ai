@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40141245",
+    "doi": "10.3390/ijms26062603",
+    "title": "Physiological and Transcriptional Responses of Sesame (Sesamum indicum L.) to Waterlogging Stress."
+  },
+  "content": {
+    "abstract": "Waterlogging stress significantly impacts the growth and productivity of crops. As a traditional oil crop, sesame (Sesamum indicum L.) suffers substantial damage due to waterlogging stress. However, the mechanism underlying waterlogging stress in sesame is still unclear. In this study, we investigated the physiological indicators of two sesame genotypes under waterlogging stress. The results revealed that the activity of antioxidant enzymes in sesame was affected, with the contents of malondialdehyde (MDA) and hydrogen peroxide (H(2)O(2)) significantly increased. Additionally, transcriptional analysis identified a total of 15,143 differentially expressed genes (DEGs). Among them, 759 DEGs exhibited consistent differential expression across all time points, representing the core waterlogging-responsive genes. Gene Ontology (GO) enrichment analysis indicated that the DEGs were primarily associated with hypoxia, stimulus response, and oxidoreductase enzyme activities. Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis revealed that these DEGs were mainly enriched in the metabolic and biosynthesis of secondary metabolites, glycolysis/gluconeogenesis, phenylpropanoid biosynthesis, MAPK signaling pathway-plant, carbon fixation by Calvin cycle, plant hormone signal transduction, and plant-pathogen interaction pathways. Furthermore, transcription factors (TFs) such as AP2/ERF, bHLH, bZIP, and WRKY may play key roles in the transcriptional changes induced by waterlogging stress. Combined with weighted gene co-expression network analysis (WGCNA) analysis and K-means clustering, a total of 5 hub genes and 56 genes were identified, including F-box protein (Sin09950 and Sin12912), bZIP (Sin04465, Sin00091), WRKY (Sin01376, Sin06113), and so on. In brief, this study explored the regulatory network involved in waterlogging stress in sesame at the transcriptome level, providing valuable insights into unraveling the molecular mechanisms of waterlogging stress and facilitating the breeding of improved waterlogging-tolerant sesame varieties.",
+    "keywords": [
+      "sesame",
+      "transcriptome",
+      "waterlogging"
+    ],
+    "mesh_terms": [
+      "*Sesamum/genetics/physiology/metabolism",
+      "*Gene Expression Regulation, Plant",
+      "*Stress, Physiological/genetics",
+      "Plant Proteins/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Hydrogen Peroxide/metabolism",
+      "Gene Ontology",
+      "Malondialdehyde/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yadong",
+        "Cui, Chengqi",
+        "Liu, Yanyang",
+        "Wu, Ke",
+        "Du, Zhenwei",
+        "Jiang, Xiaolin",
+        "Zhao, Fengli",
+        "Zhang, Ruping",
+        "Wang, Jingjing",
+        "Mei, Hongxian",
+        "Zhang, Haiyang"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Cui C",
+        "Liu Y",
+        "Wu K",
+        "Du Z",
+        "Jiang X",
+        "Zhao F",
+        "Zhang R",
+        "Wang J",
+        "Mei H",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3152-9084"
+      ],
+      "affiliations": [
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China.",
+        "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+        "The Shennong Laboratory, Zhengzhou 450002, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yadong",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Chengqi",
+        "short_name": "Cui C",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanyang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ke",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Du, Zhenwei",
+        "short_name": "Du Z",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaolin",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Fengli",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruping",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0000-0002-3152-9084"
+        ],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Hongxian",
+        "short_name": "Mei H",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haiyang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Sesame Research Center, Henan Academy of Agricultural Sciences, Zhengzhou 450002, China.",
+          "The Shennong Laboratory, Zhengzhou 450002, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Mar 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/27 06:28",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "41596400",
+      "41462655",
+      "41225846",
+      "41095130"
+    ],
+    "refs": [
+      "39796205",
+      "39795288",
+      "39628052",
+      "39614612",
+      "39589910",
+      "39562839",
+      "39531178",
+      "39488739",
+      "39400914",
+      "39326225",
+      "39255614",
+      "38938017",
+      "38761127",
+      "38722055",
+      "37952115",
+      "37324702",
+      "37195503",
+      "36235731",
+      "35569244",
+      "34561623",
+      "34176142",
+      "33616649",
+      "33249174",
+      "32064696",
+      "31615988",
+      "31261970",
+      "31033158",
+      "28277605",
+      "28270560",
+      "27639065",
+      "27280887",
+      "26704665",
+      "26565998",
+      "25690850",
+      "25580769",
+      "25516281",
+      "25074340",
+      "24227677",
+      "23864556",
+      "23761805",
+      "23484164",
+      "23229061",
+      "23093359",
+      "20813578",
+      "20497380",
+      "19693083",
+      "19625633",
+      "18692429",
+      "18444902",
+      "18077471",
+      "17761467",
+      "16816135",
+      "16644893",
+      "12060276",
+      "10802651"
+    ],
+    "similar": [
+      "40141245",
+      "39796205",
+      "33249174",
+      "26934874",
+      "38791539",
+      "28893196",
+      "40360985",
+      "31412539",
+      "40263479",
+      "35606719",
+      "27832742",
+      "30466587",
+      "29531231",
+      "27475988",
+      "29927997",
+      "30011333",
+      "30257236",
+      "34069840",
+      "31619177",
+      "38498414",
+      "40014160",
+      "38892181",
+      "39595960",
+      "38832682",
+      "40340820",
+      "38262910",
+      "30889856",
+      "33255784",
+      "37834015",
+      "31412781",
+      "37240335",
+      "35061680",
+      "31221078",
+      "37584845",
+      "39725882",
+      "33380327",
+      "38594627",
+      "38862913",
+      "37298675",
+      "23683935",
+      "38724918",
+      "35363798",
+      "30209739",
+      "39236657",
+      "39255614",
+      "31615988",
+      "39989060",
+      "39069616",
+      "34303354",
+      "32859149",
+      "34884850",
+      "33781203",
+      "38790195",
+      "26010543",
+      "31321496",
+      "32707667",
+      "37058966",
+      "32121334",
+      "37629034",
+      "36041594",
+      "39809365",
+      "35596185",
+      "34993726",
+      "22195973",
+      "40114044",
+      "35269989",
+      "31096908",
+      "30871211",
+      "39864038",
+      "38594635",
+      "40003869",
+      "39273302",
+      "37046988",
+      "39125984",
+      "34915868",
+      "39501146",
+      "34381085",
+      "36076993",
+      "31009803",
+      "34681032",
+      "28821876",
+      "38764051",
+      "21929789",
+      "40259217",
+      "33596255",
+      "30802474",
+      "35328659",
+      "40010256",
+      "32682396",
+      "38818576",
+      "39727922",
+      "37298249",
+      "39415130",
+      "39411372",
+      "33049995",
+      "32293256",
+      "40226543",
+      "38375137",
+      "39754033",
+      "39408674"
+    ],
+    "review": [
+      "40141245",
+      "38594635"
+    ],
+    "pmc": [
+      "11942034"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26062603",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40141245/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

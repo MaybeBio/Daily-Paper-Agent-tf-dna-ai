@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "41324728",
+    "doi": "10.1007/s12035-025-05406-2",
+    "title": "The Role of HIF-1alpha/BNIP3 Pathway in Hippocampal Neuronal Autophagy in Epilepsy."
+  },
+  "content": {
+    "abstract": "Epilepsy (EP), a prevalent neurological disorder, lacks a comprehensive understanding of the molecular mechanisms underlying epileptogenesis. Multiple studies highlight that hippocampal (Hip) neuronal injury may serve as an essential underlying factor in EP onset and progression. Accumulating evidence shows that autophagy (Apg) has an essential function in supporting cell survival and sustaining cellular and tissue homeostasis. This investigation aimed to examine and further validate hypoxia-inducible factor (HIF)-1alpha/BNIP3 signaling in the Hip neuronal Apg in a lithium chloride-pilocarpine (LiCl-Pilo)-induced EP rat model. We retrieved the GSE143272 dataset and generally validated Apg-related genes (ATGs) expression and its diagnostic roles in EP through differential expression analysis, protein-protein interaction (PPI), enrichment analysis, and four machine learning (ML) models. Afterward, the predictive performance of the ML models was evaluated via a nomogram model and validated with an external dataset (GSE63808). Finally, the function of the HIF-1alpha/BNIP3 pathway in regulating Apg through HIF-1alpha inhibition was systematically validated in the LiCl-Pilo-induced chronic EP rat model. Our data identified eleven ATGs as differentially expressed. Among them, HIF-1alpha and BNIP3 were found to be closely associated, exhibiting a negative regulatory interaction. The ML model XGB exhibited superior performance in differentiating EP patients. Subsequent experimental validation confirmed elevated Apg markers and HIF-1alpha levels, along with decreased BNIP3 levels. Inhibition of HIF-1alpha upregulated HIF-1alpha/BNIP3-modulated Apg and attenuated Hip neuron damage and mitochondrial damage induced by LiCl-Pilo-induced EP. Collectively, these outcomes suggest that HIF-1alpha/BNIP3 signaling might be involved in neuronal damage by mediating Hip Apg, thereby regulating epileptic seizures.",
+    "keywords": [
+      "Autophagy-related genes",
+      "Epilepsy",
+      "HIF-1alpha/BNIP3 pathway",
+      "Hippocampal neuronal autophagy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Hippocampus/metabolism/pathology",
+      "*Autophagy/physiology",
+      "*Neurons/metabolism/pathology",
+      "*Epilepsy/metabolism/pathology/genetics",
+      "*Signal Transduction",
+      "Rats, Sprague-Dawley",
+      "Male",
+      "*Membrane Proteins/metabolism",
+      "Rats",
+      "Protein Interaction Maps",
+      "Lithium Chloride",
+      "Mitochondrial Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kuang, Huimin",
+        "Meng, Youshi",
+        "Qin, Xinran",
+        "Qian, Kai",
+        "Gong, Chi",
+        "Li, Sijun",
+        "Zhang, Lin",
+        "Gan, Xiaohang",
+        "Lu, Yuling",
+        "Wu, Yuan"
+      ],
+      "short_names": [
+        "Kuang H",
+        "Meng Y",
+        "Qin X",
+        "Qian K",
+        "Gong C",
+        "Li S",
+        "Zhang L",
+        "Gan X",
+        "Lu Y",
+        "Wu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3267-8388"
+      ],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China.",
+        "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China. nwuyuan@stu.gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kuang, Huimin",
+        "short_name": "Kuang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Youshi",
+        "short_name": "Meng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xinran",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Kai",
+        "short_name": "Qian K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Chi",
+        "short_name": "Gong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Sijun",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Xiaohang",
+        "short_name": "Gan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yuling",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuan",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0003-3267-8388"
+        ],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Guangxi Medical University, No 6 Shuangyong Road, Guangxi, Nanning, 530021, China. nwuyuan@stu.gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/01 12:28",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "42074021"
+    ],
+    "refs": [
+      "41310592",
+      "41017689",
+      "39995090",
+      "39780155",
+      "39721917",
+      "39096444",
+      "38767486",
+      "38631990",
+      "38584135",
+      "38303719",
+      "38105236",
+      "38081835",
+      "37880726",
+      "37876811",
+      "37814294",
+      "37786269",
+      "37681473",
+      "37497230",
+      "37365625",
+      "36921736",
+      "36646291",
+      "36585473",
+      "36252358",
+      "36220573",
+      "36217825",
+      "36018183",
+      "35848616",
+      "35804072",
+      "35713147",
+      "35696452",
+      "35645767",
+      "35600978",
+      "34867172",
+      "34780748",
+      "34730239",
+      "34676980",
+      "34592245",
+      "34381417",
+      "34355984",
+      "33932034",
+      "33621179",
+      "33345685",
+      "33341939",
+      "33248200",
+      "33230171",
+      "32945401",
+      "32725369",
+      "32341353",
+      "32311482",
+      "32208814",
+      "32120063",
+      "31880085",
+      "31870503",
+      "31794795",
+      "31590128",
+      "31491413",
+      "31417409",
+      "31251191",
+      "31212050",
+      "30650342",
+      "29808547",
+      "29275361",
+      "27492897",
+      "26584470",
+      "26101106",
+      "25934585",
+      "25925576",
+      "25769270",
+      "25605792",
+      "25307300",
+      "25242614",
+      "24889205",
+      "24312322",
+      "23945296",
+      "23724051",
+      "23197740",
+      "23136410",
+      "23073716",
+      "22812626",
+      "19789328",
+      "19553465",
+      "19474323",
+      "18776739",
+      "18550176",
+      "18094625",
+      "17223264",
+      "16919273",
+      "15889042",
+      "12428027",
+      "6764902",
+      "6764901",
+      "4110398",
+      "4110397",
+      "399886"
+    ],
+    "similar": [
+      "41324728",
+      "25242614",
+      "31590128",
+      "39615733",
+      "27366871",
+      "38199116",
+      "39099334",
+      "30531436",
+      "30819186",
+      "38758520",
+      "24889205",
+      "40246789",
+      "23698117",
+      "17532791",
+      "31998438",
+      "35951252",
+      "37150840",
+      "32308116",
+      "41284676",
+      "36484920",
+      "25017576",
+      "25081716",
+      "40673301",
+      "41070744",
+      "39892761",
+      "21465467",
+      "40159976",
+      "31072291",
+      "39515667",
+      "34338434",
+      "41241018",
+      "37085612",
+      "30394322",
+      "40779707",
+      "40976048",
+      "39858561",
+      "30203298",
+      "36790003",
+      "39805787",
+      "17561100",
+      "35779841",
+      "39829390",
+      "28529459",
+      "18774900",
+      "36204949",
+      "31571517",
+      "30338933",
+      "35300568",
+      "33932034",
+      "38660902",
+      "21558981",
+      "36468826",
+      "32829253",
+      "40975503",
+      "39433361",
+      "40023450",
+      "25052749",
+      "23979836",
+      "38539069",
+      "40594206",
+      "29858824",
+      "37313302",
+      "16464515",
+      "30940322",
+      "27383646",
+      "24923288",
+      "37873601",
+      "30082314",
+      "41173051",
+      "29888265",
+      "39168172",
+      "19273585",
+      "39923140",
+      "38320215",
+      "31260683",
+      "28817115",
+      "40457488",
+      "22455137",
+      "24798801",
+      "40830205",
+      "17513511",
+      "22812626",
+      "32165091",
+      "33290258",
+      "33345685",
+      "40543809",
+      "26093278",
+      "39278884",
+      "33455530",
+      "31232175",
+      "32251541",
+      "36627546",
+      "33388412",
+      "25383959",
+      "24606183",
+      "27769790",
+      "40350824",
+      "31680420",
+      "22223132",
+      "23694759"
+    ],
+    "review": [
+      "41324728",
+      "37313302"
+    ],
+    "pmc": [
+      "12669306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41324728/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-025-05406-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

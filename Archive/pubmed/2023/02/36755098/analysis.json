@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36755098",
+  "title": "Dissecting cell identity via network inference and in silico gene perturbation.",
+  "authors": "Kamimoto, Kenji; Stringa, Blerta; Hoffmann, Christy M; Jindal, Kunal; Solnica-Krezel, Lilianna; Morris, Samantha A",
+  "journal": "Nature",
+  "published_date": "2023-02-10",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用单细胞多组学推断基因调控网络并进行转录因子扰动模拟，虽涉及TF调控细胞身份，但缺乏蛋白质-DNA三维互作建模与AI/物理模拟方法，仅属广义TF调控网络分析，对本课题借鉴有限。",
+  "abstract": "Cell identity is governed by the complex regulation of gene expression, represented as gene-regulatory networks(1). Here we use gene-regulatory networks inferred from single-cell multi-omics data to perform in silico transcription factor perturbations, simulating the consequent changes in cell identity using only unperturbed wild-type data. We apply this machine-learning-based approach, CellOracle, to well-established paradigms-mouse and human haematopoiesis, and zebrafish embryogenesis-and we correctly model reported changes in phenotype that occur as a result of transcription factor perturbation. Through systematic in silico transcription factor perturbation in the developing zebrafish, we simulate and experimentally validate a previously unreported phenotype that results from the loss of noto, an established notochord regulator. Furthermore, we identify an axial mesoderm regulator, lhx1a. Together, these results show that CellOracle can be used to analyse the regulation of cell identity by transcription factors, and can provide mechanistic insights into development and differentiation.",
+  "abstract_zh": "细胞身份由基因表达的复杂调控所决定，表现为基因调控网络（gene-regulatory networks）。在此，我们利用从单细胞多组学数据推断出的基因调控网络，进行计算机模拟转录因子扰动，仅使用未受扰动的野生型数据来模拟细胞身份的相应变化。我们将这种基于机器学习的方法——CellOracle，应用于成熟的研究范式——小鼠和人类造血作用，以及斑马鱼胚胎发生——并正确模拟了文献中报道的由转录因子扰动引起的表型变化。通过对发育中的斑马鱼进行系统性计算机模拟转录因子扰动，我们模拟并实验验证了一个先前未报道的表型，该表型由已确立的脊索调节因子noto的缺失引起。此外，我们识别出一个轴向中胚层调节因子lhx1a。综合这些结果表明，CellOracle可用于分析转录因子对细胞身份的调控，并能提供发育和分化过程中的机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36755098/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36755098/",
+  "paper_page_path": "papers/pubmed/36755098/index.html"
+}

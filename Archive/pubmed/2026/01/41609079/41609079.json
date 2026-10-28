@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "41609079",
+    "doi": "10.31083/FBL48168",
+    "title": "Araliadiol Protects Human Keratinocytes From Oxidative Stress, DNA Damage, and Apoptosis via Activation of Antioxidant Signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Araliadiol, a triterpenoid compound isolated from Centella asiatica, exhibits diverse biological activities, including anti-cancer, neuroprotective, and hair growth-promoting properties. However, its protective effects against skin damage caused by environmental pollutants, such as urban particulate matter (UPM), remain unexplored. Given the critical role of oxidative stress in UPM-induced cellular damage, we investigated the potential of araliadiol as a dermoprotective agent and explored its underlying molecular mechanisms. METHODS: The stability of araliadiol was evaluated at various temperature conditions and solvent conditions using high-performance liquid chromatography (HPLC). To explore the biological functions and signaling pathways affected by araliadiol, bioinformatic analyses including Gene Ontology (GO) enrichment, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway, and Monarch phenotype analysis were performed. Cellular responses to araliadiol were assessed in HaCaT and HEK293T cells by measuring reactive oxygen species (ROS) levels and transcription of antioxidant genes. Activation of nuclear factor erythroid 2-related factor 2 (Nrf2) and activator protein-1 (AP-1) signaling pathway was further examined using quantitative polymerase chain reaction (PCR), luciferase assay, western blotting, and immunofluorescence staining. The interaction between araliadiol and mitogen-activated protein kinase kinase 7 (MKK7) was investigated through molecular docking and cellular thermal shift assay (CETSA). DNA damage and apoptosis were examined using the comet assay, gamma-H2AX staining, Annexin V/PI flow cytometry, and protein expression analysis. RESULTS: Araliadiol significantly reduced intracellular levels of ROS by upregulating key antioxidant genes, including HO-1, NQO1, TXNRD1, GCLC, and GCLM. Mechanistically, araliadiol promoted the expression and nuclear translocation of Nrf2, a master transcription factor involved in antioxidant defense. In parallel, araliadiol selectively activates the c-Jun N-terminal kinase (JNK)-AP-1 signaling cascade by directly binding to and activating MKK7, an upstream kinase involved in oxidative stress responses. Given the close association between oxidative stress, DNA damage, and apoptosis, we further investigated the protective capacity of araliadiol in this context. Araliadiol markedly attenuated UPM-induced DNA damage and apoptosis, as evidenced by reduced comet tail formation, decreased gamma-H2AX levels, a lower proportion of Annexin V-positive cells, and modulation of apoptosis-related proteins. Meanwhile, although UPM exposure induced the expression of specific antioxidant-associated genes (TXNRD and GCLC), HO-1 protein expression, and AP-1 signaling, it failed to activate Nrf2 transcriptional activity. Instead, UPM exposure resulted in elevated intracellular ROS accumulation and increased DNA damage. CONCLUSION: Our findings suggest that UPM exposure alone elicited limited stress-adaptive antioxidant responses without effective cytoprotection. In contrast, araliadiol treatment independently activated robust antioxidant and cytoprotective signaling. Moreover, under UPM exposure, araliadiol further enhanced cellular defense through the activation of the Nrf2 and JNK-AP-1 signaling pathways. These results highlight the therapeutic potential of araliadiol as a dermoprotective agent derived from Centella asiatica, particularly in mitigating pollutant-induced skin damage.",
+    "keywords": [
+      "Centella asiatica",
+      "apoptosis",
+      "keratinocytes",
+      "nuclear factor erythroid 2-related factor 2",
+      "oxidative stress",
+      "particulate matter"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Apoptosis/drug effects",
+      "*Oxidative Stress/drug effects",
+      "*DNA Damage/drug effects",
+      "Signal Transduction/drug effects",
+      "*Antioxidants/pharmacology/metabolism",
+      "*Keratinocytes/drug effects/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "*Triterpenes/pharmacology",
+      "HEK293 Cells",
+      "NF-E2-Related Factor 2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piao, Zhenyan",
+        "Yoo, Dae Sung",
+        "Park, Sang Hee",
+        "Kim, Dong Seon",
+        "Yoon, Si Eun",
+        "Yoon, Ji Hye",
+        "Lee, Jongsung",
+        "Kim, Ji Hye",
+        "Cho, Jae Youl"
+      ],
+      "short_names": [
+        "Piao Z",
+        "Yoo DS",
+        "Park SH",
+        "Kim DS",
+        "Yoon SE",
+        "Yoon JH",
+        "Lee J",
+        "Kim JH",
+        "Cho JY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "ASK Company Co., Ltd., 41256 Daegu, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+        "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piao, Zhenyan",
+        "short_name": "Piao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Dae Sung",
+        "short_name": "Yoo DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+          "ASK Company Co., Ltd., 41256 Daegu, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Sang Hee",
+        "short_name": "Park SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Dong Seon",
+        "short_name": "Kim DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoon, Si Eun",
+        "short_name": "Yoon SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoon, Ji Hye",
+        "short_name": "Yoon JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jongsung",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Ji Hye",
+        "short_name": "Kim JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Jae Youl",
+        "short_name": "Cho JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biotechnology, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea.",
+          "Department of Biocosmetics, Sungkyunkwan University, 16419 Suwon, Gyeonggi-do, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 14:02",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41609079",
+      "42119881",
+      "38948281",
+      "24308969",
+      "40509241",
+      "26096841",
+      "31013932",
+      "41494610",
+      "30662338",
+      "25236495",
+      "32712291",
+      "28110191",
+      "28188924",
+      "39415523",
+      "29568961",
+      "33045867",
+      "23712098",
+      "29966676",
+      "25653022",
+      "32997463",
+      "41944909",
+      "41817844",
+      "42019124",
+      "28420170",
+      "25917210",
+      "40959567",
+      "28761325",
+      "31219431",
+      "39738877",
+      "29874784",
+      "38104880",
+      "36355983",
+      "26021820",
+      "25818191",
+      "31872748",
+      "38432121",
+      "39794424",
+      "24812508",
+      "40553247",
+      "41455169",
+      "42011616",
+      "35605918",
+      "20399244",
+      "34216727",
+      "31039479",
+      "40635044",
+      "31865348",
+      "22476201",
+      "33065254",
+      "26576227",
+      "24503931",
+      "29022012",
+      "41047055",
+      "41297623",
+      "27180985",
+      "27912883",
+      "23954472",
+      "32046712",
+      "31032752",
+      "29273513",
+      "29130959",
+      "23901249",
+      "28532341",
+      "31810119",
+      "31112588",
+      "33406386",
+      "26391462",
+      "42344921",
+      "28122344",
+      "23418094",
+      "22386815",
+      "31131946",
+      "26773873",
+      "31854466",
+      "39849276",
+      "38677269",
+      "28633978",
+      "32980322",
+      "29471244",
+      "30219519",
+      "41346077",
+      "28146074",
+      "38807023",
+      "20045931",
+      "29679944",
+      "40473066",
+      "39232385",
+      "30342186",
+      "30928397",
+      "23525690",
+      "31430968",
+      "41196440",
+      "32812103",
+      "39054709",
+      "25875041",
+      "28035409",
+      "41252784",
+      "41352006",
+      "29627441",
+      "35200646"
+    ],
+    "review": [
+      "41609079"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antioxidants.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antioxidants"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.imrpress.com/journal/FBL/31/1/10.31083/FBL48168",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "39677477",
+    "doi": "10.1101/2024.12.06.24318577",
+    "title": "Leveraging functional annotations to map rare variants associated with Alzheimer's disease with gruyere."
+  },
+  "content": {
+    "abstract": "The increasing availability of whole-genome sequencing (WGS) has begun to elucidate the contribution of rare variants (RVs), both coding and non-coding, to complex disease. Multiple RV association tests are available to study the relationship between genotype and phenotype, but most are restricted to per-gene models and do not fully leverage the availability of variant-level functional annotations. We propose Genome-wide Rare Variant EnRichment Evaluation (gruyere), a Bayesian probabilistic model that complements existing methods by learning global, trait-specific weights for functional annotations to improve variant prioritization. We apply gruyere to WGS data from the Alzheimer's Disease (AD) Sequencing Project, consisting of 7,966 cases and 13,412 controls, to identify AD-associated genes and annotations. Growing evidence suggests that disruption of microglial regulation is a key contributor to AD risk, yet existing methods have not had sufficient power to examine rare non-coding effects that incorporate such cell-type specific information. To address this gap, we 1) use predicted enhancer and promoter regions in microglia and other potentially relevant cell types (oligodendrocytes, astrocytes, and neurons) to define per-gene non-coding RV test sets and 2) include cell-type specific variant effect predictions (VEPs) as functional annotations. gruyere identifies 15 significant genetic associations not detected by other RV methods and finds deep learning-based VEPs for splicing, transcription factor binding, and chromatin state are highly predictive of functional non-coding RVs. Our study establishes a novel and robust framework incorporating functional annotations, coding RVs, and cell-type associated non-coding RVs, to perform genome-wide association tests, uncovering AD-relevant genes and annotations.",
+    "keywords": [
+      "Alzheimer's Disease",
+      "Bayesian probabilistic model",
+      "Rare variants",
+      "whole-genome sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Anjali",
+        "Lakhani, Chirag",
+        "Terwagne, Chloe",
+        "Lin, Jui-Shan T",
+        "Naito, Tatsuhiko",
+        "Raj, Towfique",
+        "Knowles, David A"
+      ],
+      "short_names": [
+        "Das A",
+        "Lakhani C",
+        "Terwagne C",
+        "Lin JT",
+        "Naito T",
+        "Raj T",
+        "Knowles DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3885-2594",
+        "ORCID: 0000-0002-8431-3690",
+        "ORCID: 0000-0002-9355-5704",
+        "ORCID: 0000-0002-7408-146X"
+      ],
+      "affiliations": [
+        "Computer Science, Columbia University, New York, NY, USA.",
+        "New York Genome Center, New York,NY, USA.",
+        "New York Genome Center, New York,NY, USA.",
+        "Francis Crick Institute, London, United Kingdom.",
+        "New York Genome Center, New York,NY, USA.",
+        "New York Genome Center, New York,NY, USA.",
+        "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA.",
+        "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA.",
+        "Computer Science, Columbia University, New York, NY, USA.",
+        "New York Genome Center, New York,NY, USA.",
+        "Systems Biology, Columbia University, New York, NY, USA.",
+        "Data Science Institute, Columbia University, New York, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Anjali",
+        "short_name": "Das A",
+        "identifiers": [
+          "0000-0003-3885-2594"
+        ],
+        "affiliations": [
+          "Computer Science, Columbia University, New York, NY, USA.",
+          "New York Genome Center, New York,NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lakhani, Chirag",
+        "short_name": "Lakhani C",
+        "identifiers": [
+          "0000-0002-8431-3690"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York,NY, USA."
+        ]
+      },
+      {
+        "full_name": "Terwagne, Chloé",
+        "short_name": "Terwagne C",
+        "identifiers": [],
+        "affiliations": [
+          "Francis Crick Institute, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lin, Jui-Shan T",
+        "short_name": "Lin JT",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York,NY, USA."
+        ]
+      },
+      {
+        "full_name": "Naito, Tatsuhiko",
+        "short_name": "Naito T",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York,NY, USA.",
+          "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Raj, Towfique",
+        "short_name": "Raj T",
+        "identifiers": [
+          "0000-0002-9355-5704"
+        ],
+        "affiliations": [
+          "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Knowles, David A",
+        "short_name": "Knowles DA",
+        "identifiers": [
+          "0000-0002-7408-146X"
+        ],
+        "affiliations": [
+          "Computer Science, Columbia University, New York, NY, USA.",
+          "New York Genome Center, New York,NY, USA.",
+          "Systems Biology, Columbia University, New York, NY, USA.",
+          "Data Science Institute, Columbia University, New York, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 17:25",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40033057",
+      "39322779",
+      "39062605",
+      "38226680",
+      "38057664",
+      "37262146",
+      "37142848",
+      "37024668",
+      "36907103",
+      "36303018",
+      "36070178",
+      "35449021",
+      "35379992",
+      "35256806",
+      "35068457",
+      "34799441",
+      "34608324",
+      "34183854",
+      "33665345",
+      "33269107",
+      "33199916",
+      "32913098",
+      "32839606",
+      "32461654",
+      "32424355",
+      "32238454",
+      "32152537",
+      "32152295",
+      "32112059",
+      "31784727",
+      "31727856",
+      "31701892",
+      "31671574",
+      "30992449",
+      "30982610",
+      "30977227",
+      "30849328",
+      "30661751",
+      "30572908",
+      "30555656",
+      "29184913",
+      "28844485",
+      "27221085",
+      "26858593",
+      "26727659",
+      "26395054",
+      "25709717",
+      "25687773",
+      "24995866",
+      "24162737",
+      "22863193",
+      "21737059",
+      "20944595",
+      "20926424",
+      "19858363",
+      "19214210",
+      "18327223",
+      "17701901",
+      "17247344",
+      "17101154"
+    ],
+    "similar": [
+      "39677477",
+      "40840451",
+      "39876583",
+      "36303018",
+      "39428839",
+      "29692948",
+      "39920506",
+      "27128317",
+      "32839606",
+      "37961350",
+      "35943817",
+      "36271868",
+      "41428483",
+      "21121034",
+      "37693453",
+      "32740652",
+      "36204489",
+      "39822590",
+      "28844485",
+      "34516545",
+      "40653482",
+      "38336875",
+      "38511601",
+      "29482603",
+      "36464806",
+      "30255815",
+      "31500627",
+      "30924900",
+      "38824563",
+      "31034468",
+      "27980646",
+      "33882988",
+      "41404291",
+      "35264725",
+      "37693521",
+      "37881831",
+      "31585107",
+      "28539126",
+      "29378629",
+      "36063453",
+      "39830273",
+      "30108311",
+      "26746786",
+      "27289440",
+      "33173892",
+      "27407109",
+      "35504531",
+      "29754769",
+      "39713882",
+      "40990081",
+      "39371140",
+      "24336208",
+      "33797837",
+      "35234913",
+      "40407102",
+      "35068457",
+      "36744920",
+      "39819850",
+      "28742084",
+      "39678461",
+      "37802043",
+      "39318036",
+      "28770390",
+      "31888639",
+      "28065470",
+      "30982610",
+      "38685113",
+      "30246882",
+      "34260700",
+      "37262323",
+      "38966948",
+      "29608640",
+      "40038788",
+      "36350676",
+      "39333430",
+      "37975850",
+      "36564505",
+      "37544578",
+      "41278985",
+      "29618315",
+      "39606421",
+      "35966919",
+      "28605766",
+      "24903263",
+      "31328826",
+      "39344923",
+      "33637690",
+      "38598053",
+      "33300042",
+      "33959712",
+      "23022102",
+      "35486646",
+      "36907103",
+      "21520272",
+      "37634885",
+      "34392980",
+      "25395270",
+      "32833970",
+      "29218897",
+      "40759979"
+    ],
+    "review": [
+      "39677477",
+      "35943817",
+      "33882988",
+      "35264725",
+      "35504531",
+      "28770390",
+      "37262323",
+      "36564505",
+      "36907103"
+    ],
+    "pmc": [
+      "11643288"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39677477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.06.24318577",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

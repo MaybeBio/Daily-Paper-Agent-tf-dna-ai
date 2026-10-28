@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without supplementary figures or raw data files.
+- **Assessment boundary** Evaluation is limited to the claims, methods, and evidence presented in the provided text. Supplementary figures are referenced but not available for inspection.
+- **Shared manuscript claim summary** The authors extend the HyRes coarse-grained force field to model phosphorylated serine and threonine sidechains, simulate wild-type and phosphorylated p53 tetramers, and report that phosphorylation of Thr55 and Ser46 enhances NTAD-DBD interactions, promotes trans-dimer contacts, and strengthens autoinhibition, consistent with prior experimental PRE data.
+- **Visible evidence base** Text descriptions of simulation protocols, parameterization details, comparison to experimental PRE data (Figure 4, Figure S2), conformational analyses (Figures 3, 5, S3–S6), and prior published experimental results.
+- **Missing materials affecting confidence** Supplementary figures (S1–S6), raw simulation trajectories, parameter tables (Tables 1 and 2 are mentioned but not shown in the provided text), and the full experimental PRE dataset are not available. This limits independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially valuable extension of a coarse-grained force field to study phosphorylation-dependent conformational ensembles of p53. The authors address a biologically important question, and the qualitative agreement with experimental PRE data is encouraging. However, the current text does not provide sufficient quantitative detail to fully assess the robustness of the parameterization, the convergence of sampling, or the statistical significance of the reported conformational shifts. The central claim that phosphorylation promotes trans-dimer interactions to enhance autoinhibition is plausible but rests on analyses whose details are only partially described. The work is likely of interest to the IDP and p53 communities, but the case would be strengthened by more rigorous validation and clearer presentation of quantitative results.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, post-translational modification, p53 regulation, and coarse-grained simulation methodology. The work offers a practical tool for modeling phosphorylated IDPs and provides molecular-level hypotheses about p53 autoinhibition that could guide future experiments.
+- **Major strengths** The study addresses a biologically significant and mechanistically unresolved question. The use of a hybrid-resolution force field is pragmatic and computationally efficient. The validation against experimental PRE data is a strong feature, and the observation that phosphorylation shifts the balance between cis and trans interactions is a novel and testable insight. The authors are transparent about limitations of the model, such as overestimation of N-terminal contacts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the HyRes model for phosphorylated sidechains accurately recapitulates the effects of phosphorylation on p53 NTAD/DBD interactions.
+  - **Evidence pointer** Materials and Methods, Parameterization for Phosphorylated Sidechains; Figure 2C and 2D; Table 1 and Table 2 (tables not shown in provided text)
+  - **Concern** The parameterization of the phosphorylated sidechains is described qualitatively, but the actual parameter values (bond lengths, angles, force constants, vdW radii, epsilon values) are not presented in the provided text. The validation shown in Figure 2C and 2D is described as reproducing covalent geometry, but no quantitative comparison metrics (e.g., root-mean-square deviations) are given. Without access to the parameter tables and quantitative validation, it is not possible to assess whether the model is sufficiently accurate for the claimed purpose.
+  - **Why it matters** The entire study depends on the reliability of the new phosphorylated sidechain parameters. If the parameterization is not rigorously validated, all downstream conclusions about phosphorylation effects are compromised.
+  - **Resolution test** Provide the full parameter tables and quantitative comparison of bond/angle distributions between HyRes and atomistic simulations, including error metrics. Show that the model reproduces not only geometry but also interaction preferences (e.g., electrostatic complementarity) relevant to NTAD-DBD binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the simulated ensembles are validated by comparison to experimental PRE data and that the agreement supports the biological relevance of the simulations.
+  - **Evidence pointer** Results and Discussion, HyRes recapitulates the effects of phosphorylation; Figure 4 and Figure S2
+  - **Concern** The comparison to experimental PRE data is described qualitatively as showing "general agreement" and "correctly recapitulates" effects, but no quantitative measures of agreement (e.g., correlation coefficients, chi-square values, or root-mean-square deviations between calculated and experimental PRE values) are provided. The text notes an overestimation of N-terminal contacts but does not quantify the magnitude of this discrepancy or its impact on the overall validation. Without quantitative metrics, the strength of the validation cannot be assessed.
+  - **Why it matters** The claim that the simulations are "realistic and biologically relevant" is central to the paper's conclusions. A qualitative visual comparison is insufficient to establish this, especially given the noted discrepancies.
+  - **Resolution test** Provide quantitative agreement metrics between calculated and experimental PRE profiles for all three constructs. Report the magnitude of the N-terminal overestimation and discuss whether it affects the conclusions about phosphorylation effects. Consider showing that the key phosphorylation-dependent changes in PRE profiles are statistically significant relative to simulation uncertainty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that phosphorylation of Thr55 and Ser46 promotes trans-dimer NTAD-DBD interactions to enhance autoinhibition.
+  - **Evidence pointer** Results and Discussion, Phosphorylation promotes trans-dimer NTAD-DBD contacts; Figure 5 and Figures S4–S6
+  - **Concern** The PCA-based analysis of cis versus trans states is described, but the criteria for classifying states as cis, trans, or mixed are not defined. The number of major basins is mentioned for the pThr55 construct, but no quantitative population analysis (e.g., fractional populations of each state type, statistical errors across replicates) is provided. The claim that the shift towards trans states is "more prominent" in the double-phosphorylated construct is not supported by numerical data.
+  - **Why it matters** The central mechanistic conclusion of the paper rests on this analysis. Without clear definitions and quantitative population data, the claim is not fully supported.
+  - **Resolution test** Define the structural criteria for cis, trans, and mixed states. Provide fractional populations with error bars for each construct, and perform a statistical test (e.g., bootstrap or replicate-based standard error) to show that the differences between constructs are significant. Show representative structures or contact maps to illustrate the states.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim that the study provides "a strong molecular basis in support of previous experimental studies" and new insights into phosphorylation regulation of p53 autoinhibition.
+  - **Evidence pointer** Abstract and Conclusion
+  - **Concern** The novelty of the mechanistic insight is somewhat limited. The authors themselves note that prior experiments suggested the role of Thr55 phosphorylation as a master switch, and the idea that phosphorylation enhances NTAD-DBD interactions is not new. The new contribution appears to be the specific finding that trans-dimer interactions are promoted, but this is presented as a hypothesis rather than a fully established mechanism. The authors do not discuss alternative interpretations or potential limitations of the coarse-grained model in capturing the subtle electrostatic effects that may drive the cis-to-trans shift.
+  - **Why it matters** For a Nature-style audience, the work needs to demonstrate a clear advance in mechanistic understanding, not just a computational confirmation of existing hypotheses.
+  - **Resolution test** Strengthen the discussion of what is genuinely new about the trans-dimer mechanism and how it could be tested experimentally. Consider whether the coarse-grained model is sufficiently accurate to resolve the subtle energetic differences between cis and trans states, and discuss potential artifacts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with IDP terminology and p53 biology. A brief explanation of why NTAD-DBD autoinhibition matters for p53 function would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the functional significance of p53 autoinhibition in the context of tumor suppression.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, MD Simulation Protocols
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the high-temperature simulation at 800 K and the pulling forces is brief. It is unclear how the pulling forces were applied and whether they could bias the resulting conformational ensemble.
+  - **Required correction** Provide more detail on the pulling protocol (direction, magnitude, duration) and discuss potential biases introduced by this approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, Data Analysis
+  - **Evidence pointer** Location not provided
+  - **Issue** The PRE calculation uses C-alpha distances, but the spin label is attached to a sidechain. This approximation may introduce errors, especially for residues near the labeling site.
+  - **Required correction** Justify the use of C-alpha distances or discuss the potential impact of this approximation on the calculated PRE values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results and Discussion, Phosphorylation promotes trans-dimer NTAD-DBD contacts
+  - **Evidence pointer** Location not provided
+  - **Issue** The PCA analysis is described in a way that may be opaque to readers not familiar with dimensionality reduction techniques.
+  - **Required correction** Briefly explain what PCA captures in this context and why the first two principal components are sufficient to distinguish cis and trans states.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (parameterization validation), R1-M2 (quantitative PRE agreement), R1-M3 (quantitative cis/trans analysis). These are blocking because the central claims depend on them.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The extension of HyRes to phosphorylated sidechains is a useful technical contribution, but the biological hypothesis is largely consistent with prior experimental work. The trans-dimer mechanism is a potential new insight, but it is not fully established.
+  - **Scientific importance** High. Understanding p53 regulation is important for cancer biology, and the role of disordered regions in autoinhibition is a topic of broad interest.
+  - **Interdisciplinary readership** Moderate. The work will appeal to computational biophysicists and p53 researchers, but may be less accessible to a broader biological audience without additional context.
+  - **Technical soundness** Currently not fully established. The parameterization and validation lack quantitative detail, and the cis/trans analysis is not rigorously defined or statistically supported.
+  - **Readability for nonspecialists** Acceptable but could be improved with more context and clearer explanations of methods.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and the qualitative results are promising, but the lack of quantitative validation and analysis details prevents full assessment. I would be supportive if the technical concerns are resolved with additional data and clearer presentation.
+
+## Risk / unsupported claims
+- The claim that HyRes "accurately recapitulates" the effects of phosphorylation is not quantitatively supported without agreement metrics.
+- The claim that phosphorylation promotes trans-dimer interactions to enhance autoinhibition is not fully supported without defined state criteria and population statistics.
+- The claim that the simulated ensembles are "realistic and biologically relevant" is overstated given the noted discrepancies with experimental PRE data.
+- The parameterization of phosphorylated sidechains is described but not fully presented, making the model's accuracy unverifiable from the provided material.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39615185",
+  "title": "MRI-based radiomics virtual biopsy for BCL6 in primary central nervous system lymphoma.",
+  "authors": "Liu, J; Tu, J; Yao, L; Peng, L; Fang, R; Lu, Y; He, F; Xiong, J; Li, Y",
+  "journal": "Clinical radiology",
+  "published_date": "2024-12-01",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用MRI影像组学预测中枢神经系统淋巴瘤BCL6重排，属纯临床影像诊断，无蛋白质-DNA互作体系、无结合建模、无AI/物理模拟方法，与本课题无关。",
+  "abstract": "AIM: To establish a machine learning model based on a radiomic signature for predicting B-cell lymphoma 6 (BCL-6) rearrangement in primary central nervous system lymphoma (PCNSL). MATERIALS AND METHODS: Retrospective study on 102 PCNSL patients (31 with BCL-6 rearrangement positive, 71 with BCL-6 rearrangement negative) were randomly divided into the training and validation sets at a ratio of 7:3. Radiomics models based on contrast-enhanced T1-weighted imaging (CE-T1WI) and fluid-attenuated inversion recovery (FLAIR) in different regions, including VOI(tumour core) and VOI(peritumoural oedema.) Radiomics features were extracted and selected using LASSO regression, and radiomics score (rad-score) were calculated using the weighted coefficients. Four machine learning models (logistic regression, random forest, support vector machine, K-nearest neighbours) were developed and evaluated based on rad-score. The optimal radiomics model was integrated into the clinical or radiological factors to construct a predictive model through logistic regression analysis. A nomogram was constructed based on independent significant features for individualised prediction. RESULTS: All rad-scores based on CE-T1WI and FLAIR sequences were significantly associated with BCL6 rearrangement (p < 0.05) in univariate regression analysis. The logistic regression machine learning model performed best with AUCs of 0.935 (training) and 0.923 (validation). Rad-scores from CE-T1WI tumour core and peritumoural oedema were independent significant predictors. CONCLUSION: Radiomics signatures based on CE-T1WI and FLAIR sequences have significant value in distinguishing BCL6 rearrangement. The CE-T1WI radiomics model based on VOI(tumour core) and VOI(peritumoural oedema) are robust markers for identifying BCL6 rearrangement.",
+  "abstract_zh": "目的：建立基于影像组学特征的机器学习模型，用于预测原发性中枢神经系统淋巴瘤（PCNSL）中B细胞淋巴瘤6（BCL-6）重排。材料与方法：对102例PCNSL患者（31例BCL-6重排阳性，71例BCL-6重排阴性）进行回顾性研究，按7：3比例随机分为训练集和验证集。基于对比增强T1加权成像（CE-T1WI）和液体衰减反转恢复（FLAIR）序列在不同区域（包括VOI（肿瘤核心）和VOI（瘤周水肿））构建影像组学模型。使用LASSO回归提取并选择影像组学特征，并通过加权系数计算影像组学评分（rad-score）。基于rad-score开发并评估了四种机器学习模型（逻辑回归、随机森林、支持向量机、K近邻）。将最优影像组学模型整合到临床或放射学因素中，通过逻辑回归分析构建预测模型。基于独立显著特征构建列线图，用于个体化预测。结果：在单变量回归分析中，基于CE-T1WI和FLAIR序列的所有rad-score均与BCL6重排显著相关（p < 0.05）。逻辑回归机器学习模型表现最佳，训练集AUC为0.935，验证集AUC为0.923。来自CE-T1WI肿瘤核心和瘤周水肿的rad-score是独立显著预测因子。结论：基于CE-T1WI和FLAIR序列的影像组学特征在区分BCL6重排方面具有显著价值。基于VOI（肿瘤核心）和VOI（瘤周水肿）的CE-T1WI影像组学模型是识别BCL6重排的稳健标志物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39615185/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39615185/",
+  "paper_page_path": "papers/pubmed/39615185/index.html"
+}

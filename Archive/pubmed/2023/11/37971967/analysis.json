@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37971967",
+  "title": "FUN-PROSE: A deep learning approach to predict condition-specific gene expression in fungi.",
+  "authors": "Nambiar, Ananthan; Dubinkina, Veronika; Liu, Simon; Maslov, Sergei",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-11-17",
+  "window": {
+    "start": "2023-11-13",
+    "end": "2023-11-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习预测真菌条件特异性基因表达，虽涉及转录因子与启动子序列的关联，但核心是基因表达预测而非TF-DNA三维互作建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "mRNA levels of all genes in a genome is a critical piece of information defining the overall state of the cell in a given environmental condition. Being able to reconstruct such condition-specific expression in fungal genomes is particularly important to metabolically engineer these organisms to produce desired chemicals in industrially scalable conditions. Most previous deep learning approaches focused on predicting the average expression levels of a gene based on its promoter sequence, ignoring its variation across different conditions. Here we present FUN-PROSE-a deep learning model trained to predict differential expression of individual genes across various conditions using their promoter sequences and expression levels of all transcription factors. We train and test our model on three fungal species and get the correlation between predicted and observed condition-specific gene expression as high as 0.85. We then interpret our model to extract promoter sequence motifs responsible for variable expression of individual genes. We also carried out input feature importance analysis to connect individual transcription factors to their gene targets. A sizeable fraction of both sequence motifs and TF-gene interactions learned by our model agree with previously known biological information, while the rest corresponds to either novel biological facts or indirect correlations.",
+  "abstract_zh": "基因组中所有基因的mRNA水平是定义细胞在特定环境条件下整体状态的关键信息。在真菌基因组中重建这种条件特异性表达，对于代谢工程改造这些生物体以在工业可扩展条件下生产所需化学品尤为重要。以往大多数深度学习方法侧重于基于启动子序列预测基因的平均表达水平，忽略了其在不同条件下的变异。在此，我们提出FUN-PROSE——一种深度学习模型，利用启动子序列和所有转录因子的表达水平，训练以预测各条件下单个基因的差异表达。我们在三种真菌物种上训练并测试该模型，预测与观察到的条件特异性基因表达之间的相关性高达0.85。随后，我们解读模型以提取负责单个基因可变表达的启动子序列基序。我们还进行了输入特征重要性分析，将单个转录因子与其靶基因联系起来。模型学习到的序列基序和转录因子-基因相互作用中，相当一部分与已知生物学信息相符，其余部分则对应新发现的生物学事实或间接相关性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37971967/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37971967/",
+  "paper_page_path": "papers/pubmed/37971967/index.html"
+}

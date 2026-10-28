@@ -1,0 +1,382 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.28.569077",
+  "title": "TCR-H: Machine Learning Prediction of T-cell Receptor Epitope Binding on Unseen Datasets",
+  "doi": "10.1101/2023.11.28.569077",
+  "abstract": "AI/ML approaches to predicting T-cell receptor (TCR) epitope specificity achieve high performance metrics on test datasets which include sequences that are also part of the training set but fail to generalize to test sets consisting of epitopes and TCRs that are absent from the training set, i.e., unseen. We present TCR-H, a supervised classification Support Vector Machines model using physicochemical features trained on the largest dataset available to date using only experimentally validated non-binders as negative datapoints. TCR-H exhibits an area under the curve of the receiver-operator characteristic (AUC of ROC) of 0.87 for epitope ‘hard splitting’ (i.e., on test sets with all epitopes unseen), 0.92 for TCR hard splitting and 0.89 for ‘strict splitting’ in which neither the epitopes nor the TCRs in the test set are seen in the training data. TCR-H may thus represent a significant step towards general applicability of epitope:TCR specificity prediction.",
+  "authors": [
+    "Rajitha Rajeshwar T.",
+    "Omar Demerdash",
+    "Jeremy C. Smith"
+  ],
+  "published_date": "2023-11-29",
+  "updated_date": "2023-11-29T22:10:32Z",
+  "journal": "bioRxiv",
+  "category": "Immunology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.28.569077",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.28.569077.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Immunology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Immunology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:59:46Z",
+        "timestamp": 1768507186081,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            29
+          ]
+        ]
+      },
+      "group-title": "Immunology",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>AI/ML approaches to predicting T-cell receptor (TCR) epitope specificity achieve high performance metrics on test datasets which include sequences that are also part of the training set but fail to generalize to test sets consisting of epitopes and TCRs that are absent from the training set, i.e., unseen. We present TCR-H, a supervised classification Support Vector Machines model using physicochemical features trained on the largest dataset available to date using only experimentally validated non-binders as negative datapoints. TCR-H exhibits an area under the curve of the receiver-operator characteristic (AUC of ROC) of 0.87 for epitope ‘hard splitting’ (i.e., on test sets with all epitopes unseen), 0.92 for TCR hard splitting and 0.89 for ‘strict splitting’ in which neither the epitopes nor the TCRs in the test set are seen in the training data. TCR-H may thus represent a significant step towards general applicability of epitope:TCR specificity prediction.</jats:p>",
+      "DOI": "10.1101/2023.11.28.569077",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2023-11-29T22:10:32Z",
+        "timestamp": 1701295832000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "TCR-H: Machine Learning Prediction of T-cell Receptor Epitope Binding on Unseen Datasets"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Rajitha Rajeshwar",
+          "family": "T.",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Omar",
+          "family": "Demerdash",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jeremy C.",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1900918"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0408677102"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-immunol-042718"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.82978"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2022.893247"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2021.640725"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2008.01.008"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac542"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00727-0"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00619-3"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00619-3"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao, Y. , Gao, Y. , Li, W. , Wu, S. , Xing, F. , Zhou, C. , & Fu, S. (2023). Neo-epitope identification by weakly-supervised peptide-TCR binding prediction. 1.",
+          "DOI": "10.1101/2023.08.02.550128"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni.f.219"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2022.1014256"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41577-023-00835-3"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.06.02.543411"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.06.02.543411"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac788"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/JOURNAL.PCBI.1008814"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Korpela, D. , Jokinen, E. , & Dumitrescu, A. (2023). EPIC-TRACE: predicting TCR binding to unseen epitopes using attention and contextualized embeddings. BioRxiv Immunology, 1–18. https://www.biorxiv.org/content/10.1101/2023.06.26.546489v1?rss=1&utm_source=researcher_app&utm_medium=referral&utm_campaign=RESR_MRKT_Researcher_inbound",
+          "DOI": "10.1101/2023.06.26.546489"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-021-00383-2"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-020-01623-8"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbaa318"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni.2190"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac808"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.32614/rj-2015-001"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad284"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.82813"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26343"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.immunol.23.021704.115658"
+        },
+        {
+          "issue": "1",
+          "key": "2023121914350389000_2023.11.28.569077v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.4049/jimmunol.2200685",
+          "article-title": "HLA class I supertype classification based on structural similarity",
+          "volume": "210",
+          "year": "2023",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Szeto, C. , Lobos, C. A. , Nguyen, A. T. , & Gras, S. (2021). Szeto et al. - 2021 -TCR Recognition of Peptide–MHC-I Rule Makers and Breakers - ijms-22-00068-v2.pdf.",
+          "DOI": "10.3390/ijms22010068"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2023.1127470"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00641-5"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Z. , & Shen, Y. (2023). SABRE : Self-Attention Based model for predicting T-cell Receptor Epitope Specificity.",
+          "DOI": "10.1101/2023.10.02.560555"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab294"
+        },
+        {
+          "key": "2023121914350389000_2023.11.28.569077v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2023.1141535"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.28.569077",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:35:39Z",
+        "timestamp": 1768455339000
+      },
+      "score": 88.85826,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.28.569077"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            29
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.1101/2023.11.28.569077",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

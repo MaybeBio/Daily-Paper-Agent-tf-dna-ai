@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "41516076",
+    "doi": "10.3390/ijms27010196",
+    "title": "AI/ML-Assisted Detection of HMGA2 RNA Isoforms in Prostate Cancer Patient Tissue."
+  },
+  "content": {
+    "abstract": "RNA In Situ Hybridization (RISH) is a powerful tool for spatial gene expression analysis, yet its quantitative use remains limited by the high cost and inaccessibility of commercial software, particularly in under-resourced settings. This study developed an Artificial Intelligence/Machine Learning (AI/ML)-assisted RISH quantification pipeline to evaluate expression patterns of High Mobility Group AT Hook-2 (HMGA2) in prostate cancer (PCa), focusing on racial disparities. We created a machine learning model capable of analyzing RISH images. Expressions of full-length (wild-type) and truncated HMGA2 isoforms were assessed in tissues from 85 men of African descent, European American, and Asian descent. A training dataset was generated for supervised learning analysis of the full cohort. RISH findings revealed that the wild-type HMGA2 isoform was significantly more abundant in tumors from men of African descent and positively correlated with increasing Gleason grade. The truncated isoform was less abundant and did not display a consistent expression pattern across racial groups. These results demonstrate the feasibility of AI/ML-based RISH quantification and suggest that elevated wild-type HMGA2 expression may represent a biomarker linked to prostate cancer aggressiveness and racial disparities. These findings highlight the importance of interdisciplinary collaboration and equitable computational tools in advancing biomarker discovery and addressing cancer health inequities.",
+    "keywords": [
+      "AI",
+      "RNA in situ hybridization quantification",
+      "high mobility group AT-hook 2",
+      "isoform-specific gene expression",
+      "machine learning image analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/genetics/pathology/metabolism",
+      "*HMGA2 Protein/genetics/metabolism",
+      "Machine Learning",
+      "*RNA Isoforms/genetics",
+      "*Artificial Intelligence",
+      "In Situ Hybridization/methods",
+      "Biomarkers, Tumor/genetics",
+      "Aged",
+      "Middle Aged",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hwang, Bor-Jang",
+        "Akinniyi, Oluwatunmise",
+        "Harrison, Sharon",
+        "Gibbs, Denise",
+        "Waihenya, Charles",
+        "Gachii, Andrew",
+        "Dike, Precious E",
+        "Elliott, Bethtrice",
+        "Khalifa, Fahmi",
+        "Ragin, Camille",
+        "Odero-Marah, Valerie"
+      ],
+      "short_names": [
+        "Hwang BJ",
+        "Akinniyi O",
+        "Harrison S",
+        "Gibbs D",
+        "Waihenya C",
+        "Gachii A",
+        "Dike PE",
+        "Elliott B",
+        "Khalifa F",
+        "Ragin C",
+        "Odero-Marah V"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-4455-9266",
+        "ORCID: 0009-0002-2744-5475",
+        "ORCID: 0000-0002-6279-3814",
+        "ORCID: 0009-0007-8038-5594",
+        "ORCID: 0000-0003-3318-2851",
+        "ORCID: 0000-0003-0816-4942",
+        "ORCID: 0000-0001-7525-4652"
+      ],
+      "affiliations": [
+        "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+        "Department of Electrical and Computer Engineering, Morgan State University, Baltimore, MD 21251, USA.",
+        "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "Department of Surgery, University of Nairobi, Nairobi 00100, Kenya.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "Department of Pathology, Aga Khan University, Nairobi 00100, Kenya.",
+        "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+        "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "Department of Electrical and Computer Engineering, Morgan State University, Baltimore, MD 21251, USA.",
+        "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+        "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+        "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hwang, Bor-Jang",
+        "short_name": "Hwang BJ",
+        "identifiers": [
+          "0009-0001-4455-9266"
+        ],
+        "affiliations": [
+          "Department of Biology, Morgan State University, Baltimore, MD 21251, USA."
+        ]
+      },
+      {
+        "full_name": "Akinniyi, Oluwatunmise",
+        "short_name": "Akinniyi O",
+        "identifiers": [
+          "0009-0002-2744-5475"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Morgan State University, Baltimore, MD 21251, USA."
+        ]
+      },
+      {
+        "full_name": "Harrison, Sharon",
+        "short_name": "Harrison S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+        ]
+      },
+      {
+        "full_name": "Gibbs, Denise",
+        "short_name": "Gibbs D",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+        ]
+      },
+      {
+        "full_name": "Waihenya, Charles",
+        "short_name": "Waihenya C",
+        "identifiers": [],
+        "affiliations": [
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+          "Department of Surgery, University of Nairobi, Nairobi 00100, Kenya."
+        ]
+      },
+      {
+        "full_name": "Gachii, Andrew",
+        "short_name": "Gachii A",
+        "identifiers": [],
+        "affiliations": [
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA.",
+          "Department of Pathology, Aga Khan University, Nairobi 00100, Kenya."
+        ]
+      },
+      {
+        "full_name": "Dike, Precious E",
+        "short_name": "Dike PE",
+        "identifiers": [
+          "0000-0002-6279-3814"
+        ],
+        "affiliations": [
+          "Department of Biology, Morgan State University, Baltimore, MD 21251, USA."
+        ]
+      },
+      {
+        "full_name": "Elliott, Bethtrice",
+        "short_name": "Elliott B",
+        "identifiers": [
+          "0009-0007-8038-5594"
+        ],
+        "affiliations": [
+          "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+        ]
+      },
+      {
+        "full_name": "Khalifa, Fahmi",
+        "short_name": "Khalifa F",
+        "identifiers": [
+          "0000-0003-3318-2851"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Morgan State University, Baltimore, MD 21251, USA."
+        ]
+      },
+      {
+        "full_name": "Ragin, Camille",
+        "short_name": "Ragin C",
+        "identifiers": [
+          "0000-0003-0816-4942"
+        ],
+        "affiliations": [
+          "Cancer Prevention and Control Program, Fox Chase Cancer Center, Philadelphia, PA 19111, USA.",
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+        ]
+      },
+      {
+        "full_name": "Odero-Marah, Valerie",
+        "short_name": "Odero-Marah V",
+        "identifiers": [
+          "0000-0001-7525-4652"
+        ],
+        "affiliations": [
+          "Department of Biology, Morgan State University, Baltimore, MD 21251, USA.",
+          "The African Caribbean Cancer Consortium, Philadelphia, PA 19111, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Dec 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 06:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39763408",
+      "39447278",
+      "39123360",
+      "38754367",
+      "38744555",
+      "38510431",
+      "38496891",
+      "37858204",
+      "37113783",
+      "35714157",
+      "35122875",
+      "34390577",
+      "34141824",
+      "33731694",
+      "30177390",
+      "27016012",
+      "26818837",
+      "26242267",
+      "25845850",
+      "24747923",
+      "22166544",
+      "20576167",
+      "20440270",
+      "15882911"
+    ],
+    "similar": [
+      "41516076",
+      "39447278",
+      "26242267",
+      "30177390",
+      "27166397",
+      "31481527",
+      "41410015",
+      "17854662",
+      "23591597",
+      "27063096",
+      "23898062",
+      "19242826",
+      "26165228",
+      "27929737",
+      "32820256",
+      "20228781",
+      "8761372",
+      "29391048",
+      "41894385",
+      "21031435",
+      "34730818",
+      "33978716",
+      "19724911",
+      "30843003",
+      "24914948",
+      "25444913",
+      "40335872",
+      "28948632",
+      "40004558",
+      "9610565",
+      "38789385",
+      "40703517",
+      "41828319",
+      "33846810",
+      "26715270",
+      "25037576",
+      "39680021",
+      "41808619",
+      "26818837",
+      "37113783",
+      "27240983",
+      "31584209",
+      "28866255",
+      "40016318",
+      "23073586",
+      "26025649",
+      "31926806",
+      "33039710",
+      "32812281",
+      "20576167",
+      "40686703",
+      "23658372",
+      "32432734",
+      "33328045",
+      "40568593",
+      "28710822",
+      "40374004",
+      "24072184",
+      "40956849",
+      "41449174",
+      "38635241",
+      "31640781",
+      "36987772",
+      "25259793",
+      "27566105",
+      "29278873",
+      "25749380",
+      "24571540",
+      "33257506",
+      "35982181",
+      "41483979",
+      "26724257",
+      "30402842",
+      "33600062",
+      "33812851",
+      "32321981",
+      "25465337",
+      "40450974",
+      "40293712",
+      "30317663",
+      "31004600",
+      "32634132",
+      "19521953",
+      "41345436",
+      "18452175",
+      "24305048",
+      "32432318",
+      "24935062",
+      "8221692",
+      "26183485",
+      "34564768",
+      "41129487",
+      "28145099",
+      "41207909",
+      "41387087",
+      "40475780",
+      "24836057",
+      "29741809",
+      "42169592",
+      "38918844"
+    ],
+    "review": [
+      "41516076",
+      "41894385"
+    ],
+    "pmc": [
+      "12785557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27010196",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41516076/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

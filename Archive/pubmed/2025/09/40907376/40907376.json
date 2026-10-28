@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "40907376",
+    "doi": "10.1016/j.identj.2025.103890",
+    "title": "Quantitative Structure-activity Relationship-based Neural Network Model in Screening Potential Inhibitors from Brown Algae against RelA in Oral Squamous Cell Carcinoma."
+  },
+  "content": {
+    "abstract": "INTRODUCTION AND AIM: Oral squamous cell carcinomas (OSCCs) are one of the most frequently diagnosed head and neck cancers with a poor prognosis despite the advancements in diagnostic techniques and treatment strategies. The progression of OSCC is driven by several molecular mechanisms, among them the overexpression of transcription factor RelA, which plays a crucial role by correlating with the clinicopathological characteristics. METHODS: This systematic investigation focused on identifying the top 25 crucial molecular descriptors to predict the RelA inhibitor through the quantitative structure-activity relationship (QSAR)-based artificial neural network model. RESULTS: In this study, the developed multilayer perceptron model showed an accuracy of 91.37% in the classification of active inhibitors, with a Matthews correlation coefficient (MCC) of 0.89. Then the model was assessed for the 1221 brown algae-derived compounds, identifying 1014 as the most active RelA inhibitors. Further, molecular docking revealed that phlorethopentafuhalol-A had a higher affinity based on the binding energy of -8.45 kcal/mol than the known RelA inhibitors (-5.30 to -1.31 kcal/mol). Molecular dynamics (MD) simulation confirmed that phlorethopentafuhalol-A formed a stable conformation with the RelA based on the trajectory analysis. CONCLUSIONS: Overall, this analysis demonstrated that phlorethopentafuhalol-A could be a potential RelA inhibitor that may be useful in the treatment of OSCC on further investigation. CLINICAL RELEVANCE: The multilayer perceptron model extracted relevant descriptors to predict the inhibitory properties of each compound. Using these descriptors, potential inhibitory molecules were predicted from a dataset of compounds sourced from brown algae. The predicted molecule was then evaluated for its interaction with the RelA protein through molecular docking and MD simulations.",
+    "keywords": [
+      "Artificial neural network",
+      "Cancer",
+      "Molecular docking",
+      "Molecular dynamic simulation",
+      "Oral squamous cell carcinomas",
+      "RelA transcription factor"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Quantitative Structure-Activity Relationship",
+      "Humans",
+      "*Mouth Neoplasms/drug therapy",
+      "*Carcinoma, Squamous Cell/drug therapy",
+      "*Transcription Factor RelA/antagonists & inhibitors",
+      "Molecular Docking Simulation",
+      "*Phaeophyceae/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alqarni, Abdullah",
+        "Hosmani, Jagadish",
+        "Alassiri, Saeed",
+        "Alqahtani, Ali Mosfer A",
+        "Assiri, Hassan Ahmed",
+        "AlHousami, Thabet",
+        "Zaki, Hattan",
+        "Patil, Shankargouda"
+      ],
+      "short_names": [
+        "Alqarni A",
+        "Hosmani J",
+        "Alassiri S",
+        "Alqahtani AMA",
+        "Assiri HA",
+        "AlHousami T",
+        "Zaki H",
+        "Patil S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia.",
+        "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia.",
+        "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia.",
+        "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia.",
+        "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia.",
+        "Department of Basic and Clinical Oral Sciences, College of Dental Medicine, Umm Al-Qura University, Makkah, Saudi Arabia.",
+        "Department of Oral and Maxillofacial Diagnostic Sciences, Dental College and Hospital, Taibah University, Madinah, Saudi Arabia.",
+        "College of Dental Medicine, Roseman University of Health Sciences, South Jordan, Utah, USA; College of Graduate Studies, Roseman University of Health Science, South Jordan, Utah, USA. Electronic address: spatil@roseman.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alqarni, Abdullah",
+        "short_name": "Alqarni A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hosmani, Jagadish",
+        "short_name": "Hosmani J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alassiri, Saeed",
+        "short_name": "Alassiri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alqahtani, Ali Mosfer A",
+        "short_name": "Alqahtani AMA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Assiri, Hassan Ahmed",
+        "short_name": "Assiri HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Dental Sciences & Oral Biology, College of Dentistry, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "AlHousami, Thabet",
+        "short_name": "AlHousami T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic and Clinical Oral Sciences, College of Dental Medicine, Umm Al-Qura University, Makkah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Zaki, Hattan",
+        "short_name": "Zaki H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Diagnostic Sciences, Dental College and Hospital, Taibah University, Madinah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Patil, Shankargouda",
+        "short_name": "Patil S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Dental Medicine, Roseman University of Health Sciences, South Jordan, Utah, USA; College of Graduate Studies, Roseman University of Health Science, South Jordan, Utah, USA. Electronic address: spatil@roseman.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International dental journal"
+    ],
+    "journal_abbrev": [
+      "Int Dent J"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 00:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40192963",
+      "38098889",
+      "37935248",
+      "37909954",
+      "37689894",
+      "37291585",
+      "37100941",
+      "36946499",
+      "36789977",
+      "36460626",
+      "36247684",
+      "36230547",
+      "36029729",
+      "35543232",
+      "35396527",
+      "34769170",
+      "34689597",
+      "34509085",
+      "33597599",
+      "33539010",
+      "33478586",
+      "32986829",
+      "32046099",
+      "31904426",
+      "31727782",
+      "29799486",
+      "29695914",
+      "27573656",
+      "26252407",
+      "25883136",
+      "24009950",
+      "22649547",
+      "21425294",
+      "20149058",
+      "19468060",
+      "18096889",
+      "17993408",
+      "17355113",
+      "16902988",
+      "15027865",
+      "11485895",
+      "8324651"
+    ],
+    "similar": [
+      "40907376",
+      "39225961",
+      "36789977",
+      "40233673",
+      "38493718",
+      "32746771",
+      "39368576",
+      "35510607",
+      "38059345",
+      "40452077",
+      "40436160",
+      "37043160",
+      "40705527",
+      "38886315",
+      "39533555",
+      "37424193",
+      "36841313",
+      "41192116",
+      "39289945",
+      "38582821",
+      "38507171",
+      "39527993",
+      "33475043",
+      "40748969",
+      "38884119",
+      "40526272",
+      "38856753",
+      "40335842",
+      "38994626",
+      "37888480",
+      "37203327",
+      "40208786",
+      "40743310",
+      "38385447",
+      "38954072",
+      "30599913",
+      "33266352",
+      "38299297",
+      "37715109",
+      "38425011",
+      "40033499",
+      "40471955",
+      "23863115",
+      "40583423",
+      "33336624",
+      "41497266",
+      "39560899",
+      "37698364",
+      "41351698",
+      "38637479",
+      "36843559",
+      "38100571",
+      "39240431",
+      "33915968",
+      "30324898",
+      "38322303",
+      "39705084",
+      "33565001",
+      "22199286",
+      "37526306",
+      "35812153",
+      "41001798",
+      "31745103",
+      "30047845",
+      "39013949",
+      "36995063",
+      "40200904",
+      "31916502",
+      "36234844",
+      "38299565",
+      "41006797",
+      "39729782",
+      "36597611",
+      "37656159",
+      "40602021",
+      "38240951",
+      "33252029",
+      "37599462",
+      "36586228",
+      "34727985",
+      "37694791",
+      "33164832",
+      "36239842",
+      "27570070",
+      "34478925",
+      "30557817",
+      "37723904",
+      "40289719",
+      "29595111",
+      "35331101",
+      "40011571",
+      "37615817",
+      "41166761",
+      "37728536",
+      "39864356",
+      "35318905",
+      "37695635",
+      "41045407",
+      "40007185",
+      "30605855"
+    ],
+    "review": [
+      "40907376",
+      "36841313",
+      "38884119"
+    ],
+    "pmc": [
+      "12444473"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020-6539(25)03174-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40907376/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0020-6539(25)03174-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

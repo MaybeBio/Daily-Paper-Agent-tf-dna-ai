@@ -1,0 +1,216 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.11.693723",
+  "title": "Identification of genomic features that uniquely impact estrogen receptor alpha binding and its effects on gene expression in endometrial cancer",
+  "doi": "10.64898/2025.12.11.693723",
+  "abstract": "Estrogen receptor alpha (ER) is an established oncogenic transcription factor in breast and endometrial cancer; however, more is known about the mechanisms controlling ER behavior in breast cancer, and therapies targeting ER have been much more successful in breast cancer. To address this disparity, we characterize the genomic features that control ER in endometrial cancer and determine to what extent these factors differ from those in breast cancer. We focus on the locations of estrogen response elements (EREs), ER’s preferred DNA binding motif, throughout the human genome. To identify factors that predict ER genomic binding and effects on target gene expression, we apply machine learning to genomic data for each ERE in Ishikawa cells (ER-positive endometrial cancer) and T-47D cells (ER-positive breast cancer). Many of these factors, such as chromatin accessibility and histone modifications, are predictive of ER activity in both cell lines. However, the transcription factors that predict ER activity are cell type-specific, including FOXA1 and GATA3 in T-47D cells, and ETV4 and SOX17 in Ishikawa cells. In addition, the features that predict ER binding and effects on gene expression differ, with transcription at EREs in the absence of estrogen being predictive of ER regulatory activity. A CRISPR knockout screen in Ishikawa cells, and follow-up experiments, confirm the discovery that SOX17 controls ER activity in endometrial cancer cells. These results identify important genomic features of ER binding and regulatory activity and how these features differ between endometrial cancer and breast cancer cells.",
+  "authors": [
+    "Richey A",
+    "Kitchen N",
+    "Rush CM",
+    "Vahrenkamp JM",
+    "Abewe H",
+    "Osbourne KS",
+    "Bott AJ",
+    "Dalley BK",
+    "Rutter J",
+    "Gertz J"
+  ],
+  "published_date": "2025-12-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693723",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693723.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1231459",
+    "raw_record": {
+      "id": "PPR1231459",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.11.693723",
+      "title": "Identification of genomic features that uniquely impact estrogen receptor alpha binding and its effects on gene expression in endometrial cancer",
+      "authorString": "Richey A, Kitchen N, Rush CM, Vahrenkamp JM, Abewe H, Osbourne KS, Bott AJ, Dalley BK, Rutter J, Gertz J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Richey A",
+            "lastName": "Richey",
+            "firstName": "Alexandra",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-1297-8006"
+            }
+          },
+          {
+            "fullName": "Kitchen N",
+            "lastName": "Kitchen",
+            "firstName": "Noel",
+            "initials": "N"
+          },
+          {
+            "fullName": "Rush CM",
+            "lastName": "Rush",
+            "firstName": "Craig",
+            "initials": "CM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1036-6909"
+            }
+          },
+          {
+            "fullName": "Vahrenkamp JM",
+            "lastName": "Vahrenkamp",
+            "firstName": "Jeffery",
+            "initials": "JM"
+          },
+          {
+            "fullName": "Abewe H",
+            "lastName": "Abewe",
+            "firstName": "Hosiana",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3003-1177"
+            }
+          },
+          {
+            "fullName": "Osbourne KS",
+            "lastName": "Osbourne",
+            "firstName": "Kyle",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Bott AJ",
+            "lastName": "Bott",
+            "firstName": "Alex",
+            "initials": "AJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2273-8922"
+            }
+          },
+          {
+            "fullName": "Dalley BK",
+            "lastName": "Dalley",
+            "firstName": "Brian",
+            "initials": "BK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-9774-5200"
+            }
+          },
+          {
+            "fullName": "Rutter J",
+            "lastName": "Rutter",
+            "firstName": "Jared",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2710-9765"
+            }
+          },
+          {
+            "fullName": "Gertz J",
+            "lastName": "Gertz",
+            "firstName": "Jason",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1036-6909"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2710-9765"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2273-8922"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3003-1177"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-1297-8006"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-9774-5200"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Estrogen receptor alpha (ER) is an established oncogenic transcription factor in breast and endometrial cancer; however, more is known about the mechanisms controlling ER behavior in breast cancer, and therapies targeting ER have been much more successful in breast cancer. To address this disparity, we characterize the genomic features that control ER in endometrial cancer and determine to what extent these factors differ from those in breast cancer. We focus on the locations of estrogen response elements (EREs), ER’s preferred DNA binding motif, throughout the human genome. To identify factors that predict ER genomic binding and effects on target gene expression, we apply machine learning to genomic data for each ERE in Ishikawa cells (ER-positive endometrial cancer) and T-47D cells (ER-positive breast cancer). Many of these factors, such as chromatin accessibility and histone modifications, are predictive of ER activity in both cell lines. However, the transcription factors that predict ER activity are cell type-specific, including FOXA1 and GATA3 in T-47D cells, and ETV4 and SOX17 in Ishikawa cells. In addition, the features that predict ER binding and effects on gene expression differ, with transcription at EREs in the absence of estrogen being predictive of ER regulatory activity. A CRISPR knockout screen in Ishikawa cells, and follow-up experiments, confirm the discovery that SOX17 controls ER activity in endometrial cancer cells. These results identify important genomic features of ER binding and regulatory activity and how these features differ between endometrial cancer and breast cancer cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.11.693723"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42469015",
+            "reference": "Genome research. \n    2026 Jul;:gr.281792.125",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-15",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that niclosamide (NIC) acts as an antivirulence agent against *Pseudomonas aeruginosa* by disrupting LasR-mediated quorum sensing, based on in vitro phenotypic assays (biofilm, pyocyanin, rhamnolipid), a LasR antagonism assay, and in silico molecular modeling with MD simulations, corroborated by sedimentation velocity and thermal shift experiments.
+- **Visible evidence base** Abstract text only; specific numerical results for biofilm, pyocyanin, rhamnolipid, and IC50 are reported, but no methodological details, statistical analyses, or experimental replicates are visible
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, strain information, positive/negative controls, MD simulation parameters, and raw data for sedimentation velocity and thermal shift assays
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting repurposing hypothesis for niclosamide as a quorum sensing inhibitor. The reported phenotypic reductions and the LasR IC50 value are quantitatively specific, which is encouraging. However, the evidence base is too limited to assess the robustness of the claims. Key issues include the absence of statistical context, unclear dose-response relationships for the phenotypic assays, and insufficient detail on the molecular dynamics and biophysical corroboration. The link between LasR binding and the observed phenotypic effects is plausible but not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug repurposing, quorum sensing biology, and *P. aeruginosa* pathogenesis would find these results relevant. The potential to use an FDA-approved drug as an antivirulence agent could interest translational microbiologists and clinicians seeking adjunctive therapies for chronic infections.
+- **Major strengths** The study combines multiple orthogonal approaches (phenotypic assays, receptor antagonism, molecular modeling, biophysical validation) which strengthens the overall case. The reported IC50 value for LasR antagonism is a clear quantitative metric. The focus on sub-inhibitory concentrations is appropriate for an antivirulence strategy.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** "NIC resulted in a 45.4 % reduction in biofilm formation, a 48.8 % decrease in pyocyanin production, and a 41.3 % reduction in rhamnolipid production"
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract reports single percentage reductions without any indication of variability, number of replicates, or statistical significance. It is unclear whether these values represent means, medians, or single experiments, and whether the reductions are statistically significant relative to controls.
+  - **Why it matters** Without error bars, confidence intervals, or p-values, the reader cannot assess whether the observed reductions are reproducible or within experimental noise. This is a fundamental requirement for establishing a biological effect.
+  - **Resolution test** Provide mean values with standard deviation or standard error, number of independent replicates, and appropriate statistical tests (e.g., t-test or ANOVA) for each phenotypic assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response relationship
+  - **Claim pointer** "Sub-inhibitory concentrations of NIC (64 mug/ml) were evaluated" and "NIC displayed a dose-dependent antagonistic effect on LasR, with an IC50 of 5.82 +/- 0.17 muM"
+  - **Evidence pointer** Abstract, methods and results; location not provided
+  - **Concern** The abstract states that 64 µg/ml was used for phenotypic assays, but the IC50 for LasR antagonism is reported in µM units. The relationship between these concentrations is not clarified. Additionally, it is unclear whether the phenotypic effects were tested at multiple concentrations or only at a single concentration, which would be insufficient to claim a dose-dependent phenotypic response.
+  - **Why it matters** The claim of dose-dependency is only made for the LasR assay, not for the phenotypic outcomes. Without a concentration series for biofilm and pigment production, the antivirulence effect cannot be properly characterized, and the relevance of the IC50 to the phenotypic assays remains ambiguous.
+  - **Resolution test** Clarify the molar concentration corresponding to 64 µg/ml, present dose-response curves for biofilm, pyocyanin, and rhamnolipid, and state whether the phenotypic effects were observed across a range of sub-inhibitory concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** "Molecular modeling and molecular dynamics (MD) simulations indicated that NIC interacts with LasR, hindering its dimerization and destabilizing its structure. These findings were corroborated by sedimentation velocity experiments and thermal shift assays."
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract claims that MD simulations show hindered dimerization and structural destabilization, and that this is corroborated by biophysical experiments. However, no quantitative data from the simulations (e.g., binding free energy, RMSD, dimer interface contacts) or from the biophysical assays (e.g., sedimentation coefficients, melting temperatures) are provided. The term "corroborated" is used without presenting the actual experimental outputs.
+  - **Why it matters** The mechanistic claim is central to the paper's thesis. Without quantitative biophysical data, the reader cannot evaluate whether the simulations and experiments genuinely support the proposed mechanism of LasR destabilization, or whether the effects are minor or non-specific.
+  - **Resolution test** Provide key simulation metrics (e.g., binding energy, contact maps, stability over time) and quantitative results from sedimentation velocity (e.g., S-values, oligomeric state) and thermal shift assays (e.g., Tm shifts) with appropriate controls.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Concentration unit consistency
+  - **Affected element** Methods and results
+  - **Evidence pointer** Abstract, methods and results; location not provided
+  - **Issue** The abstract mixes µg/ml and µM units without conversion, which may confuse readers.
+  - **Required correction** Use a single unit system or provide conversions for all concentrations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Control conditions
+  - **Affected element** Experimental design
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** No mention of positive or negative controls for the phenotypic assays or the LasR antagonism assay.
+  - **Required correction** State which controls were used (e.g., known QS inhibitors, solvent controls) and confirm that NIC alone did not affect bacterial growth at the tested concentrations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clinical relevance
+  - **Affected element** Discussion
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Issue** The claim that NIC makes *P. aeruginosa* "more vulnerable to conventional antibiotics and immune responses" is speculative and not directly tested in this study.
+  - **Required correction** Soften this claim or clearly label it as a hypothesis for future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness), R1-M2 (dose-response relationship), R1-M3 (mechanistic link)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Repurposing niclosamide for QS inhibition is not entirely novel, but the combination of approaches may offer new insights.
+  - Scientific importance: Moderate. Antivirulence strategies are of interest, but the clinical impact of QS inhibition alone remains debated.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to microbiologists and pharmacologists, with less broad appeal.
+  - Technical soundness: Not assessable from the abstract. The lack of statistical detail and quantitative biophysical data prevents evaluation.
+  - Readability for nonspecialists: The abstract is generally clear, but the mixing of units and the absence of context for the biophysical methods may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and some encouraging preliminary data, but the lack of statistical context, dose-response information, and quantitative biophysical validation means the core claims cannot be evaluated. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that NIC "hinders LasR dimerization and destabilizes its structure" is not supported by quantitative data in the abstract.
+- The statement that NIC makes *P. aeruginosa* "more vulnerable to conventional antibiotics and immune responses" is speculative and not tested.
+- The phenotypic reductions (45.4%, 48.8%, 41.3%) are reported without statistical significance or variability, making them unverifiable from the abstract.
+- The relationship between the LasR IC50 (5.82 µM) and the phenotypic assay concentration (64 µg/ml) is not established.

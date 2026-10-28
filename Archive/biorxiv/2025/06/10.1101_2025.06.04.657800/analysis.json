@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.04.657800",
+  "title": "Advancing Ligand Binding Affinity Prediction with Cartesian Tensor-Based Deep Learning",
+  "authors": "Jie Yu; Xia Sheng; Zhehuan Fan; Zhaokun Wang; Duanhua Cao; Yongxin Hao; Yingying Zhang; Panpan Shao; Huicong Ma; Tian Cao; JingXin Rao; Mingan Chen; Kaixian Chen; Xutong Li; Dan Teng; Xiaomin Luo; Mingliang Wang; Sulin Zhang; Mingyue Zheng",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-07",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于笛卡尔张量的深度学习模型PBCNet2.0预测蛋白-配体结合亲和力，虽非TF-DNA体系，但其蛋白-配体互作建模与空间几何感知方法可迁移至TF-DNA结合位点预测与互作机制研究。",
+  "abstract": "0. Abstract We present PBCNet2.0, a cartesian tensor-based Siamese Neural Network for protein-ligand relative binding affinity prediction. Trained on 8.6 million protein-ligand complex structure pairs, PBCNet2.0 achieves zero-shot performance comparable to computationally intensive physics-based simulations. Our prioritization experiments show that PBCNet2.0 speeds up binding affinity optimization by 718% while reducing resource use by 41%. Through extensive retrospective experiments, we demonstrate that PBCNet2.0 intrinsically comprehends protein-ligand interactions, showing high sensitivity to intermolecular interactions and exceptional perception of spatial geometric information. Strikingly, PBCNet2.0 exhibits an emergent capability to predict affinity changes induced by binding residue variations, highlighting its potential for identifying resistance mutation. We prospectively validated these capabilities on two targets ENPP1 and ALDH1B1, where PBCNet2.0 successfully identified affinity shifts arising from subtle molecular interactions and conformational differences, and pinpointed critical binding residues with an 83% hit rate. This combination of computational efficiency, spatial geometric perception of binding site, and generalizable affinity prediction establishes PBCNet2.0 as a transformative tool for developing pharmacological probes for all human proteins.",
+  "abstract_zh": "0. 摘要 我们提出了PBCNet2.0，一种基于笛卡尔张量的Siamese神经网络，用于蛋白质-配体相对结合亲和力预测。在860万个蛋白质-配体复合物结构对上进行训练后，PBCNet2.0实现了与计算密集型的基于物理的模拟相当的零样本性能。我们的优先级排序实验表明，PBCNet2.0将结合亲和力优化速度提高了718%，同时资源使用减少了41%。通过广泛的回顾性实验，我们证明PBCNet2.0内在地理解蛋白质-配体相互作用，对分子间相互作用表现出高敏感性，并对空间几何信息具有卓越的感知能力。引人注目的是，PBCNet2.0展现出一种涌现能力，能够预测由结合残基变异引起的亲和力变化，突显了其在识别耐药突变方面的潜力。我们在两个靶点ENPP1和ALDH1B1上前瞻性验证了这些能力，PBCNet2.0成功识别出由微妙分子相互作用和构象差异引起的亲和力变化，并以83%的命中率精确定位了关键结合残基。这种计算效率、结合位点空间几何感知以及可泛化的亲和力预测的结合，确立了PBCNet2.0作为开发所有人类蛋白质药理学探针的变革性工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657800",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657800",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.04.657800/index.html"
+}

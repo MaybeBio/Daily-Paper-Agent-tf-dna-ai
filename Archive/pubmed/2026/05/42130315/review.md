@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors report an integrative computational study combining AlphaFold ensemble modeling and all-atom molecular dynamics simulations to construct a dynamic model of full-length MDM2. They claim identification of a previously uncharacterized autoinhibitory helix upstream of the central acidic domain that dynamically masks the N-terminal p53-binding pocket, a multistep unmasking pathway, a stabilization mechanism in which the same helix acts as an adaptive clamp in the bound complex, evolutionary conservation of this gating apparatus among MDM2 homologues, and therapeutic implications for the p53-MDM2 axis.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, simulation parameters, validation metrics, sequence alignment data, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant computational study addressing a long-standing challenge in structural biology, namely the characterization of full-length MDM2 with its extensive intrinsically disordered regions. The proposed dual-function helix concept is conceptually appealing and could offer new perspectives on MDM2 regulation. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the conformational sampling, or the robustness of the evolutionary conservation claim. The therapeutic implications are stated without supporting evidence. The work may be of interest to the structural biology and p53 signaling communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and their dynamic regulation, cancer researchers focused on the p53-MDM2 axis as a therapeutic target, and computational biologists interested in integrative modeling approaches combining machine learning-based structure prediction with molecular dynamics. The proposed autoinhibitory mechanism and its evolutionary conservation would also appeal to those studying MDM2 family evolution and function.
+- **Major strengths** The study addresses a genuinely difficult problem, namely the structural characterization of a full-length protein with large disordered regions, using a contemporary integrative approach. The concept of a single helix performing dual functions, autoinhibition and adaptive clamping, is elegant and mechanistically plausible. The focus on dynamic conformational ensembles rather than static structures is appropriate for the system under study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that AlphaFold ensemble modeling and all-atom molecular dynamics simulations were integrated to construct a comprehensive, dynamic model of full-length MDM2.
+  - **Evidence pointer** Abstract only; methods not provided
+  - **Concern** The abstract provides no information on the simulation length, force field parameters, number of replicas, convergence criteria, or validation of the AlphaFold ensemble against experimental data. Without these details, the reliability of the conformational landscape sampling cannot be assessed. Intrinsically disordered regions are notoriously difficult to sample adequately, and the claim of a "comprehensive" model requires demonstration of convergence and statistical robustness.
+  - **Why it matters** The central conclusions, including the existence of the autoinhibitory helix and the multistep unmasking pathway, depend entirely on the quality and convergence of the simulations. If the sampling is inadequate or the force field biases the results, the identified helix and its proposed dynamics could be artifacts.
+  - **Resolution test** Provide detailed methods including simulation lengths, force field and water model, temperature and pressure coupling schemes, number of independent replicates, convergence metrics (e.g., RMSD stabilization, cluster population analysis), and comparison of the AlphaFold ensemble with any available experimental data such as SAXS or NMR chemical shifts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The abstract claims that the dynamic gating apparatus is evolutionarily conserved among MDM2 homologues.
+  - **Evidence pointer** Abstract only; sequence alignment data not provided
+  - **Concern** No evidence is presented to support the evolutionary conservation claim. The abstract does not indicate which homologues were analyzed, what sequence or structural criteria were used to define conservation, or whether the functional dynamics were assessed in homologues beyond sequence identity. Conservation of a dynamic feature is much harder to establish than conservation of a static structural motif.
+  - **Why it matters** This claim extends the significance of the work beyond human MDM2 and implies functional relevance across species. If the conservation analysis is superficial, the claim overreaches the data.
+  - **Resolution test** Provide the multiple sequence alignment, the list of species analyzed, the conservation scoring method, and ideally structural or dynamic evidence from at least one non-human homologue to demonstrate that the dual-function behavior is preserved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that the findings suggest new avenues for therapeutic targeting of the p53-MDM2 axis.
+  - **Evidence pointer** Abstract only; no therapeutic data provided
+  - **Concern** The therapeutic implication is stated without any supporting evidence. No druggable pockets beyond the known p53-binding site are identified, no small molecule or peptide-based intervention is tested, and no comparison with existing MDM2 inhibitors is made. This claim appears speculative.
+  - **Why it matters** Therapeutic claims in a computational study require at least a structural rationale for druggability and ideally some proof-of-concept validation. Without this, the claim is not supported and may mislead readers about the translational readiness of the findings.
+  - **Resolution test** Either remove the therapeutic claim or provide additional analysis such as pocket detection, druggability scoring, or proof-of-concept simulations with a known or designed ligand.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "important oncogene" is imprecise. MDM2 is an oncogene, but the qualifier "important" adds no information and could be replaced with a more specific descriptor such as "a frequently amplified oncogene" if supported by the literature.
+  - **Required correction** Revise to a more precise descriptor or remove the qualifier.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not state whether the full-length MDM2 model or the simulation trajectories will be made publicly available. For a computational study, data availability is critical for reproducibility and for the community to build on the findings.
+  - **Required correction** State in the abstract or elsewhere that models and trajectories will be deposited in a public repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Definition of "upstream"
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The location of the autoinhibitory helix is described as "upstream of the central acidic domain" without specifying the exact residue range. Given that MDM2 has multiple domains, the precise location is important for readers to evaluate the claim.
+  - **Required correction** Provide the residue range or domain boundary in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology and convergence), R1-M2 (evolutionary conservation evidence), R1-M3 (therapeutic claim support)
+- **Assessment against Nature-style criteria** Originality: the dual-function helix concept is novel and potentially original, but the abstract does not allow assessment of whether similar mechanisms have been proposed for other E3 ligases or MDM2 itself. Scientific importance: the p53-MDM2 axis is of high importance in cancer biology, and a dynamic model of full-length MDM2 would be a valuable contribution, but the importance is not yet demonstrated from the abstract alone. Interdisciplinary readership: the work bridges structural biology, computational biophysics, and cancer biology, which could attract a broad audience, but the abstract is written in a way that is accessible to specialists rather than a general scientific audience. Technical soundness: cannot be assessed from the abstract; the absence of methodological detail is a major limitation. Readability for nonspecialists: the abstract is reasonably clear but uses domain-specific terms without explanation, and the therapeutic claim may overstate the findings for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the study addresses an important problem, but the abstract alone does not provide sufficient technical detail to assess the validity of the simulations, the strength of the conservation claim, or the basis for the therapeutic implications. The authors should be encouraged to provide the full manuscript with detailed methods and supporting evidence.
+
+## Risk / unsupported claims
+- The claim of a "comprehensive, dynamic model" of full-length MDM2 is unsupported without convergence and validation data.
+- The claim of a "multistep unmasking pathway" is unsupported without evidence of distinct, populated intermediate states.
+- The claim of evolutionary conservation of the gating apparatus is unsupported without alignment and functional data.
+- The claim of "novel mechanistic insights" is partially supported by the proposed dual-function concept but requires validation.
+- The therapeutic implications are unsupported and should be reframed as speculative or removed.
+- The existence of the autoinhibitory helix itself is unverifiable from the abstract alone, as no structural coordinates or validation are provided.

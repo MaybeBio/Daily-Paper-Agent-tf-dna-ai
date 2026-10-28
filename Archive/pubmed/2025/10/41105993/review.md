@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico study of diosgenin, a saponin-derived compound from fenugreek and related plants, using molecular docking and molecular dynamics simulations to assess its binding to DNA, HIF-1alpha oxidoreductase, and NF-kB p50. They report optimized molecular properties (energy, dipole moment, polarisability) and binding affinities of -144.42 kcal/mol for diosgenin-DNA, -9.49 kcal/mol for diosgenin-oxidoreductase, and -8.69 kcal/mol for diosgenin-NF-kB p50. The conclusion proposes that anticancer activity arises from inhibition of these targets and restriction of DNA transcription.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation metrics, or structural data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, docking protocols, force field parameters, simulation length and convergence criteria, validation of docking scores, structural coordinates, statistical analyses, and any comparison with experimental or known inhibitor data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but preliminary computational study. The central claims of binding and inhibition are not established from the supplied material because key methodological details and validation are absent. The reported binding affinity for the diosgenin-DNA interaction (-144.42 kcal/mol) is atypical and raises concerns about the scoring function or units used. The link between docking scores and biological inhibition is asserted rather than demonstrated. The work may be of interest to computational chemists and cancer biology researchers, but the evidence base is insufficient to support the conclusions as stated.
+- **Who would be interested in the results, and why** Computational biologists and medicinal chemists investigating natural product interactions with nucleic acids and proteins may find the docking and MD approach relevant. Researchers focused on diosgenin or saponin-based anticancer agents could use these results as a starting point for experimental validation. However, the interest is conditional on the technical soundness of the simulations being established.
+- **Major strengths** The study addresses a biologically relevant question regarding a natural product with potential anticancer properties. The choice of three distinct targets (DNA, an oxidoreductase, and a transcription factor) is reasonable for a preliminary screening. The use of both docking and MD simulations suggests an attempt to go beyond static binding predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The binding affinity of diosgenin-DNA was reported as -144.42 kcal/mol.
+  - **Evidence pointer** Results section, abstract
+  - **Concern** The magnitude of the reported DNA binding affinity is far outside typical ranges for noncovalent small molecule-DNA interactions, which are usually on the order of -5 to -15 kcal/mol. This value suggests either a different scoring function, a covalent interaction model, or an error in units or calculation.
+  - **Why it matters** If the scoring method is not standard or the value is miscalculated, the comparison across the three targets is invalid, and the conclusion that DNA binding is the strongest interaction is unsupported.
+  - **Resolution test** Provide the scoring function used, the units, and a validation of the docking protocol against known DNA binders. If the value is correct, explain the physical basis for such a large negative affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The conclusion states that anticancer activity is achieved due to inhibition of HIF-1alpha oxidoreductases, NF-kB p50, and DNA transcription restriction.
+  - **Evidence pointer** Conclusion section, abstract
+  - **Concern** The abstract reports binding affinities but provides no functional assays, no cellular or in vivo data, and no evidence that binding translates to inhibition of enzymatic activity or transcription. The leap from docking scores to a mechanism of anticancer activity is not supported.
+  - **Why it matters** The central claim of the paper is a biological outcome, but the evidence is purely computational and correlative. Without experimental validation or at least strong structural and dynamic evidence of inhibitory mechanisms, the conclusion overreaches.
+  - **Resolution test** Include experimental inhibition data, or clearly reframe the conclusion as a hypothesis for further testing. If experimental data are not available, the conclusion must be softened to reflect the predictive nature of the study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study used molecular dynamics and molecular docking, but no parameters are given.
+  - **Evidence pointer** Methods section, abstract
+  - **Concern** The abstract does not specify the software, force field, water model, simulation time, temperature, pressure, or convergence criteria for the MD simulations. Docking parameters such as grid box size, exhaustiveness, and receptor preparation are also absent.
+  - **Why it matters** Without these details, the results cannot be reproduced or independently assessed. The scientific value of the study depends on the reliability of the computational protocol.
+  - **Resolution test** Provide a full methods description in the manuscript, including all software versions and parameters, and confirm that the simulations reached equilibrium and convergence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, abstract
+  - **Issue** The introduction states that diosgenin is sourced from saponin dioscin, but the relationship between diosgenin and dioscin is not clarified. Dioscin is a glycoside, and diosgenin is its aglycone. This distinction is important for chemical accuracy.
+  - **Required correction** Clarify the chemical relationship between diosgenin and dioscin, and specify the exact compound used in the simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results section, abstract
+  - **Issue** The optimized molecular properties (energy, dipole moment, polarisability) are reported without context. It is unclear how these values relate to the binding results or the biological hypothesis.
+  - **Required correction** Either explain the relevance of these properties to the study aims or remove them from the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section, abstract
+  - **Issue** The term "HIF-1alpha oxidoreductase" is used, but HIF-1alpha is typically a transcription factor subunit, not an oxidoreductase. The target may be a specific oxidoreductase associated with HIF-1alpha pathways, but this is not clarified.
+  - **Required correction** Define the exact protein target and its role, and ensure the nomenclature is consistent with established databases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unusual binding affinity value), R1-M2 (unsupported biological conclusion), R1-M3 (lack of methodological detail)
+- **Assessment against Nature-style criteria** Originality: The combination of targets is not novel, and the abstract does not present a new method or conceptual advance. Scientific importance: The potential relevance of diosgenin to cancer therapy is of interest, but the evidence is too preliminary to establish importance. Interdisciplinary readership: The work may appeal to computational and cancer researchers, but the abstract lacks sufficient context for nonspecialists to assess the significance. Technical soundness: Not assessable from the abstract due to missing methods and the anomalous binding value. Readability for nonspecialists: The abstract is understandable but uses technical terms without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study may have merit as a preliminary computational screen, but the abstract alone does not support the conclusions. The authors should provide full methodological details, validate the docking protocol, and either provide experimental evidence or reframe the conclusions as hypotheses.
+
+## Risk / unsupported claims
+- The claim that anticancer activity is achieved through inhibition of the three targets is unsupported by the abstract evidence.
+- The reported diosgenin-DNA binding affinity of -144.42 kcal/mol is not credible without further explanation and validation.
+- The relevance of the optimized molecular properties to the biological conclusions is not established.
+- The identity and functional role of "HIF-1alpha oxidoreductase" as a target is unclear and not defined in the abstract.

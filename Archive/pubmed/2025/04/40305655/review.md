@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use all-atom enhanced-sampling MD simulations to show that mRNA A2RE11 inhibits phase separation of the hnRNPA2 low complexity domain by binding aromatic and positively charged residues, reducing single-chain collapse, and disrupting aromatic stacking, hydrogen bonding, and cation-pi interchain interactions. Coarse-grained phase coexistence simulations further implicate interchain aromatic and cation-pi interactions in phase behavior and RNA binding affinity for RGG and Y/FG(G) motifs.
+- **Visible evidence base** Abstract text only; no simulation details, convergence metrics, force field parameters, system compositions, or quantitative results are visible
+- **Missing materials affecting confidence** Full methods, all figures and tables, simulation validation (e.g., force field benchmarks, sampling convergence), sequence details of A2RE11 and the LCD construct, coarse-grained model parameterization, and any experimental comparison data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable computational study addressing a mechanistically important question, namely how RNA inhibits phase separation of hnRNPA2 LCD. The proposed mechanism, involving aromatic and cation-pi interactions as key drivers and RNA-mediated disruption of these contacts, is coherent and consistent with prior experimental observations. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the robustness of the conclusions, or the quantitative support for the stated claims. The work is likely of interest to the biomolecular condensate and RNA-binding protein communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, RNA-binding proteins, and the molecular determinants of condensate formation and dissolution. The findings could inform understanding of how RNA modulates hnRNP aggregation in neurodegenerative disease contexts and guide design of RNA-based modulators of phase behavior.
+- **Major strengths** The study addresses a mechanistically important and experimentally motivated question. The multiscale approach, combining all-atom enhanced sampling with coarse-grained phase coexistence simulations, is appropriate for bridging single-chain and phase-level behavior. The proposed mechanism is specific and testable, and the emphasis on aromatic and cation-pi interactions aligns with established knowledge of LCD-driven phase separation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that A2RE11 "undermines the degree of collapse of the single-chain LCD" and "disrupts the aromatic stacking, hydrogen bonding, and cation-pi interchain interactions" based on all-atom enhanced-sampling MD simulations.
+  - **Evidence pointer** Abstract only; no figures, tables, or methods sections provided
+  - **Concern** The abstract provides no quantitative metrics, error estimates, or convergence assessments for the all-atom simulations. It is unclear how the degree of collapse was measured, whether the enhanced sampling method adequately explored the relevant conformational space, and whether the observed differences between RNA-bound and RNA-free states exceed statistical uncertainty.
+  - **Why it matters** Without evidence of sampling convergence and statistical robustness, the central mechanistic claims may reflect simulation artifacts rather than physical behavior. The conclusions hinge on the reliability of the force field and the adequacy of sampling for a system known to be challenging due to the flat energy landscapes of disordered proteins.
+  - **Resolution test** Provide convergence metrics (e.g., block error analysis, replica exchange acceptance rates), comparison of simulated observables to experimental data where available, and statistical significance tests for the reported differences in collapse and interaction energies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that coarse-grained phase coexistence simulations "underscore the preeminence of interchain aromatic and cation-pi interactions in regulating the phase behavior" and RNA binding affinity for RGG and Y/FG(G) motifs.
+  - **Evidence pointer** Abstract only; no model details or validation provided
+  - **Concern** The coarse-grained model is not described, including its resolution, parameterization strategy, and how it was benchmarked against the all-atom results or experimental phase diagrams. The claim of "preeminence" requires a systematic perturbation analysis (e.g., mutation or interaction scaling) that is not described.
+  - **Why it matters** Coarse-grained models can introduce biases that predetermine interaction hierarchies. Without evidence that the model faithfully reproduces known phase behavior of hnRNPA2 LCD and that the interaction ranking emerges from unbiased simulations, the conclusion about interaction preeminence is not established.
+  - **Resolution test** Describe the coarse-grained model and its parameterization, show that it reproduces experimental or all-atom-derived phase boundaries, and provide perturbation analyses that demonstrate the relative contributions of aromatic versus cation-pi interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies a specific molecular mechanism by which A2RE11 inhibits phase separation, including binding to "aromatic and positively charged residues."
+  - **Evidence pointer** Abstract only; sequence details not provided
+  - **Concern** The abstract does not specify the sequence of A2RE11, the exact LCD construct used, or the stoichiometry of RNA to protein in the simulations. Without these details, the biological relevance of the simulated conditions cannot be assessed, and the mechanism cannot be reproduced by others.
+  - **Why it matters** RNA length, sequence, and concentration are known to modulate phase separation in complex ways. The claimed inhibitory mechanism may be specific to the particular RNA and conditions simulated, and the abstract does not indicate whether these conditions match those of the prior experiments cited.
+  - **Resolution test** Provide full sequence information, simulation box compositions, and a rationale for the chosen RNA-to-protein ratio in relation to experimental conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, sentence on "preeminence"
+  - **Issue** The term "preeminence" is vague and not operationally defined. It is unclear whether this refers to energetic dominance, frequency of contacts, or sensitivity of phase behavior to perturbation.
+  - **Required correction** Replace with a quantitative statement, such as the relative contribution of each interaction type to the free energy of phase separation or to the critical concentration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract claims "a greater appreciation of the complex interaction network" but does not state what specific new insight is gained beyond the known role of aromatic residues in LCD phase separation.
+  - **Required correction** Articulate the novel contribution explicitly, for example, the relative importance of cation-pi versus aromatic stacking in RNA-mediated inhibition, or the identification of specific RNA-binding motifs that are most effective at disrupting phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of convergence evidence, force field validation, and coarse-grained model benchmarking means the central mechanistic claims are not currently supported by the provided material. R1-M3, while not blocking, is necessary for reproducibility and biological interpretation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question is timely and the multiscale approach is appropriate, but the proposed mechanism (RNA disrupting aromatic and cation-pi interactions) is not conceptually novel. The originality lies in the atomistic detail, which cannot be evaluated from the abstract.
+  - Scientific importance: Potentially high for the condensate field, as RNA-mediated regulation of hnRNP phase behavior is relevant to disease mechanisms. However, the importance depends on the robustness of the simulations, which is not assessable.
+  - Interdisciplinary readership: The topic bridges biophysics, RNA biology, and neuroscience, and would appeal to a broad readership if the methods are presented accessibly.
+  - Technical soundness: Not assessable from the abstract. The lack of convergence and validation details is a significant concern.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "cation-pi," "Y/FG(G) motifs") without definition. A Nature-style abstract would require more context for the general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The scientific question is worthwhile and the approach is sensible, but the abstract alone does not provide sufficient technical detail to support the mechanistic claims. I would be supportive if the full manuscript demonstrates sampling convergence, force field validation, and coarse-grained model benchmarking.
+
+## Risk / unsupported claims
+- The claim that A2RE11 "undermines the degree of collapse" is unsupported without quantitative measures and error analysis.
+- The claim that RNA "disrupts aromatic stacking, hydrogen bonding, and cation-pi interchain interactions" is unsupported without interaction energy decompositions and statistical significance testing.
+- The claim of "preeminence" of aromatic and cation-pi interactions in phase behavior is unsupported without perturbation analyses in the coarse-grained model.
+- The biological relevance of the simulated RNA-to-protein stoichiometry is unassessable without sequence and concentration details.
+- The abstract's implication that the simulations explain prior experimental observations is unverifiable without direct comparison to experimental data.

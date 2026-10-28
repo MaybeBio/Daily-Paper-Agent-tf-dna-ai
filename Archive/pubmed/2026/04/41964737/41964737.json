@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "41964737",
+    "doi": "10.1007/s10528-026-11368-4",
+    "title": "Whole-Genome Deep Learning Predicts Chemotherapy Response in Colorectal Cancer."
+  },
+  "content": {
+    "abstract": "Chemotherapy response in colorectal cancer (CRC) exhibits significant heterogeneity, with current clinical predictors failing to capture complex genomic determinants of resistance. We developed a hybrid deep learning framework integrating convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) networks to analyze whole-genome somatic mutations, evolutionary conservation, chromatin accessibility, and 3D genome architecture in 2,546 TCGA patients. An attention mechanism identified predictive genomic regions. The model achieved an AUC of 0.92 (95% CI: 0.89-0.94) in cross-validation and 0.88 (95% CI: 0.85-0.91) in independent validation, outperforming clinical models (DeltaAUC = +0.18, p < 0.001). Key predictors included non-coding variants in TP53, KRAS, and PIK3CA regulatory regions. Triple-positive patients (mutations in all 3 regions) had significantly worse progression-free survival (HR = 4.7, p < 0.001). Our framework enables accurate chemotherapy response prediction and reveals novel non-coding resistance mechanisms, advancing precision oncology in CRC.",
+    "keywords": [
+      "Chemotherapy response prediction",
+      "Colorectal cancer genomics",
+      "Deep learning",
+      "Precision oncology",
+      "Whole-genome sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/genetics",
+      "*Deep Learning",
+      "Convolutional Neural Networks",
+      "Mutation",
+      "Tumor Suppressor Protein p53/genetics",
+      "Long Short Term Memory",
+      "*Genome, Human",
+      "Class I Phosphatidylinositol 3-Kinases/genetics",
+      "*Antineoplastic Agents/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sadeghi, Hossein",
+        "Seif, Fatemeh"
+      ],
+      "short_names": [
+        "Sadeghi H",
+        "Seif F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Faculty of Sciences, Arak University, Arak, 38156-8-8349, Iran. H-Sadeghi@araku.ac.ir.",
+        "Department of Radiotherapy and Medical Physics, Arak University of Medical Sciences and Khansari Hospital, Arak, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sadeghi, Hossein",
+        "short_name": "Sadeghi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Faculty of Sciences, Arak University, Arak, 38156-8-8349, Iran. H-Sadeghi@araku.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Seif, Fatemeh",
+        "short_name": "Seif F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy and Medical Physics, Arak University of Medical Sciences and Khansari Hospital, Arak, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/12 04:34",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39276327",
+      "39263143",
+      "38570504",
+      "37370113",
+      "36591525",
+      "36127477",
+      "34669035",
+      "34282050",
+      "34047467",
+      "33997160",
+      "32025018",
+      "31112393",
+      "26700815",
+      "25693564",
+      "25497547",
+      "24071849",
+      "23396013",
+      "22955617",
+      "22373907",
+      "22323520",
+      "19858363",
+      "11395428"
+    ],
+    "similar": [
+      "41964737",
+      "29434452",
+      "42309394",
+      "20619739",
+      "26184520",
+      "24942275",
+      "34686474",
+      "42565475",
+      "28654140",
+      "33653301",
+      "30806788",
+      "28379870",
+      "41865006",
+      "27369359",
+      "41876642",
+      "34978498",
+      "41570613",
+      "38310289",
+      "42013288",
+      "33753878",
+      "23429431",
+      "28068936",
+      "39030589",
+      "21103049",
+      "28939741",
+      "28424201",
+      "28513830",
+      "22285706",
+      "24666267",
+      "22675430",
+      "41240799",
+      "21163770",
+      "22039088",
+      "27129168",
+      "29970892",
+      "37420249",
+      "40828572",
+      "33177794",
+      "23435830",
+      "39289671",
+      "30704458",
+      "30973654",
+      "25851630",
+      "27879995",
+      "42046740",
+      "39947084",
+      "42210090",
+      "26991344",
+      "41715092",
+      "27246726",
+      "35332389",
+      "23165447",
+      "41776259",
+      "41020523",
+      "35450798",
+      "40902256",
+      "26272063",
+      "28942013",
+      "41762162",
+      "41649698",
+      "40640789",
+      "41444960",
+      "28427202",
+      "31199501",
+      "23792451",
+      "19367287",
+      "23741067",
+      "38063316",
+      "42475879",
+      "28531253",
+      "21200037",
+      "35709138",
+      "35767139",
+      "25092538",
+      "32367667",
+      "41214872",
+      "27436848",
+      "42481282",
+      "41851364",
+      "41726450",
+      "39255280",
+      "29254887",
+      "28524162",
+      "41564724",
+      "38848145",
+      "41275990",
+      "40960691",
+      "20978259",
+      "34717544",
+      "24042191",
+      "41231625",
+      "40698083",
+      "24062397",
+      "22638623",
+      "33042271",
+      "34281853",
+      "37344660",
+      "41436831",
+      "23374602",
+      "41306958"
+    ],
+    "review": [
+      "41964737",
+      "28654140",
+      "23429431",
+      "24666267",
+      "22039088",
+      "23435830",
+      "23792451",
+      "42475879",
+      "21200037",
+      "35767139",
+      "27436848",
+      "42481282"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10528-026-11368-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

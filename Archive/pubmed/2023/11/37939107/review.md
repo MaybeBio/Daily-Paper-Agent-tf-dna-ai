@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion)
+- **Assessment boundary** Scientific validity, methodological rigor, claim-evidence alignment, and reporting quality of the computational study as presented
+- **Shared manuscript claim summary** The authors propose that Lupenone, a triterpenoid from *Euphorbia segetalis*, binds with high affinity (ΔG = -9.64 kcal/mol) to a WRKY transcription factor (PDB: 2AYD) implicated in drought response in *Solanum lycopersicum*, and that this interaction could enhance drought tolerance, based on molecular docking, molecular dynamics simulations, and MM-GBSA free energy calculations.
+- **Visible evidence base** Abstract; Introduction; Resources and methods (target preparation, virtual screening, docking, MD simulations, MM-GBSA); Results (virtual screening, docking, MD simulation, MM-GBSA, FEL); Discussion and conclusion; figure and table references (Figs 1–7, Tables 1–2)
+- **Missing materials affecting confidence** No figures or tables were provided; no sequence alignment or target validation data; no experimental validation; no statistical analysis; no data availability statement; no supplementary information; no code or parameter files for MD simulations
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational study aimed at identifying Lupenone as a potential enhancer of drought tolerance in tomato via binding to a WRKY transcription factor. The core claims rest on docking scores, MD simulation stability metrics, and MM-GBSA energies. However, the manuscript suffers from severe methodological inconsistencies, misidentified targets, contradictory statements, and a lack of essential validation. The target protein (PDB: 2AYD) is described as a β-secretase, not a WRKY transcription factor, which fundamentally undermines the biological premise. The docking protocol is poorly described, the MD simulation parameters are internally inconsistent, and the MM-GBSA results are not presented in sufficient detail to be evaluated. The writing is disorganized and contains numerous typographical and conceptual errors. The scientific case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and cheminformaticians working on plant stress responses might have a peripheral interest in the methodological approach, though the target misidentification and lack of validation would limit enthusiasm. Researchers studying WRKY transcription factors in drought tolerance might be interested if the target were correctly identified and validated, but the current manuscript does not provide a reliable basis for such interest. The broader plant biotechnology community would require experimental confirmation before considering these findings actionable.
+- **Major strengths** The study addresses a relevant agronomic problem (drought tolerance in tomato) and applies a standard computational workflow (docking, MD, MM-GBSA) that is appropriate in principle for initial ligand-target screening. The use of multiple computational tools (AutoDock Vina, Desmond, MM-GBSA) reflects an attempt at methodological triangulation. The manuscript acknowledges the complexity of drought tolerance and the need for improved cultivars.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target identity and biological relevance
+  - **Claim pointer** The study claims to investigate the interaction between Lupenone and a WRKY transcription factor involved in drought tolerance in *Solanum lycopersicum*.
+  - **Evidence pointer** Resources and methods, "Potential target preparation"; Results, "Molecular docking investigation"; Discussion and conclusion
+  - **Concern** The target protein is identified as PDB ID 2AYD, which is described in the methods as "β-Secretase protein." However, the manuscript repeatedly refers to this as a WRKY transcription factor. PDB 2AYD is a human β-secretase (BACE1) structure, not a plant WRKY domain. No sequence alignment, homology modeling, or any other evidence is provided to link 2AYD to a WRKY protein from *S. lycopersicum*. This is a fundamental error that invalidates the biological premise of the entire study.
+  - **Why it matters** If the target is not a WRKY transcription factor, then all docking, MD, and MM-GBSA results are irrelevant to the stated goal of enhancing drought tolerance via WRKY modulation. The conclusions drawn about drought tolerance are unsupported.
+  - **Resolution test** The authors must provide unambiguous evidence that the protein used in the study is a WRKY transcription factor from *S. lycopersicum*, including accession numbers, sequence alignment, and structural validation. If 2AYD is used, its relevance to WRKY must be explicitly and convincingly justified, which is highly unlikely given the known identity of this PDB entry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor and reproducibility
+  - **Claim pointer** The manuscript claims to have performed molecular docking, MD simulations, and MM-GBSA calculations to evaluate Lupenone binding to the target.
+  - **Evidence pointer** Resources and methods, "Molecular docking studies," "Molecular dynamic simulations," "MMGBSA calculations"; Results, "Molecular docking investigation," "Molecular dynamic simulation study," "MMGBSA calculations"
+  - **Concern** The methods section contains multiple internal inconsistencies and omissions. The docking protocol mentions AutoDock Vina 4.2.6, but AutoDock Vina is version 1.x; version 4.2.6 corresponds to AutoDock 4, a different program. The grid box parameters are given as X = 12, Y = 20, Z = 30 with spacing 0.54 Å, but earlier in the same section, the default spacing is stated as 0.431 Å. The MD simulation section states the OPLS-2005 force field and SPC water model, but the temperature and pressure coupling parameters are described with conflicting relaxation times. The MM-GBSA section mentions "2ALA" instead of 2AYD. These errors make the methods irreproducible.
+  - **Why it matters** Reproducibility is a cornerstone of scientific reporting. Without accurate and consistent methodological details, other researchers cannot replicate or verify the results, and the reliability of the findings cannot be assessed.
+  - **Resolution test** The authors must provide a corrected, internally consistent, and complete description of all computational protocols, including exact software versions, parameter files, and settings. All target identifiers must be consistent throughout.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for claims
+  - **Claim pointer** The manuscript claims that Lupenone "boosts affinity" for the WRKY transcription factor and "escalates drought tolerance" in tomato.
+  - **Evidence pointer** Abstract; Results, "Molecular docking investigation," "Molecular dynamic simulation study," "MMGBSA calculations"; Discussion and conclusion
+  - **Concern** The study is purely computational and provides no experimental validation. Docking scores and MD stability metrics alone cannot establish that a compound enhances drought tolerance in a living plant. The claim of "escalating drought tolerance" is a functional biological assertion that requires phenotypic evidence, such as transgenic or exogenous application studies in *S. lycopersicum* under drought conditions. No such data are presented.
+  - **Why it matters** The central conclusion of the manuscript is a biological claim that cannot be supported by in silico data alone. Overstating the implications of computational results misleads readers and overstates the significance of the work.
+  - **Resolution test** The authors must either temper the claims to reflect the computational nature of the study (e.g., "predicted to bind" and "potential to enhance drought tolerance") or provide experimental evidence demonstrating the effect.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation and completeness
+  - **Claim pointer** The manuscript references multiple figures and tables (Figs 1–7, Tables 1–2) to support the results.
+  - **Evidence pointer** Results, all subsections; figure and table references throughout
+  - **Concern** None of the figures or tables were provided in the submitted material. The results section refers to specific data (e.g., binding energies in Table 1, MM-GBSA components in Table 2, RMSD/RMSF plots in Fig 3) that cannot be inspected. Without these data, the validity of the reported numbers and the interpretations drawn from them cannot be verified.
+  - **Why it matters** Figures and tables are essential for evaluating the quality of docking poses, the stability of MD trajectories, and the magnitude of binding energies. Their absence precludes a full assessment of the results.
+  - **Resolution test** The authors must provide all figures and tables with appropriate legends and ensure that all data referenced in the text are present and clearly labeled.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific context and interpretation
+  - **Claim pointer** The manuscript states that Lupenone is a "hormone produced in plant roots in response to stress" and that it is a "wonder chemical."
+  - **Evidence pointer** Abstract; Introduction; Discussion and conclusion
+  - **Concern** Lupenone is a triterpenoid, not a hormone. The claim that it is produced in plant roots in response to stress is not supported by any citation or data in the manuscript. The use of subjective terms like "wonder chemical" is inappropriate for a scientific report.
+  - **Why it matters** Accurate terminology and appropriate language are necessary for scientific credibility. Mischaracterizing the compound and using hyperbolic language undermines the objectivity of the study.
+  - **Resolution test** The authors should correct the description of Lupenone, provide appropriate references for any claims about its biological production, and remove subjective language.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Writing quality
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The manuscript contains numerous grammatical errors, awkward phrasings, and redundant statements. For example, the abstract repeats the importance of drought and the role of WRKY factors multiple times. The introduction contains a paragraph on potato (not tomato) that appears out of place.
+  - **Required correction** The manuscript should be thoroughly edited for grammar, clarity, and conciseness. The potato reference should be corrected to tomato or removed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Citation accuracy
+  - **Affected element** Introduction, references [1]–[21]
+  - **Evidence pointer** Introduction
+  - **Issue** Several statements in the introduction lack citations, and some citations appear to be used inappropriately. For example, the claim that "5936 members of the WRKY transcription factor family" exist is attributed to PlantTFDB 3.0, but no specific reference is given. The reference to "Lupenone (L.N.), salt, and dehydration stressors" in the context of transgenic tobacco is unclear.
+  - **Required correction** The authors should ensure that all factual claims are supported by appropriate citations and that references are used accurately.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract; Results; Discussion
+  - **Issue** The compound is referred to as "Lupenone" in most places but as "Wedelosin" in the final sentence of the MM-GBSA results section. This is a significant inconsistency that suggests a copy-paste error from another manuscript.
+  - **Required correction** The authors should ensure that the compound name is consistent throughout the manuscript and correct the erroneous "Wedelosin" reference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Results, "Molecular dynamic simulation study"
+  - **Evidence pointer** Results, "Molecular dynamic simulation study"
+  - **Issue** The RMSD value of 1.89 Å is described as "extremely stable," but the text also states that the ligand RMSD was "initially slightly distorted." The interpretation of stability is not supported by quantitative thresholds or comparison to control simulations.
+  - **Required correction** The authors should provide a more rigorous interpretation of MD stability metrics, including comparison to appropriate controls and discussion of acceptable thresholds.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1–7
+  - **Evidence pointer** Figure references in Results
+  - **Issue** The figures are not provided, and the text descriptions are insufficient to understand what is being shown. For example, Fig 1A is described as illustrating "WRKY and 14-3-3 proteins collaborate," but no context is given.
+  - **Required correction** The authors should provide all figures with clear legends and ensure that each figure is explicitly referenced and explained in the text.
+
+## Risk / unsupported claims
+- The claim that Lupenone "boosts affinity" for a WRKY transcription factor is unsupported because the target protein (PDB: 2AYD) is a β-secretase, not a WRKY protein.
+- The claim that Lupenone "escalates drought tolerance" in *Solanum lycopersicum* is unsupported by any experimental evidence.
+- The claim that Lupenone is a "hormone produced in plant roots in response to stress" is unsupported by citations or data.
+- The reported binding energy of -9.64 kcal/mol and inhibitory concentration of 0.12 mM cannot be verified without the underlying data and proper methodological context.
+- The MM-GBSA binding free energy of -50.268 kcal/mol is presented without error estimates or statistical analysis, making its reliability unassessable.
+- The MD simulation results (RMSD, RMSF, Rg, hydrogen bonding) are described qualitatively without supporting figures or quantitative analysis.
+- The free energy landscape analysis (Fig 7) is referenced but not provided, and the text incorrectly attributes the result to "Wedelosin" instead of Lupenone.

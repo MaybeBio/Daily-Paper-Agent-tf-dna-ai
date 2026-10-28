@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.03.613476",
+  "title": "Simulated Solute Tempering 2: An Efficient and Practical Approach to Protein Conformational Sampling and Binding Events",
+  "doi": "10.1101/2024.10.03.613476",
+  "abstract": "Molecular dynamics (MD) simulations are powerful tools for studying the movement and interactions of molecules, but they can be computationally expensive, especially for large biomolecules like proteins. This is problematic because accurately simulating the motions of these molecules is key to understanding their function. Enhanced sampling methods, such as Simulated Tempering (ST), temperature Replica Exchange Molecular Dynamics (REMD) and Replica Exchange with Solute Tempering (REST and REST2), have been developed to overcome this challenge by improving the efficiency of MD simulations. This article presents a new enhanced sampling method called Simulated Solute Tempering 2 (SST2) that builds upon the strengths of ST and REST2. SST2 selectively scales the interactions inside a biomolecule and with its surrounding environment, effectively accelerating the exploration of its different structural states and their stability at various temperatures. SST2 was tested on three different systems (chignolin CLN025, Trp-Cage, and a protein-peptide complex, p97/PNGase) and found to achieve comparable or superior sampling efficiency to ST, SST1 and REST2 while requiring fewer temperature rungs. Notably, SST2 is particularly well-suited for investigating large biomolecular systems, making it a valuable tool for studying a wide range of biomolecular processes, from protein folding to ligand binding.",
+  "authors": [
+    "Dirk Stratmann",
+    "Gautier Moroy",
+    "Pierre Tuffery",
+    "Samuel Murail"
+  ],
+  "published_date": "2024-10-03",
+  "updated_date": "2024-10-03T23:35:12Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.03.613476",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.03.613476.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:49:27Z",
+        "timestamp": 1782280167893,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                3
+              ]
+            ],
+            "date-time": "2024-10-03T00:00:00Z",
+            "timestamp": 1727913600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Molecular dynamics (MD) simulations are powerful tools for studying the movement and interactions of molecules, but they can be computationally expensive, especially for large biomolecules like proteins. This is problematic because accurately simulating the motions of these molecules is key to understanding their function. Enhanced sampling methods, such as Simulated Tempering (ST), temperature Replica Exchange Molecular Dynamics (REMD) and Replica Exchange with Solute Tempering (REST and REST2), have been developed to overcome this challenge by improving the efficiency of MD simulations. This article presents a new enhanced sampling method called Simulated Solute Tempering 2 (SST2) that builds upon the strengths of ST and REST2. SST2 selectively scales the interactions inside a biomolecule and with its surrounding environment, effectively accelerating the exploration of its different structural states and their stability at various temperatures. SST2 was tested on three different systems (chignolin CLN025, Trp-Cage, and a protein-peptide complex, p97/PNGase) and found to achieve comparable or superior sampling efficiency to ST, SST1 and REST2 while requiring fewer temperature rungs. Notably, SST2 is particularly well-suited for investigating large biomolecular systems, making it a valuable tool for studying a wide range of biomolecular processes, from protein folding to ligand binding.</jats:p>",
+      "DOI": "10.1101/2024.10.03.613476",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2024-10-03T23:35:12Z",
+        "timestamp": 1727998512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Simulated Solute Tempering 2: An Efficient and Practical Approach to Protein Conformational Sampling and Binding Events"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7373-0181",
+          "authenticated-orcid": false,
+          "given": "Dirk",
+          "family": "Stratmann",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8973-0477",
+          "authenticated-orcid": false,
+          "given": "Gautier",
+          "family": "Moroy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1033-9895",
+          "authenticated-orcid": false,
+          "given": "Pierre",
+          "family": "Tuffery",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3842-5333",
+          "authenticated-orcid": false,
+          "given": "Samuel",
+          "family": "Murail",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.03.613476",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:57:43Z",
+        "timestamp": 1782277063000
+      },
+      "score": 92.72284,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.03.613476"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2024.10.03.613476",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.5c00950",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

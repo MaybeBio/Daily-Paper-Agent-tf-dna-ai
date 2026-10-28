@@ -1,0 +1,486 @@
+{
+  "identity": {
+    "pmid": "38308918",
+    "doi": "10.1016/j.phymed.2023.155290",
+    "title": "Ononin promotes radiosensitivity in lung cancer by inhibiting HIF-1alpha/VEGF pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In our previous study, we provided evidence that Astragalus mongholicus Bunge(AM) and its extracts possess a protective capability against radiation-induced damage, potentially mediated through the reduction of reactive oxygen species (ROS) and nitric oxide (NO). However, we were pleasantly surprised to discover during our experimentation that AM not only offers protection against radiation damage but also exhibits a radiation sensitization effect. This effect may be attributed to a specific small molecule present in AM known as ononin. Currently, radiation sensitizers are predominantly found in nitrazole drugs and nanomaterials, with no existing reports on the radiation sensitization properties of ononin, nor its underlying mechanism. PURPOSE: This study aims to investigate the sensitization effect of the small molecule ononin derived from AM on lung cancer radiotherapy, elucidating its specific molecular mechanism of action. Additionally, the safety profile of combining astragalus small molecule ononin with radiation therapy will be evaluated. METHODS: The effective concentration of ononin was determined through cell survival experiments, and the impact of ononin combined with varying doses of radiation on lung cancer cells was observed using CCK-8 and cell cloning experiments. The apoptotic effect of ononin combined with radiation on lung cancer cells was assessed using Hochester staining, flow cytometry, and WB assay. Additionally, WB and immunofluorescence analysis were conducted to investigate the influence of ononin on HIF-1alpha/VEGF pathway. Furthermore, Molecular Dynamics Simulation was employed to validate the targeted binding ability of ononin and HIF-1alpha. A lung cancer cell line was established to investigate the effects of knockdown and overexpression of HIF-1alpha. Subsequently, the experiment was repeated using tumor bearing nude mice and C57BL/6 mouse models in an in vivo study. Tumor volume was measured using a vernier caliper, while HE, immunohistochemistry, and immunofluorescence techniques were employed to observe the effects of ononin combined with radiation on tumor morphology, proliferation, and apoptosis. Additionally, Immunofluorescence was employed to examine the impact of ononin on HIF-1alpha/VEGF pathway in vivo, and its effect on liver function in mice was assessed through biochemistry analysis. RESULTS: At a concentration of 25 muM, ononin did not affect the proliferation of lung epithelial cells but inhibited the survival of lung cancer cells. In vitro experiments demonstrated that the combination of ononin and radiation could effectively inhibit the growth of lung cancer cells, induce apoptosis, and suppress the excessive activation of the Hypoxia inducible factor 1 alpha/Vascular endothelial growth factor pathway. In vivo experiments showed that the combination of ononin and radiation reduced the size and proliferation of lung cancer tumors, promoted cancer cell apoptosis, mitigated abnormal activation of the Hypoxia inducible factor 1 alpha pathway, and protected against liver function damage. CONCLUSION: This study provides evidence that the combination of AM and its small molecule ononin can enhance the sensitivity of lung cancer to radiation. Additionally, it has been observed that this combination can specifically target HIF-1alpha and exert its effects. Notably, ononin exhibits the unique ability to protect liver function from damage while simultaneously enhancing the tumor-killing effects of radiation, thereby demonstrating a synergistic and detoxifying role in tumor radiotherapy. These findings contribute to the establishment of a solid basis for the development of novel radiation sensitizers derived from traditional Chinese medicine.",
+    "keywords": [
+      "Astragalus membranaceus",
+      "Hif-1alpha",
+      "Lung cancer",
+      "Ononin",
+      "Radiosensitization",
+      "VEGF"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Lung Neoplasms/drug therapy/radiotherapy",
+      "Vascular Endothelial Growth Factor A/metabolism",
+      "Mice, Nude",
+      "Cell Line, Tumor",
+      "Mice, Inbred C57BL",
+      "Vascular Endothelial Growth Factors/metabolism",
+      "Radiation Tolerance",
+      "*Radiation-Sensitizing Agents/pharmacology",
+      "Hypoxia-Inducible Factor 1",
+      "Hypoxia-Inducible Factor 1, alpha Subunit",
+      "*Glucosides",
+      "*Isoflavones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yi-Ming",
+        "Miao, Zhi-Ming",
+        "Chen, Ya-Ping",
+        "Song, Zhang-Bo",
+        "Li, Yang-Yang",
+        "Liu, Zhi-Wei",
+        "Zhou, Gu-Cheng",
+        "Li, Jing",
+        "Shi, Liang-Liang",
+        "Chen, Yan",
+        "Zhang, Shang-Zu",
+        "Xu, Xiaohui",
+        "He, Jin-Peng",
+        "Wang, Ju-Fang",
+        "Zhang, Li-Ying",
+        "Liu, Yong-Qi"
+      ],
+      "short_names": [
+        "Zhang YM",
+        "Miao ZM",
+        "Chen YP",
+        "Song ZB",
+        "Li YY",
+        "Liu ZW",
+        "Zhou GC",
+        "Li J",
+        "Shi LL",
+        "Chen Y",
+        "Zhang SZ",
+        "Xu X",
+        "He JP",
+        "Wang JF",
+        "Zhang LY",
+        "Liu YQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China.",
+        "Department of Genetics and Cell Biology, Basic Medical College, Qingdao University, PR China.",
+        "Key Laboratory of Space Radiobiology of Gansu Province & Key Laboratory of Heavy Ion Radiation Biology and Medicine of Chinese Academy of Sciences, Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou, PR China.",
+        "Key Laboratory of Space Radiobiology of Gansu Province & Key Laboratory of Heavy Ion Radiation Biology and Medicine of Chinese Academy of Sciences, Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou, PR China.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China. Electronic address: zhangliying201212@163.com.",
+        "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China. Electronic address: liuyongqi73@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yi-Ming",
+        "short_name": "Zhang YM",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Miao, Zhi-Ming",
+        "short_name": "Miao ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ya-Ping",
+        "short_name": "Chen YP",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Song, Zhang-Bo",
+        "short_name": "Song ZB",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang-Yang",
+        "short_name": "Li YY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhi-Wei",
+        "short_name": "Liu ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Gu-Cheng",
+        "short_name": "Zhou GC",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Shi, Liang-Liang",
+        "short_name": "Shi LL",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shang-Zu",
+        "short_name": "Zhang SZ",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaohui",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, Basic Medical College, Qingdao University, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Jin-Peng",
+        "short_name": "He JP",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Space Radiobiology of Gansu Province & Key Laboratory of Heavy Ion Radiation Biology and Medicine of Chinese Academy of Sciences, Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ju-Fang",
+        "short_name": "Wang JF",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Space Radiobiology of Gansu Province & Key Laboratory of Heavy Ion Radiation Biology and Medicine of Chinese Academy of Sciences, Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Li-Ying",
+        "short_name": "Zhang LY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China. Electronic address: zhangliying201212@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Yong-Qi",
+        "short_name": "Liu YQ",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial-Level Key Laboratory for Molecular Medicine of Major Diseases and the Prevention and Treatment with Traditional Chinese, Medicine Research in Gansu Colleges and Universities, Gansu University of Chinese Medicine, Lanzhou, PR China. Electronic address: liuyongqi73@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/04 00:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "42199652",
+      "41949207",
+      "41891951",
+      "41657775",
+      "41585262",
+      "41493849",
+      "41446875",
+      "41272363",
+      "41261394",
+      "41041327",
+      "40949137",
+      "40563539",
+      "40137968",
+      "40092042",
+      "40001110",
+      "39997575",
+      "39962057",
+      "39795243",
+      "39669690",
+      "39636341",
+      "39609491",
+      "39087096"
+    ],
+    "refs": [],
+    "similar": [
+      "38308918",
+      "27729769",
+      "29852266",
+      "29904944",
+      "38761523",
+      "30099443",
+      "24325635",
+      "24691458",
+      "16982770",
+      "25544668",
+      "39223822",
+      "38453699",
+      "16849681",
+      "15947208",
+      "24604140",
+      "32403326",
+      "32730833",
+      "15199114",
+      "25623525",
+      "16145048",
+      "29183009",
+      "37587804",
+      "27553958",
+      "28063005",
+      "23947803",
+      "19101986",
+      "34029083",
+      "23416116",
+      "25073512",
+      "26350185",
+      "34825004",
+      "24886405",
+      "31841274",
+      "25053591",
+      "24025355",
+      "23335846",
+      "22804960",
+      "23292117",
+      "25162518",
+      "25843954",
+      "28899493",
+      "23948151",
+      "30355300",
+      "23300882",
+      "15192023",
+      "27999195",
+      "37747648",
+      "15067333",
+      "19358884",
+      "37381118",
+      "22225988",
+      "21775820",
+      "21042761",
+      "19959878",
+      "25058399",
+      "16452228",
+      "17085645",
+      "35697191",
+      "33445109",
+      "31841190",
+      "11585776",
+      "26339797",
+      "39102510",
+      "21119667",
+      "21494058",
+      "25561311",
+      "28648907",
+      "16515634",
+      "11156418",
+      "20398289",
+      "27080362",
+      "27374091",
+      "22684860",
+      "22472348",
+      "18509748",
+      "23869238",
+      "24401554",
+      "11749701",
+      "28410229",
+      "24113386",
+      "35868447",
+      "31203382",
+      "17984117",
+      "28091613",
+      "19346676",
+      "25383959",
+      "33358677",
+      "24793809",
+      "23707765",
+      "18561315",
+      "21765015",
+      "23791618",
+      "36157928",
+      "21819554",
+      "12208766",
+      "18572865",
+      "22347438",
+      "19176399",
+      "28339070",
+      "24461075",
+      "18823375",
+      "30774370",
+      "39219634",
+      "33143663",
+      "38880883",
+      "36046821",
+      "17608771",
+      "39423479",
+      "21899660",
+      "39411581",
+      "39197164",
+      "25350400",
+      "38636942",
+      "35661930",
+      "39113411",
+      "38703660",
+      "34114347",
+      "38364870",
+      "38898772",
+      "38072662",
+      "38842109",
+      "31947661",
+      "38325586",
+      "33830713",
+      "39258498",
+      "38069461",
+      "28425047",
+      "32744328",
+      "33457406",
+      "39032372",
+      "35959262",
+      "29158812",
+      "38380147",
+      "38836676",
+      "38979839",
+      "32403237",
+      "39049021",
+      "25820276",
+      "39136523",
+      "38625901",
+      "38425341",
+      "38853541",
+      "39240424",
+      "39118693",
+      "39012048",
+      "38044598",
+      "38037766",
+      "33587991",
+      "38241939",
+      "38755719",
+      "37961626",
+      "39032852",
+      "38947383",
+      "38599281",
+      "37757603",
+      "38012636",
+      "34478236",
+      "30124467",
+      "38375610",
+      "38408314",
+      "38469874",
+      "38584690",
+      "39193619",
+      "38828455",
+      "39424105",
+      "33520293",
+      "22969885",
+      "38828705",
+      "38773908",
+      "38476329",
+      "38984581",
+      "38040123",
+      "38931373",
+      "39020087",
+      "24862536",
+      "38979968",
+      "39134426",
+      "38738511",
+      "38690593",
+      "20975915",
+      "39081698",
+      "38369709",
+      "38495508",
+      "39265740",
+      "33716751",
+      "38646428"
+    ],
+    "review": [
+      "38308918",
+      "38853541",
+      "38773908",
+      "38984581",
+      "39134426",
+      "39081698",
+      "38369709"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00648-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

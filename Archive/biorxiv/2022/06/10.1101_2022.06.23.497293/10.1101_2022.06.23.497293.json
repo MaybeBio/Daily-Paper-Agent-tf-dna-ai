@@ -1,0 +1,217 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.23.497293",
+  "title": "Reconstructing the functional effect of TP53 somatic mutations on its regulon using causal signalling network modelling",
+  "doi": "10.1101/2022.06.23.497293",
+  "abstract": "<h4> A bstract </h4> The gene encoding tumor protein p53 ( TP53 ) is the most frequently mutated gene in human cancer. Mutations in both coding and non-coding regions of TP53 can disrupt the regulatory function of the transcription factor, but the functional impact of different somatic mutations on the global TP53 regulon is complex and poorly understood. To address this, we first proceed with a machine learning (ML) approach, and then propose an integrated computational network modelling approach that reconstructs signalling networks using a comprehensive collection of experimental and predicted regulons, and compares their topology. We evaluate both these approaches in a scrutinized pan-cancer analysis of matched genomics and transcriptomics data from 1,457 cell lines (22 cancer types) and 12,531 clinical samples (54 cancer sub-types). Using a ML approach based on penalized generalized linear regression we were able to predict TP53 mutation, but failed to resolve different mutation types. Thus, to infer the impact of different TP53 mutations we compared the topological characteristics of the optimized and reconstructed (upwards of twenty thousand) gene networks and extracted gene signatures for each mutation type using network analysis. We demonstrate that by accounting for TP53 mutation characteristics such as i) mutation type (e.g. missense, nonsense), ii) deleterious consequences of the mutation, or iii) mapping to previously identified hotspots, we can infer a much richer understanding of gene expression regulation, than when simply grouping samples based on their mutation/wild type or gene expression status. Our study highlights a powerful strategy exploiting signalling networks to systematically characterize the functional impact of the full spectrum of somatic mutations. This approach can be applied in general to genetic variation, with clear implications for, but not limited to, the biomedical domain and precision medicine.",
+  "authors": [
+    "Triantafyllidis CP",
+    "Barberis A",
+    "Cuervo AM",
+    "Gjerga E",
+    "Charlton P",
+    "Hartley F",
+    "Van Bijsterveldt L",
+    "Rodriguez JS",
+    "Buffa FM"
+  ],
+  "published_date": "2022-06-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.23.497293",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.23.497293.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR510471",
+    "raw_record": {
+      "id": "PPR510471",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR510471"
+        ]
+      },
+      "doi": "10.1101/2022.06.23.497293",
+      "title": "Reconstructing the functional effect of  <i>TP53</i>  somatic mutations on its regulon using causal signalling network modelling",
+      "authorString": "Triantafyllidis CP, Barberis A, Cuervo AM, Gjerga E, Charlton P, Hartley F, Van Bijsterveldt L, Rodriguez JS, Buffa FM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Triantafyllidis CP",
+            "lastName": "Triantafyllidis",
+            "firstName": "Charalampos",
+            "initials": "CP"
+          },
+          {
+            "fullName": "Barberis A",
+            "lastName": "Barberis",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6718-855X"
+            }
+          },
+          {
+            "fullName": "Cuervo AM",
+            "lastName": "Cuervo",
+            "firstName": "Ana Miar",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Gjerga E",
+            "lastName": "Gjerga",
+            "firstName": "Enio",
+            "initials": "E"
+          },
+          {
+            "fullName": "Charlton P",
+            "lastName": "Charlton",
+            "firstName": "Philip",
+            "initials": "P"
+          },
+          {
+            "fullName": "Hartley F",
+            "lastName": "Hartley",
+            "firstName": "Fiona",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5638-1813"
+            }
+          },
+          {
+            "fullName": "Van Bijsterveldt L",
+            "lastName": "Van Bijsterveldt",
+            "firstName": "Linda",
+            "initials": "L"
+          },
+          {
+            "fullName": "Rodriguez JS",
+            "lastName": "Rodriguez",
+            "firstName": "Julio Saez",
+            "initials": "JS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8552-8976"
+            }
+          },
+          {
+            "fullName": "Buffa FM",
+            "lastName": "Buffa",
+            "firstName": "Francesca",
+            "initials": "FM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0409-406X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5638-1813"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6718-855X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8552-8976"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0409-406X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>  A  bstract </h4>  The gene encoding tumor protein  p53 (  TP53 ) is the most frequently mutated gene in human cancer. Mutations in both coding and non-coding regions of  TP53 can disrupt the regulatory function of the transcription factor, but the functional impact of different somatic mutations on the global  TP53 regulon is complex and poorly understood. To address this, we first proceed with a machine learning (ML) approach, and then propose an integrated computational network modelling approach that reconstructs signalling networks using a comprehensive collection of experimental and predicted regulons, and compares their topology. We evaluate both these approaches in a scrutinized pan-cancer analysis of matched genomics and transcriptomics data from 1,457 cell lines (22 cancer types) and 12,531 clinical samples (54 cancer sub-types). Using a ML approach based on penalized generalized linear regression we were able to predict  TP53 mutation, but failed to resolve different mutation types. Thus, to infer the impact of different  TP53 mutations we compared the topological characteristics of the optimized and reconstructed (upwards of twenty thousand) gene networks and extracted gene signatures for each mutation type using network analysis. We demonstrate that by accounting for  TP53 mutation characteristics such as i) mutation type (e.g. missense, nonsense), ii) deleterious consequences of the mutation, or iii) mapping to previously identified hotspots, we can infer a much richer understanding of gene expression regulation, than when simply grouping samples based on their mutation/wild type or gene expression status. Our study highlights a powerful strategy exploiting signalling networks to systematically characterize the functional impact of the full spectrum of somatic mutations. This approach can be applied in general to genetic variation, with clear implications for, but not limited to, the biomedical domain and precision medicine.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/01/2022.06.23.497293.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.23.497293"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR510471"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR510471&type=FILE&fileName=EMS156059-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156059",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "cellosaurus",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-06-28",
+      "firstPublicationDate": "2022-06-26",
+      "firstIndexDate": "2022-06-28",
+      "fullTextReceivedDate": "2022-11-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

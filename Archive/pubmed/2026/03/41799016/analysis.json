@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41799016",
+  "title": "Sequence-based modeling of low-affinity transcription factor-DNA binding through deep learning.",
+  "authors": "Wang, Yingfei; Li, Jinsen; Chiu, Tsu-Pei; Xin, Beibei; Rohs, Remo",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2026-03-09",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用CNN和自注意力Transformer对低亲和力TF-DNA结合特异性进行序列建模与可解释性分析，核心聚焦TF-DNA互作且方法为深度学习，高度匹配本课题。",
+  "abstract": "Multiple layers of molecular determinants and mechanisms affect binding specificity between transcription factors (TFs) and DNA. DNA sequence-based deep learning models using convolutional neural networks (CNNs) and self-attention (SA) transformers have improved modeling accuracy and advanced our understanding of TF-DNA binding specificity through network interpretation. However, the systematic evaluation of various strategies for handling DNA sequence orientations in deep learning models-and their interpretation-remains underexplored, especially in the context of learning low-affinity binding site specificity. Using SELEX-seq data for eight Exd-Hox heterodimers in Drosophila, we compared canonical models with data augmentation and reverse-complement weight-sharing models. We found that reverse-complement weight-sharing CNN models and SA models trained with augmented data with reverse complements outperformed other approaches in modeling binding specificity. In this work, we evaluated several interpretation methods, including Gradient*input, DeconvNet, DeepLIFT, and in silico mutagenesis (ISM). Compared to other interpretation methods, ISM was less sensitive to model hyperparameter settings. In this work, we identified Exd-Ubx binding at low-affinity sites and suggested possible biophysical mechanisms. The findings of this study will be relevant for studying the functional role of low-affinity TF binding in gene regulatory mechanisms with possible implications on TF-DNA binding specificity guided protein design.",
+  "abstract_zh": "多层分子决定因素和机制影响转录因子（TFs）与DNA之间的结合特异性。基于DNA序列的深度学习模型，利用卷积神经网络（CNNs）和自注意力（SA）变换器，提高了建模精度，并通过网络解释增进了我们对TF-DNA结合特异性的理解。然而，在深度学习模型中处理DNA序列方向的各种策略及其解释的系统评估仍未充分探索，尤其是在学习低亲和力结合位点特异性的背景下。利用果蝇中八种Exd-Hox异二聚体的SELEX-seq数据，我们比较了规范模型与数据增强和反向互补权重共享模型。我们发现，反向互补权重共享CNN模型以及使用增强数据（含反向互补序列）训练的SA模型在建模结合特异性方面优于其他方法。在本工作中，我们评估了几种解释方法，包括Gradient*input、DeconvNet、DeepLIFT和计算机模拟诱变（ISM）。与其他解释方法相比，ISM对模型超参数设置的敏感性较低。在本研究中，我们识别了Exd-Ubx在低亲和力位点的结合，并提出了可能的生物物理机制。本研究的发现将有助于研究低亲和力TF结合在基因调控机制中的功能作用，并可能对TF-DNA结合特异性指导的蛋白质设计产生影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41799016/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41799016/",
+  "paper_page_path": "papers/pubmed/41799016/index.html"
+}

@@ -1,0 +1,497 @@
+{
+  "identity": {
+    "pmid": "40966520",
+    "doi": "10.1093/nar/gkaf909",
+    "title": "Decoding the base flipping mechanism of the SET- and RING-associated (SRA) domain of the epigenetic UHRF1 protein."
+  },
+  "content": {
+    "abstract": "Ubiquitin-like, containing PHD and RING fingers domains 1 (UHRF1) plays a pivotal role in replicating DNA methylation patterns during cell division. Acting as a DNA reader, UHRF1, via its SET- and RING-associated (SRA) domain, recognizes hemi-methylated (HM) CpG sites and flips 5-methylcytosine (5mC) nucleobases. This flipping triggers DNA methyltransferase 1 (DNMT1) recruitment to methylate cytosine in the complementary strand. To investigate the SRA-induced base-flipping mechanism, we introduced thienoguanosine (thG), a fluorescent guanosine analogue, at four positions in HM and non-methylated duplexes. The interactions of these labelled duplexes with wild-type SRA and a G448D mutant (incapable of base-flipping) were monitored using a combination of stopped-flow fluorescence measurements, molecular dynamics simulations, and quantum mechanical calculations. We show that 5mC and C residues are flipped with similar rate constants. However, while C residues rapidly revert to their original state, enabling SRA to continue reading or dissociate, SRA complexes with flipped 5mC undergo a slow conformational rearrangement, leading to the final conformation crucial for DNMT1 recruitment. Taken together, our findings suggest that base flipping is used to discriminate 5mC from C residues, while the ensuing conformational rearrangement drives DNMT1 recruitment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ubiquitin-Protein Ligases/chemistry",
+      "*CCAAT-Enhancer-Binding Proteins/chemistry/metabolism/genetics",
+      "DNA Methylation",
+      "Humans",
+      "DNA (Cytosine-5-)-Methyltransferase 1/metabolism",
+      "5-Methylcytosine/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "*Epigenesis, Genetic",
+      "CpG Islands",
+      "DNA/chemistry/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mukherjee, Dipanjan",
+        "Ciaco, Stefano",
+        "Martinez-Fernandez, Lara",
+        "Gavvala, Krishna",
+        "Bombarda, Elisa",
+        "Bourderioux, Aurelie",
+        "Dziuba, Dmytro",
+        "Hanser, Fabien",
+        "Humbert, Nicolas",
+        "Javed, Aqib",
+        "Mousli, Marc",
+        "Singh, Pankhi",
+        "Tor, Yitzhak",
+        "Improta, Roberto",
+        "Mori, Mattia",
+        "Mely, Yves"
+      ],
+      "short_names": [
+        "Mukherjee D",
+        "Ciaco S",
+        "Martinez-Fernandez L",
+        "Gavvala K",
+        "Bombarda E",
+        "Bourderioux A",
+        "Dziuba D",
+        "Hanser F",
+        "Humbert N",
+        "Javed A",
+        "Mousli M",
+        "Singh P",
+        "Tor Y",
+        "Improta R",
+        "Mori M",
+        "Mely Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4876-6665",
+        "ORCID: 0000-0003-0624-7496",
+        "ORCID: 0000-0001-5361-9390",
+        "ORCID: 0000-0001-7438-2716",
+        "ORCID: 0000-0002-1385-3710",
+        "ORCID: 0000-0001-9846-2411",
+        "ORCID: 0000-0001-9759-6864",
+        "ORCID: 0000-0003-3726-7799",
+        "ORCID: 0000-0003-1004-195X",
+        "ORCID: 0000-0003-2398-1254",
+        "ORCID: 0000-0001-7328-8269"
+      ],
+      "affiliations": [
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Siena 53100, Italy.",
+        "Departamento de Quimica Fisica de Materiales, Instituto de Quimica Fisica Blas Cabrera, CSIC (Consejo Superior de Investigaciones Cientificas), Madrid 28006, Spain.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093-0358, United States.",
+        "Consiglio Nazionale delle Ricerche, Istituto Biostrutture e Bioimmagini, Via De Amicis 95, 80145 Napoli, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Siena 53100, Italy.",
+        "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Universite de Strasbourg, Faculte de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mukherjee, Dipanjan",
+        "short_name": "Mukherjee D",
+        "identifiers": [
+          "0000-0003-4876-6665"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Ciaco, Stefano",
+        "short_name": "Ciaco S",
+        "identifiers": [
+          "0000-0003-0624-7496"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France.",
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Siena 53100, Italy."
+        ]
+      },
+      {
+        "full_name": "Martinez-Fernandez, Lara",
+        "short_name": "Martinez-Fernandez L",
+        "identifiers": [
+          "0000-0001-5361-9390"
+        ],
+        "affiliations": [
+          "Departamento de Química Física de Materiales, Instituto de Química Física Blas Cabrera, CSIC (Consejo Superior de Investigaciones Científicas), Madrid 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Gavvala, Krishna",
+        "short_name": "Gavvala K",
+        "identifiers": [
+          "0000-0001-7438-2716"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Bombarda, Elisa",
+        "short_name": "Bombarda E",
+        "identifiers": [
+          "0000-0002-1385-3710"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Bourdérioux, Aurélie",
+        "short_name": "Bourdérioux A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Dziuba, Dmytro",
+        "short_name": "Dziuba D",
+        "identifiers": [
+          "0000-0001-9846-2411"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Hanser, Fabien",
+        "short_name": "Hanser F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Humbert, Nicolas",
+        "short_name": "Humbert N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Javed, Aqib",
+        "short_name": "Javed A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Mousli, Marc",
+        "short_name": "Mousli M",
+        "identifiers": [
+          "0000-0001-9759-6864"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Singh, Pankhi",
+        "short_name": "Singh P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      },
+      {
+        "full_name": "Tor, Yitzhak",
+        "short_name": "Tor Y",
+        "identifiers": [
+          "0000-0003-3726-7799"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093-0358, United States."
+        ]
+      },
+      {
+        "full_name": "Improta, Roberto",
+        "short_name": "Improta R",
+        "identifiers": [
+          "0000-0003-1004-195X"
+        ],
+        "affiliations": [
+          "Consiglio Nazionale delle Ricerche, Istituto Biostrutture e Bioimmagini, Via De Amicis 95, 80145 Napoli, Italy."
+        ]
+      },
+      {
+        "full_name": "Mori, Mattia",
+        "short_name": "Mori M",
+        "identifiers": [
+          "0000-0003-2398-1254"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Siena 53100, Italy."
+        ]
+      },
+      {
+        "full_name": "Mély, Yves",
+        "short_name": "Mély Y",
+        "identifiers": [
+          "0000-0001-7328-8269"
+        ],
+        "affiliations": [
+          "Laboratoire de Bioimagerie et Pathologies, UMR 7021 CNRS Université de Strasbourg, Faculté de pharmacie, 74 route du Rhin, Illkirch 67401, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Sep 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 18:32",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "41774300"
+    ],
+    "refs": [
+      "37805934",
+      "37326016",
+      "35643159",
+      "35472854",
+      "34683905",
+      "33359809",
+      "33138374",
+      "32915558",
+      "32709850",
+      "32144273",
+      "31714766",
+      "30669400",
+      "30666134",
+      "30513966",
+      "30150382",
+      "28668128",
+      "28505099",
+      "28112929",
+      "27273741",
+      "27194046",
+      "26626525",
+      "26583988",
+      "26368281",
+      "25714036",
+      "25324304",
+      "24813944",
+      "24382561",
+      "23784813",
+      "23161542",
+      "23041422",
+      "22889332",
+      "22584623",
+      "22402447",
+      "22362737",
+      "22064703",
+      "21866967",
+      "21808300",
+      "21731699",
+      "21405863",
+      "21244040",
+      "21178072",
+      "20413423",
+      "20167131",
+      "20026581",
+      "19883114",
+      "18945682",
+      "18772891",
+      "18772889",
+      "18772888",
+      "18463664",
+      "18186612",
+      "17994007",
+      "17673620",
+      "17320500",
+      "17284454",
+      "16926025",
+      "16403636",
+      "16369569",
+      "16092826",
+      "15465864",
+      "15276835",
+      "15264254",
+      "15196890",
+      "15177689",
+      "14769949",
+      "14671313",
+      "12766947",
+      "12580601",
+      "12220189",
+      "11964390",
+      "11907039",
+      "11102456",
+      "10383435",
+      "10220317",
+      "9893991",
+      "9442083",
+      "8660575",
+      "8293469",
+      "7032584"
+    ],
+    "similar": [
+      "40966520",
+      "28112929",
+      "18772889",
+      "31481468",
+      "18772891",
+      "40960568",
+      "31322780",
+      "32448288",
+      "18772888",
+      "26368281",
+      "30669400",
+      "32084194",
+      "33359809",
+      "21731699",
+      "24253042",
+      "24368767",
+      "23245651",
+      "30392931",
+      "37247564",
+      "40542373",
+      "18945682",
+      "19077538",
+      "23463006",
+      "17673620",
+      "35472854",
+      "24134914",
+      "39607687",
+      "21245167",
+      "17994007",
+      "28100769",
+      "31680384",
+      "21745816",
+      "18931436",
+      "35643159",
+      "27595565",
+      "31238111",
+      "26065575",
+      "27045799",
+      "21496237",
+      "24895434",
+      "38446667",
+      "24469333",
+      "32726623",
+      "21507355",
+      "27049577",
+      "39631394",
+      "25564526",
+      "41197730",
+      "23161542",
+      "22064703",
+      "28803780",
+      "19943104",
+      "30672294",
+      "25486533",
+      "26590302",
+      "36128736",
+      "33097091",
+      "29506131",
+      "32232382",
+      "39621902",
+      "23041422",
+      "40653371",
+      "30392929",
+      "29268763",
+      "27845898",
+      "28059831",
+      "40827946",
+      "38580649",
+      "29562800",
+      "25323766",
+      "38767734",
+      "22570415",
+      "24340069",
+      "29656054",
+      "23752590",
+      "33922029",
+      "40378211",
+      "32581343",
+      "30639225",
+      "26841909",
+      "23363335",
+      "32428527",
+      "39810240",
+      "31018966",
+      "11399088",
+      "31400111",
+      "28241740",
+      "19800870",
+      "33170271",
+      "29074623",
+      "28334952",
+      "23022729",
+      "34766381",
+      "23201574",
+      "29471350",
+      "29507645",
+      "21489993",
+      "39267107",
+      "37573395",
+      "21777816"
+    ],
+    "review": [
+      "40966520",
+      "40960568",
+      "30669400",
+      "24134914",
+      "31238111",
+      "21496237",
+      "21507355",
+      "26590302",
+      "40653371"
+    ],
+    "pmc": [
+      "12448856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40966520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/29r609x0",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf909",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

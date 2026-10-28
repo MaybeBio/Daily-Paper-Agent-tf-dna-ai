@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "42278435",
+    "doi": "10.3390/ijms27114905",
+    "title": "Targeting Osteoporosis-Osteoarthritis Comorbidity: Multi-Omics Identification of SON and Exploration of Therapeutic Agents."
+  },
+  "content": {
+    "abstract": "Osteoporosis (OP) and osteoarthritis (OA) frequently coexist in the elderly, yet shared molecular pathways remain unclear. We employed weighted gene co-expression network analysis (WGCNA), independent cohort differential verification, and integration of multiple datasets to explore the association between the two diseases and identify the hub genes. Then, through Mendelian randomization and single-cell sequencing methods, we confirmed that SON might be the key protein linking these two diseases and a promising therapeutic target for comorbidity. Additionally, this study utilized the FDA drug database for virtual screening to evaluate the potential of SON protein as a drug target. Nilotinib, with a high docking score, was listed as a candidate drug. Overall, our findings suggest that SON may play a protective role in the comorbidity of OP and OA, but further functional studies are required to confirm its causal role. Moreover, Nilotinib shows inhibitory effects on osteoclast differentiation and targets SON in vitro, indicating its potential as a candidate drug for further investigation.",
+    "keywords": [
+      "osteoarthritis",
+      "osteoporosis",
+      "targeted therapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoporosis/drug therapy/genetics/epidemiology/metabolism",
+      "*Osteoarthritis/drug therapy/genetics/metabolism/epidemiology",
+      "Pyrimidines/pharmacology/chemistry",
+      "Multiomics",
+      "*DNA-Binding Proteins/genetics/metabolism/antagonists & inhibitors/chemistry",
+      "Comorbidity",
+      "Gene Regulatory Networks",
+      "Osteoclasts/metabolism/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Kunlong",
+        "Du, Jun",
+        "Yang, Peng",
+        "Lin, Liyun",
+        "Liu, Jiachen",
+        "Qiao, Yusen",
+        "Yang, Huilin",
+        "Geng, Dechun",
+        "Li, Kun"
+      ],
+      "short_names": [
+        "Jiang K",
+        "Du J",
+        "Yang P",
+        "Lin L",
+        "Liu J",
+        "Qiao Y",
+        "Yang H",
+        "Geng D",
+        "Li K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Magnetic Resonance Chamber, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Kunlong",
+        "short_name": "Jiang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jun",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Magnetic Resonance Chamber, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Peng",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Liyun",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiachen",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yusen",
+        "short_name": "Qiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huilin",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Dechun",
+        "short_name": "Geng D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Soochow University, No. 899 Pinghai Road, Suzhou 215000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:38",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41254114",
+      "40760019",
+      "40609733",
+      "40577065",
+      "39313574",
+      "38857652",
+      "38847168",
+      "38763012",
+      "38761877",
+      "38698841",
+      "38290089",
+      "38093316",
+      "38065069",
+      "37781358",
+      "37291580",
+      "37280296",
+      "36700234",
+      "36387862",
+      "36159805",
+      "36145059",
+      "36038828",
+      "35992596",
+      "35751904",
+      "35716253",
+      "35508470",
+      "35490173",
+      "35377720",
+      "35306338",
+      "34991592",
+      "34698778",
+      "34521999",
+      "34111027",
+      "34024716",
+      "33974944",
+      "33560326",
+      "32938500",
+      "32556517",
+      "32286516",
+      "31982565",
+      "31727827",
+      "31692085",
+      "31333128",
+      "31178118",
+      "30081074",
+      "29559693",
+      "29330445",
+      "28983613",
+      "27545680",
+      "27126955",
+      "26780427",
+      "24013217",
+      "23864235",
+      "21550432",
+      "19223260",
+      "18721452",
+      "18433299"
+    ],
+    "similar": [
+      "42278435",
+      "40216809",
+      "39849508",
+      "37865148",
+      "42254012",
+      "42233387",
+      "39026663",
+      "41017094",
+      "39828895",
+      "42249421",
+      "40589764",
+      "40859561",
+      "41202080",
+      "41997321",
+      "42176029",
+      "41635814",
+      "41155519",
+      "39541897",
+      "39587887",
+      "42509710",
+      "42377012",
+      "42015036",
+      "41694337",
+      "39736250",
+      "38551048",
+      "41628840",
+      "38771826",
+      "41191606",
+      "39874886",
+      "40624035",
+      "42352882",
+      "42051521",
+      "41630199",
+      "40592131",
+      "40143596",
+      "40653482",
+      "42083957",
+      "41177794",
+      "41580162",
+      "42486346",
+      "41112282",
+      "40588645",
+      "39086489",
+      "39665162",
+      "42175405",
+      "41444522",
+      "42375348",
+      "39919076",
+      "39993547",
+      "40435578",
+      "42074514",
+      "41254784",
+      "39213112",
+      "42123319",
+      "42223712",
+      "40916281",
+      "40442788",
+      "39640258",
+      "42184924",
+      "38933282",
+      "40853611",
+      "40628511",
+      "40603950",
+      "40603423",
+      "36339427",
+      "41993107",
+      "35620387",
+      "40172742",
+      "41261566",
+      "41638276",
+      "40389141",
+      "41546107",
+      "40707728",
+      "41318344",
+      "42363474",
+      "42450030",
+      "38332532",
+      "41088691",
+      "40701122",
+      "39341952",
+      "42106542",
+      "42260332",
+      "41052072",
+      "41491956",
+      "41082466",
+      "39176085",
+      "39541922",
+      "41246341",
+      "40419156",
+      "40577065",
+      "34340232",
+      "40828304",
+      "42274933",
+      "36034449",
+      "40726988",
+      "41550487",
+      "41662192",
+      "41063246",
+      "40660573",
+      "41291434"
+    ],
+    "review": [
+      "42278435",
+      "40389141",
+      "42450030"
+    ],
+    "pmc": [
+      "13256101"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27114905",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42278435/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41330917",
+    "doi": "10.1038/s41419-025-08227-2",
+    "title": "Super-enhancers mediates SLC7A11 via FOXA1 to regulate disulfidptosis in prostate cancer."
+  },
+  "content": {
+    "abstract": "Prostate cancer (PCa) remains a major therapeutic challenge due to aberrant androgen receptor signaling and a remodeled tumor microenvironment. Disulfidptosis, a recently identified form of cell death characterized by cytoskeletal collapse under conditions of glucose deprivation and elevated SLC7A11 expression, presents a potential novel avenue for intervention. In this study, we integrated TCGA and GEO data and employed machine learning techniques to identify disulfidptosis-related genes in prostate cancer. Functional analyses using SLC7A11-overexpressing and knockout cell lines demonstrated that SLC7A11 promotes cellular proliferation, migration, and invasion, while its overexpression under glucose-starved conditions triggers disulfidptosis, also inducible pharmacologically using the glucose uptake inhibitor BAY-876. Through CUT&Tag, ChIP-seq, and luciferase assays, we identified FOXA1 as a key transcriptional regulator of SLC7A11, driven by a super-enhancer located at chr14:37583488-37589585. CRISPR-Cas9 deletion of this super-enhancer reduced FOXA1 and SLC7A11 expression, thereby protecting cells from disulfidptosis. These findings highlight the critical role of the SE/FOXA1/SLC7A11 regulatory axis in driving both disulfidptosis and tumor progression, suggesting that targeting this pathway, particularly in glucose-deprived tumor environments, may offer promising therapeutic strategies for PCa.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hepatocyte Nuclear Factor 3-alpha/metabolism/genetics",
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/genetics/pathology/metabolism",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "*Amino Acid Transport System y+/metabolism/genetics",
+      "Cell Proliferation/genetics",
+      "*Enhancer Elements, Genetic/genetics",
+      "Cell Movement/genetics",
+      "Disulfidptosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Zhen",
+        "Lin, Bin",
+        "Ke, Zhi-Bin",
+        "Zheng, Qing-Shui",
+        "Xue, Xue-Yi",
+        "Wei, Yong",
+        "Xu, Ning"
+      ],
+      "short_names": [
+        "Kang Z",
+        "Lin B",
+        "Ke ZB",
+        "Zheng QS",
+        "Xue XY",
+        "Wei Y",
+        "Xu N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7563-7781",
+        "ORCID: 0000-0002-7426-6501",
+        "ORCID: 0000-0002-6461-7435",
+        "ORCID: 0000-0001-5324-3733",
+        "ORCID: 0000-0001-7909-7025"
+      ],
+      "affiliations": [
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Fujian Key Laboratory of Precision Medicine for Cancer, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. weiyong2017@fjmu.edu.cn.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. weiyong2017@fjmu.edu.cn.",
+        "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com.",
+        "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com.",
+        "Fujian Key Laboratory of Precision Medicine for Cancer, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Zhen",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Bin",
+        "short_name": "Lin B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ke, Zhi-Bin",
+        "short_name": "Ke ZB",
+        "identifiers": [
+          "0000-0002-7563-7781"
+        ],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qing-Shui",
+        "short_name": "Zheng QS",
+        "identifiers": [
+          "0000-0002-7426-6501"
+        ],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xue-Yi",
+        "short_name": "Xue XY",
+        "identifiers": [
+          "0000-0002-6461-7435"
+        ],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China.",
+          "Fujian Key Laboratory of Precision Medicine for Cancer, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yong",
+        "short_name": "Wei Y",
+        "identifiers": [
+          "0000-0001-5324-3733"
+        ],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. weiyong2017@fjmu.edu.cn.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. weiyong2017@fjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Ning",
+        "short_name": "Xu N",
+        "identifiers": [
+          "0000-0001-7909-7025"
+        ],
+        "affiliations": [
+          "Department of Urology, Urology Research Institute, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com.",
+          "Department of Urology, National Region Medical Centre, Binhai Campus of The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com.",
+          "Fujian Key Laboratory of Precision Medicine for Cancer, The First Affiliated Hospital, Fujian Medical University, Fuzhou, China. drurology@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 Dec 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 01:16",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42470726",
+      "42230548",
+      "42194021"
+    ],
+    "refs": [
+      "39856701",
+      "39577420",
+      "39444006",
+      "39282153",
+      "38994627",
+      "38959043",
+      "38898043",
+      "38572751",
+      "38454135",
+      "38205254",
+      "37919262",
+      "37580393",
+      "37292153",
+      "36747082",
+      "36286590",
+      "35931888",
+      "35856800",
+      "35582526",
+      "35367340",
+      "34761566",
+      "34522704",
+      "34493733",
+      "34385181",
+      "33538338",
+      "33483372",
+      "32655839",
+      "32333502",
+      "32066566",
+      "31914417",
+      "31874106",
+      "29789716",
+      "29616091",
+      "29528250",
+      "28718439",
+      "28407145",
+      "25504702",
+      "24518206",
+      "23539448",
+      "22879989",
+      "22138582",
+      "21900400"
+    ],
+    "similar": [
+      "41330917",
+      "39444006",
+      "32929382",
+      "40709550",
+      "41086957",
+      "40861466",
+      "40915149",
+      "32333502",
+      "39739602",
+      "40178511",
+      "39394612",
+      "39840687",
+      "30043639",
+      "38994627",
+      "31118064",
+      "40164329",
+      "23539448",
+      "25808853",
+      "41023132",
+      "40643528",
+      "36747082",
+      "38632701",
+      "22879989",
+      "38191330",
+      "21572438",
+      "39430814",
+      "31974375",
+      "40813895",
+      "40854446",
+      "39029955",
+      "28038451",
+      "41244115",
+      "41014557",
+      "33785741",
+      "32109492",
+      "40306166",
+      "38881923",
+      "39266549",
+      "38303526",
+      "40069889",
+      "31243372",
+      "39954255",
+      "35624316",
+      "41131631",
+      "34258652",
+      "39865281",
+      "38962013",
+      "38102738",
+      "40269657",
+      "38851846",
+      "41346703",
+      "25008967",
+      "39278970",
+      "39267140",
+      "41381516",
+      "38849954",
+      "26336819",
+      "40907782",
+      "40576169",
+      "39127016",
+      "31266892",
+      "29155818",
+      "39247811",
+      "39500657",
+      "32946061",
+      "37339981",
+      "40119400",
+      "38786003",
+      "39715824",
+      "40765833",
+      "37919768",
+      "28627030",
+      "39871338",
+      "41215575",
+      "28630042",
+      "34051661",
+      "24292680",
+      "40753759",
+      "37549269",
+      "37916324",
+      "41438431",
+      "31727847",
+      "22138582",
+      "41482374",
+      "41249753",
+      "35167383",
+      "25264199",
+      "41161653",
+      "38528532",
+      "22083957",
+      "26743006",
+      "40788631",
+      "41485685",
+      "35123415",
+      "40294549",
+      "39805370",
+      "31324884",
+      "32868907",
+      "38720175",
+      "40713509"
+    ],
+    "review": [
+      "41330917",
+      "40915149",
+      "39394612",
+      "41244115",
+      "40269657"
+    ],
+    "pmc": [
+      "12827458"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-025-08227-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41330917/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

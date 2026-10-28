@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.11.607410",
+  "title": "Interpretable improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein",
+  "authors": "Wenwu Zeng; Yutao Dou; Liangrui Pan; Liwen Xu; Shaoliang Peng",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-12",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过领域自适应预训练蛋白语言模型ESM-DBP提升DNA结合蛋白预测性能，涵盖TF预测任务，虽非直接建模TF-DNA互作机制，但方法可迁移至本课题。",
+  "abstract": "DNA-protein interactions exert the fundamental structure of many pivotal biological processes, such as DNA replication, transcription, and gene regulation. However, accurate and efficient computational methods for identifying these interactions are still lacking. In this study, we propose a novel method ESM-DBP through refining the DNA-binding protein (DBP) sequence repertory and domain-adaptive pretraining based the protein language model (PLM). Our method considers the lack of exploration of general PLM for DBP domain-specific knowledge, so we screened out 170,264 DBPs from the UniProtKB database to construct the model that more suitable for learning crucial characteristics of DBP. The evaluation of ESM-DBP is systematically performed in four different DBP-related downstream prediction tasks, i.e., DNA-binding protein, DNA-binding residue, transcription factor, and DNA-binding Cys2His2 zinc-finger predictions. Experimental results show that ESM-DBP provides a better feature representation of DBP compared to the original PLM, resulting in improved prediction performance and outperforming other state-of-the-art prediction methods. In addition, ESM-DBP incorporates the integrated gradient algorithm for interpretable analysis, which usually ignored in the previous methods. It reveals that ESM-DBP possesses high sensitivity to the key decisive DNA-binding domains. Moreover, we find that ESM-DBP can still perform well even for those DBPs with only a few similar homologous sequences, and this generalization performs better than the original PLM. The data and standalone program of ESM-DBP are freely accessible at https://github.com/pengsl-lab/ESM-DBP .",
+  "abstract_zh": "DNA-蛋白质相互作用构成了许多关键生物过程的基础结构，如DNA复制、转录和基因调控。然而，准确且高效的计算方法用于识别这些相互作用仍然缺乏。在本研究中，我们提出了一种新方法ESM-DBP，通过精炼DNA结合蛋白（DBP）序列库并基于蛋白质语言模型（PLM）进行域自适应预训练。我们的方法考虑了通用PLM在DBP域特定知识探索方面的不足，因此我们从UniProtKB数据库中筛选出170,264个DBP，以构建更适合学习DBP关键特征的模型。ESM-DBP的评估系统性地在四个不同的DBP相关下游预测任务中进行，即DNA结合蛋白、DNA结合残基、转录因子和DNA结合Cys2His2锌指预测。实验结果表明，与原始PLM相比，ESM-DBP提供了更好的DBP特征表示，从而提高了预测性能，并优于其他最先进的预测方法。此外，ESM-DBP集成了积分梯度算法用于可解释性分析，这在以往方法中通常被忽略。它揭示了ESM-DBP对关键决定性DNA结合域具有高敏感性。而且，我们发现即使对于仅有少数相似同源序列的DBP，ESM-DBP仍能表现良好，且这种泛化能力优于原始PLM。ESM-DBP的数据和独立程序可在https://github.com/pengsl-lab/ESM-DBP 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.11.607410",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.11.607410",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.11.607410/index.html"
+}

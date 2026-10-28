@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "42262560",
+    "doi": "10.1093/plphys/kiag348",
+    "title": "Brassinosteroid-associated transcriptional regulatory networks in rice."
+  },
+  "content": {
+    "abstract": "Brassinosteroids (BRs) are crucial in regulating growth, development, and environmental adaptation in plants. To understand the complex regulatory network of BRs, we integrated RNA-Seq, sRNA-Seq, and degradome data from rice (Oryza sativa L.) seedlings subjected to brassinolide (BL) treatment and from BR core signaling gene mutants (qgl3, osgsk3, and osbzr1). Using guide-gene-directed network construction and machine learning-based transcription factor (TF) target prediction methods, we also constructed BR-associated gene coexpression and regulatory networks. This study revealed synergistic regulation at the transcriptional level between BR core signaling mutants and BL treatment, highlighting the central modules involving qGL3 and OsGSK3 in BR signaling. The constructed regulatory network was enriched for TFs centered on the qGL3/OsPPKL1-OsGSK3-OsBZR1 pathway. Potential BR-core TF genes were identified using coexpression and regulatory network analyses, and their loss-of-function mutants were evaluated using BL sensitivity assays and immunoblot analyses. Additionally, a BR transcriptional regulatory network database was developed, providing a valuable resource for the rice BR research community.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Oryza/genetics/metabolism/drug effects",
+      "*Brassinosteroids/metabolism/pharmacology",
+      "*Gene Regulatory Networks/drug effects",
+      "Gene Expression Regulation, Plant/drug effects",
+      "Plant Proteins/genetics/metabolism",
+      "Steroids, Heterocyclic/pharmacology",
+      "Transcription Factors/metabolism/genetics",
+      "Signal Transduction/genetics",
+      "Mutation",
+      "*Plant Growth Regulators/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Ruolan",
+        "Yu, Qian",
+        "Yang, Long",
+        "Gao, Xiuying",
+        "Huang, Ji"
+      ],
+      "short_names": [
+        "Zhu R",
+        "Yu Q",
+        "Yang L",
+        "Gao X",
+        "Huang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2207-5904",
+        "ORCID: 0009-0009-7172-0922",
+        "ORCID: 0009-0005-3455-3767",
+        "ORCID: 0000-0001-8468-3846",
+        "ORCID: 0000-0002-9057-4299"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Ruolan",
+        "short_name": "Zhu R",
+        "identifiers": [
+          "0009-0009-2207-5904"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qian",
+        "short_name": "Yu Q",
+        "identifiers": [
+          "0009-0009-7172-0922"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Long",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0009-0005-3455-3767"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiuying",
+        "short_name": "Gao X",
+        "identifiers": [
+          "0000-0001-8468-3846"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ji",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-9057-4299"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Department of Seed Industry & Science, College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Physiol"
+    ],
+    "pub_date": "2026 Jul 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/09 12:48",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42262560",
+      "30920691",
+      "30923230",
+      "31990125",
+      "28124243",
+      "34662408",
+      "34839552",
+      "33617099",
+      "42008948",
+      "19648232",
+      "22685166",
+      "37235693",
+      "28100707",
+      "38384133",
+      "25371548",
+      "28479230",
+      "13677471",
+      "23993372",
+      "25194027",
+      "26116530",
+      "40644700",
+      "32026326",
+      "14551335",
+      "39731290",
+      "41621109",
+      "42066816",
+      "41950654",
+      "28894020",
+      "40729409",
+      "21554539",
+      "40398925",
+      "39207175",
+      "26162429",
+      "27375203",
+      "27332964",
+      "36272547",
+      "36346128",
+      "30795735",
+      "39259275",
+      "35258682",
+      "39299342",
+      "22353574",
+      "31837469",
+      "42015761",
+      "37699038",
+      "39704312",
+      "30400353",
+      "14615594",
+      "39999416",
+      "42184617",
+      "39936852",
+      "31280329",
+      "24164091",
+      "27815670",
+      "31950543",
+      "26045464",
+      "19825654",
+      "33568286",
+      "15029491",
+      "30607883",
+      "37818650",
+      "38709680",
+      "24786710",
+      "17027118",
+      "37794842",
+      "32759270",
+      "28402719",
+      "40721733",
+      "23496140",
+      "17699623",
+      "15061077",
+      "22363552",
+      "28124247",
+      "38416876",
+      "26706074",
+      "24667992",
+      "40222390",
+      "30205610",
+      "39967024",
+      "34615886",
+      "39714086",
+      "21214652",
+      "16808934",
+      "20851039",
+      "27976810",
+      "30170727",
+      "39984844",
+      "41812483",
+      "22570626",
+      "42244175",
+      "34618079",
+      "40393230",
+      "12445121",
+      "40345159",
+      "19170933",
+      "32343414",
+      "29180380",
+      "21735198",
+      "23194343",
+      "34962599"
+    ],
+    "review": [
+      "42262560",
+      "23993372",
+      "21554539",
+      "24667992",
+      "30205610"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plphys/article-lookup/doi/10.1093/plphys/kiag348",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39167797",
+  "title": "TME-NET: an interpretable deep neural network for predicting pan-cancer immune checkpoint inhibitor responses.",
+  "authors": "Ding, Xiaobao; Zhang, Lin; Fan, Ming; Li, Lihua",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-08-21",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用可解释神经网络预测免疫治疗反应，虽涉及转录因子STAT4/IRF4，但核心是肿瘤微环境与疗效预测，非蛋白质-DNA互作或TF-DNA结合建模，与本课题关联微弱。",
+  "abstract": "Immunotherapy with immune checkpoint inhibitors (ICIs) is increasingly used to treat various tumor types. Determining patient responses to ICIs presents a significant clinical challenge. Although components of the tumor microenvironment (TME) are used to predict patient outcomes, comprehensive assessments of the TME are frequently overlooked. Using a top-down approach, the TME was divided into five layers-outcome, immune role, cell, cellular component, and gene. Using this structure, a neural network called TME-NET was developed to predict responses to ICIs. Model parameter weights and cell ablation studies were used to investigate the influence of TME components. The model was developed and evaluated using a pan-cancer cohort of 948 patients across four cancer types, with Area Under the Curve (AUC) and accuracy as performance metrics. Results show that TME-NET surpasses established models such as support vector machine and k-nearest neighbors in AUC and accuracy. Visualization of model parameter weights showed that at the cellular layer, Th1 cells enhance immune responses, whereas myeloid-derived suppressor cells and M2 macrophages show strong immunosuppressive effects. Cell ablation studies further confirmed the impact of these cells. At the gene layer, the transcription factors STAT4 in Th1 cells and IRF4 in M2 macrophages significantly affect TME dynamics. Additionally, the cytokine-encoding genes IFNG from Th1 cells and ARG1 from M2 macrophages are crucial for modulating immune responses within the TME. Survival data from immunotherapy cohorts confirmed the prognostic ability of these markers, with p-values <0.01. In summary, TME-NET performs well in predicting immunotherapy responses and offers interpretable insights into the immunotherapy process. It can be customized at https://immbal.shinyapps.io/TME-NET.",
+  "abstract_zh": "免疫检查点抑制剂（ICIs）的免疫治疗越来越多地用于治疗各种肿瘤类型。确定患者对ICIs的反应是一项重大的临床挑战。尽管肿瘤微环境（TME）的组分被用于预测患者结局，但对TME的全面评估常被忽视。采用自上而下的方法，将TME分为五个层次——结局、免疫角色、细胞、细胞组分和基因。利用这一结构，开发了一种名为TME-NET的神经网络来预测对ICIs的反应。模型参数权重和细胞消融研究被用于探究TME组分的影响。该模型使用涵盖四种癌症类型的948名患者的泛癌队列进行开发和评估，以曲线下面积（AUC）和准确度作为性能指标。结果表明，TME-NET在AUC和准确度上超越了支持向量机和k近邻等既有模型。模型参数权重的可视化显示，在细胞层次，Th1细胞增强免疫反应，而髓源性抑制细胞和M2巨噬细胞表现出强烈的免疫抑制效应。细胞消融研究进一步证实了这些细胞的影响。在基因层次，Th1细胞中的转录因子STAT4和M2巨噬细胞中的IRF4显著影响TME动态。此外，来自Th1细胞的细胞因子编码基因IFNG和来自M2巨噬细胞的ARG1对调节TME内的免疫反应至关重要。来自免疫治疗队列的生存数据证实了这些标志物的预后能力，p值<0.01。总之，TME-NET在预测免疫治疗反应方面表现良好，并为免疫治疗过程提供了可解释的见解。它可在https://immbal.shinyapps.io/TME-NET进行定制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39167797/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39167797/",
+  "paper_page_path": "papers/pubmed/39167797/index.html"
+}

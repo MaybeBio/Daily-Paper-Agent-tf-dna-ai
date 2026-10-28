@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "37654076",
+    "doi": "10.1002/ajmg.c.32056",
+    "title": "Integration of EpiSign, facial phenotyping, and likelihood ratio interpretation of clinical abnormalities in the re-classification of an ARID1B missense variant."
+  },
+  "content": {
+    "abstract": "Heterozygous ARID1B variants result in Coffin-Siris syndrome. Features may include hypoplastic nails, slow growth, characteristic facial features, hypotonia, hypertrichosis, and sparse scalp hair. Most reported cases are due to ARID1B loss of function variants. We report a boy with developmental delay, feeding difficulties, aspiration, recurrent respiratory infections, slow growth, and hypotonia without a clinical diagnosis, where a previously unreported ARID1B missense variant was classified as a variant of uncertain significance. The pathogenicity of this variant was refined through combined methodologies including genome-wide methylation signature analysis (EpiSign), Machine Learning (ML) facial phenotyping, and LIRICAL. Trio exome sequencing and EpiSign were performed. ML facial phenotyping compared facial images using FaceMatch and GestaltMatcher to syndrome-specific libraries to prioritize the trio exome bioinformatic pipeline gene list output. Phenotype-driven variant prioritization was performed with LIRICAL. A de novo heterozygous missense variant, ARID1B p.(Tyr1268His), was reported as a variant of uncertain significance. The ACMG classification was refined to likely pathogenic by a supportive methylation signature, ML facial phenotyping, and prioritization through LIRICAL. The ARID1B genotype-phenotype has been expanded through an extended analysis of missense variation through genome-wide methylation signatures, ML facial phenotyping, and likelihood-ratio gene prioritization.",
+    "keywords": [
+      "ARID1B",
+      "Coffin-Siris syndrome",
+      "FaceMatch",
+      "GestaltMatcher",
+      "LIRICAL",
+      "episignature"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "DNA-Binding Proteins/genetics",
+      "Muscle Hypotonia/pathology",
+      "Transcription Factors/genetics",
+      "Face/pathology",
+      "*Abnormalities, Multiple/diagnosis",
+      "*Micrognathism/genetics",
+      "*Intellectual Disability/pathology",
+      "*Hand Deformities, Congenital/genetics",
+      "Neck/pathology"
+    ],
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Forwood, Caitlin",
+        "Ashton, Katie",
+        "Zhu, Ying",
+        "Zhang, Futao",
+        "Dias, Kerith-Rae",
+        "Standen, Krystle",
+        "Evans, Carey-Anne",
+        "Carey, Louise",
+        "Cardamone, Michael",
+        "Shalhoub, Carolyn",
+        "Katf, Hala",
+        "Riveros, Carlos",
+        "Hsieh, Tzung-Chien",
+        "Krawitz, Peter",
+        "Robinson, Peter N",
+        "Dudding-Byth, Tracy",
+        "Sadikovic, Bekim",
+        "Pinner, Jason",
+        "Buckley, Michael F",
+        "Roscioli, Tony"
+      ],
+      "short_names": [
+        "Forwood C",
+        "Ashton K",
+        "Zhu Y",
+        "Zhang F",
+        "Dias KR",
+        "Standen K",
+        "Evans CA",
+        "Carey L",
+        "Cardamone M",
+        "Shalhoub C",
+        "Katf H",
+        "Riveros C",
+        "Hsieh TC",
+        "Krawitz P",
+        "Robinson PN",
+        "Dudding-Byth T",
+        "Sadikovic B",
+        "Pinner J",
+        "Buckley MF",
+        "Roscioli T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1502-5000"
+      ],
+      "affiliations": [
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia.",
+        "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "Sydney Children's Hospital, Randwick, Australia.",
+        "School of Women's and Children's Health, UNSW, Sydney, Australia.",
+        "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia.",
+        "Sydney Children's Hospital, Randwick, Australia.",
+        "Bioinformatics, Hunter Medical Research Institute, Newcastle, Australia.",
+        "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Bonn, Germany.",
+        "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Bonn, Germany.",
+        "JAX Center for Precision Genetics, The JAX Cancer Center, Farmington, Connecticut, USA.",
+        "Genetics of Learning Disability (GoLD) Service, Waratah, Australia.",
+        "London Health Sciences Centre, Verspeeten Clinical Genome Centre, Western University, London, Canada.",
+        "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia.",
+        "School of Women's and Children's Health, UNSW, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+        "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia.",
+        "School of Clinical Medicine, UNSW, Sydney, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Forwood, Caitlin",
+        "short_name": "Forwood C",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+          "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia.",
+          "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Ashton, Katie",
+        "short_name": "Ashton K",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ying",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhang, Futao",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Dias, Kerith-Rae",
+        "short_name": "Dias KR",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Standen, Krystle",
+        "short_name": "Standen K",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Evans, Carey-Anne",
+        "short_name": "Evans CA",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Carey, Louise",
+        "short_name": "Carey L",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Cardamone, Michael",
+        "short_name": "Cardamone M",
+        "identifiers": [],
+        "affiliations": [
+          "Sydney Children's Hospital, Randwick, Australia.",
+          "School of Women's and Children's Health, UNSW, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Shalhoub, Carolyn",
+        "short_name": "Shalhoub C",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia."
+        ]
+      },
+      {
+        "full_name": "Katf, Hala",
+        "short_name": "Katf H",
+        "identifiers": [],
+        "affiliations": [
+          "Sydney Children's Hospital, Randwick, Australia."
+        ]
+      },
+      {
+        "full_name": "Riveros, Carlos",
+        "short_name": "Riveros C",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics, Hunter Medical Research Institute, Newcastle, Australia."
+        ]
+      },
+      {
+        "full_name": "Hsieh, Tzung-Chien",
+        "short_name": "Hsieh TC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Krawitz, Peter",
+        "short_name": "Krawitz P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Robinson, Peter N",
+        "short_name": "Robinson PN",
+        "identifiers": [],
+        "affiliations": [
+          "JAX Center for Precision Genetics, The JAX Cancer Center, Farmington, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Dudding-Byth, Tracy",
+        "short_name": "Dudding-Byth T",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics of Learning Disability (GoLD) Service, Waratah, Australia."
+        ]
+      },
+      {
+        "full_name": "Sadikovic, Bekim",
+        "short_name": "Sadikovic B",
+        "identifiers": [],
+        "affiliations": [
+          "London Health Sciences Centre, Verspeeten Clinical Genome Centre, Western University, London, Canada."
+        ]
+      },
+      {
+        "full_name": "Pinner, Jason",
+        "short_name": "Pinner J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Clinical Genetics, Sydney Children's Hospital, Randwick, Australia.",
+          "School of Women's and Children's Health, UNSW, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Buckley, Michael F",
+        "short_name": "Buckley MF",
+        "identifiers": [],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Roscioli, Tony",
+        "short_name": "Roscioli T",
+        "identifiers": [
+          "0000-0003-1502-5000"
+        ],
+        "affiliations": [
+          "NSW Health Pathology Randwick Genomics, Prince of Wales Hospital, Sydney, Australia.",
+          "Neuroscience Research Australia (NeuRA), University of New South Wales, Sydney, Australia.",
+          "School of Clinical Medicine, UNSW, Sydney, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of medical genetics. Part C, Seminars in medical genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Med Genet C Semin Med Genet"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/01 06:43",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "42396398",
+      "42367973",
+      "38397148"
+    ],
+    "refs": [
+      "36413997",
+      "35887210",
+      "35145301",
+      "35120630",
+      "34440449",
+      "33962052",
+      "33547396",
+      "32924124",
+      "32755546",
+      "31116477",
+      "30929737",
+      "30459321",
+      "30349098",
+      "30123105",
+      "29300386",
+      "29258477",
+      "27474218",
+      "26376624",
+      "26350204",
+      "25169814",
+      "22822383"
+    ],
+    "similar": [
+      "37654076",
+      "38790056",
+      "31628733",
+      "34775996",
+      "31421289",
+      "23815551",
+      "27264197",
+      "33768696",
+      "36352633",
+      "32161024",
+      "30055038",
+      "26395437",
+      "33714239",
+      "23929686",
+      "26364901",
+      "24674232",
+      "27112773",
+      "30349098",
+      "29504208",
+      "34205270",
+      "30276971",
+      "38347147",
+      "35929934",
+      "39028335",
+      "23906836",
+      "35536477",
+      "33785884",
+      "25249037",
+      "32618029",
+      "38697389",
+      "32339967",
+      "35964110",
+      "22426309",
+      "35315036",
+      "38171562",
+      "34730517",
+      "32686290",
+      "24569609",
+      "25169814",
+      "29429572",
+      "34706719",
+      "30973214",
+      "25081545",
+      "25168959",
+      "31658463",
+      "34440449",
+      "26376624",
+      "36416235",
+      "29549119",
+      "36437209",
+      "30933046",
+      "38735569",
+      "23637025",
+      "30298501",
+      "36049609",
+      "22426308",
+      "28608987",
+      "31243159",
+      "34056762",
+      "30459321",
+      "36756859",
+      "29698805",
+      "33430815",
+      "31160358",
+      "26543203",
+      "32888375",
+      "31207137",
+      "35353340",
+      "38865789",
+      "28124119",
+      "34180430",
+      "31132234",
+      "30580808",
+      "37302973",
+      "28566769",
+      "37485815",
+      "27570168",
+      "35607970",
+      "35796094",
+      "25169878",
+      "30499906",
+      "31530938",
+      "33006724",
+      "27264538",
+      "25724810",
+      "25099957",
+      "32666931",
+      "36177969",
+      "28787104",
+      "22711679",
+      "25169651",
+      "33303725",
+      "24886874",
+      "37692302",
+      "37646735",
+      "24700502",
+      "35027293",
+      "28250421",
+      "38117302",
+      "27616479",
+      "28884947",
+      "29437512",
+      "32574611",
+      "30819258",
+      "28003643",
+      "28691782",
+      "39355979",
+      "38751117",
+      "38540429",
+      "31646703",
+      "28695822",
+      "39431794",
+      "38477981",
+      "38251460",
+      "34737199",
+      "38873579",
+      "38711434",
+      "34876591",
+      "39287049",
+      "39424669",
+      "37584245",
+      "39389935",
+      "39396132",
+      "27648269",
+      "38903062"
+    ],
+    "review": [
+      "37654076",
+      "27264197",
+      "25169814",
+      "38735569",
+      "23637025",
+      "36756859",
+      "33430815",
+      "32888375",
+      "35796094",
+      "25169878",
+      "25099957",
+      "36177969",
+      "24700502",
+      "29437512"
+    ],
+    "pmc": [
+      "10952833"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37654076.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37654076/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37654076",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ajmg.c.32056",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

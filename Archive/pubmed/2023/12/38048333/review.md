@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure legends
+- **Assessment boundary** Scientific validity, methodological rigor, claims versus evidence, and suitability for the stated venue
+- **Shared manuscript claim summary** The authors present the first empirical comparison of structure-trained versus disorder-trained DNA-binding residue predictors, identify performance gaps across annotation types, and introduce hybridDBRpred, a transformer-based meta-predictor combining three existing tools to achieve statistically superior accuracy and reduced cross-predictions
+- **Visible evidence base** Tables 1-3, Figures 1-2, Supplementary Figures S1-S3, Supplementary Tables S1-S2, dataset descriptions, statistical methodology
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided in the submitted material; detailed hyperparameter settings for the transformer network; exact training/validation/test cluster assignments; baseline model implementation details
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant gap in the protein-DNA interaction prediction field by systematically comparing structure-trained and disorder-trained predictors and proposing a meta-approach to combine their strengths. The empirical analysis is thoughtfully designed, and the hybridDBRpred model shows consistent improvements over individual tools and simpler baselines. However, several methodological details require clarification, particularly regarding dataset construction, statistical testing procedures, and the practical utility of the reported improvements given the low prevalence of DBRs. The claims of novelty are partially overstated given prior meta-predictor work in related binding residue prediction areas.
+- **Who would be interested in the results, and why** Computational biologists developing or using sequence-based predictors of nucleic acid binding residues; researchers studying protein-DNA interactions, particularly those interested in intrinsically disordered regions; bioinformaticians working on meta-learning approaches for biological sequence analysis. The comparative benchmark data will be useful for future method development.
+- **Major strengths** The study fills a clear gap by systematically evaluating predictors across both structure- and disorder-annotated proteins, an analysis that was previously missing. The dataset construction with low similarity clustering and inclusion of non-DNA binding proteins for cross-prediction assessment is methodologically sound. The hybridDBRpred architecture is well motivated by the empirical findings, and the ablation studies provide useful insights into which design choices matter. The authors provide a web server and source code, supporting reproducibility and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim hybridDBRpred is "statistically more accurate than each of the ten tools and baseline meta-predictors" based on paired tests over 100 random subsamples.
+  - **Evidence pointer** Materials and methods, "Assessment metrics and statistical analysis"; Table 2
+  - **Concern** The statistical testing procedure is described as performing 100 random selections of 20 DNA-binding and 40 non-DNA binding proteins, then applying t-tests or Wilcoxon tests on the paired results. However, the manuscript does not specify whether multiple testing corrections were applied across the many pairwise comparisons (hybridDBRpred versus each of 10 tools and 2 baselines, across multiple metrics and dataset subsets). With this many comparisons, the probability of false positives is substantial. Additionally, the choice of 20 DNA-binding proteins per subsample seems small given the dataset contains 39 such proteins, and the manuscript does not justify this choice or report variance across the 100 subsamples.
+  - **Why it matters** The central claim of the paper is that hybridDBRpred significantly outperforms existing methods. If the statistical evidence is not robust to multiple testing or is based on underpowered subsamples, this claim is weakened. Readers need confidence that the reported improvements are not artifacts of the testing procedure.
+  - **Resolution test** Provide details on multiple testing corrections (e.g., Benjamini-Hochberg) or justify why they are unnecessary. Report the distribution of AUC/AULC values across the 100 subsamples (e.g., mean and standard deviation) rather than only the aggregate result. Justify the subsample size of 20 DNA-binding proteins or use a larger subsample.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset representativeness and generalizability
+  - **Claim pointer** The authors claim their test dataset includes "39 DNA-binding proteins and 396 proteins that interact with other ligand types" and that results generalize across structure- and disorder-annotated proteins.
+  - **Evidence pointer** Materials and methods, "Datasets"; Table 2
+  - **Concern** The test set contains only 39 DNA-binding proteins, which is a small number for drawing generalizable conclusions. The manuscript does not report the taxonomic diversity, functional diversity, or sequence length distribution of these proteins. It is unclear whether the benchmark is dominated by particular protein families or structural classes. Furthermore, the 2:1 ratio of structure- to disorder-annotated proteins is stated but not justified, and the manuscript does not report how many of the 39 DNA-binding proteins are structure- versus disorder-annotated. The small number of positive proteins, combined with the low DBR prevalence (1.5%), raises questions about the stability of the reported performance differences.
+  - **Why it matters** A benchmark with limited diversity may not support the claim that hybridDBRpred provides "accurate predictions and low levels of cross-predictions across the two annotation types" in general. If the 39 proteins are not representative of the broader protein-DNA interaction landscape, the reported improvements may not transfer to new applications.
+  - **Resolution test** Provide a detailed characterization of the test proteins (taxonomy, function, sequence length distribution, structure versus disorder annotation breakdown). Discuss the representativeness of the benchmark relative to the broader protein-DNA interaction space. Consider reporting results on an independent external benchmark if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that hybridDBRpred uses "deep transformer network to combine predictions generated by three best current predictors" and that the architecture includes "three stacked transformer modules."
+  - **Evidence pointer** Materials and methods, "Architecture of the hybridDBRpred"; Figure 1
+  - **Concern** The architectural description lacks critical implementation details needed for reproducibility. The manuscript does not specify the number of attention heads, embedding dimensions, feedforward layer sizes, dropout rates, number of training epochs, learning rate scheduling, or early stopping criteria. The choice of window size 15 is stated but not justified or explored. The input feature set is referenced to Supplementary Table S2, but the exact feature engineering pipeline (e.g., how disorder predictions from IUPred3 are normalized and integrated) is not described in sufficient detail. The training procedure, including how the training and validation splits were used for hyperparameter optimization, is not fully specified.
+  - **Why it matters** For a method paper, reproducibility is essential. Other researchers should be able to reimplement hybridDBRpred from the description alone. The lack of architectural and training details prevents independent verification and limits the scientific impact of the work.
+  - **Resolution test** Provide complete architectural specifications, training hyperparameters, and the full feature list with descriptions. Consider releasing the trained model weights to facilitate direct comparison and application.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of cross-prediction analysis
+  - **Claim pointer** The authors conclude that "false positives are concentrated around the positions of the native DBRs" and that this "suggests that the predictive performance that we calculate for these tools might underestimate their actual performance."
+  - **Evidence pointer** Results and discussion, "Analysis of the putative DNA-binding residues"; Figure 2
+  - **Concern** The analysis in Figure 2 shows that predicted DBRs are more likely to be near native DBRs than expected by chance, which the authors interpret as evidence that some "false positives" may actually be true binders missed by annotation thresholds. While this interpretation is plausible, the analysis does not rule out alternative explanations. For example, sequence-level features used by predictors may create autocorrelation in predictions regardless of actual binding, or the spatial clustering of binding sites in protein structures could produce this pattern even with imperfect predictors. The manuscript does not compare against a control analysis using a predictor trained on shuffled labels or a null model that accounts for sequence autocorrelation.
+  - **Why it matters** The claim that performance is underestimated has implications for how readers interpret the benchmark results. If this claim is not rigorously supported, the reported performance metrics should be taken at face value. Overstating this interpretation could mislead users of these tools.
+  - **Resolution test** Add a control analysis using a null model (e.g., a predictor with randomized labels or a sequence-shuffling approach) to demonstrate that the observed spatial concentration of false positives is specific to genuine binding signals. Alternatively, use structural information where available to directly test whether false positives contact DNA in alternative conformations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Practical significance of improvements
+  - **Claim pointer** The authors claim hybridDBRpred provides "substantial improvements" over existing tools, citing AUC improvements from 0.703 to 0.786 on the full benchmark.
+  - **Evidence pointer** Table 2
+  - **Concern** While the AUC improvement is statistically significant, the practical impact is unclear. The reported F1 score for hybridDBRpred is 0.26, which is low in absolute terms. Given the DBR prevalence of 1.5%, even a good predictor will have limited precision. The manuscript does not discuss the practical trade-offs between sensitivity and precision for users, nor does it provide guidance on how to select operating thresholds for different use cases. The improvement in AUC may not translate to meaningfully better predictions in real-world applications where users need to balance false positives against false negatives.
+  - **Why it matters** For a tool intended for community use, the practical utility matters as much as statistical significance. Readers need to understand what level of performance they can expect and how to use the tool effectively.
+  - **Resolution test** Provide precision-recall curves and discuss the operating characteristics at different thresholds. Include a practical use case or example showing how the tool performs on a real protein of interest. Discuss the limitations of the current performance and potential directions for further improvement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the work is the "first empirical analysis" comparing structure- and disorder-trained predictors, but the introduction acknowledges related studies for protein-binding and RNA-binding residues. The novelty claim should be more precisely scoped to DNA-binding residue prediction.
+  - **Required correction** Rephrase to specify "first empirical analysis of DNA-binding residue predictors" to avoid overclaiming.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability section provides links to the web server and source code but does not explicitly state where the benchmark datasets (training, validation, test) can be downloaded.
+  - **Required correction** Add explicit links or instructions for downloading the datasets used in this study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** Table 2 reports many metrics across many methods, but the statistical significance markers are not explained in the table footnote. It is unclear which comparisons are significant and at what level.
+  - **Required correction** Add a clear footnote explaining significance markers and the statistical test used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and methods, "Assessment metrics and statistical analysis"
+  - **Issue** The term "metrices" is used instead of "metrics" in the text.
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary Figure S2
+  - **Issue** The ablation analysis reports statistically significant drops for each removed component, but the magnitude of the drops is only described qualitatively. The actual values are only in the supplementary figure.
+  - **Required correction** Include the key numerical values from the ablation analysis in the main text for easier interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical testing details) and R1-M2 (dataset representativeness) must be addressed to support the central claims of superior performance and generalizability. R1-M3 (methodological completeness) is required for reproducibility.
+- **Assessment against Nature-style criteria** Originality: The comparative analysis across structure- and disorder-annotated proteins is novel for DNA-binding residue prediction, though the meta-predictor concept itself is not new. Scientific importance: The work addresses a real gap in the field and provides a useful resource, but the practical significance of the improvements is not fully established. Interdisciplinary readership: The topic is of interest to computational biologists and experimentalists studying protein-DNA interactions, but the presentation is somewhat specialized. Technical soundness: The overall approach is sound, but the statistical testing and dataset characterization need strengthening. Readability for nonspecialists: The manuscript is generally clear, though some methodological sections assume familiarity with machine learning terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the empirical analysis is well conceived, but the statistical rigor and dataset characterization need strengthening before the performance claims can be fully accepted. The manuscript would benefit from additional details on the model architecture and training procedure to support reproducibility.
+
+## Risk / unsupported claims
+- The claim that hybridDBRpred provides "accurate predictions and low levels of cross-predictions across the two annotation types" is supported by the reported metrics but requires the statistical testing concerns in R1-M1 to be resolved.
+- The interpretation that false positives near native DBRs indicate underestimated performance is plausible but not rigorously established without control analyses.
+- The claim that the selected ten predictors are "representative" of the field is asserted but not systematically justified.
+- The statement that "none of the current tools offers results that are the most accurate across the two types of annotations" is supported by the data but depends on the representativeness of the benchmark dataset.
+- The generalizability of findings beyond the specific benchmark dataset cannot be assessed from the provided materials.

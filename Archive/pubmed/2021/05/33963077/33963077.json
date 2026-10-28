@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "33963077",
+    "doi": "10.1101/gr.275263.121",
+    "title": "Purifying selection on noncoding deletions of human regulatory loci detected using their cellular pleiotropy."
+  },
+  "content": {
+    "abstract": "Genomic deletions provide a powerful loss-of-function model in noncoding regions to assess the role of purifying selection on genetic variation. Regulatory element function is characterized by nonuniform tissue and cell type activity, necessarily linking the study of fitness consequences from regulatory variants to their corresponding cellular activity. We generated a callset of deletions from genomes in the Alzheimer's Disease Neuroimaging Initiative (ADNI) and used deletions from The 1000 Genomes Project Consortium (1000GP) in order to examine whether purifying selection preserves noncoding sites of chromatin accessibility marked by DNase I hypersensitivity (DHS), histone modification (enhancer, transcribed, Polycomb-repressed, heterochromatin), and chromatin loop anchors. To examine this in a cellular activity-aware manner, we developed a statistical method, pleiotropy ratio score (PlyRS), which calculates a correlation-adjusted count of \"cellular pleiotropy\" for each noncoding base pair by analyzing shared regulatory annotations across tissues and cell types. By comparing real deletion PlyRS values to simulations in a length-matched framework and by using genomic covariates in analyses, we found that purifying selection acts to preserve both DHS and enhancer noncoding sites. However, we did not find evidence of purifying selection for noncoding transcribed, Polycomb-repressed, or heterochromatin sites beyond that of the noncoding background. Additionally, we found evidence that purifying selection is acting on chromatin loop integrity by preserving colocalized CTCF binding sites. At regions of DHS, enhancer, and CTCF within chromatin loop anchors, we found evidence that both sites of activity specific to a particular tissue or cell type and sites of cellularly pleiotropic activity are preserved by selection.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Chromatin/genetics",
+      "*Genomics",
+      "Humans",
+      "Polycomb-Group Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Radke, David W",
+        "Sul, Jae Hoon",
+        "Balick, Daniel J",
+        "Akle, Sebastian",
+        "Green, Robert C",
+        "Sunyaev, Shamil R"
+      ],
+      "short_names": [
+        "Radke DW",
+        "Sul JH",
+        "Balick DJ",
+        "Akle S",
+        "Green RC",
+        "Sunyaev SR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0893-7853"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA.",
+        "Department of Psychiatry and Biobehavioral Sciences, University of California, Los Angeles, California 90095, USA.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA.",
+        "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA.",
+        "Ariadne Labs, Boston, Massachusetts 02115, USA.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Radke, David W",
+        "short_name": "Radke DW",
+        "identifiers": [
+          "0000-0003-0893-7853"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Sul, Jae Hoon",
+        "short_name": "Sul JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Biobehavioral Sciences, University of California, Los Angeles, California 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Balick, Daniel J",
+        "short_name": "Balick DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Akle, Sebastian",
+        "short_name": "Akle S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Green, Robert C",
+        "short_name": "Green RC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA.",
+          "Ariadne Labs, Boston, Massachusetts 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Sunyaev, Shamil R",
+        "short_name": "Sunyaev SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, Massachusetts 02142, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2021 Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/09 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42412056",
+      "39638559",
+      "36302769",
+      "35552697",
+      "34894231"
+    ],
+    "refs": [
+      "35047867",
+      "32460305",
+      "32243438",
+      "32024999",
+      "31910870",
+      "31086298",
+      "30924871",
+      "30770844",
+      "30659153",
+      "30581192",
+      "30297966",
+      "29893792",
+      "29844134",
+      "29662166",
+      "28525758",
+      "28288115",
+      "27999260",
+      "27980086",
+      "27798563",
+      "27053122",
+      "26727659",
+      "26432246",
+      "26414678",
+      "26301843",
+      "26276636",
+      "26249230",
+      "26075791",
+      "25959774",
+      "25883321",
+      "25693563",
+      "25497547",
+      "25439723",
+      "25409826",
+      "25338716",
+      "25315429",
+      "25057982",
+      "24487584",
+      "24487276",
+      "23263488",
+      "22956687",
+      "22955981",
+      "22955828",
+      "22955616",
+      "22124482",
+      "22102821",
+      "21875934",
+      "21317889",
+      "21293372",
+      "21258342",
+      "20042704",
+      "19812545",
+      "18798982",
+      "10360979"
+    ],
+    "similar": [
+      "33963077",
+      "34969862",
+      "32486876",
+      "34093640",
+      "26631517",
+      "26053627",
+      "32293525",
+      "34245617",
+      "31216471",
+      "31698957",
+      "29284524",
+      "31599933",
+      "30659153",
+      "27067007",
+      "18032729",
+      "29669733",
+      "21596777",
+      "23473600",
+      "34498072",
+      "27582050",
+      "17646256",
+      "33832990",
+      "33973014",
+      "26240285",
+      "32249388",
+      "34769020",
+      "25956794",
+      "26818008",
+      "23657885",
+      "34033138",
+      "30344096",
+      "9735366",
+      "25086003",
+      "25108384",
+      "26302455",
+      "24068939",
+      "21963238",
+      "28765367",
+      "7610053",
+      "34462306",
+      "35127534",
+      "25569532",
+      "33749795",
+      "21750106",
+      "33187878",
+      "33232622",
+      "19105834",
+      "33407087",
+      "31285261",
+      "27004515",
+      "19129223",
+      "36650052",
+      "27067545",
+      "24923879",
+      "25215331",
+      "30296942",
+      "34856126",
+      "25849144",
+      "24316986",
+      "23811145",
+      "27219007",
+      "25228660",
+      "24185200",
+      "28513628",
+      "17604720",
+      "34413017",
+      "22761590",
+      "35710842",
+      "26760202",
+      "16344561",
+      "28027311",
+      "24887574",
+      "36321557",
+      "35180428",
+      "38358392",
+      "16474142",
+      "17442748",
+      "23284300",
+      "22964890",
+      "26340055",
+      "29617930",
+      "34764224",
+      "30060743",
+      "32000688",
+      "16815976",
+      "36921607",
+      "29373957",
+      "25158797",
+      "37813869"
+    ],
+    "review": [
+      "33963077",
+      "26631517",
+      "31698957",
+      "23473600",
+      "33187878",
+      "19105834",
+      "24923879"
+    ],
+    "pmc": [
+      "8168579"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=33963077",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33963077/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33963077",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33963077",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

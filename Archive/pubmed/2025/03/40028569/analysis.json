@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40028569",
+  "title": "Identifying macrophage-associated subtypes in patients with serous ovarian cancer and exploring potential personalized therapeutic drugs using combined single-cell and bulk RNA sequencing omics.",
+  "authors": "Teng, Fei; Wei, Hong; Che, Dehong; Miao, Kuo; Dong, Xiaoqiu",
+  "journal": "Heliyon",
+  "published_date": "2025-03-03",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究基于单细胞和bulk RNA测序识别卵巢癌巨噬细胞亚型及药物敏感性，虽涉及转录因子调控网络，但核心是肿瘤免疫分型与药物预测，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "PURPOSE: We aimed to analyze the sensitivity of patients to chemotherapy drugs and actively explore potential new intervention targets, providing an essential reference for personalized treatment. METHODS: Candidate markers with significant differential expression in macrophages were identified by analyzing gene expression at the single-cell level. A weighted gene co-expression network (WGCN) was constructed on the GSE26712 dataset to explore the modules most relevant to macrophages. Differentially expressed genes for specific markers were identified. A multi-factor regulatory network was constructed based on single-cell dataset markers screening, differentially expressed genes, and genes commonly present in WGCNA modules. Different macrophage subtypes were identified using this network. Machine learning was used to filter and predict the markers' drug sensitivity, and the potential therapeutic compounds for specific markers were screened. RESULTS: We identified 14 and 17 of M1 and M2 macrophage candidate markers, respectively. In the multi-factor regulatory network of M1 macrophages, 6 out of 14 markers recognized 159 transcription factors (TFs) and 48 micro RNAs (miRNAs), whereas 13 of 17 markers recognized 191 TFs and 182 miRNAs in the multi-factor regulatory network of M2 macrophages. Filtering of the identified differentially expressed genes using random forests yielded 15 M1 and M2 macrophage-specific markers. Drug sensitivity prediction analysis and in vitro experiments revealed the close association of these markers with common chemotherapy drug sensitivity. CONCLUSION: We identified specific M1 and M2 macrophage markers and found potential therapeutic compounds (dasatinib and afatinib) in these specific markers. These potential therapeutic compounds provide insight into the underlying mechanisms of serous ovarian cancer (OC) and inspire more effective treatment methods.",
+  "abstract_zh": "目的：我们旨在分析患者对化疗药物的敏感性，并积极探索潜在的新干预靶点，为个体化治疗提供重要参考。方法：通过单细胞水平分析基因表达，鉴定巨噬细胞中显著差异表达候选标记物。在GSE26712数据集上构建加权基因共表达网络（WGCN），以探索与巨噬细胞最相关的模块。鉴定特定标记物的差异表达基因。基于单细胞数据集标记物筛选、差异表达基因及WGCNA模块中常见基因，构建多因子调控网络。利用该网络鉴定不同巨噬细胞亚型。采用机器学习筛选和预测标记物的药物敏感性，并筛选特定标记物的潜在治疗化合物。结果：我们分别鉴定出14个M1和17个M2巨噬细胞候选标记物。在M1巨噬细胞的多因子调控网络中，14个标记物中有6个识别出159个转录因子（TFs）和48个微小RNA（miRNAs），而M2巨噬细胞的多因子调控网络中，17个标记物中有13个识别出191个TFs和182个miRNAs。使用随机森林对已鉴定的差异表达基因进行筛选，得到15个M1和M2巨噬细胞特异性标记物。药物敏感性预测分析和体外实验显示，这些标记物与常见化疗药物敏感性密切相关。结论：我们鉴定了特异性M1和M2巨噬细胞标记物，并在这些特异性标记物中发现了潜在治疗化合物（达沙替尼和阿法替尼）。这些潜在治疗化合物为浆液性卵巢癌（OC）的潜在机制提供了见解，并启发了更有效的治疗方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40028569/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40028569/",
+  "paper_page_path": "papers/pubmed/40028569/index.html"
+}

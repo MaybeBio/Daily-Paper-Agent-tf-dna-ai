@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "40898317",
+    "doi": "10.1002/advs.202507846",
+    "title": "SemiLT: A Multianchor Transfer Learning Method for Cross-Modality Cell Label Annotation from scRNA-seq to scATAC-seq."
+  },
+  "content": {
+    "abstract": "scATAC-seq enables the detailed exploration of epigenetic variations across various cell clusters, providing complementary insights to scRNA-seq. However, its extreme sparsity and high dimensionality pose significant challenges for cell type annotation. Transfer learning can extract key features from well-annotated data to assist in annotating target data, thereby improving annotation accuracy. However, existing transfer learning methods overlook the temporal discrepancies between scRNA-seq and scATAC-seq, which exacerbate batch effects between these two modalities. Therefore, SemiLT, a multi-anchor transfer learning method, is introduced for cell label annotation from scRNA-seq to scATAC-seq. Benchmarking across multiple datasets shows that SemiLT outperforms existing tools in both cell type annotation and modality batch correction. Notably, the F1 score for rare cell types improves by an average of 18%. The high-quality annotation and embedding provided by SemiLT enhance the reliability of downstream analyses. When applied to the human bone marrow hematopoietic dataset, the trajectory transitions of hematopoietic stem cells (HSCs) are accurately reconstructed. Similarly, when applied to human peripheral blood mononuclear cell (PBMC) datasets, the key low-abundance transcription factor (TF) KLF4 is identified in CD8 effector T cells through label transfer from scRNA-seq to scATAC-seq, a result that is difficult to achieve using scRNA-seq data alone.",
+    "keywords": [
+      "label transfer",
+      "multi-anchor batch correction",
+      "scATAC-seq",
+      "scRNA-seq",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "Kruppel-Like Factor 4",
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*RNA-Seq/methods",
+      "*Sequence Analysis, RNA/methods",
+      "*Machine Learning",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zhitong",
+        "Duan, Maoteng",
+        "Wang, Xiaoying",
+        "Liu, Bingqiang"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Duan M",
+        "Wang X",
+        "Liu B"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-0938-875X",
+        "ORCID: 0000-0002-5734-1135"
+      ],
+      "affiliations": [
+        "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+        "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+        "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China.",
+        "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+        "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+        "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China.",
+        "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+        "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+        "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China.",
+        "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+        "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+        "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zhitong",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0009-0007-0938-875X"
+        ],
+        "affiliations": [
+          "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+          "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+          "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Maoteng",
+        "short_name": "Duan M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+          "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+          "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoying",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+          "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+          "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bingqiang",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0002-5734-1135"
+        ],
+        "affiliations": [
+          "School of Mathematics, Shandong University, Jinan, Shandong, 250100, China.",
+          "Shandong National Center for Applied Mathematics, Jinan, Shandong, 250100, China.",
+          "State Key Laboratory of Cryptography and Digital Economy Security, Shandong University, Jinan, Shandong, 250100, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/03 00:40",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "41479645"
+    ],
+    "refs": [],
+    "similar": [
+      "40898317",
+      "40154828",
+      "40471991",
+      "40596854",
+      "41481570",
+      "37584660",
+      "40152244",
+      "40687986",
+      "36583014",
+      "39101690",
+      "39147582",
+      "39049508",
+      "37991248",
+      "39550222",
+      "35761403",
+      "38887194",
+      "38935069",
+      "39798891",
+      "40622484",
+      "40723810",
+      "39500613",
+      "39333739",
+      "39062661",
+      "39800872",
+      "35058621",
+      "36869836",
+      "36383176",
+      "39494609",
+      "39708840",
+      "41082386",
+      "40366859",
+      "38892162",
+      "35042860",
+      "37080771",
+      "36131234",
+      "40739511",
+      "39244757",
+      "34623390",
+      "37497729",
+      "37200157",
+      "39180857",
+      "37856458",
+      "41462067",
+      "41325188",
+      "40468846",
+      "39487083",
+      "40591481",
+      "40775450",
+      "39471116",
+      "38866896",
+      "32674393",
+      "40062616",
+      "41168710",
+      "40426257",
+      "32392348",
+      "38279647",
+      "39671349",
+      "40826008",
+      "34077420",
+      "38759908",
+      "37333088",
+      "31739806",
+      "41284927",
+      "33953202",
+      "32767996",
+      "37769630",
+      "40581357",
+      "40197174",
+      "41102292",
+      "40713495",
+      "40281370",
+      "40425750",
+      "38778573",
+      "38886757",
+      "37313714",
+      "40437567",
+      "39466872",
+      "36083008",
+      "40537825",
+      "31566233",
+      "38872103",
+      "37105115",
+      "41283813",
+      "40515392",
+      "41139927",
+      "35302164",
+      "40990513",
+      "35443717",
+      "40188497",
+      "29630593",
+      "36902216",
+      "40838782",
+      "31405383",
+      "40362602",
+      "31178118",
+      "40402455",
+      "39999494",
+      "35901457",
+      "41101315",
+      "39327063"
+    ],
+    "review": [
+      "40898317",
+      "39500613"
+    ],
+    "pmc": [
+      "12631852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40898317/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

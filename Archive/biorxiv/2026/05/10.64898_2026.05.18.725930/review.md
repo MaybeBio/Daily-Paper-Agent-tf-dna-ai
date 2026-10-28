@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a new assay, ivt FOODIE, that measures genome-wide TF–DNA binding affinity (Kd) using deaminase-mediated cytosine-to-uracil conversion. They combine this assay with a deep learning model, Seq2Kd, pre-trained on JASPAR motifs and fine-tuned on ivt FOODIE data from 46 TFs across 13 DBDs, to predict absolute binding affinity. The model is claimed to enable de novo motif discovery for ~500 uncharacterized human TFs, reveal effects of genetic variation on gene expression and disease, stratify TFs into activator-like and repressor-like groups via eQTL correlation, and show larger predicted Kd shifts for pathogenic versus benign SNVs. A web portal, ENTIRE, is provided.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, methods details, validation statistics, dataset descriptions, model architecture, benchmark comparisons, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable resource for the transcription factor biology and functional genomics communities. The combination of a novel high-throughput affinity assay with a deep learning model is conceptually appealing and addresses a real gap in quantitative TF–DNA interaction data. However, the abstract alone provides insufficient evidence to evaluate the technical validity of the assay, the accuracy of the model, or the robustness of the biological claims. Several claims, particularly those involving disease associations and eQTL stratification, require substantial validation that is not visible in the supplied material. The work is potentially significant, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational genomics, and functional genomics would be primary audiences. Those studying TF binding specificity, gene regulatory networks, and the interpretation of non-coding variants would find the predicted affinity landscape and the ENTIRE portal useful. Clinically oriented geneticists interested in regulatory variant effects on disease may also be interested, provided the disease-related claims are rigorously validated.
+- **Major strengths** The conceptual advance of combining a high-throughput in vitro affinity assay with deep learning is compelling. The scale of the effort, covering 46 TFs across 13 DBDs and extending to ~500 uncharacterized TFs, is substantial. The integration of predicted affinity changes with eQTL data to stratify TFs into activator-like and repressor-like groups is a creative analytical approach. The provision of a public web portal adds practical value to the community.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The ivt FOODIE assay measures Kd values for a given TF across accessible genomic regions from human cells.
+  - **Evidence pointer** Abstract only; methods not provided
+  - **Concern** The abstract does not describe how the assay converts deaminase-mediated conversion rates into absolute Kd values, nor how specificity, background, and accessibility biases are controlled. No validation against established methods (e.g., SELEX, HT-SELEX, or protein-binding microarrays) is shown.
+  - **Why it matters** The entire downstream modeling and biological interpretation depend on the accuracy and quantitative reliability of the Kd measurements. If the assay does not produce true thermodynamic Kd values, all subsequent claims are compromised.
+  - **Resolution test** Provide a detailed methods section with calibration experiments, comparison to orthogonal affinity measurements, and reproducibility statistics. Show that measured Kd values correlate with known affinities for a test set of TFs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Seq2Kd is capable of predicting a TF's absolute binding affinity on DNA sequences.
+  - **Evidence pointer** Abstract only; model performance metrics not provided
+  - **Concern** No performance metrics are reported, such as correlation between predicted and measured Kd on held-out TFs or sequences, generalization across DBDs, or comparison to existing models (e.g., DeepBind, DeepSEA, or motif-based methods). The claim of "absolute" affinity prediction is strong and requires quantitative support.
+  - **Why it matters** Without demonstrated predictive accuracy, the model's utility for de novo motif discovery and variant effect prediction is unsubstantiated. Overstated model capability could mislead users of the ENTIRE portal.
+  - **Resolution test** Report held-out test set performance, including Pearson or Spearman correlation, root mean square error, and performance stratified by DBD family. Compare to baseline models and show statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for biological claims
+  - **Claim pointer** Seq2Kd enables de novo motif discovery of ~500 previously uncharacterized human TFs and reveals the effects of genetic variation both in TF-coding regions and DNA-binding sites on gene expression and disease susceptibility.
+  - **Evidence pointer** Abstract only; no examples or validation shown
+  - **Concern** The abstract claims discovery of motifs for ~500 TFs and links to disease, but no evidence is provided for the accuracy of these motifs, the functional validation of any predictions, or the statistical framework used to associate Kd changes with disease susceptibility. The eQTL stratification and pathogenic variant analyses are mentioned without any effect sizes, confidence intervals, or replication details.
+  - **Why it matters** These are the most biologically significant claims and would be of high interest to the community. If they are based on unvalidated predictions or weak statistical associations, they could generate misleading hypotheses and erode trust in the resource.
+  - **Resolution test** Provide examples of newly discovered motifs with experimental validation (e.g., ChIP-seq or reporter assays). Show the full eQTL analysis with appropriate multiple-testing corrections and demonstrate that pathogenic variant associations are robust to confounders such as linkage disequilibrium and genomic context.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Assay name and description
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The name "ivt FOODIE" and the expansion "in vitro FOOtprinting with DeamInasE" are introduced without explaining what "FOODIE" stands for in the context of the method. The acronym is not intuitive.
+  - **Required correction** Provide a clear explanation of the acronym and a brief schematic description of the assay workflow in the abstract or main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model training details
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract states the model was pre-trained on JASPAR and fine-tuned on ivt FOODIE data but does not specify the input representation (e.g., sequence length, encoding) or the training/validation split strategy.
+  - **Required correction** Add a sentence in the methods or abstract describing the input format and how overfitting was avoided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** ENTIRE portal
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The portal is mentioned but no URL or access details are provided in the abstract.
+  - **Required correction** Include the URL or state that it will be made available upon publication.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The assay validity, model accuracy, and biological claims are all currently unsupported by the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of a deaminase-based affinity assay with deep learning is novel and potentially original. However, the abstract does not clearly differentiate the assay from existing high-throughput methods beyond the specific enzymatic mechanism.
+  - Scientific importance: If validated, the resource would be highly important for quantitative understanding of TF–DNA interactions and variant interpretation. The potential to scale to ~500 TFs is significant.
+  - Interdisciplinary readership: The work bridges molecular biology, computational biology, and human genetics, which would appeal to a broad readership. The disease-related claims increase this appeal.
+  - Technical soundness: Not assessable from the abstract. The lack of any quantitative validation or methodological detail is a major gap.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., deaminase, eQTL, DBD) without sufficient context for a general scientific audience. The acronym-heavy style may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The work has strong potential, and I would be supportive if the technical concerns are resolved with detailed methods, validation data, and robust statistical analyses. A full manuscript review is necessary to assess the claims.
+
+## Risk / unsupported claims
+- The claim that ivt FOODIE measures "Kd values" is unsupported without calibration and validation data.
+- The claim that Seq2Kd predicts "absolute binding affinity" is unsupported without performance metrics.
+- The claim of de novo motif discovery for ~500 TFs is unsupported without examples or validation.
+- The claim that genetic variation effects on Kd relate to gene expression and disease susceptibility is unsupported without statistical details.
+- The eQTL-based stratification into activator-like and repressor-like groups is unsupported without effect sizes and significance testing.
+- The claim that pathogenic SNVs show "significantly larger" Kd shifts is unsupported without quantitative comparisons and statistical tests.

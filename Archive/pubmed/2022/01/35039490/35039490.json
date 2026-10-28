@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "pmid": "35039490",
+    "doi": "10.1038/s41467-022-27995-5",
+    "title": "Unprotected peptide macrocyclization and stapling via a fluorine-thiol displacement reaction."
+  },
+  "content": {
+    "abstract": "We report the discovery of a facile peptide macrocyclization and stapling strategy based on a fluorine thiol displacement reaction (FTDR), which renders a class of peptide analogues with enhanced stability, affinity, cellular uptake, and inhibition of cancer cells. This approach enabled selective modification of the orthogonal fluoroacetamide side chains in unprotected peptides in the presence of intrinsic cysteines. The identified benzenedimethanethiol linker greatly promoted the alpha helicity of a variety of peptide substrates, as corroborated by molecular dynamics simulations. The cellular uptake of benzenedimethanethiol stapled peptides appeared to be universally enhanced compared to the classic ring-closing metathesis (RCM) stapled peptides. Pilot mechanism studies suggested that the uptake of FTDR-stapled peptides may involve multiple endocytosis pathways in a distinct pattern in comparison to peptides stapled by RCM. Consistent with the improved cell permeability, the FTDR-stapled lead Axin and p53 peptide analogues demonstrated enhanced inhibition of cancer cells over the RCM-stapled analogues and the unstapled peptides.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Axin Protein/chemistry",
+      "Cell Membrane Permeability",
+      "Cell-Penetrating Peptides/chemistry",
+      "Cross-Linking Reagents/chemistry",
+      "Cyclization",
+      "Fluorine/*chemistry",
+      "HEK293 Cells",
+      "Humans",
+      "Macrocyclic Compounds/*chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Peptides/*chemistry",
+      "Sulfhydryl Compounds/*chemistry",
+      "Thermodynamics",
+      "Tumor Suppressor Protein p53/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Islam, Md Shafiqul",
+        "Junod, Samuel L",
+        "Zhang, Si",
+        "Buuh, Zakey Yusuf",
+        "Guan, Yifu",
+        "Zhao, Mi",
+        "Kaneria, Kishan H",
+        "Kafley, Parmila",
+        "Cohen, Carson",
+        "Maloney, Robert",
+        "Lyu, Zhigang",
+        "Voelz, Vincent A",
+        "Yang, Weidong",
+        "Wang, Rongsheng E"
+      ],
+      "short_names": [
+        "Islam MS",
+        "Junod SL",
+        "Zhang S",
+        "Buuh ZY",
+        "Guan Y",
+        "Zhao M",
+        "Kaneria KH",
+        "Kafley P",
+        "Cohen C",
+        "Maloney R",
+        "Lyu Z",
+        "Voelz VA",
+        "Yang W",
+        "Wang RE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5749-7447"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Biology, Temple University, 1900 N. 12th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Biology, Temple University, 1900 N. 12th Street, Philadelphia, PA, 19122, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA. rosswang@temple.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Islam, Md Shafiqul",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Junod, Samuel L",
+        "short_name": "Junod SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Temple University, 1900 N. 12th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Si",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Buuh, Zakey Yusuf",
+        "short_name": "Buuh ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Guan, Yifu",
+        "short_name": "Guan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Mi",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Kaneria, Kishan H",
+        "short_name": "Kaneria KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Kafley, Parmila",
+        "short_name": "Kafley P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Cohen, Carson",
+        "short_name": "Cohen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Maloney, Robert",
+        "short_name": "Maloney R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Lyu, Zhigang",
+        "short_name": "Lyu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Voelz, Vincent A",
+        "short_name": "Voelz VA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Weidong",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Temple University, 1900 N. 12th Street, Philadelphia, PA, 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Rongsheng E",
+        "short_name": "Wang RE",
+        "identifiers": [
+          "0000-0002-5749-7447"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA, 19122, USA. rosswang@temple.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/19 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42266449",
+      "41977264",
+      "41836077",
+      "40906195",
+      "40191455",
+      "39974699",
+      "39547512",
+      "39540650",
+      "38939126",
+      "38911993",
+      "38107173",
+      "38004598",
+      "35994239",
+      "35593206"
+    ],
+    "refs": [
+      "32786217",
+      "31693283",
+      "31657556",
+      "31067054",
+      "30694671",
+      "30361948",
+      "29997825",
+      "29847004",
+      "29711420",
+      "29417711",
+      "28970902",
+      "28834715",
+      "28746339",
+      "28464551",
+      "28326775",
+      "28076801",
+      "27797495",
+      "27547919",
+      "27145463",
+      "27050677",
+      "26769494",
+      "26574453",
+      "26488642",
+      "26189498",
+      "26119925",
+      "25994485",
+      "25798993",
+      "25199043",
+      "24836551",
+      "24828311",
+      "24601557",
+      "24476626",
+      "24422448",
+      "24358963",
+      "24210501",
+      "23822324",
+      "23750122",
+      "23560559",
+      "23362256",
+      "23071338",
+      "22998171",
+      "22920569",
+      "22743772",
+      "22526241",
+      "22230563",
+      "22196480",
+      "21846146",
+      "21718944",
+      "21548671",
+      "21426071",
+      "21205827",
+      "21075307",
+      "20339075",
+      "19668855",
+      "19324270",
+      "18374356",
+      "17742054",
+      "17406547",
+      "17284038",
+      "16688229",
+      "16054165",
+      "16041387",
+      "15993577",
+      "15968462",
+      "15653149",
+      "15353804",
+      "15116359",
+      "13679575",
+      "12395429",
+      "12130512",
+      "11856307",
+      "11775741",
+      "10760254",
+      "10424350",
+      "9669552",
+      "9560300",
+      "9080177",
+      "8381123",
+      "8245121",
+      "8058648",
+      "7537425"
+    ],
+    "similar": [
+      "35039490",
+      "39547512",
+      "26189498",
+      "28345248",
+      "32232881",
+      "39754310",
+      "31226791",
+      "28388005",
+      "30412333",
+      "26768531",
+      "38196284",
+      "41031536",
+      "30452234",
+      "31657556",
+      "40662768",
+      "37886087",
+      "38427024",
+      "23560559",
+      "29163887",
+      "25793939",
+      "29420899",
+      "29105291",
+      "29598901",
+      "37130830",
+      "36190455",
+      "40729819",
+      "23203912",
+      "41378686",
+      "39023308",
+      "28876512",
+      "17284038",
+      "15755645",
+      "37511527",
+      "28757184",
+      "21637196",
+      "24817343",
+      "31944488",
+      "32353067",
+      "31523967",
+      "23898787",
+      "33433199",
+      "27178225",
+      "29516601",
+      "26030840",
+      "30702850",
+      "20331649",
+      "40879758",
+      "26096515",
+      "28496125",
+      "21275402",
+      "18452006",
+      "26919579",
+      "31913011",
+      "26317395",
+      "39110018",
+      "24310320",
+      "28084734",
+      "33019638",
+      "36891840",
+      "27332147",
+      "33450121",
+      "31658723",
+      "21088491",
+      "25115702",
+      "31457083",
+      "31134566",
+      "28436014",
+      "27498038",
+      "25966031",
+      "38191871",
+      "28992407",
+      "32058706",
+      "27167181",
+      "37402229",
+      "25371987",
+      "30887171",
+      "23922660",
+      "39719869",
+      "34596860",
+      "33283479",
+      "38522761",
+      "37926859",
+      "39426432",
+      "30917919",
+      "40014761",
+      "38059767",
+      "39830683",
+      "25925500",
+      "37779097",
+      "36917494",
+      "26948900",
+      "28921993",
+      "39339337",
+      "29997825",
+      "33830760",
+      "40396628",
+      "29864683",
+      "25933125",
+      "40011217",
+      "37950389"
+    ],
+    "review": [
+      "35039490",
+      "41031536",
+      "27178225",
+      "31658723",
+      "38191871",
+      "38522761"
+    ],
+    "pmc": [
+      "8763920"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-27995-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35039490/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35039490",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35039490",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

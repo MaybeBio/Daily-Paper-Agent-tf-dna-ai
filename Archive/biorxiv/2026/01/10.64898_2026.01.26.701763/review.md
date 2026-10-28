@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that the 2'-hydroxyl group at specific crRNA residues is required for Cas9 target DNA binding via a conformational state, and that combining site-specific phosphorothioate linkage chemistry with ribose replacement chemistry restores binding and activity, yielding a fully ribose-free crRNA with high editing efficiency and fidelity.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data visualizations were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, cryo-EM density maps, molecular dynamics simulation parameters, and any supporting statistical or reproducibility data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in CRISPR RNA chemical modification, addressing a long-standing limitation in ribose replacement for Cas9. The proposed mechanistic explanation, involving a 2'-hydroxyl-dependent conformational state, is plausible and could have broad implications for therapeutic guide RNA design. However, the abstract alone provides insufficient evidence to evaluate the validity, rigor, or generalizability of the claims. The central mechanistic assertion and the reported functional outcomes require detailed experimental verification that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers in CRISPR biology, nucleic acid chemistry, and RNA therapeutics would find these results relevant. The potential to achieve fully chemically stabilized crRNAs with maintained editing activity addresses a practical bottleneck in developing CRISPR-based medicines, so both academic labs and biotechnology companies focused on gene editing therapeutics would be interested.
+- **Major strengths** The study addresses a clearly defined and important problem in the field, namely the inability to replace certain ribose residues in Cas9 crRNA. The proposed combination of phosphorothioate and ribose replacement chemistries is an innovative approach that could offer a practical solution. The use of multiple complementary techniques, including cryo-EM and molecular dynamics, suggests a comprehensive experimental strategy, though the results are not visible in the abstract.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the 2'-hydroxyl group at specific crRNA residues is required to achieve a conformational state competent for Cas9 target DNA binding.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a mechanistic requirement for the 2'-hydroxyl group but provides no experimental data, such as cryo-EM structures or mutagenesis studies, to substantiate this claim. The conformational state is described but not characterized in any visible detail.  
+  - **Why it matters** This is the foundational mechanistic claim of the study. Without direct evidence, the proposed mechanism remains speculative, and the rationale for the chemical rescue strategy is not established.  
+  - **Resolution test** Provide cryo-EM structures or other structural data showing the conformational difference between 2'-hydroxyl-containing and 2'-hydroxyl-free crRNA, along with functional assays demonstrating that the conformational state is necessary for target binding.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that combining site-specific phosphorothioate linkage chemistry with ribose replacement chemistry restores binding and activity, resulting in high Cas9 editing efficiency and fidelity with a ribose-free crRNA.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports successful restoration of activity and high editing efficiency and fidelity, but no quantitative data, such as editing percentages, specificity metrics, or comparison to unmodified crRNA controls, are provided. The term "high" is undefined.  
+  - **Why it matters** The therapeutic relevance of the approach depends on demonstrating that the fully modified crRNA performs comparably to or better than existing guides. Without quantitative evidence, the practical utility cannot be assessed.  
+  - **Resolution test** Include detailed experimental results showing editing efficiency and fidelity measurements, with appropriate controls and statistical analysis, for the ribose-free crRNA compared to standard crRNA.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The claim that this approach makes rational design of guide RNAs with complete nuclease protection for CRISPR-based medicines possible.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify whether the findings apply to multiple target sites, different Cas9 variants, or other CRISPR systems. The generalizability of the chemical rescue strategy is asserted but not demonstrated.  
+  - **Why it matters** If the approach only works for a narrow set of sequences or conditions, its utility for therapeutic development would be limited.  
+  - **Resolution test** Show data from multiple guide RNA sequences and, if applicable, different Cas9 orthologs or CRISPR systems to demonstrate broad applicability.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "ribose-free crRNA" is used, but it is unclear whether this means all ribose moieties are replaced or only those at specific positions.  
+  - **Required correction** Clarify the extent of ribose replacement in the crRNA, specifying which residues retain ribose and which are modified.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions cryo-EM and molecular dynamics simulations but provides no details on resolution, simulation timescales, or force fields used.  
+  - **Required correction** Include key methodological parameters in the full manuscript to allow reproducibility assessment.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Literature comparison  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not compare the achieved editing efficiency and fidelity to previously reported partially modified crRNA systems.  
+  - **Required correction** Add a comparison to existing chemically modified crRNA approaches to contextualize the improvement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The mechanistic claim and the functional outcomes must be supported with direct experimental evidence. Without these, the central conclusions of the study are not established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach of combining phosphorothioate and ribose replacement chemistries to overcome the 2'-hydroxyl requirement appears novel, but the abstract does not provide enough detail to confirm that this has not been previously attempted.  
+  - Scientific importance: If validated, the findings could address a significant limitation in CRISPR RNA stabilization, with direct implications for therapeutic applications. The importance is high, but it is contingent on the evidence quality.  
+  - Interdisciplinary readership: The topic bridges nucleic acid chemistry, structural biology, and gene editing, which would appeal to a broad audience across these fields.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The use of multiple techniques is promising, but the absence of data prevents evaluation of experimental rigor.  
+  - Readability for nonspecialists: The abstract is concise and generally accessible, though terms like "phosphorothioate linkage" and "ribose replacement" may require background knowledge. The writing is clear but assumes familiarity with CRISPR RNA modification.
+- **Recommendation posture** Currently not established from the provided evidence. The study has clear potential and addresses an important problem, but the abstract alone does not provide sufficient data to support the mechanistic and functional claims. I would be supportive if the technical concerns are resolved with detailed experimental evidence in the full manuscript.
+
+## Risk / unsupported claims
+- The mechanistic requirement of the 2'-hydroxyl group for a conformational state competent for target binding is unsupported by visible evidence.
+- The claim of restored binding and activity with high editing efficiency and fidelity is unsupported by quantitative data.
+- The assertion that the approach enables rational design of guide RNAs with complete nuclease protection is a forward-looking statement that is not directly supported by the abstract.
+- The generalizability of the findings to other sequences or CRISPR systems is not assessable from the supplied material.

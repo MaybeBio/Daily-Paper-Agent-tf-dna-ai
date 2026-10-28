@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, and supplementary figure/table references)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the provided text
+- **Shared manuscript claim summary** The authors propose BOM (Bag-of-Motifs), a computational method that represents cis-regulatory sequences by the type and count of TF binding motifs, ignoring order, orientation, and spacing. They claim this representation, combined with gradient-boosted trees (XGBoost), accurately classifies cell-type-specific distal regulatory elements across mouse, human, zebrafish, and Drosophila, outperforming deep learning models. They further claim that SHAP-based motif importance identifies biologically meaningful motifs, validated by synthetic enhancer reporter assays, and that BOM captures cross-species regulatory similarities not detectable by sequence alignment.
+- **Visible evidence base** Results sections describing classification performance metrics (precision, recall, F1, auROC, auPR, MCC) across multiple datasets; comparisons to LS-GKM, DNABERT, Enformer, and CNN-based architectures; SHAP-based motif importance analyses; synthetic enhancer reporter assay results; cross-species prediction experiments; supplementary tables and figures referenced but not provided in the submitted text
+- **Missing materials affecting confidence** All supplementary figures and tables (Supplementary Figures 1-11, Supplementary Tables 1-16), detailed hyperparameter settings for comparative models, exact dataset split details, raw data and code outputs, full experimental assay protocols, and statistical significance testing details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually simple and potentially powerful approach to a central problem in regulatory genomics. The core idea, that a bag-of-motifs representation is sufficient for high-accuracy cell-type classification of distal regulatory elements, is interesting and well-motivated. The reported performance, particularly against deep learning baselines, is striking. However, the provided text lacks the detailed evidence needed to fully evaluate the robustness of these claims. Key methodological details, statistical rigor, and the full results of comparative and validation experiments are relegated to supplementary materials that were not provided. The experimental validation, while a strength, is limited in scope. The manuscript is potentially significant but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and gene regulation would be interested. The method offers a transparent, interpretable alternative to deep learning for a common classification task, and the finding that simple motif counts are highly predictive has implications for understanding the regulatory code. The cross-species analysis and the demonstration of functional motif validation would also appeal to evolutionary and developmental biologists.
+- **Major strengths** 1) The core hypothesis is clearly stated and the method is refreshingly simple and interpretable. 2) The breadth of species and data types tested (mouse embryo, human cell lines, human blood, zebrafish, Drosophila) suggests generalizability. 3) The inclusion of experimental validation via synthetic enhancer assays is a significant strength, directly testing the functional relevance of the identified motifs. 4) The comparison to multiple state-of-the-art methods, including large deep learning models, is appropriate and the reported superior performance is noteworthy.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence quality and statistical rigor
+        - **Claim pointer** The claim that BOM "outperforms more complex deep learning models at the same task using fewer parameters" is central to the paper's significance.
+        - **Evidence pointer** Results section "BOM outperforms other methods...", Figure 1b-e, Supplementary Tables 2, 6-7
+        - **Concern** The performance comparison to deep learning models is presented as a key result, but the provided text lacks critical details. The hyperparameter search space, the number of models trained, the variance across runs, and the statistical significance of the performance differences are not reported. The text mentions "we used the most performant model for comparison" but does not describe how this selection was made or whether it introduces bias. Furthermore, the comparison to Enformer, a model pre-trained on human data, is applied to mouse data via fine-tuning; the details of this transfer learning setup are absent.
+        - **Why it matters** Without statistical rigor and full methodological transparency, the claim of superiority over deep learning cannot be reliably assessed. The performance gap could be within noise, or the comparison could be unfairly biased by inadequate hyperparameter tuning of the baselines.
+        - **Resolution test** Provide full details of the hyperparameter search for all models, report performance metrics with confidence intervals or standard deviations across multiple runs, and perform and report statistical significance tests (e.g., paired tests) for the performance differences.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Reproducibility and methodological completeness
+        - **Claim pointer** The overall method description and its application to all datasets.
+        - **Evidence pointer** Methods section "BOM Model", "Training of classification models", "Model performance"
+        - **Concern** The Methods section, as provided, is insufficient for replication. The exact procedure for defining the "bag-of-motifs" is not fully specified (e.g., how are motif counts normalized, if at all? What is the exact input format for XGBoost?). The description of the negative set construction is vague ("balanced with stratified sampling to ensure an equal contribution from every non-target cell type") and lacks the precise algorithm. The process for selecting the top motifs for the synthetic enhancer experiments is not described. The text states "we took the top five motifs ranked by global importance scores" but does not define "global importance scores" precisely.
+        - **Why it matters** A cornerstone of scientific publication is reproducibility. The current level of methodological detail is insufficient for another group to implement and verify the method, which undermines the validity of the reported results.
+        - **Resolution test** Provide a complete, step-by-step description of the algorithm, including all parameters, thresholds, and data preprocessing steps. Make the code and a fully worked example publicly available and referenced in the text.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scope of experimental validation
+        - **Claim pointer** The claim that "motifs with the most significant explanatory power are sequence determinants of cell-type specific enhancer activity" based on synthetic enhancer assays.
+        - **Evidence pointer** Results section "BOM motifs direct human cell-type-specific expression...", Figure 4
+        - **Concern** The experimental validation is a major strength, but its scope is limited. It tests only two cell lines (HepG2 and Gm12878) and uses a single muscle enhancer template. The text reports a wide range of activity levels (3 to 83-fold), but the source of this variability is not discussed. It is unclear if the results are specific to the chosen template or if they would generalize to other genomic contexts. The number of biological replicates is mentioned ("Two replications of the enhancer assays were performed") but the text does not state if these are independent biological replicates or technical repeats.
+        - **Why it matters** The conclusion that the identified motifs are "sequence determinants" is strong. A limited experimental design with a single template and two cell lines, without clear replication statistics, is not sufficient to fully support this general claim.
+        - **Resolution test** Expand the experimental validation to include more cell types and multiple template sequences. Clearly state the number of independent biological replicates and perform appropriate statistical analysis on the enhancer activity measurements.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Interpretation of cross-species results
+        - **Claim pointer** The claim that BOM "can capture evolutionary similarities based on collective motif composition beyond those detectable by conventional sequence alignment."
+        - **Evidence pointer** Results section "BOM detects the evolutionary conservation of CREs", Figure 5, Supplementary Tables 14-15
+        - **Concern** The cross-species analysis is interesting, but the interpretation is not fully developed. The text reports that a human model can classify mouse CREs with ~64% accuracy, and that most of these correctly predicted CREs are not alignable. This is presented as evidence for a conserved "motif code." However, an alternative explanation is that the model is learning general features of active regulatory elements (e.g., generic promoter-proximal or enhancer-associated motifs) that are not cell-type specific. The text does not adequately rule out this possibility. The analysis of unalignable regions is also dependent on the alignment parameters used (minMatch = 0.95), which are very stringent.
+        - **Why it matters** The claim of a conserved cell-type-specific regulatory code across species is a significant evolutionary finding. The current analysis does not fully distinguish this from a more mundane explanation of learning generic regulatory features.
+        - **Resolution test** Perform control experiments, such as training a model to distinguish between two random sets of CREs and testing on the cross-species data, to establish a baseline accuracy. Analyze the motifs that drive cross-species classification to see if they are known cell-type-specific factors or generic regulators. Repeat the analysis with less stringent alignment thresholds.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and presentation
+        - **Affected element** Abstract and Introduction
+        - **Evidence pointer** Abstract, Introduction
+        - **Issue** The phrase "remarkable accuracy" in the abstract is vague and not quantified. The introduction could better frame the novelty of the bag-of-motifs approach relative to k-mer-based methods, which also ignore order to some extent.
+        - **Required correction** Provide specific performance numbers in the abstract. In the introduction, explicitly state the difference between a "bag-of-motifs" and a "bag-of-k-mers" and why the former is a more interpretable and biologically meaningful representation.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Technical detail
+        - **Affected element** Methods, "BOM Model"
+        - **Evidence pointer** Methods section "BOM Model"
+        - **Issue** The text states "On average, ∼83.4% of total bases (500 bp) in distal elements were annotated by motifs with an importance score above 0". This is a descriptive statistic, but it is unclear how this relates to model performance or the biological interpretation.
+        - **Required correction** Clarify the purpose of this statistic. If it is meant to show that the model uses a large fraction of the sequence, it should be compared to a null model or a random motif assignment.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Statistical reporting
+        - **Affected element** Results, "BOM uses gradient-boosted trees..."
+        - **Evidence pointer** Results section "BOM uses gradient-boosted trees...", Supplementary Table 2
+        - **Issue** The text reports average precision, recall, and F1 scores but does not report the variance or the performance for each cell type individually. It is important to know if performance is uniformly high or if some cell types are much harder to classify.
+        - **Required correction** Report the per-cell-type performance metrics in a supplementary table and summarize the range and standard deviation in the main text.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Reproducibility
+        - **Affected element** Methods, "Activity testing of synthetic regulatory elements"
+        - **Evidence pointer** Methods section "Activity testing of synthetic regulatory elements"
+        - **Issue** The description of the synthetic enhancer construction is incomplete. It is not clear how the motifs were inserted into the template (e.g., in what orientation, at what spacing). The text says "inserting two copies of each motif in random order and location" but does not specify the random seed or the number of random configurations tested.
+        - **Required correction** Provide a detailed protocol for the construction of the synthetic enhancers, including the exact sequences and the randomization procedure.
+
+## Risk / unsupported claims
+- The claim of "remarkable accuracy" and "outperforming" deep learning models is not fully supported without the complete comparative results and statistical analysis.
+- The claim that BOM captures a "highly predictive sequence code" that is conserved across species is not fully supported, as the analysis does not rule out the learning of generic regulatory features.
+- The claim that the identified motifs are "sequence determinants" of cell-type-specific activity is only supported by a limited experimental design.
+- The generalizability of the method to other conditions (e.g., disease states, other cell types) is not demonstrated.
+- The performance on the 93-latent-state classification task is mentioned but not detailed, making it impossible to assess.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose AIoptamer, a pipeline integrating AI-based screening, structural mutagenesis via CHIMERA_NA, and binding affinity prediction via PredPRBA and PDA-Pred, followed by molecular dynamics simulations, to optimize RNA and DNA aptamers against a known host, claiming accelerated and generalized aptamer design relative to SELEX-based approaches.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or validation datasets are provided
+- **Missing materials affecting confidence** Full methods, model training and validation details, dataset descriptions, performance metrics, case study results, MD simulation parameters, and any comparative analysis against existing methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually plausible pipeline that combines established computational tools with AI-based scoring, but the scientific case is not established from the provided material. The claims of effectiveness, generalization, and acceleration are unsupported by any quantitative evidence, and the novelty relative to existing aptamer design methods is unclear. The abstract reads as a high-level workflow description rather than a validated study, and the absence of results or benchmarks prevents assessment of technical soundness or practical utility.
+- **Who would be interested in the results, and why** Researchers in aptamer engineering, computational drug discovery, and AI-driven biomolecular design would be interested if the pipeline is validated with robust benchmarks and case studies. The potential to reduce experimental burden in aptamer selection could appeal to biotechnology and therapeutic development groups, but this interest is contingent on demonstrated performance.
+- **Major strengths** The integration of multiple computational stages (sequence variant generation, AI screening, structural mutagenesis, affinity prediction, and MD refinement) is logically coherent and addresses a real bottleneck in aptamer development. The stated applicability to both RNA and DNA aptamers suggests a broad scope, and the use of specialized tools (CHIMERA_NA, PredPRBA, PDA-Pred) indicates domain awareness.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The pipeline "demonstrates effectiveness across both RNA and DNA aptamer complexes, offering a generalized and robust framework for aptamer optimization."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of demonstrated effectiveness and generalization is made without any quantitative results, case studies, or comparative benchmarks. No metrics such as binding affinity improvements, prediction accuracy, or success rates are reported.
+  - **Why it matters** Without empirical validation, the claim of a "generalized and robust framework" is unsupported. Readers cannot assess whether the pipeline outperforms existing methods or even works as described.
+  - **Resolution test** Provide case study results for at least one RNA and one DNA aptamer complex, including predicted versus experimental binding affinities, MD stability metrics, and a comparison against SELEX-derived or other computational baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Top candidates undergo structural modeling through CHIMERA_NA, an in-house mutagenesis tool designed to perform structural mutations in nucleic acids."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** CHIMERA_NA is described as an in-house tool, but no details on its validation, accuracy, or limitations are provided. The abstract does not clarify how structural mutations are generated or whether the tool has been benchmarked against experimental structures.
+  - **Why it matters** The reliability of the entire pipeline depends on the quality of structural modeling. An unvalidated in-house tool introduces unknown error sources that could invalidate downstream predictions.
+  - **Resolution test** Describe CHIMERA_NA's algorithm, validation against known nucleic acid structures, and any error metrics. Include a supplementary figure or table showing mutagenesis accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "By combining AI-powered prediction with conventional computational techniques, our method advances the rational design of aptamers and significantly reduces reliance on traditional experimental trial-and-error strategies."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "significantly reduces reliance" on experimental methods is not quantified. No data on time savings, cost reduction, or experimental validation rates are provided.
+  - **Why it matters** This is a practical impact claim that requires evidence of real-world utility. Without metrics, the statement is promotional rather than scientific.
+  - **Resolution test** Report quantitative comparisons, such as number of candidates requiring experimental testing, time to identify lead candidates, or success rates relative to SELEX-only approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Pipeline workflow description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify how "all possible aptamer sequence variants" are generated, which could be computationally intractable for longer sequences.
+  - **Required correction** Clarify the sequence variant generation strategy, including any constraints or filtering steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** PredPRBA and PDA-Pred are named but not described in terms of training data, input features, or performance benchmarks.
+  - **Required correction** Provide brief descriptions of these models, including their validation on independent datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Claim of novelty
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not compare AIoptamer to existing computational aptamer design tools, making its novelty difficult to assess.
+  - **Required correction** Add a sentence or table comparing AIoptamer to prior methods, highlighting unique contributions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of validation data, tool benchmarking, and practical impact metrics means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: Moderate, as the combination of AI screening with structural modeling and MD is plausible but not clearly novel without comparison to existing pipelines. Scientific importance: Potentially high if validated, but currently unproven. Interdisciplinary readership: The topic bridges AI, structural biology, and therapeutics, which could attract broad interest, but the abstract lacks depth for specialists. Technical soundness: Not assessable from the abstract alone; key tools and models are unvalidated in the provided text. Readability for nonspecialists: The abstract is accessible but overly high-level, omitting technical details that would aid understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The pipeline concept is interesting, but the abstract lacks the quantitative validation and methodological detail required to support the claims. A revised submission with case studies, benchmarks, and tool validation would be needed for a supportive assessment.
+
+## Risk / unsupported claims
+- Claim of "demonstrates effectiveness across both RNA and DNA aptamer complexes" is unsupported due to absence of results.
+- Claim of "generalized and robust framework" is unsupported without cross-validation or diverse test cases.
+- Claim of "significantly reduces reliance on traditional experimental trial-and-error strategies" is unsupported without quantitative impact data.
+- Performance of CHIMERA_NA, PredPRBA, and PDA-Pred is not assessable from the abstract.
+- The feasibility of generating "all possible aptamer sequence variants" is not assessable without sequence length and computational cost details.

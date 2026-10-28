@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report that two amino acid motifs in the N-terminal region of human CTCF, YDF and KTYQR, impede cohesin-mediated DNA loop extrusion. KTYQR completely blocks loop extrusion, while YDF hinders completion of extrusion step cycles and converts cohesin into a unidirectional extruder by strengthening STAG1-DNA affinity. The authors propose that these motifs act via distinct yet synergistic mechanisms.
+- **Visible evidence base** Single-molecule assays monitoring DNA loop extrusion in the presence of NTR fragments, as described in the abstract. No quantitative data, representative traces, or statistical analyses are provided in the supplied material.
+- **Missing materials affecting confidence** Full methods, experimental conditions, sample sizes, statistical tests, representative single-molecule traces, quantification of extrusion velocities and processivities, mutagenesis details, and any control experiments. The abstract alone does not permit independent verification of the mechanistic claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding how CTCF modulates cohesin-mediated loop extrusion, with clear identification of two specific motifs and distinct functional outcomes. The single-molecule approach is well suited to the question. However, the abstract-level evidence is insufficient to fully evaluate the robustness of the claims, particularly the mechanistic distinction between the two motifs and the proposed role of STAG1 affinity. The findings are likely to interest the chromosome biology and genome organization communities, but the case for the synergistic mechanism requires additional experimental detail.
+- **Who would be interested in the results, and why** Researchers studying genome organization, chromatin architecture, and the molecular mechanisms of cohesin and CTCF function. The work also has relevance for those investigating transcriptional regulation and developmental gene control, given the central role of CTCF in boundary formation and loop anchoring.
+- **Major strengths** The study addresses a long-standing question about how CTCF stalls cohesin, using a direct single-molecule approach. The identification of two distinct motifs with separable effects provides a more nuanced model than previous work. The proposed conversion of cohesin to a unidirectional extruder is a novel and mechanistically interesting observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that KTYQR completely blocks loop extrusion activity and that YDF hinders completion of step cycles while converting cohesin into a unidirectional extruder.
+  - **Evidence pointer** Abstract, single-molecule assays, location not provided
+  - **Concern** The abstract states these outcomes but provides no quantitative measures such as extrusion velocities, processivity lengths, or fractions of stalled molecules. Without these data, it is not possible to assess the magnitude of the effects or whether the distinction between "complete block" and "hindrance" is statistically and functionally robust.
+  - **Why it matters** The central conclusion rests on a qualitative difference between the two motifs. If the effects are not clearly separated under defined conditions, the proposed distinct mechanisms may not be supported.
+  - **Resolution test** Provide quantitative single-molecule data showing distributions of extrusion lengths and velocities for wild-type NTR, YDF mutants, KTYQR mutants, and combined mutants, with appropriate statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that YDF strengthens STAG1 affinity to DNA, thereby converting cohesin into a unidirectional extruder.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The causal link between increased STAG1-DNA affinity and unidirectional extrusion is asserted but not demonstrated. No binding data, mutagenesis of STAG1, or experiments perturbing STAG1-DNA interactions are described in the abstract.
+  - **Why it matters** This is a key mechanistic step. Without direct evidence that the affinity change is necessary and sufficient for the directional switch, the proposed mechanism remains speculative.
+  - **Resolution test** Include measurements of STAG1-DNA binding affinity in the presence and absence of YDF, and show that mutations disrupting this interaction abolish the unidirectional conversion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Synergy claim
+  - **Claim pointer** The claim that the two motifs act via distinct yet synergistic mechanisms.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe experiments that directly test synergy, such as combined mutant constructs or dose-response analyses. The term "synergistic" implies an interaction beyond additive effects, which is not evidenced.
+  - **Why it matters** The concluding claim of multifaceted regulation depends on demonstrating that the two motifs cooperate rather than act independently.
+  - **Resolution test** Present experiments with combined YDF and KTYQR mutations and compare observed effects to the sum of individual effects, with statistical testing for synergy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "hinders cohesin from completing LE step cycles" is vague. It is unclear whether this refers to reduced processivity, slower stepping, or increased pausing.
+  - **Required correction** Define the specific kinetic parameter affected, such as step size, dwell time, or termination probability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state whether the assays used human cohesin or a species variant, nor the specific DNA substrate configuration. This limits reproducibility assessment.
+  - **Required correction** Specify the protein and DNA constructs used in the single-molecule assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Interpretation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract implies these motifs are relevant in vivo but provides no cellular or genomic data. The physiological relevance is inferred rather than tested.
+  - **Required correction** Either temper the concluding statement or add a brief note on how these findings relate to known CTCF function in cells.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic claims are not quantitatively supported or causally demonstrated in the supplied material. R1-M3 is non-blocking but requires additional experiments to substantiate the synergy claim.
+- **Assessment against Nature-style criteria** Originality is high, as the identification of two distinct CTCF motifs with separable effects on loop extrusion is a novel contribution. Scientific importance is substantial, given the central role of CTCF in genome organization. Interdisciplinary readership is plausible, spanning molecular biology, biophysics, and genomics. Technical soundness cannot be fully assessed from the abstract alone, but the single-molecule approach is appropriate. Readability for nonspecialists is adequate, though some mechanistic terms could be clarified. Overall, the work has strong potential but requires full experimental evidence to meet the standards of a high-impact report.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is clear, but the current abstract-level evidence does not fully establish the distinct and synergistic mechanisms. Full data are needed to confirm the quantitative and causal claims.
+
+## Risk / unsupported claims
+- The claim that KTYQR completely blocks loop extrusion is unsupported without quantitative data on residual activity.
+- The claim that YDF converts cohesin into a unidirectional extruder via STAG1-DNA affinity is unsupported without binding and mutagenesis data.
+- The claim of synergy between the two motifs is unsupported without combined mutant experiments.
+- The physiological relevance of the identified motifs is not assessable from the abstract.

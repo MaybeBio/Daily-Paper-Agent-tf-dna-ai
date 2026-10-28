@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and suitability for a Nature-style journal; no line numbers were provided, so pointers refer to sections, figures, or tables as named
+- **Shared manuscript claim summary** The authors present a new benchmark for protein–ssDNA docking, derived from PDB structures, comprising 91 sequence-identity groups with bound and unbound protein structures. They analyze conformational variability in bound versus unbound states, report a general stiffening upon binding, and demonstrate a use case with ATTRACT docking. They claim this is the first exhaustive benchmark for ssDNA–protein docking.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion, references to Tables 1–3, Figures 1–2, Figures S1–S2, Tables S1–S7, and a GitHub repository link
+- **Missing materials affecting confidence** No supplementary tables or figures were provided; no docking result details beyond summary tables; no statistical tests or confidence intervals; no validation of the ATTRACT scoring against known complexes; no details on the sequence clustering thresholds or the FATCAT parameters; no information on the number of structures excluded at each filtering step
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine gap: no dedicated benchmark exists for protein–ssDNA docking, and the authors have assembled a substantial dataset from the PDB. The analysis of conformational variability is useful and the distinction between binding-induced and intrinsic variability is conceptually sound. However, the evidence base is incomplete in several critical areas. The docking demonstration is limited to two clusters and shows mixed results, yet the authors do not discuss failure modes or benchmark-level performance. The claim of being "the first" exhaustive benchmark is plausible but not fully verifiable from the provided text. The manuscript is technically sound in its overall approach but lacks quantitative rigor in the variability analysis and docking evaluation. The writing is generally clear, though some methodological details are underspecified.
+- **Who would be interested in the results, and why** Computational structural biologists developing or benchmarking docking tools, particularly for nucleic acid–protein interactions; researchers studying ssDNA-binding proteins and their conformational dynamics; method developers in the field of macromolecular docking and benchmark construction. The dataset itself could serve as a community resource.
+- **Major Strengths** The benchmark fills a clear gap in the field, as no ssDNA-specific docking benchmark currently exists. The inclusion of both bound and unbound protein structures, with multiple conformations per group, is a thoughtful design that allows users to assess conformational variability. The distinction between binding-induced and intrinsic conformational changes is conceptually important and well motivated. The authors provide a public GitHub repository, supporting reproducibility. The use of a real docking tool (ATTRACT) to illustrate a use case is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the benchmark is "the first one made to peruse available structures of ssDNA–protein interactions to such an extent" and that it is "an essential first step to understand the mechanisms involved in ssDNA–protein interactions and develop mature ssDNA docking protocols."
+  - **Evidence pointer** Abstract, Introduction, Conclusion; no systematic comparison to prior benchmarks or literature is provided
+  - **Concern** The claim of being the first exhaustive benchmark is not substantiated by a literature review or a comparison to existing resources. The authors mention that no benchmark is available for ssDNA–protein docking, but they do not demonstrate that they have systematically searched for or evaluated prior efforts. Without this, the novelty claim is not established.
+  - **Why it matters** A central claim of the manuscript is the novelty and comprehensiveness of the benchmark. If prior benchmarks or datasets exist, the contribution is incremental rather than foundational. The authors must provide evidence of a thorough literature search and explicitly state what distinguishes their benchmark from any prior work.
+  - **Resolution test** Provide a systematic review of existing ssDNA–protein docking benchmarks or datasets, with explicit comparison of scope, content, and intended use. If none exist, state this with supporting citations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the fact that most conformational changes are induced by the ssDNA binding is in agreement with the better results obtained in general (not specifically with ssDNA) by flexible docking methods."
+  - **Evidence pointer** Results and Discussion, section "Proteins conformational variability"; no statistical analysis is provided
+  - **Concern** The conclusion that "most conformational changes are induced by ssDNA binding" is based on a qualitative comparison of RMSD distributions. The authors report that 35 groups show bound chains closer to each other than to unbound chains, but they do not provide statistical tests, confidence intervals, or a null model. The claim that this supports a general induced-fit mechanism is not quantitatively supported.
+  - **Why it matters** The central biological finding of the paper is the distinction between binding-induced and intrinsic conformational variability. Without statistical rigor, the conclusion is not robust and could be an artifact of sampling or structural redundancy.
+  - **Resolution test** Provide statistical analysis (e.g., permutation tests, bootstrapping) to show that the observed differences between bound and unbound RMSD distributions are significant. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that the docking experiments "underline the relevance of using several bound structures as ground truth and to tolerate a minimum conformational deviation from ground truth when evaluating docking results."
+  - **Evidence pointer** Results and Discussion, section "Docking"; Tables 2 and 3; no detailed docking results are provided
+  - **Concern** The docking demonstration is limited to two clusters and three ssDNA fragments. The results are mixed: one fragment fails completely (GAG, null fnat), another succeeds on one structure but not the other (AGC), and only one fragment performs well on both. The authors do not discuss why some fragments fail, nor do they provide a benchmark-level assessment of ATTRACT's performance. The claim that the benchmark is useful for evaluating docking tools is not supported by this limited demonstration.
+  - **Why it matters** The stated purpose of the benchmark is to improve docking tools. A demonstration with mixed results, without analysis of failure modes or a broader evaluation, does not establish the benchmark's utility.
+  - **Resolution test** Expand the docking evaluation to a larger subset of the benchmark, report aggregate performance metrics, and discuss failure cases. Alternatively, clearly frame the docking experiment as a proof-of-concept and temper the claims accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "all analysis was performed using Python 3.7" and that processing steps are summarized in Figure 1.
+  - **Evidence pointer** Materials and Methods, section "RCSB PDB query" and "Structure alignment, processing, and identification of interacting ssDNA"; Figure 1
+  - **Concern** The methods section lacks sufficient detail for reproduction. The specific Python packages, versions, and scripts are not listed. The criteria for "interacting" residues (5 Å cutoff) are stated, but the definition of "consecutive" nucleotides and the handling of gaps are not specified. The FATCAT parameters and the RMSD clustering threshold (0.2 Å) are mentioned but not justified.
+  - **Why it matters** Reproducibility is a core requirement for a benchmark resource. Without detailed methods, other groups cannot replicate the dataset construction or verify the results.
+  - **Resolution test** Provide a detailed methods section with software versions, parameters, and a link to the analysis scripts. Justify the choice of thresholds (e.g., 5 Å, 0.2 Å) with citations or sensitivity analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "new benchmark for new docking perspectives" in the title is vague and does not clearly convey the content. The abstract would benefit from a more explicit statement of the benchmark's composition and intended use.
+  - **Required correction** Revise the title and abstract to state the number of groups, the inclusion of bound and unbound structures, and the specific purpose (e.g., "A benchmark of 91 protein–ssDNA complexes with bound and unbound structures for docking evaluation").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, section "Length and sequence of bound ssDNA"
+  - **Evidence pointer** Table 1, Table S7
+  - **Issue** The analysis of ssDNA length and sequence composition is descriptive but lacks a comparison to a null model or to the overall PDB composition. The overrepresentation of T-containing sequences is noted but not tested statistically.
+  - **Required correction** Add a statistical test (e.g., chi-square) comparing the observed base composition to expected frequencies, or explicitly state that the observation is qualitative.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Materials and Methods, section "Structures superposition, RMSD calculation, and clustering"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the clustering of chains with RMSD lower than 0.2 Å is brief. It is unclear whether this is a single-linkage or complete-linkage clustering, and how representative chains are chosen.
+  - **Required correction** Clarify the clustering algorithm and the selection criterion for the representative chain.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (novelty claim not substantiated), R1-M2 (lack of statistical rigor in variability analysis), R1-M3 (limited docking demonstration), R1-M4 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** Originality: The benchmark addresses a genuine gap, but the novelty claim is not fully established without a literature comparison. Scientific importance: The resource could be valuable for the docking community, but the biological findings are preliminary and not statistically robust. Interdisciplinary readership: The work is relevant to structural biology, computational biology, and bioinformatics, but the presentation is somewhat narrow. Technical soundness: The overall approach is reasonable, but the docking evaluation is too limited and the variability analysis lacks statistical support. Readability for nonspecialists: The manuscript is generally clear, but some methodological details are underspecified, and the docking results are presented without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The benchmark has potential, but the novelty claim, statistical rigor, and docking demonstration need to be substantially strengthened before the case is made. I would be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of being "the first" exhaustive ssDNA–protein docking benchmark is not supported by a literature review or comparison to prior work.
+- The statement that "most conformational changes are induced by the ssDNA binding" is not statistically tested.
+- The claim that the benchmark is useful for evaluating docking tools is not supported by the limited docking demonstration (two clusters, mixed results).
+- The assertion that "taking into account pre-binding conformation variability can increase docking performances" is cited to reference 28 but is not tested in this work.
+- The statement that "the low number of retrieved sequences (148) may reflect the general low interest for ssDNA-bound protein structures" is speculative and not supported by data.

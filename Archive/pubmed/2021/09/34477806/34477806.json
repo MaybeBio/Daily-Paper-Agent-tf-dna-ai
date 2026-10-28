@@ -1,0 +1,697 @@
+{
+  "identity": {
+    "pmid": "34477806",
+    "doi": "10.1084/jem.20201076",
+    "title": "Mechanistic dissection of dominant AIRE mutations in mouse models reveals AIRE autoregulation."
+  },
+  "content": {
+    "abstract": "The autoimmune regulator (AIRE) is essential for the establishment of central tolerance and prevention of autoimmunity. Interestingly, different AIRE mutations cause autoimmunity in either recessive or dominant-negative manners. Using engineered mouse models, we establish that some monoallelic mutants, including C311Y and C446G, cause breakdown of central tolerance. By using RNAseq, ATACseq, ChIPseq, and protein analyses, we dissect the underlying mechanisms for their dominancy. Specifically, we show that recessive mutations result in a lack of AIRE protein expression, while the dominant mutations in both PHD domains augment the expression of dysfunctional AIRE with altered capacity to bind chromatin and induce gene expression. Finally, we demonstrate that enhanced AIRE expression is partially due to increased chromatin accessibility of the AIRE proximal enhancer, which serves as a docking site for AIRE binding. Therefore, our data not only elucidate why some AIRE mutations are recessive while others dominant, but also identify an autoregulatory mechanism by which AIRE negatively modulates its own expression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Autoimmunity/genetics",
+      "Chromatin/genetics",
+      "Dissection/methods",
+      "Female",
+      "Homeostasis/*genetics",
+      "Humans",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Mice, Inbred NOD",
+      "Models, Animal",
+      "Mutation/*genetics",
+      "Transcription Factors/*genetics",
+      "AIRE Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goldfarb, Yael",
+        "Givony, Tal",
+        "Kadouri, Noam",
+        "Dobes, Jan",
+        "Peligero-Cruz, Cristina",
+        "Zalayat, Itay",
+        "Damari, Golda",
+        "Dassa, Bareket",
+        "Ben-Dor, Shifra",
+        "Gruper, Yael",
+        "Oftedal, Bergithe E",
+        "Bratland, Eirik",
+        "Erichsen, Martina M",
+        "Berger, Amund",
+        "Avin, Ayelet",
+        "Nevo, Shir",
+        "Haljasorg, Uku",
+        "Kuperman, Yael",
+        "Ulman, Adi",
+        "Haffner-Krausz, Rebecca",
+        "Porat, Ziv",
+        "Atasoy, Ulus",
+        "Leshkowitz, Dena",
+        "Husebye, Eystein S",
+        "Abramson, Jakub"
+      ],
+      "short_names": [
+        "Goldfarb Y",
+        "Givony T",
+        "Kadouri N",
+        "Dobes J",
+        "Peligero-Cruz C",
+        "Zalayat I",
+        "Damari G",
+        "Dassa B",
+        "Ben-Dor S",
+        "Gruper Y",
+        "Oftedal BE",
+        "Bratland E",
+        "Erichsen MM",
+        "Berger A",
+        "Avin A",
+        "Nevo S",
+        "Haljasorg U",
+        "Kuperman Y",
+        "Ulman A",
+        "Haffner-Krausz R",
+        "Porat Z",
+        "Atasoy U",
+        "Leshkowitz D",
+        "Husebye ES",
+        "Abramson J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9472-9577",
+        "ORCID: 0000-0002-0568-8049",
+        "ORCID: 0000-0002-2978-4318",
+        "ORCID: 0000-0003-1853-1603",
+        "ORCID: 0000-0001-7465-5008",
+        "ORCID: 0000-0002-5988-0044",
+        "ORCID: 0000-0002-5451-0378",
+        "ORCID: 0000-0002-5226-7554",
+        "ORCID: 0000-0001-9604-1939",
+        "ORCID: 0000-0001-7912-2243",
+        "ORCID: 0000-0003-4248-7737",
+        "ORCID: 0000-0002-8359-9818",
+        "ORCID: 0000-0001-9815-972X",
+        "ORCID: 0000-0001-6973-2048",
+        "ORCID: 0000-0003-3321-5190",
+        "ORCID: 0000-0002-1345-6301",
+        "ORCID: 0000-0002-1541-6020",
+        "ORCID: 0000-0003-3830-1856",
+        "ORCID: 0000-0002-3175-5006",
+        "ORCID: 0000-0001-6503-7646",
+        "ORCID: 0000-0003-3059-181X",
+        "ORCID: 0000-0002-4095-1359",
+        "ORCID: 0000-0002-4703-2830",
+        "ORCID: 0000-0002-7886-2976",
+        "ORCID: 0000-0002-1745-8996"
+      ],
+      "affiliations": [
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel.",
+        "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel.",
+        "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway.",
+        "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway.",
+        "Department of Medicine, Haraldsplass Deaconess Hospital, Bergen, Norway.",
+        "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia.",
+        "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel.",
+        "Flow Cytometry Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel.",
+        "Division of Allergy and Immunology, University of Michigan, Ann Arbor, MI.",
+        "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway.",
+        "Department of Medicine, Solna, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Medicine, Haukeland University and Hospital, Bergen, Norway.",
+        "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Goldfarb, Yael",
+        "short_name": "Goldfarb Y",
+        "identifiers": [
+          "0000-0002-9472-9577"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Givony, Tal",
+        "short_name": "Givony T",
+        "identifiers": [
+          "0000-0002-0568-8049"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Kadouri, Noam",
+        "short_name": "Kadouri N",
+        "identifiers": [
+          "0000-0002-2978-4318"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Dobeš, Jan",
+        "short_name": "Dobeš J",
+        "identifiers": [
+          "0000-0003-1853-1603"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Peligero-Cruz, Cristina",
+        "short_name": "Peligero-Cruz C",
+        "identifiers": [
+          "0000-0001-7465-5008"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Zalayat, Itay",
+        "short_name": "Zalayat I",
+        "identifiers": [
+          "0000-0002-5988-0044"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Damari, Golda",
+        "short_name": "Damari G",
+        "identifiers": [
+          "0000-0002-5451-0378"
+        ],
+        "affiliations": [
+          "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Dassa, Bareket",
+        "short_name": "Dassa B",
+        "identifiers": [
+          "0000-0002-5226-7554"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Ben-Dor, Shifra",
+        "short_name": "Ben-Dor S",
+        "identifiers": [
+          "0000-0001-9604-1939"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Gruper, Yael",
+        "short_name": "Gruper Y",
+        "identifiers": [
+          "0000-0001-7912-2243"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Oftedal, Bergithe E",
+        "short_name": "Oftedal BE",
+        "identifiers": [
+          "0000-0003-4248-7737"
+        ],
+        "affiliations": [
+          "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Bratland, Eirik",
+        "short_name": "Bratland E",
+        "identifiers": [
+          "0000-0002-8359-9818"
+        ],
+        "affiliations": [
+          "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Erichsen, Martina M",
+        "short_name": "Erichsen MM",
+        "identifiers": [
+          "0000-0001-9815-972X"
+        ],
+        "affiliations": [
+          "Department of Medicine, Haraldsplass Deaconess Hospital, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Berger, Amund",
+        "short_name": "Berger A",
+        "identifiers": [
+          "0000-0001-6973-2048"
+        ],
+        "affiliations": [
+          "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Avin, Ayelet",
+        "short_name": "Avin A",
+        "identifiers": [
+          "0000-0003-3321-5190"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Nevo, Shir",
+        "short_name": "Nevo S",
+        "identifiers": [
+          "0000-0002-1345-6301"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Haljasorg, Uku",
+        "short_name": "Haljasorg U",
+        "identifiers": [
+          "0000-0002-1541-6020"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel.",
+          "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Kuperman, Yael",
+        "short_name": "Kuperman Y",
+        "identifiers": [
+          "0000-0003-3830-1856"
+        ],
+        "affiliations": [
+          "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Ulman, Adi",
+        "short_name": "Ulman A",
+        "identifiers": [
+          "0000-0002-3175-5006"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Haffner-Krausz, Rebecca",
+        "short_name": "Haffner-Krausz R",
+        "identifiers": [
+          "0000-0001-6503-7646"
+        ],
+        "affiliations": [
+          "Department of Veterinary Resources, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Porat, Ziv",
+        "short_name": "Porat Z",
+        "identifiers": [
+          "0000-0003-3059-181X"
+        ],
+        "affiliations": [
+          "Flow Cytometry Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Atasoy, Ulus",
+        "short_name": "Atasoy U",
+        "identifiers": [
+          "0000-0002-4095-1359"
+        ],
+        "affiliations": [
+          "Division of Allergy and Immunology, University of Michigan, Ann Arbor, MI."
+        ]
+      },
+      {
+        "full_name": "Leshkowitz, Dena",
+        "short_name": "Leshkowitz D",
+        "identifiers": [
+          "0000-0002-4703-2830"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Husebye, Eystein S",
+        "short_name": "Husebye ES",
+        "identifiers": [
+          "0000-0002-7886-2976"
+        ],
+        "affiliations": [
+          "Department of Clinical Science and K.G. Jebsen Center for Autoimmune Disorders, University of Bergen, Bergen, Norway.",
+          "Department of Medicine, Solna, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Medicine, Haukeland University and Hospital, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Abramson, Jakub",
+        "short_name": "Abramson J",
+        "identifiers": [
+          "0000-0002-1745-8996"
+        ],
+        "affiliations": [
+          "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of experimental medicine"
+    ],
+    "journal_abbrev": [
+      "J Exp Med"
+    ],
+    "pub_date": "2021 Nov 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/04 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "42528816",
+      "42262224",
+      "42079620",
+      "41678364",
+      "41608501",
+      "41366551",
+      "40836089",
+      "40330469",
+      "40067591",
+      "40067589",
+      "40055635",
+      "39440452",
+      "39169234",
+      "38228406",
+      "38193358",
+      "37990032",
+      "37909333",
+      "37674082",
+      "37235056",
+      "36836264",
+      "36072346",
+      "36003043",
+      "34790633",
+      "34572460"
+    ],
+    "refs": [
+      "33574239",
+      "32242017",
+      "31249361",
+      "30909881",
+      "29959280",
+      "29562162",
+      "29335648",
+      "29285761",
+      "29129473",
+      "28341773",
+      "28135252",
+      "27941786",
+      "27079975",
+      "26527800",
+      "26364592",
+      "26084028",
+      "26034170",
+      "25982289",
+      "25950237",
+      "25791085",
+      "25559105",
+      "25224068",
+      "25103404",
+      "24735413",
+      "24712470",
+      "24531970",
+      "23429716",
+      "23319629",
+      "23074189",
+      "23032152",
+      "22388286",
+      "22219212",
+      "22162465",
+      "21518048",
+      "21221095",
+      "21180514",
+      "21035305",
+      "20130140",
+      "20068145",
+      "19302042",
+      "19265170",
+      "18840680",
+      "18798982",
+      "18791639",
+      "18708298",
+      "18687966",
+      "18414681",
+      "18322283",
+      "18292755",
+      "17974569",
+      "17322887",
+      "17118990",
+      "16790525",
+      "16735446",
+      "16172259",
+      "15718293",
+      "15649886",
+      "14974083",
+      "14672938",
+      "12508245",
+      "12471056",
+      "12417193",
+      "12376594",
+      "11854172",
+      "11600535",
+      "11533054",
+      "10958665",
+      "10875918",
+      "10677297",
+      "10192386",
+      "9697411",
+      "9690408",
+      "9407117",
+      "9398840",
+      "9398839",
+      "8989249",
+      "8959085",
+      "8675499",
+      "8446106",
+      "8227354",
+      "8115362",
+      "1351548"
+    ],
+    "similar": [
+      "34477806",
+      "26084028",
+      "18414681",
+      "23074189",
+      "27266815",
+      "16431348",
+      "25689230",
+      "19265170",
+      "26453754",
+      "16114041",
+      "28931462",
+      "15699112",
+      "25982289",
+      "10940877",
+      "14974083",
+      "10049735",
+      "20414703",
+      "21352256",
+      "16290093",
+      "27571405",
+      "27048654",
+      "18840680",
+      "14734522",
+      "34930780",
+      "27504588",
+      "30255105",
+      "19487417",
+      "29483906",
+      "34293711",
+      "17991771",
+      "28242760",
+      "19479827",
+      "22490868",
+      "20850570",
+      "22310661",
+      "26912174",
+      "26579596",
+      "30565240",
+      "15492124",
+      "9735375",
+      "20615959",
+      "16628255",
+      "19744957",
+      "23041971",
+      "15640689",
+      "23319629",
+      "15790357",
+      "19234163",
+      "17202386",
+      "21746930",
+      "19293276",
+      "12595897",
+      "25068407",
+      "28135252",
+      "22447927",
+      "31322727",
+      "15886230",
+      "11275943",
+      "23265639",
+      "25217160",
+      "28871661",
+      "27072778",
+      "28546003",
+      "25552543",
+      "30979797",
+      "27130899",
+      "26531897",
+      "23083345",
+      "14679106",
+      "25224068",
+      "12092453",
+      "26006015",
+      "24275490",
+      "37235056",
+      "11343230",
+      "18214467",
+      "29789121",
+      "31586207",
+      "34991662",
+      "17380015",
+      "15511668",
+      "16172259",
+      "28540407",
+      "9931335",
+      "26527800",
+      "17599412",
+      "21048786",
+      "22219212",
+      "20477138",
+      "22036612",
+      "10593569",
+      "29291257",
+      "27281783"
+    ],
+    "review": [
+      "34477806",
+      "27266815",
+      "16431348",
+      "16290093",
+      "27504588",
+      "30255105",
+      "29483906",
+      "20850570",
+      "26579596",
+      "30565240",
+      "9735375",
+      "15640689",
+      "15790357",
+      "12595897",
+      "28871661",
+      "23083345",
+      "12092453",
+      "24275490",
+      "15511668"
+    ],
+    "pmc": [
+      "8421262"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/34477806",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34477806.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34477806/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34477806",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse151011",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://rupress.org/jem/article-lookup/doi/10.1084/jem.20201076",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

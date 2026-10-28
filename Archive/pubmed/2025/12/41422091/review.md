@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, claims-to-evidence alignment, and suitability for Nature Communications
+- **Shared manuscript claim summary** The authors present an active learning framework combining a multi-objective, directional machine learning model with cell-free gene expression to engineer the allosteric transcription factor PbrR for lead detection in drinking water. They claim simultaneous tuning of sensitivity and selectivity, achieving detection at the EPA action level (10 ppb) while reducing zinc cross-reactivity, and demonstrate function in freeze-dried, point-of-use diagnostic formats with real municipal water samples.
+- **Visible evidence base** Main text figures 1-6, supplementary figures 1-7, supplementary tables 1, supplementary notes 1-2, supplementary data 1
+- **Missing materials affecting confidence** Raw sequence data for all 2024 mutants, complete model training hyperparameters beyond those listed, full dose-response curves for all top mutants, statistical analysis details for figure comparisons, raw ICP-MS data for municipal water samples, and the complete list of 1155 initial mutants from the prior study
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling integration of machine learning-guided protein engineering with cell-free expression systems for biosensor development. The multi-objective directional modeling approach is conceptually novel and addresses a genuine gap in the field, where most ML-guided methods focus on single objectives. The application to PbrR for lead detection is timely and practically relevant given the upcoming EPA regulatory changes. However, several technical concerns must be addressed to fully establish the claims, particularly regarding the statistical robustness of the screening data, the generalizability of the model framework, and the quantitative performance metrics of the final biosensor.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, protein engineering, and biosensor development will find the ML framework and cell-free workflow of direct interest. Environmental monitoring and water quality testing communities will value the practical demonstration of a point-of-use lead sensor. The broader ML-guided protein design community will be interested in the multi-objective directional token approach as an alternative to traditional predictive scoring methods.
+- **Major strengths** The work addresses a real and pressing need for improved lead biosensors with clear regulatory relevance. The multi-objective ML framework with directional tokens is a thoughtful departure from single-objective approaches and is well-suited to the tradeoff inherent in biosensor optimization. The integration of cell-free expression with active learning creates a fast design-build-test-learn cycle that is genuinely high-throughput. The demonstration of freeze-dried, point-of-use functionality with real municipal water samples strengthens the translational claims. The authors are transparent about the limitations of rational design for allosteric proteins and provide a compelling case for ML-guided approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reproducibility of screening data
+  - **Claim pointer** The authors claim that the ML model successfully identified mutants with lead selectivity over zinc, and that the top mutants from each round showed progressive improvement in the desired properties.
+  - **Evidence pointer** Figures 3-5, Supplementary Figures 1-2
+  - **Concern** The screening data are presented as mean normalized fold change values, but the statistical treatment of these data is unclear. The authors state that data represent n=2 for the initial library screening and n=3 for later rounds, but no error bars, confidence intervals, or statistical tests are shown for the heatmaps in Figure 3B-C or the scatterplots in Figure 4. The variability between biological replicates is not reported, making it difficult to assess whether the observed differences between mutants are meaningful or within experimental noise. The threshold for calling a mutant a "winner" is not defined quantitatively.
+  - **Why it matters** The core claim of the paper is that the ML-guided approach successfully navigated the sequence-function landscape to identify improved mutants. Without proper statistical characterization of the screening data, it is impossible to determine whether the improvements are robust and reproducible or artifacts of measurement noise. This is particularly important given that the authors acknowledge that most mutants showed small effects.
+  - **Resolution test** Provide full statistical analysis of the screening data, including measures of variability (SD or SEM) for all reported values, appropriate statistical tests comparing mutants to wildtype and to each other, and a clear definition of the selection criteria for "winning" mutants. Show that the top mutants are statistically distinguishable from wildtype and from non-selected mutants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative performance characterization of final biosensor
+  - **Claim pointer** The authors claim the engineered PbrR biosensor can detect lead at the EPA action level (0.048 μM, 10 ppb) with selectivity over zinc, and that it functions in freeze-dried format with real municipal water samples.
+  - **Evidence pointer** Figure 6, Supplementary Figures 3-6
+  - **Concern** The dose-response curve in Figure 6C shows lead detection, but the limit of detection (LOD) is not explicitly calculated or stated. The claim of detection "down to ~5.7 ppb" appears in the abstract but the basis for this number is not clearly presented in the results. The selectivity quantification is also incomplete: while the authors show that the mutant responds to lead but not zinc at certain concentrations, they do not provide a quantitative selectivity ratio or demonstrate performance across the full range of relevant concentrations. The municipal water testing in Figure 6G shows qualitative differences, but the lead concentrations tested (0.03-0.13 μM) are near the detection limit, and the variability across replicates appears substantial.
+  - **Why it matters** The practical utility of the biosensor depends on its quantitative performance characteristics. A point-of-use diagnostic must have a well-defined LOD, dynamic range, and selectivity profile to be useful for regulatory compliance testing. The current presentation does not allow the reader to assess whether the sensor meets the necessary performance specifications.
+  - **Resolution test** Provide a formal LOD calculation based on the dose-response data, a complete selectivity analysis across relevant concentration ranges for lead, zinc, and other potential interferents, and quantitative performance metrics for the municipal water samples including recovery rates and precision.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation and generalizability
+  - **Claim pointer** The authors claim the ML framework can generalize to other biosensors and proteins, and that the model learns generalizable patterns from paired sequence comparisons.
+  - **Evidence pointer** Methods section, Figure 4, Supplementary Notes 1-2
+  - **Concern** The manuscript does not provide a systematic validation of the model's predictive performance. There is no held-out test set analysis, no comparison of model predictions to experimental outcomes beyond the screening rounds, and no ablation studies to demonstrate the contribution of the directional token approach versus simpler baselines. The claim of generalizability is speculative without demonstration on a second protein system or at least a thorough cross-validation analysis. The authors also do not report the model's success rate in proposing functional mutants versus the rate expected by chance.
+  - **Why it matters** The novelty of the approach rests on the claim that the directional token framework provides advantages over existing methods. Without rigorous model validation, it is unclear whether the observed improvements are due to the model's design or simply to the high-throughput screening of many mutants. The generalizability claim is important for the broader impact of the work.
+  - **Resolution test** Provide a held-out test set analysis showing the model's predictive accuracy, comparison to appropriate baselines (e.g., random mutagenesis, single-objective models), and a discussion of the model's success rate. If possible, demonstrate the framework on a second protein system or provide a clear rationale for why the current demonstration is sufficient.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility of the ML pipeline
+  - **Claim pointer** The authors describe a multi-objective controlled extrapolation framework with specific training procedures, but the description lacks sufficient detail for reproduction.
+  - **Evidence pointer** Methods section, Supplementary Notes 1-2, Supplementary Table 1
+  - **Concern** The methods describe the model architecture and training procedure, but several critical details are missing. The exact data splitting procedure for training and validation is not described. The criteria for selecting seeds for each round are not fully specified. The filtering process for generated mutants (beyond "filter by edit distance") is vague. The authors do not state how many total sequences were generated by the model versus how many were experimentally tested, nor the selection criteria for choosing which generated mutants to screen. The computational resources and training time are not reported.
+  - **Why it matters** For a methods-focused paper in a Nature journal, the ML pipeline must be described with sufficient detail for others to reproduce and build upon the work. The current description is at a level that would make independent replication difficult.
+  - **Resolution test** Provide a complete description of the data pipeline, including data splitting, seed selection, mutant filtering, and the criteria for selecting mutants for experimental validation. Include all hyperparameters and training details. Consider making the code and trained model available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3B-C
+  - **Evidence pointer** Figure 3
+  - **Issue** The heatmaps in Figure 3B-C show normalized fold change values, but the color scale is not defined in the figure legend. It is unclear whether the values are on a linear or logarithmic scale, and the range of the color scale is not stated.
+  - **Required correction** Add a clear color scale legend to the heatmaps, including the range and whether the scale is linear or logarithmic.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract states the sensor detects lead "down to ~5.7 ppb" while the results section refers to detection at "0.05 μM lead" and the EPA action level of "0.048 μM (10 ppb)." The relationship between these values should be clarified for consistency.
+  - **Required correction** Ensure consistent use of units and clearly state the relationship between ppb and μM in the context of lead detection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not address potential limitations of the approach, such as the specificity of the model to PbrR, the potential for off-target effects of mutations, or the stability of the freeze-dried formulation over extended storage.
+  - **Required correction** Add a paragraph discussing limitations and potential challenges for broader application of the framework.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Not explicitly stated in the manuscript
+  - **Issue** The manuscript mentions that source data are provided but does not explicitly state whether the ML model, training code, and complete mutant sequence data will be made available.
+  - **Required correction** Add a clear data and code availability statement describing what will be deposited and where.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6C-D
+  - **Issue** The dose-response curves in Figure 6C show error bars, but the number of replicates and the type of error (SD vs SEM) are not stated in the figure legend.
+  - **Required correction** Clarify the number of replicates and the type of error bars shown in all figure panels.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of screening data) and R1-M2 (quantitative performance characterization) are the most critical. Without proper statistical treatment of the screening data, the claim that the ML model successfully identified improved mutants is not fully supported. Without a formal LOD and selectivity analysis, the practical utility of the biosensor for regulatory applications is not established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The multi-objective directional token approach for ML-guided protein engineering is a genuine conceptual advance over single-objective methods. The integration with cell-free expression for rapid active learning cycles is innovative. The specific application to PbrR for lead sensing is novel.
+  - **Scientific importance** The work addresses a real public health need with regulatory relevance. The framework has potential for broad application in biosensor and protein engineering. However, the demonstration is limited to a single protein system, and the generalizability claims require further validation.
+  - **Interdisciplinary readership** The work bridges synthetic biology, machine learning, and environmental monitoring. The writing is generally accessible, though the ML methods section assumes familiarity with transformer architectures. The practical demonstration with municipal water samples will appeal to a broad audience.
+  - **Technical soundness** The experimental workflow is well-designed and the integration of ML with cell-free expression is technically sound. However, the statistical treatment of the screening data is insufficient, and the model validation is incomplete. These issues must be addressed to fully support the claims.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the figures are informative. The abstract effectively communicates the key findings. Some sections of the methods may be challenging for readers without ML background, but the main text is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance and practical relevance are compelling, but the statistical rigor of the screening data and the quantitative characterization of the final biosensor must be strengthened. The model validation and reproducibility details also require attention. If these concerns are adequately addressed, the work would be suitable for publication in Nature Communications.
+
+## Risk / unsupported claims
+- The claim that the ML model can "generalize to other biosensors and proteins" is not supported by the data presented, as only PbrR was tested.
+- The claim of "500-fold improvement in sensitivity from a previous report" requires verification of the comparison basis and the previous report's methodology.
+- The statement that the model "captures both successes and failures" is not quantitatively demonstrated.
+- The claim that the approach enables "efficient exploration of vast mutational landscapes without manual intervention" is overstated, as the workflow still requires significant experimental screening.
+- The assertion that mutations at specific residues "may subtly reshape the binding pocket's geometry" is speculative and not directly tested.
+- The performance of the biosensor in municipal water samples is demonstrated qualitatively, but quantitative recovery rates and precision are not reported.
+- The relationship between the "~5.7 ppb" detection limit stated in the abstract and the data presented in Figure 6 is not clearly established.

@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "38895453",
+    "doi": "10.1101/2024.05.31.596831",
+    "title": "OneSC: A computational platform for recapitulating cell state transitions."
+  },
+  "content": {
+    "abstract": "Computational modelling of cell state transitions has been a great interest of many in the field of developmental biology, cancer biology and cell fate engineering because it enables performing perturbation experiments in silico more rapidly and cheaply than could be achieved in a wet lab. Recent advancements in single-cell RNA sequencing (scRNA-seq) allow the capture of high-resolution snapshots of cell states as they transition along temporal trajectories. Using these high-throughput datasets, we can train computational models to generate in silico 'synthetic' cells that faithfully mimic the temporal trajectories. Here we present OneSC, a platform that can simulate synthetic cells across developmental trajectories using systems of stochastic differential equations govern by a core transcription factors (TFs) regulatory network. Different from the current network inference methods, OneSC prioritizes on generating Boolean network that produces faithful cell state transitions and steady cell states that mimic real biological systems. Applying OneSC to real data, we inferred a core TF network using a mouse myeloid progenitor scRNA-seq dataset and showed that the dynamical simulations of that network generate synthetic single-cell expression profiles that faithfully recapitulate the four myeloid differentiation trajectories going into differentiated cell states (erythrocytes, megakaryocytes, granulocytes and monocytes). Finally, through the in-silico perturbations of the mouse myeloid progenitor core network, we showed that OneSC can accurately predict cell fate decision biases of TF perturbations that closely match with previous experimental observations.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Da",
+        "Cahan, Patrick"
+      ],
+      "short_names": [
+        "Peng D",
+        "Cahan P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5782-8405",
+        "ORCID: 0000-0003-3652-2540"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA.",
+        "Institute for Cell Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA.",
+        "Department of Molecular Biology and Genetics, Johns Hopkins University, Baltimore, Maryland, 21205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Da",
+        "short_name": "Peng D",
+        "identifiers": [
+          "0000-0001-5782-8405"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Cahan, Patrick",
+        "short_name": "Cahan P",
+        "identifiers": [
+          "0000-0003-3652-2540"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA.",
+          "Institute for Cell Engineering, Johns Hopkins University, Baltimore, Maryland, 21205, USA.",
+          "Department of Molecular Biology and Genetics, Johns Hopkins University, Baltimore, Maryland, 21205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 06:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41250104",
+      "37879938",
+      "37857632",
+      "37592036",
+      "37537351",
+      "37524735",
+      "37365273",
+      "36755098",
+      "36629274",
+      "36575445",
+      "36550119",
+      "36471236",
+      "35710639",
+      "35386194",
+      "35213533",
+      "35139376",
+      "35108499",
+      "35090587",
+      "35027767",
+      "34252959",
+      "34050150",
+      "34020546",
+      "33934382",
+      "33576787",
+      "33417869",
+      "33168813",
+      "33026066",
+      "32929225",
+      "32871105",
+      "32762710",
+      "32257043",
+      "32135093",
+      "32014034",
+      "31907445",
+      "31217225",
+      "31062306",
+      "31036827",
+      "30890159",
+      "30845219",
+      "30482756",
+      "30464173",
+      "30445495",
+      "30423074",
+      "30420244",
+      "30190516",
+      "30089861",
+      "30064353",
+      "29915428",
+      "29914482",
+      "29409532",
+      "29378814",
+      "29028984",
+      "28968704",
+      "28957658",
+      "28584094",
+      "28379368",
+      "28336526",
+      "27993778",
+      "27984732",
+      "27571553",
+      "26964749",
+      "26780608",
+      "26688802",
+      "26627738",
+      "26541609",
+      "25664528",
+      "25416748",
+      "25126793",
+      "24904165",
+      "24836921",
+      "24800817",
+      "24097267",
+      "23934107",
+      "23319570",
+      "23011283",
+      "22796662",
+      "22068055",
+      "22003407",
+      "21613252",
+      "20927193",
+      "20508144",
+      "20150147",
+      "19736561",
+      "19043543",
+      "18797474",
+      "18295580",
+      "12133947",
+      "11239167",
+      "10572090",
+      "9012825",
+      "8901585"
+    ],
+    "similar": [
+      "38895453",
+      "39570626",
+      "38976751",
+      "21853041",
+      "40422408",
+      "41498638",
+      "41415381",
+      "36514338",
+      "40662824",
+      "41288963",
+      "35213533",
+      "40654959",
+      "39644902",
+      "38653489",
+      "34050150",
+      "31062311",
+      "36147664",
+      "41183511",
+      "36626328",
+      "35715748",
+      "37085776",
+      "34011578",
+      "39896674",
+      "27716031",
+      "38986613",
+      "36629404",
+      "39171840",
+      "34897081",
+      "23912807",
+      "34535069",
+      "33103827",
+      "38181891",
+      "39257745",
+      "39585902",
+      "38744843",
+      "40032872",
+      "40210438",
+      "32871105",
+      "34622164",
+      "28296635",
+      "29415263",
+      "40062616",
+      "40247488",
+      "39172488",
+      "38495440",
+      "35108499",
+      "31062315",
+      "40631077",
+      "28646471",
+      "22929591",
+      "32450514",
+      "25887857",
+      "38980373",
+      "34556644",
+      "40038714",
+      "33026066",
+      "38014078",
+      "22260221",
+      "30441472",
+      "39177093",
+      "29630593",
+      "40804307",
+      "37602211",
+      "18426580",
+      "38274364",
+      "22889237",
+      "37292801",
+      "40061870",
+      "33619563",
+      "34858473",
+      "37079737",
+      "40409400",
+      "40701368",
+      "38500834",
+      "35030198",
+      "39907554",
+      "39062480",
+      "32101715",
+      "30967106",
+      "38690527",
+      "24669835",
+      "41427394",
+      "37864293",
+      "32051003",
+      "40661601",
+      "19615382",
+      "36093045",
+      "32221477",
+      "40501802",
+      "40069299",
+      "29187729",
+      "29378814",
+      "37577526",
+      "12376376",
+      "35195064",
+      "37428794",
+      "32705639",
+      "33531477",
+      "37260149",
+      "40158457"
+    ],
+    "review": [
+      "38895453",
+      "40422408",
+      "36147664",
+      "38495440",
+      "32221477"
+    ],
+    "pmc": [
+      "11185539"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38895453/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38895453",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.31.596831",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

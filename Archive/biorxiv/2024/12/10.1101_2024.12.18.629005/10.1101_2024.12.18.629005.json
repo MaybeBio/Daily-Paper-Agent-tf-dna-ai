@@ -1,0 +1,217 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.18.629005",
+  "title": "GRN_modeler: An Intuitive Tool for Constructing and Evaluating Gene Regulatory Networks and its Applications to Oscillators and a Light Biosensor",
+  "doi": "10.1101/2024.12.18.629005",
+  "abstract": "Modeling and simulating gene regulatory networks (GRNs) is crucial for understanding biological processes, predicting system behavior, guiding the design of synthetic biological systems, and interpreting experimental data. In synthetic biology, GRNs play a pivotal role in enabling the design and control of complex systems for a wide range of applications. However, GRN simulations can be time-consuming and often require specialized expertise. To make this process more accessible, we developed a user-friendly application with a graphical user interface (GUI), allowing users to create simple phenomenological models without requiring prior programming experience. We demonstrate the versatility of our tool through several examples, including the design of novel oscillator families capable of robust oscillation with an even number of nodes. These complement the well-known repressilator family, which only oscillates with odd-numbered nodes. Furthermore, we showcase how GRN modeler allowed us to develop a light-detecting biosensor in Escherichia coli that can track light intensity over several days, leaving a record in the form of ring patterns in bacterial colonies. In summary, our work empowers biologists to model their systems of interest even without programming expertise.",
+  "authors": [
+    "Holló G",
+    "Park JH",
+    "Boni E",
+    "Schaerli Y"
+  ],
+  "published_date": "2024-12-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629005",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629005.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR957441",
+    "raw_record": {
+      "id": "PPR957441",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR957441"
+        ]
+      },
+      "doi": "10.1101/2024.12.18.629005",
+      "title": "GRN_modeler: An Intuitive Tool for Constructing and Evaluating Gene Regulatory Networks and its Applications to Oscillators and a Light Biosensor",
+      "authorString": "Holló G, Park JH, Boni E, Schaerli Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Holló G",
+            "lastName": "Holló",
+            "firstName": "Gábor",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, , Biophore Building , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Park JH",
+            "lastName": "Park",
+            "firstName": "Jung Hun",
+            "initials": "JH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, , Biophore Building , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boni E",
+            "lastName": "Boni",
+            "firstName": "Emanuele",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-4459-051X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, , Biophore Building , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaerli Y",
+            "lastName": "Schaerli",
+            "firstName": "Yolanda",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9083-7343"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, , Biophore Building , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9920-4801"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9083-7343"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-4459-051X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Modeling and simulating gene regulatory networks (GRNs) is crucial for understanding biological processes, predicting system behavior, guiding the design of synthetic biological systems, and interpreting experimental data. In synthetic biology, GRNs play a pivotal role in enabling the design and control of complex systems for a wide range of applications. However, GRN simulations can be time-consuming and often require specialized expertise. To make this process more accessible, we developed a user-friendly application with a graphical user interface (GUI), allowing users to create simple phenomenological models without requiring prior programming experience. We demonstrate the versatility of our tool through several examples, including the design of novel oscillator families capable of robust oscillation with an even number of nodes. These complement the well-known repressilator family, which only oscillates with odd-numbered nodes. Furthermore, we showcase how GRN modeler allowed us to develop a light-detecting biosensor in  Escherichia coli that can track light intensity over several days, leaving a record in the form of ring patterns in bacterial colonies. In summary, our work empowers biologists to model their systems of interest even without programming expertise.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200532",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.18.629005"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.18.629005"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR957441"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR957441&type=FILE&fileName=EMS202288-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41023501",
+            "reference": "Molecular systems biology. 2025 Nov;21(11):1618-1637",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202288",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-22",
+      "firstPublicationDate": "2024-12-20",
+      "firstIndexDate": "2024-12-22",
+      "fullTextReceivedDate": "2025-02-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

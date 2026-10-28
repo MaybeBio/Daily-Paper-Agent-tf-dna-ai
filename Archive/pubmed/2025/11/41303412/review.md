@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, sections 2-5, tables referenced but not provided)
+- **Assessment boundary** Scientific content, technical accuracy, completeness of evidence, and alignment with stated aims as a review article
+- **Shared manuscript claim summary** The manuscript argues that AI models, particularly deep learning and generative algorithms, represent a new paradigm in genomics research, enabling prediction of regulatory elements, functional annotation, and generative design of genomic sequences.
+- **Visible evidence base** Narrative text with citations to external literature; tables (Table 1, 2, 3) and Figure 1 are referenced but not included in the supplied material.
+- **Missing materials affecting confidence** Tables 1-3, Figure 1, full reference list, and any supplementary data are not provided, limiting verification of specific claims and comparisons.
+
+## Reviewer
+- **Overall assessment** This is a broad narrative review covering the evolution of AI models in genomics, from classical machine learning to deep learning architectures and generative models. The topic is timely and of potential interest to a wide audience. However, the manuscript lacks critical depth, quantitative comparisons, and critical evaluation of limitations. Several claims are overstated or lack supporting evidence within the text. The absence of tables and figures in the supplied material further weakens the ability to assess the manuscript's completeness. The review reads more as a descriptive catalog than a critical synthesis, and it does not adequately address challenges such as model interpretability, data bias, or reproducibility. Major revisions are needed to establish a robust case for the stated paradigm shift.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and genomics researchers interested in applying AI to sequence analysis and functional annotation. Also, AI researchers seeking application domains in biology. The review could serve as an entry point for newcomers, but its lack of critical depth limits its value for experts.
+- **Major strengths** 1. Timely and relevant topic with broad coverage of AI architectures (CNN, RNN, transformer, Hyena) and their applications in genomics. 2. Clear structure that traces the historical progression from classical ML to generative models. 3. Inclusion of specific model examples (e.g., DeepBind, Enformer, DNABERT, EVO) provides concrete anchors for discussion. 4. The concluding vision of genome design is forward-looking and potentially inspiring.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that "AI models are now developed and applied across many functional domains, including the prediction of transcription factor binding sites, epigenetic elements, DNA methylation, and noncoding sequence functional annotation" and that these models "steadily improve predictive accuracy."
+  - **Evidence pointer** Section 3, Tables 1-3 (not provided)
+  - **Concern** The manuscript makes broad claims about the performance and utility of AI models in genomics but provides no quantitative comparisons, benchmark results, or critical evaluation of the cited models. For example, the claim that "TransBind achieved 97.68% accuracy and surpassed previous CNN and CNN-RNN models" is presented without context on dataset, evaluation metrics, or comparison baselines. Similarly, the statement that "DeepChrome achieves a higher AUC of 0.80, versus 0.66 for SVM and 0.59 for RF" lacks details on the experimental setup, reproducibility, or statistical significance.
+  - **Why it matters** A review article should critically assess the evidence base, not merely report numbers. Without rigorous comparison and context, readers cannot judge the validity or generalizability of these claims. This undermines the manuscript's authority and its central thesis that AI represents a paradigm shift.
+  - **Resolution test** Provide a systematic comparison table with model performance metrics, datasets used, and evaluation protocols. Include discussion of limitations, such as overfitting, data leakage, or lack of external validation. For each major claim, cite specific studies with sufficient detail to allow verification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific rigour
+  - **Claim pointer** The manuscript states that "the emergence of generative AI has enabled models that can simulate and design genomic sequences" and that "EVO is designed to conduct large-scale token unit learning of 2K size, using a multimodal algorithm that predicts multiple factors rather than a single model, such as proteins, regulatory regions, DNA, and RNA, to reconstruct the features of the human genome."
+  - **Evidence pointer** Section 4, location not provided
+  - **Concern** The discussion of generative models, particularly EVO, is superficial and lacks critical evaluation. The manuscript does not address key questions: How does EVO compare to other generative models (e.g., DNA-GPT, GenSLM)? What are the limitations of current generative approaches in terms of sequence fidelity, functional validation, or ethical considerations? The claim that "these technological advancements mark the beginning of a path toward biological design" is speculative and not supported by concrete examples or validation studies.
+  - **Why it matters** Generative AI in genomics is a rapidly evolving and highly contested field. A review must critically assess what has been achieved, what remains speculative, and what the risks are. Overstating capabilities without evidence could mislead readers and undermine the credibility of the review.
+  - **Resolution test** Provide a balanced discussion of generative models, including their successes, failures, and open challenges. Include specific examples of validated generative outputs (e.g., functional guide RNAs) and discuss limitations such as sequence length constraints, computational cost, and the need for experimental validation. Address ethical and safety considerations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Completeness
+  - **Claim pointer** The manuscript claims to provide a comprehensive review of AI in genomics, covering "machine learning and deep learning algorithms used in genomics research" and "generative algorithms."
+  - **Evidence pointer** Sections 2-4, Tables 1-3 (not provided)
+  - **Concern** The review omits several important areas, including: (1) interpretability and explainability of AI models in genomics, (2) data privacy and ethical issues related to genomic data, (3) integration of AI with emerging technologies like CRISPR screens or single-cell genomics, and (4) challenges in clinical translation. The focus is heavily on model architectures, with little attention to practical implementation, reproducibility, or community standards.
+  - **Why it matters** A paradigm shift claim requires a holistic view. Omitting these critical aspects makes the review incomplete and potentially misleading for readers seeking a balanced understanding of the field.
+  - **Resolution test** Add sections or subsections addressing interpretability, ethics, and clinical translation. Discuss challenges and future directions in these areas. Ensure the review covers both technical and societal dimensions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability
+  - **Claim pointer** The manuscript aims to be accessible to a broad audience, including nonspecialists.
+  - **Evidence pointer** Sections 1-5, location not provided
+  - **Concern** The text is dense and assumes significant prior knowledge of both AI and genomics. Terms like "self-attention," "k-mer tokenization," and "multi-omics" are used without adequate explanation. The flow is sometimes disjointed, with abrupt transitions between topics. For example, the jump from "Learning Paradigms" to "Characteristics of Major Deep Learning Architectures" lacks a clear connective narrative.
+  - **Why it matters** Nature-style reviews should be accessible to a broad scientific audience. If nonspecialists cannot follow the argument, the review's impact is diminished.
+  - **Resolution test** Revise for clarity, define technical terms on first use, and add a glossary if needed. Improve transitions between sections and ensure each section has a clear take-home message.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is vague and does not clearly state the scope, methods, or key conclusions of the review. Phrases like "advances in AI models and generative algorithms represent a new paradigm" are asserted without supporting detail.
+  - **Required correction** Rewrite the abstract to include a clear statement of the review's scope, the main AI approaches discussed, and the key takeaway messages.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The statement "employing more than 100 hidden layers can be effective" is overly general and not supported by specific references or context. It may mislead readers about typical practice.
+  - **Required correction** Provide specific examples or references for deep networks with >100 layers in genomics, or qualify the statement with context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The description of Basset is inconsistent: it is described as using "RNA-seq data to learn accessibility-based features," but Basset is typically trained on DNase-seq data. This may be a typographical error.
+  - **Required correction** Verify the data type used for Basset and correct the description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, location not provided
+  - **Issue** The discussion of GANs for genomic data generation is brief and lacks specific examples of applications or limitations.
+  - **Required correction** Expand this section with concrete examples of GAN applications in genomics and discuss their limitations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5, location not provided
+  - **Issue** The conclusion is repetitive and does not synthesize the main points effectively. It reads more like a summary than a forward-looking conclusion.
+  - **Required correction** Rewrite the conclusion to highlight key insights, unresolved challenges, and future directions.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative comparisons and benchmark data for cited models (R1-M1). 2. Superficial treatment of generative models with overclaimed capabilities (R1-M2). 3. Incomplete coverage of critical topics such as interpretability, ethics, and clinical translation (R1-M3). 4. Potential factual error regarding Basset's training data (R1-m3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript does not present novel findings or a novel framework. It is a descriptive review of existing literature. While the topic is timely, the lack of critical synthesis limits its originality.
+  - **Scientific importance** The topic is important, but the manuscript does not adequately convey why AI represents a paradigm shift beyond incremental improvements. The importance is asserted rather than demonstrated.
+  - **Interdisciplinary readership** The review could appeal to both AI and genomics researchers, but the dense technical language and lack of context may alienate nonspecialists.
+  - **Technical soundness** The technical descriptions are generally accurate but lack depth and critical evaluation. The absence of tables and figures in the supplied material prevents full assessment.
+  - **Readability for nonspecialists** The manuscript is not accessible to nonspecialists due to undefined jargon and abrupt transitions. Significant revision is needed.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to address the concerns above, particularly the lack of critical evaluation and quantitative evidence. If the authors can provide a more rigorous, balanced, and accessible review, it could become a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that "AI models now classify genomic data to infer disease risk and predict structure; they also synthesize novel gene or genome sequences conditioned on user prompts" is not supported by specific examples or validation in the text.
+- The statement that "EVO is designed to conduct large-scale token unit learning of 2K size, using a multimodal algorithm that predicts multiple factors rather than a single model, such as proteins, regulatory regions, DNA, and RNA, to reconstruct the features of the human genome" is presented without critical evaluation or comparison to other models.
+- The assertion that "these technological advancements mark the beginning of a path toward biological design" is speculative and not backed by evidence of successful genome design.
+- The claim that "DeepChrome achieves a higher AUC of 0.80, versus 0.66 for SVM and 0.59 for RF" lacks context on dataset, evaluation protocol, and statistical significance.
+- The description of Basset as using "RNA-seq data" is likely inaccurate and requires verification.

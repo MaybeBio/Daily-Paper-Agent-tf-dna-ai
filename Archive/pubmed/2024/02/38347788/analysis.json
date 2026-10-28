@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38347788",
+  "title": "WSHNN: A Weakly Supervised Hybrid Neural Network for the Identification of DNA-protein Binding Sites.",
+  "authors": "Bao, Wenzheng; Chen, Baitong; Zhang, Yue",
+  "journal": "Current computer-aided drug design",
+  "published_date": "2024-02-13",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出一种弱监督混合神经网络WSHNN，结合多实例学习与CNN/Bi-LSTM预测DNA-蛋白结合位点，属于TF-DNA结合位点预测的AI方法，但未涉及三维结构或动态互作机制，深度有限。",
+  "abstract": "INTRODUCTION: Transcription factors are vital biological components that control gene expression, and their primary biological function is to recognize DNA sequences. As related research continues, it was found that the specificity of DNA-protein binding has a significant role in gene expression, regulation, and especially gene therapy. Convolutional Neural Networks (CNNs) have become increasingly popular for predicting DNa-protein-specific binding sites, but their accuracy in prediction needs to be improved. METHODS: We proposed a framework for combining Multi-Instance Learning (MIL) and a hybrid neural network named WSHNN. First, we utilized sliding windows to split the DNA sequences into multiple overlapping instances, each instance containing multiple bags. Then, the instances were encoded using a K-mer encoding. Afterward, the scores of all instances in the same bag were calculated separately by a hybrid neural network. RESULTS: Finally, a fully connected network was utilized as the final prediction for that bag. The framework could achieve the performances of 90.73% in Pre, 82.77% in Recall, 87.17% in Acc, 0.8657 in F1-score, and 0.7462 in MCC, respectively. In addition, we discussed the performance of K-mer encoding. Compared with other art-of-the-state efforts, the model has better performance with sequence information. CONCLUSION: From the experimental results, it can be concluded that Bi-directional Long-Short- Term Memory (Bi-LSTM) can better capture the long-sequence relationships between DNA sequences (the code and data can be visited at https://github.com/baowz12345/Weak_ Super_Network).",
+  "abstract_zh": "引言：转录因子是控制基因表达的重要生物组成部分，其主要生物学功能是识别DNA序列。随着相关研究的深入，发现DNA-蛋白质结合的特异性在基因表达、调控，尤其是基因治疗中具有重要作用。卷积神经网络（CNNs）在预测DNA-蛋白质特异性结合位点方面日益流行，但其预测准确性有待提高。方法：我们提出了一种结合多实例学习（MIL）和混合神经网络（名为WSHNN）的框架。首先，利用滑动窗口将DNA序列分割成多个重叠的实例，每个实例包含多个包。然后，使用K-mer编码对实例进行编码。随后，通过混合神经网络分别计算同一包中所有实例的得分。结果：最后，利用全连接网络作为该包的最终预测。该框架在Pre、Recall、Acc、F1-score和MCC方面分别达到了90.73%、82.77%、87.17%、0.8657和0.7462的性能。此外，我们讨论了K-mer编码的性能。与其他最先进的工作相比，该模型在序列信息方面具有更好的性能。结论：从实验结果可以得出结论，双向长短期记忆网络（Bi-LSTM）能更好地捕捉DNA序列之间的长序列关系（代码和数据可在https://github.com/baowz12345/Weak_ Super_Network访问）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38347788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38347788/",
+  "paper_page_path": "papers/pubmed/38347788/index.html"
+}

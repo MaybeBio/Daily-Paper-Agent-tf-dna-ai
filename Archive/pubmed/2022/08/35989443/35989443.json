@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "35989443",
+    "doi": "10.1111/his.14779",
+    "title": "A collaborative workflow between pathologists and deep learning for the evaluation of tumour cellularity in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "AIMS: The reporting of tumour cellularity in cancer samples has become a mandatory task for pathologists. However, the estimation of tumour cellularity is often inaccurate. Therefore, we propose a collaborative workflow between pathologists and artificial intelligence (AI) models to evaluate tumour cellularity in lung cancer samples and propose a protocol to apply it to routine practice. METHODS AND RESULTS: We developed a quantitative model of lung adenocarcinoma that was validated and tested on 50 cases, and a collaborative workflow where pathologists could access the AI results and adjust their original tumour cellularity scores (adjusted-score) that we tested on 151 cases. The adjusted-score was validated by comparing them with a ground truth established by manual annotation of haematoxylin and eosin slides with reference to immunostains with thyroid transcription factor-1 and napsin A. For training, validation, testing the AI and testing the collaborative workflow, we used 40, 10, 50 and 151 whole slide images of lung adenocarcinoma, respectively. The sensitivity and specificity of tumour segmentation were 97 and 87%, respectively, and the accuracy of nuclei recognition was 99%. One pathologist's visually estimated scores were compared to the adjusted-score, and the pathologist's scores were altered in 87% of cases. Comparison with the ground truth revealed that the adjusted-score was more precise than the pathologists' scores (P < 0.05). CONCLUSION: We proposed a collaborative workflow between AI and pathologists as a model to improve daily practice and enhance the prediction of tumour cellularity for genetic tests.",
+    "keywords": [
+      "artificial intelligence",
+      "deep learning",
+      "digital pathology",
+      "lung adenocarcinoma",
+      "tumour cellularity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Pathologists",
+      "Artificial Intelligence",
+      "Workflow",
+      "*Deep Learning",
+      "*Adenocarcinoma of Lung/diagnosis",
+      "*Lung Neoplasms/diagnosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sakamoto, Taro",
+        "Furukawa, Tomoi",
+        "Pham, Hoa H N",
+        "Kuroda, Kishio",
+        "Tabata, Kazuhiro",
+        "Kashima, Yukio",
+        "Okoshi, Ethan N",
+        "Morimoto, Shimpei",
+        "Bychkov, Andrey",
+        "Fukuoka, Junya"
+      ],
+      "short_names": [
+        "Sakamoto T",
+        "Furukawa T",
+        "Pham HHN",
+        "Kuroda K",
+        "Tabata K",
+        "Kashima Y",
+        "Okoshi EN",
+        "Morimoto S",
+        "Bychkov A",
+        "Fukuoka J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4203-5696",
+        "ORCID: 0000-0002-2496-3050"
+      ],
+      "affiliations": [
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Kameda Medical Center, Kamogawa, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Awaji Medical Center, Sumoto, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Innovation Platform and Office for Precision Medicine (iPOP), Graduate School of Biomedical Sciences, Nagasaki University, Nagasaki, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Kameda Medical Center, Kamogawa, Japan.",
+        "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Pathology, Kameda Medical Center, Kamogawa, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sakamoto, Taro",
+        "short_name": "Sakamoto T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Furukawa, Tomoi",
+        "short_name": "Furukawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Pham, Hoa H N",
+        "short_name": "Pham HHN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Kuroda, Kishio",
+        "short_name": "Kuroda K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+          "Department of Pathology, Kameda Medical Center, Kamogawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Tabata, Kazuhiro",
+        "short_name": "Tabata K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Kashima, Yukio",
+        "short_name": "Kashima Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Awaji Medical Center, Sumoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Okoshi, Ethan N",
+        "short_name": "Okoshi EN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Morimoto, Shimpei",
+        "short_name": "Morimoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform and Office for Precision Medicine (iPOP), Graduate School of Biomedical Sciences, Nagasaki University, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Bychkov, Andrey",
+        "short_name": "Bychkov A",
+        "identifiers": [
+          "0000-0002-4203-5696"
+        ],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+          "Department of Pathology, Kameda Medical Center, Kamogawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Fukuoka, Junya",
+        "short_name": "Fukuoka J",
+        "identifiers": [
+          "0000-0002-2496-3050"
+        ],
+        "affiliations": [
+          "Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+          "Department of Pathology, Kameda Medical Center, Kamogawa, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Histopathology"
+    ],
+    "journal_abbrev": [
+      "Histopathology"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/23 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "42135447",
+      "41150029",
+      "40626670",
+      "40483288",
+      "40320652",
+      "40204094",
+      "40075729",
+      "39710952",
+      "39112099",
+      "38893641",
+      "38730622",
+      "38532196",
+      "37568797",
+      "37190124",
+      "35326521"
+    ],
+    "refs": [
+      "35197560",
+      "34171622",
+      "34168282",
+      "33990804",
+      "33901992",
+      "33828217",
+      "33775248",
+      "33590577",
+      "33433946",
+      "33209648",
+      "31871778",
+      "31605798",
+      "31541645",
+      "31053738",
+      "30990737",
+      "30716025",
+      "30553609",
+      "30383300",
+      "30224757",
+      "30178065",
+      "29788035",
+      "29720437",
+      "29467373",
+      "29396253",
+      "29292031",
+      "29234806",
+      "28778026",
+      "27853865",
+      "27826035",
+      "27534574",
+      "27527408",
+      "27212078",
+      "26958289",
+      "26343728",
+      "24579167",
+      "24168492",
+      "23887293",
+      "22288962",
+      "22138001",
+      "11295051"
+    ],
+    "similar": [
+      "35989443",
+      "38065702",
+      "35576849",
+      "37491086",
+      "37100542",
+      "35667953",
+      "38588884",
+      "38519745",
+      "33775248",
+      "33397208",
+      "37071058",
+      "33328045",
+      "31576001",
+      "38893641",
+      "35660765",
+      "36068652",
+      "39360579",
+      "34786761",
+      "30295070",
+      "36611460",
+      "33209648",
+      "32277744",
+      "34698394",
+      "31044723",
+      "39328468",
+      "38780094",
+      "30833650",
+      "34730818",
+      "33152815",
+      "34670459",
+      "37863559",
+      "32803890",
+      "33471115",
+      "36801182",
+      "36367625",
+      "35197560",
+      "38056135",
+      "38462794",
+      "37568797",
+      "33527136",
+      "33245914",
+      "37106583",
+      "34521285",
+      "35626427",
+      "31797614",
+      "34017063",
+      "37945699",
+      "38200244",
+      "36788085",
+      "36788087",
+      "21965283",
+      "36675952",
+      "35140318",
+      "36343368",
+      "37544362",
+      "36551667",
+      "37510069",
+      "36268110",
+      "35271701",
+      "36162012",
+      "32912980",
+      "32518413",
+      "37742926",
+      "20164018",
+      "37544502",
+      "37926422",
+      "35792413",
+      "22820657",
+      "28686499",
+      "33812383",
+      "34716754",
+      "33039706",
+      "33840132",
+      "27349303",
+      "32324237",
+      "31325876",
+      "35919066",
+      "36687528",
+      "30312179",
+      "35727052",
+      "35279453",
+      "35988110",
+      "35802259",
+      "38730640",
+      "32387813",
+      "36563748",
+      "32970157",
+      "34143569",
+      "34866512",
+      "29707349",
+      "35741294",
+      "34772487",
+      "29512490",
+      "34710545",
+      "34447608",
+      "32541594",
+      "31492410",
+      "32303234",
+      "27566658",
+      "34737066",
+      "35147216",
+      "32001752",
+      "31196366",
+      "37254901",
+      "38556922",
+      "31926806",
+      "33179610",
+      "28087402",
+      "35406511",
+      "35177797",
+      "37173511",
+      "36777158",
+      "33987451",
+      "37627073",
+      "36683726",
+      "29601065",
+      "38692814",
+      "37873287",
+      "34359723",
+      "37562657",
+      "36577348",
+      "38148967",
+      "37587332",
+      "39112099",
+      "37743975",
+      "37760550",
+      "37221254",
+      "37314870",
+      "38339394",
+      "38532196",
+      "37732298",
+      "30270453",
+      "38555134",
+      "38411513",
+      "30364881",
+      "38392082"
+    ],
+    "review": [
+      "35989443",
+      "33209648",
+      "32277744",
+      "31044723",
+      "38780094",
+      "37863559",
+      "36801182",
+      "38056135",
+      "37568797",
+      "33245914",
+      "34521285",
+      "20164018",
+      "32541594",
+      "31492410"
+    ],
+    "pmc": [
+      "9826135"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35989443.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35989443/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35989443",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/his.14779",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

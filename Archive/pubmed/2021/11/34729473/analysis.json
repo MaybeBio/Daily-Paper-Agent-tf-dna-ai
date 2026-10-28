@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34729473",
+  "title": "Comprehensive understanding of Tn5 insertion preference improves transcription regulatory element identification.",
+  "authors": "Zhang, Houyu; Lu, Ting; Liu, Shan; Yang, Jianyu; Sun, Guohuan; Cheng, Tao; Xu, Jin; Chen, Fangyao; Yen, Kuangyu",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2021-11-04",
+  "window": {
+    "start": "2021-11-01",
+    "end": "2021-11-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习建模Tn5转座酶在DNA上的插入偏好，虽非TF-DNA直接互作，但涉及蛋白-DNA互作与DNA形状特征，且方法可迁移至TF结合位点预测，对课题有借鉴价值。",
+  "abstract": "Tn5 transposase, which can efficiently tagment the genome, has been widely adopted as a molecular tool in next-generation sequencing, from short-read sequencing to more complex methods such as assay for transposase-accessible chromatin using sequencing (ATAC-seq). Here, we systematically map Tn5 insertion characteristics across several model organisms, finding critical parameters that affect its insertion. On naked genomic DNA, we found that Tn5 insertion is not uniformly distributed or random. To uncover drivers of these biases, we used a machine learning framework, which revealed that DNA shape cooperatively works with DNA motif to affect Tn5 insertion preference. These intrinsic insertion preferences can be modeled using nucleotide dependence information from DNA sequences, and we developed a computational pipeline to correct for these biases in ATAC-seq data. Using our pipeline, we show that bias correction improves the overall performance of ATAC-seq peak detection, recovering many potential false-negative peaks. Furthermore, we found that these peaks are bound by transcription factors, underscoring the biological relevance of capturing this additional information. These findings highlight the benefits of an improved understanding and precise correction of Tn5 insertion preference.",
+  "abstract_zh": "Tn5转座酶能够高效地对基因组进行标记，已被广泛用作下一代测序中的分子工具，从短读长测序到更复杂的方法，如利用测序检测转座酶可及染色质（ATAC-seq）。在此，我们系统地绘制了Tn5在多个模式生物中的插入特征，发现了影响其插入的关键参数。在裸露的基因组DNA上，我们发现Tn5的插入并非均匀分布或随机。为了揭示这些偏倚的驱动因素，我们采用了机器学习框架，结果表明DNA形状与DNA基序协同作用，影响Tn5的插入偏好。这些内在的插入偏好可以利用DNA序列中的核苷酸依赖性信息进行建模，我们开发了一个计算流程来校正ATAC-seq数据中的这些偏倚。利用我们的流程，我们展示了偏倚校正能提升ATAC-seq峰值检测的整体性能，恢复许多潜在的假阴性峰值。此外，我们发现这些峰值被转录因子结合，强调了捕获这些额外信息的生物学意义。这些发现凸显了对Tn5插入偏好更深入理解和精确校正的益处。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34729473/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34729473/",
+  "paper_page_path": "papers/pubmed/34729473/index.html"
+}

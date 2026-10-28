@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "41162960",
+    "doi": "10.1186/s12885-025-15194-6",
+    "title": "Comprehensive computational analysis of PKCdelta non-synonymous variants identifies rs1703863535 as a potential breast cancer biomarker."
+  },
+  "content": {
+    "abstract": "PKCdelta is a key isoform in the PKC subgroup of AGC-kinase proteins, known to be involved in various cellular processes. Dysregulation of its expression has been linked to multiple malignancies. Notably, PKCdelta overexpression has been associated with breast cancer progression and poor prognosis. Previous research has shown that PKCdelta phosphorylates specific serine residues on target proteins, leading to tumorigenesis and metastasis. However, the molecular mechanisms of PKCdelta-driven breast cancer pathogenesis remain incompletely understood. Single-nucleotide polymorphisms (SNPs), the most common genetic variants, can contribute to cancer susceptibility by causing structural and functional changes in proteins. This study aimed to identify oncogenic non-synonymous variants in PKCdelta and assess their impact on protein structure, stability, conservation, dynamics, and interactions. Analyzing a dataset of 613 non-synonymous variants with various computational and in silico tools based on sequence and structure approaches, four variants, including V114G, C189R, C189Y, W608R, were identified as highly oncogenic. Molecular dynamics simulations showed increased structural deviations and flexibility in these variants compared to the native protein, potentially leading to changes in structure, stability, and biophysical properties. These variants disrupted normal PKCdelta function by causing surface distortion, changing net charge, and perturbing intramolecular interactions with STAT3, which may activate PKCdelta in a non-canonical manner. The study also found an association between the oncogenic non-synonymous SNP W608R, located within the highly conserved AGC kinase domain, and breast cancer, with the TT genotype significantly linked to increased risk (OR = 2.7; RR = 1.6, p < 0.0001). Although further functional validation in cellular models is necessary, this research provides a foundation for future studies on the impact of oncogenic PKCdelta variants in breast cancer.",
+    "keywords": [
+      "Cancer",
+      "PKC",
+      "Single Nucleotide Polymorphisms",
+      "oncogene"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology",
+      "*Protein Kinase C-delta/genetics/chemistry/metabolism",
+      "Female",
+      "*Polymorphism, Single Nucleotide",
+      "*Biomarkers, Tumor/genetics",
+      "Molecular Dynamics Simulation",
+      "Computational Biology/methods",
+      "STAT3 Transcription Factor/metabolism",
+      "Genetic Predisposition to Disease"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zafar, Sameen",
+        "Badshah, Yasmin",
+        "Shabbir, Maria",
+        "Khan, Somia",
+        "Hafeez, Amna",
+        "Ashraf, Naeem Mahmood",
+        "Trembley, Janeen H",
+        "Afsar, Tayyaba",
+        "Almajwal, Ali",
+        "Razak, Suhail"
+      ],
+      "short_names": [
+        "Zafar S",
+        "Badshah Y",
+        "Shabbir M",
+        "Khan S",
+        "Hafeez A",
+        "Ashraf NM",
+        "Trembley JH",
+        "Afsar T",
+        "Almajwal A",
+        "Razak S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan.",
+        "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan. yasmeenb@asab.nust.edu.pk.",
+        "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan.",
+        "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan.",
+        "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan.",
+        "School of Biochemistry and Biotechnology, University of the Punjab, Lahore, Pakistan.",
+        "Department of Laboratory Medicine and Pathology, University of Minnesota, Minneapolis, MN, USA.",
+        "Masonic Cancer Center, University of Minnesota, Minneapolis, MN, USA.",
+        "Minneapolis VA Health Care System Research Service, Minneapolis, MN, USA.",
+        "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia. smarazi@ksu.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zafar, Sameen",
+        "short_name": "Zafar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Badshah, Yasmin",
+        "short_name": "Badshah Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan. yasmeenb@asab.nust.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Shabbir, Maria",
+        "short_name": "Shabbir M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Somia",
+        "short_name": "Khan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Hafeez, Amna",
+        "short_name": "Hafeez A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences (ASAB), National University of Sciences and Technology (NUST), Islamabad, 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ashraf, Naeem Mahmood",
+        "short_name": "Ashraf NM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Biotechnology, University of the Punjab, Lahore, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Trembley, Janeen H",
+        "short_name": "Trembley JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Minnesota, Minneapolis, MN, USA.",
+          "Masonic Cancer Center, University of Minnesota, Minneapolis, MN, USA.",
+          "Minneapolis VA Health Care System Research Service, Minneapolis, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Afsar, Tayyaba",
+        "short_name": "Afsar T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Almajwal, Ali",
+        "short_name": "Almajwal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Razak, Suhail",
+        "short_name": "Razak S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Community Health Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, Saudi Arabia. smarazi@ksu.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Oct 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 06:29",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39130149",
+      "38200472",
+      "38191899",
+      "38183204",
+      "38057664",
+      "37953337",
+      "37760106",
+      "37667176",
+      "37628578",
+      "37583871",
+      "37457482",
+      "37344815",
+      "36782184",
+      "36672978",
+      "36568559",
+      "36451234",
+      "36230763",
+      "35776277",
+      "35664302",
+      "35490382",
+      "35415459",
+      "35260606",
+      "35242825",
+      "35163692",
+      "34265844",
+      "33972018",
+      "33290554",
+      "33219223",
+      "33066695",
+      "32881105",
+      "32867672",
+      "32341648",
+      "31448259",
+      "30904392",
+      "30834416",
+      "30640946",
+      "30371827",
+      "29513138",
+      "29319301",
+      "28968714",
+      "28912487",
+      "28875543",
+      "28571764",
+      "28559539",
+      "28482034",
+      "28112438",
+      "27666373",
+      "27541826",
+      "27309309",
+      "27166375",
+      "26617301",
+      "26279568",
+      "25851949",
+      "25689729",
+      "24829462",
+      "24810707",
+      "24453961",
+      "24281696",
+      "24141714",
+      "23886119",
+      "23871686",
+      "23819846",
+      "23007433",
+      "22776234",
+      "22689647",
+      "22098752",
+      "21895402",
+      "21727090",
+      "21335545",
+      "21059217",
+      "20431534",
+      "20354512",
+      "19833733",
+      "18974171",
+      "18351591",
+      "16418226",
+      "16372356",
+      "16014699",
+      "15980478",
+      "15980438",
+      "15162527",
+      "11455610",
+      "11295823",
+      "9606978"
+    ],
+    "similar": [
+      "41162960",
+      "39762471",
+      "40722182",
+      "39673052",
+      "40847819",
+      "31398194",
+      "41756011",
+      "37753777",
+      "40149458",
+      "25105660",
+      "39940038",
+      "41401744",
+      "40892789",
+      "41671225",
+      "38489015",
+      "39979869",
+      "41318116",
+      "24378235",
+      "34889888",
+      "24316488",
+      "41277739",
+      "40375073",
+      "41028104",
+      "27459855",
+      "24943594",
+      "27863482",
+      "41628231",
+      "41084424",
+      "39251229",
+      "40721470",
+      "17028982",
+      "39873995",
+      "24817641",
+      "41404416",
+      "28775167",
+      "19765277",
+      "31983176",
+      "41402853",
+      "30884445",
+      "27792995",
+      "40493574",
+      "40855915",
+      "31117243",
+      "40478193",
+      "29766637",
+      "42309611",
+      "36056132",
+      "40489436",
+      "33058752",
+      "30256064",
+      "29544444",
+      "39414907",
+      "40571049",
+      "37278385",
+      "41777455",
+      "40597019",
+      "34827731",
+      "40370698",
+      "29316957",
+      "41898807",
+      "39589570",
+      "29678143",
+      "26920143",
+      "24840642",
+      "32819225",
+      "15113441",
+      "24528676",
+      "21599519",
+      "38802807",
+      "16029503",
+      "41259967",
+      "30929162",
+      "19002183",
+      "41572512",
+      "28691018",
+      "23912807",
+      "17010193",
+      "30181081",
+      "28359301",
+      "27144429",
+      "29351903",
+      "40914318",
+      "22684231",
+      "26546672",
+      "40469839",
+      "41153361",
+      "39715225",
+      "39468330",
+      "38656135",
+      "36995110",
+      "36544314",
+      "26112140",
+      "38858637",
+      "39838281",
+      "15688402",
+      "25586992",
+      "23940692",
+      "34331480",
+      "27005890",
+      "28830573"
+    ],
+    "review": [
+      "41162960"
+    ],
+    "pmc": [
+      "12570629"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-15194-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41162960/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1743",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

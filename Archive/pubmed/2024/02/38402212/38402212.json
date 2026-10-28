@@ -1,0 +1,726 @@
+{
+  "identity": {
+    "pmid": "38402212",
+    "doi": "10.1038/s41467-024-45902-y",
+    "title": "KDM3B inhibitors disrupt the oncogenic activity of PAX3-FOXO1 in fusion-positive rhabdomyosarcoma."
+  },
+  "content": {
+    "abstract": "Fusion-positive rhabdomyosarcoma (FP-RMS) is an aggressive pediatric sarcoma driven primarily by the PAX3-FOXO1 fusion oncogene, for which therapies targeting PAX3-FOXO1 are lacking. Here, we screen 62,643 compounds using an engineered cell line that monitors PAX3-FOXO1 transcriptional activity identifying a hitherto uncharacterized compound, P3FI-63. RNA-seq, ATAC-seq, and docking analyses implicate histone lysine demethylases (KDMs) as its targets. Enzymatic assays confirm the inhibition of multiple KDMs with the highest selectivity for KDM3B. Structural similarity search of P3FI-63 identifies P3FI-90 with improved solubility and potency. Biophysical binding of P3FI-90 to KDM3B is demonstrated using NMR and SPR. P3FI-90 suppresses the growth of FP-RMS in vitro and in vivo through downregulating PAX3-FOXO1 activity, and combined knockdown of KDM3B and KDM1A phenocopies P3FI-90 effects. Thus, we report KDM inhibitors P3FI-63 and P3FI-90 with the highest specificity for KDM3B. Their potent suppression of PAX3-FOXO1 activity indicates a possible therapeutic approach for FP-RMS and other transcriptionally addicted cancers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "Paired Box Transcription Factors/genetics/metabolism",
+      "*Rhabdomyosarcoma, Alveolar/genetics",
+      "Cell Line, Tumor",
+      "*Rhabdomyosarcoma/drug therapy/genetics",
+      "Forkhead Box Protein O1/genetics/metabolism",
+      "Oncogene Proteins, Fusion/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "PAX3 Transcription Factor/genetics/metabolism",
+      "Jumonji Domain-Containing Histone Demethylases/genetics/metabolism",
+      "Histone Demethylases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Yong Yean",
+        "Gryder, Berkley E",
+        "Sinniah, Ranuka",
+        "Peach, Megan L",
+        "Shern, Jack F",
+        "Abdelmaksoud, Abdalla",
+        "Pomella, Silvia",
+        "Woldemichael, Girma M",
+        "Stanton, Benjamin Z",
+        "Milewski, David",
+        "Barchi, Joseph J Jr",
+        "Schneekloth, John S Jr",
+        "Chari, Raj",
+        "Kowalczyk, Joshua T",
+        "Shenoy, Shilpa R",
+        "Evans, Jason R",
+        "Song, Young K",
+        "Wang, Chaoyu",
+        "Wen, Xinyu",
+        "Chou, Hsien-Chao",
+        "Gangalapudi, Vineela",
+        "Esposito, Dominic",
+        "Jones, Jane",
+        "Procter, Lauren",
+        "O'Neill, Maura",
+        "Jenkins, Lisa M",
+        "Tarasova, Nadya I",
+        "Wei, Jun S",
+        "McMahon, James B",
+        "O'Keefe, Barry R",
+        "Hawley, Robert G",
+        "Khan, Javed"
+      ],
+      "short_names": [
+        "Kim YY",
+        "Gryder BE",
+        "Sinniah R",
+        "Peach ML",
+        "Shern JF",
+        "Abdelmaksoud A",
+        "Pomella S",
+        "Woldemichael GM",
+        "Stanton BZ",
+        "Milewski D",
+        "Barchi JJ Jr",
+        "Schneekloth JS Jr",
+        "Chari R",
+        "Kowalczyk JT",
+        "Shenoy SR",
+        "Evans JR",
+        "Song YK",
+        "Wang C",
+        "Wen X",
+        "Chou HC",
+        "Gangalapudi V",
+        "Esposito D",
+        "Jones J",
+        "Procter L",
+        "O'Neill M",
+        "Jenkins LM",
+        "Tarasova NI",
+        "Wei JS",
+        "McMahon JB",
+        "O'Keefe BR",
+        "Hawley RG",
+        "Khan J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5417-9232",
+        "ORCID: 0000-0003-0130-2302",
+        "ORCID: 0000-0002-4290-5268",
+        "ORCID: 0000-0001-5579-7625",
+        "ORCID: 0000-0002-7007-4238",
+        "ORCID: 0000-0002-2613-2955",
+        "ORCID: 0000-0002-9778-8548",
+        "ORCID: 0000-0002-2216-313X",
+        "ORCID: 0000-0002-2212-7809",
+        "ORCID: 0000-0002-4870-9663",
+        "ORCID: 0000-0002-9987-1687",
+        "ORCID: 0000-0003-1245-1338",
+        "ORCID: 0000-0002-4812-0250",
+        "ORCID: 0000-0003-0772-4856",
+        "ORCID: 0000-0003-3512-5818",
+        "ORCID: 0000-0002-5858-0488"
+      ],
+      "affiliations": [
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA. yong.kim@nih.gov.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Department of Genetics and Genome Sciences, Case Western Reserve University, Cleveland, OH, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Basic Science Program, Frederick National Laboratory for Cancer Research (FNLCR), Frederick, MD, USA.",
+        "Pediatric Oncology Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Collaborative Bioinformatics Resource, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Department of Hematology and Oncology, Cell and Gene Therapy, Bambino Gesu Children's Hospital, IRCCS, Rome, Italy.",
+        "Leidos Biomed Res Inc, FNLCR, Basic Sci Program, Frederick, MD, USA.",
+        "Molecular Targets Program, NCI, NIH, Frederick, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Nationwide Children's Hospital, Center for Childhood Cancer Research, Columbus, OH, USA.",
+        "Department of Pediatrics, The Ohio State University College of Medicine, Columbus, OH, USA.",
+        "Department of Biological Chemistry & Pharmacology, The Ohio State University College of Medicine, Columbus, OH, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Chemical Biology Laboratory, NCI, NIH, Frederick, MD, USA.",
+        "Chemical Biology Laboratory, NCI, NIH, Frederick, MD, USA.",
+        "Genome Modification Core, Laboratory Animal Sciences Program, FNLCR, Frederick, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Leidos Biomed Res Inc, FNLCR, Basic Sci Program, Frederick, MD, USA.",
+        "Molecular Targets Program, NCI, NIH, Frederick, MD, USA.",
+        "Natural Products Branch, NCI, NIH, Frederick, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA.",
+        "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA.",
+        "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA.",
+        "Protein Characterization Laboratory, FNLCR, NIH, Frederick, MD, USA.",
+        "Laboratory of Cell Biology, NCI, NIH, Bethesda, MD, USA.",
+        "Cancer Innovation Laboratory, NCI, NIH, Bethesda, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Molecular Targets Program, NCI, NIH, Frederick, MD, USA.",
+        "Molecular Targets Program, NCI, NIH, Frederick, MD, USA.",
+        "Natural Products Branch, NCI, NIH, Frederick, MD, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+        "Department of Anatomy and Cell Biology, George Washington University, Washington, DC, USA.",
+        "Genetics Branch, NCI, NIH, Bethesda, MD, USA. khanjav@mail.nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Yong Yean",
+        "short_name": "Kim YY",
+        "identifiers": [
+          "0000-0002-5417-9232"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA. yong.kim@nih.gov."
+        ]
+      },
+      {
+        "full_name": "Gryder, Berkley E",
+        "short_name": "Gryder BE",
+        "identifiers": [
+          "0000-0003-0130-2302"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+          "Department of Genetics and Genome Sciences, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Sinniah, Ranuka",
+        "short_name": "Sinniah R",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Peach, Megan L",
+        "short_name": "Peach ML",
+        "identifiers": [
+          "0000-0002-4290-5268"
+        ],
+        "affiliations": [
+          "Basic Science Program, Frederick National Laboratory for Cancer Research (FNLCR), Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Shern, Jack F",
+        "short_name": "Shern JF",
+        "identifiers": [
+          "0000-0001-5579-7625"
+        ],
+        "affiliations": [
+          "Pediatric Oncology Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Abdelmaksoud, Abdalla",
+        "short_name": "Abdelmaksoud A",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Bioinformatics Resource, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Pomella, Silvia",
+        "short_name": "Pomella S",
+        "identifiers": [
+          "0000-0002-7007-4238"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+          "Department of Hematology and Oncology, Cell and Gene Therapy, Bambino Gesù Children's Hospital, IRCCS, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Woldemichael, Girma M",
+        "short_name": "Woldemichael GM",
+        "identifiers": [],
+        "affiliations": [
+          "Leidos Biomed Res Inc, FNLCR, Basic Sci Program, Frederick, MD, USA.",
+          "Molecular Targets Program, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Stanton, Benjamin Z",
+        "short_name": "Stanton BZ",
+        "identifiers": [
+          "0000-0002-2613-2955"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+          "Nationwide Children's Hospital, Center for Childhood Cancer Research, Columbus, OH, USA.",
+          "Department of Pediatrics, The Ohio State University College of Medicine, Columbus, OH, USA.",
+          "Department of Biological Chemistry & Pharmacology, The Ohio State University College of Medicine, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Milewski, David",
+        "short_name": "Milewski D",
+        "identifiers": [
+          "0000-0002-9778-8548"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Barchi, Joseph J",
+        "short_name": "Barchi JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Laboratory, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schneekloth, John S",
+        "short_name": "Schneekloth JS",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Laboratory, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Chari, Raj",
+        "short_name": "Chari R",
+        "identifiers": [
+          "0000-0002-2216-313X"
+        ],
+        "affiliations": [
+          "Genome Modification Core, Laboratory Animal Sciences Program, FNLCR, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Kowalczyk, Joshua T",
+        "short_name": "Kowalczyk JT",
+        "identifiers": [
+          "0000-0002-2212-7809"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Shenoy, Shilpa R",
+        "short_name": "Shenoy SR",
+        "identifiers": [],
+        "affiliations": [
+          "Leidos Biomed Res Inc, FNLCR, Basic Sci Program, Frederick, MD, USA.",
+          "Molecular Targets Program, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Evans, Jason R",
+        "short_name": "Evans JR",
+        "identifiers": [],
+        "affiliations": [
+          "Natural Products Branch, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Young K",
+        "short_name": "Song YK",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Chaoyu",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Xinyu",
+        "short_name": "Wen X",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Chou, Hsien-Chao",
+        "short_name": "Chou HC",
+        "identifiers": [
+          "0000-0002-4870-9663"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Gangalapudi, Vineela",
+        "short_name": "Gangalapudi V",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Esposito, Dominic",
+        "short_name": "Esposito D",
+        "identifiers": [
+          "0000-0002-9987-1687"
+        ],
+        "affiliations": [
+          "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Jones, Jane",
+        "short_name": "Jones J",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Procter, Lauren",
+        "short_name": "Procter L",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression Laboratory, FNLCR, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "O'Neill, Maura",
+        "short_name": "O'Neill M",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Characterization Laboratory, FNLCR, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Jenkins, Lisa M",
+        "short_name": "Jenkins LM",
+        "identifiers": [
+          "0000-0003-1245-1338"
+        ],
+        "affiliations": [
+          "Laboratory of Cell Biology, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Tarasova, Nadya I",
+        "short_name": "Tarasova NI",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Innovation Laboratory, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Jun S",
+        "short_name": "Wei JS",
+        "identifiers": [
+          "0000-0002-4812-0250"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "McMahon, James B",
+        "short_name": "McMahon JB",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Targets Program, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "O'Keefe, Barry R",
+        "short_name": "O'Keefe BR",
+        "identifiers": [
+          "0000-0003-0772-4856"
+        ],
+        "affiliations": [
+          "Molecular Targets Program, NCI, NIH, Frederick, MD, USA.",
+          "Natural Products Branch, NCI, NIH, Frederick, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hawley, Robert G",
+        "short_name": "Hawley RG",
+        "identifiers": [
+          "0000-0003-3512-5818"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA.",
+          "Department of Anatomy and Cell Biology, George Washington University, Washington, DC, USA."
+        ]
+      },
+      {
+        "full_name": "Khan, Javed",
+        "short_name": "Khan J",
+        "identifiers": [
+          "0000-0002-5858-0488"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, MD, USA. khanjav@mail.nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Feb 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/25 00:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42318649",
+      "42204622",
+      "42201640",
+      "42151502",
+      "42144446",
+      "41980942",
+      "41899494",
+      "41046340",
+      "41007433",
+      "40940894",
+      "40599857",
+      "40508013",
+      "40428399",
+      "40254040",
+      "40185081",
+      "39956859",
+      "39915607",
+      "39680066",
+      "39448867",
+      "38946804",
+      "38782689"
+    ],
+    "refs": [
+      "35857643",
+      "35483358",
+      "34386729",
+      "33917420",
+      "33780170",
+      "33334380",
+      "33299109",
+      "33077914",
+      "32301980",
+      "31784732",
+      "31285436",
+      "31271662",
+      "31239044",
+      "31178118",
+      "30914743",
+      "30575746",
+      "30531897",
+      "30514438",
+      "29997151",
+      "29973406",
+      "29706548",
+      "29489754",
+      "28855260",
+      "28617441",
+      "28538184",
+      "28446439",
+      "27467249",
+      "26771021",
+      "26627737",
+      "26349418",
+      "25476604",
+      "24799436",
+      "24436047",
+      "23792809",
+      "23234607",
+      "22902149",
+      "22615488",
+      "22373907",
+      "22217937",
+      "20513432",
+      "20110278",
+      "18483260",
+      "17527077",
+      "17525748",
+      "17287757",
+      "16199517",
+      "16079795",
+      "12808457",
+      "12039929",
+      "11061229",
+      "10802651",
+      "3335022"
+    ],
+    "similar": [
+      "38402212",
+      "35857643",
+      "32697014",
+      "39448867",
+      "28138962",
+      "23435416",
+      "40258575",
+      "33627785",
+      "29367756",
+      "30459282",
+      "31888889",
+      "40614256",
+      "39812007",
+      "37732905",
+      "37968277",
+      "27760049",
+      "39781573",
+      "24213577",
+      "40911784",
+      "24107448",
+      "41401084",
+      "33589519",
+      "23645752",
+      "29146205",
+      "27588498",
+      "30093562",
+      "22454413",
+      "38996706",
+      "31493794",
+      "23372815",
+      "33175861",
+      "22447499",
+      "25806826",
+      "28615069",
+      "36044855",
+      "35604932",
+      "35879366",
+      "27453350",
+      "26071485",
+      "23733015",
+      "29869612",
+      "34980443",
+      "24334454",
+      "38526790",
+      "30373318",
+      "28446439",
+      "33299109",
+      "23814486",
+      "25030697",
+      "23799156",
+      "22089931",
+      "23469153",
+      "18457914",
+      "34639012",
+      "23079386",
+      "26209235",
+      "19953635",
+      "34836971",
+      "25659124",
+      "21423212",
+      "29277758",
+      "24089019",
+      "36722003",
+      "22710712",
+      "39147032",
+      "26008753",
+      "31480361",
+      "23432728",
+      "39686893",
+      "21440083",
+      "30565669",
+      "39237585",
+      "31302815",
+      "21177767",
+      "30190424",
+      "31578374",
+      "41240117",
+      "7862145",
+      "11607823",
+      "27799565",
+      "42204622",
+      "34552155",
+      "34187933",
+      "40571676",
+      "24797362",
+      "27261335",
+      "21882254",
+      "37146302",
+      "33216382",
+      "19904978",
+      "22037868",
+      "28981396",
+      "25398439",
+      "40777370",
+      "10866659",
+      "22533991",
+      "16651427",
+      "12039929",
+      "17471488",
+      "40586712"
+    ],
+    "review": [
+      "38402212",
+      "29146205",
+      "22454413",
+      "30373318",
+      "18457914",
+      "26209235",
+      "26008753",
+      "23432728"
+    ],
+    "pmc": [
+      "10894237"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-45902-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38402212/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38402212",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38402212",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse219199",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, methods, results, discussion, and data availability statements
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors identify YbiB, a DNA-binding TrpD2 family protein, as a novel high-affinity interactor of the essential E. coli GTPase ObgE. They characterize the interaction biochemically and structurally, showing that the intrinsically disordered, negatively charged C-terminal domain of ObgE binds within positively charged grooves on the YbiB homodimer, and that this interaction competes with DNA binding to YbiB. They also report a phenotypic link to bacterial persistence.
+- **Visible evidence base** Photocrosslinking and LC-MS/MS identification; bacterial two-hybrid assays; pull-down experiments; ITC binding studies; SEC-MALS and SEC-SAXS; CD spectroscopy; molecular docking (ClusPro-PeptiDock, CABS-dock, AlphaFold-Multimer); X-ray crystallography; site-directed mutagenesis; steady-state kinetics; EMSA DNA binding assays; persistence assays
+- **Missing materials affecting confidence** Supplementary figures and tables (including Supplementary Table S1-S6, Supplementary Figures S1-S12) are referenced but not provided; full crystallographic data collection and refinement statistics are only in supplementary; detailed photocrosslinking protocol is in supplementary methods; raw ITC thermograms and fitting details are not fully described in main text; exact statistical analysis details for persistence assays are not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a solid and well-executed study identifying and characterizing a novel interaction between ObgE and YbiB. The combination of in vivo photocrosslinking, biochemical validation, quantitative binding studies, and structural analysis provides a compelling case for the physical interaction and its molecular basis. The finding that ObgE competes with DNA for binding to the positively charged grooves of YbiB is interesting and potentially significant for understanding the cellular roles of both proteins. However, the physiological relevance of this interaction remains largely speculative, and the connection to persistence, while intriguing, is not mechanistically developed. The study is technically sound but represents an incremental advance in understanding ObgE biology rather than a major conceptual breakthrough.
+- **Who would be interested in the results, and why** Researchers studying bacterial GTPases, particularly the Obg family, will find this study valuable as it expands the limited known interactome of ObgE. The structural characterization of the interaction interface will interest structural biologists working on protein-protein interactions involving intrinsically disordered regions. The potential link to bacterial persistence and the SOS response may attract researchers in antimicrobial resistance and bacterial stress physiology. The methodological approach combining multiple biophysical techniques could also interest a broader audience in protein interaction analysis.
+- **Major strengths** The study uses a complementary array of techniques to establish and characterize the interaction, from unbiased in vivo identification to quantitative biophysical characterization and structural determination. The identification of the C-terminal disordered region of ObgE as the key binding determinant is well supported by the deletion and peptide studies. The crystal structure of YbiB with a bound peptide fragment provides direct structural evidence for the interaction interface. The demonstration that ObgE competes with DNA binding to YbiB provides a functional dimension to the interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors suggest that the ObgE-YbiB interaction may link ObgE to the SOS response and persistence, but the physiological significance of the interaction is not experimentally addressed.
+  - **Evidence pointer** Discussion section, persistence assays (Figure 1)
+  - **Concern** While the biochemical and structural characterization of the ObgE-YbiB interaction is thorough, the physiological relevance remains unclear. The persistence assays show that YbiB overexpression increases persister fraction, but the connection to the ObgE interaction is not established. The authors do not test whether the ObgE-YbiB interaction is required for the persistence phenotype, nor do they explore the cellular context in which this interaction occurs. The claim that YbiB may link ObgE to the SOS response is purely speculative without experimental support.
+  - **Why it matters** For a study of this type, establishing the functional significance of a novel interaction is crucial for demonstrating its importance. Without evidence that the interaction matters in a cellular context, the study remains largely descriptive at the biochemical level.
+  - **Resolution test** The authors should provide experimental evidence linking the ObgE-YbiB interaction to a specific cellular function, such as showing that disruption of the interaction affects SOS response, persistence, or another phenotype. Alternatively, they should temper the claims about physiological relevance and present the study as primarily a biochemical and structural characterization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic understanding of biphasic binding
+  - **Claim pointer** The authors attribute the biphasic ITC binding behavior to overlapping binding sites on the YbiB homodimer, but the evidence for this is indirect.
+  - **Evidence pointer** ITC results (Figure 2B), Discussion section
+  - **Concern** The biphasic binding isotherm is a striking and unusual finding, but the mechanistic interpretation is not fully tested. The authors favor a model of overlapping binding sites based on the crystal structure and analogy with the CcdA/B system, but they do not provide direct experimental evidence for this mechanism. Alternative explanations, such as conformational changes or negative cooperativity, are not experimentally distinguished. The stoichiometry of approximately 0.5 for each binding event is unusual and deserves more careful consideration and discussion.
+  - **Why it matters** The biphasic binding behavior is a central finding of the study, and the mechanistic interpretation has implications for understanding how ObgE interacts with YbiB in vivo. An incorrect interpretation could mislead future studies.
+  - **Resolution test** The authors should perform experiments that directly test the proposed mechanism, such as binding studies with mutant YbiB proteins that disrupt one of the two grooves, or analytical ultracentrifugation to determine the stoichiometry of the complex more precisely. At minimum, they should discuss alternative models more thoroughly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural evidence
+  - **Claim pointer** The crystal structure of the YbiB-peptide4 complex is used to support the proposed binding mode, but the peptide only covers a small portion of the ObgE C-terminus.
+  - **Evidence pointer** X-ray crystallography section, Figure 4
+  - **Concern** The crystal structure shows only a six-residue fragment (375DWDEDD380) of the ObgE C-terminal peptide bound to YbiB. This is a very small portion of the full 50-residue C-terminal domain, and it is unclear whether this fragment represents the primary binding interface or a minor contact. The authors do not discuss how the remainder of the C-terminal domain contributes to binding, nor do they address the possibility that the full-length interaction involves additional contacts not visible in the crystal structure.
+  - **Why it matters** The structural interpretation is central to understanding the molecular basis of the interaction. If the visible peptide fragment is not representative of the full interaction, the conclusions drawn from the structure may be incomplete or misleading.
+  - **Resolution test** The authors should provide additional evidence that the crystallographically observed binding mode is representative of the full-length interaction, such as mutagenesis of residues outside the visible peptide fragment that affect binding, or NMR or other solution studies of the full-length C-terminal domain in complex with YbiB.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative binding analysis
+  - **Claim pointer** The ITC experiments report high-affinity binding with KD values in the nanomolar range, but the analysis of the biphasic isotherms may be problematic.
+  - **Evidence pointer** ITC methods and results (Figure 2B, Supplementary Table S6)
+  - **Concern** The fitting of biphasic ITC isotherms to a "two sets of sites" model requires careful experimental design and analysis. The authors do not provide sufficient details about how the fitting was performed, what constraints were applied, or how the model was validated. The reported stoichiometry of approximately 0.5 for each binding event is unusual and could indicate issues with the active concentration of the titrant or the fitting model. Additionally, the authors do not report the error analysis or confidence intervals for the fitted parameters.
+  - **Why it matters** The quantitative binding parameters are a key result of the study. If the fitting is not robust, the reported affinities and stoichiometries may not be reliable, which would affect the interpretation of the interaction.
+  - **Resolution test** The authors should provide more detailed information about the ITC fitting procedure, including the model equations, constraints, and goodness-of-fit statistics. They should also discuss the unusual stoichiometry and consider alternative fitting models or experimental approaches to validate the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1 persistence data
+  - **Evidence pointer** Figure 1A, 1B
+  - **Issue** The persistence assay data are presented with limited statistical detail. The authors state that differences were compared using an unpaired t-test with Welch's correction, but do not report the number of biological replicates, the exact p-values, or the variability within experiments.
+  - **Required correction** Provide the number of independent experiments, the exact p-values, and error bars representing the appropriate measure of variability in the figure or legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Photocrosslinking identification
+  - **Evidence pointer** Materials and Methods, photocrosslinking section
+  - **Issue** The photocrosslinking experiment is described briefly, with details relegated to supplementary methods. The authors do not report how many replicates were performed, how the identified interactors were scored or filtered, or whether YbiB was identified in multiple independent experiments.
+  - **Required correction** Provide a brief summary of the reproducibility and filtering criteria for the photocrosslinking identification in the main text or ensure the supplementary methods contain this information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of GAP activity
+  - **Evidence pointer** Figure 5, Discussion
+  - **Issue** The authors conclude that YbiB does not function as a GAP for ObgE based on steady-state kinetics. However, the assay conditions and the range of GTP concentrations tested are not discussed in the context of whether a GAP effect might be observable under these conditions.
+  - **Required correction** Briefly discuss the sensitivity of the assay and whether the conditions used would be expected to detect a GAP effect if one existed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction describe Obg as "essential" and involved in "a large range of important cellular processes," but the specific rationale for why YbiB was prioritized from the interactor screen beyond its persistence link is not clearly articulated.
+  - **Required correction** Briefly state the criteria used to prioritize YbiB from the list of 44 putative interactors, beyond the persistence connection.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Structural comparison
+  - **Affected element** Discussion of YbiB structure
+  - **Evidence pointer** X-ray crystallography section, Discussion
+  - **Issue** The authors mention that the YbiB structure is similar to the previously published structure (PDB: 4MUO) but do not provide a quantitative comparison (e.g., RMSD) or discuss any significant differences beyond the resolved loop.
+  - **Required correction** Provide a quantitative comparison of the new YbiB structure with the previously published structure, including RMSD values and a brief discussion of any conformational differences.
+
+## Risk / unsupported claims
+- The claim that YbiB is involved in bacterial persistence is based on overexpression data only, and the connection to the ObgE interaction is not established. The persistence phenotype is not linked to the ObgE-YbiB interaction experimentally.
+- The suggestion that YbiB may link ObgE to the SOS response is speculative and not supported by direct experimental evidence in this study.
+- The interpretation of the biphasic ITC binding as resulting from overlapping binding sites is plausible but not directly proven; alternative mechanisms are not experimentally excluded.
+- The claim that one ObgE molecule blocks DNA binding to both grooves of the YbiB dimer is inferred from the EMSA competition data but the mechanism is not directly demonstrated.
+- The physiological relevance of the ObgE-YbiB interaction in the context of ribosome biogenesis, DNA replication, or other ObgE-associated processes is not addressed experimentally.
+- The statement that the C-terminal domain of ObgE "becomes folded when bound to YbiB" is based on CD spectroscopy of a peptide, which may not fully represent the behavior of the full-length protein in the context of the intact ObgE structure.

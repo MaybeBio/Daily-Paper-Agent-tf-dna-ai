@@ -1,0 +1,699 @@
+{
+  "identity": {
+    "pmid": "36976297",
+    "doi": "10.1158/1541-7786.MCR-22-0593",
+    "title": "BLEACH&STAIN 15-marker Multiplexed Imaging in 3,098 Human Carcinomas Reveals Six Major PD-L1-driven Immune Phenotypes with Distinct Spatial Orchestration."
+  },
+  "content": {
+    "abstract": "Multiplex fluorescence IHC (mfIHC) approaches were yet either limited to six markers or limited to a small tissue size that hampers translational studies on large tissue microarray cohorts. Here we have developed a BLEACH&STAIN mfIHC method that enabled the simultaneous analysis of 15 biomarkers (PD-L1, PD-1, CTLA-4, panCK, CD68, CD163, CD11c, iNOS, CD3, CD8, CD4, FOXP3, CD20, Ki67, and CD31) in 3,098 tumor samples from 44 different carcinoma entities within one week. To facilitate automated immune checkpoint quantification on tumor and immune cells and study its spatial interplay an artificial intelligence-based framework incorporating 17 different deep-learning systems was established. Unsupervised clustering showed that the three PD-L1 phenotypes (PD-L1+ tumor and immune cells, PD-L1+ immune cells, PD-L1-) were either inflamed or noninflamed. In inflamed PD-L1+patients, spatial analysis revealed that an elevated level of intratumoral M2 macrophages as well as CD11c+ dendritic cell (DC) infiltration (P < 0.001 each) was associated with a high CD3+ CD4+/- CD8+/- FOXP3+/- T-cell exclusion and a high PD-1 expression on T cells (P < 0.001 each). In breast cancer, the PD-L1 fluorescence intensity on tumor cells showed a significantly higher predictive performance for overall survival (OS; AUC, 0.72, P < 0.001) compared with the commonly used percentage of PD-L1+ tumor cells (AUC, 0.54). In conclusion, our deep-learning-based BLEACH&STAIN framework facilitates rapid and comprehensive assessment of more than 60 spatially orchestrated immune cell subpopulations and its prognostic relevance. IMPLICATIONS: The development of an easy-to-use high-throughput 15+1 multiplex fluorescence approach facilitates the in-depth understanding of the immune tumor microenvironment (TME) and enables to study the prognostic relevance of more than 130 immune cell subpopulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*B7-H1 Antigen/genetics",
+      "Coloring Agents",
+      "Artificial Intelligence",
+      "Programmed Cell Death 1 Receptor/genetics",
+      "Lymphocytes, Tumor-Infiltrating",
+      "*Carcinoma/pathology",
+      "Phenotype",
+      "Forkhead Transcription Factors/genetics",
+      "Tumor Microenvironment",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bady, Elena",
+        "Moller, Katharina",
+        "Mandelkow, Tim",
+        "Raedler, Jonas B",
+        "Yang, Cheng",
+        "Ebner, Julia",
+        "Lurati, Magalie C J",
+        "Simon, Ronald",
+        "Vettorazzi, Eik",
+        "Buscheck, Franziska",
+        "Luebke, Andreas M",
+        "Dum, David",
+        "Menz, Anne",
+        "Sauter, Guido",
+        "Hoflmayer, Doris",
+        "Weidemann, Soren",
+        "Fraune, Christoph",
+        "Uhlig, Ria",
+        "Bernreuther, Christian",
+        "Jacobsen, Frank",
+        "Clauditz, Till S",
+        "Wilczak, Waldemar",
+        "Burandt, Eike",
+        "Steurer, Stefan",
+        "Minner, Sarah",
+        "Lennartz, Maximilian",
+        "Blessin, Niclas C"
+      ],
+      "short_names": [
+        "Bady E",
+        "Moller K",
+        "Mandelkow T",
+        "Raedler JB",
+        "Yang C",
+        "Ebner J",
+        "Lurati MCJ",
+        "Simon R",
+        "Vettorazzi E",
+        "Buscheck F",
+        "Luebke AM",
+        "Dum D",
+        "Menz A",
+        "Sauter G",
+        "Hoflmayer D",
+        "Weidemann S",
+        "Fraune C",
+        "Uhlig R",
+        "Bernreuther C",
+        "Jacobsen F",
+        "Clauditz TS",
+        "Wilczak W",
+        "Burandt E",
+        "Steurer S",
+        "Minner S",
+        "Lennartz M",
+        "Blessin NC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8586-5200",
+        "ORCID: 0000-0002-9739-4274",
+        "ORCID: 0000-0002-2562-3971",
+        "ORCID: 0000-0002-9464-3888",
+        "ORCID: 0000-0001-5640-9997",
+        "ORCID: 0000-0002-2829-8879",
+        "ORCID: 0000-0002-8518-531X",
+        "ORCID: 0000-0003-0158-4258",
+        "ORCID: 0000-0002-3737-6402",
+        "ORCID: 0000-0001-7159-2371",
+        "ORCID: 0000-0003-1464-6964",
+        "ORCID: 0000-0002-7884-4313",
+        "ORCID: 0000-0002-4364-6464",
+        "ORCID: 0000-0002-9024-4978",
+        "ORCID: 0000-0001-8032-2920",
+        "ORCID: 0000-0001-7037-3265",
+        "ORCID: 0000-0002-0833-9549",
+        "ORCID: 0000-0002-4880-6519",
+        "ORCID: 0000-0003-3939-322X",
+        "ORCID: 0009-0009-8047-580X",
+        "ORCID: 0000-0002-4257-856X",
+        "ORCID: 0009-0000-8438-9110",
+        "ORCID: 0000-0002-5705-9084",
+        "ORCID: 0000-0002-7199-3615",
+        "ORCID: 0000-0003-0765-3568",
+        "ORCID: 0000-0002-1572-8200",
+        "ORCID: 0000-0001-8043-3081"
+      ],
+      "affiliations": [
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "College of Arts and Sciences, Boston University, Boston, Massachusetts.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Department of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bady, Elena",
+        "short_name": "Bady E",
+        "identifiers": [
+          "0000-0002-8586-5200"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Möller, Katharina",
+        "short_name": "Möller K",
+        "identifiers": [
+          "0000-0002-9739-4274"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mandelkow, Tim",
+        "short_name": "Mandelkow T",
+        "identifiers": [
+          "0000-0002-2562-3971"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Raedler, Jonas B",
+        "short_name": "Raedler JB",
+        "identifiers": [
+          "0000-0002-9464-3888"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+          "College of Arts and Sciences, Boston University, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Yang, Cheng",
+        "short_name": "Yang C",
+        "identifiers": [
+          "0000-0001-5640-9997"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ebner, Julia",
+        "short_name": "Ebner J",
+        "identifiers": [
+          "0000-0002-2829-8879"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lurati, Magalie C J",
+        "short_name": "Lurati MCJ",
+        "identifiers": [
+          "0000-0002-8518-531X"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Simon, Ronald",
+        "short_name": "Simon R",
+        "identifiers": [
+          "0000-0003-0158-4258"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Vettorazzi, Eik",
+        "short_name": "Vettorazzi E",
+        "identifiers": [
+          "0000-0002-3737-6402"
+        ],
+        "affiliations": [
+          "Department of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Büscheck, Franziska",
+        "short_name": "Büscheck F",
+        "identifiers": [
+          "0000-0001-7159-2371"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Luebke, Andreas M",
+        "short_name": "Luebke AM",
+        "identifiers": [
+          "0000-0003-1464-6964"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Dum, David",
+        "short_name": "Dum D",
+        "identifiers": [
+          "0000-0002-7884-4313"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Menz, Anne",
+        "short_name": "Menz A",
+        "identifiers": [
+          "0000-0002-4364-6464"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sauter, Guido",
+        "short_name": "Sauter G",
+        "identifiers": [
+          "0000-0002-9024-4978"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Höflmayer, Doris",
+        "short_name": "Höflmayer D",
+        "identifiers": [
+          "0000-0001-8032-2920"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Weidemann, Sören",
+        "short_name": "Weidemann S",
+        "identifiers": [
+          "0000-0001-7037-3265"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Fraune, Christoph",
+        "short_name": "Fraune C",
+        "identifiers": [
+          "0000-0002-0833-9549"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Uhlig, Ria",
+        "short_name": "Uhlig R",
+        "identifiers": [
+          "0000-0002-4880-6519"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bernreuther, Christian",
+        "short_name": "Bernreuther C",
+        "identifiers": [
+          "0000-0003-3939-322X"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jacobsen, Frank",
+        "short_name": "Jacobsen F",
+        "identifiers": [
+          "0009-0009-8047-580X"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Clauditz, Till S",
+        "short_name": "Clauditz TS",
+        "identifiers": [
+          "0000-0002-4257-856X"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Wilczak, Waldemar",
+        "short_name": "Wilczak W",
+        "identifiers": [
+          "0009-0000-8438-9110"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Burandt, Eike",
+        "short_name": "Burandt E",
+        "identifiers": [
+          "0000-0002-5705-9084"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Steurer, Stefan",
+        "short_name": "Steurer S",
+        "identifiers": [
+          "0000-0002-7199-3615"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Minner, Sarah",
+        "short_name": "Minner S",
+        "identifiers": [
+          "0000-0003-0765-3568"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lennartz, Maximilian",
+        "short_name": "Lennartz M",
+        "identifiers": [
+          "0000-0002-1572-8200"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Blessin, Niclas C",
+        "short_name": "Blessin NC",
+        "identifiers": [
+          "0000-0001-8043-3081"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer research : MCR"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Res"
+    ],
+    "pub_date": "2023 Jun 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/29 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42658681",
+      "40243442",
+      "40181205",
+      "40028897",
+      "38751472",
+      "38137396",
+      "35091676"
+    ],
+    "refs": [
+      "36788088",
+      "36656126",
+      "35346207",
+      "35091676",
+      "34172088",
+      "34164344",
+      "33134169",
+      "32763154",
+      "32758195",
+      "32457745",
+      "32393914",
+      "32214101",
+      "31318407",
+      "30760860",
+      "30733837",
+      "30297397",
+      "30285852",
+      "30078711",
+      "30021908",
+      "29993362",
+      "29632196",
+      "28967485",
+      "28959173",
+      "28692376",
+      "28278348",
+      "28131785",
+      "27925668",
+      "27841362",
+      "27646946",
+      "27183440",
+      "27056074",
+      "26952546",
+      "26819449",
+      "26714314",
+      "26712084",
+      "26399630",
+      "26260996",
+      "25977340",
+      "25428505",
+      "25242720",
+      "24027076",
+      "23460533",
+      "23359264"
+    ],
+    "similar": [
+      "36976297",
+      "36169332",
+      "36368129",
+      "34526987",
+      "35609559",
+      "34862664",
+      "35222387",
+      "38916182",
+      "35773332",
+      "37263182",
+      "33125511",
+      "35145511",
+      "34362334",
+      "36331328",
+      "38449350",
+      "30120041",
+      "36726072",
+      "27393506",
+      "38383257",
+      "28657901",
+      "31841221",
+      "29208565",
+      "34006632",
+      "29843813",
+      "36737759",
+      "36073303",
+      "32066405",
+      "33169322",
+      "28731046",
+      "29112015",
+      "33576873",
+      "31771616",
+      "32498695",
+      "32216826",
+      "34887263",
+      "30885276",
+      "31996725",
+      "33596250",
+      "38322012",
+      "36362023",
+      "32447649",
+      "35208498",
+      "28947422",
+      "30026337",
+      "35220229",
+      "34839351",
+      "36892732",
+      "30666052",
+      "29672601",
+      "29514216",
+      "35811317",
+      "34839857",
+      "28602029",
+      "28334399",
+      "35641540",
+      "33345422",
+      "27663086",
+      "33480087",
+      "33457428",
+      "29025424",
+      "36159860",
+      "31923855",
+      "28539467",
+      "33267869",
+      "25424150",
+      "32248797",
+      "29074606",
+      "32102750",
+      "36093688",
+      "34670827",
+      "36597662",
+      "28418918",
+      "30429043",
+      "36518249",
+      "36793050",
+      "28512174",
+      "30745366",
+      "27502709",
+      "32330866",
+      "31615933",
+      "32150457",
+      "27683115",
+      "34071045",
+      "32017078",
+      "32622323",
+      "31290993",
+      "32380498",
+      "33737722",
+      "32457124",
+      "33393633",
+      "38287356",
+      "37086293",
+      "36754859",
+      "37329869",
+      "37921094",
+      "34623343",
+      "38137396",
+      "37443346",
+      "38893259",
+      "35490489",
+      "38091833",
+      "34497449",
+      "37418134",
+      "37275884",
+      "31511925",
+      "35070765",
+      "31182433",
+      "36588094",
+      "32203152",
+      "35091676",
+      "38281880",
+      "37046826",
+      "30193111",
+      "38328710",
+      "37423586",
+      "38044986",
+      "38877529",
+      "39240301",
+      "39321925",
+      "38023184",
+      "38519058",
+      "39235761",
+      "39097190",
+      "39410037",
+      "33290179",
+      "37686454",
+      "37663758",
+      "37865058",
+      "37936700",
+      "31502167",
+      "35681797",
+      "31285612",
+      "39389312",
+      "29208908",
+      "34433588",
+      "38898200",
+      "36281356",
+      "39338178",
+      "39394691",
+      "38187532",
+      "34799582",
+      "38179056",
+      "39026018",
+      "39229153",
+      "38186745",
+      "39154539",
+      "39373616",
+      "32435699",
+      "39001353",
+      "37607099",
+      "39050465",
+      "38821717",
+      "37155406",
+      "39395637",
+      "37398220",
+      "37539093",
+      "38014067",
+      "37756338",
+      "39149345",
+      "39041033",
+      "37539043",
+      "36585456"
+    ],
+    "review": [
+      "36976297",
+      "31290993",
+      "34623343",
+      "37936700"
+    ],
+    "pmc": [
+      "10233353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36976297/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36976297",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mcr/article-lookup/doi/10.1158/1541-7786.MCR-22-0593",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40603503",
+  "title": "Deep learning deciphers the related role of master regulators and G-quadruplexes in tissue specification.",
+  "authors": "Bashkatov, Artem; Andreasyan, Andrey; Konovalov, Dmitry; Herbert, Alan; Poptsova, Maria",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测G-四链体DNA结构并关联组织特异性调控，虽涉及DNA结构预测和转录因子结合位点，但核心是GQ而非TF-DNA互作建模，方法可迁移但对象偏离。",
+  "abstract": "G-quadruplexes (GQs) are non-canonical DNA structures encoded by G-flipons with potential roles in gene regulation and chromatin structure. Here, we explore the role of G-flipons in tissue specification. We present a deep learning-based framework for the genome-wide G-flipon predictions across 14 human tissue types. The model was trained using high-confidence experimental maps of GQ-forming sequences and ATAC-seq peaks, conjoined with the location of RNA polymerase, histone marks, and transcription factor binding sites. The training dataset for the DeepGQ model was derived from EndoQuad level 4-6 GQs. Model predictions were subsequently validated against the comprehensive EndoQuad dataset (levels 1-6) to optimize the whole-genome prediction threshold. To identify tissue-specific regulatory patterns, we classified GQ promoter predictions as either 'core' or 'tissue-specific'. We identified a notable overlap between predicted unique tissue-specific GQ sites and master regulatory genes (MRGs), tissue-specific DNase-hypersensitivity sites, and proteins that modulate R-loop formation. Collectively, the findings highlight the transactions between MRG and G-flipons intermediated by RNA: DNA hybrids associated with tissue specification.",
+  "abstract_zh": "G-四链体（G-quadruplexes, GQs）是由G-flipons编码的非经典DNA结构，在基因调控和染色质结构中具有潜在作用。在此，我们探讨G-flipons在组织特化中的作用。我们提出了一种基于深度学习的框架，用于在14种人类组织类型中进行全基因组范围的G-flipon预测。该模型使用高置信度的GQ形成序列实验图谱和ATAC-seq峰，并结合RNA聚合酶位置、组蛋白标记和转录因子结合位点进行训练。DeepGQ模型的训练数据集来源于EndoQuad第4-6级GQs。模型预测随后针对全面的EndoQuad数据集（第1-6级）进行验证，以优化全基因组预测阈值。为识别组织特异性调控模式，我们将GQ启动子预测分类为“核心”或“组织特异性”。我们观察到预测的独特组织特异性GQ位点与主调控基因（master regulatory genes, MRGs）、组织特异性DNase超敏位点以及调节R-loop形成的蛋白质之间存在显著重叠。总体而言，这些发现强调了MRG与G-flipons之间通过RNA:DNA杂交体介导的相互作用，这些相互作用与组织特化相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40603503/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40603503/",
+  "paper_page_path": "papers/pubmed/40603503/index.html"
+}

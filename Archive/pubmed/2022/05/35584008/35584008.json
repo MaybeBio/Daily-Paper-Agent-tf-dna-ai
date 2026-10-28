@@ -1,0 +1,580 @@
+{
+  "identity": {
+    "pmid": "35584008",
+    "doi": "10.1099/mgen.0.000833",
+    "title": "RegulonDB 11.0: Comprehensive high-throughput datasets on transcriptional regulation in Escherichia coli K-12."
+  },
+  "content": {
+    "abstract": "Genomics has set the basis for a variety of methodologies that produce high-throughput datasets identifying the different players that define gene regulation, particularly regulation of transcription initiation and operon organization. These datasets are available in public repositories, such as the Gene Expression Omnibus, or ArrayExpress. However, accessing and navigating such a wealth of data is not straightforward. No resource currently exists that offers all available high and low-throughput data on transcriptional regulation in Escherichia coli K-12 to easily use both as whole datasets, or as individual interactions and regulatory elements. RegulonDB (https://regulondb.ccg.unam.mx) began gathering high-throughput dataset collections in 2009, starting with transcription start sites, then adding ChIP-seq and gSELEX in 2012, with up to 99 different experimental high-throughput datasets available in 2019. In this paper we present a radical upgrade to more than 2000 high-throughput datasets, processed to facilitate their comparison, introducing up-to-date collections of transcription termination sites, transcription units, as well as transcription factor binding interactions derived from ChIP-seq, ChIP-exo, gSELEX and DAP-seq experiments, besides expression profiles derived from RNA-seq experiments. For ChIP-seq experiments we offer both the data as presented by the authors, as well as data uniformly processed in-house, enhancing their comparability, as well as the traceability of the methods and reproducibility of the results. Furthermore, we have expanded the tools available for browsing and visualization across and within datasets. We include comparisons against previously existing knowledge in RegulonDB from classic experiments, a nucleotide-resolution genome viewer, and an interface that enables users to browse datasets by querying their metadata. A particular effort was made to automatically extract detailed experimental growth conditions by implementing an assisted curation strategy applying Natural language processing and machine learning. We provide summaries with the total number of interactions found in each experiment, as well as tools to identify common results among different experiments. This is a long-awaited resource to make use of such wealth of knowledge and advance our understanding of the biology of the model bacterium E. coli K-12.",
+    "keywords": [
+      "ChIP-exo",
+      "ChIP-seq",
+      "DAP-seq",
+      "Escherichia coli K-12",
+      "High-Throughput Nucleotide Sequencing",
+      "RNA-seq",
+      "Transcriptional Regulatory Network",
+      "gSELEX"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/genetics",
+      "*Escherichia coli K12/genetics/metabolism",
+      "Gene Expression Regulation, Bacterial",
+      "Operon/genetics",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tierrafria, Victor H",
+        "Rioualen, Claire",
+        "Salgado, Heladia",
+        "Lara, Paloma",
+        "Gama-Castro, Socorro",
+        "Lally, Patrick",
+        "Gomez-Romero, Laura",
+        "Pena-Loredo, Pablo",
+        "Lopez-Almazo, Andres G",
+        "Alarcon-Carranza, Gabriel",
+        "Betancourt-Figueroa, Felipe",
+        "Alquicira-Hernandez, Shirley",
+        "Polanco-Morelos, J Enrique",
+        "Garcia-Sotelo, Jair",
+        "Gaytan-Nunez, Estefani",
+        "Mendez-Cruz, Carlos-Francisco",
+        "Muniz, Luis J",
+        "Bonavides-Martinez, Cesar",
+        "Moreno-Hagelsieb, Gabriel",
+        "Galagan, James E",
+        "Wade, Joseph T",
+        "Collado-Vides, Julio"
+      ],
+      "short_names": [
+        "Tierrafria VH",
+        "Rioualen C",
+        "Salgado H",
+        "Lara P",
+        "Gama-Castro S",
+        "Lally P",
+        "Gomez-Romero L",
+        "Pena-Loredo P",
+        "Lopez-Almazo AG",
+        "Alarcon-Carranza G",
+        "Betancourt-Figueroa F",
+        "Alquicira-Hernandez S",
+        "Polanco-Morelos JE",
+        "Garcia-Sotelo J",
+        "Gaytan-Nunez E",
+        "Mendez-Cruz CF",
+        "Muniz LJ",
+        "Bonavides-Martinez C",
+        "Moreno-Hagelsieb G",
+        "Galagan JE",
+        "Wade JT",
+        "Collado-Vides J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA.",
+        "Instituto Nacional de Medicina Genomica, INMEGEN, Periferico Sur 4809, Arenal Tepepan, Tlalpan 14610, CDMX, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Laboratorio Internacional de Investigacion sobre el Genoma Humano, Universidad Nacional Autonoma de Mexico, Queretaro 76230, Queretaro, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biology, Wilfrid Laurier University, 75 University Ave W, Waterloo, ON N2L 3C5, Canada.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA.",
+        "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+        "Department of Biomedical Sciences, University at Albany, SUNY, Albany, NY, USA.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Universitat Pompeu Fabra(UPF), Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tierrafría, Víctor H",
+        "short_name": "Tierrafría VH",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Rioualen, Claire",
+        "short_name": "Rioualen C",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Salgado, Heladia",
+        "short_name": "Salgado H",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Lara, Paloma",
+        "short_name": "Lara P",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gama-Castro, Socorro",
+        "short_name": "Gama-Castro S",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Lally, Patrick",
+        "short_name": "Lally P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Gómez-Romero, Laura",
+        "short_name": "Gómez-Romero L",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Nacional de Medicina Genómica, INMEGEN, Periférico Sur 4809, Arenal Tepepan, Tlalpan 14610, CDMX, Mexico."
+        ]
+      },
+      {
+        "full_name": "Peña-Loredo, Pablo",
+        "short_name": "Peña-Loredo P",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "López-Almazo, Andrés G",
+        "short_name": "López-Almazo AG",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Alarcón-Carranza, Gabriel",
+        "short_name": "Alarcón-Carranza G",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Betancourt-Figueroa, Felipe",
+        "short_name": "Betancourt-Figueroa F",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Alquicira-Hernández, Shirley",
+        "short_name": "Alquicira-Hernández S",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Polanco-Morelos, J Enrique",
+        "short_name": "Polanco-Morelos JE",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "García-Sotelo, Jair",
+        "short_name": "García-Sotelo J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio Internacional de Investigación sobre el Genoma Humano, Universidad Nacional Autónoma de México, Querétaro 76230, Querétaro, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gaytan-Nuñez, Estefani",
+        "short_name": "Gaytan-Nuñez E",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Méndez-Cruz, Carlos-Francisco",
+        "short_name": "Méndez-Cruz CF",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Muñiz, Luis J",
+        "short_name": "Muñiz LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Bonavides-Martínez, César",
+        "short_name": "Bonavides-Martínez C",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico."
+        ]
+      },
+      {
+        "full_name": "Moreno-Hagelsieb, Gabriel",
+        "short_name": "Moreno-Hagelsieb G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wilfrid Laurier University, 75 University Ave W, Waterloo, ON N2L 3C5, Canada."
+        ]
+      },
+      {
+        "full_name": "Galagan, James E",
+        "short_name": "Galagan JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Wade, Joseph T",
+        "short_name": "Wade JT",
+        "identifiers": [],
+        "affiliations": [
+          "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+          "Department of Biomedical Sciences, University at Albany, SUNY, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Collado-Vides, Julio",
+        "short_name": "Collado-Vides J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215, USA.",
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Universitat Pompeu Fabra(UPF), Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbial genomics"
+    ],
+    "journal_abbrev": [
+      "Microb Genom"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/19 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "42222669",
+      "42213843",
+      "41920894",
+      "41562852",
+      "41288984",
+      "41128724",
+      "41102328",
+      "41011520",
+      "40953017",
+      "40856689",
+      "40750847",
+      "40715458",
+      "40628805",
+      "40399339",
+      "40378216",
+      "40360840",
+      "40335509",
+      "40273291",
+      "40207147",
+      "40118842",
+      "39905026",
+      "39824824",
+      "39781509",
+      "39763851",
+      "39704646",
+      "39601269",
+      "39541188",
+      "39531644",
+      "39499638",
+      "39441639",
+      "39425047",
+      "39345586",
+      "39285935",
+      "39263245",
+      "39246685",
+      "39219319",
+      "39213391",
+      "39047028",
+      "39036964",
+      "38980083",
+      "38975892",
+      "38919711",
+      "38829048",
+      "38774514",
+      "38687030",
+      "38651490",
+      "38570504",
+      "38505828",
+      "38257942",
+      "38200565",
+      "38139177",
+      "38060591",
+      "37971353",
+      "37958845",
+      "37904746",
+      "37676733",
+      "37533835",
+      "37522889",
+      "37492255",
+      "37375089",
+      "37199605",
+      "37090546",
+      "37054967",
+      "37026477",
+      "36920168",
+      "36871155",
+      "36853057",
+      "36535710",
+      "36452927",
+      "36450797"
+    ],
+    "refs": [
+      "36562559",
+      "34824476",
+      "34791440",
+      "34428301",
+      "34394059",
+      "34035898",
+      "32665585",
+      "31308523",
+      "30786165",
+      "30395280",
+      "30254741",
+      "30201986",
+      "30137210",
+      "30115066",
+      "30109605",
+      "29722874",
+      "28800583",
+      "28535296",
+      "28061857",
+      "27312411",
+      "27203113",
+      "26951544",
+      "26843427",
+      "26673755",
+      "26586805",
+      "26527724",
+      "26279566",
+      "26258987",
+      "25275371",
+      "25266388",
+      "25222563",
+      "25006232",
+      "24461193",
+      "23913318",
+      "23651393",
+      "23233451",
+      "23203884",
+      "23180762",
+      "22836136",
+      "22388286",
+      "22180530",
+      "21633945",
+      "20923783",
+      "19838305",
+      "18802439",
+      "17558387",
+      "17540862",
+      "9399800",
+      "8458322"
+    ],
+    "similar": [
+      "35584008",
+      "30115066",
+      "30395280",
+      "37163020",
+      "16381895",
+      "37971353",
+      "14681419",
+      "38505828",
+      "24903516",
+      "26527724",
+      "21051347",
+      "23203884",
+      "18158297",
+      "30040192",
+      "23327937",
+      "11125053",
+      "16398937",
+      "9847141",
+      "10592182",
+      "19838305",
+      "32252626",
+      "22144154",
+      "33306798",
+      "27716038",
+      "9399800",
+      "9682052",
+      "30786165",
+      "26980514",
+      "17214507",
+      "39028503",
+      "34196371",
+      "31892694",
+      "28911122",
+      "24146601",
+      "27899573",
+      "21097882",
+      "23665773",
+      "32975502",
+      "29587634",
+      "18974181",
+      "15608210",
+      "26543854",
+      "32573705",
+      "34461312",
+      "29463657",
+      "34787538",
+      "14708114",
+      "36507678",
+      "14597655",
+      "35438626",
+      "16199562",
+      "21097887",
+      "30284014",
+      "30416387",
+      "23975789",
+      "30137486",
+      "37244568",
+      "28789639",
+      "26207626",
+      "35682733",
+      "25442502",
+      "17683642",
+      "30897079",
+      "37219924",
+      "26094112",
+      "27989220",
+      "20158869",
+      "30201986",
+      "36544470",
+      "30621576",
+      "25006232",
+      "35508583",
+      "23776535",
+      "30455279",
+      "24565265",
+      "36582986",
+      "37805453",
+      "26032817",
+      "22180530",
+      "25128017",
+      "30137210",
+      "21572102",
+      "31834370",
+      "20459804",
+      "34428301",
+      "36445144",
+      "23980024",
+      "27377783",
+      "28211111",
+      "28256660",
+      "22536865",
+      "22897152",
+      "30109605",
+      "25070602",
+      "24347632",
+      "29220462",
+      "33957668",
+      "34035422",
+      "23143106",
+      "25275371",
+      "25735747",
+      "37220074",
+      "39351872",
+      "39341494",
+      "39350178"
+    ],
+    "review": [
+      "35584008",
+      "34196371",
+      "26032817",
+      "28256660"
+    ],
+    "pmc": [
+      "9465075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://mgen.microbiologyresearch.org/pubmed/content/journal/mgen/10.1099/mgen.0.000833",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35584008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35584008",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

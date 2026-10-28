@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "42079644",
+    "doi": "10.3389/fimmu.2026.1810132",
+    "title": "Ribosome biogenesis programs define a three-gene RBscore with prognostic relevance in bladder cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bladder cancer (BLCA) is clinically heterogeneous, and conventional staging does not fully capture individual risk. Ribosome biogenesis (RiBi) is implicated in cancer, but its prognostic relevance in BLCA is not well defined. METHODS: Survival-annotated tumor transcriptomes from TCGA-BLCA were analyzed and externally evaluated in GSE13507. Tumor-normal differential expression was intersected with a curated RiBi gene set to prioritize candidates. Cox modeling with machine-learning-based strategy selection yielded a three-gene ribosome biogenesis-related score (RBscore). RBscore was evaluated for overall survival (OS) stratification, independence from clinicopathological variables, and integration with nodal status in a nomogram. Pathway enrichment, immune features, pharmacogenomic associations supported by molecular docking, and somatic mutation and transcription factor (TF) network features were examined. Signature gene expression was assessed in bladder cancer cell lines and paired clinical tissues. PRKDC protein expression was further evaluated by immunohistochemistry (IHC). RESULTS: PIN4, POP4, and PRKDC comprised RBscore, which stratified OS in TCGA-BLCA and remained prognostic in GSE13507. High RBscore tumors were enriched for antigen processing and presentation and ribosome-related programs, and RBscore groups differed in immune contexture. PRKDC expression correlated with immune checkpoint-related genes including CD274, TNFRSF14, and TNFRSF25. Pharmacogenomic analyses nominated candidate compounds, with docking supporting putative binding. TP53 mutations were more frequent in the high-RBscore group. RBscore genes showed tumor-associated dysregulation in cells and tissues. CONCLUSION: RBscore captures prognostic heterogeneity in BLCA and connects RiBi-associated transcriptional programs with pathway activity, immune contexture, and complementary pharmacogenomic and genomic features, providing a basis for integrative risk assessment and testable hypotheses for downstream validation.",
+    "keywords": [
+      "bladder cancer",
+      "immune responses",
+      "prognostic genes",
+      "prognostic model",
+      "ribosome biogenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/genetics/mortality/metabolism/pathology",
+      "Prognosis",
+      "*Ribosomes/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Biomarkers, Tumor/genetics",
+      "Transcriptome",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Guangyue",
+        "Wang, Weibo",
+        "Tai, Supeng",
+        "Yan, Lei",
+        "Luo, Hailang",
+        "Chang, Yifan",
+        "Yang, Lexing",
+        "Yan, Junyi",
+        "Zhou, Jun",
+        "Liang, Chaozhao"
+      ],
+      "short_names": [
+        "Luo G",
+        "Wang W",
+        "Tai S",
+        "Yan L",
+        "Luo H",
+        "Chang Y",
+        "Yang L",
+        "Yan J",
+        "Zhou J",
+        "Liang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Guangyue",
+        "short_name": "Luo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weibo",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Tai, Supeng",
+        "short_name": "Tai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Lei",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hailang",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Yifan",
+        "short_name": "Chang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lexing",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Junyi",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jun",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Chaozhao",
+        "short_name": "Liang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, Anhui, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 12:35",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40642093",
+      "40348668",
+      "39161208",
+      "39142717",
+      "39085878",
+      "38861928",
+      "38682589",
+      "38635891",
+      "38346808",
+      "38343327",
+      "38321289",
+      "38302992",
+      "38265030",
+      "38103068",
+      "38093288",
+      "37884563",
+      "37877779",
+      "37833415",
+      "36760500",
+      "36617563",
+      "36174585",
+      "35928878",
+      "35721116",
+      "35444234",
+      "34583722",
+      "34462428",
+      "33201207",
+      "33099228",
+      "32586950",
+      "32360052",
+      "32194788",
+      "31800162",
+      "30224644",
+      "29192214",
+      "28583312",
+      "27370177",
+      "26519775",
+      "25533674",
+      "25156366",
+      "24492433",
+      "21325451",
+      "19369196",
+      "18298902",
+      "14550630",
+      "7708751"
+    ],
+    "similar": [
+      "42079644",
+      "39749345",
+      "42079608",
+      "42493450",
+      "41685329",
+      "42220482",
+      "41233664",
+      "40057601",
+      "41882633",
+      "40330458",
+      "40615671",
+      "41727459",
+      "34315402",
+      "41132644",
+      "41093922",
+      "34708131",
+      "34112144",
+      "40779729",
+      "38518167",
+      "40642093",
+      "41153362",
+      "34930465",
+      "39033778",
+      "40108724",
+      "39867879",
+      "39107713",
+      "42317343",
+      "40735323",
+      "35154117",
+      "34579753",
+      "35958598",
+      "41272546",
+      "40918470",
+      "39664392",
+      "40438104",
+      "39234248",
+      "36357874",
+      "33685397",
+      "41656832",
+      "37178049",
+      "33894748",
+      "39816229",
+      "41019085",
+      "37790935",
+      "41578372",
+      "33391264",
+      "41789425",
+      "42164400",
+      "39430746",
+      "39104534",
+      "39995998",
+      "34975891",
+      "40481075",
+      "40376515",
+      "42292425",
+      "42317342",
+      "34374227",
+      "39473202",
+      "40528211",
+      "34418989",
+      "35581606",
+      "41872824",
+      "39269596",
+      "39810215",
+      "33048468",
+      "34926692",
+      "41925913",
+      "42164352",
+      "42030617",
+      "40959568",
+      "41582171",
+      "40693457",
+      "41337795",
+      "38968515",
+      "39260052",
+      "39343809",
+      "41249576",
+      "41799753",
+      "34484235",
+      "41208974",
+      "41981612",
+      "41409300",
+      "39075554",
+      "40410718",
+      "37965307",
+      "40259382",
+      "34721733",
+      "42495647",
+      "41601635",
+      "33150179",
+      "40524221",
+      "31333338",
+      "33184436",
+      "39816541",
+      "40746552",
+      "39029056",
+      "34802433",
+      "39572651",
+      "36245371",
+      "40390219"
+    ],
+    "review": [
+      "42079644"
+    ],
+    "pmc": [
+      "13128572"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42079644/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1810132",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "41312415",
+    "doi": "10.1155/bmri/4318115",
+    "title": "Mechanism of Curcumin in Inhibiting Proliferation of Head and Neck Squamous Cell Carcinoma: A Network Pharmacology and Cellular Experimental Study."
+  },
+  "content": {
+    "abstract": "Despite advances in cancer therapy, head and neck squamous cell carcinoma (HNSCC) remains a challenging malignancy with limited treatment options, prompting this investigation into curcumin's antitumor mechanisms through integrated network pharmacology, molecular docking, and in vitro experiments. Our comprehensive analysis identified 34 potential targets, with AKT1, EGFR, and STAT3 emerging as core targets primarily involved in regulating proliferation, apoptosis, and migration via the EGFR/STAT3 pathway. Experimental validation demonstrated curcumin's dose-dependent inhibition of viability, invasion, and migration in FaDu and CAL 27 cells, while promoting apoptosis and downregulating EGFR/STAT3 expression at both mRNA and protein levels-effects that were synergistically enhanced when combined with AG490 inhibitor. RNA-seq analysis further confirmed STAT pathway suppression as a key anticancer mechanism, collectively establishing curcumin's therapeutic potential through EGFR/STAT3 axis modulation. Overall, these preliminary network pharmacology and in vitro experimental results suggest that curcumin is a potential therapeutic agent for HNSCC and is worthy of further study. This study provides a certain theoretical basis for future clinical exploration.",
+    "keywords": [
+      "EGFR/STAT3 signaling pathway",
+      "RNA sequencing",
+      "curcumin",
+      "head and neck squamous cell carcinoma",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Curcumin/pharmacology/chemistry",
+      "Humans",
+      "*Cell Proliferation/drug effects",
+      "*Squamous Cell Carcinoma of Head and Neck/drug therapy/pathology/metabolism/genetics",
+      "Cell Line, Tumor",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "*Head and Neck Neoplasms/drug therapy/pathology/metabolism/genetics",
+      "Network Pharmacology",
+      "Apoptosis/drug effects",
+      "ErbB Receptors/metabolism/genetics",
+      "Cell Movement/drug effects",
+      "Signal Transduction/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Docking Simulation",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Cell Survival/drug effects",
+      "Antineoplastic Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yating",
+        "Liao, Yaqi",
+        "Fang, Shizhen",
+        "Zhu, Ling",
+        "Zhao, Zhang",
+        "Chen, Tingting",
+        "Zhang, Zhimin"
+      ],
+      "short_names": [
+        "He Y",
+        "Liao Y",
+        "Fang S",
+        "Zhu L",
+        "Zhao Z",
+        "Chen T",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3400-3587",
+        "ORCID: 0009-0002-6097-7326"
+      ],
+      "affiliations": [
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn.",
+        "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+        "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yating",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+          "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liao, Yaqi",
+        "short_name": "Liao Y",
+        "identifiers": [
+          "0009-0002-3400-3587"
+        ],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Shizhen",
+        "short_name": "Fang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ling",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhang",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tingting",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+          "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhimin",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0009-0002-6097-7326"
+        ],
+        "affiliations": [
+          "Department of Otolaryngology, The Third People's Hospital of Hubei Province, Wuhan, Hubei, China.",
+          "Department the Third People's Hospital of Hubei Province, Hubei University of Medicine, Shiyan, Hubei, China, hbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/28 06:28",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42440253",
+      "42353340",
+      "42198233",
+      "42197095"
+    ],
+    "refs": [
+      "38818652",
+      "38670940",
+      "38572751",
+      "38519500",
+      "38312990",
+      "38299278",
+      "38273747",
+      "38264081",
+      "38235919",
+      "38226733",
+      "38145454",
+      "38129361",
+      "37916332",
+      "37649266",
+      "37569677",
+      "36916236",
+      "36874006",
+      "36859398",
+      "36858276",
+      "36658129",
+      "36231093",
+      "35675271",
+      "35649486",
+      "35441996",
+      "35431006",
+      "35326785",
+      "35250567",
+      "35122990",
+      "35119677",
+      "34895945",
+      "34552878",
+      "34067112",
+      "33884283",
+      "33184454",
+      "32951583",
+      "32628350",
+      "31686003",
+      "31676542",
+      "31186087",
+      "30450157",
+      "30100160",
+      "29950857",
+      "29747654",
+      "29262277",
+      "29129908",
+      "28692140",
+      "24591517",
+      "18808311",
+      "18414491",
+      "17921993",
+      "15652232",
+      "12809600"
+    ],
+    "similar": [
+      "41312415",
+      "41962187",
+      "40452077",
+      "16642480",
+      "40762623",
+      "40615101",
+      "42086127",
+      "39954354",
+      "41129534",
+      "41266445",
+      "34281838",
+      "22313388",
+      "27090738",
+      "31864826",
+      "41490553",
+      "42149148",
+      "42551761",
+      "26895469",
+      "21622718",
+      "34257586",
+      "28873083",
+      "31545422",
+      "28138036",
+      "40392501",
+      "41386101",
+      "41759559",
+      "38822913",
+      "22825581",
+      "42310749",
+      "42674695",
+      "42106013",
+      "38736267",
+      "38493718",
+      "42233527",
+      "39707861",
+      "26505786",
+      "36151332",
+      "40908208",
+      "40913157",
+      "42611118",
+      "42065048",
+      "31575007",
+      "25400722",
+      "21576562",
+      "24675768",
+      "41525139",
+      "22787428",
+      "42035373",
+      "41194597",
+      "39566655",
+      "40121428",
+      "30341909",
+      "41456831",
+      "38821599",
+      "33040785",
+      "39848416",
+      "30431077",
+      "18326051",
+      "31387891",
+      "42123865",
+      "22865653",
+      "42272259",
+      "38592439",
+      "31863822",
+      "40269062",
+      "41848679",
+      "33059733",
+      "39672353",
+      "29540490",
+      "31297902",
+      "32471980",
+      "41171581",
+      "21878657",
+      "30585254",
+      "41129927",
+      "34870709",
+      "40831219",
+      "41429863",
+      "38777998",
+      "42689980",
+      "25328959",
+      "41380825",
+      "41965446",
+      "24586454",
+      "26177470",
+      "34614446",
+      "29247557",
+      "41511366",
+      "30870229",
+      "19318490",
+      "30111862",
+      "39199428",
+      "38977231",
+      "37373393",
+      "40266298",
+      "42319071",
+      "41351348",
+      "20388852",
+      "38941043",
+      "42462529"
+    ],
+    "review": [
+      "41312415"
+    ],
+    "pmc": [
+      "12649822"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/headandneckcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Head and Neck Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41312415/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/bmri/4318115",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

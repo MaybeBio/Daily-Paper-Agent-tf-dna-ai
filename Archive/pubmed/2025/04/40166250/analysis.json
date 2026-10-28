@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40166250",
+  "title": "Genomic Language Model for Predicting Enhancers and Their Allele-Specific Activity in the Human Genome.",
+  "authors": "Sathian, Rekha; Dutta, Pratik; Ay, Ferhat; Davuluri, Ramana V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-04-01",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用DNABERT基因组语言模型预测增强子及其等位基因特异性活性，虽涉及转录因子结合位点预测，但核心对象是增强子而非TF-DNA互作机制，方法可迁移至本课题。",
+  "abstract": "Predicting and deciphering the regulatory logic of enhancers is a challenging problem, due to the intricate sequence features and lack of consistent genetic or epigenetic signatures that can accurately discriminate enhancers from other genomic regions. Recent machine-learning based methods have spotlighted the importance of extracting nucleotide composition of enhancers but failed to learn the sequence context and perform suboptimally. Motivated by advances in genomic language models, we developed DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. We trained two different models, using large collection of enhancers curated from the ENCODE registry of candidate cis-Regulatory Elements. The best fine-tuned model achieved 88.05% accuracy with Matthews correlation coefficient of 76% on independent set aside data. Further, we present the analysis of the predicted enhancers for all chromosomes of the human genome by comparing with the enhancer regions reported in publicly available databases. Finally, we applied DNABERT-Enhancer along with other DNABERT based regulatory genomic region prediction models to predict candidate SNPs with allele-specific enhancer and transcription factor binding activity. The genome-wide enhancer annotations and candidate loss-of-function genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies.",
+  "abstract_zh": "预测和解读增强子的调控逻辑是一个具有挑战性的问题，这源于其复杂的序列特征以及缺乏能够准确区分增强子与其他基因组区域的一致遗传或表观遗传标记。近年来，基于机器学习的方法强调了提取增强子核苷酸组成的重要性，但未能学习序列上下文，且性能表现欠佳。受基因组语言模型进展的启发，我们开发了DNABERT-Enhancer，一种新颖的增强子预测方法，通过将DNABERT预训练语言模型应用于人类基因组。我们利用从ENCODE候选顺式调控元件注册表中精选的大型增强子集合，训练了两种不同的模型。最佳微调模型在独立测试数据上达到了88.05%的准确率，马修斯相关系数为76%。此外，我们通过将预测结果与公开数据库中报告的增强子区域进行比较，呈现了人类基因组所有染色体上预测增强子的分析。最后，我们将DNABERT-Enhancer与其他基于DNABERT的调控基因组区域预测模型结合，应用于预测具有等位基因特异性增强子及转录因子结合活性的候选单核苷酸多态性。DNABERT-Enhancer预测的全基因组增强子注释和候选功能丧失型遗传变异，为功能基因组学和临床基因组学研究中的基因组解读提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40166250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40166250/",
+  "paper_page_path": "papers/pubmed/40166250/index.html"
+}

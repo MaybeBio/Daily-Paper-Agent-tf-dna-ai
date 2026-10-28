@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35997564",
+  "title": "MMGraph: a multiple motif predictor based on graph neural network and coexisting probability for ATAC-seq data.",
+  "authors": "Zhang, Shuangquan; Yang, Lili; Wu, Xiaotian; Sheng, Nan; Fu, Yuan; Ma, Anjun; Wang, Yan",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-08-24",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用图神经网络从ATAC-seq数据中预测多个不同长度的转录因子结合位点（motif），核心是TF-DNA结合位点预测，方法为AI（GNN），但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "MOTIVATION: Transcription factor binding sites (TFBSs) prediction is a crucial step in revealing functions of transcription factors from high-throughput sequencing data. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) provides insight on TFBSs and nucleosome positioning by probing open chromatic, which can simultaneously reveal multiple TFBSs compare to traditional technologies. The existing tools based on convolutional neural network (CNN) only find the fixed length of TFBSs from ATAC-seq data. Graph neural network (GNN) can be considered as the extension of CNN, which has great potential in finding multiple TFBSs with different lengths from ATAC-seq data. RESULTS: We develop a motif predictor called MMGraph based on three-layer GNN and coexisting probability of k-mers for finding multiple motifs from ATAC-seq data. The results of the experiment which has been conducted on 88 ATAC-seq datasets indicate that MMGraph has achieved the best performance on area of eight metrics radar score of 2.31 and could find 207 higher-quality multiple motifs than other existing tools. AVAILABILITY AND IMPLEMENTATION: MMGraph is wrapped in Python package, which is available at https://github.com/zhangsq06/MMGraph.git. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：转录因子结合位点（TFBSs）预测是从高通量测序数据中揭示转录因子功能的关键步骤。利用测序技术检测转座酶可及染色质（ATAC-seq）通过探测开放染色质提供对TFBSs和核小体定位的见解，与传统技术相比，可同时揭示多个TFBSs。现有基于卷积神经网络（CNN）的工具仅能从ATAC-seq数据中识别固定长度的TFBSs。图神经网络（GNN）可视为CNN的扩展，在从ATAC-seq数据中发现不同长度的多个TFBSs方面具有巨大潜力。结果：我们开发了一种名为MMGraph的基序预测器，基于三层GNN和k-mer共存概率，用于从ATAC-seq数据中发现多个基序。在88个ATAC-seq数据集上进行的实验结果表明，MMGraph在八项指标雷达图得分2.31方面取得了最佳性能，并能比现有其他工具发现207个更高质量的多个基序。可用性与实现：MMGraph封装在Python包中，可在https://github.com/zhangsq06/MMGraph.git获取。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35997564/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35997564/",
+  "paper_page_path": "papers/pubmed/35997564/index.html"
+}

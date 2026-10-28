@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39227799",
+  "title": "Predicting splicing patterns from the transcription factor binding sites in the promoter with deep learning.",
+  "authors": "Lin, Tzu-Chieh; Tsai, Cheng-Hung; Shiau, Cheng-Kai; Huang, Jia-Hsin; Tsai, Huai-Kuang",
+  "journal": "BMC genomics",
+  "published_date": "2024-09-04",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测启动子区TF结合位点与下游可变剪接模式的关系，虽涉及TF-DNA结合位点，但核心是剪接调控而非TF-DNA互作机制建模，方法可迁移但对象和互作轴偏离。",
+  "abstract": "BACKGROUND: Alternative splicing is a pivotal mechanism of post-transcriptional modification that contributes to the transcriptome plasticity and proteome diversity in metazoan cells. Although many splicing regulations around the exon/intron regions are known, the relationship between promoter-bound transcription factors and the downstream alternative splicing largely remains unexplored. RESULTS: In this study, we present computational approaches to unravel the regulatory relationship between promoter-bound transcription factor binding sites (TFBSs) and the splicing patterns. We curated a fine dataset that includes DNase I hypersensitive site sequencing and transcriptomes across fifteen human tissues from ENCODE. Specifically, we proposed different representations of TF binding context and splicing patterns to examine the associations between the promoter and downstream splicing events. While machine learning models demonstrated potential in predicting splicing patterns based on TFBS occupancies, the limitations in the generalization of predicting the splicing forms of singleton genes across diverse tissues was observed with carefully examination using different cross-validation methods. We further investigated the association between alterations in individual TFBS at promoters and shifts in exon splicing efficiency. Our results demonstrate that the convolutional neural network (CNN) models, trained on TF binding changes in the promoters, can predict the changes in splicing patterns. Furthermore, a systemic in silico substitutions analysis on the CNN models highlighted several potential splicing regulators. Notably, using empirical validation using K562 CTCFL shRNA knock-down data, we showed the significant role of CTCFL in splicing regulation. CONCLUSION: In conclusion, our finding highlights the potential role of promoter-bound TFBSs in influencing the regulation of downstream splicing patterns and provides insights for discovering alternative splicing regulations.",
+  "abstract_zh": "背景：可变剪接是转录后修饰的关键机制，有助于后生动物细胞中转录组可塑性和蛋白质组多样性。尽管已知许多外显子/内含子区域的剪接调控，但启动子结合的转录因子与下游可变剪接之间的关系在很大程度上仍未探索。结果：在本研究中，我们提出了计算方法来揭示启动子结合的转录因子结合位点（TFBSs）与剪接模式之间的调控关系。我们整理了一个精细数据集，包括来自ENCODE的十五种人类组织中的DNase I超敏感位点测序和转录组数据。具体而言，我们提出了不同的转录因子结合上下文和剪接模式表示方法，以检查启动子与下游剪接事件之间的关联。虽然机器学习模型展示了基于TFBS占据预测剪接模式的潜力，但通过仔细使用不同交叉验证方法，观察到在预测跨多样组织中单基因剪接形式方面的泛化局限性。我们进一步研究了启动子中单个TFBS变化与外显子剪接效率变化之间的关联。我们的结果表明，基于启动子中转录因子结合变化训练的卷积神经网络（CNN）模型可以预测剪接模式的变化。此外，对CNN模型进行系统性计算机模拟替换分析，突出了几个潜在的剪接调控因子。值得注意的是，使用K562 CTCFL shRNA敲低数据的经验验证，我们展示了CTCFL在剪接调控中的重要作用。结论：总之，我们的发现强调了启动子结合的TFBSs在影响下游剪接模式调控中的潜在作用，并为发现可变剪接调控提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39227799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39227799/",
+  "paper_page_path": "papers/pubmed/39227799/index.html"
+}

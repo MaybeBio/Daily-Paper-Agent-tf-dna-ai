@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33983381",
+  "title": "In silico prediction of in vitro protein liquid-liquid phase separation experiments outcomes with multi-head neural attention.",
+  "authors": "Raimondi, Daniele; Orlando, Gabriele; Michiels, Emiel; Pakravan, Donya; Bratek-Skicki, Anna; Van Den Bosch, Ludo; Moreau, Yves; Rousseau, Frederic; Schymkowitz, Joost",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2021-05-14",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用多头注意力神经网络预测蛋白质液-液相分离实验条件，虽涉及TAR DNA结合蛋白但核心是相分离而非TF-DNA互作，且无结合位点或互作机制建模，与本课题关联微弱。",
+  "abstract": "MOTIVATION: Proteins able to undergo liquid-liquid phase separation (LLPS) in vivo and in vitro are drawing a lot of interest, due to their functional relevance for cell life. Nevertheless, the proteome-scale experimental screening of these proteins seems unfeasible, because besides being expensive and time-consuming, LLPS is heavily influenced by multiple environmental conditions such as concentration, pH and temperature, thus requiring a combinatorial number of experiments for each protein. RESULTS: To overcome this problem, we propose a neural network model able to predict the LLPS behavior of proteins given specified experimental conditions, effectively predicting the outcome of in vitro experiments. Our model can be used to rapidly screen proteins and experimental conditions searching for LLPS, thus reducing the search space that needs to be covered experimentally. We experimentally validate Droppler's prediction on the TAR DNA-binding protein in different experimental conditions, showing the consistency of its predictions. AVAILABILITY AND IMPLEMENTATION: A python implementation of Droppler is available at https://bitbucket.org/grogdrinker/droppler. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：能够在体内和体外进行液-液相分离（LLPS）的蛋白质因其对细胞生命的功能相关性而备受关注。然而，对这些蛋白质进行蛋白质组规模的实验筛选似乎不可行，因为除了成本高昂且耗时外，LLPS还受到多种环境条件（如浓度、pH值和温度）的显著影响，因此每种蛋白质都需要进行组合数量的实验。结果：为克服这一问题，我们提出了一种神经网络模型，能够在给定特定实验条件下预测蛋白质的LLPS行为，有效预测体外实验的结果。我们的模型可用于快速筛选蛋白质和实验条件以寻找LLPS，从而缩小需要实验覆盖的搜索空间。我们在不同实验条件下对TAR DNA结合蛋白的Droppler预测进行了实验验证，显示其预测的一致性。可用性与实现：Droppler的Python实现可在https://bitbucket.org/grogdrinker/droppler获取。补充信息：补充数据可在《生物信息学》在线版获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33983381/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33983381/",
+  "paper_page_path": "papers/pubmed/33983381/index.html"
+}

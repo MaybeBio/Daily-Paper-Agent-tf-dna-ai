@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "pmid": "34489442",
+    "doi": "10.1038/s41467-021-25521-7",
+    "title": "The concurrence of DNA methylation and demethylation is associated with transcription regulation."
+  },
+  "content": {
+    "abstract": "The mammalian DNA methylome is formed by two antagonizing processes, methylation by DNA methyltransferases (DNMT) and demethylation by ten-eleven translocation (TET) dioxygenases. Although the dynamics of either methylation or demethylation have been intensively studied in the past decade, the direct effects of their interaction on gene expression remain elusive. Here, we quantify the concurrence of DNA methylation and demethylation by the percentage of unmethylated CpGs within a partially methylated read from bisulfite sequencing. After verifying 'methylation concurrence' by its strong association with the co-localization of DNMT and TET enzymes, we observe that methylation concurrence is strongly correlated with gene expression. Notably, elevated methylation concurrence in tumors is associated with the repression of 40~60% of tumor suppressor genes, which cannot be explained by promoter hypermethylation alone. Furthermore, methylation concurrence can be used to stratify large undermethylated regions with negligible differences in average methylation into two subgroups with distinct chromatin accessibility and gene regulation patterns. Together, methylation concurrence represents a unique methylation metric important for transcription regulation and is distinct from conventional metrics, such as average methylation and methylation variation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Chromatin/chemistry/metabolism",
+      "CpG Islands",
+      "DNA/genetics/metabolism",
+      "*DNA Methylation",
+      "DNA Modification Methylases/*genetics/metabolism",
+      "DNA-Binding Proteins/*genetics/metabolism",
+      "*Epigenesis, Genetic",
+      "Gene Ontology",
+      "*Genome",
+      "Histones/genetics/metabolism",
+      "Humans",
+      "Isoenzymes/genetics/metabolism",
+      "Mice",
+      "Molecular Sequence Annotation",
+      "Mouse Embryonic Stem Cells/cytology/metabolism",
+      "Neoplasms/*genetics/metabolism/pathology",
+      "Proto-Oncogene Proteins/*genetics/metabolism",
+      "T-Lymphocytes/cytology/metabolism",
+      "*Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Jiejun",
+        "Xu, Jianfeng",
+        "Chen, Yiling Elaine",
+        "Li, Jason Sheng",
+        "Cui, Ya",
+        "Shen, Lanlan",
+        "Li, Jingyi Jessica",
+        "Li, Wei"
+      ],
+      "short_names": [
+        "Shi J",
+        "Xu J",
+        "Chen YE",
+        "Li JS",
+        "Cui Y",
+        "Shen L",
+        "Li JJ",
+        "Li W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9777-1183",
+        "ORCID: 0000-0001-7259-2787",
+        "ORCID: 0000-0003-0485-7194",
+        "ORCID: 0000-0003-1574-0928",
+        "ORCID: 0000-0002-1532-5807",
+        "ORCID: 0000-0002-9288-5648",
+        "ORCID: 0000-0001-9931-5990"
+      ],
+      "affiliations": [
+        "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA.",
+        "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Statistics, University of California, Los Angeles, CA, USA.",
+        "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA.",
+        "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA.",
+        "Department of Pediatrics, Baylor College of Medicine, USDA/ARS Children's Nutrition Research Center, Houston, TX, USA.",
+        "Department of Statistics, University of California, Los Angeles, CA, USA.",
+        "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA. wei.li@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Jiejun",
+        "short_name": "Shi J",
+        "identifiers": [
+          "0000-0001-9777-1183"
+        ],
+        "affiliations": [
+          "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Jianfeng",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiling Elaine",
+        "short_name": "Chen YE",
+        "identifiers": [
+          "0000-0001-7259-2787"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Jason Sheng",
+        "short_name": "Li JS",
+        "identifiers": [
+          "0000-0003-0485-7194"
+        ],
+        "affiliations": [
+          "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cui, Ya",
+        "short_name": "Cui Y",
+        "identifiers": [
+          "0000-0003-1574-0928"
+        ],
+        "affiliations": [
+          "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Lanlan",
+        "short_name": "Shen L",
+        "identifiers": [
+          "0000-0002-1532-5807"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Baylor College of Medicine, USDA/ARS Children's Nutrition Research Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyi Jessica",
+        "short_name": "Li JJ",
+        "identifiers": [
+          "0000-0002-9288-5648"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0001-9931-5990"
+        ],
+        "affiliations": [
+          "Division of Computational Biomedicine, Department of Biological Chemistry, School of Medicine, University of California, Irvine, Irvine, CA, USA. wei.li@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Sep 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/08 06:00",
+    "fetched_at": "2026-09-27 23:22:47"
+  },
+  "links": {
+    "cites": [
+      "42663086",
+      "42346511",
+      "42344899",
+      "42104475",
+      "41987793",
+      "41939844",
+      "41892218",
+      "41661344",
+      "41206940",
+      "41120937",
+      "40937564",
+      "40869302",
+      "40806343",
+      "40710357",
+      "40520993",
+      "40405312",
+      "40276507",
+      "40259045",
+      "39856421",
+      "39844333",
+      "39837857",
+      "39730678",
+      "39717245",
+      "39658059",
+      "39592582",
+      "39500892",
+      "39499149",
+      "39437851",
+      "39381371",
+      "39376563",
+      "39268252",
+      "39100234",
+      "39056791",
+      "39026756",
+      "38898118",
+      "38872911",
+      "38544480",
+      "37941029",
+      "37894353",
+      "37831137",
+      "37762369",
+      "37287285",
+      "37198402",
+      "37143122",
+      "37029425",
+      "36250949",
+      "36176958",
+      "36060265",
+      "35633417",
+      "35304597",
+      "35246225",
+      "34834581"
+    ],
+    "refs": [
+      "33452255",
+      "32514123",
+      "32471981",
+      "32386543",
+      "32103242",
+      "31554804",
+      "31092926",
+      "30293088",
+      "30104384",
+      "30097071",
+      "30001199",
+      "29625053",
+      "29422066",
+      "29203910",
+      "29168507",
+      "28473536",
+      "28346445",
+      "28263317",
+      "27867036",
+      "27428748",
+      "27079975",
+      "26631489",
+      "26000489",
+      "25693563",
+      "25607372",
+      "25490447",
+      "24953053",
+      "24339862",
+      "24270360",
+      "23995138",
+      "23664764",
+      "23610441",
+      "23193179",
+      "23104886",
+      "23064413",
+      "22539555",
+      "22388286",
+      "22216861",
+      "22155871",
+      "21816040",
+      "21490601",
+      "21451524",
+      "20639862",
+      "20513432",
+      "20110278",
+      "19829295",
+      "19738629",
+      "19635165",
+      "19372391",
+      "19329998",
+      "19204718",
+      "19131956",
+      "19026781",
+      "17340613",
+      "17334365",
+      "17060944",
+      "16199517",
+      "15339928",
+      "15225548",
+      "14627790",
+      "12773551",
+      "12154405",
+      "10555141",
+      "10339549",
+      "3656447",
+      "1542678"
+    ],
+    "similar": [
+      "34489442",
+      "32471981",
+      "27989104",
+      "38300758",
+      "30948436",
+      "27849519",
+      "26598602",
+      "27760115",
+      "25979370",
+      "29482634",
+      "22902005",
+      "11713309",
+      "11094764",
+      "27916660",
+      "24194590",
+      "22246327",
+      "24521710",
+      "26671928",
+      "27681438",
+      "30697918",
+      "27288448",
+      "17708532",
+      "22974304",
+      "33388378",
+      "25607372",
+      "27036965",
+      "23926181",
+      "26932196",
+      "33555502",
+      "27593931",
+      "22346766",
+      "24335252",
+      "19557159",
+      "25223896",
+      "27863519",
+      "34997955",
+      "21451524",
+      "28115635",
+      "34588447",
+      "23669186",
+      "23719188",
+      "27681430",
+      "36266342",
+      "28450733",
+      "30917865",
+      "18451217",
+      "15172996",
+      "21593859",
+      "12244565",
+      "17301518",
+      "23698584",
+      "23812591",
+      "23353889",
+      "31286885",
+      "27869616",
+      "35953487",
+      "26177506",
+      "34986190",
+      "25510268",
+      "35955629",
+      "20098704",
+      "28449087",
+      "22157888",
+      "27151232",
+      "26287468",
+      "20618997",
+      "24655585",
+      "30753827",
+      "30651599",
+      "33199496",
+      "16329111",
+      "25982203",
+      "11865062",
+      "30572012",
+      "36350516",
+      "15389632",
+      "27662091",
+      "31541101",
+      "28423671",
+      "26130713",
+      "12409468",
+      "26620559",
+      "26497311",
+      "12612069",
+      "21287394",
+      "15467427",
+      "23625996",
+      "25942534",
+      "19509173",
+      "30617255",
+      "33058920",
+      "28396520",
+      "22479200",
+      "26397890",
+      "33913031",
+      "36645853",
+      "38598002",
+      "30575519",
+      "39334883",
+      "37161276",
+      "32275652",
+      "33604794",
+      "23474979",
+      "38783076",
+      "35440061",
+      "34663963",
+      "36519514",
+      "34773120",
+      "37395395",
+      "34742794",
+      "29795194",
+      "39125894",
+      "36922640",
+      "37480509",
+      "37001316",
+      "35132177"
+    ],
+    "review": [
+      "34489442",
+      "25979370",
+      "11094764",
+      "26671928",
+      "17708532",
+      "22974304",
+      "27036965",
+      "23669186",
+      "23719188",
+      "28450733",
+      "12244565",
+      "17301518",
+      "23698584",
+      "25510268",
+      "22157888",
+      "27151232",
+      "30572012",
+      "23625996",
+      "25942534",
+      "33913031",
+      "38598002",
+      "39334883",
+      "33604794",
+      "23474979",
+      "36519514",
+      "34773120",
+      "39125894",
+      "37480509"
+    ],
+    "pmc": [
+      "8421433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25521-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34489442/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34489442",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt13g4w9tp",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34489442",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

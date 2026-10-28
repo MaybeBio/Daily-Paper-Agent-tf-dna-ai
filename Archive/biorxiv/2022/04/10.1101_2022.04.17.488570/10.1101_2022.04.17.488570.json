@@ -1,0 +1,790 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.17.488570",
+  "title": "Inferring functions of coding and non-coding genes using epigenomic patterns and deciphering the effect of combinatorics of transcription factors binding at promoters",
+  "doi": "10.1101/2022.04.17.488570",
+  "abstract": "The number of annotated genes in the human genome has increased tremendously, and understanding their biological role is challenging through experimental methods alone. There is a need for a computational approach to infer the function of genes, particularly for non-coding RNAs, with reliable explainability. We have utilized genomic features that are present across both coding and non-coding genes like transcription factor (TF) binding pattern, histone modifications, and DNase hypersensitivity profiles to predict ontology-based functions of genes. Our approach for gene function prediction (GFPred) made reliable predictions (>90% balanced accuracy) for 486 gene-sets. Further analysis revealed that predictability using only TF-binding patterns at promoters is also high, and it paved the way for studying the effect of their combinatorics. The predicted associations between functions and genes were validated for their reliability using PubMed abstract mining. Clustering functions based on shared top predictive TFs revealed many latent groups of gene-sets involved in common major biological processes. Available CRISPR screens also supported the inferred association of genes with the major biological processes of latent groups of gene-sets. For the explainability of our approach, we also made more insights into the effect of combinatorics of TF binding (especially TF-pairs) on association with biological functions.",
+  "authors": [
+    "Omkar Chandra",
+    "Madhu Sharma",
+    "Neetesh Pandey",
+    "Indra Prakash Jha",
+    "Shreya Mishra",
+    "Say Li Kong",
+    "Vibhor Kumar"
+  ],
+  "published_date": "2022-04-17",
+  "updated_date": "2022-04-18T00:50:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488570",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488570.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:09:29Z",
+        "timestamp": 1768500569793,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The number of annotated genes in the human genome has increased tremendously, and understanding their biological role is challenging through experimental methods alone. There is a need for a computational approach to infer the function of genes, particularly for non-coding RNAs, with reliable explainability. We have utilized genomic features that are present across both coding and non-coding genes like transcription factor (TF) binding pattern, histone modifications, and DNase hypersensitivity profiles to predict ontology-based functions of genes. Our approach for gene function prediction (GFPred) made reliable predictions (&gt;90% balanced accuracy) for 486 gene-sets. Further analysis revealed that predictability using only TF-binding patterns at promoters is also high, and it paved the way for studying the effect of their combinatorics. The predicted associations between functions and genes were validated for their reliability using PubMed abstract mining. Clustering functions based on shared top predictive TFs revealed many latent groups of gene-sets involved in common major biological processes. Available CRISPR screens also supported the inferred association of genes with the major biological processes of latent groups of gene-sets. For the explainability of our approach, we also made more insights into the effect of combinatorics of TF binding (especially TF-pairs) on association with biological functions.</jats:p>",
+      "DOI": "10.1101/2022.04.17.488570",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2022-04-18T00:50:11Z",
+        "timestamp": 1650243011000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Inferring functions of coding and non-coding genes using epigenomic patterns and deciphering the effect of combinatorics of transcription factors binding at promoters"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Omkar",
+          "family": "Chandra",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Madhu",
+          "family": "Sharma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Neetesh",
+          "family": "Pandey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Indra Prakash",
+          "family": "Jha",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shreya",
+          "family": "Mishra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Say Li",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vibhor",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "11",
+          "key": "2022041908300579000_2022.04.17.488570v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1083",
+          "DOI": "10.1038/nmeth.4463",
+          "article-title": "SCENIC: Single-Cell Regulatory Network Inference and Clustering",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.005103"
+        },
+        {
+          "issue": "23",
+          "key": "2022041908300579000_2022.04.17.488570v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "7339",
+          "DOI": "10.1007/s00018-021-03975-8",
+          "article-title": "Key Features of the POU Transcription Factor Oct4 from an Evolutionary Perspective",
+          "volume": "78",
+          "year": "2021",
+          "journal-title": "Cellular and Molecular Life Sciences: CMLS"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Blake, J. A. , R. Baldarelli , J. A. Kadin , J. E. Richardson , C. L. Smith , and C. J. Bult . 2021. “Mouse Genome Database (MGD): Knowledgebase for Mouse-Human Comparative Biology.” Nucleic Acids Research 49 (D1). https://doi.org/10.1093/nar/gkaa1083.",
+          "DOI": "10.1093/nar/gkaa1083"
+        },
+        {
+          "issue": "March",
+          "key": "2022041908300579000_2022.04.17.488570v1.5",
+          "first-page": "277",
+          "article-title": "LncRNA Functions as a New Emerging Epigenetic Factor in Determining the Fate of Stem Cells",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "issue": "April",
+          "key": "2022041908300579000_2022.04.17.488570v1.6",
+          "first-page": "648111",
+          "article-title": "Identification and Functional Prediction of Long Non-Coding RNAs in Dilated Cardiomyopathy by Bioinformatics Analysis",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gbe/evw228"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Donato, Luigi , Concetta Scimone , Simona Alibrandi , Carmela Rinaldi , Antonina Sidoti , and Rosalia D’Angelo . 2020. “Transcriptome Analyses of lncRNAs in A2E-Stressed Retinal Epithelial Cells Unveil Advanced Links between Metabolic Impairments Related to Oxidative Stress and Retinitis Pigmentosa.” Antioxidants (Basel, Switzerland) 9 (4). https://doi.org/10.3390/antiox9040318.",
+          "DOI": "10.3390/antiox9040318"
+        },
+        {
+          "issue": "3",
+          "key": "2022041908300579000_2022.04.17.488570v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "595",
+          "DOI": "10.1007/s13402-021-00586-0",
+          "article-title": "Long Non-Coding RNA LINC01137 Contributes to Oral Squamous Cell Carcinoma Development and Is Negatively Regulated by miR-22-3p",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "Cellular Oncology"
+        },
+        {
+          "issue": "August",
+          "key": "2022041908300579000_2022.04.17.488570v1.10",
+          "first-page": "104050",
+          "article-title": "mRNA Expression Data in Breast Cancers before and after Consumption of Walnut by Women",
+          "volume": "25",
+          "year": "2019",
+          "journal-title": "Data in Brief"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.11",
+          "unstructured": "Ester, M. , H. P. Kriegel , J. Sander , and X. Xu . 1996. “A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise.” KDD: Proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining. https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf?source=post_page."
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.24.1.362-376.2004"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huynh-Thu, Vân Anh , Alexandre Irrthum , Louis Wehenkel , and Pierre Geurts . 2010. “Inferring Regulatory Networks from Expression Data Using Tree-Based Methods.” PloS One 5 (9). https://doi.org/10.1371/journal.pone.0012776.",
+          "DOI": "10.1371/journal.pone.0012776"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz462"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2019.08.017"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kenny, Colin , Elaine O’Meara , Mevlüt Ulaş , Karsten Hokamp , and Maureen J. O’Sullivan . 2021. “Global Chromatin Changes Resulting from Single-Gene Inactivation—The Role of SMARCB1 in Malignant Rhabdoid Tumor.” Cancers. https://doi.org/10.3390/cancers13112561.",
+          "DOI": "10.3390/cancers13112561"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.08.018"
+        },
+        {
+          "issue": "6",
+          "key": "2022041908300579000_2022.04.17.488570v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e166",
+          "DOI": "10.1038/emm.2015.33",
+          "article-title": "CTCF as a Multifunctional Protein in Genome Regulation and Gene Expression",
+          "volume": "47",
+          "year": "2015",
+          "journal-title": "Experimental & Molecular Medicine"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz595"
+        },
+        {
+          "issue": "4",
+          "key": "2022041908300579000_2022.04.17.488570v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "660",
+          "DOI": "10.1093/bioinformatics/btx624",
+          "article-title": "DeepGO: Predicting Protein Functions from Sequence and Interactions Using a Deep Ontology-Aware Classifier",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2596"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr260"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Bing , Michael Carey , and Jerry L. Workman . 2007. “The Role of Chromatin during Transcription.” Cell. https://doi.org/10.1016/j.cell.2007.01.015.",
+          "DOI": "10.1016/j.cell.2007.01.015"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, Guojun , Zihao Chen , Irina G. Danilova , Mikhail A. Bolkov , Irina A. Tuzankina , and Guoqing Liu . 2018. “Identification of miR-200c and miR141-Mediated lncRNA-mRNA Crosstalks in Muscle-Invasive Bladder Cancer Subtypes.” Frontiers in Genetics 0. https://doi.org/10.3389/fgene.2018.00422.",
+          "DOI": "10.3389/fgene.2018.00422"
+        },
+        {
+          "issue": "March",
+          "key": "2022041908300579000_2022.04.17.488570v1.25",
+          "first-page": "622880",
+          "article-title": "Developing a lncRNA Signature to Predict the Radiotherapy Response of Lower-Grade Gliomas Using Co-Expression and ceRNA Network Analysis",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Frontiers in Oncology"
+        },
+        {
+          "issue": "8",
+          "key": "2022041908300579000_2022.04.17.488570v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "796",
+          "DOI": "10.1038/nmeth.2016",
+          "article-title": "Wisdom of Crowds for Robust Gene Network Inference",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "August",
+          "key": "2022041908300579000_2022.04.17.488570v1.27",
+          "first-page": "707854",
+          "article-title": "The SIX Family of Transcription Factors: Common Themes Integrating Developmental and Cancer Biology",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "Frontiers in Cell and Developmental Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "206",
+          "DOI": "10.1186/s12859-021-04130-7",
+          "article-title": "Correlation AnalyzeR: Functional Predictions from Gene Co-Expression Correlations",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pech, Matthew F. , Linda E. Fong , Jacqueline E. Villalta , Leanne Jg Chan , Samir Kharbanda , Jonathon J. O’Brien , Fiona E. McAllister , Ari J. Firestone , Calvin H. Jan , and Jeffrey Settleman . 2019. “Systematic Identification of Cancer Cell Vulnerabilities to Natural Killer Cell-Mediated Immune Surveillance.” eLife 8 (August). https://doi.org/10.7554/eLife.47362.",
+          "DOI": "10.7554/eLife.47362"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw943"
+        },
+        {
+          "issue": "4",
+          "key": "2022041908300579000_2022.04.17.488570v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "773",
+          "DOI": "10.1016/j.ajhg.2019.09.001",
+          "article-title": "Adipose Tissue Gene Expression Associations Reveal Hundreds of Candidate Genes for Cardiometabolic Traits",
+          "volume": "105",
+          "year": "2019",
+          "journal-title": "American Journal of Human Genetics"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rinn, John L. , and Howard Y. Chang . 2012. “Genome Regulation by Long Noncoding RNAs,” June. https://doi.org/10.1146/annurev-biochem-051410-092902.",
+          "DOI": "10.1146/annurev-biochem-051410-092902"
+        },
+        {
+          "issue": "5",
+          "key": "2022041908300579000_2022.04.17.488570v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1792",
+          "DOI": "10.1159/000493625",
+          "article-title": "lncRNA DLG1-AS1 Promotes Cell Proliferation by Competitively Binding with miR-107 and Up-Regulating ZHX1 Expression in Cervical Cancer",
+          "volume": "49",
+          "year": "2018",
+          "journal-title": "Cellular Physiology and Biochemistry: International Journal of Experimental Cellular Physiology, Biochemistry, and Pharmacology"
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "16945",
+          "DOI": "10.1038/s41598-020-73787-6",
+          "article-title": "Assessment of Long Non-Coding RNA Expression Reveals Novel Mediators of the Lung Tumour Immune Response",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "issue": "February",
+          "key": "2022041908300579000_2022.04.17.488570v1.35",
+          "first-page": "4",
+          "article-title": "Identification of a Set of miRNAs Differentially Expressed in Transiently TIA-Depleted HeLa Cells by Genome-Wide Profiling",
+          "volume": "14",
+          "year": "2013",
+          "journal-title": "BMC Molecular Biology"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.10.018"
+        },
+        {
+          "issue": "2",
+          "key": "2022041908300579000_2022.04.17.488570v1.37",
+          "first-page": "17",
+          "article-title": "Long Non-Coding RNA-Mediated Regulation of Glucose Homeostasis and Diabetes",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "American Journal of Cardiovascular Disease"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-015-0050-4"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1099"
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1464",
+          "DOI": "10.1038/s41467-021-21671-w",
+          "article-title": "Improving Gene Function Predictions Using Independent Transcriptional Components",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "12",
+          "key": "2022041908300579000_2022.04.17.488570v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005244",
+          "DOI": "10.1371/journal.pcbi.1005244",
+          "article-title": "Utility and Limitations of Using Gene Expression Data to Identify Functional Associations",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.42",
+          "unstructured": "Van der Maaten, Laurens , and Geoffrey Hinton . 2008. “Visualizing Data Using T-SNE.” Journal of Machine Learning Research: JMLR 9 (11). https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf?fbclid=IwA."
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "2555",
+          "DOI": "10.1038/s41467-021-22828-3",
+          "article-title": "Co-Occupancy Identifies Transcription Factor Co-Operation for Axon Growth",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Venters, B. J. , and B. F. Pugh . 2013. “Genomic Organization of Human Transcription Initiation Complexes.” Nature 502 (7469). https://doi.org/10.1038/nature12535.",
+          "DOI": "10.1038/nature12535"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1004666107"
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "2412",
+          "DOI": "10.1038/s41598-018-20744-z",
+          "article-title": "Transcriptomic Changes in the Pre-Implantation Uterus Highlight Histotrophic Nutrition of the Developing Marsupial Embryo",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "issue": "9",
+          "key": "2022041908300579000_2022.04.17.488570v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0162931",
+          "DOI": "10.1371/journal.pone.0162931",
+          "article-title": "Detecting Cooperativity between Transcription Factors Based on Functional Coherence and Similarity of Their Target Gene Sets",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "PloS One"
+        },
+        {
+          "issue": "12",
+          "key": "2022041908300579000_2022.04.17.488570v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "e82872",
+          "DOI": "10.1371/journal.pone.0082872",
+          "article-title": "Identification of Poly(ADP-Ribose) Polymerase-1 as a Cell Cycle Regulator through Modulating Sp1 Mediated Transcription in Human Hepatoma Cells",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "PloS One"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts504"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.01.029"
+        },
+        {
+          "issue": "7848",
+          "key": "2022041908300579000_2022.04.17.488570v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1038/s41586-021-03211-0",
+          "article-title": "Systematic Analysis of Binding of Transcription Factors to Noncoding Variants",
+          "volume": "591",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "W1",
+          "key": "2022041908300579000_2022.04.17.488570v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "W469",
+          "DOI": "10.1093/nar/gkab398",
+          "article-title": "NetGO 2.0: Improving Large-Scale Protein Function Prediction with Massive Sequence, Text, Domain, Family and Network Information",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-018-0088-1"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Hanyu , Che-Lun Hung , Meiyuan Liu , Xiaoye Hu , and Yi-Yang Lin . 2019. “NCNet: Deep Learning Network Models for Predicting Function of Non-Coding DNA.” Frontiers in Genetics 0. https://doi.org/10.3389/fgene.2019.00432.",
+          "DOI": "10.3389/fgene.2019.00432"
+        },
+        {
+          "issue": "1",
+          "key": "2022041908300579000_2022.04.17.488570v1.55",
+          "first-page": "1",
+          "article-title": "CTCF and Transcription Influence Chromatin Structure Re-Configuration after Mitosis",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "22",
+          "key": "2022041908300579000_2022.04.17.488570v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "5573",
+          "DOI": "10.3390/ijms20225573",
+          "article-title": "Mechanisms and Functions of Long Non-Coding RNAs at Multiple Regulatory Levels",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao, Yingwen , Jun Wang , Jian Chen , Xiangliang Zhang , Maozu Guo , and Guoxian Yu . 2020. “A Literature Review of Gene Function Prediction by Modeling Gene Ontology.” Frontiers in Genetics 0. https://doi.org/10.3389/fgene.2020.00400.",
+          "DOI": "10.3389/fgene.2020.00400"
+        },
+        {
+          "issue": "101",
+          "key": "2022041908300579000_2022.04.17.488570v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "37471",
+          "DOI": "10.18632/oncotarget.23928",
+          "article-title": "Linc00441 Interacts with DNMT1 to Regulate RB1 Gene Methylation and Expression in Gastric Cancer",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Oncotarget"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1835-8"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-237"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, Ping , Jing Pan , Qian Qian Cai , Fan Zhang , Min Peng , Xing Li Fan , Hua Ji , Yi Wei Dong , Xing Zhong Wu , and Li Hui Wu . 2022. “MicroRNA Profile as Potential Molecular Signature for Attention Deficit Hyperactivity Disorder in Children.” Biomarkers: Biochemical Indicators of Exposure, Response, and Susceptibility to Chemicals, February, 1–10.",
+          "DOI": "10.1080/1354750X.2021.2024600"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oki S , Ohta T , Shioi G , et al. ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Rep. 2018; 19:",
+          "DOI": "10.15252/embr.201846255"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2596"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1087"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1189"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Blake JA , Baldarelli R , Kadin JA , et al. Mouse Genome Database (MGD): Knowledgebase for mouse-human comparative biology. Nucleic Acids Res. 2021; 49:",
+          "DOI": "10.1093/nar/gkaa1083"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw943"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "e12698",
+          "DOI": "10.1111/gbb.12698",
+          "article-title": "A long non-coding RNA (Lrap) modulates brain gene expression and levels of alcohol consumption in rats",
+          "volume": "20",
+          "year": "2021",
+          "journal-title": "Genes Brain Behav"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "622880",
+          "DOI": "10.3389/fonc.2021.622880",
+          "article-title": "Developing a lncRNA Signature to Predict the Radiotherapy Response of Lower-Grade Gliomas Using Co-expression and ceRNA Network Analysis",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Front. Oncol"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "8060477",
+          "DOI": "10.1155/2021/8060477",
+          "article-title": "Role of Calcium Signaling Pathway-Related Gene Regulatory Networks in Ischemic Stroke Based on Multiple WGCNA and Single-Cell Analysis",
+          "volume": "2021",
+          "year": "2021",
+          "journal-title": "Oxid. Med. Cell. Longev"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Todoerti K , Ronchetti D , Favasuli V , et al. DIS3 mutations in multiple myeloma impact the transcriptional signature and clinical outcome. Haematologica 2021;",
+          "DOI": "10.3324/haematol.2021.278342"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.10.12.1928"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "712",
+          "DOI": "10.3389/fonc.2019.00712",
+          "article-title": "Prognostic lncRNAs, miRNAs, and mRNAs Form a Competing Endogenous RNA Network in Colon Cancer",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Front. Oncol"
+        },
+        {
+          "key": "2022041908300579000_2022.04.17.488570v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goldrich DY , LaBarge B , Chartrand S , et al. Identification of Somatic Structural Variants in Solid Tumors by Optical Genome Mapping. J Pers Med 2021; 11:",
+          "DOI": "10.1101/2021.02.04.21250683"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.17.488570",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:56:07Z",
+        "timestamp": 1768445767000
+      },
+      "score": 73.58532,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.17.488570"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            17
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2022.04.17.488570",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

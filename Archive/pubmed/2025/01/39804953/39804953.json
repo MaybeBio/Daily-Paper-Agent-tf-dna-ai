@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "39804953",
+    "doi": "10.1371/journal.pcbi.1012737",
+    "title": "Benchmarking residue-resolution protein coarse-grained models for simulations of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Intracellular liquid-liquid phase separation (LLPS) of proteins and nucleic acids is a fundamental mechanism by which cells compartmentalize their components and perform essential biological functions. Molecular simulations play a crucial role in providing microscopic insights into the physicochemical processes driving this phenomenon. In this study, we systematically compare six state-of-the-art sequence-dependent residue-resolution models to evaluate their performance in reproducing the phase behaviour and material properties of condensates formed by seven variants of the low-complexity domain (LCD) of the hnRNPA1 protein (A1-LCD)-a protein implicated in the pathological liquid-to-solid transition of stress granules. Specifically, we assess the HPS, HPS-cation-pi, HPS-Urry, CALVADOS2, Mpipi, and Mpipi-Recharged models in their predictions of the condensate saturation concentration, critical solution temperature, and condensate viscosity of the A1-LCD variants. Our analyses demonstrate that, among the tested models, Mpipi, Mpipi-Recharged, and CALVADOS2 provide accurate descriptions of the critical solution temperatures and saturation concentrations for the multiple A1-LCD variants tested. Regarding the prediction of material properties for condensates of A1-LCD and its variants, Mpipi-Recharged stands out as the most reliable model. Overall, this study benchmarks a range of residue-resolution coarse-grained models for the study of the thermodynamic stability and material properties of condensates and establishes a direct link between their performance and the ranking of intermolecular interactions these models consider.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "Benchmarking",
+      "*Molecular Dynamics Simulation",
+      "Heterogeneous Nuclear Ribonucleoprotein A1/chemistry",
+      "Humans",
+      "Computational Biology",
+      "*Proteins/chemistry",
+      "Phase Transition",
+      "Viscosity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feito, Alejandro",
+        "Sanchez-Burgos, Ignacio",
+        "Tejero, Ignacio",
+        "Sanz, Eduardo",
+        "Rey, Antonio",
+        "Collepardo-Guevara, Rosana",
+        "Tejedor, Andres R",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Feito A",
+        "Sanchez-Burgos I",
+        "Tejero I",
+        "Sanz E",
+        "Rey A",
+        "Collepardo-Guevara R",
+        "Tejedor AR",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1282-7580",
+        "ORCID: 0000-0002-1160-3945",
+        "ORCID: 0009-0008-2683-1204",
+        "ORCID: 0000-0001-6474-5835",
+        "ORCID: 0000-0002-8901-4198",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feito, Alejandro",
+        "short_name": "Feito A",
+        "identifiers": [
+          "0009-0000-1282-7580"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [
+          "0000-0002-1160-3945"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tejero, Ignacio",
+        "short_name": "Tejero I",
+        "identifiers": [
+          "0009-0008-2683-1204"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Sanz, Eduardo",
+        "short_name": "Sanz E",
+        "identifiers": [
+          "0000-0001-6474-5835"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Rey, Antonio",
+        "short_name": "Rey A",
+        "identifiers": [
+          "0000-0002-8901-4198"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andrés R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Complutense University of Madrid, Madrid, Spain.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/13 18:21",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42657059",
+      "42573943",
+      "42505382",
+      "42376920",
+      "42041496",
+      "41909144",
+      "40801528",
+      "40781776"
+    ],
+    "refs": [
+      "39937084",
+      "39464253",
+      "39105804",
+      "38908367",
+      "38885177",
+      "38492239",
+      "38429263",
+      "38297184",
+      "37749234",
+      "37645312",
+      "37468629",
+      "37267850",
+      "37194953",
+      "36573077",
+      "36513655",
+      "36343363",
+      "36319430",
+      "36209006",
+      "36175408",
+      "35795820",
+      "35187086",
+      "35179885",
+      "35149762",
+      "35108264",
+      "35107832",
+      "34931046",
+      "34862761",
+      "34762868",
+      "34716273",
+      "34619090",
+      "34598583",
+      "34230650",
+      "34135122",
+      "33934416",
+      "33930220",
+      "33876938",
+      "33672806",
+      "33597515",
+      "33577679",
+      "33510441",
+      "33446423",
+      "33303613",
+      "33302617",
+      "33264400",
+      "33139563",
+      "33069007",
+      "32936641",
+      "32934220",
+      "32840111",
+      "32802734",
+      "32514159",
+      "32482873",
+      "32393642",
+      "32312191",
+      "32087632",
+      "32029630",
+      "31974256",
+      "31974233",
+      "31965983",
+      "31839263",
+      "31606941",
+      "31430179",
+      "31270472",
+      "31202247",
+      "30926670",
+      "30909517",
+      "30814253",
+      "30762296",
+      "30244836",
+      "30217894",
+      "30100264",
+      "29961577",
+      "29802200",
+      "29786080",
+      "29723523",
+      "29712961",
+      "29677515",
+      "29677514",
+      "29650702",
+      "29602697",
+      "29576456",
+      "29511089",
+      "29472250",
+      "29439243",
+      "29438978",
+      "29424691",
+      "29364893",
+      "29358076",
+      "29311619",
+      "29064502",
+      "29026044",
+      "28819146",
+      "28817800",
+      "28636597",
+      "28432364",
+      "28265061",
+      "28127051",
+      "27863061",
+      "27469540",
+      "27056844",
+      "26474062",
+      "26406374",
+      "26317470",
+      "26150427",
+      "25288112",
+      "24840975",
+      "24120937",
+      "24116630",
+      "22936764",
+      "22398450",
+      "20969366",
+      "20055378",
+      "19460965",
+      "19045161",
+      "18576630",
+      "16626213",
+      "11457122",
+      "1420991"
+    ],
+    "similar": [
+      "39804953",
+      "40970906",
+      "41645509",
+      "40172489",
+      "40028356",
+      "39937084",
+      "37194953",
+      "33307683",
+      "38999934",
+      "40985078",
+      "41575805",
+      "36883003",
+      "35795820",
+      "40420812",
+      "40098319",
+      "39531035",
+      "39535884",
+      "41670285",
+      "35727989",
+      "40664121",
+      "40954121",
+      "40748104",
+      "39636939",
+      "40196628",
+      "36993212",
+      "41481439",
+      "40944421",
+      "40305655",
+      "37252985",
+      "39342654",
+      "40782375",
+      "32696386",
+      "32696384",
+      "40534071",
+      "41535729",
+      "33550645",
+      "42350353",
+      "41187075",
+      "33577679",
+      "39541973",
+      "40009520",
+      "33139563",
+      "39484615",
+      "34716273",
+      "37019112",
+      "35108264",
+      "34598583",
+      "42072614",
+      "38885177",
+      "40455990",
+      "33453922",
+      "40291420",
+      "35293386",
+      "41863073",
+      "36272811",
+      "37006777",
+      "32405004",
+      "41587927",
+      "39928699",
+      "42475937",
+      "39964249",
+      "38649740",
+      "42701255",
+      "42126444",
+      "40629388",
+      "40781776",
+      "33672806",
+      "40747072",
+      "38621751",
+      "40614690",
+      "37684240",
+      "36819870",
+      "41673459",
+      "36175408",
+      "40058249",
+      "30926670",
+      "41027866",
+      "38832749",
+      "34129784",
+      "39605385",
+      "34767801",
+      "40531332",
+      "36979462",
+      "40441157",
+      "42692763",
+      "40626470",
+      "35325654",
+      "37721444",
+      "39302099",
+      "34772789",
+      "33264400",
+      "41241351",
+      "37735186",
+      "33982369",
+      "37695778",
+      "37205474",
+      "23912807",
+      "42283756",
+      "26406374",
+      "40661423"
+    ],
+    "review": [
+      "39804953",
+      "40172489",
+      "41575805",
+      "40664121",
+      "38885177",
+      "41587927",
+      "42475937",
+      "39964249",
+      "38621751",
+      "40614690",
+      "40058249",
+      "34129784",
+      "34767801",
+      "34772789"
+    ],
+    "pmc": [
+      "11844903"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012737",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39804953/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

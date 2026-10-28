@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "39847117",
+    "doi": "10.1007/s00894-024-06274-8",
+    "title": "In silico-based investigation of the molecular mechanism of Artocarpus communis seed hexane fraction against metabolic syndrome."
+  },
+  "content": {
+    "abstract": "CONTEXT: The medications for metabolic syndromes are very minimal and the available are not effective and show adverse effects. There is a huge need for the development of effective and safe drugs to battle metabolic syndromes. In this context, our study aimed to decipher the key molecules from Artocarpus communis seed hexane fraction and their possible mechanism of action against metabolic syndrome. Network pharmacology and hub gene analysis revealed that STAT3 displayed the highest number of interactions with 56 genes compared to its counterparts HSP90AA1 (51 interactions) and EP300 (42 interactions). The molecular docking analysis revealed a suitable phytochemical with a higher binding affinity towards the three target genes (STAT3, HSP90AA1, and EP300), which were taken further for the molecular dynamic simulations. Overall, the simulation results depict that all the phytochemicals were stably bound within the cavity of the respective target proteins. Therefore, Artocarpus communis seed hexane fraction can potentially alleviate metabolic syndrome in humans. METHODS: Solvent-based extraction was performed in this study to extract the phytochemicals in Artocarpus communis seed powder. The hexane fraction was subjected to GCMS analysis to identify the constituents. ADMETlab 3.0 was used in ADME predictions. Gene databases (GeneCards, Pharos, NCBI-gene, and DisGe NET) were used to identify the genes for the study. STRING, DAVID, and KEGG pathways were utilized in this study. PubChem and Protein Databank were used to retrieve the structures of phytochemicals and protein structures. Schrodinger Suite was used for the molecular docking and Desmond 2021-4 was used to simulate the ligand-bound complexes.",
+    "keywords": [
+      "Artocarpus communis",
+      "Metabolic syndrome",
+      "Molecular simulation",
+      "Network pharmacology",
+      "PCOS"
+    ],
+    "mesh_terms": [
+      "*Artocarpus/chemistry",
+      "Molecular Docking Simulation",
+      "*Metabolic Syndrome/drug therapy",
+      "*Seeds/chemistry",
+      "Humans",
+      "*Plant Extracts/chemistry/pharmacology",
+      "*Hexanes/chemistry",
+      "Molecular Dynamics Simulation",
+      "Phytochemicals/chemistry/pharmacology",
+      "STAT3 Transcription Factor/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Elbasyouni, Amel",
+        "Prabhu, Dhamodharan",
+        "Akindoyin, Emmanuel Oluwatofunmi",
+        "Adebiyi, Victor Gbolahan",
+        "Aremu, Blessing Misturat",
+        "Ilori, Cornelius Toluwase",
+        "Olagookun, Favour Inijesunimi",
+        "Ogunlakin, Akingbolabo Daniel",
+        "Adesanya, Enitan Omobolanle"
+      ],
+      "short_names": [
+        "Elbasyouni A",
+        "Prabhu D",
+        "Akindoyin EO",
+        "Adebiyi VG",
+        "Aremu BM",
+        "Ilori CT",
+        "Olagookun FI",
+        "Ogunlakin AD",
+        "Adesanya EO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Biology and Biotechnology, Pan African University for Basic Sciences, Technology and Innovation (PAUSTI), Nairobi, Kenya.",
+        "Department of Biotechnology, Centre for Bioinformatics, Karpagam Academy of Higher Education, Coimbatore, 641021, India.",
+        "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria.",
+        "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria.",
+        "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria.",
+        "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria.",
+        "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria.",
+        "Phytomedicine, Molecular Toxicology, and Computational Biochemistry Research Laboratory (PMTCB-RL), Department of Biochemistry, Bowen University, Iwo, 232101, Nigeria. gbolaogunlakin@gmail.com.",
+        "Department of Biochemistry, Faculty of Basic Medical Science, Olabisi Onabanjo University, Sagamu Campus, Ago Iwoye, Ogun State, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Elbasyouni, Amel",
+        "short_name": "Elbasyouni A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biotechnology, Pan African University for Basic Sciences, Technology and Innovation (PAUSTI), Nairobi, Kenya."
+        ]
+      },
+      {
+        "full_name": "Prabhu, Dhamodharan",
+        "short_name": "Prabhu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Centre for Bioinformatics, Karpagam Academy of Higher Education, Coimbatore, 641021, India."
+        ]
+      },
+      {
+        "full_name": "Akindoyin, Emmanuel Oluwatofunmi",
+        "short_name": "Akindoyin EO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adebiyi, Victor Gbolahan",
+        "short_name": "Adebiyi VG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Aremu, Blessing Misturat",
+        "short_name": "Aremu BM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ilori, Cornelius Toluwase",
+        "short_name": "Ilori CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Olagookun, Favour Inijesunimi",
+        "short_name": "Olagookun FI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Obafemi Awolowo University, Ile-Ife, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ogunlakin, Akingbolabo Daniel",
+        "short_name": "Ogunlakin AD",
+        "identifiers": [],
+        "affiliations": [
+          "Phytomedicine, Molecular Toxicology, and Computational Biochemistry Research Laboratory (PMTCB-RL), Department of Biochemistry, Bowen University, Iwo, 232101, Nigeria. gbolaogunlakin@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Adesanya, Enitan Omobolanle",
+        "short_name": "Adesanya EO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Basic Medical Science, Olabisi Onabanjo University, Sagamu Campus, Ago Iwoye, Ogun State, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2025 Jan 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/23 12:35",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "40721692"
+    ],
+    "refs": [
+      "39459522",
+      "39170783",
+      "39169031",
+      "39127670",
+      "39067399",
+      "39065712",
+      "38555853",
+      "38492625",
+      "38473944",
+      "38339127",
+      "38185307",
+      "37874895",
+      "37701031",
+      "37680708",
+      "37244150",
+      "37199584",
+      "36557305",
+      "36397728",
+      "35163371",
+      "34944732",
+      "34804128",
+      "34199142",
+      "34066328",
+      "33737188",
+      "31450613",
+      "31434274",
+      "30963942",
+      "30805585",
+      "30217007",
+      "29862292",
+      "25609240"
+    ],
+    "similar": [
+      "39847117",
+      "38112300",
+      "37439907",
+      "39991090",
+      "39698883",
+      "32963501",
+      "25133268",
+      "38750377",
+      "39278295",
+      "39955379",
+      "38492557",
+      "37288779",
+      "38931288",
+      "40007185",
+      "28551240",
+      "39705886",
+      "24737988",
+      "37534448",
+      "36144585",
+      "37203990",
+      "25682949",
+      "25967668",
+      "35752099",
+      "38698754",
+      "39025383",
+      "31914911",
+      "34761862",
+      "37306420",
+      "36235221",
+      "39383634",
+      "39251712",
+      "37861402",
+      "32540527",
+      "39994296",
+      "36961200",
+      "36221888",
+      "39113883",
+      "39012565",
+      "27367662",
+      "38645989",
+      "37649393",
+      "40015016",
+      "39259410",
+      "34012873",
+      "30997888",
+      "39931160",
+      "37565925",
+      "38822913",
+      "26442513",
+      "37244150",
+      "37778211",
+      "39615401",
+      "39790022",
+      "37948293",
+      "38794679",
+      "38731401",
+      "38104070",
+      "32748850",
+      "21126004",
+      "31552583",
+      "37621217",
+      "32455936",
+      "35508512",
+      "38802394",
+      "26906968",
+      "34746316",
+      "37735921",
+      "37287284",
+      "21612612",
+      "39125368",
+      "37850546",
+      "39298437",
+      "40070142",
+      "38180058",
+      "32533034",
+      "30725568",
+      "38776853",
+      "39570464",
+      "39060289",
+      "35782070",
+      "30776315",
+      "34347568",
+      "35809408",
+      "37861043",
+      "37783074",
+      "39397382",
+      "30544005",
+      "35125087",
+      "29698774",
+      "31995018",
+      "35873910",
+      "17006973",
+      "38759074",
+      "37818574",
+      "38460310",
+      "38812235",
+      "37394798",
+      "35670907",
+      "37811763",
+      "40019889"
+    ],
+    "review": [
+      "39847117",
+      "37439907"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/metabolicsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Metabolic Syndrome"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-024-06274-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

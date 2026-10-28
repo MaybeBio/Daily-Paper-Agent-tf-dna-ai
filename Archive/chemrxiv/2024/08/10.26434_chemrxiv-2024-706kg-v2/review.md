@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report a systematic assessment of free-energy perturbation (FEP), as implemented in FEP+ with OPLS4 force field improvements, for predicting relative binding free energies of congeneric ligand series targeting DNA and RNA systems. They claim that across more than 100 ligands with diverse binding modes, more than half of predictions are within 1 kcal/mol of experiment, with a combined average pairwise RMSE of 1.39 kcal/mol, and conclude that FEP+ has sufficient accuracy to guide lead optimization in nucleic-acid-targeting drug discovery.
+- **Visible evidence base** Abstract text only; no numerical breakdowns, dataset composition, simulation protocols, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset details, per-system results, force field parameterization details, uncertainty estimates, and any comparison to alternative methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable benchmark of FEP for nucleic-acid targeting ligands, a domain where such systematic assessments are scarce. The reported accuracy metrics are encouraging and, if substantiated, would be of practical interest to computational drug discovery. However, the abstract alone does not provide sufficient detail to evaluate the robustness of the claims, particularly regarding dataset composition, binding mode classification, error distributions, and the generalizability of the conclusions. The central claim of "sufficient accuracy to guide lead optimization" requires stronger statistical and contextual support than is visible here.
+- **Who would be interested in the results, and why** Computational chemists and drug discovery researchers working on RNA-targeting small molecules, antiviral and antibacterial therapeutics, and developers of FEP methodologies. The results would also interest method developers seeking benchmarks for nucleic acid systems, which are underrepresented relative to protein targets.
+- **Major strengths** The study addresses an underexplored application domain for FEP, namely nucleic acid targets. The dataset size (more than 100 ligands) and diversity of binding modes are notable. The reported accuracy, if reproducible, would represent a meaningful advance for a challenging class of systems. The use of a consistent simulation protocol across systems is a methodological strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "more than half of the predictions are within 1 kcal/mol of the experimentally measured values" and "combined average pairwise RMSE of 1.39 kcal/mol"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports aggregate accuracy metrics but provides no information on the distribution of errors, the number of systems versus ligands, the proportion of predictions exceeding 2 kcal/mol, or whether outliers are concentrated in specific binding modes or target types. Without this breakdown, the aggregate RMSE may mask systematic failures in particular classes of systems.
+  - **Why it matters** The stated conclusion that FEP+ has "sufficient accuracy to guide lead optimization" depends on the consistency of accuracy across diverse binding modes and targets. If errors are concentrated in deeply buried or partially exposed binding sites, the practical utility for specific drug discovery programs would be limited. The abstract does not allow the reader to assess this.
+  - **Resolution test** Provide per-system and per-binding-mode error distributions, including the fraction of predictions within 1 and 2 kcal/mol, and identify any systematic outliers. Show that the reported RMSE is not driven by a small number of poorly performing systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "facilitated by improvements in the OPLS4 force field"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract attributes accuracy improvements to OPLS4 force field enhancements but provides no detail on what these improvements are, how they were validated, or whether the results are sensitive to force field parameter choices. Without this information, the causal link between force field changes and observed accuracy cannot be evaluated.
+  - **Why it matters** The claim of "physics-based prediction" implies that the method's accuracy derives from physical models rather than empirical fitting. If the force field improvements were tuned to the test set, the generalizability of the results would be questionable. The abstract does not address this risk.
+  - **Resolution test** Describe the specific OPLS4 improvements relevant to nucleic acids, any validation on independent data, and whether parameters were adjusted based on the current dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** "combined average pairwise RMSE of 1.39 kcal/mol, which falls within one log unit of the experimentally measured dissociation constants"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not report confidence intervals, uncertainty estimates, or the number of independent predictions contributing to the RMSE. The phrase "average pairwise RMSE" is ambiguous regarding whether this is a mean over systems or a pooled calculation. The comparison to "one log unit" is not a standard statistical benchmark for FEP accuracy.
+  - **Why it matters** Without uncertainty quantification, the reader cannot assess whether the reported RMSE is statistically distinguishable from other methods or from a null model. The "one log unit" framing may overstate the significance of the result.
+  - **Resolution test** Report confidence intervals for the RMSE, specify the exact calculation method, and compare against a relevant baseline (e.g., random predictions or a simpler scoring function).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "more than 100 ligands" but does not specify the number of distinct nucleic acid systems, the number of congeneric series, or the range of molecular weights and chemical functionalities.
+  - **Required correction** Provide a breakdown of systems, series, and ligand properties in the abstract or indicate where this is detailed in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "partially exposed and others deeply buried"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The classification of binding modes is not defined. It is unclear whether this is based on solvent accessibility, ligand burial fraction, or another metric.
+  - **Required correction** Define the criteria for "partially exposed" and "deeply buried" or refer to a methods section where this is specified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** "consistent simulation protocol"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not indicate the simulation length, number of replicas, equilibration protocol, or treatment of ions and water models.
+  - **Required correction** Summarize key simulation parameters in the abstract or explicitly reference the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The aggregate accuracy claim cannot be assessed without error distributions, and the force field attribution cannot be evaluated without methodological detail. R1-M3 is non-blocking but should be addressed for statistical completeness.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of FEP to nucleic acid targeting ligands is not entirely new, but a systematic benchmark of this scale is a useful contribution. The originality is moderate and depends on whether the full manuscript offers methodological novelty beyond the benchmark itself.  
+  - Scientific importance: If the accuracy claims hold, the work would be important for drug discovery targeting RNA and DNA, an area of growing therapeutic interest. The importance is potentially high but not fully established from the abstract.  
+  - Interdisciplinary readership: The topic bridges computational chemistry, biophysics, and medicinal chemistry. The abstract is written in a way that is accessible to these communities, though some domain-specific terms (e.g., "FEP+", "OPLS4") may require prior knowledge.  
+  - Technical soundness: Cannot be fully assessed from the abstract. The reported metrics are plausible, but the lack of methodological detail and uncertainty quantification prevents a definitive evaluation.  
+  - Readability for nonspecialists: The abstract is clear and concise, but the significance of the RMSE values and the "one log unit" comparison may not be immediately interpretable to a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The abstract presents a promising result, but the blocking concerns regarding error distributions and force field attribution must be addressed in the full manuscript before the case for "sufficient accuracy" is established.
+
+## Risk / unsupported claims
+- The claim that "FEP+ has sufficient accuracy to guide the optimization of lead series" is not fully supported by the abstract alone, as the aggregate metrics do not demonstrate consistency across the diverse binding modes and systems described.
+- The attribution of accuracy to "improvements in the OPLS4 force field" is unsupported without details on the nature and validation of these improvements.
+- The comparison of the RMSE to "one log unit of the experimentally measured dissociation constants" is presented without statistical context and may be misleading without additional explanation.
+- The statement that "more than half of the predictions are within 1 kcal/mol" is not accompanied by the total number of predictions or the distribution of the remaining errors, making the practical significance unclear.

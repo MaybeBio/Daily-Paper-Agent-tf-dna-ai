@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42542664",
+  "title": "Refining sequence-to-activity models by increasing model resolution.",
+  "authors": "Chandra, Nuria Alina; Hu, Yan; Buenrostro, Jason D; Mostafavi, Sara; Sasse, Alexander",
+  "journal": "Bioinformatics advances",
+  "published_date": "2026-08-02",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型bpAI-TAC在碱基对分辨率下建模ATAC-seq谱图，改进序列-活性预测并识别调控基序，虽涉及TF结合位点但未直接建模TF-DNA三维互作，方法可迁移至TF-DNA结合预测。",
+  "abstract": "Decoding the cis-regulatory syntax that controls gene expression is essential for improving our understanding of cell differentiation and disease. Deep learning based sequence-to-activity (S2A) models learn to identify regulatory motifs and their syntax through modeling chromatin accessibility. Previously, we developed AI-TAC, a S2A model that predicts chromatin accessibility across various immune cell types in multi-task fashion, effectively decoding the regulatory syntax underlying immune cell differentiation. While ATAC-seq is commonly used to measure regional accessibility, it also provides high-resolution profiles, the distribution of Tn5 insertion sites, that offer additional insights into the precise location and strength of TF binding sites. Here we present bpAI-TAC, a base-pair resolution ATAC-seq model, and demonstrate that modeling ATAC-seq profiles alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types. Moreover, we find that multi-task learning across related immune cell types consistently outperforms single-task models. To understand what additional information bpAI-TAC learns from ATAC-seq profiles, we systematically compare sequence attributions from models trained with and without ATAC-seq profiles. We identify novel motifs with strong effect sizes that emerge when profile data is included. Our findings suggest that modeling ATAC-seq at base-pair resolution enables the model to learn a more nuanced and sensitive representation of the cis-regulatory syntax driving immune cell-specific chromatin landscapes.",
+  "abstract_zh": "解码控制基因表达的顺式调控语法，对于增进我们对细胞分化和疾病的理解至关重要。基于深度学习的序列到活性（S2A）模型通过学习染色质可及性来识别调控基序及其语法。此前，我们开发了AI-TAC，一种S2A模型，以多任务方式预测多种免疫细胞类型中的染色质可及性，有效解码了免疫细胞分化背后的调控语法。虽然ATAC-seq常用于测量区域可及性，但它也提供了高分辨率图谱，即Tn5插入位点的分布，这为转录因子结合位点的精确位置和强度提供了额外见解。在此，我们提出bpAI-TAC，一种碱基对分辨率的ATAC-seq模型，并证明将ATAC-seq图谱与可及性一起建模，能持续改善跨细胞类型差异染色质可及性的预测。此外，我们发现，在相关免疫细胞类型间进行多任务学习，其表现始终优于单任务模型。为了理解bpAI-TAC从ATAC-seq图谱中获取的额外信息，我们系统比较了有无ATAC-seq图谱训练模型的序列归因。我们识别出在包含图谱数据时出现的新基序，这些基序具有强效应大小。我们的发现表明，以碱基对分辨率建模ATAC-seq，使模型能够学习到驱动免疫细胞特异性染色质景观的顺式调控语法中更细致、更敏感的表征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42542664/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42542664/",
+  "paper_page_path": "papers/pubmed/42542664/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37730638",
+  "title": "DISCERN: deep single-cell expression reconstruction for improved cell clustering and cell subtype and state detection.",
+  "authors": "Hausmann, Fabian; Ergen, Can; Khatri, Robin; Marouf, Matteo; Hanzelmann, Sonja; Gagliani, Nicola; Huber, Samuel; Machart, Pierre; Bonn, Stefan",
+  "journal": "Genome biology",
+  "published_date": "2023-09-21",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发单细胞基因表达重建的深度生成网络DISCERN，用于改进细胞聚类和亚型检测，完全不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Single-cell sequencing provides detailed insights into biological processes including cell differentiation and identity. While providing deep cell-specific information, the method suffers from technical constraints, most notably a limited number of expressed genes per cell, which leads to suboptimal clustering and cell type identification. RESULTS: Here, we present DISCERN, a novel deep generative network that precisely reconstructs missing single-cell gene expression using a reference dataset. DISCERN outperforms competing algorithms in expression inference resulting in greatly improved cell clustering, cell type and activity detection, and insights into the cellular regulation of disease. We show that DISCERN is robust against differences between batches and is able to keep biological differences between batches, which is a common problem for imputation and batch correction algorithms. We use DISCERN to detect two unseen COVID-19-associated T cell types, cytotoxic CD4(+) and CD8(+) Tc2 T helper cells, with a potential role in adverse disease outcome. We utilize T cell fraction information of patient blood to classify mild or severe COVID-19 with an AUROC of 80% that can serve as a biomarker of disease stage. DISCERN can be easily integrated into existing single-cell sequencing workflow. CONCLUSIONS: Thus, DISCERN is a flexible tool for reconstructing missing single-cell gene expression using a reference dataset and can easily be applied to a variety of data sets yielding novel insights, e.g., into disease mechanisms.",
+  "abstract_zh": "背景：单细胞测序为包括细胞分化和身份在内的生物过程提供了详细的见解。尽管提供了深入的细胞特异性信息，该方法仍受技术限制，最显著的是每个细胞表达的基因数量有限，这导致聚类和细胞类型识别效果欠佳。结果：在此，我们提出DISCERN，一种新颖的深度生成网络，利用参考数据集精确重建缺失的单细胞基因表达。DISCERN在表达推断方面优于竞争算法，显著改善了细胞聚类、细胞类型和活性检测，并提供了对疾病细胞调控的深入见解。我们证明DISCERN对批次间差异具有鲁棒性，并能保持批次间的生物学差异，这是插补和批次校正算法常见的问题。我们利用DISCERN检测到两种未见过的COVID-19相关T细胞类型，即细胞毒性CD4(+)和CD8(+) Tc2辅助性T细胞，它们可能在不良疾病结局中发挥作用。我们利用患者血液中的T细胞分数信息对轻症或重症COVID-19进行分类，AUROC达80%，可作为疾病阶段的生物标志物。DISCERN可轻松整合到现有单细胞测序工作流程中。结论：因此，DISCERN是一种利用参考数据集重建缺失单细胞基因表达的灵活工具，可轻松应用于多种数据集，产生新颖见解，例如对疾病机制的洞察。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37730638/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37730638/",
+  "paper_page_path": "papers/pubmed/37730638/index.html"
+}

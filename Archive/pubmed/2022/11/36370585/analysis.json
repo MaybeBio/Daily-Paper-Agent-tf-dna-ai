@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36370585",
+  "title": "Random Fourier features-based sparse representation classifier for identifying DNA-binding proteins.",
+  "authors": "Guo, Xiaoyi; Tiwari, Prayag; Zhang, Ying; Han, Shuguang; Wang, Yansu; Ding, Yijie",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-11-13",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用随机傅里叶特征与稀疏表示分类器预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列特征分类，无三维互作建模或TF-DNA特异性机制研究，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins (DBPs) protect DNA from nuclease hydrolysis, inhibit the action of RNA polymerase, prevents replication and transcription from occurring simultaneously on a piece of DNA. Most of the conventional methods for detecting DBPs are biochemical methods, but the time cost is high. In recent years, a variety of machine learning-based methods that have been used on a large scale for large-scale screening of DBPs. To improve the prediction performance of DBPs, we propose a random Fourier features-based sparse representation classifier (RFF-SRC), which randomly map the features into a high-dimensional space to solve nonlinear classification problems. And L(2,1)-matrix norm is introduced to get sparse solution of model. To evaluate performance, our model is tested on several benchmark data sets of DBPs and 8 UCI data sets. RFF-SRC achieves better performance in experimental results.",
+  "abstract_zh": "DNA结合蛋白（DBPs）保护DNA免受核酸酶水解，抑制RNA聚合酶的作用，防止复制和转录在同一段DNA上同时发生。检测DBPs的传统方法多为生物化学方法，但时间成本较高。近年来，多种基于机器学习的方法已被大规模用于DBPs的筛选。为提高DBPs的预测性能，我们提出了一种基于随机傅里叶特征的稀疏表示分类器（RFF-SRC），该方法将特征随机映射到高维空间以解决非线性分类问题，并引入L(2,1)-矩阵范数以获得模型的稀疏解。为评估性能，我们在多个DBPs基准数据集和8个UCI数据集上测试了该模型。实验结果表明，RFF-SRC取得了更优的性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36370585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36370585/",
+  "paper_page_path": "papers/pubmed/36370585/index.html"
+}

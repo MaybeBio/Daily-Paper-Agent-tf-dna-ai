@@ -1,0 +1,1089 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.07.530278",
+  "title": "Identifying and overcoming the sampling challenges in relative binding free energy calculations of a model protein:protein complex",
+  "doi": "10.1101/2023.03.07.530278",
+  "abstract": "Relative alchemical binding free energy calculations are routinely used in drug discovery projects to optimize the affinity of small molecules for their drug targets. Alchemical methods can also be used to estimate the impact of amino acid mutations on protein:protein binding affinities, but these calculations can involve sampling challenges due to the complex networks of protein and water interactions frequently present in protein:protein interfaces. We investigate these challenges by extending a GPU-accelerated open-source relative free energy calculation package (Perses) to predict the impact of amino acid mutations on protein:protein binding. Using the well-characterized model system barnase:barstar, we describe analyses for identifying and characterizing sampling problems in protein:protein relative free energy calculations. We find that mutations with sampling problems often involve charge-changes, and inadequate sampling can be attributed to slow degrees of freedom that are mutation-specific. We also explore the accuracy and efficiency of current state-of-the-art approaches—alchemical replica exchange and alchemical replica exchange with solute tempering—for overcoming relevant sampling problems. By employing sufficiently long simulations, we achieve accurate predictions (RMSE 1.61, 95% CI: [1.12, 2.11] kcal/mol), with 86% of estimates within 1 kcal/mol of the experimentally-determined relative binding free energies and 100% of predictions correctly classifying the sign of the changes in binding free energies. Ultimately, we provide a model workflow for applying protein mutation free energy calculations to protein:protein complexes, and importantly, catalog the sampling challenges associated with these types of alchemical transformations. Our free open-source package (Perses) is based on OpenMM and available at https://github.com/choderalab/perses .",
+  "authors": [
+    "Ivy Zhang",
+    "Dominic A. Rufa",
+    "Iván Pulido",
+    "Michael M. Henry",
+    "Laura E. Rosen",
+    "Kevin Hauser",
+    "Sukrit Singh",
+    "John D. Chodera"
+  ],
+  "published_date": "2023-03-08",
+  "updated_date": "2023-03-08T13:30:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.07.530278",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.07.530278.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T08:59:45Z",
+        "timestamp": 1779353985149,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 117,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Relative alchemical binding free energy calculations are routinely used in drug discovery projects to optimize the affinity of small molecules for their drug targets. Alchemical methods can also be used to estimate the impact of amino acid mutations on protein:protein binding affinities, but these calculations can involve sampling challenges due to the complex networks of protein and water interactions frequently present in protein:protein interfaces. We investigate these challenges by extending a GPU-accelerated open-source relative free energy calculation package (Perses) to predict the impact of amino acid mutations on protein:protein binding. Using the well-characterized model system barnase:barstar, we describe analyses for identifying and characterizing sampling problems in protein:protein relative free energy calculations. We find that mutations with sampling problems often involve charge-changes, and inadequate sampling can be attributed to slow degrees of freedom that are mutation-specific. We also explore the accuracy and efficiency of current state-of-the-art approaches—alchemical replica exchange and alchemical replica exchange with solute tempering—for overcoming relevant sampling problems. By employing sufficiently long simulations, we achieve accurate predictions (RMSE 1.61, 95% CI: [1.12, 2.11] kcal/mol), with 86% of estimates within 1 kcal/mol of the experimentally-determined relative binding free energies and 100% of predictions correctly classifying the sign of the changes in binding free energies. Ultimately, we provide a model workflow for applying protein mutation free energy calculations to protein:protein complexes, and importantly, catalog the sampling challenges associated with these types of alchemical transformations. Our free open-source package (Perses) is based on OpenMM and available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/choderalab/perses\">https://github.com/choderalab/perses</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.03.07.530278",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ],
+        "date-time": "2023-03-08T13:30:16Z",
+        "timestamp": 1678282216000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Identifying and overcoming the sampling challenges in relative binding free energy calculations of a model protein:protein complex"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0628-6276",
+          "authenticated-orcid": false,
+          "given": "Ivy",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0930-9445",
+          "authenticated-orcid": false,
+          "given": "Dominic A.",
+          "family": "Rufa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7178-8136",
+          "authenticated-orcid": false,
+          "given": "Iván",
+          "family": "Pulido",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3870-9993",
+          "authenticated-orcid": false,
+          "given": "Michael M.",
+          "family": "Henry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8030-0219",
+          "authenticated-orcid": false,
+          "given": "Laura E.",
+          "family": "Rosen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4579-4794",
+          "authenticated-orcid": false,
+          "given": "Kevin",
+          "family": "Hauser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1914-4955",
+          "authenticated-orcid": false,
+          "given": "Sukrit",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0542-119X",
+          "authenticated-orcid": false,
+          "given": "John D.",
+          "family": "Chodera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(92)90644-R"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(92)90167-B"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2012-7"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2013.07.012"
+        },
+        {
+          "issue": "7896",
+          "key": "2023062322151263000_2023.03.07.530278v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1038/s41586-021-04245-0",
+          "article-title": "The N501Y spike substitution enhances SARS-CoV-2 infection and transmission",
+          "volume": "602",
+          "year": "2022",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "11",
+          "key": "2023062322151263000_2023.03.07.530278v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "e311",
+          "DOI": "10.1016/S1473-3099(22)00311-5",
+          "article-title": "Mon-oclonal antibody therapies against SARS-CoV-2",
+          "volume": "22",
+          "year": "2022",
+          "journal-title": "Lancet Infect. Dis"
+        },
+        {
+          "issue": "5",
+          "key": "2023062322151263000_2023.03.07.530278v2.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1171",
+          "DOI": "10.1016/j.cell.2021.01.037",
+          "article-title": "Circulating SARS-CoV-2 spike N439K variants maintain fitness while evading antibodymediated immunity",
+          "volume": "184",
+          "author": "ISARIC4C Investigators, COVID-19 Genomics UK (COG-UK) Consortium",
+          "year": "2021",
+          "journal-title": "Cell"
+        },
+        {
+          "issue": "1",
+          "key": "2023062322151263000_2023.03.07.530278v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "7108",
+          "DOI": "10.1038/s41598-018-25487-5",
+          "article-title": "Patient-derived mutations within the n-terminal domains of p85α impact PTEN or rab5 binding and regulation",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1336"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.052030506"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.11",
+          "unstructured": "Adrian Velazquez-Campoy , Stephanie A Leavitt , and Ernesto Freire . Characterization of Protein-Protein interactions by isothermal titration calorimetry. In Haian Fu , editor, Protein-Protein Interactions: Methods and Applications, pages 35–54. Humana Press, Totowa, NJ, 2004."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3027"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alexandra Madeira , Elisabet Vikeved , Anna Nilsson , Benita Sjögren , Per E Andrén , and Per Svenningsson . Identification of protein-protein interactions by surface plasmon resonance followed by mass spectrometry. Curr. Protoc. Protein Sci., Chapter 19:Unit19.21, August 2011.",
+          "DOI": "10.1002/0471140864.ps1921s65"
+        },
+        {
+          "issue": "2",
+          "key": "2023062322151263000_2023.03.07.530278v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.1016/j.ab.2006.01.042",
+          "article-title": "Surface plasmon resonance imaging analysis of protein-protein interactions using on-chip-expressed capture protein",
+          "volume": "351",
+          "year": "2006",
+          "journal-title": "Anal. Biochem"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c6cp03670h"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab273"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ye Liu , William S B Yeung , Philip C N Chiu , and Dandan Cao . Computational approaches for predicting variant impact: An overview from resources, principles to applications. Front. Genet., 13:981005, September 2022.",
+          "DOI": "10.3389/fgene.2022.981005"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202485799"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.7b11367"
+        },
+        {
+          "issue": "12",
+          "key": "2023062322151263000_2023.03.07.530278v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1708",
+          "DOI": "10.1021/acscentsci.8b00717",
+          "article-title": "Accurate estimation of ligand binding affinity changes upon protein mutation",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "ACS Cent Sci"
+        },
+        {
+          "issue": "8",
+          "key": "2023062322151263000_2023.03.07.530278v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1468",
+          "DOI": "10.1021/acscentsci.9b00590",
+          "article-title": "Predicting kinase inhibitor resistance: Physics-Based and Data-Driven approaches",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "ACS Cent Sci"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kevin Hauser , Christopher Negron , Steven K Albanese , Soumya Ray , Thomas Steinbrecher , Robert Abel , John D Chodera , and Lingle Wang . Predicting resistance of clinical abl mutations to targeted kinase inhibitors using alchemical free-energy calculations. Commun Biol, 1:70, June 2018.",
+          "DOI": "10.1038/s42003-018-0075-x"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.11.021"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1481",
+          "DOI": "10.1016/j.jmb.2019.02.003",
+          "article-title": "Relative binding affinity prediction of Charge-Changing sequence mutations with FEP in Protein-Protein interfaces",
+          "volume": "431",
+          "year": "2019",
+          "journal-title": "J. Mol. Biol"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1740409"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Antonia S J S Mey , Bryce K Allen , Hannah E Bruce Macdonald , John D Chodera , David F Hahn , Maximilian Kuhn , Julien Michel , David L Mobley , Levi N Naden , Samarjeet Prasad , Andrea Rizzi , Jenke Scheen , Michael R Shirts , Gary Tresadern , and Huafeng Xu . Best practices for alchemical free energy calculations [article v1.0]. Living J Comput Mol Sci, 2(1), 2020.",
+          "DOI": "10.33011/livecoms.2.1.18378"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1691",
+          "DOI": "10.1021/acs.jcim.2c00044",
+          "article-title": "GROMACS in the cloud: A global supercomputer to speed up alchemical drug design",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005659"
+        },
+        {
+          "issue": "9",
+          "key": "2023062322151263000_2023.03.07.530278v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "4611",
+          "DOI": "10.1021/acsomega.9b04233",
+          "article-title": "Fast, accurate, and reliable protocols for routine calculations of Protein-Ligand binding affinities in drug design projects using AMBER GPU-TI with ff14SB/GAFF",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "ACS Omega"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja512751q"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "David F Hahn , Christopher I Bayly , Hannah E Bruce Macdonald , John D Chodera , Antonia S J S Mey , David L Mobley , Laura Perez Benito , Christina E M Schindler , Gary Tresadern , and Gregory L Warren . Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks [article v0.1]. Living J Comput Mol Sci, 4(1), August 2022.",
+          "DOI": "10.33011/livecoms.4.1.1497"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00564"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.6b01881"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.35",
+          "first-page": "39",
+          "volume-title": "ACS Symposium Series",
+          "volume": "1397",
+          "year": "2021"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gregory Ross , Chao Lu , Guido Scarabelli , Steven Albanese , Evelyne Houang , Robert Abel , Edward Harder , and Lingle Wang . The maximal and current accuracy of rigorous protein-ligand binding free energy calculations. ChemRxiv, October 2022.",
+          "DOI": "10.21203/rs.3.rs-2179899/v1"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-016-9996-y"
+        },
+        {
+          "issue": "11",
+          "key": "2023062322151263000_2023.03.07.530278v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "5457",
+          "DOI": "10.1021/acs.jcim.0c00900",
+          "article-title": "Large-Scale assessment of binding free energy calculations in active drug discovery projects",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lingle Wang , Jennifer Chambers , and Robert Abel . Protein-Ligand binding free energy calculations with FEP. Methods Mol. Biol., 2022:201–232, 2019.",
+          "DOI": "10.1007/978-1-4939-9608-7_9"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.7b00083"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "3397",
+          "DOI": "10.1021/acs.jctc.7b01109",
+          "article-title": "Consistent prediction of mutation effect on drug binding in HIV-1 protease using alchemical calculations",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "issue": "5",
+          "key": "2023062322151263000_2023.03.07.530278v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "643",
+          "DOI": "10.1016/j.jmgm.2010.11.010",
+          "article-title": "Free energy perturbation approach for the rational engineering of the antibody for human hepatitis B virus",
+          "volume": "29",
+          "year": "2011",
+          "journal-title": "J. Mol. Graph. Model"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2012.01.043"
+        },
+        {
+          "issue": "49",
+          "key": "2023062322151263000_2023.03.07.530278v2.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "15813",
+          "DOI": "10.1021/jp805529z",
+          "article-title": "Single mutation induced H3N2 hemagglutinin antibody neutralization: a free energy perturbation study",
+          "volume": "112",
+          "year": "2008",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21274"
+        },
+        {
+          "issue": "12",
+          "key": "2023062322151263000_2023.03.07.530278v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "3023",
+          "DOI": "10.1021/acs.jcim.2c00348",
+          "article-title": "Alchemical free energy calculations to investigate Protein-Protein interactions: the case of the CDC42/PAK1 complex",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "4",
+          "key": "2023062322151263000_2023.03.07.530278v2.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "2457",
+          "DOI": "10.1021/acs.jctc.0c01045",
+          "article-title": "Implementing and assessing an alchemical method for calculating Protein-Protein binding free energy",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.48",
+          "first-page": "41",
+          "volume-title": "Annual Reports in Computational Chemistry",
+          "volume": "3",
+          "year": "2007"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(98)00044-6"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202427399"
+        },
+        {
+          "issue": "5",
+          "key": "2023062322151263000_2023.03.07.530278v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "771",
+          "DOI": "10.1002/wcms.1103",
+          "article-title": "New advances in metadynamics",
+          "volume": "2",
+          "year": "2012",
+          "journal-title": "Wiley Interdiscip. Rev. Comput. Mol. Sci"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90121-8"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2829861"
+        },
+        {
+          "issue": "17",
+          "key": "2023062322151263000_2023.03.07.530278v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "4241",
+          "DOI": "10.1021/acs.jpcb.0c10263",
+          "article-title": "Challenges encountered applying equilibrium and nonequilibrium binding free energy calculations",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-011-9497-y"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.56",
+          "unstructured": "Dominic A Rufa , Ivy Zhang , Hannah E Bruce Macdonald , Patrick B Grinaway , Iván Pulido , Mike M Henry , Jaime Rodríguez-Guerra , Matt Wittmann , Steven K Albanese , William G Glass , Ana Silveira , David Schaller , Levi N Naden , and John D Chodera . Perses, June 2022."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1308516"
+        },
+        {
+          "issue": "49",
+          "key": "2023062322151263000_2023.03.07.530278v2.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "13703",
+          "DOI": "10.1021/jp0356620",
+          "article-title": "The development of Replica-Exchange-Based Free-Energy methods",
+          "volume": "107",
+          "year": "2003",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp204407d"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1114017109"
+        },
+        {
+          "issue": "2",
+          "key": "2023062322151263000_2023.03.07.530278v2.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "1282",
+          "DOI": "10.1021/ct300911a",
+          "article-title": "Modeling local structural rearrangements using FEP/REST: Application to relative binding affinity predictions of CDK2 inhibitors",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "issue": "2",
+          "key": "2023062322151263000_2023.03.07.530278v2.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "565",
+          "DOI": "10.1021/ct400989x",
+          "article-title": "Enhanced monte carlo sampling through replica exchange with solute tempering",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "issue": "4",
+          "key": "2023062322151263000_2023.03.07.530278v2.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "727",
+          "DOI": "10.1021/acs.jcim.5b00057",
+          "article-title": "Is ring breaking feasible in relative binding free energy calculations?",
+          "volume": "55",
+          "year": "2015",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.99.100602"
+        },
+        {
+          "issue": "2",
+          "key": "2023062322151263000_2023.03.07.530278v2.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "245",
+          "DOI": "10.1016/0021-9991(76)90078-4",
+          "article-title": "Efficient estimation of free energy differences from monte carlo data",
+          "volume": "22",
+          "year": "1976",
+          "journal-title": "J. Comput. Phys"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2978177"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "issue": "8",
+          "key": "2023062322151263000_2023.03.07.530278v2.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "3387",
+          "DOI": "10.1063/1.479622",
+          "article-title": "Calculating excess chemical potentials using dynamic simulations in the fourth dimension",
+          "volume": "111",
+          "year": "1999",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "issue": "738",
+          "key": "2023062322151263000_2023.03.07.530278v2.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1098/rspa.1924.0081",
+          "article-title": "On the determination of molecular fields.—i. from the variation of the viscosity of a gas with temperature",
+          "volume": "106",
+          "year": "1924",
+          "journal-title": "Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character"
+        },
+        {
+          "issue": "738",
+          "key": "2023062322151263000_2023.03.07.530278v2.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "463",
+          "DOI": "10.1098/rspa.1924.0082",
+          "article-title": "On the determination of molecular fields. —ii. from the equation of state of a gas",
+          "volume": "106",
+          "year": "1924",
+          "journal-title": "Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character"
+        },
+        {
+          "issue": "5",
+          "key": "2023062322151263000_2023.03.07.530278v2.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "461",
+          "DOI": "10.1088/0959-5309/43/5/301",
+          "article-title": "Cohesion",
+          "volume": "43",
+          "year": "1931",
+          "journal-title": "Proc. Phys. Soc. London"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3660669"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(95)80064-6"
+        },
+        {
+          "issue": "3",
+          "key": "2023062322151263000_2023.03.07.530278v2.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "1275",
+          "DOI": "10.1021/acs.jctc.1c00974",
+          "article-title": "Protein-Protein Interaction-Gaussian accelerated molecular dynamics (PPI-GaMD): Characterization of protein binding thermodynamics and kinetics",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00196a004"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00070a025"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(94)00096-4"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(63)80023-6"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00784"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct0502864"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4811489"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300878a"
+        },
+        {
+          "issue": "9",
+          "key": "2023062322151263000_2023.03.07.530278v2.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "4620",
+          "DOI": "10.1021/acs.jctc.6b00532",
+          "article-title": "Sensitivity in binding free energies due to protein reorganization",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.84",
+          "unstructured": "Christopher Mims . Huang’s law is the new moore’s law, and explains why nvidia wants arm. https://www.wsj.com/articles/huangs-law-is-the-new-moores-law-and-explains-why-nvidia-wants-arm-11600488001, mSeptember 2020. Accessed: 2023-2-14."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.85",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Josh Fass , David A Sivak , Gavin E Crooks , Kyle A Beauchamp , Benedict Leimkuhler , and John D Chodera . Quantifying Configuration-Sampling error in langevin simulations of complex molecular systems. Entropy, 20(5), May 2018.",
+          "DOI": "10.3390/e20050318"
+        },
+        {
+          "issue": "9",
+          "key": "2023062322151263000_2023.03.07.530278v2.86",
+          "doi-asserted-by": "crossref",
+          "first-page": "5512",
+          "DOI": "10.1021/acs.jctc.0c00237",
+          "article-title": "Improved alchemical free energy calculations with optimized smoothstep softcore potentials",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "issue": "11",
+          "key": "2023062322151263000_2023.03.07.530278v2.87",
+          "doi-asserted-by": "crossref",
+          "first-page": "2846",
+          "DOI": "10.1021/acs.jcim.1c01532",
+          "article-title": "Modified hamiltonian in FEP calculations for reducing the computational cost of electrostatic interactions",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "3",
+          "key": "2023062322151263000_2023.03.07.530278v2.88",
+          "doi-asserted-by": "crossref",
+          "first-page": "1048",
+          "DOI": "10.1021/acs.jcim.0c01424",
+          "article-title": "A benchmark of electrostatic method performance in relative binding free energy calculations",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.89",
+          "doi-asserted-by": "crossref",
+          "first-page": "2373",
+          "DOI": "10.1021/ct300220p",
+          "article-title": "New Soft-Core potential function for molecular dynamics based alchemical free energy calculations",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5109531"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "4641",
+          "DOI": "10.1021/acs.jctc.0c00075",
+          "article-title": "Combining machine learning and enhanced sampling techniques for efficient and accurate calculation of absolute binding free energies",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "issue": "6",
+          "key": "2023062322151263000_2023.03.07.530278v2.92",
+          "doi-asserted-by": "crossref",
+          "first-page": "3894",
+          "DOI": "10.1021/acs.jctc.1c01198",
+          "article-title": "Enhancing ligand and protein sampling using sequential monte carlo",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja062463w"
+        },
+        {
+          "issue": "2",
+          "key": "2023062322151263000_2023.03.07.530278v2.94",
+          "doi-asserted-by": "crossref",
+          "first-page": "703",
+          "DOI": "10.1021/ct400689h",
+          "article-title": "Adaptive biasing combined with hamiltonian replica exchange to improve umbrella sampling free energy simulations",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1303186110"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0810631106"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1600917113"
+        },
+        {
+          "issue": "7",
+          "key": "2023062322151263000_2023.03.07.530278v2.98",
+          "doi-asserted-by": "crossref",
+          "first-page": "072301",
+          "DOI": "10.1063/1.5025487",
+          "article-title": "Reweighted autoencoded variational bayes for enhanced sampling (RAVE)",
+          "volume": "149",
+          "year": "2018",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.99",
+          "unstructured": "Wei-Tse Hsu , Valerio Piomponi , Pascal T Merz , Giovanni Bussi , and Michael R Shirts . Adding alchemical variables to metadynamics to enhance sampling in free energy calculations. arXiv [cond-mat.stat-mech], June 2022."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2015.08.015"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.102",
+          "unstructured": "The PyMOL molecular graphics system, version 2.5.1. Schrödinger, LLC, New York, NY."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.103",
+          "unstructured": "D.A. Case , H.M. Aktulga , K. Belfon , I.Y. Ben-Shalom , S.R. Brozell , D.S. Cerutti , T.E. Cheatham Iii , G.A. Cisneros , V.W.D. Cruzeiro , T.A. Darden , R.E. Duke , G. Giambasu , M.K. Gilson , H. Gohlke , A.W. Goetz , R. Harris , S. Izadi , S.A. Izmailov , C. Jin , K. Kasavajhala , M.C. Kaymak , E. King , A. Kovalenko , T. Kurtzman , T.S. Lee , S. LeGrand , P. Li , C. Lin , J. Liu , T. Luchko , R. Luo , M. Machado , V. Man , M. Manathunga , K.M. Merz , Y. Miao , O. Mikhailovskii , G. Monard , H. Nguyen , K. A. O’Hearn , A. Onufriev , F. Pan , S. Pantano , R. Qi , A. Rahnamoun , D.R. Roe , A. Roitberg , C. Sagui , S. Schott-Verdugo , J. Shen , C.L. Simmerling , N.R. Skrynnikov , J. Smith , J. Swails , R.C. Walker , J. Wang , H. Wei , R.M. Wolf , X. Wu , Y. Xue , D.M. York , S. Zhao , and P.A. Kollman . Amber 2021. University of California, San Francisco, 2021."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.104",
+          "unstructured": "Schrödinger Releases 2021-2 and 2021-3. Maestro. Schrödinger, LLC, New York, NY, 2021."
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi9600759"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500918t"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.108"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1091"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rspa.2016.0138"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4802990"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp0735987"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0009-2614(94)00397-1"
+        },
+        {
+          "issue": "12",
+          "key": "2023062322151263000_2023.03.07.530278v2.115",
+          "doi-asserted-by": "crossref",
+          "first-page": "5737",
+          "DOI": "10.1021/acs.jctc.5b00726",
+          "article-title": "Direct-Space corrections enable fast and accurate Lorentz-Berthelot combination rule Lennard-Jones lattice summation",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0686-2"
+        },
+        {
+          "key": "2023062322151263000_2023.03.07.530278v2.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20139"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.07.530278",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:22:04Z",
+        "timestamp": 1768450924000
+      },
+      "score": 72.432625,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.07.530278"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ]
+      },
+      "references-count": 117,
+      "URL": "https://doi.org/10.1101/2023.03.07.530278",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.3c00333",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary references)
+- **Assessment boundary** Review limited to the content provided; supplementary tables and figures referenced but not supplied
+- **Shared manuscript claim summary** The manuscript surveys 87 sequence-based predictors of nucleic acid-binding residues published over the past two decades, analyzes their historical development, availability, predictive performance, training data types, and cross-prediction issues, and identifies trends including the increasing use of deep learning and protein language models.
+- **Visible evidence base** Abstract, introduction, methods, results, discussion sections; references to Figure 1, Figure 2, Supplementary Figures S1, Supplementary Tables S1–S3
+- **Missing materials affecting confidence** Supplementary Tables S1–S3, Supplementary Figure S1, Table 1, Table 2, and Figure 1 and Figure 2 were referenced but not provided. These are essential for verifying the quantitative claims regarding predictor counts, performance metrics, availability status, and citation data.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a comprehensive and timely survey of sequence-based nucleic acid-binding residue predictors, covering a substantially larger set of methods than previous reviews. The authors address important practical issues including tool availability, citation impact, training data types, and cross-prediction, and they identify clear trends in model architecture evolution. However, the absence of the key tables and figures in the provided material limits the ability to verify the quantitative claims. The analysis of predictive performance, while informative, relies on heterogeneous assessments from original papers, and the authors' own comparative evaluation is limited to a subset of methods. The discussion of future directions is thoughtful but somewhat speculative. Overall, the manuscript is likely to be of interest to the computational biology community, but the strength of the conclusions depends on the quality and completeness of the missing supplementary materials.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using predictors of protein-nucleic acid interactions would be the primary audience. Researchers working on DNA/RNA-binding protein annotation, functional characterization of proteins, and those applying deep learning or protein language models to biological sequence analysis would find the survey useful. The analysis of tool availability and citation impact may also interest funders and developers concerned with software sustainability and community adoption.
+- **Major strengths** The manuscript covers the largest number of predictors to date (87), including many recent methods not previously surveyed. The organization around practical issues (availability, impact, training data, cross-prediction) is useful and goes beyond simple enumeration. The historical timeline with identified milestones provides a clear narrative of field development. The analysis of performance trends over time, and the comparison between deep learning and shallow machine learning methods, is valuable. The discussion of the structure- versus disorder-annotated training data dichotomy is an important and underappreciated issue.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims to identify and discuss 87 sequence-based predictors, and presents detailed analyses of their availability, performance, and training data in Table 2 and Supplementary Tables S1–S3.
+  - **Evidence pointer** Table 2, Supplementary Tables S1–S3, Figure 1, Figure 2 (not provided)
+  - **Concern** The core quantitative claims of the manuscript, including the complete list of 87 predictors, their characteristics, availability status, citation counts, and performance scores, are presented in tables and figures that were not included in the provided material. Without these, the accuracy and completeness of the survey cannot be assessed.
+  - **Why it matters** The manuscript's primary contribution is the comprehensive enumeration and analysis of predictors. If the underlying data are incomplete, inaccurate, or inconsistently compiled, the conclusions about field trends and performance comparisons would be compromised.
+  - **Resolution test** Provide the full Table 2 and Supplementary Tables S1–S3, and confirm that the list of 87 predictors is complete and correctly categorized. Verify that the performance scores in Figure 2 and Supplementary Tables S2–S3 are accurately transcribed from the original publications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript states that predictive performance was compared across 20 methods using the same test datasets and metrics, and that trends were computed using moving averages.
+  - **Evidence pointer** Materials and methods, Figure 2, Supplementary Tables S2–S3 (not provided)
+  - **Concern** The methodology for the comparative performance assessment is described only briefly. It is unclear how the authors ensured that the test datasets used for different predictors are truly comparable, given that the original methods were trained and tested on different datasets. The choice of a single threshold (0.5) for computing MCC across all methods is acknowledged as problematic, but the authors do not provide an alternative analysis using standardized thresholds.
+  - **Why it matters** The performance comparison is a central element of the survey's conclusions about progress in the field. If the comparison is not methodologically sound, the claim that deep learning and PLM-based methods outperform shallow methods may be overstated or based on artifacts.
+  - **Resolution test** Provide a more detailed description of the assessment protocol, including how test datasets were harmonized, whether sequence similarity between training and test sets was controlled, and whether additional analyses using standardized thresholds were performed. If not, acknowledge this limitation more explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The manuscript states that "the past decade has brought increased use of deep neural networks and protein language models, which contributed to substantial gains in the predictive performance."
+  - **Evidence pointer** Results, Figure 2 (not provided)
+  - **Concern** The causal link between the adoption of deep learning/PLMs and performance gains is asserted but not rigorously demonstrated. The analysis shows a temporal correlation, but other factors (e.g., larger training datasets, better feature engineering, more rigorous benchmarking) could also explain the improvements. The authors do not isolate the contribution of model architecture from other variables.
+  - **Why it matters** The claim of a causal relationship is stronger than what the correlational evidence supports. A more cautious interpretation would strengthen the manuscript's credibility.
+  - **Resolution test** Revise the language to indicate that performance gains are associated with the adoption of deep learning and PLMs, rather than caused by them. Alternatively, provide a more controlled comparison (e.g., matching methods that differ only in architecture).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "over 80 methods" and then "87 sequence-based predictors," which is slightly redundant. The phrase "dozens of recently published methods that are surveyed for the first time" is vague.
+  - **Required correction** Specify the number of new methods surveyed for the first time, or rephrase to avoid redundancy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, selection criteria
+  - **Evidence pointer** Materials and methods, location not provided
+  - **Issue** The literature search protocol is described, but the inclusion and exclusion criteria for selecting the 87 predictors are not fully specified. It is unclear whether all published methods were included regardless of availability or quality, or whether some were excluded.
+  - **Required Correction** Provide explicit inclusion and exclusion criteria, such as publication venue, availability of implementation, or minimum performance requirements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion, future directions
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of future directions mentions the potential of using predicted structures (e.g., from AlphaFold) but does not discuss the potential impact of recent advances in structure prediction on the field in detail.
+  - **Required Correction** Expand the discussion to include how AlphaFold2/3 and similar tools might change the landscape of nucleic acid-binding residue prediction, either as a source of features or as a competing approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 (not provided)
+  - **Issue** The moving average trend lines in Figure 2 are described but not shown in the provided material. It is unclear how robust these trends are to the choice of window size.
+  - **Required Correction** Provide the figure and, if possible, include confidence intervals or alternative window sizes to demonstrate robustness.
+- **Technical failings that need to be addressed before the case is established** The absence of the primary data tables (Table 2, Supplementary Tables S1–S3) and figures (Figure 1, Figure 2) is a critical gap. The manuscript's claims cannot be fully evaluated without these. Additionally, the methodological details of the performance comparison need to be expanded to address potential biases.
+
+## Assessment against Nature-style criteria
+- **Originality** The manuscript provides a comprehensive and up-to-date survey that covers more predictors than any previous review, including many recent methods. The focus on practical issues such as availability, citation impact, and training data types adds a novel perspective. However, the overall structure of a survey is not inherently original, and the field already has several reviews.
+- **Scientific importance** The topic is of significant importance to the computational biology community, given the widespread use of these predictors and the ongoing development of new methods. The analysis of performance trends and the identification of the structure- versus disorder-annotated data dichotomy are valuable contributions that could inform future method development.
+- **Interdisciplinary readership** The manuscript is primarily targeted at computational biologists and bioinformaticians. While the topic has implications for molecular biology and structural biology, the presentation is technical and may not be accessible to a broader interdisciplinary audience without additional context.
+- **Technical soundness** The technical soundness cannot be fully assessed due to missing data. The described methodology for performance comparison has potential limitations that are only partially acknowledged. The analysis of citation data is straightforward but the interpretation is somewhat speculative.
+- **Readability for nonspecialists** The manuscript is generally well-written and organized, with clear section headings and a logical flow. However, the heavy use of acronyms and technical terms (e.g., PLM, DBR, RBR, AUC, MCC) without always providing clear definitions may hinder nonspecialist readers. The abstract is accessible, but the main text assumes familiarity with the field.
+
+## Risk / unsupported claims
+- The claim that "the past decade has brought increased use of deep neural networks and protein language models, which contributed to substantial gains in the predictive performance" is a causal assertion not fully supported by the correlational evidence presented.
+- The claim that "methods with web servers are cited substantially more than tools without implementation or with no longer working implementations" is based on citation data that was not provided and may be confounded by other factors (e.g., method quality, publication venue).
+- The statement that "the development of these two methods shows that it is possible to build predictors that work well across the two annotation types" is based on the performance of only two methods and may not be generalizable.
+- The claim that "users should avoid predictors with high cross-prediction rates" is a practical recommendation that is reasonable but not empirically demonstrated in this manuscript.
+- The overall performance comparison across 20 methods is presented as if directly comparable, but the heterogeneity of original assessment protocols may undermine this comparability.

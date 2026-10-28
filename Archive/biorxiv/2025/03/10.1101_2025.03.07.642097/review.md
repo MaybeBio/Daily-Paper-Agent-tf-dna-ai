@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and significance of claims based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors propose that T7 DNA polymerase actively and sequentially displaces T7 gp2.5 SSB proteins from ssDNA during replication, rather than pushing them along the DNA. They support this with single-molecule force spectroscopy, dual-color fluorescence imaging, FRET measurements, and AWSER coarse-grained MD simulations. They further claim that the C-terminal tail of gp2.5 is critical for this active displacement mechanism and that saturated SSB binding is required for optimal replication efficiency.
+- **Visible evidence base** Abstract, full main text, methods section, figure legends (Figures 1-4, S1-S8), supplementary movie descriptions
+- **Missing materials affecting confidence** Actual figures and data plots are not provided; only figure legends and text descriptions. Raw data, statistical analysis details, and full MD simulation parameters are not available. Supplementary figures S1-S8 are referenced but not included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated investigation into the mechanism of SSB displacement by DNA polymerase during replication. The combination of single-molecule force spectroscopy, fluorescence imaging, FRET, and MD simulations provides a multi-pronged approach to address a fundamental question in DNA replication. The central claim of active, sequential displacement is well-motivated and supported by multiple lines of evidence. However, the manuscript has several significant issues that need to be addressed, particularly regarding the interpretation of FRET data, the statistical rigor of some comparisons, and the generalizability of the findings beyond the T7 system. The work is potentially important for understanding replisome dynamics and protein-nucleic acid interactions, but the current presentation does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in DNA replication, single-molecule biophysics, protein-nucleic acid interactions, and molecular motors would find this work of significant interest. The findings have implications for understanding how replicative polymerases overcome protein obstacles on ssDNA, which is relevant to lagging strand synthesis in all organisms. The methodological approach combining force spectroscopy with fluorescence and MD simulations will also appeal to biophysicists and computational biologists studying dynamic protein-DNA interactions.
+- **Major strengths** 1) The combination of complementary techniques (force spectroscopy, fluorescence imaging, FRET, MD simulations) provides a comprehensive approach to the problem. 2) The sequential displacement model is clearly articulated and distinguished from alternative models. 3) The identification of the C-terminal tail's role in mediating active displacement is a novel and mechanistically insightful finding. 4) The force-dependent effects on replication rate in the presence of SSB are carefully characterized and provide important context for understanding SSB function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of FRET interpretation
+  - **Claim pointer** The authors claim that FRET signals observed when DNAp approaches SSB-bound ssDNA indicate a "collision" event and support direct physical interaction between DNAp and SSB.
+  - **Evidence pointer** Results section "Active Displacement of SSB by DNA Polymerase", Figure 3H-I
+  - **Concern** The FRET experiments are described in limited detail, and the interpretation of the observed FRET signals as evidence for direct protein-protein interaction is not fully justified. The authors use an unconventional FRET pair (SNAP-Surface 549 and Atto 647N) and acknowledge uncertainties in absolute distance calculations. However, the key claim of active displacement relies heavily on this FRET evidence. The manuscript does not provide adequate controls to rule out non-specific FRET signals, nor does it discuss the orientation factor (κ²) uncertainty in the FRET efficiency calculations. Additionally, the observation that FRET is only detected during pausing or backtracking events (75% and 25% respectively) is not adequately explained in the context of the proposed mechanism.
+  - **Why it matters** The central claim of active displacement depends on demonstrating a specific, transient interaction between DNAp and SSB. If the FRET signals are artifactual or misinterpreted, the active displacement model loses its most direct experimental support.
+  - **Resolution test** Provide detailed FRET methodology including: (1) control experiments with donor-only and acceptor-only samples to establish baseline signals, (2) measurements with a non-interacting protein pair to demonstrate FRET specificity, (3) a discussion of the expected FRET efficiency range given the estimated protein sizes and the κ² uncertainty, and (4) a quantitative analysis of how many pausing/backtracking events show FRET versus those that do not, with appropriate statistical comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors report that at 10 pN, SSB enhances replication rate from 180 ± 10 bp/s to 230 ± 20 bp/s with a p-value of 0.05, and at 20 pN, SSB decreases replication rate from 130 ± 10 bp/s to 80 ± 5 bp/s with p < 0.0001.
+  - **Evidence pointer** Results section "Regulation of DNA Replication by SSB Proteins", Figure 1D
+  - **Concern** The statistical analysis appears incomplete. The p-value of 0.05 for the 10 pN comparison is borderline and would not survive multiple comparison corrections if multiple conditions were tested. The authors do not specify which statistical test was used, whether data were normally distributed, or how many independent experiments were performed. Additionally, the sample sizes (N=67, 72, 63, 81) are reported as number of events, but it is unclear how many independent DNA molecules or experimental sessions these represent. The manuscript would benefit from a more rigorous statistical framework, including effect sizes and confidence intervals.
+  - **Why it matters** The force-dependent effects of SSB on replication rate are a key finding that supports the dual role of SSB (facilitating replication at low force, impeding at high force). If the statistical support is weak, particularly for the 10 pN enhancement, the interpretation of SSB's beneficial role is undermined.
+  - **Resolution test** Provide: (1) a clear description of the statistical tests used, (2) the number of independent experiments and DNA molecules, (3) effect sizes with 95% confidence intervals, (4) a multiple comparison correction if multiple conditions were compared, and (5) a power analysis to justify sample sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors state that the uncovered spatial-temporal coordination between SSB and DNAp "may represent a universal strategy employed by other DNA translocating motors to ensure genomic integrity."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The claim of universality is speculative and not well-supported by the data presented. The study uses only the T7 bacteriophage system, and the authors do not discuss how their findings might apply to other replicative polymerases or SSB proteins with different structures and binding modes. For example, eukaryotic RPA has a different domain architecture and binding mode compared to T7 gp2.5, and it is unclear whether the proposed active displacement mechanism would apply. The Discussion section would benefit from a more nuanced treatment of the generalizability of the findings, including a discussion of potential differences between systems.
+  - **Why it matters** The broader significance of the work depends on its relevance beyond the T7 system. Overstating the universality of the findings without adequate comparative discussion weakens the manuscript's impact.
+  - **Resolution test** Either temper the claim of universality or provide a more detailed discussion of how the proposed mechanism might apply to other systems, including specific predictions that could be tested experimentally. Consider citing and discussing relevant literature on other SSB-polymerase systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation validation
+  - **Claim pointer** The authors use AWSEM MD simulations to show that DNAp reduces the energy barrier for SSB dissociation and that the C-terminal tail of SSB is critical for this process.
+  - **Evidence pointer** Results section "Active Displacement of SSB by DNA Polymerase", Figures 3B-F, 4A-C
+  - **Concern** The MD simulation results are presented without sufficient validation or discussion of their limitations. The authors use a coarse-grained model (AWSEM) which, while useful for exploring large-scale conformational changes, may not accurately capture the fine details of protein-DNA interactions, particularly electrostatic interactions that are claimed to be critical. The manuscript does not provide details on the convergence of the umbrella sampling simulations, the choice of collective variables, or how the force field parameters were validated for this specific system. Additionally, the simulations appear to be performed on a simplified system (e.g., a short ssDNA segment) that may not fully represent the complex environment of a replication fork.
+  - **Why it matters** The MD simulations provide mechanistic insight into the active displacement process and are used to support the experimental findings. If the simulations are not adequately validated, the mechanistic conclusions drawn from them are weakened.
+  - **Resolution test** Provide: (1) details on simulation convergence and error analysis, (2) validation of the force field parameters for the T7 gp2.5-ssDNA system, (3) a discussion of the limitations of the coarse-grained model and how they might affect the conclusions, and (4) ideally, comparison with all-atom simulations or experimental validation of key predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 legend
+  - **Issue** The figure legend is dense and does not clearly explain the experimental setup or the key findings. The relationship between panels A-I is not immediately obvious.
+  - **Required correction** Consider reorganizing the figure to have a clearer logical flow, and expand the legend to explain each panel's purpose and key result.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "sequential displacement" and "one-by-one model" are used interchangeably, and the term "active displacement" is used in the title and abstract but not clearly defined in the introduction.
+  - **Required correction** Define these terms clearly in the introduction and use them consistently throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors briefly mention alternative models (e.g., passive displacement, pushing) but do not provide a thorough comparison of their findings with these models. A more detailed discussion of why the data support active displacement over other mechanisms would strengthen the manuscript.
+  - **Required correction** Expand the Discussion to include a more detailed comparison with alternative models, including specific predictions that would distinguish between them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methods detail
+  - **Affected element** Methods section "Free Energy Calculations"
+  - **Evidence pointer** Methods
+  - **Issue** The description of the umbrella sampling protocol is incomplete. The collective variable is described as the "center of mass between gp2.5 and the first 20 nucleotides of the ssDNA," but it is unclear how this was defined and whether this is the most appropriate collective variable for capturing the displacement process.
+  - **Required correction** Provide a more detailed description of the collective variables, the range of the biasing potential, and the criteria for determining convergence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and materials availability
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The statement that data will be uploaded "upon conditionally accepted" is unusual and may raise concerns about data accessibility during the review process.
+  - **Required correction** Consider making the data available at the time of submission or at least during the review process to facilitate evaluation.
+
+## Risk / unsupported claims
+- The claim that FRET signals indicate direct physical interaction between DNAp and SSB is not fully supported due to limited methodological detail and potential artifacts.
+- The claim of universality of the active displacement mechanism across different organisms is not supported by the data, which only examine the T7 system.
+- The assertion that the C-terminal tail of SSB is the primary mediator of active displacement is based on MD simulations and a single mutant construct; additional experimental validation is needed.
+- The force-dependent effects on replication rate at 10 pN (p=0.05) are borderline significant and require more robust statistical support.
+- The manuscript claims that SSB proteins "pull" DNAp forward during replication, but this interpretation is speculative and not directly tested.
+- The MD simulation results are presented without sufficient validation or discussion of limitations, making the mechanistic conclusions difficult to assess.

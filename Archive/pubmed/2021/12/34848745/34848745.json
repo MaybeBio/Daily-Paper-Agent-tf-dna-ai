@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "34848745",
+    "doi": "10.1038/s41598-021-01436-7",
+    "title": "Structural exploration with AlphaFold2-generated STAT3alpha structure reveals selective elements in STAT3alpha-GRIM-19 interactions involved in negative regulation."
+  },
+  "content": {
+    "abstract": "STAT3, an important transcription factor constitutively activated in cancers, is bound specifically by GRIM-19 and this interaction inhibits STAT3-dependent gene expression. GRIM-19 is therefore, considered as an inhibitor of STAT3 and may be an effective anti-cancer therapeutic target. While STAT3 exists in a dimeric form in the cytoplasm and nucleus, it is mostly present in a monomeric form in the mitochondria. Although GRIM-19-binding domains of STAT3 have been identified in independent experiments, yet the identified domains are not the same, and hence, discrepancies exist. Human STAT3-GRIM-19 complex has not been crystallised yet. Dictated by fundamental biophysical principles, the binding region, interactions and effects of hotspot mutations can provide us a clue to the negative regulatory mechanisms of GRIM-19. Prompted by the very nature of STAT3 being a challenging molecule, and to understand the structural basis of binding and interactions in STAT3alpha-GRIM-19 complex, we performed homology modelling and ab-initio modelling with evolutionary information using I-TASSER and avant-garde AlphaFold2, respectively, to generate monomeric, and subsequently, dimeric STAT3alpha structures. The dimeric form of STAT3alpha structure was observed to potentially exist in an anti-parallel orientation of monomers. We demonstrate that during the interactions with both unphosphorylated and phosphorylated STAT3alpha, the NTD of GRIM-19 binds most strongly to the NTD of STAT3alpha, in direct contrast to the earlier works. Key arginine residues at positions 57, 58 and 68 of GRIM-19 are mainly involved in the hydrogen-bonded interactions. An intriguing feature of these arginine residues is that these display a consistent interaction pattern across unphosphorylated and phosphorylated monomers as well as unphosphorylated dimers in STAT3alpha-GRIM-19 complexes. MD studies verified the stability of these complexes. Analysing the binding affinity and stability through free energy changes upon mutation, we found GRIM-19 mutations Y33P and Q61L and among GRIM-19 arginines, R68P and R57M, to be one of the top-most major and minor disruptors of binding, respectively. The proportionate increase in average change in binding affinity upon mutation was inclined more towards GRIM-19 mutants, leading to the surmise that GRIM-19 may play a greater role in the complex formation. These studies propound a novel structural perspective of STAT3alpha-GRIM-19 binding and inhibitory mechanisms in both the monomeric and dimeric forms of STAT3alpha as compared to that observed from the earlier experiments, these experimental observations being inconsistent among each other.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Apoptosis Regulatory Proteins/*chemistry/metabolism",
+      "Arginine/chemistry",
+      "Biophysics",
+      "Computational Biology",
+      "DNA Mutational Analysis",
+      "DNA-Binding Proteins/genetics",
+      "Dimerization",
+      "Gene Expression",
+      "Gene Expression Regulation",
+      "Humans",
+      "Mice",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "NADH, NADPH Oxidoreductases/*chemistry",
+      "Phosphorylation",
+      "Protein Conformation",
+      "Protein Folding",
+      "Protein Structure, Secondary",
+      "STAT3 Transcription Factor/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mishra, Seema",
+        "Kumar, Santosh",
+        "Choudhuri, Kesaban Sankar Roy",
+        "Longkumer, Imliyangla",
+        "Koyyada, Praveena",
+        "Kharsyiemiong, Euphinia Tiberius"
+      ],
+      "short_names": [
+        "Mishra S",
+        "Kumar S",
+        "Choudhuri KSR",
+        "Longkumer I",
+        "Koyyada P",
+        "Kharsyiemiong ET"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India. seema_uoh@yahoo.com.",
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India.",
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India.",
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India.",
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India.",
+        "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mishra, Seema",
+        "short_name": "Mishra S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India. seema_uoh@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Kumar, Santosh",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+        ]
+      },
+      {
+        "full_name": "Choudhuri, Kesaban Sankar Roy",
+        "short_name": "Choudhuri KSR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+        ]
+      },
+      {
+        "full_name": "Longkumer, Imliyangla",
+        "short_name": "Longkumer I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+        ]
+      },
+      {
+        "full_name": "Koyyada, Praveena",
+        "short_name": "Koyyada P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+        ]
+      },
+      {
+        "full_name": "Kharsyiemiong, Euphinia Tiberius",
+        "short_name": "Kharsyiemiong ET",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Nov 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/02 06:00",
+    "fetched_at": "2026-09-28 02:28:22"
+  },
+  "links": {
+    "cites": [
+      "41752125",
+      "40599655",
+      "40547669",
+      "37828541"
+    ],
+    "refs": [
+      "34265844",
+      "32935366",
+      "32807795",
+      "31830252",
+      "31170499",
+      "30031681",
+      "29788355",
+      "29615633",
+      "28642132",
+      "28079879",
+      "27913149",
+      "26631602",
+      "26553978",
+      "26169829",
+      "25405628",
+      "24657799",
+      "24569879",
+      "24281696",
+      "23799087",
+      "23723246",
+      "23271731",
+      "22958278",
+      "22378781",
+      "21325026",
+      "21098664",
+      "20360767",
+      "18611949",
+      "18287540",
+      "16285960",
+      "15980494",
+      "12867595",
+      "12628925",
+      "11522775",
+      "10924506",
+      "10851062",
+      "9671298"
+    ],
+    "similar": [
+      "34848745",
+      "20595633",
+      "10915797",
+      "23386605",
+      "12867595",
+      "12628925",
+      "23271731",
+      "17616678",
+      "27101310",
+      "22492280",
+      "22799634",
+      "27167343",
+      "28926927",
+      "23851499",
+      "33650635",
+      "17626740",
+      "18156812",
+      "19642906",
+      "27677346",
+      "21325026",
+      "26405196",
+      "24899100",
+      "22500887",
+      "20522552",
+      "27486258",
+      "9271408",
+      "29074558",
+      "30537081",
+      "23618357",
+      "24239557",
+      "23861822",
+      "23912807",
+      "31223278",
+      "20682646",
+      "9305919",
+      "9711905",
+      "17855361",
+      "26810068",
+      "18223232",
+      "21040996",
+      "18287540",
+      "31527330",
+      "29961871",
+      "21664299",
+      "28279820",
+      "21827581",
+      "23124042",
+      "18433722",
+      "24569879",
+      "24145455",
+      "32165236",
+      "15705894",
+      "10600528",
+      "25955394",
+      "19151760",
+      "21765936",
+      "30822557",
+      "16732315",
+      "29843450",
+      "20228845",
+      "17295906",
+      "14978160",
+      "26283080",
+      "22378781",
+      "25499977",
+      "39208642",
+      "22393233",
+      "11960378",
+      "23580587",
+      "9811525",
+      "26169829",
+      "25174621",
+      "23911788",
+      "34390807",
+      "12057007",
+      "31035038",
+      "21279516",
+      "20668024",
+      "27040695",
+      "10982829",
+      "27659873",
+      "15653507",
+      "27456030",
+      "25550785",
+      "24721162",
+      "17634277",
+      "23251591",
+      "15145953",
+      "25288792",
+      "23438478",
+      "28821622",
+      "15040450",
+      "28699232",
+      "26769301",
+      "9234724",
+      "27142689",
+      "33825681",
+      "25575809",
+      "31103949",
+      "23434585",
+      "36240433",
+      "35430542",
+      "35040651",
+      "22349545",
+      "37665626",
+      "38305456",
+      "34308797",
+      "35273146",
+      "36690744",
+      "37114568",
+      "35947129",
+      "35321476",
+      "38532948",
+      "38072605",
+      "35702990",
+      "36907569",
+      "39081190",
+      "38095921"
+    ],
+    "review": [
+      "34848745",
+      "9711905",
+      "21664299",
+      "30822557",
+      "29843450",
+      "27659873"
+    ],
+    "pmc": [
+      "8633360"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-01436-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34848745/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34848745",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

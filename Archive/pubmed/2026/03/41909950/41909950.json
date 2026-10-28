@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "41909950",
+    "doi": "10.1093/nar/gkag162",
+    "title": "Regulated transformation system (RTS): sddi-mediated programmable shut-off and mode switching of base editors."
+  },
+  "content": {
+    "abstract": "Orthogonal and externally controllable base editors are critical for safe multiplexed single-nucleotide manipulation in vivo. Here, we identify ~140-aa miniature deaminase inhibitors (Sddis) that bind cognate single-stranded DNA deaminases (Sdds) with high affinity and specificity, occluding their DNA-binding surfaces to completely inhibit C-to-T activity. Based on these inhibitors, we engineer an adenine and cytosine base editing-regulated transformation system (ACBE-RTS). This platform features two inactive dSdds fused to nCas9 as docking arms, with effector modules provided by doxycycline-inducible SviSddi-SflSdd (CBE) and cumate-inducible Air1Sddi-ABE8e (ABE) fusions. Small-molecule regulation enables switching among four modes (OFF, CBE, ABE, ACBE), achieving up to 43.4% C-to-T or 42.9% A-to-G editing at four endogenous human sites. Using a 4000-member sgRNA library in MARC-145 cells stably expressing ACBE-RTS, a three-round screening identified four key amino acids in monkey CD163 that reduced replication of highly pathogenic PRRSV by >100-fold and eliminated detectable viral-antigen staining. Compact and multi-mode switchable on a single Cas9 scaffold, ACBE-RTS establishes a versatile framework for precision therapeutics and genetic interrogation. Its modular Sddi-Sdd interface could in principle be readily extended to other base editors, such as thymine and guanine base editors (TBE and GBE).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Editing/methods",
+      "Cytosine/metabolism",
+      "Adenine/metabolism",
+      "CRISPR-Cas Systems",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deng, Jiacheng",
+        "Zhou, Jian",
+        "Xiang, Hongyong",
+        "Li, Xueyuan",
+        "Han, Xiang",
+        "Weng, Zhen",
+        "Jia, Junbo",
+        "Shao, Yingshuo",
+        "Sima, Yang",
+        "Niu, Ming",
+        "Li, Dongmeng",
+        "Ouyang, Hongsheng",
+        "Xu, Bin",
+        "Pang, Daxin",
+        "Yang, Lin",
+        "Yuan, Hongming"
+      ],
+      "short_names": [
+        "Deng J",
+        "Zhou J",
+        "Xiang H",
+        "Li X",
+        "Han X",
+        "Weng Z",
+        "Jia J",
+        "Shao Y",
+        "Sima Y",
+        "Niu M",
+        "Li D",
+        "Ouyang H",
+        "Xu B",
+        "Pang D",
+        "Yang L",
+        "Yuan H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0809-5599"
+      ],
+      "affiliations": [
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+        "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China.",
+        "College of Animal Science and Veterinary Medicine, Heilongjiang Bayi Agricultural University, Daqing 163319, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+        "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+        "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+        "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deng, Jiacheng",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jian",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Hongyong",
+        "short_name": "Xiang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xueyuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiang",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Zhen",
+        "short_name": "Weng Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Junbo",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yingshuo",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Sima, Yang",
+        "short_name": "Sima Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Ming",
+        "short_name": "Niu M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongmeng",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Hongsheng",
+        "short_name": "Ouyang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+          "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+          "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Bin",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Veterinary Medicine, Heilongjiang Bayi Agricultural University, Daqing 163319, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Daxin",
+        "short_name": "Pang D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+          "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+          "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lin",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Hongming",
+        "short_name": "Yuan H",
+        "identifiers": [
+          "0000-0002-0809-5599"
+        ],
+        "affiliations": [
+          "College of Animal Sciences, Jilin University, Changchun 130062, China.",
+          "Chongqing Research Institute, Jilin University, Chongqing 401123, China.",
+          "Chongqing Jitang Biotechnology Research Institute, Chongqing 401123, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:49",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41073779",
+      "40373211",
+      "40373054",
+      "39622829",
+      "39565080",
+      "39271120",
+      "39158766",
+      "39117107",
+      "38783112",
+      "38773305",
+      "38718835",
+      "38701796",
+      "38409211",
+      "37857619",
+      "37679541",
+      "37496633",
+      "37379837",
+      "37144476",
+      "37072397",
+      "36379955",
+      "36229683",
+      "36044571",
+      "36038728",
+      "35832085",
+      "35149451",
+      "35105899",
+      "35088833",
+      "34012082",
+      "33972728",
+      "33956157",
+      "33606977",
+      "32881101",
+      "32641830",
+      "32546280",
+      "31021262",
+      "30819928",
+      "30446870",
+      "29131164",
+      "29035372",
+      "28346401",
+      "27535533",
+      "27503228",
+      "27096365",
+      "27090788",
+      "26968626",
+      "26524662",
+      "26092944",
+      "24753421",
+      "20972439",
+      "19246619"
+    ],
+    "similar": [
+      "41909950",
+      "32967664",
+      "41888883",
+      "35671823",
+      "36625577",
+      "38168994",
+      "32690970",
+      "36374037",
+      "34042262",
+      "35373735",
+      "30442934",
+      "31131955",
+      "31181567",
+      "32727031",
+      "35443934",
+      "33879582",
+      "35887335",
+      "37322276",
+      "34732717",
+      "29258982",
+      "40495486",
+      "36323848",
+      "37369005",
+      "32284586",
+      "35832085",
+      "31477922",
+      "36357719",
+      "31549678",
+      "34327897",
+      "34452911",
+      "40518666",
+      "38851742",
+      "39585742",
+      "34797942",
+      "32978399",
+      "37997697",
+      "34997407",
+      "39529170",
+      "36702837",
+      "39454989",
+      "32483365",
+      "39298405",
+      "30996586",
+      "32546280",
+      "31433621",
+      "35105899",
+      "31765564",
+      "31399578",
+      "35164736",
+      "32859244",
+      "32632303",
+      "37696818",
+      "36800529",
+      "40883747",
+      "41720881",
+      "36357717",
+      "32690971",
+      "37217751",
+      "36646768",
+      "32334589",
+      "37434066",
+      "32483363",
+      "39271120",
+      "29483683",
+      "34984801",
+      "36229683",
+      "30995674",
+      "35238619",
+      "42033211",
+      "33462442",
+      "32483364",
+      "39289397",
+      "40492429",
+      "38773305",
+      "37848112",
+      "36592308",
+      "38946058",
+      "40378977",
+      "41250247",
+      "39556313",
+      "40624252",
+      "30833658",
+      "30995964",
+      "38377993",
+      "41445188",
+      "35163069",
+      "31767844",
+      "34211162",
+      "31925293",
+      "42486984",
+      "35286371",
+      "38877035",
+      "34515826",
+      "36229610",
+      "36995619",
+      "36702845",
+      "34099937",
+      "37286962",
+      "36592312",
+      "40324075"
+    ],
+    "review": [
+      "41909950",
+      "31131955",
+      "31549678",
+      "34327897",
+      "39454989",
+      "31433621",
+      "37434066",
+      "29483683",
+      "42033211",
+      "30995964"
+    ],
+    "pmc": [
+      "13034033"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41909950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD163-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag162",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

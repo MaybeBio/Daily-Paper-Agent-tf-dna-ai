@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41290861",
+    "doi": "10.1038/s41598-025-26153-3",
+    "title": "Honokiol inhibits gastric cancer via tumor microenvironment modulation: a bioinformatics and single-cell analysis."
+  },
+  "content": {
+    "abstract": "Honokiol, a natural polyphenol from Magnolia bark, exhibits antitumor effects in various cancers. This study aimed to elucidate its pharmacological mechanisms in gastric cancer. Active components and their targets were retrieved from the Traditional Chinese Medicine Systems Pharmacology Database and SwissTargetPrediction databases. Gastric cancer-related genes were collected from the Comparative Toxicogenomics Database and GeneCards databases. Overlapping targets were analyzed using STRING to construct a protein-protein interaction network. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analyses were performed using DAVID and visualized using Cytoscape. Thirty-four overlapping targets were identified, with CHUK as a key hub gene. Functional enrichment analysis revealed multiple pathways, including NF-kappaB signaling. Single-cell analysis confirmed CHUK expression in tumor clusters, and immunohistochemistry validated its downregulation following honokiol treatment. These findings suggest that honokiol exerts multi-target and multi-pathway effects in gastric cancer, with CHUK-mediated inhibition of NF-kappaB signaling identified as a critical mechanism.",
+    "keywords": [
+      "CHUK",
+      "Gastric cancer",
+      "Honokiol",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Lignans/pharmacology",
+      "*Biphenyl Compounds/pharmacology",
+      "*Stomach Neoplasms/drug therapy/pathology/metabolism/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Tumor Microenvironment/drug effects",
+      "Single-Cell Analysis",
+      "Signal Transduction/drug effects",
+      "Protein Interaction Maps/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "NF-kappa B/metabolism",
+      "Cell Line, Tumor",
+      "Gene Ontology",
+      "Allyl Compounds",
+      "Phenols"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Szu-I",
+        "Cheng, Yu Cheng",
+        "Ye, Yi-Lun",
+        "Hsieh, Tsung-Che",
+        "Chan, Chia-Yang",
+        "Lin, Yi-Lei",
+        "Chueh, Hsin-Jui",
+        "Tseng, Yao-Hsien",
+        "Chang, Kai-Wei",
+        "Sheu, Meei-Ling"
+      ],
+      "short_names": [
+        "Yu SI",
+        "Cheng YC",
+        "Ye YL",
+        "Hsieh TC",
+        "Chan CY",
+        "Lin YL",
+        "Chueh HJ",
+        "Tseng YH",
+        "Chang KW",
+        "Sheu ML"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+        "Department of Medical Research, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan.",
+        "Respiratory therapists, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan.",
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+        "Department of Endocrinology and Metabolism, Taichung Veterans General Hospital, Taichung, Taiwan.",
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+        "Department of Life Sciences, National Chung Hsing University, Taichung, Taiwan.",
+        "Bachelor Program in Biotechnology, National Chung Hsing University, Taichung, Taiwan.",
+        "Department of Endocrinology and Metabolism, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan.",
+        "Department of Chest Surgery, Tung's Taichung MetroHarbor Hospital, Taichung, 435, Taiwan. ervicchang@gmail.com.",
+        "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan. mlsheu@nchu.edu.tw.",
+        "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan. mlsheu@nchu.edu.tw.",
+        "PhD Program in Translational Medicine, Rong Hsing Research Center for Translational Medicine, National Chung Hsing University, Taichung, Taiwan. mlsheu@nchu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Szu-I",
+        "short_name": "Yu SI",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+          "Department of Medical Research, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan.",
+          "Respiratory therapists, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu Cheng",
+        "short_name": "Cheng YC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan.",
+          "Department of Endocrinology and Metabolism, Taichung Veterans General Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Ye, Yi-Lun",
+        "short_name": "Ye YL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsieh, Tsung-Che",
+        "short_name": "Hsieh TC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chan, Chia-Yang",
+        "short_name": "Chan CY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Yi-Lei",
+        "short_name": "Lin YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, National Chung Hsing University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chueh, Hsin-Jui",
+        "short_name": "Chueh HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Bachelor Program in Biotechnology, National Chung Hsing University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tseng, Yao-Hsien",
+        "short_name": "Tseng YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Tungs' Taichung MetroHarbor Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Kai-Wei",
+        "short_name": "Chang KW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chest Surgery, Tung's Taichung MetroHarbor Hospital, Taichung, 435, Taiwan. ervicchang@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Sheu, Meei-Ling",
+        "short_name": "Sheu ML",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, College of Life Sciences, National Chung Hsing University, Kuo Kuang Road, 250, Taichung, Taiwan. mlsheu@nchu.edu.tw.",
+          "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan. mlsheu@nchu.edu.tw.",
+          "PhD Program in Translational Medicine, Rong Hsing Research Center for Translational Medicine, National Chung Hsing University, Taichung, Taiwan. mlsheu@nchu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 00:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41290861",
+      "20649594",
+      "39471878",
+      "34246740",
+      "39531934",
+      "40543694",
+      "37287284",
+      "40065477",
+      "27671820",
+      "33743701",
+      "40355485",
+      "22937084",
+      "23651094",
+      "33196098",
+      "17971859",
+      "40615101",
+      "35996248",
+      "40398092",
+      "16181613",
+      "40943669",
+      "40760645",
+      "41367024",
+      "22834827",
+      "39718608",
+      "39297880",
+      "29363886",
+      "23828905",
+      "22465179",
+      "39009138",
+      "40259252",
+      "26484567",
+      "38704482",
+      "39331210",
+      "29883720",
+      "25442261",
+      "40013962",
+      "40452077",
+      "41489113",
+      "29393336",
+      "39093467",
+      "38805864",
+      "34986036",
+      "24360976",
+      "33437215",
+      "34087825",
+      "39347954",
+      "39434198",
+      "41439108",
+      "21225228",
+      "25846316",
+      "38759254",
+      "21887456",
+      "37843333",
+      "40151124",
+      "22744336",
+      "33544209",
+      "38626551",
+      "22353783",
+      "18588872",
+      "33145355",
+      "38822119",
+      "32866138",
+      "20388852",
+      "41496007",
+      "25370696",
+      "37480968",
+      "40886867",
+      "40388786",
+      "26138903",
+      "21792937",
+      "23580348",
+      "32982170",
+      "40345273",
+      "39075939",
+      "29207060",
+      "40184222",
+      "38576101",
+      "32901874",
+      "33262572",
+      "40208786",
+      "31892693",
+      "38845538",
+      "40913985",
+      "39331864",
+      "27940017",
+      "34356118",
+      "35178927",
+      "41184845",
+      "38446216",
+      "40331978",
+      "27276215",
+      "24905183",
+      "34873575",
+      "40233887",
+      "39410900",
+      "35343164",
+      "24508063",
+      "32025206",
+      "39928767",
+      "16966432"
+    ],
+    "review": [
+      "41290861",
+      "27671820",
+      "23651094",
+      "40943669",
+      "22834827",
+      "40184222"
+    ],
+    "pmc": [
+      "12647233"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-26153-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41290861/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1220",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

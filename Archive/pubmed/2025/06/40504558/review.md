@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supporting data
+- **Shared manuscript claim summary** The authors report microsecond-level molecular dynamics simulations of wild-type p53DBD and three hotspot mutants (R175H, R273H, R273C). They claim discovery of a previously unidentified beta-hairpin conformation in the L1 loop of wild-type p53DBD, mutation-specific structural perturbations (helix-to-coil transition at H2 for R273 mutants, allosteric L2/L3 loop flexibility for R175H), and remodelled non-local residue couplings that link to loss-of-function and gain-of-function phenotypes.
+- **Visible evidence base** Abstract text only. No methods, simulation parameters, force fields, convergence criteria, structural figures, or quantitative interaction analyses are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation setup and validation, force field and water model details, replica or repeat simulation information, convergence assessments, structural figures, interaction network methodology, and any experimental validation. None of these are available for assessment.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of p53DBD dynamics. However, the claims as stated exceed what can be supported by the abstract alone. The discovery claim of a novel beta-hairpin is strong and requires robust structural evidence and statistical validation. The mechanistic distinctions between mutants are presented with confidence that is not assessable from the supplied material. The link to oncogenic phenotypes is speculative and not supported by functional data in the abstract. The work may be of interest to the computational biophysics and p53 communities, but the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein dynamics and conformational ensembles would be interested in the methodological application to a medically important system. The p53 research community, including structural biologists and cancer biologists, would be interested in mutation-specific conformational mechanisms that may inform therapeutic strategies. Researchers working on allosteric regulation and mutation effects on protein function would also find the interaction network analysis relevant.
+- **Major strengths** The study addresses a biologically important and clinically relevant question. The use of microsecond-level simulations is appropriate for capturing slow conformational transitions. The comparative design across wild-type and three hotspot mutants allows for mutation-specific mechanistic inference. The focus on loop dynamics and allosteric communication is well aligned with current understanding of p53DBD function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim discovery of a previously unidentified beta-hairpin conformation within the L1 loop of wild-type p53DBD.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The claim of a novel beta-hairpin is a strong structural discovery. The abstract provides no information on how this conformation was identified, its population, its stability, or its statistical significance relative to other conformations. Without convergence analysis, free energy estimates, or comparison to experimental structures, this claim cannot be evaluated.
+  - **Why it matters** A previously unidentified structural motif in a protein as heavily studied as p53DBD is a high-impact claim. If not rigorously supported, it could mislead the field. The abstract does not provide sufficient evidence to distinguish a genuine metastable state from a simulation artifact or a rare fluctuation.
+  - **Resolution test** Provide population analysis, free energy profiles, replica or repeat simulation consistency, and comparison to known p53DBD structures. Show that the beta-hairpin is reproducibly sampled and thermodynamically distinguishable from other L1 conformations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that R273 mutations disrupt H2 alpha-helix integrity and induce helix-to-coil transitions, and that R175H triggers allosteric flexibility in L2 and L3 loops.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract reports these structural changes as established findings, but no quantitative measures are provided. There is no information on secondary structure assignment methods, helix occupancy percentages, loop flexibility metrics, or statistical comparisons between wild-type and mutant simulations. The distinction between local destabilization (R273) and long-range allosteric effects (R175H) is presented without supporting interaction network data.
+  - **Why it matters** The central mechanistic claims of the paper rest on these structural differences. Without quantitative evidence and appropriate statistical testing, the conclusions cannot be distinguished from simulation noise or force field artifacts.
+  - **Resolution test** Provide secondary structure time series, occupancy distributions, RMSF or principal component analyses for the relevant regions, and statistical tests comparing wild-type and mutant ensembles. Show that the observed differences are reproducible and significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings link mutation-specific conformational shifts to p53 loss-of-function and gain-of-function phenotypes.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract makes a direct connection between simulated conformational changes and oncogenic phenotypes. No functional assays, binding data, or experimental correlations are presented. The leap from structural dynamics to phenotype is not justified by the evidence described.
+  - **Why it matters** The clinical relevance of the study depends on this link. If the connection is speculative, the significance of the work is substantially reduced. Overstating the phenotypic implications could mislead readers about the strength of the conclusions.
+  - **Resolution test** Either temper the phenotypic claims to reflect the computational nature of the study, or provide experimental validation such as DNA binding assays, transactivation assays, or cellular studies that directly test the predicted functional consequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "multi-state conformational switching" and "non-local residue couplings" without brief contextual explanation. Nonspecialist readers in the broader cancer biology community may struggle to interpret these findings.
+  - **Required correction** Add one sentence of context explaining the functional relevance of loop dynamics and long-range coupling in p53DBD, or define these terms more explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "microsecond-level molecular dynamics simulations" but does not specify the exact simulation length, number of replicates, force field, or water model. This level of detail is insufficient for reproducibility assessment.
+  - **Required correction** Include simulation length, number of independent runs, force field, and water model in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Therapeutic implications statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final sentence claims the findings offer "new avenues for restoring p53 activity in cancers." This is a broad statement without specific mechanistic targets or proposed intervention strategies.
+  - **Required correction** Either specify which structural features could be targeted and how, or soften the claim to indicate potential implications rather than direct therapeutic avenues.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (beta-hairpin discovery claim requires robust structural and statistical evidence), R1-M2 (quantitative structural comparisons between wild-type and mutants are missing), R1-M3 (phenotypic link is not supported by experimental or functional data in the abstract).
+- **Assessment against Nature-style criteria** Originality: The study addresses a well-studied system, and the claim of a novel beta-hairpin is potentially original, but this cannot be verified from the abstract. Scientific importance: The p53 system is of high importance, and mutation-specific conformational mechanisms would be valuable, but the phenotypic link is overstated relative to the evidence. Interdisciplinary readership: The work could appeal to computational biologists, structural biologists, and cancer researchers, but the abstract is somewhat technical. Technical soundness: Not assessable from the abstract alone. The absence of methodological detail and quantitative results prevents evaluation of simulation quality, convergence, or statistical rigor. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, and the research question is worthwhile, but the abstract alone does not provide sufficient technical detail or quantitative support for the major claims. A full manuscript with rigorous simulation validation, statistical analyses, and appropriately tempered phenotypic conclusions would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of a previously unidentified beta-hairpin conformation in the L1 loop is unsupported from the abstract alone and requires structural and statistical evidence.
+- The mechanistic distinction between R273 mutants (local H2 destabilization) and R175H (allosteric L2/L3 effects) is not quantitatively supported.
+- The link between simulated conformational shifts and loss-of-function or gain-of-function phenotypes is speculative and not supported by functional data.
+- The statement that findings offer "new avenues for restoring p53 activity" is an overreach relative to the evidence presented.
+- The interaction network analysis and its conclusions regarding non-local residue couplings are not assessable without methodological details and results.

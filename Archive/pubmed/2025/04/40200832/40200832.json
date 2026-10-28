@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "40200832",
+    "doi": "10.1097/CJI.0000000000000557",
+    "title": "Integrative Multi-Omics Analysis Reveals Molecular Subtypes of Ovarian Cancer and Constructs Prognostic Models."
+  },
+  "content": {
+    "abstract": "Ovarian cancer (OV) remains the most lethal gynecological malignancy. The aim of this study was to identify molecular subtypes of OV through integrative multi-omics analysis and construct machine learning-based prognostic models for predicting the efficacy of immunotherapy. In here, the mutation, copy number variation, RNA sequencing expression profiles, and clinical information were obtained from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) databases. Multi-omics data were stratified using the MOVICS package, identifying different molecular subtypes. Our analysis identified 2 molecular subtypes (CS1 and CS2) with significant survival differences. Transcriptional regulatory network analysis revealed differential activation of transcription factors such as FOXA1 and GATA3 in CS1, whereas AR and ESR2 were enriched in CS2. A robust prognostic signature comprising 5 key genes was developed through the integration of 10 machine learning algorithms, demonstrating high predictive power across data sets. Immune cell infiltration analysis revealed that anti-tumor immune cells were more abundant in low-risk groups, whereas pro-tumor immune cells predominated in high-risk groups. Furthermore, low-risk patients exhibited better immunotherapy responses and higher tumor mutational burden (TMB). In conclusion, our findings underscore the potential of multi-omics integration in unveiling novel OV subtypes and constructing predictive models that inform personalized treatment strategies. Future research should focus on validating these findings in larger cohorts to enhance OV management through targeted therapeutic approaches.",
+    "keywords": [
+      "immunotherapy",
+      "machine learning",
+      "multi-omics analysis",
+      "ovarian cancer",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/genetics/mortality/diagnosis/therapy",
+      "Prognosis",
+      "*Biomarkers, Tumor/genetics",
+      "Mutation",
+      "Machine Learning",
+      "Genomics/methods",
+      "Gene Regulatory Networks",
+      "DNA Copy Number Variations",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Immunotherapy/methods",
+      "Transcriptome",
+      "Computational Biology/methods",
+      "Databases, Genetic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Min",
+        "Pi, Jie",
+        "Zhao, Yuzi"
+      ],
+      "short_names": [
+        "Zhou M",
+        "Pi J",
+        "Zhao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics, Renmin Hospital of Wuhan University, Wuhan, Hubei, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Min",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Renmin Hospital of Wuhan University, Wuhan, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Pi, Jie",
+        "short_name": "Pi J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Yuzi",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunotherapy (Hagerstown, Md. : 1997)"
+    ],
+    "journal_abbrev": [
+      "J Immunother"
+    ],
+    "pub_date": "2025 Jul-Aug 01",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 10:12",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "41797784",
+      "41246300",
+      "41234887"
+    ],
+    "refs": [],
+    "similar": [
+      "40200832",
+      "39732954",
+      "40200221",
+      "39669580",
+      "40170843",
+      "34607103",
+      "39910672",
+      "40330458",
+      "39726597",
+      "39870964",
+      "40330470",
+      "39896800",
+      "38480676",
+      "39773329",
+      "39735553",
+      "38935217",
+      "30255801",
+      "38728362",
+      "40406120",
+      "33173439",
+      "39961214",
+      "39434164",
+      "39809381",
+      "39355255",
+      "39730893",
+      "32533167",
+      "39600695",
+      "39703515",
+      "39346927",
+      "38689382",
+      "39391958",
+      "40435135",
+      "34238352",
+      "40308576",
+      "40168774",
+      "36159794",
+      "40008534",
+      "39966486",
+      "38959352",
+      "33381581",
+      "38869635",
+      "39633373",
+      "38897150",
+      "39885324",
+      "32000042",
+      "38656888",
+      "40312720",
+      "36003381",
+      "39112745",
+      "40438115",
+      "33543590",
+      "40170854",
+      "37178426",
+      "39267056",
+      "39909246",
+      "38549156",
+      "38518167",
+      "39342345",
+      "39628476",
+      "39687627",
+      "39935429",
+      "38913914",
+      "40382612",
+      "32666642",
+      "33189611",
+      "39712016",
+      "39353384",
+      "40038532",
+      "39076986",
+      "30594555",
+      "34609082",
+      "37748218",
+      "40103807",
+      "32763377",
+      "39686988",
+      "40066454",
+      "33830879",
+      "40243888",
+      "38958523",
+      "40281016",
+      "40438100",
+      "40263498",
+      "33170908",
+      "38947325",
+      "39697754",
+      "39794414",
+      "38824904",
+      "33271935",
+      "34806485",
+      "37358720",
+      "33287740",
+      "37936202",
+      "40423850",
+      "40456769",
+      "33161227",
+      "38759695",
+      "40360993",
+      "40463372",
+      "39030559",
+      "34970268"
+    ],
+    "review": [
+      "40200832"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=48&issue=6&spage=197&aulast=Zhou",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40200832.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1763",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/CJI.0000000000000557",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

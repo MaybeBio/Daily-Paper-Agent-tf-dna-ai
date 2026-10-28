@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript text. No external data or supplementary figures were available for review beyond what is described in the text.
+- **Shared manuscript claim summary** The authors combine single-molecule DNA flow-stretching experiments with Brownian dynamics simulations to investigate the dual role of polyethylene glycol (PEG) in shear flow: PEG-induced attractive interactions between DNA segments and increased buffer viscosity. They report that higher PEG concentrations increase end-to-end length and reduce fluctuations of surface-tethered λ-DNA, and that their simulation model quantitatively reproduces these observations.
+- **Visible evidence base** Main text, Figures 1–7 (described), Table 1 (referenced), Methods sections, and references to Supplementary Figures S1 and Movies S1–S2. No raw data, full figure panels, or supplementary files were provided.
+- **Missing materials affecting confidence** Supplementary figures (S1A–C), Movies S1–S2, full figure panels with error bars and statistical annotations, raw trajectory data, and details of the simulation code or parameter sweeps. These are essential for fully evaluating the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in single-molecule biophysics: how crowding agents such as PEG affect DNA dynamics in flow-stretching assays. The combination of experiments and simulations is appropriate and the central idea, that PEG exerts counteracting effects via excluded volume and viscosity, is well motivated. However, the evidence presented in the text is insufficient to fully support the quantitative claims of agreement between experiment and simulation. Several methodological details, particularly regarding the simulation parameters, the fitting procedure for the interaction strength α, and the statistical treatment of experimental data, are either missing or only partially described. The manuscript would benefit from a more rigorous presentation of the data and a clearer articulation of the model's assumptions and limitations.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, polymer physics, and DNA-protein interaction studies would be interested. The work is relevant to those using flow-stretching assays to study DNA-binding proteins under physiologically relevant, crowded conditions, and to computational groups developing coarse-grained models of DNA under flow.
+- **Major strengths** The study addresses a genuine gap in the field by explicitly separating the viscosity and excluded-volume effects of PEG. The use of quantum dot labeling to track the free DNA end is a technically sound approach. The combination of experiments with Brownian dynamics simulations is a strong strategy for interpreting complex data. The finding that the interaction parameter α is independent of PEG concentration and viscosity is a useful result, if confirmed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim of "quantitative agreement between our model and the experimental results for suitable PEG-DNA interaction parameters" (Abstract, Discussion).
+  - **Evidence pointer** Figures 6 and 7, Table 1, Section 3.3.
+  - **Concern** The quantitative agreement is established by fitting the interaction parameter α to the 3% PEG data point (Eq. 29) and then comparing the 5% PEG prediction. This is a single-point calibration with no reported uncertainty on α. The text does not report the goodness of fit, confidence intervals, or a systematic exploration of the parameter space. The agreement at 5% PEG could be fortuitous given the limited number of data points (only three PEG concentrations, with 10% PEG not tested experimentally). Furthermore, the simulation model uses a phenomenological attractive potential (Eq. 7) with a decay length D that is not directly measured but assumed to be comparable to the bond length a. The sensitivity of the results to this assumption is not discussed.
+  - **Why it matters** The central claim of the paper rests on this quantitative agreement. Without a rigorous statistical treatment of the fitting procedure and a demonstration that the agreement is robust to model assumptions, the conclusion that the model captures the physics of PEG-DNA interactions is not fully established.
+  - **Resolution test** Provide confidence intervals for α, perform a sensitivity analysis on D, and ideally test the model against an independent dataset (e.g., a different PEG concentration or a different molecular weight of PEG). Report the residuals between model and experiment for all data points.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "higher PEG concentrations result in increased end-to-end length of flow-stretched DNA and decreased fluctuations of the free DNA end" (Abstract, Section 3.2).
+  - **Evidence pointer** Figures 4 and 5, Table 1, Section 2.6.
+  - **Concern** The statistical analysis is described as using the Mann-Whitney test, but the text does not report the effect sizes, the distribution of the data, or the number of independent experiments (e.g., how many flow cells, how many days). The histograms in Figures 4B and 4C are described as "broader than the fluctuations for a single DNA molecule," which suggests significant heterogeneity, but the sources of this heterogeneity (e.g., molecule-to-molecule variability, measurement error, tethering site variability) are not quantified. The comparison between 0% and 3% PEG is mentioned as "similar results" but the data for 3% PEG are not shown in the main text figures.
+  - **Why it matters** The experimental observations are the foundation of the study. If the statistical power is low or the heterogeneity is not properly characterized, the observed trends may not be robust. The lack of a clear presentation of the 3% PEG data in the main text makes it difficult to assess the dose-dependence of the effect.
+  - **Resolution test** Report the full distribution of the data (e.g., box plots or scatter plots), the number of independent replicates, and the effect sizes with confidence intervals. Show the 3% PEG data in the main text figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the work provides "proof of principle of understanding the dynamics of DNA interacting with an agent in a crowded environment" (Discussion).
+  - **Evidence pointer** Section 4.
+  - **Concern** The study only tests one crowding agent (PEG) at two concentrations (3% and 5%) in a single buffer condition. The authors mention sucrose as a control in the Discussion but do not present any data with sucrose. The claim of "proof of principle" is too broad given the limited parameter space explored. The relevance to cellular crowding, where the environment is far more complex, is speculative.
+  - **Why it matters** The broader significance of the work depends on its generalizability. Without testing other crowding agents or conditions, it is unclear whether the observed effects are specific to PEG or a general feature of crowded environments.
+  - **Resolution test** Include experiments with a non-interacting crowding agent (e.g., sucrose or Ficoll) as a control, or at least clearly state the limitations of the current study in the Discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Paragraph 1
+  - **Issue** The introduction is dense and assumes familiarity with both DNA flow-stretching assays and polymer physics. The connection between DNA compaction mechanisms in cells and the use of flow-stretching assays could be made more explicit for a broader audience.
+  - **Required correction** Briefly explain why flow-stretching is a useful tool for studying DNA-protein interactions and how crowding agents are relevant to this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 2.5
+  - **Evidence pointer** Paragraph on data analysis
+  - **Issue** The description of the 1D Gaussian fitting procedure is brief. It is unclear how the fitting was initialized, whether the fit was constrained, and how the uncertainty in the fitted position was estimated.
+  - **Required correction** Provide more detail on the fitting algorithm and the error analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 3.1
+  - **Evidence pointer** Equation 7
+  - **Issue** The choice of the exponential form for the PEG-induced potential (Eq. 7) is not justified. Other forms (e.g., Gaussian or Lennard-Jones-like) could be equally valid.
+  - **Required correction** Briefly justify the choice of the exponential potential or discuss its limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 3.1
+  - **Evidence pointer** Table 1
+  - **Issue** The viscosity measurements are reported as mean ± SD, but the number of replicates is not stated. The Pearson correlation coefficient is mentioned but it is unclear what variables were correlated.
+  - **Required correction** State the number of replicates and clarify the correlation analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The fitting procedure for α needs to be more rigorous, and the experimental data need to be presented with more statistical detail. The lack of a sensitivity analysis for the model parameters is a significant gap.
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of separating the viscosity and excluded-volume effects of PEG in flow-stretching assays is a useful contribution, but it is an incremental step rather than a conceptual breakthrough. The use of simulations to interpret the data is standard practice.
+  - **Scientific importance** The work is relevant to a niche but active community. The findings are unlikely to change the broader understanding of DNA biophysics or crowding, but they provide a useful reference for researchers using PEG in similar assays.
+  - **Interdisciplinary readership** The manuscript is primarily of interest to biophysicists and physical chemists. The methods and results are unlikely to attract readers from outside these fields.
+  - **Technical soundness** The experimental approach is sound, but the quantitative analysis is not sufficiently rigorous to support the central claims. The simulation model is simplified and its limitations are not fully addressed.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The introduction and discussion assume significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the experimental approach is sound, but the quantitative claims of agreement between experiment and simulation are not sufficiently supported. The statistical analysis of the experimental data needs to be more rigorous, and the simulation model needs a more thorough validation. If these concerns are addressed, the manuscript could be suitable for publication in a specialized journal, but it is unlikely to meet the bar for a Nature-style publication given its incremental nature and limited scope.

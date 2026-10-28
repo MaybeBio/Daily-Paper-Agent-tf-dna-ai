@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41414713",
+    "doi": "10.1111/cbdd.70214",
+    "title": "WGX-50 Promotes Healthy Ageing in Caenorhabditis elegans: A Combined Computational and Experimental Study."
+  },
+  "content": {
+    "abstract": "WGX-50, a previously reported drug candidate for Alzheimer's disease, is derived from Zanthoxylum bungeanum Maxim commonly called Sichuan pepper. Its pharmacological actions for the long run benefit of human health have been extensively investigated. However, in terms of its anti-aging effect, it totally remains unexplored. In this work, WGX-50 was first reported to promote healthy aging in Caenorhabditis elegans with insights from drug target prediction and molecular dynamics simulations. Further investigations have experimentally demonstrated that: Firstly, both daf-16 and skn-1 genes are causative to WGX-50 mediated longevity. WGX-50 failed to extend lifespan upon depletion of these genes in transgenic worms. Their orthologs Foxo1 and Nrf2 were also activated even in D-galactose (D-gal) induced aging and Zmpste24(-/-) progeria mice intestines. Secondly, WGX-50 inhibits IIS signaling via downregulating daf-2, and activating daf-16 and skn-1 genes, which thus enable downstream pro-longevity effectors increasing stress resistance and promoting healthier aging. WGX-50 increased expression levels of sod-3, ctl-1, gst-7/8/12/33, gsto-1, and heat shock protein genes such as hsp-12.2, hsp-90, F44E5.4/0.5, T05E11.9 and their inducer hsf-1. In addition, the accumulation of lipofuscin, fat, and reactive oxygen species levels with age was decreased significantly upon WGX-50 supplementation without physiological impairments. Thirdly, in progeria, D-gal and naturally aged mice, WGX-50 is incapable of inducing aging. Senescent genes and SASP factors were not produced at higher levels in livers and small intensities. No impact was observed on key organ indices, blood biochemistry parameters, and bone histomorphometry. WGX-50 perhaps prolongs lifespan through other mechanisms such as reducing fertility, inducing dietary restriction, and improving proteostasis with lowered levels of polyQ35 aggregates. Our findings thus provide primary insights for the potential medical use of WGX-50 in anti-aging and long-term healthcare.",
+    "keywords": [
+      "Caenorhabditis elegans",
+      "WGX-50",
+      "aged mice",
+      "aging",
+      "longevity",
+      "molecular dynamics simulation",
+      "systems biology",
+      "target prediction"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/metabolism/drug effects/genetics/physiology",
+      "Caenorhabditis elegans Proteins/metabolism/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Longevity/drug effects",
+      "Forkhead Transcription Factors/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Signal Transduction/drug effects",
+      "*Healthy Aging/drug effects",
+      "*Aging/drug effects",
+      "Mice",
+      "Animals, Genetically Modified"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Guihua",
+        "Li, Jiayi",
+        "Khan, Abbas",
+        "Kaushik, Aman Chandra",
+        "Wu, Diyi",
+        "Chen, Hongyu",
+        "Li, Rongpei",
+        "Wang, Jian",
+        "Zhang, Chen",
+        "Farooq, Adil",
+        "Mao, Xueying",
+        "Mehmood, Aamir",
+        "Zhang, Weidong",
+        "Wang, Heng",
+        "Wei, Dong-Qing"
+      ],
+      "short_names": [
+        "Jia G",
+        "Li J",
+        "Khan A",
+        "Kaushik AC",
+        "Wu D",
+        "Chen H",
+        "Li R",
+        "Wang J",
+        "Zhang C",
+        "Farooq A",
+        "Mao X",
+        "Mehmood A",
+        "Zhang W",
+        "Wang H",
+        "Wei DQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9967-3162",
+        "ORCID: 0000-0002-4288-7602",
+        "ORCID: 0000-0001-8713-966X",
+        "ORCID: 0000-0002-0843-5688",
+        "ORCID: 0000-0003-4200-7502"
+      ],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Jilin University, Changchun, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Qihe Laboratory, Hebi, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Qihe Laboratory, Hebi, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Biomedical Sciences, School of Medical and Life Sciences, Sunway University, Bandar Sunway, Malaysia.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Food Science and Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, China.",
+        "College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Qihe Laboratory, Hebi, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Pharmaceutical Sciences, Jilin University, Changchun, China.",
+        "Department of Food Science and Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Qihe Laboratory, Hebi, China.",
+        "Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang, China.",
+        "Peng Cheng National Laboratory, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Guihua",
+        "short_name": "Jia G",
+        "identifiers": [
+          "0000-0002-9967-3162"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Jilin University, Changchun, China.",
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+          "Qihe Laboratory, Hebi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+          "Qihe Laboratory, Hebi, China."
+        ]
+      },
+      {
+        "full_name": "Khan, Abbas",
+        "short_name": "Khan A",
+        "identifiers": [
+          "0000-0002-4288-7602"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+          "Department of Biomedical Sciences, School of Medical and Life Sciences, Sunway University, Bandar Sunway, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Kaushik, Aman Chandra",
+        "short_name": "Kaushik AC",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Diyi",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science and Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hongyu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rongpei",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jian",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chen",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+          "Qihe Laboratory, Hebi, China."
+        ]
+      },
+      {
+        "full_name": "Farooq, Adil",
+        "short_name": "Farooq A",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xueying",
+        "short_name": "Mao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Mehmood, Aamir",
+        "short_name": "Mehmood A",
+        "identifiers": [
+          "0000-0001-8713-966X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weidong",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0002-0843-5688"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Heng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science and Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dong-Qing",
+        "short_name": "Wei DQ",
+        "identifiers": [
+          "0000-0003-4200-7502"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+          "Qihe Laboratory, Hebi, China.",
+          "Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang, China.",
+          "Peng Cheng National Laboratory, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 06:31",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "42509786"
+    ],
+    "refs": [],
+    "similar": [
+      "41414713",
+      "33881421",
+      "34616504",
+      "34240728",
+      "40973886",
+      "30710163",
+      "34197476",
+      "39354761",
+      "34397058",
+      "31234252",
+      "28434978",
+      "40922660",
+      "30238944",
+      "31206890",
+      "32285078",
+      "31401497",
+      "40641352",
+      "29605769",
+      "32074508",
+      "30266681",
+      "23736695",
+      "39025156",
+      "38471269",
+      "37734471",
+      "28612944",
+      "41465315",
+      "31960183",
+      "39197398",
+      "31799533",
+      "25808059",
+      "29454917",
+      "32443669",
+      "31669661",
+      "32161088",
+      "35366456",
+      "41283785",
+      "35119578",
+      "40466506",
+      "34830338",
+      "31379987",
+      "39353373",
+      "25643626",
+      "39675545",
+      "36822487",
+      "31039619",
+      "34374387",
+      "36921677",
+      "35237385",
+      "21858156",
+      "28831863",
+      "32733632",
+      "39528176",
+      "30624146",
+      "40278906",
+      "36748780",
+      "37761985",
+      "28366735",
+      "40850658",
+      "24964141",
+      "26592451",
+      "32506187",
+      "26601690",
+      "35677109",
+      "38754743",
+      "33471780",
+      "26796881",
+      "34505574",
+      "38877105",
+      "28445141",
+      "28571752",
+      "41187536",
+      "34675482",
+      "40260541",
+      "27090484",
+      "39674829",
+      "26405062",
+      "41436666",
+      "23271974",
+      "33924155",
+      "40941989",
+      "35279029",
+      "32578648",
+      "39581459",
+      "24945567",
+      "37338980",
+      "37952525",
+      "39366528",
+      "27370100",
+      "38326350",
+      "37232088",
+      "27478096",
+      "26546011",
+      "35041882",
+      "31412639",
+      "26899496",
+      "28772063",
+      "26195740",
+      "36052763",
+      "20096764",
+      "40935202"
+    ],
+    "review": [
+      "41414713"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://doi.org/10.1111/cbdd.70214",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

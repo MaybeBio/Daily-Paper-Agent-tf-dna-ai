@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "42576521",
+    "doi": "10.2174/0113862073450157260529073834",
+    "title": "Autophagy-Related Molecular Signatures and Immune Profiles Distinguish Sepsis from Sepsis-Induced Acute Respiratory Distress Syndrome."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Sepsis is a life-threatening condition characterized by a dysregulated immune response to infection and is frequently complicated by acute respiratory distress syndrome (ARDS), contributing to substantial morbidity and mortality. Autophagy has been implicated in immune regulation and inflammatory signaling in these conditions; however, its transcriptomic role in distinguishing sepsis from sepsis-induced ARDS remains incompletely defined. METHOD: In this study, we performed an integrated transcriptomic analysis of three publicly available GEO datasets comprising 139 whole-blood samples (79 sepsis and 60 sepsis-induced ARDS). RESULT: Differential expression analysis identified 17 autophagy-related genes, including 10 upregulated and 7 downregulated genes in sepsis-induced ARDS compared with sepsis alone. Machine learning approaches, including LASSO regression, random forest, and support vector machine models, yielded a six-gene panel (ATG4A, ATG7, ATG9A, IRS1, RRAS, and SH3GLB1). Individual genes demonstrated moderate discriminatory performance (AUC range: 0.607-0.674), while the composite model achieved an AUC of 0.772 within the integrated dataset. DISCUSSION: These genes were associated with distinct immune-related transcriptional signatures and were enriched in pathways linked to autophagy, metabolic regulation, and immune signaling. Upstream regulatory network analysis further suggested potential miRNA and transcription factor interactions. CONCLUSION: Collectively, these findings provide an integrative molecular framework highlighting autophagy-immune interactions in sepsis and sepsis-induced ARDS. Given the crosssectional and retrospective nature of the study, the results reflect associations between clinical states and require independent validation and mechanistic investigation.",
+    "keywords": [
+      "Sepsis",
+      "acute respiratory distress syndrome",
+      "autophagy-related genes",
+      "immune-associated transcriptional signatures",
+      "machine learning",
+      "transcriptomic analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Qin",
+        "Peng, Yuan",
+        "Wang, YongFang",
+        "Yang, Yan",
+        "Gu, Chen",
+        "Wang, Jiajia",
+        "Huang, Jianan"
+      ],
+      "short_names": [
+        "Wang Q",
+        "Peng Y",
+        "Wang Y",
+        "Yang Y",
+        "Gu C",
+        "Wang J",
+        "Huang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Suzhou Key Laboratory for Respiratory Diseases, Suzhou 215006, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Qin",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yuan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, YongFang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yan",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Chen",
+        "short_name": "Gu C",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiajia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Intensive Care Unit, the First People's Hospital of Kunshan Affiliated to JiangSu University, Kunshan 215300, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jianan",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Institute of Respiratory Diseases, Soochow University, Suzhou 215006, Jiangsu, China.",
+          "Suzhou Key Laboratory for Respiratory Diseases, Suzhou 215006, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Combinatorial chemistry & high throughput screening"
+    ],
+    "journal_abbrev": [
+      "Comb Chem High Throughput Screen"
+    ],
+    "pub_date": "2026 Jul 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/11 06:35",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42576521",
+      "42398170",
+      "40849369",
+      "41611834",
+      "42326009",
+      "39763654",
+      "35844622",
+      "40375981",
+      "42291298",
+      "37443002",
+      "35411170",
+      "42250009",
+      "40050379",
+      "41214769",
+      "36169246",
+      "40055592",
+      "42233387",
+      "41221285",
+      "42563678",
+      "42475469",
+      "41306613",
+      "40892227",
+      "40830558",
+      "42305536",
+      "42292668",
+      "42234716",
+      "42410766",
+      "42024670",
+      "36386585",
+      "40634559",
+      "42247642",
+      "41568478",
+      "39586719",
+      "41299255",
+      "42558367",
+      "42565562",
+      "37936685",
+      "40068062",
+      "37336980",
+      "42257259",
+      "42123445",
+      "33904373",
+      "42232056",
+      "41821863",
+      "41039310",
+      "37701780",
+      "40697417",
+      "37822934",
+      "39950836",
+      "34393665",
+      "41913790",
+      "39588141",
+      "42363518",
+      "38423372",
+      "41939278",
+      "40362669",
+      "39735547",
+      "37009294",
+      "36360490",
+      "41833346",
+      "42338983",
+      "33818300",
+      "41449193",
+      "41802381",
+      "31566109",
+      "40898483",
+      "42292468",
+      "42257395",
+      "40421173",
+      "42309011",
+      "36567558",
+      "42495609",
+      "40259224",
+      "38656728",
+      "42329827",
+      "42120650",
+      "41570698",
+      "41491575",
+      "42502316",
+      "38533071",
+      "41595448",
+      "41388523",
+      "35538832",
+      "42265520",
+      "35222683",
+      "37593872",
+      "38321908",
+      "41333476",
+      "27090785",
+      "40694561",
+      "41424060",
+      "41013727",
+      "40169352",
+      "38291374",
+      "35371338",
+      "42148128",
+      "41415264",
+      "41527570",
+      "42465840",
+      "41049485"
+    ],
+    "review": [
+      "42576521",
+      "37593872"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

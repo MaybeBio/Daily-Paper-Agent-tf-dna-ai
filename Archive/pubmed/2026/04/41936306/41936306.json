@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41936306",
+    "doi": "10.1016/j.intimp.2026.116602",
+    "title": "Pedunculoside ameliorates liver fibrosis by targeting c-Jun to inhibit hepatic stellate cell activation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Liver fibrosis represents a critical stage in the progression of chronic liver diseases and is characterized by the activation of hepatic stellate cells (HSCs). Pedunculoside (PED), a pentacyclic triterpenoid saponin derived from Ilex rotunda Thunb, has been reported to exhibit anti-inflammatory, antioxidant, and organ-protective effects in the heart and lungs. However, its therapeutic potential and direct molecular targets in the context of liver fibrosis remain unknown. METHODS: The antifibrotic effects of PED were assessed using TGF-beta1-activated LX-2 cells and two murine models of liver fibrosis induced by carbon tetrachloride (CCl(4)) and bile duct ligation (BDL). Transcriptomic sequencing (RNA-seq) was performed to map the signaling alterations induced by PED. An integrated strategy, combining network pharmacology, molecular docking, and molecular dynamics (MD) simulations, was employed to predict potential targets. The direct interaction between PED and its target was validated via cellular thermal shift assays (CETSA) and Sepharose pull-down assays. Gain-of-function and loss-of-function experiments were conducted to confirm the target-dependent mechanism of PED. RESULTS: PED treatment significantly inhibited HSC proliferation and activation in vitro and attenuated hepatic fibrogenesis and collagen deposition in both CCl(4)- and BDL-induced mouse models. Transcriptomic profiling revealed that PED broadly suppressed fibrogenic signaling cascades, including the MAPK and NF-kappaB pathways. Notably, c-Jun was identified as a direct binding target of PED. Biophysical assays confirmed that PED binds to the pocket of c-Jun, thereby blocking its phosphorylation and transcriptional activity. Furthermore, overexpression of c-Jun abolished the antifibrotic effects of PED in HSCs, while loss-of-function experiments revealed that c-Jun knockdown mimicked the inhibitory effects of PED on TGF-beta1-induced HSC activation and proliferation, with no significant additive antifibrotic effect observed when PED was administered to c-Jun-silenced HSCs. confirming that the PED-c-Jun axis is the primary mechanism of action. CONCLUSION: Our findings demonstrate that PED is a potent antifibrotic agent that functions by directly targeting and inhibiting c-Jun. This study provides the first evidence for the pharmacological modulation of c-Jun by PED, with rigorous gain- and loss-of-function validation of the target dependency, highlighting its potential as a novel therapeutic strategy for the treatment of liver fibrosis.",
+    "keywords": [
+      "Hepatic stellate cells",
+      "Liver fibrosis",
+      "Pedunculoside",
+      "Target identification",
+      "c-Jun"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hepatic Stellate Cells/drug effects/physiology",
+      "Humans",
+      "*Liver Cirrhosis/drug therapy/metabolism",
+      "Mice",
+      "Male",
+      "*Triterpenes/therapeutic use/pharmacology",
+      "*Proto-Oncogene Proteins c-jun/metabolism",
+      "Cell Line",
+      "Carbon Tetrachloride",
+      "Mice, Inbred C57BL",
+      "*Saponins/therapeutic use/pharmacology",
+      "Molecular Docking Simulation",
+      "Transforming Growth Factor beta1/metabolism",
+      "*Antifibrotic Agents/therapeutic use/pharmacology",
+      "Liver/pathology/drug effects",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ao",
+        "Dong, Hui",
+        "Cui, Yaqian",
+        "Jin, Yiqian",
+        "Xiong, Yongqiang",
+        "Jin, Leiming",
+        "Zhang, Qianhui",
+        "Zhu, Weiwei",
+        "Ye, Jiaxi",
+        "Lin, Mengsha",
+        "Luo, Wu",
+        "Liang, Guang",
+        "Sun, Jinfeng"
+      ],
+      "short_names": [
+        "Wang A",
+        "Dong H",
+        "Cui Y",
+        "Jin Y",
+        "Xiong Y",
+        "Jin L",
+        "Zhang Q",
+        "Zhu W",
+        "Ye J",
+        "Lin M",
+        "Luo W",
+        "Liang G",
+        "Sun J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China.",
+        "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China. Electronic address: wzmcliangguang@163.com.",
+        "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China. Electronic address: jfsun@ybu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ao",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Hui",
+        "short_name": "Dong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yaqian",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yiqian",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yongqiang",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Leiming",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qianhui",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Weiwei",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jiaxi",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Mengsha",
+        "short_name": "Lin M",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Wu",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China; Chemical Biology Research Center, School of Pharmaceutical Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Guang",
+        "short_name": "Liang G",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China. Electronic address: wzmcliangguang@163.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Jinfeng",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Natural Medicines of the Changbai Mountain, Ministry of Education, College of Pharmacy, Yanbian University, Yanji 133002, Jilin Province, China. Electronic address: jfsun@ybu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 00:30",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [
+      "42196451"
+    ],
+    "refs": [],
+    "similar": [
+      "41936306",
+      "41759558",
+      "32771890",
+      "40452107",
+      "41740338",
+      "41581345",
+      "33758354",
+      "42066824",
+      "26122378",
+      "38959553",
+      "37679574",
+      "41289748",
+      "32101775",
+      "41443484",
+      "39321687",
+      "39362322",
+      "34126414",
+      "39603398",
+      "42141267",
+      "39497457",
+      "39173724",
+      "31435175",
+      "38471319",
+      "37274069",
+      "30419452",
+      "40407304",
+      "31996320",
+      "33391480",
+      "25040634",
+      "39667045",
+      "19782079",
+      "41260554",
+      "28864168",
+      "40414578",
+      "38387680",
+      "39103531",
+      "41047032",
+      "36603342",
+      "29073595",
+      "28133777",
+      "27282665",
+      "42130159",
+      "40637204",
+      "40575954",
+      "40957167",
+      "29467552",
+      "38658618",
+      "41702259",
+      "39121535",
+      "42204558",
+      "39094440",
+      "40992063",
+      "41075517",
+      "24880074",
+      "42103827",
+      "32933544",
+      "28409388",
+      "26592197",
+      "32745796",
+      "30556540",
+      "22363627",
+      "25451574",
+      "32389810",
+      "37211724",
+      "40345560",
+      "42402720",
+      "27983763",
+      "38407690",
+      "21251937",
+      "30093459",
+      "30639476",
+      "41796616",
+      "41844050",
+      "42173841",
+      "38393550",
+      "42244286",
+      "41161609",
+      "29196956",
+      "29048780",
+      "29268190",
+      "24467283",
+      "41608630",
+      "33728997",
+      "31677501",
+      "33438347",
+      "31412137",
+      "29789683",
+      "31293340",
+      "38725842",
+      "30909713",
+      "38211823",
+      "40819890",
+      "30959141",
+      "25832428",
+      "29972714",
+      "28766848",
+      "42102670",
+      "38580181",
+      "41411733",
+      "40356680"
+    ],
+    "review": [
+      "41936306"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(26)00447-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37822561",
+  "title": "ASCARIS: Positional feature annotation and protein structure-based representation of single amino acid variations.",
+  "authors": "Cankara, Fatma; Dogan, Tunca",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2023-10-12",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出ASCARIS方法，利用序列/结构位置注释和结构特征对单氨基酸变异进行数值表征，其中包含DNA结合位点注释，可用于变异效应预测，但非聚焦TF-DNA互作机制建模，方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "BACKGROUND: Genomic variations may cause deleterious effects on protein functionality and perturb biological processes. Elucidating the effects of variations is critical for developing novel treatment strategies for diseases of genetic origin. Computational approaches have been aiding the work in this field by modeling and analyzing the mutational landscape. However, new approaches are required, especially for accurate representation and data-centric analysis of sequence variations. METHOD: In this study, we propose ASCARIS (Annotation and StruCture-bAsed RepresentatIon of Single amino acid variations), a method for the featurization (i.e., quantitative representation) of single amino acid variations (SAVs), which could be used for a variety of purposes, such as predicting their functional effects or building multi-omics-based integrative models. ASCARIS utilizes the direct and spatial correspondence between the location of the SAV on the sequence/structure and 30 different types of positional feature annotations (e.g., active/lipidation/glycosylation sites; calcium/metal/DNA binding, inter/transmembrane regions, etc.), along with structural features and physicochemical properties. The main novelty of this method lies in constructing reusable numerical representations of SAVs via functional annotations. RESULTS: We statistically analyzed the relationship between these features and the consequences of variations and found that each carries information in this regard. To investigate potential applications of ASCARIS, we trained variant effect prediction models that utilize our SAV representations as input. We carried out an ablation study and a comparison against the state-of-the-art methods and observed that ASCARIS has a competing and complementary performance against widely-used predictors. ASCARIS can be used alone or in combination with other approaches to represent SAVs from a functional perspective. ASCARIS is available as a programmatic tool at https://github.com/HUBioDataLab/ASCARIS and as a web-service at https://huggingface.co/spaces/HUBioDataLab/ASCARIS.",
+  "abstract_zh": "背景：基因组变异可能对蛋白质功能产生有害影响，并扰乱生物过程。阐明变异的影响对于开发遗传性疾病的新治疗策略至关重要。计算方法通过建模和分析突变景观，一直在辅助该领域的工作。然而，仍需要新方法，特别是对于序列变异的准确表示和以数据为中心的分析。方法：在本研究中，我们提出了ASCARIS（基于注释和结构的单氨基酸变异表示），一种用于单氨基酸变异（SAVs）特征化（即定量表示）的方法，该方法可用于多种目的，如预测其功能效应或构建基于多组学的整合模型。ASCARIS利用SAV在序列/结构上的位置与30种不同类型的位置特征注释（例如，活性/脂化/糖基化位点；钙/金属/DNA结合、跨/跨膜区域等）之间的直接和空间对应关系，以及结构特征和理化性质。该方法的主要新颖之处在于通过功能注释构建可重复使用的SAV数值表示。结果：我们统计分析了这些特征与变异后果之间的关系，发现每个特征都携带相关信息。为了研究ASCARIS的潜在应用，我们训练了利用我们的SAV表示作为输入的变异效应预测模型。我们进行了消融研究，并与最先进的方法进行了比较，观察到ASCARIS与广泛使用的预测器相比具有竞争性和互补性的性能。ASCARIS可以单独使用或与其他方法结合使用，从功能角度表示SAV。ASCARIS可作为编程工具在https://github.com/HUBioDataLab/ASCARIS 获取，并作为网络服务在https://huggingface.co/spaces/HUBioDataLab/ASCARIS 提供。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37822561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37822561/",
+  "paper_page_path": "papers/pubmed/37822561/index.html"
+}

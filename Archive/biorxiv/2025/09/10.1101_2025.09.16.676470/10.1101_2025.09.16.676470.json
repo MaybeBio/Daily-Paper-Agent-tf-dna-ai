@@ -1,0 +1,363 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.16.676470",
+  "title": "Molecular basis of polyadenylated RNA fate determination in the nucleus",
+  "doi": "10.1101/2025.09.16.676470",
+  "abstract": "<h4>ABSTRACT</h4> Eukaryotic genomes generate a plethora of polyadenylated (pA + ) RNAs 1,2 , that are packaged into ribonucleoprotein particles (RNPs). To ensure faithful gene expression, functional pA + RNPs, including protein-coding RNPs, are exported to the cytoplasm, while transcripts within non-functional pA + RNPs are degraded in the nucleus 1–4 . How cells distinguish these opposing fates remains unknown. The DExD-box ATPase UAP56/DDX39B is a central component of functional pA + RNPs, promoting their docking to the nuclear pore complex (NPC)-anchored ‘transcription and export complex 2 (TREX-2)’ (ref. 5,6 ), which triggers transcript release from UAP56 to facilitate export (ref. 7,8 ). Here, we uncover that the ‘Poly(A) tail exosome targeting (PAXT)’ connection 9 harbors its own TREX-2-like module, which releases pA + RNAs from UAP56 for decay by the nuclear exosome. The core of this module consists of a LENG8-PCID2-SEM1 (LENG8-PS) trimer, which we show is structurally and functionally equivalent to the central GANP-PCID2-SEM1 (GANP-PS) trimer of TREX-2. Mutagenesis and transcriptomic data demonstrate that the nuclear fate of pA + RNPs is governed by the contending actions of nucleoplasmic PAXT and NPC-associated TREX-2, which interpret RNA-bound UAP56 as a signal for RNA decay or export, respectively. As RNA targets of PAXT are generally short and intron-poor, we propose an overall model for pA + RNP fate determination, whereby the distinct sub-nuclear localizations of PAXT and TREX-2 govern the degradation of short non-functional pA + RNAs while allowing export of their longer and functional counterparts.",
+  "authors": [
+    "Bugai A",
+    "Hohmann U",
+    "Lorenzo A",
+    "Graf M",
+    "Fin L",
+    "Rouvière JO",
+    "Tirian L",
+    "Dou Y",
+    "Polák P",
+    "Johnsen D",
+    "Jakobsen L",
+    "Andersen JS",
+    "Brennecke J",
+    "Plaschka C",
+    "Jensen TH"
+  ],
+  "published_date": "2025-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676470",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676470.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1085882",
+    "raw_record": {
+      "id": "PPR1085882",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1085882"
+        ]
+      },
+      "doi": "10.1101/2025.09.16.676470",
+      "title": "Molecular basis of polyadenylated RNA fate determination in the nucleus",
+      "authorString": "Bugai A, Hohmann U, Lorenzo A, Graf M, Fin L, Rouvière JO, Tirian L, Dou Y, Polák P, Johnsen D, Jakobsen L, Andersen JS, Brennecke J, Plaschka C, Jensen TH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bugai A",
+            "lastName": "Bugai",
+            "firstName": "Andrii",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hohmann U",
+            "lastName": "Hohmann",
+            "firstName": "Ulrich",
+            "initials": "U",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2124-1439"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lorenzo A",
+            "lastName": "Lorenzo",
+            "firstName": "Ana",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graf M",
+            "lastName": "Graf",
+            "firstName": "Max",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Vienna BioCenter PhD Program, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fin L",
+            "lastName": "Fin",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rouvière JO",
+            "lastName": "Rouvière",
+            "firstName": "Jérôme",
+            "initials": "JO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tirian L",
+            "lastName": "Tirian",
+            "firstName": "Laszlo",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dou Y",
+            "lastName": "Dou",
+            "firstName": "Yuhui",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polák P",
+            "lastName": "Polák",
+            "firstName": "Patrik",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnsen D",
+            "lastName": "Johnsen",
+            "firstName": "Dennis",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jakobsen L",
+            "lastName": "Jakobsen",
+            "firstName": "Lis",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, , Campusvej 55 , Odense M,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andersen JS",
+            "lastName": "Andersen",
+            "firstName": "Jens Skorstengaard",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, , Campusvej 55 , Odense M,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brennecke J",
+            "lastName": "Brennecke",
+            "firstName": "Julius",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plaschka C",
+            "lastName": "Plaschka",
+            "firstName": "Clemens",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jensen TH",
+            "lastName": "Jensen",
+            "firstName": "Torben Heick",
+            "initials": "TH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , Universitetsbyen 81 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2124-1439"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Eukaryotic genomes generate a plethora of polyadenylated (pA  + ) RNAs  1,2 , that are packaged into ribonucleoprotein particles (RNPs). To ensure faithful gene expression, functional pA  + RNPs, including protein-coding RNPs, are exported to the cytoplasm, while transcripts within non-functional pA  + RNPs are degraded in the nucleus  1–4 . How cells distinguish these opposing fates remains unknown. The DExD-box ATPase UAP56/DDX39B is a central component of functional pA  + RNPs, promoting their docking to the nuclear pore complex (NPC)-anchored ‘transcription and export complex 2 (TREX-2)’ (ref.  5,6 ), which triggers transcript release from UAP56 to facilitate export (ref.  7,8 ). Here, we uncover that the ‘Poly(A) tail exosome targeting (PAXT)’ connection  9 harbors its own TREX-2-like module, which releases pA  + RNAs from UAP56 for decay by the nuclear exosome. The core of this module consists of a LENG8-PCID2-SEM1 (LENG8-PS) trimer, which we show is structurally and functionally equivalent to the central GANP-PCID2-SEM1 (GANP-PS) trimer of TREX-2. Mutagenesis and transcriptomic data demonstrate that the nuclear fate of pA  + RNPs is governed by the contending actions of nucleoplasmic PAXT and NPC-associated TREX-2, which interpret RNA-bound UAP56 as a signal for RNA decay or export, respectively. As RNA targets of PAXT are generally short and intron-poor, we propose an overall model for pA  + RNP fate determination, whereby the distinct sub-nuclear localizations of PAXT and TREX-2 govern the degradation of short non-functional pA  + RNAs while allowing export of their longer and functional counterparts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "949081",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.16.676470"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1085882"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1085882&type=FILE&fileName=EMS208963-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42310446",
+            "reference": "Nature. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208963",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-19",
+      "firstPublicationDate": "2025-09-16",
+      "firstIndexDate": "2025-09-19",
+      "fullTextReceivedDate": "2025-09-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

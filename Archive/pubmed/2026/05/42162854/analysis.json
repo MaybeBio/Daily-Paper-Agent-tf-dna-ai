@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42162854",
+  "title": "A model of STAT1-p53 coordination: Regulating p21 and PUMA to program cell fate under stress.",
+  "authors": "Mk, Francis Didier Tshianyi; Omana, Rebecca Walo; Ndondo, Apollinaire Mboma; Seya, Didier Kumwimba; Gonze, Didier",
+  "journal": "Journal of theoretical biology",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文构建p53-STAT1信号通路的机制模型，虽涉及转录因子调控p21/PUMA基因表达，但核心是细胞命运决策的动力学建模，未聚焦蛋白质-DNA三维互作或结合位点预测，且方法为常微分方程机制模型而非AI或物理模拟。",
+  "abstract": "Signalling pathways tightly regulate stress-induced cell fate decisions, with p53 stabilization via attenuation of the p53-Mdm2 feedback being central to effective responses. Signal Transducer and Activator of Transcription 1 (STAT1) both represses Mdm2 transcription and co-activates p53 targets (p21 and PUMA), yet these dual roles have not been quantified within a unified framework. We build a mechanistic model that couples a biologically calibrated stress scale (S) and STAT1 activity (Sigma) to the canonical p53-Mdm2 core and to downstream p21 and PUMA modules. Key processes are not described by fixed parameters but by explicit functions of S, allowing the model to self-adjust across stress levels without manual re-fitting. This formulation ensures that oscillatory, damped, or plateau responses naturally emerge by varying S alone. The model is calibrated to reproduce the pulsatile/oscillatory p53 regime typically observed under DNA-damage stresses that generate DNA double-strand breaks (DSBs), such as ionizing radiation and radiomimetic or topoisomerase-targeting agents. STAT1 controls and acts as a transcriptional co-activator scaling promoter strengths. Bifurcation analysis reveals a two-dimensional Hopf region in the (S, Sigma) plane; increasing Sigma shifts this region to higher S and progressively narrows it, ultimately quenching oscillations at large Sigma. Simulations of a generic cell with time-varying S and Sigma, combined with a two-stage decision rule (early transient detection followed by stationary readout), map p53 dynamics to fate: sustained moderate oscillations align with arrest, damped intermediate responses with senescence, and strongly damped high plateaus with apoptosis. The model reproduces cell fate distributions reported in literature for different cell lines (MCF-7, HCT116, U2OS) without kinetic parameter re-fitting, and highlights cell-type-specific sensitivity to p21 versus PUMA. Our framework identifies STAT1 as a tunable amplifier and oscillation quencher of the stress-responsive p53 network, providing testable dynamics-based predictions for fate control.",
+  "abstract_zh": "信号通路紧密调控应激诱导的细胞命运决定，其中通过减弱p53-Mdm2反馈实现p53稳定化是有效反应的核心。信号转导与转录激活因子1 (STAT1) 既抑制Mdm2转录，又共激活p53靶标（p21和PUMA），然而这些双重作用尚未在统一框架内被量化。我们构建了一个机制模型，将生物学校准的应激尺度 (S) 和STAT1活性 (Sigma) 耦合到经典p53-Mdm2核心模块及下游p21和PUMA模块。关键过程并非由固定参数描述，而是通过S的显式函数表达，使模型能够跨应激水平自我调整，无需手动重新拟合。该公式确保仅通过改变S即可自然涌现振荡、阻尼或平台响应。模型被校准以重现DNA损伤应激（如电离辐射及拟辐射或拓扑异构酶靶向药物）下通常观察到的p53脉冲/振荡模式，此类应激产生DNA双链断裂 (DSBs)。STAT1控制并作为转录共激活因子缩放启动子强度。分岔分析揭示了 (S, Sigma) 平面中的二维Hopf区域；增加Sigma将该区域移至更高S值并逐渐收窄，最终在大Sigma下淬灭振荡。对具有时变S和Sigma的通用细胞进行模拟，结合两阶段决策规则（早期瞬态检测后接稳态读出），将p53动态映射至命运：持续中等振荡与停滞一致，阻尼中间响应与衰老一致，强阻尼高平台与凋亡一致。模型无需动力学参数重新拟合即可重现文献中不同细胞系（MCF-7、HCT116、U2OS）报告的细胞命运分布，并突出细胞类型特异性的p21与PUMA敏感性。我们的框架将STAT1识别为应激响应p53网络的可调放大器和振荡淬灭器，为命运控制提供可测试的基于动态的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42162854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42162854/",
+  "paper_page_path": "papers/pubmed/42162854/index.html"
+}

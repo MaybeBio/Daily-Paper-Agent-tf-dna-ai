@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "38405517",
+    "doi": "10.1021/acsomega.3c09267",
+    "title": "Targeting the hSSB1-INTS3 Interface: A Computational Screening Driven Approach to Identify Potential Modulators."
+  },
+  "content": {
+    "abstract": "Human single-stranded DNA binding protein 1 (hSSB1) forms a heterotrimeric complex, known as a sensor of single-stranded DNA binding protein 1 (SOSS1), in conjunction with integrator complex subunit 3 (INTS3) and C9ORF80. This sensory protein plays an important role in homologous recombination repair of double-strand breaks in DNA to efficiently recruit other repair proteins at the damaged sites. Previous studies have identified elevated hSSB1-mediated DNA repair activities in various cancers, highlighting its potential as an anticancer target. While prior efforts have focused on inhibiting hSSB1 by targeting its DNA binding domain, this study seeks to explore the inhibition of the hSSB1 function by disrupting its interaction with the key partner protein INTS3 in the SOSS1 complex. The investigative strategy entails a molecular docking-based screening of a specific compound library against the three-dimensional structure of INTS3 at the hSSB1 binding interface. Subsequent assessments involve in vitro analyses of protein-protein interaction (PPI) disruption and cellular effects through co-immunoprecipitation and immunofluorescence assays, respectively. Moreover, the study includes an evaluation of the structural stability of ligands at the INTS3 hot-spot site using molecular dynamics simulations. The results indicate a potential in vitro disruption of the INTS3-hSSB1 interaction by three of the tested compounds obtained from the virtual screening with one impacting the recruitment of hSSB1 and INTS3 to chromatin following DNA damage. To our knowledge, our results identify the first set of drug-like compounds that functionally target INTS3-hSSB1 interaction, and this provides the basis for further biophysical investigations that should help to speed up PPI inhibitor discovery.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbhuiya, Tabassum Khair",
+        "Beard, Sam",
+        "Shah, Esha T",
+        "Mason, Steven",
+        "Bolderson, Emma",
+        "O'Byrne, Ken",
+        "Guddat, Luke W",
+        "Richard, Derek J",
+        "Adams, Mark N",
+        "Gandhi, Neha S"
+      ],
+      "short_names": [
+        "Barbhuiya TK",
+        "Beard S",
+        "Shah ET",
+        "Mason S",
+        "Bolderson E",
+        "O'Byrne K",
+        "Guddat LW",
+        "Richard DJ",
+        "Adams MN",
+        "Gandhi NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8204-8408",
+        "ORCID: 0000-0003-3119-6731"
+      ],
+      "affiliations": [
+        "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, 2 George Street, Brisbane, QLD 4000, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "School of Chemistry and Molecular Biosciences, The University of Queensland, Brisbane, QLD 4072, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "School of Chemistry and Molecular Biosciences, The University of Queensland, Brisbane, QLD 4072, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, 2 George Street, Brisbane, QLD 4000, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbhuiya, Tabassum Khair",
+        "short_name": "Barbhuiya TK",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, 2 George Street, Brisbane, QLD 4000, Australia.",
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia."
+        ]
+      },
+      {
+        "full_name": "Beard, Sam",
+        "short_name": "Beard S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "Shah, Esha T",
+        "short_name": "Shah ET",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "Mason, Steven",
+        "short_name": "Mason S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, The University of Queensland, Brisbane, QLD 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Bolderson, Emma",
+        "short_name": "Bolderson E",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "O'Byrne, Ken",
+        "short_name": "O'Byrne K",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "Guddat, Luke W",
+        "short_name": "Guddat LW",
+        "identifiers": [
+          "0000-0002-8204-8408"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, The University of Queensland, Brisbane, QLD 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Richard, Derek J",
+        "short_name": "Richard DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "Adams, Mark N",
+        "short_name": "Adams MN",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, QLD 4059, Australia."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Neha S",
+        "short_name": "Gandhi NS",
+        "identifiers": [
+          "0000-0003-3119-6731"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, 2 George Street, Brisbane, QLD 4000, Australia.",
+          "Cancer and Ageing Research Program, Woolloongabba, QLD 4102, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2024 Feb 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/26 06:43",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "39286502"
+    ],
+    "refs": [
+      "37998004",
+      "36811381",
+      "36196482",
+      "35563044",
+      "34458830",
+      "33292486",
+      "32962378",
+      "32881101",
+      "32576812",
+      "32463232",
+      "31453590",
+      "31294447",
+      "30737502",
+      "29860391",
+      "29599286",
+      "29533817",
+      "28875543",
+      "28710774",
+      "28448822",
+      "27989676",
+      "27873247",
+      "27852201",
+      "26605738",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25788871",
+      "25249620",
+      "24630995",
+      "23688234",
+      "23184057",
+      "22817270",
+      "22582031",
+      "21910633",
+      "21242961",
+      "21117705",
+      "20949517",
+      "20812323",
+      "20550933",
+      "19847258",
+      "19786574",
+      "19759019",
+      "19683501",
+      "19683490",
+      "19605351",
+      "19145234",
+      "18937104",
+      "18449195",
+      "16807135",
+      "16523492",
+      "15264254",
+      "12962684",
+      "12395429",
+      "11020294",
+      "9861670"
+    ],
+    "similar": [
+      "38405517",
+      "23986477",
+      "34400606",
+      "29150435",
+      "37705456",
+      "19786574",
+      "19605351",
+      "28609781",
+      "25916848",
+      "38039132",
+      "37998004",
+      "33434574",
+      "21227926",
+      "27387285",
+      "21051358",
+      "28506294",
+      "26261212",
+      "24753408",
+      "27193589",
+      "18449195",
+      "19683501",
+      "23459151",
+      "27273218",
+      "27938330",
+      "30996823",
+      "28448822",
+      "31443132",
+      "23178594",
+      "24799691",
+      "29577982",
+      "32576812",
+      "29063999",
+      "39286502",
+      "27398742",
+      "23184057",
+      "21242961",
+      "26170237",
+      "38665208",
+      "29842849",
+      "36291070",
+      "31995034",
+      "31951198",
+      "34437813",
+      "37826990",
+      "23794378",
+      "24630995",
+      "25609707",
+      "38260445",
+      "27217471",
+      "20012581",
+      "32851933",
+      "26964677",
+      "34227370",
+      "34439400",
+      "18402694",
+      "31473433",
+      "26546801",
+      "37640700",
+      "27130816",
+      "38050479",
+      "33422580",
+      "29710850",
+      "23749431",
+      "33847962",
+      "29112893",
+      "23776011",
+      "22219182",
+      "30894431",
+      "30373771",
+      "29523234",
+      "33651987",
+      "36321557",
+      "37341699",
+      "34416373",
+      "27315035",
+      "31258058",
+      "25395584",
+      "37010474",
+      "34321663",
+      "20070254",
+      "32452708",
+      "21807899",
+      "28130159",
+      "27310875",
+      "29182053",
+      "19683490",
+      "25124703",
+      "25367669",
+      "36159966",
+      "24082117",
+      "35728285",
+      "28453612"
+    ],
+    "review": [
+      "38405517",
+      "30996823",
+      "29577982",
+      "34437813",
+      "27217471",
+      "20012581",
+      "36321557",
+      "31258058"
+    ],
+    "pmc": [
+      "10882649"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38405517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38405517",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.3c09267",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

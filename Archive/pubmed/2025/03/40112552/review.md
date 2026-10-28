@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that 13-week oral exposure of mice to fluxapyroxad at the no observed adverse effect level (NOEL) induces chronic colonic inflammation, characterized by reduced body weight gain, shortened colon length, crypt damage, goblet cell loss, impaired intestinal barrier integrity, and elevated proinflammatory cytokines. They further propose that fluxapyroxad inhibits aryl hydrocarbon receptor (AhR) activation, leading to decreased interleukin 22 and antibacterial peptide secretion, and that molecular docking suggests fluxapyroxad binds AhR via halogen bonds and hydrophobic interactions. The authors conclude that AhR inhibition may be a primary mechanism for fluxapyroxad-induced chronic colonic inflammation.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, figure legends, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical reporting, in vitro experimental details, molecular docking parameters and validation, dose justification, and any negative or control data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important toxicological finding linking a widely used SDHI fungicide to chronic colonic inflammation via AhR inhibition. However, the evidence base available for review is limited to the abstract, which precludes verification of experimental rigor, statistical validity, and mechanistic support. The mechanistic claim, while plausible, is supported only by correlative in vivo data, in vitro confirmation described in one sentence, and a docking analysis that is not described in sufficient detail. The study addresses a relevant gap in pesticide safety assessment, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Toxicologists, regulatory scientists, and researchers in environmental health and pesticide safety would be interested because the study addresses chronic low-dose effects of a widely used fungicide. Immunologists and researchers studying gut barrier function and AhR biology may also find the proposed mechanism relevant. The findings could inform risk assessment frameworks for SDHI fungicides.
+- **Major strengths** The study addresses a relevant and understudied question regarding chronic toxicity of fluxapyroxad at a NOEL dose. The use of a 13-week in vivo model aligns with chronic exposure scenarios. The proposed mechanism involving AhR inhibition is biologically plausible and connects pesticide exposure to a well-established pathway in intestinal homeostasis. The combination of in vivo, in vitro, and in silico approaches is commendable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Experimental design and dose justification  
+  - **Claim pointer** The abstract states that exposure was at the no observed adverse effect level (NOEL) for 13 weeks, yet multiple adverse outcomes are reported.  
+  - **Evidence pointer** Abstract, methods section not provided  
+  - **Concern** The use of a NOEL dose that nonetheless produces significant adverse effects is internally inconsistent. Either the dose is not truly a NOEL for the endpoints measured, or the definition of NOEL used is not standard. The abstract does not specify the dose, the route of administration, the species or strain of mice, or the basis for selecting the NOEL.  
+  - **Why it matters** The central premise of the study is that chronic inflammation occurs at a dose considered to have no observed adverse effects. If the dose is not correctly classified as NOEL, the regulatory implications are weakened. Without dose justification and a clear definition of NOEL, the claim that this represents low-dose chronic exposure is not verifiable.  
+  - **Resolution test** Provide the specific dose used, the source of the NOEL value, and justification for its selection. Clarify whether the observed effects were absent at lower doses and whether the NOEL was derived from the same endpoints or from other studies.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic evidence  
+  - **Claim pointer** The abstract claims that fluxapyroxad inhibits AhR activation, leading to decreased IL-22 and antibacterial peptide secretion, and that this is a primary mechanism for chronic colonic inflammation.  
+  - **Evidence pointer** Abstract, in vitro and in silico sections not provided  
+  - **Concern** The mechanistic claim is supported by a single sentence describing in vitro confirmation and a docking analysis. No details are given on the in vitro model, the concentrations used, the readouts for AhR activation, or the specificity of the effect. The docking analysis is described only as showing halogen bonds and hydrophobic interactions, which is insufficient to establish functional inhibition. No data are presented to exclude alternative mechanisms, such as direct epithelial toxicity or microbiota-mediated effects.  
+  - **Why it matters** The title and conclusion rest on the AhR inhibition mechanism. If the in vitro and docking evidence are not robust, the mechanistic claim is not established. The abstract does not provide enough information to assess whether the observed decrease in IL-22 and antibacterial peptides is a direct consequence of AhR inhibition or a downstream effect of inflammation.  
+  - **Resolution test** Provide detailed in vitro data showing dose-dependent inhibition of AhR activation, including positive and negative controls. Describe the docking methodology, including the protein structure used, validation of the docking protocol, and whether the predicted binding is supported by mutagenesis or other functional assays. Address whether AhR inhibition is sufficient and necessary for the observed colonic inflammation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical and quantitative reporting  
+  - **Claim pointer** The abstract reports reduced body weight gain, colon length reduction, crypt damage, goblet cell loss, impaired barrier integrity, and elevated proinflammatory cytokines.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** No quantitative data, effect sizes, or statistical measures are reported in the abstract. It is unclear how many animals were used, whether the experiments were replicated, and whether the differences were statistically significant. The severity of crypt damage and goblet cell loss is not quantified.  
+  - **Why it matters** Without quantitative reporting, the magnitude and reproducibility of the effects cannot be assessed. This is essential for evaluating the biological and regulatory significance of the findings.  
+  - **Resolution test** Provide effect sizes, confidence intervals or exact p values, sample sizes, and details of statistical tests for each endpoint. Include representative images with quantification for histological endpoints.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability and relevance  
+  - **Claim pointer** The abstract concludes that the study sheds light on the association between low acute pesticide exposure to fluxapyroxad and chronic colonic inflammation development.  
+  - **Evidence pointer** Abstract, discussion section not provided  
+  - **Concern** The term "low acute pesticide exposure" is ambiguous and appears inconsistent with a 13-week chronic exposure design. The abstract does not clarify whether the dose used is relevant to human exposure levels or environmental concentrations. No comparison is made to known human exposure levels or to regulatory acceptable daily intake values.  
+  - **Why it matters** The translational relevance of the findings depends on whether the exposure level is representative of real-world scenarios. If the dose is not environmentally or occupationally relevant, the public health implications are limited.  
+  - **Resolution test** Clarify the exposure terminology and provide a comparison of the administered dose to human exposure estimates, acceptable daily intake values, or environmental concentrations. Discuss the relevance of the findings to human health in the context of actual exposure levels.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** Abstract, first sentence  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "most extensively utilized succinate dehydrogenase inhibitor (SDHI) fungicide" is a strong claim that is not supported by data in the abstract.  
+  - **Required correction** Provide a reference or qualify the statement, for example by stating that it is among the most widely used SDHI fungicides.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Mechanistic interpretation  
+  - **Affected element** Abstract, conclusion  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that AhR inhibition "may represent one of the primary mechanisms," which is appropriately cautious, but the title states the effect is "via inhibiting" AhR, which implies a more definitive causal relationship.  
+  - **Required correction** Align the title with the more cautious language used in the abstract, or provide stronger causal evidence to support the definitive title.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract, methods  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify the mouse strain, sex, age, or the number of animals per group.  
+  - **Required correction** Include these details in the abstract or ensure they are clearly reported in the full methods.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Docking interpretation  
+  - **Affected element** Abstract, molecular docking  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The statement that fluxapyroxad "spontaneously formed halogen bonds and bound hydrophobic interactions" is vague and does not indicate binding affinity or specificity.  
+  - **Required correction** Report binding energy values, the specific residues involved, and a comparison to known AhR ligands or inhibitors.
+
+## Risk / unsupported claims
+- The claim that fluxapyroxad acts as an AhR inhibitor is not established from the abstract alone; docking interactions do not demonstrate functional inhibition.
+- The claim that AhR inhibition is a primary mechanism for chronic colonic inflammation is not supported by the abstract, as no loss-of-function or rescue experiments are described.
+- The use of the term "low acute pesticide exposure" is inconsistent with the 13-week chronic design and is not defined.
+- The assertion that fluxapyroxad is the "most extensively utilized" SDHI fungicide is unsupported in the abstract.
+- The internal consistency of the NOEL designation with observed adverse effects is questionable and requires clarification.

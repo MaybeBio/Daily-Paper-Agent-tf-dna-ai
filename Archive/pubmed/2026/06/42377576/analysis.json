@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42377576",
+  "title": "RGTBind: RBF-gate graph transformer with spatially biased attention for protein-DNA binding-site prediction.",
+  "authors": "Qiu, Yi; Zhao, Duo; Ye, Ying; Chen, Jing; Wu, Hongjie",
+  "journal": "Journal of molecular modeling",
+  "published_date": "2026-06-30",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出RGTBind图Transformer，结合径向基距离编码与空间偏置注意力，基于AlphaFold2结构预测蛋白质-DNA结合位点，核心聚焦TF-DNA互作界面建模，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "CONTEXT: Protein-DNA binding-site prediction is essential for understanding gene regulation and protein function, but remains difficult because DNA recognition depends on both sequence context and three-dimensional structure. We developed RGTBind, a graph transformer that combines multi-scale radial basis function distance encoding with a learnable threshold-gating mechanism to model spatially informative residue interactions. On the independent Test_129 and Test_181 benchmarks, RGTBind achieved the best F1, AUC, and MCC among the compared methods, supporting the value of distance-aware attention with structure-guided neighbor selection for residue-level protein-DNA binding-site prediction. METHODS: Each protein was represented as a residue-level graph derived from AlphaFold2-predicted structures. Residue features included AlphaFold2 single representations, DSSP-derived structural descriptors, PSI-BLAST position-specific scoring matrices (PSSM), and HHblits hidden Markov model (HMM) profiles. Pairwise C alpha -C alpha distances were encoded using a multi-scale radial basis function scheme and incorporated into a graph transformer through spatially biased multi-head self-attention and a learnable threshold gate. Sequence redundancy was reduced with CD-HIT. The model was trained with AdamW using five-fold cross-validation on Train_573 and evaluated on the Test_129 and Test_181 benchmark datasets.",
+  "abstract_zh": "蛋白质-DNA结合位点预测对于理解基因调控和蛋白质功能至关重要，但由于DNA识别依赖于序列上下文和三维结构，这一任务仍然具有挑战性。我们开发了RGTBind，一种图变换器，结合了多尺度径向基函数距离编码与可学习的阈值门控机制，以建模具有空间信息的残基相互作用。在独立的Test_129和Test_181基准测试上，RGTBind在比较的方法中取得了最佳的F1、AUC和MCC，支持了距离感知注意力与结构引导邻居选择在残基级蛋白质-DNA结合位点预测中的价值。\n\n方法：每个蛋白质被表示为基于AlphaFold2预测结构生成的残基级图。残基特征包括AlphaFold2单一表示、DSSP衍生的结构描述符、PSI-BLAST位置特异性评分矩阵（PSSM）和HHblits隐马尔可夫模型（HMM）谱。成对的Cα-Cα距离使用多尺度径向基函数方案编码，并通过空间偏置的多头自注意力和可学习的阈值门整合到图变换器中。序列冗余通过CD-HIT减少。模型使用AdamW优化器在Train_573上进行五折交叉验证训练，并在Test_129和Test_181基准数据集上评估。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42377576/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42377576/",
+  "paper_page_path": "papers/pubmed/42377576/index.html"
+}

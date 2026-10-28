@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "40519652",
+    "doi": "10.1093/nargab/lqaf080",
+    "title": "Neur-Ally: a deep learning model for regulatory variant prediction based on genomic and epigenomic features in brain and its validation in certain neurological disorders."
+  },
+  "content": {
+    "abstract": "Large-scale quantitative studies have identified significant genetic associations for various neurological disorders. Expression quantitative trait locus (eQTL) studies have shown the effect of single-nucleotide polymorphisms (SNPs) on the differential expression of genes in brain tissues. However, a large majority of the associations are contributed by SNPs in the noncoding regions that can have significant regulatory function but are often ignored. Besides, mutations that are in high linkage disequilibrium with actual regulatory SNPs will also show significant associations. Therefore, it is important to differentiate a regulatory noncoding SNP with a nonregulatory one. To resolve this, we developed a deep learning model named Neur-Ally, which was trained on epigenomic datasets from nervous tissue and cell line samples. The model predicts differential occurrence of regulatory features like chromatin accessibility, histone modifications, and transcription factor binding on genomic regions using DNA sequence as input. The model was used to predict the regulatory effect of neurological condition-specific noncoding SNPs using in silico mutagenesis. The effect of associated SNPs reported in genome-wide association studies of neurological condition, brain eQTLs, autism spectrum disorder, and reported probable regulatory SNPs in neurological conditions were predicted by Neur-Ally.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Humans",
+      "*Polymorphism, Single Nucleotide",
+      "*Brain/metabolism",
+      "*Nervous System Diseases/genetics",
+      "Quantitative Trait Loci",
+      "*Epigenomics/methods",
+      "Genome-Wide Association Study",
+      "Autism Spectrum Disorder/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Prakash, Anil",
+        "Banerjee, Moinak"
+      ],
+      "short_names": [
+        "Prakash A",
+        "Banerjee M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4649-5075",
+        "ORCID: 0000-0002-0842-0398"
+      ],
+      "affiliations": [
+        "Human Molecular Genetics Lab, Neurobiology and Genetics Division, BRIC-Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala 695014, India.",
+        "Department of Biotechnology, University of Kerala, Kariavattom, Thiruvananthapuram, Kerala 695581, India.",
+        "Human Molecular Genetics Lab, Neurobiology and Genetics Division, BRIC-Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala 695014, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Prakash, Anil",
+        "short_name": "Prakash A",
+        "identifiers": [
+          "0000-0002-4649-5075"
+        ],
+        "affiliations": [
+          "Human Molecular Genetics Lab, Neurobiology and Genetics Division, BRIC-Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala 695014, India.",
+          "Department of Biotechnology, University of Kerala, Kariavattom, Thiruvananthapuram, Kerala 695581, India."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Moinak",
+        "short_name": "Banerjee M",
+        "identifiers": [
+          "0000-0002-0842-0398"
+        ],
+        "affiliations": [
+          "Human Molecular Genetics Lab, Neurobiology and Genetics Division, BRIC-Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala 695014, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/16 12:27",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36404679",
+      "36350656",
+      "36344521",
+      "35972862",
+      "35536244",
+      "35435921",
+      "34535299",
+      "33822888",
+      "33300042",
+      "33095866",
+      "32828070",
+      "32641146",
+      "31985400",
+      "31727856",
+      "31500627",
+      "31426376",
+      "31322790",
+      "30188539",
+      "29579165",
+      "29056226",
+      "27096366",
+      "26432245",
+      "26301843",
+      "26213851",
+      "25486472",
+      "24146854",
+      "23715323",
+      "22955616"
+    ],
+    "similar": [
+      "40519652",
+      "33300042",
+      "24997396",
+      "31902252",
+      "31718536",
+      "41153440",
+      "27005890",
+      "37339141",
+      "38166730",
+      "31292129",
+      "34354167",
+      "31045203",
+      "35163195",
+      "31296926",
+      "39550354",
+      "26340055",
+      "38369936",
+      "23935528",
+      "38796699",
+      "39738578",
+      "30967126",
+      "37965371",
+      "26474488",
+      "28968709",
+      "38753848",
+      "28567521",
+      "35969790",
+      "16978413",
+      "38323502",
+      "28302177",
+      "39168091",
+      "40685559",
+      "25788566",
+      "37926287",
+      "24956270",
+      "26301843",
+      "37770633",
+      "26931105",
+      "25290266",
+      "32093658",
+      "30864312",
+      "28193859",
+      "35590387",
+      "29891877",
+      "30071827",
+      "29351903",
+      "31849009",
+      "39696186",
+      "26919393",
+      "29506519",
+      "26612672",
+      "40421528",
+      "39420233",
+      "29883757",
+      "24920305",
+      "31723243",
+      "30142156",
+      "31647196",
+      "39922197",
+      "38832465",
+      "23453885",
+      "24875634",
+      "23725790",
+      "40633979",
+      "38889146",
+      "31323811",
+      "29486777",
+      "38698200",
+      "31985400",
+      "37794117",
+      "21789213",
+      "32380068",
+      "24022300",
+      "39284855",
+      "32850739",
+      "29912442",
+      "30013180",
+      "35714152",
+      "30333196",
+      "33371893",
+      "34294677",
+      "25026280",
+      "30586385",
+      "26657631",
+      "25308886",
+      "20369019",
+      "23382893",
+      "38066556",
+      "24564736",
+      "30864331",
+      "28122634",
+      "29301971",
+      "32978376",
+      "31500627",
+      "23173617",
+      "30598089",
+      "25493549",
+      "25585593",
+      "32226005",
+      "30335480"
+    ],
+    "review": [
+      "40519652",
+      "37339141",
+      "26474488"
+    ],
+    "pmc": [
+      "12164584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neurologicdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neurologic Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40519652/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqaf080",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

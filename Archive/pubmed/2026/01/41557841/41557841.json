@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "41557841",
+    "doi": "10.1093/bioinformatics/btag026",
+    "title": "inMOTIFin: a lightweight end-to-end simulation software for regulatory sequences."
+  },
+  "content": {
+    "abstract": "SUMMARY: The accurate development, assessment, interpretation, and benchmarking of bioinformatics frameworks for analyzing transcriptional regulatory grammars rely on controlled simulations to validate the underlying methods. However, existing simulators often lack end-to-end flexibility or ease of integration, which limits their practical use. We present inMOTIFin, a lightweight, modular, and user-friendly Python-based software that addresses these gaps by providing versatile and efficient simulation and modification of DNA regulatory sequences. inMOTIFin enables users to simulate or modify regulatory sequences efficiently for the customizable generation of motifs and insertion of motif instances with precise control over their positions, co-occurrences, and spacing, as well as direct modification of real sequences, facilitating a comprehensive evaluation of motif-based methods and interpretation tools. We demonstrate inMOTIFin applications for the assessment of de novo motif discovery, the analysis of transcription factor cooperativity, and the support of explainability analyses for deep learning models. inMOTIFin ensures robust and reproducible analyses for studying transcriptional regulatory grammars. AVAILABILITY AND IMPLEMENTATION: inMOTIFin is available at PyPI https://pypi.org/project/inMOTIFin/ and Docker Hub https://hub.docker.com/r/cbgr/inmotifin. Detailed documentation is available at https://inmotifin.readthedocs.io/en/latest/. The code for use case analyses is available at https://bitbucket.org/CBGR/inmotifin_evaluation/src/main/. The version of the code used for this article has been uploaded to Zenodo with DOI: 10.5281/zenodo.17638579.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Software",
+      "*Computational Biology/methods",
+      "Nucleotide Motifs",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Transcription Factors/metabolism",
+      "Computer Simulation",
+      "Sequence Analysis, DNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ferenc, Katalin",
+        "Martini, Lorenzo",
+        "Rauluseviciute, Ieva",
+        "Sandve, Geir Kjetil Ferkingstad",
+        "Mathelier, Anthony"
+      ],
+      "short_names": [
+        "Ferenc K",
+        "Martini L",
+        "Rauluseviciute I",
+        "Sandve GKF",
+        "Mathelier A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3006-4297",
+        "ORCID: 0000-0002-7794-7791",
+        "ORCID: 0000-0001-9253-8825",
+        "ORCID: 0000-0002-4959-1409",
+        "ORCID: 0000-0001-5127-5459"
+      ],
+      "affiliations": [
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Department of Control and Computer Engineering (DAUIN), Politecnico di Torino, Turin 10129, Italy.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Department of Informatics, University of Oslo, Oslo, 0373, Norway.",
+        "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+        "Department of Medical Genetics, Institute of Clinical Medicine, Oslo University Hospital and University of Oslo, Oslo, 0318, Norway.",
+        "Bioinformatics in Life Science (BiLS) initiative, Department of Pharmacy, University of Oslo, Oslo, 0316, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ferenc, Katalin",
+        "short_name": "Ferenc K",
+        "identifiers": [
+          "0000-0002-3006-4297"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Martini, Lorenzo",
+        "short_name": "Martini L",
+        "identifiers": [
+          "0000-0002-7794-7791"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+          "Department of Control and Computer Engineering (DAUIN), Politecnico di Torino, Turin 10129, Italy."
+        ]
+      },
+      {
+        "full_name": "Rauluseviciute, Ieva",
+        "short_name": "Rauluseviciute I",
+        "identifiers": [
+          "0000-0001-9253-8825"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway."
+        ]
+      },
+      {
+        "full_name": "Sandve, Geir Kjetil Ferkingstad",
+        "short_name": "Sandve GKF",
+        "identifiers": [
+          "0000-0002-4959-1409"
+        ],
+        "affiliations": [
+          "Department of Informatics, University of Oslo, Oslo, 0373, Norway."
+        ]
+      },
+      {
+        "full_name": "Mathelier, Anthony",
+        "short_name": "Mathelier A",
+        "identifiers": [
+          "0000-0001-5127-5459"
+        ],
+        "affiliations": [
+          "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo 0318, Norway.",
+          "Department of Medical Genetics, Institute of Clinical Medicine, Oslo University Hospital and University of Oslo, Oslo, 0318, Norway.",
+          "Bioinformatics in Life Science (BiLS) initiative, Department of Pharmacy, University of Oslo, Oslo, 0316, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jan 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 19:20",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41325984",
+      "40626041",
+      "40360798",
+      "40329378",
+      "39217462",
+      "39122947",
+      "38191487",
+      "37058511",
+      "36073940",
+      "35879805",
+      "35544234",
+      "34670493",
+      "33603233",
+      "33135764",
+      "25129887",
+      "23144830",
+      "21602262",
+      "18405375",
+      "17324271",
+      "15637633",
+      "9719638"
+    ],
+    "similar": [
+      "41557841",
+      "42320030",
+      "34954790",
+      "36173306",
+      "29621972",
+      "17963524",
+      "39240327",
+      "39298462",
+      "32348298",
+      "40385593",
+      "29846656",
+      "33135764",
+      "41325984",
+      "41518507",
+      "41692967",
+      "23323883",
+      "39804669",
+      "40607625",
+      "23181585",
+      "16845071",
+      "37074928",
+      "42507903",
+      "27567672",
+      "23272209",
+      "42475469",
+      "24753419",
+      "41057793",
+      "27993786",
+      "41408153",
+      "29890948",
+      "38696761",
+      "39565903",
+      "40566668",
+      "40408146",
+      "25183489",
+      "30423062",
+      "41512287",
+      "40358526",
+      "15760844",
+      "17683637",
+      "41692987",
+      "23144830",
+      "29155928",
+      "17893078",
+      "40581780",
+      "41802268",
+      "41172269",
+      "32154832",
+      "30016412",
+      "26142184",
+      "17381235",
+      "36111865",
+      "31665223",
+      "39589865",
+      "40397077",
+      "40037622",
+      "39107889",
+      "12824429",
+      "35199152",
+      "42286792",
+      "17485471",
+      "41734268",
+      "19478006",
+      "40650922",
+      "26007226",
+      "22973536",
+      "38802733",
+      "33822891",
+      "42286344",
+      "28419194",
+      "29069282",
+      "40462000",
+      "31240307",
+      "39520544",
+      "20223835",
+      "25788622",
+      "34529036",
+      "40286290",
+      "40821988",
+      "15215380",
+      "23497159",
+      "39907203",
+      "34570758",
+      "32429868",
+      "21778525",
+      "41324554",
+      "37097893",
+      "20106815",
+      "36949401",
+      "41285795",
+      "31742324",
+      "40459855",
+      "17997594",
+      "21673638",
+      "14988425",
+      "33576786",
+      "41324558",
+      "14534166",
+      "41566771",
+      "39573833"
+    ],
+    "review": [
+      "41557841",
+      "31742324"
+    ],
+    "pmc": [
+      "12881827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41557841.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41557841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag026",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

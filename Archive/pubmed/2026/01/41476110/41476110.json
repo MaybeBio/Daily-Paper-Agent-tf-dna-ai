@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "41476110",
+    "doi": "10.1093/neuonc/noaf293",
+    "title": "VITA-GBM: EPIC-0502-driven HIF1alpha degradation overcomes bevacizumab resistance and synergizes with TMZ in glioblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma (GBM) is characterized by extensive tissue hypoxia. This hypoxic microenvironment drives chemoresistance and promotes aberrant vascularization, critically limiting the efficacy of temozolomide (TMZ) and bevacizumab (BEV). Here, we report EPIC-0502, a novel small-molecule competitive antagonist that inhibits hypoxia signaling while sensitizing GBM to both TMZ and BEV. METHODS: EPIC-0502 was identified through molecular dynamics simulation. Its target blocking effect was validated via non-targeted metabolomics, stable isotope tracing-based metabolic flux analysis, and pull-down assays. The mechanisms underlying EPIC-0502 activity were elucidated by Western Blot (WB), Co-Immunoprecipitation (Co-IP), ELISA, Seahorse assays, and Immunofluorescence (IF). The sensitizing effects of EPIC-0502 on TMZ and BEV were evaluated in orthotopic GBM models. RESULTS: EPIC-0502 inhibited alpha-ketoglutarate (alpha-KG) to succinate conversion, depleting cytoplasmic succinate levels and inhibiting phosphoglycerate kinase 1 (PGK1) succinylation and phosphorylation, which significantly attenuated glycolysis. Furthermore, EPIC-0502 destabilized Hypoxia-inducible factor 1 alpha (HIF1alpha) by promoting hydroxylation-dependent ubiquitination, while impairing its transcriptional activity. Through HIF1alpha degradation, EPIC-0502 enhanced GBM sensitivity to TMZ via E2F1 downregulation and reversed hypoxia-induced vascular endothelial growth factor A (VEGFA) overexpression, potentiating the antiangiogenic efficacy of BEV. Collectively, these actions enable EPIC-0502 to synergistically enhance the therapeutic efficacy of TMZ/BEV combination. CONCLUSIONS: Based on EPIC-0502-driven HIF1alpha degradation that overcomes BEV resistance and synergizes with TMZ, we propose the novel VITA-GBM regimen comprising: Vascular targeting (BEV), Inhibition of hypoxia signaling (EPIC-0502), TMZ chemotherapy, and Alignment of synergistic mechanisms. This strategy enhances the efficacy of first-line therapies and provides a promising approach to improve overall survival in GBM patients.",
+    "keywords": [
+      "HIF1alpha",
+      "TMZ sensitization",
+      "bevacizumab",
+      "glioblastoma",
+      "protein succinylation"
+    ],
+    "mesh_terms": [
+      "*Glioblastoma/drug therapy/metabolism/pathology",
+      "Humans",
+      "*Bevacizumab/pharmacology",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Temozolomide/pharmacology",
+      "*Drug Resistance, Neoplasm/drug effects",
+      "Animals",
+      "Mice",
+      "*Brain Neoplasms/drug therapy/metabolism/pathology",
+      "Drug Synergism",
+      "Xenograft Model Antitumor Assays",
+      "Mice, Nude",
+      "*Antineoplastic Combined Chemotherapy Protocols/pharmacology",
+      "Tumor Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Yaqing",
+        "Zhan, Qi",
+        "Cui, Longtao",
+        "Cui, Xiaoteng",
+        "Zhao, Yilin",
+        "Wang, Qixue",
+        "Hong, Biao",
+        "Huang, Yanping",
+        "Su, Dongyuan",
+        "Cheng, Chunchao",
+        "Xu, Hanyi",
+        "Liang, Siwen",
+        "Zhao, Xun",
+        "Liu, Yuhao",
+        "Kang, Chunsheng"
+      ],
+      "short_names": [
+        "Ding Y",
+        "Zhan Q",
+        "Cui L",
+        "Cui X",
+        "Zhao Y",
+        "Wang Q",
+        "Hong B",
+        "Huang Y",
+        "Su D",
+        "Cheng C",
+        "Xu H",
+        "Liang S",
+        "Zhao X",
+        "Liu Y",
+        "Kang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3255-3369"
+      ],
+      "affiliations": [
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.).",
+        "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Yaqing",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Zhan, Qi",
+        "short_name": "Zhan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Cui, Longtao",
+        "short_name": "Cui L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaoteng",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yilin",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Wang, Qixue",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Hong, Biao",
+        "short_name": "Hong B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanping",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Su, Dongyuan",
+        "short_name": "Su D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Cheng, Chunchao",
+        "short_name": "Cheng C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanyi",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Liang, Siwen",
+        "short_name": "Liang S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xun",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhao",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      },
+      {
+        "full_name": "Kang, Chunsheng",
+        "short_name": "Kang C",
+        "identifiers": [
+          "0000-0002-3255-3369"
+        ],
+        "affiliations": [
+          "Laboratory of Neuro-Oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China (Y.D., Q.Z., L.C., X.C., Y.Z., Q.W., B.H., Y.H., D.S., C.C., H.X., S.L., X.Z., Y.L., C.K.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuro-oncology"
+    ],
+    "journal_abbrev": [
+      "Neuro Oncol"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/01 00:35",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41476110",
+      "41143561",
+      "40088740",
+      "30144594",
+      "41084153",
+      "40772310",
+      "38441561",
+      "38773970",
+      "30336060",
+      "41484630",
+      "31462285",
+      "31614149",
+      "40974912",
+      "35836243",
+      "31363754",
+      "39673809",
+      "40023134",
+      "34625658",
+      "40373963",
+      "38448392",
+      "39392921",
+      "40050992",
+      "33408780",
+      "36272139",
+      "30425242",
+      "37891669",
+      "30664175",
+      "40440961",
+      "31563286",
+      "41003719",
+      "31865606",
+      "35810776",
+      "31215502",
+      "32039732",
+      "25892210",
+      "40971821",
+      "41353343",
+      "38456228",
+      "27329597",
+      "30980849",
+      "37279651",
+      "34470658",
+      "27370399",
+      "34074038",
+      "32168477",
+      "39904430",
+      "40972861",
+      "39631468",
+      "41553494",
+      "41396160",
+      "41297453",
+      "41617419",
+      "29897522",
+      "33315125",
+      "35850753",
+      "29843746",
+      "29991446",
+      "32641990",
+      "35008590",
+      "40541120",
+      "40253386",
+      "41271669",
+      "32528036",
+      "40500345",
+      "30102952",
+      "30529153",
+      "34390075",
+      "31718669",
+      "32296580",
+      "41045986",
+      "41381783",
+      "40998915",
+      "25991372",
+      "30431207",
+      "37651725",
+      "26542214",
+      "39090107",
+      "40639044",
+      "35673568",
+      "29334602",
+      "40383349",
+      "39865088",
+      "26648123",
+      "29705182",
+      "34328678",
+      "26188279",
+      "31540977",
+      "40347032",
+      "31045274",
+      "41217736",
+      "33417456",
+      "41198755",
+      "37865172",
+      "32317280",
+      "39903772",
+      "29099956",
+      "33074386",
+      "34278448",
+      "36462734",
+      "37181827"
+    ],
+    "review": [
+      "41476110"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/41476110.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/neuro-oncology/article-lookup/doi/10.1093/neuonc/noaf293",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

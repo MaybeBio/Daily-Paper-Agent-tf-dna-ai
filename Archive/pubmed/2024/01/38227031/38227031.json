@@ -1,0 +1,619 @@
+{
+  "identity": {
+    "pmid": "38227031",
+    "doi": "10.1001/jama.2023.25881",
+    "title": "Analysis of Breast Cancer Mortality in the US-1975 to 2019."
+  },
+  "content": {
+    "abstract": "IMPORTANCE: Breast cancer mortality in the US declined between 1975 and 2019. The association of changes in metastatic breast cancer treatment with improved breast cancer mortality is unclear. OBJECTIVE: To simulate the relative associations of breast cancer screening, treatment of stage I to III breast cancer, and treatment of metastatic breast cancer with improved breast cancer mortality. DESIGN, SETTING, AND PARTICIPANTS: Using aggregated observational and clinical trial data on the dissemination and effects of screening and treatment, 4 Cancer Intervention and Surveillance Modeling Network (CISNET) models simulated US breast cancer mortality rates. Death due to breast cancer, overall and by estrogen receptor and ERBB2 (formerly HER2) status, among women aged 30 to 79 years in the US from 1975 to 2019 was simulated. EXPOSURES: Screening mammography, treatment of stage I to III breast cancer, and treatment of metastatic breast cancer. MAIN OUTCOMES AND MEASURES: Model-estimated age-adjusted breast cancer mortality rate associated with screening, stage I to III treatment, and metastatic treatment relative to the absence of these exposures was assessed, as was model-estimated median survival after breast cancer metastatic recurrence. RESULTS: The breast cancer mortality rate in the US (age adjusted) was 48/100 000 women in 1975 and 27/100 000 women in 2019. In 2019, the combination of screening, stage I to III treatment, and metastatic treatment was associated with a 58% reduction (model range, 55%-61%) in breast cancer mortality. Of this reduction, 29% (model range, 19%-33%) was associated with treatment of metastatic breast cancer, 47% (model range, 35%-60%) with treatment of stage I to III breast cancer, and 25% (model range, 21%-33%) with mammography screening. Based on simulations, the greatest change in survival after metastatic recurrence occurred between 2000 and 2019, from 1.9 years (model range, 1.0-2.7 years) to 3.2 years (model range, 2.0-4.9 years). Median survival for estrogen receptor (ER)-positive/ERBB2-positive breast cancer improved by 2.5 years (model range, 2.0-3.4 years), whereas median survival for ER-/ERBB2- breast cancer improved by 0.5 years (model range, 0.3-0.8 years). CONCLUSIONS AND RELEVANCE: According to 4 simulation models, breast cancer screening and treatment in 2019 were associated with a 58% reduction in US breast cancer mortality compared with interventions in 1975. Simulations suggested that treatment for stage I to III breast cancer was associated with approximately 47% of the mortality reduction, whereas treatment for metastatic breast cancer was associated with 29% of the reduction and screening with 25% of the reduction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Middle Aged",
+      "Breast/diagnostic imaging/metabolism",
+      "*Breast Neoplasms/diagnosis/epidemiology/mortality/therapy",
+      "Early Detection of Cancer",
+      "History, 20th Century",
+      "History, 21st Century",
+      "Mammography/methods",
+      "Mortality/trends",
+      "Receptors, Estrogen/metabolism",
+      "United States/epidemiology",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Caswell-Jin, Jennifer L",
+        "Sun, Liyang P",
+        "Munoz, Diego",
+        "Lu, Ying",
+        "Li, Yisheng",
+        "Huang, Hui",
+        "Hampton, John M",
+        "Song, Juhee",
+        "Jayasekera, Jinani",
+        "Schechter, Clyde",
+        "Alagoz, Oguzhan",
+        "Stout, Natasha K",
+        "Trentham-Dietz, Amy",
+        "Lee, Sandra J",
+        "Huang, Xuelin",
+        "Mandelblatt, Jeanne S",
+        "Berry, Donald A",
+        "Kurian, Allison W",
+        "Plevritis, Sylvia K"
+      ],
+      "short_names": [
+        "Caswell-Jin JL",
+        "Sun LP",
+        "Munoz D",
+        "Lu Y",
+        "Li Y",
+        "Huang H",
+        "Hampton JM",
+        "Song J",
+        "Jayasekera J",
+        "Schechter C",
+        "Alagoz O",
+        "Stout NK",
+        "Trentham-Dietz A",
+        "Lee SJ",
+        "Huang X",
+        "Mandelblatt JS",
+        "Berry DA",
+        "Kurian AW",
+        "Plevritis SK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicine, Stanford University School of Medicine, Stanford, California.",
+        "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California.",
+        "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California.",
+        "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California.",
+        "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston.",
+        "Department of Population Health Sciences and Carbone Cancer Center, University of Wisconsin-Madison School of Medicine and Public Health, Madison.",
+        "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston.",
+        "Intramural Research Program, National Institute on Minority Health and Health Disparities, National Institutes of Health, Bethesda, Maryland.",
+        "Department of Family and Social Medicine, Albert Einstein College of Medicine, Bronx, New York.",
+        "Department of Industrial and Systems Engineering, University of Wisconsin-Madison, Madison.",
+        "Department of Population Medicine, Harvard Medical School, Boston, Massachusetts.",
+        "Department of Population Health Sciences and Carbone Cancer Center, University of Wisconsin-Madison School of Medicine and Public Health, Madison.",
+        "Department of Data Sciences, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Sciences, Harvard Medical School, Boston, Massachusetts.",
+        "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston.",
+        "Department of Oncology, Georgetown University Medical Center, Georgetown Lombardi Comprehensive Cancer Center, Washington, DC.",
+        "Georgetown-Lombardi Institute for Cancer and Aging, Washington, DC.",
+        "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston.",
+        "Department of Medicine, Stanford University School of Medicine, Stanford, California.",
+        "Department of Epidemiology and Population Health, Stanford University School of Medicine, Stanford, California.",
+        "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California.",
+        "Department of Radiology, Stanford University School of Medicine, Stanford, California."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Caswell-Jin, Jennifer L",
+        "short_name": "Caswell-Jin JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Stanford University School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Sun, Liyang P",
+        "short_name": "Sun LP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Munoz, Diego",
+        "short_name": "Munoz D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Lu, Ying",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Li, Yisheng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston."
+        ]
+      },
+      {
+        "full_name": "Huang, Hui",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hampton, John M",
+        "short_name": "Hampton JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences and Carbone Cancer Center, University of Wisconsin-Madison School of Medicine and Public Health, Madison."
+        ]
+      },
+      {
+        "full_name": "Song, Juhee",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston."
+        ]
+      },
+      {
+        "full_name": "Jayasekera, Jinani",
+        "short_name": "Jayasekera J",
+        "identifiers": [],
+        "affiliations": [
+          "Intramural Research Program, National Institute on Minority Health and Health Disparities, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Schechter, Clyde",
+        "short_name": "Schechter C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Family and Social Medicine, Albert Einstein College of Medicine, Bronx, New York."
+        ]
+      },
+      {
+        "full_name": "Alagoz, Oguzhan",
+        "short_name": "Alagoz O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Industrial and Systems Engineering, University of Wisconsin-Madison, Madison."
+        ]
+      },
+      {
+        "full_name": "Stout, Natasha K",
+        "short_name": "Stout NK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Medicine, Harvard Medical School, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Trentham-Dietz, Amy",
+        "short_name": "Trentham-Dietz A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences and Carbone Cancer Center, University of Wisconsin-Madison School of Medicine and Public Health, Madison."
+        ]
+      },
+      {
+        "full_name": "Lee, Sandra J",
+        "short_name": "Lee SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Sciences, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+          "Department of Data Sciences, Harvard Medical School, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Huang, Xuelin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston."
+        ]
+      },
+      {
+        "full_name": "Mandelblatt, Jeanne S",
+        "short_name": "Mandelblatt JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Georgetown University Medical Center, Georgetown Lombardi Comprehensive Cancer Center, Washington, DC.",
+          "Georgetown-Lombardi Institute for Cancer and Aging, Washington, DC."
+        ]
+      },
+      {
+        "full_name": "Berry, Donald A",
+        "short_name": "Berry DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston."
+        ]
+      },
+      {
+        "full_name": "Kurian, Allison W",
+        "short_name": "Kurian AW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Stanford University School of Medicine, Stanford, California.",
+          "Department of Epidemiology and Population Health, Stanford University School of Medicine, Stanford, California."
+        ]
+      },
+      {
+        "full_name": "Plevritis, Sylvia K",
+        "short_name": "Plevritis SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, California.",
+          "Department of Radiology, Stanford University School of Medicine, Stanford, California."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JAMA"
+    ],
+    "journal_abbrev": [
+      "JAMA"
+    ],
+    "pub_date": "2024 Jan 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/16 13:43",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "42682436",
+      "42678997",
+      "42677314",
+      "42656718",
+      "42649503",
+      "42627076",
+      "42622745",
+      "42577948",
+      "42449621",
+      "42395060",
+      "42307695",
+      "42303626",
+      "42299795",
+      "42275799",
+      "42272659",
+      "42227000",
+      "42193001",
+      "42180879",
+      "42175469",
+      "42098567",
+      "42074090",
+      "42038170",
+      "42027762",
+      "42023157",
+      "42004443",
+      "41997124",
+      "41947577",
+      "41942928",
+      "41892189",
+      "41857202",
+      "41845512",
+      "41785742",
+      "41785032",
+      "41783896",
+      "41753280",
+      "41748861",
+      "41744883",
+      "41734474",
+      "41733915",
+      "41732657",
+      "41731206",
+      "41642532",
+      "41595147",
+      "41584607",
+      "41576593",
+      "41575713",
+      "41557352",
+      "41528114",
+      "41524847",
+      "41524544",
+      "41452486",
+      "41420168",
+      "41411611",
+      "41393638",
+      "41389285",
+      "41387215",
+      "41382084",
+      "41367954",
+      "41309872",
+      "41294678",
+      "41284169",
+      "41220877",
+      "41216931",
+      "41174110",
+      "41160381",
+      "41144769",
+      "41136408",
+      "41122314",
+      "41105911",
+      "41079098",
+      "41071653",
+      "41050883",
+      "41025376",
+      "41013410",
+      "40998759",
+      "40979566",
+      "40959105",
+      "40956982",
+      "40940970",
+      "40937951",
+      "40883313",
+      "40869256",
+      "40860147",
+      "40859086",
+      "40817985",
+      "40771625",
+      "40771272",
+      "40753272",
+      "40726588",
+      "40726034",
+      "40714511",
+      "40704915",
+      "40682110",
+      "40640192",
+      "40601879",
+      "40601164",
+      "40569557",
+      "40532081",
+      "40510405",
+      "40508920",
+      "40479891",
+      "40445120",
+      "40441871",
+      "40360838",
+      "40355947",
+      "40312658",
+      "40302381",
+      "40283974",
+      "40261372",
+      "40257373",
+      "40251177",
+      "40183599",
+      "40174386",
+      "40172403",
+      "40167619",
+      "40163701",
+      "40163689",
+      "40146469",
+      "40142908",
+      "40140385",
+      "40082492",
+      "40076539",
+      "40053445",
+      "40047089",
+      "40036318",
+      "39986190",
+      "39983435",
+      "39982594",
+      "39964269",
+      "39893610",
+      "39876071",
+      "39846276",
+      "39845821",
+      "39834939",
+      "39833229",
+      "39824952",
+      "39817679",
+      "39720459",
+      "39702409",
+      "39696722",
+      "39636625",
+      "39621161",
+      "39604094",
+      "39544977",
+      "39428290",
+      "39399414",
+      "39397173",
+      "39352019",
+      "39330039",
+      "39229629",
+      "39226037",
+      "39202452",
+      "39183342",
+      "39138789",
+      "39092882",
+      "39040330",
+      "38996557",
+      "38833143",
+      "38744517",
+      "38735885",
+      "38724978"
+    ],
+    "refs": [
+      "35713541",
+      "35263519",
+      "34965945",
+      "34711632",
+      "34272041",
+      "32171426",
+      "30917258",
+      "29554473",
+      "29554470",
+      "29554465",
+      "29318276",
+      "28627297",
+      "28526536",
+      "25971299",
+      "21376385",
+      "17032897",
+      "17032892",
+      "16251534",
+      "10370922"
+    ],
+    "similar": [
+      "38227031",
+      "29318276",
+      "29554473",
+      "29554464",
+      "25255803",
+      "38687505",
+      "28627297",
+      "33141657",
+      "26501537",
+      "35608580",
+      "17404367",
+      "29554468",
+      "35175286",
+      "29272783",
+      "33856473",
+      "29554471",
+      "38687490",
+      "30816931",
+      "26147578",
+      "29553669",
+      "32721031",
+      "35166783",
+      "29554466",
+      "33226431",
+      "29554462",
+      "34464510",
+      "26756332",
+      "34257555",
+      "34190995",
+      "30740647",
+      "28183141",
+      "22544643",
+      "33627312",
+      "29330212",
+      "33048129",
+      "24041225",
+      "35737367",
+      "32644137",
+      "30328050",
+      "38766488",
+      "32966998",
+      "22358016",
+      "29808426",
+      "29909564",
+      "21119071",
+      "33877311",
+      "37440239",
+      "32007466",
+      "36795405",
+      "34662151",
+      "27281556",
+      "27496200",
+      "16703451",
+      "29799329",
+      "26756606",
+      "38718151",
+      "34258611",
+      "7563167",
+      "32602908",
+      "30367449",
+      "17032898",
+      "23074501",
+      "32880602",
+      "31848605",
+      "22727195",
+      "24065468",
+      "17652280",
+      "26756460",
+      "35699706",
+      "23489892",
+      "38236590",
+      "21966354",
+      "31774522",
+      "16737949",
+      "32601800",
+      "26986538",
+      "22364568",
+      "21346227",
+      "33074325",
+      "16049808",
+      "33026424",
+      "31038406",
+      "31859246",
+      "28341031",
+      "17032894",
+      "21752153",
+      "31668850",
+      "34656225",
+      "34406400",
+      "32027353",
+      "17032888",
+      "30667505",
+      "29621362",
+      "23588746",
+      "25825511",
+      "34605915",
+      "32800099",
+      "32672820",
+      "29450494"
+    ],
+    "review": [
+      "38227031",
+      "26501537",
+      "38687490",
+      "33048129"
+    ],
+    "pmc": [
+      "10792466"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38227031.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38227031/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2023.25881",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

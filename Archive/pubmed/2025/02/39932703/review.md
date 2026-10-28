@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report a novel GRHL2 missense variant (c.1061C>T, p.(Ala354Val)) in a three-generation family with autosomal dominant non-syndromic hearing loss (DFNA28). They use molecular dynamics simulations and functional assays to propose that this variant causes loss of transcriptional transactivation activity, contrasting with a previously reported truncating variant that shows gain-of-function. They conclude that both haploinsufficiency and gain-of-function mechanisms contribute to DFNA28.
+- **Visible evidence base** Abstract text only. No methods, figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, including sequencing data, pedigree details, simulation parameters, functional assay protocols, statistical analyses, and all figures and tables. Without these, the validity of the reported findings cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a novel missense variant in GRHL2 associated with DFNA28, with mechanistic insights from simulations and functional assays. However, the evidence as presented is insufficient to fully support the conclusions. Key claims regarding dimer destabilization, altered DNA binding dynamics, and differential effects of distinct mutation types are stated without quantitative data or methodological detail. The distinction between loss-of-function and gain-of-function effects is intriguing but requires robust experimental validation. The abstract is well-structured and clearly written, but the scientific case is not yet established from the provided material.
+- **Who would be interested in the results, and why** Clinicians and geneticists working on hereditary hearing loss would be interested in the novel variant and its potential pathogenic mechanism. Researchers studying GRHL2 function in development and disease, particularly those focused on transcription factor biology and protein-DNA interactions, would find the structural and functional data relevant. The broader implication for GRHL2 in cancer and other conditions may attract a wider audience in molecular biology.
+- **Major strengths** The study addresses a clinically relevant question with a clear hypothesis. The use of molecular dynamics simulations to complement functional assays is a modern and potentially powerful approach. The finding that different mutation types in the same gene may cause disease via distinct mechanisms is conceptually important and could have implications for variant interpretation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that molecular dynamics simulations revealed destabilization of the p.(Ala354Val) mutant GRHL2 dimer interface and altered DNA binding dynamics, leading to chaotic interaction patterns despite increased binding affinity to DNA.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no quantitative metrics from the simulations, such as binding free energy changes, root-mean-square deviation values, or interaction energy profiles. The term "chaotic interaction patterns" is vague and not defined. No comparison to wild-type controls is described in sufficient detail.
+  - **Why it matters** Without specific simulation parameters and quantitative outputs, the reader cannot evaluate the robustness or biological relevance of the predicted structural changes. The claim of increased binding affinity is a testable prediction that requires experimental validation, which is not mentioned.
+  - **Resolution test** Provide simulation details, including force field, simulation length, and convergence criteria. Report quantitative measures of dimer stability and DNA binding affinity. Ideally, validate the predicted binding affinity change with an experimental method such as electrophoretic mobility shift assay or surface plasmon resonance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The abstract states that functional assays demonstrated that the p.(Ala354Val) mutation and other DFNA28-related mutations in the DBD lead to loss of GRHL2 transcriptional transactivation activity, while the p.(Arg537Profs*11) mutation in the dimerization domain results in a gain-of-function effect.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not describe the functional assay system, the reporter construct, the cell type used, or the statistical significance of the observed effects. The distinction between loss-of-function and gain-of-function is a central conclusion, but the evidence for this dichotomy is not presented in a way that allows assessment.
+  - **Why it matters** The conclusion that both haploinsufficiency and gain-of-function contribute to HL is a major conceptual claim. If the functional assays are not robust or the effects are small, the interpretation could be misleading. The lack of methodological detail prevents replication or critical evaluation.
+  - **Resolution test** Describe the assay in detail, including the reporter system, transfection conditions, and normalization methods. Provide dose-response data and statistical comparisons. Show that the gain-of-function effect is reproducible and specific to the truncating variant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genotype-phenotype correlation
+  - **Claim pointer** The abstract implies that the p.(Ala354Val) variant is pathogenic based on its segregation in a three-generation family and its functional effects.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not provide details on the number of affected and unaffected family members, the penetrance, or the audiometric data. It is not stated whether the variant co-segregates fully with the hearing loss phenotype. Additionally, the variant frequency in control populations is not mentioned.
+  - **Why it matters** Establishing pathogenicity requires robust genetic evidence. Without segregation data and population frequency information, the causal link between the variant and the phenotype is not fully established. The functional data are supportive but not sufficient on their own.
+  - **Resolution test** Provide a pedigree with segregation status for all tested family members. Report the variant frequency in large control databases such as gnomAD. If possible, include linkage or co-segregation statistics.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "chaotic interaction patterns" is imprecise and could be misinterpreted.
+  - **Required correction** Replace with a more specific description, such as "altered interaction dynamics characterized by increased variability in contact frequencies" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction of GRHL2 function
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions GRHL2's role in cancer but does not explain how the current findings might relate to cancer biology.
+  - **Required correction** Add a sentence in the discussion or conclusion that explicitly connects the structural and functional insights to potential implications for GRHL2-related cancers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "gain-of-function"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "gain-of-function" is used for the truncating variant, but it is not clear whether this refers to increased transcriptional activity, altered target gene specificity, or a dominant-negative effect.
+  - **Required correction** Clarify the mechanistic basis of the gain-of-function effect in the abstract or refer to the full text for details.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative simulation data, detailed functional assay methodology, and comprehensive genetic evidence are the primary technical shortcomings. These need to be addressed in the full manuscript to support the conclusions.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The finding of a missense variant in GRHL2 causing DFNA28 via a loss-of-function mechanism, in contrast to previously reported truncating variants, is potentially original. However, the abstract does not provide enough context to assess how novel this is relative to existing literature.
+  - **Scientific importance** The study addresses a clinically relevant question and proposes a dual mechanism for DFNA28 pathogenesis. If confirmed, this could have implications for genetic counseling and variant interpretation. The importance is moderate to high within the field of hearing loss genetics.
+  - **Interdisciplinary readership** The work bridges clinical genetics, structural biology, and functional genomics. It may appeal to a broad readership in molecular medicine, but the abstract does not clearly articulate the broader significance beyond hearing loss.
+  - **Technical soundness** The technical soundness cannot be fully assessed from the abstract. The use of simulations and functional assays is appropriate, but the lack of detail prevents evaluation of the rigor of the methods.
+  - **Readability for nonspecialists** The abstract is generally readable, but terms like "molecular dynamics simulations" and "transactivation activity" may be challenging for nonspecialists. The clinical context is clear, which helps.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of methodological detail and quantitative data means the conclusions cannot be verified. I would be supportive if the full manuscript provides robust evidence for the simulation results, functional assays, and genetic segregation.
+
+## Risk / unsupported claims
+- The claim that the p.(Ala354Val) mutation leads to "chaotic interaction patterns" is unsupported without quantitative simulation data.
+- The claim that the p.(Arg537Profs*11) mutation results in a gain-of-function effect is unsupported without detailed functional assay results.
+- The conclusion that both haploinsufficiency and gain-of-function contribute to HL is not fully supported by the abstract alone.
+- The pathogenicity of the novel variant is implied but not established without segregation and population frequency data.

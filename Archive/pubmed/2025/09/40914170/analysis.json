@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40914170",
+  "title": "Machine learning-based identification of a transcriptomic blood signature discriminating between systemic autoimmunity and infection.",
+  "authors": "Verrou, Kleio-Maria; Vlachogiannis, Nikolaos I; Theofilopoulos, Argyrios N; Tektonidou, Maria; Kollias, Georgios; Nikolaou, Christoforos; Sfikakis, Petros P",
+  "journal": "Med (New York, N.Y.)",
+  "published_date": "2025-09-07",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习分析全血转录组区分自身免疫病与感染，虽涉及转录因子调控但无蛋白质-DNA互作建模，属纯表达谱分类，与本课题无关。",
+  "abstract": "BACKGROUND: Pathogenic responses against self and foreign antigens in systemic autoimmunity and infection, respectively, engage similar immunologic components, thus lacking distinguishing diagnostic biomarkers. Herein, we tested whether whole-blood transcriptome analysis discriminates autoimmune from infectious diseases. METHODS: We applied nested cross-validation methodology to tune and validate random forests, k-nearest neighbors, and support vector machines, using a new preprocessing method on 22 publicly available datasets, including 594 patients with a broad spectrum of systemic autoimmune diseases and 615 patients with diverse viral, bacterial, and parasitic infections. FINDINGS: Our preprocessing method tackled RNA sequencing batch effects by sorting the genes within each sample according to individual relative expression values and discriminated between the corresponding pathologies with 98% accuracy versus 63% when using raw values. This model was further tested in external datasets comprising various autoimmune diseases and infections new to its training process, yielding accuracies ranging between 80% and 96%. Enrichment analyses of 457 of the most informative genes identified SAP1, ELF1/4, and FLI1 transcription factors among the significant upstream regulators and revealed several key processes and pathways, such as autophagy, DNA damage response, and NOTCH signaling. A subset of 24 genes, including the inflammation-related genes RPL7, TLK2, and ANK2, distinguished between autoimmune and infectious diseases with 89% accuracy. CONCLUSIONS: Using a novel batch-correction algorithm, this analysis may provide a new mechanistic understanding of the pathogenic autoimmune response, as well as biomarkers for differential diagnoses of the corresponding pathologies in patients presenting with inflammatory disorders. FUNDING: This work was funded by the European Regional Development Fund NSRF 2014-2020, no. MIS5002802.",
+  "abstract_zh": "背景：在系统性自身免疫和感染中，分别针对自身和外来抗原的致病性反应涉及相似的免疫组分，因此缺乏区分性诊断生物标志物。在此，我们测试了全血转录组分析是否能区分自身免疫性疾病与感染性疾病。方法：我们应用嵌套交叉验证方法调整和验证随机森林、k近邻和支持向量机，使用一种新的预处理方法处理22个公开可用的数据集，包括594名患有广泛谱系系统性自身免疫性疾病的患者和615名患有多种病毒、细菌和寄生虫感染的患者。结果：我们的预处理方法通过根据个体相对表达值对每个样本内的基因进行排序，解决了RNA测序批次效应，并以98%的准确率区分相应病理，而使用原始值时准确率为63%。该模型进一步在包含训练过程中未见过的各种自身免疫性疾病和感染的外部数据集中测试，准确率介于80%至96%之间。对457个最具信息量的基因进行富集分析，确定了SAP1、ELF1/4和FLI1转录因子为显著上游调节因子，并揭示了若干关键过程和通路，如自噬、DNA损伤反应和NOTCH信号传导。一个包含24个基因的子集，包括炎症相关基因RPL7、TLK2和ANK2，以89%的准确率区分自身免疫性疾病和感染性疾病。结论：使用一种新颖的批次校正算法，该分析可能为致病性自身免疫反应提供新的机制理解，以及为表现为炎症性疾病的患者相应病理的鉴别诊断提供生物标志物。资金：这项工作由欧洲区域发展基金NSRF 2014-2020资助，编号MIS5002802。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40914170/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40914170/",
+  "paper_page_path": "papers/pubmed/40914170/index.html"
+}

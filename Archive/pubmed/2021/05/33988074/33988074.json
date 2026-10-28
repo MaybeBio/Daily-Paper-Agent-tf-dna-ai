@@ -1,0 +1,485 @@
+{
+  "identity": {
+    "pmid": "33988074",
+    "doi": "10.1080/07391102.2021.1924267",
+    "title": "Targeting p53-MDM2 interactions to identify small molecule inhibitors for cancer therapy: beyond \"Failure to rescue\"."
+  },
+  "content": {
+    "abstract": "At present, disrupting p53-MDM2 interactions through small molecule ligands is a promising approach to safe treatment and management of human cancer. Tumor cells unlike the normal cells, are rapidly evolving affecting the efficacy of many approved anti-cancer agents due to drug resistance. Therefore, identifying a potential anticancer compound is crucial. Pharmacophore based virtual screening, followed by molecular docking, ADMET evaluation, and molecular dynamics studies against MDM2 protein was investigated to identify potential ligands that may act as inhibitors. The model (AHRR_1) with survival score (4.176) was selected among the top ranked generated Pharmacophore hypothesis. Validation of the model hypothesis by an external dataset of actives and inactive compounds produced significant validation attributes including; AUC = 0.85, BEDROC = 0.56 at alpha = 20.0, RIE = 8.18, AUAC = 0.88, and EF of 6.2 at the top 2% of the dataset. The model was use for screening the ZINC database, and the top 1375 hits satisfying the model hypothesis were subjected to molecular docking studies to understand the molecular and structural basis of selectivity of compounds for MDM2 protein. A sub-set of 25 compounds with binding energy lower than the reference inhibitors were evaluated for pharmacokinetic properties. Four compounds (ZINC02639178, ZINC06752762, ZINC38933175, and ZINC77969611) showed the most desired pharmacokinetic profile. Lastly, investigation of the dynamic behaviour of leads-protein complexes through MD simulation showed similar RMSD, RMSF, and H-bond occupancy profile compared to a reference inhibitor, suggesting stability throughout the simulation time. However, ZINC02639178 was found to satisfy the molecular enumeration the most compared to the other three leads. It may emerge as potential treatment option after extensive experimental studies. Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Cancer therapy",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "p53-MDM2 interaction",
+      "pharmacophore-based virtual screening",
+      "regeneration",
+      "small molecule inhibitors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Proto-Oncogene Proteins c-mdm2/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Tumor Suppressor Protein p53/chemistry",
+      "Protein Binding",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "*Neoplasms/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chukwuemeka, Prosper Obed",
+        "Umar, Haruna Isiyaku",
+        "Iwaloye, Opeyemi",
+        "Oretade, Oluwaseyi Matthew",
+        "Olowosoke, Christopher Busayo",
+        "Elabiyi, Michael Omoniyi",
+        "Igbe, Festus Omotere",
+        "Oretade, Oyeyemi Janet",
+        "Eigbe, Joy Oseme",
+        "Adeojo, Funmilayo Janet"
+      ],
+      "short_names": [
+        "Chukwuemeka PO",
+        "Umar HI",
+        "Iwaloye O",
+        "Oretade OM",
+        "Olowosoke CB",
+        "Elabiyi MO",
+        "Igbe FO",
+        "Oretade OJ",
+        "Eigbe JO",
+        "Adeojo FJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8381-2802",
+        "ORCID: 0000-0001-9427-9804",
+        "ORCID: 0000-0001-6128-2900",
+        "ORCID: 0000-0002-0300-5611",
+        "ORCID: 0000-0002-4315-3184",
+        "ORCID: 0000-0001-8957-8551"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Bioinformatics and Molecular biology unit, Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Microbiology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Physiology, College of Health Science (CHS), Osun State University, Osogbo, Nigeria.",
+        "Department of Biomedical Technology, School of Health and Health Technology (SHHT), Federal University of Technology Akure, Akure, Nigeria.",
+        "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chukwuemeka, Prosper Obed",
+        "short_name": "Chukwuemeka PO",
+        "identifiers": [
+          "0000-0001-8381-2802"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Umar, Haruna Isiyaku",
+        "short_name": "Umar HI",
+        "identifiers": [
+          "0000-0001-9427-9804"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Iwaloye, Opeyemi",
+        "short_name": "Iwaloye O",
+        "identifiers": [
+          "0000-0001-6128-2900"
+        ],
+        "affiliations": [
+          "Bioinformatics and Molecular biology unit, Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Oretade, Oluwaseyi Matthew",
+        "short_name": "Oretade OM",
+        "identifiers": [
+          "0000-0002-0300-5611"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Olowosoke, Christopher Busayo",
+        "short_name": "Olowosoke CB",
+        "identifiers": [
+          "0000-0002-4315-3184"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Elabiyi, Michael Omoniyi",
+        "short_name": "Elabiyi MO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Igbe, Festus Omotere",
+        "short_name": "Igbe FO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Oretade, Oyeyemi Janet",
+        "short_name": "Oretade OJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Health Science (CHS), Osun State University, Osogbo, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Eigbe, Joy Oseme",
+        "short_name": "Eigbe JO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Technology, School of Health and Health Technology (SHHT), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adeojo, Funmilayo Janet",
+        "short_name": "Adeojo FJ",
+        "identifiers": [
+          "0000-0001-8957-8551"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, School of Sciences (SOS), Federal University of Technology Akure, Akure, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/15 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "40576645",
+      "40308267",
+      "37993971",
+      "37954245",
+      "37047270",
+      "37029281"
+    ],
+    "refs": [],
+    "similar": [
+      "33988074",
+      "35822492",
+      "31473433",
+      "37578044",
+      "35536362",
+      "25377899",
+      "30513790",
+      "24554192",
+      "27269808",
+      "31781989",
+      "37549730",
+      "30464405",
+      "24050442",
+      "38679255",
+      "32691963",
+      "37498130",
+      "20666726",
+      "36775656",
+      "26032728",
+      "20056466",
+      "24858256",
+      "29182053",
+      "32705954",
+      "31755361",
+      "20726601",
+      "34709133",
+      "30253242",
+      "35014597",
+      "23428467",
+      "37978263",
+      "38964206",
+      "27943171",
+      "31755336",
+      "34413896",
+      "24211465",
+      "25987034",
+      "25808617",
+      "30047845",
+      "33200682",
+      "21764342",
+      "35775962",
+      "34096457",
+      "38095360",
+      "26141769",
+      "31146672",
+      "37086514",
+      "23400593",
+      "26746660",
+      "28723868",
+      "26265252",
+      "21820342",
+      "36856058",
+      "33034255",
+      "33779506",
+      "22380771",
+      "35702782",
+      "30052133",
+      "38011915",
+      "33213294",
+      "18673221",
+      "25396320",
+      "33952867",
+      "29549805",
+      "19727615",
+      "34806333",
+      "35032738",
+      "26616018",
+      "32448094",
+      "27538695",
+      "29064326",
+      "18435534",
+      "21425995",
+      "37565326",
+      "31755360",
+      "32141397",
+      "31588870",
+      "37241785",
+      "27302609",
+      "31795143",
+      "29281938",
+      "34156395",
+      "31937192",
+      "29842849",
+      "26046940",
+      "31421630",
+      "33915968",
+      "28482147",
+      "35983603",
+      "16789731",
+      "30688165",
+      "19255450",
+      "28871352",
+      "33671607",
+      "36645141",
+      "24264557",
+      "31089613",
+      "32186248",
+      "23611770",
+      "37764441",
+      "32748738",
+      "28425639",
+      "30079817",
+      "35932508",
+      "33140698",
+      "16174299",
+      "25541527",
+      "31355691",
+      "37587906",
+      "23601819",
+      "27907876",
+      "22408446",
+      "36709441",
+      "22731511",
+      "37643015",
+      "20490618",
+      "36752338",
+      "37279114",
+      "37042992",
+      "37578046",
+      "38111168",
+      "37154748",
+      "37707987",
+      "39368576",
+      "35543232",
+      "38063080",
+      "34519252",
+      "36995131",
+      "38514638",
+      "35293845",
+      "35174764",
+      "37104027",
+      "34606425",
+      "34176437",
+      "37551114",
+      "36644886",
+      "36495308",
+      "36794726",
+      "36905675",
+      "36517066",
+      "37771142",
+      "35318890",
+      "37166373",
+      "36165610",
+      "36533328",
+      "27503952",
+      "34355665",
+      "32643536",
+      "34405760",
+      "36469705",
+      "39081544",
+      "36775653",
+      "35118933",
+      "36300512",
+      "38361286",
+      "37184152",
+      "35442150",
+      "36661253",
+      "35706069",
+      "37855364",
+      "35965440",
+      "38288926",
+      "37288794",
+      "36995235",
+      "36898858",
+      "36299509",
+      "36905674",
+      "37418952",
+      "36184737",
+      "38444388",
+      "35838147",
+      "37975405",
+      "39318425",
+      "36688375",
+      "38285669",
+      "37959685",
+      "36326467",
+      "37747063",
+      "37626747",
+      "35467485",
+      "35285757",
+      "38147404",
+      "38139037",
+      "34961392",
+      "36224195",
+      "37962580",
+      "36319930",
+      "38385444",
+      "38165437",
+      "36704430",
+      "38240100",
+      "38088360",
+      "37287091",
+      "37904339",
+      "38240096",
+      "38019988",
+      "39368144",
+      "37158061",
+      "37850444",
+      "37705289",
+      "39279120",
+      "36515971",
+      "38379294",
+      "37897191",
+      "35531003",
+      "37661778",
+      "37878121",
+      "32662753",
+      "38197431",
+      "38756075",
+      "35860806",
+      "22715313",
+      "34743299",
+      "34402747",
+      "36326469",
+      "38100546",
+      "38497799",
+      "36229233",
+      "37705251",
+      "35491689",
+      "37728537",
+      "36214620",
+      "35971955",
+      "39369611",
+      "37811765"
+    ],
+    "review": [
+      "33988074",
+      "20666726",
+      "30253242",
+      "38964206",
+      "27943171",
+      "18673221",
+      "25396320",
+      "21425995"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2021.1924267?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2021.1924267",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://scite.ai/reports/33988074",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

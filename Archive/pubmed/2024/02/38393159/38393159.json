@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "38393159",
+    "doi": "10.3390/toxins16020081",
+    "title": "MazEF Homologs in Symbiobacterium thermophilum Exhibit Cross-Neutralization with Non-Cognate MazEFs."
+  },
+  "content": {
+    "abstract": "Toxin-antitoxin systems are preserved by nearly every prokaryote. The type II toxin MazF acts as a sequence-specific endoribonuclease, cleaving ribonucleotides at specific sequences that vary from three to seven bases, as has been reported in different host organisms to date. The present study characterized the MazEF module (MazEF-sth) conserved in the Symbiobacterium thermophilum IAM14863 strain, a Gram-negative syntrophic bacterium that can be supported by co-culture with multiple bacteria, including Bacillus subtilis. Based on a method combining massive parallel sequencing and the fluorometric assay, MazF-sth was determined to cleave ribonucleotides at the UACAUA motif, which is markedly similar to the motifs recognized by MazF from B. subtilis (MazF-bs), and by several MazFs from Gram-positive bacteria. MazF-sth, with mutations at conserved amino acid residues Arg29 and Thr52, lost most ribonuclease activity, indicating that these residues that are crucial for MazF-bs also play significant roles in MazF-sth catalysis. Further, cross-neutralization between MazF-sth and the non-cognate MazE-bs was discovered, and herein, the neutralization mechanism is discussed based on a protein-structure simulation via AlphaFold2 and multiple sequence alignment. The conflict between the high homology shared by these MazF amino acid sequences and the few genetic correlations among their host organisms may provide evidence of horizontal gene transfer.",
+    "keywords": [
+      "MazF",
+      "RNase",
+      "Symbiobacterium",
+      "horizontal gene transfer",
+      "toxin-antitoxin systems"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli Proteins/genetics",
+      "*Bacterial Toxins/genetics/metabolism",
+      "Escherichia coli/genetics",
+      "*Lactobacillales/metabolism",
+      "Endoribonucleases/metabolism",
+      "Ribonucleotides",
+      "Bacterial Proteins/genetics/metabolism",
+      "DNA-Binding Proteins/genetics",
+      "*Eubacteriales"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yu-Nong",
+        "Tamiya-Ishitsuka, Hiroko",
+        "Aoi, Rie",
+        "Okabe, Takuma",
+        "Yokota, Akiko",
+        "Noda, Naohiro"
+      ],
+      "short_names": [
+        "Jiang YN",
+        "Tamiya-Ishitsuka H",
+        "Aoi R",
+        "Okabe T",
+        "Yokota A",
+        "Noda N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5896-9899"
+      ],
+      "affiliations": [
+        "Master's/Doctoral Program in Life Science Innovation, Graduate School of Comprehensive Human Sciences, University of Tsukuba, Tsukuba 305-8572, Ibaraki, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+        "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan.",
+        "Master's/Doctoral Program in Life Science Innovation, School of Integrative and Global Majors, University of Tsukuba, Tsukuba 305-8572, Ibaraki, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yu-Nong",
+        "short_name": "Jiang YN",
+        "identifiers": [],
+        "affiliations": [
+          "Master's/Doctoral Program in Life Science Innovation, Graduate School of Comprehensive Human Sciences, University of Tsukuba, Tsukuba 305-8572, Ibaraki, Japan.",
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Tamiya-Ishitsuka, Hiroko",
+        "short_name": "Tamiya-Ishitsuka H",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Aoi, Rie",
+        "short_name": "Aoi R",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+          "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Okabe, Takuma",
+        "short_name": "Okabe T",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+          "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yokota, Akiko",
+        "short_name": "Yokota A",
+        "identifiers": [
+          "0000-0002-5896-9899"
+        ],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Noda, Naohiro",
+        "short_name": "Noda N",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8566, Ibaraki, Japan.",
+          "Department of Life Science and Medical Bioscience, Waseda University, Shinjuku-ku 162-8480, Tokyo, Japan.",
+          "Master's/Doctoral Program in Life Science Innovation, School of Integrative and Global Majors, University of Tsukuba, Tsukuba 305-8572, Ibaraki, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxins"
+    ],
+    "journal_abbrev": [
+      "Toxins (Basel)"
+    ],
+    "pub_date": "2024 Feb 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/23 12:43",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35985290",
+      "34975154",
+      "34867867",
+      "34265844",
+      "32365819",
+      "31932311",
+      "31772059",
+      "31445700",
+      "30349517",
+      "29861158",
+      "29432616",
+      "29106666",
+      "28675659",
+      "28334216",
+      "27271670",
+      "26885644",
+      "26667220",
+      "25858846",
+      "25481737",
+      "25378561",
+      "24375411",
+      "24265503",
+      "24120662",
+      "23378512",
+      "23104807",
+      "22544268",
+      "22215082",
+      "21864087",
+      "21763692",
+      "21350630",
+      "20876537",
+      "19251861",
+      "18191220",
+      "18175900",
+      "17485837",
+      "16557001",
+      "16249258",
+      "15383646",
+      "15173120",
+      "15150257",
+      "14580342",
+      "12718874",
+      "12618443",
+      "11222603",
+      "11071896",
+      "8650219"
+    ],
+    "similar": [
+      "38393159",
+      "16179604",
+      "12810711",
+      "29432616",
+      "28298445",
+      "32586257",
+      "29717013",
+      "14580342",
+      "21419338",
+      "30132188",
+      "30315853",
+      "30893701",
+      "39273577",
+      "17706586",
+      "23454553",
+      "12718874",
+      "37559199",
+      "24265503",
+      "21183668",
+      "15178344",
+      "27271670",
+      "24375411",
+      "27940461",
+      "18191220",
+      "27858580",
+      "35562780",
+      "15576778",
+      "32521689",
+      "23104807",
+      "27935840",
+      "32735661",
+      "22544268",
+      "29861158",
+      "16413577",
+      "34544284",
+      "33527318",
+      "26305399",
+      "24709835",
+      "33953923",
+      "19282968",
+      "22412352",
+      "30914510",
+      "32365819",
+      "24120662",
+      "25196606",
+      "25564525",
+      "26740583",
+      "15316771",
+      "17001682",
+      "31485711",
+      "23736285",
+      "26395283",
+      "21944167",
+      "23280569",
+      "27841735",
+      "16611633",
+      "26578677",
+      "20876537",
+      "28351618",
+      "33838714",
+      "28675659",
+      "28972145",
+      "22447587",
+      "10943559",
+      "34065548",
+      "11222603",
+      "23994560",
+      "27026704",
+      "26908653",
+      "15882409",
+      "18310334",
+      "17933891",
+      "38199572",
+      "21763692",
+      "28948108",
+      "27259116",
+      "21574383",
+      "28113053",
+      "12718870",
+      "33925254",
+      "33095389",
+      "11071896",
+      "15901733",
+      "25965381",
+      "34867867",
+      "31267737",
+      "15537630",
+      "25950853",
+      "21213075",
+      "27245477",
+      "23650345",
+      "12618443",
+      "26210151",
+      "29154383",
+      "19251861",
+      "17206710",
+      "23378533",
+      "33679894",
+      "33544858",
+      "23442049",
+      "31445700",
+      "21393849",
+      "24748664",
+      "19090622",
+      "34795695"
+    ],
+    "review": [
+      "38393159",
+      "30132188",
+      "23454553",
+      "17001682",
+      "27841735",
+      "10943559"
+    ],
+    "pmc": [
+      "10893535"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=toxins16020081",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38393159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38393159",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/18012",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Symbiobacterium thermophilum BD-ID 18012"
+      },
+      {
+        "url": "https://straininfo.dsmz.de/strain/88609",
+        "provider": "StrainInfo, Leibniz Institute DSMZ",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Symbiobacterium thermophilum SI-ID 88609"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "39008915",
+    "doi": "10.1016/j.phymed.2024.155833",
+    "title": "Vitexicarpin suppresses malignant progression of colorectal cancer through affecting c-Myc ubiquitination by targeting IMPDH2."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is the second most common cause of cancer-related mortality and is characterised by extensive invasive and metastatic potential. Previous studies have shown that vitexicarpin extracted from the fruits of Vitex rotundifolia can impede tumour progression. However, the molecular mechanisms involved in CRC treatment are still not fully established. PURPOSE: Our study aimed to investigate the anticancer activity, targets, and molecular mechanisms of vitexicarpin in CRC hoping to provide novel therapies for patients with CRC. STUDY DESIGN/METHODS: The impact of vitexicarpin on CRC was assessed through various experiments including MTT, clone formation, EDU, cell cycle, and apoptosis assays, as well as a tumour xenograft model. CETSA, label-free quantitative proteomics, and Biacore were used to identify the vitexicarpin targets. WB, Co-IP, Ubiquitination assay, IF, molecular docking, MST, and cell transfection were used to investigate the mechanism of action of vitexicarpin in CRC cells. Furthermore, we analysed the expression patterns and correlation of target proteins in TCGA and GEPIA datasets and clinical samples. Finally, wound healing, Transwell, tail vein injection model, and tissue section staining were used to demonstrate the antimetastatic effect of vitexicarpin on CRC in vitro and in vivo. RESULTS: Our findings demonstrated that vitexicarpin exhibits anticancer activity by directly binding to inosine monophosphate dehydrogenase 2 (IMPDH2) and that it promotes c-Myc ubiquitination by disrupting the interaction between IMPDH2 and c-Myc, leading to epithelial-mesenchymal transition (EMT) inhibition. Vitexicarpin hinders the migration and invasion of CRC cells by reversing EMT both in vitro and in vivo. Additionally, these results were validated by the overexpression and knockdown of IMPDH2 in CRC cells. CONCLUSION: These results demonstrated that vitexicarpin regulates the interaction between IMPDH2 and c-Myc to inhibit CRC proliferation and metastasis both in vitro and in vivo. These discoveries introduce potential molecular targets for CRC treatment and shed light on new mechanisms for c-Myc regulation in tumours.",
+    "keywords": [
+      "Colorectal cancer",
+      "Epithelial-mesenchymal transition",
+      "IMPDH2",
+      "Vitexicarpin",
+      "c-Myc"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Male",
+      "Mice",
+      "Antineoplastic Agents, Phytogenic/pharmacology",
+      "Apoptosis/drug effects",
+      "Cell Line, Tumor",
+      "Cell Movement/drug effects",
+      "Cell Proliferation/drug effects",
+      "*Colorectal Neoplasms/drug therapy/pathology",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "IMP Dehydrogenase/metabolism/antagonists & inhibitors",
+      "Mice, Inbred BALB C",
+      "Mice, Nude",
+      "Molecular Docking Simulation",
+      "Proto-Oncogene Proteins c-myc/metabolism",
+      "*Ubiquitination/drug effects",
+      "*Vitex/chemistry",
+      "Xenograft Model Antitumor Assays",
+      "*Flavonoids/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Xiao-Jing",
+        "Cai, Xue-Mei",
+        "Wang, Qian-Qian",
+        "Liu, Ning",
+        "Zhong, Wei-Long",
+        "Xi, Xiao-Nan",
+        "Lu, Ya-Xin"
+      ],
+      "short_names": [
+        "Ding XJ",
+        "Cai XM",
+        "Wang QQ",
+        "Liu N",
+        "Zhong WL",
+        "Xi XN",
+        "Lu YX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Nankai University, Tianjin 300350, PR China.",
+        "Huabei Petroleum Administration Bureau General Hospital, Renqiu 062550, PR China.",
+        "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China.",
+        "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China.",
+        "Department of Gastroenterology and Hepatology, Tianjin Medical University General Hospital, Tianjin Institute of Digestive Diseases, Tianjin Key Laboratory of Digestive Diseases, Tianjin 300052, PR China. Electronic address: zhongweilong@tmu.edu.cn.",
+        "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China. Electronic address: 9820210009@nankai.edu.cn.",
+        "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China; College of Chemistry, Nankai University, Tianjin 300350, PR China. Electronic address: yaxinlu@nankai.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Xiao-Jing",
+        "short_name": "Ding XJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Nankai University, Tianjin 300350, PR China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xue-Mei",
+        "short_name": "Cai XM",
+        "identifiers": [],
+        "affiliations": [
+          "Huabei Petroleum Administration Bureau General Hospital, Renqiu 062550, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qian-Qian",
+        "short_name": "Wang QQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ning",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Wei-Long",
+        "short_name": "Zhong WL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tianjin Medical University General Hospital, Tianjin Institute of Digestive Diseases, Tianjin Key Laboratory of Digestive Diseases, Tianjin 300052, PR China. Electronic address: zhongweilong@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xi, Xiao-Nan",
+        "short_name": "Xi XN",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China. Electronic address: 9820210009@nankai.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Ya-Xin",
+        "short_name": "Lu YX",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300350, PR China; College of Chemistry, Nankai University, Tianjin 300350, PR China. Electronic address: yaxinlu@nankai.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/15 18:43",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42418018",
+      "42266748",
+      "41584327",
+      "40251939",
+      "39875357"
+    ],
+    "refs": [],
+    "similar": [
+      "39008915",
+      "30518405",
+      "31454697",
+      "25884904",
+      "30668330",
+      "38941816",
+      "36806631",
+      "33153498",
+      "38310229",
+      "29258530",
+      "33310309",
+      "30668333",
+      "38452690",
+      "31866511",
+      "38837682",
+      "28282916",
+      "31371920",
+      "29722931",
+      "34440739",
+      "32754278",
+      "39002822",
+      "30689555",
+      "30737895",
+      "38493716",
+      "20450732",
+      "30890168",
+      "32698890",
+      "33737010",
+      "34785413",
+      "34244479",
+      "33042270",
+      "39085725",
+      "28161537",
+      "35114275",
+      "38602236",
+      "38592610",
+      "31063022",
+      "29080197",
+      "15881322",
+      "23800091",
+      "32078221",
+      "25516649",
+      "30808369",
+      "38641080",
+      "34954267",
+      "32308771",
+      "38910244",
+      "32146835",
+      "38923111",
+      "31888761",
+      "33102601",
+      "38163859",
+      "39406881",
+      "32004989",
+      "30144452",
+      "39357549",
+      "39146782",
+      "34029939",
+      "33533172",
+      "29776371",
+      "30668428",
+      "38521111",
+      "29921293",
+      "33785035",
+      "26883103",
+      "30066935",
+      "38518635",
+      "34050266",
+      "39003255",
+      "38994756",
+      "34552064",
+      "30244296",
+      "30927925",
+      "34741022",
+      "33915328",
+      "34375566",
+      "30119890",
+      "28506831",
+      "25653118",
+      "32281284",
+      "32387836",
+      "39227564",
+      "29794466",
+      "30542703",
+      "31302315",
+      "33080566",
+      "32843066",
+      "30813948",
+      "36629054",
+      "32005118",
+      "34331954",
+      "38273759",
+      "27492459",
+      "32413672",
+      "30907986",
+      "39038387",
+      "24968890",
+      "39004030",
+      "34265287",
+      "30107167",
+      "31306656",
+      "33929996",
+      "37957853",
+      "38992898",
+      "39415271",
+      "38318835",
+      "39316306",
+      "39289754",
+      "39131357",
+      "39075237"
+    ],
+    "review": [
+      "39008915"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00491-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

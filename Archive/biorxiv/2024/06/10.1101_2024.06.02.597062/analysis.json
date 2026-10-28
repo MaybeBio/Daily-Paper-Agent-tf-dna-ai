@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.02.597062",
+  "title": "Automated classification of cellular expression in multiplexed imaging data with Nimbus",
+  "authors": "Rumberger JL; Greenwald NF; Ranek JS; Boonrat P; Walker C; Franzen J; Varra SR; Kong A; Sowers C; Liu CC; Averbukh I; Piyadasa H; Vanguri R; Nederlof I; Wang XJ; Van Valen D; Kok M; Hollmann TJ; Kainmueller D; Angelo M",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习模型Nimbus对多重成像数据中的细胞标志物表达进行分类，属于细胞表型分析，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "Multiplexed imaging offers a powerful approach to characterize the spatial topography of tissues in both health and disease. To analyze such data, the specific combination of markers that are present in each cell must be enumerated to enable accurate phenotyping, a process that often relies on unsupervised clustering. We constructed the Pan-Multiplex (Pan-M) dataset containing 197 million distinct annotations of marker expression across 15 different cell types. We used Pan-M to create Nimbus, a deep learning model to predict marker positivity from multiplexed image data. Nimbus is a pre-trained model that uses the underlying images to classify marker expression across distinct cell types, from different tissues, acquired using different microscope platforms, without requiring any retraining. We demonstrate that Nimbus predictions capture the underlying staining patterns of the full diversity of markers present in Pan-M. We then show how Nimbus predictions can be integrated with downstream clustering algorithms to robustly identify cell subtypes in image data. We have open-sourced Nimbus and Pan-M to enable community use at https://github.com/angelolab/Nimbus-Inference .",
+  "abstract_zh": "多重成像提供了一种强大的方法，用于表征健康和疾病状态下组织的空间拓扑结构。要分析此类数据，必须枚举每个细胞中存在的标记物的特定组合，以实现准确的表型分型，这一过程通常依赖于无监督聚类。我们构建了Pan-Multiplex（Pan-M）数据集，包含15种不同细胞类型中197百万个不同的标记物表达注释。我们利用Pan-M创建了Nimbus，这是一个深度学习模型，用于从多重成像数据中预测标记物阳性。Nimbus是一个预训练模型，利用底层图像对不同细胞类型、不同组织、通过不同显微镜平台获取的标记物表达进行分类，无需任何重新训练。我们证明，Nimbus的预测能够捕捉Pan-M中全部标记物多样性的底层染色模式。随后，我们展示了如何将Nimbus的预测与下游聚类算法整合，以稳健地识别图像数据中的细胞亚型。我们已开源Nimbus和Pan-M，供社区使用，网址为https://github.com/angelolab/Nimbus-Inference。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597062",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597062",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.02.597062/index.html"
+}

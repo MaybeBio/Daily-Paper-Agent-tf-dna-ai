@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "40275274",
+    "doi": "10.1186/s12967-025-06490-7",
+    "title": "Identifying disease progression biomarkers in metabolic associated steatotic liver disease (MASLD) through weighted gene co-expression network analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic Associated Steatotic Liver Disease (MASLD), encompassing conditions simple liver steatosis (MAFL) and metabolic associated steatohepatitis (MASH), is the most prevalent chronic liver disease. Currently, the management of MASLD is impeded by the lack of reliable diagnostic biomarkers and effective therapeutic strategies. METHODS: We analyzed eight independent clinical MASLD datasets from the GEO database. Differential expression and weighted gene co-expression network analyses (WGCNA) were used to identify 23 genes related to inflammation. Five hub genes were selected using machine learning techniques (SVM-RFE, LASSO, and RandomForest) combined with a literature review. Nomograms were created to predict MASLD incidence, and the diagnostic potential of the hub genes was evaluated through receiver operating characteristic (ROC) curves. Additionally, Protein-Protein Interaction (PPI) networks, functional enrichment, and immune infiltration analyses were performed. Potential transcription factors and therapeutic agents were also explored. Finally, the expression and biological significance of these hub genes were validated using MASLD animal model, histological examination and transcriptomic profiles. RESULTS: We identified five hub genes-UBD/FAT10, STMN2, LYZ, DUSP8, and GPR88-that are potential biomarkers for MASLD. These genes exhibited strong diagnostic potential, either individually or in combination. CONCLUSION: This study highlights five key biomarkers as promising candidates for understanding MASLD. These findings offer new insights into the disease's pathophysiology and may contribute to the development of better diagnostic and therapeutic approaches.",
+    "keywords": [
+      "Bioinformatics",
+      "Disease biomarker",
+      "Inflammation",
+      "Metabolic associated steatotic liver disease",
+      "Weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Biomarkers/metabolism",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Disease Progression",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Animals",
+      "*Fatty Liver/genetics/pathology",
+      "ROC Curve",
+      "Reproducibility of Results",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Weiliang",
+        "Lu, Weirong",
+        "Jiao, Yaqi",
+        "Li, Tianhao",
+        "Wang, Haining",
+        "Wan, Chunhua"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Lu W",
+        "Jiao Y",
+        "Li T",
+        "Wang H",
+        "Wan C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7615-4597"
+      ],
+      "affiliations": [
+        "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China.",
+        "Department of Cardiovascular Medicine, First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150001, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China. chwan@ntu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Weiliang",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0002-7615-4597"
+        ],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Weirong",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yaqi",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tianhao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haining",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Chunhua",
+        "short_name": "Wan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Nantong University, Nantong, Jiangsu, 226019, China. chwan@ntu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Apr 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/25 01:20",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42450082",
+      "42434321",
+      "42358961",
+      "42223712",
+      "42189212",
+      "42162172",
+      "41993162",
+      "41866431",
+      "41233877",
+      "40427086"
+    ],
+    "refs": [
+      "39760794",
+      "39710816",
+      "39695014",
+      "39379786",
+      "39170888",
+      "39117495",
+      "38820772",
+      "38514508",
+      "38224712",
+      "38157267",
+      "37926201",
+      "37533088",
+      "37400694",
+      "37057207",
+      "36036283",
+      "35682008",
+      "35229049",
+      "34830313",
+      "34791415",
+      "34761621",
+      "34446275",
+      "34230226",
+      "33679803",
+      "33556481",
+      "33505147",
+      "33349658",
+      "33237311",
+      "33131190",
+      "32943240",
+      "32917360",
+      "32908189",
+      "32780722",
+      "32301554",
+      "32258944",
+      "31868526",
+      "31619023",
+      "31497742",
+      "31346000",
+      "30870804",
+      "30099484",
+      "28980219",
+      "28934357",
+      "28855710",
+      "28317925",
+      "28115335",
+      "27807356",
+      "27570825",
+      "26808498",
+      "26771021",
+      "26707365",
+      "26621860",
+      "26101869",
+      "25822800",
+      "25516281",
+      "25461851",
+      "25352770",
+      "25048953",
+      "24706839",
+      "24123276",
+      "23632345",
+      "23323831",
+      "23064379",
+      "22455463",
+      "22257669",
+      "21531065",
+      "21414208",
+      "20808728",
+      "20802173",
+      "19959714",
+      "19114008",
+      "16782901",
+      "16712787",
+      "16344072",
+      "16287793",
+      "16199517",
+      "14614602",
+      "12730673",
+      "10200259",
+      "1940787"
+    ],
+    "similar": [
+      "40275274",
+      "40360670",
+      "39414652",
+      "42217414",
+      "42327749",
+      "40362669",
+      "39925925",
+      "39875572",
+      "42088521",
+      "41052072",
+      "40374840",
+      "39396400",
+      "39556279",
+      "40997906",
+      "38690269",
+      "40406126",
+      "38987624",
+      "40328901",
+      "38476236",
+      "41316541",
+      "39375405",
+      "40594616",
+      "41816328",
+      "42313235",
+      "42064079",
+      "39351239",
+      "41044520",
+      "40901831",
+      "40093012",
+      "39936105",
+      "41415264",
+      "40836320",
+      "40821971",
+      "38319987",
+      "40969769",
+      "42706545",
+      "41716396",
+      "40574839",
+      "39139563",
+      "40500570",
+      "41432483",
+      "41107929",
+      "38863714",
+      "38886539",
+      "42015036",
+      "39341952",
+      "42123756",
+      "42399771",
+      "41006883",
+      "40425614",
+      "41722245",
+      "42074286",
+      "42509823",
+      "42642681",
+      "39497821",
+      "34555052",
+      "35069594",
+      "40263690",
+      "41703488",
+      "41196851",
+      "41094572",
+      "41214111",
+      "40332792",
+      "38711508",
+      "41132669",
+      "41013556",
+      "39670237",
+      "40973872",
+      "41863100",
+      "40273141",
+      "39699225",
+      "42609119",
+      "40196107",
+      "41265166",
+      "41479901",
+      "40766309",
+      "39697326",
+      "40406620",
+      "42274933",
+      "40340571",
+      "41388523",
+      "41185013",
+      "41667698",
+      "40532306",
+      "41300841",
+      "41496017",
+      "42292668",
+      "39069636",
+      "41081092",
+      "39738398",
+      "40860289",
+      "41291841",
+      "39609718",
+      "41872824",
+      "40421012",
+      "40406118",
+      "42650141",
+      "40665394",
+      "42081554",
+      "35558576"
+    ],
+    "review": [
+      "40275274"
+    ],
+    "pmc": [
+      "12020260"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06490-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40275274/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

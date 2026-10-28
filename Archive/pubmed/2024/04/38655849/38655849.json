@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "38655849",
+    "doi": "10.7554/eLife.93561",
+    "title": "PURA syndrome-causing mutations impair PUR-domain integrity and affect P-body association."
+  },
+  "content": {
+    "abstract": "Mutations in the human PURA gene cause the neurodevelopmental PURA syndrome. In contrast to several other monogenetic disorders, almost all reported mutations in this nucleic acid-binding protein result in the full disease penetrance. In this study, we observed that patient mutations across PURA impair its previously reported co-localization with processing bodies. These mutations either destroyed the folding integrity, RNA binding, or dimerization of PURA. We also solved the crystal structures of the N- and C-terminal PUR domains of human PURA and combined them with molecular dynamics simulations and nuclear magnetic resonance measurements. The observed unusually high dynamics and structural promiscuity of PURA indicated that this protein is particularly susceptible to mutations impairing its structural integrity. It offers an explanation why even conservative mutations across PURA result in the full penetrance of symptoms in patients with PURA syndrome.",
+    "keywords": [
+      "PURA",
+      "PURA syndrome",
+      "RNA binding",
+      "X-ray crystallography",
+      "cell biology",
+      "human",
+      "molecular biophysics",
+      "protein folding stability",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neurodevelopmental Disorders/metabolism/pathology",
+      "*Processing Bodies/metabolism/pathology",
+      "Stress Granules/metabolism",
+      "Crystallography, X-Ray",
+      "Dimerization",
+      "Protein Domains",
+      "Circular Dichroism",
+      "Recombinant Proteins",
+      "Protein Folding",
+      "Penetrance",
+      "Amino Acid Substitution",
+      "Point Mutation",
+      "HeLa Cells",
+      "DNA-Binding Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Proske, Marcel",
+        "Janowski, Robert",
+        "Bacher, Sabrina",
+        "Kang, Hyun-Seo",
+        "Monecke, Thomas",
+        "Koehler, Tony",
+        "Hutten, Saskia",
+        "Tretter, Jana",
+        "Crois, Anna",
+        "Molitor, Lena",
+        "Varela-Rial, Alejandro",
+        "Fino, Roberto",
+        "Donati, Elisa",
+        "De Fabritiis, Gianni",
+        "Dormann, Dorothee",
+        "Sattler, Michael",
+        "Niessing, Dierk"
+      ],
+      "short_names": [
+        "Proske M",
+        "Janowski R",
+        "Bacher S",
+        "Kang HS",
+        "Monecke T",
+        "Koehler T",
+        "Hutten S",
+        "Tretter J",
+        "Crois A",
+        "Molitor L",
+        "Varela-Rial A",
+        "Fino R",
+        "Donati E",
+        "De Fabritiis G",
+        "Dormann D",
+        "Sattler M",
+        "Niessing D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9940-2143",
+        "ORCID: 0000-0003-3748-710X",
+        "ORCID: 0009-0001-0791-5719",
+        "ORCID: 0000-0002-5589-369X"
+      ],
+      "affiliations": [
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Chemistry Department, Biomolecular NMR and Center for Integrated Protein Science Munich, Technical University of Munich, Mainz, Germany.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany.",
+        "Biocenter, Institute of Molecular Physiology, Johannes Gutenberg-Universitat (JGU), Mainz, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Acellera Labs SL, Barcelona, Spain.",
+        "Acellera Labs SL, Barcelona, Spain.",
+        "Acellera Labs SL, Barcelona, Spain.",
+        "Acellera Labs SL, Barcelona, Spain.",
+        "Biocenter, Institute of Molecular Physiology, Johannes Gutenberg-Universitat (JGU), Mainz, Germany.",
+        "Institute of Molecular Biology (IMB), Mainz, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Chemistry Department, Biomolecular NMR and Center for Integrated Protein Science Munich, Technical University of Munich, Mainz, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Proske, Marcel",
+        "short_name": "Proske M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Janowski, Robert",
+        "short_name": "Janowski R",
+        "identifiers": [
+          "0000-0002-9940-2143"
+        ],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bacher, Sabrina",
+        "short_name": "Bacher S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kang, Hyun-Seo",
+        "short_name": "Kang HS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Chemistry Department, Biomolecular NMR and Center for Integrated Protein Science Munich, Technical University of Munich, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Monecke, Thomas",
+        "short_name": "Monecke T",
+        "identifiers": [
+          "0000-0003-3748-710X"
+        ],
+        "affiliations": [
+          "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Koehler, Tony",
+        "short_name": "Koehler T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Hutten, Saskia",
+        "short_name": "Hutten S",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Institute of Molecular Physiology, Johannes Gutenberg-Universität (JGU), Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Tretter, Jana",
+        "short_name": "Tretter J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Crois, Anna",
+        "short_name": "Crois A",
+        "identifiers": [
+          "0009-0001-0791-5719"
+        ],
+        "affiliations": [
+          "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Molitor, Lena",
+        "short_name": "Molitor L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Varela-Rial, Alejandro",
+        "short_name": "Varela-Rial A",
+        "identifiers": [],
+        "affiliations": [
+          "Acellera Labs SL, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Fino, Roberto",
+        "short_name": "Fino R",
+        "identifiers": [],
+        "affiliations": [
+          "Acellera Labs SL, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Donati, Elisa",
+        "short_name": "Donati E",
+        "identifiers": [],
+        "affiliations": [
+          "Acellera Labs SL, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "De Fabritiis, Gianni",
+        "short_name": "De Fabritiis G",
+        "identifiers": [],
+        "affiliations": [
+          "Acellera Labs SL, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Dormann, Dorothee",
+        "short_name": "Dormann D",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Institute of Molecular Physiology, Johannes Gutenberg-Universität (JGU), Mainz, Germany.",
+          "Institute of Molecular Biology (IMB), Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Sattler, Michael",
+        "short_name": "Sattler M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Chemistry Department, Biomolecular NMR and Center for Integrated Protein Science Munich, Technical University of Munich, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Niessing, Dierk",
+        "short_name": "Niessing D",
+        "identifiers": [
+          "0000-0002-5589-369X"
+        ],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Institute of Pharmaceutical Biotechnology, Ulm University, Ulm, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Apr 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/24 14:20",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "41130720",
+      "40708900",
+      "39687198",
+      "39131487",
+      "39062627",
+      "39000020"
+    ],
+    "refs": [
+      "38777099",
+      "36651277",
+      "36376392",
+      "35884678",
+      "34790866",
+      "33777106",
+      "32476604",
+      "31721251",
+      "29677514",
+      "29373831",
+      "29302778",
+      "29150892",
+      "29097605",
+      "28975482",
+      "28404748",
+      "26744780",
+      "26728149",
+      "26609855",
+      "26580533",
+      "26237041",
+      "25788698",
+      "25505092",
+      "25439098",
+      "25342064",
+      "24040512",
+      "23553836",
+      "23393093",
+      "22968170",
+      "22010047",
+      "21460441",
+      "20976240",
+      "20124692",
+      "20057044",
+      "19846792",
+      "17317681",
+      "16511857",
+      "16369096",
+      "15915565",
+      "15572765",
+      "15299926",
+      "15116359",
+      "12972605",
+      "11596104",
+      "11169743",
+      "11032728",
+      "10457364",
+      "9524214",
+      "7682655",
+      "7657701",
+      "1545807"
+    ],
+    "similar": [
+      "38655849",
+      "33777106",
+      "29221753",
+      "29097605",
+      "36651277",
+      "25342064",
+      "23912807",
+      "39824548",
+      "33229923",
+      "38777099",
+      "32035967",
+      "33352606",
+      "36768582",
+      "35884678",
+      "34116881",
+      "29150892",
+      "36376392",
+      "37204304",
+      "35511030",
+      "34904892",
+      "38923490",
+      "28164378",
+      "34132193",
+      "39531550",
+      "29307761",
+      "38770750",
+      "39062627",
+      "34583915",
+      "26582469",
+      "26744780",
+      "38606370",
+      "22237435",
+      "28566288",
+      "38941236",
+      "11417483",
+      "32089526",
+      "34790866",
+      "33633953",
+      "33825682",
+      "8547636",
+      "25439098",
+      "32476604",
+      "36321557",
+      "25912189",
+      "33275834",
+      "36210261",
+      "32234212",
+      "35762573",
+      "29945973",
+      "32639967",
+      "10496225",
+      "32343227",
+      "15842167",
+      "26411585",
+      "39131487",
+      "31040020",
+      "27148565",
+      "23645670",
+      "31904339",
+      "40019136",
+      "11439029",
+      "30020492",
+      "37868916",
+      "32151314",
+      "35094889",
+      "39082816",
+      "18422648",
+      "15701631",
+      "38453051",
+      "26281765",
+      "39150724",
+      "32820719",
+      "30929742",
+      "10938130",
+      "31889510",
+      "26418480",
+      "12972605",
+      "19652879",
+      "27576344",
+      "28017373",
+      "18155042",
+      "15327960",
+      "28798234",
+      "17906292",
+      "9383409",
+      "37851522",
+      "32522879",
+      "23242510",
+      "35226596",
+      "10196129",
+      "36403339",
+      "28973398",
+      "11131562",
+      "38030819",
+      "34672913",
+      "36416224",
+      "26728149",
+      "33825681",
+      "17609377",
+      "7606931"
+    ],
+    "review": [
+      "38655849",
+      "33777106",
+      "29221753",
+      "29097605",
+      "39824548",
+      "36768582",
+      "37204304",
+      "38923490",
+      "39062627",
+      "36321557",
+      "18422648",
+      "26281765",
+      "39150724"
+    ],
+    "pmc": [
+      "11042805"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38655849/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38655849/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38655849",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.93561",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

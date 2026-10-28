@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.27.708137",
+  "title": "t2pmhc: A Structure-Informed Graph Neural Network to predict TCR-pMHC Binding",
+  "authors": "Mark Polster; Josua Stadelmaier; Elias Ball; Jonas Scheid; Jens Bauer; Annika Nelde; Manfred Claassen; Marissa Lisa Dubbelaar; Juliane Sarah Walz; Sven Nahnsen",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-02",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用结构感知图神经网络预测TCR-pMHC结合，虽非TF-DNA体系，但属于蛋白质-肽-MHC复合物互作建模，其结构信息与GNN方法可迁移至TF-DNA结合预测，故给予中档评分。",
+  "abstract": "Mapping of T cell receptors (TCRs) to their cognate MHC-presented peptides (pMHC) is central for the development of precision immunotherapies and vaccine design. However, accurate prediction of TCR affinity to peptide antigens remains an open challenge. Most approaches rely solely on sequence information, although increasing evidence suggests that TCR-pMHC binding is primarily determined by three-dimensional structural interactions within the entire TCR-pMHC complex. Consequently, sequence-based methods often fail to generalize to peptides not included in the training data (unseen peptides). Here we introduce t2pmhc, a structure-based graph neural network framework for predicting TCR-pMHC binding using predicted structures of the entire TCR-pMHC complex. We evaluated a Graph Convolutional Network (GCN) and a Graph Attention Network, both demonstrating improved generalization to unseen peptides compared to state-of-the-art models across a variety of public datasets. Evaluation with crystallographic structures yields high-confidence predictions, indicating that current limitations of structure-based models are largely driven by the accuracy of structure prediction. Analysis of node attention patterns in t2pmhc-GCN reveals biologically consistent patterns, assigning high attention to the peptide and the CDR3 regions. Within the peptide sequence, canonical MHC anchor residues are consistently downweighted, whereas potential TCR-binding residues are upweighted. These findings establish t2pmhc as a structure-informed framework for robust TCR-pMHC binding prediction, enabling improved generalization to unseen antigens and providing a foundation for integrating TCR repertoire sequencing into vaccine design and immunotherapy.",
+  "abstract_zh": "T细胞受体（TCRs）与其同源MHC呈递肽（pMHC）的映射是精准免疫疗法开发和疫苗设计的核心。然而，准确预测TCR对肽抗原的亲和力仍是一个未解决的挑战。大多数方法仅依赖序列信息，尽管越来越多的证据表明TCR-pMHC结合主要由整个TCR-pMHC复合物内的三维结构相互作用决定。因此，基于序列的方法往往无法泛化到训练数据中未包含的肽（未见肽）。在此，我们引入t2pmhc，一种基于结构的图神经网络框架，利用整个TCR-pMHC复合物的预测结构来预测TCR-pMHC结合。我们评估了图卷积网络（GCN）和图注意力网络，两者在多种公共数据集上均显示出相比最先进模型对未见肽的更好泛化能力。使用晶体结构进行评估可获得高置信度预测，表明当前基于结构的模型的局限性主要受结构预测准确性的驱动。对t2pmhc-GCN中节点注意力模式的分析揭示了生物学上一致的模式，将高注意力分配给肽和CDR3区域。在肽序列内，经典的MHC锚定残基始终被降权，而潜在的TCR结合残基则被升权。这些发现确立了t2pmhc作为一种结构信息驱动的框架，用于稳健的TCR-pMHC结合预测，能够实现对未见抗原的更好泛化，并为将TCR库测序整合到疫苗设计和免疫疗法中奠定基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708137",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708137",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.27.708137/index.html"
+}

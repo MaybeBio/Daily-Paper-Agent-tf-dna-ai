@@ -1,0 +1,331 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.09.674732",
+  "title": "SMTrackR: a R/Bioconductor package for mapping protein binding at individual DNA molecules",
+  "doi": "10.1101/2025.09.09.674732",
+  "abstract": "Single-molecule assays like NOMe-seq, dSMF and Nanopore are superior to DNase-seq and ATAC-seq as they do not nibble down DNA. Thus, they enable quantification of all three i.e., protein-free, Transcription Factor-bound and histone-complex-bound states. But a user-friendly tool to visualize and quantify such states is lacking. Here, we present, SMTrackR, a Bioconductor package to visualize protein-DNA binding states on individual sequenced DNA molecules. SMTrackR queries the single-molecule footprint database we built and hosted at Galaxy Server. It comprises of BigBed files generated from NOMe-seq, dSMF, and Nanopore (SMAC-seq) datasets. SMTrackR exploits UCSC REST API to query a BigBed file and plot footprint heatmap categorized in different binding states as well as report their occupancies. Additionally, this package generates a Gviz-enabled script to visualize these single-molecules on gene tracks. Availability and implementation The SMTrackR tool is implemented the statistical programming language R and is available at the GitHub developer site, https://github.com/satyanarayan-rao/SMTrackR . The tool is also available in a web version https://smtrackr.iitr.ac.in . A function is provided to use local BigBed file for users who wish to use unpublished data. A fully automated pipeline to generate such BigBed files is available at https://github.com/satyanarayan-rao/SMF_for_SMThub and https://github.com/satyanarayan-rao/dSMF_for_SMThub .",
+  "authors": [
+    "Aashna Bansal",
+    "Himani Barmola",
+    "Shivam Yadav",
+    "Satyanarayan Rao"
+  ],
+  "published_date": "2025-09-15",
+  "updated_date": "2025-09-15T21:45:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.674732",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.674732.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:27:06Z",
+        "timestamp": 1785414426291,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 12,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                15
+              ]
+            ],
+            "date-time": "2025-09-15T00:00:00Z",
+            "timestamp": 1757894400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "FIG-101018"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "FIG-101018"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00582g326",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000964",
+          "name": "ANRF",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "ANRF/ECRG/2024/004316/LS"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANRF/ECRG/2024/004316/LS"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000964",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>Single-molecule assays like NOMe-seq, dSMF and Nanopore are superior to DNase-seq and ATAC-seq as they do not nibble down DNA. Thus, they enable quantification of all three i.e., protein-free, Transcription Factor-bound and histone-complex-bound states. But a user-friendly tool to visualize and quantify such states is lacking. Here, we present, SMTrackR, a Bioconductor package to visualize protein-DNA binding states on individual sequenced DNA molecules. SMTrackR queries the single-molecule footprint database we built and hosted at Galaxy Server. It comprises of BigBed files generated from NOMe-seq, dSMF, and Nanopore (SMAC-seq) datasets. SMTrackR exploits UCSC REST API to query a BigBed file and plot footprint heatmap categorized in different binding states as well as report their occupancies. Additionally, this package generates a Gviz-enabled script to visualize these single-molecules on gene tracks.</jats:p>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    The SMTrackR tool is implemented the statistical programming language R and is available at the GitHub developer site,\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/satyanarayan-rao/SMTrackR\">https://github.com/satyanarayan-rao/SMTrackR</jats:ext-link>\n                    . The tool is also available in a web version\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://smtrackr.iitr.ac.in\">https://smtrackr.iitr.ac.in</jats:ext-link>\n                    . A function is provided to use local BigBed file for users who wish to use unpublished data. A fully automated pipeline to generate such BigBed files is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/satyanarayan-rao/SMF_for_SMThub\">https://github.com/satyanarayan-rao/SMF_for_SMThub</jats:ext-link>\n                    and\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/satyanarayan-rao/dSMF_for_SMThub\">https://github.com/satyanarayan-rao/dSMF_for_SMThub</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.09.09.674732",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            15
+          ]
+        ],
+        "date-time": "2025-09-15T21:45:13Z",
+        "timestamp": 1757972713000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SMTrackR: a R/Bioconductor package for mapping protein binding at individual DNA molecules"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-7220-1411",
+          "authenticated-orcid": false,
+          "given": "Aashna",
+          "family": "Bansal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-3749-789X",
+          "authenticated-orcid": false,
+          "given": "Himani",
+          "family": "Barmola",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shivam",
+          "family": "Yadav",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7678-3505",
+          "authenticated-orcid": false,
+          "given": "Satyanarayan",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.59404"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01475-6"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-3578-9_16"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.143008.112"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-021-00630-1"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.06.027"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-024-01748-0"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xpro.2022.101299"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-44597-2"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0730-2"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1646"
+        },
+        {
+          "key": "2025091711450877000_2025.09.09.674732v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20703-1"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.09.674732",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:15:10Z",
+        "timestamp": 1782278110000
+      },
+      "score": 153.94531,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.09.674732"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            15
+          ]
+        ]
+      },
+      "references-count": 12,
+      "URL": "https://doi.org/10.1101/2025.09.09.674732",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioadv/vbag091",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

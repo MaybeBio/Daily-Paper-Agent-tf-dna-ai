@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "41992872",
+    "doi": "10.1021/acs.jcim.6c00080",
+    "title": "Examining Genetic Variants Associated with FOXP1 Syndrome through Molecular Dynamics of Its DNA-Binding Domain and Self-Organizing Maps."
+  },
+  "content": {
+    "abstract": "Genetic mutations in the transcription factor FOXP1 (forkhead box protein P1) cause an autosomal dominant neurodevelopmental disorder called FOXP1 syndrome. To understand the structural impact of pathogenic variants associated with FOXP1 syndrome, we investigated the conformational changes resulting from six distinct missense variants in FOXP1 by combining molecular dynamics simulations, molecular docking, and machine learning via self-organizing maps. Our results reveal different conformational landscapes mapped by the FOXP1 variants and reduced interactions with the DNA for mutations residing in helix H3 of the DNA-binding domain. These analyses offer a framework for assessing the structural impact of missense variants implicated in the FOXP1 syndrome, highlighting the importance of structural inferences in interpreting genetic variants.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Forkhead Transcription Factors/genetics/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Repressor Proteins/genetics/chemistry/metabolism",
+      "*DNA/metabolism/chemistry",
+      "*Genetic Variation",
+      "Protein Domains",
+      "Molecular Docking Simulation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Motta, Stefano",
+        "Perta, Nunzio",
+        "Romagnoli, Alice",
+        "Rexha, Jesmina",
+        "Buxbaum, Joseph D",
+        "De Rubeis, Silvia",
+        "Di Marino, Daniele"
+      ],
+      "short_names": [
+        "Motta S",
+        "Perta N",
+        "Romagnoli A",
+        "Rexha J",
+        "Buxbaum JD",
+        "De Rubeis S",
+        "Di Marino D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0812-6834",
+        "ORCID: 0000-0003-2558-8413"
+      ],
+      "affiliations": [
+        "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milano, MI 20126, Italy.",
+        "Inter-University Center for the Promotion of the 3Rs Principles in Teaching & Research (Centro 3R), Pisa 56122, Italy.",
+        "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy.",
+        "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy.",
+        "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy.",
+        "Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Alper Center for Neural Development and Regeneration Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+        "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+        "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Motta, Stefano",
+        "short_name": "Motta S",
+        "identifiers": [
+          "0000-0002-0812-6834"
+        ],
+        "affiliations": [
+          "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milano, MI 20126, Italy.",
+          "Inter-University Center for the Promotion of the 3Rs Principles in Teaching & Research (Centro 3R), Pisa 56122, Italy."
+        ]
+      },
+      {
+        "full_name": "Perta, Nunzio",
+        "short_name": "Perta N",
+        "identifiers": [
+          "0000-0003-2558-8413"
+        ],
+        "affiliations": [
+          "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy."
+        ]
+      },
+      {
+        "full_name": "Romagnoli, Alice",
+        "short_name": "Romagnoli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy."
+        ]
+      },
+      {
+        "full_name": "Rexha, Jesmina",
+        "short_name": "Rexha J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy."
+        ]
+      },
+      {
+        "full_name": "Buxbaum, Joseph D",
+        "short_name": "Buxbaum JD",
+        "identifiers": [],
+        "affiliations": [
+          "Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States."
+        ]
+      },
+      {
+        "full_name": "De Rubeis, Silvia",
+        "short_name": "De Rubeis S",
+        "identifiers": [],
+        "affiliations": [
+          "Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States.",
+          "Alper Center for Neural Development and Regeneration Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, United States."
+        ]
+      },
+      {
+        "full_name": "Di Marino, Daniele",
+        "short_name": "Di Marino D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life and Environmental Sciences, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "New York-Marche Structural Biology Center, Polytechnic University of Marche, Ancona, AN 60131, Italy.",
+          "Department of Neuroscience, Mario Negri Institute for Pharmacological Research-IRCCS, Milano, MI 20156, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 13:25",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40372445",
+      "39360688",
+      "38850535",
+      "38585429",
+      "38037155",
+      "37833254",
+      "37797785",
+      "37733863",
+      "37540706",
+      "37485372",
+      "37298290",
+      "37199668",
+      "37184020",
+      "37066796",
+      "36579832",
+      "36536857",
+      "36301021",
+      "35436152",
+      "35213804",
+      "35061689",
+      "34638644",
+      "34588003",
+      "34477783",
+      "34082524",
+      "33892622",
+      "33780250",
+      "33392152",
+      "33110267",
+      "32735805",
+      "32130906",
+      "32049024",
+      "31711714",
+      "30692525",
+      "30385778",
+      "29610305",
+      "29489822",
+      "29138280",
+      "29090079",
+      "28978667",
+      "28884888",
+      "28741757",
+      "28735298",
+      "27657687",
+      "26647308",
+      "26619985",
+      "26574453",
+      "26494785",
+      "26013047",
+      "25888251",
+      "25853299",
+      "25543048",
+      "25266127",
+      "24214399",
+      "23836653",
+      "23579614",
+      "23341494",
+      "22577825",
+      "21416545",
+      "20950788",
+      "20848658",
+      "20507547",
+      "17212484",
+      "16407075",
+      "16211538",
+      "12580598",
+      "11586359",
+      "11137992"
+    ],
+    "similar": [
+      "41992872",
+      "29090079",
+      "21416545",
+      "28741757",
+      "26647308",
+      "37184020",
+      "32735805",
+      "30385778",
+      "27276253",
+      "31199603",
+      "28735298",
+      "38946055",
+      "42323999",
+      "14701752",
+      "40967212",
+      "35654936",
+      "22492998",
+      "40354236",
+      "35165191",
+      "29433424",
+      "38924631",
+      "12692134",
+      "30227110",
+      "20651048",
+      "19352412",
+      "25853299",
+      "40990245",
+      "23832113",
+      "23766104",
+      "36579832",
+      "37625686",
+      "28240601",
+      "24127726",
+      "28978667",
+      "16407075",
+      "41324486",
+      "32932609",
+      "37895307",
+      "27859969",
+      "27056922",
+      "23884370",
+      "31177814",
+      "39902677",
+      "30931977",
+      "40790933",
+      "26654944",
+      "32530809",
+      "17614763",
+      "38629163",
+      "41124077",
+      "28408745",
+      "25724387",
+      "21655267",
+      "18487996",
+      "30831269",
+      "17477366",
+      "41213310",
+      "33716296",
+      "16636337",
+      "30047314",
+      "40048431",
+      "32648149",
+      "28890397",
+      "38123995",
+      "42196261",
+      "40852886",
+      "33255942",
+      "23982071",
+      "27678023",
+      "41546816",
+      "20950788",
+      "31318658",
+      "27861791",
+      "19332160",
+      "18640093",
+      "31426742",
+      "33139493",
+      "29969624",
+      "35000528",
+      "39899693",
+      "41359419",
+      "25406647",
+      "33892622",
+      "29845391",
+      "39315643",
+      "21901488",
+      "38747678",
+      "39585426",
+      "39629895",
+      "25527076",
+      "42361268",
+      "20579129",
+      "39737749",
+      "40169859",
+      "27804176",
+      "36952469",
+      "24416450",
+      "27588474",
+      "31450545",
+      "28884888"
+    ],
+    "review": [
+      "41992872",
+      "17614763",
+      "32648149",
+      "33255942",
+      "27678023"
+    ],
+    "pmc": [
+      "13169393"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41992872/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c00080",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

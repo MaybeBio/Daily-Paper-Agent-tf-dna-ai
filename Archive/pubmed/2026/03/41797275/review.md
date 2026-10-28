@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that zeylenone (Zey) attenuates tamoxifen (TAM) resistance in breast cancer by directly binding to CTCF, thereby inhibiting CTCF-mediated transcriptional activation of CENPK, which in turn suppresses the JAK1/STAT3 pathway. The claim is supported by in vitro and in vivo experiments, molecular docking, biophysical assays, and reporter assays.
+- **Visible evidence base** Abstract text only; no figures, tables, or methods sections provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, raw data, docking parameters, antibody validation, cell line authentication, animal ethics statements, and clinical sample cohort details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking a natural compound to a novel regulatory axis in endocrine resistance. However, the evidence as summarized is insufficient to establish the direct binding claim, the functional causality of the axis, or the translational relevance. Several key controls and quantitative details are absent, and the abstract conflates correlative and causal evidence in places.
+- **Who would be interested in the results, and why** Researchers in breast cancer drug resistance, endocrine therapy, and natural product pharmacology would be interested. The proposed CTCF-CENPK-JAK1/STAT3 axis may also attract investigators studying transcriptional regulation in cancer. The potential clinical relevance of zeylenone as an adjunct to tamoxifen could interest translational oncology groups.
+- **Major strengths** The study addresses a clinically important problem, namely acquired tamoxifen resistance. The proposed mechanism is novel in linking CTCF to CENPK and JAK1/STAT3. The use of multiple orthogonal approaches, including docking, biophysical assays, ChIP-qPCR, reporter assays, and in vivo models, is commendable. The inclusion of clinical sample validation adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct binding claim
+  - **Claim pointer** The abstract states that Zey directly binds to CTCF, supported by molecular docking and biophysical and functional assays.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The direct binding claim is central to the proposed mechanism, but the abstract provides no quantitative biophysical data, such as dissociation constants, stoichiometry, or competition experiments. Molecular docking alone is computational and not confirmatory. The thermal shift assay indicates stabilization but does not prove a specific binding site or functional relevance.
+  - **Why it matters** If direct binding is not rigorously established, the entire mechanistic model, including the claim that Zey inhibits CTCF-mediated transcription by binding, is unsupported. This is the foundational claim of the paper.
+  - **Resolution test** Provide surface plasmon resonance or isothermal titration calorimetry data with a Kd value, a mutagenesis study identifying the binding interface, and a negative control compound. Show that Zey binding to CTCF is required for the observed transcriptional and phenotypic effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal chain from CTCF to CENPK to JAK1/STAT3
+  - **Claim pointer** The abstract claims that the CTCF/CENPK axis modulates JAK1/STAT3 phosphorylation and that Zey suppresses pathway activity by inhibiting this axis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not show whether JAK1/STAT3 activation is downstream of CENPK or merely correlated. The rescue experiments with CTCF overexpression and CENPK or JAK1 knockdown are described but not quantified. It is unclear whether JAK1/STAT3 is a direct transcriptional target of CENPK or an indirect consequence of cell cycle or apoptosis changes.
+  - **Why it matters** The claim of a linear signaling axis is a key mechanistic conclusion. Without epistasis experiments showing order and directness, the model remains speculative.
+  - **Resolution test** Provide epistasis data with double knockdown or overexpression combinations, phospho-kinase arrays, and a demonstration that JAK1/STAT3 activation is necessary and sufficient for the resistance phenotype. Show whether CENPK directly regulates JAK1 or STAT3 expression or activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and translational relevance
+  - **Claim pointer** The abstract states that Zey attenuates TAM resistance in vivo and that CENPK knockdown inhibits tumor growth in nude mice.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative tumor growth data, dosing regimen, route of administration, or statistical comparisons are provided. It is unclear whether Zey was tested in the same xenograft model as the CENPK knockdown, and whether TAM was co-administered. The abstract does not state whether Zey alone or in combination with TAM was used.
+  - **Why it matters** The translational claim depends on in vivo efficacy. Without clear experimental design and quantitative results, the clinical relevance cannot be assessed.
+  - **Resolution test** Provide tumor growth curves, tumor weights, body weight changes, dosing details, and statistical analysis. Clarify whether Zey was tested alone or with TAM, and whether the effect is additive or synergistic.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical sample validation
+  - **Claim pointer** The abstract states that CENPK is significantly upregulated in breast cancer tissues and correlates with CTCF mRNA levels.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The cohort size, cancer subtype, treatment history, and whether the samples were from TAM-resistant patients are not described. Correlation of mRNA levels does not establish a functional relationship.
+  - **Why it matters** Clinical relevance is a stated strength, but without cohort details and appropriate controls, the finding may not be generalizable.
+  - **Resolution test** Provide cohort characteristics, including number of samples, subtype distribution, treatment history, and statistical methods. Show whether the correlation holds in TAM-resistant versus sensitive cases.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Dose and time response
+  - **Affected element** Zey treatment effects
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that Zey downregulates CTCF and CENPK in a dose- and time-dependent manner but provides no concentrations or time points.
+  - **Required correction** Provide the concentration range, IC50 values if applicable, and time points used in the dose and time course experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Cell line specificity
+  - **Affected element** MCF-7/TAM cells
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** Only one TAM-resistant cell line is mentioned. It is unclear whether the findings are cell line specific.
+  - **Required correction** State whether additional TAM-resistant models, such as T47D or BT474 derivatives, were used or acknowledge this as a limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Binding energy interpretation
+  - **Affected element** Molecular docking result
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** A binding energy of -6.9 kcal/mol is reported without context or comparison to known binders or a positive control.
+  - **Required correction** Provide a benchmark or comparison with a known CTCF ligand or a negative control compound to contextualize the docking score.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** No statistical measures, such as p-values, confidence intervals, or effect sizes, are reported in the abstract.
+  - **Required correction** Include representative statistical values for key experiments in the abstract or indicate where they are presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed CTCF-CENPK-JAK1/STAT3 axis is novel, and the use of a natural compound to target a transcriptional regulator is conceptually interesting. However, the abstract does not demonstrate that this axis is distinct from known resistance mechanisms beyond the novelty of the components.
+  - Scientific importance: Tamoxifen resistance is a major clinical problem, and a new druggable target would be significant. The importance is contingent on the validity of the direct binding and the causal axis, which are not yet established.
+  - Interdisciplinary readership: The work spans pharmacology, cancer biology, and transcriptional regulation, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with all three fields.
+  - Technical soundness: The use of multiple methods is a strength, but the lack of quantitative biophysical data, epistasis experiments, and detailed in vivo results undermines the technical rigor as presented.
+  - Readability for nonspecialists: The abstract is dense and uses field-specific jargon without sufficient context. The mechanistic chain is difficult to follow for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims of direct binding and the causal signaling axis require substantial additional experimental support. I would be supportive if the technical concerns are resolved with rigorous quantitative data and appropriate controls.
+
+## Risk / unsupported claims
+- Direct binding of Zey to CTCF is not quantitatively established; docking and thermal shift alone are insufficient.
+- The causal order of the CTCF-CENPK-JAK1/STAT3 axis is not demonstrated; correlation and single knockdown experiments do not establish a linear pathway.
+- In vivo efficacy of Zey is claimed but not supported by any quantitative data in the abstract.
+- The clinical relevance of CENPK upregulation is based on unspecified cohort data and mRNA correlation only.
+- The claim that Zey inhibits CTCF-mediated transcriptional regulation by binding is inferred, not directly shown.
+- The abstract implies that CTCF positively regulates CENPK transcription, but the reporter assay and ChIP data are not described in sufficient detail to assess whether this is a direct or indirect effect.

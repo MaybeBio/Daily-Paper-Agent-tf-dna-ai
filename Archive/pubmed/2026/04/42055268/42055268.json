@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "42055268",
+    "doi": "10.1016/j.exger.2026.113150",
+    "title": "Exploration of ferroptosis-related biomarkers and regulatory mechanisms in two diseases (sarcopenia and idiopathic pulmonary fibrosis) based on transcriptome and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sarcopenia (SP) and idiopathic pulmonary fibrosis (IPF) are debilitating diseases, but share ferroptosis-related biomarkers and their regulatory mechanisms in both remain unclear, hindering targeted research and therapy. METHODS: In this study, ferroptosis-related genes (FeRGs), as well as training sets and test sets related to SP and IPF, were obtained from public databases. After the identification of disease-related differentially expressed genes (DEGs), DEGs shared by SP and IPF were obtained through intersection (genes with consistent DEG change trends across each disease) and union analyses. These shared DEGs were then intersected with FeRGs to obtain candidate genes. Machine learning algorithms and the Wilcoxon rank-sum test were used to confirm the biomarkers, and nomograms were constructed and evaluated. Meanwhile, in-depth studies such as functional enrichment, immune infiltration, drug prediction, and molecular docking were conducted on the biomarkers. RESULTS: Initially, a total of 26 candidate genes were identified. After screening, DDIT4 and MGST1 were identified as ferroptosis-related biomarkers shared by the two diseases, and both were significantly upregulated in the SP and IPF groups. The area under the curve values of the constructed nomograms were 0.91 (for SP) and 0.79 (for IPF), respectively. The p-values of the Hosmer-Lemeshow test for the calibration curves (0.856 and 0.205) were both >0.05, and the DCA showed good performance. The two biomarkers showed differences in enriched pathways. A total of 5 differential immune cells shared by the two diseases were identified, and the biomarkers participated in immune regulation by targeting specific immune cells. Good binding activity (Vina Score < -5.0) was observed between Trichostatin A and both biomarkers. CONCLUSION: DDIT4 and MGST1 were shared ferroptosis-related biomarkers for SP and IPF. Nomograms enabled reliable prediction, and trichostatin A was a potential targeted drug. These findings supported mechanistic research and targeted therapy for both diseases.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarker",
+      "Idiopathic pulmonary fibrosis",
+      "Sarcopenia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Idiopathic Pulmonary Fibrosis/genetics/metabolism",
+      "*Ferroptosis/genetics",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Transcriptome",
+      "*Sarcopenia/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jun",
+        "Zhou, Kaihua",
+        "He, Xiaojian",
+        "Rong, Ke"
+      ],
+      "short_names": [
+        "Yang J",
+        "Zhou K",
+        "He X",
+        "Rong K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory Medicine, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China. Electronic address: yang.jun@qphospital.com.",
+        "Department of Orthopedics, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China. Electronic address: 1983216145@sohu.com.",
+        "Department of Orthopedics, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China.",
+        "Department of Orthopedics, Minhang Hospital, Fudan University, Shanghai, China. Electronic address: rk19772009@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China. Electronic address: yang.jun@qphospital.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Kaihua",
+        "short_name": "Zhou K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China. Electronic address: 1983216145@sohu.com."
+        ]
+      },
+      {
+        "full_name": "He, Xiaojian",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, QingPu Branch of Zhongshan Hospital Affiliated to Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Rong, Ke",
+        "short_name": "Rong K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Minhang Hospital, Fudan University, Shanghai, China. Electronic address: rk19772009@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental gerontology"
+    ],
+    "journal_abbrev": [
+      "Exp Gerontol"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 00:30",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42055268",
+      "42024670",
+      "40273141",
+      "42074286",
+      "39991151",
+      "40557159",
+      "40483519",
+      "41052072",
+      "40075162",
+      "42232759",
+      "41671621",
+      "38703565",
+      "39959639",
+      "40022042",
+      "40124361",
+      "34285914",
+      "42001075",
+      "41955235",
+      "40670650",
+      "38734841",
+      "42306043",
+      "40362543",
+      "39072329",
+      "40665394",
+      "41200172",
+      "36860337",
+      "41703488",
+      "40374866",
+      "37783761",
+      "41320776",
+      "37334348",
+      "40966021",
+      "41562054",
+      "41158409",
+      "42267557",
+      "40406126",
+      "40913866",
+      "39586719",
+      "41479901",
+      "41939867",
+      "39340293",
+      "40538010",
+      "42025819",
+      "37559532",
+      "41867456",
+      "38229237",
+      "38650009",
+      "39402203",
+      "41021591",
+      "40421012",
+      "42358366",
+      "40369105",
+      "37996625",
+      "36211385",
+      "41481554",
+      "40857336",
+      "41291841",
+      "42004467",
+      "37794454",
+      "40628511",
+      "40830558",
+      "40703651",
+      "39944354",
+      "40785039",
+      "34983465",
+      "39046603",
+      "41405396",
+      "40604645",
+      "40491360",
+      "39295860",
+      "42363518",
+      "40374840",
+      "41665627",
+      "39346628",
+      "42260834",
+      "42196408",
+      "38274787",
+      "41325398",
+      "40475761",
+      "36216496",
+      "38699746",
+      "39142001",
+      "41265166",
+      "42313235",
+      "41312366",
+      "38887981",
+      "39896814",
+      "40646297",
+      "42435052",
+      "40973872",
+      "39331874",
+      "37120553",
+      "41192648",
+      "41044520",
+      "40187620",
+      "37605652",
+      "36507532",
+      "39838688",
+      "41665823",
+      "37266442"
+    ],
+    "review": [
+      "42055268",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0531-5565(26)00129-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

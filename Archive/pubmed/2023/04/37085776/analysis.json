@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37085776",
+  "title": "A gene regulatory network inference model based on pseudo-siamese network.",
+  "authors": "Wang, Qian; Guo, Maozu; Chen, Jian; Duan, Ran",
+  "journal": "BMC bioinformatics",
+  "published_date": "2023-04-22",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用伪孪生网络从单细胞时序表达数据推断基因调控网络，虽涉及TF-靶基因关系，但主要基于表达统计而非三维结构或结合机制建模，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: Gene regulatory networks (GRNs) arise from the intricate interactions between transcription factors (TFs) and their target genes during the growth and development of organisms. The inference of GRNs can unveil the underlying gene interactions in living systems and facilitate the investigation of the relationship between gene expression patterns and phenotypic traits. Although several machine-learning models have been proposed for inferring GRNs from single-cell RNA sequencing (scRNA-seq) data, some of these models, such as Boolean and tree-based networks, suffer from sensitivity to noise and may encounter difficulties in handling the high noise and dimensionality of actual scRNA-seq data, as well as the sparse nature of gene regulation relationships. Thus, inferring large-scale information from GRNs remains a formidable challenge. RESULTS: This study proposes a multilevel, multi-structure framework called a pseudo-Siamese GRN (PSGRN) for inferring large-scale GRNs from time-series expression datasets. Based on the pseudo-Siamese network, we applied a gated recurrent unit to capture the time features of each TF and target matrix and learn the spatial features of the matrices after merging by applying the DenseNet framework. Finally, we applied a sigmoid function to evaluate interactions. We constructed two maize sub-datasets, including gene expression levels and GRNs, using existing open-source maize multi-omics data and compared them to other GRN inference methods, including GENIE3, GRNBoost2, nonlinear ordinary differential equations, CNNC, and DGRNS. Our results show that PSGRN outperforms state-of-the-art methods. This study proposed a new framework: a PSGRN that allows GRNs to be inferred from scRNA-seq data, elucidating the temporal and spatial features of TFs and their target genes. The results show the model's robustness and generalization, laying a theoretical foundation for maize genotype-phenotype associations with implications for breeding work.",
+  "abstract_zh": "动机：基因调控网络（GRNs）源于生物体生长发育过程中转录因子（TFs）与其靶基因之间的复杂相互作用。推断GRNs可以揭示生命系统中潜在的基因相互作用，并促进对基因表达模式与表型性状之间关系的研究。尽管已提出多种机器学习模型用于从单细胞RNA测序（scRNA-seq）数据推断GRNs，但其中一些模型，如布尔网络和基于树的网络，对噪声敏感，并可能在处理实际scRNA-seq数据的高噪声和高维度以及基因调控关系的稀疏性方面遇到困难。因此，从GRNs中推断大规模信息仍然是一个艰巨的挑战。结果：本研究提出了一种称为伪孪生GRN（PSGRN）的多层次、多结构框架，用于从时间序列表达数据集中推断大规模GRNs。基于伪孪生网络，我们应用门控循环单元来捕获每个TF和靶标矩阵的时间特征，并通过应用DenseNet框架学习合并后矩阵的空间特征。最后，我们应用sigmoid函数评估相互作用。我们利用现有的开源玉米多组学数据构建了两个玉米子数据集，包括基因表达水平和GRNs，并将其与其他GRN推断方法（包括GENIE3、GRNBoost2、非线性常微分方程、CNNC和DGRNS）进行了比较。结果表明，PSGRN优于最先进的方法。本研究提出了一个新框架：PSGRN，允许从scRNA-seq数据推断GRNs，阐明了TFs及其靶基因的时空特征。结果显示了模型的鲁棒性和泛化能力，为玉米基因型-表型关联奠定了理论基础，对育种工作具有意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37085776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37085776/",
+  "paper_page_path": "papers/pubmed/37085776/index.html"
+}

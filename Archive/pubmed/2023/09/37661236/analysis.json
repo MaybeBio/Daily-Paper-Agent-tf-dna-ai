@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37661236",
+  "title": "Functional investigation of five R2R3-MYB transcription factors associated with wood development in Eucalyptus using DAP-seq-ML.",
+  "authors": "Takawira, Lazarus T; Hadj Bachir, Ines; Ployet, Raphael; Tulloch, Jade; San Clemente, Helene; Christie, Nanette; Ladouce, Nathalie; Dupas, Annabelle; Rai, Avanish; Grima-Pettenati, Jacqueline; Myburg, Alexander A; Mizrachi, Eshchar; Mounet, Fabien; Hussey, Steven G",
+  "journal": "Plant molecular biology",
+  "published_date": "2023-09-04",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用DAP-seq结合机器学习（随机森林）鉴定杨树R2R3-MYB转录因子的全基因组结合位点与靶基因，并验证其调控次生细胞壁形成，属于TF-DNA互作结合位点预测与功能验证，但侧重基因组靶标而非三维结构/动态机制建模。",
+  "abstract": "A multi-tiered transcriptional network regulates xylem differentiation and secondary cell wall (SCW) formation in plants, with evidence of both conserved and lineage-specific SCW network architecture. We aimed to elucidate the roles of selected R2R3-MYB transcription factors (TFs) linked to Eucalyptus wood formation by identifying genome-wide TF binding sites and direct target genes through an improved DAP-seq protocol combined with machine learning for target gene assignment (DAP-seq-ML). We applied this to five TFs including a well-studied SCW master regulator (EgrMYB2; homolog of AtMYB83), a repressor of lignification (EgrMYB1; homolog of AtMYB4), a TF affecting SCW thickness and vessel density (EgrMYB137; homolog of PtrMYB074) and two TFs with unclear roles in SCW regulation (EgrMYB135 and EgrMYB122). Each DAP-seq TF peak set (average 12,613 peaks) was enriched for canonical R2R3-MYB binding motifs. To improve the reliability of target gene assignment to peaks, a random forest classifier was developed from Arabidopsis DAP-seq, RNA-seq, chromatin, and conserved noncoding sequence data which demonstrated significantly higher precision and recall to the baseline method of assigning genes to proximal peaks. EgrMYB1, EgrMYB2 and EgrMYB137 predicted targets showed clear enrichment for SCW-related biological processes. As validation, EgrMYB137 overexpression in transgenic Eucalyptus hairy roots increased xylem lignification, while its dominant repression in transgenic Arabidopsis and Populus reduced xylem lignification, stunted growth, and caused downregulation of SCW genes. EgrMYB137 targets overlapped significantly with those of EgrMYB2, suggesting partial functional redundancy. Our results show that DAP-seq-ML identified biologically relevant R2R3-MYB targets supported by the finding that EgrMYB137 promotes SCW lignification in planta.",
+  "abstract_zh": "植物中，一个多层次的转录网络调控木质部分化和次生细胞壁（SCW）形成，其证据表明SCW网络结构兼具保守性和谱系特异性。我们旨在通过改进的DAP-seq方案结合机器学习进行靶基因分配（DAP-seq-ML），在全基因组范围内鉴定转录因子结合位点和直接靶基因，以阐明与桉树木材形成相关的选定R2R3-MYB转录因子（TFs）的作用。我们将此应用于五个TFs，包括一个研究充分的SCW主调控因子（EgrMYB2；AtMYB83的同源物）、一个木质化抑制因子（EgrMYB1；AtMYB4的同源物）、一个影响SCW厚度和导管密度的TF（EgrMYB137；PtrMYB074的同源物），以及两个在SCW调控中作用不明确的TFs（EgrMYB135和EgrMYB122）。每个DAP-seq TF峰集（平均12,613个峰）均富集了典型的R2R3-MYB结合基序。为提高靶基因分配到峰上的可靠性，我们利用拟南芥DAP-seq、RNA-seq、染色质和保守非编码序列数据开发了一个随机森林分类器，该分类器在将基因分配到近端峰的基线方法上显示出显著更高的精确度和召回率。EgrMYB1、EgrMYB2和EgrMYB137的预测靶标在SCW相关生物学过程中表现出明显富集。作为验证，EgrMYB137在转基因桉树毛状根中的过表达增加了木质部木质化，而其显性抑制在转基因拟南芥和杨树中减少了木质部木质化、抑制了生长，并导致SCW基因下调。EgrMYB137靶标与EgrMYB2靶标显著重叠，表明存在部分功能冗余。我们的结果表明，DAP-seq-ML鉴定了生物学相关的R2R3-MYB靶标，并得到EgrMYB137在植物体内促进SCW木质化这一发现的支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37661236/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37661236/",
+  "paper_page_path": "papers/pubmed/37661236/index.html"
+}

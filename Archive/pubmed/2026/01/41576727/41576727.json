@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "41576727",
+    "doi": "10.1016/j.identj.2025.109390",
+    "title": "Exploration Novel Therapeutic Targets for Periodontitis via Stress Granules Biomarkers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Periodontitis (PD) is associated with stress granules (SGs), which are involved in cellular stress responses. Identifying biomarkers related to SGs in PD is key to grasping its pathogenesis and devising novel therapeutic approaches. METHODS: Microarray datasets GSE10334 and GSE106090 were downloaded from public databases, and experimental verification was conducted. Differentially expressed genes (DEGs) were determined via differential expression analysis and intersected with SGs-related genes (SGs-RGs). Machine learning methods and gene expression validation were used to further refine the biomarkers. Subsequently, a nomogram was constructed for disease prediction, and its accuracy was evaluated. Enrichment analysis was performed to investigate signalling pathways, and immune cell infiltration was analysed. Moreover, a transcription factor (TF) regulatory network and a disease-biomarker-drug interaction network were constructed. RESULTS: A total of 1618 DEGs, 95 candidate genes, and 4 biomarkers (PECAM1, IL18, EGFR, and CCL5) were identified. PECAM1 and CCL5 showed significant overexpression, while IL18 and EGFR showed significant underexpression in PD patients. The nomogram based on these biomarkers showed high predictive accuracy. Enrichment analysis revealed that the biomarkers were primarily accumulated within translation pathways, like ribosome and rRNA processing. Besides, 14 differentially infiltrated immune cell types were identified, with significant positive correlations between IL18/EGFR and memory B cells, PECAM1/CCL5 and plasma cells. Notably, TFs such as CEBPB, ELF1, and STAT3 were identified as important regulatory factors for the biomarkers. Potential drugs for the biomarkers included mycophenolate, afatinib, and fluticasone, and the biomarkers were associated with diseases such as gingivitis, diabetes, and cardiovascular diseases. CONCLUSIONS: This study identified four SGs-related biomarkers in PD and proposed potential therapeutic targets, providing preliminary insights into its pathogenesis that warrant further experimental validation at the protein and functional levels.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarkers",
+      "Machine learning",
+      "Periodontitis",
+      "Stress granules"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers/metabolism",
+      "*Periodontitis/genetics/metabolism/immunology",
+      "*Stress Granules/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Chemokine CCL5/genetics/metabolism",
+      "Interleukin-18/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yu",
+        "Yang, Xie",
+        "Shi, Bowei",
+        "Zhu, Bowen",
+        "Zhuang, Hai",
+        "Chen, Jialu"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Yang X",
+        "Shi B",
+        "Zhu B",
+        "Zhuang H",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Stomatology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "Department of Stomatology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China.",
+        "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China.",
+        "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China. Electronic address: xmzhuanghai@gmail.com.",
+        "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China. Electronic address: chenjialu@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xie",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Bowei",
+        "short_name": "Shi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Bowen",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Hai",
+        "short_name": "Zhuang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China. Electronic address: xmzhuanghai@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Jialu",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, the First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, China. Electronic address: chenjialu@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International dental journal"
+    ],
+    "journal_abbrev": [
+      "Int Dent J"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/24 00:32",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "42288013"
+    ],
+    "refs": [
+      "40787261",
+      "40555746",
+      "40406516",
+      "40233623",
+      "39515684",
+      "39295860",
+      "39258145",
+      "39179998",
+      "38708919",
+      "38626546",
+      "38267969",
+      "38256098",
+      "38157091",
+      "38139161",
+      "37697911",
+      "37612409",
+      "37505622",
+      "37448314",
+      "37432277",
+      "37221410",
+      "37205103",
+      "36997422",
+      "36972711",
+      "36387904",
+      "36276963",
+      "36093182",
+      "35875070",
+      "35300213",
+      "35244970",
+      "35244951",
+      "35244945",
+      "35199874",
+      "34941730",
+      "34768767",
+      "34502520",
+      "34463976",
+      "34452136",
+      "34141629",
+      "34012073",
+      "33917440",
+      "33679805",
+      "33388423",
+      "32873928",
+      "32844417",
+      "32643086",
+      "32516899",
+      "32471464",
+      "32385875",
+      "32011025",
+      "31722981",
+      "31511697",
+      "31292158",
+      "31163577",
+      "30566372",
+      "30199848",
+      "29926490",
+      "29219149",
+      "29180965",
+      "28013554",
+      "26010492",
+      "25526085",
+      "24975876",
+      "24356142",
+      "23937229",
+      "23627324",
+      "23230274",
+      "21709707",
+      "21414208",
+      "20110459",
+      "18390797",
+      "15684421",
+      "11330934",
+      "10882126",
+      "9442091",
+      "7623840"
+    ],
+    "similar": [
+      "41576727",
+      "39142001",
+      "36316672",
+      "41044520",
+      "40233623",
+      "41460373",
+      "41265166",
+      "41333919",
+      "42292668",
+      "41146237",
+      "40539067",
+      "41992052",
+      "41052072",
+      "41291841",
+      "41799432",
+      "40374866",
+      "41479901",
+      "37063877",
+      "40406126",
+      "39717623",
+      "41432483",
+      "38863714",
+      "41962331",
+      "39953122",
+      "41013856",
+      "41291978",
+      "40016711",
+      "41009972",
+      "41957428",
+      "40836320",
+      "40362543",
+      "39556279",
+      "41299729",
+      "38802844",
+      "40374840",
+      "41340627",
+      "40340571",
+      "34536521",
+      "40885831",
+      "41316541",
+      "38987624",
+      "39697326",
+      "41927755",
+      "42157182",
+      "39762852",
+      "40598145",
+      "42172897",
+      "40173189",
+      "39509434",
+      "41703488",
+      "41905994",
+      "41816328",
+      "35757392",
+      "40273141",
+      "41220037",
+      "42306043",
+      "41731716",
+      "39375405",
+      "40939772",
+      "42313235",
+      "41630199",
+      "41200172",
+      "41115648",
+      "42327749",
+      "42059276",
+      "40857330",
+      "40781725",
+      "40165133",
+      "39586719",
+      "39920860",
+      "40532306",
+      "33777111",
+      "38062833",
+      "38685029",
+      "41080564",
+      "41221285",
+      "41459503",
+      "40124361",
+      "41158793",
+      "41145553",
+      "41378129",
+      "41120603",
+      "41057887",
+      "39875572",
+      "41789070",
+      "41310117",
+      "39978305",
+      "41204611",
+      "40927188",
+      "41350988",
+      "42032608",
+      "27028820",
+      "40901831",
+      "39069636",
+      "36777638",
+      "41665627",
+      "40895573",
+      "41189222",
+      "41706425",
+      "40884580"
+    ],
+    "review": [
+      "41576727",
+      "40939772"
+    ],
+    "pmc": [
+      "12861231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020-6539(25)08671-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41576727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0020-6539(25)08671-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

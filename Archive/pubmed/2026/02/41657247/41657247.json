@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41657247",
+    "doi": "10.1093/nar/gkag072",
+    "title": "bayesReact: expression-coupled regulatory motif analysis detects microRNA activity across cancers, tissues, and at the single-cell level."
+  },
+  "content": {
+    "abstract": "Gene regulatory mechanisms control cell differentiation and homeostasis but are often undetectable, particularly at the single-cell level. We introduce bayesReact, which quantifies regulatory activities from bulk or single-cell omics data. It is based on an unsupervised generative model, exploiting the fact that each regulator typically targets many genes sharing a sequence motif. Using mRNA expression data, we illustrate and evaluate bayesReact on microRNAs (miRNAs). It outperforms existing methods on sparse bulk data and improves activity inference on single-cell data. Inferred miRNA activities correlate with miRNA expression across pan-cancer TCGA and healthy GTEx tissue samples. The activities capture cancer-type-specific miRNA patterns, e.g., for miR-122-5p and miR-124-3p, which also correlate more strongly with their target genes than their measured expression. This includes a strong negative correlation between miR-124-3p and the anti-neuronal REST transcription factor in nervous system cancers. Analyzing single-cell data, bayesReact detects prominent miRNAs during murine stem cell differentiation, including miR-298-5p, miR-92-2-5p, and the Sfmbt2 cluster (miR-297-669). Furthermore, spatio-temporal inference shows increasing miR-124-3p activity in differentiating neurons during embryonic spinal cord development in mice. bayesReact enables large-scale hypothesis-generating screens for novel regulatory factors and the discovery of condition-specific activities. It is implemented as a user-friendly R package (https://github.com/JakobSkouPedersenLab/bayesReact).",
+    "keywords": [],
+    "mesh_terms": [
+      "*MicroRNAs/genetics/metabolism",
+      "Humans",
+      "Animals",
+      "*Neoplasms/genetics/metabolism",
+      "*Single-Cell Analysis/methods",
+      "Mice",
+      "Single-Cell Gene Expression Analysis",
+      "*Gene Expression Regulation, Neoplastic",
+      "Cell Differentiation/genetics",
+      "Nucleotide Motifs",
+      "Bayes Theorem",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rasmussen, Asta Mannstaedt",
+        "Bouchard-Cote, Alexandre",
+        "Pedersen, Jakob Skou"
+      ],
+      "short_names": [
+        "Rasmussen AM",
+        "Bouchard-Cote A",
+        "Pedersen JS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2035-3092",
+        "ORCID: 0000-0001-7402-8506",
+        "ORCID: 0000-0002-7236-4001"
+      ],
+      "affiliations": [
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+        "Department of Molecular Medicine, Aarhus University Hospital, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+        "Department of Statistics, University of British Columbia, 2207 Main Mall, V6T 1Z4 British Columbia, Canada.",
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+        "Department of Molecular Medicine, Aarhus University Hospital, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+        "Section for Bioinformatics and Computational Biology, Aarhus University, Universitetsbyen 81, 8000 Aarhus C, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rasmussen, Asta Mannstaedt",
+        "short_name": "Rasmussen AM",
+        "identifiers": [
+          "0000-0003-2035-3092"
+        ],
+        "affiliations": [
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+          "Department of Molecular Medicine, Aarhus University Hospital, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bouchard-Côté, Alexandre",
+        "short_name": "Bouchard-Côté A",
+        "identifiers": [
+          "0000-0001-7402-8506"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of British Columbia, 2207 Main Mall, V6T 1Z4 British Columbia, Canada."
+        ]
+      },
+      {
+        "full_name": "Pedersen, Jakob Skou",
+        "short_name": "Pedersen JS",
+        "identifiers": [
+          "0000-0002-7236-4001"
+        ],
+        "affiliations": [
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+          "Department of Molecular Medicine, Aarhus University Hospital, Palle Juul-Jensens Boulevard 11, 8200 Aarhus N, Denmark.",
+          "Section for Bioinformatics and Computational Biology, Aarhus University, Universitetsbyen 81, 8000 Aarhus C, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Feb 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 06:29",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41118569",
+      "39827321",
+      "39794399",
+      "39673268",
+      "39041323",
+      "38033323",
+      "37974217",
+      "37735263",
+      "37554968",
+      "37430087",
+      "37353093",
+      "37160973",
+      "36810892",
+      "36769267",
+      "36568334",
+      "36349817",
+      "36060076",
+      "35922478",
+      "35890276",
+      "35798852",
+      "35760914",
+      "35609985",
+      "35584701",
+      "35414016",
+      "35234914",
+      "35063006",
+      "34967419",
+      "34911763",
+      "34844637",
+      "34829789",
+      "34201807",
+      "33911110",
+      "33353982",
+      "33270111",
+      "33235359",
+      "32913098",
+      "32544447",
+      "32341560",
+      "32243832",
+      "31806698",
+      "31767567",
+      "31730848",
+      "31611609",
+      "31389160",
+      "30846445",
+      "30820533",
+      "30813461",
+      "30683859",
+      "30626865",
+      "30555524",
+      "30423142",
+      "30395267",
+      "30333049",
+      "30217818",
+      "30108335",
+      "30089861",
+      "29425488",
+      "29170536",
+      "29121352",
+      "28701729",
+      "28467908",
+      "28212749",
+      "28209991",
+      "27798564",
+      "27653561",
+      "27486821",
+      "27207881",
+      "26626130",
+      "26358730",
+      "26267216",
+      "26112290",
+      "25172833",
+      "25081207",
+      "25061069",
+      "24992599",
+      "24865424",
+      "24836921",
+      "24071849",
+      "23715323",
+      "23688306",
+      "23498934",
+      "23275554",
+      "23209027",
+      "22701651",
+      "22638581",
+      "22563068",
+      "22541426",
+      "22336711",
+      "22253443",
+      "22228704",
+      "21911408",
+      "21605348",
+      "21596785",
+      "21245830",
+      "21241755",
+      "20703300",
+      "20508147",
+      "19897564",
+      "19617899",
+      "19561591",
+      "19118166",
+      "18978784",
+      "18577219",
+      "18431476",
+      "18403323",
+      "17765889",
+      "17679093",
+      "17403776",
+      "16477010",
+      "16461918",
+      "16337999",
+      "12007417"
+    ],
+    "similar": [
+      "41657247",
+      "33911110",
+      "23246696",
+      "19492978",
+      "26270642",
+      "32176034",
+      "35313857",
+      "29032608",
+      "41163216",
+      "20841498",
+      "22452920",
+      "34968919",
+      "40537745",
+      "36745138",
+      "25852169",
+      "28498428",
+      "39080630",
+      "39428471",
+      "33461524",
+      "33655378",
+      "41053866",
+      "31490264",
+      "25547110",
+      "25888956",
+      "25129238",
+      "26843650",
+      "25938468",
+      "31755218",
+      "26358730",
+      "41578372",
+      "36992331",
+      "29191172",
+      "34840985",
+      "37298110",
+      "27056547",
+      "31541491",
+      "27001466",
+      "27766936",
+      "39325365",
+      "30913346",
+      "33831429",
+      "25766675",
+      "31692035",
+      "26795575",
+      "33397204",
+      "33766100",
+      "35774010",
+      "32547322",
+      "26307093",
+      "35476804",
+      "36177588",
+      "26062653",
+      "20733065",
+      "39881138",
+      "38767504",
+      "33400243",
+      "39561180",
+      "29295562",
+      "26172537",
+      "31950188",
+      "29676203",
+      "38084671",
+      "26643896",
+      "22260379",
+      "26859141",
+      "42123456",
+      "33468167",
+      "39516222",
+      "41623394",
+      "24977165",
+      "26075299",
+      "22240480",
+      "29540855",
+      "32277518",
+      "27900675",
+      "31513434",
+      "19714213",
+      "41496077",
+      "40438109",
+      "31581940",
+      "29720387",
+      "31737678",
+      "29373717",
+      "27018851",
+      "30268144",
+      "25723320",
+      "29128636",
+      "24927770",
+      "40023339",
+      "39696397",
+      "28302134",
+      "30728054",
+      "25680412",
+      "30212824",
+      "25189652",
+      "24896083",
+      "29233721",
+      "31176168",
+      "37936447",
+      "33954190"
+    ],
+    "review": [
+      "41657247",
+      "23246696",
+      "19492978",
+      "34968919",
+      "36745138",
+      "33766100",
+      "40023339"
+    ],
+    "pmc": [
+      "12884093"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41657247/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag072",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

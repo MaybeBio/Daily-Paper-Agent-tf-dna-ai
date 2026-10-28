@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36760267",
+  "title": "Discovery of new STAT3 inhibitors as anticancer agents using ligand-receptor contact fingerprints and docking-augmented machine learning.",
+  "authors": "Jaradat, Nour Jamal; Alshaer, Walhan; Hatmal, Mamon; Taha, Mutasem Omar",
+  "journal": "RSC advances",
+  "published_date": "2023-02-11",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用对接增强机器学习和配体-受体接触指纹预测STAT3抑制剂活性，虽涉及转录因子STAT3但聚焦小分子药物发现而非TF-DNA结合机制，方法可迁移但对象偏离核心。",
+  "abstract": "STAT3 belongs to a family of seven vital transcription factors. High levels of STAT3 are detected in several types of cancer. Hence, STAT3 inhibition is considered a promising therapeutic anti-cancer strategy. In this work, we used multiple docked poses of STAT3 inhibitors to augment training data for machine learning QSAR modeling. Ligand-Receptor Contact Fingerprints and scoring values were implemented as descriptor variables. Escalating docking-scoring consensus levels were scanned against orthogonal machine learners, and the best learners (Random Forests and XGBoost) were coupled with genetic algorithm and Shapley additive explanations (SHAP) to identify critical descriptors that determine anti-STAT3 bioactivity to be translated into pharmacophore model(s). Two successful pharmacophores were deduced and subsequently used for in silico screening against the National Cancer Institute (NCI) database. A total of 26 hits were evaluated in vitro for their anti-STAT3 bioactivities. Out of which, three hits of novel chemotypes, showed cytotoxic IC(50) values in the nanomolar range (35 nM to 6.7 muM). However, two are potent dihydrofolate reductase (DHFR) inhibitors and therefore should have significant indirect STAT3 inhibitory effects. The third hit (cytotoxic IC(50) = 0.44 muM) is purely direct STAT3 inhibitor (devoid of DHFR activity) and caused, at its cytotoxic IC(50), more than two-fold reduction in the expression of STAT3 downstream genes (c-Myc and Bcl-xL). The presented work indicates that the concept of data augmentation using multiple docked poses is a promising strategy for generating valid machine learning models capable of discriminating active from inactive compounds.",
+  "abstract_zh": "STAT3属于七个关键转录因子家族。在多种癌症中检测到高水平的STAT3。因此，STAT3抑制被认为是一种有前景的治疗性抗癌策略。在本工作中，我们使用STAT3抑制剂的多个对接构象来增强机器学习QSAR建模的训练数据。配体-受体接触指纹和评分值被用作描述符变量。针对正交机器学习器扫描递增的对接评分共识水平，并将最佳学习器（随机森林和XGBoost）与遗传算法和Shapley加法解释（SHAP）相结合，以识别决定抗STAT3生物活性的关键描述符，进而转化为药效团模型。推导出两个成功的药效团，并随后用于针对国家癌症研究所（NCI）数据库的计算机筛选。共评估了26个命中化合物的体外抗STAT3生物活性。其中，三个具有新型化学型的命中化合物显示出纳摩尔范围的细胞毒性IC(50)值（35 nM至6.7 μM）。然而，其中两个是有效的二氢叶酸还原酶（DHFR）抑制剂，因此应具有显著的间接STAT3抑制效应。第三个命中化合物（细胞毒性IC(50) = 0.44 μM）是纯直接STAT3抑制剂（无DHFR活性），并在其细胞毒性IC(50)下，导致STAT3下游基因（c-Myc和Bcl-xL）表达降低超过两倍。本工作表明，使用多个对接构象进行数据增强的概念是生成能够区分活性与非活性化合物的有效机器学习模型的一种有前景的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36760267/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36760267/",
+  "paper_page_path": "papers/pubmed/36760267/index.html"
+}

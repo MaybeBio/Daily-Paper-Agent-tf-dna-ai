@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, methods, and supplementary figure/table legends
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and presentation quality of the provided manuscript
+- **Shared manuscript claim summary** The authors present a comprehensive eQTL analysis of B. napus seeds at two developmental stages, identify regulatory hotspots, integrate machine learning and deep learning models to predict key transcription factors (NAC13, SCL31) affecting seed oil content, and validate these predictions through transgenic experiments in Arabidopsis
+- **Visible evidence base** Main text figures (Fig. 1-6), supplementary figure legends (Fig. S1-S34), supplementary table legends (Tables S1-S18), methods section
+- **Missing materials affecting confidence** Raw data files, complete supplementary tables, detailed model hyperparameters, full statistical outputs, and validation data for the Basenji model performance metrics
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale eQTL study in B. napus with substantial data generation and integration. The identification of regulatory hotspots and the combination of multiple computational approaches to prioritize candidate transcription factors is a valuable contribution. However, several methodological details are insufficiently described, and the causal chain from eQTL hotspot to transcription factor to oil content phenotype requires stronger experimental support. The Arabidopsis validation experiments are informative but limited in scope, and the connection between the predicted regulatory network and the observed oil content phenotype needs further substantiation.
+- **Who would be interested in the results, and why** Researchers in plant genomics, quantitative genetics, and oilseed crop breeding would be interested. The eQTL resource and the Bn-eQTL database provide a community tool for studying gene regulation in B. napus. The methodological framework combining eQTL mapping with machine learning and deep learning approaches may interest computational biologists working on regulatory genomics.
+- **Major strengths** 1) Large-scale population-level transcriptome data (583 samples) for eQTL mapping in B. napus seeds. 2) Integration of multiple data types (genomic variants, transcriptomes, chromatin accessibility) and computational approaches (eQTL mapping, XGBoost, Basenji). 3) Identification of a specific regulatory hotspot (Hotspot87-88) on chromosome A09 that appears to regulate a substantial fraction of oil content-associated genes. 4) Experimental validation of SCL31 function through Arabidopsis T-DNA mutants, providing functional evidence. 5) Construction of a publicly accessible database (Bn-eQTL) for community use.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the XGBoost model successfully predicted NAC13 and SCL31 as key transcription factors regulating seed oil content, and that these predictions were experimentally validated.
+  - **Evidence pointer** Methods section "XGBoost model construction"; Results section "Combining distant eQTL hotspots and XGBoost module to identify key TFs affecting SOC"; Figure 4b-c
+  - **Concern** The XGBoost model description is insufficient to evaluate its validity. The authors state they used 856 RNA-seq datasets and 6587 B. napus transcription factors, but do not describe the feature engineering, training/validation split, hyperparameter tuning, or how the model output was interpreted to rank transcription factors. The claim that NAC13 and SCL31 were "predicted" as key regulators requires a clear description of the prediction metric and its statistical significance. Without this information, the reader cannot assess whether the model results are robust or whether the selection of these two TFs was influenced by post-hoc criteria.
+  - **Why it matters** The central claim of the paper rests on the reliability of the XGBoost predictions. If the model methodology is not transparent and reproducible, the identification of NAC13 and SCL31 as key regulators cannot be independently verified, undermining the main conclusion of the study.
+  - **Resolution test** Provide a detailed description of the XGBoost model including: (1) exact feature set and preprocessing steps, (2) train/validation/test split strategy, (3) hyperparameter optimization procedure, (4) the specific output metric used to rank transcription factors, (5) statistical significance thresholds, and (6) a permutation-based null distribution to demonstrate that the ranking of NAC13 and SCL31 is not due to chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Basenji deep learning model predicted key motifs in the promoters of TWAS significant genes of SOC, and that NAC13 motifs were significantly enriched.
+  - **Evidence pointer** Methods section "Construction of the deep learning model"; Results section "Predicting regulatory mechanisms affecting SOC"; Figure 5a-b
+  - **Concern** The Basenji model description is similarly incomplete. The authors mention training on 59 ATAC-seq samples but do not describe the model architecture, training parameters, data augmentation, or how the model was evaluated. The claim of "high consistency between the predicted and observed features" (Figure S24) is presented without quantitative metrics or comparison to appropriate baselines. Furthermore, the enrichment analysis for NAC13 motifs is not described in sufficient detail to determine whether the enrichment is statistically meaningful after multiple testing correction.
+  - **Why it matters** The deep learning component is presented as a key innovation of the study. Without adequate methodological detail, the predictive claims cannot be evaluated, and the motif enrichment results may not be reproducible.
+  - **Resolution test** Provide: (1) complete Basenji architecture description, (2) training and evaluation metrics with baseline comparisons, (3) description of the motif enrichment analysis including background model, multiple testing correction, and effect sizes, and (4) access to the trained model or code for reproducibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that SCL31 positively regulates seed oil content based on Arabidopsis T-DNA mutant analysis, and that this validates the regulatory network prediction.
+  - **Evidence pointer** Results section "Combining distant eQTL hotspots and XGBoost module to identify key TFs affecting SOC"; Figure 4f-g; Methods section "Plant growth conditions and T-DNA insertion mutant identification"
+  - **Concern** The Arabidopsis validation is limited to two T-DNA insertion lines of SCL31. The authors report reduced oil content in mutants, but the effect size is modest and the statistical analysis is not fully described. More critically, the authors do not demonstrate that the regulatory network predicted in B. napus is conserved in Arabidopsis, nor do they show that the downstream target genes identified in B. napus are similarly affected in the Arabidopsis mutants. The connection between SCL31 and the oil content phenotype would be strengthened by complementation experiments, expression analysis of predicted target genes in the mutants, and ideally, validation in B. napus itself.
+  - **Why it matters** The experimental validation is the key evidence linking the computational predictions to biological function. If the validation is incomplete, the claim that the authors have "revealed gene networks regulating seed oil content" is overstated.
+  - **Resolution test** Provide: (1) complementation of the scl31 mutants with the wild-type gene, (2) expression analysis of predicted downstream target genes in the scl31 mutants, (3) oil content measurements in additional independent mutant alleles, and (4) if possible, validation of SCL31 function in B. napus through transgenic approaches or natural variation analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "feedback regulation" exists between homoeologous gene pairs to maintain partial expression dosage, based on the observation that aHGPs with local eQTLs show reduced expression correlation.
+  - **Evidence pointer** Results section "Feedback regulation of homoeologous genes in B. napus"; Figure 3d-f
+  - **Concern** The inference of "feedback regulation" from correlation patterns is indirect and potentially confounded. The authors define aHGPs based on the presence of distant eQTLs from one homoeolog to the other, but the direction of regulation is not experimentally verified. The reduced correlation in aHGPs with local eQTLs could be explained by other mechanisms, such as independent cis-regulatory effects or differential chromatin states, without invoking active feedback regulation. The term "feedback regulation" implies a specific biological mechanism that is not directly tested.
+  - **Why it matters** The claim of feedback regulation between homoeologs is presented as a novel finding, but the evidence is correlational. Overinterpretation of correlation patterns as feedback regulation could mislead the field.
+  - **Resolution test** Provide direct experimental evidence for feedback regulation, such as perturbation of one homoeolog (e.g., through CRISPR or RNAi) and measurement of the response in the other homoeolog. Alternatively, rephrase the claim to describe the observed correlation patterns without invoking a specific regulatory mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract and introduction assume familiarity with eQTL terminology and concepts without sufficient context for readers outside the immediate field.
+  - **Required correction** Briefly define eQTL and explain its relevance to trait variation in the introduction, and consider adding one sentence in the abstract to contextualize the approach for a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, eQTL identification
+  - **Evidence pointer** Methods section "The identification of eQTL and distant eQTL hotspots"
+  - **Issue** The threshold for eQTL significance is stated as 1×10⁻⁶, but the rationale for this threshold and the multiple testing correction procedure are not described.
+  - **Required correction** Provide the number of tests performed, the effective number of independent tests, and the resulting FDR or family-wise error rate corresponding to the chosen threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, eQTL hotspot identification
+  - **Evidence pointer** Results section "Abundant distant eQTL hotspots exist in the genome"; Figure 4a
+  - **Issue** The criteria for defining eQTL hotspots (e.g., minimum number of eQTLs, window size) are not clearly stated in the main text.
+  - **Required correction** State the exact criteria used to define hotspots in the Results or Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion focuses heavily on the specific findings in B. napus without adequately addressing the broader implications for understanding gene regulation in polyploid crops or the transferability of the methodological framework.
+  - **Required correction** Add a paragraph discussing the general applicability of the approach to other polyploid crops and the potential for the identified regulatory mechanisms to inform breeding strategies beyond oil content.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, ATAC-seq analysis
+  - **Evidence pointer** Methods section "ATAC-seq data analysis"
+  - **Issue** The description of ATAC-seq data processing lacks details on quality control metrics, peak calling thresholds, and how peaks were assigned to genes.
+  - **Required correction** Provide the number of peaks identified per sample, the FDR threshold used for peak calling, and the method for assigning peaks to genes (e.g., nearest gene, overlapping promoter).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure 4 and Figure 5 legends
+  - **Issue** The figure legends are dense and use field-specific abbreviations without full explanation.
+  - **Required correction** Expand abbreviations at first use in each legend and consider adding a brief summary sentence at the beginning of each legend describing the main takeaway of the figure.
+
+## Risk / unsupported claims
+- The claim that "feedback regulation" maintains partial expression dosage between homoeologous genes is not directly supported by the data presented; the evidence is correlational and alternative explanations are plausible.
+- The claim that the XGBoost model "successfully" predicted NAC13 and SCL31 as key regulators is not fully assessable due to insufficient methodological detail.
+- The claim that the Basenji model predictions are validated by the experimental results is overstated, as the Arabidopsis experiments do not directly test the B. napus regulatory network.
+- The statement that "hotspot87-88 co-localizes with a QTL for the seed oil content" is presented as a key finding, but the statistical significance of this co-localization and the confidence intervals of the QTL position are not provided.
+- The claim that the eQTL analysis reveals "gene networks regulating seed oil content" is supported by the identification of candidate genes, but the causal relationships within the network are not experimentally established.

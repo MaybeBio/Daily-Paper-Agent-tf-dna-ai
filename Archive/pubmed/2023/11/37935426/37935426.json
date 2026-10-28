@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "37935426",
+    "doi": "10.1093/bioinformatics/btad670",
+    "title": "Inferring delays in partially observed gene regulation processes."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Cell function is regulated by gene regulatory networks (GRNs) defined by protein-mediated interaction between constituent genes. Despite advances in experimental techniques, we can still measure only a fraction of the processes that govern GRN dynamics. To infer the properties of GRNs using partial observation, unobserved sequential processes can be replaced with distributed time delays, yielding non-Markovian models. Inference methods based on the resulting model suffer from the curse of dimensionality. RESULTS: We develop a simulation-based Bayesian MCMC method employing an approximate likelihood for the efficient and accurate inference of GRN parameters when only some of their products are observed. We illustrate our approach using a two-step activation model: an activation signal leads to the accumulation of an unobserved regulatory protein, which triggers the expression of observed fluorescent proteins. With prior information about observed fluorescent protein synthesis, our method successfully infers the dynamics of the unobserved regulatory protein. We can estimate the delay and kinetic parameters characterizing target regulation including transcription, translation, and target searching of an unobserved protein from experimental measurements of the products of its target gene. Our method is scalable and can be used to analyze non-Markovian models with hidden components. AVAILABILITY AND IMPLEMENTATION: Our code is implemented in R and is freely available with a simple example data at https://github.com/Mathbiomed/SimMCMC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "*Algorithms",
+      "*Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Hyukpyo",
+        "Cortez, Mark Jayson",
+        "Cheng, Yu-Yu",
+        "Kim, Hang Joon",
+        "Choi, Boseung",
+        "Josic, Kresimir",
+        "Kim, Jae Kyoung"
+      ],
+      "short_names": [
+        "Hong H",
+        "Cortez MJ",
+        "Cheng YY",
+        "Kim HJ",
+        "Choi B",
+        "Josic K",
+        "Kim JK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7419-8345",
+        "ORCID: 0000-0002-5719-1210",
+        "ORCID: 0000-0002-1975-3913",
+        "ORCID: 0000-0001-7842-2172"
+      ],
+      "affiliations": [
+        "Department of Mathematical Sciences, KAIST, Daejeon 34141, Korea.",
+        "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea.",
+        "Institute of Mathematical Sciences and Physics, University of the Philippines Los Banos, Laguna 4031, Philippines.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, WI 53706, United States.",
+        "Division of Statistics and Data Science, University of Cincinnati, Cincinnati, OH 45221, United States.",
+        "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea.",
+        "Division of Big Data Science, Korea University Sejong Campus, Sejong 30019, Korea.",
+        "College of Public Health, The Ohio State University, Columbus, OH 43210, United States.",
+        "Department of Mathematics, University of Houston, Houston, TX 77204, United States.",
+        "Department of Biology and Biochemistry, University of Houston, Houston, TX 77204, United States.",
+        "Department of Mathematical Sciences, KAIST, Daejeon 34141, Korea.",
+        "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Hyukpyo",
+        "short_name": "Hong H",
+        "identifiers": [
+          "0000-0001-7419-8345"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, KAIST, Daejeon 34141, Korea.",
+          "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea."
+        ]
+      },
+      {
+        "full_name": "Cortez, Mark Jayson",
+        "short_name": "Cortez MJ",
+        "identifiers": [
+          "0000-0002-5719-1210"
+        ],
+        "affiliations": [
+          "Institute of Mathematical Sciences and Physics, University of the Philippines Los Baños, Laguna 4031, Philippines."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu-Yu",
+        "short_name": "Cheng YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, WI 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Hang Joon",
+        "short_name": "Kim HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistics and Data Science, University of Cincinnati, Cincinnati, OH 45221, United States."
+        ]
+      },
+      {
+        "full_name": "Choi, Boseung",
+        "short_name": "Choi B",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea.",
+          "Division of Big Data Science, Korea University Sejong Campus, Sejong 30019, Korea.",
+          "College of Public Health, The Ohio State University, Columbus, OH 43210, United States."
+        ]
+      },
+      {
+        "full_name": "Josić, Krešimir",
+        "short_name": "Josić K",
+        "identifiers": [
+          "0000-0002-1975-3913"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of Houston, Houston, TX 77204, United States.",
+          "Department of Biology and Biochemistry, University of Houston, Houston, TX 77204, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Jae Kyoung",
+        "short_name": "Kim JK",
+        "identifiers": [
+          "0000-0001-7842-2172"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, KAIST, Daejeon 34141, Korea.",
+          "Biomedical Mathematics Group, Pioneer Research Center for Mathematical and Computational Sciences, Institute for Basic Science, Daejeon 34126, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Nov 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/08 00:41",
+    "fetched_at": "2026-09-29 09:58:21"
+  },
+  "links": {
+    "cites": [
+      "42693360",
+      "41678563",
+      "40911645",
+      "39384847",
+      "38370126"
+    ],
+    "refs": [
+      "36194626",
+      "35302852",
+      "34888715",
+      "34610262",
+      "34450624",
+      "33976195",
+      "33903769",
+      "33741909",
+      "33323054",
+      "32290003",
+      "31347688",
+      "30202930",
+      "29367605",
+      "29208922",
+      "28841307",
+      "27429455",
+      "25544609",
+      "25279645",
+      "24694895",
+      "24516188",
+      "23514472",
+      "23041931",
+      "22723426",
+      "20366136",
+      "19505944",
+      "18957198",
+      "18469087",
+      "18449541",
+      "17660527",
+      "17525339",
+      "17411109",
+      "16360033",
+      "15883588",
+      "14663152",
+      "12524368",
+      "11720979",
+      "9603842",
+      "8257118"
+    ],
+    "similar": [
+      "37935426",
+      "31347688",
+      "34450624",
+      "34986805",
+      "30547796",
+      "36790055",
+      "30051742",
+      "26608050",
+      "23525069",
+      "30961611",
+      "38963312",
+      "27479082",
+      "31950997",
+      "31263873",
+      "28623595",
+      "26072515",
+      "17319944",
+      "37085776",
+      "37607190",
+      "32697830",
+      "35561176",
+      "28961802",
+      "28143596",
+      "30207963",
+      "20946602",
+      "22689766",
+      "27876826",
+      "28968704",
+      "15353451",
+      "34963205",
+      "39134413",
+      "29125126",
+      "36451086",
+      "25162401",
+      "28254369",
+      "37851379",
+      "29219084",
+      "25521243",
+      "26568633",
+      "33828122",
+      "19594874",
+      "33026066",
+      "31368481",
+      "26394325",
+      "35961023",
+      "37387180",
+      "30395189",
+      "28748400",
+      "19706742",
+      "29020744",
+      "27807752",
+      "26030796",
+      "29028984",
+      "37038446",
+      "30445495",
+      "33035155",
+      "34181549",
+      "29718104",
+      "34251620",
+      "27093908",
+      "33054712",
+      "31624138",
+      "31287491",
+      "28666320",
+      "32357166",
+      "22018164",
+      "29879919",
+      "34583566",
+      "35191485",
+      "34463706",
+      "28602483",
+      "37549190",
+      "31571287",
+      "25844668",
+      "20200011",
+      "33170782",
+      "36898058",
+      "32019417",
+      "28133490",
+      "15479708",
+      "36070863",
+      "17493251",
+      "23821649",
+      "31189480",
+      "22479422",
+      "22784622",
+      "35976846",
+      "29040384",
+      "34788793",
+      "22088843",
+      "17044234",
+      "33270838",
+      "15879452",
+      "35758817"
+    ],
+    "review": [
+      "37935426",
+      "27807752"
+    ],
+    "pmc": [
+      "10660296"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37935426.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37935426/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37935426",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btad670",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

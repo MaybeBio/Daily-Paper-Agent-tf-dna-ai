@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39800743",
+  "title": "Annotation-free deep learning algorithm trained on hematoxylin & eosin images predicts epithelial-to-mesenchymal transition phenotype and endocrine response in estrogen receptor-positive breast cancer.",
+  "authors": "Hu, Kaimin; Wu, Yinan; Huang, Yajing; Zhou, Meiqi; Wang, Yanyan; Huang, Xingru",
+  "journal": "Breast cancer research : BCR",
+  "published_date": "2025-01-13",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从H&E染色图像预测乳腺癌EMT表型与内分泌治疗反应，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Recent evidence indicates that endocrine resistance in estrogen receptor-positive (ER+) breast cancer is closely correlated with phenotypic characteristics of epithelial-to-mesenchymal transition (EMT). Nonetheless, identifying tumor tissues with a mesenchymal phenotype remains challenging in clinical practice. In this study, we validated the correlation between EMT status and resistance to endocrine therapy in ER+ breast cancer from a transcriptomic perspective. To confirm the presence of morphological discrepancies in tumor tissues of ER+ breast cancer classified as epithelial- and mesenchymal-phenotypes according to EMT-related transcriptional features, we trained deep learning algorithms based on EfficientNetV2 architecture to assign the phenotypic status for each patient utilizing hematoxylin & eosin (H&E)-stained slides from The Cancer Genome Atlas database. Our classifier model accurately identified the precise phenotypic status, achieving an area under the curve (AUC) of 0.886 at the tile-level and an AUC of 0.910 at the slide-level. Furthermore, we evaluated the efficacy of the classifier in predicting endocrine response using data from an independent ER+ breast cancer patient cohort. Our classifier achieved a predicting accuracy of 81.25%, and 88.7% slides labeled as endocrine resistant were predicted as the mesenchymal-phenotype, while 75.6% slides labeled as sensitive were predicted as the epithelial-phenotype. Our work introduces an H&E-based framework capable of accurately predicting EMT phenotype and endocrine response for ER+ breast cancer, demonstrating its potential for clinical application and benefit.",
+  "abstract_zh": "近期证据表明，雌激素受体阳性（ER+）乳腺癌中的内分泌耐药性与上皮-间质转化（EMT）的表型特征密切相关。然而，在临床实践中，识别具有间质表型的肿瘤组织仍具挑战性。在本研究中，我们从转录组学角度验证了ER+乳腺癌中EMT状态与内分泌治疗耐药性之间的相关性。为确认根据EMT相关转录特征分类为上皮和间质表型的ER+乳腺癌肿瘤组织中是否存在形态学差异，我们基于EfficientNetV2架构训练了深度学习算法，利用来自癌症基因组图谱数据库的苏木精-伊红（H&E）染色切片为每位患者分配表型状态。我们的分类模型准确识别了精确的表型状态，在切片级（tile-level）达到曲线下面积（AUC）0.886，在载玻片级（slide-level）达到AUC 0.910。此外，我们使用独立ER+乳腺癌患者队列的数据评估了分类器预测内分泌反应的效能。我们的分类器预测准确率为81.25%，其中88.7%标记为内分泌耐药性的切片被预测为间质表型，而75.6%标记为敏感性的切片被预测为上皮表型。我们的工作引入了一种基于H&E的框架，能够准确预测ER+乳腺癌的EMT表型和内分泌反应，展示了其在临床应用和获益方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39800743/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39800743/",
+  "paper_page_path": "papers/pubmed/39800743/index.html"
+}

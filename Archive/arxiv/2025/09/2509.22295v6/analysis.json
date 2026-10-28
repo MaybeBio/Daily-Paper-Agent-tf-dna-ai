@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2509.22295v6",
+  "title": "Aurora: Towards Universal Generative Multimodal Time Series Forecasting",
+  "authors": "Xingjian Wu; Jianxin Jin; Wanghui Qiu; Peng Chen; Yang Shu; Bin Yang; Chenjuan Guo",
+  "journal": "",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出多模态时间序列基础模型Aurora，聚焦跨域时序预测，不涉及蛋白质-DNA互作或TF-DNA结合体系，与课题无关。",
+  "abstract": "Cross-domain generalization is very important in Time Series Forecasting because similar historical information may lead to distinct future trends due to the domain-specific characteristics. Recent works focus on building unimodal time series foundation models and end-to-end multimodal supervised models. Since domain-specific knowledge is often contained in modalities like texts, the former lacks the explicit utilization of them, thus hindering the performance. The latter is tailored for end-to-end scenarios and does not support zero-shot inference for cross-domain scenarios. In this work, we introduce Aurora, a Multimodal Time Series Foundation Model, which supports multimodal inputs and zero-shot inference. Pretrained on Cross-domain Multimodal Time Series Corpus, Aurora can adaptively extract and focus on key domain knowledge contained in corresponding text or image modalities, thus possessing strong cross-domain generalization capability. Through tokenization, encoding, and distillation, Aurora can extract multimodal domain knowledge as guidance and then utilizes a Modality-Guided Multi-head Self-Attention to inject them into the modeling of temporal representations. In the decoding phase, the multimodal representations are used to generate the conditions and prototypes of future tokens, contributing to a novel Prototype-Guided Flow Matching for generative probabilistic forecasting. Comprehensive experiments on 5 well-recognized benchmarks, including TimeMMD, TSFM-Bench, ProbTS, TFB, and EPF, demonstrate the consistent state-of-the-art performance of Aurora on both unimodal and multimodal scenarios.",
+  "abstract_zh": "跨域泛化在时间序列预测中非常重要，因为由于领域特定特征，相似的历史信息可能导致不同的未来趋势。近期工作集中于构建单模态时间序列基础模型和端到端多模态监督模型。由于领域特定知识通常包含在文本等模态中，前者缺乏对这些知识的显式利用，从而阻碍了性能。后者则针对端到端场景设计，不支持跨域场景的零样本推理。在本工作中，我们引入Aurora，一种多模态时间序列基础模型，支持多模态输入和零样本推理。在跨域多模态时间序列语料库上预训练后，Aurora能够自适应地提取并聚焦于相应文本或图像模态中包含的关键领域知识，从而具备强大的跨域泛化能力。通过分词、编码和蒸馏，Aurora能够提取多模态领域知识作为指导，并利用模态引导的多头自注意力机制将其注入时间表示的建模中。在解码阶段，多模态表示用于生成未来令牌的条件和原型，从而贡献于一种新颖的原型引导流匹配方法，用于生成式概率预测。在5个公认基准（包括TimeMMD、TSFM-Bench、ProbTS、TFB和EPF）上的全面实验表明，Aurora在单模态和多模态场景中均持续达到最先进性能。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2509.22295v6",
+  "source_url": "https://arxiv.org/abs/2509.22295v6",
+  "paper_page_path": "papers/arxiv/2509.22295v6/index.html"
+}

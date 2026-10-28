@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, and figure references
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and theory to show that DNA loop extrusion by SMC complexes enhances the dynamics of DNA-protein co-condensation, promotes condensate coalescence and ripening, stabilizes condensates under DNA tension, positions condensates at loop sites, and leads to contact map patterns resembling TADs that are not produced by either process alone
+- **Visible evidence base** Simulation results presented in Figures 1 through 5, theoretical free energy model in Figure 3, and scaling arguments in Figure 5
+- **Missing materials affecting confidence** Supplementary Information referenced but not provided; simulation parameter details, Lennard-Jones potential parameters, FENE parameters, SMC binding kinetics, and system size information are not fully specified in the main text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question about the interplay between two major mechanisms of chromatin organization, loop extrusion and phase separation. The authors present a simulation study with supporting theoretical analysis that yields several interesting and potentially significant findings, particularly the stabilization of condensates by loop extrusion under tension and the emergence of TAD-like contact patterns from the combined processes. However, the manuscript has substantial gaps in methodological detail, the theoretical model contains unclear notation and potential errors, and several claims are not fully supported by the evidence presented. The work is potentially interesting but requires major revisions to establish its conclusions convincingly.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, genome organization, biophysics of phase separation, and computational biology would be interested. The work connects two active areas of research and proposes a mechanism for TAD formation that could inform experimental studies. The finding that loop extrusion can position condensates and stabilize them under tension has implications for understanding how mechanical forces affect gene regulation.
+- **Major strengths** The manuscript addresses a novel and important question about the interplay between loop extrusion and condensation. The combination of simulation and theory is appropriate and potentially powerful. The identification of loop-limited versus tension-limited condensate regimes is conceptually interesting. The contact map analysis connecting simulation results to TAD-like patterns is a useful bridge to experimental observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that loop extrusion enhances condensate coalescence and ripening based on simulation results shown in Figure 2a and 2b
+  - **Evidence pointer** Figure 2a, Figure 2b, location not provided
+  - **Concern** The comparison between simulations with and without loop extrusion is presented qualitatively. The authors state that loop extrusion "accelerates ripening but also enhances coalescence" and that there is a "systematic increase of condensate coalescence events," but no statistical analysis is provided. Only three simulation trajectories are averaged, and no error bars or significance tests are shown. The step-wise increases in S(t) attributed to coalescence events are identified by visual inspection without a defined criterion. The claim of enhancement is therefore not quantitatively established.
+  - **Why it matters** The central claim of the paper is that loop extrusion enhances condensation dynamics. Without quantitative comparison and statistical support, this claim is not convincing. The reader cannot assess whether the observed differences are robust or within stochastic variation.
+  - **Resolution test** Provide quantitative measures of coalescence and ripening event rates with error bars across multiple independent simulations, and perform appropriate statistical tests to demonstrate significant differences between conditions with and without loop extrusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that loop extrusion enables condensate formation at large L_end and positions condensates at the loop, as shown in Figure 2c and 2d
+  - **Evidence pointer** Figure 2c, Figure 2d, location not provided
+  - **Concern** The probability of condensate formation P_cond is defined as the probability of condensate formation in the final frame of simulation trajectories. This definition is problematic because it depends on the simulation time and may not reflect steady-state behavior. The authors do not demonstrate that simulations have reached steady state or that the final frame is representative. Additionally, the co-localization measure in Figure 2d is not clearly defined, and the claim that condensates are "often found where the loop is formed" is vague without a quantitative threshold for co-localization.
+  - **Why it matters** The claim that loop extrusion positions condensates is a key novel finding. If the measure is not well-defined or the simulations are not at steady state, the conclusion may be an artifact of finite simulation time rather than a robust physical effect.
+  - **Resolution test** Define P_cond as a steady-state probability computed from time-averaged data after equilibration, and provide a clear quantitative definition of co-localization with appropriate statistical comparison to a null model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The theoretical free energy model presented in Figure 3 and the associated equations for F_d and F_p are used to derive phase diagrams and stability conditions
+  - **Evidence pointer** Figure 3, equations in main text, location not provided
+  - **Concern** The free energy expressions are presented with incomplete notation. The terms in the equations for F_d and F_p are not fully defined, and the manuscript contains apparent typographical errors, such as "persisten ce length" and "cange." The derivation of the phase diagram in Figure 3g is not shown, and the criteria for the first-order and second-order transitions are not explained. The parameter values used are stated to be from a previous study, but the applicability of these parameters to the simulation model is not justified.
+  - **Why it matters** The theoretical model is used to explain and generalize the simulation results. If the model is not clearly presented or the derivations are not transparent, the theoretical claims cannot be evaluated or reproduced by readers.
+  - **Resolution test** Provide complete definitions of all variables and parameters, correct typographical errors, show the full derivation of the phase diagram, and justify the parameter choices in the context of the simulation model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the contact map patterns resembling TADs emerge only when both loop extrusion and condensation are present, as shown in Figure 4
+  - **Evidence pointer** Figure 4, location not provided
+  - **Concern** The contact maps are presented for different conditions, but the criteria for identifying "square patterns of contacts resembling TADs" are not defined. The comparison between conditions is qualitative, and no quantitative measure of contact map structure is provided. The claim that these patterns are "not achieved by either process alone" requires a quantitative comparison of contact map features across conditions.
+  - **Why it matters** The emergence of TAD-like patterns is a major claim with implications for understanding chromatin organization. Without quantitative analysis, the reader cannot assess whether the observed patterns are statistically distinct from those produced by either process alone.
+  - **Resolution test** Provide quantitative measures of contact map structure, such as domain boundary scores or insulation scores, and compare these across conditions with appropriate statistical analysis.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The scaling analysis in Figure 5c shows that the contact probability exponent kappa changes from approximately 1.21 without condensation to approximately 0.63 with condensation, and the authors claim this difference is significant
+  - **Evidence pointer** Figure 5c, location not provided
+  - **Concern** The scaling exponents are extracted from simulation data, but the fitting procedure is not described. No error estimates for the exponents are provided, and the deviation of the measured kappa from the theoretical prediction is attributed to "finite-size and finite-time effects" without supporting evidence. The claim that the difference is "significant" is not supported by statistical analysis.
+  - **Why it matters** The scaling analysis is used to explain the contact map differences and to connect simulation results to polymer physics concepts. Without proper fitting procedures and error analysis, the exponents and their interpretation are not reliable.
+  - **Resolution test** Describe the fitting procedure, provide error estimates for the exponents, and demonstrate that the observed difference is statistically significant. Address finite-size effects through systematic variation of system size or through analytical estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that loop extrusion "enhances the dynamics of condensation" but this phrasing is vague. It is unclear whether this refers to faster kinetics, altered pathway, or something else.
+  - **Required correction** Specify what aspect of condensation dynamics is enhanced, such as rate of growth, frequency of coalescence events, or time to reach steady state.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The simulation details are largely deferred to the Supplementary Information, which is not provided. Key parameters such as Lennard-Jones interaction strengths, FENE spring constants, particle numbers, and simulation box size are not stated in the main text.
+  - **Required correction** Include the essential simulation parameters in the main text or provide the Supplementary Information for review.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3, location not provided
+  - **Issue** The three scenarios (a), (b), and (c) are described in the text, but the figure panels are not clearly labeled with these scenarios, making it difficult to match the text to the figure.
+  - **Required correction** Label the figure panels clearly with the corresponding scenario identifiers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The manuscript contains typographical errors, including "persisten ce length" and "cange," which detract from readability.
+  - **Required correction** Proofread the manuscript and correct typographical errors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The manuscript lacks a discussion section that places the findings in the broader context of chromatin biology and compares them with experimental observations. The implications for gene regulation and genome organization are mentioned only briefly.
+  - **Required correction** Add a discussion section that contextualizes the findings, addresses limitations, and suggests experimental predictions that could test the model.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation trajectories
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** The number of simulation trajectories is stated as three, but it is unclear whether these are independent initial conditions or different random seeds. The variability between trajectories is not shown.
+  - **Required correction** Clarify the number of independent simulations and show individual trajectories or variability measures in the figures.
+
+## Risk / unsupported claims
+- The claim that loop extrusion "enhances the dynamics of condensation" is not quantitatively supported due to lack of statistical analysis.
+- The claim that loop extrusion "positions condensates" is based on a co-localization measure that is not clearly defined.
+- The claim that TAD-like contact patterns emerge only from the combination of loop extrusion and condensation is not supported by quantitative comparison of contact maps.
+- The theoretical model predictions for the phase diagram in Figure 3g are not derived or explained in the text.
+- The scaling exponents in Figure 5c are reported without error estimates or fitting details.
+- The applicability of the free energy parameters from a previous study to the current simulation model is not justified.
+- The claim that condensates are stabilized under tension by loop extrusion is based on simulation results without a clear mechanistic explanation beyond a qualitative statement about polymer tension.

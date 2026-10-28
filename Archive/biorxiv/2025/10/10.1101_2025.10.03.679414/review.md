@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce NA-MPNN, a message-passing neural network using a unified biopolymer graph representation for proteins, DNA, and RNA. They claim it outperforms previous methods on RNA sequence design and fixed-dock protein–DNA specificity prediction, and suggest broad utility for de novo RNA structure design and DNA-binding specificity prediction.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, training and test datasets, comparison baselines, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable contribution to computational nucleic acid design and specificity prediction. The unified biopolymer graph representation is conceptually appealing and could address a genuine gap in the field. However, the abstract provides no quantitative evidence, no benchmark specifications, and no methodological detail. The core claims of outperformance and broad utility are therefore not assessable from the supplied material. The work may be of interest to the structural biology and machine learning communities, but the case is currently not established.
+- **Who would be interested in the results, and why** Researchers in RNA structure design, protein–DNA interaction prediction, and computational biophysics would be interested. The unified framework could also attract machine learning practitioners working on graph-based representations of biomolecules. The potential for de novo RNA design and DNA-binding specificity prediction has direct relevance to synthetic biology and gene regulation studies.
+- **Major strengths** The conceptual framing of RNA design and protein–DNA specificity as a single inverse-folding problem is elegant and potentially unifying. The use of a unified biopolymer graph representation is a sensible design choice that could enable cross-task learning. The stated goal of leveraging larger and more diverse datasets is scientifically sound.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "NA-MPNN outperforms previous methods on RNA sequence design and fixed-dock protein–DNA specificity prediction"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states outperformance without any quantitative data, benchmark names, or comparison metrics. No effect sizes, p-values, or confidence intervals are reported. The reader cannot verify the magnitude or statistical significance of the claimed improvements.
+  - **Why it matters** Outperformance claims are the central contribution of the work. Without quantitative evidence, the claim is unfalsifiable from the provided material and cannot be evaluated for scientific validity.
+  - **Resolution test** Provide benchmark results with clear metrics (e.g., sequence recovery rates, specificity prediction accuracy), comparison to named baselines, and appropriate statistical tests in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "a message-passing neural network that treats proteins, DNA, and RNA within a unified biopolymer graph representation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract gives no detail on the graph construction, node and edge features, training procedure, or loss functions. The novelty of the unified representation cannot be assessed without understanding how it differs from prior task-specific models.
+  - **Why it matters** The claimed novelty rests on the unified representation. Without methodological detail, the reader cannot determine whether the approach is genuinely new or an incremental modification of existing MPNN frameworks.
+  - **Resolution test** Include a detailed methods section describing the graph representation, model architecture, training data, and hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope validation
+  - **Claim pointer** "should be broadly useful for de novo RNA structure design and prediction of DNA-binding specificity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims broad utility but provides no evidence for generalizability beyond the two tasks mentioned. No discussion of limitations, failure cases, or domain boundaries is included.
+  - **Why it matters** Broad utility claims require demonstration across diverse test cases and conditions. Without such evidence, the claim is speculative and may overstate the model's applicability.
+  - **Resolution test** Provide validation on multiple independent datasets, including out-of-distribution tests, and discuss known limitations in the full manuscript.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "fixed-dock" is used without definition. It is unclear whether this refers to a specific docking protocol, a fixed protein conformation, or a particular benchmark setup.
+  - **Required correction** Define "fixed-dock" explicitly in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not name any previous methods or benchmarks used for comparison. This makes it impossible to contextualize the claimed improvements.
+  - **Required correction** Name the specific baselines and benchmark datasets in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code or data availability. For a machine learning method, reproducibility is critical.
+  - **Required correction** State code and data availability in the abstract or a dedicated section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and scope validation means the core claims cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The unified biopolymer graph representation is conceptually original, but the abstract does not demonstrate how it differs from prior task-specific models. Assessment is limited by missing methodological detail.
+  - Scientific importance: The potential to unify RNA design and protein–DNA specificity prediction is scientifically important, but importance is not established without evidence of broad applicability.
+  - Interdisciplinary readership: The work bridges structural biology, machine learning, and synthetic biology. The abstract is accessible to a broad audience, but the lack of quantitative results reduces its impact for specialists.
+  - Technical soundness: Cannot be assessed from the abstract. No details on architecture, training, or evaluation are provided.
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, though "fixed-dock" and "inverse-folding" may require definition for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, but the abstract alone does not support the claims of outperformance or broad utility. A full manuscript with quantitative results and methodological detail is required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of outperformance on RNA sequence design and protein–DNA specificity prediction is unsupported by any quantitative data in the abstract.
+- The claim of broad utility for de novo RNA structure design and DNA-binding specificity prediction is speculative without validation across diverse test cases.
+- The novelty of the unified biopolymer graph representation is unassessable without methodological detail.
+- The generalizability of the model to tasks beyond the two mentioned is not supported by any evidence.

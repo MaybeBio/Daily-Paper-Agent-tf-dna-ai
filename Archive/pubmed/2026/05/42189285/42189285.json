@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42189285",
+    "doi": "10.1007/s00430-026-00879-x",
+    "title": "Targeting phospholipase A2 with arachidonyl trifluoromethyl ketone modulates macrophage activation during Japanese encephalitis virus infection."
+  },
+  "content": {
+    "abstract": "Phospholipase A(2) (PLA(2)) is a crucial enzyme in lipid metabolism and inflammatory signaling, playing a significant role in macrophage activation and neuroinflammation. However, its role in Japanese encephalitis virus (JEV)-mediated immune responses remains unclear. In this study, we show that PLA(2) and its associated receptors, lysophosphatidic acid receptors (LPAR1 and LPAR3), are significantly upregulated at 24 h post-JEV infection, suggesting their involvement in JEV-induced inflammatory responses. To investigate the effect of PLA(2) inhibition, we used arachidonyl trifluoromethyl ketone (AACOCF(3)). Molecular docking using AutoDock Vina 1.1.2, supported by Protein Data Bank and AlphaFold structures, indicated that AACOCF(3) interacts with key inflammatory targets including gp91(phox) (- 7.9 kcal/mol) and LPAR3 (- 7.8 kcal/mol), suggesting its potential to modulate inflammatory and oxidative pathways. In vitro studies in JEV-infected macrophages demonstrated that AACOCF(3) reduced activation of calcium-dependent cytosolic (c) PLA(2) expression and phosphorylation, LPAR1, 3, MAPK signaling (JNK, ERK1/2, p38), and NF-kappaB protein levels, along with a reduction in JE viral RNA levels, likely reflecting indirect effects mediated through host pathway modulation. AACOCF(3) also decreased proinflammatory cytokines (IL-1beta, TNF-alpha) and autophagy-related markers (pAkt, LC3-II/I, SQSTM1/p6(2)), and reduced expression of the ROS-generating enzyme gp91(phox) (NOX2), indicating partial attenuation of inflammatory and oxidative stress-associated pathways. Oxidative stress was assessed via gp91(phox) expression, and NF-kappaB was evaluated at protein level. These findings suggest that PLA(2) contributes to JEV-induced inflammatory signaling, and that its inhibition modulates host responses during infection in vitro, rather than exerting a definitive therapeutic effect.",
+    "keywords": [
+      "Autophagy",
+      "Cytosolic phospholipase A2",
+      "Inflammation",
+      "Japanese encephalitis virus",
+      "MAPK signaling",
+      "NF-қB"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Encephalitis Virus, Japanese/immunology",
+      "*Phospholipases A2/metabolism",
+      "*Macrophages/virology/immunology/drug effects",
+      "*Macrophage Activation/drug effects",
+      "*Arachidonic Acids/pharmacology/metabolism",
+      "*Encephalitis, Japanese/immunology",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Phospholipase A2 Inhibitors/pharmacology/metabolism",
+      "Mice",
+      "Signal Transduction",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Alok",
+        "Singh, Gajendra",
+        "Zonta, Francesco",
+        "Zhu, Qiujie",
+        "Singh, Anjali",
+        "Saxena, Abhishek",
+        "Ghosh, Devlina"
+      ],
+      "short_names": [
+        "Kumar A",
+        "Singh G",
+        "Zonta F",
+        "Zhu Q",
+        "Singh A",
+        "Saxena A",
+        "Ghosh D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3717-7435",
+        "ORCID: 0000-0003-1167-6009"
+      ],
+      "affiliations": [
+        "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India. aloksgpgi@gmail.com.",
+        "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India.",
+        "Department of Biosciences and Bioinformatics, School of Science, Xi'an Jiaotong Liverpool University, Suzhou, 215123, China.",
+        "Department of Biosciences and Bioinformatics, School of Science, Xi'an Jiaotong Liverpool University, Suzhou, 215123, China.",
+        "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India.",
+        "Translational Medicine Center, Changping National Laboratory, Beijing, 102206, China.",
+        "Department of Biochemistry, Saraswati Dental College & Hospital, 233, Tiwariganj, Ayodhya Road, Lucknow, Uttar Pradesh, 226028, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Alok",
+        "short_name": "Kumar A",
+        "identifiers": [
+          "0000-0003-3717-7435"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India. aloksgpgi@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Singh, Gajendra",
+        "short_name": "Singh G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India."
+        ]
+      },
+      {
+        "full_name": "Zonta, Francesco",
+        "short_name": "Zonta F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Bioinformatics, School of Science, Xi'an Jiaotong Liverpool University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Qiujie",
+        "short_name": "Zhu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Bioinformatics, School of Science, Xi'an Jiaotong Liverpool University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Singh, Anjali",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Biotechnology, Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226014, India."
+        ]
+      },
+      {
+        "full_name": "Saxena, Abhishek",
+        "short_name": "Saxena A",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Center, Changping National Laboratory, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Devlina",
+        "short_name": "Ghosh D",
+        "identifiers": [
+          "0000-0003-1167-6009"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Saraswati Dental College & Hospital, 233, Tiwariganj, Ayodhya Road, Lucknow, Uttar Pradesh, 226028, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical microbiology and immunology"
+    ],
+    "journal_abbrev": [
+      "Med Microbiol Immunol"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/26 17:41",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41523267",
+      "39981923",
+      "37838637",
+      "37594653",
+      "36056148",
+      "35011676",
+      "34831405",
+      "34830477",
+      "34634652",
+      "34592637",
+      "33888774",
+      "33068601",
+      "32613347",
+      "32213866",
+      "31862871",
+      "31652980",
+      "31648727",
+      "31238788",
+      "30665457",
+      "29709018",
+      "29551681",
+      "29170911",
+      "29167338",
+      "28690034",
+      "25701366",
+      "24643338",
+      "24623140",
+      "23015700",
+      "22819928",
+      "22703755",
+      "22220194",
+      "22003202",
+      "21896865",
+      "21821728",
+      "21683698",
+      "20731012",
+      "20698853",
+      "20153075",
+      "20055701",
+      "19673702",
+      "19240173",
+      "17237347",
+      "16176925",
+      "15271293",
+      "15220446",
+      "14623879",
+      "14559069",
+      "12094235",
+      "11702787",
+      "10881173",
+      "9403693"
+    ],
+    "similar": [
+      "42189285",
+      "36718919",
+      "26937036",
+      "28680855",
+      "24522920",
+      "9759860",
+      "19635909",
+      "35638852",
+      "26520095",
+      "33724154",
+      "38591880",
+      "24140964",
+      "41806590",
+      "20698853",
+      "28690034",
+      "25101306",
+      "38869276",
+      "39643884",
+      "34648903",
+      "34379515",
+      "38698374",
+      "20153075",
+      "21354239",
+      "42302947",
+      "39511597",
+      "42112357",
+      "37594653",
+      "23735482",
+      "42208328",
+      "34756071",
+      "34220803",
+      "31527198",
+      "32611752",
+      "31648727",
+      "32213866",
+      "40071916",
+      "36929720",
+      "26202983",
+      "39880047",
+      "23706498",
+      "29057981",
+      "42367779",
+      "24616552",
+      "21726898",
+      "25889446",
+      "24885259",
+      "8195210",
+      "28179530",
+      "32987149",
+      "42176149",
+      "11390371",
+      "28190197",
+      "22536153",
+      "39520552",
+      "34238339",
+      "37801852",
+      "42229201",
+      "39566757",
+      "30460722",
+      "10843690",
+      "38029855",
+      "34656643",
+      "39447411",
+      "10207608",
+      "42031287",
+      "29378573",
+      "23416211",
+      "25633958",
+      "39508602",
+      "31316515",
+      "40338445",
+      "35119507",
+      "24236890",
+      "23320079",
+      "21167894",
+      "26491301",
+      "31399273",
+      "35970313",
+      "29885667",
+      "41636529",
+      "40713618",
+      "42011618",
+      "26018800",
+      "14742634",
+      "40982322",
+      "42276750",
+      "37233865",
+      "34601054",
+      "39971016",
+      "40482761",
+      "15507597",
+      "40451525",
+      "27703031",
+      "25188232",
+      "36707891",
+      "40964050",
+      "30356764",
+      "25004880",
+      "25140761",
+      "24652493"
+    ],
+    "review": [
+      "42189285",
+      "33724154"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00430-026-00879-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

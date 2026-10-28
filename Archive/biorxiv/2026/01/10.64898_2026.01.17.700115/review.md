@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, datasets, model architecture, training/testing, results, conclusion, code/data availability, conflict of interest, acknowledgments)
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as submitted to bioRxiv, based solely on the provided text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present SE3Bind, an SE(3)-equivariant convolutional neural network trained on two tasks: (i) re-docking an antibody to its antigen and (ii) predicting antibody-antigen binding free energy (ΔG). The model learns an energy function expressed as spatial correlations of scalar and vector fields. Under a stringent antigen-sequence-based split, the model generalizes to out-of-distribution examples and performs comparably to existing models.
+- **Visible evidence base** Abstract; Introduction; Section 2 (Datasets); Section 3 (Model architecture, including 3.1 Binding pose and 3.2 Binding free energy); Section 4 (Model training and testing, including 4.1 Two-stage training); Section 5 (Results, including 5.1 Learned features, 5.2 Performance on the validation set, 5.3 Comparison with models from the literature); Section 6 (Conclusion); Code and data availability; Conflict of interest; Acknowledgments. Tables 1 and 2 are referenced but not shown. Figures 1, 2, and 3 are referenced but not shown. Supporting Tables A.1, A.2 and Supporting Figures A.1, A.2 are referenced but not shown.
+- **Missing materials affecting confidence** Tables 1 and 2; Figures 1, 2, and 3; Supporting Tables A.1 and A.2; Supporting Figures A.1 and A.2; Equations 1 through 8 (referenced but not displayed); full training and hyperparameter details; dataset construction details beyond the summary; code repository contents.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational antibody engineering, namely the prediction of antibody-antigen binding affinity from limited structural data. The proposed approach, combining an SE(3)-equivariant architecture with a two-task training strategy, is conceptually interesting and builds on prior work by the same group. However, the manuscript as presented is incomplete in critical ways. The core quantitative results, including the performance tables and figures, are not visible in the provided material. The theoretical derivation of the binding free energy expression is referenced but not shown. Without these elements, the central claims of the manuscript cannot be evaluated. The writing is generally clear, but several technical details and methodological choices require clarification.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, antibody design, and affinity maturation. Researchers developing equivariant neural networks for molecular applications would also find the architecture relevant. The discussion on data leakage and the importance of stringent validation splits is of broad interest to the machine learning for structural biology community.
+- **Major Strengths** The problem is well-motivated and practically important. The two-task training strategy, leveraging re-docking as a pretraining task, is a creative approach to address data scarcity. The explicit attention to data leakage and the use of antigen-sequence-based splits is a methodological strength. The model architecture, based on SE(3)-equivariant convolutions and spatial correlations, is theoretically sound and builds on established principles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that SE3Bind achieves performance comparable to existing models under stringent splits, and that the model generalizes to out-of-distribution examples.
+  - **Evidence pointer** Section 5.2, Table 1, Table 2, Figure 3
+  - **Concern** The central quantitative results are not visible in the provided material. Tables 1 and 2, which are essential for evaluating the model's performance and the comparison with existing methods, are referenced but not shown. Figure 3, which presumably illustrates the performance, is also missing. Without these data, the claims of comparable performance and generalization cannot be assessed.
+  - **Why it matters** The core contribution of the manuscript is the empirical demonstration that the proposed model works. Without the actual numbers, correlations, and comparisons, the manuscript is reduced to a description of a method without evidence of its efficacy.
+  - **Resolution test** Provide the full Tables 1 and 2, and Figure 3, with clear captions and statistical details (e.g., error bars, number of test examples, significance tests if applicable).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Theoretical derivation
+  - **Claim pointer** The manuscript derives an expression for the binding free energy ΔG in terms of partition functions and feature correlations (Equations 2 through 8).
+  - **Evidence pointer** Section 3.2, Equations 2 to 8
+  - **Concern** The equations referenced in Section 3.2 are not displayed in the provided text. The derivation from the partition function formalism to the final expression for ΔG is therefore not visible. The assumptions made (e.g., single dominant bound conformation, zero energy for unbound microstates) are stated but the mathematical steps are missing.
+  - **Why it matters** The theoretical framework is a key part of the manuscript's contribution. Without the actual equations, the reader cannot verify the derivation, understand the role of the learnable parameters (a, N0), or assess the validity of the assumptions.
+  - **Resolution test** Display all equations (1 through 8) with clear definitions of all symbols and a step-by-step derivation from the partition function formalism to the final ΔG expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that the model is trained in two stages, with stage 1 on Task 0 and stage 2 jointly on Task 0 and Task 1.
+  - **Evidence pointer** Section 4.1
+  - **Concern** The description of the two-stage training is brief. It is unclear how the loss functions L0 and L1 are combined in stage 2 (simple sum? weighted sum?). The regularization weight of 10^-3 is mentioned, but it is not clear what quantity is being regularized (the L1 loss on feature 0? the total loss?). The number of epochs (200 and 1000) is given, but no information is provided on learning rate, optimizer, batch size, or early stopping criteria.
+  - **Why it matters** Reproducibility is a core requirement for computational work. The lack of training details makes it difficult for others to replicate the results or build upon the method.
+  - **Resolution test** Provide a complete description of the training procedure, including the exact form of the combined loss function, all hyperparameters, and the optimization algorithm.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset description
+  - **Claim pointer** The manuscript describes the construction of the training and validation sets from PDB-bind, SKEMPI 2.0, and SAbDab, with filtering based on resolution and antigen sequence similarity.
+  - **Evidence pointer** Section 2, Section 5.3
+  - **Concern** The dataset description is incomplete. The number of examples after each filtering step is given (668, 492, 443), but the criteria for "similar epitope-paratope interfaces" are not defined beyond the antigen sequence similarity. The statement that complexes with antigens of "greater than 50% sequence identity" are kept in the same set is clear, but the exact clustering method (e.g., CD-HIT, MMseqs2) is not specified. The validation set is described as having 15 complexes, which is a very small number for robust evaluation.
+  - **Why it matters** The validity of the evaluation depends entirely on the quality and construction of the validation set. A small validation set (n=15) leads to high variance in performance estimates. The lack of detail on clustering methods affects reproducibility.
+  - **Resolution test** Provide a detailed description of the dataset construction pipeline, including the exact clustering tool and thresholds, and discuss the limitations of the small validation set size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** "Since antibody derive their selectivity" (paragraph 2)
+  - **Issue** Typographical error: "antibody" should be "antibodies".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, Model architecture
+  - **Evidence pointer** "the pose of the antigen relative to the antibody, given the three-dimensional structures of both fragments"
+  - **Issue** The definition of Task 0 and Task 1 is clear, but the relationship between the "re-docking" task and the "binding affinity" task could be stated more explicitly. It is implied that Task 0 is a pretraining task, but the rationale for why learning to dock helps with affinity prediction is not fully explained.
+  - **Required correction** Add a sentence explaining the expected transfer of learning from the docking task to the affinity prediction task.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.1, Learned features
+  - **Evidence pointer** "a visual inspection of the scalar features (see Figure 2) suggests that the model is capturing meaningful variations"
+  - **Issue** The statement is qualitative and based on visual inspection. It is not clear what "meaningful" means in this context. A more quantitative analysis, such as comparing the learned features to known electrostatic potentials or hydrophobicity scales, would strengthen this claim.
+  - **Required correction** Provide a more quantitative analysis of the learned features, or temper the claim to be purely descriptive.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.3, Comparison with models from the literature
+  - **Evidence pointer** Table 2
+  - **Issue** The comparison with existing models is described in the text, but the actual table is not visible. It is also unclear whether the performance of the other models was taken from their original publications or re-evaluated on the same data split used for SE3Bind.
+  - **Required correction** Clarify the source of the comparison data and ensure that the comparison is fair (i.e., same data, same split, same evaluation metric).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 6, Conclusion
+  - **Evidence pointer** "augment existing binding affinity data with synthetic structural data"
+  - **Issue** The suggestion to use synthetic structural data is interesting but vague. It is not clear what kind of synthetic data is envisioned or how it would be generated.
+  - **Required correction** Elaborate on this suggestion or remove it if it is not central to the paper.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results tables and figures) and R1-M2 (missing equations) are the most critical. Without these, the manuscript's central claims are unverifiable. R1-M3 (training details) and R1-M4 (dataset details) are also important for reproducibility and should be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The two-task training approach, combining re-docking and affinity prediction, is a novel contribution. The use of SE(3)-equivariant networks for this specific problem is not entirely new, but the specific formulation and training strategy appear original.
+  - **Scientific importance** The problem of antibody-antigen affinity prediction is of high importance for therapeutic development. The manuscript addresses a real bottleneck (data scarcity) and proposes a reasonable approach. However, the importance of the contribution cannot be fully assessed without the results.
+  - **Interdisciplinary readership** The work is relevant to computational biology, machine learning, and structural biology. The writing is generally accessible, but the missing equations and results make it difficult for a non-specialist to follow the core argument.
+  - **Technical soundness** The theoretical framework is plausible, but the missing equations prevent a full assessment. The training strategy is reasonable, but the lack of training details is a concern. The evaluation methodology, particularly the small validation set, is a potential weakness.
+  - **Readability for nonspecialists** The introduction and conclusion are readable. The methods section is technical but understandable in principle. The missing equations and results are a significant barrier to readability.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a sound conceptual basis and addresses an important problem, but the core evidence (results, equations) is not visible. The authors should be encouraged to resubmit a complete version with all tables, figures, and equations included, along with additional training and dataset details.
+
+## Risk / unsupported claims
+- The claim that SE3Bind "achieves a performance comparable to that of existing models" is unsupported because Table 2 is not visible.
+- The claim that the model "demonstrates an ability to generalize to out-of-distribution examples" is unsupported because the validation results (Table 1, Figure 3) are not visible.
+- The claim that the learned features "capture meaningful variations" is weakly supported, as it is based on qualitative visual inspection (Figure 2 not visible).
+- The theoretical derivation of the binding free energy expression is not assessable because Equations 2 through 8 are not displayed.
+- The statement that the model "displays less overfitting than that of models trained using an L2 regression loss" is unsupported without Table 1.

@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "35731758",
+    "doi": "10.1109/TCBB.2022.3183191",
+    "title": "MV-H-RKM: A Multiple View-Based Hypergraph Regularized Restricted Kernel Machine for Predicting DNA-Binding Proteins."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) have a significant impact on many life activities, so identification of DBPs is a crucial issue. And it is greatly helpful to understand the mechanism of protein-DNA interactions. In traditional experimental methods, it is significant time-consuming and labor-consuming to identify DBPs. In recent years, many researchers have proposed lots of different DBP identification methods based on machine learning algorithm to overcome shortcomings mentioned above. However, most existing methods cannot get satisfactory results. In this paper, we focus on developing a new predictor of DBPs, called Multi-View Hypergraph Restricted Kernel Machines (MV-H-RKM). In this method, we extract five features from the three views of the proteins. To fuse these features, we couple them by means of the shared hidden vector. Besides, we employ the hypergraph regularization to enforce the structure consistency between original features and the hidden vector. Experimental results show that the accuracy of MV-H-RKM is 84.09% and 85.48% on PDB1075 and PDB186 data set respectively, and demonstrate that our proposed method performs better than other state-of-the-art approaches. The code is publicly available at https://github.com/ShixuanGG/MV-H-RKM.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry",
+      "*Support Vector Machine",
+      "Algorithms",
+      "DNA/chemistry",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Shixuan",
+        "Qian, Yuqing",
+        "Jiang, Tengsheng",
+        "Jiang, Min",
+        "Ding, Yijie",
+        "Wu, Hongjie"
+      ],
+      "short_names": [
+        "Guan S",
+        "Qian Y",
+        "Jiang T",
+        "Jiang M",
+        "Ding Y",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Shixuan",
+        "short_name": "Guan S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qian, Yuqing",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jiang, Tengsheng",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jiang, Min",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2023 Mar-Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/23 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35731758",
+      "34058979",
+      "37501482",
+      "37060772",
+      "36087888",
+      "34743286",
+      "31123959",
+      "32352006",
+      "32144887",
+      "33410688",
+      "31454964",
+      "32300371",
+      "29753757",
+      "30943723",
+      "35334314",
+      "28562217",
+      "32211144",
+      "28961273",
+      "29097781",
+      "37651627",
+      "34455627",
+      "28841194",
+      "30668479",
+      "29949993",
+      "30598073",
+      "36719781",
+      "38587997",
+      "34372777",
+      "32775434",
+      "35154264",
+      "33099120",
+      "35447463",
+      "33476047",
+      "34291709",
+      "29940836",
+      "30957840",
+      "24475169",
+      "30316822",
+      "36870585",
+      "31923610",
+      "36416116",
+      "34445663",
+      "37437362",
+      "34932484",
+      "32920048",
+      "19925685",
+      "32603306",
+      "35609023",
+      "24448651",
+      "28254078",
+      "34571539",
+      "27722068",
+      "33395588",
+      "28293256",
+      "30616476",
+      "31267738",
+      "35286461",
+      "35378437",
+      "29741583",
+      "28937647",
+      "37095510",
+      "27565741",
+      "25893896",
+      "28541376",
+      "27452983",
+      "29297354",
+      "32808039",
+      "36370585",
+      "22574904",
+      "32946833",
+      "34432632",
+      "32163111",
+      "35801442",
+      "35615554",
+      "35389869",
+      "23737141",
+      "26192325",
+      "22591482",
+      "33481715",
+      "35910197",
+      "36044786",
+      "26829605",
+      "36749151",
+      "26482832",
+      "31639067",
+      "33837771",
+      "31147687",
+      "32847102",
+      "31521251",
+      "33780341",
+      "35188891",
+      "30565313",
+      "34115312",
+      "23813000",
+      "31070704",
+      "35581022",
+      "28646763",
+      "34741132",
+      "33328721"
+    ],
+    "review": [
+      "35731758",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2022.3183191",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2022.3183191",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35731758",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

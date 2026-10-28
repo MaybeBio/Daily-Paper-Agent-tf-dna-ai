@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. Editorial or stylistic aspects are considered only where they affect clarity for a general readership.
+- **Shared manuscript claim summary** The authors report that HBV subtypes A1 and A2 exhibit distinct replication phenotypes, with A2 replicating to higher levels, and attribute this difference to specific polymorphisms in the HBx gene (amino acid positions 11 and 146) that affect HBx protein expression and possibly structure.
+- **Visible evidence base** Results sections describing cell line establishment, infection assays in PXB-cells and human liver chimeric mice, chimeric construct experiments, HBx mutagenesis, HBx expression analysis by Western blot, and AlphaFold2 structural models. Methods sections for all experimental procedures. Figures referenced as Fig 1 through Fig 6 and S1 through S4 Figs, plus S1 Table.
+- **Missing materials affecting confidence** The actual figures and supplementary figures are not provided. Specific numerical data, statistical outputs, and raw Western blot images are not available. The S1 Table with primer sequences is not provided. This limits verification of quantitative claims and statistical rigor.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question regarding the molecular basis for phenotypic differences between HBV subtypes A1 and A2. The authors present a systematic approach, moving from infection models to mechanistic dissection using chimeric constructs and site-directed mutagenesis. The identification of two HBx amino acid residues that contribute to differential replication is potentially significant. However, the evidence as presented has several gaps. The lack of actual figures prevents assessment of data quality and statistical robustness. The mechanistic link between the identified mutations, HBx protein stability, and the observed replication phenotype is suggestive but not fully established. The structural modeling is speculative and not experimentally validated. The claim that these findings explain clinical differences between subtypes is an extrapolation that goes beyond the data. Overall, the study is well-conceived but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying HBV virology, particularly those interested in genotype-specific differences in replication and pathogenesis. Clinicians and epidemiologists focused on HBV genotype-associated disease outcomes may also find the results relevant. The work may interest those studying HBx function, as it identifies specific residues that may affect protein stability and function. The model system described (stable cell lines, chimeric mice) could be useful to the broader HBV research community.
+- **Major strengths** The study uses multiple complementary models, including cell culture, primary human hepatocytes (PXB-cells), and human liver chimeric mice, strengthening the relevance of the findings. The systematic approach to narrow down the responsible genetic element from whole-genome chimeras to specific point mutations is logical and thorough. The inclusion of IFN treatment experiments addresses a clinically relevant question. The use of publicly available sequence data to support the representativeness of the chosen clones is a good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that subtype A2 has a significantly higher replication phenotype than A1 based on data from PXB-cell infections and mouse experiments.
+  - **Evidence pointer** Results section, Fig 1A-D, Fig 3A-C
+  - **Concern** The actual figures are not provided, so the magnitude of the reported differences, the variability between replicates, and the statistical significance cannot be independently assessed. The text states "statistical differences at week 9 to 11 for HBV DNA level and week 10 for HBsAg expression" in mice, but with n=4 per group, the robustness of these findings is questionable. For the PXB-cell data, it is unclear how many independent infections were performed and whether the "significantly higher" claim is supported by appropriate statistical tests. Without the figures and raw data, the central claim of a distinct replication phenotype cannot be verified.
+  - **Why it matters** The entire manuscript hinges on the reproducibility and statistical strength of the observed replication differences. If these differences are small or variable, the subsequent mechanistic work loses its foundation.
+  - **Resolution test** Provide the actual figures with clear error bars and statistical annotations. Specify the number of biological replicates for each experiment. Provide exact p-values and describe the statistical tests used. Ideally, show that the replication difference is consistent across multiple independent experiments and in both in vitro and in vivo models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors claim that HBx amino acid variations at positions 11 and 146 are responsible for the higher replication phenotype of A2.
+  - **Evidence pointer** Results section, Fig 5A-F
+  - **Concern** The mutagenesis experiments show that introducing A2-specific mutations into the A1 background increases replication markers, and vice versa. However, the data are presented as "HBV markers" without clear specification of which markers (DNA, HBeAg, HBsAg, RNA) were measured and at what time points. The text states that S11P and S146A mutants showed "significantly increased HBV markers, almost to the levels of subtype A2," but the actual data are not shown. Furthermore, the HBx expression experiments (Fig 5E-F) are qualitative Western blots, and the claim that A2 HBx is expressed at higher levels is not quantified. The link between the two mutations, protein expression levels, and the replication phenotype is correlative, not causal. The authors do not demonstrate that the increased HBx expression directly drives the increased replication.
+  - **Why it matters** The central mechanistic claim of the paper is that specific HBx polymorphisms cause the phenotypic difference. Without robust quantitative data linking the mutations to protein expression and to replication, the mechanism remains speculative.
+  - **Resolution test** Provide quantitative data for all HBV markers measured in the mutagenesis experiments, with statistical analysis. Quantify HBx protein levels from multiple independent Western blots, with appropriate loading controls and statistical comparison. Perform experiments to directly test whether increased HBx expression is sufficient to rescue the A1 phenotype, for example by overexpressing A1 HBx or knocking down A2 HBx.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors use AlphaFold2 models to suggest that structural differences, particularly in the C-terminal region, may explain the functional differences between A1 and A2 HBx.
+  - **Evidence pointer** Results section, Fig 6A-C
+  - **Concern** The AlphaFold2 models are presented as supporting evidence, but the interpretation is highly speculative. The text states that the C-terminal peptides "diverge" between the models, but no quantitative measure of structural difference is provided. The claim that the S47A position is where the models "start to diverge" is not supported by any structural analysis. The functional significance of the predicted structural differences is not tested experimentally. AlphaFold2 predictions are computational models and should be treated as hypothesis-generating, not as evidence for a mechanism.
+  - **Why it matters** The structural modeling is used to provide a plausible explanation for the functional differences. If this is presented as evidence, it overstates the certainty of the predictions and could mislead readers.
+  - **Resolution test** Either remove the structural modeling as evidence or clearly label it as a hypothesis. If kept, provide quantitative structural comparisons (e.g., RMSD values for the C-terminal regions) and discuss the limitations of the predictions. Ideally, validate the structural predictions with experimental approaches, such as mutagenesis of the C-terminal region or biophysical characterization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and clinical relevance
+  - **Claim pointer** The authors suggest that the identified HBx polymorphisms "potentially explains the reported clinical differences between the two subtypes."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study uses a single clone of each subtype. While the authors state that the sequence variations are representative of the broader subtype population, this is not demonstrated with data. The clinical differences between A1 and A2 infections are complex and likely multifactorial, involving host genetics, immune responses, and environmental factors. The authors acknowledge this in the discussion, but the claim in the abstract is too strong. The link between the in vitro replication phenotype and clinical outcomes is not established.
+  - **Why it matters** Overstating the clinical relevance could lead to misinterpretation of the findings and potentially influence clinical decision-making or research priorities.
+  - **Resolution test** Soften the claim in the abstract and discussion to indicate that the findings provide a potential mechanism that warrants further investigation. Provide data showing that the specific HBx polymorphisms are consistently present across a larger panel of A1 and A2 isolates. Discuss the limitations of extrapolating from in vitro models to clinical outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Cell line selection
+  - **Evidence pointer** Results section, S1 Fig
+  - **Issue** The text states that one clone per subtype was selected based on the highest HBV DNA level, but the criteria for "highest" are not defined. It is unclear if this was based on a single measurement or multiple passages.
+  - **Required correction** Specify the exact selection criteria, including the number of clones screened, the number of replicates per clone, and the time point of measurement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** IFN treatment experiments
+  - **Evidence pointer** Results section, Fig 2A-C, S2 Fig
+  - **Issue** The text states that A1 and A2 respond "similarly" to IFN, but the data are not shown. It is unclear what metric was used to assess response and whether a statistical test for equivalence was performed.
+  - **Required correction** Show the data and specify the statistical approach used to conclude similarity. Consider reporting confidence intervals for the treatment effect.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** HBx stop codon mutant
+  - **Evidence pointer** Methods section, Fig 5A
+  - **Issue** The stop codon was introduced at amino acid position 8, but the text states this "does not affect any known cis-regulatory elements." This should be verified with a reference or a sequence analysis.
+  - **Required correction** Provide a reference or a supplementary analysis showing that the introduced mutation does not overlap with known regulatory elements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Mouse experiments
+  - **Evidence pointer** Results section, Fig 1C-D
+  - **Issue** The text reports statistical differences at specific weeks but does not specify the test used or whether multiple comparisons were accounted for.
+  - **Required correction** Describe the statistical test used for the mouse data and state whether adjustments for multiple comparisons were made.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** AlphaFold2 modeling
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that five models were generated, but it is unclear how the final model was selected or whether the models were consistent.
+  - **Required correction** Describe the model selection criteria and report the confidence metrics (e.g., pLDDT scores) for the regions of interest.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of actual data figures and the qualitative nature of the HBx expression analysis prevent the case from being fully established. The structural modeling (R1-M3) is not a technical failing per se, but its presentation as evidence is problematic.
+
+## Risk / unsupported claims
+- The claim that subtype A2 has a "much higher" replication level than A1 is not quantitatively supported in the provided text.
+- The claim that the two identified HBx amino acid variations are "responsible for" the replication difference is not fully established, as the causal link between the mutations, protein expression, and replication is not demonstrated.
+- The claim that the AlphaFold2 models show structural differences that "possibly explain" the functional difference is speculative and not experimentally validated.
+- The claim that the findings "potentially explain" clinical differences between A1 and A2 is an extrapolation beyond the data.
+- The statement that the selected clones are representative of the broader subtype population is not supported with data.

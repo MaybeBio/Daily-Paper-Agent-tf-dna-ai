@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39673621",
+  "title": "Bioinformatics analysis reveals potential crosstalk genes and molecular mechanisms between ulcerative colitis and psoriasis.",
+  "authors": "Luo, Qinghua; An, Mingwei; Wu, Yunxiang; Wang, Jiawen; Mao, Yuanting; Zhang, Leichang; Wang, Chen",
+  "journal": "Archives of dermatological research",
+  "published_date": "2024-12-14",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过生物信息学分析溃疡性结肠炎与银屑病的共病机制，虽含转录因子-基因网络分析，但核心是差异表达基因与免疫炎症通路，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Ulcerative colitis (UC) and psoriasis are highly correlated clinically; however, it is unclear whether they have a common pathophysiological mechanism. The purpose of this study is to investigate the important molecules and pathways that mediate the coexistence of UC and psoriasis through quantitative bioinformatics analysis of public RNA-sequencing databases. The UC (GSE38713) and psoriasis (GSE30999) datasets were downloaded from the Gene Expression Omnibus database. Differentially expressed genes were analysed using the \"limma\" package and their biological functions were investigated using Gene Ontology and the Kyoto Encyclopedia of Genes and Genomes. The Search Tool for the Retrieval of Interacting Genes database was used to create the protein-protein interaction (PPI) network, which was visualised by Cytoscape. The CytoHubba plugin was used to select the hub genes. The hub genes of psoriasis and UC were verified in GSE75214, GSE78097, GSE14905, and GSE87466. The predicted value of the hub gene was evaluated by the receiver operating characteristic curve (ROC). Gene Set Enrichment Analysis (GSEA) and immune infiltration were performed for the hub genes. Finally, we performed transcription factor (TF)-gene interaction network analysis, TF-miRNA co-regulation network analysis and candidate drug prediction. A total of 114 genes (89 ascending genes and 25 descending genes) with similar expression trends between UC and psoriasis were identified. Enrichment analysis revealed that the two signaling pathways were primarily related to immune and inflammatory responses. PPI network screened 13 hub genes (IL-1B, CXCL10, TLR2, CD274, CXCR2, CXCL9, MMP9, CXCL1, CASP1, IL-7R, IL-1RN, CCL18 and LCN2). Using NetworkAnalyst, we constructed a co-regulatory network diagram of TF-gene and TF-miRNA. Finally, diacerein was predicted to be effective in the treatment of UC and psoriasis. Our research revealed the common pathogenesis of UC and psoriasis, and examined the hub genes, TF and miRNA and potential therapeutic drugs (diacerein). These findings may provide new perspectives for further mechanism research and clinical treatment.",
+  "abstract_zh": "溃疡性结肠炎（ulcerative colitis, UC）与银屑病在临床上高度相关；然而，它们是否具有共同的病理生理机制尚不清楚。本研究旨在通过对公共RNA测序数据库进行定量生物信息学分析，探讨介导UC与银屑病共存的重要分子和通路。从Gene Expression Omnibus数据库下载了UC（GSE38713）和银屑病（GSE30999）数据集。使用“limma”包分析差异表达基因，并通过Gene Ontology和Kyoto Encyclopedia of Genes and Genomes研究其生物学功能。利用Search Tool for the Retrieval of Interacting Genes数据库构建蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络，并通过Cytoscape进行可视化。使用CytoHubba插件筛选核心基因（hub genes）。在GSE75214、GSE78097、GSE14905和GSE87466中验证了银屑病和UC的核心基因。通过受试者工作特征曲线（receiver operating characteristic curve, ROC）评估核心基因的预测价值。对核心基因进行了基因集富集分析（Gene Set Enrichment Analysis, GSEA）和免疫浸润分析。最后，我们进行了转录因子（transcription factor, TF）-基因相互作用网络分析、TF-miRNA共调控网络分析和候选药物预测。共鉴定出114个在UC和银屑病中表达趋势相似的基因（89个上调基因和25个下调基因）。富集分析显示，这两条信号通路主要与免疫和炎症反应相关。PPI网络筛选出13个核心基因（IL-1B、CXCL10、TLR2、CD274、CXCR2、CXCL9、MMP9、CXCL1、CASP1、IL-7R、IL-1RN、CCL18和LCN2）。使用NetworkAnalyst，我们构建了TF-基因和TF-miRNA的共调控网络图。最后，预测双醋瑞因（diacerein）对治疗UC和银屑病有效。我们的研究揭示了UC和银屑病的共同发病机制，并考察了核心基因、TF和miRNA以及潜在治疗药物（双醋瑞因）。这些发现可能为进一步的机制研究和临床治疗提供新视角。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39673621/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39673621/",
+  "paper_page_path": "papers/pubmed/39673621/index.html"
+}

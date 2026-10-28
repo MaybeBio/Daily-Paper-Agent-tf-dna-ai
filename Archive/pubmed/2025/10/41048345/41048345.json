@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41048345",
+    "doi": "10.3389/fbinf.2025.1567748",
+    "title": "Identification and therapeutic investigation of biomarker genes underpinning hepatocellular carcinoma: an in silico study utilising molecular docking and dynamics simulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related mortality globally, and ranks fifth in terms of incidence. It primarily affects males and has a high prevalence in Asia. Risk factors include hepatitis B and C, liver cirrhosis, nonalcoholic fatty liver disease (NAFLD), and alcohol consumption. Late-stage diagnosis results in a poor survival rate of approximately 20%, underscoring the need for early detection methods to improve the survival rates. This study aimed to identify prognostic biomarkers for HCC through bioinformatic analysis of microarray datasets, providing insights into potential therapeutic targets. METHODS: We analyzed five microarray datasets, comprising 402 HCC samples and 121 control samples. To identify relevant biological pathways, we conducted differential gene expression, Gene Ontology (GO), and KEGG pathway enrichment analyses. We identified hub genes and quantitatively assessed transcription factors and microRNAs targeting these genes. Additionally, molecular docking and dynamic simulations (100 ns) were used to identify potential drug candidates capable of inhibiting the activity of differentially expressed hub genes. RESULTS: Our bioinformatic approach identified several promising HCC biomarkers. Among these, CDK1/CKS2 was identified as a key therapeutic target, with a regulatory role in HCC pathogenesis, suggesting its potential for further investigation. Digoxin (DB00390) has been highlighted as a potential repurposed drug candidate because of its favorable drug-likeness and stability, as confirmed by virtual screening, ADMET analysis, molecular docking study and dynamic simulations. CONCLUSION: This study enhances our understanding of HCC biology and offers new insights into drug interactions. It presents several promising biomarkers for the early diagnosis, prognosis, and therapy. Further investigation into CDK1/CKS2 as a therapeutic target and the role of the identified biomarkers could contribute to improved diagnostic and therapeutic strategies for HCC.",
+    "keywords": [
+      "PPI network",
+      "biomarkers",
+      "differential gene identification",
+      "docking",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghosh, Jishnu",
+        "Alshahrani, Abdullah M",
+        "Palodhi, Aritra",
+        "Bhattacharyya, Debarghya",
+        "Das, Subhadip",
+        "Mondal, Sunil Kanti",
+        "Kalam, Abul",
+        "Ahmad, S Rehan",
+        "Mal, Chittabrata"
+      ],
+      "short_names": [
+        "Ghosh J",
+        "Alshahrani AM",
+        "Palodhi A",
+        "Bhattacharyya D",
+        "Das S",
+        "Mondal SK",
+        "Kalam A",
+        "Ahmad SR",
+        "Mal C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, University of Burdwan, Bardhaman, India.",
+        "Department of Basic Medical Science, College of Applied Medical Sciences, Khamis Mushait Campus, King Khalid University (KKU), Abha, Saudi Arabia.",
+        "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India.",
+        "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India.",
+        "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India.",
+        "Department of Biotechnology, University of Burdwan, Bardhaman, India.",
+        "Bidhannagar College, Kolkata, West Bengal, India.",
+        "Hiralal Mazumdar Memorial College for Women, West Bengal State University, Government of West Bengal, Kolkata, West Bengal, India.",
+        "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghosh, Jishnu",
+        "short_name": "Ghosh J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, University of Burdwan, Bardhaman, India."
+        ]
+      },
+      {
+        "full_name": "Alshahrani, Abdullah M",
+        "short_name": "Alshahrani AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Science, College of Applied Medical Sciences, Khamis Mushait Campus, King Khalid University (KKU), Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Palodhi, Aritra",
+        "short_name": "Palodhi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India."
+        ]
+      },
+      {
+        "full_name": "Bhattacharyya, Debarghya",
+        "short_name": "Bhattacharyya D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India."
+        ]
+      },
+      {
+        "full_name": "Das, Subhadip",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Sunil Kanti",
+        "short_name": "Mondal SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, University of Burdwan, Bardhaman, India."
+        ]
+      },
+      {
+        "full_name": "Kalam, Abul",
+        "short_name": "Kalam A",
+        "identifiers": [],
+        "affiliations": [
+          "Bidhannagar College, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, S Rehan",
+        "short_name": "Ahmad SR",
+        "identifiers": [],
+        "affiliations": [
+          "Hiralal Mazumdar Memorial College for Women, West Bengal State University, Government of West Bengal, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Mal, Chittabrata",
+        "short_name": "Mal C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Maulana Abul Kalam Azad University of Technology, West Bengal, Haringhata, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/06 12:31",
+    "fetched_at": "2026-10-01 03:38:17"
+  },
+  "links": {
+    "cites": [
+      "42499390"
+    ],
+    "refs": [
+      "40206492",
+      "39856336",
+      "39835210",
+      "39498375",
+      "39470543",
+      "39118438",
+      "38647086",
+      "38572755",
+      "38572751",
+      "38411312",
+      "37583871",
+      "37322258",
+      "36821519",
+      "36621157",
+      "36618049",
+      "36518320",
+      "36388662",
+      "36258912",
+      "36216900",
+      "35921704",
+      "35795061",
+      "35762549",
+      "35502666",
+      "35463358",
+      "35454809",
+      "35177645",
+      "34884615",
+      "34849593",
+      "34806828",
+      "34414965",
+      "34068249",
+      "33579421",
+      "33577027",
+      "33430989",
+      "33293862",
+      "33106914",
+      "33033565",
+      "32863381",
+      "32512802",
+      "32468057",
+      "32384023",
+      "32344023",
+      "32180730",
+      "31781310",
+      "31357026",
+      "31068821",
+      "31064721",
+      "31036290",
+      "31024205",
+      "30918935",
+      "30598371",
+      "30472117",
+      "30355798",
+      "30236283",
+      "29658607",
+      "28694740",
+      "28444340",
+      "28278423",
+      "28224794",
+      "27545456",
+      "26927695",
+      "26457017",
+      "26002580",
+      "25860834",
+      "25822088",
+      "25561720",
+      "24850022",
+      "24160375",
+      "23695389",
+      "23525565",
+      "23458995",
+      "23426277",
+      "23092397",
+      "22768169",
+      "22198341",
+      "21988835",
+      "21534921",
+      "20465793",
+      "20458558",
+      "19509270",
+      "18856071",
+      "17975138",
+      "17059826",
+      "16922635",
+      "16389357",
+      "15870211",
+      "15123618",
+      "12667689",
+      "10940251",
+      "6548264"
+    ],
+    "similar": [
+      "41048345",
+      "38319987",
+      "34603487",
+      "38984486",
+      "31822116",
+      "36464255",
+      "33376723",
+      "34257537",
+      "41105990",
+      "34337056",
+      "32627011",
+      "30602391",
+      "35762549",
+      "41357200",
+      "39118438",
+      "33767726",
+      "34233850",
+      "39820926",
+      "41099846",
+      "33685467",
+      "41342434",
+      "39911278",
+      "40397117",
+      "32184169",
+      "40543694",
+      "39184354",
+      "32769939",
+      "40332418",
+      "32443377",
+      "33390802",
+      "33053978",
+      "40615101",
+      "36786134",
+      "34588861",
+      "39524833",
+      "40317014",
+      "39544939",
+      "34414947",
+      "33987018",
+      "31043166",
+      "31392101",
+      "40370109",
+      "36553600",
+      "36381283",
+      "31633428",
+      "40902811",
+      "38217310",
+      "39607545",
+      "35070431",
+      "37393234",
+      "37692934",
+      "34755666",
+      "37776011",
+      "39023830",
+      "35873910",
+      "38310567",
+      "31746405",
+      "40375878",
+      "30825595",
+      "35431572",
+      "31303768",
+      "33564675",
+      "36120772",
+      "40128499",
+      "40599803",
+      "30341252",
+      "39069810",
+      "32598174",
+      "28640074",
+      "37194229",
+      "38816744",
+      "41371106",
+      "33665036",
+      "37453621",
+      "40715829",
+      "35386284",
+      "33708237",
+      "41271048",
+      "37765047",
+      "40798963",
+      "33102593",
+      "40595076",
+      "32968453",
+      "36193154",
+      "37691428",
+      "37275579",
+      "37501756",
+      "39765633",
+      "28432618",
+      "39985046",
+      "39470543",
+      "40260672",
+      "40406126",
+      "31737652",
+      "38017425",
+      "32384023",
+      "40843941",
+      "35378002",
+      "39548390",
+      "40872535"
+    ],
+    "review": [
+      "41048345",
+      "38984486"
+    ],
+    "pmc": [
+      "12491263"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41048345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1567748",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

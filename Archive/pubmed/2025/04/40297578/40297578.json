@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40297578",
+    "doi": "10.3389/fimmu.2025.1555741",
+    "title": "Subtractive proteomics and reverse-vaccinology approaches for novel drug targets and designing a chimeric vaccine against Ruminococcus gnavus strain RJX1120."
+  },
+  "content": {
+    "abstract": "Mediterraneibacter gnavus, also known as Ruminococcus gnavus, is a Gram-positive anaerobic bacterium that resides in the human gut microbiota. Notably, this bacterium plays dual roles in health and disease. On one side it supports nutrient metabolism essential for bodily functions and on the other it contributes to the development of Inflammatory Bowel Disease (IBD) and other gastrointestinal disorders. R. gnavus strain RJX1120 is an encapsulated strain and has been linked to develop IBD. Despite the advances made on its role in gut homeostasis, limited information is available on strain-specific virulence factors, metabolic pathways, and regulatory mechanisms. The study of such aspects is crucial to make microbiota-targeted therapy and understand its implications in host health. A multi-epitope vaccine against R. gnavus strain RJX1120 was designed using reverse vaccinology-based subtractive proteomics approach. Among the 3,219 proteins identified in the R. gnavus strain RJX1120, two critical virulent and antigenic proteins, a Single-stranded DNA-binding protein SSB (A0A2N5PT08) and Cell division ATP-binding protein FtsE (A0A2N5NK05) were screened and identified as potential targets. The predicted B-cell and T-cell epitopes from these proteins were screened for essential immunological properties such as antigenicity, allergenicity, solubility, MHC binding affinity, and toxicity. Epitopes chosen were cross-linked using suitable spacers and an adjuvant to develop a multi-epitope vaccine. Structural refinement of the construct revealed that 95.7% of the amino acid residues were located in favored regions, indicating a high-quality structural model. Molecular docking analysis demonstrated a robust interaction between the vaccine construct and the human Toll-like receptor 4 (TLR4), with a binding energy of -1277.0 kcal/mol. The results of molecular dynamics simulations further confirmed the stability of the vaccine-receptor complex under physiological conditions. In silico cloning of the vaccine construct yielded a GC content of 48% and a Codon Adaptation Index (CAI) value of 1.0, indicating optimal expression in the host system. These results indicate the possibility of the designed vaccine construct as a candidate for the prevention of R. gnavus-associated diseases. However, experimental validation is required to confirm its immunogenicity and protective efficacy.",
+    "keywords": [
+      "Ruminococcus gnavus",
+      "immunoinformatics",
+      "inflammatory bowel disease (IBD)",
+      "multi-epitope vaccine",
+      "reverse vaccinology",
+      "subtractive proteomics"
+    ],
+    "mesh_terms": [
+      "*Proteomics/methods",
+      "*Bacterial Vaccines/immunology",
+      "Humans",
+      "*Vaccinology/methods",
+      "Bacterial Proteins/immunology/chemistry/metabolism",
+      "*Eubacteriales/immunology",
+      "Animals",
+      "*Gram-Positive Bacterial Infections/immunology/prevention & control/microbiology",
+      "Antigens, Bacterial/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dingding, Hou",
+        "Muhammad, Sher",
+        "Manzoor, Irfan",
+        "Ghaffar, Sana Abdul",
+        "Alodaini, Hissah Abdulrahman",
+        "Moubayed, Nadine Ms",
+        "Hatamleh, Ashraf Atef",
+        "Songxiao, Xu"
+      ],
+      "short_names": [
+        "Dingding H",
+        "Muhammad S",
+        "Manzoor I",
+        "Ghaffar SA",
+        "Alodaini HA",
+        "Moubayed NM",
+        "Hatamleh AA",
+        "Songxiao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China.",
+        "Postgraduate Training Base Alliance of Wenzhou Medical University (Zhejiang Cancer Hospital), Hangzhou, Zhejiang, China.",
+        "Faculty of Agriculture and Veterinary Sciences, Superior University Lahore, Lahore, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, Pakistan.",
+        "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Clinical Laboratory, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dingding, Hou",
+        "short_name": "Dingding H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China.",
+          "Postgraduate Training Base Alliance of Wenzhou Medical University (Zhejiang Cancer Hospital), Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Muhammad, Sher",
+        "short_name": "Muhammad S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture and Veterinary Sciences, Superior University Lahore, Lahore, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Manzoor, Irfan",
+        "short_name": "Manzoor I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ghaffar, Sana Abdul",
+        "short_name": "Ghaffar SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alodaini, Hissah Abdulrahman",
+        "short_name": "Alodaini HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Moubayed, Nadine Ms",
+        "short_name": "Moubayed NM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hatamleh, Ashraf Atef",
+        "short_name": "Hatamleh AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Songxiao, Xu",
+        "short_name": "Songxiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/29 06:26",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42076289",
+      "41888215",
+      "41599631",
+      "41449186",
+      "41011130"
+    ],
+    "refs": [
+      "39687693",
+      "39504600",
+      "39486983",
+      "39157328",
+      "39149030",
+      "38845922",
+      "38790371",
+      "38690283",
+      "38605988",
+      "38418560",
+      "37734419",
+      "37622435",
+      "37039696",
+      "37015876",
+      "36926275",
+      "36851219",
+      "36851141",
+      "36769124",
+      "36603375",
+      "36495868",
+      "36465492",
+      "36371806",
+      "36298525",
+      "36146470",
+      "35949048",
+      "35632575",
+      "35632507",
+      "35418729",
+      "35231667",
+      "35125571",
+      "35007945",
+      "34822069",
+      "34630910",
+      "34305354",
+      "33972416",
+      "33925069",
+      "33898733",
+      "33841489",
+      "33478787",
+      "33422682",
+      "33374551",
+      "33351863",
+      "33299503",
+      "33229461",
+      "33095861",
+      "32923703",
+      "32873757",
+      "32621841",
+      "32616763",
+      "32023919",
+      "31294229",
+      "31182571",
+      "30236283",
+      "28959259",
+      "28875543",
+      "28352270",
+      "28209898",
+      "28104964",
+      "28079879",
+      "27787831",
+      "27672674",
+      "27536699",
+      "26700440",
+      "25715096",
+      "25348405",
+      "24911789",
+      "24878803",
+      "24771341",
+      "24204617",
+      "23737448",
+      "23548139",
+      "21111484",
+      "20098705",
+      "19897660",
+      "19055730",
+      "18315857",
+      "17207271",
+      "15980527",
+      "15766548",
+      "14681410",
+      "9844827",
+      "9421529",
+      "8808585"
+    ],
+    "similar": [
+      "40297578",
+      "39514991",
+      "36775659",
+      "39018007",
+      "29899345",
+      "30918289",
+      "38790371",
+      "33866250",
+      "38923222",
+      "35429833",
+      "36459272",
+      "40226615",
+      "39082330",
+      "34425197",
+      "37608125",
+      "30243554",
+      "40265107",
+      "40018038",
+      "39809513",
+      "32771659",
+      "35863001",
+      "36845087",
+      "37934390",
+      "32931955",
+      "32928063",
+      "38870724",
+      "40292293",
+      "39460811",
+      "38710251",
+      "35670904",
+      "34939517",
+      "39935480",
+      "39936152",
+      "34917072",
+      "34611250",
+      "37781384",
+      "31634814",
+      "37415928",
+      "33368661",
+      "38799422",
+      "34997046",
+      "39034396",
+      "36091024",
+      "39221241",
+      "36366394",
+      "32169520",
+      "39441880",
+      "38112302",
+      "39571832",
+      "39762342",
+      "39060911",
+      "39840071",
+      "38812301",
+      "30822457",
+      "35335010",
+      "39153303",
+      "30448609",
+      "28919551",
+      "36298594",
+      "38418560",
+      "33352214",
+      "28194462",
+      "38028215",
+      "32035109",
+      "36851141",
+      "36150556",
+      "38143752",
+      "39002657",
+      "38690283",
+      "35371033",
+      "39521441",
+      "38141172",
+      "38336665",
+      "36776835",
+      "35180498",
+      "39611932",
+      "36016080",
+      "38226347",
+      "40074425",
+      "39504600",
+      "37774751",
+      "34566545",
+      "31751777",
+      "28826780",
+      "38776850",
+      "37073655",
+      "40136144",
+      "36439095",
+      "34220816",
+      "39065039",
+      "34994279",
+      "40125606",
+      "40177491",
+      "38915396",
+      "30797936",
+      "37271819",
+      "32126449",
+      "38959229",
+      "36586276",
+      "37798927"
+    ],
+    "review": [
+      "40297578"
+    ],
+    "pmc": [
+      "12034673"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40297578/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1555741",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

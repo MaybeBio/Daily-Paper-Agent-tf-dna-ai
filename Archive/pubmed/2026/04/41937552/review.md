@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a regulatory cascade in banana fruit ripening wherein the RING-H2-type E3 ligase MaRHA2A1 ubiquitinates and degrades the transcription factor MaMYB73 via the 26S proteasome, relieving MaMYB73-mediated repression of the ethylene biosynthetic gene MaACS1, thereby promoting ethylene production and ripening.
+- **Visible evidence base** Genome-wide identification of 14 MaACS genes; molecular dynamics simulation of MaACS1-SAM binding at R220; comparative genomics identifying three tomato orthologs (SlACS2, SlACS4, SlACS1B) with an expansion event; DNase-seq and DAP-seq showing MaMYB73 binding to the MaACS1 promoter; overexpression and VIGS experiments in banana and tomato; ubiquitination and degradation assays for MaRHA2A1 targeting MaMYB73; transient overexpression and silencing of MaRHA2A1 in banana.
+- **Missing materials affecting confidence** Full methods, statistical details, replicate numbers, effect sizes, raw sequencing data, molecular dynamics parameters, ubiquitination assay details, and all figures and tables. The abstract alone does not permit quantitative assessment of the strength of the reported effects.
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically plausible model for post-translational regulation of a transcription factor controlling ethylene biosynthesis in banana. The integration of multiple genomic and molecular approaches is ambitious and potentially valuable. However, the abstract-level evidence is insufficient to fully evaluate the rigor of the claims, particularly regarding the directness of MaMYB73 binding, the specificity of the MaRHA2A1-MaMYB73 interaction, and the quantitative contribution of this pathway to ripening phenotypes. The evolutionary comparison with tomato is intriguing but its relevance to the core mechanistic claim is not fully articulated.
+- **Who would be interested in the results, and why** Researchers studying fruit ripening biology, ethylene biosynthesis and signaling, post-translational regulation by ubiquitin-proteasome systems, and transcriptional control in crop species. The work may also interest those working on comparative genomics of climacteric fruits and on translational strategies for ripening control in banana and tomato.
+- **Major strengths** The study combines multiple orthogonal approaches, including genomics, transcriptomics, chromatin profiling, and molecular assays, to build a multi-layered regulatory model. The identification of a specific E3 ligase that degrades a transcriptional repressor of an ethylene biosynthetic gene provides a new mechanistic link between protein turnover and hormone production. The use of both overexpression and silencing in two fruit species strengthens the functional relevance of MaMYB73. The molecular dynamics prediction of the SAM-binding residue adds structural insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for direct binding
+  - **Claim pointer** The authors claim that MaMYB73 directly binds to the MaACS1 promoter based on DNase-seq and DAP-seq.
+  - **Evidence pointer** Methods section not provided; abstract mentions DNase-seq and DAP-seq
+  - **Concern** The abstract does not specify whether DAP-seq was performed with recombinant MaMYB73 protein or with nuclear extracts, nor whether binding was validated by independent methods such as electrophoretic mobility shift assay or chromatin immunoprecipitation-quantitative PCR. DNase-seq alone indicates open chromatin but does not demonstrate transcription factor occupancy.
+  - **Why it matters** The claim of direct transcriptional regulation is central to the proposed model. If MaMYB73 binding is indirect or not reproducible, the entire regulatory cascade loses its foundation.
+  - **Resolution test** Provide validation of MaMYB73 binding to the MaACS1 promoter using at least one independent biochemical assay, and show that the binding site is required for MaMYB73-mediated repression in a reporter assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for ubiquitination and degradation
+  - **Claim pointer** The authors claim that MaRHA2A1 targets MaMYB73 for ubiquitination and degradation via the 26S proteasome.
+  - **Evidence pointer** Methods section not provided; abstract mentions ubiquitination and degradation assays
+  - **Concern** The abstract does not specify whether ubiquitination was demonstrated in vitro with purified components, in vivo with mutant ubiquitin, or only inferred from degradation assays. It is also unclear whether the degradation is dependent on specific lysine residues in MaMYB73 and whether MaRHA2A1 directly interacts with MaMYB73.
+  - **Why it matters** The E3 ligase-substrate relationship is the second pillar of the proposed model. Without direct biochemical evidence, alternative explanations such as indirect effects on MaMYB73 stability cannot be excluded.
+  - **Resolution test** Show direct interaction between MaRHA2A1 and MaMYB73 by co-immunoprecipitation or yeast two-hybrid, demonstrate polyubiquitination of MaMYB73 in the presence of MaRHA2A1, and show that proteasome inhibition or mutation of ubiquitination sites blocks MaMYB73 degradation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of the proposed cascade
+  - **Claim pointer** The authors claim that MaRHA2A1 promotes ethylene production by reducing MaMYB73 accumulation, thereby derepressing MaACS1.
+  - **Evidence pointer** Transient overexpression and silencing experiments in banana
+  - **Concern** The abstract states that MaRHA2A1 overexpression increased MaACS1 expression and ethylene levels "possibly by reducing the accumulation of MaMYB73." The word "possibly" indicates that the causal link between MaRHA2A1-mediated MaMYB73 degradation and downstream ethylene changes was not directly demonstrated. It is unclear whether MaMYB73 protein levels were measured in the same tissues where ethylene was quantified.
+  - **Why it matters** The proposed cascade requires that MaRHA2A1 effects on ethylene are mediated through MaMYB73. If MaRHA2A1 also affects other substrates or pathways, the specificity of the model is weakened.
+  - **Resolution test** Perform a rescue experiment where MaMYB73 is co-expressed with MaRHA2A1 and show that the effect of MaRHA2A1 on MaACS1 expression and ethylene production is attenuated. Alternatively, use a MaMYB73 variant resistant to ubiquitination.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of comparative genomics to the core claim
+  - **Claim pointer** The authors claim that the orthogroup expansion in tomato correlates with increased ethylene production compared with banana.
+  - **Evidence pointer** Comparative genomics analysis; no specific data provided in abstract
+  - **Concern** The abstract does not provide quantitative data on ethylene production rates in the two species under comparable conditions, nor does it explain how the expansion event mechanistically relates to the MaMYB73-MaRHA2A1 regulatory module. The evolutionary analysis appears tangential to the main mechanistic story.
+  - **Why it matters** If the comparative genomics section is intended to support the physiological relevance of MaACS1, the link is not established. If it is a separate finding, it distracts from the core message.
+  - **Resolution test** Clarify the purpose of the comparative genomics analysis and either provide direct evidence linking the expansion to differential regulation or remove it from the main narrative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title and abstract
+  - **Issue** The title is grammatically awkward and may confuse readers. The phrase "by RING-H2-type E3 ligase MaRHA2A1-mediated ubiquitin-proteasomal degradation of MaMYB73" is a long modifier that obscures the subject-verb relationship.
+  - **Required correction** Rephrase the title to clearly indicate that MaRHA2A1 mediates degradation of MaMYB73, which in turn regulates MaACS1. For example, "RING-H2-type E3 ligase MaRHA2A1 promotes banana fruit ripening by ubiquitinating and degrading the transcription factor MaMYB73 to activate ethylene biosynthetic gene MaACS1."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract; no statistics provided
+  - **Issue** The abstract reports differences in gene expression and ethylene production without any statistical measures such as p-values, confidence intervals, or effect sizes.
+  - **Required correction** Include key statistical values in the abstract or indicate where they can be found in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of molecular dynamics
+  - **Affected element** MaACS1-SAM binding at R220
+  - **Evidence pointer** Molecular dynamics section not provided
+  - **Issue** The abstract states that MaACS1 binds SAM at residue R220 but does not indicate whether this was validated by mutagenesis or whether this residue is conserved across the identified MaACS family members.
+  - **Required correction** Provide experimental validation of the R220 residue or clarify that this is a computational prediction only.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of the model
+  - **Affected element** Regulation of MaACS1
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not address whether MaMYB73 is the only transcription factor regulating MaACS1 or whether other regulators contribute to the ripening-associated induction of this gene.
+  - **Required correction** Acknowledge potential additional regulators or provide evidence that MaMYB73 is the dominant repressor.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the direct binding of MaMYB73 to the MaACS1 promoter and the direct ubiquitination of MaMYB73 by MaRHA2A1 are not sufficiently evidenced from the abstract. R1-M3 requires additional causal experiments to link MaRHA2A1 activity to ethylene changes through MaMYB73 specifically.
+- **Assessment against Nature-style criteria** Originality: The proposed regulatory cascade involving an E3 ligase targeting a transcriptional repressor of an ethylene biosynthetic gene is a novel angle in fruit ripening research. Scientific importance: Ethylene biosynthesis regulation is a fundamental question in plant biology with direct applications to postharvest biology; the work has potential significance for banana and tomato improvement. Interdisciplinary readership: The study bridges genomics, biochemistry, and plant physiology, which could attract a broad readership, but the abstract is heavily focused on molecular details that may limit appeal to non-specialists. Technical soundness: The multi-method approach is commendable, but the abstract does not provide enough detail to assess the rigor of each method. Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple specialized techniques; the title is particularly difficult to parse.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed model is plausible and potentially significant, but the current abstract-level evidence does not fully establish the directness of the molecular interactions or the causal chain linking MaRHA2A1 to ethylene production through MaMYB73. Full evaluation requires access to the complete manuscript.
+
+## Risk / unsupported claims
+- The claim that MaMYB73 directly binds to the MaACS1 promoter is not fully supported by the abstract-level evidence; DNase-seq and DAP-seq alone may not establish direct binding.
+- The claim that MaRHA2A1 directly ubiquitinates MaMYB73 is not supported by the abstract-level evidence; no details on ubiquitination assays are provided.
+- The claim that the orthogroup expansion in tomato correlates with increased ethylene production is not quantitatively supported in the abstract.
+- The functional link between MaRHA2A1-mediated MaMYB73 degradation and ethylene production is described as "possibly" causal, indicating that this relationship is not fully established.
+- The molecular dynamics prediction of R220 as the SAM-binding residue is not experimentally validated in the abstract.

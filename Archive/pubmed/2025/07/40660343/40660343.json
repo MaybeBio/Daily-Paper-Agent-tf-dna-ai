@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40660343",
+    "doi": "10.1186/s13019-025-03530-7",
+    "title": "Identification and analysis of pyroptosis-related key genes in heart failure."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pyroptosis plays a pivotal role in the pathogenesis of Heart Failure (HF). However, the current understanding of how pyroptosis-related genes (PRGs) influence HF is scarce. This study aimed to explore the link between PRGs and HF based on bioinformatics. METHODS: Three datasets of HF were involved in this study.Candidate genes were identified by overlapping two sets of genes. The first set consisted of differentially expressed genes from differential expression analysis. The second set included critical module genes from weighted gene co-expression network analysis. Further, the key genes were screened based on machine learning algorithms. Furthermore, immune infiltration analysis and mRNA-Transcription factor (TF)/drug regulatory networks construction were implemented. Ultimately, we also verified the expression of key genes. RESULTS: In this study, we pinpointed seven key genes (SNORD76, RPS3A, SNORD1A, CCDC159, AMT, RANBP6, and CRAT) exhibiting superior diagnostic potential in HF. We found five distinct immune cell types to be significantly associated with these key genes. Moreover, CRAT and AMT were subject to regulation by PHF8. Additionally, AMT, RPS3A, and CRAT corresponded to eight potential therapeutic drugs. Importantly, the expression of CCDC159, CRAT, and AMT was consistent with the dataset. CONCLUSION: We identified the seven key genes that were intimately associated with HF, offering novel insights into the therapeutic targets for HF.",
+    "keywords": [
+      "Bioinformatic analysis",
+      "Heart failure",
+      "Immune infiltration analysis",
+      "Machine learning",
+      "Pyroptosis"
+    ],
+    "mesh_terms": [
+      "*Heart Failure/genetics",
+      "*Pyroptosis/genetics",
+      "Humans",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jing",
+        "Yue, Zhijie",
+        "Zhu, Na",
+        "Zhao, Na"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Yue Z",
+        "Zhu N",
+        "Zhao N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Internal Medicine, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China.",
+        "Department of Cardiovascular Internal Medicine, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China.",
+        "Department of Medical Record Management, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China.",
+        "Department of Imaging Medicine and Nuclear Medicine, The Second Hospital of Shanxi Medical University, Taiyuan, 030053, China. 635427848@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Internal Medicine, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Zhijie",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Internal Medicine, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Na",
+        "short_name": "Zhu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Record Management, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University,Tongji Shanxi Hospital, Taiyuan, 030032, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Na",
+        "short_name": "Zhao N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Imaging Medicine and Nuclear Medicine, The Second Hospital of Shanxi Medical University, Taiyuan, 030053, China. 635427848@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cardiothoracic surgery"
+    ],
+    "journal_abbrev": [
+      "J Cardiothorac Surg"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 00:30",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41567846"
+    ],
+    "refs": [
+      "39695414",
+      "39623254",
+      "38333413",
+      "38277535",
+      "38104141",
+      "38000202",
+      "37953279",
+      "37952827",
+      "37766966",
+      "37443356",
+      "37274336",
+      "37202741",
+      "37150036",
+      "37055935",
+      "37017808",
+      "36812125",
+      "36521489",
+      "36506327",
+      "36356543",
+      "36262286",
+      "36246620",
+      "36183550",
+      "35970871",
+      "35865939",
+      "35844396",
+      "35785176",
+      "35726312",
+      "35577506",
+      "35538059",
+      "35523821",
+      "35513901",
+      "35340217",
+      "35280928",
+      "35248047",
+      "35055179",
+      "34861788",
+      "34692796",
+      "34630414",
+      "34188515",
+      "33969020",
+      "33828074",
+      "33776057",
+      "33650267",
+      "33619348",
+      "33042616",
+      "32866470",
+      "32371045",
+      "32021639",
+      "31710896",
+      "30931480",
+      "30563726",
+      "30525268",
+      "30453885",
+      "30220559",
+      "30131868",
+      "29650126",
+      "29478345",
+      "29344893",
+      "29229958",
+      "29169044",
+      "28835994",
+      "28785969",
+      "28528324",
+      "27931032",
+      "27630515",
+      "27573815",
+      "26826716",
+      "26756631",
+      "26134005",
+      "25984239",
+      "25605792",
+      "25483282",
+      "24936064",
+      "24712469",
+      "24132163",
+      "23580606",
+      "23323831",
+      "22962896",
+      "22455463",
+      "22427379",
+      "21436361",
+      "20576703",
+      "19891795",
+      "19114008",
+      "17496320",
+      "15057824",
+      "14597658",
+      "10354194",
+      "9044528",
+      "7852915"
+    ],
+    "similar": [
+      "40660343",
+      "39512836",
+      "38890348",
+      "40350654",
+      "38062833",
+      "40091022",
+      "41410587",
+      "37386410",
+      "40659785",
+      "40617086",
+      "38277535",
+      "34218797",
+      "41208987",
+      "39062507",
+      "40670404",
+      "39351221",
+      "40367231",
+      "39909085",
+      "40169651",
+      "40405297",
+      "39351239",
+      "38509983",
+      "32620106",
+      "40438507",
+      "40977739",
+      "41189222",
+      "38034011",
+      "40406620",
+      "40205951",
+      "40901835",
+      "38236461",
+      "35128826",
+      "40307356",
+      "35844512",
+      "40753530",
+      "39415091",
+      "38017285",
+      "41479901",
+      "39696629",
+      "36071497",
+      "37727371",
+      "40603487",
+      "40819162",
+      "38981197",
+      "35990678",
+      "35957838",
+      "39978305",
+      "40374866",
+      "40958910",
+      "36291136",
+      "40808946",
+      "40685632",
+      "39953123",
+      "38567101",
+      "41291841",
+      "39142001",
+      "38686376",
+      "41078717",
+      "38355637",
+      "40630963",
+      "38282154",
+      "38347953",
+      "37752552",
+      "37872948",
+      "33259868",
+      "40216809",
+      "34514752",
+      "35367598",
+      "40332792",
+      "41239481",
+      "41153026",
+      "41136446",
+      "38402873",
+      "38767974",
+      "40781631",
+      "41052072",
+      "38886500",
+      "41291813",
+      "40374840",
+      "40453984",
+      "36782329",
+      "39462099",
+      "39177862",
+      "37275875",
+      "37330465",
+      "40818967",
+      "39143741",
+      "36029669",
+      "38587531",
+      "40196107",
+      "39494275",
+      "39375405",
+      "39574022",
+      "38656456",
+      "37008314",
+      "39897091",
+      "41013556",
+      "37974098",
+      "39586719",
+      "35727093"
+    ],
+    "review": [
+      "40660343",
+      "35367598"
+    ],
+    "pmc": [
+      "12257851"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-025-03530-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40660343/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "41416523",
+    "doi": "10.1093/nar/gkaf1380",
+    "title": "Heterochromatome wide analyses reveal MBD2 as a phase separation scaffold for heterochromatin compartmentalization and composition."
+  },
+  "content": {
+    "abstract": "Heterochromatin is essential for nuclear integrity, genome stability, and gene regulation. However, the mechanisms governing heterochromatin compartmentalization remain poorly understood. Recent studies suggest that phase separation underlies the organization of heterochromatin. Here, we integrated quantitative spatial proteomics, phase separation assays, and phase separation prediction tools to identify and characterize candidate phase separation scaffold proteins involved in heterochromatin compartmentalization. We in vitro reconstituted phase-separated heterochromatin condensates using heterochromatin fractions isolated from mouse brain. Mass spectrometric analysis yielded around 1000 proteins from which 250 were predicted to have scaffold phase separation properties using machine learning-based phase separation protein prediction tools. From these, 20 proteins, including methyl-CpG binding domain protein 2 (MBD2), were localized to pericentric heterochromatin compartments using gene ontology annotation analysis. We demonstrated that MBD2 undergoes liquid-liquid phase separation via C-terminus-mediated homo-oligomerization, forming liquid-like condensates that regulate heterochromatin compartmentalization. Moreover, we found that MBD2a and MBD2b exclude histone acetyltransferases (e.g. Kat7) and recruit histone deacetylases (e.g. HDAC11, GATAD2b) at pericentric heterochromatin, resulting in subsequent deacetylation of histone H3 K27 and K9 within heterochromatin. This study advances our understanding of heterochromatin compartmentalization and highlights the role of MBD2 in heterochromatin dynamics and composition functionally regulating chromatin states.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Heterochromatin/metabolism/chemistry/genetics",
+      "Animals",
+      "Mice",
+      "*DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Histones/metabolism",
+      "Proteomics/methods",
+      "Humans",
+      "Brain/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hui",
+        "Ugur, Enes",
+        "Hake, Christian",
+        "Romero, Hector",
+        "Arroyo, Maria",
+        "Mahmoud, Marah",
+        "Lermyte, Frederik",
+        "Leonhardt, Heinrich",
+        "Cardoso, M Cristina"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Ugur E",
+        "Hake C",
+        "Romero H",
+        "Arroyo M",
+        "Mahmoud M",
+        "Lermyte F",
+        "Leonhardt H",
+        "Cardoso MC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5086-6449",
+        "ORCID: 0000-0001-8427-8859"
+      ],
+      "affiliations": [
+        "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, Ludwig-Maximilians-Universitat Munchen,  81377 Munich, Germany.",
+        "Department of Proteomics and Signal Transduction, Max-Planck Institute of Biochemistry, 82152 Martinsried, Germany.",
+        "Clemens-Schopf Institute of Organic Chemistry and Biochemistry, Department of Chemistry, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Clemens-Schopf Institute of Organic Chemistry and Biochemistry, Department of Chemistry, Technical University of Darmstadt, 64287 Darmstadt, Germany.",
+        "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, Ludwig-Maximilians-Universitat Munchen,  81377 Munich, Germany.",
+        "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Ugur, Enes",
+        "short_name": "Ugur E",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, Ludwig-Maximilians-Universität München,  81377 Munich, Germany.",
+          "Department of Proteomics and Signal Transduction, Max-Planck Institute of Biochemistry, 82152 Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Hake, Christian",
+        "short_name": "Hake C",
+        "identifiers": [],
+        "affiliations": [
+          "Clemens-Schöpf Institute of Organic Chemistry and Biochemistry, Department of Chemistry, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Romero, Hector",
+        "short_name": "Romero H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Arroyo, Maria",
+        "short_name": "Arroyo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Mahmoud, Marah",
+        "short_name": "Mahmoud M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Lermyte, Frederik",
+        "short_name": "Lermyte F",
+        "identifiers": [],
+        "affiliations": [
+          "Clemens-Schöpf Institute of Organic Chemistry and Biochemistry, Department of Chemistry, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Leonhardt, Heinrich",
+        "short_name": "Leonhardt H",
+        "identifiers": [
+          "0000-0002-5086-6449"
+        ],
+        "affiliations": [
+          "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, Ludwig-Maximilians-Universität München,  81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Cardoso, M Cristina",
+        "short_name": "Cardoso MC",
+        "identifiers": [
+          "0000-0001-8427-8859"
+        ],
+        "affiliations": [
+          "Department of Biology, Technical University of Darmstadt, 64287 Darmstadt, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Nov 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 15:02",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40717330",
+      "38718835",
+      "38556549",
+      "38531854",
+      "38247831",
+      "38042897",
+      "37904585",
+      "37659604",
+      "37552759",
+      "37385984",
+      "36806742",
+      "36710442",
+      "36526633",
+      "36484697",
+      "36350672",
+      "36255628",
+      "36124686",
+      "36056023",
+      "35687670",
+      "35156529",
+      "35025997",
+      "34723319",
+      "34214177",
+      "33660589",
+      "33535034",
+      "32908311",
+      "32698189",
+      "32161792",
+      "32132616",
+      "32111972",
+      "32101728",
+      "32101700",
+      "31768060",
+      "31691822",
+      "31626804",
+      "31612960",
+      "31168090",
+      "30390097",
+      "30044650",
+      "29961577",
+      "29913160",
+      "29628210",
+      "29602697",
+      "29424691",
+      "29235574",
+      "28636604",
+      "28636597",
+      "28524723",
+      "27923996",
+      "27446199",
+      "27348712",
+      "27129196",
+      "25753662",
+      "24825614",
+      "24813856",
+      "24157548",
+      "23436904",
+      "23335972",
+      "22183608",
+      "22140431",
+      "21831886",
+      "21693597",
+      "20847228",
+      "19661918",
+      "19192299",
+      "18788935",
+      "17951627",
+      "16855289",
+      "15939760",
+      "15516265",
+      "14732680",
+      "12907790",
+      "12788925",
+      "12060735",
+      "11701123",
+      "9774669",
+      "9056221",
+      "3537305",
+      "2832738",
+      "1606615",
+      "563524"
+    ],
+    "similar": [
+      "41416523",
+      "30514760",
+      "40350613",
+      "28636597",
+      "40650903",
+      "31543422",
+      "38746378",
+      "15939760",
+      "31618757",
+      "36710442",
+      "32111972",
+      "31677973",
+      "35447032",
+      "41543173",
+      "32101700",
+      "31701657",
+      "40163528",
+      "38309957",
+      "28636604",
+      "37549295",
+      "41094145",
+      "14665632",
+      "15456747",
+      "38701672",
+      "15145825",
+      "40640210",
+      "38048471",
+      "19498464",
+      "10549285",
+      "12080091",
+      "41805129",
+      "40057003",
+      "39192031",
+      "11850619",
+      "29644850",
+      "31168090",
+      "16954381",
+      "33326747",
+      "41272271",
+      "33660589",
+      "40089655",
+      "31866201",
+      "29109278",
+      "32257349",
+      "10562550",
+      "15691849",
+      "15292231",
+      "41904596",
+      "35622527",
+      "25134515",
+      "12711603",
+      "23335972",
+      "21647300",
+      "31952807",
+      "12867029",
+      "19172751",
+      "38719804",
+      "31671722",
+      "40429984",
+      "11175742",
+      "18366812",
+      "22427655",
+      "35156529",
+      "21489993",
+      "27066839",
+      "38773107",
+      "23836914",
+      "32481609",
+      "19486527",
+      "35158124",
+      "15846093",
+      "8754835",
+      "42594211",
+      "10601331",
+      "30335163",
+      "38753956",
+      "31118512",
+      "11959841",
+      "27593931",
+      "40307576",
+      "21549307",
+      "16732292",
+      "34166371",
+      "15701600",
+      "31950239",
+      "16506098",
+      "42664965",
+      "11688997",
+      "12665568",
+      "12697822",
+      "37988476",
+      "27270040",
+      "12456661",
+      "28614747",
+      "10393197",
+      "40480227",
+      "31145866",
+      "18319327",
+      "41363845",
+      "36260743"
+    ],
+    "review": [
+      "41416523",
+      "36710442",
+      "38701672",
+      "40057003",
+      "29644850",
+      "40089655",
+      "41904596",
+      "40429984",
+      "32481609",
+      "16506098"
+    ],
+    "pmc": [
+      "12715500"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41416523/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41416523",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1380",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

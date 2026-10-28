@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no full text, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The abstract claims that a review of the Sirtuin family (SIRT1-SIRT7) in cancer immunoregulation establishes context-dependent tumor suppressor and oncogenic roles, identifies miR-34a as a central regulator via network analysis, validates a miRNA-transcription factor-Sirtuin axis for therapeutic targeting, and uses molecular docking between SIRT1 and HIF-1alpha to clarify the structural basis of deacetylation-mediated hypoxia signaling control
+- **Visible evidence base** Abstract text only; no methods, results, figures, tables, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods for network-based analysis and docking, docking scores and validation metrics, figures, tables, and any statistical or experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious review of Sirtuin biology in cancer, with a stated integrative approach combining pathway analysis, network-based methods, and molecular docking. The topic is timely and potentially of interest to the cancer biology and immunology communities. However, the abstract alone provides insufficient detail to assess the rigor of the network analysis, the validity of the docking study, or the novelty of the synthesis. Several claims are stated as established findings without visible supporting evidence. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Cancer biologists studying epigenetic regulation and metabolic reprogramming, immunologists focused on tumor immune evasion and Treg biology, and computational researchers interested in network-based drug target identification. The potential link between Sirtuins, miR-34a, and immunosuppression could attract translational researchers seeking new therapeutic targets in oncology.
+- **Major strengths** The abstract addresses a relevant and evolving area, namely the dual role of Sirtuins in cancer and immunity. The proposed integration of network analysis with docking-based structural insight is conceptually appealing. The focus on FOXP3 and Treg differentiation adds an immunoregulatory dimension that is often underrepresented in Sirtuin reviews.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that network-based analysis identified miR-34a as a central regulator and validated the miRNA-transcription factor-Sirtuin axis as a viable framework for therapeutic targeting  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No methodological detail, network construction criteria, node selection rationale, or statistical significance metrics are provided. The term "validated" implies a level of confirmation that cannot be assessed from the abstract alone.  
+  - **Why it matters** The central regulatory role of miR-34a is a key conclusion of the review. Without visible evidence of how the network was built and what metrics support the centrality claim, the conclusion is unsupported.  
+  - **Resolution test** Provide the full network analysis methods, including data sources, edge definition, centrality measures, and any permutation or enrichment tests. Show that miR-34a emerges as central under defined criteria and that the axis is supported by independent evidence.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that molecular docking between SIRT1 and HIF-1alpha clarifies the structural basis for deacetylation-mediated control of hypoxia signaling  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No docking scores, interaction residues, structural models, or validation steps are reported. The claim of "clarifying the structural basis" is a strong interpretive statement that requires quantitative and qualitative docking evidence.  
+  - **Why it matters** Docking studies are highly dependent on input structures, scoring functions, and validation. Without these details, the structural conclusion cannot be evaluated or reproduced.  
+  - **Resolution test** Report the PDB structures used, docking software and scoring function, top-ranked binding energies, key interacting residues, and comparison with known interaction interfaces or mutagenesis data if available.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and synthesis  
+  - **Claim pointer** The abstract claims the review "thoroughly focuses" on Sirtuin involvement in oxidative stress, redox signaling, and tumor-associated angiogenesis, and evaluates distinct biological footprints of nuclear, mitochondrial, and cytoplasmic Sirtuins  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not indicate what new synthesis or framework is offered beyond existing reviews on Sirtuins in cancer. The claim of "distinct biological footprints" is not substantiated with specific examples or comparative insights.  
+  - **Why it matters** For a review to be publishable at a high standard, it must offer a novel organizing principle or critical perspective. The abstract does not clearly articulate what is new relative to prior literature.  
+  - **Resolution test** Clarify in the abstract or introduction what specific gaps in the literature this review addresses and what novel integrative framework is proposed.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "pre-defined cellular disciplines" is vague and non-standard terminology.  
+  - **Required correction** Replace with a more precise term such as "regulatory checkpoints" or "homeostatic constraints."
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope justification  
+  - **Affected element** Cancer type selection  
+  - **Evidence pointer** Abstract, mention of breast, oral, and liver cancers  
+  - **Issue** The rationale for selecting these specific cancer types is not stated.  
+  - **Required correction** Briefly justify why these cancer types were chosen, for example due to known Sirtuin involvement or clinical relevance.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** Use of "validated"  
+  - **Evidence pointer** Abstract, network analysis claim  
+  - **Issue** The term "validated" is used without specifying the validation method.  
+  - **Required correction** Replace with "proposed" or "supported by network analysis" unless independent experimental validation is described.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of network-based regulation and docking-based structural insight are not supported by visible evidence. The abstract does not provide sufficient methodological detail to assess the validity of either analysis.
+- **Assessment against Nature-style criteria**  
+  - Originality: Not assessable from the abstract. The integrative angle is promising, but the abstract does not demonstrate a novel conceptual contribution beyond existing Sirtuin reviews.  
+  - Scientific importance: Potentially high, given the relevance of Sirtuins to cancer metabolism and immunity, but the importance of the specific claims depends on evidence not provided.  
+  - Interdisciplinary readership: The topic bridges epigenetics, cancer biology, immunology, and computational biology, which could attract a broad audience if the synthesis is rigorous.  
+  - Technical soundness: Not assessable. The network and docking methods are not described, and no validation metrics are provided.  
+  - Readability for nonspecialists: The abstract is generally readable, but some phrases are vague and the logic from review to network analysis to docking is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines an interesting scope, but the key analytical claims require full methodological transparency and supporting data. A revised manuscript with detailed methods and results for the network and docking components would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that miR-34a is a central regulator is unsupported without network analysis details.
+- The claim that the miRNA-transcription factor-Sirtuin axis is "validated" is unsupported without validation methodology.
+- The claim that docking between SIRT1 and HIF-1alpha clarifies the structural basis of deacetylation-mediated control is unsupported without docking metrics and structural details.
+- The claim of "distinct biological footprints" for nuclear, mitochondrial, and cytoplasmic Sirtuins is not substantiated with specific evidence in the abstract.
+- The overall statement that Sirtuins are "strategic targets for precision oncology" is a reasonable inference but is presented as a conclusion without supporting clinical or experimental evidence in the abstract.

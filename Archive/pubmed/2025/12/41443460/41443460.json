@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "41443460",
+    "doi": "10.1016/j.ijbiomac.2025.149851",
+    "title": "Zinc cofactor in human histone deacetylase 8: Requirement for function and opportunity for drug discovery."
+  },
+  "content": {
+    "abstract": "HDAC8 (histone deacetylase 8), a class I HDAC, is a promising target for different disorders: X-linked intellectual disability, fibrotic disease, cancer, and several neuropathological diseases. The structural and functional similarity between HDACs hinders the development of selective HDAC8 inhibitors. To date, no drugs based on competitive inhibition have been approved. In order to identify weaknesses in HDAC8 amenable to drug discovery, we report here a comprehensive thermodynamic characterization of the structural stability and its modulation by the interaction with its zinc (Zn(2+)) cofactor using a combination of experimental and computational techniques. HDAC8 represents an interesting example of an allosteric protein in the broad sense, in which its cofactor, the zinc ion, modulates its conformational equilibrium. The native, inactive, zinc-free state is physiologically relevant considering that the intracellular concentration of zinc is very low and may constitute a valid target for drug discovery.",
+    "keywords": [
+      "Binding equilibrium",
+      "Calorimetry",
+      "Conformational equilibrium",
+      "Histone deacetylase 8",
+      "Molecular dynamics simulations",
+      "Zinc-dependent protein"
+    ],
+    "mesh_terms": [
+      "*Histone Deacetylases/chemistry",
+      "*Repressor Proteins/chemistry",
+      "Humans",
+      "*Drug Discovery",
+      "*Zinc/chemistry",
+      "Enzyme Stability",
+      "Thermodynamics",
+      "*Histone Deacetylase Inhibitors/chemistry/isolation & purification",
+      "*Coenzymes/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garcia-Franco, Paula M",
+        "Falco-Marti, F Javier",
+        "Jeblaoui, Hajar",
+        "Asencio Del Rio, Marta",
+        "Ortega-Alarcon, David",
+        "Vega, Sonia",
+        "Galano-Frutos, Juan J",
+        "Abian, Olga",
+        "Velazquez-Campoy, Adrian"
+      ],
+      "short_names": [
+        "Garcia-Franco PM",
+        "Falco-Marti FJ",
+        "Jeblaoui H",
+        "Asencio Del Rio M",
+        "Ortega-Alarcon D",
+        "Vega S",
+        "Galano-Frutos JJ",
+        "Abian O",
+        "Velazquez-Campoy A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Certest Biotec S.L., 50840, San Mateo de Gallego, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Certest Biotec S.L., 50840, San Mateo de Gallego, Zaragoza, Spain.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain; Networking Biomedical Research Centre in Liver and Digestive Diseases (CIBERehd), 28029, Madrid, Spain; Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50009, Zaragoza, Spain. Electronic address: oabifra@unizar.es.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain; Networking Biomedical Research Centre in Liver and Digestive Diseases (CIBERehd), 28029, Madrid, Spain; Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50009, Zaragoza, Spain. Electronic address: adrianvc@unizar.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garcia-Franco, Paula M",
+        "short_name": "Garcia-Franco PM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Certest Biotec S.L., 50840, San Mateo de Gallego, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Falcó-Martí, F Javier",
+        "short_name": "Falcó-Martí FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Jeblaoui, Hajar",
+        "short_name": "Jeblaoui H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Asencio Del Rio, Marta",
+        "short_name": "Asencio Del Rio M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Ortega-Alarcon, David",
+        "short_name": "Ortega-Alarcon D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Vega, Sonia",
+        "short_name": "Vega S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Galano-Frutos, Juan J",
+        "short_name": "Galano-Frutos JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Certest Biotec S.L., 50840, San Mateo de Gallego, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Abian, Olga",
+        "short_name": "Abian O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain; Networking Biomedical Research Centre in Liver and Digestive Diseases (CIBERehd), 28029, Madrid, Spain; Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50009, Zaragoza, Spain. Electronic address: oabifra@unizar.es."
+        ]
+      },
+      {
+        "full_name": "Velazquez-Campoy, Adrian",
+        "short_name": "Velazquez-Campoy A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, 50018, Zaragoza, Spain; Institute for Health Research Aragon (IIS Aragon), 50009, Zaragoza, Spain; Networking Biomedical Research Centre in Liver and Digestive Diseases (CIBERehd), 28029, Madrid, Spain; Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50009, Zaragoza, Spain. Electronic address: adrianvc@unizar.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/25 00:29",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41443460",
+      "39427514",
+      "39039678",
+      "30347148",
+      "25407689",
+      "32737323",
+      "15477595",
+      "26996235",
+      "31606091",
+      "25516458",
+      "27750186",
+      "40541580",
+      "22272142",
+      "34369509",
+      "30369061",
+      "39604351",
+      "38871969",
+      "22429492",
+      "29533873",
+      "30145395",
+      "23591111",
+      "27374062",
+      "16250652",
+      "30633630",
+      "31748509",
+      "30594678",
+      "28632421",
+      "17346959",
+      "25757142",
+      "37870047",
+      "30611847",
+      "25879496",
+      "26595183",
+      "24888409",
+      "26452222",
+      "36077415",
+      "28846375",
+      "25793284",
+      "25060069",
+      "33266366",
+      "41599354",
+      "18412327",
+      "38530703",
+      "10748112",
+      "31630054",
+      "29775292",
+      "26463496",
+      "27860422",
+      "20157916",
+      "28805377",
+      "39608552",
+      "32672458",
+      "35886887",
+      "28937750",
+      "29190092",
+      "23672185",
+      "19053282",
+      "20568751",
+      "39357770",
+      "25986171",
+      "31633931",
+      "26013035",
+      "33686739",
+      "25605725",
+      "41720839",
+      "31952961",
+      "20472442",
+      "22431224",
+      "28705738",
+      "38835122",
+      "17627667",
+      "28607401",
+      "30521473",
+      "32658783",
+      "16681389",
+      "41730815",
+      "35311871",
+      "37972533",
+      "19355988",
+      "37969010",
+      "31057077",
+      "29685969",
+      "20656379",
+      "15242608",
+      "39939814",
+      "38296560",
+      "37227732",
+      "29150330",
+      "26264503",
+      "26806311",
+      "24375963",
+      "19947584",
+      "24171457",
+      "21790156",
+      "27459069",
+      "35514164",
+      "28261707",
+      "21334896",
+      "23732305",
+      "21872466"
+    ],
+    "review": [
+      "41443460",
+      "39427514",
+      "39039678",
+      "40541580",
+      "30594678",
+      "36077415",
+      "33266366",
+      "38530703",
+      "26013035",
+      "19355988",
+      "37227732"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)10408-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

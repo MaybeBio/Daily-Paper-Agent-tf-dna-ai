@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "41578471",
+    "doi": "10.1097/MD.0000000000047309",
+    "title": "An integrated machine learning framework for developing a transcriptomic analysis and machine learning-based diagnostic model of gout based on sleep disorder-related genes."
+  },
+  "content": {
+    "abstract": "Gout, often comorbid with sleep disorders (SDs), is prevalent in inflammatory arthritis. This comorbidity is notable in patients with impaired renal function requiring blood purification, with unclear underlying mechanisms. This study integrated transcriptomic analysis and machine learning to identify shared genetic markers and develop a diagnostic model for gout based on SD-related genes. Transcriptomic datasets from the Gene Expression Omnibus, including those of gout and SD patients, were systematically analyzed to develop the model. Differentially expressed genes (DEGs) associated with both conditions were identified and analyzed. Functional enrichment and immune infiltration analyses were performed using R packages. Immune infiltration analysis was conducted using single-sample gene set enrichment analysis. A gout diagnostic model was trained on the shared DEGs via machine learning methods. Eight shared DEGs were identified. Key pathways and molecular functions included DNA-binding protein serine/threonine kinase activity, arrhythmogenic right ventricular cardiomyopathy, and the Janus kinase/signal transducer and activator of transcription signaling pathway. Immune infiltration analysis revealed distinct immune cell infiltration profiles in gout and SD patients compared with healthy controls. A robust 8-gene diagnostic signature (APBA2, KLF13, FAM117A, IL6R, CCND3, WASF2, PROSC, and TAF1) was constructed. This study established a novel molecular framework linking gout pathogenesis with sleep disruption, thereby providing potential biomarkers for the early diagnosis and precision treatment of gout.",
+    "keywords": [
+      "blood purification",
+      "diagnostic model",
+      "gout",
+      "machine learning",
+      "renal function",
+      "sleep disorders",
+      "transcriptomic analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gout/genetics/diagnosis",
+      "*Machine Learning",
+      "*Gene Expression Profiling/methods",
+      "*Sleep Wake Disorders/genetics",
+      "*Transcriptome/genetics",
+      "Genetic Markers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Fangfang",
+        "Yang, Fan",
+        "Yang, Wenhua"
+      ],
+      "short_names": [
+        "Lu F",
+        "Yang F",
+        "Yang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6467-488",
+        "ORCID: 0009-0005-1239-9797"
+      ],
+      "affiliations": [
+        "Dialysis Room, People's Hospital of Linquan County, Fuyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Fangfang",
+        "short_name": "Lu F",
+        "identifiers": [
+          "0009-0007-6467-488"
+        ],
+        "affiliations": [
+          "Dialysis Room, People's Hospital of Linquan County, Fuyang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [
+          "0009-0005-1239-9797"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Wenhua",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jan 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/24 06:36",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40644887",
+      "40593528",
+      "40551987",
+      "40542388",
+      "40515956",
+      "40354091",
+      "40121243",
+      "40116723",
+      "40115054",
+      "40100530",
+      "40092053",
+      "40090614",
+      "40066230",
+      "40019122",
+      "39991372",
+      "39960566",
+      "39957704",
+      "39939917",
+      "39768539",
+      "39764563",
+      "39369964",
+      "39349506",
+      "39053079",
+      "39027467",
+      "38295082",
+      "38094893",
+      "38076050",
+      "38067370",
+      "38016360",
+      "37660060",
+      "37451483",
+      "37244070",
+      "36685888",
+      "36608535",
+      "36569836",
+      "35679791",
+      "35445840",
+      "34907116",
+      "34452639",
+      "34320630",
+      "33601387",
+      "30903565",
+      "30683158",
+      "25605792",
+      "22257669"
+    ],
+    "similar": [
+      "41578471",
+      "41200172",
+      "42363518",
+      "38754597",
+      "40374866",
+      "40613560",
+      "42260834",
+      "42254657",
+      "41265166",
+      "41424060",
+      "40046872",
+      "39351221",
+      "40500570",
+      "41080564",
+      "41013556",
+      "41703488",
+      "40689242",
+      "39507054",
+      "42327749",
+      "41291978",
+      "42015036",
+      "41665627",
+      "40253457",
+      "41789070",
+      "39509434",
+      "41895505",
+      "42216239",
+      "40406126",
+      "40532306",
+      "40540134",
+      "38919616",
+      "42377012",
+      "38951638",
+      "41816342",
+      "42352882",
+      "40340571",
+      "41790636",
+      "41188996",
+      "40596265",
+      "41826854",
+      "41220724",
+      "39295860",
+      "39586719",
+      "41052072",
+      "39976098",
+      "42292668",
+      "41146237",
+      "41316541",
+      "42193417",
+      "41686563",
+      "42123756",
+      "41866435",
+      "42326009",
+      "41287009",
+      "42195052",
+      "41432483",
+      "42247642",
+      "42306043",
+      "40594252",
+      "41474729",
+      "39139563",
+      "41233664",
+      "40097519",
+      "42064079",
+      "41716396",
+      "38867322",
+      "41219826",
+      "42056344",
+      "35378210",
+      "41162503",
+      "41310117",
+      "41858783",
+      "41790703",
+      "40761790",
+      "41548166",
+      "40599543",
+      "39341981",
+      "41291841",
+      "38863714",
+      "38951833",
+      "41816328",
+      "41257259",
+      "42175497",
+      "39142001",
+      "40273141",
+      "40421012",
+      "39512836",
+      "41107929",
+      "38767974",
+      "41789108",
+      "41887696",
+      "41735888",
+      "38783198",
+      "38711508",
+      "40313958",
+      "38571624",
+      "42305536",
+      "41388523",
+      "40725485",
+      "41656832"
+    ],
+    "review": [
+      "41578471",
+      "41665627"
+    ],
+    "pmc": [
+      "12851760"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=105&issue=4&spage=e47309&aulast=Lu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/gout.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Gout"
+      },
+      {
+        "url": "https://www.ovid.com/41578471.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41578471/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IL6R-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047309",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

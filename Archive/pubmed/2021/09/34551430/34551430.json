@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "34551430",
+    "doi": "10.1093/nar/gkab796",
+    "title": "Dual targeting of higher-order DNA structures by azacryptands induces DNA junction-mediated DNA damage in cancer cells."
+  },
+  "content": {
+    "abstract": "DNA is intrinsically dynamic and folds transiently into alternative higher-order structures such as G-quadruplexes (G4s) and three-way DNA junctions (TWJs). G4s and TWJs can be stabilised by small molecules (ligands) that have high chemotherapeutic potential, either as standalone DNA damaging agents or combined in synthetic lethality strategies. While previous approaches have claimed to use ligands that specifically target either G4s or TWJs, we report here on a new approach in which ligands targeting both TWJs and G4s in vitro demonstrate cellular effects distinct from that of G4 ligands, and attributable to TWJ targeting. The DNA binding modes of these new, dual TWJ-/G4-ligands were studied by a panel of in vitro methods and theoretical simulations, and their cellular properties by extensive cell-based assays. We show here that cytotoxic activity of TWJ-/G4-ligands is mitigated by the DNA damage response (DDR) and DNA topoisomerase 2 (TOP2), making them different from typical G4-ligands, and implying a pivotal role of TWJs in cells. We designed and used a clickable ligand, TrisNP-alpha, to provide unique insights into the TWJ landscape in cells and its modulation upon co-treatments. This wealth of data was exploited to design an efficient synthetic lethality strategy combining dual ligands with clinically relevant DDR inhibitors.",
+    "keywords": [],
+    "mesh_terms": [
+      "Antineoplastic Agents/*pharmacology",
+      "Azabicyclo Compounds/*pharmacology",
+      "*DNA/chemistry/metabolism",
+      "DNA Damage/*drug effects",
+      "G-Quadruplexes/*drug effects",
+      "Humans",
+      "MCF-7 Cells",
+      "Neoplasms/*genetics",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zell, Joanna",
+        "Duskova, Katerina",
+        "Chouh, Leila",
+        "Bossaert, Madeleine",
+        "Cheron, Nicolas",
+        "Granzhan, Anton",
+        "Britton, Sebastien",
+        "Monchaud, David"
+      ],
+      "short_names": [
+        "Zell J",
+        "Duskova K",
+        "Chouh L",
+        "Bossaert M",
+        "Cheron N",
+        "Granzhan A",
+        "Britton S",
+        "Monchaud D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4090-5897",
+        "ORCID: 0000-0002-0424-0461",
+        "ORCID: 0000-0002-7008-5316",
+        "ORCID: 0000-0002-3056-9295"
+      ],
+      "affiliations": [
+        "Institut de Chimie Moleculaire de l'Universite de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France.",
+        "Institut de Chimie Moleculaire de l'Universite de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France.",
+        "Institut Curie, CNRS UMR 9187, INSERM U1196, PSL Research University, 91405 Orsay, France.",
+        "Universite Paris Saclay, CNRS UMR 9187, INSERM U1196, 91405 Orsay, France.",
+        "Institut de Pharmacologie et de Biologie Structurale (IPBS), CNRS UMR 5089, Universite de Toulouse, UPS, Equipe labellisee la Ligue Contre le Cancer, 31077 Toulouse, France.",
+        "Pasteur, Departement de chimie, Ecole Normale Superieure (ENS), CNRS UMR8640, PSL Research University, Sorbonne Universite, 75005 Paris, France.",
+        "Institut Curie, CNRS UMR 9187, INSERM U1196, PSL Research University, 91405 Orsay, France.",
+        "Universite Paris Saclay, CNRS UMR 9187, INSERM U1196, 91405 Orsay, France.",
+        "Institut de Pharmacologie et de Biologie Structurale (IPBS), CNRS UMR 5089, Universite de Toulouse, UPS, Equipe labellisee la Ligue Contre le Cancer, 31077 Toulouse, France.",
+        "Institut de Chimie Moleculaire de l'Universite de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zell, Joanna",
+        "short_name": "Zell J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Chimie Moléculaire de l'Université de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France."
+        ]
+      },
+      {
+        "full_name": "Duskova, Katerina",
+        "short_name": "Duskova K",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Chimie Moléculaire de l'Université de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France."
+        ]
+      },
+      {
+        "full_name": "Chouh, Leïla",
+        "short_name": "Chouh L",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, CNRS UMR 9187, INSERM U1196, PSL Research University, 91405 Orsay, France.",
+          "Université Paris Saclay, CNRS UMR 9187, INSERM U1196, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Bossaert, Madeleine",
+        "short_name": "Bossaert M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale (IPBS), CNRS UMR 5089, Université de Toulouse, UPS, Équipe labellisée la Ligue Contre le Cancer, 31077 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Chéron, Nicolas",
+        "short_name": "Chéron N",
+        "identifiers": [
+          "0000-0002-4090-5897"
+        ],
+        "affiliations": [
+          "Pasteur, Département de chimie, École Normale Supérieure (ENS), CNRS UMR8640, PSL Research University, Sorbonne Université, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Granzhan, Anton",
+        "short_name": "Granzhan A",
+        "identifiers": [
+          "0000-0002-0424-0461"
+        ],
+        "affiliations": [
+          "Institut Curie, CNRS UMR 9187, INSERM U1196, PSL Research University, 91405 Orsay, France.",
+          "Université Paris Saclay, CNRS UMR 9187, INSERM U1196, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Britton, Sébastien",
+        "short_name": "Britton S",
+        "identifiers": [
+          "0000-0002-7008-5316"
+        ],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale (IPBS), CNRS UMR 5089, Université de Toulouse, UPS, Équipe labellisée la Ligue Contre le Cancer, 31077 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Monchaud, David",
+        "short_name": "Monchaud D",
+        "identifiers": [
+          "0000-0002-3056-9295"
+        ],
+        "affiliations": [
+          "Institut de Chimie Moléculaire de l'Université de Bourgogne (ICMUB), CNRS UMR 6302, UBFC Dijon, 21078 Dijon, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Oct 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/23 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [
+      "42221358",
+      "42206361",
+      "41123267",
+      "40952522",
+      "40810172",
+      "40243103",
+      "40088149",
+      "39656761",
+      "39428899",
+      "37863029",
+      "37351627",
+      "37318835",
+      "37191066",
+      "36382400",
+      "36213114",
+      "35871296"
+    ],
+    "refs": [
+      "35340894",
+      "34180392",
+      "33307247",
+      "33290612",
+      "32923997",
+      "32649862",
+      "32501506",
+      "32490593",
+      "32313204",
+      "32079423",
+      "32060097",
+      "32041867",
+      "31833764",
+      "31614754",
+      "31491448",
+      "31444749",
+      "31287417",
+      "31283214",
+      "31263220",
+      "31127411",
+      "31119604",
+      "30942581",
+      "30832234",
+      "30808951",
+      "30735654",
+      "30700033",
+      "30293786",
+      "30124962",
+      "30104284",
+      "29363591",
+      "29284393",
+      "29149299",
+      "28714480",
+      "28649135",
+      "28471430",
+      "28447610",
+      "28211448",
+      "28008184",
+      "27663528",
+      "26748828",
+      "26620784",
+      "26590714",
+      "26388771",
+      "26370899",
+      "26350216",
+      "26079222",
+      "25953507",
+      "25907220",
+      "25645726",
+      "25369056",
+      "24573252",
+      "24434211",
+      "24366029",
+      "24356977",
+      "23972098",
+      "23922305",
+      "23897892",
+      "23782415",
+      "23422559",
+      "23407358",
+      "23219604",
+      "23188717",
+      "23032257",
+      "22788766",
+      "22362757",
+      "22306580",
+      "22124482",
+      "21773671",
+      "21700210",
+      "21635933",
+      "21441464",
+      "21428443",
+      "21355072",
+      "20965415",
+      "20936610",
+      "20826608",
+      "20725622",
+      "20361057",
+      "20068163",
+      "19847258",
+      "19727556",
+      "19596811",
+      "19399780",
+      "19377506",
+      "19136957",
+      "19101470",
+      "19010844",
+      "19005492",
+      "18975896",
+      "18824478",
+      "18676453",
+      "18632578",
+      "18386278",
+      "18263609",
+      "17954919",
+      "17932567",
+      "17472899",
+      "17406391",
+      "17397023",
+      "17347517",
+      "17260991",
+      "16990858",
+      "16516932",
+      "16463312",
+      "16110319",
+      "16052031",
+      "16024823",
+      "15735722",
+      "15697230",
+      "15604286",
+      "15546735",
+      "12917635",
+      "12838348",
+      "12042765",
+      "11571274",
+      "10571994",
+      "10481274",
+      "9353129",
+      "9242427",
+      "8240389",
+      "8125998",
+      "7938552",
+      "6382953",
+      "4412247",
+      "4357757",
+      "2914905",
+      "2738938",
+      "2359136"
+    ],
+    "similar": [
+      "34551430",
+      "38873877",
+      "34638655",
+      "29149299",
+      "39244134",
+      "29611599",
+      "37699589",
+      "32312519",
+      "28130159",
+      "36662540",
+      "30529547",
+      "36636928",
+      "35156574",
+      "39288355",
+      "35166828",
+      "19566098",
+      "31833764",
+      "31446246",
+      "35670351",
+      "33533427",
+      "37855085",
+      "30591567",
+      "23782415",
+      "30942581",
+      "31532996",
+      "28025082",
+      "31759730",
+      "27838395",
+      "32142285",
+      "24533802",
+      "32246758",
+      "23326389",
+      "24138159",
+      "33961424",
+      "27836755",
+      "30949698",
+      "38301873",
+      "36063975",
+      "34346684",
+      "31162877",
+      "34045305",
+      "33632214",
+      "28232513",
+      "36563735",
+      "34180392",
+      "37094649",
+      "27865994",
+      "36456886",
+      "31701633",
+      "33807659",
+      "34560615",
+      "32183038",
+      "28109719",
+      "33852185",
+      "34443620",
+      "32467069",
+      "28620243",
+      "34875077",
+      "34681641",
+      "26943244",
+      "32807015",
+      "35229834",
+      "36243165",
+      "27115175",
+      "37476710",
+      "38407356",
+      "25466923",
+      "34139015",
+      "31296842",
+      "31087710",
+      "33899272",
+      "21750831",
+      "22410593",
+      "31940851",
+      "32454109",
+      "36286608",
+      "30736345",
+      "36971407",
+      "31255989",
+      "29301210",
+      "28025083",
+      "25694275",
+      "35584037",
+      "32279036",
+      "33347280",
+      "36674950",
+      "31262059",
+      "34166611",
+      "36010559",
+      "34289065",
+      "21884749",
+      "25618850",
+      "33914525",
+      "31287417",
+      "32920366",
+      "32313204",
+      "34400476"
+    ],
+    "review": [
+      "34551430",
+      "32312519",
+      "36636928",
+      "35156574",
+      "35670351",
+      "33533427",
+      "37855085",
+      "31532996",
+      "27838395",
+      "38301873",
+      "34045305",
+      "33632214",
+      "36456886",
+      "32467069",
+      "34681641",
+      "25466923",
+      "22410593",
+      "30736345",
+      "28025083",
+      "31262059",
+      "32313204"
+    ],
+    "pmc": [
+      "8501980"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34551430/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34551430",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1187",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab796",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

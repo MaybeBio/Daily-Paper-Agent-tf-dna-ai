@@ -1,0 +1,195 @@
+{
+  "identity": {
+    "pmid": "42379339",
+    "doi": "10.1016/j.biosystems.2026.105864",
+    "title": "Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models."
+  },
+  "content": {
+    "abstract": "Gene regulatory network (GRN) benchmarks are typically interpreted as if curated references were complete, yet they are not. We formalize observed-metric ceilings under partial positive labels and reanalyze existing benchmark outputs across 15 methods and 5 references. The methods include six edge sets derived from a single-cell foundation model (scGPT) via attention and gradient attribution probes, evaluated alongside classical statistical and tree-based inferers and a random control. Under a missing-at-random (MAR) label model, we derive explicit ceilings for observed F1 and AUPR, propagate coverage uncertainty via Beta posteriors, and stress-test assumption violations. Crucially, because real curated references concentrate on extensively studied regulators, we replace stylized non-MAR tests with study-biased missingness grounded in two annotation databases: transcription factors assayed by ChIP-seq (CistromeDB/ChIP-Atlas) and genes carrying Reactome pathway annotations. Across 39 AUPR-evaluable rows, the best normalized F1 and AUPR ratios are 0.137 and 0.014, median normalized AUPR is 5.56x10(-5), and only 3 of 39 rows exceed the observed random baseline; the foundation-model probes occupy the top of the ranking but still operate far below the observable ceiling. Restricting ground-truth edges to pathway-annotated genes leaves only  approximately  60% of edges observable and, at the empirically measured coupling between model scores and studied status, inflates observed AUPR by +0.040 above the MAR ceiling-intermediate between MAR ( approximately  0) and the stylized worst case (+0.151). Missing labels therefore explain only part of the performance gap; substantial model-to-biology mismatch persists after ceiling correction, and evaluation claims should be narrowed accordingly.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks/genetics",
+      "*Single-Cell Analysis/methods",
+      "*Computational Biology/methods",
+      "Humans",
+      "Algorithms",
+      "*Models, Genetic",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kendiukhov, Ihor"
+      ],
+      "short_names": [
+        "Kendiukhov I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of Tuebingen, Computer Science Department, Germany. Electronic address: ihor.kendiukhov@student.uni-tuebingen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kendiukhov, Ihor",
+        "short_name": "Kendiukhov I",
+        "identifiers": [],
+        "affiliations": [
+          "University of Tuebingen, Computer Science Department, Germany. Electronic address: ihor.kendiukhov@student.uni-tuebingen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bio Systems"
+    ],
+    "journal_abbrev": [
+      "Biosystems"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 00:35",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [
+      "42669717"
+    ],
+    "refs": [],
+    "similar": [
+      "42379339",
+      "42398561",
+      "40409400",
+      "42059479",
+      "41310253",
+      "29560827",
+      "36321557",
+      "38744843",
+      "40251476",
+      "38879931",
+      "30547796",
+      "40220759",
+      "38409223",
+      "41896196",
+      "30961611",
+      "29914350",
+      "41871930",
+      "41300707",
+      "31189480",
+      "39311699",
+      "22363578",
+      "39387266",
+      "25058159",
+      "29297370",
+      "39417321",
+      "29246163",
+      "33828122",
+      "41206950",
+      "41067887",
+      "21232107",
+      "32019417",
+      "40662821",
+      "40062616",
+      "26823190",
+      "28733120",
+      "26393364",
+      "36182867",
+      "32972997",
+      "26278974",
+      "29467401",
+      "39934680",
+      "40069299",
+      "39013340",
+      "42296381",
+      "37851522",
+      "27479082",
+      "40429912",
+      "33939795",
+      "38354497",
+      "24146602",
+      "39426072",
+      "41883144",
+      "38778003",
+      "38950180",
+      "23185389",
+      "36626328",
+      "23717196",
+      "24070402",
+      "31985403",
+      "28748400",
+      "37267145",
+      "41191474",
+      "39585902",
+      "41381899",
+      "20946602",
+      "35061589",
+      "32135093",
+      "30598101",
+      "32612246",
+      "41033661",
+      "39939367",
+      "40956752",
+      "28579401",
+      "40341271",
+      "21548810",
+      "21824970",
+      "20927193",
+      "41655240",
+      "33539514",
+      "38653489",
+      "38976751",
+      "19930695",
+      "31660848",
+      "39605181",
+      "42270687",
+      "41052214",
+      "41728283",
+      "21464514",
+      "20485743",
+      "30842463",
+      "38980373",
+      "19594874",
+      "41288963",
+      "25707768",
+      "17319944",
+      "39168402",
+      "31907445",
+      "40633682",
+      "40116659",
+      "28957658"
+    ],
+    "review": [
+      "42379339",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(26)00174-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

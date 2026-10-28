@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "39656918",
+    "doi": "10.1093/nar/gkae1121",
+    "title": "The C-terminal PHDVC5HCH tandem domain of NSD2 is a combinatorial reader of unmodified H3K4 and tri-methylated H3K27 that regulates transcription of cell adhesion genes in multiple myeloma."
+  },
+  "content": {
+    "abstract": "Histone methyltransferase NSD2 (MMSET) overexpression in multiple myeloma (MM) patients plays an important role in the development of this disease subtype. Through the expansion of transcriptional activating H3K36me2 and the suppression of repressive H3K27me3 marks, NSD2 activates an aberrant set of genes that contribute to myeloma growth, adhesive and invasive activities. NSD2 transcriptional activity also depends on its non-catalytic domains, which facilitate its recruitment to chromatin through histone binding. In this study, using NMR, ITC and molecular dynamics simulations, we show that the tandem PHD domain of NSD2 (PHDVC5HCHNSD2) is a combinatorial reader of unmodified histone H3K4 and tri-methylated H3K27 (H3K27me3). This is the first PHD tandem cassette known to decode the methylation status of H3K27. Importantly, in a NSD2-dependent MM cellular model, we show that expression of NSD2 mutants, engineered to disrupt the interaction between H3K27me3 and PHDVC5HCH, display in comparison to wild-type NSD2: incomplete loss of H3K27 methylation throughout the genome, decreased activation of adhesive properties and cell adhesion genes, and a decrease of the corresponding H3K27ac signal at promoters. Collectively, these data suggest that the PHDVC5HCH domain of NSD2 plays an important role in modulating gene expression and chromatin modification, providing new opportunities for pharmacological intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Multiple Myeloma/genetics/pathology/metabolism",
+      "Humans",
+      "*Histone-Lysine N-Methyltransferase/chemistry/genetics/metabolism",
+      "*Histones/metabolism/chemistry",
+      "Cell Adhesion/genetics",
+      "Methylation",
+      "*Repressor Proteins/chemistry/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Transcription, Genetic",
+      "Protein Domains",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Berardi, Andrea",
+        "Kaestner, Charlotte Leonie",
+        "Ghitti, Michela",
+        "Quilici, Giacomo",
+        "Cocomazzi, Paolo",
+        "Li, Jianping",
+        "Ballabio, Federico",
+        "Zucchelli, Chiara",
+        "Knapp, Stefan",
+        "Licht, Jonathan D",
+        "Musco, Giovanna"
+      ],
+      "short_names": [
+        "Berardi A",
+        "Kaestner CL",
+        "Ghitti M",
+        "Quilici G",
+        "Cocomazzi P",
+        "Li J",
+        "Ballabio F",
+        "Zucchelli C",
+        "Knapp S",
+        "Licht JD",
+        "Musco G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5702-3674",
+        "ORCID: 0000-0001-5995-6494",
+        "ORCID: 0000-0002-0469-2994"
+      ],
+      "affiliations": [
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy.",
+        "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA.",
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy.",
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy.",
+        "Biophysics Institute, CNR-IBF, Via Corti 12, 20133 Milan, Italy.",
+        "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA.",
+        "Department of Pharmacology, Physiology and Cancer Biology, Thomas Jefferson University, Philadelphia, PA 19107, USA.",
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy.",
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy.",
+        "Institute for Pharmaceutical Chemistry, Johann Wolfgang Goethe-University, 60438 Frankfurt am Main, Germany.",
+        "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA.",
+        "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Berardi, Andrea",
+        "short_name": "Berardi A",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Kaestner, Charlotte Leonie",
+        "short_name": "Kaestner CL",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA."
+        ]
+      },
+      {
+        "full_name": "Ghitti, Michela",
+        "short_name": "Ghitti M",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Quilici, Giacomo",
+        "short_name": "Quilici G",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Cocomazzi, Paolo",
+        "short_name": "Cocomazzi P",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Institute, CNR-IBF, Via Corti 12, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Li, Jianping",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA.",
+          "Department of Pharmacology, Physiology and Cancer Biology, Thomas Jefferson University, Philadelphia, PA 19107, USA."
+        ]
+      },
+      {
+        "full_name": "Ballabio, Federico",
+        "short_name": "Ballabio F",
+        "identifiers": [
+          "0000-0001-5702-3674"
+        ],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Zucchelli, Chiara",
+        "short_name": "Zucchelli C",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Knapp, Stefan",
+        "short_name": "Knapp S",
+        "identifiers": [
+          "0000-0001-5995-6494"
+        ],
+        "affiliations": [
+          "Institute for Pharmaceutical Chemistry, Johann Wolfgang Goethe-University, 60438 Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Licht, Jonathan D",
+        "short_name": "Licht JD",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology/Oncology, The University of Florida Health Cancer, 2033 Mowry Road, Gainesville, FL 32610, USA."
+        ]
+      },
+      {
+        "full_name": "Musco, Giovanna",
+        "short_name": "Musco G",
+        "identifiers": [
+          "0000-0002-0469-2994"
+        ],
+        "affiliations": [
+          "Biomolecular NMR Laboratory, Division of Genetics and Cell Biology c/o IRCCS Ospedale San Raffaele Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/15 19:30",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "41791710",
+      "41495645",
+      "40563566",
+      "40427595"
+    ],
+    "refs": [
+      "36271682",
+      "36047906",
+      "35895319",
+      "35412637",
+      "34824210",
+      "34782742",
+      "34782608",
+      "34417224",
+      "33522809",
+      "33361816",
+      "33277495",
+      "32470319",
+      "31882993",
+      "31649247",
+      "31582846",
+      "31300027",
+      "29930355",
+      "29788355",
+      "29067766",
+      "28470603",
+      "28291755",
+      "28193767",
+      "27312411",
+      "27079975",
+      "26912663",
+      "26896805",
+      "26574453",
+      "25516281",
+      "25188243",
+      "24753421",
+      "24695404",
+      "23980095",
+      "23579614",
+      "23269674",
+      "22936215",
+      "22728643",
+      "22194011",
+      "22099308",
+      "21816040",
+      "21813457",
+      "21664949",
+      "21514168",
+      "20974671",
+      "20856692",
+      "20513432",
+      "20373501",
+      "20124702",
+      "20124692",
+      "20110278",
+      "19808676",
+      "19788305",
+      "19461840",
+      "19059936",
+      "18682256",
+      "18156491",
+      "17984965",
+      "17955183",
+      "17942756",
+      "17212484",
+      "16297627",
+      "16009587",
+      "15815974",
+      "15677557",
+      "12842043",
+      "12393535",
+      "12079350",
+      "8756680",
+      "8744570",
+      "8520220",
+      "7514039"
+    ],
+    "similar": [
+      "39656918",
+      "25188243",
+      "31248990",
+      "41758961",
+      "22099308",
+      "23980095",
+      "40097917",
+      "25494638",
+      "26272979",
+      "33602783",
+      "26912663",
+      "22645312",
+      "41720070",
+      "34782608",
+      "31649247",
+      "32014459",
+      "20974671",
+      "34782742",
+      "18156491",
+      "22797064",
+      "34147909",
+      "27164560",
+      "19767730",
+      "40116454",
+      "38124661",
+      "27604143",
+      "38851815",
+      "21549310",
+      "19481544",
+      "19059936",
+      "27179444",
+      "40770093",
+      "18172012",
+      "33589584",
+      "21293379",
+      "27356987",
+      "33976366",
+      "22869745",
+      "23051747",
+      "31217297",
+      "15677557",
+      "35389552",
+      "31526565",
+      "33361816",
+      "22972034",
+      "27368234",
+      "26787850",
+      "36976643",
+      "30683853",
+      "35364436",
+      "22323599",
+      "29496997",
+      "39644397",
+      "38709169",
+      "17942756",
+      "30066931",
+      "26553048",
+      "39390582",
+      "22923582",
+      "30670815",
+      "39034728",
+      "22182520",
+      "23150054",
+      "40523621",
+      "38598835",
+      "24019522",
+      "33097091",
+      "29945974",
+      "21164480",
+      "33211010",
+      "20547150",
+      "38996954",
+      "24782528",
+      "33621919",
+      "23269674",
+      "35736136",
+      "17320162",
+      "34671018",
+      "30171259",
+      "36232375",
+      "19160493",
+      "39705735",
+      "16469305",
+      "32573059",
+      "26306033",
+      "22451926",
+      "31383640",
+      "21270517",
+      "30206163",
+      "34570240",
+      "17761849",
+      "20974918",
+      "22009739",
+      "24101509",
+      "41157092",
+      "34555356",
+      "39798773",
+      "39601900",
+      "27109101",
+      "41299174"
+    ],
+    "review": [
+      "39656918",
+      "36232375"
+    ],
+    "pmc": [
+      "11724302"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39656918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse274233",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae1121",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

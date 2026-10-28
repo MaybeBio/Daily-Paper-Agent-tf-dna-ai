@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "36494794",
+    "doi": "10.1186/s12859-022-05090-2",
+    "title": "Detecting clusters of transcription factors based on a nonhomogeneous poisson process model."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rapidly growing genome-wide ChIP-seq data have provided unprecedented opportunities to explore transcription factor (TF) binding under various cellular conditions. Despite the rich resources, development of analytical methods for studying the interaction among TFs in gene regulation still lags behind. RESULTS: In order to address cooperative TF binding and detect TF clusters with coordinative functions, we have developed novel computational methods based on clustering the sample paths of nonhomogeneous Poisson processes. Simulation studies demonstrated the capability of these methods to accurately detect TF clusters and uncover the hierarchy of TF interactions. A further application to the multiple-TF ChIP-seq data in mouse embryonic stem cells (ESCs) showed that our methods identified the cluster of core ESC regulators reported in the literature and provided new insights on functional implications of transcrisptional regulatory modules. CONCLUSIONS: Effective analytical tools are essential for studying protein-DNA relations. Information derived from this research will help us better understand the orchestration of transcription factors in gene regulation processes.",
+    "keywords": [
+      "Binding site",
+      "Nonhomogeneous Poisson process",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Transcription Factors/genetics/metabolism",
+      "Protein Binding/genetics",
+      "Cluster Analysis",
+      "*Genome",
+      "Gene Expression Regulation",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xiaowei",
+        "Liu, Shicheng",
+        "Liang, Guanying"
+      ],
+      "short_names": [
+        "Wu X",
+        "Liu S",
+        "Liang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Statistics, Virginia Tech, 250 Drillfield Drive, Blacksburg, VA, 24061, USA. xwwu@vt.edu.",
+        "Department of Mathematics, Virginia Tech, 225 Stanger Street, Blacksburg, VA, 24061, USA.",
+        "Department of Mathematics, Virginia Tech, 225 Stanger Street, Blacksburg, VA, 24061, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xiaowei",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Virginia Tech, 250 Drillfield Drive, Blacksburg, VA, 24061, USA. xwwu@vt.edu."
+        ]
+      },
+      {
+        "full_name": "Liu, Shicheng",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Virginia Tech, 225 Stanger Street, Blacksburg, VA, 24061, USA."
+        ]
+      },
+      {
+        "full_name": "Liang, Guanying",
+        "short_name": "Liang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Virginia Tech, 225 Stanger Street, Blacksburg, VA, 24061, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2022 Dec 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/11 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "39011297"
+    ],
+    "refs": [
+      "36643962",
+      "34292930",
+      "33456249",
+      "30697231",
+      "24790155",
+      "24603674",
+      "24062598",
+      "23953112",
+      "23847101",
+      "23793746",
+      "22705667",
+      "22115494",
+      "21602262",
+      "21152003",
+      "20211142",
+      "20096661",
+      "19995984",
+      "19498042",
+      "19167336",
+      "19079543",
+      "18692474",
+      "18555785",
+      "17940043",
+      "16904174",
+      "16518401",
+      "16153702",
+      "15860457",
+      "9570129",
+      "7590241"
+    ],
+    "similar": [
+      "36494794",
+      "19956545",
+      "20158869",
+      "21342583",
+      "34953471",
+      "37805453",
+      "29187152",
+      "24790155",
+      "25559499",
+      "27780826",
+      "28455373",
+      "23272209",
+      "30517703",
+      "32858223",
+      "24565265",
+      "30352610",
+      "21496241",
+      "18426580",
+      "24339764",
+      "25442502",
+      "24564277",
+      "35240993",
+      "25957350",
+      "28750606",
+      "23935523",
+      "30578913",
+      "22863112",
+      "34292930",
+      "22576095",
+      "32043966",
+      "30709337",
+      "24603674",
+      "23758851",
+      "28849563",
+      "22954627",
+      "26703974",
+      "36533916",
+      "31881824",
+      "22987856",
+      "25722376",
+      "26285121",
+      "23793746",
+      "24927817",
+      "30359306",
+      "28718849",
+      "27899623",
+      "27104615",
+      "16362910",
+      "27311443",
+      "32054475",
+      "24039567",
+      "24564528",
+      "21172055",
+      "31942977",
+      "26679776",
+      "38032891",
+      "24238150",
+      "29572359",
+      "30598100",
+      "24039560",
+      "31362726",
+      "30016330",
+      "22955990",
+      "23636944",
+      "25887857",
+      "23847101",
+      "28234893",
+      "28957653",
+      "34174819",
+      "34486522",
+      "19158363",
+      "31898480",
+      "28623590",
+      "31340985",
+      "22955979",
+      "24042128",
+      "21602262",
+      "9697188",
+      "31754708",
+      "37682473",
+      "30897079",
+      "20838582",
+      "22784574",
+      "24918633",
+      "27567672",
+      "31855461",
+      "23382538",
+      "31093693",
+      "18586698",
+      "32845706",
+      "27150017",
+      "32615918",
+      "26608661",
+      "36114445",
+      "38517697",
+      "30453943",
+      "26818008",
+      "17010188"
+    ],
+    "review": [
+      "36494794",
+      "31093693"
+    ],
+    "pmc": [
+      "9738027"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-05090-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36494794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36494794",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

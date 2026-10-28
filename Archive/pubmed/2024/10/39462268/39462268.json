@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "39462268",
+    "doi": "10.1111/jcmm.70163",
+    "title": "Multi-omics analysis reveals BZW1's regulation of EMT via the Wnt pathway in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Exploring the role of novel cancer gene BZW1 in lung adenocarcinoma (LUAD) and unveiling associated signalling pathways. Firstly, we conducted a pan-cancer analysis of BZW1 using multiple databases. Subsequently, leveraging single-cell data from LUAD, we successfully uncovered potential oncological processes associated with BZW1 and further validated them through experimentation. Simultaneously, we continued to investigate the potential molecular mechanisms underlying the oncological processes mediated by BZW1. Additionally, we employed various machine learning algorithms to construct prognostic models concerning BZW1 and the epithelial-mesenchymal transition (EMT) process. Our research firstly demonstrated the elevated expression of BZW1 in various cancer cells. Leveraging single-cell data from LUAD, we identified that BZW1 regulates the occurrence of EMT in LUAD, a phenomenon validated across multiple LUAD cell lines. Moreover, we further discovered that BZW1 regulates LUAD's EMT process through the Wnt/beta-catenin signalling pathway. Lastly, we successfully constructed prognostic models using BZW1-related genes and EMT genes.",
+    "keywords": [
+      "BZW1",
+      "EMT",
+      "Wnt/beta-catenin",
+      "lung adenocarcinoma"
+    ],
+    "mesh_terms": [
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "Humans",
+      "*Wnt Signaling Pathway/genetics",
+      "*Adenocarcinoma of Lung/genetics/pathology/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Lung Neoplasms/genetics/pathology/metabolism",
+      "Cell Line, Tumor",
+      "Prognosis",
+      "Transcription Factors/metabolism/genetics",
+      "Machine Learning",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lai, Wei",
+        "Ping, Zhou",
+        "Chen, Yun",
+        "Wang, Junrong",
+        "Liu, Yuyan",
+        "Zou, Shishi",
+        "Wang, Jieweng",
+        "Zhang, Tianyu",
+        "Ren, Wei",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Lai W",
+        "Ping Z",
+        "Chen Y",
+        "Wang J",
+        "Liu Y",
+        "Zou S",
+        "Wang J",
+        "Zhang T",
+        "Ren W",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6761-3158"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Wuhan Children's Hospital (Wuhan Maternal and Child Healthcare Hospital) Tongji Medical College, Huazhong University of Science & Technology, Wuhan, China.",
+        "Department of Thoracic Surgery, Xishui People's Hospital Affiliated to Hubei University of Science and Technology, Huanggang, Hubei, China.",
+        "Department of Head and Neck Surgery, Harbin Medical University Cancer Hospital, Harbin, China.",
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Cardiac Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lai, Wei",
+        "short_name": "Lai W",
+        "identifiers": [
+          "0009-0008-6761-3158"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ping, Zhou",
+        "short_name": "Ping Z",
+        "identifiers": [],
+        "affiliations": [
+          "Wuhan Children's Hospital (Wuhan Maternal and Child Healthcare Hospital) Tongji Medical College, Huazhong University of Science & Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yun",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Xishui People's Hospital Affiliated to Hubei University of Science and Technology, Huanggang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junrong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Surgery, Harbin Medical University Cancer Hospital, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuyan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Shishi",
+        "short_name": "Zou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jieweng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianyu",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Wei",
+        "short_name": "Ren W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiac Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/27 17:14",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42537474",
+      "41350974",
+      "40136455"
+    ],
+    "refs": [
+      "38432129",
+      "38334836",
+      "38290639",
+      "37852257",
+      "37828427",
+      "36923407",
+      "36852209",
+      "36729264",
+      "36243960",
+      "35396377",
+      "35078134",
+      "34980884",
+      "34951995",
+      "34766099",
+      "34557754",
+      "34456337",
+      "33886419",
+      "33393590",
+      "32945505",
+      "30955514",
+      "30329142",
+      "29092952",
+      "28407145",
+      "27908414",
+      "22588877",
+      "19446954",
+      "11524015"
+    ],
+    "similar": [
+      "39462268",
+      "39180939",
+      "42210256",
+      "41782112",
+      "42530242",
+      "41350974",
+      "40197379",
+      "41586577",
+      "40315631",
+      "41624864",
+      "41791465",
+      "38501421",
+      "42112349",
+      "42270842",
+      "32194819",
+      "41491011",
+      "38265409",
+      "39344317",
+      "40594106",
+      "39775732",
+      "41102854",
+      "42443661",
+      "42471072",
+      "39346927",
+      "39780110",
+      "40781712",
+      "38290639",
+      "42089585",
+      "39551781",
+      "41862916",
+      "35672776",
+      "31027730",
+      "33753463",
+      "41415280",
+      "42495647",
+      "40084259",
+      "40474570",
+      "39048677",
+      "30470570",
+      "30810286",
+      "40497948",
+      "38616208",
+      "40170083",
+      "26459797",
+      "41089696",
+      "38494915",
+      "40547013",
+      "41930176",
+      "40264773",
+      "42003422",
+      "39434164",
+      "39643024",
+      "39856156",
+      "41465277",
+      "38857560",
+      "40313958",
+      "40191724",
+      "39540350",
+      "30623445",
+      "33340396",
+      "37919050",
+      "40628815",
+      "34326687",
+      "25880337",
+      "41454525",
+      "41776080",
+      "41838238",
+      "41164195",
+      "41866442",
+      "41685607",
+      "29566281",
+      "41290994",
+      "39248069",
+      "40696794",
+      "38910478",
+      "39516442",
+      "33786609",
+      "41979566",
+      "39710011",
+      "32623387",
+      "41350865",
+      "41423496",
+      "40152390",
+      "40946875",
+      "40976828",
+      "33637678",
+      "41622242",
+      "32878967",
+      "38704137",
+      "41634895",
+      "41164190",
+      "42051516",
+      "38970264",
+      "30148686",
+      "41922577",
+      "38519636",
+      "41436784",
+      "38087364",
+      "41342545",
+      "42472388"
+    ],
+    "review": [
+      "39462268"
+    ],
+    "pmc": [
+      "11512756"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39462268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.70163",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

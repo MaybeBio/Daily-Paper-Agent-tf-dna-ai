@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38255924",
+  "title": "Classification of MLH1 Missense VUS Using Protein Structure-Based Deep Learning-Ramachandran Plot-Molecular Dynamics Simulations Method.",
+  "authors": "Tam, Benjamin; Qin, Zixin; Zhao, Bojin; Sinha, Siddharth; Lei, Chon Lok; Wang, San Ming",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习结合Ramachandran图和分子动力学模拟分类MLH1错义VUS，但对象是DNA错配修复蛋白而非TF-DNA互作，且未涉及蛋白-DNA结合建模，仅评估蛋白结构影响，与课题关联较弱。",
+  "abstract": "Pathogenic variation in DNA mismatch repair (MMR) gene MLH1 is associated with Lynch syndrome (LS), an autosomal dominant hereditary cancer. Of the 3798 MLH1 germline variants collected in the ClinVar database, 38.7% (1469) were missense variants, of which 81.6% (1199) were classified as Variants of Uncertain Significance (VUS) due to the lack of functional evidence. Further determination of the impact of VUS on MLH1 function is important for the VUS carriers to take preventive action. We recently developed a protein structure-based method named \"Deep Learning-Ramachandran Plot-Molecular Dynamics Simulation (DL-RP-MDS)\" to evaluate the deleteriousness of MLH1 missense VUS. The method extracts protein structural information by using the Ramachandran plot-molecular dynamics simulation (RP-MDS) method, then combines the variation data with an unsupervised learning model composed of auto-encoder and neural network classifier to identify the variants causing significant change in protein structure. In this report, we applied the method to classify 447 MLH1 missense VUS. We predicted 126/447 (28.2%) MLH1 missense VUS were deleterious. Our study demonstrates that DL-RP-MDS is able to classify the missense VUS based solely on their impact on protein structure.",
+  "abstract_zh": "DNA错配修复（MMR）基因MLH1的致病性变异与林奇综合征（Lynch syndrome, LS）相关，这是一种常染色体显性遗传性癌症。在ClinVar数据库中收集的3798个MLH1种系变异中，38.7%（1469个）为错义变异，其中81.6%（1199个）因缺乏功能证据被归类为意义不确定的变异（VUS）。进一步确定VUS对MLH1功能的影响对于VUS携带者采取预防措施至关重要。我们最近开发了一种基于蛋白质结构的方法，名为“深度学习-拉马钱德兰图-分子动力学模拟（DL-RP-MDS）”，用于评估MLH1错义VUS的有害性。该方法通过拉马钱德兰图-分子动力学模拟（RP-MDS）提取蛋白质结构信息，然后将变异数据与由自编码器和神经网络分类器组成的无监督学习模型相结合，以识别导致蛋白质结构显著变化的变异。在本报告中，我们应用该方法对447个MLH1错义VUS进行分类。我们预测126/447（28.2%）的MLH1错义VUS是有害的。我们的研究表明，DL-RP-MDS能够仅基于错义VUS对蛋白质结构的影响对其进行分类。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38255924/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38255924/",
+  "paper_page_path": "papers/pubmed/38255924/index.html"
+}

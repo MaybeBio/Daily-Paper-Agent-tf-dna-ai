@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.30.715237",
+  "title": "Explainable protein-protein binding affinity prediction via fine-tuning protein language models",
+  "authors": "Harshit Singh; Rajeev Kumar Singh; Satya Pratik Srivastava; Suryavedha Pradhan; Rohan Gorantla",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-01",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型微调预测蛋白质-蛋白质结合亲和力，虽非TF-DNA体系，但序列到互作亲和力的建模思路与可解释性方法可迁移至TF-DNA结合预测。",
+  "abstract": "Protein–protein interactions underpin virtually every aspect of cellular life, and the precise quantification of their binding affinity is fundamental to understanding immune recognition, disease mechanisms, and the rational design of therapeutic antibodies. Yet predicting binding affinity at scale remains an unsolved challenge: reliable experimental assays are low-throughput and expensive, while computational methods that depend on three-dimensional complex struc-tures cannot be applied to the vast majority of clinically relevant targets where structural data are absent. Here we present BALM-PPI, a framework that predicts protein–protein binding affinity from amino acid sequence alone. Both proteins are encoded by a protein language model trained on evolutionary sequence data and projected into a shared representational space, where their distance directly reflects binding strength. Fine-tuning this protein language model requires updating fewer than 1% of its parameters, and we show that this targeted adaptation steers the model toward interface-relevant sequence signals rather than spurious background correlations. On a curated benchmark of over 12,000 protein complexes, BALM-PPI matches or exceeds the accuracy of structure-based methods and retains predictive power for proteins with less than 30% sequence identity to the training set. Using only a subset of project-specific assay data, BALM-PPI outperforms a recent method trained on three times the data, suggesting that the model has already encoded the underlying interaction signals and requires only minimal supervision to specialise to a new target. BALM-PPI further provides residue-level attribution maps that pinpoint the amino acid positions driving each affinity prediction, consistently re-covering experimentally validated interaction hotspots across enzyme-inhibitor, signalling, and antibody-antigen systems without any structural input during training. This allows predictions to be cross-validated against structural and mutagenesis evidence, providing a mechanistic basis for candidate shortlisting ahead of experimental follow-up. BALM-PPI is freely accessible via an interactive web server.",
+  "abstract_zh": "蛋白质-蛋白质相互作用支撑着细胞生命的几乎每一个方面，对其结合亲和力的精确量化是理解免疫识别、疾病机制以及治疗性抗体合理设计的基础。然而，大规模预测结合亲和力仍是一个未解决的挑战：可靠的实验测定方法通量低且成本高，而依赖三维复合物结构的计算方法无法应用于绝大多数缺乏结构数据的临床相关靶点。在此，我们提出BALM-PPI，一个仅从氨基酸序列预测蛋白质-蛋白质结合亲和力的框架。两种蛋白质均由一个在进化序列数据上训练的蛋白质语言模型编码，并投影到一个共享表示空间中，其中它们的距离直接反映结合强度。微调该蛋白质语言模型只需更新其不到1%的参数，我们表明这种靶向适应将模型引向界面相关的序列信号，而非虚假的背景相关性。在一个包含超过12,000个蛋白质复合物的精选基准上，BALM-PPI达到或超过基于结构的方法的准确性，并对与训练集序列同一性低于30%的蛋白质保持预测能力。仅使用项目特定测定数据的子集，BALM-PPI优于一个在三倍数据上训练的最新方法，这表明该模型已编码了潜在的相互作用信号，只需极少的监督即可适应新靶点。BALM-PPI还提供残基级归因图，精确定位驱动每次亲和力预测的氨基酸位置，并在训练过程中无任何结构输入的情况下，一致地恢复酶-抑制剂、信号传导和抗体-抗原系统中经实验验证的相互作用热点。这使得预测能够与结构和突变证据进行交叉验证，为实验后续前的候选筛选提供机制基础。BALM-PPI通过交互式网络服务器免费访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715237",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715237",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.30.715237/index.html"
+}

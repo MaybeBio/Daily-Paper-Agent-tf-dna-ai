@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose PEPR-GNN, a graph neural network architecture that integrates perturbation, enhancer, promoter, and RNA modalities from Multiome Perturb-seq data to model regulomes. The abstract indicates the model is designed to predict transcriptional responses to perturbations by leveraging regulatory element interactions.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or results sections were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methodological details, quantitative results, benchmarking comparisons, and any validation or ablation studies. The abstract contains no numerical results or performance metrics.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph neural networks to a challenging and timely problem in regulatory genomics. However, the supplied material is insufficient to evaluate the technical soundness, novelty, or practical utility of the proposed method. The abstract lacks any quantitative results, comparisons to existing approaches, or details on model architecture and validation. The case for the method's effectiveness is not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on single-cell multiomics integration, regulatory genomics, and perturbation prediction. The topic is relevant to those studying gene regulatory networks and enhancer-promoter interactions, as well as those developing deep learning methods for genomic data.
+- **Major strengths** The problem addressed is timely and important, as Multiome Perturb-seq data are increasingly available and modeling regulomes from such data is a nontrivial challenge. The proposed integration of perturbation, enhancer, promoter, and RNA modalities within a graph neural network framework is conceptually reasonable and aligns with current trends in genomic deep learning.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract implies that PEPR-GNN effectively models regulomes and predicts transcriptional responses, but no performance metrics or validation results are provided.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract contains no quantitative results, no comparisons to baseline or existing methods, and no description of validation procedures. Without these, the technical soundness of the proposed model cannot be assessed.
+  - **Why it matters** A central claim of any methods paper is that the proposed approach works. The absence of any reported performance data means the reader cannot judge whether the model achieves its stated purpose.
+  - **Resolution test** Provide results on at least one benchmark dataset, including metrics such as prediction accuracy or correlation with held-out perturbation outcomes, and compare against at least one existing method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The abstract presents PEPR-GNN as a novel architecture, but no explicit statement of novelty relative to prior graph neural network approaches for perturbation modeling is given.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not articulate how PEPR-GNN differs from existing graph neural network models applied to Perturb-seq or regulatory genomics. Without a clear statement of novelty, the contribution is unclear.
+  - **Why it matters** For a methods paper, establishing novelty relative to prior work is essential. The reader cannot determine whether this is an incremental adaptation or a substantive advance.
+  - **Resolution test** Add a clear description of the novel components of the architecture and explicitly contrast with prior graph neural network methods for perturbation prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies a complete method, but no details on data preprocessing, model architecture, training procedure, or hyperparameters are given.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no methodological detail. Reproducibility is a core requirement for computational methods, and the supplied material does not allow any independent implementation or verification.
+  - **Why it matters** Without sufficient methodological detail, the work cannot be replicated or built upon, which limits its scientific utility.
+  - **Resolution test** Provide a full methods section with architecture specifications, training details, data preprocessing steps, and code availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract uses field-specific terms such as "Multiome Perturb-seq" and "regulomes" without defining them, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Briefly define these terms or provide context in the abstract to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not specify the exact prediction task, such as whether the model predicts gene expression changes, enhancer activity, or other outcomes.
+  - **Required correction** State the precise prediction target and the input-output relationship clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, novelty positioning, and methodological detail collectively prevent the case from being established.
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract, as no comparison to prior work is provided. Scientific importance: The topic is relevant, but the potential impact cannot be evaluated without results. Interdisciplinary readership: The abstract is likely to appeal to computational biologists and machine learning researchers, but the lack of accessible framing may limit broader appeal. Technical soundness: Not assessable, as no technical details or results are provided. Readability for nonspecialists: The abstract is concise but uses jargon without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims made. A full manuscript with results, comparisons, and methodological detail is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim that PEPR-GNN models regulomes effectively is unsupported, as no performance data are provided.
+- Any implied novelty of the architecture is unsupported, as no comparison to existing methods is given.
+- The general utility of the method for Multiome Perturb-seq data is not assessable from the abstract.

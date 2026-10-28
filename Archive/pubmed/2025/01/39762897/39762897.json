@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "39762897",
+    "doi": "10.1186/s12967-024-05983-1",
+    "title": "Comprehensive analysis of scRNA-seq and bulk RNA-seq reveals the non-cardiomyocytes heterogeneity and novel cell populations in dilated cardiomyopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dilated cardiomyopathy (DCM) is one of the most common causes of heart failure. Infiltration and alterations in non-cardiomyocytes of the human heart involve crucially in the occurrence of DCM and associated immunotherapeutic approaches. METHODS: We constructed a single-cell transcriptional atlas of DCM and normal patients. Then, the xCell algorithm, EPIC algorithm, MCP counter algorithm, and CIBERSORT method were applied to identify DCM-related cell types with a high degree of precision and specificity using RNA-seq datasets. We further analyzed the heterogeneity among cell types, performed trajectory analysis, examined transcription factor regulatory networks, investigated metabolic heterogeneity, and conducted intercellular communication analysis. Finally, we used bulk RNA-seq data to confirm the roles of M2-like2 subpopulations and GAS6 in DCM. RESULTS: We integrated and analyzed Single-cell sequencing (scRNA-seq) data from 7 DCM samples and 3 normal heart tissue samples, totaling 70,958 single-cell data points. Based on gene-specific expression and prior marker genes, we identified 9 distinct subtypes, including fibroblasts, endothelial cells, myeloid cells, pericytes, T/NK cells, smooth muscle cells, neuronal cells, B cells, and cardiomyocytes. Using machine learning methods to quantify bulk RNA-seq data, we found significant differences in fibroblasts, T cells, and macrophages between DCM and normal samples. Further analysis revealed high heterogeneity in tissue preference, gene expression, functional enrichment, immunodynamics, transcriptional regulatory factors, metabolic changes, and communication patterns in fibroblasts and myeloid cells. Among fibroblast subpopulations, proliferative F3 cells were implicated in the fibroblast transition process in DCM, while myofibroblast F6 cells promoted the fibroblast transition to a late cell state in DCM. Additionally, two subpopulations of M2 macrophages, M2-like1 and M2-like2, were identified with distinct features. The M2-like2 cell subpopulation, which was enriched in glycolysis and fatty acid metabolism, involved in inflammation inhibition and fibrosis promotion. Cell‒cell communication analysis indicated the GAS6-MERTK axis might exhibit interaction between M2 macrophage and M2-like1 macrophage. Furthermore, deconvolution analysis for bulk RNA-seq data revealed a significant increase in M2-like2 subpopulations in DCM, suggesting a more important role for this cell population in DCM. CONCLUSIONS: We revealed the heterogeneity of non-cardiomyocytes in DCM and identified subpopulations of myofibroblast and macrophages engaged in DCM, which suggested a potential significance of non-cardiomyocytes in treatment of DCM.",
+    "keywords": [
+      "Bulk RNA sequencing (Bulk RNA-seq)",
+      "Dilated cardiomyopathy (DCM)",
+      "Heterogeneity",
+      "Non-cardiomyocytes",
+      "Single-cell RNA sequencing (scRNA-seq)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cardiomyopathy, Dilated/genetics/pathology",
+      "*Single-Cell Analysis",
+      "*RNA-Seq",
+      "Sequence Analysis, RNA",
+      "Myocytes, Cardiac/metabolism/pathology",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Cell Communication/genetics",
+      "Genetic Heterogeneity",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Siyu",
+        "Li, Chunyu",
+        "Lu, Mingxin",
+        "Lin, Fang",
+        "Hu, Sangyu",
+        "Zhang, Junfang",
+        "Peng, Luying",
+        "Li, Li"
+      ],
+      "short_names": [
+        "He S",
+        "Li C",
+        "Lu M",
+        "Lin F",
+        "Hu S",
+        "Zhang J",
+        "Peng L",
+        "Li L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+        "Department of Cell and Genetics, Tongji University School of Medicine, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+        "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+        "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+        "Department of Cell and Genetics, Tongji University School of Medicine, Shanghai, 200120, China. lilirz@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Siyu",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunyu",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Mingxin",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Fang",
+        "short_name": "Lin F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Sangyu",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junfang",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Luying",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China. luyingpeng@tongji.edu.cn.",
+          "Department of Cell and Genetics, Tongji University School of Medicine, Shanghai, 200120, China. luyingpeng@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, School of Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+          "Shanghai Arrhythmias Research Center, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+          "Stem Cell Research Center, Medical School, Tongji University, Shanghai, 200120, China. lilirz@tongji.edu.cn.",
+          "Department of Cell and Genetics, Tongji University School of Medicine, Shanghai, 200120, China. lilirz@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Jan 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/07 00:21",
+    "fetched_at": "2026-09-30 09:13:46"
+  },
+  "links": {
+    "cites": [
+      "42597533",
+      "42585265",
+      "42505415",
+      "42470070",
+      "42247398",
+      "42088520",
+      "42048853",
+      "41981652",
+      "41691271",
+      "41561130",
+      "41481683",
+      "41393100",
+      "41288379",
+      "40934809",
+      "40447667"
+    ],
+    "refs": [
+      "39727175",
+      "38680232",
+      "38362682",
+      "38176345",
+      "38094695",
+      "38013255",
+      "37191968",
+      "36974722",
+      "36834946",
+      "36671398",
+      "36580193",
+      "35982296",
+      "35959412",
+      "35567658",
+      "34168130",
+      "34100920",
+      "34080425",
+      "34006454",
+      "33947203",
+      "33652022",
+      "32972203",
+      "32927431",
+      "32887881",
+      "32795101",
+      "32200803",
+      "32197460",
+      "32124324",
+      "32040933",
+      "31675496",
+      "31316208",
+      "31155234",
+      "31037622",
+      "30856000",
+      "30767143",
+      "30581002",
+      "30568043",
+      "30419824",
+      "29668883",
+      "29429633",
+      "29386203",
+      "29383634",
+      "29346760",
+      "29203644",
+      "29154687",
+      "29141660",
+      "29016704",
+      "28740514",
+      "27765066",
+      "27501447",
+      "27009176",
+      "26635390",
+      "26073943",
+      "25822800",
+      "25794429",
+      "25560320",
+      "25163698",
+      "24937432",
+      "24743145",
+      "24189625",
+      "24054926",
+      "22223210",
+      "20940169",
+      "20449953",
+      "19349980",
+      "19137541",
+      "18468826",
+      "17952642",
+      "17604329",
+      "15364610",
+      "12383574",
+      "8598070",
+      "7428441"
+    ],
+    "similar": [
+      "39762897",
+      "38664790",
+      "41496071",
+      "39161677",
+      "42391245",
+      "42247398",
+      "38799173",
+      "36068607",
+      "38886541",
+      "38727290",
+      "42459332",
+      "39395510",
+      "41722860",
+      "42309401",
+      "39923303",
+      "42500577",
+      "42045413",
+      "41864161",
+      "42137938",
+      "39273049",
+      "38462549",
+      "41126838",
+      "40161758",
+      "41601671",
+      "42292364",
+      "40205350",
+      "39221762",
+      "41131607",
+      "39938577",
+      "42136960",
+      "39363266",
+      "41917876",
+      "38962008",
+      "41612311",
+      "39206896",
+      "39905493",
+      "35850644",
+      "34514716",
+      "41242266",
+      "41635010",
+      "39893187",
+      "40616092",
+      "41088263",
+      "41102784",
+      "33618539",
+      "40362275",
+      "42745838",
+      "39917297",
+      "42040898",
+      "40370461",
+      "41299485",
+      "36439178",
+      "41761191",
+      "42211756",
+      "40711603",
+      "39384856",
+      "42363173",
+      "40750734",
+      "41601657",
+      "40120433",
+      "41425595",
+      "39067546",
+      "40345606",
+      "40078987",
+      "42140356",
+      "41139200",
+      "39691723",
+      "40102930",
+      "39267173",
+      "37345811",
+      "37650991",
+      "40808946",
+      "41918097",
+      "41997558",
+      "39014455",
+      "42045344",
+      "42227003",
+      "39224598",
+      "38265516",
+      "42358997",
+      "40382612",
+      "36238494",
+      "40323328",
+      "39364414",
+      "41031145",
+      "38515748",
+      "40806640",
+      "38181891",
+      "42642681",
+      "41733593",
+      "40383406",
+      "41766871",
+      "38594466",
+      "41257571",
+      "38310240",
+      "35841977",
+      "39674047",
+      "38739758",
+      "40799444",
+      "40764361"
+    ],
+    "review": [
+      "39762897",
+      "40345606"
+    ],
+    "pmc": [
+      "11702085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-05983-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39762897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

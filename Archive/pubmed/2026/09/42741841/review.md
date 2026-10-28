@@ -1,46 +1,101 @@
 ## Review setup
-- **Input scope** Full manuscript text including abstract, methods, results, discussion, and data availability statements. No figures, tables, or supplementary materials were provided for inspection.
-- **Assessment boundary** Evaluation is limited to the claims and methods as described in the text. Statistical results, figure contents, and supplementary analyses are referenced but not directly verifiable from the provided material.
-- **Shared manuscript claim summary** The authors present TFActProfiler, a resource and computational framework that integrates prior TF–mRNA knowledge with large-scale transcriptomic data to learn signed, quantitative TF–mRNA regulatory coefficients. They claim improved TF activity inference relative to existing resources, zero-shot perturbation prediction without task-matched training data, and broad applicability across human and mouse contexts, supported by multiple case studies.
-- **Visible evidence base** Text descriptions of benchmarks across 1,423 TF knockdown experiments in four human cell lines, mouse knockout benchmarks, scTF-seq validation, phosphoproteomics comparison, ligand–receptor inference improvement, and five case studies. Statistical values are cited in text (e.g., P values, correlations, AUCs) but underlying data, figures, and supplementary tables were not available for review.
-- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and the Zenodo data repository contents. Detailed benchmark protocols, hyperparameter settings, and exact statistical test configurations are only partially described. The full TFActProfiler coefficient table and its comparison with other resources could not be independently assessed.
+- **Input scope** Full manuscript text (abstract, methods, results, discussion, data availability) as provided by the authors. No supplementary figures, tables, or code were available for inspection.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the provided text. No assessment of code correctness, data availability, or reproducibility beyond what is stated.
+- **Shared manuscript claim summary** The authors present TFActProfiler, a resource of signed, quantitative TF–mRNA regulatory coefficients learned by integrating prior TF–mRNA knowledge with large-scale bulk and single-cell RNA-seq data. They claim improved TF activity inference over existing resources, zero-shot perturbation prediction without task-matched training data, and broad applicability across human and mouse contexts, supported by multiple case studies.
+- **Visible evidence base** Text descriptions of benchmarks (TF KD in four human cell lines, mouse KnockTF, scTF-seq), case studies (ccRCC, IPF, adipogenesis, torpor), and a reliability metric. All quantitative results are referenced to figures or supplementary materials that were not provided.
+- **Missing materials affecting confidence** All figures, supplementary tables, and supplementary figures. Exact performance numbers, statistical test details, and benchmark definitions are not visible. Code repository and web application were not inspected.
 
 ## Reviewer
-- **Overall assessment** This manuscript describes a substantial resource-building effort with a clear practical orientation. The integration of multiple prior sources with transcriptomic data to produce signed, quantitative TF–mRNA coefficients is a useful contribution, and the breadth of validation across diverse benchmarks is commendable. However, the current text does not provide sufficient methodological detail or direct evidence to fully evaluate the central claims. Several key comparisons, such as the precise advantage over existing resources and the robustness of the zero-shot prediction framework, are asserted rather than demonstrated in the visible text. The reliability metric is an interesting idea but its interpretation and validation require more careful exposition. The manuscript would benefit from clearer articulation of what is genuinely novel versus what is an incremental engineering contribution, and from a more critical discussion of the limitations of coexpression-based inference for regulatory direction.
-- **Who would be interested in the results, and why** Researchers working on TF activity inference from transcriptomic data, particularly those using regulon-based approaches such as decoupleR, VIPER, or SCENIC. The resource could also be of interest to computational biologists studying gene regulatory networks, perturbation prediction, and integrative analysis of bulk and single-cell data. The ligand–receptor inference application may appeal to those studying cell–cell communication. The case studies in cancer, adipogenesis, and torpor provide concrete examples that could attract users from those specific fields.
+- **Overall assessment** The manuscript addresses a real and important problem in transcriptional regulatory inference: the trade-off between coverage and precision in TF–mRNA resources, and the lack of signed regulatory information. The idea of learning signed coefficients by integrating prior knowledge with large-scale transcriptomic data is sensible and potentially useful. However, the manuscript as provided is largely a description of a resource and a set of claims, with the actual evidence confined to figures and supplementary materials that were not available for review. Several methodological details are underspecified, and some claims appear to exceed what the described analyses can support. The reliability metric is a useful conceptual addition but its validation is not described in sufficient detail. The perturbation prediction framework is interesting but the evaluation appears limited to correlation with observed KD contrasts, which may not constitute a strong test of predictive utility. Overall, the work is potentially valuable but the current evidence base is insufficient to fully assess its claims.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational genomics, and systems biology would be interested in a resource that provides signed TF–mRNA coefficients with broad coverage. Those working on TF activity inference from bulk or single-cell RNA-seq, and those interested in predicting transcriptional responses to TF perturbations, would find the resource and framework potentially useful. The case studies in disease contexts (ccRCC, IPF) may also appeal to translational researchers.
 - **Major strengths**
-  - The construction of a large-scale signed TF–mRNA resource (2.6 million interactions) addresses a real gap in the field, where many existing resources lack directional information.
-  - The validation strategy is broad, spanning multiple species, data types, and biological contexts, which strengthens the generalizability claims.
-  - The zero-shot perturbation prediction framework is a practical contribution for settings where matched perturbation data are unavailable.
-  - The reliability metric, while heuristic, addresses an important need for uncertainty awareness in regulon-based inference.
-  - The manuscript is generally well-written and the conceptual framing around precision-coverage trade-offs is clear.
+  - Addresses a clear gap: existing TF–mRNA resources often lack signed regulatory information or are limited in coverage.
+  - The integration of multiple prior sources with transcriptomic data to learn signed coefficients is a reasonable and potentially scalable strategy.
+  - The inclusion of a reliability metric for TF activity inference is a thoughtful addition that addresses a real limitation of existing methods.
+  - The breadth of validation, including human and mouse benchmarks and multiple case studies, is commendable if the results are as described.
+  - The zero-shot perturbation prediction framework, if validated, would be practically useful for small-n studies.
 - **Major Concerns**
-  - **R1-M1** (Blocking: Yes): The central claim of improved TF activity inference is not fully substantiated in the visible text. The authors state that TFActProfiler outperforms existing resources but do not provide the actual benchmark results, effect sizes, or statistical comparisons in the text. Without seeing the figures or supplementary tables, it is impossible to assess the magnitude of improvement or whether it is consistent across cell types and methods.
-  - **R1-M2** (Blocking: Yes): The zero-shot perturbation prediction framework is described mathematically, but the evaluation criteria are unclear. The authors emphasize Pearson correlation over MSE, which is appropriate for directional agreement, but the text does not specify how significance was determined, what the baseline expectations are, or how the results compare to the previously reported poor performance of other zero-shot methods. The claim that TFActProfiler enables prediction "without training on task-matched perturbation data" needs a clearer demonstration that this is not simply a trivial linear extrapolation.
-  - **R1-M3** (Blocking: Yes): The reliability metric is introduced as a key contribution, but its properties are not rigorously characterized. The authors acknowledge it is heuristic, yet they use it to draw conclusions about the quality of TF activity estimates. It is unclear what constitutes a "good" or "bad" score in absolute terms, how it behaves under different data conditions, and whether it correlates with actual inference accuracy in any validated setting.
-  - **R1-M4** (Blocking: No): The cross-species generalization claim relies on orthology mapping, but the text does not describe how orthology was established, how many TFs were successfully mapped, or whether the performance drop from human to mouse was statistically assessed. The scTF-seq analysis is mentioned but the details of the comparison are not provided.
-  - **R1-M5** (Blocking: No): The ligand–receptor inference improvement is presented as a single application, but the mechanism by which TF activity improves LR scoring is not explained. It is unclear whether the improvement is due to the specific TFActProfiler resource or would be observed with any reasonable TF activity estimate.
-  - **R1-M6** (Blocking: No): The case studies are presented as illustrative, but the statistical rigor varies. For example, the ccRCC analysis identifies several TFs associated with recurrence, but the multiple testing burden is not addressed. The TRPS1 and Atf3 analyses report P values without correction for the number of TFs examined.
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that TFActProfiler "improves TF activity inference in TF knockdown benchmarks relative to widely used regulon resources" and "enables prediction of transcriptome-wide gene expression responses to TF knockdown without training on task-matched perturbation data."
+  - **Evidence pointer** Results section, Figures 2B, 4B, 4D; Supplementary Figures S1B–S1E, S3C. Location not provided for exact values.
+  - **Concern** All quantitative results are presented only in figures and supplementary materials that were not provided. The text describes outcomes but does not include any numerical results, effect sizes, confidence intervals, or statistical test details. Without these, the strength and robustness of the claimed improvements cannot be assessed. For example, the claim that TFActProfiler outperforms CollecTRI is stated but the magnitude of the improvement, the variability across cell lines, and the statistical significance are not reported in the text.
+  - **Why it matters** The central claims of the manuscript rest on these benchmark results. If the improvements are marginal or inconsistent, the value of the resource is substantially diminished. The reader cannot evaluate whether the claims are justified.
+  - **Resolution test** Provide the actual benchmark results in the text or ensure that the figures and supplementary materials are available for review. Report effect sizes, confidence intervals, and statistical tests for the key comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The reliability metric is described as "a scale-comparable reliability score" based on the MSE between observed TF transcripts and their reconstruction through the composed mapping W·K.
+  - **Evidence pointer** Methods section, "Reliability estimation of TF activity inference". Location not provided.
+  - **Concern** The derivation of the reliability metric is not fully specified. The text states that the metric is based on the MSE between x_j and W·K·x_j, but it is not clear how this is computed in practice, how it is normalized, how it is interpreted, or how it was validated. The claim that this metric is "scale-comparable" is not justified. It is also unclear how this metric relates to the accuracy of TF activity inference, since it measures self-consistency rather than agreement with any ground truth.
+  - **Why it matters** The reliability metric is presented as a novel contribution. If it is not well-defined or validated, its utility is questionable. Moreover, the interpretation of the metric is not straightforward, and readers may misuse it.
+  - **Resolution test** Provide a precise mathematical definition of the metric, describe how it is computed in practice, and present validation results showing that it correlates with actual inference accuracy in settings where ground truth is known.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The manuscript states that TFActProfiler "supports systematic dissection of gene regulatory programs across diverse cellular contexts" and that the perturbation prediction framework is applicable "in small-n bulk case-control settings."
+  - **Evidence pointer** Abstract, Discussion. Location not provided.
+  - **Concern** The case studies are presented as demonstrations of utility, but the text does not describe any quantitative evaluation of these applications. For example, in the ccRCC case study, the authors state that several TF activities were "significantly and positively associated with recurrence risk" but do not report hazard ratios, confidence intervals, or how multiple testing was handled. In the IPF case study, the ranking of TFs is described but no validation is provided. The claim of broad applicability is therefore not supported by the evidence presented.
+  - **Why it matters** The case studies are intended to show that the resource is useful beyond benchmark settings. Without quantitative evaluation, they remain anecdotal.
+  - **Resolution test** Provide quantitative results for each case study, including effect sizes, statistical significance, and, where possible, comparison to existing methods or known biology.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark rigor
+  - **Claim pointer** The perturbation prediction evaluation uses "pseudobulk, z-normalized expression matrices" and compares predicted versus observed KD contrasts.
+  - **Evidence pointer** Methods, "Perturbation prediction using TF–mRNA priors without additional training data"; Results, Figure 4B. Location not provided.
+  - **Concern** The evaluation of perturbation prediction appears to rely on correlation between predicted and observed gene expression changes. This is a weak test, as a predictor that simply predicts the mean response or a small number of highly variable genes could achieve moderate correlation. The manuscript does not describe any baseline comparisons, such as predicting the observed response using the mean of all perturbations, or using a simple linear model without the TF–mRNA prior. The claim that TFActProfiler outperforms "state-of-the-art machine-learning baselines" in the setting with additional training data is not substantiated in the text.
+  - **Why it matters** The perturbation prediction claim is a major part of the manuscript's contribution. If the evaluation is not rigorous, the claim is not established.
+  - **Resolution test** Describe the baselines used for comparison, report the full distribution of performance across perturbations, and include a null model that does not use TF–mRNA information.
 - **Minor Comments**
-  - **R1-m1** (Severity: Minor, Axis: Clarity): The description of the regression model in the Methods section is incomplete. The text mentions ridge-regularized regression but does not specify the exact loss function, the standardization procedure, or how the regularization parameter was chosen for the resource construction.
-  - **R1-m2** (Severity: Minor, Axis: Reproducibility): The authors state that count matrices were used as provided without cross-dataset harmonization. This is a deliberate design choice, but the potential consequences for batch effects and dataset-specific biases are not discussed.
-  - **R1-m3** (Severity: Minor, Axis: Interpretation): The statement that TFActProfiler "is not limited to TFs" and contains cofactors is interesting but the implications for interpretation are not explored. Including cofactors in a TF activity inference framework could conflate distinct regulatory mechanisms.
-  - **R1-m4** (Severity: Minor, Axis: Completeness): The comparison with other zero-shot methods is mentioned in the Discussion but not in the Results. Given the claim that previous methods "were not significantly better than random," it would be helpful to see this comparison directly in the benchmark section.
-  - **R1-m5** (Severity: Minor, Axis: Presentation): The web application and GitHub repository are mentioned, but there is no description of the user interface, the input formats supported, or the computational requirements for running the tool.
-  - **R1-m6** (Severity: Minor, Axis: Statistical reporting): Several P values are reported in the case studies, but the exact statistical tests used are not always specified. For example, the Mann–Whitney U-test is mentioned for the PBMC analysis, but the test used for the TRPS1 temporal analysis is not stated.
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Construction of the TFActProFiler TF–mRNA interaction resource"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The description of the regression model is incomplete. The text states that "cluster-wise regularized regression" is used, but it is not clear what defines a cluster, how many clusters are used, or how the regularization parameter is chosen.
+  - **Required correction** Provide details on the clustering procedure and the regularization parameter selection.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Benchmarking of TF activity inference in human data"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The text states that the benchmark follows "previously established benchmarking strategies" and cites decoupleR, but it does not describe the exact procedure for ranking TFs or how ties are handled.
+  - **Required correction** Provide a step-by-step description of the ranking procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Case study 1
+  - **Evidence pointer** Location not provided.
+  - **Issue** The text reports P-values for the PAX5 and EOMES comparisons but does not state which statistical test was used or whether the distributions were approximately normal.
+  - **Required correction** Specify the statistical test used and consider reporting effect sizes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided.
+  - **Issue** The discussion states that TFActProFiler "should not be interpreted as precise mechanistic truths" but the manuscript title and abstract emphasize "regulatory atlas" and "perturbation prediction," which may lead readers to overinterpret the resource.
+  - **Required correction** Consider softening the language in the abstract or adding a clear disclaimer about the heuristic nature of the coefficients.
 - **Technical failings that need to be addressed before the case is established**
-  - R1-M1: Benchmark results must be shown with appropriate statistical comparisons and effect sizes.
-  - R1-M2: The zero-shot prediction evaluation needs clearer baselines, significance testing, and a demonstration that the method is not trivially extrapolating.
-  - R1-M3: The reliability metric requires characterization of its distribution, interpretation, and validation against known ground truth.
-  - R1-M4: Orthology mapping details and cross-species performance statistics must be provided.
-  - R1-M5: The mechanism by which TF activity improves LR inference should be explained.
-  - R1-M6: Multiple testing corrections should be applied or justified in the case studies.
+  - R1-M1: Quantitative results not visible in the provided text.
+  - R1-M2: Reliability metric not fully specified or validated.
+  - R1-M3: Case studies lack quantitative evaluation.
+  - R1-M4: Perturbation prediction evaluation lacks baseline comparisons.
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of integrating multiple prior sources with transcriptomic data to learn signed coefficients is not entirely new, but the scale and the specific combination of features (signed coefficients, broad coverage, reliability metric, zero-shot prediction) may offer a novel contribution. The originality is moderate.
+  - **Scientific importance** The problem of TF activity inference and perturbation prediction is important and of broad interest. If the resource is validated, it could be a useful community resource. The importance is potentially high, but the evidence presented is insufficient to confirm.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and researchers in gene regulation. The methods are not particularly accessible to a broad biological audience, and the manuscript does not make a strong effort to explain the concepts in intuitive terms. The interdisciplinary appeal is limited.
+  - **Technical soundness** The overall approach is reasonable, but the lack of visible quantitative results and the underspecified reliability metric prevent a full assessment. The benchmark design appears sound in principle, but the evaluation of perturbation prediction is weak. Technical soundness cannot be fully confirmed from the provided text.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with TF activity inference and perturbation prediction. The abstract is relatively clear, but the methods and results sections would be difficult for a nonspecialist to follow. Readability is adequate for a specialist audience but not for a general one.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful resource and framework, but the central claims are not supported by the visible text. The authors must provide the actual benchmark results, clarify the reliability metric, and strengthen the evaluation of perturbation prediction before the case can be made.
 
 ## Risk / unsupported claims
-- The claim that TFActProfiler "outperforms" existing resources is not verifiable from the text alone; benchmark figures and tables are required.
-- The claim that TFActProfiler enables perturbation prediction "without training on task-matched perturbation data" is only partially supported; the evaluation criteria and baselines are not fully described.
-- The reliability metric is claimed to be a key contribution, but its validity as a measure of inference quality is not established.
-- The cross-species generalization claim is supported only by a reference to supplementary figures; the details of orthology mapping and performance comparison are not visible.
-- The statement that TFActProfiler "is one of the most comprehensive and functionally informative TF–mRNA databases to date" is an assertion that requires direct comparison with other resources in terms of coverage, accuracy, and functional annotation.
-- The case study conclusions (ccRCC, TRPS1, Atf3) are presented as supportive evidence, but the statistical rigor and multiple testing considerations are not fully addressed in the text.
-- The claim that TFActProfiler "captures phosphorylation-driven TF activity dynamics" is based on a single dataset comparison; the generalizability of this finding is unclear.
+- The claim that TFActProFiler "improves TF activity inference" is unsupported in the provided text, as no quantitative results are visible.
+- The claim that TFActProFiler "enables prediction of transcriptome-wide gene expression responses to TF knockdown without training on task-matched perturbation data" is unsupported, as the evaluation is not described in sufficient detail.
+- The claim that the reliability metric is "scale-comparable" is unsupported, as the metric is not fully defined or validated.
+- The claim that TFActProFiler "supports systematic dissection of gene regulatory programs across diverse cellular contexts" is not supported by the case studies, which lack quantitative evaluation.
+- The claim that TFActProFiler achieves "performance comparable to state-of-the-art machine-learning baselines" when additional training data are available is not substantiated, as no baselines are described.

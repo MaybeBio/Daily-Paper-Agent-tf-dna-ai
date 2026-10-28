@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38644393",
+  "title": "DeepReg: a deep learning hybrid model for predicting transcription factors in eukaryotic and prokaryotic genomes.",
+  "authors": "Ledesma-Dominguez, Leonardo; Carbajal-Degante, Erik; Moreno-Hagelsieb, Gabriel; Perez-Rueda, Ernesto",
+  "journal": "Scientific reports",
+  "published_date": "2024-04-22",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN+BiLSTM混合深度学习模型预测原核/真核蛋白序列中的转录因子，虽涉及TF识别但非TF-DNA结合位点或互作机制建模，方法可迁移但对象与互作轴匹配度有限。",
+  "abstract": "Deep learning models (DLMs) have gained importance in predicting, detecting, translating, and classifying a diversity of inputs. In bioinformatics, DLMs have been used to predict protein structures, transcription factor-binding sites, and promoters. In this work, we propose a hybrid model to identify transcription factors (TFs) among prokaryotic and eukaryotic protein sequences, named Deep Regulation (DeepReg) model. Two architectures were used in the DL model: a convolutional neural network (CNN), and a bidirectional long-short-term memory (BiLSTM). DeepReg reached a precision of 0.99, a recall of 0.97, and an F1-score of 0.98. The quality of our predictions, the bias-variance trade-off approach, and the characterization of new TF predictions were evaluated and compared against those produced by DeepTFactor, as well as against experimental data from three model organisms. Predictions based on our DLM tended to exhibit less variance and bias than those from DeepTFactor, thus increasing reliability and decreasing overfitting.",
+  "abstract_zh": "深度学习模型（DLMs）在预测、检测、翻译和分类多种输入方面已变得日益重要。在生物信息学中，DLMs已被用于预测蛋白质结构、转录因子结合位点和启动子。在本研究中，我们提出了一种混合模型，用于在原核和真核蛋白质序列中识别转录因子（TFs），命名为深度调控（DeepReg）模型。该深度学习模型采用了两种架构：卷积神经网络（CNN）和双向长短期记忆网络（BiLSTM）。DeepReg达到了0.99的精确度、0.97的召回率和0.98的F1分数。我们评估了预测质量、偏差-方差权衡方法以及新TF预测的特征，并与DeepTFactor产生的预测结果以及来自三种模式生物的实验数据进行了比较。基于我们DLM的预测倾向于比DeepTFactor表现出更小的方差和偏差，从而提高了可靠性并减少了过拟合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38644393/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38644393/",
+  "paper_page_path": "papers/pubmed/38644393/index.html"
+}

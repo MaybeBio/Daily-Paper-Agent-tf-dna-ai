@@ -1,0 +1,565 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.14.688575",
+  "title": "mIDEA: An Interpretable Structure–Sequence Model for Methylation-Dependent Protein–DNA Binding Sensitivity",
+  "doi": "10.1101/2025.11.14.688575",
+  "abstract": "DNA methylation dynamically reshapes protein–DNA interaction landscapes, yet the mechanistic principles governing methylation-dependent recognition remain incompletely understood. Currently, there is no predictive framework that integrates methylation-aware binding specificity with 3D structure-based residue interactions for quantitatively assessing the impact of DNA methylation on protein–DNA interactions. To bridge this gap, we introduce mIDEA (Methylation-informed Interpretable protein–DNA Energy Associative model), a structure-aware, residue-level biophysical framework that predicts and interprets protein–methylated-DNA interactions by optimizing an amino acid–nucleotide energy matrix explicitly accounting for the modulatory effect of 5-methylcytosine. We validate mIDEA across diverse human transcription factors with distinct CpG methylation preferences. Using only structural templates and prior biochemical knowledge, mIDEA accurately recapitulates both “methyl-plus” and “methyl-minus” effects of DNA methylation on protein–DNA binding. Incorporating quantitative methylation-sensitive binding data further enables mIDEA to capture position-specific methylation effects. When integrated with whole-genome methylation profiles, the model enhances in vivo binding-site prediction by reducing false positives while preserving sensitivity compared to models trained on unmethylated sequences. Overall, mIDEA provides a principled framework for elucidating the molecular mechanisms underlying methylation-modulated protein–DNA recognition. The mIDEA source code is available at: https://github.com/LinResearchGroup-NCSU/IDEA_DNA_Methylation .",
+  "authors": [
+    "Yafan Zhang",
+    "Rina Li",
+    "Junhao Zhong",
+    "Xingcheng Lin"
+  ],
+  "published_date": "2025-11-16",
+  "updated_date": "2025-11-17T03:25:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688575",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688575.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2026-06-09T01:08:30Z",
+        "timestamp": 1780967310077,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 62,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                16
+              ]
+            ],
+            "date-time": "2025-11-16T00:00:00Z",
+            "timestamp": 1763251200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "North Carolina State University Startup Fund",
+          "award": [
+            "NC State Genetics and Genomics Academy Seed Fund"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NC State Genetics and Genomics Academy Seed Fund"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Carolina State University Startup Fund",
+          "award": [
+            "NC State Comparative Medicine Institute Ideation Fund"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NC State Comparative Medicine Institute Ideation Fund"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA methylation dynamically reshapes protein–DNA interaction landscapes, yet the mechanistic principles governing methylation-dependent recognition remain incompletely understood. Currently, there is no predictive framework that integrates methylation-aware binding specificity with 3D structure-based residue interactions for quantitatively assessing the impact of DNA methylation on protein–DNA interactions. To bridge this gap, we introduce mIDEA (Methylation-informed Interpretable protein–DNA Energy Associative model), a structure-aware, residue-level biophysical framework that predicts and interprets protein–methylated-DNA interactions by optimizing an amino acid–nucleotide energy matrix explicitly accounting for the modulatory effect of 5-methylcytosine. We validate mIDEA across diverse human transcription factors with distinct CpG methylation preferences. Using only structural templates and prior biochemical knowledge, mIDEA accurately recapitulates both “methyl-plus” and “methyl-minus” effects of DNA methylation on protein–DNA binding. Incorporating quantitative methylation-sensitive binding data further enables mIDEA to capture position-specific methylation effects. When integrated with whole-genome methylation profiles, the model enhances in vivo binding-site prediction by reducing false positives while preserving sensitivity compared to models trained on unmethylated sequences. Overall, mIDEA provides a principled framework for elucidating the molecular mechanisms underlying methylation-modulated protein–DNA recognition. The mIDEA source code is available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/LinResearchGroup-NCSU/IDEA_DNA_Methylation\">https://github.com/LinResearchGroup-NCSU/IDEA_DNA_Methylation</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2025.11.14.688575",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2025-11-17T03:25:13Z",
+        "timestamp": 1763349913000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "mIDEA: An Interpretable Structure–Sequence Model for Methylation-Dependent Protein–DNA Binding Sensitivity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7867-2873",
+          "authenticated-orcid": false,
+          "given": "Yafan",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-3307-9353",
+          "authenticated-orcid": false,
+          "given": "Rina",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-6699-2945",
+          "authenticated-orcid": false,
+          "given": "Junhao",
+          "family": "Zhong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9378-6174",
+          "authenticated-orcid": false,
+          "given": "Xingcheng",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2022.03.010"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13238-020-00733-7"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-05580-6"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00590-2"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1990"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14192"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-019-0159-6"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/npp.2012.112"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.12.023"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.07.030"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1598"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.10.021"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.11.619598"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02713-y"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.250746.114"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-018-0174-4"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae832"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2217/epi.15.39"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.00726"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-024-06992-y"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2017.05.069"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aao1799"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.146654.112"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01307-0"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-03070-0"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad693"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-022-04865-x"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2205796120"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adl2528"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.10.615955"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.19.624167"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02372-w"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.105565.2"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.84.21.7524"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijch.201300145"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.physchem.48.1.545"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-021-00076-1"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adl0161"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.09.10.675247"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18129/B9.bioc.SELEX"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1184"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0118432"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3306"
+        },
+        {
+          "issue": "11",
+          "key": "2025111901000550000_2025.11.14.688575v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.1038/nmeth.2238",
+          "article-title": "The ENCODE project",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471142727.mb2124s100"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-05265-7"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.08.14.670389"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.21856"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06745"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08514"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2010.190"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2012.012"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471142727.mb2129s109"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/pdb.prot5384"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14234"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biochem2040017"
+        },
+        {
+          "key": "2025111901000550000_2025.11.14.688575v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wrna.1834"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.14.688575",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:02:22Z",
+        "timestamp": 1768471342000
+      },
+      "score": 167.98598,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.14.688575"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "references-count": 62,
+      "URL": "https://doi.org/10.1101/2025.11.14.688575",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

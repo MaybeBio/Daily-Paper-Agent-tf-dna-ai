@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34093998",
+  "title": "PredTAD: A machine learning framework that models 3D chromatin organization alterations leading to oncogene dysregulation in breast cancer cell lines.",
+  "authors": "Chyr, Jacqueline; Zhang, Zhigang; Chen, Xi; Zhou, Xiaobo",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-06-08",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习模型PredTAD基于表观遗传特征预测TAD边界变化，虽涉及CTCF等TF-DNA结合数据，但核心是3D染色质结构而非TF-DNA互作建模，方法可迁移但对象偏离。",
+  "abstract": "Topologically associating domains, or TADs, play important roles in genome organization and gene regulation; however, they are often altered in diseases. High-throughput chromatin conformation capturing assays, such as Hi-C, can capture domains of increased interactions, and TADs and boundaries can be identified using well-established analytical tools. However, generating Hi-C data is expensive. In our study, we addressed the relationship between multi-omics data and higher-order chromatin structures using a newly developed machine-learning model called PredTAD. Our tool uses already-available and cost-effective datatypes such as transcription factor and histone modification ChIPseq data. Specifically, PredTAD utilizes both epigenetic and genetic features as well as neighboring information to classify the entire human genome as boundary or non-boundary regions. Our tool can predict boundary changes between normal and breast cancer genomes. Among the most important features for predicting boundary alterations were CTCF, subunits of cohesin (RAD21 and SMC3), and chromosome number, suggesting their roles in conserved and dynamic boundaries formation. Upon further analysis, we observed that genes near altered TAD boundaries were found to be involved in several important breast cancer signaling pathways such as Ras, Jak-STAT, and estrogen signaling pathways. We also discovered a TAD boundary alteration that contributes to RET oncogene overexpression. PredTAD can also successfully predict TAD boundary changes in other conditions and diseases. In conclusion, our newly developed machine learning tool allowed for a more complete understanding of the dynamic 3D chromatin structures involved in signaling pathway activation, altered gene expression, and disease state in breast cancer cells.",
+  "abstract_zh": "拓扑关联结构域（Topologically associating domains, TADs）在基因组组织和基因调控中发挥重要作用；然而，它们在疾病中常常发生改变。高通量染色质构象捕获技术，如Hi-C，能够捕获相互作用增强的结构域，并且可以使用成熟的分析工具识别TADs及其边界。然而，生成Hi-C数据成本高昂。在我们的研究中，我们利用一种新开发的机器学习模型PredTAD，探讨了多组学数据与高阶染色质结构之间的关系。我们的工具使用已有且成本效益高的数据类型，如转录因子和组蛋白修饰的ChIPseq数据。具体而言，PredTAD利用表观遗传和遗传特征以及邻近信息，将整个人类基因组分类为边界或非边界区域。我们的工具能够预测正常基因组与乳腺癌基因组之间的边界变化。在预测边界改变中，最重要的特征包括CTCF、cohesin亚基（RAD21和SMC3）以及染色体编号，这表明它们在保守和动态边界形成中的作用。进一步分析后，我们观察到靠近改变的TAD边界的基因涉及多种重要的乳腺癌信号通路，如Ras、Jak-STAT和雌激素信号通路。我们还发现了一个TAD边界改变，其导致RET癌基因过表达。PredTAD还能成功预测其他条件和疾病中的TAD边界变化。总之，我们新开发的机器学习工具使得对乳腺癌细胞中涉及信号通路激活、基因表达改变和疾病状态的动态3D染色质结构有了更全面的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34093998/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34093998/",
+  "paper_page_path": "papers/pubmed/34093998/index.html"
+}

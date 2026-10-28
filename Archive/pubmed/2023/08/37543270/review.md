@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report synthesis and characterization of a new water-soluble Pt(II) complex, [Pt(phen)(FIP)](NO3)2, with proposed anticancer activity. They claim DFT-based geometry evaluation, drug-like properties from ADMET prediction, cytotoxicity against MCF7, A549, and HCT116 cell lines, cellular accumulation related to lipophilicity and solubility, groove binding to ct-DNA from fluorescence, circular dichroism, viscosity, and molecular docking, and DNA destabilization from molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, characterization data (e.g., NMR, IR, elemental analysis), cytotoxicity dose-response curves, IC50 values, statistical details, docking scores, MD trajectory parameters, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multidisciplinary study combining synthesis, computational modeling, and biological evaluation of a novel Pt complex. However, the evidence base is too limited to assess the validity of the central claims. Key quantitative results, experimental controls, and methodological details are absent. The claim of groove binding is supported only by qualitative statements, and the link between computational predictions and experimental observations is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, anticancer drug design, and DNA-targeting therapeutics would be interested. The combination of experimental and theoretical approaches may appeal to those studying structure-activity relationships of Pt-based compounds and their interaction mechanisms with DNA.
+- **Major strengths** The study addresses a relevant topic in anticancer drug development, specifically the design of water-soluble Pt complexes with potential improved properties. The use of multiple complementary techniques, including spectroscopy, viscosity, docking, and MD simulations, suggests a comprehensive approach. The inclusion of ADMET prediction and cellular accumulation data indicates attention to drug-like properties.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The complex was "prepared and specified" and "DFT data can be used to evaluate geometry parameters."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No characterization data are presented to confirm the identity, purity, or structural integrity of the synthesized complex. The statement that DFT was used to evaluate geometry parameters is vague and does not specify which parameters were computed, at what level of theory, or how they compare with experimental data.
+  - **Why it matters** Without proper characterization, the identity of the complex is unverified, and all subsequent biological and computational claims rest on an unconfirmed compound. DFT results are only meaningful if benchmarked against experimental structural data.
+  - **Resolution test** Provide elemental analysis, NMR, IR, and mass spectrometry data. Include DFT-optimized geometry parameters with a comparison to experimental crystal structure or solution-phase data, and specify the functional and basis set used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Cytotoxicity property was evaluated against some human cancerous MCF7, A549, and HCT116 cell lines."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative cytotoxicity data are provided, such as IC50 values, dose-response curves, or statistical comparisons with cisplatin and oxaliplatin. The statement is qualitative and does not allow assessment of the compound's efficacy or selectivity.
+  - **Why it matters** The anticancer potential is a central claim of the study. Without quantitative data and appropriate controls, the biological relevance cannot be evaluated.
+  - **Resolution test** Report IC50 values with standard deviations for all cell lines, include dose-response curves, and compare with reference drugs under identical conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The binding mode of the complex to ct-DNA was investigated by fluorescence spectroscopy, circular dichroism, and molecular docking simulation. The viscosity of DNA by different concentrations of EB and Pt complex titration shows Pt complex interacts with DNA via groove binding like the spectroscopic binding result."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The conclusion of groove binding is based on qualitative statements without presenting key data, such as fluorescence quenching constants, CD spectral changes, viscosity plots, or docking scores. The viscosity experiment is described ambiguously, and it is unclear how EB competition was used to distinguish groove binding from intercalation.
+  - **Why it matters** DNA binding mode is a core mechanistic claim. Without quantitative binding parameters and proper controls, the conclusion is not supported.
+  - **Resolution test** Provide Stern-Volmer quenching constants, CD spectral titrations with molar ellipticity values, viscosity plots showing relative viscosity changes, and docking results with binding energies and interacting residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In the MD study, DNA helix, RMSD, and RMSF analysis showed that DNA stability decreased and that the majority of residues left the initial state. DNA increased residual deviations and flexibility are linked to an increase in its gyratory radius, which is consistent with the findings of the experiments."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The MD simulation results are described without any quantitative details, such as simulation time, force field, RMSD and RMSF values, or comparison with a control simulation of free DNA. The claim of consistency with experiments is not substantiated.
+  - **Why it matters** The MD analysis is presented as supporting evidence for the binding mode and DNA destabilization. Without quantitative metrics and appropriate controls, the computational findings cannot be verified.
+  - **Resolution test** Provide simulation parameters, RMSD and RMSF plots for free and complexed DNA, radius of gyration data, and a clear statistical comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abbreviation "FIP" is not defined in the abstract, and the chemical identity of the ligand is unclear.
+  - **Required correction** Define FIP and provide the full chemical name or structure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how this complex compares with existing Pt drugs beyond a general mention of accumulation, and the novelty is not clearly articulated.
+  - **Required correction** Explicitly state the potential advantages over cisplatin and oxaliplatin, such as improved selectivity or reduced toxicity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** ADMET claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the complex is a "drug-like agent" based on ADMET prediction is presented without specifying which properties were predicted or the prediction method.
+  - **Required correction** List the key ADMET parameters and the software or method used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is moderate, as the study combines known techniques on a new compound, but the novelty of the complex and its mechanism is not clearly demonstrated. Scientific importance is potentially relevant to anticancer drug development, but the lack of quantitative data prevents assessment of significance. Interdisciplinary readership is plausible given the combination of chemistry, biology, and computation, but the abstract is too technical and lacks context for a broad audience. Technical soundness is not established from the supplied material due to missing characterization, quantitative results, and controls. Readability for nonspecialists is limited by undefined abbreviations and vague descriptions of methods and results.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the absence of quantitative data, characterization details, and experimental controls means the central claims cannot be verified. A revised submission with full data and clear methodology would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The identity and purity of the synthesized complex are unverified.
+- The DFT-based geometry evaluation is unsubstantiated without computational details or comparison to experimental data.
+- The drug-like property claim from ADMET prediction is unsupported without listing predicted parameters or methods.
+- Cytotoxicity against the three cell lines is claimed without IC50 values or statistical analysis.
+- The groove binding mode is not established without quantitative binding data and proper controls.
+- The MD simulation results and their consistency with experiments are not assessable without simulation parameters and quantitative metrics.

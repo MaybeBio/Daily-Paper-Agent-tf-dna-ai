@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38049725",
+  "title": "Discovery of a non-canonical GRHL1 binding site using deep convolutional and recurrent neural networks.",
+  "authors": "Proft, Sebastian; Leiz, Janna; Heinemann, Udo; Seelow, Dominik; Schmidt-Ott, Kai M; Rutkiewicz, Maria",
+  "journal": "BMC genomics",
+  "published_date": "2023-12-05",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用卷积循环神经网络从HT-SELEX数据训练GRHL1结合模型，发现并实验验证了非经典TF-DNA结合位点，核心聚焦TF-DNA互作预测与机制，方法为深度学习，高度匹配本课题。",
+  "abstract": "BACKGROUND: Transcription factors regulate gene expression by binding to transcription factor binding sites (TFBSs). Most models for predicting TFBSs are based on position weight matrices (PWMs), which require a specific motif to be present in the DNA sequence and do not consider interdependencies of nucleotides. Novel approaches such as Transcription Factor Flexible Models or recurrent neural networks consequently provide higher accuracies. However, it is unclear whether such approaches can uncover novel non-canonical, hitherto unexpected TFBSs relevant to human transcriptional regulation. RESULTS: In this study, we trained a convolutional recurrent neural network with HT-SELEX data for GRHL1 binding and applied it to a set of GRHL1 binding sites obtained from ChIP-Seq experiments from human cells. We identified 46 non-canonical GRHL1 binding sites, which were not found by a conventional PWM approach. Unexpectedly, some of the newly predicted binding sequences lacked the CNNG core motif, so far considered obligatory for GRHL1 binding. Using isothermal titration calorimetry, we experimentally confirmed binding between the GRHL1-DNA binding domain and predicted GRHL1 binding sites, including a non-canonical GRHL1 binding site. Mutagenesis of individual nucleotides revealed a correlation between predicted binding strength and experimentally validated binding affinity across representative sequences. This correlation was neither observed with a PWM-based nor another deep learning approach. CONCLUSIONS: Our results show that convolutional recurrent neural networks may uncover unanticipated binding sites and facilitate quantitative transcription factor binding predictions.",
+  "abstract_zh": "背景：转录因子通过结合转录因子结合位点（TFBSs）来调控基因表达。大多数预测TFBSs的模型基于位置权重矩阵（PWMs），这些模型要求DNA序列中存在特定基序，且不考虑核苷酸间的相互依赖性。诸如转录因子柔性模型或循环神经网络等新方法因此提供了更高的准确性。然而，尚不清楚这些方法是否能揭示与人类转录调控相关的、非经典且迄今未预料到的TFBSs。结果：在本研究中，我们使用HT-SELEX数据训练了一个卷积循环神经网络，用于GRHL1结合，并将其应用于从人类细胞ChIP-Seq实验中获得的GRHL1结合位点集合。我们识别出46个非经典的GRHL1结合位点，这些位点未被传统PWM方法发现。出乎意料的是，一些新预测的结合序列缺乏CNNG核心基序，而该基序迄今被认为是GRHL1结合所必需的。通过等温滴定量热法，我们实验证实了GRHL1-DNA结合域与预测的GRHL1结合位点（包括一个非经典GRHL1结合位点）之间的结合。对单个核苷酸的突变分析显示，在代表性序列中，预测的结合强度与实验验证的结合亲和力之间存在相关性。这种相关性在基于PWM的方法或其他深度学习方法中均未观察到。结论：我们的结果表明，卷积循环神经网络可能揭示未预料到的结合位点，并促进定量转录因子结合预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38049725/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38049725/",
+  "paper_page_path": "papers/pubmed/38049725/index.html"
+}

@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "42635215",
+    "doi": "10.1093/bioinformatics/btag449",
+    "title": "Universal differential equations for quantifying NF-kappaB-p53 signaling crosstalk."
+  },
+  "content": {
+    "abstract": "SUMMARY: Universal differential equations (UDEs) have emerged as a powerful tool for scientific discovery, uniting differential equations and deep learning. Yet, their application to the noisy and complex data of systems biology remains limited. Here, we demonstrate that UDEs, paired with symbolic regression, can quantify the crosstalk between NF-kappaB and p53 signaling pathways based on experimental data exhibiting complex, oscillatory dynamics. We validate the framework on synthetic benchmarks, showing that crosstalk recovery is robust to measurement noise and improves markedly with the number of available time series. We then apply the framework to 106 simultaneously measured single-cell p53 and NF-kappaB time series following DNA damage and NF-kappaB activation, constituting the largest-scale UDE application in systems biology so far. UDEs with both a detailed and a minimal mechanistic p53 model consistently identify a monotonically increasing crosstalk function in which elevated NF-kappaB levels enhance p53 synthesis. Symbolic regression distills the learned neural network output into a compact, interpretable closed-form expression, providing a quantitative, time-resolved characterization of NF-kappaB-driven amplification of p53 at the single-cell level. Our work thus delivers a dual contribution: methodologically, it establishes UDEs as a viable tool for gaining quantitative insights in complex, noisy biological systems at scale; biologically, it provides a data-driven characterization of NF-kappaB-p53 pathway crosstalk from single-cell dynamics. AVAILABILITY AND IMPLEMENTATION: Source code is available at: https://github.com/DILiS-lab/ude-crosstalk-discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/metabolism",
+      "*Signal Transduction",
+      "*NF-kappa B/metabolism",
+      "DNA Damage",
+      "*Systems Biology/methods",
+      "Humans",
+      "Models, Biological"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaya, Umur Can",
+        "Kodragjini, Xhemal",
+        "Zambrano, Samuel",
+        "Baum, Katharina"
+      ],
+      "short_names": [
+        "Kaya UC",
+        "Kodragjini X",
+        "Zambrano S",
+        "Baum K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9384-2017",
+        "ORCID: 0000-0001-7256-0566"
+      ],
+      "affiliations": [
+        "Department of Mathematics and Computer Science, Freie Universitat Berlin, Berlin 14195, Germany.",
+        "Hasso-Plattner-Institute, Digital Engineering Faculty, University of Potsdam, Brandenburg 14482, Germany.",
+        "Department of Mathematics and Computer Science, Freie Universitat Berlin, Berlin 14195, Germany.",
+        "Universita Vita-Salute San Raffaele, Milan 20132, Italy.",
+        "Division of Genetics and Cell Biology, IRCCS Ospedale San Raffaele, Milan 20132, Italy.",
+        "Department of Mathematics and Computer Science, Freie Universitat Berlin, Berlin 14195, Germany.",
+        "Hasso-Plattner-Institute, Digital Engineering Faculty, University of Potsdam, Brandenburg 14482, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaya, Umur Can",
+        "short_name": "Kaya UC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Computer Science, Freie Universität Berlin, Berlin 14195, Germany.",
+          "Hasso-Plattner-Institute, Digital Engineering Faculty, University of Potsdam, Brandenburg 14482, Germany."
+        ]
+      },
+      {
+        "full_name": "Kodragjini, Xhemal",
+        "short_name": "Kodragjini X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Computer Science, Freie Universität Berlin, Berlin 14195, Germany."
+        ]
+      },
+      {
+        "full_name": "Zambrano, Samuel",
+        "short_name": "Zambrano S",
+        "identifiers": [
+          "0000-0002-9384-2017"
+        ],
+        "affiliations": [
+          "Università Vita-Salute San Raffaele, Milan 20132, Italy.",
+          "Division of Genetics and Cell Biology, IRCCS Ospedale San Raffaele, Milan 20132, Italy."
+        ]
+      },
+      {
+        "full_name": "Baum, Katharina",
+        "short_name": "Baum K",
+        "identifiers": [
+          "0000-0001-7256-0566"
+        ],
+        "affiliations": [
+          "Department of Mathematics and Computer Science, Freie Universität Berlin, Berlin 14195, Germany.",
+          "Hasso-Plattner-Institute, Digital Engineering Faculty, University of Potsdam, Brandenburg 14482, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Aug 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/24 11:37",
+    "fetched_at": "2026-10-02 04:26:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41244995",
+      "40885733",
+      "40744933",
+      "40172556",
+      "39847592",
+      "39609454",
+      "38370214",
+      "36859359",
+      "35844496",
+      "32589666",
+      "23578462",
+      "20624280",
+      "20530750",
+      "19360021",
+      "18057018",
+      "17922568",
+      "11872829"
+    ],
+    "similar": [
+      "42635215",
+      "37074583",
+      "42475469",
+      "27838375",
+      "25255445",
+      "41752401",
+      "15044535",
+      "32589666",
+      "40885733",
+      "15671037",
+      "21028926",
+      "29708974",
+      "32322927",
+      "31618665",
+      "19715480",
+      "17434128",
+      "23028510",
+      "22750558",
+      "35130377",
+      "22979979",
+      "26324762",
+      "14767544",
+      "26921248",
+      "24428757",
+      "25967949",
+      "40835957",
+      "28208611",
+      "24012741",
+      "31870133",
+      "18172861",
+      "20513428",
+      "27542250",
+      "35092397",
+      "17075980",
+      "30556250",
+      "35098992",
+      "17132229",
+      "19339267",
+      "35779042",
+      "20934871",
+      "40425803",
+      "19847165",
+      "29484840",
+      "15073170",
+      "18334025",
+      "23912807",
+      "26521214",
+      "15142883",
+      "19725919",
+      "21510868",
+      "24727577",
+      "17368433",
+      "21028925",
+      "41075915",
+      "30319075",
+      "30771440",
+      "19307610",
+      "22859938",
+      "42424752",
+      "20940041",
+      "27549311",
+      "21832239",
+      "24069219",
+      "29258820",
+      "18261359",
+      "41075914",
+      "17215959",
+      "25359525",
+      "17975552",
+      "13679428",
+      "34153668",
+      "30071522",
+      "42115528",
+      "20472557",
+      "26362504",
+      "16317104",
+      "42204152",
+      "16360037",
+      "21729324",
+      "15155458",
+      "15830705",
+      "27526774",
+      "27686740",
+      "17897950",
+      "12118375",
+      "15102862",
+      "19342686",
+      "30551455",
+      "18607537",
+      "28361937",
+      "25704882",
+      "36611978",
+      "18583526",
+      "26306422",
+      "24587255",
+      "12808109",
+      "16061640",
+      "25812588",
+      "30172256",
+      "17567906"
+    ],
+    "review": [
+      "42635215",
+      "32322927",
+      "35098992",
+      "20934871",
+      "26521214",
+      "20940041"
+    ],
+    "pmc": [
+      "13501283"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42635215/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag449",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

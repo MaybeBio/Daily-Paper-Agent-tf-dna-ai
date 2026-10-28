@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, conclusions, and experimental section. Supplementary figure references are mentioned but the supplementary material itself was not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and technical soundness of the work as presented in the supplied manuscript text. No assessment of the supplementary figures or data is possible as they were not included.
+- **Shared manuscript claim summary** The authors report the design and characterization of N1S, a stapled peptide inhibitor of Nrf2-sMAF heterodimerization. They claim N1S is the first direct cell-permeable inhibitor of this interaction, that it inhibits Nrf2 transcriptional activity in cell-based reporter assays, directly binds MafG with a KD of 337 nM, reduces expression of Nrf2 target genes, and sensitizes Nrf2-addicted A549 lung cancer cells to cisplatin.
+- **Visible evidence base** Abstract, introduction, results and discussion narrative, conclusions, and full experimental methods. Figures and supplementary data are referenced but not visible.
+- **Missing materials affecting confidence** All figures, supplementary figures, raw data, statistical analyses, and detailed experimental results. The manuscript text alone does not allow verification of the quantitative claims or the quality of the data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and challenging target, the Nrf2-sMAF protein-protein interaction, and proposes a stapled peptide approach informed by AlphaFold structural predictions. The concept is timely and the potential therapeutic relevance for Nrf2-addicted cancers is clear. However, the evidence presented in the text alone is insufficient to fully evaluate the strength of the claims. Key data, including dose-response curves, binding analyses, and synergy calculations, are referenced but not visible. The claim of being the "first direct cell-permeable inhibitor" requires careful benchmarking against prior art, which is only partially addressed. The mechanistic validation is promising but incomplete, particularly regarding selectivity and on-target effects in cells. The work has potential, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chemical biology, peptide therapeutics, and cancer biology would be interested. Specifically, those working on transcription factor inhibition, protein-protein interaction modulators, and drug resistance mechanisms in cancer would find the approach and preliminary data relevant. The use of AlphaFold for peptide design is also of broad interest to the structural biology and computational drug design communities.
+- **Major strengths** The manuscript addresses a difficult and clinically relevant target with a rational design strategy. The use of AlphaFold to guide peptide design in the absence of experimental structures is innovative and timely. The authors include a range of orthogonal assays (reporter, FP, SPR, pull-down, qPCR, Western blot, cell viability) to support their claims. The identification of a direct, cell-permeable inhibitor of Nrf2-sMAF would be a significant advance if fully validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "N1S is a stapled peptide designed based on AlphaFold predictions of the interactions between Nrf2 and sMAF MafG. A cell-based reporter assay combined with in vitro biophysical assays demonstrates that N1S directly inhibits Nrf2/MafG heterodimerization."
+  - **Evidence pointer** Figures 2, 3, S2, S3, S4; location not provided
+  - **Concern** The central claim that N1S directly inhibits Nrf2/MafG heterodimerization is supported by data that are not visible in the supplied material. The text describes results from a dual-luciferase reporter assay, fluorescence polarization, split-luciferase, pull-down, and SPR, but the actual data, including dose-response curves, binding isotherms, and control experiments, are not available for assessment. Without these data, the magnitude of the effect, the specificity of the interaction, and the robustness of the KD value of 337 nM cannot be evaluated.
+  - **Why it matters** The core conclusion of the paper rests on these data. If the effects are weak, non-specific, or not reproducible, the claims of direct inhibition and therapeutic potential would be substantially weakened. The reader cannot assess whether the data support the conclusions as stated.
+  - **Resolution test** Provide the full figures and raw data for all assays. Show dose-response curves for N1S in the reporter assay, including the positive and negative controls. Show the FP and SPR binding data with appropriate controls, including a non-binding peptide and a protein control. Demonstrate that the split-luciferase assay is specific and that the pull-down is not due to non-specific binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** "N1S treatment decreases the transcription of Nrf2-dependent genes and sensitizes Nrf2-dependent cancer cells to cisplatin."
+  - **Evidence pointer** Figures 3C, 3D, 3E, 4; location not provided
+  - **Concern** The manuscript claims that N1S decreases transcription of Nrf2 target genes and sensitizes cells to cisplatin, but the data are not visible. It is unclear which genes were examined, what the magnitude of the effect was, and whether the effects are specific to Nrf2-sMAF inhibition or could be due to off-target effects. The selectivity of N1S for Nrf2-sMAF over other bZIP transcription factors is not addressed. The synergy analysis with cisplatin is described but the data and the method of analysis are not shown.
+  - **Why it matters** For a peptide to be a useful lead, it must show on-target activity in cells and a clear therapeutic window. Off-target effects or non-specific toxicity would undermine the conclusions. The lack of selectivity data is a significant gap.
+  - **Resolution test** Provide the qPCR data for a panel of Nrf2 target genes and non-target genes. Show the Western blot data with quantification. Provide the full synergy analysis, including the combination index values and the dose-response matrices. Include a control peptide (e.g., N1SM) in the cellular assays to demonstrate on-target specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and prior art
+  - **Claim pointer** "we describe the first direct cell-permeable inhibitor of Nrf2/sMAF heterodimerization."
+  - **Evidence pointer** Introduction; location not provided
+  - **Concern** The claim of being the "first" direct cell-permeable inhibitor is strong and requires a thorough comparison with prior art. The introduction mentions two peptide-based inhibitors, one targeting the Nrf2/DNA interaction and one a heterodimeric peptide inhibitor of the NRF2-MAFG-DNA ternary complex, but does not fully explain why these are not considered direct inhibitors of the heterodimerization or why they are not cell-permeable. The distinction between inhibiting the protein-protein interaction versus the protein-DNA interaction needs to be made clear.
+  - **Why it matters** The novelty claim is a key part of the paper's significance. If there is prior art that already describes a cell-permeable direct inhibitor, the claim would be overstated.
+  - **Resolution test** Provide a more detailed comparison with the cited peptide inhibitors and any other relevant prior art. Clearly define what is meant by "direct" and "cell-permeable" in this context and demonstrate how N1S meets these criteria in a way that prior compounds do not.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1 and peptide design
+  - **Evidence pointer** Figure 1; location not provided
+  - **Issue** The description of the peptide design, including the specific residues chosen for stapling and the rationale for the peptide length, is brief. The text mentions "three 16 amino acid peptides that cover the predicted binding domain" but does not provide the sequences or a clear alignment with the Nrf2 sequence.
+  - **Required correction** Include the sequences of the designed peptides and a clear alignment with the Nrf2 sequence. Provide a more detailed explanation of the stapling positions and how they were chosen based on the AlphaFold model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Cell permeability assay
+  - **Evidence pointer** Figure 2; location not provided
+  - **Issue** The cell permeability assay is described briefly. It is unclear whether the fluorescence signal observed is due to internalized peptide or membrane-bound peptide. The use of a single time point (90 min) may not capture the full kinetics of uptake.
+  - **Required correction** Provide more detail on the permeability assay, including the washing steps, the use of a quenching agent (e.g., trypan blue), and a time-course experiment. Consider using a quantitative method (e.g., flow cytometry) to support the confocal microscopy data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Hemolysis and stability data
+  - **Evidence pointer** Figure S2; location not provided
+  - **Issue** The hemolysis and stability data are only mentioned in the text and are not visible. These are important for assessing the drug-like properties of the peptide.
+  - **Required correction** Show the hemolysis data and the stability data, including the time points and the method of quantification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** All quantitative assays
+  - **Evidence pointer** Figures 2, 3, 4; location not provided
+  - **Issue** The text does not describe the statistical methods used to analyze the data. It is unclear whether the experiments were repeated, how many times, and what error bars represent.
+  - **Required correction** Add a description of the statistical analysis, including the number of replicates, the type of test used, and the definition of error bars.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible data. The manuscript text alone does not allow for an assessment of the quality, magnitude, or reproducibility of the reported effects. The selectivity of N1S for Nrf2-sMAF over other bZIP factors is not demonstrated. The claim of being the "first" direct cell-permeable inhibitor requires a more rigorous comparison with prior art.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of AlphaFold to design stapled peptides targeting the Nrf2-sMAF interaction is a creative and timely approach. However, the concept of stapled peptides as transcription factor inhibitors is not new, and the novelty of this specific application needs to be more clearly differentiated from prior work.
+  - Scientific importance: Nrf2 is a validated and clinically relevant target in cancer drug resistance. A direct, cell-permeable inhibitor would be a valuable tool and potential therapeutic lead. The importance is high if the claims are fully substantiated.
+  - Interdisciplinary readership: The work bridges structural biology, peptide chemistry, and cancer biology. It would appeal to a broad readership interested in these areas. The use of AlphaFold adds computational interest.
+  - Technical soundness: The experimental design is reasonable, with a range of assays used. However, the soundness cannot be fully assessed without the data. The lack of selectivity data is a concern.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The introduction provides sufficient background. The results section is clear, though some parts rely heavily on references to figures that are not visible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The concept is promising and the preliminary data, as described, suggest the peptide has activity. However, the case is not currently established from the provided evidence. The authors must provide the full dataset, including all figures and supplementary material, and address the concerns regarding specificity, selectivity, and novelty before the claims can be fully evaluated.
+
+## Risk / unsupported claims
+- The claim that N1S is the "first direct cell-permeable inhibitor of Nrf2/sMAF heterodimerization" is not fully supported without a more comprehensive comparison with prior art.
+- The KD of 337 nM for N1S binding to MafG is reported but the data are not visible.
+- The claim that N1S "sensitizes Nrf2-dependent cancer cells to cisplatin" is not supported by visible data.
+- The claim that N1S shows "no toxicity to red blood cells" is based on a single assay and the data are not visible.
+- The specificity of N1S for Nrf2-sMAF over other bZIP transcription factors is not addressed and is therefore an unsupported claim.

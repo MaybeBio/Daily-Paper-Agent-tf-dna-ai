@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, methods, or full-text data were available for evaluation
+- **Shared manuscript claim summary** The authors report a platform in which transcription factors (TBP and Myc-Max) regulate CRISPR-Cas12a trans-cleavage activity through engineered structure-switching DNA translators. They claim precise and tunable control, rapid response kinetics, specificity and versatility demonstrated by integration into synthetic networks, including activation of a fluorogenic RNA aptamer (Mango III) and creation of a multimolecular communication pathway between Cas12a and Cas13a. They conclude that TFs can serve as effective regulators of CRISPR-Cas systems, enabling novel protein-nucleic acid communication channels.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methods were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, characterization data, control experiments, quantitative performance metrics, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The concept presented is potentially interesting and aligns with ongoing efforts to expand the regulatory toolbox for CRISPR-based systems. However, the abstract alone provides insufficient evidence to evaluate the core claims of precision, tunability, kinetics, specificity, and versatility. The work may hold value for the synthetic biology community, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, CRISPR-based diagnostics, and nucleic acid nanotechnology would likely be interested. The idea of using transcription factors as inputs to control CRISPR activity could enable new types of protein-responsive circuits and biosensors, which are relevant to those developing cell-free systems, point-of-care diagnostics, and engineered gene circuits.
+- **Major strengths** The conceptual novelty of using TFs to gate CRISPR-Cas12a via DNA conformational switching is appealing. The demonstration of integration into downstream outputs (RNA aptamer activation and cross-Cas communication) suggests a systems-level ambition that goes beyond simple proof-of-concept. The choice of two distinct TF models (TBP and Myc-Max) indicates an attempt to show generality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim "precise and tunable control with rapid response kinetics" for the optimized DNA translators.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative data are presented to support the claims of precision, tunability, or rapid kinetics. No response curves, dynamic ranges, rate constants, or comparison to baseline or alternative designs are shown.  
+  - **Why it matters** These are central performance claims that determine whether the platform is useful for practical applications. Without quantitative characterization, the claims are unverifiable.  
+  - **Resolution test** Provide dose-response curves for TF concentration versus Cas12a activity, time-course data showing response kinetics, and quantitative measures of tunability (e.g., dynamic range, sensitivity) with appropriate replicates and error analysis.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and controls  
+  - **Claim pointer** The authors claim "specificity and versatility" of the platform.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No control experiments are described. It is unclear whether the observed effects are specific to the intended TF-DNA interactions or could arise from nonspecific protein-DNA binding, buffer effects, or off-target conformational changes.  
+  - **Why it matters** Specificity is a core requirement for any molecular regulator. Without appropriate negative controls (e.g., mutated TFs, scrambled DNA sequences, unrelated proteins), the specificity claim is unsupported.  
+  - **Resolution test** Include negative controls with non-cognate proteins, mutated TF binding sites, and sequence-scrambled translators. Show that Cas12a activity changes only in the presence of the correct TF-translator pair.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional integration evidence  
+  - **Claim pointer** The authors claim successful integration into synthetic networks, including activation of Mango III and creation of a Cas12a-Cas13a communication pathway.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states these demonstrations but provides no data on output levels, signal-to-background ratios, or the fidelity of the communication pathway. It is unclear whether the integrated systems function robustly or only marginally.  
+  - **Why it matters** The integration demonstrations are the key evidence for the platform's utility in synthetic biology. Without quantitative output data, the significance of these demonstrations cannot be assessed.  
+  - **Resolution test** Provide fluorescence data for Mango III activation showing clear signal above background, and time-resolved or endpoint data for the Cas12a-Cas13a cascade demonstrating signal propagation with appropriate controls for each step.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors imply that the platform is generalizable to other TFs beyond TBP and Myc-Max.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** Only two TF models are tested, both of which are well-characterized DNA-binding proteins. It is unclear whether the design principles would extend to TFs with different binding modes, cofactor requirements, or lower affinities.  
+  - **Why it matters** The broader claim of establishing "TFs as effective regulators of CRISPR-Cas systems" implies a general strategy. Two examples may be insufficient to support this generalization.  
+  - **Resolution test** Discuss design rules for adapting the translators to other TFs, or provide at least one additional example with a structurally or mechanistically distinct TF.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "DNA translators" is introduced without a clear definition of what constitutes a translator in this context and how it differs from other DNA-based regulatory elements.  
+  - **Required correction** Provide a brief operational definition of "DNA translator" in the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Performance metrics  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "rapid response kinetics" but does not give any time scale or comparison to existing CRISPR regulation methods.  
+  - **Required correction** Include a representative time constant or response half-time in the abstract, or state the relevant time scale.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given on the number of replicates, error bars, or statistical methods used to support the reported results.  
+  - **Required correction** State the number of independent experiments and the statistical measures used in the abstract or ensure they are prominent in the full manuscript.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Language  
+  - **Affected element** Wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "novels synthetic biology applications" contains a grammatical error.  
+  - **Required correction** Change to "novel synthetic biology applications."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance data), R1-M2 (no specificity controls), R1-M3 (no functional output data for integration demonstrations). These are the primary technical gaps that prevent the claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using TFs to gate CRISPR-Cas12a via structure-switching DNA elements appears conceptually novel and distinct from existing CRISPR regulation strategies. However, the abstract does not provide enough context to fully assess novelty relative to prior work on DNA-based regulators or TF-responsive circuits.  
+  - **Scientific importance** If the claims are substantiated, the work could be important for expanding the input modalities of CRISPR-based systems and enabling protein-responsive molecular circuits. The significance is plausible but not yet demonstrated.  
+  - **Interdisciplinary readership** The topic bridges synthetic biology, nucleic acid nanotechnology, and CRISPR biology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms could be clarified.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of quantitative data, controls, and methodological detail prevents evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear and concise, but the term "DNA translators" and the mechanism of action could benefit from a brief explanatory phrase for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the direction is of interest, but the abstract alone does not provide sufficient data to support the central claims. A full manuscript with quantitative characterization, appropriate controls, and detailed methods would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "precise and tunable control with rapid response kinetics" is unsupported by any quantitative data in the abstract.
+- The claim of "specificity and versatility" is unsupported by any control experiments or comparative data.
+- The claim of successful integration into synthetic networks (Mango III activation and Cas12a-Cas13a communication) is unsupported by any output data.
+- The broader claim that TFs can serve as "effective regulators of CRISPR-Cas systems" is a generalization that cannot be evaluated from two examples without supporting data.
+- The potential for "novel synthetic biology applications" is speculative and not substantiated by demonstrated utility.

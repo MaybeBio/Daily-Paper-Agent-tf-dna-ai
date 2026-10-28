@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41955412",
+    "doi": "10.1021/acs.chemrestox.5c00496",
+    "title": "Impact of Chemical Quality on High-Throughput in Vitro Assays: A Tox21 Study."
+  },
+  "content": {
+    "abstract": "The Tox21 10K chemical library, an in vitro toxicology toolbox consisting of more than 8900 unique chemical entities including environmental chemicals and drugs, has undergone analytical quality control (QC) testing after storage at room temperature for 0 and 4 months (T0 and T4). Each chemical was previously assigned a QC grade based on purity, identity, and concentration. In parallel, the Tox21 10K library has been tested across approximately 90 in vitro assays in a quantitative high-throughput screening (qHTS) format, generating >120 M data points to date. These data were used to analyze the correlation between chemical quality and bioassay activity, as well as chemical structure. The chemical characteristics of poor-quality and unstable compounds were explored to identify structural features that should be avoided. In addition, one of the high-throughput assays measuring the induction of p53 activity by small molecules was used to test the Tox21 10K compound library at T0 and T4 due to its robust performance and reproducibility. Approximately 2% of compounds in the library showed a significant change in activity in the p53 assay between T0 and T4 (active to inactive or vice versa), which also correlated with chemical stability. Here, machine learning models were constructed using bioassay data or chemical structures to predict poor-quality (low QC grades at T0) and unstable (grade drop from T0 to T4) chemicals. Chemical structure was found to be highly predictive (0.75) of chemical quality and stability, whereas bioassay data was less predictive (0.66) but still showed better than random performance. Taken together, these findings provide valuable guidance for interpreting the Tox21 assay results and informing best practices for future chemical selection and handling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*High-Throughput Screening Assays",
+      "*Small Molecule Libraries/chemistry",
+      "Quality Control",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Humans",
+      "Biological Assay"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ngan, Deborah K",
+        "Ye, Lin",
+        "Hsieh, Jui-Hua",
+        "Xu, Tuan",
+        "Zhao, Jinghua",
+        "Sakamuru, Srilatha",
+        "Tao, Dingyin",
+        "LeClair, Christopher A",
+        "Zhao, Tongan",
+        "Rossoshek, Anna",
+        "Reif, David M",
+        "Simeonov, Anton",
+        "Xia, Menghang",
+        "Huang, Ruili"
+      ],
+      "short_names": [
+        "Ngan DK",
+        "Ye L",
+        "Hsieh JH",
+        "Xu T",
+        "Zhao J",
+        "Sakamuru S",
+        "Tao D",
+        "LeClair CA",
+        "Zhao T",
+        "Rossoshek A",
+        "Reif DM",
+        "Simeonov A",
+        "Xia M",
+        "Huang R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1620-1571",
+        "ORCID: 0000-0002-9693-1832",
+        "ORCID: 0000-0001-6531-2740",
+        "ORCID: 0000-0002-2746-5938",
+        "ORCID: 0000-0001-7285-8469",
+        "ORCID: 0000-0001-8886-8311"
+      ],
+      "affiliations": [
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Translational Toxicology, National Institute of Environmental Health Sciences (NIEHS), Research Triangle Park, North Carolina 27709, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Translational Toxicology, National Institute of Environmental Health Sciences (NIEHS), Research Triangle Park, North Carolina 27709, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States.",
+        "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ngan, Deborah K",
+        "short_name": "Ngan DK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Ye, Lin",
+        "short_name": "Ye L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Hsieh, Jui-Hua",
+        "short_name": "Hsieh JH",
+        "identifiers": [
+          "0000-0003-1620-1571"
+        ],
+        "affiliations": [
+          "Division of Translational Toxicology, National Institute of Environmental Health Sciences (NIEHS), Research Triangle Park, North Carolina 27709, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Tuan",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jinghua",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Sakamuru, Srilatha",
+        "short_name": "Sakamuru S",
+        "identifiers": [
+          "0000-0002-9693-1832"
+        ],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Tao, Dingyin",
+        "short_name": "Tao D",
+        "identifiers": [
+          "0000-0001-6531-2740"
+        ],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "LeClair, Christopher A",
+        "short_name": "LeClair CA",
+        "identifiers": [
+          "0000-0002-2746-5938"
+        ],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Tongan",
+        "short_name": "Zhao T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Rossoshek, Anna",
+        "short_name": "Rossoshek A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Reif, David M",
+        "short_name": "Reif DM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Translational Toxicology, National Institute of Environmental Health Sciences (NIEHS), Research Triangle Park, North Carolina 27709, United States."
+        ]
+      },
+      {
+        "full_name": "Simeonov, Anton",
+        "short_name": "Simeonov A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Xia, Menghang",
+        "short_name": "Xia M",
+        "identifiers": [
+          "0000-0001-7285-8469"
+        ],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Ruili",
+        "short_name": "Huang R",
+        "identifiers": [
+          "0000-0001-8886-8311"
+        ],
+        "affiliations": [
+          "Division of Preclinical Innovation, National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH), Rockville, Maryland 20850, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical research in toxicology"
+    ],
+    "journal_abbrev": [
+      "Chem Res Toxicol"
+    ],
+    "pub_date": "2026 Apr 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 18:30",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39829241",
+      "37506331",
+      "35294762",
+      "33140634",
+      "29491351",
+      "29403878",
+      "29086040",
+      "28714573",
+      "27302286",
+      "26811972",
+      "25647539",
+      "25302578",
+      "21543282",
+      "20708096",
+      "19668870",
+      "15064554",
+      "12793837"
+    ],
+    "similar": [
+      "41955412",
+      "39829241",
+      "39251042",
+      "33140634",
+      "33693373",
+      "26141389",
+      "25904095",
+      "29377626",
+      "36150479",
+      "42475469",
+      "35435491",
+      "31243984",
+      "38482198",
+      "25012808",
+      "24279462",
+      "35205076",
+      "42428255",
+      "39255953",
+      "32549344",
+      "32077278",
+      "28714573",
+      "40957459",
+      "25302578",
+      "37388277",
+      "32132587",
+      "28531190",
+      "20708096",
+      "21543282",
+      "35294762",
+      "36178254",
+      "37851522",
+      "35921976",
+      "30202884",
+      "29594779",
+      "23895456",
+      "21788198",
+      "42304516",
+      "38694816",
+      "30944845",
+      "35988584",
+      "35659517",
+      "34013136",
+      "31276567",
+      "36321557",
+      "24056003",
+      "37321325",
+      "22528508",
+      "28294544",
+      "39150724",
+      "27518629",
+      "28809115",
+      "37506331",
+      "26272952",
+      "32374859",
+      "32564278",
+      "33844597",
+      "33513003",
+      "27762554",
+      "25896097",
+      "35566372",
+      "40507787",
+      "20639499",
+      "31566444",
+      "23912807",
+      "24277038",
+      "26383846",
+      "31018579",
+      "41700814",
+      "37566783",
+      "31574921",
+      "21471461",
+      "31313575",
+      "26720344",
+      "41822751",
+      "26884060",
+      "33711575",
+      "32461840",
+      "30645939",
+      "27122658",
+      "27933809",
+      "24582757",
+      "22989451",
+      "42182587",
+      "32691963",
+      "36353521",
+      "38143042",
+      "29995190",
+      "33656581",
+      "32421835",
+      "28601761",
+      "40550315",
+      "32320205",
+      "21471462",
+      "35243363",
+      "26269925",
+      "22706349",
+      "35294764",
+      "31481464",
+      "21905670",
+      "20980217"
+    ],
+    "review": [
+      "41955412",
+      "39829241",
+      "33140634",
+      "20708096",
+      "35921976",
+      "36321557",
+      "22528508",
+      "39150724",
+      "37506331"
+    ],
+    "pmc": [
+      "13137222"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41955412/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/crtoec/article-lookup/doi/10.1021/acs.chemrestox.5c00496",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

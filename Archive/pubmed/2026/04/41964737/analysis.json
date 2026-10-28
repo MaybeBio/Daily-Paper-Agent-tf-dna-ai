@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41964737",
+  "title": "Whole-Genome Deep Learning Predicts Chemotherapy Response in Colorectal Cancer.",
+  "authors": "Sadeghi, Hossein; Seif, Fatemeh",
+  "journal": "Biochemical genetics",
+  "published_date": "2026-04-12",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习预测结直肠癌化疗反应，虽涉及基因组变异与染色质结构，但核心是临床疗效预测而非蛋白质-DNA互作或TF-DNA结合机制，与本课题关联微弱。",
+  "abstract": "Chemotherapy response in colorectal cancer (CRC) exhibits significant heterogeneity, with current clinical predictors failing to capture complex genomic determinants of resistance. We developed a hybrid deep learning framework integrating convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) networks to analyze whole-genome somatic mutations, evolutionary conservation, chromatin accessibility, and 3D genome architecture in 2,546 TCGA patients. An attention mechanism identified predictive genomic regions. The model achieved an AUC of 0.92 (95% CI: 0.89-0.94) in cross-validation and 0.88 (95% CI: 0.85-0.91) in independent validation, outperforming clinical models (DeltaAUC = +0.18, p < 0.001). Key predictors included non-coding variants in TP53, KRAS, and PIK3CA regulatory regions. Triple-positive patients (mutations in all 3 regions) had significantly worse progression-free survival (HR = 4.7, p < 0.001). Our framework enables accurate chemotherapy response prediction and reveals novel non-coding resistance mechanisms, advancing precision oncology in CRC.",
+  "abstract_zh": "结直肠癌（CRC）的化疗反应表现出显著异质性，而当前临床预测因子未能捕捉耐药性的复杂基因组决定因素。我们开发了一种混合深度学习框架，整合卷积神经网络（CNNs）和双向长短期记忆网络（BiLSTM），用于分析2,546例TCGA患者的全基因组体细胞突变、进化保守性、染色质可及性和3D基因组结构。注意力机制识别了预测性基因组区域。该模型在交叉验证中实现了AUC为0.92（95% CI: 0.89-0.94），在独立验证中为0.88（95% CI: 0.85-0.91），优于临床模型（DeltaAUC = +0.18，p < 0.001）。关键预测因子包括TP53、KRAS和PIK3CA调控区域中的非编码变异。三重阳性患者（三个区域均存在突变）的无进展生存期显著较差（HR = 4.7，p < 0.001）。我们的框架能够实现准确的化疗反应预测，并揭示新的非编码耐药机制，推进CRC精准肿瘤学发展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41964737/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41964737/",
+  "paper_page_path": "papers/pubmed/41964737/index.html"
+}

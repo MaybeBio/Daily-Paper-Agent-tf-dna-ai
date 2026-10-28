@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.19.613986",
+  "title": "BTFBS: binding-prediction of bacterial transcription factors and binding sites based on deep learning",
+  "authors": "Bingbing Jin; Song Liang; Xiaoqian Liu; Rui Zhang; Yun Zhu; Yuanyuan Chen; Guangjin Liu; Tao Yang",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-22",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了基于CNN和MultiheadAttention的深度学习模型BTFBS，预测细菌转录因子与结合位点是否结合，核心聚焦TF-DNA互作且方法为AI，高度匹配课题。",
+  "abstract": "Background The binding of transcription factors (TFs) to TF-binding sites plays a vital role in the process of regulating gene expression and evolution. With the development of machine learning and deep learning, some successes have been achieved in predicting transcription factors and binding sites. Then a natural question arises: for a given transcription factor and a binding site, do they bind? This is the main motivation of this work. Results In this paper, we develop a model BTFBS, which predicts whether the bacterial transcription factors and binding sites combine or not. The model takes both the amino acid sequences of bacterial transcription factors and the nucleotide sequences of binding sites as inputs, and extracts features through convolutional neural network and MultiheadAttention. For the model inputs, we use two negative sample sampling methods: RS and EE. On the test dataset of RS, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.91446, 0.89746, 0.93134, 0.91264 and 0.82946, respectively. And on the test dataset of EE, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.87868, 0.89354, 0.86394, 0.87996 and 0.75796, respectively. Meanwhile, our findings indicate that the optimal approach for obtaining negative samples in the context of bacterial research is to utilize the whole genome sequences of the corresponding bacteria, as opposed to the shuffling method. Conclusions The above results on the test dataset have shown that the proposed BTFBS model has a good performance in predicting the combination of bacterial transcription factors and their binding sites and provides an experimental guide. BTFBS is publicly available at https://github.com/Vceternal/BTFBS .",
+  "abstract_zh": "背景 转录因子（transcription factors, TFs）与TF结合位点的结合在基因表达调控和进化过程中起着至关重要的作用。随着机器学习和深度学习的发展，在预测转录因子及其结合位点方面已取得了一些成功。随之而来的一个自然问题是：对于给定的转录因子和结合位点，它们是否结合？这是本研究的主要动机。结果 本文开发了一个模型BTFBS，用于预测细菌转录因子与结合位点是否结合。该模型以细菌转录因子的氨基酸序列和结合位点的核苷酸序列作为输入，并通过卷积神经网络和多头注意力（MultiheadAttention）提取特征。对于模型输入，我们使用了两种负样本采样方法：RS和EE。在RS测试数据集上，BTFBS的准确率、敏感性、特异性、F1分数和MCC分别为0.91446、0.89746、0.93134、0.91264和0.82946。在EE测试数据集上，BTFBS的准确率、敏感性、特异性、F1分数和MCC分别为0.87868、0.89354、0.86394、0.87996和0.75796。同时，我们的发现表明，在细菌研究背景下，获取负样本的最佳方法是利用相应细菌的全基因组序列，而非洗牌方法。结论 上述测试数据集上的结果表明，所提出的BTFBS模型在预测细菌转录因子及其结合位点的结合方面具有良好的性能，并提供了实验指导。BTFBS可在https://github.com/Vceternal/BTFBS 公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613986",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613986",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.19.613986/index.html"
+}

@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "35924336",
+    "doi": "10.1002/tpg2.20249",
+    "title": "Modeling chromatin state from sequence across angiosperms using recurrent convolutional neural networks."
+  },
+  "content": {
+    "abstract": "Accessible chromatin regions are critical components of gene regulation but modeling them directly from sequence remains challenging, especially within plants, whose mechanisms of chromatin remodeling are less understood than in animals. We trained an existing deep-learning architecture, DanQ, on data from 12 angiosperm species to predict the chromatin accessibility in leaf of sequence windows within and across species. We also trained DanQ on DNA methylation data from 10 angiosperms because unmethylated regions have been shown to overlap significantly with ACRs in some plants. The across-species models have comparable or even superior performance to a model trained within species, suggesting strong conservation of chromatin mechanisms across angiosperms. Testing a maize (Zea mays L.) held-out model on a multi-tissue chromatin accessibility panel revealed our models are best at predicting constitutively accessible chromatin regions, with diminishing performance as cell-type specificity increases. Using a combination of interpretation methods, we ranked JASPAR motifs by their importance to each model and saw that the TCP and AP2/ERF transcription factor (TF) families consistently ranked highly. We embedded the top three JASPAR motifs for each model at all possible positions on both strands in our sequence window and observed position- and strand-specific patterns in their importance to the model. With our publicly available across-species 'a2z' model it is now feasible to predict the chromatin accessibility and methylation landscape of any angiosperm genome.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin",
+      "Genome",
+      "*Magnoliopsida/genetics",
+      "Neural Networks, Computer",
+      "Transcription Factors/genetics",
+      "Zea mays/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wrightsman, Travis",
+        "Marand, Alexandre P",
+        "Crisp, Peter A",
+        "Springer, Nathan M",
+        "Buckler, Edward S"
+      ],
+      "short_names": [
+        "Wrightsman T",
+        "Marand AP",
+        "Crisp PA",
+        "Springer NM",
+        "Buckler ES"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0904-6473",
+        "ORCID: 0000-0001-9100-8320",
+        "ORCID: 0000-0002-3655-0130",
+        "ORCID: 0000-0002-7301-4759",
+        "ORCID: 0000-0002-3100-371X"
+      ],
+      "affiliations": [
+        "Section of Plant Breeding and Genetics, Cornell Univ., Ithaca, NY, 14853, USA.",
+        "Dep. of Genetics, Univ. of Georgia, Athens, GA, 30602, USA.",
+        "School of Agriculture and Food Sciences, Univ. of Queensland, Brisbane, QLD, 4072, Australia.",
+        "Dep. of Plant and Microbial Biology, Univ. of Minnesota, Saint Paul, MN, 55108, USA.",
+        "Section of Plant Breeding and Genetics, Cornell Univ., Ithaca, NY, 14853, USA.",
+        "Institute for Genomic Diversity, Cornell Univ., Ithaca, NY, 14853, USA.",
+        "USDA-ARS, Ithaca, NY, 14853, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wrightsman, Travis",
+        "short_name": "Wrightsman T",
+        "identifiers": [
+          "0000-0002-0904-6473"
+        ],
+        "affiliations": [
+          "Section of Plant Breeding and Genetics, Cornell Univ., Ithaca, NY, 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Marand, Alexandre P",
+        "short_name": "Marand AP",
+        "identifiers": [
+          "0000-0001-9100-8320"
+        ],
+        "affiliations": [
+          "Dep. of Genetics, Univ. of Georgia, Athens, GA, 30602, USA."
+        ]
+      },
+      {
+        "full_name": "Crisp, Peter A",
+        "short_name": "Crisp PA",
+        "identifiers": [
+          "0000-0002-3655-0130"
+        ],
+        "affiliations": [
+          "School of Agriculture and Food Sciences, Univ. of Queensland, Brisbane, QLD, 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Springer, Nathan M",
+        "short_name": "Springer NM",
+        "identifiers": [
+          "0000-0002-7301-4759"
+        ],
+        "affiliations": [
+          "Dep. of Plant and Microbial Biology, Univ. of Minnesota, Saint Paul, MN, 55108, USA."
+        ]
+      },
+      {
+        "full_name": "Buckler, Edward S",
+        "short_name": "Buckler ES",
+        "identifiers": [
+          "0000-0002-3100-371X"
+        ],
+        "affiliations": [
+          "Section of Plant Breeding and Genetics, Cornell Univ., Ithaca, NY, 14853, USA.",
+          "Institute for Genomic Diversity, Cornell Univ., Ithaca, NY, 14853, USA.",
+          "USDA-ARS, Ithaca, NY, 14853, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The plant genome"
+    ],
+    "journal_abbrev": [
+      "Plant Genome"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/05 06:00",
+    "fetched_at": "2026-10-04 20:43:48"
+  },
+  "links": {
+    "cites": [
+      "42413033",
+      "42162322",
+      "40950025",
+      "40719915",
+      "40489624",
+      "38895432"
+    ],
+    "refs": [
+      "34608324",
+      "34290727",
+      "34265844",
+      "34037796",
+      "33983921",
+      "33964211",
+      "33684542",
+      "33662624",
+      "33603233",
+      "33590861",
+      "33504790",
+      "33259518",
+      "33037196",
+      "33020633",
+      "32879011",
+      "32687525",
+      "32665652",
+      "32433972",
+      "31740772",
+      "31701148",
+      "31442410",
+      "31233491",
+      "30869141",
+      "30842277",
+      "30286077",
+      "30061747",
+      "29967506",
+      "29219068",
+      "29161754",
+      "29093472",
+      "29072296",
+      "29069282",
+      "28605751",
+      "28447635",
+      "27593567",
+      "27321818",
+      "27235540",
+      "27084946",
+      "26314830",
+      "26301843",
+      "25883319",
+      "25449722",
+      "24908249",
+      "24614317",
+      "23874456",
+      "23759101",
+      "23518688",
+      "23328393",
+      "22909249",
+      "22887818",
+      "22153073",
+      "22150226",
+      "22140109",
+      "21949271",
+      "21750661",
+      "21550682",
+      "21343311",
+      "21330290",
+      "20644220",
+      "20148030",
+      "20110278",
+      "20075913",
+      "19635165",
+      "19505943",
+      "19416906",
+      "19304878",
+      "17721507",
+      "17145706",
+      "16973872",
+      "9169865"
+    ],
+    "similar": [
+      "35924336",
+      "40127931",
+      "39766899",
+      "35410163",
+      "34849810",
+      "26291518",
+      "39090688",
+      "42475469",
+      "35293310",
+      "37425760",
+      "41514301",
+      "39026761",
+      "31510655",
+      "33683350",
+      "39701501",
+      "28732548",
+      "36723807",
+      "40690927",
+      "41292905",
+      "30598689",
+      "42567165",
+      "33413545",
+      "42099803",
+      "34534646",
+      "33381816",
+      "40102719",
+      "40827700",
+      "21304941",
+      "29879919",
+      "34488759",
+      "29069282",
+      "42359002",
+      "34383745",
+      "37598467",
+      "37370113",
+      "27356975",
+      "42031749",
+      "37788349",
+      "29229750",
+      "28854962",
+      "36130304",
+      "31563852",
+      "33634313",
+      "33741075",
+      "36671456",
+      "36360189",
+      "32879011",
+      "34783109",
+      "33522898",
+      "26818008",
+      "40950025",
+      "23572549",
+      "35396274",
+      "41677071",
+      "41359035",
+      "28750606",
+      "37387140",
+      "30922998",
+      "33407087",
+      "22955984",
+      "40723810",
+      "20015349",
+      "38773546",
+      "38859587",
+      "41932342",
+      "37845780",
+      "40272880",
+      "32978299",
+      "35831531",
+      "40360747",
+      "33581335",
+      "27084946",
+      "42135287",
+      "36549922",
+      "23497159",
+      "22955983",
+      "31114856",
+      "38940155",
+      "33074101",
+      "36050782",
+      "41984952",
+      "39738353",
+      "33495321",
+      "31053165",
+      "35263332",
+      "36917472",
+      "42036810",
+      "22537144",
+      "33816929",
+      "40994442",
+      "35397520",
+      "35042722",
+      "33779761",
+      "32436321",
+      "33037196",
+      "41951735",
+      "31498837",
+      "35421559",
+      "31206543",
+      "41544130"
+    ],
+    "review": [
+      "35924336",
+      "35831531"
+    ],
+    "pmc": [
+      "12807023"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35924336/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/tpg2.20249",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40759911",
+  "title": "GenomicLayers: sequence-based simulation of epi-genomes.",
+  "authors": "Gerrard, Dave T",
+  "journal": "BMC bioinformatics",
+  "published_date": "2025-08-05",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了基于规则的R包GenomicLayers，在全基因组尺度模拟表观遗传状态变化，涉及转录因子结合与表观标记扩散，但缺乏AI或物理模拟方法，且非聚焦TF-DNA三维互作机制。",
+  "abstract": "BACKGROUND: Cellular development and differentiation in Eukaryotes depends upon sequential gene regulatory decisions that allow a single genome to encode many hundreds of distinct cellular phenotypes. Decisions are stored in the regulatory state of each cell, an important part of which is the epi-genome-the collection of proteins, RNA and their specific associations with the genome. Additionally, further cellular responses are, in part, determined by this regulatory state. To date, models of regulatory state have failed to include the contingency of incoming regulatory signals on the current epi-genetic state and none have done so at the whole-genome level. RESULTS: Here we introduce GenomicLayers, a new R package to run rules-based simulations of epigenetic state changes genome-wide in Eukaryotes. Simulations model the accumulation of changes to genome-wide layers by user-specified binding factors. As a first exemplar, we show two versions of a simple model of the recruitment and spreading of epigenetic marks near telomeres in the yeast Saccharomyces cerevisiae. By combining the output from 100 runs of the simulation, we generate whole genome predictions of epigenetic state at 1 bp resolution. The example yeast models are included within a 'vignette' with the GenomicLayers package, which is available at https://github.com/davetgerrard/GenomicLayers . To demonstrate the use of GenomicLayers on the full human reference genome (hg38), we show the results from parameter refinement on a simplistic model of the action of pluripotency factors against a self-spreading repressor seeded at CpG islands. The human genome model is included in supplementary information as an R script. CONCLUSIONS: GenomicLayers enables scientists working on diverse eukaryotic organisms to test models of gene regulation in silico. Applications include epigenetic silencing, activation by combinatorial binding of transcription factors and the sink effects caused by down-regulation of components of epigenetic regulators. The software is intended to be used to parameterise, refine and combine models and thereby capitalise on data from the thousands of studies of Eukaryotic epigenomes.",
+  "abstract_zh": "背景：真核生物的细胞发育和分化依赖于顺序性的基因调控决策，使得单个基因组能够编码数百种不同的细胞表型。这些决策存储于每个细胞的调控状态中，其中重要组成部分是表观基因组（epi-genome）——即蛋白质、RNA及其与基因组的特定关联的集合。此外，进一步的细胞反应部分由这种调控状态决定。迄今为止，调控状态模型未能纳入传入调控信号对当前表观遗传状态的依赖性，且没有模型在整基因组水平上做到这一点。结果：在此，我们介绍GenomicLayers，这是一个新的R包，用于在真核生物中全基因组范围内运行基于规则的表观遗传状态变化模拟。模拟通过用户指定的结合因子，对基因组范围各层的累积变化进行建模。作为首个示例，我们展示了酿酒酵母（Saccharomyces cerevisiae）端粒附近表观遗传标记招募和扩散的简单模型的两个版本。通过结合100次模拟运行的输出，我们以1 bp分辨率生成全基因组的表观遗传状态预测。示例酵母模型包含在GenomicLayers包的“vignette”中，该包可在https://github.com/davetgerrard/GenomicLayers获取。为了展示GenomicLayers在完整人类参考基因组（hg38）上的应用，我们展示了针对多能性因子作用的一个简化模型（对抗在CpG岛播种的自扩散抑制因子）的参数优化结果。人类基因组模型作为R脚本包含在补充信息中。结论：GenomicLayers使研究多种真核生物体的科学家能够在计算机上测试基因调控模型。应用包括表观遗传沉默、转录因子组合结合引起的激活，以及表观遗传调控因子组分下调导致的汇效应。该软件旨在用于参数化、优化和组合模型，从而利用来自数千项真核生物表观基因组研究的数据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40759911/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40759911/",
+  "paper_page_path": "papers/pubmed/40759911/index.html"
+}

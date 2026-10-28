@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38975896",
+  "title": "EGPDI: identifying protein-DNA binding sites based on multi-view graph embedding fusion.",
+  "authors": "Zheng, Mengxin; Sun, Guicong; Li, Xueping; Fan, Yongxian",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-07-08",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于多视图图嵌入融合（EGNN+GCNII+蛋白语言模型）的EGPDI方法预测蛋白-DNA结合位点，核心聚焦蛋白-DNA互作界面识别，方法为AI图神经网络，与课题高度匹配。",
+  "abstract": "Mechanisms of protein-DNA interactions are involved in a wide range of biological activities and processes. Accurately identifying binding sites between proteins and DNA is crucial for analyzing genetic material, exploring protein functions, and designing novel drugs. In recent years, several computational methods have been proposed as alternatives to time-consuming and expensive traditional experiments. However, accurately predicting protein-DNA binding sites still remains a challenge. Existing computational methods often rely on handcrafted features and a single-model architecture, leaving room for improvement. We propose a novel computational method, called EGPDI, based on multi-view graph embedding fusion. This approach involves the integration of Equivariant Graph Neural Networks (EGNN) and Graph Convolutional Networks II (GCNII), independently configured to profoundly mine the global and local node embedding representations. An advanced gated multi-head attention mechanism is subsequently employed to capture the attention weights of the dual embedding representations, thereby facilitating the integration of node features. Besides, extra node features from protein language models are introduced to provide more structural information. To our knowledge, this is the first time that multi-view graph embedding fusion has been applied to the task of protein-DNA binding site prediction. The results of five-fold cross-validation and independent testing demonstrate that EGPDI outperforms state-of-the-art methods. Further comparative experiments and case studies also verify the superiority and generalization ability of EGPDI.",
+  "abstract_zh": "蛋白质-DNA相互作用的机制涉及广泛的生物活动和过程。准确识别蛋白质与DNA之间的结合位点对于分析遗传物质、探索蛋白质功能以及设计新型药物至关重要。近年来，已提出多种计算方法作为耗时且昂贵的传统实验的替代方案。然而，准确预测蛋白质-DNA结合位点仍是一个挑战。现有计算方法往往依赖于手工设计的特征和单一模型架构，仍有改进空间。我们提出了一种新颖的计算方法，名为EGPDI，基于多视图图嵌入融合。该方法整合了等变图神经网络（Equivariant Graph Neural Networks, EGNN）和图卷积网络II（Graph Convolutional Networks II, GCNII），分别配置以深入挖掘全局和局部节点嵌入表示。随后，采用先进的门控多头注意力机制来捕获双嵌入表示的注意力权重，从而促进节点特征的整合。此外，引入来自蛋白质语言模型的额外节点特征，以提供更多结构信息。据我们所知，这是首次将多视图图嵌入融合应用于蛋白质-DNA结合位点预测任务。五折交叉验证和独立测试的结果表明，EGPDI优于现有最先进的方法。进一步的对比实验和案例研究也验证了EGPDI的优越性和泛化能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38975896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38975896/",
+  "paper_page_path": "papers/pubmed/38975896/index.html"
+}

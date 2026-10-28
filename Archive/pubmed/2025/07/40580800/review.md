@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as provided
+- **Shared manuscript claim summary** The authors review high-throughput reporter assays (MPRAs, STARR-seq, and variants) and their applications in identifying and characterizing cis-regulatory elements, determining transcriptional effects of genetic variants, and training machine learning models for predicting and designing regulatory sequences. They also discuss limitations and future directions including single-cell, in vivo, and stimulus-responsive assays.
+- **Visible evidence base** Full text including abstract, introduction, methodology sections, applications sections, limitations, and future outlooks. No figures or tables were provided.
+- **Missing materials affecting confidence** Figures and Table 1 referenced in the text were not provided. Reference list was not provided. This limits full assessment of illustrative content and citation accuracy.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and informative review covering a rapidly evolving area of functional genomics. The authors provide a clear overview of major high-throughput reporter assay methodologies, their applications, and current limitations. The manuscript is generally well-written and accessible to a broad audience. However, several areas require attention, including clarification of technical details, more balanced discussion of limitations, and explicit acknowledgment of ongoing challenges in the field. The review would benefit from a more critical perspective on the reproducibility and interpretability of these assays.
+- **Who would be interested in the results, and why** Researchers in gene regulation, functional genomics, computational biology, and disease genetics would find this review valuable. It provides a concise entry point for those new to the field and a useful summary for practitioners. The discussion of machine learning applications and synthetic element design may also appeal to synthetic biologists and bioengineers.
+- **Major strengths** The review is timely and covers a broad range of applications in a concise format. The organization is logical, moving from methodology to applications to limitations and future directions. The authors effectively highlight the utility of these assays for causal variant identification and synthetic element design. The discussion of future developments, particularly single-cell and in vivo approaches, is forward-looking and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that STARR-seq "directly places candidate CREs within the 3′ UTR of the construct" and that this "enables measuring the activity of enhancers (or silencers), which function independently of their position, thus driving their own transcription."
+  - **Evidence pointer** Section "STARR-seq", location not provided
+  - **Concern** The description of STARR-seq is oversimplified and potentially misleading. While STARR-seq does place candidate fragments in the 3' UTR, the statement that enhancers "function independently of their position" is not universally accurate. Many enhancers exhibit position-dependent activity, and the 3' UTR context may not recapitulate all enhancer behaviors. Additionally, the mechanism by which the candidate sequence drives its own transcription is not fully explained, which could confuse readers unfamiliar with the technique.
+  - **Why it matters** Accurate methodological description is critical for a review aimed at a broad audience. Misleading statements about enhancer position independence could lead to incorrect assumptions about the generalizability of STARR-seq results.
+  - **Resolution test** Revise the description to clarify that STARR-seq exploits the position-independent activity of many enhancers in a plasmid context, while acknowledging that this may not hold for all elements. Provide a more precise explanation of the self-transcribing mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "a pioneering 2009 study laid the ground through a saturation mutagenesis-based in vitro assay to analyze the effect of mutations at every position in bacteriophage and mammalian core promoters."
+  - **Evidence pointer** Section "Introduction", location not provided
+  - **Concern** The description of the 2009 study is vague. It is unclear whether this refers to a specific MPRA study or a different type of saturation mutagenesis assay. The authors do not name the study or its key findings, making it difficult for readers to identify the foundational work being referenced.
+  - **Why it matters** Identifying the pioneering study is important for historical context and for readers seeking to understand the origins of the field. Vague references reduce the utility of the review as a scholarly resource.
+  - **Resolution test** Provide the specific citation and a brief description of the study's key contributions, such as the development of a quantitative framework for measuring promoter activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "lentiMPRAs have expanded these results by showing that promoters display a preference for strand directionality and that their 200-nucleotide cores function as 'on switches' that are generally not cell type specific, contrary to enhancers."
+  - **Evidence pointer** Section "Identification and characterization of cis-regulatory elements", location not provided
+  - **Concern** The claim that promoter cores are "generally not cell type specific" is a strong generalization that may not hold across all contexts. While some studies support this, others have shown cell-type-specific promoter activity. The authors do not qualify this statement or acknowledge conflicting evidence.
+  - **Why it matters** Overgeneralization can mislead readers about the state of the field and the complexity of promoter regulation. A more nuanced discussion would strengthen the review.
+  - **Resolution test** Qualify the statement by noting that while many promoter cores show constitutive activity, some exhibit cell-type-specific regulation, and cite examples of both.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "a recent study using multiple landing pads randomly integrated into the genome determined insulator capacity genome-wide and found that insulator activity is highly context dependent and dependent on CTCF or B-box motifs."
+  - **Evidence pointer** Section "Identification and characterization of cis-regulatory elements", location not provided
+  - **Concern** The description of the landing pad approach is insufficiently detailed. It is unclear how "multiple landing pads randomly integrated" allows for genome-wide determination of insulator capacity. The authors do not explain the experimental design or how context dependence was assessed.
+  - **Why it matters** The methodological detail is important for readers to evaluate the validity and scope of the findings. Insufficient description undermines the credibility of the summary.
+  - **Resolution test** Provide a more detailed explanation of the landing pad strategy, including how genomic integration sites were selected and how insulator activity was measured.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "MPRAs" and "STARR-seq" without defining them. While these are standard abbreviations in the field, the abstract should be accessible to a broader audience.
+  - **Required correction** Define "MPRAs" and "STARR-seq" at first mention in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "MPRAs"
+  - **Evidence pointer** Section "MPRAs", location not provided
+  - **Issue** The statement that "episomal MPRAs... may not fully recapitulate the chromatinized genome environment" is vague. The authors could specify which aspects of chromatin are not recapitulated, such as nucleosome positioning or histone modifications.
+  - **Required correction** Specify the chromatin features that are not recapitulated in episomal assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Limitations of high-throughput reporter assays"
+  - **Evidence pointer** Section "Limitations of high-throughput reporter assays", location not provided
+  - **Issue** The sentence "Another challenge of high-throughput reporter assays, shared by ChIP-seq and ATAC-seq approaches, involves assigning CREs to specific target genes" is somewhat unclear. The authors could clarify that this is a general challenge in genomics, not specific to reporter assays.
+  - **Required correction** Rephrase to clarify that target gene assignment is a broader challenge in functional genomics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Future outlooks"
+  - **Evidence pointer** Section "Future outlooks", location not provided
+  - **Issue** The authors mention "Response MPRAs" as a future development but do not provide a clear definition or examples of how they differ from standard MPRAs beyond studying environmental stimuli.
+  - **Required correction** Provide a brief definition and one or two examples of response MPRA applications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Elucidating and exploiting the rules of transcriptional regulation"
+  - **Evidence pointer** Section "Elucidating and exploiting the rules of transcriptional regulation", location not provided
+  - **Issue** The phrase "homotypic and heterotypic combinations of 18 liver TF binding sites" may be unclear to readers unfamiliar with TF biology.
+  - **Required correction** Briefly explain what homotypic and heterotypic combinations mean in this context.
+- **Technical failings that need to be addressed before the case is established** No fundamental technical failings identified. The concerns raised are primarily related to clarity and precision of descriptions rather than fundamental errors.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review covers a well-established field but provides a useful synthesis of recent developments. It does not present novel concepts but offers a current overview. Originality is moderate for a review article.
+  - **Scientific importance** The topic is of high importance in functional genomics and gene regulation. The review addresses key applications and future directions, making it relevant to a broad research community.
+  - **Interdisciplinary readership** The review is likely to appeal to molecular biologists, geneticists, computational biologists, and synthetic biologists. The writing is generally accessible, though some sections assume familiarity with genomics terminology.
+  - **Technical soundness** The technical descriptions are mostly accurate but require clarification in several areas as noted in the major concerns. The review would benefit from more precise methodological descriptions.
+  - **Readability for nonspecialists** The review is generally well-written and organized. However, some terms and concepts are introduced without sufficient explanation, which may limit accessibility for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review provides a valuable and timely overview of high-throughput reporter assays and their applications. Addressing the major concerns regarding precision of methodological descriptions and balancing generalizations would strengthen the manuscript. The minor comments should also be addressed to improve clarity and accessibility.
+
+## Risk / unsupported claims
+- The claim that promoter cores are "generally not cell type specific" is an overgeneralization not fully supported by the provided text.
+- The description of the 2009 pioneering study is too vague to verify the specific claims made about it.
+- The statement that enhancers "function independently of their position" in the context of STARR-seq is an oversimplification that may not hold for all enhancers.
+- The description of the landing pad study for insulator capacity lacks sufficient detail to assess the validity of the summarized findings.
+- The claim that "these assays help identify causal disease-associated non-coding variants" is presented without discussion of the limitations of reporter assays for this purpose, such as the lack of native chromatin context.

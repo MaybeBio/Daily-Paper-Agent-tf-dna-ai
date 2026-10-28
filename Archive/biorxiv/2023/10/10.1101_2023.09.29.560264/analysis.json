@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.29.560264",
+  "title": "NanoBERTa-ASP: Predicting Nanobody Binding Epitopes Based on a Pretrained RoBERTa Model",
+  "authors": "Shangru Li; Xiangpeng Meng; Rui Li; Bingding Huang; Xin Wang",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-02",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 4,
+  "one_liner_zh": "用预训练RoBERTa模型预测纳米抗体-抗原结合表位，属蛋白-蛋白互作而非蛋白-DNA互作，方法可迁移但对象不匹配。",
+  "abstract": "Nanobodies, also known as VHH or single-domain antibodies, are a unique class of antibodies that consist only of heavy chains and lack light chains. Nanobodies possess the advantages of both small molecule drugs and conventional antibodies, making them a promising class of therapeutic biopharmaceuticals. Studying the characteristics of nanobody sequences can aid the development and design of nanobodies. An important challenge in this field is accurately predicting the binding sites between nanobodies and antigens. The binding site is the region where the nanobody interacts with the antigen. The precise prediction of these binding sites is crucial for comprehending the interaction mechanism between the nanobody and the antigen, facilitating the design of effective nanobodies, as well as gaining valuable insights into the properties of nanobodies. Nanobodies typically have smaller and more flexible binding sites than traditional antibodies, however predictive models trained on traditional antibodies may not be suitable for nanobodies. Moreover, the limited availability of antibodyderived nanobody datasets for deep learning poses challenges in constructing highly accurate predictive models that can generalize well to unseen data. To address these challenges, we propose a novel nanobody prediction model, named NanoBERTa-ASP (Antibody Specificity Prediction), which is specifically designed for predicting nanobody-antigen binding sites. The model adopts a training strategy more suitable for nanobodies by leveraging an advanced natural language processing (NLP) model called BERT (Bidirectional Encoder Representations from Transformers). The model also utilizes a masked language modeling approach to learn the contextual information of the nanobody sequence and predict its binding site. The results obtained from training NanoBERTa-ASP on nanobodies highlight its exceptional performance in Precision and AUC, underscoring its proficiency in capturing sequence information specific to nanobodies and accurately predicting their binding sites. Furthermore, our model can provide insights into the interaction mechanisms between nanobodies and antigens, contributing to a better understanding of nanobodies, as well as accelerating the development and design of nanobodies with potential therapeutic applications. To the best of our knowledge, NanoBERTa-ASP is the first nanobody language model that achieved high accuracy in predicting the binding sites. Github repository https://github.com/WangLabforComputationalBiology/NanoBERTa-ASP",
+  "abstract_zh": "纳米抗体（Nanobodies），也称为VHH或单域抗体，是一类独特的抗体，仅包含重链而缺乏轻链。纳米抗体兼具小分子药物和传统抗体的优势，使其成为一类有前景的治疗性生物制药。研究纳米抗体序列的特征有助于纳米抗体的开发与设计。该领域的一个重要挑战是准确预测纳米抗体与抗原之间的结合位点。结合位点是纳米抗体与抗原相互作用的区域。精确预测这些结合位点对于理解纳米抗体与抗原的相互作用机制、促进有效纳米抗体的设计以及获取关于纳米抗体特性的宝贵见解至关重要。纳米抗体通常具有比传统抗体更小且更灵活的结合位点，然而，基于传统抗体训练的预测模型可能不适用于纳米抗体。此外，用于深度学习的抗体衍生纳米抗体数据集的有限可用性，对构建能够良好泛化到未见数据的高精度预测模型构成了挑战。为解决这些挑战，我们提出了一种新型纳米抗体预测模型，名为NanoBERTa-ASP（抗体特异性预测），专门设计用于预测纳米抗体-抗原结合位点。该模型采用了一种更适合纳米抗体的训练策略，利用了一种先进的自然语言处理（NLP）模型，称为BERT（来自变换器的双向编码器表示）。该模型还利用掩码语言建模方法来学习纳米抗体序列的上下文信息并预测其结合位点。在纳米抗体上训练NanoBERTa-ASP所获得的结果突显了其在精确度和AUC方面的卓越性能，强调了其在捕捉纳米抗体特异性序列信息和准确预测其结合位点方面的能力。此外，我们的模型可以提供对纳米抗体与抗原相互作用机制的见解，有助于更好地理解纳米抗体，并加速具有潜在治疗应用的纳米抗体的开发与设计。据我们所知，NanoBERTa-ASP是首个在预测结合位点方面实现高精度的纳米抗体语言模型。GitHub仓库：https://github.com/WangLabforComputationalBiology/NanoBERTa-ASP",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.29.560264",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.29.560264",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.29.560264/index.html"
+}

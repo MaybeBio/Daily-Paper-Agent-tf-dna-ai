@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that perfluorooctanoic acid (PFOA) and perfluorooctane sulfonic acid (PFOS) promote hepatocellular carcinoma (HCC) progression by disrupting lipid metabolism through nuclear receptor (NR)-mediated transcriptional regulation, specifically via estrogen receptor (ERalpha/ERbeta) binding to NPY1R and CLEC1B promoters.
+- **Visible evidence base** Public HCC gene expression datasets (GSE14323, GSE17548, GSE25097, GSE54236), clinical liver tissues (n = 118), molecular docking and dynamics simulations, in vitro experiments in HepG2 cells, chromatin immunoprecipitation assays, and ER knockdown/overexpression experiments.
+- **Missing materials affecting confidence** Full methods, statistical details, docking scores, simulation parameters, ChIP quality controls, lipid quantification assays, clinical tissue histology, and any supplementary figures or tables.
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting hypothesis linking environmental contaminants to HCC via NR-mediated lipid metabolism dysregulation. The integration of bioinformatics, computational chemistry, and experimental validation is commendable. However, the evidence as summarized does not fully establish the causal chain from PFOA/PFOS exposure to HCC progression. Key gaps include the lack of direct HCC phenotype data, unclear specificity of the proposed mechanism, and insufficient detail on the clinical relevance of the findings.
+- **Who would be interested in the results, and why** Environmental toxicologists studying endocrine disrupting chemicals, liver cancer researchers investigating metabolic drivers of hepatocarcinogenesis, and public health scientists concerned with PFAS exposure risks. The proposed mechanism could inform regulatory decisions and future therapeutic targets.
+- **Major strengths** The study combines multiple complementary approaches (bioinformatics, machine learning, molecular modeling, and in vitro experiments) to triangulate a mechanistic hypothesis. The identification of NPY1R and CLEC1B as novel candidate genes is potentially original. The use of clinical tissue validation adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract claims that PFOA/PFOS "may promote HCC progression by disrupting lipid metabolism via interference with NR-dependent gene regulation."
+  - **Evidence pointer** In vitro experiments, lipid accumulation assays, ER knockdown/overexpression (location not provided)
+  - **Concern** The abstract reports lipid accumulation in HepG2 cells but provides no direct evidence linking this to HCC progression, such as proliferation, migration, invasion, or tumorigenesis assays. The leap from cellular lipid changes to cancer progression is unsupported.
+  - **Why it matters** HCC is a complex malignancy; lipid accumulation alone is not sufficient to establish a pro-carcinogenic effect. Without functional cancer-related endpoints, the central claim of the study remains speculative.
+  - **Resolution test** Provide data on HCC-relevant phenotypes (e.g., colony formation, migration, xenograft growth) in PFOA/PFOS-treated cells with and without NPY1R/CLEC1B modulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The abstract states that PFOA/PFOS inhibit ERalpha/ERbeta binding to NPY1R and CLEC1B promoters, leading to reduced transcription.
+  - **Evidence pointer** ChIP assays (location not provided)
+  - **Concern** The abstract does not clarify whether the effect is specific to ERs or reflects a general disruption of transcription factor binding. No data are shown for other NRs or transcription factors, and the selectivity of PFOA/PFOS for ERs over other nuclear receptors is not established.
+  - **Why it matters** EDCs are known to interact with multiple NRs. Without demonstrating ER specificity, the proposed mechanism could be an oversimplification, and alternative pathways remain plausible.
+  - **Resolution test** Include ChIP or reporter assays for other NRs (e.g., PPARs, LXRs) and show that ER knockdown/overexpression specifically rescues the observed effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** The abstract implies that the findings are relevant to human HCC based on clinical tissue validation.
+  - **Evidence pointer** Clinical liver tissues (n = 118) (location not provided)
+  - **Concern** The abstract does not specify whether the clinical tissues are HCC tumors, adjacent non-tumor tissue, or normal liver, nor whether NPY1R/CLEC1B expression correlates with patient outcomes, exposure levels, or lipid metabolism markers.
+  - **Why it matters** Without clinicopathological correlation, the translational significance of the gene expression findings is unclear.
+  - **Resolution test** Provide details on tissue types, staging, survival analysis, and any correlation with lipid profiles or PFAS exposure levels.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Bioinformatics pipeline
+  - **Evidence pointer** Differential expression analysis, WGCNA, machine learning (location not provided)
+  - **Issue** The abstract does not specify the thresholds, parameters, or validation strategy for the machine learning algorithms, nor how the three datasets were harmonized.
+  - **Required correction** Briefly describe the key parameters and cross-validation approach in the methods or supplementary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dose relevance
+  - **Affected element** In vitro exposure concentrations
+  - **Evidence pointer** In vitro experiments (location not provided)
+  - **Issue** The abstract states "dose-dependently" but does not report the concentration range or whether these levels are environmentally or occupationally relevant.
+  - **Required correction** State the concentration range and justify relevance to human exposure scenarios.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Gene names
+  - **Evidence pointer** NPY1R and CLEC1B (location not provided)
+  - **Issue** The abstract uses gene symbols without full names, which may hinder nonspecialist readers.
+  - **Required correction** Provide full gene names at first mention.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The causal link to HCC progression and the ER specificity of the mechanism must be experimentally demonstrated.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of PFOA/PFOS, NRs, and specific genes (NPY1R, CLEC1B) is novel, but the general concept of EDC-induced metabolic disruption in cancer is not new.
+  - Scientific importance: Potentially high given widespread PFAS exposure and HCC burden, but the current evidence does not yet establish clinical significance.
+  - Interdisciplinary readership: The topic bridges toxicology, cancer biology, and computational biology, which could appeal to a broad audience if fully substantiated.
+  - Technical soundness: The multi-method approach is sound in principle, but key experimental details and functional endpoints are missing from the abstract.
+  - Readability for nonspecialists: The abstract is generally clear but relies on specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the blocking concerns are resolved with additional functional data and mechanistic specificity.
+
+## Risk / unsupported claims
+- The claim that PFOA/PFOS "promote HCC progression" is unsupported without cancer-related functional assays.
+- The claim that ERalpha/ERbeta are the specific mediators is not fully established without testing other NRs.
+- The clinical relevance of NPY1R and CLEC1B downregulation is unsubstantiated without clinicopathological correlation.
+- The dose-response relationship in vitro is not assessable without concentration details.

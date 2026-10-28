@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "38610001",
+    "doi": "10.1186/s12964-024-01605-x",
+    "title": "RUNX1-BMP2 promotes vasculogenic mimicry in laryngeal squamous cell carcinoma via activation of the PI3K-AKT signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Laryngeal squamous cell carcinoma (LSCC) is one of the most common malignant tumors of the head and neck. Vasculogenic mimicry (VM) is crucial for tumor growth and metastasis and refers to the formation of fluid channels by invasive tumor cells rather than endothelial cells. However, the regulatory mechanisms underlying VM during the malignant progression of LSCC remain largely unknown. METHODS: Gene expression and clinical data for LSCC were obtained from the TCGA and Gene GEO (GSE27020) databases. A risk prediction model associated with VM was established using LASSO and Cox regression analyses. Based on their risk scores, patients with LSCC were categorized into high- and low-risk groups. The disparities in immune infiltration, tumor mutational burden (TMB), and functional enrichment between these two groups were examined. The core genes in LSCC were identified using the machine learning (SVM-RFE) and WGCNA algorithms. Subsequently, the involvement of bone morphogenetic protein 2 (BMP2) in VM and metastasis was investigated both in vitro and in vivo. To elucidate the downstream signaling pathways regulated by BMP2, western blotting was performed. Additionally, ChIP experiments were employed to identify the key transcription factors responsible for modulating the expression of BMP2. RESULTS: We established a new precise prognostic model for LSCC related to VM based on three genes: BMP2, EPO, and AGPS. The ROC curves from both TCGA and GSE27020 validation cohorts demonstrated precision survival prediction capabilities, with the nomogram showing some net clinical benefit. Multiple algorithm analyses indicated BMP2 as a potential core gene. Further experiments suggested that BMP2 promotes VM and metastasis in LSCC. The malignant progression of LSCC is promoted by BMP2 via the activation of the PI3K-AKT signaling pathway, with the high expression of BMP2 in LSCC resulting from its transcriptional activation by runt-related transcription factor 1 (RUNX1). CONCLUSION: BMP2 predicts poor prognosis in LSCC, promotes LSCC VM and metastasis through the PI3K-AKT signaling pathway, and is transcriptionally regulated by RUNX1. BMP2 may be a novel, precise, diagnostic, and therapeutic biomarker of LSCC.",
+    "keywords": [
+      "Bone morphogenetic protein 2",
+      "Laryngeal squamous cell carcinoma",
+      "Metastasis",
+      "Runt-related transcription factor 1",
+      "Vasculogenic mimicry"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Bone Morphogenetic Protein 2",
+      "Core Binding Factor Alpha 2 Subunit",
+      "Endothelial Cells",
+      "Phosphatidylinositol 3-Kinases",
+      "Proto-Oncogene Proteins c-akt",
+      "Squamous Cell Carcinoma of Head and Neck/genetics",
+      "*Head and Neck Neoplasms",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Qingwen",
+        "Zhang, Xinyu",
+        "Lu, Fei",
+        "Miao, Siyu",
+        "Zhang, Chunyang",
+        "Liu, Zhenzhen",
+        "Gao, Zejun",
+        "Qi, Meihao",
+        "An, Xiaogang",
+        "Geng, Panling",
+        "Wang, Sufang",
+        "Ren, Hongbo",
+        "Han, Fugen",
+        "Zhang, Ruyue",
+        "Zha, DingJun"
+      ],
+      "short_names": [
+        "Zhu Q",
+        "Zhang X",
+        "Lu F",
+        "Miao S",
+        "Zhang C",
+        "Liu Z",
+        "Gao Z",
+        "Qi M",
+        "An X",
+        "Geng P",
+        "Wang S",
+        "Ren H",
+        "Han F",
+        "Zhang R",
+        "Zha D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China.",
+        "Department of Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. emmaruyue@163.com.",
+        "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China. zhadjun@fmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Qingwen",
+        "short_name": "Zhu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China.",
+          "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Fei",
+        "short_name": "Lu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Siyu",
+        "short_name": "Miao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunyang",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhenzhen",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zejun",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Meihao",
+        "short_name": "Qi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "An, Xiaogang",
+        "short_name": "An X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Panling",
+        "short_name": "Geng P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sufang",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Hongbo",
+        "short_name": "Ren H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Han, Fugen",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Children's Hospital Affiliated to Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruyue",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. emmaruyue@163.com."
+        ]
+      },
+      {
+        "full_name": "Zha, DingJun",
+        "short_name": "Zha D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Air Force Military Medical University, Xi'an, China. zhadjun@fmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2024 Apr 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/13 10:42",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "41888846",
+      "41866755",
+      "41851872",
+      "41469752",
+      "41372940",
+      "41080548",
+      "40792153",
+      "40721473",
+      "40620074",
+      "40475768",
+      "40351428",
+      "40185978"
+    ],
+    "refs": [
+      "37639011",
+      "35271994",
+      "34504305",
+      "34244606",
+      "34175443",
+      "33465401",
+      "33397409",
+      "33241710",
+      "33175152",
+      "32627648",
+      "32487167",
+      "32239427",
+      "32169087",
+      "32144236",
+      "31323288",
+      "30945361",
+      "30744670",
+      "30643254",
+      "30361882",
+      "30275705",
+      "29350274",
+      "28455969",
+      "28109670",
+      "27898173",
+      "26934471",
+      "25514175",
+      "25205038",
+      "24864260",
+      "24669294",
+      "23591796",
+      "23159042",
+      "23044304",
+      "22901808",
+      "22474319",
+      "21996751",
+      "20525189",
+      "19509557",
+      "19324447",
+      "18946035",
+      "18059158",
+      "16227150",
+      "15547697",
+      "12925607",
+      "12793894",
+      "12778131",
+      "12536308",
+      "10487832",
+      "8682290"
+    ],
+    "similar": [
+      "38610001",
+      "39428922",
+      "37543219",
+      "39869954",
+      "38845538",
+      "41361273",
+      "41502523",
+      "25464804",
+      "33174027",
+      "38321126",
+      "41186789",
+      "22883583",
+      "35532293",
+      "37863866",
+      "34162144",
+      "35606755",
+      "27533461",
+      "38372097",
+      "20525189",
+      "33234130",
+      "35156537",
+      "39243570",
+      "40881700",
+      "40679719",
+      "23044304",
+      "32487167",
+      "40792153",
+      "37792175",
+      "27356739",
+      "40660234",
+      "36438491",
+      "27373675",
+      "30597574",
+      "40692710",
+      "40355841",
+      "40020330",
+      "37129607",
+      "41079114",
+      "35112956",
+      "38214357",
+      "34585589",
+      "41469752",
+      "31966598",
+      "35116338",
+      "37219914",
+      "37249774",
+      "38102653",
+      "26398771",
+      "38632141",
+      "34999279",
+      "40752536",
+      "34257531",
+      "29393451",
+      "36369089",
+      "35178302",
+      "35804447",
+      "36424539",
+      "37639011",
+      "34634160",
+      "36055752",
+      "38352733",
+      "35715770",
+      "39904282",
+      "38712806",
+      "32555190",
+      "35568824",
+      "33106477",
+      "27007153",
+      "33420975",
+      "35366893",
+      "33733517",
+      "37073715",
+      "31196171",
+      "30535476",
+      "41099090",
+      "36999462",
+      "38369001",
+      "25975685",
+      "35909889",
+      "38048860",
+      "35904181",
+      "32432318",
+      "38777998",
+      "35655921",
+      "38308456",
+      "34994984",
+      "33641529",
+      "40913157",
+      "35170826",
+      "24692720",
+      "27751825",
+      "37201466",
+      "40858160",
+      "27868407",
+      "38273364",
+      "39068410",
+      "39237880",
+      "41129927",
+      "40682848",
+      "35581606"
+    ],
+    "review": [
+      "38610001",
+      "40858160"
+    ],
+    "pmc": [
+      "11010429"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-024-01605-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38610001/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/headandneckcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Head and Neck Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38610001/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38610001",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

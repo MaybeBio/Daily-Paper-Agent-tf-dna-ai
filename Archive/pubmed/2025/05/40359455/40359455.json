@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "40359455",
+    "doi": "10.1371/journal.pone.0320817",
+    "title": "iProtDNA-SMOTE: Enhancing protein-DNA binding sites prediction through imbalanced graph neural networks."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play a crucial role in cellular biology, essential for maintaining life processes and regulating cellular functions. We propose a method called iProtDNA-SMOTE, which utilizes non-equilibrium graph neural networks along with pre-trained protein language models to predict DNA binding residues. This approach effectively addresses the class imbalance issue in predicting protein-DNA binding sites by leveraging unbalanced graph data, thus enhancing model's generalization and specificity. We trained the model on two datasets, TR646 and TR573, and conducted a series of experiments to evaluate its performance. The model achieved AUC values of 0.850, 0.896, and 0.858 on the independent test datasets TE46, TE129, and TE181, respectively. These results indicate that iProtDNA-SMOTE outperforms existing methods in terms of accuracy and generalization for predicting DNA binding sites, offering reliable and effective predictions to minimize errors. The model has been thoroughly validated for its ability to predict protein-DNA binding sites with high reliability and precision. For the convenience of the scientific community, the benchmark datasets and codes are publicly available at https://github.com/primrosehry/iProtDNA-SMOTE.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Binding Sites",
+      "*DNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Software",
+      "Databases, Protein",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Ruiyan",
+        "Qiu, Wangren",
+        "Xiao, Xuan",
+        "Lin, Weizhong"
+      ],
+      "short_names": [
+        "Huang R",
+        "Qiu W",
+        "Xiao X",
+        "Lin W"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0971-6745",
+        "ORCID: 0000-0002-7537-1899"
+      ],
+      "affiliations": [
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China.",
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China.",
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China.",
+        "School of Information Engineering, Jingxi Art & Ceramics Technology Institute, Jingdezhen Jiangxi, China.",
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Ruiyan",
+        "short_name": "Huang R",
+        "identifiers": [
+          "0009-0002-0971-6745"
+        ],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Wangren",
+        "short_name": "Qiu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xuan",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China.",
+          "School of Information Engineering, Jingxi Art & Ceramics Technology Institute, Jingdezhen Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Weizhong",
+        "short_name": "Lin W",
+        "identifiers": [
+          "0000-0002-7537-1899"
+        ],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/13 18:42",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "41168713"
+    ],
+    "refs": [
+      "38867914",
+      "38718835",
+      "38349057",
+      "38281252",
+      "38171929",
+      "38055191",
+      "36927031",
+      "35943134",
+      "35834447",
+      "35799660",
+      "35652477",
+      "35650286",
+      "35519609",
+      "35039821",
+      "34673265",
+      "33876751",
+      "33577689",
+      "33454744",
+      "31881828",
+      "30943723",
+      "30169574",
+      "29492997",
+      "28334224",
+      "28262565",
+      "28132027",
+      "27740495",
+      "25113160",
+      "24419625",
+      "22130889",
+      "20877328",
+      "19594868",
+      "12546969"
+    ],
+    "similar": [
+      "40359455",
+      "39848362",
+      "38975896",
+      "39214282",
+      "39447059",
+      "39471921",
+      "40163821",
+      "40102719",
+      "39940709",
+      "39357703",
+      "40097269",
+      "40108108",
+      "39446541",
+      "38701417",
+      "39701486",
+      "38171929",
+      "34929739",
+      "39832275",
+      "38640481",
+      "39270533",
+      "40067266",
+      "38923911",
+      "37824738",
+      "39487084",
+      "32946833",
+      "33577689",
+      "32142788",
+      "29993783",
+      "39270885",
+      "38896523",
+      "39007599",
+      "39096613",
+      "40139623",
+      "40362328",
+      "30106688",
+      "28155662",
+      "40155814",
+      "38643595",
+      "39481634",
+      "39847542",
+      "33837387",
+      "31323206",
+      "37655493",
+      "39913849",
+      "39798127",
+      "38724906",
+      "39121059",
+      "19091029",
+      "39312678",
+      "40015034",
+      "38709606",
+      "37820558",
+      "35039821",
+      "19439068",
+      "40121399",
+      "19008251",
+      "40279343",
+      "39528630",
+      "39528184",
+      "38491248",
+      "29753757",
+      "37054909",
+      "40159647",
+      "38986796",
+      "33450251",
+      "39961610",
+      "39528950",
+      "39360982",
+      "35043942",
+      "38281252",
+      "34073705",
+      "40334196",
+      "34073774",
+      "38927611",
+      "38871095",
+      "38833802",
+      "34415020",
+      "38892057",
+      "32920048",
+      "34653224",
+      "34559177",
+      "39404784",
+      "39776159",
+      "39808870",
+      "40251830",
+      "38722047",
+      "31881828",
+      "39693053",
+      "39154194",
+      "34905768",
+      "15720719",
+      "23788679",
+      "39653625",
+      "38642500",
+      "40073495",
+      "21689482",
+      "38070456",
+      "33822882",
+      "38897656",
+      "39833102"
+    ],
+    "review": [
+      "40359455",
+      "39833102"
+    ],
+    "pmc": [
+      "12074593"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0320817",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40359455/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

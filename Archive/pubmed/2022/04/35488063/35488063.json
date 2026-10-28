@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "35488063",
+    "doi": "10.1038/s42003-022-03346-4",
+    "title": "Computational profiling of hiPSC-derived heart organoids reveals chamber defects associated with NKX2-5 deficiency."
+  },
+  "content": {
+    "abstract": "Heart organoids have the potential to generate primary heart-like anatomical structures and hold great promise as in vitro models for cardiac disease. However, their properties have not yet been fully studied, which hinders their wide spread application. Here we report the development of differentiation systems for ventricular and atrial heart organoids, enabling the study of heart diseases with chamber defects. We show that our systems generate chamber-specific organoids comprising of the major cardiac cell types, and we use single cell RNA sequencing together with sample multiplexing to characterize the cells we generate. To that end, we developed a machine learning label transfer approach leveraging cell type, chamber, and laterality annotations available for primary human fetal heart cells. We then used this model to analyze organoid cells from an isogeneic line carrying an Ebstein's anomaly associated genetic variant in NKX2-5, and we successfully recapitulated the disease's atrialized ventricular defects. In summary, we have established a workflow integrating heart organoids and computational analysis to model heart development in normal and disease states.",
+    "keywords": [],
+    "mesh_terms": [
+      "Heart",
+      "Heart Ventricles",
+      "Homeobox Protein Nkx-2.5/genetics/metabolism",
+      "Humans",
+      "*Induced Pluripotent Stem Cells",
+      "Organogenesis/genetics",
+      "*Organoids/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Wei",
+        "Schriever, Hannah",
+        "Jiang, Shan",
+        "Bais, Abha",
+        "Wu, Haodi",
+        "Kostka, Dennis",
+        "Li, Guang"
+      ],
+      "short_names": [
+        "Feng W",
+        "Schriever H",
+        "Jiang S",
+        "Bais A",
+        "Wu H",
+        "Kostka D",
+        "Li G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5605-0811",
+        "ORCID: 0000-0002-9459-5548",
+        "ORCID: 0000-0001-5910-1306",
+        "ORCID: 0000-0002-1460-5487",
+        "ORCID: 0000-0002-8546-2364"
+      ],
+      "affiliations": [
+        "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.",
+        "Joint Carnegie Mellon, University of Pittsburgh Ph.D. Program in Computational Biology, Pittsburgh, PA, USA.",
+        "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.",
+        "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.",
+        "Vascular Medicine Institute Division of Cardiology, University of Pittsburgh Department of Medicine, Pittsburgh, PA, USA.",
+        "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. kostka@pitt.edu.",
+        "Joint Carnegie Mellon, University of Pittsburgh Ph.D. Program in Computational Biology, Pittsburgh, PA, USA. kostka@pitt.edu.",
+        "Department of Computational & Systems Biology and Pittsburgh Center for Evolutionary Biology and Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. kostka@pitt.edu.",
+        "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. guangli@pitt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Wei",
+        "short_name": "Feng W",
+        "identifiers": [
+          "0000-0002-5605-0811"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Schriever, Hannah",
+        "short_name": "Schriever H",
+        "identifiers": [
+          "0000-0002-9459-5548"
+        ],
+        "affiliations": [
+          "Joint Carnegie Mellon, University of Pittsburgh Ph.D. Program in Computational Biology, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shan",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bais, Abha",
+        "short_name": "Bais A",
+        "identifiers": [
+          "0000-0001-5910-1306"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Haodi",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Vascular Medicine Institute Division of Cardiology, University of Pittsburgh Department of Medicine, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Kostka, Dennis",
+        "short_name": "Kostka D",
+        "identifiers": [
+          "0000-0002-1460-5487"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. kostka@pitt.edu.",
+          "Joint Carnegie Mellon, University of Pittsburgh Ph.D. Program in Computational Biology, Pittsburgh, PA, USA. kostka@pitt.edu.",
+          "Department of Computational & Systems Biology and Pittsburgh Center for Evolutionary Biology and Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. kostka@pitt.edu."
+        ]
+      },
+      {
+        "full_name": "Li, Guang",
+        "short_name": "Li G",
+        "identifiers": [
+          "0000-0002-8546-2364"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA. guangli@pitt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2022 Apr 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/30 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "42580348",
+      "42250649",
+      "42230603",
+      "42098083",
+      "42079573",
+      "41867079",
+      "41783046",
+      "41511291",
+      "41439914",
+      "41311381",
+      "40940801",
+      "40872524",
+      "40463633",
+      "40156006",
+      "40061214",
+      "40030454",
+      "39934224",
+      "39621752",
+      "39377453",
+      "39280585",
+      "39204134",
+      "39191488",
+      "38962658",
+      "38855657",
+      "38778769",
+      "38771829",
+      "38646471",
+      "38515776",
+      "38435826",
+      "38334642",
+      "38072904",
+      "37809996",
+      "37727305",
+      "37563250",
+      "37120615",
+      "37047216",
+      "37034757",
+      "37034673",
+      "36964575",
+      "36830871",
+      "36379937",
+      "35621836",
+      "34446706"
+    ],
+    "refs": [
+      "33321106",
+      "33176168",
+      "33074758",
+      "32810435",
+      "32459996",
+      "32142682",
+      "31835037",
+      "31792435",
+      "31784515",
+      "31384377",
+      "31239450",
+      "31209384",
+      "31171692",
+      "31142541",
+      "30930147",
+      "30759401",
+      "30643263",
+      "30290179",
+      "29950006",
+      "29636455",
+      "28777944",
+      "28279973",
+      "28017577",
+      "27840109",
+      "27788187",
+      "27315476",
+      "26125590",
+      "25251699",
+      "24648383",
+      "24026123",
+      "23257984",
+      "22743772",
+      "22645348",
+      "22130515",
+      "22039477",
+      "21478862",
+      "17350578",
+      "17228014",
+      "15925411",
+      "15109497",
+      "10587520"
+    ],
+    "similar": [
+      "35488063",
+      "37772400",
+      "37686171",
+      "34019794",
+      "30630011",
+      "29175323",
+      "29037217",
+      "36544188",
+      "29282804",
+      "38902843",
+      "33736688",
+      "33558697",
+      "35778654",
+      "24026123",
+      "32962862",
+      "31570892",
+      "25803487",
+      "33599158",
+      "30880024",
+      "33975000",
+      "29979676",
+      "36466327",
+      "29543795",
+      "25536398",
+      "29361575",
+      "29561796",
+      "30674341",
+      "18718462",
+      "30840660",
+      "27840107",
+      "38836637",
+      "31299272",
+      "37863045",
+      "38984433",
+      "37889357",
+      "35525908",
+      "38100908",
+      "38086920",
+      "35008091",
+      "35914813",
+      "29636455",
+      "28615160",
+      "37926287",
+      "36039869",
+      "35624100",
+      "31186048",
+      "38453465",
+      "39485283",
+      "38113855",
+      "28352650",
+      "32772801",
+      "34446706",
+      "25050861",
+      "33574455",
+      "32028585",
+      "29444209",
+      "35995380",
+      "36930454",
+      "39218985",
+      "31217239",
+      "36944757",
+      "29227864",
+      "33035436",
+      "12594186",
+      "33775518",
+      "36092820",
+      "38693114",
+      "31147515",
+      "30916455",
+      "21285290",
+      "34487028",
+      "31492807",
+      "30834692",
+      "32862797",
+      "34152598",
+      "35213023",
+      "34445185",
+      "38857637",
+      "19073351",
+      "36110234",
+      "30449713",
+      "33346701",
+      "38818583",
+      "26824887",
+      "35679369",
+      "10587520",
+      "30787148",
+      "34861147",
+      "34373751",
+      "28822354",
+      "34943930",
+      "39209865",
+      "36011517",
+      "31168097",
+      "30992275",
+      "9043061",
+      "29579159",
+      "27331609",
+      "31685864",
+      "34142588"
+    ],
+    "review": [
+      "35488063",
+      "29561796",
+      "37889357",
+      "35525908",
+      "35995380",
+      "36930454",
+      "29227864",
+      "33775518",
+      "33346701",
+      "35679369",
+      "28822354"
+    ],
+    "pmc": [
+      "9054831"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-022-03346-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35488063/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35488063",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35488063",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse163619",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

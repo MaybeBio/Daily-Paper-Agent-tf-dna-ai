@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "42330601",
+    "doi": "10.1016/j.redox.2026.104271",
+    "title": "S100A9 modulates USP7-mediated stabilization of NCOA4 to promote ferroptosis in sepsis-associated acute lung injury."
+  },
+  "content": {
+    "abstract": "Sepsis-associated acute lung injury (SALI) is driven by dysregulated macrophage activation; however, mechanisms linking innate immune signaling to cell death remain elusive. Emerging evidence implicates ferroptosis, fueled by NCOA4-mediated ferritinophagy, as a critical executioner of macrophage death. Yet, post-translational mechanisms dictating NCOA4 stability and preventing its premature degradation during sepsis are poorly understood. Specifically, how damage-associated molecular patterns (DAMPs) like S100A9 sustain this pro-ferroptotic flux remains unknown. Here, we identify an S100A9-USP7-NCOA4 axis linking DAMP-mediated inflammation to ferritinophagy-dependent ferroptosis in alveolar macrophages. Sepsis-induced S100A9 acts as an intracellular scaffold, recruiting the deubiquitinase USP7 to NCOA4. USP7 cleaves K63-linked polyubiquitin chains at NCOA4 residues K42 and K181, preventing autophagic degradation and sustaining ferritin catabolism, iron release, and lipid peroxidation. Molecular docking reveals S100A9 optimally positions USP7 near NCOA4 K181 for site-specific deubiquitination. Crucially, S100A9 ablation or pharmacological USP7 inhibition with P5091 disrupts this axis, suppressing ferroptosis and alleviating lung injury in a murine cecal ligation and puncture (CLP) model. Clinically, USP7 and NCOA4 are positively co-expressed in sepsis patients, correlating with reduced 28-day survival. Collectively, our findings establish ferritinophagy as a bridge between innate immunity and ferroptosis in SALI, highlighting USP7 as a mechanistically defined, actionable therapeutic target.",
+    "keywords": [
+      "Ferritinophagy",
+      "Ferroptosis",
+      "NCOA4",
+      "S100A9",
+      "Sepsis-associated acute lung injury",
+      "USP7"
+    ],
+    "mesh_terms": [
+      "*Acute Lung Injury/etiology/metabolism/pathology",
+      "Animals",
+      "*Sepsis/complications/metabolism",
+      "*Ferroptosis/genetics",
+      "*Nuclear Receptor Coactivators/metabolism/chemistry/genetics",
+      "Mice",
+      "*Calgranulin B/metabolism/genetics/chemistry",
+      "Humans",
+      "*Ubiquitin-Specific Peptidase 7/metabolism/chemistry/genetics",
+      "Molecular Docking Simulation",
+      "Male",
+      "Ubiquitination",
+      "Macrophages, Alveolar/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Yi",
+        "Gu, Angran",
+        "Wang, Bailun",
+        "Yang, Yizheng",
+        "Sun, Chang",
+        "Zhang, Yi",
+        "Liu, Runmeng",
+        "Wang, Yichen",
+        "Gu, Changping",
+        "Wang, Yuelan"
+      ],
+      "short_names": [
+        "Wei Y",
+        "Gu A",
+        "Wang B",
+        "Yang Y",
+        "Sun C",
+        "Zhang Y",
+        "Liu R",
+        "Wang Y",
+        "Gu C",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China.",
+        "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China. Electronic address: LXQ9066@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Yi",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Angran",
+        "short_name": "Gu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bailun",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yizheng",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chang",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Runmeng",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yichen",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Changping",
+        "short_name": "Gu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuelan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, 250021, China. Electronic address: LXQ9066@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Redox biology"
+    ],
+    "journal_abbrev": [
+      "Redox Biol"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 21:07",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42049018",
+      "41158338",
+      "41135560",
+      "40835840",
+      "40769290",
+      "40491760",
+      "40366738",
+      "40246841",
+      "39988734",
+      "39887666",
+      "39505147",
+      "39353532",
+      "39193909",
+      "38966570",
+      "38744953",
+      "38287116",
+      "38254206",
+      "38183140",
+      "37872147",
+      "37773186",
+      "37117185",
+      "36332031",
+      "36328195",
+      "36041055",
+      "35543413",
+      "33536413",
+      "32066974",
+      "32015325",
+      "30807924",
+      "29942307",
+      "28985560",
+      "27934968",
+      "27514700",
+      "26436293",
+      "25098555",
+      "24695223",
+      "24462112",
+      "24232462",
+      "22975377",
+      "22850883",
+      "22632970",
+      "22195557",
+      "19762566",
+      "19451397",
+      "19398892",
+      "19250911",
+      "17767165",
+      "15720411",
+      "3313057"
+    ],
+    "similar": [
+      "42330601",
+      "42043768",
+      "41475687",
+      "41740686",
+      "42091499",
+      "35979359",
+      "41326673",
+      "41804481",
+      "42086108",
+      "36940731",
+      "42208328",
+      "41722510",
+      "41310132",
+      "41903814",
+      "40671136",
+      "41317784",
+      "42297195",
+      "42152078",
+      "40738474",
+      "42235787",
+      "38688134",
+      "40646387",
+      "34370287",
+      "40339610",
+      "34634471",
+      "42219071",
+      "41819783",
+      "41873334",
+      "41518848",
+      "42092407",
+      "40769290",
+      "39719634",
+      "39746501",
+      "41421227",
+      "41166067",
+      "42320848",
+      "42143323",
+      "41653617",
+      "41690330",
+      "42480678",
+      "33245979",
+      "36907253",
+      "41236557",
+      "40366738",
+      "39700692",
+      "40544907",
+      "40804084",
+      "40580743",
+      "41365193",
+      "40156957",
+      "40409694",
+      "40460602",
+      "38663454",
+      "39366066",
+      "42385286",
+      "41821081",
+      "38768701",
+      "39353532",
+      "42155789",
+      "41182521",
+      "42102950",
+      "38389491",
+      "32440780",
+      "40616736",
+      "40335979",
+      "41964368",
+      "32846217",
+      "36067704",
+      "34884728",
+      "39732105",
+      "39181476",
+      "41539346",
+      "42026022",
+      "40937759",
+      "41038141",
+      "38189810",
+      "38388414",
+      "38886572",
+      "40344841",
+      "36264362",
+      "41374003",
+      "41148492",
+      "39515100",
+      "32810738",
+      "41833002",
+      "40702108",
+      "40811945",
+      "42542057",
+      "37634745",
+      "38588614",
+      "42571828",
+      "42242436",
+      "42425906",
+      "41773921",
+      "34952420",
+      "39887555",
+      "35902564",
+      "41238085",
+      "40722030",
+      "42324098"
+    ],
+    "review": [
+      "42330601",
+      "34370287",
+      "38389491",
+      "41964368"
+    ],
+    "pmc": [
+      "13316292"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-2317(26)00270-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42330601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

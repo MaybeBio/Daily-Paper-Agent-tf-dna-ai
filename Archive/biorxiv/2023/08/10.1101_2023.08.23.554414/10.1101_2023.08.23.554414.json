@@ -1,0 +1,200 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.23.554414",
+  "title": "Multi-scale characterisation of homologous recombination deficiency in breast cancer",
+  "doi": "10.1101/2023.08.23.554414",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Background</h4> Homologous recombination is a robust, broadly error-free mechanism of double strand break repair, and deficiencies cause reliance on alternative repair processes, leading to sensitivity to PARP inhibitors. Patients displaying homologous recombination deficiency can be identified using ‘mutational signatures’. However, these patterns are difficult to reliably infer from exome sequencing. Additionally, as mutational signatures are a historical record of mutagenic processes, this limits their utility in describing the current status of a tumour. <h4>Results</h4> Here, we apply two methods for classifying homologous recombination deficiency in breast cancer to explore the features and heterogeneity associated with this phenotype. Firstly, we apply a likelihood-based method which leverages small insertions and deletions to improve classification of homologous recombination deficiency in exome sequenced breast cancers. We find that whilst BRCA+ homologous recombination deficient samples display strong similarities to those harbouring BRCA defects, they deviate in microenvironmental features such as hypoxic signalling. Secondly, using this classification we develop a 228-gene transcriptional signature which simultaneously characterises homologous recombination deficiency and BRCA1/2-defect status, and is linked with PARP inhibitor response. Finally, we apply this signature to single-cell RNA-sequenced breast cancer cohorts to study homologous recombination deficiency at single cell resolution and demonstrate that these cells present a distinct milieu of interactions with immune cells in their microenvironment compared to their HR proficient counterparts, which could inform checkpoint blockade for HRD tumours. <h4>Conclusions</h4> We apply multi-scale approaches to characterise homologous recombination deficiency in breast cancer through the development of mutational and transcriptional signatures. We show that indels, even at low levels, can improve homologous recombination deficiency classification. Additionally, we demonstrate the heterogeneity of homologous recombination deficiency, especially in relation to BRCA status, and show that indications of this feature can be captured at a single-cell level, enabling further investigations into interactions between DNA repair deficient cells and their tumour microenvironment.",
+  "authors": [
+    "Jacobson DH",
+    "Pan S",
+    "Fisher J",
+    "Secrier M"
+  ],
+  "published_date": "2023-08-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554414",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554414.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR704394",
+    "raw_record": {
+      "id": "PPR704394",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR704394"
+        ]
+      },
+      "doi": "10.1101/2023.08.23.554414",
+      "title": "Multi-scale characterisation of homologous recombination deficiency in breast cancer",
+      "authorString": "Jacobson DH, Pan S, Fisher J, Secrier M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jacobson DH",
+            "lastName": "Jacobson",
+            "firstName": "Daniel",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Genetics Institute, Department of Genetics, Evolution and Environment, University College London, London, UK"
+                },
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pan S",
+            "lastName": "Pan",
+            "firstName": "Shi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Genetics Institute, Department of Genetics, Evolution and Environment, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fisher J",
+            "lastName": "Fisher",
+            "firstName": "Jasmin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Secrier M",
+            "lastName": "Secrier",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2758-1741"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Genetics Institute, Department of Genetics, Evolution and Environment, University College London, London, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2758-1741"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  <h4>Background</h4>  Homologous recombination is a robust, broadly error-free mechanism of double strand break repair, and deficiencies cause reliance on alternative repair processes, leading to sensitivity to PARP inhibitors. Patients displaying homologous recombination deficiency can be identified using ‘mutational signatures’. However, these patterns are difficult to reliably infer from exome sequencing. Additionally, as mutational signatures are a historical record of mutagenic processes, this limits their utility in describing the current status of a tumour. <h4>Results</h4>  Here, we apply two methods for classifying homologous recombination deficiency in breast cancer to explore the features and heterogeneity associated with this phenotype. Firstly, we apply a likelihood-based method which leverages small insertions and deletions to improve classification of homologous recombination deficiency in exome sequenced breast cancers. We find that whilst BRCA+ homologous recombination deficient samples display strong similarities to those harbouring BRCA defects, they deviate in microenvironmental features such as hypoxic signalling. Secondly, using this classification we develop a 228-gene transcriptional signature which simultaneously characterises homologous recombination deficiency and BRCA1/2-defect status, and is linked with PARP inhibitor response. Finally, we apply this signature to single-cell RNA-sequenced breast cancer cohorts to study homologous recombination deficiency at single cell resolution and demonstrate that these cells present a distinct milieu of interactions with immune cells in their microenvironment compared to their HR proficient counterparts, which could inform checkpoint blockade for HRD tumours. <h4>Conclusions</h4>  We apply multi-scale approaches to characterise homologous recombination deficiency in breast cancer through the development of mutational and transcriptional signatures. We show that indels, even at low levels, can improve homologous recombination deficiency classification. Additionally, we demonstrate the heterogeneity of homologous recombination deficiency, especially in relation to BRCA status, and show that indications of this feature can be captured at a single-cell level, enabling further investigations into interactions between DNA repair deficient cells and their tumour microenvironment.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/26/2023.08.23.554414.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.23.554414"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR704394"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR704394&type=FILE&fileName=EMS186584-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37919776",
+            "reference": "Genome medicine. 2023 Nov;15(1):90",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186584",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-23",
+      "firstIndexDate": "2023-08-29",
+      "fullTextReceivedDate": "2023-11-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.28.679103",
+  "title": "Zero-Shot Protein–Ligand Binding Site Prediction from Protein Sequence and SMILES",
+  "doi": "10.1101/2025.09.28.679103",
+  "abstract": "Accurate identification of protein–ligand binding sites is critical for mechanistic biology and drug discovery, yet performance varies widely across ligand families and data regimes. We present a systematic prediction and evaluation framework that stratifies ligands into three settings, overrepresented (many examples), under-represented (tens of examples; few-shot), and zero-shot (unseen at training). We developed a novel three-stage, sequence-based modeling suite that progressively adds ligand conditioning and zero-shot capability, and used an evaluation frame-work to assess the suite. Stage 1 trains per-ligand predictors using a pretrained protein language model (PLM). Stage 2 introduces ligand-aware conditioning via an embedding table, enabling a single multi-ligand model. Stage 3 replaces the table with a pretrained chemical language model (CLM) operating on SMILES, enabling zero-shot generalization. We show Stage 2 improves Macro F 1 on the overrepresented test set from 0.4769 (Stage 1) to 0.5832 and outperforms sequence- and structure-based baselines. Stage 3 attains zero-shot performance ( F 1 = 0.3109) on 5 612 previously unseen ligands while remaining competitive on represented ligands. Ablations across five PLM scales and multiple CLMs reveal larger PLM backbones consistently increase Macro F 1 across all regimes, whereas scaling the CLM yields modest or inconsistent gains, which need further investigation. Our results demonstrate that zero-shot residue-level prediction from sequence and SMILES is feasible and identifies the PLM scale as the dominant lever for further advances. The code is fully open source at GitHub .",
+  "authors": [
+    "Mahdi Pourmirzaei",
+    "Salhuldin Alqarghuli",
+    "Kai Chen",
+    "Mohammadreza Pourmirzaei",
+    "Dong Xu"
+  ],
+  "published_date": "2025-09-30",
+  "updated_date": "2025-09-30T21:55:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.28.679103",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.28.679103.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:59:41Z",
+        "timestamp": 1768525181470,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 44,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                30
+              ]
+            ],
+            "date-time": "2025-09-30T00:00:00Z",
+            "timestamp": 1759190400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate identification of protein–ligand binding sites is critical for mechanistic biology and drug discovery, yet performance varies widely across ligand families and data regimes. We present a systematic prediction and evaluation framework that stratifies ligands into three settings,\n                  <jats:italic>overrepresented</jats:italic>\n                  (many examples),\n                  <jats:italic>under-represented</jats:italic>\n                  (tens of examples; few-shot), and\n                  <jats:italic>zero-shot</jats:italic>\n                  (unseen at training). We developed a novel three-stage, sequence-based modeling suite that progressively adds ligand conditioning and\n                  <jats:italic>zero-shot</jats:italic>\n                  capability, and used an evaluation frame-work to assess the suite. Stage 1 trains per-ligand predictors using a pretrained protein language model (PLM). Stage 2 introduces ligand-aware conditioning via an embedding table, enabling a single multi-ligand model. Stage 3 replaces the table with a pretrained chemical language model (CLM) operating on SMILES, enabling\n                  <jats:italic>zero-shot</jats:italic>\n                  generalization. We show Stage 2 improves Macro\n                  <jats:italic>F</jats:italic>\n                  <jats:sub>1</jats:sub>\n                  on the\n                  <jats:italic>overrepresented</jats:italic>\n                  test set from 0.4769 (Stage 1) to 0.5832 and outperforms sequence- and structure-based baselines. Stage 3 attains\n                  <jats:italic>zero-shot</jats:italic>\n                  performance (\n                  <jats:italic>F</jats:italic>\n                  <jats:sub>1</jats:sub>\n                  = 0.3109) on 5 612 previously unseen ligands while remaining competitive on represented ligands. Ablations across five PLM scales and multiple CLMs reveal larger PLM backbones consistently increase Macro\n                  <jats:italic>F</jats:italic>\n                  <jats:sub>1</jats:sub>\n                  across all regimes, whereas scaling the CLM yields modest or inconsistent gains, which need further investigation. Our results demonstrate that\n                  <jats:italic>zero-shot</jats:italic>\n                  residue-level prediction from sequence and SMILES is feasible and identifies the PLM scale as the dominant lever for further advances. The code is fully open source at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/mahdip72/ProteinLigand\">GitHub</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2025.09.28.679103",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2025-09-30T21:55:11Z",
+        "timestamp": 1759269311000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Zero-Shot Protein–Ligand Binding Site Prediction from Protein Sequence and SMILES"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4621-0372",
+          "authenticated-orcid": false,
+          "given": "Mahdi",
+          "family": "Pourmirzaei",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-3815-5044",
+          "authenticated-orcid": false,
+          "given": "Salhuldin",
+          "family": "Alqarghuli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kai",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohammadreza",
+          "family": "Pourmirzaei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4809-0514",
+          "authenticated-orcid": false,
+          "given": "Dong",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.csbj.2020.02.008",
+          "article-title": "Exploring the computational methods for proteinligand binding site prediction",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational and structural biotechnology journal"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab476"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2024.102793"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa110"
+        },
+        {
+          "issue": "4",
+          "key": "2025100321300540000_2025.09.28.679103v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac444"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4462"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad718"
+        },
+        {
+          "issue": "1",
+          "key": "2025100321300540000_2025.09.28.679103v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1186/s13321-024-00920-2",
+          "article-title": "Protein-small molecule binding site prediction based on a pre-trained protein language model with contrastive learning",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/0113894501330963240905083020"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2024.108734"
+        },
+        {
+          "issue": "3",
+          "key": "2025100321300540000_2025.09.28.679103v1.12",
+          "first-page": "e1716",
+          "article-title": "Modern machine-learning for binding affinity estimation of protein–ligand complexes: Progress, opportunities, and challenges",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "issue": "1",
+          "key": "2025100321300540000_2025.09.28.679103v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "23916",
+          "DOI": "10.1038/s41598-021-03431-4",
+          "article-title": "Protein embeddings and deep learning predict binding residues for various ligand classes",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules28196793"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mahdi Pourmirzaei , Salhuldin Alqarghuli , Farzaneh Esmaili , Mohammadreza Pourmirzaei , Mohsen Rezaei , and Dong Xu . Using autoregressive-transformer model for protein-ligand binding site prediction. bioRxiv, pages 2025–03, 2025.",
+          "DOI": "10.1101/2025.03.11.642700"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.16",
+          "article-title": "Protein language model-powered 3d ligand binding site prediction from protein sequence",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chengxin Zhang , Xi Zhang , Peter L Freddolino , and Yang Zhang . Biolip2: an updated structure database for biologically relevant ligand–protein interactions. Nucleic Acids Research, 52 (D1):D404–D412, 2024.",
+          "DOI": "10.1093/nar/gkad630"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fang Wu , Dragomir Radev , and Stan Z Li . Molformer: Motif-based transformer on 3d heterogeneous molecular graphs. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 37, pages 5312–5320, 2023.",
+          "DOI": "10.1609/aaai.v37i4.25662"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S1351324916000334"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.22",
+          "article-title": "Unimol2: Exploring molecular pretraining model at scale",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.23",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.24",
+          "article-title": "xSgdr: Stochastic gradient descent with warm restarts",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jason Ansel , Edward Yang , Horace He , Natalia Gimelshein , Animesh Jain , Michael Voznesensky , Bin Bao, Peter Bell , David Berard , Evgeni Burovski , et al. Pytorch 2: Faster machine learning through dynamic python bytecode transformation and graph compilation. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, pages 929–947, 2024.",
+          "DOI": "10.1145/3620665.3640366"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.26",
+          "article-title": "A study of bfloat16 for deep learning training",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.27",
+          "article-title": "Mixed precision training",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saro Passaro , Gabriele Corso , Jeremy Wohlwend , Mateo Reveiz , Stephan Thaler , Vignesh Ram Somnath , Noah Getz , Tally Portnoi , Julien Roy , Hannes Stark , et al. Boltz-2: Towards accurate and efficient binding affinity prediction. BioRxiv, pages 2025–06, 2025.",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.29",
+          "article-title": "Prot2token: A unified framework for protein modeling via next-token prediction",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Clement Essien , Duolin Wang , and Dong Xu . Capsule network for predicting zinc binding sites in metalloproteins. In 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pages 2337–2341. IEEE, 2019.",
+          "DOI": "10.1109/BIBM47256.2019.8983252"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac534"
+        },
+        {
+          "issue": "12",
+          "key": "2025100321300540000_2025.09.28.679103v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "29829",
+          "DOI": "10.3390/ijms161226202",
+          "article-title": "Proteins and their interacting partners: An introduction to protein–ligand binding site prediction methods",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "International journal of molecular sciences"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw396"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00397"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00407"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab044"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.1016/j.csbj.2024.12.016",
+          "article-title": "Predicting the location of coordinated metal ion-ligand binding sites using geometry-aware graph neural networks",
+          "volume": "27",
+          "year": "2025",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "issue": "8",
+          "key": "2025100321300540000_2025.09.28.679103v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1809",
+          "DOI": "10.1021/acs.jcim.1c00972",
+          "article-title": "Birds-binding residue detection from protein sequences using deep resnets",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "issue": "Suppl 1",
+          "key": "2025100321300540000_2025.09.28.679103v1.41",
+          "first-page": "D674",
+          "article-title": "Binding moad, a high-quality protein– ligand database",
+          "volume": "36",
+          "year": "2007",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl999"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025100321300540000_2025.09.28.679103v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0603365"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.28.679103",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:42:06Z",
+        "timestamp": 1768470126000
+      },
+      "score": 129.8398,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.28.679103"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ]
+      },
+      "references-count": 44,
+      "URL": "https://doi.org/10.1101/2025.09.28.679103",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

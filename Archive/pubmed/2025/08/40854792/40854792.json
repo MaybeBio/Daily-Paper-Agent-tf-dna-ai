@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "40854792",
+    "doi": "10.1136/jcp-2025-210280",
+    "title": "Digital pathology and image analysis of p53 biomarker in lymphomas using two algorithms: correlation with genotype and visual inspection."
+  },
+  "content": {
+    "abstract": "p53 immunohistochemistry (IHC) is widely used as a rapid surrogate for detecting TP53 mutations, with TP53 mutations being a key biomarker for poor outcomes in lymphomas. We developed two algorithms using digital quantification tools to assess p53 expression from whole slide images of 77 lymphoma samples. An experienced pathologist visually evaluated the p53 slides, classifying cases as likely wild-type or mutated TP53 genotype. We correlated the results of the algorithms and visual inspection with the actual TP53 genotype. For cases with p53 overexpression (likely missense mutations), the algorithms achieved 86.7% sensitivity and 98.2% specificity (visual inspection: 80% and 95.2%). For cases with reduced p53 expression (likely 'other' mutations), the algorithms showed 92.7% sensitivity and 100% specificity (visual inspection: 40% and 95.8%). This study demonstrates that combining digital pathology with digital quantification tools-based algorithms can reliably predict TP53 genotype from p53 IHC patterns, with comparable or slightly superior performance to an experienced pathologist.",
+    "keywords": [
+      "Artificial Intelligence",
+      "IMMUNOHISTOCHEMISTRY",
+      "LYMPHOMA",
+      "P53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Algorithms",
+      "*Tumor Suppressor Protein p53/genetics/analysis/metabolism",
+      "*Biomarkers, Tumor/genetics/analysis",
+      "Immunohistochemistry",
+      "Genotype",
+      "*Lymphoma/genetics/pathology/metabolism",
+      "*Image Interpretation, Computer-Assisted/methods",
+      "Mutation",
+      "Predictive Value of Tests",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naik, Anisha",
+        "Kanzaria, Aarti",
+        "Chen, Xueyan",
+        "Kaur, Navneet",
+        "Ho, Chia-Chen Joyce",
+        "Smith, Stephen D",
+        "Gopal, Ajay K",
+        "Shadman, Mazyar",
+        "Naresh, Kikkeri N"
+      ],
+      "short_names": [
+        "Naik A",
+        "Kanzaria A",
+        "Chen X",
+        "Kaur N",
+        "Ho CJ",
+        "Smith SD",
+        "Gopal AK",
+        "Shadman M",
+        "Naresh KN"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3807-3638"
+      ],
+      "affiliations": [
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Section of Pathology, Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle, Washington, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Department of Medical Oncology, University of Washington, Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+        "Department of Medical Oncology, University of Washington, Seattle, Washington, USA.",
+        "Department of Medical Oncology, Fred Hutch Cancer Center, Seattle, Washington, USA.",
+        "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA knaresh@fredhutch.org.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, Washington, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naik, Anisha",
+        "short_name": "Naik A",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Kanzaria, Aarti",
+        "short_name": "Kanzaria A",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Xueyan",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Pathology, Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle, Washington, USA.",
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Kaur, Navneet",
+        "short_name": "Kaur N",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Ho, Chia-Chen Joyce",
+        "short_name": "Ho CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Stephen D",
+        "short_name": "Smith SD",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+          "Department of Medical Oncology, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Gopal, Ajay K",
+        "short_name": "Gopal AK",
+        "identifiers": [],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA.",
+          "Department of Medical Oncology, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Shadman, Mazyar",
+        "short_name": "Shadman M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Fred Hutch Cancer Center, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Naresh, Kikkeri N",
+        "short_name": "Naresh KN",
+        "identifiers": [
+          "0000-0003-3807-3638"
+        ],
+        "affiliations": [
+          "Fred Hutchinson Cancer Center (FHCC), Seattle, Washington, USA knaresh@fredhutch.org.",
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, Washington, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of clinical pathology"
+    ],
+    "journal_abbrev": [
+      "J Clin Pathol"
+    ],
+    "pub_date": "2025 Oct 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/26 00:45",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40854792",
+      "40851047",
+      "38512505",
+      "37851120",
+      "37858047",
+      "40162573",
+      "32971129",
+      "30359636",
+      "39191994",
+      "39282821",
+      "31829441",
+      "32236967",
+      "27129168",
+      "40059001",
+      "38341302",
+      "32861170",
+      "26171916",
+      "41002558",
+      "33290354",
+      "40372938",
+      "36709106",
+      "27189670",
+      "39197898",
+      "36471402",
+      "40835511",
+      "40683332",
+      "33899789",
+      "28805805",
+      "29885407",
+      "38900212",
+      "28771788",
+      "32203095",
+      "21552211",
+      "25421113",
+      "40542737",
+      "28446506",
+      "32748433",
+      "34404905",
+      "21598212",
+      "40204093",
+      "15930341",
+      "39480105",
+      "40414698",
+      "32724153",
+      "35869818",
+      "37500307",
+      "35658479",
+      "38643353",
+      "37820765",
+      "29187446",
+      "8129043",
+      "28527674",
+      "27840695",
+      "37528644",
+      "28472544",
+      "24886509",
+      "39843568",
+      "39279246",
+      "29282038",
+      "21665242",
+      "32000721",
+      "36730675",
+      "27626311",
+      "41171033",
+      "32703491",
+      "34956360",
+      "22275381",
+      "9424736",
+      "9136910",
+      "40597706",
+      "40964778",
+      "26160192",
+      "27401406",
+      "26910472",
+      "24076778",
+      "38845323",
+      "29517499",
+      "21943197",
+      "36788081",
+      "39940804",
+      "39352684",
+      "18465328",
+      "12777996",
+      "34570796",
+      "25040820",
+      "40948372",
+      "12890146",
+      "26200835",
+      "36045334",
+      "31527709",
+      "24687952",
+      "40202378",
+      "40223170",
+      "21990067",
+      "15538112",
+      "32601264",
+      "33454902",
+      "31049827",
+      "32265358",
+      "39629784"
+    ],
+    "review": [
+      "40854792",
+      "33290354",
+      "32703491",
+      "22275381",
+      "29517499",
+      "39940804",
+      "40202378"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jcp.bmj.com/lookup/pmidlookup?view=long&pmid=40854792",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lymphoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lymphoma"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

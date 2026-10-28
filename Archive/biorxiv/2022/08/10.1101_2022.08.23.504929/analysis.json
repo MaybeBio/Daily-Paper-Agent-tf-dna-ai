@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.23.504929",
+  "title": "Graph Neural Networks for Z-DNA prediction in Genomes",
+  "authors": "Artem Voytetskiy; Alan Herbert; Maria Poptsova",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-25",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络预测基因组中Z-DNA结构，属于蛋白质-DNA互作相关的非B-DNA结构预测，方法可迁移至TF-DNA结合位点预测，但未直接聚焦TF-DNA互作机制。",
+  "abstract": "Deep learning methods have been successfully applied to the tasks of predicting functional genomic elements such as histone marks, transcriptions factor binding sites, non-B DNA structures, and regulatory variants. Initially convolutional neural networks (CNN) and recurrent neural networks (RNN) or hybrid CNN-RNN models appeared to be the methods of choice for genomic studies. With the advance of machine learning algorithms other deep learning architectures started to outperform CNN and RNN in various applications. Thus, graph neural network (GNN) applications improved the prediction of drug effects, disease associations, protein-protein interactions, protein structures and their functions. The performance of GNN is yet to be fully explored in genomics. Earlier we developed DeepZ approach in which deep learning model is trained on information both from sequence and omics data. Initially this approach was implemented with CNN and RNN but is not limited to these classes of neural networks. In this study we implemented the DeepZ approach by substituting RNN with GNN. We tested three different GNN architectures – Graph Convolutional Network (GCN), Graph Attention Network (GAT) and inductive representation learning network GraphSAGE. The GNN models outperformed current state-of the art RNN model from initial DeepZ realization. Graph SAGE showed the best performance for the small training set of human Z-DNA ChIP-seq data while Graph Convolutional Network was superior for specific curaxin-induced mouse Z-DNA data that was recently reported. Our results show the potential of GNN applications for the task of predicting genomic functional elements based on DNA sequence and omics data. Availability and implementation The code is freely available at https://github.com/MrARVO/GraphZ .",
+  "abstract_zh": "深度学习方法已被成功应用于预测功能基因组元件（如组蛋白标记、转录因子结合位点、非B型DNA结构和调控变异）的任务中。最初，卷积神经网络（CNN）和循环神经网络（RNN）或混合CNN-RNN模型似乎是基因组研究的首选方法。随着机器学习算法的进步，其他深度学习架构在各种应用中开始超越CNN和RNN。因此，图神经网络（GNN）的应用改善了药物效应、疾病关联、蛋白质-蛋白质相互作用、蛋白质结构及其功能的预测。GNN的性能在基因组学中尚未被充分探索。此前，我们开发了DeepZ方法，其中深度学习模型基于序列和组学数据的信息进行训练。最初，该方法使用CNN和RNN实现，但不限于这些类别的神经网络。在本研究中，我们通过用GNN替代RNN来实现DeepZ方法。我们测试了三种不同的GNN架构——图卷积网络（GCN）、图注意力网络（GAT）和归纳表示学习网络GraphSAGE。GNN模型优于初始DeepZ实现中的当前最先进RNN模型。GraphSAGE在人类Z-DNA ChIP-seq数据的小训练集上表现出最佳性能，而图卷积网络在最近报道的特定curaxin诱导的小鼠Z-DNA数据上表现更优。我们的结果显示了GNN在基于DNA序列和组学数据预测基因组功能元件任务中的潜力。可用性和实现 代码可在 https://github.com/MrARVO/GraphZ 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.23.504929",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.23.504929",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.23.504929/index.html"
+}

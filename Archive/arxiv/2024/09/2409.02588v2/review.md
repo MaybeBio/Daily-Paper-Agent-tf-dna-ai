@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (arXiv preprint 2409.02588v2)
+- **Assessment boundary** Scientific and technical evaluation of the proposed MvRVFL model, its theoretical analysis, experimental validation, and claims of superiority over baseline methods
+- **Shared manuscript claim summary** The authors propose a multiview random vector functional link (MvRVFL) network for predicting DNA-binding proteins (DBPs). The model fuses neural network architecture with multiview learning, combining late and early fusion strategies with distinct regularization parameters across views. The primal objective includes a coupling term minimizing composite errors across views. The authors provide Rademacher complexity-based consistency and generalization error bounds, and report empirical results on DBP, UCI, KEEL, AwA, and Corel5k datasets claiming superior performance over baselines.
+- **Visible evidence base** Full manuscript text including mathematical formulations, experimental setup descriptions, and reported results tables (Tables 3-9 referenced), figures (Figs 1-12 referenced), and appendix sections
+- **Missing materials affecting confidence** Actual result tables (Tables 3-9) are referenced but not fully visible in the provided text; figure contents not visible; code availability not stated; dataset preprocessing details partially described; statistical significance testing methodology not fully detailed
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics, namely DBP prediction, and proposes a novel integration of RVFL networks with multiview learning. The theoretical contribution via Rademacher complexity analysis is a strength. However, several technical concerns regarding the mathematical formulation, experimental rigor, and clarity of claims need to be addressed. The empirical validation appears promising but cannot be fully assessed without the actual result tables. The manuscript would benefit from clearer positioning relative to existing multiview RVFL methods and more robust statistical validation.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, particularly those interested in DNA-binding protein identification. Also, the machine learning community working on randomized neural networks, multiview learning, and their theoretical analysis would find the methodological contributions relevant. Practitioners developing computational tools for genome annotation and drug discovery may also be interested.
+- **Major strengths** 1) Novel integration of RVFL with multiview learning for a specific bioinformatics application. 2) Theoretical analysis using Rademacher complexity providing consistency and generalization bounds. 3) Comprehensive evaluation across multiple datasets from different domains. 4) Ablation study investigating the effect of the coupling term. 5) Statistical testing framework (Friedman test, Nemenyi post hoc) for comparing multiple classifiers.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the proposed MvRVFL model "surpasses that of the baseline models" and exhibits "superior performance" across datasets
+  - **Evidence pointer** Section 6, Tables 3-9 (location not provided in full)
+  - **Concern** The actual numerical results are not visible in the provided manuscript text. Without the actual accuracy values, standard deviations, and statistical test outcomes, the claim of superiority cannot be verified. The text mentions average accuracies for some cases (e.g., 76.32% for MvRVFL-1 on DBP) but does not provide complete comparative data across all baselines and datasets.
+  - **Why it matters** The central claim of the paper is empirical superiority. Without complete and transparent reporting of results, including variance measures and statistical significance, the scientific validity of the claim cannot be established.
+  - **Resolution test** Provide complete tables with all accuracy values, standard deviations, and clearly indicate which differences are statistically significant. Include effect sizes and confidence intervals where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state the MvRVFL model "combines the benefits of late and early fusion" and that the coupling term "minimizes a composite of errors stemming from all views"
+  - **Evidence pointer** Section 5, Equation (5)
+  - **Concern** The mathematical formulation in Equation (5) is not fully visible in the provided text. The description of how early and late fusion are combined is unclear. Specifically, it is not clear how the coupling term ρξ₁ᵀξ₂ relates to early fusion, and how the distinct regularization parameters C₁ and C₂ across views constitute late fusion. The relationship between the proposed formulation and existing multiview learning frameworks (e.g., canonical correlation analysis, multi-kernel learning) needs clarification.
+  - **Why it matters** The novelty claim depends on the specific fusion mechanism. If the formulation reduces to a known method or if the fusion strategy is not clearly distinct from existing approaches, the contribution is weakened.
+  - **Resolution test** Provide a clear mathematical derivation showing how early and late fusion are integrated. Compare the formulation explicitly with existing multiview RVFL or multiview neural network methods. Clarify the role of each term in the objective function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "rigorous mathematical frameworks" and provide consistency and generalization error bounds using Rademacher complexity
+  - **Evidence pointer** Appendix A.1, Theorems 1 and 2
+  - **Concern** The theoretical results are presented in the appendix but the full statements of the theorems and their proofs are not visible in the provided text. The assumptions under which these bounds hold are not stated. It is unclear whether the bounds are tight, whether they apply to the specific loss function used, and how they compare to existing bounds for similar models.
+  - **Why it matters** Theoretical guarantees are a key claimed contribution. Without complete statements and proofs, the validity and significance of these results cannot be assessed.
+  - **Resolution test** Provide complete theorem statements with all assumptions, full proofs, and a discussion of the tightness and implications of the bounds. Compare with existing generalization bounds for RVFL and multiview methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state the proposed model demonstrates "superior generalization capabilities" and is "effective" for DBP prediction
+  - **Evidence pointer** Section 6.2, Tables 3-4
+  - **Concern** The comparison with existing DBP prediction methods appears limited. The manuscript mentions comparisons with SVM2K, MvTSVM, ELM, RVFL, and MVLDM, but does not compare with state-of-the-art DBP-specific predictors such as DNABinder, iDNA-Prot, iDNAPro-PseAAC, StackPDB, or more recent deep learning approaches. The practical significance of the improvement over general-purpose baselines is unclear.
+  - **Why it matters** For a bioinformatics application paper, comparison with domain-specific state-of-the-art methods is essential to establish practical relevance and impact.
+  - **Resolution test** Include comparisons with established DBP prediction methods using the same datasets and evaluation protocols. Discuss the practical implications of any improvements.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the model is "simple, scalable, efficient, and highly effective"
+  - **Evidence pointer** Section 1, Section 5.1
+  - **Concern** The complexity analysis in Section 5.1 is incomplete. The time complexity is stated as O((m₁+m₂+2hₗ)³) but there is no discussion of space complexity, memory requirements, or scalability to larger datasets. The claim of efficiency is not supported by any runtime comparisons with baselines.
+  - **Why it matters** Efficiency claims are part of the motivation for using RVFL-based methods. Without empirical runtime comparisons or more detailed complexity analysis, these claims are unsupported.
+  - **Resolution test** Provide empirical runtime comparisons with baseline methods. Include space complexity analysis and discuss scalability to larger protein datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The background section on DNA-binding proteins is brief and could benefit from more context on why DBP prediction is challenging and what specific biological questions it addresses.
+  - **Required correction** Expand the background to include more biological context and the specific challenges in DBP prediction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 6.1
+  - **Evidence pointer** Section 6.1
+  - **Issue** The experimental setup mentions random splitting of data but does not specify the random seed or whether multiple splits were used. The hyperparameter tuning procedure is not fully described.
+  - **Required correction** Specify random seeds, number of runs, and the exact hyperparameter tuning procedure to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.7
+  - **Evidence pointer** Section 4.7
+  - **Issue** The feature selection method (mRMR) is described but the specific parameters (e.g., number of features selected) are not stated for each dataset.
+  - **Required correction** Provide the number of features selected for each dataset and the criteria used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5, Equation (5)
+  - **Issue** The notation in the optimization problem is not fully defined in the main text. Some symbols (e.g., ξ₁, ξ₂) are introduced but their dimensions are not explicitly stated.
+  - **Required correction** Define all notation clearly, including dimensions of all matrices and vectors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 6.4
+  - **Evidence pointer** Section 6.4
+  - **Issue** The evaluation on AwA and Corel5k datasets is described but the rationale for choosing these datasets for validating a DBP prediction model is not clearly explained.
+  - **Required correction** Justify the choice of these datasets and explain how they relate to the DBP prediction task.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results data), R1-M2 (unclear mathematical formulation), R1-M3 (incomplete theoretical results)
+- **Assessment against Nature-style criteria** **Originality**: Moderate. The combination of RVFL with multiview learning is novel, but the individual components are well-established. The specific application to DBP prediction adds domain relevance. **Scientific importance**: Moderate. DBP prediction is an important problem, but the practical impact depends on demonstrated superiority over domain-specific methods. **Interdisciplinary readership**: Limited. The paper is primarily of interest to machine learning researchers and bioinformaticians. The presentation is technical and may not be accessible to a broader biological audience. **Technical soundness**: Cannot be fully assessed due to missing results and incomplete mathematical details. The theoretical framework appears sound but requires complete presentation. **Readability for nonspecialists**: Poor. The manuscript assumes significant prior knowledge of both machine learning and bioinformatics. The structure is logical but the technical density limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript shows promise but requires substantial revisions to address the major concerns, particularly the missing empirical results, unclear mathematical formulation, and incomplete theoretical presentation. Supportive if technical concerns are resolved and complete results are provided.

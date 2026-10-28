@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "37047108",
+    "doi": "10.3390/ijms24076138",
+    "title": "Accurate Prediction of Transcriptional Activity of Single Missense Variants in HIV Tat with Deep Learning."
+  },
+  "content": {
+    "abstract": "Tat is an essential gene for increasing the transcription of all HIV genes, and affects HIV replication, HIV exit from latency, and AIDS progression. The Tat gene frequently mutates in vivo and produces variants with diverse activities, contributing to HIV viral heterogeneity as well as drug-resistant clones. Thus, identifying the transcriptional activities of Tat variants will help to better understand AIDS pathology and treatment. We recently reported the missense mutation landscape of all single amino acid Tat variants. In these experiments, a fraction of double missense alleles exhibited intragenic epistasis. However, it is too time-consuming and costly to determine the effect of the variants for all double mutant alleles through experiments. Therefore, we propose a combined GigaAssay/deep learning approach. As a first step to determine activity landscapes for complex variants, we evaluated a deep learning framework using previously reported GigaAssay experiments to predict how transcription activity is affected by Tat variants with single missense substitutions. Our approach achieved a 0.94 Pearson correlation coefficient when comparing the predicted to experimental activities. This hybrid approach can be extensible to more complex Tat alleles for a better understanding of the genetic control of HIV genome transcription.",
+    "keywords": [
+      "HIV",
+      "deep learning",
+      "tat protein",
+      "variant effect"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "tat Gene Products, Human Immunodeficiency Virus/genetics/metabolism",
+      "Transcriptional Activation",
+      "Mutation, Missense",
+      "*Acquired Immunodeficiency Syndrome",
+      "*Deep Learning",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Derbel, Houssemeddine",
+        "Giacoletto, Christopher J",
+        "Benjamin, Ronald",
+        "Chen, Gordon",
+        "Schiller, Martin R",
+        "Liu, Qian"
+      ],
+      "short_names": [
+        "Derbel H",
+        "Giacoletto CJ",
+        "Benjamin R",
+        "Chen G",
+        "Schiller MR",
+        "Liu Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1671-6823",
+        "ORCID: 0000-0002-6737-4969"
+      ],
+      "affiliations": [
+        "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+        "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Derbel, Houssemeddine",
+        "short_name": "Derbel H",
+        "identifiers": [],
+        "affiliations": [
+          "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      },
+      {
+        "full_name": "Giacoletto, Christopher J",
+        "short_name": "Giacoletto CJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      },
+      {
+        "full_name": "Benjamin, Ronald",
+        "short_name": "Benjamin R",
+        "identifiers": [],
+        "affiliations": [
+          "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+          "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Gordon",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      },
+      {
+        "full_name": "Schiller, Martin R",
+        "short_name": "Schiller MR",
+        "identifiers": [
+          "0000-0003-1671-6823"
+        ],
+        "affiliations": [
+          "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+          "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Qian",
+        "short_name": "Liu Q",
+        "identifiers": [
+          "0000-0002-6737-4969"
+        ],
+        "affiliations": [
+          "Nevada Institute of Personalized Medicine, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA.",
+          "School of Life Sciences, College of Sciences, University of Nevada Las Vegas, 4505 S Maryland Pkwy, Las Vegas, NV 89154, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Mar 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/14 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "42059621",
+      "40070521",
+      "38074467"
+    ],
+    "refs": [
+      "36927031",
+      "35905834",
+      "33300982",
+      "30250057",
+      "30073413",
+      "28886340",
+      "28630312",
+      "24727379",
+      "19532060",
+      "17379688",
+      "15635002",
+      "2460924"
+    ],
+    "similar": [
+      "37047108",
+      "35905834",
+      "21165788",
+      "38918875",
+      "29751762",
+      "32824587",
+      "23487450",
+      "32669338",
+      "34465029",
+      "23611845",
+      "30111566",
+      "25319827",
+      "24465566",
+      "18835810",
+      "28641539",
+      "29654800",
+      "30834965",
+      "24742347",
+      "31266880",
+      "23255218",
+      "39936917",
+      "28699519",
+      "10074125",
+      "23007159",
+      "18498648",
+      "28699853",
+      "30455316",
+      "30401776",
+      "21625572",
+      "17942396",
+      "21752913",
+      "22815271",
+      "25116364",
+      "31652847",
+      "37307292",
+      "17267505",
+      "29559581",
+      "30778358",
+      "8106862",
+      "20713090",
+      "29673219",
+      "27235396",
+      "29792216",
+      "18344999",
+      "28368303",
+      "37371461",
+      "34538278",
+      "21763494",
+      "21878060",
+      "37949879",
+      "22253435",
+      "21876670",
+      "21360054",
+      "1505523",
+      "19604078",
+      "31866007",
+      "19726504",
+      "19479034",
+      "30241541",
+      "28340332",
+      "21763500",
+      "9670843",
+      "20862322",
+      "21225391",
+      "20976203",
+      "31723026",
+      "17997200",
+      "23274668",
+      "20471948",
+      "27434587",
+      "28345603",
+      "18620576",
+      "27173397",
+      "14963162",
+      "8230418",
+      "35019252",
+      "9311903",
+      "22077140",
+      "10931842",
+      "38781120",
+      "18341200",
+      "21242887",
+      "36897778",
+      "11285236",
+      "10393900",
+      "39230310",
+      "12788638",
+      "7937769",
+      "32276443",
+      "28640909",
+      "39636695",
+      "23392246",
+      "22362765",
+      "23501106",
+      "1658792",
+      "40292298",
+      "22238306",
+      "33043947",
+      "29666292",
+      "24990269"
+    ],
+    "review": [
+      "37047108",
+      "28641539",
+      "30834965",
+      "28699519",
+      "29673219",
+      "21360054",
+      "22077140",
+      "18341200",
+      "21242887",
+      "32276443"
+    ],
+    "pmc": [
+      "10093788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24076138",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hiv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HIV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37047108/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37047108",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

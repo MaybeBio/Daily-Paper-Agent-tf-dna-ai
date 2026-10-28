@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, methods, or results sections were provided
+- **Shared manuscript claim summary** The authors use all-atom classical molecular dynamics and MMPBSA calculations to show that mutating key arginine residues to glutamic acid in the ZTA transcription factor rewires the protein–DNA interaction network, that the system compensates via load-sharing and new interactions, that single and double mutations partially preserve structural stability, that multi-site mutations destabilize the system, and that monomer contributions are asymmetric despite structural symmetry
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, convergence metrics, or statistical analyses are visible
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, system preparation details, convergence and equilibration data, per-residue energy profiles, structural figures, error estimates, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially interesting study of how a viral transcription factor responds to charge-reversal mutations at the protein–DNA interface. The conceptual framing around interaction network rewiring and load-sharing is attractive. However, the abstract alone provides no quantitative evidence, no methodological detail, and no validation against experimental or structural data. The core claims cannot be evaluated from the supplied material, and several statements appear to overreach relative to what the described methods can establish.
+- **Who would be interested in the results, and why** Researchers studying protein–DNA recognition, transcription factor specificity, and allosteric or compensatory mechanisms in biomolecular complexes. The EBV connection may interest virologists and those developing antiviral therapeutics targeting viral transcription factors. Computational biophysicists working on mutation effects in protein–DNA systems would also find the mechanistic angle relevant.
+- **Major strengths** The conceptual focus on interaction network reorganization rather than simple loss-of-binding is a useful framing. The progression from single to double to multi-site mutations provides a systematic perturbation strategy. The observation of asymmetric monomer contributions despite structural symmetry is a potentially interesting finding that could have mechanistic implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The study shows that when key arginine residues are mutated, new interactions are formed either around the mutation site and/or in other ZTA monomer, and that through load-sharing the system counter-balances the interaction load
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that new interactions form and that load-sharing occurs, but no quantitative data are presented. No per-residue energy values, no interaction occupancy analyses, no hydrogen bond or salt bridge statistics, and no comparison between systems are shown. The claim of load-sharing is an interpretation that requires supporting data such as energy decomposition profiles or interaction persistence analyses.
+  - **Why it matters** The central mechanistic claim of the paper rests on the demonstration of interaction rewiring and compensation. Without visible quantitative evidence, the reader cannot assess whether the observed changes are statistically significant, reproducible across simulation replicates, or distinct from thermal fluctuations.
+  - **Resolution test** Provide per-residue binding energy decomposition plots for wild-type and mutant systems, with error bars and statistical tests, and show interaction occupancy or persistence data demonstrating that new interactions form and compensate for lost ones.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** Employing all-atom classical molecular dynamics, the authors investigated interaction network rewiring and used MMPBSA to calculate per-residue binding energies
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation details are provided. Force field, water model, salt concentration, simulation length, number of replicates, temperature and pressure coupling schemes, and MMPBSA parameters (e.g., solute dielectric constant, entropy treatment) are all absent. MMPBSA is known to be sensitive to these choices, and per-residue decomposition is particularly prone to convergence issues.
+  - **Why it matters** Without methodological detail, the reliability of the binding energy calculations cannot be assessed. Different MMPBSA setups can yield qualitatively different per-residue contributions, and short or unreplicated simulations can produce artifacts that are misinterpreted as mechanistic changes.
+  - **Resolution test** Provide full simulation and MMPBSA protocols, including convergence checks, replicate information, and sensitivity analyses for key parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validation
+  - **Claim pointer** As the number of mutations increases from single to double site, the system partially maintains structural stability, but with multi-site mutations the system becomes destabilized
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a stability progression across mutation counts, but no structural metrics are shown. No RMSD, RMSF, radius of gyration, or interaction energy time series are presented. The threshold at which destabilization occurs is not defined, and the claim of partial maintenance versus destabilization is not quantified.
+  - **Why it matters** The graded response to increasing mutation load is a key finding. Without quantitative structural measures and a clear criterion for stability, the claim is unfalsifiable from the supplied material.
+  - **Resolution test** Show structural stability metrics for all systems with statistical comparisons, and define an explicit stability criterion (e.g., RMSD thresholds, native contact fraction, or binding free energy change).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The study will be central to understanding DNA recognition and developing drug therapeutics targeting viral transcription factors in EBV
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims therapeutic relevance, but no experimental validation, no known disease-associated mutations, and no drug design implications are presented. The connection to drug development is asserted rather than demonstrated.
+  - **Why it matters** The stated translational relevance is a significant part of the abstract's framing. Without any link to experimental data or known functional consequences of the studied mutations, the therapeutic claim is speculative.
+  - **Resolution test** Either temper the therapeutic claim to a potential implication, or provide experimental or literature-based evidence connecting the studied mutations to functional or disease-relevant outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "load-sharing" is used without definition. It is unclear whether this refers to a specific quantitative metric or is a descriptive metaphor.
+  - **Required correction** Define load-sharing operationally, for example as redistribution of per-residue energy contributions or interaction occupancies across the interface.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify which arginine residues are mutated, how many are in each mutant class, or whether the mutations are in one or both monomers.
+  - **Required correction** Specify the exact mutations studied and the rationale for their selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Asymmetry claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of asymmetric monomer contributions is interesting but is presented without any hypothesis for why asymmetry arises despite structural symmetry.
+  - **Required correction** Provide a brief mechanistic explanation or reference to known asymmetry in ZTA-DNA binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation replicates
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of replicate simulations or statistical treatment of the data is made.
+  - **Required correction** State whether replicates were performed and how statistical significance was assessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core mechanistic claims require quantitative evidence and methodological transparency that are entirely absent from the abstract. R1-M4 is a framing issue that should be corrected but is not strictly technical.
+- **Assessment against Nature-style criteria** Originality: The conceptual angle of interaction network rewiring and compensation in a viral transcription factor is moderately original, though similar compensatory mechanisms have been described in other protein–DNA systems. Scientific importance: The EBV connection gives the work potential relevance, but the importance is not established without experimental or functional validation. Interdisciplinary readership: The work could appeal to computational biophysicists, structural biologists, and virologists, but the abstract is written in a way that is accessible to specialists only. Technical soundness: Cannot be assessed from the abstract; no methodological detail or quantitative results are provided. Readability for nonspecialists: The abstract is reasonably clear in its narrative but uses terms like MMPBSA and per-residue decomposition without explanation, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially valuable study, but the absence of quantitative data, methodological detail, and external validation means the core claims cannot be evaluated. A supportive stance would require the full manuscript to demonstrate the mechanistic findings with robust evidence.
+
+## Risk / unsupported claims
+- The claim that new interactions form around the mutation site or in the other monomer is unsupported by any visible data.
+- The claim that load-sharing counter-balances the interaction load is an interpretation without quantitative backing.
+- The graded stability response from single to double to multi-site mutations is asserted without structural metrics.
+- The claim of asymmetric monomer contributions is presented without supporting data or explanation.
+- The therapeutic relevance for EBV drug development is asserted without any experimental or clinical connection.
+- All quantitative claims regarding binding energies, structural stability, and interaction rewiring are unverifiable from the abstract alone.

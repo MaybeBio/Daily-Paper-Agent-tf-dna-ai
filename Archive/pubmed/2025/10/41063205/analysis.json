@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41063205",
+  "title": "Deep learning based semi-automated model can predict lineage in patients with pituitary neuroendocrine tumors.",
+  "authors": "Wu, Guoqing; Ning, Zehang; Yan, Xiaorong; Li, Jianfang; Ma, Chiyuan; Cheng, Haixia; Cong, Zixiang; Li, Junjun; Sun, Shengyu; Wang, Yongfei; Deng, Xingli; Jiang, Changzhen; Chen, Hong; Ma, Hui; Yu, Jinhua; Qiao, Nidan",
+  "journal": "Acta neuropathologica communications",
+  "published_date": "2025-10-09",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习从H&E切片预测垂体神经内分泌肿瘤谱系并生成虚拟转录因子IHC，虽涉及转录因子但无蛋白-DNA互作建模，仅组织形态分类，与本课题无关。",
+  "abstract": "Pituitary neuroendocrine tumors (PitNETs) represent the most prevalent category of neuroendocrine neoplasms. Contemporary classification paradigms emphasize transcription factor immunohistochemistry (IHC) as a cornerstone for molecular subtyping and risk stratification. However, the clinical adoption of this approach is hindered by the lack of standardized interpretative thresholds for antibody staining and limited global availability of specialized reagents, particularly in resource-limited settings. To address these challenges, we developed a semi-automated computational framework that predicts PitNET lineages directly from hematoxylin and eosin (H&E)-stained histology slides. The pipeline employs a dynamic confidence threshold: samples below this threshold undergo confirmatory IHC staining and manual pathological review, while those surpassing it are classified automatically. In prospective validation, this approach achieved a 68.9% reduction in diagnostic workload while maintaining 95.9% overall accuracy. Similar efficacy was observed in functional (74.4% workload reduction, 99.0% accuracy) and external (39.3% reduction, 95.1% accuracy) cohorts. Statistical analysis confirmed non-inferiority between semi-automated predictions and fully manual IHC-based evaluations in all the cohorts. Furthermore, we implemented a deep learning-based virtual IHC staining module, generating synthetic transcription factor images demonstrating high morphological concordance with ground-truth IHC slides. Notably, our computational analysis revealed distinct histomorphological correlates of lineages: SF1-lineage tumors exhibited homogeneous cellular architecture characterized by densely packed, compact cells with reduced cytoplasmic volume, whereas PIT1-lineage neoplasms displayed larger cells with expanded intercellular spacing and disorganized spatial arrangements.",
+  "abstract_zh": "垂体神经内分泌肿瘤（PitNETs）是神经内分泌肿瘤中最常见的一类。当代分类范式强调转录因子免疫组织化学（IHC）作为分子分型和风险分层的基础。然而，该方法的临床采用受到抗体染色缺乏标准化判读阈值以及专用试剂全球可及性有限（尤其是在资源受限环境中）的阻碍。为应对这些挑战，我们开发了一种半自动计算框架，可直接从苏木精-伊红（H&E）染色的组织学切片预测PitNET谱系。该流程采用动态置信阈值：低于此阈值的样本接受确认性IHC染色和人工病理复核，而超过阈值的样本则自动分类。在前瞻性验证中，该方法实现了诊断工作量减少68.9%，同时保持95.9%的总体准确率。在功能性队列（工作量减少74.4%，准确率99.0%）和外部队列（工作量减少39.3%，准确率95.1%）中观察到类似效果。统计分析确认，在所有队列中，半自动预测与完全基于IHC的人工评估之间具有非劣效性。此外，我们实施了基于深度学习的虚拟IHC染色模块，生成合成转录因子图像，其形态学与真实IHC切片高度一致。值得注意的是，我们的计算分析揭示了谱系特有的组织形态学相关性：SF1谱系肿瘤表现出均匀的细胞结构，特征为密集排列、紧凑的细胞且胞质体积减少，而PIT1谱系肿瘤则显示更大的细胞，伴有扩大的细胞间隙和紊乱的空间排列。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41063205/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41063205/",
+  "paper_page_path": "papers/pubmed/41063205/index.html"
+}

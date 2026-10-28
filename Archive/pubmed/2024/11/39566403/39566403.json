@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "39566403",
+    "doi": "10.1016/j.phymed.2024.156137",
+    "title": "EGCG targeting STAT3 transcriptionally represses PLXNC1 to inhibit M2 polarization mediated by gastric cancer cell-derived exosomal miR-92b-5p."
+  },
+  "content": {
+    "abstract": "BACKGROUND: M2-polarized tumor-associated macrophages (TAMs) predominate in tumor microenvironment (TME) and serve primary functions in tumor progression, including growth, angiogenesis, metastasis, immunosuppression, chemoresistance, and poor prognosis. The reversal of M2 polarization provides a new treatment strategy for cancer. Presently, the molecular mechanisms of M2 polarization have yet to be fully characterized, and there is a lack of effective therapeutic targets and drugs. Cancer cells initiate an immunosuppressive TME by recruiting macrophages and promoting M2 polarization through the secretion of inflammatory factors. Accordingly, blocking cancer cell-induced TAM M2 polarization may present a more effective strategy from the perspective of cancer cells. Hedyotis diffusa Willd (HDW) possesses immunomodulatory and antitumor properties, and is a precious and direct source of small molecule natural products with a dual function of inhibition of tumor growth and tumor cell-mediated M2 polarization. OBJECTIVE: To identify a new target promoting gastric cancer (GC) cell growth and GC cell-mediated M2 polarization from mRNA profiles of GC cells treated with HDW injection (HDI) and to excavate a natural product from HDI that can regulate related mRNA and inhibit the aforementioned effects. METHODS: RNA sequencing (RNA-seq) was used to analyze HDI-regulated differentially expressed mRNAs (HRmRNAs) in MKN45 cells. Weighted gene co-expression network analysis (WGCNA), univariate and multivariate Cox regression analysis, KM survival curves, and association analysis between HRmRNA and clinical characteristics/tumor infiltrating immune cells (TIICs) individually were utilized to screen out the target HRmRNA associated with prognosis and M2 macrophage infiltration in GC. shRNA lentiviral vectors were used for stably silencing, and transient overexpressing plasmids were constructed for overexpression. CCK8, EdU, colony formation, migration and invasion assays were used to validate the function of drugs and molecules in GC. HDI constituent analysis was performed using UHPLC-QE-MS. A network of HDI constituent-hub transcription factor (TF)-HRmRNA was constructed based on RNA-Seq, network pharmacology and TFs prediction. Exosome isolation and identification were performed using ultracentrifugation, NTA, TEM and western blot. Apoptosis and macrophage phenotypes were determined by flow cytometric analysis. Small RNA-Seq made exosomal miRNA identification. Small molecule interaction with targets were analyzed using molecular docking, SPR and CETSA. The direct relationship between transcription factors and promoters was verified using ChIP-QPCR and dual-luciferase reporter gene assay. A nude mice xenograft tumor model was established for vivo validation. RESULTS: HDI inhibited MKN45 cell proliferation, migration, invasion and promoted apoptosis. RNA-Seq identified 2583 HRmRNAs. PLXNC1 was screened out as the target HRmRNA associated with prognosis and M2 macrophage infiltration in GC. PLXNC1 promoted GC cell proliferation and facilitated TAMs M2 polarization by transferring GC cell-derived exosomal miR-92b-5p, inhibiting SOCS7-STAT3 interactions and subsequently activating STAT3 in macrophages. M2 TAMs induced by PLXNC1-mediated GC cell-derived exosomes promoted GC cell migration and invasion. PLXNC1 regulated exosomal miR-92b-5p through the MEK1/MSK1/CREB1 pathway. STAT3 could transcriptionally regulate PLXNC1 expression in GC cells. The network of HDI constituent-hub TF-HRmRNA showed epigallocatechin gallate (EGCG) from HDI targeted STAT3 to transcriptionally regulate PLXNC1 expression. EGCG as a natural product directly bound to STAT3 to diminish its nuclear localization, resulting in the transcriptional repression of PLXNC1 and the reversal of M2 polarization induced by PLXNC1-mediated GC cell-derived exosomes. CONCLUSION: PLXNC1 is a novel target exerting dual effects on GC cell proliferation and GC cell-mediated M2 polarization. EGCG derived from HDI inhibits GC cell proliferation and targets STAT3 to inhibit M2 polarization induced by PLXNC1-mediated exosomes derived from GC cells, which may be a multi-target therapeutic agent for GC cell proliferation and immune microenvironment.",
+    "keywords": [
+      "Cancer-derived exosome",
+      "EGCG",
+      "Gastric cancer",
+      "Macrophage M2 polarization",
+      "PLXNC1",
+      "STAT3",
+      "miR-92b-5p"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/drug therapy",
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "*STAT3 Transcription Factor/metabolism",
+      "Cell Line, Tumor",
+      "*Exosomes/metabolism/drug effects",
+      "*Catechin/pharmacology/analogs & derivatives",
+      "Tumor-Associated Macrophages/drug effects",
+      "Tumor Microenvironment/drug effects",
+      "Animals",
+      "RNA, Long Noncoding/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yi, Jianfeng",
+        "Ye, Zhenzhen",
+        "Xu, Hao",
+        "Zhang, Hui",
+        "Cao, Hongtai",
+        "Li, Xin",
+        "Wang, Tianming",
+        "Dong, Chunlu",
+        "Du, Yan",
+        "Dong, Shi",
+        "Zhou, Wence"
+      ],
+      "short_names": [
+        "Yi J",
+        "Ye Z",
+        "Xu H",
+        "Zhang H",
+        "Cao H",
+        "Li X",
+        "Wang T",
+        "Dong C",
+        "Du Y",
+        "Dong S",
+        "Zhou W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China.",
+        "The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China; Gansu Provincial Key Laboratory for Mining and Innovation Transformation of Traditional Chinese Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China; Research Center of Traditional Chinese Medicine of Gansu Province, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China.",
+        "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Hangzhou 310006, Zhejiang, PR China; The First School of Clinical Medicine, Zhejiang Chinese Medical University, Hangzhou 310006, Zhejiang, PR China.",
+        "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China; Gansu Province Key Laboratory of Environmental Oncology, Lanzhou 730000, Gansu, PR China.",
+        "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China.",
+        "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China.",
+        "The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; Department of General Surgery, the First Hospital of Lanzhou University, Lanzhou 730000, Gansu, PR China.",
+        "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China.",
+        "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China; Gansu Province Key Laboratory of Environmental Oncology, Lanzhou 730000, Gansu, PR China. Electronic address: zhouwc129@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yi, Jianfeng",
+        "short_name": "Yi J",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zhenzhen",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China; Gansu Provincial Key Laboratory for Mining and Innovation Transformation of Traditional Chinese Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China; Research Center of Traditional Chinese Medicine of Gansu Province, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hao",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Hangzhou 310006, Zhejiang, PR China; The First School of Clinical Medicine, Zhejiang Chinese Medical University, Hangzhou 310006, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China; Gansu Province Key Laboratory of Environmental Oncology, Lanzhou 730000, Gansu, PR China."
+        ]
+      },
+      {
+        "full_name": "Cao, Hongtai",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianming",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Gansu University of Chinese Medicine, Lanzhou 730000, Gansu, PR China."
+        ]
+      },
+      {
+        "full_name": "Dong, Chunlu",
+        "short_name": "Dong C",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; Department of General Surgery, the First Hospital of Lanzhou University, Lanzhou 730000, Gansu, PR China."
+        ]
+      },
+      {
+        "full_name": "Du, Yan",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Shi",
+        "short_name": "Dong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wence",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou 730000, Gansu, PR China; Department of General Surgery, The Second Hospital of Lanzhou University & The Second Clinical Medical School, Lanzhou University, Lanzhou 730000, Gansu, China; Gansu Province Key Laboratory of Environmental Oncology, Lanzhou 730000, Gansu, PR China. Electronic address: zhouwc129@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/21 00:22",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "42709347",
+      "42694409",
+      "42644425",
+      "42625775",
+      "42587106",
+      "42547945",
+      "42540676",
+      "42437008",
+      "42261791",
+      "41917969",
+      "41749926",
+      "41674940",
+      "41653356",
+      "41599929",
+      "41582145",
+      "41573746",
+      "41550841",
+      "41507801",
+      "41360672",
+      "41229433",
+      "41174741",
+      "41104886",
+      "41089677",
+      "40876104",
+      "40821847",
+      "40771798",
+      "40599798",
+      "40380196",
+      "40274924",
+      "40176898",
+      "39748408"
+    ],
+    "refs": [],
+    "similar": [
+      "39566403",
+      "39748408",
+      "39103776",
+      "34388111",
+      "34735868",
+      "24044575",
+      "39385295",
+      "36217165",
+      "36027869",
+      "38549433",
+      "36153596",
+      "34586722",
+      "37144254",
+      "39152098",
+      "38006750",
+      "37880793",
+      "37572927",
+      "35718269",
+      "28407783",
+      "38639382",
+      "34039401",
+      "35796939",
+      "34093857",
+      "35897096",
+      "37545635",
+      "38521953",
+      "39085755",
+      "39518984",
+      "40059261",
+      "38087801",
+      "30808369",
+      "36902024",
+      "40250003",
+      "37310109",
+      "39528705",
+      "35637970",
+      "36988779",
+      "34249713",
+      "39612105",
+      "39121973",
+      "36164322",
+      "33213490",
+      "34440860",
+      "39407269",
+      "37028610",
+      "39256694",
+      "35111566",
+      "37587724",
+      "36737782",
+      "31307515",
+      "29329543",
+      "34653794",
+      "35646637",
+      "33716082",
+      "37562585",
+      "37730964",
+      "35708677",
+      "39560749",
+      "32512188",
+      "38536567",
+      "33449227",
+      "38270757",
+      "39955607",
+      "39237779",
+      "36214926",
+      "38956502",
+      "39789572",
+      "36030223",
+      "38459596",
+      "38105539",
+      "35973634",
+      "31427735",
+      "35986343",
+      "33642823",
+      "37081748",
+      "33889514",
+      "32660626",
+      "35321026",
+      "34922904",
+      "34224294",
+      "34350954",
+      "35980503",
+      "37198028",
+      "31485019",
+      "40165503",
+      "40244037",
+      "39470944",
+      "38442573",
+      "39985077",
+      "32544403",
+      "38510315",
+      "38050472",
+      "33522393",
+      "32493454",
+      "39183579",
+      "40275296",
+      "35405312",
+      "37087583",
+      "35785218",
+      "39735673"
+    ],
+    "review": [
+      "39566403",
+      "35405312"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00794-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

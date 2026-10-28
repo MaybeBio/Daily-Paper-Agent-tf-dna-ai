@@ -1,0 +1,590 @@
+{
+  "identity": {
+    "pmid": "35807562",
+    "doi": "10.3390/molecules27134319",
+    "title": "Anti-Inflammatory and Anti-Rheumatic Potential of Selective Plant Compounds by Targeting TLR-4/AP-1 Signaling: A Comprehensive Molecular Docking and Simulation Approaches."
+  },
+  "content": {
+    "abstract": "Plants are an important source of drug development and numerous plant derived molecules have been used in clinical practice for the ailment of various diseases. The Toll-like receptor-4 (TLR-4) signaling pathway plays a crucial role in inflammation including rheumatoid arthritis. The TLR-4 binds with pro-inflammatory ligands such as lipopolysaccharide (LPS) to induce the downstream signaling mechanism such as nuclear factor kappaappa B (NF-kappaB) and mitogen activated protein kinases (MAPKs). This signaling activation leads to the onset of various diseases including inflammation. In the present study, 22 natural compounds were studied against TLR-4/AP-1 signaling, which is implicated in the inflammatory process using a computational approach. These compounds belong to various classes such as methylxanthine, sesquiterpene lactone, alkaloid, flavone glycosides, lignan, phenolic acid, etc. The compounds exhibited different binding affinities with the TLR-4, JNK, NF-kappaB, and AP-1 protein due to the formation of multiple hydrophilic and hydrophobic interactions. With TLR-4, rutin had the highest binding energy (-10.4 kcal/mol), poncirin had the highest binding energy (-9.4 kcal/mol) with NF-kappaB and JNK (-9.5 kcal/mol), respectively, and icariin had the highest binding affinity (-9.1 kcal/mol) with the AP-1 protein. The root means square deviation (RMSD), root mean square fraction (RMSF), and radius of gyration (RoG) for 150 ns were calculated using molecular dynamic simulation (MD simulation) based on rutin's greatest binding energy with TLR-4. The RMSD, RMSF, and RoG were all within acceptable limits in the MD simulation, and the complex remained stable for 150 ns. Furthermore, these compounds were assessed for the potential toxic effect on various organs such as the liver, heart, genotoxicity, and oral maximum toxic dose. Moreover, the blood-brain barrier permeability and intestinal absorption were also predicted using SwissADME software (Lausanne, Switzerland). These compounds exhibited promising physico-chemical as well as drug-likeness properties. Consequently, these selected compounds portray promising anti-inflammatory and drug-likeness properties.",
+    "keywords": [
+      "AP-1",
+      "NF-kappaB",
+      "TLR-4",
+      "inflammation",
+      "natural products"
+    ],
+    "mesh_terms": [
+      "Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "Humans",
+      "Inflammation/drug therapy",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "NF-kappa B/metabolism",
+      "Rutin/pharmacology",
+      "Signal Transduction",
+      "*Toll-Like Receptor 4",
+      "*Transcription Factor AP-1/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Ashrafullah",
+        "Khan, Shafi Ullah",
+        "Khan, Adnan",
+        "Shal, Bushra",
+        "Rehman, Sabih Ur",
+        "Rehman, Shaheed Ur",
+        "Htar, Thet Thet",
+        "Khan, Salman",
+        "Anwar, Sirajudheen",
+        "Alafnan, Ahmed",
+        "Rengasamy, Kannan Rr"
+      ],
+      "short_names": [
+        "Khan A",
+        "Khan SU",
+        "Khan A",
+        "Shal B",
+        "Rehman SU",
+        "Rehman SU",
+        "Htar TT",
+        "Khan S",
+        "Anwar S",
+        "Alafnan A",
+        "Rengasamy KR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7950-2983",
+        "ORCID: 0000-0002-0880-0358",
+        "ORCID: 0000-0002-5185-065X",
+        "ORCID: 0000-0001-6193-1237",
+        "ORCID: 0000-0002-6226-8470",
+        "ORCID: 0000-0002-0926-2790",
+        "ORCID: 0000-0001-7883-1021"
+      ],
+      "affiliations": [
+        "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+        "Faculty of Pharmaceutical Sciences, Abasyn University, Peshawar 25000, Pakistan.",
+        "Faculty of Pharmaceutical Sciences, Abasyn University, Peshawar 25000, Pakistan.",
+        "Product & Process Innovation Department, Qarshi Brands (Pvt) Ltd., Hattar 22610, Pakistan.",
+        "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+        "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+        "Faculty of Health Sciences, IQRA University, Islamabad Campus (Chak Shahzad), Park link Rd., Islamabad 44000, Pakistan.",
+        "Department of Pharmacy, Forman Christian College (A Chartered University), Lahore 54600, Pakistan.",
+        "Department of Pharmacy, Forman Christian College (A Chartered University), Lahore 54600, Pakistan.",
+        "School of Pharmacy, Monash University Malaysia, Jalan Lagoon Selatan, Bandar Sunway, Subang Jaya 47500, Selangor, Malaysia.",
+        "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, University of Hail, Hail 55211, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, University of Hail, Hail 55211, Saudi Arabia.",
+        "Center of Excellence for Pharmaceutical Sciences, North-West University, Potchefstroom 2520, South Africa.",
+        "Center for Transdisciplinary Research, Department of Pharmacology, Saveetha Institute of Medical and Technical Sciences (SIMATS), Saveetha Dental College, Chennai 600077, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Ashrafullah",
+        "short_name": "Khan A",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+          "Faculty of Pharmaceutical Sciences, Abasyn University, Peshawar 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Shafi Ullah",
+        "short_name": "Khan SU",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Pharmaceutical Sciences, Abasyn University, Peshawar 25000, Pakistan.",
+          "Product & Process Innovation Department, Qarshi Brands (Pvt) Ltd., Hattar 22610, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Adnan",
+        "short_name": "Khan A",
+        "identifiers": [
+          "0000-0001-7950-2983"
+        ],
+        "affiliations": [
+          "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Shal, Bushra",
+        "short_name": "Shal B",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan.",
+          "Faculty of Health Sciences, IQRA University, Islamabad Campus (Chak Shahzad), Park link Rd., Islamabad 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rehman, Sabih Ur",
+        "short_name": "Rehman SU",
+        "identifiers": [
+          "0000-0002-0880-0358"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Forman Christian College (A Chartered University), Lahore 54600, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rehman, Shaheed Ur",
+        "short_name": "Rehman SU",
+        "identifiers": [
+          "0000-0002-5185-065X"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Forman Christian College (A Chartered University), Lahore 54600, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Htar, Thet Thet",
+        "short_name": "Htar TT",
+        "identifiers": [
+          "0000-0001-6193-1237"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Monash University Malaysia, Jalan Lagoon Selatan, Bandar Sunway, Subang Jaya 47500, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Khan, Salman",
+        "short_name": "Khan S",
+        "identifiers": [
+          "0000-0002-6226-8470"
+        ],
+        "affiliations": [
+          "Pharmacological Sciences Research Lab, Department of Pharmacy, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Anwar, Sirajudheen",
+        "short_name": "Anwar S",
+        "identifiers": [
+          "0000-0002-0926-2790"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, University of Hail, Hail 55211, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alafnan, Ahmed",
+        "short_name": "Alafnan A",
+        "identifiers": [
+          "0000-0001-7883-1021"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, University of Hail, Hail 55211, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rengasamy, Kannan Rr",
+        "short_name": "Rengasamy KR",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Pharmaceutical Sciences, North-West University, Potchefstroom 2520, South Africa.",
+          "Center for Transdisciplinary Research, Department of Pharmacology, Saveetha Institute of Medical and Technical Sciences (SIMATS), Saveetha Dental College, Chennai 600077, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2022 Jul 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/10 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "42461353",
+      "42038309",
+      "41726729",
+      "40872502",
+      "40535112",
+      "40510367",
+      "40509176",
+      "40324010",
+      "39483459",
+      "39453113",
+      "39415588",
+      "38894623",
+      "37511842",
+      "37457726",
+      "37026052",
+      "36845041",
+      "36685921",
+      "36430843"
+    ],
+    "refs": [
+      "34994820",
+      "34734371",
+      "34577570",
+      "34577139",
+      "34514955",
+      "34203049",
+      "34199936",
+      "33946644",
+      "33900118",
+      "33828386",
+      "33808384",
+      "33713158",
+      "33290767",
+      "33239093",
+      "33151297",
+      "33130344",
+      "33127568",
+      "33021149",
+      "32876526",
+      "32763245",
+      "32576928",
+      "32421081",
+      "32307011",
+      "32023919",
+      "32004924",
+      "31981965",
+      "31511086",
+      "31268709",
+      "31154290",
+      "30979331",
+      "30562699",
+      "30456885",
+      "30360548",
+      "30199704",
+      "29937730",
+      "29931601",
+      "29743852",
+      "29615898",
+      "29481088",
+      "29391000",
+      "29378165",
+      "29101519",
+      "28499643",
+      "28215221",
+      "27578269",
+      "27445461",
+      "27069281",
+      "26930298",
+      "26869767",
+      "26560096",
+      "22980822",
+      "22795972",
+      "21946276",
+      "21534921",
+      "21456551",
+      "21315569",
+      "15723627",
+      "15287084"
+    ],
+    "similar": [
+      "35807562",
+      "34090414",
+      "29842849",
+      "29932926",
+      "35886440",
+      "32013140",
+      "39415588",
+      "37013999",
+      "30068871",
+      "23735482",
+      "12496438",
+      "28192731",
+      "30395976",
+      "31129419",
+      "26037075",
+      "30794925",
+      "32593157",
+      "21821108",
+      "35744817",
+      "30005227",
+      "31790703",
+      "30099676",
+      "34999105",
+      "12717385",
+      "30295165",
+      "31319868",
+      "27834922",
+      "35958986",
+      "28207754",
+      "22940184",
+      "23127653",
+      "32468498",
+      "30813369",
+      "28708322",
+      "26412258",
+      "21497192",
+      "22155103",
+      "32664577",
+      "35508083",
+      "29655681",
+      "31569788",
+      "30668386",
+      "32795539",
+      "21658309",
+      "34204506",
+      "27665434",
+      "24135236",
+      "29452196",
+      "27235587",
+      "28160867",
+      "35447407",
+      "33799689",
+      "34343646",
+      "32335480",
+      "27842477",
+      "35107766",
+      "22363615",
+      "31883476",
+      "27933547",
+      "19842026",
+      "39224128",
+      "23770291",
+      "32222576",
+      "27937044",
+      "34272638",
+      "27591413",
+      "32230861",
+      "30585464",
+      "11796583",
+      "26948281",
+      "36744519",
+      "32954977",
+      "35585729",
+      "30012916",
+      "30668369",
+      "21831303",
+      "35409325",
+      "33791807",
+      "25200491",
+      "35758564",
+      "22925919",
+      "23237934",
+      "24735815",
+      "20432452",
+      "14688340",
+      "32677756",
+      "24239652",
+      "24417898",
+      "34197778",
+      "18452655",
+      "35008862",
+      "37783098",
+      "22234926",
+      "30045725",
+      "29334340",
+      "12885415",
+      "35528510",
+      "37498160",
+      "32791152",
+      "22706149",
+      "38116744",
+      "30567342",
+      "36963546",
+      "36540414",
+      "37517053",
+      "38747858",
+      "36208592",
+      "35737256",
+      "36362883",
+      "38286082",
+      "38918327",
+      "36422295",
+      "36252876",
+      "36416609",
+      "37959674",
+      "35147481",
+      "35744923",
+      "37457177",
+      "36544031",
+      "37338672",
+      "38893295",
+      "37824496",
+      "37783745",
+      "39424974",
+      "38138161",
+      "37630364",
+      "33289608",
+      "38982323",
+      "37246827",
+      "38256852",
+      "39264974",
+      "39110299",
+      "36848855",
+      "35299751",
+      "37837423",
+      "36077552",
+      "39092264",
+      "36249936",
+      "38818615",
+      "37049948",
+      "38334124",
+      "35943035",
+      "37643080",
+      "36826597",
+      "38299040",
+      "36326467",
+      "35215307",
+      "33998964",
+      "37592887",
+      "35732074",
+      "36253940",
+      "39351011",
+      "34728718",
+      "35978863",
+      "36299509",
+      "35436996",
+      "37976818",
+      "38003833",
+      "38108042",
+      "38225797",
+      "37693734",
+      "37744007",
+      "39204195",
+      "37372934",
+      "36601892",
+      "39115579",
+      "38230450",
+      "35885104",
+      "36505741",
+      "38655368",
+      "37177811",
+      "37776010",
+      "37947913",
+      "39135797",
+      "38716440",
+      "37175172",
+      "37113091",
+      "37421735",
+      "32858871",
+      "38406373",
+      "38287503",
+      "37629596",
+      "34379041",
+      "23661994",
+      "36641023",
+      "37822725",
+      "37284415",
+      "38064307",
+      "30191609",
+      "36988846",
+      "37037148",
+      "35608923",
+      "38702178",
+      "36354673",
+      "37521844",
+      "35463415",
+      "37111379",
+      "38250561",
+      "38794278",
+      "38652428",
+      "38886309",
+      "38107968",
+      "36846729",
+      "36515971",
+      "36649127",
+      "38623737",
+      "38174738",
+      "36643495",
+      "37481995",
+      "39170106",
+      "38773015",
+      "33194532",
+      "35664945",
+      "38882504",
+      "37861276",
+      "38116745",
+      "24831826",
+      "37671847",
+      "39206704",
+      "34485722",
+      "38650742",
+      "34402747",
+      "38382250",
+      "36239110",
+      "36362919",
+      "35453170",
+      "36816262",
+      "38706884",
+      "35462875",
+      "37727526",
+      "36789810",
+      "39391620",
+      "28246465",
+      "36818222",
+      "37882327",
+      "35454996",
+      "38496321",
+      "35722152",
+      "36518123",
+      "38690404"
+    ],
+    "review": [
+      "35807562",
+      "31319868",
+      "23770291",
+      "38918327",
+      "36252876",
+      "37246827",
+      "35299751",
+      "37947913",
+      "38623737"
+    ],
+    "pmc": [
+      "9268648"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules27134319",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35807562/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35807562",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

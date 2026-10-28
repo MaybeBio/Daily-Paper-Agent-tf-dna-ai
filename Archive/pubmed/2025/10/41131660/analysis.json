@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41131660",
+  "title": "Combining Physics-Based Protein-DNA Energetics with Machine Learning to Predict Interpretable Transcription Factor-DNA Binding.",
+  "authors": "Masri, Carmen Al; Yu, Jin",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-10-24",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合全原子MD/MMGBSA物理能量与机器学习模型，预测Myc/Max二聚体TF-DNA结合亲和力与特异性，并解析界面互补性和疏水作用等关键机制，高度契合TF-DNA互作建模课题。",
+  "abstract": "Transcription factors (TFs) are essential regulators of gene expression, and variations in their target DNA sequences due to altering TF-DNA binding affinity and specificity lead to diseases ranging from developmental disorders to cancer. Computational methods that integrate physics-based models with machine learning (ML) hold promise to accurately predict protein-DNA binding affinities while ensuring interpretability and generalizability. Here, we present an approach combining all-atom molecular dynamics (MD) simulations and Molecular Mechanics-Generalized Born Surface Area (MMGBSA) energy calculations with ML model constructions (neural networks, random forests, and support vector machines) to predict DNA binding affinities and specificities for the dimeric TF Myc/Max. Using high-quality experimental data from genomic-context protein-binding microarrays (gcPBM), we constructed a balanced data set of 168 DNA sequences reflecting physiologically relevant genomic environments. Multiple independent simulations were conducted per sequence for each TF-DNA complex to capture structural dynamic and interaction properties, with physically essential energetic descriptors extracted, including van der Waals, electrostatic, solvation, hydrogen bonding, and additional energy corrections. Our models achieved a Pearson correlation of  approximately 0.73 and a mean absolute error of 0.4, substantially improving upon conventional MMGBSA prediction. Feature importance analyses highlighted TF-DNA interfacial complementarity and hydrophobic interactions as primary determinants of binding affinity and specificity, though TF-DNA interfacial hydrogen bonding contributions remain to be better characterized physically for sequence dependency. This physics-informed ML framework thus aims at both predictive accuracy and mechanistic interpretability, paving the way toward universal scalable prediction of interpretable protein-DNA interactions.",
+  "abstract_zh": "转录因子（TFs）是基因表达的关键调控因子，其靶DNA序列的变异通过改变TF-DNA结合亲和力和特异性，导致从发育障碍到癌症等多种疾病。整合基于物理模型与机器学习（ML）的计算方法有望在确保可解释性和泛化能力的同时，准确预测蛋白质-DNA结合亲和力。在此，我们提出一种方法，结合全原子分子动力学（MD）模拟和分子力学-广义Born表面积（MMGBSA）能量计算，以及ML模型构建（神经网络、随机森林和支持向量机），来预测二聚体TF Myc/Max的DNA结合亲和力和特异性。利用来自基因组背景蛋白质结合微阵列（gcPBM）的高质量实验数据，我们构建了一个包含168条DNA序列的平衡数据集，反映生理相关的基因组环境。对每个TF-DNA复合物，每条序列进行了多次独立模拟，以捕获结构动态和相互作用特性，并提取了物理上必要的能量描述符，包括范德华力、静电、溶剂化、氢键及其他能量修正。我们的模型实现了约0.73的皮尔逊相关系数和0.4的平均绝对误差，显著优于传统MMGBSA预测。特征重要性分析强调，TF-DNA界面互补性和疏水相互作用是结合亲和力和特异性的主要决定因素，尽管TF-DNA界面氢键贡献在序列依赖性方面仍需更好的物理表征。因此，这一基于物理信息的ML框架旨在同时实现预测准确性和机制可解释性，为可解释蛋白质-DNA相互作用的通用可扩展预测铺平道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41131660/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41131660/",
+  "paper_page_path": "papers/pubmed/41131660/index.html"
+}

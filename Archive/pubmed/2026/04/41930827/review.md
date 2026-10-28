@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that the flavonoids hesperidin and diosmin bind to KLF7, a transcription factor implicated in ovarian cancer, based on computational predictions and in vitro experiments, and suggest these compounds may serve as lead candidates for therapeutic development.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, experimental protocols, or structural coordinates provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, molecular docking scores, ADMET results, MD simulation trajectories, MM/GBSA values, cell line identities, dose ranges, viability assay details, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible workflow combining computational and experimental approaches to evaluate flavonoid binding to KLF7 in ovarian cancer. However, the evidence provided is insufficient to substantiate the central claims. Key quantitative results, experimental details, and validation steps are absent, preventing an assessment of technical rigor or biological relevance. The conclusion that hesperidin and diosmin "may interact with structurally relevant regions of KLF7" is speculative given the lack of direct binding evidence or functional validation.
+- **Who would be interested in the results, and why** Researchers in ovarian cancer biology, transcription factor targeting, and natural product drug discovery may find the proposed KLF7-flavonoid interaction of interest. The computational screening approach could appeal to those in structure-based drug design. However, without stronger experimental validation, the audience is likely limited to specialists seeking preliminary leads rather than a broad translational readership.
+- **Major strengths** The study addresses an underexplored target, KLF7, in ovarian cancer, which is a clinically relevant area. The integration of multiple computational methods, including docking, ADMET, MD simulations, and MM/GBSA, followed by in vitro testing, represents a logical pipeline for hit identification. The focus on flavonoids as a compound class with known bioactivity adds translational plausibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Hesperidin, and diosmin showed stable interactions with KLF7 and favorable binding energies during MD simulations."
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract reports stable interactions and favorable binding energies without providing any quantitative values, such as binding free energies from MM/GBSA, RMSD or RMSF values from MD simulations, or comparison to controls. No docking scores or selectivity data against other KLF family members are given.
+  - **Why it matters** Without numerical data and appropriate controls, the claim of stable and favorable binding cannot be evaluated. Binding energy values can vary widely depending on simulation parameters, force fields, and analysis methods, and the absence of these details undermines reproducibility and credibility.
+  - **Resolution test** Provide specific MM/GBSA binding free energies with standard deviations, MD stability metrics (e.g., RMSD, RMSF, hydrogen bond occupancy), and comparative docking scores against unrelated proteins or other KLFs to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In vitro experiments demonstrated dose-dependent effects of hesperidin and diosmin on OC cells, indicating potential antiproliferative activity."
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract states dose-dependent effects but provides no cell line names, concentration ranges, assay types (e.g., MTT, viability, proliferation), time points, or statistical significance. The phrase "indicating potential antiproliferative activity" is vague and does not establish a mechanism linked to KLF7.
+  - **Why it matters** Dose-dependent effects alone do not demonstrate target engagement or specificity. Without evidence that the observed effects are mediated by KLF7 inhibition, the connection between the computational predictions and the biological readout remains unsubstantiated. Off-target effects or general cytotoxicity could explain the results.
+  - **Resolution test** Specify the OC cell lines used, provide dose-response curves with IC50 values, include appropriate controls (e.g., non-cancerous cells, KLF7 knockdown or overexpression), and demonstrate KLF7 expression or activity changes upon treatment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings suggest that hesperidin and diosmin may interact with structurally relevant regions of KLF7 and could serve as potential lead compounds for further investigation."
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The conclusion overreaches relative to the evidence presented. The abstract does not show direct binding of the flavonoids to KLF7, nor does it demonstrate that the in vitro effects are KLF7-dependent. The term "structurally relevant regions" is undefined, and no functional data link the compounds to KLF7 activity.
+  - **Why it matters** The claim of therapeutic potential requires evidence that the compounds engage KLF7 in a biologically meaningful way. Without such evidence, the conclusion is speculative and could mislead subsequent research efforts.
+  - **Resolution test** Provide direct binding data (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay) and functional assays showing KLF7 pathway modulation in response to treatment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, abstract; location not provided
+  - **Issue** The introduction describes KLF7 as "tumor-promoting" but does not specify the evidence for this in ovarian cancer specifically, nor does it clarify how KLF7 differs from other KLFs in this context.
+  - **Required correction** Add a brief statement citing prior findings on KLF7 in ovarian cancer and explain why KLF7 is a more compelling target than other KLF family members.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abstract states that a "full-length structural model" from AlphaFold was used, but AlphaFold models are predictions and may not reflect the native conformation, especially for flexible regions. This limitation is not acknowledged.
+  - **Required correction** Acknowledge the predictive nature of the AlphaFold model and discuss potential impacts on docking and simulation results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The abstract does not state how many flavonoids were screened or how the top candidates were selected, making it impossible to assess the screening strategy's robustness.
+  - **Required correction** Report the number of compounds screened, the selection criteria, and the ranking metrics used to prioritize hesperidin and diosmin.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, experimental details, and target validation means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: The target and compound combination is somewhat novel, but the approach is standard in computational drug discovery. Scientific importance: The potential clinical relevance is high, but the evidence is too preliminary to establish significance. Interdisciplinary readership: The work bridges computational biology and cancer pharmacology, but the abstract lacks sufficient detail to engage a broad audience. Technical soundness: Not assessable from the abstract due to missing data and methods. Readability for nonspecialists: The abstract is generally clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a reasonable workflow, but the lack of quantitative results, experimental specifics, and target validation prevents support for the conclusions. The authors should provide the full data set and address the major concerns before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that hesperidin and diosmin "showed stable interactions" with KLF7 is unsupported without numerical simulation data.
+- The claim of "dose-dependent effects" on OC cells is unsupported without cell line names, concentrations, and statistical analyses.
+- The conclusion that these compounds "could serve as potential lead compounds" is unsupported without direct binding or functional evidence linking the effects to KLF7.
+- The use of an AlphaFold model without acknowledging its limitations is a potential source of overinterpretation.

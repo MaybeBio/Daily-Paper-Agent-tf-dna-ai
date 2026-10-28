@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.24.436885",
+  "title": "Computational prediction of the effect of amino acid changes on the binding affinity between SARS-CoV-2 spike protein and the human ACE2 receptor",
+  "authors": "Chen Chen; Veda Sheersh Boorla; Deepro Banerjee; Ratul Chowdhury; Victoria S Cavener; Ruth H Nissly; Abhinay Gontu; Nina R Boyle; Kurt Vandergrift; Meera Surendran Nair; Suresh V Kuchipudi; Costas D. Maranas",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-25",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用MD轨迹分解能量项结合神经网络预测SARS-CoV-2刺突蛋白RBD与ACE2受体结合亲和力变化，虽属蛋白-蛋白互作且方法可迁移，但非蛋白质-DNA体系，与TF-DNA课题关联较弱。",
+  "abstract": "The association of the receptor binding domain (RBD) of SARS-CoV-2 viral spike with human angiotensin converting enzyme (hACE2) represents the first required step for viral entry. Amino acid changes in the RBD have been implicated with increased infectivity and potential for immune evasion. Reliably predicting the effect of amino acid changes in the ability of the RBD to interact more strongly with the hACE2 receptor can help assess the public health implications and the potential for spillover and adaptation into other animals. Here, we introduce a two-step framework that first relies on 48 independent 4-ns molecular dynamics (MD) trajectories of RBD-hACE2 variants to collect binding energy terms decomposed into Coulombic, covalent, van der Waals, lipophilic, generalized Born electrostatic solvation, hydrogen-bonding, π-π packing and self-contact correction terms. The second step implements a neural network to classify and quantitatively predict binding affinity using the decomposed energy terms as descriptors. The computational base achieves an accuracy of 82.2% in terms of correctly classifying single amino-acid substitution variants of the RBD as worsening or improving binding affinity for hACE2 and a correlation coefficient r of 0.69 between predicted and experimentally calculated binding affinities. Both metrics are calculated using a 5-fold cross validation test. Our method thus sets up a framework for effectively screening binding affinity change with unknown single and multiple amino-acid changes. This can be a very valuable tool to predict host adaptation and zoonotic spillover of current and future SARS-CoV-2 variants.",
+  "abstract_zh": "SARS-CoV-2病毒刺突蛋白的受体结合域（RBD）与人类血管紧张素转换酶（hACE2）的结合是病毒进入宿主细胞所需的第一步。RBD中的氨基酸变化与感染性增强及免疫逃逸潜力相关。可靠预测氨基酸变化对RBD与hACE2受体更强相互作用能力的影响，有助于评估公共卫生影响及向其他动物溢出和适应的可能性。在此，我们引入一个两步框架：首先，基于48条独立的4纳秒RBD-hACE2变体分子动力学（molecular dynamics）轨迹，收集分解为库仑、共价、范德华、亲脂、广义Born静电溶剂化、氢键、π-π堆积和自接触校正项的结合能项。第二步，采用神经网络，以分解能量项作为描述符，对结合亲和力进行分类和定量预测。该计算基础在正确分类RBD单氨基酸替换变体对hACE2结合亲和力是减弱还是增强方面，达到82.2%的准确率，预测与实验计算结合亲和力之间的相关系数r为0.69。两项指标均通过5折交叉验证测试计算得出。因此，我们的方法建立了一个有效筛选未知单氨基酸和多氨基酸变化引起的结合亲和力变化的框架。这可能是预测当前及未来SARS-CoV-2变体宿主适应和人畜共患溢出的非常有价值的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.24.436885",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.24.436885",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.24.436885/index.html"
+}

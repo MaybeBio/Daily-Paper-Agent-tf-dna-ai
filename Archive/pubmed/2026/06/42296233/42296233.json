@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "42296233",
+    "doi": "10.1093/bfgp/elag005",
+    "title": "Language model-based self-training reduces labeled data requirements by 99% for biological sequence classification."
+  },
+  "content": {
+    "abstract": "The prediction of a biological sequence's function is an exploding field that could prove to be an invaluable tool in deciphering molecular mechanisms of diseases and genetic variation. However, existing techniques suffer from a very low number of experimentally verified labels as well as the complexity of modeling sequence context. Previous work only focuses on semi-supervised learning (SSL) or pre-trained language models (PLMs) individually and does not consider their complementarity: whereas PLMs capture syntactic conservatism and long-range dependency from huge unlabeled sequence data as features, SSL updates label-level certainty via confidence-weighted pseudo-label selection. To realize integrating these benefits, we make a creative use of PLMs as strong feature extractors to make the sequence semantics extracted, and meanwhile leverage the SSL to constrain the decision boundary by selecting reliable pseudo-labels. We show that our framework achieves competitive performance compared to full supervision while using far fewer labeled samples, on two biological prediction tasks: DNA-binding protein (DBP) and non-coding RNA (ncRNA) detection. In general, our approach, developed here, not only offers an efficient solution for discovering new DBP and ncRNA in low-resource settings where experimental verification is infeasible, but also lays a solid methodological foundation for biological sequence classification in computational biology. Key points Unlabeled data significantly improves model accuracy in semi-supervised learning. The language model-based self-training method outperforms traditional semi-supervised approaches like TSVM. It achieves competitive performance against state-of-the-art fully supervised methods, requiring only 1% labeled data for effective classification and accurately identifying novel biomolecules.",
+    "keywords": [
+      "biological sequence classification",
+      "pre-trained language models",
+      "self-training"
+    ],
+    "mesh_terms": [
+      "RNA, Untranslated/genetics",
+      "DNA-Binding Proteins/genetics",
+      "Humans",
+      "*Language"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jingwen",
+        "Gao, Danmo",
+        "Yuan, Yan",
+        "Wu, Ziying",
+        "Li, Weidong",
+        "Wei, Chao"
+      ],
+      "short_names": [
+        "Liu J",
+        "Gao D",
+        "Yuan Y",
+        "Wu Z",
+        "Li W",
+        "Wei C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "Department of Information Sciences and Technology, Wen Hua College, 8 Wenhuayuan Road, East Lake High-tech Development Zone, Wuhan 430074, China.",
+        "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "Hubei Provincial Key Laboratory of Green Intelligent Computing Power Network, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "Hubei Provincial Engineering Research Center for Digital & Intelligent Manufacturing Technologies and Applications, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "Hubei Provincial Key Laboratory of Green Intelligent Computing Power Network, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+        "Hubei Provincial Engineering Research Center for Digital & Intelligent Manufacturing Technologies and Applications, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jingwen",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Danmo",
+        "short_name": "Gao D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yan",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Sciences and Technology, Wen Hua College, 8 Wenhuayuan Road, East Lake High-tech Development Zone, Wuhan 430074, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ziying",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weidong",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+          "Hubei Provincial Key Laboratory of Green Intelligent Computing Power Network, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+          "Hubei Provincial Engineering Research Center for Digital & Intelligent Manufacturing Technologies and Applications, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chao",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Hubei University of Technology, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+          "Hubei Provincial Key Laboratory of Green Intelligent Computing Power Network, 28 Nanli Road, Hongshan District, Wuhan 430068, China.",
+          "Hubei Provincial Engineering Research Center for Digital & Intelligent Manufacturing Technologies and Applications, 28 Nanli Road, Hongshan District, Wuhan 430068, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in functional genomics"
+    ],
+    "journal_abbrev": [
+      "Brief Funct Genomics"
+    ],
+    "pub_date": "2026 Jan 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 18:34",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39489607",
+      "37198531",
+      "35020807",
+      "34232869",
+      "33876751",
+      "33410688",
+      "33221906",
+      "32813738",
+      "30753596",
+      "30668479",
+      "30453885",
+      "29753757",
+      "29097781",
+      "28521017",
+      "25239089",
+      "25184541",
+      "24717434",
+      "24475169",
+      "23335781",
+      "23060610",
+      "21935457",
+      "16119262",
+      "14986705",
+      "11017081"
+    ],
+    "similar": [
+      "42296233",
+      "42475469",
+      "40051031",
+      "36779849",
+      "37054649",
+      "35676649",
+      "38991373",
+      "23912807",
+      "37339033",
+      "41172803",
+      "40811705",
+      "39489607",
+      "40439671",
+      "40315689",
+      "36403310",
+      "41358754",
+      "41618152",
+      "38324897",
+      "41109500",
+      "40269031",
+      "40088831",
+      "37112285",
+      "40397945",
+      "40156370",
+      "33677262",
+      "40003172",
+      "40030758",
+      "41319624",
+      "39302804",
+      "38857570",
+      "37761573",
+      "42250531",
+      "38727760",
+      "42105479",
+      "38878404",
+      "41909492",
+      "38971887",
+      "34325149",
+      "41962455",
+      "29990156",
+      "42384571",
+      "39576667",
+      "40730292",
+      "41780211",
+      "42279817",
+      "40902048",
+      "29739993",
+      "40868385",
+      "40727247",
+      "41352986",
+      "39460948",
+      "42038673",
+      "26353366",
+      "39167059",
+      "41997996",
+      "40653056",
+      "40781627",
+      "40184849",
+      "42537359",
+      "42248581",
+      "39913995",
+      "37722445",
+      "42491247",
+      "40758498",
+      "42130057",
+      "36298322",
+      "41238661",
+      "37971908",
+      "32397197",
+      "41310153",
+      "37292830",
+      "41145629",
+      "38035484",
+      "39174581",
+      "39020159",
+      "31588387",
+      "40882426",
+      "37025325",
+      "39792624",
+      "38325216",
+      "41402417",
+      "39265217",
+      "42291729",
+      "26269925",
+      "33677376",
+      "41512686",
+      "36064111",
+      "42574405",
+      "38531049",
+      "42497049",
+      "40341616",
+      "41595940",
+      "39914126",
+      "38898392",
+      "38663428",
+      "33987461",
+      "40101375",
+      "38145544",
+      "41115091",
+      "38180876"
+    ],
+    "review": [
+      "42296233",
+      "42491247"
+    ],
+    "pmc": [
+      "13267906"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42296233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bfg/article-lookup/doi/10.1093/bfgp/elag005",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

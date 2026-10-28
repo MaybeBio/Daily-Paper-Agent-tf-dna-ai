@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "37301305",
+    "doi": "10.1016/j.jep.2023.116706",
+    "title": "Iristectorigenin C suppresses LPS-induced macrophages activation by regulating mPGES-1 expression and p38/JNK pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Nonsteroidal anti-inflammatory drugs (NSAIDs) have been used clinically to treat inflammatory diseases clinically. However, the adverse effects of NSAIDs cannot be ignored. Therefore, it is critical for us to find alternative anti-inflammatory drugs that can reduce adverse reactions to herbal medicine, such as Iris tectorum Maxim., which has therapeutic effects and can treat inflammatory diseases and liver-related diseases. AIM OF THE STUDY: This study aimed to isolate active compounds from I. tectorum and investigate their anti-inflammatory effects and action mechanisms. MATERIALS AND METHODS: Fourteen compounds were isolated from I. tectorum using silica gel column chromatography, Sephadex LH-20, ODS and high performance liquid chromatography, and their structures were identified by examining physicochemical properties, ultraviolet spectroscopy, infrared spectroscopy, mass spectrometry, and nuclear magnetic resonance spectroscopy. Classical inflammatory cell models were established using lipopolysaccharide (LPS)-stimulated RAW264.7 cells and rat primary peritoneal macrophages to examine the effect of these compounds. To examine the action mechanisms, the nitric oxide (NO) levels were measured by Griess reagent and the levels of inflammatory cytokines in the supernatant were measured by ELISA; The expressions of major proteins in prostaglandin E(2) (PGE(2)) synthesis and the nuclear factor-kappaB (NF-kappaB) and mitogen-activated protein kinase (MAPK) signaling pathways were examined by Western blotting, and the mRNA expression levels were measured by quantitative real-time polymerase chain reaction; and the nuclear translocation of p65 was examined by high content imaging. Molecular docking was used to predict the binding of active compound to target protein. RESULTS: Our findings revealed that Iristectorigenin C (IT24) significantly inhibited the levels of NO and PGE(2) without affecting cyclooxygenase (COX)-1/COX-2 expression in LPS-induced RAW264.7 cells and rat peritoneal macrophages. Furthermore, IT24 was shown to decrease the expression of microsomal prostaglandin synthetase-1 (mPGES-1) in LPS-induced rat peritoneal macrophages. IT24 did not suppress the phosphorylation and nuclear translocation of proteins in the NF-kappaB pathway, but it inhibited the phosphorylation of p38/JNK in LPS-stimulated RAW264.7 cells. Additionally, molecular docking analysis indicated that IT24 may directly bind to the mPGES-1 protein. CONCLUSION: IT24 might inhibit mPGES-1 and the p38/JNK pathway to exert its anti-inflammatory effects and could be also developed as an inhibitor of mPGES-1 to prevent and treat mPGES-1-related diseases, such as inflammatory diseases, and holds promise for further research and drug development.",
+    "keywords": [
+      "Inflammation",
+      "Iris tectorum",
+      "Iristectorigenin C",
+      "MAPK pathway",
+      "mPGES-1"
+    ],
+    "mesh_terms": [
+      "Rats",
+      "Animals",
+      "*MAP Kinase Signaling System",
+      "*Lipopolysaccharides/pharmacology",
+      "NF-kappa B/metabolism",
+      "Molecular Docking Simulation",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Anti-Inflammatory Agents, Non-Steroidal/pharmacology",
+      "Macrophages, Peritoneal",
+      "Cyclooxygenase 2/metabolism",
+      "Nitric Oxide/metabolism",
+      "Nitric Oxide Synthase Type II/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xin",
+        "Yao, Yun-Da",
+        "Kang, Jun-Li",
+        "Luo, Fu-Kang",
+        "Mu, Xi-Jun",
+        "Zhang, Yan-Yu",
+        "Chen, Ming-Tai",
+        "Liu, Meng-Nan",
+        "Lao, Chi-Chou",
+        "Tan, Zi-Hao",
+        "Huang, Yu-Feng",
+        "Xie, Ying",
+        "Xu, You-Hua",
+        "Wu, Peng",
+        "Zhou, Hua"
+      ],
+      "short_names": [
+        "Guo X",
+        "Yao YD",
+        "Kang JL",
+        "Luo FK",
+        "Mu XJ",
+        "Zhang YY",
+        "Chen MT",
+        "Liu MN",
+        "Lao CC",
+        "Tan ZH",
+        "Huang YF",
+        "Xie Y",
+        "Xu YH",
+        "Wu P",
+        "Zhou H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China; Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao.",
+        "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China.",
+        "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China.",
+        "Academy of Chinese Medical Sciences, Henan University of Chinese Medicine, Zhengzhou, Henan, 450046, China.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao; Department of Cardiovascular Disease, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, Guangdong, 518033, PR China.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao; National Traditional Chinese Medicine Clinical Research Base and Department of Cardiovascular, Hospital (T.C.M) Affiliated to Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao.",
+        "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China.",
+        "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China.",
+        "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China. Electronic address: leoxieying@outlook.com.",
+        "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao. Electronic address: yhxu@must.edu.mo.",
+        "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China. Electronic address: wupeng@gzucm.edu.cn.",
+        "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China. Electronic address: gutcmzhs@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xin",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China; Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao."
+        ]
+      },
+      {
+        "full_name": "Yao, Yun-Da",
+        "short_name": "Yao YD",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao."
+        ]
+      },
+      {
+        "full_name": "Kang, Jun-Li",
+        "short_name": "Kang JL",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao."
+        ]
+      },
+      {
+        "full_name": "Luo, Fu-Kang",
+        "short_name": "Luo FK",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Mu, Xi-Jun",
+        "short_name": "Mu XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan-Yu",
+        "short_name": "Zhang YY",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Chinese Medical Sciences, Henan University of Chinese Medicine, Zhengzhou, Henan, 450046, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ming-Tai",
+        "short_name": "Chen MT",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao; Department of Cardiovascular Disease, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, Guangdong, 518033, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meng-Nan",
+        "short_name": "Liu MN",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao; National Traditional Chinese Medicine Clinical Research Base and Department of Cardiovascular, Hospital (T.C.M) Affiliated to Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Lao, Chi-Chou",
+        "short_name": "Lao CC",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao."
+        ]
+      },
+      {
+        "full_name": "Tan, Zi-Hao",
+        "short_name": "Tan ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu-Feng",
+        "short_name": "Huang YF",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ying",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China. Electronic address: leoxieying@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Xu, You-Hua",
+        "short_name": "Xu YH",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chinese Medicine and State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Avenida Wailong, Taipa, Macao. Electronic address: yhxu@must.edu.mo."
+        ]
+      },
+      {
+        "full_name": "Wu, Peng",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Laboratory for Translational Cancer Research of Chinese Medicine of the Ministry of Education of the People's Republic of China, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, PR China. Electronic address: wupeng@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hua",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Hospital of Chinese Medicine, Guangdong Provincial Academy of Chinese Medical Sciences, State Key Laboratory of Dampness Syndrome of Chinese Medicine, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou, Guangdong Province, PR China. Electronic address: gutcmzhs@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2023 Dec 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/11 01:06",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "40520189",
+      "38930963"
+    ],
+    "refs": [],
+    "similar": [
+      "37301305",
+      "26560439",
+      "23810444",
+      "33338590",
+      "33508367",
+      "27591413",
+      "19162159",
+      "34883218",
+      "24076326",
+      "24070708",
+      "25012519",
+      "26620692",
+      "34474343",
+      "21548916",
+      "34821534",
+      "27343699",
+      "23142196",
+      "24116971",
+      "36219321",
+      "28283936",
+      "26291957",
+      "34506938",
+      "24735815",
+      "21667204",
+      "20238486",
+      "36111584",
+      "25567371",
+      "26027823",
+      "31536727",
+      "19169268",
+      "25446583",
+      "22363816",
+      "24740524",
+      "26571085",
+      "25904113",
+      "22427249",
+      "24378351",
+      "24815219",
+      "22414473",
+      "24135236",
+      "20821828",
+      "27314211",
+      "31009850",
+      "26412258",
+      "21893401",
+      "27121731",
+      "26607631",
+      "35447407",
+      "28550731",
+      "25625245",
+      "31790703",
+      "23944983",
+      "27111520",
+      "31366870",
+      "36903379",
+      "30415062",
+      "27965052",
+      "16765938",
+      "36115602",
+      "29655681",
+      "18295200",
+      "30045725",
+      "25156282",
+      "26224027",
+      "24766418",
+      "23541436",
+      "30943385",
+      "22590514",
+      "19801997",
+      "25451575",
+      "25441150",
+      "18378223",
+      "27989509",
+      "22974544",
+      "30223923",
+      "24628870",
+      "27324043",
+      "35874059",
+      "29199487",
+      "24561384",
+      "32144444",
+      "36152408",
+      "25784296",
+      "16289764",
+      "23266270",
+      "22637723",
+      "37544187",
+      "23270759",
+      "26297979",
+      "30233137",
+      "26920260",
+      "33957208",
+      "21048310",
+      "32230861",
+      "25783839",
+      "38030026",
+      "38430971",
+      "27301644",
+      "37815017",
+      "33836205",
+      "38061604",
+      "38522589",
+      "34252545",
+      "36742263",
+      "38761708",
+      "37783409",
+      "37834036",
+      "36566264",
+      "38286094",
+      "38312593",
+      "38511964",
+      "39013842",
+      "37852338",
+      "37408216",
+      "38706927",
+      "39053707",
+      "38015194",
+      "37248701",
+      "33831580",
+      "37836625",
+      "39218126",
+      "36401067",
+      "39087587",
+      "38058285",
+      "37815526",
+      "31572487",
+      "37630311",
+      "37487573",
+      "37383215",
+      "39419304",
+      "39395406",
+      "39041153",
+      "37852423",
+      "39408583",
+      "38761959",
+      "38185756",
+      "38069341",
+      "37627577",
+      "33572173",
+      "39252640",
+      "38911149",
+      "39365024",
+      "37469300",
+      "39255608",
+      "39429056",
+      "38504532",
+      "39405129",
+      "36425180"
+    ],
+    "review": [
+      "37301305",
+      "38015194"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(23)00574-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37301305",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

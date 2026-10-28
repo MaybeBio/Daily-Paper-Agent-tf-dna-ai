@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2024.08.27.609789)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. Figures, tables, and supplementary materials referenced but not directly examined.
+- **Shared manuscript claim summary** The authors present a high-resolution time course of chromatin accessibility, DNA methylation, and transcription factor occupancy during human embryonic stem cell to neural progenitor cell differentiation. They report that chromatin accessibility changes are rapid and bidirectional, while DNA methylation changes are delayed, largely unidirectional, and persist after accessibility changes. They identify 5-hydroxymethylcytosine accumulation preceding chromatin changes and use machine learning to show methylation states predict past, present, and future accessibility.
+- **Visible evidence base** Text descriptions of results, methods, and figure references. No raw data, figures, or supplementary tables directly inspected.
+- **Missing materials affecting confidence** Figures, supplementary figures, tables, statistical details, and code. The manuscript text alone is insufficient to fully verify quantitative claims, statistical rigor, or data quality.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in epigenetics: the temporal relationship between chromatin accessibility and DNA demethylation at enhancers during cell fate specification. The experimental design, using a densely sampled differentiation time course with a multi-omic approach, is well conceived. The central observation that DNA demethylation is temporally discordant with chromatin accessibility, with demethylation beginning before and persisting after accessibility changes, is potentially significant. However, the manuscript as presented has several technical and interpretive gaps that need to be addressed. The machine learning analysis, while interesting, is described at a level that makes it difficult to assess its robustness. The causal claims regarding the role of DNA methylation in enhancer regulation are not fully supported by the correlative data presented. The manuscript would benefit from clearer presentation of statistical methods and effect sizes, and from a more nuanced discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers in epigenetics, gene regulation, developmental biology, and chromatin biology. The findings challenge textbook models of enhancer activation and provide a temporal framework that could inform studies of epigenetic reprogramming, cellular plasticity, and disease states where DNA methylation patterns are altered. The machine learning approach may also interest computational biologists working on epigenetic prediction.
+- **Major strengths** 1) The use of a densely sampled time course with a single-assay multi-omic approach (ATAC-Me) is a methodological strength that allows direct comparison of chromatin and methylation dynamics from the same DNA fragments. 2) The orthogonal validation with 6-base sequencing strengthens confidence in the methylation measurements. 3) The integration of TF expression with footprinting data provides a more refined view of regulatory events. 4) The observation that 5-hmC accumulates prior to accessibility changes is novel and potentially important. 5) The machine learning framework, if robust, offers a predictive tool that could be applied to other systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "5-hmC can forecast future accessibility" and that methylation states predict "past, present and future chromatin accessibility" based on machine learning models.
+  - **Evidence pointer** Results section "A machine learning approach predicts chromatin accessibility patterns from timepoint specific DNA methylation states"; Figure 6
+  - **Concern** The machine learning analysis is described at a high level, but critical details are missing. The authors state they used XGBoost with hyperparameter optimization, but do not provide information on feature selection, cross-validation strategy (beyond a chromosome-based split), handling of class imbalance, or evaluation metrics beyond Spearman correlation. The comparison between models trained on dynamic versus static regions, and on enhancers versus promoters, is mentioned but the results are not presented in sufficient detail. The claim that 5-hmC "forecasts" future accessibility implies a temporal predictive relationship, but the model architecture as described appears to use methylation at a single timepoint to predict accessibility at the same or other timepoints. It is unclear whether the model is truly predictive across time or merely correlative.
+  - **Why it matters** The machine learning results are a key part of the paper's central claim that methylation states have predictive value for chromatin dynamics. If the model is not properly validated, or if the predictive power is overstated, the main conclusion is weakened. The "forecast" language implies a causal or at least temporal predictive relationship that the current analysis may not support.
+  - **Resolution test** Provide full details of the model training, including feature sets, hyperparameter tuning, cross-validation scheme, and performance metrics (e.g., R², RMSE) for all model comparisons. Clarify whether the model uses methylation at time t to predict accessibility at time t+1, t+2, etc., and report performance for each temporal offset. If the model is not truly temporal, revise the language to avoid "forecast" and instead describe the relationship as correlative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "demethylation activities start before appreciable TF binding is observed" and that "loss of methylation appeared prior to TF binding."
+  - **Evidence pointer** Results section "Enhancer demethylation appears prior to, and is maintained independently of, TF binding"; Figures 4 and 5
+  - **Concern** The temporal ordering of demethylation and TF binding is a central claim, but the evidence presented is indirect. TF binding is inferred from footprinting (Tn5 cut-site frequencies), which is a proxy and can be confounded by chromatin accessibility itself. The authors note this caveat but do not provide a rigorous statistical test for the temporal ordering. The statement that demethylation "appears prior to" TF binding is based on visual inspection of averaged methylation and footprint data, but no statistical comparison of the timing of these events is provided. Additionally, the resolution of the time course (timepoints at 0, 6h, 12h, 24h, 48h, 3d, 4.5d, 6d, 12d) may not be sufficient to definitively establish ordering, especially for events that occur within a 24-hour window.
+  - **Why it matters** The temporal ordering of demethylation relative to TF binding is a key mechanistic claim. If the ordering is not robustly established, the interpretation that demethylation is not a consequence of TF binding is weakened. This has implications for the model of enhancer activation proposed.
+  - **Resolution test** Provide a statistical test for the temporal ordering of demethylation and TF binding events. For example, for each locus, determine the timepoint at which significant demethylation begins and the timepoint at which significant TF binding begins, and test whether the distribution of these times is significantly different. Alternatively, use a mixed-effects model to test for a temporal lag between methylation and accessibility changes. If the data do not support a robust ordering, soften the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "chromatin and DNA methylation collaborate on different timescales to mediate short and long-term enhancer regulation" and that DNA methylation "serves to stabilize enhancer transitions."
+  - **Evidence pointer** Discussion section; Results sections throughout
+  - **Concern** The functional significance of the observed temporal discordance is inferred but not directly tested. The claim that DNA methylation "stabilizes" enhancer transitions is a hypothesis that is not directly supported by the data presented. The authors show correlations between methylation states and accessibility, but do not perturb methylation or accessibility to test causality. The discussion of "short and long-term regulation" is speculative and not tied to specific functional outcomes (e.g., gene expression stability, response to subsequent stimuli).
+  - **Why it matters** The paper's broader significance rests on the claim that the temporal dynamics of DNA methylation have functional consequences for enhancer regulation. Without direct functional evidence, the claim remains correlative. The discussion would be strengthened by acknowledging alternative interpretations and by suggesting specific experiments that could test the "stabilization" hypothesis.
+  - **Resolution test** Either provide direct experimental evidence (e.g., perturbation of TET enzymes or DNMTs) that links the observed methylation dynamics to functional outcomes, or revise the discussion to clearly distinguish between correlative observations and hypotheses. Consider framing the "stabilization" idea as a testable prediction rather than a conclusion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "most DNA methylation changes are unidirectional and delayed relative to chromatin dynamics."
+  - **Evidence pointer** Results section "DNAme dynamics are unidirectional and temporally discordant with chromatin accessibility"; Figure 3
+  - **Concern** The classification of methylation changes as "unidirectional" is based on clustering of methylation trajectories. However, the criteria for this classification are not clearly defined. The authors mention that "gain of DNA methylation was a less common occurrence" (15.3% of dynamic regions), but the threshold for what constitutes a "gain" versus "no change" is not specified. Additionally, the analysis appears to focus on regions that are accessible at some point during the time course; the behavior of regions that are never accessible is not described. The claim of "unidirectional" may be an artifact of the clustering approach or the specific timepoints sampled.
+  - **Why it matters** The directionality of methylation changes is a key observation that distinguishes this system from others. If the classification is not robust, the claim of unidirectionality is weakened. The persistence of hypomethylation after accessibility decreases is an important observation, but the claim that methylation changes are "unidirectional" needs to be more rigorously defined.
+  - **Resolution test** Clearly define the criteria for classifying methylation changes as "gain," "loss," or "no change." Provide the distribution of methylation changes across all regions, not just those classified as dynamic. Show that the "unidirectional" pattern is not an artifact of the clustering method or the specific timepoints chosen. Consider presenting the data as a continuous distribution of methylation changes rather than discrete categories.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The opening sentence is dense and could be clearer for a general audience. The phrase "epigenetic mechanisms govern the transcriptional activity of lineage-specifying enhancers" is jargon-heavy.
+  - **Required correction** Consider revising to a more accessible opening, e.g., "During cell differentiation, specific DNA regions called enhancers control which genes are turned on. Epigenetic marks, such as DNA methylation and chromatin structure, are thought to regulate these enhancers."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Cell Cycle and 5-hmC Flow Cytometry"
+  - **Evidence pointer** STAR Methods, "Cell Cycle and 5-hmC Flow Cytometry"
+  - **Issue** The description of the flow cytometry analysis is brief. The authors state that "Signal was quantified as the fold-change in per-cell 5-hmC median fluorescence intensity per sample compared to the lowest median signal for same experiment." This is a non-standard normalization and could be affected by batch effects or differences in staining efficiency.
+  - **Required correction** Provide more detail on the gating strategy, the number of cells analyzed, and the statistical approach for comparing conditions. Consider using a more standard normalization (e.g., to a control cell population) or justify the chosen approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Directed differentiation of HESCs to NPCs..."
+  - **Evidence pointer** Results, first paragraph; Figure 1B
+  - **Issue** The authors state that single-cell RNA-seq showed "no distinct subclusters" within each timepoint, indicating homogeneous differentiation. However, the number of cells analyzed and the clustering method are not described. It is possible that rare subpopulations were missed due to limited sampling.
+  - **Required correction** Provide details on the number of cells sequenced, the clustering algorithm, and the criteria for defining a "subcluster." Consider using a more sensitive approach (e.g., lineage tracing or marker analysis) to confirm homogeneity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of "discordant" epigenetic states is clear but could benefit from a brief explanation of why this is surprising or important for a general reader.
+  - **Required correction** Add a sentence explaining the textbook model (that accessible enhancers are unmethylated) and why the observation of accessible, methylated enhancers is unexpected.
+- **Technical failings that need to be addressed before the case is established** 1) The machine learning model details are insufficiently described to assess validity (R1-M1). 2) The temporal ordering of demethylation and TF binding is not statistically tested (R1-M2). 3) The classification of methylation changes as "unidirectional" lacks clear criteria (R1-M4). 4) The functional significance of the observed dynamics is inferred, not tested (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its temporal resolution and integration of multiple epigenetic marks from the same DNA fragments. The observation that 5-hmC precedes accessibility changes is novel. **Scientific importance:** The findings challenge current models of enhancer regulation and have implications for understanding epigenetic reprogramming. However, the functional significance is not directly demonstrated, limiting the immediate impact. **Interdisciplinary readership:** The topic is of interest to epigenetics, developmental biology, and chromatin researchers. The machine learning component may attract computational biologists. The manuscript is likely to be of interest to a specialized rather than broad audience. **Technical soundness:** The core experimental approach (ATAC-Me with dense timepoints) is sound, but the analysis has gaps as noted above. The machine learning and temporal ordering analyses need strengthening. **Readability for nonspecialists:** The manuscript is generally well-written but the introduction and some results sections are dense. The summary is clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are potentially important, but the manuscript requires substantial revision to address the technical concerns, particularly around the machine learning analysis and the temporal ordering of events. The claims need to be tempered to match the correlative nature of the data, or additional experiments are needed to support the functional interpretations.
+
+## Risk / unsupported claims
+- The claim that 5-hmC "forecasts" future accessibility is not supported by the described analysis, which appears correlative rather than predictive across time.
+- The claim that demethylation "appears prior to" TF binding is not statistically tested and relies on indirect measurements of TF binding.
+- The claim that DNA methylation "serves to stabilize enhancer transitions" is a hypothesis not directly tested by the data.
+- The claim that methylation changes are "unidirectional" lacks clear definition and may be an artifact of the clustering approach.
+- The statement that the differentiation is "homogeneous" based on scRNA-seq is not supported by details on the analysis.

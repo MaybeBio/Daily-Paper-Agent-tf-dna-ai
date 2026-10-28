@@ -1,0 +1,828 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.31.685849",
+  "title": "Beyond the 1:1 Ligand–Protein Paradigm: An In Silico Assay for Competitive Ligand Binding",
+  "doi": "10.1101/2025.10.31.685849",
+  "abstract": "Competitive binding assays (CBAs) are widely used in drug discovery to quantify and compare ligand/receptor affinities. However, their molecular interpretation is often limited by the inherent complexity of ligand–receptor interactions and the transient nature of binding events. All-atom molecular dynamics (MD) simulations offer valuable mechanistic insights in ligand binding studies, but remain computationally prohibitive for capturing the long-timescale, multiligand behavior characteristic of CBAs. Therefore, characterizing the molecular aspects of CBAs remains a fundamental challenge in molecular biophysics. Here, we introduce a coarse-grained MD (CGMD) approach capable of recapitulating CBA-like dynamics between ligands of opposing efficacy— the full agonist NECA and the inverse agonist ZM241385— at the adenosine A 2A receptor, a prototypical G protein-coupled receptor and a key pharmacological target. By simulating ligand mixtures at varying molar ratios, we capture hallmark features of experimental CBAs, including spontaneous binding, unbinding, and direct competition at the orthosteric site. Our simulations reveal an extracellular vestibular site that modulates ligand access to the binding pocket. Occupation of this site by NECA facilitates ZM241385 entry and prolongs its residence time, revealing a cooperative mechanism within an otherwise competitive process. These findings offer a molecular perspective on lig- and competition at GPCRs and demonstrate the potential of CGMD as a viable method for probing multiligand dynamics in drug discovery.",
+  "authors": [
+    "Vince Bart Cardenas",
+    "Stefano Raniolo",
+    "Paolo Conflitti",
+    "Vittorio Limongelli"
+  ],
+  "published_date": "2025-11-01",
+  "updated_date": "2025-11-02T04:20:13Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685849",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685849.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2026-09-01T18:57:43Z",
+        "timestamp": 1788289063708,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 79,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "European Research Council",
+          "award": [
+            "101001784"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101001784"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Competitive binding assays (CBAs) are widely used in drug discovery to quantify and compare ligand/receptor affinities. However, their molecular interpretation is often limited by the inherent complexity of ligand–receptor interactions and the transient nature of binding events. All-atom molecular dynamics (MD) simulations offer valuable mechanistic insights in ligand binding studies, but remain computationally prohibitive for capturing the long-timescale, multiligand behavior characteristic of CBAs. Therefore, characterizing the molecular aspects of CBAs remains a fundamental challenge in molecular biophysics. Here, we introduce a coarse-grained MD (CGMD) approach capable of recapitulating CBA-like dynamics between ligands of opposing efficacy— the full agonist NECA and the inverse agonist ZM241385— at the adenosine A\n                  <jats:sub>2A</jats:sub>\n                  receptor, a prototypical G protein-coupled receptor and a key pharmacological target. By simulating ligand mixtures at varying molar ratios, we capture hallmark features of experimental CBAs, including spontaneous binding, unbinding, and direct competition at the orthosteric site. Our simulations reveal an extracellular vestibular site that modulates ligand access to the binding pocket. Occupation of this site by NECA facilitates ZM241385 entry and prolongs its residence time, revealing a cooperative mechanism within an otherwise competitive process. These findings offer a molecular perspective on lig- and competition at GPCRs and demonstrate the potential of CGMD as a viable method for probing multiligand dynamics in drug discovery.\n                </jats:p>",
+      "DOI": "10.1101/2025.10.31.685849",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2025-11-02T04:20:13Z",
+        "timestamp": 1762057213000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Beyond the 1:1 Ligand–Protein Paradigm: An In Silico Assay for Competitive Ligand Binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4661-2734",
+          "authenticated-orcid": false,
+          "given": "Vince Bart",
+          "family": "Cardenas",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4835-8696",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Raniolo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5440-6167",
+          "authenticated-orcid": false,
+          "given": "Paolo",
+          "family": "Conflitti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4861-1199",
+          "authenticated-orcid": false,
+          "given": "Vittorio",
+          "family": "Limongelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1016/j.drudis.2017.10.007",
+          "article-title": "Medicinal chemistry in drug discovery in big pharma: past, present and future",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Drug Discovery Today"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.9b00359"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "939",
+          "DOI": "10.4155/fmc-2019-0307",
+          "article-title": "An overview of drug discovery and development",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Future Medicinal Chemistry"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "6624",
+          "DOI": "10.1021/acs.jmedchem.9b01956",
+          "article-title": "The medicinal chemistry in the era of machines and automation: Recent advances in continuous flow technology",
+          "volume": "63",
+          "year": "2020",
+          "journal-title": "Journal of Medicinal Chemistry"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jchromb.2005.10.002"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja020174b"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harvey Motulsky and Richard Neubig . Analyzing radioligand binding data. Current Protocols in Neuroscience, 19, 4 2002.",
+          "DOI": "10.1002/0471142301.ns0705s19"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2009.00604.x"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Philippa D. Darbre . Disruption of other receptor systems: Progesterone and glucocorticoid receptors, peroxisome proliferator-activated receptors, pregnane x receptor, and aryl hydrocarbon receptor. Endocrine Disruption and Human Health, pages 111–122, 1 2015.",
+          "DOI": "10.1016/B978-0-12-801139-3.00006-5"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "699",
+          "DOI": "10.1093/clinchem/19.7.699",
+          "article-title": "Principles of competitive binding assays (saturation analyses). i. equilibrium techniques",
+          "volume": "19",
+          "year": "1973",
+          "journal-title": "Clinical Chemistry"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E10-08-0683"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "581",
+          "DOI": "10.1007/s11302-015-9477-0",
+          "article-title": "Mass spectrometry-based ligand binding assays on adenosine a1 and a2a receptors",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Purinergic Signalling"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "6175",
+          "DOI": "10.1039/C5AN00822K",
+          "article-title": "Highly sensitive ligand-binding assays in pre-clinical and clinical applications: immuno-pcr and other emerging techniques",
+          "volume": "140",
+          "year": "2015",
+          "journal-title": "The Analyst"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "4783",
+          "DOI": "10.3390/molecules25204783",
+          "article-title": "Combining experimental data and computational methods for the non-computer specialist",
+          "volume": "25",
+          "year": "2020",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.1007/s41048-016-0016-5",
+          "article-title": "Radioligand saturation binding for quantitative analysis of ligand-receptor interactions",
+          "volume": "1",
+          "year": "2015",
+          "journal-title": "Biophysics Reports"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.16",
+          "first-page": "251",
+          "article-title": "Functional dynamics of g protein-coupled receptors reveal new routes for drug discovery",
+          "volume": "24",
+          "year": "2025",
+          "journal-title": "Nature Reviews Drug Discovery 2025 24:4"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3678",
+          "DOI": "10.1016/j.chempr.2024.08.004",
+          "article-title": "Minute-timescale free-energy calculations reveal a pseudoactive state in the adenosine a2a receptor activation mechanism",
+          "volume": "10",
+          "year": "2024",
+          "journal-title": "Chem"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "6047",
+          "DOI": "10.1021/acs.jctc.3c00641",
+          "article-title": "Perspectives on ligand/protein binding kinetics simulations: Force fields, machine learning, sampling, and user-friendliness",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vittorio Limongelli . Ligand binding free energy and kinetics calculation in 2020. WIREs Computational Molecular Science, 10, 7 2020.",
+          "DOI": "10.1002/wcms.1455"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "6339",
+          "DOI": "10.3390/ijms21176339",
+          "article-title": "Advances in molecular dynamics simulations and enhanced sampling methods for the study of protein systems",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2018.08.011"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2012.01897.x"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000435",
+          "DOI": "10.1371/journal.pcbi.1000435",
+          "article-title": "Computational fragment-based binding site identification by ligand competitive saturation",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rens M. J. M. de Vries , Femke A. Meijer , Richard G. Doveston , Iris A. Leijten van de Gevel , and Luc Brunsveld . Cooperativity between the orthosteric and allosteric ligand binding sites of rorγt. Proceedings of the National Academy of Sciences, 118, 2 2021.",
+          "DOI": "10.1073/pnas.2021287118"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "3359",
+          "DOI": "10.1021/acs.jctc.3c00020",
+          "article-title": "Long time scale ensemble methods in molecular dynamics: Ligand–protein interactions and allostery in sars-cov-2 targets",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "108004",
+          "DOI": "10.1016/j.compbiolchem.2023.108004",
+          "article-title": "Molecular dynamics and machine learning reveal distinguishing mechanisms of competitive ligands to perturb α,β-tubulin",
+          "volume": "108",
+          "year": "2024",
+          "journal-title": "Computational Biology and Chemistry"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.1118"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1347",
+          "DOI": "10.3390/biom11091347",
+          "article-title": "Theory and practice of coarse-grained molecular dynamics of biologically important systems",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1002/wcms.1169",
+          "article-title": "The power of coarse graining in biomolecular simulations",
+          "volume": "4",
+          "year": "2014",
+          "journal-title": "WIREs Computational Molecular Science"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd2518"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/mol.63.6.1256"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm4011669"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/092986712799320556"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.01.042"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "2616",
+          "DOI": "10.3390/molecules23102616",
+          "article-title": "Role of extracellular loops and membrane lipids for ligand recognition in the neuronal adenosine receptor type 2a: An enhanced sampling simulation study",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hung N. Do , Sana Akhter , and Yinglong Miao . Pathways and mechanism of caffeine binding to human adenosine a2a receptor. Frontiers in Molecular Biosciences, 8, 4 2021.",
+          "DOI": "10.3389/fmolb.2021.673170"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1104614108"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12595"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10867"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "995",
+          "DOI": "10.1007/s00018-018-2996-4",
+          "article-title": "Mammalian class i odorant receptors exhibit a conserved vestibular-binding pocket",
+          "volume": "76",
+          "year": "2019",
+          "journal-title": "Cellular and Molecular Life Sciences"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2691",
+          "DOI": "10.1038/s41598-022-06591-z",
+          "article-title": "Two entry tunnels in mouse taar9 suggest the possibility of multi-entry tunnels in olfactory receptors",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "2138",
+          "DOI": "10.1038/s41467-023-37808-y",
+          "article-title": "Constrained catecholamines gain b2ar selectivity through allosteric effects on pocket dynamics",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12735"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mercedes Alfonso-Prieto , Luciano Navarini , and Paolo Carloni . Understanding ligand binding to g-protein coupled receptors using multiscale simulations. Frontiers in Molecular Biosciences, 6, 5 2019.",
+          "DOI": "10.3389/fmolb.2019.00029"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "David A. Sykes , Mireia Jiménez-Rosés , John Reilly , Robin A. Fairhurst , Steven J. Charlton , and Dmitry B. Veprintsev . Exploring the kinetic selectivity of drugs targeting the beta-1-adrenoceptor. Pharmacology Research & Perspectives, 10, 8 2022.",
+          "DOI": "10.1002/prp2.978"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.1021/ml5005365",
+          "article-title": "Allosteric modulators: An emerging concept in drug discovery",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "ACS Medicinal Chemistry Letters"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-021-00240-2"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1439-7633(20021004)3:10<928::AID-CBIC928>3.0.CO;2-5"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.49",
+          "first-page": "1",
+          "article-title": "Protein–ligand binding with the coarse-grained martini model",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nature Communications 2020 11:1"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10136"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1164772"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "17948",
+          "DOI": "10.1039/D5SC02398J",
+          "article-title": "Structural basis of the res-idence time of adenosine a2a receptor ligands revealed by nmr",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Chemical Science"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "113718",
+          "DOI": "10.1016/j.bcp.2019.113718",
+          "article-title": "A2a and a2b adenosine receptors: The extracellular loop 2 determines high (a2a) or low affinity (a2b) for adenosine",
+          "volume": "172",
+          "year": "2020",
+          "journal-title": "Biochemical Pharmacology"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14287"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1420",
+          "DOI": "10.1021/ct500040r",
+          "article-title": "Assessing the reliability of the dynamics reconstructed from metadynamics",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2280095"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.57",
+          "first-page": "25",
+          "article-title": "The energetics of protein–lipid interactions as viewed by molecular simulations",
+          "volume": "48",
+          "year": "2019",
+          "journal-title": "Biochemical Society Transactions"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "712085",
+          "DOI": "10.3389/fmolb.2021.712085",
+          "article-title": "Recent developments in free energy calculations for drug discovery",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Frontiers in Molecular Biosciences"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "102871",
+          "DOI": "10.1016/j.sbi.2024.102871",
+          "article-title": "Increased throughput in methods for simulating protein ligand binding and unbinding",
+          "volume": "87",
+          "year": "2024",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "5671",
+          "DOI": "10.1021/acs.jcim.4c00764",
+          "article-title": "Ligand binding affinity prediction for membrane proteins with alchemical free energy calculation methods",
+          "volume": "64",
+          "year": "2024",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1021/ed046p12",
+          "article-title": "Ion pairs and complexes: Free energies, enthalpies, and entropies",
+          "volume": "46",
+          "year": "1969",
+          "journal-title": "Journal of Chemical Education"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "543",
+          "DOI": "10.1007/BF00647377",
+          "article-title": "Ionic interactions in solutions. i. the association concepts and the mcmillan-mayer theory",
+          "volume": "5",
+          "year": "1976",
+          "journal-title": "Journal of Solution Chemistry"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00192a057"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0301-0104(91)87019-R"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cphc.200600527"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "44106",
+          "DOI": "10.1063/1.2825620",
+          "article-title": "Computing accurate potentials of mean force in electrolyte solutions with the generalized gradient-augmented harmonic fourier beads method",
+          "volume": "128",
+          "year": "2008",
+          "journal-title": "Journal of Chemical Physics"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E. Duboúe-Dijon and J. Hénin . Building intuition for binding free energy calculations: Bound state definition, restraints, and symmetry. Journal of Chemical Physics, 154, 5 2021.",
+          "DOI": "10.1063/5.0046853"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "2109",
+          "DOI": "10.1021/acs.jctc.2c00950",
+          "article-title": "Scaling protein-water interactions in the martini 3 coarse-grained force field to simulate transmembrane helix dimers in dif-ferent lipid environments",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.69",
+          "first-page": "3136",
+          "article-title": "Ligand’s partition to the lipid bilayer should be accounted for when estimating their affinity to proteins",
+          "volume": "28",
+          "year": "2023",
+          "journal-title": "Molecules 2023, Vol. 28, Page 3136"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "22639",
+          "DOI": "10.1038/srep22639",
+          "article-title": "The pathway of ligand entry from the membrane bilayer to a lipid g protein-coupled receptor",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-05588-y"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.72",
+          "first-page": "1",
+          "article-title": "Rescaling proteinprotein interactions improves martini 3 for flexible proteins in solution",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications 2024 15:1"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cplett.2023.140436"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Daniele Angioletti , Stefano Raniolo , and Vittorio Limongelli . Herobm: a deep equivariant graph neural network for universal backmapping from coarse-grained to all-atom representations. ArXiv, 4 2024.",
+          "DOI": "10.1063/5.0280330"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.softx.2015.06.001",
+          "article-title": "Gromacs: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "volume": "1-2",
+          "year": "2015",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.76",
+          "first-page": "382",
+          "article-title": "Martini 3: a general purpose force field for coarse-grained molecular dynamics",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods 2021 18:4"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "2144",
+          "DOI": "10.1021/acs.jctc.5b00209",
+          "article-title": "Computational lipidomics with insane: A versatile tool for generating custom membranes for molecular simula-tions",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2025110408001714000_2025.10.31.685849v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.4792"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.31.685849",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:56:20Z",
+        "timestamp": 1768470980000
+      },
+      "score": 92.861626,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.31.685849"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "references-count": 79,
+      "URL": "https://doi.org/10.1101/2025.10.31.685849",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

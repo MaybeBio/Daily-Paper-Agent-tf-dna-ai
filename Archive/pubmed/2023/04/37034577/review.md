@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence presented in the manuscript; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors present PRINT, a computational method for multi-scale footprinting of DNA-protein interactions from chromatin accessibility data. They claim that PRINT corrects Tn5 sequence bias, enables accurate inference of TF and nucleosome binding, and reveals modular sub-cCRE structures that change dynamically across hematopoiesis and aging.
+- **Visible evidence base** Abstract, Introduction, Discussion, Methods (partial), figure legends referenced but figures not provided, supplementary materials not provided
+- **Missing materials affecting confidence** Figures and extended data figures/tables not provided; supplementary notes referenced but not included; detailed results section absent; code availability not verified
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable computational framework for multi-scale footprinting, addressing a real limitation in current chromatin accessibility analysis. The conceptual advance of identifying sub-cCRE modules is interesting. However, the provided text lacks the detailed results and figures necessary to evaluate the strength of the evidence. Key claims about accuracy improvements, biological findings, and aging-related changes cannot be fully assessed from the abstract and methods alone. The methods section is incomplete in places, and several statistical and validation details are missing.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, chromatin biology, and computational biology would be interested. The method addresses a recognized problem (sequence bias in Tn5-based footprinting) and offers a new way to analyze intra-element dynamics. The aging-related findings could interest those studying hematopoietic stem cell biology and age-related epigenetic changes.
+- **Major strengths** The problem addressed is important and timely. The multi-scale approach is conceptually novel, moving beyond single-size footprint detection. The integration with single-cell multi-omics is ambitious and potentially powerful. The provision of pre-trained models and genome-wide tracks is a practical strength for community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that PRINT enables "more accurate inference of TF and nucleosome binding" compared to prior methods.
+  - **Evidence pointer** Abstract; Figure 2f-g; Extended Data Table 2; location not provided for specific results
+  - **Concern** The quantitative evidence supporting improved accuracy over existing methods is not presented in the provided text. Benchmarking details, including the specific metrics, comparison methods, and statistical significance of improvements, are referenced but not shown. Without these data, the central methodological claim cannot be evaluated.
+  - **Why it matters** The novelty of PRINT hinges on demonstrating that multi-scale footprinting with bias correction outperforms existing approaches. If this is not rigorously established, the method's contribution is unclear.
+  - **Resolution test** Provide the benchmarking results, including precision-recall curves or similar metrics, with confidence intervals and statistical tests comparing PRINT to HINT-ATAC and TOBIAS across multiple TFs and cell types.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "sub-cCREs" are modular units that "explain changes to gene expression in the absence of overt changes to chromatin accessibility."
+  - **Evidence pointer** Abstract; Figure 3c-d; Extended Data Figure S5; location not provided
+  - **Concern** The evidence for sub-cCRE modularity and its functional relevance is not presented in detail. The correlation analyses between sub-cCRE activity and gene expression are described, but the results, including effect sizes, numbers of significant associations, and validation, are absent. The claim that sub-cCREs can change while overall cCRE accessibility remains constant needs direct demonstration.
+  - **Why it matters** The sub-cCRE concept is a major conceptual contribution. If the evidence is weak or the correlations are marginal, the interpretation may be overstated.
+  - **Resolution test** Show representative examples of sub-cCRE dynamics, quantify the proportion of cCREs with modular changes, and provide statistical evidence that sub-cCRE-gene correlations are significantly stronger or more informative than cCRE-level correlations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that aging is associated with "a spectrum of aging alterations among HSCs corresponding to a global gain of sub-cCRE activity while preserving cCRE accessibility."
+  - **Evidence pointer** Abstract; Figure 4g-m; Extended Data Figure S8; location not provided
+  - **Concern** The aging analysis is a key application of the method, but the results are not presented. The number of aged and young mice, the statistical model used, the effect sizes, and the specificity of the findings to HSCs versus other cell types are not described. The claim of a "spectrum" of aging alterations needs quantitative support.
+  - **Why it matters** The aging findings are presented as a significant discovery. Without detailed results, the robustness and biological significance cannot be assessed.
+  - **Resolution test** Provide the full differential analysis results, including volcano plots, effect size distributions, and validation of key findings (e.g., Cdc25b) by orthogonal methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The Tn5 bias correction model is trained on BAC data and applied to cellular data.
+  - **Evidence pointer** Methods: "Tn5 sequence bias modeling"; Extended Data Figure S1
+  - **Concern** The BAC data are generated on deproteinized DNA, which may not fully recapitulate the chromatin context of native nuclei. The manuscript does not describe how potential differences in Tn5 accessibility between naked DNA and chromatin are handled. Additionally, the validation of the bias correction on held-out BAC data and on cellular data is not shown.
+  - **Why it matters** If the bias model does not generalize to cellular chromatin, the footprint scores could be systematically biased, affecting all downstream analyses.
+  - **Resolution test** Show that the bias correction improves footprint detection in cellular data, e.g., by demonstrating reduced false positive rates at known non-binding regions and improved concordance with orthogonal binding data (e.g., ChIP-seq) in the same cell types.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The sub-cCRE segmentation algorithm and the choice of parameters (e.g., local neighborhood radius) are not fully described.
+  - **Evidence pointer** Methods: "Segmentation of sub-cCREs"; Supplementary Notes referenced
+  - **Concern** The boundary score definition and the parameter choices are described, but the sensitivity of the results to these parameters is not discussed. The stability of sub-cCRE calls across parameter values and the reproducibility of the segmentation are not addressed.
+  - **Why it matters** If the segmentation is highly parameter-dependent, the sub-cCRE calls may not be robust, undermining the biological conclusions.
+  - **Resolution test** Provide a parameter sensitivity analysis and demonstrate that sub-cCRE calls are stable across reasonable parameter ranges. Show reproducibility across biological replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "dynamic in their structure" is vague. It could be clarified to specify what structural features are being measured (e.g., nucleosome positioning, TF occupancy).
+  - **Required correction** Rephrase to specify the structural features, e.g., "dynamic in their nucleosome and transcription factor occupancy."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Tn5 bias model training
+  - **Evidence pointer** Methods: "Tn5 sequence bias modeling"
+  - **Issue** The hyperparameter tuning procedure for the convolutional neural network is not described. The number of training epochs, learning rate, and early stopping criteria are not specified.
+  - **Required correction** Add a description of the hyperparameter search and final model configuration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Differential testing
+  - **Evidence pointer** Methods: "Differential testing"
+  - **Issue** The multiple testing correction method for the large number of sub-cCREs tested is not described.
+  - **Required correction** Specify the multiple testing correction approach (e.g., Benjamini-Hochberg FDR) and the threshold used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4h-k description
+  - **Evidence pointer** Abstract and Discussion; location not provided
+  - **Issue** The Cdc25b example is mentioned in the Discussion but not described in the provided text. It is unclear what the figure shows.
+  - **Required correction** Add a brief description of the Cdc25b example in the results section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The code for PRINT is not explicitly mentioned as being available, only pre-trained models and tracks.
+  - **Required correction** State clearly whether the PRINT source code is available and where.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5
+- **Assessment against Nature-style criteria** Originality: The multi-scale footprinting approach and the sub-cCRE concept are original. Scientific importance: The potential to reveal intra-element dynamics is significant for regulatory genomics. Interdisciplinary readership: The work bridges computational method development and biological application, which could appeal to a broad readership. Technical soundness: Cannot be fully assessed from the provided text; key validations and statistical details are missing. Readability for nonspecialists: The abstract is accessible, but the methods are highly technical; the manuscript would benefit from clearer explanations of the sub-cCRE concept for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, but the evidence presented in the provided text is insufficient to establish the central claims. A full review of the figures and results is necessary.
+
+## Risk / unsupported claims
+- The claim of improved accuracy over prior methods (HINT-ATAC, TOBIAS) is unsupported in the provided text.
+- The claim that sub-cCREs explain gene expression changes independent of overall cCRE accessibility is unsupported.
+- The claim of a "spectrum" of aging-related sub-cCRE changes is unsupported.
+- The generalizability of PRINT to other species and data types is asserted but not demonstrated.
+- The biological significance of sub-cCREs in hematopoiesis and aging is stated but not substantiated with specific results.

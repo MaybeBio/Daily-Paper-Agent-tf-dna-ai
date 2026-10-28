@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "38291225",
+    "doi": "10.1038/s41598-024-52933-4",
+    "title": "GMean-a semi-supervised GRU and K-mean model for predicting the TF binding site."
+  },
+  "content": {
+    "abstract": "The transcription factor binding site is a deoxyribonucleic acid sequence that binds to transcription factors. Transcription factors are proteins that regulate the transcription gene. Abnormal turnover of transcription factors can lead to uncontrolled cell growth. Therefore, discovering the relationships between transcription factors and deoxyribonucleic acid sequences is an important component of bioinformatics research. Numerous deep learning and machine learning language models have been developed to accomplish these tasks. Our goal in this work is to propose a GMean model for predicting unlabelled deoxyribonucleic acid sequences. The GMean model is a hybrid model with a combination of gated recurrent unit and K-mean clustering. The GMean model is developed in three phases. The labelled and unlabelled data are processed based on k-mers and tokenization. The labelled data is used for training. The unlabelled data are used for testing and prediction. The experimental data consists of deoxyribonucleic acid experimental of GM12878, K562 and HepG2. The experimental results show that GMean is feasible and effective in predicting deoxyribonucleic acid sequences, as the highest accuracy is 91.85% in predicting K562 and HepG2. This is followed by the prediction of the sequence between GM12878 and K562 with an accuracy of 89.13%. The lowest accuracy is the prediction of the sequence between HepG2 and GM12828, which is 88.80%.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Protein Binding",
+      "*Transcription Factors/genetics/metabolism",
+      "*Computational Biology",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chuah, Chai Wen",
+        "He, Wanxian",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Chuah CW",
+        "He W",
+        "Huang DS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangdong University of Science and Technology, Songsan Hu, Dongguang, 523070, Guangdong, China. aiwenchuah@gmail.com.",
+        "Guangxi Academy of Sciences, 98 Daling Road, Nanning, 530007, Guangxi, China.",
+        "Eastern Institute for Advanced Study, Eastern Institute of Technology, Tongxin Road No. 568, Ningbo, 315201, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chuah, Chai Wen",
+        "short_name": "Chuah CW",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong University of Science and Technology, Songsan Hu, Dongguang, 523070, Guangdong, China. aiwenchuah@gmail.com."
+        ]
+      },
+      {
+        "full_name": "He, Wanxian",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Academy of Sciences, 98 Daling Road, Nanning, 530007, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": [
+          "Eastern Institute for Advanced Study, Eastern Institute of Technology, Tongxin Road No. 568, Ningbo, 315201, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jan 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/31 00:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38487805",
+      "38189539",
+      "37137168",
+      "36503892",
+      "36136096",
+      "35328984",
+      "35073843",
+      "34979074",
+      "31665426",
+      "31123959",
+      "30323198",
+      "27319740",
+      "27084946",
+      "26213851",
+      "23737141",
+      "22068540",
+      "21778525",
+      "9377276"
+    ],
+    "similar": [
+      "38291225",
+      "25957350",
+      "30323198",
+      "34073774",
+      "32770026",
+      "28334224",
+      "35652477",
+      "16362910",
+      "31372637",
+      "38517697",
+      "26291518",
+      "25775564",
+      "38732207",
+      "31406384",
+      "33372147",
+      "22955984",
+      "30578913",
+      "27567672",
+      "36484687",
+      "34613923",
+      "38701417",
+      "19088121",
+      "24267147",
+      "38644393",
+      "19956545",
+      "38940155",
+      "28234893",
+      "33784978",
+      "34486522",
+      "39076052",
+      "27899623",
+      "33522898",
+      "20838582",
+      "33571101",
+      "28750606",
+      "19835596",
+      "29617928",
+      "31634140",
+      "32921165",
+      "25722376",
+      "30106688",
+      "19105805",
+      "38733561",
+      "39210256",
+      "29654070",
+      "19158363",
+      "18174357",
+      "35997560",
+      "34078253",
+      "18229708",
+      "29326300",
+      "36057196",
+      "17204484",
+      "17377845",
+      "38422958",
+      "18922190",
+      "39227799",
+      "28849563",
+      "35659235",
+      "21124945",
+      "26285121",
+      "39350338",
+      "34996354",
+      "28541376",
+      "26130577",
+      "34272562",
+      "22721266",
+      "30598100",
+      "29617876",
+      "22467907",
+      "37805453",
+      "12054769",
+      "28623591",
+      "22185505",
+      "27307632",
+      "35263332",
+      "28961686",
+      "31481462",
+      "25158938",
+      "30922998",
+      "34534646",
+      "30709337",
+      "31336830",
+      "35573166",
+      "30835229",
+      "37884340",
+      "26818008",
+      "28359978",
+      "25843215",
+      "16362907",
+      "37919990",
+      "24472686",
+      "21193520",
+      "36155619",
+      "29757349",
+      "38608190",
+      "23382538",
+      "38490467",
+      "32946398",
+      "34864886"
+    ],
+    "review": [
+      "38291225",
+      "35652477",
+      "36057196"
+    ],
+    "pmc": [
+      "10827707"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-52933-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38291225/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38291225",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

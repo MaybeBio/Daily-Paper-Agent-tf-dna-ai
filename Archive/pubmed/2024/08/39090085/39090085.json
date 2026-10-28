@@ -1,0 +1,527 @@
+{
+  "identity": {
+    "pmid": "39090085",
+    "doi": "10.1038/s41467-024-50642-0",
+    "title": "Dual-site molecular glues for enhancing protein-protein interactions of the CDK12-DDB1 complex."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) stabilization with molecular glues plays a crucial role in drug discovery, albeit with significant challenges. In this study, we propose a dual-site approach, targeting the PPI region and its dynamic surroundings. We conduct molecular dynamics simulations to identify critical sites on the PPI that stabilize the cyclin-dependent kinase 12 - DNA damage-binding protein 1 (CDK12-DDB1) complex, resulting in further cyclin K degradation. This exploration leads to the creation of LL-K12-18, a dual-site molecular glue, which enhances the glue properties to augment degradation kinetics and efficiency. Notably, LL-K12-18 demonstrates strong inhibition of gene transcription and anti-proliferative effects in tumor cells, showing significant potency improvements in MDA-MB-231 (88-fold) and MDA-MB-468 cells (307-fold) when compared to its precursor compound SR-4835. These findings underscore the potential of dual-site approaches in disrupting CDK12 function and offer a structural insight-based framework for the design of cyclin K molecular glues.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "*Cyclin-Dependent Kinases/metabolism",
+      "Cyclins",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zemin",
+        "Li, Yuanqing",
+        "Yang, Jie",
+        "Li, Jiacheng",
+        "Lin, Xiongqiang",
+        "Liu, Ting",
+        "Yang, Shiling",
+        "Lin, Jin",
+        "Xue, Shengyu",
+        "Yu, Jiamin",
+        "Tang, Cailing",
+        "Li, Ziteng",
+        "Liu, Liping",
+        "Ye, Zhengzheng",
+        "Deng, Yanan",
+        "Li, Zhihai",
+        "Chen, Kaixian",
+        "Ding, Hong",
+        "Luo, Cheng",
+        "Lin, Hua"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Li Y",
+        "Yang J",
+        "Li J",
+        "Lin X",
+        "Liu T",
+        "Yang S",
+        "Lin J",
+        "Xue S",
+        "Yu J",
+        "Tang C",
+        "Li Z",
+        "Liu L",
+        "Ye Z",
+        "Deng Y",
+        "Li Z",
+        "Chen K",
+        "Ding H",
+        "Luo C",
+        "Lin H"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3119-7509",
+        "ORCID: 0009-0007-8121-368X",
+        "ORCID: 0000-0002-1383-4368",
+        "ORCID: 0000-0003-3864-8382",
+        "ORCID: 0000-0002-0840-6553"
+      ],
+      "affiliations": [
+        "The School of Pharmacy, Fujian Medical University, Fuzhou, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "The School of Pharmacy, Fujian Medical University, Fuzhou, China.",
+        "The School of Pharmacy, Fujian Medical University, Fuzhou, China.",
+        "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China.",
+        "The School of Pharmacy, Fujian Medical University, Fuzhou, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. hding@simm.ac.cn.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, School of Pharmacy, Guizhou Medical University, Guiyang, China. hding@simm.ac.cn.",
+        "The School of Pharmacy, Fujian Medical University, Fuzhou, China. cluo@simm.ac.cn.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. cluo@simm.ac.cn.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China. cluo@simm.ac.cn.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China. cluo@simm.ac.cn.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, School of Pharmacy, Guizhou Medical University, Guiyang, China. cluo@simm.ac.cn.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. hlin@fjnu.edu.cn.",
+        "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China. hlin@fjnu.edu.cn.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China. hlin@fjnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zemin",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0009-0005-3119-7509"
+        ],
+        "affiliations": [
+          "The School of Pharmacy, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuanqing",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jie",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiacheng",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiongqiang",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Pharmacy, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ting",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Pharmacy, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shiling",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jin",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Pharmacy, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Shengyu",
+        "short_name": "Xue S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiamin",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Cailing",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziteng",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0009-0007-8121-368X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liping",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zhengzheng",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yanan",
+        "short_name": "Deng Y",
+        "identifiers": [
+          "0000-0002-1383-4368"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhihai",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kaixian",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Hong",
+        "short_name": "Ding H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. hding@simm.ac.cn.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, School of Pharmacy, Guizhou Medical University, Guiyang, China. hding@simm.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Luo, Cheng",
+        "short_name": "Luo C",
+        "identifiers": [
+          "0000-0003-3864-8382"
+        ],
+        "affiliations": [
+          "The School of Pharmacy, Fujian Medical University, Fuzhou, China. cluo@simm.ac.cn.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. cluo@simm.ac.cn.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China. cluo@simm.ac.cn.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China. cluo@simm.ac.cn.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, School of Pharmacy, Guizhou Medical University, Guiyang, China. cluo@simm.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Hua",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0000-0002-0840-6553"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China. hlin@fjnu.edu.cn.",
+          "Key Laboratory of Microbial Pathogenesis and Interventions of Fujian Province University, the Key Laboratory of Innate Immune Biology of Fujian Province, Biomedical Research Center of South China, College of Life Sciences, Fujian Normal University, Fuzhou, China. hlin@fjnu.edu.cn.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, China. hlin@fjnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 00:46",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42637869",
+      "42453411",
+      "41582554",
+      "41491919",
+      "41091922",
+      "40601846",
+      "40295725"
+    ],
+    "refs": [
+      "38193430",
+      "37984298",
+      "37679459",
+      "37437222",
+      "37399310",
+      "37349855",
+      "36930701",
+      "36908699",
+      "36895136",
+      "36715303",
+      "36176907",
+      "35925880",
+      "35749742",
+      "35042991",
+      "34871441",
+      "34668699",
+      "34591612",
+      "34321660",
+      "34319094",
+      "34289372",
+      "33930325",
+      "33417864",
+      "33208943",
+      "32804079",
+      "32783965",
+      "32714746",
+      "32494016",
+      "32428344",
+      "32324397",
+      "31955850",
+      "31668947",
+      "30252093",
+      "29266803",
+      "28302793",
+      "27338790",
+      "26414598",
+      "26131937",
+      "25043012",
+      "24292625",
+      "24292623",
+      "23253130",
+      "23023127",
+      "22012619",
+      "20223979",
+      "19486540",
+      "19450536",
+      "17717034",
+      "16150969",
+      "11438690"
+    ],
+    "similar": [
+      "39090085",
+      "32804079",
+      "40295725",
+      "32494016",
+      "39450271",
+      "34864331",
+      "40626960",
+      "37817503",
+      "40509957",
+      "37679459",
+      "38104154",
+      "32747809",
+      "35749742",
+      "40910885",
+      "16537916",
+      "34289372",
+      "41896195",
+      "25712099",
+      "38016516",
+      "11355576",
+      "22012619",
+      "41922714",
+      "22988298",
+      "23912807",
+      "35938508",
+      "37599362",
+      "39388374",
+      "27397540",
+      "9468218",
+      "40056603",
+      "25429106",
+      "23561625",
+      "8845306",
+      "37207290",
+      "40080446",
+      "8591034",
+      "12391153",
+      "30597206",
+      "41111131",
+      "31615655",
+      "10373516",
+      "15505811",
+      "39579004",
+      "11781832",
+      "14767544",
+      "32312419",
+      "11442760",
+      "11369759",
+      "40326883",
+      "39948720",
+      "35395683",
+      "39955845",
+      "31468695",
+      "29574323",
+      "41533987",
+      "12947099",
+      "26597175",
+      "39847188",
+      "8633069",
+      "37916780",
+      "9563902",
+      "40815993",
+      "8475104",
+      "37935945",
+      "36926879",
+      "10878006",
+      "41544342",
+      "40408472",
+      "40866321",
+      "9219533",
+      "9244350",
+      "41582554",
+      "21237244",
+      "37478560",
+      "8972221",
+      "36120913",
+      "8649410",
+      "15870436",
+      "25261849",
+      "40315851",
+      "41882177",
+      "39353441",
+      "40766587",
+      "11299771",
+      "40578280",
+      "11709714",
+      "34939427",
+      "36827953",
+      "39148280",
+      "15609350",
+      "12437373",
+      "40070456",
+      "10649433",
+      "19035289",
+      "37948299",
+      "15004027",
+      "38736108",
+      "7969176",
+      "39082894",
+      "8798463"
+    ],
+    "review": [
+      "39090085",
+      "11355576",
+      "32312419",
+      "37935945",
+      "40866321",
+      "36120913"
+    ],
+    "pmc": [
+      "11294606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-50642-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39090085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

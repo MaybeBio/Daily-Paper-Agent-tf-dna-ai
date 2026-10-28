@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "40949127",
+    "doi": "10.3389/fphar.2025.1640822",
+    "title": "Icariin ameliorates minimal change disease by regulating the mitochondrial dysfunction pathway: an integrated strategy of network pharmacology, bioinformatics, and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Minimal change disease (MCD) involves mitochondrial dysfunction. Icariin (ICA) has therapeutic potential. However, the exact mechanism by which ICA regulates mitochondrial dysfunction remains to be elucidated. This study investigated ICA targets and mitochondrial dysfunction-related genes (MDRGs) involved in MCD pathogenesis. METHODS: First, the differentially expressed genes (DEGs) between MCD and controls were identified using differential expression analysis. Differential MCD-ICA target genes were obtained by intersecting the DEGs and MDRGs with ICA target genes. The four Cytoscape algorithms were then used to screen the differential MCD-ICA target genes for candidates, which were then refined through expression validation, machine learning, and ROC analysis to pinpoint the key genes. Next, a nomogram model of MCD was constructed. Gene set enrichment analysis (GSEA), immune infiltration analysis, molecular regulatory network analysis, and molecular docking analysis were also performed using the key genes. Finally, reverse transcription quantitative polymerase chain reaction (RT-qPCR) was used to validate the expression of the key genes in rat samples. In parallel, mitochondrial morphology was examined using transmission electron microscopy, and the ATP content in renal tissue was measured using colorimetric detection. RESULTS: Two key genes (ANPEP and XDH) were identified; both were downregulated in MCD. These findings were confirmed using RT-qPCR, with ICA intervention reversing their expression. In addition, the key gene-based nomogram demonstrated good predictive ability. Molecular docking confirmed strong binding between ICA and each of the key genes. GSEA revealed that the top three most prominent pathways shared by the two key genes included neutrophil degranulation and the innate immune system, with differential immune cell infiltration noted between the MCD patients and controls (e.g., resting dendritic cells and eosinophils). Twelve transcription factors co-regulated the genes XDH and ANPEP. Transmission electron microscopy and colorimetry confirmed that the ICA intervention alleviated mitochondrial dysfunction. CONCLUSION: ANPEP and XDH were identified as associated with ICA therapy and MDRGs in MCD patients. Furthermore, the potential ameliorating effect of ICA on MCD could be achieved by alleviating mitochondrial dysfunction. This work provides a potential theoretical basis for the treatment of MCD.",
+    "keywords": [
+      "icariin",
+      "key genes",
+      "minimal change disease",
+      "mitochondrial dysfunction",
+      "network pharmacology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Hao",
+        "Wu, Rong",
+        "Zhong, Dian",
+        "Dai, Enlai",
+        "Chen, Li",
+        "Xue, Guozhong",
+        "Li, Xuping",
+        "Wang, Hanyu"
+      ],
+      "short_names": [
+        "Wu H",
+        "Wu R",
+        "Zhong D",
+        "Dai E",
+        "Chen L",
+        "Xue G",
+        "Li X",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "Department of Nephropathy, The First Hospital of Lanzhou University, Lanzhou, Gansu, China.",
+        "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "Pharmaceutical Preparation Section, The Second People's Hospital of Baiyin Municipality, Baiyin, Gansu, China.",
+        "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+        "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China.",
+          "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Rong",
+        "short_name": "Wu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, The First Hospital of Lanzhou University, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Dian",
+        "short_name": "Zhong D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Enlai",
+        "short_name": "Dai E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese and Western Medicine, Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Li",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Preparation Section, The Second People's Hospital of Baiyin Municipality, Baiyin, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Guozhong",
+        "short_name": "Xue G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuping",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hanyu",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Affiliated Hospital of Gansu University of Chinese Medicine, Lanzhou, Gansu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:35",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "41829165"
+    ],
+    "refs": [
+      "39576474",
+      "39489227",
+      "39197519",
+      "39084752",
+      "38995910",
+      "38778379",
+      "38583082",
+      "38414248",
+      "38358003",
+      "38292759",
+      "37963441",
+      "37885715",
+      "37875995",
+      "37503337",
+      "37440467",
+      "37344941",
+      "37190079",
+      "37095548",
+      "37063851",
+      "37058900",
+      "36812928",
+      "36618352",
+      "35837069",
+      "35751589",
+      "35373087",
+      "35181660",
+      "35011166",
+      "34557778",
+      "34426999",
+      "34352588",
+      "34247632",
+      "34054546",
+      "33811715",
+      "33578127",
+      "33523554",
+      "33073585",
+      "32893671",
+      "32253273",
+      "32089233",
+      "31737171",
+      "31724930",
+      "31276635",
+      "31157273",
+      "31056265",
+      "30364028",
+      "30280213",
+      "30106142",
+      "29409764",
+      "28804120",
+      "27940460",
+      "27693121",
+      "27207943",
+      "25516281",
+      "24598802",
+      "21414208",
+      "17634404",
+      "14597658",
+      "11846609"
+    ],
+    "similar": [
+      "40949127",
+      "40803031",
+      "40916281",
+      "40775242",
+      "41402885",
+      "40674408",
+      "40790764",
+      "38422651",
+      "41340627",
+      "40595352",
+      "39713769",
+      "40442788",
+      "40885831",
+      "41013727",
+      "38384969",
+      "41038331",
+      "40329774",
+      "41324863",
+      "41305746",
+      "40374866",
+      "41069939",
+      "40078458",
+      "41200172",
+      "38144565",
+      "41438105",
+      "41186509",
+      "41288681",
+      "41342434",
+      "39953608",
+      "41291978",
+      "40927188",
+      "40406126",
+      "40967560",
+      "40259200",
+      "39403102",
+      "41230168",
+      "40370590",
+      "39382604",
+      "38139032",
+      "40406620",
+      "40151199",
+      "41120603",
+      "40728954",
+      "38274270",
+      "40808946",
+      "41052072",
+      "41358199",
+      "40216809",
+      "39642461",
+      "40374840",
+      "40948644",
+      "39375405",
+      "39754246",
+      "40379713",
+      "41013556",
+      "41479901",
+      "40703651",
+      "41111226",
+      "39588536",
+      "40821971",
+      "40014127",
+      "41101222",
+      "41210882",
+      "41367897",
+      "37434203",
+      "38863714",
+      "36699262",
+      "41146237",
+      "41044520",
+      "39559355",
+      "38371524",
+      "41013856",
+      "41442003",
+      "38044432",
+      "37692948",
+      "41214111",
+      "38291374",
+      "41094572",
+      "39323640",
+      "41195206",
+      "40481799",
+      "41368238",
+      "36642989",
+      "39093467",
+      "39026683",
+      "38260098",
+      "39586719",
+      "39920860",
+      "40814883",
+      "41162503",
+      "38878325",
+      "40598243",
+      "40225293",
+      "34411833",
+      "41151658",
+      "35531733",
+      "39975557",
+      "36532015",
+      "39079197",
+      "41366037"
+    ],
+    "review": [
+      "40949127",
+      "41101222"
+    ],
+    "pmc": [
+      "12425968"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40949127/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4057",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2025.1640822",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

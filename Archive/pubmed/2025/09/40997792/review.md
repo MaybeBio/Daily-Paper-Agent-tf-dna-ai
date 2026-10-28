@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report computational mapping of the minimum energy pathway (MEP) for RAD4/XPC binding to DNA containing a 6-4PP lesion, using molecular dynamics, umbrella sampling, and nudged elastic band methods. They propose a sequential mechanism involving partial DNA opening, rate-limiting 5' base flipping, and ordered extrusion of lesion and partner bases, with beta-hairpin insertion stabilizing the final complex.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological parameters, or validation metrics provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, free energy profiles, structural figures, error estimates, and comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational investigation of a biologically important process, namely lesion recognition by RAD4/XPC in nucleotide excision repair. The proposed sequential mechanism is coherent and aligns with existing structural knowledge. However, the abstract alone provides insufficient evidence to evaluate the technical rigor, convergence, or statistical significance of the reported findings. The claims are qualitatively interesting but quantitatively unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, computational biophysics, and molecular simulation of protein-DNA interactions would find these results relevant. The study addresses a fundamental question about how repair proteins recognize and extrude damaged bases, which has implications for understanding cancer predisposition and designing therapeutic interventions targeting repair pathways.
+- **Major strengths** The study addresses a significant biological question with clear translational relevance. The combination of multiple computational techniques (MD, umbrella sampling, NEB) is appropriate for mapping conformational transitions. The proposed mechanism provides a testable sequential model that connects initial interrogation to final stable binding, offering a framework for future experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the "partially opened state represents the rate-limiting distortion, with 5' base flipping as the bottleneck for downstream events"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative free energy barriers, no comparison of barrier heights between alternative pathways, and no error estimates for the computed minimum energy path. The identification of a "rate-limiting" step requires quantitative energetic comparison, which is absent.
+  - **Why it matters** Without quantitative free energy profiles and statistical uncertainties, the claim of rate limitation cannot be substantiated. A qualitative ordering of events does not establish which step is kinetically decisive.
+  - **Resolution test** Provide free energy barriers with associated errors for each identified transition state, and demonstrate that the 5' base flipping barrier is significantly higher than competing steps within statistical uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the MEP was mapped using "molecular dynamics simulations, umbrella sampling, and the nudged elastic band method"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how these methods were integrated. Umbrella sampling and NEB are distinct approaches for computing pathways and free energies. It is unclear whether the MEP was derived from NEB on a potential energy surface or from umbrella sampling free energy surfaces, and how the results from different methods were reconciled.
+  - **Why it matters** The methodological integration determines the physical meaning of the reported pathway. A potential energy MEP from NEB is not directly comparable to a free energy pathway from umbrella sampling. Without clarity, the reported "energetics" cannot be interpreted.
+  - **Resolution test** Specify the exact workflow, including which method generated the MEP, how free energies were computed, and how consistency between methods was verified.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies a complete mechanistic description from "initial encounter" to "bound state"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation timescales, system sizes, force field parameters, or convergence criteria are reported. The abstract does not state how many independent simulations were performed or how statistical sampling was assessed.
+  - **Why it matters** Without these details, the reliability of the pathway and the sequential ordering of events cannot be evaluated. Rare conformational transitions in protein-DNA systems are notoriously sensitive to sampling quality.
+  - **Resolution test** Provide full methodological details including simulation length, replica counts, convergence metrics, and force field validation against experimental structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, sentence describing "partial extrusion of the lesion while its partner bases largely remain intrahelical"
+  - **Issue** The term "largely remain intrahelical" is vague and does not specify the degree of base displacement or the structural metric used.
+  - **Required correction** Define quantitative criteria for "partial extrusion" and "intrahelical" using specific geometric measures such as base tilt, roll, or solvent exposure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with experiment
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract does not mention how the computed pathway compares with the known X-ray crystallographic structure of the complex, which is cited as motivation.
+  - **Required correction** State explicitly whether the final bound state from the MEP reproduces the crystallographic conformation and quantify the deviation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract generalizes to "nucleotide excision repair" broadly, but the study addresses only RAD4/XPC and the 6-4PP lesion.
+  - **Required correction** Limit conclusions to the specific system studied and note that generalization to other lesions or repair proteins requires further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed sequential mechanism is potentially novel, but the abstract does not clearly differentiate it from prior computational or experimental models of lesion recognition. Originality is plausible but not established from the supplied material.
+  - Scientific importance: The question is important for understanding DNA repair and cancer biology. The potential significance is high, but the abstract does not articulate broader implications beyond the specific system.
+  - Interdisciplinary readership: The topic bridges structural biology, computational chemistry, and DNA repair. The abstract is accessible to specialists but may be too technical for a general scientific audience without additional context.
+  - Technical soundness: Not assessable from the abstract. The absence of methodological detail and quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without definition. The sequential mechanism is described in accessible terms, but the significance of the findings for a broad audience is not well articulated.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible computational approach, but the absence of quantitative results, methodological integration details, and validation metrics means the core claims cannot be assessed. Supportive if technical concerns are resolved with full manuscript evidence.
+
+## Risk / unsupported claims
+- The claim of a "rate-limiting distortion" is unsupported without quantitative free energy barriers.
+- The claim of a specific sequential ordering of base flipping events is unsupported without convergence and statistical analysis.
+- The claim that the MEP provides "key insights" into lesion recognition is not verifiable without structural and energetic data.
+- The generalization to "nucleotide excision repair" broadly is unsupported given the single system studied.
+- The integration of MD, umbrella sampling, and NEB into a single MEP is not described and therefore not assessable.

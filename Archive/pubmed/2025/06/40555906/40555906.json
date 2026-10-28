@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40555906",
+    "doi": "10.1007/s43032-025-01917-4",
+    "title": "Transcriptomic Profiling Reveals Potential Genes Involved in the Immune Landscape of Polycystic Ovary Syndrome: An Exploratory Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Polycystic ovary syndrome (PCOS) is a complex endocrine disorder associated with chronic inflammation, insulin resistance, and ovarian dysfunction. Emerging evidence implicates granulosa cell anoikis, a specialized form of apoptosis induced by extracellular matrix detachment, in PCOS pathogenesis. However, the involvement of anoikis-related genes (ARGs) remains poorly understood. METHODS: Transcriptomic data from two GEO datasets (GSE43264 and GSE98421) were integrated, followed by differential gene expression analysis and weighted gene co-expression network analysis (WGCNA). Thirteen differentially expressed ARGs (DEARGs) were identified. Functional enrichment (GO/KEGG), immune infiltration profiling (CIBERSORT), and machine learning models were used to screen for hub biomarkers. Diagnostic potential was validated using ROC and nomogram analyses. ceRNA, drug-gene, and transcription factor networks were constructed. Pancancer expression and immune relevance were assessed using TCGA, and gene function was validated through MGI. RESULTS: Two ARGs, GSTP1 and LPCAT1, were identified as robust diagnostic markers (AUC > 0.80). These genes were significantly associated with immunosuppressive cell infiltration (e.g., elevated M2 macrophages, reduced CD8(+) T cells). GSEA linked both genes to apoptosis, PI3K signaling, and immune pathways. MGI validation revealed that GSTP1 and LPCAT1 are involved in reproductive and metabolic regulation in murine models, supporting their functional relevance to PCOS. Drug prediction analyses identified resveratrol, curcumin, and vitamin E as potential therapeutics. CONCLUSION: This is the first exploratory study to identify GSTP1 and LPCAT1 as potential diagnostic biomarkers for PCOS, validated across multi-omics platforms and functional databases. These findings highlight a novel anoikis-immunity axis in PCOS and suggest new directions for biomarker-guided therapy.",
+    "keywords": [
+      "Anoikis",
+      "Diagnostic biomarkers",
+      "Drug prediction",
+      "Immune landscape",
+      "Machine learning",
+      "Pancancer",
+      "Polycystic ovary syndrome"
+    ],
+    "mesh_terms": [
+      "Female",
+      "*Polycystic Ovary Syndrome/genetics/immunology/metabolism",
+      "*Gene Expression Profiling",
+      "Humans",
+      "Animals",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "Apoptosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ye",
+        "Hu, Zhiyang",
+        "Cai, Zebo",
+        "Lai, Junda",
+        "Zeng, Huiqiong"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Hu Z",
+        "Cai Z",
+        "Lai J",
+        "Zeng H"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7238-1013",
+        "ORCID: 0000-0002-2124-1837"
+      ],
+      "affiliations": [
+        "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China.",
+        "Department of Obstetrics, Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology, Shenzhen, 518000, China.",
+        "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China.",
+        "Department of Human Life Sciences, Beijing Sport University, Haidian District, #48 Xinxi Road, Beijing, 100029, China.",
+        "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China. 15986686048@139.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ye",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0008-7238-1013"
+        ],
+        "affiliations": [
+          "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhiyang",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology, Shenzhen, 518000, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zebo",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Junda",
+        "short_name": "Lai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Life Sciences, Beijing Sport University, Haidian District, #48 Xinxi Road, Beijing, 100029, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Huiqiong",
+        "short_name": "Zeng H",
+        "identifiers": [
+          "0000-0002-2124-1837"
+        ],
+        "affiliations": [
+          "Department of Immunology, Traditional Chinese Medicine, Women & Children Health Institute Futian Shenzhen, Shenzhen, 518000, China. 15986686048@139.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproductive sciences (Thousand Oaks, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Reprod Sci"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 00:28",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "42653354"
+    ],
+    "refs": [
+      "40346143",
+      "39663282",
+      "39519300",
+      "39323470",
+      "39310787",
+      "38884272",
+      "38637590",
+      "38423139",
+      "38115175",
+      "37667281",
+      "37554096",
+      "37537636",
+      "37321077",
+      "37169018",
+      "36991123",
+      "36589825",
+      "36556340",
+      "36468108",
+      "36459303",
+      "36327049",
+      "36118901",
+      "36099794",
+      "36072900",
+      "35856663",
+      "35447143",
+      "35287685",
+      "35201595",
+      "35157259",
+      "35127683",
+      "34976213",
+      "34958950",
+      "34847942",
+      "34757703",
+      "34698891",
+      "34518686",
+      "33988478",
+      "33839742",
+      "33287836",
+      "33043000",
+      "32764162",
+      "31611920",
+      "31483910",
+      "30903160",
+      "30462313",
+      "30357717",
+      "30126412",
+      "30024513",
+      "29920251",
+      "29512515",
+      "29344893",
+      "28732212",
+      "28585716",
+      "28199017",
+      "28004769",
+      "27899662",
+      "27510482",
+      "27138577",
+      "26771021",
+      "26678910",
+      "26531824",
+      "25950236",
+      "25609240",
+      "25428369",
+      "25063298",
+      "24132163",
+      "24113773",
+      "22455463",
+      "19114008",
+      "16247493",
+      "15168359",
+      "14597658",
+      "14551156"
+    ],
+    "similar": [
+      "40555906",
+      "41214666",
+      "39754246",
+      "41847139",
+      "42123445",
+      "41595448",
+      "40884580",
+      "41721342",
+      "39398336",
+      "39396400",
+      "41006883",
+      "41462288",
+      "41255601",
+      "39421991",
+      "42109727",
+      "36523600",
+      "41079183",
+      "39143634",
+      "41388523",
+      "39107365",
+      "40099263",
+      "40594186",
+      "41731522",
+      "41719982",
+      "40312440",
+      "41789070",
+      "41019094",
+      "37537636",
+      "41088367",
+      "37261354",
+      "41652498",
+      "42233387",
+      "41192647",
+      "41146237",
+      "41479901",
+      "37745699",
+      "41747841",
+      "41836445",
+      "41065836",
+      "40532306",
+      "41432483",
+      "42195052",
+      "42327749",
+      "41265166",
+      "41146316",
+      "41415264",
+      "26459919",
+      "41733593",
+      "39048886",
+      "40259200",
+      "41044520",
+      "39981695",
+      "41703156",
+      "40813744",
+      "36223608",
+      "40480394",
+      "38512862",
+      "41424060",
+      "41436831",
+      "41548166",
+      "41052072",
+      "40097519",
+      "41200172",
+      "40544268",
+      "36653385",
+      "41080564",
+      "41013556",
+      "39773546",
+      "38167332",
+      "33622336",
+      "38863714",
+      "39608739",
+      "41703488",
+      "35794640",
+      "40273141",
+      "39730379",
+      "42059276",
+      "39432623",
+      "41838368",
+      "41299729",
+      "39154063",
+      "39139563",
+      "39848950",
+      "39313041",
+      "42015036",
+      "39375405",
+      "40160813",
+      "35451009",
+      "41978723",
+      "39763654",
+      "41716396",
+      "39397125",
+      "41816328",
+      "41566537",
+      "40634444",
+      "40481029",
+      "41224720",
+      "41501917",
+      "42265520",
+      "40777016"
+    ],
+    "review": [
+      "40555906"
+    ],
+    "pmc": [
+      "12271263"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40555906/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s43032-025-01917-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-212",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

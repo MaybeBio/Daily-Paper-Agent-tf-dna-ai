@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "42208101",
+    "doi": "10.1016/j.phymed.2026.158330",
+    "title": "Bilobalide attenuates Salmonella typhimurium virulence by repressing the quorum sensing and type III secretion system effectors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Salmonella typhimurium is a major food-borne pathogen whose virulence is regulated by quorum sensing (QS) and the type III secretion system (T3SS). The rise of antibiotic resistance highlights the need for anti-virulence strategies targeting bacterial communication. Bilobalide, a sesquiterpene trilactone from Ginkgo biloba, has antimicrobial potential, but its role in QS regulation remains unclear. This study investigates how bilobalide modulates QS and virulence in S. typhimurium to support the development of anti-infective strategies. PURPOSE: This study aimed to elucidate the molecular mechanism by which bilobalide attenuates S. typhimurium virulence, including biofilm formation, motility, and cytotoxicity. Additionally, the study evaluated bilobalide's potential as a QS inhibitor and adjunct to antibiotic therapy. METHODS: Phenotypic assays assessed the effects of bilobalide on S. typhimurium biofilm formation, motility, and cytotoxicity. RNA sequencing (RNA-seq) and RT-qPCR analyses identified differentially expressed genes after bilobalide treatment. Microscale thermophoresis (MST), molecular docking, and molecular dynamics simulations characterised the interaction between bilobalide and QseB. Electrophoretic mobility shift assays were used to determine whether bilobalide affected QseB-DNA binding. The combined antibacterial effects of bilobalide and antibiotics were evaluated using microdilution assays. In vivo efficacy was tested using a mouse infection model. RESULTS: Bilobalide significantly inhibited biofilm formation, motility, and T3SS gene expression in S. typhimurium without affecting bacterial growth. RNA-seq revealed broad transcriptional changes, including downregulation of virulence-related genes. MST confirmed that bilobalide binds to the REC domain of QseB with high affinity, particularly at residues Leu11 and Phe103. Bilobalide reduced QseB's ability to bind the promoters of luxS and T3SS effectors. In mice, bilobalide treatment alleviated S. typhimurium-induced inflammation, restored intestinal barrier proteins, and enhanced antibiotic efficacy, indicating strong anti-virulence and therapeutic value. CONCLUSION: Bilobalide suppresses S. typhimurium virulence by binding to and inhibiting the response regulator QseB, thereby disrupting quorum sensing and T3SS system. These findings suggest that bilobalide is a promising natural anti-virulence agent and potential compound for developing novel anti-infective therapies.",
+    "keywords": [
+      "Bilobalide",
+      "Quorum sensing",
+      "Salmonella typhimurium",
+      "Virulence"
+    ],
+    "mesh_terms": [
+      "*Salmonella typhimurium/drug effects/pathogenicity",
+      "*Quorum Sensing/drug effects",
+      "Animals",
+      "Virulence/drug effects",
+      "Biofilms/drug effects",
+      "Mice",
+      "*Type III Secretion Systems/drug effects/metabolism",
+      "*Bilobalides/pharmacology",
+      "*Anti-Bacterial Agents/pharmacology",
+      "Molecular Docking Simulation",
+      "Salmonella Infections/drug therapy",
+      "Female",
+      "*Ginkgolides/pharmacology",
+      "Cyclopentanes",
+      "Furans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Rui",
+        "Hui, Haochen",
+        "Zhang, Xinyi",
+        "Song, Yuxin",
+        "Yang, Junge",
+        "Wu, Shijuan",
+        "Peng, Jinyong",
+        "Li, Xia"
+      ],
+      "short_names": [
+        "Wang R",
+        "Hui H",
+        "Zhang X",
+        "Song Y",
+        "Yang J",
+        "Wu S",
+        "Peng J",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China. Electronic address: jinyongpeng2008@126.com.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China. Electronic address: xiali@hbucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Haochen",
+        "short_name": "Hui H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinyi",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yuxin",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Junge",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shijuan",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jinyong",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China. Electronic address: jinyongpeng2008@126.com."
+        ]
+      },
+      {
+        "full_name": "Li, Xia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China; Hubei Shizhen Laboratory, Wuhan 430065, China. Electronic address: xiali@hbucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jul 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:41",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42208101",
+      "39479281",
+      "40044131",
+      "40384051",
+      "41178452",
+      "36377917",
+      "41148435",
+      "41212225",
+      "27721053",
+      "38810547",
+      "39915561",
+      "25085489",
+      "30959097",
+      "28453568",
+      "41301507",
+      "42092640",
+      "31897522",
+      "42119451",
+      "41713282",
+      "19236707",
+      "30476580",
+      "36176578",
+      "38158095",
+      "42049094",
+      "41346364",
+      "36296252",
+      "40824819",
+      "41709304",
+      "41045435",
+      "39165918",
+      "41347504",
+      "33435417",
+      "35453216",
+      "39085766",
+      "33418000",
+      "31767076",
+      "33399891",
+      "30201815",
+      "37513327",
+      "41708876",
+      "35384183",
+      "39893937",
+      "40104940",
+      "38078719",
+      "39015339",
+      "38553372",
+      "32697213",
+      "30410871",
+      "39046206",
+      "29526565",
+      "31654777",
+      "33084565",
+      "42281369",
+      "41075080",
+      "24496791",
+      "40601048",
+      "41823410",
+      "33479520",
+      "40962053",
+      "29259923",
+      "32235775",
+      "29288300",
+      "36361877",
+      "42101705",
+      "39153575",
+      "38990088",
+      "40248926",
+      "29625990",
+      "41490551",
+      "40993527",
+      "38338303",
+      "29868500",
+      "38382626",
+      "41807094",
+      "40087577",
+      "35145491",
+      "38735452",
+      "33932548",
+      "25704369",
+      "41751921",
+      "34006652",
+      "39082861",
+      "37728140",
+      "40660701",
+      "30770405",
+      "40373944",
+      "18791004",
+      "41796762",
+      "17997077",
+      "39415105",
+      "25672848",
+      "40683580",
+      "32298346",
+      "37971550",
+      "41388908",
+      "29571725",
+      "35972277",
+      "33713665",
+      "39971733",
+      "40345347"
+    ],
+    "review": [
+      "42208101",
+      "40248926"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00563-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      }
+    ],
+    "text_mined": []
+  }
+}

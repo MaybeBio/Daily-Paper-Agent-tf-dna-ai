@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "37459525",
+    "doi": "10.1073/pnas.2301402120",
+    "title": "RNA polymerase sliding on DNA can couple the transcription of nearby bacterial operons."
+  },
+  "content": {
+    "abstract": "DNA transcription initiates after an RNA polymerase (RNAP) molecule binds to the promoter of a gene. In bacteria, the canonical picture is that RNAP comes from the cytoplasmic pool of freely diffusing RNAP molecules. Recent experiments suggest the possible existence of a separate pool of polymerases, competent for initiation, which freely slide on the DNA after having terminated one round of transcription. Promoter-dependent transcription reinitiation from this pool of posttermination RNAP may lead to coupled initiation at nearby operons, but it is unclear whether this can occur over the distance and timescales needed for it to function widely on a bacterial genome in vivo. Here, we mathematically model the hypothesized reinitiation mechanism as a diffusion-to-capture process and compute the distances over which significant interoperon coupling can occur and the time required. These quantities depend on molecular association and dissociation rate constants between DNA, RNAP, and the transcription initiation factor sigma(70); we measure these rate constants using single-molecule experiments in vitro. Our combined theory/experimental results demonstrate that efficient coupling can occur at physiologically relevant sigma(70) concentrations and on timescales appropriate for transcript synthesis. Coupling is efficient over terminator-promoter distances up to  approximately 1,000 bp, which includes the majority of terminator-promoter nearest neighbor pairs in the Escherichia coli genome. The results suggest a generalized mechanism that couples the transcription of nearby operons and breaks the paradigm that each binding of RNAP to DNA can produce at most one messenger RNA.",
+    "keywords": [
+      "gene coupling",
+      "posttermination complex",
+      "reaction-diffusion model",
+      "single-molecule fluorescence"
+    ],
+    "mesh_terms": [
+      "*DNA-Directed RNA Polymerases/metabolism",
+      "*DNA/metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Promoter Regions, Genetic",
+      "Operon/genetics",
+      "Transcription, Genetic",
+      "Sigma Factor/genetics",
+      "DNA, Bacterial/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tenenbaum, Debora",
+        "Inlow, Koe",
+        "Friedman, Larry J",
+        "Cai, Anthony",
+        "Gelles, Jeff",
+        "Kondev, Jane"
+      ],
+      "short_names": [
+        "Tenenbaum D",
+        "Inlow K",
+        "Friedman LJ",
+        "Cai A",
+        "Gelles J",
+        "Kondev J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3685-9197",
+        "ORCID: 0000-0002-2535-9613",
+        "ORCID: 0000-0003-4946-8731",
+        "ORCID: 0000-0001-7731-2481",
+        "ORCID: 0000-0001-7910-3421"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+        "Department of Physics, Brandeis University, Waltham, MA 02453.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724.",
+        "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+        "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+        "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+        "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+        "Department of Physics, Brandeis University, Waltham, MA 02453."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tenenbaum, Debora",
+        "short_name": "Tenenbaum D",
+        "identifiers": [
+          "0000-0002-3685-9197"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Brandeis University, Waltham, MA 02453.",
+          "Department of Physics, Brandeis University, Waltham, MA 02453.",
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724."
+        ]
+      },
+      {
+        "full_name": "Inlow, Koe",
+        "short_name": "Inlow K",
+        "identifiers": [
+          "0000-0002-2535-9613"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Brandeis University, Waltham, MA 02453."
+        ]
+      },
+      {
+        "full_name": "Friedman, Larry J",
+        "short_name": "Friedman LJ",
+        "identifiers": [
+          "0000-0003-4946-8731"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Brandeis University, Waltham, MA 02453."
+        ]
+      },
+      {
+        "full_name": "Cai, Anthony",
+        "short_name": "Cai A",
+        "identifiers": [
+          "0000-0001-7731-2481"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Brandeis University, Waltham, MA 02453."
+        ]
+      },
+      {
+        "full_name": "Gelles, Jeff",
+        "short_name": "Gelles J",
+        "identifiers": [
+          "0000-0001-7910-3421"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Brandeis University, Waltham, MA 02453."
+        ]
+      },
+      {
+        "full_name": "Kondev, Jane",
+        "short_name": "Kondev J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Brandeis University, Waltham, MA 02453."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Jul 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/17 19:08",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "41451975",
+      "41025958",
+      "40552809",
+      "39779919",
+      "39011892",
+      "38357902",
+      "37406096",
+      "36993374"
+    ],
+    "refs": [
+      "36631609",
+      "33673662",
+      "33621478",
+      "33616038",
+      "31974358",
+      "31974350",
+      "29742401",
+      "28419102",
+      "28137878",
+      "27498839",
+      "26566078",
+      "26224838",
+      "26032816",
+      "25006232",
+      "25002089",
+      "22723426",
+      "22383849",
+      "22341441",
+      "22235300",
+      "21154668",
+      "20308592",
+      "19898474",
+      "18714358",
+      "18179692",
+      "18025254",
+      "16585517",
+      "16567622",
+      "16360033",
+      "15999435",
+      "15229555",
+      "15173112",
+      "10982868",
+      "10689350",
+      "10588699",
+      "9830052",
+      "8626061",
+      "8106319",
+      "4894964",
+      "4882047",
+      "2823250",
+      "2459392",
+      "782516"
+    ],
+    "similar": [
+      "37459525",
+      "36798213",
+      "31974350",
+      "25311862",
+      "33673662",
+      "15596728",
+      "38170755",
+      "18333883",
+      "33040723",
+      "21316374",
+      "29581236",
+      "10891265",
+      "31974358",
+      "30843055",
+      "33573428",
+      "28005933",
+      "26483469",
+      "30321408",
+      "26733675",
+      "14597619",
+      "29932903",
+      "32039758",
+      "8866483",
+      "38692564",
+      "10873447",
+      "9236116",
+      "19076234",
+      "20595001",
+      "8423142",
+      "15470504",
+      "34863780",
+      "14630944",
+      "22664971",
+      "23087380",
+      "11397080",
+      "17158328",
+      "28434996",
+      "26365052",
+      "17157257",
+      "29101286",
+      "23116321",
+      "22098235",
+      "34290140",
+      "12424241",
+      "18287032",
+      "7751267",
+      "17055433",
+      "35357162",
+      "19854830",
+      "14988563",
+      "15122346",
+      "18005983",
+      "23855603",
+      "10512846",
+      "26546673",
+      "36264101",
+      "21525530",
+      "22605342",
+      "16285918",
+      "21371479",
+      "30720429",
+      "11525730",
+      "21419241",
+      "28507241",
+      "15761057",
+      "27618490",
+      "37238608",
+      "1560455",
+      "34633286",
+      "33380428",
+      "27452766",
+      "7599136",
+      "16876197",
+      "9601026",
+      "16601684",
+      "9512707",
+      "8604129",
+      "37036976",
+      "11162085",
+      "27928053",
+      "28470684",
+      "16285916",
+      "32750314",
+      "14982625",
+      "28539362",
+      "9144176",
+      "28117604",
+      "38533838",
+      "20952386",
+      "34314299",
+      "8619994",
+      "26631966",
+      "35819191",
+      "23720315",
+      "39028516",
+      "23511241",
+      "19139410",
+      "15470503"
+    ],
+    "review": [
+      "37459525",
+      "23855603",
+      "21419241",
+      "28470684",
+      "16285916",
+      "28117604"
+    ],
+    "pmc": [
+      "10372574"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2301402120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10896",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "rpoD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37459525/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37459525",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37459525",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

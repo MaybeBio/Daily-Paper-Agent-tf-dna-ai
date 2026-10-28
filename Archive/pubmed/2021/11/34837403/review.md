@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors used multiple computational tools to identify single nucleotide polymorphisms (SNPs) in the MSH2 gene that may alter the structure and function of the MSH2 protein, potentially affecting its interaction with MSH6 and contributing to cancer predisposition. They report 27 SNPs and 5 double amino acid change SNPs, with 6 SNPs affecting MSH2-MSH6 interaction and 12 SNPs linked to hereditary nonpolyposis colorectal cancer and Lynch syndrome.
+- **Visible evidence base** Abstract text only; no detailed results, statistical outputs, or methodological specifics are provided
+- **Missing materials affecting confidence** Full methods, detailed results with numerical values, figures, tables, supplementary data, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational pipeline for SNP prioritization in MSH2, but the evidence provided is insufficient to evaluate the robustness, novelty, or biological significance of the findings. The claims are largely descriptive and lack quantitative support. The study may be of interest to researchers in cancer genetics and computational biology, but the current abstract does not establish a strong case for the conclusions.
+- **Who would be interested in the results, and why** Researchers studying DNA mismatch repair mechanisms, cancer genetics, and computational prediction of pathogenic variants. The identification of specific SNPs in MSH2 could inform future functional studies and potentially contribute to cancer risk assessment, though this remains speculative without experimental validation.
+- **Major strengths** The use of multiple complementary computational tools for SNP prediction is a reasonable approach to reduce false positives. The focus on the MSH2-MSH6 interaction domain is biologically relevant, as this interaction is critical for mismatch repair function.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that 27 SNPs and 5 double amino acid change SNPs were identified based on a consensus approach that might be associated with structural and functional changes in MSH2.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the criteria for consensus among the four prediction tools, nor does it provide any quantitative thresholds or statistical measures supporting the selection of these 27 SNPs. Without this information, the reliability of the SNP prioritization cannot be assessed.  
+  - **Why it matters** The core conclusion depends on the validity of the consensus approach. If the criteria are arbitrary or overly permissive, the list of candidate SNPs may be unreliable, undermining the entire study.  
+  - **Resolution test** Provide a clear description of the consensus criteria, including thresholds for each tool, and demonstrate that the selected SNPs are robust to variations in these criteria.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that molecular docking reveals six SNPs affect the interaction of MSH2 and MSH6.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on the docking methodology, scoring functions, or criteria used to define an "affected" interaction. The abstract does not report any binding affinity changes or structural metrics, making it impossible to evaluate the significance of these six SNPs.  
+  - **Why it matters** The interaction between MSH2 and MSH6 is central to the proposed functional impact. Without quantitative docking results, the claim that these SNPs affect the interaction is unsupported.  
+  - **Resolution test** Report docking scores, binding free energy changes, or interaction interface analyses for the six SNPs compared to the wild-type protein, with appropriate statistical or threshold-based justification.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that twelve identified SNPs were reported to be linked with hereditary nonpolyposis, colorectal cancer, and Lynch syndrome.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the source of these reported links, such as databases, literature, or prior experimental studies. It is unclear whether these SNPs are already known pathogenic variants or novel findings.  
+  - **Why it matters** If these SNPs are already established in the literature, the novelty of the study is diminished. If they are novel, the claim requires supporting evidence from external sources.  
+  - **Resolution test** Provide citations or database references for each of the twelve SNPs and clarify whether they are previously known or newly identified in this study.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The abstract implies that the study identifies SNPs in MSH2 associated with structural and functional changes leading to cancer.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not state how this work differs from prior computational studies on MSH2 SNPs. Without a comparison to existing literature, the novelty of the approach or findings is unclear.  
+  - **Why it matters** For a computational study, novelty is a key criterion. If similar analyses have been published, the contribution of this work needs to be clearly articulated.  
+  - **Resolution test** Include a brief statement in the abstract or full text comparing the findings and methods to prior studies on MSH2 SNP prediction.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract uses technical terms such as "root mean square deviation" and "homology modeling" without brief explanations, which may hinder readability for readers outside computational biology.  
+  - **Required correction** Add a brief parenthetical explanation for these terms or rephrase to make the methods more accessible.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Stability prediction tools  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract mentions I-mutant and MUPro for stability estimation but does not report any stability-related results or how these predictions influenced SNP selection.  
+  - **Required correction** Clarify the role of stability predictions in the overall analysis and report relevant outcomes, or state that they were used for filtering without significant impact.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Validation statement  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The final sentence states that selected SNPs need to be validated in vitro, but this is a generic caveat. It does not specify which SNPs are prioritized for validation or why.  
+  - **Required correction** Specify the number and identity of SNPs recommended for validation and the rationale for their selection.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail and quantitative results prevents assessment of the core claims.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not established. The abstract does not demonstrate how this work advances beyond existing computational SNP prediction studies.  
+  - **Scientific importance** Moderate potential. The focus on MSH2-MSH6 interaction is relevant, but the significance is diluted by the absence of novel or validated findings.  
+  - **Interdisciplinary readership** Limited. The abstract is likely to appeal mainly to computational biologists and cancer geneticists, but the lack of context reduces broader appeal.  
+  - **Technical soundness** Not assessable. The methods are described only at a high level, and no quantitative results are provided.  
+  - **Readability for nonspecialists** Acceptable but could be improved with brief explanations of key computational terms.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible computational workflow, but the lack of methodological detail, quantitative results, and clear novelty means the case for the findings is not supported. The authors should provide full methods and results to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that 27 SNPs and 5 double amino acid change SNPs are associated with structural and functional changes is unsupported without consensus criteria and quantitative metrics.
+- The claim that six SNPs affect MSH2-MSH6 interaction is unsupported without docking scores or interaction analysis details.
+- The claim that twelve SNPs are linked to hereditary nonpolyposis, colorectal cancer, and Lynch syndrome is unverifiable without citations or database references.
+- The overall implication that these SNPs may lead to cancer predisposition is speculative and not supported by the abstract alone.

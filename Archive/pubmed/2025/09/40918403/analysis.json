@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40918403",
+  "title": "Identification of Endoplasmic Reticulum Stress-Related Genes in Osteoporosis Pathogenesis.",
+  "authors": "Zhu, Yiren; Yang, Xiu; Lu, Yunan; He, Jiayu; Liu, Bo; Zhang, Yongfa; Zhang, Zhengchao",
+  "journal": "Mediators of inflammation",
+  "published_date": "2025-09-08",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过转录组数据挖掘骨质疏松症中内质网应激相关基因并构建诊断模型，虽涉及TF调控网络但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Background: Osteoporosis is a prevalent metabolic bone disorder with complex molecular underpinnings. Emerging evidence implicates endoplasmic reticulum stress (ERS) in its pathogenesis; however, systematic exploration of ERS-related genes (ERSRGs) remains limited. This study aimed to identify ERS-related differentially expressed genes (ERSRDEGs) in osteoporosis, construct a diagnostic model, and elucidate associated molecular mechanisms. Methods: Three osteoporosis datasets (GSE56815, GSE230665, and GSE7429) were integrated after batch effect correction and normalization. ERSRGs were curated from GeneCards, and ERSRDEGs were identified by intersecting co-differentially expressed genes (Co-DEGs) across datasets. Functional enrichment (gene set enrichment analysis [GSEA], gene set variation analysis [GSVA], Gene Ontology [GO], and Kyoto Encyclopedia of Genes and Genomes [KEGG]) and immune infiltration analyses were performed. Diagnostic models were developed using support vector machine (SVM) and least absolute shrinkage and selection operator (LASSO) regression, validated via receiver operating characteristic (ROC) curves, nomograms, and decision curve analysis. Experimental validation included immunohistochemistry and quantitative reverse transcription polymerase chain reaction (qRT-PCR) in ovariectomized (OVX) mice. Regulatory networks (TF-miRNA-RBP-drug) and protein structure predictions were generated using bioinformatic tools. Results: Fifty six ERSRDEGs were identified, enriched in apoptosis, autophagy, and cytokine signaling pathways. A diagnostic model comprising seven genes (CYB5R4, RAB1B, UFSP2, RNF13, SERP1, CES2, and C1QBP) demonstrated high accuracy (area under the curve (AUC) > 0.9) in both training and validation datasets. Immune infiltration analysis revealed distinct patterns of activated B cells, CD8(+) T cells, and macrophages between high- and low-risk groups. Regulatory networks highlighted interactions with 52 transcription factors (TFs), 42 miRNAs, and 27 therapeutic compounds. Experimental validation in OVX mice confirmed upregulated expression of C1QBP, CYB5R4, RAB1B, and UFSP2 at protein/mRNA levels, aligning with bioinformatic predictions. Conclusions: This study establishes ERSRDEGs as critical players in osteoporosis pathogenesis and provides a clinically translatable seven-gene diagnostic model for early osteoporosis detection. The integration of multiomics analyses uncovered key pathways, immune dynamics, and regulatory networks, while experimental validation reinforced the role of specific ERSRGs. These findings provide novel insights into ERS-mediated mechanisms and therapeutic targets for osteoporosis management.",
+  "abstract_zh": "背景：骨质疏松症是一种常见的代谢性骨病，具有复杂的分子基础。新近证据表明内质网应激（ERS）在其发病机制中发挥作用；然而，对ERS相关基因（ERSRGs）的系统性探索仍有限。本研究旨在识别骨质疏松症中ERS相关的差异表达基因（ERSRDEGs），构建诊断模型，并阐明相关分子机制。方法：在批次效应校正和标准化后，整合了三个骨质疏松症数据集（GSE56815、GSE230665和GSE7429）。ERSRGs从GeneCards中筛选，并通过跨数据集交集共差异表达基因（Co-DEGs）识别ERSRDEGs。进行了功能富集分析（基因集富集分析 [GSEA]、基因集变异分析 [GSVA]、基因本体论 [GO] 和京都基因与基因组百科全书 [KEGG]）以及免疫浸润分析。使用支持向量机（SVM）和最小绝对收缩与选择算子（LASSO）回归开发诊断模型，并通过受试者工作特征（ROC）曲线、列线图和决策曲线分析进行验证。实验验证包括在去卵巢（OVX）小鼠中进行免疫组织化学和定量逆转录聚合酶链反应（qRT-PCR）。使用生物信息学工具生成调控网络（TF-miRNA-RBP-药物）和蛋白质结构预测。结果：识别出56个ERSRDEGs，富集于凋亡、自噬和细胞因子信号通路。由七个基因（CYB5R4、RAB1B、UFSP2、RNF13、SERP1、CES2和C1QBP）组成的诊断模型在训练和验证数据集中均表现出高准确性（曲线下面积 (AUC) > 0.9）。免疫浸润分析揭示了高风险组和低风险组之间活化B细胞、CD8(+) T细胞和巨噬细胞的显著差异模式。调控网络突出了与52个转录因子（TFs）、42个miRNAs和27种治疗化合物的相互作用。在OVX小鼠中的实验验证确认了C1QBP、CYB5R4、RAB1B和UFSP2在蛋白/mRNA水平上的上调表达，与生物信息学预测一致。结论：本研究确立了ERSRDEGs在骨质疏松症发病机制中的关键作用，并为早期骨质疏松症检测提供了临床可转化的七基因诊断模型。多组学分析的整合揭示了关键通路、免疫动态和调控网络，而实验验证强化了特定ERSRGs的作用。这些发现为ERS介导的机制和骨质疏松症管理的治疗靶点提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40918403/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40918403/",
+  "paper_page_path": "papers/pubmed/40918403/index.html"
+}

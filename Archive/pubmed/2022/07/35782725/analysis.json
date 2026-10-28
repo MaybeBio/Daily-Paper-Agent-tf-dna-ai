@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35782725",
+  "title": "DESSO-DB: A web database for sequence and shape motif analyses and identification.",
+  "authors": "Wang, Xiaoying; Wang, Cankun; Li, Lang; Ma, Qin; Ma, Anjun; Liu, Bingqiang",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-07-06",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍了一个基于深度学习DESSO的TF-DNA基序预测结果数据库，提供序列和形状基序分析与在线扫描功能，虽非方法创新但为TF-DNA结合位点预测提供了可用的数据资源与工具平台。",
+  "abstract": "Cis-regulatory motif (motif for short) identification and analyses are essential steps in detecting gene regulatory mechanisms. Deep learning (DL) models have shown substantial advances in motif prediction. In parallel, intuitive and integrative web databases are needed to make effective use of DL models and ensure easy access to the identified motifs. Here, we present DESSO-DB, a web database developed to allow efficient access to the identified motifs and diverse motif analyses. DESSO-DB provides motif prediction results and visualizations of 690 ENCODE human Chromatin Immunoprecipitation sequencing (ChIP-seq) data (including 161 transcription factors (TFs) in 91 cell lines) and 1,677 human ChIP-seq data (including 547 TFs in 359 cell lines) from Cistrome DB using DESSO, which is an in-house developed DL tool for motif prediction. It also provides online motif finding and scanning functions for new ChIP-seq/ATAC-seq datasets and downloadable motif results of the above 690 DECODE datasets, 126 cancer ChIP-seq, 55 RNA Crosslinking-Immunoprecipitation and high-throughput sequencing (CLIP-seq) data. DESSO-DB is deployed on the Google Cloud Platform, providing stabilized and efficient resources freely to the public. DESSO-DB is free and available at http://cloud.osubmi.com/DESSO/.",
+  "abstract_zh": "顺式调控基序（motif）的识别与分析是检测基因调控机制的关键步骤。深度学习（DL）模型在基序预测方面已展现出显著进展。同时，需要直观且综合的网络数据库，以有效利用DL模型并确保便捷访问所识别的基序。在此，我们介绍DESSO-DB，这是一个旨在高效访问已识别基序及进行多种基序分析的网络数据库。DESSO-DB利用DESSO（一种内部开发的用于基序预测的DL工具），提供了690个ENCODE人类染色质免疫沉淀测序（ChIP-seq）数据（包括91个细胞系中的161个转录因子（TFs））和来自Cistrome DB的1,677个人类ChIP-seq数据（包括359个细胞系中的547个TFs）的基序预测结果及可视化。它还提供了针对新ChIP-seq/ATAC-seq数据集的在线基序查找和扫描功能，以及上述690个DECODE数据集、126个癌症ChIP-seq、55个RNA交联免疫沉淀和高通量测序（CLIP-seq）数据的可下载基序结果。DESSO-DB部署在谷歌云平台上，向公众免费提供稳定且高效的资源。DESSO-DB免费可用，访问地址为http://cloud.osubmi.com/DESSO/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35782725/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35782725/",
+  "paper_page_path": "papers/pubmed/35782725/index.html"
+}

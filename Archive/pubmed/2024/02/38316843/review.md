@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided text. No supplementary files, figures beyond those referenced, or external data were available for inspection.
+- **Shared manuscript claim summary** The authors propose Deep-WET, a deep learning method combining three word embedding features (GloVe, Word2Vec, fastText) with differential evolution-based weighting and SHAP-based feature selection, followed by a CNN classifier, for predicting DNA-binding proteins from sequence data. They report superior performance over conventional ML classifiers and existing methods on independent test data.
+- **Visible evidence base** Tables 2-8 (performance metrics), Figures 1-7 (referenced but not viewable), and textual descriptions of experimental results.
+- **Missing materials affecting confidence** Actual figures (1-7) were not provided; supplementary data, hyperparameter tuning details, dataset composition beyond reference to prior work, and code availability were not verifiable. The web server URLs are inconsistent across the manuscript.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics with a plausible combination of established techniques. However, the novelty is incremental, and several methodological details are insufficiently described to assess reproducibility. The performance gains over existing methods are modest, and the comparison methodology raises concerns about fairness and statistical significance. The writing contains numerous errors and inconsistencies that detract from clarity. The case for scientific importance and broad interest is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, particularly those developing machine learning methods for DNA-binding protein identification. The combination of word embeddings with optimization and feature selection may interest method developers, though the techniques themselves are not new.
+- **Major strengths**
+  - Addresses a practically important problem with potential applications in drug discovery and genome annotation.
+  - Combines multiple established techniques (word embeddings, DE, SHAP, CNN) in a systematic pipeline.
+  - Provides a web server for community use, enhancing accessibility.
+  - Includes comparison with multiple existing methods on an independent test set.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The claim that Deep-WET achieves "superior predictive performance" and "outperformed several state-of-the-art methods" is central to the manuscript.
+  - **Evidence pointer** Tables 7-8, Section "Comparison of Deep-WET with the state-of-the-art methods"
+  - **Concern** The comparison with existing methods is potentially unfair. The authors state that predictions from existing methods were obtained by submitting sequences to their web servers, but Deep-WET was trained and optimized on the same dataset family. This creates a training advantage. Additionally, no statistical significance testing (e.g., DeLong test for AUC differences, McNemar's test) is reported. The performance differences, while numerically higher, may not be statistically robust given the modest sample sizes.
+  - **Why it matters** Without fair comparison and statistical validation, the central claim of superiority cannot be substantiated. This undermines the primary contribution of the manuscript.
+  - **Resolution test** Provide a comparison where all methods are evaluated under identical conditions (e.g., same cross-validation folds, same training data). Report confidence intervals or p-values for performance differences. If possible, include a baseline where existing methods are retrained on the same training data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims a complete methodology for Deep-WET, including feature extraction, weighting, selection, and classification.
+  - **Evidence pointer** Sections "Feature encodings", "Weight learning for weighted features", "SHAP-based feature selection scheme", "Experimental setup and packages"
+  - **Concern** Critical implementation details are missing. The word embedding training procedure is not described (e.g., corpus used, embedding dimension, window size, training epochs). The DE algorithm's fitness function is not defined. The SHAP feature selection threshold or criterion for selecting the "optimal" number of features is not specified. The CNN architecture is only partially described (number of layers, filters, kernel sizes are given, but padding, stride, pooling type, and fully connected layer sizes are not fully specified). The dataset split procedure (random vs. stratified) is not described.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publication. Without these details, other researchers cannot implement or validate the method, limiting its utility and the manuscript's contribution to the field.
+  - **Resolution test** Provide a detailed description of all algorithmic components, including hyperparameter search ranges and final values, embedding training details, DE fitness function, and SHAP selection criterion. Consider releasing code and trained models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data and evaluation rigor
+  - **Claim pointer** The manuscript claims the curated dataset is "reliable, comprehensive, and stringent" and that results are robust.
+  - **Evidence pointer** Section "Data preparation", Tables 2-8
+  - **Concern** The dataset is adopted from a prior study (Jun Hu et al.) without independent validation of its quality or composition. The manuscript does not report the sequence length distribution, the degree of sequence similarity within and between positive/negative sets (beyond the CD-HIT threshold), or potential biases. The evaluation relies solely on accuracy, sensitivity, specificity, MCC, precision, and F1, but no analysis of error patterns or difficult cases is provided. The AUC values reported (e.g., 0.883) are moderate, and the practical utility of the method for large-scale screening is not discussed.
+  - **Why it matters** The reliability of the dataset directly affects the validity of all reported results. Without understanding dataset characteristics and limitations, readers cannot assess the generalizability of Deep-WET to other protein datasets.
+  - **Resolution test** Provide a detailed characterization of the dataset, including sequence statistics, similarity analysis, and potential biases. Discuss the practical implications of the achieved performance levels, including error analysis and limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clarity and consistency
+  - **Claim pointer** The manuscript claims to present a coherent and complete description of Deep-WET.
+  - **Evidence pointer** Throughout the manuscript
+  - **Concern** The manuscript contains numerous writing errors, inconsistencies, and unclear statements. Examples include: "the the" (Data preparation), "Weighteds features archive higher prediction performances" (Results), "termes" (Results), inconsistent web server URLs (deepwet-dna.monarcatechnical.com vs deepwet-dna.000webhostapp.com vs deepwet-dna.royalit.agency), and a conclusion section that introduces unrelated topics (cell death, drug recommendation) without prior context. The description of the SHAP methodology is confusing, and the ablation study results are presented without statistical context.
+  - **Why it matters** Poor writing and inconsistencies undermine the credibility of the work and make it difficult for readers to follow the methodology and results. The conclusion section, in particular, introduces claims that are not supported by the presented work.
+  - **Resolution test** Thoroughly revise the manuscript for language and consistency. Remove or substantially revise the unrelated content in the conclusion. Ensure all web server URLs are consistent and functional.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "accuracy of 78.08%, MCC of 0.559, and AUC of 0.805" but does not specify which dataset or comparison these values refer to. The abstract also does not mention the SHAP feature selection component, which is a key contribution.
+  - **Required correction** Clarify the context of the reported metrics and include SHAP in the abstract's description of the method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Section "Weight learning for weighted features"
+  - **Evidence pointer** Section "Weight learning for weighted features"
+  - **Issue** The DE algorithm description is incomplete. The fitness function used to evaluate candidate weight vectors is not defined. The relationship between the DE-learned weights and the subsequent SHAP feature selection is unclear.
+  - **Required correction** Define the fitness function explicitly and clarify the interaction between DE weighting and SHAP selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Evaluation
+  - **Affected element** Section "Performance comparison of different feature encodings"
+  - **Evidence pointer** Table 2
+  - **Issue** The text states "the performance the combination of GloVe, fastText and Word2Vec is better than those of other three weighted features" but the table shows only one combined feature row. The claim about "other three weighted features" is unclear.
+  - **Required correction** Clarify which weighted feature combinations were tested and present all results in the table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section "Web server, data and software availability"
+  - **Evidence pointer** Section "Web server, data and software availability"
+  - **Issue** The web server URL is inconsistent with the abstract and introduction. The data availability statement is vague and does not specify where the datasets can be downloaded.
+  - **Required correction** Provide a single, consistent web server URL and a clear data availability statement with a permanent repository link.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites many prior methods but does not clearly position Deep-WET relative to the most recent deep learning-based approaches for DBP prediction. The novelty claim is not well articulated.
+  - **Required correction** Strengthen the introduction by explicitly stating what is new about Deep-WET compared to recent deep learning methods, and cite the most current literature.
+
+## Risk / unsupported claims
+- The claim of "superior predictive performance" over state-of-the-art methods is not statistically substantiated and may be confounded by training advantages.
+- The claim that SHAP-based feature selection "improves" performance is not rigorously demonstrated; the comparison in Table 3 lacks statistical testing.
+- The ablation study claims that each component contributes to performance, but the differences (0.085%-0.165% in AUC) are extremely small and may not be meaningful without variance estimates.
+- The conclusion's statements about cell death classification and drug recommendation are entirely unsupported by the presented work.
+- The claim that the dataset is "reliable, comprehensive, and stringent" is adopted from prior work and not independently verified.
+- The web server functionality and availability cannot be verified from the provided text, and the inconsistent URLs raise concerns about its reliability.

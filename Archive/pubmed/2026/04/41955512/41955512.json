@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "41955512",
+    "doi": "10.1002/advs.202516332",
+    "title": "Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model."
+  },
+  "content": {
+    "abstract": "Accurate prediction of variant functional impact is crucial for understanding human diseases, particularly for cancer-related genes such as TP53. Advances in high-throughput mutational assays have enhanced variant effect prediction (VEP), but missense classification remains challenging due to the limitations of broad, non-gene-specific models. Here we present CaVepP53, a TP53-specific predictor fine-tuned on perturbation-based experimental variants. The model not only classifies mutations but also quantifies their pathogenicity by calculating Euclidean distances between the wild-type and mutant embeddings and deriving confidence scores through logistic transformation. Benchmarking demonstrates that CaVepP53 significantly outperforms general-purpose models, such as AlphaMissense (AM) and PrimateAI-3D, achieving higher accuracy, precision, and F1-score in predicting pathogenic mutations. Competitive growth assay validation of 22 mutations further confirms CaVepP53's robustness, including 7 functional novel variants absent in the ClinVar database. Thus, by integrating protein language models with experimentally validated functional data, our approach enables accurate, interpretable VEP for TP53, overcoming limitations of predictors trained solely on evolutionary or clinical associations. We further extended this framework to five additional cancer-related genes (VHL, ATM, BRCA1, RAD51C, and BAP1), establishing a generalizable framework for gene-specific VEP with potential applications in precision medicine.",
+    "keywords": [
+      "TP53",
+      "causal",
+      "pathogenic mutations",
+      "perturbation",
+      "protein language models",
+      "variant effect prediction"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics",
+      "Humans",
+      "*Mutation/genetics",
+      "*Neoplasms/genetics",
+      "Prediction Algorithms",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Huiying",
+        "Zhao, Yang",
+        "Hu, Boqiang",
+        "Wang, Wuke",
+        "Song, Minfang",
+        "Zhao, Annabeth Xinyu",
+        "Li, Xiangyang",
+        "Wang, Gefei",
+        "Wang, Yanfen",
+        "Zheng, Weiyan",
+        "Zhang, Xinpeng",
+        "Lin, Xia",
+        "Yin, Yanbin",
+        "Huang, Xingxu",
+        "Zheng, Jinfang",
+        "Liang, Tingbo"
+      ],
+      "short_names": [
+        "Chen H",
+        "Zhao Y",
+        "Hu B",
+        "Wang W",
+        "Song M",
+        "Zhao AX",
+        "Li X",
+        "Wang G",
+        "Wang Y",
+        "Zheng W",
+        "Zhang X",
+        "Lin X",
+        "Yin Y",
+        "Huang X",
+        "Zheng J",
+        "Liang T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8934-1247"
+      ],
+      "affiliations": [
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China.",
+        "College of Science & Medicine, The Australian National University, Canberra, Australia.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Bone Marrow Transplantation Center, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China.",
+        "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Huiying",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yang",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Boqiang",
+        "short_name": "Hu B",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wuke",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Song, Minfang",
+        "short_name": "Song M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Annabeth Xinyu",
+        "short_name": "Zhao AX",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science & Medicine, The Australian National University, Canberra, Australia."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangyang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Gefei",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanfen",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Weiyan",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinpeng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Xia",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yanbin",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Xingxu",
+        "short_name": "Huang X",
+        "identifiers": [
+          "0000-0001-8934-1247"
+        ],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jinfang",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Tingbo",
+        "short_name": "Liang T",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 18:31",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40580951",
+      "39818825",
+      "39774325",
+      "39299233",
+      "39232149",
+      "39178831",
+      "38992748",
+      "38969834",
+      "38969833",
+      "38769064",
+      "38729160",
+      "38211594",
+      "38057664",
+      "37733863",
+      "37563329",
+      "37262156",
+      "36702895",
+      "35190686",
+      "35058622",
+      "34707284",
+      "33219223",
+      "32596782",
+      "32461654",
+      "32351707",
+      "31114901",
+      "31021262",
+      "30209399",
+      "26414678",
+      "25075907",
+      "14704432"
+    ],
+    "similar": [
+      "41955512",
+      "42199731",
+      "42177353",
+      "40233742",
+      "42475469",
+      "35043155",
+      "30840781",
+      "40570257",
+      "29069390",
+      "42553427",
+      "42398071",
+      "42327342",
+      "41867208",
+      "41492285",
+      "40264194",
+      "40696762",
+      "37201251",
+      "39440667",
+      "39676521",
+      "29775997",
+      "41840222",
+      "41797047",
+      "30224644",
+      "39708841",
+      "32927274",
+      "42157253",
+      "39256852",
+      "38584172",
+      "41263939",
+      "24884479",
+      "41980118",
+      "33051313",
+      "36604691",
+      "42309794",
+      "39780207",
+      "42045441",
+      "41632843",
+      "39096911",
+      "24687952",
+      "41508098",
+      "39389016",
+      "30048458",
+      "33230179",
+      "24374933",
+      "42055234",
+      "42275441",
+      "29696732",
+      "39987793",
+      "17311302",
+      "41021316",
+      "40120803",
+      "37563329",
+      "40251830",
+      "40233743",
+      "30535581",
+      "41166276",
+      "34793697",
+      "39430403",
+      "31131967",
+      "36246618",
+      "41331090",
+      "41580070",
+      "42574509",
+      "42565475",
+      "25108461",
+      "39869148",
+      "30474112",
+      "20572016",
+      "37273678",
+      "37335020",
+      "34273903",
+      "32367667",
+      "27880943",
+      "27189670",
+      "41959429",
+      "32000721",
+      "30720243",
+      "32938008",
+      "32281771",
+      "40021654",
+      "41781977",
+      "32101536",
+      "39128337",
+      "37550700",
+      "19336573",
+      "39761285",
+      "41751629",
+      "38555766",
+      "39774325",
+      "34938415",
+      "30060008",
+      "41009698",
+      "34709361",
+      "37961354",
+      "30416077",
+      "17935148",
+      "42316276",
+      "34325986",
+      "41749372",
+      "41843532"
+    ],
+    "review": [
+      "41955512",
+      "39987793"
+    ],
+    "pmc": [
+      "13285122"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41955512/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ATM-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "36736650",
+    "doi": "10.1016/j.expneurol.2023.114345",
+    "title": "Single-cell transcriptomics-based multidisease analysis revealing the molecular dynamics of retinal neurovascular units under inflammatory and hypoxic conditions."
+  },
+  "content": {
+    "abstract": "The retinal neurovascular unit (NVU) is paramount to maintaining the homeostasis of the retina and determines the progression of various diseases, including diabetic retinopathy (DR), glaucoma, and retinopathy of prematurity (ROP). Although some studies have investigated these diseases, a combined analysis of disease-wide etiology in the NUV at the single-cell level is lacking. Herein, we constructed an atlas of the NVU under inflammatory and hypoxic conditions by integrating single-cell transcriptome data from retinas from wild-type, AireKO, and NdpKO mice. Based on the heterogeneity of the NVU structure and transcriptome diversity under normal and pathological conditions, we discovered two subpopulations of Muller cells: Aqp4(hi) and Aqp4(lo) cells. Specifically, Aqp4(lo) cells expresses phototransduction genes and represent a special type of Muller cell distinct from Aqp4(hi) cells, classical Muller cells. AireKO mice exhibit experimental autoimmune uveitis (EAU) with severe damage to the NVU structure, mainly degeneration of Aqp4(hi) cells. NdpKO mice exhibited familial exudative vitreoretinopathy (FEVR), with damage to the endothelial barrier, endothelial cell tight junction destruction and basement membrane thickening, accompanied by the reactive secretion of proangiogenic factors by Aqp4(hi) cells. In both EAU and FEVR, Aqp4(hi) cells are a key factor leading to NVU damage, and the mechanism by which they are generated is regulated by different transcription factors. By studying the pattern of immune cell infiltration in AireKO mice, we constructed a regulatory loop of \"inflammatory cells/NVU - monocytes - APCs - Ifng(+) T cells\", providing a new target for blocking the inflammatory cascade. Our elucidation of the cell-specific molecular changes, cell-cell interactions and transcriptional mechanisms of the retinal NVU provides new insights to support the development of multipurpose drugs to block or even reverse NVU damage.",
+    "keywords": [
+      "Bioinformatics",
+      "Experimental autoimmune uveitis",
+      "Familial exudative vitreoretinopathy",
+      "Muller cells",
+      "Retinal neurovascular unit",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Molecular Dynamics Simulation",
+      "Transcriptome",
+      "Aquaporin 4/metabolism",
+      "Retina/metabolism",
+      "*Diabetic Retinopathy/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yuxi",
+        "Yang, Xiongyi",
+        "Deng, Xiaoqing",
+        "Yang, Siyu",
+        "Li, Qiumo",
+        "Xie, Zhuohang",
+        "Hong, Libing",
+        "Cao, Mingzhe",
+        "Yi, Guoguo",
+        "Fu, Min"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Yang X",
+        "Deng X",
+        "Yang S",
+        "Li Q",
+        "Xie Z",
+        "Hong L",
+        "Cao M",
+        "Yi G",
+        "Fu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Department of Ophthalmology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, PR China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China.",
+        "Department of Ophthalmology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, PR China. Electronic address: caomzh7@mail.sysu.edu.cn.",
+        "Department of Ophthalmology, The Sixth Affiliated Hospital, Sun Yat-Sen University, No. 26, Erheng Road, Yuancun, Tianhe, Guangzhou, Guangdong, PR China. Electronic address: yigg@mail.sysu.edu.cn.",
+        "Department of Ophthalmology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China. Electronic address: min_fu1212@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yuxi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiongyi",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xiaoqing",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Siyu",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Qiumo",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Xie, Zhuohang",
+        "short_name": "Xie Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Hong, Libing",
+        "short_name": "Hong L",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, PR China; The Second Clinical School, Southern Medical University, Guangzhou, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Cao, Mingzhe",
+        "short_name": "Cao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, PR China. Electronic address: caomzh7@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yi, Guoguo",
+        "short_name": "Yi G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Sixth Affiliated Hospital, Sun Yat-Sen University, No. 26, Erheng Road, Yuancun, Tianhe, Guangzhou, Guangdong, PR China. Electronic address: yigg@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Min",
+        "short_name": "Fu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China. Electronic address: min_fu1212@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental neurology"
+    ],
+    "journal_abbrev": [
+      "Exp Neurol"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/04 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42724764",
+      "42426189",
+      "41868245",
+      "40597858",
+      "38698486"
+    ],
+    "refs": [],
+    "similar": [
+      "36736650",
+      "35172268",
+      "20383338",
+      "32734440",
+      "35536323",
+      "32230876",
+      "28303331",
+      "35841597",
+      "27018215",
+      "22449442",
+      "36864557",
+      "34263427",
+      "21305615",
+      "19809515",
+      "32376470",
+      "19596320",
+      "34737754",
+      "27765056",
+      "34934080",
+      "21672350",
+      "36533134",
+      "16186376",
+      "28940930",
+      "30988181",
+      "31190144",
+      "21360191",
+      "26087356",
+      "24952278",
+      "23376836",
+      "39375240",
+      "32830348",
+      "30711604",
+      "22138430",
+      "34230991",
+      "28720143",
+      "24368741",
+      "31374325",
+      "28159978",
+      "27191611",
+      "30612139",
+      "15557457",
+      "36062157",
+      "18836575",
+      "27438827",
+      "20544823",
+      "22749846",
+      "34646826",
+      "34006945",
+      "34923749",
+      "22886979",
+      "21724913",
+      "16206160",
+      "36286494",
+      "18286645",
+      "24910902",
+      "28351645",
+      "22987438",
+      "22355244",
+      "17525153",
+      "33674409",
+      "35752654",
+      "36201050",
+      "32714074",
+      "33683746",
+      "11818406",
+      "29402864",
+      "37172821",
+      "17566653",
+      "32178707",
+      "33975909",
+      "22053184",
+      "36620436",
+      "25342612",
+      "28402976",
+      "25271989",
+      "27726111",
+      "30985749",
+      "24703908",
+      "26285902",
+      "34364890",
+      "27503347",
+      "34023779",
+      "18334967",
+      "31327157",
+      "35456999",
+      "33150254",
+      "19748503",
+      "27940915",
+      "17356517",
+      "31371497",
+      "27107718",
+      "34440511",
+      "34869314"
+    ],
+    "review": [
+      "36736650",
+      "36864557",
+      "34737754",
+      "39375240",
+      "34230991",
+      "34646826",
+      "34923749",
+      "37172821",
+      "33150254"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-4886(23)00029-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabeticeyeproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Eye Problems"
+      },
+      {
+        "url": "https://www.ovid.com/36736650.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

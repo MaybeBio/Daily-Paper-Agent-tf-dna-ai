@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce a Holographic Convolutional Neural Network (H-CNN) for proteins, described as a physically motivated machine learning approach that models amino acid preferences in protein structures, reflects physical interactions, recapitulates functional information from evolutionary data, and accurately predicts mutation effects on protein function including stability and binding. The authors further claim the model is interpretable and could guide protein design.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, datasets, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, dataset descriptions, baseline comparisons, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting idea, namely a holographic convolutional architecture for protein structure representation, with claims of accurate mutation effect prediction and interpretability. However, the abstract provides no quantitative evidence, no comparison to existing methods, and no methodological detail sufficient to evaluate the novelty or validity of the approach. The core claims are therefore not assessable from the supplied material. The idea may have merit, but the case is currently not established.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and machine learning researchers working on structure-function relationships would be interested if the claims hold. The potential to predict mutation effects on stability and binding from structure alone, with an interpretable model, would be relevant to protein design and variant effect prediction. However, interest depends entirely on evidence not visible in the abstract.
+- **Major strengths** The proposed approach is conceptually motivated by physical interactions in protein structures, which is a reasonable design principle. The emphasis on interpretability is valuable for a field where black-box models dominate. The application domain, predicting mutation effects from structure, is of high practical importance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that H-CNN "accurately predicts the impact of mutations on protein function, including stability and binding of protein complexes."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, no comparison to established methods such as Rosetta, FoldX, or sequence-based predictors, and no description of the benchmark datasets used. The word "accurately" is unsupported without numbers or statistical significance.
+  - **Why it matters** The central claim of the paper is predictive accuracy. Without any quantitative evidence, the reader cannot judge whether the method is competitive, marginal, or inferior to existing approaches. This is the core contribution and it is entirely unverified in the supplied material.
+  - **Resolution test** Provide performance metrics on standard benchmarks, including correlation coefficients or AUC for mutation effect prediction, with comparisons to at least two established baselines and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract describes H-CNN as a "physically motivated machine learning approach" and a "holographic convolutional neural network."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The term "holographic" is not defined, and the physical motivation is not explained. It is unclear how the architecture encodes physical interactions, what the input representation is, how the convolutional layers operate on protein structures, and how the model is trained. Without this information, the novelty and validity of the approach cannot be assessed.
+  - **Why it matters** The methodological contribution is the proposed architecture. If the architecture is not described, the paper cannot be reproduced or evaluated. The claim of physical motivation is also unverifiable without a clear description of how physics is incorporated.
+  - **Resolution test** Provide a detailed methods section describing the network architecture, input featurization, how physical interactions are encoded, training procedure, and hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** The abstract claims the model is "interpretable" and that it "recapitulates the functional information stored in evolutionary data."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No evidence is provided for interpretability. There is no description of what interpretability means in this context, no examples of learned features or attention patterns, and no demonstration that the model's internal representations correspond to known physical or functional properties. The claim about recapitulating evolutionary information is also unsupported without a comparison to evolutionary sequence data or conservation scores.
+  - **Why it matters** Interpretability is a stated advantage of the method. If the model is not demonstrably interpretable, this claimed advantage is unfounded. The evolutionary information claim suggests the model captures biologically meaningful signals, which requires validation.
+  - **Resolution test** Provide interpretability analyses, such as feature visualizations, ablation studies, or comparisons of learned representations to known structural or functional annotations. Show quantitative or qualitative evidence that the model captures evolutionary signals.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "physically motivated" is vague and could apply to many approaches. The abstract does not specify which physical principles are used.
+  - **Required correction** Specify the physical principles incorporated, such as distance-based interactions, electrostatics, or hydrophobic effects, in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim about protein design
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the model "could guide design of novel proteins with desired function," but no design experiments or generative capabilities are described.
+  - **Required correction** Either remove the design claim or provide evidence of design applications, such as in silico or experimental validation of designed variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "stability and binding of protein complexes" but does not specify which datasets or experimental measurements were used.
+  - **Required correction** Name the benchmark datasets and the types of experimental data used for training and evaluation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and interpretability evidence means the core claims are unverifiable.
+- **Assessment against Nature-style criteria** 
+  - Originality: The holographic convolutional concept appears potentially novel, but the abstract does not provide enough detail to distinguish it from existing graph neural networks or 3D convolutional approaches. Originality is plausible but not established.
+  - Scientific importance: Mutation effect prediction and protein design are important problems. If the method performs well, the importance would be high. However, importance cannot be confirmed without evidence.
+  - Interdisciplinary readership: The topic bridges machine learning and structural biology, which could appeal to a broad audience. The abstract is written accessibly, but the lack of technical detail limits its usefulness to specialists.
+  - Technical soundness: Not assessable from the abstract. No architecture details, training procedures, or evaluation protocols are provided.
+  - Readability for nonspecialists: The abstract is readable and avoids excessive jargon, though the term "holographic" is unexplained. The claims are clear but unsupported.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is interesting and the problem is important, but the abstract alone does not provide sufficient evidence to support the claims of accuracy, interpretability, or physical grounding. A full manuscript with methods, results, and comparisons would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that H-CNN "accurately predicts" mutation effects is unsupported due to the absence of any quantitative results.
+- The claim that the model is "physically motivated" is unverifiable without a description of the architecture and input representation.
+- The claim that the model is "interpretable" is unsupported without interpretability analyses.
+- The claim that the model "recapitulates the functional information stored in evolutionary data" is unsupported without comparisons to evolutionary data.
+- The claim that the model "could guide design of novel proteins" is speculative and not supported by any design experiments.

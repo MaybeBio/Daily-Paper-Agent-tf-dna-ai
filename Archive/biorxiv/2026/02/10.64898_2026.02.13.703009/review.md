@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgments) as provided. Figures, tables, and supplementary materials referenced but not included.
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims relative to presented evidence, and alignment with Nature-style criteria. No line-by-line copyediting.
+- **Shared manuscript claim summary** The authors present FragBEST-Myo, a 3D U-Net-based deep learning method that segments the omecamtiv mecarbil (OM) binding site of cardiac myosin into fragment-specific regions using local shape and physico-chemical features. Trained on holo MD trajectories (post-rigor and pre-power-stroke states), the model achieves ~95% accuracy and mIoU > 0.75 on unseen holo trajectories. Applied to apo trajectories, model-derived descriptors rank frames by similarity to holo conformations, and top-ranked frames yield improved docking poses relative to random selection. The authors propose this as a proof-of-concept for fragment-based ensemble screening and docking pose assessment.
+- **Visible evidence base** Abstract, Introduction, Methods (dataset preparation, deep learning training, descriptors/scoring, ensemble docking), Results (training/optimization, holo-like detection in apo simulations, docking performance), Discussion, Data/code availability statements. References cited but not individually verified.
+- **Missing materials affecting confidence** All figures (Figure 1-8), all tables (Table 1-2, S1-S5), supplementary methods, and supplementary figures (S1-S19) are referenced but not provided. Statistical details (e.g., ANOVA results in Table S2, standard deviations in Table S5) are not visible. Code repository and example data are not accessible at the time of review.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and timely application of deep learning-based semantic segmentation to a challenging problem in structure-based drug discovery: identifying holo-like conformations from apo MD ensembles. The fragment-based formulation is a sensible and potentially generalizable idea, and the authors have chosen a well-characterized test system (cardiac myosin with omecamtiv mecarbil) with relevant conformational states. However, the current manuscript, as provided, does not fully establish the central claims. The absence of all figures, tables, and supplementary materials makes it impossible to evaluate the quality of the segmentation results, the statistical robustness of the comparisons, or the practical significance of the docking improvements. Several methodological details are underspecified, and some claims in the Discussion appear to extend beyond what the visible evidence can support. The work is promising and likely of interest to the computational drug discovery community, but the case is not yet fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on ensemble docking, virtual screening, and cryptic pocket identification would find this work relevant. The fragment-based segmentation approach could offer a new way to assess pocket druggability and conformational selection in MD simulations. Researchers developing deep learning methods for protein-ligand interactions, particularly those using 3D voxel-based representations, would also be interested. The specific application to cardiac myosin and OM is of interest to the cardiovascular drug discovery community, though the proof-of-concept framing limits immediate translational impact.
+- **Major strengths** 1) The fragment-based decomposition of a binding site into sub-regions is a novel and mechanistically motivated framing that goes beyond whole-pocket classification. 2) The use of MD ensembles to train and evaluate the model directly addresses conformational heterogeneity, a known limitation of static-structure-based approaches. 3) The transfer learning strategy from PPS to PR states is a practical and sensible approach to reduce training data requirements. 4) The authors explicitly test the utility of their descriptors in a downstream task (docking pose quality), which is a meaningful step beyond segmentation accuracy alone. 5) The code and data availability statement is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that FragBEST-Myo achieves "an accuracy of ~95% and a mean Intersection over Union (mIoU) > 0.75 on unseen trajectories from both states" and that "top-ranked frames yielded improved docking poses relative to random selection."
+  - **Evidence pointer** Results sections "Training and optimising the deep-learning model" and "Performance of FragBest-Myo-selected apo frames in ensemble docking"; Figures 3, 6, 8; Tables S2-S5
+  - **Concern** All quantitative results are presented without the corresponding figures, tables, or supplementary data. The reader cannot verify the segmentation quality, the statistical significance of the mIoU values, the distribution of docking pose RMSDs, or the claimed improvements over random selection. The docking results, in particular, are described qualitatively ("better agreement", "shifted towards more negative values") without visible distributions or effect sizes. Without these materials, the central quantitative claims are unverifiable.
+  - **Why it matters** The core contribution of this work is a quantitative claim about model performance and downstream utility. If the segmentation quality is not robustly demonstrated, or if the docking improvements are marginal or not statistically significant, the practical value of the method is substantially weakened. The current manuscript does not allow the reader to assess this.
+  - **Resolution test** Provide all figures and tables with clear statistical annotations (e.g., confidence intervals, p-values, or effect sizes). Show representative segmentation examples for both holo and apo frames, including failure cases. Present docking RMSD distributions for top100 vs. sample100 sets with appropriate statistical tests. Include the supplementary tables with per-class IoU values and descriptor statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that "a class c was created for each fragment" and that "Every vertex located within a 5 Å radius from the ligand's heavy atoms was assigned a label corresponding to the class of the nearest fragment."
+  - **Evidence pointer** Methods section "Dataset preparation"; Figure 1B
+  - **Concern** The labeling procedure is described at a high level, but several critical details are missing. How were the six fragments defined? Was the manual decomposition based on chemical intuition, and is it reproducible? What happens to vertices that are within 5 Å of multiple fragments, or equidistant to two fragments? How sensitive is the model to the choice of fragment definitions? The 5 Å cutoff for labeling is also not justified. Furthermore, the voxelization procedure (assigning voxel labels from vertex labels) is not described in sufficient detail to assess potential information loss or artifacts.
+  - **Why it matters** The fragment definitions are the ground truth for the supervised learning task. If the labeling is arbitrary or not robust, the model's predictions are correspondingly less meaningful. The voxelization step is a key preprocessing choice that can affect model performance and interpretability. Without these details, the method is not fully reproducible.
+  - **Resolution test** Provide a detailed description of the fragment decomposition, including a figure showing the fragments on the ligand structure. Justify the 5 Å cutoff and describe the handling of ambiguous vertices. Describe the voxelization procedure, including how vertex labels are transferred to voxels and how conflicts are resolved. Discuss the sensitivity of the results to these choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim overreach
+  - **Claim pointer** The Discussion states: "Our results also showed that a single model trained on both PPS and PR state simulations can identify holo-like frames in apo simulations where both states are sampled. The OM binding site has a completely different shape in these two states, with only partial overlap among the residues forming the binding interface. While this finding is based on a single protein system, it provides initial evidence that developing a unified FragBEST model able to accurately segment multiple, distinct binding sites is possible."
+  - **Evidence pointer** Results section "Application of FragBest-Myo to MD simulations sampling multiple states"; Figure 7; Table 2
+  - **Concern** The claim that the model can "identify holo-like frames in apo simulations where both states are sampled" is based on a single SMD trajectory. The SMD trajectory was generated by driving the protein from PR to PPS, and the authors acknowledge that the starting point is inherently closer to the holo reference. The observation that the model ranks frames near the start of the trajectory as more holo-like may reflect the trajectory generation procedure rather than the model's ability to generalize. The extrapolation from this single, artificially generated trajectory to "initial evidence that developing a unified FragBEST model able to accurately segment multiple, distinct binding sites is possible" is a significant overreach. The model was trained on holo structures of both states, so its ability to recognize both states in a mixed trajectory is not surprising and does not demonstrate generalization to new binding sites.
+  - **Why it matters** The Discussion frames this as evidence for the generalizability of the approach, which is a key motivation for the work. If the evidence is weak or confounded, the broader significance of the contribution is diminished. Overstating the implications of a single SMD trajectory could mislead readers about the maturity of the method.
+  - **Resolution test** Temper the language in the Discussion to reflect the preliminary nature of the SMD result. Acknowledge the potential confounding effect of the trajectory generation procedure. If possible, test the model on unbiased apo MD simulations that sample both states spontaneously, or on a different protein-ligand system, to provide stronger evidence for generalizability. Alternatively, clearly frame the SMD result as a proof-of-concept for the descriptor-based ranking within a single trajectory, not as evidence for cross-state or cross-target generalization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline comparison
+  - **Claim pointer** The manuscript claims that FragBEST-Myo-derived descriptors "produced rankings consistent with similarity to holo conformations" and that selecting top-ranked frames "increased the chance of recovering holo-like OM docking poses relative to randomly controlled frames."
+  - **Evidence pointer** Results section "Performance of FragBest-Myo-selected apo frames in ensemble docking"; Figure 6
+  - **Concern** The comparison is made against randomly selected frames. This is a weak baseline. A more meaningful comparison would be against established methods for selecting frames for ensemble docking, such as clustering by RMSD, selecting frames with the lowest binding site RMSD to a known holo structure (an oracle baseline), or using pocket volume or druggability scores. Without such comparisons, it is unclear whether FragBEST-Myo provides added value over simpler, well-established approaches. The authors do not report the computational cost of their method relative to alternatives.
+  - **Why it matters** The practical utility of the method depends on whether it outperforms existing, simpler approaches. If random selection is the only baseline, the reader cannot judge whether the method is worth the added complexity of training a deep learning model.
+  - **Resolution test** Add comparisons against at least one or two standard baselines (e.g., RMSD-based clustering, pocket volume-based selection, or an oracle that selects frames closest to the holo structure). Report the computational overhead of the method. If the method does not outperform these baselines, discuss the conditions under which it might be advantageous.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports "an accuracy of ~95% and a mean Intersection over Union (mIoU) > 0.75" and describes correlations between descriptors and RMSD values.
+  - **Evidence pointer** Results sections "Training and optimising the deep-learning model" and "Performance of FragBest-Myo-selected apo frames in ensemble docking"; Figures S8-S10, S16
+  - **Concern** The manuscript does not report confidence intervals, standard deviations across test sets, or statistical significance tests for the key performance metrics. The mIoU values are reported as mean ± standard deviation for some cases, but it is unclear how many test frames were used, whether the test frames are independent, and whether the reported variability reflects genuine model uncertainty or sampling noise. The correlations between descriptors and RMSD values are described qualitatively ("anti-correlation", "positive association") without reporting correlation coefficients or p-values. The docking results are presented as percentages (e.g., "10% of top100 PPS frames achieved a ligand RMSD ≤ 3.5 Å compared to 0% of randomly selected conformations") without confidence intervals, which is particularly problematic given the small sample sizes likely involved.
+  - **Why it matters** The strength of the claims depends on the statistical robustness of the results. Without proper uncertainty quantification, the reader cannot assess whether the observed improvements are meaningful or could arise by chance.
+  - **Resolution test** Report confidence intervals or bootstrap estimates for all key metrics. Provide correlation coefficients with p-values for the descriptor-RMSD relationships. For the docking comparisons, report the number of frames in each set, the distribution of RMSD values, and appropriate statistical tests (e.g., Mann-Whitney U test or permutation test). If the sample sizes are too small for meaningful statistics, acknowledge this limitation explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Descriptors and scoring function"
+  - **Evidence pointer** Table 1; Equations for D2 and D3
+  - **Issue** The equations for D2 and D3 are referenced but not shown in the provided text. The definitions of N_c and N are given, but the exact formulas are missing. This makes it difficult to understand how the descriptors are computed.
+  - **Required correction** Include the full equations for D2 and D3 in the main text or supplementary methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Ensemble docking"
+  - **Evidence pointer** Methods section "Ensemble docking"
+  - **Issue** The docking protocol is described, but several parameters are underspecified. The number of docking runs per frame, the exhaustiveness setting (stated as 32), and the grid box dimensions are given, but the scoring function details and the criteria for selecting the "top-ranked pose" from each run are not fully described. The use of five random seeds is mentioned, but it is unclear how the results were aggregated across seeds.
+  - **Required correction** Provide a complete description of the docking protocol, including the scoring function, the selection criteria for the top pose, and how results were aggregated across random seeds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Performance of FragBest-Myo-selected apo frames in ensemble docking"
+  - **Evidence pointer** Figure 6D-F
+  - **Issue** The correlation between Vina affinity and structural similarity is mentioned, but the direction and strength of the correlation are not described. It is unclear whether the authors interpret this as evidence for the validity of their ranking or as a limitation of the docking scoring function.
+  - **Required correction** Clarify the interpretation of the affinity-similarity correlation and discuss its implications for the utility of the method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "the fragment-based formulation offering a natural route to generalisation" but do not discuss the specific challenges that would need to be addressed for generalization to other proteins and ligands. For example, how would the fragment definitions be determined for a new ligand? Would the model need to be retrained from scratch, or could transfer learning be applied?
+  - **Required correction** Add a brief discussion of the steps and potential obstacles involved in generalizing the approach to new targets and ligands.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "achieving an accuracy of ~95% and a mean Intersection over Union (mIoU) > 0.75" but does not specify that these values are for the held-out holo test trajectories. This could be misread as performance on apo trajectories, which is not the case.
+  - **Required correction** Clarify in the abstract that these metrics are for held-out holo trajectories, and that the apo trajectory results are presented separately.
+
+## Risk / unsupported claims
+- The claim that FragBEST-Myo "provides a basis for developing future general models applicable to a broader range of proteins and ligands" is not supported by the visible evidence, which is limited to a single protein-ligand system.
+- The claim that the model "already captures transferable features beyond its original training set" based on qualitative observations of ranking behavior on other myosin isoforms and ligands is not quantitatively supported in the visible text.
+- The claim that "selecting apo frames based on FragBEST-Myo ranking increased the chance of recovering holo-like OM docking poses" is presented without visible statistical analysis or comparison to alternative selection methods.
+- The claim that the model can "identify holo-like frames in apo simulations where both states are sampled" is based on a single SMD trajectory and may be confounded by the trajectory generation procedure.
+- The quantitative performance metrics (accuracy, mIoU) are reported without confidence intervals or clear specification of the test set composition, making them difficult to evaluate.
+- The manuscript states that "the predictions from the model can be used to select apo frames more likely to produce holo-like docking poses of the cardiac activator OM than randomly selected frames" but the practical significance of the improvement (e.g., how many top-ranked frames are needed to achieve a given success rate) is not quantified in the visible text.

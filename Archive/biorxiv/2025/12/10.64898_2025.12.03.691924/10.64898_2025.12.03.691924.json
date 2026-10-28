@@ -1,0 +1,563 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.03.691924",
+  "title": "Protein-protein interactions drive differences in the spatiotemporal dynamics of transcription factors NANOG and SOX2 in naïve pluripotent cells",
+  "doi": "10.64898/2025.12.03.691924",
+  "abstract": "Maintenance of naïve pluripotency requires core transcription factors (TFs) like SOX2 and auxiliary TFs like NANOG, yet molecular mechanisms governing their intra-nuclear dynamics and DNA binding interactions remain unclear. Here, using high-density 3D single-molecule light-field microscopy combined with novel spatiotemporal analysis pipelines, we track SOX2 and NANOG dynamics in live cells. Despite lower protein abundance, NANOG displays a similar chromatin-bound fraction to SOX2. This arises partially because, while both TFs undergo frequent transient non-specific binding interactions (∼0.5-0.7s), NANOG exhibits more stable specific binding (∼25s vs ∼16s). Both TFs also assemble into phase-separated domains of ∼400 nm containing both freely diffusing and chromatin-bound proteins, which further influences their dynamics. Strikingly, NANOG’s protein-protein interaction domain markedly increases chromatin residence time (>5-fold) and the size of these phase-separated domains. Our work uncovers how NANOG and SOX2 stabilise gene regulatory networks that maintain naïve pluripotency while providing quantitative pipelines for dissecting spatiotemporal TF dynamics.",
+  "authors": [
+    "Agsu GG",
+    "Cao Y",
+    "Jain D",
+    "Strawbridge SE",
+    "Daly S",
+    "Zhang Z",
+    "Wurmser A",
+    "Bowers K",
+    "De Almeida IO",
+    "Nikolenyi G",
+    "Berger S",
+    "Jonaitis M",
+    "Guma’a K",
+    "Pauzaite T",
+    "Maretvadakethope S",
+    "Bates L",
+    "Nathan JA",
+    "Hendrich BD",
+    "Perez-Carrasco R",
+    "Chalut KJ",
+    "Klenerman D",
+    "Boroviak TE",
+    "Lee SF",
+    "Holcman D",
+    "Basu S"
+  ],
+  "published_date": "2025-12-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.03.691924",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.03.691924.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1232769",
+    "raw_record": {
+      "id": "PPR1232769",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1232769"
+        ]
+      },
+      "doi": "10.64898/2025.12.03.691924",
+      "title": "Protein-protein interactions drive differences in the spatiotemporal dynamics of transcription factors NANOG and SOX2 in naïve pluripotent cells",
+      "authorString": "Agsu GG, Cao Y, Jain D, Strawbridge SE, Daly S, Zhang Z, Wurmser A, Bowers K, De Almeida IO, Nikolenyi G, Berger S, Jonaitis M, Guma’a K, Pauzaite T, Maretvadakethope S, Bates L, Nathan JA, Hendrich BD, Perez-Carrasco R, Chalut KJ, Klenerman D, Boroviak TE, Lee SF, Holcman D, Basu S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Agsu GG",
+            "lastName": "Agsu",
+            "firstName": "Gökçe",
+            "initials": "GG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8381-2749"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cao Y",
+            "lastName": "Cao",
+            "firstName": "Yuze",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Group of Applied Mathematics and Computational Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jain D",
+            "lastName": "Jain",
+            "firstName": "Diyan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Strawbridge SE",
+            "lastName": "Strawbridge",
+            "firstName": "Stanley",
+            "initials": "SE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0273-0835"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Daly S",
+            "lastName": "Daly",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8559-3161"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Ziwei",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wurmser A",
+            "lastName": "Wurmser",
+            "firstName": "Annabelle",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1392-4988"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bowers K",
+            "lastName": "Bowers",
+            "firstName": "Kathryn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Almeida IO",
+            "lastName": "De Almeida",
+            "firstName": "Igor Orsine",
+            "initials": "IO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nikolenyi G",
+            "lastName": "Nikolenyi",
+            "firstName": "Gergo",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berger S",
+            "lastName": "Berger",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jonaitis M",
+            "lastName": "Jonaitis",
+            "firstName": "Mantas",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guma’a K",
+            "lastName": "Guma’a",
+            "firstName": "Khalid",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pauzaite T",
+            "lastName": "Pauzaite",
+            "firstName": "Tekle",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute of Therapeutic Immunology & Infectious Disease (CITIID), Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maretvadakethope S",
+            "lastName": "Maretvadakethope",
+            "firstName": "Smitha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bates L",
+            "lastName": "Bates",
+            "firstName": "Lawrence",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nathan JA",
+            "lastName": "Nathan",
+            "firstName": "James",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute of Therapeutic Immunology & Infectious Disease (CITIID), Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hendrich BD",
+            "lastName": "Hendrich",
+            "firstName": "Brian",
+            "initials": "BD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perez-Carrasco R",
+            "lastName": "Perez-Carrasco",
+            "firstName": "Ruben",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chalut KJ",
+            "lastName": "Chalut",
+            "firstName": "Kevin",
+            "initials": "KJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klenerman D",
+            "lastName": "Klenerman",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boroviak TE",
+            "lastName": "Boroviak",
+            "firstName": "Thorsten",
+            "initials": "TE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee SF",
+            "lastName": "Lee",
+            "firstName": "Steven",
+            "initials": "SF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4492-5139"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holcman D",
+            "lastName": "Holcman",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Group of Applied Mathematics and Computational Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Basu S",
+            "lastName": "Basu",
+            "firstName": "Srinjan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8381-2749"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1392-4988"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8559-3161"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0273-0835"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4492-5139"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Maintenance of naïve pluripotency requires core transcription factors (TFs) like SOX2 and auxiliary TFs like NANOG, yet molecular mechanisms governing their intra-nuclear dynamics and DNA binding interactions remain unclear. Here, using high-density 3D single-molecule light-field microscopy combined with novel spatiotemporal analysis pipelines, we track SOX2 and NANOG dynamics in live cells. Despite lower protein abundance, NANOG displays a similar chromatin-bound fraction to SOX2. This arises partially because, while both TFs undergo frequent transient non-specific binding interactions (∼0.5-0.7s), NANOG exhibits more stable specific binding (∼25s vs ∼16s). Both TFs also assemble into phase-separated domains of ∼400 nm containing both freely diffusing and chromatin-bound proteins, which further influences their dynamics. Strikingly, NANOG’s protein-protein interaction domain markedly increases chromatin residence time (>5-fold) and the size of these phase-separated domains. Our work uncovers how NANOG and SOX2 stabilise gene regulatory networks that maintain naïve pluripotency while providing quantitative pipelines for dissecting spatiotemporal TF dynamics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "218481/Z/19/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/Y002709/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/X511092/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "104931/Z/14/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/L015129/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T017929/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W000423/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "215477/Z/19/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203151/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "224070/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W000423/2",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.03.691924"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1232769"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1232769&type=FILE&fileName=EMS214871-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214871",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-03",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

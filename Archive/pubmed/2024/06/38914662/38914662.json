@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "38914662",
+    "doi": "10.1038/s41598-024-65362-0",
+    "title": "Mechanism of oxymatrine in the treatment of cryptosporidiosis through TNF/NF-kappaB signaling pathway based on network pharmacology and experimental validation."
+  },
+  "content": {
+    "abstract": "Cryptosporidiosis is a worldwide zoonotic disease. Oxymatrine, an alkaloid extracted and isolated from the plant bitter ginseng, has been reported to have therapeutic effects on cryptosporidiosis. However, the underlying mechanism of its action remains unclear. In this study, we utilized network pharmacology and experimental validation to investigate the mechanism of oxymatrine in the treatment of cryptosporidiosis. First, the potential targets of drugs and diseases were predicted by TCMSP, Gene Cards, and other databases. Following the intersection of drug-disease targets, the DAVID database was used to implement the enrichment analysis of GO functions and KEGG pathways, and then the network diagram of \"intersected target-KEGG\" relationship was constructed. Autodock 4.2.6 software was used to carry out the molecular docking of core targets to drug components. Based on the establishment of a mouse model of cryptosporidiosis, the validity of the targets in the TNF/NF-kappaB signaling pathway was confirmed using Western blot analysis and Quantitative Rea-ltime-PCR. A total of 41 intersectional targets of oxymatrine and Cryptosporidium were generated from the results, and five core targets were screened out by network analysis, including RELA, AKT1, ESR1, TNF, and CASP3. The enrichment analysis showed that oxymatrine could regulate multiple gene targets, mediate TNF, Apoptpsis, IL-17, NF-kappaB and other signaling pathways. Molecular docking experiments revealed that oxymatrine was tightly bound to core targets with stable conformation. Furthermore, we found through animal experiments that oxymatrine could regulate the mRNA and protein expression of IL-6, NF-kappaB, and TNF-alpha in the intestinal tissues of post-infected mice through the TNF/NF-kappaB signaling pathway. Therefore, it can be concluded that oxymatrine can regulate the inflammatory factors TNF-alpha, NF-kappaB, and IL-6 through the TNF/NF-kappaB signaling pathway for the treatment of cryptosporidiosis. This prediction has also been validated by network pharmacology and animal experiments.",
+    "keywords": [
+      "Cryptosporidiosis",
+      "Experimental validation",
+      "Network pharmacology",
+      "Oxymatrine",
+      "Protein-protein interaction (PPI) network"
+    ],
+    "mesh_terms": [
+      "*Quinolizines/pharmacology/chemistry/therapeutic use",
+      "*Cryptosporidiosis/drug therapy/parasitology",
+      "Animals",
+      "*Signal Transduction/drug effects",
+      "*Alkaloids/pharmacology/therapeutic use",
+      "Mice",
+      "*NF-kappa B/metabolism",
+      "*Network Pharmacology",
+      "*Molecular Docking Simulation",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "Disease Models, Animal",
+      "Humans",
+      "Matrines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaoning",
+        "Shi, Jie",
+        "Lu, Yilong",
+        "Ji, Rui",
+        "Guan, Zhiyu",
+        "Peng, Fujun",
+        "Zhao, Chunzhen",
+        "Gao, Wei",
+        "Gao, Feng"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Shi J",
+        "Lu Y",
+        "Ji R",
+        "Guan Z",
+        "Peng F",
+        "Zhao C",
+        "Gao W",
+        "Gao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China.",
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China.",
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China.",
+        "College of Traditional Chinese Medicine, Shandong Second Medical University, Weifang, 261053, China. jirui2012@126.com.",
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China. braveguan_001@163.com.",
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China.",
+        "College of Pharmacy, Shandong Second Medical University, Weifang, China.",
+        "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China.",
+        "College of Pharmacy, Shandong Second Medical University, Weifang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaoning",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jie",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yilong",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Rui",
+        "short_name": "Ji R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Shandong Second Medical University, Weifang, 261053, China. jirui2012@126.com."
+        ]
+      },
+      {
+        "full_name": "Guan, Zhiyu",
+        "short_name": "Guan Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China. braveguan_001@163.com."
+        ]
+      },
+      {
+        "full_name": "Peng, Fujun",
+        "short_name": "Peng F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chunzhen",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shandong Second Medical University, Weifang, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Shandong Second Medical University, Weifang, 261053, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Feng",
+        "short_name": "Gao F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shandong Second Medical University, Weifang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jun 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 00:43",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42631135",
+      "41122688",
+      "40681213",
+      "39780225"
+    ],
+    "refs": [
+      "37013999",
+      "36686872",
+      "36584572",
+      "34454947",
+      "33195574",
+      "33076496",
+      "32297823",
+      "32145307",
+      "30103640",
+      "29903377",
+      "29241159",
+      "28764965",
+      "28540167",
+      "27324279",
+      "27179304",
+      "27120065",
+      "25111501",
+      "24415859",
+      "23913680",
+      "22818787",
+      "22782478"
+    ],
+    "similar": [
+      "38914662",
+      "38952315",
+      "37382018",
+      "34791846",
+      "37454750",
+      "35622496",
+      "38621947",
+      "37287284",
+      "36216196",
+      "33444723",
+      "38697555",
+      "37356743",
+      "38555283",
+      "37499457",
+      "35851129",
+      "36604893",
+      "36860812",
+      "38115276",
+      "38417244",
+      "38114126",
+      "37802827",
+      "37799727",
+      "38169205",
+      "36604925",
+      "38696100",
+      "35430443",
+      "25171482",
+      "38032489",
+      "35790443",
+      "34492285",
+      "37340752",
+      "39093467",
+      "38845211",
+      "34951223",
+      "36872242",
+      "37100262",
+      "25034832",
+      "36471963",
+      "38588987",
+      "38707614",
+      "37437794",
+      "37802787",
+      "37741472",
+      "36740793",
+      "33645089",
+      "36164882",
+      "37833363",
+      "38707616",
+      "36284987",
+      "38114219",
+      "37879505",
+      "38640713",
+      "36472040",
+      "35097126",
+      "37023836",
+      "36403742",
+      "36471978",
+      "37480968",
+      "35343164",
+      "23311163",
+      "37317908",
+      "35365440",
+      "38688354",
+      "37190808",
+      "36280016",
+      "33441867",
+      "35442463",
+      "38616753",
+      "36872279",
+      "35221674",
+      "33517789",
+      "37852337",
+      "35850844",
+      "36587875",
+      "34259096",
+      "38216101",
+      "37390239",
+      "34234411",
+      "38619514",
+      "38110130",
+      "36386135",
+      "35718494",
+      "22772914",
+      "35837376",
+      "36530790",
+      "37718520",
+      "35988839",
+      "36646160",
+      "35970313",
+      "36604919",
+      "39354758",
+      "37403397",
+      "37056062",
+      "35069454",
+      "36414217",
+      "38030026",
+      "23754270",
+      "34873575",
+      "36164881",
+      "34864624",
+      "34560213",
+      "36046907",
+      "38107658",
+      "39222242",
+      "39065764",
+      "39276053",
+      "39180042",
+      "39248061",
+      "36337846",
+      "39340487",
+      "38246999",
+      "36172495",
+      "39313273",
+      "39273257",
+      "39171467",
+      "39337549",
+      "39243560",
+      "39085510",
+      "37795035",
+      "39005919",
+      "39243097",
+      "39219424",
+      "34754318",
+      "39236475",
+      "39301261",
+      "35350754",
+      "38954070",
+      "39263577",
+      "39011417",
+      "37338672",
+      "39013759",
+      "33488758"
+    ],
+    "review": [
+      "38914662"
+    ],
+    "pmc": [
+      "11196726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cryptosporidiosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cryptosporidiosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-65362-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38914662/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38914662",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cryptosporidiosis.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cryptosporidiosis"
+      }
+    ],
+    "text_mined": []
+  }
+}

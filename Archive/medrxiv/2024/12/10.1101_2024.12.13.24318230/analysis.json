@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2024.12.13.24318230",
+  "title": "Utilising Nanopore direct RNA sequencing of blood from patients with sepsis for discovery of co- and post-transcriptional disease biomarkers",
+  "authors": "He J; Ganesamoorthy D; Chang JJ; Zhang J; Trevor SL; Gibbons KS; McPherson SJ; Kling JC; Schlapbach LJ; Blumenthal A; Coin LJ",
+  "journal": "medRxiv",
+  "published_date": "2024-12-14",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用Nanopore直接RNA测序研究脓毒症患者血液中的转录后生物标志物，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Background</h4> RNA sequencing of whole blood has been increasingly employed to find transcriptomic signatures of disease states. These studies traditionally utilize short-read sequencing of cDNA, missing important aspects of RNA expression such as differential isoform abundance and poly(A) tail length variation. <h4>Methods</h4> We used Oxford Nanopore Technologies long-read sequencing to sequence native mRNA extracted from whole blood from 12 patients with suspected bacterial and viral sepsis, and compared with results from matching Illumina short-read cDNA sequencing data. Additionally, we explored poly(A) tail length variation, novel transcript identification and differential transcript usage. <h4>Results</h4> The correlation of gene count data between Illumina cDNA and Nanopore RNA-sequencing strongly depended on the choice of analysis pipeline; NanoCount for Nanopore and Kallisto for Illumina data yielded the highest mean Pearson’s correlation of 0.93 at gene level and 0.74 at transcript isoform level. We identified 18 genes significantly differentially polyadenylated and 4 genes with significant differential transcript usage between bacterial and viral infection. Gene ontology gene set enrichment analysis of poly(A) tail length revealed enrichment of long tails in signal transduction and short tails in oxidoreductase molecular functions. Additionally, we detected 594 non-artifactual novel transcript isoforms, including 9 novel isoforms for Immunoglobulin lambda like polypeptide 5 ( IGLL5) . <h4>Conclusions</h4> Nanopore RNA- and Illumina cDNA-gene counts are strongly correlated, indicating that both platforms are suitable for discovery and validation of gene count biomarkers. Nanopore direct RNA-seq provides additional advantages by uncovering additional post- and co-transcriptional biomarkers, such as poly(A) tail length variation and transcript isoform usage.",
+  "abstract_zh": "<h4>摘要</h4> <h4>背景</h4> 全血RNA测序越来越多地被用于寻找疾病状态的转录组特征。这些研究传统上利用cDNA的短读长测序，忽略了RNA表达的重要方面，如差异异构体丰度和poly(A)尾长度变异。 <h4>方法</h4> 我们使用Oxford Nanopore Technologies长读长测序对从12名疑似细菌性和病毒性脓毒症患者全血中提取的天然mRNA进行测序，并与匹配的Illumina短读长cDNA测序数据结果进行比较。此外，我们探讨了poly(A)尾长度变异、新转录本鉴定和差异转录本使用。 <h4>结果</h4> Illumina cDNA和Nanopore RNA测序之间的基因计数数据相关性强烈依赖于分析流程的选择；Nanopore数据使用NanoCount和Illumina数据使用Kallisto在基因水平上产生最高平均Pearson相关系数0.93，在转录本异构体水平上为0.74。我们鉴定了18个显著差异多聚腺苷酸化的基因和4个在细菌性和病毒性感染之间具有显著差异转录本使用的基因。poly(A)尾长度的基因本体论基因集富集分析显示，信号转导中长尾富集，氧化还原酶分子功能中短尾富集。此外，我们检测到594个非人工制品的新转录本异构体，包括免疫球蛋白lambda样多肽5（IGLL5）的9个新异构体。 <h4>结论</h4> Nanopore RNA和Illumina cDNA基因计数高度相关，表明两个平台都适用于基因计数生物标志物的发现和验证。Nanopore直接RNA测序通过揭示额外的转录后和共转录生物标志物（如poly(A)尾长度变异和转录本异构体使用）提供了额外优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2024.12.13.24318230",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2024.12.13.24318230",
+  "paper_page_path": "papers/medrxiv/10.1101_2024.12.13.24318230/index.html"
+}

@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "41963573",
+    "doi": "10.1007/s10067-026-08113-y",
+    "title": "Therapeutic effects of ginkgetin on rheumatoid arthritis: evidence from network pharmacology and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is a chronic autoimmune disorder characterized by synovial hyperplasia, persistent inflammation, and progressive joint destruction. Ginkgetin (GK), a biflavonoid derived from Ginkgo biloba, exhibits strong anti-inflammatory and antioxidant properties. However, its therapeutic potential and underlying molecular mechanisms in RA remain insufficiently understood. METHODS: An integrative strategy combining network pharmacology, transcriptomic profiling, molecular docking, and in vitro experiments was applied to elucidate the mechanisms of GK against RA. Differentially expressed genes (DEGs) were identified from four GEO datasets of RA synovial tissues, and overlapping targets between GK and RA were screened. Gene Ontology (GO), KEGG pathway enrichment, and protein-protein interaction (PPI) analyses were conducted to identify key pathways and hub genes. Molecular docking and single-cell transcriptomic analyses were performed to predict binding interactions and cellular localization. Finally, MH7A synovial fibroblasts were used to validate GK's effects on inflammation, proliferation, migration, and apoptosis. RESULTS: Thirty-two potential therapeutic targets of GK in RA were identified, among which six hub genes (CXCR4, HIF1A, STAT1, VEGFA, CDK1, and CCNB1) were highlighted. Enrichment analyses indicated that these targets were primarily involved in the HIF-1, VEGF, and cell cycle signaling pathways. Molecular docking demonstrated strong binding affinities between GK and key proteins. In vitro, GK inhibited LPS-induced proliferation and migration of MH7A cells, reduced IL-6 and IL-1beta expression, and promoted apoptosis. qRT-PCR analysis confirmed that GK downregulated all six hub genes, indicating its multi-target regulatory activity on hypoxia, angiogenesis, and inflammatory signaling. CONCLUSION: GK exerts anti-inflammatory, anti-proliferative, and pro-apoptotic effects in RA synovial fibroblasts by modulating multiple signaling pathways, particularly the HIF-1alpha/VEGFA, STAT1, and CXCR4 axes. These findings provide mechanistic insight into GK's pharmacological actions and support its potential as a novel multi-target therapeutic candidate for RA. Key Points *Network pharmacology identified six hub genes (CXCR4, HIF1A, STAT1, VEGFA, CDK1, CCNB1) linking Ginkgetin (GK) to rheumatoid arthritis pathology. *Molecular docking confirmed strong binding affinities of GK with key targets, supporting its multitarget pharmacological potential. *GK inhibits proliferation and migration, suppresses inflammatory cytokines, and promotes apoptosis in LPS-stimulated MH7A synovial fibroblasts. *These findings provide mechanistic evidence supporting GK as a promising multi-target candidate for rheumatoid arthritis therapy.",
+    "keywords": [
+      "Bioinformatics",
+      "Ginkgetin",
+      "Inflammation",
+      "Network pharmacology",
+      "Rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/drug therapy/genetics/metabolism",
+      "Humans",
+      "Network Pharmacology",
+      "Molecular Docking Simulation",
+      "*Biflavonoids/pharmacology/therapeutic use",
+      "Synovial Membrane/drug effects",
+      "Apoptosis/drug effects",
+      "Fibroblasts/drug effects/metabolism",
+      "Cell Proliferation/drug effects",
+      "Protein Interaction Maps",
+      "Cell Movement/drug effects",
+      "STAT1 Transcription Factor/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Signal Transduction/drug effects",
+      "Receptors, CXCR4/metabolism/genetics",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Chengcheng",
+        "Yu, Hui",
+        "Wang, Jiachen",
+        "Xu, Ke",
+        "Yang, Mingyi",
+        "Xu, Peng"
+      ],
+      "short_names": [
+        "Zhao C",
+        "Yu H",
+        "Wang J",
+        "Xu K",
+        "Yang M",
+        "Xu P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2487-9163"
+      ],
+      "affiliations": [
+        "Orthopedics Department, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China.",
+        "Orthopedics Department, Hanzhong Central Hospital, Hanzhong, 723000, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China.",
+        "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China. ymy25808@163.com.",
+        "Orthopedics Department, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China. sousou369@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Chengcheng",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics Department, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hui",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics Department, Hanzhong Central Hospital, Hanzhong, 723000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiachen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ke",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mingyi",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710054, China. ymy25808@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Peng",
+        "short_name": "Xu P",
+        "identifiers": [
+          "0000-0003-2487-9163"
+        ],
+        "affiliations": [
+          "Orthopedics Department, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China. sousou369@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical rheumatology"
+    ],
+    "journal_abbrev": [
+      "Clin Rheumatol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40762894",
+      "40692773",
+      "40541126",
+      "40406100",
+      "40038288",
+      "39978272",
+      "39867868",
+      "39558862",
+      "39510764",
+      "39448800",
+      "39350214",
+      "39348084",
+      "39061843",
+      "38838922",
+      "38217097",
+      "38145406",
+      "37325651",
+      "37277655",
+      "36836918",
+      "36718649",
+      "36616276",
+      "36564450",
+      "36376026",
+      "35935936",
+      "35879783",
+      "35760450",
+      "35705856",
+      "34841538",
+      "34715065",
+      "33844448",
+      "33375719",
+      "32961987",
+      "32783998",
+      "32268958",
+      "30285183",
+      "30283452"
+    ],
+    "similar": [
+      "41963573",
+      "40466361",
+      "42083525",
+      "39390367",
+      "41148840",
+      "40640294",
+      "40615101",
+      "41607310",
+      "41492010",
+      "41630027",
+      "39978272",
+      "41116042",
+      "40473698",
+      "38104871",
+      "37418838",
+      "39490433",
+      "41984125",
+      "40955790",
+      "41737229",
+      "40020629",
+      "37358659",
+      "41456528",
+      "38776853",
+      "37390879",
+      "38771826",
+      "37315652",
+      "40839986",
+      "42266693",
+      "31545276",
+      "38840248",
+      "39953769",
+      "40571227",
+      "40199969",
+      "41670694",
+      "39066538",
+      "41572697",
+      "41616419",
+      "41482061",
+      "40204052",
+      "38816744",
+      "35221674",
+      "40958307",
+      "38621928",
+      "31972421",
+      "40636121",
+      "39326197",
+      "40462241",
+      "38614265",
+      "41261300",
+      "40706389",
+      "39534605",
+      "41504045",
+      "40593998",
+      "40259252",
+      "34737112",
+      "40915462",
+      "40350911",
+      "38670393",
+      "39244174",
+      "24144813",
+      "41828326",
+      "40902811",
+      "36068607",
+      "38213142",
+      "42220119",
+      "39466354",
+      "40644421",
+      "40992269",
+      "40413339",
+      "35702063",
+      "34271942",
+      "34054546",
+      "31972422",
+      "41288681",
+      "37802827",
+      "41795298",
+      "42074103",
+      "38834626",
+      "39701786",
+      "40522420",
+      "30511573",
+      "39701711",
+      "38941043",
+      "35495609",
+      "38413973",
+      "30916045",
+      "39067546",
+      "39135759",
+      "39845946",
+      "41293954",
+      "30483789",
+      "41901208",
+      "41056761",
+      "41644791",
+      "35525528",
+      "40379851",
+      "40598731",
+      "41977136",
+      "41694337",
+      "36923645"
+    ],
+    "review": [
+      "41963573"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10067-026-08113-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

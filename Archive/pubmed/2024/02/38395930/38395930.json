@@ -1,0 +1,635 @@
+{
+  "identity": {
+    "pmid": "38395930",
+    "doi": "10.1186/s13058-024-01784-y",
+    "title": "Augmented interpretation of HER2, ER, and PR in breast cancer by artificial intelligence analyzer: enhancing interobserver agreement through a reader study of 201 cases."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Accurate classification of breast cancer molecular subtypes is crucial in determining treatment strategies and predicting clinical outcomes. This classification largely depends on the assessment of human epidermal growth factor receptor 2 (HER2), estrogen receptor (ER), and progesterone receptor (PR) status. However, variability in interpretation among pathologists pose challenges to the accuracy of this classification. This study evaluates the role of artificial intelligence (AI) in enhancing the consistency of these evaluations. METHODS: AI-powered HER2 and ER/PR analyzers, consisting of cell and tissue models, were developed using 1,259 HER2, 744 ER, and 466 PR-stained immunohistochemistry (IHC) whole-slide images of breast cancer. External validation cohort comprising HER2, ER, and PR IHCs of 201 breast cancer cases were analyzed with these AI-powered analyzers. Three board-certified pathologists independently assessed these cases without AI annotation. Then, cases with differing interpretations between pathologists and the AI analyzer were revisited with AI assistance, focusing on evaluating the influence of AI assistance on the concordance among pathologists during the revised evaluation compared to the initial assessment. RESULTS: Reevaluation was required in 61 (30.3%), 42 (20.9%), and 80 (39.8%) of HER2, in 15 (7.5%), 17 (8.5%), and 11 (5.5%) of ER, and in 26 (12.9%), 24 (11.9%), and 28 (13.9%) of PR evaluations by the pathologists, respectively. Compared to initial interpretations, the assistance of AI led to a notable increase in the agreement among three pathologists on the status of HER2 (from 49.3 to 74.1%, p < 0.001), ER (from 93.0 to 96.5%, p = 0.096), and PR (from 84.6 to 91.5%, p = 0.006). This improvement was especially evident in cases of HER2 2+ and 1+, where the concordance significantly increased from 46.2 to 68.4% and from 26.5 to 70.7%, respectively. Consequently, a refinement in the classification of breast cancer molecular subtypes (from 58.2 to 78.6%, p < 0.001) was achieved with AI assistance. CONCLUSIONS: This study underscores the significant role of AI analyzers in improving pathologists' concordance in the classification of breast cancer molecular subtypes.",
+    "keywords": [
+      "Artificial intelligence (AI)",
+      "Breast cancer",
+      "Concordance",
+      "Digital pathology",
+      "Estrogen receptor (ER)",
+      "Human epidermal growth factor receptor 2 (HER2)",
+      "Progesterone receptor (PR)",
+      "Whole-slide image (WSI)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/diagnosis/metabolism",
+      "Receptors, Estrogen/metabolism",
+      "Biomarkers, Tumor/metabolism",
+      "Artificial Intelligence",
+      "Observer Variation",
+      "Receptors, Progesterone/metabolism",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jung, Minsun",
+        "Song, Seung Geun",
+        "Cho, Soo Ick",
+        "Shin, Sangwon",
+        "Lee, Taebum",
+        "Jung, Wonkyung",
+        "Lee, Hajin",
+        "Park, Jiyoung",
+        "Song, Sanghoon",
+        "Park, Gahee",
+        "Song, Heon",
+        "Park, Seonwook",
+        "Lee, Jinhee",
+        "Kang, Mingu",
+        "Park, Jongchan",
+        "Pereira, Sergio",
+        "Yoo, Donggeun",
+        "Chung, Keunhyung",
+        "Ali, Siraj M",
+        "Kim, So-Woon"
+      ],
+      "short_names": [
+        "Jung M",
+        "Song SG",
+        "Cho SI",
+        "Shin S",
+        "Lee T",
+        "Jung W",
+        "Lee H",
+        "Park J",
+        "Song S",
+        "Park G",
+        "Song H",
+        "Park S",
+        "Lee J",
+        "Kang M",
+        "Park J",
+        "Pereira S",
+        "Yoo D",
+        "Chung K",
+        "Ali SM",
+        "Kim SW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Yonsei University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Seoul National University College of Medicine, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Lunit, Seoul, Republic of Korea.",
+        "Department of Pathology, Kyung Hee University Hospital, Kyung Hee University College of Medicine, Seoul, Republic of Korea. swkdek@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jung, Minsun",
+        "short_name": "Jung M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Yonsei University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Seung Geun",
+        "short_name": "Song SG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Seoul National University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Soo Ick",
+        "short_name": "Cho SI",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Shin, Sangwon",
+        "short_name": "Shin S",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Taebum",
+        "short_name": "Lee T",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Wonkyung",
+        "short_name": "Jung W",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hajin",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Jiyoung",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Sanghoon",
+        "short_name": "Song S",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Gahee",
+        "short_name": "Park G",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Heon",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Seonwook",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jinhee",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Mingu",
+        "short_name": "Kang M",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Jongchan",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Pereira, Sergio",
+        "short_name": "Pereira S",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Donggeun",
+        "short_name": "Yoo D",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chung, Keunhyung",
+        "short_name": "Chung K",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ali, Siraj M",
+        "short_name": "Ali SM",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, So-Woon",
+        "short_name": "Kim SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Kyung Hee University Hospital, Kyung Hee University College of Medicine, Seoul, Republic of Korea. swkdek@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2024 Feb 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/24 11:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42449629",
+      "42406760",
+      "42291889",
+      "42180098",
+      "41845525",
+      "41744886",
+      "41595584",
+      "41409212",
+      "41037761",
+      "41031207",
+      "40789886",
+      "40696940",
+      "40419621",
+      "40313277",
+      "40236564",
+      "40050686",
+      "39891991",
+      "39627299",
+      "39267995"
+    ],
+    "refs": [
+      "37690911",
+      "37648694",
+      "37339271",
+      "37303228",
+      "36961981",
+      "36931740",
+      "36929936",
+      "36920563",
+      "36788100",
+      "36707660",
+      "36611460",
+      "36538386",
+      "36315545",
+      "36268080",
+      "35665782",
+      "35576849",
+      "35113160",
+      "34611303",
+      "34279719",
+      "33803148",
+      "32154039",
+      "31928404",
+      "31355445",
+      "31044723",
+      "28714765",
+      "28066683",
+      "26693050",
+      "23917950",
+      "23359091",
+      "23161712",
+      "21802721",
+      "21512768",
+      "20332278",
+      "19912364",
+      "18091390",
+      "17975153",
+      "15129906",
+      "11706067"
+    ],
+    "similar": [
+      "38395930",
+      "35789315",
+      "27315045",
+      "34279719",
+      "39393036",
+      "36931740",
+      "31640622",
+      "24652232",
+      "27666130",
+      "20529811",
+      "39350085",
+      "27743431",
+      "25339035",
+      "31628534",
+      "27349894",
+      "27456970",
+      "31669267",
+      "22290394",
+      "34518629",
+      "22045649",
+      "34464510",
+      "31883437",
+      "26138872",
+      "38519745",
+      "36788100",
+      "34875014",
+      "22949935",
+      "38651302",
+      "25234844",
+      "20863372",
+      "33667252",
+      "35733293",
+      "17259294",
+      "27377889",
+      "31348505",
+      "29383648",
+      "25966732",
+      "32350370",
+      "30230095",
+      "38441847",
+      "30927939",
+      "25736840",
+      "34244052",
+      "39053133",
+      "27760283",
+      "30659433",
+      "33585986",
+      "28549033",
+      "32592349",
+      "25012047",
+      "24095629",
+      "35576849",
+      "35271701",
+      "24261318",
+      "29444670",
+      "38231460",
+      "32803890",
+      "23240985",
+      "25174527",
+      "30534815",
+      "32334465",
+      "19574486",
+      "35711896",
+      "30066480",
+      "24065473",
+      "30756285",
+      "24269902",
+      "19887485",
+      "32758491",
+      "38021219",
+      "27619909",
+      "30694768",
+      "34673584",
+      "28404972",
+      "29758480",
+      "18958494",
+      "26125432",
+      "39004603",
+      "31276668",
+      "19629680",
+      "27078711",
+      "33889251",
+      "22711854",
+      "22611048",
+      "26829108",
+      "25216864",
+      "38820391",
+      "36611460",
+      "34022815",
+      "23757214",
+      "27029805",
+      "19764994",
+      "38061237",
+      "29286222",
+      "22119825",
+      "27221883",
+      "29523126",
+      "20701550",
+      "25880075",
+      "22903686",
+      "21375607",
+      "27889196",
+      "18098228",
+      "19432961",
+      "19159568",
+      "28689363",
+      "36224558",
+      "38852812",
+      "34555047",
+      "39143539",
+      "34922607",
+      "38452457",
+      "38412576",
+      "38809272",
+      "25202974",
+      "38153249",
+      "21677473",
+      "34415429",
+      "28378829",
+      "20524868",
+      "38712418",
+      "38845396",
+      "37409735",
+      "39241826",
+      "38655907",
+      "20332278",
+      "39160593",
+      "32622359",
+      "39103624",
+      "38751479",
+      "39227982",
+      "25763314",
+      "37926662",
+      "33742331",
+      "30866472",
+      "31935669",
+      "38496781",
+      "36520777",
+      "33803148",
+      "36888621",
+      "38541054",
+      "38907685",
+      "38387381",
+      "38929989",
+      "39111775",
+      "38725622",
+      "32140566",
+      "38724730",
+      "34039982",
+      "35884530",
+      "38157098",
+      "38927578",
+      "38593808",
+      "31338514",
+      "39320560",
+      "39406837",
+      "36599660",
+      "38730638",
+      "38893641",
+      "39045139",
+      "39410530",
+      "37443687",
+      "39099625",
+      "39360579",
+      "37999128",
+      "39025402",
+      "37850170",
+      "38471205",
+      "38375737",
+      "38868487",
+      "39112099",
+      "36673073",
+      "38619651",
+      "39400051",
+      "38429563",
+      "37702851",
+      "39177785",
+      "38940163",
+      "38780094",
+      "38638195",
+      "39258238",
+      "38751458",
+      "23965490",
+      "39356416",
+      "38090840",
+      "38277921",
+      "38462794",
+      "38699635",
+      "39231887",
+      "38730640",
+      "33937332",
+      "39277586",
+      "37570213",
+      "38244086",
+      "37530243",
+      "38552191",
+      "37945334",
+      "38487199",
+      "39091793",
+      "36817766",
+      "39123488",
+      "37100774",
+      "23533377",
+      "33987451",
+      "37919840",
+      "39020205",
+      "37519903"
+    ],
+    "review": [
+      "38395930",
+      "39053133",
+      "38820391",
+      "27889196",
+      "25202974",
+      "21677473",
+      "20524868",
+      "38712418",
+      "38845396",
+      "38655907",
+      "39103624",
+      "38751479",
+      "31935669",
+      "38929989",
+      "35884530",
+      "38593808",
+      "38730638",
+      "39410530",
+      "37443687",
+      "38619651",
+      "38429563",
+      "38780094",
+      "38638195",
+      "38699635",
+      "39277586",
+      "38487199"
+    ],
+    "pmc": [
+      "10885430"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-024-01784-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38395930/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38395930",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

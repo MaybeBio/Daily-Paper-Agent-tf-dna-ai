@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36476775",
+  "title": "Identification of perturbed pathways rendering susceptibility to tuberculosis in type 2 diabetes mellitus patients using BioNSi simulation of integrated networks of implicated human genes.",
+  "authors": "Rani, Jyoti; Bhargav, Anasuya; Seth, Surabhi; Datta, Malabika; Bajpai, Urmi; Ramachandran, Srinivasan",
+  "journal": "Journal of biosciences",
+  "published_date": "2022-12-09",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过基因表达与网络模拟研究糖尿病合并结核病的易感通路，未涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "In type 2 diabetes mellitus (T2DM) patients, chronic hyperglycemia and inflammation underlie susceptibility to tuberculosis (TB) and result in poor TB control. Here, an integrative pathway-based approach is used to investigate perturbed pathways in T2DM patients that render susceptibility to TB. We obtained 36 genes implicated in type 2 diabetes-associated tuberculosis (T2DMTB) from the literature. Gene expression analysis on T2DM patient data (GSE26168) showed that DEFA1 is differentially expressed at P(adj) <0.05. The human host TB susceptibility genes TNFRSF10A, MSRA, GPR148, SLC37A3, PXK, PROK2, REV3L, PGM1, HIST3H2A, PLAC4, LETM2, and EMP2 and hsa-miR-146a microRNA were also differentially expressed at P(adj) <0.05. We included all these genes and added the remaining 28 genes from the T2DMTB set and the remaining differentially expressed genes at P(adj) <0.05 in STRING and obtained a well-connected network with high confidence score (>/=0.7). Further, we extracted the KEGG pathways at FDR <0.05 and retained only the diabetes and TB pathways. The network was simulated with BioNSi using gene expression data. It is evident from BioNSi analysis that the NF-kappa B and Toll-like receptor pathways are commonly perturbed with high ranking in multiple gene expression datasets of type 2 diabetes versus healthy controls. The other pathways, necroptosis pathway and FoxO signalling pathway, appear perturbed with high ranking in different gene expression datasets. These pathways likely underlie susceptibility to TB in T2DM patients.",
+  "abstract_zh": "在2型糖尿病（T2DM）患者中，慢性高血糖和炎症是导致结核病（TB）易感性的基础，并导致结核病控制不佳。本文采用一种基于整合通路的方法，研究T2DM患者中导致结核病易感性的扰动通路。我们从文献中获取了36个与2型糖尿病相关结核病（T2DMTB）相关的基因。对T2DM患者数据（GSE26168）的基因表达分析显示，DEFA1在P(adj) <0.05时差异表达。人类宿主结核病易感性基因TNFRSF10A、MSRA、GPR148、SLC37A3、PXK、PROK2、REV3L、PGM1、HIST3H2A、PLAC4、LETM2和EMP2以及hsa-miR-146a microRNA也在P(adj) <0.05时差异表达。我们将所有这些基因纳入，并将T2DMTB集合中剩余的28个基因以及P(adj) <0.05时其余差异表达基因加入STRING，获得了一个具有高置信度评分（≥0.7）的良好连接网络。进一步，我们提取了FDR <0.05时的KEGG通路，并仅保留糖尿病和结核病相关通路。使用基因表达数据通过BioNSi对网络进行模拟。从BioNSi分析中明显看出，在多个2型糖尿病与健康对照的基因表达数据集中，NF-kappa B和Toll样受体通路以高排名共同受到扰动。其他通路，如坏死性凋亡通路和FoxO信号通路，在不同基因表达数据集中以高排名出现扰动。这些通路可能构成T2DM患者结核病易感性的基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36476775/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36476775/",
+  "paper_page_path": "papers/pubmed/36476775/index.html"
+}

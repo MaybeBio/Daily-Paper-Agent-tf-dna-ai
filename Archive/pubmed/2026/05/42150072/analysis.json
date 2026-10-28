@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42150072",
+  "title": "Predictions from deep learning propose substantial protein-carbohydrate interplay.",
+  "authors": "Canner, Samuel W; Schnaar, Ronald L; Gray, Jeffrey J",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测蛋白质-碳水化合物互作，虽非TF-DNA体系，但蛋白-配体互作预测方法可迁移至蛋白质-DNA互作建模，有一定借鉴价值。",
+  "abstract": "Noncovalent interaction between proteins and carbohydrates (sugars, glycans) is the basis for biological functions from metabolic regulation to intercellular recognition. It is a grand challenge to identify the protein-carbohydrate interactomes in organisms. Direct experiments would require extensive libraries of glycans to distinguish binding from nonbinding proteins. Computational screening of proteins for carbohydrate binding potential provides an attractive alternative. Current estimates propose that <5% of proteins bind carbohydrates, a number that is not well established. We therefore developed a neural network, \"Protein interaction of Carbohydrates Predictor\" (PiCAP), to predict whether a protein noncovalently binds to a carbohydrate. We trained PiCAP on a manually curated dataset of known carbohydrate binders and proteins that we identified as likely not to bind carbohydrates (transcription factors, cytoskeletal components, and small-molecule-binding proteins). PiCAP achieves 90% balanced accuracy on protein-level predictions of carbohydrate binding/nonbinding. Using the same datasets, we developed Carbohydrate Protein Site Identifier 2 (CAPSIF2) to predict protein residues that interact noncovalently with carbohydrates. CAPSIF2 achieves a Dice coefficient of 0.57 on residue-level predictions on our independent test dataset, outperforming previous models. To demonstrate the models' biological applicability, we investigated human cell surface proteins and further predicted the likelihood of carbohydrate binding in six proteomes (Escherichia coli, Mus musculus, Homo sapiens, Saccharomyces cerevisiae, Caenorhabditis elegans, Drosophila melanogaster). PiCAP predicts that ~35 to 40% of proteins in these proteomes bind carbohydrates, with 75% of extracellular and cell surface proteins predicted to bind. The PiCAP predicted binders are enriched for functions including growth factor receptor binding, inflammation, and cell-cell adhesion.",
+  "abstract_zh": "蛋白质与碳水化合物（糖类、聚糖）之间的非共价相互作用是生物功能的基础，涵盖从代谢调节到细胞间识别等过程。识别生物体中的蛋白质-碳水化合物相互作用组是一项重大挑战。直接实验需要大量的聚糖文库来区分结合与非结合蛋白质。对蛋白质进行碳水化合物结合潜力的计算筛选提供了一种有吸引力的替代方案。当前估计提出，<5%的蛋白质结合碳水化合物，这一数字尚未得到充分确立。因此，我们开发了一种神经网络，“碳水化合物结合蛋白预测器”（PiCAP），用于预测蛋白质是否非共价结合碳水化合物。我们在一个手动整理的已知碳水化合物结合蛋白数据集以及我们识别为可能不结合碳水化合物的蛋白质（转录因子、细胞骨架组分和小分子结合蛋白）上训练了PiCAP。PiCAP在蛋白质水平上的碳水化合物结合/非结合预测中达到了90%的平衡准确率。使用相同的数据集，我们开发了碳水化合物蛋白位点识别器2（CAPSIF2），用于预测与碳水化合物非共价相互作用的蛋白质残基。CAPSIF2在我们的独立测试数据集上的残基水平预测中达到了0.57的Dice系数，优于之前的模型。为了展示这些模型的生物学适用性，我们研究了人类细胞表面蛋白，并进一步预测了六个蛋白质组（大肠杆菌、小鼠、人类、酿酒酵母、秀丽隐杆线虫、黑腹果蝇）中碳水化合物结合的可能性。PiCAP预测这些蛋白质组中约35%至40%的蛋白质结合碳水化合物，其中75%的胞外和细胞表面蛋白被预测为结合。PiCAP预测的结合蛋白在功能上富集于生长因子受体结合、炎症和细胞-细胞粘附等过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42150072/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42150072/",
+  "paper_page_path": "papers/pubmed/42150072/index.html"
+}

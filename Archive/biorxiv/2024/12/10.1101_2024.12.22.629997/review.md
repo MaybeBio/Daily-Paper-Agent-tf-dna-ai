@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, figure legends not provided, supplementary information referenced but not provided)
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors present a deep-learning model that predicts adapter-corrected intrinsic DNA cyclizability (C0 corr) from sequence with high accuracy, and use this model to infer intrinsic bending direction, detect mechanical selection in yeast centromeres, and discover extreme DNA mechanics in diplonemid mitochondrial DNA and bird microchromosomes
+- **Visible evidence base** Main text sections (Abstract, Results subsections, Discussion, Methods), figure callouts (Figs 1-4, Supplementary Figs 1-11), supplementary tables referenced
+- **Missing materials affecting confidence** Figure panels and legends, Supplementary Notes 1-8, Supplementary Tables 1, all raw data files, model architecture details beyond text description, validation statistics for the model, full list of PDB structures analyzed
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant advance in predicting DNA mechanical properties from sequence, with a novel adapter-correction approach that substantially improves accuracy over prior methods. The application to population genetics and the discovery of extreme DNA mechanics in natural systems are conceptually interesting. However, the manuscript currently lacks sufficient methodological detail and validation evidence to fully support several strong claims, particularly regarding the spatial bending direction predictions and the evolutionary interpretations. The work has potential for broad impact but requires substantial additional evidence and clarification.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, chromatin biology, genome evolution, and computational genomics would find this work relevant. The improved cyclizability prediction model could be widely used for genome-scale analyses. The finding of mechanical selection in centromeres and extreme DNA mechanics in diplonemids and bird microchromosomes would interest evolutionary biologists and those studying genome architecture. The potential link between DNA mechanics and protein-DNA co-evolution has broad implications.
+- **Major strengths** 1) The adapter-correction approach addresses a known limitation in loop-seq data and demonstrably improves prediction accuracy. 2) The application of a predictive model to population genetics data to detect mechanical selection is novel and well-conceived. 3) The discovery of extreme cyclizability in natural DNA sequences, validated experimentally, is striking and unexpected. 4) The multi-technique validation (single-molecule FRET, AFM, FISH, electron microscopy) strengthens the key claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model predicts intrinsic bending direction in 3D space with high accuracy, and this prediction is used to claim that many proteins co-evolved with their DNA partners to capture DNA in its intrinsically preferred bent conformation.
+  - **Evidence pointer** Figure 2, Methods section "Spatial analysis of DNA bending", "Visualizing DNA bending in a 3-dimensional space"
+  - **Concern** The spatial analysis method is described only briefly. The derivation of bending direction from three cyclizability measurements (C26, C29, C31) is mathematically under-specified. The validation of this approach against known structures (778 PDB entries) is mentioned but no quantitative results are shown in the provided text. The claim of co-evolution between proteins and DNA bending preferences is a strong evolutionary statement that requires careful statistical control for confounding factors (e.g., base composition, protein binding preferences unrelated to mechanics).
+  - **Why it matters** The spatial bending direction prediction is a central novel contribution and underpins the co-evolution claim. If the method is not rigorously validated, the evolutionary interpretation is unsupported. The claim that "many proteins co-evolved" is broad and requires demonstration that the effect is not driven by a few protein families or by sequence conservation unrelated to mechanics.
+  - **Resolution test** Provide full mathematical derivation of the spatial analysis, show calibration plots for bending direction predictions against crystallographic data, include permutation tests or controls (e.g., randomized sequences with matched composition), and demonstrate that the co-evolution signal is robust across protein families and not confounded by sequence conservation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves near-perfect accuracy (Pearson's correlation of approximately 0.96) for predicting adapter-corrected intrinsic cyclizability.
+  - **Evidence pointer** Figure 1b, Methods section "Training the model", "Removing the effects of adapter sequences"
+  - **Concern** The reported accuracy is based on a specific train-test split and filtering criteria. The text states that sequences with low read counts were removed and adapter effects corrected, but the exact filtering thresholds, the size of training and test sets, and the generalizability across different genomic contexts (e.g., GC content, sequence length, species) are not fully specified. The comparison to prior models (max 0.75-0.77) is mentioned but the evaluation protocol for this comparison is not described.
+  - **Why it matters** The claim of near-perfect prediction accuracy is the foundation for all downstream applications. If the accuracy is inflated by data filtering or overfitting, the biological conclusions drawn from the model could be unreliable. The improvement over prior methods needs to be demonstrated under comparable conditions.
+  - **Resolution test** Provide full details of data filtering, train-test splits, cross-validation results, and performance metrics on held-out datasets from different species or genomic contexts. Show a direct comparison with prior models using identical training and evaluation protocols.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Support for conclusions
+  - **Claim pointer** The mitochondrial DNA of Namystynia karyoxenos contains extremely cyclizable sequences, and this is attributed to selection for DNA compaction in the absence of mtDNA-binding proteins.
+  - **Evidence pointer** Figure 4h-k, Supplementary Figures 9-10, Methods section "Quantification of mitochondrial DNA", "Targeting the circularized regions of N. karyoxenos mtDNA"
+  - **Concern** The causal link between high cyclizability and selection for compaction is speculative. The authors show correlation (high cyclizability in mtDNA, absence of identified mtDNA-binding proteins) but do not demonstrate that cyclizability is the trait under selection. Alternative explanations (e.g., base composition drift, mutation bias, other selective pressures) are not thoroughly excluded. The estimate of mtDNA content (approximately 653 Mb) relies on a nuclear genome size proxy from a different species, introducing substantial uncertainty.
+  - **Why it matters** The claim that this represents "mechanical selection pushed to the extreme" is a major evolutionary conclusion. Without direct evidence for the selective mechanism, or at least exclusion of alternative explanations, the claim is not established. The quantitative estimate of mtDNA content is central to the argument and needs better constraint.
+  - **Resolution test** Provide additional analyses excluding alternative explanations (e.g., mutation bias, GC content effects), direct measurement of mtDNA content in N. karyoxenos, and ideally experimental manipulation (e.g., deletion of highly cyclizable sequences and assessment of fitness or compaction).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The mechanical selection analysis of yeast centromeres shows pro-rigidity selection at CDEI and upstream CDEII, and selection for bending direction in downstream CDEII.
+  - **Evidence pointer** Figure 3, Methods section "Quantifying selection pressure on DNA mechanics", "Aligning genomic sequences of 1,011 yeast isolates"
+  - **Concern** The statistical framework for detecting mechanical selection is described but the details are incomplete. The simulation procedure for generating null distributions, the handling of linkage disequilibrium between nearby sites, and the multiple testing correction across 16 centromeres and many windows are not fully specified. The interpretation of "pro-rigidity selection" assumes that the simulated mutations are neutral with respect to other selective pressures, which may not hold in centromeric regions with high sequence turnover.
+  - **Why it matters** The population genetics analysis is a key novel application. If the statistical framework is not robust, the conclusion that centromeres are under mechanical selection is not reliable. This claim has implications for understanding centromere evolution and function.
+  - **Resolution test** Provide full details of the simulation procedure, demonstrate calibration of the test statistic under null conditions, and show that results are robust to different demographic models and mutation rates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume familiarity with loop-seq and cyclizability concepts. The significance of the adapter correction and the spatial analysis may not be clear to readers outside the DNA mechanics field.
+  - **Required correction** Briefly explain what cyclizability measures and why adapter correction matters in the introduction. Consider adding a schematic figure for the overall workflow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Uncertainty of loop-seq measured cyclizability"
+  - **Evidence pointer** Methods section
+  - **Issue** The Bayesian and frequentist uncertainty calculations are described but the formulas are not shown in the main text. The equivalence claim (Spearman's R = 0.997) is stated without showing the comparison.
+  - **Required correction** Include the formulas in the main text or supplementary, and show the comparison between Bayesian and frequentist uncertainty estimates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Model architecture"
+  - **Evidence pointer** Methods section
+  - **Issue** The model architecture is described but key hyperparameters (number of training epochs for each model, batch size, learning rate schedule, regularization details) are incomplete. The statement "trained over four epochs" for the adapter-corrected model differs from the seven epochs mentioned earlier.
+  - **Required correction** Clarify the training protocol for each model and reconcile the epoch discrepancy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of bird microchromosomes is brief and the functional significance of high cyclizability there is not explored. The connection to the diplonemid findings is suggestive but not developed.
+  - **Required correction** Expand the discussion of bird microchromosomes, including potential functional hypotheses and how they might be tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (spatial analysis validation), R1-M2 (model accuracy assessment), R1-M3 (causal claim for mtDNA selection)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The adapter-correction approach and the application to population genetics are novel. The discovery of extreme DNA mechanics in natural systems is unexpected.
+  - Scientific importance: Moderate to high. If the claims are fully supported, this work would establish DNA mechanics as a significant evolutionary force and provide a widely usable predictive tool. However, the importance of the specific findings (e.g., centromere selection, mtDNA compaction) needs stronger causal evidence.
+  - Interdisciplinary readership: High. The work bridges biophysics, genomics, and evolutionary biology. The tool and findings would interest researchers across these fields.
+  - Technical soundness: Currently insufficient. The model accuracy claims and the spatial analysis method require more rigorous validation and detail. The population genetics framework needs fuller specification.
+  - Readability for nonspecialists: Moderate. The writing is generally clear but assumes familiarity with the loop-seq technique and DNA mechanics concepts. Some sections (Methods) are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the potential impact is high, but the current evidence does not fully establish the central claims, particularly regarding spatial bending prediction and the evolutionary interpretations.
+
+## Risk / unsupported claims
+- The claim that the model predicts intrinsic bending direction with high accuracy is not supported by quantitative validation data in the provided text.
+- The claim that "many proteins co-evolved with their DNA partners" based on the PDB analysis is an overstatement given the lack of statistical controls described.
+- The causal attribution of high cyclizability in N. karyoxenos mtDNA to selection for compaction in the absence of binding proteins is speculative.
+- The estimate of approximately 653 Mb mtDNA in N. karyoxenos relies on an unvalidated proxy and should be treated as highly uncertain.
+- The claim of "near-perfect accuracy" (approximately 0.96 correlation) for the model requires more rigorous evaluation before it can be accepted.
+- The statement that existing models have "limited accuracy" with maxima of 0.75-0.77 needs direct comparison under identical conditions to be verified.

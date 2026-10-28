@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors used classical all-atom molecular dynamics and enhanced sampling simulations to study the ZTA transcription factor bound to two dsDNA systems, a core motif and a core motif with flanking end sequences. They report that flanking sequences significantly influence structural stability and binding affinity, and that among ZRE 1, ZRE 2, and ZRE 3, ZRE 3 with its natural flanking ends shows the highest stability and binding affinity. They propose mechanistic insights relevant to EBV pathogenesis and therapeutic targeting.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy estimates, error bars, structural analyses, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study of sequence-dependent ZTA-DNA binding. However, the claims of quantitative binding affinity and mechanistic insight cannot be evaluated from the abstract alone. The central conclusion that flanking sequences modulate stability and affinity, and that ZRE 3 is the most stable, is stated without supporting numerical evidence. The abstract also overreaches in its final statements about therapeutic targeting and serving as a benchmark, which are not substantiated by the described work.
+- **Who would be interested in the results, and why** Researchers studying Epstein-Barr virus biology, transcription factor DNA recognition, protein-DNA interactions, and computational biophysics. The work may also interest those developing targeted therapies for EBV-associated cancers, though the translational relevance is indirect at this stage.
+- **Major strengths** The study addresses a biologically important question with clear relevance to viral reactivation. The use of all-atom MD with enhanced sampling is appropriate for probing binding thermodynamics. The comparison between core motif and flanking-end systems is a sensible design to isolate sequence context effects.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that flanking sequences significantly influence structural stability and binding affinity, and that ZRE 3 exhibits higher stability and binding affinity than ZRE 1 and ZRE 2.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** No quantitative data are presented to support the claims of differential stability and binding affinity. No free energy values, statistical uncertainties, or comparison metrics are given. The abstract does not state how many independent simulations were performed, what enhanced sampling method was used, or how convergence was assessed.
+  - **Why it matters** Without numerical evidence and error estimates, the central conclusion cannot be distinguished from anecdotal observation. The claim of "higher binding affinity" requires a quantitative free energy difference with associated uncertainty.
+  - **Resolution test** Provide binding free energy estimates with standard errors for each ZRE system, and show that the differences between systems exceed the statistical uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that classical all-atom MD and enhanced sampling simulations were employed.
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Concern** No simulation details are given, including force field, water model, salt concentration, simulation length, temperature, enhanced sampling technique, or system size. Without these, the reliability of the results cannot be assessed.
+  - **Why it matters** MD results are highly sensitive to force field choice and sampling protocol. The absence of these details prevents evaluation of technical soundness and reproducibility.
+  - **Resolution test** Include full simulation parameters in the main text or supplementary information, and justify the choice of enhanced sampling method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract states that the findings "may indicate potential targets for therapeutic intervention" and that the study "will serve as a holistic benchmark for future studies."
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Concern** These statements extend beyond the reported computational results. No experimental validation or connection to therapeutic targets is described, and the claim of serving as a benchmark is self-referential and not supported by comparison to existing literature.
+  - **Why it matters** Overstated conclusions can mislead readers about the translational readiness and novelty of the work.
+  - **Resolution test** Remove or substantially soften these claims, or provide explicit comparison to prior computational and experimental studies on ZTA-DNA binding.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, systems description
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** The abstract refers to "two different dsDNA systems" but then discusses three ZREs. It is unclear whether the two systems refer to core motif versus flanking-end versions for each ZRE, or whether only two ZREs were studied.
+  - **Required correction** Clarify the relationship between the two dsDNA systems and the three ZREs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results; location not provided
+  - **Issue** The phrase "higher stability" is vague. It is not specified whether this refers to structural stability, thermal stability, or binding stability.
+  - **Required correction** Define what is meant by stability and specify the metric used to assess it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, methods
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** The abstract mentions "residue-level and nucleic acid-level analyses" but does not indicate what specific interactions were identified or how they differ between systems.
+  - **Required correction** Provide a brief summary of key interacting residues and bases, or state that these details are in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative binding data and simulation parameters means the central claims are not currently established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of sequence-dependent ZTA-DNA binding is of interest, but the abstract does not demonstrate novelty beyond prior structural and biochemical studies of ZTA. The approach is standard for the field.
+  - Scientific importance: The topic is relevant to EBV biology, but the abstract does not show how the findings advance understanding beyond existing knowledge.
+  - Interdisciplinary readership: The work may appeal to virologists, biophysicists, and computational chemists, but the abstract is written in a way that is accessible to a broad scientific audience.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details or validation are provided.
+  - Readability for nonspecialists: The abstract is generally clear, though some terms such as "ZRE" and "flanking end sequences" are used without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A revised abstract with specific data and methods, or access to the full manuscript, would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that flanking sequences significantly influence structural stability and binding affinity is unsupported without quantitative data.
+- The claim that ZRE 3 exhibits higher stability and binding affinity than ZRE 1 and ZRE 2 is unsupported without free energy values and uncertainties.
+- The claim that findings "may indicate potential targets for therapeutic intervention" is unsupported and speculative.
+- The claim that the study "will serve as a holistic benchmark" is unsupported and self-referential.
+- The methodological adequacy of the simulations is not assessable from the abstract.

@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "35850313",
+    "doi": "10.1016/j.jep.2022.115546",
+    "title": "Optimizing component formula suppresses lung cancer by blocking DTL-mediated PDCD4 ubiquitination to regulate the MAPK/JNK pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Salvia miltiorrhiza Bunge and Panax ginseng C. A. Meyer have special curative effect on cancer treatment. The optimizing component formula (OCF) extracted from those two herbs was in line with the anti-lung cancer treatment principle of activating blood and supplementing 'Qi'. However, the study on the mechanism of component formula has always been an insurmountable challenge. Nowadays, the application of network pharmacology and artificial intelligence (AI) in the field of TCM provides new ideas for the study of new targets and mechanisms of TCM, which promotes the modernization of TCM. AIM OF THE STUDY: This study aims to further explore the anti-lung cancer mechanism of OCF by using an integrated strategy of network pharmacology and AI technology. MATERIALS AND METHODS: Bioinformatic analysis was used to analyze the expression levels, prognosis and survival of DTL and PDCD4 in cancer patients. The binding strength of OCF and DTL was simulated by molecular docking, and the affinity between them was detected by Bio-layer interferometry. Network pharmacology was used to predict the active components, potential targets and pathways of OCF. The association between key targets and their corresponding components and DTL was analyzed by Ingenuity Pathway Analysis (IPA). MTT assay, colony formation assay, wound-healing assay and transwell assay were used to verify the inhibitory effects of OCF on lung cancer cells in vitro. qRT-PCR and Western blot assay were used to detect the effects of OCF on mRNA and protein expression of DTL, PDCD4 and key genes in MAPK/JNK pathways. RESULTS: Bioinformatics analysis showed that DTL was significantly up-regulated in lung cancer, which was associated with high malignancy rate, high metastasis rate and poor prognosis of primary tumor. PDCD4 was down-regulated in lung cancer, and associated with high metastasis rate and poor prognosis. The good affinity between OCF and DTL was predicted and verified by molecular docking and Bio-layer interferometry. Based on the network pharmacological databases, 40 active components and 220 corresponding targets of OCF were screened out. KEGG analysis showed that OCF component targets were mainly enriched in MAPK signaling pathway. IPA results showed the interrelationship between DTL, PDCD4, MAPK pathway genes and their corresponding OCF components. In addition, in vitro experiments demonstrated anti-lung cancer activity of OCF, as validated, via impairing cell viability and cell proliferation, as well as inhibiting migration and invasion abilities in lung cancer cells. qRT-PCR showed that OCF down-regulated the mRNA expression of DTL, MAP4K1, JNK, c-Jun and c-Myc, and up-regulated the mRNA expression of PDCD4 and P53 genes in A549 lung cancer cells. Western blot suggested that OCF suppressed the protein level of DTL and blocked the ubiquitination of PDCD4 in A549 lung cancer cells, and down-regulated the protein levels of MAP4K1, p-JNK and p-c-Jun while up-regulated the proteins expression level of P53. CONCLUSIONS: OCF might elicit an anti-lung cancer effect by blocking DTL-mediated PDCD4 ubiquitination and suppression of the MAPK/JNK pathway. Meanwhile, our work revealed that network pharmacology and AI technology strategy are cogent means of studying the active components and mechanism of TCM.",
+    "keywords": [
+      "Bioinformatics",
+      "Lung carcinoma",
+      "MAPK/JNK pathway",
+      "Network pharmacology",
+      "Optimizing component formula (OCF)"
+    ],
+    "mesh_terms": [
+      "Apoptosis Regulatory Proteins/genetics/metabolism",
+      "Artificial Intelligence",
+      "Humans",
+      "*Lung Neoplasms/drug therapy",
+      "*MAP Kinase Signaling System",
+      "Molecular Docking Simulation",
+      "Nuclear Proteins/metabolism",
+      "RNA, Messenger/metabolism",
+      "RNA-Binding Proteins/genetics/metabolism",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Ubiquitination"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Qianqian",
+        "Lu, Qinwei",
+        "Wang, Guiyang",
+        "Zhu, Wenjing",
+        "Teng, Linxin",
+        "Chen, Weiping",
+        "Bi, Lei"
+      ],
+      "short_names": [
+        "Fan Q",
+        "Lu Q",
+        "Wang G",
+        "Zhu W",
+        "Teng L",
+        "Chen W",
+        "Bi L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China. Electronic address: lbi@njucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Qianqian",
+        "short_name": "Fan Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Qinwei",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guiyang",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wenjing",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Linxin",
+        "short_name": "Teng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Weiping",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Lei",
+        "short_name": "Bi L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 210023, China. Electronic address: lbi@njucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2022 Dec 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/20 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "42193314",
+      "41704775",
+      "41461624",
+      "41351720",
+      "40642061",
+      "40356680",
+      "40200025",
+      "40075729",
+      "39430157",
+      "39351450",
+      "38819228",
+      "38609375",
+      "38371808",
+      "37600392",
+      "37312153",
+      "36355517"
+    ],
+    "refs": [],
+    "similar": [
+      "35850313",
+      "31409387",
+      "38403323",
+      "16449643",
+      "35271947",
+      "24157866",
+      "34087401",
+      "23469214",
+      "22801218",
+      "35300770",
+      "34793885",
+      "36627003",
+      "34246740",
+      "28088493",
+      "38167059",
+      "35059734",
+      "38941043",
+      "28423589",
+      "26026468",
+      "34159207",
+      "32774415",
+      "28301605",
+      "35583010",
+      "28232127",
+      "32474742",
+      "22033922",
+      "15334056",
+      "27533779",
+      "24902663",
+      "35405252",
+      "30657562",
+      "34464700",
+      "31851829",
+      "28854977",
+      "34905503",
+      "22335905",
+      "28842954",
+      "30205366",
+      "31293277",
+      "25175929",
+      "27028868",
+      "34521875",
+      "33645088",
+      "36894110",
+      "36503030",
+      "29131009",
+      "37842037",
+      "23296900",
+      "36870024",
+      "25477028",
+      "30025387",
+      "33915505",
+      "35667260",
+      "22289349",
+      "36969705",
+      "26802652",
+      "25864648",
+      "35777610",
+      "17259349",
+      "35640631",
+      "20831814",
+      "39306212",
+      "34808299",
+      "23638878",
+      "27726288",
+      "24334270",
+      "33497736",
+      "34635635",
+      "32315738",
+      "36826085",
+      "33895481",
+      "27383306",
+      "24334141",
+      "34994139",
+      "37143277",
+      "28629431",
+      "38681592",
+      "31298323",
+      "34460036",
+      "33478536",
+      "30003722",
+      "34627325",
+      "35463358",
+      "34614446",
+      "31550857",
+      "25891762",
+      "34499772",
+      "20372781",
+      "26063221",
+      "25432142",
+      "32344160",
+      "18793349",
+      "34737112",
+      "30760284",
+      "28692058",
+      "28886730",
+      "17968323",
+      "32200026",
+      "24659669",
+      "22272332",
+      "31866511",
+      "35317323",
+      "31891797",
+      "31233196",
+      "37257705",
+      "38632092",
+      "36387497",
+      "35611776",
+      "37695389",
+      "37149966",
+      "38750988",
+      "38758152",
+      "37716981",
+      "38395178",
+      "38697407",
+      "37046197",
+      "36200182",
+      "36744264",
+      "37758012",
+      "38081915",
+      "38234627",
+      "39190024",
+      "38885333",
+      "36605402",
+      "38416262",
+      "34419228",
+      "37838296",
+      "38361519",
+      "33897417",
+      "39244135",
+      "37802813",
+      "37038185",
+      "37764733",
+      "38333922",
+      "36937843",
+      "36467051",
+      "36654467",
+      "32489526",
+      "26982744",
+      "36872239",
+      "35186504",
+      "38104875",
+      "37189139",
+      "36566006",
+      "37682145",
+      "36755950",
+      "38144346",
+      "38175425",
+      "37673201",
+      "38259290",
+      "39356318",
+      "39352002",
+      "37168991",
+      "33117150",
+      "38163225",
+      "30622613",
+      "38641729",
+      "38609375",
+      "38533033",
+      "39023680",
+      "36355517",
+      "37747647",
+      "37460054",
+      "31905767",
+      "36686654",
+      "37809049",
+      "37484327",
+      "38013320",
+      "29806708",
+      "38229092",
+      "36555782",
+      "35646921",
+      "39120474",
+      "38545147",
+      "36147444",
+      "39006452",
+      "30410554",
+      "36685422",
+      "39188951",
+      "37425621",
+      "37604387",
+      "38720766",
+      "38759035",
+      "24379889",
+      "39152726",
+      "38027894",
+      "39360781",
+      "37347364",
+      "37600377",
+      "36570170",
+      "37600507",
+      "38087254",
+      "36088545",
+      "26106439",
+      "36139836",
+      "37876445",
+      "30693177",
+      "38347741",
+      "37035004",
+      "28635674",
+      "30927432",
+      "37251843",
+      "35619663",
+      "38063626",
+      "38519729",
+      "36997372"
+    ],
+    "review": [
+      "35850313",
+      "38632092"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(22)00585-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

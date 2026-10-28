@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "39910206",
+    "doi": "10.1038/s42003-025-07570-6",
+    "title": "CoTF-reg reveals cooperative transcription factors in oligodendrocyte gene regulation using single-cell multi-omics."
+  },
+  "content": {
+    "abstract": "Oligodendrocytes are the myelinating cells within the central nervous system, but the mechanisms by which transcription factors (TFs) cooperate for gene regulation in oligodendrocytes remain unclear. We introduce coTF-reg, an analytical framework that integrates scRNA-seq and scATAC-seq data to identify cooperative TFs co-regulating the target gene (TG). First, we identify co-binding TF pairs in the same oligodendrocyte-specific regulatory regions. Next, we train a deep learning model to predict each TG expression using the co-binding TFs' expressions. Shapley interaction scores reveal high interactions between co-binding TF pairs, such as SOX10-TCF12. Validation using oligodendrocyte eQTLs and their eGenes that are regulated by these cooperative TFs show potential regulatory roles for genetic variants. Experimental validation using ChIP-seq data confirms some cooperative TF pairs, such as SOX10-OLIG2. Prediction performance of our models is evaluated through holdout data and additional datasets, and an ablation study is also conducted. The results demonstrate stable and consistent performance.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Oligodendroglia/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "Animals",
+      "*Single-Cell Analysis/methods",
+      "*Gene Expression Regulation",
+      "Mice",
+      "Humans",
+      "SOXE Transcription Factors/genetics/metabolism",
+      "Deep Learning",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Jerome J",
+        "Svaren, John",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Choi JJ",
+        "Svaren J",
+        "Wang D"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7206-5758",
+        "ORCID: 0000-0003-2963-7921",
+        "ORCID: 0000-0001-9190-3704"
+      ],
+      "affiliations": [
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Population Health Sciences, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Comparative Biosciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu.",
+        "Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Jerome J",
+        "short_name": "Choi JJ",
+        "identifiers": [
+          "0009-0008-7206-5758"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA.",
+          "Department of Population Health Sciences, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Svaren, John",
+        "short_name": "Svaren J",
+        "identifiers": [
+          "0000-0003-2963-7921"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA.",
+          "Department of Comparative Biosciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0001-9190-3704"
+        ],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu.",
+          "Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI, USA. daifeng.wang@wisc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Feb 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/06 00:21",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "41702709"
+    ],
+    "refs": [
+      "39402379",
+      "39265576",
+      "38781369",
+      "38653489",
+      "38455978",
+      "37971293",
+      "37824614",
+      "37774677",
+      "37443338",
+      "37004127",
+      "36790055",
+      "36371468",
+      "36318265",
+      "36307979",
+      "36261002",
+      "36198499",
+      "35915177",
+      "35440087",
+      "35317338",
+      "35232486",
+      "34850907",
+      "34827627",
+      "34725479",
+      "34480425",
+      "34362918",
+      "34062119",
+      "34044854",
+      "32117005",
+      "31913281",
+      "31828317",
+      "31048900",
+      "30770136",
+      "29964158",
+      "29791837",
+      "29500351",
+      "29499767",
+      "29409532",
+      "29335358",
+      "29074959",
+      "29023979",
+      "28576882",
+      "28369316",
+      "28246330",
+      "28160598",
+      "28076777",
+      "27068685",
+      "26955760",
+      "26926434",
+      "26709696",
+      "26651947",
+      "26290228",
+      "26134004",
+      "26101081",
+      "25974668",
+      "25884877",
+      "25867923",
+      "25710531",
+      "25650801",
+      "23966833",
+      "23715323",
+      "23332759",
+      "22955619",
+      "22798495",
+      "21853041",
+      "20378558",
+      "20080941",
+      "19838178",
+      "19741698",
+      "19503085",
+      "19144180",
+      "18275855",
+      "17098222",
+      "16773649",
+      "15601927",
+      "14597658",
+      "12702751",
+      "12045153",
+      "11526078"
+    ],
+    "similar": [
+      "39910206",
+      "38948852",
+      "38653489",
+      "27532821",
+      "39376034",
+      "34480425",
+      "25680202",
+      "36902216",
+      "34292930",
+      "39796242",
+      "38940155",
+      "20959288",
+      "39326643",
+      "16673374",
+      "32825662",
+      "38460192",
+      "34324186",
+      "26955760",
+      "38546197",
+      "36477827",
+      "25564492",
+      "20229602",
+      "39833103",
+      "28370559",
+      "38995010",
+      "34426111",
+      "34385359",
+      "31828317",
+      "20885955",
+      "24204311",
+      "29500351",
+      "37805453",
+      "17098222",
+      "36318265",
+      "25559499",
+      "20144603",
+      "19956545",
+      "30212518",
+      "39201442",
+      "30598100",
+      "32574834",
+      "15930386",
+      "18184726",
+      "39769196",
+      "39082647",
+      "32976105",
+      "15749939",
+      "23507034",
+      "38980373",
+      "24565265",
+      "34864886",
+      "24516667",
+      "32858223",
+      "26679776",
+      "37770437",
+      "15523643",
+      "36943152",
+      "40102719",
+      "23729567",
+      "33770499",
+      "15102707",
+      "27821050",
+      "39922197",
+      "32039697",
+      "27785726",
+      "34579793",
+      "39152038",
+      "30306660",
+      "39769160",
+      "29023979",
+      "39482734",
+      "36114445",
+      "28751716",
+      "25957350",
+      "25614629",
+      "39062480",
+      "32069291",
+      "34953471",
+      "38580401",
+      "30578913",
+      "31899481",
+      "21034515",
+      "35392802",
+      "21098272",
+      "35263332",
+      "33372147",
+      "23338937",
+      "35681170",
+      "22064487",
+      "39487131",
+      "22863112",
+      "39535258",
+      "26928066",
+      "23332759",
+      "34174819",
+      "24564277",
+      "36200779",
+      "30730593",
+      "30709337",
+      "36738683"
+    ],
+    "review": [
+      "39910206",
+      "34480425",
+      "23729567"
+    ],
+    "pmc": [
+      "11799153"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-07570-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39910206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

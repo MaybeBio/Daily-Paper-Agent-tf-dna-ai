@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36503892",
+  "title": "CNN-Pred: Prediction of single-stranded and double-stranded DNA-binding protein using convolutional neural networks.",
+  "authors": "Manavi, Farnoush; Sharma, Alok; Sharma, Ronesh; Tsunoda, Tatsuhiko; Shatabda, Swakkhar; Dehzangi, Iman",
+  "journal": "Gene",
+  "published_date": "2022-12-13",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN基于PSSM特征预测单/双链DNA结合蛋白，属于广义蛋白-DNA互作分类，但未涉及TF-DNA特异性结合或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins play a vital role in biological activity including DNA replication, DNA packing, and DNA reparation. DNA-binding proteins can be classified into single-stranded DNA-binding proteins (SSBs) or double-stranded DNA-binding proteins (DSBs). Determining whether a protein is DSB or SSB helps determine the protein's function. Therefore, many studies have been conducted to accurately identify DSB and SSB in recent years. Despite all the efforts have been made so far, the DSB and SSB prediction performance remains limited. In this study, we propose a new method called CNN-Pred to accurately predict DSB and SSB. To build CNN-Pred, we first extract evolutionary-based features in the form of mono-gram and bi-gram profiles using position specific scoring matrix (PSSM). We then, use 1D-convolutional neural network (CNN) as the classifier to our extracted features. Our results demonstrate that CNN-Pred can enhance the DSB and SSB prediction accuracies by more than 4%, on the independent test compared to previous studies found in the literature. CNN-pred as a standalone tool and all its source codes are publicly available at: https://github.com/MLBC-lab/CNN-Pred.",
+  "abstract_zh": "DNA结合蛋白在生物活动中扮演着至关重要的角色，包括DNA复制、DNA包装和DNA修复。DNA结合蛋白可分为单链DNA结合蛋白（SSBs）或双链DNA结合蛋白（DSBs）。确定一个蛋白质是DSB还是SSB有助于确定该蛋白质的功能。因此，近年来进行了许多研究以准确识别DSB和SSB。尽管迄今已做出所有努力，DSB和SSB的预测性能仍然有限。在本研究中，我们提出了一种名为CNN-Pred的新方法，以准确预测DSB和SSB。为了构建CNN-Pred，我们首先使用位置特异性评分矩阵（PSSM）提取基于进化特征的单克和双克图谱形式。然后，我们使用一维卷积神经网络（CNN）作为我们提取特征的分类器。我们的结果表明，与文献中先前研究相比，CNN-Pred在独立测试上能将DSB和SSB预测准确率提高超过4%。CNN-pred作为独立工具及其所有源代码可在以下网址公开获取：https://github.com/MLBC-lab/CNN-Pred。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36503892/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36503892/",
+  "paper_page_path": "papers/pubmed/36503892/index.html"
+}

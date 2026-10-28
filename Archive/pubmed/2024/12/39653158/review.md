@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, as supplied
+- **Shared manuscript claim summary** The abstract argues that structural and dynamics studies of nuclear receptors (NRs), including heterodimers and homodimers, reveal conserved allosteric communication between ligand-binding domains (LBDs) and DNA-binding domains (DBDs), mediated by flexible hinge regions and N-terminal segments, and that these interdomain connections regulate transcriptional activity across the NR family.
+- **Visible evidence base** The abstract cites X-ray crystallography, cryo-EM, hydrogen-deuterium exchange mass spectrometry, and molecular dynamics simulations, and names specific receptor complexes (PPAR-gamma/RXRalpha, LXRbeta/RXRalpha, RARbeta/RXRalpha, HNF-4alpha, AR, GR). No figures, tables, or detailed methods are provided.
+- **Missing materials affecting confidence** Full text, figures, tables, experimental details, statistical analyses, and primary data are not available. The abstract provides no quantitative results, no specific structural coordinates, no dynamics metrics, and no direct evidence linking observed conformations to functional outcomes.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely synthesis of recent structural and biophysical work on nuclear receptor allostery. However, as an abstract, it offers a high-level narrative without the depth required to evaluate the technical rigor of the underlying studies. The claim of a "conserved mechanism" across the NR family is ambitious and, based on the limited evidence summarized, appears to be an inference rather than a directly demonstrated conclusion. The writing is clear and accessible, but the scientific case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, biophysicists, and researchers in nuclear receptor signaling and drug discovery would find this synthesis valuable. The focus on interdomain allostery and conformational dynamics is relevant to understanding receptor function and designing modulators that target domain interfaces. The comparative analysis across steroid and non-steroid receptors could inform broader studies of multidomain protein regulation.
+- **Major strengths** The abstract integrates multiple complementary techniques, which strengthens the credibility of the overall conclusions. The inclusion of both heterodimeric and homodimeric receptor systems provides a broad comparative scope. The emphasis on flexible hinge regions and N-terminal segments as mediators of allostery is a nuanced and mechanistically insightful perspective. The writing is concise and accessible to a nonspecialist audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "collective findings so far suggest a conserved mechanism of cross-domain communication across the NR family."
+  - **Evidence pointer** Abstract, general statements; location not provided
+  - **Concern** The claim of a conserved mechanism is presented as a general conclusion, but the abstract does not provide specific comparative data or a systematic analysis across the named receptors. The evidence for conservation is implied rather than demonstrated. Without quantitative comparisons of domain-domain interfaces, dynamics timescales, or functional readouts across multiple receptors, the claim remains an assertion.
+  - **Why it matters** A conserved mechanism would have significant implications for understanding NR evolution and for developing pan-receptor therapeutic strategies. If the claim is not rigorously supported, it could overstate the generalizability of the findings and mislead future research directions.
+  - **Resolution test** The full manuscript should provide a systematic comparison of interdomain communication across at least three distinct receptor types, with quantitative metrics (e.g., interface buried surface area, dynamics correlation coefficients, or mutagenesis effects on transcriptional activity) that demonstrate similarity or convergence. The claim should be explicitly qualified if the evidence shows receptor-specific variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The abstract states that "domain-domain interfaces and their pivotal roles in regulating the transcriptional activity of steroid and non-steroid receptors" have been elucidated.
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Concern** The abstract asserts a direct link between structural observations of domain-domain interfaces and transcriptional activity, but no functional data (e.g., reporter assays, mutagenesis coupled with activity measurements, or cellular studies) are mentioned in the abstract. The connection between structural dynamics and biological output is inferred rather than evidenced.
+  - **Why it matters** The central relevance of NR allostery lies in its functional consequences. If the structural findings are not directly tied to transcriptional outcomes, the significance of the described interdomain communication remains speculative.
+  - **Resolution test** The full manuscript should include functional experiments that perturb specific domain-domain interfaces (e.g., mutations or crosslinking) and measure transcriptional activity, demonstrating a causal link. Alternatively, the abstract should be revised to state that the structural data suggest a potential role, rather than claiming elucidation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, sentence on AR and GR
+  - **Evidence pointer** Abstract, "For instance, AR demonstrates three distinct conformational states... while GR exhibits unique ligand-dependent domain interactions"
+  - **Issue** The examples of AR and GR are mentioned without context on how they specifically support the conserved mechanism claim. The relevance of these examples to the broader argument is not immediately clear.
+  - **Required correction** Briefly explain how the AR conformational states and GR ligand-dependent interactions illustrate the proposed conserved mechanism, or reposition these examples as evidence of diversity rather than conservation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "non-steroid receptor heterodimers"
+  - **Evidence pointer** Abstract, "Both non-steroid receptor heterodimers and homodimers"
+  - **Issue** The term "non-steroid receptor heterodimers" is ambiguous, as it could refer to heterodimers where neither partner is a steroid receptor, or heterodimers involving a non-steroid receptor with a steroid receptor. The intended meaning is unclear.
+  - **Required correction** Clarify the classification, for example by specifying the receptor types included in each category, to avoid confusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, methods list
+  - **Evidence pointer** Abstract, "X-ray crystallography, cryo-electron microscopy (cryo-EM), hydrogen-deuterium exchange mass spectrometry, and molecular dynamics simulations"
+  - **Issue** The abstract lists techniques but does not indicate which specific findings were derived from each method. This makes it difficult to assess the contribution of each approach to the overall conclusions.
+  - **Required correction** Briefly attribute key findings to specific techniques, or state that the synthesis integrates results from all methods, to improve transparency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The abstract does not provide sufficient evidence to support the claims of a conserved mechanism and the elucidation of functional roles. The full manuscript must include comparative quantitative data and functional validation to address these gaps.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The abstract presents a synthesis of existing work rather than novel primary findings. The perspective on conserved allostery is not entirely new, but the comparative framing across multiple receptor types adds some originality. However, the abstract alone does not demonstrate a novel conceptual advance.
+  - **Scientific importance** The topic is of high importance in nuclear receptor biology and drug discovery. Understanding interdomain allostery could inform therapeutic targeting, but the abstract does not provide new mechanistic insights that would elevate its significance beyond existing reviews.
+  - **Interdisciplinary readership** The abstract is written in a way that is accessible to structural biologists, biophysicists, and endocrinologists. The use of multiple techniques broadens its appeal, but the lack of specific data limits its impact for specialists.
+  - **Technical soundness** The abstract describes the use of established techniques, which is reassuring, but the absence of methodological details and quantitative results prevents an assessment of technical rigor. The claims are plausible but not verifiable from the abstract.
+  - **Readability for nonspecialists** The abstract is clear and well-structured, with minimal jargon. The concepts of allostery and domain communication are explained in an accessible manner, making it suitable for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract offers a promising synthesis, but the claims of a conserved mechanism and functional elucidation require substantial additional evidence from the full manuscript. I would be supportive if the technical concerns are resolved with comparative data and functional validation.
+
+## Risk / unsupported claims
+- The claim of a "conserved mechanism of cross-domain communication across the NR family" is unsupported by the abstract alone, as no comparative quantitative data are provided.
+- The assertion that domain-domain interfaces play "pivotal roles in regulating transcriptional activity" is unsupported, as no functional experiments are described.
+- The specific relevance of AR and GR examples to the conserved mechanism claim is not established.
+- The abstract's implication that the listed techniques collectively provide a comprehensive understanding is not verifiable without details on data quality and analysis.

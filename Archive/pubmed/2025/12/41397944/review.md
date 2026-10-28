@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report 1 microsecond molecular dynamics simulations of the Sac7d:DNA complex, MM/GBSA-based decomposition of interaction energies, identification of three previously unreported DNA-binding residues (including R63), observation of a sliding motion of Sac7d along double-stranded DNA, and interpretation of these findings as evidence for minimal sequence dependence and a protective chaperone mechanism under extreme conditions.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, convergence metrics, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force field parameters, convergence and equilibration details, MM/GBSA calculation parameters, per-residue energy values, structural figures, trajectory analyses, comparison with prior experimental or computational data, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with potentially interesting findings, but the current evidence base is insufficient to evaluate the validity of the central claims. The identification of three new binding residues and the observation of a sliding motion are stated without quantitative support or methodological detail. The claim of minimal sequence dependence is a strong inference that requires careful demonstration, which is not visible from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying protein:DNA interactions, particularly those focused on archaeal chromatin proteins, DNA-binding energetics, and molecular dynamics methodology. The potential relevance to understanding how proteins protect DNA under extreme conditions may also interest the broader biophysics and astrobiology communities.
+- **Major strengths** The study addresses a biologically relevant and well-studied system with a modern computational approach. The use of microsecond-scale simulations is appropriate for capturing dynamic phenomena such as sliding. The explicit focus on residue-level energy decomposition is a useful strategy for generating testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that three amino acids were newly identified as essential for DNA binding, including R63, which may be involved in a dynamic protein-DNA interaction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as energy values, ranks, or comparison thresholds, to support the identification of these three residues. It is unclear how "essential" was defined, whether the identification is based on energy cutoffs, statistical significance, or comparison with prior literature. The dynamic nature of the R63 interaction is asserted without supporting trajectory analysis or time-resolved data.
+  - **Why it matters** The central novelty of the study rests on the identification of new binding residues. Without a clear and quantitative definition of essentiality and evidence that the finding is robust to methodological choices, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide per-residue energy decomposition values with associated uncertainties, define the threshold or statistical criterion used to classify residues as essential, and show trajectory-based evidence for the dynamic behavior of R63, such as time-dependent distance or interaction occupancy plots.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations revealed a sliding motion of Sac7d over double-stranded DNA, suggesting a minimal sequence dependence interaction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The observation of sliding is stated as a qualitative result without any quantitative description of the motion, such as displacement magnitude, timescale, directionality, or whether the motion is processive or diffusive. The inference from sliding to minimal sequence dependence is a significant conceptual leap that requires demonstration that the interaction energy landscape is flat or that binding affinity is insensitive to sequence context.
+  - **Why it matters** The claim of minimal sequence dependence is a major conceptual conclusion with implications for how Sac7d functions as a protective chaperone. If the sliding motion is not rigorously characterized, the conclusion is unsupported.
+  - **Resolution test** Provide quantitative measures of the sliding motion, such as root-mean-square displacement of the protein relative to the DNA axis over time, and demonstrate sequence independence by comparing interaction energies or residence times across multiple DNA sequences or by showing a flat energy landscape from umbrella sampling or similar approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study used 1 microsecond molecular dynamics simulations and MM/GBSA decomposition to analyze the Sac7d-DNA complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided regarding the simulation system, force field, water model, ionic conditions, temperature and pressure coupling, equilibration protocol, or the number of independent replicates. MM/GBSA results are known to be sensitive to the choice of internal dielectric constant, salt concentration, and entropy treatment, none of which are described.
+  - **Why it matters** Without these details, the results cannot be reproduced or assessed for methodological adequacy. MM/GBSA is an approximate method, and its reliability for ranking residue contributions depends heavily on parameter choices.
+  - **Resolution test** Provide a complete methods section with all simulation and MM/GBSA parameters, and include validation such as convergence checks, comparison with experimental binding data, or replicate simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that Sac7d "protects the host genome from extreme conditions by increasing the DNA melting temperature" is presented as established fact, but the abstract does not clarify whether this is a prior finding or a conclusion of the current study.
+  - **Required correction** Clarify whether this is background knowledge from prior literature or a result of the present simulations, and cite appropriately in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "essential" for amino acids is used without definition. In the context of binding energetics, "essential" could mean energetically dominant, structurally required, or mutationally sensitive, and these meanings are not interchangeable.
+  - **Required correction** Define the operational meaning of "essential" in the context of the energy decomposition and use consistent terminology throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusion statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence states that the analysis provides "novel insights into how the Sac7d chaperones allow to protect DNA from degradation in extreme conditions," but the abstract does not describe any direct link between the simulated sliding motion or residue energetics and protection from degradation.
+  - **Required correction** Either provide a mechanistic link between the simulation findings and the protective function, or temper the conclusion to reflect what the simulations can directly support.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The study appears to offer a novel residue-level analysis of a well-studied system, but the claimed novelty of three new binding residues cannot be assessed without comparison to prior data. Scientific importance: The findings could be relevant to understanding archaeal chromatin biology and protein:DNA recognition, but the significance is not yet established from the abstract. Interdisciplinary readership: The topic may appeal to structural biologists, computational chemists, and microbiologists, but the abstract is too sparse to engage a broad audience. Technical soundness: Not assessable from the abstract; the absence of methodological detail and quantitative results is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses terms such as MM/GBSA without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the absence of quantitative results, methodological detail, and rigorous support for the central claims prevents a positive assessment. A full manuscript with complete methods and data would be required to evaluate the study properly.
+
+## Risk / unsupported claims
+- The identification of three newly discovered DNA-binding residues, including R63, is unsupported without quantitative energy data and a defined criterion for essentiality.
+- The observation of a sliding motion is unsupported without trajectory-based quantitative measures.
+- The inference of minimal sequence dependence from sliding is unsupported and requires direct energetic or kinetic evidence across sequence contexts.
+- The claim that the simulations provide insights into protection from DNA degradation is not supported by any direct evidence in the abstract.
+- The overall conclusion that Sac7d acts as a chaperone protecting DNA under extreme conditions is presented as a finding but is not demonstrated by the visible evidence.

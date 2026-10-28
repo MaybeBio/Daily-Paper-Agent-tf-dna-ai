@@ -1,0 +1,625 @@
+{
+  "identity": {
+    "pmid": "39443629",
+    "doi": "10.1038/s41598-024-76933-6",
+    "title": "Differentiating MYCN-amplified RB1 wild-type retinoblastoma from biallelic RB1 mutant retinoblastoma using MR-based radiomics: a retrospective multicenter case-control study."
+  },
+  "content": {
+    "abstract": "MYCN-amplified RB1 wild-type (MYCN(amp)RB1(+/+)) retinoblastoma is a rare and aggressive subtype, often resistant to standard therapies. Identifying unique MRI features is crucial for diagnosing this subtype, as biopsy is not recommended. This study aimed to differentiate MYCN(amp)RB1(+/+) from the most prevalent RB1(-/-) retinoblastoma using pretreatment MRI and radiomics. Ninety-eight unilateral retinoblastoma patients (19 MYCN cases and 79 matched controls) were included. Tumors on T2-weighted MR images were manually delineated and validated by experienced radiologists. Radiomics analysis extracted 120 features per tumor. Several combinations of feature selection methods, oversampling techniques and machine learning (ML) classifiers were evaluated in a repeated fivefold cross-validation machine learning pipeline to yield the best-performing prediction model for MYCN. The best model used univariate feature selection, data oversampling (duplicating MYCN cases), and logistic regression classifier, achieving a mean AUC of 0.78 (SD 0.12). SHAP analysis highlighted lower sphericity, higher flatness, and greater gray-level heterogeneity as predictive for MYCN(amp)RB1(+/+) status, yielding an AUC of 0.81 (SD 0.11). This study shows the potential of MRI-based radiomics to distinguish MYCN(amp)RB1(+/+) and RB1(-/-) retinoblastoma subtypes.",
+    "keywords": [
+      "MYCN-amplification",
+      "MRI; radiomics",
+      "Retinoblastoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Retinoblastoma/genetics/diagnostic imaging/pathology",
+      "*N-Myc Proto-Oncogene Protein/genetics",
+      "Female",
+      "*Magnetic Resonance Imaging/methods",
+      "Case-Control Studies",
+      "Male",
+      "Retrospective Studies",
+      "*Retinoblastoma Binding Proteins/genetics",
+      "*Ubiquitin-Protein Ligases/genetics",
+      "Child, Preschool",
+      "Infant",
+      "Retinal Neoplasms/genetics/diagnostic imaging/pathology",
+      "Machine Learning",
+      "Mutation",
+      "Diagnosis, Differential",
+      "Child",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Bloeme, Christiaan M",
+        "Jansen, Robin W",
+        "Cardoen, Liesbeth",
+        "Goricke, Sophia",
+        "van Elst, Sabien",
+        "Jessen, Jaime Lyn",
+        "Ramasubramanian, Aparna",
+        "Skalet, Alison H",
+        "Miller, Audra K",
+        "Maeder, Philippe",
+        "Uner, Ogul E",
+        "Hubbard, G Baker",
+        "Grossniklaus, Hans",
+        "Boldt, H Culver",
+        "Nichols, Kim E",
+        "Brennan, Rachel C",
+        "Sen, Saugata",
+        "Koob, Meriam",
+        "Sirin, Selma",
+        "Brisse, Herve J",
+        "Galluzzi, Paolo",
+        "Dommering, Charlotte J",
+        "Cysouw, Matthijs",
+        "Boellaard, Ronald",
+        "Dorsman, Josephine C",
+        "Moll, Annette C",
+        "de Jong, Marcus C",
+        "de Graaf, Pim"
+      ],
+      "short_names": [
+        "de Bloeme CM",
+        "Jansen RW",
+        "Cardoen L",
+        "Goricke S",
+        "van Elst S",
+        "Jessen JL",
+        "Ramasubramanian A",
+        "Skalet AH",
+        "Miller AK",
+        "Maeder P",
+        "Uner OE",
+        "Hubbard GB",
+        "Grossniklaus H",
+        "Boldt HC",
+        "Nichols KE",
+        "Brennan RC",
+        "Sen S",
+        "Koob M",
+        "Sirin S",
+        "Brisse HJ",
+        "Galluzzi P",
+        "Dommering CJ",
+        "Cysouw M",
+        "Boellaard R",
+        "Dorsman JC",
+        "Moll AC",
+        "de Jong MC",
+        "de Graaf P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands. c.debloeme@amsterdamumc.nl.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands. c.debloeme@amsterdamumc.nl.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands. c.debloeme@amsterdamumc.nl.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Imaging department Institut Curie, France and Paris-Siences-et-Lettres University, Paris, France.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Department of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Essen, Germany.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands.",
+        "Impact Genetics - Dynacare, Ontario, Canada.",
+        "Department of Ophthalmology, Children's Wisconsin, Wisconsin, United States.",
+        "Casey Eye Institute Oregon Health & Science University , Portland, United States.",
+        "Knight Cancer Institute Oregon Health & Science University, Portland, United States.",
+        "Casey Eye Institute Oregon Health & Science University , Portland, United States.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Department of Radiology Centre Hospitalier Universitaire Vaudois (CHUV) , University of Lausanne , Lausanne, Switzerland.",
+        "Casey Eye Institute Oregon Health & Science University , Portland, United States.",
+        "Emory Eye Center Ocular Oncology Service, Atlanta, United States.",
+        "Emory Eye Center Ocular Oncology Service, Atlanta, United States.",
+        "Emory Eye Center Ocular Oncology Service, Atlanta, United States.",
+        "Department of Ophthalmology, University of Iowa Hospitals & Clinics, Iowa, United States.",
+        "Department of Oncology, St. Jude Children's Research Hospital, Memphis, United States.",
+        "Department of Oncology, St. Jude Children's Research Hospital, Memphis, United States.",
+        "Department of Pediatric Hematology/Oncology, Logan Health, Kalispell (Montana), United States.",
+        "Department of Radiology and Imaging Sciences, Tata Medical Center, Kolkata, India.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Department of Radiology Centre Hospitalier Universitaire Vaudois (CHUV) , University of Lausanne , Lausanne, Switzerland.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Department of Diagnostic Imaging, University Children's Hospital Zurich University of Zurich, Zurich, Switzerland.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Imaging department Institut Curie, France and Paris-Siences-et-Lettres University, Paris, France.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Department of Neuroimaging unit, Siena University Hospital, Siena, Italy.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Human Genetics, Amsterdam UMC location Vrije Universiteit, Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Oncogenetics, UMC location Vrije Universiteit, Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Ophthalmology, UMC location Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands.",
+        "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+        "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+        "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Bloeme, Christiaan M",
+        "short_name": "de Bloeme CM",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands. c.debloeme@amsterdamumc.nl.",
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands. c.debloeme@amsterdamumc.nl.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands. c.debloeme@amsterdamumc.nl."
+        ]
+      },
+      {
+        "full_name": "Jansen, Robin W",
+        "short_name": "Jansen RW",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Cardoen, Liesbeth",
+        "short_name": "Cardoen L",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Imaging department Institut Curie, France and Paris-Siences-et-Lettres University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Göricke, Sophia",
+        "short_name": "Göricke S",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Department of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "van Elst, Sabien",
+        "short_name": "van Elst S",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jessen, Jaime Lyn",
+        "short_name": "Jessen JL",
+        "identifiers": [],
+        "affiliations": [
+          "Impact Genetics - Dynacare, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ramasubramanian, Aparna",
+        "short_name": "Ramasubramanian A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Children's Wisconsin, Wisconsin, United States."
+        ]
+      },
+      {
+        "full_name": "Skalet, Alison H",
+        "short_name": "Skalet AH",
+        "identifiers": [],
+        "affiliations": [
+          "Casey Eye Institute Oregon Health & Science University , Portland, United States.",
+          "Knight Cancer Institute Oregon Health & Science University, Portland, United States."
+        ]
+      },
+      {
+        "full_name": "Miller, Audra K",
+        "short_name": "Miller AK",
+        "identifiers": [],
+        "affiliations": [
+          "Casey Eye Institute Oregon Health & Science University , Portland, United States."
+        ]
+      },
+      {
+        "full_name": "Maeder, Philippe",
+        "short_name": "Maeder P",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Department of Radiology Centre Hospitalier Universitaire Vaudois (CHUV) , University of Lausanne , Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Uner, Ogul E",
+        "short_name": "Uner OE",
+        "identifiers": [],
+        "affiliations": [
+          "Casey Eye Institute Oregon Health & Science University , Portland, United States.",
+          "Emory Eye Center Ocular Oncology Service, Atlanta, United States."
+        ]
+      },
+      {
+        "full_name": "Hubbard, G Baker",
+        "short_name": "Hubbard GB",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Eye Center Ocular Oncology Service, Atlanta, United States."
+        ]
+      },
+      {
+        "full_name": "Grossniklaus, Hans",
+        "short_name": "Grossniklaus H",
+        "identifiers": [],
+        "affiliations": [
+          "Emory Eye Center Ocular Oncology Service, Atlanta, United States."
+        ]
+      },
+      {
+        "full_name": "Boldt, H Culver",
+        "short_name": "Boldt HC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, University of Iowa Hospitals & Clinics, Iowa, United States."
+        ]
+      },
+      {
+        "full_name": "Nichols, Kim E",
+        "short_name": "Nichols KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, United States."
+        ]
+      },
+      {
+        "full_name": "Brennan, Rachel C",
+        "short_name": "Brennan RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, United States.",
+          "Department of Pediatric Hematology/Oncology, Logan Health, Kalispell (Montana), United States."
+        ]
+      },
+      {
+        "full_name": "Sen, Saugata",
+        "short_name": "Sen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Imaging Sciences, Tata Medical Center, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Koob, Mériam",
+        "short_name": "Koob M",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Department of Radiology Centre Hospitalier Universitaire Vaudois (CHUV) , University of Lausanne , Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sirin, Selma",
+        "short_name": "Sirin S",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Department of Diagnostic Imaging, University Children's Hospital Zurich University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Brisse, Hervé J",
+        "short_name": "Brisse HJ",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Imaging department Institut Curie, France and Paris-Siences-et-Lettres University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Galluzzi, Paolo",
+        "short_name": "Galluzzi P",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Department of Neuroimaging unit, Siena University Hospital, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Dommering, Charlotte J",
+        "short_name": "Dommering CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Human Genetics, Amsterdam UMC location Vrije Universiteit, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Cysouw, Matthijs",
+        "short_name": "Cysouw M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Boellaard, Ronald",
+        "short_name": "Boellaard R",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dorsman, Josephine C",
+        "short_name": "Dorsman JC",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Oncogenetics, UMC location Vrije Universiteit, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Moll, Annette C",
+        "short_name": "Moll AC",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Ophthalmology, UMC location Vrije Universiteit Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Jong, Marcus C",
+        "short_name": "de Jong MC",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Graaf, Pim",
+        "short_name": "de Graaf P",
+        "identifiers": [],
+        "affiliations": [
+          "European Retinoblastoma Imaging Collaboration (ERIC), Amsterdam, The Netherlands.",
+          "Cancer Center Amsterdam, Imaging and Biomarkers, Amsterdam, The Netherlands.",
+          "Department of Radiology and Nuclear Medicine, UMC location Vrije Universiteit Amsterdam, Amsterdam, 1007 MB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Oct 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/24 16:21",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42554833",
+      "42279283",
+      "41238767",
+      "40839307"
+    ],
+    "refs": [
+      "37191489",
+      "35867756",
+      "35433448",
+      "34826253",
+      "34556310",
+      "34552068",
+      "34536465",
+      "34272413",
+      "34003079",
+      "33805776",
+      "33597541",
+      "32971811",
+      "32737518",
+      "32139107",
+      "32123578",
+      "30061186",
+      "29092951",
+      "28975929",
+      "28211617",
+      "26690907",
+      "26288838",
+      "26202204",
+      "25126964",
+      "23756868",
+      "23498719",
+      "21850471",
+      "12232763",
+      "9290369"
+    ],
+    "similar": [
+      "39443629",
+      "37191489",
+      "34003079",
+      "28211617",
+      "33870828",
+      "38796108",
+      "32139107",
+      "30584916",
+      "37606819",
+      "37178203",
+      "23498719",
+      "30996590",
+      "34190019",
+      "33270844",
+      "30636860",
+      "32799607",
+      "29568217",
+      "34826253",
+      "33493472",
+      "29286867",
+      "36245757",
+      "20627193",
+      "33456302",
+      "29314142",
+      "39079981",
+      "36949231",
+      "34478740",
+      "36982482",
+      "28318638",
+      "31997559",
+      "37345682",
+      "38508934",
+      "29851531",
+      "35867756",
+      "30604586",
+      "33225895",
+      "32556071",
+      "34552068",
+      "37191487",
+      "30001242",
+      "24509483",
+      "37707410",
+      "32222358",
+      "33063942",
+      "30822236",
+      "35460355",
+      "34003213",
+      "35410579",
+      "18785023",
+      "35964818",
+      "26494512",
+      "38897371",
+      "38006838",
+      "36098066",
+      "36173648",
+      "38040321",
+      "38451848",
+      "27126562",
+      "28719514",
+      "32268247",
+      "39009069",
+      "37848774",
+      "29099630",
+      "32835838",
+      "34645364",
+      "27983729",
+      "27318443",
+      "38341497",
+      "37682130",
+      "30031154",
+      "27068507",
+      "31439587",
+      "29714679",
+      "26288838",
+      "27115612",
+      "34109133",
+      "27582626",
+      "33827698",
+      "34003574",
+      "37917619",
+      "27488068",
+      "38879085",
+      "37536559",
+      "28803391",
+      "33979466",
+      "32390242",
+      "38087063",
+      "22219649",
+      "25817468",
+      "28392220",
+      "38452707",
+      "37932687",
+      "34298378",
+      "26539030",
+      "28399338",
+      "37541786",
+      "26914665",
+      "12933497",
+      "36735656",
+      "32890459"
+    ],
+    "review": [
+      "39443629",
+      "38796108",
+      "29314142",
+      "35964818",
+      "38451848",
+      "27115612",
+      "27488068"
+    ],
+    "pmc": [
+      "11499940"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-76933-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39443629/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-898",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://iris.unil.ch/handle/iris/128392",
+        "provider": "University of Lausanne/CHUV - IRIS",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and data availability statements
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript materials
+- **Shared manuscript claim summary** The authors report the cryo-EM structure of the human RAD51B-RAD51C-RAD51D-XRCC2 (BCDX2) complex, describe its dynamic architecture, and propose that BCDX2 promotes RAD51 filament nucleation and extension on single-stranded DNA through coupled ATPase activities of RAD51B and RAD51C, with implications for tumour suppression mechanisms.
+- **Visible evidence base** Abstract, main text sections (Structure of the BCDX2 complex; RAD51B and RAD51C ATPases are coupled; BCDX2 promotes RAD51 filament formation; BCDX2 interacts with ssDNA and RAD51), Methods sections, Data availability statement
+- **Missing materials affecting confidence** Extended Data figures and tables referenced but not provided; Supplementary Data Table 1 referenced but not provided; specific figure panels referenced but not viewable; detailed statistical outputs and quality metrics for cryo-EM maps not fully described in the visible text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial structural and biochemical characterization of the BCDX2 complex, a key tumour suppressor involved in homologous recombination. The cryo-EM structures at 2.2-3.4 Å resolution represent a significant technical achievement, and the combination of structural, biochemical, and single-molecule approaches provides a compelling framework for understanding BCDX2 function. The claim that BCDX2 promotes RAD51 filament nucleation and growth in an ATP hydrolysis-dependent manner is well supported by the presented data. However, several aspects require clarification, particularly regarding the mechanistic model proposed, the interpretation of certain single-molecule experiments, and the generalizability of the findings to cellular contexts. The manuscript is well-written and will be of interest to the DNA repair and cancer biology communities.
+- **Who would be interested in the results, and why** Researchers in DNA repair, homologous recombination, genome stability, and cancer biology will find this work of high interest. The structural characterization of the BCDX2 complex fills a critical gap in understanding how RAD51 paralogs function, and the proposed mechanism of RAD51 filament nucleation and growth has direct implications for understanding hereditary breast and ovarian cancer predisposition. Structural biologists studying RecA-family proteins and those interested in multi-subunit protein complexes will also find value in the cryo-EM analysis.
+- **Major strengths** 1) High-resolution cryo-EM structures of the BCDX2 complex in two nucleotide states, representing a significant technical achievement. 2) The combination of multiple orthogonal approaches (cryo-EM, AlphaFold2 modelling, HDX-MS, fluorescence anisotropy, single-molecule assays) provides convergent evidence for the proposed mechanism. 3) The identification of the RAD51B C-terminal domain as dynamic and the demonstration of its dispensability for core complex formation are important findings. 4) The functional dissection of the coupled ATPase activities of RAD51B and RAD51C provides mechanistic insight into how the complex is regulated. 5) The mapping of clinically relevant mutations onto the structure offers potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model
+  - **Claim pointer** The authors propose that BCDX2 promotes RAD51 filament nucleation and extension through a mechanism involving transient capping of filament ends, with RAD51B providing a bridge between the CDX2 core and RAD51.
+  - **Evidence pointer** Main text sections "BCDX2 promotes RAD51 filament formation" and "BCDX2 interacts with ssDNA and RAD51"; Extended Data Figures 6, 7, 9 (referenced but not provided)
+  - **Concern** The proposed mechanistic model, while plausible, is largely inferred from indirect measurements. The single-molecule experiments show that BCDX2 increases the frequency and length of RAD51 filaments, and FRET experiments demonstrate an interaction between BCDX2 and RAD51 on ssDNA. However, the specific claim that RAD51B provides a bridge between the CDX2 core and RAD51, and that this engagement provides initial filament stabilization, is not directly demonstrated. The authors do not show a stable ternary complex of BCDX2-RAD51-ssDNA, nor do they demonstrate that the RAD51B-RAD51 interaction is required for the observed stimulation of filament formation. The model presented in Extended Data Figure 9 is speculative and goes beyond the direct experimental evidence.
+  - **Why it matters** The mechanistic model is a central claim of the paper and is presented as a definitive conclusion in the abstract and summary. If the model is incorrect or incomplete, it could mislead future research directions in the field. A more cautious interpretation, clearly distinguishing between directly demonstrated interactions and proposed mechanisms, would strengthen the manuscript.
+  - **Resolution test** The authors should either provide direct evidence for the RAD51B-RAD51 interaction (e.g., pull-down assays, cross-linking, or structural data) or temper the mechanistic claims to reflect the indirect nature of the evidence. Alternatively, they could perform experiments with RAD51B deletion mutants lacking the CTD to test whether the proposed bridging function is required for filament stimulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** The authors state that "BCDX2 orchestrates RAD51 assembly on single-stranded DNA for replication fork protection and double strand break repair, in reactions that are critical for tumour avoidance."
+  - **Evidence pointer** Abstract; Main text summary section
+  - **Concern** The direct link between the biochemical activities characterized in vitro and the proposed cellular functions (replication fork protection, double strand break repair, tumour avoidance) is not experimentally demonstrated in this manuscript. While the connection is plausible given the known functions of RAD51 paralogs, the authors do not present any cellular or in vivo data to support this specific claim. The statement in the abstract goes beyond what the presented data can support.
+  - **Why it matters** The abstract and summary make claims about tumour avoidance that are not directly tested. This overreach could be misleading to readers who may not carefully distinguish between the in vitro biochemical data and the proposed cellular implications. The manuscript would be strengthened by either including cellular experiments or by more carefully qualifying the claims about tumour suppression.
+  - **Resolution test** The authors should either include cellular or in vivo experiments demonstrating the role of BCDX2 in replication fork protection or double strand break repair, or revise the abstract and summary to clearly state that the tumour suppression implications are inferred from the biochemical data and prior genetic studies, not directly demonstrated here.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors report that the RAD51B C-terminal domain is dynamic and could not be resolved in the cryo-EM maps, and that limited proteolysis with chymotrypsin removes RAD51B while maintaining the core complex.
+  - **Evidence pointer** Main text section "Structure of the BCDX2 complex"; Extended Data Figures 1-4 (referenced but not provided)
+  - **Concern** The conclusion that the RAD51B CTD is dynamic and flexible is based on the absence of density in the cryo-EM maps and on limited proteolysis experiments. However, the authors do not provide quantitative analysis of the dynamics (e.g., NMR relaxation, MD simulations, or hydrogen-deuterium exchange kinetics) to support this claim. The proteolysis experiment shows that chymotrypsin can remove RAD51B, but this does not necessarily demonstrate that the CTD is dynamic in the intact complex under physiological conditions. The possibility that the CTD is partially disordered or that the density was lost during sample preparation or data processing should be more thoroughly addressed.
+  - **Why it matters** The dynamic nature of the RAD51B CTD is a key structural finding and is central to the proposed mechanism. If the CTD is actually ordered but was not resolved due to technical limitations, the mechanistic model would need revision. A more rigorous demonstration of the dynamic nature of this domain would strengthen the structural conclusions.
+  - **Resolution test** The authors should provide additional evidence for the dynamic nature of the RAD51B CTD, such as: (1) analysis of the local resolution in the region where the CTD would be expected; (2) 3D variability analysis or multi-body refinement to demonstrate mobility; (3) complementary solution-based techniques (e.g., SAXS, smFRET) to probe the conformational landscape of the CTD.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors report that BCDX2 stimulates RAD51 filament nucleation and growth by approximately 2-fold, as measured by single-molecule assays.
+  - **Evidence pointer** Main text section "BCDX2 promotes RAD51 filament formation"; Extended Data Figure 6 (referenced but not provided)
+  - **Concern** The quantitative analysis of the single-molecule data is not fully described in the visible text. The authors mention "nucleation and growth rates increased 2-fold" but do not provide details on how these rates were calculated, the number of independent experiments, the statistical significance of the differences, or the error bars on the measurements. The description of the "apparent nucleation rate analysis" in the Methods is brief and lacks sufficient detail for reproducibility.
+  - **Why it matters** The 2-fold stimulation is a modest effect, and the robustness of this finding depends on the quality of the quantitative analysis. If the effect is not statistically significant or is highly variable between experiments, the central claim of the paper would be weakened. The lack of detailed quantitative methods makes it difficult to assess the reliability of the results.
+  - **Resolution test** The authors should provide a more detailed description of the single-molecule data analysis, including the number of independent experiments, the statistical tests used, and the error estimates. Ideally, they should show representative raw data traces and the distribution of measured rates to demonstrate the robustness of the 2-fold effect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text section "Structure of the BCDX2 complex"
+  - **Evidence pointer** "The tight clustering of NTDs drives further specificity for paralog-paralog interactions, whereas the engagement of RAD51B's NTD in trans ensures the dynamic association of RAD51B with the structural core."
+  - **Issue** The sentence is somewhat ambiguous. It is unclear whether "engagement of RAD51B's NTD in trans" refers to the NTD of RAD51B binding to the adjacent subunit (RAD51C) or to a different interaction. The term "in trans" is used earlier in the text to describe NTD interactions in the RAD51 filament, but its application to RAD51B within the BCDX2 complex is not clearly defined.
+  - **Required correction** Clarify the meaning of "in trans" in this context and specify which subunit the RAD51B NTD engages with. Consider rephrasing to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Main text section "RAD51B and RAD51C ATPases are coupled"
+  - **Evidence pointer** "The overall structure of BNTDCDX2 remained the same, with one exception being the extension of the helix proceeding the L1 DNA binding loop, resulting in the rotation of RAD51C, a residue that is mutated to histidine in 1 Q Fanconi anaemia patients'12"
+  - **Issue** The sentence appears to be incomplete or contains a grammatical error. The phrase "resulting in the rotation of RAD51C, a residue that is mutated to histidine" is confusing because RAD51C is a protein, not a residue. It seems that a specific residue within RAD51C is being referred to, but the residue number is not provided.
+  - **Required correction** Revise the sentence to clearly identify the specific residue that is mutated and provide the residue number. Also correct the grammatical structure of the sentence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Statistics and reproducibility"
+  - **Evidence pointer** "Normally distributed data were compared using two-tailed unpaired t-tests whereas non-normally distributed data were compared using two-tailed Mann-Whitney u-tests."
+  - **Issue** The Methods section does not describe how normality was assessed. Without this information, it is not possible to determine whether the appropriate statistical tests were used for each dataset.
+  - **Required correction** Add a sentence describing the normality test used (e.g., Shapiro-Wilk, D'Agostino-Pearson) and the criteria for determining whether data were normally distributed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text section "BCDX2 interacts with ssDNA and RAD51"
+  - **Evidence pointer** "The presence of ADP.Vanadate, which traps ADP in the nucleotide binding site by mimicking the transition state of the γ-phosphate of ATP during ATP hydrolysis, reduced ssDNA binding"
+  - **Issue** The text states that ADP.Vanadate "reduced ssDNA binding" but does not specify the magnitude of the reduction or compare it to the effects of other nucleotides. This makes it difficult to interpret the significance of this observation.
+  - **Required correction** Provide quantitative data on the effect of ADP.Vanadate on ssDNA binding, including the KD value or relative binding affinity, and compare it to the effects of ATP, ADP, and other nucleotide analogues.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** "Cryo-EM density maps and atomic models of BCDX2 have been deposited in the Electron Microscopy Data Bank (EMDB) and Protein Database (PDB)."
+  - **Issue** The data availability statement does not mention the deposition of the HDX-MS data, the single-molecule data, or the raw cryo-EM movies. For full reproducibility, these datasets should also be made available.
+  - **Required correction** Expand the data availability statement to include all datasets generated in this study, including raw and processed data for HDX-MS, single-molecule experiments, and cryo-EM movies.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text section "BCDX2 promotes RAD51 filament formation"
+  - **Evidence pointer** "ATPase deficient BCE161ADX2 and BE144ACE161ADX2 complexes failed to promote RAD51AF488 assembly, whereas BE144ACDX2 retained partial stimulation relative to wild-type"
+  - **Issue** The text does not explain why the RAD51B ATPase mutant (BE144ACDX2) retains partial stimulation while the RAD51C ATPase mutant (BCE161ADX2) completely fails to stimulate. This is an important mechanistic distinction that should be discussed.
+  - **Required correction** Add a brief explanation for the differential effects of the RAD51B and RAD51C ATPase mutants, or acknowledge that the reason for this difference is not yet understood.
+- **Technical failings that need to be addressed before the case is established** 1) The quantitative analysis of single-molecule data requires more detail, including the number of replicates, statistical methods, and error estimates. 2) The demonstration of the dynamic nature of the RAD51B CTD would benefit from additional complementary approaches beyond the absence of cryo-EM density. 3) The proposed mechanistic model involving RAD51B as a bridge between the CDX2 core and RAD51 requires direct experimental support. 4) The link between the in vitro biochemical findings and cellular functions of tumour suppression is not directly demonstrated and should be more carefully qualified.
+- **Assessment against Nature-style criteria** **Originality:** The structural characterization of the BCDX2 complex is novel and represents a significant advance in the field. While structures of individual RAD51 paralogs have been reported, the full complex structure and the proposed mechanism of action are original contributions. **Scientific importance:** The findings have substantial importance for understanding homologous recombination, DNA repair, and cancer predisposition. The mechanistic insights into how RAD51 paralogs promote RAD51 filament formation could have broad implications for the field. **Interdisciplinary readership:** The work will appeal to structural biologists, DNA repair researchers, cancer biologists, and potentially clinical geneticists interested in hereditary cancer syndromes. The combination of structural and functional approaches broadens the appeal. **Technical soundness:** The cryo-EM structures at 2.2-3.4 Å resolution appear technically sound based on the described methods. The combination of multiple biochemical and biophysical approaches strengthens the conclusions. However, the quantitative analysis of single-molecule data and the support for the dynamic nature of the RAD51B CTD could be strengthened. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, though some sections assume familiarity with the DNA repair field. The abstract effectively communicates the key findings and significance. The main text could benefit from additional context for nonspecialist readers regarding the significance of RAD51 filament formation in homologous recombination.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a significant structural and biochemical advance that will be of considerable interest to the field. The major concerns regarding the mechanistic model and quantitative analysis are addressable with additional experiments or revised interpretation. The core structural findings and the demonstration of ATPase-coupled RAD51 filament stimulation are well supported and represent an important contribution.
+
+## Risk / unsupported claims
+- The claim that BCDX2 "orchestrates RAD51 assembly on single-stranded DNA for replication fork protection and double strand break repair, in reactions that are critical for tumour avoidance" extends beyond the in vitro data presented and is not directly supported by cellular or in vivo experiments in this manuscript.
+- The proposed mechanistic model involving RAD51B as a bridge between the CDX2 core and RAD51, with the flexible RAD51B CTD binding to RAD51 for initial filament stabilization, is plausible but not directly demonstrated.
+- The statement that "the Alphafold2 predicted structure corresponds to the active intermediate during the ATP hydrolytic cycle" is speculative and not directly validated by experimental data.
+- The claim that ADP.Vanadate "reduced ssDNA binding" is presented without quantitative data, making it difficult to assess the significance of this observation.
+- The assertion that the RAD51B CTD is "highly dynamic" is based primarily on the absence of cryo-EM density and limited proteolysis experiments, which may not fully capture the conformational landscape of this domain in solution.

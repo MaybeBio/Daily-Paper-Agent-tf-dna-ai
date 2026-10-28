@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "37247130",
+    "doi": "10.1111/tpj.16330",
+    "title": "A very long chain fatty acid responsive transcription factor, MYB93, regulates lateral root development in Arabidopsis."
+  },
+  "content": {
+    "abstract": "Lateral roots (LRs) are critical to root system architecture development in plants. Although the molecular mechanisms by which auxin regulates LR development have been extensively studied, several additional regulatory systems are hypothesized to be involved. Recently, the regulatory role of very long chain fatty acids (VLCFAs) has been shown in LR development. Our analysis showed that LTPG1 and LTPG2, transporters of VLCFAs, are specifically expressed in the developing LR primordium (LRP), while the number of LRs is reduced in the ltpg1/ltpg2 double mutant. Moreover, late LRP development was hindered when the VLCFA levels were reduced by the VLCFA synthesis enzyme mutant, kcs1-5. However, the details of the regulatory mechanisms of LR development controlled by VLCFAs remain unknown. In this study, we propose a novel method to analyze the LRP development stages with high temporal resolution using a deep neural network and identify a VLCFA-responsive transcription factor, MYB93, via transcriptome analysis of kcs1-5. MYB93 showed a carbon chain length-specific expression response following treatment of VLCFAs. Furthermore, myb93 transcriptome analysis suggested that MYB93 regulated the expression of cell wall organization genes. In addition, we also found that LTPG1 and LTPG2 are involved in LR development through the formation of root cap cuticle, which is different from transcriptional regulation by VLCFAs. Our results suggest that VLCFA is a regulator of LRP development through transcription factor-mediated regulation of gene expression and the transportation of VLCFAs is also involved in LR development through root cap cuticle formation.",
+    "keywords": [
+      "Arabidopsis",
+      "deep neural network analysis",
+      "lateral root development",
+      "root cap cuticle",
+      "transcription factor",
+      "very long chain fatty acids"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "*Arabidopsis Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Plant Roots/metabolism",
+      "Indoleacetic Acids/metabolism",
+      "Fatty Acids/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Uemura, Yuta",
+        "Kimura, Saori",
+        "Ohta, Tomomichi",
+        "Suzuki, Takamasa",
+        "Mase, Kosuke",
+        "Kato, Hiroyuki",
+        "Sakaoka, Satomi",
+        "Uefune, Masayoshi",
+        "Komine, Yuki",
+        "Hotta, Kazuhiro",
+        "Shimizu, Motoyuki",
+        "Morikami, Atsushi",
+        "Tsukagoshi, Hironaka"
+      ],
+      "short_names": [
+        "Uemura Y",
+        "Kimura S",
+        "Ohta T",
+        "Suzuki T",
+        "Mase K",
+        "Kato H",
+        "Sakaoka S",
+        "Uefune M",
+        "Komine Y",
+        "Hotta K",
+        "Shimizu M",
+        "Morikami A",
+        "Tsukagoshi H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0058-4926"
+      ],
+      "affiliations": [
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Department of Biological Chemistry, College of Bioscience and Biotechnology, Chubu University, 1200 Matsumoto-cho, Kasugai, Aichi, 478-8501, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Department of Electrical and Electronic Engineering, Faculty of Science and Technology, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan.",
+        "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Uemura, Yuta",
+        "short_name": "Uemura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Kimura, Saori",
+        "short_name": "Kimura S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohta, Tomomichi",
+        "short_name": "Ohta T",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Takamasa",
+        "short_name": "Suzuki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, College of Bioscience and Biotechnology, Chubu University, 1200 Matsumoto-cho, Kasugai, Aichi, 478-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Mase, Kosuke",
+        "short_name": "Mase K",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Hiroyuki",
+        "short_name": "Kato H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakaoka, Satomi",
+        "short_name": "Sakaoka S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Uefune, Masayoshi",
+        "short_name": "Uefune M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Komine, Yuki",
+        "short_name": "Komine Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Hotta, Kazuhiro",
+        "short_name": "Hotta K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Electronic Engineering, Faculty of Science and Technology, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimizu, Motoyuki",
+        "short_name": "Shimizu M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Morikami, Atsushi",
+        "short_name": "Morikami A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsukagoshi, Hironaka",
+        "short_name": "Tsukagoshi H",
+        "identifiers": [
+          "0000-0003-0058-4926"
+        ],
+        "affiliations": [
+          "Faculty of Agriculture, Meijo University, 1-501 Shiogamaguchi, Tempaku-ku, Nagoya, Aichi, 468-8502, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant journal : for cell and molecular biology"
+    ],
+    "journal_abbrev": [
+      "Plant J"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/29 13:04",
+    "fetched_at": "2026-09-29 01:30:34"
+  },
+  "links": {
+    "cites": [
+      "42683379",
+      "42304774",
+      "42231157",
+      "41649650",
+      "41482670",
+      "40782342",
+      "40498644",
+      "40452414",
+      "40174586",
+      "39402463",
+      "39287338",
+      "38784063",
+      "38385121",
+      "38134185"
+    ],
+    "refs": [],
+    "similar": [
+      "37247130",
+      "35822517",
+      "31483536",
+      "26252246",
+      "33221411",
+      "39223096",
+      "23872272",
+      "16236149",
+      "35303089",
+      "22527388",
+      "31444832",
+      "26059335",
+      "29040694",
+      "21097710",
+      "21342208",
+      "31235573",
+      "20230485",
+      "27092001",
+      "27578783",
+      "38359556",
+      "30627888",
+      "27878992",
+      "38366565",
+      "22891199",
+      "38684906",
+      "25399352",
+      "23749813",
+      "31310684",
+      "27891649",
+      "37831077",
+      "20145257",
+      "22278921",
+      "25752924",
+      "30581155",
+      "24460551",
+      "33202956",
+      "32016405",
+      "26144255",
+      "25831136",
+      "29241564",
+      "23390202",
+      "32433816",
+      "17241906",
+      "24045021",
+      "20965997",
+      "35696924",
+      "22974309",
+      "28981783",
+      "37021425",
+      "31058993",
+      "25810094",
+      "18326828",
+      "34983834",
+      "31403703",
+      "20363771",
+      "38217865",
+      "27402709",
+      "24148318",
+      "22912871",
+      "25524530",
+      "37450369",
+      "18505759",
+      "32598454",
+      "17630277",
+      "22890372",
+      "25959963",
+      "31285293",
+      "31350932",
+      "21653785",
+      "28992266",
+      "21494100",
+      "27658920",
+      "32310024",
+      "29934297",
+      "22699776",
+      "35642513",
+      "36787214",
+      "17259263",
+      "24803293",
+      "21087263",
+      "15635403",
+      "32279151",
+      "34283998",
+      "37207646",
+      "22658222",
+      "31626627",
+      "33487355",
+      "24023250",
+      "24061489",
+      "25552473",
+      "22334497",
+      "30125143",
+      "29078398",
+      "32428238",
+      "34064239",
+      "37793018",
+      "38931052",
+      "30941149",
+      "34062316",
+      "39055356",
+      "38385121",
+      "34179680",
+      "39385761"
+    ],
+    "review": [
+      "37247130",
+      "38359556",
+      "17241906",
+      "28992266",
+      "35642513",
+      "34064239"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37247130.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.arabidopsis.org/publication?key=501803641",
+        "provider": "The Arabidopsis Information Resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Linked Gene Data"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/tpj.16330",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

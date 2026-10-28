@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, logical coherence, and support of claims by presented evidence. Not assessed: editorial fit, formatting, or literature completeness beyond what is directly relevant to the claims.
+- **Shared manuscript claim summary** The authors propose that CTCF binding strength and insulation function can be decoupled, and that nucleosome phasing regularity, influenced by local motif grammar (U/D motifs) and cell-type-specific TF environments, predicts insulation strength more reliably than CTCF peak intensity.
+- **Visible evidence base** Results sections with figures referenced (Figures 1–7, S1–S14), tables (S1–S10), methods descriptions for ChIP-seq, ATAC-seq, RNA-seq, Hi-C, WGBS-NOMe-seq, nano-NOMe-seq, AlphaFold3 modeling, and allele-specific analyses. Statistical methods described.
+- **Missing materials affecting confidence** Actual figures and tables are not provided; only figure legends and table references are visible. Numerical data, effect sizes, and statistical outputs are not directly inspectable. The manuscript is under review at Cell Reports, not Nature, which affects scope expectations but not the scientific assessment.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant question in 3D genome biology: what determines whether a CTCF-bound site functions as an effective insulator. The authors integrate multiple genomic assays and present a nuanced model in which CTCF binding strength and insulation output are not strictly coupled, with nucleosome phasing emerging as a key intermediate. The work is conceptually interesting and the multi-omics approach is ambitious. However, the evidence as presented is largely correlative and genome-wide aggregate-level, and the causal chain from motif grammar to TF environment to nucleosome phasing to insulation is not directly tested. The AlphaFold3 and allele-specific analyses provide supporting but not definitive evidence. The claim that nucleosome phasing predicts insulation better than CTCF peak intensity is potentially important but requires more rigorous quantitative support than the qualitative heatmaps and category-level comparisons described. Overall, the manuscript presents a plausible and interesting framework, but the core claims are not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in 3D genome organization, chromatin structure, gene regulation, and epigenomics. The work is also relevant to those studying cell-type-specific gene regulation and the role of transposable elements in genome evolution. The proposed decoupling of CTCF binding from insulation and the emphasis on nucleosome phasing could influence how insulator elements are annotated and interpreted across cell types and species.
+- **Major strengths** 1) The study addresses a timely and important question about the relationship between CTCF binding, chromatin context, and insulation function. 2) The integration of multiple data types (ChIP-seq, ATAC-seq, RNA-seq, Hi-C, NOMe-seq, AlphaFold3, allele-specific analyses) is comprehensive. 3) The distinction between accessible and inaccessible CTCF binding sites and the species comparison between mouse and human add depth. 4) The concept that nucleosome phasing, rather than CTCF occupancy alone, tracks insulation is a potentially valuable contribution. 5) The use of allele-specific analyses to support cooperative versus competitive TF-CTCF interactions is a thoughtful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for central claim
+  - **Claim pointer** "nucleosome phasing regularity predicts insulation strength more reliably than CTCF peak intensity"
+  - **Evidence pointer** Figures 6 and 7; Results section "Surrounding motifs modulate nucleosome phasing and insulation at CTCF sites"
+  - **Concern** The central claim that nucleosome phasing predicts insulation better than CTCF peak intensity is supported primarily by qualitative heatmaps and category-level comparisons. The manuscript does not describe a quantitative comparison of predictive power (e.g., correlation coefficients, regression models, or information-theoretic measures) between phasing regularity and CTCF peak intensity as predictors of insulation. Without such analysis, the claim of "more reliably" is not rigorously established.
+  - **Why it matters** This is the central conceptual contribution of the paper. If the claim is not quantitatively supported, the manuscript's main message is weakened. A reader cannot assess whether the difference in predictive power is meaningful or marginal without formal statistical comparison.
+  - **Resolution test** Provide a quantitative analysis, such as a regression or correlation framework, comparing nucleosome phasing regularity (e.g., a phasing score derived from NOMe-seq data) and CTCF peak intensity as predictors of insulation scores across the same set of CTCF sites. Report effect sizes, confidence intervals, and statistical significance of the difference in predictive power.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Favorable motif/TF environments can increase CTCF signal yet disrupt nucleosome phasing and weaken insulation, showing that binding strength and insulation can be uncoupled."
+  - **Evidence pointer** Figures 2, 4, 7; Results sections on TF motifs and nucleosome phasing
+  - **Concern** The manuscript describes associations between motif/TF environments, CTCF signal, nucleosome phasing, and insulation, but does not demonstrate causality. The claim that motif/TF environments "can increase CTCF signal yet disrupt nucleosome phasing and weaken insulation" implies a causal relationship, but the evidence is correlative across site categories. The allele-specific analyses (Figure 5) provide some causal support for TF-CTCF interactions, but the link to nucleosome phasing and insulation is not directly perturbed.
+  - **Why it matters** Without causal evidence, alternative explanations remain plausible. For example, sites with weaker insulation might have intrinsically different chromatin states that affect both TF binding and nucleosome phasing independently of CTCF. The manuscript's model would be substantially strengthened by a perturbation experiment (e.g., TF knockdown or motif mutation) showing that altering the TF environment changes nucleosome phasing and insulation.
+  - **Resolution test** Perform a targeted perturbation, such as CRISPR-mediated mutation of a TF motif at a subset of CTCF sites, or TF knockdown, and measure changes in CTCF binding, nucleosome phasing, and insulation at those loci. Alternatively, use an in vitro or ectopic reporter system to test the sufficiency of motif/TF combinations to alter phasing and insulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of nucleosome phasing analysis
+  - **Claim pointer** "Single-molecule maps show that nucleosome phasing regularity predicts insulation strength more reliably than CTCF peak intensity."
+  - **Evidence pointer** Figure 6; Results section "CTCF asymmetrically repositions and phases flanking nucleosomes"
+  - **Concern** The analysis of nucleosome phasing from nano-NOMe-seq data is described qualitatively. The manuscript does not provide a clear definition of "phasing regularity" or a quantitative metric that was computed from the single-molecule data. It is unclear how phasing regularity was scored, how it was compared across site categories, and how robust the metric is to sequencing depth or data quality.
+  - **Why it matters** The central claim depends on a reliable and well-defined measure of phasing regularity. Without a clear metric, the analysis is not reproducible and the comparison across categories is difficult to interpret.
+  - **Resolution test** Define the phasing regularity metric explicitly (e.g., the fraction of molecules with a nucleosome dyad at a given offset, or the autocorrelation of nucleosome positions). Provide the computational pipeline and demonstrate that the metric is stable across subsampling of reads. Show the distribution of the metric across site categories with statistical comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of species comparison
+  - **Claim pointer** "In mouse, typically accessible sites combine strong motifs with higher CTCF/cohesin occupancy, while inaccessible sites use weaker motifs stabilized by flanking upstream (U) and downstream (D) sequences... In human WTC11 iPSCs by contrast, accessible and inaccessible CBSs have highly similar core motifs, with no consistent enrichment of the weaker T10 variant."
+  - **Evidence pointer** Figure 1; Results section "U and D motifs are enriched at inaccessible sites in mouse cells"
+  - **Concern** The species comparison is based on one mouse cell type (mESCs) and one human cell type (WTC11 iPSCs). The authors interpret differences as species-specific, but they could also reflect cell-type-specific differences (e.g., pluripotent stem cells from different species, or differences in culture conditions). The claim that "differences in motif architecture... between species" is not strongly supported by a single cell type per species.
+  - **Why it matters** The manuscript proposes a mechanism for cell-type-specific regulation of insulation, and the species comparison is used to support the idea that motif architecture differs between species. If the observed differences are actually cell-type-specific rather than species-specific, the interpretation changes.
+  - **Resolution test** Include additional cell types from both species (e.g., differentiated cells or primary cells) to show that the motif architecture differences track species rather than cell type. Alternatively, temper the species-specific language and frame the results as cell-type-specific differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical methods section
+  - **Evidence pointer** "QUANTIFICATION AND STATISTICAL ANALYSIS" section
+  - **Issue** The statistical methods are described generally, but specific numbers (e.g., sample sizes, number of sites per category, degrees of freedom) are not provided in the text. The reader cannot assess the power of the comparisons.
+  - **Required correction** Provide the number of CTCF sites in each category (accessible/inaccessible, U/D motif classes, TF motif classes) and the number of biological replicates for each assay. Report exact p-values or q-values for key comparisons in the text or figure legends.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of AlphaFold3 interpretation
+  - **Affected element** Results section "Individual TFs are associated with stronger CTCF occupancy and can either co-bind or compete with CTCF"
+  - **Evidence pointer** Figure 4B, 4C; Figure S13
+  - **Issue** The AlphaFold3 predictions are described as supporting cooperative or competitive binding, but the criteria for classifying a prediction as "cooperative" versus "competitive" are not stated. The qualitative nature of the interpretation is acknowledged, but the reader needs to know what structural features were assessed.
+  - **Required correction** Define the structural criteria used to classify AlphaFold3 predictions (e.g., predicted contacts between TF and CTCF zinc fingers, predicted steric clashes, predicted DNA bending). Provide representative examples with clear annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Definition of "accessible" and "inaccessible"
+  - **Affected element** Methods, "Datasets and data processing"
+  - **Evidence pointer** "CTCF peaks overlapping an ATAC-seq peak were classified as accessible, and those without ATAC overlap as inaccessible"
+  - **Issue** The binary classification of accessible versus inaccessible based on ATAC-seq overlap is simplistic. Chromatin accessibility is a continuum, and the choice of threshold could affect the results. It is unclear how sensitive the findings are to this classification.
+  - **Required correction** Provide the distribution of ATAC-seq signal at CTCF sites and justify the binary threshold. Consider a sensitivity analysis using a continuous measure of accessibility or different thresholds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Limitations of the study
+  - **Affected element** Discussion, "Limitations of the study"
+  - **Evidence pointer** "we did not perform formal spectral analyses (e.g., fast Fourier transform [FFT] or autocorrelation) to quantify periodicity or phasing strength"
+  - **Issue** The authors acknowledge the lack of quantitative phasing analysis, which is appropriate. However, given that the central claim depends on phasing regularity, this limitation is substantial. The acknowledgment is good, but the manuscript would be stronger if at least a simple quantitative metric were included.
+  - **Required correction** Consider adding a simple quantitative measure of phasing regularity (e.g., the fraction of molecules with a nucleosome dyad within a defined window) and show that the qualitative conclusions hold with this metric.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative comparison of phasing vs. CTCF intensity as predictors of insulation) and R1-M2 (causal evidence for the role of motif/TF environments in decoupling binding from insulation) are the primary technical issues. R1-M3 (definition of phasing regularity metric) is also important for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept that nucleosome phasing, rather than CTCF occupancy alone, tracks insulation is a potentially novel contribution. The integration of motif grammar, TF programs, and single-molecule nucleosome mapping is a fresh angle. However, the individual components (U/D motifs, TF cooperation, NOMe-seq) have been previously described, and the novelty lies in their integration.
+  - Scientific importance: The question of what determines insulator function is of high importance to the fields of 3D genome organization and gene regulation. If the claims are substantiated, the work could influence how CTCF sites are annotated and interpreted.
+  - Interdisciplinary readership: The work is primarily of interest to molecular biologists, genomicists, and computational biologists. The methods and concepts are specialized, and the broader readership may be limited.
+  - Technical soundness: The multi-omics approach is generally sound, but the central quantitative claim (phasing vs. intensity) lacks formal statistical support. The causal inference is limited by the correlative nature of the analyses.
+  - Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge. The abstract is accessible, but the results and methods are highly technical. The writing is generally clear for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible framework, but the central claims require stronger quantitative and causal support. If the authors can provide a formal comparison of phasing versus CTCF intensity as predictors of insulation, and ideally a perturbation experiment to support causality, the work would be substantially strengthened.
+
+## Risk / unsupported claims
+- The claim that "nucleosome phasing regularity predicts insulation strength more reliably than CTCF peak intensity" is not quantitatively supported as presented; no formal comparison of predictive power is described.
+- The claim that "favorable motif/TF environments can increase CTCF signal yet disrupt nucleosome phasing and weaken insulation" implies causality that is not established by the correlative analyses.
+- The species-specific interpretation of motif architecture differences is based on one cell type per species and could reflect cell-type-specific rather than species-specific differences.
+- The AlphaFold3 predictions are described as supporting cooperative or competitive binding, but the criteria for classification are not defined, making the interpretation difficult to evaluate.
+- The statement that "nucleosome phasing provides the key chromatin intermediary linking local sequence grammar, TF environments, and higher-order genome architecture" is a strong interpretive claim that goes beyond the direct evidence presented.

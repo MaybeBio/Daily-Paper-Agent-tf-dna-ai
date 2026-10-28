@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "41596696",
+    "doi": "10.3390/ijms27021054",
+    "title": "In Silico Design and Characterization of a Rationally Engineered Cas12j2 Gene Editing System for the Treatment of HPV-Associated Cancers."
+  },
+  "content": {
+    "abstract": "CRISPR-Cas9 systems have enabled unprecedented advances in genome engineering, particularly in developing treatments for human diseases, like cancer. Despite potential applications, limitations of Cas9 include its relatively large size and strict targeting requirements. Cas12j2, a variant ofCasPhi-2, shows promise for overcoming these limitations. However, its effectiveness in mammalian cells remains relatively unexplored. This study sought to develop an optimized CRISPR-Cas12j2 system for targeted knockout of the E6 oncogene in HPV-associated cancers. A combination of computational tools (ColabFold, CCTop, Cas-OFFinder, HADDOCK2.4, and Amber for Molecular Dynamics) was utilized to investigate the impact of engineered modifications on structural integrity and gRNA binding of Cas12j2 fusion constructs, in potential intracellular conditions. Cas12j2_F2, a Cas12j2 variant designed and evaluated in this study, behaves similarly to the wild-type Cas12j2 structure in terms of RMSD/RMSF profiles, compact Rg values, and minimal electrostatic perturbation. The computationally validated Cas12j2 variant was incorporated into a custom expression vector, co-expressing the engineered construct along with a dual gRNA for packaging into a viral vector for targeted knockout of HPV-associated cancers. This study provides a structural and computational foundation for the rational design of Cas12j2 fusion constructs with enhanced stability and functionality, supporting their potential application for precise genome editing in mammalian cells.",
+    "keywords": [
+      "CRISPR-Cas",
+      "Cas12j2",
+      "CasPhi-2",
+      "HPV-associated cancers",
+      "HPV16/18",
+      "gene therapy",
+      "in-silico modeling",
+      "molecular dynamics simulations (AMBER)",
+      "off-target analysis",
+      "protein-RNA docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Editing/methods",
+      "*CRISPR-Cas Systems/genetics",
+      "*Neoplasms/therapy/virology/genetics",
+      "Oncogene Proteins, Viral/genetics",
+      "RNA, Guide, CRISPR-Cas Systems/genetics",
+      "*Papillomavirus Infections/virology/genetics/therapy",
+      "Computer Simulation",
+      "DNA-Binding Proteins/genetics",
+      "Molecular Dynamics Simulation",
+      "*Human Papillomavirus Viruses/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boren, Caleb",
+        "Kumar, Rahul",
+        "Gollahon, Lauren"
+      ],
+      "short_names": [
+        "Boren C",
+        "Kumar R",
+        "Gollahon L"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0423-7366",
+        "ORCID: 0000-0002-1280-3359"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA.",
+        "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA.",
+        "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boren, Caleb",
+        "short_name": "Boren C",
+        "identifiers": [
+          "0009-0002-0423-7366"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Rahul",
+        "short_name": "Kumar R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA."
+        ]
+      },
+      {
+        "full_name": "Gollahon, Lauren",
+        "short_name": "Gollahon L",
+        "identifiers": [
+          "0000-0002-1280-3359"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Texas Tech University, 2500 Broadway, Lubbock, TX 79409, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:47",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41020890",
+      "41011780",
+      "40756867",
+      "40481308",
+      "40301924",
+      "39856040",
+      "39766238",
+      "39684395",
+      "39526384",
+      "39513889",
+      "39454945",
+      "39211474",
+      "39181864",
+      "39087082",
+      "39062859",
+      "38943236",
+      "38932489",
+      "38886530",
+      "38838774",
+      "38740056",
+      "38483980",
+      "38473704",
+      "38390600",
+      "37592012",
+      "37426330",
+      "37423524",
+      "37215153",
+      "37112732",
+      "36970624",
+      "36926275",
+      "36859359",
+      "36454539",
+      "36107618",
+      "36088301",
+      "35838167",
+      "35792260",
+      "35776635",
+      "35637307",
+      "35478255",
+      "35386098",
+      "35349718",
+      "35341983",
+      "35200436",
+      "35140292",
+      "35036522",
+      "34683943",
+      "34570957",
+      "34353334",
+      "34294706",
+      "34280810",
+      "34265844",
+      "34246920",
+      "34050182",
+      "34022911",
+      "33767386",
+      "33005303",
+      "32881101",
+      "32850447",
+      "32770927",
+      "32675376",
+      "32195078",
+      "32101399",
+      "31537455",
+      "31493653",
+      "31320891",
+      "30482913",
+      "30328948",
+      "30016588",
+      "29962490",
+      "29219081",
+      "28634692",
+      "27665601",
+      "27380939",
+      "27276584",
+      "26524520",
+      "26417278",
+      "25909470",
+      "25562181",
+      "25136604",
+      "25100830",
+      "25099813",
+      "25044113",
+      "24906146",
+      "24463181",
+      "23664777",
+      "22046250",
+      "20466807",
+      "19234730",
+      "17004707",
+      "16836757",
+      "15215472"
+    ],
+    "similar": [
+      "41596696",
+      "40943604",
+      "30074178",
+      "40400023",
+      "31455836",
+      "39380278",
+      "31989837",
+      "41985328",
+      "39012601",
+      "29019352",
+      "33468698",
+      "32926383",
+      "29176845",
+      "39834176",
+      "35140292",
+      "39937081",
+      "35700449",
+      "29637228",
+      "31494246",
+      "39068337",
+      "31537455",
+      "35749339",
+      "36479105",
+      "39816115",
+      "35543560",
+      "25100830",
+      "27713537",
+      "31973584",
+      "31875277",
+      "41329461",
+      "27210042",
+      "39023463",
+      "41174319",
+      "29268281",
+      "42052944",
+      "31010727",
+      "38656521",
+      "32298665",
+      "34280810",
+      "28851809",
+      "31373227",
+      "38656525",
+      "40869944",
+      "40228775",
+      "29540148",
+      "33411765",
+      "31099553",
+      "28944962",
+      "40173086",
+      "29771955",
+      "29215041",
+      "36209487",
+      "41570748",
+      "27371591",
+      "41392379",
+      "35040621",
+      "28303677",
+      "34086743",
+      "33509781",
+      "38563791",
+      "42106044",
+      "41241768",
+      "36301478",
+      "42283883",
+      "31821359",
+      "29326299",
+      "37437039",
+      "40867053",
+      "27340770",
+      "34445123",
+      "39526384",
+      "39332185",
+      "35950852",
+      "28499832",
+      "30043367",
+      "30367669",
+      "37525893",
+      "35446403",
+      "30912039",
+      "40342053",
+      "31902584",
+      "32887261",
+      "36793210",
+      "31243081",
+      "31728703",
+      "40551141",
+      "33147453",
+      "32163387",
+      "34480847",
+      "35188654",
+      "41483499",
+      "40831701",
+      "28527117",
+      "40872756",
+      "27371605",
+      "39179566",
+      "34478654",
+      "32006410",
+      "29121460",
+      "30990769"
+    ],
+    "review": [
+      "41596696",
+      "40400023",
+      "41985328",
+      "39834176",
+      "36479105",
+      "41329461",
+      "27210042",
+      "29268281",
+      "40869944",
+      "40173086",
+      "36209487",
+      "41570748",
+      "28303677",
+      "33509781",
+      "41241768",
+      "37437039",
+      "27340770",
+      "34445123",
+      "39332185",
+      "28499832",
+      "37525893",
+      "40342053",
+      "31902584",
+      "32163387",
+      "40831701",
+      "28527117",
+      "32006410",
+      "29121460"
+    ],
+    "pmc": [
+      "12841931"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27021054",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hpv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HPV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41596696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3432",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

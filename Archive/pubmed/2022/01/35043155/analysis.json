@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35043155",
+  "title": "TP53_PROF: a machine learning model to predict impact of missense mutations in TP53.",
+  "authors": "Ben-Cohen, Gil; Doffe, Flora; Devir, Michal; Leroy, Bernard; Soussi, Thierry; Rosenberg, Shai",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-01-20",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测TP53错义突变的功能影响，虽涉及转录因子TP53，但聚焦突变致病性分类而非DNA结合互作建模，方法为序列/功能评分集成，无三维互作或结合位点预测，故匹配度低。",
+  "abstract": "Correctly identifying the true driver mutations in a patient's tumor is a major challenge in precision oncology. Most efforts address frequent mutations, leaving medium- and low-frequency variants mostly unaddressed. For TP53, this identification is crucial for both somatic and germline mutations, with the latter associated with the Li-Fraumeni syndrome (LFS), a multiorgan cancer predisposition. We present TP53_PROF (prediction of functionality), a gene specific machine learning model to predict the functional consequences of every possible missense mutation in TP53, integrating human cell- and yeast-based functional assays scores along with computational scores. Variants were labeled for the training set using well-defined criteria of prevalence in four cancer genomics databases. The model's predictions provided accuracy of 96.5%. They were validated experimentally, and were compared to population data, LFS datasets, ClinVar annotations and to TCGA survival data. Very high accuracy was shown through all methods of validation. TP53_PROF allows accurate classification of TP53 missense mutations applicable for clinical practice. Our gene specific approach integrated machine learning, highly reliable features and biological knowledge, to create an unprecedented, thoroughly validated and clinically oriented classification model. This approach currently addresses TP53 mutations and will be applied in the future to other important cancer genes.",
+  "abstract_zh": "在精准肿瘤学中，正确识别患者肿瘤中的真正驱动突变是一项重大挑战。大多数研究集中于高频突变，而中低频变异大多未被涉及。对于TP53，这一识别对体细胞和胚系突变均至关重要，后者与Li-Fraumeni综合征（LFS）相关，这是一种多器官癌症易感性疾病。我们提出了TP53_PROF（功能预测），一种基因特异性机器学习模型，用于预测TP53中所有可能的错义突变的功能后果，整合了基于人类细胞和酵母的功能测定评分以及计算评分。变异体使用四个癌症基因组数据库中明确的流行率标准进行训练集标记。该模型的预测准确率达到96.5%。这些预测经过实验验证，并与人群数据、LFS数据集、ClinVar注释及TCGA生存数据进行了比较。所有验证方法均显示出极高的准确性。TP53_PROF能够对TP53错义突变进行准确分类，适用于临床实践。我们的基因特异性方法整合了机器学习、高度可靠的特征和生物学知识，创建了一个前所未有的、经过全面验证且面向临床的分类模型。该方法目前针对TP53突变，未来将应用于其他重要癌症基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35043155/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35043155/",
+  "paper_page_path": "papers/pubmed/35043155/index.html"
+}

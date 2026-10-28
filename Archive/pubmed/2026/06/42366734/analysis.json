@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42366734",
+  "title": "Minimizing Off-Target Effects of CRISPR-Cas9 With Optimized sgRNA: Evaluation of Efficiency and Specificity in the Tumor Protein 53 (TP53) Region.",
+  "authors": "Kose, Ali Mertcan; Ranalli, Monia; Trivanovic, Drenka; Maslovaric, Irina",
+  "journal": "Biotechnology and bioengineering",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习分类sgRNA错配位点以最小化CRISPR-Cas9脱靶效应，虽涉及蛋白-DNA识别但非TF-DNA体系，且无三维互作建模或物理模拟，方法可迁移性有限。",
+  "abstract": "CRISPR-Cas9 is a widely used genetic tool with therapeutic potential in molecular biology. CRISPR-Cas9 enables precise genome editing by its ability to target specific DNA sequence. After off-target and on-target regions are identified, CRISPR-Cas9 is applied to these regions based on the match between the guide RNA (gRNA) and target DNA sequence. This study points to the off-target impact of mismatches between the gRNA and target DNA on exon regions of the TP53 gene, which are involved in regulating multiple genes and cellular functions. Off-target positions are typically evaluated using scoring methods. In this study, we have used latent class analysis to reveal subclasses of off-target positions. Thus, we have created the levels of off-target positions and evaluated the effects of mismatching positions within these classes using machine learning classifiers. The results revealed that mismatching positions could be categorized into three levels: low, middle, and high off-target positions. We have improved a computational framework to minimize off-target effects and to identify the PAM sequences in the gRNA design. Thus, carefully designed gRNAs will ensure that desired genetic edits are performed and target variants are achieved. This work will avail the future research aimed at optimizing genome editing by customizing CRISPR-Cas9 to target specific protospacer DNA through gRNA.",
+  "abstract_zh": "CRISPR-Cas9是一种广泛使用的遗传工具，在分子生物学中具有治疗潜力。CRISPR-Cas9通过其靶向特定DNA序列的能力实现精确的基因组编辑。在识别出脱靶和靶向区域后，CRISPR-Cas9根据引导RNA（gRNA）与靶DNA序列之间的匹配情况应用于这些区域。本研究关注gRNA与靶DNA之间的错配在TP53基因外显子区域上的脱靶影响，这些区域参与调控多个基因和细胞功能。脱靶位置通常使用评分方法进行评估。在本研究中，我们使用潜在类别分析来揭示脱靶位置的亚类。因此，我们创建了脱靶位置的层级，并使用机器学习分类器评估了这些类别内错配位置的影响。结果显示，错配位置可分为三个层级：低、中、高脱靶位置。我们改进了一个计算框架，以最小化脱靶效应并识别gRNA设计中的PAM序列。因此，精心设计的gRNA将确保实现所需的遗传编辑并达到目标变异。这项工作将有助于未来旨在通过定制CRISPR-Cas9以靶向特定原型间隔区DNA的研究，从而优化基因组编辑。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42366734/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42366734/",
+  "paper_page_path": "papers/pubmed/42366734/index.html"
+}

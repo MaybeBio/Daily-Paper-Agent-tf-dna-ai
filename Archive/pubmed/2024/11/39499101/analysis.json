@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39499101",
+  "title": "Network dynamics investigation of omics-data-driven circadian-hypoxia crosstalk logical model in gallbladder cancer reveals key therapeutic target combinations.",
+  "authors": "Singh, Aakansha; Dwivedi, Anjana",
+  "journal": "Integrative biology : quantitative biosciences from nano to macro",
+  "published_date": "2024-11-05",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建胆囊癌昼夜节律-缺氧通路串扰的布尔逻辑网络模型，研究节点扰动与治疗靶点组合，不涉及蛋白质-DNA互作或TF-DNA结合建模，仅属信号通路网络动态分析。",
+  "abstract": "Recent findings in cancer research have pointed towards the bidirectional interaction between circadian and hypoxia pathways. However, little is known about their crosstalk mechanism. In this work, we aimed to investigate this crosstalk at a network level utilizing the omics information of gallbladder cancer. Differential gene expression and pathway enrichment analysis were used for selecting the crucial genes from both the pathways, followed by the construction of a logical crosstalk model using GINsim. Functional circuit identification and node perturbations were then performed. Significant node combinations were used to investigate the temporal behavior of the network through MaBoSS. Lastly, the model was validated using published in vitro experimentations. Four new positive circuits and a new axis viz. BMAL1/ HIF1alphabeta/ NANOG, responsible for stemness were identified. Through triple node perturbations viz.a. BMAL:CLOCK (KO or E1) + P53 (E1) + HIF1alpha (KO); b. P53 (E1) + HIF1alpha (KO) + MYC (E1); and c. HIF1alpha (KO) + MYC (E1) + EGFR (KO), the model was able to inhibit cancer growth and maintain a homeostatic condition. This work provides an architecture for drug simulation analysis to entrainment circadian rhythm and in vitro experiments for chronotherapy-related studies. Insight Box. Circadian rhythm and hypoxia are the key dysregulated processes which fuels-up the cancer growth. In the present work we have developed a gallbladder cancer (GBC) specific Boolean model, utilizing the RNASeq data from GBC dataset and tissue specific interactions. This work adequately models the bidirectional nature of interactions previously illustrated in experimental papers showing the effect of hypoxia on dysregulation of circadian rhythm and the influence of this disruption on progression towards metastasis. Through the dynamical study of the model and its response to different perturbations, we report novel triple node combinations that can be targeted to efficiently reduce GBC growth. This network can be used as a generalized framework to investigate different crosstalk pathways linked with cancer progression.",
+  "abstract_zh": "癌症研究的最新发现指出了昼夜节律与低氧通路之间的双向相互作用。然而，关于它们的串扰机制知之甚少。在本研究中，我们旨在利用胆囊癌的组学信息，在网络水平上探讨这种串扰。通过差异基因表达和通路富集分析，从两条通路中筛选关键基因，随后使用GINsim构建逻辑串扰模型。接着进行了功能回路识别和节点扰动。利用显著节点组合，通过MaBoSS研究网络的时序行为。最后，使用已发表的体外实验验证了模型。我们识别出四个新的正反馈回路和一个新轴，即BMAL1/HIF1alphabeta/NANOG，该轴负责干性维持。通过三重节点扰动，即a. BMAL:CLOCK（敲除或E1）+ P53（E1）+ HIF1alpha（敲除）；b. P53（E1）+ HIF1alpha（敲除）+ MYC（E1）；以及c. HIF1alpha（敲除）+ MYC（E1）+ EGFR（敲除），模型能够抑制癌症生长并维持稳态条件。这项工作为药物模拟分析以调节昼夜节律以及用于时间治疗学相关研究的体外实验提供了架构。洞察框：昼夜节律和低氧是促进癌症生长的关键失调过程。在本研究中，我们利用GBC数据集的RNASeq数据和组织特异性相互作用，开发了一个胆囊癌（GBC）特异性布尔模型。这项工作充分模拟了先前实验论文中展示的双向相互作用性质，显示了低氧对昼夜节律失调的影响以及这种失调对转移进展的促进作用。通过对模型的动态研究及其对不同扰动的响应，我们报告了可靶向高效减少GBC生长的新的三重节点组合。该网络可作为研究癌症进展相关不同串扰通路的通用框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39499101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39499101/",
+  "paper_page_path": "papers/pubmed/39499101/index.html"
+}

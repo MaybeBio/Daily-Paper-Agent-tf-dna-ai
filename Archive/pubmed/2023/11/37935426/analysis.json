@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37935426",
+  "title": "Inferring delays in partially observed gene regulation processes.",
+  "authors": "Hong, Hyukpyo; Cortez, Mark Jayson; Cheng, Yu-Yu; Kim, Hang Joon; Choi, Boseung; Josic, Kresimir; Kim, Jae Kyoung",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2023-11-08",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用贝叶斯MCMC推断基因调控网络中的延迟参数，虽涉及蛋白介导的基因调控，但无蛋白质-DNA互作建模、无AI或物理模拟方法，仅统计推断，与课题关联弱。",
+  "abstract": "MOTIVATION: Cell function is regulated by gene regulatory networks (GRNs) defined by protein-mediated interaction between constituent genes. Despite advances in experimental techniques, we can still measure only a fraction of the processes that govern GRN dynamics. To infer the properties of GRNs using partial observation, unobserved sequential processes can be replaced with distributed time delays, yielding non-Markovian models. Inference methods based on the resulting model suffer from the curse of dimensionality. RESULTS: We develop a simulation-based Bayesian MCMC method employing an approximate likelihood for the efficient and accurate inference of GRN parameters when only some of their products are observed. We illustrate our approach using a two-step activation model: an activation signal leads to the accumulation of an unobserved regulatory protein, which triggers the expression of observed fluorescent proteins. With prior information about observed fluorescent protein synthesis, our method successfully infers the dynamics of the unobserved regulatory protein. We can estimate the delay and kinetic parameters characterizing target regulation including transcription, translation, and target searching of an unobserved protein from experimental measurements of the products of its target gene. Our method is scalable and can be used to analyze non-Markovian models with hidden components. AVAILABILITY AND IMPLEMENTATION: Our code is implemented in R and is freely available with a simple example data at https://github.com/Mathbiomed/SimMCMC.",
+  "abstract_zh": "动机：细胞功能由基因调控网络（GRNs）调控，该网络由组成基因之间的蛋白质介导相互作用定义。尽管实验技术有所进步，我们仍只能测量控制GRN动态过程的一部分。为了利用部分观测推断GRN的性质，未观测的序列过程可以用分布式时间延迟替代，从而产生非马尔可夫模型。基于所得模型的推断方法受到维度灾难的影响。结果：我们开发了一种基于模拟的贝叶斯MCMC方法，采用近似似然，以便在仅观测到部分产物时高效且准确地推断GRN参数。我们使用两步激活模型说明我们的方法：激活信号导致未观测调控蛋白的积累，该蛋白触发观测荧光蛋白的表达。利用关于观测荧光蛋白合成的先验信息，我们的方法成功推断出未观测调控蛋白的动态。我们能够从目标基因产物的实验测量中估计表征目标调控的延迟和动力学参数，包括转录、翻译及未观测蛋白的目标搜索。我们的方法具有可扩展性，可用于分析具有隐藏组分的非马尔可夫模型。可用性与实现：我们的代码用R实现，并附带简单示例数据，可在https://github.com/Mathbiomed/SimMCMC免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37935426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37935426/",
+  "paper_page_path": "papers/pubmed/37935426/index.html"
+}

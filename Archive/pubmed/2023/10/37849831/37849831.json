@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "37849831",
+    "doi": "10.7717/peerj.16309",
+    "title": "Theoretical study of ArcB and its dimerization, interaction with anaerobic metabolites, and activation of ArcA."
+  },
+  "content": {
+    "abstract": "The complex metabolism of Escherichia coli has been extensively studied, including its response to oxygen availability. The ArcA/B two-component system (TCS) is the key regulator for the transition between these two environmental conditions and has been thoroughly characterized using genetic and biochemical approaches. Still, to date, limited structural data is available. The breakthrough provided by AlphaFold2 in 2021 has brought a reliable tool to the scientific community for assessing the structural features of complex proteins. In this report, we analyzed the structural aspects of the ArcA/B TCS using AlphaFold2 models. The models are consistent with the experimentally determined structures of ArcB kinase. The predicted structure of the dimeric form of ArcB is consistent with the extensive genetic and biochemical data available regarding mechanistic signal perception and regulation. The predicted interaction of the dimeric form of ArcB with its cognate response regulator (ArcA) is also consistent with both the forward and reverse phosphotransfer mechanisms. The ArcB model was used to detect putative binding cavities to anaerobic metabolites, encouraging testing of these predictions experimentally. Finally, the highly accurate models of other ArcB homologs suggest that different experimental approaches are needed to determine signal perception in kinases lacking the PAS domain. Overall, ArcB is a kinase with features that need further testing, especially in determining its crystal structure under different conditions.",
+    "keywords": [
+      "AlphaFold2",
+      "ArcB",
+      "Kinase regulation",
+      "Protein modeling",
+      "Signaling mechanism",
+      "Two-component systems"
+    ],
+    "mesh_terms": [
+      "Anaerobiosis",
+      "Bacterial Outer Membrane Proteins/genetics",
+      "Bacterial Proteins/genetics",
+      "Dimerization",
+      "Escherichia coli/genetics",
+      "*Escherichia coli Proteins/genetics",
+      "Models, Theoretical",
+      "Phosphorylation",
+      "Protein Kinases/genetics",
+      "Repressor Proteins/genetics",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Padilla-Vaca, Felipe",
+        "de la Mora, Javier",
+        "Garcia-Contreras, Rodolfo",
+        "Ramirez-Prado, Jorge Humberto",
+        "Vicente-Gomez, Marcos",
+        "Vargas-Gasca, Francisco",
+        "Anaya-Velazquez, Fernando",
+        "Paramo-Perez, Itzel",
+        "Rangel-Serrano, Angeles",
+        "Cuellar-Mata, Patricia",
+        "Vargas-Maya, Nauru Idalia",
+        "Franco, Bernardo"
+      ],
+      "short_names": [
+        "Padilla-Vaca F",
+        "de la Mora J",
+        "Garcia-Contreras R",
+        "Ramirez-Prado JH",
+        "Vicente-Gomez M",
+        "Vargas-Gasca F",
+        "Anaya-Velazquez F",
+        "Paramo-Perez I",
+        "Rangel-Serrano A",
+        "Cuellar-Mata P",
+        "Vargas-Maya NI",
+        "Franco B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8475-2282",
+        "ORCID: 0000-0003-2780-5223",
+        "ORCID: 0000-0003-4332-3734"
+      ],
+      "affiliations": [
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Genetica Molecular, Instituto de Fisiologia Celular, Mexico City, Mexico City, Mexico.",
+        "Facultad de Medicina, Universidad Nacional Autonoma de Mexico, Mexico City, Mexico City, Mexico.",
+        "Unidad de Biotecnologia, Centro de Investigacion Cientifica de Yucatan, A. C., Merida, Yucatan, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico.",
+        "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Padilla-Vaca, Felipe",
+        "short_name": "Padilla-Vaca F",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "de la Mora, Javier",
+        "short_name": "de la Mora J",
+        "identifiers": [],
+        "affiliations": [
+          "Genética Molecular, Instituto de Fisiología Celular, Mexico City, Mexico City, México."
+        ]
+      },
+      {
+        "full_name": "García-Contreras, Rodolfo",
+        "short_name": "García-Contreras R",
+        "identifiers": [
+          "0000-0001-8475-2282"
+        ],
+        "affiliations": [
+          "Facultad de Médicina, Universidad Nacional Autónoma de México, Mexico City, Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Prado, Jorge Humberto",
+        "short_name": "Ramírez-Prado JH",
+        "identifiers": [
+          "0000-0003-2780-5223"
+        ],
+        "affiliations": [
+          "Unidad de Biotecnología, Centro de Investigación Científica de Yucatán, A. C., Mérida, Yucatán, México."
+        ]
+      },
+      {
+        "full_name": "Vicente-Gómez, Marcos",
+        "short_name": "Vicente-Gómez M",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Vargas-Gasca, Francisco",
+        "short_name": "Vargas-Gasca F",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Anaya-Velázquez, Fernando",
+        "short_name": "Anaya-Velázquez F",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Páramo-Pérez, Itzel",
+        "short_name": "Páramo-Pérez I",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Rangel-Serrano, Ángeles",
+        "short_name": "Rangel-Serrano Á",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Cuéllar-Mata, Patricia",
+        "short_name": "Cuéllar-Mata P",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Vargas-Maya, Naurú Idalia",
+        "short_name": "Vargas-Maya NI",
+        "identifiers": [],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      },
+      {
+        "full_name": "Franco, Bernardo",
+        "short_name": "Franco B",
+        "identifiers": [
+          "0000-0003-4332-3734"
+        ],
+        "affiliations": [
+          "Biology, Universidad de Guanajuato, Guanajuato, Guanajuato, México."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/18 06:44",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "40908439",
+      "40008041"
+    ],
+    "refs": [
+      "38943236",
+      "36975788",
+      "36928239",
+      "36926275",
+      "36504617",
+      "36398786",
+      "36038728",
+      "35757294",
+      "35686729",
+      "35637307",
+      "34289076",
+      "34265844",
+      "34191587",
+      "34170110",
+      "34108002",
+      "33956149",
+      "32871497",
+      "31942238",
+      "31603938",
+      "31263275",
+      "29945971",
+      "29788129",
+      "29333532",
+      "29103614",
+      "26217364",
+      "24688679",
+      "24563257",
+      "23986568",
+      "23645604",
+      "22666479",
+      "21980479",
+      "20946850",
+      "20498088",
+      "20097862",
+      "19851741",
+      "19303806",
+      "18462392",
+      "18437229",
+      "17213678",
+      "15876365",
+      "15838055",
+      "15576382",
+      "15522865",
+      "15326287",
+      "15264254",
+      "15028693",
+      "14711822",
+      "12562763",
+      "12324251",
+      "11717280",
+      "11527965",
+      "11423658",
+      "11148031",
+      "10966457",
+      "10851007",
+      "10802164",
+      "10788795",
+      "10781568",
+      "10592173",
+      "10585483",
+      "10531481",
+      "9830034",
+      "9761838",
+      "9286997",
+      "9188789",
+      "9054511",
+      "7556165",
+      "2964639",
+      "2644240",
+      "2201868",
+      "1760843"
+    ],
+    "similar": [
+      "37849831",
+      "9683496",
+      "23064346",
+      "16291649",
+      "19933363",
+      "10585483",
+      "15838055",
+      "1512197",
+      "20946850",
+      "11717280",
+      "10734219",
+      "8825099",
+      "15882425",
+      "2201868",
+      "1597416",
+      "16140472",
+      "21252224",
+      "9010748",
+      "29945971",
+      "15876365",
+      "15028693",
+      "20622065",
+      "11133990",
+      "8226939",
+      "24146625",
+      "24116043",
+      "9632255",
+      "19715602",
+      "1592804",
+      "9286997",
+      "10947842",
+      "11527965",
+      "15838044",
+      "9685739",
+      "17213678",
+      "11148031",
+      "10851007",
+      "19851741",
+      "16771670",
+      "23029459",
+      "15988767",
+      "7957084",
+      "9302022",
+      "19682256",
+      "10788795",
+      "8412675",
+      "8132465",
+      "18221523",
+      "9972245",
+      "7855430",
+      "18462392",
+      "15669087",
+      "8022271",
+      "22666479",
+      "19897650",
+      "20097862",
+      "16849788",
+      "30030227",
+      "29139003",
+      "9830034",
+      "23645604",
+      "23065979",
+      "14711822",
+      "32283260",
+      "11423658",
+      "9761838",
+      "10071223",
+      "12496179",
+      "20400540",
+      "16709570",
+      "20348304",
+      "9244276",
+      "2565334",
+      "11238966",
+      "2644240",
+      "7565118",
+      "1328158",
+      "12486057",
+      "23161031",
+      "8022274",
+      "15326287",
+      "10781568",
+      "20709841",
+      "10794600",
+      "11022030",
+      "37982663",
+      "18326580",
+      "29087312",
+      "25161193",
+      "16255146",
+      "10531481",
+      "10216875",
+      "9230919",
+      "33325149",
+      "26099584",
+      "12562763",
+      "23226719",
+      "9209047",
+      "7665524",
+      "28154339"
+    ],
+    "review": [
+      "37849831",
+      "9010748",
+      "16771670",
+      "8412675",
+      "7855430",
+      "9230919"
+    ],
+    "pmc": [
+      "10578306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10062",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "arcB"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37849831/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37849831",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.16309",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source": "arxiv",
+  "source_id": "2504.04453v2",
+  "title": "Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation",
+  "doi": "",
+  "abstract": "Unlocking the next generation of biotechnology and therapeutic innovation demands overcoming the inherent complexity and resource-intensity of conventional protein engineering methods. Recent GenAI-powered computational techniques often rely on the availability of the target protein's 3D structures and specific binding sites to generate high-affinity binders, constraints exhibited by models such as AlphaProteo and RFdiffusion. In this work, we explore the use of Protein Language Models (pLMs) for high-affinity binder generation. We introduce Prot42, a novel family of Protein Language Models (pLMs) pretrained on vast amounts of unlabeled protein sequences. By capturing deep evolutionary, structural, and functional insights through an advanced auto-regressive, decoder-only architecture inspired by breakthroughs in natural language processing, Prot42 dramatically expands the capabilities of computational protein design based on language only. Remarkably, our models handle sequences up to 8,192 amino acids, significantly surpassing standard limitations and enabling precise modeling of large proteins and complex multi-domain sequences. Demonstrating powerful practical applications, Prot42 excels in generating high-affinity protein binders and sequence-specific DNA-binding proteins. Our innovative models are publicly available, offering the scientific community an efficient and precise computational toolkit for rapid protein engineering.",
+  "authors": [
+    "Mohammad Amaan Sayeed",
+    "Engin Tekin",
+    "Maryam Nadeem",
+    "Nancy A. ElNaker",
+    "Aahan Singh",
+    "Natalia Vassilieva",
+    "Boulbaba Ben Amor"
+  ],
+  "published_date": "2025-04-06T11:43:12Z",
+  "updated_date": "2025-05-18T14:39:42Z",
+  "journal": "",
+  "category": "q-bio.BM, cs.AI, cs.CL, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2504.04453v2",
+  "pdf_url": "https://arxiv.org/pdf/2504.04453v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2504.04453v2",
+    "raw_categories": [
+      "q-bio.BM",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

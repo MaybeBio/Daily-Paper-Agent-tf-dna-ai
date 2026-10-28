@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "40411397",
+    "doi": "10.1002/advs.202503135",
+    "title": "deepTFBS: Improving within- and Cross-Species Prediction of Transcription Factor Binding Using Deep Multi-Task and Transfer Learning."
+  },
+  "content": {
+    "abstract": "The precise prediction of transcription factor binding sites (TFBSs) is crucial in understanding gene regulation. In this study, deepTFBS, a comprehensive deep learning (DL) framework that builds a robust DNA language model of TF binding grammar for accurately predicting TFBSs within and across plant species is presented. Taking advantages of multi-task DL and transfer learning, deepTFBS is capable of leveraging the knowledge learned from large-scale TF binding profiles to enhance the prediction of TFBSs under small-sample training and cross-species prediction tasks. When tested using available information on 359 Arabidopsis TFs, deepTFBS outperformed previously described prediction strategies, including position weight matrix, deepSEA and DanQ, with a 244.49%, 49.15%, and 23.32% improvement of the area under the precision-recall curve (PRAUC), respectively. Further cross-species prediction of TFBS in wheat showed that deepTFBS yielded a significant PRAUC improvement of 30.6% over these three baseline models. deepTFBS can also utilize information from gene conservation and binding motifs, enabling efficient TFBS prediction in species where experimental data availability is limited. A case study, focusing on the WUSCHEL (WUS) transcription factor, illustrated the potential use of deepTFBS in cross-species applications, in our example between Arabidopsis and wheat. deepTFBS is publically available at https://github.com/cma2015/deepTFBS.",
+    "keywords": [
+      "bioinformatics",
+      "cross-species prediction",
+      "deep learning",
+      "machine learning",
+      "transcriptional regulatory network"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "*Deep Learning",
+      "Arabidopsis/genetics/metabolism",
+      "Binding Sites/genetics",
+      "*Computational Biology/methods",
+      "Triticum/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhai, Jingjing",
+        "Zhang, Yuzhou",
+        "Zhang, Chujun",
+        "Yin, Xiaotong",
+        "Song, Minggui",
+        "Tang, Chenglong",
+        "Ding, Pengjun",
+        "Li, Zenglin",
+        "Ma, Chuang"
+      ],
+      "short_names": [
+        "Zhai J",
+        "Zhang Y",
+        "Zhang C",
+        "Yin X",
+        "Song M",
+        "Tang C",
+        "Ding P",
+        "Li Z",
+        "Ma C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1535-3103",
+        "ORCID: 0000-0001-9612-7898"
+      ],
+      "affiliations": [
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhai, Jingjing",
+        "short_name": "Zhai J",
+        "identifiers": [
+          "0000-0002-1535-3103"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuzhou",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chujun",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Xiaotong",
+        "short_name": "Yin X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Song, Minggui",
+        "short_name": "Song M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Chenglong",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Pengjun",
+        "short_name": "Ding P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zenglin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chuang",
+        "short_name": "Ma C",
+        "identifiers": [
+          "0000-0001-9612-7898"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+          "Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/25 00:44",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42561152",
+      "42333573",
+      "41574495",
+      "41360755"
+    ],
+    "refs": [
+      "39659015",
+      "39350338",
+      "38982288",
+      "38701417",
+      "38582507",
+      "37385392",
+      "36774380",
+      "36764870",
+      "36376315",
+      "36155619",
+      "36094959",
+      "35949168",
+      "35042722",
+      "34856504",
+      "34778747",
+      "34503979",
+      "34037796",
+      "33603233",
+      "33416862",
+      "33037196",
+      "31992613",
+      "30971806",
+      "30661751",
+      "30478442",
+      "30423086",
+      "30375394",
+      "30057584",
+      "29617876",
+      "29425488",
+      "29040761",
+      "28726847",
+      "27924042",
+      "27811239",
+      "27203113",
+      "27185945",
+      "27084946",
+      "26301843",
+      "26213851",
+      "26075791",
+      "25775564",
+      "25765347",
+      "23817568",
+      "22388286",
+      "21330290",
+      "21051340",
+      "20493817",
+      "20336072",
+      "18798982",
+      "18258861",
+      "16210544",
+      "12376631"
+    ],
+    "similar": [
+      "40411397",
+      "27503086",
+      "38701417",
+      "39701486",
+      "41035197",
+      "40702706",
+      "40914877",
+      "33416862",
+      "39623329",
+      "36155619",
+      "33137083",
+      "35713985",
+      "32770026",
+      "31336830",
+      "34272562",
+      "39107889",
+      "39076052",
+      "40102719",
+      "27567672",
+      "31161194",
+      "28485207",
+      "40646689",
+      "39013383",
+      "30447332",
+      "38798191",
+      "33372147",
+      "17914226",
+      "25918418",
+      "27209209",
+      "31372637",
+      "36082286",
+      "21124986",
+      "35997560",
+      "29757349",
+      "34174819",
+      "19586888",
+      "24039567",
+      "39350338",
+      "39227799",
+      "24386279",
+      "39922842",
+      "36057196",
+      "30835229",
+      "34534646",
+      "27117388",
+      "36094959",
+      "38732207",
+      "40334196",
+      "34929739",
+      "21059262",
+      "36416116",
+      "32960766",
+      "34579793",
+      "27052996",
+      "28623591",
+      "38428981",
+      "38733561",
+      "36161334",
+      "36919205",
+      "29617876",
+      "27106869",
+      "41294241",
+      "26130577",
+      "21177332",
+      "37328639",
+      "38940155",
+      "38354497",
+      "20360861",
+      "34073774",
+      "24926895",
+      "35799371",
+      "34613923",
+      "39786868",
+      "21193520",
+      "23522376",
+      "29272447",
+      "39214282",
+      "16595861",
+      "36374878",
+      "41450215",
+      "39447942",
+      "38751121",
+      "27871221",
+      "31001412",
+      "39541188",
+      "38517697",
+      "33498086",
+      "21780002",
+      "40848288",
+      "26542109",
+      "20158869",
+      "24228871",
+      "38643066",
+      "34571539",
+      "17688316",
+      "22187154",
+      "38216534",
+      "32155318",
+      "23504016",
+      "30380113"
+    ],
+    "review": [
+      "40411397",
+      "30447332",
+      "19586888"
+    ],
+    "pmc": [
+      "12376555"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40411397/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40411397",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

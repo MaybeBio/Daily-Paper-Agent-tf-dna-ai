@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report development of a DNA aptamer-based PROTAC (dp53m) targeting the p53-R175H hotspot mutant. They claim selective degradation of p53-R175H over wildtype p53, antitumor efficacy in vitro and in vivo without toxicity, and synergistic sensitization to cisplatin.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, experimental replicates, in vivo study design, toxicity assessments, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to targeting a previously undruggable oncogenic mutant using an engineered DNA aptamer as a PROTAC binder. The iterative docking-guided post-SELEX strategy is novel and potentially impactful. However, the abstract provides insufficient experimental detail to evaluate the robustness of the claims. Key assertions regarding selectivity, efficacy, and safety are stated without quantitative support. The work is potentially significant but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in targeted protein degradation, aptamer engineering, cancer biology, and precision oncology would find this work relevant. The approach of using DNA aptamers as PROTAC binders could interest the broader chemical biology community. Clinicians focused on p53-mutant cancers may also be interested if the therapeutic potential is substantiated.
+- **Major strengths** The concept of targeting a specific p53 hotspot mutant with a DNA aptamer-based PROTAC is innovative and addresses a well-recognized therapeutic gap. The iterative docking-guided post-SELEX approach is a rational engineering strategy that could be broadly applicable. The claim of selectivity for p53-R175H over wildtype p53 is important and, if validated, would represent a significant advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that dp53m induces ubiquitin-proteasome-dependent degradation of p53-R175H while sparing wildtype p53.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states selective degradation but provides no quantitative data on degradation efficiency, dose-response relationships, or the basis for selectivity. No information is given on how wildtype p53 sparing was assessed or what threshold defines sparing.
+  - **Why it matters** Selectivity is the central premise of the therapeutic claim. Without quantitative evidence, the claim of sparing wildtype p53 cannot be evaluated, and off-target degradation of wildtype p53 would raise substantial safety concerns.
+  - **Resolution test** Provide degradation curves for p53-R175H and wildtype p53 in relevant cell lines, including EC50 values and selectivity indices, with appropriate statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim significant antitumor efficacy in p53-R175H-driven cancer cells in vitro and in vivo without toxicity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative antitumor efficacy data are presented. In vivo efficacy and toxicity are stated without any description of tumor models, dosing regimens, sample sizes, or toxicity endpoints. The absence of toxicity is a strong claim that requires comprehensive assessment.
+  - **Why it matters** Therapeutic claims require robust in vivo validation. The statement of no toxicity is particularly consequential and cannot be accepted without detailed toxicological evaluation.
+  - **Resolution test** Provide tumor growth inhibition data with statistical analysis, animal survival or tumor burden metrics, body weight changes, organ histopathology, and serum biochemistry from the in vivo studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that dp53m significantly and synergistically improves the sensitivity of p53-R175H-driven cancer cells to cisplatin.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The term synergistic implies a formal combination index analysis or equivalent statistical demonstration. The abstract provides no data on combination effects, dose matrices, or the method used to establish synergy.
+  - **Why it matters** Synergy claims require rigorous quantitative demonstration. Without such evidence, the combination benefit cannot be distinguished from additive effects or experimental variability.
+  - **Resolution test** Present combination index values or isobologram analyses across multiple dose ratios, with confidence intervals and appropriate statistical tests.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Aptamer engineering method
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The phrase iterative molecular docking-guided post-SELEX is used without explanation of what iterations involved or how docking informed the SELEX process.
+  - **Required correction** Briefly describe the iterative cycle and how docking scores were used to select or modify aptamer candidates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** PROTAC design
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not describe the E3 ligase recruited by dp53m or the linker chemistry used to conjugate the aptamer to the ligase ligand.
+  - **Required correction** Specify the E3 ligase and the chemical strategy for aptamer-ligand conjugation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of PROTAC
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** PROTACs are typically small molecules. The use of a DNA aptamer as the target-binding moiety is unconventional and the term PROTAC may need qualification.
+  - **Required correction** Clarify whether dp53m is a nucleic acid-based PROTAC or a conjugate, and define the terminology used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for selectivity, in vivo efficacy and safety, and synergy. These are central claims that cannot be assessed from the supplied material.
+- **Assessment against Nature-style criteria** Originality is high given the novel use of DNA aptamers in PROTAC design and the specific targeting of a p53 hotspot mutant. Scientific importance is potentially substantial if the claims are validated, as p53-R175H is a common oncogenic driver. Interdisciplinary readership is plausible, spanning chemical biology, cancer biology, and drug development. Technical soundness cannot be evaluated from the abstract alone. Readability for nonspecialists is adequate, though some terms such as post-SELEX and PROTAC may require brief definition for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and warrants full evaluation, but the abstract alone does not provide sufficient quantitative or methodological detail to support the major claims.
+
+## Risk / unsupported claims
+- Selective degradation of p53-R175H while sparing wildtype p53 is unsupported without quantitative data.
+- Antitumor efficacy in vivo without toxicity is unsupported without experimental details.
+- Synergistic sensitization to cisplatin is unsupported without combination analysis.
+- The claim of a high-performance aptamer with improved affinity and specificity is not quantitatively supported.
+- The therapeutic value of dp53m is stated as potential, which is appropriately cautious, but the underlying evidence is not visible.

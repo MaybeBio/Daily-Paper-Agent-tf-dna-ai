@@ -1,0 +1,234 @@
+{
+  "identity": {
+    "pmid": "38303418",
+    "doi": "10.3934/mbe.2024008",
+    "title": "Identification of DNA-protein binding residues through integration of Transformer encoder and Bi-directional Long Short-Term Memory."
+  },
+  "content": {
+    "abstract": "DNA-protein binding is crucial for the normal development and function of organisms. The significance of accurately identifying DNA-protein binding sites lies in its role in disease prevention and the development of innovative approaches to disease treatment. In the present study, we introduce a precise and robust identifier for DNA-protein binding residues. In the context of protein representation, we combine the evolutionary information of the protein, represented by its position-specific scoring matrix, with the spatial information of the protein's secondary structure, enriching the overall informational content. This approach initially employs a combination of Bi-directional Long Short-Term Memory and Transformer encoder to jointly extract the interdependencies among residues within the protein sequence. Subsequently, convolutional operations are applied to the resulting feature matrix to capture local features of the residues. Experimental results on the benchmark dataset demonstrate that our method exhibits a higher level of competitiveness when compared to contemporary classifiers. Specifically, our method achieved an MCC of 0.349, SP of 96.50%, SN of 44.03% and ACC of 94.59% on the PDNA-41 dataset.",
+    "keywords": [
+      "BiLSTM",
+      "DNA-protein binding residues identification",
+      "Transformer encoder",
+      "deep learning"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Proteins/chemistry",
+      "Binding Sites",
+      "DNA/chemistry",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Haipeng",
+        "Zhu, Baozhong",
+        "Jiang, Tengsheng",
+        "Cui, Zhiming",
+        "Wu, Hongjie"
+      ],
+      "short_names": [
+        "Zhao H",
+        "Zhu B",
+        "Jiang T",
+        "Cui Z",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "Gusu School, Nanjing Medical University, Suzhou, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Haipeng",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Baozhong",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Tengsheng",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhiming",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mathematical biosciences and engineering : MBE"
+    ],
+    "journal_abbrev": [
+      "Math Biosci Eng"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/02 06:43",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "42598852"
+    ],
+    "refs": [],
+    "similar": [
+      "38303418",
+      "37328639",
+      "39457474",
+      "40121399",
+      "35780100",
+      "35834447",
+      "39133595",
+      "31208331",
+      "33334313",
+      "38599417",
+      "34401381",
+      "30419785",
+      "38061069",
+      "40087352",
+      "34714748",
+      "36580181",
+      "40001524",
+      "29970003",
+      "31881828",
+      "37402073",
+      "33986992",
+      "38574528",
+      "39695955",
+      "40000209",
+      "37448062",
+      "35693256",
+      "34773871",
+      "37896682",
+      "38347391",
+      "38573957",
+      "39433833",
+      "35602136",
+      "36965298",
+      "31725778",
+      "38925090",
+      "30866734",
+      "39514139",
+      "39137295",
+      "39266782",
+      "36736447",
+      "40157314",
+      "30040656",
+      "39423981",
+      "39214282",
+      "33803891",
+      "38643080",
+      "38008265",
+      "40228373",
+      "36503892",
+      "38343972",
+      "39943338",
+      "38130692",
+      "39924555",
+      "33971164",
+      "38871095",
+      "36366180",
+      "36982795",
+      "39798505",
+      "28146106",
+      "35419045",
+      "37836929",
+      "37301349",
+      "33534819",
+      "37699403",
+      "37549456",
+      "38340437",
+      "19091029",
+      "36191395",
+      "38491085",
+      "39133901",
+      "38552379",
+      "37705661",
+      "36616773",
+      "23116714",
+      "36564866",
+      "35740899",
+      "37738468",
+      "39706821",
+      "35604077",
+      "39848362",
+      "39444035",
+      "39338642",
+      "39029770",
+      "38648676",
+      "30808287",
+      "40014880",
+      "38219644",
+      "36403092",
+      "38567388",
+      "33494031",
+      "33267753",
+      "39163821",
+      "30866736",
+      "36787669",
+      "35513802",
+      "37662099",
+      "40334196",
+      "38048661",
+      "39215126",
+      "38528797"
+    ],
+    "review": [
+      "38303418"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aimspress.com/article/doi/10.3934/mbe.2024008",
+        "provider": "American Institute of Mathematical Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

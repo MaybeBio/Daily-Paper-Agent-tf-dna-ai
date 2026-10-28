@@ -1,0 +1,643 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.15.682636",
+  "title": "A Novel ψ-χ Fusion Protein for Unravelling the Contributions of χ to DNA Replication and Repair",
+  "doi": "10.1101/2025.10.15.682636",
+  "abstract": "Faithful DNA replication in Escherichia coli requires the DNA polymerase III holoenzyme (DNA pol III HE) and its clamp loader complex, which couples processive DNA synthesis with β-clamp loading. The clamp loader accessory subunits χ and ψ link single-stranded DNA-binding protein (SSB) to the replisome, stabilizing replication on SSB-coated templates through interactions with the SSB C-terminal tail. Chi has also been implicated in tolerance to the chain-terminating nucleoside analog azidothymidine (AZT), though whether this function depends on χ within DNA pol III HE or on its independent interaction with the YoaA helicase remains unclear. To address this, we engineered ψ-χ fusion proteins with flexible glycine-serine linkers to tether the two subunits while preserving folding and activity. Both fusions were biochemically competent, supporting ATP hydrolysis and clamp loading on SSB-coated DNA. In vivo, however, neither the ψ-GS12-χ fusion nor expression of a ψχ operon restored AZT tolerance in Δ holC cells, whereas expression of χ alone was sufficient. Fusion expression impaired growth in both wild-type (WT) and Δ holC backgrounds, a phenotype alleviated by disrupting χ-SSB binding. These findings support a model in which χ must dynamically engage SSB and YoaA outside of the clamp loader to promote AZT tolerance, highlighting the importance of regulated χ-SSB interactions in genome maintenance.",
+  "authors": [
+    "Kaylie A. Padgett-Pagliai",
+    "Elise Wimer",
+    "Jacob D. Grant",
+    "Matthew J. Petrides",
+    "Elijah S. P. Newcomb",
+    "Vincent A. Sutera",
+    "Susan T. Lovett",
+    "Linda B. Bloom"
+  ],
+  "published_date": "2025-10-15",
+  "updated_date": "2025-10-16T02:45:17Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.15.682636",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.15.682636.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:24:31Z",
+        "timestamp": 1785414271248,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2025-10-15T00:00:00Z",
+            "timestamp": 1760486400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "GM 140166"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM 140166"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/001d55x84",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Faithful DNA replication in\n                  <jats:italic>Escherichia coli</jats:italic>\n                  requires the DNA polymerase III holoenzyme (DNA pol III HE) and its clamp loader complex, which couples processive DNA synthesis with β-clamp loading. The clamp loader accessory subunits χ and ψ link single-stranded DNA-binding protein (SSB) to the replisome, stabilizing replication on SSB-coated templates through interactions with the SSB C-terminal tail. Chi has also been implicated in tolerance to the chain-terminating nucleoside analog azidothymidine (AZT), though whether this function depends on χ within DNA pol III HE or on its independent interaction with the YoaA helicase remains unclear. To address this, we engineered ψ-χ fusion proteins with flexible glycine-serine linkers to tether the two subunits while preserving folding and activity. Both fusions were biochemically competent, supporting ATP hydrolysis and clamp loading on SSB-coated DNA. In vivo, however, neither the ψ-GS12-χ fusion nor expression of a ψχ operon restored AZT tolerance in Δ\n                  <jats:italic>holC</jats:italic>\n                  cells, whereas expression of χ alone was sufficient. Fusion expression impaired growth in both wild-type (WT) and Δ\n                  <jats:italic>holC</jats:italic>\n                  backgrounds, a phenotype alleviated by disrupting χ-SSB binding. These findings support a model in which χ must dynamically engage SSB and YoaA outside of the clamp loader to promote AZT tolerance, highlighting the importance of regulated χ-SSB interactions in genome maintenance.\n                </jats:p>",
+      "DOI": "10.1101/2025.10.15.682636",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2025-10-16T02:45:17Z",
+        "timestamp": 1760582717000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Novel ψ-χ Fusion Protein for Unravelling the Contributions of χ to DNA Replication and Repair"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2616-9969",
+          "authenticated-orcid": false,
+          "given": "Kaylie A.",
+          "family": "Padgett-Pagliai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry and Molecular Biology, University of Florida, Gainesville, FL, 32610-0245, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-8734-6533",
+          "authenticated-orcid": false,
+          "given": "Elise",
+          "family": "Wimer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Brandeis University, Waltham, MA, 02453-9110, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-3855-5714",
+          "authenticated-orcid": false,
+          "given": "Jacob D.",
+          "family": "Grant",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Brandeis University, Waltham, MA, 02453-9110, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0229-0075",
+          "authenticated-orcid": false,
+          "given": "Matthew J.",
+          "family": "Petrides",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry and Molecular Biology, University of Florida, Gainesville, FL, 32610-0245, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0794-4883",
+          "authenticated-orcid": false,
+          "given": "Elijah S. P.",
+          "family": "Newcomb",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry and Molecular Biology, University of Florida, Gainesville, FL, 32610-0245, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7156-5445",
+          "authenticated-orcid": false,
+          "suffix": "Jr.",
+          "given": "Vincent A.",
+          "family": "Sutera",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Brandeis University, Waltham, MA, 02453-9110, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2792-1857",
+          "authenticated-orcid": false,
+          "given": "Susan T.",
+          "family": "Lovett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Brandeis University, Waltham, MA, 02453-9110, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6075-4387",
+          "authenticated-orcid": false,
+          "given": "Linda B.",
+          "family": "Bloom",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry and Molecular Biology, University of Florida, Gainesville, FL, 32610-0245, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro2994"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a010157"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.7.1725"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.87.10.3713"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.87.7.2516"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.271.34.20690"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2007.06.019"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-061208-091655"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.273.36.23476"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg498"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.8.2436"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1169"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "103006",
+          "DOI": "10.1016/j.dnarep.2020.103006",
+          "article-title": "Alternative complexes formed by the Escherichia coli clamp loader accessory protein HolC (x) with replication protein HolD (ψ) and repair protein YoaA",
+          "volume": "100",
+          "year": "2021",
+          "journal-title": "Dna Repair"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "102786",
+          "DOI": "10.1016/j.jbc.2022.102786",
+          "article-title": "Characterization of the Escherichia coli XPD/Rad3 iron-sulfur helicase YoaA in complex with the DNA polymerase III clamp loader subunit chi (χ)",
+          "volume": "299",
+          "year": "2023",
+          "journal-title": "J Biol Chem"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/146.2.457"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004719"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005651"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "183",
+          "DOI": "10.1266/ggs.15-00068",
+          "article-title": "Systematic identification of synthetic lethal mutations with reduced-genome Escherichia coli: synthetic genetic interactions among yoaA, xthA and holC related to survival from MMS exposure",
+          "volume": "91",
+          "year": "2016",
+          "journal-title": "Genes Genet Syst"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.19",
+          "first-page": "e00228",
+          "article-title": "Genetic Analysis of DinG Family Helicase YoaA and Its Interaction with Replication Clamp Loader Protein HolC in Escherichia coli",
+          "volume": "203",
+          "year": "2021",
+          "journal-title": "J Bacteriol"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.177.14.4121-4130.1995"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.22",
+          "first-page": "8516",
+          "article-title": "Temporal Correlation of DNA Binding",
+          "volume": "48",
+          "year": "2009",
+          "journal-title": "ATP Hydrolysis, and Clamp Release in the Clamp Loading Reaction Catalyzed by the Escherichia coli γ complex. Biochemistry-us"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)67266-7"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.24",
+          "first-page": "gkx665",
+          "article-title": "Mechanism of opening a sliding clamp",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M310429200"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.26",
+          "first-page": "145",
+          "article-title": "How to study protein by circular dichroism",
+          "volume": "17",
+          "year": "1988",
+          "journal-title": "Biochim Biophys Acta"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.27",
+          "first-page": "57",
+          "article-title": "Use of a Real-Time, Coupled Assay to Measure the ATPase Activity of DNA Topoisomerase II",
+          "volume": "95",
+          "year": "2000",
+          "journal-title": "Methods Mol Biology Clifton N J"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.268169"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1432-1033.2003.03944.x"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2011.305"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1472-6807-10-3"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.050310"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.7b00902"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2012.09.039"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M610136200"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2050-6120/aad20f"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.22.13358"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aav3751"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "eESP-0001-2020",
+          "DOI": "10.1128/ecosalplus.ESP-0001-2020",
+          "article-title": "The E. coli Whole-Cell Modeling Project",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "EcoSal Plus"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "11773",
+          "DOI": "10.1016/S0021-9258(19)50266-6",
+          "article-title": "DNA polymerase III accessory proteins. III. holC and holD encoding chi and psi",
+          "volume": "268",
+          "year": "1993",
+          "journal-title": "J. Biol. Chem"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2206"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.49.29570"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/19.23.6536"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.008"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00827-2"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "12117",
+          "DOI": "10.1016/S0021-9258(20)71328-1",
+          "article-title": "Monoclonal antibodies specific for the alpha subunit of the Escherichia coli DNA polymerase III holoenzyme",
+          "volume": "259",
+          "year": "1984",
+          "journal-title": "J. Biol. Chem"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M608011200"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.48",
+          "first-page": "8581",
+          "article-title": "Are the intrinsically disordered linkers involved in SSB binding to accessory proteins?",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/gtc.12334"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "4993",
+          "DOI": "10.1038/s41467-025-60215-4",
+          "article-title": "The YoaA-χ helicase modulates the dynamics of single-stranded DNA binding protein on DNA",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026041609000885000_2025.10.15.682636v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.01.044"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.15.682636",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ],
+        "date-time": "2026-04-16T16:00:18Z",
+        "timestamp": 1776355218000
+      },
+      "score": 61.260014,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.15.682636"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2025.10.15.682636",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

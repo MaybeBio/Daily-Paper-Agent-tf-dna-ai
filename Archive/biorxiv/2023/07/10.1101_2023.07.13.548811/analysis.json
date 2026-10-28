@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.13.548811",
+  "title": "Peptriever: A Bi-Encoder approach for large-scale protein-peptide binding search",
+  "authors": "Roni Gurvich; Gal Markel; Ziaurrehman Tanoli; Tomer Meirson",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-13",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于Transformer的双编码器模型Peptriever，用于大规模蛋白-肽结合搜索与排序，虽非TF-DNA体系，但蛋白-肽互作建模方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Motivation In peptide therapeutics, the successful interaction between a designed peptide and a specific receptor is crucial, while minimizing interactions with other receptors is equally essential. Current computational methods excel at estimating the probability of the former but estimating the latter requires excessive computational resources, making it challenging. Results In this study, we propose transformers-based protein embeddings that can quickly identify and rank millions of interacting proteins. Furthermore, the proposed approach outperforms existing sequence- and structure-based methods, with a mean AUC-ROC and AUC-PR of 0.73. Availability Training data, scripts, and fine-tuned parameters are available at https://github.com/RoniGurvich/Peptriever . A live demonstration of the application can be found at https://peptriever.app/ . Contact tomermrsn@gmail.com and zia.rehman@helsinki.fi",
+  "abstract_zh": "动机 在多肽治疗中，设计的多肽与特定受体之间的成功相互作用至关重要，同时最小化与其他受体的相互作用同样不可或缺。当前的计算方法在估计前者概率方面表现出色，但估计后者需要过多的计算资源，使其具有挑战性。结果 在本研究中，我们提出了基于transformers的蛋白质嵌入方法，能够快速识别并对数百万个相互作用的蛋白质进行排序。此外，所提出的方法优于现有的基于序列和结构的方法，平均AUC-ROC和AUC-PR为0.73。可用性 训练数据、脚本和微调参数可在 https://github.com/RoniGurvich/Peptriever 获取。该应用的实时演示可在 https://peptriever.app/ 查看。联系方式 tomermrsn@gmail.com 和 zia.rehman@helsinki.fi",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548811",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548811",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.13.548811/index.html"
+}

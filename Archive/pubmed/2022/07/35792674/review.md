@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusion, and materials and methods
+- **Assessment boundary** Scientific validity of claims, methodological soundness, interpretation of results, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors investigate p53 isoforms in the African elephant (Loxodonta africana) and propose that these isoforms, which carry variations in the BOX-I MDM2-binding motif, exhibit reduced binding to MDM2, thereby escaping MDM2-mediated repression and contributing to enhanced cancer resistance in elephants
+- **Visible evidence base** In silico docking simulations using the 1YCR crystal structure, sequence alignments of 19 elephant p53 isoformic sequences, Sandwich ELISA experiments with recombinant human MDM2 and synthetic BOX-I peptides, phylogenetic analysis
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4) referenced but not provided; raw ELISA data not shown; statistical analysis details incomplete; no data on endogenous expression of these isoforms in elephant cells or tissues; no functional assays in cellular systems
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting evolutionary question regarding p53 isoform diversity in elephants and its potential link to cancer resistance. The combination of computational modeling and in vitro binding assays is a reasonable approach. However, the study has significant limitations that prevent the conclusions from being fully established. The central claim that these isoforms "escape MDM2-mediated repression" is inferred primarily from binding affinity measurements using short peptides, without demonstration of functional consequences in a biological context. The manuscript would benefit from clearer presentation of methods, additional experimental validation, and more cautious interpretation of the evolutionary implications.
+- **Who would be interested in the results, and why** Evolutionary biologists studying gene duplication and functional divergence, cancer biologists interested in p53 regulation and the molecular basis of Peto's Paradox, and researchers studying protein-protein interaction evolution. The work may also interest those exploring alternative mechanisms of tumor suppression in long-lived species.
+- **Major strengths** The study addresses a compelling evolutionary question with potential translational relevance. The combination of computational and experimental approaches is appropriate for the research question. The identification of specific sequence variations in BOX-I motifs across elephant p53 isoforms provides a concrete molecular basis for differential MDM2 binding. The sandwich ELISA approach provides direct experimental validation of the computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that elephant p53 isoforms "escape MDM2-mediated repression" and that this contributes to cancer resistance
+  - **Evidence pointer** Results sections "Elephant p53 Isoforms Exhibit Diverse Docking Association to MDM2" and "Biochemical Data Confirm the Structural Interface Models"; Figures 1, 3, and 4
+  - **Concern** The study measures binding affinity between short BOX-I peptides and MDM2 using docking simulations and ELISA. While reduced binding is demonstrated for some isoforms, the claim of "escaping MDM2-mediated repression" requires demonstration that these isoforms are not targeted for ubiquitination and degradation in a cellular context. Binding affinity alone does not establish functional escape from MDM2-mediated regulation, as other regions of p53 and post-translational modifications may also contribute to MDM2 interactions and regulation.
+  - **Why it matters** The central conclusion of the manuscript rests on the functional interpretation of reduced MDM2 binding. Without cellular or in vivo evidence showing that these isoforms evade MDM2-mediated degradation and lead to enhanced p53 activity, the evolutionary and cancer-resistance claims are not substantiated.
+  - **Resolution test** Provide experimental evidence in cells showing that isoforms with reduced MDM2 binding have increased stability, altered ubiquitination, or enhanced transcriptional activity compared to isoforms with high MDM2 binding. Alternatively, temper the claims to state that these isoforms exhibit reduced MDM2 binding in vitro, without asserting functional escape from repression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "in silico docking simulations can be used to explore functional aspects of elephant p53 isoforms" and use docking scores as a measure of binding affinity
+  - **Evidence pointer** Methods section "Modeling L. africana p53–MDM2 interaction"; Figure 1C and D
+  - **Concern** The docking methodology is not described in sufficient detail to assess its validity. The authors mention using MOE with CHARMM27 forcefield and GBVI/WSA dG scoring, but do not provide parameters for the docking protocol, number of runs, convergence criteria, or validation of the approach against known p53-MDM2 binding data. Docking scores from rigid-body protocols are generally not reliable predictors of binding affinity, especially for intrinsically disordered regions such as the p53 TAD.
+  - **Why it matters** The computational predictions form the basis for the subsequent experimental work and the overall conclusions. If the docking methodology is not robust or appropriately validated, the interpretation of the results is compromised.
+  - **Resolution test** Provide detailed docking parameters, include validation of the docking protocol against experimentally determined p53-MDM2 binding affinities, and discuss limitations of the approach. Consider using more rigorous free energy calculations or molecular dynamics simulations to support the binding affinity predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors propose that the diversity of p53 isoforms in elephants "would enhance sensitivity to cellular stresses, such as DNA damage, presumably accounting for strong cancer defenses"
+  - **Evidence pointer** Introduction and Discussion sections; Figure 4
+  - **Concern** The link between reduced MDM2 binding of specific isoforms and enhanced cancer resistance is speculative. The manuscript does not provide data on whether these isoforms are actually expressed in elephant cells, at what levels, or whether they contribute to p53-dependent responses to DNA damage. The connection to Peto's Paradox is mentioned but not directly tested.
+  - **Why it matters** The evolutionary and cancer-resistance narrative is a major selling point of the manuscript. Without evidence connecting the biochemical observations to physiological outcomes in elephants, the significance of the findings remains unclear.
+  - **Resolution test** Include expression analysis of the isoforms in elephant tissues or cells, and ideally functional studies showing that cells expressing these isoforms have enhanced p53 activity or apoptosis in response to DNA damage. At minimum, clearly state that the functional consequences are hypothetical and require further investigation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the methodology demonstrates, for the first time that in silico docking simulations can be used to explore functional aspects of elephant p53 isoforms"
+  - **Evidence pointer** Abstract and Conclusion
+  - **Concern** The claim of "for the first time" is difficult to verify and may be overstated. Docking simulations have been widely used to study protein-protein interactions, including p53-MDM2. The novelty of applying this approach to elephant p53 isoforms is incremental rather than fundamental.
+  - **Why it matters** Overstating novelty can undermine the credibility of the work and may not accurately represent the field.
+  - **Resolution test** Remove or soften the "for the first time" claim, or provide a more specific statement about what is novel about the application of this methodology in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Peptide Synthesis and Protein–Protein Sandwich ELISA"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The ELISA protocol description is incomplete. The authors do not specify the concentration range of MDM2 used, the number of replicates beyond "triplicates," the washing buffer composition, or the detection method details. The normalization procedure is described but the rationale is unclear.
+  - **Required correction** Provide a more detailed ELISA protocol including all buffer compositions, incubation times, antibody concentrations, and the rationale for normalization. Include information on positive and negative controls used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 3B and C
+  - **Evidence pointer** Results section "Biochemical Data Confirm the Structural Interface Models"; Figure 3
+  - **Issue** The statistical analysis is described only briefly. The authors mention t-tests but do not specify whether these are one-tailed or two-tailed, whether corrections for multiple comparisons were applied, or how many independent experiments were performed. The use of asterisks for significance levels is standard but the exact p-values are not reported.
+  - **Required correction** Provide full statistical details including the type of t-test, whether corrections for multiple testing were applied, the number of independent experiments, and exact p-values for all comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section "Structural Variations on the p53–MDM2 Interface in Different Species"
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of PTMs and their potential substitution by isoform diversity is speculative and not directly supported by the data presented. The authors mention that PTMs "remain to be addressed in the elephant p53 isoforms," which is appropriate, but the preceding discussion implies a functional equivalence that is not established.
+  - **Required correction** Clearly distinguish between established findings and speculative interpretations. Consider moving speculative content to a dedicated "Future Directions" section or tempering the language.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section "Elephant p53 Isoforms Exhibit Diverse Docking Association to MDM2"; Figure 1A
+  - **Issue** The graphical representation of the putative topology of each retrogene on the full-length elephant TP53 is described but the figure itself is not available for review. The authors should ensure that the figure clearly shows the relative positions of the isoforms and their domains.
+  - **Required correction** Ensure the figure is self-explanatory with clear labels for each isoform, domain boundaries, and sequence features. Add a legend that explains the color coding and any abbreviations used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Entire manuscript
+  - **Issue** There are several instances of awkward phrasing and grammatical errors that affect readability. For example, "comorbiditing stress signals" in the Discussion and "the elephant's genetic set-up thus innately confers functional diversity" in the Introduction.
+  - **Required correction** Thorough proofreading for grammar and clarity. Consider having a native English speaker review the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional escape from MDM2 not demonstrated), R1-M2 (docking methodology insufficiently described and validated)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of p53 isoform analysis to elephants is somewhat novel, but the approaches used are standard. Scientific importance: Potentially high if the functional claims are substantiated, but currently limited by lack of functional data. Interdisciplinary readership: The topic could appeal to evolutionary biologists, cancer researchers, and structural biologists, but the current presentation may limit broader appeal. Technical soundness: Insufficient detail in computational methods and lack of functional validation weaken the technical foundation. Readability for nonspecialists: The manuscript is generally accessible but contains some jargon and speculative passages that may confuse non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and the combination of computational and experimental approaches is commendable. However, the central claim of functional escape from MDM2-mediated repression is not supported by the data presented. Major revisions including functional validation, more rigorous computational methodology, and tempered claims would be required before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that elephant p53 isoforms "escape MDM2-mediated repression" is not supported by the data, which only demonstrate reduced binding affinity in vitro
+- The assertion that the isoform diversity "accounts for strong cancer defenses" in elephants is speculative and not directly tested
+- The statement that the methodology demonstrates "for the first time" the use of in silico docking for this purpose is unverifiable and likely overstated
+- The functional significance of the identified sequence variations for p53 activity in cells is not established
+- The connection between the biochemical findings and Peto's Paradox is not experimentally addressed

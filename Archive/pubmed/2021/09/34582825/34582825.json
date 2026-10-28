@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "34582825",
+    "doi": "10.1016/j.jtbi.2021.110914",
+    "title": "Robust p53 recovery using chattering free sliding mode control and a gain-scheduled modified Utkin observer."
+  },
+  "content": {
+    "abstract": "p53 protein plays an essential role in protecting the genomic integrity of mammalian cells. A drastic decrease in the amount of p53 protein has been observed in cancerous cells. By using Nutlin-based small molecule drugs, the concentration of p53 can be restored to the desired level. This paper presents the drug-dosage design for p53 pathway, based on a control-oriented nonlinear model. A chattering free sliding mode control (CFSMC) strategy is employed to track the desired trajectory of p53 concentration for both of its dynamic behaviors, i.e., sustained and oscillatory responses. A gain-scheduled modified Utkin observer (GSMUO) is designed for robust state reconstruction and disturbance estimation. The simulation results show that CFSMC and GSMUO exhibit desired robustness and performance properties in the presence of parametric variations, an input disturbance and measurement noise. Moreover, a comprehensive simulation study, along with a detailed quantitative analysis is performed to compare CFSMC-GSMUO with four different techniques: a sliding mode control (SMC) with an equivalent control based sliding mode observer (SMO) and GSMUO, respectively, and a dynamic sliding mode control (DSMC) with SMO and GSMUO, respectively. The analysis demonstrates that the tracking error and utilization of the control energy is the least in the case of CFSMC-GSMUO as compared to its counterparts.",
+    "keywords": [
+      "Cancer control",
+      "Drug delivery",
+      "Drug dosage design",
+      "Sliding mode control",
+      "Targeted cancer therapy",
+      "p53 Recovery"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Computer Simulation",
+      "Nonlinear Dynamics",
+      "*Tumor Suppressor Protein p53"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bano, Sheher",
+        "Azam, Muhammad Rizwan",
+        "Uppal, Ali Arshad",
+        "Javed, Syed Bilal",
+        "Bhatti, Aamer Iqbal"
+      ],
+      "short_names": [
+        "Bano S",
+        "Azam MR",
+        "Uppal AA",
+        "Javed SB",
+        "Bhatti AI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Electrical Engineering Department, Abasyn University, Islamabad, Pakistan.",
+        "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan. Electronic address: rizwan.azam@comsats.edu.pk.",
+        "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan.",
+        "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan.",
+        "Department of Electronics Engineering, Capital University of Science & Technology, Islamabad, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bano, Sheher",
+        "short_name": "Bano S",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical Engineering Department, Abasyn University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Azam, Muhammad Rizwan",
+        "short_name": "Azam MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan. Electronic address: rizwan.azam@comsats.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Uppal, Ali Arshad",
+        "short_name": "Uppal AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Javed, Syed Bilal",
+        "short_name": "Javed SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering, COMSATS University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Bhatti, Aamer Iqbal",
+        "short_name": "Bhatti AI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics Engineering, Capital University of Science & Technology, Islamabad, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of theoretical biology"
+    ],
+    "journal_abbrev": [
+      "J Theor Biol"
+    ],
+    "pub_date": "2022 Jan 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/29 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34582825",
+      "31318338",
+      "23127620",
+      "38395719",
+      "25451817",
+      "19336284",
+      "32475538",
+      "29596387",
+      "30563689",
+      "19423437",
+      "33676737",
+      "19045471",
+      "29255442",
+      "35052067",
+      "30281586",
+      "32906809",
+      "28813896",
+      "28449822",
+      "23036871",
+      "32605794",
+      "27108564",
+      "36848336",
+      "24780159",
+      "31047642",
+      "37418360",
+      "33444478",
+      "25747198",
+      "22898501",
+      "30765131",
+      "29793738",
+      "33451184",
+      "31056215",
+      "35198748",
+      "24808281",
+      "31449819",
+      "33012534",
+      "28941951",
+      "26357411",
+      "32863054",
+      "31084907",
+      "32750632",
+      "30577999",
+      "31345562",
+      "19084226",
+      "24534328",
+      "34770391",
+      "34119305",
+      "27893405",
+      "29298297",
+      "38453580",
+      "32499086",
+      "33668467",
+      "27979498",
+      "30545769",
+      "23357555",
+      "30732995",
+      "29606494",
+      "16480115",
+      "32027697",
+      "30366716",
+      "28965752",
+      "33190825",
+      "32893001",
+      "33036765",
+      "25249166",
+      "33648734",
+      "19791991",
+      "37069198",
+      "36045969",
+      "27816180",
+      "20413118",
+      "21656924",
+      "28919287",
+      "18002483",
+      "29395131",
+      "24795033",
+      "33082777",
+      "27751516",
+      "21130989",
+      "33670241",
+      "28688618",
+      "29706413",
+      "28843430",
+      "34799614",
+      "22709529",
+      "33077173",
+      "26143716",
+      "30001812",
+      "27884392",
+      "23453235",
+      "27542438",
+      "28398255",
+      "32486370",
+      "36501837",
+      "31195208",
+      "26782929",
+      "27018145",
+      "19963948",
+      "29807658",
+      "16294775",
+      "30078517",
+      "36284142",
+      "29745903",
+      "34226041",
+      "37161151",
+      "34543213",
+      "36530232",
+      "35913331",
+      "35595355"
+    ],
+    "review": [
+      "34582825"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-5193(21)00333-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

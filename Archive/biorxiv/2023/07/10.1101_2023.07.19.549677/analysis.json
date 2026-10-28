@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.19.549677",
+  "title": "The human genome’s vocabulary as proposed by the DNA language model GROVER",
+  "authors": "Melissa Sanabria; Jonas Hirsch; Anna R. Poetsch",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-19",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出人类基因组DNA语言模型GROVER，通过字节对分词学习序列表征，并用于启动子识别和蛋白-DNA结合预测，虽非聚焦TF-DNA互作机制，但方法可迁移至转录因子结合位点建模。",
+  "abstract": "Large Language Models (LLMs) on natural language have achieved a level of performance that allows the generation of coherent and syntactically correct text. DNA sequence of genomes follows rules similar to natural language, but a distinguishing factor is the absence of a concept analogous to words. We established byte-pair tokenization on the human genome and trained a foundation language model called GROVER (“ G enome R ules O btained V ia E xtracted R epresentations”) to select the optimal vocabulary with a custom fine-tuning task of next-k-mer prediction. We thus defined a dictionary of words/tokens in the human genome that best carries the information content for DNA language models. Analyzing GROVER’s learned representations, we observed that token embeddings primarily encode information related to their frequency, sequence content, and length. Some tokens are almost exclusively localized in repeats, while the vast majority widely distributes over the genome. The model also learns context and lexical ambiguity. Average embeddings of genomic regions relate to functional genomics annotation and thus indicate that GROVER has learned these structures purely from the contextual relationships of tokens. That we can extract functional annotations from the genome, purely based on sequence representation to the trained model, highlights the extent of information content encoded by the sequence. This is supported by fine-tuning tasks on genome biology with questions of promoter identity and protein-DNA binding. GROVER learns sequence context, a sense for grammatical structures and language rules in the genome. This knowledge can be extracted and used to compose a grammar book for the code of life.",
+  "abstract_zh": "自然语言中的大型语言模型（LLMs）已达到能够生成连贯且句法正确文本的性能水平。基因组的DNA序列遵循与自然语言相似的规则，但一个显著区别是缺乏类似“词”的概念。我们在人类基因组上建立了字节对分词，并训练了一个名为GROVER（“通过提取表示获得的基因组规则”）的基础语言模型，通过自定义的下一k-mer预测微调任务来选择最优词汇表。因此，我们在人类基因组中定义了一个词典/词元集合，该集合最能承载DNA语言模型的信息内容。分析GROVER学习到的表示，我们观察到词元嵌入主要编码与其频率、序列内容和长度相关的信息。一些词元几乎专门定位于重复序列中，而绝大多数则广泛分布于整个基因组。该模型还学习了上下文和词汇歧义。基因组区域的平均嵌入与功能基因组学注释相关，这表明GROVER仅从词元的上下文关系中学习了这些结构。我们能够仅基于序列表示从基因组中提取功能注释，这突显了序列所编码的信息内容程度。这一点通过针对启动子身份和蛋白质-DNA结合问题的基因组生物学微调任务得到支持。GROVER学习了序列上下文、对语法结构和基因组语言规则的理解。这些知识可以被提取并用于编写生命密码的语法书。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.19.549677",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.19.549677",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.19.549677/index.html"
+}

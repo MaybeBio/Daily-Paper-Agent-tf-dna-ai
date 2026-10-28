@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use microsecond-long atomistic simulations of the human AP-1 FosB/JunD bZIP-DNA complex to investigate structural and dynamical determinants of sequence-specific DNA binding. They report that DNA shape features, ion populations, and groove solvation properties contribute to motif-specific recognition; that the terminal TpG steps modulate helical twist; and that a "closing gripper" motion of the bZIP DNA-binding helices accompanies cognate motif binding.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence analyses, structural figures, quantitative metrics, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of AP-1 DNA binding specificity. However, the claims are stated at a level of generality that cannot be evaluated from the abstract alone. The central mechanistic assertions, particularly the role of TpG steps in helical twist modulation and the "closing gripper" motion, lack quantitative support in the provided material. The work may be of interest to the computational biophysics and transcription factor communities, but the evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein-DNA recognition, researchers in gene regulation who use structural models to understand transcription factor specificity, and developers of atomistic simulation methods for nucleic acid-protein complexes. The focus on DNA shape and ion/solvation effects may also appeal to those interested in indirect readout mechanisms.
+- **Major strengths** The study addresses a biologically important question, namely how a conserved bZIP domain achieves sequence-specific DNA binding. The use of microsecond-long atomistic simulations is appropriate for capturing dynamical aspects of recognition. The abstract identifies specific mechanistic features (TpG steps, gripper motion) that are testable and potentially novel.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "the TpG step at the two terminals of the AP-1 site plays an important role in the structural adjustment of DNA by modifying the helical twist in the AP-1 bound state."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data are presented to support the claim that TpG steps specifically modify helical twist. The abstract does not report twist values, comparisons with other steps, or statistical significance. It is unclear whether this effect is observed in the bound state relative to free DNA, or whether it is a consequence of binding rather than a determinant of specificity.  
+  - **Why it matters** The claim is central to the proposed mechanism of sequence-specific recognition. Without quantitative evidence, the reader cannot assess whether the effect is real, robust, or specific to AP-1.  
+  - **Resolution test** Provide helical twist values for the TpG steps in the bound and unbound states, with error estimates and comparisons to other dinucleotide steps. Show that the effect is statistically significant and specific to the AP-1 motif.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "binding to the cognate motif in DNA is mainly accompanied with the precise adjustment of closing gripper motion of DNA binding helices of the bZIP domain."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The "closing gripper" motion is not defined quantitatively. The abstract does not specify how this motion is measured, what conformational coordinate is used, or how it differs between cognate and non-cognate binding. The claim that this motion is "mainly" associated with cognate binding implies a comparison that is not described.  
+  - **Why it matters** This is the primary dynamical claim of the study. Without a clear definition and quantitative comparison, the claim is not falsifiable from the provided material.  
+  - **Resolution test** Define the gripper motion using a specific structural coordinate (e.g., inter-helical angle or distance), show its time evolution in simulations, and compare distributions for cognate versus non-cognate DNA sequences with statistical testing.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract states that "microsecond-long atomistic simulations" were used, based on "the structure of the human AP-1 FosB/JunD bZIP-DNA complex."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details are provided, including force field, water model, ion parameters, temperature/pressure coupling, or the specific PDB structure used. The number of replicas, total simulation time per system, and convergence criteria are absent.  
+  - **Why it matters** Atomistic simulation results are highly sensitive to these choices. Without this information, the technical soundness of the study cannot be assessed, and the results cannot be reproduced.  
+  - **Resolution test** Provide full simulation parameters in the main text or methods, including software version, force field, water model, ion concentrations, equilibration protocol, and convergence analysis (e.g., block averaging or RMSD stability).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims that "DNA shape features," "characteristic ion population," and "solvation properties of DNA grooves" contribute to "selective base specific interactions" and "motif sequence specific AP-1-DNA complex."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** These claims are stated as general findings but no specific results are given. It is unclear which DNA shape features are involved, how ion populations differ from non-specific binding, or what solvation properties are altered.  
+  - **Why it matters** The novelty of the study depends on identifying specific molecular features that distinguish cognate from non-cognate binding. Without specifics, the contribution to the field is unclear.  
+  - **Resolution test** Present quantitative comparisons of shape parameters, ion occupancies, and water residence times for cognate versus non-cognate DNA, with statistical analysis.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "comprises one of the largest and most evolutionary conserved families" is imprecise. "Evolutionary conserved" should be "evolutionarily conserved," and the claim of "largest" is not substantiated.  
+  - **Required correction** Revise to "one of the largest and most evolutionarily conserved families" and consider softening the claim if not directly supported by cited literature.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "gripper motions"  
+  - **Issue** The term "gripper motion" is not standard in the field and is not defined.  
+  - **Required correction** Define the term upon first use, or use a more standard description such as "relative motion of the two DNA-binding helices."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract does not state whether the simulations were compared with any experimental data, such as binding affinities or structural data from mutagenesis.  
+  - **Required correction** Add a sentence indicating whether any experimental validation was performed, or state explicitly that the study is purely computational.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative evidence for the central mechanistic claims and the absence of simulation details prevent the case from being established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on dynamical aspects of AP-1 DNA recognition, particularly the gripper motion and TpG step effects, has potential originality, but the abstract does not demonstrate how this advances beyond prior structural studies of bZIP-DNA complexes.  
+  - **Scientific importance** The question of how AP-1 achieves sequence specificity is important for gene regulation, but the abstract does not provide enough detail to judge whether the findings are broadly significant or incremental.  
+  - **Interdisciplinary readership** The topic bridges biophysics, structural biology, and gene regulation, which could attract a broad audience, but the abstract is written in a way that assumes familiarity with simulation jargon.  
+  - **Technical soundness** Cannot be assessed from the abstract. The absence of simulation parameters and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is accessible in its general framing but uses terms like "bZIP domain" and "TpG step" without explanation, which may limit accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the central claims are unsupported by quantitative data, and the technical details necessary for evaluation are absent. A supportive recommendation would require access to the full manuscript and resolution of the major concerns.
+
+## Risk / unsupported claims
+- The claim that TpG steps modify helical twist in the AP-1 bound state is unsupported by quantitative data in the abstract.
+- The claim that "closing gripper motion" is mainly associated with cognate motif binding is unsupported without a defined metric and comparative analysis.
+- The claim that DNA shape, ion population, and solvation properties contribute to specificity is stated without specific results.
+- The assertion that AP-1 acts as a pioneer factor is not substantiated in the abstract and appears tangential to the study's focus.
+- The overall significance of the findings for understanding AP-1 DNA binding selectivity cannot be evaluated from the abstract alone.

@@ -1,0 +1,543 @@
+{
+  "identity": {
+    "pmid": "41118768",
+    "doi": "10.1016/j.xcrm.2025.102421",
+    "title": "CANDiT: A machine learning framework for differentiation therapy in colorectal cancer."
+  },
+  "content": {
+    "abstract": "Reactivating lineage commitment to differentiate, and hence eliminate, cancer stem cells (CSCs) remains a therapeutic challenge. Here, we present CANDiT (cancer-associated nodes for differentiation targeting), a machine learning framework that identifies transcriptomic vulnerabilities for differentiation therapy in colorectal cancer (CRC). Centering on CDX2-a master intestinal lineage factor lost in high-risk, poorly differentiated CRCs-we identify PRKAB1, a stress polarity sensor, as a top therapeutic target. A clinical-grade PRKAB1 agonist reactivates lineage programs, dismantles Wnt/YAP-driven stemness, and selectively eliminates CDX2-low CSCs across CRC cell lines, xenografts, and patient-derived organoids (PDOs). Multivariate analysis reveals a strong therapeutic index tied to the CDX2-low state. A 50-gene response signature, derived from integrated modeling across all platforms, predicts  approximately 50% reduction in recurrence and mortality risk. Like immunotherapy, CANDiT resurrects a physiologic program-differentiation-to selectively eliminate CSCs, offering a scalable, precision framework for lineage restoration in solid tumors.",
+    "keywords": [
+      "CCDC88A",
+      "CDX2 restoration",
+      "SPS",
+      "cancer stem cell",
+      "differentiation therapy",
+      "stress-polarity pathway"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/pathology/genetics/drug therapy/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "*Cell Differentiation/drug effects",
+      "Animals",
+      "Neoplastic Stem Cells/metabolism/drug effects/pathology",
+      "Cell Line, Tumor",
+      "Mice",
+      "CDX2 Transcription Factor/metabolism/genetics",
+      "Organoids",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sinha, Saptarshi",
+        "Alcantara, Joshua",
+        "Perry, Kevin",
+        "Castillo, Vanessa",
+        "Ondersma, Annelies K",
+        "Banerjee, Satarupa",
+        "McLaren, Ella",
+        "Espinoza, Celia R",
+        "Taheri, Sahar",
+        "Vidales, Eleadah",
+        "Tindle, Courtney",
+        "Adel, Adel",
+        "Amirfakhri, Siamak",
+        "Sawires, Joseph R",
+        "Yang, Jerry",
+        "Bouvet, Michael",
+        "Ghosh, Pradipta"
+      ],
+      "short_names": [
+        "Sinha S",
+        "Alcantara J",
+        "Perry K",
+        "Castillo V",
+        "Ondersma AK",
+        "Banerjee S",
+        "McLaren E",
+        "Espinoza CR",
+        "Taheri S",
+        "Vidales E",
+        "Tindle C",
+        "Adel A",
+        "Amirfakhri S",
+        "Sawires JR",
+        "Yang J",
+        "Bouvet M",
+        "Ghosh P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Computer Science and Engineering, Jacob's School of Engineering, University of California, San Diego, San Diego, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Surgery, University of California, San Diego, San Diego, CA 92093, USA; Department of Surgery, VA San Diego Healthcare System, San Diego, CA, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA 92093, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA 92093, USA.",
+        "Department of Surgery, University of California, San Diego, San Diego, CA 92093, USA; Department of Surgery, VA San Diego Healthcare System, San Diego, CA, USA; Moores Cancer Center, University of California, San Diego, San Diego, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA; Moores Cancer Center, University of California, San Diego, San Diego, CA 92093, USA; Department of Medicine, University of California, San Diego, San Diego, CA 92093, USA. Electronic address: prghosh@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sinha, Saptarshi",
+        "short_name": "Sinha S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Alcantara, Joshua",
+        "short_name": "Alcantara J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Perry, Kevin",
+        "short_name": "Perry K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Castillo, Vanessa",
+        "short_name": "Castillo V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Ondersma, Annelies K",
+        "short_name": "Ondersma AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Satarupa",
+        "short_name": "Banerjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "McLaren, Ella",
+        "short_name": "McLaren E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Espinoza, Celia R",
+        "short_name": "Espinoza CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Taheri, Sahar",
+        "short_name": "Taheri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Jacob's School of Engineering, University of California, San Diego, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Vidales, Eleadah",
+        "short_name": "Vidales E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Tindle, Courtney",
+        "short_name": "Tindle C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Adel, Adel",
+        "short_name": "Adel A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Amirfakhri, Siamak",
+        "short_name": "Amirfakhri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of California, San Diego, San Diego, CA 92093, USA; Department of Surgery, VA San Diego Healthcare System, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sawires, Joseph R",
+        "short_name": "Sawires JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jerry",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Bouvet, Michael",
+        "short_name": "Bouvet M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of California, San Diego, San Diego, CA 92093, USA; Department of Surgery, VA San Diego Healthcare System, San Diego, CA, USA; Moores Cancer Center, University of California, San Diego, San Diego, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Pradipta",
+        "short_name": "Ghosh P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA; HUMANOID™ Center of Research Excellence, University of California, San Diego, La Jolla, CA 92093, USA; Moores Cancer Center, University of California, San Diego, San Diego, CA 92093, USA; Department of Medicine, University of California, San Diego, San Diego, CA 92093, USA. Electronic address: prghosh@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/22 02:35",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42699656",
+      "42232553"
+    ],
+    "refs": [
+      "39468210",
+      "38706955",
+      "37516087",
+      "36824410",
+      "36680522",
+      "36229443",
+      "36134663",
+      "35785606",
+      "35051860",
+      "35028615",
+      "35027037",
+      "34885019",
+      "34752136",
+      "34551797",
+      "34253728",
+      "34148617",
+      "33341450",
+      "33159064",
+      "33153498",
+      "32988861",
+      "32967918",
+      "32908876",
+      "32872214",
+      "32737450",
+      "32518160",
+      "32384877",
+      "32296030",
+      "32117703",
+      "32041849",
+      "32003126",
+      "31691815",
+      "31630373",
+      "31490234",
+      "31266962",
+      "30962505",
+      "30755502",
+      "30745430",
+      "30726743",
+      "30425348",
+      "30257705",
+      "30143021",
+      "29900672",
+      "29625051",
+      "29519711",
+      "29464091",
+      "29440363",
+      "29439001",
+      "29396428",
+      "29281831",
+      "29023443",
+      "28854096",
+      "28819729",
+      "28328000",
+      "28234358",
+      "28209925",
+      "28193778",
+      "28193625",
+      "28138402",
+      "28072391",
+      "27830311",
+      "27813479",
+      "27726953",
+      "27611937",
+      "26863982",
+      "26849302",
+      "26789870",
+      "26551082",
+      "26457759",
+      "26276632",
+      "26171228",
+      "25825750",
+      "25706627",
+      "25663765",
+      "25594184",
+      "25579574",
+      "25516281",
+      "25320087",
+      "25314078",
+      "24832600",
+      "24814920",
+      "24802416",
+      "24667995",
+      "24531722",
+      "24415537",
+      "24113773",
+      "23858471",
+      "23584090",
+      "23193258",
+      "22934030",
+      "22815738",
+      "22605983",
+      "22326557",
+      "22308455",
+      "22081019",
+      "21889923",
+      "21741923",
+      "21699772",
+      "20826154",
+      "20699370",
+      "20231483",
+      "20048001",
+      "19833765",
+      "19734199",
+      "19654171",
+      "19584150",
+      "19329995",
+      "18973690",
+      "18973173",
+      "18539961",
+      "17548814",
+      "17517782",
+      "17406294",
+      "17099226",
+      "16568095",
+      "16318415",
+      "15706431",
+      "15677559",
+      "15591335",
+      "15574767",
+      "15509676",
+      "15282333",
+      "15173114",
+      "15053845",
+      "12970140",
+      "12393590",
+      "12164774",
+      "11752295",
+      "11040183",
+      "11027309",
+      "10942231",
+      "10676951",
+      "10566452",
+      "10556184",
+      "10391217",
+      "9763554",
+      "9321529",
+      "9242531",
+      "9052785",
+      "3458366",
+      "3422828",
+      "2930837"
+    ],
+    "similar": [
+      "41118768",
+      "37745574",
+      "34571027",
+      "32898601",
+      "39197803",
+      "41390849",
+      "33755595",
+      "27411517",
+      "39856683",
+      "33109187",
+      "33292133",
+      "32814111",
+      "23112155",
+      "26955235",
+      "40434957",
+      "32586342",
+      "30551544",
+      "23142137",
+      "40619482",
+      "30257705",
+      "40473896",
+      "27207017",
+      "30365932",
+      "27662365",
+      "40189705",
+      "39841093",
+      "31896605",
+      "33087710",
+      "29510994",
+      "40441264",
+      "39933514",
+      "39660395",
+      "21368208",
+      "28072391",
+      "34522210",
+      "39358564",
+      "26956206",
+      "28699179",
+      "30460377",
+      "41566465",
+      "31097715",
+      "39794799",
+      "32512510",
+      "41214698",
+      "26530025",
+      "42027871",
+      "41205283",
+      "39290702",
+      "42212140",
+      "35078398",
+      "26261008",
+      "30792270",
+      "32483441",
+      "32684087",
+      "31182574",
+      "22056143",
+      "29700375",
+      "41662634",
+      "35051860",
+      "32143715",
+      "25881239",
+      "26041882",
+      "32503256",
+      "30068339",
+      "39551911",
+      "40588481",
+      "34948208",
+      "40543657",
+      "27835699",
+      "31907221",
+      "40465228",
+      "23867471",
+      "31012108",
+      "27726953",
+      "41265630",
+      "32592372",
+      "41213373",
+      "36277982",
+      "30982469",
+      "31525340",
+      "41303528",
+      "41596707",
+      "35689903",
+      "26678341",
+      "41423446",
+      "26847701",
+      "20514449",
+      "31910865",
+      "28767654",
+      "34411919",
+      "38424636",
+      "32485279",
+      "40595509",
+      "30171794",
+      "25938772",
+      "31097693",
+      "22453125",
+      "41237766",
+      "22569829",
+      "41286470"
+    ],
+    "review": [
+      "41118768",
+      "41566465",
+      "35078398",
+      "41662634"
+    ],
+    "pmc": [
+      "12711679"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(25)00494-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41118768/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(25)00494-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

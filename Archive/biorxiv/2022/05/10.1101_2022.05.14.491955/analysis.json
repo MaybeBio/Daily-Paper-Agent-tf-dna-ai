@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.14.491955",
+  "title": "Solubility-aware protein binding peptide design using AlphaFold",
+  "authors": "Takatsugu Kosugi; Masahito Ohue",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-15",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用AlphaFold的AfDesign协议设计靶向蛋白-蛋白互作界面的结合肽，并引入溶解度损失函数优化序列，虽非TF-DNA体系，但蛋白-肽结合设计方法可迁移至蛋白-DNA互作建模，具有一定借鉴价值。",
+  "abstract": "New protein–protein interactions (PPIs) are being identified, but PPIs have different physicochemical properties compared with conventional targets, making it difficult to use small molecules. Peptides offer a new modality to target PPIs, but designing appropriate peptide sequences by computation is challenging. Recently, AlphaFold and RosettaFold have made it possible to predict protein structures from amino acid sequences with ultra-high accuracy, enabling de novo protein design. We designed peptides likely to have PPI as the target protein using the “binder hallucination” protocol of AfDesign, a de novo protein design method using AlphaFold. However, the solubility of the peptides tended to be low. Therefore, we designed a solubility loss function using solubility indices for amino acids and developed a solubility-aware AfDesign binder hallucination protocol. The peptide solubility in sequences designed using the new protocol increased with the weight of the solubility loss function; moreover, they captured the characteristics of the solubility indices. Moreover, the new protocol sequences tended to have higher affinity than random or single residue substitution sequences when evaluated by docking binding affinity. Our approach shows that it is possible to design peptide sequences that can bind to the interface of PPI while controlling solubility.",
+  "abstract_zh": "新的蛋白质-蛋白质相互作用（PPIs）正在被识别，但PPIs与传统靶点相比具有不同的物理化学性质，使得使用小分子变得困难。肽提供了一种靶向PPIs的新模式，但通过计算设计合适的肽序列具有挑战性。近期，AlphaFold和RosettaFold使得从氨基酸序列以超高精度预测蛋白质结构成为可能，从而实现了从头蛋白质设计。我们使用AfDesign的“binder hallucination”协议（一种利用AlphaFold的从头蛋白质设计方法）设计了可能以目标蛋白为PPI的肽。然而，这些肽的溶解度往往较低。因此，我们利用氨基酸的溶解度指数设计了一个溶解度损失函数，并开发了一种溶解度感知的AfDesign binder hallucination协议。使用新协议设计的序列中，肽的溶解度随溶解度损失函数的权重增加而提高；此外，它们还捕捉了溶解度指数的特征。而且，通过对接结合亲和力评估时，新协议序列往往比随机或单残基替换序列具有更高的亲和力。我们的方法表明，在控制溶解度的同时，设计能够结合PPI界面的肽序列是可能的。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.14.491955",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.14.491955",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.14.491955/index.html"
+}

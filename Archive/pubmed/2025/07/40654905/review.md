@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and evidentiary support for the claims made in the manuscript, assessed against Nature-style criteria
+- **Shared manuscript claim summary** The authors propose that the CAD risk variant rs6903956 (A allele) on chromosome 6p24.1 contributes to endothelial dysfunction by creating a binding site for HOXA4 and MEIS1 transcription factors, which cooperatively enhance PHACTR1 expression, leading to increased ICAM-1 expression and monocyte adhesion under disturbed flow conditions
+- **Visible evidence base** Population cohort analyses (UK Biobank PheWAS, MESA, Guangxi cohort), single-base editing of patient-derived iPSCs, eQTL analysis (HELIOS cohort), in silico transcription factor prediction (TOMTOM), AlphaFold 3 structural modeling, ChIP-qPCR, siRNA knockdown, dual luciferase assays, and endothelial-monocyte adhesion assays
+- **Missing materials affecting confidence** Figure panels referenced but not fully described in text (e.g., Fig. 1A-F, Fig. 2A-E, Fig. 3A-G, Fig. 4A-E); Supplementary Tables S1-S5 and Supplementary Figures S1-S2 not provided; no raw data or statistical outputs for cohort analyses; no details on iPSC characterization results; no information on sample sizes for functional experiments beyond general descriptions
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in cardiovascular genetics, namely the functional mechanism underlying a CAD-associated non-coding variant. The combination of population data, isogenic cellular models, and molecular assays represents a commendable approach. However, several technical concerns and evidentiary gaps currently prevent the conclusions from being fully established. The central claim that rs6903956 operates through HOXA4-MEIS1 cooperative binding to regulate PHACTR1 is supported by correlative and in silico evidence, but the causal chain is incomplete. The discrepancy between the predicted binding partners (HOXA4, MEIS2) and the experimentally tested factors (HOXA4, MEIS1) requires clarification. The functional data are presented without sufficient statistical detail, and the mechanistic model would benefit from direct demonstration of the proposed ternary complex in cells.
+- **Who would be interested in the results, and why** Researchers in cardiovascular genetics, functional genomics, and endothelial biology would find this work relevant. The study contributes to the growing effort to interpret GWAS signals through mechanistic dissection in disease-relevant cell types. The use of patient-derived iPSC-endothelial cells and single-base editing is of methodological interest. The proposed link between a CAD risk variant, PHACTR1 regulation, and endothelial inflammation could inform future therapeutic strategies targeting this pathway.
+- **Major strengths** The study integrates multiple complementary approaches, from population genetics to molecular biology. The use of isogenic iPSC-derived endothelial cells from CAD patients provides a disease-relevant model system. The identification of a potential enhancer function for the rs6903956 region with allele-specific effects is a valuable contribution. The inclusion of disturbed flow conditions in the functional assays adds physiological relevance. The authors address cell-type specificity by comparing their findings with prior work on ADTRP in leukocytes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of mechanistic model
+  - **Claim pointer** The manuscript claims that the rs6903956 A allele enables cooperative binding of HOXA4 and MEIS1, forming a stable ternary complex that promotes PHACTR1 transcription
+  - **Evidence pointer** Results section, "In silico insights" subsection; Fig. 2B-E; AlphaFold 3 methods
+  - **Concern** The in silico prediction identified HOXA4 and MEIS2 as the top candidates for binding the A allele, yet the experimental validation focused on HOXA4 and MEIS1. The rationale for this switch is not provided. AlphaFold 3 modeling was used to predict the ternary complex, but this approach has not been experimentally validated for transcription factor-DNA interactions of this type. The claim of a "stable ternary complex" is based solely on computational modeling with no biochemical confirmation (e.g., electrophoretic mobility shift assay, surface plasmon resonance, or chromatin immunoprecipitation followed by sequencing). The ChIP-qPCR data demonstrate binding of HOXA4 and MEIS1 to the region in cells, but do not establish that both factors bind simultaneously or that the complex forms specifically on the A allele.
+  - **Why it matters** The central mechanistic model of the paper rests on the cooperative binding of HOXA4 and MEIS1 to the A allele. Without direct evidence for the ternary complex, the proposed mechanism remains speculative. The discrepancy between predicted and tested factors raises questions about the specificity of the model.
+  - **Resolution test** Provide experimental evidence for the ternary complex, such as sequential ChIP (re-ChIP) for HOXA4 and MEIS1 on the rs6903956 region, or in vitro binding assays with recombinant proteins comparing A and G alleles. Justify the choice of MEIS1 over MEIS2 based on expression data or functional relevance in endothelial cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The manuscript reports significant associations between rs6903956 and blood pressure phenotypes, reduced flow-mediated dilation, and allele-specific effects on PHACTR1 and EDN1 expression
+  - **Evidence pointer** Results section, "Population-based studies" and "Cis-acting impact" subsections; Tables 1-2; Fig. 1E-F
+  - **Concern** The statistical methods for the cohort analyses are described only briefly. For the UK Biobank PheWAS, no details are given on the number of tests performed, multiple testing correction, or the specific model used. The MESA analysis is limited to 566 Asian American participants, but the rationale for this subgroup and the power to detect effects are not discussed. The Guangxi cohort analysis reports a regression coefficient for diastolic blood pressure but does not provide confidence intervals or effect sizes for other phenotypes. For the iPSC experiments, the number of biological replicates, the number of independent differentiations, and the statistical tests used are not stated in the text. The eQTL analysis in HELIOS shows a trend that does not reach significance, yet this is interpreted as "aligning" with the experimental findings.
+  - **Why it matters** The population-based associations form the foundation for the study. Without adequate statistical detail, the robustness of these findings cannot be assessed. The functional experiments require clear reporting of replicates and statistical methods to support the conclusions drawn.
+  - **Resolution test** Provide complete statistical reporting for all cohort analyses, including multiple testing correction, effect sizes, confidence intervals, and subgroup justification. For cellular experiments, state the number of independent differentiations, biological replicates, and the specific statistical tests used for each comparison. For the eQTL analysis, clarify whether the trend is presented as hypothesis-generating or as supportive evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of observed effects
+  - **Claim pointer** The manuscript claims that the rs6903956 A allele leads to endothelial dysfunction and increased monocyte adhesion, contributing to CAD susceptibility
+  - **Evidence pointer** Results section, "Allelic variation" subsection; Fig. 4A-E
+  - **Concern** The functional assays demonstrate increased ICAM-1 expression and monocyte adhesion in A allele endothelial cells compared to G allele cells. However, the magnitude of the effect and its biological relevance are not discussed. The experiments are performed in iPSC-derived endothelial cells, which may not fully recapitulate primary arterial endothelial cell behavior. The link between the observed in vitro phenotypes and CAD susceptibility is inferred rather than demonstrated. The study does not address whether the magnitude of the ICAM-1 increase or monocyte adhesion difference would be expected to meaningfully contribute to atherosclerosis progression in vivo.
+  - **Why it matters** The clinical relevance of the findings depends on the biological significance of the observed effects. Without context on effect sizes or comparison to known drivers of endothelial dysfunction, the translational implications remain unclear.
+  - **Resolution test** Discuss the effect sizes in the context of known endothelial activation responses. Consider validating key findings in primary arterial endothelial cells from additional donors. If possible, relate the observed changes to established biomarkers or functional readouts of endothelial dysfunction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of base editing approach
+  - **Claim pointer** The manuscript states that single-base editing converted the AA risk genotype to GG in patient-derived iPSCs, creating an isogenic model
+  - **Evidence pointer** Results section, "Cis-acting impact" subsection; Fig. 1A-B; Supplemental Fig. 1A-C
+  - **Concern** The base editing efficiency is reported as 30-35%, but the manuscript does not describe how homozygous edited clones were identified and verified. The possibility of off-target edits is not addressed, despite the use of a guide RNA targeting a specific genomic locus. The selection of two edited clones and one unedited clone per donor is described, but the criteria for clone selection are not stated. The potential for clonal variation in iPSC lines, independent of the targeted edit, is a known concern that is not discussed.
+  - **Why it matters** The validity of the isogenic comparison depends on the specificity of the base editing and the absence of confounding clonal effects. Off-target edits or clonal variation could produce phenotypic differences unrelated to the rs6903956 genotype.
+  - **Resolution test** Provide details on the screening strategy for edited clones, including the assay used to confirm homozygous editing. Describe any off-target analysis performed (e.g., targeted sequencing of predicted off-target sites or whole-genome sequencing). Consider including multiple independent edited clones to control for clonal variation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of eQTL and expression data
+  - **Claim pointer** The manuscript claims that the A allele has a cis-acting impact on PHACTR1 and EDN1 expression, with higher expression in A allele carriers
+  - **Evidence pointer** Results section, "Cis-acting impact" subsection; Fig. 1E-F
+  - **Concern** The eQTL analysis in HELIOS shows a trend that does not reach statistical significance. The experimental data show higher PHACTR1 and EDN1 expression in AA endothelial cells compared to GG cells, but the number of independent differentiations and the consistency across clones are not reported. The direction of effect for EDN1 is described as "decreased" in the abstract but the text states that AA cells have higher EDN1 expression. This inconsistency needs clarification. The relationship between PHACTR1 and EDN1 expression changes is not mechanistically addressed.
+  - **Why it matters** The expression data are central to the claim that rs6903956 regulates PHACTR1 and EDN1. Inconsistent reporting and non-significant eQTL results weaken the evidentiary basis for this claim.
+  - **Resolution test** Clarify the direction of EDN1 expression changes in the abstract and results. Report the number of independent differentiations and the consistency of expression changes across clones. Discuss the non-significant eQTL trend in the context of power and cell-type specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "remain leading causes" should be "remains a leading cause" for grammatical agreement with the singular subject "Ischemic heart disease."
+  - **Required correction** Revise to "Ischemic heart disease, particularly coronary artery disease (CAD), remains a leading cause of mortality worldwide."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results section, "Cis-acting impact" subsection
+  - **Evidence pointer** Results, paragraph 2
+  - **Issue** The text contains the phrase "A-to-G / G-to-A???" which appears to be an unresolved editorial note. This should be corrected to describe the specific base substitution being made.
+  - **Required correction** Replace with a clear description of the edit, e.g., "the A-to-G substitution at rs6903956."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods, "Statistical analysis" subsection
+  - **Evidence pointer** Methods
+  - **Issue** The statistical analysis section does not describe the methods used for the UK Biobank PheWAS or the META-analysis combining cohorts. The software and models used are not specified.
+  - **Required correction** Add details on the PheWAS methodology, including the statistical model, covariates, and multiple testing correction. Describe how the meta-analysis across cohorts was performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says all data are available within the paper and supplementary information, but the supplementary materials are not provided with the manuscript. Raw sequencing data, genotyping data, and analysis scripts are not mentioned.
+  - **Required correction** Specify where raw data and analysis code can be accessed, including repository accession numbers for genomic data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states that the A allele was associated with decreased ADTRP expression in prior work, but the current study found no significant difference in ADTRP expression in endothelial cells. The discussion would benefit from a more explicit consideration of why the effect is cell-type specific.
+  - **Required correction** Expand on the potential reasons for cell-type-specific effects, such as differences in chromatin state or transcription factor availability between leukocytes and endothelial cells.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct evidence for the proposed ternary complex), R1-M2 (incomplete statistical reporting), R1-M5 (inconsistent reporting of EDN1 expression direction and non-significant eQTL results)
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific GWAS variant with a proposed novel mechanism involving HOX-MEIS cooperative binding. While the general concept of non-coding variant effects on gene regulation is established, the specific application to rs6903956 and PHACTR1 is original. Scientific importance: The work has potential relevance for understanding CAD susceptibility in East Asian populations and for the broader field of functional interpretation of GWAS variants. However, the importance is tempered by the incomplete mechanistic validation. Interdisciplinary readership: The topic bridges genetics, vascular biology, and cardiology, which could attract readers from multiple disciplines. Technical soundness: The experimental design is generally sound, but the lack of direct biochemical evidence for the proposed complex and incomplete statistical reporting undermine confidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with genomics terminology. The abstract effectively summarizes the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question with a multi-pronged approach, but the central mechanistic claim requires direct experimental validation. The statistical reporting needs to be completed, and the inconsistencies in expression data reporting must be resolved. If these concerns are adequately addressed, the study could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that rs6903956 A allele forms a "stable ternary complex" with HOXA4 and MEIS1 is unsupported by direct experimental evidence; this is based solely on AlphaFold 3 predictions.
+- The claim that the A allele drives PHACTR1 expression via HOXA4-MEIS1 cooperative binding is not fully established, as the knockdown experiments show correlative rather than causal evidence.
+- The eQTL analysis in HELIOS is described as showing a trend that does not reach significance, yet this is used to support the model. This is a weak evidentiary basis.
+- The population-based associations with blood pressure phenotypes are reported with limited statistical detail, making the robustness of these findings unassessable.
+- The statement that the A allele is associated with "impaired endothelial responsiveness" based on reduced flow-mediated dilation in MESA requires more detail on the analysis and potential confounders.
+- The claim that the findings "inform potential therapeutic targets" is speculative and not directly supported by the data presented.

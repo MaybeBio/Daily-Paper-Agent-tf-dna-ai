@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.07.669008",
+  "title": "Comparative evaluation of genomic footprinting algorithms for predicting transcription factor binding sites in single-cell data",
+  "authors": "Amanda Everitt; Sean Whalen; Katherine S. Pollard",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-07",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文比较单细胞基因组足迹算法预测TF结合位点，虽聚焦TF-DNA结合位点预测，但主要基于开放染色质统计而非三维互作建模，方法为集成模型而非AI/物理模拟，故为中档匹配。",
+  "abstract": "Transcription factors (TFs) have millions of potential binding sites across the human genome, but only a fraction are bound in a given context. Genomic footprinting aims to identify context-specific binding sites by detecting patterns in open chromatin data. While powerful, these approaches face technical challenges, especially in single-cell applications. We developed a benchmarking framework for cell-type specific footprinting and used it to evaluate the consistency, reproducibility, and equivalency of three leading methods across data quality scenarios and as a function of cell-type similarity. Peak-level read coverage emerged as the strongest predictor of stable footprints. Motivated by limited reproducibility across tools, we built an ensemble model that improved concordance with ChIP-seq. To encourage broader adoption and continued tool development, we provide practical guidelines for robust genomic footprinting in single-cell datasets and a roadmap for extracting deeper insights about how gene regulatory networks vary across cell types in complex tissues.",
+  "abstract_zh": "转录因子（TFs）在人类基因组中拥有数百万个潜在结合位点，但在特定情境下仅有一小部分被结合。基因组足迹分析旨在通过检测开放染色质数据中的模式来识别情境特异的结合位点。尽管这些方法功能强大，但它们面临技术挑战，尤其是在单细胞应用中。我们开发了一个用于细胞类型特异性足迹分析的基准测试框架，并利用它评估了三种领先方法在不同数据质量场景下以及作为细胞类型相似性函数的一致性、可重复性和等价性。峰值水平的读段覆盖度成为稳定足迹的最强预测因子。鉴于各工具间可重复性有限，我们构建了一个集成模型，提高了与ChIP-seq的一致性。为促进更广泛的采用和持续的工具开发，我们提供了在单细胞数据集中进行稳健基因组足迹分析的实用指南，以及一条从复杂组织中不同细胞类型间基因调控网络变异中提取更深层见解的路线图。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669008",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669008",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.07.669008/index.html"
+}

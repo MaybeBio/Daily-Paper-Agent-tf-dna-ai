@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "34366205",
+    "doi": "10.1016/j.cyto.2021.155665",
+    "title": "Regulation of STAT3 signaling in IFNgamma and IL10 pathways and in their cross-talk."
+  },
+  "content": {
+    "abstract": "The pro-inflammatory IFNgamma-STAT1 pathway and anti-inflammatory IL10-STAT3 pathway elicit cellular responses primarily utilizing their canonical STATs. However IL10 mediated STAT1 and IFNgamma mediated STAT3 activation is also observed, suggesting crosstalk of these functionally opposing signaling pathways can potentially reshape the canonical dynamics both STATs and alter the expression of their target genes. Herein, we measured the dynamics of STATs in response to different doses of IL10 or IFNgamma and in their co-stimulation and employed quantitative modeling to understand the regulatory mechanisms controlling signal responses in individual and co-simulation scenarios. Our experiments show, STAT3 in particular, exhibits a bell-shaped dose-response while treated with IFNgamma or IL10 and our model quantiatively captured the dose-dependent dynamics of both the STATs in both pathways. The model next predicted and subsequent experiments validated that STAT3 dynamics would robustly remain IL10 specific when subjected to a co-stimulation of both IFNgamma and IL10. Genes common to both pathways also exhibited IL10 specific expression during the co-stimulation. The findings thus uncover anovel feature of the IL10-STAT3 signaling axis during pathway crosstalk. Finally, parameter sampling coupled to information theory based analysis showed that bell-shaped signal-response of STAT3 in both pathways is primarily dependent on receptor concentration whereas robustness of IL10-STAT3 signaling axis in co-stimulation results from the negative regulation of the IFNgamma pathway.",
+    "keywords": [
+      "IFNgamma",
+      "IL10",
+      "SOCS1",
+      "STAT1",
+      "STAT3"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Calibration",
+      "Gene Expression Regulation/drug effects",
+      "Humans",
+      "Interferon-gamma/*pharmacology",
+      "Interleukin-10/*pharmacology",
+      "Mice, Inbred BALB C",
+      "Models, Biological",
+      "Phosphorylation/drug effects",
+      "Reproducibility of Results",
+      "STAT1 Transcription Factor/metabolism",
+      "*Signal Transduction",
+      "Suppressor of Cytokine Signaling 3 Protein/*metabolism",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarma, U",
+        "Maiti, M",
+        "Nair, A",
+        "Bhadange, S",
+        "Bansode, Y",
+        "Srivastava, A",
+        "Saha, B",
+        "Mukherjee, D"
+      ],
+      "short_names": [
+        "Sarma U",
+        "Maiti M",
+        "Nair A",
+        "Bhadange S",
+        "Bansode Y",
+        "Srivastava A",
+        "Saha B",
+        "Mukherjee D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India. Electronic address: uddipans@gmail.com.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India. Electronic address: mukherjee.debasri@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarma, U",
+        "short_name": "Sarma U",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India. Electronic address: uddipans@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Maiti, M",
+        "short_name": "Maiti M",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Nair, A",
+        "short_name": "Nair A",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Bhadange, S",
+        "short_name": "Bhadange S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Bansode, Y",
+        "short_name": "Bansode Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, A",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Saha, B",
+        "short_name": "Saha B",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, D",
+        "short_name": "Mukherjee D",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University Campus, Pune 411007, India. Electronic address: mukherjee.debasri@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cytokine"
+    ],
+    "journal_abbrev": [
+      "Cytokine"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/10 06:00",
+    "fetched_at": "2026-09-27 22:06:12"
+  },
+  "links": {
+    "cites": [
+      "42072370",
+      "41599274",
+      "40558486"
+    ],
+    "refs": [],
+    "similar": [
+      "34366205",
+      "18616672",
+      "15284232",
+      "10515892",
+      "18006082",
+      "24319264",
+      "25673564",
+      "23384097",
+      "27939431",
+      "27862183",
+      "32045772",
+      "16473883",
+      "20484656",
+      "38334621",
+      "10029571",
+      "27387064",
+      "19124156",
+      "12438448",
+      "19776010",
+      "28901399",
+      "31231385",
+      "14978477",
+      "24097101",
+      "9813052",
+      "27702761",
+      "14742442",
+      "16717119",
+      "21346151",
+      "16628196",
+      "14690454",
+      "21893603",
+      "22302831",
+      "30779746",
+      "19886038",
+      "9668040",
+      "11698287",
+      "28094337",
+      "33871355",
+      "11032030",
+      "10707961",
+      "23166328",
+      "29474442",
+      "22425562",
+      "26170288",
+      "21752694",
+      "17016440",
+      "15189833",
+      "23527309",
+      "9389691",
+      "29427792",
+      "23950992",
+      "23352233",
+      "8732683",
+      "23107828",
+      "32696599",
+      "31237385",
+      "26299368",
+      "23240025",
+      "23056571",
+      "17105733",
+      "18471922",
+      "12538698",
+      "19626047",
+      "9857039",
+      "28425456",
+      "18514317",
+      "12077274",
+      "31953452",
+      "21310022",
+      "8626752",
+      "34530865",
+      "26962683",
+      "21303487",
+      "17179173",
+      "14607900",
+      "32987855",
+      "18950705",
+      "26521691",
+      "27570112",
+      "16085646",
+      "29510136",
+      "22823229",
+      "12847226",
+      "17258468",
+      "32945463",
+      "23487038",
+      "10725793",
+      "37151134",
+      "32357246",
+      "16427044",
+      "33771881",
+      "12754505",
+      "25340519",
+      "16250053",
+      "9811457",
+      "24211327",
+      "10830295"
+    ],
+    "review": [
+      "34366205",
+      "21752694",
+      "32987855"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1043-4666(21)00252-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34366205.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

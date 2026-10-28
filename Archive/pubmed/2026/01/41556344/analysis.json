@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41556344",
+  "title": "Deciphering the 3D genome organization across species from Hi-C data.",
+  "authors": "Shkolikov, Aleksei; Galitsyna, Aleksandra; Gelfand, Mikhail S",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN从DNA序列预测Hi-C图谱并探索跨物种3D基因组组织，虽涉及DNA序列与染色质结构关系，但核心是染色质折叠而非TF-DNA结合互作，方法可迁移但对象偏离。",
+  "abstract": "3D genome organization is essential for gene regulation, yet in various species it is driven by different biological mechanisms. Species-specific factors and DNA sequences influence chromatin folding, complicating cross-species comparisons. Leveraging Hi-C data and machine learning, we introduce Chimaera-a convolutional neural network that predicts Hi-C maps from DNA sequences, enabling exploration of genome folding in evolution. Chimaera's latent representations revealed an unsupervised atlas of key chromatin features (such as insulation, loops, fountains/jets) and supported the detection and quantification of structural signatures in processes such as the cell cycle and embryogenesis. Targeted search in the latent space linked DNA sequence elements to specific chromatin structures. Applying Chimaera across multiple species confirmed the insulator roles of CTCF in vertebrates and BEAF-32 in Drosophila melanogaster and identified a previously unreported insulator motif in D. melanogaster. In amoeba Dictyostelium discoideum, gene orientation on the DNA strand was shown to influence loop formation. Models for other organisms also showed chromatin folding patterns associated with gene location. Finally, using cross-species predictions we tested the transferability of chromatin folding patterns and revealed evolutionary relationships, culminating in a chromatin structure-based cluster tree spanning plants to mammals.",
+  "abstract_zh": "三维基因组组织对基因调控至关重要，然而在不同物种中，其驱动机制各异。物种特异性因子和DNA序列影响染色质折叠，使得跨物种比较变得复杂。利用Hi-C数据和机器学习，我们引入了Chimaera——一种卷积神经网络，能够从DNA序列预测Hi-C图谱，从而探索进化中的基因组折叠。Chimaera的潜在表征揭示了一个无监督的关键染色质特征图谱（如绝缘、环、喷泉/射流），并支持在细胞周期和胚胎发生等过程中检测和量化结构特征。在潜在空间中的定向搜索将DNA序列元件与特定染色质结构联系起来。将Chimaera应用于多个物种，确认了CTCF在脊椎动物和BEAF-32在果蝇（Drosophila melanogaster）中的绝缘子作用，并识别了果蝇中一个先前未报道的绝缘子基序。在阿米巴盘基网柄菌（Dictyostelium discoideum）中，DNA链上的基因方向被证明影响环的形成。其他生物的模型也显示了与基因位置相关的染色质折叠模式。最后，利用跨物种预测，我们测试了染色质折叠模式的可转移性，并揭示了进化关系，最终构建了一个从植物到哺乳动物的基于染色质结构的聚类树。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41556344/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41556344/",
+  "paper_page_path": "papers/pubmed/41556344/index.html"
+}

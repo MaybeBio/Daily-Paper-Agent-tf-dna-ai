@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37369005",
+  "title": "CRISPR single base-editing: in silico predictions to variant clonal cell lines.",
+  "authors": "Dickson, Kristie-Ann; Field, Natisha; Blackman, Tiane; Ma, Yue; Xie, Tao; Kurangil, Ecem; Idrees, Sobia; Rathnayake, Senani N H; Mahbub, Rashad M; Faiz, Alen; Marsh, Deborah J",
+  "journal": "Human molecular genetics",
+  "published_date": "2023-06-27",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文利用BE-Hive算法预测CRISPR碱基编辑的sgRNA设计以构建p53突变细胞系，虽涉及序列预测但非蛋白质-DNA互作建模，且无TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "Engineering single base edits using CRISPR technology including specific deaminases and single-guide RNA (sgRNA) is a rapidly evolving field. Different types of base edits can be constructed, with cytidine base editors (CBEs) facilitating transition of C-to-T variants, adenine base editors (ABEs) enabling transition of A-to-G variants, C-to-G transversion base editors (CGBEs) and recently adenine transversion editors (AYBE) that create A-to-C and A-to-T variants. The base-editing machine learning algorithm BE-Hive predicts which sgRNA and base editor combinations have the strongest likelihood of achieving desired base edits. We have used BE-Hive and TP53 mutation data from The Cancer Genome Atlas (TCGA) ovarian cancer cohort to predict which mutations can be engineered, or reverted to wild-type (WT) sequence, using CBEs, ABEs or CGBEs. We have developed and automated a ranking system to assist in selecting optimally designed sgRNA that considers the presence of a suitable protospacer adjacent motif (PAM), the frequency of predicted bystander edits, editing efficiency and target base change. We have generated single constructs containing ABE or CBE editing machinery, an sgRNA cloning backbone and an enhanced green fluorescent protein tag (EGFP), removing the need for co-transfection of multiple plasmids. We have tested our ranking system and new plasmid constructs to engineer the p53 mutants Y220C, R282W and R248Q into WT p53 cells and shown that these mutants cannot activate four p53 target genes, mimicking the behaviour of endogenous p53 mutations. This field will continue to rapidly progress, requiring new strategies such as we propose to ensure desired base-editing outcomes.",
+  "abstract_zh": "利用CRISPR技术进行单碱基编辑，包括特异性脱氨酶和单引导RNA（sgRNA），是一个快速发展的领域。可以构建不同类型的碱基编辑，其中胞嘧啶碱基编辑器（CBEs）促进C到T变异的转换，腺嘌呤碱基编辑器（ABEs）实现A到G变异的转换，C到G颠换碱基编辑器（CGBEs）以及最近出现的腺嘌呤颠换编辑器（AYBE）可产生A到C和A到T变异。碱基编辑机器学习算法BE-Hive预测哪些sgRNA和碱基编辑器组合最有可能实现所需的碱基编辑。我们利用BE-Hive和来自癌症基因组图谱（TCGA）卵巢癌队列的TP53突变数据，预测哪些突变可以使用CBEs、ABEs或CGBEs进行工程化改造，或恢复为野生型（WT）序列。我们开发并自动化了一个排名系统，以协助选择最优设计的sgRNA，该系统考虑了合适的原型间隔区相邻基序（PAM）的存在、预测旁观者编辑的频率、编辑效率和目标碱基变化。我们生成了包含ABE或CBE编辑机制、sgRNA克隆骨架和增强型绿色荧光蛋白标签（EGFP）的单一构建体，消除了共转染多个质粒的需求。我们测试了我们的排名系统和新的质粒构建体，将p53突变体Y220C、R282W和R248Q工程化为WT p53细胞，并证明这些突变体无法激活四个p53靶基因，模拟了内源性p53突变的行为。该领域将继续快速发展，需要如我们提出的新策略来确保所需的碱基编辑结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37369005/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37369005/",
+  "paper_page_path": "papers/pubmed/37369005/index.html"
+}

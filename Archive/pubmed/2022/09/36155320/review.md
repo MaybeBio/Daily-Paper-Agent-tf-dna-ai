@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of three small-molecule inhibitors (corilagin, bardoxolone methyl, SKQ1) of the Pseudomonas aeruginosa RuvAB Holliday junction branch migration complex, with proposed mechanisms of action for each, and demonstrate that these compounds sensitize P. aeruginosa to UV-C irradiation. They claim this is the first report of small-molecule inhibitors of RuvA and RuvB from any species.
+- **Visible evidence base** FRET-based HJ branch migration assay; IC50 determinations; biochemical binding and ATPase assays; molecular docking; UV-C susceptibility assays. All data are referenced only in the abstract; no numerical details beyond IC50 values are provided.
+- **Missing materials affecting confidence** Full methods, assay validation controls, raw data, statistical analyses, docking parameters and scores, compound specificity data, cytotoxicity data, and any in vivo or bacterial growth context. None of these are available for assessment.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding: first-in-class small-molecule inhibitors targeting the RuvAB complex, a validated but underexplored antibacterial target. The identification of three chemically distinct inhibitors with sub-micromolar to low-micromolar IC50 values is promising. However, the evidence as presented is insufficient to establish the mechanistic claims. The distinction between corilagin binding to RuvB and BM/SKQ1 blocking RuvA-HJ DNA interactions rests on biochemical and docking data that are not described in sufficient detail. The functional consequence (UV sensitization) is reported without quantitative context. The claim of "first report" is strong and requires a thorough literature search that cannot be verified from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in antibacterial drug discovery, DNA repair biology, and specifically those studying Holliday junction processing and the RuvABC system. The work may also interest medicinal chemists seeking new scaffolds for targeting protein-DNA or protein-protein interactions in bacterial DNA repair pathways. The potential to sensitize bacteria to DNA-damaging agents (e.g., UV, and by extension other genotoxic treatments) could have translational relevance for combination therapies.
+- **Major strengths** 
+  - The target (RuvAB) is biologically important and underexploited for antibacterial intervention, giving the work potential novelty.
+  - The use of a FRET-based functional assay for screening is appropriate and likely robust.
+  - The identification of three chemically distinct inhibitors with different proposed mechanisms provides a useful chemical toolbox.
+  - The demonstration of UV sensitization links biochemical inhibition to a phenotypic outcome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "corilagin directly bound to PaRuvB at the ATPase domain, and thus prevented ATP hydrolysis. In contrast, BM and SKQ1 acted through blocking the interactions between PaRuvA and HJ DNA."
+  - **Evidence pointer** "Further biochemical and molecular docking analyses" (location not provided)
+  - **Concern** The abstract states that corilagin binds to the ATPase domain of RuvB and inhibits ATP hydrolysis, while BM and SKQ1 block RuvA-HJ DNA interactions. However, no experimental details are given for these conclusions. For corilagin, the claim of direct binding at a specific domain requires evidence from techniques such as surface plasmon resonance, isothermal titration calorimetry, or mutagenesis, none of which are described. For BM and SKQ1, the claim of blocking RuvA-HJ DNA interactions requires demonstration of a direct effect on the RuvA-DNA complex, not merely an indirect effect on branch migration. Molecular docking alone is generally insufficient to establish binding sites or mechanisms.
+  - **Why it matters** The mechanistic distinction is central to the paper's contribution. If the mechanisms are not rigorously established, the compounds cannot be reliably used as tools to dissect RuvA versus RuvB function in vivo, which is a stated goal. Overinterpretation of docking results without orthogonal validation is a common source of irreproducibility.
+  - **Resolution test** Provide direct binding data (e.g., SPR or ITC) for corilagin with wild-type and mutant RuvB, and show that ATPase inhibition correlates with binding. For BM and SKQ1, provide gel-shift or fluorescence anisotropy assays demonstrating disruption of RuvA-HJ DNA complexes, and rule out effects on RuvB or RuvA-RuvB interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "these compounds were shown to increase the susceptibility of P. aeruginosa to UV-C irradiation."
+  - **Evidence pointer** "Finally, these compounds were shown..." (location not provided)
+  - **Concern** The abstract reports increased UV-C susceptibility but provides no quantitative data, such as survival curves, fold changes in IC50 or LD50, or statistical significance. It is unclear whether the effect is modest or substantial, whether it is dose-dependent, and whether it is specific to the RuvAB pathway or due to general toxicity. Without these details, the phenotypic claim cannot be evaluated.
+  - **Why it matters** The UV sensitization result is the only functional validation presented. If the effect is weak or nonspecific, the translational relevance is diminished. Moreover, without a genetic control (e.g., a ruvAB mutant strain), it is impossible to attribute the sensitization to on-target inhibition.
+  - **Resolution test** Provide survival curves with and without compounds at multiple doses, include a ruvAB deletion or knockdown strain as a comparator, and show that the sensitization is statistically significant and dose-dependent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** "we identified that corilagin, bardoxolone methyl (BM) and 10-(6'-plastoquinonyl) decyltriphenylphosphonium (SKQ1) could efficiently inhibit the branch migration activity of PaRuvAB"
+  - **Evidence pointer** FRET-based HJ branch migration assay (location not provided)
+  - **Concern** The abstract does not address whether these compounds are specific to PaRuvAB or whether they inhibit other HJ-processing enzymes, other ATPases, or DNA-binding proteins. Corilagin and bardoxolone methyl are known to have multiple biological activities, and SKQ1 is a mitochondrial-targeted antioxidant, raising concerns about off-target effects. No counterscreen data are presented.
+  - **Why it matters** For the compounds to be useful as chemical tools, specificity is essential. If they inhibit other DNA repair enzymes or have general protein-binding properties, the conclusions about RuvAB-specific mechanisms are weakened.
+  - **Resolution test** Include counterscreens against related enzymes (e.g., RuvC, RecG, or other ATP-dependent branch migration motors) and demonstrate that the compounds do not inhibit a panel of unrelated ATPases or DNA-binding proteins at the effective concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** IC50 values
+  - **Evidence pointer** "IC(50) values of 0.40 +/- 0.04 muM, 0.38 +/- 0.05 muM and 4.64 +/- 0.27 muM"
+  - **Issue** The IC50 values are reported with standard deviations, but the number of replicates and the assay conditions (e.g., protein concentration, substrate concentration, buffer) are not stated. This limits the interpretability of the values.
+  - **Required correction** Specify the number of independent experiments, the assay conditions, and whether the values are from a representative experiment or pooled data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Claim of first report
+  - **Evidence pointer** "for the first time, reports the small-molecule inhibitors of RuvA and RuvB from any species"
+  - **Issue** The claim of being first is strong and cannot be verified from the abstract. There may be prior reports of inhibitors of RuvAB or related HJ processing enzymes that are not cited.
+  - **Required correction** Provide a thorough literature search in the full text and temper the claim if any prior art exists, or clearly state the search criteria used to establish novelty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Compound naming and structure
+  - **Affected element** SKQ1
+  - **Evidence pointer** "10-(6'-plastoquinonyl) decyltriphenylphosphonium (SKQ1)"
+  - **Issue** SKQ1 is a well-known mitochondrial-targeted compound with established bioactivity. The abstract does not discuss why this compound was included in the screen or whether its known mitochondrial effects could confound the bacterial assays.
+  - **Required correction** Add a brief rationale for including SKQ1 and address potential off-target effects in the discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (mechanistic evidence), R1-M2 (functional relevance), R1-M3 (specificity). These are blocking because the core claims of mechanism, functional outcome, and utility as chemical tools cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: Potentially high, as the abstract claims first-in-class inhibitors for RuvA and RuvB. However, the novelty claim requires verification against prior literature.
+  - Scientific importance: Moderate to high. RuvAB is a relevant but not widely targeted antibacterial target; the work could provide new chemical probes. The translational relevance (UV sensitization) is interesting but preliminary.
+  - Interdisciplinary readership: Moderate. The work bridges DNA repair biochemistry, medicinal chemistry, and microbiology, but the narrow focus on one bacterial species and one pathway may limit broad appeal.
+  - Technical soundness: Not assessable from the abstract. The FRET assay is appropriate, but the mechanistic and phenotypic data are described without sufficient detail to judge rigor.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but the mechanistic distinctions (RuvB ATPase vs. RuvA-HJ DNA) may be opaque to readers outside the DNA repair field. A brief explanation of the RuvAB function would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially novel finding, but the mechanistic claims, functional data, and specificity are insufficiently supported. The manuscript may become publishable if the full text provides rigorous experimental evidence addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that corilagin directly binds to the ATPase domain of PaRuvB is unsupported without direct binding data.
+- The claim that BM and SKQ1 block RuvA-HJ DNA interactions is unsupported without direct protein-DNA interaction assays.
+- The claim that the compounds increase UV-C susceptibility is unsupported without quantitative survival data and genetic controls.
+- The claim of being the first report of small-molecule inhibitors of RuvA and RuvB from any species is unverifiable from the abstract and requires a comprehensive literature search.
+- The specificity of the compounds for PaRuvAB over other DNA repair or ATPase enzymes is not addressed and cannot be assumed.

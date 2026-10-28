@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the supplied text; no external data or supplementary files were available for verification
+- **Shared manuscript claim summary** The authors characterize the core promoter of the T. solium Tstbp1 gene, identify a functional initiator and a downstream promoter element (DPE) at +27 bp, demonstrate that TsTAF6 and TsTAF9 are expressed in cysticerci and interact with the DPE via EMSA and super-shift assays, and use molecular dynamics simulations to propose a structural model of the TsTAF6-TsTAF9-DPE interaction.
+- **Visible evidence base** Figures 1–9 (described in text), Table 1 (probe sequences), Western blot, EMSA, luciferase reporter assays, 5´-RACE, molecular dynamics simulations; GenBank accessions PP763292 and KY124274.1
+- **Missing materials affecting confidence** Supplementary figures (S1–S3) referenced but not provided; raw EMSA gel images, Western blot images, luciferase activity numerical data, and molecular dynamics trajectory details (e.g., force field parameters, convergence criteria, replicate runs) not available for independent assessment
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a poorly explored area, transcription regulation in cestodes, and provides a descriptive characterization of the Tstbp1 core promoter with evidence for a functional DPE and candidate TAF interactions. The experimental approach is logical and the combination of biochemical assays with computational modeling is commendable. However, several claims are not fully supported by the data as presented. The EMSA and super-shift results are described qualitatively without quantification or appropriate controls for specificity. The molecular dynamics simulations lack methodological detail and validation, and the claim of a direct TAF6-TAF9-DPE interaction is not established. The functional relevance of the DPE is supported by only a single reporter assay in a heterologous system (HEK-293 cells), which limits the strength of the conclusion. The manuscript would benefit from additional controls, quantitative data, and a more cautious interpretation of the computational results.
+- **Who would be interested in the results, and why** Researchers studying transcription mechanisms in parasitic flatworms, particularly cestodes, and those interested in the evolution of core promoter elements and TFIID function across eukaryotes. The work may also be of interest to the parasitology community focused on T. solium biology and potential therapeutic targets, though the translational relevance is not directly addressed.
+- **Major strengths** The study fills a clear gap in knowledge regarding core promoter elements in cestodes. The identification of a DPE at an unusual position (+27 bp) is novel and potentially significant. The combination of experimental (EMSA, super-shift, reporter assays, Western blot, immunofluorescence) and computational (homology modeling, molecular dynamics) approaches is comprehensive. The writing is generally clear and the discussion places the findings in a broader evolutionary context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "electrophoretic mobility shift assays and super-shift assays revealed interactions between the DPE probe and TsTAF6-TsTAF9"
+  - **Evidence pointer** Results section, Figure 7, Table 1
+  - **Concern** The EMSA results are described only qualitatively. No quantification of shifted bands is provided, and the specificity of the interaction is not rigorously established. The claim that TsTAF6 and TsTAF9 specifically bind the DPE requires demonstration that the interaction is dependent on the DPE sequence, e.g., by competition with unlabeled wild-type versus mutant probes, and by showing that unrelated proteins in the nuclear extract do not produce similar shifts. The super-shift with anti-TAF6 and anti-TAF9 antibodies is supportive but not conclusive, as antibody cross-reactivity or non-specific binding is not ruled out.
+  - **Why it matters** The central claim of the manuscript is that TsTAF6 and TsTAF9 interact with the DPE. Without rigorous EMSA controls and quantification, this claim is not established, and the subsequent molecular dynamics modeling rests on this unverified interaction.
+  - **Resolution test** Provide quantitative EMSA data (e.g., percent shift, binding curves) with competition assays using unlabeled wild-type and mutant DPE probes. Include a negative control protein (e.g., BSA or an unrelated nuclear protein) and demonstrate that the shifted bands are abolished or reduced by specific competitors. Show that the super-shift is specific to the TAF antibodies and not observed with control IgG.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we used molecular dynamics simulations to formulate an interaction model among TsTAF6, TsTAF9, and the DPE probe; we stabilized the model with interactions between the histone fold domain pair in TAFs and several pairs of nucleotides in the DPE probe"
+  - **Evidence pointer** Materials and methods (Molecular dynamics simulations), Results (TsTAF6 and TsTAF9 molecular modeling and molecular dynamics), Figure 9
+  - **Concern** The molecular dynamics simulation methodology is described with insufficient detail to assess its validity. Key parameters are missing: the force field version, water model details, temperature and pressure coupling methods, simulation length (stated as 1000 ns but with a 100 ns equilibration that is described as "position-constrained thermal equilibration for all heavy atoms" which is unusual), the number of replicates, and the criteria for assessing convergence. The initial placement of six DPE probe molecules at 60 Å from the complex is arbitrary and not justified. The claim that the complex "stabilized" is based on a single trajectory without statistical analysis. No binding free energy calculations or mutational validation are provided.
+  - **Why it matters** The computational model is presented as corroborating evidence for the interaction. If the simulation methodology is not robust, the model cannot be used to support the biological claim. The lack of convergence analysis and replicates makes the results potentially irreproducible.
+  - **Resolution test** Provide a detailed description of the simulation protocol, including software version, force field, water model, ensemble, temperature and pressure control, and the length of equilibration and production runs. Include at least three independent simulations to assess reproducibility. Show convergence of the system (e.g., RMSD, energy drift) and provide a quantitative analysis of the interaction energy between the TAF complex and the DPE probe. If possible, validate the model with site-directed mutagenesis of the predicted interacting residues followed by EMSA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** "we opted to test its functionality using a luciferase reporter assay... We observed a decrease in luciferase activity of about 30% between the DPE-less and WT constructions."
+  - **Evidence pointer** Results (DPE and Inr functionality), Figure 4
+  - **Concern** The functional assessment of the DPE relies on a single reporter assay in HEK-293 cells, a heterologous system. The 30% decrease in activity upon DPE mutation is modest and no statistical analysis is reported (e.g., number of independent experiments, error bars, p-values). The authors do not test whether the DPE effect is dependent on the Inr, despite mutating both elements in one construct. The use of a heterologous system raises questions about whether the observed effects reflect the native T. solium context.
+  - **Why it matters** The claim that the DPE is "important and functional for gene expression" is based on this assay. A modest effect in a heterologous system, without statistical validation, is insufficient to support this conclusion.
+  - **Resolution test** Provide quantitative data from at least three independent transfections with error bars and statistical tests. Include a construct with only the Inr mutated to separate the contributions of the two elements. If possible, perform the assay in a cestode-derived cell line or use an alternative approach such as in vitro transcription with T. solium nuclear extracts.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "By western blot we identify TBP and TsTBP1 with anti-human TBP and anti-TsTBP1 antibodies, respectively. Likewise, TAF9 and TAF6 in nuclear extracts from HEK-293 cells and its homologs in T. solium cysticerci with the anti-human TAF6 and TAF9 antibodies"
+  - **Evidence pointer** Results (Identification of TsTAF6 and TsTAF9), Figure 6A
+  - **Concern** The Western blot identification of TsTAF6 and TsTAF9 relies on commercial antibodies raised against human proteins. The authors state that homologous epitopes exist, but no sequence alignment or cross-reactivity validation is shown. The molecular weights of the detected bands are not reported, and it is unclear whether the bands correspond to the expected sizes of TsTAF6 (70.4 kDa) and TsTAF9 (26.0 kDa). The immunofluorescence data are described but not shown in the provided text.
+  - **Why it matters** The identification of the proteins is foundational to the EMSA and modeling experiments. If the antibodies do not specifically recognize the T. solium proteins, the conclusions about TAF expression and localization are unreliable.
+  - **Resolution test** Show the full Western blot images with molecular weight markers. Provide a sequence alignment of the epitope regions between human and T. solium TAF6 and TAF9. Include a negative control (e.g., pre-immune serum or peptide competition). If possible, confirm the identity of the bands by mass spectrometry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we found binding sites for transcription factors such as NF1, YY1, and AP-1 in the proximal promoter" but does not specify the method used (in silico prediction vs. experimental validation). This could mislead readers into thinking these sites were experimentally confirmed.
+  - **Required correction** Clarify in the abstract that these are predicted binding sites, or specify the method used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods (Molecular dynamics simulations)
+  - **Issue** The description of the simulation setup is incomplete. The number of DPE probe molecules (six) is stated, but the rationale for this number and the initial orientation relative to the TAF complex is not explained.
+  - **Required correction** Provide a clear description of the system setup, including the number of probes, their initial positions, and the justification for this configuration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results (Tstbp1 is a TATA-less promoter)
+  - **Evidence pointer** Figure 5
+  - **Issue** The EMSA showing no binding to the TATA-like elements is described, but the figure is not shown in the provided text. The authors should ensure the figure clearly shows the negative result with appropriate positive controls (e.g., a known TATA-binding protein).
+  - **Required correction** Include the figure and describe the positive control used to validate the EMSA conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Results (TsTAF6 and TsTAF9 molecular modeling and molecular dynamics)
+  - **Issue** The authors state that the positive electrostatic patch in the TAF complex is "absent in the human TAF6-TAF9 complex," but this comparison is not shown or quantified. This claim is speculative without a direct comparative analysis.
+  - **Required correction** Either provide a comparative electrostatic surface analysis of the human and T. solium complexes or soften the claim to reflect that it is a qualitative observation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains several typographical and grammatical errors (e.g., "luciferease" in the methods heading, "pb" instead of "bp" for intron lengths, inconsistent use of "Tstbp1" vs "TsTbp1").
+  - **Required correction** Thorough proofreading for typographical and grammatical errors, and consistent gene/protein nomenclature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (EMSA specificity and quantification), R1-M2 (molecular dynamics methodology and validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The study is the first to characterize a DPE in a cestode promoter, which is a novel contribution to the field. However, the conceptual framework (TAF6-TAF9-DPE interaction) is well established in model organisms, and the novelty lies primarily in the organism studied rather than in a new mechanistic insight.
+  - Scientific importance: Moderate. The findings are of interest to the parasitology and transcription fields, but the broader significance is limited by the descriptive nature of the study and the lack of functional validation in the native organism. The claim of a direct TAF6-TAF9-DPE interaction is not established, which diminishes the impact.
+  - Interdisciplinary readership: Limited. The manuscript is likely to appeal primarily to parasitologists and researchers studying transcription in non-model organisms. The methods and findings are unlikely to attract a broad interdisciplinary audience.
+  - Technical soundness: The experimental design is generally sound, but the lack of quantitative data, appropriate controls, and detailed computational methodology undermines the robustness of the conclusions. The molecular dynamics simulations, in particular, are not described with sufficient rigor.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear explanations of the significance of the work. However, some sections (e.g., the molecular dynamics description) assume specialized knowledge that may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant and understudied topic, and the experimental approach is reasonable. However, the central claims regarding the TAF6-TAF9-DPE interaction and the functional importance of the DPE require additional experimental evidence and more rigorous computational analysis. The authors should address the concerns raised above before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that TsTAF6 and TsTAF9 directly interact with the DPE is not established due to insufficient EMSA controls and lack of quantitative data.
+- The molecular dynamics model of the TsTAF6-TsTAF9-DPE complex is presented as corroborating evidence, but the methodology is insufficiently detailed and lacks validation (e.g., no binding free energy calculations, no mutagenesis).
+- The statement that the positive electrostatic patch in the TAF complex is "absent in the human TAF6-TAF9 complex" is unsupported by comparative data.
+- The functional importance of the DPE is based on a single reporter assay in a heterologous system with a modest effect size and no statistical analysis.
+- The identification of TsTAF6 and TsTAF9 by Western blot relies on cross-reactive antibodies without validation of specificity for the T. solium proteins.
+- The claim that the Tstbp1 promoter is TATA-less is based on EMSA showing no binding, but the positive control for the EMSA is not described, and the possibility of weak or conditional TATA-binding cannot be excluded.

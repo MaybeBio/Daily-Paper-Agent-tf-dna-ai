@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "36471379",
+    "doi": "10.1186/s12890-022-02184-8",
+    "title": "Integrative stemness characteristics associated with prognosis and the immune microenvironment in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: To comprehensively analyze the stemness characteristics related to prognosis and the immune microenvironment in lung adenocarcinoma (LUAD). METHODS: The OCLR machine learning method was used to calculate the stemness index (mRNAsi) of the LUAD samples. DEGs common between the low mRNAsi, normal, and high mRNAsi groups were screened and the immune-stemness genes were obtained. Then the PPI network was created and enrichment analyses were performed. Moreover, different subtypes based on immune-stemness genes associated with prognosis were identified, and the relationships between LUAD stemness and TIME variables were systematically analyzed, followed by TMB analysis. RESULTS: Patients in the high mRNAsi groups with poor prognosis were screened along with 144 immune-stemness genes. IL-6, FPR2, and RLN3 showed a higher degree in the PPI network. A total of 26 immune-stemness genes associated with prognosis were screened. Two clusters were obtained (cluster 1 and cluster 2). Survival analysis revealed that patients in cluster 2 had a poor prognosis. A total of 12 immune cell subpopulations exhibited significant differences between cluster 1 and cluster 2 (P < 0.05). A total of 10 immune checkpoint genes exhibited significantly higher expression in cluster 1 (P < 0.05) than in cluster 2. Further, the TMB value in cluster 2 was higher than that in cluster 1 (P < 0.05). CONCLUSION: Immune-stemness genes, including L-6, FPR2, and RLN3, might play significant roles in LUAD development via cytokine-cytokine receptor interaction, neuroactive ligand‒receptor interaction, and the JAK‒STAT pathway. Immune-stemness genes were related to tumor-infiltrating immune cells, TMB, and expression of immune checkpoint gene.",
+    "keywords": [
+      "Lung adenocarcinoma",
+      "Prognosis",
+      "Stemness",
+      "Tumor microenvironent",
+      "mRNAsi"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenocarcinoma of Lung/genetics/immunology",
+      "Gene Expression Regulation, Neoplastic",
+      "Janus Kinases/genetics",
+      "*Lung Neoplasms/genetics/immunology",
+      "Prognosis",
+      "Relaxin/genetics",
+      "Signal Transduction",
+      "STAT Transcription Factors/genetics",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Han",
+        "Wang, Ying",
+        "Luo, Wei",
+        "Zhang, Xugang",
+        "Cao, Ran",
+        "Yang, Zhi",
+        "Duan, Jin",
+        "Wang, Kun"
+      ],
+      "short_names": [
+        "Wang H",
+        "Wang Y",
+        "Luo W",
+        "Zhang X",
+        "Cao R",
+        "Yang Z",
+        "Duan J",
+        "Wang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, The First People's Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, 650031, Kunming, Yunnan, China.",
+        "Department of Thoracic Surgery, Yan'an Hospital of Kunming, 650000, Kunming, Yunnan, China.",
+        "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China.",
+        "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China.",
+        "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China.",
+        "The IVD Medical Marketing Department, 3D Medicines Inc, 201114, Shanghai, China.",
+        "Department of Thoracic Surgery, the First Affiliated Hospital of Kunming Medical University, 650031, Kunming, Yunman, China. djames310@163.com.",
+        "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China. WangKun2021km@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First People's Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, 650031, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Yan'an Hospital of Kunming, 650000, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Wei",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xugang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Ran",
+        "short_name": "Cao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhi",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The IVD Medical Marketing Department, 3D Medicines Inc, 201114, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Jin",
+        "short_name": "Duan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, the First Affiliated Hospital of Kunming Medical University, 650031, Kunming, Yunman, China. djames310@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Kun",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Affiliated Anning First People's Hospital, Kunming University of Science and Technology, Kunming Fourth People's Hospital, No. 2 Ganghe Road, Wanghu Neighborhood Committee, Jinfang Street, 650302, Anning, Yunnan, China. WangKun2021km@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pulmonary medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Pulm Med"
+    ],
+    "pub_date": "2022 Dec 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/06 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "41808840",
+      "40606662",
+      "39319211",
+      "38037058"
+    ],
+    "refs": [
+      "35765647",
+      "34930387",
+      "34646403",
+      "33413474",
+      "33316418",
+      "33231730",
+      "33125081",
+      "32311840",
+      "32310824",
+      "32289666",
+      "32121037",
+      "31972425",
+      "31930049",
+      "31441146",
+      "31334127",
+      "31288528",
+      "30780001",
+      "30753829",
+      "30705088",
+      "30546008",
+      "30221068",
+      "30207593",
+      "30132538",
+      "29625051",
+      "29371589",
+      "29364287",
+      "29344893",
+      "29039544",
+      "28600569",
+      "27924014",
+      "27419373",
+      "27260630",
+      "27101251",
+      "26867490",
+      "26212008",
+      "25605792",
+      "24939556",
+      "24552665",
+      "23830195",
+      "23404331",
+      "22237392",
+      "19194462",
+      "19131956",
+      "19033363",
+      "18548393",
+      "14597658",
+      "9843981"
+    ],
+    "similar": [
+      "36471379",
+      "35833114",
+      "34745015",
+      "38355636",
+      "37100923",
+      "32221746",
+      "34175739",
+      "32810627",
+      "32121037",
+      "34175738",
+      "34741449",
+      "33949150",
+      "32700817",
+      "34416861",
+      "33106209",
+      "32556504",
+      "35480140",
+      "31812070",
+      "37772547",
+      "34728029",
+      "34863300",
+      "34409040",
+      "32686362",
+      "33308118",
+      "36712866",
+      "32384511",
+      "33648465",
+      "35354488",
+      "33148251",
+      "34539658",
+      "34887858",
+      "34527427",
+      "39286147",
+      "35765647",
+      "34337026",
+      "33318300",
+      "36311724",
+      "32474519",
+      "34411647",
+      "32209727",
+      "32445554",
+      "32714316",
+      "34335635",
+      "35741714",
+      "33323549",
+      "35935823",
+      "33178836",
+      "32596334",
+      "32798715",
+      "34115610",
+      "34117948",
+      "33234739",
+      "32592319",
+      "33839701",
+      "33390814",
+      "31385424",
+      "37197548",
+      "34288805",
+      "34497605",
+      "34967077",
+      "34328274",
+      "33091876",
+      "32471520",
+      "32003059",
+      "34746975",
+      "32050983",
+      "33188484",
+      "34798483",
+      "33168407",
+      "35034089",
+      "33870858",
+      "32767928",
+      "35860256",
+      "34635074",
+      "33747944",
+      "34781123",
+      "35675043",
+      "35605971",
+      "33195699",
+      "34368114",
+      "32927274",
+      "32278127",
+      "33387038",
+      "32501723",
+      "34302518",
+      "33910272",
+      "34938774",
+      "35140113",
+      "32741804",
+      "33406903",
+      "35438415",
+      "34494914",
+      "34259140",
+      "35855850",
+      "33324975",
+      "34256754",
+      "35898471",
+      "37674202",
+      "39319211",
+      "38167018",
+      "36193299",
+      "37409118",
+      "38920027",
+      "35574683",
+      "36911684",
+      "36494785",
+      "36748358",
+      "38439848",
+      "38352751",
+      "39357734"
+    ],
+    "review": [
+      "36471379"
+    ],
+    "pmc": [
+      "9724367"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-022-02184-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36471379/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36471379",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

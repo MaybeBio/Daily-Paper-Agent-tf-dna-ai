@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40588827",
+  "title": "ERRalpha-Predictor: A Framework of Ensemble Models for Prediction of ERRalpha Binders, Antagonists, and Agonists Using Artificial Intelligence.",
+  "authors": "Xiong, Le; Xu, Jiahao; Yu, Hongbo; Li, Weihua; Li, Xinmin; Song, Wenxiang; Zhang, Jingwei; Tang, Yun; Liu, Guixia",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-07-01",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用AI预测ERRalpha小分子配体（结合剂/拮抗剂/激动剂），对象是蛋白-配体而非蛋白-DNA互作，方法虽为AI但与TF-DNA结合建模无关，仅边缘相关。",
+  "abstract": "Estrogen-related receptor alpha (ERRalpha) is considered a promising target for the treatment of cancer and metabolic diseases. The development of comprehensive predictive models for ERRalpha binders, antagonists, and agonists is of significant importance. In this study, we collected and curated publicly available ERRalpha ligands from various databases (PubChem, ChEMBL, ExCAPE-DB, BindingDB, and IUPHAR). Based on these data, we first constructed baseline models using different sampling methods and various machine learning and graph neural network approaches. Building upon these results, we then developed the final ERRalpha-Predictor models, which integrated one-dimensional Simplified Molecular Input Line Entry System (SMILES) sequences and graph-based topological information, to predict three datasets: binders, antagonists, and agonists. Overall, the ERRalpha-Predictor models achieved promising performance, with the Matthews correlation coefficient (MCC) on the test sets of the three datasets being 0.633, 0.560, and 0.545, respectively. Additionally, we applied the models to challenging external validation sets while considering the definition of the model applicability domains. In addition to the accuracy of the model prediction, we also conducted interpretative explorations using Shapley additive explanations (SHAP) and GNNExplainer, respectively. Furthermore, we studied the representative structural modifications and substructures of the three datasets using the matched molecular pair analysis (MMPA) method and substructure extraction techniques. Based on these findings, the data collated in this study, along with the constructed ensemble models and analytical techniques, provide an effective and reliable framework for the prediction and analysis of ERRalpha small-molecule ligands. All code for ERRalpha-Predictor is open source and available at https://github.com/lxiongZ/ERRalpha-Predictor.",
+  "abstract_zh": "雌激素相关受体α（ERRalpha）被认为是治疗癌症和代谢疾病的有前景靶点。开发针对ERRalpha结合剂、拮抗剂和激动剂的综合预测模型具有重要意义。在本研究中，我们从多个数据库（PubChem、ChEMBL、ExCAPE-DB、BindingDB和IUPHAR）收集并整理了公开可用的ERRalpha配体。基于这些数据，我们首先使用不同的采样方法以及多种机器学习和图神经网络方法构建了基线模型。在这些结果的基础上，我们随后开发了最终的ERRalpha-Predictor模型，该模型整合了一维简化分子输入线输入系统（SMILES）序列和基于图的拓扑信息，用于预测三个数据集：结合剂、拮抗剂和激动剂。总体而言，ERRalpha-Predictor模型取得了良好的性能，三个数据集测试集上的马修斯相关系数（MCC）分别为0.633、0.560和0.545。此外，我们将模型应用于具有挑战性的外部验证集，同时考虑了模型适用域的定义。除了模型预测的准确性外，我们还分别使用Shapley加性解释（SHAP）和GNNExplainer进行了可解释性探索。进一步地，我们使用匹配分子对分析（MMPA）方法和子结构提取技术研究了三个数据集的代表性结构修饰和子结构。基于这些发现，本研究中整理的数据、构建的集成模型和分析技术为ERRalpha小分子配体的预测和分析提供了有效且可靠的框架。ERRalpha-Predictor的所有代码均为开源，可在https://github.com/lxiongZ/ERRalpha-Predictor获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40588827/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40588827/",
+  "paper_page_path": "papers/pubmed/40588827/index.html"
+}

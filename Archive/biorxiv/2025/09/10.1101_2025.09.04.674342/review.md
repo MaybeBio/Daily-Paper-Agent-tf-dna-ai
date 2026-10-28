@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that tandem E-box motifs enable CLOCK:BMAL1 to bind internal nucleosomal sites, releasing DNA and presenting multiple BMAL1 transactivation domains (TADs) in proximity. They further show that the BMAL1 TAD engages multiple CBP/p300 domains (KIX, TAZ1, TAZ2) through distinct motifs, and that disrupting these interactions reduces CLOCK:BMAL1-driven transcription.
+- **Visible evidence base** SeEN-seq data (Fig. 1a,b), mass photometry (Fig. S1a,e), cryo-EM structures (Fig. 1d,e, Fig. S1-S3, Table 1), NMR chemical shift perturbation data (Fig. 2b-f, Fig. 3a-d, Fig. S4), ITC data (Fig. 4b,e), FP binding data (Fig. 5b,i, Fig. S5), cell-based reporter assays (Fig. 5c-h), western blotting (Fig. S6)
+- **Missing materials affecting confidence** Figure legends, supplementary figures, structural validation metrics (FSC curves, model statistics), NMR assignment completeness, raw data for ITC and FP fits, statistical details for reporter assays, and full methods for SeEN-seq analysis
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and mechanistically detailed model linking tandem E-box architecture to multivalent coactivator recruitment by CLOCK:BMAL1. The combination of structural, biophysical, and cell-based approaches is ambitious and largely well-executed. The cryo-EM structures of CLOCK:BMAL1 on nucleosomes with internal tandem E-boxes are potentially valuable, and the identification of distinct KIX subdomain engagement by the BMAL1 TAD helix and switch regions is a notable advance. However, several concerns temper enthusiasm: the resolution of the cryo-EM maps (4.1-4.2 Å) limits confidence in the PAS domain arrangements, the functional relevance of the proposed multivalent interactions is supported primarily by overexpression reporter assays rather than endogenous contexts, and the quantitative biophysical data for TAZ domain interactions are incomplete. The manuscript would be strengthened by additional validation of the structural models, more rigorous functional assays, and clearer presentation of the quantitative data.
+- **Who would be interested in the results, and why** Circadian biology researchers studying transcriptional regulation mechanisms; structural biologists interested in transcription factor-nucleosome interactions; biochemists studying multivalent protein-protein interactions in transcriptional coactivator recruitment; chronobiologists interested in the molecular basis of robust circadian oscillations.
+- **Major strengths** 1) The combination of cryo-EM, SeEN-seq, and biophysical methods provides a multi-pronged approach to a challenging problem. 2) The identification of distinct KIX subdomain usage by the BMAL1 TAD helix and switch regions is novel and mechanistically informative. 3) The demonstration that tandem E-boxes enable access to internal nucleosomal sites expands understanding of CLOCK:BMAL1 chromatin targeting. 4) The use of multiple orthogonal techniques (NMR, ITC, FP, cell-based assays) to support the central claims is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structures reveal that two CLOCK:BMAL1 heterodimers bind internal tandem E-boxes and collectively release approximately 10 bp of nucleosomal DNA, with PAS domain interactions between protomers.
+  - **Evidence pointer** Fig. 1d,e; Fig. S1-S3; Table 1
+  - **Concern** The cryo-EM structures are reported at overall resolutions of 4.1 Å and 4.2 Å, yet the PAS domain arrangements are described in detail, including direct interactions between protomers. At these resolutions, side-chain information is limited, and the authors note that PAS domain mapping was limited by low resolution (8-12 Å) in this region. The modelling of PAS domains appears to rely heavily on crosslinking mass spectrometry and density fitting, but the validation of these placements is not described in sufficient detail. The claim of "collectively release approximately 10 bp" requires quantitative comparison with the apo-nucleosome structure that is not clearly presented.
+  - **Why it matters** The structural model is central to the proposed mechanism of tandem E-box recognition and multivalent presentation. If the PAS domain arrangements are not reliably determined, the mechanistic conclusions about inter-protomer interactions and DNA release are weakened. The field requires high-confidence structural models to build upon.
+  - **Resolution test** Provide local resolution estimates for the PAS domain regions, FSC curves for the full complexes, model-to-map fit statistics (e.g., Q-scores, CCmask), and cross-validation of the PAS domain placements. Quantitatively compare DNA path and protein-DNA contacts between the tandem E-box structures and appropriate controls (e.g., apo-nucleosome, single E-box complex) to support the DNA release claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Deletion of TAZ1 and KIX together significantly reduces CLOCK:BMAL1-driven activation of a Per1-luciferase reporter, supporting the functional importance of multivalent interactions with CBP.
+  - **Evidence base** Fig. 5c-h
+  - **Concern** The functional data rely on overexpression of CBP deletion constructs in HEK293T cells with a transiently transfected Per1-luciferase reporter. This system does not recapitulate the chromatin context of endogenous circadian gene regulation, and the relevance to physiological CLOCK:BMAL1 function is unclear. The authors do not demonstrate that the observed effects are specific to CLOCK:BMAL1-driven transcription versus general effects on CBP activity or cell viability. Additionally, the magnitude of the effect (approximately 2-fold reduction) is modest, and the statistical analysis is not fully described.
+  - **Why it matters** The claim that multivalent interactions with CBP are functionally important for CLOCK:BMAL1 activity is a key translational aspect of the study. If the functional evidence is not robust or physiologically relevant, the significance of the structural and biophysical findings is diminished.
+  - **Resolution test** Perform experiments in a more physiologically relevant context, such as Bmal1-/- fibroblasts with rescue by CLOCK:BMAL1, or use endogenous gene targets. Include appropriate controls for CBP activity and cell viability. Provide full statistical details, including the number of independent experiments, and consider dose-response analyses with multiple CBP concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The BMAL1 TAD binds to CBP TAZ1 and TAZ2 domains with the TAD helix as the primary anchor, and the switch region contributes to binding.
+  - **Evidence base** Fig. 5b, Fig. 6a-h, Fig. S5
+  - **Concern** The FP binding data for TAZ1 and TAZ2 interactions are presented with apparent Kd values, but the stoichiometry of binding is not established. The Hill coefficient for TAZ1 binding is reported as approximately 1.6, suggesting potential cooperativity or multiple binding sites, yet this is not discussed or investigated. The TAZ2 interaction appears to be weak (approximately 20-fold lower affinity than TAZ1), and the physiological relevance of this weaker interaction is unclear. The NMR data for TAZ2 binding show only modest CSPs, and the interpretation of the binding mode is not fully supported.
+  - **Why it matters** The quantitative characterization of TAZ domain interactions is important for understanding the relative contributions of different CBP domains to CLOCK:BMAL1 recruitment. If the stoichiometry and binding modes are not well-defined, the model of multivalent engagement is incomplete.
+  - **Resolution test** Perform ITC or analytical ultracentrifugation to determine binding stoichiometry for TAZ1 and TAZ2. Investigate the Hill coefficient for TAZ1 binding with additional experiments, such as titration at different protein concentrations or competition assays. Provide a more detailed analysis of the TAZ2 binding mode, including mapping of the interaction interface.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The presence of tandem E-boxes enables CLOCK:BMAL1 to bind more internal nucleosomal sites, expanding the repertoire of target sites beyond those accessible to a single heterodimer.
+  - **Evidence base** Fig. 1a,b
+  - **Concern** The SeEN-seq data show enrichment at internal sites when a second E-box is present, but the quantitative comparison between single and double E-box libraries is not fully described. The authors state that "nearly identical enrichment" is observed on the left side, but the statistical significance of the differences on the right side is not reported. The claim that tandem E-boxes "notably expand" the ability to engage internal positions requires a more rigorous quantitative analysis, including consideration of potential artifacts from the tiling approach.
+  - **Why it matters** The expansion of target site accessibility is a novel claim that distinguishes this work from previous studies. If the SeEN-seq analysis is not robust, the novelty of this finding is weakened.
+  - **Resolution test** Provide a detailed description of the SeEN-seq analysis, including normalization, background subtraction, and statistical testing. Show replicate data and error estimates for the enrichment profiles. Consider validating the key findings with an independent method, such as electrophoretic mobility shift assays or single-molecule imaging.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses specialized terminology (e.g., "SeEN-seq", "multivalent interactions") without brief contextual explanation, which may limit accessibility for readers outside the circadian biology or structural biology fields.
+  - **Required correction** Add brief parenthetical explanations for key technical terms, or rephrase to make the abstract more self-contained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** NMR data analysis
+  - **Evidence pointer** Fig. 2b-f, Fig. 3a-d
+  - **Issue** The chemical shift perturbation data are presented as qualitative "extensive perturbation" without quantitative thresholds for significance. The criteria for defining binding sites from CSP data are not stated.
+  - **Required correction** Provide a clear definition of significant CSPs (e.g., combined chemical shift perturbation exceeding a threshold based on spectral noise) and indicate which residues meet this criterion in the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** ITC data
+  - **Evidence base** Fig. 4b,e
+  - **Issue** The ITC data for the 3mut KIX interaction with the TAD are described as "disrupted," but the quantitative parameters (Kd, enthalpy change) are not reported for the mutant.
+  - **Required correction** Report the ITC parameters for the mutant interaction, even if binding is weak or not detectable, to allow quantitative comparison with the wild-type interaction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of implications for circadian rhythm robustness is brief and does not fully connect the molecular findings to the broader physiological context of circadian gene expression.
+  - **Required correction** Expand the discussion to more explicitly address how the proposed multivalent mechanism might contribute to the robustness and amplitude of circadian oscillations, and how it relates to known regulatory mechanisms such as CRY-mediated repression.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Cell-based assays
+  - **Evidence base** Fig. 5c-h
+  - **Issue** The reporter assays use a Per1-luciferase construct with three E-boxes, but the contribution of the tandem E-box arrangement versus individual E-boxes to the observed CBP-dependent activation is not dissected.
+  - **Required correction** Consider testing reporter constructs with single E-boxes or mutated tandem arrangements to directly assess the role of tandem E-boxes in CBP recruitment and activation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM model validation), R1-M2 (functional relevance of multivalent interactions), R1-M3 (stoichiometry of TAZ domain binding)
+- **Assessment against Nature-style criteria** Originality: The work presents a novel mechanistic model linking tandem E-box architecture to multivalent coactivator recruitment, which is a conceptual advance over previous single-site models. However, the originality is somewhat tempered by the incremental nature of some findings (e.g., confirmation of known TAD-KIX interactions). Scientific importance: The findings have the potential to reshape understanding of how CLOCK:BMAL1 achieves robust transcriptional activation, which is of broad interest to circadian biology. However, the physiological relevance is not yet fully established. Interdisciplinary readership: The work bridges structural biology, biophysics, and circadian biology, and would appeal to researchers in all three fields. Technical soundness: The combination of methods is appropriate, but the cryo-EM resolution and incomplete quantitative analyses limit confidence in some conclusions. Readability for nonspecialists: The manuscript is generally well-written but uses specialized terminology that may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the cryo-EM model validation, functional relevance, and quantitative biophysical characterization need to be strengthened before the case is fully established.

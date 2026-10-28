@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "34289010",
+    "doi": "10.1093/bioinformatics/btab534",
+    "title": "CCIP: predicting CTCF-mediated chromatin loops with transitivity."
+  },
+  "content": {
+    "abstract": "MOTIVATION: CTCF-mediated chromatin loops underlie the formation of topological associating domains and serve as the structural basis for transcriptional regulation. However, the formation mechanism of these loops remains unclear, and the genome-wide mapping of these loops is costly and difficult. Motivated by the recent studies on the formation mechanism of CTCF-mediated loops, we studied the possibility of making use of transitivity-related information of interacting CTCF anchors to predict CTCF loops computationally. In this context, transitivity arises when two CTCF anchors interact with the same third anchor by the loop extrusion mechanism and bring themselves close to each other spatially to form an indirect loop. RESULTS: To determine whether transitivity is informative for predicting CTCF loops and to obtain an accurate and low-cost predicting method, we proposed a two-stage random-forest-based machine learning method, CTCF-mediated Chromatin Interaction Prediction (CCIP), to predict CTCF-mediated chromatin loops. Our two-stage learning approach makes it possible for us to train a prediction model by taking advantage of transitivity-related information as well as functional genome data and genomic data. Experimental studies showed that our method predicts CTCF-mediated loops more accurately than other methods and that transitivity, when used as a properly defined attribute, is informative for predicting CTCF loops. Furthermore, we found that transitivity explains the formation of tandem CTCF loops and facilitates enhancer-promoter interactions. Our work contributes to the understanding of the formation mechanism and function of CTCF-mediated chromatin loops. AVAILABILITY AND IMPLEMENTATION: The source code of CCIP can be accessed at: https://github.com/GaoLabXDU/CCIP. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin",
+      "CCCTC-Binding Factor/metabolism",
+      "*Chromosomes",
+      "Gene Expression Regulation",
+      "Genomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Weibing",
+        "Gao, Lin",
+        "Ye, Yusen",
+        "Gao, Yong"
+      ],
+      "short_names": [
+        "Wang W",
+        "Gao L",
+        "Ye Y",
+        "Gao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6396-0787"
+      ],
+      "affiliations": [
+        "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China.",
+        "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China.",
+        "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China.",
+        "Department of Computer Science, The University of British Columbia Okanagan, Kelowna, BC V1V 1V5, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Weibing",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Lin",
+        "short_name": "Gao L",
+        "identifiers": [
+          "0000-0001-6396-0787"
+        ],
+        "affiliations": [
+          "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yusen",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi 710071, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yong",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, The University of British Columbia Okanagan, Kelowna, BC V1V 1V5, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2021 Dec 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/22 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "42092759",
+      "41978381",
+      "41268476",
+      "39283464",
+      "38495565",
+      "37745003",
+      "37602215",
+      "37266407"
+    ],
+    "refs": [],
+    "similar": [
+      "34289010",
+      "29949986",
+      "35997565",
+      "37077544",
+      "30310060",
+      "33594051",
+      "33634313",
+      "33232622",
+      "30296942",
+      "31522987",
+      "29217591",
+      "31653198",
+      "29593713",
+      "34856126",
+      "37813869",
+      "32631111",
+      "26499245",
+      "35274099",
+      "33545664",
+      "33113374",
+      "30717603",
+      "27004515",
+      "31522988",
+      "33397967",
+      "32294452",
+      "32885250",
+      "37552993",
+      "37602215",
+      "35768498",
+      "34197738",
+      "31905366",
+      "35077535",
+      "29137603",
+      "34769020",
+      "28536180",
+      "34741515",
+      "33154377",
+      "29199022",
+      "38758956",
+      "36182691",
+      "22347474",
+      "28636938",
+      "35640981",
+      "30655336",
+      "37266407",
+      "34931241",
+      "34245617",
+      "33310227",
+      "30120652",
+      "38561336",
+      "30060743",
+      "28137913",
+      "32128389",
+      "37133976",
+      "36495179",
+      "27638884",
+      "37961446",
+      "30031214",
+      "31911579",
+      "29976663",
+      "32807777",
+      "20133600",
+      "12878173",
+      "31605131",
+      "27880914",
+      "32393311",
+      "35977522",
+      "23650640",
+      "31491387",
+      "34735550",
+      "29965776",
+      "29437965",
+      "37721643",
+      "31177910",
+      "35234910",
+      "32249388",
+      "28424523",
+      "27080371",
+      "23945083",
+      "32398790",
+      "30031212",
+      "34006570",
+      "35817979",
+      "38770419",
+      "37699658",
+      "32127418",
+      "31742318",
+      "32998764",
+      "31362752",
+      "35929807",
+      "35860407",
+      "33677108",
+      "38168841",
+      "38555493",
+      "38463168",
+      "32003791",
+      "34399797",
+      "37745336",
+      "39193566",
+      "33232443",
+      "38463966",
+      "37816141",
+      "21833217"
+    ],
+    "review": [
+      "34289010",
+      "32631111",
+      "33545664",
+      "33310227",
+      "30031214",
+      "23650640"
+    ],
+    "pmc": [
+      "8665748"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34289010.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34289010/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34289010",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btab534",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

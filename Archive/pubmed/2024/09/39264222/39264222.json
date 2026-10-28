@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "39264222",
+    "doi": "10.1002/prot.26747",
+    "title": "In Silico Screening, Molecular Dynamics Simulation and Binding Free Energy Identify Single-Point Mutations That Destabilize p53 and Reduce Binding to DNA."
+  },
+  "content": {
+    "abstract": "Considering p53's pivotal role as a tumor suppressor protein, proactive identification and characterization of potentially harmful p53 mutations are crucial before they appear in the population. To address this, four computational prediction tools-SIFT, Polyphen-2, PhD-SNP, and MutPred2-utilizing sequence-based and machine-learning algorithms, were employed to identify potentially deleterious p53 nsSNPs (nonsynonymous single nucleotide polymorphisms) that may impact p53 structure, dynamics, and binding with DNA. These computational methods identified three variants, namely, C141Y, C238S, and L265P, as detrimental to p53 stability. Furthermore, molecular dynamics (MD) simulations revealed that all three variants exhibited heightened structural flexibility compared to the native protein, especially the C141Y and L265P mutations. Consequently, due to the altered structure of mutant p53, the DNA-binding affinity of all three variants decreased by approximately 1.8 to 9.7 times compared to wild-type p53 binding with DNA (14 muM). Notably, the L265P mutation exhibited an approximately ten-fold greater reduction in binding affinity. Consequently, the presence of the L265P mutation in p53 could pose a substantial risk to humans. Given that p53 regulates abnormal tumor growth, this research carries significant implications for surveillance efforts and the development of anticancer therapies.",
+    "keywords": [
+      "MM/GBSA",
+      "Rosetta Flex ddg",
+      "binding affinity",
+      "molecular dynamic simulation",
+      "nonsynonymous single nucleotide polymorphism",
+      "p53"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Protein Binding",
+      "*DNA/chemistry/metabolism/genetics",
+      "*Polymorphism, Single Nucleotide",
+      "Thermodynamics",
+      "Protein Stability",
+      "Point Mutation",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Islam, Shahidul M",
+        "Hasan, Md Mehedi",
+        "Alam, Jahidul",
+        "Dey, Anonya",
+        "Molineaux, Dylan"
+      ],
+      "short_names": [
+        "Islam SM",
+        "Hasan MM",
+        "Alam J",
+        "Dey A",
+        "Molineaux D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Delaware State University, Dover, Delaware, USA.",
+        "Department of Chemistry, Delaware State University, Dover, Delaware, USA.",
+        "Department of Molecular Biology and Biotechnology, Queen's University Belfast, Belfast, UK.",
+        "Department of Genetic Engineering and Biotechnology, University of Chittagong, Chittagong, Bangladesh.",
+        "Department of Chemistry, Delaware State University, Dover, Delaware, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Islam, Shahidul M",
+        "short_name": "Islam SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Delaware State University, Dover, Delaware, USA."
+        ]
+      },
+      {
+        "full_name": "Hasan, Md Mehedi",
+        "short_name": "Hasan MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Delaware State University, Dover, Delaware, USA."
+        ]
+      },
+      {
+        "full_name": "Alam, Jahidul",
+        "short_name": "Alam J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biotechnology, Queen's University Belfast, Belfast, UK."
+        ]
+      },
+      {
+        "full_name": "Dey, Anonya",
+        "short_name": "Dey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Chittagong, Chittagong, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Molineaux, Dylan",
+        "short_name": "Molineaux D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Delaware State University, Dover, Delaware, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/12 13:44",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41716468",
+      "40536257"
+    ],
+    "refs": [
+      "35887312",
+      "35789183",
+      "35454137",
+      "35426374",
+      "33538338",
+      "33219223",
+      "32974183",
+      "30035249",
+      "29725898",
+      "29401388",
+      "28537240",
+      "28482034",
+      "27899622",
+      "27819658",
+      "26633127",
+      "26371147",
+      "25866491",
+      "25741868",
+      "24906307",
+      "24651012",
+      "24175627",
+      "23997956",
+      "23974096",
+      "23875061",
+      "23538418",
+      "23495923",
+      "23315928",
+      "23000897",
+      "22689647",
+      "22555018",
+      "22522925",
+      "22508727",
+      "22368531",
+      "21645855",
+      "21376230",
+      "20354512",
+      "20227041",
+      "20160511",
+      "19734154",
+      "19561590",
+      "18351591",
+      "17417627",
+      "16895930",
+      "16793544",
+      "16754663",
+      "15321712",
+      "14681372",
+      "14534297",
+      "12826609",
+      "12824425",
+      "11238924",
+      "11118296",
+      "10760284",
+      "10592235",
+      "9843948",
+      "8548102",
+      "8023157",
+      "1614522",
+      "1588974",
+      "1301998",
+      "218111"
+    ],
+    "similar": [
+      "39264222",
+      "34288098",
+      "40464633",
+      "23561625",
+      "31216622",
+      "33491267",
+      "38656135",
+      "40370698",
+      "11917017",
+      "40892789",
+      "41039863",
+      "39737749",
+      "28813011",
+      "21561095",
+      "40375073",
+      "34827731",
+      "30160791",
+      "22110706",
+      "27294143",
+      "32787631",
+      "27677826",
+      "30388364",
+      "32401507",
+      "21339981",
+      "40571049",
+      "38166600",
+      "30884445",
+      "38679255",
+      "27503952",
+      "36555140",
+      "41084424",
+      "26244575",
+      "40504558",
+      "24777812",
+      "34403252",
+      "24578721",
+      "19424414",
+      "26442703",
+      "37173831",
+      "28126403",
+      "39854591",
+      "37817532",
+      "25105660",
+      "35092861",
+      "40129965",
+      "31712642",
+      "22494262",
+      "25550083",
+      "24253321",
+      "28359874",
+      "22803791",
+      "39498560",
+      "41277739",
+      "28410371",
+      "26579714",
+      "39856236",
+      "35446184",
+      "42089576",
+      "30520908",
+      "40864864",
+      "7651437",
+      "33066695",
+      "18996393",
+      "40855915",
+      "41606807",
+      "40983009",
+      "39715225",
+      "41381739",
+      "24817641",
+      "40446511",
+      "26477317",
+      "37640005",
+      "30802828",
+      "29260852",
+      "41951832",
+      "35659507",
+      "28871352",
+      "21076775",
+      "36700982",
+      "26800850",
+      "38762014",
+      "20113312",
+      "41947758",
+      "24100332",
+      "17914225",
+      "24611490",
+      "30419285",
+      "14741214",
+      "39603375",
+      "28836764",
+      "26277488",
+      "24211465",
+      "27414033",
+      "36995110",
+      "34360815",
+      "24754906",
+      "21464285",
+      "41028104",
+      "41718682",
+      "37661778"
+    ],
+    "review": [
+      "39264222",
+      "25550083"
+    ],
+    "pmc": [
+      "11695177"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39264222/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26747",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41073893",
+    "doi": "10.1186/s12876-025-04326-8",
+    "title": "Identification and tissue-level validation of ferroptosis-related genes in small intestinal neuroendocrine neoplasms based on machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Small intestinal neuroendocrine neoplasms (SI-NENs), a subgroup of neuroendocrine tumors originating from neuroendocrine cells in the small intestine, present significant therapeutic challenges, and their relationship with ferroptosis-a regulated form of cell death driven by iron-dependent lipid peroxidation-remains poorly understood. This study aimed to identify the ferroptosis-related genes in SI-NENs and evaluate their clinical relevance. METHODS: The RNA sequencing data of SI-NENs patients were retrieved from two public datasets (GSE65286 and GSE98894). Machine learning (LASSO regression, a regularization method for selecting key features by reducing redundant genes, and random forest, an ensemble learning algorithm that builds multiple decision trees to improve prediction accuracy) was adopted to identify the core ferroptosis-related genes in SI-NENs. An external cohort consisting of 10 health volunteers and 14 SI-NENs patients was enrolled and intestinal mucosal biopsies were obtained for validation. RESULTS: CDCA3, CDC25A, CYP4F8, and MYB were identified as the core ferroptosis-related genes in SI-NENs patients via machine learning. In the external cohort, immunofluorescence (IF) staining confirmed a significantly decreased expression of CYP4F8 and CDCA3 in patients with SI-NENs compared with the health control. Moreover, in G2/3 patients, the expression levels of CYP4F8 and CDCA3 were significantly decreased compared with G1 patients. In contrast, no significant difference in the expression of the four core ferroptosis genes was found across the different tumor locations, the age stratifications, or the abdominal pain statuses. In addition, a statically negative correlation of the expression of CYP4F8 was further detected concerning the tumor diameter and the expression of Ki67. CONCLUSION: Four core ferroptosis-related genes (CDCA3, CDC25A, CYP4F8, and MYB) were identified in SI-NENs patients, which may aid in developing the diagnostic biomarkers and therapeutic targets in the clinic.",
+    "keywords": [
+      "Biomarkers",
+      "Ferroptosis-related genes",
+      "Machine learning",
+      "Small intestinal neuroendocrine neoplasms"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics",
+      "*Machine Learning",
+      "*Intestinal Neoplasms/genetics/pathology",
+      "*Neuroendocrine Tumors/genetics/pathology",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Intestine, Small/pathology",
+      "Cell Cycle Proteins/genetics",
+      "Aged",
+      "Proto-Oncogene Proteins c-myb/genetics",
+      "Adult",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Chuang",
+        "Liu, Zhiqiang",
+        "Tong, Chengcheng",
+        "Liu, Le",
+        "Dou, Ziyue",
+        "Chen, Xi"
+      ],
+      "short_names": [
+        "Lv C",
+        "Liu Z",
+        "Tong C",
+        "Liu L",
+        "Dou Z",
+        "Chen X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China.",
+        "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China. ayfychenxi@163.com.",
+        "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China. ayfychenxi@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Chuang",
+        "short_name": "Lv C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiqiang",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Chengcheng",
+        "short_name": "Tong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Le",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Ziyue",
+        "short_name": "Dou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, First Affiliated Hospital of Anhui Medical University, Hefei, China. ayfychenxi@163.com.",
+          "Key Laboratory of Digestive Diseases of Anhui Province, Hefei, China. ayfychenxi@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC gastroenterology"
+    ],
+    "journal_abbrev": [
+      "BMC Gastroenterol"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/11 00:31",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39822999",
+      "39757274",
+      "39614322",
+      "39605941",
+      "39488307",
+      "39278763",
+      "39097198",
+      "39061146",
+      "38835066",
+      "38593779",
+      "38453898",
+      "38329269",
+      "37735472",
+      "37099152",
+      "37091799",
+      "37064095",
+      "36899940",
+      "36792928",
+      "36733341",
+      "36604142",
+      "36575665",
+      "36229582",
+      "35921917",
+      "34743185",
+      "34647171",
+      "33637673",
+      "33514910",
+      "33495651",
+      "32957040",
+      "29144989",
+      "29066503",
+      "28487093",
+      "28448665",
+      "28237989",
+      "27353232",
+      "26703889",
+      "25430657",
+      "25014687",
+      "18316586",
+      "18177818",
+      "17934831",
+      "16926051",
+      "12738732",
+      "9596996"
+    ],
+    "similar": [
+      "41073893",
+      "28778195",
+      "40806365",
+      "34208964",
+      "25701539",
+      "30796689",
+      "26965582",
+      "38771340",
+      "28848144",
+      "32931025",
+      "27107594",
+      "30095460",
+      "31368038",
+      "41312366",
+      "28705205",
+      "32883742",
+      "40108260",
+      "41106221",
+      "40289395",
+      "24260544",
+      "37887568",
+      "29330208",
+      "40197384",
+      "24185511",
+      "30796708",
+      "35040099",
+      "32496505",
+      "30608901",
+      "32388776",
+      "25023465",
+      "41425595",
+      "27222126",
+      "39169865",
+      "41175375",
+      "29940892",
+      "39945192",
+      "38831012",
+      "38795318",
+      "40948782",
+      "28837143",
+      "32482035",
+      "39928294",
+      "41205031",
+      "26604321",
+      "29787601",
+      "38415861",
+      "31136102",
+      "32035641",
+      "28637502",
+      "40983050",
+      "29487354",
+      "34737276",
+      "25586243",
+      "25354328",
+      "20048018",
+      "40966021",
+      "39874041",
+      "30055596",
+      "30144031",
+      "29491050",
+      "40833160",
+      "21853033",
+      "28232598",
+      "31557757",
+      "23769440",
+      "28644861",
+      "35220231",
+      "40875721",
+      "40428318",
+      "40948187",
+      "39585672",
+      "40512124",
+      "37387515",
+      "32980845",
+      "25942502",
+      "31257576",
+      "40973872",
+      "41123817",
+      "34815475",
+      "40038821",
+      "40613144",
+      "35088292",
+      "39635757",
+      "32962649",
+      "40821828",
+      "40768514",
+      "34037532",
+      "34994613",
+      "35453922",
+      "37751245",
+      "41010056",
+      "40998421",
+      "39425842",
+      "38360836",
+      "39488307",
+      "35829662",
+      "39723205",
+      "40024114",
+      "25001493",
+      "31471333"
+    ],
+    "review": [
+      "41073893",
+      "38771340",
+      "31368038",
+      "32035641",
+      "29491050",
+      "40948187",
+      "39585672",
+      "35453922",
+      "39425842"
+    ],
+    "pmc": [
+      "12512264"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-025-04326-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41073893/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

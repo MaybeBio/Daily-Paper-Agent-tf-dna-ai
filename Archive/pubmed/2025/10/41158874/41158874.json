@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "41158874",
+    "doi": "10.3389/fmolb.2025.1595363",
+    "title": "Role of intercellular interactions on single cell and population level responses: considerations for multicellular bioreporter design."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Bioreporters are genetically engineered cells that produce detectable responses in the presence of specific analytes, providing a cheap, mass-producible, and accurate method of analyte detection. Most research focuses on the single cell-level, where all engineering is concentrated on the interactions within a single cell. However, intercellular communication is a well-known natural phenomenon that has been associated with sensitive responses to certain chemical stimuli, yet incorporation of intercellular communication into bioreporter design is exceedingly rare and the effect of intercellular signaling on single-cellular and population level responses has not been explicitly characterized before. METHODS: In this work, a multicellular simulator implementing the Gillespie algorithm and compatible with Virtual Cell-designed networks is created and used to demonstrate nuances to multicellular stochastic simulations. The algorithm was used to simulate multiple cells in a reaction network in which a self-promoting and membrane permeable transcription factor also induces production of a cell-bound reporter protein. A proof-of-concept bioreporter that responded to an environmental analyte while leveraging intercellular interactions for signal production was also designed and simulated for 50 s of simulation time. Simulated systems with multiple cells were compared to single-cellular simulations. RESULTS: Simulations for 20 s of simulated time show that while final reporter protein count per cell decreased as cell count increased, aggregate final reporter protein number across all cells significantly increased. Interestingly, 50 s simulations show final reporter protein count per cell significantly increasing as the number of cells increases. Greater number of bioreporter cells resulted in significantly greater amounts of signal protein produced in response to the same amount of starting analyte both on the population level and on the individual cellular level. DISCUSSION: The results show significant differences between the results of multicellular and single cellular simulations, which demonstrates the importance of simulating multiple cells to obtain nuanced results. The amplification of signal protein produced by an increasing number of simulated bioreporter cells indicates great potential for multicellular bioreporter designs to amplify response magnitude and sensitivity on the individual cellular level. These results warrant further research into the application of different simulation algorithms and multicellular bioreporter design and modeling.",
+    "keywords": [
+      "Gillespie algorithm",
+      "bioreporter",
+      "multicellular",
+      "stochastic simulation",
+      "unicellular",
+      "validation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Douglas",
+        "Martin, Michael"
+      ],
+      "short_names": [
+        "Lin D",
+        "Martin M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Math Science Technology Magnet, duPont Manual High School, Louisville, KY, United States.",
+        "Micro/Nano Technology Center, University of Louisville, Louisville, KY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Douglas",
+        "short_name": "Lin D",
+        "identifiers": [],
+        "affiliations": [
+          "Math Science Technology Magnet, duPont Manual High School, Louisville, KY, United States."
+        ]
+      },
+      {
+        "full_name": "Martin, Michael",
+        "short_name": "Martin M",
+        "identifiers": [],
+        "affiliations": [
+          "Micro/Nano Technology Center, University of Louisville, Louisville, KY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 12:04",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "41301211"
+    ],
+    "refs": [
+      "33708764",
+      "33237849",
+      "32868438",
+      "32586633",
+      "30958205",
+      "29413399",
+      "29367605",
+      "29168381",
+      "28365760",
+      "27630669",
+      "24359735",
+      "23324134",
+      "22825856",
+      "22482950",
+      "22139996",
+      "19514909",
+      "17867731",
+      "17032683",
+      "16383875",
+      "9284281"
+    ],
+    "similar": [
+      "41158874",
+      "23912807",
+      "17956147",
+      "15859581",
+      "36321557",
+      "22291559",
+      "24429898",
+      "38240881",
+      "21261832",
+      "36672895",
+      "28779895",
+      "37851522",
+      "28609744",
+      "37178337",
+      "29474446",
+      "18593593",
+      "7826008",
+      "30640340",
+      "32399227",
+      "29850698",
+      "35382532",
+      "28810221",
+      "19543702",
+      "32498220",
+      "37757563",
+      "22368493",
+      "26042329",
+      "31336395",
+      "15344926",
+      "25806029",
+      "37965791",
+      "21951420",
+      "34883180",
+      "33327213",
+      "23269319",
+      "16930979",
+      "29491862",
+      "39541410",
+      "30970168",
+      "34705553",
+      "37164300",
+      "29564429",
+      "29030804",
+      "24079358",
+      "30629247",
+      "33578036",
+      "32038525",
+      "25005019",
+      "22733254",
+      "18402045",
+      "35237579",
+      "30824775",
+      "22305444",
+      "34496857",
+      "12057679",
+      "23095709",
+      "37527731",
+      "16880117",
+      "29058744",
+      "34858955",
+      "37023084",
+      "39460031",
+      "37333150",
+      "17052122",
+      "21326938",
+      "19921916",
+      "34368100",
+      "21693049",
+      "19198829",
+      "18513050",
+      "22591687",
+      "38165130",
+      "11196579",
+      "31430858",
+      "38533956",
+      "31512857",
+      "9759360",
+      "16504125",
+      "22740050",
+      "34530865",
+      "21603915",
+      "31483224",
+      "12676702",
+      "32193709",
+      "28714698",
+      "37918203",
+      "34986805",
+      "32795030",
+      "11934747",
+      "26930199",
+      "20803141",
+      "20514043",
+      "27928578",
+      "23326558",
+      "41310253",
+      "29436995",
+      "22438725",
+      "24504461",
+      "19534796",
+      "33708764"
+    ],
+    "review": [
+      "41158874",
+      "36321557",
+      "7826008",
+      "19543702",
+      "22368493",
+      "26042329",
+      "15344926",
+      "30970168",
+      "12057679",
+      "34858955",
+      "22591687",
+      "11196579",
+      "20803141",
+      "20514043",
+      "27928578",
+      "29436995",
+      "22438725"
+    ],
+    "pmc": [
+      "12554554"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41158874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2025.1595363",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

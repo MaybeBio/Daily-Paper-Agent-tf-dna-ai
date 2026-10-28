@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report the design and synthesis of naphthalimide-imidazo[1,2-a]pyrazine conjugates targeting the c-Myc oncogene promoter G-quadruplex (G4). Compound 8eb is claimed to show potent cytotoxicity across a nine-cell-line panel, selective binding to c-Myc Pu27 over other DNA structures, a groove-binding interaction mode supported by docking, favorable pharmacokinetic properties, and effective human serum albumin (HSA) binding.
+- **Visible evidence base** Abstract text only; no experimental details, structural data, biophysical raw data, docking parameters, or pharmacokinetic metrics are provided
+- **Missing materials affecting confidence** Full manuscript, synthesis schemes, characterization data, cell line identities, dose-response curves, biophysical raw data (e.g., CD, ITC, FRET), docking validation, pharmacokinetic assay details, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting chemical biology approach to targeting the c-Myc G-quadruplex, a challenging and clinically relevant oncogene target. However, the evidence base available in the abstract is insufficient to substantiate the core claims of selectivity, mechanism, and therapeutic potential. Several quantitative statements lack necessary context, and the selectivity claim is not supported by the data as presented. The work may be of interest to the G4 and anticancer drug discovery communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in G-quadruplex biology, medicinal chemistry, and anticancer drug discovery would be interested. The targeting of c-Myc G4 with small molecules is an active area, and the proposed naphthalimide-imidazopyrazine scaffold could offer a new chemotype. The biophysical and docking data, if robust, would appeal to those studying ligand-G4 interaction modes.
+- **Major strengths** The target is biologically significant and underexploited. The compound library approach is systematic. The abstract reports a broad cytotoxicity panel and a multi-technique biophysical assessment, which is commendable in scope. The reported binding constant and docking energy are quantitative and potentially useful if reproducible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selectivity claim
+  - **Claim pointer** The abstract claims selective recognition of c-Myc Pu27 over ct-DNA, Pu22, and human telomere, with a binding constant of 1.3 x 10^7 M^-1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The binding constant is reported for 8eb with c-Myc Pu27, but no comparative binding constants for the other DNA structures are given. Without these values, the claim of selectivity cannot be evaluated. The term "selective" requires a quantitative comparison, not a single affinity value.
+  - **Why it matters** Selectivity is the central premise of the work. If the compound binds equally well to other G4s or duplex DNA, the therapeutic rationale is weakened. The abstract does not provide the data needed to assess this.
+  - **Resolution test** Provide binding constants for 8eb against ct-DNA, Pu22, and human telomere under identical conditions, with appropriate error margins and statistical comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cytotoxicity data interpretation
+  - **Claim pointer** Compound 8eb showed growth inhibition from -98.79% to 96.62% at 10^-5 M, and a 5-dose assay yielded an MG-MID GI50 of 2.61 µM.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The range of growth inhibition includes a negative value, which is not explained. Negative growth inhibition typically indicates cell proliferation or a cytostatic effect, but this is not clarified. The MG-MID GI50 is a summary statistic, but the abstract does not report the GI50 range across the nine cell lines, which is essential to assess potency consistency and any cell-type specificity.
+  - **Why it matters** The cytotoxicity data are the primary functional readout. Without clarity on the negative value and the per-cell-line GI50 values, the potency claim is ambiguous and potentially misleading.
+  - **Resolution test** Clarify the meaning of negative growth inhibition. Report GI50 values for each of the nine cell lines, not just the MG-MID average.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanism of interaction
+  - **Claim pointer** Molecular docking unveiled stacking of the compound with G4 DNA through groove binding, with a binding energy of -9.2 kcal/mol.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states both "stacking" and "groove binding," which are distinct interaction modes. This is internally inconsistent. Additionally, docking alone is a predictive tool, not experimental evidence. No experimental validation (e.g., NMR, mutagenesis, or biophysical competition assays) is mentioned to confirm the proposed binding mode.
+  - **Why it matters** The proposed interaction mechanism is a key novelty claim. An inconsistent or unvalidated mechanism undermines the scientific rigor of the study.
+  - **Resolution test** Reconcile the stacking and groove-binding descriptions. Provide experimental evidence (e.g., NMR, CD, or fluorescence competition) that supports the proposed binding mode.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Pharmacokinetic and HSA claims
+  - **Claim pointer** The pharmacokinetic study and HOMO-LUMO energy gap analysis underscored the potency of the active candidate. The compound's binding ability toward HSA was assessed, suggesting effective binding and potential for easy delivery.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No pharmacokinetic parameters are reported. HOMO-LUMO energy gaps are computational descriptors and do not directly underscore potency. HSA binding is reported as "effective," but no binding constant or comparison to known drugs is provided.
+  - **Why it matters** These claims are presented as supportive evidence but are not quantified. Without specific values, they are not assessable and may overstate the compound's drug-like potential.
+  - **Resolution test** Report specific pharmacokinetic parameters (e.g., metabolic stability, permeability, solubility) and the HSA binding constant with a comparator.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cytotoxicity range
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The range "-98.79% to 96.62%" is unusual and not self-explanatory.
+  - **Required correction** Define what negative and positive values represent (e.g., growth inhibition vs. proliferation) and specify the assay format.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Selective recognition"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "selective" is used without a defined threshold or comparative data.
+  - **Required correction** Define selectivity in quantitative terms (e.g., fold difference in binding constants) and provide the comparative data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cell line panel
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The nine-cell-line panel is not described. The identity of the cell lines is essential for assessing relevance to c-Myc-driven cancers.
+  - **Required correction** List the cell lines and their tissue origins.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Computational claim
+  - **Affected element** HOMO-LUMO analysis
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The relevance of HOMO-LUMO energy gaps to potency is not explained.
+  - **Required correction** Clarify the rationale for this analysis and how it supports the potency claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (selectivity not quantified), R1-M2 (cytotoxicity data ambiguous), R1-M3 (mechanism inconsistent and unvalidated), R1-M4 (pharmacokinetic and HSA claims unquantified)
+- **Assessment against Nature-style criteria** Originality: moderate, as G4-targeting compounds are known, but the specific scaffold may be novel. Scientific importance: high, given the c-Myc target, but the evidence does not yet establish a meaningful advance. Interdisciplinary readership: the work spans chemistry, biology, and drug discovery, which is appropriate. Technical soundness: not assessable from the abstract; the reported data are incomplete and internally inconsistent in places. Readability for nonspecialists: the abstract is understandable but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of selectivity, mechanism, and therapeutic potential require substantial additional data and clarification. A revised manuscript with full experimental details and quantitative comparisons could change this assessment.
+
+## Risk / unsupported claims
+- Selective recognition of c-Myc Pu27 over other DNA structures is unsupported without comparative binding data.
+- The proposed groove-binding and stacking interaction mode is unsupported and internally inconsistent.
+- The pharmacokinetic and HSA delivery claims are unquantified and not assessable.
+- The negative growth inhibition value is unexplained and may indicate a cytostatic rather than cytotoxic effect.
+- The MG-MID GI50 of 2.61 µM is presented without per-cell-line values, limiting its interpretability.

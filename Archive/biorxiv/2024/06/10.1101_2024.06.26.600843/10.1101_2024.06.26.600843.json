@@ -1,0 +1,540 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.26.600843",
+  "title": "MetaLATTE: Metal Binding Prediction via Multi-Task Learning on Protein Language Model Latents",
+  "doi": "10.1101/2024.06.26.600843",
+  "abstract": "The bioremediation of environments contaminated with heavy metals is an important challenge in environmental biotechnology, which may benefit from the identification of proteins that bind and neutralize these metals. Here, we introduce a novel predictive algorithm that conducts Metal binding prediction via LA nguage model la T en T E mbeddings using a multi-task learning approach to accurately classify the metal-binding properties of input protein sequences. Our MetaLATTE model utilizes the state-of-the-art ESM-2 protein language model (pLM) embeddings and a position-sensitive attention mechanism to predict the likelihood of binding to specific metals, such as zinc, lead, and mercury. Importantly, our approach addresses the challenges posed by proteins from understudied organisms, which are often absent in traditional metal-binding databases, without the requirement of an input structure. By providing a probability distribution over potential binding metals, our classifier elucidates specific interactions of proteins with diverse metal ions. We envision that MetaLATTE will serve as a powerful tool for rapidly screening and identifying new metal-binding proteins, from metagenomic discovery or de novo design efforts, which can later be employed in targeted bioremediation campaigns.",
+  "authors": [
+    "Yinuo Zhang",
+    "Phil He",
+    "Ashley Hsu",
+    "Pranam Chatterjee"
+  ],
+  "published_date": "2024-06-29",
+  "updated_date": "2024-06-29T21:30:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600843",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600843.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:37:48Z",
+        "timestamp": 1768513068891,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 45,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2024-12-29T00:00:00Z",
+            "timestamp": 1735430400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 183,
+          "URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The bioremediation of environments contaminated with heavy metals is an important challenge in environmental biotechnology, which may benefit from the identification of proteins that bind and neutralize these metals. Here, we introduce a novel predictive algorithm that conducts\n                  <jats:bold>Metal</jats:bold>\n                  binding prediction via\n                  <jats:bold>LA</jats:bold>\n                  nguage model la\n                  <jats:bold>T</jats:bold>\n                  en\n                  <jats:bold>T E</jats:bold>\n                  mbeddings using a multi-task learning approach to accurately classify the metal-binding properties of input protein sequences. Our\n                  <jats:bold>MetaLATTE</jats:bold>\n                  model utilizes the state-of-the-art ESM-2 protein language model (pLM) embeddings and a position-sensitive attention mechanism to predict the likelihood of binding to specific metals, such as zinc, lead, and mercury. Importantly, our approach addresses the challenges posed by proteins from understudied organisms, which are often absent in traditional metal-binding databases, without the requirement of an input structure. By providing a probability distribution over potential binding metals, our classifier elucidates specific interactions of proteins with diverse metal ions. We envision that MetaLATTE will serve as a powerful tool for rapidly screening and identifying new metal-binding proteins, from metagenomic discovery or\n                  <jats:italic>de novo</jats:italic>\n                  design efforts, which can later be employed in targeted bioremediation campaigns.\n                </jats:p>",
+      "DOI": "10.1101/2024.06.26.600843",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2024-06-29T21:30:12Z",
+        "timestamp": 1719696612000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "MetaLATTE: Metal Binding Prediction via Multi-Task Learning on Protein Language Model Latents"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yinuo",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Phil",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ashley",
+          "family": "Hsu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3957-8478",
+          "authenticated-orcid": false,
+          "given": "Pranam",
+          "family": "Chatterjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "8016",
+          "key": "2024070202100642000_2024.06.26.600843v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "493",
+          "DOI": "10.1038/s41586-024-07487-w",
+          "article-title": "Accurate structure prediction of biomolecular interactions with alphafold 3",
+          "volume": "630",
+          "year": "2024",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Akiba et al., 2019] Akiba, T. , Sano, S. , Yanase, T. , Ohta, T. , and Koyama, M. (2019). Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pages 2623–2631.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "issue": "D1",
+          "key": "2024070202100642000_2024.06.26.600843v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "D312",
+          "DOI": "10.1093/nar/gks1063",
+          "article-title": "Metalpdb: a database of metal sites in biological macromolecular structures",
+          "volume": "41",
+          "year": "2012",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac358"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.5",
+          "first-page": "3",
+          "article-title": "Learning local feature descriptors with triplets and shallow convolutional neural networks",
+          "volume": "1",
+          "year": "2016",
+          "journal-title": "In Bmvc"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "106240",
+          "DOI": "10.1016/j.ecolind.2020.106240",
+          "article-title": "Snail as sentinel organism for monitoring the environmental pollution; a review",
+          "volume": "113",
+          "year": "2020",
+          "journal-title": "Ecological indicators"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Bhat et al., 2023] Bhat, S. , Palepu, K. , Yudistyra, V. , Hong, L. , Kavirayuni, V. S. , Chen, T. , Zhao, L. , Wang, T. , Vincoff, S. , and Chatterjee, P. (2023). De novo generation and prioritization of target-binding peptide motifs from sequence alone.",
+          "DOI": "10.1101/2023.06.26.546591"
+        },
+        {
+          "issue": "3",
+          "key": "2024070202100642000_2024.06.26.600843v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1039/b904953c",
+          "article-title": "Independent metal-binding features of recombinant metallothioneins convergently draw a step gradation between zn-and cu-thioneins",
+          "volume": "1",
+          "year": "2009",
+          "journal-title": "Metallomics"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Brixi et al., 2023] Brixi, G. , Ye, T. , Hong, L. , Wang, T. , Monticello, C. , Lopez-Barbosa, N. , Vincoff, S. , Yudistyra, V. , Zhao, L. , Haarer, E. , Chen, T. , Pertsemlidis, S. , Palepu, K. , Bhat, S. , Christopher, J. , Li, X. , Liu, T. , Zhang, S. , Petersen, L. , DeLisa, M. P. , and Chatterjee, P. (2023). Saltamp;peppr is an interface-predicting language model for designing peptide-guided protein degraders. Communications Biology, 6(1).",
+          "DOI": "10.1038/s42003-023-05464-z"
+        },
+        {
+          "issue": "2",
+          "key": "2024070202100642000_2024.06.26.600843v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "424",
+          "DOI": "10.1093/molbev/msaa230",
+          "article-title": "Modularity in protein evolution: modular organization and de novo domain evolution in mollusk metallothioneins",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Molecular biology and evolution"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0041-008X(03)00148-0"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Chen and Guestrin, 2016] Chen, T. and Guestrin, C. (2016). Xgboost: A scalable tree boosting system. In Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining, pages 785–794.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.13",
+          "unstructured": "[Chen et al., 2023a] Chen, T. , Pertsemlidis, S. , Watson, R. , Kavirayuni, V. S. , Hsu, A. , Vure, P. , Pulugurta, R. , Vincoff, S. , Hong, L. , Wang, T. , Yudistyra, V. , Haarer, E. , Zhao, L. , and Chatterjee, P. (2023a). Pepmlm: Target sequence-conditioned generation of peptide binders via masked language modeling."
+        },
+        {
+          "issue": "1",
+          "key": "2024070202100642000_2024.06.26.600843v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1007/s00425-023-04170-8",
+          "article-title": "Deciphering the functional roles of transporter proteins in subcellular metal transportation of plants",
+          "volume": "258",
+          "year": "2023",
+          "journal-title": "Planta"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Cui et al., 2019] Cui, Y. , Jia, M. , Lin, T.-Y. , Song, Y. , and Belongie, S. (2019). Class-balanced loss based on effective number of samples. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 9268–9277.",
+          "DOI": "10.1109/CVPR.2019.00949"
+        },
+        {
+          "issue": "2",
+          "key": "2024070202100642000_2024.06.26.600843v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "2189",
+          "DOI": "10.3390/su7022189",
+          "article-title": "Bioremediation of heavy metals from soil and aquatic environment: an overview of principles and criteria of fundamental processes",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "10",
+          "key": "2024070202100642000_2024.06.26.600843v1.17",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.18",
+          "unstructured": "[Falcon and The PyTorch Lightning team, 2019] Falcon, W. and The PyTorch Lightning team (2019). Py-Torch Lightning."
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-010909-095056"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "102155",
+          "DOI": "10.1016/j.cbpa.2022.102155",
+          "article-title": "Highlighting the roles of transition metals and speciation in chemical biology",
+          "volume": "69",
+          "year": "2022",
+          "journal-title": "Current Opinion in Chemical Biology"
+        },
+        {
+          "issue": "14",
+          "key": "2024070202100642000_2024.06.26.600843v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "168117",
+          "DOI": "10.1016/j.jmb.2023.168117",
+          "article-title": "The metal-binding protein atlas (mbpa): An integrated database for curating metalloproteins in all aspects",
+          "volume": "435",
+          "year": "2023",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Liu et al., 2019] Liu, H. , Zhu, X. , Lei, Z. , and Li, S. Z. (2019). Adaptiveface: Adaptive margin and sampling for face recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).",
+          "DOI": "10.1109/CVPR.2019.01222"
+        },
+        {
+          "issue": "18",
+          "key": "2024070202100642000_2024.06.26.600843v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "4428",
+          "DOI": "10.1093/bioinformatics/btac534",
+          "article-title": "Mib2: metal ion-binding site prediction and modeling server",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2024070202100642000_2024.06.26.600843v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "775",
+          "DOI": "10.1002/bip.20296",
+          "article-title": "A new set of amino acid descriptors and its application in peptide qsars",
+          "volume": "80",
+          "year": "2005",
+          "journal-title": "Peptide Science: Original Research on Biomolecules"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.27",
+          "unstructured": "[Paszke et al., 2019] Paszke, A. , Gross, S. , Massa, F. , Lerer, A. , Bradbury, J. , Chanan, G. , Killeen, T. , Lin, Z. , Gimelshein, N. , Antiga, L. , et al. (2019). Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, s32."
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0888-7543(91)90071-L"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.29",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in Python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Peng et al., 2024] Peng, Z. , Schussheim, B. , and Chatterjee, P. (2024). Ptm-mamba: A ptm-aware protein language model with bidirectional gated mamba blocks.",
+          "DOI": "10.1101/2024.02.28.581983"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/encyclopedia1010024"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Schroff et al., 2015] Schroff, F. , Kalenichenko, D. , and Philbin, J. (2015). Facenet: A unified embedding for face recognition and clustering. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 815–823.",
+          "DOI": "10.1109/CVPR.2015.7298682"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Sechidis et al., 2011] Sechidis, K. , Tsoumakas, G. , and Vlahavas, I. (2011). On the stratification of multi-label data. In Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2011, Athens, Greece, September 5-9, 2011, Proceedings, Part III 22, pages 145–158. Springer.",
+          "DOI": "10.1007/978-3-642-23808-6_10"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad782"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "127063",
+          "DOI": "10.1016/j.neucom.2023.127063",
+          "article-title": "Roformer: Enhanced transformer with rotary position embedding",
+          "volume": "568",
+          "year": "2024",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Su et al., 2023] Su, J. , Han, C. , Zhou, Y. , Shan, J. , Zhou, X. , and Yuan, F. (2023). Saprot: Protein language modeling with structure-aware vocabulary.",
+          "DOI": "10.1101/2023.10.01.560349"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Tchounwou et al., 2012] Tchounwou, P. B. , Yedjou, C. G. , Patlolla, A. K. , and Sutton, D. J. (2012). Heavy metal toxicity and the environment. Molecular, clinical and environmental toxicology: volume 3: environmental toxicology, pages 133–164.",
+          "DOI": "10.1007/978-3-7643-8340-4_6"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac278"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.40",
+          "article-title": "Llama: Open and efficient foundation language models",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Tripathi and Poluri, 2021] Tripathi, S. and Poluri, K. M. (2021). Metallothionein-and phytochelatin-assisted mechanism of heavy metal detoxification in microalgae. Approaches to the Remediation of Inorganic Pollutants, pages 323–344.",
+          "DOI": "10.1007/978-981-15-6221-1_16"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[Vincoff et al., 2024] Vincoff, S. , Goel, S. , Kholina, K. , Pulugurta, R. , Vure, P. , and Chatterjee, P. (2024). Fuson-plm: A fusion oncoprotein-specific language model via focused probabilistic masking.",
+          "DOI": "10.1101/2024.06.03.597245"
+        },
+        {
+          "key": "2024070202100642000_2024.06.26.600843v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1381-1"
+        },
+        {
+          "issue": "1",
+          "key": "2024070202100642000_2024.06.26.600843v1.44",
+          "first-page": "752",
+          "article-title": "Threshold-adaptive unsupervised focal loss for domain adaptation of semantic segmentation",
+          "volume": "24",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+        },
+        {
+          "issue": "6",
+          "key": "2024070202100642000_2024.06.26.600843v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac444",
+          "DOI": "10.1093/bib/bbac444",
+          "article-title": "Alignment-free metal ion-binding site prediction from protein sequence through pretrained language model and multi-task learning",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.26.600843",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:37:56Z",
+        "timestamp": 1768459076000
+      },
+      "score": 125.46104,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.26.600843"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 45,
+      "URL": "https://doi.org/10.1101/2024.06.26.600843",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

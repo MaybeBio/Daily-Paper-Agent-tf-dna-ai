@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and clarity of claims as presented in the provided text. No independent verification of data or code was performed.
+- **Shared manuscript claim summary** The authors present PAIR, a probabilistic framework for imputing single-cell ATAC-seq data using a bipartite cell–peak graph with a variational latent layer and dual decoders (qualitative binary and quantitative Negative Binomial). They claim improved clustering, differential accessibility, and regulatory inference across simulations and public benchmarks, plus biological insights in melanoma and forebrain datasets.
+- **Visible evidence base** Simulation results (Figures 1, 2a–i; Figures S1, S2), benchmark clustering (Figure 3a–e; Figures S5–S7), batch correction (Figures 4, 5a–b), melanoma co-accessibility and survival (Figures 6, S8), forebrain regulatory analysis (Figure 7), and method details (Equations 1–38). Supplementary tables S1–S12 referenced but not provided.
+- **Missing materials affecting confidence** Code availability not stated; hyperparameter sensitivity analysis not shown; statistical significance of benchmark improvements not reported; details of baseline parameter tuning not provided; supplementary tables and figures not accessible for verification; no runtime or scalability benchmarks.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in single-cell epigenomics with a technically sound and well-motivated approach. The bipartite graph formulation and dual-decoder design are sensible, and the simulation framework is a strength. However, several claims regarding superiority over baselines and biological interpretability are not fully supported by the evidence presented, and key methodological details are missing. The work is promising but requires substantial revision to establish its case.
+- **Who would be interested in the results, and why** Computational biologists and method developers working on single-cell epigenomics, particularly those focused on imputation, representation learning, and regulatory network inference. Biologists studying chromatin accessibility in development or disease (e.g., melanoma, forebrain) may also find the downstream applications relevant.
+- **Major strengths**
+  1. The bipartite cell–peak graph formulation is a principled and novel departure from cell-only or peak-only approaches, preserving the native structure of scATAC-seq data.
+  2. The dual-decoder design (qualitative binary plus quantitative Negative Binomial) is well motivated and addresses both discrete and count-level aspects of accessibility.
+  3. The simulation framework with controlled sparsity, depth, and noise provides a rigorous testbed for method evaluation.
+  4. The inclusion of multiple real datasets and downstream analyses (clustering, batch correction, regulatory modules, survival) demonstrates broad applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "PAIR consistently improves clustering performance" and "PAIR achieved the highest clustering accuracy in 8 of 9 benchmarks"
+  - **Evidence pointer** Figure 3a–d; location not provided
+  - **Concern** The manuscript reports point estimates for clustering metrics (ARI, NMI, etc.) without any measure of variability or statistical significance. It is unclear whether the observed improvements over baselines are robust across random seeds, subsampling, or parameter choices. No confidence intervals, standard deviations, or significance tests are provided.
+  - **Why it matters** Without statistical assessment, the claim of consistent superiority cannot be distinguished from chance variation, particularly in datasets where differences appear small (e.g., ChenNBT_2019).
+  - **Resolution test** Provide repeated runs (e.g., 5–10 seeds) with mean and standard deviation for each metric, and perform paired significance tests (e.g., Wilcoxon signed-rank) across datasets or bootstrap resampling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "PAIR yields a markedly cleaner organization" and "uncovers biologically coherent enrichment patterns"
+  - **Evidence pointer** Figures 6, 7, S8; location not provided
+  - **Concern** The biological analyses (melanoma co-accessibility, forebrain regulatory programs) are presented qualitatively. No quantitative metrics (e.g., enrichment significance, overlap with known regulatory elements, comparison to random expectation) are provided. The survival analysis identifies six genes, but the statistical model, multiple-testing correction, and effect sizes are not described.
+  - **Why it matters** The claim that PAIR enables biologically meaningful regulatory inference requires quantitative validation. Without it, the observed patterns could arise from noise or arbitrary thresholding.
+  - **Resolution test** Report enrichment p-values with multiple-testing correction, compare co-accessibility to a null model (e.g., permuted peaks), and provide full survival analysis details (Cox model, hazard ratios, confidence intervals, adjusted p-values).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "PAIR explicitly accounts for cell-specific sequencing depth and peak-specific baseline effects" and "can be applied in settings with substantial batch-driven variation"
+  - **Evidence pointer** Methods, Equations 12–13; location not provided
+  - **Concern** The treatment of batch effects is mentioned but not demonstrated. No batch-perturbed simulation or real multi-batch dataset is analyzed to support this claim. The learned peak factor sj is described but its identifiability and interaction with batch are not discussed.
+  - **Why it matters** Batch effects are a major confounder in scATAC-seq. If PAIR is claimed to handle them, this must be explicitly tested; otherwise, the claim is unsupported.
+  - **Resolution test** Add a simulation with batch-specific shifts in accessibility or a real dataset with known batch structure, and evaluate whether PAIR's embeddings and imputation remain accurate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scalability
+  - **Claim pointer** "PAIR can be applied in settings with substantial batch-driven variation" and general applicability to large datasets
+  - **Evidence pointer** Methods, Hyperparameter Settings; location not provided
+  - **Concern** No runtime, memory usage, or scalability analysis is provided. The bipartite graph with millions of peaks and thousands of cells could be computationally prohibitive, but this is not addressed.
+  - **Why it matters** For a method to be adopted, its computational feasibility must be demonstrated, especially for large-scale atlases.
+  - **Resolution test** Report runtime and memory for datasets of increasing size, and compare with baselines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2c caption
+  - **Evidence pointer** Figure 2c; location not provided
+  - **Issue** The caption mentions "metircs" (typo for "metrics") and the text refers to "Figure 2d" for UMAP but the figure layout is unclear.
+  - **Required correction** Fix typo and clarify figure panel organization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data Availability Statement; location not provided
+  - **Issue** The statement says data are available in supplementary material, but no accession numbers or repository links are provided for the public datasets used.
+  - **Required correction** Provide accession numbers or URLs for all datasets, and state code availability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Negative sampling strategy
+  - **Evidence pointer** Equation 10; location not provided
+  - **Issue** The negative sampling distribution Di is not fully specified. The number of negative samples per positive and the sampling scheme (uniform vs. degree-based) are unclear.
+  - **Required correction** Specify the sampling distribution and the number of negatives used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Co-accessibility analysis
+  - **Evidence pointer** Figure 6b–c; location not provided
+  - **Issue** The "consistency" summary in Figure 6c is not defined. It is unclear what metric is being summarized.
+  - **Required correction** Define the consistency metric and how it is computed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary tables
+  - **Evidence pointer** Tables S1–S12; location not provided
+  - **Issue** These tables are referenced but not included in the provided text, making it impossible to assess the GO enrichment results.
+  - **Required correction** Ensure supplementary tables are available and referenced with clear descriptions.
+
+## Risk / unsupported claims
+- The claim of "consistent" improvement over baselines is unsupported without statistical significance testing.
+- The biological interpretability claims (melanoma co-accessibility, forebrain regulatory programs) are not quantitatively validated.
+- The claim of handling batch effects is not demonstrated with any experiment.
+- The survival analysis results are presented without statistical details, making them unverifiable.
+- The scalability and computational efficiency of PAIR are not assessed.
+- The imputation performance on real data is not directly evaluated (only clustering and downstream analyses), leaving the core imputation claim partially unverified.

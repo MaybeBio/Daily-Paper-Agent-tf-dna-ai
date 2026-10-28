@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "40816370",
+    "doi": "10.1016/j.jad.2025.120069",
+    "title": "Network pharmacology and molecular docking-based strategy to determine the potential mechanism for escitalopram-mediated long QT syndrome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The objective of this study was to identify the potential molecular mechanisms for escitalopram-mediated development of long QT syndrome (LQTS) using network pharmacology and molecular docking. METHOD: Targets related to LQTS were obtained from the GeneCards, DisGeNET, and OMIM databases, while targets related to escitalopram were retrieved from the PharmMapper, SwissTargetPrediction, SuperPred, GeneCards, DrugBank, and SEA databases. A Venn diagram containing drug-disease intersection targets was generated using the Bioinformatics online tool. A protein-protein interaction network was developed using the STRING database. Core targets were screened using Cytoscape, and Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses of escitalopram-LQTS intersection targets were performed using DAVID. A drug-disease-target pathway network was developed with Cytoscape. AutoDock Vina and PyMOL software were used for molecular docking analyses. RESULTS: Six potential targets of escitalopram-mediated LQTS, including TNF, IL-1beta, INS, SRC, STAT3, and GSK-3beta, were shown to bind well to escitalopram in molecular docking analyses. The KEGG enrichment analysis suggested that escitalopram caused adverse LQTS reactions by modulating prolactin and lipid levels, atherosclerosis, and the calcium signaling pathway. LIMITATIONS: Further in vitro or molecular biology experiments are needed to validate the mechanism identified in this study by which escitalopram induced LQTS. CONCLUSIONS: Based on bioinformatic analysis, escitalopram may affect the electrolyte balance, atherosclerosis, and ion channels implicated in LQTS, providing theoretical clues for follow-up studies.",
+    "keywords": [
+      "Escitalopram",
+      "Long QT syndrome",
+      "Molecular docking",
+      "Molecular mechanisms",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Long QT Syndrome/chemically induced/genetics",
+      "*Network Pharmacology",
+      "*Escitalopram/adverse effects/pharmacology",
+      "Protein Interaction Maps/drug effects",
+      "*Selective Serotonin Reuptake Inhibitors/adverse effects",
+      "STAT3 Transcription Factor/drug effects",
+      "Glycogen Synthase Kinase 3 beta",
+      "*Citalopram/adverse effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuo, Chuanjun",
+        "Zhang, Ying",
+        "Li, Chao",
+        "Yang, Lei",
+        "Zhang, Qiuyu",
+        "Li, Ranli",
+        "Tian, Hongjun",
+        "Mao, Fuqiang"
+      ],
+      "short_names": [
+        "Zhuo C",
+        "Zhang Y",
+        "Li C",
+        "Yang L",
+        "Zhang Q",
+        "Li R",
+        "Tian H",
+        "Mao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China. Electronic address: chuanjunzhuotjmh@163.com.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China. Electronic address: zhangyingtjmh@163.com.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuo, Chuanjun",
+        "short_name": "Zhuo C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China. Electronic address: chuanjunzhuotjmh@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China. Electronic address: zhangyingtjmh@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiuyu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ranli",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Mental Health Center, Tianjin 300222, China; Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hongjun",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PNGC-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Fuqiang",
+        "short_name": "Mao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of affective disorders"
+    ],
+    "journal_abbrev": [
+      "J Affect Disord"
+    ],
+    "pub_date": "2025 Dec 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/16 00:29",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "41633974"
+    ],
+    "refs": [],
+    "similar": [
+      "40816370",
+      "37287284",
+      "40596125",
+      "41439108",
+      "37807411",
+      "34873575",
+      "41203698",
+      "39701786",
+      "38759074",
+      "35430443",
+      "40760645",
+      "34159207",
+      "40543694",
+      "38822913",
+      "41303371",
+      "39343107",
+      "40312983",
+      "33634308",
+      "38619514",
+      "40721767",
+      "38086608",
+      "38696100",
+      "40725923",
+      "39205203",
+      "41367024",
+      "38822120",
+      "37190808",
+      "39251712",
+      "37469733",
+      "39259129",
+      "37986321",
+      "40725959",
+      "36401375",
+      "40898519",
+      "39346898",
+      "37832514",
+      "38964628",
+      "37499457",
+      "40355181",
+      "37382018",
+      "36472041",
+      "38801815",
+      "38806972",
+      "40522420",
+      "37773840",
+      "39331210",
+      "40585331",
+      "35837376",
+      "40013962",
+      "38321908",
+      "37653805",
+      "40922365",
+      "39061044",
+      "37843333",
+      "40350911",
+      "37799727",
+      "36472040",
+      "40452077",
+      "36735641",
+      "39125368",
+      "40388786",
+      "38050247",
+      "37556042",
+      "41261616",
+      "35851128",
+      "37818576",
+      "40728954",
+      "39928767",
+      "38640713",
+      "38518857",
+      "40605076",
+      "36123941",
+      "38840248",
+      "37900162",
+      "35873910",
+      "40819186",
+      "40202273",
+      "37474991",
+      "35616676",
+      "38910482",
+      "39410900",
+      "39565454",
+      "40574364",
+      "41261722",
+      "39552028",
+      "34047081",
+      "40009149",
+      "36619785",
+      "37713882",
+      "36471978",
+      "41430985",
+      "37069622",
+      "37478234",
+      "40898503",
+      "39259410",
+      "37833363",
+      "41492010",
+      "37718520",
+      "37879505",
+      "39923611"
+    ],
+    "review": [
+      "40816370",
+      "40355181",
+      "36735641"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0165-0327(25)01511-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0165-0327(25)01511-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

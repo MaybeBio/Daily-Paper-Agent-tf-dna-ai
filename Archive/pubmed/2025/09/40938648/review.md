@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (title, importance statement, introduction, materials and methods, results, discussion, supplemental material description, acknowledgments)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or supplementary files were available for inspection.
+- **Shared manuscript claim summary** The authors report the discovery of two novel small ArdA-like antirestriction proteins (114 and 88 amino acids) from *Lactococcus cremoris* and *Collinsella pilbarense*. They propose that these proteins represent a new family of "small ArdA" (sArdA) proteins, show antirestriction and antimethylation activity against Type I restriction-modification systems, and use AlphaFold predictions to propose mechanistic states of the EcoKI complex. They further suggest that short DNA-mimicking proteins can achieve target specificity.
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), Tables 1–2, and supplementary items (Tables S1, S3–S5; Fig. S1) are mentioned but not provided. Methods descriptions for cloning, antirestriction assays, antimethylation assays, phylogenetic analysis, and AlphaFold modeling are present in text.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent from the provided text. This includes the primary experimental data (EOP values, statistical outputs, sequence alignments, phylogenetic trees, structure models). Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially significant question: whether very small proteins can function as DNA mimics to inhibit Type I restriction-modification systems. The identification of two small ArdA homologs and the demonstration of their antirestriction activity are potentially valuable contributions. However, the current text relies heavily on computational predictions (AlphaFold) for mechanistic claims, and the experimental evidence is presented only through figure references without underlying data. The statistical analyses are mentioned but not shown. The phylogenetic and structural arguments are plausible but require the actual data to be assessed. The manuscript is readable and the logic is generally clear, but several claims go beyond what can be supported from the text alone.
+- **Who would be interested in the results, and why** Researchers studying bacterial defense systems, horizontal gene transfer, DNA-mimetic proteins, and protein-protein interactions. The finding that very short proteins can mimic DNA and inhibit restriction-modification systems could be of interest to those working on synthetic inhibitors of DNA-binding proteins and on the evolution of antirestriction mechanisms. The potential application of such small proteins as tools for regulating gene expression may attract a broader molecular biology audience.
+- **Major strengths** 1) The discovery of two exceptionally small ArdA proteins is novel and extends the known size range of this protein family. 2) The combination of phylogenetic, structural, and functional approaches is appropriate for the question. 3) The observation of differential specificity of sArdC and sArdN against different RM systems is interesting. 4) The use of AlphaFold to generate testable hypotheses is timely and appropriate. 5) The manuscript is generally well-written and logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that sArdN and sArdC "both exhibit almost 'full-sized' antirestriction activity, similar to that of ArdA_R64" based on lambda phage experiments.
+  - **Evidence pointer** Figure 5, Table S3 (location not provided)
+  - **Concern** The primary functional data (EOP values) are only referenced through Figure 5 and Table S3, neither of which is available in the provided text. The claim of "full-sized" activity requires quantitative comparison with the positive control (ArdA_R64) and appropriate statistical analysis. Without the actual data, this central claim cannot be evaluated.
+  - **Why it matters** The demonstration of antirestriction activity is the core experimental finding of the manuscript. If the activity is substantially lower than claimed, the significance of the work is diminished.
+  - **Resolution test** Provide the EOP values for all conditions (no ArdA, ArdA_R64, sArdC, sArdN) against both EcoKI and EcoR124II, with error bars and statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The authors propose that AlphaFold predictions reveal "four different states of the S1M2 complex" and that the C1 state represents an inhibited conformation, implying distinct mechanisms of RM inhibition.
+  - **Evidence pointer** Figure 4, Table S4 (location not provided)
+  - **Concern** The mechanistic model is based entirely on AlphaFold predictions, which are computational and not experimentally validated. The claim that the C1 state is "closed" and inhibitory is inferred from the observation that antirestriction activity occurs, but no direct structural or biophysical evidence is provided. The statement that "two different agents... showed the same conformational changes" is presented as remarkable, but this is a prediction, not an observation.
+  - **Why it matters** The mechanistic interpretation is a major part of the discussion and the proposed significance of the work. If the AlphaFold predictions are not validated, the mechanistic claims are speculative.
+  - **Resolution test** Provide experimental validation of the predicted complex states (e.g., cross-linking, mutagenesis coupled with functional assays, or structural data). At minimum, clearly label these as hypotheses and temper the language accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that "sArdC is more effective against EcoR124II, whereas sArdN is more effective against EcoKI" and that "sArdN might be more sensitive to point mutations."
+  - **Evidence pointer** Table S3, Table S5, Figure 6 (location not provided)
+  - **Concern** The statistical tests are mentioned (one-tailed paired t-test) but the results are not shown. The claim of differential specificity requires a formal test of interaction between ArdA type and RM system. The claim of differential sensitivity to mutations requires comparison of effect sizes between sArdC and sArdN mutants.
+  - **Why it matters** The specificity claims are interesting but need proper statistical support to be convincing.
+  - **Resolution test** Show the full statistical outputs, including test statistics, degrees of freedom, and p-values. For the specificity claim, perform a two-way ANOVA or equivalent interaction test.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary interpretation
+  - **Claim pointer** The authors state that "we demonstrated a convergent evolutionary path of genes sardN and sardC across at least two bacterial genera" and that "the small ardA genes likely arose multiple times during evolution."
+  - **Evidence pointer** Figure 3, Figure S1 (location not provided)
+  - **Concern** The phylogenetic analysis is described but the tree is not shown. The claim of convergence is based on clustering patterns, but without seeing the tree, the support for this claim is unclear. The statement that sArdN is "nearly identical to a large ArdA variant found in L. cremoris" suggests recent duplication, which is a different evolutionary scenario than convergence.
+  - **Why it matters** The evolutionary narrative is a significant part of the discussion. If the phylogenetic support is weak, the claims should be moderated.
+  - **Resolution test** Show the phylogenetic tree with bootstrap support values. Clarify the distinction between convergence and duplication/loss scenarios.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, antirestriction assay
+  - **Evidence pointer** Materials and Methods, "Antirestriction activity assays"
+  - **Issue** The equation for EOP is mentioned but the formula itself is not shown in the text (appears to be missing).
+  - **Required correction** Include the EOP formula explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Protein naming
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses "ArdA_1576" and "ArdA_8247" in the introduction and methods, but later refers to "sArdC" and "sArdN". The relationship between these names should be clarified early in the text.
+  - **Required correction** Define the naming convention (e.g., ArdA_1576 = sArdC, ArdA_8247 = sArdN) at first use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, site-directed mutagenesis
+  - **Evidence pointer** Materials and Methods, "Site-directed mutagenesis"
+  - **Issue** The text states that protein expression was confirmed by SDS-PAGE but the gel is "not presented." This is acceptable, but the statement should be phrased as a confirmation of expression, not as data.
+  - **Required correction** Rephrase to indicate that expression was verified but data not shown, or include the gel as a supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, antimethylation
+  - **Evidence pointer** Table 2 (location not provided)
+  - **Issue** The antimethylation data are described as showing "only about 15% of phage particles... are methylated" for sArdC, but the interpretation of this value is not discussed in context of what would be expected for full or partial inhibition.
+  - **Required correction** Provide context for the 15% value and discuss what level of antimethylation is considered significant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The phrase "deletions of different parts of the ardA gene lead to the formation of two active gene variants" implies a direct experimental demonstration, but the text describes a bioinformatic/phylogenetic inference, not a deletion experiment.
+  - **Required correction** Rephrase to indicate this is an inference from sequence analysis, not an experimental result.
+- **Technical failings that need to be addressed before the case is established** 1) The primary functional data (EOP values) are not shown. 2) The AlphaFold predictions are presented as evidence for mechanistic states without experimental validation. 3) The statistical analyses are referenced but not presented. 4) The phylogenetic tree is not shown. 5) The relationship between the naming conventions (ArdA_1576/8247 vs. sArdC/sArdN) is not clearly defined.
+- **Assessment against Nature-style criteria** **Originality:** The discovery of very small ArdA proteins is novel and extends the known size range of this family. The idea that short proteins can achieve DNA mimicry is interesting. **Scientific importance:** The work has potential importance for understanding antirestriction mechanisms and the evolution of DNA-mimetic proteins. However, the significance is currently limited by the lack of mechanistic validation. **Interdisciplinary readership:** The topic is primarily of interest to microbiologists and molecular biologists. The potential application to gene expression regulation could broaden the audience, but this is speculative. **Technical soundness:** The experimental design is generally appropriate, but the reliance on computational predictions without experimental validation weakens the technical case. The statistical support is not visible. **Readability for nonspecialists:** The manuscript is clearly written and the logic is understandable. However, the heavy reliance on figure references without data makes it difficult for a nonspecialist to follow the evidence.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding (two small ArdA proteins with antirestriction activity) is potentially valuable, but the manuscript as presented does not provide sufficient evidence to fully establish the claims. The authors must provide the actual data (EOP values, statistical outputs, phylogenetic tree, structure predictions) and either validate the AlphaFold predictions experimentally or clearly label them as hypotheses.
+
+## Risk / unsupported claims
+- The claim that sArdC and sArdN exhibit "full-sized" antirestriction activity is unsupported without the EOP data.
+- The claim that AlphaFold predictions reveal four distinct states of the EcoKI complex and that the C1 state represents an inhibited conformation is unsupported without experimental validation.
+- The claim of a "convergent evolutionary path" is unsupported without the phylogenetic tree.
+- The claim that sArdN forms a "less stable complex" with EcoKI is inferred from computational predictions and indirect mutagenesis data, not directly measured.
+- The statement that "deletions of different parts of the ardA gene lead to the formation of two active gene variants" is presented as a demonstrated fact but is an inference from sequence analysis.
+- The suggestion that these proteins could be "a promising tool for regulating a range of intracellular processes" is speculative and not supported by experimental evidence in this manuscript.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.24.619766",
+  "title": "CpGPT: a Foundation Model for DNA Methylation",
+  "authors": "Lucas Paulo de Lima Camillo; Raghav Sehgal; Jenel Armstrong; Max Melnikas; Henry E. Miller; Jun Ding; Luigi Ferruci; Jessica A. Lasky-Su; Albert T. Higgins-Chen; Steve Horvath; Bo Wang",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-29",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出DNA甲基化基础模型CpGPT，聚焦表观遗传修饰而非蛋白质-DNA互作，无结合建模或AI/物理模拟方法用于TF-DNA研究，仅边缘相关。",
+  "abstract": "DNA methylation is a type of epigenetic modification that plays a significant role in development, aging, and disease. Despite extensive research, how genome-wide DNA methylation patterns collectively encode and influence complex phenotypes such as aging and disease remains difficult to characterize with conventional approaches. Foundation models are a class of machine learning model that leverage vast quantities of data to make sense of complex data types, such as genome sequences or single-cell transcriptomes. Here, we present the Cytosine-phosphate-Guanine Pretrained Transformer (CpGPT), a novel foundation model pretrained on CpGCorpus, a novel database with more than 2,000 DNA methylation datasets encompassing over 150,000 samples from diverse conditions. CpGPT leverages an improved transformer architecture to learn comprehensive representations of methylation patterns, allowing it to impute and reconstruct genome-wide methylation profiles from limited input data. By capturing sequence, positional, and epigenetic contexts, CpGPT outperforms specialized models when finetuned for aging-related tasks, including the state-of-the-art GrimAge2 and PCGrimAge for mortality and morbidity estimation. The model is highly adaptable and can impute beta values across different methylation platforms, tissue types, mammalian species, and even single-cell data. As a foundation model, CpGPT can be leveraged as a new tool for biological discovery in the field of epigenetics. The open-source code and model can be found at http://github.com/lucascamillomd/CpGPT . Highlights CpGPT is a novel foundation model for DNA methylation analysis, pretrained on over 2,000 datasets encompassing 150,000+ samples. The model demonstrates strong performance in zero-shot tasks including imputation, array conversion, and reference mapping. CpGPT achieves state-of-the-art results in mortality prediction and chronological age estimation.",
+  "abstract_zh": "DNA甲基化是一种表观遗传修饰类型，在发育、衰老和疾病中发挥重要作用。尽管已有广泛研究，但全基因组DNA甲基化模式如何共同编码并影响衰老和疾病等复杂表型，仍难以用传统方法进行表征。基础模型是一类机器学习模型，利用海量数据来理解复杂数据类型，如基因组序列或单细胞转录组。在此，我们提出了胞嘧啶-磷酸-鸟嘌呤预训练变换器（CpGPT），这是一种新型基础模型，在CpGCorpus上预训练，该数据库包含超过2,000个DNA甲基化数据集，涵盖来自多种条件的150,000多个样本。CpGPT利用改进的变换器架构学习甲基化模式的全面表征，使其能够从有限的输入数据中填补和重建全基因组甲基化谱。通过捕获序列、位置和表观遗传上下文，CpGPT在针对衰老相关任务进行微调时优于专门模型，包括用于死亡率和发病率估计的最先进GrimAge2和PCGrimAge。该模型高度适应性强，能够跨不同甲基化平台、组织类型、哺乳动物物种，甚至单细胞数据填补β值。作为基础模型，CpGPT可作为表观遗传学领域生物发现的新工具。开源代码和模型可在http://github.com/lucascamillomd/CpGPT 获取。亮点：CpGPT是一种用于DNA甲基化分析的新型基础模型，在涵盖150,000多个样本的2,000多个数据集上预训练。该模型在零样本任务中表现出色，包括填补、阵列转换和参考映射。CpGPT在死亡率预测和实足年龄估计方面达到最先进结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619766",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619766",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.24.619766/index.html"
+}

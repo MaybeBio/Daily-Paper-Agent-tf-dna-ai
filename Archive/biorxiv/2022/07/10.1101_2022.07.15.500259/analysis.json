@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.15.500259",
+  "title": "Cell Type Specific DNA Signatures of Transcription Factor Binding",
+  "authors": "Aseel Awdeh; Marcel Turcotte; Theodore J. Perkins",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-18",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习方法SigTFB检测194个转录因子在不同细胞类型中的DNA结合特征差异，聚焦TF-DNA结合位点预测与细胞类型特异性，虽未涉及三维结构建模，但方法可迁移至TF-DNA互作机制研究。",
+  "abstract": "Transcription factors (TFs) bind to different parts of the genome in different types of cells. These differences may be due to alterations in the DNA-binding preferences of a TF itself, or mechanisms such as chromatin accessibility, steric hindrance, or competitive binding, that result in a DNA “signature” of differential binding. We propose a method called SigTFB (Signatures of TF Binding), based on deep learning, to detect and quantify cell type specificity in a TF’s DNA-binding signature. We conduct a wide scale investigation of 194 distinct TFs across various cell types. We demonstrate the existence of cell type specificity in approximately 30% of the TFs. We stratify our analysis by different antibodies for the same TF, to rule out the possibility of certain technical artifacts, yet we find that cell type specificity estimates are largely consistent when the same TF is assayed with different antibodies. To further explain the biology behind a TF’s cell type specificity, or lack thereof, we conduct a wide scale motif enrichment analysis of all TFs in question. We show that the presence of alternate motifs correlates with a higher degree of cell type specificity in TFs, such as ATF7, while finding consistent motifs throughout is usually associated with the absence of cell type specificity in a TF, such as CTCF. In particular, we observe that several important TFs show distinct DNA binding signatures in different cancer cell types, which may point to important differences in modes of action. Moreover, we find that motif enrichment sometimes correlates with gene expression in TFs with higher cell type specificity. Our comprehensive investigation provides a basis for further study of the mechanisms behind differences in TF-DNA binding in different cell types.",
+  "abstract_zh": "转录因子（TFs）在不同类型的细胞中与基因组的不同部分结合。这些差异可能源于TF自身DNA结合偏好的改变，或诸如染色质可及性、空间位阻或竞争性结合等机制，导致差异结合的DNA“签名”。我们提出了一种名为SigTFB（TF结合签名）的方法，基于深度学习，用于检测和量化TF DNA结合签名中的细胞类型特异性。我们对194种不同的TF在多种细胞类型中进行了广泛研究，证明了约30%的TF存在细胞类型特异性。我们针对同一TF使用不同抗体进行分层分析，以排除某些技术伪影的可能性，但发现当同一TF用不同抗体检测时，细胞类型特异性估计大体一致。为了进一步解释TF细胞类型特异性或其缺失背后的生物学机制，我们对所有相关TF进行了广泛的基序富集分析。我们表明，替代基序的存在与TF（如ATF7）中较高程度的细胞类型特异性相关，而整个过程中一致的基序通常与TF（如CTCF）中细胞类型特异性的缺失相关。特别地，我们观察到几种重要TF在不同癌细胞类型中显示出不同的DNA结合签名，这可能指向作用模式的重要差异。此外，我们发现基序富集有时与具有较高细胞类型特异性的TF中的基因表达相关。我们的综合研究为进一步探索不同细胞类型中TF-DNA结合差异背后的机制提供了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.15.500259",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.15.500259",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.15.500259/index.html"
+}

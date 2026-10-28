@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "40683334",
+    "doi": "10.1016/j.labinv.2025.104213",
+    "title": "Integrating Tumor Intraepithelial CD8(+) and Stromal FOXP3(+) T-Cell Densities as an Enhanced Immune Prognostic Index in Colorectal Cancer."
+  },
+  "content": {
+    "abstract": "High immune cell infiltration is generally associated with better survival in colorectal cancer (CRC). Recently, a prognostic score called CD8(IE)-FOXP3(IS), which integrates the densities of tumor intraepithelial CD8(+) and intrastromal FOXP3(+) cells, was introduced using multiplex immunofluorescence. In this study, we developed a triple chromogenic immunohistochemistry assay to evaluate the CD8(IE)-FOXP3(IS) score and assessed its prognostic value in comparison with the CD3-CD8 T-cell density score (based on the principles of the Immunoscore) and conventional prognostic parameters. Multiplex immunohistochemistry combined with machine learning-assisted image analysis was used to quantify CD8(IE) and FOXP3(IS) densities in 2 independent cohorts comprising 1724 CRC patients. Multivariable Cox regression models were used to evaluate the prognostic value of the CD8(IE)-FOXP3(IS) score. We found that a low CD8(IE)-FOXP3(IS) score was associated with higher disease stage, more frequent lymphovascular invasion, and mismatch repair proficient status. In addition, a low CD8(IE)-FOXP3(IS) score was associated with higher CRC-specific mortality independent of the CD3-CD8 T-cell density score and other tumor and patient characteristics (cohort 1: hazard ratio [HR] for low vs high CD8(IE)-FOXP3(IS) score, 3.08; 95% CI, 1.54-6.15; P(trend) = 6.0E-4; cohort 2: HR, 4.30; 95% CI, 2.58-7.17; P(trend) = 3.2E-9). These findings indicate that triple chromogenic immunohistochemistry combined with digital pathology is an applicable method for quantifying tumor intraepithelial CD8(+) and stromal FOXP3(+) cell densities, allowing for the determination of the CD8(IE)-FOXP3(IS) score. The CD8(IE)-FOXP3(IS) score shows a strong prognostic value, which appears superior to overall CD3(+) and CD8(+) T-cell density measurement.",
+    "keywords": [
+      "CD8",
+      "CD8(IE)-FOXP3(IS)",
+      "FOXP3",
+      "colorectal cancer",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Forkhead Transcription Factors/metabolism",
+      "*CD8-Positive T-Lymphocytes/immunology/metabolism",
+      "*Colorectal Neoplasms/immunology/mortality/pathology/diagnosis",
+      "Male",
+      "Female",
+      "Prognosis",
+      "Middle Aged",
+      "Aged",
+      "*Lymphocytes, Tumor-Infiltrating/immunology",
+      "Immunohistochemistry/methods",
+      "Aged, 80 and over"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tuomisto, Anne",
+        "Sirnio, Paivi",
+        "Elomaa, Hanna",
+        "Karjalainen, Henna",
+        "Aijala, Ville K",
+        "Kastinen, Meeri",
+        "Tapiainen, Vilja V",
+        "Ahtiainen, Maarit",
+        "Helminen, Olli",
+        "Wirta, Erkki-Ville",
+        "Rintala, Jukka",
+        "Merilainen, Sanna",
+        "Saarnio, Juha",
+        "Rautio, Tero",
+        "Seppala, Toni T",
+        "Bohm, Jan",
+        "Mecklin, Jukka-Pekka",
+        "Makinen, Markus J",
+        "Vayrynen, Juha P"
+      ],
+      "short_names": [
+        "Tuomisto A",
+        "Sirnio P",
+        "Elomaa H",
+        "Karjalainen H",
+        "Aijala VK",
+        "Kastinen M",
+        "Tapiainen VV",
+        "Ahtiainen M",
+        "Helminen O",
+        "Wirta EV",
+        "Rintala J",
+        "Merilainen S",
+        "Saarnio J",
+        "Rautio T",
+        "Seppala TT",
+        "Bohm J",
+        "Mecklin JP",
+        "Makinen MJ",
+        "Vayrynen JP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Research Program in Systems Oncology, University of Helsinki, Helsinki, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Central Finland Biobank, Hospital Nova of Central Finland, Well Being Services County of Central Finland, Jyvaskyla, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Department of Gastroenterology and Alimentary Tract Surgery, Tampere University Hospital, Tampere, Finland; Faculty of Medicine and Health Technology, Tampere University and Tays Cancer Centre, Tampere University Hospital, Tampere, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Faculty of Medicine and Health Technology, Tampere University and Tays Cancer Centre, Tampere University Hospital, Tampere, Finland; Department of Gastrointestinal Surgery, Helsinki University Central Hospital, University of Helsinki, Helsinki, Finland; Applied Tumor Genomics, Research Program Unit, University of Helsinki, Helsinki, Finland.",
+        "Department of Pathology, Hospital Nova of Central Finland, Well Being Services County of Central Finland, Jyvaskyla, Finland.",
+        "Department of Education and Research, Well Being Services County of Central Finland, Jyvaskyla, Finland; Faculty of Sport and Health Sciences, University of Jyvaskyla, Jyvaskyla, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland.",
+        "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland. Electronic address: juha.vayrynen@oulu.fi."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tuomisto, Anne",
+        "short_name": "Tuomisto A",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Sirniö, Päivi",
+        "short_name": "Sirniö P",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Elomaa, Hanna",
+        "short_name": "Elomaa H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Program in Systems Oncology, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Karjalainen, Henna",
+        "short_name": "Karjalainen H",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Äijälä, Ville K",
+        "short_name": "Äijälä VK",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Kastinen, Meeri",
+        "short_name": "Kastinen M",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Tapiainen, Vilja V",
+        "short_name": "Tapiainen VV",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Ahtiainen, Maarit",
+        "short_name": "Ahtiainen M",
+        "identifiers": [],
+        "affiliations": [
+          "Central Finland Biobank, Hospital Nova of Central Finland, Well Being Services County of Central Finland, Jyvaskyla, Finland."
+        ]
+      },
+      {
+        "full_name": "Helminen, Olli",
+        "short_name": "Helminen O",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Wirta, Erkki-Ville",
+        "short_name": "Wirta EV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Alimentary Tract Surgery, Tampere University Hospital, Tampere, Finland; Faculty of Medicine and Health Technology, Tampere University and Tays Cancer Centre, Tampere University Hospital, Tampere, Finland."
+        ]
+      },
+      {
+        "full_name": "Rintala, Jukka",
+        "short_name": "Rintala J",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Meriläinen, Sanna",
+        "short_name": "Meriläinen S",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Saarnio, Juha",
+        "short_name": "Saarnio J",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Rautio, Tero",
+        "short_name": "Rautio T",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Seppälä, Toni T",
+        "short_name": "Seppälä TT",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Health Technology, Tampere University and Tays Cancer Centre, Tampere University Hospital, Tampere, Finland; Department of Gastrointestinal Surgery, Helsinki University Central Hospital, University of Helsinki, Helsinki, Finland; Applied Tumor Genomics, Research Program Unit, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Böhm, Jan",
+        "short_name": "Böhm J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hospital Nova of Central Finland, Well Being Services County of Central Finland, Jyvaskyla, Finland."
+        ]
+      },
+      {
+        "full_name": "Mecklin, Jukka-Pekka",
+        "short_name": "Mecklin JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Education and Research, Well Being Services County of Central Finland, Jyvaskyla, Finland; Faculty of Sport and Health Sciences, University of Jyväskylä, Jyvaskyla, Finland."
+        ]
+      },
+      {
+        "full_name": "Mäkinen, Markus J",
+        "short_name": "Mäkinen MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland."
+        ]
+      },
+      {
+        "full_name": "Väyrynen, Juha P",
+        "short_name": "Väyrynen JP",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Unit, Medical Research Center Oulu, Oulu University Hospital, and University of Oulu, Oulu, Finland. Electronic address: juha.vayrynen@oulu.fi."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Laboratory investigation; a journal of technical methods and pathology"
+    ],
+    "journal_abbrev": [
+      "Lab Invest"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/20 04:03",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42312939"
+    ],
+    "refs": [],
+    "similar": [
+      "40683334",
+      "31488881",
+      "38301689",
+      "35140715",
+      "28116480",
+      "27835889",
+      "26439988",
+      "19064967",
+      "26339391",
+      "24675384",
+      "29878369",
+      "32622323",
+      "27148825",
+      "25875774",
+      "24103145",
+      "30804005",
+      "33436863",
+      "40293274",
+      "23010736",
+      "20385003",
+      "19856313",
+      "27449756",
+      "22879926",
+      "41250764",
+      "31773516",
+      "40519933",
+      "32948653",
+      "32652320",
+      "24331841",
+      "33790150",
+      "24566864",
+      "18791714",
+      "36424650",
+      "37500158",
+      "28677162",
+      "18985040",
+      "25193543",
+      "39083705",
+      "26341640",
+      "28152503",
+      "19908042",
+      "19577568",
+      "41454575",
+      "32303794",
+      "31118034",
+      "26541534",
+      "37970475",
+      "28233108",
+      "29499656",
+      "31388185",
+      "34479131",
+      "32112202",
+      "26055646",
+      "30894409",
+      "38375478",
+      "30370522",
+      "41222477",
+      "19411095",
+      "38407700",
+      "40640712",
+      "32099066",
+      "35805132",
+      "25778305",
+      "40947372",
+      "40793817",
+      "19022917",
+      "28922789",
+      "39440906",
+      "35404299",
+      "22495453",
+      "22142823",
+      "30846441",
+      "34006632",
+      "30401949",
+      "40481870",
+      "20927778",
+      "20221835",
+      "38926643",
+      "31631566",
+      "30312431",
+      "26564244",
+      "32324860",
+      "39419351",
+      "40938921",
+      "15257543",
+      "16344461",
+      "27038842",
+      "32610210",
+      "29906313",
+      "23207161",
+      "35915403",
+      "32761342",
+      "39266876",
+      "22034888",
+      "40371912",
+      "39822248",
+      "34362334",
+      "35449453",
+      "31882709",
+      "34839351"
+    ],
+    "review": [
+      "40683334",
+      "28152503",
+      "31118034",
+      "32099066"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0023-6837(25)00123-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

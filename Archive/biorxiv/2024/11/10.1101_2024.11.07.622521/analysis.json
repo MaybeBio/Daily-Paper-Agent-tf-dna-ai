@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.07.622521",
+  "title": "Decoding protein dynamicity in DNA ligase activity through deep learning-based structural ensembles",
+  "authors": "Nitesh Mishra; Sean Callaghan; Bryan Briney",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-07",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold3生成DNA连接酶（Taq和人类LIG1）的构象集合，研究其与DNA结合及催化动态机制，虽非典型TF-DNA体系，但属于蛋白-DNA互作的结构建模方法，可迁移至TF-DNA研究。",
+  "abstract": "Numerous proteins perform their functions by transitioning between various structures. Understanding the conformational ensembles associated with these states is essential for uncovering crucial mechanistic aspects that regulate protein function. In this study, we utilized AlphaFold3 ( AF3 ) to investigate the structural dynamics and mechanisms of enzymes involved in DNA homeostasis, using NAD-dependent Taq ligases and human DNA Ligase 1 as a case example. Modifying the input parameters for AF3 yielded detailed conformational states of a DNA-binding enzyme, thereby offering enhanced mechanistic insights. We applied AF3 to model the various stages of thermophilic Taq DNA ligase activity, from its ground state to substrate-bound complexes, revealing significant mobility in the N-terminal adenylation and C-terminal BRCT domains. These detailed structural ensembles provided novel insights into the enzyme’s behavior during DNA repair, underscoring the potential of AF3 in elucidating mechanistic details critical for therapeutic and biotechnological targeting. Extending this approach to human LIG1, we examined its end-joining activity on double-strand breaks ( DSBs ) with short 3’ and 5’ overhangs. In alignment with published experimental data, AF3 conformational ensembles indicated LIG1 has lower catalytic efficiency for 5’ overhangs due to suboptimal DNA positioning within the catalytic site, demonstrating AF3’s capability to capture subtle yet functionally significant conformational differences by generating conformational ensembles capturing greater structural variance.",
+  "abstract_zh": "众多蛋白质通过在不同结构间转换来执行其功能。理解与这些状态相关的构象集合对于揭示调控蛋白质功能的关键机制至关重要。在本研究中，我们利用AlphaFold3（AF3）以NAD依赖性Taq连接酶和人DNA连接酶1为案例，探究参与DNA稳态的酶的结构动力学和机制。通过修改AF3的输入参数，我们获得了DNA结合酶的详细构象状态，从而提供了更深入的机制见解。我们应用AF3模拟了嗜热Taq DNA连接酶从基态到底物结合复合物的各个活性阶段，揭示了N端腺苷化结构域和C端BRCT结构域的显著移动性。这些详细的结构集合为酶在DNA修复过程中的行为提供了新见解，强调了AF3在阐明对治疗和生物技术靶向至关重要的机制细节方面的潜力。将该方法扩展至人LIG1，我们检查了其在具有短3’和5’突出端的双链断裂（DSBs）上的末端连接活性。与已发表的实验数据一致，AF3构象集合表明LIG1对5’突出端的催化效率较低，原因是催化位点内DNA定位欠佳，这展示了AF3通过生成捕获更大结构变异的构象集合来捕捉细微但功能上显著的构象差异的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.07.622521",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.07.622521",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.07.622521/index.html"
+}

@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "38237792",
+    "doi": "10.1016/j.ymeth.2024.01.005",
+    "title": "DBPboost:A method of classification of DNA-binding proteins based on improved differential evolution algorithm and feature extraction."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins are a class of proteins that can interact with DNA molecules through physical and chemical interactions. Their main functions include regulating gene expression, maintaining chromosome structure and stability, and more. DNA-binding proteins play a crucial role in cellular and molecular biology, as they are essential for maintaining normal cellular physiological functions and adapting to environmental changes. The prediction of DNA-binding proteins has been a hot topic in the field of bioinformatics. The key to accurately classifying DNA-binding proteins is to find suitable feature sources and explore the information they contain. Although there are already many models for predicting DNA-binding proteins, there is still room for improvement in mining feature source information and calculation methods. In this study, we created a model called DBPboost to better identify DNA-binding proteins. The innovation of this study lies in the use of eight feature extraction methods, the improvement of the feature selection step, which involves selecting some features first and then performing feature selection again after feature fusion, and the optimization of the differential evolution algorithm in feature fusion, which improves the performance of feature fusion. The experimental results show that the prediction accuracy of the model on the UniSwiss dataset is 89.32%, and the sensitivity is 89.01%, which is better than most existing models.",
+    "keywords": [
+      "Differential evolution",
+      "Dipeptide position-specific scoring matrix",
+      "Extreme gradient boosting decision tree",
+      "Protein structure prediction",
+      "Random forest",
+      "Support vector machine"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry",
+      "*Support Vector Machine",
+      "Algorithms",
+      "DNA/chemistry",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Ailun",
+        "Li, Hongfei",
+        "Dong, Guanghui",
+        "Zhao, Yuming",
+        "Zhang, Dandan"
+      ],
+      "short_names": [
+        "Sun A",
+        "Li H",
+        "Dong G",
+        "Zhao Y",
+        "Zhang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Life Science, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "Department of Obstetrics and Gynecology, the First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China. Electronic address: zym@nefu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Ailun",
+        "short_name": "Sun A",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongfei",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Guanghui",
+        "short_name": "Dong G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuming",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dandan",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, the First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China. Electronic address: zym@nefu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/19 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "38903752"
+    ],
+    "refs": [],
+    "similar": [
+      "38237792",
+      "35447463",
+      "30598073",
+      "31888057",
+      "31123959",
+      "34455627",
+      "24475169",
+      "31380766",
+      "30668479",
+      "29753757",
+      "24448651",
+      "32300371",
+      "38812315",
+      "33410688",
+      "32946833",
+      "29219069",
+      "30316822",
+      "28937647",
+      "33780341",
+      "39396025",
+      "23282098",
+      "27907159",
+      "28841194",
+      "33537726",
+      "31693872",
+      "38927611",
+      "22868682",
+      "33446014",
+      "30957840",
+      "28292249",
+      "34731411",
+      "32144887",
+      "37060772",
+      "28606086",
+      "34000983",
+      "33709119",
+      "27304923",
+      "31662787",
+      "30453876",
+      "29270430",
+      "24151525",
+      "33774670",
+      "37459792",
+      "34162327",
+      "25946106",
+      "29334889",
+      "30250210",
+      "28407777",
+      "30228989",
+      "32775434",
+      "27452983",
+      "35929355",
+      "28763688",
+      "28423569",
+      "29532347",
+      "34291709",
+      "23335013",
+      "36820618",
+      "29106044",
+      "26482832",
+      "23747746",
+      "37016297",
+      "32282466",
+      "27740495",
+      "21342579",
+      "36959840",
+      "36183055",
+      "25708928",
+      "31621050",
+      "23282146",
+      "39215231",
+      "24334394",
+      "38625768",
+      "32938375",
+      "35546347",
+      "19008251",
+      "33505516",
+      "23484214",
+      "16723008",
+      "29591488",
+      "29183738",
+      "37028140",
+      "40159513",
+      "30367310",
+      "22591472",
+      "18288459",
+      "39209884",
+      "29097781",
+      "34337652",
+      "35748253",
+      "31511570",
+      "24898862",
+      "27378005",
+      "34055035",
+      "24609509",
+      "35609687",
+      "35807337",
+      "29278382",
+      "28039166",
+      "34020547"
+    ],
+    "review": [
+      "38237792"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(24)00022-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

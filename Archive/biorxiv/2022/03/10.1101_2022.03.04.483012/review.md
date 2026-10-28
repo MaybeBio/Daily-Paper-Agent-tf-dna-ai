@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose Protein-Ligand Interaction Graphs (PLIGs), a graph representation that retains ligand topology while encoding 3D protein-ligand atom contacts as node features. They benchmark PLIGs with six GNN architectures against ligand-based graphs and fingerprint-based MLPs on CASF-2016, reporting best performance with GATNet (ρ = 0.84, RMSE = 1.22 pK). They claim the representation is simple, elegant, flexible, and customizable.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark protocols, statistical analyses, or code verification possible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed model architectures, hyperparameter settings, data splitting procedures, baseline implementations, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting idea: encoding 3D protein-ligand contacts as node features while preserving ligand graph topology. This approach could address a known limitation of existing GNN methods that expand graphs with protein atoms. However, the evidence provided in the abstract is insufficient to evaluate the validity, robustness, or generalizability of the claimed performance. Key methodological details and statistical rigor are absent, and the reported single-metric results do not establish the superiority of PLIGs over existing methods.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists developing or applying machine learning methods for drug discovery, particularly those focused on binding affinity prediction. The proposed representation could be of interest to researchers seeking efficient and interpretable graph-based approaches that incorporate structural information without excessive computational cost.
+- **Major strengths** The core idea is conceptually clear and potentially impactful, as it addresses a real limitation of current GNN-based affinity prediction methods. The claim of architecture-agnostic applicability is appealing, and the reported benchmark across six GNN architectures suggests a systematic evaluation effort. The emphasis on simplicity and customizability is a practical advantage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PLIG-based Graph Attention Networks (GATNet) to be the best performing model (ρ = 0.84, RMSE = 1.22 pK)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only two performance metrics (Pearson correlation and RMSE) for a single model on a single benchmark. No information is provided on variance, statistical significance, or comparison to state-of-the-art methods beyond the stated baselines. The claim of "best performing" cannot be assessed without knowing the distribution of results across runs, the number of seeds, or whether differences are statistically meaningful.
+  - **Why it matters** Without statistical rigor, the reported performance could be due to chance, favorable hyperparameter tuning, or overfitting to the benchmark. The claim of superiority is central to the paper's contribution and must be supported by robust evidence.
+  - **Resolution test** Provide mean and standard deviation across multiple independent runs, perform statistical significance tests (e.g., paired t-test or Wilcoxon) against all baselines, and report results for all six GNN architectures, not just the best one.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "PLIGs are applicable to any GNN architecture" and "The code and implementation for PLIGs and all models can be found at github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims broad applicability and provides a code link, but no details are given on the exact featurization scheme, distance threshold selection, node feature dimensions, or how the six GNN architectures were adapted. Without these details, the claim of architecture-agnostic applicability cannot be verified, and the code repository cannot be evaluated for completeness or correctness.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The lack of methodological detail prevents independent verification and limits the utility of the proposed method for the community.
+  - **Resolution test** Provide a complete description of the featurization process, including all node and edge features, distance thresholds, and any normalization steps. Ensure the code repository includes all model configurations, training scripts, and data processing pipelines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "better performance on multi-target datasets has been achieved with models that incorporate 3D structural information" and the implied general utility of PLIGs
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract only reports results on CASF-2016, a single benchmark. No evidence is provided for performance on other datasets, different protein families, or diverse ligand chemotypes. The claim that PLIGs improve over ligand-based graphs is only demonstrated for this one benchmark, which may not be representative.
+  - **Why it matters** Binding affinity prediction models often show dataset-specific performance. Without multi-dataset validation, the generalizability of PLIGs remains unestablished, and the claimed advantage over existing methods may not hold in other contexts.
+  - **Resolution test** Evaluate PLIGs on at least one additional benchmark (e.g., PDBbind refined set, DUD-E, or a temporal split) and report performance across diverse protein-ligand complexes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "obfuscating the shape of the underlying ligand" is vague and could be misinterpreted. It is unclear whether the concern is about graph topology, spatial geometry, or both.
+  - **Required correction** Clarify the specific limitation of existing methods, e.g., "expanding the graph with protein atoms dilutes the ligand's topological signal" or similar precise language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the data splitting protocol for CASF-2016 (e.g., random split, scaffold split, or time-based split). This affects the comparability of results.
+  - **Required correction** State the splitting method and any cross-validation procedures used in the benchmark.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Model comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain why GATNet outperformed other architectures. This limits insight into whether the advantage is due to the PLIG representation or the specific model.
+  - **Required correction** Provide a brief analysis of performance differences across architectures, e.g., attention mechanisms may better exploit node-level interaction features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (reproducibility), R1-M3 (generalizability). These are blocking because the central claims of superiority and broad applicability cannot be evaluated from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of encoding 3D interactions as node features while preserving ligand topology is a novel contribution, distinct from existing graph expansion approaches. This is a potential strength.
+  - Scientific importance: Binding affinity prediction is a high-impact problem in drug discovery. If validated, PLIGs could offer a practical improvement. However, the importance is not yet established given the limited evidence.
+  - Interdisciplinary readership: The work bridges structural biology, cheminformatics, and machine learning, which could attract a broad audience. The abstract is accessible to nonspecialists, though technical details are lacking.
+  - Technical soundness: Not assessable from the abstract. The reported metrics lack statistical support, and methodological details are absent.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, but some terms (e.g., "node features", "GNN architectures") assume familiarity with machine learning concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, but the abstract alone does not provide sufficient evidence to support the claims of improved performance and broad applicability. A full manuscript with detailed methods, robust statistical analysis, and multi-dataset validation would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The claim that PLIGs are "simple, elegant, flexible and easily customizable" is subjective and not supported by evidence in the abstract.
+- The claim that PLIGs "open up many possibilities" is speculative and not demonstrated.
+- The reported performance metrics (ρ = 0.84, RMSE = 1.22 pK) are presented without variance, significance testing, or comparison to a comprehensive set of baselines, making them unsupported as evidence of superiority.
+- The claim of architecture-agnostic applicability is unsupported without detailed descriptions of how each GNN was adapted and evaluated.

@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "42197712",
+    "doi": "10.3390/plants15101578",
+    "title": "Deciphering Cell-Type-Specific Transcriptional Regulation in Tomato Leaves Through Ensemble Machine Learning and Single-Cell Transcriptomics."
+  },
+  "content": {
+    "abstract": "High-throughput single-cell RNA sequencing (scRNA-seq) has substantially advanced plant transcriptional landscapes. However, decoding cell-type-specific transcriptional regulation in non-model crops like tomato (Solanum lycopersicum) remains challenging. An integrated computational pipeline was applied using high-dimensional weighted gene co-expression (hdWGCNA) and ensemble machine learning to analyze tomato leaf single-cell transcriptomes. Unsupervised clustering identified 19 cell subpopulations mapped to five major cell-types: mesophyll cells (50.6%), guard cells (31.0%), trichomes (8.3%), vascular cells (7.5%), and lamina epidermis (2.6%). hdWGCNA revealed eight cell-type-specific modules, linking mesophyll cells to photosynthesis and guard cells to redox homeostasis. Machine learning classifiers prioritized candidate transcription factors (TFs), with XGBoost achieving the highest accuracy (0.85) to define cell identity. A consensus of 33 core TFs was identified, from which four candidate TFs (SlWRKY-78, SlWRKY-75, SlERF-57, and SlGLK-49) were selected for in silico knockout (KO) analysis. The simulations predicted that these knockouts might dysregulate core functional pathways, such as serine-type endopeptidase inhibitor activity and protein binding. Furthermore, CellOracle simulations suggested that the virtual deletion of the guard-cell-associated SlWRKY-78 and SlWRKY-75 could induce a directional trajectory shift from the terminally differentiated guard cells back to the less differentiated mesophyll territory. These findings provide a promising computational framework for deciphering cell-type-specific regulatory programs in horticultural crops.",
+    "keywords": [
+      "hdWGCNA",
+      "machine learning",
+      "single-cell RNA sequencing",
+      "tomato leaf",
+      "transcription factors (TFs)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Hui",
+        "Liu, Wen",
+        "Li, Yuanheng",
+        "He, Zhaoyilan",
+        "Yang, Zheng'an",
+        "Hu, Zongli",
+        "Wu, Ting"
+      ],
+      "short_names": [
+        "Shen H",
+        "Liu W",
+        "Li Y",
+        "He Z",
+        "Yang Z",
+        "Hu Z",
+        "Wu T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1082-0155"
+      ],
+      "affiliations": [
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China.",
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China.",
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China.",
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China.",
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China.",
+        "Laboratory of Molecular Biology of Tomato, Bioengineering College, Chongqing University, Chongqing 400030, China.",
+        "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Hui",
+        "short_name": "Shen H",
+        "identifiers": [
+          "0000-0002-1082-0155"
+        ],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wen",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuanheng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhaoyilan",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zheng'an",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zongli",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology of Tomato, Bioengineering College, Chongqing University, Chongqing 400030, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ting",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Vegetable Biology of Yunnan Province, College of Landscape and Horticulture, Yunnan Agricultural University, No. 452, Fengyuan Road, Panlong District, Kunming 650201, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plants (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Plants (Basel)"
+    ],
+    "pub_date": "2026 May 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:42",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41799984",
+      "41674874",
+      "41570605",
+      "41518505",
+      "41515082",
+      "41449796",
+      "41325984",
+      "41163437",
+      "40908642",
+      "40593253",
+      "40243161",
+      "40220755",
+      "40219138",
+      "40033544",
+      "39980637",
+      "39939367",
+      "39887348",
+      "39256563",
+      "39224848",
+      "39173585",
+      "39019974",
+      "38975891",
+      "38871986",
+      "38728423",
+      "38646191",
+      "38627250",
+      "38619176",
+      "38490933",
+      "38368637",
+      "38146273",
+      "37735568",
+      "37644724",
+      "37426759",
+      "37231261",
+      "36755098",
+      "36628655",
+      "36328151",
+      "36307979",
+      "36147671",
+      "36010400",
+      "35662674",
+      "35213533",
+      "35134336",
+      "35126435",
+      "33955487",
+      "33823130",
+      "33336197",
+      "33184454",
+      "32765975",
+      "31974247",
+      "30954476",
+      "30531897",
+      "29409532",
+      "26083756",
+      "25428362",
+      "23104886",
+      "21330290",
+      "19451168"
+    ],
+    "similar": [
+      "42197712",
+      "41806693",
+      "42263871",
+      "37342132",
+      "41716413",
+      "41242266",
+      "42256531",
+      "42458112",
+      "41601657",
+      "41572692",
+      "41504052",
+      "42370143",
+      "41459671",
+      "41972591",
+      "29879919",
+      "42531047",
+      "41175233",
+      "41009952",
+      "41436831",
+      "38905728",
+      "42580240",
+      "39040415",
+      "41408440",
+      "39762897",
+      "42309401",
+      "41031145",
+      "36147664",
+      "42218373",
+      "38181891",
+      "41665703",
+      "29513366",
+      "39075441",
+      "42510881",
+      "41163437",
+      "42475469",
+      "38619176",
+      "40033544",
+      "41665627",
+      "33153500",
+      "42429909",
+      "39326643",
+      "39149137",
+      "41601671",
+      "41969483",
+      "42196413",
+      "42040898",
+      "42213334",
+      "34174007",
+      "41065575",
+      "41901341",
+      "42035563",
+      "42024670",
+      "42265520",
+      "41033661",
+      "38947396",
+      "40244418",
+      "42324763",
+      "41870799",
+      "37231648",
+      "42320468",
+      "41310117",
+      "42249649",
+      "28083709",
+      "40216809",
+      "41043336",
+      "41299753",
+      "41847341",
+      "42236612",
+      "41918402",
+      "42435052",
+      "42391245",
+      "39926598",
+      "40624201",
+      "41208840",
+      "40328901",
+      "41006377",
+      "42212140",
+      "31243426",
+      "42158856",
+      "42150704",
+      "42123445",
+      "36512878",
+      "41895505",
+      "41727639",
+      "42089585",
+      "42303913",
+      "40948769",
+      "41593799",
+      "40764361",
+      "42136644",
+      "37644724",
+      "41126838",
+      "26412778",
+      "42066389",
+      "42289463",
+      "42560939",
+      "39792694",
+      "41178646",
+      "42424531",
+      "31870278"
+    ],
+    "review": [
+      "42197712",
+      "36147664",
+      "41665627",
+      "31243426"
+    ],
+    "pmc": [
+      "13210926"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=plants15101578",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42197712/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as described in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors describe a molecular dynamics (MD) and steered molecular dynamics (SMD) protocol to estimate the free energy of formation and dissociation of a protein-DNA complex involving the H-NS DNA-binding domain and a specific AT-rich nucleotide sequence. They claim the protocol provides quantitative predictions of complex stability and high-resolution insights into recognition mechanisms, and that it elucidates the mechanism of sequence-specific binding to AT-rich DNA.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are presented
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, error estimates, comparison to experimental data, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for studying H-NS DNA-binding specificity, but the claims of quantitative prediction and mechanistic elucidation are not supported by the evidence provided. The abstract lacks essential details on methodology, validation, and results, making it impossible to assess the technical soundness or the strength of the conclusions. The work may be of interest to computational biophysicists and microbiologists, but the current evidence base is insufficient to establish the stated claims.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular simulation, and bacterial gene regulation would be interested. The protocol could be useful for studying protein-DNA interactions in other systems, and the mechanistic insights into H-NS binding could inform studies of bacterial chromatin organization and gene silencing.
+- **Major strengths** The approach combines MD and SMD to estimate free energies, which is a well-established strategy for studying binding affinities. The focus on sequence specificity of H-NS is biologically relevant, and the claim of providing high-resolution interaction details is a potential advantage over experimental methods.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the protocol "can provide quantitative prediction of protein-DNA complex stability" and that it "elucidates the mechanism with which H-NS can specifically bind to AT-rich DNA."  
+  - **Evidence pointer** Abstract only; no methods or results provided  
+  - **Concern** The abstract does not provide any quantitative results, such as free energy values, error bars, or comparisons across different sequences. Without these, the claim of quantitative prediction is unsubstantiated. Additionally, no details on the simulation setup (e.g., force field, water model, simulation length, number of replicas, convergence criteria) are given, which are critical for assessing the reliability of free energy estimates.  
+  - **Why it matters** Free energy estimates from SMD are highly sensitive to pulling speed, steering potential, and system preparation. Without evidence of convergence and validation against experimental or known binding affinities, the quantitative claims cannot be trusted.  
+  - **Resolution test** Provide free energy values for at least two sequences (e.g., AT-rich vs. GC-rich) with error estimates, and demonstrate convergence of the SMD calculations. Compare the predicted relative affinities to experimental data or known H-NS binding preferences.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims to "elucidate the mechanism with which H-NS can specifically bind to AT-rich DNA."  
+  - **Evidence pointer** Abstract only; no mechanistic details provided  
+  - **Concern** The abstract does not describe any specific interaction features (e.g., hydrogen bonds, hydrophobic contacts, base-specific recognition) that would explain sequence specificity. The claim of mechanistic elucidation is therefore unsupported.  
+  - **Why it matters** The biological significance of the work hinges on providing a molecular-level explanation for AT-rich selectivity. Without such details, the contribution to understanding H-NS function is unclear.  
+  - **Resolution test** Include a description of key protein-DNA contacts that differ between AT-rich and other sequences, and relate these to known structural or biochemical data on H-NS.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract describes a "protocol" for estimating free energies, implying it is reproducible.  
+  - **Evidence pointer** Abstract only; no protocol details provided  
+  - **Concern** The abstract lacks essential methodological information, such as the exact form of the additional potential based on protein-DNA contacts, the pulling scheme, and the analysis method for extracting free energies. Without these, the protocol cannot be reproduced or evaluated.  
+  - **Why it matters** Reproducibility is a core requirement for any methodological contribution. The absence of these details prevents other researchers from applying or verifying the approach.  
+  - **Resolution test** Provide a detailed methods section, including equations for the additional potential, simulation parameters, and a step-by-step description of the free energy calculation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence "The work required for the dissociation results in an estimate of the free energy of dissociation/complex formation."  
+  - **Issue** The relationship between "work required" and "free energy" is not clarified. In SMD, the work is path-dependent, and the free energy is obtained via Jarzynski's equality or other methods, not directly from a single work value.  
+  - **Required correction** Clarify how the work is converted to a free energy estimate, and specify whether multiple trajectories or a specific estimator were used.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract claim  
+  - **Evidence pointer** Abstract, "various nucleotide sequences"  
+  - **Issue** The abstract mentions "various nucleotide sequences" but does not specify how many or which sequences were tested. This limits the reader's ability to gauge the breadth of the study.  
+  - **Required correction** List the sequences used or state the range of sequence variations tested.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Abstract background  
+  - **Evidence pointer** Abstract, first two sentences  
+  - **Issue** The abstract does not mention any prior experimental or computational studies on H-NS DNA-binding specificity, which would help contextualize the novelty of the approach.  
+  - **Required correction** Add a brief statement on existing knowledge and how this work advances it.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative results and convergence evidence), R1-M2 (lack of mechanistic details), R1-M3 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of MD and SMD for H-NS DNA-binding specificity is not clearly novel, as similar approaches have been used for other protein-DNA systems. The abstract does not highlight a unique methodological advance.  
+  - **Scientific importance** The biological question is relevant, but the abstract does not demonstrate a significant new insight into H-NS function. The importance is not established from the provided evidence.  
+  - **Interdisciplinary readership** The work could appeal to computational biologists and microbiologists, but the abstract is too technical for a broad audience and lacks context for non-specialists.  
+  - **Technical soundness** Cannot be assessed due to missing methodological details and results.  
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with MD and SMD; it does not explain key concepts for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful protocol, but the claims of quantitative prediction and mechanistic elucidation require substantial additional evidence, including results, validation, and methodological detail.
+
+## Risk / unsupported claims
+- The claim of "quantitative prediction of protein-DNA complex stability" is unsupported, as no numerical results or error estimates are provided.
+- The claim of "elucidating the mechanism" of AT-rich specificity is unsupported, as no specific interaction details are described.
+- The claim that the protocol "can provide high-resolution insights into recognition mechanisms" is plausible but not demonstrated in the abstract.
+- The general applicability of the protocol to "various nucleotide sequences" is unverified, as the number and nature of sequences tested are not stated.

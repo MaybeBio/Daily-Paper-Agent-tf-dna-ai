@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a mechanistic axis in prostate cancer (PC) whereby Ku70 interacts with SIX1 in the nucleus, recruits SIX1 to the GPT2 promoter, enhances GPT2 transcription, increases alpha-ketoglutarate (alpha-KG) production, and promotes PC cell proliferation and migration. They further report correlative expression data in PC tissues.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data displays are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, methods section, statistical reporting, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between DNA repair protein Ku70 and the developmental transcription factor SIX1 in prostate cancer metabolism. However, the current evidence base is limited to a summary of findings without access to the underlying data. Several claims, particularly regarding molecular dynamics simulations, hydrogen bond counts, and transcriptional mechanisms, cannot be independently evaluated. The clinical relevance is supported only by correlative expression data, which is insufficient to establish causality or therapeutic significance.
+- **Who would be interested in the results, and why** Researchers studying prostate cancer biology, cancer metabolism, transcriptional regulation, and the non-canonical functions of DNA repair proteins. The potential connection between Ku70 and metabolic reprogramming via SIX1 and GPT2 may interest those exploring novel therapeutic targets in PC, though the translational implications remain speculative at this stage.
+- **Major strengths** The abstract identifies a novel protein-protein interaction between Ku70 and SIX1 with defined domains involved. The proposed link between transcriptional regulation and metabolic output (alpha-KG) provides a coherent mechanistic narrative. The inclusion of clinical tissue correlation adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "20 groups of hydrogen bonds were identified in this complex by molecular dynamics simulation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of exactly 20 hydrogen bonds from molecular dynamics simulation is highly specific and likely simulation-dependent. Without details on simulation parameters, force field, trajectory length, and the criteria used to define hydrogen bonds, this number cannot be assessed for robustness or biological relevance.
+  - **Why it matters** This quantitative claim is presented as evidence for the stability and specificity of the Ku70-SIX1 interaction. If the simulation methodology is not rigorous or the result is not reproducible, the structural basis of the interaction is weakened.
+  - **Resolution test** Provide full simulation methods, convergence analysis, and replicate simulations. Show that the hydrogen bond count is stable across independent runs and that the interaction is supported by experimental validation such as mutagenesis or binding assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Ku70 enhances the SIX1-mediated transcriptional activation on GPT2, thereby facilitating the generation of alpha-KG"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Ku70 enhances SIX1-mediated transcriptional activation of GPT2 and that this leads to increased alpha-KG. However, no quantitative data are shown for GPT2 expression changes, alpha-KG levels, or the magnitude of the effect. The causal chain from Ku70-SIX1 complex formation to metabolic output is asserted but not demonstrated with visible evidence.
+  - **Why it matters** The central mechanistic claim of the paper depends on this transcriptional and metabolic cascade. Without data showing that Ku70 depletion reduces GPT2 expression and alpha-KG levels, and that SIX1 overexpression increases them, the axis is not established.
+  - **Resolution test** Provide data from chromatin immunoprecipitation, reporter assays, and metabolomics showing that Ku70 and SIX1 jointly regulate GPT2 transcription and alpha-KG production. Include appropriate controls and statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** "Depletion of Ku70/SIX1 notably abrogates the proliferation and migration of PC"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that depletion of Ku70 or SIX1 abrogates proliferation and migration, but no effect sizes, statistical tests, or experimental replicates are described. The term "notably" is vague and does not convey the magnitude or consistency of the effect.
+  - **Why it matters** Functional assays are foundational for the claim that this axis drives PC progression. Without rigorous quantitative reporting, the strength of the phenotype cannot be evaluated.
+  - **Resolution test** Provide dose-response and time-course data for proliferation and migration assays, with statistical analysis and effect sizes. Show that the phenotype is rescued by GPT2 overexpression or alpha-KG supplementation to support the mechanistic link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** "The expression of GPT2 is upregulated and strongly correlated with the expression of Ku70/SIX1 in PC tissues"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The correlation between GPT2 and Ku70/SIX1 expression in PC tissues is reported, but the sample size, cohort composition, statistical method, and correlation coefficients are not provided. Correlation does not establish causation, and the clinical significance is unclear.
+  - **Why it matters** The translational relevance of the findings depends on this tissue data. Without details on cohort size and statistical rigor, the claim of clinical significance is not supported.
+  - **Resolution test** Provide cohort details, correlation coefficients with confidence intervals, and survival analysis if available. Show that the correlation is specific to PC and not a general feature of normal tissue.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "new identified cancer driver" is grammatically awkward and should be "newly identified cancer driver."
+  - **Required correction** Revise to "newly identified cancer driver" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention whether the Ku70-SIX1 interaction is specific to PC cells or occurs in other cell types. This limits the generalizability of the claim.
+  - **Required correction** Add a statement addressing cell-type specificity or acknowledge this as a limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "alpha-KG" is used without defining it at first mention. While common in the field, a full name would improve accessibility.
+  - **Required correction** Define alpha-ketoglutarate at first use.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The molecular dynamics claim, the transcriptional and metabolic cascade, and the functional phenotypes all require full experimental data and statistical rigor to be evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The interaction between Ku70 and SIX1 is novel and potentially interesting, but the abstract does not demonstrate how this advances beyond existing knowledge of SIX1 in cancer.  
+  - Scientific importance: The link to alpha-KG metabolism is relevant to cancer metabolism, but the significance is not quantified or contextualized against known metabolic drivers in PC.  
+  - Interdisciplinary readership: The topic bridges DNA repair, transcription, and metabolism, which could appeal to a broad audience, but the abstract is too specialized without clear framing.  
+  - Technical soundness: Not assessable from the abstract alone; the specific claims require full methods and data.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with SIX1, Ku70, and metabolic pathways, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible mechanism, but the absence of underlying data prevents verification of the central claims. Supportive if technical concerns are resolved with full experimental evidence.
+
+## Risk / unsupported claims
+- The specific count of 20 hydrogen bonds from molecular dynamics simulation is unsupported without simulation details.
+- The claim that Ku70 enhances SIX1-mediated transcriptional activation of GPT2 is unsupported without chromatin immunoprecipitation or reporter assay data.
+- The claim that the Ku70-SIX1 complex promotes GPT2-dependent proliferation and migration is unsupported without functional rescue experiments.
+- The correlation between GPT2 and Ku70/SIX1 expression in PC tissues is unverifiable without cohort and statistical details.
+- The overall conclusion that the Ku70-SIX1-GPT2 axis drives PC carcinogenesis is not established from the abstract alone.

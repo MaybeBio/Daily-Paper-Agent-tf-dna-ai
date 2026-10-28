@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "37897811",
+    "doi": "10.1021/acs.jcim.3c00750",
+    "title": "Comparing Supervised Learning and Rigorous Approach for Predicting Protein Stability upon Point Mutations in Difficult Targets."
+  },
+  "content": {
+    "abstract": "Accurate prediction of protein stability upon a point mutation has important applications in drug discovery and personalized medicine. It remains a challenging issue in computational biology. Existing computational prediction methods, which range from mechanistic to supervised learning approaches, have experienced limited progress over the last few decades. This stagnation is largely due to their heavy reliance on both the quantity and quality of the training data. This is evident in recent state-of-the-art methods that continue to yield substantial errors on two challenging blind test sets: frataxin and p53, with average root-mean-square errors exceeding 3 and 1.5 kcal/mol, respectively, which is still above the theoretical 1 kcal/mol prediction barrier. Rigorous approaches, on the other hand, offer greater potential for accuracy without relying on training data but are computationally demanding and require both wild-type and mutant structure information. Although they showed high accuracy for conserving mutations, their performance is still limited for charge-changing mutation cases. This might be due to the lack of an available mutant structure, often represented by a simplified capped peptide. The recent advances in protein structure prediction methods now make it possible to obtain structures comparable to experimental ones, including complete mutant structure information. In this work, we compare the performance of supervised learning-based methods and rigorous approaches for predicting protein stability on point mutations in difficult targets: frataxin and p53. The rigorous alchemical method significantly surpasses state-of-the-art techniques in terms of both the root-mean-squared error and Pearson correlation coefficient in these two challenging blind test sets. Additionally, we propose an improved alchemical method that employs the pmx double-system/single-box approach to accurately predict the folding free energy change upon both conserving and charge-changing mutations. The enhanced protocol can accurately predict both types of mutations, thereby outperforming existing state-of-the-art methods in overall performance.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Point Mutation",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Mutation",
+      "Protein Stability",
+      "Supervised Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kurniawan, Jason",
+        "Ishida, Takashi"
+      ],
+      "short_names": [
+        "Kurniawan J",
+        "Ishida T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6471-8332",
+        "ORCID: 0000-0002-9478-3223"
+      ],
+      "affiliations": [
+        "Department of Computer Science, School of Computing, Tokyo Institute of Technology, Tokyo 152-8550, Japan.",
+        "Department of Computer Science, School of Computing, Tokyo Institute of Technology, Tokyo 152-8550, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kurniawan, Jason",
+        "short_name": "Kurniawan J",
+        "identifiers": [
+          "0000-0002-6471-8332"
+        ],
+        "affiliations": [
+          "Department of Computer Science, School of Computing, Tokyo Institute of Technology, Tokyo 152-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishida, Takashi",
+        "short_name": "Ishida T",
+        "identifiers": [
+          "0000-0002-9478-3223"
+        ],
+        "affiliations": [
+          "Department of Computer Science, School of Computing, Tokyo Institute of Technology, Tokyo 152-8550, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Nov 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/29 06:44",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "42057285",
+      "40839422",
+      "40277391",
+      "39443382",
+      "38955858"
+    ],
+    "refs": [],
+    "similar": [
+      "37897811",
+      "27318206",
+      "30417935",
+      "32401507",
+      "27964946",
+      "32533939",
+      "39198740",
+      "38130113",
+      "36124753",
+      "38508191",
+      "33435356",
+      "32281996",
+      "25957347",
+      "28710274",
+      "17935148",
+      "35987841",
+      "34826524",
+      "22238268",
+      "23912807",
+      "38018912",
+      "26269925",
+      "31266447",
+      "15340927",
+      "37283042",
+      "26361227",
+      "37054649",
+      "37851531",
+      "25243403",
+      "30776430",
+      "33709712",
+      "32375024",
+      "32881105",
+      "24100332",
+      "34922207",
+      "20573270",
+      "34126874",
+      "33378330",
+      "27564391",
+      "34058752",
+      "31906171",
+      "31383477",
+      "22574904",
+      "29125747",
+      "36142614",
+      "22038697",
+      "29718106",
+      "30759982",
+      "33302990",
+      "18387208",
+      "33001599",
+      "21787301",
+      "38084013",
+      "18366628",
+      "30946675",
+      "33893812",
+      "36864534",
+      "24564514",
+      "35676649",
+      "37291166",
+      "17068801",
+      "33140954",
+      "27264959",
+      "35973091",
+      "21998155",
+      "17705837",
+      "25885774",
+      "29036440",
+      "37552230",
+      "39386633",
+      "27381026",
+      "35588568",
+      "29382060",
+      "31216622",
+      "31243847",
+      "24803870",
+      "26988870",
+      "33632133",
+      "37953256",
+      "26493682",
+      "32203653",
+      "30175503",
+      "27115628",
+      "35021190",
+      "19054789",
+      "19535532",
+      "38458968",
+      "36299676",
+      "38137050",
+      "25487359",
+      "31639051",
+      "25748534",
+      "33094318",
+      "23102044",
+      "36629451",
+      "37172042",
+      "28525590",
+      "36071406",
+      "38305456",
+      "34236667",
+      "34819064",
+      "19561092",
+      "30415723",
+      "36859495",
+      "31106920",
+      "38883239",
+      "39229177",
+      "39071277",
+      "34805992",
+      "33134287"
+    ],
+    "review": [
+      "37897811",
+      "26269925",
+      "34922207",
+      "31383477",
+      "33001599"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c00750",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

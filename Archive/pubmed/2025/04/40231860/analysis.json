@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40231860",
+  "title": "Small Molecules Targeting the Structural Dynamics of AR-V7 Partially Disordered Proteins Using Deep Ensemble Docking.",
+  "authors": "Karatzas, Pantelis; Brotzakis, Z Faidon; Sarimveis, Haralambos",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-04-15",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度集成对接与MD研究AR-V7转录因子部分无序蛋白的构象系综与小分子结合位点，虽聚焦小分子药物筛选而非TF-DNA互作，但其蛋白构象建模与结合位点识别方法可迁移至TF-DNA体系。",
+  "abstract": "The extensive conformational dynamics of partially disordered proteins hinders the efficiency of traditional in-silico structure-based drug discovery approaches due to the challenge of screening large chemical spaces of compounds, albeit with an excessive number of transient binding sites, quickly making this problem intractable. In this study, using the monomer of the AR-V7 transcription factor splicing variant related to prostate cancer as a test case, we present a deep ensemble docking pipeline that accelerates the screening of small molecule binders targeting partially disordered proteins at functional regions. By swiftly identifying the conformational ensemble of AR-V7 and reducing the dimension of binding sites by a factor of 90, we identify functionally relevant binding sites along the AR-V7 structural ensemble at phase separation-prone regions that have been experimentally shown to contribute to enhanced transcription activity and the onset of tumor growth. Following this, we combine physics-based molecular docking and multiobjective classification machine learning models to speed up the screening for binders in a larger chemical space able to target these functional multiple binding sites of AR-V7. This step increases the multibinding site hit rate of small molecules by a factor of 17 compared to naive molecular docking. Finally, assessing in atomistic molecular dynamics the effect of a selected binder on AR-V7 dynamics, we find that in the presence of the ChEMBL22003 compound, AR-V7 exhibits less conformational entropy, smaller solvent exposure of phase separation-prone regions, and higher solvent exposure of other protein regions, promoting this compound as a potential AR-V7 phase separation modulator.",
+  "abstract_zh": "部分无序蛋白的广泛构象动态性阻碍了传统基于结构的计算机药物发现方法的效率，原因在于筛选大量化合物化学空间面临挑战，尽管存在过多的瞬时结合位点，但这很快使该问题变得难以处理。在本研究中，以与前列腺癌相关的AR-V7转录因子剪接变体单体作为测试案例，我们提出了一种深度集成对接流程，加速针对部分无序蛋白功能区域的小分子结合剂筛选。通过快速识别AR-V7的构象集合，并将结合位点维度减少90倍，我们在AR-V7结构集合中识别出位于相分离倾向区域的功能相关结合位点，这些区域已被实验证明有助于增强转录活性和肿瘤生长的发生。随后，我们结合基于物理的分子对接和多目标分类机器学习模型，加速在更大化学空间中筛选能够靶向AR-V7这些功能多重结合位点的结合剂。与朴素分子对接相比，此步骤将小分子的多结合位点命中率提高了17倍。最后，通过原子级分子动力学评估选定结合剂对AR-V7动态性的影响，我们发现，在存在ChEMBL22003化合物的情况下，AR-V7表现出更低的构象熵、相分离倾向区域更小的溶剂暴露度，以及其他蛋白区域更高的溶剂暴露度，从而将该化合物推广为潜在的AR-V7相分离调节剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40231860/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40231860/",
+  "paper_page_path": "papers/pubmed/40231860/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41061345",
+  "title": "RSC4All as a machine learning nomogram to predict RSClin results in HR+/HER2- node-negative early breast cancer.",
+  "authors": "Jacobs, F; D'Amico, S; Ferraro, E; Agostinetto, E; Tondini, C; Gaudio, M; Benvenuti, C; Gerosa, R; Saltalamacchia, G; Zazzetti, E; Di Rienzo, R; Buonaiuto, R; Martorana, F; Chirco, A; De Sanctis, R; Della Porta, M G; Santoro, A; Vigneri, P; Arpino, M G; Giuliano, M; Fornier, M; de Azambuja, E; Zambelli, A",
+  "journal": "ESMO open",
+  "published_date": "2025-10-09",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发机器学习列线图预测乳腺癌复发风险，纯临床预后模型，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: RSClin combines clinicopathological (CP) and genomic data to refine predictions of distant recurrence (DR) risk and chemotherapy (CT) benefit in node-negative (N0) hormone receptor (HR)-positive/human epidermal growth factor receptor 2 (HER2)-negative early breast cancer (eBC). Available in the United States, RSClin is inaccessible in Europe due to regulatory constraints. We developed and validated RSC4All, a machine learning (ML) nomogram replicating RSClin predictions and evaluating clinical impact by comparing DR risk and CT benefit estimates across recurrence score (RS), RSClin, and RSC4All. MATERIALS AND METHODS: We retrospectively identified 290 HR-positive/HER2-negative eBC with both 21-gene RS and RSClin estimation at three European centers (development cohort). ML models were trained on 70% and internally validated on 30% of this cohort to reproduce RSClin estimates for DR risk and CT benefit. External validation used an independent cohort of 513 patients. Performance was assessed using receiver operating characteristic area under the curve (ROC AUC) (classification) and R(2) (regression). Clinical agreement between RSC4All and RSClin was evaluated using Cohen's kappa and McNemar's test, including replication of RS to RSClin reclassification patterns. RS and RSClin classifications were compared in the pooled population and CP predictors of reclassification were explored. RESULTS: ML classification models achieved excellent performance with ROC AUC 0.99 for both DR risk and CT benefit, while regression model had R(2) = 0.82 and 0.77, respectively. In external validation, RSC4All maintained high accuracy (ROC AUC = 0.99; R(2) = 0.82 and 0.76) with an almost perfect clinical agreement with RSClin (Cohen's kappa = 0.87 and 0.84) and replicated RS to RSClin reclassification direction in 94.1% (DR) and 93.0% (CT) of cases. In the pooled cohort, RSClin reclassified 22.2% of DR risk (balanced up/downgrades) and 12.2% for CT benefit (mostly upgrades), with high grade, high Ki-67, low progesterone receptor, and larger tumor size predicting upward reclassification. A web-based tool was developed for public access (https://rsc4all.streamlit.app). CONCLUSIONS: RSC4All accurately reproduces RSClin predictions and reclassification patterns, providing a freely accessible alternative where RSClin is unavailable. By integrating CP and genomic data, it refines risk stratifications and supports adjuvant decisions in N0 HR-positive/HER2-negative eBC. External validation in an independent cohort strengthens its generalizability and clinical applicability.",
+  "abstract_zh": "背景：RSClin结合临床病理（CP）与基因组数据，以细化淋巴结阴性（N0）激素受体（HR）阳性/人表皮生长因子受体2（HER2）阴性早期乳腺癌（eBC）中远处复发（DR）风险及化疗（CT）获益的预测。RSClin在美国可用，但因监管限制在欧洲无法获取。我们开发并验证了RSC4All，一种机器学习（ML）列线图，用于复现RSClin预测，并通过比较复发评分（RS）、RSClin和RSC4All之间的DR风险及CT获益估计来评估临床影响。材料与方法：我们回顾性识别了三个欧洲中心（开发队列）中290例同时具有21基因RS和RSClin估计的HR阳性/HER2阴性eBC病例。ML模型在该队列的70%上训练，并在30%上进行内部验证，以复现RSClin对DR风险和CT获益的估计。外部验证使用了一个独立的513例患者队列。性能通过受试者工作特征曲线下面积（ROC AUC）（分类）和R²（回归）评估。RSC4All与RSClin之间的临床一致性通过Cohen's kappa和McNemar检验评估，包括复现RS到RSClin的重分类模式。在合并人群中比较RS和RSClin分类，并探索重分类的CP预测因子。结果：ML分类模型在DR风险和CT获益方面均达到优秀性能，ROC AUC为0.99，而回归模型的R²分别为0.82和0.77。在外部验证中，RSC4All保持了高准确性（ROC AUC = 0.99；R² = 0.82和0.76），与RSClin几乎完全一致（Cohen's kappa = 0.87和0.84），并在94.1%（DR）和93.0%（CT）的病例中复现了RS到RSClin的重分类方向。在合并队列中，RSClin对22.2%的DR风险（上下调均衡）和12.2%的CT获益（主要为上调）进行了重分类，其中高级别、高Ki-67、低孕激素受体和较大肿瘤大小预测了向上重分类。开发了一个基于网页的工具供公众访问（https://rsc4all.streamlit.app）。结论：RSC4All准确复现了RSClin的预测和重分类模式，在RSClin不可用的情况下提供了一种免费可及的替代方案。通过整合CP和基因组数据，它细化了风险分层，并支持N0 HR阳性/HER2阴性eBC中的辅助治疗决策。在独立队列中的外部验证增强了其普适性和临床适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41061345/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41061345/",
+  "paper_page_path": "papers/pubmed/41061345/index.html"
+}

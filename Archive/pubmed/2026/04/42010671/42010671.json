@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "42010671",
+    "doi": "10.1186/s12964-026-02757-8",
+    "title": "Deficiency of GCN5 exacerbates pulmonary fibrosis by disrupting the LKB1-AMPK pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Idiopathic pulmonary fibrosis (IPF) is a fatal and progressive respiratory disease characterized by aberrant epithelial remodeling, excessive extracellular matrix (ECM) deposition, and fibroblast activation. Although LKB1-AMPK signaling axis is known to suppress epithelial-to-mesenchymal transition (EMT) and lung fibrosis, the upstream regulatory mechanisms governing this pathway remain unclear. General control non-depressible 5 (GCN5) is a lysine acetyltransferase that modulates protein function and cellular pathways via acetylation, but its contribution to lung fibrosis has not been investigated. METHODS: To investigate the role of GCN5 in pulmonary fibrosis, we analyzed publicly available transcriptomic datasets from IPF patients. GCN5 expression was validated in lung tissues from IPF patients and mouse fibrosis models (lung-specific TGF-beta1 transgenic and bleomycin-treated mice) using immunohistochemistry. Protein-protein interactions between GCN5 and LKB1 were assessed by co-immunofluorescence in mouse tissues and in vitro translation followed by immunoprecipitation. LKB1 acetylation sites were identified using in silico docking system and functionally validated by site-directed mutagenesis. GCN5 knockdown and overexpression were performed in lung epithelial cells to examine downstream signaling. To evaluate therapeutic potential, GCN5-expressing adenovirus was delivered intratracheally to bleomycin-treated mice. RESULTS: Here, we revealed a significantly reduced expression of GCN5 in lung tissues from both patients with IPF and lung fibrosis mouse models. Notably, GCN5 directly bound to liver kinase B1 (LKB1), a master regulator of AMP-activated protein kinase (AMPK), and acetylated LKB1 lysine residues at its C-terminal region. In particular, GCN5-mediated LKB1 acetylation at lysine 431 (K431) enhanced LKB1 kinase activity. GCN5 knockdown in lung epithelial cells reduced LKB1 acetylation at K431, leading to decreased AMPK phosphorylation and subsequent promotion of EMT. Conversely, GCN5 overexpression reversed transforming growth factor-beta-induced profibrotic phenotype. Furthermore, adenovirus-mediated overexpression of GCN5 alleviated fibrosis in bleomycin-treated mice. CONCLUSIONS: Our findings identify GCN5 as a novel upstream regulator of the LKB1-AMPK signaling in lung epithelial cells. GCN5 deficiency in fibrotic conditions reduces LKB1 acetylation and disrupts epithelial homeostasis, facilitating EMT and fibrosis progression. Restoring GCN5 expression rescues this signaling axis and mitigates fibrosis, highlighting its potential as a therapeutic target of IPF.",
+    "keywords": [
+      "AMPK",
+      "Epithelial-to-mesenchymal transition",
+      "GCN5",
+      "LKB1",
+      "Pulmonary fibrosis",
+      "TGF-beta"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "*Signal Transduction",
+      "p300-CBP-Associated Factor",
+      "*AMP-Activated Protein Kinases/metabolism",
+      "AMP-Activated Protein Kinase Kinases",
+      "Mice",
+      "*p300-CBP Transcription Factors/deficiency/metabolism/genetics",
+      "*Pulmonary Fibrosis/pathology/metabolism",
+      "Acetylation",
+      "Bleomycin",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Byun, Seunghee",
+        "Kim, Hyunsik",
+        "Lee, Sun-Ho",
+        "Kwon, Jae-Hwan",
+        "Kim, Hyunseung",
+        "Sohn, Myung Hyun",
+        "Shim, Hyo Sup",
+        "Park, Moo Suk",
+        "Lee, Chun Geun",
+        "Elias, Jack A",
+        "Yoo, Jung-Yoon",
+        "Park, Soo-Yeon",
+        "Yoon, Ho-Geun"
+      ],
+      "short_names": [
+        "Byun S",
+        "Kim H",
+        "Lee SH",
+        "Kwon JH",
+        "Kim H",
+        "Sohn MH",
+        "Shim HS",
+        "Park MS",
+        "Lee CG",
+        "Elias JA",
+        "Yoo JY",
+        "Park SY",
+        "Yoon HG"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1178-7163",
+        "ORCID: 0000-0003-3743-9554",
+        "ORCID: 0000-0003-2718-3372"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea.",
+        "Department of Pediatrics and Institute of Allergy, Severance Medical Research Institute, Yonsei University College of Medicine, Seoul, Korea.",
+        "Department of Pathology, Yonsei University College of Medicine, Seoul, Korea.",
+        "Division of Pulmonary and Critical Care Medicine, Department of Internal Medicine, Yonsei University College of Medicine, Seoul, Korea.",
+        "Hanyang University, Intercollege, Seoul, Korea.",
+        "Department of Molecular Biology, Cell Biology and Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology and Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Biomedical Laboratory Science, Yonsei University MIRAE Campus, Wonju, Korea.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea. SOOYEONP@yuhs.ac.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea. YHGEUN@yuhs.ac."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Byun, Seunghee",
+        "short_name": "Byun S",
+        "identifiers": [
+          "0000-0003-1178-7163"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyunsik",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sun-Ho",
+        "short_name": "Lee SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Jae-Hwan",
+        "short_name": "Kwon JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyunseung",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea."
+        ]
+      },
+      {
+        "full_name": "Sohn, Myung Hyun",
+        "short_name": "Sohn MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Institute of Allergy, Severance Medical Research Institute, Yonsei University College of Medicine, Seoul, Korea."
+        ]
+      },
+      {
+        "full_name": "Shim, Hyo Sup",
+        "short_name": "Shim HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Yonsei University College of Medicine, Seoul, Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Moo Suk",
+        "short_name": "Park MS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Department of Internal Medicine, Yonsei University College of Medicine, Seoul, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Chun Geun",
+        "short_name": "Lee CG",
+        "identifiers": [],
+        "affiliations": [
+          "Hanyang University, Intercollege, Seoul, Korea.",
+          "Department of Molecular Biology, Cell Biology and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Elias, Jack A",
+        "short_name": "Elias JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Yoo, Jung-Yoon",
+        "short_name": "Yoo JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Laboratory Science, Yonsei University MIRAE Campus, Wonju, Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Soo-Yeon",
+        "short_name": "Park SY",
+        "identifiers": [
+          "0000-0003-3743-9554"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea. SOOYEONP@yuhs.ac."
+        ]
+      },
+      {
+        "full_name": "Yoon, Ho-Geun",
+        "short_name": "Yoon HG",
+        "identifiers": [
+          "0000-0003-2718-3372"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul, 120-752, Korea. YHGEUN@yuhs.ac."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2026 Apr 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/21 13:12",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40887504",
+      "40616946",
+      "40588562",
+      "40036356",
+      "39744946",
+      "39538298",
+      "39342428",
+      "39278511",
+      "38718835",
+      "38684869",
+      "38558961",
+      "38484858",
+      "38222900",
+      "37748678",
+      "37569787",
+      "37524875",
+      "37352700",
+      "37291214",
+      "36899949",
+      "36276641",
+      "35835853",
+      "35486072",
+      "35182065",
+      "35126134",
+      "34929209",
+      "34557100",
+      "34418430",
+      "34399790",
+      "33443284",
+      "33278637",
+      "33040052",
+      "32827753",
+      "31878840",
+      "31750630",
+      "31391462",
+      "31217475",
+      "31195981",
+      "31110176",
+      "31032489",
+      "30704705",
+      "30224453",
+      "30119248",
+      "30111332",
+      "30021582",
+      "29967351",
+      "29742380",
+      "29454793",
+      "29405707",
+      "29052582",
+      "27576730",
+      "26410586",
+      "26193119",
+      "24560906",
+      "24126595",
+      "23612973",
+      "22854509",
+      "21892142",
+      "21727191",
+      "21719092",
+      "21450399",
+      "20660310",
+      "20207041",
+      "19892943",
+      "19857272",
+      "18687677",
+      "18250273",
+      "18250161",
+      "16820531",
+      "16756488",
+      "15946381",
+      "15855634",
+      "15289506",
+      "14985505",
+      "14976552",
+      "9727487"
+    ],
+    "similar": [
+      "42010671",
+      "41674175",
+      "41053564",
+      "39190377",
+      "32083406",
+      "42482016",
+      "28947430",
+      "42364821",
+      "37950757",
+      "36823409",
+      "38245795",
+      "42174588",
+      "38972238",
+      "41625126",
+      "32781391",
+      "27439438",
+      "38493719",
+      "29045477",
+      "41854627",
+      "30082522",
+      "42530078",
+      "42320722",
+      "40898190",
+      "35882062",
+      "29609658",
+      "28493530",
+      "31775746",
+      "41308360",
+      "38861338",
+      "22353783",
+      "40111939",
+      "41552925",
+      "34681813",
+      "23587332",
+      "41587695",
+      "42480677",
+      "39326733",
+      "42120512",
+      "29971947",
+      "42276357",
+      "42143357",
+      "41966774",
+      "41780616",
+      "39001907",
+      "41622390",
+      "42009955",
+      "32019905",
+      "41347324",
+      "28628912",
+      "40639873",
+      "39574172",
+      "29158503",
+      "24095924",
+      "42094605",
+      "38006284",
+      "41878126",
+      "19565505",
+      "38852093",
+      "42204416",
+      "28598023",
+      "30093459",
+      "33219302",
+      "42141093",
+      "37549726",
+      "37726818",
+      "37690696",
+      "40023972",
+      "30130411",
+      "40550190",
+      "39600282",
+      "26718214",
+      "28662409",
+      "27133302",
+      "39606797",
+      "39720983",
+      "41748048",
+      "32535102",
+      "41382307",
+      "39183565",
+      "24276150",
+      "26151196",
+      "21871427",
+      "27576730",
+      "40617369",
+      "40723921",
+      "42026450",
+      "40000880",
+      "22318606",
+      "32187849",
+      "33784491",
+      "40855210",
+      "17178917",
+      "37428102",
+      "41796998",
+      "32619930",
+      "41581345",
+      "40532575",
+      "38670401",
+      "22241478",
+      "39438470"
+    ],
+    "review": [
+      "42010671"
+    ],
+    "pmc": [
+      "13224593"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-026-02757-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pulmonaryfibrosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Fibrosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42010671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

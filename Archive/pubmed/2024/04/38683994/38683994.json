@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "38683994",
+    "doi": "10.1073/pnas.2311685121",
+    "title": "A time-resolved single-cell roadmap of the logic driving anterior neural crest diversification from neural border to migration stages."
+  },
+  "content": {
+    "abstract": "Neural crest cells exemplify cellular diversification from a multipotent progenitor population. However, the full sequence of early molecular choices orchestrating the emergence of neural crest heterogeneity from the embryonic ectoderm remains elusive. Gene-regulatory-networks (GRN) govern early development and cell specification toward definitive neural crest. Here, we combine ultradense single-cell transcriptomes with machine-learning and large-scale transcriptomic and epigenomic experimental validation of selected trajectories, to provide the general principles and highlight specific features of the GRN underlying neural crest fate diversification from induction to early migration stages using Xenopus frog embryos as a model. During gastrulation, a transient neural border zone state precedes the choice between neural crest and placodes which includes multiple converging gene programs. During neurulation, transcription factor connectome, and bifurcation analyses demonstrate the early emergence of neural crest fates at the neural plate stage, alongside an unbiased multipotent-like lineage persisting until epithelial-mesenchymal transition stage. We also decipher circuits driving cranial and vagal neural crest formation and provide a broadly applicable high-throughput validation strategy for investigating single-cell transcriptomes in vertebrate GRNs in development, evolution, and disease.",
+    "keywords": [
+      "Xenopus",
+      "gene regulatory networks",
+      "neural border",
+      "neural crest",
+      "single-cell transcriptomes"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Neural Crest/cytology/metabolism",
+      "*Single-Cell Analysis/methods",
+      "*Xenopus laevis/embryology",
+      "Gene Expression Regulation, Developmental",
+      "Cell Movement",
+      "Gene Regulatory Networks",
+      "Transcriptome",
+      "Gastrulation",
+      "Neural Plate/metabolism/embryology/cytology",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Embryo, Nonmammalian/metabolism/cytology",
+      "Neurulation/genetics/physiology",
+      "Cell Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kotov, Aleksandr",
+        "Seal, Subham",
+        "Alkobtawi, Mansour",
+        "Kappes, Vincent",
+        "Ruiz, Sofia Medina",
+        "Arbes, Hugo",
+        "Harland, Richard M",
+        "Peshkin, Leonid",
+        "Monsoro-Burq, Anne H"
+      ],
+      "short_names": [
+        "Kotov A",
+        "Seal S",
+        "Alkobtawi M",
+        "Kappes V",
+        "Ruiz SM",
+        "Arbes H",
+        "Harland RM",
+        "Peshkin L",
+        "Monsoro-Burq AH"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2935-4737",
+        "ORCID: 0000-0003-2590-2935",
+        "ORCID: 0000-0001-6650-7937",
+        "ORCID: 0000-0001-5718-6529",
+        "ORCID: 0000-0001-8247-4880",
+        "ORCID: 0000-0003-2427-982X"
+      ],
+      "affiliations": [
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Molecular and Cell Biology Department, Genetics, Genomics and Development Division, University of California Berkeley, CA 94720.",
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Molecular and Cell Biology Department, Genetics, Genomics and Development Division, University of California Berkeley, CA 94720.",
+        "Systems Biology Division, Harvard Medical School, Boston, MA 02115.",
+        "Universite Paris-Saclay, Departement de Biologie, Faculte des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+        "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+        "Institut Universitaire de France, Paris F-75005, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kotov, Aleksandr",
+        "short_name": "Kotov A",
+        "identifiers": [
+          "0000-0003-2935-4737"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France."
+        ]
+      },
+      {
+        "full_name": "Seal, Subham",
+        "short_name": "Seal S",
+        "identifiers": [
+          "0000-0003-2590-2935"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France."
+        ]
+      },
+      {
+        "full_name": "Alkobtawi, Mansour",
+        "short_name": "Alkobtawi M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France."
+        ]
+      },
+      {
+        "full_name": "Kappès, Vincent",
+        "short_name": "Kappès V",
+        "identifiers": [
+          "0000-0001-6650-7937"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France."
+        ]
+      },
+      {
+        "full_name": "Ruiz, Sofia Medina",
+        "short_name": "Ruiz SM",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cell Biology Department, Genetics, Genomics and Development Division, University of California Berkeley, CA 94720."
+        ]
+      },
+      {
+        "full_name": "Arbès, Hugo",
+        "short_name": "Arbès H",
+        "identifiers": [
+          "0000-0001-5718-6529"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France."
+        ]
+      },
+      {
+        "full_name": "Harland, Richard M",
+        "short_name": "Harland RM",
+        "identifiers": [
+          "0000-0001-8247-4880"
+        ],
+        "affiliations": [
+          "Molecular and Cell Biology Department, Genetics, Genomics and Development Division, University of California Berkeley, CA 94720."
+        ]
+      },
+      {
+        "full_name": "Peshkin, Leonid",
+        "short_name": "Peshkin L",
+        "identifiers": [],
+        "affiliations": [
+          "Systems Biology Division, Harvard Medical School, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Monsoro-Burq, Anne H",
+        "short_name": "Monsoro-Burq AH",
+        "identifiers": [
+          "0000-0003-2427-982X"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Département de Biologie, Faculté des Sciences d'Orsay, Signalisation Radiobiology and Cancer, CNRS UMR 3347, INSERM U1021, Orsay F-91405, France.",
+          "Institut Curie Research Division, Paris Science et Lettres Research University, Orsay F-91405, France.",
+          "Institut Universitaire de France, Paris F-75005, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 May 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/29 18:42",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42148305",
+      "41959073",
+      "41676591",
+      "41217573",
+      "40428399",
+      "39848838",
+      "39443803",
+      "39092608"
+    ],
+    "refs": [
+      "37530410",
+      "37027470",
+      "36394263",
+      "35088714",
+      "35020873",
+      "34936864",
+      "34324991",
+      "34161771",
+      "34074534",
+      "33767165",
+      "33542111",
+      "33364980",
+      "33324244",
+      "33286070",
+      "32243782",
+      "31792380",
+      "31553905",
+      "31178118",
+      "30914743",
+      "30445495",
+      "30127638",
+      "30012125",
+      "29921301",
+      "29700229",
+      "29700227",
+      "29409532",
+      "29199959",
+      "29134414",
+      "29049289",
+      "29038306",
+      "28621417",
+      "28355135",
+      "28322736",
+      "27941783",
+      "27475627",
+      "25748934",
+      "25124756",
+      "24914678",
+      "24637938",
+      "24616412",
+      "24389048",
+      "24321819",
+      "24064036",
+      "23615280",
+      "23509273",
+      "23034628",
+      "22394485",
+      "22318231",
+      "21169220",
+      "20683859",
+      "19235729",
+      "17409353",
+      "16943273",
+      "16688176",
+      "15843410",
+      "15691759",
+      "15464575",
+      "11807034",
+      "10354471"
+    ],
+    "similar": [
+      "38683994",
+      "40939754",
+      "29049289",
+      "29852131",
+      "35088714",
+      "30016640",
+      "27578181",
+      "24009035",
+      "21687713",
+      "21358802",
+      "22318231",
+      "22305800",
+      "31702881",
+      "41235466",
+      "33465092",
+      "41781486",
+      "17436284",
+      "19575671",
+      "41718037",
+      "34389276",
+      "24321819",
+      "12791268",
+      "29347911",
+      "40292574",
+      "38825188",
+      "11784112",
+      "40204259",
+      "38940470",
+      "29859890",
+      "30286071",
+      "20130577",
+      "24038420",
+      "27101845",
+      "37530410",
+      "23135395",
+      "30012125",
+      "29932896",
+      "26806704",
+      "24509349",
+      "20962584",
+      "11807034",
+      "29571614",
+      "28695961",
+      "21501576",
+      "8305705",
+      "22547091",
+      "30144418",
+      "35013168",
+      "25531524",
+      "18536035",
+      "37756587",
+      "23509273",
+      "18637521",
+      "27940157",
+      "12490555",
+      "30069052",
+      "8806833",
+      "26288816",
+      "40449070",
+      "9891884",
+      "30977071",
+      "29038306",
+      "21989028",
+      "41611698",
+      "24357413",
+      "23712262",
+      "28663133",
+      "10926761",
+      "15326190",
+      "31369820",
+      "25346532",
+      "21963426",
+      "28851604",
+      "19104059",
+      "26839343",
+      "34990731",
+      "30079980",
+      "28142205",
+      "19944089",
+      "24360906",
+      "29443958",
+      "22639388",
+      "10235385",
+      "30194538",
+      "22309705",
+      "34968443",
+      "12710955",
+      "22820859",
+      "18523435",
+      "15772131",
+      "36162552",
+      "28095644",
+      "25286121",
+      "22119055",
+      "31848212",
+      "34046642",
+      "34074534",
+      "40580645",
+      "14627721",
+      "32857981"
+    ],
+    "review": [
+      "38683994",
+      "29852131",
+      "24009035",
+      "22305800",
+      "31702881",
+      "41781486",
+      "19575671",
+      "24321819",
+      "40204259",
+      "29859890",
+      "20962584",
+      "29571614",
+      "21501576",
+      "22547091",
+      "9891884",
+      "28851604",
+      "10235385",
+      "18523435",
+      "28095644",
+      "34046642"
+    ],
+    "pmc": [
+      "11087755"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2311685121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38683994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/5nk658cd",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse198491",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

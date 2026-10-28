@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "33941776",
+    "doi": "10.1038/s41467-021-22653-8",
+    "title": "Learning a genome-wide score of human-mouse conservation at the functional genomics level."
+  },
+  "content": {
+    "abstract": "Identifying genomic regions with functional genomic properties that are conserved between human and mouse is an important challenge in the context of mouse model studies. To address this, we develop a method to learn a score of evidence of conservation at the functional genomics level by integrating information from a compendium of epigenomic, transcription factor binding, and transcriptomic data from human and mouse. The method, Learning Evidence of Conservation from Integrated Functional genomic annotations (LECIF), trains neural networks to generate this score for the human and mouse genomes. The resulting LECIF score highlights human and mouse regions with shared functional genomic properties and captures correspondence of biologically similar human and mouse annotations. Analysis with independent datasets shows the score also highlights loci associated with similar phenotypes in both species. LECIF will be a resource for mouse model studies by identifying loci whose functional genomic properties are likely conserved.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Computational Biology/*methods",
+      "DNA/*genetics",
+      "Epigenomics/methods",
+      "Genome, Human/*genetics",
+      "Genomics/methods",
+      "Humans",
+      "Mice",
+      "Sequence Analysis, DNA",
+      "*Sequence Homology, Nucleic Acid",
+      "Transcriptome/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kwon, Soo Bin",
+        "Ernst, Jason"
+      ],
+      "short_names": [
+        "Kwon SB",
+        "Ernst J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8670-0993",
+        "ORCID: 0000-0003-4026-7853"
+      ],
+      "affiliations": [
+        "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA, USA.",
+        "Department of Biological Chemistry, University of California, Los Angeles, CA, USA.",
+        "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Department of Biological Chemistry, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research at University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Computer Science Department, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Department of Computational Medicine, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+        "Molecular Biology Institute, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kwon, Soo Bin",
+        "short_name": "Kwon SB",
+        "identifiers": [
+          "0000-0002-8670-0993"
+        ],
+        "affiliations": [
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA, USA.",
+          "Department of Biological Chemistry, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ernst, Jason",
+        "short_name": "Ernst J",
+        "identifiers": [
+          "0000-0003-4026-7853"
+        ],
+        "affiliations": [
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Department of Biological Chemistry, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research at University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Computer Science Department, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Department of Computational Medicine, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu.",
+          "Molecular Biology Institute, University of California, Los Angeles, CA, USA. jason.ernst@ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/05 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42261595",
+      "42204332",
+      "41557834",
+      "41229401",
+      "40829781",
+      "40692264",
+      "40305227",
+      "38951027",
+      "38411627",
+      "38167462",
+      "37868039",
+      "37370147",
+      "37004197",
+      "36762127",
+      "35145108"
+    ],
+    "refs": [
+      "33290178",
+      "32912065",
+      "32728240",
+      "31696236",
+      "31343992",
+      "31286065",
+      "30478323",
+      "30445434",
+      "30407534",
+      "30124842",
+      "30038396",
+      "29608179",
+      "29140470",
+      "29022597",
+      "28892061",
+      "28850106",
+      "28781712",
+      "27920675",
+      "26414678",
+      "26414677",
+      "26147120",
+      "25723102",
+      "25693563",
+      "25690853",
+      "25635462",
+      "25565211",
+      "25411453",
+      "25409826",
+      "25409824",
+      "25056061",
+      "24670763",
+      "24487584",
+      "24390342",
+      "23722424",
+      "23258891",
+      "23044826",
+      "22955616",
+      "22885922",
+      "22689770",
+      "22495300",
+      "22373907",
+      "22012392",
+      "21993624",
+      "21628450",
+      "21620139",
+      "21378990",
+      "21152010",
+      "21076408",
+      "20702396",
+      "20686565",
+      "20083321",
+      "19858363",
+      "19478016",
+      "19450229",
+      "19348700",
+      "18584029",
+      "17529977",
+      "16024819",
+      "12529312",
+      "11472989",
+      "11125122"
+    ],
+    "similar": [
+      "33941776",
+      "26508757",
+      "31286065",
+      "30169659",
+      "28742084",
+      "31847308",
+      "15282556",
+      "15865625",
+      "33064305",
+      "33686085",
+      "24497842",
+      "30578416",
+      "29433427",
+      "11473003",
+      "32687525",
+      "23454638",
+      "29363107",
+      "28398576",
+      "33219670",
+      "11466974",
+      "33103271",
+      "27574198",
+      "12537546",
+      "29379090",
+      "18166073",
+      "15499578",
+      "15944804",
+      "19052060",
+      "25676071",
+      "32528107",
+      "29028263",
+      "24804244",
+      "16459073",
+      "16835441",
+      "26888907",
+      "14512608",
+      "30547397",
+      "31418018",
+      "31661923",
+      "25677182",
+      "21590409",
+      "15285898",
+      "10802652",
+      "17568128",
+      "16012775",
+      "27039767",
+      "17446117",
+      "33317201",
+      "30629591",
+      "28076869",
+      "15545710",
+      "29277877",
+      "29059324",
+      "24753594",
+      "33127893",
+      "12783626",
+      "32822049",
+      "28899353",
+      "11337476",
+      "33154517",
+      "29561833",
+      "30359745",
+      "15790398",
+      "22449051",
+      "15590941",
+      "23956260",
+      "37868039",
+      "20647113",
+      "32325634",
+      "35317627",
+      "33966052",
+      "23629550",
+      "33297292",
+      "25275169",
+      "25107292"
+    ],
+    "review": [
+      "33941776",
+      "15282556",
+      "24497842",
+      "29363107",
+      "15499578",
+      "16459073",
+      "16835441",
+      "33317201",
+      "28076869",
+      "15545710",
+      "24753594"
+    ],
+    "pmc": [
+      "8093196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22653-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33941776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33941776",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt0s50j8n8",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://scite.ai/reports/33941776",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

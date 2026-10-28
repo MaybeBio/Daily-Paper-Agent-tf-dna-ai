@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report a computational study of three flavone compounds (flavone, baicalein, chrysin) binding to the CREB1 G-quadruplex (CR-GQ). They claim stable complex formation over 100 ns molecular dynamics simulations, energetically favourable binding based on MM-PBSA and umbrella sampling, and drug-like pharmacokinetic properties for the compounds.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or simulation parameters are provided.
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choices, docking protocols, convergence criteria, error estimates, pharmacokinetic prediction details, and all primary data outputs.
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational docking and molecular dynamics study of flavone derivatives with a G-quadruplex target. The work is technically plausible but the evidence base is too limited to assess the validity of the quantitative claims. The central conclusion that baicalein and chrysin are energetically more favourable binders than flavone rests on single-point MM-PBSA estimates without reported statistical uncertainty. The study is of narrow scope and incremental nature, and the abstract does not demonstrate a methodological advance or a biologically validated outcome.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and G-quadruplex biology may find the data useful as a preliminary screen for flavone-based stabilizers of CREB1 GQ. The work could inform future experimental validation studies, but the current evidence does not support direct therapeutic claims.
+- **Major strengths** The study addresses a relevant target in cancer biology. The use of multiple computational methods (docking, MD, umbrella sampling, MM-PBSA) is appropriate for a preliminary binding assessment. The comparison of three related compounds provides a modest structure-activity perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim validity
+  - **Claim pointer** "The binding free energies estimated from MM-PBSA were -47.95, -107.55 and -98.28 kcal/mol, respectively, for flavone, baicalein and chrysin, showing that baicalein and chrysin bind with lower energy than flavone."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The MM-PBSA values are reported as single numbers without standard deviation, standard error, or replicate information. MM-PBSA is known to be sensitive to trajectory length, solute dielectric constant, and entropy contributions, none of which are described. The 60 kcal/mol difference between flavone and baicalein is unusually large and may reflect artefacts rather than genuine binding differences.
+  - **Why it matters** The central ranking conclusion depends entirely on these energy values. Without uncertainty estimates and methodological details, the reader cannot judge whether the reported differences are statistically meaningful or within the noise of the method.
+  - **Resolution test** Provide mean and standard deviation from at least three independent MD runs per complex, specify all MM-PBSA parameters, and show that the ranking is robust to reasonable parameter variation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "The binding free energies and the estimated minimum values in the potential of mean force suggest that the binding reaction is energetically favourable."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports no numerical values from the umbrella sampling or potential of mean force analysis. The claim of energetic favourability is therefore not quantitatively supported. Additionally, the relationship between MM-PBSA binding free energy and PMF minimum is not explained, and the two quantities may not be directly comparable.
+  - **Why it matters** The abstract makes a dual quantitative claim but provides only one set of numbers. The PMF result is a key independent check on the MM-PBSA ranking, and its absence weakens the overall conclusion.
+  - **Resolution test** Report the PMF minimum values for each complex, the associated error bars, and a brief statement of how these compare with the MM-PBSA estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Pharmacokinetic claim support
+  - **Claim pointer** "The studied phytochemicals exhibit pharmacokinetic properties, suggesting their potential as promising drug candidates targeting CR-GQ."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the compounds exhibit pharmacokinetic properties but provides no data, no prediction method, and no criteria for what constitutes a favourable property. The leap from computational ADMET predictions to "promising drug candidates" is not justified without experimental or at least detailed in silico evidence.
+  - **Why it matters** This claim extends beyond the binding study into drug development territory. Overstating the translational relevance of computational predictions can mislead readers and is not supported by the presented evidence.
+  - **Resolution test** Provide the specific pharmacokinetic parameters predicted, the software used, and a comparison with known drug-likeness thresholds. Soften the conclusion to reflect the preliminary nature of the predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Simulation protocol
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the force field, water model, salt concentration, or temperature used in the MD simulations. These parameters materially affect the results.
+  - **Required correction** Add a brief methods summary in the abstract or state that full details are in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretive precision
+  - **Affected element** Stability claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "Root mean square deviations and root mean square fluctuation values indicate that the GQ DNA-ligand system is stable throughout the simulations" is a qualitative statement. Stability over 100 ns does not guarantee convergence or biological relevance.
+  - **Required correction** Report the actual RMSD and RMSF ranges and state whether the systems reached equilibrium within the simulation time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interaction analysis completeness
+  - **Affected element** Driving forces claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lists hydrogen bonds, pi-pi interactions, and van der Waals interactions as major driving forces but does not quantify their relative contributions or occupancy over the trajectory.
+  - **Required correction** Provide occupancy percentages or interaction energy decomposition to support the qualitative ranking of interaction types.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the quantitative binding ranking and the energetic favourability claim are not verifiable from the provided evidence. The absence of error estimates and PMF values means the central conclusions are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: Low to moderate. The application of standard docking and MD methods to a new target is incremental. Scientific importance: Moderate. G-quadruplex stabilization is a relevant cancer strategy, but the study does not provide experimental validation or a new mechanistic insight. Interdisciplinary readership: Limited. The work is primarily of interest to computational biophysicists and medicinal chemists. Technical soundness: Not assessable from the abstract alone. The methods are standard but the reported numbers lack statistical context. Readability for nonspecialists: The abstract is clear but uses technical terms without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be publishable in a specialised computational journal after the blocking concerns are resolved, but it does not meet the threshold for a high-impact general journal based on the abstract alone.
+
+## Risk / unsupported claims
+- The quantitative MM-PBSA binding free energy ranking is unsupported without error estimates and methodological details.
+- The claim of energetically favourable binding based on PMF is unsupported because no PMF values are reported.
+- The pharmacokinetic and drug candidate claim is unsupported by any presented data.
+- The stability claim is weakly supported by qualitative RMSD/RMSF statements without numerical values.
+- The relative importance of hydrogen bonds, pi-pi interactions, and van der Waals interactions is asserted without quantitative evidence.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35456427",
+  "title": "InsuLock: A Weakly Supervised Learning Approach for Accurate Insulator Prediction, and Variant Impact Quantification.",
+  "authors": "Srinivasan, Shushrruth Sai; Gong, Yanwen; Xu, Siwei; Hwang, Ahyeon; Xu, Min; Girgenti, Matthew J; Zhang, Jing",
+  "journal": "Genes",
+  "published_date": "2022-04-24",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用弱监督深度学习预测染色质绝缘子环并量化变异影响，虽涉及DNA调控元件但非蛋白质-DNA互作体系，且无结合建模或TF-DNA机制研究，仅方法上可部分借鉴。",
+  "abstract": "Mapping chromatin insulator loops is crucial to investigating genome evolution, elucidating critical biological functions, and ultimately quantifying variant impact in diseases. However, chromatin conformation profiling assays are usually expensive, time-consuming, and may report fuzzy insulator annotations with low resolution. Therefore, we propose a weakly supervised deep learning method, InsuLock, to address these challenges. Specifically, InsuLock first utilizes a Siamese neural network to predict the existence of insulators within a given region (up to 2000 bp). Then, it uses an object detection module for precise insulator boundary localization via gradient-weighted class activation mapping (~40 bp resolution). Finally, it quantifies variant impacts by comparing the insulator score differences between the wild-type and mutant alleles. We applied InsuLock on various bulk and single-cell datasets for performance testing and benchmarking. We showed that it outperformed existing methods with an AUROC of ~0.96 and condensed insulator annotations to ~2.5% of their original size while still demonstrating higher conservation scores and better motif enrichments. Finally, we utilized InsuLock to make cell-type-specific variant impacts from brain scATAC-seq data and identified a schizophrenia GWAS variant disrupting an insulator loop proximal to a known risk gene, indicating a possible new mechanism of action for the disease.",
+  "abstract_zh": "绘制染色质绝缘子环对于研究基因组进化、阐明关键生物学功能以及最终量化疾病中的变异影响至关重要。然而，染色质构象分析测定通常成本高昂、耗时，且可能以低分辨率报告模糊的绝缘子注释。因此，我们提出了一种弱监督深度学习方法InsuLock，以应对这些挑战。具体而言，InsuLock首先利用Siamese神经网络预测给定区域（最长2000 bp）内绝缘子的存在性。然后，它使用目标检测模块，通过梯度加权类激活映射（约40 bp分辨率）实现精确的绝缘子边界定位。最后，它通过比较野生型和突变型等位基因之间的绝缘子评分差异来量化变异影响。我们将InsuLock应用于多种批量及单细胞数据集进行性能测试和基准评估。我们证明，其性能优于现有方法，AUROC约为0.96，并将绝缘子注释压缩至原始大小的约2.5%，同时仍显示出更高的保守性评分和更好的基序富集。最后，我们利用InsuLock从脑scATAC-seq数据中生成细胞类型特异性的变异影响，并识别出一个精神分裂症GWAS变异，该变异破坏了已知风险基因附近的绝缘子环，提示该疾病可能存在新的作用机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35456427/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35456427/",
+  "paper_page_path": "papers/pubmed/35456427/index.html"
+}

@@ -1,0 +1,447 @@
+{
+  "identity": {
+    "pmid": "35897709",
+    "doi": "10.3390/ijms23158135",
+    "title": "The Role of Pyrazolopyridine Derivatives on Different Steps of Herpes Simplex Virus Type-1 In Vitro Replicative Cycle."
+  },
+  "content": {
+    "abstract": "Herpes simplex virus type-1 (HSV-1) infection causes several disorders, and acyclovir is used as a reference compound. However, resistant strains are commonly observed. Herein, we investigate the effects of N-heterocyclic compounds (pyrazolopyridine derivatives), named ARA-04, ARA-05, and AM-57, on HSV-1 in vitro replication. We show that the 50% effective concentration (EC(50)) values of the compounds ARA-04, ARA-05, and AM-57 were 1.00 +/- 0.10, 1.00 +/- 0.05, and 0.70 +/- 0.10 microM, respectively. These compounds presented high 50% cytotoxic concentration (CC(50)) values, which resulted in a selective index (SI) of 1000, 1000, and 857.1 for ARA-04, ARA-05, and AM-57, respectively. To gain insight into which step of the HSV-1 replication cycle these molecules would impair, we performed adsorption and penetration inhibition assays and time-of-addition experiments. Our results indicated that ARA-04 and ARA-05 affected viral adsorption, while AM-57 interfered with the virus replication during its alpha- and gamma-phases and decreased ICP27 content during initial and late events of HSV-1 replication. In addition, we also observed that AM-57 caused a strong decrease in viral gD content, which was reinforced by in silico calculations that suggested AM-57 interacts preferentially with the viral complex between a general transcription factor and virion protein (TFIIBc-VP16). In contrast, ARA-04 and ARA-05 interact preferentially in the proteins responsible for the viral adsorption process (nectin-1 and glycoprotein). Thus, our results suggest that the 1H-pyrazolo[3,4-b]pyridine derivatives inhibit the HSV-1 replicative cycle with a novel mechanism of action, and its scaffold can be used as a template for the synthesis of promising new molecules with antiviral effects, including to reinforce the presented data herein for a limited number of molecules.",
+    "keywords": [
+      "HSV-1",
+      "ICP-27",
+      "antiviral",
+      "gD",
+      "molecular docking",
+      "pyrazolopyridine"
+    ],
+    "mesh_terms": [
+      "Acyclovir/pharmacology",
+      "Animals",
+      "Antiviral Agents/pharmacology/therapeutic use",
+      "Chlorocebus aethiops",
+      "*Herpes Simplex/drug therapy",
+      "*Herpesviridae Infections/drug therapy",
+      "*Herpesvirus 1, Human/physiology",
+      "Pyrazoles",
+      "Pyridines/pharmacology/therapeutic use",
+      "Vero Cells",
+      "Virus Replication"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miranda, Milene D",
+        "Chaves, Otavio Augusto",
+        "Rosa, Alice S",
+        "Azevedo, Alexandre R",
+        "Pinheiro, Luiz Carlos da Silva",
+        "Soares, Vinicius C",
+        "Dias, Suelen S G",
+        "Abrantes, Juliana L",
+        "Bernardino, Alice Maria R",
+        "Paixao, Izabel C P",
+        "Souza, Thiago Moreno L",
+        "Fontes, Carlos Frederico L"
+      ],
+      "short_names": [
+        "Miranda MD",
+        "Chaves OA",
+        "Rosa AS",
+        "Azevedo AR",
+        "Pinheiro LCDS",
+        "Soares VC",
+        "Dias SSG",
+        "Abrantes JL",
+        "Bernardino AMR",
+        "Paixao ICP",
+        "Souza TML",
+        "Fontes CFL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0037-059X",
+        "ORCID: 0000-0001-6211-7659",
+        "ORCID: 0000-0001-5294-3674",
+        "ORCID: 0000-0002-6398-7717",
+        "ORCID: 0000-0002-0552-5995",
+        "ORCID: 0000-0002-3104-0983",
+        "ORCID: 0000-0003-2212-3899",
+        "ORCID: 0000-0002-9384-0898"
+      ],
+      "affiliations": [
+        "Laboratorio de Morfologia e Morfogenese Viral, Instituto Oswaldo Cruz, Fundacao Oswaldo Cruz, Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Laboratorio de Estrutura e Regulacao de Proteinas, Instituto de Bioquimica Medica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+        "Laboratorio de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Instituto Nacional para Ciencia e Tecnologia sobre Inovacao em Doencas de Populacoes Negligenciadas (INCT/IDPN), Centro de Desenvolvimento Tecnologico em Saude (CDTS), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Laboratorio de Morfologia e Morfogenese Viral, Instituto Oswaldo Cruz, Fundacao Oswaldo Cruz, Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Centro Universitario UniLaSalle-RJ, Departamento de Engenharia de Producao, Niteroi 24240-030, RJ, Brazil.",
+        "Departamento de Ciencias, Faculdade de Formacao de Professores, Universidade do Estado do Rio de Janeiro, Sao Goncalo 24435-005, RJ, Brazil.",
+        "Laboratorio de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Programa de Imunologia e Inflamacao, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+        "Laboratorio de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Laboratorio de Estrutura e Regulacao de Proteinas, Instituto de Bioquimica Medica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+        "Instituto de Ciencias Biomedicas (ICB), Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+        "Laboratorio de Virologia Molecular, Instituto de Biologia, Programa de Pos-graduacao em Ciencias e Biotecnologia, Programa em Neurologia e Neurociencias e Programa de Biotecnologia Marinha, Universidade Federal Fluminense, Niteroi 24210-201, RJ, Brazil.",
+        "Instituto de Quimica, Departamento de Quimica Organica, Programa de Pos-graduacao em Quimica, Universidade Federal Fluminense, Niteroi 24020-007, RJ, Brazil.",
+        "Laboratorio de Virologia Molecular, Instituto de Biologia, Programa de Pos-graduacao em Ciencias e Biotecnologia, Programa em Neurologia e Neurociencias e Programa de Biotecnologia Marinha, Universidade Federal Fluminense, Niteroi 24210-201, RJ, Brazil.",
+        "Laboratorio de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Instituto Nacional para Ciencia e Tecnologia sobre Inovacao em Doencas de Populacoes Negligenciadas (INCT/IDPN), Centro de Desenvolvimento Tecnologico em Saude (CDTS), Fundacao Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+        "Laboratorio de Estrutura e Regulacao de Proteinas, Instituto de Bioquimica Medica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miranda, Milene D",
+        "short_name": "Miranda MD",
+        "identifiers": [
+          "0000-0003-0037-059X"
+        ],
+        "affiliations": [
+          "Laboratório de Morfologia e Morfogênese Viral, Instituto Oswaldo Cruz, Fundação Oswaldo Cruz, Rio de Janeiro 21040-360, RJ, Brazil.",
+          "Laboratório de Estrutura e Regulação de Proteínas, Instituto de Bioquímica Médica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Chaves, Otávio Augusto",
+        "short_name": "Chaves OA",
+        "identifiers": [
+          "0000-0001-6211-7659"
+        ],
+        "affiliations": [
+          "Laboratório de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+          "Instituto Nacional para Ciência e Tecnologia sobre Inovação em Doenças de Populações Negligenciadas (INCT/IDPN), Centro de Desenvolvimento Tecnológico em Saúde (CDTS), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Rosa, Alice S",
+        "short_name": "Rosa AS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Morfologia e Morfogênese Viral, Instituto Oswaldo Cruz, Fundação Oswaldo Cruz, Rio de Janeiro 21040-360, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Azevedo, Alexandre R",
+        "short_name": "Azevedo AR",
+        "identifiers": [
+          "0000-0001-5294-3674"
+        ],
+        "affiliations": [
+          "Centro Universitário UniLaSalle-RJ, Departamento de Engenharia de Produção, Niterói 24240-030, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Pinheiro, Luiz Carlos da Silva",
+        "short_name": "Pinheiro LCDS",
+        "identifiers": [
+          "0000-0002-6398-7717"
+        ],
+        "affiliations": [
+          "Departamento de Ciências, Faculdade de Formação de Professores, Universidade do Estado do Rio de Janeiro, São Gonçalo 24435-005, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Soares, Vinicius C",
+        "short_name": "Soares VC",
+        "identifiers": [
+          "0000-0002-0552-5995"
+        ],
+        "affiliations": [
+          "Laboratório de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+          "Programa de Imunologia e Inflamação, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Dias, Suelen S G",
+        "short_name": "Dias SSG",
+        "identifiers": [
+          "0000-0002-3104-0983"
+        ],
+        "affiliations": [
+          "Laboratório de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Abrantes, Juliana L",
+        "short_name": "Abrantes JL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Estrutura e Regulação de Proteínas, Instituto de Bioquímica Médica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+          "Instituto de Ciências Biomédicas (ICB), Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil.",
+          "Laboratório de Virologia Molecular, Instituto de Biologia, Programa de Pós-graduação em Ciências e Biotecnologia, Programa em Neurologia e Neurociências e Programa de Biotecnologia Marinha, Universidade Federal Fluminense, Niterói 24210-201, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bernardino, Alice Maria R",
+        "short_name": "Bernardino AMR",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química, Departamento de Química Orgânica, Programa de Pós-graduação em Química, Universidade Federal Fluminense, Niterói 24020-007, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Paixão, Izabel C P",
+        "short_name": "Paixão ICP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Virologia Molecular, Instituto de Biologia, Programa de Pós-graduação em Ciências e Biotecnologia, Programa em Neurologia e Neurociências e Programa de Biotecnologia Marinha, Universidade Federal Fluminense, Niterói 24210-201, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Souza, Thiago Moreno L",
+        "short_name": "Souza TML",
+        "identifiers": [
+          "0000-0003-2212-3899"
+        ],
+        "affiliations": [
+          "Laboratório de Imunofarmacologia, Instituto Oswaldo Cruz (IOC), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil.",
+          "Instituto Nacional para Ciência e Tecnologia sobre Inovação em Doenças de Populações Negligenciadas (INCT/IDPN), Centro de Desenvolvimento Tecnológico em Saúde (CDTS), Fundação Oswaldo Cruz (Fiocruz), Rio de Janeiro 21040-360, RJ, Brazil."
+        ]
+      },
+      {
+        "full_name": "Fontes, Carlos Frederico L",
+        "short_name": "Fontes CFL",
+        "identifiers": [
+          "0000-0002-9384-0898"
+        ],
+        "affiliations": [
+          "Laboratório de Estrutura e Regulação de Proteínas, Instituto de Bioquímica Médica, Programa de Biologia Estrutural, Universidade Federal do Rio de Janeiro, Rio de Janeiro 21941-902, RJ, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jul 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "39476027",
+      "37110647",
+      "36986648"
+    ],
+    "refs": [
+      "34696446",
+      "34678489",
+      "34676800",
+      "34206976",
+      "34117116",
+      "33726557",
+      "33706509",
+      "33537244",
+      "33326472",
+      "33087881",
+      "32825127",
+      "32514197",
+      "32422002",
+      "32416261",
+      "32377993",
+      "31941886",
+      "31766184",
+      "31266258",
+      "30364542",
+      "28634681",
+      "28611249",
+      "24671673",
+      "23343513",
+      "22373524",
+      "22082288",
+      "21980294",
+      "20609585",
+      "19917495",
+      "19616348",
+      "19073744",
+      "18826204",
+      "18701299",
+      "18508584",
+      "18506571",
+      "18351291",
+      "18045214",
+      "17647214",
+      "17458622",
+      "17285480",
+      "17064907",
+      "16140736",
+      "15950227",
+      "15654739",
+      "15056211",
+      "14968936",
+      "12844443",
+      "12558183",
+      "12103432",
+      "11431035",
+      "11164504",
+      "10520990",
+      "10398682",
+      "8898196",
+      "8627723",
+      "3486233",
+      "3029433",
+      "2991596"
+    ],
+    "similar": [
+      "35897709",
+      "40412773",
+      "31088925",
+      "33716051",
+      "19764012",
+      "24629600",
+      "33565598",
+      "12388715",
+      "34738452",
+      "33705354",
+      "39287456",
+      "21211557",
+      "32346764",
+      "36046872",
+      "33533233",
+      "28196487",
+      "33435520",
+      "12183238",
+      "31405197",
+      "37338788",
+      "21149921",
+      "33371809",
+      "34666109",
+      "26259812",
+      "28890393",
+      "16876885",
+      "35759241",
+      "32699090",
+      "30915606",
+      "9685239",
+      "38802860",
+      "17285480",
+      "38564935",
+      "39408931",
+      "22954898",
+      "33176697",
+      "24794394",
+      "40450985",
+      "40403497",
+      "38789457",
+      "40874743",
+      "9023706",
+      "12367721",
+      "23777309",
+      "32163870",
+      "32377993",
+      "25172789",
+      "19906941",
+      "17931712",
+      "40948202",
+      "32569704",
+      "26062546",
+      "41012707",
+      "39772124",
+      "32999028",
+      "25267681",
+      "39311585",
+      "37089702",
+      "34162786",
+      "21576438",
+      "40649726",
+      "40004002",
+      "31956052",
+      "28320320",
+      "16039862",
+      "14635018",
+      "13678235",
+      "26913545",
+      "40806319",
+      "40806646",
+      "22908173",
+      "36573068",
+      "34039377",
+      "37959793",
+      "12103432",
+      "30414908",
+      "24817544",
+      "16099899",
+      "24657267",
+      "35684303",
+      "40733507",
+      "35811028",
+      "40135897",
+      "38955885",
+      "24995383",
+      "197886",
+      "7928088",
+      "18216091",
+      "31099756",
+      "35635945",
+      "18565600",
+      "11927945",
+      "40716647",
+      "30612085",
+      "18691858",
+      "26763002",
+      "28027917",
+      "27321663",
+      "12760851",
+      "33588012"
+    ],
+    "review": [
+      "35897709",
+      "40649726"
+    ],
+    "pmc": [
+      "9332599"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23158135",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/herpessimplex.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Herpes Simplex"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35897709/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35897709",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

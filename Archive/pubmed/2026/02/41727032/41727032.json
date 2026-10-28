@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41727032",
+    "doi": "10.64898/2026.02.12.705375",
+    "title": "Discovery of TDP-43 aggregation inhibitors via a hybrid machine learning framework."
+  },
+  "content": {
+    "abstract": "TAR DNA-binding protein 43 (TDP-43) aggregation is a hallmark of several neurodegenerative diseases, including amyotrophic lateral sclerosis and frontotemporal dementia. Recent therapeutic efforts have highlighted the potential of small molecules capable of inhibiting TDP-43 aggregation; however, no effective treatments currently exist. Here, we developed a hybrid machine learning approach combining graph neural network (GNN) embeddings with traditional chemical descriptors and biological target annotations. Using XGBoost as the final classifier enabled model interpretability through SHAP analysis, allowing the identification of key chemical features and target annotations associated with TDP-43 anti-aggregation activity. Complementary Monte Carlo Tree Search analysis highlighted specific chemical substructures linked to predicted activity. By screening an external library of 3,853 small molecules, the model identified two compounds not previously evaluated against TDP-43 aggregation, namely berberrubine and PE859. Molecular docking analysis revealed that both compounds interact favourably with the TDP-43 RNA recognition motif (RRM) domain through distinct binding modes. Experimental validation showed that both compounds significantly reduced TDP-43 aggregation in HEK cells. Further testing in Caenorhabditis elegans expressing human TDP-43 demonstrated that PE859 significantly rescued locomotor defects, while berberrubine showed partial improvement. This work establishes a hybrid machine learning approach for accelerating small molecule drug discovery, yielding two promising therapeutic candidates for TDP-43 proteinopathies.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kapsiani, Sofia",
+        "Vora, Sulay",
+        "Fernandez-Villegas, Ana",
+        "Kaminski, Clemens F",
+        "Laubli, Nino F",
+        "Kaminski Schierle, Gabriele S"
+      ],
+      "short_names": [
+        "Kapsiani S",
+        "Vora S",
+        "Fernandez-Villegas A",
+        "Kaminski CF",
+        "Laubli NF",
+        "Kaminski Schierle GS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6234-8246",
+        "ORCID: 0009-0001-2437-5507",
+        "ORCID: 0000-0002-9766-8722",
+        "ORCID: 0000-0002-5194-0962",
+        "ORCID: 0000-0003-2894-2385",
+        "ORCID: 0000-0002-1843-2202"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kapsiani, Sofia",
+        "short_name": "Kapsiani S",
+        "identifiers": [
+          "0000-0001-6234-8246"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Vora, Sulay",
+        "short_name": "Vora S",
+        "identifiers": [
+          "0009-0001-2437-5507"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Fernandez-Villegas, Ana",
+        "short_name": "Fernandez-Villegas A",
+        "identifiers": [
+          "0000-0002-9766-8722"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Kaminski, Clemens F",
+        "short_name": "Kaminski CF",
+        "identifiers": [
+          "0000-0002-5194-0962"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Läubli, Nino F",
+        "short_name": "Läubli NF",
+        "identifiers": [
+          "0000-0003-2894-2385"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Kaminski Schierle, Gabriele S",
+        "short_name": "Kaminski Schierle GS",
+        "identifiers": [
+          "0000-0002-1843-2202"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, CB3 0AS, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/23 13:06",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "42383305"
+    ],
+    "refs": [
+      "40493571",
+      "40180646",
+      "40178174",
+      "39894375",
+      "39850238",
+      "39603574",
+      "39558165",
+      "39463176",
+      "39159293",
+      "38795753",
+      "38147829",
+      "38123686",
+      "37937963",
+      "37933841",
+      "37782409",
+      "37544165",
+      "37433768",
+      "37117429",
+      "36939645",
+      "35964655",
+      "35790708",
+      "34930382",
+      "34388383",
+      "34278794",
+      "33597034",
+      "33051572",
+      "32939066",
+      "32764756",
+      "32276415",
+      "32015543",
+      "32007267",
+      "31898477",
+      "31451511",
+      "30918111",
+      "29568812",
+      "29396541",
+      "28256516",
+      "28073262",
+      "27769241",
+      "25071831",
+      "25033081",
+      "24981612",
+      "21803586",
+      "20131845",
+      "20070435",
+      "19399780",
+      "16489364",
+      "11020286"
+    ],
+    "similar": [
+      "41727032",
+      "40891506",
+      "27015757",
+      "31241884",
+      "38466778",
+      "21355045",
+      "24019256",
+      "42475469",
+      "33441818",
+      "34916412",
+      "35751132",
+      "38739752",
+      "23689371",
+      "35101542",
+      "40493571",
+      "29279008",
+      "41822751",
+      "42096556",
+      "40234916",
+      "34339840",
+      "40404809",
+      "24592867",
+      "38677657",
+      "37961353",
+      "26231953",
+      "30824544",
+      "18434538",
+      "40901879",
+      "41061670",
+      "34388383",
+      "34944548",
+      "24649927",
+      "38260445",
+      "21777387",
+      "28847811",
+      "35532254",
+      "26936937",
+      "29940336",
+      "37493896",
+      "39069095",
+      "24497641",
+      "37101169",
+      "34458829",
+      "33065281",
+      "28330421",
+      "38988205",
+      "36809847",
+      "36482422",
+      "20030209",
+      "40137226",
+      "35052586",
+      "39603574",
+      "30785719",
+      "37177801",
+      "41292965",
+      "38896345",
+      "27445339",
+      "30356856",
+      "28754988",
+      "31272829",
+      "27928708",
+      "38160320",
+      "41549027",
+      "25635624",
+      "40032118",
+      "34939315",
+      "41178159",
+      "33097688",
+      "37150879",
+      "35652285",
+      "31690171",
+      "31914861",
+      "25503365",
+      "42103119",
+      "32989039",
+      "41174103",
+      "37061152",
+      "35112738",
+      "34972208",
+      "37813308",
+      "22232551",
+      "41358925",
+      "42395430",
+      "39802474",
+      "34571136",
+      "32469420",
+      "41225259",
+      "41905172",
+      "34457335",
+      "18989115",
+      "30667370",
+      "40960392",
+      "31605140",
+      "37431963",
+      "36499097",
+      "25392493",
+      "20472655",
+      "22761693",
+      "28167528",
+      "26887947"
+    ],
+    "review": [
+      "41727032",
+      "40891506",
+      "27015757",
+      "34916412",
+      "35101542",
+      "34388383",
+      "24649927",
+      "21777387",
+      "35532254",
+      "39069095",
+      "34458829",
+      "20030209",
+      "40137226",
+      "30785719",
+      "40032118",
+      "41178159",
+      "37813308",
+      "32469420"
+    ],
+    "pmc": [
+      "12918951"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41727032/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1774",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.12.705375",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

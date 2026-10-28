@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "39623320",
+    "doi": "10.1186/s12864-024-11059-7",
+    "title": "Transcriptomic analysis of regulatory mechanisms in the telogen-anagen transition of ovine hair follicles."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dorper sheep are celebrated for their fast maturation and superior meat quality, with some shedding their wool each spring. Wool shedding occurs naturally due to the hair follicle (HF) cycle, but its regulatory mechanisms remain unclear and need further investigation. RESULTS: In this study, shedding and non-shedding sheep were selected from the same Dorper flock. Skin samples were collected in September of the first year and January and March of the following years. RNA sequencing was performed on these samples. Principal component analysis (PCA) was used to assess the results. A total of 2536 differentially expressed genes (DEGs) were identified. Using a clustering heatmap and fuzzy clustering analysis three distinct gene expression patterns were identified: A pattern (high expression in anagen), T1 pattern, and T2 pattern (high expression in telogen). For each pattern, differentially expressed genes (DEGs) were analyzed through Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses. Combining this with pathway expression analysis, six A-pattern and fourteen T-pattern pathways linked to telogen-anagen transition in the HF cycle were identified. Networks of key pathways were then constructed. Additionally, key genes were identified in the telogen-anagen transition, including one A-pattern gene and seven T-pattern (T1, 1; T2, 6) genes, using the Maximal Clique Centrality (MCC) tool in Cytoscape. Predicted transcription factors (TFs) involved in key pathways, such as LEF and STAT5B, were identified. Finally, RNA-seq results were confirmed by RT-qPCR. CONCLUSION: This study highlights critical genes and pathways in the telogen-anagen transition, and transcriptome sequencing along with bioinformatics analysis provides new insights into the regulatory mechanisms of the HF cycle and development.",
+    "keywords": [
+      "Dorper sheep",
+      "Hair cycle",
+      "Hair follicle",
+      "RNA-seq",
+      "Shedding",
+      "Transcriptome analysis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hair Follicle/metabolism",
+      "Sheep/genetics",
+      "*Gene Expression Profiling",
+      "*Gene Regulatory Networks",
+      "Transcriptome",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ningyue",
+        "Wang, Yifan",
+        "Wang, Jiankui",
+        "Zhang, Liang",
+        "Sun, Haoran",
+        "Yuan, Xiaochun",
+        "Wang, Siyu",
+        "Wang, Chunguang",
+        "Li, Xinhai"
+      ],
+      "short_names": [
+        "Zhang N",
+        "Wang Y",
+        "Wang J",
+        "Zhang L",
+        "Sun H",
+        "Yuan X",
+        "Wang S",
+        "Wang C",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "Beijing Key Laboratory of Animal Genetic Improvement, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "China Animal Husbandry Group CN, South 4th Ring Road West, Beijing, 100070, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China.",
+        "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China. zhumei185@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ningyue",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yifan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiankui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory of Animal Genetic Improvement, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "China Animal Husbandry Group CN, South 4th Ring Road West, Beijing, 100070, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Haoran",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Xiaochun",
+        "short_name": "Yuan X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siyu",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunguang",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinhai",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Ningxia University, Helan Mountain West Road, Yinchuan, Ningxia, 750021, China. zhumei185@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Dec 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/03 00:23",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "40652766"
+    ],
+    "refs": [
+      "38422274",
+      "35714600",
+      "35172715",
+      "34946875",
+      "33469142",
+      "32759649",
+      "32503427",
+      "32490151",
+      "32472005",
+      "32449067",
+      "32394669",
+      "31314901",
+      "31102746",
+      "30930146",
+      "30242252",
+      "28942365",
+      "28345588",
+      "27143997",
+      "27094702",
+      "26456821",
+      "25915029",
+      "25832347",
+      "25036348",
+      "24451143",
+      "24069460",
+      "23630438",
+      "23474082",
+      "22753049",
+      "22434869",
+      "22226356",
+      "22095474",
+      "21392083",
+      "21357446",
+      "19340011",
+      "19221876",
+      "19211055",
+      "19200804",
+      "18202659",
+      "15816823",
+      "14962083",
+      "12230507",
+      "11442744",
+      "10760448",
+      "10674380",
+      "9768360",
+      "8773715",
+      "7537238"
+    ],
+    "similar": [
+      "39623320",
+      "38431032",
+      "37583467",
+      "39726582",
+      "39863835",
+      "24204975",
+      "32615938",
+      "35172715",
+      "35524260",
+      "39611017",
+      "32298297",
+      "39036798",
+      "31186438",
+      "24326349",
+      "23638136",
+      "33469142",
+      "32490151",
+      "30356261",
+      "33351808",
+      "27404636",
+      "23889850",
+      "32759649",
+      "32393236",
+      "40070920",
+      "35672687",
+      "25915029",
+      "38849762",
+      "23466980",
+      "32218218",
+      "31314901",
+      "27706691",
+      "29587631",
+      "37777862",
+      "36897050",
+      "36331073",
+      "30242252",
+      "35613128",
+      "19103362",
+      "36952056",
+      "27754706",
+      "36769541",
+      "22798010",
+      "33526009",
+      "35143949",
+      "28846493",
+      "36482306",
+      "26782436",
+      "8901615",
+      "31949201",
+      "35774980",
+      "39395776",
+      "19889053",
+      "35085710",
+      "28463974",
+      "30521888",
+      "19272529",
+      "10594723",
+      "32707304",
+      "30153818",
+      "38760765",
+      "32586272",
+      "15854025",
+      "26913551",
+      "10771491",
+      "34404159",
+      "38136906",
+      "39125816",
+      "36979137",
+      "40141352",
+      "34305588",
+      "26959817",
+      "38948362",
+      "12707045",
+      "39329922",
+      "34553293",
+      "34503498",
+      "24587058",
+      "29044192",
+      "8773715",
+      "33038058",
+      "31556145",
+      "38203755",
+      "40016679",
+      "21104416",
+      "25860385",
+      "30791955",
+      "39351239",
+      "23682615",
+      "32111155",
+      "25128627",
+      "12823308",
+      "23781137",
+      "39762742",
+      "36273119",
+      "24816226",
+      "31413209",
+      "30138363",
+      "35862273",
+      "30326614",
+      "32503427"
+    ],
+    "review": [
+      "39623320",
+      "36769541"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-11059-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39623320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

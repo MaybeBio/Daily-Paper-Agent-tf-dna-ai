@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific validity, technical soundness, and claims as presented in the provided manuscript text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors claim that deep learning models can be used to design synthetic, cell-type-specific enhancers from random sequences, that this process reveals enhancer syntax at single-nucleotide resolution, and that the approach works in both Drosophila and human contexts, including the creation of minimal enhancers and dual-code enhancers.
+- **Visible evidence base** Abstract, main text, methods sections, figure legends, supplementary information descriptions
+- **Missing materials affecting confidence** Full figures and extended data figures not available; supplementary notes, figures, tables, and code not accessible; detailed statistical outputs and raw data not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated approach to synthetic enhancer design, building on previously validated deep learning models. The authors demonstrate that cell-type-specific enhancers can be evolved from random sequences, validated in transgenic Drosophila and human cell lines. The work is timely and addresses a long-standing goal in the field. However, several technical concerns regarding the interpretation of the in silico evolution process, the statistical robustness of the in vivo validations, and the generalizability of the findings require clarification before the claims can be fully established.
+- **Who would be interested in the results, and why** Researchers in gene regulation, synthetic biology, computational biology, and developmental biology would find this work of high interest. The demonstration that enhancers can be designed de novo with cell-type specificity has implications for gene therapy, cell reprogramming, and understanding cis-regulatory evolution. The methodological framework combining deep learning with evolutionary search strategies will also interest computational biologists working on sequence design.
+- **Major strengths** The study addresses a fundamental question in gene regulation with a novel and rigorous computational approach. The validation in transgenic animals is a significant strength, providing functional evidence beyond computational predictions. The demonstration of minimal enhancers and dual-code enhancers is conceptually important. The cross-species applicability (Drosophila to human) strengthens the generalizability of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the in silico evolution methodology
+  - **Claim pointer** The authors claim that the greedy search approach provides a good balance between computational cost and efficiency in yielding high-scoring sequences, and that the evolution process allows detailed tracing of enhancer features at single-nucleotide resolution.
+  - **Evidence pointer** Methods section "In silico sequence evolution"; Figure 2a-c; Extended Data Figure 2a-d
+  - **Concern** The manuscript does not provide sufficient detail on the convergence properties of the greedy search algorithm. The claim that 15 iterations are sufficient to reach near-maximal scores is based on empirical observation, but no formal analysis of the search landscape or potential local optima traps is presented. The comparison to alternative search strategies (Extended Data Figure 2a-d) is mentioned but not described in sufficient detail to assess whether the greedy approach is truly optimal or merely adequate.
+  - **Why it matters** The validity of the entire design pipeline depends on the reliability of the optimization procedure. If the greedy search frequently converges to suboptimal local optima, the resulting enhancers may not represent the best possible designs, and the conclusions drawn about enhancer syntax could be biased by the search algorithm's limitations.
+  - **Resolution test** Provide a more detailed analysis of the search landscape, including the distribution of scores across multiple independent runs, the frequency of convergence to different local optima, and a comparison of the greedy approach to more exhaustive search methods on a subset of sequences. Additionally, demonstrate that the identified enhancer features are consistent across multiple independent evolution runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of in vivo validation
+  - **Claim pointer** The authors claim that 10 of 13 tested synthetic enhancers were active specifically in the targeted cell type (KC), and that 4 of 6 PNG enhancers were positive.
+  - **Evidence pointer** Figure 2d,f; Methods section "Statistics and reproducibility"
+  - **Concern** The manuscript reports that "several brains (at least ten) were stained and imaged for the fly experiments" but does not provide quantitative data on the penetrance or consistency of the observed expression patterns across individual animals. The claim of cell-type specificity relies on qualitative assessment of GFP expression patterns, and no quantitative metrics (e.g., percentage of animals showing the expected pattern, intensity measurements, or statistical comparison across lines) are provided.
+  - **Why it matters** The central claim of the paper is that synthetic enhancers can achieve cell-type-specific expression. Without quantitative validation across multiple animals and independent transgenic lines, the robustness of this claim cannot be assessed. Variability in transgene expression due to genomic integration site effects is a well-known phenomenon that could confound the interpretation.
+  - **Resolution test** Provide quantitative data on the number of animals examined per line, the percentage showing the expected expression pattern, and statistical analysis of expression consistency. Include negative control data showing the frequency of ectopic expression in non-target cell types. If possible, examine multiple independent integration lines for at least a subset of enhancers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the dual-code enhancer concept
+  - **Claim pointer** The authors claim that enhancers can contain several intertwined codes for different cell types and that these can be independently dissected and altered.
+  - **Evidence pointer** Figure 3h-n; Extended Data Figure 3
+  - **Concern** The demonstration of dual-code enhancers is based on a limited number of examples (two optic lobe enhancers augmented towards KC, and one enhancer pruned from multi-cell-type to single-cell-type). The manuscript does not address how general this phenomenon is, nor does it provide a systematic analysis of how frequently enhancers in the genome contain multiple codes. The claim that "intertwined enhancer codes can be independently dissected and altered" is supported by only a few examples.
+  - **Why it matters** The concept of separable enhancer codes has implications for understanding how pleiotropic enhancers evolve and function. If this is a rare phenomenon, the conclusions would be less generalizable. The authors' claim suggests a modular architecture that may not hold for all multi-cell-type enhancers.
+  - **Resolution test** Provide a more systematic analysis of multi-cell-type enhancers in the genome, perhaps by applying the same computational approach to a larger set of enhancers active in multiple cell types. Alternatively, discuss the limitations of the current examples and what proportion of multi-cell-type enhancers might be expected to show separable codes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of the minimal enhancer results
+  - **Claim pointer** The authors claim that a 49 bp sequence containing three binding sites is sufficient for enhancer activity, suggesting that functional enhancers can be created without further sequence context.
+  - **Evidence point** Figure 4h,i; Supplementary Figure 12
+  - **Concern** The manuscript reports that a 49 bp sequence containing Ey, Mef2, and Onecut binding sites resulted in the same activity and specificity as the full 500 bp sequence. However, it is unclear whether this minimal enhancer was tested in multiple genomic integration contexts, and whether the activity level was quantitatively comparable to the full-length enhancer. The claim that "no further sequence context" is needed is strong and requires careful validation.
+  - **Why it matters** The minimal enhancer claim has implications for understanding the fundamental requirements for enhancer function. If the 49 bp sequence is sufficient, this would be a remarkable finding. However, if the activity is context-dependent or weaker than the full-length enhancer, the conclusion would need to be qualified.
+  - **Resolution test** Provide quantitative comparison of expression levels between the 49 bp minimal enhancer and the full-length 500 bp enhancer. Test the minimal enhancer in multiple genomic integration sites. Discuss the potential role of the surrounding sequence in the genomic context where the minimal enhancer was tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Methods section "In silico sequence evolution"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the evolutionary algorithm lacks specific details on the mutation rate, selection criteria, and termination conditions. The statement "we performed saturation mutagenesis whereby all nucleotides were mutated one by one" is clear, but the subsequent selection process is not fully specified.
+  - **Required correction** Provide pseudocode or a more detailed algorithmic description of the evolution process, including the exact scoring function used, the criteria for accepting or rejecting mutations, and the handling of ties or multiple beneficial mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2a and similar figures
+  - **Evidence pointer** Figure 2a
+  - **Issue** The box plots in Figure 2a show prediction score distributions, but the number of sequences represented in each box is not stated. Given that 6,000 sequences were evolved, it is unclear whether all 6,000 are represented at each iteration or whether a subset was used.
+  - **Required correction** State the number of sequences represented in each box plot and clarify whether the same set of sequences is tracked throughout the evolution process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of negative results
+  - **Affected element** Discussion of the three KC enhancers without GFP signal
+  - **Evidence pointer** Figure 2d
+  - **Concern** The manuscript mentions that three of the 13 tested KC enhancers did not show activity, and that two of these were found to be Dachshund negative, indicating potential loss of KC. However, the third negative enhancer is not discussed. It is unclear whether this represents a failure of the design process or a technical issue.
+  - **Required correction** Provide a brief discussion of the third negative enhancer, including whether it was examined for potential technical issues (e.g., integration site, transgene silencing) or whether it represents a genuine failure of the computational predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of human enhancer validation
+  - **Affected element** Figure 5d
+  - **Evidence pointer** Figure 5d
+  - **Issue** The luciferase assay results are presented as log2 fold-change values, but the normalization procedure is not fully described. It is unclear whether the values are normalized to a reference enhancer, to the empty vector, or to another control.
+  - **Required correction** Clarify the normalization procedure for the luciferase assays and state the number of biological replicates for each condition in the figure legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The manuscript does not discuss potential limitations of the approach, such as the reliance on the accuracy of the deep learning models, the potential for model bias, or the generalizability to other cell types and organisms beyond those tested.
+  - **Required correction** Add a paragraph discussing the limitations of the study, including the dependence on model accuracy, the potential for overfitting to training data, and the need for further validation in diverse biological contexts.
+
+## Risk / unsupported claims
+- The claim that "enhancer design strategies are adaptable to different biological systems and even other species, including human" is supported by the human melanoma data, but the generalizability to other human cell types and tissues is not demonstrated.
+- The claim that the 49 bp minimal enhancer is "fully functional" without further sequence context is not fully supported, as the manuscript does not provide quantitative comparison of activity levels or testing in multiple genomic contexts.
+- The claim that "ten iterative mutations were sufficient to convert a random sequence into a cell-type-specific functional enhancer" is based on a limited number of validated examples and may not be generalizable.
+- The statement that "the chosen mutations and the candidate binding sites they destroy or generate, causally underlie the activity of these synthetic enhancers" is supported by the experimental data but the causal relationship is inferred rather than directly demonstrated through systematic mutagenesis of individual sites.
+- The claim that "enough repressor sites can dominate over a functional combination of activator sites" is supported by the data but the quantitative relationship between repressor site number/strength and enhancer activity is not systematically characterized.

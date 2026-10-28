@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "39153705",
+    "doi": "10.1016/j.gene.2024.148861",
+    "title": "The STAT1-SLC31A1 axis: Potential regulation of cuproptosis in diabetic retinopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: By identifying molecular biological markers linked to cuproptosis in diabetic retinopathy (DR), new pathobiological pathways and more accessible diagnostic markers can be developed. METHODS: The datasets related to DR were acquired from the Gene Expression Omnibus database, while genes associated with cuproptosis were sourced from previously published compilations. Consensus clustering was conducted to delineate distinct DR subclasses. Feature genes were identified utilizing weighted correlation network analysis (WGCNA). Additionally, two machine-learning algorithms were employed to refine the selection of feature genes. Finally, we conducted preliminary validation experiments to ascertain the involvement of cuproptosis in DR development and the transcriptional regulation of critical genes using both the streptozotocin-induced diabetic mouse model and the high glucose-induced BV2 model. RESULTS: In the STZ-induced diabetic mouse retinas, a decrease in the expression of cuproptosis signature proteins (FDX1, DLAT, and NDUFS8) suggested the occurrence of cuproptosis in DR. Subsequently, the expression of eight cuproptosis differential genes was validated through the STZ-induced diabetes and oxygen-induced retinopathy (OIR) models, with the key gene SLC31A1 showing upregulation in both models and dataset species. Further analyses, including weighted gene co-expression network analysis, GSVA, and immune infiltration analysis, indicated a close correlation between cuproptosis and microglia function. Additionally, validation in an in vitro model of microglia indicated the occurrence of cuproptosis in microglia under high glucose conditions, alongside abnormal expression of STAT1 with SLC31A1. CONCLUSION: Our findings suggest that STAT1/SLC31A1 may pave the way for a deeper comprehension of the mechanistic basis of DR and offer potential therapeutic avenues.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Cuproptosis",
+      "Diabetic retinopathy",
+      "Microglia",
+      "STAT1-SLC31A1 axis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Diabetic Retinopathy/genetics/metabolism",
+      "Mice",
+      "*STAT1 Transcription Factor/metabolism/genetics",
+      "*Diabetes Mellitus, Experimental/genetics/metabolism",
+      "Male",
+      "Retina/metabolism/pathology",
+      "Mice, Inbred C57BL",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Qiang",
+        "Zhang, Xue",
+        "Huang, Jiayang",
+        "Peng, Hongsong",
+        "Sun, Yage",
+        "Sang, Wei",
+        "Jiang, Bo",
+        "Sun, Dawei"
+      ],
+      "short_names": [
+        "Hu Q",
+        "Zhang X",
+        "Huang J",
+        "Peng H",
+        "Sun Y",
+        "Sang W",
+        "Jiang B",
+        "Sun D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "The Johns Hopkins University School of Medicine, Baltimore, USA.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Department of Ophthalmology, Qiqihar Eye & ENT Hospital, Qiqihar, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: eyejiangbo@126.com.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: sundawei@hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Qiang",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiayang",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Hongsong",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yage",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Johns Hopkins University School of Medicine, Baltimore, USA."
+        ]
+      },
+      {
+        "full_name": "Sang, Wei",
+        "short_name": "Sang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China; Department of Ophthalmology, Qiqihar Eye & ENT Hospital, Qiqihar, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Bo",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: eyejiangbo@126.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Dawei",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: sundawei@hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2024 Dec 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/18 04:43",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "42523602",
+      "41997142",
+      "41683374",
+      "41426252",
+      "41260099",
+      "40951767",
+      "40881432",
+      "40589743",
+      "40145977",
+      "40070821"
+    ],
+    "refs": [],
+    "similar": [
+      "39153705",
+      "38971104",
+      "36675183",
+      "37168258",
+      "33333415",
+      "38633656",
+      "37215133",
+      "35651615",
+      "37065492",
+      "38739977",
+      "38410923",
+      "38690269",
+      "39348530",
+      "39093776",
+      "24436191",
+      "37275904",
+      "37620966",
+      "35937822",
+      "24502381",
+      "38626646",
+      "38892474",
+      "38883603",
+      "35957838",
+      "38124748",
+      "37773794",
+      "37442861",
+      "37324184",
+      "32861799",
+      "38390317",
+      "37279744",
+      "38702033",
+      "27399806",
+      "32376470",
+      "38681070",
+      "21498619",
+      "35996075",
+      "33284093",
+      "36119835",
+      "30151700",
+      "28706953",
+      "24018047",
+      "37788001",
+      "32199990",
+      "30093686",
+      "37822923",
+      "38868777",
+      "34364890",
+      "31313295",
+      "34184090",
+      "28843858",
+      "29571734",
+      "38755602",
+      "25900369",
+      "22605924",
+      "37561332",
+      "37884650",
+      "33975909",
+      "36466876",
+      "33965378",
+      "24407239",
+      "37883127",
+      "27559292",
+      "28639050",
+      "27344677",
+      "37091865",
+      "23810809",
+      "24910902",
+      "30883703",
+      "37763758",
+      "20039857",
+      "37969191",
+      "22156553",
+      "38912044",
+      "32226551",
+      "36154781",
+      "38312708",
+      "38091828",
+      "37435496",
+      "32602547",
+      "33609142",
+      "38802999",
+      "31365278",
+      "38851473",
+      "29445185",
+      "37191152",
+      "33635523",
+      "21897745",
+      "33724292",
+      "37007130",
+      "36405733",
+      "32734440",
+      "38904833",
+      "38897127",
+      "38898987",
+      "31022398",
+      "36376617",
+      "28575111",
+      "34229049",
+      "38410514",
+      "32890483",
+      "31615521",
+      "38988068",
+      "39287710"
+    ],
+    "review": [
+      "39153705"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(24)00742-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabeticeyeproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Eye Problems"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

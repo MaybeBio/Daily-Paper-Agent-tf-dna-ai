@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38383543",
+  "title": "Design of target specific peptide inhibitors using generative deep learning and molecular dynamics simulations.",
+  "authors": "Chen, Sijie; Lin, Tong; Basu, Ruchira; Ritchey, Jeremy; Wang, Shen; Luo, Yichuan; Li, Xingcan; Pei, Dehua; Kara, Levent Burak; Cheng, Xiaolin",
+  "journal": "Nature communications",
+  "published_date": "2024-02-22",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用生成式深度学习与分子动力学模拟设计靶向β-catenin和NEMO的特异性肽抑制剂，虽非TF-DNA体系，但蛋白-肽互作建模与AI+MD方法可迁移至TF-DNA结合研究。",
+  "abstract": "We introduce a computational approach for the design of target-specific peptides. Our method integrates a Gated Recurrent Unit-based Variational Autoencoder with Rosetta FlexPepDock for peptide sequence generation and binding affinity assessment. Subsequently, molecular dynamics simulations are employed to narrow down the selection of peptides for experimental assays. We apply this computational strategy to design peptide inhibitors that specifically target beta-catenin and NF-kappaB essential modulator. Among the twelve beta-catenin inhibitors, six exhibit improved binding affinity compared to the parent peptide. Notably, the best C-terminal peptide binds beta-catenin with an IC(50) of 0.010 +/- 0.06 muM, which is 15-fold better than the parent peptide. For NF-kappaB essential modulator, two of the four tested peptides display substantially enhanced binding compared to the parent peptide. Collectively, this study underscores the successful integration of deep learning and structure-based modeling and simulation for target specific peptide design.",
+  "abstract_zh": "我们提出了一种用于设计靶标特异性肽的计算方法。该方法将基于门控循环单元的变分自编码器（Gated Recurrent Unit-based Variational Autoencoder）与Rosetta FlexPepDock相结合，用于肽序列生成和结合亲和力评估。随后，采用分子动力学（molecular dynamics）模拟来缩小用于实验测定的肽选择范围。我们将此计算策略应用于设计特异性靶向β-catenin和NF-kappaB必需调节因子的肽抑制剂。在十二种β-catenin抑制剂中，有六种相较于母体肽表现出改善的结合亲和力。值得注意的是，最佳的C端肽与β-catenin结合的IC(50)为0.010 ± 0.06 μM，比母体肽优15倍。对于NF-kappaB必需调节因子，四种测试肽中有两种相较于母体肽显示出显著增强的结合能力。总体而言，本研究强调了深度学习与基于结构的建模和模拟在靶标特异性肽设计中的成功整合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38383543/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38383543/",
+  "paper_page_path": "papers/pubmed/38383543/index.html"
+}

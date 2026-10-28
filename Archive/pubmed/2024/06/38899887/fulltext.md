@@ -1,0 +1,5 @@
+# Two Zn2Cys6-type transcription factors respond to aromatic compounds and regulate the expression of laccases in the white-rot fungus Trametes hirsuta
+
+
+## IMPORTANCE
+  White-rot fungi differentially express laccase isoenzymes when exposed to aromatic compounds. Clarification of the molecular mechanisms underlying differential laccase expression is essential to elucidate how white-rot fungi respond to the environment. Our study shows that two Zn2Cys6-type transcription factors form heterodimers, interact with the promoters of laccase genes, and positively regulate laccase transcription in Trametes hirsuta AH28-2. Aromatic monomer addition induces faster heterodimer formation and rate of activity. These findings not only identify two new transcription factors involved in fungal laccase transcription but also deepen our understanding of the mechanisms underlying the response to aromatics exposure in white-rot fungi.

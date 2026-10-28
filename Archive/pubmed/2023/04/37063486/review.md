@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods, data availability, author contributions, conflict of interest, publisher's note, supplementary material description)
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as submitted, based solely on the provided text. No external data, code, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors evaluate nine unsupervised domain adaptation (UDA) methods for cross-species transfer of regulatory code signals (transcription factor binding sites and histone marks) between human and mouse genomes. They report that non-adversarial methods, specifically Minimum Class Confusion (MCC) and Deep Adaptation Network (DAN), outperform adversarial approaches, with Conditional Domain Adversarial Network (CDAN) as third best. The study claims practical utility of UDA for generating missing experimental data in understudied species.
+- **Visible evidence base** Results sections 2.1–2.3, Figures 1–8 (described in text), Supplementary Figures 1–5 and Supplementary Tables 1–3 (referenced but not provided), Methods sections 5.1–5.4, Computational resources section 6.
+- **Missing materials affecting confidence** Supplementary figures and tables (including all quantitative performance data), code repository contents, full list of tissue/cell types per dataset, detailed hyperparameter settings, statistical significance testing, and baseline model performance values. These are referenced but not available in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: benchmarking UDA methods for cross-species genomic regulatory signal prediction. The experimental design, comparing nine methods across 71 datasets and two transfer directions, is ambitious and potentially useful. However, the provided text lacks the quantitative detail necessary to evaluate the strength of the claims. Key performance metrics are described qualitatively or in figures that are not available. The absence of statistical testing, error bars, or confidence intervals for the reported improvements undermines the robustness of the conclusions. The methodological description is sufficient for reproducibility in principle, but the lack of access to the actual results prevents verification of the central claims. The manuscript is more of a benchmark report than a methodological advance, and its current form does not establish the case for the superiority of MCC and DAN beyond anecdotal evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those interested in transfer learning and cross-species prediction. Researchers developing deep learning models for functional genomic element annotation would benefit from a practical comparison of UDA methods. The study could also inform experimental design for studying non-model organisms where ChIP-seq data are scarce.
+- **Major strengths** 1) Systematic comparison of nine UDA methods from three distinct families (adversarial, divergence-based, and versatile) on a consistent set of real-world genomic datasets. 2) Use of multiple evaluation metrics (accuracy, PR AUC, ROC AUC) across a large number of datasets (71) and two transfer directions. 3) Practical focus on a real problem: generating missing regulatory annotations for understudied species. 4) Clear statement of code availability and use of a well-known transfer learning library, aiding reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "non-adversarial methods Minimum Class Confusion (MCC) and Deep Adaptation Network (DAN) significantly outperformed others" (Abstract); "MCC is an absolute winner" (Section 2.2)
+  - **Evidence pointer** Figures 4–7, Supplementary Figures 1–5, Supplementary Table 1 (location not provided)
+  - **Concern** The central claim of MCC and DAN superiority is based on figures and supplementary tables that are not included in the provided material. The text provides only qualitative descriptions (e.g., "up to 29% increase", "around ~3%", "up to 11%") without reporting the actual performance values, variance, or statistical significance. No error bars, confidence intervals, or hypothesis tests are mentioned.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the observed differences between methods are meaningful or within noise. The claim of "significant" outperformance requires statistical support, which is absent from the text.
+  - **Resolution test** Provide the actual performance values for all methods across all datasets, including measures of variance (e.g., standard deviation across runs) and statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing each UDA method to the baseline and to each other.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "we tested nine UDA methods" (Section 2.2); "we evaluated the optimal performances achievable for DA methods by running 5 times" (Section 5.4)
+  - **Evidence pointer** Section 5.4, Supplementary Table 3 (location not provided)
+  - **Concern** The stability check described in Section 5.4 was performed on only two histone marks and two transcription factors, yet the main results are reported for all 71 datasets. It is unclear whether the hyperparameters were tuned per dataset or fixed across all datasets. The text does not specify how the "optimal performances" were determined or whether the same hyperparameters were used for all methods, which could bias the comparison.
+  - **Why it matters** Inconsistent hyperparameter tuning across methods or datasets can lead to unfair comparisons. The limited stability check may not generalize to all datasets, especially those with sparse signals or different tissue types.
+  - **Resolution test** Clarify the hyperparameter selection procedure for each method and dataset. Report whether the same hyperparameters were used across all datasets and methods, or describe the tuning protocol. Extend the stability analysis to a larger subset of datasets or justify why the four chosen datasets are representative.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** "is generalizable to any cross-species transfer of interest" (Abstract)
+  - **Evidence pointer** Abstract, Section 3 (Discussion)
+  - **Concern** The claim of generalizability to any cross-species transfer is not supported by the data. The study only tests human and mouse, which are relatively closely related mammals. The authors do not discuss how performance might vary with evolutionary distance, genome composition, or regulatory code divergence.
+  - **Why it matters** Overgeneralization could mislead researchers working on more distantly related species (e.g., fish, insects, plants) where the assumptions of domain adaptation may not hold.
+  - **Resolution test** Either temper the claim to reflect the limited taxonomic scope, or provide a reasoned argument, based on the biology of regulatory codes, for why the results should extend to other species pairs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline validity
+  - **Claim pointer** "we first trained the deep learning model on the source genome... and tried to predict regulatory signals on the target genome without transfer learning (referred to as the baseline model)" (Section 2.2)
+  - **Evidence pointer** Section 2.2, Figures 4–7 (location not provided)
+  - **Concern** The baseline model is described as a direct application of the source-trained model to the target genome. However, the text does not specify whether the baseline model was retrained or fine-tuned on any target data, or whether the same architecture was used for the baseline and the UDA methods. The comparison between baseline and UDA methods is only meaningful if the underlying architecture is identical and the only difference is the adaptation strategy.
+  - **Why it matters** If the baseline model uses a different architecture or training procedure than the UDA methods, the observed improvements could be due to architectural differences rather than domain adaptation.
+  - **Resolution test** Explicitly state that the baseline and UDA models share the same feature extractor and classifier architecture, and that the only difference is the addition of the adaptation module or loss. Provide a schematic or pseudocode to clarify the training procedures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, dataset description
+  - **Evidence pointer** Section 2.2, Section 5.1
+  - **Issue** The text states "71 experimental data sets" but the breakdown in Section 5.1 lists specific histone marks and transcription factors without a clear count. The relationship between the 71 datasets and the 59 HM and 12 TF peak sets mentioned in Section 2.2 is not immediately clear.
+  - **Required correction** Provide a clear enumeration of the datasets, either in the main text or in a supplementary table, and explain how the 71 datasets map to the 59 HM and 12 TF sets.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 5.4, code adaptation
+  - **Evidence pointer** Section 5.4
+  - **Issue** The authors state they adapted code from a GitHub repository with "slight modifications to the model inputs." The nature of these modifications is not described, making it difficult to reproduce the exact implementation.
+  - **Required correction** Describe the specific modifications made to the original code, or provide a diff or detailed documentation of changes in the code repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2, performance improvements
+  - **Evidence pointer** Section 2.2, Figures 4–7 (location not provided)
+  - **Issue** The text reports improvements such as "up to 29%" and "around ~3%" without specifying whether these are median, mean, or maximum values across datasets. The variability across datasets is not described.
+  - **Required correction** Report the distribution of performance improvements (e.g., median with interquartile range) and specify the summary statistic used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The term "regulatory code signals" is used throughout but not formally defined. It is unclear whether this refers to TF binding events, histone modification peaks, or a combination.
+  - **Required correction** Define the term explicitly in the Introduction, specifying which genomic features are considered regulatory code signals in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative evidence and statistical testing) and R1-M2 (unclear hyperparameter tuning and limited stability check) are the primary technical failings. Without access to the actual performance data and a clear description of the experimental protocol, the central claims cannot be verified.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of UDA to cross-species regulatory genomics is not entirely new, but the systematic comparison of nine methods on a large dataset collection is a useful contribution. Scientific importance: Moderate. The results could guide method selection for practical applications, but the lack of statistical rigor limits the impact. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biologists; the presentation assumes familiarity with both deep learning and genomics. Technical soundness: Weak in the provided form. The absence of quantitative results and statistical analysis prevents assessment of technical validity. Readability for nonspecialists: Below average. The Introduction and Methods assume significant background knowledge in both domain adaptation and genomics, and the Results section relies heavily on inaccessible figures.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the experimental design is ambitious, but the central claims are not verifiable without the supplementary data and a more rigorous statistical framework. The authors should be encouraged to resubmit after providing the full quantitative results, statistical tests, and a clearer description of the experimental protocol.
+
+## Risk / unsupported claims
+- "significantly outperformed others" (Abstract) — unsupported without statistical tests.
+- "is generalizable to any cross-species transfer of interest" (Abstract) — unsupported, only human-mouse tested.
+- "MCC is an absolute winner" (Section 2.2) — unsupported without quantitative comparison across all datasets.
+- "the results proved the validity of UDA methods" (Abstract) — overstatement; the results are suggestive but not conclusive.
+- "DA models' performance is stable" (Section 5.4) — based on only four datasets, not generalizable.
+- "Overall direct cross-species predictions, with or without DA, work better for TFBS than for HM" (Section 2.3) — not verifiable without the actual performance values.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39096613",
+  "title": "GraphPro: An interpretable graph neural network-based model for identifying promoters in multiple species.",
+  "authors": "Zhang, Qi; Wei, Yuxiao; Liu, Liwei",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-08-04",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络识别多物种启动子，虽涉及TF结合基序分析，但核心是序列分类而非TF-DNA互作建模，方法可迁移但深度不足。",
+  "abstract": "Promoters are DNA sequences that bind with RNA polymerase to initiate transcription, regulating this process through interactions with transcription factors. Accurate identification of promoters is crucial for understanding gene expression regulation mechanisms and developing therapeutic approaches for various diseases. However, experimental techniques for promoter identification are often expensive, time-consuming, and inefficient, necessitating the development of accurate and efficient computational models for this task. Enhancing the model's ability to recognize promoters across multiple species and improving its interpretability pose significant challenges. In this study, we introduce a novel interpretable model based on graph neural networks, named GraphPro, for multi-species promoter identification. Initially, we encode the sequences using k-tuple nucleotide frequency pattern, dinucleotide physicochemical properties, and dna2vec. Subsequently, we construct two feature extraction modules based on convolutional neural networks and graph neural networks. These modules aim to extract specific motifs from the promoters, learn their dependencies, and capture the underlying structural features of the promoters, providing a more comprehensive representation. Finally, a fully connected neural network predicts whether the input sequence is a promoter. We conducted extensive experiments on promoter datasets from eight species, including Human, Mouse, and Escherichia coli. The experimental results show that the average Sn, Sp, Acc and MCC values of GraphPro are 0.9123, 0.9482, 0.8840 and 0.7984, respectively. Compared with previous promoter identification methods, GraphPro not only achieves better recognition accuracy on multiple species, but also outperforms all previous methods in cross-species prediction ability. Furthermore, by visualizing GraphPro's decision process and analyzing the sequences matching the transcription factor binding motifs captured by the model, we validate its significant advantages in biological interpretability. The source code for GraphPro is available at https://github.com/liuliwei1980/GraphPro.",
+  "abstract_zh": "启动子（promoters）是与RNA聚合酶结合以启动转录的DNA序列，并通过与转录因子的相互作用调控这一过程。准确识别启动子对于理解基因表达调控机制和开发多种疾病的治疗方法至关重要。然而，实验性启动子识别技术通常成本高昂、耗时且效率低下，因此有必要开发准确且高效的计算模型来完成此任务。增强模型跨物种识别启动子的能力并提高其可解释性构成重大挑战。在本研究中，我们引入了一种基于图神经网络（graph neural networks）的新型可解释模型，命名为GraphPro，用于多物种启动子识别。首先，我们使用k-元核苷酸频率模式（k-tuple nucleotide frequency pattern）、二核苷酸理化性质（dinucleotide physicochemical properties）和dna2vec对序列进行编码。随后，我们构建了两个基于卷积神经网络（convolutional neural networks）和图神经网络的特征提取模块。这些模块旨在从启动子中提取特定基序（motifs），学习它们的依赖性，并捕获启动子的潜在结构特征，提供更全面的表示。最后，一个全连接神经网络预测输入序列是否为启动子。我们在包括人类（Human）、小鼠（Mouse）和大肠杆菌（Escherichia coli）在内的八个物种的启动子数据集上进行了广泛实验。实验结果显示，GraphPro的平均Sn、Sp、Acc和MCC值分别为0.9123、0.9482、0.8840和0.7984。与之前的启动子识别方法相比，GraphPro不仅在多个物种上实现了更好的识别准确性，而且在跨物种预测能力上优于所有先前方法。此外，通过可视化GraphPro的决策过程并分析匹配模型捕获的转录因子结合基序的序列，我们验证了其在生物学可解释性方面的显著优势。GraphPro的源代码可在https://github.com/liuliwei1980/GraphPro获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39096613/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39096613/",
+  "paper_page_path": "papers/pubmed/39096613/index.html"
+}

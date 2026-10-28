@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretation as presented in the provided text; no external data or replication attempted
+- **Shared manuscript claim summary** The authors propose that DNA replication timing in the germline is a major determinant of enhancer turnover across mammalian evolution and in cancer, with new enhancers emerging preferentially at late-replicating regions through mutations that alter transcription factor binding, and that these new enhancers are more tissue-specific and less constrained than conserved enhancers.
+- **Visible evidence base** Figures 1–6 with legends, supplementary figure references, methods descriptions, and statistical results as reported in text
+- **Missing materials affecting confidence** Raw data files, complete supplementary figures and tables, model training details, code availability, and full statistical outputs are not provided in the submitted text; these are essential for verifying key claims
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in regulatory genomics: whether DNA replication timing shapes the emergence of new enhancers. The authors present a multi-faceted analysis combining comparative genomics, deep learning, population genetics, and cancer genomics. The central observation, that recently evolved enhancers are enriched at late-replicating regions, is potentially interesting. However, the manuscript has several major weaknesses that currently prevent the case from being fully established. The reliance on correlative analyses without clear causal evidence, the potential confounding between replication timing and other genomic features, the limited validation of the deep learning model, and the incomplete treatment of selection signals all undermine the strength of the conclusions. The cancer analysis, while suggestive, is based on predicted replication timing in some cases and lacks matched normal controls for several comparisons. The manuscript would benefit from more rigorous confounding control, additional functional validation, and a clearer articulation of the causal model being proposed.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, evolutionary biology, and cancer genomics would find this work relevant. The claim that DNA replication timing influences enhancer evolution connects genome architecture to regulatory innovation, which is of broad interest. Those studying tissue-specific gene regulation and the role of transposable elements in enhancer turnover would also be engaged. The use of deep learning to predict TF binding adds a methodological angle that may appeal to computational biologists.
+- **Major strengths** The study addresses a novel hypothesis linking DNA replication timing to enhancer turnover, which is not widely explored. The multi-species comparative framework is appropriate for studying evolutionary dynamics. The inclusion of multiple tissue types and both active and poised enhancers adds depth. The deep learning approach to predict TF binding is a modern and potentially powerful tool. The extension to cancer is a valuable translational angle. The authors also make efforts to control for transposable elements and assess selection using population genetics data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Confounding and causality
+  - **Claim pointer** The authors claim that "DNA replication timing plays a role in the emergence and diversification of enhancers through de novo mutations" and that late replication is causally linked to higher enhancer turnover.
+  - **Evidence pointer** Results section "Germline replication time is associated with the rate of enhancer turnover across the genome", Figures 1E–G
+  - **Concern** The observed correlation between replication timing and enhancer turnover could be confounded by other genomic features that correlate with late replication, such as gene density, chromatin state, recombination rate, or repeat content. The authors do not perform multivariate analyses or matching to rule out these confounders. The claim of causality is not supported by the observational data presented. The analysis showing that the relationship persists after excluding TE-overlapping enhancers is helpful but insufficient, as other genomic features remain uncontrolled.
+  - **Why it matters** Without addressing confounding, the central claim that replication timing itself drives enhancer emergence is not established. The observed pattern could be an indirect consequence of other correlated features.
+  - **Resolution test** The authors should perform analyses that control for potential confounders, such as matching early and late replicating regions for gene density, GC content, and repeat density, or using multivariate regression models. Ideally, they could use a natural experiment or perturbation of replication timing to strengthen causal inference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Deep learning model validation
+  - **Claim pointer** The authors state that "a deep learning model identified a significantly higher number of HNF4A and CEBPA TF binding sites at human enhancers compared to mouse orthologs" and use this to support the role of TF binding changes in enhancer turnover.
+  - **Evidence pointer** Results section "Mutations at TF binding sites are linked to enhancer turnover", Figure 2A
+  - **Concern** The deep learning model is retrained from a previous study, but details of the retraining, hyperparameter selection, and performance metrics are not fully described in the main text. The model is tested only on liver enhancers for two TFs, which limits generalizability. The threshold of 0.9 for calling a binding site is arbitrary and not justified. The model's predictions are not validated experimentally or against independent ChIP-seq data in the relevant cell types.
+  - **Why it matters** The conclusion that mutations at TF binding sites drive enhancer turnover depends critically on the accuracy of the model. If the model is biased or poorly calibrated, the reported enrichment could be artifactual.
+  - **Resolution test** The authors should provide full details of model training and evaluation, including precision-recall curves, and validate predictions using independent datasets or experimental approaches such as electrophoretic mobility shift assays or reporter assays. They should also test additional TFs and tissues to demonstrate generalizability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selection analysis interpretation
+  - **Claim pointer** The authors claim that "recently evolved enhancers appear to be mostly neutrally evolving" based on DAF analysis.
+  - **Evidence pointer** Results section "New enhancers are enriched in eQTLs but lack strong signatures of purifying selection", Figure 3A–D
+  - **Concern** The DAF analysis is based on a single population (Icelandic) and may not be representative of human diversity. The comparison between recent and conserved enhancers is made without accounting for differences in mutation rate or recombination that could affect DAF. The authors note that some differences could be due to demographic factors, but they do not formally test this. The conclusion of neutrality is based on a lack of significant difference from background, which is a weak basis for claiming neutrality.
+  - **Why it matters** The interpretation that new enhancers are neutrally evolving has implications for their functional relevance. If the analysis is underpowered or confounded, the conclusion may be incorrect.
+  - **Resolution test** The authors should use additional populations or simulations to test for demographic effects, and consider using more sensitive tests for selection, such as the singleton density score or nucleotide diversity, to strengthen the neutrality claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cancer analysis robustness
+  - **Claim pointer** The authors state that "a similar relationship with DNA replication time in cancer" is observed, implying that the principles identified in evolution also apply to somatic evolution in tumors.
+  - **Evidence pointer** Results section "Enhancer turnover in cancer is enriched at late DNA replication time", Figure 6
+  - **Concern** The cancer analysis uses predicted replication timing for some cancer types, which may introduce errors. The definition of gained and lost enhancers relies on comparisons between cancer and matched normal samples, but the number of samples is small (n=3 for thyroid and AML). The analysis does not account for tumor heterogeneity or copy number alterations that could affect enhancer calls. The mutation analysis is limited to SNPs and does not consider indels or structural variants.
+  - **Why it matters** The cancer findings are presented as supporting evidence for a general principle. If the analysis is not robust, this claim is weakened.
+  - **Resolution test** The authors should validate predicted replication timing with experimental data where possible, increase sample size, and perform sensitivity analyses excluding regions affected by copy number changes. They should also consider including indels in the mutation analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of definitions
+  - **Affected element** Enhancer definitions
+  - **Evidence pointer** Methods section "Mammalian enhancer annotation"
+  - **Issue** The definition of "recent" versus "conserved" enhancers relies on the presence of histone marks in other species, but the threshold for "at least two other species" is arbitrary and not justified. The handling of enhancers that align to only one other species is unclear.
+  - **Required correction** The authors should justify the choice of threshold and describe how enhancers with partial conservation are treated in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Correlation analyses
+  - **Evidence pointer** Figure 1F
+  - **Issue** The R2 value of 0.95 for the correlation between replication timing and enhancer turnover is reported, but the confidence intervals and the number of data points are not clearly stated in the text.
+  - **Required correction** The authors should provide confidence intervals and sample sizes for all correlation analyses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure readability
+  - **Affected element** Figure 5E
+  - **Evidence pointer** Figure 5E
+  - **Issue** The heatmap in Figure 5E is complex and difficult to interpret from the legend alone. The distinction between the three columns is not immediately clear.
+  - **Required correction** The authors should simplify the figure or provide a more detailed legend explaining each column and the color scale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not adequately address the limitations of the study, such as the correlational nature of the findings, the potential for confounding, and the reliance on computational predictions.
+  - **Required correction** The authors should add a paragraph explicitly discussing limitations and alternative interpretations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (confounding), R1-M2 (model validation), R1-M3 (selection analysis) are blocking. The manuscript cannot be accepted until these are resolved.
+- **Assessment against Nature-style criteria** Originality: The hypothesis linking replication timing to enhancer turnover is relatively novel, though it builds on existing work on mutation rate variation and replication timing. Scientific importance: If established, the findings would have broad implications for understanding regulatory evolution and tissue specificity. Interdisciplinary readership: The work bridges genomics, evolution, and cancer biology, which would appeal to a broad audience. Technical soundness: The analyses are mostly appropriate but suffer from the confounding and validation issues noted above. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible but not sufficiently supported due to confounding concerns, incomplete model validation, and weak selection analysis. I would be supportive if the major concerns are addressed with additional analyses and clarifications.
+
+## Risk / unsupported claims
+- The claim that DNA replication timing causally drives enhancer turnover is not supported; only a correlation is shown.
+- The claim that new enhancers are "mostly neutrally evolving" is based on a single population and a lack of significant difference, which is insufficient to establish neutrality.
+- The deep learning model's predictions are presented as evidence for TF binding changes, but the model's accuracy and generalizability are not adequately demonstrated.
+- The cancer analysis relies on predicted replication timing for some datasets and small sample sizes, making the conclusions tentative.
+- The statement that "our work underscores that genome organization has a profound impact in shaping mammalian gene regulation" is an overstatement given the correlational nature of the evidence.

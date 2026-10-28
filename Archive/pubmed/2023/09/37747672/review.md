@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose a computational pipeline to identify natural ligands that inhibit the transcription factor AP2A2, thereby potentially restoring DLEC1 tumor suppressor function and sensitizing breast cancer cells to anti-cancer drugs. The pipeline includes gene expression analysis via cBioPortal, protein modeling with RaptorX, structure validation via Ramachandran plots, molecular docking against all MolPort ligands, toxicity screening with Protox-II, 200 ns molecular dynamics simulations in Desmond Maestro, and MM-GBSA free energy calculations. Three ligands are reported as stable binders with favorable toxicity profiles.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or supplementary materials are provided.
+- **Missing materials affecting confidence** Full methods, docking scores, simulation convergence metrics, structural validation details, toxicity prediction outputs, DLEC1 binding validation protocol, statistical analysis details, and all primary data.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow for identifying AP2A2 inhibitors, but the evidence provided is insufficient to establish the central claims. Key methodological details are absent, and several claims are either unsupported or not assessable from the supplied material. The work may have preliminary value, but the case for a synergistic mechanism is not currently established.
+- **Who would be interested in the results, and why** Computational biologists and medicinal chemists interested in transcription factor targeting for cancer therapy, particularly those working on breast cancer and natural product screening. The proposed pipeline could be of methodological interest to researchers using docking and simulation for drug discovery.
+- **Major strengths** The workflow integrates multiple established computational tools in a logical sequence. The use of natural product databases and toxicity screening adds translational relevance. The inclusion of long (200 ns) simulations and MM-GBSA free energy calculations is appropriate for assessing binding stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results showed that molecules MolPort-005-945-556, MolPort-001-741-124, and MolPort-005-944-667 with AP2A2 passed toxicity evaluation and belonged to toxicity classes 6, 5, and 5, respectively, with good docking energies."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not report actual docking scores, only the qualitative phrase "good docking energies." No thresholds for "good" are defined, and no comparison to known inhibitors or controls is provided.
+  - **Why it matters** Without quantitative docking scores and defined selection criteria, the reader cannot assess whether the identified ligands are genuinely promising or merely the best among a poorly performing set. This undermines the core screening claim.
+  - **Resolution test** Provide docking scores for all three ligands, define selection thresholds, and include a positive or negative control docking to benchmark performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "200 ns simulations revealed stable complexes with slight conformational changes. Stability of ligands was confirmed via snapshots at every 20 ns of the trajectory."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of stability is based solely on visual inspection of snapshots. No quantitative metrics such as root mean square deviation (RMSD), root mean square fluctuation (RMSF), radius of gyration, or hydrogen bond occupancy are reported. Visual inspection of snapshots is not a rigorous stability assessment.
+  - **Why it matters** Molecular dynamics stability claims require quantitative convergence and equilibrium analysis. Without such metrics, the assertion of stable complexes is not supported and could be misleading.
+  - **Resolution test** Report RMSD and RMSF plots, convergence criteria, and per-residue fluctuation analysis for each complex. Provide a quantitative definition of "stable."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** "A preliminary computational validation of the inability of AP2A2 to bind to DLEC1 in the presence of ligands offers beneficial insights into the potential of these ligands."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how this validation was performed. No method for assessing AP2A2-DLEC1 binding in the presence or absence of ligands is mentioned, and no results are reported.
+  - **Why it matters** This claim is central to the proposed synergistic mechanism. Without a described and validated computational protocol, the mechanistic conclusion is unsupported.
+  - **Resolution test** Describe the binding assay method (e.g., protein-protein docking, free energy perturbation, or steered MD), report quantitative results with and without ligands, and include appropriate controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "AP2A2 was then modeled using RaptorX and its structure was validated from Ramachandran plots."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not report the percentage of residues in favored, allowed, or outlier regions of the Ramachandran plot. No template information or model quality scores (e.g., GA341, z-score) are provided.
+  - **Why it matters** Homology model quality directly affects all downstream docking and simulation results. Without quality metrics, the reliability of the modeled structure is unknown.
+  - **Resolution test** Report Ramachandran statistics, template identity, and model quality scores. If possible, compare to an experimentally determined structure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ligand classification
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The ligands are described as "sachharolipids," "flavonoids," and "lignan glycosides," but the chemical classes are not defined or referenced.
+  - **Required correction** Provide chemical class definitions and PubChem or MolPort identifiers for each ligand.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Free energy values
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The free energy values are reported as mean +/- standard deviation, but the number of replicates or frames used for the calculation is not stated.
+  - **Required correction** Specify the number of frames or independent runs used for MM-GBSA calculations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Radial distribution"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "Radial distribution of these molecules against the protein revealed very slight deviation from binding pocket" is ambiguous. Radial distribution functions (RDF) describe density as a function of distance, not deviation from a binding pocket.
+  - **Required correction** Clarify whether RDF was used and what "deviation" means, or replace with a more appropriate metric such as ligand RMSD relative to the binding site.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Gene expression analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states AP2A2's role was "understood via gene analysis from cBioPortal" but provides no data, statistics, or cohort information.
+  - **Required correction** Report the specific analysis performed, sample sizes, and key statistical results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing docking scores), R1-M2 (no quantitative simulation stability metrics), R1-M3 (unsupported DLEC1 binding validation claim), R1-M4 (incomplete model quality reporting).
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of tools is not novel, though the specific target and natural product focus may offer some novelty. Scientific importance: The potential clinical relevance is clear, but the mechanistic claim is not substantiated. Interdisciplinary readership: The work could appeal to computational and cancer biology audiences, but the abstract lacks sufficient detail for either group to evaluate rigor. Technical soundness: Not established from the supplied material due to missing quantitative metrics and methods. Readability for nonspecialists: The abstract is generally readable but uses jargon without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide full quantitative results and methodological details before the claims can be assessed.
+
+## Risk / unsupported claims
+- The claim that the three ligands "could stably block AP2A2" is unsupported due to lack of quantitative simulation metrics.
+- The claim that AP2A2 cannot bind DLEC1 in the presence of ligands is unsupported as the validation method and results are not described.
+- The claim of "synergistic mechanism" is not established from the abstract alone.
+- The toxicity classification (classes 6, 5, 5) is reported without context or validation against experimental data.
+- The biological relevance of the free energy values is not interpretable without comparison to known binders or experimental binding affinities.

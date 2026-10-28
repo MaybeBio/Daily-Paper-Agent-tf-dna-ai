@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusion, and ancillary sections) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. Editorial or stylistic issues are noted only where they affect clarity or interpretation.
+- **Shared manuscript claim summary** The authors report that sulfoxaflor (SFX) induces dose- and time-dependent cytotoxic and genotoxic effects in *Allium cepa* root meristematic cells, as evidenced by reduced mitotic index, increased chromosomal aberrations, and increased DNA damage in the comet assay. Molecular docking against a DNA duplex with an intercalation gap (PDB ID: 1Z3F) is used to propose a minor-groove binding mode with a calculated binding free energy of −5.05 kcal/mol, which is more favorable than that of the positive control methyl methanesulfonate (MMS, −2.94 kcal/mol). The authors conclude that SFX may act as a DNA-reactive mutagen.
+- **Visible evidence base** Root growth inhibition data (Figure 3), mitotic index and phase index data (Table 1), chromosomal aberration data (Figures 4 and 5), comet assay data (Figure 6), docking results (Figures 7 and 8, Table 2), and statistical analyses as described.
+- **Missing materials affecting confidence** Raw data tables for mitotic indices, chromosomal aberration counts, and comet assay scores are not provided. Statistical outputs (F-values, degrees of freedom, post-hoc test results) are not reported. Docking validation metrics (e.g., RMSD of redocking, box coordinates relative to DNA, clustering parameters) are not fully described. No information on the number of biological replicates for the comet assay or the number of cells scored per slide beyond the stated totals is given. The manuscript does not include supplementary material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the potential cytogenotoxicity of a widely used insecticide in a non-target plant model. The combination of classical cytogenetic endpoints with a computational docking approach is potentially informative. However, the current presentation has several weaknesses that prevent full support of the conclusions. The statistical reporting is incomplete, the docking methodology lacks sufficient validation and detail, and the mechanistic link between the in silico binding data and the observed cytogenetic outcomes is speculative. The work is within the scope of the journal but requires substantial revision to meet the standards of evidence expected for the claims made.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, genetic toxicology, and pesticide risk assessment would be interested. The study provides data on a relatively new insecticide class (sulfoximines) in a standard plant bioassay, which is relevant for ecological risk assessment. The docking component may interest computational toxicologists, although its current depth is limited.
+- **Major strengths**
+  - Use of a well-established and regulatory-accepted plant bioassay (*Allium cepa*) for genotoxicity screening.
+  - Combination of multiple endpoints (root growth, mitotic index, chromosomal aberrations, DNA damage) provides a broad phenotypic assessment.
+  - The inclusion of a positive control (MMS) in both the experimental and computational arms is commendable.
+  - The study addresses a knowledge gap for a pesticide with limited published genotoxicity data in plant systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data reporting
+  - **Claim pointer** The manuscript claims statistically significant dose- and time-dependent effects on mitotic index, chromosomal aberrations, and DNA damage.
+  - **Evidence pointer** Table 1, Figures 5 and 6, Statistical Analysis section
+  - **Concern** The statistical analysis section mentions one-way ANOVA with Duncan and Pearson correlation tests, but the results section does not report any test statistics, degrees of freedom, p-values, or post-hoc grouping letters. The reader cannot verify the claimed significance or the dose- and time-dependence. The correlation coefficients (r values) are mentioned in the text but are not presented in a table or with associated p-values. The number of biological replicates for each assay is not clearly stated.
+  - **Why it matters** Without transparent and complete statistical reporting, the central claims of dose- and time-dependent effects are not verifiable. This is a fundamental requirement for the conclusions drawn.
+  - **Resolution test** Provide full statistical outputs for all comparisons, including F-values, degrees of freedom, exact p-values, and post-hoc test results. State the number of biological and technical replicates for each assay. Present correlation coefficients with p-values in a dedicated table or in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking methodology and validation
+  - **Claim pointer** The manuscript claims that SFX binds to the minor groove of DNA with a binding free energy of −5.05 kcal/mol, and that this binding mode is mechanistically linked to the observed chromosomal aberrations and DNA damage.
+  - **Evidence pointer** DNA Docking Studies section, Figures 7 and 8, Table 2
+  - **Concern** The docking methodology is under-described. The preparation of the DNA receptor (PDB ID: 1Z3F) is mentioned, but the specific chain, the location of the intercalation gap, and the handling of the gap are not described. The grid box coordinates are given, but the rationale for the box size and center is not explained. No validation of the docking protocol is provided (e.g., redocking of a co-crystallized ligand, if available, or comparison with a known binder). The clustering of the 20 runs is mentioned but not shown or described. The claim that SFX "preferentially snugly fits into the minor groove" is based on visual inspection of a single top-ranked pose, which is insufficient.
+  - **Why it matters** The docking results are a key part of the mechanistic narrative. Without a validated and fully described protocol, the reliability of the binding mode and affinity predictions is uncertain. The link between a computational binding pose and complex biological outcomes like chromosomal aberrations is a significant inferential leap that requires stronger support.
+  - **Resolution test** Provide a detailed docking protocol, including receptor preparation steps, grid box definition rationale, and any validation steps (e.g., redocking RMSD). Show the distribution of binding poses and energies for the 20 runs. Discuss the limitations of using a static DNA structure and a single pose to infer a mechanism of genotoxicity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose a mechanistic model where SFX forms stable complexes in the DNA minor groove during G1 phase, leading to replication stalling in S phase, and ultimately double-strand breaks and chromosomal aberrations.
+  - **Evidence pointer** Discussion section
+  - **Concern** This proposed mechanism is highly speculative. The docking study provides a static snapshot of a binding pose, not evidence of stable complex formation in a cellular context. The link between minor-groove binding and replication stalling is not established by the data. The authors do not discuss alternative mechanisms, such as oxidative stress (which they mention in the context of other pesticides) or topoisomerase inhibition, that could also explain the observed effects.
+  - **Why it matters** Over-interpretation of computational results as a definitive mechanism can mislead readers. The manuscript should clearly distinguish between hypothesis generation and evidence-based conclusions.
+  - **Resolution test** Reframe the mechanistic discussion as a hypothesis that requires further testing. Discuss alternative mechanisms and the limitations of the docking approach in supporting the proposed pathway.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Results section, root growth inhibition
+  - **Evidence pointer** Figure 3
+  - **Issue** The text states the EC50 was found to be 500 mg/L (50.3%). The meaning of "50.3%" is unclear. Is this the confidence interval, the inhibition at that concentration, or something else?
+  - **Required correction** Clarify the meaning of the value in parentheses. If it is a confidence interval, report it as such (e.g., 95% CI).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Chromosomal aberration data
+  - **Evidence pointer** Figure 5
+  - **Issue** The text mentions "TCC of 5294" for the highest aberration group. TCC is not defined in the text or figure legend.
+  - **Required correction** Define TCC (presumably total cells counted) at first use in the text or in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Docking figure quality
+  - **Affected element** Figure 8
+  - **Evidence pointer** Figure 8
+  - **Issue** The figure legend describes interactions, but the figure itself is not provided in the manuscript text. The description of the binding mode would benefit from a clear 2D interaction diagram.
+  - **Required correction** Ensure the figure clearly shows the interactions described in the text, or provide a 2D interaction map as a supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion compares SFX effects with other pesticides but does not cite specific studies for the *Allium* assay results of those pesticides in all cases.
+  - **Required correction** Add appropriate citations for the comparative statements regarding other pesticides.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Conclusion
+  - **Evidence pointer** Abstract, Conclusion
+  - **Issue** The term "cyto-genotoxic" is used, which is acceptable, but the conclusion states SFX "could be a DNA-reactive mutagen." This is a strong statement. The data show an association, not a direct demonstration of DNA reactivity.
+  - **Required correction** Soften the language to "may act as a DNA-reactive mutagen" or "is consistent with the properties of a DNA-reactive mutagen."
+- **Technical failings that need to be addressed before the case is established**
+  - Incomplete statistical reporting (R1-M1).
+  - Under-validated and under-described docking protocol (R1-M2).
+  - Over-speculative mechanistic interpretation (R1-M3).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of a standard bioassay to a relatively new insecticide is not highly original, but the combination with DNA docking is a useful addition to the literature on this compound.
+  - **Scientific importance** Moderate. The findings are of interest to the field of pesticide toxicology and risk assessment, but the study does not provide a major conceptual advance. The importance is limited by the lack of mechanistic depth and the speculative nature of the docking-based conclusions.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to environmental toxicologists and genetic toxicologists. The docking component is not sufficiently developed to attract a computational chemistry audience.
+  - **Technical soundness** The experimental design is generally sound, but the execution and reporting have significant gaps, particularly in statistics and docking validation. The technical soundness is currently insufficient to support the claims.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the methods section, particularly the docking part, assumes familiarity with specialized terminology. The results section would benefit from clearer presentation of statistical outcomes.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable experimental design, but the incomplete statistical reporting and the lack of validation for the docking component prevent the conclusions from being fully supported. Major revisions are required to address these concerns. I would be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that SFX forms a "more stable complex" with DNA than MMS is based solely on a single docking score comparison without error estimates or statistical analysis. This is unsupported.
+- The proposed mechanism linking minor-groove binding to replication stalling and double-strand breaks is a hypothesis, not a demonstrated mechanism. This is unsupported by the presented data.
+- The statement that SFX "could be a DNA-reactive mutagen" is an overreach from the data presented. The data show genotoxic effects, but direct DNA reactivity is not demonstrated.
+- The claim of "dose- and time-dependent" effects is not verifiable without the full statistical outputs.

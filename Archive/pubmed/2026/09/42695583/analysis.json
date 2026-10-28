@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42695583",
+  "title": "UPP1 as a Diagnostic Biomarker: Insights from Integrative Bioinformatics and Immune Infiltration Analyses in COPD.",
+  "authors": "Hu, Anbang; Hong, Xubo; Ma, Ying; Wu, Junlin; Zeng, Xiangxia; Xu, Yinji; Li, Hong",
+  "journal": "Journal of visualized experiments : JoVE",
+  "published_date": "2026-09-04",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学和机器学习筛选COPD的ac4C相关诊断生物标志物，虽涉及转录因子互作网络和分子对接，但核心是疾病诊断而非蛋白质-DNA互作机制建模，与本课题关联微弱。",
+  "abstract": "COPD is a progressive respiratory disorder characterized by persistent airflow limitation and chronic inflammation, yet the role of N4-acetylcytidine (ac4C) RNA modification in its pathogenesis remains largely unexplored. This study aimed to systematically screen for ac4C-related genes (ac4C-RGs) from a published database and investigate their regulatory networks in COPD, thereby identifying potential biomarkers for further mechanistic studies without assuming a direct regulatory relationship between any specific gene and ac4C modification. Differentially expressed genes (DEGs) were identified from transcriptomic profiles, and weighted gene co-expression network analysis (WGCNA) was applied to uncover key co-expression modules. Cross-analysis among DEGs, significant modules, and ac4C-RGs was conducted. Key genes were screened using LASSO regression, XGBoost, and random forest algorithms, followed by logistic regression‑based diagnostic model construction. Model performance was evaluated by receiver operating characteristic (ROC) curve analysis, area under the curve (AUC) with 95% confidence intervals, calibration curve assessment, and decision curve analysis (DCA). A total of 160 overlapping genes were identified, and six hub genes (PTRF, PRKCDBP, UPP1, TOR3A, FAM168B, and B4GALT2) were consistently selected by all three machine learning algorithms. The diagnostic model demonstrated good discriminative performance, with AUCs of 0.766, 0.759, and 0.723 in the training, internal test, and external validation sets, respectively. Regulatory network analysis suggested potential ceRNA axes and transcription factor interactions, while immune infiltration profiling revealed significant correlations between key genes and multiple immune cell subsets. Drug-gene interaction analysis and molecular docking indicated that fluorouracil, capecitabine, and 5-benzylacyclouridine may exhibit favorable predicted binding affinities with UPP1. In conclusion, PTRF, PRKCDBP, UPP1, TOR3A, FAM168B, and B4GALT2 were identified as potential ac4C-related biomarkers in COPD, potentially involved in immune and metabolic regulation, providing a foundation for future functional investigations and therapeutic exploration.",
+  "abstract_zh": "COPD是一种进行性呼吸系统疾病，其特征为持续性气流受限和慢性炎症，然而N4-乙酰胞苷（ac4C）RNA修饰在其发病机制中的作用仍 largely 未被探索。本研究旨在从已发表数据库中系统筛选ac4C相关基因（ac4C-RGs），并探讨其在COPD中的调控网络，从而识别潜在生物标志物以供进一步机制研究，而不假设任何特定基因与ac4C修饰之间存在直接调控关系。从转录组谱中鉴定差异表达基因（DEGs），并应用加权基因共表达网络分析（WGCNA）揭示关键共表达模块。对DEGs、显著模块和ac4C-RGs进行交叉分析。使用LASSO回归、XGBoost和随机森林算法筛选关键基因，随后构建基于逻辑回归的诊断模型。模型性能通过受试者工作特征（ROC）曲线分析、曲线下面积（AUC）及95%置信区间、校准曲线评估和决策曲线分析（DCA）进行评价。共鉴定出160个重叠基因，六个枢纽基因（PTRF、PRKCDBP、UPP1、TOR3A、FAM168B和B4GALT2）被所有三种机器学习算法一致选中。诊断模型表现出良好的区分性能，在训练集、内部测试集和外部验证集中的AUC分别为0.766、0.759和0.723。调控网络分析提示了潜在的ceRNA轴和转录因子相互作用，而免疫浸润谱分析揭示了关键基因与多种免疫细胞亚群之间的显著相关性。药物-基因相互作用分析和分子对接表明，氟尿嘧啶、卡培他滨和5-苄基酰尿苷可能与UPP1表现出良好的预测结合亲和力。总之，PTRF、PRKCDBP、UPP1、TOR3A、FAM168B和B4GALT2被鉴定为COPD中潜在的ac4C相关生物标志物，可能参与免疫和代谢调控，为未来功能研究和治疗探索提供了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42695583/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42695583/",
+  "paper_page_path": "papers/pubmed/42695583/index.html"
+}

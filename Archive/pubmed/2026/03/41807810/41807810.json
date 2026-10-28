@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41807810",
+    "doi": "10.1007/s00210-026-05141-y",
+    "title": "Pinostrobin attenuates microglia-mediated neuroinflammation after subarachnoid hemorrhage through modulation of the MYC-CTSL signaling axis."
+  },
+  "content": {
+    "abstract": "Subarachnoid hemorrhage (SAH) is a life-threatening neurological emergency associated with high mortality and poor functional outcomes. Early brain injury (EBI) within the first 72 h critically influences prognosis, with excessive microglial activation representing a key contributor to neuroinflammation and secondary neuronal damage. Identifying pharmacological agents capable of modulating microglia-driven inflammatory responses remains an important therapeutic challenge. In this study, we investigated the potential anti-inflammatory mechanisms of pinostrobin (PIN), a natural flavonoid with reported neuroprotective properties. By integrating bioinformatics, network pharmacology, and machine learning approaches (LASSO, random forest, and SVM), MYC and CTSL were identified as candidate targets potentially linking PIN to SAH-related inflammatory pathways. Molecular docking and 50-ns molecular dynamics simulations suggested stable interactions between PIN and these proteins. Furthermore, in vitro evidence from LPS-stimulated BV2 microglial cells demonstrated that PIN reduced the expression of MYC, CTSL, NF-kappaB p65, and IL-1beta, accompanied by attenuation of microglial inflammatory activation. Collectively, these findings suggest that PIN may modulate neuroinflammatory cascades relevant to EBI after SAH, potentially through regulation of the MYC-CTSL axis. This study provides integrative, hypothesis-generating insights into the microglia-targeted anti-inflammatory potential of PIN in the context of SAH.",
+    "keywords": [
+      "Anti-inflammatory",
+      "MYC/CTSL",
+      "Microglia",
+      "Pinostrobin",
+      "Subarachnoid hemorrhage",
+      "TLR signaling pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Microglia/drug effects/metabolism",
+      "*Flavanones/pharmacology",
+      "*Subarachnoid Hemorrhage/drug therapy/metabolism",
+      "Signal Transduction/drug effects",
+      "*Proto-Oncogene Proteins c-myc/metabolism",
+      "*Anti-Inflammatory Agents/pharmacology",
+      "Mice",
+      "Molecular Docking Simulation",
+      "*Neuroprotective Agents/pharmacology",
+      "Cell Line",
+      "*Neuroinflammatory Diseases/drug therapy/metabolism",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Qi",
+        "Wang, Yihan",
+        "Wang, Bingchuan",
+        "Yang, Dujiang",
+        "Wang, Jinyu",
+        "Ou, Wenxin",
+        "Tang, Qiang",
+        "Zhou, Wei",
+        "Zhang, Mingwei"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Wang Y",
+        "Wang B",
+        "Yang D",
+        "Wang J",
+        "Ou W",
+        "Tang Q",
+        "Zhou W",
+        "Zhang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Nephrology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China. 404603656@qq.com.",
+        "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China. Zmw061516@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Qi",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yihan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bingchuan",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dujiang",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinyu",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Wenxin",
+        "short_name": "Ou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qiang",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wei",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China. 404603656@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mingwei",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, No. 89, Xianglin Road Section 1, Longmatan District, Luzhou, China. Zmw061516@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:57",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42093362"
+    ],
+    "refs": [
+      "41305639",
+      "40293792",
+      "40105962",
+      "39941044",
+      "39747344",
+      "39341923",
+      "39070112",
+      "38434672",
+      "38415607",
+      "38247498",
+      "37735487",
+      "37672892",
+      "36866673",
+      "36818470",
+      "36798091",
+      "36561497",
+      "36458098",
+      "36270256",
+      "36097473",
+      "36036014",
+      "35985353",
+      "35936052",
+      "35805174",
+      "35778649",
+      "35609983",
+      "35286356",
+      "34916410",
+      "34133930",
+      "33895328",
+      "33128703",
+      "33058417",
+      "32928088",
+      "32870258",
+      "32807442",
+      "32703960",
+      "32549759",
+      "32348212",
+      "31012056",
+      "30893825",
+      "29961319",
+      "29195074",
+      "29154036",
+      "26574453",
+      "25572950",
+      "25076949",
+      "24680612",
+      "23733552",
+      "23015327",
+      "20739162",
+      "16968411",
+      "15116359",
+      "12395429"
+    ],
+    "similar": [
+      "41807810",
+      "39986195",
+      "41671619",
+      "39287134",
+      "41285187",
+      "38636801",
+      "42243462",
+      "41707815",
+      "40263235",
+      "41828407",
+      "37884185",
+      "37770901",
+      "42214229",
+      "38527567",
+      "39207623",
+      "29102603",
+      "39743001",
+      "38122912",
+      "35237277",
+      "42004947",
+      "38636772",
+      "42159851",
+      "29759145",
+      "42013993",
+      "42262450",
+      "41349710",
+      "40645543",
+      "40378509",
+      "41085724",
+      "26091790",
+      "42208333",
+      "41771399",
+      "41880679",
+      "38897126",
+      "42013647",
+      "42280394",
+      "30117729",
+      "28457811",
+      "41651331",
+      "40473822",
+      "33516246",
+      "42208703",
+      "41265260",
+      "41690371",
+      "41724286",
+      "40117946",
+      "30126439",
+      "34899720",
+      "31590996",
+      "38552431",
+      "33245889",
+      "37309616",
+      "26472707",
+      "37979447",
+      "38493721",
+      "39947392",
+      "29397536",
+      "39413938",
+      "25451085",
+      "31949876",
+      "28738820",
+      "38720657",
+      "39668302",
+      "31779639",
+      "40424653",
+      "41524992",
+      "33352239",
+      "39878812",
+      "40318813",
+      "29162556",
+      "39009094",
+      "31486022",
+      "27529233",
+      "29678169",
+      "38797312",
+      "32933418",
+      "40262763",
+      "36872850",
+      "32450897",
+      "41650890",
+      "41465525",
+      "41299803",
+      "30225551",
+      "41997458",
+      "38428144",
+      "38862817",
+      "34511434",
+      "39059571",
+      "38285214",
+      "39146784",
+      "40807306",
+      "38800857",
+      "39454807",
+      "26028151",
+      "41612866",
+      "33029280",
+      "39924585",
+      "39528767",
+      "31778579",
+      "29688151"
+    ],
+    "review": [
+      "41807810"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-026-05141-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

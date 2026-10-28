@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "34297300",
+    "doi": "10.1007/s11517-021-02399-7",
+    "title": "Information extraction for prognostic stage prediction from breast cancer medical records using NLP and ML."
+  },
+  "content": {
+    "abstract": "For cancer prediction, the prognostic stage is the main factor that helps medical experts to decide the optimal treatment for a patient. Specialists study prognostic stage information from medical reports, often in an unstructured form, and take a larger review time. The main objective of this study is to suggest a generic clinical decision-unifying staging method to extract the most reliable prognostic stage information of breast cancer from medical records of various health institutions. Additional prognostic elements should be extracted from medical reports to identify the cancer stage for getting an exact measure of cancer and improving care quality. This study has collected 465 pathological and clinical reports of breast cancer sufferers from India's reputed medical institutions. The unstructured records were found distinct from each institute. Anatomic and biologic factors are extracted from medical records using the natural language processing, machine learning and rule-based method for prognostic stage detection. This study has extracted anatomic stage, grade, estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2) from medical reports with high accuracy and predicted prognostic stage for both regions. The prognostic stage prediction's average accuracy is found 92% and 82% in rural and urban areas, respectively. It was essential to combine biological and anatomical elements under a single prognostic staging method. A generic clinical decision-unifying staging method for prognostic stage detection with great accuracy in various institutions of different regional areas suggests that the proposed research improves the prognosis of breast cancer.",
+    "keywords": [
+      "Anatomic stage",
+      "Grade",
+      "HER-2",
+      "Hormone receptor",
+      "Information extraction",
+      "Medical reports",
+      "Natural language processing",
+      "Prognostic stage"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms/diagnosis",
+      "Female",
+      "Humans",
+      "Information Storage and Retrieval",
+      "Medical Records",
+      "Prognosis",
+      "Receptors, Estrogen"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deshmukh, Pratiksha R",
+        "Phalnikar, Rashmi"
+      ],
+      "short_names": [
+        "Deshmukh PR",
+        "Phalnikar R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Engineering and Technology, MIT World Peace University, Pune, India, 411029. deshmukhpratikshar@gmail.com.",
+        "Department of Computer Engineering and Information Technology, College of Engineering, Pune, 411005, India. deshmukhpratikshar@gmail.com.",
+        "School of Computer Engineering and Technology, MIT World Peace University, Pune, India, 411029."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deshmukh, Pratiksha R",
+        "short_name": "Deshmukh PR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Engineering and Technology, MIT World Peace University, Pune, India, 411029. deshmukhpratikshar@gmail.com.",
+          "Department of Computer Engineering and Information Technology, College of Engineering, Pune, 411005, India. deshmukhpratikshar@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Phalnikar, Rashmi",
+        "short_name": "Phalnikar R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Engineering and Technology, MIT World Peace University, Pune, India, 411029."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical & biological engineering & computing"
+    ],
+    "journal_abbrev": [
+      "Med Biol Eng Comput"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/24 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "42298565",
+      "42121953",
+      "41388924",
+      "38943091",
+      "37189521",
+      "36959794",
+      "36673096"
+    ],
+    "refs": [
+      "32587295",
+      "32093606",
+      "31992588",
+      "31608946",
+      "29677569",
+      "29100045",
+      "27644602",
+      "25211697",
+      "25001545",
+      "22934236",
+      "20595312",
+      "19484309",
+      "17712093",
+      "12123149"
+    ],
+    "similar": [
+      "34297300",
+      "34319178",
+      "29100045",
+      "31192530",
+      "24306257",
+      "33373867",
+      "27619909",
+      "25600504",
+      "30231399",
+      "30926158",
+      "16959170",
+      "28889189",
+      "29388016",
+      "31888615",
+      "32472474",
+      "18098228",
+      "27760283",
+      "30509870",
+      "33114311",
+      "30078612",
+      "31369338",
+      "31019021",
+      "27315045",
+      "17993229",
+      "32205037",
+      "23747837",
+      "27743431",
+      "31595365",
+      "8535901",
+      "32334465",
+      "23098526",
+      "29397625",
+      "27571243",
+      "17636399",
+      "28294295",
+      "24762482",
+      "31706539",
+      "26986538",
+      "28057031",
+      "30080878",
+      "30005768",
+      "20231686",
+      "27388877",
+      "29968970",
+      "30171067",
+      "32856383",
+      "33544932",
+      "22080245",
+      "23098527",
+      "28456837",
+      "24065473",
+      "30456680",
+      "26403396",
+      "8960138",
+      "29643524",
+      "25412389",
+      "30347405",
+      "1516031",
+      "30367449",
+      "24023330",
+      "32600201",
+      "23040002",
+      "26138872",
+      "30784428",
+      "21029696",
+      "25600243",
+      "16673249",
+      "31434454",
+      "16899591",
+      "20713855",
+      "19764994",
+      "28667103",
+      "17059344",
+      "25981620"
+    ],
+    "review": [
+      "34297300",
+      "30231399",
+      "16959170",
+      "17993229",
+      "8535901",
+      "30005768",
+      "33544932",
+      "1516031"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11517-021-02399-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-8",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.28.538684",
+  "title": "Identification of transcription factor co-binding patterns with non-negative matrix factorization",
+  "authors": "Ieva Rauluseviciute; Timothée Launay; Guido Barzaghi; Sarvesh Nikumbh; Boris Lenhard; Arnaud Regis Krebs; Jaime A. Castro-Mondragon; Anthony Mathelier",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-29",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用非负矩阵分解从TF结合位点侧翼序列中自动识别TF共结合模式，虽未直接建模三维互作，但聚焦TF-DNA协同结合且方法可迁移至互作预测。",
+  "abstract": "Transcription factor (TF) binding to DNA is critical to transcription regulation. Although the binding properties of numerous individual TFs are well-documented, a more detailed comprehension of how TFs interact cooperatively with DNA, forming either complex or co-binding to the same region, is required. Indeed, the combinatorial binding of TFs is essential to cell differentiation, development, and response to external stimuli. We present COBIND, a novel method based on non-negative matrix factorization (NMF) to identify TF co-binding patterns automatically. COBIND applies NMF to one-hot encoded regions flanking known TF binding sites (TFBSs) to pinpoint enriched DNA patterns at fixed distances. We applied COBIND to 8,293 TFBS datasets from UniBind for 404 TFs in seven species. The method uncovered already established co-binding patterns ( e.g., between POU5F1 and SOX2 or SOX17) and new co-binding configurations not yet reported in the literature and inferred through motif similarity and protein-protein interaction knowledge. Our extensive analyses across species revealed that 84% of the studied TFs share a co-binding motif with other TFs from the same structural family. The co-binding patterns captured by COBIND are likely functionally relevant as they harbor higher evolutionarily conservation than isolated TFBSs. Open chromatin data from matching human cell lines further supported the co-binding predictions. Finally, we used single-molecule footprinting data from mouse embryonic stem cells to confirm that the co-binding events captured by COBIND were likely occurring on the same DNA molecules.",
+  "abstract_zh": "转录因子（TF）与DNA的结合对转录调控至关重要。尽管众多单个TF的结合特性已有详尽记录，但对于TF如何协同与DNA相互作用，形成复合物或共同结合至同一区域，仍需更深入的理解。确实，TF的组合性结合对细胞分化、发育及对外部刺激的响应至关重要。我们提出了COBIND，一种基于非负矩阵分解（NMF）的新方法，用于自动识别TF共结合模式。COBIND将NMF应用于已知TF结合位点（TFBSs）侧翼的单热编码区域，以精确定位固定距离处的富集DNA模式。我们将COBIND应用于来自UniBind的8,293个TFBS数据集，涵盖七个物种中的404个TF。该方法揭示了已确立的共结合模式（例如，POU5F1与SOX2或SOX17之间）以及文献中尚未报道的新共结合构型，并通过基序相似性和蛋白质-蛋白质相互作用知识进行推断。我们跨物种的广泛分析显示，所研究的TF中有84%与同一结构家族的其他TF共享共结合基序。COBIND捕获的共结合模式可能具有功能相关性，因为它们比孤立的TFBSs具有更高的进化保守性。来自匹配人类细胞系的开放染色质数据进一步支持了共结合预测。最后，我们利用小鼠胚胎干细胞的单分子足迹数据，确认COBIND捕获的共结合事件可能发生在同一DNA分子上。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538684",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538684",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.28.538684/index.html"
+}

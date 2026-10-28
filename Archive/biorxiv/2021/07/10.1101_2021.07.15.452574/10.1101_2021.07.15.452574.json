@@ -1,0 +1,134 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.15.452574",
+  "title": "Accurate prediction of functional states of cis -regulatory modules reveals the common epigenetic rules in humans and mice",
+  "doi": "10.1101/2021.07.15.452574",
+  "abstract": "We proposed a two-step approach for predicting active cis -regulatory modules (CRMs) in a cell/tissue type. We first predict a map of CRM loci in the genome using all available transcription factor binding data in the organism, and then predict functional states of all the putative CRMs in any cell/tissue type using few epigenetic marks. We have recently developed a pipeline dePCRM2 for the first step, and now presented machine-learning methods for the second step. Our approach substantially outperforms existing methods. Our results suggest common epigenetic rules for defining functional states of CRMs in various cell/tissue types in humans and mice.",
+  "authors": [
+    "Ni P",
+    "Moe J",
+    "Su Z"
+  ],
+  "published_date": "2021-07-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.15.452574",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.15.452574.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR370750",
+    "raw_record": {
+      "id": "PPR370750",
+      "source": "PPR",
+      "doi": "10.1101/2021.07.15.452574",
+      "title": "Accurate prediction of functional states of  <i>cis</i>  -regulatory modules reveals the common epigenetic rules in humans and mice",
+      "authorString": "Ni P, Moe J, Su Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ni P",
+            "lastName": "Ni",
+            "firstName": "Pengyu",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9878-5480"
+            }
+          },
+          {
+            "fullName": "Moe J",
+            "lastName": "Moe",
+            "firstName": "Joshua",
+            "initials": "J"
+          },
+          {
+            "fullName": "Su Z",
+            "lastName": "Su",
+            "firstName": "Zhengchang",
+            "initials": "Z"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9878-5480"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "We proposed a two-step approach for predicting active  cis -regulatory modules (CRMs) in a cell/tissue type. We first predict a map of CRM loci in the genome using all available transcription factor binding data in the organism, and then predict functional states of all the putative CRMs in any cell/tissue type using few epigenetic marks. We have recently developed a pipeline dePCRM2 for the first step, and now presented machine-learning methods for the second step. Our approach substantially outperforms existing methods. Our results suggest common epigenetic rules for defining functional states of CRMs in various cell/tissue types in humans and mice.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/02/2021.07.15.452574.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.07.15.452574"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36199141",
+            "reference": "BMC biology. 2022 Oct;20(1):221",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-07-17",
+      "firstPublicationDate": "2021-07-16",
+      "firstIndexDate": "2021-07-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

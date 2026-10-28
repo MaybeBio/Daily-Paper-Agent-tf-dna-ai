@@ -1,0 +1,768 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.06.487274",
+  "title": "Enhanced compound-protein binding affinity prediction by representing protein multimodal information via a coevolutionary strategy",
+  "doi": "10.1101/2022.04.06.487274",
+  "abstract": "Due to the lack of a method to efficiently represent the multimodal information of a protein, including its structure and sequence information, predicting compound-protein binding affinity (CPA) still suffers from low accuracy when applying machine learning methods. To overcome this limitation, in a novel end-to-end architecture (named FeatNN), we develop a coevolutionary strategy to jointly represent the structure and sequence features of proteins and ultimately optimize the mathematical models for predicting CPA. Furthermore, from the perspective of data-driven approach, we proposed a rational method that can utilize both high- and low-quality databases to optimize the accuracy and generalization ability of FeatNN in CPA prediction tasks. Notably, we visually interpret the feature interaction process between sequence and structure in the rationally designed architecture. As a result, FeatNN considerably outperforms the state-of-the-art (SOTA) baseline in virtual drug screening tasks, indicating the feasibility of this approach for practical use. FeatNN provides an outstanding method for higher CPA prediction accuracy and better generalization ability by efficiently representing multimodal information of proteins via a coevolutionary strategy.",
+  "authors": [
+    "Binjie Guo",
+    "Hanyu Zheng",
+    "Haohan Jiang",
+    "Xiaodan Li",
+    "Naiyu Guan",
+    "Yanming Zuo",
+    "Yicheng Zhang",
+    "Hengfu Yang",
+    "Xuhua Wang"
+  ],
+  "published_date": "2022-04-08",
+  "updated_date": "2022-04-08T21:50:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.06.487274",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.06.487274.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:06:41Z",
+        "timestamp": 1768500401672,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            8
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Due to the lack of a method to efficiently represent the multimodal information of a protein, including its structure and sequence information, predicting compound-protein binding affinity (CPA) still suffers from low accuracy when applying machine learning methods. To overcome this limitation, in a novel end-to-end architecture (named FeatNN), we develop a coevolutionary strategy to jointly represent the structure and sequence features of proteins and ultimately optimize the mathematical models for predicting CPA. Furthermore, from the perspective of data-driven approach, we proposed a rational method that can utilize both high- and low-quality databases to optimize the accuracy and generalization ability of FeatNN in CPA prediction tasks. Notably, we visually interpret the feature interaction process between sequence and structure in the rationally designed architecture. As a result, FeatNN considerably outperforms the state-of-the-art (SOTA) baseline in virtual drug screening tasks, indicating the feasibility of this approach for practical use. FeatNN provides an outstanding method for higher CPA prediction accuracy and better generalization ability by efficiently representing multimodal information of proteins via a coevolutionary strategy.</jats:p>",
+      "DOI": "10.1101/2022.04.06.487274",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            8
+          ]
+        ],
+        "date-time": "2022-04-08T21:50:11Z",
+        "timestamp": 1649454611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Enhanced compound-protein binding affinity prediction by representing protein multimodal information via a coevolutionary strategy"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Binjie",
+          "family": "Guo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hanyu",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haohan",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaodan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Naiyu",
+          "family": "Guan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yanming",
+          "family": "Zuo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yicheng",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hengfu",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4565-787X",
+          "authenticated-orcid": false,
+          "given": "Xuhua",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.1",
+          "first-page": "696",
+          "article-title": "Drug-target interaction prediction: databases",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "web servers and computational models, Brief Bioinform"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.2",
+          "first-page": "559",
+          "article-title": "From virtuality to reality - Virtual screening in lead discovery and lead optimization: a medicinal chemistry perspective",
+          "volume": "11",
+          "year": "2008",
+          "journal-title": "Curr Opin Drug Discov Devel"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.3",
+          "first-page": "D1045",
+          "article-title": "BindingDB in 2015: A public database for medicinal chemistry",
+          "volume": "44",
+          "year": "2016",
+          "journal-title": "computational chemistry and systems pharmacology, Nucleic Acids Res"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "166704",
+          "DOI": "10.1016/j.jmb.2020.11.003",
+          "article-title": "RCSB Protein Data Bank: Architectural Advances Towards Integrated Searching and Efficient Access to Macromolecular Structure Data from the PDB Archive",
+          "volume": "433",
+          "year": "2021",
+          "journal-title": "J Mol Biol"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drug–protein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1839",
+          "DOI": "10.1109/JBHI.2020.3027511",
+          "article-title": "Visualization of Protein-Drug Interactions for the Analysis of Drug Resistance in Lung Cancer",
+          "volume": "25",
+          "year": "2021",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01306"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1016/j.cels.2020.03.002",
+          "article-title": "MONN: A Multi-objective Neural Network for Predicting Compound-Protein Interactions and Affinities",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ru X , Ye X , Sakurai T et al. NerLTR-DTA: Drug-target binding affinity prediction based on neighbor relationship and learning to rank, Bioinformatics 2022.",
+          "DOI": "10.1093/bioinformatics/btac048"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp433"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.12",
+          "first-page": "669",
+          "article-title": "Computational Prediction of DrugTarget Interactions Using Chemical",
+          "volume": "33",
+          "year": "2014",
+          "journal-title": "Biological, and Network Features, Mol Inform"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-0977-x"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007129"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c9sc03414e"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2009.03.004"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2011.09.022"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq112"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bai Q , Liu S , Tian Y et al. Application advances of deep learning methods for de novo drug design and molecular dynamics simulation, WIREs Computational Molecular Science 2021;12.",
+          "DOI": "10.1002/wcms.1581"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065",
+          "DOI": "10.1021/acsmedchemlett.8b00437",
+          "article-title": "Transforming Computational Drug Discovery with Machine Learning and AI",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "ACS Med Chem Lett"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd1549"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.8b00718"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn162"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-021-00438-4"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li S , Zhou J , Xu T et al. Structure-aware Interactive Graph Neural Networks for the Prediction of Protein-Ligand Binding Affinity. Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021, 975–985.",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "18209",
+          "DOI": "10.1021/acs.jmedchem.1c01830",
+          "article-title": "InteractionGraphNet: A Novel and Efficient Deep Graph Representation Learning Framework for Accurate Protein-Ligand Interaction Predictions",
+          "volume": "64",
+          "year": "2021",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.30",
+          "unstructured": "Kipf TN , Welling M. Semi-Supervised Classification with Graph Convolutional Networks, CoRR 2016;abs/1609.02907."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1088"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.05.024"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20512"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Refaeilzadeh P TL , Liu H. Cross-validation, Encyclopedia of database systems 2009:532–538.",
+          "DOI": "10.1007/978-0-387-39940-9_565"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1140",
+          "DOI": "10.1093/bioinformatics/btaa921",
+          "article-title": "GraphDTA: predicting drug-target binding affinity with graph neural networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li M , Lu Z , Wu Y et al. BACPI: a bi-directional attention neural network for compound-protein interaction and binding affinity prediction, Bioinformatics 2022.",
+          "DOI": "10.1093/bioinformatics/btac035"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.38",
+          "unstructured": "Ishiguro KaM , Shin-ichi and Koyama, Masanori. Graph Warp Module: an Auxiliary Module for Boosting the Power of Graph Neural Networks in Molecular Graph Analysis, arXiv 2019."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c8sc00148k"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "102713",
+          "DOI": "10.1016/j.copbio.2022.102713",
+          "article-title": "Machine learning to navigate fitness landscapes for protein engineering",
+          "volume": "75",
+          "year": "2022",
+          "journal-title": "Curr Opin Biotechnol"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.41",
+          "unstructured": "Pengfei Liu WY , Jinlan Fu , Zhengbao Jiang , Hiroaki Hayashi , Graham Neubig . Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, arXiv 2021."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.42",
+          "unstructured": "Hinton . LJPvdMaGE. Visualizing High-Dimensional Data Using t-SNE., Journal of Machine Learning Research 2008;9."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.43",
+          "unstructured": "Stachenfeld KaG , Jonathan and Battaglia, Peter. Graph Networks with Spectral Message Passing, arXiv 2021."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bai Q , Tan S , Xu T et al. MolAICal: a soft tool for 3D drug design of protein targets by artificial intelligence and classical algorithm, Brief Bioinform 2021;22.",
+          "DOI": "10.1093/bib/bbaa161"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1038/s41586-020-2368-8",
+          "article-title": "Structure of replicating SARS-CoV-2 polymerase",
+          "volume": "584",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.46",
+          "unstructured": "Li J , Lin C , Zhou X et al. 2021."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12985-020-01457-0"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "ofaa241",
+          "DOI": "10.1093/ofid/ofaa241",
+          "article-title": "Antiviral Activity and Safety of Darunavir/Cobicistat for the Treatment of COVID-19",
+          "volume": "7",
+          "year": "2020",
+          "journal-title": "Open Forum Infect Dis"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmed MH , Hassan A. Dexamethasone for the Treatment of Coronavirus Disease (COVID-19): a Review, SN Compr Clin Med 2020:1–10.",
+          "DOI": "10.1007/s42399-020-00610-8"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.0c01063"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1186/s12964-019-0450-3",
+          "article-title": "Distinct functions of AKT isoforms in breast cancer: a comprehensive review",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "Cell Commun Signal"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1001/jama.2021.3071"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shamsi A , Mohammad T , Anwar S et al. Glecaprevir and Maraviroc are high-affinity inhibitors of SARS-CoV-2 main protease: possible implication in COVID-19 therapy, Biosci Rep 2020;40.",
+          "DOI": "10.1042/BSR20201256"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "128263",
+          "DOI": "10.1016/j.bmcl.2021.128263",
+          "article-title": "A head-to-head comparison of the inhibitory activities of 15 peptidomimetic SARS-CoV-2 3CLpro inhibitors",
+          "volume": "48",
+          "year": "2021",
+          "journal-title": "Bioorg Med Chem Lett"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1038/s42003-020-01577-x",
+          "article-title": "Identification of 3-chymotrypsin like protease (3CLPro) inhibitors as potential anti-SARS-CoV-2 agents",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1591",
+          "DOI": "10.1016/j.apsb.2021.06.016",
+          "article-title": "Recent advances in developing small-molecule inhibitors against SARS-CoV-2",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Acta Pharm Sin B"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.57",
+          "first-page": "4536",
+          "article-title": "SARS-CoV-2: Recent Reports on Antiviral Therapies Based on Lopinavir/Ritonavir",
+          "volume": "27",
+          "year": "2020",
+          "journal-title": "Darunavir/Umifenovir, Hydroxychloroquine, Remdesivir, Favipiravir and other Drugs for the Treatment of the New Coronavirus, Curr Med Chem"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "792",
+          "DOI": "10.1021/acscentsci.0c01186",
+          "article-title": "Simeprevir Potently Suppresses SARS-CoV-2 Replication and Synergizes with Remdesivir",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "ACS Cent Sci"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "28287",
+          "DOI": "10.1039/D0RA04395H",
+          "article-title": "Targeting severe acute respiratory syndrome-coronavirus (SARS-CoV-1) with structurally diverse inhibitors: a comprehensive review",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "RSC Adv"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1535-7163.MCT-09-0986"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "449",
+          "DOI": "10.1002/ijc.30457",
+          "article-title": "BAY 1125976, a selective allosteric AKT1/2 inhibitor, exhibits high efficacy on AKT signaling-dependent tumor growth in mouse models",
+          "volume": "140",
+          "year": "2017",
+          "journal-title": "Int J Cancer"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-07-5783"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0012913"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "157",
+          "DOI": "10.1016/j.breast.2022.03.018",
+          "article-title": "The emerging role of capivasertib in breast cancer",
+          "volume": "63",
+          "year": "2022",
+          "journal-title": "Breast"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.65",
+          "first-page": "4777",
+          "article-title": "First-in-Human Study of AT13148",
+          "volume": "26",
+          "year": "2020",
+          "journal-title": "a Dual ROCK-AKT Inhibitor in Patients with Solid Tumors, Clin Cancer Res"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0206920",
+          "DOI": "10.1371/journal.pone.0206920",
+          "article-title": "Miransertib (ARQ 092), an orally-available, selective Akt inhibitor is effective against Leishmania",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-18-2861"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1535-7163.MCT-17-0823"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Iksen, Pothongsrisit S , Pongrakhananon V. Targeting the PI3K/AKT/mTOR Signaling Pathway in Lung Cancer: An Update Regarding Potential Drugs and Natural Products, Molecules 2021;26.",
+          "DOI": "10.3390/molecules26134100"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He K , Zhang X , Ren S et al. Deep Residual Learning for Image Recognition, CoRR 2015;abs/1512.03385.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.71",
+          "unstructured": "Chen M , Wei Z , Huang Z et al. Simple and Deep Graph Convolutional Networks, arXiv [cs.LG] 2020."
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Susan S , Kumar A. The balancing trick: Optimized sampling of imbalanced datasets—A brief survey of the recent State of the Art, Engineering Reports 2020;3.",
+          "DOI": "10.1002/eng2.12298"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "12841",
+          "DOI": "10.3390/molecules200712841",
+          "article-title": "Three-dimensional compound comparison methods and their application in drug discovery",
+          "volume": "20",
+          "year": "2015",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2022112503050536000_2022.04.06.487274v3.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "102326",
+          "DOI": "10.1016/j.sbi.2021.102326",
+          "article-title": "AI in 3D compound design",
+          "volume": "73",
+          "year": "2022",
+          "journal-title": "Curr Opin Struct Biol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.06.487274",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:53:40Z",
+        "timestamp": 1768445620000
+      },
+      "score": 90.05037,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.06.487274"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            8
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2022.04.06.487274",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbac628",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

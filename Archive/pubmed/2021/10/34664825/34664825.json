@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "34664825",
+    "doi": "10.1097/MD.0000000000026643",
+    "title": "Investigation on the mechanisms of guiqi huoxue capsule for treating cervical spondylosis based on network pharmacology and molecular docking."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Guiqi huoxue capsule (GQHXC) is a patented Chinese medicine used for treating a liver and kidney deficiency and blood stasis syndrome due to qi deficiency. It is caused by cervical spondylosis (cervical spondylotic radiculopathy (CSR), mixed cervical spondylosis mainly composed of nerve root type). Its underlying mechanisms need, however, to be further clarified. METHODS: In this study, collecting compounds, predicting therapeutic targets, constructing networks, and analyzing biological functions and pathways were based on network pharmacology analysis. In addition, molecular docking verification was engaged to assess the binding potential of selected target-compound pairs. RESULTS: We established 5 networks: compound-putative target network of GQHXC, protein-protein interaction (PPI) network related to CSR, compound-CSR target network, potential therapeutic targets PPI network, and herb-compound-target-pathway network. Network analysis indicated that 7 targets (tumor necrosis factor [TNF], interleukin 6 [IL6], nitric oxide synthase 3 [NOS3], Interleukin-8 [CXCL8], prostaglandin-endoperoxide synthase 2 [PTGS2], vascular endothelial growth factor A [VEGFA], and AP-1 transcription factor subunit [JUN]) might be the therapeutic targets of GQHXC in CSR. Moreover, molecular docking verification showed that TNF, IL6, NOS3, CXCL8, PTGS2, VEGFA, and JUN had a good is interaction with the corresponding compounds. Furthermore, enrichment analysis indicated that GQHXC might exert a curative role in CSR by regulating some important pathways, such as TNF signaling pathway, NF-kappa B signaling pathway, AGE-RAGE signaling pathway in diabetic complications, and so on. CONCLUSION: Our study preliminarily explained the underlying mechanisms of GQHXC for treating CSR, and molecular docking verification was adopted as an additional verification. These findings laid a valuable foundation for experimental research and further application of GQHXC in the clinical treatment of CSR.",
+    "keywords": [],
+    "mesh_terms": [
+      "Administration, Oral",
+      "Drugs, Chinese Herbal/*pharmacology/therapeutic use",
+      "Humans",
+      "Molecular Docking Simulation/methods",
+      "Pharmacology/methods",
+      "Spondylosis/*drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yingying",
+        "Zhang, Jingyuan",
+        "Liu, Xinkui",
+        "Zhou, Wei",
+        "Stalin, Antony",
+        "Fu, Changgeng",
+        "Wu, Jiarui",
+        "Cheng, Guoliang",
+        "Guo, Siyu",
+        "Jia, Shanshan",
+        "Li, Bingbing",
+        "Wang, Haojia",
+        "Li, Jialin",
+        "Lu, Shan"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Zhang J",
+        "Liu X",
+        "Zhou W",
+        "Stalin A",
+        "Fu C",
+        "Wu J",
+        "Cheng G",
+        "Guo S",
+        "Jia S",
+        "Li B",
+        "Wang H",
+        "Li J",
+        "Lu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "State Key Laboratory of Subtropical Silviculture, Department of Traditional Chinese Medicine, Zhejiang A&F University, Hangzhou, China.",
+        "Xiyuan Hospital of China Academy of Chinese Medical Sciences, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "State Key Laboratory of Generic Manufacture Technology of Chinese Traditional Medicine, Linyi, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Xiyuan Hospital of China Academy of Chinese Medical Sciences, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yingying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingyuan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinkui",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wei",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Stalin, Antony",
+        "short_name": "Stalin A",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Subtropical Silviculture, Department of Traditional Chinese Medicine, Zhejiang A&F University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Changgeng",
+        "short_name": "Fu C",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital of China Academy of Chinese Medical Sciences, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiarui",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Guoliang",
+        "short_name": "Cheng G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Generic Manufacture Technology of Chinese Traditional Medicine, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Siyu",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Shanshan",
+        "short_name": "Jia S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bingbing",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital of China Academy of Chinese Medical Sciences, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haojia",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jialin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shan",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chinese Pharmacy, School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2021 Sep 17",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/20 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "42293154",
+      "41814225",
+      "40508014",
+      "39114722",
+      "36261841",
+      "35628212"
+    ],
+    "refs": [
+      "32873108",
+      "32800538",
+      "32385526",
+      "32327746",
+      "31956559",
+      "31820601",
+      "31770206",
+      "31686273",
+      "31673279",
+      "31634495",
+      "31634001",
+      "31576092",
+      "31548177",
+      "31531901",
+      "31485669",
+      "31433756",
+      "31402861",
+      "31394193",
+      "31275410",
+      "31147602",
+      "31076004",
+      "30941682",
+      "30938843",
+      "30787661",
+      "30472586",
+      "29983926",
+      "29945400",
+      "29937729",
+      "29676121",
+      "29654614",
+      "29600765",
+      "29533034",
+      "29450133",
+      "29230425",
+      "29139324",
+      "28712480",
+      "28651842",
+      "28357067",
+      "27926832",
+      "27924018",
+      "27924014",
+      "27438387",
+      "27114762",
+      "26578601",
+      "25922567",
+      "25557036",
+      "24947523",
+      "24275485",
+      "24146468",
+      "24099350",
+      "23787177",
+      "23761452",
+      "23302534",
+      "23014739",
+      "22650145",
+      "21840387",
+      "20562826",
+      "20091597",
+      "19786147",
+      "19499576",
+      "18274639",
+      "16489009",
+      "16474945",
+      "16133074",
+      "16049211",
+      "15767339",
+      "12512453",
+      "11978786",
+      "11596242",
+      "11427521",
+      "10592173",
+      "8927591",
+      "8186959"
+    ],
+    "similar": [
+      "34664825",
+      "33645090",
+      "32122353",
+      "34467738",
+      "33645014",
+      "33441867",
+      "35964821",
+      "28031022",
+      "33496115",
+      "33849106",
+      "35196362",
+      "32447519",
+      "31275410",
+      "34044079",
+      "32689994",
+      "33645094",
+      "34472274",
+      "31112872",
+      "34422068",
+      "34088885",
+      "34675276",
+      "33382964",
+      "33849116",
+      "38237172",
+      "34217946",
+      "35941928",
+      "33691446",
+      "34273705",
+      "33140889",
+      "31818704",
+      "35098831",
+      "38579078",
+      "32693616",
+      "33775806",
+      "35372585",
+      "32081843",
+      "33035753",
+      "33645093",
+      "31272505",
+      "32896625",
+      "33310816",
+      "29230425",
+      "33496116",
+      "34825377",
+      "31760157",
+      "33682294",
+      "39032805",
+      "32565312",
+      "33963719",
+      "32505843",
+      "37076581",
+      "32846191",
+      "33254437",
+      "31005783",
+      "34353059",
+      "33358854",
+      "33752429",
+      "33228635",
+      "30590198",
+      "36204124",
+      "32126522",
+      "34690752",
+      "33988813",
+      "31386888",
+      "34296561",
+      "39069409",
+      "34055010",
+      "32345291",
+      "32050950",
+      "33196098",
+      "34174759",
+      "34047084",
+      "34149863",
+      "34467696",
+      "34047081",
+      "32389853",
+      "32237520",
+      "35873563",
+      "33497736",
+      "31642770",
+      "34472273",
+      "35321506",
+      "34961588",
+      "33273947",
+      "37536229",
+      "35315239",
+      "36863553",
+      "38920066",
+      "28074863",
+      "39108896",
+      "37266321",
+      "36419898",
+      "33953789",
+      "28835770",
+      "31469455",
+      "34303037",
+      "36195230",
+      "35362201",
+      "38047238",
+      "36046534",
+      "34803705",
+      "35185541",
+      "38292259",
+      "38926832",
+      "38979424",
+      "38230078",
+      "37416149",
+      "38770430",
+      "38662143",
+      "39160123",
+      "37259111"
+    ],
+    "review": [
+      "34664825",
+      "34044079",
+      "33358854"
+    ],
+    "pmc": [
+      "8447999"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=100&issue=37&spage=e26643&aulast=Liu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34664825.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34664825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34664825",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000026643",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

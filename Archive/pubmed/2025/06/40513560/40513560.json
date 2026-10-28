@@ -1,0 +1,529 @@
+{
+  "identity": {
+    "pmid": "40513560",
+    "doi": "10.1016/j.stem.2025.05.012",
+    "title": "Multiomic profiling reveals that prostaglandin E2 reverses aged muscle stem cell dysfunction, leading to increased regeneration and strength."
+  },
+  "content": {
+    "abstract": "Repair of muscle damage declines with age due to the accumulation of dysfunctional muscle stem cells (MuSCs). Here, we uncover that aged MuSCs have blunted prostaglandin E2 (PGE2)-EP4 receptor signaling, which causes precocious commitment and mitotic catastrophe. Treatment with PGE2 alters chromatin accessibility and overcomes the dysfunctional aged MuSC fate trajectory, increasing viability and triggering cell cycle re-entry. We employ neural network models to learn the complex logic of transcription factors driving the change in accessibility. After PGE2 treatment, we detect increased transcription factor binding at sites with CRE and E-box motifs and reduced binding at sites with AP1 motifs, overcoming the changes that occur with age. We find that short-term exposure of aged MuSCs to PGE2 augments their long-term regenerative capacity upon transplantation. Strikingly, PGE2 injections following myotoxin- or exercise-induced injury overcome the aged niche, leading to enhanced regenerative function of endogenous tissue-resident MuSCs and an increase in strength.",
+    "keywords": [
+      "Prostaglandin E2",
+      "aging",
+      "epigenetic remodeling",
+      "inflammaging",
+      "molecular memory",
+      "muscle stem cells",
+      "neural network analysis",
+      "regeneration",
+      "rejuvenation",
+      "sarcopenia"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Regeneration/drug effects",
+      "*Dinoprostone/pharmacology",
+      "Mice",
+      "*Stem Cells/drug effects/metabolism",
+      "*Muscle, Skeletal/drug effects",
+      "Mice, Inbred C57BL",
+      "*Cellular Senescence/drug effects",
+      "Receptors, Prostaglandin E, EP4 Subtype/metabolism",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yu Xin",
+        "Palla, Adelaida R",
+        "Ho, Andrew T V",
+        "Robinson, Daniel C L",
+        "Ravichandran, Meenakshi",
+        "Markov, Glenn J",
+        "Mai, Thach",
+        "Still, Chris 2nd",
+        "Balsubramani, Akshay",
+        "Nair, Surag",
+        "Holbrook, Colin A",
+        "Yang, Ann V",
+        "Kraft, Peggy E",
+        "Su, Shiqi",
+        "Burns, David M",
+        "Yucel, Nora D",
+        "Qi, Lei S",
+        "Kundaje, Anshul",
+        "Blau, Helen M"
+      ],
+      "short_names": [
+        "Wang YX",
+        "Palla AR",
+        "Ho ATV",
+        "Robinson DCL",
+        "Ravichandran M",
+        "Markov GJ",
+        "Mai T",
+        "Still C 2nd",
+        "Balsubramani A",
+        "Nair S",
+        "Holbrook CA",
+        "Yang AV",
+        "Kraft PE",
+        "Su S",
+        "Burns DM",
+        "Yucel ND",
+        "Qi LS",
+        "Kundaje A",
+        "Blau HM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA; Center for Genetic Disorders and Aging, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA 92037, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA; Center for Genetic Disorders and Aging, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA 92037, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA; Department of Chemical and Systems Biology, Stanford University, Stanford, CA, USA; ChEM-H, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA. Electronic address: hblau@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yu Xin",
+        "short_name": "Wang YX",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA; Center for Genetic Disorders and Aging, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Palla, Adelaida R",
+        "short_name": "Palla AR",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Ho, Andrew T V",
+        "short_name": "Ho ATV",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Robinson, Daniel C L",
+        "short_name": "Robinson DCL",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Ravichandran, Meenakshi",
+        "short_name": "Ravichandran M",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Markov, Glenn J",
+        "short_name": "Markov GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Mai, Thach",
+        "short_name": "Mai T",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Still, Chris",
+        "short_name": "Still C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Balsubramani, Akshay",
+        "short_name": "Balsubramani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nair, Surag",
+        "short_name": "Nair S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Holbrook, Colin A",
+        "short_name": "Holbrook CA",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Ann V",
+        "short_name": "Yang AV",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Kraft, Peggy E",
+        "short_name": "Kraft PE",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Su, Shiqi",
+        "short_name": "Su S",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA; Center for Genetic Disorders and Aging, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Burns, David M",
+        "short_name": "Burns DM",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Yucel, Nora D",
+        "short_name": "Yucel ND",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA."
+        ]
+      },
+      {
+        "full_name": "Qi, Lei S",
+        "short_name": "Qi LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA; Department of Chemical and Systems Biology, Stanford University, Stanford, CA, USA; ChEM-H, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Blau, Helen M",
+        "short_name": "Blau HM",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Department of Microbiology and Immunology, Stanford School of Medicine, Stanford, CA 94305-5175, USA. Electronic address: hblau@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell stem cell"
+    ],
+    "journal_abbrev": [
+      "Cell Stem Cell"
+    ],
+    "pub_date": "2025 Jul 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/14 16:44",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42706321",
+      "42698767",
+      "42536731",
+      "42528719",
+      "42518655",
+      "42515772",
+      "42512020",
+      "42505364",
+      "42503896",
+      "42282775",
+      "42255477",
+      "42228536",
+      "42094432",
+      "42092122",
+      "41943155",
+      "41876858",
+      "41837678",
+      "41760805",
+      "41712369",
+      "41711649",
+      "41584512",
+      "41308124"
+    ],
+    "refs": [
+      "39578558",
+      "38959897",
+      "38697122",
+      "38649488",
+      "38066665",
+      "37820010",
+      "36800432",
+      "36639373",
+      "36544018",
+      "36384141",
+      "36253406",
+      "35859206",
+      "35301320",
+      "34320411",
+      "34107247",
+      "33609440",
+      "33603233",
+      "33503437",
+      "33303683",
+      "33106654",
+      "33007238",
+      "32728250",
+      "32601609",
+      "32347317",
+      "31747590",
+      "31740819",
+      "31242425",
+      "31066453",
+      "30936495",
+      "30914743",
+      "30244867",
+      "29517046",
+      "29091764",
+      "29045388",
+      "29030819",
+      "28607093",
+      "28247344",
+      "27768064",
+      "27376579",
+      "27136076",
+      "26944702",
+      "26440893",
+      "26068857",
+      "26000488",
+      "25194572",
+      "25194569",
+      "24793238",
+      "24531379",
+      "24531378",
+      "24522534",
+      "24441936",
+      "24097267",
+      "23419170",
+      "23104886",
+      "23023126",
+      "22609161",
+      "21931825",
+      "21816040",
+      "21475693",
+      "20979621",
+      "20679195",
+      "20647425",
+      "20513432",
+      "19464390",
+      "19261174",
+      "18806774",
+      "18798982",
+      "17690295",
+      "17581586",
+      "16565071",
+      "11739397",
+      "11447268",
+      "7720572",
+      "7283984",
+      "3693217",
+      "1827203",
+      "1429597"
+    ],
+    "similar": [
+      "40513560",
+      "28607093",
+      "25785867",
+      "38925632",
+      "27864128",
+      "27506158",
+      "32726628",
+      "41673410",
+      "38943285",
+      "29935220",
+      "29599139",
+      "28371268",
+      "23485965",
+      "30244867",
+      "24531378",
+      "30753815",
+      "40211986",
+      "33244887",
+      "39723578",
+      "38843935",
+      "11934647",
+      "27502370",
+      "40556617",
+      "23704914",
+      "26261008",
+      "23328527",
+      "36537758",
+      "11444589",
+      "26121313",
+      "30686765",
+      "21311040",
+      "39531334",
+      "40025535",
+      "15970595",
+      "40090625",
+      "32021964",
+      "41423012",
+      "27400965",
+      "40955174",
+      "35037469",
+      "39037211",
+      "38658748",
+      "20552550",
+      "36384141",
+      "27897419",
+      "34522214",
+      "35395625",
+      "29929938",
+      "38801100",
+      "32438662",
+      "41803645",
+      "41292279",
+      "41339968",
+      "39872547",
+      "28701311",
+      "34224984",
+      "26475855",
+      "32155842",
+      "41271737",
+      "42562799",
+      "36726011",
+      "29094772",
+      "31818003",
+      "11867175",
+      "15976003",
+      "26684827",
+      "39163337",
+      "19273625",
+      "41397955",
+      "26537186",
+      "38963021",
+      "39305517",
+      "35023852",
+      "24914192",
+      "33622238",
+      "28222855",
+      "25122504",
+      "22306906",
+      "31229524",
+      "26518053",
+      "36883680",
+      "41456440",
+      "26826430",
+      "32601609",
+      "34529833",
+      "29328471",
+      "29593738",
+      "27351842",
+      "26607246",
+      "25510249",
+      "28587064",
+      "35301320",
+      "23315170",
+      "31967309",
+      "37705115",
+      "28580285",
+      "41610257",
+      "40913227",
+      "33303683",
+      "29401596"
+    ],
+    "review": [
+      "40513560",
+      "40556617",
+      "34522214"
+    ],
+    "pmc": [
+      "12935322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1934-5909(25)00192-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stemcells.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stem Cells"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/40513560",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40513560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

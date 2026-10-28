@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41944209",
+  "title": "ROWVA: A Structure-Based Metric for Predicting the Pathogenicity of Protein Variants Using Alphafold2.",
+  "authors": "Furutani, Taiki; Okusha, Yuka; Nagami, Hiroki; Hanafusa, Hiroko; Tomida, Shuta; Sawada, Ryusuke; Hosono, Yasuyuki; Nakatochi, Masahiro",
+  "journal": "Cancer science",
+  "published_date": "2026-04-07",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold2预测p53蛋白变体的三维结构，基于RMSD评估变体致病性，虽涉及蛋白结构预测与功能影响，但核心是蛋白变体致病性而非TF-DNA互作，方法可迁移至蛋白-DNA复合物建模，故为中档。",
+  "abstract": "p53, an important tumor suppressor protein, functions as a tetramer. Therefore, malignant variants in the tetramer-forming domain increase the likelihood of p53 dysfunction. Recent developments in genome analysis technology have expanded our understanding of malignant variants. However, variants of uncertain significance are also being increasingly identified. Hence, methods to assess the pathogenicity of these variants are required. In this study, we aimed to examine whether AlphaFold2 can be used to evaluate the functional impacts of p53 variants based on predicted three-dimensional (3D) structural information. For each variant present in datasets of p53 functional score, we performed 3D structural prediction using AlphaFold2. We analyzed the correlations among multiple AlphaFold2-derived scores to predict functional scores, such as protein stability and pathogenicity labels, for each dataset. The root-mean-square deviation obtained by comparing the 3D structures predicted by AlphaFold2 for the wild-type and variant structures showed a high correlation with each functional score. Overall, these findings indicate that AlphaFold2 can be used to evaluate variants.",
+  "abstract_zh": "p53，一种重要的肿瘤抑制蛋白，以四聚体形式发挥作用。因此，四聚体形成结构域中的恶性变异会增加p53功能障碍的可能性。基因组分析技术的最新发展扩展了我们对恶性变异的理解。然而，意义不确定的变异也在被越来越多地识别。因此，需要评估这些变异致病性的方法。在本研究中，我们旨在检验AlphaFold2是否能基于预测的三维（3D）结构信息来评估p53变异的功能影响。对于p53功能评分数据集中存在的每个变异，我们使用AlphaFold2进行了3D结构预测。我们分析了多个AlphaFold2衍生评分之间的相关性，以预测每个数据集的功能评分，如蛋白质稳定性和致病性标签。通过比较AlphaFold2预测的野生型和变异型3D结构获得的均方根偏差与每个功能评分显示出高度相关性。总体而言，这些发现表明AlphaFold2可用于评估变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41944209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41944209/",
+  "paper_page_path": "papers/pubmed/41944209/index.html"
+}

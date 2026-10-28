@@ -1,0 +1,220 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.26.493621",
+  "title": "The dynseq genome browser track enables visualization of context-specific, dynamic DNA sequence features at single nucleotide resolution",
+  "doi": "10.1101/2022.05.26.493621",
+  "abstract": "We introduce the dynseq genome browser track, which displays DNA nucleotide characters scaled by user-specified, base-resolution scores provided in the BigWig file format. The dynseq track enables visualization of context-specific, informative genomic sequence features. We demonstrate its utility in three popular genome browsers for interpreting cis-regulatory sequence syntax and regulatory variant interpretation by visualizing nucleotide importance scores derived from machine learning models of regulatory DNA trained on protein-DNA binding and chromatin accessibility experiments.",
+  "authors": [
+    "Nair S",
+    "Barrett A",
+    "Li D",
+    "Raney BJ",
+    "Lee BT",
+    "Kerpedjiev P",
+    "Ramalingam V",
+    "Pampari A",
+    "Lekschas F",
+    "Wang T",
+    "Haeussler M",
+    "Kundaje A"
+  ],
+  "published_date": "2022-05-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.26.493621",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.26.493621.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR499408",
+    "raw_record": {
+      "id": "PPR499408",
+      "source": "PPR",
+      "doi": "10.1101/2022.05.26.493621",
+      "title": "The dynseq genome browser track enables visualization of context-specific, dynamic DNA sequence features at single nucleotide resolution",
+      "authorString": "Nair S, Barrett A, Li D, Raney BJ, Lee BT, Kerpedjiev P, Ramalingam V, Pampari A, Lekschas F, Wang T, Haeussler M, Kundaje A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nair S",
+            "lastName": "Nair",
+            "firstName": "Surag",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6216-2457"
+            }
+          },
+          {
+            "fullName": "Barrett A",
+            "lastName": "Barrett",
+            "firstName": "Arjun",
+            "initials": "A"
+          },
+          {
+            "fullName": "Li D",
+            "lastName": "Li",
+            "firstName": "Daofeng",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7492-3703"
+            }
+          },
+          {
+            "fullName": "Raney BJ",
+            "lastName": "Raney",
+            "firstName": "Brian",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Lee BT",
+            "lastName": "Lee",
+            "firstName": "Brian",
+            "initials": "BT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6382-9738"
+            }
+          },
+          {
+            "fullName": "Kerpedjiev P",
+            "lastName": "Kerpedjiev",
+            "firstName": "Peter",
+            "initials": "P"
+          },
+          {
+            "fullName": "Ramalingam V",
+            "lastName": "Ramalingam",
+            "firstName": "Vivekanandan",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3631-8913"
+            }
+          },
+          {
+            "fullName": "Pampari A",
+            "lastName": "Pampari",
+            "firstName": "Anusri",
+            "initials": "A"
+          },
+          {
+            "fullName": "Lekschas F",
+            "lastName": "Lekschas",
+            "firstName": "Fritz",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8432-4835"
+            }
+          },
+          {
+            "fullName": "Wang T",
+            "lastName": "Wang",
+            "firstName": "Ting",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6800-242X"
+            }
+          },
+          {
+            "fullName": "Haeussler M",
+            "lastName": "Haeussler",
+            "firstName": "Maximilian",
+            "initials": "M"
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6382-9738"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7492-3703"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8432-4835"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3631-8913"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6216-2457"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6800-242X"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "We introduce the dynseq genome browser track, which displays DNA nucleotide characters scaled by user-specified, base-resolution scores provided in the BigWig file format. The dynseq track enables visualization of context-specific, informative genomic sequence features. We demonstrate its utility in three popular genome browsers for interpreting cis-regulatory sequence syntax and regulatory variant interpretation by visualizing nucleotide importance scores derived from machine learning models of regulatory DNA trained on protein-DNA binding and chromatin accessibility experiments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/31/2022.05.26.493621.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.26.493621"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-30",
+      "firstPublicationDate": "2022-05-28",
+      "firstIndexDate": "2022-05-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

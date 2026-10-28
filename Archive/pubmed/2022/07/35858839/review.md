@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figure legends, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and interpretation of results as presented in the supplied material. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors present a CNN-LSTM deep learning model trained on LAP-tagged Smad2 and Smad3 ChIP-seq data from MDA-MB-231 cells to classify Smad2- versus Smad3-bound genomic sites. They report model performance (AUPR 0.96 for CNN-LSTM), apply the model to a public MCF10A-MII dataset to infer Smad-specific roles in TGF-β response, and propose that sequence-based features can distinguish binding sites of closely related transcription factors.
+- **Visible evidence base** Main text sections: Background, Introduction, Results and discussion (including subsections on LAP-tagged system validation, binding site characterization, model development, and application to MCF10A-MII), Conclusion, Methods and materials, Supplementary file descriptions. Figures 1–4 and Table 1 are referenced but not fully visible in the supplied text.
+- **Missing materials affecting confidence** Figure images and full data tables (e.g., Figure 2 shape profiles, Figure 3 confusion matrices, Table 1 full pathway lists) are not provided. Supplementary files (Additional files 1 and 2) are described but not accessible. Model hyperparameters, training details, and exact dataset sizes are partially described but not fully specified. The hESC dataset analysis lacks quantitative performance metrics beyond AUPR.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored problem: distinguishing binding sites of the highly homologous transcription factors Smad2 and Smad3 using deep learning. The experimental generation of Smad-specific ChIP-seq data via LAP tagging is a valuable contribution. However, the current manuscript has several technical and interpretive gaps that limit the strength of the claims. The model performance is reported with limited statistical rigor, the generalization analysis is incomplete, and the biological interpretation of the MCF10A-MII application is largely speculative. The core claim that sequence alone can de-convolve Smad2 versus Smad3 binding is plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying TGF-β signaling, Smad biology, and transcription factor binding specificity. Also, computational biologists working on deep learning applications to ChIP-seq data and transcription factor binding site prediction. The LAP-tagged ChIP-seq dataset could be a useful resource for the Smad community.
+- **Major strengths** 1) The use of LAP tags to generate Smad2- and Smad3-specific ChIP-seq data addresses a known experimental limitation. 2) The study tackles a novel and biologically important classification problem. 3) The comparison of CNN and CNN-LSTM architectures is informative. 4) The application to a public dataset demonstrates a potential use case for re-analysis of existing ChIP-seq data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CNN-LSTM model can accurately classify Smad2- versus Smad3-bound sites, with an AUPR of 0.96 on the test set.
+  - **Evidence pointer** Results section "CNN-LSTM hybrid model that can distinguish between Smad2 and Smad3 binding sites", Figure 3
+  - **Concern** The reported AUPR of 0.96 is based on an ensemble of 10 models, but the variance across individual models and the statistical significance of the difference between CNN and CNN-LSTM are not reported. The test set composition (e.g., number of peaks, genomic distribution, potential overlap with training data) is not described. Without confidence intervals or repeated cross-validation, the robustness of the performance claim is unclear.
+  - **Why it matters** Overstated performance without uncertainty quantification can mislead readers and hinder reproducibility. The claim of "accurate classification" requires evidence that the model is not overfitting to dataset-specific artifacts.
+  - **Resolution test** Provide performance metrics with standard deviations or confidence intervals across multiple train/test splits. Report the number of peaks in training and test sets, and ensure no genomic overlap between them. Consider reporting precision-recall curves for individual models in the ensemble.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that the model was tested on a human embryonic stem cell (hESC) dataset and that performance decreased due to lack of cell-specific training data.
+  - **Evidence pointer** Results section "CNN-LSTM hybrid model that can distinguish between Smad2 and Smad3 binding sites", Figure 3E
+  - **Concern** The hESC analysis reports an AUPR of 0.44, which is barely above random for a balanced dataset, and the confusion matrix shows only ~60% accuracy. The authors attribute this to cell-type differences, but alternative explanations (e.g., differences in peak calling, antibody specificity, or data preprocessing) are not discussed. The hESC dataset used "peak subtraction" to infer Smad2 sites, which is a fundamentally different and potentially noisy labeling approach. The model's poor performance on this dataset may reflect label noise rather than biological differences.
+  - **Why it matters** The generalization claim is central to the manuscript's broader utility. If the model fails on an independent dataset, the practical value for re-analyzing existing ChIP-seq data is questionable.
+  - **Resolution test** Perform a detailed analysis of the hESC dataset, including label quality assessment, comparison of peak characteristics between training and test sets, and ablation studies (e.g., retraining on hESC data). Discuss whether the low AUPR is due to model limitations or data labeling issues.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors conclude that Smad3 regulates canonical TGF-β target genes in early response, while Smad2 and Smad3 regulate different processes in late response, based on GO enrichment of classified peaks in MCF10A-MII cells.
+  - **Evidence pointer** Results section "De-convolving the roles of Smad2 and Smad3 in mCF10A-MII cells", Table 1
+  - **Concern** The GO enrichment analysis is based on model predictions, not experimental validation. The model's accuracy on MCF10A-MII cells is unknown, as no validation was performed in this cell line. The pathway terms in Table 1 are broad and overlapping (e.g., "RTK signaling" appears for both Smad2 and Smad3 in early and late response), making the differential roles claim weak. No statistical measures (e.g., enrichment p-values, FDR) are provided.
+  - **Why it matters** The biological conclusions are the most impactful part of the manuscript for experimental biologists. If the model predictions are unreliable in this context, the conclusions are unsupported.
+  - **Resolution test** Validate a subset of predicted Smad2- and Smad3-bound genes in MCF10A-MII cells using qPCR or ChIP-qPCR. Provide enrichment statistics with multiple testing correction. Clearly state that the GO analysis is hypothesis-generating, not confirmatory.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the model architecture and training procedure, including a cosine annealing schedule and snapshot ensemble learning.
+  - **Evidence pointer** Methods section "Architecture of neural networks" and "Model training and evaluation"
+  - **Concern** The description of the model architecture is incomplete. The number of filters in the convolutional layers, the kernel sizes for the second convolutional layer, the number of units in the dense layers, and the batch size are not specified. The formula for the cosine annealing schedule contains a potential typo (the absolute value notation is ambiguous). The code and trained models are not mentioned as being available.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full architectural details and code availability, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete specification of all hyperparameters, a corrected formula, and a link to a public repository containing code and trained models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "Characterising Smad2 and Smad3 binding sites", Figure 2
+  - **Issue** The figure legend describes differences in minor groove width and electrostatic potential, but the y-axis labels and units are not described in the text. The statistical test used to claim significance (p < 0.05 for GC content) is not stated.
+  - **Required correction** Specify the units and statistical tests in the figure legend or methods. Clarify whether the shape differences are statistically significant across all positions or only at specific regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Results section "De-convolving the roles of Smad2 and Smad3 in mCF10A-MII cells", Table 1
+  - **Issue** The table lists pathway names but does not include the number of genes per pathway, enrichment scores, or p-values. The abbreviation "NI" is used without definition.
+  - **Required correction** Expand the table to include gene counts and enrichment statistics. Define all abbreviations in the legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "de-convolution" is used throughout, but the term is not defined. It could be confused with deconvolution in signal processing. The abstract states "our results suggests" (grammatical error).
+  - **Required correction** Define "de-convolution" in the context of this study. Correct grammatical errors throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Bioinformatics analysis of ChIP-seq data"
+  - **Issue** The GEO accession numbers for the in-house LAP-tagged ChIP-seq data are not provided. Only the public datasets (GSE83788, GSE29422) are mentioned.
+  - **Required correction** Provide GEO accession numbers for the newly generated ChIP-seq data to enable reuse.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance robustness), R1-M2 (generalizability), R1-M4 (reproducibility). These are blocking because the core claims of accurate classification and practical utility depend on them.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of deep learning to distinguish Smad2 versus Smad3 binding is novel, but the approach (CNN-LSTM for TFBS classification) is not methodologically new.  
+  - **Scientific importance** Moderate. The problem is relevant to TGF-β biology, but the impact is limited by the lack of experimental validation and the narrow scope (two related TFs in one cell line).  
+  - **Interdisciplinary readership** Limited. The manuscript will appeal primarily to computational biologists and Smad researchers. The biological conclusions are not strong enough to attract a broader cancer biology audience.  
+  - **Technical soundness** Weak. The model evaluation lacks statistical rigor, and the generalization analysis is incomplete.  
+  - **Readability for nonspecialists** Adequate. The text is generally clear, but the methods section assumes familiarity with deep learning and ChIP-seq analysis.  
+  Overall, the manuscript does not currently meet the bar for a high-impact general journal, but it could be suitable for a specialized bioinformatics or genomics journal after substantial revision.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a real need and presents a plausible approach, but the evidence as presented is insufficient to establish the central claims. Major revisions are required, including rigorous model evaluation, improved generalization analysis, and experimental validation of biological conclusions.
+
+## Risk / unsupported claims
+- The claim that the CNN-LSTM model "accurately classifies" Smad2 versus Smad3 sites is not fully supported due to lack of uncertainty quantification and potential data leakage.
+- The claim that Smad3 drives canonical TGF-β target genes in early response is based on unvalidated model predictions and weak enrichment evidence.
+- The claim that sequence-based features can distinguish Smad2 versus Smad3 binding is plausible but not proven, as the model's performance on an independent dataset is poor.
+- The statement that LAP-tagged ChIP-seq shows "good concordance" with native ChIP-seq is based on a qualitative description in Additional file 2, which is not accessible for verification.
+- The biological interpretation of shape differences (minor groove width, electrostatic potential) is speculative and not directly linked to Smad2/Smad3 functional differences.

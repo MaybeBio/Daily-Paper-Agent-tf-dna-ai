@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "38849041",
+    "doi": "10.1016/j.ejphar.2024.176672",
+    "title": "Abscisic acid for acute respiratory distress syndrome therapy by suppressing alveolar macrophage pyroptosis via upregulating acyloxyacyl hydrolase expression."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Abscisic acid (ABA) is a phytohormone that inhibits airway inflammation in acute respiratory distress syndrome (ARDS) mouse models. However, the molecular mechanism underlying this phenomenon remains unclear. METHODS: Serum ABA level in patients and mice was measured via liquid chromatography-tandem mass spectrometry (LC-MS/MS). In-depth molecular mechanism was investigated through transmission electron microscopy, RNA-sequencing, and molecular docking in ARDS mice and cultured primary alveolar macrophages (AMs). RESULTS: We found that the serum ABA level was remarkably decreased in ARDS mice and patients. ABA inhibited lipopolysaccharide (LPS)-induced airway in fl ammation in mice; moreover, it downregulated genes associated with pyroptosis, as shown by RNA-sequencing and lung protein immunoblots. ABA inhibited the formation of membrane pores in AMs and suppressed the cleavage of gasdermin D (GSDMD) and the activation of caspase-11 and caspase-1 in vivo and in vitro; however, the overexpression of caspase-11 reversed the protective effect of ABA on LPS-induced pyroptosis of primary AMs. ABA inhibited intra-AM LPS accumulation while increasing the level of acyloxyacyl hydrolase (AOAH) in AMs, whereas AOAH de fi ciency abrogated the suppressive action of ABA on inflammation, pyroptosis, and intra-AM LPS accumulation in vivo and in vitro. Importantly, ABA promoted its intracellular receptor lanthionine C-like receptor 2 interacting with transcription factor peroxisome proliferator-activated receptor gamma, which ultimately leading to increase AOAH expression to inactivate LPS and inhibit pyroptosis in AMs. CONCLUSIONS: ABA protected against LPS-induced lung injury by inhibiting pyroptosis in AMs via proliferator-activated receptor gamma-mediated AOAH expression.",
+    "keywords": [
+      "Abscisic acid",
+      "Acute respiratory distress syndrome",
+      "Acyloxyacyl hydrolase",
+      "Alveolar macrophage",
+      "Pyroptosis"
+    ],
+    "mesh_terms": [
+      "*Pyroptosis/drug effects",
+      "Animals",
+      "*Abscisic Acid/pharmacology",
+      "Mice",
+      "*Macrophages, Alveolar/drug effects/metabolism",
+      "*Respiratory Distress Syndrome/drug therapy/pathology/metabolism/chemically induced",
+      "Male",
+      "Humans",
+      "Lipopolysaccharides/pharmacology",
+      "PPAR gamma/metabolism",
+      "Up-Regulation/drug effects",
+      "Mice, Inbred C57BL",
+      "Female",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Lixia",
+        "Shen, Jian",
+        "Liu, Weiju",
+        "Li, Wei",
+        "Tang, Weijie",
+        "Zha, Binshan",
+        "Wu, Huimei",
+        "Liu, Xuesheng",
+        "Shen, Qiying"
+      ],
+      "short_names": [
+        "Wang L",
+        "Shen J",
+        "Liu W",
+        "Li W",
+        "Tang W",
+        "Zha B",
+        "Wu H",
+        "Liu X",
+        "Shen Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Anesthesiology and Perioperative Medicine, Jiangsu Province Hospital, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Vascular and Thyroid Surgery, Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Geriatric Respiratory and Critical Care, Anhui Geriatric Institute, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Respiratory Disease Research and Medical Transformation of Anhui Province, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Anesthesiology and Perioperative Medicine of Anhui Higher Education Institutes, Anhui Medical University, Jixi Road 218, Hefei, Anhui, 230022, China. Electronic address: liuxuesheng@ahmu.edu.cn.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Anesthesiology and Perioperative Medicine of Anhui Higher Education Institutes, Anhui Medical University, Jixi Road 218, Hefei, Anhui, 230022, China. Electronic address: shenqiying@ahmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Lixia",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Jian",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology and Perioperative Medicine, Jiangsu Province Hospital, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Weiju",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Weijie",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Zha, Binshan",
+        "short_name": "Zha B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Thyroid Surgery, Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huimei",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Respiratory and Critical Care, Anhui Geriatric Institute, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Respiratory Disease Research and Medical Transformation of Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuesheng",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Anesthesiology and Perioperative Medicine of Anhui Higher Education Institutes, Anhui Medical University, Jixi Road 218, Hefei, Anhui, 230022, China. Electronic address: liuxuesheng@ahmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Qiying",
+        "short_name": "Shen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Anhui Medical University, Key Laboratory of Anesthesiology and Perioperative Medicine of Anhui Higher Education Institutes, Anhui Medical University, Jixi Road 218, Hefei, Anhui, 230022, China. Electronic address: shenqiying@ahmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2024 Aug 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/08 10:43",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42495753",
+      "41009037",
+      "39795884"
+    ],
+    "refs": [],
+    "similar": [
+      "38849041",
+      "32332915",
+      "26415803",
+      "34791723",
+      "37004345",
+      "31841452",
+      "33359748",
+      "37051243",
+      "21088297",
+      "32362153",
+      "38681210",
+      "35468366",
+      "37377971",
+      "33873094",
+      "38380574",
+      "37839766",
+      "37498977",
+      "36523634",
+      "38402153",
+      "38442803",
+      "38887793",
+      "37831404",
+      "35016678",
+      "33565399",
+      "36907255",
+      "35901530",
+      "38532152",
+      "36896789",
+      "26939040",
+      "38469626",
+      "37751794",
+      "36250416",
+      "29572385",
+      "34649343",
+      "32643759",
+      "11901217",
+      "32929324",
+      "36184484",
+      "36934848",
+      "27913426",
+      "34861244",
+      "34588792",
+      "36194973",
+      "37470905",
+      "33570219",
+      "38670049",
+      "32460750",
+      "35609679",
+      "28622363",
+      "37871834",
+      "22995385",
+      "37180160",
+      "34346534",
+      "31802832",
+      "32757380",
+      "38554812",
+      "37001609",
+      "27119365",
+      "38310763",
+      "38583242",
+      "29684352",
+      "33333710",
+      "34428935",
+      "35910360",
+      "33569461",
+      "25229877",
+      "34013820",
+      "33182048",
+      "36272248",
+      "31898565",
+      "24766487",
+      "34867948",
+      "34217280",
+      "37611976",
+      "34859262",
+      "33427450",
+      "39334020",
+      "33170429",
+      "32091104",
+      "37714273",
+      "38522823",
+      "26808632",
+      "33182586",
+      "34349759",
+      "34243622",
+      "29365277",
+      "31925528",
+      "37127893",
+      "36983559",
+      "36328986",
+      "25413579",
+      "32082314",
+      "21184127",
+      "36112153",
+      "38581992",
+      "36213326",
+      "27526865",
+      "38552285",
+      "38670559",
+      "34537283",
+      "33857849",
+      "31474337",
+      "35721108",
+      "38705380",
+      "39313944",
+      "39228678",
+      "31469581",
+      "30990758",
+      "39211234",
+      "39173745"
+    ],
+    "review": [
+      "38849041",
+      "39228678"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(24)00360-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38849041.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

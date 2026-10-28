@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "39318505",
+    "doi": "10.1093/nargab/lqae123",
+    "title": "GenomicLinks: deep learning predictions of 3D chromatin interactions in the maize genome."
+  },
+  "content": {
+    "abstract": "Gene regulation in eukaryotes is partly shaped by the 3D organization of chromatin within the cell nucleus. Distal interactions between cis-regulatory elements and their target genes are widespread, and many causal loci underlying heritable agricultural traits have been mapped to distal non-coding elements. The biology underlying chromatin loop formation in plants is poorly understood. Dissecting the sequence features that mediate distal interactions is an important step toward identifying putative molecular mechanisms. Here, we trained GenomicLinks, a deep learning model, to identify DNA sequence features predictive of 3D chromatin interactions in maize. We found that the presence of binding motifs of specific transcription factor classes, especially bHLH, is predictive of chromatin interaction specificities. Using an in silico mutagenesis approach we show the removal of these motifs from loop anchors leads to reduced interaction probabilities. We were able to validate these predictions with single-cell co-accessibility data from different maize genotypes that harbor natural substitutions in these TF binding motifs. GenomicLinks is currently implemented as an open-source web tool, which should facilitate its wider use in the plant research community.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schlegel, Luca",
+        "Bhardwaj, Rohan",
+        "Shahryary, Yadollah",
+        "Demirturk, Defne",
+        "Marand, Alexandre P",
+        "Schmitz, Robert J",
+        "Johannes, Frank"
+      ],
+      "short_names": [
+        "Schlegel L",
+        "Bhardwaj R",
+        "Shahryary Y",
+        "Demirturk D",
+        "Marand AP",
+        "Schmitz RJ",
+        "Johannes F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8200-9388",
+        "ORCID: 0000-0003-4822-3214",
+        "ORCID: 0000-0002-9828-3373",
+        "ORCID: 0009-0008-6077-299X",
+        "ORCID: 0000-0001-9100-8320",
+        "ORCID: 0000-0001-7538-6663",
+        "ORCID: 0000-0002-7962-2907"
+      ],
+      "affiliations": [
+        "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany.",
+        "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany.",
+        "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany.",
+        "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Genetics, University of Georgia, Athens, GA 30602, USA.",
+        "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schlegel, Luca",
+        "short_name": "Schlegel L",
+        "identifiers": [
+          "0000-0002-8200-9388"
+        ],
+        "affiliations": [
+          "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Rohan",
+        "short_name": "Bhardwaj R",
+        "identifiers": [
+          "0000-0003-4822-3214"
+        ],
+        "affiliations": [
+          "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+        ]
+      },
+      {
+        "full_name": "Shahryary, Yadollah",
+        "short_name": "Shahryary Y",
+        "identifiers": [
+          "0000-0002-9828-3373"
+        ],
+        "affiliations": [
+          "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+        ]
+      },
+      {
+        "full_name": "Demirtürk, Defne",
+        "short_name": "Demirtürk D",
+        "identifiers": [
+          "0009-0008-6077-299X"
+        ],
+        "affiliations": [
+          "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+        ]
+      },
+      {
+        "full_name": "Marand, Alexandre P",
+        "short_name": "Marand AP",
+        "identifiers": [
+          "0000-0001-9100-8320"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Schmitz, Robert J",
+        "short_name": "Schmitz RJ",
+        "identifiers": [
+          "0000-0001-7538-6663"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of Georgia, Athens, GA 30602, USA."
+        ]
+      },
+      {
+        "full_name": "Johannes, Frank",
+        "short_name": "Johannes F",
+        "identifiers": [
+          "0000-0002-7962-2907"
+        ],
+        "affiliations": [
+          "TUM School of Life Sciences, Plant Epigenomics, Technical University of Munich, Freising, 85354, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/25 10:18",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "42430021",
+      "42359001",
+      "41677071",
+      "40894789",
+      "40245149"
+    ],
+    "refs": [
+      "39283464",
+      "37407816",
+      "35832620",
+      "34353948",
+      "34113473",
+      "33964211",
+      "33160328",
+      "33096548",
+      "33046897",
+      "33046896",
+      "32895530",
+      "32761247",
+      "32231312",
+      "32216817",
+      "31740773",
+      "31701148",
+      "31588505",
+      "31530818",
+      "31519520",
+      "30867571",
+      "29988122",
+      "29300887",
+      "29175436",
+      "28605751",
+      "27643841",
+      "27203113",
+      "26686465",
+      "26619908",
+      "26301843",
+      "25497547",
+      "25215497",
+      "25132175",
+      "25122612",
+      "24607887",
+      "24485461",
+      "24413732",
+      "22495300",
+      "21946354",
+      "21487388",
+      "19910308",
+      "19890323",
+      "19815776",
+      "19508735",
+      "17595297",
+      "17439305",
+      "17363976",
+      "16954542",
+      "16041362",
+      "15020707",
+      "12368505",
+      "11847345",
+      "10074718",
+      "9377276"
+    ],
+    "similar": [
+      "39318505",
+      "35832620",
+      "33407087",
+      "37788349",
+      "38859587",
+      "33232622",
+      "26291518",
+      "30524473",
+      "32546248",
+      "40127931",
+      "30326829",
+      "31201335",
+      "31053165",
+      "23497159",
+      "30423062",
+      "37961712",
+      "38940155",
+      "39075082",
+      "37550699",
+      "28193859",
+      "22456606",
+      "37294468",
+      "33028202",
+      "31201330",
+      "40245149",
+      "32847102",
+      "35396274",
+      "35037783",
+      "36902216",
+      "39283464",
+      "31740773",
+      "35293310",
+      "35435921",
+      "30598689",
+      "23935523",
+      "19956545",
+      "25218583",
+      "24218641",
+      "33634313",
+      "22955984",
+      "25918418",
+      "35666736",
+      "38853896",
+      "38853998",
+      "29335803",
+      "35659533",
+      "28957321",
+      "37442953",
+      "39326643",
+      "24603674",
+      "38760655",
+      "33964211",
+      "27569350",
+      "25433490",
+      "28854962",
+      "25442502",
+      "36323252",
+      "34037796",
+      "38948875",
+      "39701501",
+      "39884279",
+      "34783109",
+      "33065269",
+      "30078726",
+      "22189060",
+      "28732548",
+      "35924336",
+      "32680543",
+      "39975126",
+      "31811132",
+      "19958507",
+      "40158221",
+      "38358392",
+      "35499317",
+      "33683350",
+      "30344096",
+      "33788674",
+      "32631399",
+      "39766899",
+      "33096239",
+      "37546906",
+      "34957106",
+      "37425760",
+      "32029002",
+      "40020686",
+      "37071534",
+      "36624151",
+      "37569400",
+      "35799371",
+      "31206543",
+      "38895211",
+      "33626337",
+      "31038680",
+      "37312570",
+      "39487131",
+      "35997565",
+      "37158941",
+      "39802764",
+      "36723807",
+      "33371906"
+    ],
+    "review": [
+      "39318505",
+      "35832620",
+      "37294468",
+      "39283464",
+      "25218583",
+      "35659533",
+      "33065269",
+      "34957106"
+    ],
+    "pmc": [
+      "11420838"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39318505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqae123",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42560939",
+  "title": "ScanNet: Single-cell annotation informed by transcriptional regulation Network via iterative heterogeneous graph learning.",
+  "authors": "Long, Yongyu; Zhang, Wenhao; Cao, Lan; Huang, Xiaobing; Wang, Ying",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用转录调控网络（TF-TG关系）构建异质图进行单细胞类型注释，虽涉及TF-DNA调控关系但仅作为先验知识用于细胞分类，未聚焦TF-DNA结合位点预测或互作机制建模，方法为图学习但非针对蛋白-DNA互作界面，故相关性有限。",
+  "abstract": "Accurate annotation of cell types in single-cell transcriptome sequencing (scRNA-seq) data is critical for understanding cellular identities. The transcriptional regulatory networks (TRNs), which map the regulatory relationships between transcription factors (TFs) and their target genes (TGs), capture the molecular dependencies underlying transcriptional programs. However, most existing cell type annotation methods do not fully exploit this regulatory information. Therefore, we introduce ScanNet, a Single cell annotation method informed by transcriptional regulation Network, to integrate prior knowledge of TRN into data of gene expression and capture the cell-type-specific characteristics underlying TRN mechanism. TRN can be naturally represented as heterogeneous graphs consisting of two regulatory elements, TFs and TGs connected by directed edges, thereby encoding the regulatory dependencies that shape transcriptional programs and ultimately determine cellular identity. To leverage this structure, ScanNet introduces an iterative heterogeneous graph convolutional framework that learns both local and global cellular embeddings through a dual-channel encoder. The Regulation-level Encoder applies iterative heterogeneous graph convolution to capture local TF-TG regulatory interactions within TRN, while the Expression-level Encoder learns global cellular transcriptional states. By integrating the multiple-view representations, ScanNet can accurately annotate cell types. Comprehensive evaluations across eight scRNA-seq datasets spanning different species, sample scales, and sequencing platforms demonstrate that ScanNet consistently outperforms ten state-of-the-art cell type annotation methods. By embedding prior TRN structures into a heterogeneous graph, ScanNet also achieves robust performance in cross-platform cell type annotation and in identifying novel cell types under constrained structural information. Moreover, the ScanNet framework can be flexibly transferred to single-cell ATAC-seq (scATAC-seq) data by mapping chromatin accessibility to gene level, where it achieves superior performance compared to existing annotation tools. Overall, ScanNet is a scalable, transferable, and mechanistically informed framework for accurate cell type annotation across diverse single-cell data modalities.",
+  "abstract_zh": "在单细胞转录组测序（scRNA-seq）数据中，准确注释细胞类型对于理解细胞身份至关重要。转录调控网络（TRNs）描绘了转录因子（TFs）与其靶基因（TGs）之间的调控关系，捕捉了转录程序背后的分子依赖性。然而，大多数现有的细胞类型注释方法并未充分利用这一调控信息。因此，我们引入了ScanNet，一种受转录调控网络启发的单细胞注释方法，将TRN的先验知识整合到基因表达数据中，并捕捉TRN机制下的细胞类型特异性特征。TRN可以自然地表示为由两种调控元件（TFs和TGs）通过有向边连接而成的异构图，从而编码塑造转录程序并最终决定细胞身份的调控依赖性。为利用这一结构，ScanNet引入了一个迭代异构图卷积框架，通过双通道编码器学习局部和全局细胞嵌入。调控级编码器应用迭代异构图卷积，以捕捉TRN内的局部TF-TG调控相互作用，而表达级编码器则学习全局细胞转录状态。通过整合多视图表示，ScanNet能够准确注释细胞类型。跨八个涵盖不同物种、样本规模和测序平台的scRNA-seq数据集的综合评估表明，ScanNet始终优于十种最先进的细胞类型注释方法。通过将先验TRN结构嵌入异构图，ScanNet在跨平台细胞类型注释和受限结构信息下识别新型细胞类型方面也实现了稳健性能。此外，ScanNet框架可灵活迁移至单细胞ATAC-seq（scATAC-seq）数据，通过将染色质可及性映射到基因水平，其性能优于现有注释工具。总体而言，ScanNet是一个可扩展、可迁移且机制信息丰富的框架，适用于跨多种单细胞数据模态的准确细胞类型注释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42560939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42560939/",
+  "paper_page_path": "papers/pubmed/42560939/index.html"
+}

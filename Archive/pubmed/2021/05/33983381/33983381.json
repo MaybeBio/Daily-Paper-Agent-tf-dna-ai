@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "33983381",
+    "doi": "10.1093/bioinformatics/btab350",
+    "title": "In silico prediction of in vitro protein liquid-liquid phase separation experiments outcomes with multi-head neural attention."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Proteins able to undergo liquid-liquid phase separation (LLPS) in vivo and in vitro are drawing a lot of interest, due to their functional relevance for cell life. Nevertheless, the proteome-scale experimental screening of these proteins seems unfeasible, because besides being expensive and time-consuming, LLPS is heavily influenced by multiple environmental conditions such as concentration, pH and temperature, thus requiring a combinatorial number of experiments for each protein. RESULTS: To overcome this problem, we propose a neural network model able to predict the LLPS behavior of proteins given specified experimental conditions, effectively predicting the outcome of in vitro experiments. Our model can be used to rapidly screen proteins and experimental conditions searching for LLPS, thus reducing the search space that needs to be covered experimentally. We experimentally validate Droppler's prediction on the TAR DNA-binding protein in different experimental conditions, showing the consistency of its predictions. AVAILABILITY AND IMPLEMENTATION: A python implementation of Droppler is available at https://bitbucket.org/grogdrinker/droppler. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Raimondi, Daniele",
+        "Orlando, Gabriele",
+        "Michiels, Emiel",
+        "Pakravan, Donya",
+        "Bratek-Skicki, Anna",
+        "Van Den Bosch, Ludo",
+        "Moreau, Yves",
+        "Rousseau, Frederic",
+        "Schymkowitz, Joost"
+      ],
+      "short_names": [
+        "Raimondi D",
+        "Orlando G",
+        "Michiels E",
+        "Pakravan D",
+        "Bratek-Skicki A",
+        "Van Den Bosch L",
+        "Moreau Y",
+        "Rousseau F",
+        "Schymkowitz J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1157-1899",
+        "ORCID: 0000-0002-5935-5258"
+      ],
+      "affiliations": [
+        "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium.",
+        "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium.",
+        "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium.",
+        "Department of Neurosciences, LBI, KU Leuven, 3001 Leuven, Belgium.",
+        "VIB, Center for Brain and Disease Research, Laboratory of Neurobiology, 3000 Leuven, Belgium.",
+        "VIB-VUB Center for Structural Biology (CSB), 1050 Brussels, Belgium.",
+        "Department of Neurosciences, LBI, KU Leuven, 3001 Leuven, Belgium.",
+        "VIB, Center for Brain and Disease Research, Laboratory of Neurobiology, 3000 Leuven, Belgium.",
+        "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium.",
+        "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium.",
+        "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Raimondi, Daniele",
+        "short_name": "Raimondi D",
+        "identifiers": [
+          "0000-0003-1157-1899"
+        ],
+        "affiliations": [
+          "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Orlando, Gabriele",
+        "short_name": "Orlando G",
+        "identifiers": [
+          "0000-0002-5935-5258"
+        ],
+        "affiliations": [
+          "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michiels, Emiel",
+        "short_name": "Michiels E",
+        "identifiers": [],
+        "affiliations": [
+          "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Pakravan, Donya",
+        "short_name": "Pakravan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, LBI, KU Leuven, 3001 Leuven, Belgium.",
+          "VIB, Center for Brain and Disease Research, Laboratory of Neurobiology, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Bratek-Skicki, Anna",
+        "short_name": "Bratek-Skicki A",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology (CSB), 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Den Bosch, Ludo",
+        "short_name": "Van Den Bosch L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, LBI, KU Leuven, 3001 Leuven, Belgium.",
+          "VIB, Center for Brain and Disease Research, Laboratory of Neurobiology, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Moreau, Yves",
+        "short_name": "Moreau Y",
+        "identifiers": [],
+        "affiliations": [
+          "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Rousseau, Frederic",
+        "short_name": "Rousseau F",
+        "identifiers": [],
+        "affiliations": [
+          "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Schymkowitz, Joost",
+        "short_name": "Schymkowitz J",
+        "identifiers": [],
+        "affiliations": [
+          "SWITCH Lab, Department of Cellular and Molecular Medicine, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2021 Oct 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/14 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42669678",
+      "42502839",
+      "42310761",
+      "42184109",
+      "41987292",
+      "41963487",
+      "41039633",
+      "40867524",
+      "40629388",
+      "39979996",
+      "39883284",
+      "39110734",
+      "38982922",
+      "38566033",
+      "38380794",
+      "37171907",
+      "36873677",
+      "35992270",
+      "35181656"
+    ],
+    "refs": [],
+    "similar": [
+      "33983381",
+      "38566033",
+      "38205268",
+      "35025997",
+      "35883530",
+      "36444977",
+      "33809541",
+      "33517364",
+      "29511089",
+      "31906602",
+      "30994888",
+      "36671427",
+      "36471564",
+      "36321557",
+      "31612960",
+      "33609108",
+      "32824618",
+      "33827920",
+      "32961238",
+      "34431665",
+      "35168563",
+      "35252219",
+      "34156864",
+      "35142991",
+      "37287138",
+      "31793982",
+      "36310223",
+      "30913985",
+      "36227478",
+      "33744316",
+      "33876938",
+      "35171981",
+      "29734651",
+      "28159365",
+      "36518754",
+      "36528388",
+      "35093128",
+      "36982591",
+      "26756795",
+      "34911929",
+      "29526694",
+      "34515778",
+      "33982369",
+      "35231447",
+      "31237369",
+      "24679215",
+      "31804670",
+      "33686854",
+      "33119053",
+      "18229962",
+      "31904854",
+      "36453011",
+      "25725091",
+      "34179096",
+      "33469149",
+      "36000898",
+      "31430708",
+      "31941785",
+      "31971365",
+      "34787417",
+      "30423078",
+      "34225583",
+      "36227481",
+      "31506351",
+      "32657369",
+      "36692145",
+      "33097688",
+      "34624295",
+      "35750966",
+      "33067636",
+      "34019069",
+      "25568279",
+      "31691822"
+    ],
+    "review": [
+      "33983381",
+      "36321557",
+      "32824618",
+      "35142991",
+      "31237369"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33983381.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33983381",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33983381",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btab350",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

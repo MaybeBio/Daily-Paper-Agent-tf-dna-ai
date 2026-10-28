@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "40936337",
+    "doi": "10.1002/em.70034",
+    "title": "Identifying Gene Predictors of Chemicals Linked With Breast Cancer: A Machine Learning Analysis of MCF7 Cellular Transcriptomic Screening Data."
+  },
+  "content": {
+    "abstract": "Breast cancer is the most prevalent cancer in women and has been linked to exposure to environmental chemicals. However, many chemicals have not been evaluated for relationships with this outcome. In this study, we analyzed RNA sequencing data from human breast cancer-derived MCF7 cells exposed to hundreds of individual chemicals. These chemicals were binned into three categories: (1) chemicals with known associations to breast cancer (BCs); (2) chemicals with a lack of relationship to breast cancer (NBCs); and (3) chemicals that remain understudied for breast cancer risk (UCs). Machine learning models were trained to discriminate between BCs and NBCs based on transcriptomic and physicochemical property data. The best model yielded a balanced accuracy of 80% and was applied to the UCs. A total of 170 genes were found to contribute to model performance, including Claspin (CLSPN), Runt-related Transcription Factor 2 (RUNX2), and Ubinuclein 2 (UBN2). These genes further informed enriched pathways relevant to inflammation, ferroptosis signaling, and cell proliferation. Additionally, 97 UCs were predicted to be more analogous to BCs, including select biocides and dyes. To ground results in human population data, expression profiles for the 170 genes were assessed in tumor samples from The Cancer Genome Atlas, yielding overlap in human cancer-relevant alterations and in vitro chemical-induced alterations. Collectively, this study addresses a gap related to understanding which chemicals may be of interest for further characterization of breast cancer risk by prioritizing chemicals and underlying mechanisms using high-throughput transcriptomic screening data.",
+    "keywords": [
+      "MCF7",
+      "breast cancer",
+      "high-throughput transcriptomics",
+      "random forest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/chemically induced",
+      "*Machine Learning",
+      "Female",
+      "MCF-7 Cells",
+      "*Transcriptome/drug effects/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koval, Lauren E",
+        "Judson, Richard",
+        "Rager, Julia E"
+      ],
+      "short_names": [
+        "Koval LE",
+        "Judson R",
+        "Rager JE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2882-5042"
+      ],
+      "affiliations": [
+        "Department of Environmental Sciences and Engineering, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+        "The Institute for Environmental Health Solutions, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+        "Center for Computational Toxicology and Exposure, US EPA/ORD, Durham, North Carolina, USA.",
+        "Department of Environmental Sciences and Engineering, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+        "The Institute for Environmental Health Solutions, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+        "Curriculum in Toxicology and Environmental Medicine, UNC School of Medicine, Chapel Hill, North Carolina, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koval, Lauren E",
+        "short_name": "Koval LE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Sciences and Engineering, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+          "The Institute for Environmental Health Solutions, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Judson, Richard",
+        "short_name": "Judson R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Toxicology and Exposure, US EPA/ORD, Durham, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Rager, Julia E",
+        "short_name": "Rager JE",
+        "identifiers": [
+          "0000-0002-2882-5042"
+        ],
+        "affiliations": [
+          "Department of Environmental Sciences and Engineering, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+          "The Institute for Environmental Health Solutions, UNC Gillings School of Global Public Health, Chapel Hill, North Carolina, USA.",
+          "Curriculum in Toxicology and Environmental Medicine, UNC School of Medicine, Chapel Hill, North Carolina, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental and molecular mutagenesis"
+    ],
+    "journal_abbrev": [
+      "Environ Mol Mutagen"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/12 06:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39177380",
+      "38453898",
+      "38424845",
+      "38382870",
+      "38197648",
+      "38105263",
+      "38043774",
+      "37517180",
+      "37422975",
+      "37268895",
+      "37117429",
+      "37108164",
+      "36624542",
+      "36483054",
+      "36435938",
+      "35924148",
+      "35863239",
+      "35710593",
+      "35338170",
+      "35246223",
+      "34791027",
+      "34399780",
+      "34399040",
+      "34013136",
+      "33809117",
+      "33538836",
+      "33514910",
+      "33510144",
+      "33426407",
+      "33356168",
+      "33133160",
+      "32937951",
+      "32019974",
+      "32015325",
+      "31340180",
+      "31110467",
+      "31045583",
+      "30889835",
+      "30835285",
+      "30202884",
+      "30198937",
+      "29562322",
+      "29520515",
+      "29158945",
+      "29158785",
+      "28942358",
+      "28542535",
+      "28473858",
+      "28251049",
+      "28067071",
+      "27943120",
+      "27806114",
+      "27774042",
+      "27492622",
+      "27367298",
+      "27143523",
+      "27038213",
+      "26908244",
+      "26704973",
+      "26600562",
+      "26498691",
+      "24997295",
+      "24958609",
+      "24933016",
+      "24652746",
+      "24336805",
+      "23556449",
+      "23104886",
+      "23000897",
+      "22632970",
+      "22519603",
+      "22104386",
+      "21636739",
+      "21267694",
+      "20678182",
+      "17503434",
+      "17180962",
+      "15688365",
+      "14720319",
+      "12902195",
+      "12494472",
+      "10365118"
+    ],
+    "similar": [
+      "40936337",
+      "41408116",
+      "42010127",
+      "42050659",
+      "40496857",
+      "38568856",
+      "42475469",
+      "41688730",
+      "26556871",
+      "35710593",
+      "41425595",
+      "41986463",
+      "40419230",
+      "39441229",
+      "41162968",
+      "35246223",
+      "39468555",
+      "42750049",
+      "42135732",
+      "39441216",
+      "42035196",
+      "41676158",
+      "41656832",
+      "33222221",
+      "42485796",
+      "25964533",
+      "30896874",
+      "31182966",
+      "22147940",
+      "42216165",
+      "31715268",
+      "39415336",
+      "38879780",
+      "41991755",
+      "39098994",
+      "29512753",
+      "33960390",
+      "28086829",
+      "30953646",
+      "40604083",
+      "33850167",
+      "42074514",
+      "40652757",
+      "40438115",
+      "41673191",
+      "38244591",
+      "33580144",
+      "42142024",
+      "39656430",
+      "40769086",
+      "32344635",
+      "40936892",
+      "26865669",
+      "41716413",
+      "41300841",
+      "25840970",
+      "41276638",
+      "42328663",
+      "39524444",
+      "40592767",
+      "30128822",
+      "31872748",
+      "27019627",
+      "39466820",
+      "39056174",
+      "41436831",
+      "40317014",
+      "42613601",
+      "41357233",
+      "41106221",
+      "19167489",
+      "40308601",
+      "41272056",
+      "29749447",
+      "41415282",
+      "41776551",
+      "41121538",
+      "34579762",
+      "40725485",
+      "25810432",
+      "33198803",
+      "30501643",
+      "33400208",
+      "38383836",
+      "37530887",
+      "42499036",
+      "40597935",
+      "40862733",
+      "30203578",
+      "42694488",
+      "23104890",
+      "39507529",
+      "32678032",
+      "40340806",
+      "34741349",
+      "42270806",
+      "40474296",
+      "41238648",
+      "21510869",
+      "41233664"
+    ],
+    "review": [
+      "40936337",
+      "40419230"
+    ],
+    "pmc": [
+      "12574692"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40936337.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40936337/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/em.70034",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-962",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

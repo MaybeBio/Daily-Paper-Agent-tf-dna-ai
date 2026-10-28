@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "38277517",
+    "doi": "10.1097/MD.0000000000037083",
+    "title": "Identification of potential biomarkers in the peripheral blood of neonates with bronchopulmonary dysplasia using WGCNA and machine learning algorithms."
+  },
+  "content": {
+    "abstract": "Bronchopulmonary dysplasia (BPD) is often seen as a pulmonary complication of extreme preterm birth, resulting in persistent respiratory symptoms and diminished lung function. Unfortunately, current diagnostic and treatment options for this condition are insufficient. Hence, this study aimed to identify potential biomarkers in the peripheral blood of neonates affected by BPD. The Gene Expression Omnibus provided the expression dataset GSE32472 for BPD. Initially, using this database, we identified differentially expressed genes (DEGs) in GSE32472. Subsequently, we conducted gene set enrichment analysis on the DEGs and employed weighted gene co-expression network analysis (WGCNA) to screen the most relevant modules for BPD. We then mapped the DEGs to the WGCNA module genes, resulting in a gene intersection. We conducted detailed functional enrichment analyses on these overlapping genes. To identify hub genes, we used 3 machine learning algorithms, including SVM-RFE, LASSO, and Random Forest. We constructed a diagnostic nomogram model for predicting BPD based on the hub genes. Additionally, we carried out transcription factor analysis to predict the regulatory mechanisms and identify drugs associated with these biomarkers. We used differential analysis to obtain 470 DEGs and conducted WGCNA analysis to identify 1351 significant genes. The intersection of these 2 approaches yielded 273 common genes. Using machine learning algorithms, we identified CYYR1, GALNT14, and OLAH as potential biomarkers for BPD. Moreover, we predicted flunisolide, budesonide, and beclomethasone as potential anti-BPD drugs. The genes CYYR1, GALNT14, and OLAH have the potential to serve as diagnostic biomarkers for BPD. This may prove beneficial in clinical diagnosis and prevention of BPD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Infant, Newborn",
+      "Humans",
+      "Female",
+      "*Bronchopulmonary Dysplasia/diagnosis/genetics",
+      "*Premature Birth",
+      "Algorithms",
+      "Biomarkers",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Liyan",
+        "Luo, Fei",
+        "Wu, Chuyan",
+        "Zhang, Hong",
+        "Jiang, Qiaozhi",
+        "He, Sixiang",
+        "Li, Weibi",
+        "Zhang, Wenlong",
+        "Cheng, Yurong",
+        "Yang, Pengcheng",
+        "Li, Zhenghu",
+        "Li, Min",
+        "Bao, Yunlei",
+        "Jiang, Feng"
+      ],
+      "short_names": [
+        "Luo L",
+        "Luo F",
+        "Wu C",
+        "Zhang H",
+        "Jiang Q",
+        "He S",
+        "Li W",
+        "Zhang W",
+        "Cheng Y",
+        "Yang P",
+        "Li Z",
+        "Li M",
+        "Bao Y",
+        "Jiang F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3525-8752"
+      ],
+      "affiliations": [
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China.",
+        "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China.",
+        "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Liyan",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Fei",
+        "short_name": "Luo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chuyan",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qiaozhi",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "He, Sixiang",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weibi",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenlong",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yurong",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pengcheng",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenghu",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Dali Bai Autonomous Prefecture Maternal and Child Health Care Hospital, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Yunlei",
+        "short_name": "Bao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Feng",
+        "short_name": "Jiang F",
+        "identifiers": [
+          "0000-0002-3525-8752"
+        ],
+        "affiliations": [
+          "Department of Neonatology, Obstetrics and Gynecology Hospital of Fudan University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 Jan 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/26 18:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "41425954",
+      "41122965",
+      "40798948",
+      "40362669",
+      "40352605"
+    ],
+    "refs": [
+      "37292377",
+      "36923947",
+      "35154510",
+      "34767108",
+      "34670756",
+      "33094902",
+      "32854293",
+      "32366482",
+      "32176694",
+      "31727986",
+      "31689411",
+      "31681575",
+      "31587861",
+      "30840669",
+      "30401478",
+      "29702465",
+      "29173299",
+      "28947055",
+      "27438473",
+      "27137150",
+      "26593076",
+      "26544896",
+      "26353077",
+      "26309160",
+      "25909334",
+      "25661110",
+      "24194948",
+      "23946428",
+      "22183981",
+      "19897823",
+      "17767167",
+      "17442112",
+      "17309996",
+      "17204321",
+      "17036778",
+      "16650652",
+      "15892686",
+      "12062809"
+    ],
+    "similar": [
+      "38277517",
+      "40244055",
+      "38760473",
+      "38875180",
+      "36325528",
+      "33235138",
+      "37060021",
+      "37478211",
+      "39243324",
+      "33552042",
+      "38371524",
+      "38955739",
+      "39839185",
+      "36968495",
+      "37691920",
+      "36472344",
+      "39142001",
+      "40313958",
+      "36699685",
+      "36440350",
+      "36823662",
+      "36470144",
+      "38711508",
+      "39611552",
+      "39697326",
+      "33033495",
+      "40129981",
+      "37330491",
+      "39616855",
+      "37854191",
+      "39263286",
+      "35764238",
+      "33118673",
+      "38608447",
+      "39229380",
+      "35865542",
+      "38028617",
+      "39953444",
+      "39396400",
+      "36782344",
+      "39292413",
+      "37784105",
+      "35509863",
+      "39206894",
+      "40263690",
+      "39923303",
+      "37841288",
+      "35484630",
+      "37092130",
+      "38274270",
+      "40119397",
+      "35154510",
+      "36018512",
+      "38117365",
+      "39709373",
+      "33451334",
+      "32924699",
+      "36685920",
+      "37968635",
+      "38956528",
+      "38476236",
+      "32803430",
+      "36341378",
+      "37684281",
+      "39735547",
+      "34530740",
+      "39754246",
+      "37098830",
+      "34555052",
+      "36660690",
+      "34107850",
+      "38720331",
+      "37115484",
+      "38394492",
+      "39324181",
+      "38544384",
+      "38987624",
+      "37845700",
+      "34961784",
+      "39139563",
+      "39699225",
+      "38013370",
+      "37507442",
+      "39364223",
+      "38148887",
+      "35128826",
+      "39409322",
+      "38013304",
+      "33177681",
+      "38178349",
+      "33757141",
+      "36643677",
+      "38291374",
+      "37434679",
+      "35790551",
+      "31876736",
+      "26030808",
+      "29237426",
+      "37783761",
+      "39081100"
+    ],
+    "review": [
+      "38277517",
+      "38394492"
+    ],
+    "pmc": [
+      "10817126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=103&issue=4&spage=e37083&aulast=Luo",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38277517.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38277517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38277517",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000037083",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41969450",
+    "doi": "10.21037/tcr-2025-1-2630",
+    "title": "Integrated bulk RNA-seq and scRNA-seq identification of a novel \"PET-SPI1-MYL9\" transcriptional axis in lung adenocarcinoma driven by polyethylene terephthalate exposure."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Airborne microplastic polyethylene terephthalate (PET) accumulates in human lungs and is linked to respiratory pathologies; however, its molecular role in lung adenocarcinoma (LUAD) remains unclear. This study aims to explore the potential carcinogenic mechanisms of PET exposure in LUAD. METHODS: We integrated single-cell RNA sequencing, machine learning algorithms [including Classification and Regression Trees (CART), Naive Bayes (NB), random forest (RF), and support vector machine (SVM)], molecular docking, survival analysis, and multi-omics data. Through differential expression screening across datasets combined with Venn analysis, we identified seven PET-associated oncogenic targets. Seven PET-associated oncogenic targets were identified via differential gene screening and Venn analysis. RESULTS: MYL9 was validated as a downregulated, LUAD-protective biomarker associated with significant survival benefit [hazard ratio (HR) =0.59, 0.16, 0.23; all P<0.05]. These findings were consistent across the Human Protein Atlas (HPA) database, co-expression networks, and three independent LUAD datasets. SPI1 was identified as a key transcriptional regulator, showing strong co-expression with MYL9 (R=0.556, P<0.05) and concurrent downregulation in LUAD. Molecular docking revealed that PET bound to the DNA-binding pocket of SPI1 (DeltaG =-5.30 kcal.mol-1), suggesting its transcriptional inhibition of MYL9. CONCLUSIONS: Our integrated bioinformatics approach supports a novel \"PET-SPI1-MYL9\" transcriptional axis, revealing a potential non-genotoxic carcinogenic pathway for PET. While the computational evidence is robust, further wet-lab experiments are needed to validate the binding and transcriptional inhibition mechanism. This model provides a framework for understanding airborne microplastic toxicity in LUAD. We propose that PET promotes LUAD by disrupting the SPI1-MYL9 transcriptional axis, highlighting a potential environmental trigger and candidate targets for diagnostic and therapeutic strategies.",
+    "keywords": [
+      "MYL9",
+      "Polyethylene terephthalate (PET)",
+      "lung adenocarcinoma (LUAD)",
+      "molecular docking",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Qian",
+        "Guo, Juanjuan",
+        "Gu, Yilin",
+        "Xu, Wang",
+        "Cao, Haihong",
+        "Lu, Yongbin",
+        "Su, Fei",
+        "Hou, Xiaoming",
+        "Zhang, Tao"
+      ],
+      "short_names": [
+        "Su Q",
+        "Guo J",
+        "Gu Y",
+        "Xu W",
+        "Cao H",
+        "Lu Y",
+        "Su F",
+        "Hou X",
+        "Zhang T"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-9700-6452",
+        "ORCID: 0009-0002-1194-1087",
+        "ORCID: 0009-0003-7770-9392",
+        "ORCID: 0009-0006-9988-5612",
+        "ORCID: 0009-0002-4691-4273",
+        "ORCID: 0000-0001-5215-3816",
+        "ORCID: 0000-0002-5498-6130",
+        "ORCID: 0000-0002-8521-749X",
+        "ORCID: 0000-0001-6643-4686"
+      ],
+      "affiliations": [
+        "The First Clinical Medical College of Lanzhou University, Lanzhou, China.",
+        "Gansu University of Chinese Medicine, Lanzhou, China.",
+        "The First Clinical Medical College of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College of Lanzhou University, Lanzhou, China.",
+        "Evidence-Based Medicine Center, School of Basic Medical Sciences, Lanzhou University, Lanzhou, China.",
+        "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China.",
+        "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China.",
+        "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Qian",
+        "short_name": "Su Q",
+        "identifiers": [
+          "0009-0009-9700-6452"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Juanjuan",
+        "short_name": "Guo J",
+        "identifiers": [
+          "0009-0002-1194-1087"
+        ],
+        "affiliations": [
+          "Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yilin",
+        "short_name": "Gu Y",
+        "identifiers": [
+          "0009-0003-7770-9392"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wang",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0009-0006-9988-5612"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Haihong",
+        "short_name": "Cao H",
+        "identifiers": [
+          "0009-0002-4691-4273"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yongbin",
+        "short_name": "Lu Y",
+        "identifiers": [
+          "0000-0001-5215-3816"
+        ],
+        "affiliations": [
+          "Evidence-Based Medicine Center, School of Basic Medical Sciences, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Su, Fei",
+        "short_name": "Su F",
+        "identifiers": [
+          "0000-0002-5498-6130"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Xiaoming",
+        "short_name": "Hou X",
+        "identifiers": [
+          "0000-0002-8521-749X"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tao",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0000-0001-6643-4686"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational cancer research"
+    ],
+    "journal_abbrev": [
+      "Transl Cancer Res"
+    ],
+    "pub_date": "2026 Mar 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 18:17",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41461474",
+      "39817679",
+      "39120391",
+      "38367553",
+      "37950670",
+      "37926835",
+      "37351164",
+      "36975376",
+      "36675183",
+      "36626869",
+      "35364151",
+      "34821071",
+      "34736190",
+      "34729929",
+      "34492918",
+      "33178214",
+      "33125129",
+      "32964460",
+      "32385277",
+      "32111046",
+      "32015754",
+      "31511663",
+      "31417181",
+      "31270134",
+      "31255531",
+      "30842770",
+      "30318244",
+      "29196495",
+      "28918553",
+      "28776036",
+      "28531345",
+      "27384994",
+      "27354471",
+      "27174888",
+      "26641521",
+      "26399762",
+      "25605792",
+      "18641660"
+    ],
+    "similar": [
+      "41969450",
+      "41671296",
+      "41716413",
+      "38616208",
+      "41326474",
+      "40761262",
+      "40313958",
+      "41634895",
+      "41162544",
+      "41169155",
+      "42180849",
+      "41815152",
+      "40532600",
+      "42089585",
+      "39018587",
+      "42236612",
+      "31322548",
+      "41409294",
+      "41383634",
+      "41186509",
+      "41415264",
+      "42371181",
+      "41731859",
+      "42580240",
+      "41699663",
+      "40467639",
+      "41769099",
+      "38144565",
+      "41351424",
+      "42079738",
+      "39794414",
+      "41500779",
+      "39950480",
+      "41663976",
+      "39935429",
+      "42475469",
+      "41345972",
+      "42100321",
+      "40438868",
+      "37559628",
+      "39850883",
+      "41341805",
+      "37728413",
+      "41624864",
+      "40320470",
+      "41987806",
+      "41164195",
+      "41130017",
+      "41168822",
+      "41074434",
+      "41731169",
+      "41935997",
+      "37942473",
+      "41938520",
+      "41436831",
+      "42495647",
+      "35154287",
+      "42260892",
+      "38783288",
+      "31956375",
+      "40317014",
+      "38081768",
+      "40396179",
+      "41478005",
+      "39553728",
+      "40979590",
+      "42443906",
+      "40248742",
+      "42444900",
+      "42189270",
+      "40783296",
+      "41939867",
+      "40657370",
+      "39068752",
+      "41151853",
+      "40981471",
+      "42003422",
+      "37790630",
+      "41459671",
+      "41706425",
+      "41591671",
+      "42469385",
+      "41371106",
+      "39108112",
+      "42492262",
+      "41164190",
+      "41208840",
+      "41158314",
+      "41659265",
+      "40469299",
+      "41943031",
+      "41851557",
+      "41107929",
+      "40474806",
+      "34819106",
+      "41037154",
+      "42024670",
+      "32549766",
+      "42520089",
+      "42445428"
+    ],
+    "review": [
+      "41969450"
+    ],
+    "pmc": [
+      "13067007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41969450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tcr-2025-1-2630",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

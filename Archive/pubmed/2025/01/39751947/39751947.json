@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "39751947",
+    "doi": "10.1007/s11538-024-01391-0",
+    "title": "Modelling the Impact of HIF on Metabolism and the Extracellular Matrix: Consequences for Tumour Growth and Invasion."
+  },
+  "content": {
+    "abstract": "The extracellular matrix (ECM) is a complex structure involved in many biological processes with collagen being the most abundant protein. Density of collagen fibers in the matrix is a factor influencing cell motility and migration speed. In cancer, this affects the ability of cells to migrate and invade distant tissues which is relevant for designing new therapies. Furthermore, increased cancer cell migration and invasion have been observed in hypoxic conditions. Interestingly, it has been revealed that the Hypoxia Inducible Factor (HIF) can not only impact the levels of metabolic genes but several collagen remodeling genes as well. The goal of this paper is to explore the impact of the HIF protein on both the tumour metabolism and the cancer cell migration with a focus on the Warburg effect and collagen remodelling processes. Therefore, we present an agent-based model (ABM) of tumour growth combining genetic regulations with metabolic and collagen-related processes involved in HIF pathways. Cancer cell migration is influenced by the extra-cellular collagen through a biphasic response dependant on collagen density. Results of the model showed that extra-cellular collagen within the tumour was mainly influenced by the local cellular density while collagen also influenced the shape of the tumour. In our simulations, proliferation was reduced with higher extra-cellular collagen levels or with lower oxygen levels but reached a maximum in the absence of cell-cell adhesion. Interestingly, combining lower levels of oxygen with higher levels of collagen further reduced the proliferation of the tumour. Since HIF impacts the metabolism and may affect the appearance of the Warburg Effect, we investigated whether different collagen conditions could lead to the adoption of the Warburg phenotype. We found that this was not the case, results suggested that adoption of the Warburg phenotype seemed mainly controlled by inhibition of oxidative metabolism by HIF combined with oscillations of oxygen.",
+    "keywords": [
+      "Agent-based model",
+      "Cell migration",
+      "Extra-cellular matrix",
+      "Hypoxia inducible factor",
+      "Warburg effect"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Extracellular Matrix/metabolism/pathology",
+      "*Neoplasms/metabolism/pathology/genetics",
+      "*Cell Movement",
+      "*Models, Biological",
+      "*Neoplasm Invasiveness",
+      "*Collagen/metabolism",
+      "*Mathematical Concepts",
+      "*Computer Simulation",
+      "*Cell Proliferation",
+      "Warburg Effect, Oncologic",
+      "Hypoxia-Inducible Factor 1/metabolism/genetics",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Spinicci, Kevin",
+        "Powathil, Gibin",
+        "Stephanou, Angelique"
+      ],
+      "short_names": [
+        "Spinicci K",
+        "Powathil G",
+        "Stephanou A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9200-4401"
+      ],
+      "affiliations": [
+        "Universite Grenoble Alpes, CNRS, UMR 5525, VetAgro Sup, Grenoble INP, TIMC, 38000, Grenoble, France. 2038726@swansea.ac.uk.",
+        "Department of Mathematics, Swansea University, Swansea, SA1 8EN, UK. 2038726@swansea.ac.uk.",
+        "Department of Mathematics, Swansea University, Swansea, SA1 8EN, UK.",
+        "Universite Grenoble Alpes, CNRS, UMR 5525, VetAgro Sup, Grenoble INP, TIMC, 38000, Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Spinicci, Kévin",
+        "short_name": "Spinicci K",
+        "identifiers": [
+          "0000-0001-9200-4401"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, CNRS, UMR 5525, VetAgro Sup, Grenoble INP, TIMC, 38000, Grenoble, France. 2038726@swansea.ac.uk.",
+          "Department of Mathematics, Swansea University, Swansea, SA1 8EN, UK. 2038726@swansea.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Powathil, Gibin",
+        "short_name": "Powathil G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Swansea University, Swansea, SA1 8EN, UK."
+        ]
+      },
+      {
+        "full_name": "Stéphanou, Angélique",
+        "short_name": "Stéphanou A",
+        "identifiers": [],
+        "affiliations": [
+          "Université Grenoble Alpes, CNRS, UMR 5525, VetAgro Sup, Grenoble INP, TIMC, 38000, Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bulletin of mathematical biology"
+    ],
+    "journal_abbrev": [
+      "Bull Math Biol"
+    ],
+    "pub_date": "2025 Jan 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/03 12:22",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "41928274",
+      "41680760",
+      "40574854"
+    ],
+    "refs": [
+      "35188460",
+      "34434233",
+      "34295891",
+      "33635856",
+      "32843638",
+      "32276228",
+      "32178267",
+      "31730395",
+      "31654711",
+      "30733294",
+      "30367042",
+      "30132879",
+      "29474446",
+      "29317637",
+      "29165393",
+      "28619042",
+      "28536364",
+      "28456643",
+      "28267240",
+      "28234925",
+      "27644243",
+      "26579469",
+      "26562801",
+      "25957416",
+      "25948484",
+      "25878146",
+      "25519994",
+      "25516281",
+      "25462839",
+      "25338163",
+      "24827502",
+      "24729302",
+      "24588669",
+      "24345497",
+      "23758895",
+      "23565505",
+      "23288510",
+      "22995486",
+      "22511862",
+      "21911388",
+      "21843314",
+      "21208462",
+      "20308893",
+      "19662436",
+      "19287962",
+      "18835895",
+      "15920734",
+      "15849239",
+      "15781426",
+      "15592504",
+      "15459662",
+      "15292230",
+      "15252025",
+      "15137057",
+      "15031665",
+      "11735284",
+      "10682680",
+      "7061174"
+    ],
+    "similar": [
+      "39751947",
+      "23423382",
+      "35348849",
+      "32458057",
+      "17332917",
+      "25388848",
+      "28142219",
+      "40016181",
+      "21725877",
+      "37440157",
+      "25064659",
+      "26305551",
+      "22340517",
+      "17550131",
+      "30980344",
+      "24788198",
+      "36157928",
+      "30669593",
+      "10615241",
+      "27001172",
+      "33791987",
+      "16935775",
+      "24737584",
+      "33025691",
+      "29976963",
+      "23545606",
+      "18787826",
+      "30822194",
+      "25689954",
+      "21640519",
+      "24028437",
+      "39207627",
+      "22041818",
+      "20346958",
+      "23377827",
+      "20112292",
+      "21119667",
+      "23551342",
+      "33637686",
+      "28520516",
+      "31004547",
+      "16675839",
+      "27416726",
+      "28796315",
+      "30777851",
+      "39829390",
+      "21057536",
+      "29056521",
+      "39154343",
+      "26841115",
+      "38740970",
+      "30947151",
+      "15781426",
+      "28619042",
+      "21331265",
+      "25959252",
+      "35365973",
+      "31391253",
+      "32896707",
+      "26861754",
+      "33469841",
+      "28562340",
+      "24321089",
+      "26141990",
+      "20831794",
+      "23437279",
+      "17999410",
+      "39027971",
+      "27542232",
+      "22930750",
+      "19143055",
+      "18068728",
+      "26379394",
+      "18289014",
+      "26983985",
+      "38971364",
+      "11727931",
+      "35002507",
+      "38899332",
+      "17088993",
+      "38904007",
+      "24732809",
+      "28348069",
+      "30092282",
+      "24795051",
+      "27739043",
+      "29053417",
+      "33635856",
+      "28894274",
+      "27840318",
+      "39287857",
+      "30171389",
+      "31162697",
+      "24425001",
+      "19305150",
+      "33211193",
+      "26088446",
+      "38678297",
+      "29247885",
+      "18259193"
+    ],
+    "review": [
+      "39751947",
+      "35348849",
+      "17550131",
+      "33791987",
+      "16935775",
+      "30822194",
+      "25689954",
+      "33637686",
+      "30947151",
+      "19143055",
+      "18289014",
+      "26983985",
+      "38971364",
+      "11727931",
+      "24732809",
+      "27739043",
+      "39287857",
+      "30171389"
+    ],
+    "pmc": [
+      "11698809"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39751947/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11538-024-01391-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

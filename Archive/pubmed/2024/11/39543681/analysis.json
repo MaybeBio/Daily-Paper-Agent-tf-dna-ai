@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39543681",
+  "title": "Cohesin distribution alone predicts chromatin organization in yeast via conserved-current loop extrusion.",
+  "authors": "Yuan, Tianyu; Yan, Hao; Li, Kevin C; Surovtsev, Ivan; King, Megan C; Mochrie, Simon G J",
+  "journal": "Genome biology",
+  "published_date": "2024-11-15",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用保守电流环挤压模型从cohesin分布预测酵母染色质TAD组织，虽涉及DNA结合蛋白cohesin与染色质结构建模，但非TF-DNA特异性互作，方法为物理模拟，可借鉴至蛋白-DNA互作建模。",
+  "abstract": "BACKGROUND: Inhomogeneous patterns of chromatin-chromatin contacts within 10-100-kb-sized regions of the genome are a generic feature of chromatin spatial organization. These features, termed topologically associating domains (TADs), have led to the loop extrusion factor (LEF) model. Currently, our ability to model TADs relies on the observation that in vertebrates TAD boundaries are correlated with DNA sequences that bind CTCF, which therefore is inferred to block loop extrusion. However, although TADs feature prominently in their Hi-C maps, non-vertebrate eukaryotes either do not express CTCF or show few TAD boundaries that correlate with CTCF sites. In all of these organisms, the counterparts of CTCF remain unknown, frustrating comparisons between Hi-C data and simulations. RESULTS: To extend the LEF model across the tree of life, here, we propose the conserved-current loop extrusion (CCLE) model that interprets loop-extruding cohesin as a nearly conserved probability current. From cohesin ChIP-seq data alone, we derive a position-dependent loop extrusion rate, allowing for a modified paradigm for loop extrusion, that goes beyond solely localized barriers to also include loop extrusion rates that vary continuously. We show that CCLE accurately predicts the TAD-scale Hi-C maps of interphase Schizosaccharomyces pombe, as well as those of meiotic and mitotic Saccharomyces cerevisiae, demonstrating its utility in organisms lacking CTCF. CONCLUSIONS: The success of CCLE in yeasts suggests that loop extrusion by cohesin is indeed the primary mechanism underlying TADs in these systems. CCLE allows us to obtain loop extrusion parameters such as the LEF density and processivity, which compare well to independent estimates.",
+  "abstract_zh": "背景：基因组中10-100-kb大小区域内染色质-染色质接触的不均匀模式是染色质空间组织的一个普遍特征。这些特征被称为拓扑关联结构域（TADs），并由此提出了环挤压因子（LEF）模型。目前，我们对TADs进行建模的能力依赖于以下观察：在脊椎动物中，TAD边界与结合CTCF的DNA序列相关，因此推断CTCF能阻断环挤压。然而，尽管TADs在其Hi-C图谱中显著存在，非脊椎动物真核生物要么不表达CTCF，要么显示出与CTCF位点相关的TAD边界很少。在这些生物中，CTCF的对应物仍然未知，这阻碍了Hi-C数据与模拟之间的比较。结果：为了将LEF模型扩展到整个生命树，我们在此提出了守恒电流环挤压（CCLE）模型，该模型将环挤压的cohesin解释为近似守恒的概率电流。仅从cohesin ChIP-seq数据出发，我们推导出位置依赖的环挤压速率，从而提出了一种改进的环挤压范式，该范式不仅限于局部屏障，还包括连续变化的环挤压速率。我们表明，CCLE能准确预测间期裂殖酵母（Schizosaccharomyces pombe）以及减数分裂和有丝分裂酿酒酵母（Saccharomyces cerevisiae）的TAD尺度Hi-C图谱，证明了其在缺乏CTCF的生物中的实用性。结论：CCLE在酵母中的成功表明，cohesin的环挤压确实是这些系统中TADs的主要机制。CCLE使我们能够获得环挤压参数，如LEF密度和持续合成能力，这些参数与独立估计值吻合良好。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39543681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39543681/",
+  "paper_page_path": "papers/pubmed/39543681/index.html"
+}

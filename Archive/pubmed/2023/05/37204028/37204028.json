@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "37204028",
+    "doi": "10.1093/jmcb/mjad027",
+    "title": "Cellular gp96 upregulates AFP expression by blocking NR5A2 SUMOylation and ubiquitination in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Alpha-fetoprotein (AFP) is the most widely used biomarker for the diagnosis of hepatocellular carcinoma (HCC). However, a substantial proportion of HCC patients have either normal or marginally increased AFP levels in serum, and the underlying mechanisms are not fully understood. In the present study, we provided in vitro and in vivo evidence that heat shock protein gp96 promoted AFP expression at the transcriptional level in HCC. NR5A2 was identified as a key transcription factor for the AFP gene, and its stability was enhanced by gp96. A further mechanistic study by co-immunoprecipitation, GST pull-down, and molecular docking showed gp96 and the SUMO E3 ligase RanBP2 competitively binding to NR5A2 at the sites spanning from aa 507 to aa 539. The binding of gp96 inhibited SUMOylation, ubiquitination, and subsequent degradation of NR5A2. In addition, clinical analysis of HCC patients indicated that gp96 expression in tumors was positively correlated with serum AFP levels. Therefore, our study uncovered a novel mechanism that gp96 regulates the stability of its client proteins by directly affecting their SUMOylation and ubiquitination. These findings will help in designing more accurate AFP-based HCC diagnosis and progression monitoring approaches.",
+    "keywords": [
+      "AFP",
+      "NR5A2",
+      "RanBP2",
+      "SUMOylation",
+      "gp96"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Fetoproteins/metabolism",
+      "*Carcinoma, Hepatocellular/metabolism",
+      "*Liver Neoplasms/pathology",
+      "Molecular Docking Simulation",
+      "Receptors, Cytoplasmic and Nuclear/metabolism",
+      "Sumoylation",
+      "Ubiquitination"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Liyuan",
+        "Liang, Zhentao",
+        "Wang, Zihao",
+        "Wang, Jiuru",
+        "Li, Xin",
+        "Zhao, Jingmin",
+        "Li, Zihai",
+        "Chen, Lizhao",
+        "Liu, Yongai",
+        "Ju, Ying",
+        "Li, Changfei",
+        "Meng, Songdong"
+      ],
+      "short_names": [
+        "Qian L",
+        "Liang Z",
+        "Wang Z",
+        "Wang J",
+        "Li X",
+        "Zhao J",
+        "Li Z",
+        "Chen L",
+        "Liu Y",
+        "Ju Y",
+        "Li C",
+        "Meng S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Science, Beijing 100049, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Science, Beijing 100049, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Science, Beijing 100049, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Department of Pathology and Hepatology, The Fifth Medical Centre, Chinese PLA General Hospital, Beijing 100039, China.",
+        "Pelotonia Institute for Immuno-Oncology, The Ohio State University Comprehensive Cancer Center-The James, Columbus, OH 43210, USA.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Science, Beijing 100049, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Science, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Liyuan",
+        "short_name": "Qian L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhentao",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Science, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zihao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Science, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiuru",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Science, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jingmin",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Hepatology, The Fifth Medical Centre, Chinese PLA General Hospital, Beijing 100039, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zihai",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The Ohio State University Comprehensive Cancer Center-The James, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Lizhao",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yongai",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Science, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ju, Ying",
+        "short_name": "Ju Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Li, Changfei",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Songdong",
+        "short_name": "Meng S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pathogen Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Science, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular cell biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Cell Biol"
+    ],
+    "pub_date": "2023 Nov 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/19 13:05",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [
+      "40271196",
+      "39050810",
+      "38601554",
+      "38565749",
+      "38358044"
+    ],
+    "refs": [
+      "35861260",
+      "35658213",
+      "34635651",
+      "34298689",
+      "33898309",
+      "33862147",
+      "33802964",
+      "33649538",
+      "33476589",
+      "32725355",
+      "32492896",
+      "32433991",
+      "32154934",
+      "31897235",
+      "31811908",
+      "31436873",
+      "31208632",
+      "30529751",
+      "30158430",
+      "28930677",
+      "28694164",
+      "28379052",
+      "27732875",
+      "27072698",
+      "26982636",
+      "26916005",
+      "26750456",
+      "26396174",
+      "25841765",
+      "25714026",
+      "25637791",
+      "25546612",
+      "25463537",
+      "24636856",
+      "24027047",
+      "23776506",
+      "23671277",
+      "23536495",
+      "22464730",
+      "22194619",
+      "22079671",
+      "21949741",
+      "21654638",
+      "21216289",
+      "20865800",
+      "19875450",
+      "18669658",
+      "18394993",
+      "16893898",
+      "15931224",
+      "15791569",
+      "15130581",
+      "12032081",
+      "11792325",
+      "11394657",
+      "9398662",
+      "7680097",
+      "1709334"
+    ],
+    "similar": [
+      "37204028",
+      "33765973",
+      "30808376",
+      "30529751",
+      "32725355",
+      "31680299",
+      "25637791",
+      "17250819",
+      "31811908",
+      "29054441",
+      "28653316",
+      "16222756",
+      "27924522",
+      "37060820",
+      "38395204",
+      "32438969",
+      "33009373",
+      "25943101",
+      "32482029",
+      "17085339",
+      "11471892",
+      "34280005",
+      "15888795",
+      "32576198",
+      "32782270",
+      "22521346",
+      "22147961",
+      "22761128",
+      "14714299",
+      "9462663",
+      "22681639",
+      "24723129",
+      "19038010",
+      "25714026",
+      "26756858",
+      "17626741",
+      "11522637",
+      "16124056",
+      "28596685",
+      "25209179",
+      "10355508",
+      "31915469",
+      "8863176",
+      "26078940",
+      "32623388",
+      "22294840",
+      "33082065",
+      "30661224",
+      "21874252",
+      "33495541",
+      "23232633",
+      "35461226",
+      "15305374",
+      "9468556",
+      "33849479",
+      "7506988",
+      "22436980",
+      "19003875",
+      "31576097",
+      "27236153",
+      "23484810",
+      "29888876",
+      "31436873",
+      "32150664",
+      "33371894",
+      "11788893",
+      "34485511",
+      "31973032",
+      "21725159",
+      "15069714",
+      "31383828",
+      "17317821",
+      "35002508",
+      "17433605",
+      "35643910",
+      "12966430",
+      "27716619",
+      "25846475",
+      "16911935",
+      "35955438",
+      "24796461",
+      "28920172",
+      "22530999",
+      "23372355",
+      "32493393",
+      "22430193",
+      "29071776",
+      "27345266",
+      "10626187",
+      "26927385",
+      "29442275",
+      "20845507",
+      "27732875",
+      "33764665",
+      "32374744"
+    ],
+    "review": [
+      "37204028",
+      "32725355",
+      "30661224",
+      "31436873",
+      "35002508"
+    ],
+    "pmc": [
+      "10748477"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/37204028.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37204028/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37204028",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-996",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jmcb/article-lookup/doi/10.1093/jmcb/mjad027",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

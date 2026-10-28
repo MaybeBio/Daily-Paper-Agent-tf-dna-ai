@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41294241",
+  "title": "QTFPred: robust high-performance quantum machine learning modeling that predicts main and cooperative transcription factor bindings with base resolution.",
+  "authors": "Matsubara, Taichi; Machida, Shuto; Owusu, Samuel Papa Kwesi; Asakura, Akihiro; Hashimoto, Hiroki; Matsuoka, Masanori; Nagasaki, Masao",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-11-26",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出量子-经典混合框架QTFPred，利用量子卷积层在碱基分辨率下预测TF结合及协同结合，核心聚焦TF-DNA互作且方法为AI创新，高度匹配本课题。",
+  "abstract": "Deep learning has become an essential tool for identifying transcription factor (TF) binding sites, yet conventional approaches often struggle with limited training data for specific TFs. Here, we introduce QTFPred (Quantum-based TF Predictor), a quantum-classical hybrid framework that integrates quantum convolutional layers within neural networks to predict TF binding at base resolution. By leveraging the exponential feature space offered by quantum circuits and training from scratch via GPU simulation, QTFPred achieves robust performance even in data-sparse scenarios. In benchmarks on 49 Encyclopedia of DNA elements ChIP-seq datasets, QTFPred delivered state-of-the-art accuracy in 92% of binary prediction and 96% of signal prediction tasks, outperforming conventional models in precision and stability. Moreover, the method reveals underlying TF motif representations, offering insights into cooperative binding mechanisms. These results highlight the potential of quantum machine learning to overcome the limitations of traditional deep learning in genomics modeling.",
+  "abstract_zh": "深度学习已成为识别转录因子（TF）结合位点的重要工具，然而传统方法在处理特定TF的有限训练数据时往往面临挑战。在此，我们引入QTFPred（基于量子的TF预测器），这是一种量子-经典混合框架，将量子卷积层集成到神经网络中，以碱基分辨率预测TF结合。通过利用量子电路提供的指数级特征空间，并通过GPU模拟从头训练，QTFPred在数据稀疏场景下也能实现稳健性能。在49个DNA元件百科全书ChIP-seq数据集的基准测试中，QTFPred在92%的二元预测任务和96%的信号预测任务中达到了最先进的准确性，在精度和稳定性上优于传统模型。此外，该方法揭示了潜在的TF基序表示，为协同结合机制提供了见解。这些结果凸显了量子机器学习在克服传统深度学习在基因组建模中局限性的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41294241/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41294241/",
+  "paper_page_path": "papers/pubmed/41294241/index.html"
+}

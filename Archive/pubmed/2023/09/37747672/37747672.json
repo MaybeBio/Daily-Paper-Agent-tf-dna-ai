@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "37747672",
+    "doi": "10.1007/s12033-023-00871-3",
+    "title": "Exploring the Synergistic Mechanism of AP2A2 Transcription Factor Inhibition via Molecular Modeling and Simulations as a Novel Computational Approach for Combating Breast Cancer: In Silico Interpretations."
+  },
+  "content": {
+    "abstract": "Studies have shown that transcription factor AP2A2 (activator protein-2 alpha-2) is involved in the expression of DLEC1, a tumor suppressor gene, which, when mutated, will cause breast cancer and is thus an excellent target for breast cancer studies. Therefore, in the present research, a synergistic approach toward combating breast cancer is proposed by blocking AP2A2 factor, and allowing the cancer cells to be sensitive to anti-cancer drugs. The effect of AP2A2 on breast cancer was first understood via gene analysis from cBioPortal. AP2A2 was then modeled using RaptorX and its structure was validated from Ramachandran plots. Using all ligands from MolPort database, molecular docking was performed against AP2A2, from which the top three best docked ligands were studied for toxicity in humans using Protox-II. Once the ligands passed these tests, the best complexes were simulated at 200ns in Desmond Maestro, to comprehend their stabilities, followed by the computations of free energies of binding via Molecular mechanics- Generalized Born Solvent Accessibility method (MM-GBSA). The results showed that molecules MolPort-005-945-556 (sachharolipids), MolPort-001-741-124 (flavonoids), and MolPort-005-944-667 (lignan glycosides) with AP2A2 passed toxicity evaluation and belonged to toxicity classes 6, 5, and 5, respectively, with good docking energies. 200 ns simulations revealed stable complexes with slight conformational changes. Stability of ligands was confirmed via snapshots at every 20 ns of the trajectory. Radial distribution of these molecules against the protein revealed very slight deviation from binding pocket. Additionally, the free binding energies for these complexes were found to be - 54.93 +/- 12.982 kcal/mol, - 44.39 +/- 14.393 kcal/mol, and - 66.51 +/- 13.522 kcal/mol, respectively. A preliminary computational validation of the inability of AP2A2 to bind to DLEC1 in the presence of ligands offers beneficial insights into the potential of these ligands. Therefore, this study sheds light on the potential natural molecules that could stably block AP2A2 with least deviation and act in synergy to aid anti-cancer drugs work on breast cancer cells.",
+    "keywords": [
+      "AP2A2",
+      "Breast cancer",
+      "DLEC1",
+      "Free energy of binding",
+      "Molecular docking and simulations",
+      "Synergism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factor AP-2/metabolism/genetics/chemistry",
+      "*Molecular Docking Simulation",
+      "*Breast Neoplasms/genetics/metabolism/drug therapy/pathology",
+      "Female",
+      "*Molecular Dynamics Simulation",
+      "Ligands",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Protein Binding",
+      "Computer Simulation",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niranjan, Vidya",
+        "Setlur, Anagha S",
+        "K, Chandrashekar",
+        "Kumkum, Sneha",
+        "Dasgupta, Sanjana",
+        "Singh, Varsha",
+        "Desai, Vrushali",
+        "Kumar, Jitendra"
+      ],
+      "short_names": [
+        "Niranjan V",
+        "Setlur AS",
+        "K C",
+        "Kumkum S",
+        "Dasgupta S",
+        "Singh V",
+        "Desai V",
+        "Kumar J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9187-7753"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India. vidya.n@rvce.edu.in.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India.",
+        "Biotechnology Industry Research Assistance Council (BIRAC), CGO complex Lodhi Road, New Delhi, India. md.birac@nic.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niranjan, Vidya",
+        "short_name": "Niranjan V",
+        "identifiers": [
+          "0000-0001-9187-7753"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India. vidya.n@rvce.edu.in."
+        ]
+      },
+      {
+        "full_name": "Setlur, Anagha S",
+        "short_name": "Setlur AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "K, Chandrashekar",
+        "short_name": "K C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Kumkum, Sneha",
+        "short_name": "Kumkum S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Dasgupta, Sanjana",
+        "short_name": "Dasgupta S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Varsha",
+        "short_name": "Singh V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Desai, Vrushali",
+        "short_name": "Desai V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, Bangalore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Jitendra",
+        "short_name": "Kumar J",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Industry Research Assistance Council (BIRAC), CGO complex Lodhi Road, New Delhi, India. md.birac@nic.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 12:41",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42071116",
+      "39987084",
+      "39386569",
+      "38455618"
+    ],
+    "refs": [
+      "36660662",
+      "35913409",
+      "35445538",
+      "35386188",
+      "35309259",
+      "34542815",
+      "34404957",
+      "34043356",
+      "33928351",
+      "33153431",
+      "32673076",
+      "32364041",
+      "32183060",
+      "31407494",
+      "31359993",
+      "30930227",
+      "30607648",
+      "30562755",
+      "30020823",
+      "29718510",
+      "29425488",
+      "29290793",
+      "29215763",
+      "28521030",
+      "27867422",
+      "27165221",
+      "27165206",
+      "25648635",
+      "25640947",
+      "23050586",
+      "22996593",
+      "22588877",
+      "22497310",
+      "22368248",
+      "21987485",
+      "21547007",
+      "21062823",
+      "20354892",
+      "19698110",
+      "18191269",
+      "17899391",
+      "17034125",
+      "16756719",
+      "16420676",
+      "15467710",
+      "15223063",
+      "15027866",
+      "15027865",
+      "10629551",
+      "7411610",
+      "1998122",
+      "1988150"
+    ],
+    "similar": [
+      "37747672",
+      "39275052",
+      "34502340",
+      "34514973",
+      "39135338",
+      "37565730",
+      "30557817",
+      "37288783",
+      "39101505",
+      "34107169",
+      "37989072",
+      "36688316",
+      "33402049",
+      "34286666",
+      "34962586",
+      "35744817",
+      "36944292",
+      "33954893",
+      "37241915",
+      "37682937",
+      "37739292",
+      "24464700",
+      "35807321",
+      "38907013",
+      "34957309",
+      "28738766",
+      "37349936",
+      "35125087",
+      "30504089",
+      "34491628",
+      "32186248",
+      "39013949",
+      "26906522",
+      "37424193",
+      "29745344",
+      "38816444",
+      "30928871",
+      "30477412",
+      "37288734",
+      "29064326",
+      "26622167",
+      "39082832",
+      "37615411",
+      "36644887",
+      "28524659",
+      "37565332",
+      "37424103",
+      "38847264",
+      "38918225",
+      "38623839",
+      "33164832",
+      "30411639",
+      "32580684",
+      "37394802",
+      "36017854",
+      "34169390",
+      "35635599",
+      "38913211",
+      "35208955",
+      "33962088",
+      "33422503",
+      "31038021",
+      "36543006",
+      "39251712",
+      "37306420",
+      "29132261",
+      "36169809",
+      "38109128",
+      "38501198",
+      "36732462",
+      "36845113",
+      "31463793",
+      "38471352",
+      "39262267",
+      "32401149",
+      "32835632",
+      "38815949",
+      "37194295",
+      "37545158",
+      "29332600",
+      "28849732",
+      "27691842",
+      "36237438",
+      "32578494",
+      "31443129",
+      "36841551",
+      "30324898",
+      "27342250",
+      "32961233",
+      "32998374",
+      "34957911",
+      "39191884",
+      "38514663",
+      "25338999",
+      "30451119",
+      "27056562",
+      "38286082",
+      "30295165",
+      "32234678",
+      "29334340",
+      "36826424",
+      "36966470",
+      "36709441",
+      "39355758",
+      "37505376",
+      "39403123"
+    ],
+    "review": [
+      "37747672"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-023-00871-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

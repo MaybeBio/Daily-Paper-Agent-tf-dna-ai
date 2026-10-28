@@ -1,0 +1,570 @@
+{
+  "identity": {
+    "pmid": "35948006",
+    "doi": "10.1016/j.chembiol.2022.07.003",
+    "title": "Discovery of compounds that reactivate p53 mutants in vitro and in vivo."
+  },
+  "content": {
+    "abstract": "The tumor suppressor p53 is the most frequently mutated protein in human cancer. The majority of these mutations are missense mutations in the DNA binding domain of p53. Restoring p53 tumor suppressor function could have a major impact on the therapy for a wide range of cancers. Here we report a virtual screening approach that identified several small molecules with p53 reactivation activities. The UCI-LC0023 compound series was studied in detail and was shown to bind p53, induce a conformational change in mutant p53, restore the ability of p53 hotspot mutants to associate with chromatin, reestablish sequence-specific DNA binding of a p53 mutant in a reconstituted in vitro system, induce p53-dependent transcription programs, and prevent progression of tumors carrying mutant p53, but not p53(null) or p53(WT) alleles. Our study demonstrates feasibility of a computation-guided approach to identify small molecule corrector drugs for p53 hotspot mutations.",
+    "keywords": [
+      "cryptic pocket",
+      "ensemble based virtual screening",
+      "molecular dynamics simulations",
+      "mutant p53",
+      "p53 reactivation",
+      "small molecule p53 corrector drugs"
+    ],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Chromatin",
+      "DNA",
+      "Humans",
+      "Mutation",
+      "*Neoplasms/drug therapy",
+      "Protein Domains",
+      "*Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Durairaj, Geetha",
+        "Demir, Ozlem",
+        "Lim, Bryant",
+        "Baronio, Roberta",
+        "Tifrea, Delia",
+        "Hall, Linda V",
+        "DeForest, Jacob C",
+        "Lauinger, Linda",
+        "Jebril Fallatah, Maryam M",
+        "Yu, Clinton",
+        "Bae, Hosung",
+        "Lin, Da-Wei",
+        "Kim, Jin Kwang",
+        "Salehi, Faezeh",
+        "Jang, Cholsoon",
+        "Qiao, Feng",
+        "Lathrop, Richard H",
+        "Huang, Lan",
+        "Edwards, Robert",
+        "Rychnovsky, Scott",
+        "Amaro, Rommie E",
+        "Kaiser, Peter"
+      ],
+      "short_names": [
+        "Durairaj G",
+        "Demir O",
+        "Lim B",
+        "Baronio R",
+        "Tifrea D",
+        "Hall LV",
+        "DeForest JC",
+        "Lauinger L",
+        "Jebril Fallatah MM",
+        "Yu C",
+        "Bae H",
+        "Lin DW",
+        "Kim JK",
+        "Salehi F",
+        "Jang C",
+        "Qiao F",
+        "Lathrop RH",
+        "Huang L",
+        "Edwards R",
+        "Rychnovsky S",
+        "Amaro RE",
+        "Kaiser P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA; Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Pathology and Laboratory Medicine, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Physiology and Biophysics, University of California, Irvine, Irvine, CA 92697, USA; Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Computer Science, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Computer Science, University of California, Irvine, Irvine, CA 92697, USA; Department of Biomedical Engineering, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Physiology and Biophysics, University of California, Irvine, Irvine, CA 92697, USA; Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Pathology and Laboratory Medicine, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: ramaro@ucsd.edu.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA; Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA 92697, USA. Electronic address: pkaiser@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Durairaj, Geetha",
+        "short_name": "Durairaj G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA; Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Demir, Özlem",
+        "short_name": "Demir Ö",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Lim, Bryant",
+        "short_name": "Lim B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Baronio, Roberta",
+        "short_name": "Baronio R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Tifrea, Delia",
+        "short_name": "Tifrea D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Hall, Linda V",
+        "short_name": "Hall LV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "DeForest, Jacob C",
+        "short_name": "DeForest JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Lauinger, Linda",
+        "short_name": "Lauinger L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Jebril Fallatah, Maryam M",
+        "short_name": "Jebril Fallatah MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Clinton",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, University of California, Irvine, Irvine, CA 92697, USA; Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Bae, Hosung",
+        "short_name": "Bae H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Da-Wei",
+        "short_name": "Lin DW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Jin Kwang",
+        "short_name": "Kim JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Salehi, Faezeh",
+        "short_name": "Salehi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Jang, Cholsoon",
+        "short_name": "Jang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Qiao, Feng",
+        "short_name": "Qiao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Lathrop, Richard H",
+        "short_name": "Lathrop RH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California, Irvine, Irvine, CA 92697, USA; Department of Biomedical Engineering, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Lan",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, University of California, Irvine, Irvine, CA 92697, USA; Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Edwards, Robert",
+        "short_name": "Edwards R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Rychnovsky, Scott",
+        "short_name": "Rychnovsky S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Amaro, Rommie E",
+        "short_name": "Amaro RE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: ramaro@ucsd.edu."
+        ]
+      },
+      {
+        "full_name": "Kaiser, Peter",
+        "short_name": "Kaiser P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA 92697, USA; Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA 92697, USA. Electronic address: pkaiser@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell chemical biology"
+    ],
+    "journal_abbrev": [
+      "Cell Chem Biol"
+    ],
+    "pub_date": "2022 Sep 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/11 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42598159",
+      "41279808",
+      "40729059",
+      "40597785",
+      "40116283",
+      "39930134",
+      "39450536",
+      "39199355",
+      "39185441",
+      "38862470",
+      "38396641",
+      "38358129",
+      "38018912",
+      "37373306",
+      "36965249",
+      "36964053",
+      "36859359"
+    ],
+    "refs": [
+      "34862374",
+      "33357454",
+      "31283823",
+      "31076617",
+      "30157040",
+      "29670092",
+      "29576531",
+      "29125602",
+      "28427187",
+      "28348409",
+      "27806324",
+      "27533246",
+      "27258787",
+      "26986846",
+      "26205328",
+      "25075903",
+      "25045785",
+      "24157875",
+      "24157548",
+      "23863845",
+      "23828940",
+      "23360998",
+      "23161690",
+      "22930834",
+      "22713868",
+      "22682249",
+      "22624712",
+      "20581117",
+      "20182618",
+      "19693097",
+      "19499576",
+      "19411067",
+      "19383329",
+      "17538933",
+      "17387436",
+      "17251932",
+      "17182091",
+      "16575405",
+      "15998635",
+      "15861488",
+      "11875500",
+      "11156366",
+      "11046155",
+      "1301998"
+    ],
+    "similar": [
+      "35948006",
+      "27258787",
+      "39199355",
+      "27599722",
+      "23360998",
+      "31536751",
+      "17401433",
+      "31307507",
+      "36700982",
+      "26205328",
+      "19383329",
+      "28320780",
+      "27341992",
+      "18996393",
+      "20436301",
+      "30324219",
+      "29242642",
+      "14508081",
+      "35320355",
+      "24220325",
+      "28813011",
+      "20589832",
+      "19881536",
+      "24768524",
+      "15308639",
+      "27503952",
+      "26331536",
+      "15998635",
+      "36555140",
+      "11875500",
+      "21508668",
+      "21391904",
+      "8957091",
+      "38358025",
+      "32075132",
+      "31881526",
+      "26244575",
+      "33111621",
+      "31134745",
+      "28749203",
+      "20113312",
+      "34862374",
+      "38199451",
+      "11893750",
+      "37205631",
+      "15613472",
+      "26294215",
+      "10713666",
+      "8208536",
+      "21912889",
+      "29670092",
+      "17070499",
+      "37156116",
+      "29099487",
+      "26599530",
+      "27517620",
+      "11156366",
+      "30892598",
+      "31128451",
+      "38140698",
+      "26943582",
+      "27911860",
+      "25417702",
+      "35201513",
+      "23612969",
+      "34907344",
+      "26442703",
+      "32641480",
+      "16236433",
+      "32873579",
+      "30808373",
+      "22824795",
+      "24662829",
+      "15060172",
+      "20978130",
+      "19633417",
+      "34172723",
+      "20656489",
+      "26320861",
+      "36964053",
+      "29660231",
+      "20498645",
+      "17417627",
+      "36871418",
+      "21107702",
+      "21674059",
+      "33208462",
+      "38862470",
+      "20139776",
+      "33804175",
+      "38737036",
+      "38811338",
+      "24874727",
+      "12917626",
+      "10884390",
+      "30160791",
+      "35333136",
+      "28126403",
+      "29260852",
+      "31797597",
+      "20124408"
+    ],
+    "review": [
+      "35948006",
+      "17401433",
+      "26205328",
+      "30324219",
+      "29242642",
+      "14508081",
+      "24768524",
+      "21391904",
+      "32075132",
+      "38199451",
+      "29099487",
+      "11156366",
+      "30892598",
+      "32873579",
+      "19633417",
+      "20656489",
+      "36964053",
+      "20498645",
+      "29260852"
+    ],
+    "pmc": [
+      "9481737"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2451-9456(22)00275-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35948006/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35948006",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35948006",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6xq3w3hz",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35948006",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

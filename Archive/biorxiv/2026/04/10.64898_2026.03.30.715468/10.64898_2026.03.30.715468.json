@@ -1,0 +1,520 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.30.715468",
+  "title": "Protein-peptide binding pathways revealed by two-dimensional replica-exchange molecular dynamics",
+  "doi": "10.64898/2026.03.30.715468",
+  "abstract": "Protein kinases regulate signaling by recognizing short sequence motifs, and how these motifs bind influences both specificity and therapeutic strategies that target kinase pathways. Peptide-based inhibitors that engage substrate-recognition regions are attracting interest, but designing them requires an understanding of how a flexible peptide approaches and settles into the bound pose. Traditional studies have focused on the bound pose and affinities, whereas the steps that link the initial encounter with the bound pose have been explored less thoroughly because the relevant intermediates are too short-lived to capture experimentally and evolve on timescales that standard molecular dynamics cannot readily access. Here, we focused on Abl kinase and Abltide, the experimentally identified optimal substrate peptide for Abl kinase, and examined the sequence of events linking initial encounter to the bound pose using two-dimensional replica exchange (gREST/REUS), which selectively enhances flexibility in the peptide and its binding interface while also sampling progression along a distance coordinate. The resulting simulations yielded a detailed binding landscape, revealing five distinct encounter regions outside the substrate-binding site and six intermediate states that may connect the initial approach to the bound pose. Some encounter regions and intermediate states participate in the dominant binding pathways. During this process, α EF/ α G/ β 11 hydrophobic patch, together with α G helix negative patch, plays a central role in guiding Abltide toward the substrate-binding site. These findings provide mechanistic insight into substrate recognition by protein kinases and offer a foundation for the rational design of peptide-based inhibitors.",
+  "authors": [
+    "Yichao Wu",
+    "Ai Shinobu"
+  ],
+  "published_date": "2026-04-01",
+  "updated_date": "2026-04-02T03:24:42Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715468",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715468.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2026-04-04T22:46:44Z",
+        "timestamp": 1775342804056,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001700",
+          "name": "MEXT",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMXP1020230120"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMXP1020230120"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001700",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100031751",
+          "name": "RIKEN Center for Computational Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "hp230216"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "hp230216"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100031751",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "World Premier International Research Center Initiative (WPI), MEXT, Japan"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein kinases regulate signaling by recognizing short sequence motifs, and how these motifs bind influences both specificity and therapeutic strategies that target kinase pathways. Peptide-based inhibitors that engage substrate-recognition regions are attracting interest, but designing them requires an understanding of how a flexible peptide approaches and settles into the bound pose. Traditional studies have focused on the bound pose and affinities, whereas the steps that link the initial encounter with the bound pose have been explored less thoroughly because the relevant intermediates are too short-lived to capture experimentally and evolve on timescales that standard molecular dynamics cannot readily access. Here, we focused on Abl kinase and Abltide, the experimentally identified optimal substrate peptide for Abl kinase, and examined the sequence of events linking initial encounter to the bound pose using two-dimensional replica exchange (gREST/REUS), which selectively enhances flexibility in the peptide and its binding interface while also sampling progression along a distance coordinate. The resulting simulations yielded a detailed binding landscape, revealing five distinct encounter regions outside the substrate-binding site and six intermediate states that may connect the initial approach to the bound pose. Some encounter regions and intermediate states participate in the dominant binding pathways. During this process,\n                  <jats:italic>α</jats:italic>\n                  EF/\n                  <jats:italic>α</jats:italic>\n                  G/\n                  <jats:italic>β</jats:italic>\n                  11 hydrophobic patch, together with\n                  <jats:italic>α</jats:italic>\n                  G helix negative patch, plays a central role in guiding Abltide toward the substrate-binding site. These findings provide mechanistic insight into substrate recognition by protein kinases and offer a foundation for the rational design of peptide-based inhibitors.\n                </jats:p>",
+      "DOI": "10.64898/2026.03.30.715468",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2026-04-02T03:24:42Z",
+        "timestamp": 1775100282000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Protein-peptide binding pathways revealed by two-dimensional replica-exchange molecular dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-6754-9086",
+          "authenticated-orcid": false,
+          "given": "Yichao",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Premium Research Institute for Human Metaverse Medicine (WPI-PRIMe), The University of Osaka, 2-8 Yamadaoka, Suita, Osaka, 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2865-6461",
+          "authenticated-orcid": false,
+          "given": "Ai",
+          "family": "Shinobu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Premium Research Institute for Human Metaverse Medicine (WPI-PRIMe), The University of Osaka, 2-8 Yamadaoka, Suita, Osaka, 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.cdd.4400626"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "436",
+          "DOI": "10.1177/1947601912458584",
+          "article-title": "Structure, Regulation, Signaling, and Targeting of Abl Kinases in Cancer",
+          "volume": "3",
+          "year": "2012",
+          "journal-title": "Genes Cancer"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2707"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90404-E"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/373536a0"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2013.02.010"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2015.18"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "652",
+          "DOI": "10.1016/j.bpj.2020.06.032",
+          "article-title": "Protein-Protein Binding as a Two-Step Mechanism: Preselection of Encounter Poses during the Binding of BPTI and Trypsin",
+          "volume": "119",
+          "year": "2020",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-020-00135-8"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-021-00710-4"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Afonso, A. L. ; Cavaleiro, C. T. ; Castanho, M. A. R. B. ; Neves, V. ; Cavaco, M. The Potential of Peptide-Based Inhibitors in Disrupting Protein–Protein Interactions for Targeted Cancer Therapy. International Journal of Molecular Sciences 2025, 26.",
+          "DOI": "10.3390/ijms26073117"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1280"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Motaln, H. ; Rogelj, B. The Role of c-Abl Tyrosine Kinase in Brain and Its Pathologies. Cells 2023, 12.",
+          "DOI": "10.3390/cells12162041"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01454-13"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood.V96.10.3343.h8003343_3343_3356"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJM200104053441401"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-021-00252-y"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.1c00963"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1062538"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccr.2014.07.006"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.75.103004.142657"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08675"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(00)00221-9"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Paladini, J. ; Maier, A. ; Habazettl, J. M. ; Hertel, I. ; Sonti, R. ; Grzesiek, S. The molecular basis of Abelson kinase regulation by its αI-helix. eLife 2024, 12.",
+          "DOI": "10.7554/eLife.92324.3"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb721"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/16.18.5572"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0040144"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja202726y"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1104614108"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5016222"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1308516"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1472510"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1904707116"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shinobu, A. ; Re, S. ; Sugita, Y. Practical Protocols for Efficient Sampling of Kinase-Inhibitor Binding Pathways Using Two-Dimensional Replica-Exchange Molecular Dynamics. Frontiers in Molecular Biosciences 2022, 9.",
+          "DOI": "10.3389/fmolb.2022.878830"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.36",
+          "unstructured": "Schrödinger, LLC The PyMOL Molecular Graphics System, Version 1.8. 2015; https://pymol.org/."
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg362"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct200133y"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct100578z"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444993000423"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "712",
+          "DOI": "10.1002/prot.21123",
+          "article-title": "Comparison of multiple Amber force fields and development of improved protein backbone parameters",
+          "volume": "65",
+          "year": "2006",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1950",
+          "DOI": "10.1002/prot.22711",
+          "article-title": "Improved side-chain torsion potentials for the Amber ff99SB protein force field",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10262"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0009-2614(95)01082-K"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp961710n"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.4c02096"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.48",
+          "first-page": "124105",
+          "article-title": "Statistically optimal analysis of samples from multiple equilibrium states",
+          "volume": "129",
+          "year": "2023",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2026040414500482000_2026.03.30.715468v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shinobu, A. ; Re, S. ; Sugita, Y. The impact of inhibitor size and flexibility on the binding pathways to c-Src kinase. 2022; https://www.biorxiv.org/content/10.1101/2022.10.25.513784v1.",
+          "DOI": "10.1101/2022.10.25.513784"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.30.715468",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2026-04-04T21:50:14Z",
+        "timestamp": 1775339414000
+      },
+      "score": 115.515594,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.30.715468"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.64898/2026.03.30.715468",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

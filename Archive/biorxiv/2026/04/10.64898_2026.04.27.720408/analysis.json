@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.27.720408",
+  "title": "Generative design of sequence specific DNA binding proteins",
+  "authors": "Enisha Sehgal; Yuliya Politanska; Raktim Mitra; Paul T. Kim; Nayim González Rodríguez; Tushar Warrier; Andrew Kubaney; Akira Morishita; Riley Quijano; Jasper Butcher; Rohith Krishna; Robert J. Pecoraro; Brian Belmont; Nicole Roullier; Inna Goreshnik; Dionne K Vafeados; Paul Kwon; Rachana Ramarao; Jussi Taipale; Cameron J. Glasscock; David Baker",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用RFdiffusion3生成结构并AlphaFold3筛选脱靶，实现序列特异性DNA结合蛋白的从头设计，核心聚焦蛋白-DNA互作建模，方法为AI生成与结构预测，与TF-DNA结合机制研究高度相关。",
+  "abstract": "De novo protein design has advanced rapidly in recent years, yet the programmable recognition of specific DNA sequences remains a longstanding challenge. Here we describe a deep learning based approach for designing sequence selective DNA binding proteins. Our method combines structure generation using RFdiffusion3 with explicit screening against off-target interactions using AlphaFold3. We test this approach by generating 96 designs for each of 15 diverse DNA targets and identify specific binders for 7 targets, representing a ~100-fold improvement in success rates over previous approaches. We further characterize the binding landscape using variant competition assays and randomized library screening, revealing robust sequence discrimination across diverse targets. Together, these results represent a significant step forward in de novo sequence specific DNA binder design.",
+  "abstract_zh": "近年来，从头蛋白质设计取得了快速进展，然而对特定DNA序列的可编程识别仍是一个长期挑战。在此，我们描述了一种基于深度学习的方法，用于设计序列选择性DNA结合蛋白。我们的方法结合了使用RFdiffusion3进行的结构生成，以及使用AlphaFold3对脱靶相互作用的显式筛选。我们通过为15个不同的DNA靶标各生成96个设计来测试该方法，并识别出7个靶标的特异性结合物，成功率较以往方法提高了约100倍。我们进一步利用变异竞争实验和随机文库筛选来表征结合景观，揭示了跨多样靶标的稳健序列区分能力。综合来看，这些结果代表了在从头序列特异性DNA结合物设计方面迈出的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.720408",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.27.720408",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.27.720408/index.html"
+}

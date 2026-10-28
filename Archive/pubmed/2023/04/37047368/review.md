@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to compare a wildtype CTCF–DNA complex with eight cancer-linked single-residue mutants, reporting that most mutants reduce complex stability via loss of hydrogen bonds, altered electrostatic potential, or zinc finger destabilization, and that these effects provide mechanistic insight into CTCF dysfunction in cancer.
+- **Visible evidence base** Main text, Figures 1–7, Tables 1–3, Supplementary Figures S1–S7, Supplementary Tables S1–S2
+- **Missing materials affecting confidence** Raw simulation trajectories, force field parameter files, input coordinate files, convergence metrics beyond RMSD, error bars for hydrogen bond frequencies, statistical significance tests for binding energy differences, and full methodological details for clustering and electrostatic potential calculations
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of eight cancer-associated CTCF mutations using molecular dynamics simulations. The work addresses a clinically relevant question and provides plausible mechanistic hypotheses. However, the evidence presented is largely qualitative, with no statistical testing of key quantitative claims, and the simulation length and system truncation raise concerns about convergence and biological relevance. The manuscript would benefit from more rigorous quantitative analysis and clearer connection to experimental data.
+- **Who would be interested in the results, and why** Researchers studying CTCF function, chromatin architecture, and gene regulation would find the mechanistic hypotheses useful. Computational biophysicists interested in protein–DNA interactions and mutation effects may also be interested. Clinicians and cancer biologists studying CTCF mutations in disease could use these findings to guide experimental validation, though the speculative nature of some conclusions limits immediate translational value.
+- **Major strengths** The study addresses an important and clinically relevant question with a systematic approach across eight mutants. The use of multiple replicas is commendable. The authors connect their findings to specific experimental observations, which strengthens the translational relevance. The discussion of mutation-specific mechanisms is thoughtful and nuanced.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that most mutants have lower binding energies compared to wildtype, leading to less stable complexes.
+  - **Evidence pointer** Table 1, Section 2.2
+  - **Concern** The binding energy differences between wildtype and mutants are reported as being "within the same range of error," yet the authors still conclude that most mutants are destabilizing. No statistical significance testing is performed, and the error bars appear to overlap substantially across all systems. The claim of differential stability is therefore not quantitatively supported.
+  - **Why it matters** The central conclusion of the paper rests on the assertion that mutations destabilize the CTCF–DNA complex. If the differences are not statistically significant, the mechanistic interpretations built on this foundation are not justified.
+  - **Resolution test** Perform statistical tests (e.g., bootstrap or t-test) on the per-replica binding energy values. Report effect sizes and confidence intervals. If differences are not significant, temper the conclusions accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that certain mutations in specific fingers can affect the interaction with DNA of other fingers.
+  - **Evidence pointer** Section 2.2, Figures 5–6, Table 2
+  - **Concern** The evidence for inter-finger effects is indirect. The authors infer this from changes in hydrogen bond counts and helix-to-DNA distances, but no direct analysis of inter-finger communication or allosteric pathways is provided. The claim of long-range effects is speculative without such analysis.
+  - **Why it matters** This is a novel and potentially important mechanistic claim. If not properly supported, it overstates the findings and could mislead subsequent research.
+  - **Resolution test** Perform correlation analysis between residue-specific fluctuations and inter-finger distances, or use perturbation response scanning to demonstrate allosteric coupling. Alternatively, temper the claim to describe only local effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that the R342C mutation does not destabilize the complex but may act through oxidation sensitivity of the introduced cysteine.
+  - **Evidence pointer** Section 2.2, Section 3
+  - **Concern** The oxidation hypothesis is entirely speculative and not tested in this study. No simulations or experiments address cysteine oxidation. The claim is presented as a plausible mechanism but is not distinguished from other possible explanations for the observed phenotype.
+  - **Why it matters** Presenting untested speculation as a mechanistic conclusion weakens the scientific rigor of the paper and could mislead readers into assuming this mechanism is established.
+  - **Resolution test** Either remove or clearly label this as speculation, or perform additional simulations with oxidized cysteine to test the hypothesis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the simulation length of 300 ns is sufficient and that longer simulations became unstable.
+  - **Evidence pointer** Section 4.2, Supplementary Figure S4
+  - **Concern** The convergence analysis is limited to RMSD, which is a necessary but insufficient metric. No block averaging, autocorrelation analysis, or other convergence diagnostics are provided. The statement that longer simulations became unstable is concerning and suggests the system may not be well-behaved. The truncation to ZFs 3–8 may also affect the relevance of the findings.
+  - **Why it matters** Without demonstrated convergence, the structural and energetic conclusions may not be reliable. The instability of longer simulations raises questions about the robustness of the force field setup or system preparation.
+  - **Resolution test** Provide additional convergence metrics (e.g., time series of key observables, block error analysis). If longer simulations are unstable, explain the cause and justify why 300 ns is sufficient.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 4.1
+  - **Issue** The method for constructing mutant models is described briefly. The authors state that side chain atoms were deleted and rebuilt using Tleap, but no details on rotamer selection or validation of the mutant structures are provided.
+  - **Required correction** Provide more detail on the mutation protocol, including any checks for steric clashes or unfavorable interactions introduced by the mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Hydrogen bond analysis
+  - **Evidence pointer** Table 2, Section 4.4
+  - **Issue** Hydrogen bond frequencies are reported as percentages, but no error estimates or replicate variability are shown. The 20% frequency cutoff is arbitrary and not justified.
+  - **Required correction** Report standard deviations or ranges for hydrogen bond frequencies across replicas. Justify the choice of cutoff or show sensitivity of conclusions to this parameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The electrostatic potential figures are described qualitatively in the text, but no quantitative measure of potential differences is provided. The arrows indicating mutation positions are helpful, but the reader cannot assess the magnitude of changes.
+  - **Required correction** Provide quantitative values for electrostatic potential at key positions or a difference map between wildtype and mutants.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of experimental correlations is useful but sometimes vague. For example, the statement that R339Q "diminishes DNA binding" is cited, but the degree of correlation with the simulation results is not quantified.
+  - **Required correction** Where possible, provide quantitative comparisons between simulation predictions and experimental measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "most mutants have lower binding energies" but does not specify which mutants are exceptions. This is important for readers who may only read the abstract.
+  - **Required correction** Briefly mention the exceptions (R342C and K365T) in the abstract.
+- **Technical failings that need to be addressed before the case is established** 
+  - Lack of statistical significance testing for binding energy differences (R1-M1)
+  - Insufficient evidence for inter-finger communication claims (R1-M2)
+  - Untested oxidation hypothesis presented as mechanism (R1-M3)
+  - Incomplete convergence analysis and unexplained instability in longer simulations (R1-M4)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD to CTCF mutations is not entirely novel, but the systematic comparison of eight cancer-associated mutants provides some new information.
+  - **Scientific importance** Moderate. The findings are potentially relevant to understanding CTCF dysfunction in cancer, but the speculative nature of several conclusions limits their impact.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biophysicists and CTCF researchers. The clinical connections are mentioned but not developed sufficiently for a broader biomedical audience.
+  - **Technical soundness** Currently insufficient. The lack of statistical testing and incomplete convergence analysis undermine confidence in the quantitative claims.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written, but some sections assume familiarity with MD methods and CTCF biology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and contains useful qualitative observations, but the central quantitative claims are not statistically supported, and several mechanistic conclusions are speculative. Major revisions are required to establish the case.
+
+## Risk / unsupported claims
+- The claim that most mutants destabilize the CTCF–DNA complex is not statistically supported due to overlapping error bars and lack of significance testing.
+- The claim that mutations in one finger affect interactions of other fingers is inferred from indirect evidence and lacks direct analysis.
+- The oxidation sensitivity hypothesis for R342C is entirely speculative and not tested.
+- The statement that longer simulations became unstable is not explained, and the sufficiency of 300 ns is not rigorously demonstrated.
+- The biological relevance of findings from a truncated CTCF construct (ZFs 3–8) to the full-length protein is not adequately discussed.

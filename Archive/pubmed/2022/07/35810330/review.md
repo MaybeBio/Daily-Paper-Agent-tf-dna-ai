@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Mycobacterium tuberculosis UvrC (MtUvrC) binds and cleaves DNA replication and recombination intermediates more efficiently than canonical NER substrates, that ATPase activity is functionally linked to endonuclease activity, and that residues Glu595 and Arg597 in the helix-hairpin-helix motif are critical for Holliday junction interaction and cleavage. They propose that these findings expand the substrate specificity landscape of UvrC and reveal mechanistic links between NER and DNA replication or recombination.
+- **Visible evidence base** Abstract text only; no quantitative data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, statistical analyses, sequence alignments, structural model validation metrics, and raw data for binding and cleavage assays
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically significant claim regarding a non-canonical role for MtUvrC in DNA replication and recombination intermediates. However, the evidence base available for review is limited to the abstract, which lacks quantitative results, controls, and methodological detail. The central claims, particularly the hierarchy of substrate preference and the causal link between ATPase and endonuclease activities, cannot be adequately evaluated from the supplied material. The study may be of interest to the DNA repair and genome stability communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in nucleotide excision repair, DNA replication and recombination, mycobacterial biology, and genome stability maintenance would be interested. The proposed crosstalk between NER and replication or recombination pathways is a topic of broad relevance, and the identification of specific residues mediating non-canonical substrate recognition could inform mechanistic models and potential therapeutic targeting in Mycobacterium tuberculosis.
+- **Major strengths** The abstract addresses an underexplored area, namely the non-canonical functions of UvrC beyond NER. The combination of biochemical assays with in silico modeling and targeted mutagenesis is a logical and potentially powerful approach. The identification of specific residues (Glu595 and Arg597) provides a concrete mechanistic hypothesis that is testable and falsifiable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MtUvrC "strongly binds to, and robustly cleaves, key intermediates of DNA replication/recombination as compared with the model NER substrates."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, cleavage rates, or fold differences, to support the comparative claim. Without numerical values and statistical comparisons, the assertion of "strongly" and "robustly" is not verifiable.
+  - **Why it matters** The central novelty of the paper rests on the substrate preference hierarchy. If the differences are modest or within experimental error, the conclusion would be substantially weakened.
+  - **Resolution test** Provide quantitative binding and cleavage data with appropriate replicates and statistical tests, including a direct comparison to canonical NER substrates under matched conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors state that "inactivation of MtUvrC ATPase activity significantly attenuated its endonuclease activity, thus suggesting a causal link between these two functions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how ATPase activity was inactivated (e.g., point mutation, chemical inhibition) or whether the observed attenuation could be due to altered protein folding, stability, or DNA binding rather than a direct mechanistic coupling.
+  - **Why it matters** A causal link requires demonstration that the ATPase function specifically influences catalysis, not merely that a mutant with reduced ATPase also has reduced endonuclease activity. Alternative explanations must be excluded.
+  - **Resolution test** Include controls for protein integrity and DNA binding, and use multiple independent approaches (e.g., separate ATPase and endonuclease domain mutations, or ATPase inhibitors) to establish specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validation
+  - **Claim pointer** The authors built an in silico model of MtUvrC interaction with the Holliday junction and predicted residues involved in binding, with Glu595 and Arg597 identified as crucial.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the quality of the homology model, the docking protocol, or the molecular dynamics simulation parameters. The reliability of the predicted interface is unknown.
+  - **Why it matters** The mutagenesis strategy is entirely dependent on the accuracy of the computational predictions. If the model is flawed, the interpretation of the mutational effects could be misleading.
+  - **Resolution test** Provide model validation metrics (e.g., Ramachandran plots, RMSD, docking scores, simulation convergence) and ideally support the predicted interface with cross-linking or hydrogen-deuterium exchange data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "tripartite crosstalk between nucleotide excision repair (NER), DNA replication, and recombination" is vague and could be interpreted as three-way interaction or as pairwise interactions.
+  - **Required correction** Clarify the intended relationship and provide a brief definition of "tripartite crosstalk" in the context of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutational analysis
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that six residues were mutated singly or in pairs, but only Glu595 and Arg597 are discussed. The outcomes for the other four residues are not mentioned.
+  - **Required correction** Briefly state whether the other mutations had no effect or were not characterized further, to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The study uses MtUvrC, but the abstract implies broader relevance to "UvrCs" in general without discussing conservation of the identified residues.
+  - **Required correction** Add a statement on sequence conservation of Glu595 and Arg597 across UvrC orthologs to support generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for substrate preference), R1-M2 (insufficient causal evidence for ATPase-endonuclease link), R1-M3 (unvalidated structural model underpinning mutagenesis)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of UvrC acting on replication and recombination intermediates is not entirely novel, as the abstract itself notes prior data on uvrC effects in polAΔ cells, but the specific substrate profiling and mechanistic dissection may offer new insights. The originality is moderate and cannot be fully assessed without the full manuscript.
+  - Scientific importance: If substantiated, the findings could have significant implications for understanding genome stability and the interplay between repair and replication or recombination. However, the importance is contingent on the robustness of the evidence, which is not yet demonstrated.
+  - Interdisciplinary readership: The topic bridges DNA repair, replication, recombination, and structural biology, which could attract a broad readership in molecular biology and biochemistry. The abstract is written in a way that is accessible to specialists but may be challenging for nonspecialists due to jargon.
+  - Technical soundness: The combination of biochemical, computational, and mutational approaches is appropriate, but the abstract does not provide enough detail to assess technical rigor. The lack of quantitative data and model validation is a concern.
+  - Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with NER, UvrC, and Holliday junctions. The logical flow is coherent, but the density of information may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative data, controls, and model validation prevents a supportive recommendation. A revised manuscript with full experimental details and robust evidence could change this assessment.
+
+## Risk / unsupported claims
+- The claim that MtUvrC "strongly binds to, and robustly cleaves" replication and recombination intermediates is unsupported without quantitative data.
+- The causal link between ATPase and endonuclease activities is unsupported without controls for alternative explanations.
+- The identification of Glu595 and Arg597 as crucial residues is unsupported without model validation and data on the other mutated residues.
+- The broader relevance to "UvrCs" in general is unsupported without conservation analysis.

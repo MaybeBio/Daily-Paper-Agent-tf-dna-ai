@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "37569303",
+    "doi": "10.3390/ijms241511928",
+    "title": "JAK3 Y841 Autophosphorylation Is Critical for STAT5B Activation, Kinase Domain Stability and Dimer Formation."
+  },
+  "content": {
+    "abstract": "Janus tyrosine kinase 3 (JAK3) is primarily expressed in immune cells and is needed for signaling by the common gamma chain (gammac) family of cytokines. Abnormal JAK3 signal transduction can manifest as hematological disorders, e.g., leukemia, severe combined immunodeficiency (SCID) and autoimmune disease states. While regulatory JAK3 phosphosites have been well studied, here a functional proteomics approach coupling a JAK3 autokinase assay to mass spectrometry revealed ten previously unreported autophosphorylation sites (Y105, Y190, Y238, Y399, Y633, Y637, Y738, Y762, Y824, and Y841). Of interest, Y841 was determined to be evolutionarily conserved across multiple species and JAK family members, suggesting a broader role for this residue. Phospho-substitution mutants confirmed that Y841 is also required for STAT5 tyrosine phosphorylation. The homologous JAK1 residue Y894 elicited a similar response to mutagenesis, indicating the shared importance for this site in JAK family members. Phospho-specific Y841-JAK3 antibodies recognized activated kinase from various T-cell lines and transforming JAK3 mutants. Computational biophysics analysis linked Y841 phosphorylation to enhanced JAK3 JH1 domain stability across pH environments, as well as to facilitated complementary electrostatic JH1 dimer formation. Interestingly, Y841 is not limited to tyrosine kinases, suggesting it represents a conserved ubiquitous enzymatic function that may hold therapeutic potential across multiple kinase families.",
+    "keywords": [
+      "Janus Kinase (JAK)",
+      "Signal transducer and activators of transcription 5 (STAT5)",
+      "biomolecule interactions",
+      "folding energies",
+      "molecular dynamic simulations",
+      "phosphotyrosine signaling",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*STAT5 Transcription Factor/genetics",
+      "Janus Kinase 1/genetics",
+      "*Signal Transduction",
+      "Protein Processing, Post-Translational",
+      "Tyrosine/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodriguez, Georgialina",
+        "Martinez, George Steven",
+        "Negrete, Omar Daniel",
+        "Sun, Shengjie",
+        "Guo, Wenhan",
+        "Xie, Yixin",
+        "Li, Lin",
+        "Xiao, Chuan",
+        "Ross, Jeremy Aaron",
+        "Kirken, Robert Arthur"
+      ],
+      "short_names": [
+        "Rodriguez G",
+        "Martinez GS",
+        "Negrete OD",
+        "Sun S",
+        "Guo W",
+        "Xie Y",
+        "Li L",
+        "Xiao C",
+        "Ross JA",
+        "Kirken RA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4436-3474",
+        "ORCID: 0000-0001-6447-2398",
+        "ORCID: 0000-0001-6599-8762"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Biochemistry, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+        "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodriguez, Georgialina",
+        "short_name": "Rodriguez G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Martinez, George Steven",
+        "short_name": "Martinez GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Negrete, Omar Daniel",
+        "short_name": "Negrete OD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Shengjie",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Wenhan",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Yixin",
+        "short_name": "Xie Y",
+        "identifiers": [
+          "0000-0002-4436-3474"
+        ],
+        "affiliations": [
+          "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0001-6447-2398"
+        ],
+        "affiliations": [
+          "Department of Physics, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Chuan",
+        "short_name": "Xiao C",
+        "identifiers": [
+          "0000-0001-6599-8762"
+        ],
+        "affiliations": [
+          "Computational Science Program, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Department of Biochemistry, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Ross, Jeremy Aaron",
+        "short_name": "Ross JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Kirken, Robert Arthur",
+        "short_name": "Kirken RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA.",
+          "Border Biomedical Research Center, The University of Texas at El Paso, 500 W University Ave., El Paso, TX 79968, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jul 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/12 10:50",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41479020",
+      "41156611",
+      "40804657",
+      "40392133",
+      "40172259",
+      "39768179",
+      "39125601"
+    ],
+    "refs": [
+      "37140667",
+      "37109511",
+      "37047778",
+      "35271300",
+      "34355210",
+      "33672930",
+      "33505991",
+      "30995502",
+      "30267440",
+      "29685781",
+      "29296924",
+      "29046866",
+      "29038115",
+      "28458652",
+      "27725180",
+      "27133025",
+      "26606496",
+      "26596171",
+      "26152718",
+      "25395141",
+      "25352124",
+      "24843152",
+      "24532726",
+      "24446122",
+      "24226387",
+      "24107129",
+      "23832629",
+      "23689514",
+      "23296718",
+      "22718338",
+      "22583952",
+      "22461510",
+      "21841788",
+      "21722762",
+      "20400977",
+      "20132407",
+      "19543225",
+      "18613833",
+      "18351591",
+      "18250158",
+      "17659375",
+      "16964243",
+      "16222654",
+      "15549884",
+      "15350212",
+      "15313458",
+      "15264254",
+      "15215472",
+      "15121872",
+      "12351625",
+      "11891295",
+      "11747101",
+      "10779328",
+      "10214954",
+      "9597132",
+      "9391116",
+      "9111318",
+      "9032284",
+      "8920992",
+      "8806090",
+      "8779443",
+      "8612268",
+      "8421674",
+      "6281119",
+      "6244013",
+      "4912353",
+      "2578514",
+      "2500968",
+      "1862342",
+      "1279675"
+    ],
+    "similar": [
+      "37569303",
+      "9382798",
+      "10037026",
+      "12351625",
+      "37109511",
+      "18250158",
+      "35192696",
+      "21439476",
+      "11046040",
+      "26446793",
+      "8580378",
+      "30560087",
+      "9553136",
+      "9391116",
+      "8642285",
+      "15831699",
+      "7721895",
+      "19139102",
+      "10075926",
+      "12456798",
+      "11781254",
+      "12093291",
+      "9813029",
+      "10201908",
+      "17550976",
+      "7662955",
+      "9050873",
+      "9047382",
+      "12207328",
+      "11238613",
+      "19923221",
+      "10825200",
+      "25193870",
+      "21155605",
+      "20149240",
+      "9192665",
+      "8986719",
+      "9015216",
+      "7568001",
+      "27473820",
+      "11668621",
+      "32215810",
+      "10389946",
+      "7479924",
+      "25352124",
+      "10421786",
+      "7544000",
+      "39403378",
+      "37834019",
+      "35622134",
+      "30129110",
+      "7988557",
+      "28214593",
+      "19047679",
+      "9422769",
+      "8631883",
+      "12204892",
+      "8799169",
+      "10380915",
+      "24795043",
+      "10629052",
+      "11260071",
+      "7594533",
+      "7543416",
+      "36252553",
+      "11909529",
+      "9613985",
+      "8530527",
+      "23012362",
+      "10361134",
+      "10229324",
+      "10421845",
+      "8721989",
+      "35693820",
+      "11751854",
+      "32558259",
+      "31235520",
+      "7756643",
+      "7973658",
+      "37337185",
+      "7957877",
+      "25109334",
+      "8647212",
+      "9354668",
+      "15575979",
+      "8683106",
+      "9915797",
+      "10373548",
+      "22442148",
+      "9202126",
+      "9209410",
+      "17266928",
+      "9199317",
+      "37047778",
+      "38474223",
+      "11485409",
+      "9417042",
+      "10544198",
+      "28821617",
+      "26152718"
+    ],
+    "review": [
+      "37569303",
+      "27473820",
+      "28214593",
+      "36252553",
+      "15575979"
+    ],
+    "pmc": [
+      "10418363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms241511928",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37569303/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37569303",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-JAK1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1638",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

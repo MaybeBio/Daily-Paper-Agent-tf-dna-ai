@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38889146",
+  "title": "Modeling 0.6 million genes for the rational design of functional cis-regulatory variants and de novo design of cis-regulatory sequences.",
+  "authors": "Li, Tianyi; Xu, Hui; Teng, Shouzhen; Suo, Mingrui; Bahitwa, Revocatus; Xu, Mingchi; Qian, Yiheng; Ramstein, Guillaume P; Song, Baoxing; Buckler, Edward S; Wang, Hai",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-06-18",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习模型PhytoExpr以近端调控序列预测mRNA丰度和物种，通过输入扰动实现单核苷酸分辨率的功能注释，并设计顺式调控变异和从头生成序列，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作与结合位点预测。",
+  "abstract": "Rational design of plant cis-regulatory DNA sequences without expert intervention or prior domain knowledge is still a daunting task. Here, we developed PhytoExpr, a deep learning framework capable of predicting both mRNA abundance and plant species using the proximal regulatory sequence as the sole input. PhytoExpr was trained over 17 species representative of major clades of the plant kingdom to enhance its generalizability. Via input perturbation, quantitative functional annotation of the input sequence was achieved at single-nucleotide resolution, revealing an abundance of predicted high-impact nucleotides in conserved noncoding sequences and transcription factor binding sites. Evaluation of maize HapMap3 single-nucleotide polymorphisms (SNPs) by PhytoExpr demonstrates an enrichment of predicted high-impact SNPs in cis-eQTL. Additionally, we provided two algorithms that harnessed the power of PhytoExpr in designing functional cis-regulatory variants, and de novo creation of species-specific cis-regulatory sequences through in silico evolution of random DNA sequences. Our model represents a general and robust approach for functional variant discovery in population genetics and rational design of regulatory sequences for genome editing and synthetic biology.",
+  "abstract_zh": "在无专家干预或先验领域知识的情况下，合理设计植物顺式调控DNA序列仍是一项艰巨任务。在此，我们开发了PhytoExpr，一种深度学习框架，能够仅以近端调控序列作为输入，预测mRNA丰度和植物物种。PhytoExpr在代表植物界主要分支的17个物种上进行了训练，以增强其泛化能力。通过输入扰动，我们在单核苷酸分辨率下实现了输入序列的定量功能注释，揭示了保守非编码序列和转录因子结合位点中大量预测的高影响核苷酸。利用PhytoExpr对玉米HapMap3单核苷酸多态性（SNPs）的评估显示，预测的高影响SNPs在顺式eQTL中富集。此外，我们提供了两种算法，利用PhytoExpr的能力设计功能性顺式调控变异，并通过随机DNA序列的计算机模拟进化，从头创建物种特异性的顺式调控序列。我们的模型代表了群体遗传学中功能变异发现以及基因组编辑和合成生物学中调控序列合理设计的一种通用且稳健的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38889146/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38889146/",
+  "paper_page_path": "papers/pubmed/38889146/index.html"
+}

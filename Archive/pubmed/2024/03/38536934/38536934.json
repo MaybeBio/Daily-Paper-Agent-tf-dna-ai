@@ -1,0 +1,548 @@
+{
+  "identity": {
+    "pmid": "38536934",
+    "doi": "10.1126/scitranslmed.add6570",
+    "title": "Attenuation of fibroblast activation and fibrosis by adropin in systemic sclerosis."
+  },
+  "content": {
+    "abstract": "Fibrotic diseases impose a major socioeconomic challenge on modern societies and have limited treatment options. Adropin, a peptide hormone encoded by the energy homeostasis-associated (ENHO) gene, is implicated in metabolism and vascular homeostasis, but its role in the pathogenesis of fibrosis remains enigmatic. Here, we used machine learning approaches in combination with functional in vitro and in vivo experiments to characterize adropin as a potential regulator involved in fibroblast activation and tissue fibrosis in systemic sclerosis (SSc). We demonstrated consistent down-regulation of adropin/ENHO in skin across multiple cohorts of patients with SSc. The prototypical profibrotic cytokine TGFbeta reduced adropin/ENHO expression in a JNK-dependent manner. Restoration of adropin signaling by therapeutic application of bioactive adropin(34-76) peptides in turn inhibited TGFbeta-induced fibroblast activation and fibrotic tissue remodeling in primary human dermal fibroblasts, three-dimensional full-thickness skin equivalents, mouse models of bleomycin-induced pulmonary fibrosis and sclerodermatous chronic graft-versus-host-disease (sclGvHD), and precision-cut human skin slices. Knockdown of GPR19, an adropin receptor, abrogated the antifibrotic effects of adropin in fibroblasts. RNA-seq demonstrated that the antifibrotic effects of adropin(34-76) were functionally linked to deactivation of GLI1-dependent profibrotic transcriptional networks, which was experimentally confirmed in vitro, in vivo, and ex vivo using cultured human dermal fibroblasts, a sclGvHD mouse model, and precision-cut human skin slices. ChIP-seq confirmed adropin(34-76)-induced changes in TGFbeta/GLI1 signaling. Our study characterizes the TGFbeta-induced down-regulation of adropin/ENHO expression as a potential pathomechanism of SSc as a prototypical systemic fibrotic disease that unleashes uncontrolled activation of profibrotic GLI1 signaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "Humans",
+      "Zinc Finger Protein GLI1/metabolism/pharmacology",
+      "Fibrosis",
+      "*Scleroderma, Systemic/metabolism",
+      "Fibroblasts/pathology",
+      "Transforming Growth Factor beta/metabolism",
+      "Skin/pathology",
+      "Cells, Cultured",
+      "Disease Models, Animal",
+      "Bleomycin/metabolism/pharmacology",
+      "Nerve Tissue Proteins/metabolism",
+      "Receptors, Neurotransmitter/metabolism",
+      "Receptors, G-Protein-Coupled/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Minrui",
+        "Dickel, Nicholas",
+        "Gyorfi, Andrea-Hermina",
+        "SafakTumerdem, Bilgesu",
+        "Li, Yi-Nan",
+        "Rigau, Aleix Rius",
+        "Liang, Chunguang",
+        "Hong, Xuezhi",
+        "Shen, Lichong",
+        "Matei, Alexandru-Emil",
+        "Trinh-Minh, Thuong",
+        "Tran-Manh, Cuong",
+        "Zhou, Xiang",
+        "Zehender, Ariella",
+        "Kreuter, Alexander",
+        "Zou, Hejian",
+        "Schett, Georg",
+        "Kunz, Meik",
+        "Distler, Jorg H W"
+      ],
+      "short_names": [
+        "Liang M",
+        "Dickel N",
+        "Gyorfi AH",
+        "SafakTumerdem B",
+        "Li YN",
+        "Rigau AR",
+        "Liang C",
+        "Hong X",
+        "Shen L",
+        "Matei AE",
+        "Trinh-Minh T",
+        "Tran-Manh C",
+        "Zhou X",
+        "Zehender A",
+        "Kreuter A",
+        "Zou H",
+        "Schett G",
+        "Kunz M",
+        "Distler JHW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7650-1237",
+        "ORCID: 0000-0002-5397-7662",
+        "ORCID: 0000-0001-8934-9361",
+        "ORCID: 0000-0002-0305-2522",
+        "ORCID: 0000-0003-1248-3145",
+        "ORCID: 0000-0001-7635-6044",
+        "ORCID: 0000-0003-2275-499X",
+        "ORCID: 0000-0001-9762-2663",
+        "ORCID: 0000-0001-8740-9615",
+        "ORCID: 0000-0003-0385-2084",
+        "ORCID: 0000-0001-7408-9333"
+      ],
+      "affiliations": [
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Division of Rheumatology, Huashan Rare Disease Center, Huashan Hospital, Fudan University, 200032 Shanghai, P. R. China.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nurnberg, 91058 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nurnberg, 91058 Erlangen, Germany.",
+        "Institute of Immunology, Jena University Hospital, 07743 Jena, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Division of Rheumatology, Renji Hospital, Shanghai Jiao Tong University, 200001 Shanghai, P. R. China.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Department of Dermatology and Allergology, HELIOS Sankt Elisabeth Klinik Oberhausen, 46045 Oberhausen, Nordrhein-Westfalen, Germany.",
+        "Division of Rheumatology, Huashan Rare Disease Center, Huashan Hospital, Fudan University, 200032 Shanghai, P. R. China.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+        "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nurnberg, 91058 Erlangen, Germany.",
+        "Department of Rheumatology, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Hiller Research Unit, University Hospital Dusseldorf, Medical Faculty of Heinrich Heine University; 40225 Dusseldorf, Germany.",
+        "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nurnberg, 91054 Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nurnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Minrui",
+        "short_name": "Liang M",
+        "identifiers": [
+          "0000-0002-7650-1237"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Division of Rheumatology, Huashan Rare Disease Center, Huashan Hospital, Fudan University, 200032 Shanghai, P. R. China.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Dickel, Nicholas",
+        "short_name": "Dickel N",
+        "identifiers": [
+          "0000-0002-5397-7662"
+        ],
+        "affiliations": [
+          "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nürnberg, 91058 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Györfi, Andrea-Hermina",
+        "short_name": "Györfi AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "SafakTümerdem, Bilgesu",
+        "short_name": "SafakTümerdem B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Li, Yi-Nan",
+        "short_name": "Li YN",
+        "identifiers": [
+          "0000-0001-8934-9361"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rigau, Aleix Rius",
+        "short_name": "Rigau AR",
+        "identifiers": [],
+        "affiliations": [
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Liang, Chunguang",
+        "short_name": "Liang C",
+        "identifiers": [
+          "0000-0002-0305-2522"
+        ],
+        "affiliations": [
+          "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nürnberg, 91058 Erlangen, Germany.",
+          "Institute of Immunology, Jena University Hospital, 07743 Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "Hong, Xuezhi",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Shen, Lichong",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany.",
+          "Division of Rheumatology, Renji Hospital, Shanghai Jiao Tong University, 200001 Shanghai, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Matei, Alexandru-Emil",
+        "short_name": "Matei AE",
+        "identifiers": [
+          "0000-0003-1248-3145"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Trinh-Minh, Thuong",
+        "short_name": "Trinh-Minh T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Tran-Manh, Cuong",
+        "short_name": "Tran-Manh C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiang",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zehender, Ariella",
+        "short_name": "Zehender A",
+        "identifiers": [
+          "0000-0001-7635-6044"
+        ],
+        "affiliations": [
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Kreuter, Alexander",
+        "short_name": "Kreuter A",
+        "identifiers": [
+          "0000-0003-2275-499X"
+        ],
+        "affiliations": [
+          "Department of Dermatology and Allergology, HELIOS Sankt Elisabeth Klinik Oberhausen, 46045 Oberhausen, Nordrhein-Westfalen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zou, Hejian",
+        "short_name": "Zou H",
+        "identifiers": [
+          "0000-0001-9762-2663"
+        ],
+        "affiliations": [
+          "Division of Rheumatology, Huashan Rare Disease Center, Huashan Hospital, Fudan University, 200032 Shanghai, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Schett, Georg",
+        "short_name": "Schett G",
+        "identifiers": [
+          "0000-0001-8740-9615"
+        ],
+        "affiliations": [
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Kunz, Meik",
+        "short_name": "Kunz M",
+        "identifiers": [
+          "0000-0003-0385-2084"
+        ],
+        "affiliations": [
+          "Chair of Medical Informatics, Friedrich-Alexander University (FAU), Erlangen-Nürnberg, 91058 Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Distler, Jörg H W",
+        "short_name": "Distler JHW",
+        "identifiers": [
+          "0000-0001-7408-9333"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Hiller Research Unit, University Hospital Düsseldorf, Medical Faculty of Heinrich Heine University; 40225 Düsseldorf, Germany.",
+          "Rheumatology and Clinical Immunology, Department of Internal Medicine 3, Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, 91054 Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), FAU Erlangen-Nürnberg and University Hospital Erlangen, 91054 Erlangen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science translational medicine"
+    ],
+    "journal_abbrev": [
+      "Sci Transl Med"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/27 18:44",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42269381",
+      "41787265",
+      "41236049",
+      "41007860",
+      "40867615",
+      "40654632",
+      "40578684",
+      "40386129",
+      "40097041",
+      "40069312",
+      "40064593",
+      "40036084",
+      "39953141",
+      "39172247",
+      "39155866",
+      "39136764",
+      "39045137",
+      "38702510"
+    ],
+    "refs": [],
+    "similar": [
+      "38536934",
+      "25155144",
+      "31350829",
+      "31177096",
+      "24431397",
+      "19877032",
+      "22139817",
+      "23436317",
+      "23413283",
+      "34807516",
+      "15818659",
+      "25858641",
+      "21515915",
+      "18759267",
+      "33903093",
+      "30175895",
+      "25180292",
+      "28870693",
+      "23291432",
+      "22267335",
+      "22354771",
+      "15215176",
+      "23124680",
+      "22549363",
+      "25707573",
+      "31439591",
+      "24757152",
+      "27079850",
+      "34285051",
+      "17195237",
+      "24567525",
+      "23515440",
+      "25603829",
+      "40301970",
+      "23661493",
+      "26946325",
+      "38589317",
+      "29431122",
+      "32482644",
+      "28209630",
+      "38108109",
+      "29676521",
+      "36289219",
+      "36050717",
+      "27793816",
+      "38037494",
+      "20039427",
+      "24448349",
+      "29853453",
+      "33640015",
+      "21370225",
+      "37328193",
+      "39250282",
+      "15593186",
+      "34882985",
+      "28153829",
+      "19565505",
+      "39175116",
+      "20201077",
+      "32998972",
+      "32442272",
+      "25589515",
+      "30678304",
+      "24709861",
+      "12839562",
+      "24618263",
+      "34285225",
+      "22972461",
+      "34479773",
+      "31842999",
+      "38528089",
+      "23141927",
+      "29066712",
+      "31757866",
+      "14730619",
+      "33133015",
+      "37331293",
+      "32571632",
+      "27113414",
+      "27390295",
+      "17195235",
+      "31108104",
+      "29070530",
+      "25385187",
+      "26911575",
+      "38702742",
+      "31840182",
+      "24708674",
+      "17665426",
+      "36810081",
+      "29544542",
+      "31173491",
+      "20602813",
+      "38594058",
+      "22328118",
+      "20506342",
+      "39009432",
+      "39167314",
+      "27777101",
+      "31990678"
+    ],
+    "review": [
+      "38536934"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/scitranslmed.add6570?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/scleroderma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Scleroderma"
+      },
+      {
+        "url": "https://www.ovid.com/38536934.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse252139",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

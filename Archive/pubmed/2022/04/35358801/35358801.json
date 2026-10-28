@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "35358801",
+    "doi": "10.1016/j.biopha.2022.112879",
+    "title": "Bioinformatics study of the potential therapeutic effects of ginsenoside Rf in reversing nonalcoholic fatty liver disease."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Ginsenoside Rf, a tetracyclic triterpenoid only present in Panax ginseng, has been proven to relieve lipid metabolism and inflammatory reactions, which can be a potential treatment for nonalcoholic fatty liver disease (NAFLD). Therefore, this study aimed to reveal the underlying mechanisms of ginsenoside Rf in the treatment of early-stage NAFLD (NAFL) by using a bioinformatics method and biological experiments. METHODS: Target genes associated with NAFL were screened from the Gene Expression Omnibus (GEO) database, a database repository of high-throughput gene expression data and hybridization arrays, chips, and microarrays. Subsequently, gene set enrichment analysis was performed by using Gene Ontology enrichment analysis tool. Then, the binding capacity between ginsenoside Rf and NAFL-related targets was evaluated by molecular docking. Finally, the FFA-induced HepG2 cell model treated with ginsenoside Rf was adopted to verify the effect of ginsenoside Rf and the related mechanisms. RESULTS: There were 41 common differentially expressed genes in the GEO dataset. Gene Ontology and Reactome pathway enrichment analysis of the differentially expressed genes showed that many pathways could be related to the pathogenesis of NAFL, including those participating in the cytokine-mediated signaling pathway, G protein-coupled receptor signaling pathway, and response to lipopolysaccharide. Finally, the qRT-PCR analysis results indicated that ginsenoside Rf therapy could ameliorate the transcription of ANXA2, BAZ1A, DNMT3L and MMP9. CONCLUSION: Our research discovered the relevant mechanisms and basic pharmacological effects of ginsenoside Rf in the treatment of NAFL. These results might facilitate the development of ginsenoside Rf as an alternative medication for NAFL.",
+    "keywords": [
+      "Bioinformatics",
+      "Gene expression",
+      "Ginsenoside Rf",
+      "Hepatic steatosis",
+      "Molecular docking",
+      "NAFLD"
+    ],
+    "mesh_terms": [
+      "Chromosomal Proteins, Non-Histone",
+      "Computational Biology/methods",
+      "*Ginsenosides/pharmacology/therapeutic use",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Non-alcoholic Fatty Liver Disease/metabolism",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lichun",
+        "Wang, Liziniu",
+        "Ao, Weizhen",
+        "Chen, Yu",
+        "Li, Songjian",
+        "Huang, Zhiguan",
+        "Yu, Dan",
+        "Dong, Yanwen",
+        "Gu, Jiangyong",
+        "Zeng, Huiyan"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wang L",
+        "Ao W",
+        "Chen Y",
+        "Li S",
+        "Huang Z",
+        "Yu D",
+        "Dong Y",
+        "Gu J",
+        "Zeng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "iHuman Institute, School of Life Science and Technology, Shanghai Tech University, Shanghai 201210, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "Guangzhou Institute of Physical Education, Guangzhou, Guangdong 510500, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China.",
+        "Research Center of Integrative Medicine, School of Basic Medical Science, Guangzhou University of Chinese Medicine, Guangzhou 510006, China. Electronic address: gujy@gzucm.edu.cn.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China. Electronic address: huiyanzeng@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lichun",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liziniu",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Ao, Weizhen",
+        "short_name": "Ao W",
+        "identifiers": [],
+        "affiliations": [
+          "iHuman Institute, School of Life Science and Technology, Shanghai Tech University, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Songjian",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhiguan",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institute of Physical Education, Guangzhou, Guangdong 510500, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dan",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yanwen",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jiangyong",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Integrative Medicine, School of Basic Medical Science, Guangzhou University of Chinese Medicine, Guangzhou 510006, China. Electronic address: gujy@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zeng, Huiyan",
+        "short_name": "Zeng H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510006, China. Electronic address: huiyanzeng@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie"
+    ],
+    "journal_abbrev": [
+      "Biomed Pharmacother"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/01 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "42131347",
+      "41021615",
+      "40271056",
+      "39803604",
+      "39412649",
+      "38845779",
+      "38444539",
+      "38424417",
+      "37764176"
+    ],
+    "refs": [],
+    "similar": [
+      "35358801",
+      "38906030",
+      "32184169",
+      "36040357",
+      "36329886",
+      "33385408",
+      "27279428",
+      "33807927",
+      "28534819",
+      "32630596",
+      "32654591",
+      "30653341",
+      "33415161",
+      "38181273",
+      "35018944",
+      "35306001",
+      "32884949",
+      "34262330",
+      "35462486",
+      "35322862",
+      "24173574",
+      "30135326",
+      "31974594",
+      "38845779",
+      "36086766",
+      "34128157",
+      "32535386",
+      "30466110",
+      "31817227",
+      "28796060",
+      "32237398",
+      "26196399",
+      "34419146",
+      "31874999",
+      "31454649",
+      "33771638",
+      "30740801",
+      "16297877",
+      "20580705",
+      "32181656",
+      "30854954",
+      "32387461",
+      "27224660",
+      "30976170",
+      "34256994",
+      "25851235",
+      "35092819",
+      "9692222",
+      "37599957",
+      "32204538",
+      "32623384",
+      "38192427",
+      "24666293",
+      "29620197",
+      "34218797",
+      "33164398",
+      "27069915",
+      "32208163",
+      "31359689",
+      "33204683",
+      "31101014",
+      "24140091",
+      "29865080",
+      "34758532",
+      "23399764",
+      "29042402",
+      "33746906",
+      "28494548",
+      "23302642",
+      "30359008",
+      "29452209",
+      "28427912",
+      "32405182",
+      "26045687",
+      "34553293",
+      "11488454",
+      "30135001",
+      "30248338",
+      "31191837",
+      "28840683",
+      "30830270",
+      "23545455",
+      "29665034",
+      "32205994",
+      "38512536",
+      "34592488",
+      "33622336",
+      "33324350",
+      "34565785",
+      "24075212",
+      "29197393",
+      "32714406",
+      "30142454",
+      "28082742",
+      "31013265",
+      "33334897",
+      "23998390",
+      "38223453",
+      "38213735"
+    ],
+    "review": [
+      "35358801",
+      "35092819",
+      "28427912",
+      "32405182",
+      "29197393"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0753-3322(22)00268-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-462",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0753-3322(22)00268-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

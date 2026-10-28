@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "38968466",
+    "doi": "10.1097/MD.0000000000038877",
+    "title": "Identification of core genes shared by ischemic stroke and myocardial infarction using an integrated approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Both ischemic stroke (IS) and myocardial infarction (MI) are caused by vascular occlusion that results in ischemia. While there may be similarities in their mechanisms, the potential relationship between these 2 diseases has not been comprehensively analyzed. Therefore, this study explored the commonalities in the pathogenesis of IS and MI. METHODS: Datasets for IS (GSE58294, GSE16561) and MI (GSE60993, GSE61144) were downloaded from the Gene Expression Omnibus database. Transcriptome data from each of the 4 datasets were analyzed using bioinformatics, and the differentially expressed genes (DEGs) shared between IS and MI were identified and subsequently visualized using a Venn diagram. A protein-protein interaction (PPI) network was constructed using the Interacting Gene Retrieval Tool database, and identification of key core genes was performed using CytoHubba. Gene Ontology (GO) term annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis of the shared DEGs were conducted using prediction and network analysis methods, and the functions of the hub genes were determined using Metascape. RESULTS: The analysis revealed 116 and 1321 DEGs in the IS and MI datasets, respectively. Of the 75 DEGs shared between IS and MI, 56 were upregulated and 19 were downregulated. Furthermore, 15 core genes - S100a12, Hp, Clec4d, Cd163, Mmp9, Ormdl3, Il2rb, Orm1, Irak3, Tlr5, Lrg1, Clec4e, Clec5a, Mcemp1, and Ly96 - were identified. GO enrichment analysis of the DEGs showed that they were mainly involved in the biological functions of neutrophil degranulation, neutrophil activation during immune response, and cytokine secretion. KEGG analysis showed enrichment in pathways pertaining to Salmonella infection, Legionellosis, and inflammatory bowel disease. Finally, the core gene-transcription factor, gene-microRNA, and small-molecule relationships were predicted. CONCLUSION: These core genes may provide a novel theoretical basis for the diagnosis and treatment of IS and MI.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Myocardial Infarction/genetics",
+      "*Ischemic Stroke/genetics",
+      "*Protein Interaction Maps/genetics",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Gene Regulatory Networks",
+      "Transcriptome/genetics",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Min",
+        "Gao, Yuan",
+        "Chen, Huaqiu",
+        "Cheng, Jianjie",
+        "Wang, Guangming"
+      ],
+      "short_names": [
+        "Wang M",
+        "Gao Y",
+        "Chen H",
+        "Cheng J",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0220-1493"
+      ],
+      "affiliations": [
+        "School of Clinical Medicine, Dali University, Dali, Yunnan, PR China.",
+        "School of Clinical Medicine, Zhengzhou University, Zhengzhou, Henan, PR China.",
+        "The First Hospital of Liangshan, Xichang, Sichuan, PR China.",
+        "The First Affiliated Hospital of Dali University, Yunnan, PR China.",
+        "School of Clinical Medicine, Dali University, Dali, Yunnan, PR China.",
+        "Center of Genetic Testing, The First Affiliated Hospital of Dali University, Dali, Yunnan, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Min",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Dali University, Dali, Yunnan, PR China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yuan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Zhengzhou University, Zhengzhou, Henan, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Huaqiu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Hospital of Liangshan, Xichang, Sichuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jianjie",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Dali University, Yunnan, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guangming",
+        "short_name": "Wang G",
+        "identifiers": [
+          "0000-0002-0220-1493"
+        ],
+        "affiliations": [
+          "School of Clinical Medicine, Dali University, Dali, Yunnan, PR China.",
+          "Center of Genetic Testing, The First Affiliated Hospital of Dali University, Dali, Yunnan, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 Jul 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 18:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42382130",
+      "41884618",
+      "41622794"
+    ],
+    "refs": [
+      "37986378",
+      "36726083",
+      "36182775",
+      "36049413",
+      "36034287",
+      "35957686",
+      "35656537",
+      "35095865",
+      "34977174",
+      "34466750",
+      "33875617",
+      "33847684",
+      "33777677",
+      "33568052",
+      "33258000",
+      "32924185",
+      "32813167",
+      "31992061",
+      "31863085",
+      "31784184",
+      "31681398",
+      "29968072",
+      "28747453",
+      "28538121",
+      "28044128",
+      "26616677",
+      "26515415",
+      "18773943",
+      "17435812",
+      "16935310",
+      "12381658",
+      "11040209"
+    ],
+    "similar": [
+      "38968466",
+      "37986378",
+      "39086489",
+      "34931168",
+      "34313877",
+      "38764052",
+      "34568491",
+      "32853947",
+      "32626985",
+      "31987036",
+      "38485036",
+      "31772617",
+      "30916045",
+      "34553293",
+      "32811479",
+      "31794546",
+      "37235492",
+      "31545495",
+      "39351239",
+      "37999626",
+      "32756534",
+      "35958412",
+      "35577542",
+      "38736878",
+      "34039311",
+      "29257295",
+      "39111872",
+      "30825595",
+      "38852219",
+      "39775580",
+      "29845250",
+      "30132538",
+      "33437215",
+      "31339875",
+      "33149760",
+      "39673621",
+      "38669428",
+      "38427757",
+      "32626989",
+      "32598242",
+      "31233342",
+      "39306912",
+      "39342024",
+      "28983581",
+      "40155679",
+      "31181055",
+      "40307317",
+      "30424473",
+      "34671419",
+      "31424263",
+      "28713962",
+      "33741890",
+      "40091022",
+      "31875420",
+      "35070236",
+      "36536067",
+      "39010664",
+      "28952134",
+      "31277149",
+      "36166989",
+      "30213925",
+      "33582701",
+      "39657721",
+      "39586719",
+      "34271942",
+      "35190763",
+      "33847684",
+      "34925642",
+      "32421987",
+      "39442645",
+      "32493063",
+      "37224002",
+      "34722763",
+      "33293800",
+      "34233597",
+      "32696819",
+      "35054979",
+      "30168505",
+      "38062833",
+      "30542696",
+      "29328442",
+      "34358255",
+      "39473404",
+      "30221743",
+      "29517105",
+      "35475279",
+      "32578582",
+      "36555343",
+      "31805030",
+      "30244948",
+      "39172048",
+      "32059076",
+      "36157062",
+      "34257537",
+      "31926587",
+      "33354565",
+      "32922167",
+      "33705733",
+      "37494129",
+      "38277520"
+    ],
+    "review": [
+      "38968466"
+    ],
+    "pmc": [
+      "11224832"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=103&issue=27&spage=e38877&aulast=Wang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://www.ovid.com/38968466.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38968466/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000038877",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

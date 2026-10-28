@@ -1,0 +1,298 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.19.745697",
+  "title": "A self-supervised DNA foundation model with collapse-resistant multimodal fusion",
+  "doi": "10.64898/2026.08.19.745697",
+  "abstract": "Genomic foundation models pretrained on DNA sequence have achieved strong performance across many tasks, but sequence-only representations cannot fully capture regulatory information from additional DNA-centric modalities. Existing multimodal genomic models are optimized for specific prediction tasks rather than reusable embeddings. Directly fusing heterogeneous modalities is challenging because sparse, peak-shaped regulatory signals and dense sequence embeddings have markedly different statistical structures, making naive alignment prone to near-zero solutions. We present a self-supervised DNA-centric multimodal foundation model integrating DNA sequence embeddings with local and global chromatin accessibility in a shared encoder to produce reusable window-level embeddings. We show that global normalization alleviates this collapse, enabling effective joint learning. The resulting embeddings improve regulatory activity prediction, regulatory signal ranking and chromatin accessibility peak detection, achieving a 4.6-fold AUPRC improvement over the DNA-only baseline, with further gains on external ClinVar, GTEx eQTL and PBMC caQTL datasets.",
+  "authors": [
+    "Yuyan Chen"
+  ],
+  "published_date": "2026-08-20",
+  "updated_date": "2026-08-21T05:50:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745697",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745697.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2026-09-03T23:20:12Z",
+        "timestamp": 1788477612149,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                20
+              ]
+            ],
+            "date-time": "2026-08-20T00:00:00Z",
+            "timestamp": 1787184000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genomic foundation models pretrained on DNA sequence have achieved strong performance across many tasks, but sequence-only representations cannot fully capture regulatory information from additional DNA-centric modalities. Existing multimodal genomic models are optimized for specific prediction tasks rather than reusable embeddings. Directly fusing heterogeneous modalities is challenging because sparse, peak-shaped regulatory signals and dense sequence embeddings have markedly different statistical structures, making naive alignment prone to near-zero solutions. We present a self-supervised DNA-centric multimodal foundation model integrating DNA sequence embeddings with local and global chromatin accessibility in a shared encoder to produce reusable window-level embeddings. We show that global normalization alleviates this collapse, enabling effective joint learning. The resulting embeddings improve regulatory activity prediction, regulatory signal ranking and chromatin accessibility peak detection, achieving a 4.6-fold AUPRC improvement over the DNA-only baseline, with further gains on external ClinVar, GTEx eQTL and PBMC caQTL datasets.</jats:p>",
+      "DOI": "10.64898/2026.08.19.745697",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2026-08-21T05:50:13Z",
+        "timestamp": 1787291413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A self-supervised DNA foundation model with collapse-resistant multimodal fusion"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4381-486X",
+          "authenticated-orcid": false,
+          "given": "Yuyan",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Houston Methodist Research Institute, Houston, TX, USA"
+            },
+            {
+              "name": "Weill Cornell Medicine, New York, NY, USA"
+            },
+            {
+              "name": "ModelsLive Inc., Houston, TX, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.1",
+          "unstructured": "Zhou, Z. et al. DNABERT-2: Efficient foundation model and benchmark for multi-species genome. ICLR (2024)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.2",
+          "first-page": "1221",
+          "article-title": "The Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+          "volume": "20",
+          "year": "2023",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, E. , et al. HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution. NeurIPS (2023).",
+          "DOI": "10.52202/075280-1872"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.5",
+          "unstructured": "Schreiber, J. , et al. AlphaGenome: advancing regulatory variant effect prediction with a unified genomics foundation model. bioRxiv (2025)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.6",
+          "unstructured": "Brixi, G. et al. Genome modeling and design across all domains of life with Evo 2. bioRxiv (2025)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pampari, A. , et al. ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility. bioRxiv (2024).",
+          "DOI": "10.1101/2024.12.25.630221"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.8",
+          "unstructured": "Novakovsky, G. et al. gReLU: a unified framework for interpreting and designing genomic sequence models. Nat. Methods (2025)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.9",
+          "first-page": "100772",
+          "article-title": "EpiBERT: a cross-cell-type foundation model for chromatin accessibility",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Cell Genomics"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-54441-5"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. et al. Masked Autoencoders Are Scalable Vision Learners. CVPR 16000–16009 (2022).",
+          "DOI": "10.1109/CVPR52688.2022.01553"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.12",
+          "unstructured": "Bardes, A. , Ponce, J. & LeCun, Y. VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning. ICLR (2022)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.13",
+          "unstructured": "Loshchilov, I. & Hutter, F. Decoupled weight decay regularization. ICLR (2019)."
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1776"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1153"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1010759"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14248"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2688"
+        },
+        {
+          "key": "2026090316100996000_2026.08.19.745697v2.22",
+          "unstructured": "Vaswani, A. , et al. Attention is all you need. NeurIPS 30 (2017)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.19.745697",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2026-09-03T23:10:21Z",
+        "timestamp": 1788477021000
+      },
+      "score": 88.91739,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.19.745697"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.64898/2026.08.19.745697",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "42061194",
+    "doi": "10.1016/j.envint.2026.110279",
+    "title": "Multi-omics integration identifies PFOS-associated immune signatures in Kawasaki disease."
+  },
+  "content": {
+    "abstract": "Kawasaki disease (KD), also known as mucocutaneous lymph node syndrome (MCLS), remains the leading cause of acquired heart disease in children younger than 5 years; coronary artery lesions (CALs) develop in 20-30% of untreated patients. Although environmental exposures have been implicated, evidence is inconclusive, and systematic analyses linking exposure profiles to KD-associated immune signatures are still lacking. Despite rising global incidence, the etiology remains unclear, and systematic exploration of potential associations between environmental exposure and KD immune signatures is insufficient. This study employed integrated multi-omics analysis to explore potential associations between perfluorooctane sulfonate (PFOS) exposure and KD immune transcriptomic signatures. By intersecting KD transcriptomic signatures with PFOS toxicological targets, we identified 83 candidate genes significantly enriched in immune-inflammatory pathways. Permutation testing demonstrated PFOS-specific enrichment compared with structurally related compounds (enrichment fold = 2.45; P < 0.001). Machine learning combined with SHAP analysis identified four candidate hub genes (ALPL, IL4R, PGD, SLC22A4) showing consistent expression patterns across independent cohorts. Computational molecular simulations predicted potential binding interfaces between PFOS and candidate proteins, with more favorable docking scores compared to non-fluorinated analogs (6.4-8.9 kcal/mol). Single-cell RNA sequencing revealed hub gene expression in CD14/CD16 Mono and CD8(+) T, which exhibited elevated PFOS response scores. Transcription factor network analysis predicted CEBPB and CDX2 as candidate regulators associated with hub gene expression, with their regulatory activities correlated with PFOS response scores (activity differences and score-dependent monotonic trends; both P < 2.2 x 10(-16)). These computational findings suggest potentially PFOS-associated transcriptomic signatures in KD, providing candidate targets for subsequent mechanistic validation and epidemiological studies.",
+    "keywords": [
+      "Computational toxicology",
+      "Kawasaki disease",
+      "Machine learning",
+      "PFOS",
+      "Single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Mucocutaneous Lymph Node Syndrome/immunology/genetics",
+      "*Fluorocarbons/toxicity",
+      "*Alkanesulfonic Acids/toxicity",
+      "Humans",
+      "Multiomics",
+      "Transcriptome",
+      "*Environmental Exposure",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Quan, Jia",
+        "Tu, Juxiang",
+        "Li, Dan",
+        "Zhang, Zongli",
+        "Xue, Lisha",
+        "Li, Tao",
+        "Xi, Shibing"
+      ],
+      "short_names": [
+        "Quan J",
+        "Tu J",
+        "Li D",
+        "Zhang Z",
+        "Xue L",
+        "Li T",
+        "Xi S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China.",
+        "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China. Electronic address: xishibing@hbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Quan, Jia",
+        "short_name": "Quan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Juxiang",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zongli",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Lisha",
+        "short_name": "Xue L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Shibing",
+        "short_name": "Xi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Taihe Hospital, Hubei University of Medicine, Shiyan, Hubei, China; Pediatric Research Institute, Hubei University of Medicine, Shiyan, Hubei, China. Electronic address: xishibing@hbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment international"
+    ],
+    "journal_abbrev": [
+      "Environ Int"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/01 00:32",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42061194",
+      "41769099",
+      "42396897",
+      "40317014",
+      "42435052",
+      "41611834",
+      "42123445",
+      "42074514",
+      "42025812",
+      "41794809",
+      "40858661",
+      "42233387",
+      "41895505",
+      "41371106",
+      "41080564",
+      "42249649",
+      "41731169",
+      "41719982",
+      "39670237",
+      "42263871",
+      "40367231",
+      "42015036",
+      "42292825",
+      "40457357",
+      "41108957",
+      "41424060",
+      "41656832",
+      "41261566",
+      "41816342",
+      "40737851",
+      "41939867",
+      "41436831",
+      "42422999",
+      "41803955",
+      "38357816",
+      "37905415",
+      "37837870",
+      "42377012",
+      "41083578",
+      "40276515",
+      "41479901",
+      "41485723",
+      "40821793",
+      "42305536",
+      "40844650",
+      "40207219",
+      "42458112",
+      "42236612",
+      "41575683",
+      "40503787",
+      "42375348",
+      "42326004",
+      "41570648",
+      "40916281",
+      "41703488",
+      "40347464",
+      "41342434",
+      "41665627",
+      "40216809",
+      "41134653",
+      "41020309",
+      "42024670",
+      "41237469",
+      "41459671",
+      "41699549",
+      "41052072",
+      "42197164",
+      "41109923",
+      "42393402",
+      "41601671",
+      "41101222",
+      "41524083",
+      "42424301",
+      "41643370",
+      "42158856",
+      "42092981",
+      "41824126",
+      "41394864",
+      "41923163",
+      "40244404",
+      "41093098",
+      "42265520",
+      "40589764",
+      "42326009",
+      "28425113",
+      "41199372",
+      "36829193",
+      "39306112",
+      "42148089",
+      "40050647",
+      "42269280",
+      "40455761",
+      "40977710",
+      "42291298",
+      "41601048",
+      "34193364",
+      "41328587",
+      "41371105",
+      "41595448",
+      "40777016"
+    ],
+    "review": [
+      "42061194",
+      "37905415",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0160-4120(26)00237-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kawasakidisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kawasaki Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-560",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

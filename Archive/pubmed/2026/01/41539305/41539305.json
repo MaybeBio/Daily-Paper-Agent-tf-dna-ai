@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "41539305",
+    "doi": "10.1016/j.cels.2025.101457",
+    "title": "A combinatorial transcription factor screening platform for immune cell reprogramming."
+  },
+  "content": {
+    "abstract": "Direct reprogramming of immune cells holds promise for immunotherapy but is constrained by limited knowledge of transcription factor (TF) networks. Here, we developed REPROcode, a combinatorial single-cell screening platform to identify TF combinations for immune cell reprogramming. We first validated REPROcode by inducing type-1 conventional dendritic cells (cDC1s) with multiplexed sets of 9, 22, and 42 factors. With cDC1-enriched TFs, REPROcode enabled identification of optimal TF stoichiometry, fidelity enhancers, and regulators of cDC1 states. We then constructed an arrayed lentiviral library of 408 barcoded immune TFs to explore broader reprogramming capacity. Screening 48 TFs enriched in dendritic cell subsets yielded myeloid and lymphoid phenotypes and enabled the construction of a TF hierarchy map to guide immune reprogramming. Finally, we validated REPROcode's discovery power by inducing natural killer (NK)-like cells. This study deepens our understanding of immune transcriptional control and provides a versatile toolbox for engineering immune cells to advance immunotherapy.",
+    "keywords": [
+      "antigen-presenting cells",
+      "barcoding",
+      "cellular reprogramming",
+      "combinatorial screening",
+      "dendritic cells",
+      "innate lymphoid cells",
+      "machine learning",
+      "transcription factor",
+      "transcriptional hierarchy"
+    ],
+    "mesh_terms": [
+      "*Cellular Reprogramming/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "Dendritic Cells/metabolism/immunology",
+      "Humans",
+      "Killer Cells, Natural/immunology/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kurochkin, Ilia",
+        "Altman, Abigail R",
+        "Caiado, Ines",
+        "Pertiga-Cabral, Diogo",
+        "Halitzki, Evelyn",
+        "Minaeva, Mariia",
+        "Zimmermannova, Olga",
+        "Henriques-Oliveira, Luis",
+        "Klein, Dominik",
+        "Nair, Malavika",
+        "Oliveira, Daniel",
+        "Cajal, Laura Rabanal",
+        "Knittel, Ramin",
+        "Feick, Cora",
+        "Ringner, Markus",
+        "Martin, Marcel",
+        "Cirovic, Branko",
+        "Pires, Cristiana F",
+        "Rosa, Fabio F",
+        "Sitnicka, Ewa",
+        "Theis, Fabian J",
+        "Pereira, Carlos-Filipe"
+      ],
+      "short_names": [
+        "Kurochkin I",
+        "Altman AR",
+        "Caiado I",
+        "Pertiga-Cabral D",
+        "Halitzki E",
+        "Minaeva M",
+        "Zimmermannova O",
+        "Henriques-Oliveira L",
+        "Klein D",
+        "Nair M",
+        "Oliveira D",
+        "Cajal LR",
+        "Knittel R",
+        "Feick C",
+        "Ringner M",
+        "Martin M",
+        "Cirovic B",
+        "Pires CF",
+        "Rosa FF",
+        "Sitnicka E",
+        "Theis FJ",
+        "Pereira CF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marques do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marques do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Institute of Computational Biology, Helmholtz Zentrum Munchen, 85764 Neuherberg, Germany.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marques do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal.",
+        "Institute of Computational Biology, Helmholtz Zentrum Munchen, 85764 Neuherberg, Germany.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marques do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden.",
+        "Department of Biology, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Lund University, 223 62 Lund, Sweden.",
+        "Department of Biochemistry and Biophysics, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Stockholm University, 171 21 Solna, Sweden.",
+        "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden.",
+        "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden.",
+        "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden.",
+        "Division of Molecular Hematology, Department of Laboratory Medicine, Lund University, BMC B12, 221 84 Lund, Sweden.",
+        "Institute of Computational Biology, Helmholtz Zentrum Munchen, 85764 Neuherberg, Germany.",
+        "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marques do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden. Electronic address: filipe.pereira@med.lu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kurochkin, Ilia",
+        "short_name": "Kurochkin I",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Altman, Abigail R",
+        "short_name": "Altman AR",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Caiado, Inês",
+        "short_name": "Caiado I",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marquês do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pértiga-Cabral, Diogo",
+        "short_name": "Pértiga-Cabral D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marquês do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Halitzki, Evelyn",
+        "short_name": "Halitzki E",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Minaeva, Mariia",
+        "short_name": "Minaeva M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Helmholtz Zentrum München, 85764 Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zimmermannová, Olga",
+        "short_name": "Zimmermannová O",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Henriques-Oliveira, Luís",
+        "short_name": "Henriques-Oliveira L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marquês do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Doctoral Programme in Experimental Biology and Biomedicine, University of Coimbra, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Klein, Dominik",
+        "short_name": "Klein D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Helmholtz Zentrum München, 85764 Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Nair, Malavika",
+        "short_name": "Nair M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Daniel",
+        "short_name": "Oliveira D",
+        "identifiers": [],
+        "affiliations": [
+          "CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marquês do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Cajal, Laura Rabanal",
+        "short_name": "Cajal LR",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Knittel, Ramin",
+        "short_name": "Knittel R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Feick, Cora",
+        "short_name": "Feick C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ringnér, Markus",
+        "short_name": "Ringnér M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Lund University, 223 62 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Martin, Marcel",
+        "short_name": "Martin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Stockholm University, 171 21 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Cirovic, Branko",
+        "short_name": "Cirovic B",
+        "identifiers": [],
+        "affiliations": [
+          "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Pires, Cristiana F",
+        "short_name": "Pires CF",
+        "identifiers": [],
+        "affiliations": [
+          "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rosa, Fabio F",
+        "short_name": "Rosa FF",
+        "identifiers": [],
+        "affiliations": [
+          "Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sitnicka, Ewa",
+        "short_name": "Sitnicka E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Hematology, Department of Laboratory Medicine, Lund University, BMC B12, 221 84 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Theis, Fabian J",
+        "short_name": "Theis FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology, Helmholtz Zentrum München, 85764 Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Pereira, Carlos-Filipe",
+        "short_name": "Pereira CF",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine and Gene Therapy, Science for Life Laboratory, Lund Stem Cell Center, Lund University, BMC A12, 221 84 Lund, Sweden; Wallenberg Centre for Molecular Medicine, Lund University, BMC A12, 221 84 Lund, Sweden; CNC - Centre for Neuroscience and Cell Biology, University of Coimbra, Largo Marquês do Pombal, 3004-517 Coimbra, Portugal; CiBB - Centre for Innovative Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal; Asgard Therapeutics AB, Medicon Village, 223 81 Lund, Sweden. Electronic address: filipe.pereira@med.lu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/16 17:21",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "42054212"
+    ],
+    "refs": [],
+    "similar": [
+      "41539305",
+      "42054212",
+      "35245086",
+      "40210438",
+      "39721321",
+      "40824830",
+      "34367185",
+      "31216470",
+      "33613552",
+      "33659292",
+      "25560382",
+      "40885192",
+      "41044248",
+      "42239343",
+      "42268420",
+      "34544361",
+      "31921109",
+      "33010223",
+      "30809220",
+      "39586652",
+      "36608654",
+      "19280325",
+      "38023788",
+      "37648593",
+      "34246082",
+      "42314680",
+      "29653196",
+      "40510370",
+      "41983128",
+      "41651868",
+      "41233896",
+      "38909361",
+      "28111071",
+      "28453285",
+      "39082649",
+      "33679726",
+      "35420133",
+      "41092888",
+      "33184372",
+      "33666218",
+      "41027406",
+      "42593968",
+      "27930301",
+      "16197336",
+      "42166535",
+      "31621975",
+      "30961656",
+      "39387283",
+      "37073151",
+      "41081432",
+      "42389537",
+      "42350046",
+      "29429633",
+      "34975880",
+      "30448000",
+      "39115195",
+      "15178886",
+      "18307521",
+      "34234783",
+      "33796917",
+      "38754915",
+      "28557814",
+      "21863375",
+      "41639465",
+      "41320160",
+      "30709337",
+      "39982469",
+      "42636583",
+      "41886078",
+      "12773371",
+      "42648752",
+      "39596288",
+      "37421991",
+      "32461238",
+      "25643615",
+      "29078370",
+      "18283624",
+      "42491063",
+      "37607536",
+      "29980007",
+      "28571672",
+      "29220667",
+      "33002512",
+      "39236156",
+      "31759434",
+      "40701308",
+      "38969523",
+      "41033594",
+      "41548123",
+      "42314557",
+      "18437601",
+      "39684837",
+      "31283378",
+      "41135412",
+      "21861182",
+      "41213067",
+      "14609759",
+      "28408750",
+      "18425105",
+      "23284789"
+    ],
+    "review": [
+      "41539305",
+      "39721321",
+      "34367185",
+      "33613552",
+      "42268420",
+      "31921109",
+      "30809220",
+      "39586652",
+      "19280325",
+      "37648593",
+      "34246082",
+      "33679726",
+      "41092888",
+      "33666218",
+      "16197336",
+      "42389537",
+      "34975880",
+      "15178886",
+      "21863375",
+      "12773371",
+      "39596288",
+      "25643615",
+      "18283624",
+      "42491063",
+      "29980007",
+      "33002512",
+      "31759434",
+      "40701308",
+      "41033594",
+      "42314557",
+      "18437601",
+      "31283378",
+      "41135412",
+      "21861182",
+      "41213067",
+      "14609759"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00290-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41539305",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41601671",
+  "title": "Multi-omics integration identifies NK cell dysregulation and a five-gene diagnostic signature in major depressive disorder.",
+  "authors": "Wang, Jia; Kuang, Ye; Peng, Chuanmei; Yuan, Yong; Ji, Yong; Chen, Sulian; Tian, Jinrong; Zhou, Yuanyuan; Chen, Xingying; Li, Jing; Feng, Lei; Nie, Shengjie",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过多组学整合分析抑郁症中NK细胞失调及诊断标志物，未涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题无关。",
+  "abstract": "BACKGROUND: Major Depressive Disorder (MDD), a leading global disability affecting 280 million people, has poor treatment efficacy due to persistent biological variability involving cell-type-specific transcriptomic dysregulation and immune dysfunction, and integrated multi-omics approaches are vital to uncover pathways and therapeutic targets. METHODS: This research utilized a comprehensive multi-omics approach, merging bulk RNA sequencing (RNA-seq) data from the GSE39653 dataset with single-cell RNA sequencing (scRNA-seq) data derived from peripheral blood mononuclear cells (PBMCs) of three MDD patients and three healthy controls. Analysis of differential gene expression (DEGs1) and identification of genes inside Weighted Gene Co-expression Network Analysis (WGCNA) modules were conducted using bulk RNA-seq data. Analysis of differential cell population abundance and differential gene expression (DEGs2) was performed on the scRNA-seq data. Detection of CD3(-)CD56(+) or CD3(-)CD16(+) NK cells in human peripheral blood samples by flow cytometry. Candidate genes were subsequently identified from the intersection of DEGs1, WGCNA module genes, and DEGs2. Subsequently, machine learning methods were employed to discern key genes from these candidates. The functional characterization of essential cell populations was accomplished via pseudotime trajectory analysis, Gene Set Variation Analysis (GSVA), metabolic pathway analysis (scMetabolism), and transcription factor inference (SCENIC). Ultimately, diagnostic models, regulatory networks, and compound screenings were developed based on the key genes. RESULTS: In the RNA-seq analysis, 803 DEGs1 and 2080 WGCNA module genes were identified. scRNA-seq analysis revealed 1,539 DEGs2 and identified natural killer (NK) cells as a major dysfunctional immune cell subpopulation in MDD, exhibiting a significantly increased proportion (CD3(-)CD56(+) or CD3(-)CD16(+), p < 0.05) in the MDD patients. The NK cell population was significantly enriched, flow cytometry validated this finding. The intersection of DEGs1, WGCNA module genes, and DEGs2 yielded 26 candidate genes. Subsequent machine learning analysis identified five key genes: CSPP1, ZNF84, HLA-DPA1, CCZ1, and LRRC8D. A diagnostic nomogram constructed using these key genes demonstrated robust discriminatory performance in distinguishing MDD patients. Mechanistic investigations implicated these five key genes in MDD pathogenesis through neurodegenerative signaling pathways. CONCLUSION: Our study establishes NK cell dysfunction as a core pathophysiological mechanism in MDD, characterized by cellular expansion and metabolic alterations. The identified key genes serve as robust diagnostic biomarkers and therapeutic targets. Elucidation of their regulatory networks provides critical insights for precision psychiatry interventions.",
+  "abstract_zh": "背景：重度抑郁症（Major Depressive Disorder, MDD）是一种影响全球2.8亿人的主要致残性疾病，由于涉及细胞类型特异性转录组失调和免疫功能障碍的持续生物学变异性，其治疗效果不佳，整合多组学方法对于揭示通路和治疗靶点至关重要。方法：本研究采用综合多组学方法，将来自GSE39653数据集的批量RNA测序（RNA-seq）数据与来自三名MDD患者和三名健康对照者外周血单核细胞（PBMCs）的单细胞RNA测序（scRNA-seq）数据相结合。利用批量RNA-seq数据进行了差异基因表达分析（DEGs1）和加权基因共表达网络分析（WGCNA）模块内基因的鉴定。对scRNA-seq数据进行了差异细胞群体丰度分析和差异基因表达分析（DEGs2）。通过流式细胞术检测人外周血样本中的CD3(-)CD56(+)或CD3(-)CD16(+) NK细胞。随后，从DEGs1、WGCNA模块基因和DEGs2的交集中鉴定候选基因。接着，采用机器学习方法从这些候选基因中识别关键基因。通过伪时间轨迹分析、基因集变异分析（GSVA）、代谢通路分析（scMetabolism）和转录因子推断（SCENIC）完成了关键细胞群体的功能表征。最终，基于关键基因构建了诊断模型、调控网络和化合物筛选。结果：在RNA-seq分析中，鉴定出803个DEGs1和2080个WGCNA模块基因。scRNA-seq分析揭示了1,539个DEGs2，并确定自然杀伤（NK）细胞为MDD中主要的功能失调免疫细胞亚群，在MDD患者中其比例显著增加（CD3(-)CD56(+)或CD3(-)CD16(+)，p < 0.05）。NK细胞群体显著富集，流式细胞术验证了这一发现。DEGs1、WGCNA模块基因和DEGs2的交集产生了26个候选基因。随后的机器学习分析识别出五个关键基因：CSPP1、ZNF84、HLA-DPA1、CCZ1和LRRC8D。利用这些关键基因构建的诊断列线图在区分MDD患者方面表现出稳健的判别性能。机制研究通过神经退行性信号通路将这些关键基因与MDD发病机制联系起来。结论：我们的研究确立了NK细胞功能障碍作为MDD的核心病理生理机制，其特征为细胞扩增和代谢改变。所识别的关键基因可作为稳健的诊断生物标志物和治疗靶点。阐明其调控网络为精准精神病学干预提供了关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41601671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41601671/",
+  "paper_page_path": "papers/pubmed/41601671/index.html"
+}

@@ -1,0 +1,317 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.12.705502",
+  "title": "Cell cycle-dependent protein dynamics in budding yeast resolved by deconvolution of bulk proteomics",
+  "doi": "10.64898/2026.02.12.705502",
+  "abstract": "The cell division cycle is characterised by oscillatory dynamics in regulatory mechanisms and biosynthesis, coordinated with genome replication and segregation. To understand these dynamics, quantitative cell cycle-dependent protein concentration data is essential. Unfortunately, accurate resolution of cell cycle-dependent protein dynamics is challenging because single-cell proteomics is currently infeasible and bulk proteomics requires inherently imperfect cell synchronisation. Here, we developed a computational method to deconvolve cell cycle-dependent protein concentration dynamics and applied it to new budding yeast bulk proteome data. Key to this method was a yeast population model, parameterised with experimental cell cycle progression and volume growth data, for quantifying the desynchronisation in sampled populations. We performed deconvolution on 3373 proteins, using cross-validation to determine regularisation parameters, and identified 563 proteins with cell cycle-dependent dynamics. Many of these dynamics were consistent with known yeast biology and dynamic proteins were enriched for several metabolic process, extending previous observations and supporting the emerging picture of metabolic activity as varying substantially over cell cycle phases. We consider the generated cell cycle-resolved budding yeast proteome data a key resource.",
+  "authors": [
+    "Zylstra A",
+    "Rovetta M",
+    "Vedelaar SR",
+    "Bleischwitz C",
+    "Fülleborn JA",
+    "van Oppen Y",
+    "Markus HP",
+    "Korbeld KT",
+    "Milias-Argeitis A",
+    "Buczak K",
+    "Schmidt A",
+    "Heinemann M"
+  ],
+  "published_date": "2026-02-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705502",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705502.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223913",
+    "raw_record": {
+      "id": "PPR1223913",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223913"
+        ]
+      },
+      "doi": "10.64898/2026.02.12.705502",
+      "title": "Cell cycle-dependent protein dynamics in budding yeast resolved by deconvolution of bulk proteomics",
+      "authorString": "Zylstra A, Rovetta M, Vedelaar SR, Bleischwitz C, Fülleborn JA, van Oppen Y, Markus HP, Korbeld KT, Milias-Argeitis A, Buczak K, Schmidt A, Heinemann M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zylstra A",
+            "lastName": "Zylstra",
+            "firstName": "Andre",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rovetta M",
+            "lastName": "Rovetta",
+            "firstName": "Mattia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vedelaar SR",
+            "lastName": "Vedelaar",
+            "firstName": "Silke",
+            "initials": "SR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bleischwitz C",
+            "lastName": "Bleischwitz",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fülleborn JA",
+            "lastName": "Fülleborn",
+            "firstName": "Julius",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Oppen Y",
+            "lastName": "van Oppen",
+            "firstName": "Yulan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Markus HP",
+            "lastName": "Markus",
+            "firstName": "Hugo",
+            "initials": "HP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korbeld KT",
+            "lastName": "Korbeld",
+            "firstName": "Kerlen",
+            "initials": "KT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-7431-5114"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milias-Argeitis A",
+            "lastName": "Milias-Argeitis",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buczak K",
+            "lastName": "Buczak",
+            "firstName": "Katarzyna",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Core Facility, Biozentrum, , Spitalstrasse 41 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmidt A",
+            "lastName": "Schmidt",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Core Facility, Biozentrum, , Spitalstrasse 41 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinemann M",
+            "lastName": "Heinemann",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1306-4041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-7431-5114"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The cell division cycle is characterised by oscillatory dynamics in regulatory mechanisms and biosynthesis, coordinated with genome replication and segregation. To understand these dynamics, quantitative cell cycle-dependent protein concentration data is essential. Unfortunately, accurate resolution of cell cycle-dependent protein dynamics is challenging because single-cell proteomics is currently infeasible and bulk proteomics requires inherently imperfect cell synchronisation. Here, we developed a computational method to deconvolve cell cycle-dependent protein concentration dynamics and applied it to new budding yeast bulk proteome data. Key to this method was a yeast population model, parameterised with experimental cell cycle progression and volume growth data, for quantifying the desynchronisation in sampled populations. We performed deconvolution on 3373 proteins, using cross-validation to determine regularisation parameters, and identified 563 proteins with cell cycle-dependent dynamics. Many of these dynamics were consistent with known yeast biology and dynamic proteins were enriched for several metabolic process, extending previous observations and supporting the emerging picture of metabolic activity as varying substantially over cell cycle phases. We consider the generated cell cycle-resolved budding yeast proteome data a key resource.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "016.Vidi.189.116",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.12.705502"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223913"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223913&type=FILE&fileName=EMS215696-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42736370",
+            "reference": "Molecular systems biology. \n    2026 Sep;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215696",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-13",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

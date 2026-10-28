@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "42397093",
+    "doi": "10.17219/acem/211377",
+    "title": "Identification and validation of novel diagnostic biomarkers across multiple tissues in osteoarthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a degenerative joint disease characterized by synovial inflammation, cartilage degradation, and subchondral bone remodeling. Currently, no universally accepted or clinically validated biomarkers exist for OA diagnosis and treatment, highlighting the need to identify potential genetic biomarkers to support early detection and therapeutic research. OBJECTIVES: This study aimed to identify and preliminarily validate potential diagnostic biomarkers for OA using integrated bioinformatics and machine learning (ML) approaches to provide molecular insights supporting early diagnosis and therapeutic strategies. MATERIAL AND METHODS: Gene expression data from OA patients and normal controls were obtained from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified using R. Protein-protein interaction (PPI) network analysis and functional module analysis were performed to screen for hub genes. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted to determine the biological roles and pathways of DEGs, along with transcription factor prediction. Three ML models (least absolute shrinkage and selection operator (LASSO), support vector machine recursive feature elimination (SVM-RFE), and Random Forest) were used to identify OA-specific characteristic genes. Key diagnostic genes were identified from the intersection of the ML results and validated using external datasets of cartilage, synovium, and blood. IRS2 expression was further validated via in vivo (animal model) and in vitro (cell culture) experiments. RESULTS: Fifteen OA-related characteristic genes were identified, including IRS2, ADM, SIK1, PTN, CX3CR1, WNT5A, IL21R, APOD, CRLF1, FKBP5, PNMAL1, NPR3, RARRES1, ASPN, and POSTN. Functional enrichment analysis suggested involvement in extracellular matrix (ECM) organization, interleukin-17 (IL-17) and relaxin signaling, and the AGE-RAGE pathway in diabetic complications. Three genes showed strong diagnostic potential. IRS2 was downregulated, while WNT5A and PTN were upregulated in OA samples. Immunohistochemistry (IHC), real-time quantitative polymerase chain reaction (qPCR), and western blotting (WB) confirmed the downregulation of IRS2 in OA samples, consistent with bioinformatics predictions, in both chondrocytes and mouse joint tissues. CONCLUSIONS: IRS2, WNT5A, and PTN may serve as potential diagnostic biomarkers for osteoarthritis, supporting early or tissue-specific diagnosis and offering insights for future clinical and therapeutic applications.",
+    "keywords": [
+      "bioinformatics",
+      "biomarkers",
+      "machine learning",
+      "osteoarthritis",
+      "tissue-specific expressed genes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoarthritis/diagnosis/genetics/metabolism",
+      "Animals",
+      "Biomarkers/metabolism/analysis",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Computational Biology",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Guihao",
+        "Ouyang, Yulong",
+        "Chen, Shuilin",
+        "Hu, Bei",
+        "Xu, Shuai",
+        "Sun, Guicai"
+      ],
+      "short_names": [
+        "Zheng G",
+        "Ouyang Y",
+        "Chen S",
+        "Hu B",
+        "Xu S",
+        "Sun G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, China.",
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, China.",
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, China.",
+        "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Guihao",
+        "short_name": "Zheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Yulong",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuilin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Bei",
+        "short_name": "Hu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shuai",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guicai",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in clinical and experimental medicine : official organ Wroclaw Medical University"
+    ],
+    "journal_abbrev": [
+      "Adv Clin Exp Med"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/03 12:32",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42397093",
+      "41146237",
+      "42274933",
+      "38767974",
+      "41258630",
+      "40628511",
+      "42267557",
+      "41316378",
+      "38734758",
+      "39849508",
+      "41327360",
+      "38771826",
+      "41801977",
+      "42377012",
+      "41709967",
+      "42051521",
+      "40312440",
+      "42345426",
+      "41760060",
+      "39086489",
+      "38951833",
+      "37986345",
+      "41044520",
+      "39640258",
+      "42338208",
+      "34583778",
+      "41635814",
+      "34224029",
+      "42164373",
+      "41200172",
+      "41508240",
+      "37454542",
+      "41151411",
+      "39695788",
+      "42327749",
+      "40216809",
+      "38509535",
+      "41367897",
+      "41583295",
+      "39176085",
+      "42449128",
+      "39507054",
+      "40420260",
+      "40592131",
+      "39351239",
+      "40313958",
+      "42302029",
+      "30483789",
+      "41316541",
+      "39779817",
+      "41219826",
+      "37503333",
+      "42025819",
+      "40726988",
+      "40765736",
+      "40646535",
+      "41887709",
+      "40804350",
+      "40083558",
+      "41544137",
+      "42079646",
+      "40406620",
+      "35713363",
+      "39142001",
+      "30365099",
+      "40374840",
+      "39953769",
+      "40997906",
+      "39609718",
+      "40500570",
+      "40164659",
+      "39639239",
+      "40949741",
+      "33407587",
+      "41257259",
+      "41031145",
+      "41006883",
+      "41638276",
+      "29344651",
+      "41628840",
+      "42509823",
+      "40595011",
+      "34113405",
+      "42495609",
+      "39586719",
+      "32342805",
+      "36929359",
+      "39170142",
+      "42353855",
+      "39396400",
+      "38867322",
+      "36685513",
+      "32945465",
+      "41858783",
+      "42123756",
+      "39585570",
+      "30551734",
+      "41415264",
+      "39754246",
+      "41816328"
+    ],
+    "review": [
+      "42397093"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3739",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://advances.umw.edu.pl/pdf/2026/35/7/1215.pdf",
+        "provider": "Wroclaw Medical University",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

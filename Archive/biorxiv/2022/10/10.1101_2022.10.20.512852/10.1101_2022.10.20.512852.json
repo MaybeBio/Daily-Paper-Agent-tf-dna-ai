@@ -1,0 +1,351 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.20.512852",
+  "title": "High-throughput transposon mutagenesis in the family Enterobacteriaceae reveals core essential genes and rapid turnover of essentiality",
+  "doi": "10.1101/2022.10.20.512852",
+  "abstract": "The Enterobacteriaceae are a scientifically and medically important clade of bacteria, containing the gut commensal and model organism Escherichia coli , as well as several major human pathogens including multiple serovars of Salmonella enterica and Klebsiella pneumoniae . Essential gene sets have been determined for several members of the Enterobacteriaceae, with the E. coli Keio single-gene deletion library often regarded as a gold standard for gene essentiality studies. However, it remains unclear how gene essentiality varies between related strains and species. To investigate this, we have assembled a collection of thirteen sequenced high-density transposon mutant libraries from five genera within the Enterobacteriaceae. We first benchmark a number of gene essentiality prediction approaches, investigate the effects of transposon density on essentiality prediction, and identify biases in transposon insertion sequencing data. Based on these investigations we develop a new classifier for gene essentiality. Using this new classifier, we define a core essential genome in the Enterobacteriaceae of 201 universally essential genes, and reconstruct an ancestral essential gene set of 296 genes. Despite the presence of a large cohort of variably essential genes, surprisingly we find an absence of evidence for genus-specific essential genes. A clear example of this sporadic essentiality is given by the set of genes regulating the σ E extracytoplasmic stress response, which appears to have independently become essential multiple times in the Enterobacteriaceae. Finally, we compare our essential gene sets to the natural experiment of gene loss in obligate insect endosymbionts that have emerged from within the Enterobacteriaceae. This isolates a remarkably small set of genes absolutely required for survival, and uncovers several instances of essential stress responses masked by redundancy in free-living bacteria.",
+  "authors": [
+    "Ghomi FA",
+    "Langridge GC",
+    "Cain AK",
+    "Boinett C",
+    "Abd El Ghany M",
+    "Pickard DJ",
+    "Kingsley RA",
+    "Thomson NR",
+    "Parkhill J",
+    "Gardner PP",
+    "Barquist L"
+  ],
+  "published_date": "2022-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.512852",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.512852.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR560682",
+    "raw_record": {
+      "id": "PPR560682",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR560682"
+        ]
+      },
+      "doi": "10.1101/2022.10.20.512852",
+      "title": "High-throughput transposon mutagenesis in the family Enterobacteriaceae reveals core essential genes and rapid turnover of essentiality",
+      "authorString": "Ghomi FA, Langridge GC, Cain AK, Boinett C, Abd El Ghany M, Pickard DJ, Kingsley RA, Thomson NR, Parkhill J, Gardner PP, Barquist L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ghomi FA",
+            "lastName": "Ghomi",
+            "firstName": "Fatemeh",
+            "initials": "FA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular Interactions Centre, School of Biological Sciences, University of Canterbury, Christchurch, New Zealand"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Langridge GC",
+            "lastName": "Langridge",
+            "firstName": "Gemma",
+            "initials": "GC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8037-2741"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbes in the Food Chain, Quadram Institute Bioscience, Norwich Research Park, Norwich, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cain AK",
+            "lastName": "Cain",
+            "firstName": "Amy",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4230-6572"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boinett C",
+            "lastName": "Boinett",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abd El Ghany M",
+            "lastName": "Abd El Ghany",
+            "firstName": "Moataz",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0020-261X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Westmead Institute for Medical Research, University of Sydney, Sydney, Australia"
+                },
+                {
+                  "affiliation": "Sydney Institute for Infectious Diseases, University of Sydney, Sydney, Australia"
+                },
+                {
+                  "affiliation": "School of Public Health, Faculty of Medicine and Health, University of Sydney, Sydney, Australia"
+                },
+                {
+                  "affiliation": "King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pickard DJ",
+            "lastName": "Pickard",
+            "firstName": "Derek",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Department of Medicine, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kingsley RA",
+            "lastName": "Kingsley",
+            "firstName": "Robert",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbes in the Food Chain, Quadram Institute Bioscience, Norwich Research Park, Norwich, UK"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, University of East Anglia, Norwich, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thomson NR",
+            "lastName": "Thomson",
+            "firstName": "Nicholas",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "London School of Hygiene and Tropical Medicine, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parkhill J",
+            "lastName": "Parkhill",
+            "firstName": "Julian",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7069-5958"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gardner PP",
+            "lastName": "Gardner",
+            "firstName": "Paul",
+            "initials": "PP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7808-1213"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular Interactions Centre, School of Biological Sciences, University of Canterbury, Christchurch, New Zealand"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, Otago University, Dunedin, New Zealand"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barquist L",
+            "lastName": "Barquist",
+            "firstName": "Lars",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helmholtz Institute for RNA-based Infection Research (HIRI), Helmholtz Center for Infection Research (HZI), Würzburg, Germany"
+                },
+                {
+                  "affiliation": "Faculty of Medicine, University of Würzburg, Würzburg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8037-2741"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0020-261X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4230-6572"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7069-5958"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7808-1213"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The Enterobacteriaceae are a scientifically and medically important clade of bacteria, containing the gut commensal and model organism  Escherichia coli , as well as several major human pathogens including multiple serovars of  Salmonella enterica and  Klebsiella pneumoniae . Essential gene sets have been determined for several members of the Enterobacteriaceae, with the  E. coli Keio single-gene deletion library often regarded as a gold standard for gene essentiality studies. However, it remains unclear how gene essentiality varies between related strains and species. To investigate this, we have assembled a collection of thirteen sequenced high-density transposon mutant libraries from five genera within the Enterobacteriaceae. We first benchmark a number of gene essentiality prediction approaches, investigate the effects of transposon density on essentiality prediction, and identify biases in transposon insertion sequencing data. Based on these investigations we develop a new classifier for gene essentiality. Using this new classifier, we define a core essential genome in the Enterobacteriaceae of 201 universally essential genes, and reconstruct an ancestral essential gene set of 296 genes. Despite the presence of a large cohort of variably essential genes, surprisingly we find an absence of evidence for genus-specific essential genes. A clear example of this sporadic essentiality is given by the set of genes regulating the σ  E extracytoplasmic stress response, which appears to have independently become essential multiple times in the Enterobacteriaceae. Finally, we compare our essential gene sets to the natural experiment of gene loss in obligate insect endosymbionts that have emerged from within the Enterobacteriaceae. This isolates a remarkably small set of genes absolutely required for survival, and uncovers several instances of essential stress responses masked by redundancy in free-living bacteria.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/20/2022.10.20.512852.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.20.512852"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR560682"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR560682&type=FILE&fileName=EMS156061-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39207104",
+            "reference": "mBio. 2024 Oct;15(10):e0179824",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156061",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "dateOfCreation": "2022-10-22",
+      "firstPublicationDate": "2022-10-20",
+      "firstIndexDate": "2022-10-22",
+      "fullTextReceivedDate": "2022-11-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

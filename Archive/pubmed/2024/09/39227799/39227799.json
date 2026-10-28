@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "39227799",
+    "doi": "10.1186/s12864-024-10667-7",
+    "title": "Predicting splicing patterns from the transcription factor binding sites in the promoter with deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alternative splicing is a pivotal mechanism of post-transcriptional modification that contributes to the transcriptome plasticity and proteome diversity in metazoan cells. Although many splicing regulations around the exon/intron regions are known, the relationship between promoter-bound transcription factors and the downstream alternative splicing largely remains unexplored. RESULTS: In this study, we present computational approaches to unravel the regulatory relationship between promoter-bound transcription factor binding sites (TFBSs) and the splicing patterns. We curated a fine dataset that includes DNase I hypersensitive site sequencing and transcriptomes across fifteen human tissues from ENCODE. Specifically, we proposed different representations of TF binding context and splicing patterns to examine the associations between the promoter and downstream splicing events. While machine learning models demonstrated potential in predicting splicing patterns based on TFBS occupancies, the limitations in the generalization of predicting the splicing forms of singleton genes across diverse tissues was observed with carefully examination using different cross-validation methods. We further investigated the association between alterations in individual TFBS at promoters and shifts in exon splicing efficiency. Our results demonstrate that the convolutional neural network (CNN) models, trained on TF binding changes in the promoters, can predict the changes in splicing patterns. Furthermore, a systemic in silico substitutions analysis on the CNN models highlighted several potential splicing regulators. Notably, using empirical validation using K562 CTCFL shRNA knock-down data, we showed the significant role of CTCFL in splicing regulation. CONCLUSION: In conclusion, our finding highlights the potential role of promoter-bound TFBSs in influencing the regulation of downstream splicing patterns and provides insights for discovering alternative splicing regulations.",
+    "keywords": [
+      "Alternative splicing",
+      "CNN",
+      "Deep learning",
+      "TFBS",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic",
+      "Humans",
+      "Binding Sites",
+      "*Transcription Factors/metabolism/genetics",
+      "*Deep Learning",
+      "*Alternative Splicing",
+      "Computational Biology/methods",
+      "Exons/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Tzu-Chieh",
+        "Tsai, Cheng-Hung",
+        "Shiau, Cheng-Kai",
+        "Huang, Jia-Hsin",
+        "Tsai, Huai-Kuang"
+      ],
+      "short_names": [
+        "Lin TC",
+        "Tsai CH",
+        "Shiau CK",
+        "Huang JH",
+        "Tsai HK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4200-8137"
+      ],
+      "affiliations": [
+        "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan.",
+        "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan.",
+        "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan.",
+        "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan. jiahsin.huang@gmail.com.",
+        "Taiwan AI Labs & Foundation, Taipei, 10351, Taiwan. jiahsin.huang@gmail.com.",
+        "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan. hktsai@iis.sinica.edu.tw.",
+        "Taiwan AI Labs & Foundation, Taipei, 10351, Taiwan. hktsai@iis.sinica.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Tzu-Chieh",
+        "short_name": "Lin TC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tsai, Cheng-Hung",
+        "short_name": "Tsai CH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Shiau, Cheng-Kai",
+        "short_name": "Shiau CK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Jia-Hsin",
+        "short_name": "Huang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan. jiahsin.huang@gmail.com.",
+          "Taiwan AI Labs & Foundation, Taipei, 10351, Taiwan. jiahsin.huang@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Tsai, Huai-Kuang",
+        "short_name": "Tsai HK",
+        "identifiers": [
+          "0000-0002-4200-8137"
+        ],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei, 11529, Taiwan. hktsai@iis.sinica.edu.tw.",
+          "Taiwan AI Labs & Foundation, Taipei, 10351, Taiwan. hktsai@iis.sinica.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Sep 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 01:01",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42680754",
+      "42032458",
+      "41764538"
+    ],
+    "refs": [
+      "33667606",
+      "33237311",
+      "32493763",
+      "31713622",
+      "31626751",
+      "31374967",
+      "30988101",
+      "30682368",
+      "30661752",
+      "30661751",
+      "30562350",
+      "30478442",
+      "30202999",
+      "29949959",
+      "29859120",
+      "29251915",
+      "29140473",
+      "29088719",
+      "29073069",
+      "29069589",
+      "28743766",
+      "27588042",
+      "26891983",
+      "26566663",
+      "26439713",
+      "26017442",
+      "25953851",
+      "25019513",
+      "24759103",
+      "23793028",
+      "23512601",
+      "23385723",
+      "22955987",
+      "22909801",
+      "22264826",
+      "21057496",
+      "20445623",
+      "20418102",
+      "19274049",
+      "18992329",
+      "18978789",
+      "18071322",
+      "15901495",
+      "15461793",
+      "15388519",
+      "12376702",
+      "11932736",
+      "11932019",
+      "11889466",
+      "10983978",
+      "9326631"
+    ],
+    "similar": [
+      "39227799",
+      "42475469",
+      "38701417",
+      "27503086",
+      "41634097",
+      "19133160",
+      "24386279",
+      "24042128",
+      "40790242",
+      "34073774",
+      "40702706",
+      "40334196",
+      "24369421",
+      "19729518",
+      "30447332",
+      "16817975",
+      "19442634",
+      "31001412",
+      "40646689",
+      "38732207",
+      "40914877",
+      "30709337",
+      "35652477",
+      "40889326",
+      "18712306",
+      "41920894",
+      "30835229",
+      "40740140",
+      "16362910",
+      "25275320",
+      "15496828",
+      "20363979",
+      "31905774",
+      "41801512",
+      "40065237",
+      "33975951",
+      "19594881",
+      "32155318",
+      "25918418",
+      "42145197",
+      "27807836",
+      "40504371",
+      "41035197",
+      "15053842",
+      "41861881",
+      "28623591",
+      "40411397",
+      "24942981",
+      "22369687",
+      "39701486",
+      "36094959",
+      "27567672",
+      "16771825",
+      "42140663",
+      "27209209",
+      "39623329",
+      "15166027",
+      "17956628",
+      "33036380",
+      "16061185",
+      "24564277",
+      "15790569",
+      "32770026",
+      "27117388",
+      "39922842",
+      "20156195",
+      "23822978",
+      "17804646",
+      "15461794",
+      "34534646",
+      "27556805",
+      "31336830",
+      "39107889",
+      "18517657",
+      "20193056",
+      "35229721",
+      "31374967",
+      "27106869",
+      "22844237",
+      "38733561",
+      "20360861",
+      "19573580",
+      "24189494",
+      "24291025",
+      "9757029",
+      "15506990",
+      "27866169",
+      "22978521",
+      "23793028",
+      "25805853",
+      "11090272",
+      "24927817",
+      "36155619",
+      "34445498",
+      "21712398",
+      "29304739",
+      "38798191",
+      "11585919",
+      "18631392",
+      "31476685"
+    ],
+    "review": [
+      "39227799",
+      "30447332"
+    ],
+    "pmc": [
+      "11373144"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10667-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39227799/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

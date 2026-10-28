@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "37789254",
+    "doi": "10.1186/s12879-023-08638-6",
+    "title": "Identification of the potential association between SARS-CoV-2 infection and acute kidney injury based on the shared gene signatures and regulatory network."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection is identified as the cause of coronavirus disease 2019 (COVID-19) pandemic. Acute kidney injury (AKI), one of serious complications of COVID-19 infection, is the leading contributor to renal failure, associating with high mortality of the patients. This study aimed to identify the shared gene signatures and construct the gene regulatory network between COVID-19 and AKI, contributing to exploring the potential pathogenesis. METHODS: Utilizing the machine learning approach, the candidate gene signatures were derived from the common differentially expressed genes (DEGs) obtained from COVID-19 and AKI. Subsequently, receiver operating characteristic (ROC), consensus clustering and functional enrichment analyses were performed. Finally, protein-protein interaction (PPI) network, transcription factor (TF)-gene interaction, gene-miRNA interaction, and TF-miRNA coregulatory network were systematically undertaken. RESULTS: We successfully identified the shared 6 candidate gene signatures (RRM2, EGF, TMEM252, RARRES1, COL6A3, CUBN) between COVID-19 and AKI. ROC analysis showed that the model constructed by 6 gene signatures had a high predictive efficacy in COVID-19 (AUC = 0.965) and AKI (AUC = 0.962) cohorts, which had the potential to be the shared diagnostic biomarkers for COVID-19 and AKI. Additionally, the comprehensive gene regulatory networks, including PPI, TF-gene interaction, gene-miRNA interaction, and TF-miRNA coregulatory networks were displayed utilizing NetworkAnalyst platform. CONCLUSIONS: This study successfully identified the shared gene signatures and constructed the comprehensive gene regulatory network between COVID-19 and AKI, which contributed to predicting patients' prognosis and providing new ideas for developing therapeutic targets for COVID-19 and AKI.",
+    "keywords": [
+      "Acute kidney injury",
+      "Biomarker",
+      "COVID-19",
+      "Differentially expressed genes",
+      "Pathogenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics",
+      "SARS-CoV-2/genetics",
+      "*Acute Kidney Injury/genetics",
+      "*MicroRNAs",
+      "Cluster Analysis",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Xue",
+        "Wang, Ning",
+        "Liu, Wenjing",
+        "Chen, Ruixue",
+        "Yang, Guoyue",
+        "Yu, Hongzhi"
+      ],
+      "short_names": [
+        "Zhou X",
+        "Wang N",
+        "Liu W",
+        "Chen R",
+        "Yang G",
+        "Yu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3675-9479",
+        "ORCID: 0000-0003-3103-4636",
+        "ORCID: 0000-0001-7877-6747"
+      ],
+      "affiliations": [
+        "Department of Nephrology, Haihe Hospital, Tianjin University, 890 Jingu Road, Jinnan District, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+        "Department of Nephrology, Tianjin Haihe Hospital, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+        "Haihe Clinical School, Tianjin Medical University, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+        "Tianjin Institute of Respiratory Diseases, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+        "The Third Central Hospital of Tianjin, 83 Jintang Road, Hedong District, Tianjin, 300170, China.",
+        "Department of Nephrology, Tianjin Haihe Hospital, Tianjin, 300350, China.",
+        "Tianjin Haihe Hospital, Tianjin, 300350, China.",
+        "The Third Central Hospital of Tianjin, 83 Jintang Road, Hedong District, Tianjin, 300170, China. 24592453@qq.com.",
+        "Tianjin Institute of Respiratory Diseases, Tianjin, 300350, China. 13512205663@163.com.",
+        "Department of Respiratory Medicine, Tianjin Haihe Hospital, 890 Jingu Road, Jinnan District, Tianjin, 300350, China. 13512205663@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Xue",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0000-0002-3675-9479"
+        ],
+        "affiliations": [
+          "Department of Nephrology, Haihe Hospital, Tianjin University, 890 Jingu Road, Jinnan District, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+          "Department of Nephrology, Tianjin Haihe Hospital, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+          "Haihe Clinical School, Tianjin Medical University, Tianjin, 300350, China. xuezhoudoctor@126.com.",
+          "Tianjin Institute of Respiratory Diseases, Tianjin, 300350, China. xuezhoudoctor@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [
+          "0000-0003-3103-4636"
+        ],
+        "affiliations": [
+          "The Third Central Hospital of Tianjin, 83 Jintang Road, Hedong District, Tianjin, 300170, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenjing",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Tianjin Haihe Hospital, Tianjin, 300350, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ruixue",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Haihe Hospital, Tianjin, 300350, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guoyue",
+        "short_name": "Yang G",
+        "identifiers": [
+          "0000-0001-7877-6747"
+        ],
+        "affiliations": [
+          "The Third Central Hospital of Tianjin, 83 Jintang Road, Hedong District, Tianjin, 300170, China. 24592453@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Hongzhi",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Institute of Respiratory Diseases, Tianjin, 300350, China. 13512205663@163.com.",
+          "Department of Respiratory Medicine, Tianjin Haihe Hospital, 890 Jingu Road, Jinnan District, Tianjin, 300350, China. 13512205663@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC infectious diseases"
+    ],
+    "journal_abbrev": [
+      "BMC Infect Dis"
+    ],
+    "pub_date": "2023 Oct 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/04 00:42",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36586227",
+      "36300620",
+      "35967373",
+      "35561674",
+      "35549373",
+      "35464092",
+      "35371596",
+      "35089317",
+      "35032430",
+      "35012625",
+      "34452851",
+      "34314040",
+      "33947851",
+      "33257872",
+      "32963018",
+      "32961245",
+      "32943396",
+      "32929200",
+      "32416769",
+      "32416116",
+      "32371537",
+      "32333836",
+      "32247631",
+      "32198291",
+      "32171076",
+      "32055240",
+      "31959993",
+      "30356218",
+      "28303888",
+      "27555107",
+      "26162677",
+      "25605792",
+      "25352553"
+    ],
+    "similar": [
+      "37789254",
+      "37026010",
+      "35749386",
+      "36189314",
+      "38815767",
+      "37584353",
+      "38267482",
+      "36555339",
+      "33553808",
+      "38162574",
+      "36059456",
+      "35658960",
+      "36532040",
+      "34775559",
+      "37221323",
+      "37040729",
+      "35727093",
+      "36104591",
+      "36768914",
+      "37405258",
+      "34776447",
+      "33251083",
+      "34813685",
+      "34009691",
+      "36575422",
+      "33358501",
+      "37184686",
+      "37804012",
+      "35464423",
+      "31658856",
+      "31257474",
+      "36389792",
+      "37092838",
+      "38296680",
+      "35271662",
+      "36125921",
+      "34032326",
+      "36119022",
+      "38517368",
+      "37540264",
+      "36531995",
+      "33863396",
+      "34367154",
+      "39027131",
+      "34044555",
+      "37216361",
+      "33024988",
+      "36817436",
+      "34886903",
+      "33847347",
+      "27724849",
+      "36924127",
+      "34952908",
+      "37426642",
+      "37020555",
+      "38851159",
+      "38648205",
+      "33833618",
+      "34992355",
+      "37359008",
+      "35317263",
+      "36203534",
+      "28415685",
+      "32508878",
+      "33611340",
+      "38022551",
+      "35039944",
+      "36509426",
+      "33011717",
+      "37250717",
+      "35958619",
+      "36124586",
+      "36630401",
+      "34089082",
+      "35390032",
+      "39363208",
+      "32686373",
+      "37789227",
+      "34954105",
+      "33372426",
+      "35123426",
+      "33444408",
+      "37403291",
+      "32229732",
+      "33656736",
+      "34218797",
+      "33726831",
+      "35242109",
+      "37854219",
+      "32961245",
+      "34278995",
+      "33506037",
+      "33448738",
+      "34756004",
+      "37047484",
+      "37070032",
+      "35528173",
+      "39045234",
+      "36277893",
+      "38600309",
+      "37961671",
+      "38062586",
+      "38443855",
+      "34571540",
+      "37017853",
+      "37704748",
+      "38065980",
+      "38323674",
+      "39334929",
+      "34531741",
+      "38174296",
+      "38562892"
+    ],
+    "review": [
+      "37789254",
+      "37584353",
+      "33358501",
+      "38296680",
+      "34367154",
+      "33656736",
+      "34278995",
+      "33448738",
+      "34756004",
+      "38065980"
+    ],
+    "pmc": [
+      "10548629"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-023-08638-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37789254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37789254",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

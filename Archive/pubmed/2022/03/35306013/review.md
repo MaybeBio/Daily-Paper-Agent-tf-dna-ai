@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report identification of 7 putative CAMTA transcription factors from finger millet transcriptome data, followed by in silico characterization including physicochemical properties, subcellular localization, conserved domains and motifs, Gene Ontology terms, phylogeny, 3D structure prediction, and protein-protein docking with calmodulin. They claim this is the first study of the CAMTA family in finger millet and that it provides molecular insight into structure and function, serving as a resource for future studies.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, detailed methods for transcriptome assembly, CAMTA identification criteria, phylogenetic analysis parameters, modeling validation metrics, docking protocols, and any statistical analyses. Without these, most technical claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract describes a straightforward in silico identification and characterization study of a transcription factor family in a crop species. The work is potentially useful as a descriptive resource, but the abstract alone does not establish technical rigor or novelty beyond the species-specific application. The claims are largely descriptive and the evidence base is not visible. The study appears to be a standard bioinformatics pipeline applied to a new species, which may be of interest to the millet research community but is unlikely to have broad conceptual impact.
+- **Who would be interested in the results, and why** Researchers working on finger millet genomics and breeding, plant transcription factor families, and calmodulin-mediated signaling in plants. The resource value for comparative studies across millets and cereals may also interest crop genomics groups. The methodological approach may be of peripheral interest to those applying in silico gene family characterization in non-model species.
+- **Major strengths** The study addresses a gap in knowledge for a crop of regional importance. The use of transcriptome data in the absence of a reference genome is a practical approach. The combination of multiple in silico analyses (phylogeny, modeling, docking) is comprehensive in scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "7 putative CAMTA transcription factors identified from finger millet transcriptome data"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The criteria for identifying the 7 putative CAMTAs are not described. It is unclear whether identification was based on sequence homology to known CAMTAs, presence of specific domains, or other filters. The completeness of the transcriptome assembly and the confidence in the predicted protein sequences are not stated.
+  - **Why it matters** Without clear identification criteria and assembly quality metrics, the core claim of 7 CAMTA genes cannot be verified. False positives or missed members would undermine the entire downstream analysis.
+  - **Resolution test** Provide the identification pipeline, including search algorithms, thresholds, domain validation, and transcriptome assembly statistics (e.g., N50, completeness assessment).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "3D-structure of CAMTA proteins was elucidated through ab-initio protein modeling and its interaction with Calmodulin was investigated by docking studies"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No validation metrics for the 3D models are reported. Ab initio modeling without experimental or high-quality template-based validation is prone to errors. Docking results are mentioned but no scoring functions, constraints, or confidence measures are described.
+  - **Why it matters** Structural claims and interaction predictions are only meaningful if model quality is established. Unvalidated models can lead to misleading biological interpretations.
+  - **Resolution test** Report model quality scores (e.g., QMEAN, PROCHECK, Ramachandran statistics) and docking scores with appropriate benchmarks or comparison to known CAMTA-calmodulin interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "This being the first study of CAMTA transcription factor family in finger millet"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of being the first study is a literature claim that cannot be verified from the abstract. No comparison to prior work in finger millet or closely related species is provided.
+  - **Why it matters** Originality claims require evidence of a thorough literature search. If similar work exists, the novelty claim is overstated.
+  - **Resolution test** Provide a literature search summary demonstrating absence of prior CAMTA studies in finger millet.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms (e.g., "ab-initio protein modeling", "CaMBD") without brief explanation, which may limit accessibility for readers outside structural biology or plant genomics.
+  - **Required correction** Add brief parenthetical explanations for key technical terms or rephrase for broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement "highlights the role of omics-based in-silico approaches" is generic and does not specify what novel insight was gained beyond the species-specific identification.
+  - **Required correction** Clarify what specific methodological or biological insight the study provides that is transferable beyond finger millet.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Subcellular localization claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "All EcCAMTAs were found to be localized in the nucleus" is stated as a finding, but this is a prediction from in silico tools, not an experimental observation.
+  - **Required correction** Rephrase as "predicted to be localized in the nucleus" and specify the prediction tool used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The identification criteria and model validation are essential to establish the core claims. Without these, the study is not technically sound.
+- **Assessment against Nature-style criteria** Originality: Limited. The approach is standard and the novelty is species-specific. Scientific importance: Moderate for the finger millet community, but limited general interest. Interdisciplinary readership: Narrow, primarily plant molecular biologists and crop scientists. Technical soundness: Not assessable from the abstract, with specific concerns about identification and modeling. Readability for nonspecialists: Acceptable but could be improved with brief explanations of technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful descriptive study, but the blocking concerns on identification criteria and model validation must be resolved. If the full manuscript addresses these with rigorous methods and validation, the work could be considered for a specialized journal, though it is unlikely to meet the broad impact bar of Nature.
+
+## Risk / unsupported claims
+- The claim of 7 CAMTA genes is unsupported without identification criteria and assembly quality metrics.
+- The 3D structure and docking results are unsupported without validation metrics.
+- The claim of being the first study in finger millet is unverifiable from the abstract.
+- The subcellular localization claim is presented as a finding rather than a prediction.
+- The functional implications implied by GO terms and docking are not supported by experimental evidence.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42322085",
+  "title": "Predicting the Impact of Deleterious Single-Nucleotide Polymorphisms in the p47ING1a Isoform of Human ING1 Gene.",
+  "authors": "Rafi, Md Oliullah; Sarker, Md Takim; Sheikh, Mohammad Ashik; Das, Sowmitro; Halder, Sajal Kumar; Islam, Md Ashiqul",
+  "journal": "Genetics research",
+  "published_date": "2026-06-20",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多种序列工具和AlphaFold3等结构建模评估ING1蛋白PHD结构域致病SNP对蛋白稳定性及H3K4me3结合的影响，虽涉及蛋白-DNA/染色质互作界面，但核心是SNP功能预测而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "PURPOSE: The p47ING1a isoform of the ING1 tumor suppressor regulates cellular senescence through Rb-dependent pathways via its plant homeodomain (PHD) zinc-finger, which recognizes the H3K4me3 histone mark. However, the mutational landscape of p47ING1a and the functional consequences of PHD-domain nonsynonymous single-nucleotide polymorphisms (nsSNPs) remain poorly characterized. This study aimed to identify and structurally evaluate the most deleterious nsSNPs in p47ING1a and clarify their potential role in disrupting ING1 tumor-suppressor activity. METHODS: A total of 347 missense nsSNPs were retrieved from the NCBI dbSNP database and screened using 12 sequence-based computational tools. Variants consistently predicted as deleterious were further evaluated by I-Mutant stability analysis and ConSurf evolutionary conservation profiling. Three-dimensional structural modeling was performed using AlphaFold3, refined through GalaxyRefine, and validated by ERRAT, PROCHECK, and TM-align. Mutation-induced structural and binding effects were assessed using Missense3D, mCSM, and BeAtMuSiC. Post-translational modification sites were predicted via NetPhos 3.1, GPS 3.0, BDM-PUB, and NetOGlyc 4.0. Protein-protein interaction networks were constructed using STRING and Gene MANIA. Pan-cancer expression was analyzed through UALCAN and the Human Protein Atlas. RESULTS: Twelve computational tools converged on six high-priority variants, namely, C358S, C374G, W378G, F379V, S382L, and R400P. All localized exclusively within the PHD zinc-finger domain, residues 353-402. All six mutations were consistently predicted to destabilize the p47ING1a protein across multiple stability analyses. CONCLUSIONS: Six nsSNPs in the PHD domain of p47ING1a are predicted to disrupt protein stability, H3K4me3 binding, and Sin3A/HDAC complex interactions, thereby impairing ING1 tumor-suppressor function. These findings provide a computational basis for prioritizing variants for experimental validation through site-directed mutagenesis, chromatin-binding assays, and structure-guided therapeutic targeting of the PHD-H3K4me3 interface.",
+  "abstract_zh": "目的：ING1肿瘤抑制因子的p47ING1a亚型通过其植物同源结构域（PHD）锌指识别H3K4me3组蛋白标记，经由Rb依赖性通路调控细胞衰老。然而，p47ING1a的突变谱及PHD结构域非同义单核苷酸多态性（nsSNPs）的功能后果仍鲜有表征。本研究旨在识别并结构评估p47ING1a中最有害的nsSNPs，并阐明其破坏ING1肿瘤抑制活性的潜在作用。方法：从NCBI dbSNP数据库获取共347个错义nsSNPs，并使用12种基于序列的计算工具进行筛选。一致预测为有害的变异进一步通过I-Mutant稳定性分析和ConSurf进化保守性谱图评估。三维结构建模使用AlphaFold3进行，经GalaxyRefine优化，并通过ERRAT、PROCHECK和TM-align验证。突变诱导的结构和结合效应使用Missense3D、mCSM和BeAtMuSiC评估。翻译后修饰位点通过NetPhos 3.1、GPS 3.0、BDM-PUB和NetOGlyc 4.0预测。蛋白质-蛋白质相互作用网络使用STRING和GeneMANIA构建。泛癌表达通过UALCAN和人类蛋白质图谱分析。结果：十二种计算工具收敛于六个高优先级变异，即C358S、C374G、W378G、F379V、S382L和R400P。所有变异均仅定位于PHD锌指结构域（残基353-402）。所有六种突变在多种稳定性分析中均一致预测会去稳定p47ING1a蛋白。结论：p47ING1a PHD结构域中的六个nsSNPs被预测会破坏蛋白质稳定性、H3K4me3结合及Sin3A/HDAC复合物相互作用，从而损害ING1肿瘤抑制功能。这些发现为通过定点突变、染色质结合分析和结构引导的PHD-H3K4me3界面治疗靶向进行实验验证的变异优先级排序提供了计算基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42322085/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42322085/",
+  "paper_page_path": "papers/pubmed/42322085/index.html"
+}

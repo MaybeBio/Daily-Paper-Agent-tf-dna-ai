@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "41006257",
+    "doi": "10.1038/s41467-025-63461-8",
+    "title": "AI cancer driver mutation predictions are valid in real-world data."
+  },
+  "content": {
+    "abstract": "Characterizing and validating which mutations influence development of cancer is challenging. Artificial intelligence (AI) has delivered significant advances in protein structure prediction, but its utility for identifying cancer drivers is less explored. We evaluate multiple computational methods for identifying cancer driver mutations. For re-identifying known drivers, methods incorporating protein structure or functional genomic data outperform methods trained only on evolutionary data. We validate variants of unknown significance (VUSs) annotated as pathogenic by testing their association with overall survival in two cohorts of patients with non-small cell lung cancer (N = 7965 and 977). VUSs identified as pathogenic drivers by AI in KEAP1 and SMARCA4 are associated with worse survival, unlike \"benign\" VUSs. \"Pathogenic\" VUSs also exhibit mutual exclusivity with known oncogenic alterations at the pathway level, further suggesting biological validity. AI predictions thus contribute to a more comprehensive understanding of tumor genetics as validated by real-world data.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation",
+      "*Lung Neoplasms/genetics/mortality",
+      "*Artificial Intelligence",
+      "Kelch-Like ECH-Associated Protein 1/genetics",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/mortality",
+      "DNA Helicases/genetics",
+      "Transcription Factors/genetics",
+      "Nuclear Proteins/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tran, Thinh N",
+        "Fong, Chris",
+        "Pichotta, Karl",
+        "Luthra, Anisha",
+        "Shen, Ronglai",
+        "Chen, Yuan",
+        "Waters, Michele",
+        "Kim, Susie",
+        "Li, Xiang",
+        "de Bruijn, Ino",
+        "Riely, Gregory",
+        "Berger, Michael F",
+        "Ladanyi, Marc",
+        "Chakravarty, Debyani",
+        "Schultz, Nikolaus",
+        "Jee, Justin"
+      ],
+      "short_names": [
+        "Tran TN",
+        "Fong C",
+        "Pichotta K",
+        "Luthra A",
+        "Shen R",
+        "Chen Y",
+        "Waters M",
+        "Kim S",
+        "Li X",
+        "de Bruijn I",
+        "Riely G",
+        "Berger MF",
+        "Ladanyi M",
+        "Chakravarty D",
+        "Schultz N",
+        "Jee J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3428-2507",
+        "ORCID: 0000-0001-9694-584X",
+        "ORCID: 0000-0002-8734-007X",
+        "ORCID: 0000-0002-5416-5172",
+        "ORCID: 0000-0003-2782-2250",
+        "ORCID: 0000-0001-5427-4750",
+        "ORCID: 0000-0003-3882-5000",
+        "ORCID: 0000-0001-9055-7213",
+        "ORCID: 0000-0001-8629-5732",
+        "ORCID: 0000-0002-0131-4904",
+        "ORCID: 0000-0001-9783-0139"
+      ],
+      "affiliations": [
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA. schultzn@mskcc.org.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA. jeej@mskcc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tran, Thinh N",
+        "short_name": "Tran TN",
+        "identifiers": [
+          "0000-0002-3428-2507"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Fong, Chris",
+        "short_name": "Fong C",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Pichotta, Karl",
+        "short_name": "Pichotta K",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Luthra, Anisha",
+        "short_name": "Luthra A",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Ronglai",
+        "short_name": "Shen R",
+        "identifiers": [
+          "0000-0001-9694-584X"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuan",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0002-8734-007X"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Waters, Michele",
+        "short_name": "Waters M",
+        "identifiers": [
+          "0000-0002-5416-5172"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Susie",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0003-2782-2250"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "de Bruijn, Ino",
+        "short_name": "de Bruijn I",
+        "identifiers": [
+          "0000-0001-5427-4750"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Riely, Gregory",
+        "short_name": "Riely G",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Berger, Michael F",
+        "short_name": "Berger MF",
+        "identifiers": [
+          "0000-0003-3882-5000"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ladanyi, Marc",
+        "short_name": "Ladanyi M",
+        "identifiers": [
+          "0000-0001-9055-7213"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chakravarty, Debyani",
+        "short_name": "Chakravarty D",
+        "identifiers": [
+          "0000-0001-8629-5732"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schultz, Nikolaus",
+        "short_name": "Schultz N",
+        "identifiers": [
+          "0000-0002-0131-4904"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA. schultzn@mskcc.org."
+        ]
+      },
+      {
+        "full_name": "Jee, Justin",
+        "short_name": "Jee J",
+        "identifiers": [
+          "0000-0001-9783-0139"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA. jeej@mskcc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 00:30",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42671651",
+      "42020390"
+    ],
+    "refs": [
+      "39506116",
+      "38183205",
+      "37821682",
+      "37733863",
+      "37668528",
+      "37522378",
+      "37454202",
+      "37223888",
+      "36240971",
+      "35819403",
+      "35488922",
+      "35351670",
+      "35147037",
+      "35047814",
+      "34707284",
+      "34551312",
+      "34342503",
+      "34321661",
+      "34103645",
+      "33618777",
+      "33538338",
+      "33261662",
+      "32312757",
+      "32228266",
+      "31550176",
+      "31202631",
+      "31008437",
+      "30964529",
+      "30735816",
+      "30675517",
+      "30211344",
+      "30209399",
+      "29625050",
+      "29165669",
+      "28890946",
+      "28511696",
+      "27666373",
+      "27268795",
+      "27100819",
+      "26619011",
+      "25348012",
+      "25075907",
+      "24390350",
+      "24132290",
+      "23799087",
+      "23620363",
+      "22903802",
+      "21908773",
+      "21727090",
+      "20354512",
+      "19147090",
+      "11337480"
+    ],
+    "similar": [
+      "41006257",
+      "40764107",
+      "32709715",
+      "39709652",
+      "36775193",
+      "39864548",
+      "35747993",
+      "37261523",
+      "32855269",
+      "37473958",
+      "37068173",
+      "31323387",
+      "39954349",
+      "37121400",
+      "37416990",
+      "36634615",
+      "34500370",
+      "38702192",
+      "38281780",
+      "32854100",
+      "38413251",
+      "33107184",
+      "35705448",
+      "25918285",
+      "33246647",
+      "41053251",
+      "34440689",
+      "15287030",
+      "29615460",
+      "38183584",
+      "40105165",
+      "40592197",
+      "18386774",
+      "34147303",
+      "40404793",
+      "31319993",
+      "39808383",
+      "30972962",
+      "39541774",
+      "41387924",
+      "35727053",
+      "38980931",
+      "39492586",
+      "41004982",
+      "39465834",
+      "31065835",
+      "39193606",
+      "38601319",
+      "33845210",
+      "32866624",
+      "40544018",
+      "37699269",
+      "37697729",
+      "38432028",
+      "38180245",
+      "39378885",
+      "28102363",
+      "33640623",
+      "40991405",
+      "35511432",
+      "37272300",
+      "39804166",
+      "39812394",
+      "26899600",
+      "41055968",
+      "32007910",
+      "35091439",
+      "41340120",
+      "20213688",
+      "32083571",
+      "35753125",
+      "33144586",
+      "32434476",
+      "40928867",
+      "39701102",
+      "39500550",
+      "34633874",
+      "37387441",
+      "24658004",
+      "31548347",
+      "17020408",
+      "36450331",
+      "38124509",
+      "41491583",
+      "29102090",
+      "33077574",
+      "41454764",
+      "38394494",
+      "32312757",
+      "37985152",
+      "34450259",
+      "21610322",
+      "41202699",
+      "32365229",
+      "34601169",
+      "40412045",
+      "36123678",
+      "29089357",
+      "31954538",
+      "36709038"
+    ],
+    "review": [
+      "41006257",
+      "40764107",
+      "37261523",
+      "38702192",
+      "34440689",
+      "34147303",
+      "41387924",
+      "39492586",
+      "39465834",
+      "39812394",
+      "36450331"
+    ],
+    "pmc": [
+      "12474978"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-63461-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41006257/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1367",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

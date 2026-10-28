@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "42520516",
+    "doi": "10.1016/j.bioorg.2026.110296",
+    "title": "Machine learning, WGCNA and molecular docking identify SLC transporter genes as biomarkers and drug targets in Helicobacter pylori-associated carcinogenesis."
+  },
+  "content": {
+    "abstract": "Solute carrier (SLC) family genes govern transmembrane transport and cellular metabolism, yet their systematic roles from Helicobacter pylori infection to gastric cancer (GC) remain undefined. By integrating multiple GEO datasets with weighted gene co-expression network analysis, differential expression, and machine learning algorithms, we identified seven core SLC genes (SLC9A9, SLC43A2, SLC16A6, SLC7A14, SLC28A3, SLC4A11, SLC5A2) for H. pylori infection and nine (SLC1A3, SLC2A3, SLC15A3, SLC19A3, SLC2A12, SLC16A4, SLC25A4, SLC9A7, SLC28A3) for GC. Logistic regression models achieved high diagnostic accuracy (AUC = 0.976 and 0.874, respectively). Immune infiltration analysis revealed distinct correlation patterns: SLC4A11 and SLC5A2 associated with activated mast cells, neutrophils, and M2 macrophages in infection, while SLC1A3 and SLC2A3 correlated broadly with M1/M2 macrophages and activated CD4(+) T cells in GC. Enrichment analyses confirmed involvement in transmembrane transport, immune-related pathways, and cancer signaling. Transcription factor prediction identified CEBPB, RELB, and STAT5A as key upstream regulators. Molecular docking demonstrated strong binding affinities between SLC proteins and repurposable compounds (3'-azido-3'-deoxythymidine, CHEMBL1182312, quinine). This study provides the first systematic characterization of SLC family expression across the H. pylori-GC continuum, identifying potential diagnostic biomarkers and therapeutic targets that warrant further experimental validation.",
+    "keywords": [
+      "Artificial intelligence",
+      "Gastric cancer",
+      "Helicobacter pylori",
+      "Machine learning",
+      "Molecular docking",
+      "SLC transporter genes",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Helicobacter pylori/drug effects",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Helicobacter Infections/drug therapy",
+      "*Stomach Neoplasms/drug therapy/genetics/microbiology",
+      "*Solute Carrier Proteins/genetics/metabolism/antagonists & inhibitors",
+      "Carcinogenesis/drug effects/genetics",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "Molecular Structure"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Nuonan",
+        "He, Xue",
+        "Cai, Ting",
+        "Xu, Yingting",
+        "Xie, Jie",
+        "Zhao, Xuelin",
+        "Yang, Binfang",
+        "Liu, Xuemei",
+        "Zhang, Minglin"
+      ],
+      "short_names": [
+        "Lv N",
+        "He X",
+        "Cai T",
+        "Xu Y",
+        "Xie J",
+        "Zhao X",
+        "Yang B",
+        "Liu X",
+        "Zhang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Pharmacy, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China.",
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Nursing Department, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China.",
+        "Department of Gastroenterology, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha 410005, Hunan, China; Hunan Provincial University Key Laboratory of the Fundamental and Clinical Research on Neurodegenerative Diseases, Changsha Medical University, Changsha 410219, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China.",
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Nursing Department, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China. Electronic address: yangbinfang@csu.edu.cn.",
+        "Department of Gastroenterology, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi 563000, Guizhou, China. Electronic address: onlyoneliuxuemei@163.com.",
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Gastroenterology, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi 563000, Guizhou, China. Electronic address: minglinzhang1993@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Nuonan",
+        "short_name": "Lv N",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Pharmacy, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "He, Xue",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Nursing Department, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Ting",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha 410005, Hunan, China; Hunan Provincial University Key Laboratory of the Fundamental and Clinical Research on Neurodegenerative Diseases, Changsha Medical University, Changsha 410219, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yingting",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jie",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xuelin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Binfang",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Nursing Department, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China. Electronic address: yangbinfang@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuemei",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi 563000, Guizhou, China. Electronic address: onlyoneliuxuemei@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Minglin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha 410013, Hunan, China; Department of Gastroenterology, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi 563000, Guizhou, China. Electronic address: minglinzhang1993@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Chem"
+    ],
+    "pub_date": "2026 Oct 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/29 00:35",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42520516",
+      "41961800",
+      "41291892",
+      "38001345",
+      "38310567",
+      "42562313",
+      "41703488",
+      "39667460",
+      "42131322",
+      "41479901",
+      "42698445",
+      "40445003",
+      "42015036",
+      "41217343",
+      "42074514",
+      "42292668",
+      "41769350",
+      "41798945",
+      "42377012",
+      "40406126",
+      "42461936",
+      "41442003",
+      "39257142",
+      "40480449",
+      "40314099",
+      "33717131",
+      "39414226",
+      "38609049",
+      "41459671",
+      "42536619",
+      "37382029",
+      "35430283",
+      "41371106",
+      "42292468",
+      "37962871",
+      "41052072",
+      "34363898",
+      "40916281",
+      "42283098",
+      "40374840",
+      "40207230",
+      "39712025",
+      "40205350",
+      "39139563",
+      "41214111",
+      "39844299",
+      "40070840",
+      "41432483",
+      "40777016",
+      "42195052",
+      "42528957",
+      "42292364",
+      "40107545",
+      "40830558",
+      "41733593",
+      "40791849",
+      "31441961",
+      "42333713",
+      "31997281",
+      "41508240",
+      "41606475",
+      "31308482",
+      "41239601",
+      "40453984",
+      "42236612",
+      "41342434",
+      "42567199",
+      "37608794",
+      "42201343",
+      "41388523",
+      "37359529",
+      "41845922",
+      "40923140",
+      "39427825",
+      "40348207",
+      "42278407",
+      "39283563",
+      "41834077",
+      "42328161",
+      "42158856",
+      "41909133",
+      "23108377",
+      "39993869",
+      "34585958",
+      "17504014",
+      "23899160",
+      "41029776",
+      "42083957",
+      "42520089",
+      "41717432",
+      "26597625",
+      "40446574",
+      "42265520",
+      "42535843",
+      "39834541",
+      "40424666",
+      "41265166",
+      "30370523",
+      "38693868",
+      "28201999"
+    ],
+    "review": [
+      "42520516",
+      "33717131",
+      "37382029",
+      "40348207",
+      "17504014"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-2068(26)00832-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

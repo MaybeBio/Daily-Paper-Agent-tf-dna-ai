@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "37100167",
+    "doi": "10.1016/j.jmb.2023.168121",
+    "title": "Modulation of DNA-protein Interactions by Proximal Genetic Elements as Uncovered by Interpretable Deep Learning."
+  },
+  "content": {
+    "abstract": "Transcription factors (TF) recognize specific motifs in the genome that are typically 6-12 bp long to regulate various aspects of the cellular machinery. Presence of binding motifs and favorable genome accessibility are key drivers for a consistent TF-DNA interaction. Although these pre-requisites may occur thousands of times in the genome, there seems to be a high degree of selectivity for the sites that are actually bound. Here, we present a deep-learning framework that identifies and characterizes the upstream and downstream genetic elements to the binding motif, for their role in enforcing the mentioned selectivity. The proposed framework is based on an interpretable recurrent neural network architecture that enables for the relative analysis of sequence context features. We apply the framework to model twenty-six transcription factors and score the TF-DNA binding at a base-pair resolution. We find significant differences in activations of DNA context features for bound and unbound sequences. In addition to standardized evaluation protocols, we offer outstanding interpretability that enables us to identify and annotate DNA sequence with possible elements that modulate TF-DNA binding. Also, differences in data processing have a huge influence on the overall model performance. Overall, the proposed framework allows for novel insights on the non-coding genetic elements and their role in facilitating a stable TF-DNA interaction.",
+    "keywords": [
+      "DNA binding",
+      "attention",
+      "transcription factor",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Deep Learning",
+      "*DNA/metabolism",
+      "Protein Binding",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kalakoti, Yogesh",
+        "Peter, Swathik Clarancia",
+        "Gawande, Swaraj",
+        "Sundar, Durai"
+      ],
+      "short_names": [
+        "Kalakoti Y",
+        "Peter SC",
+        "Gawande S",
+        "Sundar D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: yogesh.kalakoti@dbeb.iitd.ac.in.",
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India; Regional Centre for Biotechnology (RCB), Faridabad, Haryana 121001, India. Electronic address: pswathik.clarancia@rcb.res.in.",
+        "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: cs1190406@cse.iitd.ac.in.",
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India; Yardi School of Artificial Intelligence, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: sundar@dbeb.iitd.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kalakoti, Yogesh",
+        "short_name": "Kalakoti Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: yogesh.kalakoti@dbeb.iitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Peter, Swathik Clarancia",
+        "short_name": "Peter SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India; Regional Centre for Biotechnology (RCB), Faridabad, Haryana 121001, India. Electronic address: pswathik.clarancia@rcb.res.in."
+        ]
+      },
+      {
+        "full_name": "Gawande, Swaraj",
+        "short_name": "Gawande S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: cs1190406@cse.iitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Sundar, Durai",
+        "short_name": "Sundar D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India; Yardi School of Artificial Intelligence, Indian Institute of Technology (IIT) Delhi, New Delhi 110016, India. Electronic address: sundar@dbeb.iitd.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Jul 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/27 00:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "38893257"
+    ],
+    "refs": [],
+    "similar": [
+      "37100167",
+      "33796819",
+      "32770026",
+      "34272562",
+      "35263332",
+      "30423062",
+      "33413545",
+      "34073774",
+      "35293310",
+      "25108460",
+      "31372637",
+      "34524404",
+      "39107889",
+      "35666736",
+      "34534646",
+      "19956545",
+      "27567672",
+      "36057196",
+      "26160164",
+      "37598467",
+      "21596777",
+      "25775564",
+      "26285121",
+      "26550823",
+      "22189060",
+      "34486522",
+      "38733561",
+      "27471964",
+      "33834200",
+      "36360189",
+      "28750606",
+      "25428352",
+      "25957350",
+      "19652015",
+      "30835229",
+      "33232622",
+      "9271383",
+      "25433490",
+      "26291518",
+      "29588420",
+      "23272209",
+      "25722376",
+      "36043696",
+      "33372147",
+      "30922998",
+      "35240993",
+      "19158363",
+      "34465294",
+      "18725950",
+      "31742324",
+      "27104615",
+      "36322688",
+      "23812975",
+      "34664074",
+      "33571101",
+      "32043966",
+      "31856220",
+      "16873495",
+      "22955984",
+      "27192961",
+      "35410161",
+      "23184988",
+      "34383745",
+      "31634140",
+      "26818008",
+      "33990600",
+      "39174927",
+      "21106903",
+      "21486752",
+      "25070602",
+      "36155619",
+      "36902216",
+      "32960766",
+      "30323198",
+      "33705711",
+      "25242143",
+      "19958507",
+      "20158869",
+      "35997560",
+      "25313048",
+      "16447966",
+      "28849563",
+      "20870645",
+      "1324415",
+      "35719916",
+      "16873497",
+      "37401370",
+      "28334224",
+      "35659235",
+      "34370721",
+      "32905524"
+    ],
+    "review": [
+      "37100167",
+      "36057196",
+      "27471964",
+      "31742324"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00191-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

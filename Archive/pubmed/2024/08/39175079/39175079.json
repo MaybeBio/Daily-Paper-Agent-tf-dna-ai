@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "39175079",
+    "doi": "10.1186/s13293-024-00638-8",
+    "title": "SexAnnoDB, a knowledgebase of sex-specific regulations from multi-omics data of human cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sexual differences across molecular levels profoundly impact cancer biology and outcomes. Patient gender significantly influences drug responses, with divergent reactions between men and women to the same drugs. Despite databases on sex differences in human tissues, understanding regulations of sex disparities in cancer is limited. These resources lack detailed mechanistic studies on sex-biased molecules. METHODS: In this study, we conducted a comprehensive examination of molecular distinctions and regulatory networks across 27 cancer types, delving into sex-biased effects. Our analyses encompassed sex-biased competitive endogenous RNA networks, regulatory networks involving sex-biased RNA binding protein-exon skipping events, sex-biased transcription factor-gene regulatory networks, as well as sex-biased expression quantitative trait loci, sex-biased expression quantitative trait methylation, sex-biased splicing quantitative trait loci, and the identification of sex-biased cancer therapeutic drug target genes. All findings from these analyses are accessible on SexAnnoDB ( https://ccsm.uth.edu/SexAnnoDB/ ). RESULTS: From these analyses, we defined 126 cancer therapeutic target sex-associated genes. Among them, 9 genes showed sex-biased at both the mRNA and protein levels. Specifically, S100A9 was the target of five drugs, of which calcium has been approved by the FDA for the treatment of colon and rectal cancers. Transcription factor (TF)-gene regulatory network analysis suggested that four TFs in the SARC male group targeted S100A9 and upregulated the expression of S100A9 in these patients. Promoter region methylation status was only associated with S100A9 expression in KIRP female patients. Hypermethylation inhibited S100A9 expression and was responsible for the downregulation of S100A9 in these female patients. CONCLUSIONS: Comprehensive network and association analyses indicated that the sex differences at the transcriptome level were partially the result of corresponding sex-biased epigenetic and genetic molecules. Overall, SexAnnoDB offers a discipline-specific search platform that could potentially assist basic experimental researchers or physicians in developing personalized treatment plans.",
+    "keywords": [
+      "Cancer",
+      "Multi-omics",
+      "Sex difference",
+      "Sex-biased regulatory network"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Male",
+      "DNA Methylation",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Knowledge Bases",
+      "Multiomics",
+      "*Neoplasms/genetics/metabolism",
+      "Quantitative Trait Loci",
+      "*Sex Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Mengyuan",
+        "Feng, Yuzhou",
+        "Liu, Jiajia",
+        "Wang, Hong",
+        "Wu, Sijia",
+        "Zhao, Weiling",
+        "Kim, Pora",
+        "Zhou, Xiaobo"
+      ],
+      "short_names": [
+        "Yang M",
+        "Feng Y",
+        "Liu J",
+        "Wang H",
+        "Wu S",
+        "Zhao W",
+        "Kim P",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5235-5733"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Zhengzhou University, Zhengzhou, 450001, China. mengyuanyang@zzu.edu.cn.",
+        "West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Shihezi University School of Medicine, Shihezi University, Shihezi , 832003, China.",
+        "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA.",
+        "School of Life Sciences, Zhengzhou University, Zhengzhou, 450001, China.",
+        "School of Life Sciences and Technology, Xidian University, Xi'an, 710126, China.",
+        "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA.",
+        "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA. Pora.Kim@uth.tmc.edu.",
+        "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA. Xiaobo.Zhou@uth.tmc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Mengyuan",
+        "short_name": "Yang M",
+        "identifiers": [
+          "0000-0001-5235-5733"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Zhengzhou University, Zhengzhou, 450001, China. mengyuanyang@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Feng, Yuzhou",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+          "Shihezi University School of Medicine, Shihezi University, Shihezi , 832003, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiajia",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Hong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Zhengzhou University, Zhengzhou, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Sijia",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Xidian University, Xi'an, 710126, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Weiling",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Pora",
+        "short_name": "Kim P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA. Pora.Kim@uth.tmc.edu."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaobo",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, 77030, USA. Xiaobo.Zhou@uth.tmc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology of sex differences"
+    ],
+    "journal_abbrev": [
+      "Biol Sex Differ"
+    ],
+    "pub_date": "2024 Aug 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/23 00:43",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42158856",
+      "41345892",
+      "40332138"
+    ],
+    "refs": [
+      "37573404",
+      "37173796",
+      "36949059",
+      "36894939",
+      "36708807",
+      "36302696",
+      "35983925",
+      "35597868",
+      "35440136",
+      "35284049",
+      "34850920",
+      "34488531",
+      "34392831",
+      "34220829",
+      "34164474",
+      "33990544",
+      "33664771",
+      "33643443",
+      "33497367",
+      "33237311",
+      "33113880",
+      "32859912",
+      "32816862",
+      "32605220",
+      "32579922",
+      "32514147",
+      "32503637",
+      "32286310",
+      "32014063",
+      "31838015",
+      "31806698",
+      "31732741",
+      "31642488",
+      "31638245",
+      "31504780",
+      "30558665",
+      "30449618",
+      "30380119",
+      "30341162",
+      "30275052",
+      "30078747",
+      "30050303",
+      "30002084",
+      "29552213",
+      "29526637",
+      "29381967",
+      "29126136",
+      "29069589",
+      "27165743",
+      "27158980",
+      "27141961",
+      "26704973",
+      "26564970",
+      "26447864",
+      "25985083",
+      "25837375",
+      "25620379",
+      "25516281",
+      "25215497",
+      "24904731",
+      "24654968",
+      "24439786",
+      "23846655",
+      "23741402",
+      "23073759",
+      "23027461",
+      "22833753",
+      "22492648",
+      "21750167",
+      "21330290",
+      "20861032",
+      "20461105",
+      "20237530",
+      "20156170",
+      "19768584",
+      "18369135",
+      "17312270",
+      "16481636",
+      "10376571",
+      "1920492"
+    ],
+    "similar": [
+      "39175079",
+      "42475469",
+      "39716176",
+      "41578372",
+      "36321557",
+      "41699549",
+      "41024254",
+      "33859751",
+      "42098041",
+      "39604866",
+      "39107837",
+      "38933282",
+      "30275053",
+      "33153500",
+      "42548293",
+      "39154046",
+      "41254692",
+      "42104453",
+      "40578153",
+      "41233828",
+      "40898538",
+      "34895312",
+      "32854705",
+      "40721593",
+      "32579922",
+      "42223712",
+      "33549134",
+      "34791419",
+      "36758122",
+      "40514687",
+      "36624948",
+      "41986815",
+      "40128644",
+      "39581398",
+      "41366697",
+      "27165743",
+      "38167211",
+      "41665764",
+      "39747410",
+      "42195095",
+      "42185861",
+      "40004479",
+      "41801343",
+      "34732242",
+      "40619810",
+      "41473285",
+      "41868721",
+      "32103259",
+      "41772579",
+      "39558360",
+      "42052171",
+      "39406522",
+      "29303984",
+      "40311696",
+      "39354571",
+      "36064320",
+      "41716413",
+      "30918060",
+      "40853611",
+      "25326170",
+      "40790242",
+      "40557537",
+      "37221602",
+      "40360993",
+      "40862714",
+      "40412796",
+      "27881077",
+      "30726003",
+      "41913250",
+      "31341364",
+      "34293285",
+      "39844246",
+      "42224282",
+      "41162503",
+      "41053817",
+      "42479091",
+      "38838009",
+      "39865831",
+      "33919884",
+      "31908393",
+      "33517372",
+      "38586115",
+      "32241274",
+      "21655357",
+      "41191606",
+      "41372957",
+      "41840829",
+      "38491408",
+      "35953856",
+      "31488212",
+      "40814229",
+      "18803290",
+      "41652393",
+      "40216809",
+      "27035433",
+      "42565562",
+      "42363041",
+      "42512787",
+      "37208698",
+      "35985410"
+    ],
+    "review": [
+      "39175079",
+      "36321557"
+    ],
+    "pmc": [
+      "11342657"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35084845",
+  "title": "Importance of Three-Body Problems and Protein-Protein Interactions in Proteolysis-Targeting Chimera Modeling: Insights from Molecular Dynamics Simulations.",
+  "authors": "Li, Wenqing; Zhang, Jiabin; Guo, Li; Wang, Qiantao",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-01-28",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD和MM/GBSA模拟PROTAC三元复合物中的蛋白-蛋白相互作用，虽非TF-DNA体系，但蛋白-蛋白互作建模方法可迁移至TF-DNA界面研究。",
+  "abstract": "Proteolysis-targeting chimeras (PROTACs) are a class of bifunctional molecules that can induce the ubiquitin degradation of its target protein by hijacking the E3 ligase to form a target protein-PROTAC-E3 ligase ternary complex. Its underlying principle has inspired the development of a wide range of protein degraders that are similar to or beyond PROTACs in recent years. The formation of the ternary complexes is the key to the success of PROTAC-induced protein degradation. Nevertheless, the lack of effective ternary complex modeling techniques has limited the application of computer-aided drug discovery tools to this emerging and fast developing new land in drug industry. Thus, in this study, we explored the application of the more physically sound molecular dynamics simulation and the molecular mechanics combined with the generalized Born and surface area continuum solvation (MM/GBSA) method to solve the underlying three-body problem in PROTAC modeling. We first verified the accuracy of our approach using a series of known Brd4 BD2 degraders. The calculated binding energy showed a good correlation with the experimental K(d) values. The modeling of a unique property, namely, the alpha value, for PROTACs was also first and accurately performed to our best knowledge. The results also demonstrated the importance of PROTAC-induced protein-protein interactions in its modeling, either qualitatively or quantitatively. Finally, by standing on the success of earlier docking-based approaches, our protocol was also applied as a rescoring function in pose prediction. The results showed a notable improvement in reranking the initial poses generated from a modified Rosetta method, which was reportedly one of the best among a handful of PROTAC modeling approaches available in this field. We hope this work could provide a practical protocol and more insights to study the binding and the design of PROTACs and other protein degraders.",
+  "abstract_zh": "蛋白水解靶向嵌合体（PROTACs）是一类双功能分子，通过劫持E3连接酶形成靶蛋白-PROTAC-E3连接酶三元复合物，从而诱导靶蛋白的泛素化降解。其基本原理近年来启发了多种与PROTACs相似或超越其功能的蛋白降解剂的开发。三元复合物的形成是PROTAC诱导蛋白降解成功的关键。然而，缺乏有效的三元复合物建模技术限制了计算机辅助药物发现工具在这一新兴且快速发展的药物工业新领域的应用。因此，在本研究中，我们探索了更具物理合理性的分子动力学模拟以及分子力学结合广义Born和表面积连续溶剂化（MM/GBSA）方法的应用，以解决PROTAC建模中的潜在三体问题。我们首先使用一系列已知的Brd4 BD2降解剂验证了我们方法的准确性。计算得到的结合能与实验K(d)值显示出良好的相关性。此外，我们还首次（据我们所知）准确建模了PROTACs的一个独特性质，即α值。结果还表明，PROTAC诱导的蛋白质-蛋白质相互作用在其建模中的重要性，无论是定性还是定量层面。最后，基于早期基于对接方法的成功，我们的协议也被用作姿态预测中的重打分函数。结果显示，在重新排序由改良Rosetta方法生成的初始姿态方面有显著改进，该方法据称是该领域现有少数PROTAC建模方法中表现最佳之一。我们希望这项工作能为研究PROTACs及其他蛋白降解剂的结合与设计提供实用协议和更多见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35084845/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35084845/",
+  "paper_page_path": "papers/pubmed/35084845/index.html"
+}

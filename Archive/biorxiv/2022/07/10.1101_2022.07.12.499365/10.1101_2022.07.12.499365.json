@@ -1,0 +1,384 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.12.499365",
+  "title": "Peptide binding specificity prediction using fine-tuned protein structure prediction networks",
+  "doi": "10.1101/2022.07.12.499365",
+  "abstract": "Peptide binding proteins play key roles in biology, and predicting their binding specificity is a long-standing challenge. While considerable protein structural information is available, the most successful current methods use sequence information alone, in part because it has been a challenge to model the subtle structural changes accompanying sequence substitutions. Protein structure prediction networks such as AlphaFold model sequence-structure relationships very accurately, and we reasoned that if it were possible to specifically train such networks on binding data, more generalizable models could be created. We show that placing a classifier on top of the AlphaFold network and fine-tuning the combined network parameters for both classification and structure prediction accuracy leads to a model with strong generalizable performance on a wide range of Class I and Class II peptide-MHC interactions that approaches the overall performance of the state-of-the-art NetMHCpan sequence-based method. The peptide-MHC optimized model shows excellent performance in distinguishing binding and non-binding peptides to SH3 and PDZ domains. This ability to generalize well beyond the training set far exceeds that of sequence only models, and should be particularly powerful for systems where less experimental data is available. Significance statement Peptide binding proteins carry out a variety of biological functions in cells and predicting their binding specificity could significantly improve our understanding of molecular pathways. Deep neural networks have achieved high structure prediction accuracy, but are not trained to predict binding specificity. Here we describe an approach to extending such networks to jointly predict protein structure and binding specificity. We incorporate AlphaFold into this approach, and fine-tune its parameters on peptide-MHC Class I and II structural and binding data. The fine-tuned model approaches state-of-the-art classification accuracy on peptide-MHC specificity prediction and generalizes to other peptide-binding systems such as the PDZ and SH3 domains.",
+  "authors": [
+    "Amir Motmaen",
+    "Justas Dauparas",
+    "Minkyung Baek",
+    "Mohamad H. Abedi",
+    "David Baker",
+    "Philip Bradley"
+  ],
+  "published_date": "2022-07-13",
+  "updated_date": "2022-07-14T00:25:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.12.499365",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.12.499365.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:40:47Z",
+        "timestamp": 1768502447719,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 21,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Peptide binding proteins play key roles in biology, and predicting their binding specificity is a long-standing challenge. While considerable protein structural information is available, the most successful current methods use sequence information alone, in part because it has been a challenge to model the subtle structural changes accompanying sequence substitutions. Protein structure prediction networks such as AlphaFold model sequence-structure relationships very accurately, and we reasoned that if it were possible to specifically train such networks on binding data, more generalizable models could be created. We show that placing a classifier on top of the AlphaFold network and fine-tuning the combined network parameters for both classification and structure prediction accuracy leads to a model with strong generalizable performance on a wide range of Class I and Class II peptide-MHC interactions that approaches the overall performance of the state-of-the-art NetMHCpan sequence-based method. The peptide-MHC optimized model shows excellent performance in distinguishing binding and non-binding peptides to SH3 and PDZ domains. This ability to generalize well beyond the training set far exceeds that of sequence only models, and should be particularly powerful for systems where less experimental data is available.</jats:p>\n                <jats:sec>\n                  <jats:title>Significance statement</jats:title>\n                  <jats:p>Peptide binding proteins carry out a variety of biological functions in cells and predicting their binding specificity could significantly improve our understanding of molecular pathways. Deep neural networks have achieved high structure prediction accuracy, but are not trained to predict binding specificity. Here we describe an approach to extending such networks to jointly predict protein structure and binding specificity. We incorporate AlphaFold into this approach, and fine-tune its parameters on peptide-MHC Class I and II structural and binding data. The fine-tuned model approaches state-of-the-art classification accuracy on peptide-MHC specificity prediction and generalizes to other peptide-binding systems such as the PDZ and SH3 domains.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.07.12.499365",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            14
+          ]
+        ],
+        "date-time": "2022-07-14T00:25:16Z",
+        "timestamp": 1657758316000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 17,
+      "title": [
+        "Peptide binding specificity prediction using fine-tuned protein structure prediction networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4190-6215",
+          "authenticated-orcid": false,
+          "given": "Amir",
+          "family": "Motmaen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0030-144X",
+          "authenticated-orcid": false,
+          "given": "Justas",
+          "family": "Dauparas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3414-9404",
+          "authenticated-orcid": false,
+          "given": "Minkyung",
+          "family": "Baek",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9717-6288",
+          "authenticated-orcid": false,
+          "given": "Mohamad H.",
+          "family": "Abedi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7896-6217",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Baker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0224-6464",
+          "authenticated-orcid": false,
+          "given": "Philip",
+          "family": "Bradley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "W449",
+          "DOI": "10.1093/nar/gkaa379",
+          "article-title": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JPROTEOME.9B00874"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "866",
+          "DOI": "10.1002/prot.26065",
+          "article-title": "Deep learning pan-specific model for interpretable MHC-I peptide binding prediction with improved attention mechanism",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "i399",
+          "DOI": "10.1093/bioinformatics/btaa479",
+          "article-title": "MHCAttnNet: predicting MHC-peptide bindings for MHC alleles classes I and II using an attention-based deep neural model",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1038/s41587-019-0322-9",
+          "article-title": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz330"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Gfeller , et al., Predictions of immunogenicity reveal potent SARS-CoV-2 CD8+ T-cell epitopes. bioRxiv, 2022.05.23.492800 (2022).",
+          "DOI": "10.1101/2022.05.23.492800"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "245",
+          "DOI": "10.1007/978-1-0716-1855-4_13",
+          "article-title": "Structural Prediction of Peptide-MHC Binding Modes",
+          "volume": "2405",
+          "year": "2022",
+          "journal-title": "Methods Mol. Biol"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1711",
+          "DOI": "10.1002/prot.26257",
+          "article-title": "Applying and improving AlphaFold at CASP14",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "eabm4805",
+          "DOI": "10.1126/science.abm4805",
+          "article-title": "Computed structures of core eukaryotic protein complexes",
+          "volume": "374",
+          "year": "2021",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Chang , A. Perez , AlphaFold encodes the principles to identify high affinity peptide binders. bioRxiv, 2022.03.18.484931 (2022).",
+          "DOI": "10.1101/2022.03.18.484931"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Bennett , et al., Improving de novo Protein Binder Design with Deep Learning. bioRxiv, 2022.06.15.495993 (2022).",
+          "DOI": "10.1101/2022.06.15.495993"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2017.02.007"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.07.032"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0060239"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20199310"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2022071512350612000_2022.07.12.499365v1.21",
+          "unstructured": "Pedregosa, Varoquaux, Gramfort, Scikit-learn: Machine learning in Python. of machine Learning … (2011)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.07.12.499365",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:20:52Z",
+        "timestamp": 1768447252000
+      },
+      "score": 92.58389,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.07.12.499365"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            13
+          ]
+        ]
+      },
+      "references-count": 21,
+      "URL": "https://doi.org/10.1101/2022.07.12.499365",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1073/pnas.2216697120",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

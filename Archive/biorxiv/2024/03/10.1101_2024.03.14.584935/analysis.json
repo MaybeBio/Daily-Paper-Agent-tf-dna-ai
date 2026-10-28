@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.14.584935",
+  "title": "ProAffinity-GNN: A Novel Approach to Structure-based Protein-Protein Binding Affinity Prediction via a Curated Dataset and Graph Neural Networks",
+  "authors": "Zhiyuan Zhou; Yueming Yin; Hao Han; Yiping Jia; Jun Hong Koh; Adams Wai-Kin Kong; Yuguang Mu",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-15",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用GNN和蛋白语言模型预测蛋白质-蛋白质结合亲和力，虽非TF-DNA体系，但结构基结合亲和力建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Protein-protein interactions (PPIs) are crucial for understanding biological processes and disease mechanisms, contributing significantly to advances in protein engineering and drug discovery. The accurate determination of binding affinities, essential for decoding PPIs, faces challenges due to the substantial time and financial costs involved in experimental and theoretical methods. This situation underscores the urgent need for more effective and precise methodologies for predicting binding affinity. Despite the abundance of research on PPI modeling, the field of quantitative binding affinity prediction remains underexplored, mainly due to a lack of comprehensive data. This study seeks to address these needs by manually curating pairwise interaction labels on all available 3D structures of proteins complexes, with experimentally determined binding affinities, creating the largest dataset for structure-based pairwise protein interaction with binding affinity to date. Subsequently, we introduce “ProAffinity-GNN”, a novel deep learning framework using protein language model and graph neural network (GNN) to improve the accuracy of prediction of structure-based protein-protein binding affinities. The evaluation results across several benchmark test sets demonstrate that ProAffinity-GNN not only outperforms existing models in terms of accuracy but also shows strong generalization capabilities.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）对于理解生物过程和疾病机制至关重要，显著推动了蛋白质工程和药物发现的发展。结合亲和力的准确测定对于解码PPIs至关重要，但由于实验和理论方法涉及的大量时间和财务成本，这一过程面临挑战。这种情况凸显了开发更有效、更精确的结合亲和力预测方法的迫切需求。尽管关于PPI建模的研究丰富，但定量结合亲和力预测领域仍未被充分探索，主要原因是缺乏全面的数据。本研究旨在通过手动整理所有可用蛋白质复合物三维结构上的成对相互作用标签，并附有实验测定的结合亲和力，创建迄今为止最大的基于结构的成对蛋白质相互作用与结合亲和力数据集，以满足这些需求。随后，我们引入了“ProAffinity-GNN”，一种新颖的深度学习框架，利用蛋白质语言模型和图神经网络（GNN）来提高基于结构的蛋白质-蛋白质结合亲和力预测的准确性。在多个基准测试集上的评估结果表明，ProAffinity-GNN不仅在准确性上优于现有模型，而且展现出强大的泛化能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584935",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584935",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.14.584935/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38260098",
+  "title": "Identification of mitophagy-related biomarkers in human osteoporosis based on a machine learning model.",
+  "authors": "Su, Yu; Yu, Gangying; Li, Dongchen; Lu, Yao; Ren, Cheng; Xu, Yibo; Yang, Yanling; Zhang, Kun; Ma, Teng; Li, Zhong",
+  "journal": "Frontiers in physiology",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于机器学习识别骨质疏松中线粒体自噬相关生物标志物，虽涉及转录因子调控网络但非蛋白质-DNA互作核心，且无AI/物理模拟结合建模，与本课题关联微弱。",
+  "abstract": "Background: Osteoporosis (OP) is a chronic bone metabolic disease and a serious global public health problem. Several studies have shown that mitophagy plays an important role in bone metabolism disorders; however, its role in osteoporosis remains unclear. Methods: The Gene Expression Omnibus (GEO) database was used to download GSE56815, a dataset containing low and high BMD, and differentially expressed genes (DEGs) were analyzed. Mitochondrial autophagy-related genes (MRG) were downloaded from the existing literature, and highly correlated MRG were screened by bioinformatics methods. The results from both were taken as differentially expressed (DE)-MRG, and Gene Ontology (GO) analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were performed. Protein-protein interaction network (PPI) analysis, support vector machine recursive feature elimination (SVM-RFE), and Boruta method were used to identify DE-MRG. A receiver operating characteristic curve (ROC) was drawn, a nomogram model was constructed to determine its diagnostic value, and a variety of bioinformatics methods were used to verify the relationship between these related genes and OP, including GO and KEGG analysis, IP pathway analysis, and single-sample Gene Set Enrichment Analysis (ssGSEA). In addition, a hub gene-related network was constructed and potential drugs for the treatment of OP were predicted. Finally, the specific genes were verified by real-time quantitative polymerase chain reaction (RT-qPCR). Results: In total, 548 DEGs were identified in the GSE56815 dataset. The weighted gene co-expression network analysis(WGCNA) identified 2291 key module genes, and 91 DE-MRG were obtained by combining the two. The PPI network revealed that the target gene for AKT1 interacted with most proteins. Three MRG (NELFB, SFSWAP, and MAP3K3) were identified as hub genes, with areas under the curve (AUC) 0.75, 0.71, and 0.70, respectively. The nomogram model has high diagnostic value. GO and KEGG analysis showed that ribosome pathway and cellular ribosome pathway may be the pathways regulating the progression of OP. IPA showed that MAP3K3 was associated with six pathways, including GNRH Signaling. The ssGSEA indicated that NELFB was highly correlated with iDCs (cor = -0.390, p < 0.001). The regulatory network showed a complex relationship between miRNA, transcription factor(TF) and hub genes. In addition, 4 drugs such as vinclozolin were predicted to be potential therapeutic drugs for OP. In RT-qPCR verification, the hub gene NELFB was consistent with the results of bioinformatics analysis. Conclusion: Mitophagy plays an important role in the development of osteoporosis. The identification of three mitophagy-related genes may contribute to the early diagnosis, mechanism research and treatment of OP.",
+  "abstract_zh": "背景：骨质疏松症（OP）是一种慢性骨代谢疾病，也是严重的全球公共卫生问题。多项研究表明，线粒体自噬（mitophagy）在骨代谢紊乱中发挥重要作用；然而，其在骨质疏松症中的作用仍不明确。方法：利用基因表达综合（GEO）数据库下载GSE56815数据集，该数据集包含低和高骨密度样本，并分析差异表达基因（DEGs）。从现有文献中获取线粒体自噬相关基因（MRG），并通过生物信息学方法筛选高度相关的MRG。将两者的结果取交集作为差异表达（DE）-MRG，并进行基因本体论（GO）分析和京都基因与基因组百科全书（KEGG）富集分析。采用蛋白质-蛋白质相互作用网络（PPI）分析、支持向量机递归特征消除（SVM-RFE）和Boruta方法鉴定DE-MRG。绘制受试者工作特征曲线（ROC），构建列线图模型以评估其诊断价值，并利用多种生物信息学方法验证这些相关基因与OP的关系，包括GO和KEGG分析、IPA通路分析及单样本基因集富集分析（ssGSEA）。此外，构建了核心基因相关网络，并预测了治疗OP的潜在药物。最后，通过实时定量聚合酶链反应（RT-qPCR）验证特定基因。结果：在GSE56815数据集中共鉴定出548个DEGs。加权基因共表达网络分析（WGCNA）识别出2291个关键模块基因，结合两者获得91个DE-MRG。PPI网络显示AKT1的靶基因与大多数蛋白质相互作用。三个MRG（NELFB、SFSWAP和MAP3K3）被鉴定为核心基因，其曲线下面积（AUC）分别为0.75、0.71和0.70。列线图模型具有较高的诊断价值。GO和KEGG分析显示，核糖体通路和细胞核糖体通路可能是调控OP进展的通路。IPA分析表明MAP3K3与六条通路相关，包括GNRH信号通路。ssGSEA显示NELFB与iDCs高度相关（cor = -0.390，p < 0.001）。调控网络显示miRNA、转录因子（TF）和核心基因之间存在复杂关系。此外，预测了包括vinclozolin在内的4种药物作为OP的潜在治疗药物。在RT-qPCR验证中，核心基因NELFB与生物信息学分析结果一致。结论：线粒体自噬在骨质疏松症的发展中发挥重要作用。三个线粒体自噬相关基因的鉴定可能有助于OP的早期诊断、机制研究和治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38260098/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38260098/",
+  "paper_page_path": "papers/pubmed/38260098/index.html"
+}

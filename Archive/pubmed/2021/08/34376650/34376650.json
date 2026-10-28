@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "34376650",
+    "doi": "10.1038/s41467-021-25129-x",
+    "title": "The molecular basis, genetic control and pleiotropic effects of local gene co-expression."
+  },
+  "content": {
+    "abstract": "Nearby genes are often expressed as a group. Yet, the prevalence, molecular mechanisms and genetic control of local gene co-expression are far from being understood. Here, by leveraging gene expression measurements across 49 human tissues and hundreds of individuals, we find that local gene co-expression occurs in 13% to 53% of genes per tissue. By integrating various molecular assays (e.g. ChIP-seq and Hi-C), we estimate the ability of several mechanisms, such as enhancer-gene interactions, in distinguishing gene pairs that are co-expressed from those that are not. Notably, we identify 32,636 expression quantitative trait loci (eQTLs) which associate with co-expressed gene pairs and often overlap enhancer regions. Due to affecting several genes, these eQTLs are more often associated with multiple human traits than other eQTLs. Our study paves the way to comprehend trait pleiotropy and functional interpretation of QTL and GWAS findings. All local gene co-expression identified here is available through a public database ( https://glcoex.unil.ch/ ).",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Gene Expression Regulation",
+      "Gene Ontology",
+      "Genetic Association Studies/methods",
+      "Genetic Pleiotropy/*genetics",
+      "Genome, Human/*genetics",
+      "Genome-Wide Association Study/*methods",
+      "Humans",
+      "*Polymorphism, Single Nucleotide",
+      "Quantitative Trait Loci/*genetics",
+      "Regulatory Sequences, Nucleic Acid/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ribeiro, Diogo M",
+        "Rubinacci, Simone",
+        "Ramisch, Anna",
+        "Hofmeister, Robin J",
+        "Dermitzakis, Emmanouil T",
+        "Delaneau, Olivier"
+      ],
+      "short_names": [
+        "Ribeiro DM",
+        "Rubinacci S",
+        "Ramisch A",
+        "Hofmeister RJ",
+        "Dermitzakis ET",
+        "Delaneau O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0482-7342",
+        "ORCID: 0000-0002-0641-4330",
+        "ORCID: 0000-0002-9965-595X",
+        "ORCID: 0000-0002-9302-6490",
+        "ORCID: 0000-0002-3906-8446"
+      ],
+      "affiliations": [
+        "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Department of Genetic Medicine and Development, University of Geneva, Geneva, Switzerland.",
+        "Institute of Genetics and Genomics in Geneva, University of Geneva, Geneva, Switzerland.",
+        "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Department of Genetic Medicine and Development, University of Geneva, Geneva, Switzerland.",
+        "Institute of Genetics and Genomics in Geneva, University of Geneva, Geneva, Switzerland.",
+        "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland. olivier.delaneau@unil.ch.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland. olivier.delaneau@unil.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ribeiro, Diogo M",
+        "short_name": "Ribeiro DM",
+        "identifiers": [
+          "0000-0002-0482-7342"
+        ],
+        "affiliations": [
+          "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Rubinacci, Simone",
+        "short_name": "Rubinacci S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ramisch, Anna",
+        "short_name": "Ramisch A",
+        "identifiers": [
+          "0000-0002-0641-4330"
+        ],
+        "affiliations": [
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+          "Department of Genetic Medicine and Development, University of Geneva, Geneva, Switzerland.",
+          "Institute of Genetics and Genomics in Geneva, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hofmeister, Robin J",
+        "short_name": "Hofmeister RJ",
+        "identifiers": [
+          "0000-0002-9965-595X"
+        ],
+        "affiliations": [
+          "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Dermitzakis, Emmanouil T",
+        "short_name": "Dermitzakis ET",
+        "identifiers": [
+          "0000-0002-9302-6490"
+        ],
+        "affiliations": [
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+          "Department of Genetic Medicine and Development, University of Geneva, Geneva, Switzerland.",
+          "Institute of Genetics and Genomics in Geneva, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Delaneau, Olivier",
+        "short_name": "Delaneau O",
+        "identifiers": [
+          "0000-0002-3906-8446"
+        ],
+        "affiliations": [
+          "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland. olivier.delaneau@unil.ch.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland. olivier.delaneau@unil.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Aug 10",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/12 06:00",
+    "fetched_at": "2026-09-27 22:06:12"
+  },
+  "links": {
+    "cites": [
+      "42362565",
+      "42102166",
+      "41966688",
+      "41935098",
+      "41888598",
+      "41875896",
+      "41484369",
+      "40770577",
+      "40658216",
+      "40502148",
+      "40060619",
+      "39669750",
+      "39087497",
+      "38710690",
+      "38048082",
+      "37976327",
+      "37961468",
+      "37807874",
+      "37292479",
+      "37237005",
+      "36977773",
+      "36028576",
+      "35929807",
+      "35892220",
+      "34991727"
+    ],
+    "refs": [
+      "33499903",
+      "32913098",
+      "32728247",
+      "32424349",
+      "31740966",
+      "31691826",
+      "31691815",
+      "31605096",
+      "31427789",
+      "31253982",
+      "31097038",
+      "31048460",
+      "30395287",
+      "30357393",
+      "30357367",
+      "30305743",
+      "29955180",
+      "29126285",
+      "29022597",
+      "28902867",
+      "28835372",
+      "28690838",
+      "28596423",
+      "28516912",
+      "27515742",
+      "26484571",
+      "26432245",
+      "26395773",
+      "25954001",
+      "25887522",
+      "25743543",
+      "25693563",
+      "25497547",
+      "24830394",
+      "24037378",
+      "23900538",
+      "23209799",
+      "22955828",
+      "22955616",
+      "22426492",
+      "22373907",
+      "22343431",
+      "22208852",
+      "21653522",
+      "20220756",
+      "20110278",
+      "19223927",
+      "19160492",
+      "18344981",
+      "17963489",
+      "17660811",
+      "17623807",
+      "16381938",
+      "16381887",
+      "15527963",
+      "15131653",
+      "14597658",
+      "10802651",
+      "10592173"
+    ],
+    "similar": [
+      "34376650",
+      "23935528",
+      "22077970",
+      "22144904",
+      "28282383",
+      "34001886",
+      "33926512",
+      "24956270",
+      "33352115",
+      "32264818",
+      "28552197",
+      "24238872",
+      "31974475",
+      "31292129",
+      "24920305",
+      "32363570",
+      "34699533",
+      "27260304",
+      "31427789",
+      "25983244",
+      "31296926",
+      "33980847",
+      "31045203",
+      "34293285",
+      "28122634",
+      "22532805",
+      "22143242",
+      "28528868",
+      "29335020",
+      "22293038",
+      "29058714",
+      "32915782",
+      "26019233",
+      "22307276",
+      "28369037",
+      "37339141",
+      "25759474",
+      "33411684",
+      "33371893",
+      "31481029",
+      "37229810",
+      "29058715",
+      "33264334",
+      "16978413",
+      "30401456",
+      "23173617",
+      "34208629",
+      "27976820",
+      "33710309",
+      "30864331",
+      "26503467",
+      "29378629",
+      "33957961",
+      "31718536",
+      "33120085",
+      "29101457",
+      "25791433",
+      "28854703",
+      "32912334",
+      "26102239",
+      "36424644",
+      "37857933",
+      "35953856",
+      "25044106",
+      "31206546",
+      "32870927",
+      "35100260",
+      "35100362",
+      "30172742",
+      "30712509",
+      "25079323",
+      "34193030",
+      "34895209",
+      "21846806",
+      "28743860",
+      "28754724",
+      "28961735",
+      "29650998",
+      "31679650",
+      "27554816",
+      "25315895",
+      "28388430",
+      "27140173",
+      "28683716",
+      "25951796",
+      "27220646",
+      "28062664",
+      "26689779",
+      "32103259",
+      "28334860",
+      "37870463",
+      "27980060",
+      "22433082",
+      "24770875",
+      "28727040",
+      "38166730",
+      "27758088",
+      "36163279",
+      "32436959",
+      "39238468",
+      "29022597"
+    ],
+    "review": [
+      "34376650",
+      "22077970",
+      "24238872",
+      "37339141",
+      "34208629",
+      "28334860",
+      "24770875"
+    ],
+    "pmc": [
+      "8355184"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25129-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34376650/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34376650",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://iris.unil.ch/handle/iris/123935",
+        "provider": "University of Lausanne/CHUV - IRIS",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

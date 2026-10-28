@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "35303216",
+    "doi": "10.1007/s11517-022-02539-7",
+    "title": "Predicting residues involved in anti-DNA autoantibodies with limited neural networks."
+  },
+  "content": {
+    "abstract": "Computer-aided rational vaccine design (RVD) and synthetic pharmacology are rapidly developing fields that leverage existing datasets for developing compounds of interest. Computational proteomics utilizes algorithms and models to probe proteins for functional prediction. A potentially strong target for computational approach is autoimmune antibodies, which are the result of broken tolerance in the immune system where it cannot distinguish \"self\" from \"non-self\" resulting in attack of its own structures (proteins and DNA, mainly). The information on structure, function, and pathogenicity of autoantibodies may assist in engineering RVD against autoimmune diseases. Current computational approaches exploit large datasets curated with extensive domain knowledge, most of which include the need for many resources and have been applied indirectly to problems of interest for DNA, RNA, and monomer protein binding. We present a novel method for discovering potential binding sites. We employed long short-term memory (LSTM) models trained on FASTA primary sequences to predict protein binding in DNA-binding hydrolytic antibodies (abzymes). We also employed CNN models applied to the same dataset for comparison with LSTM. While the CNN model outperformed the LSTM on the primary task of binding prediction, analysis of internal model representations of both models showed that the LSTM models recovered sub-sequences that were strongly correlated with sites known to be involved in binding. These results demonstrate that analysis of internal processes of LSTM models may serve as a powerful tool for primary sequence analysis.",
+    "keywords": [
+      "Auto-immunity",
+      "DNA-binding",
+      "Deep learning",
+      "LSTM",
+      "Proteomics",
+      "Systemic lupus"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Autoantibodies",
+      "Binding Sites",
+      "DNA/metabolism",
+      "*Neural Networks, Computer",
+      "Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "St Clair, Rachel",
+        "Teti, Michael",
+        "Pavlovic, Mirjana",
+        "Hahn, William",
+        "Barenholtz, Elan"
+      ],
+      "short_names": [
+        "St Clair R",
+        "Teti M",
+        "Pavlovic M",
+        "Hahn W",
+        "Barenholtz E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7590-116X"
+      ],
+      "affiliations": [
+        "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA. rstclair2012@fau.edu.",
+        "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA.",
+        "Department of Electrical Engineering and Computer Science, Florida Atlantic University, Boca Raton, USA.",
+        "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA.",
+        "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "St Clair, Rachel",
+        "short_name": "St Clair R",
+        "identifiers": [
+          "0000-0001-7590-116X"
+        ],
+        "affiliations": [
+          "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA. rstclair2012@fau.edu."
+        ]
+      },
+      {
+        "full_name": "Teti, Michael",
+        "short_name": "Teti M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA."
+        ]
+      },
+      {
+        "full_name": "Pavlovic, Mirjana",
+        "short_name": "Pavlovic M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, Florida Atlantic University, Boca Raton, USA."
+        ]
+      },
+      {
+        "full_name": "Hahn, William",
+        "short_name": "Hahn W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA."
+        ]
+      },
+      {
+        "full_name": "Barenholtz, Elan",
+        "short_name": "Barenholtz E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Complex Systems and Brain Sciences, Florida Atlantic University, Boca Raton, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical & biological engineering & computing"
+    ],
+    "journal_abbrev": [
+      "Med Biol Eng Comput"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/19 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "42427491",
+      "40155973",
+      "36458233"
+    ],
+    "refs": [
+      "33876751",
+      "33316921",
+      "32568539",
+      "32163118",
+      "31942072",
+      "31811618",
+      "31775612",
+      "31510640",
+      "30395287",
+      "29970003",
+      "29287069",
+      "28545462",
+      "28541224",
+      "28245811",
+      "28005526",
+      "27473064",
+      "26213851",
+      "22079048",
+      "20511275",
+      "18028946",
+      "17893987",
+      "17608956",
+      "16446784",
+      "15155740",
+      "12680766",
+      "11733999",
+      "10826952",
+      "10592235",
+      "9202385",
+      "8990091",
+      "8799469",
+      "8634294",
+      "3406869",
+      "1749770",
+      "1626077"
+    ],
+    "similar": [
+      "35303216",
+      "34601431",
+      "34073774",
+      "33334313",
+      "37845681",
+      "35780100",
+      "37004267",
+      "35248805",
+      "30040656",
+      "35336437",
+      "33446245",
+      "30943972",
+      "30071670",
+      "31212880",
+      "33794507",
+      "34858492",
+      "31048831",
+      "34415289",
+      "35633492",
+      "34206540",
+      "31725778",
+      "35189635",
+      "39270885",
+      "34577436",
+      "33988840",
+      "30106688",
+      "34159204",
+      "29722865",
+      "35669644",
+      "33980138",
+      "35746200",
+      "34118670",
+      "29513748",
+      "30888519",
+      "31113301",
+      "33967391",
+      "33424547",
+      "31783334",
+      "34283153",
+      "21803542",
+      "32326349",
+      "28245811",
+      "34637380",
+      "31775612",
+      "35693256",
+      "35808184",
+      "35740899",
+      "26824467",
+      "34712316",
+      "30835207",
+      "32379942",
+      "31228283",
+      "35477057",
+      "31722485",
+      "30321300",
+      "33923712",
+      "34306171",
+      "33744657",
+      "31443043",
+      "34614452",
+      "28011771",
+      "31946581",
+      "31794405",
+      "21816712",
+      "35103942",
+      "34199559",
+      "33019313",
+      "31352339",
+      "17488755",
+      "32004641",
+      "22461885",
+      "32501689",
+      "31305921",
+      "34481129",
+      "35591209",
+      "34640732",
+      "35457080",
+      "38349057",
+      "37437362"
+    ],
+    "review": [
+      "35303216",
+      "31113301"
+    ],
+    "pmc": [
+      "8932093"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35303216/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11517-022-02539-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35303216",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

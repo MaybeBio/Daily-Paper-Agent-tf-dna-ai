@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "40228447",
+    "doi": "10.1016/j.compbiomed.2025.110144",
+    "title": "BCOR-rearranged sarcomas: In silico insights into altered domains and BCOR interactions."
+  },
+  "content": {
+    "abstract": "BCOR (BCL-6 corepressor) rearranged small round cell sarcoma (BRS) represents an uncommon soft tissue malignancy, frequently characterized by the BCOR::CCNB3 fusion. Other noteworthy fusions include BCOR::MAML3, BCOR::CLGN, BCOR::MAML1, ZC3H7B::BCOR, KMT2D::BCOR, CIITA::BCOR, RTL9::BCOR, and AHR::BCOR. The BCOR gene plays a pivotal role in the Polycomb Repressive Complex 1 (PRC1), essential for histone modification and gene silencing. It interfaces with the Polycomb group RING finger homolog (PCGF1). This study employed comprehensive in silico methodologies to investigate the structural and functional effects of BCOR fusion events in BRS. The analysis revealed significant alterations in the domain architecture of BCOR, which resulted in the loss of BCL6-regulated transcriptional repression. Furthermore, IUPred3 prediction indicated a significant increase in disorder in the C-terminal regions of the BCOR in the fusion proteins. A detailed analysis of the physicochemical properties by ProtParam revealed a decrease in isoelectric point, stability, and hydrophobicity. The analysis of protein structures predicted by AlphaFold3 using the PRODIGY algorithm revealed statistically significant deviations in binding affinities for BCOR-PCGF1 dimers and a non-canonical PRC1 variant tetramer compared to the wild-type BCOR. The findings provide a comprehensive summary and elucidation of the fusion proteome associated with BRS, suggesting a substantial impact on the stability and functionality of the fusion proteins, thereby contributing to the oncogenic mechanisms underlying BRS. In this study, we provide the first compilation and comparative analysis of the known BCOR fusions of BRS and introduce a new in silico approach to enhance a better understanding of the molecular basis of BRS.",
+    "keywords": [
+      "AlphaFold3",
+      "BCOR",
+      "BRS",
+      "Bioinformatics",
+      "Sarcoma"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins/genetics/chemistry/metabolism",
+      "Humans",
+      "*Repressor Proteins/genetics/chemistry/metabolism",
+      "*Sarcoma/genetics/metabolism",
+      "*Oncogene Proteins, Fusion/genetics/chemistry/metabolism",
+      "Protein Domains",
+      "Computer Simulation",
+      "*Gene Rearrangement"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Madarasz, Kristof",
+        "Motyan, Janos Andras",
+        "Chang Chien, Yi-Che",
+        "Bedekovics, Judit",
+        "Csoma, Szilvia Lilla",
+        "Mehes, Gabor",
+        "Mokanszki, Attila"
+      ],
+      "short_names": [
+        "Madarasz K",
+        "Motyan JA",
+        "Chang Chien YC",
+        "Bedekovics J",
+        "Csoma SL",
+        "Mehes G",
+        "Mokanszki A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: madarasz.kristof@med.unideb.hu.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: motyan.janos@med.unideb.hu.",
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: dr.changchien.yiche@med.unideb.hu.",
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: bedekovics.judit@med.unideb.hu.",
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: csoma.szilvia@med.unideb.hu.",
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: gabor.mehes@med.unideb.hu.",
+        "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: mokanszki.attila@med.unideb.hu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Madarász, Kristóf",
+        "short_name": "Madarász K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: madarasz.kristof@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Mótyán, János András",
+        "short_name": "Mótyán JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: motyan.janos@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Chang Chien, Yi-Che",
+        "short_name": "Chang Chien YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: dr.changchien.yiche@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Bedekovics, Judit",
+        "short_name": "Bedekovics J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: bedekovics.judit@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Csoma, Szilvia Lilla",
+        "short_name": "Csoma SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: csoma.szilvia@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Méhes, Gábor",
+        "short_name": "Méhes G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: gabor.mehes@med.unideb.hu."
+        ]
+      },
+      {
+        "full_name": "Mokánszki, Attila",
+        "short_name": "Mokánszki A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary. Electronic address: mokanszki.attila@med.unideb.hu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 00:25",
+    "fetched_at": "2026-09-30 15:57:52"
+  },
+  "links": {
+    "cites": [
+      "40799364"
+    ],
+    "refs": [],
+    "similar": [
+      "40228447",
+      "36765856",
+      "38422910",
+      "26752546",
+      "32161069",
+      "29300189",
+      "27428733",
+      "32628469",
+      "32156473",
+      "31150281",
+      "22387997",
+      "32034283",
+      "28197724",
+      "37634866",
+      "26945340",
+      "36791667",
+      "28817404",
+      "33630701",
+      "34405608",
+      "33888406",
+      "31647130",
+      "30064235",
+      "36591870",
+      "30380541",
+      "35537005",
+      "20807888",
+      "29337181",
+      "28756981",
+      "28420319",
+      "24285434",
+      "32871837",
+      "37212486",
+      "25360585",
+      "32048619",
+      "29227121",
+      "27306060",
+      "34103053",
+      "23523425",
+      "27228320",
+      "39285667",
+      "38678332",
+      "23580382",
+      "32493417",
+      "28833375",
+      "35568949",
+      "16943429",
+      "31471323",
+      "29431183",
+      "34057377",
+      "37814845",
+      "32372022",
+      "24515802",
+      "18280243",
+      "28877060",
+      "28621321",
+      "27914109",
+      "28173669",
+      "26687479",
+      "39256555",
+      "34515251",
+      "31876361",
+      "33388948",
+      "32840647",
+      "24805859",
+      "33909519",
+      "35499168",
+      "38718771",
+      "37562066",
+      "39871307",
+      "32648496",
+      "29200103",
+      "31938824",
+      "31900635",
+      "29192652",
+      "36198487",
+      "32875423",
+      "33468080",
+      "10898795",
+      "26573325",
+      "36853789",
+      "29901520",
+      "33118176",
+      "30257034",
+      "36480832",
+      "30396568",
+      "25176412",
+      "34331570",
+      "32352245",
+      "33722704",
+      "30816933",
+      "29084055",
+      "30144186",
+      "36533315",
+      "32790583",
+      "30709443",
+      "38762770",
+      "37837859",
+      "27568929",
+      "35251628",
+      "35545465"
+    ],
+    "review": [
+      "40228447",
+      "31150281",
+      "33630701",
+      "36591870",
+      "29227121",
+      "27306060",
+      "39285667",
+      "34515251",
+      "33388948",
+      "37562066",
+      "36198487",
+      "32875423",
+      "30257034",
+      "36533315",
+      "30709443"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)00495-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-978",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)00495-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

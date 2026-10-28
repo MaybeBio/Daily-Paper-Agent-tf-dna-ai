@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "38241144",
+    "doi": "10.1021/acs.jctc.3c00833",
+    "title": "Brewing COFFEE: A Sequence-Specific Coarse-Grained Energy Function for Simulations of DNA-Protein Complexes."
+  },
+  "content": {
+    "abstract": "DNA-protein interactions are pervasive in a number of biophysical processes ranging from transcription and gene expression to chromosome folding. To describe the structural and dynamic properties underlying these processes accurately, it is important to create transferable computational models. Toward this end, we introduce Coarse-grained Force Field for Energy Estimation, COFFEE, a robust framework for simulating DNA-protein complexes. To brew COFFEE, we integrated the energy function in the self-organized polymer model with side-chains for proteins and the three interaction site model for DNA in a modular fashion, without recalibrating any of the parameters in the original force-fields. A unique feature of COFFEE is that it describes sequence-specific DNA-protein interactions using a statistical potential (SP) derived from a data set of high-resolution crystal structures. The only parameter in COFFEE is the strength (lambda(DNAPRO)) of the DNA-protein contact potential. For an optimal choice of lambda(DNAPRO), the crystallographic B-factors for DNA-protein complexes with varying sizes and topologies are quantitatively reproduced. Without any further readjustments to the force-field parameters, COFFEE predicts scattering profiles that are in quantitative agreement with small-angle X-ray scattering experiments, as well as chemical shifts that are consistent with NMR. We also show that COFFEE accurately describes the salt-induced unraveling of nucleosomes. Strikingly, our nucleosome simulations explain the destabilization effect of ARG to LYS mutations, which do not alter the balance of electrostatic interactions but affect chemical interactions in subtle ways. The range of applications attests to the transferability of COFFEE, and we anticipate that it would be a promising framework for simulating DNA-protein complexes at the molecular length-scale.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes",
+      "*DNA/chemistry",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Debayan",
+        "Mondal, Balaka",
+        "Thirumalai, D"
+      ],
+      "short_names": [
+        "Chakraborty D",
+        "Mondal B",
+        "Thirumalai D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4339-5818",
+        "ORCID: 0000-0003-1801-5924"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States.",
+        "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States.",
+        "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States.",
+        "Department of Physics, The University of Texas at Austin, 2515 Speedway, Austin 78712, Texas, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Debayan",
+        "short_name": "Chakraborty D",
+        "identifiers": [
+          "0000-0003-4339-5818"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States."
+        ]
+      },
+      {
+        "full_name": "Mondal, Balaka",
+        "short_name": "Mondal B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States."
+        ]
+      },
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, 105 E 24th Street, Stop A5300, Austin 78712, Texas, United States.",
+          "Department of Physics, The University of Texas at Austin, 2515 Speedway, Austin 78712, Texas, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Feb 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/19 18:30",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "42166798",
+      "41875330",
+      "41137856",
+      "40673435",
+      "40172489",
+      "40029962",
+      "39927543",
+      "39574694",
+      "38783081"
+    ],
+    "refs": [],
+    "similar": [
+      "38241144",
+      "37333386",
+      "23912807",
+      "27300314",
+      "36112935",
+      "29870236",
+      "25563807",
+      "28958932",
+      "32145953",
+      "18270964",
+      "25418099",
+      "36278317",
+      "23475204",
+      "30044622",
+      "30072033",
+      "18212006",
+      "29367745",
+      "26991771",
+      "35793442",
+      "33912585",
+      "25564155",
+      "18282071",
+      "33577557",
+      "33383034",
+      "19817469",
+      "18083189",
+      "26584108",
+      "24116642",
+      "31882248",
+      "32035448",
+      "12596908",
+      "30620594",
+      "31984192",
+      "29656646",
+      "32168683",
+      "26262925",
+      "15347582",
+      "12023209",
+      "28402659",
+      "26575522",
+      "36441954",
+      "23009848",
+      "35580041",
+      "7696459",
+      "17937483",
+      "24733939",
+      "29506273",
+      "19717427",
+      "18636764",
+      "25330962",
+      "26263302",
+      "24265699",
+      "12241395",
+      "19242966",
+      "24506488",
+      "28138524",
+      "33309853",
+      "20017135",
+      "34009316",
+      "37874270",
+      "36456243",
+      "34314440",
+      "18688358",
+      "24659927",
+      "25361282",
+      "30366627",
+      "23005883",
+      "24223529",
+      "30240202",
+      "24273239",
+      "21905717",
+      "32659894",
+      "25399156",
+      "20018700",
+      "17949219",
+      "31632986",
+      "33305911",
+      "16002089",
+      "31732143",
+      "17419736",
+      "29548294",
+      "27960448",
+      "19708203",
+      "37862761",
+      "39099842"
+    ],
+    "review": [
+      "38241144",
+      "12596908",
+      "26575522",
+      "33309853"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00833",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

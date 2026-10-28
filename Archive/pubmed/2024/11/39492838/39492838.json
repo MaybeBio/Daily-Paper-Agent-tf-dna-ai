@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "39492838",
+    "doi": "10.1002/mco2.754",
+    "title": "Single-cell transcriptomics reveals IRF7 regulation of the tumor microenvironment in isocitrate dehydrogenase wild-type glioma."
+  },
+  "content": {
+    "abstract": "Mutations in isocitrate dehydrogenase (IDH) are important markers of glioma prognosis. However, few studies have examined the gene expression regulatory network (GRN) in IDH-mutant and wild-type gliomas. In this study, single-cell RNA sequencing and spatial transcriptome sequencing were used to analyze the GRN of cell subsets in patients with IDH-mutant and wild-type gliomas. Through gene transcriptional regulation analysis, we identified the M4 module, whose transcription factor activity is highly expressed in IDH wild-type gliomas compared to IDH-mutants. Enrichment analysis revealed that these genes were predominantly expressed in microglia and macrophages, with significant enrichment in interferon-related signaling pathways. Interferon regulatory factor 7 (IRF7), a transcription factor within this pathway, showed the highest percentage of enrichment and was primarily localized in the core region of wild-type IDH tumors. A machine-learning prognostic model identified novel subgroups within the wild-type IDH population. Additionally, IRF7 was shown to promote the proliferation and migration of T98G and U251 cells in vitro, and its knockdown affected glioma cell proliferation in vivo. This study systematically established the regulatory mechanism of IDH transcriptional activity in gliomas at the single-cell level and drew a corresponding cell map. The study presents a transcriptional regulatory activity map for IDH wild-type gliomas, involving single-cell RNA sequencing and spatial transcriptomics to identify gene regulatory networks, machine learning models for IDH subtyping, and experimental validation, highlighting the role of IRF7 in glioma progression.",
+    "keywords": [
+      "gene transcription regulation",
+      "glioma",
+      "interferon regulatory factor 7",
+      "isocitrate dehydrogenase 1",
+      "multi-omics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jinwei",
+        "Long, Shengrong",
+        "Yang, Zhang",
+        "Wei, Wei",
+        "Yu, Shuangqi",
+        "Liu, Quan",
+        "Hui, Xuhui",
+        "Li, Xiang",
+        "Wang, Yinyan"
+      ],
+      "short_names": [
+        "Li J",
+        "Long S",
+        "Yang Z",
+        "Wei W",
+        "Yu S",
+        "Liu Q",
+        "Hui X",
+        "Li X",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4599-995X"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery Beijing Tiantan Hospital Capital Medical University Beijing China.",
+        "Beijing Neurosurgical Institute Capital Medical University Beijing China.",
+        "Department of Neurosurgery West China Hospital Sichuan University Chengdu China.",
+        "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Department of Vascular Surgery Fuwai Yunnan Cardiovascular Hospital Affiliated Cardiovascular Hospital of Kunming Medical University Kunming China.",
+        "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Department of Neurosurgery The Fourth Affiliated Hospital of Guangxi Medical University Liuzhou China.",
+        "Department of Neurosurgery West China Hospital Sichuan University Chengdu China.",
+        "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China.",
+        "Department of Neurosurgery Beijing Tiantan Hospital Capital Medical University Beijing China.",
+        "Beijing Neurosurgical Institute Capital Medical University Beijing China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jinwei",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-4599-995X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery Beijing Tiantan Hospital Capital Medical University Beijing China.",
+          "Beijing Neurosurgical Institute Capital Medical University Beijing China.",
+          "Department of Neurosurgery West China Hospital Sichuan University Chengdu China."
+        ]
+      },
+      {
+        "full_name": "Long, Shengrong",
+        "short_name": "Long S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+          "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhang",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery Fuwai Yunnan Cardiovascular Hospital Affiliated Cardiovascular Hospital of Kunming Medical University Kunming China."
+        ]
+      },
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+          "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shuangqi",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+          "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China."
+        ]
+      },
+      {
+        "full_name": "Liu, Quan",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery The Fourth Affiliated Hospital of Guangxi Medical University Liuzhou China."
+        ]
+      },
+      {
+        "full_name": "Hui, Xuhui",
+        "short_name": "Hui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery West China Hospital Sichuan University Chengdu China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Zhongnan Hospital of Wuhan University Wuhan China.",
+          "Brain Research Center Zhongnan Hospital of Wuhan University Wuhan China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yinyan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Beijing Tiantan Hospital Capital Medical University Beijing China.",
+          "Beijing Neurosurgical Institute Capital Medical University Beijing China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "MedComm"
+    ],
+    "journal_abbrev": [
+      "MedComm (2020)"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 06:23",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42682293",
+      "42017056",
+      "41425703",
+      "40636286",
+      "40255400",
+      "39850483"
+    ],
+    "refs": [
+      "38653236",
+      "38020711",
+      "37855702",
+      "37660060",
+      "37652019",
+      "37598273",
+      "37251373",
+      "36823172",
+      "36705923",
+      "36649564",
+      "36341760",
+      "36300619",
+      "36239925",
+      "35966587",
+      "35899587",
+      "35700707",
+      "35145098",
+      "34594038",
+      "34594037",
+      "34185076",
+      "33863885",
+      "33471898",
+      "32898475",
+      "32561888",
+      "31901251",
+      "31554641",
+      "30594216",
+      "30346624",
+      "29985475",
+      "29096081",
+      "28991892",
+      "28963109",
+      "28729483",
+      "28360267",
+      "28235764",
+      "28096339",
+      "28092673",
+      "27840052",
+      "27806376",
+      "27157931",
+      "26061753",
+      "25680411",
+      "25422089",
+      "24912512",
+      "24607403",
+      "23222849",
+      "22434214",
+      "16932750",
+      "16775224",
+      "16573834",
+      "15489356",
+      "11244049",
+      "217977"
+    ],
+    "similar": [
+      "39492838",
+      "40202138",
+      "42643588",
+      "41356219",
+      "39530009",
+      "41504052",
+      "38711090",
+      "33195221",
+      "41460424",
+      "35723032",
+      "40058165",
+      "40974256",
+      "33244787",
+      "35856894",
+      "27116977",
+      "33167941",
+      "35882906",
+      "34697421",
+      "38091354",
+      "42193012",
+      "41354084",
+      "28621624",
+      "30397180",
+      "39042445",
+      "39118300",
+      "39355251",
+      "29547090",
+      "29846705",
+      "39367752",
+      "27245697",
+      "29437008",
+      "41756290",
+      "35144680",
+      "35104792",
+      "30611146",
+      "39148129",
+      "40483536",
+      "41364265",
+      "33059718",
+      "41716413",
+      "30001166",
+      "37952042",
+      "24366912",
+      "29582423",
+      "40764361",
+      "41953006",
+      "38583102",
+      "32208352",
+      "32915415",
+      "25701198",
+      "34088969",
+      "38433527",
+      "38301244",
+      "41388523",
+      "38254737",
+      "37166058",
+      "34098063",
+      "28575485",
+      "34763709",
+      "32418210",
+      "36872806",
+      "42324558",
+      "41327009",
+      "27353503",
+      "41208840",
+      "41318461",
+      "30115812",
+      "29053887",
+      "36248907",
+      "24626950",
+      "30190259",
+      "31870275",
+      "40413344",
+      "26314843",
+      "32646946",
+      "39537233",
+      "32923170",
+      "37760422",
+      "33937022",
+      "26558387",
+      "42236943",
+      "39126294",
+      "40128633",
+      "36276141",
+      "31431463",
+      "41807578",
+      "30661193",
+      "38007705",
+      "33329315",
+      "22415316",
+      "36088710",
+      "33290989",
+      "41035663",
+      "39923105",
+      "42649122",
+      "34159191",
+      "28340142",
+      "39256867",
+      "41230160",
+      "42358823"
+    ],
+    "review": [
+      "39492838",
+      "36088710"
+    ],
+    "pmc": [
+      "11531655"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39492838.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39492838/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

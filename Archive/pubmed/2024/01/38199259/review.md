@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that PFOA and PFOS induce hepatic steatosis through inhibition and down-regulation of HNF4A, identified as a molecular initiation event, based on molecular docking, molecular dynamics simulation, and transcriptomic analysis of human stem cell spheres
+- **Visible evidence base** Abstract text only; no numerical data, statistical outputs, docking scores, MD trajectories, or transcriptomic datasets are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, transcriptomic data processing and statistical analysis, docking and MD parameters, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis linking PFOA/PFOS exposure to HNF4A inhibition and downstream hepatic steatosis, but the evidence base is too thin to evaluate the strength of the claims. The computational and transcriptomic results are described qualitatively, with no quantitative metrics, statistical significance, or experimental validation. The causal chain from binding to inhibition to steatosis is asserted rather than demonstrated. The work may be of interest to the PFAS toxicology community, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, particularly those studying PFAS health effects, nuclear receptor signaling, and mechanisms of drug or chemical induced steatosis. The potential identification of HNF4A as a target could inform regulatory risk assessment and mechanistic studies of PFAS hepatotoxicity.
+- **Major strengths** The study addresses a relevant and timely public health concern regarding PFAS exposure and liver disease. The integration of computational and transcriptomic approaches is a reasonable strategy for identifying potential molecular targets. The focus on HNF4A, a key regulator of hepatic lipid metabolism, is biologically plausible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PFOA/PFOS can form a stable binding conformation with HNF4A" and "PFOA/PFOS may interact with HNF4A to affect the downstream conduction mechanism"
+  - **Evidence pointer** Abstract, in silico results; location not provided
+  - **Concern** The abstract states that stable binding conformations were formed, but provides no quantitative data such as docking scores, binding free energies, or MD stability metrics (e.g., RMSD, RMSF). Without these, the claim of stable binding is unverifiable.
+  - **Why it matters** The entire premise of HNF4A as a target rests on the quality and interpretation of the computational results. Qualitative statements are insufficient to establish a reliable interaction.
+  - **Resolution test** Provide docking scores, binding free energy estimates, and MD trajectory analyses with appropriate cutoffs and comparisons to controls or known binders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "These compounds might inhibit and down-regulate HNF4A, which is the molecular initiation events (MIE) that induces liver steatosis"
+  - **Evidence pointer** Abstract, transcriptomic results; location not provided
+  - **Concern** The abstract reports that HNF4A was inhibited in transcriptomic data, but does not specify the magnitude of change, statistical significance, or whether this was at the mRNA or protein level. Moreover, the link from HNF4A inhibition to steatosis is asserted without functional evidence, such as rescue experiments, knockdown or overexpression studies, or demonstration of downstream pathway activation.
+  - **Why it matters** Establishing HNF4A as a molecular initiation event requires more than correlative transcriptomic observation. The causal chain from binding to inhibition to steatosis is not supported by the evidence described.
+  - **Resolution test** Include quantitative transcriptomic data with effect sizes and p values, and provide functional validation showing that HNF4A modulation alters steatosis phenotypes in relevant models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data transparency
+  - **Claim pointer** "PFOS mainly down-regulated genes related to cholesterol synthesis while PFOA mainly up-regulated genes related to fatty acid beta-oxidation"
+  - **Evidence pointer** Abstract, transcriptomic results; location not provided
+  - **Concern** The abstract describes differential gene expression patterns but provides no gene lists, pathway enrichment statistics, or effect sizes. The distinction between PFOS and PFOA effects is qualitative and cannot be assessed for robustness.
+  - **Why it matters** These pathway-level observations are central to the proposed mechanism and to differentiating the effects of the two compounds. Without quantitative support, the claims are not testable.
+  - **Resolution test** Provide enrichment analysis results with adjusted p values, gene sets, and effect sizes for the relevant pathways.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "molecular initiation events (MIE)"
+  - **Issue** The term "MIE" is used without definition or context, which may confuse readers unfamiliar with adverse outcome pathway frameworks.
+  - **Required correction** Define MIE at first use and briefly explain its relevance to the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** Model system
+  - **Evidence pointer** Abstract, "human stem cell spheres"
+  - **Issue** The choice of human stem cell spheres as the transcriptomic model is not justified. It is unclear how this model relates to hepatocyte function or steatosis.
+  - **Required correction** Provide a brief rationale for the model and its relevance to liver steatosis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Causal language
+  - **Evidence pointer** Abstract, "might inhibit and down-regulate"
+  - **Issue** The use of "might" is appropriate given the evidence level, but the abstract later states the MIE as a definitive conclusion, creating inconsistency.
+  - **Required correction** Align the language throughout to reflect the level of evidence, using hedged phrasing consistently.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative computational data and functional validation means the core claims of stable binding and causal initiation of steatosis are not established from the provided material.
+- **Assessment against Nature-style criteria** Originality: moderate, as HNF4A is a known regulator of lipid metabolism and PFAS hepatotoxicity is an active area, but the specific integration of docking, MD, and transcriptomics is not novel in itself. Scientific importance: potentially high given the public health relevance of PFAS, but the current evidence does not support the significance claimed. Interdisciplinary readership: the topic could appeal to toxicologists, computational biologists, and hepatologists, but the abstract lacks sufficient detail to engage these groups. Technical soundness: not assessable from the abstract alone; the lack of quantitative data prevents evaluation. Readability for nonspecialists: the abstract is generally readable but uses terms like MIE without definition, and the logical flow from computational to transcriptomic to causal claims is not fully clear.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract does not provide sufficient quantitative or functional support. I would be supportive if the technical concerns regarding computational data transparency and causal validation are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of stable binding between PFOA/PFOS and HNF4A is unsupported without quantitative docking and MD metrics.
+- The claim that HNF4A inhibition is a molecular initiation event for steatosis is unsupported without functional validation.
+- The differential pathway effects of PFOS versus PFOA are unverifiable without enrichment statistics and gene-level data.
+- The overall causal chain from exposure to HNF4A inhibition to steatosis is asserted but not demonstrated.

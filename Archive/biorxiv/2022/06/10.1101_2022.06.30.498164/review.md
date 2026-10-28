@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose that Distal antenna (Dan), a pipsqueak (Psq) superfamily protein, regulates neuroblast competence in Drosophila by balancing genome-binding and phase-separation properties. They report that Dan is intrinsically disordered, forms dynamic hubs when its Psq DNA-binding domain is disrupted, contains a predicted LARKS domain, and requires both DNA-binding and phase-separation for its function in maintaining early competence. They further report that Dan interacts with nuclear pore complex proteins, and that Elys binds the hunchback intron and is required for competence termination.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, figures, experimental methods, statistical analyses, and supplementary data are not available. The abstract provides no quantitative results, no controls, and no direct evidence for phase separation in vivo.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting model linking an intrinsically disordered protein, phase separation, and genome architecture to neural progenitor competence. However, the evidence described is largely qualitative and correlative. The claim that Dan requires both DNA-binding and phase-separation properties to regulate competence is not established from the abstract alone, as no direct functional rescue or separation-of-function experiments are described in sufficient detail. The interaction with NPC proteins and Elys binding to the hb intron are intriguing but their functional relevance to competence termination is only suggested. The model is plausible but currently under-supported.
+- **Who would be interested in the results, and why** Researchers studying neural progenitor competence and temporal patterning in Drosophila; investigators interested in phase separation in gene regulation and genome organization; those working on nuclear pore complex functions in development; and scientists studying intrinsically disordered proteins in chromatin biology.
+- **Major strengths** The study addresses a timely and important question about how nuclear architecture and phase separation may coordinate developmental competence transitions. The focus on a specific DNA-binding protein with predicted phase-separation properties provides a concrete molecular entry point. The connection to hunchback relocation and NPC components links multiple regulatory layers in a single model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Dan requires both DNA-binding and phase-separation to regulate neuroblast competence"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that loss of either the Psq motif or the LARKS domain abrogates Dan's ability to maintain early competence upon misexpression. However, no details are given on how these domains were disrupted, whether the mutations affect protein stability or localization, or whether the observed loss of function is due to loss of DNA binding, loss of phase separation, or both. The claim that both properties are required is therefore not directly supported.
+  - **Why it matters** Without separation-of-function experiments or rescue controls, the conclusion that both DNA-binding and phase-separation are independently required is premature. The observed phenotype could result from a general loss of Dan function rather than a specific requirement for each property.
+  - **Resolution test** Provide data from mutants that selectively ablate DNA binding while preserving phase separation, and vice versa, with demonstration that each mutant retains the other property. Show that each mutant fails to rescue competence maintenance and that combined defects are not additive in a way that confounds interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Dan is a highly intrinsically disordered protein" and "Dan has a predicted LARKS domain"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no experimental validation of intrinsic disorder or of the LARKS domain. Prediction alone is insufficient to establish that Dan undergoes phase separation in cells or that the LARKS motif is functional. No in vitro or in vivo phase-separation assays are described.
+  - **Why it matters** The central model depends on Dan's phase-separation properties being real and functionally relevant. If the disorder prediction and LARKS motif are not experimentally validated, the mechanistic claim is speculative.
+  - **Resolution test** Include experimental evidence such as circular dichroism or NMR for disorder, turbidity or droplet assays for phase separation, and mutagenesis of the LARKS domain with functional readouts in vivo.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Dan strongly interacts with proteins of the nuclear pore complex (NPC), and Elys... binds the hb intron and is required for competence termination"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports interactions and binding but does not specify the methods used (e.g., immunoprecipitation, proximity labeling, ChIP) or the strength and specificity of these interactions. The functional requirement for Elys in competence termination is stated without experimental detail.
+  - **Why it matters** The proposed model depends on a physical and functional link between Dan, NPC components, and hb regulation. Without methodological detail and controls, the interaction data could be nonspecific or indirect.
+  - **Resolution test** Provide interaction data with appropriate controls, including a negative control protein, and show that Elys depletion or mutation phenocopies the competence termination defect. Demonstrate that the Elys binding site in the hb intron is functionally required.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "Dan coalesces into steadily larger, interconnected hubs of rapid protein exchange"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "steadily larger, interconnected hubs" is vague. It is unclear whether this refers to time-dependent growth, concentration-dependent behavior, or a specific imaging observation.
+  - **Required correction** Specify the experimental conditions and quantitative metrics used to define hub size, interconnectivity, and exchange rate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "competence states" and "competence termination"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses these terms without defining the molecular or cellular readouts used to assess competence.
+  - **Required correction** Define how competence is measured (e.g., marker expression, birth order of neurons) and how termination is scored.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model clarity
+  - **Affected element** "balancing genome-binding, self-association, and interaction among nuclear architecture regulators"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The concept of "balancing" is not operationalized. It is unclear what quantitative relationship among these properties is proposed and how it would be tested.
+  - **Required correction** Provide a more explicit model with testable predictions, such as how changes in one property would affect the others and the downstream phenotype.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental detail to validate the central claims regarding domain-specific requirements, phase-separation properties, and the functional link to NPC components.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea that a DNA-binding protein with phase-separation properties coordinates genome reorganization and competence is conceptually novel and would be of interest to a broad readership.  
+  - Scientific importance: The topic is important for understanding temporal patterning in neural development and the role of nuclear architecture in cell fate decisions.  
+  - Interdisciplinary readership: The work bridges developmental biology, biophysics of phase separation, and genome organization, which could attract readers from multiple fields.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and quantitative data prevents evaluation of technical rigor.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The model is intriguing and potentially significant, but the abstract does not provide sufficient experimental support for the central claims. A full manuscript with detailed methods, controls, and quantitative data would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that Dan requires both DNA-binding and phase-separation to regulate competence is not supported by the abstract alone.
+- The claim that Dan is a highly intrinsically disordered protein and has a functional LARKS domain is based on prediction, not experimental validation.
+- The claim that Dan strongly interacts with NPC proteins and that Elys binds the hb intron and is required for competence termination is stated without methodological or quantitative support.
+- The proposed model of "balancing" genome-binding, self-association, and interaction with nuclear architecture regulators is speculative and not operationalized.

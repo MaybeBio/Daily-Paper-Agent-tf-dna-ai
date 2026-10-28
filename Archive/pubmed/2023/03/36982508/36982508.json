@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "36982508",
+    "doi": "10.3390/ijms24065432",
+    "title": "Predicting Key Genes and Therapeutic Molecular Modelling to Explain the Association between Porphyromonas gingivalis (P. gingivalis) and Alzheimer's Disease (AD)."
+  },
+  "content": {
+    "abstract": "The association between Porphyromonas gingivalis (P. gingivalis) and Alzheimer's disease (AD) remains unclear. The major aim of this study was to elucidate the role of genes and molecular targets in P. gingivalis-associated AD. Two Gene Expression Omnibus (GEO) datasets, GSE5281 for AD (n = 84 Alzheimer's, n = 74 control) and GSE9723 (n = 4 P. gingivalis, n = 4 control), were downloaded from the GEO database. Differentially expressed genes (DEGs) were obtained, and genes common to both diseases were drawn. Additionally, Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) analysis was performed from the top 100 genes (50 upregulated and 50 downregulated genes). We then proceeded with CMap analysis to screen for possible small drug molecules targeting these genes. Subsequently, we performed molecular dynamics simulations. A total of 10 common genes (CALD1, HES1, ID3, PLK2, PPP2R2D, RASGRF1, SUN1, VPS33B, WTH3DI/RAB6A, and ZFP36L1) were identified with a p-value < 0.05. The PPI network of the top 100 genes showed UCHL1, SST, CHGB, CALY, and INA to be common in the MCC, DMNC, and MNC domains. Out of the 10 common genes identified, only 1 was mapped in CMap. We found three candidate small drug molecules to be a fit for PLK2, namely PubChem ID: 24971422, 11364421, and 49792852. We then performed molecular docking of PLK2 with PubChem ID: 24971422, 11364421, and 49792852. The best target, 11364421, was used to conduct the molecular dynamics simulations. The results of this study unravel novel genes to P. gingivalis-associated AD that warrant further validation.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Porphyromonas gingivalis",
+      "bioinformatics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Expression Profiling",
+      "*Alzheimer Disease/genetics",
+      "Porphyromonas gingivalis/genetics",
+      "Molecular Docking Simulation",
+      "Models, Molecular",
+      "Computational Biology/methods",
+      "Vesicular Transport Proteins/genetics",
+      "Butyrate Response Factor 1/genetics",
+      "Protein Phosphatase 2/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hamarsha, Ahmed",
+        "Balachandran, Kumarendran",
+        "Sailan, Ahmad Tarmidi",
+        "Nasruddin, Nurrul Shaqinah"
+      ],
+      "short_names": [
+        "Hamarsha A",
+        "Balachandran K",
+        "Sailan AT",
+        "Nasruddin NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5876-3372"
+      ],
+      "affiliations": [
+        "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia.",
+        "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia.",
+        "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia.",
+        "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hamarsha, Ahmed",
+        "short_name": "Hamarsha A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Balachandran, Kumarendran",
+        "short_name": "Balachandran K",
+        "identifiers": [
+          "0000-0002-5876-3372"
+        ],
+        "affiliations": [
+          "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Sailan, Ahmad Tarmidi",
+        "short_name": "Sailan AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Nasruddin, Nurrul Shaqinah",
+        "short_name": "Nasruddin NS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Craniofacial Diagnostics and Biosciences, Faculty of Dentistry, University Kebangsaan Malaysia, Jalan Raja Muda Abdul Aziz, Kuala Lumpur 50300, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Mar 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "40955310",
+      "39757625",
+      "38371064",
+      "37511384"
+    ],
+    "refs": [
+      "36112902",
+      "35958988",
+      "35905928",
+      "35860693",
+      "35677025",
+      "34755046",
+      "34556089",
+      "33237311",
+      "33202751",
+      "33062201",
+      "32669903",
+      "31989902",
+      "31863783",
+      "31692996",
+      "30862113",
+      "30609928",
+      "30250480",
+      "30001609",
+      "29937276",
+      "29250491",
+      "29192843",
+      "28388583",
+      "27630117",
+      "27021815",
+      "26106299",
+      "25428369",
+      "25376768",
+      "24950120",
+      "24038819",
+      "23883611",
+      "23195313",
+      "22541428",
+      "21403673",
+      "20579843",
+      "20202073",
+      "19131956",
+      "18266959",
+      "17623072",
+      "17537727",
+      "17077275",
+      "16537382",
+      "16173078",
+      "15888084",
+      "14724070",
+      "14598376",
+      "11898023",
+      "11752295",
+      "11023956",
+      "10350642",
+      "6343558",
+      "2524565",
+      "1628620"
+    ],
+    "similar": [
+      "36982508",
+      "24965283",
+      "36210538",
+      "38894850",
+      "31989994",
+      "36195955",
+      "38189472",
+      "26324066",
+      "36918839",
+      "30918899",
+      "27748870",
+      "35114922",
+      "31346329",
+      "34326892",
+      "34916831",
+      "32747616",
+      "38692009",
+      "35724476",
+      "29851783",
+      "37635325",
+      "33204697",
+      "34776447",
+      "35637434",
+      "34966527",
+      "26935318",
+      "36617784",
+      "24558171",
+      "30223242",
+      "35669784",
+      "33329577",
+      "28578378",
+      "30525236",
+      "38053192",
+      "33437215",
+      "36635346",
+      "34151813",
+      "38809924",
+      "31987036",
+      "35616676",
+      "31794546",
+      "33116763",
+      "39210294",
+      "32337286",
+      "30047339",
+      "27756223",
+      "32557144",
+      "38802701",
+      "37819172",
+      "32389853",
+      "29845250",
+      "34521086",
+      "30132538",
+      "29359159",
+      "30975489",
+      "37061663",
+      "35255879",
+      "36291136",
+      "34174849",
+      "34243818",
+      "36157062",
+      "32468026",
+      "35307059",
+      "36389792",
+      "31545495",
+      "31277155",
+      "33083497",
+      "33080677",
+      "35570325",
+      "34218797",
+      "35282083",
+      "32922167",
+      "31834549",
+      "36872242",
+      "34924389",
+      "34803519",
+      "24628925",
+      "34414562",
+      "32598336",
+      "35250977",
+      "36620771",
+      "29311898",
+      "29257295",
+      "33102593",
+      "36555343",
+      "32928063",
+      "36440700",
+      "34289663",
+      "36032542",
+      "30825595",
+      "33289509",
+      "39215110",
+      "32059076",
+      "32853947",
+      "25148905",
+      "36467613",
+      "35278479",
+      "28432618",
+      "37554106",
+      "37715200",
+      "38114984",
+      "37418137",
+      "36982725",
+      "38228864",
+      "34755046",
+      "37838728",
+      "39143870",
+      "38778589",
+      "38619024",
+      "37065043",
+      "33956862",
+      "38910465",
+      "35698583"
+    ],
+    "review": [
+      "36982508",
+      "33080677"
+    ],
+    "pmc": [
+      "10049565"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24065432",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36982508/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36982508",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

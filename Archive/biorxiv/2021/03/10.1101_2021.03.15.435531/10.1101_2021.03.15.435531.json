@@ -1,0 +1,674 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.15.435531",
+  "title": "Structure Can Predict Function in the Human Brain: A Graph Neural Network Deep Learning Model of Functional Connectivity and Centrality Based on Structural Connectivity",
+  "doi": "10.1101/2021.03.15.435531",
+  "abstract": "Although functional connectivity and associated graph theory measures (e.g., centrality; how centrally important to the network a region is) are widely used in brain research, the full extent to which these functional measures are related to the underlying structural connectivity is not yet fully understood. Graph neural network deep learning methods have not yet been applied for this purpose, and offer an ideal model architecture for working with connectivity data given their ability to capture and maintain inherent network structure. This model applied here to predict functional connectivity and centrality from structural connectivity accounted for 89% of the variance in mean functional connectivity, 56% of the variance in individual-level functional connectivity, 99% of the variance in mean functional centrality, and 81% of the variance in individual-level functional centrality. This model provides a new benchmark for performance and represents a novel finding that functional centrality can be robustly predicted from structural connectivity. Regions of particular importance to the model’s performance as determined through lesioning are discussed, whereby regions with higher centrality have a higher impact on model performance. Future research on models of patient, demographic, or behavioural data can also benefit from this graph neural network method as it is ideally-suited for capturing connectivity and centrality in brain networks. These results have set a new benchmark for prediction of functional connectivity from structural connectivity, and models like this may ultimately lead to a way to predict functional connectivity in individuals who are unable to do fMRI tasks (e.g., non-responsive patients).",
+  "authors": [
+    "Josh Neudorf",
+    "Shaylyn Kress",
+    "Ron Borowsky"
+  ],
+  "published_date": "2021-03-15",
+  "updated_date": "2021-03-16T03:32:09Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435531",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435531.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:24:03Z",
+        "timestamp": 1768494243440,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            15
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 68,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                15
+              ]
+            ],
+            "date-time": "2021-03-15T00:00:00Z",
+            "timestamp": 1615766400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Although functional connectivity and associated graph theory measures (e.g., centrality; how centrally important to the network a region is) are widely used in brain research, the full extent to which these functional measures are related to the underlying structural connectivity is not yet fully understood. Graph neural network deep learning methods have not yet been applied for this purpose, and offer an ideal model architecture for working with connectivity data given their ability to capture and maintain inherent network structure. This model applied here to predict functional connectivity and centrality from structural connectivity accounted for 89% of the variance in mean functional connectivity, 56% of the variance in individual-level functional connectivity, 99% of the variance in mean functional centrality, and 81% of the variance in individual-level functional centrality. This model provides a new benchmark for performance and represents a novel finding that functional centrality can be robustly predicted from structural connectivity. Regions of particular importance to the model’s performance as determined through lesioning are discussed, whereby regions with higher centrality have a higher impact on model performance. Future research on models of patient, demographic, or behavioural data can also benefit from this graph neural network method as it is ideally-suited for capturing connectivity and centrality in brain networks. These results have set a new benchmark for prediction of functional connectivity from structural connectivity, and models like this may ultimately lead to a way to predict functional connectivity in individuals who are unable to do fMRI tasks (e.g., non-responsive patients).</jats:p>",
+      "DOI": "10.1101/2021.03.15.435531",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2021-03-16T03:32:09Z",
+        "timestamp": 1615865529000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Structure Can Predict Function in the Human Brain: A Graph Neural Network Deep Learning Model of Functional Connectivity and Centrality Based on Structural Connectivity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9227-1358",
+          "authenticated-orcid": false,
+          "given": "Josh",
+          "family": "Neudorf",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3526-2900",
+          "authenticated-orcid": false,
+          "given": "Shaylyn",
+          "family": "Kress",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0002-4021",
+          "authenticated-orcid": false,
+          "given": "Ron",
+          "family": "Borowsky",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.1",
+          "unstructured": "Abadi, M. , Agarwal, A. , Barham, P. , Brevdo, E. , Chen, Z. , Citro, C. , Corrado, G.S. , Davis, A. , Dean, J. , Devin, M. , Ghemawat, S. , Goodfellow, I. , Harp, A. , Irving, G. , Isard, M. , Jia, Y. , Jozefowicz, R. , Kaiser, L. , Kudlur, M. , Levenberg, J. , Mane, D. , Monga, R. , Moore, S. , Murray, D. , Olah, C. , Schuster, M. , Shlens, J. , Steiner, B. , Sutskever, I. , Talwar, K. , Tucker, P. , Vanhoucke, V. , Vasudevan, V. , Viegas, F. , Vinyals, O. , Warden, P. , Wattenberg, M. , Wicke, M. , Yu, Y. , Zheng, X. , 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems 19."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arslan, S. , Ktena, S.I. , Glocker, B. , Rueckert, D. , 2018. Graph Saliency Maps Through Spectral Convolutional Networks: Application to Sex Classification with Brain Connectivity, in: Stoyanov, D. , Taylor, Z. , Ferrante, E. , Dalca, A.V. , Martel, A. , Maier-Hein, L. , Parisot, S. , Sotiras, A. , Papiez, B. , Sabuncu, M.R. , Shen, L. (Eds.), Graphs in Biomedical Image Analysis and Integrating Medical Imaging and Non-Imaging Modalities, Lecture Notes in Computer Science. Springer International Publishing, Cham, pp. 3–13. https://doi.org/10.1007/978-3-030-00689-1_1",
+          "DOI": "10.1007/978-3-030-00689-1_1"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.3",
+          "unstructured": "Arya, D. , Olij, R. , Gupta, D.K. , Gazzar, A.E. , Wingen, G. , Worring, M. , Thomas, R.M. , 2020. Fusing Structural and Functional MRIs using Graph Convolutional Networks for Autism Classification, in: Medical Imaging with Deep Learning. Presented at the Medical Imaging with Deep Learning, PMLR, pp. 44–61."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.4",
+          "unstructured": "Battaglia, P.W. , Hamrick, J.B. , Bapst, V. , Sanchez-Gonzalez, A. , Zambaldi, V. , Malinowski, M. , Tacchetti, A. , Raposo, D. , Santoro, A. , Faulkner, R. , Gulcehre, C. , Song, F. , Ballard, A. , Gilmer, J. , Dahl, G. , Vaswani, A. , Allen, K. , Nash, C. , Langston, V. , Dyer, C. , Heess, N. , Wierstra, D. , Kohli, P. , Botvinick, M. , Vinyals, O. , Li, Y. , Pascanu, R. , 2018. Relational inductive biases, deep learning, and graph networks. ArXiv180601261 Cs Stat."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neubiorev.2016.08.036"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bi, X. , Liu, Z. , He, Y. , Zhao, X. , Sun, Y. , Liu, H. , 2020. GNEA: A Graph Neural Network with ELM Aggregator for Brain Network Classification [WWW Document]. Complexity. https://doi.org/10.1155/2020/8813738",
+          "DOI": "10.1155/2020/8813738"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2007.11.059"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2008.09.029"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "3178",
+          "DOI": "10.4103/0366-6999.170269",
+          "article-title": "Abnormal Degree Centrality of Bilateral Putamen and Left Superior Frontal Gyrus in Schizophrenia with Auditory Hallucinations: A Resting-state Functional Magnetic Resonance Imaging Study",
+          "volume": "128",
+          "year": "2015",
+          "journal-title": "Chin. Med. J. (Engl"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng, W. , Zhang, B. , Zou, W. , Zhang, X. , Cheng, X. , Guan, L. , Lin, Y. , Lao, G. , Ye, B. , Li, X. , Yang, C. , Ning, Y. , Cao, L. , 2019. Abnormal Degree Centrality Associated With Cognitive Dysfunctions in Early Bipolar Disorder. Front. Psychiatry 10. https://doi.org/10.3389/fpsyt.2019.00140",
+          "DOI": "10.3389/fpsyt.2019.00140"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2006.01.021"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2010.06.010"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "117008",
+          "DOI": "10.1016/j.neuroimage.2020.117008",
+          "article-title": "Structural connectivity predicts functional activation during lexical and sublexical reading",
+          "volume": "218",
+          "year": "2020",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "036111",
+          "DOI": "10.1103/PhysRevE.77.036111",
+          "article-title": "Communicability in complex networks",
+          "volume": "77",
+          "year": "2008",
+          "journal-title": "Phys. Rev. E"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2013.01.050"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.16",
+          "first-page": "426",
+          "article-title": "Graph analysis of the human connectome: Promise, progress, and pitfalls. NeuroImage",
+          "volume": "80",
+          "year": "2013",
+          "journal-title": "Mapping the Connectome"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.17",
+          "first-page": "105",
+          "article-title": "The minimal preprocessing pipelines for the Human Connectome Project. NeuroImage",
+          "volume": "80",
+          "year": "2013",
+          "journal-title": "Mapping the Connectome"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2014.10.031"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2014.0165"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1315529111"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "791",
+          "DOI": "10.1016/j.neuron.2017.07.011",
+          "article-title": "Precision Functional Mapping of Individual Human Brains",
+          "volume": "95",
+          "year": "2017",
+          "journal-title": "Neuron"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.22",
+          "unstructured": "Hagberg, A.A. , Schult, D.A. , Swart, P.J. , 2008. Exploring Network Structure, Dynamics, and Function using NetworkX 5."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0060159"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2013.05.116"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0811168106"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "116150",
+          "DOI": "10.1016/j.neuroimage.2019.116150",
+          "article-title": "Identification of physiological response functions to correct for fluctuations in resting-state fMRI related to heart rate and respiration",
+          "volume": "202",
+          "year": "2019",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1002498"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.28",
+          "unstructured": "Kingma, D.P. , Ba, J. , 2017. Adam: A Method for Stochastic Optimization. ArXiv14126980 Cs."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Klein, A. , Tourville, J. , 2012. 101 Labeled Brain Images and a Consistent Human Cortical Labeling Protocol. Front. Neurosci. 0. https://doi.org/10.3389/fnins.2012.00171",
+          "DOI": "10.3389/fnins.2012.00171"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.30",
+          "first-page": "469",
+          "volume-title": "Medical Image Computing and Computer Assisted Intervention − MICCAI",
+          "volume": "2017",
+          "year": "2017"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2015.06.037"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "e01983",
+          "DOI": "10.1002/brb3.1983",
+          "article-title": "Altered brain network centrality in middle-aged patients with retinitis pigmentosa: A resting-state functional magnetic resonance imaging study",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Brain Behav"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1123",
+          "DOI": "10.1007/s00429-020-02064-z",
+          "article-title": "Altered brain white matter connectome in children and adolescents with prenatal alcohol exposure",
+          "volume": "225",
+          "year": "2020",
+          "journal-title": "Brain Struct. Funct"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1608282113"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1167",
+          "DOI": "10.1002/hbm.24866",
+          "article-title": "Parcellation influence on the connectivity-based structure–function relationship in the human brain",
+          "volume": "41",
+          "year": "2020",
+          "journal-title": "Hum. Brain Mapp"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2012.12.028"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.3862"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.neuroscience.2020.04.048",
+          "article-title": "Brain Structural Connectivity Predicts Brain Functional Complexity: Diffusion Tensor Imaging Derived Centrality Accounts for Variance in Fractal Properties of Functional Magnetic Resonance Imaging Signal",
+          "volume": "438",
+          "year": "2020",
+          "journal-title": "Neuroscience"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/cercor/bhu303"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.40",
+          "unstructured": "Page, L. , Brin, S. , Motwani, R. , Winograd, T. , 1999. The PageRank Citation Ranking: Bringing Order to the Web. [WWW Document]. URL http://ilpubs.stanford.edu:8090/422/ (accessed 9.23.19)."
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1016/j.media.2018.06.001",
+          "article-title": "Disease prediction using graph convolutional networks: Application to Autism Spectrum Disorder and Alzheimer’s disease",
+          "volume": "48",
+          "year": "2018",
+          "journal-title": "Med. Image Anal"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "4747",
+          "DOI": "10.1038/s41467-019-12765-7",
+          "article-title": "Decoupling of brain function from structure reveals regional behavioral specialization in humans",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "9121",
+          "DOI": "10.1038/s41598-020-65948-4",
+          "article-title": "Traumatic Brain Injury Severity in a Network Perspective: A Diffusion MRI Based Connectome Study",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-02974-x"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "117459",
+          "DOI": "10.1016/j.neuroimage.2020.117459",
+          "article-title": "Reconstruction of respiratory variation signals from fMRI data",
+          "volume": "225",
+          "year": "2021",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "116366",
+          "DOI": "10.1016/j.neuroimage.2019.116366",
+          "article-title": "There is no single functional atlas even for a single individual: Functional parcel definitions change with task",
+          "volume": "208",
+          "year": "2020",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2013.11.046"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "117609",
+          "DOI": "10.1016/j.neuroimage.2020.117609",
+          "article-title": "Structure-function coupling in the human connectome: A machine learning approach",
+          "volume": "226",
+          "year": "2021",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/cercor/bhy264"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "572",
+          "DOI": "10.1016/j.tics.2019.04.002",
+          "article-title": "Neuromodulatory Influences on Integration and Segregation in the Brain",
+          "volume": "23",
+          "year": "2019",
+          "journal-title": "Trends Cogn. Sci"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1016/j.tics.2020.01.008",
+          "article-title": "Linking Structure and Function in Macroscale Brain Networks",
+          "volume": "24",
+          "year": "2020",
+          "journal-title": "Trends Cogn. Sci"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Turkiewicz, J. , Bhatt, R.R. , Wang, H. , Vora, P. , Krause, B. , Sauk, J.S. , Jacobs, J.P. , Bernstein, C.N. , Kornelsen, J. , Labus, J.S. , Gupta, A. , Mayer, E.A. , 2021. Altered brain structural connectivity in patients with longstanding gut inflammation is correlated with psychological symptoms and disease duration. NeuroImage Clin. 102613. https://doi.org/10.1016/j.nicl.2021.102613",
+          "DOI": "10.1016/j.nicl.2021.102613"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/nimg.2001.0978"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.euroneuro.2010.03.008"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.55",
+          "first-page": "62",
+          "article-title": "The WU-Minn Human Connectome Project: An overview",
+          "volume": "80",
+          "year": "2013",
+          "journal-title": "NeuroImage, Mapping the Connectome"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.4164"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1162/netn_a_00171",
+          "article-title": "Graph convolutional network for fMRI analysis based on connectivity neighborhood",
+          "volume": "5",
+          "year": "2021",
+          "journal-title": "Netw. Neurosci"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "1505",
+          "DOI": "10.1002/hbm.24891",
+          "article-title": "Decoding and mapping task states of the human brain via deep learning. Hum",
+          "volume": "41",
+          "year": "2020",
+          "journal-title": "Brain Mapp"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wink, A.M. , Tijms, B.M. , ten Kate, M. , Raspor, E. , de Munck, J.C. , Altena, E. , EcayLJTorres, M. , Clerigue, M. , Estanga, A. , GarciaLJSebastian, M. , Izagirre, A. , MartinezLJLage Alvarez, P. , Villanua, J. , Barkhof, F. , SanzLJArigita, E. , 2018. Functional brain network centrality is related to APOE genotype in cognitively normal elderly. Brain Behav. 8. https://doi.org/10.1002/brb3.1080",
+          "DOI": "10.1002/brb3.1080"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "4607",
+          "DOI": "10.1093/cercor/bhaa063",
+          "article-title": "Hierarchy of Connectivity–Function Relationship of the Human Cortex Revealed through Predicting Activity across Functional Domains",
+          "volume": "30",
+          "year": "2020",
+          "journal-title": "Cereb. Cortex"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0068910"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "1399",
+          "DOI": "10.4158/EP-2020-0045",
+          "article-title": "Altered Brain Network Centrality in Patients with Diabetic Optic Neuropathy: A Resting-State FMRI Study",
+          "volume": "26",
+          "year": "2020",
+          "journal-title": "Endocr. Pract"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "1626",
+          "DOI": "10.1109/TMI.2010.2045126",
+          "article-title": "Generalized q-Sampling Imaging. IEEE Trans",
+          "volume": "29",
+          "year": "2010",
+          "journal-title": "Med. Imaging"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.64",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yeh, F.-C. , Verstynen, T.D. , Wang, Y. , Fernández-Miranda, J.C. , Tseng, W.-Y.I. , 2013. Deterministic Diffusion Fiber Tracking Improved by Quantitative Anisotropy. PLoS ONE 8. https://doi.org/10.1371/journal.pone.0080713",
+          "DOI": "10.1371/journal.pone.0080713"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11548-015-1330-y"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, W. , Wang, Y. , 2020. Deep Multimodal Brain Network Learning for Joint Analysis of Structural Morphometry and Functional Connectivity, in: 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI). Presented at the 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), pp. 1–5. https://doi.org/10.1109/ISBI45749.2020.9098624",
+          "DOI": "10.1109/ISBI45749.2020.9098624"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "584",
+          "DOI": "10.4088/JCP.15m10091",
+          "article-title": "Trait-Related Cortical-Subcortical Dissociation in Bipolar Disorder: Analysis of Network Degree Centrality",
+          "volume": "78",
+          "year": "2017",
+          "journal-title": "J. Clin. Psychiatry"
+        },
+        {
+          "key": "2024080516024872000_2021.03.15.435531v5.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/cercor/bhr269"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.15.435531",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:27:03Z",
+        "timestamp": 1768440423000
+      },
+      "score": 64.023575,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.15.435531"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            15
+          ]
+        ]
+      },
+      "references-count": 68,
+      "URL": "https://doi.org/10.1101/2021.03.15.435531",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

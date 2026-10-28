@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2025-03-26)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors report a cryoEM structure of a human RAD51 D-loop at 2.64 Å resolution, capturing the synaptic state of the RAD51 filament bound to donor DNA. They propose a mechanistic model for strand exchange, including filament engagement, strand invasion, pairing, capture of the exchanged strand, and 3'-to-5' polarity, supported by structure-based mutagenesis and single-molecule assays.
+- **Visible evidence base** Main text (Summary, Introduction, Results, Discussion, Methods), Figures 1–5 referenced, Supplementary Figures S1–S10 and Tables S1–S2 referenced, PDB/EMDB accession codes provided
+- **Missing materials affecting confidence** Figures and supplementary figures/tables not provided; full methods details for optical tweezers and EMSA partially described; no raw data or statistical analyses shown; no validation metrics for the cryoEM map (e.g., FSC curves, model-to-map fit) beyond resolution values
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural advance for the HR field, providing the first high-resolution view of a human RAD51 D-loop. The model is well integrated with biochemical and single-molecule data, and the proposed polarity mechanism is a valuable contribution. However, several technical and interpretive concerns must be addressed, particularly regarding the generality of the observed pairing register, the functional relevance of the NTD mutations, and the robustness of the single-molecule assay. The manuscript is well written and will interest a broad readership, but the case for a fully established mechanism is not yet complete from the provided evidence.
+- **Who would be interested in the results, and why** Structural biologists studying recombinases and DNA repair; biochemists and geneticists working on homologous recombination, genome stability, and cancer biology; researchers interested in the evolution of RecA/RAD51 family mechanisms. The work also has potential relevance for understanding RAD51 dysregulation in cancer and for therapeutic targeting.
+- **Major strengths** 1) First high-resolution structure of a human RAD51 D-loop, filling a key gap in the field. 2) Clear integration of structural, biochemical, and single-molecule data. 3) Mechanistic model with testable predictions, including polarity and the role of the NTD. 4) Well-written and logically organized, with appropriate use of supplementary material.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / data interpretation
+  - **Claim pointer** The manuscript claims that the D-loop structure captures the synaptic state and that the observed pairing register, including the G26cs unpaired base and the T18is:G16cs mismatch, reflects the mechanism of strand exchange.
+  - **Evidence pointer** Results, "Homologous pairing" section; Figures 1E–G, S5
+  - **Concern** The pairing register is based on a single structure with one mismatch and one unpaired base, both at the boundaries of the homologous region. The authors interpret these as mechanistically meaningful, but they could also arise from the specific DNA sequences used or from crystallization/EM grid artifacts. The claim that "factors additional to hydrogen-bonding potential contribute to determine pairing" is speculative without supporting mutagenesis or additional structures with different sequences.
+  - **Why it matters** The central mechanistic claims of the paper rest on the interpretation of these boundary features. If they are sequence-specific or artifacts, the proposed model for strand exchange polarity and mismatch tolerance would be weakened.
+  - **Resolution test** Provide additional D-loop structures with different homologous sequences to show that the boundary features are conserved. Alternatively, perform mutagenesis of the G26 and T18 positions and test effects on D-loop formation or strand exchange efficiency.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / functional validation
+  - **Claim pointer** The manuscript claims that NTD mutations (K39, K40, K70, K73) impair strand exchange by disrupting anchoring of the donor DNA arms, and that this validates the structural model.
+  - **Evidence pointer** Results, "Structure-based mutagenesis" section; Figure 5A–E, S6–S7
+  - **Concern** The alanine mutations in the NTD are located far from the canonical DNA-binding groove, and the authors show they reduce strand exchange. However, the EMSA data (Fig. S6) show that some of these mutants also have reduced ssDNA binding, confounding the interpretation. The single-molecule assay (Fig. 5C–E) is described but lacks statistical details, controls for non-specific binding, and quantification of multiple replicates. The claim that the NTD "anchors" the donor DNA is not directly demonstrated.
+  - **Why it matters** The functional validation is a key pillar of the paper. If the mutants affect ssDNA binding or filament stability rather than specifically the NTD-donor DNA interaction, the structural interpretation is not supported.
+  - **Resolution test** Perform additional assays to separate effects on ssDNA binding from effects on D-loop formation, e.g., using mutant proteins with wild-type ssDNA binding. Provide full statistical analysis of the single-molecule data, including number of molecules, replicates, and error bars. Consider a rescue experiment with a chimeric NTD or a point mutant that restores DNA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / generalizability
+  - **Claim pointer** The manuscript proposes a general model for strand exchange polarity in RAD51, based on the asymmetric binding of the NTD to the 3'-arm and the L2 loop insertions.
+  - **Evidence pointer** Discussion; Figures 5F, S8–S10
+  - **Concern** The model is derived from a single D-loop structure with a specific DNA sequence and a 10-bp homologous region. The authors note that the polarity is opposite to that of RecA, but they do not discuss how this might be reconciled with earlier biochemical studies that suggested different polarities for RAD51. The evolutionary argument (convergent evolution) is interesting but speculative.
+  - **Why it matters** The generality of the proposed mechanism is a key claim for the paper's significance. If the polarity is sequence-dependent or specific to this construct, the broader implications for HR would be limited.
+  - **Resolution test** Test the model with D-loops of different sequences and lengths, or with RAD51 mutants that alter the NTD position. Discuss and reconcile with prior biochemical polarity data in more detail.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Results, "D-loop structure" section
+  - **Issue** The resolution range for the cryoEM map is given as 2.5–6 Å, but the overall resolution is stated as 2.64 Å. It would be helpful to clarify which regions are at lower resolution and how this affects interpretation of the NTD and L2 loop interactions.
+  - **Required correction** Add a supplementary figure showing local resolution or B-factor distribution, and discuss the implications for the structural claims.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Optical-tweezers based single-molecule fluorescence imaging"
+  - **Evidence pointer** Methods section
+  - **Issue** The single-molecule assay is described but lacks details on how D-loop formation is distinguished from non-specific binding, and how the 10.6 kb position is verified.
+  - **Required correction** Provide a more detailed description of the assay, including positive and negative controls, and how the specificity of the D-loop signal was confirmed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, evolutionary argument
+  - **Evidence pointer** Discussion, "convergent evolution" paragraph
+  - **Issue** The evolutionary discussion is brief and may be unclear to readers not familiar with RecA/RAD51 phylogeny.
+  - **Required correction** Expand the discussion to briefly explain the key structural differences between RecA and RAD51 and how they relate to the proposed convergent evolution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The pairing register and the NTD functional validation are central to the mechanistic claims. Without additional structures or cleaner functional data, the case is not fully established.
+- **Assessment against Nature-style criteria** Originality: High. The first human RAD51 D-loop structure is a novel and significant contribution. Scientific importance: High. The mechanism of strand exchange is a fundamental question in HR with broad implications for genome stability and cancer. Interdisciplinary readership: Moderate to high. The work will appeal to structural biologists, biochemists, and cancer biologists, but may be less accessible to a general audience. Technical soundness: Moderate. The cryoEM structure appears well-executed, but the functional validation and single-molecule assays need more rigor. Readability for nonspecialists: Good. The manuscript is clearly written, but the Discussion could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is a major advance, but the mechanistic claims require additional validation, particularly regarding the pairing register and the NTD function.
+
+## Risk / unsupported claims
+- The claim that the T18is:G16cs mismatch and the unpaired G26cs are mechanistically meaningful is not fully supported without additional structures or mutagenesis.
+- The claim that the NTD "anchors" the donor DNA is not directly demonstrated; the mutant phenotypes could be due to altered ssDNA binding.
+- The proposed 3'-to-5' polarity of strand exchange is based on a single structure and is not reconciled with prior biochemical data.
+- The evolutionary argument for convergent evolution is speculative and not fully developed.

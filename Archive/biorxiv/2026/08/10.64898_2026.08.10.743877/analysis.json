@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.10.743877",
+  "title": "CALFP-MHC: Interpretable Pan-Allelic Prediction of Peptide-MHC Binding and Presentation Using Chemically Grounded Fingerprints and Contrastive Learning",
+  "authors": "My-Diem Nguyen Pham; Thi-Kim-Cuong Ho; Hoai-Nghia Nguyen; Le-Son Tran; Minh-Duy Phan; Vy Nguyen",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用化学指纹和对比学习预测肽-MHC结合，属于蛋白质-肽互作而非TF-DNA体系，但方法（化学特征编码、对比学习、可解释性分析）可迁移至TF-DNA结合预测，故给5分。",
+  "abstract": "Identifying which peptides bind major histocompatibility complex (MHC) molecules is central to vaccine design, neoantigen prioritization, and precision immunotherapy. Existing deep learning predictors largely encode amino acids as discrete symbols, thereby missing the residue-level chemistry driving molecular recognition. Performance also tends to degrade under class imbalance, for rare alleles, and on peptide– MHC combinations outside the training distribution. We developed CALFP-MHC, a framework that encodes each amino acid as a set of complementary cheminformatics fingerprints capturing functional groups, atomic connectivity, and substructural features, and combines positional encoding with supervised contrastive pre-training to organize the latent space by binding class before fine-tuning a binary classifier. Peptide–MHC interactions are modeled through a hybrid convolutional-transformer backbone. In a large-scale computational benchmark covering ∼18.7 million peptide–MHC pairs across 112 HLA class I and 53 class II alleles, CALFP-MHC achieved AUCs of 0.93-0.97 and PPVs of 0.66–0.94. Critically, performance remained above AUC 0.90 even at a 200:1 negative-to-positive ratio, where competing tools frequently collapsed toward chance. On independent experimental data containing 3,627 class I and 520 class II MS/MS-confirmed ligands and 570 validated neoantigens, the model maintained strong discrimination, correctly prioritizing immunogenic peptides and MHC-presented ligands. Attention and integrated-gradient analyses recovered established anchor positions (P2 and PΩ for class I, P1, P4, P6, and P9 for class II) and highlighted chemically interpretable functional groups consistent with known binding determinants. CALFP-MHC demonstrates that grounding residue representations in molecular chemistry, rather than sequence symbols alone, improves both robustness and interpretability in peptide–MHC binding prediction.",
+  "abstract_zh": "识别哪些肽段能与主要组织相容性复合体（MHC）分子结合，是疫苗设计、新抗原优先级排序和精准免疫治疗的核心。现有的深度学习预测器大多将氨基酸编码为离散符号，从而忽略了驱动分子识别的残基级化学特性。在类别不平衡、稀有等位基因以及训练分布之外的肽-MHC组合情况下，性能也往往下降。我们开发了CALFP-MHC框架，该框架将每个氨基酸编码为一组互补的化学信息学指纹，捕获官能团、原子连接性和子结构特征，并结合位置编码与监督对比预训练，在微调二元分类器之前按结合类别组织潜在空间。肽-MHC相互作用通过混合卷积-Transformer骨干进行建模。在一项涵盖112个HLA I类和53个II类等位基因、约1870万对肽-MHC对的大规模计算基准测试中，CALFP-MHC实现了0.93-0.97的AUC和0.66-0.94的PPV。关键的是，即使在200:1的负正比下，性能仍保持在AUC 0.90以上，而竞争工具在此情况下常崩溃至接近随机水平。在包含3,627个I类和520个II类MS/MS确认配体以及570个验证新抗原的独立实验数据上，模型保持了强判别能力，正确优先排序了免疫原性肽段和MHC呈递配体。注意力与积分梯度分析恢复了已确立的锚定位点（I类为P2和PΩ，II类为P1、P4、P6和P9），并突出了与已知结合决定因素一致的化学可解释官能团。CALFP-MHC证明，将残基表示植根于分子化学而非仅序列符号，可提高肽-MHC结合预测的鲁棒性和可解释性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743877",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743877",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.10.743877/index.html"
+}

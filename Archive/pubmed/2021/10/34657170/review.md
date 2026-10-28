@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including main figures and supplementary figure legends, but not the supplementary tables or supplementary data files themselves.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence, as described in the manuscript text and figure legends.
+- **Shared manuscript claim summary** The authors report that CTCF zinc finger (ZF) domain is enriched for somatic missense mutations in cancer. They characterize five ZF mutations found in acute lymphoblastic leukaemia (ALL) and show that they have differential effects on cell proliferation, DNA binding, and transcriptional regulation. Molecular dynamics (MD) simulations are used to propose structural explanations for these functional differences, including loss- and gain-of-function phenotypes.
+- **Visible evidence base** Main text, Figures 1–6, Table 1, and supplementary figure legends (Supplementary Figures 1–5). Supplementary Tables 1–4 are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Tables 1–4 (mutation lists, statistical details, PCR primers, and references for CTCF binding sites) are not available. Raw MD simulation data, full statistical outputs, and details of the ChIP-PCR quantification are not provided. The exact number of biological replicates for some experiments is not stated in the main text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how do somatic mutations in the CTCF ZF domain affect its function in cancer? The authors combine a meta-analysis of cancer mutation data with functional assays and MD simulations to propose structure–function relationships. The topic is of broad interest to cancer biology, chromatin biology, and structural biology. However, the current evidence has several limitations. The functional assays are performed in a single cell line with overexpression, the ChIP-PCR data are only qualitative, and the MD simulations are relatively short (10 ns) and based on a single crystal structure. The link between the observed in vitro phenotypes and the proposed structural mechanisms is plausible but not fully established. The manuscript would be strengthened by additional experimental validation, more quantitative analyses, and a clearer presentation of the statistical methods.
+- **Who would be interested in the results, and why** Cancer biologists studying transcription factor mutations and tumour suppressor mechanisms; chromatin biologists interested in CTCF function and 3D genome organisation; structural biologists using MD simulations to understand mutation effects on protein–DNA interactions; and clinicians or researchers interested in precision oncology, particularly for ALL and gynaecological cancers.
+- **Major strengths** The study addresses a clinically relevant and understudied area: the functional consequences of CTCF ZF mutations in cancer. The combination of cancer genomics meta-analysis, cell-based functional assays, and MD simulations is a comprehensive approach. The identification of both loss- and gain-of-function phenotypes is novel and provides a framework for understanding how different ZF mutations may have distinct impacts. The use of a sequence logo to visualise ZF conservation is helpful. The MD simulations provide a mechanistic hypothesis for how specific mutations alter DNA binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for claims
+  - **Claim pointer** The authors claim that CTCF ZF mutations exhibit loss- and gain-of-function in cell growth phenotypes in vitro (Figure 2D, E).
+  - **Evidence pointer** Figure 2D, E; Methods section "Cell biological assays"
+  - **Concern** The functional assays are performed in K562 cells with overexpression of WT or mutant CTCF. The endogenous CTCF is still present, and the level of overexpression relative to endogenous protein is not quantified. The assays measure cell proliferation and colony formation, but the mechanistic link to CTCF's tumour suppressor function is not directly demonstrated. The gain-of-function phenotype for G420D is based on a single assay (colony formation) and the effect size is modest. The statistical analysis is described as one-way ANOVA with Tukey's test, but the number of independent experiments and the exact p-values for each comparison are not fully reported in the figure legend.
+  - **Why it matters** The central claim of the paper is that specific ZF mutations have distinct functional consequences. If the assays are not robust or the overexpression system does not reflect physiological conditions, the conclusions may not be generalisable. The gain-of-function claim is particularly important and needs stronger support.
+  - **Resolution test** Provide quantification of overexpression levels relative to endogenous CTCF. Include data from at least one additional cell line or a knockdown/rescue approach. Report the number of independent experiments and exact p-values for all pairwise comparisons. For the gain-of-function claim, provide additional evidence, such as a dose-response experiment or a different functional assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and consistency
+  - **Claim pointer** The authors claim that MD simulations explain the loss- and gain-of-function phenotypes (Figures 5, 6; Table 1).
+  - **Evidence pointer** Figures 5, 6; Table 1; Methods section "Structural modelling and MD simulations"
+  - **Concern** The MD simulations are performed for 10 ns, which is a short timescale for assessing conformational changes in a protein–DNA complex. The simulations are based on a single crystal structure (PDB: 5T0U), and the authors do not discuss whether this structure is representative of all CTCF binding modes. The ΔΔG values are calculated using a single method (Biovia Discovery Studio) and are not validated against experimental binding affinity measurements. The correlation between the predicted changes in DNA binding (Table 1) and the observed functional phenotypes is not quantitatively assessed. For example, G420D is predicted to form a new bond and shift ZF6 toward DNA, but the functional assay shows a gain-of-function in colony formation, which is not directly linked to DNA binding affinity.
+  - **Why it matters** The MD simulations are a key part of the paper's claim to provide a structural explanation for the functional data. If the simulations are not robust or the link between structure and function is not quantitative, the mechanistic conclusions are weakened.
+  - **Resolution test** Extend the MD simulations to longer timescales (at least 100 ns) and include multiple replicates. Validate the ΔΔG predictions with experimental DNA binding affinity measurements (e.g., surface plasmon resonance or fluorescence anisotropy). Provide a quantitative correlation between the predicted changes in DNA binding and the observed functional phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for transcriptional regulation claim
+  - **Claim pointer** The authors claim that CTCF ZF mutants negatively impact transcriptional regulation (Figure 3B, C; Supplementary Figure 3).
+  - **Evidence pointer** Figure 3B, C; Supplementary Figure 3; Methods section "Transfection of WT and mutant CTCF"
+  - **Concern** The transcriptional regulation assay uses a lentiviral vector with a chimeric CMV-LTR promoter driving eGFP expression. The authors argue that CTCF binding sites in the vector backbone affect eGFP expression. However, the predicted CTCF binding sites are not experimentally validated. The ChIP-PCR data (Figure 4) are only qualitative and do not provide quantitative enrichment values. The decrease in eGFP expression for ZF mutants could be due to effects on vector integration, transcription, or mRNA stability, rather than direct transcriptional regulation by CTCF. The authors do not rule out non-specific effects of mutant CTCF overexpression.
+  - **Why it matters** The claim that ZF mutations affect transcriptional regulation is central to the paper's conclusion that these mutations have functional consequences. If the assay is not specific or the mechanism is not clear, the conclusion is not supported.
+  - **Resolution test** Validate the predicted CTCF binding sites in the vector by ChIP-qPCR with enrichment values. Include a negative control with a vector lacking CTCF binding sites. Perform RNA-seq or RT-qPCR to directly measure the effect of mutant CTCF on endogenous target genes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical analysis and data presentation
+  - **Claim pointer** The authors claim significant enrichment of missense mutations in the ZF domain (Figure 1D) and significant differences in functional assays (Figures 2, 3).
+  - **Evidence pointer** Figure 1D; Supplementary Table 2; Figures 2, 3
+  - **Concern** The statistical methods for the mutation enrichment analysis are not fully described. The authors state that a Chi-square test was used, but the expected values and the exact p-values are not reported in the figure legend. For the functional assays, the number of independent experiments is stated as 3 for Figure 2 and 3 for Figure 3, but the figure legends do not specify whether the data points represent individual replicates or the mean of independent experiments. The error bars are described as s.e.m., but the degrees of freedom are not clear.
+  - **Why it matters** The statistical rigour of the analysis is essential for the validity of the claims. Without clear reporting of the statistical methods and results, the reader cannot assess the reliability of the conclusions.
+  - **Resolution test** Provide a detailed description of the statistical methods, including the exact test used, the number of independent experiments, and the exact p-values for all comparisons. Include a statement on how the expected values were calculated for the enrichment analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The lollipop plot in Figure 1A is difficult to read, especially for the recurrent mutations. The labels for the recurrent mutations are not clearly visible.
+  - **Required correction** Increase the font size of the labels and consider using a different colour or symbol for recurrent mutations. Provide a higher-resolution version of the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "Cell biological assays"
+  - **Evidence pointer** Methods section "Cell biological assays"
+  - **Issue** The methods for the MTT and colony forming assays are described briefly. The duration of the assays, the number of cells plated, and the criteria for counting colonies are not specified.
+  - **Required correction** Provide a more detailed description of the assay protocols, including the time points, the number of cells plated, and the criteria for colony counting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of MD simulation results
+  - **Affected element** Figure 6D
+  - **Evidence pointer** Figure 6D
+  - **Issue** The net change in distance of the ZF centroid from the DNA centroid is presented as a single value for each mutant. It is not clear whether this is the average over the entire simulation or the value at the end of the simulation.
+  - **Required correction** Clarify how the distance was calculated and whether the value is an average or a final value. Consider showing the time evolution of the distance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The terms "change-of-function", "loss-of-function", and "gain-of-function" are used, but the definitions are not explicitly stated. The authors should clarify what criteria are used to classify a mutation as loss- or gain-of-function.
+  - **Required correction** Add a brief definition of these terms in the Results or Discussion section, and ensure that the classification of each mutant is consistent with these definitions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Availability of data
+  - **Affected element** Supplementary Tables
+  - **Evidence pointer** Supplementary Tables 1–4
+  - **Issue** The supplementary tables are not provided in the manuscript text. The reader cannot verify the mutation data or the primer sequences.
+  - **Required correction** Ensure that the supplementary tables are available as separate files and that they are properly referenced in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional assays need more robust validation), R1-M2 (MD simulations need longer timescales and experimental validation), R1-M3 (transcriptional regulation assay needs validation of CTCF binding sites and quantitative data).
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on the structure–function relationships of CTCF ZF mutations in cancer, which has not been systematically addressed before. Scientific importance: The findings have potential implications for understanding CTCF's tumour suppressor function and for precision oncology, but the current evidence is not sufficient to establish a definitive link between specific mutations and clinical outcomes. Interdisciplinary readership: The topic is of interest to cancer biologists, chromatin biologists, and structural biologists, but the presentation is somewhat specialised and may not be accessible to a broader audience. Technical soundness: The experimental design is generally sound, but the limitations described above (overexpression system, short MD simulations, qualitative ChIP) reduce the technical rigour. Readability for nonspecialists: The manuscript is clearly written, but the MD simulation section may be difficult for readers without a structural biology background. The authors should consider adding a brief explanation of the MD simulation approach for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible framework, but the current evidence is not sufficient to fully support the claims. The authors should address the major concerns regarding the functional assays, MD simulations, and transcriptional regulation data before the case is established.
+
+## Risk / unsupported claims
+- The claim that CTCF ZF mutations exhibit gain-of-function in cell growth phenotypes is based on a single assay (colony formation) with a modest effect size and is not supported by additional evidence.
+- The claim that MD simulations explain the functional phenotypes is not quantitatively validated, and the short simulation time (10 ns) limits the reliability of the conclusions.
+- The claim that CTCF ZF mutants negatively impact transcriptional regulation is based on an indirect assay (eGFP expression from a lentiviral vector) and qualitative ChIP data, without validation of the predicted CTCF binding sites.
+- The claim that the CTCF ZF domain is significantly enriched for somatic missense mutations in cancer relies on a meta-analysis of publicly available data, but the statistical methods and the completeness of the data sources are not fully described.

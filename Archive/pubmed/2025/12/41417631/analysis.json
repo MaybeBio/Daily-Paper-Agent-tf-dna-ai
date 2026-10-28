@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41417631",
+  "title": "MOKA: a pipeline for multiomics bridged SNP-set kernel association test.",
+  "authors": "Enoma, David; Wang, Dinghao; Kamdoum, Ariel Ghislain Kemogne; Polo, Rodrigo Ortega; Long, Quan; He, Jingni",
+  "journal": "G3 (Bethesda, Md.)",
+  "published_date": "2025-12-19",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍MOKA流程，将多组学数据（含转录因子结合）整合进SNP-set关联检验，虽涉及TF-DNA注释但非核心互作建模，方法为统计关联而非AI/物理模拟，故为中档相关。",
+  "abstract": "The explosion of genomic and multiomics data has created a need for scalable, reproducible tools that integrate functional annotations into genome-wide association studies (GWAS). We introduce the multiomics data bridged Kernel Association test (MOKA) pipeline, a Snakemake-based workflow that automates SNP-set kernel-based association testing by incorporating multiomics data, including gene expression, transcription factor binding, evolutionary conservation scores, and neural network-derived features. This data-bridged architecture enhances variant prioritization and aggregation, improving statistical power in GWAS. MOKA supports population structure correction via spectral decomposition, parallel computation, and post-GWAS analyses, including visualization, Gene Ontology annotation, pathway enrichment, and validation. As a use case, we applied MOKA to a schizophrenia GWAS cohort, identified 89 Bonferroni-significant genes, with a 15.7% validation rate in the disease-specific DisGeNET database and enrichment in pathways relevant to neuropsychiatric disease. MOKA provides a robust, scalable, and extensible framework for functional multiomics integration in genetic studies. It is open-source and available at https://github.com/davidenoma/moka.",
+  "abstract_zh": "基因组和多组学数据的爆炸式增长，催生了对可扩展、可复现工具的需求，这些工具能将功能注释整合到全基因组关联研究（GWAS）中。我们引入了多组学数据桥接核关联检验（MOKA）流程，这是一个基于Snakemake的工作流，通过整合多组学数据（包括基因表达、转录因子结合、进化保守性评分和神经网络衍生特征）自动化进行SNP集核关联检验。这种数据桥接架构增强了变异优先级排序和聚合，提升了GWAS中的统计功效。MOKA支持通过谱分解进行群体结构校正、并行计算以及GWAS后分析，包括可视化、基因本体注释、通路富集和验证。作为应用案例，我们将MOKA应用于精神分裂症GWAS队列，识别出89个Bonferroni显著基因，在疾病特异性DisGeNET数据库中验证率为15.7%，并富集于与神经精神疾病相关的通路。MOKA为遗传研究中的功能多组学整合提供了一个稳健、可扩展且可扩展的框架。它是开源的，可在https://github.com/davidenoma/moka获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41417631/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41417631/",
+  "paper_page_path": "papers/pubmed/41417631/index.html"
+}

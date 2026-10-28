@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental procedures) as provided.
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No external data or supplementary files were assessed beyond what is described.
+- **Shared manuscript claim summary** The manuscript investigates the role of TFAM in response to UVC-induced mtDNA damage. The authors report that UVC irradiation alters TFAM binding specificity across the mitochondrial genome, promotes TFAM-mediated compaction of damaged DNA in vitro, and that TFAM levels modulate mtDNA damage dynamics in cells, proposing TFAM as a damage sensor for irreparable lesions.
+- **Visible evidence base** Descriptions of live-cell imaging, gene expression analyses, high-throughput protein-DNA binding arrays, fluorescence anisotropy, AFM, and cell-based assays. Specific figures and tables are referenced but not directly viewable.
+- **Missing materials affecting confidence** Actual figures, tables, and supplementary data are not provided. Statistical details, raw data, and full methodological parameters for several assays are not fully described. The manuscript appears to be a preprint and may not have undergone formal peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding mitochondrial DNA damage responses, specifically the role of TFAM in sensing irreparable UVC-induced lesions. The combination of in vitro and cell-based approaches is commendable and the findings are potentially significant. However, several technical concerns and interpretive gaps need to be addressed to fully support the conclusions. The claim that TFAM acts as a damage sensor is intriguing but not fully substantiated by the current data, particularly given the lack of protective effect observed with TFAM overexpression.
+- **Who would be interested in the results, and why** Researchers in mitochondrial biology, DNA damage and repair, genome stability, and toxicology would find these results relevant. The study provides new insights into TFAM's role beyond transcription and packaging, potentially implicating it in damage sensing and genome quality control. The high-throughput binding data could be a valuable resource for the field.
+- **Major strengths** The study uses a multi-faceted approach combining cellular assays, biophysical methods, and high-throughput binding profiling. The use of UVC to generate defined photoproducts is appropriate. The observation that TFAM binding specificity is altered by damage and that compaction is enhanced is novel and interesting. The inclusion of both overexpression and knockdown experiments in cells is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The manuscript claims that "UVC-induced DNA damage alters TFAM binding and promotes compaction by TFAM in vitro" and hypothesizes that TFAM "may act as a damage sensing protein in vivo."
+  - **Evidence pointer** Results sections "High-throughput in vitro data..." and "TFAM compacts UVC-damaged DNA more efficiently...", Figures 3 and 4.
+  - **Concern** The central claim that TFAM acts as a damage sensor is not directly tested. The data show altered binding and increased compaction in vitro, but the in vivo relevance is speculative. The observation that TFAM overexpression does not protect against damage or alter damage levels over time (Figure 5E-G) directly contradicts a protective or sensing role that would lead to enhanced repair or removal. The authors need to reconcile this discrepancy or temper the claim.
+  - **Why it matters** The title and abstract emphasize a damage-sensing role, which is a major conceptual advance if true. However, the functional data do not support this. Without a clear mechanistic link between the in vitro binding/compaction changes and in vivo outcomes, the central hypothesis remains unsubstantiated.
+  - **Resolution test** The authors should either provide direct evidence for a sensing function (e.g., showing that TFAM binding to damaged DNA recruits downstream effectors, or that TFAM-dependent compaction is required for damage removal in cells) or revise the claims to be more descriptive of the observed phenomena without over-interpreting the in vivo role.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and data interpretation
+  - **Claim pointer** The manuscript states that "the z-scores of our top binders decrease after UVC irradiation, whereas the z-scores of our weakest binding sequences increase after UVC irradiation," and interprets this as a reduction in sequence specificity.
+  - **Evidence pointer** Results section "High-throughput in vitro data...", Figure 3, Figure S13.
+  - **Concern** The interpretation of the high-throughput binding data is potentially confounded by the high UVC dose (1500 J/m2) used to damage the array. At this dose, the DNA is extensively damaged, which could lead to non-specific binding or altered DNA structure that affects TFAM binding in ways not directly related to sequence specificity. The normalization using "non-mitochondrial low affinity sequences" may not adequately control for these global changes. The authors should validate their findings with lower damage doses or with defined lesions.
+  - **Why it matters** The conclusion that TFAM binding specificity is reduced upon damage is a key finding. If this is an artifact of the high damage load, the interpretation is incorrect. The lack of correlation between array binding and measured Kd values (Table 1) further complicates the interpretation.
+  - **Resolution test** Perform binding assays with lower UVC doses or with DNA containing specific, defined photoproducts (e.g., cyclobutane pyrimidine dimers) to confirm the observed changes in specificity. Additionally, the authors should discuss why the array binding data do not correlate with the solution-based affinity measurements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology and data interpretation
+  - **Claim pointer** The manuscript claims that "increased TFAM protein did not alter levels of mtDNA damage over time after UVC exposure in vivo, but knockdown of TFAM did alter mtDNA damage levels in both at baseline and after UVC exposure."
+  - **Evidence pointer** Results section "Increased TFAM levels do not offer protection...", Figure 5.
+  - **Concern** The interpretation of the TFAM knockdown experiments is complicated by the fact that TFAM is essential for mtDNA maintenance. The observed increase in baseline damage and persistence of damage after UVC could be due to general mitochondrial dysfunction, reduced mtDNA copy number, or impaired replication, rather than a specific role in damage sensing or removal. The authors acknowledge this but do not provide experiments to distinguish these possibilities.
+  - **Why it matters** The knockdown data are used to support a role for TFAM in damage processing. If the effects are non-specific, this support is weakened.
+  - **Resolution test** The authors should measure mtDNA copy number and replication rates in the knockdown cells to assess whether the effects on damage levels are secondary to changes in mtDNA dynamics. Alternatively, they could use a system where TFAM function is acutely inhibited without affecting copy number.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion section.
+  - **Issue** The phrase "sequestering damaged genomes to prevent mutagenesis by facilitating removal or suppression of replication" is speculative and not directly supported by the data presented.
+  - **Required correction** Rephrase to more accurately reflect the findings, e.g., "suggesting a potential role in damage recognition that warrants further investigation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Experimental Procedures, Fluorescence Polarization section.
+  - **Evidence pointer** Experimental Procedures, Fluorescence Polarization.
+  - **Issue** The description of the fluorescence anisotropy fitting is brief. It is unclear how the Hill coefficient (n) is interpreted, especially given the range of values (1-5) reported. A Hill coefficient greater than 1 typically indicates positive cooperativity, but the authors do not discuss the implications.
+  - **Required correction** Provide a brief interpretation of the Hill coefficient values and discuss whether the observed cooperativity is consistent with TFAM's known binding modes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 3.
+  - **Evidence pointer** Results section "High-throughput in vitro data...", Figure 3.
+  - **Issue** The manuscript mentions "peaks in z-scores" at promoter regions but does not clearly define what constitutes a "peak" or how significance was determined.
+  - **Required correction** Define the criteria for identifying high-occupancy sites and provide statistical measures to support the claim of preferential binding.
+- **Technical failings that need to be addressed before the case is established** The lack of direct in vivo evidence for a damage-sensing role for TFAM is a major gap. The high UVC dose used in the array experiments may confound the interpretation of binding specificity changes. The potential non-specific effects of TFAM knockdown on mtDNA dynamics need to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its focus on TFAM's response to irreparable DNA damage and its use of high-throughput binding profiling. The finding that TFAM compacts damaged DNA more efficiently is novel.
+  - **Scientific importance** The question of how mitochondria handle irreparable damage is important, and this work provides new insights into a potential role for TFAM. However, the lack of functional in vivo data limits the current importance.
+  - **Interdisciplinary readership** The topic is of interest to mitochondrial biologists, DNA repair researchers, and toxicologists. The methods used are diverse, which could appeal to a broader audience.
+  - **Technical soundness** The technical approaches are generally sound, but the concerns about the high UVC dose and the interpretation of the knockdown experiments need to be resolved.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections, particularly the description of the high-throughput binding data, may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are interesting and potentially significant, but the central claim of a damage-sensing role for TFAM is not currently established from the provided evidence. The authors need to address the concerns regarding data interpretation and provide additional experimental support for their hypothesis.
+
+## Risk / unsupported claims
+- The claim that TFAM acts as a damage sensor in vivo is not supported by direct experimental evidence.
+- The interpretation that UVC irradiation reduces TFAM binding specificity is based on data from a single, very high damage dose and may not be generalizable.
+- The statement that TFAM knockdown results in "persistence of mtDNA damage over time after UVC exposure" is confounded by potential effects on mtDNA copy number and replication.
+- The hypothesis that TFAM-mediated compaction "tags" damaged genomes for degradation or sequestration is speculative and not tested.

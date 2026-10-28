@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41713817",
+    "doi": "10.1016/j.jep.2026.121380",
+    "title": "Xiao-Chaihu-Tang preserves intestinal barrier and ameliorates irinotecan-evoked delayed diarrhea by anchoring endogenous tryptophol to modulate inflammation and oxidation dependent on AhR-UGT1A1-microbiota axis."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Xiao-Chaihu-Tang (XCHT), a well-known traditional formula, is commonly used to treat various types of diarrhea. It also exhibits promising efficacy against chemotherapy irinotecan (CPT-11)-induced delayed diarrhea (DD). However, its underlying mechanisms, specifically concerning endogenous metabolites, key pathways, and functional gut bacteria at the species level, remain unclear, severely restricting its clinical application. AIM OF THE STUDY: This study aimed to elucidate the biomarkers, pathways, and functional bacteria involved in XCHT's alleviating CPT-11-evoked DD using multi-omics approaches, antagonists, and fecal microbiota transplantation (FMT). MATERIALS AND METHODS: First, the ingredients of XCHT and absorbed compounds in rat plasma were identified using liquid chromatography-mass spectrometry (LC-MS). Next, the therapeutic effects of XCHT were assessed by monitoring perianal status, body weight, disease activity index, food and water intake, and histopathological changes in the colon (hematoxylin and eosin, alcian blue-periodic acid-schiff staining). The underlying mechanisms were studied using metabolomics and network pharmacology, which highlighted the role of endogenous biomarkers and associated pathways. Tryptophol was identified as a key correlate, and its efficacy was further validated in rat and Caco-2 models using antagonists of potential targets (AhR and UGT1A1). The levels of inflammatory cytokines, and oxidative stress markers, intestinal barrier proteins, and mucins were detected by enzyme-linked immunosorbent assay (ELISA), Western blotting, and immunofluorescence. Furthermore, functional gut bacteria were identified using metagenomic sequencing and validated using FMT, while gut leakage was detected using fluorescence in situ hybridization (FISH). Finally, the interactions between tryptophol with targets of AhR and UGT1A1 were examined using molecular docking, molecular dynamics, and surface plasmon resonance. RESULTS: LC-MS analysis identified 43 phytochemicals in XCHT and 17 compounds absorbed in plasma. XCHT, similar to tryptophol, attenuated DD by improving perianal status, disease activity index, and colon pathology, while increasing body weight, food intake, and water intake. Metabolomics analysis revealed 33 potential endogenous biomarkers, including PGB(3), LysoPA, and so on. Integrated with network pharmacology, the results indicated that the therapeutic effect of XCHT involved the regulation of tryptophan metabolism, arachidonic acid metabolism, inflammation, and oxidative stress. Tryptophol, which exhibited a strong correlation with efficacy indices, reduced inflammation and oxidation in vivo/vitro, and enhanced intestinal barrier protein and mucin expression in an AhR-UGT1A1-dependent manner. Furthermore, metagenomic sequencing and FISH demonstrated that both XCHT and tryptophol normalized the abundance of 10 gut bacterial species (for example, Lactobacillaceae bacterium, Massiliimalia timonensis, and Limosilactobacillus reuteri) and inhibited bacterial invasion. Molecular interaction studies confirmed the strong binding between tryptophol with AhR and UGT1A1. CONCLUSION: This study demonstrates that XCHT preserves intestinal barrier integrity in rats and alleviates CPT-11-induced DD. This protective effect is mediated by modulating inflammation and oxidative stress via the tryptophol- AhR-UGT1A1-microbiota axis, providing a novel paradigm for mechanistic studies on toxicity reduction in clinical chemotherapy drugs.",
+    "keywords": [
+      "AhR-UGT1A1-microbiota",
+      "Delayed diarrhea",
+      "Irinotecan",
+      "Tryptophol",
+      "Xiao-Chaihu-Tang"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Irinotecan/toxicity",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Diarrhea/chemically induced/drug therapy/metabolism/prevention & control",
+      "Male",
+      "Rats, Sprague-Dawley",
+      "UGT1A1 Enzyme",
+      "Glucuronosyltransferase/metabolism",
+      "*Gastrointestinal Microbiome/drug effects",
+      "Receptors, Aryl Hydrocarbon/metabolism",
+      "Rats",
+      "Intestinal Barrier Function/drug effects",
+      "Humans",
+      "Inflammation/drug therapy/metabolism",
+      "Oxidation-Reduction/drug effects",
+      "*Indoles/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Qiulong",
+        "Cao, Yuanyuan",
+        "Zhang, Zhenyi",
+        "Yang, Yang",
+        "Wang, Li",
+        "Xu, Min",
+        "Mao, Yaqing",
+        "Zhang, Xiaohang",
+        "Zeng, Min",
+        "Yang, Peishan",
+        "Chen, Qinhua",
+        "Yan, Hui",
+        "Yang, Guangyi"
+      ],
+      "short_names": [
+        "Zhao Q",
+        "Cao Y",
+        "Zhang Z",
+        "Yang Y",
+        "Wang L",
+        "Xu M",
+        "Mao Y",
+        "Zhang X",
+        "Zeng M",
+        "Yang P",
+        "Chen Q",
+        "Yan H",
+        "Yang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, 518104, China; Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Pharmacy, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China; Shenzhen Bao'an Authentic TCM Therapy Hospital, Shenzhen, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Department of Thoracic and Cardiomacrovascular Surgery, Shiyan Taihe Hospital Affiliated to Hubei University of Medicine, Shiyan, 442000, China.",
+        "Zhongshan City People's Hospital, Zhongshan, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, China; Shenzhen Bao'an Authentic TCM Therapy Hospital, Shenzhen, Guangdong, China. Electronic address: cqh77@163.com.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China. Electronic address: yanhui@njucm.edu.cn.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, 518104, China; Guangzhou University of Chinese Medicine, Guangzhou, China. Electronic address: 13971908298@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Qiulong",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, 518104, China; Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuanyuan",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenyi",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China; Shenzhen Bao'an Authentic TCM Therapy Hospital, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Min",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yaqing",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaohang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Min",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic and Cardiomacrovascular Surgery, Shiyan Taihe Hospital Affiliated to Hubei University of Medicine, Shiyan, 442000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Peishan",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan City People's Hospital, Zhongshan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qinhua",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, China; Shenzhen Bao'an Authentic TCM Therapy Hospital, Shenzhen, Guangdong, China. Electronic address: cqh77@163.com."
+        ]
+      },
+      {
+        "full_name": "Yan, Hui",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China. Electronic address: yanhui@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Guangyi",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, 518104, China; Guangzhou University of Chinese Medicine, Guangzhou, China. Electronic address: 13971908298@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 May 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41713817",
+      "41932664",
+      "42002659",
+      "37683587",
+      "40330488",
+      "42128077",
+      "41946054",
+      "31509102",
+      "41344523",
+      "39186991",
+      "42002120",
+      "41619552",
+      "41812936",
+      "38677270",
+      "33989737",
+      "42173417",
+      "41456824",
+      "36356716",
+      "41886955",
+      "41831735",
+      "41482085",
+      "34111616",
+      "42108748",
+      "42025932",
+      "41207006",
+      "39489360",
+      "41453546",
+      "42166934",
+      "39981856",
+      "42069161",
+      "42172982",
+      "40680331",
+      "41435607",
+      "30551482",
+      "40082245",
+      "41274019",
+      "41331872",
+      "39362330",
+      "38670405",
+      "40835195",
+      "41407132",
+      "41917988",
+      "40618491",
+      "41047052",
+      "40782764",
+      "40315641",
+      "41176261",
+      "38580189",
+      "39919330",
+      "40907403",
+      "41005055",
+      "39362332",
+      "39013542",
+      "39150724",
+      "41551535",
+      "41486262",
+      "41435605",
+      "34087350",
+      "39581285",
+      "40316151",
+      "41534751",
+      "39089660",
+      "39608616",
+      "39043352",
+      "41796620",
+      "41831247",
+      "41135620",
+      "40598252",
+      "42096839",
+      "41956232",
+      "41583118",
+      "36641976",
+      "41175590",
+      "40633858",
+      "40221743",
+      "40074099",
+      "41655865",
+      "40398245",
+      "41061287",
+      "41224214",
+      "40253741",
+      "39368337",
+      "41317807",
+      "42150656",
+      "40892742",
+      "41443483",
+      "41570783",
+      "40675106",
+      "40068292",
+      "40774007",
+      "37460028",
+      "40886473",
+      "41371161",
+      "40684488",
+      "40083784",
+      "40242025",
+      "40633857",
+      "42302947",
+      "39677295",
+      "40698060"
+    ],
+    "review": [
+      "41713817",
+      "39150724"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(26)00231-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diarrhea.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diarrhea"
+      }
+    ],
+    "text_mined": []
+  }
+}

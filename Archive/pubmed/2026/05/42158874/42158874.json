@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "42158874",
+    "doi": "10.3389/fimmu.2026.1799675",
+    "title": "The mechanism of gut microbiota in septic cardiomyopathy based on the bulk transcriptome and Mendelian randomization analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Septic cardiomyopathy (SCM) is one of the most common and serious complications of sepsis. Earlier research has identified reciprocal regulation between SCM and gut microbiota (GM), but the mechanistic basis of GM in SCM development remains obscure. This study aimed to explore the value of targets of GM in SCM. METHODS: The genome-wide association study (GWAS) data of sepsis and GM were downloaded from public databases. The causal association between GM and sepsis was evaluated via Mendelian randomization (MR) analysis to identify key microbiota potentially involved in septic complications. The metabolites and targets corresponding to the GM were acquired from the public databases. The differentially expressed genes (DEGs) between SCM and control were obtained by differential expression analysis. Subsequently, biomarkers were identified by the intersection of DEGs and targets of GM, and machine learning algorithm. Gene set enrichment analysis (GSEA), and immune analysis were adopted. Then, the upstream factors and metabolites linked to biomarkers were obtained. Finally, molecular docking and molecular dynamics (MD) simulation analysis was conducted. Additionally, the concentrations of the inflammatory cytokine IL-6 and the myocardial injury marker cTnI in clinical samples were detected using enzyme-linked immunosorbent assay (ELISA). The concentration of the key metabolite propylene glycol was measured via gas chromatography-mass spectrometry (GC-MS). The expression levels of biomarker genes were validated through reverse transcription quantitative polymerase chain reaction (RT-qPCR). RESULTS: A total of 5 GM, such as genus.Bifidobacterium.id.436.scatter were obtained based on MR analysis, and 22 metabolites, such as folic acid, and 461 targets, such as CA12 were obtained. Then, a total of 166 DEGs were determined, a total of 11 candidate genes were obtained through the intersection of the targets of GM and SCM. Finally, STAT3 and SLC5A1 were identified as biomarkers, and these 2 genes were both enriched in the pathways such as valine leucine and isoleucine degradation. Moreover, immune cells such as MDSCs and activated dendritic cells might have a notable impact on SCM with biomarkers. Transcription factors (TFs) such as FOXC1 and microRNAs (miRNAs) such as miR-3120-3p have been found to have regulatory relationships with biomarkers, and propylene glycol had good binding activity with biomarkers. Finally, clinical sample validation results demonstrated that serum IL-6 and cTnI concentrations were significantly elevated in SCM patients, while propylene glycol levels were markedly decreased. Concurrently, STAT3 mRNA expression was significantly upregulated, whereas SLC5A1 expression was significantly downregulated. CONCLUSION: This study identified STAT3 and SLC5A1 as candidate biomarkers associated with gut microbiota in SCM, providing a foundation for future investigation into their mechanistic roles.",
+    "keywords": [
+      "Mendelian randomization",
+      "biomarkers",
+      "gut microbiota",
+      "machine learning",
+      "septic cardiomyopathy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cardiomyopathies/etiology/microbiology/genetics/metabolism",
+      "*Gastrointestinal Microbiome",
+      "Mendelian Randomization Analysis",
+      "*Transcriptome",
+      "*Sepsis/complications/microbiology/genetics",
+      "Biomarkers",
+      "Genome-Wide Association Study",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Yuxia",
+        "Li, Lianxin",
+        "Wang, Jianhao",
+        "Du, Wenting",
+        "Ye, Shan",
+        "Lu, Jinshuai"
+      ],
+      "short_names": [
+        "Tao Y",
+        "Li L",
+        "Wang J",
+        "Du W",
+        "Ye S",
+        "Lu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China.",
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China.",
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China.",
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China.",
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China.",
+        "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Yuxia",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lianxin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianhao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Du, Wenting",
+        "short_name": "Du W",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shan",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jinshuai",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Center II, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/20 06:32",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40480451",
+      "40474023",
+      "40415523",
+      "40282880",
+      "40135300",
+      "40046438",
+      "39823893",
+      "39735610",
+      "39602306",
+      "39542185",
+      "39519708",
+      "39294340",
+      "39182099",
+      "39088085",
+      "39063011",
+      "38945587",
+      "38879701",
+      "38862069",
+      "38816685",
+      "38438106",
+      "38291374",
+      "38237386",
+      "38179421",
+      "38145013",
+      "38140061",
+      "38073164",
+      "38045857",
+      "38014844",
+      "37765211",
+      "37691920",
+      "37619482",
+      "37539246",
+      "37272081",
+      "37256445",
+      "37063851",
+      "36978107",
+      "36893835",
+      "36729604",
+      "36704101",
+      "36638851",
+      "36513882",
+      "36410609",
+      "36253620",
+      "36160853",
+      "35957694",
+      "35807835",
+      "35781746",
+      "35751589",
+      "35577241",
+      "35266651",
+      "35234205",
+      "35173696",
+      "35166069",
+      "35103290",
+      "34557778",
+      "34176626",
+      "33792460",
+      "33670798",
+      "33508297",
+      "33259229",
+      "33013685",
+      "33003453",
+      "32987855",
+      "32683850",
+      "32487252",
+      "31280495",
+      "30861319",
+      "30201611",
+      "29149188",
+      "28527048",
+      "28447715",
+      "28403983",
+      "28283553",
+      "27061298",
+      "25773750",
+      "25605792",
+      "25516281",
+      "23937229",
+      "23323831",
+      "21414208",
+      "20808728"
+    ],
+    "similar": [
+      "42158874",
+      "42148128",
+      "41333919",
+      "41960682",
+      "42004723",
+      "41555186",
+      "41935768",
+      "42369548",
+      "41341599",
+      "42181212",
+      "39299582",
+      "38167131",
+      "39557695",
+      "40664942",
+      "40916281",
+      "40419156",
+      "42565562",
+      "40822862",
+      "41422660",
+      "39022342",
+      "40304330",
+      "42456406",
+      "35782126",
+      "39370621",
+      "41080564",
+      "40396598",
+      "41378121",
+      "40350654",
+      "41378860",
+      "40453984",
+      "40755754",
+      "39483475",
+      "42015036",
+      "37170220",
+      "40348210",
+      "39346628",
+      "41957428",
+      "41340627",
+      "39512836",
+      "37996554",
+      "41246299",
+      "40875767",
+      "41204613",
+      "38649912",
+      "39872525",
+      "39647286",
+      "38022507",
+      "42305536",
+      "38291374",
+      "40909263",
+      "41824857",
+      "41868793",
+      "35495160",
+      "39735900",
+      "41376620",
+      "41191606",
+      "41288916",
+      "42291321",
+      "39364145",
+      "42417419",
+      "41029138",
+      "42398170",
+      "41905994",
+      "31424269",
+      "39948579",
+      "38885114",
+      "39360021",
+      "39492788",
+      "41846910",
+      "42437780",
+      "42180604",
+      "39055656",
+      "40223054",
+      "41287097",
+      "38526030",
+      "40206264",
+      "40500572",
+      "39839262",
+      "42116295",
+      "39167027",
+      "40124361",
+      "40193247",
+      "40055592",
+      "42200243",
+      "42509710",
+      "41220037",
+      "40122887",
+      "40837006",
+      "41492743",
+      "39671358",
+      "42123756",
+      "42255437",
+      "42112773",
+      "42025819",
+      "38558794",
+      "41833346",
+      "40821971",
+      "42059276",
+      "40772736",
+      "40191192"
+    ],
+    "review": [
+      "42158874",
+      "41378860",
+      "37170220"
+    ],
+    "pmc": [
+      "13181340"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42158874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNNI3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1799675",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.21.600041",
+  "title": "ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity",
+  "doi": "10.1101/2024.06.21.600041",
+  "abstract": "Protein-protein interactions (PPIs) govern virtually all cellular processes. Even a single mutation within PPI can significantly influence overall protein functionality and potentially lead to various types of diseases. To date, numerous approaches have emerged for predicting the change in free energy of binding (ΔΔG bind ) resulting from mutations, yet the majority of these methods lack precision. In recent years, protein language models (PLMs) have been developed and shown powerful predictive capabilities by leveraging both sequence and structural data from protein-protein complexes. Yet, PLMs have not been optimized specifically for predicting ΔΔG bind . We developed an approach to predict effects of mutations on PPI binding affinity based on two most advanced protein language models ESM2 and ESM-IF1 that incorporate PPI sequence and structural features, respectively. We used the two models to generate embeddings for each PPI mutant and subsequently fine-tuned our model by training on a large dataset of experimental ΔΔG bind values. Our model, ProBASS (Protein Binding Affinity from Structure and Sequence) achieved a correlation with experimental ΔΔG bind values of 0.83 ± 0.05 for single mutations and 0.69 ± 0.04 for double mutations when model training and testing was done on the same PDB. Moreover, ProBASS exhibited very high correlation (0.81 ± 0.02) between prediction and experiment when training and testing was performed on a dataset containing 2325 single mutations in 132 PPIs. ProBASS surpasses the state-of-the-art methods in correlation with experimental data and could be further trained as more experimental data becomes available. Our results demonstrate that the integration of extensive datasets containing ΔΔG bind values across multiple PPIs to refine the pre-trained PLMs represents a successful approach for achieving a precise and broadly applicable model for ΔΔG bind prediction, greatly facilitating future protein engineering and design studies.",
+  "authors": [
+    "Sagara N.S. Gurusinghe",
+    "Yibing Wu",
+    "William DeGrado",
+    "Julia M. Shifman"
+  ],
+  "published_date": "2024-06-26",
+  "updated_date": "2024-06-26T21:05:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600041",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600041.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2026-02-07T12:26:19Z",
+        "timestamp": 1770467179970,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein-protein interactions (PPIs) govern virtually all cellular processes. Even a single mutation within PPI can significantly influence overall protein functionality and potentially lead to various types of diseases. To date, numerous approaches have emerged for predicting the change in free energy of binding (ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  ) resulting from mutations, yet the majority of these methods lack precision. In recent years, protein language models (PLMs) have been developed and shown powerful predictive capabilities by leveraging both sequence and structural data from protein-protein complexes. Yet, PLMs have not been optimized specifically for predicting ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  . We developed an approach to predict effects of mutations on PPI binding affinity based on two most advanced protein language models ESM2 and ESM-IF1 that incorporate PPI sequence and structural features, respectively. We used the two models to generate embeddings for each PPI mutant and subsequently fine-tuned our model by training on a large dataset of experimental ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  values. Our model, ProBASS (Protein Binding Affinity from Structure and Sequence) achieved a correlation with experimental ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  values of 0.83 ± 0.05 for single mutations and 0.69 ± 0.04 for double mutations when model training and testing was done on the same PDB. Moreover, ProBASS exhibited very high correlation (0.81 ± 0.02) between prediction and experiment when training and testing was performed on a dataset containing 2325 single mutations in 132 PPIs. ProBASS surpasses the state-of-the-art methods in correlation with experimental data and could be further trained as more experimental data becomes available. Our results demonstrate that the integration of extensive datasets containing ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  values across multiple PPIs to refine the pre-trained PLMs represents a successful approach for achieving a precise and broadly applicable model for ΔΔG\n                  <jats:sub>bind</jats:sub>\n                  prediction, greatly facilitating future protein engineering and design studies.\n                </jats:p>",
+      "DOI": "10.1101/2024.06.21.600041",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            26
+          ]
+        ],
+        "date-time": "2024-06-26T21:05:12Z",
+        "timestamp": 1719435912000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Sagara N.S.",
+          "family": "Gurusinghe",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yibing",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4745-263X",
+          "authenticated-orcid": false,
+          "given": "William",
+          "family": "DeGrado",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6678-6497",
+          "authenticated-orcid": false,
+          "given": "Julia M.",
+          "family": "Shifman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201100563"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/9789811211874_0006"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)01281-0"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hollander, M. , Do, T. , Will, T. & Helms, V . Detecting Rewiring Events in Protein-Protein Interaction Networks Based on Transcriptomic Data. Frontiers in Bioinformatics 1, (2021).",
+          "DOI": "10.3389/fbinf.2021.724297"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gonzalez, M. W. & Kann, M. G . Chapter 4: Protein Interactions and Disease. PLoS Comput Biol 8, (2012).",
+          "DOI": "10.1371/journal.pcbi.1002819"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2005.06.001"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1586/14789450.2015.1084875"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.8",
+          "unstructured": "Ladbury’, J. E. & Chowdhrv2, B. Z. Sensing the Heat: The Application of Isothermal Titration Calorimetry to Thermodynamic Studies of Biomolecular Interactions."
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-59745-483-4_14"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiong, P. , Zhang, C. , Zheng, W. & Zhang, Y . BindProfX: Assessing Mutation-Induced Binding Affinity Change by Protein Interface Profiles with Pseudo-Counts. J Mol Biol 429, 426 (2017).",
+          "DOI": "10.1016/j.jmb.2016.11.022"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Petukh, M. , Dai, L. & Alexov, E . SAAMBE: Webserver to Predict the Charge of Binding Free Energy Caused by Amino Acids Mutations. Int J Mol Sci 17, (2016).",
+          "DOI": "10.3390/ijms17040547"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Capriotti, E. et al. WS-SNPs&GO: a web server for predicting the deleterious effect of human protein variants using functional annotation. BMC Genomics 14, S6 (2013).",
+          "DOI": "10.1186/1471-2164-14-S3-S6"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yates, C. M. , Filippis, I. , Kelley, L. A. & Sternberg, M. J. E . SuSPect: Enhanced Prediction of Single Amino Acid Variant (SAV) Phenotype Using Network Features. J Mol Biol 426, 2692 (2014).",
+          "DOI": "10.1016/j.jmb.2014.04.026"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw374"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw031"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt450"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krüger, D. M. & Gohlke, H . DrugScorePPI webserver: fast and accurate in silico alanine scanning for scoring protein-protein interactions. Nucleic Acids Res 38, (2010).",
+          "DOI": "10.1093/nar/gkq471"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00442-4"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST20130121"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr929"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tuncbag, N. , Keskin, O. & Gursoy, A . HotPoint: hot spot prediction server for protein interfaces. Nucleic Acids Res 38, (2010).",
+          "DOI": "10.1093/nar/gkq323"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kortemme, T. , Kim, D. E. & Baker, D . Computational alanine scanning of protein-protein interfaces. Sci STKE 2004, (2004).",
+          "DOI": "10.1126/stke.2192004pl2"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "2671",
+          "DOI": "10.1002/prot.23094",
+          "article-title": "KFC2: A knowledge-based hot spot prediction method based on interface solvation, atomic density, and plasticity features",
+          "volume": "79",
+          "year": "2011",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003592"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth0109-3"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct401022c"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1004276"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt691"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pahari, S. et al. SAAMBE-3D: Predicting effect of mutations on protein–protein interactions. Int J Mol Sci 21, (2020).",
+          "DOI": "10.3390/ijms21072563"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005690",
+          "DOI": "10.1371/journal.pcbi.1005690",
+          "article-title": "TopologyNet: Topology based deep convolutional and multi-task neural networks for biomolecular property predictions",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, N. et al. MutaBind2: Predicting the Impacts of Single and Multiple Mutations on Protein-Protein Interactions. iScience 23, 100939 (2020).",
+          "DOI": "10.1016/j.isci.2020.100939"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29268-7"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vig, J. , et al. BERTology Meets Biology: Interpreting Attention in Protein Language Models. Preprint at https://github.com/salesforce/provis. (2020).",
+          "DOI": "10.1101/2020.06.26.174417"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. et al. ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning. IEEE Trans Pattern Anal Mach Intell 44, (2022).",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.02.12.430858"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.37",
+          "unstructured": "Ingraham, J. , Garg, V. K. , Barzilay, R. & Jaakkola, T. Generative Models for Graph-Based Protein Design."
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.07.20.500902"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Strokach, A. , Lu, T. Y. & Kim, P. M . ELASPIC2 (EL2): Combining Contextualized Language Models and Graph Neural Networks to Predict Effects of Mutations. J Mol Biol 433, (2021).",
+          "DOI": "10.1016/j.jmb.2021.166810"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "17261",
+          "DOI": "10.1021/jacs.1c08707",
+          "article-title": "Climbing up and down Binding Landscapes through Deep Mutational Scanning of Three Homologous Protein-Protein Complexes",
+          "volume": "143",
+          "year": "2021",
+          "journal-title": "J Am Chem Soc"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heyne, M. , Papo, N. & Shifman, J. M . Generating quantitative binding landscapes through fractional binding selections combined with deep sequencing and data normalization. Nat Commun 11, (2020).",
+          "DOI": "10.1038/s41467-019-13895-8"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1295",
+          "DOI": "10.1016/j.cell.2020.08.012",
+          "article-title": "Deep Mutational Scanning of SARS-CoV-2 Receptor Binding Domain Reveals Constraints on Folding and ACE2 Binding",
+          "volume": "182",
+          "year": "2020",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.46",
+          "unstructured": "Prokhorenkova, L. , Gusev, G. , Vorobev, A. , Dorogush, A. V. & Gulin, A. CatBoost: unbiased boosting with categorical features. (2017)."
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hsu, C. and V. R. and L . J. and L . Z. and H . B. and S . T. and L . A. and R . A. Inverse Folding with ESM-IF1. Learning inverse folding from millions of predicted structures (2022).",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.06.03.494563"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Henry Dieckhaus, M. B. N. R. B. K. Welcome to the Colab Implementation of ThermoMPNN. Transfer learning to leverage larger datasets for improved prediction of protein stability changes (2023).",
+          "DOI": "10.1101/2023.07.27.550881"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.03.055"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi9808621"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dieckhaus, H. , Brocidiacono, M. , Randolph, N. & Kuhlman, B. Transfer learning to leverage larger datasets for improved prediction of protein stability changes. PNAS. 121 (6) e2314853121. (2024)",
+          "DOI": "10.1073/pnas.2314853121"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1016/j.cels.2020.08.016",
+          "article-title": "Fast and Flexible Protein Design Using Deep Graph Neural Networks",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2024062810351538000_2024.06.21.600041v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.21.600041",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:37:04Z",
+        "timestamp": 1768459024000
+      },
+      "score": 85.85972,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.21.600041"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            26
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2024.06.21.600041",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btaf270",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

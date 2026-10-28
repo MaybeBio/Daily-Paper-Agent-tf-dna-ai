@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.15.435531",
+  "title": "Structure Can Predict Function in the Human Brain: A Graph Neural Network Deep Learning Model of Functional Connectivity and Centrality Based on Structural Connectivity",
+  "authors": "Josh Neudorf; Shaylyn Kress; Ron Borowsky",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-15",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用图神经网络从脑结构连接预测功能连接与中心性，对象为脑网络而非蛋白质-DNA互作，方法虽为AI但与课题无关。",
+  "abstract": "Although functional connectivity and associated graph theory measures (e.g., centrality; how centrally important to the network a region is) are widely used in brain research, the full extent to which these functional measures are related to the underlying structural connectivity is not yet fully understood. Graph neural network deep learning methods have not yet been applied for this purpose, and offer an ideal model architecture for working with connectivity data given their ability to capture and maintain inherent network structure. This model applied here to predict functional connectivity and centrality from structural connectivity accounted for 89% of the variance in mean functional connectivity, 56% of the variance in individual-level functional connectivity, 99% of the variance in mean functional centrality, and 81% of the variance in individual-level functional centrality. This model provides a new benchmark for performance and represents a novel finding that functional centrality can be robustly predicted from structural connectivity. Regions of particular importance to the model’s performance as determined through lesioning are discussed, whereby regions with higher centrality have a higher impact on model performance. Future research on models of patient, demographic, or behavioural data can also benefit from this graph neural network method as it is ideally-suited for capturing connectivity and centrality in brain networks. These results have set a new benchmark for prediction of functional connectivity from structural connectivity, and models like this may ultimately lead to a way to predict functional connectivity in individuals who are unable to do fMRI tasks (e.g., non-responsive patients).",
+  "abstract_zh": "尽管功能连接性及相关图论指标（如中心性；即一个区域在网络中的核心重要程度）在脑研究中被广泛使用，但这些功能指标与潜在结构连接性之间的完整关联程度尚未完全明了。图神经网络深度学习方法尚未应用于此目的，鉴于其捕捉并维持固有网络结构的能力，它为处理连接性数据提供了理想的模型架构。该模型在此应用于从结构连接性预测功能连接性和中心性，解释了平均功能连接性方差的89%、个体水平功能连接性方差的56%、平均功能中心性方差的99%，以及个体水平功能中心性方差的81%。该模型为性能设立了新基准，并代表了一项新颖发现，即功能中心性可以从结构连接性中稳健预测。通过损伤分析确定的模型性能特别重要的区域被讨论，其中中心性较高的区域对模型性能影响更大。未来关于患者、人口统计学或行为数据的研究也能受益于这种图神经网络方法，因为它非常适合捕捉脑网络中的连接性和中心性。这些结果为从结构连接性预测功能连接性设立了新基准，此类模型最终可能为无法执行fMRI任务（如无反应患者）的个体提供预测功能连接性的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435531",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435531",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.15.435531/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39903776",
+  "title": "Interpreting the CTCF-mediated sequence grammar of genome folding with AkitaV2.",
+  "authors": "Smaruj, Paulina N; Kamulegeya, Fahad; Kelley, David R; Fudenberg, Geoffrey",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-02-04",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用卷积神经网络AkitaV2解析CTCF结合位点及其侧翼序列对基因组折叠的序列语法贡献，虽聚焦CTCF-DNA结合与基因组折叠而非典型TF-DNA互作建模，但方法可迁移至TF-DNA结合位点预测与互作机制研究。",
+  "abstract": "Interphase mammalian genomes are folded in 3D with complex locus-specific patterns that impact gene regulation. CTCF (CCCTC-binding factor) is a key architectural protein that binds specific DNA sites, halts cohesin-mediated loop extrusion, and enables long-range chromatin interactions. There are hundreds of thousands of annotated CTCF-binding sites in mammalian genomes; disruptions of some result in distinct phenotypes, while others have no visible effect. Despite their importance, the determinants of which CTCF sites are necessary for genome folding and gene regulation remain unclear. Here, we update and utilize Akita, a convolutional neural network model, to extract the sequence preferences and grammar of CTCF contributing to genome folding. Our analyses of individual CTCF sites reveal four predictions: (i) only a small fraction of genomic sites are impactful; (ii) impact is highly dependent on sequences flanking the core CTCF binding motif; (iii) core and flanking nucleotides contribute largely additively to the overall impact of a site; (iv) sites created as combinations of different core and flanking sequences have impacts proportional to the product of their average impacts, i.e. they are broadly compatible. Our analysis of collections of CTCF sites make two predictions for multi-motif grammar: (i) insulation strength depends on the number of CTCF sites within a cluster, and (ii) pattern formation is governed by the orientation and spacing of these sites, rather than any inherent specialization of the CTCF motifs themselves. In sum, we present a framework for using neural network models to probe the sequences instructing genome folding and provide a number of predictions to guide future experimental inquiries.",
+  "abstract_zh": "间期哺乳动物基因组以三维方式折叠，具有影响基因调控的复杂位点特异性模式。CTCF（CCCTC结合因子）是一种关键的结构蛋白，它结合特定DNA位点，阻止cohesin介导的环挤压，并促进长距离染色质相互作用。哺乳动物基因组中有数十万个已注释的CTCF结合位点；其中一些的破坏导致明显表型，而其他则无可见效应。尽管它们的重要性，决定哪些CTCF位点对基因组折叠和基因调控必需的因素仍不清楚。在此，我们更新并利用Akita，一种卷积神经网络模型，来提取CTCF对基因组折叠贡献的序列偏好和语法。我们对单个CTCF位点的分析揭示了四个预测：（i）只有少数基因组位点具有影响力；（ii）影响高度依赖于核心CTCF结合基序侧翼的序列；（iii）核心和侧翼核苷酸对位点整体影响的贡献大致是加性的；（iv）由不同核心和侧翼序列组合创建的位点，其影响与它们平均影响的乘积成正比，即它们广泛兼容。我们对CTCF位点集合的分析为多基序语法提供了两个预测：（i）绝缘强度取决于簇内CTCF位点的数量，以及（ii）模式形成受这些位点的方向和间距控制，而非CTCF基序本身的任何固有特化。总之，我们提出了一个使用神经网络模型探究指导基因组折叠序列的框架，并提供了若干预测以指导未来的实验研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39903776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39903776/",
+  "paper_page_path": "papers/pubmed/39903776/index.html"
+}

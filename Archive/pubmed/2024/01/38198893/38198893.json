@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "38198893",
+    "doi": "10.1016/j.cels.2023.12.006",
+    "title": "Predicting gene-level sensitivity to JAK-STAT signaling perturbation using a mechanistic-to-machine learning framework."
+  },
+  "content": {
+    "abstract": "The Janus kinase (JAK)-signal transducer and activator of transcription (STAT) pathway integrates complex cytokine signals via a limited number of molecular components, inspiring numerous efforts to clarify the diversity and specificity of STAT transcription factor function. We developed a computational framework to make global cytokine-induced gene predictions from STAT phosphorylation dynamics, modeling macrophage responses to interleukin (IL)-6 and IL-10, which signal through common STATs, but with distinct temporal dynamics and contrasting functions. Our mechanistic-to-machine learning model identified cytokine-specific genes associated with late pSTAT3 time frames and a preferential pSTAT1 reduction upon JAK2 inhibition. We predicted and validated the impact of JAK2 inhibition on gene expression, identifying genes that were sensitive or insensitive to JAK2 variation. Thus, we successfully linked STAT signaling dynamics to gene expression to support future efforts targeting pathology-associated STAT-driven gene sets. This serves as a first step in developing multi-level prediction models to understand and perturb gene expression outputs from signaling systems. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "JAK inhibition",
+      "JAK-STAT",
+      "cytokine signaling",
+      "machine learning",
+      "macrophage",
+      "mechanistic modeling",
+      "modeling framework",
+      "rule-based modeling",
+      "temporal coding",
+      "transcription factor specificity"
+    ],
+    "mesh_terms": [
+      "*Janus Kinases/genetics/metabolism",
+      "*Signal Transduction/genetics",
+      "Phosphorylation",
+      "Cytokines/metabolism",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheemalavagu, Neha",
+        "Shoger, Karsen E",
+        "Cao, Yuqi M",
+        "Michalides, Brandon A",
+        "Botta, Samuel A",
+        "Faeder, James R",
+        "Gottschalk, Rachel A"
+      ],
+      "short_names": [
+        "Cheemalavagu N",
+        "Shoger KE",
+        "Cao YM",
+        "Michalides BA",
+        "Botta SA",
+        "Faeder JR",
+        "Gottschalk RA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: faeder@pitt.edu.",
+        "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: rachel.gottschalk@pitt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheemalavagu, Neha",
+        "short_name": "Cheemalavagu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Shoger, Karsen E",
+        "short_name": "Shoger KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuqi M",
+        "short_name": "Cao YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Michalides, Brandon A",
+        "short_name": "Michalides BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Botta, Samuel A",
+        "short_name": "Botta SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Faeder, James R",
+        "short_name": "Faeder JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: faeder@pitt.edu."
+        ]
+      },
+      {
+        "full_name": "Gottschalk, Rachel A",
+        "short_name": "Gottschalk RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; Center for Systems Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: rachel.gottschalk@pitt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2024 Jan 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/11 00:41",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "41577820",
+      "41497321",
+      "41166390",
+      "40711443",
+      "40654786",
+      "40510354",
+      "40027667",
+      "39865344",
+      "39265520"
+    ],
+    "refs": [
+      "36240739",
+      "35631587",
+      "35504889",
+      "35063833",
+      "34987201",
+      "34824210",
+      "34809691",
+      "34631119",
+      "33979588",
+      "33436596",
+      "32647323",
+      "32015543",
+      "31962244",
+      "31107246",
+      "30783653",
+      "30704857",
+      "30175326",
+      "29514181",
+      "29140464",
+      "28658630",
+      "28396000",
+      "28365150",
+      "28191885",
+      "27687249",
+      "27402907",
+      "25992861",
+      "25635454",
+      "25516281",
+      "24530305",
+      "24069549",
+      "23483479",
+      "23277609",
+      "23166328",
+      "22805708",
+      "22102730",
+      "17241879",
+      "16199517",
+      "15935617",
+      "14668806",
+      "12808457",
+      "12754507",
+      "12626585",
+      "12466850",
+      "12057007",
+      "12045153",
+      "10347215",
+      "10023769",
+      "7543512",
+      "7543024",
+      "7537214",
+      "1744584"
+    ],
+    "similar": [
+      "38198893",
+      "37292918",
+      "34630419",
+      "34530865",
+      "39357468",
+      "25084174",
+      "22121102",
+      "35238133",
+      "28461339",
+      "18291658",
+      "22454431",
+      "22018664",
+      "31455240",
+      "22883438",
+      "35772766",
+      "39724808",
+      "32354727",
+      "34492272",
+      "27215196",
+      "23894411",
+      "24685392",
+      "25415616",
+      "19319849",
+      "28069291",
+      "35844493",
+      "37373437",
+      "23435739",
+      "32186038",
+      "22676255",
+      "30582204",
+      "31684858",
+      "30558204",
+      "32198236",
+      "37536511",
+      "29685781",
+      "27349799",
+      "33245005",
+      "25676437",
+      "28987368",
+      "36569926",
+      "37372319",
+      "22711165",
+      "25817464",
+      "36569854",
+      "24668492",
+      "22284190",
+      "36041544",
+      "30294965",
+      "9685210",
+      "10071751",
+      "20535135",
+      "31677846",
+      "34207510",
+      "26172316",
+      "40140631",
+      "18715729",
+      "28028720",
+      "28494922",
+      "39132772",
+      "31539145",
+      "32561292",
+      "37208335",
+      "36065686",
+      "21965617",
+      "22412924",
+      "36927649",
+      "34824210",
+      "24319264",
+      "31781102",
+      "19208156",
+      "25839969",
+      "20471303",
+      "9766506",
+      "33256266",
+      "34800646",
+      "37784164",
+      "33634995",
+      "10851052",
+      "16354768",
+      "31641939",
+      "28182501",
+      "12504822",
+      "35876719",
+      "35889539",
+      "23968543",
+      "36610610",
+      "38917875",
+      "24289470",
+      "38273295",
+      "37446365",
+      "38273387",
+      "17168672",
+      "11032030",
+      "32302624",
+      "28255960",
+      "29337196",
+      "26817397",
+      "35437700",
+      "12591746",
+      "9202127"
+    ],
+    "review": [
+      "38198893",
+      "25084174",
+      "35238133",
+      "18291658",
+      "22018664",
+      "22883438",
+      "34492272",
+      "24685392",
+      "25415616",
+      "19319849",
+      "28069291",
+      "35844493",
+      "37373437",
+      "30558204",
+      "32198236",
+      "37536511",
+      "29685781",
+      "27349799",
+      "33245005",
+      "25676437",
+      "36569926",
+      "37372319",
+      "36569854",
+      "36041544",
+      "30294965",
+      "10071751",
+      "20535135",
+      "31677846",
+      "34207510",
+      "40140631",
+      "18715729",
+      "37208335",
+      "36927649",
+      "34824210",
+      "31781102",
+      "20471303",
+      "33256266",
+      "37784164",
+      "10851052",
+      "28182501",
+      "35889539",
+      "36610610",
+      "38273295",
+      "38273387",
+      "17168672",
+      "28255960",
+      "26817397",
+      "35437700"
+    ],
+    "pmc": [
+      "10812086"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(23)00360-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38198893/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

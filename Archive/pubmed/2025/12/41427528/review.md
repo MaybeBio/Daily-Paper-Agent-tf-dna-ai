@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and logical coherence based solely on the provided text
+- **Shared manuscript claim summary** The authors report structure-based design of β-hairpin macrocyclic peptides targeting STAT1, derived from poxvirus protein 018. They demonstrate that successive orthogonal macrocyclizations (head-to-tail and interstrand o-xylyl cross-links) additively improve binding affinity, primarily by slowing dissociation kinetics. They provide thermodynamic (ITC), kinetic (GCI), structural (X-ray crystallography), and computational (MD) evidence, and propose a kinetic model for enhanced target residence. They also show competitive inhibition of STAT1–receptor interactions in a fluorescence polarization assay.
+- **Visible evidence base** Text descriptions of ITC, GCI, CD, X-ray crystallography, MD simulations, and FP assays; references to Figures 1–5, Tables S1–S3, and Figures S1–S5 (none of which were provided)
+- **Missing materials affecting confidence** All figures, tables, and supplementary data; experimental methods section; crystallographic statistics; MD simulation parameters; peptide sequences and synthesis details; assay protocols
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and under-explored question: how macrocyclization affects the thermodynamic and kinetic properties of β-hairpin peptide binders. The work is timely, well-motivated, and the experimental design is thoughtful, with orthogonal biophysical methods applied to a systematic peptide series. The finding that dissociation rate, rather than association rate, underpins affinity gains is mechanistically interesting and potentially generalizable. However, the absence of all figures, tables, and methods makes it impossible to verify the quantitative claims, assess data quality, or evaluate the structural interpretations. The manuscript is promising but cannot be fully evaluated from the provided material.
+- **Who would be interested in the results, and why** Researchers in peptide macrocycle design, stapled peptide chemistry, protein–protein interaction inhibition, and chemical biology. The work is also relevant to those studying viral immune evasion mechanisms and their translation into pharmacological tools. The kinetic framework proposed could inform future design of long-residence-time peptide probes.
+- **Major strengths** 1) Systematic peptide series enabling additive analysis of orthogonal cyclization effects. 2) Multi-technique approach (ITC, GCI, crystallography, MD, FP) providing complementary perspectives. 3) Novel mechanistic insight linking macrocyclization to dissociation kinetics rather than preorganization-driven association. 4) Clinically relevant target (STAT1) with clear therapeutic rationale. 5) Viral template concept is creative and potentially broadly applicable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim additive affinity gains from successive orthogonal cyclizations (peptides 1→4) and specific KD values from ITC and GCI.
+  - **Evidence pointer** Figures 1A,B; 2A,B; Tables S1,S2; location not provided
+  - **Concern** All quantitative data supporting the central claims are contained in figures and tables that were not provided. Without these, the reported KD values, error bars, replicate numbers, and statistical significance cannot be assessed. The claim of "additive" effects requires direct comparison of confidence intervals across the peptide series.
+  - **Why it matters** The core conclusion of the paper—that orthogonal macrocyclization additively improves affinity via slowed dissociation—rests entirely on these quantitative comparisons. If the differences are within experimental error, the central thesis collapses.
+  - **Resolution test** Provide all figures and tables with error bars, replicate numbers, and statistical analysis. Demonstrate that the affinity differences between successive peptides (1→2→3→4) are statistically significant and non-overlapping within confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that the o-xylyl cross-link perturbs hairpin secondary structure, with significant movement of N- and C-terminal regions and decreased right-handed twist, based on two crystal structures of peptide 6 bound to STAT1.
+  - **Evidence pointer** Figure 3A–D; Table S3; location not provided
+  - **Concern** The structural claims are based on two crystal forms of a single peptide (6). No structural data are provided for the linear peptide 1 or other cyclic peptides in the bound state. The comparison to the "018 minimal fragment" is mentioned but the reference structure is not shown. Crystallographic statistics (resolution, R-factors, B-factors) are in Table S3, which was not provided.
+  - **Why it matters** The structural interpretation is used to explain the thermodynamic differences between peptides and to propose general design rules. Without seeing the electron density quality, the degree of perturbation, and the comparison structures, these claims are unverifiable. A single peptide's structure may not be representative.
+  - **Resolution test** Provide crystallographic statistics, electron density maps for the o-xylyl moiety and key regions, and overlay figures comparing peptide 6 with the linear 018 structure. Discuss whether the observed perturbations are within coordinate error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Kinetic model validation
+  - **Claim pointer** The authors propose a kinetic model in which linear peptides dissociate via a partially open C-terminal strand intermediate, while cyclic peptides are constrained and thus dissociate more slowly.
+  - **Evidence pointer** Figure 4A–E; location not provided
+  - **Concern** The kinetic model is supported by MD simulations of only three peptides (1, 4, 6) for 1 μs each. The authors acknowledge that full dissociation events are not captured (τ for peptide 1 is 48 s). The correlation analysis (R² = 0.09 for kd vs ka; R² = 0.63 for kd vs KD) is described but the plots are not shown.
+  - **Why it matters** The proposed model is the conceptual centerpiece of the paper. If the MD evidence is preliminary and the correlation analysis is based on only 4–6 data points, the model remains speculative. The distinction between ground-state stabilization and transition-state destabilization requires more rigorous kinetic analysis.
+  - **Resolution test** Provide the correlation plots with all data points labeled. Strengthen the MD analysis with enhanced sampling methods or multiple independent replicates. Consider measuring activation parameters via temperature-dependent kinetics to distinguish ground-state vs transition-state effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Selectivity and functional relevance
+  - **Claim pointer** The authors claim that peptides 1, 3, and 4 competitively inhibit STAT1 binding to its cognate interferon receptor docking site, with IC50 values of 4.3, 1.3, and 1.1 μM respectively.
+  - **Evidence pointer** Figure 5A; location not provided
+  - **Concern** The FP competition assay used a 12-mer pIFNGR1 peptide as a probe, and the assay was limited by ligand depletion and high STAT1 concentration (1.5 μM). The IC50 values are close to the protein concentration, making them unreliable. No selectivity data against other SH2 domains or STAT family members are shown in the text.
+  - **Why it matters** The therapeutic relevance of these peptides depends on their ability to selectively inhibit STAT1 signaling. If the IC50 values are near the assay limit and no selectivity is demonstrated, the functional claims are weak.
+  - **Resolution test** Repeat the FP assay at lower STAT1 concentrations or use a more sensitive assay format. Include selectivity profiling against STAT3, STAT5, and other SH2 domain-containing proteins. Show full dose-response curves with proper controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "successive orthogonal cyclizations have additive effects" but does not quantify the magnitude of improvement or mention the selectivity trade-off noted later in the Discussion.
+  - **Required correction** Add quantitative affinity improvements and a brief note on selectivity considerations to the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** ITC buffer effects
+  - **Evidence pointer** Results section "Entropy-Enthalpy Compensation"; location not provided
+  - **Issue** The authors note buffer-dependent ΔH and -TΔS values for peptide 3 but do not explain why only this peptide shows such sensitivity. This could indicate a specific protonation event or aggregation artifact.
+  - **Required correction** Provide a brief explanation for the buffer sensitivity of peptide 3 and discuss whether this affects interpretation of the thermodynamic comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Virus-inspired" in title
+  - **Evidence pointer** Title; location not provided
+  - **Issue** The term "virus-inspired" is used, but the peptide is directly derived from a viral protein sequence. "Virus-derived" would be more accurate.
+  - **Required correction** Consider revising the title to "Virus-Derived" for accuracy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Selectivity discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The authors note that cyclization may reduce selectivity (peptides 4 and 6 bind STAT3) but do not discuss the structural basis for this loss of specificity.
+  - **Required correction** Add a brief structural rationale for the observed cross-reactivity with STAT3, referencing the H17-H629 interaction mentioned earlier.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Correlation analysis
+  - **Evidence pointer** Results section "Integrated Model"; location not provided
+  - **Issue** The R² values for the kd-ka and kd-KD correlations are reported without the number of data points or p-values.
+  - **Required correction** Report n, p-values, and confidence intervals for all correlation analyses.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Comparison to prior stapled peptide work
+  - **Evidence pointer** Introduction and Discussion; location not provided
+  - **Issue** The manuscript mentions α-helical stapled peptides extensively but does not compare the kinetic effects observed here to those reported for stapled helices.
+  - **Required correction** Add a brief comparison to known kinetic effects of α-helical stapling to contextualize the novelty of the β-hairpin findings.
+
+## Risk / unsupported claims
+- The claim of "additive" affinity gains from successive cyclizations cannot be verified without the underlying data.
+- The kinetic model proposing a partially open C-terminal intermediate is speculative and not directly supported by the MD simulations, which do not capture full dissociation events.
+- The structural interpretation of o-xylyl-induced hairpin perturbation is based on a single peptide (6) in two crystal forms, without comparison structures of other peptides.
+- The functional relevance of the peptides as STAT1 inhibitors is limited by the high IC50 values (μM range) and lack of selectivity data.
+- The statement that "β-hairpin macrocyclization may represent a general strategy" is an extrapolation from a single peptide system and is not supported by data from other targets.
+- The claim that the work provides "a rationale for further studies utilizing macrocyclization of viral SLiMs" is speculative and not directly tested in this manuscript.

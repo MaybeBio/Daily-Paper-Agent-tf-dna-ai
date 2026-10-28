@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text. Figure images and supplementary materials were not available for inspection.
+- **Shared manuscript claim summary** The authors claim that DNA damage induces O-GlcNAcylation of YTHDC1 at Ser396, which enhances its binding to m6A RNA, promotes chromatin binding and focus formation, facilitates YTHDC1-m6A condensate formation, and ultimately promotes homologous recombination repair and cell survival, likely through Rad51 recruitment.
+- **Visible evidence base** Text descriptions of results in Figures 1-7, methods section, and discussion. No actual figure panels, numerical data, or statistical analyses were visible.
+- **Missing materials affecting confidence** Figure images, supplementary figures (S1-S3), raw data, statistical details, and full experimental protocols for some assays. The results section is presented without figure panels, limiting verification of data quality and quantification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question, namely whether O-GlcNAcylation of an m6A reader protein modulates its function in the DNA damage response. The topic is timely given the growing interest in crosstalk between RNA modifications and protein post-translational modifications. However, the evidence as presented in the text is largely descriptive and several key claims are not quantitatively supported. The molecular mechanism linking O-GlcNAcylation at Ser396 to enhanced m6A binding is inferred primarily from MD simulations, which are not experimentally validated. The connection to Rad51 recruitment and HR is plausible but the data shown are correlative. The manuscript would benefit from additional mechanistic depth and quantitative analyses.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA damage repair, epitranscriptomics, and protein post-translational modifications. The potential crosstalk between O-GlcNAc signaling and m6A RNA biology is of broad interest to those studying gene regulation and genome stability. The work may also appeal to investigators interested in phase separation and condensate biology in the context of DNA repair.
+- **Major strengths** The study addresses a novel intersection between O-GlcNAcylation and m6A reader function. The identification of a specific O-GlcNAcylation site (Ser396) on YTHDC1 and its functional relevance to DNA damage repair is a potentially significant finding. The use of multiple approaches, including biochemistry, cell biology, and MD simulations, is commendable. The authors also attempted chemical synthesis of the glycosylated YTH domain, which, although unsuccessful in providing sufficient material, demonstrates rigor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that O-GlcNAcylation at Ser396 is induced by DNA damage and is pivotal for YTHDC1 chromatin binding and IRIF formation.
+  - **Evidence pointer** Results section, Figures 1E-G, 2A-E. Location not provided.
+  - **Concern** The text describes that S396A mutation diminishes O-GlcNAcylation and abolishes chromatin binding and focus formation, but no quantitative data are presented. The western blot and immunofluorescence images are not visible. The claim that O-GlcNAcylation is "induced" by DNA damage is based on a single time course experiment (Figure 1G) with no statistical analysis or replicates described.
+  - **Why it matters** The central premise of the paper rests on the inducibility and functional importance of this specific modification. Without quantitative evidence and proper controls, the claim is not established.
+  - **Resolution test** Provide quantified data from at least three independent experiments showing O-GlcNAcylation levels at Ser396 before and after DNA damage, with statistical analysis. Show that the S396A mutant is expressed at levels comparable to WT and that the defect in chromatin binding and focus formation is not due to protein instability or altered localization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** The authors claim that O-GlcNAcylation enhances YTHDC1 binding to m6A RNA, based on RIP assays and MD simulations.
+  - **Evidence pointer** Results section, Figure 3A-G. Location not provided.
+  - **Concern** The RIP assay (Figure 3A-B) is described as showing decreased m6A binding for the S396A mutant, but the enrichment levels, input controls, and statistical significance are not reported. The MD simulations are used to infer a mechanistic basis, but the simulations are not validated experimentally. The claim that O-GlcNAcylation "stabilizes" RNA binding is based on binding energy calculations that are not experimentally confirmed.
+  - **Why it matters** The proposed mechanism is that O-GlcNAcylation at Ser396 enhances m6A binding, which is central to the downstream effects on condensate formation and HR. If this link is not solid, the entire model is weakened.
+  - **Resolution test** Provide quantitative RIP data with proper controls (e.g., IgG, input) and statistical analysis. Ideally, perform an in vitro binding assay with purified proteins (WT vs S396A, with and without O-GlcNAc) to directly demonstrate the effect on m6A binding affinity. Validate MD predictions with mutagenesis or other experimental approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that YTHDC1 O-GlcNAcylation promotes HR and cell survival through Rad51 recruitment.
+  - **Evidence pointer** Results section, Figures 5A-E, 6A-E, 7A-B. Location not provided.
+  - **Concern** The HR and NHEJ reporter assays (Figure 5A-C) are described, but the efficiency values, fold changes, and statistical significance are not provided. The Rad51 focus formation data (Figure 6B-C) are qualitative. The comet assay and colony formation data (Figures 6D-E, 7A-B) are mentioned but not quantified. The claim that the effect is "probably through recruitment of Rad51" is speculative, as no direct interaction between YTHDC1 and Rad51 or a mechanistic link is shown.
+  - **Why it matters** The physiological relevance of the modification is a key claim. Without quantitative functional data, the impact on HR and cell survival is not convincingly demonstrated.
+  - **Resolution test** Provide quantitative data for HR/NHEJ efficiencies with statistical analysis. Quantify Rad51 foci per cell with a clear definition of what constitutes a focus. Show that the S396A mutant specifically affects HR, not NHEJ, and that the defect can be rescued by a phosphomimetic or constitutively active mutant if applicable. Provide evidence for a direct or indirect link between YTHDC1 O-GlcNAcylation and Rad51 recruitment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section, MD simulations
+  - **Evidence pointer** Methods, "Molecular dynamics (MD) simulations". Location not provided.
+  - **Issue** The methods for MD simulations are described briefly. The force field parameters for the O-GlcNAc moiety, the simulation length, and the convergence criteria are not fully detailed. The statement "The systems were equilibrated in the NPT ensemble at a temperature of 310 K for 200 ns" is ambiguous, as 200 ns is typically a production run, not equilibration.
+  - **Required correction** Clarify the equilibration and production run lengths. Provide details on the glycosylation parameters used and how the system was built. State the number of replicates and how convergence was assessed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, Figures 1-7
+  - **Evidence pointer** Results section. Location not provided.
+  - **Issue** The text refers to figures but does not provide quantitative values or statistical information in the text. For example, "S396A significantly diminished O-GlcNAcylation levels" is not supported by a number or p-value in the text.
+  - **Required correction** Include quantitative values and statistical significance in the text or figure legends. For example, "S396A reduced O-GlcNAcylation to 20% of WT (p<0.01, n=3)".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion. Location not provided.
+  - **Issue** The statement "recently, small RNAs are shown to be N-glycosylated on the cell surface" is mentioned as a point of interest, but the connection to the current work is not clearly articulated. The authors suggest an "interconnection between RNA and glycosylation" but do not elaborate on how their findings relate to this broader concept.
+  - **Required correction** Clarify the relevance of the cited work to the current findings. Explain how the O-GlcNAcylation of an RNA-binding protein might relate to RNA glycosylation or other glycan-RNA interactions.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data for key experiments (O-GlcNAcylation levels, chromatin binding, focus formation, HR/NHEJ efficiencies, Rad51 foci, comet tail moments, colony counts) is a major technical shortcoming. The MD simulations are not experimentally validated. The specificity of the O-GlcNAcylation site is not confirmed by mass spectrometry. The functional link between YTHDC1 O-GlcNAcylation and Rad51 recruitment is not mechanistically explored.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of O-GlcNAcylation regulating an m6A reader in the context of DNA repair is novel and potentially original. However, the depth of the mechanistic insight is currently limited.
+  - Scientific importance: If fully substantiated, the findings could be important for understanding how post-translational modifications and RNA modifications coordinate in the DNA damage response. The potential implications for genome stability and cancer are significant.
+  - Interdisciplinary readership: The topic bridges epitranscriptomics, DNA repair, and protein modification, which could attract a broad readership. However, the current presentation is likely to be of primary interest to specialists in these areas.
+  - Technical soundness: The technical soundness is currently not established due to the lack of quantitative data and experimental validation of the MD simulations. The chemical synthesis attempt is a positive sign, but the failure to obtain material limits the impact.
+  - Readability for nonspecialists: The manuscript is generally well-written and the logic is clear. However, the lack of quantitative context and the reliance on specialized techniques (e.g., MD simulations) may make it challenging for a general reader to assess the strength of the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible but not quantitatively supported. The manuscript requires substantial revision, including the addition of quantitative data, experimental validation of the MD simulations, and a more direct mechanistic link between YTHDC1 O-GlcNAcylation and Rad51 recruitment, before it could be considered for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that O-GlcNAcylation at Ser396 is "pivotal" for YTHDC1 chromatin binding and IRIF formation is not quantitatively supported.
+- The claim that O-GlcNAcylation enhances m6A binding is based on RIP and MD simulations without experimental validation of binding affinity.
+- The claim that YTHDC1 O-GlcNAcylation promotes HR "probably through recruitment of Rad51" is speculative and not directly tested.
+- The claim that O-GlcNAcylation inhibits LLCS under basal conditions is based on FRAP data that are not quantified.
+- The statement that "DNA damage-induced m6A could account for the difference" in LLCS behavior is not directly tested.
+- The claim that the OGT-YTHDC1-Rad51 axis promotes genome integrity is a broad conclusion not fully supported by the presented data.

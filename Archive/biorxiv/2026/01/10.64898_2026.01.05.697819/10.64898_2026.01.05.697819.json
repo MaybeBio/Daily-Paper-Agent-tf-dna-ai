@@ -1,0 +1,706 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.05.697819",
+  "title": "Protein Language Models and Structure-Based Machine Learning for Prediction of Allosteric Binding Sites in Protein Kinases: An Explainable AI Framework Grounded in Energy Landscape-Encoded Frustration",
+  "doi": "10.64898/2026.01.05.697819",
+  "abstract": "Reliable identification of allosteric binding sites remains a major bottleneck in structure-based drug discovery, particularly in protein kinase families where such sites are often structurally cryptic, evolutionarily non-conserved, and sparsely populated. In this work, we present a systematic analysis of binding site prediction across a rigorously curated dataset of human kinase–ligand complexes, encompassing 453 kinases and spanning five inhibitor classes: Type I, Type I.5, and Type II (orthosteric ATP-competitive) and Type III/IV (non-ATP allosteric) modulators. We employed the pretrained protein language model (PLM) ESM2-650M model that was fine-tuned for prediction of protein-ligand binding sites by replacing the original masked language modeling head with a token-level classification head that acts as a projection layer that maps the high-dimensional latent representation of each residue to a scalar probability score for a given protein residue to be part of the binding site. We employed this fine-tuned sequence-based PLM and structure-based detection approach P2Rank for identification of orthosteric and allosteric binding sites in protein kinases. Our analysis reveals a stark performance divergence: while both methods achieve high precision-recall (AUPR = 0.64-0.76) on orthosteric sites, PLM performance collapses on allosteric sites (AUPR = 0.06), despite retaining moderate ranking ability (AUROC = 0.70). This deficit persists even after strict control for sequence similarity, structural redundancy, and extreme class imbalance (allosteric residues constitute <3% of the kinase domain). To mechanistically interpret this discrepancy, we integrate large-scale local frustration analysis, a physics-based framework derived from energy landscape theory that quantifies the energetic stability of residue-residue interactions under mutational and conformational perturbations. We find that, although the global frustration landscape is conserved across kinase states dominated by neutral frustration (55-75% of residues), local binding sites exhibit fundamentally distinct mutational constraints. Orthosteric pockets are enriched in minimally frustrated residues, whereas allosteric sites are characterized by neutral mutational frustration, indicating evolutionary permissiveness and sequence degeneracy. This study reframes the performance of AI approaches in predicting protein binding sites as a reflection of functional design that can be rationalized through lens of the landscape-encoded protein frustration as an explainable AI framework.",
+  "authors": [
+    "Kamila Riedlová",
+    "Vít Škrhák",
+    "Will Gatlin",
+    "Max Ludwick",
+    "Lucas Turano",
+    "Marian Novotný",
+    "David Hoksza",
+    "Gennady M. Verkhivker"
+  ],
+  "published_date": "2026-01-06",
+  "updated_date": "2026-01-06T19:10:25Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697819",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697819.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            25
+          ]
+        ],
+        "date-time": "2026-03-25T07:37:57Z",
+        "timestamp": 1774424277322,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 72,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                6
+              ]
+            ],
+            "date-time": "2026-01-06T00:00:00Z",
+            "timestamp": 1767657600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "5R01AI181600-02 and Subaward 6069-SC24-11"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5R01AI181600-02 and Subaward 6069-SC24-11"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Reliable identification of allosteric binding sites remains a major bottleneck in structure-based drug discovery, particularly in protein kinase families where such sites are often structurally cryptic, evolutionarily non-conserved, and sparsely populated. In this work, we present a systematic analysis of binding site prediction across a rigorously curated dataset of human kinase–ligand complexes, encompassing 453 kinases and spanning five inhibitor classes: Type I, Type I.5, and Type II (orthosteric ATP-competitive) and Type III/IV (non-ATP allosteric) modulators. We employed the pretrained protein language model (PLM) ESM2-650M model that was fine-tuned for prediction of protein-ligand binding sites by replacing the original masked language modeling head with a token-level classification head that acts as a projection layer that maps the high-dimensional latent representation of each residue to a scalar probability score for a given protein residue to be part of the binding site. We employed this fine-tuned sequence-based PLM and structure-based detection approach P2Rank for identification of orthosteric and allosteric binding sites in protein kinases. Our analysis reveals a stark performance divergence: while both methods achieve high precision-recall (AUPR = 0.64-0.76) on orthosteric sites, PLM performance collapses on allosteric sites (AUPR = 0.06), despite retaining moderate ranking ability (AUROC = 0.70). This deficit persists even after strict control for sequence similarity, structural redundancy, and extreme class imbalance (allosteric residues constitute &lt;3% of the kinase domain). To mechanistically interpret this discrepancy, we integrate large-scale local frustration analysis, a physics-based framework derived from energy landscape theory that quantifies the energetic stability of residue-residue interactions under mutational and conformational perturbations. We find that, although the global frustration landscape is conserved across kinase states dominated by neutral frustration (55-75% of residues), local binding sites exhibit fundamentally distinct mutational constraints. Orthosteric pockets are enriched in minimally frustrated residues, whereas allosteric sites are characterized by neutral mutational frustration, indicating evolutionary permissiveness and sequence degeneracy. This study reframes the performance of AI approaches in predicting protein binding sites as a reflection of functional design that can be rationalized through lens of the landscape-encoded protein frustration as an explainable AI framework.</jats:p>",
+      "DOI": "10.64898/2026.01.05.697819",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ],
+        "date-time": "2026-01-06T19:10:25Z",
+        "timestamp": 1767726625000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Protein Language Models and Structure-Based Machine Learning for Prediction of Allosteric Binding Sites in Protein Kinases: An Explainable AI Framework Grounded in Energy Landscape-Encoded Frustration"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Kamila",
+          "family": "Riedlová",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Software Engineering, Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0712-0661",
+          "authenticated-orcid": false,
+          "given": "Vít",
+          "family": "Škrhák",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Software Engineering, Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Will",
+          "family": "Gatlin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Max",
+          "family": "Ludwick",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lucas",
+          "family": "Turano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8788-3202",
+          "authenticated-orcid": false,
+          "given": "Marian",
+          "family": "Novotný",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cell Biology, Faculty of Science, Charles University, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4679-0557",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Hoksza",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Software Engineering, Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4507-4471",
+          "authenticated-orcid": false,
+          "given": "Gennady M.",
+          "family": "Verkhivker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            },
+            {
+              "name": "Department of Biomedical and Pharmaceutical Sciences, Chapman University School of Pharmacy, Irvine, CA 92618, United States of America"
+            },
+            {
+              "name": "Department of Pharmacology, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2020.02.008"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2024.102793"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2024.03.015"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00923-z"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2025.103152"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-168"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp562"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41401-019-0228-6"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr331"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-018-0285-8"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf421"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0160315"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2019.107454"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-61860-z"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-020-01350-0"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci1000289"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae745"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2025.103020"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-4662-5_5"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00821-4"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01698"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BIBM55620.2022.9995025"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf431"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-51844-2"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00626-4"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2405840121"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BIBM58861.2023.10385497"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3765612.3767221"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2202.05146"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-024-00737-x"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36699-3"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-024-00920-9"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d5sc05395a"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D2SC06272K"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0771-1"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt399"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00014"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad915"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf294"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0709915104"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw304"
+        },
+        {
+          "issue": "10",
+          "key": "2026010710301143000_2026.01.05.697819v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "2513",
+          "DOI": "10.1021/acs.jpcb.0c11068",
+          "article-title": "Frustration in Fuzzy Protein Complexes Leads to Interaction Versatility",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J Phys Chem B"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "5944",
+          "DOI": "10.1038/s41467-020-19560-9",
+          "article-title": "Surveying biomolecular frustration at atomic resolution",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.0c00813"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mam.2025.101362"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0026071"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00124"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d2cp01893d"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.10.31.685956"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c00222"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2410662121"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf411"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2012.0054"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1001680"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2021.100746"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1814279116"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab920"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.07.21.550125"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1711.05101"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-6413-7"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.0c02076"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules28155805"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.11.085"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2135471100"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-05-4187"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14119"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08675"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2010.12.013"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.8b01040"
+        },
+        {
+          "key": "2026010710301143000_2026.01.05.697819v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature21702"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.05.697819",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2026-01-07T18:30:18Z",
+        "timestamp": 1767810618000
+      },
+      "score": 96.31006,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.05.697819"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ]
+      },
+      "references-count": 72,
+      "URL": "https://doi.org/10.64898/2026.01.05.697819",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose that two pathogenic mutations (C150Y and H334Y) in the BTB/ANK domains of Arabidopsis thaliana NPR1 reduce NPR1-EDS1 interaction by inducing conformational changes, disrupting hydrogen bonds and salt bridges, and destabilizing key structural regions, thereby circumscribing EDS1-mediated immune regulation.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation data, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force fields, convergence criteria, free energy calculation details, structural coordinates, validation against experimental data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an important question in plant immunity, namely how specific pathogenic mutations in NPR1 affect its interaction with EDS1. However, the current abstract lacks sufficient methodological detail and quantitative evidence to evaluate the robustness of the simulation results. The claims are broad and partly speculative, and the link between observed conformational changes and functional outcomes is not rigorously established from the provided material. The work may be of interest to the plant immunity community, but the evidence base as presented is insufficient to support the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying plant innate immunity, particularly salicylic acid signaling and NPR1 function, as well as computational biologists interested in the structural basis of disease-associated mutations in plant proteins. The findings could inform future experimental studies on NPR1-EDS1 regulation and potentially guide engineering of NPR1 variants with altered immune responses.
+- **Major strengths** The study addresses a biologically relevant question with potential translational implications for crop resistance. The use of sequence conservation to classify mutations as pathogenic is a reasonable approach. The identification of specific mutational hotspots and structural regions provides testable hypotheses for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations "predicted structural displacements" and that mutations "disrupt hydrogen bonds and salt bridges" leading to reduced NPR1-EDS1 interaction.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, simulation length, temperature/pressure coupling, number of replicates, or convergence assessment. Without these, the reliability of the conformational predictions cannot be evaluated. Additionally, no quantitative data (e.g., RMSD, RMSF, binding free energy values with errors) are presented to support the qualitative statements about structural displacements and disrupted interactions.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation protocols. The absence of methodological transparency and quantitative metrics prevents assessment of whether the observed differences between wild-type and mutants are statistically significant or merely simulation artifacts.
+  - **Resolution test** Provide full simulation parameters, convergence analysis, replicate information, and quantitative comparisons (with error bars) of key structural metrics and binding free energies between wild-type and mutant systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The abstract states that mutations "compromise a dynamic interaction of NPR1-EDS1" and that this "circumscribes the EDS1-mediated immune regulation."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract mentions that transcriptional co-activity with EDS1 has been "revealed experimentally," but no experimental data are presented in the abstract to directly link the simulated conformational changes to reduced NPR1-EDS1 binding or functional outcomes. The causal chain from mutation to conformational change to reduced interaction to immune dysregulation is asserted rather than demonstrated.
+  - **Why it matters** The central conclusion of the study depends on establishing that the simulated structural changes translate into functionally relevant loss of NPR1-EDS1 interaction. Without experimental validation or at least quantitative binding affinity calculations, this claim remains speculative.
+  - **Resolution test** Include experimental binding data (e.g., co-immunoprecipitation, surface plasmon resonance) or quantitative free energy calculations with error estimates that directly compare wild-type and mutant NPR1-EDS1 interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims that "179 of 373 residues were determining the secondary structures and fold versatility of conformations" and identifies specific mutational hotspots.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The basis for identifying these 179 residues and the mutational hotspots is not explained. It is unclear whether this is derived from conservation analysis, simulation data, or a combination. The criteria for "determining secondary structures" are not defined.
+  - **Why it matters** These specific claims are presented as key findings, but without a clear methodological basis, they cannot be reproduced or independently verified by readers.
+  - **Resolution test** Clarify the computational or bioinformatic methods used to identify these residues and hotspots, and provide supporting data (e.g., conservation scores, per-residue fluctuation analysis).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The notation "(BTB)C150Y(NPR1)" and "(ANK)H334Y(NPR1)" is unconventional and may confuse readers. Standard notation such as "NPR1 C150Y" or "NPR1 H334Y" would be clearer.
+  - **Required correction** Use standard mutation notation throughout the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence describing structural regions, such as "(alpha5)133-178(alpha7)" and "(alpha13)260-290(alpha14)", is dense and difficult to follow without a structural context or figure reference.
+  - **Required correction** Simplify the description or provide a brief explanation of the secondary structure elements and their functional relevance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the simulation length or whether the systems reached equilibrium, which is essential context for interpreting the results.
+  - **Required correction** Include simulation timescale and equilibration information in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of simulation details and quantitative data), R1-M2 (no direct evidence linking simulated changes to functional outcomes)
+- **Assessment against Nature-style criteria** Originality: The application of molecular dynamics to study NPR1 mutations is moderately original, though similar approaches are common in computational biology. Scientific importance: The topic is relevant to plant immunity, but the significance is not fully established without experimental validation. Interdisciplinary readership: The abstract is likely to appeal to plant biologists and computational chemists, but the dense structural notation may limit accessibility. Technical soundness: Not assessable from the abstract alone due to missing methodological details. Readability for nonspecialists: The abstract is technical and assumes familiarity with NPR1 biology and simulation methods, which may limit its broader appeal.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient methodological transparency or quantitative support for the central claims. A revised version with full methods, validation, and clearer presentation of results would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that mutations "circumscribe the EDS1-mediated immune regulation" is not supported by direct evidence in the abstract.
+- The identification of "179 of 373 residues" as determining secondary structures is unsupported without methodological detail.
+- The assertion that specific mutations "compromise a dynamic interaction of NPR1-EDS1" is not quantitatively demonstrated.
+- The functional significance of the identified structural changes (e.g., "functional regulation and activation") is speculative and not backed by experimental or simulation-based functional assays.

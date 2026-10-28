@@ -1,0 +1,538 @@
+{
+  "identity": {
+    "pmid": "34313223",
+    "doi": "10.7554/eLife.69387",
+    "title": "Single-molecule imaging of chromatin remodelers reveals role of ATPase in promoting fast kinetics of target search and dissociation from chromatin."
+  },
+  "content": {
+    "abstract": "Conserved ATP-dependent chromatin remodelers establish and maintain genome-wide chromatin architectures of regulatory DNA during cellular lifespan, but the temporal interactions between remodelers and chromatin targets have been obscure. We performed live-cell single-molecule tracking for RSC, SWI/SNF, CHD1, ISW1, ISW2, and INO80 remodeling complexes in budding yeast and detected hyperkinetic behaviors for chromatin-bound molecules that frequently transition to the free state for all complexes. Chromatin-bound remodelers display notably higher diffusion than nucleosomal histones, and strikingly fast dissociation kinetics with 4-7 s mean residence times. These enhanced dynamics require ATP binding or hydrolysis by the catalytic ATPase, uncovering an additional function to its established role in nucleosome remodeling. Kinetic simulations show that multiple remodelers can repeatedly occupy the same promoter region on a timescale of minutes, implicating an unending 'tug-of-war' that controls a temporally shifting window of accessibility for the transcription initiation machinery.",
+    "keywords": [
+      "ATP-dependent chromatin remodelers",
+      "S. cerevisiae",
+      "chromosomes",
+      "gene expression",
+      "live-cell imaging",
+      "promoter region occupancy",
+      "residence times",
+      "search",
+      "single-molecule tracking"
+    ],
+    "mesh_terms": [
+      "Adenosine Triphosphatases",
+      "*Chromatin Assembly and Disassembly",
+      "DNA-Binding Proteins",
+      "Histones/genetics/metabolism",
+      "Kinetics",
+      "Nucleosomes/*genetics/metabolism",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/*genetics/metabolism",
+      "Saccharomyces cerevisiae Proteins",
+      "Single Molecule Imaging",
+      "Transcription Factors/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Jee Min",
+        "Visanpattanasin, Pat",
+        "Jou, Vivian",
+        "Liu, Sheng",
+        "Tang, Xiaona",
+        "Zheng, Qinsi",
+        "Li, Kai Yu",
+        "Snedeker, Jonathan",
+        "Lavis, Luke D",
+        "Lionnet, Timothee",
+        "Wu, Carl"
+      ],
+      "short_names": [
+        "Kim JM",
+        "Visanpattanasin P",
+        "Jou V",
+        "Liu S",
+        "Tang X",
+        "Zheng Q",
+        "Li KY",
+        "Snedeker J",
+        "Lavis LD",
+        "Lionnet T",
+        "Wu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9506-8360",
+        "ORCID: 0000-0001-6933-5763"
+      ],
+      "affiliations": [
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, United States.",
+        "Institute of Systems Genetics, Langone Medical Center, New York University, New York, United States.",
+        "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+        "Department of Molecular Biology and Genetics, Johns Hopkins School of Medicine, Baltimore, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Jee Min",
+        "short_name": "Kim JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Visanpattanasin, Pat",
+        "short_name": "Visanpattanasin P",
+        "identifiers": [
+          "0000-0002-9506-8360"
+        ],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Jou, Vivian",
+        "short_name": "Jou V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Sheng",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Tang, Xiaona",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qinsi",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Kai Yu",
+        "short_name": "Li KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Snedeker, Jonathan",
+        "short_name": "Snedeker J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States."
+        ]
+      },
+      {
+        "full_name": "Lavis, Luke D",
+        "short_name": "Lavis LD",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, United States."
+        ]
+      },
+      {
+        "full_name": "Lionnet, Timothee",
+        "short_name": "Lionnet T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems Genetics, Langone Medical Center, New York University, New York, United States."
+        ]
+      },
+      {
+        "full_name": "Wu, Carl",
+        "short_name": "Wu C",
+        "identifiers": [
+          "0000-0001-6933-5763"
+        ],
+        "affiliations": [
+          "Department of Biology, Johns Hopkins University, Baltimore, United States.",
+          "Department of Molecular Biology and Genetics, Johns Hopkins School of Medicine, Baltimore, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2021 Jul 27",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/28 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42595790",
+      "42536744",
+      "42505047",
+      "42380116",
+      "42034057",
+      "41749916",
+      "41222108",
+      "41123206",
+      "40909535",
+      "40903366",
+      "40768570",
+      "40588418",
+      "40240607",
+      "39695245",
+      "39357520",
+      "39314305",
+      "39272151",
+      "39223123",
+      "38954990",
+      "38778580",
+      "38664566",
+      "38548891",
+      "38497611",
+      "38347224",
+      "38293098",
+      "38216391",
+      "38195868",
+      "38129539",
+      "38106060",
+      "38081975",
+      "38016477",
+      "38001317",
+      "37958958",
+      "37696956",
+      "37127821",
+      "36798603",
+      "36555532",
+      "36396651",
+      "35969616",
+      "35876491",
+      "35835866",
+      "35831531",
+      "35440147",
+      "35364106",
+      "35337845",
+      "34380014",
+      "34313222"
+    ],
+    "refs": [
+      "34375585",
+      "33692541",
+      "33558760",
+      "33558757",
+      "33422933",
+      "32722483",
+      "32574554",
+      "32338606",
+      "32188943",
+      "31792445",
+      "31572787",
+      "31384063",
+      "31101674",
+      "30979890",
+      "30683752",
+      "30605682",
+      "30554944",
+      "30355728",
+      "30318444",
+      "29979971",
+      "29802243",
+      "29371426",
+      "29361465",
+      "29300163",
+      "28943314",
+      "28827596",
+      "28636597",
+      "28537572",
+      "28467304",
+      "27566148",
+      "26895087",
+      "26861626",
+      "26545077",
+      "26538601",
+      "25821983",
+      "25701287",
+      "25599551",
+      "25491770",
+      "25457164",
+      "25015381",
+      "24925319",
+      "24704920",
+      "24639370",
+      "24630727",
+      "24003213",
+      "23468649",
+      "23463311",
+      "23448973",
+      "23396281",
+      "23374341",
+      "22922743",
+      "22807688",
+      "22726434",
+      "22682745",
+      "22485553",
+      "22345607",
+      "22345518",
+      "21930788",
+      "21623345",
+      "21596991",
+      "21552204",
+      "20974961",
+      "20832723",
+      "20434983",
+      "20033040",
+      "19410542",
+      "19111667",
+      "18998772",
+      "18646237",
+      "18550805",
+      "18408730",
+      "18406137",
+      "18075583",
+      "17962805",
+      "17918861",
+      "17905579",
+      "17506634",
+      "17392789",
+      "17277777",
+      "16896339",
+      "16600868",
+      "16086025",
+      "15961632",
+      "15833917",
+      "15643425",
+      "15607975",
+      "15607974",
+      "15359274",
+      "14622597",
+      "12791999",
+      "12612068",
+      "12482963",
+      "12029120",
+      "11964263",
+      "11238944",
+      "11081629",
+      "10811623",
+      "10753786",
+      "10549297",
+      "10500094",
+      "10319811",
+      "10090725",
+      "9382846",
+      "6774262",
+      "6329717",
+      "3023055",
+      "2642903",
+      "2005793"
+    ],
+    "similar": [
+      "34313223",
+      "25821983",
+      "23468649",
+      "38497611",
+      "26993344",
+      "30683752",
+      "22726434",
+      "21508315",
+      "27768892",
+      "32663283",
+      "10029546",
+      "25088669",
+      "19349301",
+      "24465003",
+      "31269447",
+      "26861626",
+      "20459718",
+      "23149935",
+      "22113290",
+      "33468676",
+      "21135121",
+      "24727477",
+      "39270644",
+      "18212068",
+      "31886770",
+      "22124157",
+      "33219211",
+      "22298509",
+      "16468993",
+      "23870137",
+      "26895087",
+      "32251664",
+      "18593569",
+      "16518397",
+      "21704204",
+      "32722483",
+      "16982689",
+      "35876491",
+      "27273866",
+      "35793348",
+      "32599085",
+      "30079888",
+      "28943314",
+      "9799253",
+      "31636125",
+      "21749977",
+      "30318444",
+      "23779104",
+      "32636384",
+      "23055944",
+      "32496195",
+      "31819269",
+      "22737086",
+      "16227570",
+      "20015969",
+      "30872815",
+      "16024655",
+      "17681272",
+      "19595716",
+      "29019976",
+      "31402386",
+      "18408730",
+      "38016477",
+      "21616185",
+      "21979950",
+      "29785963",
+      "29331030",
+      "23352131",
+      "23767421",
+      "34050140",
+      "39223123",
+      "34454103",
+      "34050142",
+      "33288924",
+      "33602956",
+      "20832723",
+      "17316710",
+      "34898278",
+      "37127821",
+      "24034248",
+      "23005680",
+      "29809147",
+      "18075583",
+      "11238944",
+      "25416387",
+      "34070411",
+      "16606615",
+      "30355728",
+      "25453095",
+      "34313222",
+      "32805211",
+      "19940112",
+      "38848364",
+      "24050724",
+      "29850894",
+      "28089519",
+      "23161016",
+      "35173352",
+      "36902382",
+      "15359274",
+      "23334290",
+      "38704609",
+      "19410542",
+      "37384669",
+      "35364106",
+      "34734806",
+      "39043639",
+      "38604174",
+      "35303789",
+      "39116678",
+      "39314305",
+      "39362301",
+      "38604173",
+      "38755200",
+      "36555532",
+      "39367253",
+      "39348027",
+      "36798603",
+      "38014222",
+      "39099840"
+    ],
+    "review": [
+      "34313223",
+      "25088669",
+      "23870137",
+      "32251664",
+      "21704204",
+      "32722483",
+      "38016477",
+      "21616185",
+      "23352131",
+      "17316710",
+      "34070411",
+      "32805211",
+      "35303789",
+      "39116678",
+      "39362301",
+      "36555532",
+      "39348027"
+    ],
+    "pmc": [
+      "8352589"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34313223/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/34313223",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34313223",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.69387",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

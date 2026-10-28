@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental section, results and discussion, conclusions) as provided by the user. No supplementary information files, figures, or tables were accessible beyond those referenced in the text.
+- **Assessment boundary** The review is confined to the scientific content, methodology, data interpretation, and claims presented in the supplied text. Claims referencing prior publications, patents, or supplementary materials are assessed only insofar as they are described in the manuscript.
+- **Shared manuscript claim summary** The authors report the synthesis and physicochemical characterization of four methyl 3-nitrogen-2,3-dideoxy-d-ribo-hexopyranoside derivatives (two azido, two amino; α and β anomers). They determine pKa values via spectrophotometric and potentiometric methods, measure stability constants for Cu(II) and Ni(II) complexes, evaluate DNA-binding affinities via UV-vis titration, and perform molecular docking against HIV-1 reverse transcriptase. They conclude that these compounds show potential as HIV-1 RT inhibitors, with BRN3OMe being the most promising.
+- **Visible evidence base** The manuscript text includes: synthetic procedures and characterization data (IR, 1H NMR, 13C NMR) for three compounds; descriptions of spectrophotometric and potentiometric titration methods; tables referenced (Tables 1-7) but not visible in the provided text; figures referenced (Figures 1-8, S1-S28) but not visible; and a molecular docking methodology description.
+- **Missing materials affecting confidence** All tables and figures are referenced but not provided in the supplied text. This includes Table 1 (molar absorption coefficients), Table 2 (pKa values), Table 3 (stability constants), Table 4 (equilibrium models), Table 5 (atomic charges), Table 6 (DNA-binding constants), and Table 7 (docking results). Supplementary figures and the supplementary information file are also unavailable. Without these data, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic physicochemical study of four sugar derivatives with potential relevance to HIV-1 RT inhibition. The combination of experimental acid-base chemistry, metal complexation, DNA-binding studies, and computational docking is commendable in scope. However, the manuscript suffers from significant issues: the most critical data are confined to inaccessible tables and figures, the connection between the physicochemical measurements and the claimed antiviral relevance is not rigorously established, and the molecular docking methodology is described too superficially to assess its validity. The claim that these compounds are promising HIV-1 RT inhibitors is not supported by the evidence presented in the text alone.
+- **Who would be interested in the results, and why** Researchers in carbohydrate chemistry, particularly those studying amino- and azido-sugar derivatives, would find the synthetic and physicochemical data of interest. The metal-complexation studies may appeal to bioinorganic chemists working on metal-sugar interactions. The DNA-binding and docking studies target the antiviral drug discovery community, though the relevance to HIV-1 RT inhibition is speculative without experimental antiviral data.
+- **Major strengths** The manuscript addresses a chemically interesting class of compounds with potential biological relevance. The use of multiple complementary techniques (spectrophotometry, potentiometry, NMR, IR, docking) is methodologically thorough. The comparison of α versus β anomers and azido versus amino substituents provides a systematic structure-property analysis. The authors appropriately reference their prior theoretical work, providing continuity in the research program.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that pKa values obtained from two independent methods reveal significant ionization effects, and that these values support the proposed deprotonation model.
+  - **Evidence pointer** Table 2, Figures S13-S18, location not provided in the supplied text
+  - **Concern** The pKa values are presented only as a reference to Table 2, which is not visible in the supplied text. The manuscript states that "the resulting average pK values for all the investigated compounds and the corresponding standard deviations are summarized in Table 2" but provides no numerical values, no comparison between the two methods, and no statistical analysis of agreement or disagreement between spectrophotometric and potentiometric results.
+  - **Why it matters** The pKa values are foundational to the manuscript's claims about ionization behavior, protonation sites, and the influence of anomeric configuration. Without these data, the central physicochemical claims cannot be evaluated. The claim that "acceptable pK experimental values could be obtained" is unverifiable.
+  - **Resolution test** Provide the actual pKa values in the text or a visible table, including standard deviations, the number of replicates, and a direct comparison between the two methods. Show that the values are consistent with the proposed deprotonation model and with the prior theoretical calculations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-support alignment
+  - **Claim pointer** The manuscript claims that molecular docking confirmed the potential of these compounds as HIV-1 RT inhibitors, with BRN3OMe showing the highest interaction with enzyme active site residues and DNA.
+  - **Evidence pointer** Table 7, Figure 8, location not provided in the supplied text
+  - **Concern** The docking results are summarized only in Table 7, which is not visible. The text states that "all low-energy complexes... were characterized by negative values of free enthalpy" but provides no numerical ΔG values, no comparison to a positive control (e.g., AZT), no docking score statistics, and no description of the docking protocol parameters (e.g., grid box size, exhaustiveness, scoring function). The claim that BRN3OMe "displays the highest interaction" is presented without supporting numbers.
+  - **Why it matters** The antiviral relevance of the entire study rests on the docking results. Without quantitative docking scores, a comparison to AZT, and methodological details, the claim that these compounds are promising RT inhibitors is unsupported. Negative ΔG values alone are weak evidence of biological activity.
+  - **Resolution test** Provide the docking scores (ΔG values) for all compounds and AZT in a visible table, describe the docking protocol in sufficient detail for reproduction, and discuss whether the binding poses are consistent with known RT inhibitor binding modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical coherence
+  - **Claim pointer** The manuscript claims that the DNA-binding affinity order is BRNH2OMe > BRN3OMe > ARN3OMe > ARNH2OMe, and that this correlates with the docking results where BRN3OMe shows the highest interaction with both enzyme and DNA.
+  - **Evidence pointer** Table 6, Figure 6, location not provided in the supplied text
+  - **Concern** There is an internal inconsistency in the claims. The DNA-binding results place BRNH2OMe as the strongest DNA binder, while the docking results identify BRN3OMe as the best RT binder. The manuscript does not reconcile this discrepancy. Moreover, the relevance of DNA-binding affinity to HIV-1 RT inhibition is not explained. RT is an RNA-dependent DNA polymerase, and non-specific DNA binding by small molecules does not necessarily translate to RT inhibition.
+  - **Why it matters** The manuscript appears to conflate DNA-binding affinity with antiviral potential without a mechanistic link. If BRNH2OMe binds DNA more strongly but BRN3OMe is claimed to be the better RT inhibitor, the reader needs an explanation of why DNA binding matters at all, or the DNA-binding data should be presented as a separate physicochemical property without overinterpretation.
+  - **Resolution test** Clarify the relationship between DNA-binding affinity and RT inhibition. Either provide a mechanistic rationale for why DNA binding is relevant to RT inhibition, or present the DNA-binding data as a standalone characterization without implying antiviral relevance. Address the apparent contradiction between the DNA-binding and docking rankings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that stability constants for Cu(II) and Ni(II) complexes were determined, and that azido sugars prefer Cu(II) while amino sugars prefer Ni(II).
+  - **Evidence pointer** Table 3, Table 4, Figures S23-S27, location not provided in the supplied text
+  - **Concern** The stability constants are presented only in Table 3, which is not visible. The text describes the spectrophotometric titration procedure but does not provide the actual log β values, the stoichiometry of the complexes, or the statistical quality of the fits. The claim that "the most likely chelating sites... were the azido, amine, and hydroxyl groups" is presented without direct spectroscopic evidence (e.g., no IR or NMR data of the complexes).
+  - **Why it matters** Stability constants are quantitative thermodynamic data that must be reported with uncertainties and fitting statistics to be meaningful. The proposed chelation sites are speculative without structural evidence. The relevance of these metal complexes to the antiviral claims is also unclear.
+  - **Resolution test** Provide the log β values with standard deviations, the stoichiometry of each complex, and the fitting methodology. If possible, include spectroscopic evidence for the proposed chelation sites. Clarify the relevance of metal complexation to the biological claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound naming and acronyms
+  - **Evidence pointer** Figure 1, location not provided
+  - **Issue** The acronyms ARN3OMe, BRN3OMe, ARNH2OMe, and BRNH2OMe are introduced in the Results section, but the relationship between these acronyms and the full chemical names in the title is not explicitly stated. The text refers to "methyl 3-nitrogen-2,3-dideoxysaccharides" in the title but uses "3-azido" and "3-amino" throughout the body.
+  - **Required correction** Define each acronym explicitly at first use, and ensure consistent terminology between the title, abstract, and body. Clarify whether "3-nitrogen" in the title refers to the azido and amino substituents collectively.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Synthetic yields and characterization
+  - **Evidence pointer** Synthesis section, location not provided
+  - **Issue** The yields for the synthesized compounds are not reported in the text. For BRNH2OMe, only a yield of 10% is mentioned, while for ARN3OMe and BRN3OMe, no yields are given. The characterization data are described as being in the Supporting Information, which is not accessible.
+  - **Required correction** Report yields for all synthesized compounds in the main text. Include key characterization data (e.g., melting points, HRMS) in the main text or ensure the Supporting Information is clearly referenced and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** pKa and stability constant determinations
+  - **Evidence pointer** Tables 2 and 3, location not provided
+  - **Issue** The text mentions standard deviations for pKa values but does not report the number of replicates, the concentration ranges used, or the goodness-of-fit parameters for the nonlinear least-squares analyses.
+  - **Required correction** Report the number of independent measurements, the concentration ranges, and the fitting statistics (e.g., R², chi-squared) for both pKa and stability constant determinations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Multiple sections, location not provided
+  - **Issue** The manuscript contains grammatical errors and awkward phrasings, such as "In the performed experiment We also determined" (capitalization error), "the compound BRNH2OMe possesses the strongest binding potency" (should be "exhibits"), and "the use of these compounds would result in AZT-like inhibition" (speculative phrasing).
+  - **Required correction** Thorough proofreading for grammar and style. Revise sentences for clarity and precision, particularly in the Conclusions section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** References 1, 15, 34, 36, 37, 46, 47, 49, 50, location not provided
+  - **Issue** Several references are cited for prior synthetic and theoretical work, but the specific contributions of each reference are not clearly delineated. The text states "described in1,15,34,36" without explaining what each reference contributed.
+  - **Required correction** Clarify the specific contributions of each cited reference, particularly for the synthetic procedures and theoretical calculations.
+
+## Risk / unsupported claims
+- The claim that these compounds are promising HIV-1 RT inhibitors is unsupported by the evidence provided. Docking scores are not shown, no experimental antiviral assays are reported, and the relevance of DNA-binding to RT inhibition is not established.
+- The claim that BRN3OMe "displays the highest interaction with the enzyme active site residues and DNA" is unverifiable without the docking data and DNA-binding constants.
+- The claim that "azido saccharides are more likely to create complexes with Cu(II) ion, while aminosaccharides with Ni(II)" is presented without the actual stability constant values.
+- The claim that "the delocalization of positive charge through the hydrogen-bonding network is a key factor in determining the relative activities of carbohydrates hydroxyl groups" is presented as a conclusion but is not directly tested by the experiments described.
+- The claim that "the obtained results suggest that DNA-binding ability and/or specificity are dependent on the conformation of the chiral centers" is speculative and not supported by a systematic structure-activity analysis.
+- The manuscript's statement that "the compound BRNH2OMe possesses the strongest binding potency with DNA base pairs" while BRN3OMe is claimed to be the best RT inhibitor creates an unresolved contradiction that undermines the overall narrative.

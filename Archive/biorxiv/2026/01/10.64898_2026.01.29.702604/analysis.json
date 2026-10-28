@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.29.702604",
+  "title": "A genome language model for mapping DNA replication origins",
+  "authors": "Pauline L. Pfuderer; Francisco Berkemeier; Joelle Nassar; Alastair Crisp; Jedrzej J. Jaworski; Jessica Moore; Julian E. Sale; Michael A. Boemo",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-30",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用基因组语言模型预测DNA复制起点，虽涉及DNA序列建模，但对象为复制起点而非蛋白质-DNA互作，且无结合位点或互作机制研究，仅部分方法可借鉴。",
+  "abstract": "Origin firing is a central process during DNA replication, but specific sequences defining replication origin usage have not been defined in human cells. Here, we show that a genome language model can accurately predict which sequences can act as an origin of replication, thereby enabling the fast and cost-effective creation of genome-wide replication origin maps. We fine-tuned a genome language model on the primary sequence of mapped human origins to establish ORILINX (ORIgin of replication Language-model Inference via Nucleotide conteXt) and found that it learns a rich representation of sequence features linked to replication initiation, extending beyond known predictive features such as GC-content and G-quadruplex motifs. When applied genome-wide, the model’s sequence-derived origin calling closely mirrors origin efficiency inferred from replication timing, suggesting that intrinsic sequence context encodes information relevant to initiation frequency. Furthermore, we performed Short Nascent Strand sequencing (SNS-seq) and Repli-seq to demonstrate that ORILINX can generalise to other mammalian genomes, such as those of mice and sheep, as well as other vertebrates such as chickens. Finally, we packaged ORILINX into a simple, easy-to-use tool which is available at https://github.com/Pfuderer/ORILINX.git .",
+  "abstract_zh": "复制起点（origin firing）是DNA复制过程中的核心事件，但在人类细胞中，定义复制起点使用的特定序列尚未明确。在此，我们展示了一种基因组语言模型能够准确预测哪些序列可作为复制起点，从而能够快速且经济高效地生成全基因组复制起点图谱。我们基于已定位的人类复制起点的初级序列对基因组语言模型进行了微调，建立了ORILINX（基于核苷酸上下文的复制起点语言模型推断），并发现该模型学习了与复制起始相关的序列特征的丰富表征，超越了已知的预测特征，如GC含量和G-四链体基序。在全基因组范围内应用时，该模型基于序列的起点判定与从复制时间推断的起点效率高度吻合，表明内在序列上下文编码了与起始频率相关的信息。此外，我们进行了短新生链测序（SNS-seq）和Repli-seq，以证明ORILINX能够推广到其他哺乳动物基因组，如小鼠和绵羊，以及其他脊椎动物，如鸡。最后，我们将ORILINX打包为一个简单易用的工具，可在 https://github.com/Pfuderer/ORILINX.git 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.29.702604",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.29.702604",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.29.702604/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39888730",
+  "title": "Differential gene expression analysis and machine learning identified structural, TFs, cytokine and glycoproteins, including SOX2, TOP2A, SPP1, COL1A1, and TIMP1 as potential drivers of lung cancer.",
+  "authors": "Shah, Syed Naseer Ahmad; Parveen, Rafat",
+  "journal": "Biomarkers : biochemical indicators of exposure, response, and susceptibility to chemicals",
+  "published_date": "2025-01-31",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用RNA-Seq差异表达和机器学习识别肺癌生物标志物基因，虽涉及转录因子SOX2但未研究TF-DNA互作或结合机制，且无AI/物理模拟建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Lung cancer is a primary global health concern, responsible for a considerable portion of cancer-related fatalities worldwide. Understanding its molecular complexities is crucial for identifying potential targets for treatment. The goal is to slow disease progression and intervene early to prevent the development of advanced lung cancer cases. Hence, there's an urgent need for new biomarkers that can detect lung cancer in its early stages. METHODS: The study conducted RNA-Seq analysis of lung cancer samples from the publicly available SRA database (NCBI SRP009408), including both control and tumour samples. The genes with differential expression between tumour and healthy tissues were identified using R and Bioconductor. Machine learning (ML) techniques, Random Forest, Lasso, XGBoost, Gradient Boosting and Elastic Net were employed to pinpoint significant genes followed by classifiers, Multilayer Perceptron (MLP), Support Vector Machines (SVM) and k-Nearest Neighbours (k-NN). Gene ontology and pathway analyses were performed on the significant differentially expressed genes (DEGs). The top genes from DEG and machine learning analyses were combined for protein-protein interaction (PPI) analysis, identifying 10 hub genes essential for lung cancer progression. RESULTS: The integrated analysis of ML and DEGs revealed the significance of specific genes in lung cancer samples, identified the top 5 upregulated genes (COL11A1, TOP2A, SULF1, DIO2, MIR196A2) and the top 5 downregulated genes (PDK4, FOSB, FLYWCH1, CYB5D2, MIR328), along with their associated genes implicated in pathways or co-expression networks were identified. Among the various algorithms employed, Random Forest and XGBoost proved effective in identifying common genes, underscoring their potential significance in lung cancer pathogenesis. The MLP exhibited the highest accuracy in classifying samples using all genes. Additionally, the protein-protein interaction (PPI) analysis identified 10 hub genes that are pivotal in lung cancer pathogenesis: COL1A1, SOX2, SPP1, THBS2, POSTN, COL5A1, COL11A1, TIMP1, TOP2A and PKP1. CONCLUSION: The study contributes to the early prediction of lung cancer by identifying potential biomarkers that could enhance early diagnosis and pave the way for practical clinical applications in the future. Integrating DEGs and machine learning-derived significant genes for PPI analysis offers a robust approach to uncovering critical molecular targets for lung cancer treatment.",
+  "abstract_zh": "背景：肺癌是一个全球性的主要健康问题，在全球范围内导致相当比例的癌症相关死亡。理解其分子复杂性对于识别潜在的治疗靶点至关重要。目标是减缓疾病进展，并早期干预以防止晚期肺癌病例的发展。因此，迫切需要能够早期检测肺癌的新型生物标志物。方法：本研究对来自公开可用的SRA数据库（NCBI SRP009408）的肺癌样本进行了RNA-Seq分析，包括对照样本和肿瘤样本。使用R和Bioconductor识别了肿瘤与健康组织之间差异表达的基因。采用机器学习（ML）技术，包括随机森林、Lasso、XGBoost、梯度提升和弹性网络，来筛选重要基因，随后使用分类器，如多层感知器（MLP）、支持向量机（SVM）和k近邻（k-NN）。对显著差异表达基因（DEGs）进行了基因本体和通路分析。将DEG和机器学习分析中的顶级基因结合进行蛋白质-蛋白质相互作用（PPI）分析，识别出10个对肺癌进展至关重要的枢纽基因。结果：ML和DEG的综合分析揭示了特定基因在肺癌样本中的重要性，识别出前5个上调基因（COL11A1、TOP2A、SULF1、DIO2、MIR196A2）和前5个下调基因（PDK4、FOSB、FLYWCH1、CYB5D2、MIR328），以及它们在通路或共表达网络中涉及的相关基因。在所使用的各种算法中，随机森林和XGBoost在识别共同基因方面表现出有效性，强调了它们在肺癌发病机制中的潜在重要性。MLP在使用所有基因对样本进行分类时表现出最高的准确性。此外，蛋白质-蛋白质相互作用（PPI）分析识别出10个在肺癌发病机制中关键的枢纽基因：COL1A1、SOX2、SPP1、THBS2、POSTN、COL5A1、COL11A1、TIMP1、TOP2A和PKP1。结论：本研究通过识别可能增强早期诊断并为其未来实际临床应用铺平道路的潜在生物标志物，有助于肺癌的早期预测。将DEG和机器学习衍生的重要基因整合用于PPI分析，为揭示肺癌治疗的关键分子靶点提供了一种稳健的方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39888730/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39888730/",
+  "paper_page_path": "papers/pubmed/39888730/index.html"
+}

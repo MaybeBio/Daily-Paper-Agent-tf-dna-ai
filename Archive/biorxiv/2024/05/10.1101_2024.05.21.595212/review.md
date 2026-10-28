@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and acknowledgements
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that intracellular pH dynamics can regulate transcription factor DNA binding selectivity through protonation state changes of a conserved histidine in the DNA binding domain, with evidence from bioinformatics, in vitro binding assays, computational simulations, and cellular assays
+- **Visible evidence base** Sequence alignments, structural overlays, SELEX-seq, fluorescence anisotropy, constant pH molecular dynamics, luciferase reporter assays, RNA-seq, and HOMER motif analysis
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; raw sequencing data not available; detailed statistical outputs not shown; cell-based binding validation for high pH motifs absent
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an interesting and potentially important question regarding whether intracellular pH can directly regulate transcription factor DNA binding selectivity. The authors present a multi-pronged approach combining bioinformatic analysis, in vitro biochemistry, computational simulation, and cellular assays. The core finding that FOXC2, FOXM1, and FOXN1 bind the canonical FkhP motif with higher affinity at lower pH is reasonably supported by the fluorescence anisotropy data described. However, the manuscript has several significant weaknesses. The inability to validate high pH binding motifs in vitro undermines a key part of the proposed model. The RNA-seq analysis is descriptive and does not establish direct transcriptional regulation by FOXC2 in a pH-dependent manner. The claim of relevance to over 85 transcription factors is based on structural inference rather than functional validation. The mechanistic model linking histidine protonation to nucleotide selectivity is plausible but not directly tested at the structural level. Overall, the work is suggestive but incomplete, and the case for a general mechanism of pH-regulated transcription factor selectivity is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying pH sensing and signaling, transcription factor biology, gene regulation, and cancer biology would find this work relevant. The concept that pH could directly modulate transcription factor DNA binding selectivity has broad implications for understanding how cellular metabolism and microenvironmental conditions influence gene expression programs. The potential connection to cancer biology, where pHi is often elevated, adds translational relevance.
+- **Major strengths** The authors address a relatively underexplored question with a combination of unbiased approaches. The bioinformatic identification of conserved histidines across multiple transcription factor families is a useful contribution. The use of SELEX-seq to identify pH-dependent binding preferences is an appropriate unbiased strategy. The combination of in vitro binding, computational simulation, and cellular assays for FOXC2 provides multiple lines of evidence for the core claim. The identification of a specific histidine residue necessary for pH-dependent binding is a clear mechanistic advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SELEX-seq identifies pH-dependent DNA binding motif preferences, with different motifs enriched at pH 7 versus pH 7.8
+  - **Evidence pointer** Results section "SELEX-seq for identifying pH-dependent binding sequences", Figure 2
+  - **Concern** The SELEX-seq data are presented only as a summary of enriched motifs. No quantitative data are shown regarding enrichment scores, statistical significance, or reproducibility across biological replicates. The claim of pH-dependent motif preferences rests entirely on the identification of different consensus sequences at the two pH values, but without statistical rigor it is unclear whether these differences are robust or could arise from stochastic variation in the selection process. Furthermore, the authors state they could not validate high pH binding to the identified motifs in vitro, which raises questions about the biological relevance of the SELEX-seq findings at pH 7.8.
+  - **Why it matters** The SELEX-seq data are foundational to the claim that pH regulates DNA binding selectivity. If the high pH motif preferences cannot be confirmed by independent binding assays, the conclusion that pH alters binding selectivity rather than simply affinity is weakened. The inability to validate these motifs undermines the central thesis of the manuscript.
+  - **Resolution test** Provide quantitative SELEX-seq data with statistical comparisons between pH conditions, including enrichment scores and replicate analyses. Demonstrate reproducible binding to the high pH motifs using an independent method such as fluorescence anisotropy or electrophoretic mobility shift assay with validated sequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The authors claim that FOXC2 has pHi-dependent activity in cells with greater activity for an FkhP reporter at lower pHi, mediated by His122
+  - **Evidence pointer** Results section "FOXC2 has pHi-dependent activity in cells", Figure 5
+  - **Concern** The luciferase assays show increased reporter activity at lower pHi with wild-type FOXC2 and pH-independent activity with the H122K and H122N mutants. However, the manuscript does not establish that the increased reporter activity is due to direct DNA binding changes rather than indirect effects on FOXC2 protein stability, nuclear localization, or transcriptional cofactor recruitment. The authors do not measure FOXC2 protein levels under different pH conditions, nor do they assess whether the mutants have similar expression or stability. The claim that pHi regulates FOXC2 activity "likely mediated by His122" is presented without direct evidence that the histidine protonation state is the causal factor in cells.
+  - **Why it matters** The cellular data are important for translating the in vitro findings to a physiological context. Without controlling for potential confounders such as protein stability or localization, the conclusion that pHi directly regulates FOXC2 transcriptional activity through His122 protonation is not firmly established.
+  - **Resolution test** Measure FOXC2 protein levels and nuclear localization under different pH conditions for wild-type and mutant proteins. Perform chromatin immunoprecipitation to demonstrate pH-dependent binding of FOXC2 to endogenous target promoters. Use a histidine analog or alternative approaches to directly manipulate protonation state in cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim the mechanism is relevant to more than 85 transcription factors in distinct families including FOX, KLF, SOX, and MITF/Myc
+  - **Evidence pointer** Results section "Predicted pH-sensing by transcription factors with a conserved histidine in the DBD", Figure 1
+  - **Concern** The claim of relevance to over 85 transcription factors is based solely on sequence alignment and structural inference that a conserved histidine forms a hydrogen bond with DNA. No functional data are provided for any transcription factor outside the FOX family. The authors do not test whether pH affects DNA binding of any KLF, SOX, or MITF/Myc family member. The extrapolation from three FOX proteins to a general mechanism across diverse families is not supported by direct evidence.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the phenomenon is specific to FOX family members or even to a subset of them, the impact of the findings is considerably reduced. The manuscript would be strengthened by demonstrating pH-dependent binding for at least one representative from another family.
+  - **Resolution test** Perform fluorescence anisotropy or similar binding assays with at least one transcription factor from another family (e.g., KLF or SOX) at different pH values. Alternatively, clearly frame the claims as specific to the FOX family and present the broader relevance as speculative.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors claim that RNA-seq identifies pH-dependent differences in gene expression and suggested binding motifs, with different motifs enriched at higher versus lower pHi
+  - **Evidence pointer** Results section "Library preparation, RNA-seq, and analysis", Figure 6
+  - **Concern** The RNA-seq analysis identifies 231 differentially expressed genes that are both pH and FOXC2-His122 dependent. However, the analysis is purely correlative. The authors do not demonstrate that these genes are direct FOXC2 targets, nor do they show that the expression changes are due to altered DNA binding selectivity rather than indirect effects on cell physiology. The HOMER motif analysis is presented as suggestive, but the authors acknowledge they could not validate binding to these motifs in vitro. The connection between the RNA-seq data and the proposed mechanism of pH-regulated DNA binding selectivity is therefore tenuous.
+  - **Why it matters** The RNA-seq data are used to support the claim that pH-dependent DNA binding selectivity has functional consequences for gene expression. Without direct evidence of FOXC2 occupancy at these promoters or demonstration that the expression changes are due to altered binding selectivity, the interpretation is speculative.
+  - **Resolution test** Perform chromatin immunoprecipitation sequencing for FOXC2 in control and low pHi conditions to identify direct targets. Validate that the identified motifs are bound by FOXC2 in a pH-dependent manner. Use reporter assays with the identified promoter elements to demonstrate pH-dependent transcriptional regulation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that constant pH molecular dynamics simulations predict His122 protonation state preferences consistent with pH-dependent DNA binding
+  - **Evidence pointer** Results section "FOX family transcription factors have higher affinity for an FkhP motif at lower pH", Figure 3A
+  - **Concern** The CpHMD simulations are described briefly with limited methodological detail. The authors report that His122 is doubly protonated in 91% of the simulation when bound to DNA, but the simulation parameters, force field, system setup, and convergence criteria are not described. The relationship between the simulated protonation states and the experimentally measured binding affinities is not quantitatively established. The simulations are used to support the mechanistic model but the level of detail provided is insufficient to evaluate their reliability.
+  - **Why it matters** Computational predictions are only valuable if the methods are transparent and the results are robust. The current description does not allow readers to assess the quality of the simulations or the confidence in the predicted protonation states.
+  - **Resolution test** Provide detailed methods for the CMD simulations including force field parameters, simulation length, equilibration protocol, and convergence analysis. Show that the predicted pKa values are consistent with experimental measurements. Discuss potential limitations of the computational approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states binding affinities are "2.5 to 7.5 greater" at pH 7.0 compared with pH 7.5, but it is unclear whether this refers to fold-change in K A or K D . The units and direction of the effect should be clarified.
+  - **Required correction** Specify whether the values refer to K A or K D and clarify the direction of the effect (e.g., "2.5 to 7.5 fold higher K A ").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fluorescence anisotropy data
+  - **Evidence pointer** Results section "GST-FOX DBD anisotropy", Figure 2C-F
+  - **Issue** The statistical analysis for the binding affinity comparisons is described as using t-tests and Tukey-Kramer HSD, but the number of independent experiments, degrees of freedom, and exact p-values are not reported.
+  - **Required correction** Provide full statistical details including n values, test statistics, and exact p-values for all comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Cell culture and pH manipulation
+  - **Evidence pointer** Methods section "Cell culture and luciferase assay"
+  - **Issue** The concentration of EIPA used is not stated, and the duration of treatment before assays is only described as 24 h for pH measurements but 40 h for luciferase assays. The rationale for different treatment durations is not explained.
+  - **Required correction** State the EIPA concentration used and explain the different treatment durations for pH measurements versus luciferase assays.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** RNA-seq volcano plot
+  - **Evidence pointer** Results section "Library preparation, RNA-seq, and analysis", Figure 6
+  - **Issue** The volcano plot analysis is described with a significance cutoff of qval < -log10(0.05), but the criteria for defining differentially expressed genes (fold-change threshold, multiple testing correction method) are not fully specified.
+  - **Required correction** Provide complete criteria for defining differentially expressed genes including fold-change thresholds and multiple testing correction methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of broader relevance
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates about relevance to stem cell differentiation and developmental processes, but no experimental evidence is provided to support these speculations.
+  - **Required correction** Clearly distinguish between findings supported by data and speculative extensions, or provide supporting evidence.
+- **Technical failings that need to be addressed before the case is established** The inability to validate high pH binding motifs in vitro is a critical technical gap. The SELEX-seq data lack quantitative statistical support. The cellular assays do not control for potential confounders such as protein stability or localization. The computational simulations are described with insufficient methodological detail. The RNA-seq analysis does not establish direct transcriptional regulation by FOXC2.
+- **Assessment against Nature-style criteria** Originality: The concept of pH-regulated transcription factor DNA binding selectivity is relatively novel and addresses an underexplored area. The work extends previous findings on pH sensing proteins to the transcription factor context. Scientific importance: If fully established, the mechanism could have broad implications for understanding how cellular metabolism and microenvironmental conditions influence gene expression. However, the current evidence is incomplete, and the generalizability to other transcription factor families is not demonstrated. Interdisciplinary readership: The topic bridges cell biology, biophysics, and gene regulation, which could appeal to a broad audience. Technical soundness: The combination of approaches is appropriate, but several technical gaps undermine confidence, particularly the lack of validation for high pH motifs and insufficient statistical rigor in the SEQL-seq analysis. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with specialized techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The core claim of pH-regulated DNA binding selectivity is supported for lower pH binding to the FkhP motif, but the broader model of pH-dependent selectivity switching is not fully validated. The manuscript would benefit from additional experiments to validate high pH motifs, establish direct transcriptional consequences, and demonstrate generalizability to other transcription factor families.
+
+## Risk / unsupported claims
+- The claim that the mechanism applies to more than 85 transcription factors is unsupported by functional data for any family other than FOX.
+- The claim that RNA-seq identifies pH-dependent binding motifs is not directly supported, as the authors acknowledge they could not validate binding to these motifs in vitro.
+- The suggestion that pH-regulated transcription factor selectivity contributes to stem cell differentiation and developmental processes is speculative and not supported by experimental evidence.
+- The claim that His122 protonation is the causal mechanism for pH-dependent activity in cells is not directly established, as alternative explanations such as protein stability or localization are not ruled out.
+- The SEQL-seq finding of high pH preference for AGC-rich sequences is not validated by independent binding assays, making this claim unsupported.

@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "36053560",
+    "doi": "10.1021/acschemneuro.2c00416",
+    "title": "Atomistic Insights into A315E Mutation-Enhanced Pathogenicity of TDP-43 Core Fibrils."
+  },
+  "content": {
+    "abstract": "The aggregation of TAR DNA-binding protein of 43 kDa (TDP-43) into fibrillary deposits is implicated in amyotrophic lateral sclerosis (ALS), and some hereditary mutations localized in the low complexity domain (LCD) facilitate the formation of pathogenic TDP-43 fibrils. A recent cryo-EM study reported the atomic-level structures of the A315E TDP-43 LCD (residues 288-319, TDP-43(288-319)) core fibril in which the protofilaments have R-shaped structures and hypothesized that A315E U-shaped protofilaments can readily convert to R-shaped protofilaments compared to the wild-type (WT) ones. There are no atomic structures of WT protofilaments available yet. Herein, we performed extensive all-atom explicit-solvent molecular dynamics simulations on A315E and WT protofilaments starting from both the cryo-EM-determined R-shaped and our constructed U-shaped structures. Our simulations show that WT protofilaments also adopt the R-shaped structures but are less stable than their A315E counterparts. Except for R293-E315 salt bridges, N312-F316 hydrophobic interactions and F316-F316 pi-pi stacking interactions are also crucial for the stabilization of the neck region of the R-shaped A315E protofilaments. The loss of R293-E315 salt bridges and the weakened interactions of N312-F316 and F316-F316 result in the reduced stability of the R-shaped WT protofilaments. Simulations starting from U-shaped folds reveal that A315E protofilaments can spontaneously convert to the cryo-EM-derived R-shaped protofilaments, whereas WT protofilaments convert to R-shape-like structures with remodeled neck regions. The R-shape-like WT protofilaments could act as intermediate states slowing down the U-to-R transition. This study reveals that A315E mutation can not only enhance the structural stability of the R-shaped TDP-43(288-319) protofilaments but also promote the U-to-R transition, which provides atomistic insights into the A315E mutation-enhanced TDP-43 pathogenicity in ALS.",
+    "keywords": [
+      "A315E mutation",
+      "TDP-43",
+      "U-to-R transition",
+      "molecular dynamics simulation",
+      "molecular mechanism",
+      "protofilaments"
+    ],
+    "mesh_terms": [
+      "Amyotrophic Lateral Sclerosis/genetics/metabolism/pathology",
+      "DNA-Binding Proteins/*chemistry/genetics/metabolism",
+      "Humans",
+      "Mutation",
+      "Solvents",
+      "Virulence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Fangying",
+        "Chen, Yujie",
+        "Liu, Xianshi",
+        "Tang, Yiming",
+        "Dong, Xuewei",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Li F",
+        "Chen Y",
+        "Liu X",
+        "Tang Y",
+        "Dong X",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2976-5547",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Fangying",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yujie",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xianshi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0002-2976-5547"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xuewei",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2022 Sep 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/03 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36053560",
+      "35758309",
+      "36888995",
+      "31235914",
+      "36841957",
+      "31430111",
+      "37218694",
+      "29786080",
+      "23138004",
+      "33712624",
+      "38615537",
+      "26735904",
+      "38212334",
+      "39292611",
+      "27545621",
+      "37119915",
+      "39342654",
+      "20055380",
+      "29279008",
+      "23558684",
+      "18802454",
+      "18684309",
+      "29511089",
+      "21956718",
+      "28793209",
+      "33577819",
+      "35751132",
+      "24497641",
+      "19808791",
+      "29751083",
+      "26908597",
+      "19496940",
+      "26883171",
+      "33621087",
+      "30290270",
+      "26327808",
+      "21666678",
+      "33917983",
+      "29982983",
+      "32007267",
+      "19465477",
+      "32003979",
+      "25788357",
+      "23936224",
+      "33097688",
+      "21956716",
+      "36056157",
+      "27634045",
+      "37853696",
+      "20133711",
+      "31036551",
+      "28265061",
+      "23235148",
+      "30540446",
+      "18396105",
+      "31914861",
+      "22563080",
+      "32337711",
+      "35743272",
+      "19815002",
+      "28257838",
+      "28112502",
+      "31067307",
+      "21921519",
+      "19959528",
+      "28817800",
+      "20624952",
+      "19938687",
+      "32907712",
+      "31964415",
+      "23300771",
+      "23740936",
+      "27317832",
+      "24355598",
+      "18505686",
+      "36555863",
+      "26174443",
+      "35644946",
+      "24477737",
+      "23804749",
+      "21120508",
+      "30520513",
+      "21450909",
+      "19048944",
+      "35112738",
+      "29513014",
+      "19833869",
+      "25792726",
+      "19333444",
+      "24120466",
+      "25484089",
+      "24647938",
+      "18989115",
+      "32132204",
+      "24291884",
+      "19111550",
+      "37949836",
+      "37104882",
+      "37006777",
+      "38072051"
+    ],
+    "review": [
+      "36053560",
+      "18684309",
+      "21956718",
+      "19808791",
+      "28112502",
+      "21921519",
+      "19938687",
+      "24355598",
+      "19048944",
+      "19333444",
+      "18989115"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.2c00416",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

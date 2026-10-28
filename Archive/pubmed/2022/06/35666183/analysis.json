@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35666183",
+  "title": "Integrative analysis and prediction of human R-loop binding proteins.",
+  "authors": "Kumar, Arun; Fournier, Louis-Alexandre; Stirling, Peter C",
+  "journal": "G3 (Bethesda, Md.)",
+  "published_date": "2022-06-07",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过机器学习预测R-loop结合蛋白，虽涉及蛋白-核酸互作但非典型TF-DNA体系，方法可迁移至TF-DNA结合预测。",
+  "abstract": "In the past decade, there has been a growing appreciation for R-loop structures as important regulators of the epigenome, telomere maintenance, DNA repair, and replication. Given these numerous functions, dozens, or potentially hundreds, of proteins could serve as direct or indirect regulators of R-loop writing, reading, and erasing. In order to understand common properties shared amongst potential R-loop binding proteins, we mined published proteomic studies and distilled 10 features that were enriched in R-loop binding proteins compared with the rest of the proteome. Applying an easy-ensemble machine learning approach, we used these R-loop binding protein-specific features along with their amino acid composition to create random forest classifiers that predict the likelihood of a protein to bind to R-loops. Known R-loop regulating pathways such as splicing, DNA damage repair and chromatin remodeling are highly enriched in our datasets, and we validate 2 new R-loop binding proteins LIG1 and FXR1 in human cells. Together these datasets provide a reference to pursue analyses of novel R-loop regulatory proteins.",
+  "abstract_zh": "在过去十年中，R-loop结构作为表观基因组、端粒维持、DNA修复和复制的重要调控因子，日益受到重视。鉴于这些众多功能，数十种乃至可能数百种蛋白质可能作为R-loop写入、读取和擦除的直接或间接调控因子。为了理解潜在R-loop结合蛋白之间的共同特性，我们挖掘了已发表的蛋白质组学研究，并提炼出10个在R-loop结合蛋白中相较于其余蛋白质组富集的特征。采用简易集成机器学习方法，我们利用这些R-loop结合蛋白特异性特征及其氨基酸组成，构建了随机森林分类器，以预测蛋白质结合R-loop的可能性。已知的R-loop调控通路，如剪接、DNA损伤修复和染色质重塑，在我们的数据集中高度富集，并在人类细胞中验证了两种新的R-loop结合蛋白LIG1和FXR1。综合这些数据集，为后续分析新型R-loop调控蛋白提供了参考。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35666183/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35666183/",
+  "paper_page_path": "papers/pubmed/35666183/index.html"
+}

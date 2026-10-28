@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Technical and scientific evaluation of the sysMPRA platform as described, including delivery, quantification, tissue-specificity detection, and sensitivity to TF binding site disruptions and SNPs. Claims are assessed against the evidence presented in the provided text.
+- **Shared manuscript claim summary** The authors present a systemic massively parallel reporter assay (sysMPRA) using intravenous AAV-PHP.eB delivery to assess enhancer activity across multiple tissues in a single mouse. They report efficient library delivery (95.6% barcode recovery), tissue-specific enhancer activity detection, and sensitivity to MEF2C binding site disruptions and AD-associated SNPs.
+- **Visible evidence base** Results sections describing library delivery, barcode recovery statistics, tissue-specificity analyses, machine learning comparisons, and SNP/MEF2 disruption experiments. Methods sections for array design, experimental procedures, and computational analyses. References to Supplementary Figures S1–S5 and Tables S1–S8.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided. Raw sequencing data, quality control metrics, and detailed statistical outputs are not available. The manuscript does not include full details of the machine learning model comparisons or the complete list of enhancer sequences and their genomic coordinates.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially valuable platform for in vivo enhancer characterization. The systemic delivery approach addresses a real limitation of current MPRA methods. However, the evidence presented is incomplete in several critical areas, particularly regarding the statistical robustness of the tissue-specificity claims, the validation of the MEF2C disruption results, and the interpretation of the AD SNP findings. The barcode dropout issue (57% at cloning) raises concerns about the representativeness of the final library, and the authors' handling of this limitation is not fully convincing. The comparison with machine learning predictions is a strength but is presented with weak correlations that require more careful interpretation. Overall, the platform shows promise, but the current evidence does not fully establish its reliability and sensitivity as claimed.
+- **Who would be interested in the results, and why** Researchers in gene regulation, enhancer biology, and neurogenetics would be interested in this platform as a method for in vivo functional characterization of non-coding variants. Those studying tissue-specific gene regulation, particularly in brain versus peripheral tissues, would find the systemic delivery approach appealing. The demonstration of AD-associated SNP effects in vivo could be of interest to the Alzheimer's disease research community, though the limited number of validated SNPs tempers this interest.
+- **Major strengths** The systemic delivery approach is a genuine innovation that could enable multi-tissue MPRA studies in a single animal. The use of AAV-PHP.eB to cross the blood-brain barrier is well-justified. The inclusion of both positive and negative controls, as well as the machine learning comparison, shows methodological awareness. The demonstration of MEF2C binding site disruption effects provides a proof-of-concept for the platform's sensitivity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "effective delivery of the MPRA library... achieving a transduction rate approaching, on average, 96% across diverse animal tissues."
+  - **Evidence pointer** Results section "SysMPRA libraries are successfully delivered to tissues across the mouse"; Supplementary Figure S4B; Supplementary Table S3
+  - **Concern** The 95.6% transduction rate is calculated based on 3,983 barcodes detected out of 4,149 input barcodes. However, the input library complexity was already reduced to 43% of the original design due to a 57% barcode dropout during cloning. The authors state that "we still have 100% coverage of the candidate enhancers," but this does not address whether the surviving barcodes are representative of the full sequence diversity. The calculation of transduction rate relative to the already-depleted library may overstate the platform's delivery efficiency.
+  - **Why it matters** If the barcode dropout is non-random, certain enhancer sequences may be systematically underrepresented, biasing the activity measurements. The claim of 96% transduction is central to the platform's utility, and if this is an artifact of the reduced library complexity, the platform's effectiveness is overstated.
+  - **Resolution test** Provide a detailed analysis of the dropout patterns, including whether dropout correlates with sequence features (e.g., GC content, length, secondary structure). Recalculate transduction rates relative to the original designed library. Demonstrate that the surviving barcodes provide unbiased coverage of the enhancer sequence space.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that sysMPRA "efficiently identifies tissue-specific transcriptional regulation of enhancers tailored for the specific tissues."
+  - **Evidence pointer** Results section "SysMPRA measures the tissue-specificity of candidate enhancers"; Figure 3; Supplementary Figure S4C
+  - **Concern** The tissue-specificity analysis relies on Spearman correlations between tissues, but the authors do not provide a clear statistical framework for determining whether observed differences in enhancer activity between tissues are significant. The correlations between brain regions are high (ρ = 0.348–0.433), but the authors do not report confidence intervals or formal tests for tissue-specificity. The comparison with HMC3 cells is also confounded by the fact that HMC3 is a cell line, not a primary tissue, and may not accurately represent microglial biology.
+  - **Why it matters** The central claim of the platform is its ability to detect tissue-specific enhancer activity. Without rigorous statistical evidence for tissue-specificity, the platform's utility for studying tissue-specific gene regulation is not established.
+  - **Resolution test** Provide formal statistical tests for tissue-specificity, such as a mixed-effects model or a permutation-based approach, with appropriate multiple testing correction. Include effect sizes and confidence intervals for the tissue-specific activity estimates. Validate the HMC3 results against primary microglia or a more relevant model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that sysMPRA "detects enhancer disruptions from transcription factor binding sites and SNPs," specifically for MEF2C and AD-associated variants.
+  - **Evidence pointer** Results section "SysMPRA detects enhancer disruptions from transcription factor binding sites and SNPs"; Figure 4; Supplementary Tables S7 and S8
+  - **Concern** The MEF2C disruption experiments show a significant reduction in activity when the binding site is shuffled, but the analysis is based on a small number of enhancers (28 total). The authors report that 7/8 enhancers with high baseline activity were significantly disrupted, but the criteria for "high baseline activity" are not clearly defined. For the AD SNPs, only 8 of the tested SNPs showed significant effects, and the authors do not provide a clear biological interpretation of these findings. The claim that rs6498140 "creates a MEF2 transcription factor binding site motif" is based on sequence inspection, but no experimental validation (e.g., electrophoretic mobility shift assay or chromatin immunoprecipitation) is provided.
+  - **Why it matters** The sensitivity of the platform to subtle sequence changes is a key selling point. If the statistical power is insufficient or the biological validation is lacking, the claims of sensitivity are not fully supported.
+  - **Resolution test** Provide a power analysis for the MEF2C disruption experiments. Define the criteria for "high baseline activity" a priori. For the AD SNPs, provide experimental validation of the predicted TF binding site changes and a more detailed interpretation of the functional consequences. Consider testing additional SNPs to increase statistical power.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and robustness
+  - **Claim pointer** The authors claim that "the quality control metrics between the in vivo and HMC3 version of the experiments... were similar."
+  - **Evidence pointer** Results section "SysMPRA measures the tissue-specificity of candidate enhancers"; Supplementary Table S3
+  - **Concern** The authors report variability in RNA barcode dropout across replicates and attribute this to "transduction efficiency variability across animals, amplicon PCR stochasticity and sensitivity issues." However, they do not provide a quantitative assessment of this variability or its impact on the reliability of the activity measurements. The median RNA barcode correlation across technical replicates is reported as 0.99, but the biological replicate variability is not clearly characterized.
+  - **Why it matters** Reproducibility across biological replicates is essential for a platform intended for widespread use. If the variability is high, the platform's reliability for detecting subtle effects is questionable.
+  - **Resolution test** Provide a detailed analysis of biological replicate variability, including coefficients of variation for activity measurements. Assess the impact of RNA barcode dropout on the reproducibility of the results. Consider whether additional replicates are needed to achieve acceptable power.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction contain some redundancy in describing the limitations of current MPRA technologies. The phrase "pioneering a robust and systemic approach" in the Introduction is somewhat promotional and could be toned down.
+  - **Required correction** Streamline the abstract and introduction to avoid repetition. Replace promotional language with more neutral descriptions of the platform's contributions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "SysMPRA measures the tissue-specificity of candidate enhancers"
+  - **Evidence pointer** Figure 3, Supplementary Figure S5
+  - **Issue** The p-values reported in Figure 3A and Supplementary Figure S5B are extremely small (e.g., P < 8.2 × 10^-8), but the exact values are not reported. The authors should provide the precise p-values or a range.
+  - **Required correction** Report exact p-values or a clear range (e.g., P < 1 × 10^-10) in the text or figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods clarity
+  - **Affected element** Methods section "Computational analyses"
+  - **Evidence pointer** Methods, "Quantifying enhancer activity from MPRA libraries"
+  - **Issue** The description of the MPRAnalyze analysis is brief. The authors state that they "chose to aggregate across animals" but do not explain the rationale or the implications of this choice.
+  - **Required correction** Provide a more detailed description of the statistical model, including the rationale for aggregating across animals and the potential limitations of this approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The data availability statement mentions a GitHub repository and Zenodo DOI, but the specific scripts and analysis pipelines are not described in detail.
+  - **Required correction** Provide a more detailed description of the contents of the GitHub repository and Zenodo archive, including the specific scripts and data files.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The immunofluorescence images in Figure 2 are described but not shown in the text. The authors should ensure that the images are of high quality and clearly demonstrate the transduction and expression patterns described.
+  - **Required correction** Ensure that Figure 2 includes representative images with scale bars and clear labeling of the tissues and markers used.
+
+## Risk / unsupported claims
+- The claim of "95.6% transduction rate" is based on a library that had already lost 57% of its barcodes during cloning; the calculation may overstate delivery efficiency.
+- The claim that sysMPRA "efficiently identifies tissue-specific transcriptional regulation" is not supported by formal statistical tests for tissue-specificity.
+- The claim that rs6498140 "creates a MEF2 transcription factor binding site motif" is based on sequence inspection only and lacks experimental validation.
+- The claim that "the quality control metrics between the in vivo and HMC3 version of the experiments were similar" is not supported by quantitative comparisons.
+- The biological significance of the AD SNP effects is not clearly interpreted, and the small number of significant SNPs limits the generalizability of the findings.

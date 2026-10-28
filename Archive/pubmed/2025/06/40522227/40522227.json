@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40522227",
+    "doi": "10.1002/pro.70202",
+    "title": "Computational and experimental assessment of key interdomain residues controlling the fold-switch of RfaH."
+  },
+  "content": {
+    "abstract": "Escherichia coli RfaH, a member of the universally conserved NusG family of transcription factors, regulates its function by undergoing a structural rearrangement of its C-terminal domain (CTD) upon recruitment to RNA polymerase (RNAP) paused at the DNA signal known as operon polarity suppressor (ops) element. While it is known that the fold-switch of RfaH CTD from an alpha-helical hairpin (autoinhibited state) into a beta-barrel (active state) is controlled by interactions between the N-terminal domain (NTD) and CTD, which are broken apart upon NTD binding to RNAP, a comprehensive analysis of residues that stabilize the autoinhibited state is lacking. Here, we utilize a combination of molecular dynamics (MD), protein structure prediction, and in vivo functional assays as a workflow to determine key interdomain (ID) residues controlling the fold-switch of RfaH. First, MD simulations employing structure-based models identified eight CTD residues with high ID contact probability, therefore expected to play a crucial role in stabilizing the autoinhibited state of RfaH. In silico alanine scanning mutagenesis followed by structure prediction using AlphaFold2 showed that four of these mutants (F126A, E136A, R138A, and L142A) led to several models with mixed alpha/beta secondary structure for the CTD in comparison to the known fold-switching mutant E48A. Lastly, experimental alanine scanning mutagenesis and RfaH-dependent in vivo luminescence assays confirmed that I129 and L142 contribute to the stabilization of the autoinhibited state. These results deepen our understanding of the fold-switch of RfaH, with tools that are applicable to other metamorphic proteins.",
+    "keywords": [
+      "in vivo assay",
+      "metamorphic proteins",
+      "protein structure prediction",
+      "structure-based models"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli Proteins/chemistry/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Folding",
+      "*Trans-Activators/chemistry/genetics/metabolism",
+      "*Escherichia coli/chemistry/genetics/metabolism",
+      "*Peptide Elongation Factors/chemistry/genetics/metabolism",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tabilo-Agurto, Cyndi",
+        "Reyes, Javiera",
+        "Artsimovitch, Irina",
+        "Ramirez-Sarmiento, Cesar A"
+      ],
+      "short_names": [
+        "Tabilo-Agurto C",
+        "Reyes J",
+        "Artsimovitch I",
+        "Ramirez-Sarmiento CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4647-903X"
+      ],
+      "affiliations": [
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Department of Microbiology and Center for RNA Biology, The Ohio State University, Columbus, Ohio, USA.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tabilo-Agurto, Cyndi",
+        "short_name": "Tabilo-Agurto C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Reyes, Javiera",
+        "short_name": "Reyes J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Artsimovitch, Irina",
+        "short_name": "Artsimovitch I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Center for RNA Biology, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Sarmiento, César A",
+        "short_name": "Ramírez-Sarmiento CA",
+        "identifiers": [
+          "0000-0003-4647-903X"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID, Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/16 12:28",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "41889830"
+    ],
+    "refs": [
+      "39324667",
+      "39163334",
+      "39117885",
+      "39088556",
+      "38589445",
+      "38537533",
+      "38104123",
+      "38072605",
+      "37713472",
+      "37681096",
+      "36382197",
+      "35670666",
+      "35637307",
+      "35634782",
+      "34265844",
+      "33109766",
+      "32996201",
+      "31810657",
+      "29784778",
+      "29741479",
+      "29035372",
+      "28605514",
+      "27801516",
+      "26963394",
+      "26620784",
+      "26583988",
+      "26374226",
+      "26230837",
+      "26113641",
+      "22817892",
+      "22536820",
+      "20408171",
+      "20132437",
+      "18837035",
+      "18364395",
+      "15849316",
+      "14613939",
+      "12007406"
+    ],
+    "similar": [
+      "40522227",
+      "39400465",
+      "34478435",
+      "22817892",
+      "31810657",
+      "25483894",
+      "30742024",
+      "23990324",
+      "28605514",
+      "32996201",
+      "29323497",
+      "39088556",
+      "26230837",
+      "29887376",
+      "36255050",
+      "24758259",
+      "26374226",
+      "27555285",
+      "39117885",
+      "40366684",
+      "35634768",
+      "21777814",
+      "17434131",
+      "39324667",
+      "38589445",
+      "37991741",
+      "20132437",
+      "35438983",
+      "23131843",
+      "28559482",
+      "33521926",
+      "27899597",
+      "29741479",
+      "19096362",
+      "23415559",
+      "30537824",
+      "24275665",
+      "17012804",
+      "26033324",
+      "33109766",
+      "41889830",
+      "12217688",
+      "36264101",
+      "10660066",
+      "17711918",
+      "30069925",
+      "9426123",
+      "35670666",
+      "41994887",
+      "33176159",
+      "42268877",
+      "19500594",
+      "12622819",
+      "27174929",
+      "35258322",
+      "23638618",
+      "15503145",
+      "24491998",
+      "12007406",
+      "12117951",
+      "35049093",
+      "9604894",
+      "9171395",
+      "39374889",
+      "34197736",
+      "36382197",
+      "29757477",
+      "23504015",
+      "27899640",
+      "11073923",
+      "25368414",
+      "15255893",
+      "21040729",
+      "33296676",
+      "29758107",
+      "8951819",
+      "15465042",
+      "21742261",
+      "37986937",
+      "22753067",
+      "24632072",
+      "39730149",
+      "15727837",
+      "24163336",
+      "12628255",
+      "11682190",
+      "31501279",
+      "15090525",
+      "21345171",
+      "16452414",
+      "23912807",
+      "15890417",
+      "23095672",
+      "12142422",
+      "11555297",
+      "20413501",
+      "22465792",
+      "11179376",
+      "30054276",
+      "31137816"
+    ],
+    "review": [
+      "40522227",
+      "9426123",
+      "33176159",
+      "23638618",
+      "39374889",
+      "36382197",
+      "24632072",
+      "31137816"
+    ],
+    "pmc": [
+      "12168481"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10839",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "rfaH"
+      },
+      {
+        "url": "https://www.ovid.com/40522227.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40522227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70202",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

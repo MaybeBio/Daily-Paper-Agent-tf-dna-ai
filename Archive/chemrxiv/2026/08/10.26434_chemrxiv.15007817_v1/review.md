@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supporting data were provided for evaluation
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics and umbrella sampling to study the adhesion of the DOPA-deficient mussel foot protein dbfp7 to a rutile TiO2(110) surface. They report that individual residues bind weakly, that binding does not strengthen with peptide length, that the intact protein fragment adheres irreversibly through multiple interfaces, and that aromatic residues are enriched at the interface but not required. They conclude that adhesion arises from the collective action of many weak, non-specific contacts.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters were provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy profiles, error estimates, conformer selection details, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis for DOPA-independent adhesion of a mussel foot protein. However, the evidence base is limited to a summary of results without quantitative details, making it impossible to assess the technical soundness of the simulations or the robustness of the conclusions. The central claim of "irreversible" adhesion through collective weak contacts is plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomaterials, surface science, and bioadhesion would be interested, as the work addresses a fundamental question about protein-surface interactions in the absence of catechol chemistry. The findings could inform the design of synthetic adhesives and the understanding of implant integration.
+- **Major strengths** The study addresses a clear knowledge gap regarding DOPA-deficient adhesion mechanisms. The use of multiple peptide lengths, conformers, and orientations is a reasonable approach to probe the role of protein size and surface presentation. The conclusion that adhesion is collective and non-specific is mechanistically distinct from the prevailing catechol-centric view.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the intact protein fragment adheres irreversibly to the surface"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of irreversible adhesion is stated without any quantitative free energy value, error estimate, or timescale of the simulations. "Irreversible" is a strong statement that requires demonstration of a deep free energy minimum and a barrier that is insurmountable on relevant timescales.
+  - **Why it matters** Without quantitative support, the central conclusion of the paper cannot be evaluated. Irreversibility is the key differentiator from the weak individual residue binding, and it must be backed by robust free energy calculations.
+  - **Resolution test** Provide the computed free energy of binding for the intact fragment, the associated uncertainty, and a comparison to thermal energy. Show that the bound state is kinetically stable over the simulation timescale or via barrier height analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Individual residues bind only weakly (at or below thermal energy) to the surface and binding did not strengthen with peptide length"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how residue-level binding free energies were computed, how they were decomposed from the full protein, or what statistical precision was achieved. The claim that binding does not strengthen with peptide length is counterintuitive and requires careful demonstration that the simulation sampling was converged for each peptide.
+  - **Why it matters** This claim is foundational to the collective-action hypothesis. If peptide length effects were not adequately sampled, the conclusion could be an artifact of insufficient simulation time or poor convergence.
+  - **Resolution test** Provide per-residue free energy profiles with error bars, describe the decomposition method, and show convergence metrics for each peptide simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "engaging with multiple different interfaces rather than a single binding site"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how "multiple interfaces" were identified or quantified. It is unclear whether this is a robust observation across independent simulations or a single trajectory artifact.
+  - **Why it matters** The multi-interface engagement is a key mechanistic claim. Without a clear definition and statistical support, it is not possible to assess whether the protein truly samples multiple binding modes or whether the observation is stochastic.
+  - **Resolution test** Define the criteria for an "interface," show the number of distinct interfaces observed across replicate simulations, and provide a measure of occupancy or residence time for each.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "aromatic residues were enriched at the interface when exposed to the surface" is ambiguous. It is unclear whether enrichment is relative to the protein's average composition or to the surface composition, and what "exposed" means operationally.
+  - **Required correction** Clarify the reference frame for enrichment and define "exposed" in terms of solvent accessibility or distance cutoff.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the force field, water model, or simulation length, which are essential for reproducibility in molecular dynamics studies.
+  - **Required correction** Include these details in the abstract or refer to a methods section with full specifications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The conclusion that adhesion is "non-specific" is inferred from the absence of a single binding site, but the abstract does not rule out specific interactions with particular surface sites or residue types.
+  - **Required correction** Soften the claim to "not dominated by a single specific site" or provide evidence that no specific residue-surface contacts are consistently formed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of irreversible adhesion and the absence of length-dependent binding are not quantitatively supported. R1-M3 is non-blocking but requires clarification for the mechanistic interpretation to be robust.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a novel question about DOPA-independent adhesion, which is a meaningful departure from the dominant catechol-centric framework. This is a strength.
+  - Scientific importance: The findings could have broad implications for bioadhesion and biomaterials, but the importance is contingent on the robustness of the simulations, which cannot be assessed from the abstract.
+  - Interdisciplinary readership: The topic bridges protein biophysics, surface chemistry, and materials science, which would appeal to a broad audience if the evidence is compelling.
+  - Technical soundness: Not assessable from the abstract. The lack of quantitative free energy data and simulation details is a major limitation.
+  - Readability for nonspecialists: The abstract is concise and accessible, but the mechanistic claims would benefit from clearer definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is appropriate, but the abstract alone does not provide sufficient quantitative support for the central claims. I would be supportive if the technical concerns regarding free energy calculations and convergence are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- "Irreversible" adhesion of the intact fragment is unsupported without free energy values and kinetic analysis.
+- "Binding did not strengthen with peptide length" is unsupported without convergence metrics and error estimates.
+- "Multiple different interfaces" is unsupported without a clear operational definition and statistical evidence.
+- "Collective action of many weak, non-specific contacts" is a reasonable hypothesis but is not directly demonstrated by the abstract data.

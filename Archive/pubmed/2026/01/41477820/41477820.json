@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "41477820",
+    "doi": "10.1126/sciadv.adz8174",
+    "title": "Machine learning-powered single-molecule cancer diagnosis using DNA origami tags."
+  },
+  "content": {
+    "abstract": "Single-molecule detection (SMD) holds considerable promise in biomedical research. Although atomic force microscopy (AFM) provides an important technique with nanoscale resolution for SMD, its broader application is limited by labeling challenges and slow data processing. Here, we present a machine learning (ML)-powered strategy combining AFM and DNA nanotags for SMD and cancer diagnosis. Nickases are applied to create specific single-strand breaks in target DNA, allowing insertion of exogenous DNA to attach shape-distinct nanotags for AFM imaging. A YOLOv5l algorithm is adopted to automatically recognize target objects in AFM images, which can classify 370 structures in 1.21 seconds with 98% accuracy. The proof of concept of this strategy is confirmed by identifying nickase-edited sites on both linear and circular DNA. Its practical applicability is demonstrated by detecting KRAS Gly12Arg (G12R) and p53 Arg175His (R175H) mutations in samples from patients with pancreatic and colorectal cancer, with accuracy rivaling Sanger sequencing and quantitative polymerase chain reaction, opening avenues for SMD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Microscopy, Atomic Force/methods",
+      "*DNA/chemistry",
+      "*Single Molecule Imaging/methods",
+      "*Neoplasms/diagnosis/genetics",
+      "Tumor Suppressor Protein p53/genetics",
+      "Mutation",
+      "Proto-Oncogene Proteins p21(ras)/genetics",
+      "Algorithms",
+      "*Pancreatic Neoplasms/diagnosis/genetics",
+      "Colorectal Neoplasms/diagnosis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Jinxin",
+        "He, Zhimei",
+        "Guan, Wenyan",
+        "Zhi, Sheng",
+        "Sun, Xing",
+        "Yang, Zixiao",
+        "Ma, Jianfeng",
+        "Fan, Chunhai",
+        "Wang, Lianhui",
+        "Chao, Jie"
+      ],
+      "short_names": [
+        "Xiong J",
+        "He Z",
+        "Guan W",
+        "Zhi S",
+        "Sun X",
+        "Yang Z",
+        "Ma J",
+        "Fan C",
+        "Wang L",
+        "Chao J"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8723-9154",
+        "ORCID: 0000-0002-8509-0142",
+        "ORCID: 0000-0003-3129-9730",
+        "ORCID: 0000-0002-7171-7338",
+        "ORCID: 0000-0001-9030-9172",
+        "ORCID: 0000-0003-1030-9944"
+      ],
+      "affiliations": [
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Department of Pathology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing 210008, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory of Synergistic Chem-Bio Synthesis, School of Chemistry and Chemical Engineering, New Cornerstone Science Laboratory, Frontiers Science Center for Transformative Molecules, Zhang Jiang Institute for Advanced Study and National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Institute of Molecular Medicine, Shanghai Key Laboratory for Nucleic Acids Chemistry and Nanomedicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+        "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Jinxin",
+        "short_name": "Xiong J",
+        "identifiers": [
+          "0009-0006-8723-9154"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhimei",
+        "short_name": "He Z",
+        "identifiers": [
+          "0000-0002-8509-0142"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Wenyan",
+        "short_name": "Guan W",
+        "identifiers": [
+          "0000-0003-3129-9730"
+        ],
+        "affiliations": [
+          "Department of Pathology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing 210008, China."
+        ]
+      },
+      {
+        "full_name": "Zhi, Sheng",
+        "short_name": "Zhi S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xing",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zixiao",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jianfeng",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Chunhai",
+        "short_name": "Fan C",
+        "identifiers": [
+          "0000-0002-7171-7338"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Synergistic Chem-Bio Synthesis, School of Chemistry and Chemical Engineering, New Cornerstone Science Laboratory, Frontiers Science Center for Transformative Molecules, Zhang Jiang Institute for Advanced Study and National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "Institute of Molecular Medicine, Shanghai Key Laboratory for Nucleic Acids Chemistry and Nanomedicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lianhui",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-9030-9172"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chao, Jie",
+        "short_name": "Chao J",
+        "identifiers": [
+          "0000-0003-1030-9944"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Flexible Electronics (LoFE), Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "Jiangsu Key Laboratory of Smart Biomaterials and Theranostic Technology, Nanjing University of Posts and Telecommunications, Nanjing 210023, China.",
+          "College of Materials Science and Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/01 19:21",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40964071",
+      "40759651",
+      "40721874",
+      "40540709",
+      "40253069",
+      "39777438",
+      "39633055",
+      "39496933",
+      "39321299",
+      "39232498",
+      "38926336",
+      "38834747",
+      "38811338",
+      "38710688",
+      "38536927",
+      "38168062",
+      "38039360",
+      "37580540",
+      "37480847",
+      "37225882",
+      "37143962",
+      "36997524",
+      "36841425",
+      "36696234",
+      "36670289",
+      "36652628",
+      "36400749",
+      "36044769",
+      "36001446",
+      "35900362",
+      "35831496",
+      "35616526",
+      "35589715",
+      "35264624",
+      "34613776",
+      "34272369",
+      "34088670",
+      "33649166",
+      "32948857",
+      "32397069",
+      "32322952",
+      "32251371",
+      "32176816",
+      "31785564",
+      "31058228",
+      "30773764",
+      "30478320",
+      "29903876",
+      "29712893",
+      "29700254",
+      "29449511",
+      "29348210",
+      "29299552",
+      "28939824",
+      "28607485",
+      "27647753",
+      "27479503",
+      "27067838",
+      "26847993",
+      "26229996",
+      "23749181",
+      "22624712",
+      "21981707",
+      "21053236",
+      "21050163",
+      "20966947",
+      "17586812",
+      "16541064",
+      "16056220",
+      "8668541",
+      "7701347",
+      "928068"
+    ],
+    "similar": [
+      "41477820",
+      "29303908",
+      "28121262",
+      "22609129",
+      "30978504",
+      "34515700",
+      "32485088",
+      "26747035",
+      "30088781",
+      "22324744",
+      "31711486",
+      "40680189",
+      "40943438",
+      "29556349",
+      "29956242",
+      "36892772",
+      "24601497",
+      "33770081",
+      "32185618",
+      "28450086",
+      "19026650",
+      "23531339",
+      "30472330",
+      "28691390",
+      "32207862",
+      "30661213",
+      "35978873",
+      "32376474",
+      "17659731",
+      "23526092",
+      "40157244",
+      "24742565",
+      "26991344",
+      "29956235",
+      "31439256",
+      "39951277",
+      "36328896",
+      "34502160",
+      "31782995",
+      "26378065",
+      "27591291",
+      "27936442",
+      "28058585",
+      "29937183",
+      "22208613",
+      "35296442",
+      "27375074",
+      "38702822",
+      "38572984",
+      "30742801",
+      "38477533",
+      "32779023",
+      "24277616",
+      "29104470",
+      "31719050",
+      "28091917",
+      "16850502",
+      "38777950",
+      "32961317",
+      "28139399",
+      "41137493",
+      "18075308",
+      "21618350",
+      "31649109",
+      "11289282",
+      "36745573",
+      "8927612",
+      "11007040",
+      "26253016",
+      "32876508",
+      "21404058",
+      "23157827",
+      "31188184",
+      "38019254",
+      "32559497",
+      "28083970",
+      "36004993",
+      "38348576",
+      "41303394",
+      "28524162",
+      "22587896",
+      "35686701",
+      "39457426",
+      "39214093",
+      "26735353",
+      "27485514",
+      "30976068",
+      "27705932",
+      "37166716",
+      "40650970",
+      "21508389",
+      "31999789",
+      "39369516",
+      "16174854",
+      "39976545",
+      "39791715",
+      "32896616",
+      "29200129",
+      "33325154",
+      "29452859"
+    ],
+    "review": [
+      "41477820",
+      "40680189",
+      "33770081",
+      "29937183",
+      "30742801",
+      "38477533"
+    ],
+    "pmc": [
+      "12757023"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.adz8174?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/41477820.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41477820/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report development and validation of a new HPLC method for quantification of mirtazapine (MIR) in tablets, compliant with ICH guidelines, with stated LOD, LOQ, linear range, and recovery values. They further report a multi-technique characterization of MIR binding to double-stranded fish sperm DNA, concluding minor groove binding with hydrogen bonding and electrostatic interactions, supported by molecular docking and dynamics simulations, and application of the validated method to tablet-based binding studies.
+- **Visible evidence base** Abstract text only; no experimental sections, figures, tables, or numerical datasets beyond those cited in the abstract
+- **Missing materials affecting confidence** Full method details, chromatograms, spectra, binding constant values, docking and simulation parameters, statistical analyses, validation data tables, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents two distinct objectives: analytical method development and DNA binding mechanism elucidation. The analytical validation metrics are reported with specific values, but the abstract lacks sufficient detail to assess methodological rigor or reproducibility. The DNA binding component is described qualitatively with a definitive conclusion, yet the supporting evidence is not visible. The connection between the two parts is stated but not justified. The work may be of interest to analytical chemists and biophysical researchers, but the current evidence base is insufficient to evaluate the validity of the claims.
+- **Who would be interested in the results, and why** Analytical chemists developing HPLC methods for pharmaceutical quality control would find the validated method potentially useful. Researchers studying drug-DNA interactions, particularly for antidepressants, may be interested in the binding mechanism. The combined approach could appeal to those seeking integrated analytical and biophysical characterization of pharmaceutical compounds.
+- **Major strengths** The abstract reports validation parameters that align with standard ICH expectations, including LOD, LOQ, linear range, and recovery. The use of multiple complementary techniques for DNA binding studies is methodologically sound in principle. The inclusion of computational methods alongside experimental approaches is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a validated HPLC method with specific LOD, LOQ, linear range, and recovery values, and a DNA binding mechanism concluded as minor groove binding with hydrogen bonding and electrostatic interactions.
+  - **Evidence pointer** Abstract only; no chromatograms, calibration data, spectra, or docking figures provided
+  - **Concern** The abstract provides no experimental details to support the reported validation metrics or the binding mechanism conclusion. No information is given on column specifications, mobile phase composition, sample preparation, or statistical treatment of validation data. The DNA binding constant values are mentioned as determined but not reported. The molecular docking and dynamics results are summarized without any parameters or validation of the computational methods.
+  - **Why it matters** Without access to the underlying data and methods, the reproducibility and reliability of the reported values cannot be assessed. The binding mechanism conclusion is definitive in tone but lacks visible quantitative or qualitative evidence. The abstract alone does not establish that the method is truly novel or that the binding characterization is rigorous.
+  - **Resolution test** Provide the full manuscript with detailed experimental sections, calibration and validation tables, representative chromatograms and spectra, binding constant values with errors, docking scores, and simulation convergence metrics. The claims can then be evaluated against the presented data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the HPLC method is novel and that the DNA binding study provides new insight into MIR interaction with dsDNA.
+  - **Evidence pointer** Abstract only; no comparison to existing methods or prior binding studies provided
+  - **Concern** The novelty of the HPLC method is asserted but not contextualized against existing analytical methods for MIR. The DNA binding mechanism is presented as a finding, but no comparison to previously reported interactions of MIR or similar antidepressants with DNA is given. The significance of the binding mechanism for therapeutic action or side effects is not discussed.
+  - **Why it matters** For a journal with broad readership, the contribution must be placed in context. Without a clear statement of what is new relative to prior work, the scientific importance cannot be judged. The abstract does not articulate why this binding mechanism matters beyond a descriptive finding.
+  - **Resolution test** Revise the abstract or provide the full manuscript with an introduction and discussion that explicitly compare the method to existing approaches and the binding results to prior literature, stating the advance and its implications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The abstract combines analytical chemistry and biophysical characterization, implying relevance to both fields.
+  - **Evidence pointer** Abstract only; no clear explanation of how the two parts integrate
+  - **Concern** The connection between the HPLC method development and the DNA binding study is stated as a final binding characterization using tablets, but the rationale for linking these two objectives is not explained. A reader from one field may not see the relevance of the other part.
+  - **Why it matters** The journal targets biomedical and life science audiences. The abstract should make clear why the analytical method and the binding study together advance understanding or application. The current structure reads as two separate studies joined in one paper.
+  - **Resolution test** Clarify in the abstract or introduction how the validated method enables the binding study or how the binding mechanism informs the analytical approach. Provide a unified hypothesis or application context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses technical terms such as "thermal denaturation" and "molecular dynamics simulations" without brief explanation, which may limit accessibility for readers outside the biophysical specialty.
+  - **Required correction** Add a short phrase describing the purpose of each technique, for example "thermal denaturation to assess DNA stability changes upon binding."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Recovery range statement
+  - **Evidence pointer** Abstract only
+  - **Issue** The recovery range of 98.82 to 100.97 percent is reported without specifying the concentration levels tested or the number of replicates.
+  - **Required correction** State the concentration levels and replicate numbers for the recovery study in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** DNA binding constant reporting
+  - **Evidence pointer** Abstract only
+  - **Issue** The binding constants are said to be determined by two methods but no values are given, making the claim unverifiable from the abstract.
+  - **Required correction** Report the K(b) values with units and errors, or state that they are presented in the full manuscript with a specific table reference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence to assess the validity of the analytical validation or the binding mechanism conclusion, and the novelty and significance are not established without contextual comparison.
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract alone, as no comparison to existing methods or prior binding studies is provided. Scientific importance: Not established, as the significance of the binding mechanism and the novelty of the method are asserted but not argued. Interdisciplinary readership: The combination of analytical and biophysical approaches has potential appeal, but the integration is not explained. Technical soundness: Not assessable, as no experimental details or data are visible. Readability for nonspecialists: The abstract is generally clear but uses some specialized terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not allow verification of the analytical validation or the binding mechanism claims. A full manuscript with detailed methods, data, and contextual discussion is required for a fair assessment.
+
+## Risk / unsupported claims
+- The claim of a "novel" HPLC method is unsupported without comparison to existing methods.
+- The specific LOD, LOQ, linear range, and recovery values are unverifiable without calibration and validation data.
+- The conclusion of minor groove binding with hydrogen bonding and electrostatic interactions is unsupported without visible spectra, binding constants, or docking results.
+- The statement that the validated method was used for tablet-based binding characterization is unverifiable without experimental details.
+- The relevance of the DNA binding mechanism to the analytical method or to therapeutic action is not argued and thus unsupported.

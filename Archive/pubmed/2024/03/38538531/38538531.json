@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "38538531",
+    "doi": "10.1021/acs.jctc.4c00057",
+    "title": "Calculations of Absolute Free Energies, Enthalpies, and Entropies for Drug Binding."
+  },
+  "content": {
+    "abstract": "Computer simulation methods can aid in the rational design of drugs aimed at a specific target, typically a protein. The affinity of a drug for its target is given by the free energy of binding. Binding can be further characterized by the enthalpy and entropy changes in the process. Methods exist to determine exact free energies, enthalpies, and entropies that are dependent only on the quality of the potential model and adequate sampling of conformational degrees of freedom. Entropy and enthalpy are roughly an order of magnitude more difficult to calculate than the free energy. This project combines a replica exchange method for enhanced sampling, designed to be efficient for protein-sized systems, with free energy calculations. This approach, replica exchange with dynamical scaling (REDS), uses two conventional simulations at different temperatures so that the entropy can be found from the temperature dependence of the free energy. A third replica is placed between them, with a modified Hamiltonian that allows it to span the temperature range of the conventional replicas. REDS provides temperature-dependent data and aids in sampling. It is applied to the bromodomain-containing protein 4 (BRD4) system. We find that for the force fields used, the free energies are accurate but the entropies and enthalpies are not, with the entropic contribution being too positive. Reproducing the entropy and enthalpy of binding appears to be a more stringent test of the force fields than reproducing the free energy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Entropy",
+      "Computer Simulation",
+      "*Nuclear Proteins",
+      "*Transcription Factors",
+      "Thermodynamics",
+      "Protein Binding",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Summa, Christopher M",
+        "Langford, Dillon P",
+        "Dinshaw, Sam H",
+        "Webb, Jennifer",
+        "Rick, Steven W"
+      ],
+      "short_names": [
+        "Summa CM",
+        "Langford DP",
+        "Dinshaw SH",
+        "Webb J",
+        "Rick SW"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9491-0686"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of New Orleans, New Orleans, Louisiana 70148, United States.",
+        "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States.",
+        "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States.",
+        "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States.",
+        "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Summa, Christopher M",
+        "short_name": "Summa CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of New Orleans, New Orleans, Louisiana 70148, United States."
+        ]
+      },
+      {
+        "full_name": "Langford, Dillon P",
+        "short_name": "Langford DP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States."
+        ]
+      },
+      {
+        "full_name": "Dinshaw, Sam H",
+        "short_name": "Dinshaw SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States."
+        ]
+      },
+      {
+        "full_name": "Webb, Jennifer",
+        "short_name": "Webb J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States."
+        ]
+      },
+      {
+        "full_name": "Rick, Steven W",
+        "short_name": "Rick SW",
+        "identifiers": [
+          "0000-0001-9491-0686"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of New Orleans, New Orleans, Louisiana 70148, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Apr 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/28 00:45",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42653288",
+      "40801814",
+      "40556775"
+    ],
+    "refs": [],
+    "similar": [
+      "38538531",
+      "29785435",
+      "38323915",
+      "18399522",
+      "35889299",
+      "22497310",
+      "31396905",
+      "30807142",
+      "17119645",
+      "21899337",
+      "35258972",
+      "31984465",
+      "26574422",
+      "24032517",
+      "17201450",
+      "37450482",
+      "36459593",
+      "23150595",
+      "36222107",
+      "21684797",
+      "27638809",
+      "19580304",
+      "25877585",
+      "30134726",
+      "28564537",
+      "19402609",
+      "14648622",
+      "10588902",
+      "27996253",
+      "29489349",
+      "23247390",
+      "35204648",
+      "33496583",
+      "22354755",
+      "38452751",
+      "30411639",
+      "33037549",
+      "23267463",
+      "34978000",
+      "34264476",
+      "30253098",
+      "21120864",
+      "19045232",
+      "19374378",
+      "22214214",
+      "34978001",
+      "27796417",
+      "33993013",
+      "21484840",
+      "35212338",
+      "29406753",
+      "15326600",
+      "28169522",
+      "15491137",
+      "21399280",
+      "33939083",
+      "35277695",
+      "10842335",
+      "38412420",
+      "21870839",
+      "35639709",
+      "21303099",
+      "17342721",
+      "34585768",
+      "26574307",
+      "26066200",
+      "32427471",
+      "28672839",
+      "35266690",
+      "25692597",
+      "31298858",
+      "18637683",
+      "28024402",
+      "30698954",
+      "24716898",
+      "21488062",
+      "28786670",
+      "28677954",
+      "18418822",
+      "32151833",
+      "33663215",
+      "19378190",
+      "36626710",
+      "39302888",
+      "35543334",
+      "23277945",
+      "35298174",
+      "20698672",
+      "31822062",
+      "32877664",
+      "27677749",
+      "33140208",
+      "36791464",
+      "38232295",
+      "27976868",
+      "20186973",
+      "16422651",
+      "35605180",
+      "27782467",
+      "18613721",
+      "38574232",
+      "38568867",
+      "38481102",
+      "19485432",
+      "22229789",
+      "21151738",
+      "35314898",
+      "38600851"
+    ],
+    "review": [
+      "38538531",
+      "21684797",
+      "27796417"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c00057",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "identity": {
+    "pmid": "40439693",
+    "doi": "10.1002/advs.202502833",
+    "title": "An Explainable Multimodal Artificial Intelligence Model Integrating Histopathological Microenvironment and EHR Phenotypes for Germline Genetic Testing in Breast Cancer."
+  },
+  "content": {
+    "abstract": "Genetic testing for pathogenic germline variants is critical for the personalized management of high-risk breast cancers, guiding targeted therapies and cascade testing for at-risk families. In this study, MAIGGT (Multimodal Artificial Intelligence Germline Genetic Testing) is proposed, a deep learning framework that integrates histopathological microenvironment features from whole-slide images with clinical phenotypes from electronic health records for precise prescreening of germline BRCA1/2 mutations. Leveraging a multi-scale Transformer-based deep generative architecture, MAIGGT employs a cross-modal latent representation unification mechanism to capture complementary biological insights from multimodal data. MAIGGT is rigorously validated across three independent cohorts and demonstrated robust performance with areas under receiver operating characteristic curves of 0.925 (95% CI 0.868 - 0.982), 0.845 (95% CI 0.779 - 0.911), and 0.833 (0.788 - 0.878), outperforming single-modality models. Mechanistic interpretability analyses revealed that BRCA1/2-mutated associated tumors may exhibit distinct microenvironment patterns, including increased inflammatory cell infiltration, stromal proliferation and necrosis, and nuclear heterogeneity. By bridging digital pathology with clinical phenotypes, MAIGGT establishes a new paradigm for cost-effective, scalable, and biologically interpretable prescreening of hereditary breast cancer, with the potential to significantly improve the accessibility of genetic testing in routine clinical practice.",
+    "keywords": [
+      "BRCA1/2",
+      "breast cancer",
+      "deep learning",
+      "electronic health records",
+      "tumor microenvironment",
+      "whole-slide image"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology/diagnosis",
+      "Female",
+      "*Genetic Testing/methods",
+      "*Artificial Intelligence",
+      "Phenotype",
+      "Germ-Line Mutation/genetics",
+      "Electronic Health Records",
+      "Tumor Microenvironment/genetics",
+      "BRCA1 Protein/genetics",
+      "BRCA2 Protein/genetics",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Zijian",
+        "Guo, Changyuan",
+        "Li, Jiayi",
+        "Li, Yalun",
+        "Zhong, Lei",
+        "Pu, Pengming",
+        "Shang, Tongxuan",
+        "Cong, Lin",
+        "Zhou, Yongxin",
+        "Qiao, Guangdong",
+        "Jia, Ziqi",
+        "Xu, Hengyi",
+        "Cao, Heng",
+        "Huang, Yansong",
+        "Liu, Tianyi",
+        "Liang, Jian",
+        "Wu, Jiang",
+        "Ma, Dongxu",
+        "Liu, Yuchen",
+        "Zhou, Ruijie",
+        "Wang, Xiang",
+        "Ying, Jianming",
+        "Zhou, Meng",
+        "Liu, Jiaqi"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Guo C",
+        "Li J",
+        "Li Y",
+        "Zhong L",
+        "Pu P",
+        "Shang T",
+        "Cong L",
+        "Zhou Y",
+        "Qiao G",
+        "Jia Z",
+        "Xu H",
+        "Cao H",
+        "Huang Y",
+        "Liu T",
+        "Liang J",
+        "Wu J",
+        "Ma D",
+        "Liu Y",
+        "Zhou R",
+        "Wang X",
+        "Ying J",
+        "Zhou M",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9987-9024",
+        "ORCID: 0000-0002-9775-2342"
+      ],
+      "affiliations": [
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou, 325027, China.",
+        "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgery, Chinese Academy of Medical Science and Peking Union Medical College Hospital, Beijing, 100730, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China.",
+        "Department of Breast Surgery, Sixth Affiliated Hospital of Harbin Medical University, Harbin, 150023, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China.",
+        "Department of Pathology, Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China.",
+        "Department of Breast Surgery, Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou, 325027, China.",
+        "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+        "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Zijian",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Changyuan",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Chinese Academy of Medical Science and Peking Union Medical College Hospital, Beijing, 100730, China.",
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yalun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lei",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Sixth Affiliated Hospital of Harbin Medical University, Harbin, 150023, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Pengming",
+        "short_name": "Pu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Tongxuan",
+        "short_name": "Shang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Lin",
+        "short_name": "Cong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yongxin",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Guangdong",
+        "short_name": "Qiao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, the Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ziqi",
+        "short_name": "Jia Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hengyi",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Heng",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yansong",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "School of Clinical Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tianyi",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jian",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiang",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Dongxu",
+        "short_name": "Ma D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuchen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ruijie",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Jianming",
+        "short_name": "Ying J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meng",
+        "short_name": "Zhou M",
+        "identifiers": [
+          "0000-0001-9987-9024"
+        ],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaqi",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0002-9775-2342"
+        ],
+        "affiliations": [
+          "Department of Breast Surgical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China.",
+          "State Key Laboratory of Molecular Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100021, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/29 12:50",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42212317",
+      "41942534",
+      "41623885",
+      "41484927",
+      "41140446",
+      "41058012"
+    ],
+    "refs": [
+      "39004561",
+      "38933195",
+      "38697103",
+      "38512229",
+      "38082107",
+      "37932267",
+      "37926067",
+      "37890902",
+      "37880211",
+      "37856201",
+      "37652006",
+      "37126973",
+      "36931265",
+      "36800539",
+      "36557496",
+      "36516847",
+      "36232628",
+      "36074908",
+      "35952419",
+      "35209950",
+      "35143328",
+      "34845230",
+      "34556802",
+      "34354733",
+      "34081848",
+      "33763651",
+      "33578357",
+      "32125938",
+      "32112054",
+      "31561183",
+      "30797818",
+      "30726865",
+      "30720861",
+      "30526229",
+      "29998407",
+      "28637432",
+      "27982025",
+      "25741868",
+      "25547073",
+      "21908500",
+      "18779615",
+      "12788999",
+      "11981002",
+      "11832208"
+    ],
+    "similar": [
+      "40439693",
+      "35209950",
+      "32772980",
+      "22507745",
+      "31511339",
+      "27257965",
+      "26928436",
+      "28853307",
+      "32295625",
+      "34146199",
+      "32029870",
+      "29801090",
+      "40782146",
+      "27741520",
+      "21203900",
+      "26727920",
+      "20683152",
+      "28407998",
+      "32022259",
+      "32997669",
+      "14722926",
+      "31477031",
+      "33428613",
+      "20614180",
+      "29275357",
+      "27194814",
+      "31090900",
+      "40211798",
+      "31526714",
+      "32164626",
+      "31029168",
+      "22684231",
+      "29979200",
+      "30078507",
+      "32488393",
+      "31002019",
+      "26733283",
+      "32019277",
+      "32125938",
+      "21918854",
+      "33067557",
+      "32027353",
+      "28120249",
+      "29665859",
+      "20579331",
+      "36029389",
+      "40032426",
+      "27025497",
+      "17333342",
+      "26026974",
+      "29297111",
+      "29164420",
+      "11304778",
+      "28212807",
+      "28822785",
+      "31907386",
+      "38098088",
+      "39541563",
+      "28263838",
+      "21614564",
+      "26852015",
+      "33578357",
+      "30927264",
+      "27869445",
+      "39258876",
+      "24737347",
+      "32894085",
+      "32087690",
+      "36881271",
+      "38874686",
+      "12409590",
+      "22864640",
+      "31469901",
+      "40601170",
+      "38151326",
+      "23469205",
+      "28179634",
+      "30606148",
+      "39663109",
+      "12204006",
+      "32862574",
+      "40952741",
+      "29409476",
+      "38890714",
+      "29338689",
+      "20807450",
+      "33507482",
+      "21847643",
+      "36324133",
+      "30941656",
+      "30103829",
+      "16847550",
+      "32318955",
+      "32091409",
+      "28664449",
+      "37878345",
+      "26848529",
+      "38900213",
+      "12938098",
+      "19307946"
+    ],
+    "review": [
+      "40439693",
+      "28853307",
+      "31002019",
+      "40032426",
+      "28822785",
+      "33578357",
+      "27869445",
+      "38151326",
+      "30941656"
+    ],
+    "pmc": [
+      "12376594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40439693/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

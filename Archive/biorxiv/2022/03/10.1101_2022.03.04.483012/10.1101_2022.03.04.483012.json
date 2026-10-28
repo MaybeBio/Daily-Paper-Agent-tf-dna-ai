@@ -1,0 +1,451 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.04.483012",
+  "title": "Protein-Ligand Interaction Graphs: Learning from Ligand-Shaped 3D Interaction Graphs to Improve Binding Affinity Prediction",
+  "doi": "10.1101/2022.03.04.483012",
+  "abstract": "Graph Neural Networks (GNNs) have recently gained in popularity, challenging molecular fingerprints or SMILES-based representations as the predominant way to represent molecules for binding affinity prediction. Although simple ligand-based graphs alone are already useful for affinity prediction, better performance on multi-target datasets has been achieved with models that incorporate 3D structural information. Most recent advances utilize complex GNN architectures to capture 3D protein-ligand information by incorporating ligand-interacting protein atoms as additional nodes in the graphs; or by building a second protein-based graph in parallel. This expands the graph considerably while obfuscating the shape of the underlying ligand, diminishing the advantage that GNNs have when encoding molecular structures. There is therefore a need for a simple and elegant molecular graph representation that retains the topology of the ligand while simultaneously encoding 3D protein-ligand interactions. We present Protein-Ligand Interaction Graphs (PLIGs): a simple way of representing atom-atom contacts of 3D protein-ligand complexes as node features for GNNs. PLIGs featurize an atom node in the molecular graph by describing each atom’s properties as well as all atom-atom contacts made with protein atoms within a distance threshold. The edges of the graph are therefore identical to ligand-based graphs, but the nodes encode the 3D protein-ligand contacts. Since PLIGs are applicable to any GNN architecture, we have benchmarked their performance with six different GNN architectures, and compared them to conventional ligand-based graphs and fingerprint-based multi-layer perceptron (MLP) models using the CASF-2016 benchmark set where we found PLIG-based Graph Attention Networks (GATNet) to be the best performing model ( ρ =0.84, RMSE=1.22 pK). In summary, we created a novel graph-based representation that incorporates 3D structural information into the node features of ligand-shaped molecular graphs. The PLIG representation is simple, elegant, flexible and easily customizable, opening up many possibilities of incorporating other 2D and 3D properties into the graph. Access The code and implementation for PLIGs and all models can be found at github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs .",
+  "authors": [
+    "Marc A. Moesser",
+    "Dominik Klein",
+    "Fergus Boyles",
+    "Charlotte M. Deane",
+    "Andrew Baxter",
+    "Garrett M. Morris"
+  ],
+  "published_date": "2022-03-07",
+  "updated_date": "2022-03-07T13:10:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.04.483012",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.04.483012.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2026-06-11T12:55:03Z",
+        "timestamp": 1781182503759,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 34,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Graph Neural Networks (GNNs) have recently gained in popularity, challenging molecular fingerprints or SMILES-based representations as the predominant way to represent molecules for binding affinity prediction. Although simple ligand-based graphs alone are already useful for affinity prediction, better performance on multi-target datasets has been achieved with models that incorporate 3D structural information. Most recent advances utilize complex GNN architectures to capture 3D protein-ligand information by incorporating ligand-interacting protein atoms as additional nodes in the graphs; or by building a second protein-based graph in parallel. This expands the graph considerably while obfuscating the shape of the underlying ligand, diminishing the advantage that GNNs have when encoding molecular structures. There is therefore a need for a simple and elegant molecular graph representation that retains the topology of the ligand while simultaneously encoding 3D protein-ligand interactions.</jats:p>\n                <jats:p>\n                  We present Protein-Ligand Interaction Graphs (PLIGs): a simple way of representing atom-atom contacts of 3D protein-ligand complexes as node features for GNNs. PLIGs featurize an atom node in the molecular graph by describing each atom’s properties as well as all atom-atom contacts made with protein atoms within a distance threshold. The edges of the graph are therefore identical to ligand-based graphs, but the nodes encode the 3D protein-ligand contacts. Since PLIGs are applicable to any GNN architecture, we have benchmarked their performance with six different GNN architectures, and compared them to conventional ligand-based graphs and fingerprint-based multi-layer perceptron (MLP) models using the CASF-2016 benchmark set where we found PLIG-based Graph Attention Networks (GATNet) to be the best performing model (\n                  <jats:italic>ρ</jats:italic>\n                  =0.84, RMSE=1.22 pK). In summary, we created a novel graph-based representation that incorporates 3D structural information into the node features of ligand-shaped molecular graphs. The PLIG representation is simple, elegant, flexible and easily customizable, opening up many possibilities of incorporating other 2D and 3D properties into the graph.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Access</jats:title>\n                  <jats:p>\n                    The code and implementation for PLIGs and all models can be found at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs\">github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.03.04.483012",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2022-03-07T13:10:14Z",
+        "timestamp": 1646658614000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 17,
+      "title": [
+        "Protein-Ligand Interaction Graphs: Learning from Ligand-Shaped 3D Interaction Graphs to Improve Binding Affinity Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9882-3272",
+          "authenticated-orcid": false,
+          "given": "Marc A.",
+          "family": "Moesser",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7334-3501",
+          "authenticated-orcid": false,
+          "given": "Dominik",
+          "family": "Klein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4185-1229",
+          "authenticated-orcid": false,
+          "given": "Fergus",
+          "family": "Boyles",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1388-2252",
+          "authenticated-orcid": false,
+          "given": "Charlotte M.",
+          "family": "Deane",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8718-3265",
+          "authenticated-orcid": false,
+          "given": "Andrew",
+          "family": "Baxter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1731-8405",
+          "authenticated-orcid": false,
+          "given": "Garrett M.",
+          "family": "Morris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-019-0024-5"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21256"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20634"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0897"
+        },
+        {
+          "issue": "4",
+          "key": "2022030913550766000_2022.03.04.483012v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "666",
+          "DOI": "10.1038/nprot.2017.114",
+          "article-title": "Assessing protein–ligand interaction scoring functions with the CASF-2013 benchmark",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00545"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.8",
+          "first-page": "1376",
+          "article-title": "Extended connectivity interaction features: improving binding affinity prediction through chemical description",
+          "volume": "37",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.9",
+          "first-page": "758",
+          "article-title": "Learning from the ligand: using ligand-based features to improve binding affinity prediction",
+          "volume": "36",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "8",
+          "key": "2022030913550766000_2022.03.04.483012v1.10",
+          "first-page": "1334",
+          "article-title": "Development of a protein–ligand extended connectivity (PLEC) fingerprint and its application for binding affinity predictions",
+          "volume": "35",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Li , J. Zhou , T. Xu , L. Huang , F. Wang , H. Xiong , W. Huang , D. Dou , and H. Xiong , “Structureaware interactive graph neural networks for the prediction of protein-ligand binding affinity,” in Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, 2021.",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.13",
+          "first-page": "1140",
+          "article-title": "GraphDTA: predicting drug–target binding affinity with graph neural networks",
+          "volume": "37",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "3981",
+          "DOI": "10.1021/acs.jcim.9b00387",
+          "article-title": "Predicting drug–target interaction using a novel graph neural network with 3D structure-embedded graph representation",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.16",
+          "unstructured": "T. N. Kipf and M. Welling , “Semi-supervised classification with graph convolutional networks,” in Proceedings of the International Conference on Learning Representations, 2017."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.17",
+          "unstructured": "P. Veličković , G. Cucurull , A. Casanova , A. Romero , P. Liò , and Y. Bengio , “Graph Attention Networks,” in Proceedings of the International Conference on Learning Representations, 2018."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.18",
+          "unstructured": "K. Xu , W. Hu , J. Leskovec , and S. Jegelka , “How powerful are graph neural networks?,” in Proceedings of the International Conference on Learning Representations, 2019."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.19",
+          "unstructured": "W. L. Hamilton , R. Ying , and J. Leskovec , “Inductive representation learning on large graphs,” in Proceedings of the 31st International Conference on Neural Information Processing Systems, 2017."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.20",
+          "unstructured": "F. Wu , A. Souza , T. Zhang , C. Fifty , T. Yu , and K. Weinberger , “Simplifying graph convolutional networks,” in International Conference on Machine Learning, 2019."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "issue": "2",
+          "key": "2022030913550766000_2022.03.04.483012v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1021/acs.accounts.6b00491",
+          "article-title": "Forging the basis for developing protein– ligand interaction scoring functions",
+          "volume": "50",
+          "year": "2017",
+          "journal-title": "Accounts of chemical research"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "2",
+          "key": "2022030913550766000_2022.03.04.483012v1.24",
+          "first-page": "895",
+          "article-title": "Comparative assessment of scoring functions: the CASF-2016 update",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00654"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199905)20:7<720::AID-JCC7>3.3.CO;2-O"
+        },
+        {
+          "issue": "1",
+          "key": "2022030913550766000_2022.03.04.483012v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1186/1758-2946-3-33",
+          "article-title": "Open Babel: An open chemical toolbox",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "issue": "1",
+          "key": "2022030913550766000_2022.03.04.483012v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.1186/s13321-015-0078-2",
+          "article-title": "Open Drug Discovery Toolkit (ODDT): a new open-source player in the drug discovery field",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.30",
+          "unstructured": "A. Paszke , S. Gross , F. Massa , A. Lerer , J. Bradbury , G. Chanan , T. Killeen , Z. Lin , N. Gimelshein , L. Antiga , A. Desmaison , A. Kopf , E. Yang , Z. DeVito , M. Raison , A. Tejani , S. Chilamkurthy , B. Steiner , L. Fang , J. Bai , and S. Chintala , “PyTorch: an imperative style, high-performance deep learning library,” in Advances in Neural Information Processing Systems 32, 2019."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.31",
+          "unstructured": "M. Fey and J. E. Lenssen , “Fast graph representation learning with PyTorch Geometric,” in ICLR Workshop on Representation Learning on Graphs and Manifolds, 2019."
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Meli , A. Anighoro , M. J. Bodkin , G. M. Morris , and P. C. Biggin , “Learning protein-ligand binding affinity with atomic environment vectors,” Journal of Cheminformatics, vol. 13, no. 1, 2021.",
+          "DOI": "10.1186/s13321-021-00536-w"
+        },
+        {
+          "key": "2022030913550766000_2022.03.04.483012v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. Boyles , C. M. Deane , and G. M. Morris , “Learning from docked ligands: ligand-based features rescue structure-based scoring functions when trained on docked poses,” Journal of Chemical Information and Modeling, 2021.",
+          "DOI": "10.26434/chemrxiv.13637756"
+        },
+        {
+          "issue": "14",
+          "key": "2022030913550766000_2022.03.04.483012v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "15956",
+          "DOI": "10.1021/acsomega.9b01997",
+          "article-title": "OnionNet: a multiple-layer intermolecular-contact-based convolutional neural network for protein–ligand binding affinity prediction",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "ACS Omega"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.04.483012",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:46:21Z",
+        "timestamp": 1768445181000
+      },
+      "score": 100.920265,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.04.483012"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            7
+          ]
+        ]
+      },
+      "references-count": 34,
+      "URL": "https://doi.org/10.1101/2022.03.04.483012",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

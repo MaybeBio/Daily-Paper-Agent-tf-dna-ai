@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, evidence quality, and internal consistency based solely on the supplied material
+- **Shared manuscript claim summary** The authors report that pathogenic TP53 variants associated with Li-Fraumeni Syndrome can cause congenital anomalies of the kidney and urinary tract (CAKUT) and genital defects (GD). They report a 28% frequency of CAKUT and/or GD among 28 unrelated TP53 mutation carriers, with higher frequency in structurally disruptive or dominant-negative mutations. They focus on two variants, R242W and R282W, and use AlphaFold modeling and Xenopus laevis embryo experiments to support a developmental loss-of-function effect.
+- **Visible evidence base** Clinical cohort description (28 carriers), variant frequency data, AlphaFold structural predictions, Xenopus tp53 expression data, Xenopus embryo morpholino or mRNA injection phenotype data (described but not shown in detail)
+- **Missing materials affecting confidence** No figures, tables, or supplementary data are provided. No statistical analysis details, no raw data, no experimental protocols, no control descriptions, no imaging data, no quantification methods, and no clinical phenotyping criteria are available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important and novel question regarding the developmental role of p53 in kidney and urinary tract formation, with possible clinical implications for LFS. The clinical observation of CAKUT and GD in TP53 mutation carriers is intriguing. However, the provided material is insufficient to evaluate the validity of the core claims. The clinical cohort description lacks phenotyping criteria, ascertainment methods, and statistical context. The experimental evidence in Xenopus is described only in narrative form without data presentation. The AlphaFold modeling claims are not supported by any structural figures or quantitative metrics. As presented, the case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Clinical geneticists and pediatric nephrologists would be interested in the potential expansion of the LFS phenotypic spectrum to include CAKUT and GD. Developmental biologists studying p53 functions beyond tumor suppression would be interested in the proposed role in nephrogenesis. Cancer predisposition syndrome researchers may find relevance in the suggestion that developmental defects and cancer risk share a common genetic basis.
+- **Major strengths** The clinical question is well motivated and addresses a genuine gap in knowledge. The combination of human clinical data with model organism experiments is a strong conceptual approach. The focus on specific patient-derived variants adds translational relevance. The proposed link between structural disruption and developmental phenotype is mechanistically plausible.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical evidence sufficiency
+  - **Claim pointer** The authors claim that 28% (8/28) of TP53 mutation carriers exhibited CAKUT and/or GD, with higher frequency in structurally disruptive or dominant-negative mutations.
+  - **Evidence pointer** Clinical cohort description, location not provided
+  - **Concern** The clinical cohort is described only as "28 unrelated TP53 mutation carriers" with no information on how these individuals were ascertained, what clinical evaluations were performed, what specific CAKUT and GD phenotypes were observed, how phenotypes were confirmed, or whether any control group or population frequency comparison was used. The claim of 28% frequency cannot be interpreted without these details.
+  - **Why it matters** Without ascertainment and phenotyping details, the reported frequency could reflect referral bias, variable clinical screening, or over-interpretation of minor findings. The claim that certain mutation classes are associated with higher frequency requires statistical testing that is not described.
+  - **Resolution test** Provide full clinical phenotyping criteria, ascertainment strategy, individual case descriptions, and appropriate statistical comparison with expected population frequencies or a matched control group.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence sufficiency
+  - **Claim pointer** The authors claim that expression of mutant TP53 mRNA in Xenopus embryos disrupted kidney morphogenesis in vivo, supporting a developmental loss-of-function effect.
+  - **Evidence pointer** Xenopus embryo experiments, location not provided
+  - **Concern** No experimental data are shown. There are no images, no quantification, no statistical analysis, no description of injection amounts, no controls (e.g., wild-type TP53 mRNA, uninjected embryos, or rescue experiments), and no details on how kidney morphogenesis was assessed. The claim of "disrupted kidney morphogenesis" is not verifiable from the supplied material.
+  - **Why it matters** The central experimental claim of the manuscript rests entirely on this Xenopus experiment. Without data presentation, the claim cannot be evaluated for technical quality, reproducibility, or biological significance.
+  - **Resolution test** Provide representative images, quantitative morphometric data, statistical tests, appropriate controls, and a clear description of the experimental protocol and scoring criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural modeling evidence
+  - **Claim pointer** The authors claim that AlphaFold modeling showed both variants cluster within the DNA-binding domain and are predicted to disrupt tetramer formation.
+  - **Evidence pointer** AlphaFold modeling, location not provided
+  - **Concern** No structural figures, confidence scores, or quantitative metrics are provided. The claim that tetramer formation is disrupted is not supported by any presented data. AlphaFold predictions of tetramer interfaces are not standard and require validation or at least detailed methodological description.
+  - **Why it matters** The mechanistic interpretation linking variant class to developmental phenotype depends on the structural predictions. Without evidence, this link remains speculative.
+  - **Resolution test** Provide AlphaFold structure figures with confidence metrics, describe the tetramer modeling approach, and ideally validate predictions with biochemical or biophysical data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Expression data sufficiency
+  - **Claim pointer** The authors claim that tp53 is expressed in developing nephric structures in Xenopus, consistent with mouse models.
+  - **Evidence pointer** Xenopus expression data, location not provided
+  - **Concern** No expression data are shown. No in situ hybridization images, no stage information, no comparison with mouse expression patterns, and no references to published datasets are provided.
+  - **Why it matters** The developmental relevance of p53 in kidney formation depends on demonstrating expression in the relevant progenitor or differentiating cell populations. Without this evidence, the functional experiments lack a clear biological context.
+  - **Resolution test** Provide expression data with developmental staging, anatomical context, and comparison with published mouse expression patterns.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clinical variant classification
+  - **Affected element** Variant classification terminology
+  - **Evidence pointer** Clinical cohort description, location not provided
+  - **Issue** The terms "structurally disruptive" and "dominant-negative" are used to categorize mutations but no classification criteria or references are provided.
+  - **Required correction** Define the classification scheme used and provide supporting references or data for each variant category.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Frequency comparison
+  - **Evidence pointer** Clinical cohort description, location not provided
+  - **Issue** The claim of "higher frequency" in certain mutation classes is not accompanied by any statistical test or confidence intervals.
+  - **Required correction** Provide appropriate statistical analysis with effect sizes and confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Mechanistic interpretation
+  - **Affected element** Loss-of-function interpretation
+  - **Evidence pointer** Xenopus experiments, location not provided
+  - **Issue** The authors interpret the phenotype as "developmental loss-of-function" but do not discuss whether dominant-negative or gain-of-function mechanisms could also explain the observed effect.
+  - **Required correction** Discuss alternative mechanisms and, if possible, include experiments that distinguish between loss-of-function and dominant-negative effects.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Prior evidence for p53 in kidney development
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The authors state that the role of p53 in kidney development is "poorly understood" but do not cite or discuss existing literature on p53 in renal development or congenital anomalies.
+  - **Required correction** Provide a more comprehensive literature review to establish the novelty of the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The clinical claim, the central functional experiment, the structural modeling, and the expression data are all presented without sufficient evidence to be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of p53 involvement in kidney and urinary tract development in the context of LFS is potentially original and addresses a gap in the field. However, the novelty cannot be fully assessed without a more complete literature review and without verifying that this has not been previously reported.
+  - Scientific importance: If substantiated, the findings would have clinical relevance for LFS management and would expand understanding of p53 developmental functions. The importance is moderate to high, but the current evidence does not yet support the strength of the claims.
+  - Interdisciplinary readership: The topic bridges cancer genetics, developmental biology, and clinical nephrology, which would appeal to a broad readership. The current presentation, however, does not provide enough detail for any of these audiences to evaluate the work.
+  - Technical soundness: Cannot be assessed. No experimental data, statistical analyses, or methodological details are provided.
+  - Readability for nonspecialists: The narrative is clear and accessible, but the lack of data and figures makes it difficult for any reader to follow the evidence chain.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting and potentially important question, but the supplied material is insufficient to evaluate the validity of the clinical, structural, and functional claims. Substantial additional data are required before the case can be considered.
+
+## Risk / unsupported claims
+- The 28% frequency of CAKUT and/or GD in TP53 mutation carriers is unsupported without ascertainment and phenotyping details.
+- The claim of higher frequency in structurally disruptive or dominant-negative mutations is unsupported without statistical analysis.
+- The AlphaFold prediction of tetramer disruption is unsupported without structural figures or validation.
+- The Xenopus expression of tp53 in nephric structures is unsupported without expression data.
+- The claim that mutant TP53 mRNA disrupts kidney morphogenesis is unsupported without experimental data.
+- The interpretation of "developmental loss-of-function" is unsupported and alternative mechanisms are not excluded.
+- The expansion of the LFS phenotypic spectrum to include CAKUT and GD is not established from the provided evidence.

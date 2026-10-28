@@ -1,0 +1,576 @@
+{
+  "identity": {
+    "pmid": "41791000",
+    "doi": "10.1200/CCI-25-00230",
+    "title": "Analysis of Large Language Model Decision Making in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Early Breast Cancer."
+  },
+  "content": {
+    "abstract": "PURPOSE: To assess the ability of GPT-4o in adjuvant treatment decision making in hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) early breast cancer by comparing its recommendations with those of clinicians including Oncotype DX data, and to explore its potential as a decision-support tool in routine clinical practice. METHODS: We compared clinician and GPT-4o recommendations in patients tested with Oncotype DX in routine practice at the University of Naples Federico II (n = 607, cohort 1 [C1]) and within the prospective, multicenter PRO BONO study (n = 237, cohort 2 [C2]). Pre- and post-Oncotype DX treatment recommendations were categorized as chemotherapy (CT) + endocrine therapy (ET) or ET alone. Concordance between clinician and GPT-4o recommendations was assessed using agreement rates and Cohen's kappa. The accuracy of Oncotype DX results was evaluated using the AUC metric. RESULTS: The agreement between clinicians and GPT-4o in pretest recommendations was 68% (kappa, 0.381 [95% CI, 0.31 to 0.45], P < .001) in C1 and 70% (0.401 [95% CI, 0.29 to 0.52], P < .001) in C2. Before Oncotype DX, clinicians recommended CT more frequently than GPT-4o for C1 (58% v 38%) and C2 (53% v 43%). Post-test agreement increased to 93% (0.814 [95% CI, 0.76 to 0.87], P < .001) in C1 and 90% (0.741 [95% CI, 0.64 to 0.84], P < .001) in C2. The agreement between pre- and post-Oncotype DX treatment recommendations for clinicians was 56% and 63% versus 68% and 60% for GPT-4o in C1 and C2, respectively. GPT-4o showed higher accuracy in predicting low than high genomic risk in postmenopausal patients (87% v 43% in C1; 85% v 45% in C2, P < .001) and low versus intermediate and high risk in premenopausal patients in both cohorts (P < .001). CONCLUSION: The agreement between clinicians and GPT-4o in pretest recommendations was modest but improved post-test, highlighting the importance of multigene testing and the potential of large language models in clinical decision making.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Middle Aged",
+      "Biomarkers, Tumor",
+      "*Breast Neoplasms/genetics/pathology/therapy",
+      "*Clinical Decision-Making",
+      "Decision Making",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Large Language Models",
+      "Prospective Studies",
+      "*Receptors, Estrogen/metabolism",
+      "*Receptors, Progesterone/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buonaiuto, Roberto",
+        "Caltavituro, Aldo",
+        "Di Rienzo, Rossana",
+        "Grieco, Angela",
+        "Mangiacotti, Federica P",
+        "Longobardi, Alessandra",
+        "Cantile, Vincenza",
+        "Molinaro, Vittoria",
+        "Pagliuca, Martina",
+        "Buono, Giuseppe",
+        "De Placido, Pietro",
+        "Pietroluongo, Erica",
+        "Forestieri, Valeria",
+        "Martinelli, Claudia",
+        "di Lauro, Vincenzo",
+        "Leo, Luigi",
+        "D'Aiuto, Massimiliano",
+        "Bianchini, Giampaolo",
+        "Criscitiello, Carmen",
+        "Bianco, Roberto",
+        "Del Mastro, Lucia",
+        "De Laurentiis, Michelino",
+        "Arpino, Grazia",
+        "De Angelis, Carmine",
+        "Giuliano, Mario"
+      ],
+      "short_names": [
+        "Buonaiuto R",
+        "Caltavituro A",
+        "Di Rienzo R",
+        "Grieco A",
+        "Mangiacotti FP",
+        "Longobardi A",
+        "Cantile V",
+        "Molinaro V",
+        "Pagliuca M",
+        "Buono G",
+        "De Placido P",
+        "Pietroluongo E",
+        "Forestieri V",
+        "Martinelli C",
+        "di Lauro V",
+        "Leo L",
+        "D'Aiuto M",
+        "Bianchini G",
+        "Criscitiello C",
+        "Bianco R",
+        "Del Mastro L",
+        "De Laurentiis M",
+        "Arpino G",
+        "De Angelis C",
+        "Giuliano M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5952-4333",
+        "ORCID: 0009-0008-6649-293X",
+        "ORCID: 0000-0001-8114-2577",
+        "ORCID: 0000-0003-2829-1455",
+        "ORCID: 0000-0002-2124-7534",
+        "ORCID: 0009-0001-6978-6975",
+        "ORCID: 0000-0002-9546-5841",
+        "ORCID: 0000-0002-4074-2530"
+      ],
+      "affiliations": [
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Universite Paris-Saclay, Gustave Roussy, INSERM U981, Molecular Predictors and New Targets in Oncology, Villejuif, France.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Department of Advanced Biomedical Sciences, University Federico II, Naples, Italy.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Harvard Medical School, Boston, MA.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Department of Medicine, Section of Hematology Oncology, Thoracic Oncology Program, The University of Chicago Medicine, Chicago, IL.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Oncology Unit, ASL Napoli 3 Sud, Naples, Italy.",
+        "Breast Surgery Unit, ASL Napoli 3 Sud, Naples, Italy.",
+        "Department of Medical Oncology, IRCCS Ospedale San Raffaele, Milan, Italy.",
+        "University Vita-Salute San Raffaele, Milan, Italy.",
+        "Division of Early Drug Development for Innovative Therapies, IEO, European Institute of Oncology IRCCS, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Milan, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Department of Medical Oncology, Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genova, Italy.",
+        "Department of Internal Medicine and Medical Specialties, School of Medicine, University of Genova, Genova, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+        "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buonaiuto, Roberto",
+        "short_name": "Buonaiuto R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Caltavituro, Aldo",
+        "short_name": "Caltavituro A",
+        "identifiers": [
+          "0000-0001-5952-4333"
+        ],
+        "affiliations": [
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Rienzo, Rossana",
+        "short_name": "Di Rienzo R",
+        "identifiers": [
+          "0009-0008-6649-293X"
+        ],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Grieco, Angela",
+        "short_name": "Grieco A",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Mangiacotti, Federica P",
+        "short_name": "Mangiacotti FP",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Longobardi, Alessandra",
+        "short_name": "Longobardi A",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Cantile, Vincenza",
+        "short_name": "Cantile V",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Molinaro, Vittoria",
+        "short_name": "Molinaro V",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Pagliuca, Martina",
+        "short_name": "Pagliuca M",
+        "identifiers": [
+          "0000-0001-8114-2577"
+        ],
+        "affiliations": [
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy.",
+          "Université Paris-Saclay, Gustave Roussy, INSERM U981, Molecular Predictors and New Targets in Oncology, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Buono, Giuseppe",
+        "short_name": "Buono G",
+        "identifiers": [
+          "0000-0003-2829-1455"
+        ],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "De Placido, Pietro",
+        "short_name": "De Placido P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Biomedical Sciences, University Federico II, Naples, Italy.",
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+          "Harvard Medical School, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Pietroluongo, Erica",
+        "short_name": "Pietroluongo E",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+          "Department of Medicine, Section of Hematology Oncology, Thoracic Oncology Program, The University of Chicago Medicine, Chicago, IL."
+        ]
+      },
+      {
+        "full_name": "Forestieri, Valeria",
+        "short_name": "Forestieri V",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Martinelli, Claudia",
+        "short_name": "Martinelli C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "di Lauro, Vincenzo",
+        "short_name": "di Lauro V",
+        "identifiers": [
+          "0000-0002-2124-7534"
+        ],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Leo, Luigi",
+        "short_name": "Leo L",
+        "identifiers": [
+          "0009-0001-6978-6975"
+        ],
+        "affiliations": [
+          "Oncology Unit, ASL Napoli 3 Sud, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Aiuto, Massimiliano",
+        "short_name": "D'Aiuto M",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Surgery Unit, ASL Napoli 3 Sud, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Bianchini, Giampaolo",
+        "short_name": "Bianchini G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, IRCCS Ospedale San Raffaele, Milan, Italy.",
+          "University Vita-Salute San Raffaele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Criscitiello, Carmen",
+        "short_name": "Criscitiello C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Early Drug Development for Innovative Therapies, IEO, European Institute of Oncology IRCCS, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bianco, Roberto",
+        "short_name": "Bianco R",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Mastro, Lucia",
+        "short_name": "Del Mastro L",
+        "identifiers": [
+          "0000-0002-9546-5841"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genova, Italy.",
+          "Department of Internal Medicine and Medical Specialties, School of Medicine, University of Genova, Genova, Italy."
+        ]
+      },
+      {
+        "full_name": "De Laurentiis, Michelino",
+        "short_name": "De Laurentiis M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Arpino, Grazia",
+        "short_name": "Arpino G",
+        "identifiers": [
+          "0000-0002-4074-2530"
+        ],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "De Angelis, Carmine",
+        "short_name": "De Angelis C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale,\" Naples, Italy.",
+          "Clinical and Translational Oncology, Scuola Superiore Meridionale (SSM), Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Giuliano, Mario",
+        "short_name": "Giuliano M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCO clinical cancer informatics"
+    ],
+    "journal_abbrev": [
+      "JCO Clin Cancer Inform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 19:44",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40955776",
+      "40481323",
+      "40220739",
+      "40080779",
+      "39910272",
+      "38837375",
+      "38806945",
+      "38485652",
+      "38388367",
+      "37926067",
+      "37484980",
+      "37458761",
+      "37373940",
+      "37291235",
+      "37253791",
+      "37215063",
+      "37160626",
+      "37044050",
+      "36931740",
+      "36473870",
+      "35439025",
+      "33118594",
+      "32154039",
+      "31894144",
+      "29398499"
+    ],
+    "similar": [
+      "41791000",
+      "41942928",
+      "31152079",
+      "41965577",
+      "32372329",
+      "41061345",
+      "41691575",
+      "41074908",
+      "40220739",
+      "40815984",
+      "23074401",
+      "33738150",
+      "41999978",
+      "24261318",
+      "41850212",
+      "41469107",
+      "41162228",
+      "41697472",
+      "42639226",
+      "35793425",
+      "42431160",
+      "42366088",
+      "39365509",
+      "27544930",
+      "41632146",
+      "32170635",
+      "39522332",
+      "42214047",
+      "42078308",
+      "27209424",
+      "41354952",
+      "29133514",
+      "40833671",
+      "30076279",
+      "39579550",
+      "40878695",
+      "31312792",
+      "23801158",
+      "35947048",
+      "39621968",
+      "40319004",
+      "40927537",
+      "25129366",
+      "26112003",
+      "40014208",
+      "30634106",
+      "23695023",
+      "27105769",
+      "41831466",
+      "32758491",
+      "42488884",
+      "39854658",
+      "41428974",
+      "40054315",
+      "24948666",
+      "28111076",
+      "42134068",
+      "42341255",
+      "35439025",
+      "42218834",
+      "33601299",
+      "38436289",
+      "39985907",
+      "27001586",
+      "31026440",
+      "39545625",
+      "35448187",
+      "41709333",
+      "38833643",
+      "23909545",
+      "32436145",
+      "39734136",
+      "26253629",
+      "34324367",
+      "38741425",
+      "30591472",
+      "41675290",
+      "31264581",
+      "38771995",
+      "42159964",
+      "42461910",
+      "41895875",
+      "23614365",
+      "38780143",
+      "34664429",
+      "42069896",
+      "26681310",
+      "25851308",
+      "41110701",
+      "40763319",
+      "29128896",
+      "31270763",
+      "29236174",
+      "33360027",
+      "39442617",
+      "41707479",
+      "30230117",
+      "42613139",
+      "42150145",
+      "40294349"
+    ],
+    "review": [
+      "41791000",
+      "41074908",
+      "35793425",
+      "40054315",
+      "35439025",
+      "42218834",
+      "35448187",
+      "34324367",
+      "31264581",
+      "26681310"
+    ],
+    "pmc": [
+      "12986038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/CCI-25-00230?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41791000/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34398217",
+  "title": "ezGeno: an automatic model selection package for genomic data analysis.",
+  "authors": "Lin, Jun-Liang; Hsieh, Tsung-Ting; Tung, Yi-An; Chen, Xuan-Jun; Hsiao, Yu-Chun; Yang, Chia-Lin; Liu, Tyng-Luh; Chen, Chien-Yu",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2021-08-17",
+  "window": {
+    "start": "2021-08-16",
+    "end": "2021-08-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了自动模型选择包ezGeno，用于基因组数据深度学习建模，并在TF结合位点预测任务上验证性能，属于AI方法应用于TF-DNA结合预测，但侧重自动化调参而非互作机制建模。",
+  "abstract": "MOTIVATION: To facilitate the process of tailor-making a deep neural network for exploring the dynamics of genomic DNA, we have developed a hands-on package called ezGeno. ezGeno automates the search process of various parameters and network structures and can be applied to any kind of 1D genomic data. Combinations of multiple abovementioned 1D features are also applicable. RESULTS: For the task of predicting TF binding using genomic sequences as the input, ezGeno can consistently return the best performing set of parameters and network structure, as well as highlight the important segments within the original sequences. For the task of predicting tissue-specific enhancer activity using both sequence and DNase feature data as the input, ezGeno also regularly outperforms the hand-designed models. Furthermore, we demonstrate that ezGeno is superior in efficiency and accuracy compared to the one-layer DeepBind model and AutoKeras, an open-source AutoML package. AVAILABILITY AND IMPLEMENTATION: The ezGeno package can be freely accessed at https://github.com/ailabstw/ezGeno. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：为了简化针对基因组DNA动态探索的深度神经网络定制过程，我们开发了一个名为ezGeno的实践性软件包。ezGeno自动化了多种参数和网络结构的搜索过程，并可应用于任何类型的1D基因组数据。上述多种1D特征的组合同样适用。结果：在利用基因组序列作为输入预测转录因子结合的任务中，ezGeno能够持续返回性能最优的参数和网络结构组合，并突出显示原始序列中的重要片段。在利用序列和DNase特征数据作为输入预测组织特异性增强子活性的任务中，ezGeno也经常优于手工设计的模型。此外，我们证明ezGeno在效率和准确性上均优于单层DeepBind模型以及开源AutoML包AutoKeras。可用性与实现：ezGeno软件包可免费访问，网址为https://github.com/ailabstw/ezGeno。补充信息：补充数据可在《生物信息学》在线版获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34398217/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34398217/",
+  "paper_page_path": "papers/pubmed/34398217/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34019850",
+  "title": "A model for the regulation of apoptosis intrinsic pathway: The potential role of the transcriptional regulator E2F in the point of no return.",
+  "authors": "Rojas Lopez, Alejandra; Monzon, Pablo; Acerenza, Luis",
+  "journal": "Journal of theoretical biology",
+  "published_date": "2021-05-22",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用微分方程模型研究E2F转录因子调控凋亡内在通路，虽涉及转录因子但无蛋白质-DNA互作建模，且方法为常微分方程而非AI或物理模拟，与本课题关联较弱。",
+  "abstract": "Apoptosis has been extensively characterized by both experimental approaches and model simulations. However, it is still not fully understood how the regulation occurs, especially in the intrinsic pathway, which can be activated by a great variety of signals. In addition, the conditions in which a point of no return could be reached remain elusive. In this work, we use differential equations models to approach these issues. Our starting point was the model for caspase activation of Legewie et al. (Legewie S, et al., PLoS Computational Biology 2006, 2(9): e120), which exhibits irreversible bistability. We added an activation module to this model, with the main events related to mitochondrial outer membrane permeabilization, which includes cytochrome C release by the mitochondria and its effects on caspase activation and respiratory chain disruption. This \"Extended Legewie Model\" (ELM) uses BAK as the apoptotic stimulus and active caspase 3 as a measure of apoptosis activation. Unexpectedly, in the extended model, BAK cannot trigger apoptosis activation using physiologically sound initial values of the variables, due to limitations in apoptosome concentration increase. Therefore, the next step was to find a regulatory mechanism, allowing apoptosis activation in the ELM, starting from physiological initial concentrations. For this aim, we performed a sensitivity analysis on the 61 parameters of the system, finding that those producing the most relevant changes in the qualitative behaviour were the rates of synthesis of caspase 3, caspase 9 and XIAP. Based on these results, the transcription factor E2F was included in the ELM because it directly regulates the rate of synthesis of caspase 3 and 9. Depending on the concentration of E2F, the ELM shows different qualitative behaviours. On one hand, for low E2F apoptosis is impossible and for high E2F apoptosis is inevitable. Therefore, if E2F is sufficiently increased, the point of no return is crossed. On the other hand, for intermediate values of E2F there is a bistable region where the fate of the system also depends on the concentration of BAK and other signalling species.",
+  "abstract_zh": "细胞凋亡已通过实验方法和模型模拟得到了广泛表征。然而，其调控机制仍未完全理解，尤其是在可被多种信号激活的内源性通路中。此外，达到不可逆点（point of no return）的条件仍不明确。在本工作中，我们使用微分方程模型来探讨这些问题。我们的起点是Legewie等人提出的caspase激活模型（Legewie S, et al., PLoS Computational Biology 2006, 2(9): e120），该模型表现出不可逆的双稳态。我们在此模型中添加了一个激活模块，主要涉及线粒体外膜透化相关事件，包括线粒体释放细胞色素C及其对caspase激活和呼吸链破坏的影响。这一“扩展Legewie模型”（ELM）使用BAK作为凋亡刺激物，并以活性caspase 3作为凋亡激活的度量。出乎意料的是，在扩展模型中，由于凋亡小体浓度增加的局限性，BAK无法使用生理上合理的变量初始值触发凋亡激活。因此，下一步是寻找一种调控机制，使ELM能够从生理初始浓度出发激活凋亡。为此，我们对系统中的61个参数进行了敏感性分析，发现对定性行为产生最显著变化的参数是caspase 3、caspase 9和XIAP的合成速率。基于这些结果，转录因子E2F被纳入ELM，因为它直接调控caspase 3和9的合成速率。根据E2F的浓度，ELM表现出不同的定性行为。一方面，低E2F时凋亡不可能发生，高E2F时凋亡不可避免。因此，如果E2F充分增加，则越过不可逆点。另一方面，在E2F的中间值下，存在一个双稳态区域，其中系统的命运还取决于BAK和其他信号分子的浓度。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34019850/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34019850/",
+  "paper_page_path": "papers/pubmed/34019850/index.html"
+}

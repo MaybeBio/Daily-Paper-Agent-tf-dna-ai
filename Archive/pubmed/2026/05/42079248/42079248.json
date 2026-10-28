@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "42079248",
+    "doi": "10.64898/2026.04.20.718569",
+    "title": "Transcription factor collaboration enables precise T cell state engineering."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) collaborate to regulate gene expression programs that define cell fate. In CD8(+) T cells, this coordinated regulation underlies exhaustion, a dysfunctional state that constrains immunity in chronic infection and cancer. Here, we screen for cell state-specific TFs by performing pooled overexpression screens of 3,548 TF and TF isoforms in primary T cells across multiple CD8(+) T cell states. We identify 82 regulators that collaborate with exhaustion-specific programs and profile their effects using perturb-SHARE-seq, connecting perturbations to changes in chromatin accessibility and gene expression across 702,314 single cells. We identify 38 reproducible regulatory programs and construct a map of 12,616 TF-program connections that shape CD8(+) T cell states, nominating KLF2 as predictive of positive response to CAR-T therapy. Using seq2PRINT, a deep learning framework that predicts functional TF interactions, we identify RUNX as a \"master collaborator\", a TF that broadly collaborates with other factors, and uncover a RUNX2:KLF2 interaction that specifies exhaustion-associated programs. Mutation of the RUNX2:KLF2 protein interface attenuates KLF2-mediated repression of exhaustion, while synthetic tethering of RUNX2 to KLF2 leads to an amplification of the phenotype. More broadly, we identify the collaborative action of RUNX as a driver in CD8(+) T cell states, and show that tethering TFs enables the rational engineering of cell state identity for cell and gene therapies.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Savage, Rachel E",
+        "McRoberts Amador, Christian D",
+        "Hock, Conrad T",
+        "Zhang, Ruochi",
+        "Kuo, Hung-Che",
+        "Gao, Aretha R",
+        "Horlbeck, Max A",
+        "Gersbach, Charles A",
+        "Buenrostro, Jason D"
+      ],
+      "short_names": [
+        "Savage RE",
+        "McRoberts Amador CD",
+        "Hock CT",
+        "Zhang R",
+        "Kuo HC",
+        "Gao AR",
+        "Horlbeck MA",
+        "Gersbach CA",
+        "Buenrostro JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6415-7881",
+        "ORCID: 0000-0001-5595-1450",
+        "ORCID: 0009-0004-2722-2399",
+        "ORCID: 0000-0002-8577-1706",
+        "ORCID: 0000-0002-3875-871X",
+        "ORCID: 0000-0003-1478-4013",
+        "ORCID: 0000-0001-9958-3987"
+      ],
+      "affiliations": [
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+        "Department of Pharmacology and Cancer Biology, Duke University, Durham, NC 27708.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Harvard Medical School Department of Genetics, Boston, MA 02115.",
+        "Boston Children's Hospital Division of Genetics and Genomics, Boston, MA 02115.",
+        "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC 27708.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+        "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Savage, Rachel E",
+        "short_name": "Savage RE",
+        "identifiers": [
+          "0000-0001-6415-7881"
+        ],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "McRoberts Amador, Christian D",
+        "short_name": "McRoberts Amador CD",
+        "identifiers": [
+          "0000-0001-5595-1450"
+        ],
+        "affiliations": [
+          "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+          "Department of Pharmacology and Cancer Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Hock, Conrad T",
+        "short_name": "Hock CT",
+        "identifiers": [
+          "0009-0004-2722-2399"
+        ],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruochi",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Kuo, Hung-Che",
+        "short_name": "Kuo HC",
+        "identifiers": [
+          "0000-0002-8577-1706"
+        ],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Gao, Aretha R",
+        "short_name": "Gao AR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Horlbeck, Max A",
+        "short_name": "Horlbeck MA",
+        "identifiers": [
+          "0000-0002-3875-871X"
+        ],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Harvard Medical School Department of Genetics, Boston, MA 02115.",
+          "Boston Children's Hospital Division of Genetics and Genomics, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Gersbach, Charles A",
+        "short_name": "Gersbach CA",
+        "identifiers": [
+          "0000-0003-1478-4013"
+        ],
+        "affiliations": [
+          "Center for Advanced Genomic Technologies, Duke University, Durham, NC 27708.",
+          "Department of Biomedical Engineering, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Buenrostro, Jason D",
+        "short_name": "Buenrostro JD",
+        "identifiers": [
+          "0000-0001-9958-3987"
+        ],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA 02138.",
+          "Epigenomics Program, Biology of Adversity Project, Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 12:35",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41107536",
+      "40579556",
+      "40205063",
+      "40195118",
+      "39980564",
+      "39978343",
+      "38823016",
+      "38718835",
+      "38600391",
+      "38600376",
+      "38262408",
+      "37945901",
+      "37648857",
+      "37443338",
+      "36608654",
+      "36204155",
+      "35760520",
+      "35750052",
+      "35710610",
+      "35113687",
+      "34914499",
+      "34282330",
+      "33986293",
+      "33891860",
+      "33705711",
+      "33619373",
+      "33275876",
+      "33098772",
+      "32661364",
+      "31802004",
+      "31702846",
+      "31207603",
+      "31031094",
+      "30962623",
+      "30814730",
+      "30449619",
+      "29713085",
+      "28825706",
+      "27789799",
+      "26205583",
+      "25680272",
+      "25527292",
+      "24646888",
+      "22868264",
+      "22753932",
+      "22195744",
+      "22057289",
+      "21859476",
+      "21518930",
+      "20389281",
+      "19956253",
+      "17355962",
+      "16904174",
+      "13718526",
+      "12816608",
+      "8929538",
+      "8421711",
+      "3948245"
+    ],
+    "similar": [
+      "42079248",
+      "41639465",
+      "36711632",
+      "42049034",
+      "39946463",
+      "37205457",
+      "41676133",
+      "41279105",
+      "42749447",
+      "42475469",
+      "38012417",
+      "41382107",
+      "41903548",
+      "41675505",
+      "42326536",
+      "41819547",
+      "41542560",
+      "42457339",
+      "41827001",
+      "39888372",
+      "42239343",
+      "36608654",
+      "40425012",
+      "33891860",
+      "36657444",
+      "39896543",
+      "41194917",
+      "33636129",
+      "42450224",
+      "41436831",
+      "42657108",
+      "41847849",
+      "41498638",
+      "30598689",
+      "40795221",
+      "37945901",
+      "42196406",
+      "31227606",
+      "39803441",
+      "20636816",
+      "39082649",
+      "36738683",
+      "41704420",
+      "39326643",
+      "42516367",
+      "31483104",
+      "41924246",
+      "41481417",
+      "42329236",
+      "33462140",
+      "39905493",
+      "34544361",
+      "40205063",
+      "39663454",
+      "30598100",
+      "41826830",
+      "42725401",
+      "28878077",
+      "31209400",
+      "31207604",
+      "38777607",
+      "32111241",
+      "28283662",
+      "41789089",
+      "32350076",
+      "36749045",
+      "42096331",
+      "39621903",
+      "21172055",
+      "41895464",
+      "36893853",
+      "32054475",
+      "39912665",
+      "29246443",
+      "30814732",
+      "38600391",
+      "31152140",
+      "35962059",
+      "29669249",
+      "42387342",
+      "41871244",
+      "40857665",
+      "40333757",
+      "40396260",
+      "41230160",
+      "41437740",
+      "38744281",
+      "37709986",
+      "35750052",
+      "42146330",
+      "37754231",
+      "27610572",
+      "33682165",
+      "39218853",
+      "41807965",
+      "42724625",
+      "42206032",
+      "33574619",
+      "30580963",
+      "36943152"
+    ],
+    "review": [
+      "42079248",
+      "41194917",
+      "42657108",
+      "20636816",
+      "42725401"
+    ],
+    "pmc": [
+      "13131782"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42079248/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42079248",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.20.718569",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

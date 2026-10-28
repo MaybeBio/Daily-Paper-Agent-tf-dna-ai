@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "40016517",
+    "doi": "10.1038/s41598-025-91278-4",
+    "title": "Dapagliflozin inhibits ferroptosis and ameliorates renal fibrosis in diabetic C57BL/6J mice."
+  },
+  "content": {
+    "abstract": "Diabetic nephropathy (DN) is a common complication of diabetes and a major cause of end-stage renal disease, with complex pathogenesis involving inflammation, oxidative stress, fibrosis, and ferroptosis. Ferroptosis is linked to DN progression, yet treatment options are limited, particularly for targeting ferroptosis. Dapagliflozin (DAPA), an SGLT2 inhibitor, shows renal protective effects in diabetes, but its role in renal fibrosis and ferroptosis in DN is unclear. This study investigated DAPA's effect on renal fibrosis in DN by inhibiting ferroptosis, using a streptozotocin-induced diabetic mouse model. Results indicated that DAPA improved renal function, reduced fibrosis, and suppressed ferroptosis markers in diabetic mice. In vitro, DAPA inhibited ferroptosis and fibrosis in HK-2 cells under high glucose conditions. Molecular docking and network pharmacology suggested DAPA's anti-fibrotic and anti-ferroptotic effects may involve the Nrf2 and TGF-beta signaling pathways. DAPA also reduced serum creatinine and blood urea nitrogen in diabetic mice, improved glomerulosclerosis and interstitial fibrosis, decreased iron deposition, and enhanced antioxidant activity. Overall, DAPA's multi-target mechanisms significantly improve DN progression, suggesting its potential as a targeted therapy against ferroptosis. Future studies should further explore DAPA's applications.",
+    "keywords": [
+      "Dapagliflozin",
+      "Diabetic nephropathy",
+      "Ferroptosis",
+      "Renal fibrosis",
+      "TGF-beta/Smad pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects",
+      "*Benzhydryl Compounds/pharmacology/therapeutic use",
+      "*Glucosides/pharmacology/therapeutic use",
+      "Fibrosis/drug therapy",
+      "Mice",
+      "*Diabetic Nephropathies/drug therapy/pathology/metabolism",
+      "*Diabetes Mellitus, Experimental/drug therapy/complications/pathology/metabolism",
+      "Male",
+      "Mice, Inbred C57BL",
+      "*Sodium-Glucose Transporter 2 Inhibitors/pharmacology",
+      "*Kidney/pathology/drug effects/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "Humans",
+      "Cell Line",
+      "Signal Transduction/drug effects",
+      "Molecular Docking Simulation",
+      "Transforming Growth Factor beta/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhen",
+        "Li, Luxin",
+        "Dai, Yucen",
+        "Lian, Yifei",
+        "Song, Haixu",
+        "Dai, Xin",
+        "Su, Ranyu",
+        "Yin, Jiaxing",
+        "Gu, Ruimin"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Li L",
+        "Dai Y",
+        "Lian Y",
+        "Song H",
+        "Dai X",
+        "Su R",
+        "Yin J",
+        "Gu R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Harbin Medical University, Harbin, 150000, Harbin, China.",
+        "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China.",
+        "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China. liluxin@mdjmu.edu.cn.",
+        "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China. liluxin@mdjmu.edu.cn.",
+        "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China.",
+        "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "Affiliated Hongqi Hospital, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "Affiliated Hongqi Hospital, Mudanjiang Medical University, Mudanjiang, 157000, China.",
+        "College of Pharmacy, Harbin Medical University, Harbin, 150000, Harbin, China. ruimingu2916@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhen",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Harbin Medical University, Harbin, 150000, Harbin, China.",
+          "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China.",
+          "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Luxin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China. liluxin@mdjmu.edu.cn.",
+          "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China. liluxin@mdjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dai, Yucen",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang Key Laboratory of Tissue Damage and Repair, Mudanjiang Medical University, Mudanjiang, 157000, Heilongjiang, China.",
+          "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Yifei",
+        "short_name": "Lian Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Haixu",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hongqi Hospital, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Xin",
+        "short_name": "Dai X",
+        "identifiers": [],
+        "affiliations": [
+          "School of First Clinical Medical College, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Su, Ranyu",
+        "short_name": "Su R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Jiaxing",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hongqi Hospital, Mudanjiang Medical University, Mudanjiang, 157000, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Ruimin",
+        "short_name": "Gu R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Harbin Medical University, Harbin, 150000, Harbin, China. ruimingu2916@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/28 00:20",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42329402",
+      "42216164",
+      "42178416",
+      "42099241",
+      "41854743",
+      "41303682",
+      "41244507",
+      "41158984",
+      "40641971"
+    ],
+    "refs": [
+      "39081773",
+      "38772213",
+      "38738005",
+      "38426504",
+      "38347570",
+      "38266571",
+      "38111578",
+      "38027185",
+      "38023356",
+      "38022502",
+      "37943830",
+      "37939612",
+      "37848157",
+      "37676595",
+      "37668091",
+      "37538798",
+      "37345818",
+      "37276148",
+      "36959860",
+      "36891270",
+      "36558936",
+      "36246888",
+      "35993021",
+      "35645838",
+      "35454131",
+      "35401211",
+      "35351189",
+      "34895945",
+      "34880492",
+      "34769288",
+      "34595130",
+      "34169635",
+      "34150796",
+      "33152439",
+      "32970396",
+      "32398868",
+      "31742881",
+      "31333586",
+      "28699798",
+      "27470431",
+      "27108839",
+      "25003613",
+      "22632970"
+    ],
+    "similar": [
+      "40016517",
+      "39746795",
+      "39740794",
+      "38266571",
+      "39472869",
+      "34169635",
+      "39708395",
+      "32116017",
+      "39067538",
+      "28811292",
+      "30551545",
+      "29508169",
+      "40116089",
+      "38776855",
+      "38825302",
+      "24960177",
+      "27802313",
+      "33115828",
+      "35993021",
+      "33152903",
+      "34624679",
+      "33549594",
+      "27529235",
+      "39082358",
+      "28111218",
+      "39907739",
+      "39520653",
+      "40237854",
+      "39075258",
+      "29484381",
+      "29864902",
+      "29386886",
+      "33571918",
+      "40086061",
+      "39837016",
+      "29549584",
+      "39983849",
+      "38871090",
+      "36213291",
+      "31701691",
+      "31310751",
+      "39991769",
+      "38885772",
+      "39874368",
+      "32076626",
+      "34998036",
+      "38092315",
+      "40066086",
+      "32344355",
+      "38851471",
+      "27378149",
+      "39205643",
+      "39986364",
+      "40264355",
+      "39673870",
+      "25369239",
+      "30849675",
+      "26226437",
+      "32200292",
+      "34003249",
+      "33152427",
+      "35843189",
+      "33152439",
+      "29248720",
+      "29635129",
+      "30176347",
+      "33639173",
+      "32566101",
+      "39951942",
+      "29795979",
+      "37352119",
+      "28566504",
+      "30060748",
+      "38945289",
+      "39418962",
+      "33253723",
+      "34672772",
+      "31029000",
+      "38031729",
+      "30710997",
+      "31023998",
+      "35489281",
+      "39168099",
+      "28447181",
+      "37224754",
+      "28501426",
+      "39243434",
+      "34061184",
+      "34215478",
+      "30522115",
+      "39789539",
+      "38055118",
+      "31726037",
+      "37225845",
+      "39025164",
+      "24885228",
+      "26807792",
+      "34116674",
+      "34295152",
+      "39523867"
+    ],
+    "review": [
+      "40016517"
+    ],
+    "pmc": [
+      "11868513"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-91278-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40016517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

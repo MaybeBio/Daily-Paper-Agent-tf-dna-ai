@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "40510335",
+    "doi": "10.3389/fimmu.2025.1550249",
+    "title": "Molecular mechanisms of deer antler in promoting osteogenic differentiation of human mesenchymal stem cells via JUN modulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Traditional Chinese medicine and food deer antler has been extensively used in bone regeneration, but its molecular mechanisms remain poorly understood. Preliminary investigations suggest deer antler contains bioactive compounds that influence osteogenic differentiation and immune microenvironments. PURPOSE: To elucidate the molecular mechanisms of deer antler in promoting human mesenchymal stem cell (hMSC) osteogenic differentiation, focusing on JUN downregulation and immune microenvironment modulation using bioinformatics and molecular docking approaches. METHODS: Chemical components and targets were identified using the BATMAN-TCM database. Differentially expressed genes (DEGs) related to osteogenic differentiation were analyzed using Gene Expression Omnibus datasets. Gene Ontology (GO), KEGG enrichment, LASSO regression, and SVM-RFE were applied to identify key genes. A Protein-Protein Interaction (PPI) network was constructed to determine core genes. JUN expression was validated using independent datasets and ROC analysis. Immune cell infiltration was analyzed using CIBERSORT, examining JUN's correlation with immune cells. Molecular docking explored JUN's interaction with two active deer antler compounds. RESULTS: The study identified 62 bioactive compounds and 1051 potential targets. DEGs analysis revealed 282 genes associated with osteogenic differentiation. Cross-analysis identified 43 overlapping genes, enriched in \"response to mechanical stimulus\" and \"rheumatoid arthritis\" pathways. Machine learning approaches highlighted 7 critical genes, with JUN emerging as the core gene. JUN levels were significantly decreased during osteogenic differentiation, showing high diagnostic accuracy (AUCs: 0.977-1.000). Immune cell analysis revealed JUN correlations with neutrophils, monocytes, eosinophils, M2 macrophages, and resting CD4+ T cells. Molecular docking confirmed strong binding affinities of JUN with Retinol (-8.1 kcal/mol) and Progesterone (-6.0 kcal/mol). CONCLUSIONS: The study provides a comprehensive molecular framework demonstrating JUN as a key molecule in hMSC osteogenic differentiation. Deer antler's bioactive compounds, particularly Retinol and Progesterone, potentially exert therapeutic effects through targeted JUN modulation, offering novel insights into natural compound-mediated bone regenerative mechanisms.",
+    "keywords": [
+      "JUN",
+      "bioinformatics analysis",
+      "deer antler",
+      "immune microenvironment modulation",
+      "machine learning",
+      "osteogenic differentiation"
+    ],
+    "mesh_terms": [
+      "*Mesenchymal Stem Cells/metabolism/drug effects/cytology",
+      "*Antlers/chemistry",
+      "Animals",
+      "*Osteogenesis/drug effects/genetics",
+      "*Deer",
+      "Humans",
+      "*Cell Differentiation/drug effects",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "*Proto-Oncogene Proteins c-jun/metabolism/genetics",
+      "Medicine, Chinese Traditional",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Chengcheng",
+        "Wu, Yinan",
+        "Huang, Hanxu",
+        "Li, Xiumao",
+        "Wang, Jingkai",
+        "Liu, Chao",
+        "Shen, Yuanqing",
+        "Huang, Donghua",
+        "Tang, Ruofu",
+        "Wang, Zhan",
+        "Jiang, Lifeng",
+        "Li, Fangcai"
+      ],
+      "short_names": [
+        "Yu C",
+        "Wu Y",
+        "Huang H",
+        "Li X",
+        "Wang J",
+        "Liu C",
+        "Shen Y",
+        "Huang D",
+        "Tang R",
+        "Wang Z",
+        "Jiang L",
+        "Li F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Cancer Hospital, Institute of Medical Research, Chinese Academy of Sciences, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Rehabilitation Department, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Chengcheng",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yinan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Cancer Hospital, Institute of Medical Research, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hanxu",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiumao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingkai",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chao",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yuanqing",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Department, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Donghua",
+        "short_name": "Huang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ruofu",
+        "short_name": "Tang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lifeng",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fangcai",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/13 06:34",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42450056"
+    ],
+    "refs": [
+      "39278905",
+      "38584602",
+      "38412232",
+      "37658591",
+      "37522328",
+      "37373516",
+      "37108257",
+      "36858276",
+      "34357328",
+      "33801011",
+      "33151290",
+      "33133012",
+      "33125081",
+      "32062479",
+      "30476243",
+      "29455515",
+      "28379391",
+      "27207943",
+      "27053737",
+      "26879404",
+      "26000315",
+      "25846250",
+      "25822800",
+      "25605792",
+      "25428369",
+      "25266456",
+      "23562758",
+      "23246455",
+      "23193258",
+      "22455463",
+      "21793042",
+      "21414208",
+      "21269502",
+      "20808728",
+      "20576703",
+      "20505115",
+      "19910308",
+      "19499576",
+      "18226189",
+      "17442952",
+      "16632515",
+      "16551243",
+      "14668816",
+      "12037327",
+      "9988737",
+      "8618964",
+      "2194787"
+    ],
+    "similar": [
+      "40510335",
+      "40943194",
+      "41033422",
+      "41088057",
+      "30376879",
+      "39181069",
+      "37373516",
+      "37189051",
+      "32463168",
+      "31703756",
+      "41000390",
+      "38310567",
+      "31165741",
+      "30078218",
+      "32944020",
+      "33234152",
+      "33407721",
+      "38283345",
+      "24008040",
+      "40467639",
+      "34204414",
+      "40916281",
+      "40669280",
+      "39375405",
+      "41442003",
+      "39507054",
+      "39993869",
+      "23246455",
+      "39962573",
+      "41190071",
+      "31286391",
+      "39586719",
+      "36929672",
+      "33752715",
+      "41044520",
+      "37690812",
+      "41213356",
+      "35672672",
+      "40355485",
+      "35123547",
+      "29850973",
+      "33879213",
+      "30680597",
+      "39206920",
+      "23294672",
+      "30836939",
+      "39707695",
+      "39310787",
+      "40859027",
+      "39684926",
+      "36351629",
+      "41258401",
+      "36923645",
+      "37386410",
+      "40406126",
+      "18248957",
+      "41479901",
+      "41005317",
+      "31369730",
+      "38776853",
+      "17146666",
+      "36133435",
+      "37287284",
+      "33437638",
+      "25046387",
+      "41253466",
+      "33111346",
+      "33174052",
+      "41146237",
+      "39346628",
+      "40867569",
+      "39541922",
+      "41239461",
+      "40646863",
+      "32155067",
+      "12435367",
+      "39509434",
+      "28733032",
+      "40679635",
+      "35473508",
+      "40977739",
+      "40913866",
+      "39139563",
+      "40332792",
+      "41053877",
+      "25319223",
+      "39875572",
+      "41164826",
+      "18446198",
+      "36171236",
+      "39638193",
+      "39251712",
+      "29921287",
+      "35054949",
+      "41009970",
+      "27792145",
+      "26040963",
+      "24313802",
+      "36224010",
+      "34391896"
+    ],
+    "review": [
+      "40510335",
+      "23246455",
+      "33437638",
+      "25046387"
+    ],
+    "pmc": [
+      "12158746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40510335/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1550249",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

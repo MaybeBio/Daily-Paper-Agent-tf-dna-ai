@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "34755879",
+    "doi": "10.1093/nar/gkab1039",
+    "title": "Factorbook: an updated catalog of transcription factor motifs and candidate regulatory motif sites."
+  },
+  "content": {
+    "abstract": "The human genome contains  approximately 2000 transcriptional regulatory proteins, including  approximately 1600 DNA-binding transcription factors (TFs) recognizing characteristic sequence motifs to exert regulatory effects on gene expression. The binding specificities of these factors have been profiled both in vitro, using techniques such as HT-SELEX, and in vivo, using techniques including ChIP-seq. We previously developed Factorbook, a TF-centric database of annotations, motifs, and integrative analyses based on ChIP-seq data from Phase II of the ENCODE Project. Here we present an update to Factorbook which significantly expands the breadth of cell type and TF coverage. The update includes an expanded motif catalog derived from thousands of ENCODE Phase II and III ChIP-seq experiments and HT-SELEX experiments; this motif catalog is integrated with the ENCODE registry of candidate cis-regulatory elements to annotate a comprehensive collection of genome-wide candidate TF binding sites. The database also offers novel tools for applying the motif models within machine learning frameworks and using these models for integrative analysis, including annotation of variants and disease and trait heritability. Factorbook is publicly available at www.factorbook.org; we will continue to expand the resource as ENCODE Phase IV data are released.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Databases, Genetic",
+      "Gene Expression Regulation/genetics",
+      "Humans",
+      "Nucleotide Motifs/*genetics",
+      "Regulatory Sequences, Nucleic Acid/*genetics",
+      "Transcription Factors/classification/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pratt, Henry E",
+        "Andrews, Gregory R",
+        "Phalke, Nishigandha",
+        "Huey, Jack D",
+        "Purcaro, Michael J",
+        "van der Velde, Arjan",
+        "Moore, Jill E",
+        "Weng, Zhiping"
+      ],
+      "short_names": [
+        "Pratt HE",
+        "Andrews GR",
+        "Phalke N",
+        "Huey JD",
+        "Purcaro MJ",
+        "van der Velde A",
+        "Moore JE",
+        "Weng Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3032-7966"
+      ],
+      "affiliations": [
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pratt, Henry E",
+        "short_name": "Pratt HE",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Andrews, Gregory R",
+        "short_name": "Andrews GR",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Phalke, Nishigandha",
+        "short_name": "Phalke N",
+        "identifiers": [
+          "0000-0002-3032-7966"
+        ],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Huey, Jack D",
+        "short_name": "Huey JD",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Purcaro, Michael J",
+        "short_name": "Purcaro MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "van der Velde, Arjan",
+        "short_name": "van der Velde A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jill E",
+        "short_name": "Moore JE",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Weng, Zhiping",
+        "short_name": "Weng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Jan 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/11 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "42662925",
+      "42557334",
+      "42557242",
+      "42411323",
+      "42389267",
+      "41965374",
+      "41777621",
+      "41620470",
+      "41501460",
+      "40796919",
+      "40737245",
+      "40335902",
+      "40107350",
+      "39829962",
+      "39763870",
+      "39622643",
+      "39605729",
+      "39605503",
+      "39498484",
+      "39337320",
+      "39072448",
+      "38781157",
+      "38339181",
+      "38281186",
+      "38256085",
+      "37650641",
+      "37564937",
+      "37294804",
+      "37099664",
+      "37013004",
+      "36412592",
+      "36200824",
+      "36083269",
+      "34986604"
+    ],
+    "refs": [
+      "33603233",
+      "33522898",
+      "32728249",
+      "31847804",
+      "31701148",
+      "31608946",
+      "30922998",
+      "30531897",
+      "29425488",
+      "29140473",
+      "29140464",
+      "28473536",
+      "26531826",
+      "26414678",
+      "26213851",
+      "25953851",
+      "25378322",
+      "25215497",
+      "25151169",
+      "23332764",
+      "23203885",
+      "22955990",
+      "22955985",
+      "22153072",
+      "19858363",
+      "18842628",
+      "17558387",
+      "17540862",
+      "17324271",
+      "12045153"
+    ],
+    "similar": [
+      "34755879",
+      "23203885",
+      "22955990",
+      "24234003",
+      "37971293",
+      "26160164",
+      "37805453",
+      "27557773",
+      "25442502",
+      "28957321",
+      "28359978",
+      "28957653",
+      "22189060",
+      "31138617",
+      "32728244",
+      "26540692",
+      "29140464",
+      "23599922",
+      "23272209",
+      "25361952",
+      "31372637",
+      "22496669",
+      "25927199",
+      "31950388",
+      "19956545",
+      "27576892",
+      "31742324",
+      "34465294",
+      "29733395",
+      "22534400",
+      "27567672",
+      "25953800",
+      "21852305",
+      "22955984",
+      "40205063",
+      "28753602",
+      "30660610",
+      "26586801",
+      "35240993",
+      "21821017",
+      "22102575",
+      "36318264",
+      "24214955",
+      "24335146",
+      "31133749",
+      "32424069",
+      "28472398",
+      "26550823",
+      "19652015",
+      "31855461",
+      "27899659",
+      "32657363",
+      "26901046",
+      "27993786",
+      "34292930",
+      "29654070",
+      "32728248",
+      "33980847",
+      "24391522",
+      "40314147",
+      "31750523",
+      "33975951",
+      "19434238",
+      "30395277",
+      "26971251",
+      "34448158",
+      "28700586",
+      "26503253",
+      "24927817",
+      "29363433",
+      "25179504",
+      "24564528",
+      "23161675",
+      "12820902",
+      "30578913",
+      "22683808",
+      "29617928",
+      "23323883",
+      "30590725",
+      "19158363",
+      "34486522",
+      "23266217",
+      "31942977",
+      "24603674",
+      "22369687",
+      "23184988",
+      "32858223",
+      "29305491",
+      "25070602",
+      "26678384",
+      "35420132",
+      "30826165",
+      "22456606",
+      "41022541",
+      "39796242",
+      "17381235",
+      "25058159",
+      "22058225",
+      "23619145",
+      "31477007"
+    ],
+    "review": [
+      "34755879",
+      "28359978",
+      "31742324"
+    ],
+    "pmc": [
+      "8728199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34755879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34755879",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab1039",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

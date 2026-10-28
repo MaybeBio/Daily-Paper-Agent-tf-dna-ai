@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as provided
+- **Shared manuscript claim summary** The manuscript argues that the combination of single-molecule fluorescence microscopy and molecular dynamics simulations has provided detailed molecular-level characterization of DNA-binding proteins, particularly p53, in their actions on DNA and in liquid-liquid phase separation condensates. It further claims that this combined approach has revealed molecular principles governing facilitated diffusion and condensate dynamics.
+- **Visible evidence base** Abstract, Introduction, sections on sliding, hopping/jumping, intersegmental transfer, liquid-liquid phase separation, summary, and author contributions
+- **Missing materials affecting confidence** Figures and their legends, references list, supplementary materials, and any methodological details for the cited studies
+
+## Reviewer
+- **Overall assessment** This is a well-structured review article that synthesizes recent work on p53 as a model DNA-binding protein, covering both experimental single-molecule approaches and computational molecular dynamics simulations. The manuscript is clearly written and logically organized, progressing from fundamental mechanisms of target search on DNA to more complex behaviors in liquid condensates. The author demonstrates good command of the literature and provides a useful conceptual framework for understanding how these two methodologies complement each other. However, the review would benefit from more critical evaluation of the limitations and potential artifacts of both techniques, and from a more balanced presentation of cases where the two approaches have disagreed or where interpretations remain contested. The treatment of liquid-liquid phase separation is somewhat brief given the prominence of this topic in the title, and the connection between the DNA-binding and condensate sections could be strengthened.
+- **Who would be interested in the results, and why** Researchers in the fields of biophysics, molecular biology, and computational biology would find this review useful. Specifically, investigators studying protein-DNA interactions, transcription factor dynamics, facilitated diffusion, and biomolecular condensates would benefit from the synthesis of single-molecule and simulation approaches. The review is also accessible to graduate students and early-career researchers seeking an entry point into these methodologies. The focus on p53 as a model system makes it relevant to the cancer biology community as well.
+- **Major strengths** The manuscript provides a clear and concise overview of the four proposed target search mechanisms and how single-molecule and simulation approaches have contributed to their characterization. The discussion of how basic IDRs promote sliding and intercalating residues suppress it is well organized and supported by multiple examples. The section on high-speed single-molecule tracking and its ability to distinguish sliding from hopping is technically informative. The review successfully demonstrates the value of combining experimental and computational approaches, and the author is appropriately cautious in noting where predictions from simulations were later verified experimentally.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the limited time resolution of SM microscopy (33 ms in typical cases) prevents verification of these processes" referring to hopping and jumping, and later claims that improving time resolution to 0.5 ms "succeeded in detecting the jumping events of p53 along DNA."
+  - **Evidence pointer** Section "Hopping and Jumping Along DNA", location not provided
+  - **Concern** The manuscript does not provide sufficient technical detail on how the 0.5 ms time resolution was achieved and whether this improvement is sufficient to unambiguously distinguish hopping from sliding. The distinction between these modes is fundamentally based on whether the protein maintains continuous contact with DNA, which is difficult to establish even with high temporal resolution. The manuscript acknowledges that hopping and jumping are "not well-distinguished because the criterion is not clear," yet later presents detection of jumping as a definitive result. This tension is not resolved.
+  - **Why it matters** The ability to distinguish between sliding, hopping, and jumping is central to the review's thesis about characterizing molecular actions. If the technical basis for this distinction is not clearly explained, readers cannot assess the validity of the conclusions drawn from these experiments.
+  - **Resolution test** The author should provide more detail on the experimental design, including how the spatial resolution and labeling strategy allow discrimination between contact and non-contact movement, and should discuss any control experiments that validate the assignment of observed events to hopping versus sliding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "the combination of single-molecule microscopy and MD simulation has clarified some molecular principles of the sliding dynamics of DNA-binding proteins" and that these principles could "lead to the engineering of biomolecules and the design of artificial regulators in the future."
+  - **Evidence pointer** Sections "Sliding Along DNA" and "Summary and Future Perspectives", location not provided
+  - **Concern** The review does not critically assess the extent to which the molecular principles identified are generalizable beyond the few proteins discussed (p53, Nhp6A, Fis, and a few others). The claim that these principles could inform engineering applications is speculative and not supported by any concrete examples or discussion of how such principles would be applied. The review would be strengthened by a more explicit discussion of which principles are likely to be universal and which may be protein-specific.
+  - **Why it matters** The broader significance of the reviewed work depends on whether the identified principles apply to the many DNA-binding proteins that have not been studied with these methods. Without this critical assessment, the review risks overstating the generalizability of the findings.
+  - **Resolution test** The author should add a discussion of the known exceptions or limitations to the proposed principles, and provide a more concrete and realistic assessment of how these findings might inform future engineering efforts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript states that "coarse-grained models are simple compared to all-atom models, but they can reproduce distinctive features of liquid droplets" and lists several features including "the concentrations of low- and high-density phases" and "the critical temperature for phase separation."
+  - **Evidence pointer** Section "Liquid-Liquid Phase Separation", location not provided
+  - **Concern** The discussion of molecular dynamics simulations, particularly in the liquid-liquid phase separation section, assumes a level of familiarity with simulation methodologies that many experimental readers may not possess. Terms such as "coarse-grained models," "critical temperature," and "reentrant condensate phase" are introduced without adequate explanation of their physical meaning or significance. Conversely, the discussion of single-molecule techniques may be too brief for computational readers.
+  - **Why it matters** The review aims to bridge two communities, but if each section is not accessible to readers from the other discipline, this goal is not fully achieved. The manuscript would benefit from more explicit explanations of key concepts from both fields.
+  - **Resolution test** The author should add brief explanations of essential technical concepts from both single-molecule microscopy and molecular dynamics simulations, ensuring that each section is accessible to readers from the other discipline.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses several technical terms without definition, including "intersegmental transfer" and "liquid-liquid phase separation." While these are defined later in the text, the abstract would benefit from brief parenthetical explanations to orient readers from outside the immediate field.
+  - **Required correction** Add brief definitions or clarifications for key technical terms in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Sliding Along DNA"
+  - **Evidence pointer** Section "Sliding Along DNA", location not provided
+  - **Issue** The manuscript states that "p53 passes over its target in most cases before a large conformational change upon target binding, resulting in low recognition efficiency." This is presented as a conclusion, but the supporting evidence is not described in sufficient detail for the reader to evaluate the claim.
+  - **Required correction** Provide a brief description of the experimental or computational evidence that supports this conclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Liquid-Liquid Phase Separation"
+  - **Evidence pointer** Section "Liquid-Liquid Phase Separation", location not provided
+  - **Issue** The term "reentrant condensate phase" is introduced without explanation. This is a specialized concept that may not be familiar to all readers.
+  - **Required correction** Define "reentrant condensate phase" when it is first used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "Summary of the Molecular Activity of DNA-Binding Proteins"
+  - **Evidence pointer** Section "Summary of the Molecular Activity of DNA-Binding Proteins", location not provided
+  - **Issue** The summary states that "SM microscopy and MD simulations have contributed to the molecular characterization of DNA-binding proteins" but does not acknowledge any limitations or unresolved questions in the field.
+  - **Required correction** Add a sentence acknowledging limitations or open questions to provide a more balanced perspective.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Liquid-Liquid Phase Separation"
+  - **Evidence pointer** Section "Liquid-Liquid Phase Separation", location not provided
+  - **Issue** The manuscript states that "all-atom simulations have characterized key residue-residue interactions in liquid droplet formation and regulation more precisely than coarse-grained simulations" but does not provide specific examples or citations to support this claim.
+  - **Required correction** Provide specific examples or citations for the all-atom simulation studies referenced.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Liquid-Liquid Phase Separation"
+  - **Evidence pointer** Section "Liquid-Liquid Phase Separation", location not provided
+  - **Issue** The discussion of guest protein dynamics in droplets introduces the concepts of "superdiffusion, normal diffusion, and subdiffusion" without defining these terms.
+  - **Required correction** Briefly define these types of diffusion when they are first mentioned.
+
+## Risk / unsupported claims
+- The claim that "the architecture of p53, having four sets of disordered DNA-binding domains, may achieve efficient intersegmental transfer" is presented as a hypothesis but is not clearly distinguished from established findings.
+- The statement that "the preceding simulations perfectly predicted the presence of intersegmental transfer and the involvement of the disordered CT domains" uses the word "perfectly," which is an overstatement that is not supported by the evidence presented.
+- The claim that "these theoretical studies, therefore, highlight the validity of MD simulations for characterizing LLPS" is an overgeneralization, as the cited studies may not be representative of all LLPS systems.
+- The assertion that "the molecular characteristics and principles revealed by these studies could lead to the engineering of biomolecules and the design of artificial regulators in the future" is speculative and not supported by any concrete examples or discussion in the manuscript.
+- The manuscript states that "the limited time resolution of SM microscopy (33 ms in typical cases) prevents verification of these processes" but does not provide a citation for this typical time resolution value.
+- The claim that "all-atom simulations have characterized key residue-residue interactions in liquid droplet formation and regulation more precisely than coarse-grained simulations" is made without specific examples or comparative analysis.

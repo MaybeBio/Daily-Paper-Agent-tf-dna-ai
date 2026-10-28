@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.07.447370",
+  "title": "RBPSpot: Learning on Appropriate Contextual Information for RBP Binding Sites Discovery",
+  "authors": "Nitesh Kumar Sharma; Sagar Gupta; Prakash Kumar; Ashwani Kumar; Upendra Kumar Pradhan; Ravi Shankar",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-07",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用DNN结合k-mer种子搜索预测RBP结合位点，属蛋白质-RNA互作而非TF-DNA体系，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Identifying RBP binding sites and mechanistic factors determining the interactions remain a big challenge. Besides the sparse binding motifs across the RNAs, it also requires a suitable sequence context for binding. The present work describes an approach to detect RBP binding sites while using an ultra-fast BWT/FM-indexing coupled inexact k-mer spectrum search for statistically significant seeds. The seed works as an anchor to evaluate the context and binding potential using flanking region information while leveraging from Deep Feed-forward Neural Network (DNN). Contextual features based on pentamers/dinucloetides which also capture shape and structure properties appeared critical. Contextual CG distribution pattern appeared important. The developed models also got support from MD-simulation studies and the implemented software, RBPSpot, scored consistently high for the considered performance metrics including average accuracy of ∼90% across a large number of validated datasets while maintaining consistency. It clearly outperformed some recently developed tools, including some with much complex deep-learning models, during a highly comprehensive bench-marking process involving three different data-sets and more than 50 RBPs. RBPSpot, has been made freely available, covering most of the human RBPs for which sufficient CLIP-seq data is available (131 RBPs). Besides identifying RBP binding spots across RNAs in human system, it can also be used to build new models by user provided data for any species and any RBP, making it a valuable resource in the area of regulatory system studies.",
+  "abstract_zh": "识别RBP结合位点及决定相互作用的机制因素仍是一大挑战。除了RNA上稀疏的结合基序外，还需要合适的序列环境来支持结合。本研究描述了一种方法，通过使用超快速的BWT/FM索引结合不精确的k-mer谱搜索来检测RBP结合位点，寻找统计上显著的种子。该种子作为锚点，利用侧翼区域信息评估环境和结合潜力，同时借助深度前馈神经网络（DNN）。基于五聚体/二核苷酸的上下文特征，这些特征还捕捉了形状和结构特性，显得至关重要。上下文中的CG分布模式也很重要。开发的模型还得到了分子动力学（MD）模拟研究的支持，所实现的软件RBPSpot在考虑的性能指标上持续高分，包括在大量验证数据集上的平均准确率约为90%，并保持一致性。在涉及三个不同数据集和超过50个RBP的高度全面基准测试过程中，它明显优于一些近期开发的工具，包括一些具有更复杂深度学习模型的工具。RBPSpot已免费提供，覆盖了大多数有足够CLIP-seq数据的人类RBP（131个RBP）。除了识别人类系统中RNA上的RBP结合位点外，它还可用于用户提供的数据为任何物种和任何RBP构建新模型，使其成为调控系统研究领域的宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.07.447370",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.07.447370",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.07.447370/index.html"
+}

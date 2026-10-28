@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. Editorial or stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report that ten evodiamine derivatives were tested against the gastric cancer cell line SGC-7901 using an MTT assay. Two compounds, EVO-1 and EVO-6, showed the strongest anti-proliferative activity. Computational methods (DFT, molecular docking, MD simulations, MM/GBSA binding free energy calculations) were used to investigate structure-activity relationships and the mechanism of TOP1 inhibition. The authors conclude that EVO-1 and EVO-6 form stable ternary complexes with TOP1-DNA, and that EVO-1 is a promising anti-gastric cancer drug candidate.
+- **Visible evidence base** Main text including Methods (Sections 2.1-2.5), Results and Discussion (Sections 3.1-3.6), Figures 1-4 (referenced), Tables 1-2 (referenced), and Supplementary Figures S1-S10 and Tables S1-S4 (referenced but not provided).
+- **Missing materials affecting confidence** Supplementary material (Figures S1-S10, Tables S1-S4) is referenced extensively but was not provided. This includes the raw MTT assay data, optimized structures of all ten derivatives, HOMO/LUMO plots, RMSF plots, radius of gyration plots, surface representations, and detailed energy decomposition tables. Without these, several quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward combination of in vitro cytotoxicity testing and computational modeling for a small series of evodiamine derivatives. The experimental component is limited to a single cell line and a single assay type, which substantially constrains the strength of the biological claims. The computational work is largely descriptive and correlative, and the link between the DFT-derived electronic properties and the observed activity differences is asserted rather than rigorously established. The mechanistic conclusion that these compounds act as TOP1 poisons by stabilizing a ternary complex is plausible but is not supported by any direct experimental evidence, such as a TOP1 relaxation assay or a cleavage complex stabilization assay. The manuscript is clearly written and the computational methods are standard, but the scientific advance over prior work on evodiamine derivatives is incremental.
+- **Who would be interested in the results, and why** Researchers working on natural product derivatives as anticancer agents, particularly those focused on TOP1 inhibitors or evodiamine analogues, may find the computational binding models of some interest. The study may also be of marginal interest to computational chemists applying DFT and MD methods to small molecule-DNA-protein systems. However, the limited experimental validation and the absence of direct TOP1 activity data will restrict the impact to a narrow specialist audience.
+- **Major strengths** The manuscript is clearly organized and the computational workflow is logical and follows established protocols. The use of multiple complementary computational methods (DFT, docking, MD, MM/GBSA) is appropriate for the stated goal of characterizing ligand-target interactions. The authors correctly identify a gap in the literature regarding the molecular-level interaction of evodiamine derivatives with TOP1. The discussion of structure-activity relationships, particularly the effect of substituent size and the methoxy group position, is reasonable and consistent with the presented data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence insufficient to support the mechanistic claim
+  - **Claim pointer** The manuscript claims that EVO-1 and EVO-6 "could intercalate into the cleaved DNA-binding site to form a TOP1-DNA-ligand ternary complex" and that this is the mechanism of their anti-gastric cancer activity.
+  - **Evidence pointer** Section 3.3, Section 3.4, Section 3.5, Section 4
+  - **Concern** The central mechanistic conclusion is based entirely on computational predictions (docking, MD, MM/GBSA). No experimental data are presented to demonstrate that these compounds actually inhibit TOP1 catalytic activity or stabilize the covalent TOP1-DNA cleavage complex. The MTT assay only measures cell viability and does not establish a mechanism of action. The title and conclusions imply a mechanistic study, but the experimental component is limited to a single cytotoxicity assay on a single cell line.
+  - **Why it matters** The claim that these compounds act as TOP1 poisons is a specific and testable mechanistic statement. Without direct biochemical evidence, such as a TOP1 relaxation assay, a cleavage complex stabilization assay, or at minimum a cellular TOP1-trapping assay, the mechanism remains speculative. The manuscript does not establish that the observed cytotoxicity is related to TOP1 inhibition at all.
+  - **Resolution test** The authors should provide direct experimental evidence of TOP1 inhibition, such as a DNA relaxation assay with purified TOP1, or a demonstration of TOP1 cleavage complex stabilization in cells. Alternatively, the claims should be substantially revised to present the computational model as a hypothesis rather than a demonstrated mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Inadequate experimental design for the biological claims
+  - **Claim pointer** The manuscript claims that EVO-1 and EVO-6 have "strong anti-gastric cancer activity" and are "promising lead compounds" based on MTT assay results.
+  - **Evidence pointer** Section 2.1, Section 3.1, Section 4
+  - **Concern** The biological evaluation is limited to a single cell line (SGC-7901) and a single assay (MTT). No IC50 values are reported in the main text, only inhibition percentages at a single concentration (200 μmol·L⁻¹). There is no dose-response analysis, no selectivity assessment against non-cancerous cells, and no replication details or statistical analysis provided. The claim of "strong" activity is not supported by the data presented.
+  - **Why it matters** Anti-cancer activity claims require more rigorous evaluation. A single concentration point on a single cell line is insufficient to establish potency, selectivity, or therapeutic potential. The lack of IC50 values and statistical treatment prevents comparison with other compounds and undermines the quantitative claims.
+  - **Resolution test** Provide full dose-response curves, calculated IC50 values with confidence intervals, and statistical analysis. Include at least one additional gastric cancer cell line and ideally a non-cancerous cell line to assess selectivity. Report the number of independent replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Correlation between computational descriptors and activity is not established
+  - **Claim pointer** The manuscript implies that DFT-derived properties (charges, FMOs, MEPs) explain the differences in anti-gastric cancer activity among the derivatives.
+  - **Evidence pointer** Section 3.2, Tables 1-2
+  - **Concern** The DFT analysis is descriptive. The authors list charges, HOMO/LUMO energies, and MEPs, and make qualitative statements about their relationship to activity. However, no quantitative correlation analysis is performed between any computational descriptor and the experimental activity data. The claim that the "energy gaps" predict activity is contradicted by the authors' own statement that the calculated activity order differs from the MTT results.
+  - **Why it matters** The stated purpose of the DFT analysis is to reveal the "relationship between electronic structure and anti-gastric cancer activity." Without a formal correlation or regression analysis, the relationship remains anecdotal. The acknowledged discrepancy between the computational prediction and experimental results weakens the interpretive value of the DFT data.
+  - **Resolution test** Perform a quantitative structure-activity relationship analysis correlating computed descriptors (e.g., HOMO-LUMO gap, charges, dipole moment) with experimental activity values. Alternatively, clearly frame the DFT analysis as descriptive and remove the implied predictive relationship.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Insufficient validation of computational methodology
+  - **Claim pointer** The manuscript reports binding free energies of -38.33 kcal·mol⁻¹ (EVO-1) and -33.25 kcal·mol⁻¹ (EVO-6) and uses these to rank compound potency.
+  - **Evidence pointer** Section 2.5, Section 3.5, Supplementary Tables S1-S2
+  - **Concern** The MM/GBSA method is known to be sensitive to the choice of model, parameters, and the number of snapshots used. The manuscript does not report the number of snapshots used for the calculation, the dielectric constant, or any convergence analysis. The absolute values of the binding free energies are unusually large for a small molecule binding to a protein-DNA complex, which raises questions about the parameterization. No comparison with experimental binding data is provided.
+  - **Why it matters** The binding free energy is used as a key quantitative result to distinguish between the two compounds and to support the conclusion that EVO-1 is more potent. If the calculations are not converged or are parameterization-dependent, the ranking may not be robust. The lack of methodological detail prevents assessment of the reliability of these values.
+  - **Resolution test** Report the number of snapshots, the dielectric constant, and the standard deviation of the binding free energy. Perform a convergence test. If possible, validate the calculated binding free energies against experimental binding data or at least against a known inhibitor such as topotecan.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting of experimental data
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Supplementary Figure S1
+  - **Issue** The inhibition rates for all ten compounds are only shown in a supplementary figure. The main text reports only the two most active compounds. A summary table of all ten compounds with their inhibition rates and, ideally, IC50 values should be included in the main text.
+  - **Required correction** Add a table in the main text summarizing the activity of all ten derivatives, including the parent compound EVO as a control.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Section 2.1, Section 3.1
+  - **Evidence pointer** Location not provided
+  - **Issue** No statistical analysis is reported for the MTT assay data. It is unclear how many independent experiments were performed and whether the reported values are means with standard deviations.
+  - **Required correction** Report the number of replicates and provide statistical measures (mean, SD or SEM) for all activity data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figure 3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The docking figures are described but not shown in the provided text. The description of the binding mode would benefit from a clear two-dimensional interaction diagram showing hydrogen bonds and stacking interactions with residue labels.
+  - **Required correction** Provide a 2D interaction diagram for both EVO-1 and EVO-6 with TOP1-DNA, clearly labeling key residues and interaction types.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The conclusion states that EVO-1 "could be a promising anti-gastric cancer drug candidate" without acknowledging the limitations of the study, such as the lack of in vivo data, the absence of direct TOP1 activity measurements, and the single cell line used.
+  - **Required correction** Add a limitations paragraph acknowledging these constraints and tempering the conclusions accordingly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference to prior work
+  - **Affected element** Section 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction cites prior work on evodiamine derivatives and TOP1 inhibition but does not clearly state how the present study advances beyond these earlier reports. The novelty is implied but not explicitly articulated.
+  - **Required correction** Add a sentence in the introduction explicitly stating the novel contribution of this work relative to prior studies on evodiamine derivatives and TOP1.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct TOP1 inhibition data) and R1-M2 (inadequate experimental design for biological claims) are the primary technical failings. The mechanistic claim cannot be established without experimental validation of TOP1 inhibition. The biological activity claims require more rigorous dose-response data and statistical analysis.
+- **Assessment against Nature-style criteria**
+  - **Originality** Limited. The combination of evodiamine derivatives with computational modeling of TOP1 binding is not conceptually new. The specific compounds may be new, but the approach and conclusions are largely incremental over prior work on evodiamine and other TOP1 inhibitors.
+  - **Scientific importance** Moderate at best. Gastric cancer is an important disease, and new TOP1 inhibitors are of interest. However, the study does not provide a significant conceptual advance or a clearly validated new lead compound. The lack of experimental mechanistic data limits the importance of the findings.
+  - **Interdisciplinary readership** Narrow. The work sits at the interface of medicinal chemistry and computational chemistry. It is unlikely to attract readers beyond these fields, and the limited experimental validation reduces its appeal to a broader cancer biology audience.
+  - **Technical soundness** The computational methods are standard and generally applied correctly, but the lack of methodological detail for the MM/GBSA calculations and the absence of validation against experimental data are weaknesses. The experimental component is technically simple but underpowered for the claims made.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. However, the heavy reliance on computational terminology and the lack of a clear biological context for the significance of TOP1 inhibition may limit accessibility for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational hypothesis but does not provide the experimental evidence needed to support the mechanistic claims. Major revisions, including direct TOP1 activity assays and more rigorous biological evaluation, would be required before the case is established. If the authors can provide such data, the manuscript could become a useful contribution to the field of evodiamine-based anticancer agents.
+
+## Risk / unsupported claims
+- The claim that EVO-1 and EVO-6 act as TOP1 poisons by stabilizing a TOP1-DNA cleavage complex is unsupported by direct experimental evidence.
+- The claim that the DFT-derived electronic properties explain the observed structure-activity relationships is not quantitatively established.
+- The claim that EVO-1 is a "promising anti-gastric cancer drug candidate" is overstated given the limited in vitro data (single cell line, single assay, no selectivity data).
+- The binding free energy values (-38.33 and -33.25 kcal·mol⁻¹) are presented as quantitative measures of potency without experimental validation or sufficient methodological detail to assess their reliability.
+- The statement that the compounds "could intercalate into the cleaved DNA-binding site" is a computational prediction, not an experimentally verified observation.

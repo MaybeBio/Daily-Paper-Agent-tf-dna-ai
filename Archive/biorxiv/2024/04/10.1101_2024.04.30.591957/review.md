@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full preprint text as provided
+- **Assessment boundary** Scientific claims, structural and biophysical evidence, and interpretation presented in the supplied abstract and title
+- **Shared manuscript claim summary** The authors report crystal structures of the TRAP sialic acid binding protein SiaP from *Aggregatibacter actinomycetemcomitans* in open ligand-free, closed liganded, and an intermediate acetate-bound state; they report binding affinities for two sialic acid variants; and they combine small-angle X-ray scattering and molecular dynamics simulations to argue that the protein samples multiple conformations in solution, with implications for the induced-fit binding mechanism.
+- **Visible evidence base** Abstract only; no figures, tables, methods, or supplementary material were provided
+- **Missing materials affecting confidence** Full text, crystallographic statistics, SAXS data and fits, MD simulation parameters and convergence criteria, binding assay details, and all structural coordinates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the understanding of TRAP transporter substrate-binding protein conformational dynamics. The observation of an intermediate acetate-bound state and the combination of crystallography, SAXS, and MD simulations are conceptually appealing. However, the evidence as presented in the abstract is insufficient to evaluate the robustness of the structural assignments, the quality of the biophysical measurements, or the validity of the mechanistic conclusions. The claim that the data are consistent with an induced-fit model while also supporting a multi-state ensemble requires more quantitative support than the abstract can provide.
+- **Who would be interested in the results, and why** Researchers studying bacterial nutrient uptake systems, particularly TRAP and ABC transporter families, will be interested in the conformational mechanisms of substrate-binding proteins. Structural biologists and computational biophysicists working on protein conformational ensembles and ligand-induced conformational changes may also find the combined experimental and simulation approach relevant. The work could inform efforts to understand sialic acid scavenging in pathogenic bacteria such as *A. actinomycetemcomitans*.
+- **Major strengths** The study addresses a mechanistically important question about how TRAP substrate-binding proteins sample conformational states. The combination of multiple biophysical techniques, including X-ray crystallography, SAXS, and MD simulations, is well suited to probe conformational heterogeneity. The observation of an intermediate state bound to a non-cognate ligand provides a potentially valuable insight into the binding pathway. The comparison of binding affinities for two sialic acid variants is directly linked to the structural data.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness of structural claims  
+  - **Claim pointer** The authors claim to have solved the structure of Aa SiaP in open ligand-free, closed liganded, and intermediate acetate-bound conformations.  
+  - **Evidence pointer** Abstract; structural data not provided  
+  - **Concern** The abstract provides no crystallographic statistics, resolution limits, or validation metrics for any of the three reported structures. Without these data, the assignment of distinct conformational states, particularly the intermediate state, cannot be assessed. The possibility that the "intermediate" conformation is an artifact of crystal packing or a low-occupancy alternative conformation cannot be excluded.  
+  - **Why it matters** The central novelty of the paper rests on the identification of a previously unobserved intermediate state. If this state is not robustly supported by high-quality crystallographic data, the mechanistic conclusions drawn from it are undermined.  
+  - **Resolution test** Provide crystallographic data quality indicators, including resolution, R-factors, Ramachandran statistics, and electron density maps for the intermediate state. Demonstrate that the intermediate conformation is distinct from both open and closed states with statistically significant differences in key structural parameters.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness of biophysical measurements  
+  - **Claim pointer** The authors report KD values of 0.4 µM for N-acetylneuraminate and 4.4 µM for N-glycolylneuraminate.  
+  - **Evidence pointer** Abstract; binding assay details not provided  
+  - **Concern** The abstract does not specify the method used to measure binding affinities, the number of replicates, the error estimates, or the buffer conditions. Without this information, the precision and accuracy of the reported KD values cannot be evaluated. The claim that the closed N-acetylneuraminate-bound structure explains the binding preference requires a quantitative comparison that is not presented.  
+  - **Why it matters** The binding affinity data are used to support the structural interpretation of ligand selectivity. If the measurements are not robust, the link between structure and function is weakened.  
+  - **Resolution test** Provide details of the binding assay, including method, replicates, error bars, and statistical analysis. Show that the difference in KD values is statistically significant and that the structural basis for selectivity is supported by quantitative interaction analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for mechanistic conclusions  
+  - **Claim pointer** The authors state that SAXS data and MD simulations suggest Aa SiaP adopts a more open state in solution than in crystal, that the open unliganded conformation can sample closed conformations, and that water molecules are important for stabilising the closed conformation.  
+  - **Evidence pointer** Abstract; SAXS and MD data not provided  
+  - **Concern** The abstract provides no quantitative metrics for the SAXS analysis, such as radius of gyration, maximum dimension, or goodness-of-fit parameters for ensemble models. Similarly, no details are given for the MD simulations, including force field, simulation length, sampling convergence, or free energy calculations. The claim that water molecules stabilise the closed conformation is not supported by any specific analysis, such as water occupancy maps or free energy decomposition.  
+  - **Why it matters** The conclusion that the protein samples multiple states in solution and that water plays a stabilising role is a key part of the proposed mechanism. Without quantitative support, these claims remain speculative.  
+  - **Resolution test** Provide SAXS data with fits to appropriate ensemble models, including statistical measures of model selection. Provide MD simulation details, convergence analysis, and quantitative evidence for water-mediated stabilisation, such as residence times or free energy contributions.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Logical consistency of mechanistic model  
+  - **Claim pointer** The authors state that the data are consistent with an induced-fit model but that the open unliganded conformation encompasses multiple states capable of binding substrate.  
+  - **Evidence pointer** Abstract  
+  - **Concern** The abstract simultaneously invokes induced fit and a pre-existing ensemble of states. These are not mutually exclusive, but the text does not clarify how the two models are reconciled. Specifically, it is unclear whether the intermediate acetate-bound state represents a step along the induced-fit pathway or a distinct conformation sampled in the ensemble.  
+  - **Why it matters** The mechanistic conclusion is the main conceptual contribution of the paper. Ambiguity in the proposed model reduces its impact and makes it difficult for readers to place the findings in the context of existing literature on TRAP transporters.  
+  - **Resolution test** Provide a clear mechanistic model that specifies the relationship between the observed states, the binding pathway, and the role of water. Use the structural and simulation data to distinguish between alternative models quantitatively.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses the term "TRAP substrate-binding proteins" without briefly explaining the functional context for readers outside the transporter field.  
+  - **Required correction** Add a brief phrase indicating that these proteins deliver ligands to membrane components for import, which is already implied but could be made more explicit.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** Conformational state descriptions  
+  - **Evidence pointer** Abstract  
+  - **Issue** The terms "open," "closed," and "intermediate" are used without defining the structural criteria that distinguish these states.  
+  - **Required correction** Define the conformational states in terms of domain rotation angles or interdomain distances, either in the abstract or by reference to a figure.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Ligand nomenclature  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses both "N-acetylneuraminate" and "sialic acid" without clarifying whether they are used interchangeably.  
+  - **Required correction** Use consistent nomenclature throughout and define the relationship between the terms at first mention.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The structural assignments, binding affinity measurements, and solution-state conformational analysis are all essential to the central claims, and none can be evaluated from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The observation of an intermediate conformational state in a TRAP substrate-binding protein is potentially novel, but the abstract does not provide enough context to establish how this differs from previously reported states in related proteins.  
+  - **Scientific importance** The work addresses a fundamental question about substrate-binding protein mechanisms, which is relevant to understanding bacterial nutrient uptake. The importance is moderate and depends on the robustness of the intermediate state observation.  
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, biophysicists, and microbiologists. The abstract is accessible to these groups but may not attract a broader readership without clearer articulation of the general mechanistic implications.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the structural and biophysical claims.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terminology without sufficient explanation. The mechanistic conclusion is stated in a way that is understandable but not fully developed.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible experimental approach, but the absence of supporting data prevents any assessment of the validity of the structural, biophysical, and simulation-based claims. The manuscript could become suitable for consideration if the full evidence base demonstrates robust support for the intermediate state and the solution-phase conformational analysis.
+
+## Risk / unsupported claims
+- The existence of a distinct intermediate conformational state is unsupported without crystallographic validation metrics.
+- The reported KD values are unverifiable without assay details and error estimates.
+- The claim that Aa SiaP adopts a more open state in solution than in crystal is unsupported without SAXS fitting statistics.
+- The claim that the open unliganded conformation can sample closed conformations is unsupported without MD sampling and convergence analysis.
+- The claim that water molecules stabilise the closed conformation is unsupported without specific water analysis.
+- The statement that the data are consistent with an induced-fit model is not quantitatively supported.
+- The statement that the mechanism of ligand release remains to be determined is appropriately cautious and does not overreach.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38816426",
+  "title": "Identification of drug responsive enhancers by predicting chromatin accessibility change from perturbed gene expression profiles.",
+  "authors": "Wang, Yongcui; Wang, Yong",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习从基因表达预测染色质可及性变化，识别药物响应增强子，涉及TF结合位点但非直接建模TF-DNA互作，方法可迁移至本课题。",
+  "abstract": "Individual may response to drug treatment differently due to their genetic variants located in enhancers. These variants can alter transcription factor's (TF) binding strength, affect enhancer's chromatin activity or interaction, and eventually change expression level of downstream gene. Here, we propose a computational framework, PERD, to Predict the Enhancers Responsive to Drug. A machine learning model was trained to predict the genome-wide chromatin accessibility from transcriptome data using the paired expression and chromatin accessibility data collected from ENCODE and ROADMAP. Then the model was applied to the perturbed gene expression data from Connectivity Map (CMAP) and Cancer Drug-induced gene expression Signature DataBase (CDS-DB) and identify drug responsive enhancers with significantly altered chromatin accessibility. Furthermore, the drug responsive enhancers were related to the pharmacogenomics genome-wide association studies (PGx GWAS). Stepping on the traditional drug-associated gene signatures, PERD holds the promise to enhance the causality of drug perturbation by providing candidate regulatory element of those drug associated genes.",
+  "abstract_zh": "个体可能因其增强子中的遗传变异而对药物治疗产生不同反应。这些变异可改变转录因子（TF）的结合强度，影响增强子的染色质活性或相互作用，并最终改变下游基因的表达水平。在此，我们提出一个计算框架PERD，用于预测药物响应性增强子（Predict the Enhancers Responsive to Drug）。利用从ENCODE和ROADMAP收集的配对表达和染色质可及性数据，训练了一个机器学习模型，以从转录组数据预测全基因组染色质可及性。随后，将该模型应用于来自连接图谱（CMAP）和癌症药物诱导基因表达签名数据库（CDS-DB）的扰动基因表达数据，识别出染色质可及性显著改变的药物响应性增强子。此外，这些药物响应性增强子与药物基因组学全基因组关联研究（PGx GWAS）相关联。在传统药物相关基因签名的基础上，PERD通过提供这些药物相关基因的候选调控元件，有望增强药物扰动的因果性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38816426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38816426/",
+  "paper_page_path": "papers/pubmed/38816426/index.html"
+}

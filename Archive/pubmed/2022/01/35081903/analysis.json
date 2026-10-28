@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35081903",
+  "title": "A deep learning approach to predict inter-omics interactions in multi-layer networks.",
+  "authors": "Borhani, Niloofar; Ghaisari, Jafar; Abedi, Maryam; Kamali, Marzieh; Gheisari, Yousof",
+  "journal": "BMC bioinformatics",
+  "published_date": "2022-01-28",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出深度学习方法DIDL预测多层网络中的跨组学互作，涵盖TF-DNA互作预测，但方法为通用网络嵌入而非聚焦TF-DNA结合机制建模，可迁移借鉴。",
+  "abstract": "BACKGROUND: Despite enormous achievements in the production of high-throughput datasets, constructing comprehensive maps of interactions remains a major challenge. Lack of sufficient experimental evidence on interactions is more significant for heterogeneous molecular types. Hence, developing strategies to predict inter-omics connections is essential to construct holistic maps of disease. RESULTS: Here, as a novel nonlinear deep learning method, Data Integration with Deep Learning (DIDL) was proposed to predict inter-omics interactions. It consisted of an encoder that performs automatic feature extraction for biomolecules according to existing interactions coupled with a predictor that predicts unforeseen interactions. Applicability of DIDL was assessed on different networks, namely drug-target protein, transcription factor-DNA element, and miRNA-mRNA. Also, validity of the novel predictions was evaluated by literature surveys. According to the results, the DIDL outperformed state-of-the-art methods. For all three networks, the areas under the curve and the precision-recall curve exceeded 0.85 and 0.83, respectively. CONCLUSIONS: DIDL offers several advantages like automatic feature extraction from raw data, end-to-end training, and robustness to network sparsity. In addition, reliance solely on existing inter-layer interactions and independence of biochemical features of interacting molecules make this algorithm applicable for a wide variety of networks. DIDL paves the way to understand the underlying mechanisms of complex disorders through constructing integrative networks.",
+  "abstract_zh": "背景：尽管在高通量数据集生产方面取得了巨大成就，构建全面的相互作用图谱仍是一项重大挑战。对于异质性分子类型而言，缺乏足够的实验证据支持相互作用的问题更为显著。因此，开发预测跨组学连接的策略对于构建疾病的整体图谱至关重要。结果：在此，作为一种新颖的非线性深度学习方法，提出了数据集成与深度学习（DIDL）来预测跨组学相互作用。它由一个编码器和一个预测器组成，编码器根据现有相互作用对生物分子进行自动特征提取，预测器则预测未预见的相互作用。DIDL的适用性在不同网络上进行了评估，即药物-靶蛋白、转录因子-DNA元件和miRNA-mRNA。此外，新预测的有效性通过文献调查进行了评估。根据结果，DIDL优于现有最先进的方法。对于所有三个网络，曲线下面积和精确率-召回率曲线分别超过0.85和0.83。结论：DIDL提供了多项优势，如从原始数据自动特征提取、端到端训练以及对网络稀疏性的鲁棒性。此外，仅依赖现有的层间相互作用和独立于相互作用分子的生化特征，使得该算法适用于多种网络。DIDL通过构建整合网络，为理解复杂疾病的内在机制铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35081903/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35081903/",
+  "paper_page_path": "papers/pubmed/35081903/index.html"
+}

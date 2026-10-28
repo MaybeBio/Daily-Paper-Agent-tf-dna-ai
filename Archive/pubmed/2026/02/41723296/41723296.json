@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41723296",
+    "doi": "10.1038/s41598-026-41351-3",
+    "title": "Sinensetin attenuates post-stroke depression via dual modulation of TLR4/NF-kappaB-NRF2/GPX4 pathways."
+  },
+  "content": {
+    "abstract": "Post-stroke depression (PSD) is a complex neuropsychiatric complication driven by neuroinflammation and ferroptosis, yet effective therapies remain limited. Sinensetin (SIN), a polymethoxylated flavone derived from citrus fruits, possesses potent anti-inflammatory and antioxidant properties. However, its therapeutic efficacy and underlying mechanisms in PSD have not been explored. To investigate this, a mouse model of PSD was established by combining photothrombotic stroke with low-dose lipopolysaccharide (LPS) administration. Mice were treated with SIN (25 and 50 mg/kg) for 14 days. Depressive-like behaviors were assessed using the sucrose preference test (SPT), tail suspension test (TST), and forced swimming test (FST). Crucially, protein-level validation was performed using quantitative immunofluorescence (for glial activation) and ELISA (for serum cytokines and pathway markers), complemented by qPCR and molecular docking/dynamics (MD) simulations. SIN treatment significantly alleviated depressive-like behaviors and restored cerebral blood flow in PSD mice. Quantitative immunofluorescence and ELISA analyses revealed that SIN effectively suppressed the hyperactivation of microglia (IBA1) and astrocytes (GFAP) in the hippocampus and reduced serum concentrations of pro-inflammatory cytokines (TNF-alpha, IL-6, IL-1beta). Mechanistically, SIN inhibited the TLR4/NF-kappaB signaling pathway by suppressing NF-kappaB nuclear translocation and concurrently activated the NRF2/GPX4 antioxidant axis, thereby mitigating lipid peroxidation and neuronal ferroptosis. Additionally, molecular docking and MD simulations predicted energetically favorable interactions between SIN and key targets (e.g., TLR4, KEAP1), providing supportive evidence for its multi-target mechanism. Our findings demonstrate that SIN exerts neuroprotective effects in PSD by dually modulating TLR4/NF-kappaB-mediated neuroinflammation and NRF2/GPX4-dependent ferroptosis. These results highlight SIN as a promising natural therapeutic candidate for the treatment of depression following stroke.",
+    "keywords": [
+      "Ferroptosis",
+      "NRF2/GPX4",
+      "Natural flavonoid",
+      "Neuroinflammation",
+      "Post-stroke depression (PSD)",
+      "Sinensetin (SIN)",
+      "TLR4/NF-kappaB"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Toll-Like Receptor 4/metabolism",
+      "*NF-kappa B/metabolism",
+      "Mice",
+      "*Depression/drug therapy/etiology/metabolism",
+      "*Stroke/complications/metabolism",
+      "Male",
+      "Signal Transduction/drug effects",
+      "Disease Models, Animal",
+      "Mice, Inbred C57BL",
+      "*Flavonoids/pharmacology",
+      "Molecular Docking Simulation",
+      "Hippocampus/metabolism/drug effects",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Qiqi",
+        "Huang, Renfeng",
+        "Luo, Kunling",
+        "Chen, Jiaxin",
+        "Yin, Xuanying",
+        "Zhao, Erjuan",
+        "Liu, Yuanyue",
+        "Sheng, Lei",
+        "Wang, Qi",
+        "Cai, Weiwu"
+      ],
+      "short_names": [
+        "Fan Q",
+        "Huang R",
+        "Luo K",
+        "Chen J",
+        "Yin X",
+        "Zhao E",
+        "Liu Y",
+        "Sheng L",
+        "Wang Q",
+        "Cai W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Affiliated Jiangmen TCM Hospital of Ji'nan University, Jiangmen, 529099, China.",
+        "Affiliated Jiangmen TCM Hospital of Ji'nan University, Jiangmen, 529099, China.",
+        "The Eighth Clinical Medical College of Guangzhou University of Chinese Medicine, Foshan, 528000, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China.",
+        "The Third Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, 510378, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China.",
+        "Department of Neurology, The Second Affiliated Hospital of Nanjing, University of Chinese Medicine, Jiangsu, 210017, China.",
+        "Department of Neurology, The Second Affiliated Hospital of Nanjing, University of Chinese Medicine, Jiangsu, 210017, China. hejieqong1234@163.com.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China. wangqi@gzucm.edu.cn.",
+        "Department of Traditional Chinese Medicine, The First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. caiweiwu01@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Qiqi",
+        "short_name": "Fan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Jiangmen TCM Hospital of Ji'nan University, Jiangmen, 529099, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Renfeng",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Jiangmen TCM Hospital of Ji'nan University, Jiangmen, 529099, China.",
+          "The Eighth Clinical Medical College of Guangzhou University of Chinese Medicine, Foshan, 528000, China.",
+          "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Kunling",
+        "short_name": "Luo K",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, 510378, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiaxin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Xuanying",
+        "short_name": "Yin X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Erjuan",
+        "short_name": "Zhao E",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuanyue",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Nanjing, University of Chinese Medicine, Jiangsu, 210017, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Lei",
+        "short_name": "Sheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Nanjing, University of Chinese Medicine, Jiangsu, 210017, China. hejieqong1234@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, 510405, China. wangqi@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cai, Weiwu",
+        "short_name": "Cai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, The First Affiliated Hospital of Jinan University, Guangzhou, 510632, China. caiweiwu01@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/22 05:35",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42668270"
+    ],
+    "refs": [
+      "40154896",
+      "40145792",
+      "40092064",
+      "40005082",
+      "39827664",
+      "39741629",
+      "39689597",
+      "39341961",
+      "39243947",
+      "39231943",
+      "39223674",
+      "39128446",
+      "38938065",
+      "38873422",
+      "38547621",
+      "38493723",
+      "38278473",
+      "38182039",
+      "38123006",
+      "37805934",
+      "37744845",
+      "37714424",
+      "37518943",
+      "37201899",
+      "37028247",
+      "36913221",
+      "36818470",
+      "36712684",
+      "36660693",
+      "36116735",
+      "36046763",
+      "36038548",
+      "35534531",
+      "35421524",
+      "34798182",
+      "34688467",
+      "34547548",
+      "34309775",
+      "34153667",
+      "34055196",
+      "33991607",
+      "33628116",
+      "33526073",
+      "32171705",
+      "31714766",
+      "27756327",
+      "27719891",
+      "26583988",
+      "23893135",
+      "22516932",
+      "20420369"
+    ],
+    "similar": [
+      "41723296",
+      "40836407",
+      "42044574",
+      "40541752",
+      "41981193",
+      "39166408",
+      "40154896",
+      "37277081",
+      "42406171",
+      "31796867",
+      "41769790",
+      "37001682",
+      "37676534",
+      "40214929",
+      "41724289",
+      "30884890",
+      "40915437",
+      "41115352",
+      "40945253",
+      "42150287",
+      "41053956",
+      "41812900",
+      "39312021",
+      "42576455",
+      "29136779",
+      "39245241",
+      "40389582",
+      "39908585",
+      "40449268",
+      "35993820",
+      "41903814",
+      "41961352",
+      "35130906",
+      "38797377",
+      "35131015",
+      "38552431",
+      "40550295",
+      "41412373",
+      "38547621",
+      "42576482",
+      "39447411",
+      "32853749",
+      "34398408",
+      "30658416",
+      "41242308",
+      "33749522",
+      "40406924",
+      "41880679",
+      "40752598",
+      "39350553",
+      "40500058",
+      "40360040",
+      "39356429",
+      "39331354",
+      "41151450",
+      "41508081",
+      "42595760",
+      "42015637",
+      "41668756",
+      "41643872",
+      "41130501",
+      "31926446",
+      "38636801",
+      "38493721",
+      "41261295",
+      "34038497",
+      "33045567",
+      "32212827",
+      "30058023",
+      "40453075",
+      "40858660",
+      "41819663",
+      "41265260",
+      "30362468",
+      "40701120",
+      "39755229",
+      "40338445",
+      "40071363",
+      "35030388",
+      "28950908",
+      "41508269",
+      "40250529",
+      "41536677",
+      "41724286",
+      "40484254",
+      "29765402",
+      "32488348",
+      "41224086",
+      "32964428",
+      "42320769",
+      "40527447",
+      "42052827",
+      "34119591",
+      "41948887",
+      "40153044",
+      "41419172",
+      "41038330",
+      "40378509",
+      "39413938",
+      "41988197"
+    ],
+    "review": [
+      "41723296"
+    ],
+    "pmc": [
+      "13022305"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-41351-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41723296/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3312",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

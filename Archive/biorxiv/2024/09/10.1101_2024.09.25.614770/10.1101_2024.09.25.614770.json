@@ -1,0 +1,316 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.25.614770",
+  "title": "CTCF binding landscape is shaped by the epigenetic state of the N-terminal nucleosome in relation to CTCF motif orientation",
+  "doi": "10.1101/2024.09.25.614770",
+  "abstract": "CTCF binding sites serve as anchors for the 3D chromatin architecture in vertebrates. The functionality of these anchors is influenced by the residence time of CTCF on chromatin, which is determined by its binding affinity and its interactions with nucleosomes and other chromatin-associated factors. In this study, we demonstrate that CTCF occupancy is driven by CTCF motifs, strategically positioned at the entry sides of a well-positioned nucleosome, such that, upon binding, the N-terminus of CTCF is oriented towards the nucleosome. We refer to this nucleosome as the CTCF priming nucleosome (CPN). CTCF recognizes its binding sites if they are not methylated. It can then displace the CPN, provided the nucleosome is not marked by CpG methylation or repressive histone modifications. Under these permissive conditions, the N-terminus of CTCF recruits SMARCA5 to reposition the CPN downstream, thereby creating nucleosome-free regions that enhance CTCF occupancy and cohesin stalling. In contrast, when CPNs carry repressive epigenetic marks, CTCF binding is transient, without nucleosome displacement or chromatin opening. In such cases, cohesin is not effectively retained at CTCF binding sites. We propose that the epigenetic status of CPNs shapes cell-specific CTCF binding patterns, ensuring the maintenance of chromatin architecture throughout the cell cycle. <h4>Graphical Abstract</h4>",
+  "authors": [
+    "Tajmul M",
+    "Bhatt DN",
+    "Ruje L",
+    "Price E",
+    "Ji Y",
+    "Loukinov D",
+    "Teif VB",
+    "Lobanenkov VV",
+    "Pugacheva EM"
+  ],
+  "published_date": "2024-09-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614770",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614770.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR915963",
+    "raw_record": {
+      "id": "PPR915963",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR915963"
+        ]
+      },
+      "doi": "10.1101/2024.09.25.614770",
+      "title": "CTCF binding landscape is shaped by the epigenetic state of the N-terminal nucleosome in relation to CTCF motif orientation",
+      "authorString": "Tajmul M, Bhatt DN, Ruje L, Price E, Ji Y, Loukinov D, Teif VB, Lobanenkov VV, Pugacheva EM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tajmul M",
+            "lastName": "Tajmul",
+            "firstName": "Md",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5146-8517"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhatt DN",
+            "lastName": "Bhatt",
+            "firstName": "Dharmendra Nath",
+            "initials": "DN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4652-2181"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruje L",
+            "lastName": "Ruje",
+            "firstName": "Luminita",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, , Wivenhoe Park , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Price E",
+            "lastName": "Price",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4242-3242"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ji Y",
+            "lastName": "Ji",
+            "firstName": "Yon",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loukinov D",
+            "lastName": "Loukinov",
+            "firstName": "Dmitri",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teif VB",
+            "lastName": "Teif",
+            "firstName": "Vladimir",
+            "initials": "VB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5931-7534"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, , Wivenhoe Park , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lobanenkov VV",
+            "lastName": "Lobanenkov",
+            "firstName": "Victor",
+            "initials": "VV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6665-3635"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pugacheva EM",
+            "lastName": "Pugacheva",
+            "firstName": "Elena",
+            "initials": "EM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9693-9853"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Pathology Section, Laboratory of Immunogenetics, Division of Intramural Research/ / , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5146-8517"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6665-3635"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9693-9853"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4242-3242"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5931-7534"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4652-2181"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "CTCF binding sites serve as anchors for the 3D chromatin architecture in vertebrates. The functionality of these anchors is influenced by the residence time of CTCF on chromatin, which is determined by its binding affinity and its interactions with nucleosomes and other chromatin-associated factors. In this study, we demonstrate that CTCF occupancy is driven by CTCF motifs, strategically positioned at the entry sides of a well-positioned nucleosome, such that, upon binding, the N-terminus of CTCF is oriented towards the nucleosome. We refer to this nucleosome as the CTCF priming nucleosome (CPN). CTCF recognizes its binding sites if they are not methylated. It can then displace the CPN, provided the nucleosome is not marked by CpG methylation or repressive histone modifications. Under these permissive conditions, the N-terminus of CTCF recruits SMARCA5 to reposition the CPN downstream, thereby creating nucleosome-free regions that enhance CTCF occupancy and cohesin stalling. In contrast, when CPNs carry repressive epigenetic marks, CTCF binding is transient, without nucleosome displacement or chromatin opening. In such cases, cohesin is not effectively retained at CTCF binding sites. We propose that the epigenetic status of CPNs shapes cell-specific CTCF binding patterns, ensuring the maintenance of chromatin architecture throughout the cell cycle. <h4>Graphical Abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/X511171/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.09.25.614770"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.25.614770"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR915963"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR915963&type=FILE&fileName=EMS199033-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40613712",
+            "reference": "Nucleic acids research. 2025 Jun;53(12):gkaf587",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199033",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-09-28",
+      "firstPublicationDate": "2024-09-26",
+      "firstIndexDate": "2024-09-28",
+      "fullTextReceivedDate": "2025-03-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that Gsx2 homeodomain transcription factors achieve cooperative DNA binding on dimeric sites through a combination of DNA bending and a novel protein-protein interface, with flexible A/T-rich spacer sequences enhancing cooperativity
+- **Visible evidence base** Biophysical data (AUC, CD, DSF, ITC), X-ray crystallographic structure of Gsx2 HD bound to monomeric DNA, molecular modeling of dimer complexes, bioinformatic analyses of HT-SELEX and CUT&RUN data, and EMSA-based functional assays with mutant constructs
+- **Missing materials affecting confidence** Coordinates and structure factors for the deposited PDB entry 8EML were not provided for independent validation; raw HT-SELEX and CUT&RUN datasets were not accessible; detailed statistical analysis parameters for Tau factor comparisons were not fully described; sequence alignments for the conservation analysis in Figure 6B were not shown in full
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and well-executed study addressing a significant question in homeodomain transcription factor biology: how DNA binding specificity is achieved despite similar in vitro DNA recognition motifs. The authors combine multiple biophysical techniques, structural biology, and functional assays to provide mechanistic insight into cooperative Gsx2 DNA binding. The work is technically rigorous, and the conclusions are largely supported by the data presented. The identification of a novel protein-protein interface and the role of DNA bending in cooperativity represent meaningful advances. However, several concerns regarding the structural interpretation, the generalizability of the findings, and the quantitative rigor of some analyses need to be addressed.
+- **Who would be interested in the results, and why** Researchers studying transcription factor DNA binding specificity, homeodomain protein function, developmental gene regulation, and protein-DNA co-complex formation. The findings are also relevant to those interested in the biophysical basis of protein-protein interactions on DNA and the role of DNA shape and flexibility in transcription factor binding site selection.
+- **Major strengths** The study uses a multidisciplinary approach that combines structural, biophysical, and biochemical methods to address a fundamental question. The X-ray crystal structure of Gsx2 HD bound to DNA is of good quality and provides a solid foundation for the modeling studies. The identification and validation of specific residues involved in the protein-protein interface is well supported by mutagenesis and functional assays. The integration of bioinformatic analyses with experimental validation strengthens the conclusions. The manuscript is clearly written and logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors claim that the Gsx2 HD monomer structure reveals a 20 degree DNA bend that is critical for cooperative dimer formation, and that this bend is maintained in the dimer model
+  - **Evidence pointer** Results section "Modeling Gsx2 binding to a DNA dimer site", Figure 4
+  - **Concern** The dimer model is built by computationally joining two monomer structures, but the authors did not experimentally validate this model with a high-resolution structure of the dimer complex. The claim that the 20 degree bend is "critical" for cooperative binding is inferred from modeling rather than direct structural evidence. The model assumes that the DNA bend observed in the monomer structure is preserved when two proteins bind adjacent sites, but this has not been demonstrated experimentally. Additionally, the authors state that crystallization trials of Gsx2 with dimer DNA were unsuccessful, which limits the validation of the model.
+  - **Why it matters** The central mechanistic claim of the paper, that DNA bending enables the formation of a specific protein-protein interface, rests on a computational model rather than an experimentally determined structure. Without direct structural validation, alternative explanations for cooperativity, such as indirect readout through DNA conformational changes or allosteric effects, cannot be excluded.
+  - **Resolution test** The authors should either provide experimental evidence supporting the dimer model, such as a co-crystal structure of the Gsx2 dimer bound to DNA, or clearly state the limitations of the model and provide additional biophysical evidence, such as FRET or SAXS experiments, that directly measure DNA bending in the context of dimer binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors claim that A/T-rich spacer sequences enhance Gsx2 cooperativity compared to G/C-rich spacers, based on Tau factor calculations from EMSA experiments
+  - **Evidence pointer** Results section "Testing the role of DNA spacer flexibility in cooperative Gsx2 DNA binding", Figure 5C-D, Figure S3A
+  - **Concern** The Tau factor analysis is presented as a measure of cooperativity, but the statistical treatment of the data is not fully described. The authors report Tau values of 72.5 for A/T-rich spacers and 12.6 for G/C-rich spacers, but it is unclear how many independent replicates were performed, whether the data were normally distributed, and what specific statistical test was used beyond stating "one-way ANOVA with Tukey's multiple comparisons test" in the figure legend. The variability of the Tau measurements is not shown, and the significance of the difference between A/T and G/C spacer conditions is not explicitly stated in the main text.
+  - **Why it matters** The conclusion that spacer flexibility influences cooperativity is a key finding of the paper. Without proper statistical reporting, the reader cannot assess the robustness of this effect. If the difference between A/T and G/C spacers is not statistically significant, the conclusion would be weakened.
+  - **Resolution test** The authors should provide a complete statistical analysis, including the number of replicates, measures of variance, and exact p-values for all comparisons. They should also consider presenting the data as individual data points with error bars to allow the reader to assess the distribution of the data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that the identified protein-protein interface is conserved among Gsx family members and that this mechanism may explain cooperative DNA binding in related HD proteins
+  - **Evidence pointer** Discussion section, Figure 6B
+  - **Concern** The conservation analysis shown in Figure 6B is limited to a small number of sequences and does not include a comprehensive phylogenetic analysis. The authors claim that "all Gsx family members, including Ind, contain these four residues, whereas closely related HD TFs lack many of these residues," but the alignment shown is not complete and the criteria for selecting the sequences are not described. The functional significance of the conserved residues is only tested for I234, and the other three residues are not subjected to mutagenesis.
+  - **Why it matters** The claim of evolutionary conservation strengthens the significance of the findings, but the evidence presented is insufficient to fully support this claim. A more comprehensive analysis would increase confidence in the generalizability of the mechanism.
+  - **Resolution test** The authors should provide a more complete sequence alignment with a larger number of Gsx and related HD sequences, and ideally perform mutagenesis on all four identified residues to demonstrate their functional importance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the study "identifies a Gsx2 protein-protein interface required for cooperative DNA binding," but the abstract does not mention that this interface is predicted from a computational model rather than experimentally determined.
+  - **Required correction** The abstract should be revised to clarify that the interface is predicted from molecular modeling and validated by mutagenesis, not directly observed in a co-crystal structure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5C-D, location not provided
+  - **Issue** The EMSA data in Figure 5 are presented as representative gels, but the quantification method is not fully described. The authors state that "Li-Cor image studio software was used to quantify all bands," but the specific method for background subtraction and normalization is not detailed.
+  - **Required correction** The methods section should include a more detailed description of the EMSA quantification procedure, including how background was subtracted and how the Tau factor was calculated from the raw data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and Methods, "Crystallization" section
+  - **Issue** The crystallization conditions are described, but the authors do not report the final resolution of the structure or the R-free value in the main text. These are mentioned in Table 2, but a brief statement in the text would improve readability.
+  - **Required correction** The authors should include a sentence in the Results section stating the resolution and refinement statistics of the crystal structure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions that the flanking regions of Gsx2 167-305 increase cooperativity compared to the isolated HD, but the authors do not propose a specific mechanism for this effect. The statement that the flanking regions "become structurally ordered upon DNA binding" is speculative and not directly tested.
+  - **Required correction** The authors should either provide additional data to support this speculation or clearly label it as a hypothesis that requires further investigation.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of experimental validation for the dimer model. The authors should either obtain a co-crystal structure of the Gsx2 dimer bound to DNA or provide complementary biophysical evidence, such as SAXS or FRET, to support the predicted protein-protein interface and the role of DNA bending. Additionally, the statistical analysis of the Tau factor data needs to be more rigorous and fully reported.
+- **Assessment against Nature-style criteria** Originality: The study addresses a long-standing question in the field and identifies a novel protein-protein interface, which is a significant contribution. Scientific importance: The findings have implications for understanding transcription factor specificity and cooperative DNA binding, which are fundamental processes in gene regulation. Interdisciplinary readership: The work will appeal to structural biologists, biochemists, and developmental biologists, but the broader significance for non-specialists could be more clearly articulated. Technical soundness: The experimental approaches are generally well-executed, but the reliance on a computational model for the central claim is a weakness. Readability for nonspecialists: The manuscript is clearly written, but some sections, particularly the modeling and biophysical analyses, may be challenging for readers without a structural biology background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study presents valuable data and a compelling hypothesis, but the central claim regarding the dimer interface and DNA bending requires additional experimental validation. The statistical analysis of the cooperativity data also needs to be strengthened. If these issues are addressed, the manuscript would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the 20 degree DNA bend is "critical" for cooperative dimer formation is not directly supported by experimental evidence, as it is based on a computational model.
+- The claim that the identified protein-protein interface is conserved across all Gsx family members is not fully supported by the limited sequence alignment shown.
+- The statement that flanking regions of Gsx2 167-305 "become structurally ordered upon DNA binding" is speculative and not directly tested.
+- The assertion that A/T-rich spacer sequences enhance cooperativity is supported by the data, but the statistical significance of the effect is not fully reported.

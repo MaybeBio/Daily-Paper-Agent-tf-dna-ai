@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgments) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of formatting, grammar, or journal policy.
+- **Shared manuscript claim summary** The authors use molecular docking and all-atom molecular dynamics simulations to study binding of hyaluronic acid (HA2, HA4) and mannuronic acid (ManA6) to the polysaccharide lyase Smlt1473 and mutants H221F and R312L. They identify residues important for substrate binding, including R218, R312, and newly predicted K56, R107, and R164, and validate the latter three via wet-lab activity assays.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.6), Results (Sections 3.1-3.4), Discussion/Conclusions, Acknowledgments. Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1-S27) and tables (S1-S13) are referenced but not included. Raw simulation data, docking scores, force field parameters, and experimental activity data (e.g., specific absorbance values, replicates) are not provided. The crystal structure PDB ID is not stated.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational study of substrate binding to Smlt1473 and its mutants, with some experimental validation. However, the evidence as presented is insufficient to fully support the central claims. Key methodological details are missing, the link between computed binding energies and experimentally observed activity is not rigorously established, and the experimental validation is limited to a small set of mutants without quantitative data. The work is of interest to a specialized audience in enzyme engineering and computational biophysics, but the current form does not meet the standards of a high-impact general journal.
+- **Who would be interested in the results, and why** Researchers in enzyme engineering, polysaccharide lyase biochemistry, and computational enzymology. The study offers a workflow combining docking, MD, clustering, and mutagenesis that could inform rational design of lyases for biotechnological applications. The identification of specific residues (R218, R312, K56, R107) may guide future experimental studies.
+- **Major strengths** 1. The study addresses a relevant problem: understanding substrate specificity in a multi-substrate polysaccharide lyase. 2. The combination of computational prediction with experimental validation is commendable. 3. The use of multiple clustering methods (KMeans and GMVAE) to analyze MD trajectories is a modern approach. 4. The authors consider protonation states based on pH, which is important for pH-dependent activity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "R218 plays an important role in substrate binding" and that this explains the activity changes due to H221F mutation.
+  - **Evidence pointer** Section 3.1, Table 1, Figure 6; Section 3.2, Table 2, Figure 9; Section 3.3, Table 3, Figure 12.
+  - **Concern** The claim that R218's interaction changes are the cause of altered activity is based on per-residue interaction energy differences between WT and mutant. However, the authors do not provide a statistical analysis of these energy differences (e.g., standard errors, significance tests). The reported energies are presented as single values with uncertainties (e.g., −505+1 KJ/mol), but it is unclear if these are standard errors or standard deviations, and whether the differences between WT and mutant are significant given the variability across replicas.
+  - **Why it matters** Without statistical rigor, the causal link between specific residue interactions and activity changes is speculative. The authors themselves note that "from these values alone it is hard to draw some correlations about the overall activities," which undermines the central claim.
+  - **Resolution test** Provide per-replica energy values, standard errors, and statistical tests (e.g., t-tests or bootstrap) comparing WT and mutant interaction energies for key residues. Show that the differences are significant and reproducible across replicas.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Machine-Learning based clustering algorithms were used to group the entire simulation trajectory into various stable states" and that these states are meaningful.
+  - **Evidence pointer** Section 2.3, Section 3.1-3.3, Figures 3, S15, S16, S24, S25.
+  - **Concern** The clustering methodology is described only briefly. The choice of input features (distances between Cα carbons and sugar center of mass) is not justified, and the number of clusters is not reported. The authors state that the set of residues was "tuned to get a good enough value for our loss function," but no details on the tuning process, the loss function, or the validation of cluster stability are provided. The comparison between KMeans and GMVAE is qualitative, and the claim that GMVAE provides "more physically meaningful" clusters is not supported by quantitative metrics.
+  - **Why it matters** The clustering is a core methodological contribution, and the interpretation of binding states and energies depends on the validity of the clusters. Without clear methodology and validation, the results are not reproducible and the conclusions drawn from cluster-specific energies are unreliable.
+  - **Resolution test** Provide a detailed description of the clustering procedure, including feature selection, number of clusters (e.g., using elbow method or silhouette score), and validation of cluster stability (e.g., via bootstrap or independent runs). Quantitatively compare KMeans and GMVAE using metrics such as silhouette score or Davies-Bouldin index.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the simulations were able to predict residues (R107 and K56) that did in fact play a role in sugar binding, as mutations at these positions led to altered activity against ManA and HA."
+  - **Evidence pointer** Section 3.4, Figure 13.
+  - **Concern** The experimental validation is presented only as qualitative statements (e.g., "significant decrease in activity") without showing actual data. No absorbance values, error bars, replicates, or statistical tests are provided. The control mutants (H221F, Y222F) are mentioned but their data are not shown. The claim of "significant" changes is therefore unsupported.
+  - **Why it matters** The experimental validation is the key evidence that the computational predictions have biological relevance. Without quantitative data and statistical analysis, the claim that the simulations successfully predicted functionally important residues is not established.
+  - **Resolution test** Provide the full activity assay data, including absorbance values, standard deviations, number of replicates, and statistical tests (e.g., ANOVA or t-tests) comparing each mutant to WT for both substrates. Show the data for control mutants as well.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we choose to study the mutants H221F and R312L as they display drastic changes in activity compared to the wildtype (WT)."
+  - **Evidence pointer** Section 1 (Introduction), Section 3.
+  - **Concern** The rationale for choosing H221F and R312L is not fully explained. The authors reference prior work (refs 10, 11) but do not summarize the reported activity changes. Moreover, the choice of H221F is puzzling given that the authors later state that H221F shows opposing effects on HA and ManA, which is interesting but not contextualized.
+  - **Why it matters** Understanding why these specific mutants were chosen is important for evaluating the study's design and the generalizability of the findings.
+  - **Resolution test** Briefly summarize the previously reported activity data for H221F and R312L, and explain how these informed the selection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Section 1, paragraph 1
+  - **Issue** The introduction jumps quickly into technical details without providing a clear background on why Smlt1473 is important or what the broader implications of this work are.
+  - **Required correction** Add a brief paragraph explaining the biological and biotechnological significance of polysaccharide lyases and Smlt1473 specifically.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The simulation length is not stated. The authors mention "750 ns of production run for each ligand with 2 replicas," but it is unclear if this is per replica or total.
+  - **Required correction** Clarify the simulation length per replica and the total simulation time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The docking protocol is described as using Rosetta, but no details on scoring function, constraints, or validation of docking poses are provided.
+  - **Required correction** Provide more details on the docking protocol, including any validation against known binding poses.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Sections 3.1-3.3
+  - **Evidence pointer** Figures 4, 7, 10
+  - **Issue** The interaction energy figures are not described in the text. It is unclear what exactly is plotted (e.g., per-residue energies, total energies) and how to interpret them.
+  - **Required correction** Add a description of the figures in the text, explaining the axes and the meaning of the plotted values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion/Conclusions
+  - **Evidence pointer** Discussion/Conclusions, final paragraph
+  - **Issue** The claim that this work is "a start to our future attempts to build a machine-learning model" is vague and not supported by the current study.
+  - **Required correction** Either remove this statement or provide a more concrete outline of how the current findings will inform future ML efforts.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of statistical analysis for interaction energy differences (R1-M1). 2. Incomplete description and validation of clustering methodology (R1-M2). 3. Missing quantitative experimental data for activity assays (R1-M3). 4. Unclear simulation setup details (e.g., simulation length, replica structure) (R1-m2). 5. Insufficient docking protocol details (R1-m3).
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of ML-based clustering to MD trajectories of a polysaccharide lyase is somewhat novel, but the overall approach (docking + MD + mutagenesis) is not new. Scientific importance: Limited. The findings are incremental and do not provide a major conceptual advance. The identification of a few residues is useful but not transformative. Interdisciplinary readership: Low. The manuscript is highly specialized and would appeal mainly to computational biophysicists and enzyme engineers. Technical soundness: Weak. The methodology is not fully described, and the lack of statistical rigor undermines the conclusions. Readability for nonspecialists: Poor. The manuscript assumes deep familiarity with MD, docking, and enzyme kinetics without adequate background.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not supported by the evidence as presented. Major revisions are required to address the statistical, methodological, and experimental data gaps.
+
+## Risk / unsupported claims
+- The claim that R218's interaction changes explain the opposing activity effects of H221F on HA vs. ManA is unsupported due to lack of statistical analysis.
+- The claim that K56, R107, and R164 are "important for substrate binding" is only partially supported; R164 mutation showed no activity change, and the authors' interpretation is speculative.
+- The claim that GMVAE provides "more physically meaningful" clusters than KMeans is unsupported by quantitative evidence.
+- The claim that the simulations "can provide valuable insight for determining residues that are most important to general binding" is overstated given the limited experimental validation.
+- The overall binding energy values (e.g., −505+1 KJ/mol) are presented without clear definition of the energy calculation method or its uncertainty.

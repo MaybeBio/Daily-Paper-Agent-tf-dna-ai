@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and technical soundness of the presented work, assessed against the standards of a Nature-style journal.
+- **Shared manuscript claim summary** The authors report the crystal structure of the MEILB2-BRME1 2:2 core complex, revealing a parallel four-helical assembly with an N-terminal β-cap that binds DNA. They further show that BRCA2-binding induces dimerization of this complex into a V-shaped 2:4:4 assembly, with β-caps separated by 25 nm, and propose that this acts as a DNA clamp to bridge DNA molecules during meiotic recombination.
+- **Visible evidence base** The manuscript includes the abstract, introduction, results sections (with descriptions of crystallography, mutagenesis, SEC-MALS, SEC-SAXS, EMSA, and in vivo localization experiments), discussion, and materials and methods. Figures and tables are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures, figure legends, supplementary figures, and supplementary tables are not provided. The in vivo localization data (Figure 3d) is described but not shown. The EMSA quantification details and raw data are not fully available. The AlphaFold2 model confidence metrics are not presented.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural advance in understanding the meiotic recombination machinery. The crystal structure of the MEILB2-BRME1 core complex is novel and well-executed, and the proposed model of a BRCA2-induced V-shaped DNA clamp is conceptually interesting. However, the functional evidence supporting the DNA clamp model is largely indirect, relying on in vitro binding assays and a structural model rather than direct functional assays. The in vivo relevance of the proposed mechanism remains speculative. The manuscript would be strengthened by more direct evidence of DNA bridging in a cellular context and by addressing several technical concerns regarding the structural model and binding assays.
+- **Who would be interested in the results, and why** Structural biologists studying DNA repair and recombination complexes, meiosis researchers, and scientists interested in the molecular mechanisms of BRCA2 function. The work provides a new structural framework for understanding how accessory factors organize recombination machinery at meiotic DSBs.
+- **Major strengths** 1. The crystal structure of the MEILB2-BRME1 core complex is novel and provides the first high-resolution view of this meiotic-specific complex. 2. The identification of a β-cap as a DNA-binding module is an unexpected and interesting finding. 3. The combination of structural, biophysical, and in vivo localization data provides a multi-pronged approach. 4. The proposed model of a V-shaped clamp with 25 nm separation between DNA-binding sites is visually compelling and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The central claim that "BRCA2 induces MEILB2-BRME1 to function as a DNA clamp, connecting resected DNA ends or homologous chromosomes to facilitate meiotic recombination" is not directly supported by functional data.
+  - **Evidence pointer** Results sections "MEILB2-BRME1 binds to DNA via its β-cap" and "BRCA2-MEILB2-BRME1 acts as a DNA clamp"; Figure 7
+  - **Concern** The DNA clamp model is inferred from in vitro EMSA data showing that the ternary complex can form large networks with DNA, and from the structural model showing a 25 nm separation between β-caps. However, no direct evidence is provided that the complex actually bridges two distinct DNA molecules in a functional context. The EMSA experiments show network formation, but this could be due to non-specific aggregation or multiple binding modes. The authors do not demonstrate that the two β-caps of a single 2:4:4 complex can simultaneously bind two separate DNA molecules, nor do they provide any cellular or in vivo evidence for DNA bridging.
+  - **Why it matters** The proposed function as a DNA clamp is the central mechanistic claim of the manuscript. Without direct evidence of DNA bridging, the functional significance of the V-shaped structure remains speculative. The title and abstract emphasize this clamp function, so it is essential to the paper's impact.
+  - **Resolution test** The authors should provide more direct evidence of DNA bridging, such as single-molecule experiments showing simultaneous binding of two DNA molecules by a single 2:4:4 complex, or atomic force microscopy (AFM) imaging of the complex with DNA. Alternatively, they could perform in vivo experiments to test whether the DNA-binding residues are required for meiotic progression or crossover formation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validation
+  - **Claim pointer** The claim that the AlphaFold2 model of the full MEILB2-BRME1 2:2 complex is reliable and that the V-shaped 2:4:4 model is accurate.
+  - **Evidence pointer** Results sections "Structure of the full MEILB2-BRME1 complex" and "BRCA2 dimerises MEILB2-BRME1 to form a V-shaped assembly"; Figure 4 and 6
+  - **Concern** The full-length model is generated by AlphaFold2 with enforced template usage, but no confidence metrics (e.g., pLDDT, PAE) are provided. The V-shaped 2:4:4 model is generated by docking, but no validation of this docking is presented. The SAXS data are fitted with chi-squared values of 2.96 and 1.36, which are relatively high and may indicate imperfect fits. The authors do not show the SAXS fits or provide error analysis.
+  - **Why it matters** The structural models are the basis for the proposed mechanism. If the models are inaccurate, the entire mechanistic interpretation is compromised. The lack of validation metrics makes it difficult to assess the reliability of the models.
+  - **Resolution test** The authors should provide AlphaFold2 confidence metrics (pLDDT and PAE plots) for the full-length model. For the V-shaped model, they should provide a more rigorous validation, such as comparing the SAXS data with the model using multiple independent fitting algorithms and providing error estimates. They should also show the SAXS fit curves.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** The claim that "the MEILB2-binding interface of BRME1 observed in the crystal structure is solely responsible for its interaction with MEILB2 and its recruitment to meiotic DSBs in vivo."
+  - **Evidence pointer** Results section "BRME1 recruitment to meiotic DSBs requires its MEILB2-binding interface"; Figure 3
+  - **Concern** The in vivo localization experiment is described but the data are not shown in the provided text. The experiment uses a 3E mutant that disrupts the four-helical bundle, but it is not clear whether this mutant affects BRME1 protein stability or folding. The authors state that the 3E mutation prevented complex formation in vitro, but they do not show that the mutant protein is properly folded. The conclusion that the interface is "solely responsible" is strong and may be overstated given that only one mutant was tested.
+  - **Why it matters** The in vivo localization data are key to establishing the physiological relevance of the structural interface. If the mutant protein is misfolded or unstable, the loss of localization could be due to non-specific effects rather than a specific disruption of the MEILB2 interaction.
+  - **Resolution test** The authors should show the localization data and provide evidence that the 3E mutant is properly folded and stable (e.g., circular dichroism, thermal stability). They should also test additional mutants to confirm the specificity of the effect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "MEILB2-BRME1 2:2 complexes dimerize into a V-shaped 2:4:4 complex" but the stoichiometry is confusing. The 2:4:4 complex presumably contains two MEILB2, four BRME1, and four BRCA2 molecules, but this is not explicitly stated.
+  - **Required correction** Clarify the stoichiometry of the 2:4:4 complex in the abstract and results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** EMSA methods
+  - **Evidence pointer** Materials and methods, "Electrophoretic mobility shift assays (EMSAs)"
+  - **Issue** The EMSA buffer conditions are not specified. The authors state that binding was performed in 20 mM HEPES pH 7.5, 325 mM KCl, but do not mention the presence of divalent cations (e.g., Mg2+) which are often required for DNA binding.
+  - **Required correction** Specify the complete buffer composition for EMSA experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Results section "MEILB2-BRME1 binds to DNA via its β-cap"; Figure 5
+  - **Issue** The EMSA data in Figure 5b,c are described but not shown. The quantification of binding affinities is presented, but the raw data are not available for assessment.
+  - **Required correction** Ensure that the EMSA gels and quantification are clearly presented in the final figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion speculates about the role of the DNA clamp in meiotic recombination but does not fully consider alternative models or potential limitations of the proposed mechanism.
+  - **Required correction** Add a more balanced discussion of alternative interpretations and the limitations of the current study.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of direct evidence for DNA bridging by the 2:4:4 complex (R1-M1). 2. Insufficient validation of the AlphaFold2 and docking models (R1-M2). 3. Incomplete presentation of in vivo localization data and potential non-specific effects of the 3E mutant (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The structure of the MEILB2-BRME1 complex is novel, and the proposed DNA clamp mechanism is a new concept in meiotic recombination. The work is original and provides a new framework for understanding this process. **Scientific importance:** The work addresses a fundamental question in meiosis and DNA repair. The proposed mechanism could have broad implications for understanding how recombination is regulated. However, the functional evidence is not yet strong enough to fully establish the importance of the proposed clamp mechanism. **Interdisciplinary readership:** The work will appeal to structural biologists, meiosis researchers, and DNA repair scientists. The findings are likely to be of interest to a broader readership interested in chromosome dynamics. **Technical soundness:** The crystallographic work appears technically sound, with good resolution and refinement statistics. The biophysical experiments are appropriate, but the validation of the models and the functional assays need improvement. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, but the structural details and the proposed mechanism may be challenging for non-specialists. The abstract is clear, but the results section could benefit from more context for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is novel and significant, but the central claim of a DNA clamp function requires more direct evidence. The authors should address the concerns regarding model validation and functional assays before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the MEILB2-BRME1 complex acts as a DNA clamp in vivo is not directly supported by the presented data. The in vitro EMSA data show network formation, but this does not prove that the complex bridges two DNA molecules in a cellular context.
+- The claim that the MEILB2-BRME1 interface is "solely responsible" for BRME1 recruitment to DSBs is not fully supported, as only one mutant was tested and the data are not shown.
+- The AlphaFold2 model of the full-length complex and the docked V-shaped model are not validated with confidence metrics or independent methods, making their accuracy uncertain.
+- The statement that the β-cap is a "rigid platform" for DNA binding is an interpretation based on the structure, but no direct evidence of rigidity is provided.

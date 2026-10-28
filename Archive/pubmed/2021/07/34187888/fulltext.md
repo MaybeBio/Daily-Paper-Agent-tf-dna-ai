@@ -1,0 +1,5 @@
+# Deep representation learning improves prediction of LacI-mediated transcriptional repression
+
+
+## Significance
+  The understanding of protein function increases with new experimental and evolutionary datasets. A major challenge is to apply machine learning to these datasets to capture essential features of protein function. Here, we analyze the experimentally determined repression function for tens of thousands of mutants of the LacI protein. This study provides a continuous, noncategorical repression value across a majority of all single mutations and for thousands of higher-order mutations. To develop a top-performing model for the prediction of repression by LacI, we compare several leading variant effect prediction algorithms. A deep representation learning paradigm, first trained across millions of proteins from all known protein families and then fine-tuned using LacI experimental data, offers the highest predictive performance of repression function.

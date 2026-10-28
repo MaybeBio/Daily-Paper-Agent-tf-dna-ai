@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that sertraline hydrochloride (STH) binds to CT-DNA via the minor groove, as supported by hypochromic absorption shifts, static fluorescence quenching, thermodynamic parameters indicating spontaneous and enthalpy-driven binding, competitive displacement of DAPI, molecular docking, 150 ns molecular dynamics simulations, MM/PBSA binding energy calculations, and CD spectroscopy showing changes in the minor groove width.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, computational parameters, error bars, statistical analyses, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and internally consistent story for minor groove binding of STH to CT-DNA, combining multiple experimental and computational techniques. However, the absence of quantitative data, methodological details, and control experiments in the abstract limits the ability to critically evaluate the strength of the evidence. The conclusions are broadly consistent with the described techniques, but several claims require verification against the full manuscript.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug-DNA interaction studies, and structural biology would find these results relevant. The work also has potential interest for those studying off-target effects of antidepressants and for computational chemists applying docking and MD simulations to ligand-DNA systems.
+- **Major strengths** The study employs a multi-technique approach that combines spectroscopic methods (UV-Vis, fluorescence, CD) with computational tools (docking, MD, MM/PBSA), which strengthens the overall case for the binding mode. The inclusion of competitive displacement with DAPI provides a direct experimental test of minor groove binding. The 150 ns MD simulation timescale is reasonable for assessing complex stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that hypochromic shift of absorption spectra indicates groove binding.
+  - **Evidence pointer** Abstract, "The hypochromic shift of the absorption spectra of STH on binding with CT-DNA indicated groove binding." Location not provided.
+  - **Concern** Hypochromicity alone is not diagnostic of groove binding. Intercalation also produces hypochromic and bathochromic shifts, and groove binding can produce variable spectral changes depending on the chromophore and solvent environment. The abstract does not report the magnitude of the shift, whether a bathochromic shift accompanied the hypochromicity, or how this was distinguished from intercalation.
+  - **Why it matters** The central conclusion of the paper is the binding mode. If the assignment of groove binding rests primarily on this spectral observation, the claim is underdetermined without additional evidence such as viscosity measurements, melting temperature studies, or comparison with known groove binders.
+  - **Resolution test** Provide quantitative spectral data (wavelength, absorbance changes) and demonstrate that the observed changes are inconsistent with intercalation, for example through viscosity or ethidium bromide displacement assays, or by showing that the spectral changes match those of a known minor groove binder under identical conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The abstract claims that thermodynamic parameters indicated spontaneous and enthalpy-driven binding.
+  - **Evidence pointer** Abstract, "The thermodynamic parameters indicated that the complex formation was spontaneous, and enthalpy driven." Location not provided.
+  - **Concern** No numerical values for Gibbs free energy, enthalpy, or entropy are provided. The claim of spontaneity and enthalpy-driven binding cannot be assessed without these values, nor can the reader determine the magnitude of the driving force or whether entropy opposes binding.
+  - **Why it matters** Thermodynamic characterization is a key piece of evidence for the binding mechanism. Without numbers, the claim is unverifiable and the reader cannot judge whether the conclusions follow from the data.
+  - **Resolution test** Report the values of ΔG, ΔH, and ΔS with associated errors, and state the temperature range over which they were determined. Show that the signs and magnitudes support the stated interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Consistency of evidence
+  - **Claim pointer** The abstract claims that CD spectroscopy showed STH induced changes in the sugar-phosphate backbone that impacted the minor groove width, and that these agree with the docking and MD results.
+  - **Evidence pointer** Abstract, "a structural analysis of CT-DNA indicated that STH induced changes in the sugar-phosphate backbone had an impact on the minor groove's width which are in agreement with the CD spectroscopic results." Location not provided.
+  - **Concern** The abstract does not specify what CD changes were observed, how they were interpreted as backbone changes, or how the "structural analysis" was performed. The link between CD spectral changes and minor groove width is indirect and requires a detailed explanation of the structural basis for this interpretation.
+  - **Why it matters** The agreement between experimental and computational results is a central strength of the paper. If the CD interpretation is not clearly justified, the claimed agreement may be overstated.
+  - **Resolution test** Provide the CD spectra with assignments of the relevant bands, explain the structural interpretation of the observed changes, and show explicitly how the MD-derived minor groove widths correlate with the CD data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, "The use of these medications without a legitimate prescription might result in adverse effects, and in rare circumstances, death."
+  - **Evidence pointer** Abstract, first sentence. Location not provided.
+  - **Issue** This statement is a general pharmacological warning that is not directly relevant to the binding studies and may be seen as tangential to the scientific content.
+  - **Required correction** Consider removing or shortening this statement to focus the abstract on the scientific findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, "The binding energy of the stable conformations were evaluated through MM/PBSA methods."
+  - **Evidence pointer** Abstract, MM/PBSA sentence. Location not provided.
+  - **Issue** The abstract does not report the binding energy values or how many conformations were analyzed. The plural "conformations" suggests multiple structures were evaluated, but the range of energies is not given.
+  - **Required correction** Report the mean binding energy with standard deviation and the number of conformations analyzed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, "A comparison of the bound poses at different timescales showed minor changes in STH structure upon DNA binding."
+  - **Evidence pointer** Abstract, MD comparison sentence. Location not provided.
+  - **Issue** The term "minor changes" is vague. The reader cannot assess the significance of these structural changes without quantitative measures such as RMSD or RMSF values.
+  - **Required correction** Provide quantitative measures of structural stability, such as ligand RMSD over the simulation time.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The binding mode assignment, thermodynamic characterization, and the agreement between CD and computational results are all central to the paper's conclusions and cannot be verified from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The combination of techniques applied to STH-DNA binding is not novel in approach, but the specific drug target is of some interest. Scientific importance: Moderate. The work adds to the understanding of an antidepressant's off-target interactions but does not present a fundamentally new phenomenon. Interdisciplinary readership: The work bridges pharmacology, biophysical chemistry, and computational biology, which could attract readers across these fields. Technical soundness: Cannot be fully assessed from the abstract. The described methods are appropriate, but the lack of quantitative data prevents verification. Readability for nonspecialists: The abstract is generally clear, though some terms (e.g., MM/PBSA, CD) are used without explanation, which is acceptable for a specialist journal but would limit broader accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a coherent narrative, but the absence of quantitative data and methodological details means the central claims cannot be verified. A supportive recommendation would require the full manuscript to address the concerns raised, particularly the binding mode assignment and thermodynamic parameters.
+
+## Risk / unsupported claims
+- The claim that hypochromic shift indicates groove binding is unsupported without additional discriminating evidence.
+- The claim of spontaneous and enthalpy-driven binding is unsupported without numerical thermodynamic data.
+- The claim of agreement between CD results and computational structural analysis is unsupported without specific CD data and structural metrics.
+- The claim that the complex was stable over 150 ns is unverifiable without RMSD or similar stability metrics.
+- The claim that STH displaced DAPI from the minor groove is plausible but unverifiable without displacement data or binding constants.

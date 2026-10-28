@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, methods, results, discussion, conclusion) as provided. Figures referenced but not fully viewable; supplementary materials not provided.
+- **Assessment boundary** Assessment is limited to the content of the provided manuscript text. Claims regarding experimental results, benchmark performance, and methodological novelty are evaluated based on the text alone. Figure contents, supplementary tables, and additional notes are referenced but not independently verifiable from the supplied material.
+- **Shared manuscript claim summary** The authors propose GRLGRN, a deep learning model for gene regulatory network (GRN) inference from single-cell RNA-seq data. The model uses a graph transformer network to extract implicit links from a prior GRN, a GCN to generate gene embeddings, a CBAM attention module for feature refinement, and graph contrastive learning as a regularization term. The authors claim superior performance over six existing methods across 42 benchmark datasets from seven cell lines and three ground-truth networks, with average AUROC and AUPRC improvements of 7.3% and 30.7%, respectively. Ablation studies and interpretability analyses are also reported.
+- **Visible evidence base** The manuscript text includes: (i) a detailed description of the model architecture (Eqs. 1-10), (ii) benchmark dataset descriptions (BEELINE database, seven cell lines, three ground-truth networks), (iii) performance comparison results summarized in Table 1 and described in text, (iv) ablation study results described in text, (v) interpretability analysis of the graph transformer layer, and (vi) a network visualization case study. Figures are referenced but their actual content is not fully visible in the provided text.
+- **Missing materials affecting confidence** Supplementary file 1 (including Tables S1-S12, Figures S1-S7, Supplementary Notes S1-S2) is not provided. Full figure contents (Figs. 1-11) are not visible. Details on hyperparameter settings, training procedures, and statistical significance testing are not fully described in the text. The exact implementation of the graph contrastive learning loss and the automatic weighted loss technique is only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound and reasonably well-structured approach to GRN inference, combining several established deep learning components (graph transformer, GCN, CBAM, contrastive learning) in a novel configuration. The empirical evaluation is broad, covering 42 datasets and comparing against six baselines. However, the manuscript has several weaknesses that limit its current impact: (i) the novelty of the architectural combination is incremental rather than transformative, (ii) the evaluation methodology lacks statistical rigor (no significance tests, no variance reporting), (iii) the interpretability analysis is superficial and does not validate biological relevance, and (iv) the comparison with state-of-the-art methods is incomplete, omitting several recent GRN inference tools. The writing is generally clear but contains some redundancy and imprecise statements. The work is likely of interest to the computational biology community, particularly those working on GRN inference, but the claims of superiority need to be tempered and better supported.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics analysis, and graph-based deep learning applications in genomics. The paper would also be of interest to researchers developing deep learning methods for biological network prediction tasks, as the architectural components (graph transformer, CBAM, contrastive learning) are transferable. The interpretability analysis, though limited, may appeal to those interested in model explainability in genomics.
+- **Major strengths** (1) The model architecture integrates several advanced deep learning components in a coherent pipeline, demonstrating the potential of graph transformer networks for GRN inference. (2) The evaluation is extensive, covering 42 datasets across multiple cell types and ground-truth networks, which provides a robust benchmark comparison. (3) The ablation study is well-designed, isolating the contributions of the graph transformer layer and CBAM. (4) The inclusion of graph contrastive learning as a regularization mechanism is a thoughtful approach to address over-smoothing, a known issue in GNNs. (5) The interpretability analysis, while limited, attempts to provide insight into the learned implicit links, which is a step beyond purely predictive performance.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that GRLGRN "achieved the best predictions in AUROC and AUPRC on 78.6% and 80.9% of the datasets, and achieved an average improvement of 7.3% in AUROC and 30.7% in AUPRC" (Results section, Table 1).
+    - **Evidence pointer** Results section, Table 1, Figure 6
+    - **Concern** The performance comparison lacks statistical rigor. The manuscript reports only average AUROC and AUPRC values without any measure of variance (e.g., standard deviation, confidence intervals) or statistical significance testing (e.g., paired t-test, Wilcoxon signed-rank test) across the 42 datasets. The claim of "best predictions" on a percentage of datasets is descriptive but does not establish whether the observed differences are statistically meaningful. Furthermore, the text states "average improvement of 7.3% in AUROC and 30.7% in AUPRC" but does not specify the baseline for these improvements (e.g., improvement over the second-best method, or over the mean of all baselines). This ambiguity makes the headline performance claim difficult to interpret.
+    - **Why it matters** Without statistical testing, the reader cannot assess whether GRLGRN's performance advantage is robust or could be due to chance. The lack of variance reporting also prevents assessment of the stability of the method across datasets. This is a critical issue for a paper whose primary contribution is empirical performance improvement.
+    - **Resolution test** Provide standard deviations or confidence intervals for AUROC and AUPRC across the 42 datasets. Conduct and report paired statistical significance tests (e.g., Wilcoxon signed-rank test) comparing GRLGRN against each baseline. Clearly define the baseline for the reported percentage improvements.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "GRLGRN uses a graph transformer network to extract implicit links from the prior GRN" and that these implicit links are "two-length meta-path graphs" (Methods, Gene embedding module).
+    - **Evidence pointer** Methods section, Gene embedding module, Equations 1-3, Figure 1A
+    - **Concern** The description of the graph transformer layer is insufficient for reproducibility. The manuscript states that the adjacency matrices of five graphs are concatenated and passed through "two parallel, parameterized layers" to produce Q(1) and Q(2), whose inner product yields the implicit link adjacency matrix. However, the exact architecture of these "parameterized layers" is not specified. Are they linear transformations? Multi-layer perceptrons? What are their dimensions? How is the number of output channels B determined? The reference to [32] for the graph transformer is not sufficient, as the specific adaptation to this problem (e.g., how the five graphs are combined, the role of the learned weights epsilon) is not fully explained. This lack of detail prevents replication.
+    - **Why it matters** Reproducibility is a cornerstone of scientific publication. Without a complete specification of the model architecture, other researchers cannot implement or build upon the proposed method. The novelty of the approach hinges on this specific architectural design, so it must be fully described.
+    - **Resolution test** Provide a complete and precise description of the graph transformer layer, including the architecture of the parameterized layers, the dimensionality of all intermediate tensors, and the exact computation of the attention weights epsilon. Consider providing pseudocode or a detailed algorithmic box.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors claim that GRLGRN "can provide relatively significant causal inference performances for directed GRNs" (Results, Performance on benchmark datasets).
+    - **Evidence pointer** Results section, Performance on benchmark datasets, Figure 7, Tables S3-S4
+    - **Concern** The causal inference evaluation is underdeveloped. The manuscript briefly mentions a modified output module for directed inference (Figure 2) and reports that non-causal inference outperforms causal inference on 71.4% and 78.6% of datasets. However, the evaluation of causal inference is limited to a comparison with the non-causal variant. There is no comparison with other causal GRN inference methods, no evaluation of directionality accuracy (e.g., precision/recall for directed edges), and no discussion of what "causal" means in this context. The claim of "relatively significant" causal inference performance is vague and not supported by the presented evidence.
+    - **Why it matters** Causal inference is a major challenge in GRN reconstruction, and the ability to infer directionality is a key differentiator for many methods. If the authors claim causal inference capability, they need to evaluate it rigorously against appropriate baselines and metrics. The current treatment is too superficial to support the claim.
+    - **Resolution test** Provide a dedicated evaluation of the causal inference variant, comparing against at least one or two established causal GRN inference methods. Report metrics specific to directed edge prediction (e.g., directed AUPRC, orientation accuracy). Discuss the limitations of the causal interpretation.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "the interpretation of its results and network visualization provided insights that can help us better understand GRNs" (Conclusion) and specifically discuss the hub gene TFAP2A (Results, Network visualization).
+    - **Evidence pointer** Results section, Network visualization of prediction results, Figure 11
+    - **Concern** The interpretability analysis is anecdotal and lacks quantitative validation. The manuscript discusses the biological importance of TFAP2A, but this is a well-known gene, and its identification as a hub does not validate the model's predictions. The claim that "GRLGRN is able to identify hub genes with high degrees" is not supported by any comparison with known hub genes or with hubs identified by other methods. The visualization in Figure 11B shows predicted interactions, but there is no quantitative assessment of whether these predictions are enriched for true interactions beyond the benchmark set.
+    - **Why it matters** Interpretability is a claimed contribution, but the analysis is too shallow to be informative. Anecdotal discussion of a single well-characterized gene does not demonstrate that the model provides generalizable biological insights. The interpretability claim needs to be either substantiated with quantitative analysis or significantly toned down.
+    - **Resolution test** Provide a quantitative interpretability analysis, such as enrichment of predicted hubs for known disease-associated genes or comparison of hub gene rankings with those from other methods. Alternatively, clearly frame the visualization as a case study and remove the general claim about interpretability.
+    - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors state that "GRLGRN achieved the best predictive performance... with average improvements of 7.3% and 30.7%" (Results, Table 1) and position this as the key contribution.
+    - **Evidence pointer** Results section, Table 1, Figure 6
+    - **Concern** The comparison with existing methods is incomplete. The manuscript compares against GNNLINK, GENELINK, STGRNS, GNE, GRNBoost2, and GENIE3. While these are reasonable baselines, several recent and widely used GRN inference methods are not included, such as PIDC, SCODE, LEAP, or more recent deep learning approaches like DeepSEM or GRNBoost2 variants. The absence of these methods weakens the claim of state-of-the-art performance. Additionally, the manuscript does not discuss the computational cost of GRLGRN relative to the baselines, which is an important practical consideration.
+    - **Why it matters** The scientific importance of the work depends on demonstrating a clear advantage over the current state of the art. An incomplete comparison may overstate the contribution. Practical considerations like computational efficiency are also important for adoption.
+    - **Resolution test** Expand the baseline comparison to include additional recent GRN inference methods. Report computational time and resource usage for all methods. Discuss the trade-offs between performance and computational cost.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Background section
+    - **Evidence pointer** Background, first paragraph
+    - **Issue** The background section is somewhat repetitive, with the importance of GRNs and the challenges of scRNA-seq data being stated multiple times in similar terms.
+    - **Required correction** Condense the background to a single, focused statement of the problem and the gap the paper addresses.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Model training
+    - **Evidence pointer** Methods, Model training, Figure 5
+    - **Issue** The hyperparameter selection process is described briefly. The manuscript states that learning rate and feature dimension were set to 0.0002 and 256, respectively, based on Figure 5, but does not describe the range of values tested or the selection criterion beyond "AUROC scores."
+    - **Required correction** Provide a brief description of the hyperparameter search space and the selection methodology.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Results, Performance on benchmark datasets
+    - **Evidence pointer** Results, Performance on benchmark datasets, Figure 6
+    - **Issue** The description of Figure 6 is dense and could be clearer. The text mentions "average improvements of approximately 6.7% (12 of 14), 3.6% (8 of 14), and 6.35% (13 of 14)" but does not clearly explain what the numbers in parentheses represent.
+    - **Required correction** Clarify the notation, e.g., "GRLGRN outperformed the second-best method on 12 of 14 datasets, with an average improvement of 6.7%."
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Output module
+    - **Evidence pointer** Methods, Output module, Equation 7
+    - **Issue** The description of the causal inference output module is brief. The manuscript states that the output is a score p in [0,1] for causal regulation from gene i to gene j, but does not explain how the three-class softmax output is interpreted or how the final binary prediction is derived.
+    - **Required correction** Clarify the interpretation of the three-class output and the decision rule for predicting a causal edge.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion, first paragraph
+    - **Issue** The discussion of limitations is brief and focuses only on the supervised learning dependency. Other limitations, such as the reliance on prior GRN quality and the potential for bias in benchmark datasets, are not discussed.
+    - **Required correction** Expand the limitations paragraph to address these additional concerns.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (reproducibility of the graph transformer layer), R1-M3 (causal inference evaluation), R1-M4 (interpretability validation).
+- **Assessment against Nature-style criteria** 
+    - **Originality** Moderate. The combination of a graph transformer with CBAM and contrastive learning for GRN inference is novel, but each component is established. The incremental nature of the architectural contribution limits its originality.
+    - **Scientific importance** Moderate. GRN inference is an important problem, and the paper demonstrates solid performance improvements. However, the incomplete baseline comparison and lack of biological validation temper the significance of the contribution.
+    - **Interdisciplinary readership** Limited. The paper is primarily of interest to computational biologists and machine learning researchers working on genomics. The biological interpretation is too shallow to attract a broader biological audience.
+    - **Technical soundness** The core methodology is plausible, but the lack of statistical testing and incomplete architectural details are significant weaknesses. The ablation study is well-designed but the interpretability analysis is not rigorous.
+    - **Readability for nonspecialists** The paper is written in a technical style that is accessible to computational biologists but would be challenging for a general scientific audience. The abstract and background are clear, but the methods section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising approach with solid empirical results, but the lack of statistical rigor, incomplete methodological details, and underdeveloped causal and interpretability analyses prevent the case from being fully established. These issues are addressable and, if resolved, would strengthen the paper considerably.
+
+## Risk / unsupported claims
+- The claim of "best predictive performance" is not supported by statistical significance testing.
+- The claim of "relatively significant causal inference performances" is not supported by comparison with causal inference baselines.
+- The claim that GRLGRN "can automatically learn useful implicit links" is based on a single anecdotal case study (TFAP2A) and is not quantitatively validated.
+- The claim that the graph transformer layer and CBAM are essential is supported by the ablation study, but the magnitude of improvement is not reported with variance or significance.
+- The performance improvements over baselines are reported as averages without confidence intervals, making the precision of these estimates unassessable.
+- The generalizability of the method to other scRNA-seq datasets beyond the BEELINE benchmark is not demonstrated.

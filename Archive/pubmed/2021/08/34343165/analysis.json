@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34343165",
+  "title": "A novel artificial intelligence-based approach for identification of deoxynucleotide aptamers.",
+  "authors": "Heredia, Frances L; Roche-Lima, Abiel; Pares-Matos, Elsie I",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-08-04",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用NLP和机器学习识别DNA适配体序列，虽涉及DNA-蛋白结合筛选，但聚焦适配体而非TF-DNA互作建模，方法可迁移但深度有限。",
+  "abstract": "The selection of a DNA aptamer through the Systematic Evolution of Ligands by EXponential enrichment (SELEX) method involves multiple binding steps, in which a target and a library of randomized DNA sequences are mixed for selection of a single, nucleotide-specific molecule. Usually, 10 to 20 steps are required for SELEX to be completed. Throughout this process it is necessary to discriminate between true DNA aptamers and unspecified DNA-binding sequences. Thus, a novel machine learning-based approach was developed to support and simplify the early steps of the SELEX process, to help discriminate binding between DNA aptamers from those unspecified targets of DNA-binding sequences. An Artificial Intelligence (AI) approach to identify aptamers were implemented based on Natural Language Processing (NLP) and Machine Learning (ML). NLP method (CountVectorizer) was used to extract information from the nucleotide sequences. Four ML algorithms (Logistic Regression, Decision Tree, Gaussian Naive Bayes, Support Vector Machines) were trained using data from the NLP method along with sequence information. The best performing model was Support Vector Machines because it had the best ability to discriminate between positive and negative classes. In our model, an Accuracy (A) of 0.995, the fraction of samples that the model correctly classified, and an Area Under the Receiving Operating Curve (AUROC) of 0.998, the degree by which a model is capable of distinguishing between classes, were observed. The developed AI approach is useful to identify potential DNA aptamers to reduce the amount of rounds in a SELEX selection. This new approach could be applied in the design of DNA libraries and result in a more efficient and faster process for DNA aptamers to be chosen during SELEX.",
+  "abstract_zh": "通过指数富集配体系统进化（SELEX）方法筛选DNA适配体涉及多个结合步骤，其中将靶标与随机DNA序列库混合，以筛选出单一、核苷酸特异性的分子。通常，完成SELEX需要10至20个步骤。在整个过程中，必须区分真正的DNA适配体与非特异性DNA结合序列。因此，开发了一种基于机器学习的新方法，以支持和简化SELEX过程的早期步骤，帮助区分DNA适配体与那些非特异性靶标的DNA结合序列的结合情况。基于自然语言处理（NLP）和机器学习（ML）实现了一种识别适配体的人工智能（AI）方法。使用NLP方法（CountVectorizer）从核苷酸序列中提取信息。利用NLP方法的数据以及序列信息，训练了四种ML算法（逻辑回归、决策树、高斯朴素贝叶斯、支持向量机）。表现最佳的模型是支持向量机，因为它在区分正类和负类方面具有最佳能力。在我们的模型中，观察到准确率（A）为0.995，即模型正确分类样本的比例，以及接收操作特征曲线下面积（AUROC）为0.998，即模型区分类别能力的程度。所开发的AI方法有助于识别潜在的DNA适配体，以减少SELEX筛选中的轮次。这种新方法可应用于DNA文库的设计，并在SELEX过程中实现更高效、更快速的DNA适配体选择。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34343165/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34343165/",
+  "paper_page_path": "papers/pubmed/34343165/index.html"
+}

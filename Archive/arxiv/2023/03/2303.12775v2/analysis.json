@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2303.12775v2",
+  "title": "System-specific parameter optimization for non-polarizable and polarizable force fields",
+  "authors": "Xiaojuan Hu; Kazi S. Amin; Markus Schneider; Carmay Lim; Dennis Salahub; Carsten Baldauf",
+  "journal": "",
+  "published_date": "2023-03-22",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了针对阳离子-蛋白体系的力场参数优化工具，虽涉及锌指蛋白（含蛋白-DNA互作背景），但核心是力场参数化而非TF-DNA结合机制建模，方法可迁移但对象与互作聚焦不足。",
+  "abstract": "The accuracy of classical force fields (FFs) has been shown to be limited for the simulation of cation-protein systems despite their importance in understanding the processes of life. Improvements can result from optimizing the parameters of classical FFs or by extending the FF formulation by terms describing charge transfer and polarization effects. In this work, we introduce our implementation of the CTPOL model in OpenMM, which extends the classical additive FF formula by adding charge transfer (CT) and polarization (POL). Furthermore, we present an open-source parameterization tool, called FFAFFURR that enables the (system specific) parameterization of OPLS-AA and CTPOL models. The performance of our workflow was evaluated by its ability to reproduce quantum chemistry energies and by molecular dynamics simulations of a Zinc finger protein.",
+  "abstract_zh": "经典力场（FFs）在模拟阳离子-蛋白质系统方面的准确性已被证明有限，尽管这些系统对于理解生命过程至关重要。改进可以通过优化经典力场的参数或通过扩展力场公式以包含描述电荷转移和极化效应的项来实现。在本工作中，我们介绍了我们在OpenMM中实现的CTPOL模型，该模型通过添加电荷转移（CT）和极化（POL）来扩展经典加和力场公式。此外，我们提供了一个名为FFAFFURR的开源参数化工具，该工具能够实现OPLS-AA和CTPOL模型的（系统特定）参数化。我们工作流程的性能通过其再现量子化学能量的能力以及锌指蛋白的分子动力学模拟进行了评估。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2303.12775v2",
+  "source_url": "https://arxiv.org/abs/2303.12775v2",
+  "paper_page_path": "papers/arxiv/2303.12775v2/index.html"
+}

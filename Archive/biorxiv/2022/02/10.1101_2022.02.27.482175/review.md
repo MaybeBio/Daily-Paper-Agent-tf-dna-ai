@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full text (abstract and manuscript body as provided)
+- **Assessment boundary** The provided manuscript text only, including the abstract and any described methods, results, and conclusions as presented in the supplied material
+- **Shared manuscript claim summary** The authors introduce Gap-Seq, a single-molecule imaging method that uses transient binding of short fluorescent DNA probes to gapped DNA substrates to read DNA sequence information on individual DNA molecules, and link this sequence information to the single-molecule kinetics of a protein-DNA interaction
+- **Visible evidence base** Abstract and manuscript text as supplied, including descriptions of the Gap-Seq method, a fluorescence quenching strategy, a demonstration with a transcription activator, and a mixed-sequence proof-of-concept
+- **Missing materials affecting confidence** Full methods section, detailed experimental protocols, raw data, statistical analyses, control experiments, figure panels, and supplementary information are not provided, limiting quantitative assessment
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing approach to address a genuine gap in single-molecule biology, namely the linkage of DNA sequence identity to kinetic measurements of protein-DNA interactions on the same molecule. The proposed Gap-Seq method is innovative in its use of transient short-probe binding to gapped substrates, and the fluorescence quenching strategy to enable detection at high probe concentrations is a practical advance. However, the provided material is insufficient to fully evaluate the technical robustness, quantitative accuracy, and generalizability of the method. Key details on probe design, binding specificity, kinetic modeling, and validation against established sequencing or binding assays are absent. The claims are plausible but not fully established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA-protein interaction kinetics, and developers of sequencing or imaging-based assays would find this work relevant. The method could appeal to those studying transcription regulation, DNA repair, or chromatin biology where sequence-specific binding is central, as well as to biotechnologists interested in high-throughput sequence interrogation on surfaces.
+- **Major strengths** The conceptual advance of linking sequence identity to single-molecule kinetics on the same DNA molecule addresses a real methodological gap. The use of transient binding of short probes to gapped substrates is a creative solution that avoids enzymatic steps. The fluorescence quenching strategy to permit high probe concentrations is a practical and potentially widely applicable improvement. The demonstration with a transcription activator and the mixed-sequence proof-of-concept suggest potential utility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method identifies a base by the degree of binding of 6-9 nt-long DNAs to gapped substrates, implying quantitative discrimination of single-base differences
+  - **Evidence pointer** Abstract and manuscript text, location not provided
+  - **Concern** The manuscript does not provide quantitative data or statistical analysis demonstrating that the degree of binding reliably distinguishes single-base differences across the full range of possible bases and sequence contexts. The specificity of 6-9 nt probes for a single base in a gap is not established, and potential mismatches or partial complementarity could confound the readout.
+  - **Why it matters** The core claim of the method is that it can read sequence information with single-base resolution. Without robust evidence of discrimination accuracy, sensitivity, and specificity, the method's utility for linking sequence to kinetics is unproven.
+  - **Resolution test** Provide calibration data showing binding signals for all four bases at a given gap position, with replicates and error bars, and demonstrate that the signal distributions are statistically separable. Include control experiments with mismatched probes to quantify off-target binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The fluorescence quenching strategy allows single-molecule detection at up to 500 nM of unbound fluorescent DNA
+  - **Evidence pointer** Abstract and manuscript text, location not provided
+  - **Concern** The mechanism and performance of the quenching strategy are not described in sufficient detail. It is unclear how quenching is achieved, what the quenching efficiency is, and whether it affects the binding kinetics of the probes or the stability of the DNA substrate. The upper limit of 500 nM is stated but not justified with data.
+  - **Why it matters** The ability to work at high probe concentrations is critical for achieving sufficient binding events to measure kinetics. If the quenching is incomplete or alters the system, the kinetic measurements could be biased or the detection compromised.
+  - **Resolution test** Provide a detailed description of the quenching chemistry, including quenching efficiency measurements, and show that probe binding kinetics are unaffected by the quencher. Include control experiments comparing kinetic parameters with and without the quenching strategy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and validation
+  - **Claim pointer** The method links single-base differences on single DNA molecules to the kinetics of protein-DNA interactions by studying a transcription activator with its cognate site
+  - **Evidence pointer** Abstract and manuscript text, location not provided
+  - **Concern** The demonstration with a transcription activator is described only at a high level. No kinetic parameters (e.g., association and dissociation rates) are reported, and it is not shown that the measured kinetics differ between cognate and non-cognate sequences in a way that matches known biology. The link between sequence and kinetics is asserted but not quantitatively demonstrated.
+  - **Why it matters** The central promise of the method is to connect sequence identity to kinetic behavior. Without explicit kinetic data and a comparison to expected values or independent measurements, the claim of linkage is not established.
+  - **Resolution test** Present measured association and dissociation rate constants for the transcription activator on cognate and non-cognate sequences, with error estimates, and compare these to values from bulk or alternative single-molecule assays. Show that the sequence readout from Gap-Seq correctly predicts the kinetic differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The assay can address mixed sequences by distinguishing between two different sequences immobilised on the same field of view
+  - **Evidence pointer** Abstract and manuscript text, location not provided
+  - **Concern** The proof-of-concept with two sequences is mentioned but not detailed. It is unclear how the method scales to larger sequence libraries, how cross-talk between different probes is avoided, and whether the binding signals from different sequences are sufficiently distinct to allow multiplexing.
+  - **Why it matters** The stated potential for interrogating sequence libraries depends on the ability to reliably distinguish multiple sequences in a single experiment. The current evidence is insufficient to assess this capability.
+  - **Resolution test** Provide data from the two-sequence experiment showing clear separation of signals, and discuss or demonstrate the expected performance with more than two sequences, including potential challenges with probe cross-reactivity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms such as "gapped DNA substrates" and "transient binding" without brief definitions, which may hinder accessibility for readers outside the single-molecule field.
+  - **Required correction** Add a brief explanatory phrase, for example defining a gap as a short single-stranded region in an otherwise double-stranded DNA, and clarify that transient binding refers to short-lived, reversible interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Method description
+  - **Evidence pointer** Manuscript text, location not provided
+  - **Issue** The length range of probes (6-9 nt) is mentioned, but the rationale for this range and the effect of probe length on binding specificity and kinetics are not discussed.
+  - **Required correction** Provide a brief justification for the chosen probe lengths, referencing any optimization or preliminary data, and discuss how length affects the balance between binding affinity and sequence discrimination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of applications
+  - **Evidence pointer** Abstract and manuscript text, location not provided
+  - **Issue** The potential applications for "mechanistic work and biotechnological applications" are stated broadly without specific examples or a comparison to existing methods.
+  - **Required correction** Add a short paragraph in the discussion that names specific use cases, such as studying DNA repair intermediates or screening transcription factor binding sites, and contrasts Gap-Seq with existing approaches like single-molecule FRET or nanopore sequencing.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the core claims of single-base discrimination, high-concentration detection, and sequence-kinetics linkage are not quantitatively supported by the provided material. R1-M4 is non-blocking but requires additional evidence to support the generalizability claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of using transient short-probe binding to gapped substrates for sequence readout is novel and distinct from existing sequencing or single-molecule methods. This is a creative contribution.
+  - Scientific importance: The potential to link sequence identity to single-molecule kinetics addresses a significant need in the field, and the method could enable new types of experiments. However, the importance is contingent on the robustness and generalizability, which are not yet fully demonstrated.
+  - Interdisciplinary readership: The work bridges biophysics, molecular biology, and biotechnology, and would appeal to a broad audience if the technical claims are substantiated. The current abstract is somewhat specialized but accessible with minor edits.
+  - Technical soundness: The technical details are insufficiently described to assess soundness. Key aspects such as probe specificity, quenching efficiency, and kinetic analysis are not quantitatively supported. This is the main weakness.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation. The overall structure is logical, but the lack of context for methods may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is promising, but the current evidence does not establish the method's reliability or the validity of the sequence-kinetics linkage. Substantial additional data and methodological detail are required before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that Gap-Seq can identify a base by the degree of binding is unsupported without quantitative discrimination data.
+- The claim that the fluorescence quenching strategy enables detection at up to 500 nM is unsupported without efficiency and control data.
+- The claim that the method links single-base differences to protein-DNA interaction kinetics is unsupported without reported kinetic parameters.
+- The claim that the assay can address mixed sequences is weakly supported by the brief mention of a two-sequence experiment without data.
+- The general statement that the method paves the way for interrogation of sequence libraries is speculative given the lack of scaling evidence.

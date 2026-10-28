@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that FOXO6 is upregulated in gastric cancer and that the ligand porfimer sodium, identified through homology modeling and docking-based virtual screening, is a promising potential FOXO6 inhibitor that could curtail gastric cancer progression.
+- **Visible evidence base** Abstract text only; no quantitative data, structural validation metrics, docking scores, or experimental validation are provided
+- **Missing materials affecting confidence** Full methods, homology model quality metrics, docking score tables, interaction diagrams, database analysis outputs, statistical details, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible in silico workflow for drug repurposing targeting FOXO6 in gastric cancer, but the evidence provided is insufficient to establish the central claims. The conclusion that porfimer sodium is a promising FOXO6 inhibitor rests on docking results that are not quantitatively reported, and the biological relevance of FOXO6 upregulation is asserted without supporting statistical or experimental detail. The work may be of interest to computational drug discovery researchers, but the current abstract does not provide enough information to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in computational drug repurposing, cancer biology, and FOXO transcription factor biology may find the approach relevant. The identification of a potential FOXO6 inhibitor could inform future experimental studies on gastric cancer therapeutics, though the current evidence is preliminary.
+- **Major strengths** The study addresses a clinically relevant target with an unmet need for selective inhibitors. The use of multiple docking software packages for cross-validation is a reasonable strategy to reduce software-specific bias. The integration of public databases for expression and survival analysis adds a translational dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that porfimer sodium shows excellent binding affinity to FOXO6 and emerges as a promising potential inhibitor.
+  - **Evidence pointer** Abstract, docking results section; location not provided
+  - **Concern** The abstract does not report any quantitative docking scores, binding affinities, or interaction energies for porfimer sodium or any comparator ligands. The claim of "excellent binding affinity" is therefore unsupported by visible data.
+  - **Why it matters** Without numerical docking results and comparison to known inhibitors or decoys, the reader cannot evaluate whether the binding is specific, strong, or superior to alternatives. This is the core evidence for the main conclusion.
+  - **Resolution test** Provide docking scores, binding affinities, and interaction details for porfimer sodium and all tested ligands, including statistical comparison and a threshold for what constitutes "excellent" binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that homology modeling was performed to obtain a 3D structure model of FOXO6 due to the lack of a solved structure.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** No quality metrics for the homology model are reported, such as Ramachandran plot statistics, QMEAN, or template identity. The reliability of the model is unknown, which directly affects the validity of all subsequent docking results.
+  - **Why it matters** Docking against a poorly modeled target can produce misleading binding predictions. The absence of model validation undermines confidence in the entire screening pipeline.
+  - **Resolution test** Report model quality metrics, template selection criteria, and validation plots in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that FOXO6 is upregulated in gastric cancer and that this is linked to poor survival.
+  - **Evidence pointer** Abstract, database analysis description; location not provided
+  - **Concern** The abstract states that GEPIA and Kaplan-Meier databases were used, but no expression fold changes, p-values, hazard ratios, or sample sizes are provided. The claim of upregulation and survival association is not quantitatively supported.
+  - **Why it matters** The biological premise for targeting FOXO6 depends on its differential expression and prognostic relevance. Without statistical evidence, the rationale for inhibitor development is weakened.
+  - **Resolution test** Include expression comparison statistics, survival analysis curves with p-values, and cohort descriptions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors used three docking routines (MVD, AutoDock Vina in PyRx, and ArgusLab) and evaluated performance based on binding affinities, docking scores, and intermolecular interactions.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not describe how the three docking programs were compared, what criteria defined "performance," or whether the results were concordant across programs. The selection of porfimer sodium as the top hit is not justified with cross-program consistency data.
+  - **Why it matters** Reproducibility and robustness of docking predictions require transparent comparison metrics. Without this, the choice of the final candidate appears arbitrary.
+  - **Resolution test** Provide a comparative table of scores from all three programs for all ligands, and state the selection criteria for the final hit.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The claim that gastric cancer is the "world's second leading cause of cancer-related fatalities" is outdated and not supported by recent epidemiological data.
+  - **Required correction** Update the epidemiological statement with a recent citation and accurate ranking.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract, database description; location not provided
+  - **Issue** The sentence listing GEPIA, Kaplan-Meier, KEGG, and STRING databases is a single run-on sentence that mixes different analysis types without clear structure.
+  - **Required correction** Break into separate sentences and specify which analysis each database contributed to.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The term "curtail gastric cancer progression" is vague and implies a functional effect that is not demonstrated by in silico docking alone.
+  - **Required correction** Rephrase to reflect the computational nature of the study, e.g., "may serve as a candidate for experimental validation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing docking scores), R1-M2 (missing model validation), R1-M3 (missing expression and survival statistics). These are blocking because the central claims of target upregulation and inhibitor potential cannot be evaluated without them.
+- **Assessment against Nature-style criteria** Originality: moderate, as drug repurposing for FOXO6 is a relatively unexplored niche, but the approach is standard. Scientific importance: potentially relevant to gastric cancer therapeutics, but the evidence is too preliminary to establish significance. Interdisciplinary readership: limited, as the abstract is highly technical and lacks broader context for non-specialists. Technical soundness: not assessable from the abstract due to missing quantitative data and model validation. Readability for nonspecialists: poor, with dense jargon and no clear explanation of the workflow's significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable hypothesis but lacks the quantitative and validation data required to support the conclusions. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that porfimer sodium shows "excellent binding affinity" is unsupported without reported docking scores.
+- The claim that FOXO6 is upregulated in gastric cancer is unsupported without expression statistics.
+- The claim that FOXO6 upregulation is associated with survival is unsupported without hazard ratios or p-values.
+- The claim that the homology model is reliable is unsupported without quality metrics.
+- The claim that the identified ligand can "curtail gastric cancer progression" is unsupported, as no functional or experimental data are provided.

@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "37683565",
+    "doi": "10.1016/j.micres.2023.127485",
+    "title": "Independent component analysis of Corynebacterium glutamicum transcriptomes reveals its transcriptional regulatory network."
+  },
+  "content": {
+    "abstract": "Gene expression in bacteria is regulated by multiple transcription factors. Clarifying the regulation mechanism of gene expression is necessary to understand bacterial physiological activities. To further understand the structure of the transcriptional regulatory network of Corynebacterium glutamicum, we applied independent component analysis, an unsupervised machine learning algorithm, to the high-quality C. glutamicum gene expression profile which includes 263 samples from 29 independent projects. We obtained 87 robust independent regulatory modules (iModulons). These iModulons explain 76.7% of the variance in the expression profile and constitute the quantitative transcriptional regulatory network of C. glutamicum. By analyzing the constituent genes in iModulons, we identified potential targets for 20 transcription factors. We also captured the changes in iModulon activities under different growth rates and dissolved oxygen concentrations, demonstrating the ability of iModulons to comprehensively interpret transcriptional responses to environmental changes. In summary, this study provides a genome-scale quantitative transcriptional regulatory network for C. glutamicum and informs future research on complex changes in the transcriptome.",
+    "keywords": [
+      "Corynebacterium glutamicum",
+      "IModulons discovery",
+      "Independence component analysis",
+      "Machine learning",
+      "Transcriptional regulatory network"
+    ],
+    "mesh_terms": [
+      "*Corynebacterium glutamicum/genetics",
+      "Transcriptome/genetics",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Jianxiao",
+        "Sun, Xi",
+        "Mao, Zhitao",
+        "Zheng, Yangyang",
+        "Geng, Zhouxiao",
+        "Zhang, Yuhan",
+        "Ma, Hongwu",
+        "Wang, Zhiwen"
+      ],
+      "short_names": [
+        "Zhao J",
+        "Sun X",
+        "Mao Z",
+        "Zheng Y",
+        "Geng Z",
+        "Zhang Y",
+        "Ma H",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China.",
+        "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China. Electronic address: ma_hw@tib.cas.cn.",
+        "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China. Electronic address: zww@tju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Jianxiao",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China; Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xi",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Zhitao",
+        "short_name": "Mao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yangyang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Zhouxiao",
+        "short_name": "Geng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuhan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Hongwu",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin 300308, China. Electronic address: ma_hw@tib.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiwen",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontier Science Center for Synthetic Biology and Key Laboratory of Systems Bioengineering (Ministry of Education), Tianjin University, Tianjin 300072, China; SynBio Research Platform, Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), School of Chemical Engineering and Technology, Tianjin University, Tianjin 300072, China. Electronic address: zww@tju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiological research"
+    ],
+    "journal_abbrev": [
+      "Microbiol Res"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/09 10:42",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "40493161",
+      "38393514"
+    ],
+    "refs": [],
+    "similar": [
+      "37683565",
+      "16469103",
+      "35489688",
+      "20491930",
+      "19665500",
+      "37628727",
+      "22916496",
+      "26496920",
+      "17227685",
+      "24341750",
+      "24910972",
+      "21277916",
+      "25107507",
+      "27829123",
+      "35306876",
+      "33045728",
+      "29804137",
+      "22943411",
+      "19963020",
+      "38393514",
+      "16961923",
+      "22178235",
+      "34663317",
+      "30478154",
+      "39193902",
+      "37768042",
+      "18005413",
+      "30499272",
+      "37278526",
+      "17259312",
+      "17183485",
+      "18573287",
+      "31689352",
+      "39264300",
+      "16194234",
+      "24385368",
+      "18355281",
+      "34436681",
+      "37285268",
+      "20638427",
+      "34082775",
+      "31382874",
+      "15978086",
+      "27844170",
+      "23103979",
+      "32060028",
+      "17660414",
+      "20620178",
+      "26416832",
+      "26392034",
+      "29753071",
+      "34560435",
+      "15938759",
+      "21799779",
+      "30587200",
+      "34777307",
+      "25404703",
+      "16547043",
+      "35357493",
+      "24140290",
+      "32019787",
+      "21277915",
+      "34837555",
+      "26433092",
+      "22685150",
+      "22539022",
+      "27274030",
+      "27766354",
+      "16549657",
+      "27664748",
+      "30474553",
+      "22366416",
+      "17038164",
+      "19041911",
+      "20055984",
+      "34203422",
+      "33796877",
+      "29580618",
+      "28198668",
+      "30972584",
+      "34662101",
+      "32144105",
+      "28412515",
+      "20056699",
+      "32699195",
+      "29330181",
+      "16406159",
+      "16495679",
+      "23543710",
+      "36383019",
+      "22885668",
+      "30666532",
+      "24138339",
+      "17204139",
+      "31511549",
+      "22706057",
+      "18854009",
+      "16159395",
+      "30359263",
+      "29899275",
+      "37713311",
+      "32542109",
+      "32393779"
+    ],
+    "review": [
+      "37683565",
+      "20491930",
+      "26496920",
+      "17227685",
+      "21277916",
+      "29804137",
+      "19963020",
+      "17183485",
+      "21277915",
+      "22539022"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-5013(23)00187-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

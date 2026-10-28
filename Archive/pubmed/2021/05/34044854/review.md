@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, results, discussion, conclusions) without supplementary files, figures, or tables
+- **Assessment boundary** Scientific and technical evaluation of the scGRNom pipeline, its application to human brain single-cell multi-omics data, and the reported findings on cell-type disease genes for AD and SCZ
+- **Shared manuscript claim summary** The authors present scGRNom, a computational pipeline that integrates multi-omics data (chromatin interactions, TF binding motifs, single-cell transcriptomics, open chromatin) to predict cell-type gene regulatory networks (GRNs) and identify cell-type disease genes. Applied to human brain cell types, the pipeline yields GRNs whose enhancers are enriched for GWAS SNPs of brain diseases, and identifies AD and SCZ disease genes with cell-type-specific and cross-disease functional enrichments. Machine learning on shared AD-SCZ cell-type genes predicts AD clinical phenotypes with improved accuracy.
+- **Visible evidence base** Main text methods and results descriptions; references to Additional files 1–6 and Figures 1–6, S1–S3, Tables S1–S2 (not provided)
+- **Missing materials affecting confidence** All supplementary files (Additional files 1–6), all figures (main and supplementary), all tables, and the referenced external data sources (GSE97942, ROSMAP) are not provided. This substantially limits verification of quantitative claims, statistical analyses, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful integrative pipeline for cell-type GRN prediction and disease gene identification. The conceptual motivation is sound, and the application to AD and SCZ is timely. However, the provided material is insufficient to evaluate the technical validity, statistical rigor, and biological significance of the results. Several claims are made without visible supporting evidence, and key methodological details are either missing or ambiguous. The pipeline's novelty relative to existing methods is not clearly established, and the clinical prediction results are presented without sufficient methodological or statistical context.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell multi-omics integration, and disease gene prioritization. Researchers studying the genetic architecture of brain disorders, particularly AD and SCZ, may find the cell-type-specific disease gene lists and regulatory network annotations useful for hypothesis generation. The open-source availability of the pipeline may attract users seeking a multi-omics integration tool for GRN prediction.
+- **Major strengths** 1) The pipeline addresses a real gap: integrating multiple omics layers (chromatin interaction, TF motifs, expression, open chromatin) for cell-type-specific GRN prediction, going beyond expression-only methods. 2) The application to multiple brain cell types, including subtypes of excitatory and inhibitory neurons, is comprehensive. 3) The identification of cell-type disease genes via TFBS-disrupting SNPs is mechanistically motivated. 4) The inclusion of a clinical prediction component (ROSMAP phenotypes) adds translational relevance. 5) The pipeline is open-source and modular, with each step available as an R function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The pipeline predicts cell-type GRNs by integrating chromatin interactions, TF binding sites, and single-cell expression via elastic net regression, with reported high consistency with state-of-the-art methods (over 50% overlap).
+  - **Evidence pointer** Methods section "Predicting gene regulatory networks from multi-omics data"; Results section "Predicting cell-type gene regulatory networks in the human brain"; Additional file 3: Figure S1 (not provided)
+  - **Concern** The overlap percentages with state-of-the-art methods are stated as "over 50%" but the actual values, the method of calculation, and the statistical significance of this overlap are not reported in the visible text. The comparison methodology is described only in a reference to a supplementary figure. Without the actual data, it is impossible to assess whether this overlap is meaningful or expected by chance.
+  - **Why it matters** The claim of consistency with existing methods is a key validation of the pipeline's output. If the overlap is not significantly higher than random expectation, the added value of the multi-omics integration is questionable.
+  - **Resolution test** Provide the actual overlap percentages for each cell type and each method, with confidence intervals or significance tests (e.g., permutation-based). Show that the overlap is significantly higher than expected by chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The elastic net regression model is used to predict TF-target gene relationships, with model selection based on minimizing mean squared error (MSE) on a testing set.
+  - **Evidence pointer** Methods section "Predicting gene regulatory networks from multi-omics data"
+  - **Concern** The description of the elastic net model is incomplete. The manuscript does not specify how the regularization parameters α and β are chosen (e.g., cross-validation), how the training/testing split is performed (e.g., random seed, stratification), how many times the split is repeated, or how the final model is selected. The threshold for filtering target genes (MSE > 0.1) and TF-target edges (absolute coefficient < 0.01) appears arbitrary and is not justified.
+  - **Why it matters** These details are essential for reproducibility and for assessing the robustness of the predicted GRNs. Arbitrary thresholds can substantially affect network size and composition, and hence all downstream analyses.
+  - **Resolution test** Provide a complete description of the model selection procedure, including hyperparameter tuning, cross-validation strategy, and sensitivity analysis of the thresholds. Show that the results are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The enhancers in the cell-type GRNs are significantly enriched for heritability of brain diseases and traits (p < 0.05), and cell-type disease genes are enriched for relevant pathways and diseases.
+  - **Evidence pointer** Results section "Identifying cell-type disease genes in AD and SCZ"; Figure 4A–E; Additional file 3: Figure S2, Tables S1–S2 (not provided)
+  - **Concern** The enrichment analyses are described only qualitatively. No effect sizes, confidence intervals, or multiple testing correction details are provided. The number of tests performed, the background sets used, and the specific statistical tests are not stated. The claim of "no significant enrichment for non-brain diseases" is presented without supporting data.
+  - **Why it matters** Enrichment analyses are prone to false positives, especially when many cell types, diseases, and pathway terms are tested. Without proper statistical reporting, the biological conclusions are not verifiable.
+  - **Resolution test** Provide full statistical details for all enrichment analyses: test used, background model, multiple testing correction method, effect sizes, and confidence intervals. Include the full results for non-brain diseases to support the specificity claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Machine learning using shared AD-SCZ cell-type genes predicts AD clinical phenotypes (Braak, CERAD, Dcfdx, Cogdx) with accuracy "much higher" than baselines, random genes, and GWAS genes.
+  - **Evidence pointer** Results section "Prediction of clinical phenotypes from cell-type disease genes"; Figure 6 (not provided)
+  - **Concern** The machine learning methodology is severely underdescribed. The manuscript does not specify the classifier (logistic regression is mentioned in Methods but the features, regularization, and optimization are not detailed), the cross-validation scheme, the number of folds, the handling of class imbalance, the metric used (accuracy is mentioned but sensitivity/specificity/AUC are not), or the statistical comparison to baselines. The number of genes used (53) and the sample size are not stated.
+  - **Why it matters** Clinical prediction claims are only meaningful with rigorous evaluation. Without proper methodology and statistical comparison, the reported accuracy improvements could be due to overfitting, data leakage, or chance.
+  - **Resolution test** Provide a complete description of the machine learning pipeline, including feature selection, model training, cross-validation, and evaluation metrics. Report confidence intervals for accuracy and compare to baselines using appropriate statistical tests.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** scGRNom is presented as a novel pipeline integrating multi-omics for cell-type GRN prediction.
+  - **Evidence pointer** Background and Methods sections
+  - **Concern** The novelty of the pipeline is not clearly positioned against existing tools. The manuscript mentions BEELINE, PIDC, GENIE3, and GRNBoost2, but does not systematically compare scGRNom's approach to other multi-omics integration methods (e.g., those using ATAC-seq or methylation data). The specific contribution of each omics layer to the final prediction is not quantified.
+  - **Why it matters** For a methods paper, establishing novelty and added value over existing approaches is critical. Without a clear comparison, the contribution is unclear.
+  - **Resolution test** Add a systematic comparison with existing multi-omics integration methods, and perform ablation analyses to show the contribution of each data type to the GRN predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Background section
+  - **Evidence pointer** Background, first paragraph
+  - **Issue** The background is overly long and contains some redundancy in describing the relationship between AD and SCZ. The transition from general GWAS findings to the specific gap addressed by scGRNom could be more concise.
+  - **Required correction** Tighten the background to focus on the specific gap: lack of cell-type-level integration of multi-omics for disease gene prediction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, data processing
+  - **Evidence pointer** Methods section "Application to multi-omics data and data processing"
+  - **Concern** The manuscript states that data from GSE97942 was used but does not specify the exact samples, the number of cells per cell type, or the quality control criteria applied. The filtering threshold (genes expressed in less than 100 cells) is stated but not justified.
+  - **Required correction** Provide detailed data processing steps, including sample IDs, cell counts, QC metrics, and the rationale for filtering thresholds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, scGRNom_getTF
+  - **Evidence pointer** Methods section "Predicting gene regulatory networks from multi-omics data"
+  - **Concern** The manuscript states that TFBS prediction uses position weight matrices from JASPAR but does not specify the JASPAR version, the species, or the score threshold used for calling a binding site.
+  - **Required correction** Specify the JASPAR version, species, and the threshold criteria for TFBS identification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, network statistics
+  - **Evidence pointer** Results section "Predicting cell-type gene regulatory networks in the human brain"; Additional file 1 (not provided)
+  - **Concern** The network statistics are only referenced to a supplementary file. A summary of key numbers (e.g., number of edges, TFs, enhancers, TGs per cell type) in the main text would help the reader understand the scale of the networks.
+  - **Required correction** Include a summary table or key numbers in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, clinical phenotype prediction
+  - **Evidence pointer** Methods section "Machine learning prediction of clinical phenotypes from cell-type disease genes"
+  - **Concern** The manuscript mentions balancing class sizes by weighting but does not describe how the weights were computed or whether the test set was also balanced.
+  - **Required correction** Clarify the weighting scheme and the handling of the test set.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of GRN overlap), R1-M2 (model selection and thresholds), R1-M3 (statistical reporting of enrichments), R1-M4 (machine learning methodology)
+- **Assessment against Nature-style criteria**  
+  *Originality*: Moderate. The integration of multiple omics for cell-type GRN prediction is a useful contribution, but the individual components (Hi-C, TF motifs, elastic net, GWAS overlap) are established. The novelty lies in the combination, which is not fully demonstrated.  
+  *Scientific importance*: Potentially high for the brain disease community, as cell-type-level disease gene identification is a pressing need. However, the importance is not fully established without rigorous validation.  
+  *Interdisciplinary readership*: The manuscript will appeal to computational biologists and neurogeneticists, but the presentation is likely too technical for a broader readership. The clinical prediction section could broaden appeal if properly developed.  
+  *Technical soundness*: Not established from the provided material. Key methodological details are missing, and statistical rigor is insufficient.  
+  *Readability for nonspecialists*: The manuscript is dense and assumes familiarity with GRN inference, GWAS, and single-cell methods. The figures (not provided) may help, but the text alone is not accessible to nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the pipeline has potential, but the technical and statistical foundations are not verifiable from the supplied material. Major revisions are required to provide complete methodological details, rigorous statistical analyses, and clear validation of the claims.
+
+## Risk / unsupported claims
+- The claim of "high consistency" with state-of-the-art methods (over 50% overlap) is unsupported without actual data and significance testing.
+- The claim that enhancers in cell-type GRNs are significantly enriched for heritability of brain diseases is unsupported without statistical details.
+- The claim that shared AD-SCZ cell-type genes improve clinical phenotype prediction is unsupported without a complete machine learning methodology and statistical comparison.
+- The claim that the pipeline provides "additional information on cell-type gene regulation, such as linking regulatory elements to genes" is plausible but not demonstrated with concrete examples or comparisons.
+- The statement that "several eQTLs in PsychENCODE match our linked GWAS SNPs and cell-type disease genes" is presented without specific examples or statistical support.
+- The generalizability claim that scGRNom is "a general-purpose tool" for other diseases is not supported by any demonstration beyond AD and SCZ.

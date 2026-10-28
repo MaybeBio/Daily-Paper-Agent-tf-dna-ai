@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, technical soundness, structural biology claims, and interpretation as presented in the provided text
+- **Shared manuscript claim summary** The authors report cryo-EM and crystal structures of the Vibrio cholerae chromosome 2 ParA ATPase (ParA2vc) in apo, ADP-bound, and filamentous DNA-bound states, and propose a mechanistic model for Type I DNA segregation involving nucleotide-regulated filament assembly on DNA
+- **Visible evidence base** Abstract, full introduction, results sections (crystal structure, nucleotide-bound structure, filament formation, cryo-EM structure, DNA interaction, filament interface), discussion, materials and methods (protein purification, crystallization, X-ray crystallography, negative-stain EM, cryo-EM data collection and processing, sequence alignment and co-evolution analysis), figure legends referenced but figures not provided
+- **Missing materials affecting confidence** Figures, tables, supplementary materials, PDB/EMDB validation reports, and raw data are not provided; the manuscript is a preprint and has not undergone peer review
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural biology advance by providing the first cryo-EM structure of a Type I ParA filament bound to DNA, alongside crystal structures of apo and ADP-bound states. The work addresses a long-standing controversy regarding whether ParA forms filaments and how it interacts with DNA. The structural data appear technically challenging to obtain, and the authors are appropriately cautious in their interpretation. However, several technical concerns regarding data quality, model building, and the mechanistic conclusions require careful consideration before the claims can be fully established.
+- **Who would be interested in the results, and why** Structural biologists studying bacterial cell division and chromosome segregation; microbiologists interested in the ParABS system; researchers studying ATPase filament formation and conformational plasticity; those interested in the evolution of segregation systems across bacteria and archaea. The work provides a foundation for understanding how ParA cooperatively binds DNA and forms higher-order assemblies, which is relevant to the broader field of genome partitioning.
+- **Major strengths** 1) First cryo-EM structure of a ParA filament bound to DNA, addressing a controversial topic in the field. 2) Multiple structural states (apo, ADP-bound, filament) provide a comprehensive view of conformational changes. 3) The authors acknowledge limitations in their crystal structure quality and discuss alternative interpretations. 4) The proposed model integrates structural data with prior biochemical and cell-based observations. 5) The comparison with the HpSoj structure and MinD filaments provides useful evolutionary context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of crystal structures
+  - **Claim pointer** The apo and ADP-bound crystal structures are used to support claims about conformational changes upon nucleotide binding and to model the filament structure.
+  - **Evidence pointer** Results section "Crystal structure of ParA2vc", Table 1, Materials and Methods "Crystallization, X-ray crystallography, and structure refinement"
+  - **Concern** The authors report final Rwork/Rfree values of 27.5%/33.5% for the apo structure and 23.4%/28.1% for the ADP-bound structure. These values are unusually high for structures at 2.6 Å and 3.2 Å resolution, respectively. The authors acknowledge this and attribute it to poor data quality and molecular flexibility. However, such high Rfree values raise concerns about the reliability of the structural models, particularly regarding side-chain placement and the accuracy of the conformational differences described. The authors state that the geometry is "not ideal for the reported resolution," which further undermines confidence in the detailed structural interpretations.
+  - **Why it matters** The conformational changes between apo and ADP-bound states, and the remodeling of helix 1 in the filament, are central to the mechanistic model proposed. If the crystal structures contain significant errors, the interpretation of these changes may be incorrect. The filament model was built using the ADP-bound crystal structure as a starting point, so errors in the crystal structure could propagate to the cryo-EM model.
+  - **Resolution test** The authors should provide detailed validation statistics (MolProbity scores, Ramachandran outliers, clash scores) and electron density maps for key regions, particularly helix 1 and the nucleotide-binding site. They should also demonstrate that the conformational differences between states are significant beyond coordinate error, for example by calculating coordinate error estimates and showing that the differences exceed these values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of cryo-EM structure
+  - **Claim pointer** The cryo-EM structure of the ParA2vc-DNA filament at 4.5 Å resolution is used to identify specific DNA-protein contacts, the filament interface, and conformational changes.
+  - **Evidence pointer** Results section "Cryo-EM structure of the ParA2vc-DNA filament", Table 2, Materials and Methods "Cryo-EM data collection, processing, and model building"
+  - **Concern** At 4.5 Å resolution, the identification of specific side-chain interactions, such as salt bridges between basic residues (K326, K327, R350, R352, K376, K377) and DNA phosphates, is challenging. At this resolution, the density typically allows for backbone tracing and identification of secondary structure, but side-chain placement is often ambiguous. The authors claim to identify specific contacts and a "continuous positive surface," which requires confident side-chain assignment. Additionally, the local resolution is not reported in the text, and it is unclear whether the DNA density is well-resolved throughout the filament.
+  - **Why it matters** The specific DNA-binding interactions and the filament interface are key findings of this study. If the resolution is insufficient to confidently assign side chains, the proposed interaction network may be inaccurate. The authors' claim that the filament structure reveals "an unexpected set of contacts" depends on the reliability of the model at this resolution.
+  - **Resolution test** The authors should provide local resolution maps and show representative density for the DNA-binding regions and the filament interface with the model overlaid. They should also discuss how they validated side-chain placements at 4.5 Å resolution, for example through the use of restraints or comparison with the crystal structures. If side-chain assignments are uncertain, the claims about specific contacts should be moderated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of filament assembly mechanism
+  - **Claim pointer** The authors propose that ATP hydrolysis controls filament assembly and disassembly, with ATP binding promoting assembly and hydrolysis triggering disassembly.
+  - **Evidence pointer** Results section "ParA2vc forms filaments using DNA as a scaffold, regulated by nucleotide hydrolysis", Discussion, Figure 6
+  - **Concern** The authors observe filaments only in the presence of both DNA and ATPγS (a non-hydrolyzable ATP analog), and not with ATP alone. They interpret this as evidence that ATP hydrolysis controls filament stability. However, the negative-stain EM experiments showing filament formation with ATPγS and DNA, but not with ATP and DNA, are described qualitatively. It is unclear whether the absence of filaments with ATP is due to hydrolysis and disassembly, or whether ATP-bound filaments are simply less stable under the experimental conditions. The authors do not provide quantitative data on filament formation or disassembly kinetics.
+  - **Why it matters** The proposed model in Figure 6 depends on the idea that ATP hydrolysis triggers filament disassembly. If the absence of filaments with ATP is due to other factors (e.g., lower affinity for DNA, different oligomerization state), the model would need revision. The authors' interpretation is plausible but not fully supported by the data presented.
+  - **Resolution test** The authors should provide additional experimental evidence, such as sedimentation assays, size-exclusion chromatography, or time-lapse microscopy, to demonstrate that ATP hydrolysis leads to filament disassembly. Alternatively, they could show that a hydrolysis-deficient mutant (e.g., Walker B mutant) forms stable filaments in the presence of ATP.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors suggest that their findings can be generalized to other Type I ParA systems, and that the filament structure provides a basis for understanding cooperative DNA binding in ParA orthologs.
+  - **Evidence pointer** Discussion section, Figure S8, Table S1
+  - **Concern** The authors note that the residues involved in DNA binding and the filament interface are largely not conserved across ParA orthologs. They rely on co-evolution analysis to argue that the interface is conserved, but this is an indirect approach. The lack of sequence conservation raises questions about whether the filament architecture observed for ParA2vc is representative of other Type I systems. The authors acknowledge this limitation but still propose a general model.
+  - **Why it matters** The broader significance of this work depends on whether the findings apply to other ParA systems. If the filament architecture is specific to ParA2vc, the impact of the study is reduced. The authors' co-evolution analysis provides some support, but it is not definitive.
+  - **Resolution test** The authors should provide additional evidence, such as cross-linking mass spectrometry or mutagenesis studies, to demonstrate that the filament interface is functionally important in other ParA systems. Alternatively, they could compare their structure with any available structures of other ParA proteins in filamentous states.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section "ParA2vc forms filaments using DNA as a scaffold, regulated by nucleotide hydrolysis"
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "In contrast, we did not observe filaments in the absence of nucleotide, contrary to a previous study" is confusing because it is unclear whether the previous study observed filaments in the absence of nucleotide or in the presence of nucleotide. The authors should clarify this point.
+  - **Required correction** Rewrite the sentence to clearly state what the previous study observed and how the current results differ.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and Methods "Cryo-EM data collection, processing, and model building"
+  - **Evidence pointer** Location not provided
+  - **Issue** The methods describe the cryo-EM data processing but do not provide details on the number of particles, the final map resolution estimation method (e.g., gold-standard FSC), or the software parameters used for helical reconstruction. These details are essential for reproducibility.
+  - **Required correction** Add the missing details, including particle numbers, FSC curves, and resolution estimation procedures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3 and Figure 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The text refers to specific structural features (e.g., "helix 1 merging with helix 2") but the figures are not provided in the manuscript text. It is difficult to assess the quality of the density maps and the model fit without seeing the figures.
+  - **Required correction** Ensure that the figures clearly show the density for key regions, including the DNA-binding sites and the filament interface, with the model overlaid.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors do not discuss the potential limitations of using a non-hydrolyzable ATP analog (ATPγS) for the cryo-EM structure. ATPγS may not perfectly mimic ATP, and the conformational state captured may not be the same as the ATP-bound state.
+  - **Required correction** Add a sentence acknowledging this limitation and discussing its potential impact on the interpretation.
+- **Technical failings that need to be addressed before the case is established** 1) The high Rfree values for the crystal structures (R1-M1) must be addressed with additional validation and possibly re-refinement. 2) The cryo-EM model at 4.5 Å resolution needs to be validated for side-chain placement, particularly for the DNA-binding residues (R1-M2). 3) The authors should provide quantitative evidence for the role of ATP hydrolysis in filament disassembly (R1-M3).
+- **Assessment against Nature-style criteria** Originality: High. This is the first cryo-EM structure of a Type I ParA filament bound to DNA, which addresses a long-standing controversy. Scientific importance: High. The work provides structural insights into a fundamental biological process (chromosome segregation) and has implications for understanding the mechanism of ParA-mediated DNA partitioning. Interdisciplinary readership: Moderate. The work will primarily appeal to structural biologists and microbiologists, but the mechanistic insights may be of interest to a broader audience in cell biology and biophysics. Technical soundness: Moderate. The crystal structures have high Rfree values, and the cryo-EM structure is at moderate resolution, which limits the confidence in detailed interpretations. Readability for nonspecialists: Good. The manuscript is generally well-written and the authors provide clear explanations of the biological context and the significance of their findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a significant advance, but the technical concerns regarding the crystal structure quality and the cryo-EM model validation must be addressed before the claims can be fully established. The authors should provide additional validation data and, if necessary, moderate their claims about specific interactions and the mechanistic model.
+
+## Risk / unsupported claims
+- The claim that the filament structure reveals "an unexpected set of contacts" is not fully supported given the 4.5 Å resolution and the lack of detailed validation data.
+- The proposal that the filament interface is conserved across ParA orthologs is based on co-evolution analysis and is not directly supported by structural or biochemical data.
+- The mechanistic model in Figure 6, particularly the role of ATP hydrolysis in filament disassembly, is plausible but not directly demonstrated by the data presented.
+- The claim that the apo structure represents the "ground state" of the protein is not fully supported, as the authors note the structure has poor quality and may be affected by crystal packing.

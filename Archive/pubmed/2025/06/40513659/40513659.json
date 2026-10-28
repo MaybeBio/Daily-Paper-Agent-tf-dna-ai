@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "40513659",
+    "doi": "10.1016/j.jare.2025.06.028",
+    "title": "SAE1 emerges as a pan-cancer driver and key regulator of HCC metastasis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Dysregulation of SUMOylation is implicated in cancer progression. While the role of SUMO-activating enzyme (SAE) and its mechanisms in cancer remain unclear. OBJECTIVES: We investigated the role of SAE subunit 1 (SAE1) in hepatocellular carcinoma (HCC) metastasis. METHODS: We analyzed SAE1 expression across 28 pan-cancer subtypes. SAE1 complexes were identified and characterized using interactome analysis, Co-IP, immunofluorescence, and AlphaFold3 predictions. These findings were validated using in situ and vein tail injection xenograft mouse models, HCC organoids, and IHC using HCC tissue samples. RESULTS: Increased SAE1 expression was correlated with poorer prognosis and higher driver gene mutation frequencies in six pan-cancers, particularly HCC. We identified a novel interaction between SAE1 and yin-yang 1 (YY1), where SAE1 enhances YY1 stability and activity, leading to Wnt3a transcription and subsequent activation of the Wnt pathway, eventually promoting cell migration and invasion. Moreover, a positive correlation between SAE1 and Wnt3a expression was confirmed in HCC organoids and HCC tissue samples. CONCLUSION: This study established SAE1 as a novel independent prognostic biomarker in multiple cancers and identified its mechanistic role in HCC progression, suggesting its potential value for future translational research toward therapeutic development.",
+    "keywords": [
+      "Pan-cancer",
+      "SAE1",
+      "Transcription",
+      "Wnt3a",
+      "YY1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Liver Neoplasms/pathology/genetics/metabolism",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism",
+      "Animals",
+      "Mice",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Movement/genetics",
+      "YY1 Transcription Factor/metabolism/genetics",
+      "Neoplasm Metastasis",
+      "Biomarkers, Tumor/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Wnt Signaling Pathway",
+      "Female",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuang, Hao",
+        "Dang, Yamei",
+        "Sun, Li",
+        "Hong, Dandan",
+        "Zhai, Shujie",
+        "Shao, Xiaowen",
+        "Liu, Guanchen",
+        "Sun, Xiao",
+        "Dong, Chuan",
+        "Ma, Xuda",
+        "Zhang, Tingting",
+        "Yang, Nanmu",
+        "Han, Feng",
+        "Wei, Wen",
+        "Li, Yongmei"
+      ],
+      "short_names": [
+        "Zhuang H",
+        "Dang Y",
+        "Sun L",
+        "Hong D",
+        "Zhai S",
+        "Shao X",
+        "Liu G",
+        "Sun X",
+        "Dong C",
+        "Ma X",
+        "Zhang T",
+        "Yang N",
+        "Han F",
+        "Wei W",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China.",
+        "Department of Medical Laboratory, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, PR. China.",
+        "Department of Gynaecology and Obstetrics, The Second Hospital of Tianjin Medical University, Tianjin 300211, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "State Key Laboratory of Subtropical Silviculture, Zhejiang A&F University, Hangzhou 311300 Zhejiang, China.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China.",
+        "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China.",
+        "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China.",
+        "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China.",
+        "Biodesign Center for Mechanisms of Evolution, Arizona State University, Tempe, AZ 85287, USA. Electronic address: wwei39@asu.edu.",
+        "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China. Electronic address: liym@tmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuang, Hao",
+        "short_name": "Zhuang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China."
+        ]
+      },
+      {
+        "full_name": "Dang, Yamei",
+        "short_name": "Dang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, PR. China."
+        ]
+      },
+      {
+        "full_name": "Sun, Li",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, The Second Hospital of Tianjin Medical University, Tianjin 300211, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Dandan",
+        "short_name": "Hong D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Shujie",
+        "short_name": "Zhai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Xiaowen",
+        "short_name": "Shao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guanchen",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiao",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Chuan",
+        "short_name": "Dong C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Subtropical Silviculture, Zhejiang A&F University, Hangzhou 311300 Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xuda",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tingting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Nanmu",
+        "short_name": "Yang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China."
+        ]
+      },
+      {
+        "full_name": "Han, Feng",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliopancreatic Surgery, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou 450008, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Wen",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Biodesign Center for Mechanisms of Evolution, Arizona State University, Tempe, AZ 85287, USA. Electronic address: wwei39@asu.edu."
+        ]
+      },
+      {
+        "full_name": "Li, Yongmei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology and Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin 300070, China. Electronic address: liym@tmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/14 16:45",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "41549277"
+    ],
+    "refs": [
+      "38701508",
+      "38351178",
+      "38167292",
+      "38097136",
+      "37752518",
+      "37640846",
+      "37608777",
+      "37408047",
+      "36809797",
+      "36289618",
+      "35750927",
+      "35196497",
+      "35166233",
+      "35074907",
+      "34623518",
+      "34589482",
+      "32513696",
+      "31954487",
+      "31933971",
+      "31695789",
+      "31345225",
+      "30951662",
+      "30594553",
+      "30305424",
+      "29625048",
+      "29604932",
+      "29330146",
+      "29224777",
+      "29180403",
+      "28134258",
+      "28098164",
+      "27919788",
+      "27465491",
+      "27239040",
+      "27089178",
+      "27012465",
+      "26578773",
+      "26403403",
+      "24492943",
+      "24121673",
+      "23539594",
+      "23276938",
+      "22811581",
+      "22713753",
+      "22157079",
+      "21880185",
+      "21102611",
+      "20164921",
+      "18552846",
+      "17763827",
+      "17353273",
+      "15131651",
+      "11819844",
+      "11532945",
+      "11486036",
+      "8603818"
+    ],
+    "similar": [
+      "40513659",
+      "41236130",
+      "33477333",
+      "41935591",
+      "41203170",
+      "40319251",
+      "41714472",
+      "41193823",
+      "42062902",
+      "42104524",
+      "31278131",
+      "42025893",
+      "41655866",
+      "28454092",
+      "40814770",
+      "34370992",
+      "40883023",
+      "40069645",
+      "40245482",
+      "34784846",
+      "26800240",
+      "39127439",
+      "40707755",
+      "32631394",
+      "42174233",
+      "40289107",
+      "42486346",
+      "41014359",
+      "40552444",
+      "42216580",
+      "30981107",
+      "40646641",
+      "40597269",
+      "41293954",
+      "40312502",
+      "30915986",
+      "31176678",
+      "28810875",
+      "42500561",
+      "36748193",
+      "39992478",
+      "34130659",
+      "41775697",
+      "39835603",
+      "40938201",
+      "28646927",
+      "30646949",
+      "42285192",
+      "28412749",
+      "41050084",
+      "30876939",
+      "25494879",
+      "33121524",
+      "39390614",
+      "28449718",
+      "38773433",
+      "41817384",
+      "41799507",
+      "40591224",
+      "40312488",
+      "31623651",
+      "29867138",
+      "32292519",
+      "39085893",
+      "32746934",
+      "30971294",
+      "40109873",
+      "31605014",
+      "29510736",
+      "33760109",
+      "30929558",
+      "36385489",
+      "30419422",
+      "42177695",
+      "41668003",
+      "39648870",
+      "28423650",
+      "40596687",
+      "31727171",
+      "31088485",
+      "40616024",
+      "27738331",
+      "31281549",
+      "27248828",
+      "31771611",
+      "36158256",
+      "39891115",
+      "31695789",
+      "40177797",
+      "25511737",
+      "33897890",
+      "41866505",
+      "28646197",
+      "39098231",
+      "23483935",
+      "40222446",
+      "42317344",
+      "34775955",
+      "41789667",
+      "26546438"
+    ],
+    "review": [
+      "40513659"
+    ],
+    "pmc": [
+      "12957792"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(25)00437-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40513659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

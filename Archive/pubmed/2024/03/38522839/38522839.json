@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "38522839",
+    "doi": "10.1016/j.jmoldx.2024.03.003",
+    "title": "Machine Learning Analysis Using RNA Sequencing to Distinguish Neuromyelitis Optica from Multiple Sclerosis and Identify Therapeutic Candidates."
+  },
+  "content": {
+    "abstract": "This study aims to identify RNA biomarkers distinguishing neuromyelitis optica (NMO) from relapsing-remitting multiple sclerosis (RRMS) and explore potential therapeutic applications leveraging machine learning (ML). An ensemble approach was developed using differential gene expression analysis and competitive ML methods, interrogating total RNA-sequencing data sets from peripheral whole blood of treatment-naive patients with RRMS and NMO and healthy individuals. Pathway analysis of candidate biomarkers informed the biological context of disease, transcription factor activity, and small-molecule therapeutic potential. ML models differentiated between patients with NMO and RRMS, with the performance of certain models exceeding 90% accuracy. RNA biomarkers driving model performance were associated with ribosomal dysfunction and viral infection. Regulatory networks of kinases and transcription factors identified biological associations and identified potential therapeutic targets. Small-molecule candidates capable of reversing perturbed gene expression were uncovered. Mitoxantrone and vorinostat-two identified small molecules with previously reported use in patients with NMO and experimental autoimmune encephalomyelitis-reinforced discovered expression signatures and highlighted the potential to identify new therapeutic candidates. Putative RNA biomarkers were identified that accurately distinguish NMO from RRMS and healthy individuals. The application of multivariate approaches in analysis of RNA-sequencing data further enhances the discovery of unique RNA biomarkers, accelerating the development of new methods for disease detection, monitoring, and therapeutics. Integrating biological understanding further enhances detection of disease-specific signatures and possible therapeutic targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neuromyelitis Optica/genetics/diagnosis/drug therapy",
+      "Humans",
+      "*Machine Learning",
+      "Female",
+      "*Biomarkers/blood",
+      "*Sequence Analysis, RNA/methods",
+      "Male",
+      "Mitoxantrone/therapeutic use",
+      "Adult",
+      "Diagnosis, Differential",
+      "Middle Aged",
+      "Multiple Sclerosis, Relapsing-Remitting/genetics/drug therapy/blood/diagnosis",
+      "Gene Expression Profiling/methods",
+      "Multiple Sclerosis/genetics/drug therapy/diagnosis/blood"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wylezinski, Lukasz S",
+        "Sesler, Cheryl L",
+        "Shaginurova, Guzel I",
+        "Grigorenko, Elena V",
+        "Wohlgemuth, Jay G",
+        "Cockerill, Franklin R 3rd",
+        "Racke, Michael K",
+        "Spurlock, Charles F 3rd"
+      ],
+      "short_names": [
+        "Wylezinski LS",
+        "Sesler CL",
+        "Shaginurova GI",
+        "Grigorenko EV",
+        "Wohlgemuth JG",
+        "Cockerill FR 3rd",
+        "Racke MK",
+        "Spurlock CF 3rd"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Decode Health, Inc., Nashville, Tennessee; Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee.",
+        "Decode Health, Inc., Nashville, Tennessee.",
+        "Decode Health, Inc., Nashville, Tennessee.",
+        "Decode Health, Inc., Nashville, Tennessee.",
+        "Quest Diagnostics, Secaucus, New Jersey; Trusted Health Advisors, San Juan Capistrano, California.",
+        "Decode Health, Inc., Nashville, Tennessee; Trusted Health Advisors, San Juan Capistrano, California; Department of Medicine, Rush University Medical Center, Chicago, Illinois.",
+        "Quest Diagnostics, Secaucus, New Jersey.",
+        "Decode Health, Inc., Nashville, Tennessee; Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee; Wagner School of Public Service, New York University, New York, New York. Electronic address: chase@decodehealth.ai."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wylezinski, Lukasz S",
+        "short_name": "Wylezinski LS",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee; Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Sesler, Cheryl L",
+        "short_name": "Sesler CL",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Shaginurova, Guzel I",
+        "short_name": "Shaginurova GI",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Grigorenko, Elena V",
+        "short_name": "Grigorenko EV",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Wohlgemuth, Jay G",
+        "short_name": "Wohlgemuth JG",
+        "identifiers": [],
+        "affiliations": [
+          "Quest Diagnostics, Secaucus, New Jersey; Trusted Health Advisors, San Juan Capistrano, California."
+        ]
+      },
+      {
+        "full_name": "Cockerill, Franklin R",
+        "short_name": "Cockerill FR",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee; Trusted Health Advisors, San Juan Capistrano, California; Department of Medicine, Rush University Medical Center, Chicago, Illinois."
+        ]
+      },
+      {
+        "full_name": "Racke, Michael K",
+        "short_name": "Racke MK",
+        "identifiers": [],
+        "affiliations": [
+          "Quest Diagnostics, Secaucus, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Spurlock, Charles F",
+        "short_name": "Spurlock CF",
+        "identifiers": [],
+        "affiliations": [
+          "Decode Health, Inc., Nashville, Tennessee; Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee; Wagner School of Public Service, New York University, New York, New York. Electronic address: chase@decodehealth.ai."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of molecular diagnostics : JMD"
+    ],
+    "journal_abbrev": [
+      "J Mol Diagn"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/25 00:42",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42479162",
+      "42142568",
+      "40578551",
+      "40423039",
+      "39238786"
+    ],
+    "refs": [
+      "37873058",
+      "36610360",
+      "35154283",
+      "34625035",
+      "33411696",
+      "33349239",
+      "33339180",
+      "32457742",
+      "32094172",
+      "31085627",
+      "31005713",
+      "30867424",
+      "30453885",
+      "29866190",
+      "29800326",
+      "29481632",
+      "29275977",
+      "28605449",
+      "28440493",
+      "28413689",
+      "28093708",
+      "27889190",
+      "26857497",
+      "26283904",
+      "26092914",
+      "25569120",
+      "24227677",
+      "23563310",
+      "23522326",
+      "23261766",
+      "23138769",
+      "23104886",
+      "22354738",
+      "21619948",
+      "20436461",
+      "19380721",
+      "15623664",
+      "15130792",
+      "14597658"
+    ],
+    "similar": [
+      "38522839",
+      "40436286",
+      "40192890",
+      "28550707",
+      "24080986",
+      "15589308",
+      "18094334",
+      "26521232",
+      "21622936",
+      "29455925",
+      "41100797",
+      "22036215",
+      "27613120",
+      "28413701",
+      "23637915",
+      "26026942",
+      "19636050",
+      "20039942",
+      "25480863",
+      "18713580",
+      "22864301",
+      "23917443",
+      "23910387",
+      "23970504",
+      "26590657",
+      "17522347",
+      "22993282",
+      "19667216",
+      "25610795",
+      "19590215",
+      "38127076",
+      "15623701",
+      "38772208",
+      "16860825",
+      "23863782",
+      "23828523",
+      "23689404",
+      "35118639",
+      "31422745",
+      "22522477",
+      "32509866",
+      "24838612",
+      "26941100",
+      "27393339",
+      "28411393",
+      "21092475",
+      "17401734",
+      "25549676",
+      "16717206",
+      "26182501",
+      "41261231",
+      "26530512",
+      "29208041",
+      "23889747",
+      "23805202",
+      "26055922",
+      "19307541",
+      "33866949",
+      "22993275",
+      "20237009",
+      "20826711",
+      "27807185",
+      "19151993",
+      "22728856",
+      "21316170",
+      "25672684",
+      "23941778",
+      "40300121",
+      "27725124",
+      "26008726",
+      "17439296",
+      "21734595",
+      "19491632",
+      "19119594",
+      "21159721",
+      "25444748",
+      "23012252",
+      "37122715",
+      "32200338",
+      "33205062",
+      "26608987",
+      "23486868",
+      "18971856",
+      "22487568",
+      "29107207",
+      "30423585",
+      "25518371",
+      "29246612",
+      "40918143",
+      "26222205",
+      "33863534",
+      "24885345",
+      "11688175",
+      "25264295",
+      "15110166",
+      "21112466",
+      "19954705",
+      "35269934",
+      "26759122",
+      "31603846"
+    ],
+    "review": [
+      "38522839",
+      "18713580",
+      "20237009",
+      "25672684",
+      "21734595",
+      "19119594",
+      "25444748",
+      "22487568",
+      "11688175",
+      "15110166"
+    ],
+    "pmc": [
+      "11163981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1525-1578(24)00059-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38522839/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1525-1578(24)00059-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

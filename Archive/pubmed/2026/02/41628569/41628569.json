@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "41628569",
+    "doi": "10.1088/1478-3975/ae4086",
+    "title": "Thermodynamic uncertainty relation constrains information transmission through cell signaling systems."
+  },
+  "content": {
+    "abstract": "Biological systems in general operate out of equilibrium, which brings the requirement for a constant supply of energy due to non-equilibrium entropy production. The thermodynamic uncertainty relation (TUR) essentially imposes a bound on the minimum current fluctuation the system can have given an entropy production rate. The fluctuation eventually impacts the signal-to-noise ratio, imposing an upper bound on the information transmission accuracy. In this study, we explore the role of the TUR on the information transmission capacity of a set of cellular signaling systems using coupled mathematical and machine learning approaches on experimental data in yeast under several stress conditions. Cell signaling systems are involved in sensing changes in the environment by activating a set of transcription factors (TFs), which typically diffuse inside the nucleus to trigger transcription of the required genes. However, the inherent stochasticity of the biochemical pathways severely limits the accuracy of estimating the environmental input by the TFs. The application of TUR reveals a general picture of the working principle of the TFs. We find that the activation followed by biased diffusion of TFs toward the nucleus triggers entropy production, which amplifies the magnitude of the overall TF currents toward the nucleus as well as reducing the fluctuations. These outcomes significantly improve the accuracy of information transmission carried out by the TFs following the bound imposed by TUR, leading to a correlation between accuracy and entropy production. However, TUR only imposes an upper bound on accuracy, and the correlation emerges due to the pathway being operated in the linear response regime. Thus, experimental observations coupled with TUR-based theoretical models demonstrate the role of thermodynamic fluctuation and entropy production on cellular information processing.",
+    "keywords": [
+      "cell signaling",
+      "information",
+      "thermodynamic uncertainty"
+    ],
+    "mesh_terms": [
+      "*Signal Transduction",
+      "Saccharomyces cerevisiae/cytology/metabolism",
+      "Entropy",
+      "*Thermodynamics",
+      "*Models, Biological",
+      "Metabolic Networks and Pathways",
+      "Gene Expression Regulation",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verma, Shreyansh",
+        "R, Vishva Saravanan",
+        "Ghosh, Bhaswar"
+      ],
+      "short_names": [
+        "Verma S",
+        "R VS",
+        "Ghosh B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1031-8402"
+      ],
+      "affiliations": [
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verma, Shreyansh",
+        "short_name": "Verma S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "R, Vishva Saravanan",
+        "short_name": "R VS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Bhaswar",
+        "short_name": "Ghosh B",
+        "identifiers": [
+          "0000-0003-1031-8402"
+        ],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical biology"
+    ],
+    "journal_abbrev": [
+      "Phys Biol"
+    ],
+    "pub_date": "2026 Feb 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 00:28",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41628569",
+      "40583908",
+      "36671130",
+      "33736118",
+      "30978350",
+      "23912807",
+      "32688509",
+      "38366413",
+      "32688599",
+      "36932577",
+      "41418228",
+      "31039695",
+      "32168722",
+      "27058315",
+      "36379800",
+      "19108609",
+      "33064524",
+      "23679370",
+      "35428050",
+      "26042329",
+      "19416539",
+      "23168354",
+      "35892996",
+      "23473500",
+      "18426580",
+      "33832251",
+      "18067669",
+      "32054475",
+      "21172055",
+      "41503379",
+      "32375020",
+      "25985085",
+      "29796745",
+      "42072553",
+      "20302968",
+      "30961611",
+      "39160935",
+      "21897127",
+      "32152124",
+      "18318909",
+      "31330674",
+      "31962533",
+      "14627835",
+      "34314098",
+      "32422750",
+      "26099556",
+      "33265236",
+      "33275628",
+      "38366453",
+      "34942785",
+      "10370131",
+      "36397555",
+      "34114847",
+      "18769540",
+      "31330645",
+      "37329003",
+      "26476430",
+      "19948550",
+      "41430894",
+      "31573234",
+      "23349292",
+      "23615444",
+      "32424475",
+      "24380601",
+      "20368247",
+      "40430050",
+      "30976803",
+      "41247959",
+      "41412390",
+      "37240078",
+      "34723601",
+      "25504722",
+      "18846202",
+      "29237121",
+      "36461951",
+      "21798319",
+      "33862093",
+      "24236068",
+      "15308537",
+      "33266893",
+      "37978589",
+      "26269925",
+      "22680440",
+      "33465987",
+      "39916173",
+      "25172920",
+      "17279933",
+      "30207828",
+      "33266653",
+      "17244365",
+      "24956330",
+      "37565710",
+      "22165960",
+      "30110782",
+      "30312036",
+      "24170807",
+      "24278344",
+      "42141602",
+      "29784812",
+      "21496241"
+    ],
+    "review": [
+      "41628569",
+      "27058315",
+      "26042329",
+      "23168354",
+      "33832251",
+      "21897127",
+      "34314098",
+      "10370131",
+      "26476430",
+      "24380601",
+      "21798319",
+      "26269925"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1088/1478-3975/ae4086",
+        "provider": "IOP Publishing Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.23.666402",
+  "title": "Using the DNA language model, GROVER, to parse effects of sequence, chromatin and regulatory features on genome stability",
+  "doi": "10.1101/2025.07.23.666402",
+  "abstract": "Genome stability is shaped by DNA sequence and chromatin context, but their relative contributions to double-strand break (DSB) sensitivity remain unclear. We show that the DNA language model, GROVER, can infer DSB location based on sequence. DSB hotspots tend to contain GC-rich sequences that belong to promoters, genes and short interspersed nuclear elements (SINEs). Additionally, we identified several specific short sequences (tokens) that are associated with modulating DSB sensitivity. Another model using chromatin and genome regulatory features outperforms the sequence-only model, highlighting complementary and cell-type specific information. Integrating sequence and genome biological features yields the best performance, demonstrating their synergy. Analyzing this model revealed that, dependent on the sample, genome stability information encoded in H3K36me3 and DNase-seq can be learned from the sequence, but not H3K27ac or H3K9me3. Embedding chromatin data directly into the GROVER architecture enabled cell-type specific modeling with performance matching the full chromatin feature model. Our results suggest that while chromatin and regulatory context provides important information, such as cell-type specificity, much of the information shaping DSB patterns is already encoded in the DNA sequence itself. Our integrative modeling approach not only reveals DSB patterns but also provides a generalizable strategy for tracing predictions in genomic data.",
+  "authors": [
+    "Pierre M. Joubert",
+    "Melissa Sanabria",
+    "Anna R. Poetsch"
+  ],
+  "published_date": "2025-07-27",
+  "updated_date": "2025-07-27T20:20:12Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666402",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666402.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ],
+        "date-time": "2026-07-28T00:39:48Z",
+        "timestamp": 1785199188532,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                27
+              ]
+            ],
+            "date-time": "2025-07-27T00:00:00Z",
+            "timestamp": 1753574400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:sec id=\"s19\">\n                  <jats:title>Abstract</jats:title>\n                  <jats:p>Genome stability is shaped by DNA sequence and chromatin context, but their relative contributions to double-strand break (DSB) sensitivity remain unclear. We show that the DNA language model, GROVER, can infer DSB location based on sequence. DSB hotspots tend to contain GC-rich sequences that belong to promoters, genes and short interspersed nuclear elements (SINEs). Additionally, we identified several specific short sequences (tokens) that are associated with modulating DSB sensitivity. Another model using chromatin and genome regulatory features outperforms the sequence-only model, highlighting complementary and cell-type specific information. Integrating sequence and genome biological features yields the best performance, demonstrating their synergy. Analyzing this model revealed that, dependent on the sample, genome stability information encoded in H3K36me3 and DNase-seq can be learned from the sequence, but not H3K27ac or H3K9me3. Embedding chromatin data directly into the GROVER architecture enabled cell-type specific modeling with performance matching the full chromatin feature model. Our results suggest that while chromatin and regulatory context provides important information, such as cell-type specificity, much of the information shaping DSB patterns is already encoded in the DNA sequence itself. Our integrative modeling approach not only reveals DSB patterns but also provides a generalizable strategy for tracing predictions in genomic data.</jats:p>\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"666402v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2025.07.23.666402",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2025-07-27T20:20:12Z",
+        "timestamp": 1753647612000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Using the DNA language model, GROVER, to parse effects of sequence, chromatin and regulatory features on genome stability"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Pierre M.",
+          "family": "Joubert",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Biomedical Genomics, Biotechnology Center, Center for Molecular and Cellular Bioengineering, Technische Universität, Dresden, Germany"
+            },
+            {
+              "name": "Center for Advanced Systems Understanding (CASUS), Görlitz, Germany"
+            },
+            {
+              "name": "Helmholtz Zentrum Dresden-Rossendorf (HZDR), Dresden, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Melissa",
+          "family": "Sanabria",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biomedical Genomics, Biotechnology Center, Center for Molecular and Cellular Bioengineering, Technische Universität, Dresden, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anna R.",
+          "family": "Poetsch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biomedical Genomics, Biotechnology Center, Center for Molecular and Cellular Bioengineering, Technische Universität, Dresden, Germany"
+            },
+            {
+              "name": "National Center for Tumor Diseases (NCT) partner site Dresden, German Cancer Research Center (DKFZ), Dresden, Germany"
+            },
+            {
+              "name": "Institute for Genetics, University of Cologne, Cologne, Germany"
+            },
+            {
+              "name": "Cologne Excellence Cluster for Cellular Stress Responses in Aging-Associated Diseases (CECAD), University of Cologne, Cologne, Germany"
+            },
+            {
+              "name": "Institute for Genome Stability in Aging and Disease, University of Cologne, Cologne, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-022-00452-3"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2021.103182"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.01.024"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2019.102661"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2017.46"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2020.108546"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.7",
+          "unstructured": "Larsen F , Gundersen G FAU - Lopez R , Lopez R FAU - Prydz H , Prydz H , Kruisselbrink E , Guryev V FAU - Brouwer K , et al. CpG islands as gene markers in the human genome. (0888-7543 (Print))."
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35057062"
+        },
+        {
+          "issue": "4",
+          "key": "2026040705450464000_2025.07.23.666402v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "361",
+          "DOI": "10.1038/nmeth.2408",
+          "article-title": "Nucleotide-resolution DNA double-strand break mapping by next-generation sequencing",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "3",
+          "key": "2026040705450464000_2025.07.23.666402v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005016",
+          "DOI": "10.1371/journal.pgen.1005016",
+          "article-title": "The Contribution of Alu Elements to Mutagenic DNA Double-Strand Break Repair",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "PLOS Genetics"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3155573"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.01.089"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.013495"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Neil AJ , Kim JC , Mirkin SM . Precarious maintenance of simple DNA repeats in eukaryotes. Bioessays. 2017 Sept;39(9).",
+          "DOI": "10.1002/bies.201700077"
+        },
+        {
+          "issue": "24",
+          "key": "2026040705450464000_2025.07.23.666402v2.15",
+          "first-page": "3872",
+          "article-title": "Double strand breaks (DSBs) as indicators of genomic instability in PATRR-mediated translocations",
+          "volume": "29",
+          "year": "2020",
+          "journal-title": "Human Molecular Genetics"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc.2017.52"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.11.031"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.06.021"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0686-x"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2023.11.014"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.05.015"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1016071107"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07829"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.12.029"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2024.06.001"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2022.103407"
+        },
+        {
+          "issue": "4",
+          "key": "2026040705450464000_2025.07.23.666402v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "133",
+          "DOI": "10.1007/s42764-024-00131-x",
+          "article-title": "The silent guardian: unraveling the roles of H3K9me3 in genome maintenance",
+          "volume": "5",
+          "year": "2024",
+          "journal-title": "Genome Instability & Disease"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.02.041"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.01.009"
+        },
+        {
+          "issue": "3",
+          "key": "2026040705450464000_2025.07.23.666402v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "696",
+          "DOI": "10.1016/j.celrep.2016.06.034",
+          "article-title": "Lack of Transcription Triggers H3K27me3 Accumulation in the Gene Body",
+          "volume": "16",
+          "year": "2016",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1403565111"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Y , Chang JF , Sun J , Chen L , Yang XM , Tang HY , et al. Histone H3K27 methylation modulates the dynamics of FANCD2 on chromatin to facilitate NHEJ and genome stability. Journal of Cell Science. 2018 June 21;131(12):jcs215525.",
+          "DOI": "10.1242/jcs.215525"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hilmi K , Jangal M , Marques M , Zhao T , Saad A , Zhang C , et al. CTCF facilitates DNA double-strand break repair by enhancing homologous recombination repair. Science Advances. 3(5):e1601898.",
+          "DOI": "10.1126/sciadv.1601898"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1704076114"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M512757200"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.10.013"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.177121.114"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.01.006"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.07.011"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3960"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms15058"
+        },
+        {
+          "issue": "12",
+          "key": "2026040705450464000_2025.07.23.666402v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "3894",
+          "DOI": "10.1038/s41596-020-0397-2",
+          "article-title": "Genome-wide detection of DNA double-strand breaks by in-suspension BLISS",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "issue": "1",
+          "key": "2026040705450464000_2025.07.23.666402v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1186/s13059-019-1635-1",
+          "article-title": "Modeling double strand break susceptibility to interrogate structural variation in cancer",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Genome Biology"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1411-7"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.MOLCEL.2021.03.032"
+        },
+        {
+          "issue": "1",
+          "key": "2026040705450464000_2025.07.23.666402v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "5334",
+          "DOI": "10.1038/s41467-024-49232-x",
+          "article-title": "Widespread chromatin context-dependencies of DNA double-strand break repair proteins",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schep R , Leemans C , Brinkman EK , van Schaik T , van Steensel B . Protocol: A Multiplexed Reporter Assay to Study Effects of Chromatin Context on DNA Double-Strand Break Repair. Frontiers in Genetics [Internet]. 2022;Volume 12-2021. Available from: https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2021.785947",
+          "DOI": "10.3389/fgene.2021.785947"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.48",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N , Uszkoreit J , Jones L , Gomez AN , et al. Attention Is All You Need. CoRR [Internet]. 2017;abs/1706.03762. Available from: http://arxiv.org/abs/1706.03762"
+        },
+        {
+          "issue": "10",
+          "key": "2026040705450464000_2025.07.23.666402v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1038/s41592-021-01252-x",
+          "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "1",
+          "key": "2026040705450464000_2025.07.23.666402v2.50",
+          "first-page": "212",
+          "article-title": "Gilbert S",
+          "volume": "8",
+          "year": "2025",
+          "journal-title": "Genomic language models could transform medicine but not yet. npj Digital Medicine"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2024.11.013"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-024-05869-5"
+        },
+        {
+          "issue": "8",
+          "key": "2026040705450464000_2025.07.23.666402v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "911",
+          "DOI": "10.1038/s42256-024-00872-0",
+          "article-title": "DNA language model GROVER learns sequence context in the human genome",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Nat Mach Intell"
+        },
+        {
+          "issue": "3",
+          "key": "2026040705450464000_2025.07.23.666402v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "666",
+          "DOI": "10.1016/j.celrep.2012.08.003",
+          "article-title": "CEL-Seq: Single-Cell RNA-Seq by Multiplexed Linear Amplification",
+          "volume": "2",
+          "year": "2012",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.87.5.1663"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van Bueren MAE , Janssen A . The impact of chromatin on double-strand break repair: Imaging tools and discoveries. DNA Repair. 2024 Jan 1;133:103592.",
+          "DOI": "10.1016/j.dnarep.2023.103592"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.58",
+          "unstructured": "Beware Default Random Forest Importances [Internet]. [cited 2025 Jan 27]. Available from: http://explained.ai/decision-tree-viz/index.html"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen B , Ren C , Ouyang Z , Xu J , Xu K , Li Y , et al. Stratifying TAD boundaries pinpoints focal genomic regions of regulation, damage, and repair. Briefings in Bioinformatics. 2024 July 1;25(4):bbae306.",
+          "DOI": "10.1093/bib/bbae306"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1593/neo.09312"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.61",
+          "unstructured": "UW Repli-seq Track Settings [Internet]. [cited 2025 Jan 27]. Available from: https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=wgEncodeUwRepliSeq"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0912402107"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/12.4.2137"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.64",
+          "unstructured": "Li H. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM [Internet]. 2013. Available from: https://arxiv.org/abs/1303.3997"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "issue": "1",
+          "key": "2026040705450464000_2025.07.23.666402v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "9354",
+          "DOI": "10.1038/s41598-019-45839-z",
+          "article-title": "The ENCODE Blacklist: Identification of Problematic Regions of the Genome",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1582-2"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2019.12.013"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Takhaveev, V. et al. Click-code-seq reveals strand biases of DNA oxidation and depurination in human genome. Nature Chemical Biology 1–12 (2025).",
+          "DOI": "10.1038/s41589-025-02052-6"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-10014-0"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1127196"
+        },
+        {
+          "key": "2026040705450464000_2025.07.23.666402v2.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Verarga, X. et al. Widespread chromatin context-dependencies of DNA double-strand break repair proteins. Nature Communications 15 (2024).",
+          "DOI": "10.1038/s41467-024-49232-x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.23.666402",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            7
+          ]
+        ],
+        "date-time": "2026-04-07T12:45:27Z",
+        "timestamp": 1775565927000
+      },
+      "score": 71.68808,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.23.666402"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2025.07.23.666402",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

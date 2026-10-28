@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, data availability, funding, competing interests, contributions, supplementary information descriptions)
+- **Assessment boundary** Scientific validity, technical soundness, reproducibility, and clarity of claims based solely on the provided manuscript text. No external data, code, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors present Neur-Ally, a deep learning model combining convolutional and attention layers, trained on 758 ENCODE epigenomic datasets from nervous tissues and cells. The model predicts chromatin accessibility, histone modifications, and transcription factor binding from DNA sequence. The authors apply the model via in silico mutagenesis to predict regulatory effects of neurological disease-associated SNPs from GWAS, brain eQTLs, and ASD studies, reporting significant predictions for a subset of variants.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Model Architecture, Data processing, Variant effect prediction, Model prediction sections), Results (Model performance, GWAS and eQTL variants, ASD GWAS variants, Regulatory brain variants), Discussion, Data Availability, Funding, Competing Interests, Contributions, Supplementary Information descriptions. Figures referenced but not visible: Figures 1-5, Table 1, Supplementary Tables S1-S4.
+- **Missing materials affecting confidence** Figures 1-5, Table 1, Supplementary Tables S1-S4, model code, training details (hyperparameters, optimizer, loss function specifics), dataset composition details, baseline model comparisons, and any validation on independent experimental data.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful tissue-specific deep learning model for regulatory variant prediction in neurological contexts. The motivation is clear and the use of a large number of neuronal epigenomic datasets is a strength. However, the current manuscript lacks critical technical details, quantitative performance comparisons, and validation against existing tools or experimental data. The results section is largely descriptive with minimal statistical context. The claims of utility and significance are not fully supported by the evidence presented in the text alone.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and neurogenetics would be interested. Those working on variant prioritization for neurological disorders, particularly in noncoding regions, would find a tissue-specific model potentially valuable. The approach of combining convolution and attention mechanisms for regulatory sequence modeling may also interest deep learning practitioners in genomics.
+- **Major strengths** 1. Clear clinical and biological motivation for tissue-specific regulatory variant prediction in neurological disorders. 2. Use of a large and diverse set of neuronal epigenomic datasets (758 datasets) is a notable resource. 3. The model architecture combining convolution and attention is modern and appropriate for sequence-based regulatory prediction. 4. The application to multiple neurological condition variant sets (GWAS, eQTL, ASD) demonstrates broad potential utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves "commendable performance" with mean AUROC values of 0.93 for chromatin accessibility, 0.84 for histone modifications, and 0.87 for TF binding.
+  - **Evidence pointer** Results, Model performance section; Figure 3; Supplementary Table S1
+  - **Concern** The performance metrics are reported as mean AUROC and PR-AUC values, but no confidence intervals, per-label variance, or comparison to baseline or existing models (e.g., DeepSEA, Basenji, Enformer) are provided. The PR-AUC values (0.23, 0.29, 0.22) are low in absolute terms, and the baseline PR-AUC values (0.01-0.03) suggest highly imbalanced labels, which is not discussed. The claim of "commendable performance" is subjective and not benchmarked.
+  - **Why it matters** Without quantitative comparison to established models or clear statistical characterization, the reader cannot assess whether Neur-Ally offers any advantage over existing tools. The low PR-AUC values raise concerns about practical utility for variant prioritization, where precision matters.
+  - **Resolution test** Provide per-label AUROC and PR-AUC distributions, confidence intervals, and a direct comparison to at least one established model (e.g., DeepSEA or Basenji) on the same or equivalent test sets. Discuss the class imbalance and its implications for PR-AUC interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model was trained on 758 regulatory datasets from nervous tissues and cells, creating a training dataset of 9 million genomic bins.
+  - **Evidence pointer** Materials and Methods, Data processing; Discussion
+  - **Concern** The description of data processing is insufficient for reproduction. The specific ENCODE datasets used (accession numbers), the exact criteria for selecting "nervous tissue and cell samples," the handling of overlapping labels, the definition of "low mappability," and the generation of negative samples are not detailed. The training procedure (epochs, batch size, learning rate, optimizer, early stopping) is not described beyond "39 epochs" mentioned in the results.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without detailed dataset lists and training hyperparameters, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete list of ENCODE dataset accessions, detailed preprocessing scripts, and full training configuration in the supplement or a public repository. Specify the exact criteria for positive/negative sample generation and the handling of multi-label outputs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The model predicted significant regulatory effects for 48 GWAS SNPs, 169 eQTL SNPs, and 4 ASD SNPs, and identified significant changes for rs7364180 and rs12411216.
+  - **Evidence pointer** Results, GWAS and neurological condition specific eQTL variants; ASD GWAS variants; Regulatory brain variants; Figures 4-5; Table 1; Supplementary Tables S2-S4
+  - **Concern** The results are presented as counts of significant variants without any functional validation, enrichment analysis, or comparison to expected rates under the null. The E-value threshold of 1e-05 is stated but the multiple testing burden across thousands of SNPs and dozens of labels is not addressed. For the two highlighted SNPs, no experimental validation or orthogonal evidence is provided beyond the model prediction.
+  - **Why it matters** The clinical relevance of the predictions is a central claim of the manuscript. Without validation or enrichment analysis, the reported significant variants could be false positives, and the utility of Neur-Ally for real-world variant prioritization remains unproven.
+  - **Resolution test** Perform enrichment analysis of predicted regulatory SNPs against known functional annotations or experimentally validated regulatory elements. Provide a null distribution or permutation-based significance assessment. For highlighted SNPs, include orthogonal validation (e.g., reporter assays, CRISPR, or comparison to independent functional datasets).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Neur-Ally is important in the sense that it is a variant prediction model that uses a large number of neuronal specific regulatory datasets and can be used for all neuronal disorders."
+  - **Evidence pointer** Discussion
+  - **Concern** The claim of importance and broad applicability is not supported by a systematic comparison to existing models or a demonstration of unique capabilities. The manuscript does not show that Neur-Ally outperforms general models on neurological variants, nor does it demonstrate that the tissue-specific training provides a tangible benefit.
+  - **Why it matters** The scientific contribution of a new model must be contextualized against the state of the art. Without comparative analysis, the incremental value of Neur-Ally is unclear.
+  - **Resolution test** Include a benchmark comparing Neur-Ally to at least one general-purpose model (e.g., DeepSEA, Enformer) on neurological variant sets, showing improved performance or unique predictions. Discuss cases where tissue-specific training changes predictions and whether these are biologically plausible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model Architecture section
+  - **Evidence pointer** Materials and Methods, Model Architecture
+  - **Issue** The description of the input representation is vague. "Vectorization, word embedding and positional encoding" are mentioned but the specific implementation (k-mer encoding, one-hot encoding, embedding dimensions) is not described.
+  - **Required correction** Provide a clear description of the input encoding scheme, including the exact sequence length, embedding dimensions, and how positional encoding is applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Variant effect prediction section
+  - **Evidence pointer** Materials and Methods, Variant effect prediction
+  - **Issue** The SAD score formula is described in text but not presented as a numbered equation. The definition of "significant" beyond the E-value threshold is unclear.
+  - **Required correction** Present the SAD score as a formal equation and clarify the exact criteria for calling a variant "significant" for each label.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Model performance section
+  - **Evidence pointer** Results, Model performance section; Figure 3
+  - **Issue** The training curves in Figure 3 are described but not shown in the text. The number of epochs (39) is mentioned without justification for stopping.
+  - **Required correction** Show the training and validation loss curves, and explain the stopping criterion. If early stopping was used, state the patience parameter.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of immune system abnormalities in neurological disorders is brief and not connected to any specific results or analyses in the manuscript.
+  - **Required correction** Either expand this point with relevant analysis (e.g., predictions in immune-related cell types) or remove it as it is not supported by the presented work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability
+  - **Issue** The GitHub URL contains a space ("https://github.com/ anilprakash94/neur_ally") which appears to be a typographical error.
+  - **Required correction** Correct the URL to "https://github.com/anilprakash94/neur_ally" and ensure the repository is publicly accessible with clear documentation.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of benchmark comparison to existing models (R1-M1). 2. Insufficient training and data processing details for reproducibility (R1-M2). 3. No validation or enrichment analysis for predicted variants (R1-M3). 4. Unsupported claim of broad applicability without comparative evidence (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of convolution and attention for tissue-specific regulatory prediction is not entirely novel, but the focus on neurological tissues is a useful niche. Scientific importance: Not yet established. The potential utility is clear, but the lack of validation and benchmarking prevents assessment of real-world impact. Interdisciplinary readership: Potentially broad, spanning genomics, neurogenetics, and machine learning, but the technical presentation is currently too sparse for a general audience to evaluate. Technical soundness: Weak as presented. Critical details on data, training, and evaluation are missing, and the performance claims are not rigorously supported. Readability for nonspecialists: The introduction and discussion are accessible, but the methods and results sections assume significant prior knowledge and lack sufficient explanatory context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions including benchmarking, validation, and detailed methods before the claims can be assessed.
+
+## Risk / unsupported claims
+- The claim of "commendable performance" is unsupported without benchmark comparisons or statistical context.
+- The claim that Neur-Ally "can be used for all neuronal disorders" is an overstatement not supported by the presented evidence.
+- The reported significant variant counts (48 GWAS, 169 eQTL, 4 ASD) are not interpretable without null models or multiple testing correction details.
+- The biological relevance of predictions for rs7364180 and rs12411216 is asserted but not validated experimentally or against independent functional data.
+- The statement that the model "learn the contribution of sequence features to the prediction" is a general property of such models and is not specifically demonstrated here.

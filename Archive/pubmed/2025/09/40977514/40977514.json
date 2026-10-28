@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40977514",
+    "doi": "10.1021/acssynbio.5c00488",
+    "title": "Structure-Guided Design of Artificial Transcription Factor for a Progesterone Biosensor."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) can be used in genetic circuits and biosensors in the field of synthetic biology. Traditionally, TFs derived from prokaryotic organisms are transferred to more complex eukaryotic cells to achieve gene control; however, TFs in eukaryotes are rarely transferred to prokaryotes. Herein, an artificial TF responsive to progesterone was designed through MD simulations, and the linker fine-tuned the convergence of the DNA-binding domain and activation domain as the desired conformation guide to design an artificial TF ProB assembled from the QF(DBD), the ligand-binding domain, linker, and QF(AD). The ProB acted on the synthetic promoter QT, which is composed of QUAS, 10-bp space, T7, and the RBS, which controlled the transcription of the biosensor GFP in E. coli. The performance of the whole-cell progesterone biosensor was optimized via a bacterial enrichment strategy, which made the biosensor highly sensitive (LOD 0.15 mug/L and EC(50) 26.58 mug/L), preferably in the working temperature range (20-30  degrees C), with only a 56.4 min detection time and a working concentration range of 0.15-40 mug/L, and the performance reached the requirements of clinical application. This report presents effective strategies and valuable insights into the design of non-natural TFs and their artificial systems in prokaryotes.",
+    "keywords": [
+      "artificial system",
+      "artificial transcription factor",
+      "molecular dynamics",
+      "progesterone",
+      "synthetic promoter QT",
+      "whole-cell biosensor"
+    ],
+    "mesh_terms": [
+      "*Progesterone/analysis/metabolism",
+      "*Biosensing Techniques/methods",
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "Escherichia coli/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics",
+      "Synthetic Biology/methods",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Kun",
+        "Fan, Xinlan",
+        "Zhao, Ming",
+        "Chen, Yu",
+        "Tang, Qinghui",
+        "Wei, Shenghua",
+        "Xue, Zhenglian",
+        "Wei, Dongzhi",
+        "Wang, Feng-Qing"
+      ],
+      "short_names": [
+        "Liu K",
+        "Fan X",
+        "Zhao M",
+        "Chen Y",
+        "Tang Q",
+        "Wei S",
+        "Xue Z",
+        "Wei D",
+        "Wang FQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8841-6278",
+        "ORCID: 0000-0002-3473-5991"
+      ],
+      "affiliations": [
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Department of Cardiology, the First Affiliated Hospital of Wannan Medical College, 2 Zheshan Road, Wuhu 241001, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Kun",
+        "short_name": "Liu K",
+        "identifiers": [
+          "0000-0001-8841-6278"
+        ],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xinlan",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ming",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qinghui",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, the First Affiliated Hospital of Wannan Medical College, 2 Zheshan Road, Wuhu 241001, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shenghua",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Zhenglian",
+        "short_name": "Xue Z",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dongzhi",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng-Qing",
+        "short_name": "Wang FQ",
+        "identifiers": [
+          "0000-0002-3473-5991"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2025 Oct 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/22 12:46",
+    "fetched_at": "2026-10-01 02:40:27"
+  },
+  "links": {
+    "cites": [
+      "41982388"
+    ],
+    "refs": [],
+    "similar": [
+      "40977514",
+      "35134684",
+      "41430049",
+      "41512477",
+      "38875315",
+      "35339074",
+      "32886884",
+      "40460061",
+      "40170310",
+      "27170323",
+      "38616975",
+      "41655136",
+      "35922625",
+      "27744683",
+      "32976557",
+      "40776718",
+      "33899477",
+      "28763198",
+      "29251347",
+      "30658983",
+      "40378340",
+      "41870091",
+      "31825601",
+      "35700119",
+      "21947012",
+      "39292503",
+      "40277535",
+      "30169636",
+      "39522471",
+      "38696354",
+      "39855706",
+      "36526685",
+      "31777933",
+      "29532902",
+      "30261142",
+      "41768065",
+      "36550338",
+      "29385546",
+      "30290194",
+      "23912807",
+      "31525958",
+      "41205601",
+      "34551261",
+      "34226549",
+      "38968698",
+      "37714511",
+      "15969093",
+      "33555859",
+      "39029917",
+      "34758318",
+      "26521244",
+      "41612076",
+      "33864457",
+      "19772633",
+      "40863014",
+      "32152281",
+      "31335131",
+      "26818434",
+      "29733444",
+      "41485423",
+      "41655251",
+      "35412319",
+      "23178502",
+      "30457214",
+      "34677313",
+      "41440301",
+      "31134799",
+      "32576674",
+      "31574217",
+      "37948915",
+      "37198736",
+      "38508427",
+      "39451669",
+      "39590006",
+      "35839853",
+      "24837290",
+      "39124917",
+      "41478986",
+      "33593066",
+      "39709556",
+      "37499217",
+      "22536957",
+      "36178800",
+      "39694387",
+      "29688705",
+      "38857275",
+      "23676681",
+      "23041931",
+      "32268060",
+      "33908255",
+      "24025606",
+      "29961891",
+      "30204430",
+      "32078765",
+      "36541030",
+      "23656325",
+      "30279318",
+      "39374798",
+      "35537205",
+      "28904250"
+    ],
+    "review": [
+      "40977514",
+      "40170310",
+      "33899477",
+      "40277535",
+      "41768065",
+      "30290194",
+      "26521244",
+      "41485423",
+      "41655251",
+      "38508427",
+      "39124917",
+      "39709556",
+      "39374798"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.5c00488",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

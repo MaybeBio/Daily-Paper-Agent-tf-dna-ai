@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report identification of a novel niclosamide binding site on STAT3 by X-ray crystallography, spanning the coiled-coil, DNA-binding, and linker domains. They report that niclosamide disrupts STAT3-DNA binding with an IC50 of 219 ± 43.4 μM by fluorescence polarization, and that a library of over 45 analogues was synthesized. Among these, MQ021 inhibited STAT3-DNA binding by 60% at 100 μM versus 40% for niclosamide, and compound 21 showed a Kd of 155 ± 59 μM versus 281 ± 55 μM for niclosamide by microscale thermophoresis. The authors conclude that these results provide structure-activity relationship insights and a foundation for STAT3-targeted therapeutics.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, crystallographic data, or compound characterization data are provided.
+- **Missing materials affecting confidence** Full manuscript, crystallographic coordinates and refinement statistics, FP and MST raw data, compound synthesis and characterization details, statistical analysis methods, and any structural figures or electron density maps.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting crystallographic finding and a medicinal chemistry effort, but the evidence base available is insufficient to evaluate the validity of the structural claims, the quality of the binding data, or the significance of the reported SAR. The micromolar affinities and modest inhibition percentages raise questions about the therapeutic relevance of these compounds, and the relationship between the crystallographic binding site and the functional inhibition data is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer biology and drug discovery focused on STAT3 signaling, structural biologists studying transcription factor inhibition, and medicinal chemists working on repurposing or optimizing anthelmintic drugs for oncology applications. The potential novelty of a new binding site on STAT3 could attract interest from those seeking alternative strategies to target this protein.
+- **Major strengths** The identification of a previously unreported binding site on STAT3 by X-ray crystallography is potentially novel. The combination of structural and biophysical methods (X-ray, FP, MST) is appropriate for characterizing protein-ligand interactions. The synthesis of a focused analogue library represents a systematic approach to SAR development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim identification of a novel binding site for niclosamide on STAT3 by X-ray crystallography.
+  - **Evidence pointer** Abstract only, no crystallographic details provided
+  - **Concern** No crystallographic data are presented. There is no information on resolution, refinement statistics, electron density quality, ligand occupancy, or whether the binding site was validated by mutagenesis or other orthogonal methods. The claim of a novel binding site spanning three domains is a strong structural assertion that cannot be assessed without these data.
+  - **Why it matters** A novel binding site claim is the central scientific contribution of this work. Without supporting crystallographic evidence, the claim is unverifiable and the foundation of the entire study is compromised.
+  - **Resolution test** Provide crystallographic coordinates, refinement statistics, electron density maps for the ligand, and independent validation such as mutagenesis or isothermal titration calorimetry confirming the binding site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report IC50 of 219 ± 43.4 μM for niclosamide by FP and Kd values of 155 ± 59 μM and 281 ± 55 μM for compound 21 and niclosamide by MST.
+  - **Evidence pointer** Abstract only, no assay details provided
+  - **Concern** The reported IC50 and Kd values are in the high micromolar range, which is generally considered weak binding. The abstract does not provide information on assay conditions, protein concentration, probe concentration, replicates, or whether the FP signal reflects true competition. The discrepancy between the FP IC50 (219 μM) and MST Kd (281 μM) for niclosamide is not discussed. The 60% versus 40% inhibition comparison for MQ021 and niclosamide at 100 μM is presented without statistical analysis.
+  - **Why it matters** The quantitative claims are the basis for the SAR conclusions. Weak affinities with unstated error analysis and no statistical comparison undermine confidence in the reported differences between compounds.
+  - **Resolution test** Provide full assay protocols, replicate numbers, error propagation methods, and statistical tests comparing compound activities. Discuss the relationship between IC50 and Kd values and address the discrepancy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors state that these results provide a foundation for the development of STAT3-targeted therapeutics.
+  - **Evidence pointer** Abstract only
+  - **Concern** The abstract reports only biochemical binding and DNA-binding disruption data. There is no evidence of cellular activity, selectivity over other STAT family members or unrelated transcription factors, or any demonstration that the compounds affect STAT3-dependent transcription or cancer cell viability. The therapeutic relevance of a compound with a Kd of 155 μM is not established.
+  - **Why it matters** The stated therapeutic foundation claim requires at least some evidence of cellular activity or selectivity to be credible. Without this, the translational significance is speculative.
+  - **Resolution test** Provide cellular assays showing STAT3 pathway inhibition, selectivity data against other STAT proteins, and dose-response relationships in relevant cancer cell models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound nomenclature
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract refers to "MQ021" and "compound 21" without clarifying whether these are the same compound or different ones. The relationship between the two names is ambiguous.
+  - **Required correction** Clarify whether MQ021 and compound 21 are identical or distinct, and use consistent nomenclature throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Statement on existing STAT3 inhibitors
+  - **Evidence pointer** Abstract
+  - **Issue** The statement that "none directly target the STAT3 protein" is overly broad and contradicts a substantial literature describing direct STAT3 inhibitors, including those in clinical trials. This claim requires qualification.
+  - **Required correction** Revise to acknowledge existing direct STAT3 inhibitors and clarify what is novel about the approach presented here.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** SAR discussion
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims "insights into the structure-activity relationships" but only two compounds are discussed with quantitative data. The scope of the SAR analysis is not clear from the abstract.
+  - **Required correction** Provide a summary of the SAR trends across the full library or state explicitly which analogues were characterized and how.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The crystallographic claim cannot be evaluated without structural data, and the quantitative binding data lack sufficient detail and statistical rigor. The functional relevance claim (R1-M3) is not blocking but requires additional evidence to support the therapeutic foundation statement.
+- **Assessment against Nature-style criteria** Originality: The potential new binding site on STAT3 is original if confirmed, but this cannot be assessed from the abstract alone. Scientific importance: STAT3 is a validated cancer target, and a new druggable site would be significant, but the weak affinities reported temper the immediate importance. Interdisciplinary readership: The work spans structural biology, medicinal chemistry, and cancer biology, which could appeal to a broad audience if the evidence is robust. Technical soundness: Cannot be evaluated from the abstract. The lack of crystallographic details and limited assay information prevent assessment. Readability for nonspecialists: The abstract is generally clear, but the compound nomenclature confusion and the broad claim about existing inhibitors detract from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The central structural claim and the quantitative binding data require full manuscript evaluation. Supportive if the crystallographic evidence is robust, the biophysical data are statistically sound, and the therapeutic relevance is supported by additional functional data.
+
+## Risk / unsupported claims
+- The claim of a novel STAT3 binding site spanning coiled-coil, DNA-binding, and linker domains is unsupported without crystallographic data.
+- The statement that no existing inhibitors directly target STAT3 is contradicted by published literature and is not supported by any citation in the abstract.
+- The therapeutic foundation claim is unsupported without cellular or in vivo evidence.
+- The SAR insights claim is weakly supported as only two compounds are discussed with quantitative data.
+- The comparison between MQ021 and niclosamide inhibition percentages is not supported by statistical analysis.

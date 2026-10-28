@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "40127075",
+    "doi": "10.1371/journal.pone.0319028",
+    "title": "Exploring common genomic biomarkers to disclose common drugs for the treatment of colorectal cancer and hepatocellular carcinoma with type-2 diabetes through transcriptomics analysis."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes (T2D) is a crucial risk factor for both colorectal cancer (CRC) and hepatocellular carcinoma (HCC). However, so far, there was no study that has investigated common drugs against HCC and CRC during their co-occurrence with T2D patients. Consequently, patients often require multiple disease-specific multiple drugs, which can lead toxicities and adverse effects to the patients due to drug-drug interactions. This study aimed to identify common genomic biomarkers (cGBs) and associated pathogenetic mechanisms underlying CRC, HCC, and T2D to uncover potential common therapeutic compounds against these three diseases. Firstly, we identified 86 common differentially expressed genes (cDEGs) capable of separating each of CRC, HCC and T2D patients from control groups based on transcriptomic profiling. Of these cDEGs, 37 genes were upregulated and 49 were downregulated. Genetic association studies based on average of Log2 fold-change (aLog2FC) of cDEGs suggested a genetic association among CRC, HCC and T2D. Subsequently, six top-ranked cDEGs (MYC, MMP9, THBS1, IL6, CXCL1, and SPP1) were identified as common genomic biomarkers (cGBs) through protein-protein interaction (PPI) network analysis. Further analysis of these cGBs with GO-terms and KEGG pathways revealed shared pathogenetic mechanisms of three diseases, including specific biological processes, molecular functions, cellular components and signaling pathways. The gene co-regulatory network analysis identified two transcription factors (FOXC1 and GATA2) and three miRNAs (hsa-mir-195-5p, hsa-mir-124a-3p, and hsa-mir-34a-5p) as crucial transcriptional and post-transcriptional regulators of the cGBs. Finally, cGBs-guided seven candidate drugs (Digitoxin, Camptosar, AMG-900, Imatinib, Irinotecan, Midostaurin, and Linsitinib) as the common treatment against T2D, CRC and HCC were identified through molecular docking, cross-validation, and ADME/T (Absorption-Distribution-Metabolism-Excretion-Toxicity) analysis. Most of these findings received support by the literature review of diseases specific individual studies. Thus, this study offers valuable insights for researchers and clinicians to improve the diagnosis and treatment of CRC and/or HCC patients during the co-occurrence of T2D.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/genetics/complications/drug therapy",
+      "*Carcinoma, Hepatocellular/genetics/drug therapy/complications",
+      "*Colorectal Neoplasms/genetics/drug therapy/complications",
+      "*Liver Neoplasms/genetics/drug therapy/complications",
+      "Gene Expression Profiling",
+      "*Biomarkers, Tumor/genetics",
+      "Protein Interaction Maps",
+      "*Transcriptome",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mahmud, Sabkat",
+        "Ajadee, Alvira",
+        "Sarker, Arnob",
+        "Ahmmed, Reaz",
+        "Noor, Tasfia",
+        "Pappu, Md Al Amin",
+        "Islam, Md Saiful",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Mahmud S",
+        "Ajadee A",
+        "Sarker A",
+        "Ahmmed R",
+        "Noor T",
+        "Pappu MAA",
+        "Islam MS",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Department of Biochemistry & Molecular Biology, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Department of Biochemistry & Molecular Biology, University of Rajshahi, Bangladesh.",
+        "Department of Computer Science and Engineering, Rajshahi University of Engineering & Technology (RUET), Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mahmud, Sabkat",
+        "short_name": "Mahmud S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ajadee, Alvira",
+        "short_name": "Ajadee A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarker, Arnob",
+        "short_name": "Sarker A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+          "Department of Biochemistry & Molecular Biology, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmmed, Reaz",
+        "short_name": "Ahmmed R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh.",
+          "Department of Biochemistry & Molecular Biology, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Noor, Tasfia",
+        "short_name": "Noor T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Rajshahi University of Engineering & Technology (RUET), Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Pappu, Md Al Amin",
+        "short_name": "Pappu MAA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Saiful",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/24 18:30",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42361106",
+      "41465132",
+      "40370100"
+    ],
+    "refs": [
+      "39528802",
+      "39454454",
+      "39453960",
+      "39348357",
+      "39160196",
+      "38807177",
+      "38789183",
+      "38746675",
+      "38666802",
+      "38660518",
+      "38622622",
+      "38561377",
+      "38268569",
+      "38167159",
+      "37941901",
+      "37904700",
+      "37892997",
+      "37575883",
+      "37097499",
+      "37000372",
+      "36852389",
+      "36786134",
+      "36716957",
+      "36622368",
+      "36613455",
+      "36525476",
+      "36502691",
+      "36230769",
+      "36145719",
+      "36080304",
+      "35733095",
+      "35617355",
+      "35451082",
+      "35406619",
+      "35290843",
+      "35281591",
+      "35227296",
+      "35197754",
+      "35155966",
+      "35050739",
+      "34820376",
+      "34804159",
+      "34791371",
+      "34717917",
+      "34586825",
+      "34548861",
+      "34539726",
+      "34471858",
+      "34270579",
+      "34087223",
+      "34087084",
+      "33955820",
+      "33925464",
+      "33854480",
+      "33571109",
+      "33522955",
+      "33411100",
+      "33380242",
+      "33337480",
+      "33186354",
+      "33082709",
+      "33022360",
+      "32910779",
+      "32863904",
+      "32849813",
+      "32547141",
+      "32462020",
+      "32351322",
+      "32110079",
+      "32056163",
+      "31897097",
+      "31680165",
+      "31591054",
+      "31238113",
+      "31131037",
+      "31114875",
+      "30371825",
+      "29955086",
+      "29458351",
+      "29140473",
+      "29137447",
+      "28752343",
+      "28424071",
+      "28326532",
+      "28302149",
+      "28290049",
+      "28256516",
+      "28035421",
+      "27994674",
+      "27912756",
+      "27852946",
+      "27278686",
+      "27186148",
+      "26605738",
+      "26604633",
+      "26196247",
+      "26149602",
+      "25860834",
+      "25552419",
+      "25521941",
+      "25335932",
+      "24498120",
+      "24083576",
+      "23832629",
+      "23704966",
+      "23193258",
+      "21917536",
+      "21696633",
+      "20163989",
+      "20045785",
+      "19499576",
+      "19465387",
+      "19131956",
+      "19114008",
+      "18508951",
+      "18305899",
+      "17490925",
+      "16373484",
+      "16096348",
+      "15952101",
+      "14597658",
+      "12525261",
+      "12037327",
+      "11742409",
+      "10802651",
+      "8581761",
+      "2178374"
+    ],
+    "similar": [
+      "40127075",
+      "40025145",
+      "39160196",
+      "36991484",
+      "36786134",
+      "30585632",
+      "32041280",
+      "34155346",
+      "39118438",
+      "38717954",
+      "39454454",
+      "34737677",
+      "39874008",
+      "29319171",
+      "39348357",
+      "32441313",
+      "36378050",
+      "35452485",
+      "30268144",
+      "31754293",
+      "39080630",
+      "30092792",
+      "30825595",
+      "35390032",
+      "38657585",
+      "33376723",
+      "39764737",
+      "31633428",
+      "30602391",
+      "36187128",
+      "36798788",
+      "39604866",
+      "40370100",
+      "38984486",
+      "32221048",
+      "34257537",
+      "39023830",
+      "31233760",
+      "29298665",
+      "31137244",
+      "38310567",
+      "39901036",
+      "39176085",
+      "30658502",
+      "32567431",
+      "28060739",
+      "28302149",
+      "38891888",
+      "35762549",
+      "34390411",
+      "33102593",
+      "32598174",
+      "33564675",
+      "40317014",
+      "33390802",
+      "39985046",
+      "31502424",
+      "29191172",
+      "30542696",
+      "24595450",
+      "30525236",
+      "38017425",
+      "35249869",
+      "30509082",
+      "39116715",
+      "38840185",
+      "31043166",
+      "27571956",
+      "36468451",
+      "36502691",
+      "31320713",
+      "35322101",
+      "29962817",
+      "33988674",
+      "29977454",
+      "30680535",
+      "40265593",
+      "33456356",
+      "32537629",
+      "38872418",
+      "32517019",
+      "29914004",
+      "35834027",
+      "39375405",
+      "30604369",
+      "31822116",
+      "34603487",
+      "30073936",
+      "39516222",
+      "34468893",
+      "33862123",
+      "23082062",
+      "28432618",
+      "26026584",
+      "32106374",
+      "38087342",
+      "35409328",
+      "34663301",
+      "30578287",
+      "35340237"
+    ],
+    "review": [
+      "40127075",
+      "38984486"
+    ],
+    "pmc": [
+      "11932495"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0319028",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40127075/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

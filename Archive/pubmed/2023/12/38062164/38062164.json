@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "38062164",
+    "doi": "10.1007/s00011-023-01817-w",
+    "title": "Unveiling the role of ABI3 and hub senescence-related genes in macrophage senescence for atherosclerotic plaque progression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerosis, characterized by abnormal arterial lipid deposition, is an age-dependent inflammatory disease and contributes to elevated morbidity and mortality. Senescent foamy macrophages are considered to be deleterious at all stages of atherosclerosis, while the underlying mechanisms remain largely unknown. In this study, we aimed to explore the senescence-related genes in macrophages diagnosis for atherosclerotic plaque progression. METHODS: The atherosclerosis-related datasets were retrieved from the Gene Expression Omnibus (GEO) database, and cellular senescence-associated genes were acquired from the CellAge database. R package Limma was used to screen out the differentially expressed senescence-related genes (DE-SRGs), and then three machine learning algorithms were applied to determine the hub DE-SRGs. Next, we established a nomogram model to further confirm the clinical significance of hub DE-SRGs. Finally, we validated the expression of hub SRG ABI3 by Sc-RNA seq analysis and explored the underlying mechanism of ABI3 in THP-1-derived macrophages and mouse atherosclerotic lesions. RESULTS: A total of 15 DE-SRGs were identified in macrophage-rich plaques, with five hub DE-SRGs (ABI3, CAV1, NINJ1, Nox4 and YAP1) were further screened using three machine learning algorithms. Subsequently, a nomogram predictive model confirmed the high validity of the five hub DE-SRGs for evaluating atherosclerotic plaque progression. Further, the ABI3 expression was upregulated in macrophages of advanced plaques and senescent THP-1-derived macrophages, which was consistent with the bioinformatics analysis. ABI3 knockdown abolished macrophage senescence, and the NF-kappaB signaling pathway contributed to ABI3-mediated macrophage senescence. CONCLUSION: We identified five cellular senescence-associated genes for atherogenesis progression and unveiled that ABI3 might promote macrophage senescence via activation of the NF-kappaB pathway in atherogenesis progression, which proposes new preventive and therapeutic strategies of senolytic agents for atherosclerosis.",
+    "keywords": [
+      "Atherosclerosis",
+      "Biomarkers",
+      "Machine-Learning",
+      "Macrophage senescence",
+      "Sc-RNA seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Atherosclerosis/genetics/metabolism",
+      "Macrophages/metabolism",
+      "NF-kappa B/metabolism",
+      "*Plaque, Atherosclerotic/genetics/metabolism/pathology",
+      "Signal Transduction",
+      "Adaptor Proteins, Signal Transducing",
+      "Carrier Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Yajuan",
+        "Zhang, Juan",
+        "Liu, Qiujun",
+        "Yang, Lan",
+        "Wu, Qianqian",
+        "Yang, Xiaomin",
+        "Wang, Lexin",
+        "Ding, Ning",
+        "Xiong, Jiantuan",
+        "Gao, Yujing",
+        "Ma, Shengchao",
+        "Jiang, Yideng"
+      ],
+      "short_names": [
+        "Fu Y",
+        "Zhang J",
+        "Liu Q",
+        "Yang L",
+        "Wu Q",
+        "Yang X",
+        "Wang L",
+        "Ding N",
+        "Xiong J",
+        "Gao Y",
+        "Ma S",
+        "Jiang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. gaoyujing2004@126.com.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. gaoyujing2004@126.com.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. solarmsc@163.com.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. solarmsc@163.com.",
+        "School of Laboratory Medicine, Ningxia Medical University, Yinchuan, China. solarmsc@163.com.",
+        "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. jydeng@nxmu.edu.cn.",
+        "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. jydeng@nxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Yajuan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qiujun",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lan",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qianqian",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaomin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lexin",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ning",
+        "short_name": "Ding N",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China.",
+          "Department of Pathophysiology, School of Basic Medical Sciences, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jiantuan",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yujing",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. gaoyujing2004@126.com.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. gaoyujing2004@126.com."
+        ]
+      },
+      {
+        "full_name": "Ma, Shengchao",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. solarmsc@163.com.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. solarmsc@163.com.",
+          "School of Laboratory Medicine, Ningxia Medical University, Yinchuan, China. solarmsc@163.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yideng",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, China. jydeng@nxmu.edu.cn.",
+          "Ningxia Key Laboratory of Vascular Injury and Repair Research, Ningxia Medical University, Yinchuan, China. jydeng@nxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/08 00:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "42656193",
+      "42524598",
+      "42373952",
+      "42140035",
+      "42006489",
+      "41545793",
+      "41142625",
+      "41006761",
+      "40775648",
+      "40688093",
+      "40612944",
+      "40592922",
+      "40281381",
+      "39616367",
+      "39281682"
+    ],
+    "refs": [
+      "37060905",
+      "35897046",
+      "35663954",
+      "35628490",
+      "35176871",
+      "34818543",
+      "34731000",
+      "34285779",
+      "34185408",
+      "33472215",
+      "33152005",
+      "32918047",
+      "32883094",
+      "32755583",
+      "32392533",
+      "32346137",
+      "32264951",
+      "32106607",
+      "31886303",
+      "31472244",
+      "31443682",
+      "31154825",
+      "30571351",
+      "30560866",
+      "30326945",
+      "29608179",
+      "29278382",
+      "28485501",
+      "27789842",
+      "26578199",
+      "26429798",
+      "26428302",
+      "26385958",
+      "25217383",
+      "23746838",
+      "23660665",
+      "23122912",
+      "21414208",
+      "20381282",
+      "19604372",
+      "17634571",
+      "16199517",
+      "15464245",
+      "15210586",
+      "12925520",
+      "3426656"
+    ],
+    "similar": [
+      "38062164",
+      "37454749",
+      "39026250",
+      "38716195",
+      "26505215",
+      "36304068",
+      "39364414",
+      "36211422",
+      "28535426",
+      "37315377",
+      "33222501",
+      "29940270",
+      "32959354",
+      "23041630",
+      "27835742",
+      "31666189",
+      "36582740",
+      "29126450",
+      "29154780",
+      "36924853",
+      "34227406",
+      "36823662",
+      "31386895",
+      "26400926",
+      "39255694",
+      "34142149",
+      "36061826",
+      "25474352",
+      "31009101",
+      "31439353",
+      "23051009",
+      "29700120",
+      "25614279",
+      "30315930",
+      "38179058",
+      "28487392",
+      "36940535",
+      "31887543",
+      "34646375",
+      "27789842",
+      "24990232",
+      "30359200",
+      "24526691",
+      "36951060",
+      "35931206",
+      "28209562",
+      "25868464",
+      "30928429",
+      "37437377",
+      "32911750",
+      "35930063",
+      "31646601",
+      "33913468",
+      "25757594",
+      "29673854",
+      "32007256",
+      "24349299",
+      "30452556",
+      "29449334",
+      "38734283",
+      "22352457",
+      "35773742",
+      "30643084",
+      "33503557",
+      "37421595",
+      "35967343",
+      "32883094",
+      "22460554",
+      "32346137",
+      "24771407",
+      "25348165",
+      "29850779",
+      "26117323",
+      "28258089",
+      "28062499",
+      "32392533",
+      "25261478",
+      "23122912",
+      "29950954",
+      "26427793",
+      "25057989",
+      "28760743",
+      "27189780",
+      "28468003",
+      "36931409",
+      "36263184",
+      "36095948",
+      "38904193",
+      "36786718",
+      "28615615",
+      "31704554",
+      "29496659",
+      "34753029",
+      "30586693",
+      "37264926",
+      "38681071",
+      "35587037",
+      "29407890",
+      "25367649",
+      "38167983",
+      "37099944",
+      "28007744",
+      "35534881",
+      "38230733",
+      "38280419",
+      "38194604",
+      "38382092",
+      "37965353",
+      "39333589",
+      "39130409",
+      "37850387",
+      "38287421",
+      "38138958",
+      "38927453",
+      "29987251",
+      "39135779",
+      "38646596",
+      "38090812",
+      "29688381",
+      "38349439",
+      "38598492",
+      "37332576"
+    ],
+    "review": [
+      "38062164",
+      "35930063",
+      "38904193",
+      "36786718",
+      "25367649",
+      "38280419",
+      "38138958",
+      "29987251"
+    ],
+    "pmc": [
+      "10776483"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38062164/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38062164/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-023-01817-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38062164",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

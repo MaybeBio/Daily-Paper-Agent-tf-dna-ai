@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality as presented in the supplied text
+- **Shared manuscript claim summary** The authors present a high-throughput in vitro assay based on genomic-context protein-binding microarrays (gcPBM) to distinguish cooperative from independent DNA binding by transcription factors (TFs), using ETS1 and RUNX1 as a case study. They report that binding site strength is the dominant predictor of ETS1–RUNX1 cooperativity, while distance and orientation dominate ETS1–ETS1 cooperativity, and they propose that these differences reflect distinct molecular mechanisms (flexible vs. rigid protein-protein interactions). They further show that machine learning models can predict cooperative binding levels with moderate to good accuracy.
+- **Visible evidence base** Main text figures referenced (Figures 1–8), Supplementary Tables S1–S8, Supplementary Figures S1–S25, Supplementary Methods, Supplementary Discussion
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the submitted text. Figure contents are described but not shown. Detailed model hyperparameters, feature lists, and cross-validation procedures are only partially described in the main text. The exact statistical test implementations and normalization procedures are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-designed and carefully executed study that addresses an important question in gene regulation: how to distinguish cooperative from independent TF binding at neighboring DNA sites in a high-throughput manner. The experimental approach is innovative and the integration with machine learning is appropriate. The findings are largely consistent with prior low-throughput studies, which strengthens confidence in the method. However, several technical aspects require clarification and additional validation before the conclusions can be fully accepted. The claim that the approach can be "easily applied to study the cooperative DNA-binding patterns of any TFs" is somewhat overstated given the specific design choices and potential limitations discussed below.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, particularly those interested in TF cooperativity, combinatorial gene regulation, and the mechanisms of TF-DNA binding. The methodological framework will also be of interest to computational biologists developing predictive models of TF binding. The findings on ETS1 and RUNX1 are directly relevant to those studying hematopoiesis and T-cell development, where these factors play critical roles.
+- **Major strengths** The study addresses a significant gap in the field by providing a quantitative, high-throughput method to directly assess cooperative versus independent TF binding. The use of genomic rather than random sequences is a thoughtful design choice that enhances biological relevance. The comparison of two different cooperative systems (ETS1-ETS1 vs. ETS1-RUNX1) within the same framework is powerful and reveals mechanistically distinct modes of cooperativity. The integration of experimental data with interpretable machine learning models is appropriate and provides quantitative insights. The findings are consistent with and extend prior structural and biochemical studies, lending credibility to the approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the cooperative versus independent classification is robust and that the identified features are mechanistically informative.
+  - **Evidence pointer** Methods sections "Identification of neighboring binding sites in the genome", "Cooperative gcPBM assay", "Identification of ETS1–RUNX1 cooperative versus independent binding events", "Identification of ETS1–ETS1 cooperative versus independent binding events"; Results section "Cooperative gcPBM data reveals ETS1 cooperative binding to neighboring sites"
+  - **Concern** The classification of cooperative versus independent binding relies on a statistical comparison of fluorescence intensities between ETS1-only and ETS1+RUNX1 conditions, with a p-value threshold of 0.02 for cooperative and 0.1 for independent. The manuscript does not adequately address the potential for false positives and false negatives in this classification. Specifically, the choice of ETS1 concentration (1 nM) and RUNX1 concentration (25 nM) may not be optimal for all sequence contexts, and the normalization procedure (fitting to the diagonal for sequences without RUNX1 sites) could introduce systematic biases. The manuscript does not report the dynamic range of the assay, the reproducibility across replicate experiments, or the validation of the classification against an independent method (e.g., electrophoretic mobility shift assay or surface plasmon resonance) for a subset of sequences. Without such validation, the accuracy of the labels used for training the machine learning models is uncertain.
+  - **Why it matters** The entire downstream analysis, including feature importance and mechanistic interpretation, depends on the accuracy of the cooperative/independent labels. If the classification is noisy or biased, the conclusions about which features are predictive may be incorrect.
+  - **Resolution test** The authors should provide: (1) a detailed characterization of assay reproducibility (e.g., correlation between biological replicates); (2) validation of the classification for a subset of sequences using an orthogonal biochemical method; (3) a sensitivity analysis showing how the results change with different p-value thresholds; (4) a discussion of how the choice of protein concentrations affects the classification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "binding site strength is highly predictive of ETS1–RUNX1 cooperative DNA binding" and that distance and orientation are the dominant features for ETS1–ETS1 cooperativity.
+  - **Evidence pointer** Results sections "Binding site strength is highly predictive of ETS1–RUNX1 cooperative DNA binding", "The role of binding site distance and orientation in ETS1–RUNX1 cooperative DNA binding", "Binding site distance and orientation are predictive of ETS1–ETS1 cooperative binding"; Figure 4
+  - **Concern** The feature importance analysis relies on the PWM-based binding strength predictions as features. The manuscript does not clearly describe how these PWM scores were calculated, whether they were derived from the same data used to train the models (which could lead to circularity), or how sensitive the results are to the choice of PWM model. Additionally, the AUC values reported (0.88 for ETS1-RUNX1 strength, 0.90 for ETS1-ETS1 combined features) are presented without confidence intervals, and it is unclear whether the differences between models with different feature sets are statistically significant. The claim that "binding site strength is the most predictive feature" for ETS1-RUNX1 is based on a comparison of AUC values, but the manuscript does not report whether this difference is significant.
+  - **Why it matters** The central conclusion of the paper is that different features are important for the two systems, implying different mechanisms. If the feature importance analysis is not robust, this conclusion is weakened.
+  - **Resolution test** The authors should: (1) provide details on PWM score calculation and validation; (2) report confidence intervals for AUC values and perform statistical tests for differences between models; (3) perform ablation studies to confirm the relative importance of each feature type; (4) test whether the results are robust to different PWM models or binding strength prediction methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the approach described here, combining custom experimental design with machine-learning modeling, can be easily applied to study the cooperative DNA-binding patterns of any TFs."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The generalizability of the approach to other TF pairs is not demonstrated. The study focuses on ETS1 and RUNX1, which have well-characterized cooperative interactions. It is unclear whether the assay design (e.g., the choice of 4-24 bp spacing, the use of genomic sequences from ChIP-seq peaks) would be appropriate for TFs with different DNA-binding domains, different cooperative mechanisms (e.g., cooperative binding through DNA-mediated allostery), or different spacing preferences. The manuscript does not discuss potential limitations or modifications needed for other systems.
+  - **Why it matters** The claim of broad applicability is a key selling point of the method. If the approach is not easily generalizable, this claim is misleading.
+  - **Resolution test** The authors should either: (1) provide a proof-of-concept application to at least one additional TF pair; or (2) temper the claim and provide a detailed discussion of the conditions under which the approach would and would not be applicable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Identification of ETS1–ETS1 cooperative versus independent binding events"
+  - **Evidence pointer** location not provided
+  - **Issue** The description of the statistical test for ETS1-ETS1 cooperativity is unclear. The null hypothesis is stated as H0: μWT = μM1 + μM2 − μM3, but the manuscript does not explain how the 27 measurements for M1 + M2 − M3 were obtained (i.e., whether they are all pairwise combinations of the three replicate measurements for M1, M2, and M3).
+  - **Required correction** Clarify the exact procedure for computing the test statistic and the number of measurements used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Neural network models can predict the level of cooperative TF binding"
+  - **Evidence pointer** location not provided
+  - **Issue** The neural network regression results are reported with R2 values of 0.60 and 0.72, but the manuscript does not describe the architecture, training procedure, or hyperparameter selection for these models. The reader cannot assess the adequacy of the model or the risk of overfitting.
+  - **Required correction** Provide details on the neural network architecture, training procedure, and evaluation methodology, or refer to the Supplementary Methods for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "The role of binding site distance and orientation in ETS1–RUNX1 cooperative DNA binding"
+  - **Evidence pointer** Figure 5
+  - **Issue** The manuscript reports that the fraction of cooperatively bound regions varies with distance, from 63.9% at d=5 to 20.7% at d=7, but does not provide a statistical analysis of whether these differences are significant or a discussion of the biological meaning of the non-monotonic pattern.
+  - **Required correction** Provide statistical tests for differences in cooperative fractions across distances and discuss the potential biological significance of the observed pattern.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** location not provided
+  - **Issue** The Discussion would benefit from a more explicit statement of the limitations of the study, particularly regarding the use of in vitro data to infer in vivo mechanisms and the potential effects of chromatin context, post-translational modifications, or other cellular factors on cooperativity.
+  - **Required correction** Add a paragraph explicitly discussing the limitations of the in vitro approach and the extent to which the findings can be extrapolated to in vivo conditions.
+
+## Risk / unsupported claims
+- The claim that the approach "can be easily applied to study the cooperative DNA-binding patterns of any TFs" is not supported by evidence beyond the ETS1-RUNX1 and ETS1-ETS1 systems.
+- The claim that "our data argues against cooperativity through the DNA, e.g. by allosteric DNA changes, as a dominating mechanism of ETS1–RUNX1 cooperativity" is based on indirect evidence (the observation of cooperativity at many distances/orientations) and is not directly tested.
+- The statement that "the fact that the ETS–RUNX1 cooperative gcPBM DNA library used in our study contained probes where one or both of the binding sites were mutated allowed us to exclude tethered DNA-binding as a major determinant" is not fully explained; the logic of this exclusion is not clear from the text.
+- The neural network regression results (R2 = 0.60 and 0.72) are presented without sufficient methodological detail to assess their validity.
+- The manuscript does not report the number of independent biological replicates for the gcPBM experiments, which is essential for assessing the reliability of the classification.

@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "42069574",
+    "doi": "10.1186/s12967-026-08070-9",
+    "title": "LDHC4 drives lung adenocarcinoma progression by inducing lactylation of RB1 at lysine 900 to disrupt the RB1-E2F1 complex."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The metabolic enzyme lactate dehydrogenase C4 (LDHC4) is aberrantly expressed in cancers and linked to poor prognosis. However, its role in lung adenocarcinoma (LUAD) and the molecular mechanisms beyond glycolysis remain unclear. This study investigates whether LDHC4 promotes LUAD by modulating protein lactylation, a lactate-derived post-translational modification, focusing on the tumor suppressor retinoblastoma protein (RB1). METHODS: LDHC4 expression and its correlation with clinicopathological features and survival were analyzed using public databases (UALCAN, Kaplan-Meier Plotter, LOGpc) and validated in a cohort of 90 paired LUAD tissues via immunohistochemistry. The functional impact of LDHC4 on proliferation, migration, and invasion was assessed in A549 and PC-9 cells using gain- and loss-of-function models. The global lactylation profile was analyzed using DIA-based lactylation proteomics on the Astral platform. The interaction between RB1 and E2F1 (E2F transcription factor 1) was examined through molecular dynamics simulations, co-immunoprecipitation (Co-IP), and immunofluorescence. The functional consequences of site-specific RB1 lactylation at lysine 900 (RB1-K900lac) were determined using RB1-K900R mutant constructs and cell cycle analysis. RESULTS: LDHC4 was significantly overexpressed in LUAD tissues, correlating with poor patient survival, and was an independent prognostic risk factor. In vitro, LDHC4 promoted LUAD cell proliferation, migration, and invasion, and its tumor-promoting role was corroborated in an LUAD xenograft model, in which derived tumors exhibited increased volume and weight compared with mock-transfected controls. Mechanistically, LDHC4 overexpression elevated global protein lactylation levels and specifically increased lactylation of RB1. Bioinformatics and molecular dynamics simulations identified K900 as a key conserved residue for RB1-E2F1 binding; its lactylation destabilized the complex by increasing structural fluctuation and weakening intermolecular interactions. Cellular experiments confirmed that the lactylation-resistant RB1-K900R mutant bound E2F1 more strongly than wild-type RB1. Functionally, cells expressing RB1-K900R exhibited suppressed malignant phenotypes and G1/S cell cycle arrest, accompanied by downregulation of CDKs/cyclins and upregulation of P21. CONCLUSION: This study uncovers a novel LDHC4-driven oncogenic axis in LUAD. LDHC4 facilitates RB1 lactylation at the K900 residue, which disrupts the RB1-E2F1 tumor-suppressive complex, leading to cell cycle dysregulation and tumor progression. These findings may position the \"LDHC4-RB1 lactylation\" axis as a promising therapeutic target for LUAD.",
+    "keywords": [
+      "Cell cycle",
+      "Lactate dehydrogenase C4",
+      "Lactylation",
+      "Lung adenocarcinoma",
+      "Metabolism",
+      "Retinoblastoma protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenocarcinoma of Lung/pathology/metabolism/genetics",
+      "*Lung Neoplasms/pathology/metabolism",
+      "*E2F1 Transcription Factor/metabolism",
+      "Animals",
+      "*Disease Progression",
+      "Cell Proliferation",
+      "Cell Line, Tumor",
+      "*Lysine/metabolism",
+      "Cell Movement",
+      "*Retinoblastoma Binding Proteins/metabolism",
+      "Male",
+      "Protein Binding",
+      "*L-Lactate Dehydrogenase/metabolism",
+      "Female",
+      "*Ubiquitin-Protein Ligases/metabolism",
+      "Mice, Nude",
+      "Neoplasm Invasiveness"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Wei",
+        "Lin, Zhi",
+        "Sun, Cheng",
+        "Lin, Lingjing",
+        "Cui, Zhaolei",
+        "Lin, Donghong"
+      ],
+      "short_names": [
+        "Peng W",
+        "Lin Z",
+        "Sun C",
+        "Lin L",
+        "Cui Z",
+        "Lin D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5543-4952"
+      ],
+      "affiliations": [
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+        "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China.",
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+        "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China.",
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+        "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China.",
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+        "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China.",
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China. cuileidizi@fjmu.edu.cn.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China. cuileidizi@fjmu.edu.cn.",
+        "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China. cuileidizi@fjmu.edu.cn.",
+        "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China. lindh65@fjmu.edu.cn.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China. lindh65@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Wei",
+        "short_name": "Peng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+          "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhi",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+          "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Cheng",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+          "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Lingjing",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China.",
+          "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhaolei",
+        "short_name": "Cui Z",
+        "identifiers": [
+          "0000-0002-5543-4952"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China. cuileidizi@fjmu.edu.cn.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China. cuileidizi@fjmu.edu.cn.",
+          "Laboratory of Biochemistry and Molecular Biology Research, Department of Laboratory Medicine, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, 350014, China. cuileidizi@fjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Donghong",
+        "short_name": "Lin D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The School of Medical Technology and Engineering, Fujian Medical University, Fuzhou, 350122, China. lindh65@fjmu.edu.cn.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, 350122, China. lindh65@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 May 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/03 05:27",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41291795",
+      "41057034",
+      "40976819",
+      "40832091",
+      "40830268",
+      "40810891",
+      "40539245",
+      "39934144",
+      "39933514",
+      "39817679",
+      "39675647",
+      "39674619",
+      "39513579",
+      "39470721",
+      "39137401",
+      "39086231",
+      "38905316",
+      "38810904",
+      "38779451",
+      "38672640",
+      "38572751",
+      "38226837",
+      "37965331",
+      "37492749",
+      "36870018",
+      "36408133",
+      "36371026",
+      "35814471",
+      "35368709",
+      "35078134",
+      "34808341",
+      "33301764",
+      "32865261",
+      "32694798",
+      "32528519",
+      "31794764",
+      "31645732",
+      "31439587",
+      "30259909",
+      "29371589",
+      "28351304",
+      "28284717",
+      "28049629",
+      "24632684",
+      "22787429",
+      "21565994",
+      "21191183",
+      "19875487",
+      "19647052",
+      "18794899",
+      "16353146",
+      "12438276",
+      "10499802",
+      "2968522"
+    ],
+    "similar": [
+      "42069574",
+      "41671907",
+      "41654888",
+      "41620756",
+      "41478201",
+      "41851687",
+      "41639833",
+      "41137604",
+      "41319185",
+      "42438293",
+      "40810891",
+      "41394407",
+      "33249400",
+      "33864871",
+      "38783241",
+      "41782112",
+      "42238598",
+      "39722009",
+      "41751942",
+      "38943975",
+      "42210256",
+      "40918144",
+      "40594106",
+      "31962007",
+      "39696439",
+      "39344317",
+      "40056339",
+      "40197379",
+      "42530242",
+      "39289660",
+      "38153696",
+      "41496578",
+      "39735672",
+      "38878504",
+      "34774014",
+      "28716024",
+      "38729325",
+      "41411247",
+      "42135726",
+      "41488674",
+      "37877146",
+      "42008850",
+      "38802900",
+      "41791465",
+      "38750462",
+      "41443404",
+      "42526734",
+      "42331548",
+      "41083582",
+      "41499386",
+      "41838238",
+      "34029572",
+      "41912501",
+      "32826278",
+      "40183277",
+      "41943078",
+      "41194553",
+      "40525449",
+      "41937152",
+      "41291745",
+      "41372808",
+      "41309249",
+      "30928384",
+      "41987290",
+      "41339815",
+      "39179096",
+      "40084702",
+      "41793675",
+      "30509961",
+      "40700945",
+      "41430237",
+      "34635014",
+      "42134293",
+      "42310756",
+      "39688738",
+      "42301510",
+      "35672776",
+      "40090126",
+      "38844957",
+      "34257530",
+      "38798252",
+      "41409294",
+      "39928150",
+      "42238572",
+      "40967878",
+      "41964751",
+      "31889958",
+      "33390818",
+      "41997254",
+      "38698658",
+      "39735666",
+      "41556056",
+      "41499825",
+      "33734616",
+      "39406308",
+      "39023191",
+      "41350729",
+      "41350974",
+      "39191354",
+      "38744954"
+    ],
+    "review": [
+      "42069574"
+    ],
+    "pmc": [
+      "13156858"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08070-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42069574/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

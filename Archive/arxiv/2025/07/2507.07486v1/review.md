@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Conclusion, References)
+- **Assessment boundary** Scientific claims and technical soundness as presented in the provided text; no supplementary materials, figures, or data were available for inspection
+- **Shared manuscript claim summary** The authors claim that sparse autoencoders (SAEs) trained on activations from a small gene language model (HyenaDNA-small-32k) can uncover biologically meaningful features, specifically nucleotide identity and transcription factor binding motifs, and that this demonstrates compact models encode structured genomic representations.
+- **Visible evidence base** Text descriptions of methods and results, including references to Figures 1, 2, and 3; no actual figures, quantitative results, or code were provided in the submitted material.
+- **Missing materials affecting confidence** Figures 1, 2, and 3; quantitative metrics (precision, recall, F1 values); details on SAE training convergence; annotation filtering thresholds; baseline comparisons; statistical significance tests; code or data availability statements.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question, namely whether sparse autoencoders can extract interpretable features from small gene language models. The topic is of interest to the interpretability and genomics communities. However, the current submission is a short conference-style paper with limited methodological detail and no visible quantitative results. The central claims are plausible but not verifiable from the provided material. The absence of figures, numerical metrics, and statistical analyses prevents a rigorous assessment of the findings. The manuscript would benefit from expanded methods, full result reporting, and a more critical discussion of limitations and alternative interpretations.
+- **Who would be interested in the results, and why** Researchers working on interpretability of language models, particularly in biological and genomic domains, would find this work relevant. The demonstration that small models can yield interpretable features has implications for model selection and resource allocation in genomics. Additionally, those developing SAE-based tools for regulatory genomics may be interested in the methodological pipeline.
+- **Major strengths** The research question is well-motivated and addresses a gap in the literature, as prior SAE applications have focused on larger models. The choice of HyenaDNA-small-32k is appropriate for testing the hypothesis that compact models retain interpretable structure. The methodological pipeline, including activation shuffling and annotation-based evaluation, is reasonable and follows established practices from prior work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SAEs identified sparse features corresponding to individual nucleotides and transcription factor binding sites with high precision.
+  - **Evidence pointer** Results section, Figures 2 and 3; location not provided
+  - **Concern** The manuscript states results qualitatively but provides no numerical values for precision, recall, or F1 scores. The figures referenced are not included in the submitted material, so the actual performance of the SAE features cannot be evaluated.
+  - **Why it matters** The central claim of the paper rests on quantitative evidence that the identified features align with known biological annotations. Without these numbers, the reader cannot assess whether the alignment is meaningful or merely at chance level.
+  - **Resolution test** Provide the full set of precision, recall, and F1 values for all reported features, along with appropriate baselines (e.g., random features, shuffled labels) and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that SAEs were trained on activations from the third layer of HyenaDNA-small-32k with a 32x expansion factor and an L1 penalty of 0.1.
+  - **Evidence pointer** Methods section; location not provided
+  - **Concern** The methods description lacks critical details on SAE training, including the number of training steps, convergence criteria, validation procedure, and how hyperparameters were selected. The choice of the third layer is not justified. Additionally, the activation shuffling procedure is described but its effect on feature quality is not discussed.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without sufficient training details, other researchers cannot replicate the experiments or assess whether the results are robust to hyperparameter choices.
+  - **Resolution test** Provide a complete description of the training procedure, including optimization details, hyperparameter search, and a rationale for layer selection. Include an analysis of training stability and feature consistency across random seeds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that features aligned with transcription factor motifs (MA1596.1, MA2121.1, MA0052.5) show high precision, indicating that compact models capture binding specificity.
+  - **Evidence pointer** Results section, Figure 3B; location not provided
+  - **Concern** The evaluation relies on a single annotation source (JASPAR) and a single chromosome (chr14). No statistical test is reported to determine whether the observed overlap between SAE features and TFBS annotations is significantly greater than expected by chance. The choice of activation threshold (0.15) is not justified.
+  - **Why it matters** Genomic sequences are highly repetitive and regulatory elements are abundant. Without a statistical framework, the reported alignments could arise from random overlap, undermining the biological interpretation.
+  - **Resolution test** Include permutation-based or negative-control analyses to establish statistical significance. Report results across multiple chromosomes and annotation sources. Justify the activation threshold or show that results are robust to its variation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1; location not provided
+  - **Issue** The phrase "latent latent features" appears to be a typographical error.
+  - **Required correction** Revise to "latent features".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The manuscript does not specify the number of SAE features that were analyzed or how many passed quality filters.
+  - **Required correction** Report the total number of features, the number retained after filtering, and the criteria used for feature selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Results
+  - **Evidence pointer** Section 3; location not provided
+  - **Issue** The comparison to prior work on Evo 2 is mentioned but not elaborated. It is unclear whether the findings are consistent, stronger, or weaker than those from larger models.
+  - **Required correction** Add a brief quantitative or qualitative comparison to the Evo 2 results to contextualize the findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The manuscript does not state whether the SAE training code and evaluation scripts will be made publicly available.
+  - **Required correction** Include a data and code availability statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (insufficient training details), R1-M3 (lack of statistical validation).
+- **Assessment against Nature-style criteria** Originality: The application of SAEs to small gene language models is a novel contribution, though it builds directly on prior work with larger models. Scientific importance: The finding that compact models retain interpretable structure could influence model design in genomics, but the current evidence is too limited to establish this. Interdisciplinary readership: The topic bridges machine learning and genomics, and the writing is accessible to both communities, though the lack of quantitative detail limits its utility. Technical soundness: The methodological approach is reasonable, but the absence of full results and statistical analyses prevents verification. Readability for nonspecialists: The manuscript is clearly written and avoids excessive jargon, but the missing figures and numbers make it difficult for a nonspecialist to grasp the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the approach is sensible, but the central claims cannot be evaluated without the full quantitative results, detailed methods, and statistical validation. I would be supportive if these technical concerns are resolved in a revised submission.
+
+## Risk / unsupported claims
+- The claim that SAE features exhibit "high precision" for nucleotide identity and TFBS is unsupported, as no numerical metrics are provided.
+- The claim that features "independently learned" to recognize cytosine is not verifiable without the activation plot (Figure 2).
+- The claim that compact models "capture transcription factor binding specificity effectively" is not supported by statistical evidence.
+- The general statement that "small gene language models encode structured and biologically relevant representations" is a reasonable hypothesis but is not established by the presented results.

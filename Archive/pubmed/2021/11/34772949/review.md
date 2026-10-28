@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with the stated conclusions. Editorial or stylistic preferences are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that incorporating 3D DNA shape features into a random forest machine learning model improves prediction of transcription factor binding in Arabidopsis thaliana for all 216 tested TFs, and that this approach can distinguish binding preferences among TFs sharing the same core sequence motif. They further validate predictions experimentally for two TFs using EMSA.
+- **Visible evidence base** Main text figures (Figs. 1–3), supplementary figure references, methods section, and source data file mention. No raw data, code output, or supplementary files were provided for independent verification.
+- **Missing materials affecting confidence** Supplementary figures (1–18), source data files, code repository contents, and the full set of model performance metrics per TF. The manuscript references these extensively, but they are not available in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in gene regulation: whether DNA shape can improve TF binding prediction beyond sequence motifs. The authors present a systematic analysis across 216 TFs, which is a substantial dataset. The core idea is plausible and the results are potentially useful. However, the evidence as presented in the main text is insufficient to fully support the strength of the claims. Key methodological details, validation metrics, and comparative analyses are either only summarized or referenced to inaccessible supplementary material. The experimental validation is limited to two TFs and the interpretation of EMSA results is not quantified. The manuscript would benefit from clearer presentation of model performance distributions, baseline comparisons, and a more rigorous demonstration that shape features, rather than sequence context, drive the improved predictions.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational biology, and plant molecular genetics would find this work relevant. Those developing predictive models for TF binding or studying the biophysical basis of protein–DNA recognition would be the primary audience. The claim that shape features can resolve binding differences among same-motif TFs is of broad interest to anyone using motif scans for regulatory element annotation.
+- **Major strengths** 
+  - Large-scale analysis across 216 TFs, covering multiple families, which gives the study breadth.
+  - The use of a machine learning approach that can capture non-linear and combinatorial feature interactions is appropriate for the hypothesis.
+  - The inclusion of an experimental validation step, albeit limited, strengthens the practical relevance of the predictions.
+  - The observation that shape feature importance varies between TFs sharing a motif is an interesting and potentially important finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the shape-based model improves binding prediction for all 216 TFs, with an average AUPRC improvement of 93.2%.
+  - **Evidence pointer** Figure 1b, Supplementary Figures 5–7, location not provided for per-TF metrics.
+  - **Concern** The main text reports aggregate statistics (average improvement, range of AUPRC) but does not show the distribution of improvements across TFs. It is unclear how many TFs show marginal improvement versus substantial gains. The claim that prediction improved for "all" TFs is strong, but the visible evidence does not allow verification of this across the full set.
+  - **Why it matters** If the improvement is driven by a subset of TFs, the general claim is overstated. The reader needs to see the spread of performance to judge the robustness of the conclusion.
+  - **Resolution test** Provide a supplementary figure showing the per-TF AUPRC improvement (e.g., histogram or scatter plot) with clear labeling of TF families. State the number of TFs with improvement above a meaningful threshold (e.g., >5% relative improvement).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that the random forest regressor was trained on DNA shape features and that the model outperforms motif-based prediction.
+  - **Evidence pointer** Methods section, "Pre-processing and training of the random forest regressor", location not provided.
+  - **Concern** The baseline for comparison is described as "motif search" but it is not clear what this baseline exactly is. Is it a simple motif match count? A position weight matrix score? The AUPRC for the baseline is not defined in the main text. Without a clear definition of the baseline, the reported improvement is difficult to interpret.
+  - **Why it matters** The central claim is that shape adds predictive value over sequence alone. If the baseline is weak or poorly defined, the improvement may be trivial or misleading.
+  - **Resolution test** Clearly define the baseline model in the Methods. Report the AUPRC for both the baseline and the shape-based model for each TF, and show the comparison in a figure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation strength
+  - **Claim pointer** The authors claim that EMSA experiments validate the predictive capability of the models for HYF and ANAC050.
+  - **Evidence pointer** Figure 3a, 3b, Supplementary Figures 16 and 17, location not provided.
+  - **Concern** The EMSA results are presented as images. The text states that "10 out of 12 predictions were experimentally validated," but the criteria for calling a prediction correct or incorrect are not defined. There is no quantification of band intensities or a statistical measure of binding affinity differences. The selection of the six sequences per TF is not described in terms of how representative they are of the model's prediction range.
+  - **Why it matters** Without clear criteria, the validation is anecdotal. The reader cannot assess whether the model's predictions are reliable or whether the chosen sequences were cherry-picked.
+  - **Resolution test** Provide a quantitative analysis of the EMSA results (e.g., densitometry) and define a threshold for calling a sequence bound or not bound. Describe the sequence selection process and show the distribution of predicted affinities for the chosen sequences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature attribution
+  - **Claim pointer** The authors state that SHAP analysis reveals that different TFs depend on different shape features, even when sharing the same motif.
+  - **Evidence pointer** Figure 2d, Supplementary Figure 18, location not provided.
+  - **Concern** The SHAP analysis is shown for two example TF pairs. It is not clear whether these examples are representative of the broader trend across all TF families. The text claims this is a general principle, but the evidence is limited to a few cases.
+  - **Why it matters** The claim of TF-specific shape preferences is interesting, but if it only holds for a few examples, it cannot be stated as a general principle.
+  - **Resolution test** Show SHAP feature importance summaries for all TF pairs with shared motifs, or at least for a representative set across families. Provide a statistical test for whether feature importance profiles differ between TFs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1c
+  - **Evidence pointer** Figure 1c, location not provided.
+  - **Issue** The figure shows AUPRC as a function of sequence width, but the x-axis label is not clear. It is not obvious whether the width refers to total length or flanking bases on each side.
+  - **Required correction** Clarify the x-axis label to indicate the number of flanking bases on each side of the core motif.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, data processing
+  - **Evidence pointer** Methods section, "Data processing and extraction", location not provided.
+  - **Issue** The description of how peaks were filtered and how the core motif was selected is brief. The criteria for choosing the motif with the lowest E-value from MEME-ChIP are not fully explained.
+  - **Required correction** Provide more detail on the motif selection process, including the range of E-values and how many motifs were considered per TF.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided.
+  - **Issue** The discussion speculates about applications in synthetic biology and predictive regulatory networks, but these points are not directly supported by the data presented.
+  - **Required correction** Either temper these statements or add a brief explanation of how the current results could lead to those applications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Figure 3c, 3d
+  - **Evidence pointer** Figure 3c, 3d, location not provided.
+  - **Issue** The schematic models of DNA shape are described, but the color scale or the meaning of the shape representations is not explained in the legend.
+  - **Required correction** Add a legend explaining the visual representation of shape features (e.g., color scale for minor groove width).
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1: Lack of per-TF performance distribution.
+  - R1-M2: Undefined baseline for comparison.
+  - R1-M3: Non-quantitative experimental validation.
+  - R1-M4: Limited evidence for the generality of TF-specific shape preferences.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of using DNA shape for TF binding prediction is not entirely new, but the scale of analysis across 216 TFs in a plant system is a contribution. The claim of resolving same-motif binding differences is a useful extension.
+  - Scientific importance: If fully supported, the findings could improve TF binding site annotation and help explain differential binding within TF families. This is of moderate to high importance for the field.
+  - Interdisciplinary readership: The work sits at the interface of computational biology, molecular biology, and plant science. It is likely to appeal to a specialized audience rather than a broad interdisciplinary one.
+  - Technical soundness: The machine learning approach is standard, but the lack of clear baselines and quantitative validation weakens the technical case. The methods are not described in sufficient detail to be fully reproducible from the main text alone.
+  - Readability for nonspecialists: The manuscript is generally readable, but some parts of the Results and Methods assume familiarity with TF binding assays and machine learning terminology. The figures are helpful but some legends are incomplete.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the dataset is valuable, but the current evidence does not fully establish the strength of the claims. The authors need to provide clearer performance metrics, a defined baseline, and quantitative validation before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that prediction improved for "all 216 TFs" is not verifiable from the provided material.
+- The claim that DNA shape is a "general principle" of TF binding specificity is extrapolated from a limited set of examples.
+- The statement that the models can "distinguish binding events" between same-motif TFs is supported only by two example pairs.
+- The experimental validation is presented as confirmatory, but the lack of quantification makes the strength of the confirmation unclear.
+- The assertion that the approach brings us "closer to predicting gene expression directly from sequence" is speculative and not directly supported by the data.

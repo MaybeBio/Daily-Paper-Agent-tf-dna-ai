@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, experimental section, associated content, author information, author contributions, acknowledgments, abbreviations)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented in the provided text. No evaluation of figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The manuscript claims that vitronectin (Vn) binds phosphatidylcholine (PC) through a hydrophobic groove on its hemopexin-like (HX) domain, with binding guided by positively charged Arg residues and hydrophobic/aromatic residues, organizing lipids in a tail-to-tail bilayer-like arrangement. The authors propose this as a model for Vn association with HDL and its accumulation in lipid-rich deposits in age-related pathologies.
+- **Visible evidence base** ITC binding data (Kd ~60 µM, up to ~5 diC7-PC molecules per protein), NMR chemical shift perturbations mapping to the HX1-HX4 groove, and five independent 6 µs all-atom MD simulations with conformational landscape analysis.
+- **Missing materials affecting confidence** Figures S1-S8 and Table S1 are referenced but not provided. The main text figures (Fig. 1-5) are not available. BMRB deposition IDs are given but not accessible. No raw ITC data or NMR spectra are shown. The experimental section lacks details on ITC fitting model validation, NMR assignment completeness, and MD simulation convergence criteria.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting structural model for lipid binding by vitronectin, a protein with broad physiological relevance. The combination of ITC, NMR, and MD is appropriate and complementary. However, the evidence as described has several limitations that prevent full confidence in the conclusions. The ITC data are acknowledged by the authors to be complicated by micellar aggregation, and the reported Kd may not reflect native conditions. The NMR data show perturbations but the text does not describe the magnitude or specificity of these changes in sufficient detail. The MD simulations are extensive but the analysis relies on descriptors defined post hoc, and the biological relevance of the proposed binding mode to full-length Vn and native HDL particles remains speculative. The manuscript would benefit from additional experimental validation, such as mutagenesis of the proposed binding residues or binding studies with longer-chain lipids.
+- **Who would be interested in the results, and why** Researchers in the fields of lipoprotein biology, structural biology of blood proteins, and protein-lipid interactions. The findings may also be of interest to those studying age-related diseases such as atherosclerosis, age-related macular degeneration, and Alzheimer's disease, given the proposed link between Vn lipid binding and pathological lipid deposits. The methodological approach combining ITC, NMR, and MD could serve as a template for studying other HDL-associated proteins.
+- **Major strengths** The study addresses a gap in knowledge regarding the structural basis for association of non-ApoA1 proteins with HDL. The combination of experimental (ITC, NMR) and computational (MD) approaches is rigorous. The identification of a specific groove with defined Arg gates and an aromatic cage provides a concrete molecular model. The authors are appropriately cautious about the limitations of using a short-chain lipid mimic and about extrapolating to full-length Vn.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for the central claim
+  - **Claim pointer** The manuscript claims that the HX domain of Vn binds PC through a specific hydrophobic groove, with a Kd of ~60 µM and up to ~5 lipid molecules per protein.
+  - **Evidence pointer** Results and Discussion, "Vn binds lipid" section; Figure 1D; Figure S3
+  - **Concern** The ITC data are the only direct experimental measurement of binding affinity and stoichiometry. The authors themselves note that the binding parameters are "complicated by micellar aggregation of short-chain diC7-PC, and therefore not likely to be a true reflection of the native state." This admission significantly weakens the quantitative claims. The reported Kd of ~60 µM and stoichiometry of ~5 are presented as results, but their reliability is questionable. Without a more detailed analysis of the ITC data, including how the micellar aggregation was accounted for in the fitting, or alternative experimental approaches (e.g., surface plasmon resonance, lipid pull-down assays), the quantitative binding parameters cannot be considered robust.
+  - **Why it matters** The quantitative binding parameters are central to the claim that Vn is a bona fide lipid-binding protein. If the Kd and stoichiometry are not reliable, the physiological relevance of the interaction is uncertain. The manuscript's conclusions about Vn's role in HDL association and pathological lipid deposits depend on this initial characterization.
+  - **Resolution test** Provide a detailed analysis of the ITC data, including a discussion of how micellar aggregation was handled in the fitting procedure. Alternatively, provide corroborating experimental evidence from a different technique (e.g., surface plasmon resonance, fluorescence anisotropy, or a liposome binding assay) that does not suffer from the same complications. If the Kd is revised, the text and conclusions must be updated accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and interpretation of NMR data
+  - **Claim pointer** The manuscript claims that NMR perturbations map to the HX1-HX4 groove and that lipid binding stabilizes a specific protein conformation, as evidenced by line narrowing and appearance of new signals.
+  - **Evidence pointer** Results and Discussion, "The lipid binding site maps to an elongated surface groove" section; Figure 2A, 2B; Figure S4
+  - **Concern** The text states that NMR spectra with and without diC7-PC are "very similar" but that there are "distinct NMR perturbations" including chemical shift changes, line narrowing, and appearance of 37 new signals. The description is qualitative. It is not clear how many residues are perturbed, the magnitude of the chemical shift changes, or whether the perturbations are specifically localized to the proposed groove or are more widespread. The claim that the new signals represent "nearly 20% of the total assignable backbone" is striking, but the text does not explain why these signals were undetectable in the absence of lipid. The interpretation that this reflects increased conformational order is plausible but not the only possible explanation (e.g., exchange broadening, aggregation state changes).
+  - **Why it matters** The NMR data are the primary experimental evidence for the location of the lipid binding site. If the perturbations are not clearly localized to the proposed groove, or if the interpretation of the line narrowing is ambiguous, the structural model is not well supported. The claim that the binding site is distinct from the Ca2+ site relies on the observation that four specific Gly residues are not perturbed, but this is a limited set of probes.
+  - **Resolution test** Provide a quantitative analysis of the chemical shift perturbations, including a plot of chemical shift changes versus residue number, with the proposed groove residues clearly indicated. Show the assigned spectra and highlight the residues that appear or narrow upon lipid addition. Discuss alternative explanations for the observed line narrowing and new signals. If possible, perform a titration series to demonstrate that the perturbations are saturable and correlate with the ITC-derived Kd.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Robustness and interpretation of MD simulations
+  - **Claim pointer** The manuscript claims that MD simulations identify the HX1-HX4 groove as the primary lipid binding site, with specific Arg residues contacting lipid phosphates and aromatic residues contacting acyl chains, and that lipids organize in a tail-to-tail bilayer-like arrangement.
+  - **Evidence pointer** Results and Discussion, "Structural basis for lipid association" section; Figures 3, 4; Table S1; Figures S5-S8
+  - **Concern** The MD simulations are described as five independent 6 µs runs, which is a substantial computational effort. However, the analysis relies on descriptors defined post hoc to identify binding poses. The text does not describe how the descriptors were validated or whether the identified poses are statistically significant compared to non-specific binding. The claim that binding at site 1 "primes" site 2 is based on the sequence of events in the simulations, but the text does not provide quantitative evidence for this cooperativity (e.g., free energy calculations, correlation analysis). The observation that the groove remains lipid-bound for the duration of the simulations is encouraging, but the text does not discuss whether this is due to specific interactions or simply to the high local concentration of lipid in the simulation box.
+  - **Why it matters** The MD simulations provide the molecular-level detail for the proposed binding model. If the analysis is not robust or the conclusions are over-interpreted, the structural model is weakened. The claim of cooperativity and the specific binding poses are key elements of the model that need strong support.
+  - **Resolution test** Provide a more detailed description of the descriptor selection and validation process. Show that the identified binding poses are statistically distinct from non-specific binding (e.g., by comparing to control simulations with a non-binding protein or by calculating binding free energies). Quantify the cooperativity claim, for example by calculating the conditional probability of site 2 binding given site 1 binding. Discuss the potential for artifacts due to the simulation setup (e.g., lipid concentration, box size).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Extrapolation to full-length Vn and native HDL
+  - **Claim pointer** The manuscript proposes a model for Vn association with HDL and its accumulation in lipid-rich deposits in age-related pathologies, based on studies of the isolated HX domain with a short-chain lipid.
+  - **Evidence pointer** Conclusions section; Figure 5; Figure S10
+  - **Concern** The studies were performed with the isolated HX domain and a soluble short-chain lipid (diC7-PC). The authors acknowledge this limitation but then proceed to propose models for how Vn might bind to native HDL particles and how this relates to pathological lipid deposits. These extrapolations are highly speculative. The proposed models (e.g., binding to the exposed edge of a partially de-scaffolded HDL particle, thinning of the lipid bilayer) are not directly tested. The relevance to full-length Vn, which contains additional domains and glycosylation, is unknown.
+  - **Why it matters** The broader significance of the work, and its relevance to disease, depends on the extrapolation to physiological conditions. If the proposed models are not supported by direct evidence, the impact of the study is diminished. Over-speculation can mislead readers.
+  - **Resolution test** Clearly separate the experimentally supported findings from the speculative models. If possible, perform additional experiments with full-length Vn or with longer-chain lipids to test the proposed models. Alternatively, temper the conclusions to more accurately reflect the scope of the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** ITC methods
+  - **Evidence pointer** Experimental Section, "Isothermal titration calorimetry (ITC)"
+  - **Issue** The ITC experiments were performed at 23 °C, while NMR experiments were at 30 °C. The text does not explain this temperature difference or discuss its potential impact on the binding parameters.
+  - **Required correction** Provide a brief justification for the different temperatures or discuss the potential effect on the measured Kd.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of NMR assignment information
+  - **Affected element** NMR spectroscopy methods
+  - **Evidence pointer** Experimental Section, "NMR Spectroscopy"
+  - **Issue** The text states that HN, N, and CA chemical shifts were assigned, but does not report the percentage of residues assigned or the quality of the assignments. This information is important for assessing the reliability of the perturbation analysis.
+  - **Required correction** Report the assignment completeness and any relevant quality metrics (e.g., number of assigned residues, secondary structure agreement).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis of MD data
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Results and Discussion, "Structural basis for lipid association" section; Figure 4
+  - **Issue** The text reports an average occupancy of 1.85 ± 0.5 lipids in the groove, but does not specify how this average and standard deviation were calculated across the five replicas. It is unclear if this represents the variability between replicas or the temporal variability within a single trajectory.
+  - **Required correction** Clarify the statistical treatment of the MD data, including how the average and error are defined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The figures are not provided in the manuscript text. The descriptions in the text are not sufficient to fully evaluate the data.
+  - **Required correction** Ensure that all figures are available for review, either in the main text or as clearly referenced supplementary material.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract states that Vn is "a component of the high-density lipoprotein (HDL) proteome" and the introduction describes HDL as encompassing "more than 280 protein and 200 lipid species." The term "proteome" is used loosely here, as it typically refers to the entire set of proteins expressed by a genome, cell, tissue, or organism. The manuscript would benefit from more precise terminology, such as "protein complement" or "protein component."
+  - **Required correction** Revise the wording to use more precise terminology, such as "protein component of HDL" or "HDL-associated proteins."
+- **Technical failings that need to be addressed before the case is established** The ITC data analysis must be more rigorous, with a clear explanation of how micellar aggregation was handled. The NMR perturbation analysis needs to be quantitative and demonstrate specific localization to the proposed groove. The MD analysis requires validation of the descriptors and a more robust statistical treatment of the binding poses and occupancies. The extrapolation to full-length Vn and native HDL should be clearly separated from the direct experimental findings.
+
+## Risk / unsupported claims
+- The quantitative binding parameters (Kd ~60 µM, stoichiometry ~5) are not reliable due to acknowledged complications from micellar aggregation of diC7-PC.
+- The claim that lipid binding stabilizes a specific protein conformation, based on line narrowing and appearance of new NMR signals, is plausible but not fully supported without quantitative analysis.
+- The proposed models for Vn association with HDL (binding to exposed edge of partially de-scaffolded particle, thinning of the bilayer) are speculative and not directly tested.
+- The relevance of the findings to full-length Vn, including the potential role of other domains and glycosylation, is not established.
+- The claim that the HX1-HX4 groove of Vn may be unique in its ability to bind lipid, based on sequence conservation analysis, is not supported by data presented in the text.
+- The proposed role of Vn in mediating calcium-phosphate mineralization is speculative and not directly addressed by the experiments described.

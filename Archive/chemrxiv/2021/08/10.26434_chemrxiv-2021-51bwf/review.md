@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose a computational method, dPaCS-MD/MSM, combining dissociation Parallel Cascade Selection Molecular Dynamics and Markov state modeling, and claim it accurately reproduces experimental standard binding free energies for three protein/ligand complexes (trypsin/benzamidine, FKBP/FK506, adenosine A2A receptor/T4E), while also providing mechanistic insight into dissociation pathways.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, convergence criteria, error estimates, experimental reference values, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological advance in binding free energy calculation, with a plausible workflow and promising qualitative agreement with experiment for three diverse test systems. However, the supplied material is insufficient to evaluate the technical soundness, statistical rigor, or generalizability of the claims. The central assertion of accurate binding free energy calculation cannot be verified from the abstract alone, and several methodological details that are critical for assessing reliability are absent.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on ligand binding free energy prediction, drug discovery researchers seeking efficient and accurate methods for ranking candidate compounds, and method developers in enhanced sampling and Markov state modeling. The demonstrated application to a GPCR system (adenosine A2A receptor) may also interest structural biologists and pharmacologists targeting membrane proteins.
+- **Major strengths** The method addresses a recognized challenge in computational drug discovery, namely efficient and accurate binding free energy estimation. The choice of three structurally and chemically diverse test systems (a serine protease, an immunophilin, and a GPCR) strengthens the claim of general applicability. The combination of pathway sampling with MSM analysis offers a physically interpretable route to both thermodynamics and kinetics, which is conceptually appealing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the standard binding free energies obtained by dPaCS-MD/MSM are in good agreement with experimental values for all the complexes."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no numerical values, error bars, or statistical measures to support the claim of "good agreement." Without quantitative comparison (e.g., mean absolute error, correlation coefficient, or per-system deviations), the claim is unverifiable. Additionally, no information is given on how many independent simulations were performed, how convergence was assessed, or how statistical uncertainties in the free energy estimates were propagated.
+  - **Why it matters** Binding free energy calculations are notoriously sensitive to sampling convergence and force field accuracy. A claim of accuracy without uncertainty quantification or convergence analysis cannot be distinguished from fortuitous agreement. This is a central claim of the work, and its validation is essential for the method to be credible.
+  - **Resolution test** Provide a table or figure comparing calculated and experimental binding free energies for each system, including standard errors or confidence intervals, and describe convergence criteria (e.g., MSM implied timescales, Chapman-Kolmogorov tests, or block bootstrap analysis).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors state that "dPaCS-MD generated multiple dissociation pathways within a reasonable computational time for all the complexes."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the computational cost (e.g., total simulation time, number of trajectories, wall-clock time, or hardware) nor the criteria used to define "reasonable." Without these details, the practical utility of the method cannot be assessed. Furthermore, the parameters of the dPaCS-MD protocol (e.g., selection criteria, number of replicas, pulling scheme) and the MSM construction (e.g., featurization, clustering, lag time, model validation) are not described.
+  - **Why it matters** A key selling point of the method is efficiency, but the abstract provides no quantitative basis for this claim. Reproducibility is a core requirement for any computational method, and the absence of protocol details prevents independent implementation or benchmarking.
+  - **Resolution test** Include a methods section or supplementary material specifying all simulation parameters, computational resources, and a benchmark of computational cost relative to conventional approaches (e.g., umbrella sampling or metadynamics).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope
+  - **Claim pointer** The authors conclude that "dPaCS-MD/MSM can accurately calculate the binding free energies of these complexes."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The conclusion is limited to three specific complexes, which, while diverse, do not constitute a broad validation set. The abstract does not discuss potential limitations, such as dependence on force field choice, sensitivity to initial structures, or applicability to very flexible ligands or cryptic binding sites. The claim of accuracy is therefore system-specific rather than general.
+  - **Why it matters** Overgeneralization from a small test set could mislead potential users. A balanced discussion of limitations and conditions under which the method may fail is necessary for a fair assessment of its utility.
+  - **Resolution test** Add a discussion section addressing known limitations and suggest future validation on a larger benchmark set (e.g., more than 10 diverse complexes) with varied physicochemical properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "dissociation free energy profile" is used without defining whether this refers to a one-dimensional projection along a specific reaction coordinate or a multidimensional free energy surface. This ambiguity could confuse readers.
+  - **Required correction** Clarify the definition of the free energy profile and specify the reaction coordinate(s) used in the MSM analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the source or conditions of the experimental binding free energies (e.g., temperature, pH, ionic strength, or assay type). This omission limits the interpretability of the comparison.
+  - **Required correction** Provide experimental conditions and cite the original sources for the experimental values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Method naming
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "standard binding free energy" is used, but it is not specified whether this refers to a standard state of 1 M or another convention. This is a common source of confusion in the field.
+  - **Required correction** Define the standard state used in the calculation and ensure consistency with the experimental reference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative validation and uncertainty quantification) and R1-M2 (insufficient methodological detail and computational cost reporting) are the primary technical failings. Without addressing these, the central claims of accuracy and efficiency are not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of dPaCS-MD with MSM is a novel integration of existing techniques, but the abstract does not clearly articulate how this differs from prior enhanced sampling approaches or what new physical insight is gained. Originality is plausible but not fully demonstrated.  
+  - Scientific importance: Accurate and efficient binding free energy prediction is of high importance to drug discovery and biophysics. If validated, the method could have broad impact. However, the current evidence is insufficient to confirm this impact.  
+  - Interdisciplinary readership: The topic bridges computational chemistry, biophysics, and pharmacology, and the abstract is written in a way that is accessible to a broad scientific audience. The use of three diverse systems enhances interdisciplinary appeal.  
+  - Technical soundness: Not assessable from the abstract alone. The absence of numerical results, convergence analysis, and protocol details precludes evaluation.  
+  - Readability for nonspecialists: The abstract is clear and concise, with minimal jargon, making it accessible to readers outside the immediate field. However, the lack of context on the challenges of binding free energy calculations may limit appreciation of the advance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the central claims of accuracy and efficiency are unsupported by quantitative data or methodological detail. A revised manuscript with full results, uncertainty quantification, and protocol transparency would be required to assess whether the method meets the standards for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim of "good agreement" with experimental binding free energies is unsupported due to the absence of numerical data and statistical analysis.
+- The claim of "reasonable computational time" is unsupported due to the lack of cost metrics or benchmarks.
+- The claim that the method "can accurately calculate" binding free energies is overgeneralized from three test systems without discussion of limitations.
+- The mechanistic insights into dissociation pathways are mentioned but not substantiated with any example or figure.
+- The generalizability of the method to other protein/ligand systems is not assessable from the supplied material.

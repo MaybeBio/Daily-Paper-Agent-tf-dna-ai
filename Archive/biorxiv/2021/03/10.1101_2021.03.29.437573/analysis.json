@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.29.437573",
+  "title": "DISTEMA: distance map-based estimation of single protein model accuracy with attentive 2D convolutional neural network",
+  "authors": "Xiao Chen; Jianling Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-30",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用注意力2D CNN基于残基间距离图差异预测单蛋白模型质量，虽涉及蛋白结构建模与深度学习，但对象为蛋白模型质量评估而非蛋白质-DNA互作，方法可迁移性有限，故评分较低。",
+  "abstract": "Background Estimation of the accuracy (quality) of protein structural models is important for both prediction and use of protein structural models. Deep learning methods have been used to integrate protein structure features to predict the quality of protein models. Inter-residue distances are key information for predicting protein’s tertiary structures and therefore have good potentials to predict the quality of protein structural models. However, few methods have been developed to fully take advantage of predicted inter-residue distance maps to estimate the accuracy of a single protein structural model. Result We developed an attentive 2D convolutional neural network (CNN) with channel-wise attention to take only a raw difference map between the inter-residue distance map calculated from a single protein model and the distance map predicted from the protein sequence as input to predict the quality of the model. The network comprises multiple convolutional layers, batch normalization layers, dense layers, and Squeeze-and-Excitation blocks with attention to automatically extract features relevant to protein model quality from the raw input without using any expert-curated features. We evaluated DISTEMA’s capability of selecting the best models for CASP13 targets in terms of ranking loss of GDT-TS score. The ranking loss of DISTEMA is 0.079, lower than several state-of-the-art single-model quality assessment methods. The work demonstrates that using raw inter-residue distance information alone with deep learning can predict the quality of protein structural models reasonably well.",
+  "abstract_zh": "背景 蛋白质结构模型准确性（质量）的评估对于蛋白质结构模型的预测和使用均具有重要意义。深度学习方法已被用于整合蛋白质结构特征以预测蛋白质模型的质量。残基间距离是预测蛋白质三级结构的关键信息，因此具有预测蛋白质结构模型质量的良好潜力。然而，目前很少有方法被开发出来，充分利用预测的残基间距离图来评估单个蛋白质结构模型的准确性。结果 我们开发了一种带有通道注意力的注意力二维卷积神经网络（CNN），仅以从单个蛋白质模型计算的残基间距离图与从蛋白质序列预测的距离图之间的原始差异图作为输入，来预测模型的质量。该网络包含多个卷积层、批归一化层、密集层以及带有注意力的Squeeze-and-Excitation块，能够从原始输入中自动提取与蛋白质模型质量相关的特征，而无需使用任何专家设计的特征。我们评估了DISTEMA在CASP13目标中选择最佳模型的能力，以GDT-TS评分的排名损失为指标。DISTEMA的排名损失为0.079，低于几种最先进的单模型质量评估方法。该工作表明，仅使用原始残基间距离信息结合深度学习，可以合理地预测蛋白质结构模型的质量。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.29.437573",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.29.437573",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.29.437573/index.html"
+}

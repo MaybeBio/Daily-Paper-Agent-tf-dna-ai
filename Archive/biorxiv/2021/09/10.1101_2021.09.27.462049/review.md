@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, methods, and author contributions
+- **Assessment boundary** Scientific claims, experimental design, data analysis, and conclusions as presented in the provided material
+- **Shared manuscript claim summary** The authors propose an expanded 11-letter DNA alphabet (four natural plus seven chemically modified nucleotides) for DNA-based data storage, claim nanopore-based discrimination of these letters via MspA and ONT platforms, report neural network classification accuracy exceeding 60% on raw current signals, and use MD simulations to assess duplex stability of modified nucleotides
+- **Visible evidence base** Abstract, main text narrative, methods sections for oligo design, PCR, MD simulations, MspA experiments, and ONT sequencing; references to Tables 1, S1-S4 and Figures 1-4, S1-S6
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; raw data files not available; detailed neural network architecture hyperparameters not fully specified; no statistical analysis details for classification accuracy; no error bars or confidence intervals for experimental measurements
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to expanding the DNA storage alphabet using chemically modified nucleotides, with potential implications for storage density and writing speed. The combination of experimental nanopore measurements, MD simulations, and deep learning classification is ambitious and relevant to the DNA data storage community. However, the evidence as presented is incomplete in several critical respects. The referenced figures and tables are not available for inspection, which prevents verification of the central claims regarding discrimination of modified nucleotides. The reported classification accuracy of 60% on average, while exceeding random guessing, raises questions about practical utility for reliable data retrieval. The MD simulation results are described qualitatively and the connection between duplex stability and storage system performance is not quantitatively established. The manuscript would benefit from clearer presentation of the error rates, confusion matrices, and the specific contributions of each modified nucleotide to the overall system performance.
+- **Who would be interested in the results, and why** Researchers in DNA-based data storage, nanopore sensing, molecular information systems, and synthetic biology would find this work relevant. The concept of expanding the molecular alphabet for storage applications addresses a recognized bottleneck in writing speed and density. The use of modified nucleotides with nanopore readout and neural network classification could inform future designs of molecular recording systems. The MD simulation approach for assessing duplex stability of modified nucleotides may also interest computational biophysicists working on nucleic acid structure and dynamics.
+- **Major strengths** The work addresses a significant problem in DNA data storage, namely the limited alphabet size and associated writing latency. The interdisciplinary approach combining chemistry, nanopore biophysics, machine learning, and molecular dynamics is well suited to the problem. The use of commercially available ONT sequencing technology for readout of modified nucleotides is pragmatic and potentially scalable. The inclusion of MD simulations to assess structural stability of modified duplexes adds a useful computational dimension. The concept of shift reconciliation for resolving ambiguous tetramer reads is an interesting algorithmic contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that MspA nanopores can accurately discriminate all four natural and nearly all chemically modified nucleotides, and that heterotetrameric sequences with the same composition can be distinguished at multiple applied biases
+  - **Evidence pointer** Figures 3B-D, Tables S2-S4, location not provided
+  - **Concern** The referenced figures and tables that contain the core experimental data for nucleotide discrimination are not included in the provided material. Without these data, the central claim of successful discrimination cannot be independently assessed. The text describes residual current measurements and overlap percentages, but the actual distributions, separation quality, and statistical significance are not verifiable.
+  - **Why it matters** The entire premise of the expanded alphabet storage system rests on the ability to reliably distinguish modified nucleotides from each other and from natural ones. If the discrimination is poor or only marginally better than chance for certain letters, the storage density advantage is undermined. The reader cannot evaluate whether the reported 60% average accuracy is sufficient for practical data retrieval or whether specific letters are systematically confused.
+  - **Resolution test** Provide the actual figures and tables with residual current distributions for all homotetramers and heterotetramers, including error bars or confidence intervals. Quantify the separation between current levels for each pair of nucleotides and report the full confusion matrix for all 77 sequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that a neural network architecture achieves average accuracy exceeding 60% for classification of raw current signals from ONT sequencing, which is 39 times higher than random guessing
+  - **Evidence pointer** Figure 4D, Table S5, location not provided
+  - **Concern** The classification results are presented as a summary with average accuracy values, but the details of the neural network architecture, training procedure, and per-class performance are not fully described. The claim of 39 times higher than random guessing is misleading if the number of classes is not specified clearly. For 77 classes, random guessing would give approximately 1.3% accuracy, so 60% is indeed much higher, but the practical threshold for reliable data storage retrieval is not discussed. The manuscript does not report error rates for individual sequences or the impact of misclassification on data recovery.
+  - **Why it matters** For a data storage system, the readout accuracy directly determines the error correction overhead and the effective storage capacity. A 60% per-symbol accuracy would require substantial error correction coding, potentially negating the density advantage of the expanded alphabet. The authors do not address how classification errors propagate through the decoding process or what net storage capacity is achievable.
+  - **Resolution test** Provide the full confusion matrix for all 77 classes, report per-class accuracy and error patterns, and discuss the implications for end-to-end data storage with error correction. Specify the neural network architecture, hyperparameters, and training details to allow reproducibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations show most modified nucleotides do not induce dramatic disruption of the DNA double helix, and that B4 does not fit well but is not sufficient to produce complete unraveling
+  - **Evidence pointer** Figure 2, Figures S1-S2, location not provided
+  - **Concern** The MD simulation results are described qualitatively. The hydrogen bond occupancy numbers are given for some pairs, but the criteria for "stable" versus "unstable" are not clearly defined. The simulation time of 350 ns may be insufficient to capture slow conformational changes or to assess long-term stability relevant for archival storage. The connection between simulated duplex stability and PCR-based random access is asserted but not experimentally demonstrated.
+  - **Why it matters** The stability of modified nucleotides in duplex DNA is critical for both information preservation and PCR amplification during random access retrieval. If certain modified nucleotides destabilize the duplex or are not efficiently replicated by polymerases, the practical utility of the expanded alphabet is limited. The manuscript does not provide experimental evidence of PCR amplification with modified nucleotides.
+  - **Resolution test** Provide quantitative measures of structural stability from MD simulations, including root-mean-square deviation, hydrogen bond occupancy over time, and free energy estimates. Include experimental validation of PCR amplification and sequencing of modified DNA to support the claim of compatibility with random access.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the expanded alphabet system enables a maximum recording density of log2(11) bits per cycle and potentially the same order of reduction in recording time
+  - **Evidence pointer** Abstract, Discussion, location not provided
+  - **Concern** The theoretical density advantage is straightforward, but the practical demonstration of increased storage density or reduced writing time is not presented. The manuscript does not include an end-to-end demonstration of data encoding, writing, storage, and retrieval using the expanded alphabet. The claim of reduced recording time is speculative without experimental validation of synthesis speed with modified nucleotides.
+  - **Why it matters** The motivation for the work is to address the high latency and cost of DNA synthesis. Without a demonstration that the expanded alphabet actually improves the writing process in practice, the significance of the contribution is diminished. The authors should show that modified nucleotides can be incorporated during synthesis at comparable or better rates than natural ones.
+  - **Resolution test** Provide an end-to-end demonstration of data storage using the expanded alphabet, including encoding, synthesis, storage, sequencing, and decoding. Measure the actual synthesis time and cost for the expanded alphabet compared to standard four-letter synthesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and main text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the system offers a "nearly two-fold increase in storage density" but the theoretical maximum is log2(11)/2, which is approximately 1.73 times, not two-fold. The wording is imprecise.
+  - **Required correction** Revise to state the exact density increase as log2(11)/2 or approximately 1.73-fold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Neural network training
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the neural network training does not specify the optimization algorithm, learning rate schedule, batch size, or number of training epochs. The data augmentation strategy, if any, is not described.
+  - **Required correction** Provide complete training details in the Methods section to enable reproduction of the classification results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Classification accuracy
+  - **Evidence pointer** Figure 4D, location not provided
+  - **Issue** The reported average accuracy values do not include measures of variability across different experimental runs or different random seeds for network initialization. The number of replicates for each classification task is not stated.
+  - **Required correction** Report mean and standard deviation of accuracy across multiple runs and specify the number of independent replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** PCR amplification
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The PCR amplification section describes amplification of a 1.4 kb sequence but does not clarify whether this sequence contains modified nucleotides or whether the amplification was performed with modified triphosphates. The connection between the PCR protocol and the modified alphabet is unclear.
+  - **Required correction** Clarify whether PCR amplification was performed on DNA containing modified nucleotides and whether the modified triphosphates were successfully incorporated during amplification.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Main text
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The term "shift reconciliation" is introduced but not formally defined. The example provided is illustrative but does not constitute a general algorithm description.
+  - **Required correction** Provide a formal definition of shift reconciliation and describe the algorithm in sufficient detail for implementation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core experimental evidence for nucleotide discrimination and classification accuracy is not available for verification. The manuscript cannot be evaluated for its central claims without the referenced figures and tables. R1-M3 is significant but not blocking, as the MD simulation results are supplementary to the main experimental claims. R1-M4 is important for establishing practical significance but does not invalidate the fundamental concept.
+- **Assessment against Nature-style criteria** Originality: The concept of expanding the DNA alphabet for storage using modified nucleotides is novel and extends prior work on alternative alphabets. The combination of nanopore readout with neural network classification for modified nucleotides is a creative approach. Scientific importance: The work addresses a recognized bottleneck in DNA storage, namely writing speed and density. However, the practical demonstration is incomplete, and the reported accuracy raises questions about real-world applicability. Interdisciplinary readership: The work spans chemistry, biophysics, machine learning, and information theory, which would appeal to a broad audience if the evidence were complete. Technical soundness: The experimental and computational methods are appropriate in principle, but the lack of accessible data and incomplete methodological details prevent a full assessment. Readability for nonspecialists: The manuscript is generally well written, but the technical details of nanopore measurements and neural network training may be challenging for readers outside the field. The abstract is accessible, but the main text assumes familiarity with nanopore sequencing and machine learning concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims of successful nucleotide discrimination and classification accuracy cannot be verified without the referenced figures and tables. The manuscript has potential merit, but the evidence base is incomplete. The authors should provide the full experimental data, detailed methods, and an end-to-end demonstration of the storage system before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "nearly two-fold increase in storage density" is imprecise and should be stated as log2(11)/2 or approximately 1.73-fold.
+- The claim that the system "potentially" offers the same order of reduction in recording time is speculative and not supported by experimental data.
+- The claim that the expanded alphabet is "potentially compatible with PCR-based random access data retrieval" is based on MD simulations only and lacks experimental validation.
+- The statement that "most of our chemically modified nucleotides introduce minor perturbations to the structure of the duplex" is based on qualitative descriptions of MD simulations without quantitative metrics.
+- The claim that "all tetrameric sequences were resolved by adjusting the applied bias" is not verifiable without the actual data in Figure 3C.
+- The assertion that the neural network accuracy "exceeding 60% on average" is sufficient for practical data storage is not supported by an end-to-end demonstration or error correction analysis.

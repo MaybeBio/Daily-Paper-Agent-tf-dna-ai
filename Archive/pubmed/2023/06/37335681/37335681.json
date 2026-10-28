@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "37335681",
+    "doi": "10.1097/MD.0000000000033963",
+    "title": "Comprehensive analysis of femoral head necrosis based on machine learning and bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Osteonecrosis of the femoral head (ONFH) is a kind of disabling disease, given that the molecular mechanism of ONFH has not been elucidated, it is of significance to use bioinformatics analysis to understand the disease mechanism of ONFH and discover biomarkers. Gene set for ONFH GSE74089 was downloaded in the Gene Expression Omnibus, and \"limma\" package in R software was used to identify differentially expressed genes related to oxidative stress. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyze were performed for functional analysis. We constructed a protein interaction network and identified potential transcription factors and therapeutic drugs for the hub genes, and delineated the TF-hub genes network. Least absolute shrinkage and selection operator regression, support vector machine and cytoHubba were used to screen feature genes and key genes, which were validated by Receiver operating characteristic. CIBERSORT was used to explored the immune microenvironment. Subsequently, we identified the function of key genes using Gene set variation analysis and their relationship with each type of immune cell. Finally, molecular docking validated the binding association between molecules and validated genes. We detected 144 differentially expressed oxidative stress-related genes, and enrichment analysis showed that they were enriched in reactive oxygen species and AGE-RAGE signaling pathway. Protein-protein interaction and TF-hub genes network were conducted. Further exploration suggested that APOD and TMEM161A were feature genes, while TNF, NOS3 and CASP3 were key genes. Receiver operating characteristic analysis showed that APOD, CASP3, NOS3, and TNF have strong diagnostic ability. The key genes were enriched in oxidative phosphorylation. CIBERSORT analysis showed that 17 types immune cells were differentially relocated, and most of which were also closely related to key genes. In addition, genistein maybe potential therapeutic compound. In all, we identified that TNF, NOS3, and CASP3 played key roles on ONFH, and APOD, CASP3, NOS3, and TNF could serve as diagnostic biomarkers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Caspase 3",
+      "*Femur Head",
+      "*Femur Head Necrosis/genetics",
+      "Molecular Docking Simulation",
+      "Machine Learning",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zheng",
+        "Jiang, Yuankang",
+        "Wu, Suwen",
+        "Dang, Meng"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Jiang Y",
+        "Wu S",
+        "Dang M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8004-7452",
+        "ORCID: 0000-0002-7307-3863"
+      ],
+      "affiliations": [
+        "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China.",
+        "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China.",
+        "Department of Anesthesiology, Shenzhen Pingle Orthopedic Hospital, Affiliated Hospital of Guangzhou University of Traditional Chinese Medicine, Shenzhen, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zheng",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0002-8004-7452"
+        ],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yuankang",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Suwen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine Third Clinical Medical College, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Dang, Meng",
+        "short_name": "Dang M",
+        "identifiers": [
+          "0000-0002-7307-3863"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Shenzhen Pingle Orthopedic Hospital, Affiliated Hospital of Guangzhou University of Traditional Chinese Medicine, Shenzhen, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Jun 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/19 13:08",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "39386771",
+      "38283345"
+    ],
+    "refs": [
+      "36730767",
+      "36630537",
+      "36443970",
+      "35912401",
+      "35295591",
+      "35118903",
+      "35086536",
+      "34775836",
+      "34468013",
+      "34016144",
+      "33989507",
+      "33724736",
+      "32607330",
+      "32582961",
+      "32188940",
+      "32047668",
+      "31610916",
+      "31550528",
+      "31011927",
+      "30926814",
+      "30584213",
+      "30360733",
+      "29775946",
+      "29370689",
+      "29247327",
+      "27173350",
+      "26662932",
+      "26521779",
+      "26253167",
+      "25653475",
+      "24108368",
+      "21200395",
+      "20863825",
+      "20126390",
+      "16120285",
+      "15930536",
+      "15788307",
+      "15449127",
+      "15329054",
+      "11117293",
+      "10356417"
+    ],
+    "similar": [
+      "37335681",
+      "38283345",
+      "38384969",
+      "40295279",
+      "35118903",
+      "35151359",
+      "38758521",
+      "34016144",
+      "39789578",
+      "38115279",
+      "34557547",
+      "38650009",
+      "35713363",
+      "33749138",
+      "37359526",
+      "37491198",
+      "40312440",
+      "38755717",
+      "36193326",
+      "39586719",
+      "29382571",
+      "36532015",
+      "35958412",
+      "39284931",
+      "37386410",
+      "39113509",
+      "40245021",
+      "39609718",
+      "38867322",
+      "36856107",
+      "39139563",
+      "31692295",
+      "39509434",
+      "38212150",
+      "36627660",
+      "36506310",
+      "39096939",
+      "40263537",
+      "39069636",
+      "40241169",
+      "39142001",
+      "39708930",
+      "33185492",
+      "37488209",
+      "39170142",
+      "40308566",
+      "36837498",
+      "36470144",
+      "40192032",
+      "33451334",
+      "39501535",
+      "38169408",
+      "39993869",
+      "39673621",
+      "39341981",
+      "35154510",
+      "38476236",
+      "39855613",
+      "39713769",
+      "39875572",
+      "39405776",
+      "31951022",
+      "36225941",
+      "38951833",
+      "37115484",
+      "40129981",
+      "36438903",
+      "38371524",
+      "37250717",
+      "36532040",
+      "27045355",
+      "37361541",
+      "39375405",
+      "38260098",
+      "38645867",
+      "39730379",
+      "36988140",
+      "39253583",
+      "29205600",
+      "36276976",
+      "39263286",
+      "38736878",
+      "35680809",
+      "35915795",
+      "35957838",
+      "37904445",
+      "37622114",
+      "38637124",
+      "36624863",
+      "39697749",
+      "38863714",
+      "38491545",
+      "36660690",
+      "38834626",
+      "38428097",
+      "35313524",
+      "39182249",
+      "38509535",
+      "39556279",
+      "28432618"
+    ],
+    "review": [
+      "37335681"
+    ],
+    "pmc": [
+      "10256394"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=23&spage=e33963&aulast=Chen",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37335681.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37335681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37335681",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000033963",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

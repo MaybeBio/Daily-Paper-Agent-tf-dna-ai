@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2306.09243v2",
+  "title": "On Selecting Distance Metrics in $n$-Dimensional Normed Vector Spaces of Cells: A Novel Criterion and Similarity Measure Towards Efficient and Accurate Omics Analysis",
+  "doi": "",
+  "abstract": "Single-cell omics enable the profiles of cells, which contain large numbers of biological features, to be quantified. Cluster analysis, a dimensionality reduction process, is used to reduce the dimensions of the data to make it computationally tractable. In these analyses, cells are represented as vectors in $n$-Dimensional space, where each dimension corresponds to a certain cell feature. The distance between cells is used as a surrogate measure of similarity, providing insight into the cell's state, function, and genetic mechanisms. However, as cell profiles are clustered in 3D or higher-dimensional space, it remains unknown which distance metric provides the most accurate spatiotemporal representation of similarity, limiting the interpretability of the data. I propose and prove a generalized proposition and set of corollaries that serve as a criterion to determine which of the standard distance measures is most accurate for conveying cell profile heterogeneity. Each distance method is evaluated via statistical, geometric, and topological proofs, which are formalized into a set of criteria. In this paper, I present the putative, first-ever method to elect the most accurate and precise distance metrics with any profiling modality, which are determined to be the Wasserstein distance and cosine similarity metrics, respectively, in general cases. I also identify special cases in which the criterion may select non-standard metrics. Combining the metric properties selected by the criterion, I develop a novel, custom, optimal distance metric that demonstrates superior computational efficiency, peak annotation, motif identification, and footprinting for transcription factor binding sites when compared with leading methods.",
+  "authors": [
+    "Okezue Bell",
+    "Arthur Lee",
+    "Elizabeth Engle"
+  ],
+  "published_date": "2023-06-13T01:59:56Z",
+  "updated_date": "2024-06-05T04:54:35Z",
+  "journal": "",
+  "category": "q-bio.GN, math.DG",
+  "landing_url": "https://arxiv.org/abs/2306.09243v2",
+  "pdf_url": "https://arxiv.org/pdf/2306.09243v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.GN",
+    "math.DG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2306.09243v2",
+    "raw_categories": [
+      "q-bio.GN",
+      "math.DG"
+    ],
+    "journal_ref": ""
+  }
+}

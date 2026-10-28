@@ -1,0 +1,705 @@
+{
+  "identity": {
+    "pmid": "34737427",
+    "doi": "10.1038/s41588-021-00955-3",
+    "title": "Identification of LZTFL1 as a candidate effector gene at a COVID-19 risk locus."
+  },
+  "content": {
+    "abstract": "The severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2) disease (COVID-19) pandemic has caused millions of deaths worldwide. Genome-wide association studies identified the 3p21.31 region as conferring a twofold increased risk of respiratory failure. Here, using a combined multiomics and machine learning approach, we identify the gain-of-function risk A allele of an SNP, rs17713054G>A, as a probable causative variant. We show with chromosome conformation capture and gene-expression analysis that the rs17713054-affected enhancer upregulates the interacting gene, leucine zipper transcription factor like 1 (LZTFL1). Selective spatial transcriptomic analysis of lung biopsies from patients with COVID-19 shows the presence of signals associated with epithelial-mesenchymal transition (EMT), a viral response pathway that is regulated by LZTFL1. We conclude that pulmonary epithelial cells undergoing EMT, rather than immune cells, are likely responsible for the 3p21.31-associated risk. Since the 3p21.31 effect is conferred by a gain-of-function, LZTFL1 may represent a therapeutic target.",
+    "keywords": [],
+    "mesh_terms": [
+      "COVID-19/*complications/transmission/virology",
+      "Case-Control Studies",
+      "Chromosomes, Human, Pair 3/*genetics",
+      "Epithelial Cells/metabolism/pathology/virology",
+      "*Epithelial-Mesenchymal Transition",
+      "Female",
+      "Genome-Wide Association Study",
+      "Humans",
+      "Lung/metabolism/pathology/*virology",
+      "Male",
+      "*Polymorphism, Single Nucleotide",
+      "SARS-CoV-2/*isolation & purification",
+      "Transcription Factors/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Downes, Damien J",
+        "Cross, Amy R",
+        "Hua, Peng",
+        "Roberts, Nigel",
+        "Schwessinger, Ron",
+        "Cutler, Antony J",
+        "Munis, Altar M",
+        "Brown, Jill",
+        "Mielczarek, Olga",
+        "de Andrea, Carlos E",
+        "Melero, Ignacio",
+        "Gill, Deborah R",
+        "Hyde, Stephen C",
+        "Knight, Julian C",
+        "Todd, John A",
+        "Sansom, Stephen N",
+        "Issa, Fadi",
+        "Davies, James O J",
+        "Hughes, Jim R"
+      ],
+      "short_names": [
+        "Downes DJ",
+        "Cross AR",
+        "Hua P",
+        "Roberts N",
+        "Schwessinger R",
+        "Cutler AJ",
+        "Munis AM",
+        "Brown J",
+        "Mielczarek O",
+        "de Andrea CE",
+        "Melero I",
+        "Gill DR",
+        "Hyde SC",
+        "Knight JC",
+        "Todd JA",
+        "Sansom SN",
+        "Issa F",
+        "Davies JOJ",
+        "Hughes JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5034-0869",
+        "ORCID: 0000-0003-3774-5033",
+        "ORCID: 0000-0002-5091-3604",
+        "ORCID: 0000-0001-7829-8503",
+        "ORCID: 0000-0002-9617-9994",
+        "ORCID: 0000-0001-9218-3032",
+        "ORCID: 0000-0002-8884-2047",
+        "ORCID: 0000-0002-0377-5536",
+        "ORCID: 0000-0003-2740-8148",
+        "ORCID: 0000-0003-4569-8513",
+        "ORCID: 0000-0002-8279-7732",
+        "ORCID: 0000-0002-4108-4357",
+        "ORCID: 0000-0002-8955-7256"
+      ],
+      "affiliations": [
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Surgical Sciences, Transplantation Research and Immunology Group,University of Oxford, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Weatherall Institute of Molecular Medicine Centre for Computational Biology, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Immunology Research Unit, GlaxoSmithKline, Stevenage, UK.",
+        "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Department of Pathology, Clinica Universidad de Navarra, Pamplona, Spain.",
+        "Division of Immunology and Immunotherapy, Centre for Applied Medical Research, University of Navarra, Pamplona, Spain.",
+        "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK.",
+        "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK.",
+        "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Chinese Academy of Medical Science Oxford Institute, University of Oxford, Oxford, UK.",
+        "National Institute for Health Research Oxford Biomedical Research Centre, Oxford, UK.",
+        "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Kennedy Institute of Rheumatology, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Surgical Sciences, Transplantation Research and Immunology Group,University of Oxford, Oxford, UK.",
+        "Oxford University Hospitals National Health Service Foundation Trust, Oxford, UK.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. james.davies@imm.ox.ac.uk.",
+        "Oxford University Hospitals National Health Service Foundation Trust, Oxford, UK. james.davies@imm.ox.ac.uk.",
+        "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. jim.hughes@imm.ox.ac.uk.",
+        "Department of Medicine, Medical Research Council Weatherall Institute of Molecular Medicine Centre for Computational Biology, University of Oxford, Oxford, UK. jim.hughes@imm.ox.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Downes, Damien J",
+        "short_name": "Downes DJ",
+        "identifiers": [
+          "0000-0002-5034-0869"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Cross, Amy R",
+        "short_name": "Cross AR",
+        "identifiers": [],
+        "affiliations": [
+          "Nuffield Department of Surgical Sciences, Transplantation Research and Immunology Group,University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Hua, Peng",
+        "short_name": "Hua P",
+        "identifiers": [
+          "0000-0003-3774-5033"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Roberts, Nigel",
+        "short_name": "Roberts N",
+        "identifiers": [
+          "0000-0002-5091-3604"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Schwessinger, Ron",
+        "short_name": "Schwessinger R",
+        "identifiers": [
+          "0000-0001-7829-8503"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK.",
+          "Department of Medicine, Medical Research Council Weatherall Institute of Molecular Medicine Centre for Computational Biology, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Cutler, Antony J",
+        "short_name": "Cutler AJ",
+        "identifiers": [
+          "0000-0002-9617-9994"
+        ],
+        "affiliations": [
+          "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+          "Immunology Research Unit, GlaxoSmithKline, Stevenage, UK."
+        ]
+      },
+      {
+        "full_name": "Munis, Altar M",
+        "short_name": "Munis AM",
+        "identifiers": [
+          "0000-0001-9218-3032"
+        ],
+        "affiliations": [
+          "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Brown, Jill",
+        "short_name": "Brown J",
+        "identifiers": [
+          "0000-0002-8884-2047"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Mielczarek, Olga",
+        "short_name": "Mielczarek O",
+        "identifiers": [],
+        "affiliations": [
+          "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "de Andrea, Carlos E",
+        "short_name": "de Andrea CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Clínica Universidad de Navarra, Pamplona, Spain."
+        ]
+      },
+      {
+        "full_name": "Melero, Ignacio",
+        "short_name": "Melero I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Immunology and Immunotherapy, Centre for Applied Medical Research, University of Navarra, Pamplona, Spain."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gill, Deborah R",
+        "short_name": "Gill DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Hyde, Stephen C",
+        "short_name": "Hyde SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Gene Medicine Group, Nuffield Division of Clinical Laboratory Sciences, Radcliffe University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Knight, Julian C",
+        "short_name": "Knight JC",
+        "identifiers": [
+          "0000-0002-0377-5536"
+        ],
+        "affiliations": [
+          "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+          "Chinese Academy of Medical Science Oxford Institute, University of Oxford, Oxford, UK.",
+          "National Institute for Health Research Oxford Biomedical Research Centre, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Todd, John A",
+        "short_name": "Todd JA",
+        "identifiers": [
+          "0000-0003-2740-8148"
+        ],
+        "affiliations": [
+          "Nuffield Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Sansom, Stephen N",
+        "short_name": "Sansom SN",
+        "identifiers": [
+          "0000-0003-4569-8513"
+        ],
+        "affiliations": [
+          "Kennedy Institute of Rheumatology, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Issa, Fadi",
+        "short_name": "Issa F",
+        "identifiers": [
+          "0000-0002-8279-7732"
+        ],
+        "affiliations": [
+          "Nuffield Department of Surgical Sciences, Transplantation Research and Immunology Group,University of Oxford, Oxford, UK.",
+          "Oxford University Hospitals National Health Service Foundation Trust, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Davies, James O J",
+        "short_name": "Davies JOJ",
+        "identifiers": [
+          "0000-0002-4108-4357"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. james.davies@imm.ox.ac.uk.",
+          "Oxford University Hospitals National Health Service Foundation Trust, Oxford, UK. james.davies@imm.ox.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Hughes, Jim R",
+        "short_name": "Hughes JR",
+        "identifiers": [
+          "0000-0002-8955-7256"
+        ],
+        "affiliations": [
+          "Department of Medicine, Medical Research Council Molecular Haematology Unit, Medical Research Council Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, UK. jim.hughes@imm.ox.ac.uk.",
+          "Department of Medicine, Medical Research Council Weatherall Institute of Molecular Medicine Centre for Computational Biology, University of Oxford, Oxford, UK. jim.hughes@imm.ox.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/06 06:00",
+    "fetched_at": "2026-09-28 01:28:36"
+  },
+  "links": {
+    "cites": [
+      "42557564",
+      "42467704",
+      "42129072",
+      "41929112",
+      "41912520",
+      "41751377",
+      "41592567",
+      "41302157",
+      "41069367",
+      "40868819",
+      "40573382",
+      "40543387",
+      "40385425",
+      "40328868",
+      "40195782",
+      "39911431",
+      "39752416",
+      "39747598",
+      "39688903",
+      "39538298",
+      "39521879",
+      "39364016",
+      "39284974",
+      "39175753",
+      "39107801",
+      "39062917",
+      "38956433",
+      "38804045",
+      "38773973",
+      "38694517",
+      "38622380",
+      "38605121",
+      "38579381",
+      "38400850",
+      "38345759",
+      "38265707",
+      "38231281",
+      "38203577",
+      "37964352",
+      "37961337",
+      "37888139",
+      "37807299",
+      "37731612",
+      "37601070",
+      "37592342",
+      "37578643",
+      "37525033",
+      "37497655",
+      "37404089",
+      "37386504",
+      "37378764",
+      "37372035",
+      "37353093",
+      "37342325",
+      "37196358",
+      "37160831",
+      "37095364",
+      "37076455",
+      "37047248",
+      "36991220",
+      "36966254",
+      "36934789",
+      "36809830",
+      "36687209",
+      "36680215",
+      "36534127",
+      "36531218",
+      "36435871",
+      "36340032",
+      "36204639",
+      "35986347",
+      "35970849",
+      "35963158",
+      "35875883",
+      "35862771",
+      "35860279",
+      "35795626",
+      "35768520",
+      "35753602",
+      "35718768",
+      "35705608",
+      "35690068",
+      "35648852",
+      "35645252",
+      "35632675",
+      "35545027",
+      "35501396",
+      "35455670",
+      "35421995",
+      "35359960",
+      "35322240",
+      "35250030",
+      "35193979",
+      "35187517",
+      "34873286",
+      "34825717",
+      "34597274"
+    ],
+    "refs": [
+      "36472908",
+      "34597274",
+      "34315903",
+      "34274504",
+      "34272374",
+      "34237774",
+      "34194429",
+      "34155213",
+      "34132940",
+      "34127860",
+      "34108683",
+      "33915569",
+      "33915568",
+      "33730024",
+      "33619245",
+      "33483495",
+      "33307546",
+      "33298930",
+      "33184180",
+      "33164753",
+      "33121234",
+      "33046896",
+      "32998156",
+      "32913098",
+      "32879413",
+      "32839288",
+      "32671793",
+      "32610119",
+      "32558485",
+      "32442411",
+      "32437596",
+      "32407672",
+      "32325026",
+      "32310995",
+      "32300252",
+      "32142651",
+      "32087114",
+      "31978945",
+      "31895934",
+      "31830040",
+      "31701148",
+      "31604244",
+      "31570894",
+      "31209336",
+      "31189107",
+      "30661751",
+      "30459476",
+      "30445434",
+      "30423168",
+      "30286773",
+      "28904015",
+      "28686856",
+      "27526324",
+      "27197224",
+      "27079975",
+      "26854917",
+      "26595209",
+      "26366987",
+      "26364604",
+      "26301843",
+      "26267216",
+      "26103456",
+      "25534429",
+      "25005785",
+      "24830394",
+      "24556840",
+      "24097267",
+      "23533656",
+      "23287722",
+      "23193274",
+      "22955617",
+      "22955616",
+      "22918388",
+      "22790597",
+      "22743772",
+      "22510444",
+      "22388286",
+      "22276777",
+      "22072986",
+      "21903629",
+      "20809528",
+      "20233871",
+      "19945376",
+      "19505943",
+      "19487818",
+      "19474294",
+      "19458158",
+      "19252258",
+      "19114008",
+      "19033659",
+      "16100013",
+      "14624683",
+      "12045153",
+      "11932250",
+      "11884450",
+      "9166430",
+      "1427819"
+    ],
+    "similar": [
+      "34737427",
+      "34998241",
+      "32558485",
+      "26364604",
+      "38956433",
+      "37931361",
+      "39344392",
+      "33396837",
+      "37497655",
+      "31351450",
+      "11352561",
+      "20233871",
+      "33915569",
+      "38345759",
+      "33604698",
+      "31723243",
+      "34106002",
+      "33611340",
+      "33502471",
+      "38555007",
+      "25005785",
+      "34378952",
+      "33905739",
+      "38771659",
+      "39162434",
+      "38791357",
+      "33453462",
+      "32998156",
+      "34156871",
+      "34065289",
+      "32991738",
+      "33024988",
+      "37795896",
+      "33124193",
+      "38860845",
+      "34724828",
+      "34775353",
+      "32987033",
+      "32699094",
+      "39345136",
+      "40402297",
+      "33619245",
+      "33164753",
+      "33835998",
+      "33706521",
+      "32629995",
+      "38804045",
+      "36555339",
+      "32646047",
+      "39538298",
+      "33740387",
+      "35753602",
+      "34155559",
+      "34663909",
+      "22434821",
+      "34001248",
+      "31371991",
+      "38953987",
+      "34339064",
+      "33045427",
+      "27941755",
+      "33037188",
+      "17606309",
+      "34876692",
+      "32462705",
+      "39175753",
+      "33111431",
+      "32490715",
+      "39689784",
+      "34698067",
+      "37578643",
+      "34153515",
+      "33296644",
+      "29506519",
+      "39311876",
+      "34319784",
+      "33536081",
+      "20081856",
+      "33978304",
+      "37160831",
+      "34311326",
+      "33847300",
+      "33049279",
+      "34194429",
+      "34023333",
+      "29721073",
+      "39711218",
+      "33314005",
+      "33778787",
+      "39629182",
+      "33829461",
+      "33530099",
+      "33995679",
+      "34985303",
+      "38886986",
+      "32675206",
+      "37047702",
+      "33407777",
+      "32574272",
+      "22560537"
+    ],
+    "review": [
+      "34737427",
+      "37931361",
+      "38345759",
+      "39538298",
+      "20081856",
+      "33049279",
+      "33829461",
+      "32574272"
+    ],
+    "pmc": [
+      "7611960"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41588-021-00955-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34737427/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34737427",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=34737427",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34737427",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse175788",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

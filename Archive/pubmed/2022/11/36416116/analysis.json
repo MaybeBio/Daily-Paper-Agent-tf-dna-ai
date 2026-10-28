@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36416116",
+  "title": "PlDBPred: a novel computational model for discovery of DNA binding proteins in plants.",
+  "authors": "Pradhan, Upendra Kumar; Meher, Prabina Kumar; Naha, Sanchita; Pal, Soumen; Gupta, Ajit; Parsad, Rajender",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-11-24",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了植物DNA结合蛋白预测模型PlDBPred，采用SVM等机器学习方法，虽属蛋白-DNA互作预测但非TF-DNA特异性结合，且无三维结构或动态机制建模，方法可迁移性有限。",
+  "abstract": "DNA-binding proteins (DBPs) play crucial roles in numerous cellular processes including nucleotide recognition, transcriptional control and the regulation of gene expression. Majority of the existing computational techniques for identifying DBPs are mainly applicable to human and mouse datasets. Even though some models have been tested on Arabidopsis, they produce poor accuracy when applied to other plant species. Therefore, it is imperative to develop an effective computational model for predicting plant DBPs. In this study, we developed a comprehensive computational model for plant specific DBPs identification. Five shallow learning and six deep learning models were initially used for prediction, where shallow learning methods outperformed deep learning algorithms. In particular, support vector machine achieved highest repeated 5-fold cross-validation accuracy of 94.0% area under receiver operating characteristic curve (AUC-ROC) and 93.5% area under precision recall curve (AUC-PR). With an independent dataset, the developed approach secured 93.8% AUC-ROC and 94.6% AUC-PR. While compared with the state-of-art existing tools by using an independent dataset, the proposed model achieved much higher accuracy. Overall results suggest that the developed computational model is more efficient and reliable as compared to the existing models for the prediction of DBPs in plants. For the convenience of the majority of experimental scientists, the developed prediction server PlDBPred is publicly accessible at https://iasri-sg.icar.gov.in/pldbpred/.The source code is also provided at https://iasri-sg.icar.gov.in/pldbpred/source_code.php for prediction using a large-size dataset.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在众多细胞过程中扮演关键角色，包括核苷酸识别、转录控制及基因表达调控。现有的大多数用于识别DBPs的计算技术主要适用于人类和小鼠数据集。尽管一些模型已在拟南芥上进行了测试，但应用于其他植物物种时，其准确性较差。因此，开发一种有效的计算模型来预测植物DBPs势在必行。在本研究中，我们开发了一个针对植物特异性DBPs识别的综合计算模型。初步使用了五种浅层学习和六种深度学习模型进行预测，其中浅层学习方法优于深度学习算法。特别是，支持向量机在重复5折交叉验证中达到了最高的94.0%接收者操作特征曲线下面积（AUC-ROC）和93.5%精确率-召回率曲线下面积（AUC-PR）。使用独立数据集时，所开发的方法获得了93.8%的AUC-ROC和94.6%的AUC-PR。与使用独立数据集的现有最先进工具相比，所提出的模型实现了更高的准确性。总体结果表明，与现有模型相比，所开发的计算模型在预测植物DBPs方面更为高效和可靠。为了方便大多数实验科学家，所开发的预测服务器PlDBPred可在https://iasri-sg.icar.gov.in/pldbpred/ 公开访问。源代码也提供在https://iasri-sg.icar.gov.in/pldbpred/source_code.php，用于使用大型数据集进行预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36416116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36416116/",
+  "paper_page_path": "papers/pubmed/36416116/index.html"
+}

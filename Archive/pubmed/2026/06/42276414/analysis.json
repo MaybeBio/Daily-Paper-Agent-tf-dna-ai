@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42276414",
+  "title": "Predicting TP53 Biomarkers from Whole Slide Images across Human Solid Tumors Using Weakly Supervised Learning.",
+  "authors": "Chaurasia, Abadh K; Toohey, Patrick W; Bennett, Matthew T; Harris, Helen C; Hewitt, Alex W",
+  "journal": "The American journal of pathology",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Vision Transformer从全切片图像预测TP53突变状态，属于纯图像表型关联，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题仅弱相关。",
+  "abstract": "Accurate molecular profiling from routine histopathology slides could transform clinical oncology. A Vision Transformer (ViT)-based model was developed to jointly predict the TP53 biomarker, detect 32 solid tumor types, and predict survival directly from whole slide images (WSIs). Over 11,000 primary tumor data were retrieved from the Pan-Cancer Atlas, along with corresponding somatic mutation, RNA-sequencing, and clinical outcome data. WSIs underwent tissue masking, quality control, stain normalization, patch extraction, and feature embedding using a ViT encoder. Seven task heads were developed to generate predictions for cancer type, TP53 mutation status, TP53 RNA expression levels, overall survival, progression-free interval, and their corresponding event times. Model training proceeded in two stages: initial training on tumor-only patches at multiple magnifications, followed by fine-tuning on WSIs using a content-aware strategy. Model performance was evaluated on an independent validation set of 1729 slides using evaluation metrics, including the area under the receiver operating characteristic curve, regression metrics, and the concordance index. An area under the receiver operating characteristic curve of 0.766 was found for TP53 mutation detection on an independent validation set across 32 human solid tumors. In conclusion, the ViT-based model could simultaneously infer TP53 mutation status, TP53 RNA expression levels, and tumor taxonomy directly from WSIs, supporting the existence of reproducible morphologic correlates of TP53 alterations across human cancers, whereas prognostic risk prediction remained limited.",
+  "abstract_zh": "从常规组织病理切片中进行精确的分子分型可能改变临床肿瘤学实践。本研究开发了一种基于视觉Transformer（Vision Transformer, ViT）的模型，用于直接从全切片图像（whole slide images, WSIs）中联合预测TP53生物标志物、检测32种实体肿瘤类型并预测生存期。从泛癌图谱（Pan-Cancer Atlas）中获取了超过11,000例原发肿瘤数据，以及相应的体细胞突变、RNA测序和临床结局数据。WSIs经过组织掩膜、质量控制、染色归一化、斑块提取，并使用ViT编码器进行特征嵌入。开发了七个任务头，用于生成癌症类型、TP53突变状态、TP53 RNA表达水平、总生存期、无进展间期及其相应事件时间的预测。模型训练分两个阶段进行：首先在多倍率下对仅含肿瘤的斑块进行初始训练，随后使用内容感知策略在WSIs上进行微调。模型性能在包含1,729张切片的独立验证集上，使用评估指标（包括受试者工作特征曲线下面积、回归指标和一致性指数）进行评估。在涵盖32种人类实体肿瘤的独立验证集上，TP53突变检测的受试者工作特征曲线下面积为0.766。总之，基于ViT的模型能够直接从WSIs中同时推断TP53突变状态、TP53 RNA表达水平和肿瘤分类，支持了人类癌症中TP53改变存在可复现的形态学关联，而预后风险预测仍有限。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42276414/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42276414/",
+  "paper_page_path": "papers/pubmed/42276414/index.html"
+}

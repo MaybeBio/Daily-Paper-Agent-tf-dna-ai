@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "38647081",
+    "doi": "10.1093/nar/gkae292",
+    "title": "Comprehensive genomic features indicative for Notch responsiveness."
+  },
+  "content": {
+    "abstract": "Transcription factor RBPJ is the central component in Notch signal transduction and directly forms a coactivator complex together with the Notch intracellular domain (NICD). While RBPJ protein levels remain constant in most tissues, dynamic expression of Notch target genes varies depending on the given cell-type and the Notch activity state. To elucidate dynamic RBPJ binding genome-wide, we investigated RBPJ occupancy by ChIP-Seq. Surprisingly, only a small set of the total RBPJ sites show a dynamic binding behavior in response to Notch signaling. Compared to static RBPJ sites, dynamic sites differ in regard to their chromatin state, binding strength and enhancer positioning. Dynamic RBPJ sites are predominantly located distal to transcriptional start sites (TSSs), while most static sites are found in promoter-proximal regions. Importantly, gene responsiveness is preferentially associated with dynamic RBPJ binding sites and this static and dynamic binding behavior is repeatedly observed across different cell types and species. Based on the above findings we used a machine-learning algorithm to predict Notch responsiveness with high confidence in different cellular contexts. Our results strongly support the notion that the combination of binding strength and enhancer positioning are indicative of Notch responsiveness.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Binding Sites",
+      "Chromatin/metabolism/genetics",
+      "Chromatin Immunoprecipitation Sequencing",
+      "*Enhancer Elements, Genetic",
+      "Gene Expression Regulation",
+      "Genomics/methods",
+      "Machine Learning",
+      "Promoter Regions, Genetic",
+      "Protein Binding",
+      "*Receptors, Notch/metabolism/genetics",
+      "Signal Transduction/genetics",
+      "Transcription Initiation Site",
+      "Immunoglobulin J Recombination Signal Sequence-Binding Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Giaimo, Benedetto Daniele",
+        "Friedrich, Tobias",
+        "Ferrante, Francesca",
+        "Bartkuhn, Marek",
+        "Borggrefe, Tilman"
+      ],
+      "short_names": [
+        "Giaimo BD",
+        "Friedrich T",
+        "Ferrante F",
+        "Bartkuhn M",
+        "Borggrefe T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4325-5452"
+      ],
+      "affiliations": [
+        "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany.",
+        "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany.",
+        "Biomedical Informatics and Systems Medicine, Justus-Liebig-University Giessen, Aulweg 128, 35392 Giessen, Germany.",
+        "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany.",
+        "Biomedical Informatics and Systems Medicine, Justus-Liebig-University Giessen, Aulweg 128, 35392 Giessen, Germany.",
+        "Institute for Lung Health, Aulweg 132, 35392 Giessen, Germany.",
+        "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Giaimo, Benedetto Daniele",
+        "short_name": "Giaimo BD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Friedrich, Tobias",
+        "short_name": "Friedrich T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany.",
+          "Biomedical Informatics and Systems Medicine, Justus-Liebig-University Giessen, Aulweg 128, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ferrante, Francesca",
+        "short_name": "Ferrante F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bartkuhn, Marek",
+        "short_name": "Bartkuhn M",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Informatics and Systems Medicine, Justus-Liebig-University Giessen, Aulweg 128, 35392 Giessen, Germany.",
+          "Institute for Lung Health, Aulweg 132, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Borggrefe, Tilman",
+        "short_name": "Borggrefe T",
+        "identifiers": [
+          "0000-0003-4325-5452"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, Justus-Liebig-University Giessen, Friedrichstrasse 24, 35392 Giessen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 May 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/22 13:44",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42193964",
+      "40507899"
+    ],
+    "refs": [
+      "36477367",
+      "36040971",
+      "35848919",
+      "35821235",
+      "32936072",
+      "32767663",
+      "32107550",
+      "31690218",
+      "31375807",
+      "31249304",
+      "30814546",
+      "30745086",
+      "30673607",
+      "30030835",
+      "29986055",
+      "29467447",
+      "29120462",
+      "29045844",
+      "29030483",
+      "28717009",
+      "28465412",
+      "27989769",
+      "27650223",
+      "27576892",
+      "27322055",
+      "27008022",
+      "26912830",
+      "26257285",
+      "25957351",
+      "25805888",
+      "25765347",
+      "25516281",
+      "25369933",
+      "24888900",
+      "24799436",
+      "24603501",
+      "24374627",
+      "23950696",
+      "23651858",
+      "23582322",
+      "23396200",
+      "23022380",
+      "22517427",
+      "22455463",
+      "21737748",
+      "21596603",
+      "21324879",
+      "21205864",
+      "21119597",
+      "20972443",
+      "20935071",
+      "20581084",
+      "20436461",
+      "20231316",
+      "19458158",
+      "19376112",
+      "19176515",
+      "18798982",
+      "17545467",
+      "17284587",
+      "16452208",
+      "16432200",
+      "12374742",
+      "11604511"
+    ],
+    "similar": [
+      "38647081",
+      "23651858",
+      "24374627",
+      "35848919",
+      "33034023",
+      "24603501",
+      "22991339",
+      "30916347",
+      "21637838",
+      "25512468",
+      "25324571",
+      "21737748",
+      "28027012",
+      "30673607",
+      "27322055",
+      "36477367",
+      "30642633",
+      "29030483",
+      "31615108",
+      "26719268",
+      "35835555",
+      "32075915",
+      "29977079",
+      "31346210",
+      "30745086",
+      "21871448",
+      "26604133",
+      "22718343",
+      "31886719",
+      "26940862",
+      "17938243",
+      "29931229",
+      "28174252",
+      "20499347",
+      "25369933",
+      "27079877",
+      "23396200",
+      "18239137",
+      "16869730",
+      "28465412",
+      "21746931",
+      "39893191",
+      "33775255",
+      "23818617",
+      "23617465",
+      "10677215",
+      "23267012",
+      "18777163",
+      "11741889",
+      "20161818",
+      "22167192",
+      "25053496",
+      "18852286",
+      "22036964",
+      "41028981",
+      "21518914",
+      "24298019",
+      "25107895",
+      "26318021",
+      "30461303",
+      "19165418",
+      "21420948",
+      "34559579",
+      "40992566",
+      "17545467",
+      "19487031",
+      "16865239",
+      "21685392",
+      "16525728",
+      "40501337",
+      "29023469",
+      "26975664",
+      "25535389",
+      "35844785",
+      "18363556",
+      "18332109",
+      "31378591",
+      "26344835",
+      "28779023",
+      "11486044",
+      "27903902",
+      "22537144",
+      "35674895",
+      "33108408",
+      "32567455",
+      "30213224",
+      "22232070",
+      "17284587",
+      "30856484",
+      "32535942",
+      "20691157",
+      "24643801",
+      "26818008",
+      "40711919",
+      "25418913",
+      "34346482",
+      "29885287",
+      "26951801",
+      "22792167",
+      "18759300"
+    ],
+    "review": [
+      "38647081",
+      "33034023",
+      "19165418",
+      "18363556"
+    ],
+    "pmc": [
+      "11109962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38647081/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38647081",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse235977",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae292",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

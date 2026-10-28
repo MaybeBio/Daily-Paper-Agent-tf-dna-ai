@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.08.531790",
+  "title": "MAHOMES II: A webserver for predicting if a metal binding site is enzymatic",
+  "authors": "Ryan Feehan; Matthew Copeland; Meghan W. Franklin; Joanna S. G. Slusky",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-12",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习预测金属结合位点是否具有酶活性，虽涉及蛋白结构功能注释，但核心对象是金属离子-蛋白互作而非蛋白质-DNA互作，且无TF-DNA结合建模，与本课题关联度低。",
+  "abstract": "Recent advances have enabled high-quality computationally generated structures for proteins with no solved crystal structures. However, protein function data remains largely limited to experimental methods and homology mapping. Since structure determines function, it is natural that methods capable of using computationally generated structures for functional annotations need to be advanced. Our laboratory recently developed a method to distinguish between metalloenzyme and non-enzyme sites. Here we report improvements to this method by upgrading our physicochemical features to alleviate the need for structures with sub-angstrom precision and using machine learning to reduce training data labeling error. Our improved classifier identifies protein bound metal sites as enzymatic or non-enzymatic with 94% precision and 92% recall. We demonstrate that both adjustments increased predictive performance and reliability on sites with sub-angstrom variations. We constructed a set of predicted metalloprotein structures with no solved crystal structures and no detectable homology to our training data. Our model had an accuracy of 90 - 97.5% depending on the quality of the predicted structures included in our test. Finally, we found the physicochemical trends that drove this model’s successful performance were local protein density, second shell ionizable residue burial, and the pocket’s accessibility to the site. We anticipate that our model’s ability to correctly identify catalytic metal sites could enable identification of new enzymatic mechanisms and improve de novo metalloenzyme design success rates. Significance statement Identification of enzyme active sites on proteins with unsolved crystallographic structures can accelerate discovery of novel biochemical reactions, which can impact healthcare, industrial processes, and environmental remediation. Our lab has developed an ML tool for predicting sites on computationally generated protein structures as enzymatic and non-enzymatic. We have made our tool available on a webserver, allowing the scientific community to rapidly search previously unknown protein function space.",
+  "abstract_zh": "近期进展使得为没有解析晶体结构的蛋白质生成高质量计算结构成为可能。然而，蛋白质功能数据仍主要局限于实验方法和同源映射。由于结构决定功能，自然需要推进能够利用计算生成结构进行功能注释的方法。我们实验室最近开发了一种区分金属酶和非酶位点的方法。在此，我们报告对该方法的改进，通过升级我们的物理化学特征以减轻对亚埃级精度结构的需求，并使用机器学习减少训练数据标注错误。我们改进的分类器以94%的精确度和92%的召回率识别蛋白质结合金属位点为酶性或非酶性。我们证明这两项调整均提高了预测性能和对亚埃级变异位点的可靠性。我们构建了一组预测的金属蛋白结构，这些结构没有解析的晶体结构，且与我们的训练数据无可检测的同源性。我们的模型准确率为90%至97.5%，具体取决于测试中包含的预测结构质量。最后，我们发现驱动该模型成功性能的物理化学趋势是局部蛋白质密度、第二壳层可电离残基埋藏以及口袋对位点的可及性。我们预期，我们的模型正确识别催化金属位点的能力可能有助于发现新的酶促机制，并提高从头金属酶设计成功率。意义声明：在未解析晶体结构的蛋白质上识别酶活性位点，可加速新生化反应的发现，这可能影响医疗保健、工业过程和环境修复。我们实验室开发了一种机器学习工具，用于预测计算生成的蛋白质结构上的位点为酶性或非酶性。我们已在网络服务器上提供该工具，使科学界能够快速搜索先前未知的蛋白质功能空间。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531790",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531790",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.08.531790/index.html"
+}

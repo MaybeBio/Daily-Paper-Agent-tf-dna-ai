@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "36672782",
+    "doi": "10.3390/genes14010042",
+    "title": "Integrative Multiomics and Regulatory Network Analyses Uncovers the Role of OAS3, TRAFD1, miR-222-3p, and miR-125b-5p in Hepatitis E Virus Infection."
+  },
+  "content": {
+    "abstract": "The hepatitis E virus (HEV) is a long-ignored virus that has spread globally with time. It ranked 6th among the top risk-ranking viruses with high zoonotic spillover potential; thus, considering its viral threats is a pressing priority. The molecular pathophysiology of HEV infection or the underlying cause is limited. Therefore, we incorporated an unbiased, systematic methodology to get insights into the biological heterogeneity associated with the HEV. Our study fetched 93 and 2016 differentially expressed genes (DEGs) from chronic HEV (CHEV) infection in kidney-transplant patients, followed by hub module selection from a weighted gene co-expression network (WGCN). Most of the hub genes identified in this study were associated with interferon (IFN) signaling pathways. Amongst the genes induced by IFNs, the 2'-5'-oligoadenylate synthase 3 (OAS3) protein was upregulated. Protein-protein interaction (PPI) modular, functional enrichment, and feed-forward loop (FFL) analyses led to the identification of two key miRNAs, i.e., miR-222-3p and miR-125b-5p, which showed a strong association with the OAS3 gene and TRAF-type zinc finger domain containing 1 (TRAFD1) transcription factor (TF) based on essential centrality measures. Further experimental studies are required to substantiate the significance of these FFL-associated genes and miRNAs with their respective functions in CHEV. To our knowledge, it is the first time that miR-222-3p has been described as a reference miRNA for use in CHEV sample analyses. In conclusion, our study has enlightened a few budding targets of HEV, which might help us understand the cellular and molecular pathways dysregulated in HEV through various factors. Thus, providing a novel insight into its pathophysiology and progression dynamics.",
+    "keywords": [
+      "FFL",
+      "PPI",
+      "WGCNA",
+      "hepatitis E virus",
+      "protein-protein docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "2',5'-Oligoadenylate Synthetase/genetics",
+      "Adenine Nucleotides",
+      "*Hepatitis E virus/genetics/metabolism",
+      "*MicroRNAs/genetics/metabolism",
+      "Multiomics",
+      "Oligoribonucleotides",
+      "Intracellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Sonam",
+        "Singh, Prithvi",
+        "Tasneem, Alvea",
+        "Almatroudi, Ahmad",
+        "Rahmani, Arshad Husain",
+        "Dohare, Ravins",
+        "Parveen, Shama"
+      ],
+      "short_names": [
+        "Gupta S",
+        "Singh P",
+        "Tasneem A",
+        "Almatroudi A",
+        "Rahmani AH",
+        "Dohare R",
+        "Parveen S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9464-7395",
+        "ORCID: 0000-0002-2562-0914",
+        "ORCID: 0000-0002-2213-8524",
+        "ORCID: 0000-0002-1491-6402",
+        "ORCID: 0000-0002-0602-3719",
+        "ORCID: 0000-0002-6359-0760"
+      ],
+      "affiliations": [
+        "Molecular Virology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India.",
+        "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India.",
+        "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia.",
+        "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India.",
+        "Molecular Virology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Sonam",
+        "short_name": "Gupta S",
+        "identifiers": [
+          "0000-0002-9464-7395"
+        ],
+        "affiliations": [
+          "Molecular Virology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Prithvi",
+        "short_name": "Singh P",
+        "identifiers": [
+          "0000-0002-2562-0914"
+        ],
+        "affiliations": [
+          "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Tasneem, Alvea",
+        "short_name": "Tasneem A",
+        "identifiers": [
+          "0000-0002-2213-8524"
+        ],
+        "affiliations": [
+          "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Almatroudi, Ahmad",
+        "short_name": "Almatroudi A",
+        "identifiers": [
+          "0000-0002-1491-6402"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rahmani, Arshad Husain",
+        "short_name": "Rahmani AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Dohare, Ravins",
+        "short_name": "Dohare R",
+        "identifiers": [
+          "0000-0002-0602-3719"
+        ],
+        "affiliations": [
+          "Mathematical and Computational Biology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Parveen, Shama",
+        "short_name": "Parveen S",
+        "identifiers": [
+          "0000-0002-6359-0760"
+        ],
+        "affiliations": [
+          "Molecular Virology Laboratory, Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Dec 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/22 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42653498",
+      "42352267",
+      "42196147",
+      "42020888",
+      "40660006",
+      "39700118",
+      "39633486",
+      "38984076",
+      "38654363",
+      "38494261",
+      "38058490",
+      "37653284",
+      "37330525"
+    ],
+    "refs": [
+      "35831411",
+      "35719950",
+      "35467432",
+      "34938809",
+      "34864908",
+      "34265844",
+      "34009375",
+      "33897765",
+      "33839701",
+      "33822740",
+      "33442461",
+      "33430442",
+      "33282419",
+      "32875000",
+      "32805314",
+      "32795971",
+      "32299435",
+      "32281721",
+      "32211411",
+      "32210284",
+      "32190310",
+      "31979244",
+      "31481902",
+      "31258758",
+      "31114921",
+      "30476243",
+      "30335862",
+      "29540601",
+      "29157309",
+      "29101382",
+      "28639193",
+      "28592649",
+      "27503228",
+      "27141961",
+      "27008011",
+      "27005692",
+      "25605792",
+      "25275129",
+      "25120561",
+      "24297251",
+      "23579640",
+      "23196181",
+      "19923450",
+      "18849341",
+      "17612493",
+      "17584791",
+      "17389647",
+      "14597658",
+      "4202581"
+    ],
+    "similar": [
+      "36672782",
+      "29540601",
+      "34840985",
+      "36291136",
+      "36193503",
+      "26924666",
+      "28724761",
+      "32210284",
+      "29194684",
+      "36695578",
+      "34918388",
+      "36203804",
+      "32735806",
+      "32888289",
+      "36398070",
+      "31965022",
+      "36647068",
+      "34235224",
+      "31578247",
+      "34234459",
+      "36376845",
+      "33407587",
+      "23579640",
+      "32547322",
+      "32377460",
+      "36189314",
+      "33299863",
+      "35757478",
+      "34434654",
+      "34916825",
+      "35119030",
+      "35484565",
+      "32751663",
+      "30268144",
+      "24595450",
+      "31692035",
+      "32481304",
+      "23246696",
+      "36104591",
+      "32176034",
+      "35739587",
+      "33182754",
+      "36438897",
+      "35949853",
+      "28919164",
+      "33439992",
+      "36798788",
+      "33107616",
+      "25266797",
+      "31930065",
+      "25100852",
+      "29128636",
+      "34215202",
+      "33950983",
+      "34732131",
+      "36902304",
+      "31934299",
+      "33209394",
+      "32478689",
+      "36944116",
+      "32615059",
+      "34867824",
+      "37968923",
+      "29032608",
+      "33678324",
+      "32537629",
+      "32645133",
+      "35322101",
+      "28195391",
+      "35401659",
+      "35813414",
+      "32031354",
+      "33015184",
+      "30865617",
+      "24418602",
+      "35678909",
+      "37452221",
+      "23387986",
+      "34123589",
+      "35719390",
+      "30390708",
+      "34354368",
+      "35934228",
+      "37118825",
+      "31377428",
+      "35340237",
+      "36841081",
+      "26858407",
+      "24505321",
+      "22183878",
+      "35685361",
+      "34934349",
+      "34861820",
+      "32960473"
+    ],
+    "review": [
+      "36672782",
+      "35119030",
+      "32481304"
+    ],
+    "pmc": [
+      "9859139"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/36672782/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes14010042",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36672782/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36672782",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

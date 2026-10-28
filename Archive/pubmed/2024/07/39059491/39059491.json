@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "39059491",
+    "doi": "10.1016/j.jbc.2024.107606",
+    "title": "Identification of small-molecule ligand-binding sites on and in the ARNT PAS-B domain."
+  },
+  "content": {
+    "abstract": "Transcription factors are challenging to target with small-molecule inhibitors due to their structural plasticity and lack of catalytic sites. Notable exceptions include naturally ligand-regulated transcription factors, including our prior work with the hypoxia-inducible factor (HIF)-2 transcription factor, showing that small-molecule binding within an internal pocket of the HIF-2alpha Per-Aryl hydrocarbon Receptor Nuclear Translocator (ARNT)-Sim (PAS)-B domain can disrupt its interactions with its dimerization partner, ARNT. Here, we explore the feasibility of targeting small molecules to the analogous ARNT PAS-B domain itself, potentially opening a promising route to modulate several ARNT-mediated signaling pathways. Using solution NMR fragment screening, we previously identified several compounds that bind ARNT PAS-B and, in certain cases, antagonize ARNT association with the transforming acidic coiled-coil containing protein 3 transcriptional coactivator. However, these ligands have only modest binding affinities, complicating characterization of their binding sites. We address this challenge by combining NMR, molecular dynamics simulations, and ensemble docking to identify ligand-binding \"hotspots\" on and within the ARNT PAS-B domain. Our data indicate that the two ARNT/transforming acidic coiled-coil containing protein 3 inhibitors, KG-548 and KG-655, bind to a beta-sheet surface implicated in both HIF-2 dimerization and coactivator recruitment. Furthermore, while KG-548 binds exclusively to the beta-sheet surface, KG-655 can additionally bind within a water-accessible internal cavity in ARNT PAS-B. Finally, KG-279, while not a coactivator inhibitor, exemplifies ligands that preferentially bind only to the internal cavity. All three ligands promoted ARNT PAS-B homodimerization, albeit to varying degrees. Taken together, our findings provide a comprehensive overview of ARNT PAS-B ligand-binding sites and may guide the development of more potent coactivator inhibitors for cellular and functional studies.",
+    "keywords": [
+      "aryl hydrocarbon nuclear translocator (ARNT)",
+      "basic helix-loop-helix transcription factor (bHLH)",
+      "hypoxia-inducible factor (HIF)",
+      "ligand-binding protein",
+      "molecular docking",
+      "nuclear magnetic resonance (NMR)"
+    ],
+    "mesh_terms": [
+      "*Aryl Hydrocarbon Receptor Nuclear Translocator/metabolism/chemistry/antagonists & inhibitors",
+      "Humans",
+      "Ligands",
+      "Binding Sites",
+      "*Basic Helix-Loop-Helix Proteins/metabolism/chemistry/antagonists & inhibitors",
+      "Protein Domains",
+      "Protein Binding",
+      "Protein Multimerization",
+      "Small Molecule Libraries/pharmacology/chemistry",
+      "Endothelial PAS Domain-Containing Protein 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Xingjian",
+        "Closson, Joseph D",
+        "Marcelino, Leandro Pimentel",
+        "Favaro, Denize C",
+        "Silvestrini, Marion L",
+        "Solazzo, Riccardo",
+        "Chong, Lillian T",
+        "Gardner, Kevin H"
+      ],
+      "short_names": [
+        "Xu X",
+        "Closson JD",
+        "Marcelino LP",
+        "Favaro DC",
+        "Silvestrini ML",
+        "Solazzo R",
+        "Chong LT",
+        "Gardner KH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; PhD Program in Biochemistry, The Graduate Center, CUNY, New York, New York, USA.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; PhD Program in Biochemistry, The Graduate Center, CUNY, New York, New York, USA.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+        "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-University of Bologna, Bologna, Bologna, Italy.",
+        "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; Department of Chemistry and Biochemistry, City College of New York, New York, New York, USA; PhD. Programs in Biochemistry, Chemistry and Biology, The Graduate Center, CUNY, New York, New York, USA. Electronic address: kgardner@gc.cuny.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Xingjian",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; PhD Program in Biochemistry, The Graduate Center, CUNY, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Closson, Joseph D",
+        "short_name": "Closson JD",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; PhD Program in Biochemistry, The Graduate Center, CUNY, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Marcelino, Leandro Pimentel",
+        "short_name": "Marcelino LP",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Favaro, Denize C",
+        "short_name": "Favaro DC",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Silvestrini, Marion L",
+        "short_name": "Silvestrini ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Solazzo, Riccardo",
+        "short_name": "Solazzo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-University of Bologna, Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Chong, Lillian T",
+        "short_name": "Chong LT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Gardner, Kevin H",
+        "short_name": "Gardner KH",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA; Department of Chemistry and Biochemistry, City College of New York, New York, New York, USA; PhD. Programs in Biochemistry, Chemistry and Biology, The Graduate Center, CUNY, New York, New York, USA. Electronic address: kgardner@gc.cuny.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/27 10:42",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42385421",
+      "42328445",
+      "42231949",
+      "42048441",
+      "42039383",
+      "41565622",
+      "41394720",
+      "41287266",
+      "40502054",
+      "40166272",
+      "39467204"
+    ],
+    "refs": [],
+    "similar": [
+      "39059491",
+      "37961463",
+      "25627682",
+      "29489822",
+      "19324882",
+      "21512126",
+      "16181639",
+      "27782878",
+      "19129502",
+      "37935255",
+      "14668441",
+      "23240775",
+      "14638687",
+      "23363003",
+      "36343253",
+      "21245039",
+      "23033253",
+      "8065341",
+      "12754377",
+      "8816435",
+      "15479785",
+      "28904176",
+      "26245371",
+      "24736273",
+      "15383530",
+      "19196990",
+      "12944374",
+      "16520375",
+      "26350169",
+      "16861921",
+      "24081025",
+      "27295348",
+      "39467204",
+      "9632792",
+      "7628454",
+      "9271372",
+      "9159130",
+      "17223691",
+      "39900897",
+      "36027865",
+      "23454269",
+      "36167425",
+      "29132019",
+      "12024042",
+      "36266304",
+      "8662957",
+      "30804532",
+      "8537407",
+      "24355420",
+      "28393157",
+      "28990233",
+      "7488247",
+      "28602820",
+      "10340472",
+      "37120484",
+      "24849811",
+      "7969169",
+      "23599003",
+      "23116263",
+      "7493958",
+      "40502054",
+      "10409767",
+      "16129688",
+      "17991765",
+      "32932609",
+      "14764593",
+      "11502749",
+      "7823943",
+      "37992889",
+      "41176615",
+      "27721191",
+      "24486526",
+      "8657146",
+      "37352720",
+      "23458834",
+      "37502902",
+      "9020169",
+      "8940073",
+      "11179451",
+      "18949049",
+      "8794892",
+      "35695677",
+      "11043581",
+      "17023418",
+      "24211325",
+      "21981577",
+      "9079689",
+      "16129408",
+      "9746763",
+      "9704006",
+      "27472814",
+      "18806268",
+      "10433921",
+      "11381139",
+      "11782478",
+      "10873592",
+      "11025203",
+      "41069180",
+      "33893898",
+      "20508969"
+    ],
+    "review": [
+      "39059491",
+      "37935255",
+      "24849811",
+      "23116263",
+      "37992889",
+      "27721191"
+    ],
+    "pmc": [
+      "11381877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(24)02107-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39059491/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

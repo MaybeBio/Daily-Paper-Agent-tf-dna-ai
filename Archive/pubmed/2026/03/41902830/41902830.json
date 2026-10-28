@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "41902830",
+    "doi": "10.1093/jleuko/qiag044",
+    "title": "Weighted gene coexpression network analysis and machine learning identify mitochondria programmed cell death-related genes as diagnostic biomarkers for septic shock."
+  },
+  "content": {
+    "abstract": "Septic shock (SS), the most severe stage of sepsis, has a high mortality rate. Mitochondria-mediated programmed cell death (MPCD) plays a key role in SS pathogenesis, but its diagnostic value remains unclear. This study integrated the Gene Expression Omnibus (GEO) public dataset and used the weighted gene coexpression network analysis (WGCNA) method to identify gene modules significantly associated with SS and intersected them with MPCD-related genes to obtain the SS-MPCD gene set. Least absolute shrinkage and selection operator (LASSO) regression and Boruta algorithms screened key genes, with their diagnostic performance verified in an independent queue. Through single-cell transcriptome analysis, immune infiltration score (ssGSEA), and regulatory network construction [transcription factor TF microRNA miRNA, and protein-protein interaction PPI], the immune regulatory characteristics of candidate genes were systematically analyzed. Clinical blood samples were collected, and the expression levels of candidate genes were validated through quantitative real-time polymerase chain reaction (qRT-PCR). Finally, the cecal ligation and puncture (CLP)-induced SS mouse model was used for ACSL1 intervention, and its functional effects were evaluated by survival analysis, hematoxylin and eosin (H&E), qRT-PCR, Western blot (WB), and immunofluorescence (IF). Four diagnostic genes were identified: ACSL1, BLOC1S1, SPTLC2, and TSPO. They were upregulated in SS patients and clinical samples, showed immune cell-specific expression, and were regulated by specific miRNAs/TFs. Immune profiling revealed a neutrophil- and Treg-dominated microenvironment. Inhibiting ACSL1 improved survival, reduced organ damage and inflammation, decreased apoptosis markers, and suppressed neutrophil/Treg infiltration. The study systematically identifies and preliminarily validates 4 MPCD-related diagnostic genes, offering insights into SS pathogenesis and potential early diagnosis.",
+    "keywords": [
+      "WGCNA",
+      "diagnostic model",
+      "machine learning",
+      "mitochondria-regulated programmed cell death",
+      "septic shock"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Shock, Septic/genetics/diagnosis",
+      "*Gene Regulatory Networks",
+      "Biomarkers/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Mice",
+      "*Mitochondria/genetics/metabolism",
+      "*Apoptosis/genetics",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Male",
+      "Long-Chain-Fatty-Acid-CoA Ligase",
+      "Coenzyme A Ligases/genetics",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Di",
+        "Lai, Zhongbin",
+        "Xia, Jingzhao",
+        "Huang, Qun",
+        "Zhang, Jin'er",
+        "He, Shaoyi"
+      ],
+      "short_names": [
+        "Yu D",
+        "Lai Z",
+        "Xia J",
+        "Huang Q",
+        "Zhang J",
+        "He S"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8758-3918"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China.",
+        "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China.",
+        "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China.",
+        "Traditional Chinese Medicine Orthopedics and Traumatology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China.",
+        "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China.",
+        "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Di",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Zhongbin",
+        "short_name": "Lai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Jingzhao",
+        "short_name": "Xia J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qun",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Orthopedics and Traumatology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jin'er",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Shaoyi",
+        "short_name": "He S",
+        "identifiers": [
+          "0009-0009-8758-3918"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Cixi Third People's Hospital Medical and Health Group, No. 51-139, Zhouxi Highway, Zhouxiang Town, Cixi City, Ningbo City, 315324, Zhejiang Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of leukocyte biology"
+    ],
+    "journal_abbrev": [
+      "J Leukoc Biol"
+    ],
+    "pub_date": "2026 Apr 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/29 07:31",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41902830",
+      "39609718",
+      "42292668",
+      "41432483",
+      "41013727",
+      "39512836",
+      "41388523",
+      "37359526",
+      "41102315",
+      "39586719",
+      "42266692",
+      "40782934",
+      "39341981",
+      "39904039",
+      "41291841",
+      "41052072",
+      "40885831",
+      "41570454",
+      "39916955",
+      "41107929",
+      "40613560",
+      "42327749",
+      "38291374",
+      "39348809",
+      "40830558",
+      "41583468",
+      "40599778",
+      "41436831",
+      "42000858",
+      "40503237",
+      "41444617",
+      "41013556",
+      "40313958",
+      "41479901",
+      "42123445",
+      "41816328",
+      "40196107",
+      "40836320",
+      "39142001",
+      "41996313",
+      "39139563",
+      "40742465",
+      "39920860",
+      "41833346",
+      "42274933",
+      "39730379",
+      "42326009",
+      "40997906",
+      "42267557",
+      "42123756",
+      "39650552",
+      "39823156",
+      "39026250",
+      "39735547",
+      "39384856",
+      "40860289",
+      "41146237",
+      "40362669",
+      "41112767",
+      "41316541",
+      "41324863",
+      "41508240",
+      "39923303",
+      "40901831",
+      "40274954",
+      "40969769",
+      "41789070",
+      "40973872",
+      "40093012",
+      "39507054",
+      "42257259",
+      "40405297",
+      "40532306",
+      "37821907",
+      "39080525",
+      "41743406",
+      "41826854",
+      "40462179",
+      "41393259",
+      "40108736",
+      "41029776",
+      "39026663",
+      "41006883",
+      "41214111",
+      "41050653",
+      "42088521",
+      "40129981",
+      "41255601",
+      "41810912",
+      "39574022",
+      "41570698",
+      "42313235",
+      "42064079",
+      "38062833",
+      "39556279",
+      "41878449",
+      "40068062",
+      "40967560",
+      "40787447",
+      "35187175"
+    ],
+    "review": [
+      "41902830"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jleukbio/article-lookup/doi/10.1093/jleuko/qiag044",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

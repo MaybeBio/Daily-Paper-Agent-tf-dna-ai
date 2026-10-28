@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "37666060",
+    "doi": "10.1016/j.phymed.2023.155031",
+    "title": "A large-scale transcriptional analysis reveals herb-derived ginsenoside F2 suppressing hepatocellular carcinoma via inhibiting STAT3."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is a common type of cancer that shows great morbidity and mortality rates. However, there are limited available drugs to treat HCC. AIM: The present work focused on discovering the potential anti-HCC compounds from traditional Chinese medicine (TCM) by employing high-throughput sequencing-based high-throughput screening (HTS(2)) together with the liver cancer pathway-associated gene signature. METHODS: HTS(2) assay was adopted for identifying herbs. Protein-protein interaction (PPI) network analysis and computer-aided drug design (CADD) were used to identify key targets and screen the candidate natural products of herbs. Molecular docking, network pharmacology analysis, western blotting, immunofluorescent staining, subcellular fractionation experiment, dual-luciferase reporter gene assay, surface plasmon resonance (SPR) as well as nuclear magnetic resonance (NMR) were performed to validate the ability of compound binding with key target and inhibiting its function. Moreover, cell viability, colony-forming, cell cycle assay and animal experiments were performed to examine the inhibitory effect of compound on HCC. RESULTS: We examined the perturbation of 578 herb extracts on the expression of 84 genes from the liver cancer pathway, and identified the top 20 herbs significantly reverting the gene expression of this pathway. Signal transducer and activator of transcription 3  (STAT3)  was identified as one of the key targets of the liver cancer pathway by PPI network analysis. Then, by analyzing compounds from top 20 herbs utilizing CADD, we found ginsenoside F2 (GF2) binds to STAT3 with high affinity, which was further validated by the results from molecular docking, SPR and NMR. Additionally, our results showed that GF2 suppresses the phosphorylation of Y705 of STAT3, inhibits its nuclear translocation, decreases its transcriptional activity and inhibits the growth of HCC in vitro and in vivo. CONCLUSION: Based on this large-scale transcriptional study, a number of anti-HCC herbs were identified. GF2, a compound derived from TCM, was found to be a chemical basis of these herbs in treating HCC. The present work also discovered that GF2 is a new STAT3 inhibitor, which is able to suppress HCC. As such, GF2 represents a new potential anti-HCC therapeutic strategy.",
+    "keywords": [
+      "CADD",
+      "Ginsenoside F2",
+      "HTS(2)",
+      "Hepatocellular carcinoma",
+      "STAT3 inhibitor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Carcinoma, Hepatocellular/drug therapy/genetics",
+      "*Liver Neoplasms/drug therapy",
+      "STAT3 Transcription Factor",
+      "Molecular Docking Simulation",
+      "Ginsenosides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Xue",
+        "Ma, Xiaofang",
+        "Dai, Yifei",
+        "An, Jun",
+        "Yu, Xiankuo",
+        "Li, Shengrong",
+        "Liao, Yile",
+        "Pei, Tianli",
+        "Tang, Yuqin",
+        "Gui, Yu",
+        "Zhou, Shiyi",
+        "Guo, Dale",
+        "Deng, Yun",
+        "Hu, Kaifeng",
+        "Wang, Dong"
+      ],
+      "short_names": [
+        "Tan X",
+        "Ma X",
+        "Dai Y",
+        "An J",
+        "Yu X",
+        "Li S",
+        "Liao Y",
+        "Pei T",
+        "Tang Y",
+        "Gui Y",
+        "Zhou S",
+        "Guo D",
+        "Deng Y",
+        "Hu K",
+        "Wang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Basic Medical Sciences, School of Medicine, Tsinghua University, Beijing 100084, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Clinical Bioinformatics Experimental Center, Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, China.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China. Electronic address: kaifenghu@cdutcm.edu.cn.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dwang@cdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Xue",
+        "short_name": "Tan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaofang",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yifei",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, School of Medicine, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "An, Jun",
+        "short_name": "An J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiankuo",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shengrong",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yile",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Tianli",
+        "short_name": "Pei T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yuqin",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Clinical Bioinformatics Experimental Center, Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, China."
+        ]
+      },
+      {
+        "full_name": "Gui, Yu",
+        "short_name": "Gui Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shiyi",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Dale",
+        "short_name": "Guo D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yun",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Kaifeng",
+        "short_name": "Hu K",
+        "identifiers": [],
+        "affiliations": [
+          "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China. Electronic address: kaifenghu@cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dwang@cdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/05 00:41",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "42528769",
+      "41662351",
+      "41452426",
+      "41083526",
+      "41079672",
+      "40945847",
+      "40926993",
+      "40823261",
+      "40166646",
+      "40163153",
+      "40122800",
+      "39888435",
+      "39834805",
+      "39273365",
+      "38434355"
+    ],
+    "refs": [],
+    "similar": [
+      "37666060",
+      "36627003",
+      "38882048",
+      "31072375",
+      "36825585",
+      "38417600",
+      "36403263",
+      "30553869",
+      "25320076",
+      "36046748",
+      "30810974",
+      "37429502",
+      "36347033",
+      "30585547",
+      "26882566",
+      "25883212",
+      "22025881",
+      "30648776",
+      "32486841",
+      "30709346",
+      "24655440",
+      "32741371",
+      "36345477",
+      "37100264",
+      "31964157",
+      "17145839",
+      "28230855",
+      "36234758",
+      "33776365",
+      "37453868",
+      "31980595",
+      "34384755",
+      "37279814",
+      "21354226",
+      "32407961",
+      "18651980",
+      "30720090",
+      "33982329",
+      "33753143",
+      "24418169",
+      "30370582",
+      "36245124",
+      "35236335",
+      "37393234",
+      "37453621",
+      "35090330",
+      "31991293",
+      "32174012",
+      "38613352",
+      "24997323",
+      "32237426",
+      "36721234",
+      "30554487",
+      "25754378",
+      "35873910",
+      "25653024",
+      "35351639",
+      "28714512",
+      "32123532",
+      "19137011",
+      "33687738",
+      "38103726",
+      "30001751",
+      "31771617",
+      "36578460",
+      "33805945",
+      "34619160",
+      "37556351",
+      "34418571",
+      "30015355",
+      "24535538",
+      "21311975",
+      "35317323",
+      "37793997",
+      "24093956",
+      "32445654",
+      "21809363",
+      "33176070",
+      "31891797",
+      "33947048",
+      "33234142",
+      "35288308",
+      "30469422",
+      "30697962",
+      "33164393",
+      "23828071",
+      "34015398",
+      "30274685",
+      "37231451",
+      "37462387",
+      "26376676",
+      "31648164",
+      "31285768",
+      "34057016",
+      "27259268",
+      "23389848",
+      "37085753",
+      "39211446",
+      "36314067",
+      "38462928",
+      "27143508",
+      "38223828",
+      "37305788",
+      "39338323",
+      "37797430",
+      "37829248",
+      "38980111",
+      "39173044",
+      "39182119",
+      "39428846",
+      "39387711",
+      "38598369",
+      "38008473",
+      "38382537",
+      "35152087",
+      "37859719",
+      "38023173",
+      "34027045",
+      "38213696",
+      "38845010",
+      "39081717",
+      "24904733",
+      "39108729",
+      "30349637"
+    ],
+    "review": [
+      "37666060",
+      "38103726",
+      "37085753",
+      "39081717"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00392-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3432",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

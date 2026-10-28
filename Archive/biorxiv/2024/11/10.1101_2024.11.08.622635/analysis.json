@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.08.622635",
+  "title": "Transfer learning and DNA language models enhance transcription factor binding predictions",
+  "authors": "Ekin Deniz Aksu; Martin Vingron",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-11",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用DNA语言模型嵌入和迁移学习预测体内TF结合位点，在跨TF、跨细胞类型和跨染色体设定下达到先进性能，核心聚焦TF-DNA结合预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Identification of in vivo transcription factor (TF) binding sites is crucial to understand gene regulatory networks, but the lack of scalability in the methods for their experimental identification directs researchers towards computational models. TF binding site prediction models are often specific for a given TF, which also hinders the generalizability of models to previously unseen TFs. Here, we present an approach to predict in vivo TF binding sites using DNA accessibility, TF RNA expression and TF binding motifs. Our novel method leverages DNA language model embeddings and transfer learning to improve its accuracy and generalizability, achieving a mean area under the precision-recall curve (AUPR) of 0.51 in held-out cell types and chromosomes in the ENCODE-DREAM in vivo TFBS prediction challenge, outperforming the top-ranked methods. Furthermore, we show that prediction accuracy increases when TFs are highly active and exhibit cell-type specific expression. We finally test our models in an independent dataset on previously unseen TFs, and report a mean AUPR of 0.36, which is state-of-the-art in a cross-TF, cross-cell type and cross-chromosomal setting.",
+  "abstract_zh": "体内转录因子（TF）结合位点的识别对于理解基因调控网络至关重要，但其实验识别方法缺乏可扩展性，促使研究者转向计算模型。TF结合位点预测模型通常针对特定TF，这也阻碍了模型对未见TF的泛化能力。在此，我们提出一种利用DNA可及性、TF RNA表达和TF结合基序来预测体内TF结合位点的方法。我们的新方法利用DNA语言模型嵌入和迁移学习来提高其准确性和泛化性，在ENCODE-DREAM体内TFBS预测挑战中，对留出细胞类型和染色体实现了平均精确率-召回率曲线下面积（AUPR）为0.51，优于排名靠前的方法。此外，我们表明，当TF高度活跃并表现出细胞类型特异性表达时，预测准确性会提高。最后，我们在独立数据集上对未见TF测试了我们的模型，并报告平均AUPR为0.36，这在跨TF、跨细胞类型和跨染色体设置中达到了当前最优水平。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622635",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622635",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.08.622635/index.html"
+}

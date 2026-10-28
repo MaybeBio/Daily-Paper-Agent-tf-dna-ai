@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** Scientific validity of the structural, biophysical, and functional claims; internal consistency of the evidence presented; adequacy of methodological detail; interpretation of results relative to prior literature.
+- **Shared manuscript claim summary** The authors report crystal structures of NF-κB p52 homodimers bound to three variants of the P-selectin κB DNA, revealing a widened minor groove in the central region compared to all previously determined NF-κB-DNA complexes. Microsecond MD simulations of free and bound DNAs suggest that the more transcriptionally active G/C-centric DNA maintains a similar conformation in free and bound states, while A/T-centric and swap variants undergo conformational changes. Binding kinetics measured by BLI show faster association and dissociation for the more active DNA, and the authors propose that kinetic features, rather than affinity, correlate with transcriptional activation.
+- **Visible evidence base** Crystal structures (PDB 7CLI, 7VUQ, 7VUP, 7W7L); crystallographic statistics (Table 1); ITC data (Figure 5 and supplements); BLI data (Figure 6 and supplements); luciferase reporter assays (Figure 1); MD simulation analyses (Figures 4, 7 and supplements); supplementary files listing crystallization conditions and hydrogen bond analyses.
+- **Missing materials affecting confidence** Electron density maps and refinement validation metrics (e.g., Ramachandran statistics, B-factor distributions) are not shown; MD simulation convergence criteria and force field validation details are not fully described; raw BLI and ITC traces are not shown; statistical analysis of luciferase assays is not fully described; sequence alignments of p52 with other NF-κB subunits are not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of structural and biophysical data that addresses an important question in NF-κB biology: how subtle differences in κB site sequence, particularly at the central base pair, influence transcription activation by the p52 homodimer. The crystal structures are novel and the observation of a widened minor groove in the central region is a potentially significant finding. The integration of MD simulations with structural and kinetic data is commendable. However, several technical concerns and interpretive gaps need to be addressed before the central claims are fully established. In particular, the relationship between the observed conformational states, the measured kinetic parameters, and the transcriptional outcomes is correlative rather than causal, and the mechanistic model proposed in the Discussion extends beyond what the current data can support.
+- **Who would be interested in the results, and why** Structural biologists studying transcription factor-DNA recognition, researchers in the NF-κB field interested in subunit-specific DNA binding and transcriptional regulation, and investigators studying the role of DNA conformation and dynamics in protein-DNA recognition. The work may also be of interest to those studying the biophysics of protein-DNA interactions, particularly the relationship between binding kinetics and function.
+- **Major strengths** The manuscript reports the first crystal structures of p52 homodimers bound to G/C-centric κB DNA, filling a gap in the NF-κB structural literature. The combination of X-ray crystallography, MD simulations, and biophysical assays is a powerful approach. The observation that the free G/C-centric DNA maintains a conformation similar to the bound state is an interesting and potentially important finding. The kinetic data provide a new dimension to understanding NF-κB-DNA recognition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the crystal structures reveal a "nearly two-fold widened minor groove in the central region of the DNA as compared to all other currently available NF-κB-DNA complex structures."
+  - **Evidence pointer** Figure 1E–G1, Figure 1I, Figure 1—figure supplement 2E
+  - **Concern** The comparison of minor groove widths is made against previously published structures that were determined with different DNA sequences, different protein constructs, and at different resolutions. The authors do not provide a systematic quantitative comparison of groove widths across all relevant structures using a consistent measurement method. The claim of a "nearly two-fold" widening is striking and should be supported by a rigorous comparative analysis. Additionally, the resolution of the new structures (~3.0 Å) may limit the accuracy of groove width measurements, and this limitation is not discussed.
+  - **Why it matters** The widened minor groove is a central observation of the paper and is used to support the mechanistic model. If the comparison is not rigorous, the novelty and significance of the finding are weakened.
+  - **Resolution test** Provide a quantitative comparison of minor groove widths (with standard errors) for all NF-κB-DNA complex structures in the PDB, using a consistent measurement protocol. Discuss the resolution limits of the new structures and how they affect the precision of groove width measurements. If possible, validate the groove width measurements with an independent method, such as hydroxyl radical footprinting or solution-state FRET.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MD simulations showed free DNAs exhibit distinct preferred conformations, and p52:p52 homodimer induces the least amount of DNA conformational changes when bound to the more transcriptionally active natural G/C-centric PSel-κB."
+  - **Evidence pointer** Figure 4, Figure 7, Materials and methods (MD simulation)
+  - **Concern** The MD simulation methodology is not described in sufficient detail to assess its reliability. The authors state that free DNA simulations used the Amber14sb force field with OL15 parameters, while complex simulations used Amber19sb with OL15. The use of different force fields for free and bound simulations is a potential source of systematic bias. The convergence of the simulations is not demonstrated; no RMSD time series, block averaging, or other convergence metrics are shown. The clustering methodology is described only briefly. The number of replicas (five per system) is reasonable, but the total simulation time per system (10 µs for free, 12 µs for complexes) may not be sufficient to sample the conformational space of DNA, particularly for the larger complexes.
+  - **Why it matters** The MD simulations are used to support the central claim that the G/C-centric DNA is pre-organized for binding, while the other DNAs undergo conformational changes. If the simulations are not converged or are biased by the use of different force fields, this claim is not well supported.
+  - **Resolution test** Provide detailed convergence analysis (e.g., RMSD time series, block averaging, principal component analysis of sampled conformations). Justify the use of different force fields for free and bound simulations, or use the same force field for all simulations. Consider extending the simulations or using enhanced sampling methods to ensure adequate conformational sampling. Provide a quantitative measure of the conformational change upon binding (e.g., RMSD or RMSF of the DNA in the bound vs. free state).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the binding kinetics, rather than the binding affinity, is correlated with their transcriptional activities" and that "transcriptional activity may have a closer link to the binding kinetics rather than the thermodynamic stability of the complex."
+  - **Evidence pointer** Figure 6, Figure 6—figure supplement 1, Figure 5
+  - **Concern** The correlation between kinetic parameters and transcriptional activity is based on a small number of DNA sequences (four: PSel G/C, PSel A/T, PSel swap, MHC, and Skp2 G/C and A/T in the supplement). The authors do not provide a statistical analysis of this correlation. The claim that kinetics, rather than affinity, correlates with activity is based on a qualitative comparison of the data. The authors do not discuss alternative explanations for the observed differences in transcriptional activity, such as differences in the ability of the p52-DNA complex to recruit cofactors or undergo conformational changes required for transcription activation.
+  - **Why it matters** The central thesis of the paper is that binding kinetics, not affinity, determines transcriptional outcome. This is a strong claim that requires robust statistical support and consideration of alternative models.
+  - **Resolution test** Provide a statistical analysis of the correlation between kinetic parameters (kon, koff, Kd) and transcriptional activity across all tested DNA sequences. Include additional DNA sequences to increase the power of the analysis. Discuss alternative models, such as the possibility that the p52-DNA complex adopts different conformations that are more or less competent for cofactor recruitment, and how the current data distinguish between these models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our studies have revealed a novel conformation for κB DNA in complex with NF-κB and pinpoint the importance of binding kinetics, dictated by DNA conformational and dynamic states, in controlling transcriptional activation for NF-κB."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of a "novel conformation" is based on the widened minor groove observed in the p52-DNA complexes. However, the functional significance of this widened groove is not directly demonstrated. The authors speculate that the widened groove allows for a more open conformation of the p52 dimer, which may be important for cofactor recruitment, but this is not tested. The link between the structural observations, the kinetic data, and the transcriptional outcomes is largely correlative.
+  - **Why it matters** The paper aims to provide a mechanistic understanding of how DNA sequence influences transcription activation. If the functional significance of the structural observations is not demonstrated, the impact of the work is reduced.
+  - **Resolution test** Perform experiments to directly test the functional significance of the widened minor groove. For example, use DNA analogs with modified groove geometry (e.g., base analogs that narrow or widen the minor groove) and test their effects on p52 binding kinetics and transcriptional activity. Alternatively, use FRET or other solution-based methods to measure the conformational dynamics of the p52-DNA complex and correlate these with transcriptional outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the structures reveal a "nearly two-fold widened minor groove" but does not provide the quantitative values or the comparison basis.
+  - **Required correction** Include the specific minor groove width values for the new structures and for a representative previously determined structure in the abstract, or state that the comparison is detailed in the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods (MD simulation)
+  - **Evidence pointer** Materials and methods (MD simulation)
+  - **Issue** The description of the MD simulation setup is incomplete. The authors do not specify the water model, salt concentration, temperature coupling algorithm, or the length of the equilibration period.
+  - **Required correction** Provide a complete description of the simulation setup, including all parameters necessary for reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The luciferase reporter assay data are presented as mean ± SD of three independent experiments, but the statistical test used to determine significance is not stated.
+  - **Required correction** State the statistical test used and the significance thresholds in the figure legend or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "The p52 homodimer recognizes κB DNAs with different thermodynamic features"
+  - **Evidence pointer** Figure 5
+  - **Issue** The ITC data are described as showing "similar binding affinities" for the three PSel variants, but the Kd values are not explicitly stated in the text.
+  - **Required correction** Report the Kd values and their errors in the text or in a table.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability
+  - **Issue** The authors state that MD simulation trajectories are available upon request, but do not provide a repository or accession number.
+  - **Required correction** Deposit the simulation trajectories and analysis scripts in a public repository (e.g., Zenodo, Figshare) and provide the accession numbers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (minor groove comparison), R1-M2 (MD simulation methodology and convergence), R1-M3 (statistical support for kinetics-activity correlation).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in reporting the first crystal structures of p52 homodimers bound to G/C-centric κB DNA and in proposing a link between DNA conformational dynamics, binding kinetics, and transcriptional outcome. However, the concept that DNA sequence can influence protein-DNA binding kinetics and function is not new, and the novelty lies primarily in the specific system studied.
+  - **Scientific importance** The NF-κB family is of broad biological and medical importance, and understanding how different κB sites are differentially regulated is a significant question. The work has the potential to influence thinking in the field, but the current evidence does not fully establish the mechanistic model proposed.
+  - **Interdisciplinary readership** The work will be of interest to structural biologists, biophysicists, and molecular biologists studying transcription regulation. The use of multiple techniques (crystallography, MD, ITC, BLI) broadens the appeal.
+  - **Technical soundness** The crystallographic work appears to be of reasonable quality, but the MD simulation methodology has weaknesses (see R1-M2). The biophysical assays are standard, but the statistical analysis is incomplete (see R1-M3).
+  - **Readability for nonspecialists** The manuscript is generally well-written and the figures are clear. However, some sections, particularly the MD simulation analysis, may be difficult for nonspecialists to follow. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a substantial body of data. However, the central claims regarding the structural novelty and the mechanistic link between kinetics and transcription are not fully established from the current evidence. The authors should address the concerns raised above, particularly the rigor of the minor groove comparison, the MD simulation methodology, and the statistical support for the kinetics-activity correlation.
+
+## Risk / unsupported claims
+- The claim that the widened minor groove is "nearly two-fold" compared to all other NF-κB-DNA structures is not rigorously supported by a quantitative comparison.
+- The claim that the p52 homodimer induces the "least amount of DNA conformational changes" when bound to the G/C-centric DNA is based on MD simulations that may not be converged and that used different force fields for free and bound states.
+- The claim that binding kinetics, rather than affinity, correlates with transcriptional activity is based on a small number of sequences and lacks statistical analysis.
+- The mechanistic model proposed in the Discussion, linking DNA conformational dynamics to cofactor recruitment and transcriptional outcome, is speculative and not directly tested.
+- The role of the GRR region in modulating DNA conformation is suggested but not experimentally addressed, as no electron density was observed for this region.

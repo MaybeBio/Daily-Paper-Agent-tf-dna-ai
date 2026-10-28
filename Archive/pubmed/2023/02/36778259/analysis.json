@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36778259",
+  "title": "Structure primed embedding on the transcription factor manifold enables transparent model architectures for gene regulatory network and latent activity inference.",
+  "authors": "Tjarnberg, Andreas; Beheler-Amass, Maggie; Jackson, Christopher A; Christiaen, Lionel A; Gresham, David; Bonneau, Richard",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-02-14",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于自编码器的深度学习框架SupirFactor，通过结构先验嵌入转录因子流形来推断基因调控网络和潜在转录因子活性，虽涉及TF-DNA结合但未聚焦三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "The modeling of gene regulatory networks (GRNs) is limited due to a lack of direct measurements of regulatory features in genome-wide screens. Most GRN inference methods are therefore forced to model relationships between regulatory genes and their targets with expression as a proxy for the upstream independent features, complicating validation and predictions produced by modeling frameworks. Separating covariance and regulatory influence requires aggregation of independent and complementary sets of evidence, such as transcription factor (TF) binding and target gene expression. However, the complete regulatory state of the system, e.g. TF activity (TFA) is unknown due to a lack of experimental feasibility, making regulatory relations difficult to infer. Some methods attempt to account for this by modeling TFA as a latent feature, but these models often use linear frameworks that are unable to account for non-linearities such as saturation, TF-TF interactions, and other higher order features. Deep learning frameworks may offer a solution, as they are capable of modeling complex interactions and capturing higher-order latent features. However, these methods often discard central concepts in biological systems modeling, such as sparsity and latent feature interpretability, in favor of increased model complexity. We propose a novel deep learning autoencoder-based framework, StrUcture Primed Inference of Regulation using latent Factor ACTivity (SupirFactor), that scales to single cell genomic data and maintains interpretability to perform GRN inference and estimate TFA as a latent feature. We demonstrate that SupirFactor outperforms current leading GRN inference methods, predicts biologically relevant TFA and elucidates functional regulatory pathways through aggregation of TFs.",
+  "abstract_zh": "基因调控网络（GRN）的建模受限于全基因组筛查中调控特征直接测量的缺乏。因此，大多数GRN推断方法被迫以表达作为上游独立特征的代理，来模拟调控基因与其靶标之间的关系，这使得建模框架产生的验证和预测变得复杂。分离协方差与调控影响需要聚合独立且互补的证据集，例如转录因子（TF）结合和靶基因表达。然而，系统的完整调控状态，如TF活性（TFA），因实验可行性不足而未知，使得调控关系难以推断。一些方法尝试通过将TFA建模为潜在特征来解决这一问题，但这些模型通常采用线性框架，无法解释非线性特征，如饱和效应、TF-TF相互作用及其他高阶特征。深度学习框架可能提供解决方案，因为它们能够建模复杂交互并捕捉高阶潜在特征。然而，这些方法往往为了增加模型复杂度而舍弃生物系统建模中的核心概念，如稀疏性和潜在特征可解释性。我们提出了一种新颖的基于深度学习自编码器的框架，即结构引导的潜在因子活性调控推断（SupirFactor），该框架可扩展至单细胞基因组数据，并保持可解释性以进行GRN推断和将TFA估计为潜在特征。我们证明，SupirFactor优于当前领先的GRN推断方法，能预测生物学相关的TFA，并通过TF聚合阐明功能性调控通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36778259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36778259/",
+  "paper_page_path": "papers/pubmed/36778259/index.html"
+}

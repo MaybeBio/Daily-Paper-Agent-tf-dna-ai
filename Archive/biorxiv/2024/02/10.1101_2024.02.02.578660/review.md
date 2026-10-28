@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific validity, technical soundness, and conceptual advance of the claims as presented. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors apply single-molecule footprinting (SMF) to engineered enhancer/promoter reporters in human K562 cells to measure simultaneous TF and nucleosome occupancy. They report that TF activation domains enhance binding via BAF-dependent nucleosome destabilization, that average TF occupancy linearly drives promoter activation, and that thermodynamic and kinetic models quantitatively predict binding and expression.
+- **Visible evidence base** Main text figures 1-5, supplementary figures S1-S7, supplementary tables S1-S6, methods sections for SMF, modeling, ATAC-seq, RNA-seq, ChIP-seq, EMSA, and cell culture.
+- **Missing materials affecting confidence** No raw sequencing data or processed data files were provided for independent assessment. No code outputs or model fit diagnostics beyond those described in text. No source data files for individual figure panels. No information on replicate numbers for several key experiments beyond "duplicate" or "triplicate" statements in methods.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically impressive application of single-molecule footprinting to dissect the chain from TF binding to transcription. The central claims, that activation domains promote binding via BAF-dependent nucleosome destabilization and that average occupancy linearly predicts promoter activation, are well supported by the data shown. The modeling framework is a valuable contribution. However, several technical concerns, particularly around the single-molecule state calling model, the interpretation of footprint widths, and the generality of the linear activation claim, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and quantitative biology. The work provides a rare direct measurement of molecular occupancy states and a modeling framework that connects sequence to binding to expression. It will be of interest to those studying enhancer logic, TF cooperativity, and the role of chromatin remodelers.
+- **Major strengths** 1. Direct single-molecule measurement of TF and nucleosome occupancy at engineered loci, providing a level of detail not accessible by ensemble methods. 2. Systematic variation of TF binding site number and TF identity, enabling quantitative dissection of binding and activation. 3. Development of thermodynamic and kinetic models that are tested against data, not just fitted post hoc. 4. The separation of TF potency from occupancy is conceptually important and well demonstrated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the state calling model
+  - **Claim pointer** The authors claim that their probabilistic model identifies the most likely configuration of TF binding and nucleosome positions given the methylation signal, and that this is reliable enough to support quantitative conclusions about occupancy distributions.
+  - **Evidence pointer** Methods "Single-molecule state calling model", Figure 1D, Figure S2
+  - **Concern** The state calling model enumerates all possible states as the Cartesian product of TF occupancy and nucleosome positions, but the details of how nucleosome positions are parameterized, how many positions are considered, and how the model handles partial overlaps or ambiguous methylation patterns are not fully described. The model assumes three methylation probabilities (accessible, TF-protected, nucleosome-protected) but the priors for these probabilities and how they are estimated are not stated. The validation of the model, shown in Figure S2, appears to be on simulated data, but the simulation parameters and whether they match the experimental conditions are not described. Without a clear demonstration that the model can accurately recover known states from realistic methylation patterns, the quantitative claims about occupancy distributions are not fully supported.
+  - **Why it matters** All subsequent conclusions about TF occupancy, cooperativity, and nucleosome destabilization depend on the accuracy of the state calling. If the model systematically misassigns states, the quantitative conclusions could be biased.
+  - **Resolution test** Provide a detailed description of the model, including priors, parameter estimation, and a thorough validation on simulated data with known ground truth, including scenarios with partial methylation, overlapping footprints, and varying methylation efficiencies. Show confusion matrices and error rates as a function of coverage and methylation probability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of footprint width as TF identity
+  - **Claim pointer** The authors interpret wider footprints at ISREs after IFN stimulation as ISGF3 trimer binding, and narrow footprints as IRF9 binding.
+  - **Evidence pointer** Figure 4C-D, Figure S6C
+  - **Concern** The interpretation that footprint width distinguishes IRF9 from ISGF3 is based on the expectation that the trimer is larger and protects more DNA. However, footprint width in SMF depends on the positions of GpC dinucleotides, which are engineered in the reporter. The resolution of the assay is limited by the spacing of GpCs, and it is not clear that the GpC spacing in the ISRE reporters is sufficient to distinguish a narrow from a wide footprint reliably. The authors do not provide a calibration or control showing that footprint width can reliably distinguish two known protein complexes of different sizes on the same DNA sequence.
+  - **Why it matters** The distinction between IRF9 and ISGF3 is central to the claim that pre-bound IRF9 is replaced by ISGF3 upon stimulation. If footprint width is not a reliable proxy for complex identity, this conclusion is weakened.
+  - **Resolution test** Provide a control experiment where a known small and large protein complex are bound to the same sequence and show that footprint width reliably distinguishes them. Alternatively, use a mutation that disrupts ISGF3 formation but not IRF9 binding and show that the wide footprint disappears.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generality of the linear activation claim
+  - **Claim pointer** The authors claim that average TF occupancy linearly contributes to promoter activation rates, with an invariable slope across backgrounds.
+  - **Evidence pointer** Figure 3D, Figure 3J
+  - **Concern** The linear relationship is demonstrated for two TFs (rTetR-VP48 and ISGF3) in one cell type (K562) with one promoter (minCMV). The claim of generality is not supported by the data. The slope may depend on promoter sequence, chromatin context, or TF identity. The authors do not test whether the relationship holds for other promoters or TFs.
+  - **Why it matters** The claim of a universal linear relationship is strong and would have implications for modeling gene regulation. If it is specific to this system, the conclusion should be tempered.
+  - **Resolution test** Test additional TFs with different activation domains, or use a different minimal promoter, and show that the linear relationship and slope are preserved. Alternatively, revise the claim to be specific to the systems tested.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model identifiability and parameter uncertainty
+  - **Claim pointer** The authors fit thermodynamic and kinetic models and report parameter values, including TF binding energies, nucleosome energies, and rate constants.
+  - **Evidence pointer** Methods "Partition function model", "Kinetic model", Figure 2H, Figure 5E-F
+  - **Concern** The models have several parameters, and it is not clear whether all parameters are identifiable from the data. For example, the nucleosome destabilization energy and the nucleosome energy may be correlated. The authors do not report confidence intervals or identifiability analysis for the fitted parameters. The kinetic model has many parameters (kon, koff, ktrs, kdecay,rna, ktrl, kdecay,prot), and it is unclear if the data are sufficient to constrain all of them.
+  - **Why it matters** If parameters are not identifiable, the reported values and the conclusions drawn from them (e.g., that ISGF3 has a faster on-rate) may not be reliable.
+  - **Resolution test** Perform a profile likelihood analysis or bootstrap to report confidence intervals for all fitted parameters. Show that the key conclusions are robust to parameter uncertainty.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control for methylation efficiency and GpC context
+  - **Claim pointer** The authors use GpC methylation as a readout of accessibility and claim that differences in methylation reflect differences in protein occupancy.
+  - **Evidence pointer** Methods "Single-molecule state calling model", Figure S1C-E
+  - **Concern** The efficiency of methylation by M.CviPI can vary by sequence context and by local chromatin environment. The authors show that methylation and conversion are efficient, but they do not show that the methylation rate is uniform across all GpC positions in the reporter. If some GpCs are methylated more efficiently than others, this could bias the state calling and the interpretation of occupancy.
+  - **Why it matters** Non-uniform methylation efficiency could create apparent footprints or mask real ones, affecting all quantitative conclusions.
+  - **Resolution test** Provide a control where naked DNA is methylated in vitro and show that methylation is uniform across all GpC positions in the reporter. Alternatively, use a different methyltransferase or a different readout to confirm the occupancy patterns.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure labels
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The y-axis label is not specified. It is unclear whether the data show mean fluorescence intensity, mRNA levels, or another metric.
+  - **Required correction** Add a clear y-axis label and define all abbreviations in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Multiple figures
+  - **Evidence pointer** Figures 2A-B, 3A-B, 4B
+  - **Issue** The number of biological replicates and the statistical test used for significance are not consistently reported in figure legends.
+  - **Required correction** Add replicate numbers and statistical details to all figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model description completeness
+  - **Affected element** Methods "Partition function model"
+  - **Evidence pointer** Methods "Partition function model"
+  - **Issue** The equation for the partition function is not explicitly written out. The text describes it verbally but does not show the mathematical form.
+  - **Required correction** Include the explicit equation for the partition function and define all variables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability section
+  - **Issue** The statement says data are available in the SRA, but no accession number is provided.
+  - **Required correction** Provide the SRA accession number for all sequencing datasets.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarification of "activation domain" claim
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Figure 2J-K
+  - **Issue** The claim that "activation domains enhance a TF's capacity to compete with nucleosomes" is based on comparing rTetR-VP48 to rTetR alone. However, rTetR alone may have different DNA binding affinity than rTetR-VP48. The authors should clarify whether the difference is due to the activation domain or to a difference in intrinsic DNA binding.
+  - **Required correction** Add a control where rTetR is fused to a non-activating domain, or measure DNA binding affinity of both proteins in vitro, to support the claim.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure 5K clarity
+  - **Affected element** Figure 5K
+  - **Evidence pointer** Figure 5K
+  - **Issue** The timecourse for ISGF3 shows a decrease in wide footprints after 6 hours, but it is unclear whether this is due to downregulation of the IFN response or to cell death or other factors.
+  - **Required correction** Add a control for cell viability or a marker of IFN response over the timecourse to support the interpretation.
+
+## Risk / unsupported claims
+- The claim that "activation domains enhance a TF's capacity to compete with nucleosomes for binding to DNA in a BAF-dependent manner" is supported for rTetR-VP48 but the generality to other activation domains is not demonstrated.
+- The claim that "average TF occupancy linearly contributes to promoter activation rates" is supported for the two systems tested but is presented as a general principle without sufficient evidence.
+- The claim that "ISREs are the critical sequence elements for driving and decoupling accessibility and expression at ISGs" is supported by the scrambling experiments but only for the three genes tested.
+- The interpretation of footprint width as distinguishing IRF9 from ISGF3 is plausible but not rigorously validated.
+- The statement that "this work provides a template for quantitative dissection of distinct contributors to gene activation" is an aspiration, not a demonstrated result.

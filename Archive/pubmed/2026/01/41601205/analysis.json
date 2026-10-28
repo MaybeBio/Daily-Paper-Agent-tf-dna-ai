@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41601205",
+  "title": "How negative sampling shapes the performance of transcription factor binding site prediction models.",
+  "authors": "Tourne, Natan; De Waele, Gaetan; Vermeirssen, Vanessa; Waegeman, Willem",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统评估不同负采样策略对深度学习TFBS预测模型性能的影响，核心聚焦TF-DNA结合位点预测，方法上属于AI建模，虽未涉及三维互作机制，但对TFBS预测建模有直接方法学启发。",
+  "abstract": "MOTIVATION: Transcription factors (TFs) are key players in gene regulation and development, where they activate and repress gene expression through DNA binding. Predicting transcription factor binding sites (TFBSs) has long been an active area of research, with many deep learning methods developed to tackle this problem. These models are often trained on TF ChIP-seq data, which is generally seen as only providing positive samples. The choice of datasets and negative sampling techniques is a critical yet often overlooked aspect of this work. RESULTS: In this study, we investigate the impact of different negative sampling techniques on TFBS prediction performance. We create high-quality test datasets based on ChIP-seq and ATAC-seq data, where true negatives can be identified as positions that are accessible but not bound by the TF in question. We then train models using various negative sampling techniques, including genomic sampling, shuffling, dinucleotide shuffling, neighborhood sampling, and cell line specific sampling, simulating cases where matching ATAC-seq data is not available. Our results show that, generally, metrics calculated on training datasets give inflated performance scores. Of the tested techniques, genomic sampling of negatives based on similarity to the positives performed by far the best, although still not reaching the performance of baseline models trained on high-quality datasets. Models trained on dinucleotide shuffled negatives performed poorly, despite being a common practice in the field. Our findings highlight the importance of carefully selecting negative sampling techniques for TFBS prediction, as they can significantly impact model performance and the interpretation of results. AVAILABILITY AND IMPLEMENTATION: The code used in this study is available at https://github.com/NatanTourne/TFBS-negatives (DOI: 10.5281/zenodo.18007567).",
+  "abstract_zh": "动机：转录因子（TFs）是基因调控和发育中的关键角色，它们通过DNA结合激活和抑制基因表达。预测转录因子结合位点（TFBSs）长期以来一直是活跃的研究领域，许多深度学习方法已被开发来解决此问题。这些模型通常基于TF ChIP-seq数据训练，这些数据通常被视为仅提供正样本。数据集的选择和负采样技术是这项工作中的一个关键但常被忽视的方面。结果：在本研究中，我们探讨了不同负采样技术对TFBS预测性能的影响。我们基于ChIP-seq和ATAC-seq数据创建了高质量测试数据集，其中真正的负样本可以被识别为可访问但未被相关TF结合的位置。然后，我们使用各种负采样技术训练模型，包括基因组采样、洗牌、二核苷酸洗牌、邻域采样和细胞系特异性采样，模拟匹配ATAC-seq数据不可用的情况。我们的结果表明，通常，在训练数据集上计算的指标会给出膨胀的性能分数。在测试的技术中，基于与正样本相似性的基因组负采样表现最佳，尽管仍未达到基于高质量数据集训练的基线模型的性能。基于二核苷酸洗牌负样本训练的模型表现不佳，尽管这是该领域的常见做法。我们的发现强调了为TFBS预测仔细选择负采样技术的重要性，因为它们可能显著影响模型性能和结果解释。可用性和实现：本研究中使用的代码可在https://github.com/NatanTourne/TFBS-negatives（DOI: 10.5281/zenodo.18007567）获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41601205/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41601205/",
+  "paper_page_path": "papers/pubmed/41601205/index.html"
+}

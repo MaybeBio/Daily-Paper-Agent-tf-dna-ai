@@ -1,0 +1,407 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.26.546638",
+  "title": "Computational investigation of <i>cis</i> -1,4-polyisoprene binding to the latex-clearing protein LcpK30",
+  "doi": "10.1101/2023.06.26.546638",
+  "abstract": "Latex clearing proteins (Lcps) catalyze the oxidative cleavage of the C=C bonds in cis -1,4-polyisoprene (natural rubber), producing oligomeric compounds that can be repurposed to other materials. The active catalytic site of Lcps is buried inside the protein structure, thus raising the question of how the large hydrophobic rubber chains can access the catalytic center. To improve our understanding of hydrophobic polymeric substrate binding to Lcps and subsequent catalysis, we investigated the interaction of a substrate model containing ten carbon-carbon double bonds with the structurally characterized LcpK30, using multiple computational tools. Prediction of the putative tunnels and cavities in the LcpK30 structure, using CAVER-Pymol plugin 3.0.3, fpocket and Molecular Dynamic (MD) simulations provided valuable insights on how substrate enters from the surface to the buried active site. Two dominant tunnels were discovered that provided feasible routes for substrate binding, and the presence of two hydrophobic pockets was predicted near the heme cofactor. The larger of these pockets is likely to accommodate the substrate and to determine the size distribution of the oligomers. Protein-ligand docking was carried out using GOLD software to predict the conformations and interactions of the substrate within the protein active site. Deeper insight into the protein-substrate interactions, including close-contacts, binding energies and potential cleavage sites in the cis -1,4-polyisoprene, were obtained from MD simulations. Our findings provide further justification that the protein-substrate complexation in LcpK30 is mainly driven by the hydrophobic interactions accompanied by mutual conformational changes of both molecules. Two potential binding modes were identified, with the substrate in either extended or folded conformations. Whilst binding in the extended conformation was most favourable, the folded conformation suggested a preference for cleavage of a central double bond, leading to a preference for oligomers with 5 to 6 C=C bonds, as shown by experimental data. The results provide insight into further enzyme engineering studies to improve catalytic activity and diversify the substrate and product scope of Lcps. Author summary Rubber materials are very important in our everyday life, but also lead to a high amount of rubber waste for which there is no sustainable solution. The enzymatic degradation of diene rubbers is an attractive option to revalorise these materials once they reach end of life. Latex clearing proteins (Lcps) have been shown to degrade polyisoprene rubber, however rates of degradation are low and the product is a mixture of oligomers. Enzyme engineering is necessary to develop a useful process leading to valuable materials, but it requires a thorough understanding of how substrate and protein interact. This is difficult to achieve when the substrates are large molecules with conformational flexibility. Here, we employed multiple computational tools to understand the interaction between LcpK30 and its flexible polyisoprene substrate. Our results show that the substrate can access the active site through two hydrophobic tunnels, which can also serve as product exit pathways. The substrate binds in a hydrophobic pocket near the heme, which determines the size of the oligomeric products. We identified two potential binding modes for the substrate and characterized the hydrophobic contacts responsible for protein-substrate complexation in LcpK30. These results shed light on future enzyme engineering investigations to enhance catalytic activity and broaden the substrate and product range of Lcps.",
+  "authors": [
+    "Aziana Abu Hassan",
+    "Marko Hanževački",
+    "Anca Pordea"
+  ],
+  "published_date": "2023-06-29",
+  "updated_date": "2023-06-29T16:10:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.26.546638",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.26.546638.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T09:25:38Z",
+        "timestamp": 1768555538065,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 45,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Latex clearing proteins (Lcps) catalyze the oxidative cleavage of the C=C bonds in\n                  <jats:italic>cis</jats:italic>\n                  -1,4-polyisoprene (natural rubber), producing oligomeric compounds that can be repurposed to other materials. The active catalytic site of Lcps is buried inside the protein structure, thus raising the question of how the large hydrophobic rubber chains can access the catalytic center. To improve our understanding of hydrophobic polymeric substrate binding to Lcps and subsequent catalysis, we investigated the interaction of a substrate model containing ten carbon-carbon double bonds with the structurally characterized LcpK30, using multiple computational tools. Prediction of the putative tunnels and cavities in the LcpK30 structure, using CAVER-Pymol plugin 3.0.3, fpocket and Molecular Dynamic (MD) simulations provided valuable insights on how substrate enters from the surface to the buried active site. Two dominant tunnels were discovered that provided feasible routes for substrate binding, and the presence of two hydrophobic pockets was predicted near the heme cofactor. The larger of these pockets is likely to accommodate the substrate and to determine the size distribution of the oligomers. Protein-ligand docking was carried out using GOLD software to predict the conformations and interactions of the substrate within the protein active site. Deeper insight into the protein-substrate interactions, including close-contacts, binding energies and potential cleavage sites in the\n                  <jats:italic>cis</jats:italic>\n                  -1,4-polyisoprene, were obtained from MD simulations. Our findings provide further justification that the protein-substrate complexation in LcpK30 is mainly driven by the hydrophobic interactions accompanied by mutual conformational changes of both molecules. Two potential binding modes were identified, with the substrate in either extended or folded conformations. Whilst binding in the extended conformation was most favourable, the folded conformation suggested a preference for cleavage of a central double bond, leading to a preference for oligomers with 5 to 6 C=C bonds, as shown by experimental data. The results provide insight into further enzyme engineering studies to improve catalytic activity and diversify the substrate and product scope of Lcps.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Rubber materials are very important in our everyday life, but also lead to a high amount of rubber waste for which there is no sustainable solution. The enzymatic degradation of diene rubbers is an attractive option to revalorise these materials once they reach end of life. Latex clearing proteins (Lcps) have been shown to degrade polyisoprene rubber, however rates of degradation are low and the product is a mixture of oligomers. Enzyme engineering is necessary to develop a useful process leading to valuable materials, but it requires a thorough understanding of how substrate and protein interact. This is difficult to achieve when the substrates are large molecules with conformational flexibility. Here, we employed multiple computational tools to understand the interaction between LcpK30 and its flexible polyisoprene substrate. Our results show that the substrate can access the active site through two hydrophobic tunnels, which can also serve as product exit pathways. The substrate binds in a hydrophobic pocket near the heme, which determines the size of the oligomeric products. We identified two potential binding modes for the substrate and characterized the hydrophobic contacts responsible for protein-substrate complexation in LcpK30. These results shed light on future enzyme engineering investigations to enhance catalytic activity and broaden the substrate and product range of Lcps.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.06.26.546638",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2023-06-29T16:10:13Z",
+        "timestamp": 1688055013000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Computational investigation of\n                  <i>cis</i>\n                  -1,4-polyisoprene binding to the latex-clearing protein LcpK30"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Aziana Abu",
+          "family": "Hassan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marko",
+          "family": "Hanževački",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8453-0743",
+          "authenticated-orcid": false,
+          "given": "Anca",
+          "family": "Pordea",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biotechadv.2020.107606"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d1gc03515k"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jendrossek D . Rubber oxygenases. Appl Microbiol Biotechnol. 2018; 125– 142.",
+          "DOI": "10.1007/s00253-018-9453-z"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/mabi.202100261"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/mic.0.000755"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.01502-14"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12866-015-0617-z"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.01271-14"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbiosc.2016.11.012"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep41926"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21769/bioprotoc.2188"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.02176-16"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.00275-15"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/btpr.2631"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.01271-14"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.inorgchem.0c00726"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-02881-1"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c9dt04065j"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002708"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-7366-8_3"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2018.05.006"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-014-9749-8"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5254/1.3547907"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-012-9551-4"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar010014p"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/febs.14418"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biotechadv.2019.04.008"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13068-019-1399-6"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14529/mmp170308"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty386"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr550"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0897"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks375"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab294"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00591"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00674"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.39",
+          "unstructured": "Gaussian 16, Revision C.01, M. J. Frisch , G. W. Trucks , H. B. Schlegel , G. E. Scuseria , M. A. Robb , J. R. Cheeseman , G. Scalmani , V. Barone , G. A. Petersson , H. Nakatsuji , X. Li , M. Caricato , A. V. Marenich , J. Bloino , B. G. Janesko , R. Gomperts , B. Mennu and DJF. No Title. Gaussian, Inc, Wallingford CT. 2016."
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20035"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2005.12.005"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500918t"
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.43",
+          "unstructured": "D.A. Case , K. Belfon , I.Y. Ben-Shalom , S.R. Brozell , D.S. Cerutti , T.E. Cheatham, III VWDC, T.A. Darden , R.E. Duke , G. Giambasu , M.K. Gilson , H. Gohlke , A.W. Goetz , R Harris , S. Izadi , S.A. Izmailov , K. Kasavajhala , A. Kovalenko , R. Krasny , T. Kurtzman , T.S. Lee , S. LeGrand , P. Li , C. Lin JL , T. Luchko , R. Luo , V. Man , K.M. Merz , Y. Miao , O. Mikhailovskii , G. Monard , H. Nguyen , A. Onufriev F , Pan, S. Pantano , R. Qi , D.R. Roe , A. Roitberg , C. Sagui , S. Schott-Verdugo , J. Shen , C.L. Simmerling NR , Skrynnikov, J. Smith , J. Swails , R.C. Walker , J. Wang , L. Wilson , R.M. Wolf , X. Wu , Y. Xiong YX , Kollman DMY and PAK. AMBER 2020. University of California, San Francisco. 2020."
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.44",
+          "unstructured": "The PyMOL Molecular Graphics System, Version 2.5.4, Schrödinger LLC. No Title."
+        },
+        {
+          "key": "2023070321151316000_2023.06.26.546638v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.26.546638",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:51:12Z",
+        "timestamp": 1768452672000
+      },
+      "score": 95.39223,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.26.546638"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 45,
+      "URL": "https://doi.org/10.1101/2023.06.26.546638",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "40636126",
+    "doi": "10.3389/fimmu.2025.1619186",
+    "title": "Machine learning-based integration of DCE-MRI radiomics for STAT3 expression prediction and survival stratification in breast cancer."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To explore the association between signal transducer and activator of transcription 3 (STAT3) expression, tumor immune microenvironment, and overall survival (OS) in breast cancer, and to develop a non-invasive radiomics model for early risk stratification using dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI). METHODS: Data from 1,008 patients with breast cancer in The Cancer Genome Atlas were analyzed to evaluate the prognostic significance of STAT3 expression using Kaplan-Meier survival analysis and Cox regression models. Functional enrichment and immune cell infiltration analyses were performed to assess tumor immune microenvironment characteristics. Additionally, DCE-MRI data from 101 patients in The Cancer Imaging Archive were used to extract radiomic features from early- and delayed-phase images. A STAT3 predictive model was developed using six machine learning algorithms. Model performance was assessed using receiver operating characteristic (ROC) and related diagnostic statistical indicators. RESULTS: Low STAT3 expression was significantly associated with poorer OS (hazard ratio [HR] = 1.927, p < 0.001). GSEA revealed that high STAT3 expression enhanced epithelial apoptosis and TNF-alpha/NFkappaB signaling while suppressing pro-tumorigenic pathways, which was associated with an immunosuppressive microenvironment, whereas low STAT3 correlated with T-cell exhaustion. DIA confirmed elevated STAT3 in tumor versus normal tissue (p < 0.05). The logistic regression-derived radiomics model for STAT3 expression prediction exhibited consistent discriminative performance, with area under curve (AUC) values of 0.861 (95% CI: 0.749 - 0.947) in the development cohort and 0.742 (95% CI: 0.588 - 0.884) in the validation cohort. High radiomics-derived scores were positively correlated with elevated STAT3 expression, longer OS (p = 0.034), and immune-related gene signatures indicative of a heightened immune response. CONCLUSION: Radiomics analysis of DCE-MRI images in this study offered a non-invasive method for predicting STAT3 expression and characterization of the tumor immune microenvironment. This approach can offer valuable insights into breast cancer prognosis and support the development of personalized therapies.",
+    "keywords": [
+      "STAT3",
+      "breast cancer",
+      "immune microenvironment",
+      "machine learning",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*STAT3 Transcription Factor/genetics/metabolism",
+      "Female",
+      "*Breast Neoplasms/mortality/diagnostic imaging/metabolism/genetics/immunology",
+      "*Magnetic Resonance Imaging/methods",
+      "*Machine Learning",
+      "Middle Aged",
+      "Tumor Microenvironment/immunology",
+      "Prognosis",
+      "Contrast Media",
+      "Adult",
+      "Biomarkers, Tumor",
+      "Aged",
+      "Gene Expression Regulation, Neoplastic",
+      "Radiomics",
+      "Dynamic Contrast Enhanced Magnetic Resonance Imaging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Dong",
+        "Zhang, Cheng-Yan",
+        "Wang, Ya-Fei",
+        "Liu, Shuang",
+        "Wu, Xiong-Zhi"
+      ],
+      "short_names": [
+        "Pan D",
+        "Zhang CY",
+        "Wang YF",
+        "Liu S",
+        "Wu XZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+        "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China.",
+        "Department of Gastroenterology, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, China.",
+        "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+        "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China.",
+        "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+        "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Dong",
+        "short_name": "Pan D",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+          "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+          "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cheng-Yan",
+        "short_name": "Zhang CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, China.",
+          "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ya-Fei",
+        "short_name": "Wang YF",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuang",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+          "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+          "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiong-Zhi",
+        "short_name": "Wu XZ",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin NanKai Hospital, Tianjin Medical University, Tianjin, China.",
+          "Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin, China.",
+          "Institute of Integrative Medicine for Acute Abdominal Diseases, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 06:27",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42404859",
+      "42136839"
+    ],
+    "refs": [
+      "39391472",
+      "39317187",
+      "38823558",
+      "38184165",
+      "38107057",
+      "38101773",
+      "38039967",
+      "38007511",
+      "38001690",
+      "37801493",
+      "37480115",
+      "37414827",
+      "37207163",
+      "36969073",
+      "36688918",
+      "35270020",
+      "34429133",
+      "34335938",
+      "33599169",
+      "33538338",
+      "33464404",
+      "33046620",
+      "32972405",
+      "32444850",
+      "32371013",
+      "32144248",
+      "32111215",
+      "31739125",
+      "31480382",
+      "31257464",
+      "31186087",
+      "31076105",
+      "31074592",
+      "31061481",
+      "30976550",
+      "30911988",
+      "30610562",
+      "30154439",
+      "29875329",
+      "28439654",
+      "28213049",
+      "28011625",
+      "27938379",
+      "26907764",
+      "26599106",
+      "26339424",
+      "25393615",
+      "24791905",
+      "24388873",
+      "24071849",
+      "23917950",
+      "23715323",
+      "22045868",
+      "16293640"
+    ],
+    "similar": [
+      "40636126",
+      "40395152",
+      "41135313",
+      "34233259",
+      "41219899",
+      "40165301",
+      "38537607",
+      "38745321",
+      "39431304",
+      "39107190",
+      "38742356",
+      "40676103",
+      "35046937",
+      "40899931",
+      "40781753",
+      "38627678",
+      "30773770",
+      "37855421",
+      "33827490",
+      "33289845",
+      "38964985",
+      "39151526",
+      "40175203",
+      "41120945",
+      "40596969",
+      "39794899",
+      "39604872",
+      "41331644",
+      "39243024",
+      "31794406",
+      "39631431",
+      "40460947",
+      "36661350",
+      "40329236",
+      "30171822",
+      "38308230",
+      "38088478",
+      "38287356",
+      "38853190",
+      "34422088",
+      "39773380",
+      "40792413",
+      "40032983",
+      "40496857",
+      "40702236",
+      "39272199",
+      "39256086",
+      "41291728",
+      "37916918",
+      "37915093",
+      "40170181",
+      "30660472",
+      "39413232",
+      "40391963",
+      "39953153",
+      "30358693",
+      "40155892",
+      "41007196",
+      "38092588",
+      "38490840",
+      "40814040",
+      "41088266",
+      "38749758",
+      "40552903",
+      "40091561",
+      "38896246",
+      "41083477",
+      "40221527",
+      "38875748",
+      "40065426",
+      "38824087",
+      "39698668",
+      "39137488",
+      "41289056",
+      "38308028",
+      "41291491",
+      "37658888",
+      "40025718",
+      "40891595",
+      "39946952",
+      "37925343",
+      "40289183",
+      "38726785",
+      "40662309",
+      "40473720",
+      "39026540",
+      "39625963",
+      "40958270",
+      "40597786",
+      "34430998",
+      "40413149",
+      "41215868",
+      "39624821",
+      "40360135",
+      "34226990",
+      "41218387",
+      "35636571",
+      "31623683",
+      "39427545",
+      "38896238"
+    ],
+    "review": [
+      "40636126",
+      "38824087",
+      "37925343"
+    ],
+    "pmc": [
+      "12237646"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40636126/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1619186",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

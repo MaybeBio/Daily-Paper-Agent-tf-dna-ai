@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "35559665",
+    "doi": "10.1126/sciimmunol.abl6543",
+    "title": "BMP signaling in the intestinal epithelium drives a critical feedback loop to restrain IL-13-driven tuft cell hyperplasia."
+  },
+  "content": {
+    "abstract": "The intestinal tract is a common site for various types of infections including viruses, bacteria, and helminths, each requiring specific modes of immune defense. The intestinal epithelium has a pivotal role in both immune initiation and effector stages, which are coordinated by lymphocyte cytokines such as IFNgamma, IL-13, and IL-22. Here, we studied intestinal epithelial immune responses using organoid image analysis based on a convolutional neural network, transcriptomic analysis, and in vivo infection models. We found that IL-13 and IL-22 both induce genes associated with goblet cells, but the resulting goblet cell phenotypes are dichotomous. Moreover, only IL-13-driven goblet cells are associated with classical NOTCH signaling. We further showed that IL-13 induces the bone morphogenetic protein (BMP) pathway, which acts in a negative feedback loop on immune type 2-driven tuft cell hyperplasia. This is associated with inhibiting Sox4 expression to putatively limit the tuft cell progenitor population. Blocking ALK2, a BMP receptor, with the inhibitor dorsomorphin homolog 1 (DMH1) interrupted the feedback loop, resulting in greater tuft cell numbers both in vitro and in vivo after infection with Nippostrongylus brasiliensis. Together, this investigation of cytokine effector responses revealed an unexpected and critical role for the BMP pathway in regulating type 2 immunity, which can be exploited to tailor epithelial immune responses.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Bone Morphogenetic Proteins/metabolism",
+      "Feedback",
+      "Humans",
+      "*Hyperplasia/immunology",
+      "*Interleukin-13/immunology",
+      "*Intestinal Mucosa",
+      "SOXC Transcription Factors/metabolism",
+      "Strongylida Infections"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lindholm, Havard T",
+        "Parmar, Naveen",
+        "Drurey, Claire",
+        "Campillo Poveda, Marta",
+        "Vornewald, Pia M",
+        "Ostrop, Jenny",
+        "Diez-Sanchez, Alberto",
+        "Maizels, Rick M",
+        "Oudhoff, Menno J"
+      ],
+      "short_names": [
+        "Lindholm HT",
+        "Parmar N",
+        "Drurey C",
+        "Campillo Poveda M",
+        "Vornewald PM",
+        "Ostrop J",
+        "Diez-Sanchez A",
+        "Maizels RM",
+        "Oudhoff MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4403-4387",
+        "ORCID: 0000-0002-7535-8846",
+        "ORCID: 0000-0002-6001-2527",
+        "ORCID: 0000-0002-2561-5429",
+        "ORCID: 0000-0003-0810-1538",
+        "ORCID: 0000-0003-2752-8377",
+        "ORCID: 0000-0001-5146-3089",
+        "ORCID: 0000-0002-1180-8975"
+      ],
+      "affiliations": [
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway.",
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway.",
+        "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK.",
+        "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK.",
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway.",
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway.",
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway.",
+        "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK.",
+        "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lindholm, Håvard T",
+        "short_name": "Lindholm HT",
+        "identifiers": [
+          "0000-0003-4403-4387"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Parmar, Naveen",
+        "short_name": "Parmar N",
+        "identifiers": [
+          "0000-0002-7535-8846"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Drurey, Claire",
+        "short_name": "Drurey C",
+        "identifiers": [
+          "0000-0002-6001-2527"
+        ],
+        "affiliations": [
+          "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK."
+        ]
+      },
+      {
+        "full_name": "Campillo Poveda, Marta",
+        "short_name": "Campillo Poveda M",
+        "identifiers": [
+          "0000-0002-2561-5429"
+        ],
+        "affiliations": [
+          "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK."
+        ]
+      },
+      {
+        "full_name": "Vornewald, Pia M",
+        "short_name": "Vornewald PM",
+        "identifiers": [
+          "0000-0003-0810-1538"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Ostrop, Jenny",
+        "short_name": "Ostrop J",
+        "identifiers": [
+          "0000-0003-2752-8377"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Díez-Sanchez, Alberto",
+        "short_name": "Díez-Sanchez A",
+        "identifiers": [
+          "0000-0001-5146-3089"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Maizels, Rick M",
+        "short_name": "Maizels RM",
+        "identifiers": [],
+        "affiliations": [
+          "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunology and Inflammation, University of Glasgow, G12 8TA Glasgow, UK."
+        ]
+      },
+      {
+        "full_name": "Oudhoff, Menno J",
+        "short_name": "Oudhoff MJ",
+        "identifiers": [
+          "0000-0002-1180-8975"
+        ],
+        "affiliations": [
+          "CEMIR-Centre of Molecular Inflammation Research, Department of Clinical and Molecular Medicine, NTNU-Norwegian University of Science and Technology, 7491 Trondheim, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science immunology"
+    ],
+    "journal_abbrev": [
+      "Sci Immunol"
+    ],
+    "pub_date": "2022 May 13",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/14 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42657340",
+      "42233663",
+      "42172305",
+      "42148754",
+      "41739917",
+      "41723158",
+      "41693610",
+      "41678335",
+      "41288617",
+      "41041315",
+      "40982334",
+      "40944312",
+      "40695798",
+      "40692130",
+      "40678707",
+      "40542404",
+      "40401816",
+      "40213548",
+      "40203837",
+      "40069907",
+      "39580798",
+      "39522453",
+      "39461944",
+      "39331726",
+      "39327439",
+      "39085648",
+      "39027544",
+      "38892399",
+      "38867904",
+      "38785168",
+      "38721267",
+      "38117182",
+      "37952849",
+      "37916861",
+      "37887321",
+      "37869014",
+      "37863104",
+      "37638887",
+      "37488127",
+      "37191444",
+      "37044061",
+      "36797216",
+      "36291886",
+      "36121415"
+    ],
+    "refs": [
+      "35237268",
+      "35081371",
+      "34779829",
+      "34294718",
+      "34290377",
+      "34283207",
+      "33575256",
+      "32828819",
+      "32367051",
+      "31792136",
+      "31114038",
+      "31019299",
+      "30816423",
+      "30686779",
+      "30392957",
+      "30055169",
+      "30021144",
+      "29887373",
+      "29153838",
+      "29144463",
+      "28973871",
+      "28059064",
+      "26847546",
+      "26774180",
+      "26762460",
+      "26675736",
+      "26649819",
+      "26633831",
+      "26503053",
+      "26285214",
+      "25308311",
+      "24980747",
+      "24942678",
+      "24413398",
+      "24308972",
+      "24292484",
+      "24130494",
+      "23547776",
+      "23348417",
+      "22692129",
+      "21383077",
+      "19786015",
+      "18172556",
+      "17881565",
+      "15340149"
+    ],
+    "similar": [
+      "35559665",
+      "26762460",
+      "30055169",
+      "26675736",
+      "35288645",
+      "24130494",
+      "34779829",
+      "37256362",
+      "34290141",
+      "39085648",
+      "39798285",
+      "32160525",
+      "25336167",
+      "34283207",
+      "40069907",
+      "29735652",
+      "19342650",
+      "22044210",
+      "35385697",
+      "40356895",
+      "38744292",
+      "30021144",
+      "36116042",
+      "26847546",
+      "40378237",
+      "37038837",
+      "18373844",
+      "8206520",
+      "33636133",
+      "23284939",
+      "20974983",
+      "17222057",
+      "20962771",
+      "20737001",
+      "16689826",
+      "9512421",
+      "25557335",
+      "30530480",
+      "35081371",
+      "28802865",
+      "26215036",
+      "8316411",
+      "8552417",
+      "29855793",
+      "11070464",
+      "35235783",
+      "33788631",
+      "38414039",
+      "30819885",
+      "27173511",
+      "18832447",
+      "11070175",
+      "17367466",
+      "32636457",
+      "16081830",
+      "33740294",
+      "15361238",
+      "25819298",
+      "35534698",
+      "19587021",
+      "38779734",
+      "19272384",
+      "30349003",
+      "31924686",
+      "35302670",
+      "25774506",
+      "32828819",
+      "28684459",
+      "34853057",
+      "39261649",
+      "23733344",
+      "29887373",
+      "18716796",
+      "7502938",
+      "39327439",
+      "16116211",
+      "11786084",
+      "36430676",
+      "15621726",
+      "17700526",
+      "35237268",
+      "29714721",
+      "7544650",
+      "23248269",
+      "15213122",
+      "17678919",
+      "26377648",
+      "19544487",
+      "38283340",
+      "36675251",
+      "26507166",
+      "34484215",
+      "30518915",
+      "40257648",
+      "36889997",
+      "38744291",
+      "25404305",
+      "7909327",
+      "21303908",
+      "8473019"
+    ],
+    "review": [
+      "35559665",
+      "40356895",
+      "25557335",
+      "29855793",
+      "15361238",
+      "28684459",
+      "39327439",
+      "36430676",
+      "15621726",
+      "35237268",
+      "29714721",
+      "38283340"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciimmunol.abl6543?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/35559665.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35559665/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35559665",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=e-mtab-10455",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

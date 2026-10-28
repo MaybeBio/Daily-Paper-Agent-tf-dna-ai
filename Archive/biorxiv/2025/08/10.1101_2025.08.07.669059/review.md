@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, experimental logic, technical soundness, and support of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that satellite DNA condensation into chromocenters provides nuclear mechanostability in Drosophila spermatogonia, that this arises from a phase separation mechanism driven by D1, and that enhancing chromocenter coalescence improves resistance to mechanical stress
+- **Visible evidence base** Text descriptions of experiments, simulations, and results; figure and table references are cited but figures themselves are not provided
+- **Missing materials affecting confidence** Figures, supplementary figures, videos, and statistical details are referenced but not available; this limits verification of quantitative claims and effect sizes
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in nuclear biology with a creative combination of genetics, biophysics, and modeling. The central hypothesis, that satellite DNA condensation into chromocenters provides mechanical stability, is well motivated and the experimental design is generally logical. However, the evidence as presented in the text has several gaps that prevent full confidence in the conclusions. The in vivo data are compelling but rely heavily on a single genetic manipulation, and the mechanistic link between D1 phase separation and nuclear mechanics is inferred rather than directly demonstrated. The modeling is elegant but its connection to the biological system needs further validation. The manuscript would be strengthened by additional controls, quantitative rigor, and a clearer separation of correlation from causation.
+- **Who would be interested in the results, and why** This work will appeal to researchers in nuclear architecture, chromatin biology, mechanobiology, and genome stability. The finding that satellite DNA, often considered "junk," has a mechanical function is conceptually important and will interest evolutionary biologists studying repeat DNA. The phase separation angle will attract biophysicists and cell biologists studying condensates. The Drosophila genetics community will appreciate the new tools and alleles generated.
+- **Major strengths** The study addresses a long-standing question about the function of satellite DNA with a fresh perspective. The combination of in vivo genetics, in vitro biochemistry, and computational modeling is ambitious and mostly well executed. The use of a native tissue context (Drosophila testis) with endogenous mechanical stress is a significant advantage over cell culture systems. The generation of a panel of D1 variants and the systematic analysis of their properties is a valuable resource. The rescue experiments with HMGA1 are conceptually elegant and provide cross-species relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The authors claim that chromocenter disruption causes nuclear deformation and that this is due to loss of mechanical stability
+  - **Evidence pointer** Results section "Chromocenter disruption leads to mechanical stress-induced nuclear deformation"; Figure 1
+  - **Concern** The causal link between D1 loss, chromocenter disruption, and nuclear deformation is not fully established. The authors show correlation but do not rule out that D1 has other functions independent of chromocenter formation that could cause the phenotype. The rescue with HMGA1 is suggestive but HMGA1 may not fully recapitulate all D1 functions. The tweezer compression experiments are clever but the text does not provide sufficient detail on how compression forces are calibrated or whether the deformation is reversible.
+  - **Why it matters** Without a clear causal chain, the central claim that chromocenters provide mechanostability is weakened. If D1 loss affects other nuclear processes, the phenotype could be indirect.
+  - **Resolution test** Provide a D1 variant that disrupts chromocenter formation but retains other D1 functions, or show that chromocenter disruption through an independent mechanism (e.g., targeting a different satellite DNA binding protein) phenocopies the D1 mutant. Quantify the forces applied during compression and show that deformation is specific to mechanical stress rather than a general nuclear fragility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that D1 phase separation through complex coacervation underlies chromocenter formation and that this is required for mechanostability
+  - **Evidence pointer** Results sections "D1 phase separates in vitro through a complex coacervation-like process" and "A modular charge pattern is required for D1-dependent chromocenter formation in vivo"; Figures 4 and 5
+  - **Concern** The in vitro phase separation experiments are described but the text does not provide quantitative details on the conditions, concentrations, or controls. The claim that complex coacervation is the mechanism is inferred from charge properties but alternative mechanisms (e.g., specific protein-DNA interactions, multivalent binding) are not excluded. The in vivo relevance of the in vitro phase separation is not directly demonstrated. The correlation between in vitro phase separation and in vivo chromocenter formation is suggestive but the text does not show that phase separation is necessary or sufficient in cells.
+  - **Why it matters** The mechanistic model is a key part of the paper's novelty. If the phase separation mechanism is not rigorously established, the paper's contribution is reduced to a descriptive correlation.
+  - **Resolution test** Provide detailed phase diagrams for D1 phase separation, including salt and concentration dependence. Show that D1 variants that phase separate in vitro also form chromocenters in vivo and vice versa. Use live imaging to demonstrate that chromocenters have liquid-like properties (fusion, rapid exchange) in the relevant cell type. Test whether disrupting phase separation without affecting DNA binding abolishes chromocenter formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that enhanced chromocenter coalescence improves nuclear mechanostability
+  - **Evidence pointer** Results section "Enhanced chromocenter coalescence improves nuclear mechanostability"; Figure 6
+  - **Concern** The quantitative analysis of chromocenter number, size, and nuclear deformation is described but the text does not provide effect sizes, confidence intervals, or statistical test details. The correlation between chromocenter coalescence and mechanostability is based on a limited number of variants. The claim that D1 overexpression improves mechanostability is based on a single overexpression experiment, and the text does not address potential off-target effects of overexpression.
+  - **Why it matters** The paper's conclusions depend on quantitative comparisons across genotypes. Without rigorous statistics, the reader cannot assess the strength of the effects.
+  - **Resolution test** Provide full statistical reporting including effect sizes, confidence intervals, and exact p-values for all comparisons. Include a power analysis or justification for sample sizes. Show that D1 overexpression does not affect other nuclear properties that could confound the mechanostability measurements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The authors claim that coarse-grained polymer simulations reveal the mechanism by which chromocenters dissipate mechanical force
+  - **Evidence pointer** Results section "Coarse grained polymer modeling reveals how chromocenters impact nuclear mechanostability"; Figure 3
+  - **Concern** The model is described as "reductionist" and intentionally excludes known factors such as peripheral tethering and cross-links. While this is a valid approach, the text does not demonstrate that the model predictions are quantitatively consistent with the experimental observations. The claim that increased internal pressure explains force dissipation is plausible but not directly tested. The model parameters are not fully described, and the sensitivity of the results to parameter choices is not discussed.
+  - **Why it matters** The modeling is used to support the mechanistic interpretation. If the model is not validated against the experimental data, its conclusions remain speculative.
+  - **Resolution test** Provide a quantitative comparison between model predictions and experimental measurements of nuclear deformation and chromocenter properties. Perform sensitivity analysis on key parameters. Test alternative models (e.g., with tethering or cross-links) to show that chromocenter formation is the key determinant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "nuclear mechanostability is an emergent property" is vague. It is unclear what "emergent" adds beyond "property."
+  - **Required correction** Rephrase to "nuclear mechanostability arises from" or "is conferred by" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, coarse-grained model
+  - **Evidence pointer** Materials and Methods, "Coarse-grained nuclear model"
+  - **Issue** The description of the model is incomplete. The text mentions "attraction (ε) between satellite DNA monomers" but does not specify the functional form of the interaction potential, the integration scheme, or the equilibration protocol.
+  - **Required correction** Provide a complete description of the model Hamiltonian, simulation parameters, and analysis methods, or cite a previous publication with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion, "We propose that chromocenters represent physical connections between different chromosomes..."
+  - **Issue** The proposal that chromocenters act as "physical connections" is not directly supported by the data. The simulations suggest force dissipation, but the text does not show that chromocenters physically link chromosomes in the tested cells.
+  - **Required correction** Soften the claim or provide additional evidence (e.g., Hi-C or imaging data) showing inter-chromosomal contacts at chromocenters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalization
+  - **Affected element** Discussion, final paragraph
+  - **Evidence pointer** Discussion, "we speculate that the lack of chromocenters may contribute to the deleterious nuclear deformations and DNA damage observed in these pathologies"
+  - **Issue** The speculation about human diseases is not supported by any data in this manuscript. While speculation is acceptable in a discussion, the text should clearly distinguish this from the findings.
+  - **Required correction** Add a sentence clarifying that this is speculative and not directly tested in this study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, in vitro phase separation
+  - **Evidence pointer** Materials and Methods, "DNA binding assays and in vitro phase separation"
+  - **Issue** The text does not specify the buffer conditions, protein concentrations, or imaging parameters used for the phase separation assays. This limits reproducibility.
+  - **Required correction** Provide full experimental details including buffer composition, protein concentration range, and imaging setup.
+
+## Risk / unsupported claims
+- The claim that chromocenter disruption causes nuclear deformation is supported by correlation but the causal chain is incomplete
+- The claim that complex coacervation underlies chromocenter formation in vivo is inferred from in vitro experiments and not directly demonstrated in cells
+- The claim that enhanced chromocenter coalescence improves mechanostability is based on a limited number of variants and lacks rigorous statistical support
+- The speculation about human diseases (progeria, laminopathies) is not supported by data in this manuscript
+- The claim that the mechanostability framework extends to other cells and tissues is speculative and not tested
+- The quantitative relationship between model predictions and experimental measurements is not established
+- The functional significance of the observed DNA binding affinity differences among D1 AT-hooks is not experimentally validated

@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41134621",
+    "doi": "10.1073/pnas.2513371122",
+    "title": "Transcriptional condensates encode a \"golden mean\" to optimize enhancer-promoter communication across genomic distances."
+  },
+  "content": {
+    "abstract": "Enhancers regulate gene expression by physically contacting their target promoters, yet these contacts often span large genomic distances. Phase-separated condensates (droplet-like clusters) of transcription factors (TFs) are thought to facilitate such long-range enhancer-promoter (E-P) communication, but the quantitative principles underlying this mechanism remain unclear. Here, we use polymer-based chromatin simulations to systematically vary the strength of TF clustering and the E-P genomic distance, examining their combined effects on E-P contact formation. We find that E-P contact frequency shows a nonmonotonic dependence on the degree of TF clustering: Contact frequency peaks at an intermediate TF abundance and TF-TF affinity, leading to a \"golden mean\" optimum. Two distinct regimes emerge: Under weak TF-TF attraction, contact probability increases with condensate size, whereas strong TF attraction produces a peaked response that declines at high condensation levels. These results indicate that TF condensate acts as a tunable \"rheostat,\" buffering E-P interactions against increasing genomic distances. However, excessive TF clustering leads to molecular crowding and competition that ultimately impair E-P communication. Our study, consistent with recent experiments, establishes a mechanistic framework at the molecular level, where balanced TF condensation enables robust long-range E-P communication, reconciling the stochastic nature of chromatin dynamics with the fidelity of gene regulation.",
+    "keywords": [
+      "4D genome",
+      "coarse-grained models",
+      "phase separation",
+      "structure-dynamics-function relationship",
+      "transcriptional cluster"
+    ],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic/genetics",
+      "*Promoter Regions, Genetic/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "Chromatin/genetics/metabolism",
+      "*Transcription, Genetic",
+      "Models, Genetic",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Tao",
+        "Li, Chunhe",
+        "Chu, Xiakun"
+      ],
+      "short_names": [
+        "Zhu T",
+        "Li C",
+        "Chu X"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-9616-9250",
+        "ORCID: 0000-0002-9127-3930",
+        "ORCID: 0000-0003-3166-7070"
+      ],
+      "affiliations": [
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "Shanghai Center for Mathematical Sciences and School of Mathematical Sciences, Fudan University, Shanghai 200433, China.",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China.",
+        "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Tao",
+        "short_name": "Zhu T",
+        "identifiers": [
+          "0009-0005-9616-9250"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunhe",
+        "short_name": "Li C",
+        "identifiers": [
+          "0000-0002-9127-3930"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+          "Shanghai Center for Mathematical Sciences and School of Mathematical Sciences, Fudan University, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xiakun",
+        "short_name": "Chu X",
+        "identifiers": [
+          "0000-0003-3166-7070"
+        ],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China.",
+          "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong 511400, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Oct 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/24 18:27",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42680838",
+      "41902470",
+      "41428891"
+    ],
+    "refs": [
+      "40389455",
+      "39952932",
+      "39642226",
+      "39626660",
+      "39508790",
+      "38954990",
+      "38631355",
+      "38489358",
+      "38413840",
+      "38365945",
+      "38069453",
+      "37833263",
+      "37738977",
+      "37451823",
+      "37384691",
+      "37207625",
+      "37157000",
+      "37059094",
+      "37000871",
+      "36471071",
+      "36028355",
+      "35771920",
+      "35710842",
+      "35643628",
+      "35581264",
+      "35562359",
+      "35537448",
+      "35484250",
+      "35483357",
+      "35418676",
+      "34669947",
+      "34215745",
+      "34163069",
+      "33497970",
+      "33398174",
+      "33333019",
+      "32991838",
+      "32929202",
+      "32738219",
+      "32213323",
+      "31792379",
+      "31753533",
+      "31398323",
+      "31226276",
+      "31124784",
+      "31086298",
+      "30449618",
+      "30262496",
+      "30038397",
+      "29987017",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29662163",
+      "29342133",
+      "29094699",
+      "29087948",
+      "28985562",
+      "28340338",
+      "27863239",
+      "27818142",
+      "27688758",
+      "27367409",
+      "27210764",
+      "27060145",
+      "26700815",
+      "26620784",
+      "25959774",
+      "25918364",
+      "25757416",
+      "24996062",
+      "24141950",
+      "23498937",
+      "23084832",
+      "22988072",
+      "22682246",
+      "22495304",
+      "22495300",
+      "22265404",
+      "15680515",
+      "12853946",
+      "12426570",
+      "3479765",
+      "3412449"
+    ],
+    "similar": [
+      "41134621",
+      "39508790",
+      "39868536",
+      "40534037",
+      "31398323",
+      "40923545",
+      "41703937",
+      "39062589",
+      "22537144",
+      "35418676",
+      "39535534",
+      "41354071",
+      "33885786",
+      "39808848",
+      "41420925",
+      "39626660",
+      "33621520",
+      "34570239",
+      "30709337",
+      "38109463",
+      "39976773",
+      "41861881",
+      "32738219",
+      "39579740",
+      "24603674",
+      "37430091",
+      "19675129",
+      "30763343",
+      "38922969",
+      "41402457",
+      "39567683",
+      "38869221",
+      "23595228",
+      "24213634",
+      "40907938",
+      "39481376",
+      "34414474",
+      "35168174",
+      "32197056",
+      "40436628",
+      "28982762",
+      "23124110",
+      "38781242",
+      "39363017",
+      "10871404",
+      "41034155",
+      "40456606",
+      "39384070",
+      "38171575",
+      "32249388",
+      "20211559",
+      "25752748",
+      "29254942",
+      "38857275",
+      "39579767",
+      "41359380",
+      "30622120",
+      "39283462",
+      "40081334",
+      "39642226",
+      "35691341",
+      "38717453",
+      "25708464",
+      "34060610",
+      "30092612",
+      "24178450",
+      "22126206",
+      "41719944",
+      "40114377",
+      "34969825",
+      "15496828",
+      "38413840",
+      "25340767",
+      "32635644",
+      "37312570",
+      "34246183",
+      "34099014",
+      "28137873",
+      "40010352",
+      "30867326",
+      "21415370",
+      "28110180",
+      "19910494",
+      "42538372",
+      "42449150",
+      "32213323",
+      "32804082",
+      "42475469",
+      "36043696",
+      "40030157",
+      "31285341",
+      "42587094",
+      "37205714",
+      "15809261",
+      "38216391",
+      "37059094",
+      "41713190",
+      "35517868",
+      "21073238",
+      "38101409"
+    ],
+    "review": [
+      "41134621",
+      "39062589",
+      "41354071",
+      "39808848",
+      "41420925",
+      "33621520",
+      "39976773",
+      "39579740",
+      "38922969",
+      "38869221",
+      "40907938",
+      "34414474",
+      "35168174",
+      "32197056",
+      "23124110",
+      "41034155",
+      "40456606",
+      "20211559",
+      "35691341",
+      "25708464",
+      "34060610",
+      "30092612",
+      "24178450",
+      "22126206",
+      "41719944",
+      "34969825",
+      "38413840",
+      "32635644",
+      "37312570",
+      "34246183",
+      "28110180",
+      "40030157",
+      "15809261",
+      "38216391",
+      "37059094",
+      "41713190"
+    ],
+    "pmc": [
+      "12582294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2513371122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41134621/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

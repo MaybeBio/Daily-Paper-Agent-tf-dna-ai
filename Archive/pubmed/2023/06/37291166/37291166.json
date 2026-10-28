@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "37291166",
+    "doi": "10.1038/s41598-023-35599-2",
+    "title": "Investigating the novel-binding site of RPA2 on Menin and predicting the effect of point mutation of Menin through protein-protein interactions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) play a critical role in all biological processes. Menin is tumor suppressor protein, mutated in multiple endocrine neoplasia type 1 syndrome and has been shown to interact with multiple transcription factors including (RPA2) subunit of replication protein A (RPA). RPA2, heterotrimeric protein required for DNA repair, recombination and replication. However, it's still remains unclear the specific amino acid residues that have been involved in Menin-RPA2 interaction. Thus, accurately predicting the specific amino acid involved in interaction and effects of MEN1 mutations on biological systems is of great interests. The experimental approaches for identifying amino acids in menin-RPA2 interactions are expensive, time-consuming, and challenging. This study leverages computational tools, free energy decomposition and configurational entropy scheme to annotate the menin-RPA2 interaction and effect on menin point mutation, thereby proposing a viable model of menin-RPA2 interaction. The menin-RPA2 interaction pattern was calculated on the basis of different 3D structures of menin and RPA2 complexes, constructed using homology modeling and docking strategy, generating three best-fit models: Model 8 (- 74.89 kJ/mol), Model 28 (- 92.04 kJ/mol) and Model 9 (- 100.4 kJ/mol). The molecular dynamic (MD) was performed for 200 ns and binding free energies and energy decomposition analysis were calculated using Molecular Mechanics Poisson-Boltzmann Surface Area (MM/PBSA) in GROMACS. From binding free energy change, model 8 of Menin-RPA2 exhibited most negative binding energy of - 205.624 kJ/mol, followed by model 28 of Menin-RPA2 with - 177.382 kJ/mol. After S606F point mutation in Menin, increase of BFE (DeltaG(bind)) by - 34.09 kJ/mol in Model 8 of mutant Menin-RPA2 occurs. Interestingly, we found a significant reduction of BFE (DeltaG(bind)) and configurational entropy by - 97.54 kJ/mol and - 2618 kJ/mol in mutant model 28 as compared the o wild type. Collectively, this is the first study to highlight the configurational entropy of protein-protein interactions thereby strengthening the prediction of two significant important interaction sites in menin for the binding of RPA2. These predicted sites could be vulnerable for structural alternation in terms of binding free energy and configurational entropy after missense mutation in menin.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Point Mutation",
+      "Mutation",
+      "Transcription Factors/genetics",
+      "Binding Sites",
+      "*Multiple Endocrine Neoplasia Type 1",
+      "Amino Acids/genetics",
+      "Replication Protein A/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Gurjeet",
+        "Prajapat, Manisha",
+        "Singh, Harvinder",
+        "Sarma, Phulen",
+        "Bhadada, Sanjay Kumar",
+        "Shekhar, Nishant",
+        "Sharma, Saurabh",
+        "Sinha, Shweta",
+        "Kumar, Subodh",
+        "Prakash, Ajay",
+        "Medhi, Bikash"
+      ],
+      "short_names": [
+        "Kaur G",
+        "Prajapat M",
+        "Singh H",
+        "Sarma P",
+        "Bhadada SK",
+        "Shekhar N",
+        "Sharma S",
+        "Sinha S",
+        "Kumar S",
+        "Prakash A",
+        "Medhi B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4017-641X"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, AIIMS, Guwahati, India.",
+        "Department of Endocrinology, Postgraduate Institute of Medical Education and Research, Chandigarh, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Experimental Medicine and Biotechnology, PGIMER, Chandigarh, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India.",
+        "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India. drbikashus@yahoo.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Gurjeet",
+        "short_name": "Kaur G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Prajapat, Manisha",
+        "short_name": "Prajapat M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Harvinder",
+        "short_name": "Singh H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Sarma, Phulen",
+        "short_name": "Sarma P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, AIIMS, Guwahati, India."
+        ]
+      },
+      {
+        "full_name": "Bhadada, Sanjay Kumar",
+        "short_name": "Bhadada SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Postgraduate Institute of Medical Education and Research, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Shekhar, Nishant",
+        "short_name": "Shekhar N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Saurabh",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Sinha, Shweta",
+        "short_name": "Sinha S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental Medicine and Biotechnology, PGIMER, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Subodh",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Prakash, Ajay",
+        "short_name": "Prakash A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India."
+        ]
+      },
+      {
+        "full_name": "Medhi, Bikash",
+        "short_name": "Medhi B",
+        "identifiers": [
+          "0000-0002-4017-641X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Postgraduate Institute of Medical Education and Research (PGIMER), Research Block B, 4th Floor, Lab No 4044, Chandigarh, 160012, India. drbikashus@yahoo.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Jun 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/09 01:09",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "42578372",
+      "42216412",
+      "40152985"
+    ],
+    "refs": [
+      "35856247",
+      "35604071",
+      "35268848",
+      "34791371",
+      "34265844",
+      "32937789",
+      "31141126",
+      "30760596",
+      "28007956",
+      "27713574",
+      "27503228",
+      "27153629",
+      "25855580",
+      "25400662",
+      "24850022",
+      "24829462",
+      "22936661",
+      "22327296",
+      "20175450",
+      "17976647",
+      "15938632",
+      "15653682",
+      "15476259",
+      "12874027",
+      "12824332",
+      "12509449",
+      "11739416",
+      "11579199",
+      "11526476",
+      "11032020",
+      "9989505",
+      "9822637",
+      "9465067",
+      "9461578",
+      "8744570"
+    ],
+    "similar": [
+      "37291166",
+      "12509449",
+      "28007956",
+      "35941657",
+      "35268848",
+      "15254225",
+      "25499885",
+      "20175450",
+      "16001329",
+      "26732163",
+      "19244309",
+      "9766672",
+      "18775714",
+      "11731442",
+      "23850066",
+      "28811299",
+      "19074834",
+      "17766243",
+      "9641896",
+      "22275377",
+      "35212338",
+      "12145286",
+      "22878668",
+      "22327296",
+      "12874027",
+      "19843584",
+      "19522825",
+      "16449969",
+      "11302744",
+      "11032020",
+      "17035231",
+      "20566584",
+      "11579199",
+      "20706287",
+      "15331604",
+      "15044367",
+      "26271993",
+      "10548885",
+      "17024155",
+      "24563463",
+      "22160652",
+      "15374998",
+      "12030908",
+      "17185897",
+      "16997566",
+      "17928296",
+      "19586055",
+      "14966274",
+      "20130019",
+      "11479296",
+      "28597079",
+      "38938622",
+      "19847644",
+      "37199453",
+      "11745215",
+      "17063491",
+      "12112656",
+      "15691381",
+      "21757704",
+      "35987841",
+      "15256779",
+      "23393223",
+      "17356705",
+      "9437237",
+      "21264250",
+      "24389729",
+      "10612420",
+      "20154705",
+      "23614718",
+      "16604156",
+      "10842335",
+      "22666422",
+      "19671522",
+      "23580576",
+      "11064160",
+      "20969866",
+      "34298972",
+      "37078545",
+      "22497310",
+      "35179814",
+      "11305913",
+      "16483312",
+      "17879353",
+      "20175449",
+      "12203793",
+      "32780883",
+      "10500243",
+      "10709111",
+      "10064605",
+      "35662456",
+      "11237602",
+      "17184987",
+      "29785435",
+      "10595737",
+      "12459032",
+      "9989505",
+      "10812010",
+      "12021209",
+      "34254810",
+      "39276940",
+      "38794278",
+      "38201676",
+      "37897811",
+      "36924867",
+      "38305456",
+      "39381432",
+      "38746274"
+    ],
+    "review": [
+      "37291166",
+      "16001329",
+      "23850066",
+      "28811299",
+      "19522825",
+      "11579199",
+      "10548885",
+      "17024155",
+      "16997566",
+      "24389729",
+      "34298972",
+      "37078545"
+    ],
+    "pmc": [
+      "10250348"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-35599-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37291166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37291166",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

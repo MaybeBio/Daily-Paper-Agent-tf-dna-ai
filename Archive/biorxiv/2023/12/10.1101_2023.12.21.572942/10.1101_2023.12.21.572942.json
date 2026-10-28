@@ -1,0 +1,571 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.21.572942",
+  "title": "Supervised contrastive learning enhances MHC-II peptide binding affinity prediction",
+  "doi": "10.1101/2023.12.21.572942",
+  "abstract": "Accurate prediction of major histocompatibility complex (MHC)-peptide binding affinity can improve our understanding of cellular immune responses and guide personalized immunotherapies. Nevertheless, the existing deep learning-based approaches for predicting MHC-II peptide interactions fall short of satisfactory performance and offer restricted model interpretability. In this study, we propose a novel deep neural network, termed ConBoTNet, to address the above issues by introducing the designed supervised contrastive learning and bottleneck transformer extractors. Specifically, the supervised contrastive learning pre-training enhances the model’s representative and generalizable capabilities on MHC-II peptides by pulling positive pairs closer and pushing negative pairs further in the feature space, while the bottleneck transformer module focuses on MHC-II peptide interactions to precisely identify binding cores and anchor positions in an unsupervised manner. Extensive experiments on benchmark datasets under 5-fold cross-validation, leave-one-molecule-out validation, independent testing, and binding core prediction settings highlighted the superiority of our proposed ConBoTNet over current state-of-the-art methods. Data distribution analysis in the latent feature space demonstrated that supervised contrastive learning can aggregate MHC-II-peptide samples with similar affinity labels and learn common features of similar affinity. Additionally, we interpreted the trained neural network by associating the attention weights with peptides and innovatively find both well-established and potential peptide motifs. This work not only introduces an innovative tool for accurately predicting MHC-II peptide affinity, but also provides new insights into a new paradigm for modeling essential biological interactions, advancing data-driven discovery in biomedicine.",
+  "authors": [
+    "Long-Chen Shen",
+    "Yan Liu",
+    "Zi Liu",
+    "Yumeng Zhang",
+    "Zhikang Wang",
+    "Yuming Guo",
+    "Jamie Rossjohn",
+    "Jiangning Song",
+    "Dong-Jun Yu"
+  ],
+  "published_date": "2023-12-23",
+  "updated_date": "2023-12-23T18:25:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572942",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572942.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T20:05:19Z",
+        "timestamp": 1787169919712,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 40,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate prediction of major histocompatibility complex (MHC)-peptide binding affinity can improve our understanding of cellular immune responses and guide personalized immunotherapies. Nevertheless, the existing deep learning-based approaches for predicting MHC-II peptide interactions fall short of satisfactory performance and offer restricted model interpretability. In this study, we propose a novel deep neural network, termed ConBoTNet, to address the above issues by introducing the designed supervised contrastive learning and bottleneck transformer extractors. Specifically, the supervised contrastive learning pre-training enhances the model’s representative and generalizable capabilities on MHC-II peptides by pulling positive pairs closer and pushing negative pairs further in the feature space, while the bottleneck transformer module focuses on MHC-II peptide interactions to precisely identify binding cores and anchor positions in an unsupervised manner. Extensive experiments on benchmark datasets under 5-fold cross-validation, leave-one-molecule-out validation, independent testing, and binding core prediction settings highlighted the superiority of our proposed ConBoTNet over current state-of-the-art methods. Data distribution analysis in the latent feature space demonstrated that supervised contrastive learning can aggregate MHC-II-peptide samples with similar affinity labels and learn common features of similar affinity. Additionally, we interpreted the trained neural network by associating the attention weights with peptides and innovatively find both well-established and potential peptide motifs. This work not only introduces an innovative tool for accurately predicting MHC-II peptide affinity, but also provides new insights into a new paradigm for modeling essential biological interactions, advancing data-driven discovery in biomedicine.</jats:p>",
+      "DOI": "10.1101/2023.12.21.572942",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2023-12-23T18:25:10Z",
+        "timestamp": 1703355910000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Supervised contrastive learning enhances MHC-II peptide binding affinity prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0045-4745",
+          "authenticated-orcid": false,
+          "given": "Long-Chen",
+          "family": "Shen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zi",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yumeng",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhikang",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1766-6592",
+          "authenticated-orcid": false,
+          "given": "Yuming",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jamie",
+          "family": "Rossjohn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8031-9086",
+          "authenticated-orcid": false,
+          "given": "Jiangning",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dong-Jun",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0036-z"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1671-8"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx820"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4314"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1038/s41571-020-00460-2",
+          "article-title": "Advances in the development of personalized neoantigen-based therapeutic cancer vaccines",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Reviews Clinical Oncology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl479"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.7",
+          "first-page": "447508",
+          "article-title": "HLA-class II artificial antigen presenting cells in CD4+ T cell-based immunotherapy",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "105151",
+          "DOI": "10.1016/j.compbiomed.2021.105151",
+          "article-title": "Designing of a multi-epitopes-based peptide vaccine against rift valley fever virus and its validation through integrated computational approaches",
+          "volume": "141",
+          "year": "2022",
+          "journal-title": "Computers in biology and medicine"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imm.12030"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "724",
+          "DOI": "10.1038/s41576-019-0166-7",
+          "article-title": "Next-generation computational tools for interrogating cancer immunity",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Nature Reviews Genetics"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.11",
+          "first-page": "172",
+          "article-title": "Re-directing CD4+ T cell responses with the flanking residues of MHC class II-bound peptides: the core is not enough",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.humimm.2004.01.005"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imm.12889"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri1805"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-013-0720-y"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kim, J. Y. , Bang, H. , Noh, S.-J. , & Choi, J. K . (2023). DeepNeo: a webserver for predicting immunogenic neoantigens. Nucleic acids research , gkad 275.",
+          "DOI": "10.1093/nar/gkad275"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41590-019-0335-z"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.18",
+          "first-page": "07896",
+          "article-title": "Captum: A unified and generic model interpretability library for pytorch",
+          "volume": "2009",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/iid3.416"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.20",
+          "first-page": "2188",
+          "article-title": "DeepSeqPanII: an interpretable recurrent neural network model with attention mechanism for peptide-HLA class II binding prediction",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "864",
+          "DOI": "10.1038/s42256-021-00383-2",
+          "article-title": "Deep learning-based prediction of the T cell receptor–antigen binding specificity",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature machine intelligence"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1842",
+          "DOI": "10.3390/biomedicines10081842",
+          "article-title": "Therapeutic Strategies to Enhance Tumor Antigenicity: Making the Tumor Detectable by the Immune System",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Biomedicines"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/s41571-019-0315-0",
+          "article-title": "Improved MHC II epitope prediction—a step towards personalized medicine",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Reviews Clinical Oncology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri3084"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "395",
+          "DOI": "10.1038/s42256-023-00634-4",
+          "article-title": "Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature machine intelligence"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1687",
+          "DOI": "10.1038/s41596-019-0133-y",
+          "article-title": "Mass spectrometry–based identification of MHC-bound peptides for immunopeptidomics",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1359",
+          "DOI": "10.1016/j.immuni.2023.03.009",
+          "article-title": "Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes",
+          "volume": "56",
+          "year": "2023",
+          "journal-title": "Immunity"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2306572120",
+          "DOI": "10.1073/pnas.2306572120",
+          "article-title": "T cell deletional tolerance restricts AQP4 but not MOG CNS autoimmunity",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schuler, M. M. , Nastke, M.-D. , & Stevanović, S . (2007). SYFPEITHI: database for searching and T-cell epitope prediction. Immunoinformatics: Predicting immunogenicity in silico, 75–93.",
+          "DOI": "10.1007/978-1-60327-118-9_5"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "105057",
+          "DOI": "10.1016/j.compbiomed.2021.105057",
+          "article-title": "An overview of progress from empirical to rational design in modern vaccine development, with an emphasis on computational tools and immunoinformatics approaches",
+          "volume": "140",
+          "year": "2022",
+          "journal-title": "Computers in biology and medicine"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Srinivas, A. , Lin, T.-Y. , Parmar, N. , Shlens, J. , Abbeel, P. , & Vaswani, A. (2021). Bottleneck transformers for visual recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 16519–16529).",
+          "DOI": "10.1109/CVPR46437.2021.01625"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "D428",
+          "DOI": "10.1093/nar/gkac965",
+          "article-title": "The MHC Motif Atlas: a database of MHC binding specificities and ligands",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks469"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1744-313X.2008.00765.x"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.35",
+          "first-page": "321",
+          "article-title": "MHC class II polymorphisms, autoreactive T-cells, and autoimmunity",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "i399",
+          "DOI": "10.1093/bioinformatics/btaa479",
+          "article-title": "MHCAttnNet: predicting MHC-peptide bindings for MHC alleles classes I and II using an attention-based deep neural model",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.38",
+          "first-page": "1",
+          "article-title": "Dendritic cell biology and its role in tumor immunotherapy",
+          "volume": "13",
+          "year": "2020",
+          "journal-title": "Journal of hematology & oncology"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "i220",
+          "DOI": "10.1093/bioinformatics/btac225",
+          "article-title": "DeepMHCII: a novel binding core-aware deep interaction model for accurate MHC-II peptide binding affinity prediction",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024041703351066000_2023.12.21.572942v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1016/j.cels.2019.05.004",
+          "article-title": "Quantification of uncertainty in peptide-MHC binding prediction improves high-affinity peptide selection for therapeutic design",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Cell systems"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.21.572942",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:42:44Z",
+        "timestamp": 1768455764000
+      },
+      "score": 74.71253,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.21.572942"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "references-count": 40,
+      "URL": "https://doi.org/10.1101/2023.12.21.572942",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.eswa.2025.126463",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

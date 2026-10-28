@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39337585",
+  "title": "Cellular and Molecular Network Characteristics of TARM1-Related Genes in Mycobacterium tuberculosis Infections.",
+  "authors": "Peng, Li; Wu, Hanxin; Zhu, Liangyu; Song, Jieqin; Ma, Weijiang; Zhong, Lei; Ma, Weijie; Yang, Rui; Huang, Xun; Li, Bingxue; Luo, Suyi; Bao, Fukai; Liu, Aihua",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-09-28",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于GEO数据对结核分枝杆菌感染中TARM1相关基因进行差异表达、富集和免疫浸润分析，虽涉及mRNA-TF互作网络但仅为数据库查询，无蛋白质-DNA结合建模或AI/物理模拟方法，与本课题核心无关。",
+  "abstract": "Tuberculosis (TB) is a global infectious threat, and the emergence of multidrug-resistant TB has become a major challenge in eradicating the disease that requires the discovery of new treatment strategies. This study aimed to elucidate the immune infiltration and molecular regulatory network of T cell-interacting activating receptors on myeloid cell 1 (TARM1)-related genes based on a bioinformatics analysis. The GSE114911 dataset was obtained from the Gene Expression Omnibus (GEO) and screened to identify 17 TARM1-related differentially expressed genes (TRDEGs). Genes interacting with the TRDEGs were analyzed using a Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis. A gene set enrichment analysis (GSEA) was used to identify the biological pathways significantly associated with a Mycobacterium tuberculosis (Mtb) infection. The key genes were obtained based on Cytoscape's cytoHubba plug-in. Furthermore, protein-protein interaction (PPI) networks were analyzed through STRING, while mRNA-RNA-binding protein (RBP) and mRNA-transcription factor (TF) interaction networks were developed utilizing the StarBase v3.0 and ChIPBase databases. In addition, the diagnostic significance of key genes was evaluated via receiver operating characteristic (ROC) curves, and the immune infiltration was analyzed using an ssGSEA and MCPCounter. The key genes identified in the GSE114911 dataset were confirmed in an independent GSE139825 dataset. A total of seventeen TRDEGs and eight key genes were obtained in a differential expression analysis using the cytoHubba plug-in. Through the GO and KEGG analysis, it was found that these were involved in the NF-kappaB, PI3K/Akt, MAPK, and other pathways related to inflammation and energy metabolism. Furthermore, the ssGSEA and MCPCounter analysis revealed a significant rise in activated T cells and T helper cells within the Mtb infection group, which were markedly associated with these key genes. This implies their potential significance in the anti-Mtb response. In summary, our results show that TRDEGs are linked to inflammation, energy metabolism, and immune cells, offering fresh insights into the mechanisms underlying TB pathogenesis and supporting further investigation into the possible molecular roles of TARM1 in TB, as well as assisting in the identification of prospective diagnostic biomarkers.",
+  "abstract_zh": "结核病（TB）是一种全球性感染威胁，而耐多药结核病的出现已成为根除该疾病的主要挑战，需要发现新的治疗策略。本研究旨在基于生物信息学分析，阐明T细胞相互作用的髓系细胞1激活受体（TARM1）相关基因的免疫浸润及分子调控网络。从基因表达综合数据库（GEO）获取GSE114911数据集，并筛选出17个TARM1相关的差异表达基因（TRDEGs）。利用基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析，分析与TRDEGs相互作用的基因。采用基因集富集分析（GSEA）识别与结核分枝杆菌（Mtb）感染显著相关的生物学通路。基于Cytoscape的cytoHubba插件获得关键基因。此外，通过STRING分析蛋白质-蛋白质相互作用（PPI）网络，同时利用StarBase v3.0和ChIPBase数据库构建mRNA-RNA结合蛋白（RBP）和mRNA-转录因子（TF）相互作用网络。另外，通过受试者工作特征（ROC）曲线评估关键基因的诊断意义，并使用ssGSEA和MCPCounter分析免疫浸润。在GSE114911数据集中识别的关键基因在独立的GSE139825数据集中得到验证。在差异表达分析中，通过cytoHubba插件共获得17个TRDEGs和8个关键基因。通过GO和KEGG分析发现，这些基因涉及NF-kappaB、PI3K/Akt、MAPK等与炎症和能量代谢相关的通路。此外，ssGSEA和MCPCounter分析显示，在Mtb感染组中，活化T细胞和辅助性T细胞显著增加，并与这些关键基因显著相关。这表明它们在抗Mtb反应中可能具有潜在重要性。总之，我们的结果表明，TRDEGs与炎症、能量代谢和免疫细胞相关，为TB发病机制提供了新的见解，并支持进一步研究TARM1在TB中可能的分子作用，同时有助于识别潜在的诊断生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39337585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39337585/",
+  "paper_page_path": "papers/pubmed/39337585/index.html"
+}

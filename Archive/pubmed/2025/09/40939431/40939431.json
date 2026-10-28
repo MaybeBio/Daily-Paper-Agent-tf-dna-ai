@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40939431",
+    "doi": "10.1016/j.intimp.2025.115527",
+    "title": "Construction and multi-omics analysis of ccRCC mitochondrial related gene machine learning model and validate of key gene FKBP10."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Clear cell renal cell carcinoma represents the most prevalent histological subtype of renal malignancy Emerging evidence underscores the critical involvement of mitochondrial dysfunction in oncogenesis and tumor progression. In this study, we systematically identified and characterized mitochondrial-associated proteins participating in fundamental biological processes, with the objective of elucidating their mechanistic contributions to ccRCC pathogenesis. METHOD: Through integrative analysis of multi-omics data from TCGA-KIRC and GEO datasets, we systematically evaluated the prognostic value of mitochondrial-associated differentially expressed genes derived from the MitoCarta3.0 database. Employing an ensemble machine learning approach encompassing 10 base algorithms and their combinatorial variants, we developed and optimized a robust prognostic risk model. Subsequent experimental validation focused on the core model gene FKBP10, investigating its functional role in ccRCC pathogenesis through comprehensive in vivo analyses. RESULT: We identified 102 mitochondrial-related differentially expressed genes showing significant tumor-normal tissue expression differences and strong prognostic associations. The LASSO+GBM algorithm was selected as the optimal model, from which we derived 7 core prognostic genes. Comprehensive characterization of high- and low-risk groups revealed distinct patterns in pathway activation, mutational profiles, immune microenvironment composition, and therapeutic vulnerabilities. Experimental validation confirmed that the key gene FKBP10 promotes malignant phenotypes in tumor cells through IL-6/JAK/STAT3 pathway activation.",
+    "keywords": [
+      "CAF",
+      "FKBP10",
+      "Machine learning",
+      "Mitochondrial-related genes",
+      "ccRCC"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tacrolimus Binding Proteins/genetics/metabolism",
+      "*Machine Learning",
+      "*Kidney Neoplasms/genetics/pathology",
+      "*Carcinoma, Renal Cell/genetics/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "*Mitochondria/genetics",
+      "Prognosis",
+      "Animals",
+      "Cell Line, Tumor",
+      "STAT3 Transcription Factor/metabolism",
+      "Tumor Microenvironment",
+      "Mice",
+      "Biomarkers, Tumor/genetics",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pu, Shihang",
+        "Qian, Shijie",
+        "Xing, Jiajun",
+        "Ding, Yiheng",
+        "Li, Baochao",
+        "Tao, Zhijun",
+        "Li, Qi",
+        "Yu, Fan",
+        "Wang, Zengjun",
+        "Xu, Aiming"
+      ],
+      "short_names": [
+        "Pu S",
+        "Qian S",
+        "Xing J",
+        "Ding Y",
+        "Li B",
+        "Tao Z",
+        "Li Q",
+        "Yu F",
+        "Wang Z",
+        "Xu A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Anesthesiology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.. Electronic address: zengjunwang@njmu.edu.cn.",
+        "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.. Electronic address: xam1989@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pu, Shihang",
+        "short_name": "Pu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Shijie",
+        "short_name": "Qian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Jiajun",
+        "short_name": "Xing J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yiheng",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Baochao",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Zhijun",
+        "short_name": "Tao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qi",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Fan",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zengjun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.. Electronic address: zengjunwang@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Aiming",
+        "short_name": "Xu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital of Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu Province 210029, China.. Electronic address: xam1989@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 00:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42623896"
+    ],
+    "refs": [],
+    "similar": [
+      "40939431",
+      "40642093",
+      "40243888",
+      "41286149",
+      "39809381",
+      "41403935",
+      "41476960",
+      "41099090",
+      "41135615",
+      "34795663",
+      "39011666",
+      "37240154",
+      "40821775",
+      "39614426",
+      "40016772",
+      "40954501",
+      "41272036",
+      "41376629",
+      "40419510",
+      "41504052",
+      "39237939",
+      "41357761",
+      "38953023",
+      "36463181",
+      "41052233",
+      "41180155",
+      "40730958",
+      "39871215",
+      "38970690",
+      "41353246",
+      "40318378",
+      "40595325",
+      "39807607",
+      "32311223",
+      "40251359",
+      "36551318",
+      "40709174",
+      "33850477",
+      "39703069",
+      "34512816",
+      "41155476",
+      "40430095",
+      "40473799",
+      "39706820",
+      "39023752",
+      "38808948",
+      "35422048",
+      "37153569",
+      "40302348",
+      "39818256",
+      "40811082",
+      "39215019",
+      "39998680",
+      "38440906",
+      "41498044",
+      "40093809",
+      "39233640",
+      "41402653",
+      "38780866",
+      "40447904",
+      "32012488",
+      "32716214",
+      "32567187",
+      "40200221",
+      "39031800",
+      "40379825",
+      "41029063",
+      "39747468",
+      "41077212",
+      "40473684",
+      "38994370",
+      "40770761",
+      "39249558",
+      "38061153",
+      "39353993",
+      "41217528",
+      "37908350",
+      "38546385",
+      "40596969",
+      "39115042",
+      "31781309",
+      "40935873",
+      "41029360",
+      "41208987",
+      "32406866",
+      "40268265",
+      "40909272",
+      "40330470",
+      "41488617",
+      "34388114",
+      "38951896",
+      "41357186",
+      "41346582",
+      "38857246",
+      "33000227",
+      "39348357",
+      "40670255",
+      "40075035",
+      "31703694",
+      "39998699"
+    ],
+    "review": [
+      "40939431",
+      "39023752"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01518-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40939431.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

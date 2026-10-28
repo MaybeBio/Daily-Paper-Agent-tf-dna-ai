@@ -1,0 +1,548 @@
+{
+  "identity": {
+    "pmid": "41482142",
+    "doi": "10.1016/j.bcp.2025.117620",
+    "title": "Pharmacological targeting of nuclear factor (erythroid-derived 2)-like 2 (NRF2): a potential strategy to improve the efficacy of oncological photodynamic therapy."
+  },
+  "content": {
+    "abstract": "The recalcitrance of tumors to photodynamic therapy (PDT) has been linked to PDT-induced activation of survival pathways in sublethally afflicted cancer cells that modulate cellular responses to oxidative stress and damage. Survival signaling manifests in regions of the tumor where the tumor cells are insufficiently photosensitized or subjected to inadequate fluence rates. The survival signaling in these tumor regions is believed to account for tumor recurrence. Accordingly, PDT efficacy can be improved by intervening in these pathways using molecular inhibitors of key modulators of survival signaling, thereby increasing the number of lethally afflicted cancer cells and with it therapeutic efficacy. A promising target for pharmacological intervention is the nuclear factor (erythroid-derived 2)-like 2 (NRF2) pathway, which induces the antioxidant and xenobiotic stress response that helps cells cope with prolonged periods of hyperoxidative stress after PDT. This review outlines our current understanding of this pathway, how it is activated, and how it confers cytoprotective effects and ensures cell survival. Additional distinguishing features of the review are that (1) studies are addressed in which PDT activation of the NRF2 pathway has been demonstrated; (2) a non-exhaustive overview of NRF2 pathway inhibitors is presented that could serve as potential adjuvants in PDT regimens to augment therapeutic efficacy in treatment-resistant tumors and cancers that recur after PDT; (3) molecular docking analyses are included that show potential interactions between the NRF2 inhibitors and the redox sensor KEAP1; and (4) an elaborate account is provided of the potential bottlenecks and caveats that can be encountered when using NRF2 inhibitors in the development of fourth-generation photosensitizers for oncological PDT.",
+    "keywords": [
+      "Antioxidant responsive elements",
+      "KEAP1",
+      "Oxidants",
+      "Pharmacological inhibition",
+      "Photochemotherapy",
+      "Redox homeostasis",
+      "Transcription factor",
+      "Tumor survival signaling"
+    ],
+    "mesh_terms": [
+      "*Photochemotherapy/methods",
+      "Humans",
+      "*NF-E2-Related Factor 2/metabolism/antagonists & inhibitors",
+      "*Neoplasms/drug therapy/metabolism",
+      "Animals",
+      "*Photosensitizing Agents/administration & dosage/therapeutic use/pharmacology",
+      "Signal Transduction/drug effects",
+      "Oxidative Stress/drug effects",
+      "*Antineoplastic Agents",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Klerk, Daniel J",
+        "de Keijzer, Mark J",
+        "Franchi, Leonardo P",
+        "Tian, Jiahao",
+        "Gureev, Maxim A",
+        "Ge, Yingnan",
+        "Mesquita, Barbara",
+        "Saelman, Gideon E",
+        "Van Herteryck, Isis",
+        "Dias, Lionel M",
+        "de Haan, Lianne R",
+        "Li, Mingjuan",
+        "Boyd, Lenka N C",
+        "Le Large, Tessa Y S",
+        "Giovannetti, Elisa",
+        "Kazemier, Geert",
+        "Moerland, Perry D",
+        "Li, Yunlei",
+        "Stubbs, Andrew P",
+        "Devreese, Mathias",
+        "Porozov, Yuri B",
+        "Verheij, Joanne",
+        "Lammers, Twan",
+        "Khaled, Yazan S",
+        "Baron, Byron",
+        "Wu, Lingfeng",
+        "Heger, Michal"
+      ],
+      "short_names": [
+        "de Klerk DJ",
+        "de Keijzer MJ",
+        "Franchi LP",
+        "Tian J",
+        "Gureev MA",
+        "Ge Y",
+        "Mesquita B",
+        "Saelman GE",
+        "Van Herteryck I",
+        "Dias LM",
+        "de Haan LR",
+        "Li M",
+        "Boyd LNC",
+        "Le Large TYS",
+        "Giovannetti E",
+        "Kazemier G",
+        "Moerland PD",
+        "Li Y",
+        "Stubbs AP",
+        "Devreese M",
+        "Porozov YB",
+        "Verheij J",
+        "Lammers T",
+        "Khaled YS",
+        "Baron B",
+        "Wu L",
+        "Heger M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Precision Medicine in Oncology (PrMiO), Department of Pathology, Erasmus MC Cancer Institute, Erasmus Medical Center, Rotterdam, the Netherlands.",
+        "Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands; Molecular Biophysics and Biochemistry, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, the Netherlands.",
+        "Department of Biochemistry and Molecular Biology, Institute of Biological Sciences (ICB 2), Federal University of Goias (UFG), Goiania, Goias, Brazil.",
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands.",
+        "School of Computer Science, Physics and Technology, HSE University, Saint Petersburg, Russian Federation.",
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China.",
+        "Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands.",
+        "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands.",
+        "Department of Pathobiology, Pharmacology and Zoological Medicine, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium.",
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China.",
+        "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands.",
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands.",
+        "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands.",
+        "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands.",
+        "Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Cancer Pharmacology Laboratory, Associazione Italiana Per la Ricerca Sul Cancro (Italian Association for Cancer Research) Start-Up Unit, Fondazione Pisana Per la Scienza, Pisa, Italy.",
+        "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands.",
+        "Department of Epidemiology and Data Science, Amsterdam University Medical Center, University of Amsterdam, Amsterdam, the Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands.",
+        "Department of Pathobiology, Pharmacology and Zoological Medicine, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium.",
+        "School of Computer Science, Physics and Technology, HSE University, Saint Petersburg, Russian Federation; Advitam Laboratory, Belgrade, Serbia.",
+        "Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands; Department of Pathology, Amsterdam University Medical Center, University of Amsterdam, Amsterdam, the Netherlands.",
+        "Department of Nanomedicine and Theranostics, Institute for Experimental Molecular Imaging, Center for Biohybrid Medical Systems, University Hospital RWTH Aachen, Aachen, Germany.",
+        "Leeds Institute of Medical Research, St. James's University Hospital, Leeds, United Kingdom.",
+        "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, Zhejiang, PR China. Electronic address: sandy4813@163.com.",
+        "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands; Molecular Biophysics and Biochemistry, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, the Netherlands. Electronic address: michal.heger@photonanomedicine.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Klerk, Daniel J",
+        "short_name": "de Klerk DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Precision Medicine in Oncology (PrMiO), Department of Pathology, Erasmus MC Cancer Institute, Erasmus Medical Center, Rotterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Keijzer, Mark J",
+        "short_name": "de Keijzer MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands; Molecular Biophysics and Biochemistry, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Franchi, Leonardo P",
+        "short_name": "Franchi LP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Institute of Biological Sciences (ICB 2), Federal University of Goiás (UFG), Goiânia, Goiás, Brazil."
+        ]
+      },
+      {
+        "full_name": "Tian, Jiahao",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gureev, Maxim A",
+        "short_name": "Gureev MA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Physics and Technology, HSE University, Saint Petersburg, Russian Federation."
+        ]
+      },
+      {
+        "full_name": "Ge, Yingnan",
+        "short_name": "Ge Y",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Mesquita, Bárbara",
+        "short_name": "Mesquita B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Saelman, Gideon E",
+        "short_name": "Saelman GE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Van Herteryck, Isis",
+        "short_name": "Van Herteryck I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathobiology, Pharmacology and Zoological Medicine, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dias, Lionel M",
+        "short_name": "Dias LM",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "de Haan, Lianne R",
+        "short_name": "de Haan LR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Li, Mingjuan",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Boyd, Lenka N C",
+        "short_name": "Boyd LNC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Le Large, Tessa Y S",
+        "short_name": "Le Large TYS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Giovannetti, Elisa",
+        "short_name": "Giovannetti E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Oncology, Department of Medical Oncology, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Cancer Pharmacology Laboratory, Associazione Italiana Per la Ricerca Sul Cancro (Italian Association for Cancer Research) Start-Up Unit, Fondazione Pisana Per la Scienza, Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Kazemier, Geert",
+        "short_name": "Kazemier G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Amsterdam University Medical Center, Vrije Universiteit, Amsterdam, the Netherlands; Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Moerland, Perry D",
+        "short_name": "Moerland PD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Data Science, Amsterdam University Medical Center, University of Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Li, Yunlei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Stubbs, Andrew P",
+        "short_name": "Stubbs AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus Medical Center, Rotterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Devreese, Mathias",
+        "short_name": "Devreese M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathobiology, Pharmacology and Zoological Medicine, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium."
+        ]
+      },
+      {
+        "full_name": "Porozov, Yuri B",
+        "short_name": "Porozov YB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Physics and Technology, HSE University, Saint Petersburg, Russian Federation; Advitam Laboratory, Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Verheij, Joanne",
+        "short_name": "Verheij J",
+        "identifiers": [],
+        "affiliations": [
+          "Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam, the Netherlands; Department of Pathology, Amsterdam University Medical Center, University of Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lammers, Twan",
+        "short_name": "Lammers T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nanomedicine and Theranostics, Institute for Experimental Molecular Imaging, Center for Biohybrid Medical Systems, University Hospital RWTH Aachen, Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Khaled, Yazan S",
+        "short_name": "Khaled YS",
+        "identifiers": [],
+        "affiliations": [
+          "Leeds Institute of Medical Research, St. James's University Hospital, Leeds, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Baron, Byron",
+        "short_name": "Baron B",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingfeng",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, Zhejiang, PR China. Electronic address: sandy4813@163.com."
+        ]
+      },
+      {
+        "full_name": "Heger, Michal",
+        "short_name": "Heger M",
+        "identifiers": [],
+        "affiliations": [
+          "Applive Research Laboratories, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, Department of Pharmaceutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang, PR China; Department of Pharmaceutics, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Utrecht, the Netherlands; Molecular Biophysics and Biochemistry, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, the Netherlands. Electronic address: michal.heger@photonanomedicine.com."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical pharmacology"
+    ],
+    "journal_abbrev": [
+      "Biochem Pharmacol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/03 00:30",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [
+      "41828361"
+    ],
+    "refs": [],
+    "similar": [
+      "41482142",
+      "26516076",
+      "39417585",
+      "40199069",
+      "35505024",
+      "40911259",
+      "35505025",
+      "31022969",
+      "33403898",
+      "27803950",
+      "28356018",
+      "40746900",
+      "20694660",
+      "26705830",
+      "27634172",
+      "39241669",
+      "22549716",
+      "25236495",
+      "25640271",
+      "41485624",
+      "38677269",
+      "33808001",
+      "35077153",
+      "40815486",
+      "31131946",
+      "40422216",
+      "32603894",
+      "40888913",
+      "39699825",
+      "30288023",
+      "24308969",
+      "31778952",
+      "30556750",
+      "41435609",
+      "32004978",
+      "26122708",
+      "39020084",
+      "28502971",
+      "42019124",
+      "40665070",
+      "27263465",
+      "39521089",
+      "26319434",
+      "39556932",
+      "38104880",
+      "33922165",
+      "24200599",
+      "33656904",
+      "30674246",
+      "25226504",
+      "30259744",
+      "24851839",
+      "39415523",
+      "41609079",
+      "34278476",
+      "24142871",
+      "25014534",
+      "32156661",
+      "30662338",
+      "21251164",
+      "40544135",
+      "41455169",
+      "17376285",
+      "35011412",
+      "39779560",
+      "31865348",
+      "36086898",
+      "28110191",
+      "41206404",
+      "40085199",
+      "29450944",
+      "26301506",
+      "32171970",
+      "37187359",
+      "41047055",
+      "30735010",
+      "26538645",
+      "33691555",
+      "33601256",
+      "39408650",
+      "41118670",
+      "28035409",
+      "33406386",
+      "41252784",
+      "30342186",
+      "28835385",
+      "25099075",
+      "28314773",
+      "40107017",
+      "39757650",
+      "36634873",
+      "38857948",
+      "30071128",
+      "41129706",
+      "28122344",
+      "39657243",
+      "25918130",
+      "40360040",
+      "27192495",
+      "23347118"
+    ],
+    "review": [
+      "41482142",
+      "26516076",
+      "40911259",
+      "35505025",
+      "31022969",
+      "33403898",
+      "40746900",
+      "20694660",
+      "27634172",
+      "39241669",
+      "22549716",
+      "25640271",
+      "41485624",
+      "33808001",
+      "40815486",
+      "40422216",
+      "32603894",
+      "40888913",
+      "30288023",
+      "30556750",
+      "26122708",
+      "39020084",
+      "28502971",
+      "40665070",
+      "27263465",
+      "26319434",
+      "33922165",
+      "24200599",
+      "33656904",
+      "30674246",
+      "24851839",
+      "24142871",
+      "25014534",
+      "21251164",
+      "40544135",
+      "17376285",
+      "35011412",
+      "36086898",
+      "41206404",
+      "29450944",
+      "33691555",
+      "39408650",
+      "41118670",
+      "25099075",
+      "40107017",
+      "38857948",
+      "25918130"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-2952(25)00885-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

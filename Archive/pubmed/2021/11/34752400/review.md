@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose ACNN, an attention-augmented convolutional neural network, to predict transcription factor binding sites (TFBSs) using DNA sequence and histone modification features. The method incorporates private and shared CNN modules with adversarial training to learn cell-type-specific and cross-cell-type common features. The authors claim superior performance over existing methods on 253 ChIP-seq datasets, improved prediction from attention-augmented layers and adversarial training, better performance with limited labeled data, and interpretability via motif visualization of convolution kernels.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or visualization examples are provided
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameter settings, baseline method names and versions, evaluation metrics, statistical significance tests, dataset split procedures, motif visualization figures, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to TFBS prediction by combining attention mechanisms with adversarial training for cross-cell-type feature learning. However, the evidence provided in the abstract is insufficient to evaluate the validity of the performance claims. No quantitative results, statistical comparisons, or methodological details are visible. The core claims of outperformance and improved generalizability cannot be assessed from the supplied material. The work may be of interest to computational biologists and machine learning researchers, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those developing deep learning methods for TFBS prediction and motif discovery. Researchers interested in transfer learning and domain adaptation for genomic data may also find the adversarial training approach relevant. The cross-cell-type common feature learning aspect could appeal to those studying cell-type-specific gene regulation.
+- **Major strengths** The proposed architecture addresses a recognized limitation in existing methods, namely the neglect of common features across cell types. The combination of attention-augmented convolution for sequence context and adversarial training for feature sharing is conceptually reasonable. The inclusion of interpretability via motif visualization is a positive feature for biological validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results on 253 ChIP-seq datasets show that ACNN outperforms other existing methods."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that ACNN outperforms other existing methods on 253 ChIP-seq datasets, but no quantitative performance metrics, baseline method names, or statistical significance values are provided. Without these, the claim of outperformance is unverifiable.
+  - **Why it matters** The central contribution of the paper is the claimed performance improvement. If the comparison is not rigorously established with appropriate metrics and statistical tests, the scientific value of the method cannot be determined.
+  - **Resolution test** Provide in the abstract or full text the specific evaluation metrics (e.g., AUC, AUPRC), the names and versions of baseline methods, the number of datasets used for comparison, and the results of statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing ACNN to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "ACNN uses attention-augmented convolutional layers to capture global and local contexts in DNA sequences and employs the convolutional layers to capture features of histone modification markers."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how the attention-augmented convolutional layers are implemented, how sequence and histone modification features are integrated, or how the private and shared CNN modules are structured and trained. The adversarial training mechanism is mentioned but not specified in terms of the discriminator architecture or loss functions.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without sufficient architectural and training details, other researchers cannot implement or validate the method, and reviewers cannot assess whether the design choices are sound.
+  - **Resolution test** Provide a detailed methods section including layer dimensions, attention mechanism specifics, fusion strategy for sequence and histone features, adversarial training setup, and optimization details. If space is limited, reference a publicly available code repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability claim
+  - **Claim pointer** "Moreover, in the case of limited labeled data, ACNN also performs better than a baseline method."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of improved performance with limited labeled data is presented without specifying the baseline method, the amount of labeled data used, the evaluation protocol, or the performance difference. The term "baseline method" is ambiguous.
+  - **Why it matters** The limited-data scenario is a practically important use case for TFBS prediction, as labeled data are often scarce. If this claim is not rigorously supported, the practical utility of the method is overstated.
+  - **Resolution test** Specify the baseline method, the range of training set sizes tested, the evaluation metric, and the magnitude of improvement. Provide learning curves or a table showing performance as a function of labeled data amount.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Interpretability evidence
+  - **Affected element** Claim of interpretability via motif visualization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that convolution kernels are visualized as motifs to explain interpretability, but no examples or validation of these motifs against known TF binding motifs are provided.
+  - **Required correction** Include a figure showing example motifs with comparison to known motifs from databases such as JASPAR or TRANSFAC, and report the enrichment or similarity scores.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Description of the 253 ChIP-seq datasets
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify which transcription factors, cell types, or histone modification markers are included in the 253 datasets, nor the data preprocessing steps.
+  - **Required correction** Provide a summary of the datasets used, including the number of unique TFs, cell types, and histone marks, and describe the preprocessing pipeline in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Baseline selection
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract refers to "other existing methods" without naming them, making it impossible to assess whether the comparison is fair or comprehensive.
+  - **Required correction** List the baseline methods explicitly and justify their selection. Include recent deep learning methods for TFBS prediction to ensure the comparison is current.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and a specified baseline for the limited-data claim means the core performance and generalizability claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The combination of attention-augmented convolution with adversarial training for cross-cell-type feature learning appears novel in the context of TFBS prediction, though the abstract does not allow a full assessment of novelty relative to the latest literature. Scientific importance: TFBS prediction is a relevant problem in regulatory genomics, and addressing cross-cell-type common features is a meaningful contribution if validated. Interdisciplinary readership: The work bridges machine learning and genomics, which could attract readers from both communities, but the abstract is too technical for a broad audience without more context on the biological significance. Technical soundness: Cannot be assessed from the abstract alone; the architecture and training details are not described. Readability for nonspecialists: The abstract assumes familiarity with deep learning and genomics terminology, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising, but the abstract lacks the quantitative and methodological detail necessary to support the performance and generalizability claims. A revised version with full methods, results, and statistical analyses could change this assessment.

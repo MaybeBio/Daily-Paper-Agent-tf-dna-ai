@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35776722",
+  "title": "Single-cell specific and interpretable machine learning models for sparse scChIP-seq data imputation.",
+  "authors": "Albrecht, Steffen; Andreani, Tommaso; Andrade-Navarro, Miguel A; Fontaine, Jean Fred",
+  "journal": "PloS one",
+  "published_date": "2022-07-02",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于机器学习的scChIP-seq数据填补方法SIMPA，虽涉及蛋白-DNA互作区域填补，但核心是单细胞数据填补而非TF-DNA结合机制建模，方法可迁移但深度不足。",
+  "abstract": "MOTIVATION: Single-cell Chromatin ImmunoPrecipitation DNA-Sequencing (scChIP-seq) analysis is challenging due to data sparsity. High degree of sparsity in biological high-throughput single-cell data is generally handled with imputation methods that complete the data, but specific methods for scChIP-seq are lacking. We present SIMPA, a scChIP-seq data imputation method leveraging predictive information within bulk data from the ENCODE project to impute missing protein-DNA interacting regions of target histone marks or transcription factors. RESULTS: Imputations using machine learning models trained for each single cell, each ChIP protein target, and each genomic region accurately preserve cell type clustering and improve pathway-related gene identification on real human data. Results on bulk data simulating single cells show that the imputations are single-cell specific as the imputed profiles are closer to the simulated cell than to other cells related to the same ChIP protein target and the same cell type. Simulations also show that 100 input genomic regions are already enough to train single-cell specific models for the imputation of thousands of undetected regions. Furthermore, SIMPA enables the interpretation of machine learning models by revealing interaction sites of a given single cell that are most important for the imputation model trained for a specific genomic region. The corresponding feature importance values derived from promoter-interaction profiles of H3K4me3, an activating histone mark, highly correlate with co-expression of genes that are present within the cell-type specific pathways in 2 real human and mouse datasets. The SIMPA's interpretable imputation method allows users to gain a deep understanding of individual cells and, consequently, of sparse scChIP-seq datasets. AVAILABILITY AND IMPLEMENTATION: Our interpretable imputation algorithm was implemented in Python and is available at https://github.com/salbrec/SIMPA.",
+  "abstract_zh": "动机：单细胞染色质免疫沉淀DNA测序（scChIP-seq）分析因数据稀疏性而具有挑战性。生物高通量单细胞数据中的高度稀疏性通常通过填补数据的方法来处理，但针对scChIP-seq的特异性方法尚缺乏。我们提出SIMPA，一种scChIP-seq数据填补方法，利用ENCODE项目中批量数据内的预测信息来填补目标组蛋白修饰或转录因子的缺失蛋白质-DNA相互作用区域。结果：使用为每个单细胞、每个ChIP蛋白靶标和每个基因组区域训练的机器学习模型进行的填补，在真实人类数据上准确保留了细胞类型聚类，并改善了通路相关基因的识别。模拟单细胞的批量数据结果表明，填补具有单细胞特异性，因为填补后的谱图更接近模拟细胞，而非与同一ChIP蛋白靶标和同一细胞类型相关的其他细胞。模拟还显示，100个输入基因组区域已足以训练单细胞特异性模型，用于填补数千个未检测区域。此外，SIMPA通过揭示给定单细胞中对特定基因组区域训练的填补模型最重要的相互作用位点，实现了机器学习模型的解释。从H3K4me3（一种激活型组蛋白修饰）的启动子-相互作用谱中导出的相应特征重要性值，在2个真实人类和小鼠数据集中，与细胞类型特异性通路内基因的共表达高度相关。SIMPA的可解释填补方法使用户能够深入了解单个细胞，从而理解稀疏的scChIP-seq数据集。可用性和实现：我们的可解释填补算法用Python实现，可在https://github.com/salbrec/SIMPA获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35776722/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35776722/",
+  "paper_page_path": "papers/pubmed/35776722/index.html"
+}

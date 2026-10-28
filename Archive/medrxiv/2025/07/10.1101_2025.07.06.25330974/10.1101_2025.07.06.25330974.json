@@ -1,0 +1,146 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.07.06.25330974",
+  "title": "MOKA: A pipeline for multi-omics bridged SNP-set kernel association test",
+  "doi": "10.1101/2025.07.06.25330974",
+  "abstract": "The explosion of genomic and multi-omics data has created a need for scalable, reproducible tools that integrate functional annotations into genome-wide association studies (GWAS). We introduce multi-omics data bridged Kernel Association test (MOKA) pipeline, a Snakemake-based workflow that automates SNP-set kernel-based association testing by incorporating multi-omics data, including gene expression, transcription factor binding, evolutionary conservation scores and neural network-derived features. This data-bridged architecture enhances variant prioritization and aggregation, improving statistical power in GWAS. MOKA supports population structure correction via spectral decomposition, parallel computation, and post-GWAS analyses, including visualization, Gene Ontology annotation, pathway enrichment, and validation. As a use case, we applied MOKA to a schizophrenia GWAS cohort, identified 89 Bonferroni-significant genes, with a 15.7% validation rate in disease-specific DisGeNET database and enrichment in pathways relevant to neuropsychiatric disease. MOKA provides a robust, scalable, and extensible framework for functional multi-omics integration in genetic studies. It is open-source and available at https://github.com/davidenoma/moka .",
+  "authors": [
+    "Enoma D",
+    "Wang D",
+    "Kemogne Kamdoum AG",
+    "Polo RO",
+    "Long Q",
+    "He J"
+  ],
+  "published_date": "2025-07-07",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.07.06.25330974",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.07.06.25330974.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1048051",
+    "raw_record": {
+      "id": "PPR1048051",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.06.25330974",
+      "title": "MOKA: A pipeline for multi-omics bridged SNP-set kernel association test",
+      "authorString": "Enoma D, Wang D, Kemogne Kamdoum AG, Polo RO, Long Q, He J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Enoma D",
+            "lastName": "Enoma",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Wang D",
+            "lastName": "Wang",
+            "firstName": "Dinghao",
+            "initials": "D"
+          },
+          {
+            "fullName": "Kemogne Kamdoum AG",
+            "lastName": "Kemogne Kamdoum",
+            "firstName": "Ariel Ghislain",
+            "initials": "AG"
+          },
+          {
+            "fullName": "Polo RO",
+            "lastName": "Polo",
+            "firstName": "Rodrigo Ortega",
+            "initials": "RO"
+          },
+          {
+            "fullName": "Long Q",
+            "lastName": "Long",
+            "firstName": "Quan",
+            "initials": "Q"
+          },
+          {
+            "fullName": "He J",
+            "lastName": "He",
+            "firstName": "Jingni",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3411-923X"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The explosion of genomic and multi-omics data has created a need for scalable, reproducible tools that integrate functional annotations into genome-wide association studies (GWAS). We introduce multi-omics data bridged Kernel Association test (MOKA) pipeline, a Snakemake-based workflow that automates SNP-set kernel-based association testing by incorporating multi-omics data, including gene expression, transcription factor binding, evolutionary conservation scores and neural network-derived features. This data-bridged architecture enhances variant prioritization and aggregation, improving statistical power in GWAS. MOKA supports population structure correction via spectral decomposition, parallel computation, and post-GWAS analyses, including visualization, Gene Ontology annotation, pathway enrichment, and validation. As a use case, we applied MOKA to a schizophrenia GWAS cohort, identified 89 Bonferroni-significant genes, with a 15.7% validation rate in disease-specific DisGeNET database and enrichment in pathways relevant to neuropsychiatric disease. MOKA provides a robust, scalable, and extensible framework for functional multi-omics integration in genetic studies. It is open-source and available at https://github.com/davidenoma/moka .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/07/07/2025.07.06.25330974.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.06.25330974"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41417631",
+            "reference": "G3 (Bethesda, Md.). \n    2025 Dec;:jkaf296",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-13",
+      "firstPublicationDate": "2025-07-07",
+      "firstIndexDate": "2025-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

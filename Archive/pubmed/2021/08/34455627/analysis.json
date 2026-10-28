@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34455627",
+  "title": "RF-SVM: Identification of DNA-binding proteins based on comprehensive feature representation methods and support vector machine.",
+  "authors": "Zhang, Yanping; Ni, Jianwei; Gao, Ya",
+  "journal": "Proteins",
+  "published_date": "2021-08-30",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用随机森林特征选择与SVM分类器预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列特征、无三维互作建模或TF-DNA特异性机制，方法可迁移但深度有限。",
+  "abstract": "Protein-DNA interactions play an important role in biological progress, such as DNA replication, repair, and modification processes. In order to have a better understanding of its functions, the one of the most important steps is the identification of DNA-binding proteins. We propose a DNA-binding protein predictor, namely, RF-SVM, which contains four types features, that is, pseudo amino acid composition (PseAAC), amino acid distribution (AAD), adjacent amino acid composition frequency (ACF) and Local-DPP. Random Forest algorithm is utilized for selecting top 174 features, which are established the predictor model with the support vector machine (SVM) on training dataset UniSwiss-Tr. Finally, RF-SVM method is compared with other existing methods on test dataset UniSwiss-Tst. The experimental results demonstrated that RF-SVM has accuracy of 84.25%. Meanwhile, we discover that the physicochemical properties of amino acids for OOBM770101(H), CIDH920104(H), MIYS990104(H), NISK860101(H), VINM940103(H), and SNEP660101(A) have contribution to predict DNA-binding proteins. The main code and datasets can gain in https://github.com/NiJianWei996/RF-SVM.",
+  "abstract_zh": "蛋白质-DNA相互作用在生物过程中扮演重要角色，如DNA复制、修复和修饰过程。为了更好地理解其功能，最关键步骤之一是识别DNA结合蛋白。我们提出了一种DNA结合蛋白预测器，即RF-SVM，它包含四种类型的特征，即伪氨基酸组成（PseAAC）、氨基酸分布（AAD）、相邻氨基酸组成频率（ACF）和Local-DPP。利用随机森林算法选择前174个特征，并在训练数据集UniSwiss-Tr上使用支持向量机（SVM）建立预测模型。最后，将RF-SVM方法与其他现有方法在测试数据集UniSwiss-Tst上进行比较。实验结果表明，RF-SVM的准确率为84.25%。同时，我们发现氨基酸的理化性质，如OOBM770101(H)、CIDH920104(H)、MIYS990104(H)、NISK860101(H)、VINM940103(H)和SNEP660101(A)，对预测DNA结合蛋白有贡献。主要代码和数据集可在https://github.com/NiJianWei996/RF-SVM获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34455627/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34455627/",
+  "paper_page_path": "papers/pubmed/34455627/index.html"
+}

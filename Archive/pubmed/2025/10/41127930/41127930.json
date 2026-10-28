@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "41127930",
+    "doi": "10.1111/cts.70350",
+    "title": "AI-Driven Variant Annotation for Precision Oncology in Breast Cancer."
+  },
+  "content": {
+    "abstract": "Interpreting the functional impact of genomic variants remains a major challenge in precision oncology, particularly in breast cancer, where many variants of unknown significance lack clear therapeutic guidance. Current annotation strategies focus on frequent driver mutations, leaving rare or understudied variants unclassified and clinically uninformative. Here, we present an Artificial Intelligence/Machine Learning (AI/ML)-driven framework that systematically identifies variants associated with key breast cancer phenotypes, including ESR1 and EZH2 activity, by integrating genomic, transcriptomic, structural, and drug response data. Using CCLE/DepMap and TCGA datasets, we analyzed > 12,000 variants across breast cancer genomes, identifying structurally clustered mutations that share functional consequences with well-characterized oncogenic drivers. This approach reveals that mutations in PIK3CA, TP53, and other genes strongly associate with ESR1 signaling, challenging conventional assumptions about endocrine therapy response. Additionally, EZH2-associated variants emerge in unexpected genomic contexts, suggesting new targets for epigenetic therapies. By shifting from frequency-based to structure-informed classification, we expand the set of potentially actionable mutations, enabling improved patient stratification and drug repurposing strategies. This work provides a scalable, clinically relevant method to accelerate variant annotation, offering new insights into drug sensitivity and resistance mechanisms. Future validation efforts will refine these predictions and integrate clinical outcomes to guide personalized treatment strategies. Our findings highlight the transformative potential of AI/ML in redefining cancer variant interpretation, bridging the gap between genomics, functional biology, and precision medicine.",
+    "keywords": [
+      "algorithms",
+      "cancers",
+      "classification",
+      "computational biology",
+      "genomics",
+      "proteins",
+      "therapeutics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/drug therapy/pathology",
+      "Female",
+      "*Precision Medicine/methods",
+      "Mutation",
+      "Estrogen Receptor alpha/genetics",
+      "*Artificial Intelligence",
+      "Machine Learning",
+      "Enhancer of Zeste Homolog 2 Protein/genetics",
+      "Genomics/methods",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shukla, Kriti",
+        "Wang, Yue",
+        "Spanheimer, Philip M",
+        "Brunk, Elizabeth"
+      ],
+      "short_names": [
+        "Shukla K",
+        "Wang Y",
+        "Spanheimer PM",
+        "Brunk E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9201-1417",
+        "ORCID: 0000-0001-8644-0178"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Integrative Program for Biological and Genome Sciences (IBGS), University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+        "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shukla, Kriti",
+        "short_name": "Shukla K",
+        "identifiers": [
+          "0000-0001-9201-1417"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Spanheimer, Philip M",
+        "short_name": "Spanheimer PM",
+        "identifiers": [
+          "0000-0001-8644-0178"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Brunk, Elizabeth",
+        "short_name": "Brunk E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Integrative Program for Biological and Genome Sciences (IBGS), University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+          "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and translational science"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Sci"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 06:28",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "41928241"
+    ],
+    "refs": [
+      "38635316",
+      "38230766",
+      "37849038",
+      "36726126",
+      "36672617",
+      "35923930",
+      "35701440",
+      "34360578",
+      "32127026",
+      "31318440",
+      "31068700",
+      "30041611",
+      "29289555",
+      "28753430",
+      "28574982",
+      "28361033",
+      "26836308",
+      "26771021",
+      "26656090",
+      "26482930",
+      "25816289",
+      "24995866",
+      "24234437",
+      "24071849",
+      "23993102",
+      "21947828",
+      "21677677",
+      "20232141",
+      "20182602",
+      "17726467",
+      "17724462",
+      "16199517",
+      "15467468",
+      "14668813",
+      "14500907"
+    ],
+    "similar": [
+      "41127930",
+      "42475469",
+      "40884685",
+      "42352887",
+      "40192953",
+      "39450552",
+      "42065059",
+      "30826563",
+      "27384237",
+      "27551012",
+      "42366266",
+      "42500587",
+      "39435580",
+      "42162670",
+      "41491538",
+      "40517231",
+      "31647985",
+      "42274624",
+      "35043155",
+      "41936855",
+      "42123604",
+      "30736836",
+      "42117066",
+      "40496857",
+      "41520911",
+      "31780379",
+      "34750410",
+      "36107319",
+      "28945887",
+      "42134177",
+      "40665690",
+      "38895905",
+      "40073368",
+      "41616992",
+      "40680990",
+      "41755349",
+      "33001984",
+      "41524544",
+      "30053901",
+      "42253501",
+      "40553344",
+      "41645653",
+      "29212856",
+      "40806432",
+      "34392831",
+      "40868090",
+      "42183196",
+      "40540857",
+      "38904542",
+      "41263939",
+      "29789325",
+      "32811538",
+      "41355924",
+      "39530636",
+      "42410432",
+      "40297138",
+      "40308601",
+      "38146120",
+      "40369610",
+      "38401248",
+      "34849446",
+      "29533785",
+      "40713639",
+      "40532957",
+      "42278564",
+      "33274848",
+      "39837431",
+      "39684756",
+      "40228444",
+      "25810432",
+      "42351448",
+      "38106140",
+      "41338003",
+      "29736566",
+      "40216368",
+      "41345436",
+      "41266662",
+      "30158597",
+      "41716413",
+      "32014063",
+      "41052914",
+      "32228365",
+      "38836758",
+      "41274166",
+      "39659251",
+      "41831466",
+      "41555446",
+      "38670045",
+      "39962436",
+      "40597935",
+      "26099165",
+      "41265027",
+      "42481850",
+      "26455641",
+      "40577785",
+      "34739691",
+      "38631437",
+      "31685261",
+      "41664643",
+      "34866317"
+    ],
+    "review": [
+      "41127930",
+      "40884685",
+      "39450552",
+      "42065059",
+      "27384237",
+      "42366266",
+      "42500587",
+      "39435580",
+      "40517231",
+      "31647985",
+      "42274624",
+      "41936855",
+      "42123604",
+      "41520911",
+      "42134177",
+      "40665690",
+      "41616992",
+      "40680990",
+      "41755349",
+      "41524544",
+      "42253501",
+      "41645653",
+      "40806432",
+      "34392831",
+      "42183196",
+      "40540857",
+      "39530636",
+      "42410432",
+      "38146120",
+      "38401248",
+      "40713639",
+      "42278564",
+      "39837431",
+      "40228444",
+      "42351448",
+      "29736566",
+      "40216368",
+      "41266662",
+      "41052914",
+      "32228365",
+      "38670045",
+      "41265027",
+      "42481850",
+      "26455641",
+      "34739691",
+      "38631437"
+    ],
+    "pmc": [
+      "12547363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41127930/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cts.70350",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41127930",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

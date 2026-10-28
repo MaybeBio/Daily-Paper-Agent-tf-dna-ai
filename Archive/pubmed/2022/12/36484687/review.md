@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, experimental design, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose two computational approaches (XGBoost-based and CNN-based) for predicting and characterizing cell-type-specific and shared transcription factor binding sites by integrating multiple feature types, and demonstrate improved performance over competing methods on three classification tasks using ChIP-seq data from GM12878 and K562 cell lines.
+- **Visible evidence base** Main text including Methods (Sections 2.1-2.5), Results (Sections 3.1-3.4), Conclusions (Section 4), Figures 1-5 referenced, Supplementary Figures S2, S3, S5, S8 and Supplementary Texts S1-S5 referenced
+- **Missing materials affecting confidence** Supplementary data files, actual figures, detailed hyperparameter settings, source code, and complete benchmark results
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored problem in regulatory genomics, namely the computational discrimination of cell-type-specific versus shared TF binding sites. The integration of multiple feature types is sensible, and the comparison against several baselines is a useful contribution. However, the manuscript has several methodological weaknesses that need to be addressed before the core claims can be considered fully established. These include incomplete description of the CNN architecture, lack of statistical significance testing for performance comparisons, potential data leakage in the cross-factor prediction setup, and insufficient detail on the SHAP analysis. The generalization claims are partially supported but require additional validation.
+- **Who would be interested in the results, and why** Researchers working on transcription factor binding prediction, regulatory genomics, and computational methods for cell-type-specific gene regulation. The work may also be of interest to those developing machine learning approaches for genomic sequence analysis, particularly in the context of integrating heterogeneous feature types.
+- **Major strengths** The problem is well-motivated and timely. The authors address a genuinely difficult task that is distinct from standard TFBS prediction. The integration of diverse feature types (sequence, motif, chromatin, 3D interaction) is comprehensive. The use of SHAP values for model interpretation is a positive step toward biological insight. The cross-factor generalization analysis is a valuable addition that goes beyond simple benchmark comparisons.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their proposed approaches "significantly outperform other competing methods on three classification tasks" (Results section, Section 3.3).
+  - **Evidence pointer** Section 3.3, Figure 4, Supplementary Figure S5
+  - **Concern** The claim of "significant" improvement is not supported by any statistical testing. The manuscript reports performance metrics (AUC, PRAUC, balanced accuracy, macro F1) but provides no confidence intervals, standard deviations across multiple runs, or statistical significance tests (e.g., paired tests across replicates or cross-validation folds). Without such analysis, it is impossible to determine whether the observed performance differences are meaningful or within the range of random variation.
+  - **Why it matters** The central claim of the paper is that the proposed methods outperform existing approaches. Without statistical validation, this claim is not rigorously established. This is particularly important given that the performance differences shown in Figure 4 appear modest for some comparisons.
+  - **Resolution test** Provide statistical significance testing (e.g., paired bootstrap or Wilcoxon signed-rank test across multiple random seeds or cross-validation folds) for all performance comparisons, and report confidence intervals for the main metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we applied a split-by-chromosome strategy to divide all selected peaks into training, test and validation data, where Chromosomes 8 and 16 were used as the test set" (Section 2.2).
+  - **Evidence pointer** Section 2.2
+  - **Concern** The split-by-chromosome strategy is described, but the rationale for choosing Chromosomes 8 and 16 as the test set is not provided. More critically, the manuscript does not clarify whether the same chromosome split is used consistently across all methods being compared, and whether the hyperparameter selection (e.g., grid search for XGBoost and CNN) was performed using the validation set without any influence from the test set. If hyperparameters were selected based on test set performance, this would constitute data leakage and inflate reported performance.
+  - **Why it matters** Proper train/validation/test separation is fundamental to reliable performance estimation. Any leakage from the test set into model selection would compromise the validity of all reported results and the comparisons with baselines.
+  - **Resolution test** Clarify the hyperparameter selection procedure, explicitly state that the test set was not used for any model selection decisions, and provide details on how the validation set was used. If the chromosome split was chosen based on some criterion, justify that choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe the CNN-based model as "composed of three convolutional blocks in which each block is made up of a convolutional layer, a ReLU layer, a max-pooling layer as well as a dropout layer, and an output block" (Section 2.5.2).
+  - **Evidence pointer** Section 2.5.2
+  - **Concern** The CNN architecture is described only at a high level. Critical details are missing, including the number of filters, filter sizes, stride, pooling size, dropout rate, number of units in the fully connected layers, activation functions beyond ReLU, and the exact input representation (e.g., how the 7 channels are constructed). The manuscript states "All details about setting parameters can refer to our released code," but the code is not provided for review and the manuscript should be self-contained for reproducibility.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology papers. Without complete architectural details, other researchers cannot reimplement the method or assess whether the architecture choices are appropriate. This also limits the ability to evaluate whether the comparison with baselines is fair.
+  - **Resolution test** Provide a complete description of the CNN architecture in the main text or supplementary materials, including all hyperparameters, layer dimensions, and the exact input encoding scheme.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "chromatin features play a main role in the cell-type-specific binding sites while motif features play a main role in the shared binding sites" (Section 3.3, Conclusions).
+  - **Evidence pointer** Section 3.3, Supplementary Text S3
+  - **Concern** The SHAP analysis is described only briefly, and the detailed results are relegated to Supplementary Text S3, which is not available for review. The claim about feature importance is central to the "characterization" aspect of the paper, yet the evidence is not presented in sufficient detail in the main text. It is unclear how SHAP values were aggregated across the 10 factors, whether the analysis was performed on the test set, and how robust the findings are across different factors.
+  - **Why it matters** The characterization of which features drive cell-type-specific versus shared binding is a key contribution of the paper. If this claim is not well-supported, the paper's value is substantially diminished.
+  - **Resolution test** Present the SHAP analysis results in the main text or provide sufficient detail in the supplementary materials, including the aggregation method, variability across factors, and a clear interpretation of the feature importance patterns.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "our proposed approaches have a good generalization ability of cross-factor TFBS prediction" (Section 3.4).
+  - **Evidence pointer** Section 3.4, Figure 5
+  - **Concern** The cross-factor prediction experiment trains on one factor and tests on others. However, the manuscript does not address the potential confounding effect of overlapping peaks between factors. The authors acknowledge that "overlapping peaks of different binding datasets can also influence the prediction performance since those overlapping peaks have the same chromatin environment and yield similar feature sets," but they do not quantify this effect or control for it in the analysis. The high performance on factors with many shared peaks (e.g., MAX and MYC) may be partly driven by this overlap rather than by genuine generalization of learned patterns.
+  - **Why it matters** The generalization claim is an important part of the paper's contribution. If the observed cross-factor performance is inflated by overlapping peaks, the conclusion that "there exist some similar patterns of TFBS between different binding factors" may be overstated.
+  - **Resolution test** Perform a controlled analysis that excludes overlapping peaks from the evaluation, or explicitly quantify the contribution of overlapping peaks to the reported performance. Discuss how the results change when this confounding factor is removed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2, Equation (1)
+  - **Evidence pointer** Section 2.2
+  - **Issue** The normalization equation is presented without clear explanation of its purpose and derivation. The variables M, N, and L are defined, but the rationale for this particular normalization scheme is not explained.
+  - **Required correction** Add a brief explanation of why this normalization is needed and how it relates to standard approaches for normalizing read counts (e.g., RPKM/FPKM).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4.2, Motif features
+  - **Evidence pointer** Section 2.4.2
+  - **Issue** The description of motif feature generation is incomplete. The manuscript states that PWMs are scored against sequences and the top three scores are selected, but it does not specify the scoring function (e.g., log-likelihood ratio, information content) or how the number of relevant factors (n) varies across the 10 binding factors.
+  - **Required correction** Provide the exact scoring formula and report the range of n values across the 10 factors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5.1, XGBoost classifier
+  - **Evidence pointer** Section 2.5.1
+  - **Issue** The grid-search parameter space is described only partially. The manuscript lists "max depth" and "learning rate" as examples but does not provide the complete set of hyperparameters searched or the final selected values for each of the 10 factors.
+  - **Required correction** Provide the full hyperparameter grid and the final selected parameters for each model in the supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 3.1, Figure 2
+  - **Evidence pointer** Section 3.1
+  - **Issue** The description of Figure 2D states that "the Pearson correlation of shared binding peaks is almost all higher than that of cell-type-specific binding peaks," but the figure itself is not available for review. The statistical basis for this claim (e.g., whether the difference is significant) is not provided.
+  - **Required correction** Add statistical testing for the comparison of Pearson correlations between shared and cell-type-specific peaks, and report the results in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.4, Figure 5
+  - **Evidence pointer** Section 3.4
+  - **Issue** The cross-factor prediction results are presented as averages, but the variability across the 10 factors is not reported. Given the heterogeneity in performance visible in the described results (e.g., high performance on MAX/MYC, lower on others), it is important to know the spread.
+  - **Required correction** Report standard deviations or per-factor results for the cross-factor prediction experiments.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction is dense and assumes significant background knowledge. Terms such as "gapped k-mer features," "chromatin landscapes," and "3D chromatin interactions" are used without brief definitions for readers outside the immediate field.
+  - **Required correction** Add brief definitions or explanatory phrases for these terms when first introduced.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, Data collection
+  - **Evidence pointer** Section 2.1
+  - **Issue** The manuscript states that peaks were called using SPP with default parameters, but does not specify the significance threshold used for peak calling or how peaks from replicates were combined (e.g., intersection, union, or irreproducible discovery rate).
+  - **Required correction** Provide the peak calling threshold and the replicate handling strategy.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3, Multiple tasks
+  - **Evidence pointer** Section 2.3
+  - **Issue** The manuscript does not report the number of samples (peaks) in each class for each of the three tasks. This information is important for assessing class balance and the appropriateness of the chosen evaluation metrics.
+  - **Required correction** Report the number of peaks in each class for each task and each factor in the supplementary materials.
+
+## Risk / unsupported claims
+- The claim that the proposed methods "significantly outperform" competing methods is not supported by statistical testing (R1-M1).
+- The claim that "chromatin features play a main role in the cell-type-specific binding sites while motif features play a main role in the shared binding sites" is based on SHAP analysis whose details are not available for review (R1-M4).
+- The claim of "good generalization ability" for cross-factor prediction is potentially confounded by overlapping peaks between factors, and this effect is not quantified (R1-M5).
+- The claim that "there exist some similar patterns of TFBS between different binding factors in the same cellular environment" is an inference from cross-factor prediction results that may be inflated by the confounding factor described above.
+- The performance comparison with "competing methods" cannot be fully evaluated because the implementation details of the baselines (e.g., hyperparameter tuning for LR, SVC, RF, GBDT, LightGBM) are not described.
+- The claim that "CNN-all performs much better than CNN-plus on all tasks" is presented without statistical validation or reporting of variability across runs.
+- The biological interpretation of the results, particularly the claim that DNase accessibility is the most important feature, is plausible but not rigorously validated against known biology or independent datasets.

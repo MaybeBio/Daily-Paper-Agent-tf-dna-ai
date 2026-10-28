@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DeepZF, a deep transfer learning pipeline that predicts which C2H2-ZF domains bind DNA and their DNA-binding preferences from amino acid sequence alone. They report compiling the first in vivo dataset of binding and non-binding ZFs, a novel protein transformer classifier achieving an average AUROC of 0.71, a transfer learning model achieving average Pearson correlation greater than 0.94 over three DNA binding positions, and outperformance of extant methods in motif similarity prediction (average Pearson correlation 0.42 versus less than 0.1). They also claim interpretability analyses reveal biologically relevant binding principles.
+- **Visible evidence base** Abstract text only; no dataset descriptions, model architecture details, benchmark definitions, statistical tests, or code verification possible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, dataset construction details, model hyperparameters, training and evaluation protocols, baseline method specifications, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable contribution to the prediction of C2H2-ZF DNA-binding specificity, addressing a biologically important problem with a novel deep transfer learning approach. The reported performance metrics are promising, particularly the improvement over extant methods. However, the abstract alone provides insufficient detail to evaluate the rigor of the dataset construction, the validity of the evaluation methodology, the statistical significance of the reported improvements, and the biological interpretability claims. Several claims are presented without supporting quantitative context or comparison details, and the relationship between the different performance metrics is unclear. The work is of interest to computational biologists and experimentalists studying transcription factor DNA-binding specificity, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists developing deep learning methods for protein-DNA interaction prediction; experimental molecular biologists studying C2H2-ZF transcription factor specificity and gene regulation; researchers interested in transfer learning applications in genomics; bioinformaticians working on interpretability of deep models for biological sequence analysis.
+- **Major strengths** The problem is biologically important and technically challenging. The use of transfer learning to combine in vivo and in vitro datasets is a sensible strategy. The reported performance improvement over extant methods is substantial if the comparison is fair and properly controlled. The compilation of a novel in vivo dataset of binding and non-binding ZFs is a potentially valuable community resource. The application of interpretability techniques to extract biological principles adds practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity and representativeness
+  - **Claim pointer** "To the best of our knowledge, we compiled the first in vivo dataset of binding and non-binding ZFs for training the first ZF-binding classifier."
+  - **Evidence pointer** Abstract only; dataset description not provided
+  - **Concern** The abstract claims the first in vivo dataset of binding and non-binding ZFs, but provides no information on the source of the data, the experimental assays used to define binding status, the number of ZFs included, the diversity of proteins and organisms represented, the criteria for labeling a ZF as binding versus non-binding, or the potential for label noise. Without this information, the validity and generalizability of the training data cannot be assessed.
+  - **Why it matters** The classifier's performance and the transfer learning results depend entirely on the quality and correctness of the training labels. If the in vivo binding definitions are inconsistent, incomplete, or biased, all downstream claims are compromised. The "first" claim also requires verification against existing literature.
+  - **Resolution test** Provide a detailed description of dataset construction, including source experiments, labeling criteria, number of samples, class balance, and any validation of label accuracy. Demonstrate that the dataset is representative of the diversity of C2H2-ZF proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation methodology and statistical rigor
+  - **Claim pointer** "Our classifier, which is based on a novel protein transformer, achieved an average AUROC of 0.71" and "achieved an average Pearson correlation greater than 0.94 over each of the three DNA binding positions" and "it achieved an average Pearson correlation of 0.42 in motif similarity compared with an average correlation smaller than 0.1 achieved by extant methods."
+  - **Evidence pointer** Abstract only; evaluation details not provided
+  - **Concern** The abstract reports multiple performance metrics but does not specify the evaluation protocol. Key questions include: how were train, validation, and test sets partitioned; was the test set held out at the protein level or the ZF level; were the same proteins represented in both training and testing; how many test instances were used; were confidence intervals or significance tests computed; and were the extant methods evaluated under identical conditions. The AUROC of 0.71 is modest and its practical utility is unclear without a baseline comparison. The Pearson correlation of 0.94 for DNA binding positions and 0.42 for motif similarity are presented without error bars or statistical significance.
+  - **Why it matters** Without a clear and rigorous evaluation protocol, the reported numbers cannot be interpreted. The improvement over extant methods could be due to data leakage, unfair comparison, or favorable test set selection. The difference between 0.42 and less than 0.1 is large, but its reliability depends on the number of test cases and the variance of the estimates.
+  - **Resolution test** Provide a detailed evaluation section describing data splits, cross-validation strategy, test set composition, number of test instances, statistical significance testing, and a fair comparison with extant methods under identical conditions. Report confidence intervals or standard deviations for all metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transfer learning contribution and model novelty
+  - **Claim pointer** "we took advantage of both in vivo and in vitro datasets to learn the recognition code of ZF-DNA binding through transfer learning. Our newly developed model, which is the first to utilize deep learning for the task"
+  - **Evidence pointer** Abstract only; model description not provided
+  - **Concern** The abstract claims novelty in applying deep learning to the ZF-DNA recognition code and in using transfer learning, but provides no details on the model architecture, the pre-training task, the fine-tuning procedure, the nature of the in vitro data, or how the transfer learning improves over training on in vivo data alone. The claim of being "the first" requires a thorough literature comparison. Without these details, the technical contribution cannot be evaluated.
+  - **Why it matters** The novelty claim is central to the paper's contribution. If the transfer learning approach is not clearly described or if similar methods exist, the significance of the work is diminished. The improvement from transfer learning needs to be demonstrated with an ablation study.
+  - **Resolution test** Provide a full description of the model architecture, pre-training and fine-tuning protocols, the in vitro dataset used, and an ablation study showing the contribution of transfer learning. Conduct a literature search to substantiate the "first" claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claims
+  - **Claim pointer** "By applying established interpretability techniques, we show that DeepZF inferred biologically relevant binding principles, such as the effect of amino acid residue positions on ZF DNA-binding potential."
+  - **Evidence pointer** Abstract only; interpretability analysis not provided
+  - **Concern** The abstract claims that interpretability techniques revealed biologically relevant principles, but provides no details on which techniques were used, how the results were validated, or what specific principles were discovered beyond a vague reference to residue position effects. The biological relevance of the findings is asserted without supporting evidence.
+  - **Why it matters** Interpretability claims are often difficult to substantiate and can be misleading if not rigorously validated. The claim that the model inferred biologically relevant principles needs to be supported by comparison with known biology or experimental validation.
+  - **Resolution test** Provide a detailed description of the interpretability methods, the specific findings, and a validation strategy that connects the findings to established biological knowledge or experimental data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of performance metrics
+  - **Affected element** Abstract results section
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract reports "average Pearson correlation greater than 0.94 over each of the three DNA binding positions" and "average Pearson correlation of 0.42 in motif similarity" without clarifying the relationship between these two metrics or the units of comparison. It is unclear whether the 0.42 is an average over the same test set or a different evaluation.
+  - **Required correction** Clarify the definitions of the two Pearson correlation metrics, the test sets used for each, and how they relate to the overall prediction task.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Baseline comparison details
+  - **Affected element** Abstract results section
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states DeepZF outperformed extant methods but does not name the methods compared or describe the comparison conditions. The reader cannot assess whether the comparison was fair or whether the extant methods were state-of-the-art at the time.
+  - **Required correction** Name the baseline methods, describe their implementations, and specify the evaluation conditions in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Availability statement completeness
+  - **Affected element** Availability section
+  - **Evidence pointer** Abstract only
+  - **Issue** The availability statement provides a GitHub link but does not specify the license, the programming language, or the dependencies. This limits reproducibility for potential users.
+  - **Required correction** Provide a clear license, a list of dependencies, and usage instructions in the repository and the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The dataset validity, evaluation rigor, and model novelty are not established from the abstract alone. These are essential to support the central claims of the paper.
+
+## Assessment against Nature-style criteria
+- **Originality** The abstract suggests a novel application of deep transfer learning to C2H2-ZF DNA-binding prediction and the compilation of a new in vivo dataset. However, the novelty of the model architecture and the transfer learning approach cannot be fully assessed without technical details. The "first" claims require verification.
+- **Scientific importance** The problem is of high importance given the central role of C2H2-ZF proteins in human gene regulation. Improved prediction of DNA-binding specificity could have broad implications for understanding transcriptional regulation and disease mechanisms. The potential impact is significant if the claims hold.
+- **Interdisciplinary readership** The work bridges computational biology, machine learning, and molecular biology. It would appeal to researchers in bioinformatics, genomics, and transcription factor biology. The abstract is written in a way that is accessible to these communities, though some technical terms may require background knowledge.
+- **Technical soundness** The technical soundness cannot be evaluated from the abstract. The reported metrics are promising, but the lack of methodological detail and statistical rigor prevents a definitive assessment. The evaluation protocol and dataset construction are critical unknowns.
+- **Readability for nonspecialists** The abstract is reasonably clear for a specialized audience but uses domain-specific terminology (e.g., AUROC, Pearson correlation, transfer learning) without explanation. For a broader Nature readership, additional context on the biological problem and the significance of the results would be needed.
+
+## Recommendation posture
+Currently not established from the provided evidence. The abstract presents a potentially important contribution, but the lack of methodological detail, dataset description, and statistical rigor prevents a definitive assessment. The authors should be encouraged to provide the full manuscript and supplementary materials for a complete review. If the technical concerns regarding dataset validity, evaluation methodology, and model novelty are resolved, the work could be considered supportive.

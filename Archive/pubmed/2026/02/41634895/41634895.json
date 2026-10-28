@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "41634895",
+    "doi": "10.1186/s40246-026-00916-z",
+    "title": "Multi-omics analysis and experiments validate the tumor-suppressive role of mitochondrial lipid metabolism gene ACSM5 in lung adenocarcinoma and its impact on the immune microenvironment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD) is the most prevalent subtype of non-small cell lung cancer, characterized by high incidence and poor prognosis. Mitochondrial lipid metabolism (MTLM) contributes to tumor proliferation and drug resistance by regulating lipid breakdown and energy supply and is strongly linked to prognosis in multiple cancers. Nevertheless, its impact on LUAD has yet to be clarified. METHODS: MTLM-associated genes were extracted from the MitoCarta 3.0 database and relevant publications. A four-gene prognostic model was formulated using Cox regression analysis, with individual gene contributions clarified through Shapley Additive Explanations (SHAP) analysis. The model was verified using The Cancer Genome Atlas and Gene Expression Omnibus datasets, and a nomogram incorporating clinical features was developed. Immunomicroenvironment characteristics and drug sensitivity were evaluated, leading to the identification of potential therapeutic agents. A competing endogenous RNAs (ceRNA) and transcription factor (TF) regulatory network was constructed for the core genes. Drug components targeting these core genes were identified through reverse pharmacology and molecular docking. Single-cell RNA sequencing (scRNA-seq) was carried out to analyze the expression of core genes across cellular subpopulations. Finally, the core gene ACSM5 was investigated for its prognostic value and immune regulatory role in LUAD, with its function further validated through clonogenic assays and Transwell experiments. RESULTS: A MTLM-related prognostic model incorporating ACSL4, ACSS3, CHPT1, and ACSM5 was established, with ACSM5 contributing most significantly to the model's prediction. Patients in the high-risk group had notably shorter survival than those in the low-risk group, and the risk score was identified as an independent prognostic factor. The nomogram, combining clinical features and risk scores, showed an AUC value of 0.712. Notable differences were detected between distinct risk groups in terms of immune microenvironment and drug sensitivity. The ceRNA network and TF regulatory network revealed upstream and downstream targets of the core genes. Reverse pharmacological analysis identified drugs and components affecting the CYP27A1 gene. Molecular docking results showed strong binding between CHPT1 and 3-methylcholanthrene and aztreonam. ScRNA-seq revealed the expression patterns of core genes at the single-cell level. High ACSM5 expression in LUAD was positively linked to prognosis, and ACSM5 was determined to be an independent prognostic factor for LUAD. Experimental results demonstrated that ACSM5 inhibits LUAD cell proliferation, invasion, and migration. CONCLUSION: The MTLM-based four-gene prognostic model developed in this study effectively predicts LUAD patient outcomes, with ACSM5 serving as the core prognostic gene. This model provides new theoretical support for personalized treatment and precise prognosis assessment in LUAD.",
+    "keywords": [
+      "ACSM5",
+      "Immune microenvironment",
+      "Lung adenocarcinoma",
+      "Mitochondrial lipid metabolism",
+      "Prognostic model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lipid Metabolism/genetics",
+      "*Adenocarcinoma of Lung/genetics/immunology/pathology/metabolism",
+      "*Tumor Microenvironment/genetics/immunology",
+      "*Lung Neoplasms/genetics/immunology/pathology",
+      "*Mitochondria/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "*Coenzyme A Ligases/genetics",
+      "Multiomics",
+      "Long-Chain-Fatty-Acid-CoA Ligase",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Sixuan",
+        "Tang, Bowen",
+        "Wei, Wujie",
+        "Li, Yuehua"
+      ],
+      "short_names": [
+        "Wu S",
+        "Tang B",
+        "Wei W",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China.",
+        "Oncology Department, The Third People's Hospital of Hubei Province, Affiliated Hospital of Jianghan University, Wuhan, China. weiwujie1982@163.com.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China. liyuehua2020@stu.usc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Sixuan",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Bowen",
+        "short_name": "Tang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Wujie",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The Third People's Hospital of Hubei Province, Affiliated Hospital of Jianghan University, Wuhan, China. weiwujie1982@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yuehua",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, 421001, Hengyang, China. liyuehua2020@stu.usc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genomics"
+    ],
+    "journal_abbrev": [
+      "Hum Genomics"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/04 11:32",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [
+      "42650107"
+    ],
+    "refs": [
+      "40962643",
+      "40745061",
+      "40625719",
+      "40457725",
+      "40253662",
+      "39069168",
+      "38996932",
+      "38773347",
+      "38656878",
+      "38577594",
+      "38462628",
+      "38455419",
+      "38361095",
+      "38273667",
+      "37614614",
+      "37377750",
+      "37324107",
+      "36989676",
+      "36852470",
+      "36841765",
+      "36691154",
+      "36682524",
+      "36305812",
+      "36169237",
+      "36144287",
+      "36051357",
+      "35898471",
+      "35801924",
+      "35787628",
+      "35710083",
+      "35498135",
+      "35435115",
+      "35176624",
+      "35169126",
+      "34839347",
+      "34260682",
+      "34257827",
+      "34017688",
+      "33793333",
+      "33434641",
+      "33174596",
+      "32943707",
+      "32470451",
+      "32210730",
+      "31242369",
+      "29592872",
+      "29493120",
+      "28475178",
+      "27043233",
+      "25990557",
+      "25691825",
+      "25605792",
+      "25082432",
+      "25079552",
+      "24151294",
+      "23070004",
+      "22588877",
+      "22455463",
+      "19216838",
+      "18641660",
+      "18447599",
+      "17202451",
+      "15608262",
+      "10592173"
+    ],
+    "similar": [
+      "41634895",
+      "42079738",
+      "41383634",
+      "39850883",
+      "40672941",
+      "41326474",
+      "41430351",
+      "41491011",
+      "41164190",
+      "41789655",
+      "42469385",
+      "41583466",
+      "41500779",
+      "40547013",
+      "41742055",
+      "39842163",
+      "39735553",
+      "41339815",
+      "40469299",
+      "41310864",
+      "40936758",
+      "42070266",
+      "42003422",
+      "40936936",
+      "42051516",
+      "41312363",
+      "39478862",
+      "42136962",
+      "41058683",
+      "41663976",
+      "38616208",
+      "41540361",
+      "40510359",
+      "42402362",
+      "41822495",
+      "42495647",
+      "38514598",
+      "39148731",
+      "41341805",
+      "41948338",
+      "39383787",
+      "42358820",
+      "39434164",
+      "38862217",
+      "40316986",
+      "39995658",
+      "41429196",
+      "41419978",
+      "41267103",
+      "39267056",
+      "40682067",
+      "38685772",
+      "42500572",
+      "39026674",
+      "41345972",
+      "41998631",
+      "36091041",
+      "41169155",
+      "42443661",
+      "42216531",
+      "34416861",
+      "37728413",
+      "41342545",
+      "40405133",
+      "41239716",
+      "39364403",
+      "42266684",
+      "42089585",
+      "39953119",
+      "39823156",
+      "42186940",
+      "40181976",
+      "42238598",
+      "41731832",
+      "41624864",
+      "40331946",
+      "39780110",
+      "34175738",
+      "40936767",
+      "41652128",
+      "38558328",
+      "41282991",
+      "41987806",
+      "34781924",
+      "40475775",
+      "39539551",
+      "41293172",
+      "39806313",
+      "41246332",
+      "40170009",
+      "42152077",
+      "41815152",
+      "40034678",
+      "39444861",
+      "40744665",
+      "40519919",
+      "40460484",
+      "39438534",
+      "40766320",
+      "41985273"
+    ],
+    "review": [
+      "41634895"
+    ],
+    "pmc": [
+      "12955334"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-026-00916-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41634895/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "35281842",
+    "doi": "10.3389/fgene.2022.795717",
+    "title": "Host Genome-Metagenome Analyses Using Combinatorial Network Methods Reveal Key Metagenomic and Host Genetic Features for Methane Emission and Feed Efficiency in Cattle."
+  },
+  "content": {
+    "abstract": "Cattle production is one of the key contributors to global warming due to methane emission, which is a by-product of converting feed stuff into milk and meat for human consumption. Rumen hosts numerous microbial communities that are involved in the digestive process, leading to notable amounts of methane emission. The key factors underlying differences in methane emission between individual animals are due to, among other factors, both specific enrichments of certain microbial communities and host genetic factors that influence the microbial abundances. The detection of such factors involves various biostatistical and bioinformatics methods. In this study, our main objective was to reanalyze a publicly available data set using our proprietary Synomics Insights platform that is based on novel combinatorial network and machine learning methods to detect key metagenomic and host genetic features for methane emission and residual feed intake (RFI) in dairy cattle. The other objective was to compare the results with publicly available standard tools, such as those found in the microbiome bioinformatics platform QIIME2 and classic GWAS analysis. The data set used was publicly available and comprised 1,016 dairy cows with 16S short read sequencing data from two dairy cow breeds: Holstein and Nordic Reds. Host genomic data consisted of both 50 k and 150 k SNP arrays. Although several traits were analyzed by the original authors, here, we considered only methane emission as key phenotype for associating microbial communities and host genetic factors. The Synomics Insights platform is based on combinatorial methods that can identify taxa that are differentially abundant between animals showing high or low methane emission or RFI. Focusing exclusively on enriched taxa, for methane emission, the study identified 26 order-level taxa that combinatorial networks reported as significantly enriched either in high or low emitters. Additionally, a Z-test on proportions found 21/26 (81%) of these taxa were differentially enriched between high and low emitters (p value <.05). In particular, the phylum of Proteobacteria and the order Desulfovibrionales were found enriched in high emitters while the order Veillonellales was found to be more abundant in low emitters as previously reported for cattle (Wallace et al., 2015). In comparison, using the publicly available tool ANCOM only the order Methanosarcinales could be identified as differentially abundant between the two groups. We also investigated a link between host genome and rumen microbiome by applying our Synomics Insights platform and comparing it with an industry standard GWAS method. This resulted in the identification of genetic determinants in cows that are associated with changes in heritable components of the rumen microbiome. Only four key SNPs were found by both our platform and GWAS, whereas the Synomics Insights platform identified 1,290 significant SNPs that were not found by GWAS. Gene Ontology (GO) analysis found transcription factor as the dominant biological function. We estimated heritability of a core 73 taxa from the original set of 150 core order-level taxonomies and showed that some species are medium to highly heritable (0.25-0.62), paving the way for selective breeding of animals with desirable core microbiome characteristics. We identified a set of 113 key SNPs associated with >90% of these core heritable taxonomies. Finally, we have characterized a small set (<10) of SNPs strongly associated with key heritable bacterial orders with known role in methanogenesis, such as Desulfobacterales and Methanobacteriales.",
+    "keywords": [
+      "cattle",
+      "combinatorial analyses",
+      "heritability",
+      "methane emission",
+      "rumen microbiome",
+      "synomics insight"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cardinale, Stefano",
+        "Kadarmideen, Haja N"
+      ],
+      "short_names": [
+        "Cardinale S",
+        "Kadarmideen HN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Synomics Ltd, Hanborough Business Park, Long Hanborough, United Kingdom.",
+        "Synomics Ltd, Hanborough Business Park, Long Hanborough, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cardinale, Stefano",
+        "short_name": "Cardinale S",
+        "identifiers": [],
+        "affiliations": [
+          "Synomics Ltd, Hanborough Business Park, Long Hanborough, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kadarmideen, Haja N",
+        "short_name": "Kadarmideen HN",
+        "identifiers": [],
+        "affiliations": [
+          "Synomics Ltd, Hanborough Business Park, Long Hanborough, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/15 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "42477864",
+      "40227437",
+      "39548346",
+      "38425054",
+      "38186252",
+      "38041127",
+      "35938022"
+    ],
+    "refs": [
+      "33737920",
+      "33649551",
+      "33634824",
+      "32727141",
+      "32698902",
+      "32343490",
+      "32330150",
+      "32251296",
+      "32024560",
+      "31281883",
+      "31216991",
+      "31202647",
+      "31196178",
+      "30792704",
+      "30312316",
+      "30255826",
+      "28253908",
+      "27130220",
+      "26494241",
+      "26449758",
+      "26439191",
+      "26028277",
+      "25257854",
+      "25078564",
+      "24824669",
+      "24045493",
+      "21702898",
+      "21317366",
+      "21167468",
+      "21094763",
+      "19131956",
+      "17943116"
+    ],
+    "similar": [
+      "35281842",
+      "38908714",
+      "37032282",
+      "28811339",
+      "28602995",
+      "31418488",
+      "31563317",
+      "31362392",
+      "26494241",
+      "30312316",
+      "26891056",
+      "35077540",
+      "32398126",
+      "30197132",
+      "39102957",
+      "23871375",
+      "38163076",
+      "22118100",
+      "33896632",
+      "33228565",
+      "38143860",
+      "35668758",
+      "33785185",
+      "30642389",
+      "35260198",
+      "37491204",
+      "38257874",
+      "37439894",
+      "33131823",
+      "31587911",
+      "32582125",
+      "29113689",
+      "31617268",
+      "31864736",
+      "33358171",
+      "27760570",
+      "38029196",
+      "31281883",
+      "38892420",
+      "27236758",
+      "37723422",
+      "31196178",
+      "28340555",
+      "34996025",
+      "29375511",
+      "35656319",
+      "32366970",
+      "39429883",
+      "28235871",
+      "28918153",
+      "30139392",
+      "29454699",
+      "35414107",
+      "32475658",
+      "37758745",
+      "32197852",
+      "35776394",
+      "31155258",
+      "30496201",
+      "31954583",
+      "35311904",
+      "29117259",
+      "31440274",
+      "28789673",
+      "26700882",
+      "29224867",
+      "33162069",
+      "32534917",
+      "22038990",
+      "24128704",
+      "34354694",
+      "28611501",
+      "21705541",
+      "33568223",
+      "23932129",
+      "34001361",
+      "30146279",
+      "30250203",
+      "28261182",
+      "28843688",
+      "26805978",
+      "26264038",
+      "33926012",
+      "34531049",
+      "36523842",
+      "30504215",
+      "21943758",
+      "31030921",
+      "27506548",
+      "27939541",
+      "30591340",
+      "34140943",
+      "33641544",
+      "26947299",
+      "26549643",
+      "32147260",
+      "31810242",
+      "25795493",
+      "34799107",
+      "33927700",
+      "34253370",
+      "25582590",
+      "22916906",
+      "30639015",
+      "30139398",
+      "30319585",
+      "29550115",
+      "26254533",
+      "30981486",
+      "31175808",
+      "34560884",
+      "37474364",
+      "34934993",
+      "38186252",
+      "32429265",
+      "35938022",
+      "35664853",
+      "36949471",
+      "39245169",
+      "36384808",
+      "39135684",
+      "38058764",
+      "38328446",
+      "37814275",
+      "36635570",
+      "35309117",
+      "35024091",
+      "37402745",
+      "38029079",
+      "39416140",
+      "37986094",
+      "37699008",
+      "36275601",
+      "36660475",
+      "35867822",
+      "29805877",
+      "35600547",
+      "38638909",
+      "37288143",
+      "38014043",
+      "37938695",
+      "33659025",
+      "37256048",
+      "36439799",
+      "38396294",
+      "39308918"
+    ],
+    "review": [
+      "35281842",
+      "37032282",
+      "34996025",
+      "30139392",
+      "35776394",
+      "35311904",
+      "22038990",
+      "24128704",
+      "30250203",
+      "27939541",
+      "30139398",
+      "35938022",
+      "38058764",
+      "35600547"
+    ],
+    "pmc": [
+      "8905538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35281842/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35281842",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2022.795717",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35281842",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors extend their prior AI-TAC sequence-to-activity model to incorporate base-pair resolution ATAC-seq insertion profiles alongside regional accessibility. They claim that this multi-task, multi-resolution approach improves predictions of differential chromatin accessibility across immune cell types, outperforms single-task models, and reveals novel regulatory motifs with strong effect sizes that are not identified when only accessibility is modeled.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, dataset descriptions, or evaluation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, model training and evaluation details, dataset composition, baseline comparisons, and attribution analysis procedures
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting extension of an established modeling framework, with a plausible rationale for incorporating base-pair resolution ATAC-seq data. However, the claims as stated cannot be evaluated from the abstract alone. The central assertions of improved prediction and novel motif discovery lack quantitative support, and the relationship between the proposed approach and existing high-resolution regulatory models is not contextualized. The work may be of interest to computational biologists and epigenomics researchers, but the evidence base is insufficient to assess technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Computational biologists developing deep learning models for regulatory genomics, epigenomics researchers studying cis-regulatory syntax and immune cell differentiation, and methodologists interested in multi-task learning and high-resolution sequence-to-activity modeling. The potential to extract additional regulatory information from existing ATAC-seq data without new experimental assays would be broadly appealing.
+- **Major strengths** The conceptual motivation is clear and well grounded in the prior AI-TAC framework. The idea that base-pair resolution Tn5 insertion profiles contain information beyond regional accessibility is biologically plausible and technically reasonable. The systematic comparison of sequence attributions between models with and without profile data is a sensible approach to interrogate what additional information the model learns.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that modeling ATAC-seq profiles alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types.  
+  - **Evidence pointer** Abstract only; no quantitative results provided  
+  - **Concern** No performance metrics, effect sizes, statistical significance values, or comparisons against baselines are reported. The word "consistently" implies robustness across multiple settings, but no data are shown to support this.  
+  - **Why it matters** The primary contribution of the work is the claimed improvement from incorporating profile data. Without quantitative evidence, the central claim is unverifiable and the scientific contribution cannot be assessed.  
+  - **Resolution test** Provide evaluation metrics such as Pearson or Spearman correlation, AUROC, or similar, for models with and without profile data across all cell types and tasks, with confidence intervals or significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that multi-task learning across related immune cell types consistently outperforms single-task models.  
+  - **Evidence pointer** Abstract only; no quantitative results provided  
+  - **Concern** No data are presented to support the superiority of multi-task learning. The claim of consistency is not backed by any reported comparisons.  
+  - **Why it matters** This is a secondary but important claim that affects the generalizability of the proposed approach. Without evidence, it is not possible to determine whether the multi-task advantage is specific to certain cell types or conditions.  
+  - **Resolution test** Report performance comparisons between multi-task and single-task models for each cell type, with appropriate statistical testing.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims identification of novel motifs with strong effect sizes that emerge only when profile data is included.  
+  - **Evidence pointer** Abstract only; no motif discovery results provided  
+  - **Concern** No motifs are named, no effect sizes are quantified, and no comparison against known motifs or existing databases is described. The novelty of these motifs cannot be assessed without knowing whether they have been previously reported.  
+  - **Why it matters** The claim of novel motif discovery is a key differentiator of the work. Without specific examples and validation, the biological significance of the approach remains speculative.  
+  - **Resolution test** Provide a table or figure listing the newly identified motifs, their effect sizes, statistical significance, and comparison against existing motif databases. Include validation such as independent experimental evidence or enrichment analyses.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract implies that the model learns a more nuanced and sensitive representation of cis-regulatory syntax from base-pair resolution data.  
+  - **Evidence pointer** Abstract only; no model interpretation or validation details provided  
+  - **Concern** The claim of "more nuanced and sensitive representation" is vague and not operationalized. It is unclear what specific aspects of regulatory syntax are better captured, or how this is measured beyond motif discovery.  
+  - **Why it matters** The broader scientific contribution depends on demonstrating that the improved predictions translate into biologically meaningful insights, not just better metrics.  
+  - **Resolution test** Provide specific examples of regulatory syntax features, such as motif spacing, orientation, or cooperativity, that are better captured by the profile-informed model, with supporting analyses.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model naming  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The model is referred to as "bpAI-TAC" in the abstract without prior introduction or definition of the acronym.  
+  - **Required correction** Define the model name explicitly, for example as "base-pair AI-TAC (bpAI-TAC)", at first mention.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Contextualization  
+  - **Affected element** Related work  
+  - **Evidence pointer** Abstract, overall  
+  - **Issue** The abstract does not situate the work relative to other high-resolution regulatory sequence models, such as those using ChIP-nexus, ChIP-exo, or other base-pair resolution approaches.  
+  - **Required correction** Add a brief statement in the introduction or discussion comparing the proposed approach to existing high-resolution modeling efforts.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Dataset description  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The immune cell types used for training and evaluation are not specified.  
+  - **Required correction** List the cell types included in the study, or refer to the methods section where this information is provided.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Sequence-to-activity" definition  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "sequence-to-activity" is used but not formally defined, which may be unclear to readers outside the immediate field.  
+  - **Required correction** Provide a brief definition or explanatory phrase at first use, such as "models that predict functional genomic activity from DNA sequence".
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the central claims of the abstract are unsupported by any quantitative evidence. Without these data, the technical soundness and scientific contribution cannot be evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of leveraging base-pair resolution ATAC-seq insertion profiles within a multi-task deep learning framework is a reasonable extension of prior work, but the abstract does not demonstrate sufficient novelty relative to existing high-resolution regulatory models. The originality is plausible but not established.  
+  - **Scientific importance** If the claims are substantiated, the work could be valuable for extracting additional regulatory information from widely available ATAC-seq data. However, the importance is currently speculative given the lack of evidence.  
+  - **Interdisciplinary readership** The topic is relevant to computational biology, genomics, and immunology. The abstract is written in a way that is accessible to specialists but may be challenging for nonspecialists due to undefined terminology.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of any quantitative results or methodological details precludes evaluation.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses field-specific terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, but the abstract lacks the quantitative support needed to assess the validity of the central claims. A revised version with full results, methods, and validation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of consistent improvement in prediction accuracy from incorporating ATAC-seq profiles is unsupported by any reported metrics.
+- The claim that multi-task learning consistently outperforms single-task models is unsupported by any reported comparisons.
+- The claim of identifying novel motifs with strong effect sizes is unsupported by specific examples, effect sizes, or validation.
+- The claim that the model learns a "more nuanced and sensitive representation" of cis-regulatory syntax is not operationalized or evidenced.
+- The generalizability of the findings beyond the specific immune cell types studied cannot be assessed, as the cell types are not specified.

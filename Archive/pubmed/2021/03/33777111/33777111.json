@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "33777111",
+    "doi": "10.3389/fgene.2021.648329",
+    "title": "Deep Learning Reveals Key Immunosuppression Genes and Distinct Immunotypes in Periodontitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Periodontitis is a chronic immuno-inflammatory disease characterized by inflammatory destruction of tooth-supporting tissues. Its pathogenesis involves a dysregulated local host immune response that is ineffective in combating microbial challenges. An integrated investigation of genes involved in mediating immune response suppression in periodontitis, based on multiple studies, can reveal genes pivotal to periodontitis pathogenesis. Here, we aimed to apply a deep learning (DL)-based autoencoder (AE) for predicting immunosuppression genes involved in periodontitis by integrating multiples omics datasets. METHODS: Two periodontitis-related GEO transcriptomic datasets (GSE16134 and GSE10334) and immunosuppression genes identified from DisGeNET and HisgAtlas were included. Immunosuppression genes related to periodontitis in GSE16134 were used as input to build an AE, to identify the top disease-representative immunosuppression gene features. Using K-means clustering and ANOVA, immune subtype labels were assigned to disease samples and a support vector machine (SVM) classifier was constructed. This classifier was applied to a validation set (Immunosuppression genes related to periodontitis in GSE10334) for predicting sample labels, evaluating the accuracy of the AE. In addition, differentially expressed genes (DEGs), signaling pathways, and transcription factors (TFs) involved in immunosuppression and periodontitis were determined with an array of bioinformatics analysis. Shared DEGs common to DEGs differentiating periodontitis from controls and those differentiating the immune subtypes were considered as the key immunosuppression genes in periodontitis. RESULTS: We produced representative molecular features and identified two immune subtypes in periodontitis using an AE. Two subtypes were also predicted in the validation set with the SVM classifier. Three \"master\" immunosuppression genes, PECAM1, FCGR3A, and FOS were identified as candidates pivotal to immunosuppressive mechanisms in periodontitis. Six transcription factors, NFKB1, FOS, JUN, HIF1A, STAT5B, and STAT4, were identified as central to the TFs-DEGs interaction network. The two immune subtypes were distinct in terms of their regulating pathways. CONCLUSION: This study applied a DL-based AE for the first time to identify immune subtypes of periodontitis and pivotal immunosuppression genes that discriminated periodontitis from the healthy. Key signaling pathways and TF-target DEGs that putatively mediate immune suppression in periodontitis were identified. PECAM1, FCGR3A, and FOS emerged as high-value biomarkers and candidate therapeutic targets for periodontitis.",
+    "keywords": [
+      "autoencoder (AE)",
+      "bioinformatics",
+      "deep learning",
+      "immunosuppression genes",
+      "periodontitis",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ning, Wanchen",
+        "Acharya, Aneesha",
+        "Sun, Zhengyang",
+        "Ogbuehi, Anthony Chukwunonso",
+        "Li, Cong",
+        "Hua, Shiting",
+        "Ou, Qianhua",
+        "Zeng, Muhui",
+        "Liu, Xiangqiong",
+        "Deng, Yupei",
+        "Haak, Rainer",
+        "Ziebolz, Dirk",
+        "Schmalz, Gerhard",
+        "Pelekos, George",
+        "Wang, Yang",
+        "Hu, Xianda"
+      ],
+      "short_names": [
+        "Ning W",
+        "Acharya A",
+        "Sun Z",
+        "Ogbuehi AC",
+        "Li C",
+        "Hua S",
+        "Ou Q",
+        "Zeng M",
+        "Liu X",
+        "Deng Y",
+        "Haak R",
+        "Ziebolz D",
+        "Schmalz G",
+        "Pelekos G",
+        "Wang Y",
+        "Hu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Conservative Dentistry and Periodontology, Ludwig-Maximilians-University of Munich, Munich, Germany.",
+        "Dr. D. Y. Patil Dental College and Hospital, Dr. D. Y. Patil Vidyapeeth, Pune, India.",
+        "Faculty of Dentistry, The University of Hong Kong, Hong Kong, China.",
+        "Faculty of Mechanical Engineering, Chemnitz University of Technology, Chemnitz, Germany.",
+        "Faculty of Physics, University of Munster, Munster, Germany.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China.",
+        "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China.",
+        "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany.",
+        "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany.",
+        "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany.",
+        "Faculty of Dentistry, The University of Hong Kong, Hong Kong, China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, Hubei Collaborative Innovation Center for Green Transformation of Bio-Resources, School of Life Sciences, Hubei University, Wuhan, China.",
+        "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ning, Wanchen",
+        "short_name": "Ning W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Conservative Dentistry and Periodontology, Ludwig-Maximilians-University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Acharya, Aneesha",
+        "short_name": "Acharya A",
+        "identifiers": [],
+        "affiliations": [
+          "Dr. D. Y. Patil Dental College and Hospital, Dr. D. Y. Patil Vidyapeeth, Pune, India.",
+          "Faculty of Dentistry, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhengyang",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Mechanical Engineering, Chemnitz University of Technology, Chemnitz, Germany."
+        ]
+      },
+      {
+        "full_name": "Ogbuehi, Anthony Chukwunonso",
+        "short_name": "Ogbuehi AC",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Physics, University of Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Li, Cong",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Shiting",
+        "short_name": "Hua S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Qianhua",
+        "short_name": "Ou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Muhui",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiangqiong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yupei",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Haak, Rainer",
+        "short_name": "Haak R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Ziebolz, Dirk",
+        "short_name": "Ziebolz D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmalz, Gerhard",
+        "short_name": "Schmalz G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cariology, Endodontology and Periodontology, University of Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Pelekos, George",
+        "short_name": "Pelekos G",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Dentistry, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, Hubei Collaborative Innovation Center for Green Transformation of Bio-Resources, School of Life Sciences, Hubei University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xianda",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cell and Molecular Biology, Beijing Tibetan Hospital, China Tibetology Research Center, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/30 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "41124422",
+      "40464289",
+      "40163153",
+      "40004956",
+      "38241313",
+      "37605414",
+      "37370890",
+      "36826188",
+      "36389665",
+      "36045361",
+      "35844512",
+      "35266958",
+      "35132337",
+      "34883787"
+    ],
+    "refs": [
+      "33099760",
+      "32764403",
+      "32758163",
+      "32681704",
+      "32612718",
+      "32346701",
+      "32226303",
+      "31658045",
+      "31249568",
+      "30696477",
+      "30415723",
+      "30285304",
+      "30061885",
+      "29805313",
+      "29069305",
+      "28993635",
+      "28982688",
+      "28942727",
+      "28210258",
+      "28095260",
+      "27200351",
+      "27058371",
+      "26732676",
+      "26252398",
+      "26012352",
+      "25605792",
+      "25592575",
+      "24320956",
+      "23761922",
+      "22666826",
+      "22520847",
+      "22455463",
+      "22142957",
+      "22133365",
+      "22074783",
+      "21414208",
+      "20736804",
+      "20618547",
+      "20439936",
+      "19702951",
+      "19285515",
+      "19149513",
+      "16277573",
+      "16018758",
+      "15731036",
+      "15314684",
+      "14597658",
+      "12451264",
+      "12097235",
+      "11699473",
+      "11134171",
+      "10632663",
+      "8877659"
+    ],
+    "similar": [
+      "33777111",
+      "33869630",
+      "35250546",
+      "36072904",
+      "26334995",
+      "34859622",
+      "37063877",
+      "36389665",
+      "37285682",
+      "36691896",
+      "27028820",
+      "31258663",
+      "37510279",
+      "37085805",
+      "36457739",
+      "34788142",
+      "38472293",
+      "31673979",
+      "35722384",
+      "33841510",
+      "34553293",
+      "33354565",
+      "34993975",
+      "31512745",
+      "34422810",
+      "36248844",
+      "37805677",
+      "37821327",
+      "37495990",
+      "31658045",
+      "32041280",
+      "36148415",
+      "32185115",
+      "35181505",
+      "34721734",
+      "29257283",
+      "37311930",
+      "32642095",
+      "36016933",
+      "37587523",
+      "34218797",
+      "28901446",
+      "37369700",
+      "29516510",
+      "32945465",
+      "35676670",
+      "32117605",
+      "32508878",
+      "33509101",
+      "33397492",
+      "29588600",
+      "33437215",
+      "30975489",
+      "33407587",
+      "31663162",
+      "28444588",
+      "30825251",
+      "31939629",
+      "32863885",
+      "30106117",
+      "36849997",
+      "34622712",
+      "32922167",
+      "31114367",
+      "35356296",
+      "35368701",
+      "31289570",
+      "32319195",
+      "31572500",
+      "37834287",
+      "25338682",
+      "29600044",
+      "32016447",
+      "31007729",
+      "31881961",
+      "34991439",
+      "32641130",
+      "32337286",
+      "34603338",
+      "25514975",
+      "34039311",
+      "33468161",
+      "27820156",
+      "32806782",
+      "32417654",
+      "32411181",
+      "36518809",
+      "37332019",
+      "37954339",
+      "36188607",
+      "37091791",
+      "36090248",
+      "38802761"
+    ],
+    "review": [
+      "33777111",
+      "35181505",
+      "29257283",
+      "33509101"
+    ],
+    "pmc": [
+      "7994531"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33777111/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33777111",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1277",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2021.648329",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33777111",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "42619965",
+    "doi": "10.64898/2026.08.01.742250",
+    "title": "PGViS: Personal Genome Variant interpretation Score for lung cancer genomes."
+  },
+  "content": {
+    "abstract": "Inherited lung cancer risk arises from both protein-coding and non-coding germline variants, but the functional non-coding component is largely uncharacterized. Genome-wide association studies and polygenic risk scores identify tag variants, not causal ones. Neither resolves which regulatory element is perturbed. DNA foundation models such as DNABERT decode non-coding variant effects directly from sequence, without a large GWAS cohort. What is missing is a patient-level framework linking these predictions to population-level variant prevalence. We present PGViS (Personal Genome Variant interpretation Score), a statistical framework that quantifies individual non-coding germline regulatory risk in non-small cell lung cancer (NSCLC). PGViS integrates three variant-level signals: DNABERT-predicted disruption at transcription factor binding and splice sites, the cancer v/s reference alternate allele frequency shift, and a regulatory interaction term derived from cancer-to-reference allele frequency ratios. Each signal is weighted by cohort prevalence which are aggregated into a single ancestry-matched, reference-normalized score per patient. We applied PGViS to germline whole-genome sequencing from 1,102 TCGA and CPTAC patients, using the 1000 Genomes Project (n = 2,504 individuals) as the normal population reference. PGViS separated adenocarcinoma (AD) and squamous cell carcinoma from controls in European ancestry and East Asian AD. Genes at contributing loci were enriched for PI3K-Akt, Wnt , DNA damage response, and epithelial-mesenchymal transition programs. Smoking-stratified analysis concentrated this signal on canonical NSCLC driver pathways. PGViS is modular: it accommodates cohorts with broader ancestral representation and can adapt to other solid tumors, offering a cost-effective route to personal-genome risk assessment from germline variants alone.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Surana, Pallavi",
+        "Dutta, Pratik",
+        "Boffetta, Paolo",
+        "Davuluri, Ramana"
+      ],
+      "short_names": [
+        "Surana P",
+        "Dutta P",
+        "Boffetta P",
+        "Davuluri R"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4241-9181",
+        "ORCID: 0000-0002-7053-1064"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Surana, Pallavi",
+        "short_name": "Surana P",
+        "identifiers": [
+          "0009-0004-4241-9181"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dutta, Pratik",
+        "short_name": "Dutta P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Boffetta, Paolo",
+        "short_name": "Boffetta P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Davuluri, Ramana",
+        "short_name": "Davuluri R",
+        "identifiers": [
+          "0000-0002-7053-1064"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Aug 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 11:41",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42619965",
+      "36971353",
+      "35274129",
+      "31326317",
+      "42475469",
+      "36939399",
+      "42626603",
+      "30529582",
+      "42152146",
+      "32471518",
+      "39191651",
+      "40513587",
+      "40746155",
+      "37398408",
+      "26762739",
+      "39678461",
+      "42277742",
+      "29891356",
+      "38052102",
+      "37787384",
+      "37562399",
+      "37148359",
+      "41659682",
+      "40889797",
+      "42361404",
+      "36712083",
+      "26367794",
+      "24920305",
+      "34552866",
+      "39762938",
+      "33887194",
+      "41699549",
+      "28333195",
+      "42456684",
+      "36922933",
+      "29753700",
+      "28104536",
+      "32375678",
+      "38906146",
+      "40050692",
+      "36113475",
+      "42523538",
+      "25961151",
+      "32884453",
+      "39631147",
+      "36271868",
+      "41327467",
+      "40741414",
+      "42465902",
+      "40029645",
+      "33293427",
+      "23125845",
+      "31883642",
+      "42231301",
+      "31935503",
+      "37210288",
+      "33692755",
+      "27005890",
+      "35150601",
+      "37816352",
+      "33902690",
+      "31362726",
+      "33002439",
+      "29486777",
+      "23164068",
+      "38317189",
+      "42190421",
+      "40971882",
+      "22955989",
+      "42508771",
+      "32580712",
+      "41896987",
+      "26132169",
+      "34818854",
+      "42300124",
+      "36694225",
+      "36106702",
+      "31771638",
+      "40766138",
+      "41197642",
+      "34791234",
+      "28957321",
+      "41950565",
+      "42451056",
+      "38184646",
+      "42064918",
+      "30680798",
+      "38766261",
+      "40840451",
+      "37633302",
+      "39366959",
+      "39103720",
+      "40886051",
+      "40250421",
+      "42317214",
+      "32889700",
+      "24661571",
+      "39986329",
+      "31826910",
+      "33595421"
+    ],
+    "review": [
+      "42619965",
+      "35274129",
+      "31326317",
+      "30529582",
+      "42152146",
+      "38052102",
+      "37148359",
+      "32884453",
+      "37210288",
+      "33002439",
+      "40971882",
+      "36694225",
+      "36106702",
+      "34791234",
+      "42451056",
+      "37633302",
+      "39366959",
+      "32889700",
+      "24661571"
+    ],
+    "pmc": [
+      "13484582"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42619965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.08.01.742250",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

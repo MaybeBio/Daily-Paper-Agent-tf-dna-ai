@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41210882",
+    "doi": "10.3389/fmed.2025.1659881",
+    "title": "Identification of key genes related to lymphangiogenesis in venous thromboembolism through transcriptomics and verification by RT-qPCR."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Venous thromboembolism (VTE), a life-threatening cardiovascular disorder, involves complex interactions between thrombosis and immune dysregulation. Lymphangiogenesis-related genes (LRGs) may directly induce thrombosis by regulating endothelial function, the coagulation cascade, or inflammatory signaling pathways. This research was intended to uncover LRG-associated key genes and elucidate their molecular mechanisms in VTE. METHODS: Transcriptomic datasets from public databases were analyzed to identify differentially expressed genes (DEGs) between VTE and control samples. Subsequently, candidate genes were screened by overlapping the DEGs with LRGs obtained from the literature. Functional analysis was then performed on candidate genes. Machine learning algorithms and expression validation were employed to refine key genes. Moreover, gene set enrichment analysis (GSEA), immune infiltration, and regulatory and disease-gene-drug network analyses were performed. Finally, key genes' expression levels were validated via real-time quantitative polymerase chain reaction (RT-qPCR). RESULTS: To sum up, 810 DEGs were identified, of which 30 DEGs were selected as candidate genes. Machine learning and expression validation prioritized MYC and NTAN1 as key genes. Functional analysis revealed their enrichment in spliceosome, oxidative phosphorylation, and immune-related pathways. MYC and NTAN1 correlated with regulatory T cells and M2 macrophages. Furthermore, the microRNA (miRNA)-mRNA-transcription factor (TF) network identified MYC as a hub regulated by hsa-miR-449c-5p and JUN. Disease-gene-drug network highlighted cisplatin and olaparib as potential MYC-targeted therapy. RT-qPCR confirmed MYC downregulation and NTAN1 upregulation in VTE (p < 0.05), consistent with the bioinformatics results. CONCLUSION: This study identified MYC and NTAN1 as pivotal regulators of VTE, bridging thrombotic progression with immune-metabolic dysregulation. The findings provided novel insights into key genes and immunomodulatory therapies for VTE.",
+    "keywords": [
+      "immune infiltration",
+      "key genes",
+      "lymphangiogenesis-related genes",
+      "machine learning",
+      "venous thromboembolism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yusheng",
+        "Wu, Jiahan",
+        "Wang, Pucheng",
+        "Lin, Xiaodong",
+        "Yang, Hongwei"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Wu J",
+        "Wang P",
+        "Lin X",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China.",
+        "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China.",
+        "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China.",
+        "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China.",
+        "Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yusheng",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Chinese Medicine, Nanning, China.",
+          "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiahan",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pucheng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiaodong",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hongwei",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Chinese Medicine, Nanning, China.",
+          "Department of Vascular Surgery, Shenzhen Second People's Hospital, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in medicine"
+    ],
+    "journal_abbrev": [
+      "Front Med (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 18:15",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "42664217",
+      "42652709"
+    ],
+    "refs": [
+      "40156046",
+      "39875616",
+      "39618481",
+      "38638428",
+      "38584329",
+      "38313596",
+      "38202308",
+      "37941901",
+      "37930887",
+      "37914979",
+      "37833558",
+      "37505622",
+      "37264332",
+      "37244415",
+      "37004843",
+      "36966168",
+      "36749920",
+      "36735197",
+      "36648242",
+      "36618352",
+      "36582224",
+      "36328752",
+      "36209190",
+      "36042338",
+      "35895426",
+      "35845045",
+      "35751589",
+      "35692516",
+      "35444234",
+      "34864868",
+      "34557778",
+      "34381164",
+      "34352278",
+      "34276676",
+      "33807848",
+      "33552096",
+      "33418313",
+      "33388092",
+      "33334670",
+      "33149752",
+      "33128283",
+      "33076940",
+      "33007077",
+      "32950686",
+      "32851067",
+      "32787519",
+      "32212823",
+      "32126379",
+      "32105718",
+      "30326130",
+      "29192214",
+      "28245597",
+      "28073756",
+      "26597668",
+      "26076949",
+      "25822800",
+      "25605792",
+      "24479877",
+      "23028984",
+      "21375249",
+      "20808728",
+      "18469221",
+      "11846609"
+    ],
+    "similar": [
+      "41210882",
+      "41200172",
+      "38987624",
+      "40895068",
+      "39618481",
+      "41204611",
+      "35276351",
+      "41146237",
+      "41350331",
+      "38259479",
+      "40442788",
+      "41052072",
+      "41367711",
+      "40225293",
+      "39403102",
+      "41291978",
+      "40374866",
+      "41334450",
+      "34234459",
+      "39413445",
+      "41450821",
+      "41378005",
+      "41444657",
+      "37465678",
+      "39172048",
+      "39028999",
+      "35023949",
+      "41006883",
+      "36291136",
+      "40151199",
+      "39512836",
+      "41094572",
+      "40613560",
+      "40406620",
+      "35812749",
+      "41030501",
+      "40532306",
+      "38463581",
+      "38268224",
+      "39754246",
+      "40406126",
+      "40628511",
+      "40312440",
+      "40313958",
+      "39375405",
+      "41367897",
+      "38260098",
+      "41013556",
+      "39968099",
+      "41288681",
+      "40024299",
+      "39262456",
+      "41388523",
+      "40596265",
+      "40196107",
+      "33388092",
+      "39697326",
+      "37153000",
+      "41044520",
+      "35996406",
+      "41358199",
+      "38029239",
+      "39238829",
+      "34345178",
+      "34536521",
+      "37250717",
+      "40370665",
+      "40821971",
+      "38433131",
+      "40078458",
+      "41191207",
+      "41327671",
+      "31788082",
+      "38044432",
+      "38274270",
+      "39670237",
+      "41158309",
+      "35392402",
+      "38601162",
+      "40574839",
+      "36713370",
+      "39080525",
+      "38062833",
+      "37520121",
+      "36777638",
+      "40216809",
+      "40370590",
+      "39142001",
+      "40597456",
+      "37760894",
+      "40432920",
+      "41080564",
+      "40491449",
+      "41422136",
+      "33564304",
+      "28952134",
+      "40099537",
+      "39354722",
+      "30390708",
+      "40948644"
+    ],
+    "review": [
+      "41210882"
+    ],
+    "pmc": [
+      "12592171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41210882/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmed.2025.1659881",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

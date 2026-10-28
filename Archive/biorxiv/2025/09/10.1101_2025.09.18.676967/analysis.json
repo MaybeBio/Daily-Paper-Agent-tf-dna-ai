@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.18.676967",
+  "title": "De novo Design of All-atom Biomolecular Interactions with RFdiffusion3",
+  "authors": "Butcher J; Krishna R; Mitra R; Brent RI; Li Y; Corley N; Kim PT; Funk J; Mathis S; Salike S; Muraishi A; Eisenach H; Thompson TR; Chen J; Politanska Y; Sehgal E; Coventry B; Zhang O; Qiang B; Didi K; Kazman M; DiMaio F; Baker D",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-18",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出RFdiffusion3扩散模型，在核酸等非蛋白原子背景下从头设计蛋白结构，并实验验证了DNA结合蛋白设计，直接聚焦TF-DNA互作的结构建模与设计，方法高度契合本课题。",
+  "abstract": "Deep learning has accelerated protein design, but most existing methods are restricted to generating protein backbone coordinates and often neglect interactions with other biomolecules. We present RFdiffusion3 (RFD3), a diffusion model that generates protein structures in the context of ligands, nucleic acids and other non-protein constellations of atoms. Because all polymer atoms are modeled explicitly, conditioning the model on complex sets of atom-level constraints for enzyme design and other challenges is both simpler and more effective than previous approaches. RFD3 achieves improved performance compared to prior approaches on a range of in silico benchmarks with one tenth the computational cost. Finally, we demonstrate the broad applicability of RFD3 by designing and experimentally characterizing DNA binding proteins and cysteine hydrolases. The ability to rapidly generate protein structures guided by complex sets of atom-level constraints in the context of arbitrary non-protein atoms should further expand the range of functions attainable through protein design.",
+  "abstract_zh": "深度学习加速了蛋白质设计，但现有大多数方法局限于生成蛋白质骨架坐标，往往忽略与其他生物分子的相互作用。我们提出了RFdiffusion3（RFD3），一种扩散模型，能够在配体、核酸及其他非蛋白质原子组合的背景下生成蛋白质结构。由于所有聚合物原子均被显式建模，将模型条件化于复杂的原子级约束集以用于酶设计及其他挑战，比先前方法更简单且更有效。RFD3在一系列计算机模拟基准测试中，与先前方法相比实现了改进的性能，且计算成本仅为十分之一。最后，我们通过设计并实验表征DNA结合蛋白和半胱氨酸水解酶，展示了RFD3的广泛适用性。在任意非蛋白质原子背景下，由复杂原子级约束集引导快速生成蛋白质结构的能力，应进一步扩展通过蛋白质设计可达到的功能范围。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.18.676967",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.676967",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.18.676967/index.html"
+}

@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "35015646",
+    "doi": "10.1109/TCBB.2022.3142019",
+    "title": "SENIES: DNA Shape Enhanced Two-Layer Deep Learning Predictor for the Identification of Enhancers and Their Strength."
+  },
+  "content": {
+    "abstract": "Identifying enhancers is a critical task in bioinformatics due to their primary role in regulating gene expression. For this reason, various computational algorithms devoted to enhancer identification have been put forward over the years. More features are extracted from the single DNA sequences to boost the performance. Nevertheless, DNA structural information is neglected, which is an essential factor affecting the binding preferences of transcription factors to regulatory elements like enhancers. Here, we propose SENIES, a DNA shape enhanced deep learning predictor, to identify enhancers and their strength. The predictor consists of two layers where the first layer is for enhancer and non-enhancer identification, and the second layer is for predicting the strength of enhancers. Apart from two common sequence-derived features (i.e., one-hot and k-mer), DNA shape is introduced to describe the 3D structures of DNA sequences. Performance comparison with state-of-the-art methods conducted on public datasets demonstrates the effectiveness and robustness of our predictor. The code implementation of SENIES is publicly available at https://github.com/hlju-liye/SENIES.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic/genetics",
+      "*Deep Learning",
+      "Computational Biology",
+      "Algorithms",
+      "DNA/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ye",
+        "Kong, Fanhui",
+        "Cui, Hui",
+        "Wang, Fan",
+        "Li, Chunquan",
+        "Ma, Jiquan"
+      ],
+      "short_names": [
+        "Li Y",
+        "Kong F",
+        "Cui H",
+        "Wang F",
+        "Li C",
+        "Ma J"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ye",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kong, Fanhui",
+        "short_name": "Kong F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cui, Hui",
+        "short_name": "Cui H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Fan",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Chunquan",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ma, Jiquan",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2023 Jan-Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/12 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "41704344",
+      "41465085",
+      "39276327",
+      "38801070"
+    ],
+    "refs": [],
+    "similar": [
+      "35015646",
+      "33741075",
+      "34364858",
+      "36715222",
+      "36063523",
+      "33481715",
+      "33808317",
+      "38485768",
+      "36671456",
+      "36740001",
+      "33119044",
+      "28334114",
+      "29219068",
+      "33802922",
+      "36376800",
+      "34226917",
+      "35417351",
+      "31340596",
+      "26476782",
+      "37539835",
+      "38946113",
+      "36071071",
+      "36520922",
+      "30822398",
+      "37348298",
+      "33096548",
+      "30374023",
+      "39350338",
+      "33581335",
+      "37021401",
+      "31874637",
+      "29072144",
+      "36043696",
+      "28716036",
+      "33137083",
+      "25378307",
+      "27490187",
+      "34814323",
+      "37852600",
+      "28193886",
+      "35190950",
+      "33866359",
+      "39107889",
+      "31714956",
+      "29945198",
+      "28688491",
+      "36030022",
+      "35264081",
+      "37442977",
+      "35605495",
+      "28239713",
+      "26634919",
+      "37113248",
+      "36220606",
+      "28589862",
+      "33539511",
+      "17490485",
+      "34073774",
+      "31318408",
+      "22011226",
+      "33535061",
+      "35942693",
+      "28881991",
+      "34252960",
+      "27662874",
+      "39084477",
+      "24967590",
+      "32732264",
+      "27833659",
+      "27929098",
+      "30593613",
+      "22174086",
+      "38385876",
+      "35883552",
+      "31372637",
+      "30808287",
+      "28056037",
+      "31665135",
+      "36116322",
+      "31483777",
+      "27986453",
+      "20862354",
+      "22759862",
+      "23526891",
+      "35082832",
+      "31529021",
+      "39193566",
+      "28881969",
+      "30959806",
+      "38691895",
+      "29335803",
+      "34929739",
+      "31588505",
+      "27329130",
+      "36222139",
+      "38187673",
+      "37982748",
+      "24218630",
+      "32568326",
+      "26799292",
+      "24604095",
+      "29554211",
+      "32443951",
+      "31590652",
+      "30905748",
+      "29602043",
+      "29539428",
+      "34932484",
+      "26091399",
+      "38343388",
+      "31565573",
+      "39131276",
+      "33833783",
+      "35422876",
+      "38915713",
+      "38868182",
+      "37366813",
+      "35389869"
+    ],
+    "review": [
+      "35015646",
+      "37021401",
+      "31714956",
+      "26634919",
+      "30593613",
+      "32443951"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2022.3142019",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2022.3142019",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

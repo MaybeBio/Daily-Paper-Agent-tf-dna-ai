@@ -1,0 +1,438 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.05.24.23290362",
+  "title": "Genetic meta-analysis of levodopa induced dyskinesia in Parkinson’s disease",
+  "doi": "10.1101/2023.05.24.23290362",
+  "abstract": "<h4> Abstract </h4> <h4>Importance</h4> Forty percent of Parkinson’s disease patients develop levodopa-induced-dyskinesia (LiD) within 4 years of starting levodopa. The genetic basis of LiD remains poorly understood, and there have been few well powered studies. <h4>Objective</h4> To discover common genetic variants in the PD population that increase the probability of developing LiD. <h4>Design, setting and Participants</h4> We performed survival analyses to study the development of LiD in 5 separate longitudinal cohorts. We performed a meta-analysis to combine the results of genetic association from each study based on a fixed effects model weighting the effect sizes by the inverse of their standard error. The selection criteria was specific to each cohort. We studied individuals that were genotyped from each cohort and that passed our analysis specific inclusion criteria. <h4>Main Outcomes and Measures</h4> We measured the time for PD patients on levodopa treatment to develop LiD as defined by reaching a score higher or equal than 2 from the MDS-UPDRS part IV, item 1, which is equivalent to a range of 26%-50% of the waking time with dyskinesia. We carried out a genome-wide analysis of the hazard ratio and the association of genome-wide SNPs with the probability of developing LiD using cox proportional hazard models (CPH). <h4>Results</h4> This study included 2,784 PD patients of European ancestry, of whom 14.6% developed LiD. Consistent with previous studies, we found female gender (HR = 1.35, SE = 0.11, P = 0.007) and younger age at onset (HR = 1.8, SE = 0.14, P = 2 × 10 −5 ) to increase the probability of developing LiD. We identified three loci significantly associated with time-to-LiD onset. rs72673189 on chromosome 1 (HR = 2.77, SE = 0.18, P = 1.53 × 10 −8 ) located in the LRP8 locus, rs189093213 on chromosome 4 (HR = 3.06,, SE = 0.19, P = 2.81 × 10 −9 ) in the non-coding RNA LINC02353 locus, and rs180924818 on chromosome 16 (HR = 3.13, SE = 0.20, P = 6.27 × 10 −9 ) in the XYLT1 locus. Subsequent colocalization analyses on chromosome 1 identified DNAJB4 as a candidate gene associated with LiD through a change in gene expression. We computed a PRS based on our GWAS meta-analysis and found high accuracy to stratify between PD-LID and PD (AUC 83.9). We also performed a stepwise regression analysis for baseline features selection associated with LiD status. We found baseline anxiety status to be significantly associated with LiD (OR = 1.14, SE = 0.03, P = 7.4 × 10 −5 ). Finally, we performed a candidate variant analysis and found that genetic variability in ANKK1 ( rs1800497 , Beta = 0.24, SE = 0.09, P = 8.89 × 10 −3 ) and BDNF ( rs6265 , Beta = 0.19, SE = 0.10, P = 4.95 × 10 −2 ) loci were significantly associated with time to LiD in our large meta-analysis. <h4>Conclusion</h4> In this association study, we have found three novel genetic variants associated with LiD, as well as confirming reports that variability in ANKK1 and BDNF loci were significantly associated with LiD probability. A PRS nominated from our time-to-LiD meta-analysis significantly differentiated between PD-LiD and PD. In addition, we have found female gender, young PD onset and anxiety to be significantly associated with LiD.",
+  "authors": [
+    "Martinez-Carrasco A",
+    "Real R",
+    "Lawton M",
+    "Iwaki H",
+    "Tan MMX",
+    "Wu L",
+    "Williams NM",
+    "Carroll C",
+    "Hu MT",
+    "Grosset DG",
+    "Hardy J",
+    "Ryten M",
+    "Foltynie T",
+    "Ben-Shlomo Y",
+    "Shoai M",
+    "Morris HR"
+  ],
+  "published_date": "2023-05-29",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.05.24.23290362",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.05.24.23290362.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR667540",
+    "raw_record": {
+      "id": "PPR667540",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR667540"
+        ]
+      },
+      "doi": "10.1101/2023.05.24.23290362",
+      "title": "Genetic meta-analysis of levodopa induced dyskinesia in Parkinson’s disease",
+      "authorString": "Martinez-Carrasco A, Real R, Lawton M, Iwaki H, Tan MMX, Wu L, Williams NM, Carroll C, Hu MT, Grosset DG, Hardy J, Ryten M, Foltynie T, Ben-Shlomo Y, Shoai M, Morris HR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Martinez-Carrasco A",
+            "lastName": "Martinez-Carrasco",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, UK"
+                },
+                {
+                  "affiliation": "UCL Movement Disorders Centre, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Real R",
+            "lastName": "Real",
+            "firstName": "Raquel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, UK"
+                },
+                {
+                  "affiliation": "UCL Movement Disorders Centre, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lawton M",
+            "lastName": "Lawton",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iwaki H",
+            "lastName": "Iwaki",
+            "firstName": "Hirotaka",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Alzheimer’s and Related Dementias (CARD), National Institute on Aging and National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD, USA"
+                },
+                {
+                  "affiliation": "Data Tecnica International, Glen Echo, Maryland, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tan MMX",
+            "lastName": "Tan",
+            "firstName": "Manuela",
+            "initials": "MMX",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5835-669X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Oslo University Hospital, Oslo, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu L",
+            "lastName": "Wu",
+            "firstName": "Lesley",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, UK"
+                },
+                {
+                  "affiliation": "UCL Movement Disorders Centre, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Williams NM",
+            "lastName": "Williams",
+            "firstName": "Nigel",
+            "initials": "NM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Psychological Medicine and Clinical Neurosciences, MRC Centre for Neuropsychiatric Genetics and Genomics, Cardiff University, Cardiff, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carroll C",
+            "lastName": "Carroll",
+            "firstName": "Camille",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7472-953X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Health, University of Plymouth, Plymouth, UK; Translational and Clinical Research Institute, Newcastle University, Newcastle, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu MT",
+            "lastName": "Hu",
+            "firstName": "Michele T.M.",
+            "initials": "MT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Clinical Neurosciences, Division of Clinical Neurology, University of Oxford, Oxford, UK"
+                },
+                {
+                  "affiliation": "Oxford Parkinson’s Disease Centre, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grosset DG",
+            "lastName": "Grosset",
+            "firstName": "Donald",
+            "initials": "DG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2757-8203"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Neuroscience and Psychology, University of Glasgow, Glasgow, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hardy J",
+            "lastName": "Hardy",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                },
+                {
+                  "affiliation": "Department of Neurodegenerative Diseases, UCL Queen Square Institute of Neurology, University College London, London, UK"
+                },
+                {
+                  "affiliation": "UK Dementia Research Institute, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Reta Lila Weston Institute, UCL Queen Square Institute of Neurology, London, UK"
+                },
+                {
+                  "affiliation": "National Institute for Health Research (NIHR) University College London Hospitals Biomedical Research Centre, London, UK"
+                },
+                {
+                  "affiliation": "Institute for Advanced Study, The Hong Kong University of Science and Technology, Hong Kong SAR, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ryten M",
+            "lastName": "Ryten",
+            "firstName": "Mina",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                },
+                {
+                  "affiliation": "Genetics and Genomic Medicine, UCL Great Ormond Street Institute of Child Health, University College London, London, UK"
+                },
+                {
+                  "affiliation": "NIHR Great Ormond Street Hospital Biomedical Research Centre, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Foltynie T",
+            "lastName": "Foltynie",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ben-Shlomo Y",
+            "lastName": "Ben-Shlomo",
+            "firstName": "Yoav",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shoai M",
+            "lastName": "Shoai",
+            "firstName": "Maryam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                },
+                {
+                  "affiliation": "Department of Neurodegenerative Diseases, UCL Queen Square Institute of Neurology, University College London, London, UK"
+                },
+                {
+                  "affiliation": "UK Dementia Research Institute, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morris HR",
+            "lastName": "Morris",
+            "firstName": "Huw",
+            "initials": "HR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, UK"
+                },
+                {
+                  "affiliation": "UCL Movement Disorders Centre, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5835-669X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7472-953X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2757-8203"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4> Abstract </h4> <h4>Importance</h4> Forty percent of Parkinson’s disease patients develop levodopa-induced-dyskinesia (LiD) within 4 years of starting levodopa. The genetic basis of LiD remains poorly understood, and there have been few well powered studies. <h4>Objective</h4> To discover common genetic variants in the PD population that increase the probability of developing LiD. <h4>Design, setting and Participants</h4> We performed survival analyses to study the development of LiD in 5 separate longitudinal cohorts. We performed a meta-analysis to combine the results of genetic association from each study based on a fixed effects model weighting the effect sizes by the inverse of their standard error. The selection criteria was specific to each cohort. We studied individuals that were genotyped from each cohort and that passed our analysis specific inclusion criteria. <h4>Main Outcomes and Measures</h4> We measured the time for PD patients on levodopa treatment to develop LiD as defined by reaching a score higher or equal than 2 from the MDS-UPDRS part IV, item 1, which is equivalent to a range of 26%-50% of the waking time with dyskinesia. We carried out a genome-wide analysis of the hazard ratio and the association of genome-wide SNPs with the probability of developing LiD using cox proportional hazard models (CPH). <h4>Results</h4> This study included 2,784 PD patients of European ancestry, of whom 14.6% developed LiD. Consistent with previous studies, we found female gender (HR = 1.35, SE = 0.11, P = 0.007) and younger age at onset (HR = 1.8, SE = 0.14, P = 2 × 10 −5 ) to increase the probability of developing LiD. We identified three loci significantly associated with time-to-LiD onset. rs72673189 on chromosome 1 (HR = 2.77, SE = 0.18, P = 1.53 × 10 −8 ) located in the LRP8 locus, rs189093213 on chromosome 4 (HR = 3.06,, SE = 0.19, P = 2.81 × 10 −9 ) in the non-coding RNA LINC02353 locus, and rs180924818 on chromosome 16 (HR = 3.13, SE = 0.20, P = 6.27 × 10 −9 ) in the XYLT1 locus. Subsequent colocalization analyses on chromosome 1 identified DNAJB4 as a candidate gene associated with LiD through a change in gene expression. We computed a PRS based on our GWAS meta-analysis and found high accuracy to stratify between PD-LID and PD (AUC 83.9). We also performed a stepwise regression analysis for baseline features selection associated with LiD status. We found baseline anxiety status to be significantly associated with LiD (OR = 1.14, SE = 0.03, P = 7.4 × 10 −5 ). Finally, we performed a candidate variant analysis and found that genetic variability in ANKK1 ( rs1800497 , Beta = 0.24, SE = 0.09, P = 8.89 × 10 −3 ) and BDNF ( rs6265 , Beta = 0.19, SE = 0.10, P = 4.95 × 10 −2 ) loci were significantly associated with time to LiD in our large meta-analysis. <h4>Conclusion</h4> In this association study, we have found three novel genetic variants associated with LiD, as well as confirming reports that variability in ANKK1 and BDNF loci were significantly associated with LiD probability. A PRS nominated from our time-to-LiD meta-analysis significantly differentiated between PD-LiD and PD. In addition, we have found female gender, young PD onset and anxiety to be significantly associated with LiD.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/05/30/2023.05.24.23290362.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.24.23290362"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR667540"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR667540&type=FILE&fileName=EMS176609-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37652906",
+            "reference": "NPJ Parkinson's disease. 2023 Aug;9(1):128",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS176609",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-05-31",
+      "firstPublicationDate": "2023-05-29",
+      "firstIndexDate": "2023-05-31",
+      "fullTextReceivedDate": "2023-06-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39509434",
+  "title": "The shared biomarkers and immune landscape in psoriatic arthritis and rheumatoid arthritis: Findings based on bioinformatics, machine learning and single-cell analysis.",
+  "authors": "Zhou, Kaiyi; Luo, Siyu; Wang, Qinxiao; Fang, Sheng",
+  "journal": "PloS one",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究银屑病关节炎与类风湿关节炎的共享生物标志物及免疫微环境，虽用机器学习但核心是疾病诊断标志物与免疫浸润，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题无关。",
+  "abstract": "OBJECTIVE: Psoriatic arthritis (PsA) and rheumatoid arthritis (RA) are the most common types of inflammatory musculoskeletal disorders that share overlapping clinical features and complications. The aim of this study was to identify shared marker genes and mechanistic similarities between PsA and RA. METHODS: We utilized datasets from the Gene Expression Omnibus (GEO) database to identify differentially expressed genes (DEGs) and perform functional enrichment analyses. To identify the marker genes, we applied two machine learning algorithms: the least absolute shrinkage and selection operator (LASSO) and the support vector machine recursive feature elimination (SVM-RFE). Subsequently, we assessed the diagnostic capacity of the identified marker genes using the receiver operating characteristic (ROC) curve and decision curve analysis (DCA). A transcription factor (TF) network was constructed using data from JASPAR, HumanTFDB, and GTRD. We then employed CIBERSORT to analyze the abundance of immune infiltrates in PsA and RA, assessing the relationship between marker genes and immune cells. Additionally, cellular subpopulations were identified by analyzing single-cell sequencing data from RA, with T cells examined for trajectory and cellular communication using Monocle and CellChat, thereby exploring their linkage to marker genes. RESULTS: A total of seven overlapping DEGs were identified between PsA and RA. Gene enrichment analysis revealed that these genes were associated with mitochondrial respiratory chain complex IV, Toll-like receptors, and NF-kappaB signaling pathways. Both machine learning algorithms identified Ribosomal Protein L22-like 1 (RPL22L1) and Lymphocyte Antigen 96 (LY96) as potential diagnostic markers for PsA and RA. These markers were validated using test sets and experimental approaches. Furthermore, GSEA analysis indicated that gap junctions may play a crucial role in the pathogenesis of both conditions. The TF network suggested a potential association between marker genes and core enrichment genes related to gap junctions. The application of CIBERSORT and single-cell RNA sequencing provided a comprehensive understanding of the role of marker genes in immune cell function. Our results indicated that RPL22L1 and LY96 are involved in T cell development and are associated with T cell communication with NK cells and monocytes. Notably, high expression of both RPL22L1 and LY96 was linked to enhanced VEGF signaling in T cells. CONCLUSION: Our study identified RPL22L1 and LY96 as key biomarkers for PsA and RA. Further investigations demonstrated that these two marker genes are closely associated with gap junction function, T cell infiltration, differentiation, and VEGF signaling. Collectively, these findings provide new insights into the diagnosis and treatment of PsA and RA.",
+  "abstract_zh": "目的：银屑病关节炎（PsA）和类风湿关节炎（RA）是最常见的炎症性肌肉骨骼疾病类型，具有重叠的临床特征和并发症。本研究旨在识别PsA和RA之间的共享标记基因及机制相似性。方法：我们利用基因表达综合（GEO）数据库中的数据集来识别差异表达基因（DEGs）并进行功能富集分析。为识别标记基因，我们应用了两种机器学习算法：最小绝对收缩和选择算子（LASSO）和支持向量机递归特征消除（SVM-RFE）。随后，我们使用受试者工作特征（ROC）曲线和决策曲线分析（DCA）评估了所识别标记基因的诊断能力。利用JASPAR、HumanTFDB和GTRD的数据构建了转录因子（TF）网络。然后，我们采用CIBERSORT分析PsA和RA中免疫浸润的丰度，评估标记基因与免疫细胞之间的关系。此外，通过分析RA的单细胞测序数据识别细胞亚群，并使用Monocle和CellChat检查T细胞的轨迹和细胞通讯，从而探索它们与标记基因的关联。结果：在PsA和RA之间共识别出七个重叠的DEGs。基因富集分析显示，这些基因与线粒体呼吸链复合物IV、Toll样受体和NF-kappaB信号通路相关。两种机器学习算法均将核糖体蛋白L22样1（RPL22L1）和淋巴细胞抗原96（LY96）识别为PsA和RA的潜在诊断标记。这些标记通过测试集和实验方法得到验证。此外，GSEA分析表明，间隙连接可能在两种疾病的发病机制中发挥关键作用。TF网络提示标记基因与间隙连接相关的核心富集基因之间存在潜在关联。CIBERSORT和单细胞RNA测序的应用提供了对标记基因在免疫细胞功能中作用的全面理解。我们的结果表明，RPL22L1和LY96参与T细胞发育，并与T细胞与NK细胞和单核细胞的通讯相关。值得注意的是，RPL22L1和LY96的高表达与T细胞中增强的VEGF信号传导相关。结论：我们的研究将RPL22L1和LY96识别为PsA和RA的关键生物标志物。进一步研究表明，这两个标记基因与间隙连接功能、T细胞浸润、分化及VEGF信号传导密切相关。总体而言，这些发现为PsA和RA的诊断和治疗提供了新的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39509434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39509434/",
+  "paper_page_path": "papers/pubmed/39509434/index.html"
+}

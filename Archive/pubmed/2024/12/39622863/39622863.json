@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "39622863",
+    "doi": "10.1038/s41598-024-81499-4",
+    "title": "Molecular dynamics-based computational investigations on the influence of tumor suppressor p53 binding protein against other proteins/peptides."
+  },
+  "content": {
+    "abstract": "The tumor-suppressing p-53 binding protein is a crucial protein that is involved in the prevention of cancer via its regulatory effect on a number of cellular processes. Recent evidence indicates that it interacts with a number of other proteins involved in cancer in ways that are not fully understood. An understanding of such interactions could provide insights into novel ways p53 further exerts its tumour prevention role via its interactions with diverse proteins. Thus, this study aimed to examine the interactions of the p53 protein with other proteins (peptides and histones) using molecular simulation dynamics. We opted for a total of seven proteins, namely 2LVM, 2MWO, 2MWP, 4CRI, 4 x 34, 5Z78, and 6MYO (control), and had their PBD files retrieved from the protein database. These proteins were then docked against the p-53 protein and the resulting interactions were examined using molecular docking simulations run at 500 ns. The result of the interactions revealed the utilisation of various amino acids in the process. The peptide that interacted with the highest number of amino acids was 5Z78 and these were Lys10, Gly21, Trp24, Pro105, His106, and Arg107, indicating a stronger interaction. The RMSD and RMSF values indicate that the complexes formed were stable, with 4CRI, 6MYO, and 2G3R giving the most stable values (less than 2.5 A). Other parameters, including the SASA, Rg, and number of hydrogen bonds, all indicated the formation of fairly stable complexes. Our study indicates that overall, the interactions of 53BP1 with p53K370me2, p53K382me2, methylated K810 Rb, p53K381acK382me2, and tudor-interacting repair regulator protein indicated interactions that were not as strong as those with the histone protein. Thus, it could be that P53 may mediate its tumour suppressing effect via interactions with amino acids and histone.",
+    "keywords": [
+      "Cancer",
+      "In-silico",
+      "Peptides",
+      "Prevention",
+      "Simulation",
+      "p53 protein"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Protein Binding",
+      "*Molecular Docking Simulation",
+      "*Peptides/chemistry/metabolism",
+      "Tumor Suppressor p53-Binding Protein 1/metabolism/chemistry",
+      "Histones/metabolism/chemistry",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abdalla, Mohnad",
+        "Abdelkhalig, Sozan M",
+        "Edet, Uwem O",
+        "Zothantluanga, James H",
+        "Umoh, Ekementeabasi Aniebo",
+        "Moglad, Ehssan",
+        "Nkang, Nkoyo Ani",
+        "Hader, Meshari M",
+        "Alanazi, Tariq Mohammed R",
+        "AlShouli, Sawsan",
+        "Al-Shouli, Samia"
+      ],
+      "short_names": [
+        "Abdalla M",
+        "Abdelkhalig SM",
+        "Edet UO",
+        "Zothantluanga JH",
+        "Umoh EA",
+        "Moglad E",
+        "Nkang NA",
+        "Hader MM",
+        "Alanazi TMR",
+        "AlShouli S",
+        "Al-Shouli S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8381-9967",
+        "ORCID: 0000-0002-1076-9740"
+      ],
+      "affiliations": [
+        "Pediatric Research Institute, Children's Hospital Affiliated to Shandong University, Jinan, China. mohnadabdalla200@gmail.com.",
+        "Department of Basic Medical Sciences, College of Medicine, AlMaarefa University, P.O. Box 71666, Riyadh, 11597, Saudi Arabia.",
+        "Department of Biological (Microbiology), Faculty of Natural and Applied Sciences, Arthur Jarvis University, Akpabuyo, Cross River State, Nigeria. uwemedet27@gmail.com.",
+        "Department of Pharmaceutical Sciences, Faculty of Science and Engineering, Dibrugarh University, Dibrugarh, 786004, Assam, India.",
+        "Department of Human Physiology, Faculty of Basic Medical Sciences, Arthur Jarvis University, Akpabuyo, Cross River State, Nigeria.",
+        "Department of Pharmaceutics, College of Pharmacy, Prince Sattam bin Abdulaziz University, P.O. Box 173, Alkharj, 11942, Saudi Arabia.",
+        "Science Laboratory Department, Faculty of Biological Sciences, University of Calabar, Calabar, Cross River State, Nigeria.",
+        "Dietary Department, Dr. Soliman Fakeeh Hospital, Jeddah, Saudi Arabia.",
+        "Security Forces Hospital, Riyadh, Saudi Arabia.",
+        "Pharmacy Department, Security Forces Hospital, Riyadh, 11481, Saudi Arabia.",
+        "Immunology Unit, Department of Pathology, College of Medicine, King Saud University, Riyadh, 11461, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abdalla, Mohnad",
+        "short_name": "Abdalla M",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Children's Hospital Affiliated to Shandong University, Jinan, China. mohnadabdalla200@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Abdelkhalig, Sozan M",
+        "short_name": "Abdelkhalig SM",
+        "identifiers": [
+          "0000-0001-8381-9967"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, AlMaarefa University, P.O. Box 71666, Riyadh, 11597, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Edet, Uwem O",
+        "short_name": "Edet UO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological (Microbiology), Faculty of Natural and Applied Sciences, Arthur Jarvis University, Akpabuyo, Cross River State, Nigeria. uwemedet27@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Zothantluanga, James H",
+        "short_name": "Zothantluanga JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Faculty of Science and Engineering, Dibrugarh University, Dibrugarh, 786004, Assam, India."
+        ]
+      },
+      {
+        "full_name": "Umoh, Ekementeabasi Aniebo",
+        "short_name": "Umoh EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Faculty of Basic Medical Sciences, Arthur Jarvis University, Akpabuyo, Cross River State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Moglad, Ehssan",
+        "short_name": "Moglad E",
+        "identifiers": [
+          "0000-0002-1076-9740"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Prince Sattam bin Abdulaziz University, P.O. Box 173, Alkharj, 11942, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Nkang, Nkoyo Ani",
+        "short_name": "Nkang NA",
+        "identifiers": [],
+        "affiliations": [
+          "Science Laboratory Department, Faculty of Biological Sciences, University of Calabar, Calabar, Cross River State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Hader, Meshari M",
+        "short_name": "Hader MM",
+        "identifiers": [],
+        "affiliations": [
+          "Dietary Department, Dr. Soliman Fakeeh Hospital, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alanazi, Tariq Mohammed R",
+        "short_name": "Alanazi TMR",
+        "identifiers": [],
+        "affiliations": [
+          "Security Forces Hospital, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "AlShouli, Sawsan",
+        "short_name": "AlShouli S",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy Department, Security Forces Hospital, Riyadh, 11481, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Shouli, Samia",
+        "short_name": "Al-Shouli S",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Unit, Department of Pathology, College of Medicine, King Saud University, Riyadh, 11461, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/03 00:23",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "41714668",
+      "41318665",
+      "41020906"
+    ],
+    "refs": [
+      "39036551",
+      "38344933",
+      "38317535",
+      "38128751",
+      "37937770",
+      "37480565",
+      "36952348",
+      "36678678",
+      "36555140",
+      "35267513",
+      "35163692",
+      "34772510",
+      "34298755",
+      "34089891",
+      "33932560",
+      "33749525",
+      "33518400",
+      "33199193",
+      "32854267",
+      "32782491",
+      "31737642",
+      "31685430",
+      "31282934",
+      "30348169",
+      "30320260",
+      "29844495",
+      "29168376",
+      "27037415",
+      "26784025",
+      "25651062",
+      "25579814",
+      "25049398",
+      "24685128",
+      "24678666",
+      "23974096",
+      "23377543",
+      "22864287",
+      "22577825",
+      "22154076",
+      "21779514",
+      "20307547",
+      "19334678",
+      "19324580",
+      "18856071",
+      "18840612",
+      "18701507",
+      "18510993",
+      "18410249",
+      "17805299",
+      "17190600",
+      "14982997",
+      "11779500",
+      "8744570"
+    ],
+    "similar": [
+      "39622863",
+      "20307547",
+      "18840612",
+      "38679255",
+      "25579814",
+      "24191708",
+      "24858256",
+      "37086514",
+      "32124883",
+      "37578044",
+      "21464980",
+      "25049398",
+      "28241136",
+      "33961797",
+      "36555140",
+      "32353067",
+      "27546791",
+      "28978265",
+      "38892133",
+      "14978302",
+      "31253862",
+      "39754310",
+      "30419285",
+      "30002377",
+      "32702132",
+      "17805299",
+      "29967538",
+      "27716486",
+      "31069954",
+      "34253149",
+      "25584963",
+      "37837442",
+      "34037422",
+      "31216622",
+      "37661778",
+      "30038393",
+      "26742101",
+      "15341721",
+      "34192545",
+      "31795143",
+      "38111168",
+      "39775383",
+      "39275052",
+      "19408261",
+      "28710679",
+      "17161371",
+      "34612239",
+      "24342622",
+      "23922660",
+      "27905468",
+      "28871352",
+      "22949826",
+      "10884347",
+      "29656054",
+      "39737749",
+      "26170095",
+      "25651062",
+      "15611070",
+      "30726928",
+      "35536362",
+      "36924088",
+      "31742997",
+      "28213517",
+      "28916339",
+      "7969167",
+      "18800837",
+      "34662260",
+      "29142290",
+      "37965748",
+      "25377899",
+      "37288734",
+      "37753739",
+      "33988074",
+      "39110299",
+      "36518265",
+      "39532011",
+      "39818002",
+      "30328798",
+      "26701330",
+      "19140135",
+      "15525939",
+      "21088491",
+      "34961887",
+      "33401765",
+      "21884582",
+      "27626385",
+      "26277488",
+      "33984364",
+      "36642815",
+      "23951139",
+      "28597880",
+      "22039431",
+      "31267591",
+      "22916232",
+      "26244575",
+      "12897801",
+      "39500200",
+      "38991490",
+      "23316052",
+      "30238447"
+    ],
+    "review": [
+      "39622863",
+      "22949826"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-81499-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39622863/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1014",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including main text, methods, and supplementary figure/table legends
+- **Assessment boundary** Scientific validity, methodological soundness, novelty, and clarity of claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present BindVAE, a Dirichlet variational autoencoder that models accessible chromatin regions using k-mer counts, to discover transcription factor binding motifs de novo. They claim the model learns interpretable latent dimensions corresponding to TF binding preferences, captures cooperative binding signals, and identifies cell-type-specific TF activity patterns consistent with expression data.
+- **Visible evidence base** Main text figures 1-4, Table 1, methods section, supplementary figure/table legends
+- **Missing materials affecting confidence** Actual figure images, supplementary files (Tables S1-S5, Figures S1-S18), code availability, hyperparameter settings for final models, detailed training/validation data splits, and full results of comparison with baseline methods
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of Dirichlet variational autoencoders to de novo motif discovery from ATAC-seq data. The core idea of using a topic-modeling framework to disentangle TF binding signals from background sequence content is timely and potentially useful. However, the current evidence base is insufficient to fully evaluate the method's performance relative to existing tools, and several technical details regarding model selection, evaluation metrics, and the biological validation of discovered motifs require clarification. The claims of cooperative binding discovery and cell-type specificity are intriguing but not rigorously established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing unsupervised methods for motif discovery and interpreting accessible chromatin data. Researchers interested in applying topic models or variational autoencoders to biological sequence data would also find the approach relevant.
+- **Major strengths** The use of a Dirichlet prior is well-motivated for modeling compositional k-mer counts and aligns naturally with topic-modeling interpretations. The post-processing pipeline using HT-SELEX data to map latent dimensions to TFs is a practical and clever strategy for biological annotation. The demonstration that the model can separate TF-related signals from non-TF-related patterns (e.g., low-complexity regions, Tn5 bias) addresses a known challenge in ATAC-seq analysis. The inclusion of cooperative binding analysis via CAP-SELEX data adds a valuable dimension beyond single-motif discovery.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that BindVAE achieves "higher precision but often worse recall and F1 score" compared to HOMER, MEME, and GADEM, and that BindVAE+Tomtom has "higher recall and F1."
+  - **Evidence pointer** Supplementary Table S4a, S4b; Section 2 of supplementary
+  - **Concern** The evaluation methodology is not described in sufficient detail in the main text. The gold standard is defined as expressed TFs intersecting with the HT-SELEX set, but the precise definition of a "correct" retrieval, the handling of TFs with multiple motifs, and the statistical significance of performance differences are not provided. The trade-off between precision and recall is acknowledged but not systematically analyzed. Without a clear description of the evaluation protocol, the comparative claims cannot be properly assessed.
+  - **Why it matters** The central claim of the paper is that BindVAE is a useful tool for de novo motif discovery. If the evaluation is not rigorous or is biased by the choice of gold standard, the practical utility of the method remains unsubstantiated.
+  - **Resolution test** Provide a detailed description of the evaluation protocol, including how retrieved motifs are matched to gold-standard TFs, how thresholds are set, and whether performance differences are statistically significant. Ideally, include a comparison on a benchmark dataset with known ground truth motifs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we find that our model learns different TFs for distinct cell types, consistent with whether a TF is expressed or not."
+  - **Evidence pointer** Figure 3d, Figure S8, RNA-seq expression data description in Methods
+  - **Concern** The relationship between latent dimension accessibility scores and TF expression is presented qualitatively. The "accessibility score" is defined as the sum of latent scores over all peaks, but the statistical framework for comparing these scores across cell types is not described. It is unclear whether the observed differences are significant given the variance across model training runs, which the authors acknowledge exists. The comparison with expression data appears to be visual rather than quantitative.
+  - **Why it matters** The claim of cell-type specificity is a key biological validation of the method. Without a formal statistical test linking accessibility scores to expression, this claim remains anecdotal.
+  - **Resolution test** Perform a quantitative correlation analysis between accessibility scores and expression levels across TFs and cell types, with appropriate statistical tests. Report confidence intervals or effect sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors position BindVAE as complementary to supervised deep learning methods and existing motif discovery tools, but the novelty of the Dirichlet VAE approach for this specific problem is not clearly delineated from prior topic-modeling work in genomics.
+  - **Evidence pointer** Background section, Discussion
+  - **Concern** The manuscript does not thoroughly discuss prior applications of topic models (e.g., Latent Dirichlet Allocation) or Dirichlet VAEs to genomic sequences. The authors mention BindSpace and SeqGL but do not clearly articulate what specific methodological advance BindVAE offers over these or other unsupervised approaches. The claim of novelty is weakened by this omission.
+  - **Why it matters** For a methods paper, clearly establishing the novelty relative to prior work is essential for assessing its contribution to the field.
+  - **Resolution test** Expand the discussion to explicitly compare BindVAE with prior topic-modeling and VAE-based approaches for sequence analysis, highlighting specific architectural or conceptual differences and their implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we use k-mers with wildcards in our representation" and that this allows for "inexact matching" to capture degenerate TF binding signals.
+  - **Evidence pointer** Methods section, Vocabulary or input space
+  - **Concern** The details of the wildcard k-mer representation are not fully specified. The authors mention "up to two consecutive wildcards allowed per k-mer" but do not describe how these wildcards are encoded in the input vector, how the vocabulary size of 112,800 is derived, or whether the wildcard positions are treated as distinct features or as a form of soft matching. The computational implications of this expanded vocabulary are also not discussed.
+  - **Why it matters** The input representation is a core component of the model. Without a precise description, the method cannot be reproduced or compared fairly with other k-mer-based approaches.
+  - **Resolution test** Provide a formal definition of the k-mer feature space, including the encoding of wildcards, the exact procedure for generating the vocabulary, and the resulting input vector construction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1b
+  - **Evidence pointer** Figure 1b and its legend
+  - **Issue** The figure shows a subset of 1,068 k-mers out of 112,800, but the selection criterion is described as "top 20 k-mers of each latent dimension." It is unclear whether this is the union of top 20 k-mers across all 100 dimensions, and how ties are handled.
+  - **Required correction** Clarify the selection procedure for the displayed k-mers and consider showing the full matrix or a more representative sample.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model training and selection
+  - **Evidence pointer** Methods, Parameter tuning and model selection
+  - **Issue** The authors state that they select the final model based on the number of TFs mapped, but the details of the ensemble approach (e.g., how the three best models are combined, whether the final model is an average or a union of latent dimensions) are not fully described.
+  - **Required correction** Provide a precise description of the ensemble construction and the criteria for including a TF in the final set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Precision and recall values are reported for 11 TFs, but the number of peaks used for each TF varies widely. It is unclear whether the reported values are weighted by the number of peaks or are per-TF averages.
+  - **Required correction** Specify how precision and recall are aggregated across TFs and consider reporting confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on supervised methods
+  - **Issue** The discussion of supervised deep learning methods is somewhat generic and does not specifically address how BindVAE's unsupervised approach overcomes the interpretability issues of these methods in the context of ATAC-seq data.
+  - **Required correction** Provide a more focused comparison, perhaps with a specific example of how BindVAE's latent dimensions offer interpretability that supervised attribution methods do not.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation methodology), R1-M2 (statistical validation of cell-type specificity), R1-M4 (input representation details)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of Dirichlet VAEs to ATAC-seq motif discovery is a reasonable extension of existing topic-modeling ideas, but the manuscript does not clearly establish a significant methodological advance over prior work. Scientific importance: Moderate. De novo motif discovery from accessible chromatin is an active area, and an unsupervised, interpretable method could be valuable, but the demonstrated advantages over existing tools are not yet convincing. Interdisciplinary readership: Limited. The paper is primarily of interest to computational biologists; the biological insights presented are not deep enough to attract a broader genomics audience. Technical soundness: Questionable. The evaluation protocol and several methodological details are insufficiently described, preventing a full assessment of the method's validity. Readability for nonspecialists: Acceptable. The paper is generally well-written, but the methods section assumes familiarity with VAE and topic-modeling concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, but the manuscript requires substantial revisions to clarify the evaluation methodology, provide rigorous statistical validation of key biological claims, and more clearly articulate the novelty of the approach relative to prior work. If these concerns are addressed, the paper could become a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that BindVAE learns cell-type-specific TFs consistent with expression is not statistically supported.
+- The comparative performance claims against HOMER, MEME, and GADEM are not fully substantiated due to incomplete description of the evaluation protocol.
+- The assertion that the model captures cooperative binding signals is based on limited examples and lacks a systematic validation against known cooperative interactions.
+- The statement that the model "disentangles" TF signals from background and technical artifacts is not quantitatively demonstrated beyond visual inspection of selected examples.

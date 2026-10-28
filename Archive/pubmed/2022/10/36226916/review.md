@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, materials and methods, funding, data availability, acknowledgements)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No supplementary files, figures, or tables were available for direct inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors use deep mutational scanning (DMS) of four homologous bacterial allosteric transcription factors (aTFs) to identify allosteric hotspots, and combine this with machine learning (feedforward neural networks with genetic algorithm feature selection) to identify structural and molecular determinants of these hotspots. They report that hotspots are distributed protein-wide, not restricted to pathways, that hotspot locations are not superimposable across homologs, that long-range interactions (LRIs) are enriched in hotspots, that global structural/dynamic features outperform local/physicochemical features in predicting hotspots, and that transfer learning improves cross-protein prediction.
+- **Visible evidence base** Main text descriptions of results, including hotspot counts, F1 scores for models, LRI enrichment statistics, and transfer learning outcomes. Referenced supplementary figures and tables are mentioned but not directly visible.
+- **Missing materials affecting confidence** All supplementary figures and files (e.g., Figure 1—figure supplements 1–7, Figure 2—figure supplements 1–2, Figure 3—figure supplement 1, Figure 4—figure supplements 1–8, Figure 5—figure supplement 1, Figure 6—figure supplement 1, Supplementary files 1–5), raw sequencing data, model hyperparameters, and detailed code. These are essential for verifying the robustness of the hotspot classification, the machine learning methodology, and the statistical analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in protein science: the location and determinants of allosteric hotspots. The combination of DMS across four homologs with machine learning is a powerful and timely approach. The finding that hotspots are distributed protein-wide and not confined to canonical pathways challenges prevailing assumptions and is of broad interest. The observation that global structural/dynamic features are more predictive than local physicochemical ones is insightful. However, the manuscript has several technical and conceptual issues that need to be addressed before the conclusions are fully established. The lack of direct access to supplementary data limits verification, but based on the text, concerns arise regarding the statistical rigor of the LRI enrichment analysis, the interpretation of the machine learning feature importance, the robustness of the hotspot classification, and the generalizability of the transfer learning results. The writing is generally clear, but some sections could be more accessible to a broad readership.
+- **Who would be interested in the results, and why** Protein biochemists, structural biologists, computational biologists, and researchers in the fields of allostery, protein engineering, and drug discovery. The work provides a systematic, data-driven approach to identifying allosteric hotspots, which is relevant for understanding allosteric regulation and for designing allosteric modulators. The machine learning framework and the transfer learning results are of interest to those developing predictive models for protein function.
+- **Major strengths**
+  1. The use of DMS across four structurally similar but sequence-diverse homologs is a rigorous experimental design that allows for the separation of conserved structural features from sequence-specific effects.
+  2. The finding that hotspots are not restricted to pathways but are distributed protein-wide is a significant conceptual contribution that challenges a widely held assumption.
+  3. The integration of machine learning with DMS data is a modern and powerful approach, and the comparison of global vs. local features provides novel insights into the determinants of allostery.
+  4. The transfer learning experiments, showing that models trained on one homolog can be adapted to predict hotspots in another with limited data, have practical implications for studying proteins without extensive experimental data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "In all four aTFs, hotspots constituted a higher fraction of LRIs than non-hotspots (Figure 2—figure supplement 1; p=0.07)."
+  - **Evidence pointer** Results and discussion, section "LRIs reveal similarities in allosteric mechanism"; Figure 2—figure supplement 1 (not directly visible)
+  - **Concern** The reported p-value of 0.07 is not statistically significant at conventional levels (p<0.05). The claim that hotspots are enriched in LRIs is central to the paper's mechanistic conclusion. The text states this as a key finding, but the statistical support is marginal. It is unclear whether the p-value is from a test comparing the proportion of hotspots vs. non-hotspots that are LRIs across all four proteins combined, or per protein. If per protein, a multiple comparison correction would be needed. The lack of a significant result undermines the strength of the claim.
+  - **Why it matters** The LRI enrichment is presented as a unifying feature of allosteric hotspots across homologs. If this is not statistically robust, the conclusion that LRIs play a defining role in signal transmission is weakened. This is a core mechanistic claim of the paper.
+  - **Resolution test** Provide a clear description of the statistical test used, including whether it is a combined analysis or per-protein, and apply appropriate multiple testing corrections. Report effect sizes and confidence intervals. If the effect is not significant, temper the claim or provide additional evidence (e.g., a larger dataset or a more sensitive analysis) to support the conclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology and interpretation of machine learning
+  - **Claim pointer** "Machine learning with our large DMS datasets revealed global structural and dynamic properties to be a strong predictor of whether a residue is a hotspot than local and physicochemical properties."
+  - **Evidence pointer** Results and discussion, section "NN analysis further highlights convergence and divergence in allostery mechanisms among homologous proteins"; Figure 4B and Figure 4—figure supplements 1–7 (not directly visible)
+  - **Concern** The conclusion that global features are more predictive is based on the frequency of feature appearance in top-performing models and F-score/JSD analyses. However, the text does not provide a quantitative comparison of model performance (e.g., F1 scores) between models using only global features vs. only local features. The feature frequency analysis is indirect and can be confounded by feature redundancy. It is not clear whether the difference in feature importance is statistically significant or practically meaningful. Additionally, the GA feature selection process may introduce selection bias, and the stability of the selected features across cross-validation folds is not discussed.
+  - **Why it matters** The claim about the primacy of global features is a key insight of the paper. If not rigorously demonstrated, the conclusion is not well-supported. A direct comparison of model performance with different feature sets would be more convincing.
+  - **Resolution test** Provide a direct comparison of the F1 scores (or other performance metrics) for models trained with global features only, local features only, and combined features, with appropriate error bars and statistical tests. Discuss the stability of feature selection across cross-validation folds. Consider using permutation-based feature importance methods to complement the GA results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Robustness of hotspot classification
+  - **Claim pointer** "We designated residues falling in the highest quartile (top 25% scoring residues) in the interquartile distribution of scores as allosteric hotspots for each aTF."
+  - **Evidence pointer** Results and discussion, section "Identifying allosteric hotspots across homologs"; Figure 1—figure supplements 3–4 (not directly visible)
+  - **Concern** The classification of hotspots relies on a threshold (top quartile) applied to a weighted score derived from the number of dead variants. The choice of the top quartile is arbitrary, and the sensitivity of the results to this threshold is not fully explored. The text mentions that changing the sequencing read threshold (5x vs 10x) has a modest impact, but the impact of changing the hotspot definition (e.g., top 10% or top 50%) is not assessed. The lower dynamic range of RolR is acknowledged, but the implications for the reliability of its hotspot assignment are not discussed in detail.
+  - **Why it matters** The definition of a hotspot is the foundation of all subsequent analyses. If the classification is not robust to reasonable variations in the threshold, the conclusions about hotspot distribution, LRI enrichment, and machine learning predictions may be artifacts of the chosen cutoff.
+  - **Resolution test** Perform a sensitivity analysis by varying the hotspot threshold (e.g., top 10%, 20%, 30%, 50%) and assess whether the main conclusions (distribution, LRI enrichment, model performance) hold. Discuss the impact of the lower dynamic range of RolR on the reliability of its hotspot calls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of transfer learning
+  - **Claim pointer** "CPP_TL significantly outperforms their CPP counterparts as well as the corresponding best models trained with 10% data for the test protein only."
+  - **Evidence pointer** Results and discussion, section "Transfer learning improves cross-protein predictions"; Figure 5A–B (not directly visible)
+  - **Concern** The transfer learning results are promising, but the text does not provide details on the variability of the performance across different train-test combinations. It is unclear whether the improvement is consistent for all pairs of proteins or driven by specific combinations. The choice of 10% of the test protein's data for fine-tuning is arbitrary, and the sensitivity to this fraction is not explored. The practical utility of the approach for proteins with very limited data (e.g., <10%) is not demonstrated.
+  - **Why it matters** The claim that transfer learning can be effective for predicting hotspots in homologs with limited data is a key practical implication. If the improvement is inconsistent or requires a substantial fraction of the target protein's data, the practical value is diminished.
+  - **Resolution test** Report the performance of CPP_TL for each individual train-test combination, with error bars. Perform a sensitivity analysis on the fraction of target protein data used for fine-tuning (e.g., 1%, 5%, 10%, 20%). Discuss the minimum amount of data needed for effective transfer learning.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first sentence; Introduction, first paragraph
+  - **Issue** The phrase "structural and molecular rules" is vague. The abstract and introduction would benefit from a more precise statement of what these rules are, even in a preliminary form.
+  - **Required correction** Rephrase to be more specific, e.g., "reveal that global structural and dynamic properties, such as residue centrality and motional correlation, are more predictive of allosteric hotspots than local physicochemical properties."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results and discussion, section "LRIs reveal similarities in allosteric mechanism"
+  - **Evidence pointer** "p=0.07" in the text
+  - **Issue** The p-value is reported without specifying the statistical test used or the sample size. This makes it difficult to interpret the result.
+  - **Required correction** Specify the statistical test (e.g., paired t-test, as mentioned in Materials and methods) and the number of observations (e.g., number of residues or proteins) in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and methods, section "Machine learning methods"
+  - **Evidence pointer** "Hyperparameters (learning rate, epochs, class weights in the loss function) are tuned in a grid search to maximize performance."
+  - **Issue** The grid search ranges for hyperparameters are not provided, and the criteria for "maximizing performance" are not specified (e.g., which metric, on which validation set). This limits reproducibility.
+  - **Required correction** Provide the grid search ranges and the specific performance metric used for model selection. Describe the validation strategy (e.g., nested cross-validation).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability section
+  - **Evidence pointer** "Data included in the manuscript."
+  - **Issue** This statement is insufficient. The raw sequencing data are deposited in Zenodo (as mentioned in the text), but the code for the machine learning models and the processed data (e.g., hotspot lists, feature values) are not explicitly mentioned.
+  - **Required correction** State clearly that raw sequencing data are available at the Zenodo link, and provide a statement about the availability of code and processed data (e.g., "Code and processed data are available at [repository link]").
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Results and discussion, section "Discriminative features of allosteric hotspots vary among homologous proteins"
+  - **Evidence pointer** "substantial variations in the patterns of the F score and JSD among the four proteins"
+  - **Issue** The text notes variations but does not discuss potential reasons for these differences (e.g., differences in protein size, ligand type, or dynamic range). A brief discussion would strengthen the interpretation.
+  - **Required correction** Add a sentence or two speculating on the origins of these differences, or explicitly state that the current data cannot distinguish between them.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The LRI enrichment claim is not statistically significant (p=0.07). This needs to be addressed with a more rigorous analysis or a tempered claim.
+  - R1-M2: The claim that global features are more predictive is not directly supported by a quantitative comparison of model performance with different feature sets.
+  - R1-M3: The robustness of the hotspot classification to the choice of threshold is not demonstrated.
+  - R1-M4: The consistency and practical utility of the transfer learning results are not fully established.
+
+## Risk / unsupported claims
+- The claim that "the overall allosteric mechanism is embedded in the structural fold of the aTF family" is a strong conclusion that is not directly tested. The data show that hotspots are not superimposable and that global features are predictive, but this does not prove that the mechanism is embedded in the fold. This is an interpretation that goes beyond the data.
+- The claim that "a few RT units can tip this delicate balance toward the inactive OFF state" is based on a limited number of structural models (e.g., C144F, Y199 in TetR) and is speculative. The text does not provide quantitative energetic calculations to support this specific claim.
+- The statement that "LRIs are also critical for the propagation of allosteric signals" is based on the enrichment analysis, which is not statistically significant (R1-M1). This claim is therefore not well-supported.
+- The performance of the transfer learning models is described as "close to the optimal NN model," but the exact numerical comparison and its statistical significance are not provided in the text. This claim is not fully verifiable from the provided material.

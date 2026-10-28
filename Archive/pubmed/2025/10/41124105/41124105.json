@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41124105",
+    "doi": "10.1021/acs.jcim.5c01639",
+    "title": "Dissecting the RAD51-BRC4 Interaction Landscape through Integrative Molecular Simulations and Experimental Biophysics."
+  },
+  "content": {
+    "abstract": "The interaction between the RAD51 and BRCA2 proteins is central to homologous recombination (HR), a crucial pathway ensuring high-fidelity DNA repair. Recruitment of RAD51 involves eight highly conserved regions on BRCA2, named BRC repeats. The interaction between the fourth BRC repeat (BRC4) and the RAD51 C-terminal domain has been structurally characterized, while the complex of full-length RAD51 with the peptide remains elusive. This gap limits our understanding of cytosolic RAD51 recruitment driven by the BRCA2 BRC repeats, which is one of the first crucial steps in HR. Here, we report an integrative experimental and in silico approach to reconstruct the conformational ensemble in solution for full-length RAD51 in complex with BRC4. We combined AlphaFold2, cross-linking mass spectrometry, and small-angle X-ray scattering data with molecular dynamics simulations. Our results show that the full-length RAD51-BRC4 complex is a mixture of compact and elongated conformations and allow for the identification of key residues at the interface between the RAD51 N-terminus and BRC4, mediating complex conformational dynamics. Our evidence provides robust atomic-level insights into the RAD51-BRC4 interaction, shedding light on the molecular features that govern the recognition between these two proteins, while unveiling novel hotspots for developing novel anticancer agents.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Rad51 Recombinase/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*BRCA2 Protein/chemistry/metabolism",
+      "Humans",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bresciani, Veronica",
+        "Rinaldi, Francesco",
+        "Franco, Pedro",
+        "Girotto, Stefania",
+        "Cavalli, Andrea",
+        "Langer, Julian D",
+        "Masetti, Matteo",
+        "Bernetti, Mattia"
+      ],
+      "short_names": [
+        "Bresciani V",
+        "Rinaldi F",
+        "Franco P",
+        "Girotto S",
+        "Cavalli A",
+        "Langer JD",
+        "Masetti M",
+        "Bernetti M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7042-2071",
+        "ORCID: 0000-0002-0339-6675",
+        "ORCID: 0000-0002-5190-577X",
+        "ORCID: 0000-0002-3757-7802",
+        "ORCID: 0000-0002-4373-9310"
+      ],
+      "affiliations": [
+        "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+        "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum horizontal line Universita di Bologna, Bologna 40126, Italy.",
+        "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+        "Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany.",
+        "Max Planck Institute for Brain Research, Max-von-Laue-Strasse 4, Frankfurt am Main 60438, Germany.",
+        "Structural Biophysics Facility, Istituto Italiano di Tecnologia, Genoa 16163, Italy.",
+        "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+        "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum horizontal line Universita di Bologna, Bologna 40126, Italy.",
+        "Centre Europeen de Calcul Atomique et Moleculaire (CECAM), Ecole Polytechnique Federale de Lausanne, Lausanne 1015, Switzerland.",
+        "Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany.",
+        "Max Planck Institute for Brain Research, Max-von-Laue-Strasse 4, Frankfurt am Main 60438, Germany.",
+        "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum horizontal line Universita di Bologna, Bologna 40126, Italy.",
+        "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+        "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum horizontal line Universita di Bologna, Bologna 40126, Italy.",
+        "Department of Biomolecular Sciences (DISB), Universita degli Studi di Urbino \"Carlo Bo\", Urbino 61029, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bresciani, Veronica",
+        "short_name": "Bresciani V",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+          "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum─ Università di Bologna, Bologna 40126, Italy."
+        ]
+      },
+      {
+        "full_name": "Rinaldi, Francesco",
+        "short_name": "Rinaldi F",
+        "identifiers": [
+          "0000-0001-7042-2071"
+        ],
+        "affiliations": [
+          "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy."
+        ]
+      },
+      {
+        "full_name": "Franco, Pedro",
+        "short_name": "Franco P",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany.",
+          "Max Planck Institute for Brain Research, Max-von-Laue-Strasse 4, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Girotto, Stefania",
+        "short_name": "Girotto S",
+        "identifiers": [
+          "0000-0002-0339-6675"
+        ],
+        "affiliations": [
+          "Structural Biophysics Facility, Istituto Italiano di Tecnologia, Genoa 16163, Italy."
+        ]
+      },
+      {
+        "full_name": "Cavalli, Andrea",
+        "short_name": "Cavalli A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+          "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum─ Università di Bologna, Bologna 40126, Italy.",
+          "Centre Européen de Calcul Atomique et Moléculaire (CECAM), Ecole Polytechnique Fédérale de Lausanne, Lausanne 1015, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Langer, Julian D",
+        "short_name": "Langer JD",
+        "identifiers": [
+          "0000-0002-5190-577X"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany.",
+          "Max Planck Institute for Brain Research, Max-von-Laue-Strasse 4, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Masetti, Matteo",
+        "short_name": "Masetti M",
+        "identifiers": [
+          "0000-0002-3757-7802"
+        ],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum─ Università di Bologna, Bologna 40126, Italy."
+        ]
+      },
+      {
+        "full_name": "Bernetti, Mattia",
+        "short_name": "Bernetti M",
+        "identifiers": [
+          "0000-0002-4373-9310"
+        ],
+        "affiliations": [
+          "Computational and Chemical Biology, Istituto Italiano di Tecnologia, Genova 16163, Italy.",
+          "Department of Pharmacy and Biotechnology (FABIT), Alma Mater Studiorum─ Università di Bologna, Bologna 40126, Italy.",
+          "Department of Biomolecular Sciences (DISB), Università degli Studi di Urbino \"Carlo Bo\", Urbino 61029, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/22 18:26",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39237202",
+      "39178838",
+      "39137490",
+      "38955347",
+      "38509361",
+      "37924230",
+      "37923304",
+      "37182397",
+      "35955488",
+      "34265844",
+      "33744950",
+      "33002277",
+      "32962386",
+      "32961909",
+      "32145944",
+      "32015543",
+      "31943278",
+      "31714766",
+      "31417196",
+      "31363226",
+      "31263220",
+      "30114372",
+      "30049874",
+      "29507080",
+      "28876235",
+      "28063280",
+      "27941862",
+      "27809316",
+      "26592995",
+      "26488642",
+      "26320411",
+      "25849637",
+      "25400877",
+      "24639379",
+      "24586124",
+      "23935068",
+      "21670257",
+      "21530234",
+      "20684611",
+      "19486669",
+      "19303847",
+      "18593145",
+      "17569554",
+      "17212484",
+      "12442171",
+      "12271136",
+      "10390347"
+    ],
+    "similar": [
+      "41124105",
+      "21789034",
+      "23935068",
+      "26522863",
+      "31875260",
+      "19303847",
+      "37536521",
+      "35955488",
+      "21399666",
+      "15937124",
+      "12967658",
+      "26976601",
+      "19747923",
+      "29654063",
+      "21601571",
+      "18429819",
+      "41223233",
+      "27084934",
+      "19875419",
+      "22645136",
+      "35502837",
+      "25218467",
+      "32785644",
+      "17483448",
+      "35325018",
+      "34772801",
+      "20684611",
+      "23222131",
+      "16914443",
+      "16731627",
+      "17515904",
+      "17515903",
+      "12442171",
+      "36702902",
+      "33662256",
+      "19540122",
+      "16415210",
+      "37141696",
+      "36070766",
+      "27596592",
+      "32417964",
+      "21123097",
+      "19628690",
+      "39333100",
+      "25282148",
+      "38828772",
+      "16513631",
+      "15703751",
+      "21296653",
+      "21576230",
+      "21670257",
+      "29458771",
+      "30872704",
+      "10551859",
+      "27628236",
+      "26387543",
+      "40441151",
+      "24817641",
+      "17767921",
+      "24141787",
+      "25876666",
+      "24583581",
+      "26992456",
+      "29458766",
+      "29309696",
+      "23678008",
+      "20729832",
+      "31748913",
+      "27941124",
+      "12941707",
+      "24348212",
+      "33731496",
+      "23149936",
+      "20729859",
+      "9405383",
+      "27725183",
+      "29100040",
+      "23754376",
+      "36851449",
+      "40595518",
+      "37499663",
+      "34871438",
+      "25470112",
+      "35409418",
+      "11239456",
+      "17549502",
+      "22194698",
+      "23071527",
+      "16210413",
+      "23384538",
+      "40923759",
+      "22505581",
+      "40140565",
+      "39923534",
+      "41326371",
+      "12915460",
+      "36098506",
+      "36976771",
+      "12727514",
+      "21409565"
+    ],
+    "review": [
+      "41124105",
+      "31748913",
+      "24348212"
+    ],
+    "pmc": [
+      "12606624"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41124105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01639",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full preprint text (abstract and main text as provided)
+- **Assessment boundary** Scientific claims, experimental design, evidence quality, and alignment with Nature-style criteria based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose that heterochromatin at endogenous retroviruses (ERVs) maintains euchromatic transcription factor (TF) binding and transcriptional homeostasis by preventing ERVs from competing for TF binding sites. They test this using acute KAP1 deletion in mouse ESCs and exogenous binding site arrays (EBSAs) for OCT4, reporting reduced euchromatic accessibility, acetylation, and TF binding, plus differentiation upon EBSA introduction.
+- **Visible evidence base** Abstract and main text narrative; no figures, tables, methods details, or supplementary materials were provided
+- **Missing materials affecting confidence** Figures, tables, statistical analyses, experimental protocols, cell line details, replication information, and any quantitative data are absent. The manuscript cannot be fully evaluated for technical soundness or reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a conceptually interesting and potentially important question about the role of ERV heterochromatin in TF stoichiometry and transcriptional regulation. The hypothesis is clearly stated and the experimental approach is logical. However, the provided material lacks all primary data, making it impossible to assess the validity of the claims. The evidence base is entirely descriptive in the text, with no quantitative support. The work has potential for broad interest, but the current submission does not establish the case from the supplied material.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, developmental biology, and gene regulation would be interested. The concept of ERVs as dynamic regulators of TF availability could inform studies on early development, cellular plasticity, and diseases involving heterochromatin loss, such as cancer or aging.
+- **Major strengths** The hypothesis is novel and mechanistically compelling, linking repetitive element derepression to global TF competition. The use of inducible KAP1 deletion and engineered EBSAs provides a direct and elegant test of the competition model. The proposed developmental implications are thought-provoking and could open new research directions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The authors claim that KAP1 deletion leads to clear reductions in chromatin accessibility, histone acetylation, and TF binding at euchromatic regions.  
+  - **Evidence pointer** Main text, location not provided  
+  - **Concern** No quantitative data, statistical tests, or representative results are shown. The claim is stated without any supporting figures or tables.  
+  - **Why it matters** Without data, the reader cannot verify the magnitude, reproducibility, or specificity of the observed effects. This is central to the entire model.  
+  - **Resolution test** Provide figures with quantified accessibility, acetylation, and TF binding changes, including statistical comparisons and appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Experimental design  
+  - **Claim pointer** The authors state that OCT4 EBSAs specifically reduce chromatin accessibility at POU family motifs and reduce transcription of pluripotency machinery.  
+  - **Evidence pointer** Main text, location not provided  
+  - **Concern** The design of EBSAs, their integration site, copy number verification, and specificity controls are not described. The claim of specificity to POU motifs requires demonstration that other TF motifs are unaffected.  
+  - **Why it matters** The specificity of the EBSA effect is essential to support the competition model. Off-target effects or integration artifacts could confound the results.  
+  - **Resolution test** Provide detailed EBSA construction, integration validation, and genome-wide accessibility data showing selective effects at POU motifs.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The authors propose that ERV derepression during pre-implantation acts as a developmental siphon to weaken ongoing transcription programs.  
+  - **Evidence pointer** Main text, location not provided  
+  - **Concern** This is a speculative extrapolation from ESC data to pre-implantation development, with no direct evidence from embryos or developmental time points.  
+  - **Why it matters** The developmental claim is a major part of the paper's significance, but it is unsupported by the presented experiments.  
+  - **Resolution test** Include data from pre-implantation embryos or early differentiation models showing ERV derepression correlates with reduced euchromatic TF binding and transcriptional changes.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors conclude that heterochromatin at ERVs promotes euchromatic TF binding and transcriptional homeostasis.  
+  - **Evidence pointer** Main text, location not provided  
+  - **Concern** The causal link between ERV heterochromatin and euchromatic TF binding is inferred from KAP1 deletion, but KAP1 has multiple targets beyond ERVs. The specificity of the effect to ERV derepression is not established.  
+  - **Why it matters** Without demonstrating that the observed effects are due specifically to ERV derepression, alternative explanations remain plausible.  
+  - **Resolution test** Use ERV-specific manipulations or show that the effects correlate with ERV activation levels and are rescued by ERV re-silencing.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "transcriptional homoeostasis" is used without definition or context.  
+  - **Required correction** Define the term or rephrase to clarify the intended meaning.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Methods  
+  - **Evidence pointer** Main text, location not provided  
+  - **Issue** No details on biological replicates, statistical methods, or data analysis pipelines are provided.  
+  - **Required correction** Include a methods section with full experimental and computational details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Discussion  
+  - **Evidence pointer** Main text, location not provided  
+  - **Issue** The developmental siphon model is presented as a conclusion rather than a hypothesis.  
+  - **Required correction** Frame this as a speculative model and clearly separate it from the experimental findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of primary data, lack of specificity controls, and unsupported developmental extrapolation prevent the claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of ERVs as competitive sinks for TF binding is novel and distinct from prior work on ERV regulation.  
+  - **Scientific importance** If substantiated, the findings could reshape understanding of how repetitive elements influence gene regulatory networks and developmental transitions.  
+  - **Interdisciplinary readership** The topic bridges epigenetics, developmental biology, and genomics, with potential appeal to a broad audience.  
+  - **Technical soundness** Cannot be assessed from the supplied material due to missing data and methods.  
+  - **Readability for nonspecialists** The text is generally clear, but the lack of figures and data makes it difficult for nonspecialists to follow the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is promising and the experimental design is logical, but the absence of primary data and specificity controls means the claims cannot be verified. The manuscript would require substantial additional information, including full datasets and methods, before a supportive recommendation could be considered.
+
+## Risk / unsupported claims
+- The claim that KAP1 deletion reduces euchromatic accessibility, acetylation, and TF binding is unsupported without data.
+- The claim that OCT4 EBSAs specifically affect POU motifs is unsupported without specificity controls.
+- The developmental siphon model for pre-implantation is speculative and not directly tested.
+- The overall conclusion that ERV heterochromatin promotes euchromatic TF binding and transcriptional homeostasis is not established from the supplied material.

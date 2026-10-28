@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34149757",
+  "title": "Elucidation of Novel cis-Regulatory Elements and Promoter Structures Involved in Iron Excess Response Mechanisms in Rice Using a Bioinformatics Approach.",
+  "authors": "Kakei, Yusuke; Masuda, Hiroshi; Nishizawa, Naoko K; Hattori, Hiroyuki; Aung, May Sann",
+  "journal": "Frontiers in plant science",
+  "published_date": "2021-06-22",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用生物信息学与机器学习方法预测水稻铁过量响应基因的顺式调控元件和启动子结构，涉及TF结合基序但缺乏三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Iron (Fe) excess is a major constraint on crop production in flooded acidic soils, particularly in rice cultivation. Under Fe excess, plants activate a complex mechanism and network regulating Fe exclusion by roots and isolation in various tissues. In rice, the transcription factors and cis-regulatory elements (CREs) that regulate Fe excess response mechanisms remain largely elusive. We previously reported comprehensive microarray analyses of several rice tissues in response to various levels of Fe excess stress. In this study, we further explored novel CREs and promoter structures in rice using bioinformatics approaches with this microarray data. We first performed network analyses to predict Fe excess-related CREs through the categorization of the gene expression patterns of Fe excess-responsive transcriptional regulons, and found four major expression clusters: Fe storage type, Fe chelator type, Fe uptake type, and WRKY and other co-expression type. Next, we explored CREs within these four clusters of gene expression types using a machine-learning method called microarray-associated motif analyzer (MAMA), which we previously established. Through a comprehensive bioinformatics approach, we identified a total of 560 CRE candidates extracted by MAMA analyses and 42 important conserved sequences of CREs directly related to the Fe excess response in various rice tissues. We explored several novel cis-elements as candidate Fe excess CREs including GCWGCWGC, CGACACGC, and Myb binding-like motifs. Based on the presence or absence of candidate CREs using MAMA and known PLACE CREs, we found that the Boruta-XGBoost model explained expression patterns with high accuracy of about 83%. Enriched sequences of both novel MAMA CREs and known PLACE CREs led to high accuracy expression patterns. We also found new roles of known CREs in the Fe excess response, including the DCEp2 motif, IDEF1-, Zinc Finger-, WRKY-, Myb-, AP2/ERF-, MADS- box-, bZIP and bHLH- binding sequence-containing motifs among Fe excess-responsive genes. In addition, we built a molecular model and promoter structures regulating Fe excess-responsive genes based on new finding CREs. Together, our findings about Fe excess-related CREs and conserved sequences will provide a comprehensive resource for discovery of genes and transcription factors involved in Fe excess-responsive pathways, clarification of the Fe excess response mechanism in rice, and future application of the promoter sequences to produce genotypes tolerant of Fe excess.",
+  "abstract_zh": "铁（Fe）过量是淹水酸性土壤中作物生产的主要限制因素，尤其是在水稻种植中。在铁过量条件下，植物激活复杂的机制和网络，调节根系对铁的排斥及在多种组织中的隔离。在水稻中，调控铁过量响应机制的转录因子和顺式调控元件（cis-regulatory elements, CREs）在很大程度上仍不明确。我们此前报道了针对多种水稻组织在不同铁过量胁迫水平下响应的全面微阵列分析。在本研究中，我们利用这些微阵列数据，通过生物信息学方法进一步探索了水稻中新的CREs和启动子结构。我们首先进行了网络分析，通过分类铁过量响应转录调控子的基因表达模式来预测与铁过量相关的CREs，并发现了四个主要表达簇：铁储存型、铁螯合剂型、铁吸收型以及WRKY和其他共表达型。接下来，我们使用一种名为微阵列相关基序分析器（microarray-associated motif analyzer, MAMA）的机器学习方法（我们此前已建立），探索了这四个基因表达类型簇中的CREs。通过全面的生物信息学方法，我们共鉴定出560个由MAMA分析提取的CRE候选物，以及42个与水稻多种组织中铁过量响应直接相关的重要保守CRE序列。我们探索了几个新的顺式元件作为候选铁过量CREs，包括GCWGCWGC、CGACACGC和Myb结合样基序。基于使用MAMA和已知PLACE CREs的候选CREs存在与否，我们发现Boruta-XGBoost模型以约83%的高准确率解释了表达模式。新型MAMA CREs和已知PLACE CREs的富集序列均导致了高准确率的表达模式。我们还发现了已知CREs在铁过量响应中的新作用，包括DCEp2基序、IDEF1-、锌指-、WRKY-、Myb-、AP2/ERF-、MADS-box-、bZIP和bHLH-结合序列含有的基序，这些存在于铁过量响应基因中。此外，我们基于新发现的CREs构建了调控铁过量响应基因的分子模型和启动子结构。综合来看，我们关于铁过量相关CREs和保守序列的发现将为发现参与铁过量响应途径的基因和转录因子、阐明水稻中铁过量响应机制，以及未来应用启动子序列产生耐铁过量基因型提供全面资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34149757/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34149757/",
+  "paper_page_path": "papers/pubmed/34149757/index.html"
+}

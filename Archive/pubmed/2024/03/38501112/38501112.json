@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "38501112",
+    "doi": "10.3389/fbinf.2024.1340339",
+    "title": "Detecting subtle transcriptomic perturbations induced by lncRNAs knock-down in single-cell CRISPRi screening using a new sparse supervised autoencoder neural network."
+  },
+  "content": {
+    "abstract": "Single-cell CRISPR-based transcriptome screens are potent genetic tools for concomitantly assessing the expression profiles of cells targeted by a set of guides RNA (gRNA), and inferring target gene functions from the observed perturbations. However, due to various limitations, this approach lacks sensitivity in detecting weak perturbations and is essentially reliable when studying master regulators such as transcription factors. To overcome the challenge of detecting subtle gRNA induced transcriptomic perturbations and classifying the most responsive cells, we developed a new supervised autoencoder neural network method. Our Sparse supervised autoencoder (SSAE) neural network provides selection of both relevant features (genes) and actual perturbed cells. We applied this method on an in-house single-cell CRISPR-interference-based (CRISPRi) transcriptome screening (CROP-Seq) focusing on a subset of long non-coding RNAs (lncRNAs) regulated by hypoxia, a condition that promote tumor aggressiveness and drug resistance, in the context of lung adenocarcinoma (LUAD). The CROP-seq library of validated gRNA against a subset of lncRNAs and, as positive controls, HIF1A and HIF2A, the 2 main transcription factors of the hypoxic response, was transduced in A549 LUAD cells cultured in normoxia or exposed to hypoxic conditions during 3, 6 or 24 h. We first validated the SSAE approach on HIF1A and HIF2 by confirming the specific effect of their knock-down during the temporal switch of the hypoxic response. Next, the SSAE method was able to detect stable short hypoxia-dependent transcriptomic signatures induced by the knock-down of some lncRNAs candidates, outperforming previously published machine learning approaches. This proof of concept demonstrates the relevance of the SSAE approach for deciphering weak perturbations in single-cell transcriptomic data readout as part of CRISPR-based screening.",
+    "keywords": [
+      "CRISPRi",
+      "hypoxia",
+      "lncRNAs",
+      "single-cell RNA-seq",
+      "sparse supervised autoencoder"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Truchi, Marin",
+        "Lacoux, Caroline",
+        "Gille, Cyprien",
+        "Fassy, Julien",
+        "Magnone, Virginie",
+        "Lopes Goncalves, Rafael",
+        "Girard-Riboulleau, Cedric",
+        "Manosalva-Pena, Iris",
+        "Gautier-Isola, Marine",
+        "Lebrigand, Kevin",
+        "Barbry, Pascal",
+        "Spicuglia, Salvatore",
+        "Vassaux, Georges",
+        "Rezzonico, Roger",
+        "Barlaud, Michel",
+        "Mari, Bernard"
+      ],
+      "short_names": [
+        "Truchi M",
+        "Lacoux C",
+        "Gille C",
+        "Fassy J",
+        "Magnone V",
+        "Lopes Goncalves R",
+        "Girard-Riboulleau C",
+        "Manosalva-Pena I",
+        "Gautier-Isola M",
+        "Lebrigand K",
+        "Barbry P",
+        "Spicuglia S",
+        "Vassaux G",
+        "Rezzonico R",
+        "Barlaud M",
+        "Mari B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, I3S, CNRS UMR7271, Nice, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Aix-Marseille University, Inserm, TAGC, UMR1090, Equipe Labelisee Ligue Contre le Cancer, Marseille, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Aix-Marseille University, Inserm, TAGC, UMR1090, Equipe Labelisee Ligue Contre le Cancer, Marseille, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France.",
+        "Universite Cote d'Azur, I3S, CNRS UMR7271, Nice, France.",
+        "Universite Cote d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Truchi, Marin",
+        "short_name": "Truchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Lacoux, Caroline",
+        "short_name": "Lacoux C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Gille, Cyprien",
+        "short_name": "Gille C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, I3S, CNRS UMR7271, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Fassy, Julien",
+        "short_name": "Fassy J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Magnone, Virginie",
+        "short_name": "Magnone V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Lopes Goncalves, Rafael",
+        "short_name": "Lopes Goncalves R",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Girard-Riboulleau, Cédric",
+        "short_name": "Girard-Riboulleau C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Manosalva-Pena, Iris",
+        "short_name": "Manosalva-Pena I",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, Inserm, TAGC, UMR1090, Equipe Labélisée Ligue Contre le Cancer, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Gautier-Isola, Marine",
+        "short_name": "Gautier-Isola M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Lebrigand, Kevin",
+        "short_name": "Lebrigand K",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Barbry, Pascal",
+        "short_name": "Barbry P",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Spicuglia, Salvatore",
+        "short_name": "Spicuglia S",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, Inserm, TAGC, UMR1090, Equipe Labélisée Ligue Contre le Cancer, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Vassaux, Georges",
+        "short_name": "Vassaux G",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Rezzonico, Roger",
+        "short_name": "Rezzonico R",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      },
+      {
+        "full_name": "Barlaud, Michel",
+        "short_name": "Barlaud M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, I3S, CNRS UMR7271, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Mari, Bernard",
+        "short_name": "Mari B",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, IPMC, UMR CNRS 7275 Inserm 1323, IHU RespiERA, Valbonne, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/19 06:43",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41826830",
+      "41367062",
+      "41234120",
+      "39715222"
+    ],
+    "refs": [
+      "37796856",
+      "36778670",
+      "33733124",
+      "33649593",
+      "32640630",
+      "32503170",
+      "32231336",
+      "32024996",
+      "31870412",
+      "31730848",
+      "31620362",
+      "31551298",
+      "31417181",
+      "31363220",
+      "31156708",
+      "31011186",
+      "30567574",
+      "30504886",
+      "30374364",
+      "29928414",
+      "29739426",
+      "29457792",
+      "29129785",
+      "28741527",
+      "28729029",
+      "28099430",
+      "27980086",
+      "27482057",
+      "27124451",
+      "23243023",
+      "22818162",
+      "22304911",
+      "20385727",
+      "18498744",
+      "16517405",
+      "15964822"
+    ],
+    "similar": [
+      "38501112",
+      "37761573",
+      "38419051",
+      "31417181",
+      "35172334",
+      "33686243",
+      "26721210",
+      "31322548",
+      "35543560",
+      "30005603",
+      "31681950",
+      "30767760",
+      "26746985",
+      "38894390",
+      "33464298",
+      "34769351",
+      "30415723",
+      "36655998",
+      "35944892",
+      "37741886",
+      "28577945",
+      "27063004",
+      "30344725",
+      "36833177",
+      "32826220",
+      "26969372",
+      "33160303",
+      "38026852",
+      "35619054",
+      "37773752",
+      "33326085",
+      "28837118",
+      "30802942",
+      "36300102",
+      "37589417",
+      "28587642",
+      "35914372",
+      "31898160",
+      "31422865",
+      "31937638",
+      "28873379",
+      "31480319",
+      "36386454",
+      "35700449",
+      "27984733",
+      "33757429",
+      "31870278",
+      "32505424",
+      "37107664",
+      "33711017",
+      "26918601",
+      "34277363",
+      "27980086",
+      "29158600",
+      "31756390",
+      "31515405",
+      "23237380",
+      "30178634",
+      "34940617",
+      "37329620",
+      "30087587",
+      "31726968",
+      "34551729",
+      "36829149",
+      "30634906",
+      "34107009",
+      "34889903",
+      "36685903",
+      "26956608",
+      "33739047",
+      "32071080",
+      "35309906",
+      "26928440",
+      "30912039",
+      "31475209",
+      "35504892",
+      "30038865",
+      "28418635",
+      "37088775",
+      "30665012",
+      "34533605",
+      "27965712",
+      "32681501",
+      "34160808",
+      "31131047",
+      "25815337",
+      "38760566",
+      "39282439",
+      "39005298",
+      "36747806",
+      "36778497"
+    ],
+    "review": [
+      "38501112",
+      "29158600",
+      "31756390"
+    ],
+    "pmc": [
+      "10945021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38501112/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38501112",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38501112",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2024.1340339",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

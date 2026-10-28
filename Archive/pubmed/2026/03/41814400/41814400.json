@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "41814400",
+    "doi": "10.1186/s40644-026-01014-y",
+    "title": "Prediction of MYC/BCL-2 co-expression in diffuse large B-cell lymphoma using a multimodal fusion model: a retrospective study based on PET/CT habitat radiomics and deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The co-expression of MYC and BCL-2 proteins in diffuse large B-cell lymphoma (DLBCL) is linked to poor prognosis and resistance to standard therapies. Thus, a non-invasive and accurate method to detect this co-expression before treatment is essential for pre-treatment risk stratification and assisting in personalized patient management. METHODS: This retrospective study included DLBCL patients who underwent baseline 18F-FDG PET/CT between December 2018 and August 2024. Clinical data were collected. Habitat radiomics features were extracted by segmenting tumors into distinct subregions, and 3D deep learning features were obtained using convolutional neural networks, both derived from PET/CT images. Two individual models were built: A habitat radiomics model and a 3D deep learning model. A multimodal fusion model was also constructed by integrating dimensionally reduced features from habitat radiomics, 3D deep learning, clinical data, and PET-derived metabolic parameters. Model performance was evaluated using the area under the receiver operating characteristic curve (AUC), calibration curves, and decision curve analysis (DCA). DeLong's test was used to compare AUCs, and net reclassification improvement (NRI) and integrated discrimination improvement (IDI) were calculated to assess net benefit. RESULTS: A total of 242 patients were enrolled (95 DEL-positive [39.3%] and 147 DEL-negative [60.7%]) and were stratified-randomly split by DEL status into a training set (n = 193) and test set (n = 49) in an 8:2 ratio. This was a retrospective single-center study with an internal hold-out test cohort. All feature selection and model development were performed in the training cohort only, and the test cohort was used solely for final evaluation. The habitat radiomics model showed better performance than the deep learning model, with AUCs of 0.869 (95% CI: 0.820-0.918) and 0.812 (95% CI: 0.661-0.964) vs. 0.844 (95% CI: 0.787-0.902) and 0.715 (95% CI: 0.562-0.869) in the training and test sets, respectively. The fusion model outperformed both, achieving AUCs of 0.946 (95% CI: 0.917-0.974) in the training and 0.890 (95% CI: 0.793-0.987) in the test set. Calibration curves demonstrated strong agreement between predicted and observed outcomes. DCA confirmed higher clinical benefit for the fusion model. DeLong's test showed the fusion model significantly outperformed both individual models in the training set and the deep learning model in the test set (P < 0.05). NRI and IDI further supported improved discrimination, suggesting potential incremental value. CONCLUSIONS: The multimodal fusion model based on 18F-FDG PET/CT and clinical data provides a non-invasive and reliable tool for predicting MYC/BCL-2 co-expression in DLBCL, providing complementary prognostic information to assist personalized treatment planning. TRIAL REGISTRATION: This study was retrospectively registered.",
+    "keywords": [
+      "18F-FDG PET/CT",
+      "Deep learning",
+      "Diffuse large B-cell lymphoma",
+      "Habitat radiomics",
+      "MYC/BCL-2 co-expression"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Retrospective Studies",
+      "Radiomics",
+      "*Lymphoma, Large B-Cell, Diffuse/diagnostic imaging/metabolism/genetics/pathology",
+      "*Positron Emission Tomography Computed Tomography/methods",
+      "*Deep Learning",
+      "*Proto-Oncogene Proteins c-bcl-2/metabolism/genetics",
+      "*Proto-Oncogene Proteins c-myc/metabolism/genetics",
+      "Female",
+      "Male",
+      "Fluorodeoxyglucose F18",
+      "Middle Aged",
+      "Aged",
+      "Predictive Learning Models",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yu",
+        "Chen, Shirong",
+        "Li, Xinyang",
+        "Yi, Jingkai",
+        "Wang, Dan",
+        "Qi, Kailin",
+        "Jiang, Xiao",
+        "Wu, Ping",
+        "Zhao, Meng",
+        "Lu, Hao",
+        "Kou, Ying",
+        "Yao, Yutang",
+        "Cheng, Zhuzhong"
+      ],
+      "short_names": [
+        "He Y",
+        "Chen S",
+        "Li X",
+        "Yi J",
+        "Wang D",
+        "Qi K",
+        "Jiang X",
+        "Wu P",
+        "Zhao M",
+        "Lu H",
+        "Kou Y",
+        "Yao Y",
+        "Cheng Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Medical Oncology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China.",
+        "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China. chengzhuzhong@scszlyy.org.cn.",
+        "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China. chengzhuzhong@scszlyy.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yu",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shirong",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinyang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Jingkai",
+        "short_name": "Yi J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Kailin",
+        "short_name": "Qi K",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China.",
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiao",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ping",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Meng",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hao",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Kou, Ying",
+        "short_name": "Kou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yutang",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Zhuzhong",
+        "short_name": "Cheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Imaging Department, North Sichuan Medical College, Nanchong, 637000, China. chengzhuzhong@scszlyy.org.cn.",
+          "Department of Nuclear Medicine, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, University of Electronic Science and Technology of China, Chengdu, 610000, China. chengzhuzhong@scszlyy.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer imaging : the official publication of the International Cancer Imaging Society"
+    ],
+    "journal_abbrev": [
+      "Cancer Imaging"
+    ],
+    "pub_date": "2026 Mar 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/12 07:03",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38927948",
+      "38342905",
+      "38326144",
+      "34692548",
+      "34537135",
+      "33657296",
+      "32432035",
+      "32289277",
+      "32206128",
+      "32154773",
+      "30625203",
+      "29714680",
+      "29092951",
+      "28778026",
+      "27725679",
+      "27717679",
+      "26980727",
+      "26834242",
+      "26637926",
+      "26579733",
+      "26382145",
+      "26185243",
+      "25421725",
+      "25113771",
+      "25025374",
+      "24194352",
+      "24062559",
+      "22665537"
+    ],
+    "similar": [
+      "41814400",
+      "42326344",
+      "42420890",
+      "42116412",
+      "40858464",
+      "41857399",
+      "41286784",
+      "39382750",
+      "41832418",
+      "42214904",
+      "40158053",
+      "40053051",
+      "35298676",
+      "41870550",
+      "41731418",
+      "42656315",
+      "37530809",
+      "36029345",
+      "41843889",
+      "39497518",
+      "41116179",
+      "40665334",
+      "41572744",
+      "39665892",
+      "40424664",
+      "41395611",
+      "37945379",
+      "42251269",
+      "42375379",
+      "40887351",
+      "41629840",
+      "36547676",
+      "41067858",
+      "34714558",
+      "41992190",
+      "42142271",
+      "42307755",
+      "40153023",
+      "41566257",
+      "42180916",
+      "37500261",
+      "37395846",
+      "42310216",
+      "39054508",
+      "41028770",
+      "41660073",
+      "39230437",
+      "36409398",
+      "40960691",
+      "42382391",
+      "42094006",
+      "41668011",
+      "34405277",
+      "40831132",
+      "41231622",
+      "42297930",
+      "40928386",
+      "42285781",
+      "42426690",
+      "39480583",
+      "42459681",
+      "38977273",
+      "30382301",
+      "42332463",
+      "36437191",
+      "39604895",
+      "42277870",
+      "41942650",
+      "40326106",
+      "41693490",
+      "38291351",
+      "38935330",
+      "36879285",
+      "42151619",
+      "42162960",
+      "41545974",
+      "42164573",
+      "42029163",
+      "41339805",
+      "41555270",
+      "39362767",
+      "39533388",
+      "38955636",
+      "41572748",
+      "40804402",
+      "42163131",
+      "41913156",
+      "41091337",
+      "41372085",
+      "42643589",
+      "42406147",
+      "39698668",
+      "38342905",
+      "35589406",
+      "40624821",
+      "40295979",
+      "42135669",
+      "41329311",
+      "41699278",
+      "37992746"
+    ],
+    "review": [
+      "41814400"
+    ],
+    "pmc": [
+      "13101366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cancerimagingjournal.biomedcentral.com/articles/10.1186/s40644-026-01014-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41814400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

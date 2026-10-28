@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.27.582387",
+  "title": "PNAbind: Structure-based prediction of protein-nucleic acid binding using graph neural networks",
+  "authors": "Jared M. Sagendorf; Raktim Mitra; Jiawei Huang; Xiaojiang S. Chen; Remo Rohs",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-02",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用图神经网络基于蛋白apo结构预测蛋白-核酸结合及结合位点，虽非专指TF-DNA，但方法可迁移至TF-DNA互作建模，高度契合课题。",
+  "abstract": "The recognition and binding of nucleic acids (NAs) by proteins depends upon complementary chemical, electrostatic and geometric properties of the protein-NA binding interface. Structural models of protein-NA complexes provide insights into these properties but are scarce relative to models of unbound proteins. We present a deep learning approach for predicting protein-NA binding given the apo structure of a protein (PNAbind). Our method utilizes graph neural networks to encode spatial distributions of physicochemical and geometric properties of the protein molecular surface that are predictive of NA binding. Using global physicochemical encodings, our models predict the overall binding function of a protein and can discriminate between specificity for DNA or RNA binding. We show that such predictions made on protein structures modeled with AlphaFold2 can be used to gain mechanistic understanding of chemical and structural features that determine NA recognition. Using local encodings, our models predict the location of NA binding sites at the level of individual binding residues. Binding site predictions were validated against benchmark datasets, achieving AUROC scores in the range of 0.92-0.95. We applied our models to the HIV-1 restriction factor APOBEC3G and show that our predictions are consistent with experimental RNA binding data.",
+  "abstract_zh": "蛋白质对核酸（NAs）的识别与结合依赖于蛋白质-核酸结合界面的互补化学、静电及几何特性。蛋白质-核酸复合物的结构模型为这些特性提供了见解，但与未结合蛋白质的模型相比，此类模型较为稀缺。我们提出了一种深度学习方法，用于在给定蛋白质的apo结构（PNAbind）时预测蛋白质-核酸结合。我们的方法利用图神经网络编码蛋白质分子表面物理化学和几何特性的空间分布，这些特性可预测核酸结合。通过全局物理化学编码，我们的模型预测蛋白质的整体结合功能，并能区分对DNA或RNA结合的特异性。我们展示了，对使用AlphaFold2建模的蛋白质结构进行的此类预测，可用于深入理解决定核酸识别的化学和结构特征。利用局部编码，我们的模型在单个结合残基水平上预测核酸结合位点的位置。结合位点预测在基准数据集上进行了验证，AUROC分数范围在0.92-0.95之间。我们将模型应用于HIV-1限制因子APOBEC3G，并显示我们的预测与实验性RNA结合数据一致。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.27.582387",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.582387",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.27.582387/index.html"
+}

@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "40060626",
+    "doi": "10.1101/2025.02.22.638679",
+    "title": "Machine Learning Prediction of Non-Coding Variant Impact in Cell-Class-Specific Human Retinal Cis-Regulatory Elements."
+  },
+  "content": {
+    "abstract": "Non-coding variants in cis-regulatory elements such as promoters and enhancers contribute to inherited retinal diseases (IRDs), however, characterizing the functional impact of most regulatory variants remains challenging. To improve identification of variants of interest, we implemented machine learning using a gapped k-mer support vector machine approach trained on single nucleus ATAC-seq data from specific cell classes of the adult and developing human retina. We developed 18 distinct ML models to predict the impact of non-coding variants on 39,437 cell-class-specific regulatory elements. These models demonstrate accuracy over 90% and a high degree of cell class specificity. Variant Impact Prediction (VIP) scores highlight specific sequences within candidate CREs, including putative transcription factor (TF) binding motifs, that are predicted to alter CRE function if mutated. Correlations to massively parallel reporter assays support the predictive value of VIP scores to model single nucleotide variants and indels in a cell-class-specific manner. These analyses demonstrate the capacity for single nucleus epigenomic data to predict the impact of non-coding sequence variants and allow for rapid prioritization of patient variants for further functional analysis.",
+    "keywords": [
+      "Retinal disease",
+      "cis-regulatory element",
+      "machine learning",
+      "non-coding variants"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "VandenBosch, Leah S",
+        "Cherry, Timothy J"
+      ],
+      "short_names": [
+        "VandenBosch LS",
+        "Cherry TJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8385-1147",
+        "ORCID: 0000-0003-1532-9856"
+      ],
+      "affiliations": [
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "University of Washington Department of Pediatrics, Seattle, Washington, USA.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, Washington, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "VandenBosch, Leah S",
+        "short_name": "VandenBosch LS",
+        "identifiers": [
+          "0000-0002-8385-1147"
+        ],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Cherry, Timothy J",
+        "short_name": "Cherry TJ",
+        "identifiers": [
+          "0000-0003-1532-9856"
+        ],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+          "University of Washington Department of Pediatrics, Seattle, Washington, USA.",
+          "Brotman Baty Institute for Precision Medicine, Seattle, Washington, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 17:18",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39085231",
+      "37962376",
+      "36635387",
+      "36277849",
+      "35840754",
+      "35435921",
+      "35303433",
+      "34839010",
+      "34788628",
+      "33689769",
+      "33581335",
+      "32870927",
+      "31915147",
+      "31776829",
+      "31633482",
+      "30742112",
+      "30034950",
+      "29636475",
+      "28985510",
+      "28524769",
+      "27153584",
+      "26691988",
+      "26301843",
+      "26083756",
+      "26075791",
+      "24984227",
+      "24360275",
+      "23861382",
+      "23498934",
+      "23138309",
+      "22955828",
+      "22868264",
+      "21441919",
+      "20513432",
+      "20362068",
+      "17943463",
+      "15196954",
+      "2788922"
+    ],
+    "similar": [
+      "40060626",
+      "35435921",
+      "35303433",
+      "31884638",
+      "38517697",
+      "38184646",
+      "38355306",
+      "37600946",
+      "40205616",
+      "34898596",
+      "37805453",
+      "37292699",
+      "38760655",
+      "31362726",
+      "29617928",
+      "36945371",
+      "31915147",
+      "34462306",
+      "31106481",
+      "40034789",
+      "38538340",
+      "37693486",
+      "40250421",
+      "28335009",
+      "37926287",
+      "32192535",
+      "33515242",
+      "38234731",
+      "26072432",
+      "39943688",
+      "39026229",
+      "39386531",
+      "34486522",
+      "32819422",
+      "28204611",
+      "31590652",
+      "26576614",
+      "36454649",
+      "36510125",
+      "33962556",
+      "35082832",
+      "37950299",
+      "34567058",
+      "35858748",
+      "36690178",
+      "39814889",
+      "34313779",
+      "25442502",
+      "29855387",
+      "36243009",
+      "26499213",
+      "28120510",
+      "25340786",
+      "34666684",
+      "36715222",
+      "39333082",
+      "36043696",
+      "39127768",
+      "36008388",
+      "35234913",
+      "37547722",
+      "31786786",
+      "39107801",
+      "31206543",
+      "29893792",
+      "26030420",
+      "37012250",
+      "39217658",
+      "31053165",
+      "31131957",
+      "36711646",
+      "38383453",
+      "31737053",
+      "28855262",
+      "38937662",
+      "37170195",
+      "16807757",
+      "40270544",
+      "39904740",
+      "32946763",
+      "23935528",
+      "33191916",
+      "27980060",
+      "22215325",
+      "38451770",
+      "32265282",
+      "33300042",
+      "39326643",
+      "39443793",
+      "21730952",
+      "34973416",
+      "35840754",
+      "37751945",
+      "26901046",
+      "38644556",
+      "38948875",
+      "23512712",
+      "36030022",
+      "29733395",
+      "36423637"
+    ],
+    "review": [
+      "40060626",
+      "31884638",
+      "38538340",
+      "26072432",
+      "26499213",
+      "29893792",
+      "39217658",
+      "31131957",
+      "16807757"
+    ],
+    "pmc": [
+      "11888276"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40060626/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.02.22.638679",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

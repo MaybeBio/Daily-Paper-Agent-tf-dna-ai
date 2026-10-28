@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.21.496953",
+  "title": "TF-COMB - discovering grammar of transcription factor binding sites",
+  "authors": "Mette Bentsen; Vanessa Heger; Hendrik Schultheis; Carsten Kuenne; Mario Looso",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-22",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发TF-COMB工具，基于ChIP-seq和ATAC-seq数据挖掘转录因子共现与结合语法（方向、距离），但主要依赖统计共现分析，缺乏AI或物理模拟方法，且未涉及三维互作建模，属于广义TF-DNA互作研究，方法可借鉴但深度有限。",
+  "abstract": "Cooperativity between transcription factors is important to regulate target gene expression. In particular, the binding grammar of TFs in relation to each other, as well as in the context of other genomic elements, is crucial for TF functionality. However, tools to easily uncover co-occurrence between DNA-binding proteins, and investigate the regulatory modules of TFs, are limited. Here we present TF-COMB (Transcription Factor Co-Occurrence using Market Basket analysis) - a tool to investigate co-occurring TFs and binding grammar within regulatory regions. We found that TF-COMB can accurately identify known co-occurring TFs from ChIP-seq data, as well as uncover preferential localization to other genomic elements. With the use of ATAC-seq footprinting and TF motif locations, we found that TFs exhibit both preferred orientation and distance in relation to each other, and that these are biologically significant. Finally, we extended the analysis to not only investigate individual TF pairs, but also TF pairs in the context of networks, which enabled the investigation of TF complexes and TF hubs. In conclusion, TF-COMB is a flexible tool to investigate various aspects of TF binding grammar. Graphical abstract",
+  "abstract_zh": "转录因子之间的协同作用对于调控靶基因表达至关重要。特别是，转录因子相对于彼此的结合语法，以及在其他基因组元件背景下的结合语法，对转录因子功能至关重要。然而，能够轻松揭示DNA结合蛋白共现性并研究转录因子调控模块的工具仍然有限。在此，我们介绍TF-COMB（使用市场篮子分析的转录因子共现性）——一种用于研究调控区域内共现转录因子及结合语法的工具。我们发现，TF-COMB能够从ChIP-seq数据中准确识别已知的共现转录因子，并揭示其向其他基因组元件的优先定位。利用ATAC-seq足迹分析和转录因子基序位置，我们发现转录因子在彼此相对时表现出偏好的方向和距离，且这些特征具有生物学意义。最后，我们将分析扩展至不仅研究单个转录因子对，还研究网络背景下的转录因子对，从而能够探究转录因子复合物和转录因子枢纽。总之，TF-COMB是一个灵活的工具，用于研究转录因子结合语法的多个方面。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.21.496953",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.21.496953",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.21.496953/index.html"
+}

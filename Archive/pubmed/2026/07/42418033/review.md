@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that two camptothecin derivatives, XSJ05 and XSJ07, bind to topoisomerase I (TOP1) by intercalating into the cleaved-DNA-binding site, forming stable ternary complexes, with computed MM/GBSA binding free energies of -58.34 and -51.60 kcal/mol, respectively, and that these results provide mechanistic insight for rational inhibitor design.
+- **Visible evidence base** Abstract text only; methods summary lists docking, MD simulations, and MM/GBSA calculations with stated parameters
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation convergence data, error estimates, structural validation, force field parameter details, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational study of two camptothecin derivatives binding to TOP1. The methodological framework is standard and appropriate for the stated goal. However, the abstract alone provides insufficient evidence to evaluate the robustness of the results. Key quantitative claims, particularly the binding free energies, are presented without error estimates or statistical context, and the absence of any experimental validation or comparison weakens the mechanistic conclusions. The work may be of interest to computational medicinal chemists, but the case for novel mechanistic insight is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on topoisomerase inhibitors or camptothecin analogues would find the methodological application relevant. The study could also interest researchers developing structure-based drug design workflows for ternary protein-DNA-ligand systems, as it demonstrates a standard pipeline combining docking, MD, and MM/GBSA.
+- **Major strengths** The study addresses a relevant target with clinical significance. The computational protocol is well established and includes appropriate force fields and explicit solvent. Running triplicate 500 ns simulations is a reasonable effort for sampling. The use of MM/GBSA with per-residue decomposition is a standard and informative approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** The abstract states binding free energies of -58.34 and -51.60 kcal/mol for XSJ05/TOP1 and XSJ07/TOP1, respectively.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The binding free energy values are presented as single point estimates with no standard deviation, standard error, or confidence interval. MM/GBSA results are known to be sensitive to internal dielectric constant, entropy contributions, and conformational sampling. Without error bars or a demonstration of convergence across the triplicate simulations, these values cannot be assessed for statistical reliability.
+  - **Why it matters** The central quantitative claim of the study rests on these numbers. If the uncertainty is large, the reported difference between the two compounds (approximately 6.7 kcal/mol) may not be meaningful, which would undermine the comparative mechanistic interpretation.
+  - **Resolution test** Provide mean and standard deviation across triplicates for each system, show time series of binding energy convergence, and report sensitivity to MM/GBSA parameters such as the internal dielectric constant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The abstract claims both compounds intercalate into the cleaved-DNA-binding site to form stable ternary complexes.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The intercalation mode and complex stability are asserted without supporting structural data. No RMSD, RMSF, interaction occupancy, or hydrogen bonding analysis is mentioned. The term "stable" is undefined in the abstract.
+  - **Why it matters** The mechanistic conclusion is the primary scientific contribution. Without evidence of structural stability over the simulation time and a clear description of the intercalation geometry, the claim is unsupported.
+  - **Resolution test** Show representative structures, time-averaged interaction distances, RMSD plots for protein, DNA, and ligand, and define stability criteria with quantitative thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The abstract implies the findings provide mechanistic insights that may guide rational design of novel CPT-based inhibitors.
+  - **Evidence pointer** Abstract, Conclusions (location not provided)
+  - **Concern** No comparison with experimental data, known structure-activity relationships, or previously published computational results for camptothecin derivatives is presented. The predictive value for inhibitor design cannot be assessed without benchmarking the method against known binders or experimental affinities.
+  - **Why it matters** The translational claim is a key motivation for the study. Without validation, the design guidance is speculative.
+  - **Resolution test** Compare computed binding energies or interaction patterns with experimental IC50 or binding data for the same or closely related compounds, or benchmark the MM/GBSA protocol against a set of known TOP1 inhibitors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Docking protocol
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Issue** The abstract states grid parameters were defined from the TPT/TOP1 crystal structure but does not specify the grid box dimensions or the docking scoring function used beyond the software name.
+  - **Required correction** Provide grid box size and center, and specify the scoring function and docking parameters in the full methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Force field consistency
+  - **Affected element** Ligand parameterization
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Issue** The abstract states ligand charges were derived using RESP from HF/6-31G calculations, which is standard, but does not specify how the GAFF2 atom types and bond parameters were assigned or whether the ligand force field was validated.
+  - **Required correction** Describe the parameter assignment procedure and any validation checks such as ligand geometry comparison with the optimized structure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Simulation replicates
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Issue** The abstract states triplicate simulations were performed but does not report how the replicates were initiated or whether the results were averaged across replicates.
+  - **Required correction** Specify the initialization protocol for replicates and clarify whether reported values are means across replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Entropy treatment
+  - **Affected element** Binding free energy calculation
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Issue** The abstract does not state whether entropy contributions were included in the MM/GBSA calculation. This is a common omission but affects the interpretation of absolute values.
+  - **Required correction** State explicitly whether entropy was included and, if not, discuss the limitation in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The binding free energy values require statistical context and convergence evidence, and the intercalation and stability claims require structural data. R1-M3 is non-blocking but important for the translational claim.
+- **Assessment against Nature-style criteria** Originality: The study applies established methods to a specific compound pair; the novelty is incremental and limited to the particular derivatives studied. Scientific importance: TOP1 inhibition is clinically relevant, but the abstract does not demonstrate that the findings advance fundamental understanding beyond what is known for camptothecin analogues. Interdisciplinary readership: The work is primarily of interest to computational and medicinal chemists; the abstract does not frame the results for a broader biological or clinical audience. Technical soundness: The methods are standard and appropriate, but the reporting lacks statistical rigor and validation, so technical soundness cannot be fully assessed. Readability for nonspecialists: The abstract is concise and understandable, though the significance of the specific energy values is not contextualized for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound, but the abstract alone does not provide sufficient support for the central quantitative and mechanistic claims. A revised version with full statistical reporting, convergence analysis, and structural evidence could change this assessment.
+
+## Risk / unsupported claims
+- The specific binding free energy values (-58.34 and -51.60 kcal/mol) are unsupported without error estimates or convergence data.
+- The claim of stable ternary complex formation is unsupported without structural stability metrics.
+- The claim that the findings may guide rational design is unsupported without external validation or benchmarking.
+- The relative binding affinity difference between XSJ05 and XSJ07 is not interpretable without statistical context.
+- The intercalation mode is asserted but not demonstrated with structural evidence.

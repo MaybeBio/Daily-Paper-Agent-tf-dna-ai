@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37076519",
+    "doi": "10.1038/s41467-023-37958-z",
+    "title": "Latent generative landscapes as maps of functional diversity in protein sequence space."
+  },
+  "content": {
+    "abstract": "Variational autoencoders are unsupervised learning models with generative capabilities, when applied to protein data, they classify sequences by phylogeny and generate de novo sequences which preserve statistical properties of protein composition. While previous studies focus on clustering and generative features, here, we evaluate the underlying latent manifold in which sequence information is embedded. To investigate properties of the latent manifold, we utilize direct coupling analysis and a Potts Hamiltonian model to construct a latent generative landscape. We showcase how this landscape captures phylogenetic groupings, functional and fitness properties of several systems including Globins, beta-lactamases, ion channels, and transcription factors. We provide support on how the landscape helps us understand the effects of sequence variability observed in experimental data and provides insights on directed and natural protein evolution. We propose that combining generative properties and functional predictive power of variational autoencoders and coevolutionary analysis could be beneficial in applications for protein engineering and design.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phylogeny",
+      "Amino Acid Sequence",
+      "*Globins",
+      "*Transcription Factors",
+      "beta-Lactamases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ziegler, Cheyenne",
+        "Martin, Jonathan",
+        "Sinner, Claude",
+        "Morcos, Faruck"
+      ],
+      "short_names": [
+        "Ziegler C",
+        "Martin J",
+        "Sinner C",
+        "Morcos F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6379-3162",
+        "ORCID: 0000-0003-0946-3864",
+        "ORCID: 0000-0001-6208-1561"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA.",
+        "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA.",
+        "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA.",
+        "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu.",
+        "Department of Bioengineering, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu.",
+        "Center for Systems Biology, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ziegler, Cheyenne",
+        "short_name": "Ziegler C",
+        "identifiers": [
+          "0000-0002-6379-3162"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Jonathan",
+        "short_name": "Martin J",
+        "identifiers": [
+          "0000-0003-0946-3864"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA."
+        ]
+      },
+      {
+        "full_name": "Sinner, Claude",
+        "short_name": "Sinner C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA."
+        ]
+      },
+      {
+        "full_name": "Morcos, Faruck",
+        "short_name": "Morcos F",
+        "identifiers": [
+          "0000-0001-6208-1561"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu.",
+          "Department of Bioengineering, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu.",
+          "Center for Systems Biology, University of Texas at Dallas, Richardson, TX, 75080, USA. faruckm@utdallas.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Apr 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/20 00:41",
+    "fetched_at": "2026-09-28 23:17:00"
+  },
+  "links": {
+    "cites": [
+      "42649115",
+      "42509841",
+      "42435050",
+      "42292942",
+      "42089465",
+      "41933929",
+      "41477590",
+      "41037332",
+      "40902000",
+      "40893959",
+      "40763921",
+      "40672211",
+      "40096239",
+      "40079215",
+      "40017771",
+      "39868204",
+      "39629167",
+      "39233697",
+      "39172982",
+      "38913893",
+      "38285950",
+      "38206111",
+      "37942269"
+    ],
+    "refs": [
+      "36734516",
+      "35395843",
+      "35389621",
+      "35296230",
+      "35022216",
+      "35020807",
+      "34869602",
+      "34751386",
+      "34728624",
+      "34707284",
+      "34608136",
+      "34597405",
+      "34552074",
+      "34282049",
+      "34265844",
+      "34163777",
+      "34059121",
+      "33978743",
+      "33635868",
+      "33573110",
+      "33398153",
+      "33237286",
+      "33067397",
+      "32875208",
+      "32703877",
+      "32619004",
+      "32461643",
+      "32415966",
+      "32218527",
+      "32123092",
+      "31838147",
+      "31822668",
+      "31777933",
+      "31670785",
+      "31162606",
+      "31005579",
+      "30959050",
+      "30958823",
+      "30857591",
+      "30733385",
+      "30478458",
+      "30385875",
+      "30304492",
+      "30250057",
+      "30061284",
+      "29955037",
+      "29741643",
+      "29527530",
+      "29483643",
+      "29351669",
+      "29262313",
+      "28514151",
+      "28426722",
+      "27899678",
+      "27870991",
+      "27729520",
+      "27663738",
+      "27656166",
+      "27604223",
+      "27329228",
+      "27177270",
+      "26695885",
+      "26446903",
+      "26338201",
+      "25255213",
+      "24842992",
+      "24449878",
+      "24288371",
+      "23410359",
+      "22685208",
+      "22536960",
+      "22163331",
+      "22106262",
+      "22101153",
+      "22039361",
+      "21802129",
+      "19744993",
+      "19377059",
+      "18355019",
+      "18154524",
+      "17693828",
+      "17538622",
+      "16715074",
+      "15954844",
+      "15102452",
+      "10802651"
+    ],
+    "similar": [
+      "37076519",
+      "31822668",
+      "37864295",
+      "37988083",
+      "34728624",
+      "35052081",
+      "34616884",
+      "37384721",
+      "33048769",
+      "39312498",
+      "37480001",
+      "36777018",
+      "33872161",
+      "36232566",
+      "28950564",
+      "32875208",
+      "39251921",
+      "34015916",
+      "31760935",
+      "38011273",
+      "37873334",
+      "35312617",
+      "32711843",
+      "33286658",
+      "34699719",
+      "35413604",
+      "38299119",
+      "15980349",
+      "37926303",
+      "29995272",
+      "33828272",
+      "35128605",
+      "31825881",
+      "36700110",
+      "2082152",
+      "36027763",
+      "32647888",
+      "29405647",
+      "36215357",
+      "32776882",
+      "31639992",
+      "8025724",
+      "31029927",
+      "39233697",
+      "24769192",
+      "35339849",
+      "38667874",
+      "33385310",
+      "36259321",
+      "34608136",
+      "34051682",
+      "27375218",
+      "35039853",
+      "33337222",
+      "30762364",
+      "1495394",
+      "23055915",
+      "7785990",
+      "23277561",
+      "17916248",
+      "35639661",
+      "1569587",
+      "2285285",
+      "36994155",
+      "30785751",
+      "32770229",
+      "25063439",
+      "36016718",
+      "35830870",
+      "15922591",
+      "19698099",
+      "26446903",
+      "21118516",
+      "33647531",
+      "35128926",
+      "33136546",
+      "15081996",
+      "29993595",
+      "36978736",
+      "26005790",
+      "10545031",
+      "39406736"
+    ],
+    "review": [
+      "37076519",
+      "37864295",
+      "35052081",
+      "34699719",
+      "35413604",
+      "38299119",
+      "29405647",
+      "31029927",
+      "35339849",
+      "34051682",
+      "15922591",
+      "33647531"
+    ],
+    "pmc": [
+      "10113739"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-37958-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37076519/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37076519",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41803949",
+  "title": "SMC4/SMAD3/NF-kappaB axis drives cervical cancer progression and radioresistance via DNA damage repair and immune modulation.",
+  "authors": "Wu, Haixia; Yu, Yilin; Wang, Wei; Xu, Qin",
+  "journal": "Journal of translational medicine",
+  "published_date": "2026-03-10",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过机器学习筛选宫颈癌DNA损伤相关基因并验证SMC4功能，虽涉及DNA修复和免疫调节，但核心是肿瘤进展与放疗抵抗，未聚焦蛋白质-DNA互作或TF-DNA结合机制，方法上仅用机器学习做基因筛选，无AI/物理模拟建模。",
+  "abstract": "OBJECTIVE: Cervical cancer remains a significant global health burden, with the molecular determinants of its progression and therapeutic resistance not fully elucidated. This study aimed to identify DNA damage-related genes with prognostic and functional significance. METHODS: Four cervical cancer GEO datasets were integrated and batch-corrected. Differential expression analysis and WGCNA were performed. Machine learning algorithms (LASSO, SVM, and Random Forest) were used to refine key genes. Functional roles of the pivotal gene SMC4 were investigated using in vitro experiments, including proliferation, colony formation, 3D spheroid assays, phalloidin staining, cell-cycle analysis, immunofluorescence, and analysis of DNA damage and immune-associated pathways under ionizing radiation. RESULTS: Integration of transcriptomic data revealed 16 candidate genes. Machine learning convergence identified five core genes (CCNB2, CDKN2A, CHEK1, TYMS, and SMC4), all of which were significantly upregulated in tumors. Among these, SMC4 was uniquely associated with poor overall and disease-specific survival. Functional assays demonstrated that SMC4 knockdown under ionizing radiation significantly inhibited cervical cancer cell proliferation, colony formation, invasion, and reduced S-phase cells, and impaired DNA damage repair. Mechanistically, SMC4 was found to upregulate SMAD3, activate NF-kappaB signaling, and promote PD-L1 expression. Single-cell analysis confirmed SMC4's predominant expression in epithelial cells and its association with an altered tumor immune context. CONCLUSION: Our study identifies SMC4 as a regulator that promotes radioresistance and potentially modulates the tumor immune microenvironment in cervical cancer, likely by coordinating DNA damage repair and activating the SMAD3-NF-kappaB pathway. These findings suggest that SMC4 could be a potential therapeutic target for radiosensitization and a candidate biomarker for patient stratification.",
+  "abstract_zh": "目的：宫颈癌仍然是全球重大的健康负担，其进展和治疗耐药的分子决定因素尚未完全阐明。本研究旨在识别具有预后和功能意义的DNA损伤相关基因。方法：整合四个宫颈癌GEO数据集并进行批次校正。进行差异表达分析和WGCNA。使用机器学习算法（LASSO、SVM和随机森林）筛选关键基因。通过体外实验研究关键基因SMC4的功能作用，包括增殖、集落形成、3D球体实验、鬼笔环肽染色、细胞周期分析、免疫荧光，以及在电离辐射下对DNA损伤和免疫相关通路的分析。结果：转录组数据整合揭示了16个候选基因。机器学习收敛识别出五个核心基因（CCNB2、CDKN2A、CHEK1、TYMS和SMC4），所有这些基因在肿瘤中均显著上调。其中，SMC4独特地与较差的总生存期和疾病特异性生存期相关。功能实验表明，在电离辐射下敲低SMC4显著抑制宫颈癌细胞增殖、集落形成、侵袭，减少S期细胞，并损害DNA损伤修复。机制上，发现SMC4上调SMAD3，激活NF-kappaB信号通路，并促进PD-L1表达。单细胞分析确认SMC4在上皮细胞中主要表达，并与其与改变的肿瘤免疫环境相关。结论：我们的研究将SMC4识别为促进宫颈癌放射耐药并可能调节肿瘤免疫微环境的调节因子，可能通过协调DNA损伤修复和激活SMAD3-NF-kappaB通路实现。这些发现表明SMC4可能成为放射增敏的潜在治疗靶点，以及患者分层候选生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41803949/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41803949/",
+  "paper_page_path": "papers/pubmed/41803949/index.html"
+}

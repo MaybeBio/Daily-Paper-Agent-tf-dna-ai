@@ -1,0 +1,718 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.09.652193",
+  "title": "A tripartite protein complex promotes DNA transport during natural transformation in firmicutes",
+  "doi": "10.1101/2025.05.09.652193",
+  "abstract": "Natural genetic transformation is a conserved mechanism of bacterial horizontal gene transfer, which is directed entirely by the recipient cell and facilitates the acquisition of new genetic traits such as antibiotic resistance. Transformation proceeds via the capture of exogenous DNA, its internalisation in single strand form (ssDNA) and its integration into the recipient chromosome by homologous recombination. While the proteins involved in these steps have mainly been identified, the specific mechanisms at play remain poorly characterised. This study takes advantage of recent advances in structural modelling to explore the uptake of ssDNA during transformation. Using the monoderm human pathogen Streptococcus pneumoniae , we model a tripartite protein complex composed of the transmembrane channel ComEC, and two cytoplasmic ssDNA-binding proteins ComFA and ComFC. Using targeted mutation and transformation assays, we propose that pneumococcal ComEC features a narrow channel for ssDNA passage, and we show this channel is conserved in the diderm Helicobacter pylori . We identify key residues involved in protein-protein and protein-ssDNA interactions in the pneumococcal tripartite complex model and we show them to be crucial for transformation efficiency. Structural modelling reveals that this tripartite protein complex and its interaction with ssDNA are conserved in firmicutes. Overall, this study validates a tripartite complex required for the internalisation of ssDNA during transformation in firmicutes, providing new insights into the molecular mechanisms involved in this horizontal gene transfer mechanism central to bacterial adaptation. It also demonstrates the power of recent structural modelling techniques such as AlphaFold3 as hypothesis generators and guides for designing experiments. Significance statement Natural genetic transformation is a key mechanism of horizontal gene transfer, conserved in bacteria. The investigation of transmembrane channel ComEC and its interaction partners was previously hindered by the difficulty of manipulating these proteins experimentally. Thanks to state-of-the-art structural modelling with AlphaFold3 and subsequent thorough experimental validation of this model using targeted mutation and transformation assays, we demonstrate the importance of the ComEC/ComFA/ComFC complex for single strand DNA (ssDNA) uptake during natural transformation in the human pathogen Streptococcus pneumoniae . Similar models in several other species suggest a widely conserved organization of this complex in firmicutes. In addition, we demonstrate that the ComEC transmembrane channel is also crucial for ssDNA uptake during natural transformation in Helicobacter pylori .",
+  "authors": [
+    "Marie Dewailly",
+    "Yoann Fauconnet",
+    "Cécile Ducrot",
+    "Anne-Lise Soulet",
+    "Nathalie Campo",
+    "Raphael Guerois",
+    "J. Pablo Radicella",
+    "Patrice Polard",
+    "Jessica Andreani",
+    "Calum Johnston"
+  ],
+  "published_date": "2025-05-09",
+  "updated_date": "2025-05-10T00:20:23Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.652193",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.652193.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:54:49Z",
+        "timestamp": 1785430489222,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 64,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                9
+              ]
+            ],
+            "date-time": "2025-05-09T00:00:00Z",
+            "timestamp": 1746748800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "ANR-22-CE44-0044"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANR-22-CE44-0044"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00rbzpz17",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Natural genetic transformation is a conserved mechanism of bacterial horizontal gene transfer, which is directed entirely by the recipient cell and facilitates the acquisition of new genetic traits such as antibiotic resistance. Transformation proceeds via the capture of exogenous DNA, its internalisation in single strand form (ssDNA) and its integration into the recipient chromosome by homologous recombination. While the proteins involved in these steps have mainly been identified, the specific mechanisms at play remain poorly characterised. This study takes advantage of recent advances in structural modelling to explore the uptake of ssDNA during transformation. Using the monoderm human pathogen\n                  <jats:italic>Streptococcus pneumoniae</jats:italic>\n                  , we model a tripartite protein complex composed of the transmembrane channel ComEC, and two cytoplasmic ssDNA-binding proteins ComFA and ComFC. Using targeted mutation and transformation assays, we propose that pneumococcal ComEC features a narrow channel for ssDNA passage, and we show this channel is conserved in the diderm\n                  <jats:italic>Helicobacter pylori</jats:italic>\n                  . We identify key residues involved in protein-protein and protein-ssDNA interactions in the pneumococcal tripartite complex model and we show them to be crucial for transformation efficiency. Structural modelling reveals that this tripartite protein complex and its interaction with ssDNA are conserved in firmicutes. Overall, this study validates a tripartite complex required for the internalisation of ssDNA during transformation in firmicutes, providing new insights into the molecular mechanisms involved in this horizontal gene transfer mechanism central to bacterial adaptation. It also demonstrates the power of recent structural modelling techniques such as AlphaFold3 as hypothesis generators and guides for designing experiments.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Significance statement</jats:title>\n                  <jats:p>\n                    Natural genetic transformation is a key mechanism of horizontal gene transfer, conserved in bacteria. The investigation of transmembrane channel ComEC and its interaction partners was previously hindered by the difficulty of manipulating these proteins experimentally. Thanks to state-of-the-art structural modelling with AlphaFold3 and subsequent thorough experimental validation of this model using targeted mutation and transformation assays, we demonstrate the importance of the ComEC/ComFA/ComFC complex for single strand DNA (ssDNA) uptake during natural transformation in the human pathogen\n                    <jats:italic>Streptococcus pneumoniae</jats:italic>\n                    . Similar models in several other species suggest a widely conserved organization of this complex in firmicutes. In addition, we demonstrate that the ComEC transmembrane channel is also crucial for ssDNA uptake during natural transformation in\n                    <jats:italic>Helicobacter pylori</jats:italic>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.05.09.652193",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            10
+          ]
+        ],
+        "date-time": "2025-05-10T00:20:23Z",
+        "timestamp": 1746836423000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A tripartite protein complex promotes DNA transport during natural transformation in firmicutes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Marie",
+          "family": "Dewailly",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), CNRS, Toulouse, France"
+            },
+            {
+              "name": "Université de Toulouse, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-2147-6587",
+          "authenticated-orcid": false,
+          "given": "Yoann",
+          "family": "Fauconnet",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198, Gif-sur-Yvette, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cécile",
+          "family": "Ducrot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Université Paris-Saclay, iRCM/IBFJ, CEA, Genetic Stability, Stem Cells and Radiation, F-92260 Fontenay-aux-Roses, France"
+            },
+            {
+              "name": "Université Paris Cité, iRCM/IBFJ, CEA, Genetic Stability, Stem Cells and Radiation, F-92260 Fontenay-aux-Roses, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne-Lise",
+          "family": "Soulet",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), CNRS, Toulouse, France"
+            },
+            {
+              "name": "Université de Toulouse, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2917-930X",
+          "authenticated-orcid": false,
+          "given": "Nathalie",
+          "family": "Campo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), CNRS, Toulouse, France"
+            },
+            {
+              "name": "Université de Toulouse, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5294-2858",
+          "authenticated-orcid": false,
+          "given": "Raphael",
+          "family": "Guerois",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198, Gif-sur-Yvette, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8807-7226",
+          "authenticated-orcid": false,
+          "given": "J. Pablo",
+          "family": "Radicella",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Université Paris-Saclay, iRCM/IBFJ, CEA, Genetic Stability, Stem Cells and Radiation, F-92260 Fontenay-aux-Roses, France"
+            },
+            {
+              "name": "Université Paris Cité, iRCM/IBFJ, CEA, Genetic Stability, Stem Cells and Radiation, F-92260 Fontenay-aux-Roses, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0365-4347",
+          "authenticated-orcid": false,
+          "given": "Patrice",
+          "family": "Polard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), CNRS, Toulouse, France"
+            },
+            {
+              "name": "Université de Toulouse, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4435-9093",
+          "authenticated-orcid": false,
+          "given": "Jessica",
+          "family": "Andreani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198, Gif-sur-Yvette, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5942-9117",
+          "authenticated-orcid": false,
+          "given": "Calum",
+          "family": "Johnston",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), CNRS, Toulouse, France"
+            },
+            {
+              "name": "Université de Toulouse, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3199"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1198545"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.micro.60.080805.142139"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-112618-043641"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2003.03892.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2003.03907.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Slager, J. , Aprianto, R. & Veening, J.-W . Refining the Pneumococcal Competence Regulon by RNA Sequencing. J Bacteriol 201, (2019).",
+          "DOI": "10.1128/JB.00780-18"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1003473"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1004835"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14718"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41564-018-0174-y"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.00034-21"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.00156-23"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2004.04430.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.07.038"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1205638109"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2213867120"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.169.7.3104-3109.1987"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2002.03013.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2018.02980"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25088"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14720"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.04.08.647572"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(80)90381-2"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(05)80259-1"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)53362-7"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29494-z"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13732"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.00518-21"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14364"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.202311544"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-12301-7"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00339614"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marie, L. et al. Bacterial RadA is a DnaB-type helicase interacting with RecA to promote bidirectional D-loop extension. Nat Commun 8, 15638 (2017).",
+          "DOI": "10.1038/ncomms15638"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.1998.00668.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.5b00753"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.01.001"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2008.07.001"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbamem.2013.07.010"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hegedűs, T. , Geisler, M. , Lukács, G. L. & Farkas, B . Ins and outs of AlphaFold2 transmembrane protein structure predictions. Cell. Mol. Life Sci. 79, 73 (2022).",
+          "DOI": "10.1007/s00018-021-04112-1"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13352-6"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.176.15.4642-4645.1994"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.04.035"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2007.05799.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2000.02187.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Johnston, C. H. et al. The alternative sigma factor σX mediates competence shut-off at the cell pole in Streptococcus pneumoniae. Elife 9, (2020).",
+          "DOI": "10.7554/eLife.62907"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/41483"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6968.2010.02077.x"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/775536"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.53",
+          "unstructured": "UCSF ChimeraX: Structure visualization for researchers, educators, and developers - Pettersen - 2021 - Protein Science - Wiley Online Library. https://onlinelibrary.wiley.com/doi/10.1002/pro.3943."
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae370"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adq4946"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.56",
+          "unstructured": "UniProt: the Universal Protein Knowledgebase in 2025 | Nucleic Acids Research | Oxford Academic. https://academic.oup.com/nar/article/53/D1/D609/7902999?login=true."
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/mst010"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp033"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty1057"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/18.suppl_1.S71"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msh194"
+        },
+        {
+          "key": "2026041121075762000_2025.05.09.652193v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.1999.01170.x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.09.652193",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:10:10Z",
+        "timestamp": 1782277810000
+      },
+      "score": 67.21321,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.09.652193"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ]
+      },
+      "references-count": 64,
+      "URL": "https://doi.org/10.1101/2025.05.09.652193",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1073/pnas.2511180122",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure references.
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that SnRK1 phosphorylates PHR1 at Ser11 during phosphate starvation, and that this phosphorylation negatively regulates PHR1 transcriptional activity without affecting its DNA binding or protein stability.
+- **Visible evidence base** In vitro kinase assays with peptide substrates, recombinant protein phosphorylation with 32P, pull-down assays, BiFC assays, EMSA, and protoplast transient expression assays. Structural modeling and docking simulations are also included.
+- **Missing materials affecting confidence** Raw data for statistical analyses, uncropped blots/gels, negative controls for some experiments, details on protoplast assay replicates, and supplementary figures referenced but not fully described in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in plant phosphate starvation signaling, namely how PHR1 activity is regulated post-translationally. The identification of Ser11 as a SnRK1 phosphorylation site with negative regulatory function is potentially significant. However, several technical concerns and gaps in the evidence reduce confidence in the central conclusion. The link between in vitro phosphorylation, in vivo interaction, and functional outcome is suggestive but not fully established. The manuscript would benefit from additional experiments to strengthen causality and rule out alternative explanations.
+- **Who would be interested in the results, and why** Researchers studying plant nutrient signaling, particularly phosphate starvation responses, as well as those interested in SnRK1 kinase function and post-translational regulation of transcription factors. The findings may also be relevant to those studying energy signaling crosstalk with nutrient responses.
+- **Major strengths** The study addresses a clear gap in understanding PHR1 regulation, since transcript and protein levels do not change under phosphate starvation. The combination of in silico, in vitro, and in vivo approaches is commendable. The identification of a specific phosphorylation site with functional consequences provides a concrete mechanistic insight. The use of multiple independent assays (kinase assays, pull-down, BiFC, EMSA, protoplast transactivation) strengthens the overall argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for in vivo phosphorylation
+  - **Claim pointer** The authors claim that SnRK1 phosphorylates PHR1 at Ser11 in vivo and that this regulates PHR1 activity.
+  - **Evidence pointer** Results section "Phosphorylation of PHR1", Figures 2 and 6
+  - **Concern** The evidence for Ser11 phosphorylation is derived exclusively from in vitro assays using recombinant proteins. No in vivo phosphorylation data are presented, such as mass spectrometry analysis of PHR1 isolated from plants under phosphate-sufficient versus phosphate-deficient conditions, or phospho-specific antibodies recognizing pSer11. The authors reference PhosPhAt database entries for in vivo phosphorylation but do not provide direct experimental validation in their system.
+  - **Why it matters** The central claim of the manuscript is that phosphorylation at Ser11 occurs in planta and has functional consequences. Without direct evidence of in vivo phosphorylation, the physiological relevance of the in vitro findings remains uncertain. Kinase-substrate relationships established in vitro do not always reflect in vivo conditions.
+  - **Resolution test** Provide mass spectrometry data showing Ser11 phosphorylation in PHR1 isolated from plants, ideally comparing phosphate-sufficient and phosphate-deficient conditions. Alternatively, generate a phospho-specific antibody against pSer11 and show differential signal under these conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of Ser11 phosphorylation
+  - **Claim pointer** The authors claim that phosphorylation of Ser11 negatively regulates PHR1 transcriptional activity based on protoplast transactivation assays.
+  - **Evidence pointer** Results section "Effect of phosphorylation on PHR1 activity", Figure 6B
+  - **Concern** The protoplast transactivation assay compares wild-type PHR1 with the S11A mutant, but the assay does not directly demonstrate that phosphorylation at Ser11 is the cause of reduced activity. The S11A mutation could affect PHR1 function through mechanisms other than preventing phosphorylation, such as altering protein conformation, stability, or interaction with other factors. The authors show that protein levels are similar (Figure S5), but this does not exclude other phosphorylation-independent effects. Additionally, the assay was performed under phosphate-sufficient conditions only, and it is unclear whether the observed difference would be maintained or enhanced under phosphate starvation.
+  - **Why it matters** The conclusion that phosphorylation at Ser11 negatively regulates PHR1 activity requires demonstrating that the effect is specifically due to phosphorylation. Without a phosphomimetic mutant (e.g., S11D or S11E) or direct manipulation of phosphorylation status, alternative explanations cannot be excluded.
+  - **Resolution test** Include a phosphomimetic mutant (S11D) in the transactivation assay. If phosphorylation negatively regulates activity, the S11D mutant should phenocopy the wild-type under phosphorylating conditions or show reduced activity compared to S11A. Additionally, perform the assay under both phosphate-sufficient and phosphate-deficient conditions to assess physiological relevance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of SnRK1-PHR1 interaction
+  - **Claim pointer** The authors claim that SnRK1 interacts with and phosphorylates PHR1 specifically, based on pull-down and BiFC assays.
+  - **Evidence pointer** Results section "In vitro and in vivo interactions between SnRK1 catalytic subunits and PHR1", Figure 5
+  - **Concern** The pull-down assay uses GST-tagged kinase domains and His-tagged PHR1, which may not reflect the behavior of full-length proteins in a cellular context. The BiFC assay shows interaction in plant cells, but the specificity of this interaction is not thoroughly tested. For example, it is unclear whether other PHR1-like proteins or other SnRK1 substrates would show similar interactions. The authors do not test whether a kinase-dead version of SnRK1 still interacts with PHR1, which would help distinguish between a stable enzyme-substrate complex and a transient interaction.
+  - **Why it matters** Establishing specificity is important for understanding the biological relevance of the interaction. If SnRK1 interacts with many transcription factors non-specifically, the significance of the PHR1 interaction is diminished.
+  - **Resolution test** Include a kinase-dead SnRK1 mutant in pull-down and BiFC assays to test whether interaction requires kinase activity. Test interaction with a PHR1 mutant lacking the Ser11-containing region to confirm that the interaction is mediated through this region. Additionally, test a non-substrate transcription factor as a negative control in BiFC assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of kinase activity
+  - **Claim pointer** The authors claim that SnRK1 phosphorylates PHR1 at Ser11 as a major site, based on 32P incorporation assays.
+  - **Evidence pointer** Results section "Phosphorylation of PHR1", Figure 2C
+  - **Concern** The 32P incorporation assay shows reduced signal with the S11A mutant, but the quantification is not presented. It is unclear what proportion of total phosphorylation is attributed to Ser11 versus other potential sites. The authors do not perform kinetic analysis or determine stoichiometry of phosphorylation. Additionally, the assay uses kinase domains rather than full-length SnRK1 complexes, which may have different activity or specificity.
+  - **Why it matters** The claim that Ser11 is a "major" phosphorylation site requires quantitative support. If other sites contribute significantly to phosphorylation, the functional interpretation may be more complex.
+  - **Resolution test** Provide quantification of 32P incorporation from multiple independent experiments, with statistical analysis. Perform phosphoamino acid analysis or mass spectrometry to identify all phosphorylation sites and their relative occupancy. Consider using full-length SnRK1 complexes for kinase assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6B protoplast assay
+  - **Evidence pointer** Results section "Effect of phosphorylation on PHR1 activity"
+  - **Issue** The protoplast transactivation assay data are described as showing a "significant increase" for S11A, but the number of biological replicates, statistical test used, and exact p-values are not reported in the text. The methods state that two-way ANOVA was used, but details are lacking.
+  - **Required correction** Report the number of independent biological replicates, the statistical test used, and exact p-values in the figure legend or results text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Control experiments
+  - **Affected element** Kinase assays with peptide substrates
+  - **Evidence pointer** Results section "Phosphorylation of PHR1", Figure 2A
+  - **Issue** The kinase assays with peptide substrates do not include a negative control peptide with a mutated SnRK1 motif. This would help confirm that phosphorylation is specific to the predicted motif.
+  - **Required correction** Include a control peptide with the Ser11 mutated to alanine in the kinase assay to demonstrate specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5 pull-down assay
+  - **Evidence pointer** Results section "In vitro and in vivo interactions between SnRK1 catalytic subunits and PHR1"
+  - **Issue** The pull-down assay shows PHR1 in the bound fraction, but input and unbound fractions are not clearly labeled or quantified. It is difficult to assess the efficiency of the pull-down and whether the interaction is specific.
+  - **Required correction** Clearly label input, unbound, and bound fractions. Include a quantification of the pull-down efficiency or a loading control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Structural modeling validation
+  - **Affected element** Docking simulations
+  - **Evidence pointer** Methods section "Molecular docking of phosphopeptides"
+  - **Issue** The docking results are presented as supporting evidence for interaction feasibility, but no experimental validation of the predicted binding modes is provided. The authors acknowledge limitations but do not discuss how the docking predictions could be tested.
+  - **Required correction** Add a brief discussion of how the docking predictions could be experimentally validated, or temper the claims about the structural model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and discussion
+  - **Evidence pointer** Abstract, Discussion section
+  - **Issue** The term "negatively controls" in the title and abstract implies a complete inhibition, but the data show a reduction in activity, not complete abolition. The wording may overstate the effect.
+  - **Required correction** Consider using "negatively regulates" or "modulates" instead of "negatively controls" to more accurately reflect the magnitude of the effect.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns that must be addressed. The lack of in vivo phosphorylation evidence and the absence of a phosphomimetic control weaken the central claim. Without these, the case for Ser11 phosphorylation as a regulatory mechanism is not fully established.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel question regarding PHR1 regulation and identifies a specific phosphorylation site with potential functional significance. This is a valuable contribution to the field. Scientific importance: Understanding how PHR1 activity is regulated is important for phosphate starvation signaling, and the findings could have broader implications for nutrient signaling. However, the importance is somewhat limited by the lack of in vivo validation. Interdisciplinary readership: The topic is primarily of interest to plant molecular biologists and biochemists. The broader plant science community may find it relevant, but the appeal beyond this is limited. Technical soundness: The experimental approaches are generally sound, but the missing in vivo phosphorylation data and lack of phosphomimetic controls are significant gaps. The structural modeling is speculative and not experimentally validated. Readability for nonspecialists: The manuscript is clearly written and accessible to readers with a background in plant molecular biology. The figures are generally clear, though some supplementary data are not fully described.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially important, but the evidence presented is not sufficient to fully establish the claim that Ser11 phosphorylation negatively regulates PHR1 activity. Addressing the major concerns, particularly providing in vivo phosphorylation evidence and including a phosphomimetic mutant, would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that Ser11 is phosphorylated in vivo is unsupported by direct experimental evidence; only in vitro data and database references are provided.
+- The claim that phosphorylation at Ser11 negatively regulates PHR1 transcriptional activity is not fully supported because the S11A mutation could have phosphorylation-independent effects.
+- The docking simulations are presented as predictive but are not experimentally validated; the claim that they "suggest how these peptides might dock" is appropriately cautious, but the functional significance of the predicted binding modes is not established.
+- The statement that "SnRK1 complexes, mainly formed with the SnRK1α1 catalytic subunit, are activated during −Pi stress" is not directly supported by the data shown, as the activity assays do not distinguish between different complex compositions.

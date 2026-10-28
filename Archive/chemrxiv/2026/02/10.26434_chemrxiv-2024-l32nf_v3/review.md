@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors evaluate the impact of optimized halogen PB radii (\(r_{\mathrm{opt}}\)) and extra-points of charge (EPs) on MM-PBSA binding free energy estimates for three sets of halogenated casein kinase-2 inhibitors, comparing EP models with standard RESP charges, and examining effects of internal dielectric constant and sampling time. They report that X-ray structures give poor correlations, MM minimization with \(\epsilon_{\textnormal{in}} = 4\) improves agreement, MD sampling can further enhance correlations under certain conditions, and that \(r_{\mathrm{opt}}\) and EPs provide slight improvements. They claim this is the first comprehensive benchmark of MM-PBSA with EP-based simulations.
+- **Visible evidence base** Abstract text only; no numerical data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational details (force fields, simulation protocols, error estimates), statistical analyses, and any comparison with prior benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract addresses a relevant and timely methodological question in computational drug design, namely the influence of halogen parameters on MM-PBSA binding free energy estimates. The findings, if fully supported, could offer practical guidance for practitioners. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the claims. Several statements are qualitative and lack statistical context, and the claim of "first comprehensive benchmark" requires verification against existing literature. The conclusions regarding dielectric constant and halogen count are intriguing but appear under-supported without detailed data.
+- **Who would be interested in the results, and why** Computational chemists and drug discovery researchers who use MM-PBSA or related end-point methods for binding affinity prediction, particularly those working with halogenated ligands or seeking to incorporate halogen bonding effects. The practical guidelines on parameter selection (radii, EPs, dielectric constants, sampling) would be of direct utility to this community.
+- **Major strengths** The study addresses a specific and underexplored methodological gap, namely the systematic assessment of optimized halogen radii in combination with EPs within MM-PBSA. The comparison across multiple EP models, charge schemes, dielectric constants, and sampling protocols is comprehensive in scope. The focus on a pharmaceutically relevant target (casein kinase-2) with experimental binding data strengthens the practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Our results show that direct use of the X-ray structures generally leads to poor correlations, whereas relaxation through MM minimization, particularly with \(\epsilon_{\textnormal{in}} = 4\), yields an improved agreement with experiment."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative trends ("poor correlations", "improved agreement") without providing any correlation coefficients, error bars, or statistical significance tests. It is impossible to assess the magnitude of the improvements or whether they are meaningful.
+  - **Why it matters** Without quantitative metrics, the reader cannot judge whether the recommended protocols (e.g., \(\epsilon_{\textnormal{in}} = 4\)) are genuinely superior or merely within noise. This undermines the practical utility of the guidelines.
+  - **Resolution test** Provide Pearson or Spearman correlation coefficients, root-mean-square errors, and confidence intervals for each condition tested, along with statistical comparisons (e.g., paired tests) between protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** "To our knowledge, this is the first comprehensive benchmark of MM-PBSA calculations using EP-based simulations"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The novelty claim is stated without any literature comparison. The authors do not cite or discuss prior MM-PBSA studies that may have used EPs or halogen-specific parameters, nor do they define what constitutes "comprehensive" in this context.
+  - **Why it matters** A "first" claim requires a thorough literature search and explicit demonstration that no comparable benchmark exists. Without this, the claim is unverifiable and potentially overstated.
+  - **Resolution test** Include a literature review section that systematically identifies prior MM-PBSA studies with EPs or halogen parameters, and justify the "first comprehensive" claim based on clear criteria (e.g., number of systems, parameter combinations, statistical rigor).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** "The use of EPs seems to be sufficient to account for the polarizability in systems with multiple halogens and thus lower \(\epsilon_{\textnormal{in}}\) are acceptable, but for ligands with fewer halogens, a higher \(\epsilon_{\textnormal{in}}\) proved beneficial."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This conclusion implies a mechanistic relationship between halogen count, EP inclusion, and optimal dielectric constant. However, the abstract provides no data on how this interaction was tested, whether it was consistent across all three inhibitor sets, or whether confounding factors (e.g., ligand size, binding site flexibility) were controlled.
+  - **Why it matters** The claim has direct implications for protocol selection in future studies. If the relationship is not robustly demonstrated, practitioners may apply it inappropriately.
+  - **Resolution test** Present per-system results showing the interaction between halogen count, EP usage, and \(\epsilon_{\textnormal{in}}\), with statistical analysis (e.g., interaction terms in regression) and discussion of potential confounders.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "relaxation through MM minimization" is ambiguous. It is unclear whether this refers to energy minimization of the complex only, or includes minimization of the ligand and receptor separately, and whether any restraints were applied.
+  - **Required correction** Define the minimization protocol explicitly, including the number of steps, algorithm, and any positional restraints.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sampling description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "sampling time" as a variable but does not specify the range of times tested or how convergence was assessed.
+  - **Required correction** State the range of MD simulation lengths and the criteria used to determine that sampling was sufficient (e.g., block averaging, convergence of \(\Delta G_{\textnormal{bind}}\)).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Parameter details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "three EP models" and "standard RESP charges" but does not name the models or the software used for charge derivation.
+  - **Required correction** List the specific EP models and the RESP fitting procedure (e.g., which quantum mechanical method and basis set).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Error reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of how uncertainties in \(\Delta G_{\textnormal{bind}}\) were estimated (e.g., standard error over snapshots, multiple replicates).
+  - **Required correction** Describe the error estimation method and report uncertainties alongside all mean values.
+
+## Risk / unsupported claims
+- The claim that "direct use of the X-ray structures generally leads to poor correlations" is unsupported without quantitative correlation values.
+- The claim that "\(r_{\mathrm{opt}}\) provided slight improvements" is unsupported without effect sizes or statistical tests.
+- The claim that "inclusion of halogen anisotropy through EPs also typically increased correlations" is unsupported without per-system data.
+- The "first comprehensive benchmark" claim is unverifiable from the abstract alone and requires literature context.
+- The mechanistic interpretation regarding halogen count and dielectric constant is speculative without controlled comparisons.

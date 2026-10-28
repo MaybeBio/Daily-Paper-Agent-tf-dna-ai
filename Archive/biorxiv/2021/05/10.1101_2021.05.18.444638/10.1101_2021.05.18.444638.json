@@ -1,0 +1,718 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.18.444638",
+  "title": "Fusion of single-cell transcriptome and DNA-binding data, for genomic network inference in cortical development",
+  "doi": "10.1101/2021.05.18.444638",
+  "abstract": "Background Network models are well-established as very useful computational-statistical tools in cell biology. However, a genomic network model based only on gene expression data can, by definition, only infer gene co-expression networks. Hence, in order to infer gene regulatory patterns, it is necessary to also include data related to binding of regulatory factors to DNA. Results We propose a new dynamic genomic network model, for inferring patterns of genomic regulatory influence in dynamic processes such as development. Our model fuses experiment-specific gene expression data with publicly available DNA-binding data. The method we propose is computationally efficient, and can be applied to genome-wide data with tens of thousands of transcripts. Thus, our method is well suited for use as an exploratory tool for genome-wide data. We apply our method to data from human fetal cortical development, and our findings confirm genomic regulatory patterns which are recognised as being fundamental to neuronal development. Conclusions Our method provides a mathematical/computational toolbox which, when coupled with targeted experiments, will reveal and confirm important new functional genomic regulatory processes in mammalian development.",
+  "authors": [
+    "Thomas Bartlett"
+  ],
+  "published_date": "2021-05-19",
+  "updated_date": "2021-05-19T09:05:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.18.444638",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.18.444638.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:15:59Z",
+        "timestamp": 1768493759067,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 86,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Network models are well-established as very useful computational-statistical tools in cell biology. However, a genomic network model based only on gene expression data can, by definition, only infer gene co-expression networks. Hence, in order to infer gene regulatory patterns, it is necessary to also include data related to binding of regulatory factors to DNA.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We propose a new dynamic genomic network model, for inferring patterns of genomic regulatory influence in dynamic processes such as development. Our model fuses experiment-specific gene expression data with publicly available DNA-binding data. The method we propose is computationally efficient, and can be applied to genome-wide data with tens of thousands of transcripts. Thus, our method is well suited for use as an exploratory tool for genome-wide data. We apply our method to data from human fetal cortical development, and our findings confirm genomic regulatory patterns which are recognised as being fundamental to neuronal development.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our method provides a mathematical/computational toolbox which, when coupled with targeted experiments, will reveal and confirm important new functional genomic regulatory processes in mammalian development.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.05.18.444638",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2021-05-19T09:05:13Z",
+        "timestamp": 1621415113000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Fusion of single-cell transcriptome and DNA-binding data, for genomic network inference in cortical development"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Thomas",
+          "family": "Bartlett",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van Dijk D , Nainys J , Sharma R , Kathail P , Carr AJ , Moon KR , et al. MAGIC: A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. BioRxiv. 2017;p. 111591.",
+          "DOI": "10.1101/111591"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51254",
+          "DOI": "10.7554/eLife.51254",
+          "article-title": "Gene regulatory network reconstruction using single-cell RNA sequencing of barcoded genotypes in diverse environments",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "Elife."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.3",
+          "unstructured": "Alberts B . Molecular Biology of the Cell. 4th ed. Garland Science, New York; 2002."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2011.05.006"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(02)00677-3"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04139"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.02.046"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.3536"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a008359"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "15066",
+          "DOI": "10.1038/s41598-017-15525-z",
+          "article-title": "Single-cell Co-expression Subnetwork Analysis",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific Reports."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr222"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.12",
+          "article-title": "Estimating cellular pathways from an ensemble of heterogeneous data sources",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/20-AOAS1416"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.14",
+          "first-page": "94",
+          "article-title": "Estimating time-varying networks",
+          "volume": "4",
+          "year": "2010",
+          "journal-title": "The Annals of Applied Statistics."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tibshirani RJ , Taylor JE , Candes EJ , Hastie T . The solution path of the generalized lasso. Stanford University; 2011.",
+          "DOI": "10.1214/11-AOS878"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1703764114"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aap8809"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1991"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1408993111"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.04.005"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2859"
+        },
+        {
+          "issue": "2579-2605",
+          "key": "2021052012350447000_2021.05.18.444638v1.22",
+          "first-page": "85",
+          "article-title": "Visualizing data using t-SNE",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Journal of Machine Learning Research."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.112623.110"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2007.12.012"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2012.01.015"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.1186/1471-213X-8-52",
+          "article-title": "The transcription factor Nfix is essential for normal brain development",
+          "volume": "8",
+          "year": "2008",
+          "journal-title": "BMC developmental biology."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.27",
+          "first-page": "396",
+          "article-title": "Neurogenesis in the embryonic and adult brain: same regulators, different roles",
+          "volume": "8",
+          "year": "2014",
+          "journal-title": "Frontiers in cellular neuroscience."
+        },
+        {
+          "issue": "13",
+          "key": "2021052012350447000_2021.05.18.444638v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "3970",
+          "DOI": "10.1016/j.celrep.2017.12.017",
+          "article-title": "Developmental emergence of adult neural stem cells as revealed by single-cell transcriptional profiling",
+          "volume": "21",
+          "year": "2017",
+          "journal-title": "Cell reports."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1101109108"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1507145112"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.097295"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn828"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee JA , Tang ZZ , Black DL . An inducible change in Fox-1/A2BP1 splicing modulates the alternative splicing of downstream neuronal target exons. Genes & development. 2009;.",
+          "DOI": "10.1101/gad.1837009"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.841"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/138945009788680428"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.1016/0959-437X(94)90098-1",
+          "article-title": "Myc—Max—Mad: a transcription factor network controlling cell cycle progression, differentiation and death",
+          "volume": "4",
+          "year": "1994",
+          "journal-title": "Current opinion in genetics & development."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Treutlein B , Lee QY , Camp JG , Mall M , Koh W , Shariati SAM , et al. Dissecting direct reprogramming from fibroblast to neuron using single-cell RNA-seq. Nature. 2016;.",
+          "DOI": "10.1038/nature18323"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.3171"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jnr.10342"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2015.07.013"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oshikawa M , Okada K , Nakajima K , Ajioka I . Cortical excitatory neurons become protected from cell division during neurogenesis in an Rb family-dependent manner. Development. 2013;p. dev–095653.",
+          "DOI": "10.1242/dev.095653"
+        },
+        {
+          "issue": "3",
+          "key": "2021052012350447000_2021.05.18.444638v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "452",
+          "DOI": "10.1111/joa.12416",
+          "article-title": "Distinct expression patterns for type II topoisomerases IIA and IIB in the early foetal human telencephalon",
+          "volume": "228",
+          "year": "2016",
+          "journal-title": "Journal of anatomy."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.21.4.1285-1296.2001"
+        },
+        {
+          "issue": "7",
+          "key": "2021052012350447000_2021.05.18.444638v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "490",
+          "DOI": "10.1016/j.gep.2009.07.006",
+          "article-title": "Expression of protocadherin-9 and protocadherin-17 in the nervous system of the embryonic zebrafish",
+          "volume": "9",
+          "year": "2009",
+          "journal-title": "Gene Expression Patterns."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "18568",
+          "DOI": "10.1038/srep18568",
+          "article-title": "PSIP1/LEDGF: a new gene likely involved in sensorineural progressive hearing loss",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Scientific reports."
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1016/j.neulet.2007.08.016",
+          "article-title": "TDAG51 in the anterior temporal neocortex of patients with intractable epilepsy",
+          "volume": "425",
+          "year": "2007",
+          "journal-title": "Neuroscience letters."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tibshirani R . Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society Series B (Methodological). 1996;p. 267–288.",
+          "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1186/s13229-018-0200-1",
+          "article-title": "Analysis of the expression pattern of the schizophrenia-risk and intellectual disability gene TCF4 in the developing and adult brain suggests a role in development and plasticity of cortical and hippocampal neurons",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Molecular autism."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2010.11.030"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn1440"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2006.11.019"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cao X , Pfaff SL , Gage FH . YAP regulates neural progenitor cell number via the TEA domain transcription factor. Genes & development. 2008;.",
+          "DOI": "10.1101/gad.1726608"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "4020",
+          "DOI": "10.1038/s41467-018-06258-2",
+          "article-title": "Analysis of chromatin accessibility uncovers TEAD1 as a regulator of migration in human glioblastoma",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nature communications."
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1186/2051-5960-1-35",
+          "article-title": "Identification of a neuronal transcription factor network involved in medulloblastoma development",
+          "volume": "1",
+          "year": "2013",
+          "journal-title": "Acta neuropathologica communications."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.091793"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2013.105"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.0590-07.2007"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dennis DJ , Wilkinson G , Li S , Dixit R , Adnani L , Balakrishnan A , et al. Neurog2 and Ascl1 together regulate a postmitotic derepression circuit to govern laminar fate specification in the murine neocortex. Proceedings of the National Academy of Sciences. 2017;p. 201701495.",
+          "DOI": "10.1073/pnas.1701495114"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1515949113"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0806791105"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.3188-08.2008"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/revneuro-2011-0063"
+        },
+        {
+          "issue": "1",
+          "key": "2021052012350447000_2021.05.18.444638v1.63",
+          "first-page": "3",
+          "article-title": "Linear models and empirical bayes methods for assessing differential expression in microarray experiments",
+          "volume": "3",
+          "year": "2004",
+          "journal-title": "Statistical applications in genetics and molecular biology."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp616"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/515582"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddr325"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.yjmcc.2017.10.007"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elkouby YM , Elias S , Casey ES , Blythe SA , Tsabar N , Klein PS , et al. Mesodermal Wnt signaling organizes the neural plate via Meis3. Development. 2010;p. dev–044750.",
+          "DOI": "10.1016/j.ydbio.2010.05.250"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.027995"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cne.903540105"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "15045",
+          "DOI": "10.1038/celldisc.2015.45",
+          "article-title": "Mapping gene regulatory circuitry of Pax6 during neurogenesis",
+          "volume": "2",
+          "year": "2016",
+          "journal-title": "Cell discovery."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "282",
+          "DOI": "10.1016/j.neuroscience.2012.11.049",
+          "article-title": "Neural expression of the transcription factor THAP1 during development in rat",
+          "volume": "231",
+          "year": "2013",
+          "journal-title": "Neuroscience."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2005.10.032"
+        },
+        {
+          "issue": "4",
+          "key": "2021052012350447000_2021.05.18.444638v1.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "1143",
+          "DOI": "10.3892/mmr.2013.1310",
+          "article-title": "Chordin-like protein 1 promotes neuronal differentiation by inhibiting bone morphogenetic protein-4 in neural stem cells",
+          "volume": "7",
+          "year": "2013",
+          "journal-title": "Molecular medicine reports."
+        },
+        {
+          "issue": "7",
+          "key": "2021052012350447000_2021.05.18.444638v1.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "1068",
+          "DOI": "10.1002/dneu.22022",
+          "article-title": "The dynamic role of bone morphogenetic proteins in neural stem cell fate and maturation",
+          "volume": "72",
+          "year": "2012",
+          "journal-title": "Developmental neurobiology."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0902750106"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1209647109"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gehman LT , Meera P , Stoilov P , Shiue L , O’Brien JE , Meisler MH , et al. The splicing regulator Rb-fox2 is required for both cerebellar development and mature motor function. Genes & development. 2012;.",
+          "DOI": "10.1101/gad.182477.111"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiao Y , Peng Y , Wan J , Tang G , Chen Y , Tang J , et al. The atypical guanine nucleotide exchange factor Dock4 regulates neurite differentiation through modulation of Rac1 and actin dynamics. Journal of Biological Chemistry. 2013;p. jbc–M113.",
+          "DOI": "10.1074/jbc.M113.458612"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jnr.21763"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.035"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/23262133.2016.1242455"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "45656",
+          "DOI": "10.1038/srep45656",
+          "article-title": "Single-cell RNA sequencing identifies distinct mouse medial ganglionic eminence cell types",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific reports."
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1608254114"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2008.04.029"
+        },
+        {
+          "key": "2021052012350447000_2021.05.18.444638v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.92.5.1510"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.18.444638",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:44:12Z",
+        "timestamp": 1768441452000
+      },
+      "score": 155.0469,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.18.444638"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            19
+          ]
+        ]
+      },
+      "references-count": 86,
+      "URL": "https://doi.org/10.1101/2021.05.18.444638",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s12859-021-04201-9",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

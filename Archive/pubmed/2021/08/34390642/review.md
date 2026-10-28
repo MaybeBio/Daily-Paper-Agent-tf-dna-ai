@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a single-cell atlas of gene expression and chromatin accessibility in the developing human cerebral cortex, generated independently and jointly, revealing transcription factor (TF) regulatory waves across a differentiation trajectory, glial lineage programs, lineage-determining TFs with linked regulatory elements, and cell-type-specific enrichment of predicted disruptive noncoding mutations in autism spectrum disorder (ASD) individuals, supported by base-pair-resolution neural network models.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods, statistical details, cohort descriptions, model architecture and validation, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious and potentially impactful integration of single-cell gene expression and chromatin accessibility data to map gene-regulatory dynamics in human corticogenesis and link them to ASD-associated noncoding variation. The conceptual framework is timely and the combination of experimental and computational approaches is compelling. However, the abstract alone provides insufficient detail to evaluate the rigor, reproducibility, or validity of the core claims. Key methodological aspects, such as the joint profiling approach, the neural network model design, the ASD cohort composition, and the statistical frameworks for enrichment and linkage analyses, are not described. The claim of cell-type-specific enrichment of disruptive noncoding mutations is particularly consequential and requires careful scrutiny of confounding factors, such as linkage disequilibrium, genomic background, and cell-type annotation accuracy. As presented, the case is promising but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Developmental neuroscientists studying cortical neurogenesis and glial specification; researchers in gene regulation and chromatin biology; computational biologists working on single-cell multi-omics and deep learning models of regulatory genomics; and human geneticists investigating the noncoding genome in neurodevelopmental disorders, especially ASD. The resource value of a single-cell regulatory atlas of the developing cortex would be high for these communities.
+- **Major strengths** The study addresses a fundamental question in human neurodevelopment with a state-of-the-art multi-omic single-cell approach. The joint profiling of gene expression and chromatin accessibility in the same cells is a notable technical advance. The integration of deep learning models to interpret noncoding variation in ASD is conceptually innovative and clinically relevant. The focus on lineage-determining TFs and their regulatory connectivity provides a mechanistic framework that goes beyond descriptive atlas building.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that base-pair-resolution neural network models identified strong cell-type-specific enrichment of predicted disruptive noncoding mutations in ASD individuals.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the architecture, training data, validation, or performance of the neural network models. It is unclear how the models were trained, what genomic features were used as input, how cell-type-specific predictions were derived, and how the threshold for "disruptive" was defined. Without this information, the enrichment claim cannot be evaluated for potential circularity or overfitting.
+  - **Why it matters** The central disease relevance of the study rests on this enrichment result. If the model is not rigorously validated or if the enrichment analysis is confounded by genomic covariates, the conclusion that ASD-associated noncoding mutations preferentially disrupt cell-type-specific regulatory elements would be unsupported.
+  - **Resolution test** Provide model architecture, training and validation datasets, performance metrics, and a detailed description of the enrichment analysis including covariates, null models, and sensitivity analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors claim to have generated a single-cell atlas of gene expression and chromatin accessibility both independently and jointly across the developing human cerebral cortex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the number of cells, the number of donors, the developmental stages, the brain regions sampled, or the quality control metrics. The joint profiling method is not named or described, and it is unclear whether the independent and joint datasets were integrated computationally or generated from the same cells.
+  - **Why it matters** A resource paper of this type must provide clear metadata and quality metrics to be usable by the community. Without these details, the atlas cannot be assessed for coverage, batch effects, or biological representativeness.
+  - **Resolution test** Provide a detailed description of sample collection, cell numbers, donor demographics, quality control thresholds, and the joint profiling protocol, along with a data availability statement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that lineage-determining TFs exhibited strong correlation between linked gene-regulatory elements and expression levels, and that highly connected genes adopted an active chromatin state in early differentiating cells.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how "linked" regulatory elements were defined, what correlation metric was used, how significance was assessed, or how "highly connected" genes were identified. The claim of lineage commitment based on chromatin state is also not supported by functional validation data.
+  - **Why it matters** These claims form the mechanistic core of the study. Without clear definitions and statistical thresholds, the reader cannot distinguish robust biological signals from computational artifacts.
+  - **Resolution test** Provide the linkage method, correlation statistics, multiple testing corrections, and any orthogonal validation such as perturbation experiments or chromatin conformation data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "waves of gene regulation by key transcription factors" is evocative but not defined. It is unclear whether this refers to temporal dynamics, hierarchical cascades, or co-accessibility modules.
+  - **Required correction** Define the term operationally, for example by specifying the temporal ordering or the statistical approach used to identify regulatory waves.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Cohort description
+  - **Affected element** ASD cohort
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that noncoding mutations were identified in an ASD cohort but does not specify the cohort size, ancestry, or whether the mutations were de novo or inherited.
+  - **Required correction** Provide cohort details and mutation type in the abstract or indicate where this information is available in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Base-pair-resolution neural network models"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term is not standard and could be misinterpreted. It is unclear whether the models operate at single-nucleotide resolution or produce base-pair-level predictions from larger windows.
+  - **Required correction** Clarify the resolution of the model and the input feature representation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The neural network model and the enrichment analysis must be fully described and validated. The atlas generation and joint profiling methodology must be detailed with quality metrics. R1-M3, while not blocking, requires statistical and definitional clarity to support the mechanistic claims.
+- **Assessment against Nature-style criteria** Originality is high, as the integration of single-cell gene expression and chromatin accessibility in the developing human cortex with deep learning-based interpretation of ASD mutations is a novel combination. Scientific importance is substantial, given the potential to link regulatory genomics to neurodevelopmental disease. Interdisciplinary readership is broad, spanning developmental biology, genomics, computational biology, and clinical genetics. Technical soundness cannot be fully assessed from the abstract alone, and the blocking concerns above must be resolved. Readability for nonspecialists is adequate, though some terms require definition. Overall, the study has the potential to meet Nature-style standards, but the current evidence base is insufficient to confirm this.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and potential resource value are strong, but the abstract alone does not establish the validity of the core claims. A full review of the manuscript with methods, figures, and data is required.
+
+## Risk / unsupported claims
+- The claim of cell-type-specific enrichment of predicted disruptive noncoding mutations in ASD is unsupported without model details and enrichment statistics.
+- The claim of "waves of gene regulation" is unsupported without temporal or statistical definitions.
+- The claim of lineage commitment based on chromatin state is unsupported without functional validation.
+- The claim of a "nearly continuous differentiation trajectory" is unsupported without trajectory inference details.
+- The claim of glial lineage-specific expression programs is unsupported without cell type annotation criteria.
+- The overall utility of the atlas as a community resource is not assessable without data availability and quality metrics.

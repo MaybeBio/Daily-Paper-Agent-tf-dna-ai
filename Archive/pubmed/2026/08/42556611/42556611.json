@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "42556611",
+    "doi": "10.1016/j.trsl.2026.08.003",
+    "title": "Identification of extracellular matrix-associated signatures to establish a risk model in rheumatoid arthritis and osteoarthritis through transcriptomic analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) and osteoarthritis (OA) frequently coexist, complicating diagnosis and treatment. The extracellular matrix (ECM) serves as a critical modulator of disease progression, coordinating multilayered matrix degradation and inflammatory cascades in both conditions. This study aims to identify ECM-driven molecular signatures to stratify the risk of RA and OA. METHODS: We integrated bulk transcriptomics data from 147 samples across five datasets, as well as scRNA-seq data from 88 samples comprising 349,921 cells. Differential expression analysis, weighted gene co-expression network analysis, and machine learning were employed to identify ECM-related hub genes. A risk score (RS) model based on ridge regression was established and validated. The RS was correlated with immune cell profiles, and a regulatory network involving miRNAs, mRNAs, transcription factors, and drugs was constructed. RESULTS: We identified eight ECM hub genes (SPARC, COL1A1, ANGPTL2, THY1, COL5A1, LRRC15, NID2, THBS3) that were significantly upregulated in RA and OA. The RS model stratified patients into high-risk and low-risk groups. The diagnostic performance of the model, as measured by AUC values, exceeded 0.8 across all cohorts. scRNA-seq and immune cell infiltration analyses revealed the involvement of these genes in ECM dysregulation. We predicted interaction between genes and multiple regulatory factors, in which the drug metoprolol was associated with LRRC15. CONCLUSIONS: We established an ECM-derived risk signature with robust diagnostic power, elucidating the shared mechanisms of ECM-immune dysregulation. Metoprolol was associated with LRRC15 in the disease cohort. This study provides a framework for precise diagnosis and targeted therapies.",
+    "keywords": [
+      "Diagnostic biomarker",
+      "Extracellular matrix",
+      "Machine learning",
+      "Osteoarthritis",
+      "Rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics",
+      "Humans",
+      "*Osteoarthritis/genetics",
+      "*Extracellular Matrix/metabolism/genetics",
+      "*Gene Expression Profiling",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "Risk Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Biaojie",
+        "Huang, Yuhan",
+        "Lv, Ru",
+        "Wang, Weikai",
+        "Hu, Zhihao",
+        "Li, Guibo",
+        "Wei, Chen",
+        "Chen, Xi",
+        "Li, Zhengdong",
+        "Zhang, Xue"
+      ],
+      "short_names": [
+        "Huang B",
+        "Huang Y",
+        "Lv R",
+        "Wang W",
+        "Hu Z",
+        "Li G",
+        "Wei C",
+        "Chen X",
+        "Li Z",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI Research, Chongqing 401329, China; BGI College & Henan Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, Zhengzhou 450000, China.",
+        "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI Research, Chongqing 401329, China; BGI College & Henan Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, Zhengzhou 450000, China; State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen 518083, China.",
+        "BGI Research, Chongqing 401329, China. Electronic address: weichen@genomics.cn.",
+        "BGI Research, Chongqing 401329, China; BGI Research, Shenzhen 518083, China; State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen 518083, China. Electronic address: chenxi8@genomics.cn.",
+        "Precision Medical Center, Guangyuan Central Hospital, Guangyuan, 628000, China. Electronic address: zhengdongli02@hotmail.com.",
+        "MOE Key Laboratory of Freshwater Fish Reproduction and Development, School of Life Sciences, Southwest University, Chongqing 400715, China; BGI Research, Chongqing 401329, China. Electronic address: zhangxue4@genomics.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Biaojie",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuhan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; BGI College & Henan Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, Zhengzhou 450000, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Ru",
+        "short_name": "Lv R",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weikai",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhihao",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guibo",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; BGI College & Henan Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, Zhengzhou 450000, China; State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chen",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China. Electronic address: weichen@genomics.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Chongqing 401329, China; BGI Research, Shenzhen 518083, China; State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen 518083, China. Electronic address: chenxi8@genomics.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengdong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Precision Medical Center, Guangyuan Central Hospital, Guangyuan, 628000, China. Electronic address: zhengdongli02@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Freshwater Fish Reproduction and Development, School of Life Sciences, Southwest University, Chongqing 400715, China; BGI Research, Chongqing 401329, China. Electronic address: zhangxue4@genomics.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational research : the journal of laboratory and clinical medicine"
+    ],
+    "journal_abbrev": [
+      "Transl Res"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 11:36",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42556611",
+      "42233387",
+      "42254012",
+      "42353855",
+      "42495609",
+      "39139563",
+      "40216809",
+      "38771826",
+      "41459480",
+      "34583778",
+      "40592131",
+      "34113405",
+      "41656832",
+      "38656728",
+      "40681713",
+      "39953769",
+      "41316378",
+      "42352882",
+      "40500570",
+      "41068798",
+      "42135859",
+      "42450069",
+      "39067546",
+      "42496954",
+      "42565562",
+      "41488645",
+      "42363474",
+      "42642681",
+      "40596265",
+      "40628511",
+      "42123445",
+      "39845946",
+      "41219826",
+      "41449394",
+      "38711508",
+      "34224029",
+      "30483789",
+      "27356888",
+      "40636121",
+      "41031145",
+      "42274933",
+      "41816328",
+      "41146237",
+      "41009952",
+      "26404854",
+      "40589764",
+      "40340806",
+      "41913032",
+      "39346909",
+      "42265151",
+      "39026663",
+      "41388523",
+      "33325525",
+      "40224547",
+      "42404897",
+      "36238290",
+      "42251905",
+      "33407587",
+      "41424060",
+      "39512836",
+      "42024670",
+      "41635814",
+      "39840076",
+      "42340574",
+      "42273676",
+      "41583523",
+      "39148085",
+      "41595435",
+      "41232761",
+      "30916045",
+      "36995411",
+      "42243611",
+      "32342805",
+      "42088521",
+      "41316541",
+      "41423561",
+      "41957428",
+      "39695788",
+      "41021591",
+      "41601671",
+      "33879726",
+      "41066424",
+      "41733593",
+      "39640258",
+      "39466354",
+      "42099639",
+      "41760032",
+      "42284285",
+      "42492262",
+      "41116042",
+      "38568083",
+      "41895505",
+      "42106542",
+      "41013556",
+      "41878449",
+      "38767974",
+      "40289029",
+      "42158856",
+      "40595039",
+      "38639039"
+    ],
+    "review": [
+      "42556611"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1931-5244(26)00169-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1511",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1931-5244(26)00169-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

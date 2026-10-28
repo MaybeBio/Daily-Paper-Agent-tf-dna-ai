@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, online methods, footnotes) as provided
+- **Assessment boundary** Scientific claims, methodology, benchmarking strategy, experimental validation, and interpretation as presented in the supplied text
+- **Shared manuscript claim summary** The authors introduce Rosalind, a DNA foundation model fine-tuned on GTEx eQTL data, which predicts variant-to-gene regulatory relationships without proximity bias. They benchmark it against Enformer and baseline predictors, apply it to multiple GWAS traits, and validate distal gene predictions in an osteoporosis osteoblast mineralization CRISPR/Cas9 knockout screen.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative only), Online Methods, one figure reference (Fig. 1a-e, Fig. 2a-e, Fig. 3a-f), supplementary table reference
+- **Missing materials affecting confidence** Figures and supplementary tables not provided; quantitative benchmarking results (AUPRC, AUROC values) not shown; full lists of predicted genes and hit calling results not available; details of the MPRA datasets and yeast promoter assay not fully described; no code or model availability statement
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in variant-to-gene mapping, namely the reliance on proximity-based heuristics. The proposed approach, fine-tuning a DNA foundation model on fine-mapped eQTL data, is conceptually sound and the application to osteoporosis with functional validation is commendable. However, the provided text lacks the quantitative results, figures, and detailed benchmarking data necessary to evaluate the strength of the claims. The narrative is compelling but the evidence base is incomplete in this submission.
+- **Who would be interested in the results, and why** Researchers in statistical genetics, functional genomics, and computational biology would be interested in the methodological advance for V2G mapping. Drug discovery scientists in osteoporosis and bone biology would be interested in the novel distal gene candidates and the experimental validation approach. The broader AI-for-biology community would be interested in the application of foundation models to regulatory genomics.
+- **Major strengths** The problem addressed is of high importance and the proximity bias limitation is well articulated. The use of fine-mapped eQTLs with PIP thresholds for training labels is a principled approach. The experimental validation in a disease-relevant osteoblast assay is a significant strength, as it goes beyond computational benchmarking. The demonstration that distal genes are more likely to be functional hits than nearest genes directly addresses the core claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "Rosalind generally outperforms Enformer-CAGE and baseline predictors" in benchmarking on held-out GTEx finemapped variant-gene pairs
+  - **Evidence pointer** Results section "Benchmarking Rosalind against a foundation model in a tissue-agnostic setting", Fig. 1e
+  - **Concern** The quantitative results of the benchmarking are not presented in the text. No AUPRC or AUROC values, no confidence intervals, and no statistical comparison are provided. The claim of "generally outperforms" cannot be assessed without these data.
+  - **Why it matters** The central claim of the manuscript is that Rosalind improves upon existing methods. Without quantitative benchmarking results, the reader cannot evaluate the magnitude of improvement or its significance.
+  - **Resolution test** Provide AUPRC and AUROC values with confidence intervals for Rosalind, Enformer-CAGE, and baseline predictors across distance strata and nearest-gene status. Include statistical tests for differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** "Rosalind-predicted distal genes were significantly more likely to elicit a positive effect in the osteoblast assay compared to the nearest gene" (McNemar's test, p = 0.011)
+  - **Evidence pointer** Results section "Osteoporosis variant-to-function mapping in osteoblasts", Fig. 3e-f, Supplementary Table
+  - **Concern** The details of the hit calling are described in methods, but the actual results, including the number of genes tested, the number of hits in each group, and the full contingency table for the McNemar test, are not provided. The claim of significance cannot be verified without these numbers.
+  - **Why it matters** The experimental validation is the key translational evidence. Without the underlying data, the significance claim is unverifiable and the biological interpretation is limited.
+  - **Resolution test** Provide the full results of the screen: number of distal and nearest genes tested, number of hits in each category, the 2x2 contingency table, and the McNemar test statistic. Also provide the list of hit genes and their annotations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability evidence
+  - **Claim pointer** "Rosalind generalises across diverse GWAS traits" and "prioritised substantially more distal genes compared to the L2G model"
+  - **Evidence pointer** Results section "Rosalind generalises across diverse GWAS traits", Fig. 2a-e
+  - **Concern** The enrichment analysis for known drug target-disease pairs is described, but the results are not shown. The claim that Rosalind recovers approved drug targets missed by L2G is supported only by examples (GIPR, NDUFA7, GUCY1B1) without systematic quantification.
+  - **Why it matters** The generalizability claim is important for establishing broad utility. Without quantitative enrichment results across all four traits, the strength of this claim is unclear.
+  - **Resolution test** Provide enrichment odds ratios, confidence intervals, and p-values for Rosalind and L2G gene sets across all four traits. Show the overlap between Rosalind predictions and approved drug targets systematically.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model architecture justification
+  - **Claim pointer** "We extended the Enformer architecture by replacing the relative positional encodings with Rotary Positional Embeddings (RoPE)"
+  - **Evidence pointer** Online Methods "Rosalind"
+  - **Concern** The motivation for replacing relative positional encodings with RoPE is not explained. No ablation or comparison is provided to show that this architectural choice improves performance over the original Enformer positional encoding scheme.
+  - **Why it matters** The choice of RoPE is a specific technical decision. Without justification or ablation, it is unclear whether this is a meaningful improvement or an arbitrary change.
+  - **Resolution test** Provide an ablation study comparing the original Enformer positional encoding with RoPE on the same fine-tuning task, or a clear rationale based on prior literature for why RoPE is expected to be superior for this application.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph on V2G methods
+  - **Evidence pointer** Introduction, "location not provided"
+  - **Issue** The sentence "the majority rely either implicitly or explicitly on the assumption that the nearest gene (in terms of base pair distance) is most likely to be causal" is followed by a reference to Fig. 3b, which is in the Results section. This forward reference is confusing.
+  - **Required correction** Move the figure reference to the appropriate location in the Results section or rephrase to avoid the forward reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Online Methods "Osteoblast MPRA"
+  - **Evidence pointer** Online Methods, "location not provided"
+  - **Issue** The cell model is referred to as "a human primary fetal osteoblast cell model [KRT]" with a placeholder reference. This is not a standard cell line name and the reference is not provided.
+  - **Required correction** Provide the full name and source of the cell model, and the complete reference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Online Methods "Osteoblast MPRA - Mutant generation strategy"
+  - **Evidence pointer** Online Methods, "location not provided"
+  - **Issue** The reference to "Weiss et al. [REF]" is a placeholder. The specific positive control sequences used are not described.
+  - **Required correction** Provide the full reference and describe the positive control sequences used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Osteoporosis variant-to-function mapping in osteoblasts"
+  - **Evidence pointer** Results, "location not provided"
+  - **Issue** The McNemar test p-value is reported, but the number of discordant pairs is not given. This makes it difficult to assess the power of the test.
+  - **Required correction** Report the number of discordant pairs in addition to the p-value.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Issue** The statement "we can not rule out the possibility that the nearest genes are more active in a different osteoporosis effector cell" is an important caveat, but it is not discussed in the context of the pleiotropy literature cited earlier.
+  - **Required correction** Expand on this caveat and discuss how the pleiotropy of eQTLs might affect the interpretation of the results.
+
+## Risk / unsupported claims
+- The claim that Rosalind "generally outperforms" Enformer and baselines is unsupported without quantitative benchmarking data.
+- The claim that distal genes are "significantly more likely" to be functional hits is unsupported without the full contingency table and hit lists.
+- The claim of generalizability across traits is unsupported without enrichment results.
+- The claim that Rosalind "recovers approved drug targets missed by L2G" is supported only by anecdotal examples.
+- The claim that the model "can accurately nominate causal disease risk genes" is too strong given the lack of causal validation beyond the osteoblast assay.
+- The performance of the GeneGenie comparison (R = 0.98) is reported without context or comparison to the original GeneGenie performance.
+- The statement that "Rosalind produced gene-sets with more than two-fold higher proportions of distal genes" is not quantified in the text.

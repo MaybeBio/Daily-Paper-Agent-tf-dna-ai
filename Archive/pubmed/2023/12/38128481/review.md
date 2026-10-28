@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors use single-cell data and computational simulations to describe the dynamics of HIF1alpha and PPARgamma during adipocyte differentiation and maturation. A feedback model predicts that HIF1alpha mediates a choice between lipid accumulation and incomplete differentiation. In vitro experiments are reported to support the model, with implications for adipose dynamics in metabolic disorders involving hypoxia.
+- **Visible evidence base** Single-cell data, computational simulations, in vitro experiments (all referenced but not detailed in the abstract)
+- **Missing materials affecting confidence** Full text, figures, tables, methods, model equations, parameter values, statistical details, and experimental protocols are not provided. The abstract alone does not permit quantitative or mechanistic verification.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting systems-level hypothesis linking HIF1alpha and PPARgamma dynamics to adipocyte fate decisions. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the modeling, the quality of the single-cell data, or the strength of the in vitro validation. The core claim of a HIF1alpha-mediated choice is stated but not substantiated with specific results, effect sizes, or controls. The work may be of interest to researchers in adipose biology, hypoxia signaling, and computational biology, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying adipocyte differentiation, adipose tissue remodeling, hypoxia-related metabolic disorders, and transcriptional regulatory networks. Computational biologists interested in feedback models of cell fate decisions would also find the approach relevant. The potential link to metabolic disorders broadens the audience to translational researchers.
+- **Major strengths** The topic is timely and relevant. The combination of single-cell data, computational modeling, and in vitro experiments is a strong methodological triad. The focus on context dependence in adipose regulation is a meaningful conceptual contribution if the model is well supported.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "modeling feedback within this network predicts a HIF1alpha-mediated choice between lipid accumulation and incomplete differentiation."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the structure of the feedback model, the nature of the predicted bifurcation or switch, or the specific conditions under which the choice is made. No quantitative predictions are stated. The claim of a "choice" implies a bistable or threshold-like behavior, but no evidence for such dynamics is visible.
+  - **Why it matters** Without specifying the model architecture and the predicted dynamics, the reader cannot assess whether the model is mechanistically grounded or whether the prediction is a trivial consequence of assumptions. The central claim of the paper rests on this prediction.
+  - **Resolution test** Provide a clear description of the model, the feedback loops, and the predicted phase space. Show that the predicted choice is robust to parameter variation and that it emerges from biologically plausible interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation strength
+  - **Claim pointer** The abstract states that "in vitro experiments support this model."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which experimental perturbations were performed, what endpoints were measured, or how the data were compared to model predictions. "Support" is a weak term that could mean qualitative agreement, correlation, or direct quantitative fit. No controls, replicates, or statistical measures are mentioned.
+  - **Why it matters** The claim of experimental support is essential to the paper's conclusion. Without details on the experimental design and the criteria for support, the claim is not falsifiable and cannot be evaluated.
+  - **Resolution test** Describe the experimental system, the perturbations used to test the model prediction, and the quantitative metrics for agreement. Provide statistical comparisons and show that alternative explanations are excluded.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data provenance and quality
+  - **Claim pointer** The abstract claims that "single-cell data and computational simulations reveal the dynamics of the transcription factors HIF1alpha and PPARgamma."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not indicate the source of the single-cell data, the cell type or differentiation protocol, the number of cells, the time points, or the method of measuring transcription factor activity. It is unclear whether the data are new or reanalyzed from public datasets. The term "dynamics" implies time-resolved measurements, but this is not confirmed.
+  - **Why it matters** The modeling is anchored to these data. If the data are not adequately described, the model calibration and validation cannot be assessed. Reproducibility is compromised.
+  - **Resolution test** Specify the data source, experimental conditions, sample sizes, and measurement approach. Show representative data and describe how the model was fitted to the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "incomplete differentiation" is not defined. It could refer to a partial activation of adipocyte genes, a mixed phenotype, or a stalled state.
+  - **Required correction** Define "incomplete differentiation" operationally, for example by marker expression thresholds or functional readouts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope of implications
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states implications for "metabolic disorders involving hypoxia" without specifying which disorders or how the model informs them.
+  - **Required correction** Name the specific disorders and state the proposed mechanistic link, or soften the claim to avoid overreach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention of code or model availability.
+  - **Required correction** State where the model code and data are deposited.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The model prediction, the experimental support, and the data foundation are all insufficiently described in the abstract. Without these, the central claims are not verifiable.
+- **Assessment against Nature-style criteria** Originality: The hypothesis of HIF1alpha-mediated fate choice in adipocytes is potentially original, but the abstract does not show how it advances beyond existing literature on hypoxia and adipogenesis. Scientific importance: The topic is important, but the abstract does not demonstrate the breadth of impact. Interdisciplinary readership: The work could appeal to cell biologists, modelers, and metabolic researchers, but the abstract is too thin to engage nonspecialists. Technical soundness: Cannot be assessed from the abstract. Readability for nonspecialists: The abstract is readable but lacks context and definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient detail to assess the validity of the model, the quality of the data, or the strength of the experimental validation. A full manuscript with detailed methods, results, and model analysis would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim of a "HIF1alpha-mediated choice" is unsupported in the abstract because no model structure or prediction details are given.
+- The claim that "in vitro experiments support this model" is unsupported because no experimental details or criteria for support are provided.
+- The claim that the findings have "implications for adipose dynamics in metabolic disorders involving hypoxia" is speculative and not tied to specific evidence.
+- The term "reveal the dynamics" is not substantiated because the nature of the data and the analysis is not described.

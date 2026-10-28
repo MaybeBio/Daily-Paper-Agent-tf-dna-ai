@@ -1,0 +1,979 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.12.697945",
+  "title": "A neural network model delivers a highly prognostic protein signature in cancer stem cells that identifies relapse in stage III colorectal cancer patients",
+  "doi": "10.64898/2026.01.12.697945",
+  "abstract": "Background Stage III colorectal cancer poses a significant threat of metastasis development, as tumour resection and adjuvant chemotherapy do not guarantee prolonged disease-free survival. Objective The spatial, quantitative, and qualitative characteristics of various cell types within tumour tissues could be key to developing accurate prognostic AI models. Design Tissue microarrays created from primary tumour tissues collected during surgical resection from a cohort of 493 stage III colorectal cancer (CRC) patients were analysed for 61 protein markers at the single-cell level using multiplexed immunofluorescence imaging via the Cell DIVE™ platform. Subsequent cell-type classification enabled quantitative cell-type analyses, co-localisation neighbourhood assessments, and cell-type-specific protein signature discoveries that distinguish between early and late/non-recurring patient samples. Results This study identifies a stem cell protein profile that drives tumour relapse. A deep neural network (DNN) model, based on a stem cell protein signature composed of BAX, MLKL, FLIP, GLUT1, and CDX2, provided accurate prognosis for stage III CRC patients in both discovery and validation cohorts and in an independent validation cohort. Nodal count-based metric further increased prognosis accuracy. Our study also revealed distinct spatial arrangements of immune, endothelial, and stem cells that were linked to early tumour recurrence. Conclusion Our findings propose a clinically promising prognostic tool based on a five-protein stem cell signature. These markers not only predict chemotherapy resistance in cancer stem cells but also suggest potential therapeutic strategies such as combinatorial treatments incorporating small molecule inhibitors targeting FLIP and GLUT1. Key messages What is already known on this topic More than 20% of stage III colorectal cancer patients will experience early tumour recurrence within the first 3 years post treatment that includes surgery and adjuvant 5-FU based chemotherapy treatment. Several studies pointed towards involvements of number of cell type specific spatial neighbourhoods in tumour progression where some immune tumour microenvironment promoting angiogenesis and intravasation events, some may provide immunosuppression. Cancer stem cells could be responsible for metastatic tumour spread, early recurrence and chemoresistance. What this study adds Spatial single cell quantitative multiplex profiling of 45 cancer hallmark proteins and 15 cell identity markers in 493 stage III CRC patients tissue samples demonstrated significant differences in cellular proximity neighbourhoods, cell type specific abundance and expression between the early and late recurrence samples. We discover that macrophages show spatial association with the blood vessels in early recurrence samples. Moreover, we observed conglomeration of B cells and macrophages with Tregulatory, Thelper and Tcytotoxic cells in association with early recurrences. We showed that stromal abundance of Tregulatory, Thelper, Tcytotoxic cells and monocytes are significantly in late, and no recurrence samples compared to early recurrence samples. The most differential expression profile that differentiates late and no recurrence samples from the early recurrence samples is related to the stem cell population. Particularly, we found overexpression of GLUT1, FLIP and downregulation of BAX, BAK, MLKL and CDX2 proteins in the cancer stem cell of early recurrence samples. We built a neural network based on the cancer stem cell protein signature (BAX, MLKL, FLIP, GLUT1 and CDX2 proteins) that delivers a high-performance prognostic classifier. How this study might affect research, practice or policy Our results propose a clinically promising prognostic tool based on a five-protein stem cell signature that outperforms existing clinical and proposed transcriptomic based signatures for separation between risk groups. Moreover, our five-protein signature markers not only predict stem cell chemotherapy resistance and therefore tumour recurrence but also suggest potential therapeutic strategies. For instance, this approach could guide combinatorial treatments at high risk of chemoresistance, such as incorporating small molecule inhibitors targeting FLIP (currently in discovery phase) and GLUT1 (already under preclinical trial evaluation).",
+  "authors": [
+    "Anna Sturrock",
+    "Sanghee Cho",
+    "Manuela Salvucci",
+    "Marc Sturrock",
+    "Joanna Fay",
+    "Tony O’Grady",
+    "Elizabeth McDonough",
+    "Christine Surrette",
+    "Jinru Shia",
+    "Canan Firat",
+    "Nil Urganci",
+    "Batuhan Kisakol",
+    "Emer P. O’Connell",
+    "John P. Burke",
+    "Niamh M. McCawley",
+    "Deborah A. McNamara",
+    "John F. Graf",
+    "Simon S. McDade",
+    "Mohammadreza Azimi",
+    "Daniel B. Longley",
+    "Fiona Ginty",
+    "Jochen H. M. Prehn"
+  ],
+  "published_date": "2026-01-13",
+  "updated_date": "2026-01-13T21:35:15Z",
+  "journal": "bioRxiv",
+  "category": "Cancer Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.697945",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.697945.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Cancer Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cancer Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2026-06-30T23:20:10Z",
+        "timestamp": 1782861610480,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "group-title": "Cancer Biology",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                13
+              ]
+            ],
+            "date-time": "2026-01-13T00:00:00Z",
+            "timestamp": 1768262400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "US-Ireland Tripartite R01 award from Research Ireland and the Health Research Board",
+          "award": [
+            "16/US/3301"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "16/US/3301"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000054",
+          "name": "National Cancer Institute at the National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01CA208179"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01CA208179"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000054",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000054",
+          "name": "National Cancer Institute at the National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "P30CA008748"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P30CA008748"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000054",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "US-Ireland Tripartite R01 award from Health and Social Care Northern Ireland",
+          "award": [
+            "STL/5715/15"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "STL/5715/15"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Research Ireland through the Research Ireland Centre for Research Training in Genomics Data Science",
+          "award": [
+            "CRT/6214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CRT/6214"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EU’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant",
+          "award": [
+            "H2020-MSCA-COFUND-2019-945385"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "H2020-MSCA-COFUND-2019-945385"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RCSI MD StAR fellowship"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Stage III colorectal cancer poses a significant threat of metastasis development, as tumour resection and adjuvant chemotherapy do not guarantee prolonged disease-free survival.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>The spatial, quantitative, and qualitative characteristics of various cell types within tumour tissues could be key to developing accurate prognostic AI models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Tissue microarrays created from primary tumour tissues collected during surgical resection from a cohort of 493 stage III colorectal cancer (CRC) patients were analysed for 61 protein markers at the single-cell level using multiplexed immunofluorescence imaging via the Cell DIVE™ platform. Subsequent cell-type classification enabled quantitative cell-type analyses, co-localisation neighbourhood assessments, and cell-type-specific protein signature discoveries that distinguish between early and late/non-recurring patient samples.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>This study identifies a stem cell protein profile that drives tumour relapse. A deep neural network (DNN) model, based on a stem cell protein signature composed of BAX, MLKL, FLIP, GLUT1, and CDX2, provided accurate prognosis for stage III CRC patients in both discovery and validation cohorts and in an independent validation cohort. Nodal count-based metric further increased prognosis accuracy. Our study also revealed distinct spatial arrangements of immune, endothelial, and stem cells that were linked to early tumour recurrence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Our findings propose a clinically promising prognostic tool based on a five-protein stem cell signature. These markers not only predict chemotherapy resistance in cancer stem cells but also suggest potential therapeutic strategies such as combinatorial treatments incorporating small molecule inhibitors targeting FLIP and GLUT1.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key messages</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>More than 20% of stage III colorectal cancer patients will experience early tumour recurrence within the first 3 years post treatment that includes surgery and adjuvant 5-FU based chemotherapy treatment.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Several studies pointed towards involvements of number of cell type specific spatial neighbourhoods in tumour progression where some immune tumour microenvironment promoting angiogenesis and intravasation events, some may provide immunosuppression.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Cancer stem cells could be responsible for metastatic tumour spread, early recurrence and chemoresistance.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Spatial single cell quantitative multiplex profiling of 45 cancer hallmark proteins and 15 cell identity markers in 493 stage III CRC patients tissue samples demonstrated significant differences in cellular proximity neighbourhoods, cell type specific abundance and expression between the early and late recurrence samples.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We discover that macrophages show spatial association with the blood vessels in early recurrence samples. Moreover, we observed conglomeration of B cells and macrophages with Tregulatory, Thelper and Tcytotoxic cells in association with early recurrences.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We showed that stromal abundance of Tregulatory, Thelper, Tcytotoxic cells and monocytes are significantly in late, and no recurrence samples compared to early recurrence samples.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>The most differential expression profile that differentiates late and no recurrence samples from the early recurrence samples is related to the stem cell population. Particularly, we found overexpression of GLUT1, FLIP and downregulation of BAX, BAK, MLKL and CDX2 proteins in the cancer stem cell of early recurrence samples.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We built a neural network based on the cancer stem cell protein signature (BAX, MLKL, FLIP, GLUT1 and CDX2 proteins) that delivers a high-performance prognostic classifier.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>How this study might affect research, practice or policy</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Our results propose a clinically promising prognostic tool based on a five-protein stem cell signature that outperforms existing clinical and proposed transcriptomic based signatures for separation between risk groups.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Moreover, our five-protein signature markers not only predict stem cell chemotherapy resistance and therefore tumour recurrence but also suggest potential therapeutic strategies. For instance, this approach could guide combinatorial treatments at high risk of chemoresistance, such as incorporating small molecule inhibitors targeting FLIP (currently in discovery phase) and GLUT1 (already under preclinical trial evaluation).</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+      "DOI": "10.64898/2026.01.12.697945",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2026-01-13T21:35:15Z",
+        "timestamp": 1768340115000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "A neural network model delivers a highly prognostic protein signature in cancer stem cells that identifies relapse in stage III colorectal cancer patients"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9997-1955",
+          "authenticated-orcid": false,
+          "given": "Anna",
+          "family": "Sturrock",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6715-9348",
+          "authenticated-orcid": false,
+          "given": "Sanghee",
+          "family": "Cho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GE HealthCare Technology and Innovation Center, Niskayuna, NY, 12309, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9941-4307",
+          "authenticated-orcid": false,
+          "given": "Manuela",
+          "family": "Salvucci",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7435-5256",
+          "authenticated-orcid": false,
+          "given": "Marc",
+          "family": "Sturrock",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6294-2886",
+          "authenticated-orcid": false,
+          "given": "Joanna",
+          "family": "Fay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, Beaumont Hospital, Beaumont Road, Dublin 9, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tony",
+          "family": "O’Grady",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, Beaumont Hospital, Beaumont Road, Dublin 9, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7524-8260",
+          "authenticated-orcid": false,
+          "given": "Elizabeth",
+          "family": "McDonough",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GE HealthCare Technology and Innovation Center, Niskayuna, NY, 12309, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7334-4571",
+          "authenticated-orcid": false,
+          "given": "Christine",
+          "family": "Surrette",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GE HealthCare Technology and Innovation Center, Niskayuna, NY, 12309, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4351-2511",
+          "authenticated-orcid": false,
+          "given": "Jinru",
+          "family": "Shia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4731-1303",
+          "authenticated-orcid": false,
+          "given": "Canan",
+          "family": "Firat",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nil",
+          "family": "Urganci",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8732-5216",
+          "authenticated-orcid": false,
+          "given": "Batuhan",
+          "family": "Kisakol",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0340-8768",
+          "authenticated-orcid": false,
+          "given": "Emer P.",
+          "family": "O’Connell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Department of Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0825-2494",
+          "authenticated-orcid": false,
+          "given": "John P.",
+          "family": "Burke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Department of Colorectal Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, Beaumont Hospital, Beaumont Road, Dublin 9, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Niamh M.",
+          "family": "McCawley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Department of Colorectal Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, Beaumont Hospital, Beaumont Road, Dublin 9, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3975-0485",
+          "authenticated-orcid": false,
+          "given": "Deborah A.",
+          "family": "McNamara",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Department of Colorectal Surgery, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, Beaumont Hospital, Beaumont Road, Dublin 9, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John F.",
+          "family": "Graf",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GE HealthCare Technology and Innovation Center, Niskayuna, NY, 12309, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3024-4773",
+          "authenticated-orcid": false,
+          "given": "Simon S.",
+          "family": "McDade",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Cancer Research & Cell Biology, Queen’s University Belfast, 97 Lisburn Road, Belfast BT9 7AE Northern Ireland, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9036-2122",
+          "authenticated-orcid": false,
+          "given": "Mohammadreza",
+          "family": "Azimi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2495-2033",
+          "authenticated-orcid": false,
+          "given": "Daniel B.",
+          "family": "Longley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Cancer Research & Cell Biology, Queen’s University Belfast, 97 Lisburn Road, Belfast BT9 7AE Northern Ireland, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6638-683X",
+          "authenticated-orcid": false,
+          "given": "Fiona",
+          "family": "Ginty",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GE HealthCare Technology and Innovation Center, Niskayuna, NY, 12309, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3479-7794",
+          "authenticated-orcid": false,
+          "given": "Jochen H. M.",
+          "family": "Prehn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Medical Physics, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            },
+            {
+              "name": "Centre of Systems Medicine, Royal College of Surgeons in Ireland University of Medicine and Health Sciences, 123 St. Stephen’s Green, Dublin 2, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2020.02.008"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12032-021-01488-9"
+        },
+        {
+          "issue": "5",
+          "key": "2026030604000804000_2026.01.12.697945v3.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "807",
+          "DOI": "10.1002/ijc.34944",
+          "article-title": "Differences in survival and recurrence of colorectal cancer by stage across population-based European registries",
+          "volume": "155",
+          "year": "2024",
+          "journal-title": "Int J Cancer"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-40066-7"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.07.010"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2019.0340"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02124-2"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu N , Martin J , Bhuva DD , Chen J , Li M , Lee SC , et al. hoodscanR: profiling single-cell neighborhoods in spatial transcriptomics data. March 2024;",
+          "DOI": "10.1101/2024.03.26.586902"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-023-01657-3"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nirmal AJ , Sorger PK . SCIMAP: A Python Toolkit for Integrated Spatial Analysis of Multiplexed Imaging Data. J Open Source Softw. 2024;9(97).",
+          "DOI": "10.21105/joss.06604"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41423-023-01061-6"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2023.08.009"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00428-023-03577-8"
+        },
+        {
+          "issue": "4",
+          "key": "2026030604000804000_2026.01.12.697945v3.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "564",
+          "DOI": "10.1038/s41379-021-00953-0",
+          "article-title": "Stratification of chemotherapy-treated stage III colorectal cancer patients using multiplexed imaging and single-cell analysis of T-cell populations",
+          "volume": "35",
+          "year": "2022",
+          "journal-title": "Mod Pathol"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pharmthera.2008.09.005"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.05.004"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(04)00046-7"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)00136-2"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.9.4997"
+        },
+        {
+          "issue": "16",
+          "key": "2026030604000804000_2026.01.12.697945v3.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2060",
+          "DOI": "10.1101/gad.14.16.2060",
+          "article-title": "tBID, a membrane-targeted death ligand, oligomerizes BAK to release cytochrome c",
+          "volume": "14",
+          "year": "2000",
+          "journal-title": "Genes Dev"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2014.8"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2970"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2021.669474"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2326-6066.CIR-20-0527"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2019.00622"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.07.005"
+        },
+        {
+          "issue": "1",
+          "key": "2026030604000804000_2026.01.12.697945v3.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1038/s41698-024-00533-w",
+          "article-title": "Tertiary lymphoid structures predict survival and response to neoadjuvant therapy in locally advanced rectal cancer",
+          "volume": "8",
+          "year": "2024",
+          "journal-title": "NPJ Precis Oncol"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2023.1185208"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-22-2041"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2020.02.008"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.04.007"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2159-8290.CD-15-0012"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28076-3"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-22-2589"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-21-0933"
+        },
+        {
+          "issue": "22",
+          "key": "2026030604000804000_2026.01.12.697945v3.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "4104",
+          "DOI": "10.1111/febs.14523",
+          "article-title": "FLIP as a therapeutic target in cancer",
+          "volume": "285",
+          "year": "2018",
+          "journal-title": "FEBS J"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41416-018-0285-5"
+        },
+        {
+          "issue": "15",
+          "key": "2026030604000804000_2026.01.12.697945v3.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1765",
+          "DOI": "10.1200/JCO.23.02262",
+          "article-title": "Prognostic Models From Transcriptomic Signatures of the Tumor Microenvironment and Cell Cycle in Stage III Colon Cancer From PETACC-8 and IDEA-France Trials",
+          "volume": "43",
+          "year": "2025",
+          "journal-title": "Journal of Clinical Oncology"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab686"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.40",
+          "unstructured": "Kingma DP , Ba J . Adam: A Method for Stochastic Optimization. January 30, 2017;"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/141000671. arXiv:1411.1607v4"
+        },
+        {
+          "issue": "25",
+          "key": "2026030604000804000_2026.01.12.697945v3.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "602",
+          "DOI": "10.21105/joss.00602",
+          "article-title": "Flux: Elegant machine learning with Julia",
+          "volume": "3",
+          "year": "2018",
+          "journal-title": "J Open Source Softw"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.43",
+          "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing. Vienna, Austria 2013."
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv007"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wickham H . ggplot2. Cham: Springer International Publishing 2016.",
+          "DOI": "10.1007/978-3-319-24277-4"
+        },
+        {
+          "key": "2026030604000804000_2026.01.12.697945v3.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Venables WN , Ripley BD . Modern Applied Statistics with S. New York, NY: Springer New York 2002.",
+          "DOI": "10.1007/978-0-387-21706-2"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.12.697945",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ],
+        "date-time": "2026-03-06T12:00:14Z",
+        "timestamp": 1772798414000
+      },
+      "score": 40.604134,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.12.697945"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.64898/2026.01.12.697945",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

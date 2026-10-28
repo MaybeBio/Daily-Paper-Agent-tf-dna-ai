@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2502.01311v1",
+  "title": "TFBS-Finder: Deep Learning-based Model with DNABERT and Convolutional Networks to Predict Transcription Factor Binding Sites",
+  "authors": "Nimisha Ghosh; Pratik Dutta; Daniele Santoni",
+  "journal": "",
+  "published_date": "2025-02-03",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了基于DNABERT和CNN的深度学习模型TFBS-Finder，用于预测转录因子结合位点，核心聚焦TF-DNA互作，方法为AI序列建模，高度匹配本课题。",
+  "abstract": "Transcription factors are proteins that regulate the expression of genes by binding to specific genomic regions known as Transcription Factor Binding Sites (TFBSs), typically located in the promoter regions of those genes. Accurate prediction of these binding sites is essential for understanding the complex gene regulatory networks underlying various cellular functions. In this regard, many deep learning models have been developed for such prediction, but there is still scope of improvement. In this work, we have developed a deep learning model which uses pre-trained DNABERT, a Convolutional Neural Network (CNN) module, a Modified Convolutional Block Attention Module (MCBAM), a Multi-Scale Convolutions with Attention (MSCA) module and an output module. The pre-trained DNABERT is used for sequence embedding, thereby capturing the long-term dependencies in the DNA sequences while the CNN, MCBAM and MSCA modules are useful in extracting higher-order local features. TFBS-Finder is trained and tested on 165 ENCODE ChIP-seq datasets. We have also performed ablation studies as well as cross-cell line validations and comparisons with other models. The experimental results show the superiority of the proposed method in predicting TFBSs compared to the existing methodologies. The codes and the relevant datasets are publicly available at https://github.com/NimishaGhosh/TFBS-Finder/.",
+  "abstract_zh": "转录因子（Transcription factors）是一类通过结合特定基因组区域（称为转录因子结合位点（Transcription Factor Binding Sites, TFBSs））来调控基因表达的蛋白质，这些位点通常位于这些基因的启动子区域。准确预测这些结合位点对于理解各种细胞功能背后的复杂基因调控网络至关重要。在这方面，已开发了许多深度学习模型用于此类预测，但仍存在改进空间。在本工作中，我们开发了一个深度学习模型，该模型使用预训练的DNABERT、卷积神经网络（Convolutional Neural Network, CNN）模块、改进的卷积块注意力模块（Modified Convolutional Block Attention Module, MCBAM）、多尺度卷积注意力（Multi-Scale Convolutions with Attention, MSCA）模块以及一个输出模块。预训练的DNABERT用于序列嵌入，从而捕获DNA序列中的长期依赖性，而CNN、MCBAM和MSCA模块则有助于提取高阶局部特征。TFBS-Finder在165个ENCODE ChIP-seq数据集上进行了训练和测试。我们还进行了消融研究、跨细胞系验证以及与其他模型的比较。实验结果表明，与现有方法相比，所提出的方法在预测TFBSs方面具有优越性。代码和相关数据集可在https://github.com/NimishaGhosh/TFBS-Finder/公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2502.01311v1",
+  "source_url": "https://arxiv.org/abs/2502.01311v1",
+  "paper_page_path": "papers/arxiv/2502.01311v1/index.html"
+}

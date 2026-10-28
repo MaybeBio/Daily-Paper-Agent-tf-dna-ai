@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-jv0rx",
+  "title": "Active Learning Guided Hit Optimization for the Leucine-Rich Repeat Kinase 2 WDR Domain Based on In Silico Ligand Binding Affinities",
+  "authors": "Filipp Gusev; Evgeny Gutkin; Francesco Gentile; Fuqiang Ban; S. Benjamin Koby; Fengling Li; Irene Chau; Suzanne Ackloo; Cheryl H. Arrowsmith; Albina Bolotokova; Pegah Ghiabi; Elisa Gibson; Levon Halabelian; Scott Houliston; Rachel J. Harding; Ashley Hutchinson; Peter Loppnau; Sumera Perveen; Almagul Seitova; Hong Zeng; Matthieu Schapira; Olexandr Isayev; Artem Cherkasov; Maria G. Kurnikova",
+  "journal": "ChemRxiv",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文聚焦LRRK2 WDR结构域小分子抑制剂的主动学习优化，核心是蛋白-配体结合亲和力预测，而非蛋白质-DNA互作或TF-DNA体系，仅方法（MD+主动学习）对结合亲和力建模有间接参考价值。",
+  "abstract": "The leucine-rich repeat kinase 2 (LRRK2) is the most mutated gene in familial Parkinson’s disease, whose mutations lead to pathogenic hallmarks of the disease. The LRRK2 WDR domain is an understudied drug target for Parkinson’s disease with no known inhibitors prior to the first phase of the Critical Assessment of Computational Hit-Finding Experiments (CACHE) Challenge. CACHE challenges are designed to attract state-of-the-art computational methods for both hit-finding and lead optimization of small molecule inhibitors to challenging protein targets. A unique advantage of the CACHE challenge is that the predicted molecules are experimentally validated in-house. Here we report on our winning submission of experimentally confirmed LRRK2 WDR inhibitor molecules, predicted from thermodynamics integration (TI) calculations performed on only 672 compounds within a chemical space of 25,171 molecules. We used a free energy molecular dynamics (MD) -based active learning (AL) workflow to optimize our two previously confirmed hit molecules. We identified 8 experimentally verified novel inhibitors out of 35 tested (23% hit rate) with a maximum affinity increase of almost 35-fold. These results demonstrate the efficacy of free energy-based active learning workflow to quickly and efficiently explore large chemical spaces while minimizing the number and length of computational simulations. This workflow is widely applicable to the screening of any chemical space for small molecule analogs with increased affinity, subject to the general constraints of RBFE calculations. The mean absolute error of TI MD calculations was 1.30 kcal/mol with respect to measured KD of hit compounds.",
+  "abstract_zh": "富亮氨酸重复激酶2（LRRK2）是家族性帕金森病中突变频率最高的基因，其突变导致该疾病的致病特征。LRRK2 WDR结构域是帕金森病中一个研究不足的药物靶点，在计算命中发现实验（CACHE）挑战的第一阶段之前，尚无已知抑制剂。CACHE挑战旨在吸引最先进的计算方法，用于针对具有挑战性的蛋白质靶点的小分子抑制剂的命中发现和先导化合物优化。CACHE挑战的一个独特优势是，预测的分子会在内部进行实验验证。在此，我们报告了在25,171个分子的化学空间中，仅对672个化合物进行热力学积分（TI）计算后，预测出并经实验确认的LRRK2 WDR抑制剂分子，这是我们获胜的提交成果。我们使用基于自由能分子动力学（MD）的主动学习（AL）工作流程，优化了我们先前确认的两个命中分子。在测试的35个化合物中，我们鉴定出8个经实验验证的新型抑制剂（命中率为23%），最大亲和力增加近35倍。这些结果证明了基于自由能的主动学习工作流程在快速高效探索大化学空间的同时，最小化计算模拟的数量和时长的有效性。该工作流程广泛适用于任何化学空间中具有更高亲和力的小分子类似物的筛选，但受限于相对结合自由能（RBFE）计算的一般约束。TI MD计算的平均绝对误差为1.30 kcal/mol，相对于命中化合物的实测KD值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-jv0rx",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-jv0rx",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-jv0rx/index.html"
+}

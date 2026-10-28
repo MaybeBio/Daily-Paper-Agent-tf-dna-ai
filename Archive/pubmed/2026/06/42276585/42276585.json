@@ -1,0 +1,492 @@
+{
+  "identity": {
+    "pmid": "42276585",
+    "doi": "10.1177/15330338261453486",
+    "title": "Urine IRF4/PENK/PXDN Methylation Signatures Enable Machine Learning-Driven Bladder Cancer Detection and Microenvironment Dissection."
+  },
+  "content": {
+    "abstract": "IntroductionCystoscopy-based diagnosis and surveillance of bladder cancer (BC) remain challenging. This study presents a urine-based assay that enriches DNA-methylation signals via PCR enrichment and applies a machine-learning model to enable cost-effective early detection.MethodsIn a prospective cohort at hospital (May 2022-November 2023), 155 individuals were enrolled, BC was diagnosed and confirmed by cystoscopy-guided biopsy and histopathology. Targeted next-generation sequencing of urine DNA quantified methylation at 44 CpG sites within IRF4, PENK and PXDN. Supervised classifiers trained on these features distinguished tumor from non-tumor urine samples. Systems analyses around IRF4/PENK/PXDN mapped signaling pathways, protein interaction modules and tumor-microenvironment contexts in BC.ResultsUsing 155 urine samples (68 BC, 87 non-BC) with methylation and transcript expression data in TCGA-BLCA, we found significantly increased methylation of IRF4, PENK, and PXDN in BC (P < 0.0001). Corresponding mRNA levels of IRF4 and PENK were significantly downregulated in tumor tissues, with PXDN showing a declining trend. Methylation of IRF4 and PXDN negatively correlated with their expression (P < 0.0001). A 41-CpG-site random forest classifier targeting IRF4, PENK, and PXND (BladderCando model) demonstrated excellent performance in distinguishing BC from non-BC individuals (AUC = 0.9783, F1 = 0.9773), outperforming urine cytology for low-grade BC detection. Co-expression and enrichment analyses identified DCN as a central hub gene, primarily linked to ECM functions. High expression of PXDN, IRF4, and DCN correlated with upregulated immune checkpoint genes and increased immune cell infiltration. Single-cell sequencing revealed PXDN in fibroblasts and endothelial cells, DCN in fibroblasts, and IRF4 in T cells, with expression patterns in urine mirroring tumor tissue profiles.ConclusionThis study establishes IRF4, PENK and PXDN methylation in urine as robust molecular signatures for BC detection, with machine-learning integration markedly enhancing diagnostic precision. Beyond early surveillance, these epigenetic alterations delineate tumor-microenvironment interactions that may inform future therapeutic strategies.",
+    "keywords": [
+      "DNA methylation",
+      "bladder cancer",
+      "immune cell infiltration",
+      "tumor-microenvironment",
+      "urine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*Interferon Regulatory Factors/urine/genetics",
+      "Interferon Regulatory Factor-4",
+      "*Urinary Bladder Neoplasms/urine/diagnosis/genetics/pathology",
+      "*Machine Learning",
+      "Female",
+      "*Tumor Microenvironment/genetics",
+      "*Biomarkers, Tumor/urine/genetics",
+      "Male",
+      "Aged",
+      "Middle Aged",
+      "Gene Expression Regulation, Neoplastic",
+      "Prospective Studies",
+      "CpG Islands"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yi",
+        "Xie, Wenhua",
+        "Chen, Wei",
+        "Dai, Shengjie",
+        "Wang, Xintao",
+        "Zhao, Xiaokai",
+        "Lei, Siyu",
+        "Zhu, Wei",
+        "Qian, Yi",
+        "Feng, Jinpeng",
+        "Gong, Ziying",
+        "Li, Jieyi",
+        "Yang, Pengmin",
+        "Xu, Xinyu",
+        "Fei, Wenjie",
+        "Zhang, Daoyun",
+        "Cao, Yifang",
+        "Jin, Jing"
+      ],
+      "short_names": [
+        "He Y",
+        "Xie W",
+        "Chen W",
+        "Dai S",
+        "Wang X",
+        "Zhao X",
+        "Lei S",
+        "Zhu W",
+        "Qian Y",
+        "Feng J",
+        "Gong Z",
+        "Li J",
+        "Yang P",
+        "Xu X",
+        "Fei W",
+        "Zhang D",
+        "Cao Y",
+        "Jin J"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-3855-7603"
+      ],
+      "affiliations": [
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Clinical Medicine Class, College of Xingshen, Jiaxing University, Jiaxing, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Urology, Tongxiang Hospital of Traditional Chinese Medicine, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+        "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+        "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+        "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yi",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Wenhua",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Shengjie",
+        "short_name": "Dai S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medicine Class, College of Xingshen, Jiaxing University, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xintao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaokai",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Siyu",
+        "short_name": "Lei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wei",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Yi",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tongxiang Hospital of Traditional Chinese Medicine, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Jinpeng",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Ziying",
+        "short_name": "Gong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jieyi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pengmin",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xinyu",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fei, Wenjie",
+        "short_name": "Fei W",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Daoyun",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Jiaxing Key Laboratory of Precision Medicine and Companion Diagnostics, Jiaxing Yunying Medical Inspection Co., Ltd., Jiaxing, China.",
+          "Department of R&D, Shanghai Yunying Biopharmaceutical Technology Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yifang",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Jing",
+        "short_name": "Jin J",
+        "identifiers": [
+          "0009-0000-3855-7603"
+        ],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Jiaxing University, Jiaxing, China.",
+          "Jiaxing University Master Degree Cultivation Base, Zhejiang Chinese Medical University, Jiaxing, China.",
+          "Jiaxing Key Laboratory for Precision Diagnosis and Therapy of Urologic Oncology, The First Hospital of Jiaxing, Jiaxing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology in cancer research & treatment"
+    ],
+    "journal_abbrev": [
+      "Technol Cancer Res Treat"
+    ],
+    "pub_date": "2026 Jan-Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 00:37",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39883469",
+      "39437487",
+      "39399179",
+      "38868435",
+      "38572751",
+      "38468501",
+      "37968825",
+      "36562559",
+      "36461603",
+      "35982948",
+      "35123558",
+      "34511303",
+      "34129823",
+      "34120771",
+      "33590861",
+      "33506766",
+      "32125291",
+      "31151158",
+      "31042513",
+      "30357502",
+      "29692199",
+      "29443960",
+      "27326410",
+      "26511519",
+      "25037483",
+      "24360662",
+      "24054865",
+      "23303777",
+      "20975101",
+      "20733951",
+      "17382711",
+      "11435827",
+      "11068304"
+    ],
+    "similar": [
+      "42276585",
+      "42324902",
+      "41233664",
+      "28163793",
+      "36403035",
+      "39234248",
+      "35968916",
+      "32081560",
+      "41436831",
+      "29854012",
+      "39883469",
+      "40790606",
+      "37330048",
+      "38677548",
+      "39567591",
+      "29445424",
+      "40596289",
+      "39048164",
+      "40996609",
+      "32817589",
+      "33902700",
+      "33882992",
+      "41917473",
+      "41415282",
+      "41029537",
+      "42493450",
+      "21599969",
+      "40390219",
+      "42332658",
+      "40330458",
+      "40496857",
+      "41420251",
+      "40693457",
+      "40199157",
+      "40211230",
+      "34112144",
+      "40450287",
+      "32454905",
+      "41249576",
+      "41366275",
+      "19190164",
+      "35524222",
+      "42359574",
+      "42480851",
+      "41094424",
+      "40607252",
+      "42142024",
+      "22529986",
+      "42220482",
+      "39415336",
+      "26761785",
+      "23735005",
+      "40228759",
+      "27586786",
+      "40806634",
+      "42337544",
+      "40122834",
+      "41792142",
+      "15569975",
+      "41290867",
+      "42649617",
+      "40959568",
+      "39260052",
+      "34085193",
+      "40898538",
+      "40247223",
+      "42585615",
+      "28106542",
+      "41798945",
+      "29907142",
+      "39431962",
+      "41139554",
+      "41706814",
+      "19424577",
+      "40159545",
+      "23056278",
+      "41074436",
+      "41663976",
+      "38575639",
+      "42688363",
+      "40259382",
+      "28941000",
+      "41601657",
+      "38496823",
+      "41478792",
+      "30322728",
+      "38897871",
+      "40059124",
+      "41198839",
+      "39904894",
+      "41624853",
+      "40442298",
+      "40977710",
+      "39664392",
+      "42268472",
+      "29739919",
+      "21586619",
+      "41033106",
+      "39437487",
+      "39744172"
+    ],
+    "review": [
+      "42276585",
+      "40806634"
+    ],
+    "pmc": [
+      "13260975"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15330338261453486?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42276585/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3854",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

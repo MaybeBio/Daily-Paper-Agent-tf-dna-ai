@@ -1,0 +1,159 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15004112/v2",
+  "title": "A Replicate-Aware Biophysical Triage Workflow for De-Risking Protein-Ligand Hypotheses Before Experimental Validation",
+  "doi": "10.26434/chemrxiv.15004112/v2",
+  "abstract": "Computational protein-ligand studies often treat ligand retention during molecular dynamics as evidence of preserved binding quality. This assumption is risky in drug-repurposing and resistance settings, where a ligand may remain pocket-associated while losing canonical contact fidelity, adopting a weakened pose, or showing replicate-dependent behavior. Here, we present a replicate-aware biophysical triage workflow, referred to in this manuscript as Gen2, for de-risking protein-ligand hypotheses before experimental validation. Gen2 uses predefined quality-control and trajectory-adjudication principles to evaluate whether a protein-ligand hypothesis remains structurally interpretable across replicate molecular dynamics simulations. We applied the workflow to two primary benchmark modules. In SARS-CoV-2 main protease, apo 6Y2E served as the ligand-free baseline, 6W63/X77 as a noncovalent positive-control anchor, and 6Y2E-lopinavir as a weak or nonvalidated comparator. X77 showed replicate-supported active-site retention and was accepted as the positive-control anchor, whereas lopinavir remained active-site associated but failed to preserve robust, replicate-consistent canonical late-pose quality. In BCL2-venetoclax systems, WT 6O0K behaved as a preserved positive anchor, F104L 6O0M showed bounded impairment without ligand escape, and G101V 6O0L showed replicate-asymmetric resistance-linked perturbation of neighboring groove contacts rather than direct G101 contact loss. Across both systems, ligand retention and binding-quality preservation were separable outcomes. The two modules were selected as orthogonal stress tests of the same methodological problem, not as evidence that the workflow is a universal potency or clinical-response predictor. Gen2 is not an affinity predictor, potency predictor, clinical-resistance model, or replacement for biochemical or cellular validation. Its intended role is to classify computational protein-ligand hypotheses as preserved, weakened, asymmetric, nonideal, setup-limited, or unsuitable for prioritized experimental escalation.",
+  "authors": [
+    "Hoosdally Shakeel",
+    "hoosdally shakeel"
+  ],
+  "published_date": "2026-06-04",
+  "updated_date": "2026-06-04T15:15:02Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15004112/v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004112/v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T16:01:03Z",
+        "timestamp": 1780588863374,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Computational protein-ligand studies often treat ligand retention during molecular dynamics as evidence of preserved binding quality. This assumption is risky in drug-repurposing and resistance settings, where a ligand may remain pocket-associated while losing canonical contact fidelity, adopting a weakened pose, or showing replicate-dependent behavior. Here, we present a replicate-aware biophysical triage workflow, referred to in this manuscript as Gen2, for de-risking protein-ligand hypotheses before experimental validation. Gen2 uses predefined quality-control and trajectory-adjudication principles to evaluate whether a protein-ligand hypothesis remains structurally interpretable across replicate molecular dynamics simulations. We applied the workflow to two primary benchmark modules. In SARS-CoV-2 main protease, apo 6Y2E served as the ligand-free baseline, 6W63/X77 as a noncovalent positive-control anchor, and 6Y2E-lopinavir as a weak or nonvalidated comparator. X77 showed replicate-supported active-site retention and was accepted as the positive-control anchor, whereas lopinavir remained active-site associated but failed to preserve robust, replicate-consistent canonical late-pose quality. In BCL2-venetoclax systems, WT 6O0K behaved as a preserved positive anchor, F104L 6O0M showed bounded impairment without ligand escape, and G101V 6O0L showed replicate-asymmetric resistance-linked perturbation of neighboring groove contacts rather than direct G101 contact loss. Across both systems, ligand retention and binding-quality preservation were separable outcomes. The two modules were selected as orthogonal stress tests of the same methodological problem, not as evidence that the workflow is a universal potency or clinical-response predictor. Gen2 is not an affinity predictor, potency predictor, clinical-resistance model, or replacement for biochemical or cellular validation. Its intended role is to classify computational protein-ligand hypotheses as preserved, weakened, asymmetric, nonideal, setup-limited, or unsuitable for prioritized experimental escalation.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15004112/v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T15:15:02Z",
+        "timestamp": 1780586102000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Replicate-Aware Biophysical Triage Workflow for De-Risking Protein-Ligand Hypotheses Before Experimental Validation"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Hoosdally",
+          "family": "Shakeel",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-4144-718X",
+          "authenticated-orcid": false,
+          "given": "hoosdally",
+          "family": "shakeel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004112/v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T15:15:02Z",
+        "timestamp": 1780586102000
+      },
+      "score": 83.64685,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004112/v2"
+        }
+      },
+      "subtitle": [
+        "Separating Ligand Retention from Binding-Quality Preservation in Viral Enzyme Repurposing and Oncology Resistance"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15004112/v2",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "37560933",
+    "doi": "10.1021/acs.jafc.3c03247",
+    "title": "Fucoxanthin Attenuates Inflammation via Interferon Regulatory Factor 3 (IRF3) to Improve Sepsis."
+  },
+  "content": {
+    "abstract": "Suppression of excessive inflammatory responses improves the survival of patients with sepsis. We previously illustrated the anti-inflammatory effects of fucoxanthin (FX), a natural carotenoid isolated from brown algae; nevertheless, the underlying mechanism remains unknown. In this study, we examine the mechanism of the action of FX by targeting interferon regulatory factor 3 (IRF3) to inhibit inflammatory response. We observed that FX regulated innate immunity by inhibiting IRF3 phosphorylation in vitro. The in silico approach demonstrated a good binding mode between FX and IRF3. To examine the in vivo effects of FX, a mouse model of sepsis induced by cecal ligation and puncture (CLP) was created using both wild-type (WT) and Irf3(-/-) mice. FX significantly reduced pro-inflammatory cytokine levels and reactive oxygen species production, changed the circulating immune cell composition, and increased the survival rate of the CLP-induced sepsis model. Overall, FX ameliorated sepsis by targeting IRF3 activation, providing novel insights into the therapeutic potential and molecular mechanism of action of FX in the treatment of sepsis and suggesting that it may be used clinically to improve the survival rate in mice undergoing sepsis.",
+    "keywords": [
+      "fucoxanthin",
+      "inflammatory response",
+      "interferon regulatory factor 3",
+      "molecular docking",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Interferon Regulatory Factor-3/genetics/metabolism",
+      "Inflammation/drug therapy/genetics",
+      "*Sepsis/drug therapy/genetics",
+      "Xanthophylls/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Jingqian",
+        "Guan, Biyun",
+        "Chen, Kunsen",
+        "Feng, Zhihua",
+        "Guo, Kai",
+        "Wang, Xue",
+        "Xiao, Jianbin",
+        "Chen, Siyuan",
+        "Chen, Wenzhi",
+        "Chen, Long",
+        "Chen, Qi"
+      ],
+      "short_names": [
+        "Su J",
+        "Guan B",
+        "Chen K",
+        "Feng Z",
+        "Guo K",
+        "Wang X",
+        "Xiao J",
+        "Chen S",
+        "Chen W",
+        "Chen L",
+        "Chen Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0920-7177"
+      ],
+      "affiliations": [
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China.",
+        "Department of Neurosurgery & Neurocritical Care, Huashan Hospital, Fudan University, Shanghai 200040, China.",
+        "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Jingqian",
+        "short_name": "Su J",
+        "identifiers": [
+          "0000-0002-0920-7177"
+        ],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Biyun",
+        "short_name": "Guan B",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kunsen",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zhihua",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Kai",
+        "short_name": "Guo K",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jianbin",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siyuan",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wenzhi",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Long",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery & Neurocritical Care, Huashan Hospital, Fudan University, Shanghai 200040, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Innate Immune Biology, Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of agricultural and food chemistry"
+    ],
+    "journal_abbrev": [
+      "J Agric Food Chem"
+    ],
+    "pub_date": "2023 Aug 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/10 12:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41668763",
+      "41545756",
+      "40733098",
+      "40333903",
+      "39726955",
+      "39282561",
+      "38700314",
+      "38398046",
+      "38375470",
+      "37762104"
+    ],
+    "refs": [],
+    "similar": [
+      "37560933",
+      "37762104",
+      "23048204",
+      "26032013",
+      "22381171",
+      "31555126",
+      "27933547",
+      "37441808",
+      "31413131",
+      "27755506",
+      "34764669",
+      "30126034",
+      "33448797",
+      "23512614",
+      "32475638",
+      "28642129",
+      "34643859",
+      "35447899",
+      "36432455",
+      "35196784",
+      "37340299",
+      "32878885",
+      "33239421",
+      "21274885",
+      "27076640",
+      "29712834",
+      "34190598",
+      "28468885",
+      "26248075",
+      "28482922",
+      "32347939",
+      "29601323",
+      "23803413",
+      "35691271",
+      "16699525",
+      "29973649",
+      "32476569",
+      "31167907",
+      "29106401",
+      "23649622",
+      "34619149",
+      "36314820",
+      "27811478",
+      "35838029",
+      "27085678",
+      "33559458",
+      "36174269",
+      "32235696",
+      "36538592",
+      "30842237",
+      "27031380",
+      "24072678",
+      "29101251",
+      "26819312",
+      "24021706",
+      "28363903",
+      "21788382",
+      "31071432",
+      "29437975",
+      "21842368",
+      "21266535",
+      "36537793",
+      "24096085",
+      "24049179",
+      "30410495",
+      "31213650",
+      "29618645",
+      "17215286",
+      "35254105",
+      "30892786",
+      "22158869",
+      "22593165",
+      "35948267",
+      "29655757",
+      "32315653",
+      "37569344",
+      "31852965",
+      "26634656",
+      "31318834",
+      "29793310",
+      "27125670",
+      "36085336",
+      "34731629",
+      "33783750",
+      "23028052",
+      "34070405",
+      "28865677",
+      "36067309",
+      "26949091",
+      "26253656",
+      "32876840",
+      "29149705",
+      "25239187",
+      "19797858",
+      "38132956"
+    ],
+    "review": [
+      "37560933",
+      "36432455",
+      "21842368"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jafcau/article-lookup/doi/10.1021/acs.jafc.3c03247",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

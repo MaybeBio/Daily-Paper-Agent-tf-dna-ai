@@ -1,74 +1,92 @@
 ## Review setup
-
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
-- **Shared manuscript claim summary** The authors use two sequence-to-function models, AlphaGenome and AlphaMissense, to quantify the predicted disruption of somatic mutations across 8,800 TCGA patients and 33 cancer types. They report that recurrent hotspot mutations show larger predicted protein-level effects while non-hotspot mutations show larger regulatory effects. They aggregate variant-level predictions into patient-gene disruption profiles covering transcriptional activity, chromatin accessibility, transcription factor binding, and splicing. These profiles are reported to be gene- and modality-specific, to reflect tissue of origin, cancer type, and microsatellite-instability status, and to retain information beyond tumor mutational burden. Among patients lacking recurrent hotspot mutations in a given cancer gene, higher predicted disruption is associated with overall survival, with the strongest signal for chromatin accessibility. In an independent treatment-annotated cohort, gene-level disruption is associated with survival within treatment-defined subgroups.
-- **Visible evidence base** Abstract text only; data availability statement lists TCGA, TCGA-CDR, IntOGen, POG570, and Cancer Hotspots v2 as sources
-- **Missing materials affecting confidence** Full manuscript, all figures, all tables, supplementary materials, methodological details, cohort composition, statistical models, and validation procedures
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, data availability, code availability, and author contributions. Figures and supplementary materials were not provided.
+- **Assessment boundary** The review is limited to the textual content of the manuscript as supplied. Claims regarding figures, tables, and supplementary materials are assessed based on their description in the text only, as the actual figures and tables were not available for inspection.
+- **Shared manuscript claim summary** The manuscript claims that a genomic foundation model (AlphaGenome) can quantify regulatory disruption from somatic mutations in cancer genes, that these disruption profiles capture biological structure (tissue of origin, cancer type, MSI status) beyond tumor mutational burden, and that passenger-derived regulatory disruption is associated with overall survival and treatment-specific outcomes.
+- **Visible evidence base** The evidence base consists of the manuscript text, including descriptions of results, methods, and statistical analyses. No figures, tables, or supplementary data files were provided for direct inspection.
+- **Missing materials affecting confidence** Figures 1-6, all supplementary figures, the TCGA and POG570 datasets, the code repository, and the detailed statistical outputs (e.g., full hazard ratio tables, confidence intervals, permutation results) were not available. This substantially limits the ability to verify the statistical claims, the robustness of the clustering analyses, and the validity of the survival models.
 
 ## Reviewer
-
-- **Overall assessment** The abstract presents a conceptually interesting framework for moving beyond discrete driver mutations toward continuous, multidimensional gene-level disruption profiles. The use of two complementary sequence-to-function models is sensible, and the proposed distinction between protein-level effects of hotspots and regulatory effects of non-hotspots is potentially valuable. However, the abstract alone provides insufficient methodological detail to evaluate the validity of the aggregation procedure, the statistical models used for survival associations, the handling of confounding variables, or the robustness of the findings. The central claims are plausible but currently not established from the provided evidence.
-- **Who would be interested in the results, and why** Cancer genomics researchers interested in functional interpretation of somatic mutations, computational biologists working on sequence-to-function models, clinical oncologists seeking prognostic biomarkers, and researchers studying tumor heterogeneity and the role of non-coding mutations. The proposed framework could be of interest to those working on integrating genomic and clinical data for precision oncology.
-- **Major strengths** The conceptual shift from discrete driver mutations to continuous disruption profiles is timely and potentially impactful. The use of two complementary models, one focused on protein effects and one on regulatory effects, is a reasonable approach. The analysis across 8,800 patients and 33 cancer types provides substantial scale. The inclusion of an independent treatment-annotated cohort for validation is a strength. The claim that disruption profiles retain information beyond tumor mutational burden suggests potential clinical utility.
+- **Overall assessment** This manuscript presents a potentially interesting application of sequence-to-function models to cancer genomics, with the aim of moving beyond discrete driver mutations toward a continuous, multimodal view of gene disruption. The conceptual framing is timely and the use of AlphaGenome across a large pan-cancer cohort is ambitious. However, the manuscript as presented has several significant limitations. The most critical concerns are the lack of direct validation of the predicted disruption scores against experimental or independent functional data, the absence of key methodological details regarding the aggregation of variant-level effects into gene-level scores, and the reliance on association analyses that may be confounded by known biological and technical factors. The survival analyses, while suggestive, are presented without sufficient detail on model diagnostics, multiple testing corrections, or sensitivity analyses. The treatment-specific analyses in the POG570 cohort are explicitly exploratory, but the manuscript does not adequately address the risk of false positives given the number of comparisons. Overall, the core hypothesis is interesting, but the evidence as presented is not yet sufficient to establish the claims.
+- **Who would be interested in the results, and why** Computational cancer biologists, researchers working on non-coding mutations and regulatory genomics, and those interested in the clinical application of genomic foundation models. The work is also relevant to researchers studying tumor heterogeneity and the functional impact of passenger mutations.
+- **Major strengths** The conceptual advance of moving from discrete driver mutations to continuous, multimodal disruption profiles is a valuable framing. The use of a state-of-the-art foundation model (AlphaGenome) on a large, well-characterized cohort (TCGA) is a strength. The attempt to link predicted regulatory disruption to clinical outcomes, including treatment-specific responses, addresses an important gap. The authors also make their code available, which supports reproducibility.
 - **Major Concerns**
-  - **Concern ID** R1-M1
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Technical soundness
-  - **Claim pointer** The authors claim that aggregating variant-level predictions into patient-gene disruption profiles produces biologically meaningful and clinically informative measures.
-  - **Evidence pointer** Abstract; methods not provided
-  - **Concern** The abstract does not describe how variant-level predictions are aggregated into patient-gene disruption profiles. It is unclear whether the aggregation is a sum, mean, maximum, or some weighted combination across variants, and whether the aggregation accounts for variant allele frequency, clonality, or the number of variants per gene. Without this information, the biological interpretation of a "disruption profile" is ambiguous.
-  - **Why it matters** The aggregation method directly determines the validity of all downstream analyses. If the aggregation is not carefully designed and justified, the resulting profiles may not reflect meaningful gene-level disruption, and all subsequent associations with survival or cancer type could be artifacts of the aggregation procedure.
-  - **Resolution test** Provide a detailed description of the aggregation method, including the mathematical formulation, justification for the chosen approach, and sensitivity analyses demonstrating that results are robust to alternative aggregation strategies.
-  - **Concern ID** R1-M2
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Statistical rigor
-  - **Claim pointer** The authors claim that higher predicted disruption is associated with overall survival among patients lacking recurrent hotspot mutations, with the strongest signal for chromatin accessibility.
-  - **Evidence pointer** Abstract; statistical details not provided
-  - **Concern** The abstract does not describe the statistical models used for survival analysis. It is unclear whether Cox proportional hazards models were used, whether continuous or dichotomized disruption scores were employed, what covariates were included, and how multiple testing across genes and modalities was handled. The claim of association with survival requires appropriate adjustment for known prognostic factors and multiple comparison correction.
-  - **Why it matters** Survival associations in cancer genomics are frequently confounded by tumor stage, age, treatment, and other clinical variables. Without evidence of appropriate adjustment and multiple testing control, the reported associations may not be robust or clinically meaningful.
-  - **Resolution test** Describe the statistical models, covariates, multiple testing correction methods, and provide effect sizes with confidence intervals. Show that associations persist after adjustment for established prognostic factors and after correction for multiple comparisons.
-  - **Concern ID** R1-M3
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Validation and generalizability
-  - **Claim pointer** The authors claim that gene-level disruption is associated with survival within treatment-defined subgroups in an independent treatment-annotated cohort.
-  - **Evidence pointer** Abstract; cohort details not provided
-  - **Concern** The abstract does not specify the size of the independent cohort, the cancer types included, the treatments administered, or the number of patients per treatment subgroup. It is unclear whether the subgroup analyses were pre-specified or exploratory, and whether the sample sizes were adequate to detect meaningful associations.
-  - **Why it matters** Treatment-defined subgroup analyses are prone to false positives, especially when many subgroups are examined. Without details on cohort composition, subgroup definitions, and statistical power, the validity of these findings cannot be assessed.
-  - **Resolution test** Provide detailed cohort characteristics, subgroup definitions, sample sizes, and clearly state whether subgroup analyses were pre-specified or exploratory. Report results for all subgroups examined, not only those with significant findings.
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Validity of the core metric
+    - **Claim pointer** The manuscript claims that AlphaGenome-derived disruption scores quantify the functional impact of somatic mutations on cancer genes, and that these scores are biologically and clinically meaningful.
+    - **Evidence pointer** Results section, Figures 1-3, Methods section (Gene-level disruption analysis)
+    - **Concern** The central metric, the gene-level disruption score, is derived from aggregating variant-level AlphaGenome predictions. The manuscript does not provide any direct validation that these predicted scores correlate with actual functional or transcriptional changes in the same tumors. The example in Figure 1A shows a qualitative comparison with GTEx and patient RNA-seq, but this is a single anecdotal case. There is no systematic comparison of predicted disruption with observed gene expression, chromatin accessibility, or splicing from the same TCGA samples. Without such validation, it is unclear whether the predicted disruption scores reflect true biological perturbation or are an artifact of the model's predictions.
+    - **Why it matters** The entire manuscript rests on the assumption that AlphaGenome's predictions are a faithful proxy for biological disruption. If this assumption is not tested, all downstream analyses, including the survival and treatment associations, are built on an unvalidated foundation. The claim that these scores capture "cancer biology" is not supported without direct evidence.
+    - **Resolution test** The authors should provide a systematic comparison of predicted disruption scores with observed molecular data from the same TCGA samples (e.g., correlation of predicted RNA-seq disruption with actual RNA-seq expression changes, predicted ATAC-seq disruption with actual ATAC-seq peaks). This would establish the biological validity of the metric.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Statistical rigor and confounding
+    - **Claim pointer** The manuscript claims that passenger-derived regulatory disruption is associated with overall survival, independent of tumor mutational burden.
+    - **Evidence pointer** Results section (Predicted regulatory disruption from passenger mutations is associated with survival), Figure 5, Methods section (Association of gene-disruption with overall survival)
+    - **Concern** The survival analysis is a key result, but the methods description is insufficient to assess its validity. The authors state that they split patients into low- and high-disruption groups at the median, but they do not describe how the median was determined (e.g., pan-cancer vs. cancer-type-specific). More importantly, the analysis is restricted to patients with non-zero disruption, which introduces a selection bias. The manuscript does not report the number of patients in each group, the number of events, or the confidence intervals for the hazard ratios. The claim that the signal is "independent of tumor mutational burden" is based on a residualization procedure, but the details of this procedure are not fully described, and it is unclear if it adequately removes confounding. Furthermore, the analysis does not appear to account for other potential confounders such as tumor stage, age, or treatment history.
+    - **Why it matters** The survival association is a central piece of evidence for the clinical relevance of the disruption scores. If the analysis is not rigorously performed and reported, the claim of clinical utility is not established. The potential for confounding by TMB, stage, or other variables is high, and the current description does not convince the reader that these have been adequately addressed.
+    - **Resolution test** The authors should provide a detailed description of the survival model, including the number of patients and events per group, hazard ratios with 95% confidence intervals, and the results of sensitivity analyses adjusting for key clinical covariates (e.g., age, stage, treatment). They should also report the results of a formal test for interaction between disruption and TMB.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Reproducibility and methodological transparency
+    - **Claim pointer** The manuscript claims that the disruption profiles recapitulate tissue of origin, cancer type, and MSI status, and that the full AlphaGenome model achieves near-perfect MSI classification.
+    - **Evidence pointer** Results section (Disruption features recapitulate cancer identity and molecular subtype), Figure 4, Methods section (Tissue- and cancer-type clustering, MSI/MSS clustering and classification)
+    - **Concern** The clustering and classification analyses are described at a high level, but critical details are missing. For the t-SNE analysis, the manuscript does not specify the number of dimensions used, the perplexity, or the number of iterations. For the MSI classification, the manuscript reports AUPRC values but does not provide the full precision-recall curves, the number of patients in each class, or the cross-validation scheme in sufficient detail. The claim of "near-perfect classification" (AUPRC 0.98-1.00) is striking and warrants scrutiny. It is possible that the model is overfitting or that the features are trivially correlated with TMB, which is known to be strongly associated with MSI. The residualization procedure for TMB is described, but the effectiveness of this procedure is not demonstrated.
+    - **Why it matters** The MSI classification result is used to support the claim that disruption profiles capture clinically relevant molecular subtypes. If the analysis is not reproducible or is confounded by TMB, this claim is weakened. The near-perfect performance also raises the possibility of a methodological artifact.
+    - **Resolution test** The authors should provide a complete description of the t-SNE parameters and the cross-validation procedure. They should also show the performance of the TMB-only model (M1) in the same figure or table for direct comparison, and demonstrate that the residualization procedure effectively removes TMB-related signal by showing the correlation between residualized features and TMB.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** External validity and generalizability
+    - **Claim pointer** The manuscript claims that gene-level disruption is associated with treatment-specific outcomes in an independent cohort (POG570).
+    - **Evidence pointer** Results section (Gene-level disruption is associated with treatment-specific outcomes), Figure 6, Methods section (Treatment-specific survival analysis in the POG570 cohort)
+    - **Concern** The POG570 analysis is presented as a key validation of the clinical utility of the disruption scores. However, the analysis is restricted to two cancer types (breast and colorectal) and the sample sizes are modest (n=144 and n=87, respectively). The manuscript does not report the number of patients in each treatment subgroup, the number of events, or the confidence intervals for the hazard ratios. The analysis is described as exploratory, but the manuscript does not discuss the risk of false positives given the number of treatment classes and genes tested. The lack of a multiple testing correction is a significant concern.
+    - **Why it matters** The treatment-specific associations are the most clinically relevant claims in the manuscript. If these are not robustly demonstrated, the clinical utility of the approach is not established. The exploratory nature of the analysis does not excuse the lack of statistical rigor.
+    - **Resolution test** The authors should report the full results of the treatment-specific models, including the number of patients and events per subgroup, hazard ratios with confidence intervals, and the results of a multiple testing correction (e.g., Benjamini-Hochberg). They should also discuss the limitations of the sample size and the potential for confounding by treatment indication.
 - **Minor Comments**
-  - **Concern ID** R1-m1
-  - **Severity** Minor
-  - **Axis** Clarity
-  - **Affected element** Definition of "disruption"
-  - **Evidence pointer** Abstract
-  - **Issue** The term "disruption" is used throughout but is not explicitly defined. It is unclear whether this refers to predicted functional impact, loss-of-function probability, or some other metric derived from the models.
-  - **Required correction** Provide an explicit definition of "disruption" as used in this study, including how it relates to the outputs of AlphaGenome and AlphaMissense.
-  - **Concern ID** R1-m2
-  - **Severity** Minor
-  - **Axis** Reproducibility
-  - **Affected element** Model versions and parameters
-  - **Evidence pointer** Abstract; methods not provided
-  - **Issue** The abstract does not specify which versions of AlphaGenome and AlphaMissense were used, nor the exact parameters or thresholds applied.
-  - **Required correction** Specify model versions, relevant parameters, and any thresholds used for classifying variants or constructing profiles.
-  - **Concern ID** R1-m3
-  - **Severity** Minor
-  - **Axis** Interpretability
-  - **Affected element** Clinical relevance
-  - **Evidence pointer** Abstract
-  - **Issue** The abstract states that disruption profiles are associated with survival but does not indicate the magnitude of the effect or whether the effect size is clinically meaningful.
-  - **Required correction** Report effect sizes, such as hazard ratios, and discuss their clinical relevance in the context of existing prognostic markers.
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The aggregation method, statistical approach, and validation details are all essential to establishing the validity of the central claims and are currently not described.
-- **Assessment against Nature-style criteria** Originality is high, as the conceptual framework of continuous gene-level disruption profiles is a departure from the discrete driver paradigm. Scientific importance is potentially high, given the potential relevance to cancer biology and clinical prognostication. Interdisciplinary readership is plausible, spanning cancer genomics, computational biology, and clinical oncology. Technical soundness cannot be assessed from the abstract alone, as the key methodological details are missing. Readability for nonspecialists is adequate, though the abstract assumes familiarity with sequence-to-function models and genomic terminology.
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of presentation
+    - **Affected element** Figure 1
+    - **Evidence pointer** Results section, Figure 1
+    - **Issue** The description of Figure 1 is brief and does not fully explain the panels. For example, the manuscript states that Figure 1A shows a "distinct predicted RNA-seq profile" but does not describe what the axes represent or how the comparison with GTEx and patient RNA-seq was performed.
+    - **Required correction** The figure legend should be expanded to clearly describe each panel, the data shown, and the computational methods used to generate the figure.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Figure 2
+    - **Evidence pointer** Results section (Hotspots show contrasting protein-level and regulatory effects), Figure 2
+    - **Issue** The manuscript reports Cohen's d values and q-values for the comparison of hotspot and passenger mutations, but it does not report the sample sizes (number of variants) in each group. This makes it difficult to assess the reliability of the effect sizes.
+    - **Required Correction** The number of variants in each group should be reported in the figure legend or in the text.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Methodological detail
+    - **Affected element** GSEA analysis
+    - **Evidence pointer** Methods section (Gene set enrichment analysis)
+    - **Issue** The manuscript states that GSEA was performed using Enrichr 2023 GO gene sets, but it does not specify the version of the Enrichr database or the exact parameters used for the permutation test.
+    - **Required Correction** The exact version of the gene set database and the parameters of the permutation test should be specified.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Data availability
+    - **Affected element** Data and code availability
+    - **Evidence pointer** Data availability, Code availability
+    - **Issue** The code repository is listed, but it is not clear if the code is versioned and if the exact version used for the analyses is indicated. The data availability statement mentions controlled access for TCGA, but it is not clear if the processed disruption scores are available in a usable format.
+    - **Required Correction** The authors should provide a versioned release of the code and consider depositing the processed disruption score matrices in a public repository to facilitate reproducibility.
+- **Technical failings that need to be addressed before the case is established** The lack of direct validation of the predicted disruption scores against observed molecular data (R1-M1) is a fundamental issue. The survival and treatment analyses (R1-M2, R1-M4) are not reported with sufficient statistical detail to assess their validity. The MSI classification analysis (R1-M3) may be confounded by TMB and requires more rigorous evaluation.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The idea of using sequence-to-function models to create continuous, multimodal disruption profiles is a novel contribution. The contrast between protein-level and regulatory effects of hotspot versus passenger mutations is an interesting angle. However, the concept of cumulative gene disruption is not entirely new, and the manuscript does not fully distinguish itself from prior work in this area.
+    - **Scientific importance** If validated, the approach could have significant implications for understanding the functional impact of passenger mutations and for identifying prognostic and predictive biomarkers. However, the current evidence is not sufficient to establish this importance. The lack of validation and the potential for confounding undermine the strength of the claims.
+    - **Interdisciplinary readership** The topic is of interest to computational biologists, cancer geneticists, and clinical oncologists. The use of a foundation model may also attract interest from the machine learning community. However, the manuscript is written in a way that is accessible to these groups, though the methods section is dense.
+    - **Technical soundness** The technical approach is generally sound in concept, but the execution and reporting have significant gaps. The lack of validation, the incomplete description of the statistical methods, and the potential for confounding are major concerns. The manuscript does not provide enough detail to fully assess the technical rigor.
+    - **Readability for nonspecialists** The abstract and introduction are well-written and accessible. The results and methods sections are more technical and may be challenging for nonspecialists. The figures, if provided, would likely help, but they were not available for review.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a potentially powerful approach, but the evidence as presented is insufficient to support the claims. The lack of validation of the core metric, the incomplete statistical reporting, and the potential for confounding are major issues that need to be addressed. I would be supportive of the manuscript if these technical concerns are resolved with additional analyses and clearer reporting.
 
 ## Risk / unsupported claims
-
-- The claim that recurrent hotspots show larger protein-level effects while non-hotspots show larger regulatory effects is not supported by quantitative data in the abstract.
-- The claim that disruption profiles reflect tissue of origin, cancer type, and microsatellite-instability status is not supported by any statistical measures in the abstract.
-- The claim that disruption profiles retain information beyond tumor mutational burden is not supported by any comparative analysis in the abstract.
-- The claim that higher predicted disruption is associated with overall survival is not supported by effect sizes, confidence intervals, or p-values in the abstract.
-- The claim that gene-level disruption is associated with survival within treatment-defined subgroups is not supported by any cohort details or statistical results in the abstract.
-- The overall conclusion that the findings support a continuous, multidimensional view of cancer gene perturbation is an interpretation that cannot be evaluated without the underlying data and analyses.
+- The claim that AlphaGenome disruption scores capture "cancer biology" is unsupported without direct validation against observed molecular data.
+- The claim that passenger-derived disruption is associated with overall survival is not fully supported due to incomplete reporting of the statistical model and potential confounding.
+- The claim that the full AlphaGenome model achieves near-perfect MSI classification is not fully supported without a detailed description of the cross-validation scheme and a demonstration that the result is not confounded by TMB.
+- The claim that gene-level disruption is associated with treatment-specific outcomes is exploratory and not robustly supported due to small sample sizes and lack of multiple testing correction.
+- The generalizability of the findings beyond the TCGA and POG570 cohorts is not established.

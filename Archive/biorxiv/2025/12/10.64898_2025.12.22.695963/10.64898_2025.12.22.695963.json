@@ -1,0 +1,448 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.22.695963",
+  "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
+  "doi": "10.64898/2025.12.22.695963",
+  "abstract": "Genomic prediction and design require models that integrate local sequence features with long-range regulatory dependencies spanning hundreds of kilobases to megabases. Existing approaches have made substantial progress along complementary axes: supervised sequence-to-function models achieve high accuracy for specific assays and organisms, self-supervised genomic foundation models learn transferable representations from large-scale sequence data, and conditional generative models enable principled sequence design guided by functional objectives. However, these strengths are typically realized in isolation - across distinct model classes, architectures, and training regimes - limiting the ability to combine long-context, base-resolution prediction, functional modeling, and controllable generation within a single efficient framework that generalizes across organisms and modalities. Here we introduce Nucleotide Transformer v3 (NTv3), a multi-species foundation model that unifies representation learning, functional-track and genome-annotation prediction, and controllable sequence generation within a common backbone. NTv3 uses a U-Net-like architecture to enable single-base tokenization and efficient modeling of contexts up to 1 Mb. We pre-train NTv3 on 9 trillion base pairs from OpenGenome2 using base-resolution masked language modeling, followed by post-training with a joint objective that integrates continued self-supervision with supervised learning on 16,000 functional tracks and annotation labels from 24 animal and plant species. After post-training, NTv3 achieves state-of-the-art accuracy for functional-track prediction and genome annotation across species, outperforming leading sequence-to-function and foundation-model baselines on established benchmarks and on the new NTv3 benchmark, a controlled downstream fine-tuning suite in a standardized 32 kb input / base-resolution output setting. We further show that NTv3 consolidates a shared regulatory grammar across tasks, enabling coherent long-range genome-to-function inference and variant-associated remodeling. Finally, we fine-tune NTv3 into a controllable generative model via masked diffusion language modeling and use it to design enhancer sequences with specified activity levels and promoter selectivity. We validate these designs experimentally, showing that generated enhancers recapitulate the intended activity stratification and achieve the desired promoter-specific activation in cellulo. We release the NTv3 model family together with code and practical cookbooks for long-context training, multispecies post-training, fine-tuning, interpretation, and sequence design.",
+  "authors": [
+    "Boshar S",
+    "Evans B",
+    "Tang Z",
+    "Picard A",
+    "Adel Y",
+    "Lorbeer FK",
+    "Rajesh C",
+    "Karch T",
+    "Sidbon S",
+    "Emms D",
+    "Mendoza-Revilla J",
+    "Al-Ani F",
+    "Seitz E",
+    "Schiff Y",
+    "Bornachot Y",
+    "Hernandez A",
+    "Lopez M",
+    "Laterre A",
+    "Beguir K",
+    "Koo P",
+    "Kuleshov V",
+    "Stark A",
+    "de Almeida BP",
+    "Pierrot T"
+  ],
+  "published_date": "2025-12-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230501",
+    "raw_record": {
+      "id": "PPR1230501",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1230501"
+        ]
+      },
+      "doi": "10.64898/2025.12.22.695963",
+      "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
+      "authorString": "Boshar S, Evans B, Tang Z, Picard A, Adel Y, Lorbeer FK, Rajesh C, Karch T, Sidbon S, Emms D, Mendoza-Revilla J, Al-Ani F, Seitz E, Schiff Y, Bornachot Y, Hernandez A, Lopez M, Laterre A, Beguir K, Koo P, Kuleshov V, Stark A, de Almeida BP, Pierrot T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Boshar S",
+            "lastName": "Boshar",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evans B",
+            "lastName": "Evans",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tang Z",
+            "lastName": "Tang",
+            "firstName": "Ziqi",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Picard A",
+            "lastName": "Picard",
+            "firstName": "Armand",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adel Y",
+            "lastName": "Adel",
+            "firstName": "Yanis",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lorbeer FK",
+            "lastName": "Lorbeer",
+            "firstName": "Franziska",
+            "initials": "FK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute of Molecular Pathology (IMP), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rajesh C",
+            "lastName": "Rajesh",
+            "firstName": "Chandana",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karch T",
+            "lastName": "Karch",
+            "firstName": "Tristan",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sidbon S",
+            "lastName": "Sidbon",
+            "firstName": "Shawn",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Emms D",
+            "lastName": "Emms",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mendoza-Revilla J",
+            "lastName": "Mendoza-Revilla",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Al-Ani F",
+            "lastName": "Al-Ani",
+            "firstName": "Fatimah",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seitz E",
+            "lastName": "Seitz",
+            "firstName": "Evan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schiff Y",
+            "lastName": "Schiff",
+            "firstName": "Yair",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bornachot Y",
+            "lastName": "Bornachot",
+            "firstName": "Yohan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hernandez A",
+            "lastName": "Hernandez",
+            "firstName": "Ariana",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lopez M",
+            "lastName": "Lopez",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laterre A",
+            "lastName": "Laterre",
+            "firstName": "Alexandre",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beguir K",
+            "lastName": "Beguir",
+            "firstName": "Karim",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koo P",
+            "lastName": "Koo",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuleshov V",
+            "lastName": "Kuleshov",
+            "firstName": "Volodymyr",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stark A",
+            "lastName": "Stark",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute of Molecular Pathology (IMP), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Almeida BP",
+            "lastName": "de Almeida",
+            "firstName": "Bernardo",
+            "initials": "BP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pierrot T",
+            "lastName": "Pierrot",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "InstaDeep, London, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Genomic prediction and design require models that integrate local sequence features with long-range regulatory dependencies spanning hundreds of kilobases to megabases. Existing approaches have made substantial progress along complementary axes: supervised sequence-to-function models achieve high accuracy for specific assays and organisms, self-supervised genomic foundation models learn transferable representations from large-scale sequence data, and conditional generative models enable principled sequence design guided by functional objectives. However, these strengths are typically realized in isolation - across distinct model classes, architectures, and training regimes - limiting the ability to combine long-context, base-resolution prediction, functional modeling, and controllable generation within a single efficient framework that generalizes across organisms and modalities. Here we introduce Nucleotide Transformer v3 (NTv3), a multi-species foundation model that unifies representation learning, functional-track and genome-annotation prediction, and controllable sequence generation within a common backbone. NTv3 uses a U-Net-like architecture to enable single-base tokenization and efficient modeling of contexts up to 1 Mb. We pre-train NTv3 on 9 trillion base pairs from OpenGenome2 using base-resolution masked language modeling, followed by post-training with a joint objective that integrates continued self-supervision with supervised learning on 16,000 functional tracks and annotation labels from 24 animal and plant species. After post-training, NTv3 achieves state-of-the-art accuracy for functional-track prediction and genome annotation across species, outperforming leading sequence-to-function and foundation-model baselines on established benchmarks and on the new NTv3 benchmark, a controlled downstream fine-tuning suite in a standardized 32 kb input / base-resolution output setting. We further show that NTv3 consolidates a shared regulatory grammar across tasks, enabling coherent long-range genome-to-function inference and variant-associated remodeling. Finally, we fine-tune NTv3 into a controllable generative model via masked diffusion language modeling and use it to design enhancer sequences with specified activity levels and promoter selectivity. We validate these designs experimentally, showing that generated enhancers recapitulate the intended activity stratification and achieve the desired promoter-specific activation in cellulo. We release the NTv3 model family together with code and practical cookbooks for long-context training, multispecies post-training, fine-tuning, interpretation, and sequence design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.22.695963"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1230501"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1230501&type=FILE&fileName=EMS214665-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 13,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214665",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-25",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

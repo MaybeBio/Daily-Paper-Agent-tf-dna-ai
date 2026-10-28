@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "41274426",
+    "doi": "10.1016/j.biotechadv.2025.108765",
+    "title": "Advances in transcription factor-based biosensors for natural product biosynthesis: Optimization, emerging technologies, and future prospects."
+  },
+  "content": {
+    "abstract": "Natural products (NPs) are increasingly applied in food, medicine, and biotechnology. However, their biosynthesis remains constrained by low titers and yields. Transcription factor-based biosensors (TFBs) can convert biological signals into measurable outputs, enabling real-time monitoring and dynamic regulation of biosynthetic pathways, thereby facilitating the overcoming of these limitations. This review highlights recent advances in applying TFBs to NP production, with a focus on high-throughput screening, adaptive evolution, and dynamic control. We further discuss innovative engineering approaches aimed at optimizing TFB performance, including in silico TF identification, protein engineering, and fine-tuning of regulatory elements. Finally, we examine the challenges associated with using TFBs for microbial NP production and explore their potential in emerging platforms such as cell-free systems and non-model microorganisms. These insights offer valuable perspectives on overcoming the current limitations of biosensing technologies and advancing the scalable production of NPs.",
+    "keywords": [
+      "Artificial intelligence",
+      "Metabolic engineering",
+      "Natural product biosynthesis",
+      "Transcription factor-based biosensor"
+    ],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "*Biological Products/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "Biotechnology",
+      "Protein Engineering"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaohan",
+        "Wu, Xinping",
+        "Chen, Hui",
+        "Shao, Qingsong",
+        "Ma, Zheng",
+        "Wu, Yefei",
+        "Wu, Shengliang",
+        "Yin, Lianghong",
+        "Ding, Nana"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Wu X",
+        "Chen H",
+        "Shao Q",
+        "Ma Z",
+        "Wu Y",
+        "Wu S",
+        "Yin L",
+        "Ding N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China.",
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China.",
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China.",
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China.",
+        "Zhejiang Provincial Key Laboratory of Biometrology and Inspection & Quarantine, College of Life Sciences, China Jiliang University, Hangzhou 311300, China.",
+        "Zhejiang Qianjiang Biochemical Co., Ltd., Haining 314400, Zhejiang, China.",
+        "Mianyang Shengshi Health Technology Co., Ltd, Mianyang 621000, Sichuang, China.",
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China. Electronic address: ylh4@163.com.",
+        "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China. Electronic address: dingnana911128@zafu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaohan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xinping",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hui",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Qingsong",
+        "short_name": "Shao Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zheng",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Biometrology and Inspection & Quarantine, College of Life Sciences, China Jiliang University, Hangzhou 311300, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yefei",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Qianjiang Biochemical Co., Ltd., Haining 314400, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shengliang",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Mianyang Shengshi Health Technology Co., Ltd, Mianyang 621000, Sichuang, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Lianghong",
+        "short_name": "Yin L",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China. Electronic address: ylh4@163.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Nana",
+        "short_name": "Ding N",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory for Development and Utilization of Forest Food Resources, Zhejiang A&F University, Hangzhou 311300, China; College of Food and Health, Zhejiang A&F University, Hangzhou 311300, China. Electronic address: dingnana911128@zafu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biotechnology advances"
+    ],
+    "journal_abbrev": [
+      "Biotechnol Adv"
+    ],
+    "pub_date": "2026 Mar-Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/23 00:58",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42185913",
+      "41961299"
+    ],
+    "refs": [],
+    "similar": [
+      "41274426",
+      "40277535",
+      "26521244",
+      "39392681",
+      "33493842",
+      "33899477",
+      "35872379",
+      "33783157",
+      "40170310",
+      "32359951",
+      "41260031",
+      "41512477",
+      "22432617",
+      "38508427",
+      "37185503",
+      "37449325",
+      "31335131",
+      "41161646",
+      "39107094",
+      "35158314",
+      "38547587",
+      "39709556",
+      "39693803",
+      "30825845",
+      "40776718",
+      "27837353",
+      "35921946",
+      "31778177",
+      "37366998",
+      "39124917",
+      "39374798",
+      "18992815",
+      "31954530",
+      "37918525",
+      "32054338",
+      "34347108",
+      "40537580",
+      "35231771",
+      "26994377",
+      "32567619",
+      "24480185",
+      "31433622",
+      "29485214",
+      "36502964",
+      "30921678",
+      "28410609",
+      "34637919",
+      "39552440",
+      "32029285",
+      "30316556",
+      "26142692",
+      "35158313",
+      "41325826",
+      "38953393",
+      "41175281",
+      "27744683",
+      "39451669",
+      "35884273",
+      "41441922",
+      "38875315",
+      "34615431",
+      "40843963",
+      "40650823",
+      "31134799",
+      "23656325",
+      "41376893",
+      "21063700",
+      "35700119",
+      "40967915",
+      "32693016",
+      "28763198",
+      "27997130",
+      "41406611",
+      "37495181",
+      "37053505",
+      "40090897",
+      "38634289",
+      "32756393",
+      "41075721",
+      "31268296",
+      "29688705",
+      "34137436",
+      "31073570",
+      "32267085",
+      "31749778",
+      "39961549",
+      "21664818",
+      "39908944",
+      "32140463",
+      "35727451",
+      "31935067",
+      "33373616",
+      "28013086",
+      "40710065",
+      "37401605",
+      "39740715",
+      "27642864",
+      "40899422",
+      "41604839",
+      "33614618"
+    ],
+    "review": [
+      "41274426",
+      "40277535",
+      "26521244",
+      "39392681",
+      "33493842",
+      "33899477",
+      "35872379",
+      "33783157",
+      "40170310",
+      "32359951",
+      "41260031",
+      "22432617",
+      "38508427",
+      "37185503",
+      "37449325",
+      "41161646",
+      "39107094",
+      "35158314",
+      "38547587",
+      "39709556",
+      "39693803",
+      "30825845",
+      "27837353",
+      "31778177",
+      "37366998",
+      "39124917",
+      "39374798",
+      "18992815",
+      "31954530",
+      "37918525",
+      "32054338",
+      "34347108",
+      "40537580",
+      "35231771",
+      "26994377",
+      "32567619",
+      "24480185",
+      "29485214",
+      "36502964",
+      "30921678",
+      "28410609",
+      "34637919",
+      "39552440",
+      "32029285",
+      "30316556",
+      "26142692",
+      "35158313",
+      "41325826",
+      "38953393",
+      "41175281",
+      "35884273",
+      "41441922",
+      "34615431",
+      "40843963",
+      "40650823",
+      "41376893",
+      "21063700",
+      "40967915",
+      "32693016",
+      "41406611",
+      "37495181",
+      "40090897",
+      "32756393",
+      "41075721",
+      "34137436",
+      "31073570",
+      "32267085",
+      "31749778",
+      "39961549",
+      "21664818",
+      "39908944",
+      "32140463",
+      "33373616",
+      "28013086",
+      "40710065",
+      "37401605",
+      "39740715",
+      "40899422",
+      "41604839",
+      "33614618"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0734-9750(25)00251-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

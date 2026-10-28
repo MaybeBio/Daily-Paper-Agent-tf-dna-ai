@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "41687774",
+    "doi": "10.1016/j.jare.2026.02.014",
+    "title": "eccDNA2Ca: an ensemble deep learning framework for interpretable prediction of cancer-associated extrachromosomal circular DNA."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Extrachromosomal circular DNA (eccDNA) is increasingly recognized as a critical driver of oncogene amplification, therapeutic resistance, and intratumoral heterogeneity in cancer. However, existing computational approaches predominantly focus on eccDNA detection and structural identification, without addressing their functional or clinical significance in oncogenesis. METHODS: We developed eccDNA2Ca, an interpretable ensemble learning framework that integrates extreme gradient boosting (XGBoost) with deep neural networks (CNN and LSTM) to predict cancer-associated eccDNAs directly from raw sequences. A manually curated dataset comprising 465 experimentally validated human eccDNAs across 16 cancer types was compiled from 21 studies. Models were trained using both engineered genomic features and deep sequence encodings. Interpretability was achieved through SHAP analysis and motif discovery. The final ensemble model was validated on external datasets and implemented as an open-source command-line tool. RESULTS: eccDNA2Ca demonstrated superior performance (AUC > 0.96, AUPR > 0.95) across cross-validation and independent test sets, outperforming conventional classifiers. Feature interpretation revealed the dominant contribution of repeat content and specific k-mer frequencies, while motif analysis identified enrichment of zinc finger transcription factor binding sites among cancer-specific eccDNAs. Pan-cancer validation using TCGA data showed strong associations between predicted eccDNAs and tumor mutational burden, immune infiltration, microsatellite instability, and patient survival. Importantly, the model demonstrated robust generalizability across tumor types and eccDNA size categories. CONCLUSIONS: eccDNA2Ca represents the first interpretable and publicly available computational framework specifically designed to prioritize cancer-relevant eccDNAs after experimental detection based on sequence features. By enabling scalable and biologically informed prioritization of eccDNAs, eccDNA2Ca provides a valuable resource for eccDNA functional studies, cancer biomarker discovery, and translational cancer genomics. Source code and datasets are freely available at: https://github.com/bread1006/eccDNA2Ca. An interactive web server implementing eccDNA2Ca is accessible at: http://43.138.143.50:5000/en.",
+    "keywords": [
+      "Cancer biomarkers",
+      "Ensemble prediction models",
+      "Extrachromosomal circular DNA (eccDNA)",
+      "Interpretable machine learning",
+      "Pan-cancer analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Lina",
+        "Wang, Mengxi",
+        "Zou, Lingyun"
+      ],
+      "short_names": [
+        "Zhou L",
+        "Wang M",
+        "Zou L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China.",
+        "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China.",
+        "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China. Electronic address: lingyun.zou@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Lina",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengxi",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Lingyun",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Data Research, Chongqing Emergency Medical Center, Chongqing University Central Hospital, Chongqing University, 400014 Chongqing, China; School of Medicine, Chongqing University, 400030 Chongqing, China. Electronic address: lingyun.zou@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Feb 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/14 05:30",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41687774",
+      "36757087",
+      "41654905",
+      "39587541",
+      "35030991",
+      "35474296",
+      "37930031",
+      "34479546",
+      "36826848",
+      "37114214",
+      "39875054",
+      "38212723",
+      "39850493",
+      "40641599",
+      "38664836",
+      "40971512",
+      "37088981",
+      "34734016",
+      "36452490",
+      "40428339",
+      "33867825",
+      "38506071",
+      "35388171",
+      "39859532",
+      "41542081",
+      "36459282",
+      "32440553",
+      "37649244",
+      "37241975",
+      "38903532",
+      "35464862",
+      "39614284",
+      "41077349",
+      "37299157",
+      "41569176",
+      "41154264",
+      "37705092",
+      "36198068",
+      "36967395",
+      "41408184",
+      "40516903",
+      "34112178",
+      "35083218",
+      "40565055",
+      "40521196",
+      "34124304",
+      "38048895",
+      "37018146",
+      "36184613",
+      "39209966",
+      "36226728",
+      "31882998",
+      "39157757",
+      "41273082",
+      "39534571",
+      "39355773",
+      "38753087",
+      "37859516",
+      "41449193",
+      "37705597",
+      "37846064",
+      "38409079",
+      "37369919",
+      "38746056",
+      "36769072",
+      "40672269",
+      "41379614",
+      "34992600",
+      "41303464",
+      "39920810",
+      "40165080",
+      "35872391",
+      "35494014",
+      "34792166",
+      "26038577",
+      "40323971",
+      "39113025",
+      "36103503",
+      "41460717",
+      "37987554",
+      "37640198",
+      "38017497",
+      "31393553",
+      "33072049",
+      "35194030",
+      "36246642",
+      "40753949",
+      "38260482",
+      "41086648",
+      "28887493",
+      "36707765",
+      "40934041",
+      "40303312",
+      "40362382",
+      "8041604",
+      "37233789",
+      "31245384",
+      "39707444",
+      "41573508",
+      "38574508"
+    ],
+    "review": [
+      "41687774",
+      "34479546",
+      "33867825",
+      "41077349",
+      "34112178",
+      "35083218",
+      "40521196",
+      "36184613",
+      "39209966",
+      "39534571",
+      "38746056",
+      "35872391",
+      "35494014",
+      "40934041",
+      "37233789"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(26)00146-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

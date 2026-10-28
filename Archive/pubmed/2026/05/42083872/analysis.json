@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42083872",
+  "title": "xBind: an integrated webserver for large language model-enabled cross-molecular protein binding site prediction.",
+  "authors": "Wang, Xinyu; Feng, Xingyue; Tarafder, Sumit; Bhattacharya, Debswapna",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-05-05",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍xBind网络服务器，利用ESM-2大语言模型嵌入和对称感知深度图神经网络预测蛋白-DNA等跨分子结合位点，核心聚焦蛋白质-DNA互作结合位点预测，方法为AI深度学习，与本课题高度匹配。",
+  "abstract": "xBind is an interactive, freely accessible, and fully configurable webserver for large language model (LLM)-enabled cross-molecular protein binding-site prediction. xBind leverages LLM embeddings from the ESM-2 model together with sequence- and structure-derived features to predict protein-protein, protein-DNA, and protein-RNA binding sites using symmetry-aware deep graph neural networks. The input to xBind is either a single-chain protein sequence in FASTA format or a monomer protein structure in PDB or mmCIF format and it outputs predicted residue-level binding sites of the input protein with its pre-selected interaction partner. The customizable xBind web interface provides: (i) choice of interaction partners including protein-protein, protein-DNA, and protein-RNA; (ii) on-the-fly AlphaFold-based protein structure prediction for sequence-only inputs; (iii) on-demand selection of the likelihood threshold for calibrating structure-aware binding site annotations; (iv) interactive and interpretable web-based results, including sequence and structural visualizations and plots of residue-level binding likelihoods with user-adjustable threshold calibration; and (v) extensive help information for usage and results interpretation through a web-based tutorial and guide. xBind is freely available at https://fusion.cs.vt.edu/xBind.",
+  "abstract_zh": "xBind是一个交互式、免费访问且完全可配置的网络服务器，用于基于大语言模型（LLM）的跨分子蛋白质结合位点预测。xBind利用来自ESM-2模型的LLM嵌入，结合序列和结构衍生的特征，使用对称感知的深度图神经网络预测蛋白质-蛋白质、蛋白质-DNA和蛋白质-RNA结合位点。xBind的输入是FASTA格式的单链蛋白质序列或PDB或mmCIF格式的单体蛋白质结构，其输出是输入蛋白质与其预选相互作用伙伴的预测残基水平结合位点。可定制的xBind网络界面提供：（i）相互作用伙伴的选择，包括蛋白质-蛋白质、蛋白质-DNA和蛋白质-RNA；（ii）基于AlphaFold的即时蛋白质结构预测，适用于仅序列输入；（iii）按需选择似然阈值，用于校准结构感知的结合位点注释；（iv）交互式和可解释的基于网络的结果，包括序列和结构可视化以及残基水平结合似然图，并带有用户可调整的阈值校准；以及（v）通过基于网络的教程和指南提供广泛的使用和结果解释帮助信息。xBind可在https://fusion.cs.vt.edu/xBind免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42083872/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42083872/",
+  "paper_page_path": "papers/pubmed/42083872/index.html"
+}

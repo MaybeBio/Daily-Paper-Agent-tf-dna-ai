@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.17.492381",
+  "title": "Attention-aware contrastive learning for predicting T cell receptor-antigen binding specificity",
+  "authors": "Yiming Fang; Xuejun Liu; Hui Liu",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-19",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用对比学习预测TCR-抗原结合特异性，对象为蛋白-肽-MHC互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅边缘相关。",
+  "abstract": "It has been verified that only a small fraction of the neoantigens presented by MHC class I molecules on the cell surface can elicit T cells. The limitation can be attributed to the binding specificity of T cell receptor (TCR) to peptide-MHC complex (pMHC). Computational prediction of T cell binding to neoantigens is an challenging and unresolved task. In this paper, we propose an attentive-mask contrastive learning model, ATMTCR, for inferring TCR-antigen binding specificity. For each input TCR sequence, we used Transformer encoder to transform it to latent representation, and then masked a proportion of residues guided by attention weights to generate its contrastive view. Pretraining on large-scale TCR CDR3 sequences, we verified that contrastive learning significantly improved the prediction performance of TCR binding to peptide-MHC complex (pMHC). Beyond the detection of important amino acids and their locations in the TCR sequence, our model can also extracted high-order semantic information underlying the TCR-antigen binding specificity. Comparison experiments were conducted on two independent datasets, our method achieved better performance than other existing algorithms. Moreover, we effectively identified important amino acids and their positional preferences through attention weights, which indicated the interpretability of our proposed model.",
+  "abstract_zh": "已有研究证实，细胞表面MHC I类分子呈递的新抗原中，仅有一小部分能够激发T细胞反应。这一局限性可归因于T细胞受体（TCR）与肽-MHC复合物（pMHC）结合的特异性。对T细胞与新抗原结合的计算预测是一项具有挑战性且尚未解决的任务。本文提出了一种基于注意力掩码的对比学习模型ATMTCR，用于推断TCR-抗原结合特异性。对于每条输入的TCR序列，我们使用Transformer编码器将其转换为潜在表示，然后根据注意力权重掩码一部分残基以生成其对比视图。在大规模TCR CDR3序列上进行预训练后，我们验证了对比学习显著提高了TCR与肽-MHC复合物（pMHC）结合预测的性能。除了检测TCR序列中重要氨基酸及其位置外，我们的模型还能提取TCR-抗原结合特异性背后的高阶语义信息。在两个独立数据集上进行了比较实验，我们的方法优于其他现有算法。此外，我们通过注意力权重有效识别了重要氨基酸及其位置偏好，这体现了所提出模型的可解释性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.17.492381",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.17.492381",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.17.492381/index.html"
+}

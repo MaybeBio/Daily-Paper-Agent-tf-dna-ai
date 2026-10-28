@@ -1,0 +1,5 @@
+# Bacterial RNA polymerase exemplifies a general physical mechanism for accelerating protein-DNA association
+
+
+## Significance Statement
+  Large enzymes that must associate with DNA to perform their biological functions are expected to bind DNA only slowly because of slow enzyme diffusion. However, some DNA-binding enzymes have one or more additional small DNA-binding domains that can diffuse rapidly but are attached to the enzyme through an unstructured flexible tether. Combining single-molecule experiments, theory, and computation, we present evidence for a general mechanism by which such tethered domains can accelerate enzyme binding to DNA by orders of magnitude, while not significantly changing the duration of the DNA-bound state. We demonstrate this effect for the flexibly-tethered α-subunit C-terminal domain of bacterial RNA polymerase. The mechanism may allow the polymerase to rapidly bind DNA while minimizing non-functional sequestration on the genome.

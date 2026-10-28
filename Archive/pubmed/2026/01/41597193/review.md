@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the authors. No figures, tables, or supplementary materials were available for inspection.
+- **Assessment boundary** The review is limited to the textual content supplied. Claims referring to figures, supplementary figures, and statistical analyses are assessed based on the descriptions provided in the text, not on the underlying data or images.
+- **Shared manuscript claim summary** The authors propose that BRD4 phosphorylation state regulates chromatin nanodomain (nucleosome clutch) structure and dynamics. They report that a constitutively phosphorylated BRD4 mutant (7D) colocalizes more strongly with nucleosomes, reduces nucleosome diffusion, and increases nucleosome clustering, while (+)-JQ1 treatment decondenses clutches and increases diffusion. A coarse-grained heteropolymer simulation is used to support a crosslinking mechanism.
+- **Visible evidence base** Text descriptions of experimental procedures and results for: colocalization analysis (Section 3.1), single-nucleosome tracking (Section 3.2), dSTORM super-resolution imaging (Section 3.2), and Brownian dynamics simulations (Section 3.3). Western blot validation is described (Section 3.1, Figure 1b). Statistical details are referenced but not fully reported.
+- **Missing materials affecting confidence** All figures and supplementary figures (S1–S3) are not provided. Numerical values for diffusion coefficients, clustering metrics, colocalization ratios, and statistical tests (p-values, effect sizes, error bars) are not reported in the text. Simulation parameters are partially described but no convergence or validation data are shown. The manuscript states "N = 2 biological replicates" for immunoblotting, which is insufficient for robust validation.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the interplay between BRD4 phosphorylation, phase separation, and chromatin nanodomain organization. The combination of live-cell imaging and simulation is a reasonable approach. However, the evidence as presented in the text is insufficient to fully support the central claims. Key quantitative data are missing, statistical rigor is not demonstrated, and the simulation model is oversimplified relative to the biological claims. The manuscript has potential but requires substantial revision and additional data before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, and nuclear organization would be interested. The work also speaks to the growing field of biomolecular condensates and their role in genome regulation. The potential link between BRD4 phosphorylation and chromatin compaction could have implications for understanding transcriptional control and diseases where BRD4 is dysregulated, such as cancer.
+- **Major strengths** The study combines experimental and computational approaches to address a mechanistically important question. The use of specific BRD4 mutants (7D, 7A, BD) to dissect phosphorylation and chromatin-binding contributions is a logical strategy. The focus on nanoscale chromatin structure (nucleosome clutches) is relevant and timely. The simulation component, while simplified, provides a conceptual framework for interpreting the experimental results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and statistical rigor
+  - **Claim pointer** The authors claim that "7D mutant showed the closest proximity to nucleosomes relative to wild type, followed by BD and 7A mutants" (Section 3.1) and that "a reduced diffusion coefficient was measured in cells expressing 7A, 7D, and BD mutants" (Section 3.2).
+  - **Evidence pointer** Section 3.1, Figure 1d; Section 3.2, Figure 2c; location not provided for numerical values.
+  - **Concern** The text reports qualitative differences ("closest proximity", "reduced diffusion") without providing any quantitative values, effect sizes, or statistical test results. No p-values, confidence intervals, or measures of variance are given. The number of cells analyzed (15–20 per group) is stated, but the number of tracks, the distribution of track lengths, and the statistical model used for comparison are not described. Without these data, the reader cannot assess the robustness or biological significance of the reported differences.
+  - **Why it matters** The central conclusions of the paper rest on these quantitative comparisons. If the differences are small or not statistically significant, the claims of phosphorylation-dependent regulation of chromatin structure would be unsupported. The lack of statistical detail prevents independent evaluation and is a fundamental barrier to establishing the case.
+  - **Resolution test** Provide a supplementary table with mean ± SD or SEM for all measured parameters (colocalization ratio, diffusion coefficient, clustering metric) for each condition, along with the statistical test used, the number of cells/tracks, and the resulting p-values. Show that the reported differences are significant after appropriate multiple-comparison correction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency and interpretation
+  - **Claim pointer** The authors state that "HeLa cells exposed to (+)-JQ1 in DMSO for 8 h showed an increase in nucleosome dynamics" (Section 3.2) and "a reduction in nucleosome clustering" (Section 3.2, Figure 3f), while the 7D mutant (constitutively phosphorylated, expected to bind chromatin more strongly) shows reduced diffusion and increased clustering.
+  - **Evidence pointer** Section 3.2, Figures 2d and 3f; Section 3.1, Figure 1d.
+  - **Concern** The logic connecting these observations is not fully articulated. (+)-JQ1 displaces BRD4 from chromatin, which should reduce crosslinking and increase diffusion, consistent with the reported data. However, the 7D mutant, which binds more strongly, shows reduced diffusion and increased clustering, which is also consistent. The authors do not explain how these two opposing manipulations (loss of binding vs. enhanced binding) both lead to changes in the same direction for some parameters (e.g., both affect diffusion, but in opposite directions). The interpretation that "both chromatin binding and phase separation of BRD4 could co-regulate" is vague and not directly tested. The authors do not distinguish between the effects of BRD4 binding per se and the effects of BRD4 phase separation on the chromatin environment.
+  - **Why it matters** The manuscript aims to dissect the roles of binding and phase separation. Without a clear model that predicts distinct outcomes for each manipulation, the experimental results cannot be interpreted mechanistically. The current text conflates these two processes and does not provide a testable framework.
+  - **Resolution test** Clearly state a mechanistic model that predicts how (a) enhanced binding (7D), (b) reduced binding (BD, JQ1), and (c) altered phase separation propensity (7A) should each affect nucleosome diffusion and clustering. Show that the experimental data are consistent with this model, or revise the model to fit the data without post-hoc reasoning.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity and relevance
+  - **Claim pointer** The authors state that "we found that increased chromatin binding of C-type beads promotes a more compact chromatin polymer where individual beads diffuse more slowly due to crosslinking" (Section 3.3).
+  - **Evidence pointer** Section 3.3, Figure 4e; location not provided for simulation details.
+  - **Concern** The simulation model is extremely simplified. The polymer is a generic bead-spring chain with 200 beads, and the "acetylated" beads are randomly assigned with a Bernoulli probability of 0.3. The C-type beads represent BRD4-like binders, but the model does not include any representation of phosphorylation state, phase separation, or the specific multivalent interactions that are the focus of the paper. The simulation demonstrates a trivial result: crosslinking a polymer reduces its diffusion. This does not provide mechanistic insight into the specific role of BRD4 phosphorylation. The connection between the simulation parameters and the biological system is not established.
+  - **Why it matters** The simulation is presented as a key component of the study ("To interpret our experimental findings"). If the model does not capture the essential biology, it cannot be used to support the conclusions. The current model is too generic to distinguish between different mechanisms (e.g., crosslinking vs. phase separation vs. altered chromatin flexibility).
+  - **Resolution test** Either (a) extend the model to include phosphorylation-dependent binding affinities and phase separation behavior, and show that the model recapitulates the experimental differences between 7D, 7A, and BD mutants, or (b) reframe the simulation as a proof-of-principle that crosslinking reduces polymer mobility, and clearly state its limitations in the text.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors describe the use of "Besag's L-function" (Section 2.4) and "TrackPy Python software" (Section 2.3) for analysis.
+  - **Evidence pointer** Sections 2.3 and 2.4; location not provided for analysis parameters.
+  - **Concern** The text does not provide sufficient detail to reproduce the analyses. For the L-function, the radius range, the edge correction method, and the number of permutations for significance testing are not stated. For single-molecule tracking, the localization precision, the tracking parameters (e.g., maximum displacement between frames), and the criteria for accepting tracks (e.g., minimum track length) are not described. The manuscript states that "trajectories lasting less than 80 frames were removed" but does not justify this threshold.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without these details, other laboratories cannot replicate the experiments or analyses, and the reliability of the results cannot be independently verified.
+  - **Resolution test** Add a detailed analysis section or supplementary methods describing all parameters, algorithms, and software versions. Provide the analysis code as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.2, plasmid purification
+  - **Evidence pointer** Section 2.2
+  - **Issue** The sentence "Plasmids were transformed in E. coli at 4 °C" is likely a typographical error. Transformation is typically performed at higher temperatures (e.g., 42 °C for heat shock). The text should be corrected.
+  - **Required correction** Change to "Plasmids were transformed into E. coli" and specify the correct transformation protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1, colocalization analysis
+  - **Evidence pointer** Section 3.1, Figure 1d
+  - **Issue** The text states "obvious colocalization" and "closest proximity" without defining what constitutes "obvious" or "closest". The use of subjective language in a scientific context is not appropriate.
+  - **Required correction** Replace subjective descriptors with quantitative measures (e.g., mean nearest-neighbor distance ± SD) and statistical comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Section 2.1, cell culture
+  - **Evidence pointer** Section 2.1
+  - **Issue** The text states that cells were "tested routinely for mycoplasma contamination" but does not specify the testing method.
+  - **Required correction** Specify the mycoplasma detection method (e.g., PCR-based kit, Hoechst staining).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation results
+  - **Affected element** Section 3.3, simulation
+  - **Evidence pointer** Section 3.3, Figure 4e
+  - **Issue** The text states "quasi-linear scaling of D with respect to temperature" but does not discuss the physical meaning of this observation or its relevance to the biological system.
+  - **Required correction** Add a brief discussion of the temperature dependence and its potential biological relevance, or remove the statement if it is not central to the conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites references [1,2] for chromatin dynamics and compartmentalization, but the specific claims supported by these references are not clearly stated.
+  - **Required correction** Clarify which statements are supported by which references, and ensure all claims are properly cited.
+
+## Risk / unsupported claims
+- The claim that "7D mutant showed the closest proximity to nucleosomes relative to wild type, followed by BD and 7A mutants" is unsupported without quantitative data and statistical analysis.
+- The claim that "a reduced diffusion coefficient was measured in cells expressing 7A, 7D, and BD mutants" is unsupported without reported values and statistical tests.
+- The claim that "increased chromatin binding of C-type beads promotes a more compact chromatin polymer" is a trivial result of the simulation and does not directly support the biological conclusions about BRD4 phosphorylation.
+- The claim that "both chromatin binding and phase separation of BRD4 could co-regulate the nanoscale chromatin architecture" is a hypothesis that is not directly tested by the experiments presented.
+- The claim that "treatment with (+)-JQ1 increases the diffusion dynamics of single nucleosomes and decondenses nucleosome clutches" is not supported by quantitative data in the text.
+- The claim that "BRD4 mutations can alter localization of BRD4 to chromatin" is not supported by quantitative colocalization data.
+- The simulation results are not validated against experimental data, and the model parameters are not justified in the context of the biological system.
+
+## Assessment against Nature-style criteria
+- **Originality** The question of how BRD4 phosphorylation links phase separation and chromatin nanodomain structure is of interest, but the concept that multivalent crosslinking can compact chromatin is not novel. The specific application to BRD4 phosphorylation is a reasonable extension of existing work. The originality is moderate.
+- **Scientific importance** If the claims were fully supported, the work would be of importance to the chromatin and condensate fields. However, the current evidence is insufficient to establish the central conclusions, limiting the current importance.
+- **Interdisciplinary readership** The topic bridges chromatin biology, biophysics, and computational modeling, which could appeal to a broad readership. However, the lack of quantitative detail and the simplified simulation may limit interest from more quantitative or biophysical audiences.
+- **Technical soundness** The experimental methods are described but lack critical quantitative and statistical details. The simulation is technically sound as a simple polymer model but is not sufficiently connected to the biology. The technical soundness is currently not established.
+- **Readability for nonspecialists** The manuscript is generally readable, but the methods and results sections assume familiarity with advanced imaging and simulation techniques. The abstract is clear, but the main text could benefit from more explicit explanations of the significance of the findings.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript addresses a relevant question and has a logical experimental design, but the lack of quantitative data, statistical rigor, and a biologically meaningful simulation model prevent the conclusions from being supported. Major revisions and additional data are required before the case can be made.

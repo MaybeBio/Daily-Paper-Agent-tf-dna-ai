@@ -1,0 +1,336 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.15.571887",
+  "title": "Benchmarking DNA binding affinity models using allele-specific transcription factor binding data",
+  "doi": "10.1101/2023.12.15.571887",
+  "abstract": "Transcription factors (TFs) bind to DNA in a highly sequence-specific manner. This specificity can manifest itself in vivo at heterozygous loci as a difference in TF occupancy between the two alleles. When applied on a genomic scale, functional genomic assays such as ChIP-seq typically lack the statistical power to detect allele-specific binding (ASB) at the level of individual variants. To address this, we propose a framework for benchmarking sequence-to-affinity models for TF binding in terms of their ability to predict allelic imbalances in ChIP-seq counts. We show that a likelihood function based on an over-dispersed binomial distribution can aggregate evidence for allelic preference across the genome without requiring statistical significance for individual variants. This allows us to systematically compare predictive performance when multiple binding models for the same TF are available. We introduce PyProBound, an easily extensible reimplementation of the ProBound biophysically interpretable machine learning framework. Configuring PyProBound to explicitly account for a confounding sequence-specific bias in DNA fragmentation rate yields improved TF binding models when training on ChIP-seq data. We also show how our likelihood function can be leveraged to perform de novo motif discovery on the raw allele-aware ChIP-seq counts.",
+  "authors": [
+    "Xiaoting Li",
+    "Lucas A. N. Melo",
+    "Harmen J. Bussemaker"
+  ],
+  "published_date": "2023-12-15",
+  "updated_date": "2023-12-16T03:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.15.571887",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.15.571887.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:03:03Z",
+        "timestamp": 1768507383378,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 26,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Transcription factors (TFs) bind to DNA in a highly sequence-specific manner. This specificity can manifest itself\n                  <jats:italic>in vivo</jats:italic>\n                  at heterozygous loci as a difference in TF occupancy between the two alleles. When applied on a genomic scale, functional genomic assays such as ChIP-seq typically lack the statistical power to detect allele-specific binding (ASB) at the level of individual variants. To address this, we propose a framework for benchmarking sequence-to-affinity models for TF binding in terms of their ability to predict allelic imbalances in ChIP-seq counts. We show that a likelihood function based on an over-dispersed binomial distribution can aggregate evidence for allelic preference across the genome without requiring statistical significance for individual variants. This allows us to systematically compare predictive performance when multiple binding models for the same TF are available. We introduce PyProBound, an easily extensible reimplementation of the ProBound biophysically interpretable machine learning framework. Configuring PyProBound to explicitly account for a confounding sequence-specific bias in DNA fragmentation rate yields improved TF binding models when training on ChIP-seq data. We also show how our likelihood function can be leveraged to perform\n                  <jats:italic>de novo</jats:italic>\n                  motif discovery on the raw allele-aware ChIP-seq counts.\n                </jats:p>",
+      "DOI": "10.1101/2023.12.15.571887",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            16
+          ]
+        ],
+        "date-time": "2023-12-16T03:55:13Z",
+        "timestamp": 1702698913000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Benchmarking DNA binding affinity models using allele-specific transcription factor binding data"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4938-7587",
+          "authenticated-orcid": false,
+          "given": "Xiaoting",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7563-7554",
+          "authenticated-orcid": false,
+          "given": "Lucas A. N.",
+          "family": "Melo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7274-5277",
+          "authenticated-orcid": false,
+          "given": "Harmen J.",
+          "family": "Bussemaker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.012"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1184655"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "11101",
+          "DOI": "10.1038/ncomms11101",
+          "article-title": "A uniform survey of allele-specific binding and expression over 1000-Genomes-Project individuals",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-016-1654-x"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23007-0"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1242463"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.131201.111"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-61779-292-2_3"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1062"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4143"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-05265-7"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09982-5"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1520",
+          "DOI": "10.1038/s41587-022-01307-0",
+          "article-title": "Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa516"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1714376115"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0185056"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.24",
+          "unstructured": "Bushnell B : BBMap: A Fast, Accurate, Splice-Aware Aligner. 2014."
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2023121909551358000_2023.12.15.571887v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl223"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.15.571887",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:40:27Z",
+        "timestamp": 1768455627000
+      },
+      "score": 189.46791,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.15.571887"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      },
+      "references-count": 26,
+      "URL": "https://doi.org/10.1101/2023.12.15.571887",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13059-024-03424-2",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

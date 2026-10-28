@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "36553500",
+    "doi": "10.3390/genes13122233",
+    "title": "Bioinformatics Prediction and Machine Learning on Gene Expression Data Identifies Novel Gene Candidates in Gastric Cancer."
+  },
+  "content": {
+    "abstract": "Gastric cancer (GC) is one of the five most common cancers in the world and unfortunately has a high mortality rate. To date, the pathogenesis and disease genes of GC are unclear, so the need for new diagnostic and prognostic strategies for GC is undeniable. Despite particular findings in this regard, a holistic approach encompassing molecular data from different biological levels for GC has been lacking. To translate Big Data into system-level biomarkers, in this study, we integrated three different GC gene expression data with three different biological networks for the first time and captured biologically significant (i.e., reporter) transcripts, hub proteins, transcription factors, and receptor molecules of GC. We analyzed the revealed biomolecules with independent RNA-seq data for their diagnostic and prognostic capabilities. While this holistic approach uncovered biomolecules already associated with GC, it also revealed novel system biomarker candidates for GC. Classification performances of novel candidate biomarkers with machine learning approaches were investigated. With this study, AES, CEBPZ, GRK6, HPGDS, SKIL, and SP3 were identified for the first time as diagnostic and/or prognostic biomarker candidates for GC. Consequently, we have provided valuable data for further experimental and clinical efforts that may be useful for the diagnosis and/or prognosis of GC.",
+    "keywords": [
+      "diagnostic genes",
+      "disease genes",
+      "gastric cancer",
+      "multi-omics",
+      "prognostic genes",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/diagnosis/genetics/metabolism",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Prognosis",
+      "Computational Biology",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kori, Medi",
+        "Gov, Esra"
+      ],
+      "short_names": [
+        "Kori M",
+        "Gov E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4589-930X",
+        "ORCID: 0000-0002-5256-4778"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Marmara University, Istanbul 34854, Turkey.",
+        "Department of Bioengineering, Adana Alparslan Turkes Science and Technology University, Adana 01250, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kori, Medi",
+        "short_name": "Kori M",
+        "identifiers": [
+          "0000-0002-4589-930X"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Marmara University, Istanbul 34854, Turkey."
+        ]
+      },
+      {
+        "full_name": "Gov, Esra",
+        "short_name": "Gov E",
+        "identifiers": [
+          "0000-0002-5256-4778"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Adana Alparslan Türkeş Science and Technology University, Adana 01250, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Nov 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "41425723",
+      "41296246",
+      "41136472",
+      "39730379",
+      "39371614",
+      "38523808",
+      "37859510",
+      "37711014"
+    ],
+    "refs": [
+      "36324576",
+      "35885590",
+      "35845310",
+      "35770086",
+      "35763314",
+      "35497064",
+      "35470819",
+      "35447046",
+      "35111675",
+      "34910889",
+      "34800440",
+      "34135208",
+      "33600497",
+      "33538338",
+      "33290554",
+      "33163273",
+      "33068428",
+      "32441533",
+      "32013628",
+      "31579418",
+      "31495054",
+      "31486976",
+      "31386635",
+      "31038390",
+      "30658502",
+      "30476227",
+      "30293088",
+      "30192205",
+      "30127402",
+      "30065754",
+      "30020984",
+      "29790900",
+      "29552218",
+      "29511593",
+      "29113266",
+      "29087512",
+      "28790411",
+      "28638462",
+      "28631555",
+      "28392405",
+      "28178391",
+      "28042954",
+      "28035468",
+      "27924018",
+      "27899662",
+      "27601164",
+      "27561171",
+      "27341345",
+      "26472028",
+      "26352013",
+      "25691825",
+      "25633503",
+      "25605792",
+      "25521941",
+      "23764425",
+      "23666239",
+      "23510199",
+      "23497290",
+      "23375037",
+      "23326307",
+      "23193258",
+      "23143270",
+      "22573175",
+      "21149340",
+      "21132402",
+      "21106240",
+      "20925119",
+      "20810260",
+      "20736804",
+      "20699661",
+      "20508647",
+      "19131956",
+      "19114989",
+      "18612694",
+      "16452188",
+      "15865607",
+      "15710883",
+      "15608231",
+      "14960456",
+      "12538238",
+      "12006103"
+    ],
+    "similar": [
+      "36553500",
+      "37229622",
+      "38892067",
+      "31894266",
+      "38622522",
+      "34899080",
+      "30975489",
+      "34686186",
+      "34751593",
+      "33437215",
+      "32754268",
+      "33495829",
+      "34603561",
+      "34910889",
+      "34338150",
+      "33582701",
+      "33148208",
+      "33851708",
+      "31934786",
+      "33724652",
+      "34864309",
+      "32172630",
+      "33902514",
+      "22735568",
+      "35212295",
+      "34968391",
+      "33381592",
+      "32401038",
+      "24982912",
+      "30805585",
+      "31233188",
+      "34232196",
+      "33780362",
+      "31081222",
+      "34506251",
+      "29568201",
+      "33217815",
+      "38351697",
+      "34868341",
+      "31566139",
+      "30217218",
+      "32407843",
+      "30133128",
+      "34163003",
+      "33877891",
+      "31432324",
+      "32319600",
+      "27460075",
+      "28447336",
+      "32170105",
+      "25743799",
+      "34624593",
+      "26872374",
+      "35225482",
+      "30746617",
+      "34880371",
+      "29764446",
+      "31362888",
+      "22532451",
+      "32615958",
+      "29486794",
+      "33542925",
+      "27806312",
+      "35723196",
+      "34413861",
+      "32590738",
+      "33754626",
+      "32745141",
+      "34868391",
+      "32219571",
+      "31638362",
+      "26494954",
+      "26774144",
+      "36400805",
+      "33163123",
+      "32078236",
+      "26552644",
+      "33470887",
+      "31135068",
+      "34424459",
+      "31235999",
+      "30948703",
+      "28401451",
+      "30866865",
+      "31633246",
+      "30732916",
+      "35319404",
+      "32551946",
+      "30767193",
+      "30628643",
+      "27651161",
+      "30106150",
+      "29665316",
+      "27322246",
+      "36159818",
+      "23248184",
+      "32859629",
+      "31281803",
+      "35485356",
+      "34126961",
+      "36383109",
+      "34322132",
+      "37861003",
+      "38447684",
+      "38395893"
+    ],
+    "review": [
+      "36553500",
+      "38892067",
+      "22735568",
+      "38351697",
+      "30133128",
+      "28447336",
+      "34624593",
+      "29764446",
+      "26494954",
+      "32078236",
+      "28401451",
+      "35319404",
+      "27322246",
+      "23248184"
+    ],
+    "pmc": [
+      "9778573"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13122233",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36553500/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36553500",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

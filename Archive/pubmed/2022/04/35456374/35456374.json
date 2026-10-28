@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "35456374",
+    "doi": "10.3390/genes13040568",
+    "title": "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model."
+  },
+  "content": {
+    "abstract": "A large number of inorganic and organic compounds are able to bind DNA and form complexes, among which drug-related molecules are important. Chromatin accessibility changes not only directly affect drug-DNA interactions, but they can promote or inhibit the expression of the critical genes associated with drug resistance by affecting the DNA binding capacity of TFs and transcriptional regulators. However, the biological experimental techniques for measuring it are expensive and time-consuming. In recent years, several kinds of computational methods have been proposed to identify accessible regions of the genome. Existing computational models mostly ignore the contextual information provided by the bases in gene sequences. To address these issues, we proposed a new solution called SemanticCAP. It introduces a gene language model that models the context of gene sequences and is thus able to provide an effective representation of a certain site in a gene sequence. Basically, we merged the features provided by the gene language model into our chromatin accessibility model. During the process, we designed methods called SFA and SFC to make feature fusion smoother. Compared to DeepSEA, gkm-SVM, and k-mer using public benchmarks, our model proved to have better performance, showing a 1.25% maximum improvement in auROC and a 2.41% maximum improvement in auPRC.",
+    "keywords": [
+      "chromatin accessibility",
+      "drug design",
+      "feature fusion",
+      "language model",
+      "transformer"
+    ],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "Chromatin Immunoprecipitation",
+      "DNA/genetics",
+      "*Language",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yikang",
+        "Chu, Xiaomin",
+        "Jiang, Yelu",
+        "Wu, Hongjie",
+        "Quan, Lijun"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Chu X",
+        "Jiang Y",
+        "Wu H",
+        "Quan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4551-4198"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+        "Jiangsu Province Key Lab for Information Processing Technologies, Soochow University, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+        "Jiangsu Province Key Lab for Information Processing Technologies, Soochow University, Suzhou 215006, China.",
+        "Collaborative Innovation Center of Novel Software Technology and Industrialization, Nanjing 210000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yikang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+          "Jiangsu Province Key Lab for Information Processing Technologies, Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xiaomin",
+        "short_name": "Chu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yelu",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Lijun",
+        "short_name": "Quan L",
+        "identifiers": [
+          "0000-0003-4551-4198"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou 215006, China.",
+          "Jiangsu Province Key Lab for Information Processing Technologies, Soochow University, Suzhou 215006, China.",
+          "Collaborative Innovation Center of Novel Software Technology and Industrialization, Nanjing 210000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Mar 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/24 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "40265190",
+      "39998912",
+      "39650606",
+      "37845780"
+    ],
+    "refs": [
+      "34090482",
+      "30871461",
+      "29069282",
+      "28881969",
+      "28690910",
+      "28120510",
+      "26818008",
+      "26301843",
+      "26213851",
+      "25559105",
+      "25286211",
+      "25033408",
+      "23787338",
+      "23348805",
+      "22262007",
+      "21875935",
+      "21258342",
+      "20150147",
+      "11106741",
+      "9377276",
+      "8246978"
+    ],
+    "similar": [
+      "35456374",
+      "26818008",
+      "34996354",
+      "22955984",
+      "28881969",
+      "28750606",
+      "21473766",
+      "30183639",
+      "26291518",
+      "25433490",
+      "19158363",
+      "24581456",
+      "30598689",
+      "25033408",
+      "28472398",
+      "34255854",
+      "28118358",
+      "34544361",
+      "25957350",
+      "31510661",
+      "25762337",
+      "25373146",
+      "33672342",
+      "24918633",
+      "27456004",
+      "31776829",
+      "34273410",
+      "28420341",
+      "29855969",
+      "33259518",
+      "30967126",
+      "28120510",
+      "30323198",
+      "17411336",
+      "28576882",
+      "31164146",
+      "34272562",
+      "23266217",
+      "19956545",
+      "27104615",
+      "27030570",
+      "33372147",
+      "31398323",
+      "31723409",
+      "31554806",
+      "34843033",
+      "35252200",
+      "27153584",
+      "23935523",
+      "32316525",
+      "27008018",
+      "34486522",
+      "22479205",
+      "28180283",
+      "24336359",
+      "34488759",
+      "12596908",
+      "25736743",
+      "32376693",
+      "26016777",
+      "15478601",
+      "37502861",
+      "28967996",
+      "32847102",
+      "27312344",
+      "28842899",
+      "12123285",
+      "29855970",
+      "12415115",
+      "33606259"
+    ],
+    "review": [
+      "35456374",
+      "23266217",
+      "12596908",
+      "27312344",
+      "12123285"
+    ],
+    "pmc": [
+      "9028922"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13040568",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35456374/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35456374",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

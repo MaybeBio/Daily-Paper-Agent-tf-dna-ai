@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the development of bHLHDB, a relational database for plant basic helix loop helix (bHLH) transcription factors, integrating Hidden Markov Model (HMM) and BLAST search tools, and a deep learning model that predicts transcription factor type from protein sequence with 97.54% accuracy and 97.76% precision.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, validation procedures, or performance metrics beyond the two reported values
+- **Missing materials affecting confidence** Full manuscript, database architecture description, training and test datasets, model architecture and hyperparameters, cross-validation strategy, comparison with existing tools, database content statistics, and user interface details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful community resource for plant bHLH transcription factors. The integration of HMM and BLAST into a relational database is a standard but valuable approach. The deep learning component is presented as a novel feature, but the abstract provides insufficient detail to evaluate its implementation, training data, or generalizability. The reported accuracy and precision figures cannot be assessed without knowing the dataset composition, class balance, and validation methodology. The claim of a "next generation" database is not substantiated by the evidence presented.
+- **Who would be interested in the results, and why** Plant molecular biologists, bioinformaticians, and researchers studying transcription factor families, particularly those working on bHLH proteins in the context of development, metabolism, and stress responses. The database could serve as a centralized resource for sequence retrieval, annotation, and functional prediction.
+- **Major strengths** The database addresses a clear need for organized, queryable resources for a large and functionally important transcription factor family. The integration of HMM and BLAST provides standard, accessible search capabilities. The deep learning model, if validated, could offer a rapid alternative to traditional sequence-based classification methods.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model predicts transcription factor type with 97.54% accuracy and 97.76% precision.
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract reports accuracy and precision values without specifying the dataset used for training and evaluation, the number of classes, the class distribution, or the validation strategy. Without this information, the reported performance cannot be interpreted or reproduced.
+  - **Why it matters** Performance metrics are only meaningful in the context of the data and methodology. If the dataset is imbalanced or the evaluation is performed on a subset of easy cases, the reported figures may overstate real-world performance. Reproducibility is a core requirement for computational biology tools.
+  - **Resolution test** Provide a detailed description of the training and test datasets, including species coverage, sequence counts per class, and the split strategy. Report performance using cross-validation or an independent test set, and include a confusion matrix or per-class precision and recall.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The database is described as "unique and next-generation" for bHLH transcription factors.
+  - **Evidence pointer** Abstract, final paragraph; location not provided
+  - **Concern** The abstract does not describe how bHLHDB differs from existing databases or tools for bHLH or other transcription factor families. The term "next generation" implies a significant advance, but no comparative analysis or novel features beyond the deep learning model are mentioned.
+  - **Why it matters** The scientific contribution of a database depends on its novelty and utility relative to existing resources. Without a clear statement of what is new or improved, the claim of uniqueness cannot be evaluated.
+  - **Resolution test** Include a comparison with existing bHLH databases and general transcription factor databases, highlighting specific features that are new or substantially improved. Provide evidence of user adoption or demonstrated utility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** All members of the bHLH superfamily in the plant kingdom were used to develop the database.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract states that "all members" of the plant bHLH superfamily were included, but no information is given on how completeness was assessed, which reference proteomes were used, or how the final set was curated.
+  - **Why it matters** The utility of a database depends on the completeness and accuracy of its content. Overstatement of coverage without a clear methodology undermines confidence in the resource.
+  - **Resolution test** Describe the source databases, search strategies, and curation steps used to compile the bHLH set. Provide statistics on the number of species and sequences included, and discuss any known limitations in coverage.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, background section
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The abstract uses the term "basic helix loop helix" without defining the acronym bHLH at first use, which may confuse readers unfamiliar with the field.
+  - **Required correction** Define bHLH in full at first mention, for example, "basic helix loop helix (bHLH)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, deep learning model description
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The abstract does not specify the input representation of the protein sequence (for example, one-hot encoding, embeddings) or the type of deep learning architecture used.
+  - **Required correction** Add a brief statement on the model architecture and input encoding, or refer to a methods section where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract, database description
+  - **Evidence pointer** Abstract, database description; location not provided
+  - **Issue** The abstract does not describe the query interface or the types of queries users can perform beyond "family or sequences information."
+  - **Required correction** Provide a brief description of the user interface and query options to help potential users assess the database's usability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claims for the deep learning model cannot be evaluated without dataset and methodology details, and the novelty claim requires a comparative context. R1-M3, while not blocking, needs clarification to support the completeness claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not demonstrate clear originality beyond the application of a deep learning model to bHLH classification, which is a common approach in bioinformatics. The database itself appears to follow established patterns for transcription factor resources.
+  - Scientific importance: The bHLH family is biologically significant, and a well-curated database could be valuable. However, the abstract does not show how this resource advances the field beyond existing tools.
+  - Interdisciplinary readership: The work sits at the intersection of plant biology and bioinformatics, but the abstract is written in a way that is accessible primarily to specialists. The lack of context for the deep learning component limits broader appeal.
+  - Technical soundness: The reported performance metrics are not supported by sufficient methodological detail. The database architecture and content are not described in enough depth to assess technical quality.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terminology without definition and does not explain the significance of the deep learning model in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful resource, but the lack of methodological detail and comparative context prevents a positive assessment. The authors should provide a full manuscript with detailed methods, dataset descriptions, and validation results before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim of 97.54% accuracy and 97.76% precision for the deep learning model is unsupported without dataset and validation details.
+- The claim that the database includes "all members" of the plant bHLH superfamily is unsupported without a description of the curation methodology.
+- The characterization of the database as "unique and next-generation" is unsupported without a comparison to existing resources.
+- The statement that the database will be "a valuable tool in future studies" is a forward-looking assertion that cannot be evaluated from the abstract alone.

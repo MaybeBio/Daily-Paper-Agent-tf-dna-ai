@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "39499101",
+    "doi": "10.1093/intbio/zyae018",
+    "title": "Network dynamics investigation of omics-data-driven circadian-hypoxia crosstalk logical model in gallbladder cancer reveals key therapeutic target combinations."
+  },
+  "content": {
+    "abstract": "Recent findings in cancer research have pointed towards the bidirectional interaction between circadian and hypoxia pathways. However, little is known about their crosstalk mechanism. In this work, we aimed to investigate this crosstalk at a network level utilizing the omics information of gallbladder cancer. Differential gene expression and pathway enrichment analysis were used for selecting the crucial genes from both the pathways, followed by the construction of a logical crosstalk model using GINsim. Functional circuit identification and node perturbations were then performed. Significant node combinations were used to investigate the temporal behavior of the network through MaBoSS. Lastly, the model was validated using published in vitro experimentations. Four new positive circuits and a new axis viz. BMAL1/ HIF1alphabeta/ NANOG, responsible for stemness were identified. Through triple node perturbations viz.a. BMAL:CLOCK (KO or E1) + P53 (E1) + HIF1alpha (KO); b. P53 (E1) + HIF1alpha (KO) + MYC (E1); and c. HIF1alpha (KO) + MYC (E1) + EGFR (KO), the model was able to inhibit cancer growth and maintain a homeostatic condition. This work provides an architecture for drug simulation analysis to entrainment circadian rhythm and in vitro experiments for chronotherapy-related studies. Insight Box. Circadian rhythm and hypoxia are the key dysregulated processes which fuels-up the cancer growth. In the present work we have developed a gallbladder cancer (GBC) specific Boolean model, utilizing the RNASeq data from GBC dataset and tissue specific interactions. This work adequately models the bidirectional nature of interactions previously illustrated in experimental papers showing the effect of hypoxia on dysregulation of circadian rhythm and the influence of this disruption on progression towards metastasis. Through the dynamical study of the model and its response to different perturbations, we report novel triple node combinations that can be targeted to efficiently reduce GBC growth. This network can be used as a generalized framework to investigate different crosstalk pathways linked with cancer progression.",
+    "keywords": [
+      "Boolean modeling",
+      "GINsim",
+      "MaBoSS",
+      "gallbladder cancer",
+      "network dynamics",
+      "perturbation",
+      "simulations"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gallbladder Neoplasms/metabolism/genetics/pathology",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Gene Regulatory Networks",
+      "Circadian Rhythm",
+      "Models, Biological",
+      "Cell Line, Tumor",
+      "Signal Transduction",
+      "Gene Expression Profiling",
+      "Hypoxia/metabolism",
+      "Cell Hypoxia",
+      "Tumor Hypoxia",
+      "Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Aakansha",
+        "Dwivedi, Anjana"
+      ],
+      "short_names": [
+        "Singh A",
+        "Dwivedi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8607-2723",
+        "ORCID: 0000-0002-5356-9941"
+      ],
+      "affiliations": [
+        "Department of Bioengineering and Biotechnology, Birla Institute of Technology, Mesra, Ranchi 835215, Jharkhand, India.",
+        "Department of Bioengineering and Biotechnology, Birla Institute of Technology, Mesra, Ranchi 835215, Jharkhand, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Aakansha",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0001-8607-2723"
+        ],
+        "affiliations": [
+          "Department of Bioengineering and Biotechnology, Birla Institute of Technology, Mesra, Ranchi 835215, Jharkhand, India."
+        ]
+      },
+      {
+        "full_name": "Dwivedi, Anjana",
+        "short_name": "Dwivedi A",
+        "identifiers": [
+          "0000-0002-5356-9941"
+        ],
+        "affiliations": [
+          "Department of Bioengineering and Biotechnology, Birla Institute of Technology, Mesra, Ranchi 835215, Jharkhand, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Integrative biology : quantitative biosciences from nano to macro"
+    ],
+    "journal_abbrev": [
+      "Integr Biol (Camb)"
+    ],
+    "pub_date": "2024 Jan 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 19:20",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39499101",
+      "30272364",
+      "31517732",
+      "40198927",
+      "25591621",
+      "30556856",
+      "24966896",
+      "27773696",
+      "26346319",
+      "40680814",
+      "40220284",
+      "39623311",
+      "26292259",
+      "29482638",
+      "24329682",
+      "31623628",
+      "26545779",
+      "39863143",
+      "38635107",
+      "31014368",
+      "40110547",
+      "40021626",
+      "27009073",
+      "38914609",
+      "40702096",
+      "25499970",
+      "40259006",
+      "30825877",
+      "22470047",
+      "40830485",
+      "27769047",
+      "28944858",
+      "28803245",
+      "30086773",
+      "31752906",
+      "41219291",
+      "23319036",
+      "31752867",
+      "24670641",
+      "28077595",
+      "33407730",
+      "36624399",
+      "37097647",
+      "24551272",
+      "28423707",
+      "39468006",
+      "25201196",
+      "37821907",
+      "25333958",
+      "39942749",
+      "25602156",
+      "38770938",
+      "30886199",
+      "35484565",
+      "31776228",
+      "28611292",
+      "28285962",
+      "40439781",
+      "23134201",
+      "32020429",
+      "33276026",
+      "26992854",
+      "21415706",
+      "32071545",
+      "35196196",
+      "28435028",
+      "27084680",
+      "29569755",
+      "31182136",
+      "39492805",
+      "24310606",
+      "26850841",
+      "25046749",
+      "32061938",
+      "32030850",
+      "31369289",
+      "40615101",
+      "40188897",
+      "31391338",
+      "34036386",
+      "23728336",
+      "31799620",
+      "40755770",
+      "40555776",
+      "40259397",
+      "33153467",
+      "33879096",
+      "40997892",
+      "21131824",
+      "40785027",
+      "40238833",
+      "26949052",
+      "37345534",
+      "21672245",
+      "27345740",
+      "33444685",
+      "37665156",
+      "21364973",
+      "33355862",
+      "21109977"
+    ],
+    "review": [
+      "39499101",
+      "39863143",
+      "25201196",
+      "39942749",
+      "32020429",
+      "32061938"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/gallbladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Gallbladder Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/ib/article-lookup/doi/10.1093/intbio/zyae018",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

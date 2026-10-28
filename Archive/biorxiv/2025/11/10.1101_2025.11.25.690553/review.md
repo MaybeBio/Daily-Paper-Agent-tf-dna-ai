@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, competing interests, data availability, supplementary materials list, acknowledgments)
+- **Assessment boundary** Scientific claims, evidence quality, methodological soundness, and alignment with stated conclusions. No line-by-line copyediting or stylistic review.
+- **Shared manuscript claim summary** The authors propose that CTCF boundary permeability is governed by a dynamic conformational ensemble of DNA-bound zinc fingers, tuned by sequence, CpG methylation, nucleosomes, and PDS5A, rather than by static occupancy. They integrate NanoNOMe methylation footprinting, all-atom MD simulations, single-molecule optical tweezers, AFM, and public ChIP-seq/Hi-C datasets to support a two-step model: PDS5A primes CTCF toward a capture-competent conformation, then stabilizes the loop anchor post-capture.
+- **Visible evidence base** Main text figures referenced (Figs. 1A-F, 2A-H, 3A-G, 4A-G, 5), supplementary figures (S1-S28), tables (S1-S2), and methods described in supplementary materials. Public datasets cited (ChIP-seq, ChIP-MS, ChIP-SICAP, Hi-C, mass spectrometry).
+- **Missing materials affecting confidence** Full Materials and Methods text not provided. Supplementary figures and tables not provided. Specific statistical tests, error bars, replicate numbers, and analysis parameters not visible. Raw data not accessible. AlphaFold 3 model confidence metrics not shown. HMM fitting details and validation not visible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and conceptually novel framework for understanding CTCF boundary function, shifting from a static occupancy model to a dynamic conformational ensemble model. The integration of in vivo footprinting, MD simulations, and single-molecule assays is ambitious and potentially transformative. However, the evidence as presented in the main text is incomplete in several critical areas: the link between specific conformations and cohesin capture is largely correlative, the PDS5A mechanism relies on AlphaFold predictions with low confidence, and the in vivo relevance of the proposed two-step model is not directly tested. The manuscript is well-written and the figures appear thoughtfully designed, but the current evidence base does not fully establish the central claims.
+- **Who would be interested in the results, and why** Chromatin biologists, transcription factor biophysicists, genome organization researchers, and computational biophysicists. The work bridges single-molecule dynamics and genome-scale architecture, which will appeal to groups studying cohesin biology, CTCF function, TAD formation, and the role of conformational dynamics in DNA-binding protein function. The methodological combination of NanoNOMe, MD, and optical tweezers will interest method developers.
+- **Major strengths** 1) The conceptual reframing of CTCF function from occupancy to conformational ensemble is novel and timely. 2) The multi-scale approach, from base-pair dynamics to genome organization, is ambitious and integrative. 3) The NanoNOMe single-molecule footprinting in cells is a powerful approach to capture conformational heterogeneity. 4) The identification of PDS5A as a modulator of CTCF conformation, independent of cohesin, is a potentially important finding. 5) The manuscript is clearly written and the figures are logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for causal link
+  - **Claim pointer** "This strong enrichment of dissociated peripheral ZFs, particularly near the cohesin-interacting CTCF N-terminus, suggests that the unwrapped conformation may facilitate cohesin association with CTCF."
+  - **Evidence pointer** Fig. 1E, Fig. 1F
+  - **Concern** The correlation between RAD21 ChIP-seq signal and the unwrapped conformation is presented as evidence that the unwrapped state facilitates cohesin capture. However, this is a correlative observation in fixed cells. RAD21 enrichment at a CTCF site could reflect post-capture stabilization, not pre-capture priming. The direction of causality is not established. The claim that the unwrapped conformation is "cohesin-capturing" is a central pillar of the model, but the evidence is indirect.
+  - **Why it matters** The entire model rests on the assumption that the unwrapped conformation is the productive state for cohesin capture. If the unwrapped state is instead a consequence of cohesin binding or a bystander effect, the model collapses. The authors need to provide direct evidence, e.g., a mutant CTCF locked in one conformation, or an in vitro capture assay with defined conformations.
+  - **Resolution test** Provide direct experimental evidence that the unwrapped conformation is necessary or sufficient for cohesin capture. This could be achieved by engineering CTCF variants that stabilize or destabilize specific conformations and testing their ability to stall cohesin in vitro or in vivo. Alternatively, a time-resolved assay correlating conformational state with cohesin engagement would strengthen the causal claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of single-molecule assay
+  - **Claim pointer** "CTCF-bound DNA was best described by four states, as determined by Hidden Markov Modeling (HMM) fitting... These conformations exchanged almost exclusively in a sequential manner."
+  - **Evidence pointer** Figs. 2C-D, S5-S8
+  - **Concern** The four-state HMM model is central to the conformational ensemble claim, but the validation of this model is not visible. How was the number of states determined? What are the confidence intervals on state lifetimes and transition probabilities? The sequential exchange pattern is a strong claim that requires rigorous statistical testing against alternative models (e.g., parallel exchange, more states). The force-independence claim (Fig. S9) is also critical but not visible.
+  - **Why it matters** If the HMM model is overfit or the state assignments are ambiguous, the entire conformational ensemble framework is compromised. The sequential exchange pattern is particularly important because it supports the "unwrapping/rewrapping" model. Without proper model selection and validation, the reader cannot assess the robustness of the findings.
+  - **Resolution test** Provide the full HMM analysis details: model selection criteria (e.g., BIC/AIC), state assignment confidence, transition matrix with uncertainties, and a comparison of the four-state model against simpler and more complex alternatives. Show that the sequential exchange pattern is statistically preferred over other topologies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for PDS5A mechanism
+  - **Claim pointer** "PDS5A presence shifted the ensemble towards the cohesin-capturing, unwrapped conformation... to levels comparable to the consensus sequence."
+  - **Evidence pointer** Fig. 3G, Fig. 4A-C, S24-S25
+  - **Concern** The claim that PDS5A directly modulates CTCF's conformational ensemble is supported by AlphaFold 3 predictions of PDS5A-CTCF contacts, but the authors note these are "lower confidence" contacts. The optical tweezers data showing PDS5A effects on rupture forces are presented, but the mechanism is unclear. Does PDS5A bind directly to the ZFs, or does it act through the N-terminal IDR? The truncation experiment (ΔN) suggests IDR dependence, but the AlphaFold model predicts ZF contacts. This inconsistency is not resolved.
+  - **Why it matters** The two-step model requires PDS5A to act on CTCF conformation before cohesin engagement. If the AlphaFold predictions are unreliable and the IDR truncation abolishes the effect, the direct ZF contact model is questionable. The field needs a clear mechanistic understanding of how PDS5A modulates CTCF.
+  - **Resolution test** Provide experimental validation of the PDS5A-CTCF interaction, e.g., crosslinking mass spectrometry, hydrogen-deuterium exchange, or mutagenesis of the predicted ZF contact residues. Show that the PDS5A effect on the conformational ensemble is dependent on these specific contacts, not just the IDR.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance of the two-step model
+  - **Claim pointer** "These findings establish conformational ensemble tuning, rather than static occupancy, as a regulatory principle linking base pair–scale motions to megabase-scale genome organization."
+  - **Evidence pointer** Fig. 4G, Fig. 5
+  - **Concern** The in vivo relevance of the two-step model is supported by a single comparison of Hi-C data before and after PDS5A depletion at one locus (PDGFRA insulator). This is a limited test. The model predicts that PDS5A depletion should specifically affect the stability of CTCF-anchored loops, not just insulation at one locus. The genome-wide consequences are not explored.
+  - **Why it matters** The claim of a "regulatory principle" for genome organization requires broader evidence. A single locus analysis is insufficient to establish a general principle. The model also predicts that PDS5A should affect loop lifetime, not just boundary strength, which is not tested.
+  - **Resolution test** Provide genome-wide analysis of loop stability and boundary strength upon PDS5A depletion, ideally with time-resolved Hi-C or Micro-C. Show that the effect is specific to CTCF-anchored loops and correlates with the conformational state of CTCF at those loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model presentation
+  - **Affected element** Fig. 5 model
+  - **Evidence pointer** Fig. 5
+  - **Issue** The two-step model in Fig. 5 is presented as a schematic, but the kinetic parameters (rate constants for conformational exchange, capture, and stabilization) are not quantified. The model would be more compelling with a quantitative framework.
+  - **Required correction** Add a quantitative version of the model with estimated rate constants from the single-molecule data, or clearly state that the model is qualitative.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figs. 1B, 1E, 2F, 3B-C
+  - **Evidence pointer** Figs. 1B, 1E, 2F, 3B-C
+  - **Issue** The main text reports percentages and differences (e.g., 76% vs 82% occupancy) without clear statistical significance testing or confidence intervals. The reader cannot assess whether these differences are meaningful.
+  - **Required correction** Add statistical tests and effect sizes for all key comparisons, or clearly state the uncertainty in the reported values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of MD findings
+  - **Affected element** Fig. 1D, S2
+  - **Evidence pointer** Fig. 1D, S2
+  - **Issue** The MD simulations were performed on two sequences (consensus and PDGFRA). The claim that this represents a general property of CTCF would be strengthened by additional sequences, particularly those with known weak or strong boundary activity.
+  - **Required correction** Add MD simulations on additional CTCF motifs with varying boundary strengths, or temper the generalizability claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Conformation numbering
+  - **Evidence pointer** Figs. 2C-D, S8
+  - **Issue** The conformations are labeled I-IV, but the mapping to "wrapped" and "unwrapped" states is not always consistent in the text. For example, conformation II is described as "unwrapped" but the degree of unwrapping varies.
+  - **Required correction** Define the structural features of each conformation clearly and use consistent terminology throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between unwrapped conformation and cohesin capture), R1-M2 (HMM model validation), R1-M3 (PDS5A mechanism).
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The conformational ensemble model for CTCF is a novel conceptual contribution that challenges the static occupancy paradigm.
+  - Scientific importance: High. If established, this work would reshape understanding of boundary function and genome organization.
+  - Interdisciplinary readership: Moderate to high. The work bridges biophysics, chromatin biology, and genomics, but the technical depth may limit accessibility to non-specialists.
+  - Technical soundness: Currently insufficient. The HMM model validation, statistical reporting, and causal inference are not fully established from the provided evidence.
+  - Readability for nonspecialists: Good. The manuscript is clearly written, but the methods and figure interpretations require domain expertise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the methodological approach is innovative, but the current evidence base does not fully establish the causal claims. The authors must address the correlational nature of the in vivo data, validate the HMM model, and provide a clearer mechanistic basis for the PDS5A effect.
+
+## Risk / unsupported claims
+- The claim that the unwrapped conformation "facilitates cohesin association" is not directly supported; the data are correlational.
+- The claim that PDS5A "primes" CTCF for capture is inferred from AlphaFold predictions and in vitro assays, but the direct mechanism is not established.
+- The claim that conformational ensemble tuning is a "regulatory principle" for genome organization is extrapolated from limited in vivo evidence (one locus).
+- The four-state HMM model and its sequential exchange pattern are not validated in the provided text.
+- The in vivo relevance of the two-step model (PDS5A priming then stabilization) is not directly tested; the Hi-C data are consistent but not conclusive.

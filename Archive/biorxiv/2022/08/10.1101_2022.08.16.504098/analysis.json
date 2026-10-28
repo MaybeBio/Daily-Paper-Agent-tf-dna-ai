@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.16.504098",
+  "title": "Systematic analysis of the genomic features involved in the binding preferences of transcription factors",
+  "authors": "Raphaël Romero; Christophe Menichelli; Jean-Michel Marin; Sophie Lèbre; Charles-Henri Lecellier; Laurent Bréhélin",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-16",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出机器学习方法TFscope，系统分析不同细胞类型或旁系同源TF间ChIP-seq结合差异的DNA特征（核心基序、核苷酸环境、共因子基序），属于TF-DNA结合位点预测与偏好性建模，但未涉及三维结构或动态互作机制。",
+  "abstract": "Transcription factors (TFs) orchestrate gene expression and are at the core of cell-specific phenotypes and functions. One given TF can therefore have different binding sites depending on cell type and conditions. However, the TF core motif, as represented by Position Weight Matrix for instance, are often, if not invariably, cell agnostic. Likewise, paralogous TFs recognize very similar motifs while binding different genomic regions. We propose a machine learning approach called TFscope aimed at identifying the DNA features explaining the binding differences observed between two ChIP-seq experiments targeting either the same TF in two cell types or treatments or two paralogous TFs. TFscope systematically investigates differences in i) core motif, ii) nucleotide environment around the binding site and iii) presence and location of co-factor motifs. It provides the main DNA features that have been detected, and the contribution of each of these features to explain the binding differences. TFscope has been applied to more than 350 pairs of ChIP-seq. Our experiments showed that the approach is accurate and that the genomic features distinguishing TF binding in two different settings vary according to the TFs considered and/or the conditions. Several samples are presented and discussed to illustrate these findings. For TFs in different cell types or with different treatments, co-factors and nucleotide environment often explain most of the binding-site differences, while for paralogous TFs, subtle differences in the core motif seem to be the main reason for the observed differences in our experiments. The source code (python), data and results of the experiments described in this article are available at https://gite.lirmm.fr/rromero/tfscope .",
+  "abstract_zh": "转录因子（Transcription factors, TFs）协调基因表达，是细胞特异性表型和功能的核心。因此，一个给定的TF可以根据细胞类型和条件具有不同的结合位点。然而，TF核心基序，例如以位置权重矩阵（Position Weight Matrix）表示的，通常（如果不是总是）与细胞类型无关。同样，旁系同源TF识别非常相似的基序，但结合不同的基因组区域。我们提出了一种名为TFscope的机器学习方法，旨在识别解释两个ChIP-seq实验之间观察到的结合差异的DNA特征，这些实验针对的是两种细胞类型或处理中的同一TF，或两个旁系同源TF。TFscope系统性地研究以下差异：i) 核心基序，ii) 结合位点周围的核苷酸环境，以及iii) 共因子基序的存在和位置。它提供了检测到的主要DNA特征，以及每个特征对解释结合差异的贡献。TFscope已应用于超过350对ChIP-seq数据。我们的实验表明，该方法准确，且区分不同设置下TF结合的基因组特征根据所考虑的TF和/或条件而变化。文中展示并讨论了几个样本以说明这些发现。对于不同细胞类型或不同处理下的TF，共因子和核苷酸环境通常解释了大部分结合位点差异，而对于旁系同源TF，核心基序中的细微差异似乎是我们实验中观察到的差异的主要原因。本文所述实验的源代码（python）、数据和结果可在 https://gite.lirmm.fr/rromero/tfscope 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.16.504098",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.16.504098",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.16.504098/index.html"
+}

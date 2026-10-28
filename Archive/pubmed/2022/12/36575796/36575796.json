@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "36575796",
+    "doi": "10.1016/j.molp.2022.12.019",
+    "title": "A wheat integrative regulatory network from large-scale complementary functional datasets enables trait-associated gene discovery for crop improvement."
+  },
+  "content": {
+    "abstract": "Gene regulation is central to all aspects of organism growth, and understanding it using large-scale functional datasets can provide a whole view of biological processes controlling complex phenotypic traits in crops. However, the connection between massive functional datasets and trait-associated gene discovery for crop improvement is still lacking. In this study, we constructed a wheat integrative gene regulatory network (wGRN) by combining an updated genome annotation and diverse complementary functional datasets, including gene expression, sequence motif, transcription factor (TF) binding, chromatin accessibility, and evolutionarily conserved regulation. wGRN contains 7.2 million genome-wide interactions covering 5947 TFs and 127 439 target genes, which were further verified using known regulatory relationships, condition-specific expression, gene functional information, and experiments. We used wGRN to assign genome-wide genes to 3891 specific biological pathways and accurately prioritize candidate genes associated with complex phenotypic traits in genome-wide association studies. In addition, wGRN was used to enhance the interpretation of a spike temporal transcriptome dataset to construct high-resolution networks. We further unveiled novel regulators that enhance the power of spike phenotypic trait prediction using machine learning and contribute to the spike phenotypic differences among modern wheat accessions. Finally, we developed an interactive webserver, wGRN (http://wheat.cau.edu.cn/wGRN), for the community to explore gene regulation and discover trait-associated genes. Collectively, this community resource establishes the foundation for using large-scale functional datasets to guide trait-associated gene discovery for crop improvement.",
+    "keywords": [
+      "crop improvement",
+      "functional gene discovery",
+      "integrative gene regulatory network",
+      "phenotype prediction",
+      "wheat"
+    ],
+    "mesh_terms": [
+      "*Triticum/genetics",
+      "*Genome-Wide Association Study",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Genome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yongming",
+        "Guo, Yiwen",
+        "Guan, Panfeng",
+        "Wang, Yongfa",
+        "Wang, Xiaobo",
+        "Wang, Zihao",
+        "Qin, Zhen",
+        "Ma, Shengwei",
+        "Xin, Mingming",
+        "Hu, Zhaorong",
+        "Yao, Yingyin",
+        "Ni, Zhongfu",
+        "Sun, Qixin",
+        "Guo, Weilong",
+        "Peng, Huiru"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Guo Y",
+        "Guan P",
+        "Wang Y",
+        "Wang X",
+        "Wang Z",
+        "Qin Z",
+        "Ma S",
+        "Xin M",
+        "Hu Z",
+        "Yao Y",
+        "Ni Z",
+        "Sun Q",
+        "Guo W",
+        "Peng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Hainan Yazhou Bay Seed Laboratory, Sanya, Hainan, China; State Key Laboratory of Plant Cell and Chromosome Engineering, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China. Electronic address: guoweilong@cau.edu.cn.",
+        "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China. Electronic address: penghuiru@cau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yongming",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yiwen",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Panfeng",
+        "short_name": "Guan P",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongfa",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaobo",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zihao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhen",
+        "short_name": "Qin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Shengwei",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Hainan Yazhou Bay Seed Laboratory, Sanya, Hainan, China; State Key Laboratory of Plant Cell and Chromosome Engineering, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Mingming",
+        "short_name": "Xin M",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhaorong",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yingyin",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Zhongfu",
+        "short_name": "Ni Z",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qixin",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Weilong",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China. Electronic address: guoweilong@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Peng, Huiru",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers Science Center for Molecular Design Breeding, Key Laboratory of Crop Heterosis and Utilization, Beijing Key Laboratory of Crop Genetic Improvement, China Agricultural University, Beijing 100193, China. Electronic address: penghuiru@cau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular plant"
+    ],
+    "journal_abbrev": [
+      "Mol Plant"
+    ],
+    "pub_date": "2023 Feb 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/29 06:00",
+    "fetched_at": "2026-09-28 18:30:38"
+  },
+  "links": {
+    "cites": [
+      "42618798",
+      "42443549",
+      "42252398",
+      "42195024",
+      "42111716",
+      "41982513",
+      "41947461",
+      "41943068",
+      "41845915",
+      "41835394",
+      "41518508",
+      "41334191",
+      "41214722",
+      "41085184",
+      "41047469",
+      "40941798",
+      "40908642",
+      "40801956",
+      "40604325",
+      "40488896",
+      "40455285",
+      "40227527",
+      "40191669",
+      "40148541",
+      "40050781",
+      "39695844",
+      "38903438",
+      "38576428",
+      "38486454",
+      "38366355",
+      "38116153",
+      "37589238",
+      "36905284"
+    ],
+    "refs": [],
+    "similar": [
+      "36575796",
+      "32034248",
+      "34517837",
+      "35915266",
+      "38310351",
+      "32702458",
+      "31645419",
+      "33828173",
+      "35698038",
+      "22456606",
+      "29143598",
+      "34142166",
+      "31003597",
+      "25442502",
+      "34353288",
+      "34075443",
+      "35660007",
+      "32350030",
+      "18426580",
+      "35939073",
+      "31006149",
+      "36529716",
+      "33413113",
+      "36136127",
+      "35628397",
+      "23184988",
+      "33016597",
+      "24712981",
+      "31936286",
+      "33957956",
+      "35088857",
+      "34251627",
+      "33155062",
+      "35508739",
+      "31857203",
+      "25698380",
+      "36345647",
+      "20849627",
+      "32912142",
+      "31826330",
+      "31115762",
+      "27441835",
+      "25231182",
+      "28913791",
+      "31035920",
+      "27918076",
+      "28018846",
+      "36513980",
+      "32347319",
+      "31395029",
+      "31377174",
+      "23107922",
+      "33631799",
+      "32858223",
+      "31337639",
+      "23514438",
+      "32781752",
+      "29325558",
+      "35508960",
+      "28143400",
+      "28628238",
+      "26853077",
+      "32747342",
+      "28231383",
+      "32054475",
+      "33371893",
+      "31529397",
+      "36344939",
+      "31215411",
+      "33588716",
+      "31481207",
+      "27423334",
+      "31695717",
+      "30115783",
+      "27918628",
+      "35358203",
+      "28155637",
+      "28193162",
+      "29470622",
+      "34911434",
+      "36682639",
+      "20942926",
+      "21789636",
+      "37956052",
+      "37142750",
+      "37220536",
+      "25993562",
+      "38464086",
+      "37503240",
+      "27783134",
+      "30346941",
+      "36575798",
+      "37905013",
+      "37064526",
+      "25228922",
+      "39321799"
+    ],
+    "review": [
+      "36575796",
+      "35508739",
+      "25698380",
+      "28913791",
+      "31377174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1674-2052(22)00454-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

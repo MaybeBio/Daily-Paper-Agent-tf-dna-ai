@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "pmid": "41898392",
+    "doi": "10.3390/ijms27062526",
+    "title": "Computational Identification of Potential Novel Allosteric IHF Inhibitors Using QSAR Modeling to Inhibit Plasmid-Mediated Antibiotic Resistance."
+  },
+  "content": {
+    "abstract": "The rapid spread of antibiotic resistance through plasmid-mediated conjugation remains a primary global health concern. Despite its critical role in horizontal gene transfer, no approved drugs currently target this process, leaving a critical therapeutic gap. Integration Host Factor (IHF), a DNA-binding protein essential for plasmid replication and mobilization, emerges as a promising yet underexplored target for anti-conjugation strategies. This work aimed to develop a predictive computational model and identify small molecules that disrupt IHF function, thereby reducing plasmid transfer and limiting resistance gene dissemination. A curated dataset of 65 compounds with reported anti-plasmid activity was analyzed using a 3D-QSAR model based on algebraic descriptors computed with QuBiLS-MIDAS. The model was validated through leave-one-out cross-validation (Q(2) = 0.82), Tropsha's criteria, and Y-scrambling. Representative compounds were selected via pharmacophore clustering and evaluated through molecular docking at both the DNA-binding site and a predicted allosteric pocket of IHF. The most promising complexes underwent 200 ns molecular dynamics simulations to assess stability and interaction patterns. The QSAR model demonstrated strong predictive performance (R(2) = 0.90). Docking simulations revealed more favorable binding energies at the allosteric site (up to -12.15 kcal/mol) compared to the DNA-binding site. Molecular dynamics confirmed the stability of these interactions, with allosteric complexes showing lower RMSD fluctuations and consistent binding energy profiles. Dynamic cross-correlation analysis revealed that allosteric ligand binding induces conformational changes in key catalytic residues, including Pro65, Pro61, and Leu66. These alterations may compromise DNA recognition and disrupt the initiation of replication. To our knowledge, this is the first computational study proposing allosteric inhibition of IHF as an anti-conjugation strategy. These findings provide a foundation for experimental validation and the development of novel agents to prevent horizontal gene transfer, offering a promising approach to restoring antibiotic efficacy against multidrug-resistant pathogens.",
+    "keywords": [
+      "Integration Host Factor",
+      "QSAR modeling",
+      "antibiotic resistance",
+      "computational drug design",
+      "molecular docking",
+      "molecular dynamics",
+      "plasmid conjugation"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "Molecular Docking Simulation",
+      "*Plasmids/genetics",
+      "Molecular Dynamics Simulation",
+      "*Integration Host Factors/antagonists & inhibitors/chemistry/metabolism",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "*Drug Resistance, Microbial/drug effects",
+      "Allosteric Regulation/drug effects",
+      "*Drug Resistance, Bacterial/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saurith-Coronell, Oscar",
+        "Sierra-Hernandez, Olimpo",
+        "Rodriguez-Macias, Juan David",
+        "Mora, Jose R",
+        "Perez-Perez, Noel",
+        "Alcazar, Jackson J",
+        "Moura, Ricardo Olimpio de",
+        "Nascimento, Igor Jose Dos Santos",
+        "Marquez Brazon, Edgar A",
+        "Marrero-Ponce, Yovani"
+      ],
+      "short_names": [
+        "Saurith-Coronell O",
+        "Sierra-Hernandez O",
+        "Rodriguez-Macias JD",
+        "Mora JR",
+        "Perez-Perez N",
+        "Alcazar JJ",
+        "Moura RO",
+        "Nascimento IJDS",
+        "Marquez Brazon EA",
+        "Marrero-Ponce Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4454-3126",
+        "ORCID: 0009-0004-8239-5890",
+        "ORCID: 0000-0001-5247-867X",
+        "ORCID: 0000-0001-6128-9504",
+        "ORCID: 0000-0003-3166-745X",
+        "ORCID: 0000-0002-6300-6923",
+        "ORCID: 0000-0002-1590-3750",
+        "ORCID: 0000-0002-2664-4336",
+        "ORCID: 0000-0002-7503-1528",
+        "ORCID: 0000-0003-2721-1142"
+      ],
+      "affiliations": [
+        "Departamento de Medicina, Division Ciencias de la Salud, Universidad del Norte, Km 5, Via Puerto Colombia, Puerto Colombia 081007, Colombia.",
+        "Grupo de Investigaciones en Quimica y Biologia, Departamento de Quimica y Biologia, Facultad de Ciencias Basicas, Universidad del Norte, Carrera 51B, Km 5, Via Puerto Colombia, Barranquilla 081007, Colombia.",
+        "Departamento de Medicina, Division Ciencias de la Salud, Universidad del Norte, Km 5, Via Puerto Colombia, Puerto Colombia 081007, Colombia.",
+        "Grupo de Investigaciones en Quimica y Biologia, Departamento de Quimica y Biologia, Facultad de Ciencias Basicas, Universidad del Norte, Carrera 51B, Km 5, Via Puerto Colombia, Barranquilla 081007, Colombia.",
+        "Facultad de Ciencias de la Salud, Exactas y Naturales, Universidad Libre, Barranquilla 080001, Colombia.",
+        "Grupo de Quimica Computacional y Teorica (QCT-USFQ), Departamento de Ingenieria Quimica, Universidad San Francisco de Quito, Diego de Robles y Via Interoceanica, Quito 170901, Ecuador.",
+        "Colegio de Ciencias e Ingenierias \"El Politecnico\", Universidad San Francisco de Quito USFQ, Quito 170157, Ecuador.",
+        "Centro de Quimica Medica, Facultad de Medicina Clinica Alemana, Universidad del Desarrollo, Santiago 7780272, Chile.",
+        "Programa de Pos-Graduacao em Ciencias Farmaceuticas (PPGCF), Universidade Estadual da Paraiba (UEPB), Campina Grande 58429-500, Brazil.",
+        "Programa de Pos-Graduacao em Ciencias Farmaceuticas (PPGCF), Universidade Estadual da Paraiba (UEPB), Campina Grande 58429-500, Brazil.",
+        "Grupo de Investigaciones en Quimica y Biologia, Departamento de Quimica y Biologia, Facultad de Ciencias Basicas, Universidad del Norte, Carrera 51B, Km 5, Via Puerto Colombia, Barranquilla 081007, Colombia.",
+        "Facultad de Ingenieria, Universidad Panamericana, Ciudad de Mexico 03920, Mexico.",
+        "Grupo de Medicina Molecular y Traslacional (MeM&T), Colegio de Ciencias de la Salud (COCSA), Escuela de Medicina, Universidad San Francisco de Quito (USFQ), Quito 170157, Ecuador."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saurith-Coronell, Oscar",
+        "short_name": "Saurith-Coronell O",
+        "identifiers": [
+          "0009-0008-4454-3126"
+        ],
+        "affiliations": [
+          "Departamento de Medicina, División Ciencias de la Salud, Universidad del Norte, Km 5, Vía Puerto Colombia, Puerto Colombia 081007, Colombia.",
+          "Grupo de Investigaciones en Química y Biología, Departamento de Química y Biología, Facultad de Ciencias Básicas, Universidad del Norte, Carrera 51B, Km 5, Vía Puerto Colombia, Barranquilla 081007, Colombia."
+        ]
+      },
+      {
+        "full_name": "Sierra-Hernandez, Olimpo",
+        "short_name": "Sierra-Hernandez O",
+        "identifiers": [
+          "0009-0004-8239-5890"
+        ],
+        "affiliations": [
+          "Departamento de Medicina, División Ciencias de la Salud, Universidad del Norte, Km 5, Vía Puerto Colombia, Puerto Colombia 081007, Colombia.",
+          "Grupo de Investigaciones en Química y Biología, Departamento de Química y Biología, Facultad de Ciencias Básicas, Universidad del Norte, Carrera 51B, Km 5, Vía Puerto Colombia, Barranquilla 081007, Colombia."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Macías, Juan David",
+        "short_name": "Rodríguez-Macías JD",
+        "identifiers": [
+          "0000-0001-5247-867X"
+        ],
+        "affiliations": [
+          "Facultad de Ciencias de la Salud, Exactas y Naturales, Universidad Libre, Barranquilla 080001, Colombia."
+        ]
+      },
+      {
+        "full_name": "Mora, José R",
+        "short_name": "Mora JR",
+        "identifiers": [
+          "0000-0001-6128-9504"
+        ],
+        "affiliations": [
+          "Grupo de Química Computacional y Teórica (QCT-USFQ), Departamento de Ingeniería Química, Universidad San Francisco de Quito, Diego de Robles y Vía Interoceánica, Quito 170901, Ecuador."
+        ]
+      },
+      {
+        "full_name": "Perez-Perez, Noel",
+        "short_name": "Perez-Perez N",
+        "identifiers": [
+          "0000-0003-3166-745X"
+        ],
+        "affiliations": [
+          "Colegio de Ciencias e Ingenierías \"El Politécnico\", Universidad San Francisco de Quito USFQ, Quito 170157, Ecuador."
+        ]
+      },
+      {
+        "full_name": "Alcázar, Jackson J",
+        "short_name": "Alcázar JJ",
+        "identifiers": [
+          "0000-0002-6300-6923"
+        ],
+        "affiliations": [
+          "Centro de Química Médica, Facultad de Medicina Clínica Alemana, Universidad del Desarrollo, Santiago 7780272, Chile."
+        ]
+      },
+      {
+        "full_name": "Moura, Ricardo Olimpio de",
+        "short_name": "Moura RO",
+        "identifiers": [
+          "0000-0002-1590-3750"
+        ],
+        "affiliations": [
+          "Programa de Pós-Graduação em Ciências Farmacêuticas (PPGCF), Universidade Estadual da Paraíba (UEPB), Campina Grande 58429-500, Brazil."
+        ]
+      },
+      {
+        "full_name": "Nascimento, Igor José Dos Santos",
+        "short_name": "Nascimento IJDS",
+        "identifiers": [
+          "0000-0002-2664-4336"
+        ],
+        "affiliations": [
+          "Programa de Pós-Graduação em Ciências Farmacêuticas (PPGCF), Universidade Estadual da Paraíba (UEPB), Campina Grande 58429-500, Brazil."
+        ]
+      },
+      {
+        "full_name": "Márquez Brazón, Edgar A",
+        "short_name": "Márquez Brazón EA",
+        "identifiers": [
+          "0000-0002-7503-1528"
+        ],
+        "affiliations": [
+          "Grupo de Investigaciones en Química y Biología, Departamento de Química y Biología, Facultad de Ciencias Básicas, Universidad del Norte, Carrera 51B, Km 5, Vía Puerto Colombia, Barranquilla 081007, Colombia."
+        ]
+      },
+      {
+        "full_name": "Marrero-Ponce, Yovani",
+        "short_name": "Marrero-Ponce Y",
+        "identifiers": [
+          "0000-0003-2721-1142"
+        ],
+        "affiliations": [
+          "Facultad de Ingeniería, Universidad Panamericana, Ciudad de México 03920, Mexico.",
+          "Grupo de Medicina Molecular y Traslacional (MeM&T), Colegio de Ciencias de la Salud (COCSA), Escuela de Medicina, Universidad San Francisco de Quito (USFQ), Quito 170157, Ecuador."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/28 06:39",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41216209",
+      "41195614",
+      "40806603",
+      "40385171",
+      "40279390",
+      "40197754",
+      "40066032",
+      "39981029",
+      "39707600",
+      "39591001",
+      "39481593",
+      "39000493",
+      "38870900",
+      "38675404",
+      "38215528",
+      "38157475",
+      "37954314",
+      "37886666",
+      "37828360",
+      "37511331",
+      "37511247",
+      "37483837",
+      "37237763",
+      "37127679",
+      "37110299",
+      "36943246",
+      "36877669",
+      "36816262",
+      "36653393",
+      "36629250",
+      "36614023",
+      "36345987",
+      "36228033",
+      "36140032",
+      "35933426",
+      "35625380",
+      "35609983",
+      "35389981",
+      "35351887",
+      "35309259",
+      "35267067",
+      "35166652",
+      "34990125",
+      "34962803",
+      "34894259",
+      "34684258",
+      "34652141",
+      "34589468",
+      "34520990",
+      "34475859",
+      "34352078",
+      "34278794",
+      "33727345",
+      "33718695",
+      "33669834",
+      "33403848",
+      "33393598",
+      "33381654",
+      "33307679",
+      "33168749",
+      "33034112",
+      "32961700",
+      "32954887",
+      "32723017",
+      "32459899",
+      "32392055",
+      "32352758",
+      "32164183",
+      "32161645",
+      "32154412",
+      "32098822",
+      "31874610",
+      "30961489",
+      "30248271",
+      "30068738",
+      "30061498",
+      "29370371",
+      "29086303",
+      "28472422",
+      "27285999",
+      "27227291",
+      "26925045",
+      "26597773",
+      "26052348",
+      "23765924",
+      "23683267",
+      "21711366",
+      "20805406",
+      "20430828",
+      "19499576",
+      "19486540",
+      "16153688",
+      "11597490",
+      "11087569",
+      "8980235",
+      "3302598",
+      "2215210"
+    ],
+    "similar": [
+      "41898392",
+      "39527993",
+      "40973684",
+      "40549449",
+      "42511731",
+      "37811784",
+      "30324898",
+      "42011130",
+      "41251882",
+      "40033499",
+      "37424193",
+      "41898503",
+      "42449968",
+      "24245755",
+      "42390567",
+      "28938860",
+      "42475469",
+      "41192116",
+      "40388504",
+      "29753941",
+      "39769078",
+      "41442824",
+      "41578563",
+      "40743310",
+      "41822751",
+      "41084624",
+      "37753798",
+      "39890175",
+      "27668885",
+      "41623688",
+      "34405765",
+      "42112455",
+      "40726304",
+      "39368576",
+      "40200904",
+      "40053865",
+      "37608545",
+      "28486912",
+      "39205340",
+      "37695635",
+      "40436160",
+      "33475043",
+      "38783776",
+      "42043606",
+      "38954072",
+      "38718434",
+      "39684360",
+      "41713229",
+      "39967191",
+      "38059345",
+      "40103540",
+      "31451955",
+      "32037974",
+      "40657644",
+      "42065051",
+      "31838955",
+      "40100341",
+      "41186782",
+      "42068607",
+      "40526618",
+      "39501412",
+      "38353497",
+      "30047845",
+      "41678886",
+      "40675094",
+      "40858055",
+      "42572067",
+      "37698364",
+      "41006797",
+      "42329991",
+      "38444393",
+      "42510941",
+      "31394858",
+      "33915968",
+      "39560899",
+      "39936224",
+      "40085404",
+      "36473713",
+      "40120151",
+      "39318004",
+      "38321946",
+      "38637479",
+      "39013949",
+      "28399673",
+      "41045407",
+      "38700330",
+      "33252029",
+      "38174658",
+      "41720062",
+      "38582821",
+      "41865345",
+      "39639531",
+      "40047244",
+      "36234844",
+      "41020634",
+      "41920244",
+      "40632195",
+      "41506199",
+      "38732174",
+      "41775123"
+    ],
+    "review": [
+      "41898392"
+    ],
+    "pmc": [
+      "13026255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27062526",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibioticresistance.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotic Resistance"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41898392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.12.603170",
+  "title": "The state-of-the-art machine learning model for Plasma Protein Binding Prediction: computational modeling with OCHEM and experimental validation",
+  "authors": "Zunsheng Han; Zhonghua Xia; Jie Xia; Igor V. Tetko; Song Wu",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-16",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习预测血浆蛋白结合率，对象为小分子-血浆蛋白，非蛋白质-DNA互作，且无结合建模与机制研究，与本课题无关。",
+  "abstract": "Plasma protein binding (PPB) is closely related to pharmacokinetics, pharmacodynamics and drug toxicity. Prediction of PPB is an alternative to experimental approaches that are known to be time-consuming and costly. Although there are various models and web servers for PPB prediction already available, they suffer from low prediction accuracy and poor interpretability, in particular for molecules with high values, and are most often not properly validated in prospective studies. Here, we carried out strict data curation, and applied consensus modeling to obtain a model with a coefficient of determination of 0.90 and 0.91 on the training set and the test set, respectively. This model was further validated in a prospective study to predict 63 poly-fluorinated and another 25 highly diverse compounds, and its performance for both these sets was superior to that of other previously reported models. To identify structural features related to PPB, we analyzed a model based on Morgan2 fingerprints and identified that features such as aromatic rings, halogen atoms, heterocyclic rings can discriminate high- and low-PPB molecules. In conclusion, we have established a PPB prediction model that showed state-of-the-art performance in prospective screening, which we have made publicly available in the OCHEM platform ( https://ochem.eu/article/29 ). Graphic Abstract",
+  "abstract_zh": "血浆蛋白结合（Plasma protein binding, PPB）与药代动力学、药效学及药物毒性密切相关。预测PPB是实验方法的一种替代方案，已知实验方法耗时且成本高昂。尽管已有多种用于PPB预测的模型和网络服务器，但它们存在预测准确度低和可解释性差的问题，尤其是对于高值分子，并且通常未在前瞻性研究中得到适当验证。在此，我们进行了严格的数据整理，并应用共识建模获得了在训练集和测试集上决定系数分别为0.90和0.91的模型。该模型进一步在前瞻性研究中得到验证，用于预测63种多氟化合物和另外25种高度多样化的化合物，其对这两组化合物的性能均优于先前报道的其他模型。为识别与PPB相关的结构特征，我们分析了基于Morgan2指纹的模型，并发现芳香环、卤素原子、杂环等特征能够区分高PPB和低PPB分子。总之，我们建立了一个在前瞻性筛选中表现出最先进性能的PPB预测模型，并已在OCHEM平台（https://ochem.eu/article/29）上公开提供。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603170",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603170",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.12.603170/index.html"
+}

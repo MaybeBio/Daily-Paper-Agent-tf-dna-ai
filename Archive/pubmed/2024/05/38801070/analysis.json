@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38801070",
+  "title": "Deep DNAshape webserver: prediction and real-time visualization of DNA shape considering extended k-mers.",
+  "authors": "Li, Jinsen; Rohs, Remo",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-05-27",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了基于深度学习的Deep DNAshape网络服务器，预测DNA形状特征并考虑扩展k-mer侧翼序列，服务于蛋白-DNA结合机制研究，虽非直接建模TF-DNA互作，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Sequence-dependent DNA shape plays an important role in understanding protein-DNA binding mechanisms. High-throughput prediction of DNA shape features has become a valuable tool in the field of protein-DNA recognition, transcription factor-DNA binding specificity, and gene regulation. However, our widely used webserver, DNAshape, relies on statistically summarized pentamer query tables to query DNA shape features. These query tables do not consider flanking regions longer than two base pairs, and acquiring a query table for hexamers or higher-order k-mers is currently still unrealistic due to limitations in achieving sufficient statistical coverage in molecular simulations or structural biology experiments. A recent deep-learning method, Deep DNAshape, can predict DNA shape features at the core of a DNA fragment considering flanking regions of up to seven base pairs, trained on limited simulation data. However, Deep DNAshape is rather complicated to install, and it must run locally compared to the pentamer-based DNAshape webserver, creating a barrier for users. Here, we present the Deep DNAshape webserver, which has the benefits of both methods while being accurate, fast, and accessible to all users. Additional improvements of the webserver include the detection of user input in real time, the ability of interactive visualization tools and different modes of analyses. URL: https://deepdnashape.usc.edu.",
+  "abstract_zh": "序列依赖性DNA形状在理解蛋白质-DNA结合机制中扮演着重要角色。高通量预测DNA形状特征已成为蛋白质-DNA识别、转录因子-DNA结合特异性及基因调控领域中的宝贵工具。然而，我们广泛使用的网络服务器DNAshape依赖于统计汇总的五聚体查询表来查询DNA形状特征。这些查询表未考虑超过两个碱基对的侧翼区域，并且由于在分子模拟或结构生物学实验中实现足够统计覆盖度的局限性，获取六聚体或更高阶k-mer的查询表目前仍不现实。最近的一种深度学习方法Deep DNAshape，能够在考虑最多七个碱基对侧翼区域的情况下预测DNA片段核心的DNA形状特征，该模型基于有限的模拟数据训练而成。然而，Deep DNAshape安装较为复杂，且必须本地运行，与基于五聚体的DNAshape网络服务器相比，这为用户设置了障碍。在此，我们推出了Deep DNAshape网络服务器，它兼具两种方法的优点，同时准确、快速且对所有用户开放。该网络服务器的额外改进包括实时检测用户输入、交互式可视化工具的能力以及不同的分析模式。网址：https://deepdnashape.usc.edu。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38801070/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38801070/",
+  "paper_page_path": "papers/pubmed/38801070/index.html"
+}

@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39738353",
+    "doi": "10.1038/s41598-024-82238-5",
+    "title": "Predicting CTCF cell type active binding sites in human genome."
+  },
+  "content": {
+    "abstract": "The CCCTC-binding factor (CTCF) is pivotal in orchestrating diverse biological functions across the human genome, yet the mechanisms driving its cell type-active DNA binding affinity remain underexplored. Here, we collected ChIP-seq data from 67 cell lines in ENCODE, constructed a unique dataset of cell type-active CTCF binding sites (CBS), and trained convolutional neural networks (CNN) to dissect the patterns of CTCF binding activity. Our analysis reveals that transcription factors RAD21/SMC3 and chromatin accessibility are more predictive compared to sequence motifs and histone modifications. Integrating them together achieved AUPRC values consistently above 0.868, highlighting their utility in deciphering CTCF transcription factor binding dynamics. This study provides a deeper understanding of the regulatory functions of CTCF via machine learning framework.",
+    "keywords": [
+      "CTCF binding site",
+      "Chromatin accessibility",
+      "Convolutional neural networks",
+      "RAD21",
+      "SMC3"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*CCCTC-Binding Factor/metabolism/genetics",
+      "Binding Sites",
+      "*Genome, Human",
+      "Protein Binding",
+      "Chromatin/metabolism/genetics",
+      "Cell Cycle Proteins/metabolism/genetics",
+      "Neural Networks, Computer",
+      "Chromatin Immunoprecipitation Sequencing",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chai, Lu",
+        "Gao, Jie",
+        "Li, Zihan",
+        "Sun, Hao",
+        "Liu, Junjie",
+        "Wang, Yong",
+        "Zhang, Lirong"
+      ],
+      "short_names": [
+        "Chai L",
+        "Gao J",
+        "Li Z",
+        "Sun H",
+        "Liu J",
+        "Wang Y",
+        "Zhang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China.",
+        "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, 100190, People's Republic of China. ywang@amss.ac.cn.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China. pyzlr@imu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chai, Lu",
+        "short_name": "Chai L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jie",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Zihan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hao",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Junjie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, 100190, People's Republic of China. ywang@amss.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lirong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot, 010021, People's Republic of China. pyzlr@imu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/01 12:42",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42240917",
+      "41009620"
+    ],
+    "refs": [
+      "34864886",
+      "34459479",
+      "34181707",
+      "34073774",
+      "33522898",
+      "33091336",
+      "32933554",
+      "32905524",
+      "32859244",
+      "32033573",
+      "32022856",
+      "31814842",
+      "31723409",
+      "31553288",
+      "31266948",
+      "30630522",
+      "30598110",
+      "30598100",
+      "30567711",
+      "30324595",
+      "29605856",
+      "29241411",
+      "28977650",
+      "28334916",
+      "27993786",
+      "27899623",
+      "27307608",
+      "27153624",
+      "27137890",
+      "26967279",
+      "26586801",
+      "26531826",
+      "26315019",
+      "26301843",
+      "26276636",
+      "26053496",
+      "24614316",
+      "24489365",
+      "23354101",
+      "22955980",
+      "22495300",
+      "21486936",
+      "21330290",
+      "20110278",
+      "19458158",
+      "19056695",
+      "17522673",
+      "17442748",
+      "17382889",
+      "15637633",
+      "9407128",
+      "8649389"
+    ],
+    "similar": [
+      "39738353",
+      "31937660",
+      "32333838",
+      "29593713",
+      "39521361",
+      "39202349",
+      "33626344",
+      "27582050",
+      "31285261",
+      "29561703",
+      "31653198",
+      "30940740",
+      "22952237",
+      "33154377",
+      "31666380",
+      "38670416",
+      "34585631",
+      "38816647",
+      "32885250",
+      "38745107",
+      "18550811",
+      "23010778",
+      "23804403",
+      "40118069",
+      "29217591",
+      "33232622",
+      "35410161",
+      "19369356",
+      "39903776",
+      "30031214",
+      "19056695",
+      "34245617",
+      "31547883",
+      "21606361",
+      "27974201",
+      "33091336",
+      "33187878",
+      "31204999",
+      "31910870",
+      "35180428",
+      "26818008",
+      "34429148",
+      "27067545",
+      "35145304",
+      "31522988",
+      "34209337",
+      "33255744",
+      "30310060",
+      "31177910",
+      "33046897",
+      "30655336",
+      "38397134",
+      "38950902",
+      "38206813",
+      "33411704",
+      "29976663",
+      "20020479",
+      "32086528",
+      "31911579",
+      "38217027",
+      "38742641",
+      "37302762",
+      "22740398",
+      "38072046",
+      "30738580",
+      "18654629",
+      "25934638",
+      "23650640",
+      "37813869",
+      "29860503",
+      "26686651",
+      "22550178",
+      "27219007",
+      "34181707",
+      "39430552",
+      "39146885",
+      "34915195",
+      "33634313",
+      "34002095",
+      "28424523",
+      "31257199",
+      "32631111",
+      "35710842",
+      "32717742",
+      "37979036",
+      "29981477",
+      "29133398",
+      "29077515",
+      "34735550",
+      "36696451",
+      "35993175",
+      "25081205",
+      "40022213",
+      "23295672",
+      "34197738",
+      "30031775",
+      "39173638",
+      "32924169",
+      "31266948",
+      "25228660"
+    ],
+    "review": [
+      "39738353",
+      "30940740",
+      "22952237",
+      "30031214",
+      "33187878",
+      "20020479",
+      "23650640",
+      "34181707",
+      "39430552",
+      "39146885",
+      "32631111",
+      "29077515"
+    ],
+    "pmc": [
+      "11686126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-82238-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39738353/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1006",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

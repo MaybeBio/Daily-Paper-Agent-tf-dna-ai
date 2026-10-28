@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "41889773",
+    "doi": "10.1021/jacsau.5c01412",
+    "title": "Multisite Phosphorylation Regulates the Structure and Auto-Inhibitory Function of the Intrinsically Disordered N‑Terminal Domain of p53."
+  },
+  "content": {
+    "abstract": "Multisite phosphorylation plays an important role in essential cellular processes such as cell cycle control and circadian rhythm regulation and is also closely involved in the onset and progression of cancer and neurodegenerative diseases. As one of the most critical human tumor suppressor proteins, p53 is greatly modulated by phosphorylation. It contains numerous phosphorylation sites in its intrinsically disordered terminal domains. Specifically, multisite phosphorylation in the N-terminal domain (NTD) stimulates its autoinhibitory function, thereby repressing its downstream DNA transcriptional activity. However, the molecular mechanisms by which phosphorylation regulates p53 autoinhibition remain largely unclear. In this study, we employed all-atom molecular dynamics simulations combined with enhanced sampling methods to investigate how phosphorylation influences the structural properties of the intrinsically disordered p53-NTD, as well as its interaction with the DNA-binding domain (DBD). Our results show that phosphorylation significantly modulates the structural properties of p53-NTD, including both local structures and long-range residue interactions. T55 phosphorylation promotes the insertion of the aromatic rings of F54 and W53 into the DNA-binding pocket (DBP) of DBD and synergistically stabilizes the NTD-DBD interactions. Although S46 single phosphorylation would not induce NTD binding to the DBP, it can amplify the self-inhibitory ability of pT55 by reducing the dynamic conformational entropy of NTD. This study reveals the detailed molecular mechanism by which phosphorylation on p53-NTD regulates the structure and self-inhibition, providing crucial insights into the molecular basis underlying intrinsically disordered protein functions.",
+    "keywords": [
+      "autoinhibition",
+      "intrinsically disordered protein",
+      "multisite phosphorylation",
+      "p53 protein",
+      "structural ensemble"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Liang",
+        "Li, Beifeier",
+        "Liang, Kuan",
+        "Zhao, Zirui",
+        "Ni, Lianjie",
+        "Duan, Jinyu",
+        "Luo, Zhiyi",
+        "Zheng, Zheng",
+        "Duan, Mojie"
+      ],
+      "short_names": [
+        "Fu L",
+        "Li B",
+        "Liang K",
+        "Zhao Z",
+        "Ni L",
+        "Duan J",
+        "Luo Z",
+        "Zheng Z",
+        "Duan M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5221-3209",
+        "ORCID: 0000-0002-5496-832X"
+      ],
+      "affiliations": [
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "School of Chemistry, Chemical Engineering and Life Science, Wuhan University of Technology, Wuhan, Hubei 430070, P. R. China. RINGGOLD: 12565",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China.",
+        "School of Chemistry, Chemical Engineering and Life Science, Wuhan University of Technology, Wuhan, Hubei 430070, P. R. China. RINGGOLD: 12565",
+        "Divamics Inc., Suzhou, Jiangsu 215000, P. R. China.",
+        "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China. RINGGOLD: 47900",
+        "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Liang",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Beifeier",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry, Chemical Engineering and Life Science, Wuhan University of Technology, Wuhan, Hubei 430070, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liang, Kuan",
+        "short_name": "Liang K",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zirui",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Lianjie",
+        "short_name": "Ni L",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Jinyu",
+        "short_name": "Duan J",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhiyi",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zheng",
+        "short_name": "Zheng Z",
+        "identifiers": [
+          "0000-0001-5221-3209"
+        ],
+        "affiliations": [
+          "School of Chemistry, Chemical Engineering and Life Science, Wuhan University of Technology, Wuhan, Hubei 430070, P. R. China.",
+          "Divamics Inc., Suzhou, Jiangsu 215000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Duan, Mojie",
+        "short_name": "Duan M",
+        "identifiers": [
+          "0000-0002-5496-832X"
+        ],
+        "affiliations": [
+          "Interdisciplinary Institute of NMR and Molecular Sciences, Wuhan University of Science and Technology, Wuhan 430081, China.",
+          "Hubei Province for Coal Conversion and New Carbon Materials, School of Chemistry and Chemical Engineering, Wuhan University of Science and Technology, Wuhan 430081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Mar 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:15",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41028199",
+      "40101966",
+      "39914051",
+      "38729160",
+      "38552605",
+      "37127974",
+      "36859359",
+      "36791464",
+      "36703366",
+      "36349142",
+      "36216888",
+      "35317227",
+      "33443163",
+      "32703900",
+      "30988205",
+      "30612880",
+      "30420502",
+      "29443972",
+      "27819658",
+      "27738173",
+      "27504491",
+      "26619985",
+      "25470056",
+      "25216154",
+      "22505655",
+      "20628786",
+      "19536158",
+      "19489734",
+      "19357310",
+      "17972286",
+      "17585314",
+      "17429353",
+      "17419610",
+      "16793544",
+      "16793543",
+      "9215639",
+      "8744570",
+      "8019132"
+    ],
+    "similar": [
+      "41889773",
+      "41599722",
+      "40101966",
+      "33443163",
+      "26742101",
+      "29944921",
+      "35341741",
+      "31241933",
+      "39578215",
+      "25897952",
+      "19933326",
+      "23912807",
+      "33984364",
+      "31248328",
+      "30420502",
+      "28597880",
+      "35298814",
+      "21457718",
+      "35317227",
+      "31797597",
+      "22176582",
+      "42475469",
+      "27098855",
+      "32184088",
+      "30862072",
+      "26735936",
+      "41552434",
+      "31881526",
+      "26445449",
+      "38973087",
+      "34681718",
+      "33579943",
+      "29557644",
+      "24704038",
+      "36358908",
+      "22003412",
+      "36703366",
+      "30832340",
+      "42000821",
+      "34320339",
+      "40673718",
+      "40464633",
+      "37971402",
+      "8913292",
+      "27340212",
+      "36845554",
+      "33030907",
+      "23995840",
+      "38916177",
+      "23497088",
+      "20962272",
+      "21064127",
+      "25533957",
+      "39936184",
+      "17785449",
+      "40782996",
+      "31855846",
+      "26976603",
+      "39186607",
+      "39359255",
+      "32592801",
+      "32696391",
+      "34439881",
+      "31238511",
+      "22280219",
+      "41952000",
+      "39737749",
+      "36380579",
+      "29719201",
+      "42328863",
+      "29848585",
+      "30855964",
+      "35659507",
+      "27604871",
+      "25374254",
+      "33929321",
+      "25591003",
+      "28161714",
+      "29124793",
+      "26025680",
+      "37937769",
+      "30304684",
+      "42130315",
+      "41933762",
+      "38123020",
+      "27050388",
+      "30892621",
+      "39713372",
+      "19357310",
+      "30414042",
+      "31253862",
+      "36083825",
+      "33548325",
+      "22288499",
+      "19847292",
+      "36416224",
+      "35752942",
+      "36084124",
+      "24333369",
+      "40856697"
+    ],
+    "review": [
+      "41889773",
+      "39578215",
+      "27098855",
+      "30862072",
+      "8913292"
+    ],
+    "pmc": [
+      "13014242"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41889773/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c01412",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

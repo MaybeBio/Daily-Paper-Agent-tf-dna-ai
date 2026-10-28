@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as described in the abstract, without access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present an in silico drug discovery workflow targeting human c-Rel protein, a transcription factor implicated in inflammatory and cancer pathologies. They claim to introduce a novel screening approach that uses structural validation sets and molecular modelling to probe binding sites in the absence of a crystal structure, integrate machine learning and molecular simulation for binding site analysis, and perform a high-throughput virtual screen of 34 M drug-like compounds filtered from a 659 M compound library, identifying promising structures and potential action mechanisms for future c-Rel inhibitors or modulators.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or results data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for structural validation sets, machine learning protocols, molecular simulation parameters, virtual screening pipeline, compound library filtering criteria, and any quantitative results or validation metrics
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially valuable computational workflow for a challenging target, but the provided material is insufficient to evaluate the technical soundness, novelty, or validity of the claims. The core assertions regarding the novel screening approach, the effectiveness of the machine learning and simulation analyses, and the outcomes of the high-throughput screen are not supported by any visible evidence. The abstract reads as a high-level summary, but without methodological detail or results, the case for a successful in silico drug discovery platform is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, medicinal chemists, and researchers in immunology and oncology would be interested if the methods are validated and the results are reproducible. The potential to target c-Rel, a transcription factor with no current inhibitors, could attract those seeking novel therapeutic strategies for inflammatory diseases and cancers. However, interest would depend on the demonstration of a robust and generalizable workflow, which is not evident from the abstract alone.
+- **Major strengths** The target selection is clinically relevant and underexplored, which gives the work potential significance. The abstract outlines a comprehensive computational strategy that combines multiple techniques, including structural validation, machine learning, molecular simulation, and high-throughput screening, which could be a strength if executed rigorously. The scale of the compound library screen, 34 M compounds from 659 M, suggests a substantial computational effort.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims to introduce a novel in silico screening approach to probe binding sites using structural validation sets and molecular modelling, and to describe a method of computer-aided drug design when a crystal structure is not available.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no details on what the structural validation sets are, how they were constructed, or how they validate binding sites in the absence of a crystal structure. The novelty of the approach cannot be assessed without a description of the methodology and a comparison to existing techniques.
+  - **Why it matters** The central claim of the paper is the introduction of a novel method. Without evidence of what is new and how it works, the scientific contribution is unverifiable. The absence of a crystal structure is a common challenge, and the field requires clear methodological innovation to justify publication.
+  - **Resolution test** The full manuscript must provide a detailed description of the structural validation sets, the modelling pipeline, and a demonstration that the approach yields reliable binding site predictions, ideally with benchmarking against known structures or experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that binding sites can be analysed with machine learning and molecular simulation approaches to help assess and systematically analyse how drug candidates can exert their mode of action.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No results from the machine learning or molecular simulation analyses are presented. There is no indication of what models were used, what data they were trained on, or what insights were gained regarding drug candidate mechanisms. The claim that these approaches help assess mode of action is unsupported.
+  - **Why it matters** The integration of machine learning and simulation is a key part of the proposed workflow. Without evidence of their application and output, the reader cannot judge whether the methods are effective or whether the conclusions about action mechanisms are justified.
+  - **Resolution test** The full manuscript must include specific results from the machine learning and simulation analyses, such as predicted binding poses, interaction profiles, or feature importance, and show how these inform the proposed mechanisms of action.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Results validity
+  - **Claim pointer** The abstract claims that a high-throughput virtual screen of 34 M drug-like compounds filtered from a library of 659 M compounds identified the most promising structures and proposed potential action mechanisms for future development of highly selective human c-Rel inhibitors or modulators.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no quantitative results from the virtual screen, such as hit rates, enrichment factors, or specific compound identities. The claim of identifying promising structures is not supported by any data. The criteria for selecting these structures and the basis for proposing action mechanisms are not described.
+  - **Why it matters** The outcome of the virtual screen is the primary deliverable of the study. Without results, the practical value of the workflow for drug discovery cannot be assessed. The claim of identifying promising compounds is a strong assertion that requires evidence.
+  - **Resolution test** The full manuscript must present the screening results, including the number of hits, their predicted binding affinities or scores, and a clear rationale for why they are considered promising, along with any validation steps.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "structural validation sets" is ambiguous and could be interpreted in multiple ways, such as sets of known binding sites for validation or sets of structures used to validate the modelling approach.
+  - **Required correction** Define the term explicitly in the abstract or rephrase to clarify what the validation sets consist of and their role in the workflow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Compound library filtering
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract states that 34 M compounds were filtered from 659 M, but the filtering criteria are not mentioned, such as drug-likeness rules, physicochemical properties, or target-based filters.
+  - **Required correction** Specify the filtering criteria in the abstract or indicate that they are detailed in the full manuscript, to allow readers to understand the basis for the compound selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of novelty
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract claims the approach is "novel" and "cutting-edge" but does not contextualize it against existing in silico methods for targets without crystal structures, such as homology modelling or pocket prediction tools.
+  - **Required correction** Add a brief statement in the abstract or introduction that situates the method relative to prior work, to substantiate the novelty claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail and results for the core components of the workflow means that the technical soundness and validity of the claims cannot be verified from the provided material.
+- **Assessment against Nature-style criteria** Originality: The target and the combination of methods may be original, but the novelty is not demonstrated in the abstract. Scientific importance: The potential to develop c-Rel inhibitors is significant, but the importance is contingent on the validity of the results. Interdisciplinary readership: The work could appeal to computational and biomedical audiences, but the abstract lacks sufficient detail to engage specialists. Technical soundness: Not assessable from the abstract; the methods are described only at a high level. Readability for nonspecialists: The abstract is generally readable but uses jargon such as "structural validation sets" and "high through-put virtual screen" without explanation, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines an interesting concept, but the lack of methodological and results detail prevents a supportive recommendation. The case could be strengthened if the full manuscript provides rigorous evidence for each claim.
+
+## Risk / unsupported claims
+- The claim of introducing a novel in silico screening approach is unsupported without methodological details and comparison to existing methods.
+- The claim that machine learning and molecular simulation analyses help assess drug candidate action mechanisms is unsupported without results.
+- The claim of identifying promising structures from the virtual screen is unsupported without hit data or compound identities.
+- The overall effectiveness of the workflow for c-Rel inhibitor development is not assessable from the abstract.

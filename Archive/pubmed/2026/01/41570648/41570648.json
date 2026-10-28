@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41570648",
+    "doi": "10.1016/j.ecoenv.2026.119773",
+    "title": "Nuclear receptors-mediated lipid metabolism dysregulation: A potential mechanism linking PFOA/PFOS to hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC), a prevalent liver malignancy, is closely associated with dysregulated lipid metabolism. Endocrine disrupting chemicals (EDCs) can bind to nuclear receptors (NRs) and potentially induce carcinogenesis, but their specific influence on HCC progression remains unclear. To investigate this relationship, we combined bioinformatic analyses with experimental validation in the present study. Differential expression analysis of public HCC datasets (GSE14323, GSE17548, and GSE25097) identified candidate genes, which were further refined via weighted gene co-expression network analysis (WGCNA) and machine learning algorithms (RF and SVM-RFE), pinpointing NPY1R and CLEC1B as key genes. Their downregulation in HCC was validated in an independent dataset (GSE54236) and in clinical liver tissues (n = 118). Molecular docking and dynamics simulations prioritized perfluorooctanoic acid (PFOA) and perfluorooctane sulfonic acid (PFOS) as high-affinity binders to the proteins encoded by these genes. In vitro, exposure to PFOA/PFOS dose-dependently suppressed NPY1R and CLEC1B expression in HepG2 cells. Chromatin immunoprecipitation assays revealed that PFOA/PFOS inhibit the binding of estrogen receptors (ERalpha and ERbeta) to the promoters of these genes, leading to reduced transcription and increased lipid accumulation. Knockdown of ERalpha/ERbeta exacerbated, while their overexpression rescued, the lipid-metabolic disruption induced by PFOA/PFOS. These findings indicate that EDCs such as PFOA and PFOS may promote HCC progression by disrupting lipid metabolism via interference with NR-dependent gene regulation, highlighting a novel environmental-toxicological axis in hepatocarcinogenesis.",
+    "keywords": [
+      "CLEC1B",
+      "Endocrine disrupting chemicals",
+      "Hepatocellular carcinoma",
+      "Lipid metabolism",
+      "NPY1R",
+      "Nuclear receptors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/chemically induced/genetics/metabolism",
+      "*Liver Neoplasms/chemically induced/genetics/metabolism",
+      "*Lipid Metabolism/drug effects/physiology",
+      "Receptors, Cytoplasmic and Nuclear/genetics/metabolism",
+      "*Fluorocarbons/metabolism/toxicity",
+      "Hep G2 Cells",
+      "Alkanesulfonic Acids/metabolism/toxicity",
+      "Gene Expression Regulation, Neoplastic/drug effects/physiology",
+      "*Endocrine Disruptors/metabolism/toxicity",
+      "Receptors, Estrogen/genetics/metabolism",
+      "Random Forest",
+      "Support Vector Machine",
+      "Predictive Learning Models",
+      "Molecular Docking Simulation",
+      "Environmental Exposure",
+      "*Environmental Pollutants/metabolism/toxicity",
+      "Machine Learning Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Shujing",
+        "Qiao, Shikai",
+        "Zhang, Shuo",
+        "Liu, Chun",
+        "Chen, Li",
+        "Dai, Binghua",
+        "Yang, Changqing",
+        "Xia, Lu",
+        "Xiong, Guangsu",
+        "Zhao, Luying",
+        "Li, Jing"
+      ],
+      "short_names": [
+        "Xu S",
+        "Qiao S",
+        "Zhang S",
+        "Liu C",
+        "Chen L",
+        "Dai B",
+        "Yang C",
+        "Xia L",
+        "Xiong G",
+        "Zhao L",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Hepatobiliary Surgery, Shanghai Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai 200438, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: xgs2002@tongji.edu.cn.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: zhaoly2021@163.com.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: lijingshengping@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Shujing",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Shikai",
+        "short_name": "Qiao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuo",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chun",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Li",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Binghua",
+        "short_name": "Dai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Shanghai Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Changqing",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Lu",
+        "short_name": "Xia L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Guangsu",
+        "short_name": "Xiong G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: xgs2002@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Luying",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: zhaoly2021@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: lijingshengping@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Jan 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 00:26",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41570648",
+      "40317014",
+      "39159514",
+      "41371106",
+      "40347464",
+      "42025812",
+      "27139122",
+      "40580631",
+      "41769099",
+      "26234195",
+      "36037606",
+      "27153767",
+      "41643370",
+      "32253466",
+      "22197512",
+      "42228706",
+      "41288681",
+      "39814999",
+      "40958282",
+      "21723365",
+      "41083578",
+      "40448290",
+      "41719982",
+      "37572494",
+      "28049043",
+      "41357200",
+      "41593793",
+      "41326018",
+      "22465071",
+      "17980923",
+      "41108957",
+      "22265611",
+      "28982594",
+      "40392001",
+      "39023830",
+      "38199259",
+      "19468714",
+      "34695511",
+      "27626137",
+      "41763175",
+      "41895505",
+      "40858661",
+      "41801960",
+      "41371105",
+      "41417218",
+      "41699663",
+      "40516594",
+      "39778647",
+      "23972907",
+      "41667778",
+      "40682115",
+      "23707773",
+      "39629121",
+      "26445054",
+      "32588087",
+      "39548390",
+      "38182912",
+      "40864066",
+      "30665113",
+      "30056006",
+      "23074026",
+      "22245121",
+      "41794187",
+      "36565765",
+      "42032347",
+      "31376682",
+      "40615101",
+      "34974025",
+      "41529475",
+      "31695789",
+      "41485723",
+      "41344141",
+      "33522955",
+      "27108203",
+      "40921337",
+      "41423934",
+      "41293954",
+      "40956482",
+      "41103024",
+      "25462297",
+      "25182428",
+      "42292423",
+      "32521362",
+      "19162173",
+      "28431976",
+      "17047030",
+      "41839293",
+      "36113621",
+      "39523091",
+      "31809754",
+      "39910429",
+      "40367801",
+      "40069732",
+      "28864880",
+      "29986037",
+      "42136961",
+      "41940593",
+      "41895243",
+      "40101590",
+      "31029902"
+    ],
+    "review": [
+      "41570648"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00102-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

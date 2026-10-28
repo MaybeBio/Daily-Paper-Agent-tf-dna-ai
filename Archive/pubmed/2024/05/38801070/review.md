@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Technical soundness and scientific contribution of the described webserver, as presented in the provided manuscript text. No supplementary materials, figures, or tables were provided for inspection.
+- **Shared manuscript claim summary** The authors present a webserver, Deep DNAshape, that predicts and visualizes DNA shape features in real time using pre-generated k-mer query tables (k=5 to 11) derived from the Deep DNAshape deep-learning model. The webserver is claimed to be accurate, fast, and accessible, overcoming limitations of the previous pentamer-based DNAshape webserver and the locally run Deep DNAshape model.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (sections on Deep DNAshape method, DNA shape features, query table generation, daemon program, backend/frontend design, sliding window algorithm, security protocols), Results (sections on real-time illustration, flanking region effects, similar/different shape examples, boxplot analysis), Discussion, Data availability, Funding, Conflicts of interest, Acknowledgements.
+- **Missing materials affecting confidence** All figures (Figures 1, 2, 3A–D), supplementary data, actual query table contents, performance benchmarks, validation datasets, and comparison analyses against the original DNAshape webserver or Deep DNAshape model. No quantitative results or statistical analyses are presented in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful and timely web-based tool that addresses a real accessibility gap in DNA shape prediction. The concept of pre-generating k-mer query tables from a deep-learning model to enable fast, real-time prediction is sound and practical. However, the manuscript as provided lacks any quantitative validation, performance metrics, or direct comparisons with existing tools. The claims of accuracy, speed, and utility are asserted but not demonstrated with data. The methodological description is clear but incomplete in key areas, such as how the query tables were validated against the original model or experimental data. The paper is more of a software description than a scientific study, and its impact would be significantly strengthened by including benchmark results, case studies with biological validation, and a more thorough discussion of limitations and potential artifacts.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and gene regulation who study protein–DNA interactions, transcription factor binding specificity, and sequence–structure relationships. The tool lowers the barrier for using deep-learning-based DNA shape predictions, making it attractive to experimental biologists who need quick structural insights without local installation. The real-time visualization and interactive features are particularly appealing for educational purposes and exploratory analysis.
+- **Major strengths**
+  1. Addresses a clear and important need: making deep-learning-based DNA shape prediction accessible via a web interface.
+  2. The approach of pre-generating k-mer tables is a clever engineering solution that decouples the heavy computation from the user-facing server.
+  3. The webserver includes thoughtful features such as real-time input detection, interactive plotting, multiple analysis modes, and data privacy protocols.
+  4. The manuscript is clearly written and the methods are described in sufficient detail for reproduction of the server architecture.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The webserver is claimed to be "accurate" and to provide "high-throughput prediction of DNA shape features" that are useful for understanding protein–DNA binding.
+  - **Evidence pointer** Results section, "Real-time illustration of DNA shape features for any number of DNA sequences"; no quantitative data provided.
+  - **Concern** The manuscript provides no quantitative validation of the predictions made by the webserver. There are no benchmark results comparing the k-mer table outputs to the original Deep DNAshape model, to the pentamer-based DNAshape webserver, or to experimental structural data. The accuracy of the predictions is a central claim, yet it is entirely unsupported by data in the provided text.
+  - **Why it matters** Without validation, users cannot assess whether the webserver produces reliable predictions. The entire scientific utility of the tool rests on the accuracy of the underlying predictions, and the manuscript does not establish this.
+  - **Resolution test** Provide a validation section with quantitative comparisons, such as correlation coefficients or error metrics between webserver predictions and (a) the original Deep DNAshape model outputs, (b) the pentamer-based DNAshape webserver, and (c) experimental structures or simulation data. Include at least one benchmark dataset and report performance statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The webserver is claimed to be "fast" and to enable "real-time" prediction and visualization.
+  - **Evidence pointer** Results section, "Real-time illustration of DNA shape features for any number of DNA sequences"; no performance metrics provided.
+  - **Concern** No performance benchmarks are reported. The claim of real-time prediction is qualitative. There is no information on response times for typical input sizes, scalability with sequence length or number of sequences, or server capacity under concurrent usage.
+  - **Why it matters** Real-time interactivity is a key differentiator of this webserver compared to the original Deep DNAshape model. Without performance data, it is unclear whether the tool meets this promise under realistic usage conditions.
+  - **Resolution test** Provide benchmark results showing response times for representative input sizes (e.g., 10 bp, 100 bp, 1 kb, 10 kb) and for multiple sequences. Include information on server hardware and concurrent user load.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript implies that the webserver will "replace the DNAshape webserver" and "unlock much potential to many biological applications."
+  - **Evidence pointer** Discussion section.
+  - **Concern** The manuscript does not demonstrate any novel biological insights or applications enabled by the extended k-mer predictions. The examples in Figure 3 are described qualitatively but no biological conclusions are drawn. The claim of broad utility is plausible but not substantiated with concrete use cases or analyses.
+  - **Why it matters** For a tool paper, demonstrating at least one or two concrete biological applications where the extended flanking context provides new or improved insights would significantly strengthen the case for its importance and adoption.
+  - **Resolution test** Include at least one case study where the webserver's predictions lead to a testable hypothesis or a novel observation about protein–DNA binding, gene regulation, or sequence–structure relationships. Ideally, this would be validated experimentally or with independent data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The query tables are generated by the Deep DNAshape method and stored in Apache Parquet format. The sliding window algorithm is used to query these tables.
+  - **Evidence pointer** Materials and Methods, "Retrofit query table generation" and "Sliding window algorithm to query DNA shape".
+  - **Concern** The manuscript does not describe how the query tables were validated for consistency with the original Deep DNAshape model. It is unclear whether the tables reproduce the model's outputs exactly, approximately, or with some error. The handling of N characters in the input sequences and how they map to the query tables is also not fully specified.
+  - **Why it matters** Users need to know the fidelity of the table-based predictions relative to the full model. If there are discrepancies, they should be quantified and discussed. The N-handling is important for practical use with genomic sequences containing ambiguous bases.
+  - **Resolution test** Provide a comparison of table-based predictions vs. the original Deep DNAshape model on a test set of sequences, reporting error statistics. Clearly describe how N characters are treated in the query process and whether they are included in the tables or handled as special cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction assumes familiarity with DNA shape concepts and the previous DNAshape webserver. A brief explanation of what DNA shape features are and why they matter for a broader audience would improve accessibility.
+  - **Required correction** Add one or two sentences in the introduction defining DNA shape features (e.g., minor groove width, roll, helix twist) and their biological relevance, particularly for readers outside the immediate field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Server-side light-weight daemon program for database query"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the daemon program and Pyro4 communication is brief. It is unclear how the daemon handles concurrent requests or whether there are any bottlenecks in the query process.
+  - **Required correction** Provide a brief note on concurrency handling or state that the current implementation is single-threaded and discuss implications for multi-user usage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Security protocols to ensure data privacy"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The security section describes privacy measures but does not mention data retention policies for uploaded files beyond immediate deletion. It is also unclear whether the server logs any user activity.
+  - **Required correction** Clarify whether any logs are kept and for how long, and state the data retention policy explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, "Statistical analysis of bulk sequences"
+  - **Evidence pointer** Results
+  - **Issue** The boxplot example using the Max homodimer is described briefly. The biological significance of the observed variation in shape profiles at the core is not explained.
+  - **Required correction** Add a sentence or two explaining why variation in shape at the core, despite a conserved E-box, is biologically interesting and what it might imply for binding specificity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Materials and Methods, "Deep DNAshape method and predicted DNA shape features"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The distinction between intra-bp, inter-bp, and minor groove features is listed but not explained. A reader unfamiliar with structural biology may not understand what these categories mean.
+  - **Required correction** Add a brief explanation of the three categories and what they measure, or refer the reader to a review article.
+
+## Risk / unsupported claims
+- The claim that the webserver is "accurate" is unsupported by any quantitative validation data.
+- The claim of "real-time" prediction is unsupported by performance benchmarks.
+- The claim that the webserver will "replace the DNAshape webserver" is speculative and not backed by evidence of user adoption or comparative utility.
+- The claim that the webserver "unlocks much potential to many biological applications" is not demonstrated with concrete examples.
+- The statement that the query tables "corrected biases and artifacts" from the raw data is not substantiated with any analysis.
+- The biological examples in Figure 3 are described qualitatively, and their significance is not established with statistical or experimental evidence.

@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "34666191",
+    "doi": "10.1016/j.ygeno.2021.10.007",
+    "title": "DeepSE: Detecting super-enhancers among typical enhancers using only sequence feature embeddings."
+  },
+  "content": {
+    "abstract": "Super-enhancer (SE) is a cluster of active typical enhancers (TE) with high levels of the Mediator complex, master transcriptional factors, and chromatin regulators. SEs play a key role in the control of cell identity and disease. Traditionally, scientists used a variety of high-throughput data of different transcriptional factors or chromatin marks to distinguish SEs from TEs. This kind of experimental methods are usually costly and time-consuming. In this paper, we proposed a model DeepSE, which is based on a deep convolutional neural network model, to distinguish the SEs from TEs. DeepSE represent the DNA sequences using the dna2vec feature embeddings. With only the DNA sequence information, DeepSE outperformed all state-of-the-art methods. In addition, DeepSE can be generalized well across different cell lines, which implied that cell-type specific SEs may share hidden sequence patterns across different cell lines. The source code and data are stored in GitHub (https://github.com/QiaoyingJi/DeepSE).",
+    "keywords": [
+      "Convolutional neural network",
+      "Super-enhancers",
+      "dna2vec"
+    ],
+    "mesh_terms": [
+      "Cell Line",
+      "*Chromatin/genetics",
+      "*Enhancer Elements, Genetic",
+      "Neural Networks, Computer",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Qiao-Ying",
+        "Gong, Xiu-Jun",
+        "Li, Hao-Min",
+        "Du, Pu-Feng"
+      ],
+      "short_names": [
+        "Ji QY",
+        "Gong XJ",
+        "Li HM",
+        "Du PF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China.",
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China.",
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China.",
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China. Electronic address: pdu@tju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Qiao-Ying",
+        "short_name": "Ji QY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Xiu-Jun",
+        "short_name": "Gong XJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao-Min",
+        "short_name": "Li HM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Du, Pu-Feng",
+        "short_name": "Du PF",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China. Electronic address: pdu@tju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/20 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "41877008",
+      "41542082",
+      "41212594",
+      "40389443",
+      "40251827",
+      "40001940",
+      "37190100",
+      "36960780"
+    ],
+    "refs": [],
+    "similar": [
+      "34666191",
+      "37348298",
+      "33581335",
+      "30905748",
+      "31874597",
+      "30814546",
+      "23582322",
+      "34195788",
+      "28839111",
+      "30169995",
+      "33741075",
+      "30635833",
+      "38566153",
+      "29089515",
+      "34364858",
+      "27490187",
+      "27965291",
+      "24119843",
+      "29219068",
+      "33535061",
+      "36671456",
+      "36161929",
+      "35277481",
+      "31209209",
+      "31318408",
+      "32689977",
+      "30941131",
+      "36638018",
+      "31118037",
+      "36376800",
+      "38542080",
+      "25799994",
+      "37501079",
+      "29335803",
+      "31667506",
+      "21160473",
+      "23582323",
+      "31167905",
+      "28526829",
+      "23526891",
+      "29284524",
+      "32415954",
+      "36409894",
+      "28980882",
+      "30925856",
+      "25801169",
+      "36740001",
+      "32193341",
+      "26710770",
+      "28283057",
+      "31533978",
+      "30593613",
+      "33049031",
+      "25686607",
+      "28262751",
+      "25547603",
+      "30686784",
+      "22759862",
+      "25955728",
+      "33808317",
+      "36944729",
+      "32142172",
+      "34473626",
+      "33154111",
+      "28334114",
+      "27929098",
+      "32533974",
+      "22537144",
+      "39090713",
+      "37194711",
+      "30885876",
+      "35150791",
+      "28034838",
+      "38187673",
+      "37190100",
+      "29914366",
+      "31874637",
+      "30995943",
+      "26546038",
+      "30541891",
+      "28135252",
+      "31826234",
+      "25564661",
+      "35234924",
+      "32728244",
+      "38168841",
+      "33971574",
+      "31563432",
+      "26169177",
+      "32568326",
+      "27582178",
+      "27833659",
+      "25319995",
+      "24857652",
+      "27895109",
+      "34320216",
+      "31028388",
+      "30456521",
+      "28881969",
+      "29126175",
+      "37760334",
+      "34508359",
+      "37869495",
+      "36071071",
+      "35417351",
+      "34173323",
+      "36726725",
+      "36220606",
+      "35591855",
+      "37387140",
+      "38587919",
+      "35942693",
+      "35768759",
+      "38766104",
+      "36387198",
+      "38681203",
+      "37131697"
+    ],
+    "review": [
+      "34666191",
+      "38566153",
+      "35277481",
+      "38542080",
+      "37501079",
+      "26710770",
+      "30593613",
+      "30686784",
+      "32142172",
+      "39090713",
+      "30885876",
+      "35150791",
+      "28034838",
+      "37190100",
+      "30456521",
+      "34173323",
+      "36726725",
+      "38587919",
+      "36387198"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(21)00370-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

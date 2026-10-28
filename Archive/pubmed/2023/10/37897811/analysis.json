@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37897811",
+  "title": "Comparing Supervised Learning and Rigorous Approach for Predicting Protein Stability upon Point Mutations in Difficult Targets.",
+  "authors": "Kurniawan, Jason; Ishida, Takashi",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-10-29",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文比较监督学习与严格热力学方法预测点突变蛋白稳定性，对象为蛋白自身折叠自由能变化，不涉及蛋白质-DNA互作或TF-DNA体系，方法虽含AI与MD但与本课题无关。",
+  "abstract": "Accurate prediction of protein stability upon a point mutation has important applications in drug discovery and personalized medicine. It remains a challenging issue in computational biology. Existing computational prediction methods, which range from mechanistic to supervised learning approaches, have experienced limited progress over the last few decades. This stagnation is largely due to their heavy reliance on both the quantity and quality of the training data. This is evident in recent state-of-the-art methods that continue to yield substantial errors on two challenging blind test sets: frataxin and p53, with average root-mean-square errors exceeding 3 and 1.5 kcal/mol, respectively, which is still above the theoretical 1 kcal/mol prediction barrier. Rigorous approaches, on the other hand, offer greater potential for accuracy without relying on training data but are computationally demanding and require both wild-type and mutant structure information. Although they showed high accuracy for conserving mutations, their performance is still limited for charge-changing mutation cases. This might be due to the lack of an available mutant structure, often represented by a simplified capped peptide. The recent advances in protein structure prediction methods now make it possible to obtain structures comparable to experimental ones, including complete mutant structure information. In this work, we compare the performance of supervised learning-based methods and rigorous approaches for predicting protein stability on point mutations in difficult targets: frataxin and p53. The rigorous alchemical method significantly surpasses state-of-the-art techniques in terms of both the root-mean-squared error and Pearson correlation coefficient in these two challenging blind test sets. Additionally, we propose an improved alchemical method that employs the pmx double-system/single-box approach to accurately predict the folding free energy change upon both conserving and charge-changing mutations. The enhanced protocol can accurately predict both types of mutations, thereby outperforming existing state-of-the-art methods in overall performance.",
+  "abstract_zh": "点突变后蛋白质稳定性的准确预测在药物发现和个性化医疗中具有重要应用。这仍是计算生物学中的一个挑战性问题。现有的计算预测方法，从机制性方法到监督学习方法，在过去几十年中进展有限。这种停滞主要归因于它们对训练数据数量和质量的严重依赖。这在最近的最先进方法中显而易见，这些方法在两个具有挑战性的盲测集（frataxin和p53）上仍产生显著误差，平均均方根误差分别超过3和1.5 kcal/mol，仍高于理论上的1 kcal/mol预测障碍。另一方面，严格方法在准确性方面提供更大潜力，不依赖训练数据，但计算需求高，且需要野生型和突变型结构信息。尽管它们在保守突变中显示出高准确性，但在电荷改变突变案例中的性能仍有限。这可能归因于缺乏可用的突变结构，通常以简化的封端肽表示。蛋白质结构预测方法的最新进展现在使得获得与实验结构相当的结构成为可能，包括完整的突变结构信息。在本工作中，我们比较了基于监督学习的方法和严格方法在预测困难靶标（frataxin和p53）点突变蛋白质稳定性方面的性能。在这两个具有挑战性的盲测集中，严格炼金术方法在均方根误差和皮尔逊相关系数方面显著超越最先进技术。此外，我们提出了一种改进的炼金术方法，采用pmx双系统/单盒方法，以准确预测保守突变和电荷改变突变时的折叠自由能变化。增强协议能准确预测两种类型的突变，从而在整体性能上优于现有最先进方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37897811/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37897811/",
+  "paper_page_path": "papers/pubmed/37897811/index.html"
+}

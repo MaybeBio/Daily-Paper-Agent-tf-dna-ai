@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract asserts that cryo-EM and X-ray crystallography have revealed tertiary structures of chromatin-related proteins, but dynamic structures of intrinsically disordered regions (IDRs) remain elusive. It claims that recent NMR studies combined with molecular dynamics (MD) simulations have begun to reveal dynamic structures of TFIIH complexes with multiple partners, histone tails in nucleosomes, and histone chaperones. It further claims a common interaction mode for the p62 PH domain binding to acidic strings in various IDRs, correlated dynamics of H2A and H2B N-tails, a histone tail network for H3 and H4 dependent on modifications and linker DNA, and functional roles for acidic IDRs of FACT and NAP1 in regulating nucleosome accessibility.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, NMR data, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, NMR and MD data, validation statistics, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and potentially valuable synthesis of recent work on dynamic structures of intrinsically disordered proteins in chromatin-related contexts. The topic is timely and the authors are clearly knowledgeable in the field. However, the abstract is largely a narrative summary without specific quantitative results, methodological details, or direct evidence. The central claims, particularly the common interaction mode and the correlated dynamics of histone tails, are stated as established findings but cannot be evaluated from the supplied material. The scope is wide, covering TFIIH, nucleosomes, and histone chaperones, which may dilute the depth of any single claim. The abstract reads more as a review summary than as a primary research report, and the evidence base for the specific assertions is not visible.
+- **Who would be interested in the results, and why** Structural biologists, biophysicists, and biochemists studying transcription regulation, chromatin dynamics, and intrinsically disordered proteins would find this synthesis useful. Researchers working on TFIIH function, histone chaperone mechanisms, or nucleosome dynamics would be particularly interested in the proposed common binding mode and the histone tail network concept. The abstract also has potential appeal for computational biologists using MD simulations to study disordered regions.
+- **Major strengths** The abstract addresses a genuine gap in the field, namely the dynamic behavior of IDRs that are often invisible in static structures. The integration of NMR and MD approaches is appropriate and current. The proposed common interaction mode for the p62 PH domain across multiple partners is an interesting unifying concept. The abstract also highlights the functional importance of acidic IDRs in histone chaperones, which is a valuable perspective.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NMR and MD studies "are beginning to reveal" dynamic structures of TFIIH complexes, histone tails, and histone chaperones, and that a common interaction mode exists for the p62 PH domain binding to acidic strings in multiple IDR partners.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no specific data, no experimental conditions, no NMR observables, no simulation details, and no quantitative measures of the claimed dynamics or binding modes. The statement of a "common interaction mode" is presented as a conclusion, but no structural or biophysical evidence is shown to support it.  
+  - **Why it matters** Without visible evidence, the reader cannot assess whether the claims are robust, whether the common binding mode is truly general or limited to specific cases, or whether the dynamics described are experimentally validated or inferred. The abstract's role is to summarize findings, but here it functions as a topical overview without substantiation.  
+  - **Resolution test** Provide specific NMR data (e.g., chemical shift perturbations, relaxation rates, residual dipolar couplings) and MD simulation results (e.g., free energy profiles, contact maps) that demonstrate the common binding mode and the dynamic conformations described. Include validation statistics and error estimates.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim precision  
+  - **Claim pointer** The abstract claims that "the dynamic conformations of the N-tails of histones H2A and H2B are correlated" and that "the dynamic conformations of the N-tails of H3 and H4 form a histone tail network dependent on their modifications and linker DNA."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The nature of the correlation and the network is not defined. Is the correlation temporal, spatial, or conformational? What is the evidence for the network, and how do modifications and linker DNA modulate it? The abstract states these as findings but gives no indication of the measurements or analyses that led to them.  
+  - **Why it matters** These are specific mechanistic claims about nucleosome dynamics. Without definition and evidence, they are not falsifiable and cannot be evaluated. The reader cannot determine whether the claims are supported by direct observation or by inference from indirect data.  
+  - **Resolution test** Define the correlation metric and the network topology. Provide NMR relaxation dispersion data, paramagnetic relaxation enhancement measurements, or MD trajectories that show the correlated motions and the dependence on histone modifications and linker DNA.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope coherence  
+  - **Claim pointer** The abstract covers TFIIH complexes, nucleosomes, and histone chaperones in a single narrative.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract attempts to synthesize three distinct areas of research. While they are related through chromatin biology, the connections between them are not made explicit. The transition from TFIIH to nucleosomes to histone chaperones is abrupt, and the unifying theme is not clearly articulated.  
+  - **Why it matters** A review or synthesis should provide a coherent framework. The current abstract reads as a list of separate findings rather than an integrated story. This reduces the impact of the work and makes it harder for the reader to extract a take-home message.  
+  - **Resolution test** Articulate a clear unifying hypothesis or conceptual thread that links the TFIIH binding mode, histone tail dynamics, and chaperone function. Restructure the abstract to show how these findings collectively advance understanding of IDR function in chromatin regulation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract sentence on TFIIH binding  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "extended string-like binding of the IDR on the positively charged surface of the PH domain" is descriptive but not precise. It is unclear whether "string-like" refers to a fully extended conformation or a partially extended one, and whether the binding is induced or pre-formed.  
+  - **Required correction** Clarify the conformational state of the IDR upon binding and specify whether the binding is coupled to folding or occurs in a pre-structured state.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "acidic string"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The term "acidic string" is used without definition. It is not clear whether this refers to a specific sequence motif, a length threshold, or a functional classification.  
+  - **Required correction** Define the term and provide examples of the sequences or regions referred to as acidic strings.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Reference to "three RNA polymerases"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions binding to the RPB6 subunit of three RNA polymerases but does not specify which polymerases are meant. In eukaryotic cells, there are three nuclear RNA polymerases, but the context is not explicit.  
+  - **Required correction** Specify the RNA polymerases (Pol I, Pol II, Pol III) and clarify whether the binding is to the same RPB6 subunit in all three.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the abstract are not supported by visible evidence. The abstract does not provide any quantitative data, experimental details, or validation metrics. Without these, the claims cannot be assessed for technical soundness. The lack of methodological information also prevents evaluation of the NMR and MD approaches used.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract does not clearly indicate what is new in this work. It summarizes recent findings but does not state a novel contribution or a new synthesis that goes beyond existing reviews. The originality is therefore not established from the supplied material.  
+  - **Scientific importance** The topic is important, as IDR dynamics in chromatin regulation are poorly understood. However, the abstract does not demonstrate why these specific findings are significant beyond being descriptive. The importance is asserted but not argued.  
+  - **Interdisciplinary readership** The abstract has potential appeal across structural biology, biophysics, and chromatin biology. However, the lack of specific results and the broad scope may limit its accessibility to nonspecialists, who would struggle to understand the significance of the claims without more context.  
+  - **Technical soundness** Not assessable from the abstract. No methods, data, or validation are provided. The claims are plausible but unverified.  
+  - **Readability for nonspecialists** The abstract is written in a technical style that assumes familiarity with TFIIH, nucleosome structure, and histone chaperones. Terms such as "acidic string" and "PH domain" are used without explanation. The readability is adequate for specialists but not for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a synthesis of prior work but does not provide sufficient evidence to support the specific claims made. If the full manuscript contains the necessary NMR and MD data, validation, and a clear unifying framework, the work could be of interest. However, based on the abstract alone, the case is not made.
+
+## Risk / unsupported claims
+- The claim of a "common interaction mode" for the p62 PH domain across multiple partners is unsupported by visible evidence.
+- The claim of correlated dynamics between H2A and H2B N-tails is unsupported and undefined.
+- The claim of a "histone tail network" for H3 and H4 is unsupported and the dependence on modifications and linker DNA is not demonstrated.
+- The functional roles of acidic IDRs in FACT and NAP1 are stated without supporting data.
+- The overall assertion that NMR and MD studies "are beginning to reveal" these dynamics is a general statement that cannot be verified from the abstract alone.

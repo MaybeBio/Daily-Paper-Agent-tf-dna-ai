@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35881019",
+  "title": "bHLHDB: A next generation database of basic helix loop helix transcription factors based on deep learning model.",
+  "authors": "Oncul, Ali Burak; Celik, Yuksel; Unel, Necdet Mehmet; Baloglu, Mehmet Cengiz",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2022-07-27",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 5,
+  "one_liner_zh": "构建bHLH转录因子数据库，用HMM、BLAST和深度学习模型按蛋白序列预测TF类型，但未涉及TF-DNA结合位点或互作机制建模。",
+  "abstract": "The basic helix loop helix (bHLH) superfamily is a large and diverse protein family that plays a role in various vital functions in nearly all animals and plants. The bHLH proteins form one of the largest families of transcription factors found in plants that act as homo- or heterodimers to regulate the expression of their target genes. The bHLH transcription factor is involved in many aspects of plant development and metabolism, including photomorphogenesis, light signal transduction, secondary metabolism, and stress response. The amount of molecular data has increased dramatically with the development of high-throughput techniques and wide use of bioinformatics techniques. The most efficient way to use this information is to store and analyze the data in a well-organized manner. In this study, all members of the bHLH superfamily in the plant kingdom were used to develop and implement a relational database. We have created a database called bHLHDB (www.bhlhdb.org) for the bHLH family members on which queries can be conducted based on the family or sequences information. The Hidden Markov Model (HMM), which is frequently used by researchers for the analysis of sequences, and the BLAST query were integrated into the database. In addition, the deep learning model was developed to predict the type of TF with only the protein sequence quickly, efficiently, and with 97.54% accuracy and 97.76% precision. We created a unique and next-generation database for bHLH transcription factors and made this database available to the world of science. We believe that the database will be a valuable tool in future studies of the bHLH family.",
+  "abstract_zh": "基本螺旋-环-螺旋（basic helix loop helix, bHLH）超家族是一个庞大且多样的蛋白质家族，在几乎所有动物和植物中扮演着多种重要功能角色。bHLH蛋白构成了植物中最大的转录因子家族之一，它们以同源或异源二聚体的形式调控靶基因的表达。bHLH转录因子参与植物发育和代谢的多个方面，包括光形态建成、光信号转导、次生代谢以及胁迫响应。随着高通量技术的发展以及生物信息学技术的广泛应用，分子数据量急剧增加。利用这些信息的最有效方式是以有序的方式存储和分析数据。在本研究中，我们利用植物界中bHLH超家族的所有成员来开发和实现一个关系数据库。我们创建了一个名为bHLHDB（www.bhlhdb.org）的数据库，用于存储bHLH家族成员，并可根据家族或序列信息进行查询。研究中整合了研究人员常用于序列分析的隐马尔可夫模型（Hidden Markov Model, HMM）以及BLAST查询功能。此外，我们开发了深度学习模型，仅通过蛋白质序列即可快速、高效地预测转录因子类型，准确率达到97.54%，精确度为97.76%。我们为bHLH转录因子创建了一个独特且新一代的数据库，并将其提供给科学界使用。我们相信，该数据库将在未来bHLH家族的研究中成为有价值的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35881019/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35881019/",
+  "paper_page_path": "papers/pubmed/35881019/index.html"
+}

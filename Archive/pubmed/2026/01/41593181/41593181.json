@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41593181",
+    "doi": "10.1038/s41598-026-37688-4",
+    "title": "Kaempferol inhibits osteoclast differentiation and bone resorption by targeting the TNF-alpha/NF-kappaB and SRC/PI3K/AKT signaling pathways."
+  },
+  "content": {
+    "abstract": "Kaempferol exerts an important regulatory effect on osteoporosis, while its mechanism has not been fully elucidated. This study aimed to investigate the molecular mechanism underlying the anti-osteoporotic effect of kaempferol. Potential targets of kaempferol (197 genes) were identified using the Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform (TCMSP) and SwissTargetPrediction databases. Meanwhile, osteoporosis-related targets (986 non-redundant genes) were compiled from disease-specific databases. Protein-protein interaction (PPI) network analysis was performed to identify 37 core targets. Subsequent Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses revealed 3,295 biological processes and 205 signaling pathways, respectively. Molecular docking results demonstrated that kaempferol has high binding affinities with AKT, NF-kappaB, PI3K, SRC, and TNF-alpha. For experimental validation, RAW 264.7 cells were used: cell viability was assessed via the Cell Counting Kit 8 (CCK8) assay; osteoclast differentiation and bone resorption were evaluated through tartrate-resistant acid phosphatase (TRAP) staining and toluidine blue staining, respectively; oxidative stress markers (reactive oxygen species (ROS), superoxide dismutase (SOD), and malondialdehyde (MDA) were measured by enzyme-linked immunosorbent assay (ELISA); and molecular mechanisms were analyzed using quantitative real-time polymerase chain reaction (RT-qPCR) and Western blotting to detect osteoclast-related molecules (RANK, CSF1R, c-Fos, CTSK, and MMP-9) and signaling pathway proteins.​ Kaempferol significantly increased the viability of RAW 264.7 cells (P < 0.05). TRAP and toluidine blue staining showed dose-dependent decreases in osteoclast number and resorption area (P < 0.05). Additionally, kaempferol concentration-dependently reduced ROS and MDA levels while increasing SOD activity. It also significantly downregulated the expression of osteoclastogenesis-related genes (RANK, CSF1R, c-Fos, CTSK, and MMP-9; P < 0.05) and inhibited the activation of the TNF-alpha/NF-kappaB and SRC/PI3K/AKT signaling pathways.​ The predictions from network pharmacology were validated experimentally, confirming that kaempferol exerts dual inhibitory effects on osteoclast differentiation and oxidative stress. The coordinated inhibition of RANK/M-CSF signaling and its downstream TNF-alpha/NF-kappaB and SRC/PI3K/AKT pathways underpins the anti-resorptive activity of kaempferol.​.",
+    "keywords": [
+      "Bone resorption function",
+      "Kaempferol",
+      "Network pharmacology",
+      "SRC/PI3K/AKT signaling pathway",
+      "TNF-alpha/NF-kappaB signaling pathway"
+    ],
+    "mesh_terms": [
+      "*Kaempferols/pharmacology",
+      "Animals",
+      "*Osteoclasts/drug effects/metabolism/cytology",
+      "Mice",
+      "*Signal Transduction/drug effects",
+      "NF-kappa B/metabolism",
+      "*Bone Resorption/metabolism/drug therapy/pathology",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "*Cell Differentiation/drug effects",
+      "RAW 264.7 Cells",
+      "Molecular Docking Simulation",
+      "src-Family Kinases/metabolism",
+      "Cell Survival/drug effects",
+      "Reactive Oxygen Species/metabolism",
+      "Protein Interaction Maps/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Qiting",
+        "Jiang, Taiping",
+        "Zhao, Yunpeng",
+        "Liu, Zhaoming",
+        "Guan, Zhiyu"
+      ],
+      "short_names": [
+        "Yu Q",
+        "Jiang T",
+        "Zhao Y",
+        "Liu Z",
+        "Guan Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China.",
+        "Department of Sports Medicine(DSM), First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China.",
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China.",
+        "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China. 771990248@qq.com.",
+        "Spine Surgery Department, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine,Guiyang, Guizhou, 550000, China. gzy66689@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Qiting",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Taiping",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine(DSM), First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunpeng",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaoming",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, 550000, China. 771990248@qq.com."
+        ]
+      },
+      {
+        "full_name": "Guan, Zhiyu",
+        "short_name": "Guan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Spine Surgery Department, First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine,Guiyang, Guizhou, 550000, China. gzy66689@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 01:35",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42422433",
+      "42260517",
+      "41988518"
+    ],
+    "refs": [
+      "40918131",
+      "40208316",
+      "40097906",
+      "40043357",
+      "40032017",
+      "39969099",
+      "39891262",
+      "39576427",
+      "39417505",
+      "39395105",
+      "39209096",
+      "39093800",
+      "38768813",
+      "38660403",
+      "38396794",
+      "38367924",
+      "38312605",
+      "38311211",
+      "38199208",
+      "37946300",
+      "37664835",
+      "37574017",
+      "37499457",
+      "36969166",
+      "36967748",
+      "36860371",
+      "36291635",
+      "36277464",
+      "36259115",
+      "36210811",
+      "36099317",
+      "36060935",
+      "35711635",
+      "35468008",
+      "35399639",
+      "35154351",
+      "35154014",
+      "34887836",
+      "34403325",
+      "34168557",
+      "33151290"
+    ],
+    "similar": [
+      "41593181",
+      "38977961",
+      "42142793",
+      "40907333",
+      "32729185",
+      "39152382",
+      "39490433",
+      "36403742",
+      "38621927",
+      "33984459",
+      "25708053",
+      "33878416",
+      "38321908",
+      "42004947",
+      "41814798",
+      "42205105",
+      "33933570",
+      "42229383",
+      "36723677",
+      "36235607",
+      "42322165",
+      "39422344",
+      "39374878",
+      "38114219",
+      "38553189",
+      "40350911",
+      "42172986",
+      "39490646",
+      "30110702",
+      "32554249",
+      "39701786",
+      "32510335",
+      "39938168",
+      "40133026",
+      "31846839",
+      "37080367",
+      "41905446",
+      "40834910",
+      "30562759",
+      "39098645",
+      "36472041",
+      "28106828",
+      "28209487",
+      "40220409",
+      "41337836",
+      "40461235",
+      "38378457",
+      "38554947",
+      "37480968",
+      "29908722",
+      "19653230",
+      "22038020",
+      "40330488",
+      "36872359",
+      "28605877",
+      "24196871",
+      "40255473",
+      "42081991",
+      "35899176",
+      "41194532",
+      "39150492",
+      "39074420",
+      "32604472",
+      "41303615",
+      "42335406",
+      "38643449",
+      "38643905",
+      "16632109",
+      "36368367",
+      "38809508",
+      "40186900",
+      "36604893",
+      "42125660",
+      "36083487",
+      "38731604",
+      "38972238",
+      "35149133",
+      "35605290",
+      "22337253",
+      "32681612",
+      "39917920",
+      "39547093",
+      "35988868",
+      "28739641",
+      "42011618",
+      "27002412",
+      "34450323",
+      "39612888",
+      "39201475",
+      "37799727",
+      "39816675",
+      "40350886",
+      "34246740",
+      "38081397",
+      "41316260",
+      "42197115",
+      "39083969",
+      "41207786",
+      "26592521",
+      "31951177"
+    ],
+    "review": [
+      "41593181"
+    ],
+    "pmc": [
+      "12905433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-37688-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41593181/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CSF1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

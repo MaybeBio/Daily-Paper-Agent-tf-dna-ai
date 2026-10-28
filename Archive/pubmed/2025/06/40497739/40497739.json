@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "40497739",
+    "doi": "10.1128/jb.00103-25",
+    "title": "Functional consequences of genetic variations in DgoR, a GntR/FadR family transcriptional repressor of D-galactonate metabolism in Escherichia coli."
+  },
+  "content": {
+    "abstract": "Genetic variations in transcriptional regulators (TRs) of metabolic loci can influence host-bacterial interactions by affecting carbon utilization. Although the metabolism of sugar acids, including D-galactonate, is extensively implicated in the colonization and virulence of enteric bacteria, there has been no investigation on the extent of variations in their pathway-specific TRs. DgoR, the TR of D-galactonate metabolism, is the best-characterized GntR/FadR family sugar acid TR in enteric bacteria, recognized by the presence of an N-terminal winged helix-turn-helix DNA-binding domain and a C-terminal effector-binding and oligomerization (E-O) domain connected by a linker. Here, we examined 340 Escherichia coli isolates for variations in dgoR and studied their effect on repressor function. Genetic and biochemical studies identified variants with a partial loss of DNA-binding ability (P24L and A152E) and a decreased response to D-galactonate (R71C and P92L). Because the linker residue R71C resulted in a reduced response to D-galactonate and the E-O domain residue A152E led to a DNA binding defect, we performed simulations to probe their altered allosteric behavior. We observed that the correlation patterns, dynamics, and networks of the variants are indeed distinct from the wild type. Importantly, corroborating their repressor function, R71C and A152E variations impacted the growth of natural isolates in D-galactonate. Alignment-based variation detection across all E. coli and Enterobacterales identical protein group data sets revealed less prevalence of these four variations. Collectively, the present study highlights the need for a thorough analysis of the effect of variations in sugar acid TRs on repressor function and their effect on host-bacterial interactions.IMPORTANCESugar acids are used as carbon sources by enteric bacteria, both commensals and pathogens, with numerous studies highlighting their importance in host-bacterial interactions. Here, taking Escherichia coli DgoR, the transcriptional regulator (TR) of D-galactonate metabolism, as a representative, we showed that genetic variations in sugar acid TRs can affect their function and impact the utilization of these carbon sources by natural isolates. As the ability to use limiting nutrients enables bacteria to compete with the complex microbial community of the host, our study emphasizes the need for a comprehensive analysis of variations in sugar acid TRs to determine whether they influence the competition. These studies can help envision approaches for promoting the growth of commensals to eliminate their pathogenic counterparts.",
+    "keywords": [
+      "carbohydrate metabolism",
+      "effector",
+      "gene regulation",
+      "ligand",
+      "sugar acid",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/genetics/metabolism",
+      "*Sugar Acids/metabolism",
+      "*Repressor Proteins/genetics/metabolism/chemistry",
+      "Gene Expression Regulation, Bacterial",
+      "*Escherichia coli Proteins/genetics/metabolism",
+      "*Genetic Variation",
+      "*Bacterial Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Swati",
+        "Mishra, Rajesh",
+        "Kakkar, Richa Ashok",
+        "Singla, Shivam",
+        "Pratap, Akhil",
+        "Sharma, Gaurav",
+        "Sharma, Monika",
+        "Chaba, Rachna"
+      ],
+      "short_names": [
+        "Singh S",
+        "Mishra R",
+        "Kakkar RA",
+        "Singla S",
+        "Pratap A",
+        "Sharma G",
+        "Sharma M",
+        "Chaba R"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8822-0994",
+        "ORCID: 0009-0004-9193-2440",
+        "ORCID: 0009-0009-4729-8995",
+        "ORCID: 0000-0002-2861-7446",
+        "ORCID: 0000-0001-9864-3298",
+        "ORCID: 0000-0002-9156-4543"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India.",
+        "Department of Biotechnology, Indian Institute of Technology Hyderabad, Sangareddy, Telangana, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India.",
+        "Biological Systems Engineering, Plaksha University, Mohali, Punjab, India.",
+        "Department of Biotechnology, Indian Institute of Technology Hyderabad, Sangareddy, Telangana, India.",
+        "Biological Systems Engineering, Plaksha University, Mohali, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Swati",
+        "short_name": "Singh S",
+        "identifiers": [
+          "0009-0008-8822-0994"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Rajesh",
+        "short_name": "Mishra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Kakkar, Richa Ashok",
+        "short_name": "Kakkar RA",
+        "identifiers": [
+          "0009-0004-9193-2440"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology Hyderabad, Sangareddy, Telangana, India."
+        ]
+      },
+      {
+        "full_name": "Singla, Shivam",
+        "short_name": "Singla S",
+        "identifiers": [
+          "0009-0009-4729-8995"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Pratap, Akhil",
+        "short_name": "Pratap A",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Systems Engineering, Plaksha University, Mohali, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Gaurav",
+        "short_name": "Sharma G",
+        "identifiers": [
+          "0000-0002-2861-7446"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology Hyderabad, Sangareddy, Telangana, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Monika",
+        "short_name": "Sharma M",
+        "identifiers": [
+          "0000-0001-9864-3298"
+        ],
+        "affiliations": [
+          "Biological Systems Engineering, Plaksha University, Mohali, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Chaba, Rachna",
+        "short_name": "Chaba R",
+        "identifiers": [
+          "0000-0002-9156-4543"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali, Punjab, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bacteriology"
+    ],
+    "journal_abbrev": [
+      "J Bacteriol"
+    ],
+    "pub_date": "2025 Jul 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/11 12:30",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39777470",
+      "39405360",
+      "39137493",
+      "38502690",
+      "37847672",
+      "36153389",
+      "35381053",
+      "34610296",
+      "33224125",
+      "33068046",
+      "32155146",
+      "31873206",
+      "31714766",
+      "30971455",
+      "30647157",
+      "30455279",
+      "30348782",
+      "30249705",
+      "30218022",
+      "29310122",
+      "29280730",
+      "28667014",
+      "28553268",
+      "27661780",
+      "27322406",
+      "27309805",
+      "27300587",
+      "27129867",
+      "26843851",
+      "26619985",
+      "26549308",
+      "26472823",
+      "26443361",
+      "26185077",
+      "26172911",
+      "26151451",
+      "24277855",
+      "23104408",
+      "23001866",
+      "22930834",
+      "20489133",
+      "19729089",
+      "17212484",
+      "16816174",
+      "16369018",
+      "16299315",
+      "15516583",
+      "15264254",
+      "15256214",
+      "14741191",
+      "13462997",
+      "12492857",
+      "11823194",
+      "11756427",
+      "11279025",
+      "9826225",
+      "9657988",
+      "8751891",
+      "8510140",
+      "2843515",
+      "2492998",
+      "453851",
+      "211976"
+    ],
+    "similar": [
+      "40497739",
+      "30455279",
+      "33068046",
+      "39777470",
+      "33224125",
+      "25311842",
+      "11756427",
+      "11279025",
+      "25802297",
+      "23935044",
+      "11786010",
+      "12897000",
+      "16027119",
+      "12426349",
+      "12535077",
+      "23029459",
+      "32291279",
+      "21810205",
+      "12618441",
+      "8639659",
+      "20622065",
+      "33283913",
+      "39137493",
+      "23073764",
+      "28670937",
+      "26944841",
+      "8955387",
+      "11361067",
+      "33468701",
+      "14731281",
+      "21272324",
+      "26050090",
+      "26172911",
+      "27002132",
+      "21771112",
+      "30030227",
+      "34666048",
+      "10998245",
+      "28439032",
+      "15659676",
+      "26385696",
+      "19684132",
+      "33790291",
+      "23772072",
+      "24189073",
+      "19307717",
+      "31107208",
+      "8412665",
+      "34688814",
+      "27481927",
+      "35073744",
+      "8655507",
+      "12757941",
+      "11013219",
+      "10329134",
+      "25376905",
+      "18186488",
+      "8755903",
+      "10452892",
+      "29993358",
+      "32397647",
+      "32152218",
+      "10369757",
+      "33509775",
+      "15313602",
+      "41099553",
+      "8899705",
+      "38432210",
+      "25607896",
+      "2248796",
+      "8828230",
+      "42475469",
+      "17426033",
+      "20047956",
+      "42284197",
+      "9371462",
+      "23589368",
+      "2060763",
+      "23524613",
+      "32434841",
+      "29394395",
+      "10600368",
+      "28469995",
+      "9016718",
+      "23982071",
+      "8446033",
+      "17905980",
+      "42436118",
+      "21831320",
+      "27337024",
+      "42262138",
+      "23820824",
+      "40042333",
+      "11555293",
+      "14593252",
+      "26151451",
+      "24861318",
+      "26078445",
+      "28115548",
+      "21928765"
+    ],
+    "review": [
+      "40497739",
+      "33283913",
+      "39137493",
+      "28670937",
+      "26172911",
+      "33509775"
+    ],
+    "pmc": [
+      "12288454"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/jb.00103-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=G7789",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "dgoR"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40497739/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

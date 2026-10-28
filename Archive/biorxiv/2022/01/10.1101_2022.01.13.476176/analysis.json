@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.13.476176",
+  "title": "Continuous B- to A-Transition in Protein-DNA Binding - How Well Is It Described by Current AMBER Force Fields?",
+  "authors": "Petr Jurečka; Marie Zgarbová; Filip Černý; Jan Salomon",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-13",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过MD模拟评估AMBER力场对蛋白-DNA复合物中B-A连续转变及中间态的描述，聚焦TF-DNA结合界面的构象动态与力场精度，高度契合本课题的互作机制与物理模拟方法。",
+  "abstract": "When DNA interacts with a protein, its structure often undergoes significant conformational adaptation. Perhaps the most common is the transition from canonical B-DNA towards the A-DNA form, which is not a two-state, but rather a continuous transition. The A- and B-forms differ mainly in sugar pucker P (north/south) and glycosidic torsion χ (high- anti / anti ). The combination of A-like P and B-like χ (and vice versa ) represents the nature of the intermediate states lying between the pure A- and B- forms. In this work, we study how the A/B equilibrium and in particular the A/B intermediate states, which are known to be over-represented at protein-DNA interfaces, are modeled by current AMBER force fields. Eight protein-DNA complexes and their naked (unbound) DNAs were simulated with OL15 and bsc1 force fields as well as an experimental combination OL15χ OL3 . We found that while the geometries of the A-like intermediate states in the molecular dynamics (MD) simulations agree well with the native X-ray geometries found in the protein-DNA complexes, their populations (stabilities) are significantly underestimated. Different force fields predict different propensities for A-like states growing in the order OL15 < bsc1 < OL15 χOL3 , but the overall populations of the A-like form are too low in all of them. Interestingly, the force fields seem to predict the correct sequence-dependent A-form propensity, as they predict larger populations of the A-like form in naked (unbound) DNA in those steps that acquire A-like conformations in protein-DNA complexes. The instability of A-like geometries in current force fields may significantly alter the geometry of the simulated protein-DNA complex, destabilize the binding motif, and reduce the binding energy, suggesting that refinement is needed to improve description of protein-DNA interactions in AMBER force fields.",
+  "abstract_zh": "当DNA与蛋白质相互作用时，其结构常常经历显著的构象适应。最常见的或许是从经典B-DNA向A-DNA形式的转变，这并非两态过程，而是一个连续转变。A型和B型主要区别在于糖环折叠P（北/南）和糖苷扭转角χ（高-反式/反式）。A样P与B样χ（反之亦然）的组合代表了介于纯A型和B型之间中间态的本质。在本工作中，我们研究了当前AMBER力场如何模拟A/B平衡，特别是已知在蛋白质-DNA界面过度代表的A/B中间态。使用OL15和bsc1力场以及实验组合OL15χOL3，对八个蛋白质-DNA复合物及其裸（未结合）DNA进行了模拟。我们发现，虽然分子动力学（molecular dynamics, MD）模拟中A样中间态的几何结构与蛋白质-DNA复合物中发现的天然X射线几何结构吻合良好，但其群体（稳定性）被显著低估。不同力场预测的A样状态倾向性不同，按OL15 < bsc1 < OL15χOL3的顺序增长，但所有力场中A样形式的总体群体均过低。有趣的是，力场似乎预测了正确的序列依赖性A型倾向，因为它们在那些在蛋白质-DNA复合物中呈现A样构象的步骤中，预测了裸（未结合）DNA中A样形式的更大群体。当前力场中A样几何结构的不稳定性可能显著改变模拟的蛋白质-DNA复合物几何结构，破坏结合基序，并降低结合能，这表明需要改进以提升AMBER力场中蛋白质-DNA相互作用的描述。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.13.476176",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.13.476176",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.13.476176/index.html"
+}

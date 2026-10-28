@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose ChromDL, a hybrid deep learning architecture combining bidirectional gated recurrent units, convolutional neural networks, and bidirectional long short-term memory units, which reportedly improves prediction metrics for transcription factor binding sites, histone modifications, and DNase-I hypersensitive sites compared to prior methods. A secondary model enables classification of gene regulatory elements, and the model detects weak transcription factor binding and may help delineate motif specificities.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark datasets, or comparison details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model architecture details, training and evaluation protocols, benchmark definitions, statistical significance tests, and source code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to regulatory DNA sequence analysis, but the evidence provided is insufficient to evaluate the validity, novelty, or generalizability of the claimed improvements. The claims are broad and lack quantitative support, making it impossible to assess technical soundness or reproducibility from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, genomics researchers, and machine learning practitioners focused on regulatory genomics would be interested if the claims hold, as improved sequence-based prediction of regulatory elements could aid in variant interpretation, enhancer annotation, and understanding gene regulation.
+- **Major strengths** The proposed architecture integrates multiple established neural network components, which is a reasonable approach for capturing both local and long-range sequence dependencies. The stated availability of source code supports reproducibility, a key strength for method papers.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "significantly improves upon a range of prediction metrics compared to its predecessors" for transcription factor binding, histone modification, and DNase-I hypersensitive site detection.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results, effect sizes, or statistical significance values are reported. The term "significantly improves" is used without defining the comparison baseline, the metrics, or the test conditions.
+  - **Why it matters** Without specific performance numbers and statistical tests, the core claim of improvement cannot be verified, and the practical advantage over existing methods remains unclear.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., AUC, precision, recall) for ChromDL and at least two baseline methods across all three prediction tasks, including confidence intervals and significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model architecture is described as combining bidirectional gated recurrent units, convolutional neural networks, and bidirectional long short-term memory units, and the source code is available.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify hyperparameters, training data, preprocessing steps, or evaluation splits. The source code link is mentioned, but no version, dependencies, or usage instructions are provided.
+  - **Why it matters** Reproducibility is essential for a methods paper. Without these details, other researchers cannot implement or validate the model independently, limiting the scientific impact.
+  - **Resolution test** Include a detailed methods section with architecture specifications, training details, and a clear description of the datasets and evaluation protocol, plus a documented code repository with a README.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The model is described as "next-generation" and "significantly improves" on predecessors, with the potential to "delineate transcription factor binding motif specificities."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state how ChromDL differs from existing hybrid architectures or what specific innovations enable the claimed improvements. The claim about motif specificity delineation is vague and unsupported.
+  - **Why it matters** For a methods paper, novelty must be clearly articulated relative to prior work. Without a clear distinction, the contribution may be incremental rather than transformative.
+  - **Resolution test** Provide a comparison of ChromDL with at least two recent hybrid models, highlighting architectural differences and showing where performance gains arise, plus a concrete example of motif specificity delineation with validation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "Results" section
+  - **Issue** The phrase "weak transcription factor binding" is not defined, and the criteria for "weak" are unclear.
+  - **Required correction** Define "weak" binding in terms of signal intensity or binding probability thresholds, and specify how this was measured.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Availability statement
+  - **Evidence pointer** Abstract, "Availability and implementation" section
+  - **Issue** The source code link is provided, but no license, documentation, or example usage is mentioned.
+  - **Required correction** Add a license, a brief usage example, and a list of dependencies in the abstract or the linked repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim about regulatory element classification
+  - **Evidence pointer** Abstract, "Results" section
+  - **Issue** The secondary model for gene regulatory element classification is mentioned without details on its architecture or training.
+  - **Required correction** Describe the secondary model briefly and state its performance relative to the primary model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative evidence and reproducibility details prevents validation of the core claims. R1-M3 is non-blocking but requires clarification for novelty assessment.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract; no comparison to existing methods is provided.
+  - Scientific importance: Potentially high if the claims hold, but unverified.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, but the abstract lacks context for nonspecialists.
+  - Technical soundness: Not assessable due to missing quantitative and methodological details.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a promising direction, but the lack of quantitative results and methodological detail means the claims cannot be evaluated. A revised submission with full evidence would be needed for a supportive assessment.

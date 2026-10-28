@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "41327461",
+    "doi": "10.1186/s13073-025-01584-9",
+    "title": "PathHDNN: a pathway hierarchical-informed deep neural network framework for predicting immunotherapy response and mechanism interpretation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunotherapy has revolutionized the treatment of cancer and tremendously prolonged the overall survival of patients; however, only parts of patients could derive durable clinical benefit from it. Predicting clinical responses to immunotherapy and interpreting the response mechanism remain major challenges. METHODS: Here, we presented a pathway hierarchical-informed deep neural network (PathHDNN) framework to predict the therapeutic responses of cancer patients and identify key pathways associated with immunotherapy efficacy. PathHDNN was trained by encoding established biological pathway hierarchically knowledge into a neural network architecture through embedding the somatic mutations and copy number variations. During training, PathHDNN optimized only the edge weights connecting hierarchically related pathways, while maintaining the fixed network topology derived from biological pathway hierarchy, thereby preserving biological interpretability throughout the learning process. RESULTS: We assessed PathHDNN on multiple immunotherapy cohorts and found it outperformed other state-of-the-art machine learning methods and established immunotherapy biomarkers. Moreover, through interpreting the trained model, PathHDNN effectively identified critical pathway features associated with the therapeutic response in melanoma cohort, particularly noting the critical roles of p53-mediated tumor suppression and JAK2-mediated immune regulation in the course of responsiveness to immunotherapy. CONCLUSIONS: In conclusion, PathHDNN provided an effective pathway hierarchical-informed framework for accurately predicting patient responses to immunotherapy and identified key pathways yielding valuable insights into the biological mechanisms underlying treatment responses, which is essential for advancing precision medicine.",
+    "keywords": [
+      "Deep neural network",
+      "Immune checkpoint inhibitor",
+      "Model interpretability",
+      "Pathway hierarchically knowledge",
+      "Somatic mutations"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Immunotherapy",
+      "Treatment Outcome",
+      "Humans",
+      "*Neoplasms/genetics/immunology/therapy",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Janus Kinase 2/genetics/metabolism",
+      "Immune Checkpoint Inhibitors/therapeutic use",
+      "Metabolic Networks and Pathways",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiangmei",
+        "Pan, Bingyue",
+        "He, Yalan",
+        "Wang, Ziyi",
+        "Tang, Yujie",
+        "Zhang, Yongbao",
+        "Wang, Liqiang",
+        "Han, Junwei"
+      ],
+      "short_names": [
+        "Li X",
+        "Pan B",
+        "He Y",
+        "Wang Z",
+        "Tang Y",
+        "Zhang Y",
+        "Wang L",
+        "Han J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China. hanjunwei@ems.hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiangmei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Bingyue",
+        "short_name": "Pan B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "He, Yalan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziyi",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yujie",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongbao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liqiang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Han, Junwei",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, 150081, China. hanjunwei@ems.hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 07:36",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42650041",
+      "42352345",
+      "41749727"
+    ],
+    "refs": [
+      "39177104",
+      "39097091",
+      "38889685",
+      "38693104",
+      "38530977",
+      "38474033",
+      "38359819",
+      "38236062",
+      "38102680",
+      "37941124",
+      "37784082",
+      "36669486",
+      "36216888",
+      "36123348",
+      "35764641",
+      "35680043",
+      "35417675",
+      "35197093",
+      "34725502",
+      "34552244",
+      "34155388",
+      "34103512",
+      "34083238",
+      "33941922",
+      "33888679",
+      "33736924",
+      "33649166",
+      "33096023",
+      "33089578",
+      "32864131",
+      "32442275",
+      "31792460",
+      "31420533",
+      "31151482",
+      "30643254",
+      "30395155",
+      "30171052",
+      "30127393",
+      "30057419",
+      "29505029",
+      "29020592",
+      "28187290",
+      "27117833",
+      "26997480",
+      "26359337",
+      "26028255",
+      "25409260",
+      "22658127",
+      "22588877",
+      "21527027",
+      "14670306",
+      "11326271"
+    ],
+    "similar": [
+      "41327461",
+      "39097091",
+      "40883359",
+      "39167797",
+      "41743737",
+      "40771813",
+      "40676504",
+      "38200372",
+      "40325361",
+      "40777041",
+      "33356494",
+      "40614480",
+      "33500713",
+      "41815013",
+      "40085751",
+      "41529246",
+      "35344507",
+      "37220017",
+      "37268451",
+      "38724920",
+      "41853289",
+      "40901703",
+      "40574864",
+      "36063561",
+      "33927719",
+      "33199193",
+      "37810279",
+      "41240799",
+      "41175831",
+      "33655698",
+      "36532083",
+      "40188131",
+      "41087235",
+      "40340863",
+      "39724105",
+      "41851467",
+      "39956910",
+      "28466543",
+      "40898324",
+      "29917141",
+      "40693608",
+      "38524135",
+      "31911545",
+      "41309738",
+      "41561639",
+      "40153282",
+      "32927274",
+      "33879103",
+      "41759266",
+      "40867533",
+      "40205338",
+      "36682018",
+      "40134428",
+      "38589007",
+      "40183298",
+      "38683133",
+      "39355255",
+      "39265355",
+      "40713654",
+      "39455880",
+      "40714464",
+      "41694351",
+      "42026803",
+      "30558539",
+      "39947084",
+      "39015091",
+      "40761787",
+      "39762425",
+      "41656832",
+      "41206114",
+      "41448298",
+      "41103422",
+      "41022600",
+      "39143136",
+      "31825821",
+      "41290079",
+      "40346402",
+      "40971820",
+      "38781965",
+      "41756275",
+      "40890336",
+      "38733169",
+      "41161628",
+      "40447313",
+      "30236595",
+      "35531878",
+      "34552244",
+      "41186834",
+      "39555056",
+      "32158626",
+      "31865908",
+      "33239757",
+      "37149222",
+      "38043008",
+      "41041318",
+      "39717781",
+      "40345706",
+      "41086053",
+      "33526018",
+      "41020523"
+    ],
+    "review": [
+      "41327461",
+      "33199193",
+      "40898324",
+      "38524135",
+      "40867533",
+      "41448298",
+      "41290079",
+      "41161628",
+      "41041318"
+    ],
+    "pmc": [
+      "12729056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-025-01584-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41327461/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

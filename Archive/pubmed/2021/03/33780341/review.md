@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a novel protein representation method, PPCT, combining PSSM and PSFM cross transformation, and integrate it with a two-layer random forest framework to predict DNA-binding proteins (DBPs), RNA-binding proteins (RBPs), and dual DNA/RNA-binding proteins (DRBPs). They report effectiveness on an independent dataset and a tomato genome, and provide a freely accessible web server.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, performance metrics, comparison baselines, web server implementation details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for a relevant problem in protein function prediction. However, the evidence provided is insufficient to evaluate the novelty, technical soundness, or claimed effectiveness of the method. The core claims regarding performance improvements and biological applicability are not substantiated with any quantitative data in the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinformatics and computational biology working on protein function prediction, particularly those focused on nucleic acid-binding protein identification. The proposed representation method may also interest method developers in protein sequence encoding and machine learning applications.
+- **Major strengths** The problem is well-motivated and practically important. The proposed PPCT representation conceptually integrates evolutionary information from PSSM and PSFM, which is a reasonable direction. The inclusion of a web server enhances usability and accessibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PPCT is a "novel" representation method and that the predictor is "effective" based on experimental results
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. The abstract states effectiveness on an independent dataset and tomato genome but provides no performance metrics, such as accuracy, sensitivity, specificity, or AUC, nor any comparison with existing methods.
+  - **Why it matters** Without quantitative evidence, the claimed effectiveness cannot be assessed. The novelty of PPCT relative to existing PSSM/PSFM-based methods is also unverifiable from the abstract alone.
+  - **Resolution test** Provide performance metrics on benchmark datasets, including comparisons with state-of-the-art predictors, and clarify the specific novelty of PPCT over prior PSSM/PSFM encoding schemes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the method is implemented in a freely available web server
+  - **Evidence pointer** Abstract; URL provided
+  - **Concern** The abstract does not describe the web server's functionality, input/output formats, or underlying implementation. The URL is given, but no validation of its accessibility or usability is provided.
+  - **Why it matters** Reproducibility and usability are critical for computational tools. Without details on the web server's operation and data handling, other researchers cannot independently verify or apply the method.
+  - **Resolution test** Describe the web server's interface, required inputs, output interpretation, and provide a usage example or screenshot in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that identifying DBPs, RBPs, and DRBPs is important for studying protein-nucleic acid interactions
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states the importance but does not discuss the specific biological or clinical implications of improved prediction, nor how the method advances beyond existing tools in practical applications.
+  - **Why it matters** The significance of the work depends on demonstrating a clear advance over current methods, not just incremental improvement. The abstract lacks context on the limitations of existing approaches that this method addresses.
+  - **Resolution test** Include a brief comparison with existing predictors and discuss specific scenarios where the proposed method provides meaningful advantages.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "Cross Transformation" is not explained. It is unclear how PSSM and PSFM are combined or what "correlations" means in this context.
+  - **Required correction** Provide a concise explanation of the transformation procedure and the nature of the correlations captured.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The "independent dataset" and "tomato genome" are mentioned but not described in terms of size, composition, or source.
+  - **Required correction** Specify the number of proteins, class distribution, and how the datasets were constructed or obtained.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract is dense and lacks a clear statement of the main result or a take-home message.
+  - **Required correction** Add a concluding sentence summarizing the key finding and its significance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and lack of methodological detail prevent any assessment of the core claims. The web server's functionality must be documented to support reproducibility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel combination of PSSM and PSFM, but without comparison to existing methods, the degree of novelty is unverifiable.  
+  - **Scientific importance** The problem is relevant, but the abstract does not demonstrate a significant advance over current state-of-the-art.  
+  - **Interdisciplinary readership** The topic is of interest to bioinformaticians and computational biologists, but the abstract is too technical for a broader audience without clear biological context.  
+  - **Technical soundness** Cannot be assessed due to missing methodological details and performance data.  
+  - **Readability for nonspecialists** The abstract is accessible to domain experts but lacks sufficient context for nonspecialists to appreciate the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims of effectiveness or novelty. A full manuscript with quantitative results, methodological details, and web server documentation is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim that PPCT is a "novel" representation method is unsupported without comparison to existing PSSM/PSFM-based approaches.
+- The claim that the method is "effective" on an independent dataset and tomato genome is unsupported without any performance metrics.
+- The claim that the web server is "user-friendly" is unsupported without documentation or demonstration.
+- The biological importance of identifying DBPs, RBPs, and DRBPs is stated but not contextualized with specific applications or limitations of existing methods.

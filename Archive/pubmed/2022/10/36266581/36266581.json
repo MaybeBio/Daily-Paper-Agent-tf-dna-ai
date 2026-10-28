@@ -1,0 +1,986 @@
+{
+  "identity": {
+    "pmid": "36266581",
+    "doi": "10.1038/s41586-022-05308-6",
+    "title": "Identification of environmental factors that promote intestinal inflammation."
+  },
+  "content": {
+    "abstract": "Genome-wide association studies have identified risk loci linked to inflammatory bowel disease (IBD)(1)-a complex chronic inflammatory disorder of the gastrointestinal tract. The increasing prevalence of IBD in industrialized countries and the augmented disease risk observed in migrants who move into areas of higher disease prevalence suggest that environmental factors are also important determinants of IBD susceptibility and severity(2). However, the identification of environmental factors relevant to IBD and the mechanisms by which they influence disease has been hampered by the lack of platforms for their systematic investigation. Here we describe an integrated systems approach, combining publicly available databases, zebrafish chemical screens, machine learning and mouse preclinical models to identify environmental factors that control intestinal inflammation. This approach established that the herbicide propyzamide increases inflammation in the small and large intestine. Moreover, we show that an AHR-NF-kappaB-C/EBPbeta signalling axis operates in T cells and dendritic cells to promote intestinal inflammation, and is targeted by propyzamide. In conclusion, we developed a pipeline for the identification of environmental factors and mechanisms of pathogenesis in IBD and, potentially, other inflammatory diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Inflammation/chemically induced/etiology/immunology/pathology",
+      "*Inflammatory Bowel Diseases/chemically induced/etiology/immunology/pathology",
+      "Zebrafish",
+      "Machine Learning",
+      "Databases, Factual",
+      "Disease Models, Animal",
+      "*Intestines/drug effects/immunology/metabolism/pathology",
+      "NF-kappa B",
+      "CCAAT-Enhancer-Binding Protein-beta",
+      "Receptors, Aryl Hydrocarbon",
+      "T-Lymphocytes/drug effects/immunology/metabolism",
+      "Dendritic Cells/drug effects/immunology/metabolism",
+      "*Herbicides/adverse effects",
+      "*Environment",
+      "Benzamides",
+      "Basic Helix-Loop-Helix Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanmarco, Liliana M",
+        "Chao, Chun-Cheih",
+        "Wang, Yu-Chao",
+        "Kenison, Jessica E",
+        "Li, Zhaorong",
+        "Rone, Joseph M",
+        "Rejano-Gordillo, Claudia M",
+        "Polonio, Carolina M",
+        "Gutierrez-Vazquez, Cristina",
+        "Piester, Gavin",
+        "Plasencia, Agustin",
+        "Li, Lucinda",
+        "Giovannoni, Federico",
+        "Lee, Hong-Gyun",
+        "Faust Akl, Camilo",
+        "Wheeler, Michael A",
+        "Mascanfroni, Ivan",
+        "Jaronen, Merja",
+        "Alsuwailm, Moneera",
+        "Hewson, Patrick",
+        "Yeste, Ada",
+        "Andersen, Brian M",
+        "Franks, Diana G",
+        "Huang, Chien-Jung",
+        "Ekwudo, Millicent",
+        "Tjon, Emily C",
+        "Rothhammer, Veit",
+        "Takenaka, Maisa",
+        "de Lima, Kalil Alves",
+        "Linnerbauer, Mathias",
+        "Guo, Lydia",
+        "Covacu, Ruxandra",
+        "Queva, Hugo",
+        "Fonseca-Castro, Pedro Henrique",
+        "Bladi, Maha Al",
+        "Cox, Laura M",
+        "Hodgetts, Kevin J",
+        "Hahn, Mark E",
+        "Mildner, Alexander",
+        "Korzenik, Joshua",
+        "Hauser, Russ",
+        "Snapper, Scott B",
+        "Quintana, Francisco J"
+      ],
+      "short_names": [
+        "Sanmarco LM",
+        "Chao CC",
+        "Wang YC",
+        "Kenison JE",
+        "Li Z",
+        "Rone JM",
+        "Rejano-Gordillo CM",
+        "Polonio CM",
+        "Gutierrez-Vazquez C",
+        "Piester G",
+        "Plasencia A",
+        "Li L",
+        "Giovannoni F",
+        "Lee HG",
+        "Faust Akl C",
+        "Wheeler MA",
+        "Mascanfroni I",
+        "Jaronen M",
+        "Alsuwailm M",
+        "Hewson P",
+        "Yeste A",
+        "Andersen BM",
+        "Franks DG",
+        "Huang CJ",
+        "Ekwudo M",
+        "Tjon EC",
+        "Rothhammer V",
+        "Takenaka M",
+        "de Lima KA",
+        "Linnerbauer M",
+        "Guo L",
+        "Covacu R",
+        "Queva H",
+        "Fonseca-Castro PH",
+        "Bladi MA",
+        "Cox LM",
+        "Hodgetts KJ",
+        "Hahn ME",
+        "Mildner A",
+        "Korzenik J",
+        "Hauser R",
+        "Snapper SB",
+        "Quintana FJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4108-2658",
+        "ORCID: 0000-0002-1574-1691",
+        "ORCID: 0000-0002-5268-6986",
+        "ORCID: 0000-0003-4586-5975",
+        "ORCID: 0000-0003-0460-0161",
+        "ORCID: 0000-0002-3846-4631",
+        "ORCID: 0000-0001-8413-7298",
+        "ORCID: 0000-0002-7415-0947",
+        "ORCID: 0000-0001-5960-5504",
+        "ORCID: 0000-0002-0689-6384",
+        "ORCID: 0000-0002-5528-5141",
+        "ORCID: 0000-0003-3183-2988",
+        "ORCID: 0000-0002-9564-9894",
+        "ORCID: 0000-0003-4358-2082",
+        "ORCID: 0000-0002-2019-8427",
+        "ORCID: 0000-0001-7692-5710",
+        "ORCID: 0000-0003-0267-4247",
+        "ORCID: 0000-0001-8156-0736"
+      ],
+      "affiliations": [
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Rochester Medical Center, Rochester, NY, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "The Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Center for Neuro-Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA.",
+        "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA, USA.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA, USA.",
+        "Max-Delbruck-Center for Molecular Medicine (MDC), Berlin, Germany.",
+        "Department of Gastroenterology, Hepatology and Endoscopy, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Harvard T. H. Chan School of Public Health, Boston, MA, USA.",
+        "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA. fquintana@rics.bwh.harvard.edu.",
+        "The Broad Institute of Harvard and MIT, Cambridge, MA, USA. fquintana@rics.bwh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanmarco, Liliana M",
+        "short_name": "Sanmarco LM",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Chao, Chun-Cheih",
+        "short_name": "Chao CC",
+        "identifiers": [
+          "0000-0003-4108-2658"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu-Chao",
+        "short_name": "Wang YC",
+        "identifiers": [
+          "0000-0002-1574-1691"
+        ],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kenison, Jessica E",
+        "short_name": "Kenison JE",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Zhaorong",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0000-0002-5268-6986"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rone, Joseph M",
+        "short_name": "Rone JM",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rejano-Gordillo, Claudia M",
+        "short_name": "Rejano-Gordillo CM",
+        "identifiers": [
+          "0000-0003-4586-5975"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Polonio, Carolina M",
+        "short_name": "Polonio CM",
+        "identifiers": [
+          "0000-0003-0460-0161"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gutierrez-Vazquez, Cristina",
+        "short_name": "Gutierrez-Vazquez C",
+        "identifiers": [
+          "0000-0002-3846-4631"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Piester, Gavin",
+        "short_name": "Piester G",
+        "identifiers": [
+          "0000-0001-8413-7298"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+          "Department of Pathology and Laboratory Medicine, University of Rochester Medical Center, Rochester, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Plasencia, Agustin",
+        "short_name": "Plasencia A",
+        "identifiers": [
+          "0000-0002-7415-0947"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Lucinda",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Giovannoni, Federico",
+        "short_name": "Giovannoni F",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Hong-Gyun",
+        "short_name": "Lee HG",
+        "identifiers": [
+          "0000-0001-5960-5504"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Faust Akl, Camilo",
+        "short_name": "Faust Akl C",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wheeler, Michael A",
+        "short_name": "Wheeler MA",
+        "identifiers": [
+          "0000-0002-0689-6384"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+          "The Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mascanfroni, Ivan",
+        "short_name": "Mascanfroni I",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jaronen, Merja",
+        "short_name": "Jaronen M",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Alsuwailm, Moneera",
+        "short_name": "Alsuwailm M",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hewson, Patrick",
+        "short_name": "Hewson P",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Yeste, Ada",
+        "short_name": "Yeste A",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Andersen, Brian M",
+        "short_name": "Andersen BM",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+          "Center for Neuro-Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Franks, Diana G",
+        "short_name": "Franks DG",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Chien-Jung",
+        "short_name": "Huang CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Ekwudo, Millicent",
+        "short_name": "Ekwudo M",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Tjon, Emily C",
+        "short_name": "Tjon EC",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rothhammer, Veit",
+        "short_name": "Rothhammer V",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Takenaka, Maisa",
+        "short_name": "Takenaka M",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "de Lima, Kalil Alves",
+        "short_name": "de Lima KA",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Linnerbauer, Mathias",
+        "short_name": "Linnerbauer M",
+        "identifiers": [
+          "0000-0002-5528-5141"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Lydia",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Covacu, Ruxandra",
+        "short_name": "Covacu R",
+        "identifiers": [
+          "0000-0003-3183-2988"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Queva, Hugo",
+        "short_name": "Queva H",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fonseca-Castro, Pedro Henrique",
+        "short_name": "Fonseca-Castro PH",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bladi, Maha Al",
+        "short_name": "Bladi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Cox, Laura M",
+        "short_name": "Cox LM",
+        "identifiers": [
+          "0000-0002-9564-9894"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hodgetts, Kevin J",
+        "short_name": "Hodgetts KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hahn, Mark E",
+        "short_name": "Hahn ME",
+        "identifiers": [
+          "0000-0003-4358-2082"
+        ],
+        "affiliations": [
+          "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mildner, Alexander",
+        "short_name": "Mildner A",
+        "identifiers": [
+          "0000-0002-2019-8427"
+        ],
+        "affiliations": [
+          "Max-Delbrück-Center for Molecular Medicine (MDC), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Korzenik, Joshua",
+        "short_name": "Korzenik J",
+        "identifiers": [
+          "0000-0001-7692-5710"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Hepatology and Endoscopy, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hauser, Russ",
+        "short_name": "Hauser R",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard T. H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Snapper, Scott B",
+        "short_name": "Snapper SB",
+        "identifiers": [
+          "0000-0003-0267-4247"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Quintana, Francisco J",
+        "short_name": "Quintana FJ",
+        "identifiers": [
+          "0000-0001-8156-0736"
+        ],
+        "affiliations": [
+          "Ann Romney Center for Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA. fquintana@rics.bwh.harvard.edu.",
+          "The Broad Institute of Harvard and MIT, Cambridge, MA, USA. fquintana@rics.bwh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/21 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "42534865",
+      "42437750",
+      "42350080",
+      "42209766",
+      "42177552",
+      "42148126",
+      "42071868",
+      "42064799",
+      "41898518",
+      "41805994",
+      "41745845",
+      "41703574",
+      "41696441",
+      "41680474",
+      "41675715",
+      "41660635",
+      "41460707",
+      "41321307",
+      "41292200",
+      "41268703",
+      "41229368",
+      "41208900",
+      "41088409",
+      "40922684",
+      "40869955",
+      "40688069",
+      "40533763",
+      "40528029",
+      "40497094",
+      "40442386",
+      "40362805",
+      "40247142",
+      "40207229",
+      "40196424",
+      "40079593",
+      "40076493",
+      "40065181",
+      "40021897",
+      "39997181",
+      "39956891",
+      "39939792",
+      "39833377",
+      "39813730",
+      "39707003",
+      "39700476",
+      "39570897",
+      "39249550",
+      "39179372",
+      "39092222",
+      "39088353",
+      "39085420",
+      "39058786",
+      "39020410",
+      "38964382",
+      "38963463",
+      "38778725",
+      "38698858",
+      "38681124",
+      "38674118",
+      "38666993",
+      "38605515",
+      "38528201",
+      "38497255",
+      "38495524",
+      "38444810",
+      "38363399",
+      "38354883",
+      "38351003",
+      "38293325",
+      "38136901",
+      "38086932",
+      "37958638",
+      "37950021",
+      "37900047",
+      "37635926",
+      "37558878",
+      "37408267",
+      "37399380",
+      "37375147",
+      "37328570",
+      "37298350",
+      "37191444",
+      "37001498",
+      "36982624",
+      "36908414",
+      "36798415",
+      "36733765",
+      "36499247",
+      "36422919",
+      "36357705",
+      "36333547"
+    ],
+    "refs": [
+      "35707580",
+      "35128477",
+      "34183837",
+      "33408417",
+      "33290721",
+      "32826341",
+      "32544438",
+      "32536865",
+      "32279195",
+      "32203403",
+      "32127733",
+      "31917788",
+      "31870423",
+      "31784610",
+      "31740819",
+      "31645720",
+      "31474370",
+      "31231388",
+      "30995806",
+      "30954476",
+      "30931480",
+      "30661753",
+      "30501068",
+      "30407594",
+      "30395178",
+      "29775592",
+      "29769726",
+      "29608179",
+      "29489753",
+      "29196645",
+      "28658209",
+      "28333914",
+      "28146477",
+      "28091601",
+      "28005526",
+      "28002407",
+      "27822518",
+      "27783946",
+      "27367298",
+      "27330188",
+      "27230380",
+      "27158906",
+      "27158904",
+      "27043002",
+      "26972015",
+      "26653891",
+      "25731162",
+      "25516281",
+      "25159092",
+      "24498387",
+      "24352326",
+      "24239782",
+      "23995234",
+      "23913046",
+      "23467089",
+      "23405894",
+      "23201900",
+      "23128233",
+      "23104886",
+      "22940246",
+      "22615130",
+      "22490804",
+      "22402401",
+      "22245285",
+      "22006976",
+      "21430780",
+      "20827291",
+      "20643337",
+      "20383131",
+      "20221429",
+      "20128011",
+      "19881490",
+      "19732770",
+      "18371930",
+      "18031580",
+      "17581586",
+      "12585506",
+      "12409613",
+      "8246913",
+      "7595199",
+      "2543914",
+      "1715583",
+      "1325649"
+    ],
+    "similar": [
+      "36266581",
+      "21600206",
+      "23075874",
+      "39273457",
+      "28547076",
+      "23974993",
+      "23554310",
+      "26939275",
+      "30085016",
+      "27548324",
+      "38918576",
+      "34126769",
+      "38674118",
+      "20412746",
+      "38891786",
+      "21122584",
+      "20222124",
+      "19672896",
+      "33602081",
+      "23603043",
+      "30959159",
+      "33042125",
+      "24415861",
+      "25248003",
+      "34155144",
+      "24975266",
+      "23272174",
+      "21530743",
+      "33528856",
+      "18974296",
+      "25862525",
+      "16620015",
+      "29207040",
+      "29672155",
+      "22475725",
+      "34858414",
+      "23660296",
+      "24122796",
+      "18393377",
+      "33691258",
+      "23448252",
+      "25557335",
+      "20878756",
+      "34299236",
+      "30510991",
+      "32410365",
+      "32279195",
+      "32958515",
+      "26982806",
+      "27548430",
+      "35366977",
+      "10954186",
+      "29508072",
+      "24415853",
+      "33130971",
+      "25110250",
+      "34409723",
+      "33800865",
+      "19766082",
+      "24302727",
+      "25151008",
+      "17361131",
+      "24285285",
+      "17825455",
+      "32875777",
+      "21624200",
+      "31718550",
+      "26458165",
+      "38194476",
+      "22450895",
+      "17030949",
+      "31001250",
+      "36617836",
+      "29336524",
+      "31083616",
+      "30232239",
+      "9260328",
+      "22970169",
+      "38542367",
+      "28901966",
+      "30569099",
+      "30542111",
+      "29775592",
+      "29995938",
+      "34725870",
+      "25109166",
+      "31286804",
+      "27750083",
+      "20848507",
+      "17496346",
+      "15545995",
+      "22506022",
+      "31337664",
+      "26244650",
+      "35805952",
+      "17853946",
+      "32410847",
+      "19528876"
+    ],
+    "review": [
+      "36266581",
+      "28547076",
+      "23974993",
+      "38674118",
+      "20412746",
+      "23603043",
+      "30959159",
+      "33042125",
+      "24415861",
+      "25248003",
+      "21530743",
+      "33528856",
+      "16620015",
+      "34858414",
+      "23660296",
+      "18393377",
+      "25557335",
+      "34299236",
+      "32410365",
+      "32279195",
+      "26982806",
+      "10954186",
+      "24415853",
+      "25110250",
+      "33800865",
+      "19766082",
+      "17825455",
+      "26458165",
+      "38194476",
+      "22450895",
+      "29336524",
+      "31083616",
+      "30232239",
+      "9260328",
+      "38542367",
+      "28901966",
+      "25109166",
+      "31286804",
+      "20848507",
+      "17496346",
+      "35805952",
+      "32410847"
+    ],
+    "pmc": [
+      "9898826"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/36266581/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/36266581",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-022-05308-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36266581/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36266581",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=36266581",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse175766",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

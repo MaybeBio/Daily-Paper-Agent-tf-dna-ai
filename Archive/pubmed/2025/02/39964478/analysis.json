@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39964478",
+  "title": "Probabilistic and machine-learning methods for predicting local rates of transcription elongation from nascent RNA sequencing data.",
+  "authors": "Liu, Lingjie; Zhao, Yixin; Hassett, Rebecca; Toneyan, Shushan; Koo, Peter K; Siepel, Adam",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-02-18",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用概率模型和CNN预测转录延伸速率，虽涉及CTCF结合位点但核心是RNA聚合酶延伸动力学，非蛋白质-DNA互作建模，方法亦不针对TF-DNA结合。",
+  "abstract": "Rates of transcription elongation vary within and across eukaryotic gene bodies. Here, we introduce new methods for predicting elongation rates from nascent RNA sequencing data. First, we devise a probabilistic model that predicts nucleotide-specific elongation rates as a generalized linear function of nearby genomic and epigenomic features. We validate this model with simulations and apply it to public PRO-seq (Precision Run-On Sequencing) and epigenomic data for four cell types, finding that reductions in local elongation rate are associated with cytosine nucleotides, DNA methylation, splice sites, RNA stem-loops, CTCF (CCCTC-binding factor) binding sites, and several histone marks, including H3K36me3 and H4K20me1. By contrast, increases in local elongation rate are associated with thymines, A+T-rich and low-complexity sequences, and H3K79me2 marks. We then introduce a convolutional neural network that improves our local rate predictions. Our analysis is the first to permit genome-wide predictions of relative nucleotide-specific elongation rates.",
+  "abstract_zh": "转录延伸速率在真核基因体内及基因间存在差异。在此，我们引入了从新生RNA测序数据预测延伸速率的新方法。首先，我们设计了一个概率模型，该模型将核苷酸特异性延伸速率预测为邻近基因组和表观基因组特征的广义线性函数。我们通过模拟验证了该模型，并将其应用于四种细胞类型的公共PRO-seq（精确运行测序）和表观基因组数据，发现局部延伸速率的降低与胞嘧啶核苷酸、DNA甲基化、剪接位点、RNA茎环结构、CTCF（CCCTC结合因子）结合位点以及若干组蛋白标记（包括H3K36me3和H4K20me1）相关。相反，局部延伸速率的增加与胸腺嘧啶、A+T富集和低复杂度序列以及H3K79me2标记相关。随后，我们引入了一种卷积神经网络，以改进我们的局部速率预测。我们的分析首次实现了对相对核苷酸特异性延伸速率的全基因组预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39964478/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39964478/",
+  "paper_page_path": "papers/pubmed/39964478/index.html"
+}

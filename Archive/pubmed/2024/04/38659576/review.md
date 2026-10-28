@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors report that physalin H, physalin B, and isophysalin B suppress quorum sensing in Staphylococcus aureus by binding to the AgrA response regulator, inhibiting its interaction with agr promoters, and reducing hemolytic toxin production. The mechanism is supported by biological assays, EMSA, docking, and molecular dynamics simulations.
+- **Visible evidence base** Screening data (577 compounds), dose-response luminescence assays, qPCR gene expression data, hemolysis assays, EMSA, docking scores, MD simulation trajectories, and structural comparisons of physalins.
+- **Missing materials affecting confidence** Raw screening data, full dose-response curves for all physalins, statistical details for qPCR and hemolysis assays, MD simulation parameters and convergence criteria, and validation of docking poses beyond the top-scoring conformations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and generally well-executed study identifying physalins as AgrA-binding inhibitors of quorum sensing in S. aureus. The combination of biological screening, in vitro DNA-binding assays, and computational modeling provides a coherent narrative. However, several technical concerns regarding the specificity of the AgrA-physalin interaction, the quantitative rigor of the biological assays, and the interpretation of the MD simulations need to be addressed before the mechanistic claims are fully established.
+- **Who would be interested in the results, and why** Researchers in anti-virulence drug discovery, quorum sensing and bacterial signaling, medicinal chemistry of natural products, and those studying MRSA pathogenesis. The work may also interest computational chemists focused on protein-ligand interactions in bacterial response regulators.
+- **Major strengths** The study addresses an important and timely topic, namely alternative strategies to combat MRSA. The screening approach is logical and the identification of multiple active physalins with structure-activity relationships is valuable. The combination of experimental and computational methods strengthens the mechanistic proposal. The use of multiple S. aureus strains and subgroups adds generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of AgrA targeting
+  - **Claim pointer** The authors claim that physalins suppress Agr-QS by binding to AgrA and inhibiting its DNA-binding function.
+  - **Evidence pointer** Section 3.3, Figure 3
+  - **Concern** The EMSA experiments demonstrate that physalin H inhibits AgrA-DNA binding in vitro, but the specificity of this interaction is not established. The authors do not show whether physalin H affects other DNA-binding proteins or whether the effect is specific to AgrA. Additionally, the concentrations used in EMSA (up to 500 µM) are far above the IC50 values reported for cellular assays (20.4 µM for physalin H), raising questions about the physiological relevance of the in vitro binding data.
+  - **Why it matters** Without demonstrating specificity, the claim that AgrA is the direct molecular target of physalins is not fully supported. Off-target effects on other transcription factors or DNA-binding proteins could also explain the observed phenotypes.
+  - **Resolution test** The authors should perform EMSA with an unrelated DNA-binding protein and its cognate DNA to show that physalin H does not inhibit DNA binding generally. Additionally, they should demonstrate that the concentration required for in vitro inhibition of AgrA-DNA binding is consistent with the concentrations that inhibit Agr-QS in cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of biological assays
+  - **Claim pointer** The authors report IC50 values for physalins H, B, and isophysalin B in inhibiting Agr-QS activity and state that hemolytic activity is reduced.
+  - **Evidence pointer** Sections 3.1, 3.2, Figures 1, 2
+  - **Concern** The statistical analysis is described only as using a two-tailed Student's t-test, but no details are provided on the number of biological replicates, error bars, or statistical significance for the qPCR and hemolysis data. The IC50 values are presented without confidence intervals. The hemolysis data for physalin F (PS2) are described as showing low anti-hemolytic activity despite suppressing Agr-QS, but the quantitative basis for this distinction is not clear.
+  - **Why it matters** The central claims of the paper depend on quantitative differences between physalins that suppress Agr-QS and those that do not. Without proper statistical reporting, the reader cannot assess the robustness of these differences.
+  - **Resolution test** The authors should provide the number of independent experiments, standard deviations or standard errors, and statistical significance values for all quantitative assays. IC50 values should include confidence intervals. The comparison between physalin F and physalins H, B, and isophysalin B should be explicitly tested statistically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of molecular dynamics simulations
+  - **Claim pointer** The authors claim that MD simulations reveal that a hydrogen bond between the carbonyl oxygen at C-15 of physalins and L186 of AgrA acts as an anchor, sustaining the interaction between the carbonyl oxygen at C-1 and N201.
+  - **Evidence pointer** Section 3.5, Figures 5, 6, Table 2
+  - **Concern** The MD simulations are performed for 100 ns, which is relatively short for drawing conclusions about binding stability. The authors do not report whether the simulations reached convergence, nor do they provide details on the force field parameters used for the physalins, the protonation states, or the number of replicate simulations. The claim that a single hydrogen bond acts as an "anchor" is a strong interpretation that requires more extensive sampling and possibly free energy calculations.
+  - **Why it matters** The mechanistic model proposed in the paper relies heavily on the MD results. If the simulations are not converged or the interactions are not stable over longer timescales, the proposed anchoring mechanism may not be robust.
+  - **Resolution test** The authors should provide details on simulation setup, force field parameters, and convergence criteria. They should also perform replicate simulations or extend the simulation time to demonstrate that the observed interactions are stable and reproducible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structure-activity relationship interpretation
+  - **Claim pointer** The authors propose that structural differences in the A and B rings of physalins determine their Agr-QS inhibitory activity by altering the orientation of carbonyl oxygens.
+  - **Evidence pointer** Sections 3.2, 3.4, Figures 2, 4, Table 1
+  - **Concern** The structure-activity relationship is based on a limited set of physalins (nine total). The authors do not provide a systematic analysis of which structural features correlate with activity. The docking scores for active and inactive physalins are similar, and the authors rely on qualitative differences in binding orientation to explain activity differences. This is not a rigorous SAR analysis.
+  - **Why it matters** The claim that specific structural features determine activity is important for future drug design. Without a more systematic analysis, the proposed SAR is speculative.
+  - **Resolution test** The authors should either test additional physalin analogs with defined structural variations or provide a more quantitative analysis of the relationship between structure, docking pose, and activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The screening method is described briefly. It is unclear how the 577 compounds were selected, whether the screen was performed in duplicate, and what threshold was used to define a "hit."
+  - **Required correction** Provide additional details on the screening protocol, including compound concentrations, replicate numbers, and hit criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1E
+  - **Evidence pointer** Figure 1E
+  - **Issue** The growth inhibition data in Figure 1E are described in the text but the figure legend does not specify the time point at which growth was measured or the statistical comparison.
+  - **Required correction** Clarify the time point and statistical analysis in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Section 4
+  - **Issue** The term "novel" is used to describe the physalins as Agr-QS modulators. While the specific activity may be new, physalins are known bioactive compounds. The novelty claim should be more precise.
+  - **Required correction** Rephrase to specify that the AgrA-inhibitory activity of these physalins is newly identified.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Supplementary data
+  - **Affected element** Supplementary Table S1
+  - **Evidence pointer** Supplementary Table S1
+  - **Issue** The primer sequences are listed in Supplementary Table S1, but the efficiency of the qPCR primers is not reported.
+  - **Required correction** Include primer efficiency values or state that they were validated.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.10
+  - **Evidence pointer** Section 2.10
+  - **Issue** The statistical analysis section is minimal. It is unclear whether multiple testing corrections were applied when comparing multiple physalins.
+  - **Required correction** Clarify whether multiple testing corrections were used and describe the statistical tests in more detail.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specificity of AgrA targeting) and R1-M2 (quantitative rigor of biological assays) are the most critical. The EMSA data need to be supported by specificity controls, and the biological assays need proper statistical reporting. R1-M3 (MD simulation interpretation) also needs to be addressed to support the mechanistic model.
+- **Assessment against Nature-style criteria** Originality: The identification of physalins as AgrA-binding inhibitors is a novel finding, though the concept of targeting AgrA is not new. Scientific importance: The work has potential significance for anti-virulence therapy against MRSA, but the high concentrations required and lack of in vivo data limit the immediate impact. Interdisciplinary readership: The work bridges natural product chemistry, microbiology, and computational biology, which could appeal to a broad audience. Technical soundness: The experimental design is generally sound, but the lack of specificity controls and statistical rigor weakens the technical foundation. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, though some sections (e.g., MD analysis) may be challenging for non-computational readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially interesting, but the specificity of the AgrA-physalin interaction and the quantitative rigor of the biological data need to be strengthened before the mechanistic claims are fully established.

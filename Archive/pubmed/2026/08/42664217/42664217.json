@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "42664217",
+    "doi": "10.1371/journal.pone.0357231",
+    "title": "Exploration of acetylation-related biomarkers in osteoarthritis through bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Osteoarthritis (OA) is characterized as a chronic degenerative disorder affecting the joints. A growing body of evidence indicates that acetylation may play a role in the disease's pathogenesis. However, the underlying molecular mechanisms remain largely undefined. The objective of this study was to explore potential biomarkers linked to acetylation in OA through a comprehensive bioinformatics analysis. We utilized datasets GSE55235, GSE55457, and GSE12021 from the Gene Expression Omnibus (GEO) to identify differentially expressed genes (DEGs) by employing the limma package, followed by functional enrichment analyses. By implementing weighted gene co‑expression network analysis (WGCNA), we identified key modules and subsequently recognized acetylation-related differentially expressed genes (ACEDEGs). A protein-protein interaction (PPI) network was constructed for these ACEDEGs, and machine learning algorithms were applied to discover potential biomarkers. We established and validated a diagnostic prediction model demonstrating significant diagnostic efficacy (AUC: 0.983 for training and 0.743 for validation). Furthermore, analyses indicated notable alterations in immune cell infiltration through CIBERSORT. Additionally, qRT-PCR and Western blotting corroborated the down-regulation of biomarkers JUN and MYC in OA. In summary, JUN and MYC were identified as novel acetylation-related biomarkers in OA. These findings offer valuable insights into the disease's pathophysiology and suggest new pathways for diagnostic and therapeutic strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoarthritis/genetics/metabolism/diagnosis",
+      "Acetylation",
+      "*Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Proto-Oncogene Proteins c-jun/genetics/metabolism",
+      "Proto-Oncogene Proteins c-myc/genetics/metabolism",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shuchang",
+        "Yin, Jiefeng",
+        "Huang, Jie",
+        "Zheng, Xifan",
+        "Yao, Jun"
+      ],
+      "short_names": [
+        "Li S",
+        "Yin J",
+        "Huang J",
+        "Zheng X",
+        "Yao J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2085-1665"
+      ],
+      "affiliations": [
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China.",
+        "Department of Surgery II, Wuxiang Hospital, The Third Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shuchang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Jiefeng",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jie",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery II, Wuxiang Hospital, The Third Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xifan",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jun",
+        "short_name": "Yao J",
+        "identifiers": [
+          "0000-0003-2085-1665"
+        ],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/28 18:06",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41595622",
+      "41210882",
+      "40881706",
+      "40843442",
+      "40829629",
+      "40790309",
+      "40082724",
+      "39911590",
+      "39814733",
+      "39761740",
+      "39755397",
+      "39738612",
+      "39370621",
+      "39304950",
+      "39297544",
+      "39200304",
+      "39004001",
+      "38771826",
+      "38428513",
+      "38280934",
+      "38049029",
+      "37651071",
+      "37620236",
+      "37310287",
+      "37047377",
+      "36845391",
+      "36700022",
+      "36685513",
+      "36681837",
+      "36504782",
+      "36246123",
+      "35867240",
+      "35501731",
+      "35264634",
+      "34992497",
+      "34670585",
+      "34383111",
+      "34267555",
+      "34045958",
+      "33855867",
+      "33731688",
+      "33677723",
+      "33235627",
+      "33078204",
+      "30523334",
+      "29929979",
+      "28287489",
+      "26894867",
+      "26714479",
+      "26334269",
+      "25761416",
+      "16026938",
+      "15759951"
+    ],
+    "similar": [
+      "42664217",
+      "42051521",
+      "41146237",
+      "39086489",
+      "39695788",
+      "41258630",
+      "42274933",
+      "39176085",
+      "38734758",
+      "41316378",
+      "42397093",
+      "38767974",
+      "34113405",
+      "40726988",
+      "39953769",
+      "38771826",
+      "41031145",
+      "39639239",
+      "42449128",
+      "40592131",
+      "42233387",
+      "40335993",
+      "40374840",
+      "41816328",
+      "42327749",
+      "41044520",
+      "39341952",
+      "38899746",
+      "40532306",
+      "36681837",
+      "41316541",
+      "33325525",
+      "40646535",
+      "39586719",
+      "39188714",
+      "40245021",
+      "40406126",
+      "40216809",
+      "36929359",
+      "32342805",
+      "40804350",
+      "38912048",
+      "39349110",
+      "32571421",
+      "40628511",
+      "42278407",
+      "38987624",
+      "42079646",
+      "41638276",
+      "39875572",
+      "42302029",
+      "40420260",
+      "40083558",
+      "41398629",
+      "37503333",
+      "34224029",
+      "39585570",
+      "39026663",
+      "42284285",
+      "40901831",
+      "35860189",
+      "30483789",
+      "40241169",
+      "41760060",
+      "42292423",
+      "40374866",
+      "34949204",
+      "41887709",
+      "39919076",
+      "40997906",
+      "38863714",
+      "41120603",
+      "41423561",
+      "36699262",
+      "41327360",
+      "39387979",
+      "32945465",
+      "41214111",
+      "40574839",
+      "39375405",
+      "32135469",
+      "39148085",
+      "39730379",
+      "39779817",
+      "40474128",
+      "38268224",
+      "39749331",
+      "41310008",
+      "41677890",
+      "39118438",
+      "41703488",
+      "39139563",
+      "40973872",
+      "40977739",
+      "38509535",
+      "41196851",
+      "38741149",
+      "40313958",
+      "35733917",
+      "40836320"
+    ],
+    "review": [
+      "42664217",
+      "39387979"
+    ],
+    "pmc": [
+      "13524278"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0357231",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42664217/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

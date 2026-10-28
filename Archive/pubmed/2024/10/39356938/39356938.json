@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "39356938",
+    "doi": "10.31744/einstein_journal/2024AO0508",
+    "title": "Cluster classification of a Brazilian gastric cancer cohort reveals remarkable populational differences in normal p53 rate."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Queiroz et al. showed that the application of cluster methodology for classifying gastric cancer is suitable and efficient within a Brazilian cohort, which is known for its population heterogeneity. The study highlighted the potential utilization of this method within public health services due to its low-cost, presenting a viable means to improve the diagnosis and prognosis of gastric cancer. BACKGROUND: Our Brazilian cohort with gastric cancer has a distinct distribution between mutated and normal p53. BACKGROUND: New genetic marker-based classifications improve gastric cancer diagnosis accuracy. BACKGROUND: Machine learning integration enhances predictive value in gastric cancer diagnosis. BACKGROUND: Molecular biomarkers complement clinical decisions, advancing personalized medicine. OBJECTIVE: Gastric adenocarcinoma remains an aggressive disease with a poor prognosis, as evidenced by a 5-year survival rate of approximately 31%. The histological classifications already proposed do not accurately reflect the high biological heterogeneity of this neoplasm, particularly in diverse populations, and new classification systems using genetic markers have recently been proposed. Following these newly proposed models, we aimed to assess the cluster distribution in a Brazilian cohort. Furthermore, we evaluated whether the inclusion of other clinical and histological parameters could enhance the predictive value. METHODS: We used a previously described four-immunohistochemistry/EBER-ISH marker to classify a cohort of 30 Brazilian patients with gastric adenocarcinoma into five different clusters and compared the distribution with other genetically diverse populations. Furthermore, we used artificial intelligence methods to evaluate whether other clinical and pathological parameters could improve the results of the methodology. RESULTS: Disclosing the genetic variability between populations, we observed a more balanced distribution of the aberrant/normal p53 ratio (0.6) between patients negative for the other markers tested, unlike previous studies with Asian and North American populations. In addition, decision tree analysis reinforced the efficiency of these new classifications, as the stratification accuracy was not altered with or without additional data. CONCLUSION: Our study underscores the importance of local research in characterizing diverse populations and highlights the complementary role of molecular biomarkers in personalized medicine for gastric adenocarcinoma, enhancing diagnostic accuracy and potentially improving survival rates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Stomach Neoplasms/genetics/classification/pathology",
+      "Humans",
+      "Brazil",
+      "*Tumor Suppressor Protein p53/genetics/analysis",
+      "Male",
+      "Female",
+      "*Adenocarcinoma/genetics/classification/pathology",
+      "Middle Aged",
+      "*Biomarkers, Tumor/genetics/analysis",
+      "Cohort Studies",
+      "Aged",
+      "Cluster Analysis",
+      "Mutation",
+      "Immunohistochemistry",
+      "Adult",
+      "Prognosis",
+      "Aged, 80 and over"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Queiroz, Fabio Ribeiro",
+        "Braga, Leticia da Conceicao",
+        "Melo, Carolina Pereira de Souza",
+        "Gomes, Matheus de Souza",
+        "Amaral, Laurence Rodrigues do",
+        "Salles, Paulo Guilherme de Oliveira"
+      ],
+      "short_names": [
+        "Queiroz FR",
+        "Braga LDC",
+        "Melo CPS",
+        "Gomes MS",
+        "Amaral LRD",
+        "Salles PGO"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0238-5787",
+        "ORCID: 0000-0002-6181-9410",
+        "ORCID: 0000-0001-9698-5817",
+        "ORCID: 0000-0001-7352-3089",
+        "ORCID: 0000-0003-4681-5451",
+        "ORCID: 0000-0001-8839-3491"
+      ],
+      "affiliations": [
+        "Instituto Mario Penna, Belo Horizonte, MG, Brazil.",
+        "Instituto Mario Penna, Belo Horizonte, MG, Brazil.",
+        "Instituto Mario Penna, Belo Horizonte, MG, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, MG, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, MG, Brazil.",
+        "Instituto Mario Penna, Belo Horizonte, MG, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Queiroz, Fábio Ribeiro",
+        "short_name": "Queiroz FR",
+        "identifiers": [
+          "0000-0003-0238-5787"
+        ],
+        "affiliations": [
+          "Instituto Mário Penna, Belo Horizonte, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Braga, Letícia da Conceição",
+        "short_name": "Braga LDC",
+        "identifiers": [
+          "0000-0002-6181-9410"
+        ],
+        "affiliations": [
+          "Instituto Mário Penna, Belo Horizonte, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Melo, Carolina Pereira de Souza",
+        "short_name": "Melo CPS",
+        "identifiers": [
+          "0000-0001-9698-5817"
+        ],
+        "affiliations": [
+          "Instituto Mário Penna, Belo Horizonte, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Gomes, Matheus de Souza",
+        "short_name": "Gomes MS",
+        "identifiers": [
+          "0000-0001-7352-3089"
+        ],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Amaral, Laurence Rodrigues do",
+        "short_name": "Amaral LRD",
+        "identifiers": [
+          "0000-0003-4681-5451"
+        ],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Salles, Paulo Guilherme de Oliveira",
+        "short_name": "Salles PGO",
+        "identifiers": [
+          "0000-0001-8839-3491"
+        ],
+        "affiliations": [
+          "Instituto Mário Penna, Belo Horizonte, MG, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Einstein (Sao Paulo, Brazil)"
+    ],
+    "journal_abbrev": [
+      "Einstein (Sao Paulo)"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/02 22:18",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35167603",
+      "34572886",
+      "34513602",
+      "34454674",
+      "34398359",
+      "34102137",
+      "33789008",
+      "33610734",
+      "31433515",
+      "31217584",
+      "31087075",
+      "30944675",
+      "30901543",
+      "30350310",
+      "30207593",
+      "29641950",
+      "27819872",
+      "27032689",
+      "27009855",
+      "25894828",
+      "25079317",
+      "23684942",
+      "16682738",
+      "14320675",
+      "11578917",
+      "11147594"
+    ],
+    "similar": [
+      "39356938",
+      "29725898",
+      "27342907",
+      "32971129",
+      "27032689",
+      "31541339",
+      "10522058",
+      "9164544",
+      "21430069",
+      "16277093",
+      "26078567",
+      "34367379",
+      "38651937",
+      "24151362",
+      "36321557",
+      "29697008",
+      "31676362",
+      "29851704",
+      "15224193",
+      "12560919",
+      "28498457",
+      "26617924",
+      "21116760",
+      "16521180",
+      "30140949",
+      "30098163",
+      "30554333",
+      "25224659",
+      "38936896",
+      "27819872",
+      "11458276",
+      "23983439",
+      "11295107",
+      "24222951",
+      "31609640",
+      "9440620",
+      "29063636",
+      "23599643",
+      "33095797",
+      "38584451",
+      "26022133",
+      "26980051",
+      "9140110",
+      "8130938",
+      "30944005",
+      "35179206",
+      "19336448",
+      "9713468",
+      "23275116",
+      "30779121",
+      "29305518",
+      "28948368",
+      "30089713",
+      "35151032",
+      "32200421",
+      "25813036",
+      "24217965",
+      "15144402",
+      "26897166",
+      "24415881",
+      "14514923",
+      "22456124",
+      "18751407",
+      "30946937",
+      "21360269",
+      "32592354",
+      "28830689",
+      "28618420",
+      "25822437",
+      "8838368",
+      "11268479",
+      "16303791",
+      "11277328",
+      "12796380",
+      "26183839",
+      "33253925",
+      "17262083",
+      "30915908",
+      "10705241",
+      "23969480",
+      "20979691",
+      "15154009",
+      "25593477",
+      "26173586",
+      "29668600",
+      "10748875",
+      "8647618",
+      "34876056",
+      "25025766",
+      "19009655",
+      "24138592",
+      "16998811",
+      "34749812",
+      "12872447",
+      "16038035",
+      "8940997",
+      "32571252",
+      "15017590",
+      "30864737",
+      "16224528"
+    ],
+    "review": [
+      "39356938",
+      "38651937",
+      "36321557",
+      "31609640"
+    ],
+    "pmc": [
+      "11461015"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39356938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1679-45082024000100234&lng=en&nrm=iso&tlng=en",
+        "provider": "Scientific Electronic Library Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

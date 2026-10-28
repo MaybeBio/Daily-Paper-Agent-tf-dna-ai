@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42119563",
+  "title": "RegVelo: Gene-regulatory-informed dynamics of single cells.",
+  "authors": "Wang, Weixu; Hu, Zhiyuan; Weiler, Philipp; Mayes, Sarah; Lange, Marius; Fountain, Daniel M; Haug, Julianna O; Wang, Jingye; Xue, Zhengyuan; Sauka-Spengler, Tatjana; Theis, Fabian J",
+  "journal": "Cell",
+  "published_date": "2026-05-13",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出深度学习框架RegVelo，联合建模剪接动力学与基因调控网络，但核心是单细胞命运决定而非蛋白质-DNA互作，缺乏TF-DNA结合位点或复合物结构建模，仅间接涉及基因调控，与本课题关联较弱。",
+  "abstract": "Cell fate transitions are driven by regulatory circuitry, yet RNA velocity models cellular dynamics without explicitly accounting for gene regulatory interactions, limiting mechanistic insight. Conversely, gene regulatory network (GRN) inference methods largely neglect the dynamic nature of biological systems. To overcome this conceptual disconnect, we present RegVelo, a bottom-up, actionable, and interpretable deep learning framework that jointly models splicing kinetics and gene regulatory interactions. Across diverse biological systems, RegVelo provides reliable predictive power for terminal states, gene interactions, and perturbation simulations. By applying RegVelo to zebrafish neural crest development using full-length Smart-seq3 and shared gene expression and chromatin accessibility measurements, we delineate regulatory programs underlying fate specification. Guided by in silico perturbations and validated by CRISPR-Cas9 knockout and single-cell Perturb-seq, we establish tfec as an early driver and elf1 as a regulator of pigment cell fate. RegVelo establishes a quantitative framework for bridging gene regulation and cell fate decisions.",
+  "abstract_zh": "细胞命运转变由调控回路驱动，然而RNA速度模型在描述细胞动态时未明确考虑基因调控相互作用，限制了机制性洞察。相反，基因调控网络（GRN）推断方法在很大程度上忽视了生物系统的动态特性。为克服这一概念上的脱节，我们提出了RegVelo，一个自下而上、可操作且可解释的深度学习框架，该框架联合建模剪接动力学和基因调控相互作用。在多种生物系统中，RegVelo为终末状态、基因相互作用和扰动模拟提供了可靠的预测能力。通过将RegVelo应用于斑马鱼神经嵴发育，利用全长Smart-seq3以及共享的基因表达和染色质可及性测量，我们描绘了命运特化背后的调控程序。在计算机模拟扰动的指导下，并经CRISPR-Cas9敲除和单细胞Perturb-seq验证，我们确定tfec为早期驱动因子，elf1为色素细胞命运的调控因子。RegVelo建立了一个连接基因调控与细胞命运决定的定量框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42119563/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42119563/",
+  "paper_page_path": "papers/pubmed/42119563/index.html"
+}

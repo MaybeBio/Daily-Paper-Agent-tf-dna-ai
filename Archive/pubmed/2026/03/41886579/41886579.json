@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "pmid": "41886579",
+    "doi": "10.1126/science.adz6830",
+    "title": "Distinctive DNA sequence features define epigenetic longevity of inflammatory memory."
+  },
+  "content": {
+    "abstract": "Tissues harbor memories of inflammation, which heighten sensitivity to diverse future assaults. Whether and how these adaptations are sustained through time and cell division remain poorly understood. We show that in mice, epidermal stem cells store lifelong, functional epigenetic records of psoriasis-like skin flares. Applying deep learning to investigate these chromatin dynamics, we unearth CpG dinucleotide density as a major driver of memory persistence. Although unnecessary for inflammation-induced transcription factors to open and establish memories, CpG-enriched sequences thereafter become essential, reinforcing accessibility across cellular generations by integrating DNA demethylation, methylation-sensitive transcription factors, sequence-intrinsic nucleosome disaffinity, and the nucleosome-destabilizing histone variant H2A.Z. Thus, once activated by inflammation-induced transcription factors, DNA sequences orchestrate persistent poise, imparting long-lasting memory to stress-sensitive genes and profoundly affecting tissue fitness upon recall.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Chromatin",
+      "CpG Islands",
+      "DNA Demethylation",
+      "DNA Methylation",
+      "*Epigenesis, Genetic",
+      "Histones/metabolism",
+      "*Inflammation/genetics/immunology",
+      "Mice, Inbred C57BL",
+      "Nucleosomes/metabolism",
+      "Transcription Factors/metabolism",
+      "*Trained Immunity/genetics",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cowley, Christopher J",
+        "Sajjath, Sairaj M",
+        "Soto-Ugaldi, Luis F",
+        "Steiger, Mara",
+        "Larsen, Samantha B",
+        "Carroll, Thomas",
+        "Barrows, Douglas",
+        "Mattei, Alexandra",
+        "Gonzales, Kevin A U",
+        "Wang, Wei",
+        "Li, Kevin",
+        "Meissner, Alexander",
+        "Kretzmer, Helene",
+        "Pe'er, Dana",
+        "Fuchs, Elaine"
+      ],
+      "short_names": [
+        "Cowley CJ",
+        "Sajjath SM",
+        "Soto-Ugaldi LF",
+        "Steiger M",
+        "Larsen SB",
+        "Carroll T",
+        "Barrows D",
+        "Mattei A",
+        "Gonzales KAU",
+        "Wang W",
+        "Li K",
+        "Meissner A",
+        "Kretzmer H",
+        "Pe'er D",
+        "Fuchs E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8897-1156",
+        "ORCID: 0000-0002-7156-3279",
+        "ORCID: 0000-0002-6348-6437",
+        "ORCID: 0000-0002-3747-685X",
+        "ORCID: 0000-0002-5774-6861",
+        "ORCID: 0000-0003-1450-8924",
+        "ORCID: 0000-0001-7418-965X",
+        "ORCID: 0000-0002-3216-7118",
+        "ORCID: 0009-0001-9794-0829",
+        "ORCID: 0000-0001-8646-7469",
+        "ORCID: 0000-0002-0723-4980",
+        "ORCID: 0000-0002-9259-8817",
+        "ORCID: 0000-0002-0978-5137"
+      ],
+      "affiliations": [
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Computational and Systems Biology Program, Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Digital Engineering Faculty, Hasso Plattner Institute for Digital Engineering, University of Potsdam, Potsdam, Germany.",
+        "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA.",
+        "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA.",
+        "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "Digital Engineering Faculty, Hasso Plattner Institute for Digital Engineering, University of Potsdam, Potsdam, Germany.",
+        "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "Computational and Systems Biology Program, Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cowley, Christopher J",
+        "short_name": "Cowley CJ",
+        "identifiers": [
+          "0000-0002-8897-1156"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sajjath, Sairaj M",
+        "short_name": "Sajjath SM",
+        "identifiers": [
+          "0000-0002-7156-3279"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Soto-Ugaldi, Luis F",
+        "short_name": "Soto-Ugaldi LF",
+        "identifiers": [
+          "0000-0002-6348-6437"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+          "Computational and Systems Biology Program, Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Steiger, Mara",
+        "short_name": "Steiger M",
+        "identifiers": [
+          "0000-0002-3747-685X"
+        ],
+        "affiliations": [
+          "Digital Engineering Faculty, Hasso Plattner Institute for Digital Engineering, University of Potsdam, Potsdam, Germany.",
+          "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Larsen, Samantha B",
+        "short_name": "Larsen SB",
+        "identifiers": [],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Carroll, Thomas",
+        "short_name": "Carroll T",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Barrows, Douglas",
+        "short_name": "Barrows D",
+        "identifiers": [
+          "0000-0002-5774-6861"
+        ],
+        "affiliations": [
+          "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mattei, Alexandra",
+        "short_name": "Mattei A",
+        "identifiers": [
+          "0000-0003-1450-8924"
+        ],
+        "affiliations": [
+          "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Gonzales, Kevin A U",
+        "short_name": "Gonzales KAU",
+        "identifiers": [
+          "0000-0001-7418-965X"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0002-3216-7118"
+        ],
+        "affiliations": [
+          "Bioinformatics Resource Center, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Kevin",
+        "short_name": "Li K",
+        "identifiers": [
+          "0009-0001-9794-0829"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Meissner, Alexander",
+        "short_name": "Meissner A",
+        "identifiers": [
+          "0000-0001-8646-7469"
+        ],
+        "affiliations": [
+          "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kretzmer, Helene",
+        "short_name": "Kretzmer H",
+        "identifiers": [
+          "0000-0002-0723-4980"
+        ],
+        "affiliations": [
+          "Digital Engineering Faculty, Hasso Plattner Institute for Digital Engineering, University of Potsdam, Potsdam, Germany.",
+          "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Pe'er, Dana",
+        "short_name": "Pe'er D",
+        "identifiers": [
+          "0000-0002-9259-8817"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Fuchs, Elaine",
+        "short_name": "Fuchs E",
+        "identifiers": [
+          "0000-0002-0978-5137"
+        ],
+        "affiliations": [
+          "Robin Chemers Neustein Laboratory of Mammalian Cell Biology and Development, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2026 Mar 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/26 18:50",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42653084",
+      "42635130",
+      "42425408",
+      "42380104",
+      "42282599"
+    ],
+    "refs": [
+      "39626663",
+      "39468077",
+      "39232559",
+      "39153479",
+      "38509377",
+      "38382532",
+      "38056453",
+      "37940484",
+      "37844223",
+      "37597510",
+      "37550580",
+      "37291218",
+      "37081165",
+      "36973557",
+      "36765119",
+      "36750094",
+      "36420896",
+      "36289449",
+      "35941116",
+      "35831602",
+      "35601055",
+      "35571788",
+      "35504755",
+      "34822296",
+      "34529467",
+      "34446580",
+      "34320411",
+      "33633365",
+      "33603233",
+      "33590861",
+      "32169166",
+      "32094197",
+      "31701148",
+      "31672911",
+      "31232687",
+      "30220521",
+      "30135581",
+      "29456083",
+      "29432727",
+      "29409532",
+      "29364286",
+      "29328911",
+      "29328910",
+      "29272704",
+      "29140464",
+      "29045388",
+      "28825706",
+      "28473536",
+      "28154022",
+      "28091601",
+      "27889238",
+      "27863246",
+      "27183471",
+      "27079975",
+      "26687680",
+      "26675734",
+      "26668005",
+      "26095251",
+      "25768909",
+      "25516281",
+      "25215497",
+      "24192057",
+      "24097267",
+      "23840300",
+      "23680130",
+      "23260488",
+      "22988082",
+      "22901542",
+      "22455463",
+      "21575907",
+      "21363969",
+      "20709945",
+      "20644199",
+      "20576140",
+      "20574810",
+      "20512117",
+      "20095602",
+      "19633671",
+      "19451168",
+      "19380832",
+      "19092803",
+      "18815594",
+      "18798982",
+      "17988222",
+      "17538624",
+      "17392789",
+      "17324271",
+      "16199517",
+      "15632282",
+      "14681366",
+      "1641768"
+    ],
+    "similar": [
+      "41886579",
+      "12527297",
+      "33010306",
+      "28413449",
+      "23355616",
+      "38451083",
+      "37294468",
+      "20920747",
+      "28377300",
+      "26952936",
+      "15310836",
+      "26305225",
+      "42033231",
+      "20098704",
+      "33199496",
+      "20488932",
+      "19261190",
+      "23770822",
+      "34273410",
+      "22479200",
+      "15767661",
+      "19477956",
+      "23260146",
+      "17996059",
+      "35914496",
+      "42186817",
+      "25590428",
+      "25880368",
+      "23669186",
+      "24695097",
+      "25259796",
+      "24812327",
+      "19948147",
+      "17996642",
+      "25607372",
+      "24034465",
+      "15814025",
+      "9315639",
+      "32471981",
+      "41325801",
+      "34320411",
+      "32392318",
+      "18252004",
+      "33033242",
+      "30518654",
+      "40817373",
+      "31379012",
+      "19602036",
+      "31555266",
+      "24653213",
+      "41439494",
+      "24637397",
+      "39715046",
+      "20886052",
+      "21835883",
+      "21788347",
+      "27281610",
+      "28448736",
+      "20602769",
+      "26287468",
+      "26814966",
+      "27992255",
+      "24521667",
+      "17996647",
+      "42056506",
+      "22148575",
+      "22701659",
+      "32963030",
+      "30948436",
+      "27415308",
+      "41303375",
+      "17218014",
+      "17202157",
+      "31053162",
+      "33073403",
+      "28460463",
+      "16329111",
+      "23071449",
+      "40349339",
+      "29605844",
+      "29224149",
+      "33191916",
+      "27634286",
+      "26248330",
+      "20613842",
+      "24639513",
+      "18656446",
+      "9096225",
+      "41997957",
+      "20364108",
+      "36980257",
+      "40936088",
+      "25778913",
+      "28169463",
+      "42233398",
+      "21278727",
+      "22570494",
+      "40660382",
+      "33155547",
+      "41044756"
+    ],
+    "review": [
+      "41886579",
+      "37294468",
+      "20920747",
+      "35914496",
+      "23669186",
+      "24695097",
+      "15814025",
+      "31379012",
+      "24637397",
+      "39715046",
+      "20364108"
+    ],
+    "pmc": [
+      "13295011"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.adz6830",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41886579/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

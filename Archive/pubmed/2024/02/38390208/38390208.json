@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "38390208",
+    "doi": "10.3389/fendo.2024.1346842",
+    "title": "Dysregulation of ferroptosis-related genes in granulosa cells associates with impaired oocyte quality in polycystic ovary syndrome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Poor oocyte quality remains one of the major challenges for polycystic ovary syndrome (PCOS) patients during in vitro fertilization (IVF) treatment. Granulosa cells (GCs) in PCOS display altered functions and could cause an unfavorable microenvironment for oocyte growth and maturation. Ferroptosis is a new form of programmed cell death, but its role in PCOS has been largely unclarified. METHODS: Ferroptosis-related differentially expressed genes (DEGs) of GCs in women with PCOS were identified by bioinformatic analyses of GSE155489 and GSE168404 datasets. Functional enrichment analyses were conducted using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes. Core ferroptosis-related genes were further screened by random forest, and evaluated for diagnostic value by receiver operating characteristic curve analyses. Gene expression was validated by real-time quantitative polymerase chain reaction of collected GC samples, and analyzed for association with oocyte quality. In addition, gene regulatory network was constructed based on predicted RNA interactions and transcription factors, while potential therapeutic compounds were screened through molecular docking with crystallographic protein structures. RESULTS: A total of 14 ferroptosis-related DEGs were identified. These DEGs were mainly enriched in reactive oxygen species metabolic process, mitochondrial outer membrane, antioxidant activity as well as ferroptosis and adipocytokine signaling pathways. Eight core ferroptosis-related genes (ATF3, BNIP3, DDIT4, LPIN1, NOS2, NQO1, SLC2A1 and SLC2A6) were further selected in random forest model, which showed high diagnostic performance for PCOS. Seven of them were validated in GC samples, and five were found to be significantly and positively correlated with one or more oocyte quality parameters in PCOS patients, including oocyte retrieval rate, mature oocyte rate, normal fertilization rate, and good-quality embryo rate. Gene regulatory network revealed JUN and HMGA1 as two important transcription factors, while dicoumarol and flavin adenine dinucleotide were predicted as small molecules with therapeutic potential. CONCLUSIONS: This is the first comprehensive report to study the differential expression of ferroptosis-related genes in GCs of PCOS and their clinical relevance with oocyte quality. Our findings could provide novel insights on the potential role of GC ferroptosis in PCOS pathogenesis, diagnosis, and targeted treatment.",
+    "keywords": [
+      "ferroptosis",
+      "granulosa cell",
+      "in vitro fertilization",
+      "oocyte quality",
+      "polycystic ovary syndrome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Polycystic Ovary Syndrome/genetics/metabolism",
+      "*Ferroptosis/genetics",
+      "Molecular Docking Simulation",
+      "Granulosa Cells/metabolism",
+      "Oocytes/metabolism",
+      "Transcription Factors/metabolism",
+      "Tumor Microenvironment",
+      "Phosphatidate Phosphatase"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Jialyu",
+        "Fan, Hancheng",
+        "Li, Chenxi",
+        "Yang, Kangping",
+        "Xiong, Chaoyi",
+        "Xiong, Siyi",
+        "Feng, Shenghui",
+        "Chen, Shen",
+        "Wang, Bangqi",
+        "Su, Yufang",
+        "Xu, Boyun",
+        "Yang, Haiyan",
+        "Wang, Ni",
+        "Zhu, Jing"
+      ],
+      "short_names": [
+        "Huang J",
+        "Fan H",
+        "Li C",
+        "Yang K",
+        "Xiong C",
+        "Xiong S",
+        "Feng S",
+        "Chen S",
+        "Wang B",
+        "Su Y",
+        "Xu B",
+        "Yang H",
+        "Wang N",
+        "Zhu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Reproductive Medicine, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China.",
+        "Department of Histology and Embryology, School of Basic Medicine, Nanchang University, Nanchang, China.",
+        "Department of Histology and Embryology, School of Basic Medicine, Nanchang University, Nanchang, China.",
+        "The Second Clinical Medical College of Nanchang University, The Second Affiliated Hospital of Nanchang University, Nanchang, China.",
+        "Department of Pathology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China.",
+        "Department of Pathology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China.",
+        "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China.",
+        "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China.",
+        "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China.",
+        "Department of Oncology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China.",
+        "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Department of Anesthesiology, Xi'an Children's Hospital, Xi'an, China.",
+        "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Jialyu",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Hancheng",
+        "short_name": "Fan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, School of Basic Medicine, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chenxi",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, School of Basic Medicine, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kangping",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College of Nanchang University, The Second Affiliated Hospital of Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Chaoyi",
+        "short_name": "Xiong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Siyi",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Shenghui",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shen",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bangqi",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, School of Queen Mary, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yufang",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Maternal and Child Health Hospital, National Clinical Research Center for Obstetrics and Gynecology, Nanchang Medical College, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Boyun",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haiyan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ni",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xi'an Children's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jing",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/23 06:43",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42695422",
+      "42318797",
+      "42157934",
+      "42115577",
+      "42006870",
+      "41928328",
+      "41831187",
+      "41388677",
+      "41239482",
+      "41226419",
+      "41064363",
+      "40921996",
+      "40813744",
+      "40804641",
+      "40753401",
+      "40549330",
+      "40189571",
+      "40007539",
+      "39853686"
+    ],
+    "refs": [
+      "35909514",
+      "35419170",
+      "34976592",
+      "34850077",
+      "34758863",
+      "34552933",
+      "34532485",
+      "34369274",
+      "34161185",
+      "34084179",
+      "34041658",
+      "33912380",
+      "33764457",
+      "33757970",
+      "33495419",
+      "33330074",
+      "33268902",
+      "33213354",
+      "33117818",
+      "33042025",
+      "32911072",
+      "32760210",
+      "32735886",
+      "32590339",
+      "32219413",
+      "32066774",
+      "30472193",
+      "30443714",
+      "29995717",
+      "29260383",
+      "29126136",
+      "29087512",
+      "29055959",
+      "27233760",
+      "26612783",
+      "25497448",
+      "25179821",
+      "24741453",
+      "24646063",
+      "24297251",
+      "23900753",
+      "23498999",
+      "22579050",
+      "22125385",
+      "20639519",
+      "19952864",
+      "18829900",
+      "17485259",
+      "14688154",
+      "10874573",
+      "10592235",
+      "3783014"
+    ],
+    "similar": [
+      "38390208",
+      "35451009",
+      "42208847",
+      "41006883",
+      "24279306",
+      "35594990",
+      "39432623",
+      "38650009",
+      "39321891",
+      "38656738",
+      "36223608",
+      "41847139",
+      "40457383",
+      "41308869",
+      "33579525",
+      "36593322",
+      "41462288",
+      "40045372",
+      "39821799",
+      "41237881",
+      "39754246",
+      "28964971",
+      "33622336",
+      "40628512",
+      "30092830",
+      "35909514",
+      "33287836",
+      "34741172",
+      "38678785",
+      "37171773",
+      "39773546",
+      "39380170",
+      "31735954",
+      "29260383",
+      "35237237",
+      "24646063",
+      "41316314",
+      "39663282",
+      "37121450",
+      "36523600",
+      "36936973",
+      "41214666",
+      "30975191",
+      "40517267",
+      "32096549",
+      "41721342",
+      "39717045",
+      "38904043",
+      "41079183",
+      "38550897",
+      "15605090",
+      "36341347",
+      "40813744",
+      "38955938",
+      "37537636",
+      "38243290",
+      "40884580",
+      "41226419",
+      "38444712",
+      "18697861",
+      "40781325",
+      "30272163",
+      "41088367",
+      "26459919",
+      "36246893",
+      "39966990",
+      "37480140",
+      "40170064",
+      "41508240",
+      "31327131",
+      "41652498",
+      "30075721",
+      "30937532",
+      "37745699",
+      "39464191",
+      "33067753",
+      "32124396",
+      "26908840",
+      "28051267",
+      "37883387",
+      "39538292",
+      "39875917",
+      "23603633",
+      "30446843",
+      "36873892",
+      "34976213",
+      "25303486",
+      "40892393",
+      "38653359",
+      "41803302",
+      "41940395",
+      "40907075",
+      "42267557",
+      "24390626",
+      "22904171",
+      "37930517",
+      "26993517",
+      "23900753",
+      "37874895",
+      "36506045"
+    ],
+    "review": [
+      "38390208",
+      "41226419"
+    ],
+    "pmc": [
+      "10882713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38390208/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38390208",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4052",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2024.1346842",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

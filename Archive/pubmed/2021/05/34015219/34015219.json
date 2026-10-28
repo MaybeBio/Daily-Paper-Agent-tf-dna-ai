@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "34015219",
+    "doi": "10.1021/jacs.0c13235",
+    "title": "Hydrophobic Interactions between DNA Duplexes and Synthetic and Biological Membranes."
+  },
+  "content": {
+    "abstract": "Equipping DNA with hydrophobic anchors enables targeted interaction with lipid bilayers for applications in biophysics, cell biology, and synthetic biology. Understanding DNA-membrane interactions is crucial for rationally designing functional DNA. Here we study the interactions of hydrophobically tagged DNA with synthetic and cell membranes using a combination of experiments and atomistic molecular dynamics (MD) simulations. The DNA duplexes are rendered hydrophobic by conjugation to a terminal cholesterol anchor or by chemical synthesis of a charge-neutralized alkyl-phosphorothioate (PPT) belt. Cholesterol-DNA tethers to lipid vesicles of different lipid compositions and charges, while PPT DNA binding strongly depends on alkyl length, belt position, and headgroup charge. Divalent cations in the buffer can also influence binding. Our MD simulations directly reveal the complex structure and energetics of PPT DNA within a lipid membrane, demonstrating that longer alkyl-PPT chains provide the most stable membrane anchoring but may disrupt DNA base paring in solution. When tested on cells, cholesterol-DNA is homogeneously distributed on the cell surface, while alkyl-PPT DNA accumulates in clustered structures on the plasma membrane. DNA tethered to the outside of the cell membrane is distinguished from DNA spanning the membrane by nuclease and sphingomyelinase digestion assays. The gained fundamental insight on DNA-bilayer interactions will guide the rational design of membrane-targeting nanostructures.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Membrane/chemistry",
+      "DNA/*chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Lipid Bilayers/*chemistry",
+      "Molecular Dynamics Simulation",
+      "Molecular Structure",
+      "Phosphates/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jones, Sioned F",
+        "Joshi, Himanshu",
+        "Terry, Stephen J",
+        "Burns, Jonathan R",
+        "Aksimentiev, Aleksei",
+        "Eggert, Ulrike S",
+        "Howorka, Stefan"
+      ],
+      "short_names": [
+        "Jones SF",
+        "Joshi H",
+        "Terry SJ",
+        "Burns JR",
+        "Aksimentiev A",
+        "Eggert US",
+        "Howorka S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0000-3837",
+        "ORCID: 0000-0003-0769-524X",
+        "ORCID: 0000-0001-8195-898X",
+        "ORCID: 0000-0003-0117-9658",
+        "ORCID: 0000-0002-6042-8442",
+        "ORCID: 0000-0003-0932-5525",
+        "ORCID: 0000-0002-6527-2846"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom.",
+        "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom.",
+        "Department of Physics and Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom.",
+        "UCL Ear Institute, London WC1X 8EE, United Kingdom.",
+        "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom.",
+        "Department of Physics and Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom.",
+        "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jones, Sioned F",
+        "short_name": "Jones SF",
+        "identifiers": [
+          "0000-0003-0000-3837"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom.",
+          "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Joshi, Himanshu",
+        "short_name": "Joshi H",
+        "identifiers": [
+          "0000-0003-0769-524X"
+        ],
+        "affiliations": [
+          "Department of Physics and Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+        ]
+      },
+      {
+        "full_name": "Terry, Stephen J",
+        "short_name": "Terry SJ",
+        "identifiers": [
+          "0000-0001-8195-898X"
+        ],
+        "affiliations": [
+          "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom.",
+          "UCL Ear Institute, London WC1X 8EE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Burns, Jonathan R",
+        "short_name": "Burns JR",
+        "identifiers": [
+          "0000-0003-0117-9658"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Aksimentiev, Aleksei",
+        "short_name": "Aksimentiev A",
+        "identifiers": [
+          "0000-0002-6042-8442"
+        ],
+        "affiliations": [
+          "Department of Physics and Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+        ]
+      },
+      {
+        "full_name": "Eggert, Ulrike S",
+        "short_name": "Eggert US",
+        "identifiers": [
+          "0000-0003-0932-5525"
+        ],
+        "affiliations": [
+          "Randall Centre for Cell and Molecular Biophysics, School of Basic and Medical Biosciences, and Department of Chemistry, King's College London, London SE1 1UL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Howorka, Stefan",
+        "short_name": "Howorka S",
+        "identifiers": [
+          "0000-0002-6527-2846"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Structural and Molecular Biology, University College London, London WC1H 0AJ, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2021 Jun 9",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/21 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "42581195",
+      "42415666",
+      "42326866",
+      "41307332",
+      "41292923",
+      "41278660",
+      "40183490",
+      "39054892",
+      "38540784",
+      "38400844",
+      "38033886",
+      "37549398",
+      "37063801",
+      "36000473",
+      "35801866",
+      "35570679",
+      "35523414",
+      "35282632",
+      "35056887",
+      "34614184"
+    ],
+    "refs": [
+      "34084389",
+      "33347276",
+      "32897687",
+      "32406895",
+      "32374167",
+      "32232413",
+      "31934608",
+      "31827087",
+      "31815409",
+      "31642494",
+      "31636414",
+      "31626550",
+      "31252462",
+      "31131200",
+      "30934927",
+      "30821443",
+      "30557499",
+      "30350681",
+      "30272763",
+      "29930243",
+      "29528530",
+      "29520628",
+      "29493216",
+      "29476101",
+      "29027713",
+      "28644472",
+      "28352171",
+      "28346998",
+      "28317903",
+      "27658960",
+      "27504755",
+      "27324157",
+      "27119630",
+      "26751170",
+      "26551518",
+      "26310995",
+      "25816075",
+      "25294680",
+      "24827912",
+      "24014236",
+      "23611515",
+      "23161995",
+      "20446700",
+      "20446699",
+      "19685861",
+      "19199439",
+      "18693696",
+      "16800689",
+      "16541064",
+      "9414212",
+      "8584939"
+    ],
+    "similar": [
+      "34015219",
+      "24892900",
+      "28317903",
+      "24828105",
+      "30350681",
+      "22500755",
+      "23258433",
+      "24823835",
+      "25153890",
+      "31642494",
+      "29136243",
+      "21452847",
+      "38646798",
+      "26772524",
+      "32123101",
+      "26466122",
+      "37336895",
+      "26305016",
+      "34200697",
+      "33961742",
+      "28186523",
+      "25719673",
+      "31142762",
+      "39162223",
+      "27596355",
+      "20804205",
+      "26529547",
+      "30821443",
+      "24530910",
+      "27298438",
+      "39978121",
+      "33347276",
+      "34767378",
+      "26651735",
+      "8823199",
+      "24565796",
+      "37166721",
+      "31816934",
+      "25757187",
+      "31897501",
+      "22995244",
+      "23220048",
+      "39047943",
+      "32392064",
+      "31012268",
+      "31483076",
+      "28744008",
+      "19161285",
+      "32557766",
+      "39334852",
+      "31560853",
+      "27872308",
+      "35056887",
+      "25331142",
+      "29667836",
+      "28587449",
+      "27574865",
+      "28780125",
+      "33106430",
+      "32918728",
+      "15738466",
+      "25310179",
+      "22768942",
+      "26073602",
+      "35503859",
+      "29493216",
+      "23590201",
+      "30520494",
+      "32565292",
+      "29340405",
+      "28585804",
+      "33349702",
+      "25739722",
+      "23896466",
+      "18487292",
+      "29353693",
+      "27794424",
+      "21993332",
+      "29882873",
+      "39054892",
+      "22479423",
+      "29670084",
+      "38990314",
+      "39025574",
+      "25042518",
+      "29301457",
+      "21067191",
+      "27771953",
+      "26497753",
+      "26659855",
+      "17496025",
+      "29188314",
+      "33825681",
+      "22281438",
+      "24911406",
+      "40297234",
+      "18672886",
+      "8011634",
+      "40179880",
+      "38943912"
+    ],
+    "review": [
+      "34015219",
+      "34200697",
+      "31816934",
+      "35503859"
+    ],
+    "pmc": [
+      "8193631"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacs.0c13235",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34015219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34015219",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34015219",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/34015219",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.0c13235",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

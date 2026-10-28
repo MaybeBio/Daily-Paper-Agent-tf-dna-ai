@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41850449",
+    "doi": "10.1016/j.ijbiomac.2026.151450",
+    "title": "Chemical optimization of the exercise mimetic SLU-PP-332 enables insight into estrogen-related receptor signaling."
+  },
+  "content": {
+    "abstract": "Estrogen-related receptors (ERRs) are master regulators of mitochondrial metabolism and exercise-responsive transcription, yet only a limited number of synthetic agonists with suitable potency and drug-like properties have been reported. SLU-PP-332 is a well-established exercise mimetic and widely used chemical probe for ERR activation; however, the structural features governing its potency, efficacy, selectivity, and drug-like properties have not been systematically elucidated. Here, we report the first comprehensive structure-activity relationship (SAR) analysis of the SLU-PP-332 scaffold, integrating chemical synthesis, cell-based functional assays, downstream gene-expression profiling, and computational modeling. Through iterative modification of core pharmacophoric elements, we identify key structural determinants that control ERRalpha and ERRgamma agonism, transcriptional efficacy, ligand efficiency, and physicochemical properties. While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability. Computational docking and molecular dynamics simulations reveal how subtle structural modifications influence ERR engagement and signaling outcomes. Together, this work defines design principles for tuning ERR agonism and provides a foundational SAR roadmap for the rational development of next-generation ERR agonists and exercise-mimetic therapeutics.",
+    "keywords": [
+      "ERR agonists",
+      "Estrogen-related receptors (ERRs)",
+      "Exercise mimetics",
+      "SLU-PP-332",
+      "Small-molecule modulators",
+      "Structure-activity relationship (SAR)",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Receptors, Estrogen/metabolism/chemistry",
+      "*Signal Transduction/drug effects",
+      "Humans",
+      "Structure-Activity Relationship",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "ERRalpha Estrogen-Related Receptor",
+      "Ligands"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Okda, Hazem Essam",
+        "Zhao, Puhan",
+        "Hayes, Matt",
+        "Duvall, Colten",
+        "Quillin, Elsa",
+        "Fang, Hong",
+        "Mohammed, Bassem M",
+        "Hegazy, Lamees",
+        "Burris, Thomas P",
+        "Elgendy, Bahaa"
+      ],
+      "short_names": [
+        "Okda HE",
+        "Zhao P",
+        "Hayes M",
+        "Duvall C",
+        "Quillin E",
+        "Fang H",
+        "Mohammed BM",
+        "Hegazy L",
+        "Burris TP",
+        "Elgendy B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States.",
+        "Department of Cellular and Systems Pharmacology, University of Florida College of Pharmacy, Gainesville, FL, 32610, United States; University of Florida Genetics Institute, University of Florida School of Medicine, Gainesville, FL, 32610, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States.",
+        "Edward A. Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, 63104, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States.",
+        "Department of Cellular and Systems Pharmacology, University of Florida College of Pharmacy, Gainesville, FL, 32610, United States; University of Florida Genetics Institute, University of Florida School of Medicine, Gainesville, FL, 32610, United States.",
+        "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States. Electronic address: belgendy@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Okda, Hazem Essam",
+        "short_name": "Okda HE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Puhan",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Hayes, Matt",
+        "short_name": "Hayes M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Systems Pharmacology, University of Florida College of Pharmacy, Gainesville, FL, 32610, United States; University of Florida Genetics Institute, University of Florida School of Medicine, Gainesville, FL, 32610, United States."
+        ]
+      },
+      {
+        "full_name": "Duvall, Colten",
+        "short_name": "Duvall C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Quillin, Elsa",
+        "short_name": "Quillin E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Fang, Hong",
+        "short_name": "Fang H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Mohammed, Bassem M",
+        "short_name": "Mohammed BM",
+        "identifiers": [],
+        "affiliations": [
+          "Edward A. Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, 63104, United States."
+        ]
+      },
+      {
+        "full_name": "Hegazy, Lamees",
+        "short_name": "Hegazy L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States; Department of Pharmaceutical and Administrative Sciences, University of Health Sciences and Pharmacy, St. Louis, MO, 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Burris, Thomas P",
+        "short_name": "Burris TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Systems Pharmacology, University of Florida College of Pharmacy, Gainesville, FL, 32610, United States; University of Florida Genetics Institute, University of Florida School of Medicine, Gainesville, FL, 32610, United States."
+        ]
+      },
+      {
+        "full_name": "Elgendy, Bahaa",
+        "short_name": "Elgendy B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Clinical Pharmacology, Department of Anaesthesiology, Washington University in St. Louis, St. Louis, MO, 63110, United States. Electronic address: belgendy@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 01:32",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40083629",
+      "37961903",
+      "37862710",
+      "37739806",
+      "37717940",
+      "36988910",
+      "36575899",
+      "36367968",
+      "35943430",
+      "35418170",
+      "34592101",
+      "34055231",
+      "32683181",
+      "32212902",
+      "31097997",
+      "30448000",
+      "28862683",
+      "26717204",
+      "26605738",
+      "26592383",
+      "26583988",
+      "26574453",
+      "26075522",
+      "25951294",
+      "25624346",
+      "25500872",
+      "24684682",
+      "24360560",
+      "23852339",
+      "23562627",
+      "23516535",
+      "22424212",
+      "22309914",
+      "21958216",
+      "21218783",
+      "19524330",
+      "18674809",
+      "18664618",
+      "18052088",
+      "17923172",
+      "15857113",
+      "15509154",
+      "15264254",
+      "15116359",
+      "14631816",
+      "12588810",
+      "12397057",
+      "12185669",
+      "10072763",
+      "9676434",
+      "9271417",
+      "8521507",
+      "3267207"
+    ],
+    "similar": [
+      "41850449",
+      "41421047",
+      "36988910",
+      "42024694",
+      "41536281",
+      "37961903",
+      "32897058",
+      "41588687",
+      "34129097",
+      "32683181",
+      "28189393",
+      "37739806",
+      "37421886",
+      "14638870",
+      "28346099",
+      "11162936",
+      "42475469",
+      "36642217",
+      "41750342",
+      "41688415",
+      "34609710",
+      "20135221",
+      "26771593",
+      "23874451",
+      "18822397",
+      "42256350",
+      "11559547",
+      "37202889",
+      "39168657",
+      "14664699",
+      "26115970",
+      "19822186",
+      "16515477",
+      "22632982",
+      "33961950",
+      "31421412",
+      "25500872",
+      "30811808",
+      "36787804",
+      "35068382",
+      "11705994",
+      "15184675",
+      "14751226",
+      "32795533",
+      "40200124",
+      "18063693",
+      "40354528",
+      "30954508",
+      "31498028",
+      "18664618",
+      "16901928",
+      "38879334",
+      "15337744",
+      "31370872",
+      "42266510",
+      "27236015",
+      "27367662",
+      "36805944",
+      "20513360",
+      "11564725",
+      "17157980",
+      "27046127",
+      "40692696",
+      "25805499",
+      "30602497",
+      "27763777",
+      "32448995",
+      "38260445",
+      "41485935",
+      "37289383",
+      "14645497",
+      "15161930",
+      "42664351",
+      "20542653",
+      "41173363",
+      "19746993",
+      "18052088",
+      "42153145",
+      "16484337",
+      "18697814",
+      "41251882",
+      "33446092",
+      "29189179",
+      "15456881",
+      "28125215",
+      "42246097",
+      "22517684",
+      "42372394",
+      "28209382",
+      "32212902",
+      "37717940",
+      "15598686",
+      "24315836",
+      "33065437",
+      "15088146",
+      "15149736",
+      "31024446",
+      "40348318",
+      "10428965",
+      "28820402"
+    ],
+    "review": [
+      "41850449",
+      "42024694",
+      "41536281",
+      "11162936",
+      "41750342",
+      "34609710",
+      "42256350",
+      "37202889",
+      "14664699",
+      "26115970",
+      "16515477",
+      "22632982",
+      "25500872",
+      "18664618",
+      "32448995",
+      "41485935",
+      "33446092",
+      "42372394",
+      "28209382"
+    ],
+    "pmc": [
+      "13112601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)01376-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41850449/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3877",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

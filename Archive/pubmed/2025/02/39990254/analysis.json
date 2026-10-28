@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39990254",
+  "title": "Accurate prediction of nucleic acid binding proteins using protein language model.",
+  "authors": "Wu, Siwen; Xu, Jinbo; Guo, Jun-Tao",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-02-24",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型ESM2特征和机器学习预测核酸结合蛋白类型，虽涉及蛋白-DNA互作但未聚焦TF-DNA结合机制，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: Nucleic acid binding proteins (NABPs) play critical roles in various and essential biological processes. Many machine learning-based methods have been developed to predict different types of NABPs. However, most of these studies have limited applications in predicting the types of NABPs for any given protein with unknown functions, due to several factors such as dataset construction, prediction scope and features used for training and testing. In addition, single-stranded DNA binding proteins (DBP) (SSBs) have not been extensively investigated for identifying novel SSBs from proteins with unknown functions. RESULTS: To improve prediction accuracy of different types of NABPs for any given protein, we developed hierarchical and multi-class models with machine learning-based methods and a feature extracted from protein language model ESM2. Our results show that by combining the feature from ESM2 and machine learning methods, we can achieve high prediction accuracy up to 95% for each stage in the hierarchical approach, and 85% for overall prediction accuracy from the multi-class approach. More importantly, besides the much improved prediction of other types of NABPs, the models can be used to accurately predict single-stranded DBPs, which is underexplored. AVAILABILITY AND IMPLEMENTATION: The datasets and code can be found at https://figshare.com/projects/Prediction_of_nucleic_acid_binding_proteins_using_protein_language_model/211555.",
+  "abstract_zh": "动机：核酸结合蛋白（NABPs）在多种且关键的生物过程中发挥重要作用。许多基于机器学习的方法已被开发用于预测不同类型的NABPs。然而，由于数据集构建、预测范围以及用于训练和测试的特征等因素，这些研究大多在预测功能未知蛋白的NABPs类型方面应用有限。此外，单链DNA结合蛋白（DBP）（SSBs）在从功能未知蛋白中识别新型SSBs方面尚未得到广泛研究。结果：为了提高任意给定蛋白的不同类型NABPs预测准确性，我们开发了基于机器学习方法和蛋白质语言模型ESM2提取特征的层次化及多类模型。我们的结果表明，通过结合ESM2特征和机器学习方法，我们可以在层次化方法的每个阶段实现高达95%的预测准确性，而多类方法的整体预测准确性为85%。更重要的是，除了对其他类型NABPs预测的显著改进外，这些模型还可用于准确预测单链DBPs，这一领域此前研究不足。可用性与实现：数据集和代码可在 https://figshare.com/projects/Prediction_of_nucleic_acid_binding_proteins_using_protein_language_model/211555 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39990254/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39990254/",
+  "paper_page_path": "papers/pubmed/39990254/index.html"
+}

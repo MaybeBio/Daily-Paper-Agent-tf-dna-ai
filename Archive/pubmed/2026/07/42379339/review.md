@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors formalize observed-metric ceilings for gene regulatory network (GRN) benchmarks under partial positive labels, reanalyze outputs from 15 methods across 5 references, derive ceilings for F1 and AUPR under a missing-at-random model, and introduce study-biased missingness grounded in ChIP-seq and Reactome annotations. They report that normalized F1 and AUPR ratios are low, that foundation-model probes rank highest but remain far below the observable ceiling, and that missing labels explain only part of the performance gap.
+- **Visible evidence base** Abstract text only; no numerical tables, figures, or method descriptions were supplied
+- **Missing materials affecting confidence** Full methods, all numerical results, the 39-row evaluation table, the two annotation databases' processing details, the definition of the random control, the coupling measurement procedure, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually valuable formalization of metric ceilings under partial labels in GRN benchmarking, and the introduction of study-biased missingness grounded in real annotation databases is a meaningful step beyond stylized simulations. However, the abstract alone does not provide sufficient detail to verify the derivations, the empirical claims, or the robustness of the conclusions. The reported numbers are striking but cannot be independently assessed without the underlying tables and method specifications. The central claim that missing labels explain only part of the performance gap is plausible but requires the full evidence base to be established.
+- **Who would be interested in the results, and why** Researchers developing and benchmarking gene regulatory network inference methods, particularly those working with single-cell foundation models such as scGPT, as well as computational biologists concerned with the reliability of curated reference networks and the interpretation of benchmark metrics. The formal ceiling analysis would also interest methodologists in machine learning who study partial-label settings and evaluation under incomplete ground truth.
+- **Major strengths** The formalization of observed-metric ceilings under partial positive labels addresses a recognized but under-theorized problem in GRN benchmarking. The use of real annotation databases to model study-biased missingness, rather than relying on stylized non-MAR assumptions, is a substantive improvement. The inclusion of a random control and the explicit reporting of low normalized ratios provide a clear quantitative picture of the performance gap. The conclusion that evaluation claims should be narrowed is appropriately cautious.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "we derive explicit ceilings for observed F1 and AUPR" and that "at the empirically measured coupling between model scores and studied status, inflates observed AUPR by +0.040 above the MAR ceiling."
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** The derivation of the ceilings and the inflation estimate are stated but not shown. No equations, assumptions beyond the MAR label model, or details of the coupling measurement are given. The value +0.040 is presented without confidence intervals or sensitivity analysis.
+  - **Why it matters** The central quantitative conclusions depend entirely on the correctness of these derivations and the measurement of the coupling. Without the derivations and the measurement procedure, the reported inflation and the conclusion that missing labels explain only part of the gap cannot be verified.
+  - **Resolution test** Provide the full derivations in a methods section, including the exact form of the ceiling expressions, the definition of the coupling parameter, and the procedure for estimating it from the annotation databases. Report confidence intervals or bootstrap estimates for the +0.040 inflation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract claims that "across 39 AUPR-evaluable rows, the best normalized F1 and AUPR ratios are 0.137 and 0.014, median normalized AUPR is 5.56x10(-5), and only 3 of 39 rows exceed the observed random baseline."
+  - **Evidence pointer** Results table not provided; location not provided
+  - **Concern** The 39-row evaluation table is referenced but not shown. The reader cannot see which methods and references produce which values, how the random baseline was constructed, or how the normalization was performed. The claim that "the foundation-model probes occupy the top of the ranking" is not supported by any visible ranking.
+  - **Why it matters** These numbers are the empirical core of the paper. Without the table, the claims about method ranking and the comparison to the random baseline are unverifiable, and the reader cannot assess whether the conclusions are robust to alternative normalizations or baseline definitions.
+  - **Resolution test** Include the full 39-row table in the main text or supplementary materials, with columns for method, reference, observed F1, observed AUPR, normalized values, and the random baseline. Specify the normalization formula and the construction of the random control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims that "we replace stylized non-MAR tests with study-biased missingness grounded in two annotation databases: transcription factors assayed by ChIP-seq (CistromeDB/ChIP-Atlas) and genes carrying Reactome pathway annotations."
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** The processing of the two annotation databases is not described. It is unclear how ChIP-seq assay status was determined for each transcription factor, how Reactome pathway annotations were mapped to genes, how the "studied status" was defined for each edge, and how the study-biased missingness model was parameterized.
+  - **Why it matters** The study-biased missingness model is a key contribution, but its validity depends on the precise construction of the missingness mechanism. Without this detail, the model cannot be reproduced or compared to alternative formulations.
+  - **Resolution test** Provide a detailed description of the database processing, including version numbers, filtering criteria, and the exact mapping from database entries to edge-level missingness probabilities. Make the processing code available.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "approximately 60% of edges observable"
+  - **Issue** The phrase "approximately 60%" is vague and the basis for this figure is not stated.
+  - **Required correction** Report the exact percentage and specify whether it is an average across references or a range.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method list
+  - **Evidence pointer** Abstract, "15 methods and 5 references"
+  - **Issue** The abstract does not name the 15 methods or the 5 references, making it impossible to contextualize the ranking claims.
+  - **Required correction** List the methods and references in the abstract or state that they are provided in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Uncertainty quantification
+  - **Evidence pointer** Abstract, "propagate coverage uncertainty via Beta posteriors"
+  - **Issue** The abstract mentions Beta posteriors but does not report any posterior intervals for the ceiling estimates or the inflation values.
+  - **Required correction** Report credible intervals for the key estimates, at least for the +0.040 inflation and the median normalized AUPR.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The derivations, the empirical table, and the database processing details are all essential to the central claims and are not visible in the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The formalization of metric ceilings under partial labels in GRN benchmarking is a novel contribution, and the use of real annotation databases for study-biased missingness is an original methodological step.
+  - Scientific importance: The problem of incomplete curated references is widely recognized, and a formal treatment with empirical quantification has the potential to influence how GRN benchmarks are interpreted. The conclusion that evaluation claims should be narrowed is important for the field.
+  - Interdisciplinary readership: The work bridges computational biology, machine learning, and genomics, and the abstract is written in a way that is accessible to nonspecialists in each area.
+  - Technical soundness: Cannot be assessed from the abstract alone. The derivations and empirical procedures are not visible, and the reported numbers cannot be verified.
+  - Readability for nonspecialists: The abstract is concise and the key concepts are introduced clearly, though the density of numbers without context may challenge readers unfamiliar with GRN benchmarking.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual contribution is valuable and the empirical direction is promising, but the current abstract does not provide enough evidence to establish the central claims. The full manuscript must be reviewed to verify the derivations, the table, and the database processing.
+
+## Risk / unsupported claims
+- The claim that "missing labels therefore explain only part of the performance gap" is not supported by the visible evidence because the inflation estimate (+0.040) and the comparison to the MAR ceiling are not shown with uncertainty or sensitivity analysis.
+- The claim that "the foundation-model probes occupy the top of the ranking" is unverifiable without the 39-row table.
+- The claim that "only approximately 60% of edges observable" is not supported by any visible calculation.
+- The claim that "only 3 of 39 rows exceed the observed random baseline" is unverifiable without the table and the baseline definition.
+- The derivations of the ceilings and the Beta posterior propagation are not assessable from the abstract.

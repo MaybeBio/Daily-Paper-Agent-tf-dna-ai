@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that genomic features controlling estrogen receptor alpha (ER) binding and gene regulatory activity differ between endometrial cancer (Ishikawa) and breast cancer (T-47D) cells. Using machine learning applied to genomic data at estrogen response elements (EREs), they identify cell type specific transcription factor predictors, including FOXA1 and GATA3 in T-47D cells and ETV4 and SOX17 in Ishikawa cells. They further report that transcription at EREs in the absence of estrogen predicts ER regulatory activity, and that a CRISPR knockout screen with follow-up experiments confirms SOX17 controls ER activity in endometrial cancer cells.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, methods description, all figures and tables, statistical analyses, CRISPR screen details, validation experiment descriptions, and data availability information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative analysis of ER genomic features between endometrial and breast cancer cell lines, with a plausible machine learning approach and functional validation. However, the current evidence base is insufficient to evaluate the robustness of the claims. Key methodological details, quantitative results, and validation metrics are absent. The central claims regarding cell type specific transcription factor predictors and the role of SOX17 require scrutiny of the underlying data and analyses, which are not available in the supplied material.
+- **Who would be interested in the results, and why** Researchers studying estrogen receptor biology, particularly those focused on endometrial cancer, where ER targeted therapies have been less successful than in breast cancer. The comparative approach may interest investigators working on cell type specific transcription factor networks and machine learning applications to genomic regulation. The potential identification of SOX17 as a regulator of ER activity could be of interest to those studying endometrial cancer pathogenesis and therapeutic targets.
+- **Major strengths** The comparative design between endometrial and breast cancer cell lines addresses a clinically relevant disparity. The focus on ERE locations provides a mechanistically grounded approach. The combination of machine learning prediction with CRISPR knockout validation is a strong experimental strategy. The claim that features predicting ER binding differ from those predicting effects on gene expression is conceptually interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that machine learning applied to genomic data identifies transcription factors that predict ER activity in a cell type specific manner, including ETV4 and SOX17 in Ishikawa cells.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on the machine learning methodology, including feature selection, model architecture, training and test set construction, cross-validation approach, or performance metrics. Without these details, it is impossible to assess whether the identified transcription factors are robust predictors or artifacts of overfitting or confounding.
+  - **Why it matters** The central claim of cell type specific transcription factor predictors depends entirely on the validity of the machine learning analysis. If the models are poorly constructed or evaluated, the identified factors may not generalize or may reflect technical artifacts rather than biological differences.
+  - **Resolution test** Provide a detailed methods section describing the machine learning pipeline, including feature sets, model selection, hyperparameter tuning, cross-validation strategy, and performance metrics (e.g., AUC, precision recall). Show that the identified transcription factors remain predictive in held out data and that their cell type specificity is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a CRISPR knockout screen in Ishikawa cells, with follow-up experiments, confirms that SOX17 controls ER activity in endometrial cancer cells.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that SOX17 controls ER activity but does not specify the direction of control (activation or repression), the magnitude of effect, the specific ER activities measured (binding, transcriptional output, or both), or the nature of the follow-up experiments. The term "controls" is vague and could encompass direct or indirect mechanisms.
+  - **Why it matters** The functional validation is the key experimental support for the machine learning predictions. Without quantitative details on the CRISPR screen results and validation experiments, the claim that SOX17 is a bona fide regulator of ER in endometrial cancer is not established.
+  - **Resolution test** Provide quantitative results from the CRISPR screen showing the effect of SOX17 knockout on ER activity, including statistical significance and effect sizes. Describe the follow-up experiments and show that they independently confirm the screen results. Clarify the direction and mechanism of SOX17 control over ER.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the features that predict ER binding and effects on gene expression differ, with transcription at EREs in the absence of estrogen being predictive of ER regulatory activity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a potentially novel claim, but the abstract provides no quantitative support. It is unclear what "transcription at EREs in the absence of estrogen" means operationally, how it was measured, and what predictive power it has relative to other features. The distinction between features predicting binding versus regulatory activity is asserted but not demonstrated.
+  - **Why it matters** This claim could represent a conceptual advance in understanding ER regulation, but without data showing the differential predictive power and the specific role of basal transcription, the claim remains speculative.
+  - **Resolution test** Provide quantitative comparisons of feature importance for binding versus gene expression models. Show that basal transcription at EREs is a significant predictor of ER regulatory activity with defined effect sizes and statistical significance, and that this is distinct from features predicting binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses terms such as "genomic features," "EREs," and "machine learning" without brief contextual definitions, which may limit accessibility for readers outside computational genomics or ER biology.
+  - **Required correction** Add brief clarifying phrases, for example, "estrogen response elements (EREs), the DNA sequences directly bound by ER," and "machine learning, a computational approach to identify predictive patterns."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Claim of cell type specificity
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that FOXA1 and GATA3 predict ER activity in T-47D cells and ETV4 and SOX17 in Ishikawa cells, but it does not clarify whether these factors are exclusively predictive in one cell type or merely more strongly predictive. The term "cell type specific" could be interpreted as exclusive, which may not be supported.
+  - **Required correction** Clarify whether these transcription factors are uniquely predictive in one cell type or show significantly stronger predictive power, and provide statistical comparisons supporting the specificity claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract implies that findings in Ishikawa and T-47D cells are representative of endometrial and breast cancer broadly, but only two cell lines are used. The generalizability to primary tumors or other cell lines is not addressed.
+  - **Required correction** Acknowledge the limitation of using two cell lines and discuss whether the findings are expected to generalize, or provide additional data from other cell lines or primary samples.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (machine learning methodology and validation), R1-M2 (quantitative CRISPR validation and direction of SOX17 effect), R1-M3 (quantitative support for differential predictive features and basal transcription claim)
+- **Assessment against Nature-style criteria** Originality: The comparative approach and the specific claim regarding basal transcription as a predictor of ER regulatory activity are potentially original, but the abstract does not provide enough context to assess novelty relative to existing literature. Scientific importance: The topic is clinically relevant given the disparity in ER targeted therapy success between breast and endometrial cancer, but the importance of the specific findings cannot be fully evaluated without quantitative results. Interdisciplinary readership: The work bridges genomics, machine learning, and cancer biology, which could appeal to a broad audience, but the abstract may be too specialized without added context. Technical soundness: Not assessable from the abstract alone; the machine learning and CRISPR validation claims require detailed methods and results. Readability for nonspecialists: The abstract is reasonably clear but could benefit from brief definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the absence of methods, quantitative results, and validation details prevents assessment of the core claims. A full manuscript with detailed methods and results would be required to evaluate whether the case is established.
+
+## Risk / unsupported claims
+- The claim that transcription factors predicting ER activity are cell type specific is unsupported without statistical comparisons and model validation details.
+- The claim that transcription at EREs in the absence of estrogen predicts ER regulatory activity is unsupported without quantitative data.
+- The claim that SOX17 controls ER activity in endometrial cancer cells is unsupported without quantitative CRISPR screen results and follow-up experiment details.
+- The generalizability of findings from two cell lines to endometrial and breast cancer broadly is not assessable from the abstract.

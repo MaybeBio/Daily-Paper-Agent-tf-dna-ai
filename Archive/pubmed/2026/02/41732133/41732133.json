@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41732133",
+    "doi": "10.1158/2767-9764.CRC-25-0512",
+    "title": "Subclassification of Small Cell Lung Cancer Based on Gene Expression Signatures and Machine Learning."
+  },
+  "content": {
+    "abstract": "Small cell lung cancer (SCLC) is frequently subdivided into four molecular subtypes according to the activity of key transcription factors (TF): NEUROD1, ASCL1, POU2F3, and YAP1 (NAPY). There is no consensus on the diagnostic procedures to determine these subtypes. Downstream transcriptional programs of the four TFs could play an important role in the development of an advanced SCLC subtyping approach. We analyzed transcriptomic and genomic sequencing data from a novel cohort of 460 real-world patients with SCLC. We extracted gene expression signatures specific for the four TFs and used them as features to train machine learning (ML) models to predict SCLC-NAPY subtypes in a nested cross-validation approach. Our ML model for transcriptional programs downstream of the four NAPY TFs predicted the NAPY subtypes at an average accuracy of  approximately 90% in clinical SCLC samples and cell lines. We assessed genomic alterations and our compendium of cancer pathway signatures RosettaSX for subtype-specific signals in our SCLC cohort. Survival analyses of an extensive-stage SCLC subset revealed significant prognostic differences and predictive capacities for several molecular phenotypes. We propose a diagnostic algorithm for NAPY classification which demands that high expression of a NAPY TF is matched by a high signal of its downstream expression signature, thereby providing functional robustness to NAPY class calls compared with schemes that rely solely on the expression of TFs. Based on this NAPY consensus classification of our SCLCs, we describe the redetection of known and identification of novel associations of molecular and clinical patters across the four major molecular subtypes. SIGNIFICANCE: Based on analysis of our novel real-word SCLC cohort, we extend the methods space for SCLC diagnosis by developing four downstream transcriptional programs linked to the key TFs that we used for ML-based NAPY classification. By combining evidence from TFs and their downstream signatures, we add functional robustness to current classification schemes. Furthermore, we describe distinct molecular and clinical patters observed across our NAPY subtypes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Small Cell Lung Carcinoma/genetics/classification/pathology/mortality",
+      "*Lung Neoplasms/genetics/classification/pathology/mortality",
+      "Transcription Factors/genetics",
+      "*Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Basic Helix-Loop-Helix Proteins/genetics",
+      "Prognosis",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kiedanski, Nicole",
+        "Kreis, Julian",
+        "Spangenberg, Lucia",
+        "Staub, Eike"
+      ],
+      "short_names": [
+        "Kiedanski N",
+        "Kreis J",
+        "Spangenberg L",
+        "Staub E"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7004-498X",
+        "ORCID: 0000-0002-1084-8481",
+        "ORCID: 0000-0001-5124-9250",
+        "ORCID: 0000-0002-5039-3098"
+      ],
+      "affiliations": [
+        "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany.",
+        "Bioinformatics Unit, Institut Pasteur de Montevideo, Montevideo, Uruguay.",
+        "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany.",
+        "Bioinformatics Unit, Institut Pasteur de Montevideo, Montevideo, Uruguay.",
+        "Departamento Basico de Medicina, Hospital de Clinicas, Facultad de Medicina (UDELAR), Montevideo, Uruguay.",
+        "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kiedanski, Nicole",
+        "short_name": "Kiedanski N",
+        "identifiers": [
+          "0009-0000-7004-498X"
+        ],
+        "affiliations": [
+          "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany.",
+          "Bioinformatics Unit, Institut Pasteur de Montevideo, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Kreis, Julian",
+        "short_name": "Kreis J",
+        "identifiers": [
+          "0000-0002-1084-8481"
+        ],
+        "affiliations": [
+          "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Spangenberg, Lucia",
+        "short_name": "Spangenberg L",
+        "identifiers": [
+          "0000-0001-5124-9250"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Institut Pasteur de Montevideo, Montevideo, Uruguay.",
+          "Departamento Básico de Medicina, Hospital de Clínicas, Facultad de Medicina (UDELAR), Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Staub, Eike",
+        "short_name": "Staub E",
+        "identifiers": [
+          "0000-0002-5039-3098"
+        ],
+        "affiliations": [
+          "Oncology Data Science, The Healthcare Business of Merck KGaA, Darmstadt, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research communications"
+    ],
+    "journal_abbrev": [
+      "Cancer Res Commun"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 06:33",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40611262",
+      "38492534",
+      "38366589",
+      "38172915",
+      "37609075",
+      "37062002",
+      "36197978",
+      "36195615",
+      "35760287",
+      "35489038",
+      "35469134",
+      "34808341",
+      "34653364",
+      "34583245",
+      "33482121",
+      "33446664",
+      "33248321",
+      "33011388",
+      "32721553",
+      "32473656",
+      "31199602",
+      "31068700",
+      "30926931",
+      "30413482",
+      "29945888",
+      "29535911",
+      "27452466",
+      "26771021",
+      "26168399",
+      "24670686",
+      "24138885",
+      "23836465",
+      "22937182",
+      "22505474",
+      "22057785",
+      "20713713",
+      "20129251",
+      "19690609",
+      "18769486",
+      "18652687",
+      "16417408",
+      "15827123",
+      "12700671",
+      "12642603",
+      "11279127"
+    ],
+    "similar": [
+      "41732133",
+      "41761743",
+      "40902984",
+      "39941061",
+      "40536008",
+      "39571251",
+      "35489038",
+      "35220975",
+      "37775262",
+      "38180245",
+      "38630755",
+      "38492534",
+      "41739157",
+      "40842416",
+      "41887131",
+      "37981832",
+      "36149789",
+      "40595415",
+      "35278040",
+      "39787635",
+      "37054974",
+      "40433367",
+      "41845530",
+      "33011388",
+      "35748745",
+      "36517551",
+      "41534317",
+      "40305287",
+      "39283755",
+      "33191657",
+      "39786663",
+      "37644667",
+      "34534680",
+      "37586462",
+      "39613231",
+      "27627196",
+      "37072275",
+      "34925645",
+      "31231131",
+      "33248321",
+      "35311069",
+      "39516442",
+      "30926931",
+      "36378541",
+      "40107154",
+      "33086069",
+      "40931642",
+      "28742165",
+      "29945888",
+      "36715573",
+      "32669118",
+      "39721126",
+      "42160949",
+      "35789143",
+      "41862898",
+      "38811992",
+      "40114214",
+      "38598634",
+      "41956344",
+      "38691815",
+      "31782890",
+      "41489019",
+      "39150543",
+      "35345340",
+      "40613783",
+      "32801334",
+      "20624269",
+      "39164163",
+      "42217423",
+      "41792592",
+      "41561639",
+      "38232600",
+      "23700391",
+      "34145257",
+      "39080761",
+      "40898302",
+      "41634201",
+      "41855992",
+      "32526603",
+      "40333678",
+      "41331472",
+      "40649874",
+      "39872525",
+      "31612912",
+      "38278149",
+      "35440124",
+      "41293870",
+      "39413714",
+      "42061276",
+      "36178064",
+      "32264809",
+      "29876935",
+      "32473656",
+      "25267614",
+      "39301750",
+      "40200221",
+      "42050659",
+      "33482121",
+      "40307487",
+      "29888431"
+    ],
+    "review": [
+      "41732133",
+      "37072275",
+      "30926931",
+      "40931642",
+      "35345340",
+      "39164163"
+    ],
+    "pmc": [
+      "13012008"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41732133/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerrescommun/article-lookup/doi/10.1158/2767-9764.CRC-25-0512",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

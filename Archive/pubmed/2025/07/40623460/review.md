@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that dual inhibition of EGR1 and STAT3 in macrophages suppresses liver fibrosis. They report identification of Cidofovir and Pioglitazone as selective inhibitors via virtual screening, supported by molecular dynamics simulations and functional validation in macrophages, with synergistic efficacy in a murine fibrosis model.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, experimental protocols, or figure/table references provided
+- **Missing materials affecting confidence** Full methods, all quantitative results, statistical analyses, experimental replicates, animal model details, dosing regimens, toxicity data, and any validation of target selectivity in vivo
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking macrophage transcriptional regulators to liver fibrosis and proposes a drug repurposing strategy. However, the evidence as presented is insufficient to establish the core claims. Key quantitative data, experimental details, and validation of target specificity are absent. The work may have potential, but the current abstract does not provide enough information to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in hepatology, fibrosis biology, macrophage immunology, and computational drug repurposing would find the topic relevant. The proposed dual-target strategy and repurposing of approved drugs could interest translational scientists seeking new antifibrotic therapies.
+- **Major strengths** The study addresses an unmet clinical need with a mechanism-based approach. The integration of single-cell transcriptomics with computational drug screening is a modern and potentially powerful strategy. The focus on transcriptional hubs rather than single downstream effectors is scientifically reasonable. The use of FDA-approved drugs enhances translational potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Cidofovir and Pioglitazone are "novel inhibitors selectively targeting EGR1 and STAT3, respectively" is central to the study.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that virtual screening identified these drugs as selective inhibitors, but no binding affinity values, selectivity ratios, or comparative data against other targets are provided. The term "selective" requires quantitative demonstration that these drugs do not inhibit other transcription factors or off-target proteins at relevant concentrations.
+  - **Why it matters** Selectivity is the foundation of the proposed mechanism. Without demonstrated selectivity, the observed effects could be due to off-target activities, undermining the mechanistic interpretation and the rationale for dual therapy.
+  - **Resolution test** Provide binding affinity data (e.g., IC50 or Kd) for Cidofovir against EGR1 and for Pioglitazone against STAT3, along with selectivity panels against related transcription factors. Include dose-response curves in cellular assays showing target-specific inhibition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "dual therapy synergistically reduced collagen deposition and hepatic stellate cell activation, exhibiting superior efficacy compared to monotherapy" in a murine model.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented for fibrosis reduction, such as collagen area percentage, hydroxyproline content, or stellate cell activation markers. The term "synergistic" requires formal statistical testing (e.g., combination index analysis) that is not described. The abstract does not specify the fibrosis model used, dosing, route of administration, or duration of treatment.
+  - **Why it matters** The in vivo efficacy claim is the translational cornerstone of the study. Without quantitative results and evidence of synergy beyond additive effects, the superiority of dual therapy is not established.
+  - **Resolution test** Provide quantitative fibrosis measurements with statistical comparisons between monotherapy and combination groups. Include combination index values or equivalent synergy metrics. Specify the animal model, treatment protocol, and sample sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that EGR1 and STAT3 are "central transcriptional regulators that orchestrate pro-fibrotic macrophage polarization" based on integrative analysis of three single-cell atlases.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the analytical methods used to identify these transcription factors as central regulators. No information is given on how the three atlases were integrated, what criteria defined "central," or whether the finding was validated across datasets or in independent cohorts.
+  - **Why it matters** The entire drug repurposing strategy depends on the validity of EGR1 and STAT3 as causal drivers rather than correlative markers. Without clear analytical rigor, the prioritization of these targets is not justified.
+  - **Resolution test** Describe the computational pipeline for integrating the atlases, including statistical thresholds for identifying regulatory hubs. Provide validation of EGR1 and STAT3 expression and activity in independent fibrosis datasets or experimental models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "multi-omics to bedside" is vague and not standard terminology. The abstract describes only transcriptomic data, not multi-omics in the usual sense (genomics, proteomics, metabolomics).
+  - **Required correction** Replace with a more precise description, such as "transcriptomics-guided drug repurposing" or specify which omics layers were actually integrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Drug selection rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that virtual screening covered both the FDA-approved drug library and the TCMSP database, but does not explain why Cidofovir and Pioglitazone were prioritized over other hits.
+  - **Required correction** Briefly state the ranking criteria, such as predicted binding affinity, drug-likeness, or known safety profiles, that led to the final selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "functional validation in macrophages" but does not specify the macrophage cell type, polarization conditions, or concentrations of drugs used.
+  - **Required correction** Include these details in the abstract or indicate that they are fully described in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (target selectivity not demonstrated), R1-M2 (in vivo synergy not quantified), R1-M3 (transcriptomic analysis not described)
+- **Assessment against Nature-style criteria** Originality: The concept of dual transcriptional hub inhibition in macrophages is moderately original, though individual components (EGR1 in fibrosis, STAT3 in fibrosis, drug repurposing) are known. Scientific importance: Liver fibrosis is a significant unmet need, and repurposing approved drugs is clinically relevant, but the importance is not yet demonstrated without robust evidence. Interdisciplinary readership: The topic bridges immunology, hepatology, and computational pharmacology, which could attract broad interest if the evidence is strong. Technical soundness: Cannot be assessed from the abstract; key methods and quantitative results are missing. Readability for nonspecialists: The abstract is generally readable but uses jargon such as "transcriptional hubs" and "fibrotic niche formation" without clear definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is potentially valuable, but the abstract lacks the quantitative data and methodological detail needed to support the central claims. A revised submission with full evidence would be required for further consideration.
+
+## Risk / unsupported claims
+- The claim that Cidofovir and Pioglitazone are selective inhibitors of EGR1 and STAT3 is unsupported without binding and selectivity data.
+- The claim of synergistic efficacy in vivo is unsupported without quantitative fibrosis measurements and synergy analysis.
+- The claim that EGR1 and STAT3 are central regulators is unsupported without description of the analytical methods.
+- The claim of a "multi-omics" framework is overstated given that only transcriptomic data are mentioned.
+- The translational potential ("clinically translatable candidates") is speculative without pharmacokinetic or toxicity data in the context of fibrosis treatment.

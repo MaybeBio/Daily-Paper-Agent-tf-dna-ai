@@ -1,0 +1,676 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.23.449672",
+  "title": "Cardiovascular disease causes proinflammatory microvascular changes in the human right atrium",
+  "doi": "10.1101/2021.06.23.449672",
+  "abstract": "Ischemic heart disease is globally the leading cause of death. It plays a central role in the electrical and structural remodeling of the right atrium, predisposing to arrhythmias, heart failure, and sudden death. Here, we provide the first dissection of the gene expression changes in the live right atrial tissue, using single-nuclei RNA-seq and spatial transcriptomics. We investigate matched samples of the tissue and pericardial fluid and reveal substantial differences in disease- associated gene expression in all cell types, leading to inflammatory microvascular dysfunction and changes in the tissue composition. Our study demonstrates the importance of creating high- resolution cellular maps and partitioning disease signals beyond epicardial coronary arteries and ischemic left ventricle to identify candidate mechanisms leading to more severe types of human cardiovascular disease. <h4>One-Sentence Summary</h4> Single-cell dissection of ex vivo heart biopsies and pericardial fluid in ischemic heart disease and heart failure",
+  "authors": [
+    "Linna-Kuosmanen S",
+    "Schmauch E",
+    "Galani K",
+    "Ojanen J",
+    "Boix CA",
+    "Örd T",
+    "Toropainen A",
+    "Singha PK",
+    "Moreau PR",
+    "Harju K",
+    "Blazeski A",
+    "Segerstolpe Å",
+    "Lahtinen V",
+    "Hou L",
+    "Kang K",
+    "Meibalan E",
+    "Agudelo LZ",
+    "Kokki H",
+    "Halonen J",
+    "Jalkanen J",
+    "Gunn J",
+    "MacRae CA",
+    "Hollmén M",
+    "Hartikainen J",
+    "Kaikkonen MU",
+    "García-Cardeña G",
+    "Tavi P",
+    "Kiviniemi T",
+    "Kellis M"
+  ],
+  "published_date": "2021-06-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.23.449672",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.23.449672.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR361033",
+    "raw_record": {
+      "id": "PPR361033",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR361033"
+        ]
+      },
+      "doi": "10.1101/2021.06.23.449672",
+      "title": "Cardiovascular disease causes proinflammatory microvascular changes in the human right atrium",
+      "authorString": "Linna-Kuosmanen S, Schmauch E, Galani K, Ojanen J, Boix CA, Örd T, Toropainen A, Singha PK, Moreau PR, Harju K, Blazeski A, Segerstolpe Å, Lahtinen V, Hou L, Kang K, Meibalan E, Agudelo LZ, Kokki H, Halonen J, Jalkanen J, Gunn J, MacRae CA, Hollmén M, Hartikainen J, Kaikkonen MU, García-Cardeña G, Tavi P, Kiviniemi T, Kellis M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Linna-Kuosmanen S",
+            "lastName": "Linna-Kuosmanen",
+            "firstName": "Suvi",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3278-2727"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmauch E",
+            "lastName": "Schmauch",
+            "firstName": "Eloi",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2123-8777"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galani K",
+            "lastName": "Galani",
+            "firstName": "Kyriakitsa",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ojanen J",
+            "lastName": "Ojanen",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9212-856X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boix CA",
+            "lastName": "Boix",
+            "firstName": "Carles",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Örd T",
+            "lastName": "Örd",
+            "firstName": "Tiit",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Toropainen A",
+            "lastName": "Toropainen",
+            "firstName": "Anu",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9292-5147"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singha PK",
+            "lastName": "Singha",
+            "firstName": "Prosanta",
+            "initials": "PK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moreau PR",
+            "lastName": "Moreau",
+            "firstName": "Pierre",
+            "initials": "PR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harju K",
+            "lastName": "Harju",
+            "firstName": "Kristiina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blazeski A",
+            "lastName": "Blazeski",
+            "firstName": "Adriana",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "Center for Excellence in Vascular Biology, Department of Pathology, Brigham and Women’s Hospital and Harvard Medical School; Boston, MA 02115, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Segerstolpe Å",
+            "lastName": "Segerstolpe",
+            "firstName": "Åsa",
+            "initials": "Å",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lahtinen V",
+            "lastName": "Lahtinen",
+            "firstName": "Veikko",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heart Center, Turku University Hospital; 20521 Turku, Finland"
+                },
+                {
+                  "affiliation": "Medicity Research Laboratories, University of Turku; 20500 Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou L",
+            "lastName": "Hou",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kang K",
+            "lastName": "Kang",
+            "firstName": "Kai",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meibalan E",
+            "lastName": "Meibalan",
+            "firstName": "Elamaran",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "Center for Excellence in Vascular Biology, Department of Pathology, Brigham and Women’s Hospital and Harvard Medical School; Boston, MA 02115, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agudelo LZ",
+            "lastName": "Agudelo",
+            "firstName": "Leandro",
+            "initials": "LZ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kokki H",
+            "lastName": "Kokki",
+            "firstName": "Hannu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Anesthesiology and Operative Services, Kuopio University Hospital; 70029 KYS, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Halonen J",
+            "lastName": "Halonen",
+            "firstName": "Jari",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Eastern Finland; 70211 Kuopio, Finland"
+                },
+                {
+                  "affiliation": "Heart Center, Kuopio University Hospital; 70029 KYS, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jalkanen J",
+            "lastName": "Jalkanen",
+            "firstName": "Juho",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6294-0979"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heart Center, Turku University Hospital; 20521 Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gunn J",
+            "lastName": "Gunn",
+            "firstName": "Jarmo",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heart Center, Turku University Hospital; 20521 Turku, Finland"
+                },
+                {
+                  "affiliation": "Department of Medicine, University of Turku; 20500 Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "MacRae CA",
+            "lastName": "MacRae",
+            "firstName": "Calum",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "Department of Medicine, Harvard Medical School; Boston, MA 02115, USA"
+                },
+                {
+                  "affiliation": "Cardiovascular Medicine and Network Medicine Division, Brigham and Women’s Hospital, Harvard M edical School; Boston, MA 02115, USA"
+                },
+                {
+                  "affiliation": "Harvard Stem Cell Institute; Cambridge, MA 02138, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hollmén M",
+            "lastName": "Hollmén",
+            "firstName": "Maija",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medicity Research Laboratories, University of Turku; 20500 Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hartikainen J",
+            "lastName": "Hartikainen",
+            "firstName": "Juha",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Eastern Finland; 70211 Kuopio, Finland"
+                },
+                {
+                  "affiliation": "Heart Center, Kuopio University Hospital; 70029 KYS, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaikkonen MU",
+            "lastName": "Kaikkonen",
+            "firstName": "Minna",
+            "initials": "MU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "García-Cardeña G",
+            "lastName": "García-Cardeña",
+            "firstName": "Guillermo",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                },
+                {
+                  "affiliation": "Center for Excellence in Vascular Biology, Department of Pathology, Brigham and Women’s Hospital and Harvard Medical School; Boston, MA 02115, USA"
+                },
+                {
+                  "affiliation": "Harvard Stem Cell Institute; Cambridge, MA 02138, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tavi P",
+            "lastName": "Tavi",
+            "firstName": "Pasi",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland; 70211 Kuopio, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kiviniemi T",
+            "lastName": "Kiviniemi",
+            "firstName": "Tuomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heart Center, Turku University Hospital; 20521 Turku, Finland"
+                },
+                {
+                  "affiliation": "Department of Medicine, University of Turku; 20500 Turku, Finland"
+                },
+                {
+                  "affiliation": "Cardiovascular Medicine and Network Medicine Division, Brigham and Women’s Hospital, Harvard M edical School; Boston, MA 02115, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kellis M",
+            "lastName": "Kellis",
+            "firstName": "Manolis",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology; Cambridge, MA 02139, USA"
+                },
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard; Cambridge, MA 02142, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6294-0979"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9212-856X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9292-5147"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2123-8777"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3098-1749"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3278-2727"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-3680-6305"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-9000-7379"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Ischemic heart disease is globally the leading cause of death. It plays a central role in the electrical and structural remodeling of the right atrium, predisposing to arrhythmias, heart failure, and sudden death. Here, we provide the first dissection of the gene expression changes in the live right atrial tissue, using single-nuclei RNA-seq and spatial transcriptomics. We investigate matched samples of the tissue and pericardial fluid and reveal substantial differences in disease- associated gene expression in all cell types, leading to inflammatory microvascular dysfunction and changes in the tissue composition. Our study demonstrates the importance of creating high- resolution cellular maps and partitioning disease signals beyond epicardial coronary arteries and ischemic left ventricle to identify candidate mechanisms leading to more severe types of human cardiovascular disease. <h4>One-Sentence Summary</h4>  Single-cell dissection of  ex vivo heart biopsies and pericardial fluid in ischemic heart disease and heart failure",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "802825",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/27/2021.06.23.449672.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.23.449672"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR361033"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR361033&type=FILE&fileName=EMS159100-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38776872",
+            "reference": "Cell reports. Medicine. 2024 May;5(5):101556",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS159100",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-06-25",
+      "firstPublicationDate": "2021-06-24",
+      "firstIndexDate": "2021-06-25",
+      "fullTextReceivedDate": "2023-01-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

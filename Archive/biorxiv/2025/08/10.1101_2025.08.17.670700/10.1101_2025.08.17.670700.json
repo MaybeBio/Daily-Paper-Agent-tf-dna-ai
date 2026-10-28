@@ -1,0 +1,112 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.17.670700",
+  "title": "NucEL: Single-Nucleotide ELECTRA-Style Genomic Pre-training for Efficient and Interpretable Representations",
+  "doi": "10.1101/2025.08.17.670700",
+  "abstract": "Pre-training large language models on genomic sequences has become a powerful approach for learning biologically meaningful representations. While masked language modeling (MLM)-based approaches, such as DNABERT and Nucleotide Transformer (NT), achieve strong performance, they are hindered by inefficiencies due to partial token supervision, pre-training/fine-tuning mismatches, and high computational costs. We introduce NucEL, the first ELECTRA-style pre-training framework for genomic foundation models, which overcomes these challenges. Through a discriminator network identifying tokens modified by a generator, Nu-cEL achieves comprehensive token-level supervision across all sequence positions, thereby markedly improving training efficiency relative to the partial supervision of masked positions inherent in MLM frameworks. By integrating ModernBERT’s architectural advancements, including hybrid local-global attention and flash attention mechanisms, NucEL establishes an optimized BERT architecture for genomic sequence modeling. Unlike traditional methods that tokenize genomic sequences into 6-mers, NucEL implements single-nucleotide tokenization, enabling fine-grained resolution and improving both efficiency and interpretability. Pre-trained on the human genome only, NucEL achieves state-of-the-art performance on benchmark datasets across diverse downstream tasks in both human and non-human species, including regulatory element identification (e.g., promoters, enhancers), transcription factor binding prediction in human and mouse, open chromatin region classification, and histone modification profiles, surpassing MLM-based models of similar size and rivaling models 25 times larger, such as NT. Ablation studies provide critical insights into tokenization and masking strategies, optimizing ELECTRA-style pretraining for DNA sequences. Attention analyses reveal NucEL’s superior ability to capture biologically relevant sequence motifs compared to NT, offering valuable insights into its hierarchical learning process and regulatory element modeling capabilities. This work highlights the potential of ELECTRA-style pretraining as an efficient and effective strategy for advancing genomic representation learning with broad implications for future genomic research.",
+  "authors": [
+    "Ding K",
+    "Parker BJ",
+    "Wen J"
+  ],
+  "published_date": "2025-08-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670700",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670700.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1068206",
+    "raw_record": {
+      "id": "PPR1068206",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.17.670700",
+      "title": "NucEL: Single-Nucleotide ELECTRA-Style Genomic Pre-training for Efficient and Interpretable Representations",
+      "authorString": "Ding K, Parker BJ, Wen J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ding K",
+            "lastName": "Ding",
+            "firstName": "Ke",
+            "initials": "K"
+          },
+          {
+            "fullName": "Parker BJ",
+            "lastName": "Parker",
+            "firstName": "Brian John",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Wen J",
+            "lastName": "Wen",
+            "firstName": "Jiayu",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Pre-training large language models on genomic sequences has become a powerful approach for learning biologically meaningful representations. While masked language modeling (MLM)-based approaches, such as DNABERT and Nucleotide Transformer (NT), achieve strong performance, they are hindered by inefficiencies due to partial token supervision, pre-training/fine-tuning mismatches, and high computational costs. We introduce NucEL, the first ELECTRA-style pre-training framework for genomic foundation models, which overcomes these challenges. Through a discriminator network identifying tokens modified by a generator, Nu-cEL achieves comprehensive token-level supervision across all sequence positions, thereby markedly improving training efficiency relative to the partial supervision of masked positions inherent in MLM frameworks. By integrating ModernBERT’s architectural advancements, including hybrid local-global attention and flash attention mechanisms, NucEL establishes an optimized BERT architecture for genomic sequence modeling. Unlike traditional methods that tokenize genomic sequences into 6-mers, NucEL implements single-nucleotide tokenization, enabling fine-grained resolution and improving both efficiency and interpretability. Pre-trained on the human genome only, NucEL achieves state-of-the-art performance on benchmark datasets across diverse downstream tasks in both human and non-human species, including regulatory element identification (e.g., promoters, enhancers), transcription factor binding prediction in human and mouse, open chromatin region classification, and histone modification profiles, surpassing MLM-based models of similar size and rivaling models 25 times larger, such as NT. Ablation studies provide critical insights into tokenization and masking strategies, optimizing ELECTRA-style pretraining for DNA sequences. Attention analyses reveal NucEL’s superior ability to capture biologically relevant sequence motifs compared to NT, offering valuable insights into its hierarchical learning process and regulatory element modeling capabilities. This work highlights the potential of ELECTRA-style pretraining as an efficient and effective strategy for advancing genomic representation learning with broad implications for future genomic research.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Australian Research Council Centre of Excellence for the Mathematical Analysis of Cellular Systems",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.17.670700"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-22",
+      "firstPublicationDate": "2025-08-17",
+      "firstIndexDate": "2025-08-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

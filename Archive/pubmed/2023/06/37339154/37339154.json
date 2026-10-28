@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "37339154",
+    "doi": "10.1371/journal.pcbi.1011207",
+    "title": "Knowledge graph embedding for profiling the interaction between transcription factors and their target genes."
+  },
+  "content": {
+    "abstract": "Interactions between transcription factor and target gene form the main part of gene regulation network in human, which are still complicating factors in biological research. Specifically, for nearly half of those interactions recorded in established database, their interaction types are yet to be confirmed. Although several computational methods exist to predict gene interactions and their type, there is still no method available to predict them solely based on topology information. To this end, we proposed here a graph-based prediction model called KGE-TGI and trained in a multi-task learning manner on a knowledge graph that we specially constructed for this problem. The KGE-TGI model relies on topology information rather than being driven by gene expression data. In this paper, we formulate the task of predicting interaction types of transcript factor and target genes as a multi-label classification problem for link types on a heterogeneous graph, coupled with solving another link prediction problem that is inherently related. We constructed a ground truth dataset as benchmark and evaluated the proposed method on it. As a result of the 5-fold cross experiments, the proposed method achieved average AUC values of 0.9654 and 0.9339 in the tasks of link prediction and link type classification, respectively. In addition, the results of a series of comparison experiments also prove that the introduction of knowledge information significantly benefits to the prediction and that our methodology achieve state-of-the-art performance in this problem.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Databases, Factual",
+      "*Pattern Recognition, Automated",
+      "*Transcription Factors/genetics",
+      "Gene Regulatory Networks",
+      "Proteome",
+      "Algorithms",
+      "Systems Biology",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Yang-Han",
+        "Huang, Yu-An",
+        "Li, Jian-Qiang",
+        "You, Zhu-Hong",
+        "Hu, Peng-Wei",
+        "Hu, Lun",
+        "Leung, Victor C M",
+        "Du, Zhi-Hua"
+      ],
+      "short_names": [
+        "Wu YH",
+        "Huang YA",
+        "Li JQ",
+        "You ZH",
+        "Hu PW",
+        "Hu L",
+        "Leung VCM",
+        "Du ZH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5346-2394",
+        "ORCID: 0000-0003-3529-2640"
+      ],
+      "affiliations": [
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China.",
+        "School of Computer Science, Northwesterm Polytechnical University, Xi'an, Shaanxi, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China.",
+        "School of Computer Science, Northwesterm Polytechnical University, Xi'an, Shaanxi, China.",
+        "Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Yang-Han",
+        "short_name": "Wu YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu-An",
+        "short_name": "Huang YA",
+        "identifiers": [
+          "0000-0002-5346-2394"
+        ],
+        "affiliations": [
+          "School of Computer Science, Northwesterm Polytechnical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Qiang",
+        "short_name": "Li JQ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China."
+        ]
+      },
+      {
+        "full_name": "You, Zhu-Hong",
+        "short_name": "You ZH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Northwesterm Polytechnical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Peng-Wei",
+        "short_name": "Hu PW",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Ürümqi, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lun",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Ürümqi, China."
+        ]
+      },
+      {
+        "full_name": "Leung, Victor C M",
+        "short_name": "Leung VCM",
+        "identifiers": [
+          "0000-0003-3529-2640"
+        ],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China."
+        ]
+      },
+      {
+        "full_name": "Du, Zhi-Hua",
+        "short_name": "Du ZH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, Guang-dong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/20 19:15",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "40462512",
+      "40413377",
+      "39868045",
+      "39806396",
+      "38035201",
+      "37962376"
+    ],
+    "refs": [
+      "36575445",
+      "36124642",
+      "35961023",
+      "35609981",
+      "35511108",
+      "34707916",
+      "33603233",
+      "33068428",
+      "32858223",
+      "31907445",
+      "31527870",
+      "29757349",
+      "29425488",
+      "29087512",
+      "27924018",
+      "27896980",
+      "26424082",
+      "26301843",
+      "26213851",
+      "23173819",
+      "23080116",
+      "20927193",
+      "17703195",
+      "15597545",
+      "14681407",
+      "3461465"
+    ],
+    "similar": [
+      "37339154",
+      "35511108",
+      "35945150",
+      "38114937",
+      "38348746",
+      "37322903",
+      "37128437",
+      "37448360",
+      "37391722",
+      "39579417",
+      "34450380",
+      "39265815",
+      "35975455",
+      "36070624",
+      "40030432",
+      "37529914",
+      "40155814",
+      "37187525",
+      "41050338",
+      "29212543",
+      "40286680",
+      "40835041",
+      "36014371",
+      "37580835",
+      "37193964",
+      "40662821",
+      "41206950",
+      "37818330",
+      "31660848",
+      "38070456",
+      "35947989",
+      "39326691",
+      "35428964",
+      "35266510",
+      "40251476",
+      "37904198",
+      "30547796",
+      "35687647",
+      "38000328",
+      "38145949",
+      "18366736",
+      "37541406",
+      "38342857",
+      "33431036",
+      "37868056",
+      "41052159",
+      "34748953",
+      "26072504",
+      "40466979",
+      "30367594",
+      "39721415",
+      "40217132",
+      "33341877",
+      "35514190",
+      "22672646",
+      "31369568",
+      "39475566",
+      "31555320",
+      "33334307",
+      "41311081",
+      "38605639",
+      "39417321",
+      "39256197",
+      "40582680",
+      "34789236",
+      "31295118",
+      "19063730",
+      "35037024",
+      "38403612",
+      "41441912",
+      "37161255",
+      "31584634",
+      "26405971",
+      "36058415",
+      "34706640",
+      "35961023",
+      "36350601",
+      "33817007",
+      "39302256",
+      "39571388",
+      "34009265",
+      "36832623",
+      "35908373",
+      "41031876",
+      "35594580",
+      "35246025",
+      "35721178",
+      "23812985",
+      "35872410",
+      "38451769",
+      "38269610",
+      "35453147",
+      "32970681",
+      "35439150",
+      "33784319",
+      "34653225",
+      "37985457",
+      "31698640",
+      "33867966",
+      "37085750"
+    ],
+    "review": [
+      "37339154",
+      "39302256"
+    ],
+    "pmc": [
+      "10313080"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011207",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37339154/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37339154",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

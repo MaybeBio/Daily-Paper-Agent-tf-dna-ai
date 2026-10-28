@@ -1,0 +1,564 @@
+{
+  "identity": {
+    "pmid": "41851261",
+    "doi": "10.1038/s41431-026-02072-3",
+    "title": "Analysis of structure and conservation for supporting functional evaluation of PMS2 missense variants."
+  },
+  "content": {
+    "abstract": "Germline defects in mismatch repair (MMR) genes are known to significantly increase the risk of developing certain types of cancers, notably colorectal and endometrial cancers. These conditions are characterized under Lynch syndrome. Accurate diagnosis of this predisposition, along with meaningful predictive testing for family members, necessitates the identification of pathogenic variants. However, classifying small coding genetic variants identified in cancer patients is very challenging, specifically in the case of PMS2 variants, since PMS2 pathogenic variants display a lower penetrance and less severe phenotype and therefore a lower tumor burden in affected families. We have assembled clinical data on four PMS2 missense variants of uncertain significance (VUS) identified in 23 patients (p.(Asp286Gly), p.(Asn335Ser), p.(Ile679Thr) and p.(Arg799Trp)). For these variants, functional testing was performed (RNA splicing, protein stability and catalytic activity). Since many protein ortholog sequences and accurate predictive models from AlphaFold2 are available, we also included a systematic analysis of residue conservation and structural role (ConStruct assessment). Overall, our findings indicate that p.(Asp286Gly) and p.(Arg799Trp) behave similarly to wild-type PMS2 and are thus probably neutral. In contrast, p.(Asn335Ser) and p.(Ile679Thr) conferred defects in protein expression or MMR activity. These could be explained by the relevant roles of these amino acids in MLH1-PMS2-N-terminal dimerization (p.Asn335) and C-terminal dimerization (p.Ile679). Our data thus suggest that p.(Asp286Gly) and p.(Arg799Trp) are benign, while the tumor risk in the other two variants remains to be established. Taken together, we suggest roadmaps for the individualized evaluation of difficult uncertain variants by comprising information from all available sources.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Mismatch Repair Endonuclease PMS2/genetics/chemistry/metabolism",
+      "*Mutation, Missense",
+      "Female",
+      "*Colorectal Neoplasms, Hereditary Nonpolyposis/genetics/pathology",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeuzem, Nicholas",
+        "Quilan, Manon",
+        "Dominguez-Valentin, Mev",
+        "Baert-Desurmont, Stephanie",
+        "Horlacher, Madleen",
+        "Della Valle, Adriana",
+        "Esperon, Patricia",
+        "Neffa, Florencia",
+        "Bonfim Machado-Lopes, Taisa Manuela",
+        "de Oliveira Nascimento, Ivana Lucia",
+        "Pereira Toralles, Maria Betania",
+        "Bomfim-Palma, Thais Ferreira",
+        "Pavicic, Walter Hernan",
+        "Vaccaro, Carlos A",
+        "Spirandelli, Florencia",
+        "Santamaria-Quesada, Carlos",
+        "Jimenez, Geiner",
+        "Vaca-Paniagua, Felipe",
+        "Perdomo, Sandra",
+        "Lopez Rivera, Juan Javier",
+        "Torrezan, Giovana Tardin",
+        "Carraro, Dirce Maria",
+        "Brieger, Angela",
+        "Serve, Hubert",
+        "Martins, Alexandra",
+        "Plotz, Guido"
+      ],
+      "short_names": [
+        "Zeuzem N",
+        "Quilan M",
+        "Dominguez-Valentin M",
+        "Baert-Desurmont S",
+        "Horlacher M",
+        "Della Valle A",
+        "Esperon P",
+        "Neffa F",
+        "Bonfim Machado-Lopes TM",
+        "de Oliveira Nascimento IL",
+        "Pereira Toralles MB",
+        "Bomfim-Palma TF",
+        "Pavicic WH",
+        "Vaccaro CA",
+        "Spirandelli F",
+        "Santamaria-Quesada C",
+        "Jimenez G",
+        "Vaca-Paniagua F",
+        "Perdomo S",
+        "Lopez Rivera JJ",
+        "Torrezan GT",
+        "Carraro DM",
+        "Brieger A",
+        "Serve H",
+        "Martins A",
+        "Plotz G"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-1523-1313",
+        "ORCID: 0000-0001-7856-0057",
+        "ORCID: 0000-0002-3080-5702",
+        "ORCID: 0000-0003-4534-5507",
+        "ORCID: 0000-0002-2200-9706",
+        "ORCID: 0000-0002-8659-5329",
+        "ORCID: 0000-0003-4322-8497",
+        "ORCID: 0000-0001-5314-9739"
+      ],
+      "affiliations": [
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany.",
+        "Univ Rouen Normandie, Inserm U1245, FHU G4 Genomique, F-76000, Rouen, France.",
+        "Department of Tumor Biology, Institute of Cancer Research, The Norwegian Radium Hospital, 0379, Oslo, Norway.",
+        "Univ Rouen Normandie, Inserm U1245, CHU Rouen, Department of Genetics, F-76000, Rouen, France.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany.",
+        "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay.",
+        "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay.",
+        "Molecular Genetic Unit, School of Chemistry, Universidad de la Republica, Montevideo, Uruguay.",
+        "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay.",
+        "Laboratorio de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil.",
+        "Laboratorio de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil.",
+        "Laboratorio de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil.",
+        "Laboratorio de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil.",
+        "Instituto de Medicina Traslacional e Ingenieria Biomedica (IMTIB), Hospital Italiano de Buenos Aires (HIBA), Instituto Universitario Hospital Italiano de Buenos Aires (IUHI), Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Autonomous city, Ciudad Autonoma de Buenos Aires, Argentina.",
+        "Instituto de Medicina Traslacional e Ingenieria Biomedica (IMTIB), Hospital Italiano de Buenos Aires (HIBA), Instituto Universitario Hospital Italiano de Buenos Aires (IUHI), Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Autonomous city, Ciudad Autonoma de Buenos Aires, Argentina.",
+        "Consultorio Privado de Coloproctolgia, Hospital Espanol de Rosario, Rosario, Argentina.",
+        "Molecular Diagnostic Laboratory. National Children Hospital, San Jose, Costa Rica.",
+        "Hospital Dr. Rafael Angel Calderon Guardia, Caja Costarricense del Seguro Social, San Jose, Costa Rica.",
+        "Biomedicine Research Unit, Faculty of Superior Studies Iztacala, National Autonomous University of Mexico, Mexico City, 54090, Mexico.",
+        "National Laboratory of Health, Faculty of Superior Studies Iztacala, National Autonomous University of Mexico, Mexico City, 54090, Mexico.",
+        "Genomic Epidemiology Branch, International Agency for Research on Cancer (IARC/WHO), Lyon, France.",
+        "Medical Director of the Genetics Laboratory at Clinica Colsanitas, Clinica Universitaria Colombia, Keralty Group, Bogota, Colombia.",
+        "Clinical and Functional Genomics Group, International Research Center, CIPE/A.C.Camargo Cancer Center, Sao Paulo, Brazil.",
+        "Clinical and Functional Genomics Group, International Research Center, CIPE/A.C.Camargo Cancer Center, Sao Paulo, Brazil.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany.",
+        "Department of Internal Medicine 2, University Hospital, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Frankfurt and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Frankfurt Cancer Institute, Frankfurt, Germany.",
+        "Univ Rouen Normandie, Inserm U1245, FHU G4 Genomique, F-76000, Rouen, France.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany. plotz@med.uni-frankfurt.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeuzem, Nicholas",
+        "short_name": "Zeuzem N",
+        "identifiers": [
+          "0009-0006-1523-1313"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Quilan, Manon",
+        "short_name": "Quilan M",
+        "identifiers": [],
+        "affiliations": [
+          "Univ Rouen Normandie, Inserm U1245, FHU G4 Génomique, F-76000, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Dominguez-Valentin, Mev",
+        "short_name": "Dominguez-Valentin M",
+        "identifiers": [
+          "0000-0001-7856-0057"
+        ],
+        "affiliations": [
+          "Department of Tumor Biology, Institute of Cancer Research, The Norwegian Radium Hospital, 0379, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Baert-Desurmont, Stéphanie",
+        "short_name": "Baert-Desurmont S",
+        "identifiers": [],
+        "affiliations": [
+          "Univ Rouen Normandie, Inserm U1245, CHU Rouen, Department of Genetics, F-76000, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Horlacher, Madleen",
+        "short_name": "Horlacher M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Della Valle, Adriana",
+        "short_name": "Della Valle A",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Esperon, Patricia",
+        "short_name": "Esperon P",
+        "identifiers": [
+          "0000-0002-3080-5702"
+        ],
+        "affiliations": [
+          "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay.",
+          "Molecular Genetic Unit, School of Chemistry, Universidad de la República, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Neffa, Florencia",
+        "short_name": "Neffa F",
+        "identifiers": [
+          "0000-0003-4534-5507"
+        ],
+        "affiliations": [
+          "Centro de Oncogenetica Uruguayo. Hospital Central de las Fuerzas Armadas, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Bonfim Machado-Lopes, Taisa Manuela",
+        "short_name": "Bonfim Machado-Lopes TM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Oliveira Nascimento, Ivana Lucia",
+        "short_name": "de Oliveira Nascimento IL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil."
+        ]
+      },
+      {
+        "full_name": "Pereira Toralles, Maria Betânia",
+        "short_name": "Pereira Toralles MB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bomfim-Palma, Thaís Ferreira",
+        "short_name": "Bomfim-Palma TF",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Imunologia e Biologia Molecular, Federal University of Bahia, Salvador-, BA, Brazil."
+        ]
+      },
+      {
+        "full_name": "Pavicic, Walter Hernan",
+        "short_name": "Pavicic WH",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Medicina Traslacional e Ingeniería Biomédica (IMTIB), Hospital Italiano de Buenos Aires (HIBA), Instituto Universitario Hospital Italiano de Buenos Aires (IUHI), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Autonomous city, Ciudad Autónoma de Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Vaccaro, Carlos A",
+        "short_name": "Vaccaro CA",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Medicina Traslacional e Ingeniería Biomédica (IMTIB), Hospital Italiano de Buenos Aires (HIBA), Instituto Universitario Hospital Italiano de Buenos Aires (IUHI), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Autonomous city, Ciudad Autónoma de Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Spirandelli, Florencia",
+        "short_name": "Spirandelli F",
+        "identifiers": [],
+        "affiliations": [
+          "Consultorio Privado de Coloproctolgia, Hospital Español de Rosario, Rosario, Argentina."
+        ]
+      },
+      {
+        "full_name": "Santamaria-Quesada, Carlos",
+        "short_name": "Santamaria-Quesada C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnostic Laboratory. National Children Hospital, San Jose, Costa Rica."
+        ]
+      },
+      {
+        "full_name": "Jimenez, Geiner",
+        "short_name": "Jimenez G",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital Dr. Rafael Angel Calderon Guardia, Caja Costarricense del Seguro Social, San Jose, Costa Rica."
+        ]
+      },
+      {
+        "full_name": "Vaca-Paniagua, Felipe",
+        "short_name": "Vaca-Paniagua F",
+        "identifiers": [
+          "0000-0002-2200-9706"
+        ],
+        "affiliations": [
+          "Biomedicine Research Unit, Faculty of Superior Studies Iztacala, National Autonomous University of Mexico, Mexico City, 54090, Mexico.",
+          "National Laboratory of Health, Faculty of Superior Studies Iztacala, National Autonomous University of Mexico, Mexico City, 54090, Mexico."
+        ]
+      },
+      {
+        "full_name": "Perdomo, Sandra",
+        "short_name": "Perdomo S",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Epidemiology Branch, International Agency for Research on Cancer (IARC/WHO), Lyon, France."
+        ]
+      },
+      {
+        "full_name": "López Rivera, Juan Javier",
+        "short_name": "López Rivera JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Director of the Genetics Laboratory at Clinica Colsanitas, Clinica Universitaria Colombia, Keralty Group, Bogotá, Colombia."
+        ]
+      },
+      {
+        "full_name": "Torrezan, Giovana Tardin",
+        "short_name": "Torrezan GT",
+        "identifiers": [
+          "0000-0002-8659-5329"
+        ],
+        "affiliations": [
+          "Clinical and Functional Genomics Group, International Research Center, CIPE/A.C.Camargo Cancer Center, São Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Carraro, Dirce Maria",
+        "short_name": "Carraro DM",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical and Functional Genomics Group, International Research Center, CIPE/A.C.Camargo Cancer Center, São Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Brieger, Angela",
+        "short_name": "Brieger A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Serve, Hubert",
+        "short_name": "Serve H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine 2, University Hospital, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Frankfurt and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Frankfurt Cancer Institute, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Martins, Alexandra",
+        "short_name": "Martins A",
+        "identifiers": [
+          "0000-0003-4322-8497"
+        ],
+        "affiliations": [
+          "Univ Rouen Normandie, Inserm U1245, FHU G4 Génomique, F-76000, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Plotz, Guido",
+        "short_name": "Plotz G",
+        "identifiers": [
+          "0000-0001-5314-9739"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, Germany. plotz@med.uni-frankfurt.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of human genetics : EJHG"
+    ],
+    "journal_abbrev": [
+      "Eur J Hum Genet"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 07:10",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39097650",
+      "39004446",
+      "38843250",
+      "37733863",
+      "37224528",
+      "37181409",
+      "36928239",
+      "36454741",
+      "36273432",
+      "35451539",
+      "35189042",
+      "34265844",
+      "34043773",
+      "32741062",
+      "32141610",
+      "31992580",
+      "31892348",
+      "31881334",
+      "31442815",
+      "30946512",
+      "30504929",
+      "29520894",
+      "29345684",
+      "28874130",
+      "27629256",
+      "26873718",
+      "26761715",
+      "26437257",
+      "25512458",
+      "25477341",
+      "24362816",
+      "24344984",
+      "23709753",
+      "23403630",
+      "22949387",
+      "22949379",
+      "22736432",
+      "22102614",
+      "21681552",
+      "21309036",
+      "20858721",
+      "20721748",
+      "20533529",
+      "20020535",
+      "18602922",
+      "18000842",
+      "17203173",
+      "17135187",
+      "16472587",
+      "16322221",
+      "15887099",
+      "11948175",
+      "11781295",
+      "10348829",
+      "10199405",
+      "9392616",
+      "2022152"
+    ],
+    "similar": [
+      "41851261",
+      "39592919",
+      "30653781",
+      "36073783",
+      "33577226",
+      "35451539",
+      "31386297",
+      "28365877",
+      "17764220",
+      "38280988",
+      "32363481",
+      "25871621",
+      "31391288",
+      "31932681",
+      "29758216",
+      "34302852",
+      "23709753",
+      "29107668",
+      "38297350",
+      "30324682",
+      "31992580",
+      "32197529",
+      "35724254",
+      "33452216",
+      "41543911",
+      "35189042",
+      "26895986",
+      "29286535",
+      "25477341",
+      "30161022",
+      "22736432",
+      "27601186",
+      "34048176",
+      "36454741",
+      "27435373",
+      "32076465",
+      "28669579",
+      "35346574",
+      "28494185",
+      "30946512",
+      "31433215",
+      "40294053",
+      "33839100",
+      "41014487",
+      "17312306",
+      "36134613",
+      "36445599",
+      "29575718",
+      "25229768",
+      "38654521",
+      "24503759",
+      "38843250",
+      "19479271",
+      "41846284",
+      "20533529",
+      "21431882",
+      "26848797",
+      "34407589",
+      "24027009",
+      "37751191",
+      "31337882",
+      "42589309",
+      "31248416",
+      "34111421",
+      "11793442",
+      "39436407",
+      "18602922",
+      "35616648",
+      "40723192",
+      "38284451",
+      "30148743",
+      "32634176",
+      "31056861",
+      "30423605",
+      "37072247",
+      "34519692",
+      "34326811",
+      "37226842",
+      "34169821",
+      "22753075",
+      "34397043",
+      "40244260",
+      "25400828",
+      "19526325",
+      "40646476",
+      "39894875",
+      "37849256",
+      "41044115",
+      "25194673",
+      "26437257",
+      "33393477",
+      "28785832",
+      "28820751",
+      "36054288",
+      "30585020",
+      "32002723",
+      "30608896",
+      "26552419",
+      "31997046",
+      "21911971"
+    ],
+    "review": [
+      "41851261",
+      "17764220",
+      "29286535",
+      "37751191",
+      "34169821",
+      "40244260"
+    ],
+    "pmc": [
+      "13550630"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41431-026-02072-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41851261/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

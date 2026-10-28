@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40936892",
+  "title": "CEACAM6 as a machine learning derived immune biomarker for predicting neoadjuvant chemotherapy response in HR+/HER2- breast cancer.",
+  "authors": "Fang, Dalang; Lin, Jie; Wang, Jin; Nong, Qingxiao; Tao, Shouwen; Lu, Bimin; Yu, Yanrong; Peng, Hao; Tian, Yingying; Su, Qunying; Ma, Yanfei; Huang, Yuanlu",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-09-12",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习预测乳腺癌新辅助化疗反应，聚焦CEACAM6免疫生物标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer is the most common subtype, characterized by heterogeneous neoadjuvant chemotherapy (NAC) responses and low pCR rates. Existing biomarkers have limited predictive accuracy, hindering personalized treatment. This study aimed to identify predictive biomarkers for NAC response and explore their therapeutic potential in HR+/HER2- breast cancer. METHODS: We integrated 497 HR+/HER2- samples from TCGA and 956 from nine GEO datasets (training set: n=708; test set: n=248). Differentially expressed genes (DEGs) between tumors and normal tissues (TCGA) and between pCR and residual disease (RD) groups (GEO) were identified. Overlapping DEGs were further screened using LASSO, random forest, and SVM-RFE algorithms. Predictive models were constructed with 10 machine learning algorithms and interpreted using SHAP. Gene set enrichment analysis (GSEA), CIBERSORT-based immune infiltration, and drug sensitivity prediction using oncoPredict and GDSC2 were performed. Immunohistochemistry (IHC) was conducted on paired pre/post-NAC samples (n=9). Clinical correlation was analyzed in a retrospective cohort of 106 HR+/HER2- NAC patients. RESULTS: Thirty-eight overlapping DEGs were identified, and four key genes (CEACAM6, MELK, RARRES1, BIRC5) were selected. NeuralNet showed the best model performance (AUC=0.816). CEACAM6 was the top-ranked SHAP feature, with high expression predicting RD and was associated with poor survival (p=0.014). GSEA revealed CEACAM6-high tumors were enriched in drug resistance pathways (such as oxidative phosphorylation), while low expression correlated with immune activation. Immune analysis showed pCR tumors had more effector cells (Tfh, gammadelta T cells, M1 macrophages), whereas RD tumors were enriched in Tregs and resting mast cells. CEACAM6 positively correlated with Tregs and naive CD4+ T cells, and negatively with CD8+ T cells and M1 macrophages. CEACAM6-high tumors had higher IC50 for six NAC-related drugs. IHC confirmed persistent CEACAM6 expression in RD tumors post-NAC. Clinically, pCR patients had higher lymphocyte counts and more frequent N2-N3 nodal status. CONCLUSION: CEACAM6 is a promising predictive biomarker in HR+/HER2- breast cancer, associated with chemoresistance and immune suppression. Machine learning models integrating immune signatures and pathway features may optimize personalized NAC strategies.",
+  "abstract_zh": "背景：激素受体阳性/人表皮生长因子受体2阴性（HR+/HER2-）乳腺癌是最常见的亚型，其特征为新辅助化疗（NAC）反应异质性和较低的病理完全缓解（pCR）率。现有生物标志物的预测准确性有限，阻碍了个体化治疗。本研究旨在识别NAC反应的预测性生物标志物，并探索其在HR+/HER2-乳腺癌中的治疗潜力。方法：我们整合了来自TCGA的497例HR+/HER2-样本和来自九个GEO数据集的956例样本（训练集：n=708；测试集：n=248）。识别了肿瘤与正常组织（TCGA）之间以及pCR与残留病灶（RD）组（GEO）之间的差异表达基因（DEGs）。重叠的DEGs进一步通过LASSO、随机森林和SVM-RFE算法筛选。使用10种机器学习算法构建预测模型，并通过SHAP进行解释。进行了基因集富集分析（GSEA）、基于CIBERSORT的免疫浸润分析以及使用oncoPredict和GDSC2的药物敏感性预测。对配对的前/后NAC样本（n=9）进行了免疫组织化学（IHC）检测。在106例HR+/HER2- NAC患者的回顾性队列中分析了临床相关性。结果：识别出38个重叠DEGs，并选择了四个关键基因（CEACAM6、MELK、RARRES1、BIRC5）。NeuralNet显示出最佳模型性能（AUC=0.816）。CEACAM6是排名最高的SHAP特征，其高表达预测RD，并与较差生存相关（p=0.014）。GSEA显示CEACAM6高表达肿瘤富集于耐药途径（如氧化磷酸化），而低表达与免疫激活相关。免疫分析显示pCR肿瘤具有更多效应细胞（Tfh、γδ T细胞、M1巨噬细胞），而RD肿瘤富集于Tregs和静息肥大细胞。CEACAM6与Tregs和初始CD4+ T细胞正相关，与CD8+ T细胞和M1巨噬细胞负相关。CEACAM6高表达肿瘤对六种NAC相关药物具有更高的IC50。IHC证实RD肿瘤在NAC后CEACAM6持续表达。临床上，pCR患者具有更高的淋巴细胞计数和更频繁的N2-N3淋巴结状态。结论：CEACAM6是HR+/HER2-乳腺癌中有前景的预测性生物标志物，与化疗耐药和免疫抑制相关。整合免疫特征和途径特征的机器学习模型可能优化个体化NAC策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40936892/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40936892/",
+  "paper_page_path": "papers/pubmed/40936892/index.html"
+}

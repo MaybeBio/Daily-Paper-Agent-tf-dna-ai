@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40539233",
+    "doi": "10.1093/bib/bbaf284",
+    "title": "DeepTFtyper: an interpretable morphology-aware graph neural network for translating histopathology images into molecular subtypes in small cell lung cancer."
+  },
+  "content": {
+    "abstract": "Small cell lung cancer (SCLC) is a highly aggressive high-grade neuroendocrine carcinoma with a poor prognosis. Molecular subtyping of transcription factors (SCLC-A, -N, -P, and -Y) shows great potential for guiding treatment decisions. However, its clinical application are limited by insufficient samples and the complexity of molecular testing. In this study, we developed DeepTFtyper, a graph neural network-based deep learning model for automatically classifying SCLC molecular subtypes from hematoxylin and eosin-stained whole-slide images. DeepTFtyper was trained and tested on the Cancer Hospital, Chinese Academy of Medical Science cohort (n = 389) with 4-fold cross-validation, and achieved high performance with an area under the receiver operating characteristic curve above 0.70 for all four molecular subtypes identified by immunohistochemistry (IHC). Furthermore, the digital H-scores predicted by DeepTFtyper showed a significant correlation with IHC-based H-scores. Patch-level visualization and morphological analysis revealed that DeepTFtyper identifies interpretable and generalizable features corresponding to areas of relevant transcription factor expression as revealed by IHC staining and correlates well with morphological features. This study represents the first deep learning framework for predicting SCLC molecular subtypes from hematoxylin and eosin-stained histology slides, providing a scalable, accurate, and clinically relevant tool to improve patient management and guide personalized treatment decisions.",
+    "keywords": [
+      "deep learning",
+      "histopathological images",
+      "molecular subtype",
+      "small cell lung cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Small Cell Lung Carcinoma/pathology/metabolism/classification/genetics",
+      "*Lung Neoplasms/pathology/metabolism/classification/genetics",
+      "*Neural Networks, Computer",
+      "*Deep Learning",
+      "Immunohistochemistry",
+      "Transcription Factors/metabolism",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xin",
+        "Yang, Fan",
+        "Zhang, Yibo",
+        "Yang, Zijian",
+        "Chen, Ruanqi",
+        "Zhou, Meng",
+        "Yang, Lin"
+      ],
+      "short_names": [
+        "Li X",
+        "Yang F",
+        "Zhang Y",
+        "Yang Z",
+        "Chen R",
+        "Zhou M",
+        "Yang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9987-9024",
+        "ORCID: 0000-0002-7594-3770"
+      ],
+      "affiliations": [
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China.",
+        "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China.",
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China.",
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China.",
+        "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China.",
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China.",
+        "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China.",
+        "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yibo",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zijian",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ruanqi",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meng",
+        "short_name": "Zhou M",
+        "identifiers": [
+          "0000-0001-9987-9024"
+        ],
+        "affiliations": [
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lin",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0002-7594-3770"
+        ],
+        "affiliations": [
+          "Department of Pathology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100021, PR China.",
+          "Institute of Genomic Medicine, School of Biomedical Engineering, Wenzhou Medical University, Wenzhou 325027, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/20 11:31",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "42020390",
+      "41772672",
+      "41545500",
+      "41008835",
+      "40898302"
+    ],
+    "refs": [
+      "40335632",
+      "40230612",
+      "39847242",
+      "38896789",
+      "38828478",
+      "38366589",
+      "38241820",
+      "38238410",
+      "38165630",
+      "38092727",
+      "37816348",
+      "37392900",
+      "37329269",
+      "37311751",
+      "36496303",
+      "35952419",
+      "35311069",
+      "34534680",
+      "33482121",
+      "33245986",
+      "33011388",
+      "32354610",
+      "30926931",
+      "30914743",
+      "30723171",
+      "30182055",
+      "29535911",
+      "26311731",
+      "23739064"
+    ],
+    "similar": [
+      "40539233",
+      "40898302",
+      "40345665",
+      "38871058",
+      "39941061",
+      "27998793",
+      "33854137",
+      "34400666",
+      "35489038",
+      "36496303",
+      "39571251",
+      "35115593",
+      "32364237",
+      "32246504",
+      "32432709",
+      "38492534",
+      "40536008",
+      "41500778",
+      "40946794",
+      "27627196",
+      "37580019",
+      "37775262",
+      "35220975",
+      "39808946",
+      "41331472",
+      "41290052",
+      "39318253",
+      "40432263",
+      "39581068",
+      "38861072",
+      "32238879",
+      "41013460",
+      "40931642",
+      "39358575",
+      "30502076",
+      "37981832",
+      "39283755",
+      "41252869",
+      "38180245",
+      "32080846",
+      "36131239",
+      "41211715",
+      "30957413",
+      "37054974",
+      "40143808",
+      "41207998",
+      "38278149",
+      "33775248",
+      "35406511",
+      "37269416",
+      "38504364",
+      "22214967",
+      "38101298",
+      "40222364",
+      "32170367",
+      "39255280",
+      "39080761",
+      "40333678",
+      "38607250",
+      "36057739",
+      "37586462",
+      "39564124",
+      "38232600",
+      "32801334",
+      "39591709",
+      "39786663",
+      "36869300",
+      "40595415",
+      "33191657",
+      "32669118",
+      "24518087",
+      "26020126",
+      "27932399",
+      "38673793",
+      "39979837",
+      "31231131",
+      "38630755",
+      "38843570",
+      "39724105",
+      "38714840",
+      "40107154",
+      "40664732",
+      "41250202",
+      "36717988",
+      "39212909",
+      "38811992",
+      "40380382",
+      "41494052",
+      "40557542",
+      "38409878",
+      "32622740",
+      "36149789",
+      "32354610",
+      "28855032",
+      "39542104",
+      "29787820",
+      "31671086",
+      "38820715",
+      "41068281",
+      "24564859"
+    ],
+    "review": [
+      "40539233",
+      "39318253",
+      "40931642",
+      "22214967",
+      "40222364",
+      "40333678",
+      "38607250"
+    ],
+    "pmc": [
+      "12204680"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40539233.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40539233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf284",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

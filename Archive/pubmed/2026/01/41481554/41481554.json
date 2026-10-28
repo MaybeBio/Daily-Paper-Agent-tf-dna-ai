@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41481554",
+    "doi": "10.1371/journal.pone.0339287",
+    "title": "Identification of Notch pathway-related biomarkers in patients with idiopathic pulmonary fibrosis."
+  },
+  "content": {
+    "abstract": "The involvement of Notch pathway-related genes (NPRGs) in idiopathic pulmonary fibrosis (IPF) remains inadequately understood. This study identified novel NPRG-associated biomarkers in IPF through integrated analysis of the GSE28042 dataset and NPRG gene sets, with the goal of uncovering potential therapeutic targets. Initially, 7 overlapping candidate genes were identified by intersecting 1,361 differentially expressed genes (DEGs) between IPF and control samples, 4,883 key module genes associated with IPF, and 428 known NPRGs. Four biomarkers-IL4, PLXND1, NBEA, and GATA2-were prioritized using machine learning methods. Immune infiltration analysis, conducted with the CIBERSORT algorithm (v2.0.4), revealed that IL4, NBEA, and GATA2 were significantly positively correlated with resting dendritic cells and negatively correlated with follicular helper T cells. Additionally, drug target prediction and pathway enrichment analyses suggested potential associations between these biomarkers and oxidative stress-related pathways. RT-qPCR validation using human blood samples confirmed significant down-regulation of IL4 and NBEA while PLXND1 was significantly up-regulated in patients with IPF compared to healthy controls. These biomarkers may contribute to the pro-fibrotic microenvironment, and their dysregulation is linked to the pathogenesis of pulmonary fibrosis. In summary, the identified NPRG-related biomarkers hold diagnostic potential for IPF. with further research needed to clarify their functional roles and assess their viability as therapeutic targets or as consequences of the fibrotic process.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Idiopathic Pulmonary Fibrosis/genetics/metabolism/pathology",
+      "*Biomarkers/metabolism",
+      "*Receptors, Notch/metabolism/genetics",
+      "*Signal Transduction/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Shiyuan",
+        "Bao, Yu",
+        "Zhao, Hailan",
+        "Zhang, Chunlai",
+        "Wang, Yezhen",
+        "Li, Ke",
+        "Li, Puguang",
+        "Zhang, Wei",
+        "Zhu, Xue"
+      ],
+      "short_names": [
+        "Yang S",
+        "Bao Y",
+        "Zhao H",
+        "Zhang C",
+        "Wang Y",
+        "Li K",
+        "Li P",
+        "Zhang W",
+        "Zhu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3398-3272"
+      ],
+      "affiliations": [
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China.",
+        "Affiliated Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin City, China.",
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China.",
+        "Laboratory medicine department, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan City, Shandong Province, China.",
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China.",
+        "Department of Pharmacy, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan City, Shandong Province, China.",
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China.",
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China.",
+        "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Shiyuan",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Yu",
+        "short_name": "Bao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin City, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hailan",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunlai",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory medicine department, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yezhen",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Puguang",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xue",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0002-3398-3272"
+        ],
+        "affiliations": [
+          "First Clinical Medical School, Shandong University of Traditional Chinese Medicine, Jinan City, Shandong Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/02 19:38",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40494203",
+      "40112179",
+      "40065190",
+      "39529565",
+      "39472569",
+      "39354547",
+      "38980870",
+      "37716906",
+      "36612069",
+      "36344812",
+      "36052538",
+      "36047984",
+      "35909143",
+      "35874676",
+      "35846128",
+      "35798357",
+      "35790774",
+      "35598160",
+      "35466228",
+      "35410255",
+      "35332121",
+      "35126134",
+      "34975891",
+      "34895203",
+      "34774887",
+      "34621670",
+      "34089740",
+      "33865386",
+      "33493092",
+      "33489909",
+      "33434107",
+      "33201251",
+      "32274896",
+      "32224230",
+      "31993696",
+      "31694639",
+      "31613406",
+      "31125557",
+      "30808717",
+      "30337444",
+      "29344893",
+      "27749937",
+      "25605792",
+      "23267012",
+      "20395557"
+    ],
+    "similar": [
+      "41481554",
+      "40483519",
+      "34285914",
+      "40665394",
+      "40557159",
+      "40494203",
+      "40273141",
+      "36860337",
+      "39704195",
+      "40280949",
+      "40075162",
+      "39991151",
+      "37783761",
+      "39046603",
+      "40022042",
+      "41388329",
+      "41438766",
+      "39340293",
+      "40369105",
+      "40355204",
+      "39959639",
+      "37559532",
+      "37122736",
+      "41192648",
+      "40187620",
+      "39289672",
+      "40170095",
+      "40670650",
+      "39165378",
+      "34872285",
+      "39180853",
+      "41408564",
+      "39944354",
+      "39855369",
+      "37794454",
+      "40857336",
+      "40538010",
+      "28081703",
+      "37334348",
+      "38566986",
+      "34876074",
+      "33485486",
+      "25725128",
+      "38872435",
+      "40570466",
+      "32899090",
+      "36211385",
+      "40381971",
+      "39333367",
+      "39966531",
+      "38784225",
+      "39254743",
+      "38274787",
+      "37051233",
+      "40153017",
+      "28250200",
+      "38887981",
+      "37266442",
+      "25217476",
+      "39354547",
+      "39062997",
+      "36507532",
+      "34689792",
+      "38703565",
+      "41075750",
+      "33046043",
+      "39147114",
+      "39067403",
+      "35130915",
+      "34666057",
+      "37605652",
+      "32605572",
+      "39402203",
+      "31013581",
+      "34194423",
+      "37337515",
+      "37924392",
+      "40640934",
+      "33672678",
+      "24551275",
+      "28588348",
+      "31762326",
+      "41094533",
+      "41351492",
+      "41244106",
+      "41158409",
+      "36267568",
+      "37907428",
+      "38571583",
+      "30477498",
+      "39768150",
+      "41224967",
+      "28057004",
+      "37887075",
+      "41325398",
+      "38872139",
+      "31177264",
+      "41291841",
+      "35185901",
+      "38370408"
+    ],
+    "review": [
+      "41481554",
+      "39165378",
+      "39768150"
+    ],
+    "pmc": [
+      "12758733"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0339287",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41481554/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

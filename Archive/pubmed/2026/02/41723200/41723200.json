@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "41723200",
+    "doi": "10.1038/s41598-026-40800-3",
+    "title": "Utilizing bulk and single-cell RNA sequencing to identify potential biomarkers linked to angiogenesis and integrated stress response in chondrosarcoma."
+  },
+  "content": {
+    "abstract": "Chondrosarcoma (CS) is the second most common bone sarcoma with a cartilage matrix. Angiogenesis and integrated stress response (ISR) exert a vital influence on the development of CS. This research aimed to conduct a comprehensive analysis to pinpoint angiogenesis and ISR-related potential biomarkers in CS and to elucidate their potential molecular mechanisms. CS data were from GEO. Potential biomarkers were identified and confirmed using differential expression analysis, WGCNA, and expression assessment. Moreover, enrichment analysis was employed to examine relevant pathways. Molecular regulatory network, compound prediction, and molecular docking analyses further explored the key regulatory roles of potential biomarkers in CS. GSE184118 was used to determine key cells and perform pseudo-time and cell communication analyses. Finally, RT-qPCR was used to confirm potential biomarker expression levels. Overall, three potential biomarkers (HSPA8, LMNA and SERPINH1) were determined, and their expression trends were consistent across the GSE30835 and GSE22855 datasets. Potential biomarkers were significantly enriched in the pathways like \"medicus variant mutation caused aberrant HTT to 26S proteasome mediated protein degradation\" in CS. Moreover, 9 transcription factors (TFs) (like STAT1), 69 key microRNAs (miRNAs) (like hsa-miR-361-3p), and 78 long non-coding RNAs (lncRNAs) (like NEAT1) were found to have relationships with potential biomarkers, and potential biomarkers had stable binding affinity with adenosine diphosphate (ADP) and lonafarnib. Moreover, pseudo-time analysis demonstrated a notable correlation between potential biomarkers' expression and differentiation status of key cells (stromal cells (excluding leucocytes)), and cell communication revealed the strong interactions between stromal cells and chondroid clusters 1. Importantly, RT-qPCR confirmed higher expression of HSPA8, LMNA and SERPINH1 in CS patients. The findings suggested that HSPA8, LMNA and SERPINH1 might offer novel insights for the development of targeted therapies for CS associated with angiogenesis and ISR.",
+    "keywords": [
+      "Angiogenesis",
+      "Chondrosarcoma",
+      "Integrated stress response",
+      "Potential biomarkers",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chondrosarcoma/genetics/pathology/metabolism",
+      "Integrated Stress Response/genetics",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Neovascularization, Pathologic/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Bone Neoplasms/genetics/pathology/metabolism",
+      "Single-Cell Analysis/methods",
+      "Sequence Analysis, RNA",
+      "Single-Cell Gene Expression Analysis",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shihong",
+        "Zhao, Jian",
+        "Qin, Qingqing",
+        "Huang, Hai",
+        "Liu, Dong",
+        "Liu, Yang",
+        "Peng, Dongyu",
+        "Yu, Huimin",
+        "Jing, Haohan",
+        "Wu, Yucheng",
+        "Li, Feng",
+        "Meng, Zuzhi",
+        "Liao, Dongfa",
+        "Wang, Wei",
+        "Wang, Cairu"
+      ],
+      "short_names": [
+        "Li S",
+        "Zhao J",
+        "Qin Q",
+        "Huang H",
+        "Liu D",
+        "Liu Y",
+        "Peng D",
+        "Yu H",
+        "Jing H",
+        "Wu Y",
+        "Li F",
+        "Meng Z",
+        "Liao D",
+        "Wang W",
+        "Wang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "The Second Affiliated Hospital of Air Force Medical University, Xi'an, China.",
+        "The First Affiliated Hospital of Air Force Medical University, Xi'an, China.",
+        "Cangzhou Hospital of Integrated Traditional Chinese and Western Medicine of Hebei Province, Cangzhou, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "College of Medicine, Southwest Jiaotong University, Chengdu, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "Chengdu Medical University, Chengdu, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "Chengdu Medical University, Chengdu, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China.",
+        "The 950th Hospital of PLA, Yecheng, China.",
+        "The General Hospital of Western Theater Command, Chengdu, China. liaodongfa@163.com.",
+        "College of Medicine, Southwest Jiaotong University, Chengdu, China. liaodongfa@163.com.",
+        "The General Hospital of Western Theater Command, Chengdu, China. 345880492@qq.com.",
+        "College of Medicine, Southwest Jiaotong University, Chengdu, China. 345880492@qq.com.",
+        "The General Hospital of Western Theater Command, Chengdu, China. cairuwang@126.com.",
+        "College of Medicine, Southwest Jiaotong University, Chengdu, China. cairuwang@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shihong",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jian",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Qingqing",
+        "short_name": "Qin Q",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hai",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Air Force Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dong",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Air Force Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cangzhou Hospital of Integrated Traditional Chinese and Western Medicine of Hebei Province, Cangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Dongyu",
+        "short_name": "Peng D",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Huimin",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medicine, Southwest Jiaotong University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Haohan",
+        "short_name": "Jing H",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China.",
+          "Chengdu Medical University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yucheng",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China.",
+          "Chengdu Medical University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Feng",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zuzhi",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "The 950th Hospital of PLA, Yecheng, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Dongfa",
+        "short_name": "Liao D",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China. liaodongfa@163.com.",
+          "College of Medicine, Southwest Jiaotong University, Chengdu, China. liaodongfa@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China. 345880492@qq.com.",
+          "College of Medicine, Southwest Jiaotong University, Chengdu, China. 345880492@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Cairu",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "The General Hospital of Western Theater Command, Chengdu, China. cairuwang@126.com.",
+          "College of Medicine, Southwest Jiaotong University, Chengdu, China. cairuwang@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/22 05:35",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41285222",
+      "40860340",
+      "40744665",
+      "40642087",
+      "40537497",
+      "40509035",
+      "40216756",
+      "40155570",
+      "40146441",
+      "39946769",
+      "39940784",
+      "39872503",
+      "39599668",
+      "39422029",
+      "39403328",
+      "39359731",
+      "39178574",
+      "38866361",
+      "38840037",
+      "38806182",
+      "38758650",
+      "38653965",
+      "38641179",
+      "38569854",
+      "38562657",
+      "38301906",
+      "38267611",
+      "37566049",
+      "37474643",
+      "37212877",
+      "37181357",
+      "36945018",
+      "36901967",
+      "36416348",
+      "36373190",
+      "36368296",
+      "36359873",
+      "36277897",
+      "36142885",
+      "35885218",
+      "35844853",
+      "35820864",
+      "35768943",
+      "35751589",
+      "35654839",
+      "35464435",
+      "35273618",
+      "35172151",
+      "35163019",
+      "34685711",
+      "34680447",
+      "34582004",
+      "34445345",
+      "34062119",
+      "33804155",
+      "33597522",
+      "33572320",
+      "33433946",
+      "33149752",
+      "32988868",
+      "30829727",
+      "30664630",
+      "30591858",
+      "30554116",
+      "30468648",
+      "29872313",
+      "29730230",
+      "28465477",
+      "28383167",
+      "28035378",
+      "27838364",
+      "27629041",
+      "26468982",
+      "25605792",
+      "24930139",
+      "23937229",
+      "23323831",
+      "22992737",
+      "22605660",
+      "22455463",
+      "21584901",
+      "21372215",
+      "21344373",
+      "21269502",
+      "20401516",
+      "20157617",
+      "19114008",
+      "17273557",
+      "16523491",
+      "15871904",
+      "12942545",
+      "11169453"
+    ],
+    "similar": [
+      "41723200",
+      "41706425",
+      "42565562",
+      "41436831",
+      "42024670",
+      "41577808",
+      "41459503",
+      "40711603",
+      "41840716",
+      "42475469",
+      "41388523",
+      "41195206",
+      "42040898",
+      "41285222",
+      "41927755",
+      "41964890",
+      "40764361",
+      "42464325",
+      "42180604",
+      "39034722",
+      "39238649",
+      "41905994",
+      "30520120",
+      "41378121",
+      "42271539",
+      "32912111",
+      "40967560",
+      "25106798",
+      "40936758",
+      "34898376",
+      "41142795",
+      "39067546",
+      "42471019",
+      "40918148",
+      "41836445",
+      "31127661",
+      "42120472",
+      "42358997",
+      "40666524",
+      "38166541",
+      "42059276",
+      "40630963",
+      "40539067",
+      "39108264",
+      "28465477",
+      "41246299",
+      "41530916",
+      "40972794",
+      "41162544",
+      "39893187",
+      "40216809",
+      "40124361",
+      "39516222",
+      "41591671",
+      "41913032",
+      "40169794",
+      "39814999",
+      "40225866",
+      "38863714",
+      "42104495",
+      "41792142",
+      "39896800",
+      "38719941",
+      "42089585",
+      "42292364",
+      "39028420",
+      "42023244",
+      "42568110",
+      "41098724",
+      "41635010",
+      "12115562",
+      "42263482",
+      "26317788",
+      "42074514",
+      "41006377",
+      "42581084",
+      "38470002",
+      "42589296",
+      "41779351",
+      "39896809",
+      "40045162",
+      "40783296",
+      "40230854",
+      "41488645",
+      "42391245",
+      "41162503",
+      "41163216",
+      "41316541",
+      "42269884",
+      "41171828",
+      "42528732",
+      "41208987",
+      "41770292",
+      "42136960",
+      "40484863",
+      "41669898",
+      "40682067",
+      "35313857",
+      "40425498",
+      "41918119"
+    ],
+    "review": [
+      "41723200"
+    ],
+    "pmc": [
+      "13021919"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-40800-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41723200/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3713",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

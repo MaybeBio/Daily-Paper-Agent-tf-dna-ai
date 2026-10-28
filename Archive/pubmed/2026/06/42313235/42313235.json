@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "42313235",
+    "doi": "10.1007/s10067-026-08188-7",
+    "title": "Integrated bioinformatics and machine learning for shared diagnostic genes and mechanisms between periodontitis and psoriasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Periodontitis and psoriasis are two prevalent conditions that are bidirectionally associated. However, the molecular basis remains poorly understood. This study utilized bioinformatics approaches to investigate the common diagnostic genes and shared mechanisms of periodontitis and psoriasis. METHODS: Classical datasets for periodontitis and psoriasis were sourced from the GEO database. Differentially expressed genes (DEGs) analysis, weighted gene co-expression network analysis (WGCNA), protein-protein interaction (PPI) network analysis, and two machine learning algorithms were used to screen common biomarkers. Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) enrichment analyses were utilized to explore biological functions. CIBERSO\\ RT was used to assess the immune microenvironment. Transcription factor (TF)-gene and gene-miRNA regulatory networks were analyzed using NetworkAnalyst. RESULTS: 24 DEGs and 333 disease-related genes were identified. Next, three biomarkers (CXCR4, SASH3, and LYN) were identified among the 12 genes shared between DEGs and WGCNA using machine learning. RT-qPCR analysis confirmed the elevated expression of the three shared genes in both conditions. We further constructed a nomogram model and validated it using ROC curves. Immune infiltration analysis revealed a significant association between the three common biomarkers and cellular immune dysregulation. CONCLUSION: CXCR4, SASH3, and LYN are common biomarkers for psoriasis and periodontitis. Additionally, we proposed immune patterns, TF-gene, and gene-miRNA regulatory networks between the two diseases, which could provide new insights for future studies. Key Points * CXCR4, SASH3, and LYN were identified as shared diagnostic biomarkers for periodontitis and psoriasis, validated through bioinformatics and machine learning approaches. * A robust diagnostic model using the three biomarkers demonstrated high accuracy. * Regulatory networks involving key TFs and miRNAs suggest similar mechanisms between periodontitis and psoriasis.",
+    "keywords": [
+      "Comorbidity",
+      "Diagnostic model",
+      "Machine learning",
+      "Periodontitis",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "*Psoriasis/genetics/diagnosis",
+      "Humans",
+      "*Periodontitis/genetics/diagnosis",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Biomarkers/metabolism",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Qiulin",
+        "Fang, Changle"
+      ],
+      "short_names": [
+        "Wang Q",
+        "Fang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4434-0464"
+      ],
+      "affiliations": [
+        "Children's Nutrition Research Center, Children's Hospital of Chongqing Medical University, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Child Health and Disorders, Chongqing, China.",
+        "Children's Nutrition Research Center, Children's Hospital of Chongqing Medical University, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Child Health and Disorders, Chongqing, China. fangchangle@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Qiulin",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Nutrition Research Center, Children's Hospital of Chongqing Medical University, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Child Health and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Changle",
+        "short_name": "Fang C",
+        "identifiers": [
+          "0000-0003-4434-0464"
+        ],
+        "affiliations": [
+          "Children's Nutrition Research Center, Children's Hospital of Chongqing Medical University, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Child Health and Disorders, Chongqing, China. fangchangle@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical rheumatology"
+    ],
+    "journal_abbrev": [
+      "Clin Rheumatol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/18 12:33",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41109047",
+      "40665054",
+      "40539455",
+      "40281655",
+      "40233623",
+      "40007610",
+      "39988203",
+      "38899599",
+      "38895176",
+      "38843841",
+      "38719020",
+      "38616555",
+      "38517652",
+      "38446584",
+      "38123758",
+      "38007038",
+      "37786419",
+      "37417915",
+      "37358143",
+      "37283755",
+      "37067142",
+      "36765431",
+      "36642401",
+      "36499420",
+      "36355777",
+      "36127250",
+      "35781342",
+      "35710616",
+      "35625362",
+      "35489583",
+      "35095831",
+      "33876203",
+      "33812489",
+      "33693457",
+      "33570702",
+      "33515492",
+      "32811699",
+      "32427307",
+      "31924750",
+      "31701299",
+      "31398715",
+      "30981296",
+      "30506423",
+      "30387155",
+      "30359170",
+      "30109481",
+      "29757188",
+      "29241748",
+      "29093284",
+      "28811476",
+      "28326928",
+      "27862342",
+      "27168818",
+      "26994968",
+      "26375893",
+      "26361329",
+      "26150532",
+      "25939522",
+      "25788457",
+      "25434285",
+      "24695674",
+      "23952076",
+      "23331495",
+      "23327689",
+      "22755552",
+      "22703187",
+      "19322214",
+      "16045736"
+    ],
+    "similar": [
+      "42313235",
+      "39142001",
+      "38863714",
+      "40406126",
+      "41120603",
+      "41703488",
+      "42327749",
+      "40016711",
+      "40421012",
+      "41052072",
+      "41265166",
+      "40374840",
+      "42064079",
+      "41291978",
+      "40374866",
+      "41316541",
+      "41418349",
+      "41044520",
+      "37740761",
+      "41214111",
+      "41146237",
+      "41066424",
+      "41992052",
+      "39086489",
+      "40836320",
+      "36316672",
+      "41200172",
+      "40328901",
+      "40857330",
+      "42289108",
+      "41479901",
+      "40997906",
+      "41006883",
+      "40340571",
+      "40884580",
+      "40093012",
+      "39673621",
+      "41909697",
+      "39875572",
+      "40093802",
+      "39375405",
+      "39351239",
+      "40245021",
+      "35397550",
+      "40453984",
+      "40313958",
+      "40406620",
+      "41158793",
+      "41013556",
+      "41940395",
+      "39845878",
+      "38899746",
+      "42348043",
+      "40588645",
+      "38987624",
+      "41432483",
+      "41132669",
+      "37664910",
+      "35757392",
+      "41013727",
+      "40196107",
+      "39870856",
+      "41799432",
+      "39028999",
+      "39738398",
+      "39509434",
+      "39072329",
+      "39496786",
+      "40129981",
+      "40500570",
+      "40685483",
+      "40692778",
+      "40628511",
+      "41824857",
+      "40918403",
+      "39080525",
+      "41094572",
+      "40603423",
+      "39717623",
+      "40532306",
+      "40973872",
+      "41120378",
+      "39853851",
+      "39139563",
+      "39749331",
+      "39609718",
+      "40178603",
+      "42292668",
+      "40097519",
+      "42074286",
+      "40596265",
+      "41816328",
+      "40718484",
+      "40539067",
+      "40046872",
+      "40313967",
+      "38166541",
+      "41340627",
+      "38062833",
+      "41729615"
+    ],
+    "review": [
+      "42313235"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10067-026-08188-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

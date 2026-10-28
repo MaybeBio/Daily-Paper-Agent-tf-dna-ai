@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42265151",
+    "doi": "10.1038/s41598-026-57016-0",
+    "title": "Integrative transcriptomic and machine learning analysis identifies key extracellular matrix-related genes in diabetic retinopathy."
+  },
+  "content": {
+    "abstract": "Extracellular matrix (ECM) remodeling contributes to retinal vascular basement membrane thickening, an early structural hallmark of diabetic retinopathy (DR). This study aimed to identify key ECM-related genes (ECMGs) associated with DR. Transcriptomic data of DR and ECMGs from MatrixDB were integrated to identify differentially expressed ECMGs. Six machine learning (ML) models, including Extra Trees (ET), Logistic Regression, Adaptive Boosting, Random Forest, Extreme Gradient Boosting, and naive Bayes classifier, were employed to construct DR classification models, with SHapley Additive exPlanation (SHAP) used to interpret feature contributions. Functional enrichment analysis using GSEA and immune infiltration analysis using CIBERSORT were conducted to explore the potential mechanisms by which key ECMGs regulate DR. Regulatory networks were constructed using predicted miRNAs, lncRNAs, and transcription factors (TFs) via the ENCORI, miRWalk, and miRNet databases. Drug-key ECMGs-DM-related diseases interactions were further explored using the DGIdb and CTD databases. Nine candidate ECMGs were identified by overlapping 356 DM-associated DEGs, 1,626 DR-associated DEGs, and 1,023 ECMGs, including CILP2, FN1, DEFA3, COL17A1, CRISP3, TPSAB1, SFRP1, GPHA2, and ECM2. Among the six ML algorithms, the ET classifier exhibited the best overall performance, and five ECMGs (SFRP1, CILP2, FN1, TPSAB1, and ECM2) with non-zero SHAP values were retained as key genes. These genes showed distinct expression patterns across the healthy, DM, and DR groups, and were enriched in neural-related pathways, such as axon guidance, glycosphingolipid biosynthesis ganglio series, and neuroactive ligand receptor interaction. Immune profiling and correlation analysis revealed that FN1, TPSAB1, and CILP2 were correlated with memory/naive B cells, CD8 + T cells, activated memory CD4 + T cells, Tregs, monocytes, and neutrophils. Additionally, the ceRNA network contained five miRNAs, 7 lncRNAs, and two ECMGs, and further regulatory and pharmacologic analysis further linked key ECMGs to specific TFs, drugs, and diabetes-related diseases. This study identified SFRP1, CILP2, FN1, TPSAB1, and ECM2 as key ECMGs in DR, revealing their coordinated involvement in ECM remodeling, neural signaling, and immune modulation. These findings provide novel insights into DR pathogenesis and potential therapeutic targets.",
+    "keywords": [
+      "Diabetic retinopathy",
+      "Extracellular matrix",
+      "Gene expression profiling",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Diabetic Retinopathy/genetics/metabolism",
+      "Humans",
+      "*Extracellular Matrix/genetics/metabolism",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "*Extracellular Matrix Proteins/genetics",
+      "Bayes Theorem"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xin, Wang",
+        "Ying, Wang",
+        "Qiang, Feng",
+        "Yan, Chen",
+        "Wei, Zhang"
+      ],
+      "short_names": [
+        "Xin W",
+        "Ying W",
+        "Qiang F",
+        "Yan C",
+        "Wei Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ITCWM Medical Center, Faculty of Medicine, Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin NanKai Hospital, Tianjin Medical University, Tianjin University, Tianjin, China.",
+        "Tianjin Key Lab of Ophthalmology and Visual Science, Tianjin Eye Hospital, Tianjin Eye Institute, Clinical College of Ophthalmology Tianjin Medical University, No. 4, Gansu Road, Tianjin, 300020, China.",
+        "Department of Ophthalmology, People's Hospital of Hotan District, Hotan, Xinjiang Uygur Autonomous Region, China.",
+        "ITCWM Medical Center, Faculty of Medicine, Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin NanKai Hospital, Tianjin Medical University, Tianjin University, Tianjin, China.",
+        "Tianjin Key Lab of Ophthalmology and Visual Science, Tianjin Eye Hospital, Tianjin Eye Institute, Clinical College of Ophthalmology Tianjin Medical University, No. 4, Gansu Road, Tianjin, 300020, China. a285733453@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xin, Wang",
+        "short_name": "Xin W",
+        "identifiers": [],
+        "affiliations": [
+          "ITCWM Medical Center, Faculty of Medicine, Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin NanKai Hospital, Tianjin Medical University, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Wang",
+        "short_name": "Ying W",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Lab of Ophthalmology and Visual Science, Tianjin Eye Hospital, Tianjin Eye Institute, Clinical College of Ophthalmology Tianjin Medical University, No. 4, Gansu Road, Tianjin, 300020, China."
+        ]
+      },
+      {
+        "full_name": "Qiang, Feng",
+        "short_name": "Qiang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, People's Hospital of Hotan District, Hotan, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chen",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "ITCWM Medical Center, Faculty of Medicine, Tianjin Key Laboratory of Acute Abdomen Disease Associated Organ Injury and ITCWM Repair, Tianjin NanKai Hospital, Tianjin Medical University, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhang",
+        "short_name": "Wei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Lab of Ophthalmology and Visual Science, Tianjin Eye Hospital, Tianjin Eye Institute, Clinical College of Ophthalmology Tianjin Medical University, No. 4, Gansu Road, Tianjin, 300020, China. a285733453@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 06:54",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41173922",
+      "40874767",
+      "40469434",
+      "40459499",
+      "40205024",
+      "40079561",
+      "40060891",
+      "40042877",
+      "39685542",
+      "39457658",
+      "39290701",
+      "38315658",
+      "38203305",
+      "38036664",
+      "38007487",
+      "37697295",
+      "37644183",
+      "37356446",
+      "37334311",
+      "37318810",
+      "37239956",
+      "37174742",
+      "36866156",
+      "36768896",
+      "36674963",
+      "36585968",
+      "36585641",
+      "36362727",
+      "36331711",
+      "36111346",
+      "36082304",
+      "35902594",
+      "35771994",
+      "35410521",
+      "34935118",
+      "34445756",
+      "33822720",
+      "33811070",
+      "33735063",
+      "33671092",
+      "33240272",
+      "33049983",
+      "33013692",
+      "32385057",
+      "32339094",
+      "30909482",
+      "30896018",
+      "30639696",
+      "30533447",
+      "30233418",
+      "29565290",
+      "28545982",
+      "27980343",
+      "27749843",
+      "26675403",
+      "26605370",
+      "26305236",
+      "25819453",
+      "22079928",
+      "12000720",
+      "10592173",
+      "3541052",
+      "2356864",
+      "2296596"
+    ],
+    "similar": [
+      "42265151",
+      "42565562",
+      "39697326",
+      "41384025",
+      "42059276",
+      "41583295",
+      "41080564",
+      "39427825",
+      "42363518",
+      "39483475",
+      "42123445",
+      "42404762",
+      "39634176",
+      "38310446",
+      "39085562",
+      "42228736",
+      "39762849",
+      "40312440",
+      "39022342",
+      "40830558",
+      "41479901",
+      "41601931",
+      "40160813",
+      "42123756",
+      "40374866",
+      "42023244",
+      "41826854",
+      "42537010",
+      "41044520",
+      "42531047",
+      "41656832",
+      "41703488",
+      "40898460",
+      "41388523",
+      "39725717",
+      "42530267",
+      "39704112",
+      "39228680",
+      "42432759",
+      "33879726",
+      "41200172",
+      "42129911",
+      "41595448",
+      "40374840",
+      "35957838",
+      "40043935",
+      "41265166",
+      "40677720",
+      "42609119",
+      "42348093",
+      "41878449",
+      "39142001",
+      "41651978",
+      "42195052",
+      "39402134",
+      "42265520",
+      "40548296",
+      "39351221",
+      "42050477",
+      "41006883",
+      "42158856",
+      "41146237",
+      "42302029",
+      "40674819",
+      "40293350",
+      "42475371",
+      "40948769",
+      "39586719",
+      "41340073",
+      "41895505",
+      "42391245",
+      "40936892",
+      "39419909",
+      "42015036",
+      "40857336",
+      "41120378",
+      "42106542",
+      "41816342",
+      "38863714",
+      "41826822",
+      "41052072",
+      "41328587",
+      "38124748",
+      "42577419",
+      "37773794",
+      "41432483",
+      "32290826",
+      "40362669",
+      "40253457",
+      "42450069",
+      "41013556",
+      "42389985",
+      "40435823",
+      "41136974",
+      "40421012",
+      "40467768",
+      "42295138",
+      "41333919",
+      "42469985",
+      "41595435"
+    ],
+    "review": [
+      "42265151",
+      "40467768"
+    ],
+    "pmc": [
+      "13493871"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticeyeproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Eye Problems"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-57016-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42265151/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1122",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

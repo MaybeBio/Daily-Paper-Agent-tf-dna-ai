@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-4vjr9",
+  "title": "SlaKoNet: A Unified Slater-Koster Tight-Binding Framework Using Neural Network Infrastructure for the Periodic Table",
+  "authors": "Kamal Choudhary",
+  "journal": "ChemRxiv",
+  "published_date": "2025-09-23",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出基于神经网络的Slater-Koster紧束缚框架预测电子能带结构，对象为无机材料电子结构，不涉及蛋白质-DNA互作或TF-DNA体系，方法亦不可迁移至生物分子互作建模。",
+  "abstract": "Accurate and efficient prediction of electronic band structures is essential for designing materials with targeted properties. However, existing machine learning models often lack universality and struggle to predict detailed electronic structures, while traditional tight-binding models based on the Slater-Koster (SK) formalism suffer from (i) limited transferability, (ii) the need for manual parameterization, and (iii) training on low-fidelity electronic structure data. To address these challenges, I introduce SlaKoNet, a parameter optimization framework that learns SK-based Hamiltonian matrix elements across 65 elements of the periodic table using automatic differentiation. SlaKoNet is trained on density functional theory data from the JARVIS-DFT database using the Tran-Blaha modified Becke-Johnson (TBmBJ) functional, encompassing over 20000 materials. The framework achieves a mean absolute error (MAE) of 0.74 eV for bandgap predictions against experimental data, representing a reasoable improvement over standard GGA functionals (MAE = 1.14 eV) while preserving the computational advantages and physical interpretability of tight-binding methods. SlaKoNet demonstrates promising scalability with up to 8.4× speedup on GPUs, enabling rapid electronic structure screening for materials discovery. SlaKoNet is publicly available at the website: https://github.com/atomgptlab/slakonet",
+  "abstract_zh": "电子能带结构的准确高效预测对于设计具有目标性质的材料至关重要。然而，现有的机器学习模型往往缺乏普适性，难以预测详细的电子结构，而基于Slater-Koster (SK) 形式的传统紧束缚模型则面临以下问题：(i) 可转移性有限，(ii) 需要手动参数化，以及 (iii) 在低保真电子结构数据上训练。为应对这些挑战，我引入了SlaKoNet，这是一个参数优化框架，利用自动微分学习周期表中65种元素的SK基哈密顿量矩阵元。SlaKoNet在JARVIS-DFT数据库中的密度泛函理论数据上训练，使用Tran-Blaha修正的Becke-Johnson (TBmBJ) 泛函，涵盖超过20000种材料。该框架在带隙预测方面对实验数据实现了0.74 eV的平均绝对误差 (MAE)，相较于标准GGA泛函 (MAE = 1.14 eV) 有合理改进，同时保留了紧束缚方法的计算优势和物理可解释性。SlaKoNet展示了良好的可扩展性，在GPU上最高可实现8.4倍加速，从而支持材料发现中的快速电子结构筛选。SlaKoNet公开可用，网址为：https://github.com/atomgptlab/slakonet",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-4vjr9",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-4vjr9",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-4vjr9/index.html"
+}

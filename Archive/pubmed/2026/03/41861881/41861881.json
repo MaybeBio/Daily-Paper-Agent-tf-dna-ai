@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "41861881",
+    "doi": "10.1016/j.ijbiomac.2026.151520",
+    "title": "EPI-CAT: Prediction of enhancer-promoter interactions based on cross-attention transformer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Enhancer-promoter interactions (EPIs) play a central role in transcriptional regulation, yet it remains an open challenge to identify which enhancers regulate which target genes. Although deep learning methods based on DNA sequences or genomic epigenetic modification information have made progress in EPIs prediction, they often fail to utilize the positional information of transcription factor (TF) binding, and lack in-depth modeling of regulatory mechanisms. The classic loop model suggests that TFs physically bridge the communication between enhancers and distant promoters. Motivated by this, we proposed EPI-CAT (Cross-Attention Transformer for EPI), a transformer-based prediction model with a cross-attention mechanism. EPI-CAT explicitly incorporates TF binding profiles to capture the cooperative regulatory relationships between enhancers and promoters. RESULTS: We constructed TF sequence representations by encoding ChIP-seq signals from 26 TFs shared between the K562 and GM12878 cell lines. To model regulatory interactions, we designed a dual-channel convolution-cross-attention structure to align upstream-downstream features across regions. The results show that EPI-CAT outperforms state-of-the-art methods on both AUROC and AUPRC metrics. In addition, attention heatmaps and interaction network analyses indicate that the model has the ability to parse TF regulatory grammar. CONCLUSIONS: In summary, our study verified the efficacy of a TF sequence-based prediction framework augmented with attention mechanisms for enhancer-promoter interaction modeling. Through the cross-attention structure, EPI-CAT can automatically focus on key TF-TF combinations, discover critical TF interaction pairs and cooperative regulatory modules, thereby providing new insights into the study of EPI.",
+    "keywords": [
+      "Cross-attention",
+      "Enhancer-promoter interactions",
+      "Transcription factor",
+      "Transformer"
+    ],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic",
+      "*Promoter Regions, Genetic",
+      "Humans",
+      "Transcription Factors/metabolism",
+      "*Computational Biology/methods",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chenyang",
+        "Huang, Xiaohui",
+        "Zhang, Zheng",
+        "Qi, Yechen",
+        "Liu, Li"
+      ],
+      "short_names": [
+        "Liu C",
+        "Huang X",
+        "Zhang Z",
+        "Qi Y",
+        "Liu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China; School of Computer Science and Technology, Xinjiang University, Urumqi, China.",
+        "School of Computer Science and Technology, Xinjiang University, Urumqi, China.",
+        "Computer Science and Information Systems, Murray State University, Murray, USA.",
+        "School of Life Science and Technology, University of Electronic Science and Technology of China, Chengdu, China. Electronic address: ycqi@uestc.edu.cn.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China. Electronic address: liliu2010imu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chenyang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China; School of Computer Science and Technology, Xinjiang University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaohui",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xinjiang University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Information Systems, Murray State University, Murray, USA."
+        ]
+      },
+      {
+        "full_name": "Qi, Yechen",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, University of Electronic Science and Technology of China, Chengdu, China. Electronic address: ycqi@uestc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China. Electronic address: liliu2010imu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/21 00:34",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41861881",
+      "39184348",
+      "38890584",
+      "40869356",
+      "30709337",
+      "35633468",
+      "41697918",
+      "39766779",
+      "40772277",
+      "40515390",
+      "39546160",
+      "32770026",
+      "41319043",
+      "35062021",
+      "41031058",
+      "19956545",
+      "34570239",
+      "33096548",
+      "34473626",
+      "42099803",
+      "39535534",
+      "33425492",
+      "22537144",
+      "40457173",
+      "40902506",
+      "41675661",
+      "30578913",
+      "33160328",
+      "42145197",
+      "42244099",
+      "28579514",
+      "33137083",
+      "34573367",
+      "24042128",
+      "40102719",
+      "39481376",
+      "34292930",
+      "34486522",
+      "32029002",
+      "26679776",
+      "41359035",
+      "40036975",
+      "31006511",
+      "26486725",
+      "42140663",
+      "30598100",
+      "33537074",
+      "29072144",
+      "39519295",
+      "31905774",
+      "39337329",
+      "36043696",
+      "31340985",
+      "25887857",
+      "34272562",
+      "24603674",
+      "34864886",
+      "30142147",
+      "31318408",
+      "20363979",
+      "38870532",
+      "37144127",
+      "38430611",
+      "21785139",
+      "36520922",
+      "35190950",
+      "36748992",
+      "27662874",
+      "32226593",
+      "27490187",
+      "33234095",
+      "25559499",
+      "32039697",
+      "41134621",
+      "34635154",
+      "34073774",
+      "28750606",
+      "40914877",
+      "32054475",
+      "34174819",
+      "35241702",
+      "41978381",
+      "41877008",
+      "37919990",
+      "30696717",
+      "41478195",
+      "40240607",
+      "33950192",
+      "40334196",
+      "15287978",
+      "22369687",
+      "29476833",
+      "38485768",
+      "28137873",
+      "29764360",
+      "37312570",
+      "9414299",
+      "34531149",
+      "31565573",
+      "23595228"
+    ],
+    "review": [
+      "41861881",
+      "41675661",
+      "32226593",
+      "33234095"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)01446-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

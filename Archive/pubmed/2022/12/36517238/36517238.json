@@ -1,0 +1,589 @@
+{
+  "identity": {
+    "pmid": "36517238",
+    "doi": "10.1093/plphys/kiac579",
+    "title": "A mini-TGA protein modulates gene expression through heterogeneous association with transcription factors."
+  },
+  "content": {
+    "abstract": "TGA (TGACG-binding) transcription factors, which bind their target DNA through a conserved basic region leucine zipper (bZIP) domain, are vital regulators of gene expression in salicylic acid (SA)-mediated plant immunity. Here, we investigated the role of StTGA2.1, a potato (Solanum tuberosum) TGA lacking the full bZIP, which we named a mini-TGA. Such truncated proteins have been widely assigned as loss-of-function mutants. We, however, confirmed that StTGA2.1 overexpression compensates for SA-deficiency, indicating a distinct mechanism of action compared with model plant species. To understand the underlying mechanisms, we showed that StTGA2.1 can physically interact with StTGA2.2 and StTGA2.3, while its interaction with DNA was not detected. We investigated the changes in transcriptional regulation due to StTGA2.1 overexpression, identifying direct and indirect target genes. Using in planta transactivation assays, we confirmed that StTGA2.1 interacts with StTGA2.3 to activate StPRX07, a member of class III peroxidases (StPRX), which are known to play role in immune response. Finally, via structural modeling and molecular dynamics simulations, we hypothesized that the compact molecular architecture of StTGA2.1 distorts DNA conformation upon heterodimer binding to enable transcriptional activation. This study demonstrates how protein truncation can lead to distinct functions and that such events should be studied carefully in other protein families.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "Transcriptional Activation",
+      "Gene Expression",
+      "*Basic-Leucine Zipper Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation, Plant"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tomaz, Spela",
+        "Petek, Marko",
+        "Lukan, Tjasa",
+        "Pogacar, Karmen",
+        "Stare, Katja",
+        "Teixeira Prates, Erica",
+        "Jacobson, Daniel A",
+        "Zrimec, Jan",
+        "Bajc, Gregor",
+        "Butala, Matej",
+        "Pompe Novak, Marusa",
+        "Dudley, Quentin",
+        "Patron, Nicola",
+        "Taler-Vercic, Ajda",
+        "Usenik, Aleksandra",
+        "Turk, Dusan",
+        "Prat, Salome",
+        "Coll, Anna",
+        "Gruden, Kristina"
+      ],
+      "short_names": [
+        "Tomaz S",
+        "Petek M",
+        "Lukan T",
+        "Pogacar K",
+        "Stare K",
+        "Teixeira Prates E",
+        "Jacobson DA",
+        "Zrimec J",
+        "Bajc G",
+        "Butala M",
+        "Pompe Novak M",
+        "Dudley Q",
+        "Patron N",
+        "Taler-Vercic A",
+        "Usenik A",
+        "Turk D",
+        "Prat S",
+        "Coll A",
+        "Gruden K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2448-0822",
+        "ORCID: 0000-0003-3644-7827",
+        "ORCID: 0000-0002-6235-2816",
+        "ORCID: 0000-0001-5190-7217",
+        "ORCID: 0000-0002-3999-9400",
+        "ORCID: 0000-0002-6581-5054",
+        "ORCID: 0000-0002-9822-8251",
+        "ORCID: 0000-0002-7099-961X",
+        "ORCID: 0000-0002-4507-9678",
+        "ORCID: 0000-0003-2411-3221",
+        "ORCID: 0000-0003-4176-849X",
+        "ORCID: 0000-0002-2987-5172",
+        "ORCID: 0000-0002-8389-1851",
+        "ORCID: 0000-0002-1449-0536",
+        "ORCID: 0000-0003-2366-2886",
+        "ORCID: 0000-0003-0205-6609",
+        "ORCID: 0000-0003-2684-5485",
+        "ORCID: 0000-0003-0672-1530",
+        "ORCID: 0000-0001-5906-8569"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Jozef Stefan International Postgraduate School, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Biosciences Division, Oak Ridge National Laboratory,, Oak Ridge, Tennessee 37831, USA.",
+        "Biosciences Division, Oak Ridge National Laboratory,, Oak Ridge, Tennessee 37831, USA.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Department of Biology, Biotechnical Faculty, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Biology, Biotechnical Faculty, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "School for Viticulture and Enology, University of Nova Gorica, 5271 Vipava, Slovenia.",
+        "Earlham Institute, Norwich Research Park, Norwich NR4 7UZ, UK.",
+        "Earlham Institute, Norwich Research Park, Norwich NR4 7UZ, UK.",
+        "Department of Biochemistry and Molecular and Structural Biology, Jozef Stefan Institute, 1000 Ljubljana, Slovenia.",
+        "Faculty of Medicine, Institute of Biochemistry and Molecular Genetics, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Biochemistry and Molecular and Structural Biology, Jozef Stefan Institute, 1000 Ljubljana, Slovenia.",
+        "Centre of Excellence for Integrated Approaches in Chemistry and Biology of Proteins, 1000 Ljubljana, Slovenia.",
+        "Department of Biochemistry and Molecular and Structural Biology, Jozef Stefan Institute, 1000 Ljubljana, Slovenia.",
+        "Centre of Excellence for Integrated Approaches in Chemistry and Biology of Proteins, 1000 Ljubljana, Slovenia.",
+        "Department of Plant Development and Signal Transduction, Centre for Research in Agricultural Genomics, 08193 Cerdanyola, Barcelona, Spain.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+        "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tomaž, Špela",
+        "short_name": "Tomaž Š",
+        "identifiers": [
+          "0000-0003-2448-0822"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+          "Jožef Stefan International Postgraduate School, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Petek, Marko",
+        "short_name": "Petek M",
+        "identifiers": [
+          "0000-0003-3644-7827"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Lukan, Tjaša",
+        "short_name": "Lukan T",
+        "identifiers": [
+          "0000-0002-6235-2816"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Pogačar, Karmen",
+        "short_name": "Pogačar K",
+        "identifiers": [
+          "0000-0001-5190-7217"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Stare, Katja",
+        "short_name": "Stare K",
+        "identifiers": [
+          "0000-0002-3999-9400"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Teixeira Prates, Erica",
+        "short_name": "Teixeira Prates E",
+        "identifiers": [
+          "0000-0002-6581-5054"
+        ],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Laboratory,, Oak Ridge, Tennessee 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Jacobson, Daniel A",
+        "short_name": "Jacobson DA",
+        "identifiers": [
+          "0000-0002-9822-8251"
+        ],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Laboratory,, Oak Ridge, Tennessee 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Zrimec, Jan",
+        "short_name": "Zrimec J",
+        "identifiers": [
+          "0000-0002-7099-961X"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Bajc, Gregor",
+        "short_name": "Bajc G",
+        "identifiers": [
+          "0000-0002-4507-9678"
+        ],
+        "affiliations": [
+          "Department of Biology, Biotechnical Faculty, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Butala, Matej",
+        "short_name": "Butala M",
+        "identifiers": [
+          "0000-0003-2411-3221"
+        ],
+        "affiliations": [
+          "Department of Biology, Biotechnical Faculty, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Pompe Novak, Maruša",
+        "short_name": "Pompe Novak M",
+        "identifiers": [
+          "0000-0003-4176-849X"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia.",
+          "School for Viticulture and Enology, University of Nova Gorica, 5271 Vipava, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Dudley, Quentin",
+        "short_name": "Dudley Q",
+        "identifiers": [
+          "0000-0002-2987-5172"
+        ],
+        "affiliations": [
+          "Earlham Institute, Norwich Research Park, Norwich NR4 7UZ, UK."
+        ]
+      },
+      {
+        "full_name": "Patron, Nicola",
+        "short_name": "Patron N",
+        "identifiers": [
+          "0000-0002-8389-1851"
+        ],
+        "affiliations": [
+          "Earlham Institute, Norwich Research Park, Norwich NR4 7UZ, UK."
+        ]
+      },
+      {
+        "full_name": "Taler-Verčič, Ajda",
+        "short_name": "Taler-Verčič A",
+        "identifiers": [
+          "0000-0002-1449-0536"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular and Structural Biology, Jožef Stefan Institute, 1000 Ljubljana, Slovenia.",
+          "Faculty of Medicine, Institute of Biochemistry and Molecular Genetics, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Usenik, Aleksandra",
+        "short_name": "Usenik A",
+        "identifiers": [
+          "0000-0003-2366-2886"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular and Structural Biology, Jožef Stefan Institute, 1000 Ljubljana, Slovenia.",
+          "Centre of Excellence for Integrated Approaches in Chemistry and Biology of Proteins, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Turk, Dušan",
+        "short_name": "Turk D",
+        "identifiers": [
+          "0000-0003-0205-6609"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular and Structural Biology, Jožef Stefan Institute, 1000 Ljubljana, Slovenia.",
+          "Centre of Excellence for Integrated Approaches in Chemistry and Biology of Proteins, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Prat, Salomé",
+        "short_name": "Prat S",
+        "identifiers": [
+          "0000-0003-2684-5485"
+        ],
+        "affiliations": [
+          "Department of Plant Development and Signal Transduction, Centre for Research in Agricultural Genomics, 08193 Cerdanyola, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Coll, Anna",
+        "short_name": "Coll A",
+        "identifiers": [
+          "0000-0003-0672-1530"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Gruden, Kristina",
+        "short_name": "Gruden K",
+        "identifiers": [
+          "0000-0001-5906-8569"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Systems Biology, National Institute of Biology, 1000 Ljubljana, Slovenia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Physiol"
+    ],
+    "pub_date": "2023 Mar 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/15 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41963792",
+      "41963789",
+      "41351870",
+      "40541992",
+      "40274227",
+      "39372289",
+      "38919818",
+      "37530861"
+    ],
+    "refs": [
+      "35958211",
+      "35946378",
+      "35545668",
+      "34693026",
+      "34665867",
+      "34265844",
+      "34050351",
+      "33793940",
+      "33590861",
+      "33562962",
+      "33397900",
+      "33188435",
+      "32964225",
+      "32772469",
+      "32709858",
+      "32442407",
+      "31563783",
+      "31421981",
+      "31228650",
+      "31056420",
+      "30815005",
+      "30778233",
+      "30444888",
+      "30400848",
+      "30239885",
+      "30083609",
+      "30057584",
+      "29936240",
+      "29855968",
+      "29750242",
+      "29722887",
+      "29656896",
+      "29497431",
+      "29300787",
+      "28545393",
+      "28349863",
+      "27852649",
+      "27717447",
+      "27441086",
+      "27203113",
+      "27196035",
+      "26973687",
+      "26574453",
+      "26569599",
+      "26201819",
+      "25764013",
+      "25761209",
+      "25428362",
+      "25111695",
+      "24420577",
+      "24194592",
+      "23329690",
+      "23104886",
+      "23013435",
+      "22466793",
+      "22247251",
+      "21743474",
+      "20408171",
+      "19915088",
+      "19832945",
+      "19236574",
+      "19218396",
+      "19073963",
+      "18988021",
+      "18571510",
+      "17690442",
+      "17397508",
+      "17369431",
+      "17360592",
+      "17172357",
+      "16845026",
+      "16824183",
+      "16381825",
+      "16199517",
+      "16167899",
+      "15915565",
+      "15226410",
+      "14675454",
+      "14576289",
+      "12084833",
+      "11992820",
+      "11906833",
+      "11861917",
+      "11576436",
+      "11489188",
+      "10952992",
+      "10751419",
+      "10339621",
+      "9839467",
+      "9107046",
+      "7919980",
+      "2528073",
+      "2235490",
+      "1633570",
+      "1406663"
+    ],
+    "similar": [
+      "36517238",
+      "10659709",
+      "17397508",
+      "7479010",
+      "12084833",
+      "18065552",
+      "38141713",
+      "33383823",
+      "29950523",
+      "32512099",
+      "16897482",
+      "9078369",
+      "35043960",
+      "35524409",
+      "21994947",
+      "7599649",
+      "31120500",
+      "28913593",
+      "36232932",
+      "34502265",
+      "11809891",
+      "20395451",
+      "7811964",
+      "24872589",
+      "16167899",
+      "26651343",
+      "12777042",
+      "21866346",
+      "15328344",
+      "21243515",
+      "35738343",
+      "18984675",
+      "21037241",
+      "32315441",
+      "31023242",
+      "30239885",
+      "20198573",
+      "17652396",
+      "19531597",
+      "19832945",
+      "22718771",
+      "17172357",
+      "30923069",
+      "26459863",
+      "11576436",
+      "9225852",
+      "35061931",
+      "29952082",
+      "19895401",
+      "17537858",
+      "20708590",
+      "22042328",
+      "9409684",
+      "28898429",
+      "21645149",
+      "33711039",
+      "12502859",
+      "11722549",
+      "9680995",
+      "24725365",
+      "12472682",
+      "20358223",
+      "32630201",
+      "12383081",
+      "16310763",
+      "30770462",
+      "27907086",
+      "7891686",
+      "16798940",
+      "12059102",
+      "11034999",
+      "29860175",
+      "14576289",
+      "22410205",
+      "26669319",
+      "16880509",
+      "27717447",
+      "15604672",
+      "16784907",
+      "27107182",
+      "17510065",
+      "22692212",
+      "34503442",
+      "18599479",
+      "32873228",
+      "32060604",
+      "32968100",
+      "25589790",
+      "12428013",
+      "11523788",
+      "23624715",
+      "25173685",
+      "27373216",
+      "24324742",
+      "16814730",
+      "30444888",
+      "21279647",
+      "31278798"
+    ],
+    "review": [
+      "36517238",
+      "38141713",
+      "11722549",
+      "29860175"
+    ],
+    "pmc": [
+      "10022624"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36517238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36517238",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36517238",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse196078",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/plphys/article-lookup/doi/10.1093/plphys/kiac579",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

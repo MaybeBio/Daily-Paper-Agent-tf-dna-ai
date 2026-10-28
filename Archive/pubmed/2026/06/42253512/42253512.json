@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42253512",
+    "doi": "10.1155/humu/5401795",
+    "title": "TLR4 and RB1 as the Identified Lactate-Related Genes to Predict the Diagnostic Performance, Gene Regulatory Network, and Targeting Drugs in Depression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lactate is implicated in several brain diseases; however, its precise role in depression remains to be further elucidated. The current study looks into the role of lactate-associated genes in depression, along with their diagnostic and therapeutic potential. METHODS: Genes related to lactate were obtained from the Harmonizome database. Depression-related datasets were acquired from the GEO database, and differentially expressed genes (DEGs) were identified using the limma package. The overlapping genes from the DEGs and lactate-related genes were subjected to enrichment analyses using enrichR. The correlation analysis confirmed the validation of screened core genes via the random forest algorithm. Cytoscape was used for the construction of transcription factors and miRNA-based gene regulatory networks. Receiver operating characteristics (ROC) analysis was used to evaluate diagnostic performance. Molecular docking was performed to predict drug interactions. RESULTS: The lactate-related DEGs were seen to be implicated in processes like negative regulation of the apoptotic process and NOD-like receptor signaling pathways. TLR4 and RB1 were identified as core genes, showing elevated expression and strong diagnostic potential in depression. In addition to the positive correlation, TLR4 was shown to be the target of multiple miRNAs, while RB1 was unveiled to be the target of several transcription factors. Besides, the binding of RB1 (protein: 6C2R) to topotecan and dexamethasone was confirmed, while TLR4 (protein: 4R7N) could bind with Tlr4-IN-C34 and resatorvid. CONCLUSION: This study successfully identified TLR4 and RB1 as core lactate-related genes in depression, providing a new perspective on elucidating the role of lactate in the pathogenesis of depression.",
+    "keywords": [
+      "RB transcriptional corepressor 1",
+      "Toll-like receptor 4",
+      "depression",
+      "drugs",
+      "lactate",
+      "molecular docking",
+      "random forest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "Molecular Docking Simulation",
+      "*Toll-Like Receptor 4/genetics/metabolism/chemistry",
+      "*Depression/genetics/diagnosis/drug therapy/metabolism",
+      "Computational Biology/methods",
+      "*Ubiquitin-Protein Ligases/genetics/metabolism/chemistry",
+      "*Lactic Acid/metabolism",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Gene Expression Regulation",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Fengmin",
+        "Chen, Jianbei",
+        "Wu, Jiajia",
+        "Bian, Qinglai"
+      ],
+      "short_names": [
+        "Ding F",
+        "Chen J",
+        "Wu J",
+        "Bian Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3194-7179"
+      ],
+      "affiliations": [
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn.",
+        "School of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Fengmin",
+        "short_name": "Ding F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianbei",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiajia",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bian, Qinglai",
+        "short_name": "Bian Q",
+        "identifiers": [
+          "0000-0003-3194-7179"
+        ],
+        "affiliations": [
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China, hbtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 12:39",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41110485",
+      "41015255",
+      "40623461",
+      "40600536",
+      "40571214",
+      "40544884",
+      "40371339",
+      "39894309",
+      "39756180",
+      "39672477",
+      "39608503",
+      "39565209",
+      "39264074",
+      "39197544",
+      "39121928",
+      "39119889",
+      "38945951",
+      "38857830",
+      "38760646",
+      "38722514",
+      "38513380",
+      "38336096",
+      "38284734",
+      "38199392",
+      "37686202",
+      "37539055",
+      "37413934",
+      "37075668",
+      "36928470",
+      "36565729",
+      "36563870",
+      "36535295",
+      "35751589",
+      "35413618",
+      "35265521",
+      "34727285",
+      "34650203",
+      "34628001",
+      "33234092",
+      "31945269",
+      "30647450",
+      "27141961",
+      "25406319",
+      "24657625",
+      "19427352",
+      "17496320"
+    ],
+    "similar": [
+      "42253512",
+      "40860289",
+      "40754871",
+      "41533020",
+      "40977739",
+      "42530267",
+      "38650009",
+      "41120603",
+      "39176085",
+      "35957838",
+      "41511918",
+      "38268224",
+      "40859027",
+      "42520089",
+      "38062833",
+      "39118438",
+      "35620387",
+      "41940395",
+      "42109727",
+      "35749386",
+      "39556279",
+      "41479901",
+      "41044520",
+      "39586719",
+      "40374840",
+      "40289127",
+      "34218797",
+      "30602391",
+      "41418349",
+      "42278407",
+      "38863714",
+      "40603423",
+      "40532306",
+      "42251905",
+      "39142001",
+      "40843941",
+      "41703488",
+      "39763672",
+      "41190071",
+      "40241169",
+      "38873601",
+      "41583468",
+      "39466354",
+      "41300749",
+      "40374866",
+      "40574839",
+      "42565562",
+      "36532015",
+      "39712025",
+      "40508038",
+      "26936111",
+      "42289108",
+      "40245021",
+      "40024299",
+      "42009747",
+      "38701256",
+      "36627660",
+      "41196851",
+      "42599937",
+      "42537010",
+      "41005317",
+      "33747117",
+      "35762549",
+      "41562054",
+      "42698445",
+      "40313967",
+      "38509535",
+      "40442788",
+      "31987036",
+      "36104591",
+      "39434198",
+      "37185598",
+      "39072329",
+      "40093012",
+      "36291136",
+      "35818227",
+      "41388523",
+      "34734085",
+      "38229237",
+      "40173189",
+      "41547864",
+      "40790764",
+      "40362543",
+      "40161396",
+      "41286033",
+      "41006883",
+      "35757392",
+      "35132271",
+      "38852219",
+      "41291978",
+      "39341981",
+      "41146237",
+      "38701300",
+      "32945465",
+      "31305134",
+      "41816328",
+      "39375405",
+      "37449753",
+      "35877019",
+      "30138363"
+    ],
+    "review": [
+      "42253512"
+    ],
+    "pmc": [
+      "13239030"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/depression.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Depression"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42253512/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/5401795",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-898",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

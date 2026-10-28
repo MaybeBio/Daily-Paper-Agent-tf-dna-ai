@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36772592",
+  "title": "A Two-Step Feature Selection Radiomic Approach to Predict Molecular Outcomes in Breast Cancer.",
+  "authors": "Brancato, Valentina; Brancati, Nadia; Esposito, Giusy; La Rosa, Massimo; Cavaliere, Carlo; Allara, Ciro; Romeo, Valeria; De Pietro, Giuseppe; Salvatore, Marco; Aiello, Marco; Sangiovanni, Mara",
+  "journal": "Sensors (Basel, Switzerland)",
+  "published_date": "2023-02-12",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用影像组学两步特征选择预测乳腺癌分子标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与课题无关。",
+  "abstract": "Breast Cancer (BC) is the most common cancer among women worldwide and is characterized by intra- and inter-tumor heterogeneity that strongly contributes towards its poor prognosis. The Estrogen Receptor (ER), Progesterone Receptor (PR), Human Epidermal Growth Factor Receptor 2 (HER2), and Ki67 antigen are the most examined markers depicting BC heterogeneity and have been shown to have a strong impact on BC prognosis. Radiomics can noninvasively predict BC heterogeneity through the quantitative evaluation of medical images, such as Magnetic Resonance Imaging (MRI), which has become increasingly important in the detection and characterization of BC. However, the lack of comprehensive BC datasets in terms of molecular outcomes and MRI modalities, and the absence of a general methodology to build and compare feature selection approaches and predictive models, limit the routine use of radiomics in the BC clinical practice. In this work, a new radiomic approach based on a two-step feature selection process was proposed to build predictors for ER, PR, HER2, and Ki67 markers. An in-house dataset was used, containing 92 multiparametric MRIs of patients with histologically proven BC and all four relevant biomarkers available. Thousands of radiomic features were extracted from post-contrast and subtracted Dynamic Contrast-Enanched (DCE) MRI images, Apparent Diffusion Coefficient (ADC) maps, and T2-weighted (T2) images. The two-step feature selection approach was used to identify significant radiomic features properly and then to build the final prediction models. They showed remarkable results in terms of F1-score for all the biomarkers: 84%, 63%, 90%, and 72% for ER, HER2, Ki67, and PR, respectively. When possible, the models were validated on the TCGA/TCIA Breast Cancer dataset, returning promising results (F1-score = 88% for the ER+/ER- classification task). The developed approach efficiently characterized BC heterogeneity according to the examined molecular biomarkers.",
+  "abstract_zh": "乳腺癌（BC）是全球女性中最常见的癌症，其特征为肿瘤内及肿瘤间的异质性，这极大地促进了其不良预后。雌激素受体（ER）、孕激素受体（PR）、人表皮生长因子受体2（HER2）及Ki67抗原是描绘BC异质性最常检测的标志物，并已被证明对BC预后有显著影响。放射组学可通过定量评估医学图像（如磁共振成像（MRI））非侵入性地预测BC异质性，而MRI在BC的检测和特征描述中日益重要。然而，缺乏涵盖分子结果和MRI模态的全面BC数据集，以及缺乏构建和比较特征选择方法及预测模型的通用方法论，限制了放射组学在BC临床实践中的常规应用。在本研究中，提出了一种基于两步特征选择过程的新型放射组学方法，用于构建针对ER、PR、HER2和Ki67标志物的预测模型。使用了一个内部数据集，包含92例经组织学证实为BC且具有所有四种相关生物标志物的患者的多参数MRI。从对比后及减影动态对比增强（DCE）MRI图像、表观扩散系数（ADC）图和T2加权（T2）图像中提取了数千个放射组学特征。两步特征选择方法用于恰当识别显著放射组学特征，随后构建最终预测模型。这些模型在所有生物标志物上均表现出显著的F1分数结果：ER、HER2、Ki67和PR分别为84%、63%、90%和72%。在可能的情况下，模型在TCGA/TCIA乳腺癌数据集上进行了验证，返回了有希望的结果（ER+/ER-分类任务的F1分数=88%）。所开发的方法根据所检查的分子生物标志物有效表征了BC异质性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36772592/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36772592/",
+  "paper_page_path": "papers/pubmed/36772592/index.html"
+}

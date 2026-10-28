@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.04.616755",
+  "title": "pLM-DBPs: Enhanced DNA-Binding Protein Prediction in Plants Using Embeddings From Protein Language Models",
+  "authors": "Suresh Pokharel; Kepha Barasa; Pawel Pratyush; Dukka Kc",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-06",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用蛋白质语言模型嵌入预测植物DNA结合蛋白，属于广义蛋白-DNA互作预测，方法可迁移至TF-DNA体系，但未聚焦转录因子结合机制或三维互作建模。",
+  "abstract": "DNA-binding proteins (DBPs) play critical roles in gene regulation, development, and environmental response across various species, including plants, animals, and microorganisms. While various machine learning and deep learning models have been developed to distinguish DNA-binding proteins (DBPs) from non-DNA-binding proteins (NDBPs), most available tools have focused on human and mouse datasets. As a result, there are limited studies specifically addressing plant-based DNA-binding proteins, which restricts our understanding of their unique roles and functions in plant biology. Developing an efficient framework for improving DBP prediction in plants would enhance our knowledge and enable precise gene expression control, accelerate crop improvement, enhance stress resilience, and optimize metabolic engineering for agricultural advancement. In this work, we developed a tool that uses a protein language model (pLM) pre-trained on millions of sequences. We evaluated several leading models, including ProtT5, Ankh, and ESM-2, and leveraged their high-dimensional, information-rich representations to improve the accuracy of DNA-binding protein prediction in plants significantly. Our final model, pLM-DBPs, a feed-forward neural network classifier utilizing ProtT5-based representations, outperformed existing approaches with a Matthews Correlation Coefficient (MCC) of 83.8% on the independent test set. This represents a 10% improvement over the previous state-of-the-art model for plant-based DBP prediction, highlighting its superior performance compared to the existing approaches.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在基因调控、发育及环境响应中扮演关键角色，广泛存在于植物、动物和微生物等各类物种中。尽管已开发出多种机器学习和深度学习模型来区分DNA结合蛋白（DBPs）与非DNA结合蛋白（NDBPs），但大多数现有工具主要聚焦于人类和小鼠数据集。因此，专门针对植物DNA结合蛋白的研究有限，这限制了我们对其在植物生物学中独特角色和功能的理解。开发一个高效的框架以改进植物DBP预测，将增强我们的知识，实现精确的基因表达控制，加速作物改良，增强逆境耐受性，并优化代谢工程以促进农业发展。在本研究中，我们开发了一种工具，利用在数百万序列上预训练的蛋白质语言模型（pLM）。我们评估了几种领先模型，包括ProtT5、Ankh和ESM-2，并利用其高维、信息丰富的表示来显著提高植物DNA结合蛋白预测的准确性。我们的最终模型pLM-DBPs，一种基于ProtT5表示的的前馈神经网络分类器，在独立测试集上取得了83.8%的马修斯相关系数（MCC），优于现有方法。这比先前最先进的植物DBP预测模型提高了10%，凸显了其相对于现有方法的优越性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616755",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616755",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.04.616755/index.html"
+}

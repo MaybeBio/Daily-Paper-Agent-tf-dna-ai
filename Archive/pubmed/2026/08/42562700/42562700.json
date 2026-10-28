@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "42562700",
+    "doi": "10.1016/j.scib.2026.07.059",
+    "title": "Precise nanodelivery of screened compounds alleviates sepsis-associated encephalopathy by targeting microglial ANXA2."
+  },
+  "content": {
+    "abstract": "Sepsis frequently induces sepsis-associated encephalopathy (SAE), which lacks targeted therapies and often results in persistent neurobehavioral deficits. Here, we developed a translational pipeline integrating target discovery, small-molecule screening, formulation engineering, targeted delivery, and in vivo mechanistic validation to establish a microglial neuroinflammation-centered SAE intervention. Integrative transcriptomic analysis of septic patient brain tissue (GSE135838), combined with weighted gene co-expression network analysis (WGCNA), identified Annexin A2 (ANXA2) as a microglia-associated candidate linked to SAE. In cecal ligation and puncture (CLP) mice, Anxa2 was markedly upregulated in the hippocampus and enriched in microglia. Mechanistically, small interfering RNA (siRNA)-mediated Anxa2 silencing in lipopolysaccharide (LPS)-stimulated BV2 and primary microglia inhibited nuclear factor kappa B (NF-kappaB) activation, reduced M1-like polarization and cytokine release, and alleviated neuronal apoptosis in co-culture. Screening of the Traditional Chinese Medicine Systems Pharmacology Database (TCMSP) combined with high-throughput surface plasmon resonance imaging (SPRi) identified evodiamine as a high-affinity ANXA2 binder, further supported by molecular dynamics simulations, drug-likeness assessment, and absorption, distribution, metabolism, excretion, and toxicity (ADMET) profiling. To improve efficacy, enhance blood-brain barrier (BBB) penetration, and reduce potential cardiotoxicity, we engineered an Angiopep-2/phosphatidylserine dual-modified evodiamine-loaded liposome (L-A-P@E). In SAE mice, L-A-P@E improved anxiety-like behavior and cognition, attenuated hippocampal neuroinflammation and neuronal apoptosis, and suppressed microglial ANXA2/NF-kappaB signaling without detectable systemic immunogenicity. Knockdown-rescue assays using a triple-mutant Anxa2 construct and AAV-mediated hippocampal Anxa2 overexpression confirmed that evodiamine's therapeutic effects depended on the ANXA2-binding pocket and ANXA2/NF-kappaB signaling. These findings identify microglial ANXA2/NF-kappaB as a druggable SAE target and support targeted nanodelivery for mechanism-based therapy.",
+    "keywords": [
+      "Angiopep-2/Phosphatidylserine dual-modified liposome",
+      "Annexin A2",
+      "Drug screening",
+      "Evodiamine",
+      "Sepsis-associated encephalopathy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Microglia/metabolism/drug effects",
+      "*Sepsis-Associated Encephalopathy/drug therapy/metabolism/genetics",
+      "Mice",
+      "Humans",
+      "*Annexin A2/metabolism/genetics",
+      "Male",
+      "*Quinazolines/administration & dosage/pharmacology",
+      "Mice, Inbred C57BL",
+      "NF-kappa B/metabolism",
+      "Drug Delivery Systems",
+      "Hippocampus/metabolism",
+      "Apoptosis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Daoyi",
+        "Huang, Yuan",
+        "Wu, Shuyan",
+        "Li, Zefu",
+        "Dai, Hanhao",
+        "Gao, Fei",
+        "Wang, Danfeng",
+        "Xu, Maokai",
+        "An, Ziqi",
+        "Li, Xinmu",
+        "Ye, Peng",
+        "Chen, Yingjie",
+        "Huang, Yongxin",
+        "Deng, Jianhui",
+        "Wang, Hongyi",
+        "Li, Zhe",
+        "Shi, Yue",
+        "Liu, Xiaowen",
+        "Li, Weixia",
+        "Fang, Xiaobin",
+        "Zhao, Jing"
+      ],
+      "short_names": [
+        "Lin D",
+        "Huang Y",
+        "Wu S",
+        "Li Z",
+        "Dai H",
+        "Gao F",
+        "Wang D",
+        "Xu M",
+        "An Z",
+        "Li X",
+        "Ye P",
+        "Chen Y",
+        "Huang Y",
+        "Deng J",
+        "Wang H",
+        "Li Z",
+        "Shi Y",
+        "Liu X",
+        "Li W",
+        "Fang X",
+        "Zhao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China.",
+        "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China. Electronic address: clevelandhuangyuan@163.com.",
+        "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China.",
+        "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China. Electronic address: liweixia12@126.com.",
+        "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China. Electronic address: fxb337175@alu.scu.edu.cn.",
+        "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China. Electronic address: zhaojing1009@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Daoyi",
+        "short_name": "Lin D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China. Electronic address: clevelandhuangyuan@163.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Shuyan",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zefu",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Hanhao",
+        "short_name": "Dai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Fei",
+        "short_name": "Gao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Danfeng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Maokai",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "An, Ziqi",
+        "short_name": "An Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinmu",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Heart Disease, National Center for Cardiovascular Disease, China & Fuwai Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Peng",
+        "short_name": "Ye P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yingjie",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongxin",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jianhui",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Department of Anesthesiology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongyi",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhe",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yue",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaowen",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weixia",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China. Electronic address: liweixia12@126.com."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiaobin",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology/Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, School of Medicine, Fuzhou University, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Key Laboratory of Critical Care Medicine, Fujian Provincial Hospital, Fuzhou 350001, China. Electronic address: fxb337175@alu.scu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, China-Japan Friendship Hospital (Institute of Clinical Medical Sciences), Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100029, China; Department of Anesthesiology, China-Japan Friendship Hospital, Beijing 100029, China. Electronic address: zhaojing1009@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science bulletin"
+    ],
+    "journal_abbrev": [
+      "Sci Bull (Beijing)"
+    ],
+    "pub_date": "2026 Aug 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/07 00:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42562700",
+      "41135271",
+      "41254325",
+      "34711216",
+      "35131015",
+      "41591450",
+      "42323517",
+      "42372832",
+      "33992722",
+      "41109045",
+      "41038286",
+      "39508266",
+      "37648002",
+      "41167535",
+      "37796401",
+      "42548835",
+      "40903700",
+      "41993167",
+      "35103290",
+      "41314440",
+      "38253182",
+      "38640713",
+      "41981193",
+      "42217344",
+      "42200246",
+      "38320682",
+      "38797312",
+      "40784585",
+      "41917230",
+      "40970326",
+      "41072780",
+      "41990706",
+      "42217408",
+      "36608000",
+      "41544679",
+      "41307757",
+      "41934895",
+      "41015555",
+      "39216299",
+      "40378509",
+      "42159801",
+      "40102346",
+      "41831795",
+      "33992596",
+      "40500776",
+      "39547500",
+      "42361759",
+      "40102948",
+      "42208328",
+      "35900381",
+      "42208333",
+      "41024113",
+      "41512388",
+      "38976956",
+      "38735091",
+      "42119687",
+      "40834508",
+      "39326131",
+      "41406833",
+      "41518423",
+      "32272096",
+      "31075263",
+      "41615535",
+      "39455538",
+      "36100190",
+      "38001534",
+      "35367313",
+      "41724286",
+      "40634978",
+      "40237043",
+      "41906129",
+      "39375720",
+      "31686986",
+      "41500685",
+      "38532242",
+      "39190359",
+      "39362015",
+      "42052827",
+      "41591410",
+      "42585680",
+      "42556708",
+      "32251761",
+      "39694424",
+      "37676534",
+      "40844652",
+      "35460837",
+      "42216633",
+      "41570413",
+      "39985040",
+      "41713665",
+      "39245241",
+      "36963264",
+      "41616945",
+      "28814318",
+      "42600268",
+      "42196313",
+      "40812513",
+      "42233475",
+      "42313350",
+      "41947152"
+    ],
+    "review": [
+      "42562700"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2095-9273(26)00840-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-462",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

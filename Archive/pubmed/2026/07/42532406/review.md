@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report that the acidic N-terminal tail (NTT) of the shared RNA polymerase subunit RPB6 interacts with the PH domain of TFIIH subunit p62 in a conserved manner across eukaryotes, but with a distinct binding mode in fission yeast. They propose that certain interaction features are core and others are additional, and they link NTT acidic residues to Rpb6 stability and DNA damage sensitivity in Schizosaccharomyces pombe.
+- **Visible evidence base** NMR spectroscopy data (described qualitatively), docking models, in vivo stability assays, and MMS sensitivity assays, all referenced in the abstract without specific figures or tables
+- **Missing materials affecting confidence** Full text, all figures and tables, experimental methods, NMR assignment and structural statistics, docking validation details, strain construction and quantification of phenotypes, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting evolutionary comparison of a conserved interaction between RNA polymerases and TFIIH, with a focus on the RPB6 NTT. The claim of a distinct binding mode in S. pombe is plausible and could be of value to the transcription and DNA repair communities. However, the abstract alone provides insufficient detail to evaluate the rigor of the NMR analysis, the quality of the docking models, or the strength of the in vivo phenotypic data. The central structural claims are not verifiable from the supplied material, and the functional link to DNA repair is only weakly supported by the described experiments.
+- **Who would be interested in the results, and why** Researchers studying eukaryotic transcription machinery, particularly the assembly and regulation of RNA polymerases and TFIIH; structural biologists interested in protein-protein interaction evolution; and investigators working on DNA repair mechanisms, especially nucleotide excision repair, may find the comparative structural data and the proposed functional implications relevant.
+- **Major strengths** The study addresses an evolutionarily important question about the conservation and divergence of a core transcription/repair interaction. The use of NMR to compare binding modes across species is appropriate and potentially powerful. The combination of structural, modeling, and in vivo phenotypic data, if properly integrated, could provide a compelling story.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NMR spectroscopy reveals a distinct binding mode for the S. pombe NTT-PH-D interaction, specifically that NTT adopts an acidic string and inserts phenylalanine but does not contribute a beta-strand or insert valine.
+  - **Evidence pointer** Abstract, NMR spectroscopy section; specific figures or tables not provided
+  - **Concern** The abstract provides no quantitative or qualitative details of the NMR data, such as chemical shift perturbations, binding affinities, or structural restraints. Without these, it is impossible to assess whether the proposed binding mode is robustly determined or whether the differences between human and S. pombe interactions are statistically and structurally significant.
+  - **Why it matters** The central claim of the paper rests on the structural distinction between the two binding modes. If the NMR evidence is incomplete or ambiguous, the evolutionary interpretation and the proposed core versus additional interaction modules would be unsupported.
+  - **Resolution test** Provide full NMR data, including titration curves, binding constants, and structural statistics, and show that the absence of beta-strand and valine interactions in S. pombe is clearly supported by the data rather than by a lack of sensitivity or incomplete assignments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that docking models of S. pombe RNAPs and TFIIH support NTT as a suitable binding platform for TFIIH and suggest a role in transcription elongation and DNA repair.
+  - **Evidence pointer** Abstract, docking models; specific figures or tables not provided
+  - **Concern** Docking models are only as reliable as the input structures and the validation performed. The abstract does not describe the docking methodology, the scoring functions, the quality of the input structures, or any experimental validation of the models. The claim that the models support a role in transcription elongation and DNA repair is speculative and not directly tested.
+  - **Why it matters** The functional implications of the study depend on the relevance of the docking models. Without validation, the models cannot be used to infer biological roles, and the link to elongation and repair remains unsupported.
+  - **Resolution test** Provide details of the docking protocol, show that the models are consistent with available structural data, and ideally validate the predicted interfaces with mutagenesis or crosslinking experiments. Clarify how the models specifically inform elongation and repair functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that substitutions of acidic residues within the NTT affect the stability of Rpb6 in S. pombe cells, and that mutant cells exhibit increased sensitivity to MMS.
+  - **Evidence pointer** Abstract, in vivo stability and MMS sensitivity assays; specific figures or tables not provided
+  - **Concern** The abstract does not specify which residues were substituted, how many mutants were tested, the magnitude of the stability changes, or the degree of MMS sensitivity. It is unclear whether the phenotypes are specific to the proposed interaction or reflect general protein misfolding or loss of function. No statistical details or controls are described.
+  - **Why it matters** The in vivo data are intended to link the structural findings to biological function. If the phenotypes are not carefully quantified and controlled, the claim that NTT acidic residues are functionally important for DNA damage response is not established.
+  - **Resolution test** Provide a detailed description of the mutants, quantitative stability measurements, dose-response curves for MMS sensitivity, and appropriate controls such as wild-type rescue or complementation. Show that the phenotypes correlate with the proposed interaction defects.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract uses terms such as "acidic string," "beta-strand," and "PH domain" without brief definitions or context, which may limit accessibility for readers outside structural biology.
+  - **Required correction** Add a short explanatory phrase for each key structural term, or rephrase to make the binding features more intuitive for a general biological audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The conclusion states that the findings provide "structural insight into the conserved function" but does not explicitly state what that conserved function is or how the new data change the previous understanding.
+  - **Required correction** Specify the proposed conserved function and articulate the conceptual advance over prior knowledge in one or two sentences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, MMS sensitivity claim
+  - **Evidence pointer** Abstract, MMS sensitivity sentence
+  - **Issue** The abstract states that MMS induces DNA damage repaired by nucleotide excision, but MMS primarily causes alkylation damage that is often repaired by base excision repair. This may be an oversimplification or an error.
+  - **Required correction** Verify the repair pathway relevant to MMS-induced damage and correct the statement, or provide a citation to support the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The comparative evolutionary approach to a conserved interaction is somewhat original, but the abstract does not clearly distinguish this from prior work on human TFIIH interactions.
+  - Scientific importance: The topic is important for transcription and DNA repair, but the abstract does not demonstrate a major conceptual advance beyond incremental structural comparison.
+  - Interdisciplinary readership: The work could appeal to structural biologists, transcription researchers, and DNA repair specialists, but the abstract is too specialized and lacks context for broader appeal.
+  - Technical soundness: Not assessable from the abstract alone; the NMR, docking, and in vivo data are described without sufficient detail to judge their quality.
+  - Readability for nonspecialists: The abstract is dense and uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the structural claims, docking models, and functional implications cannot be evaluated without full methods and results. Supportive if the technical concerns are resolved with complete data.
+
+## Risk / unsupported claims
+- The claim that NTT in S. pombe does not contribute a beta-strand or insert valine is unsupported without full NMR structural data.
+- The claim that docking models support a role in transcription elongation and DNA repair is unsupported and speculative.
+- The claim that NTT acidic residue substitutions affect Rpb6 stability and MMS sensitivity is unsupported without quantitative data and controls.
+- The statement that MMS-induced damage is repaired by nucleotide excision is potentially inaccurate and unsupported.

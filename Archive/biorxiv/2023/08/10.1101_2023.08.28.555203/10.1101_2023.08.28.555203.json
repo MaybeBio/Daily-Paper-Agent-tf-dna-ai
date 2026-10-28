@@ -1,0 +1,416 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.28.555203",
+  "title": "Building explainable graph neural network by sparse learning for the drug-protein binding prediction",
+  "doi": "10.1101/2023.08.28.555203",
+  "abstract": "Explainable Graph Neural Networks (GNNs) have been developed and applied to drug-protein binding prediction to identify the key chemical structures in a drug that have active interactions with the target proteins. However, the key structures identified by the current explainable GNN models are typically chemically invalid. Furthermore, a threshold needs to be manually selected to pinpoint the key structures from the rest. To overcome the limitations of the current explainable GNN models, we propose our SLGNN, which stands for using Sparse Learning to Graph Neural Networks. Our SLGNN relies on using a chemical-substructure-based graph (where nodes are chemical substructures) to represent a drug molecule. Furthermore, SLGNN incorporates generalized fussed lasso with message-passing algorithms to identify connected subgraphs that are critical for the drug-protein binding prediction. Due to the use of the chemical-substructure-based graph, it is guaranteed that any subgraphs in a drug identified by our SLGNN are chemically valid structures. These structures can be further interpreted as the key chemical structures for the drug to bind to the target protein. We demonstrate the explanatory power of our SLGNN by first showing all the key structures identified by our SLGNN are chemically valid. In addition, we illustrate that the key structures identified by our SLGNN have more predictive power than the key structures identified by the competing methods. At last, we use known drug-protein binding data to show the key structures identified by our SLGNN contain most of the binding sites. CCS CONCEPTS • Computing methodologies → Neural networks ; Supervised learning by classification ; Neural networks . ACM Reference Format Yang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weerawarna, and Yijie Wang. 2023. Building explainable graph neural network by sparse learning for the drug-protein binding prediction. In Proceedings of Make sure to enter the correct conference title from your rights confirmation email (CNB MAC 2023) . ACM, New York, NY, USA, 10 pages. https://doi.org/XXXXXXX.XXXXXXX",
+  "authors": [
+    "Yang Wang",
+    "Zanyu Shi",
+    "Timothy Richardson",
+    "Kun Huang",
+    "Pathum Weerawarna",
+    "Yijie Wang"
+  ],
+  "published_date": "2023-08-29",
+  "updated_date": "2023-08-29T20:40:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.28.555203",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.28.555203.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:04:33Z",
+        "timestamp": 1768507473996,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Explainable Graph Neural Networks (GNNs) have been developed and applied to drug-protein binding prediction to identify the key chemical structures in a drug that have active interactions with the target proteins. However, the key structures identified by the current explainable GNN models are typically chemically invalid. Furthermore, a threshold needs to be manually selected to pinpoint the key structures from the rest. To overcome the limitations of the current explainable GNN models, we propose our SLGNN, which stands for using Sparse Learning to Graph Neural Networks. Our SLGNN relies on using a chemical-substructure-based graph (where nodes are chemical substructures) to represent a drug molecule. Furthermore, SLGNN incorporates generalized fussed lasso with message-passing algorithms to identify connected subgraphs that are critical for the drug-protein binding prediction. Due to the use of the chemical-substructure-based graph, it is guaranteed that any subgraphs in a drug identified by our SLGNN are chemically valid structures. These structures can be further interpreted as the key chemical structures for the drug to bind to the target protein. We demonstrate the explanatory power of our SLGNN by first showing all the key structures identified by our SLGNN are chemically valid. In addition, we illustrate that the key structures identified by our SLGNN have more predictive power than the key structures identified by the competing methods. At last, we use known drug-protein binding data to show the key structures identified by our SLGNN contain most of the binding sites.</jats:p>\n                <jats:sec>\n                  <jats:title>CCS CONCEPTS</jats:title>\n                  <jats:p>\n                    <jats:bold>• Computing methodologies</jats:bold>\n                    →\n                    <jats:bold>Neural networks</jats:bold>\n                    ;\n                    <jats:italic>Supervised learning by classification</jats:italic>\n                    ;\n                    <jats:italic>Neural networks</jats:italic>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>ACM Reference Format</jats:title>\n                  <jats:p>\n                    Yang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weerawarna, and Yijie Wang. 2023. Building explainable graph neural network by sparse learning for the drug-protein binding prediction. In\n                    <jats:italic>Proceedings of Make sure to enter the correct conference title from your rights confirmation email (CNB MAC 2023)</jats:italic>\n                    . ACM, New York, NY, USA, 10 pages.\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://doi.org/XXXXXXX.XXXXXXX\">https://doi.org/XXXXXXX.XXXXXXX</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.08.28.555203",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            29
+          ]
+        ],
+        "date-time": "2023-08-29T20:40:15Z",
+        "timestamp": 1693341615000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Building explainable graph neural network by sparse learning for the drug-protein binding prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yang",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zanyu",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Timothy",
+          "family": "Richardson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kun",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pathum",
+          "family": "Weerawarna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yijie",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab294"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10107-013-0701-9"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-78169-6"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv352"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bmcl.2007.11.123"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-021-00438-4"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab159"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00127"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.9",
+          "unstructured": "Wengong Jin , Regina Barzilay , and Tommi Jaakkola . 2018. Junction tree variational autoencoder for molecular graph generation. In International conference on machine learning. PMLR, 2323–2332."
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-10418-2"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v36i4.20377"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.13",
+          "unstructured": "Dongsheng Luo , Wei Cheng , Dongkuan Xu , Wenchao Yu , Bo Zong , Haifeng Chen , and Xiang Zhang . 2020. Parameterized Explainer for Graph Neural Network. In Proceedings of the 34th International Conference on Neural Information Processing Systems (Vancouver, BC, Canada) (NIPS’20). Curran Associates Inc., Red Hook, NY, USA, Article 1646, 12 pages."
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tnnls.2023.3250324"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1208"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bmcl.2007.01.048"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bmcl.2009.10.038"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1953048.2078195"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008068904628"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac759"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1429"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty535"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-019-0024-5"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1710.10903"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07616-w"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-022-00447-x"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.33774/chemrxiv-2021-r4xnx-v2"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M807850200"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(02)00091-1"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c7sc02664a"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2847421"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2021.02.011"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.9b00959"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)80356-1"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.35",
+          "first-page": "9240",
+          "article-title": "GNNExplainer: Generating explanations for graph Neural Networks",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Process. Syst"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403085"
+        },
+        {
+          "key": "2023090114200656000_2023.08.28.555203v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2112.00911"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.28.555203",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:08:39Z",
+        "timestamp": 1768453719000
+      },
+      "score": 139.25047,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.28.555203"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            29
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2023.08.28.555203",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1089/cmb.2025.0074",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

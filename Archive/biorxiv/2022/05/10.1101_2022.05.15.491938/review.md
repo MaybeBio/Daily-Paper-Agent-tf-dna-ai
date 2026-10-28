@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, or methods
+- **Shared manuscript claim summary** The authors report that the CTCF DNA binding domain (DBD) forms dynamic self-interacting clusters in the nucleus, that these clusters selectively incorporate other insulator proteins but not transcriptional activators, that this property is specific to the CTCF DBD and not observed in other CTCF domains or DBDs of other transcription factors, and that endogenous CTCF exhibits a similar clustered phenotype with reduced association with transcriptional activators. The authors propose that these observations provide new insights into CTCF-mediated insulation.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, control experiments, and any supplementary data. The abstract does not specify imaging modalities, quantification approaches, sample sizes, or statistical tests.
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing observation regarding the spatial behavior of the CTCF DBD and its selective interactions with insulator proteins. However, the claims are broad and mechanistically ambitious relative to the evidence described. The abstract lacks sufficient methodological detail to evaluate the robustness of the imaging-based conclusions, and several statements appear to overreach relative to what can be inferred from the described experiments. The central phenomenon, if confirmed, would be of interest to the chromatin biology community, but the current evidence base is insufficient to establish the proposed functional link to insulation.
+- **Who would be interested in the results, and why** Researchers studying three-dimensional chromatin organization, insulator function, CTCF biology, and nuclear compartmentalization. The claim that a DNA binding domain can mediate selective protein-protein interactions that position CTCF away from transcriptional activators would be relevant to those investigating the molecular mechanisms of enhancer-promoter insulation and phase-separated nuclear bodies.
+- **Major strengths** The abstract identifies a potentially novel phenomenon, namely that the CTCF DBD itself, rather than other domains, mediates selective clustering with insulator proteins. The use of a light-induced imaging system to probe spatial relationships in living cells is a technically modern approach. The claim of specificity, comparing CTCF DBD to other CTCF domains and other transcription factor DBDs, suggests a deliberate experimental design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CTCF DBD clusters "incorporate other insulator proteins but are not coenriched with transcriptional activators in the nucleus."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not describe how "incorporate" and "coenriched" were operationally defined or quantified. No information is given on the imaging resolution, the number of cells or nuclei analyzed, the statistical thresholds for colocalization, or whether the observations were validated with orthogonal methods such as biochemical fractionation or super-resolution microscopy.
+  - **Why it matters** The central claim of selective interaction depends entirely on the reliability of the colocalization analysis. Without details on controls for imaging artifacts, fluorophore cross-talk, or threshold selection, the observed selectivity could be a technical artifact rather than a biological property.
+  - **Resolution test** Provide quantitative colocalization analyses with appropriate controls, including negative controls with non-interacting proteins, and demonstrate that the observed selectivity is reproducible across multiple biological replicates and imaging conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors state that "endogenous CTCF shows a phenotype consistent with the DBD by forming small protein clusters and interacts less transcriptional activators bound, CTCF motif arrays."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** This sentence is grammatically incomplete and conceptually unclear. It appears to claim that endogenous CTCF forms small clusters and has reduced interaction with transcriptional activators at CTCF motif arrays, but the relationship between these observations and the DBD cluster phenotype is not articulated. The abstract does not specify how endogenous CTCF clustering was measured or how "interacts less" was quantified.
+  - **Why it matters** The connection between the overexpressed DBD construct and endogenous CTCF behavior is essential for the physiological relevance of the study. If the endogenous data are not clearly linked to the DBD findings, the claim that the DBD phenomenon explains CTCF insulation is unsupported.
+  - **Resolution test** Clarify the endogenous CTCF experiments, provide quantitative data on cluster size and interaction frequencies, and explicitly state how these results support the DBD-based model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that their results "provide new insights into the insulation function of CTCF."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not demonstrate a functional consequence of the observed DBD clustering. No data are presented showing that disruption of DBD clustering affects insulation activity, enhancer-promoter interactions, or gene expression. The leap from a spatial observation to a functional claim about insulation is not supported by the described evidence.
+  - **Why it matters** The title and conclusion imply a mechanistic role in insulation, but the abstract only reports correlative spatial observations. Without functional perturbation experiments, the relevance to insulation remains speculative.
+  - **Resolution test** Include experiments that perturb DBD clustering or its interactions with insulator proteins and measure effects on insulation, such as changes in enhancer-promoter communication or boundary function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract sentence structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The sentence "Moreover, endogenous CTCF shows a phenotype consistent with the DBD by forming small protein clusters and interacts less transcriptional activators bound, CTCF motif arrays" is grammatically broken and difficult to parse.
+  - **Required correction** Rewrite for clarity, for example "Moreover, endogenous CTCF forms small protein clusters and shows reduced association with transcriptional activators at bound CTCF motif arrays, consistent with the DBD phenotype."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Imaging system description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "a light-induced imaging system" but does not specify the technique, such as whether it is a proximity labeling approach, a photoactivation-based method, or a optogenetic tool.
+  - **Required correction** Name the specific imaging system and briefly describe its principle so that readers can assess the resolution and limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Claim-evidence alignment
+  - **Affected element** Specificity claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that the observed property "is not observed in other domains of CTCF or the DBDs of other transcription factors" is stated without any indication of how many other domains or DBDs were tested.
+  - **Required correction** Specify the number and identity of the domains and DBDs tested, and state the criteria for concluding that the property is absent.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail for the imaging and colocalization analyses, the unclear link between exogenous DBD and endogenous CTCF data, and the absence of functional experiments all prevent the case from being established.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the idea that a DBD mediates selective protein-protein interactions for insulation is not a standard model. Scientific importance is potentially significant for chromatin biology, but the current abstract does not demonstrate functional relevance. Interdisciplinary readership is limited by the specialized nature of the topic, though it could appeal to biophysicists and cell biologists. Technical soundness cannot be assessed from the abstract alone, and the described evidence is insufficient to support the claims. Readability for nonspecialists is moderate, but the abstract contains unclear phrasing that would hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting observation, but the claims are not supported by the described data. The authors should provide full methodological details, quantitative analyses, and functional perturbation experiments to substantiate the proposed role of CTCF DBD clustering in insulation.
+
+## Risk / unsupported claims
+- The claim that CTCF DBD clusters selectively incorporate insulator proteins and exclude transcriptional activators is unsupported without quantitative colocalization data and controls.
+- The claim that endogenous CTCF behaves consistently with the DBD phenotype is unsupported due to unclear and incomplete description.
+- The conclusion that the findings provide new insights into CTCF insulation function is unsupported in the absence of functional experiments.
+- The specificity claim regarding other CTCF domains and other transcription factor DBDs is unverifiable without details on the tested constructs and criteria.

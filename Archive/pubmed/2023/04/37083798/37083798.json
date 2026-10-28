@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "37083798",
+    "doi": "10.1097/MD.0000000000033610",
+    "title": "Bioinformatics analysis combined with molecular dynamics simulation validation to elucidate the potential molecular mechanisms of Jianshen Decoction for treatment of osteoporotic fracture."
+  },
+  "content": {
+    "abstract": "Osteoporotic fracture (OPF) is a prevalent skeletal disease in the middle-aged and elderly. In clinical practice, Jianshen Decoction (JSD) has been used to treat OPFs. However, the specific effective components and mechanisms of JSD on OPF have not been explored. Therefore, this study used bioinformatics analysis combined with molecular dynamics simulation validation to explore the molecular mechanism of JSD treatment of OPF. Public databases (TCMSP, Batman TCM) were used to find the effective active components and corresponding target proteins of JSD (screening conditions: OB >/= 30%, drug-likeness >/= 0.18, half-life >/= 4). Differentially expressed genes (DEGs) related to OPF lesions were obtained based on the gene expression omnibus database (screening conditions: adjust P value < .01, | log2 FC | >/= 1.0). The BisoGenet plug-in and the CytoNCA plug-in of Cytoscape were used to derive the potential core target proteins of JSD in the treatment of OPF. The JSD active ingredient target interaction network and the JSD-OPF target protein core network were constructed using the Cytoscape software. In addition, the R language Bioconductor package and clusterProfiler package were used to perform gene ontology (GO)/Kyoto Encylopedia Of Genes And Genome (KEGG) enrichment analysis on core genes to explain the biological functions and signal pathways of core proteins. Finally, molecular docking and molecular dynamics simulations were carried out through PyMOL, AutoDockTools 1.5.6, Vina, LeDock, Discovery Studio (DS) 2019, and other software to verify the binding ability of drug active ingredients and core target proteins. A total of 245 targets and 70 active components were identified. Through protein-protein interaction (PPI) network construction, 39 core targets were selected for further research. GO/KEGG enrichment analysis showed that the DNA-binding transcription factor binding, RNA polymerase II-specific DNA-binding transcription factor binding, MAPK signaling pathway, and ErbB signaling pathway were mainly involved. The results of molecular docking and molecular dynamics simulations supported the good interaction between MYC protein and Quercetin/Stigmasterol. In this study, bioinformatics, molecular docking, and molecular dynamics simulations were used for the first time to clarify the active components, molecular targets, and key biological pathways of JSD in the treatment of OPF, providing a theoretical basis for further research.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Aged",
+      "Middle Aged",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "*Osteoporotic Fractures/drug therapy",
+      "Computational Biology",
+      "Transcription Factors",
+      "DNA",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Medicine, Chinese Traditional"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Weinian",
+        "Chen, Weijian",
+        "Hu, Mengting",
+        "Wang, Guangwei",
+        "Hu, Yuanhao",
+        "He, Qi",
+        "Xu, Yidong",
+        "Tan, Jun",
+        "Wang, Haibin",
+        "Huo, Liwei"
+      ],
+      "short_names": [
+        "Liu W",
+        "Chen W",
+        "Hu M",
+        "Wang G",
+        "Hu Y",
+        "He Q",
+        "Xu Y",
+        "Tan J",
+        "Wang H",
+        "Huo L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5969-4156"
+      ],
+      "affiliations": [
+        "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "The Fifth Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "The First Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "The Third Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "The First Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangdong Provincial People's Hospital's Nanhai Hospital, Foshan, Guangdong, China.",
+        "Department of Orthopaedics of the First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Weinian",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Weijian",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Mengting",
+        "short_name": "Hu M",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guangwei",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "The Third Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yuanhao",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "He, Qi",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yidong",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jun",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Guangdong Provincial People's Hospital's Nanhai Hospital, Foshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haibin",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics of the First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Liwei",
+        "short_name": "Huo L",
+        "identifiers": [
+          "0000-0001-5969-4156"
+        ],
+        "affiliations": [
+          "Guangzhou Orthopedic Hospital, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Apr 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/21 18:43",
+    "fetched_at": "2026-09-28 23:17:00"
+  },
+  "links": {
+    "cites": [
+      "41805841",
+      "41210506"
+    ],
+    "refs": [],
+    "similar": [
+      "37083798",
+      "34273999",
+      "33299870",
+      "35430443",
+      "33243703",
+      "34125845",
+      "34746316",
+      "35616676",
+      "34994141",
+      "38701256",
+      "35837376",
+      "34746302",
+      "34791846",
+      "35528155",
+      "36550856",
+      "35851128",
+      "36803762",
+      "37499457",
+      "34951253",
+      "35135448",
+      "33645093",
+      "35130311",
+      "34785888",
+      "35227068",
+      "33645094",
+      "37605567",
+      "34873575",
+      "36221378",
+      "38310567",
+      "35751193",
+      "36890149",
+      "33496115",
+      "34660782",
+      "34593896",
+      "36535207",
+      "37233418",
+      "34296561",
+      "36372090",
+      "37275579",
+      "37469733",
+      "35988839",
+      "34872267",
+      "36452059",
+      "36401440",
+      "35438554",
+      "36740793",
+      "33496116",
+      "33849106",
+      "36389420",
+      "34353059",
+      "36595795",
+      "34738438",
+      "35442463",
+      "33743701",
+      "35303581",
+      "33054436",
+      "34693792",
+      "36343798",
+      "35285205",
+      "34159207",
+      "37369336",
+      "36604925",
+      "38215091",
+      "36246566",
+      "36164911",
+      "36565386",
+      "36660250",
+      "35947018",
+      "37171334",
+      "33645090",
+      "35730236",
+      "33645092",
+      "35960090",
+      "37345246",
+      "33648502",
+      "36596057",
+      "36472040",
+      "35097123",
+      "32489064",
+      "33376732",
+      "36526095",
+      "36316904",
+      "33645014",
+      "33795629",
+      "36472042",
+      "36961137",
+      "35706800",
+      "38243958",
+      "38387122",
+      "37115075",
+      "37773677",
+      "39416822",
+      "38390212",
+      "38379588",
+      "39027618",
+      "37194226",
+      "37783074",
+      "37143277",
+      "37923747",
+      "37784117",
+      "38306566",
+      "37422651",
+      "38802701",
+      "38680343",
+      "37642288",
+      "38065888",
+      "38299290",
+      "39282570",
+      "38050310",
+      "37781715",
+      "36506032",
+      "38211384",
+      "38324134",
+      "36977932",
+      "37747647",
+      "37742591",
+      "38283897",
+      "39019913",
+      "37869567",
+      "38293990",
+      "39019974",
+      "34466490"
+    ],
+    "review": [
+      "37083798",
+      "33243703",
+      "35303581",
+      "37171334",
+      "36961137"
+    ],
+    "pmc": [
+      "10118375"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=16&spage=e33610&aulast=Liu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://www.ovid.com/37083798.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37083798/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37083798",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1473",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000033610",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

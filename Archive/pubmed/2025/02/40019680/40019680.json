@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "40019680",
+    "doi": "10.1007/s12672-025-01989-3",
+    "title": "IL-1beta and associated molecules as prognostic biomarkers linked with immune cell infiltration in colorectal cancer: an integrated statistical and machine learning approach."
+  },
+  "content": {
+    "abstract": "PURPOSE: Colorectal cancer (CRC) is the third most common cancer globally, necessitating novel biomarkers for early diagnosis and treatment. This study proposes an efficient pipeline leveraging an integrated bioinformatics and machine learning framework to enhance the identification of diagnostic and prognostic biomarkers for CRC. METHODS: A selection of methylated differentially expressed genes (MeDEGs) and features (genes) was made using both statistical and Machine learning (ML) approaches from publically available datasets. These genes were subjected to STRING network construction and hub genes estimation, separately. Also, essential miRNAs (micro-RNAs) and TFs (Transcription factors) as regulatory elements were revealed and findings were validated through scRNA-seq analysis, promoter methylation, gene expression levels correlated with pathological stage, and interaction with tumor-infiltrating immune cells. RESULTS: Through an integrated analysis pipeline, we identified 27 hub genes, among which CTNNB1, GSK3B, IL-1beta, MYC, PXDN, TP53, EGFR, SRC, COL1A1, and TGBF1 showed better diagnostic behaviour. Machine learning approach includes the development of K-Nearest Neighbors (KNN), Artificial Neural Networks (ANN), and Random Forest (RF) models using TCGA datasets, achieving an accuracy range between 99 and 100%. The Area Under the Curve (AUC) value for each model is 1.00, signifying good classification performance. The high expression of some diagnostic genes was associated with poor prognosis, concluding IL-1beta as both a prognostic and diagnostic biomarker. Additionally, the NF-kappaB and microRNAs (miR-548d-3p, miR-548-ac) and TFs (NFkappaB and STAT5A) play a major role in the comprehensive regulatory network for CRC. Furthermore, hub genes such as IL-1beta, TGFB1, and COL1A1 were significantly correlated with immune infiltrates, suggesting their potential role in CRC progression. CONCLUSION: Overall, the elevated expression of IL-1beta coupled with abnormal DNA methylation, and its consequent effect on the PI3K/Akt signaling pathway are relevant prognostic and therapeutic marker in CRC. Additional molecular candidates reveal insights into the epigenetic regulatory targets of CRC and their association with immune cell infiltration.",
+    "keywords": [
+      "Aberrant methylation",
+      "Biomarker identification",
+      "Diagnosis",
+      "Immune cell infiltrate",
+      "Microarray",
+      "Prognosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sahoo, Karishma",
+        "Sundararajan, Vino"
+      ],
+      "short_names": [
+        "Sahoo K",
+        "Sundararajan V"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0015-8460",
+        "ORCID: 0009-0006-0172-0335"
+      ],
+      "affiliations": [
+        "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India.",
+        "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India. svino@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sahoo, Karishma",
+        "short_name": "Sahoo K",
+        "identifiers": [
+          "0000-0002-0015-8460"
+        ],
+        "affiliations": [
+          "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India."
+        ]
+      },
+      {
+        "full_name": "Sundararajan, Vino",
+        "short_name": "Sundararajan V",
+        "identifiers": [
+          "0009-0006-0172-0335"
+        ],
+        "affiliations": [
+          "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India. svino@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/28 12:24",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41693728",
+      "41503067",
+      "41316467",
+      "41226842",
+      "41021591",
+      "40647434"
+    ],
+    "refs": [
+      "38422094",
+      "38253219",
+      "37395437",
+      "37119736",
+      "36856579",
+      "36140189",
+      "35957885",
+      "35944058",
+      "35730647",
+      "35617355",
+      "35325185",
+      "35078134",
+      "34487971",
+      "32961010",
+      "32879661",
+      "32863902",
+      "32726923",
+      "32635472",
+      "31870121",
+      "31504780",
+      "30476243",
+      "29986714",
+      "29092952",
+      "28712664",
+      "28407145",
+      "27264420",
+      "26818619",
+      "26645663",
+      "26629312",
+      "25605792",
+      "25521941",
+      "25058159",
+      "24239264",
+      "23174018",
+      "21403829",
+      "20003271",
+      "19486885",
+      "19307287",
+      "16723004",
+      "15888491",
+      "15833084",
+      "12525261"
+    ],
+    "similar": [
+      "40019680",
+      "39375405",
+      "34814332",
+      "39512836",
+      "38863714",
+      "30658502",
+      "39318221",
+      "36991484",
+      "39263286",
+      "30985693",
+      "40020328",
+      "38430268",
+      "30654001",
+      "37389063",
+      "36931200",
+      "38299230",
+      "40328901",
+      "39909246",
+      "36321868",
+      "35996248",
+      "31724326",
+      "39199281",
+      "36319976",
+      "37065476",
+      "33111515",
+      "39142001",
+      "36341343",
+      "37729701",
+      "39855613",
+      "36611136",
+      "37740761",
+      "35924235",
+      "33639954",
+      "40084401",
+      "39139563",
+      "37029310",
+      "38172565",
+      "32265979",
+      "38839916",
+      "38802858",
+      "31897151",
+      "39697749",
+      "36186997",
+      "36193307",
+      "35336739",
+      "35812327",
+      "40008534",
+      "30604369",
+      "40004112",
+      "34372798",
+      "39888730",
+      "40196107",
+      "31081184",
+      "36692516",
+      "38839020",
+      "37686578",
+      "37305753",
+      "36605987",
+      "34473751",
+      "35483170",
+      "40119934",
+      "35545337",
+      "38947396",
+      "39992204",
+      "40151199",
+      "39697326",
+      "35910231",
+      "34390411",
+      "38690269",
+      "40129981",
+      "36568397",
+      "39509434",
+      "39052109",
+      "38007425",
+      "37161577",
+      "38720389",
+      "39295860",
+      "39415336",
+      "36576616",
+      "39403102",
+      "39582536",
+      "39823244",
+      "35713363",
+      "38688978",
+      "40256241",
+      "34276767",
+      "40292334",
+      "33514440",
+      "38393891",
+      "38987624",
+      "38639039",
+      "30672027",
+      "37312900",
+      "31692035",
+      "37077765",
+      "39695788",
+      "39616855",
+      "39433800",
+      "40312440",
+      "33172374"
+    ],
+    "review": [
+      "40019680"
+    ],
+    "pmc": [
+      "11871282"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40019680/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

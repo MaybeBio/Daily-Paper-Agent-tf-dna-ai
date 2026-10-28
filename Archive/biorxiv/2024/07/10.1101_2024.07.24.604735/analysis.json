@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.24.604735",
+  "title": "Mapping the space of protein binding sites with sequence-based protein language models",
+  "authors": "Tuğçe Oruç; Maria Kadukova; Thomas G. Davies; Marcel Verdonk; Carl Poelking",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-24",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白质语言模型结合3D镶嵌技术表征结合位点，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作界面建模，对课题有借鉴意义。",
+  "abstract": "Binding sites are the key interfaces that determine a protein’s biological activity, and therefore common targets for therapeutic intervention. Techniques that help us detect, compare and contextualise binding sites are hence of immense interest to drug discovery. Here we present an approach that integrates protein language models with a 3D tesselation technique to derive rich and versatile representations of binding sites that combine functional, structural and evolutionary information with unprecedented detail. We demonstrate that the associated similarity metrics induce meaningful pocket clusterings by balancing local structure against global sequence effects. The resulting embeddings are shown to simplify a variety of downstream tasks: they help organise the “pocketome” in a way that efficiently contextualises new binding sites, construct performant druggability models, and define challenging train-test splits for believable benchmarking of pocket-centric machine-learning models.",
+  "abstract_zh": "结合位点是决定蛋白质生物活性的关键界面，因此是治疗干预的常见靶点。帮助我们检测、比较和情境化结合位点的技术因此对药物发现具有巨大意义。在此，我们提出一种方法，将蛋白质语言模型与3D镶嵌技术相结合，以生成结合位点的丰富且多功能的表示，这些表示以前所未有的细节融合了功能、结构和进化信息。我们证明，相关的相似性度量通过平衡局部结构与全局序列效应，诱导出有意义的口袋聚类。所得嵌入被证明能简化多种下游任务：它们有助于以高效情境化新结合位点的方式组织“口袋组”，构建高性能的可成药性模型，并定义具有挑战性的训练-测试分割，以实现对口袋中心机器学习模型的可信基准测试。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604735",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604735",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.24.604735/index.html"
+}

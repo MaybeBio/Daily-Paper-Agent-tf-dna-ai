@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report single-cell chromatin accessibility profiling of 240,919 Drosophila brain cells across 9 developmental timepoints, integration with single-cell transcriptomes, identification of over 95,000 regulatory regions (70,000 linked to developmental trajectories), construction of enhancer gene regulatory networks (GRNs) for 40 cell types via motif discovery, network inference, and deep learning, and the utility of these enhancer architectures for designing genetic driver lines.
+- **Visible evidence base** Abstract text only; no quantitative validation metrics, methodological details, or figure/table references
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, code availability, and any statistical or computational validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a large-scale, technically ambitious effort to map chromatin accessibility and construct cell-type-specific gene regulatory networks in the Drosophila brain. The scale of data generation and the integration of multiple computational approaches are commendable. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims, particularly regarding the accuracy of the GRN predictions, the biological validation of the enhancer architectures, and the practical utility of the proposed genetic driver lines. The claims are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in Drosophila neurobiology, single-cell genomics, gene regulation, and computational biology would be interested. The resource could serve as a reference for cell-type-specific regulatory elements and transcription factor networks, and the proposed driver lines would be valuable for functional studies of neuronal cell types. The deep learning approach may also appeal to those developing predictive models of enhancer function.
+- **Major strengths** The study addresses a significant gap by linking chromatin accessibility to cell-type identity in a complex brain at multiple developmental stages. The integration of single-cell ATAC-seq and transcriptome data is a powerful strategy. The scale of the dataset (240,919 cells, 95,000 regulatory regions) is substantial. The combination of motif discovery, network inference, and deep learning is methodologically diverse and potentially synergistic.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "for 40 cell types, uniquely accessible regions were associated with their expressed transcription factors and downstream target genes through a combination of motif discovery, network inference and deep learning, creating enhancer GRNs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any metrics for the accuracy, precision, or recall of the inferred GRNs. It is unclear how the association between accessible regions, transcription factors, and target genes was validated. Without benchmarks against known regulatory interactions or experimental validation, the reliability of these networks cannot be assessed.
+  - **Why it matters** GRN inference is prone to false positives, and the biological utility of the resource depends on the accuracy of these predictions. If the networks are not validated, downstream applications such as driver line design may be compromised.
+  - **Resolution test** Provide validation statistics (e.g., area under the ROC curve, precision-recall) against curated regulatory interactions, or experimental validation of a subset of predicted enhancer-transcription factor-target gene relationships.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the enhancer architectures revealed by DeepFlyBrain lead to a better understanding of neuronal regulatory diversity and can be used to design genetic driver lines for cell types at specific timepoints."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that enhancer architectures "can be used" to design driver lines, but no evidence is presented that such lines were actually generated, tested, or shown to be specific. The claim of utility is therefore speculative.
+  - **Why it matters** The practical value of the resource is a key selling point. Without demonstration of functional driver lines, the claim of utility is unsupported and may overstate the immediate applicability of the findings.
+  - **Resolution test** Show experimental results for at least a few designed driver lines, including specificity and expression patterns, or clearly frame the claim as a potential application rather than a demonstrated outcome.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors report "profiling the chromatin accessibility of 240,919 single cells spanning 9 developmental timepoints."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on data quality control, batch effects, cell type annotation, or the criteria for defining "uniquely accessible regions." The abstract does not describe how the 40 cell types were selected or whether the developmental trajectories are robust to analysis parameters.
+  - **Why it matters** Reproducibility and interpretability of single-cell datasets depend heavily on these analytical decisions. Without details, the reader cannot evaluate whether the cell type assignments and regulatory region calls are reliable.
+  - **Resolution test** Provide a detailed methods section with quality control metrics, clustering parameters, and sensitivity analyses, and make the code and processed data publicly available.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "70,000 are linked to developmental trajectories involving neurogenesis, reprogramming and maturation"
+  - **Issue** The term "linked" is vague. It is unclear whether this linkage is based on statistical association, temporal correlation, or functional evidence.
+  - **Required correction** Specify the method used to establish the linkage (e.g., correlation with pseudotime, motif enrichment, or experimental perturbation).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "integrated these data with single-cell transcriptomes"
+  - **Issue** The nature of the integration is not described. It is unclear whether this was a co-assay, a computational alignment, or a label transfer.
+  - **Required correction** Briefly state the integration approach (e.g., Seurat-based label transfer, LIGER, or other) to clarify the methodology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "DeepFlyBrain"
+  - **Issue** The name "DeepFlyBrain" is introduced without explanation of what it specifically refers to (e.g., a deep learning model, a database, or a software tool).
+  - **Required correction** Define the term in the abstract or provide a brief description of its role in the analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of GRN validation), R1-M2 (unsupported claim of driver line utility), R1-M3 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its scale and integration of multiple data types and computational methods for the fly brain. However, the conceptual approach of linking chromatin accessibility to GRNs is not entirely new, and the novelty rests on the specific resource generated.
+  - Scientific importance: The potential to provide a cell-type-resolved regulatory atlas for a major model organism is high, and the resource could be widely used. The importance is contingent on the reliability of the GRN predictions.
+  - Interdisciplinary readership: The topic bridges neuroscience, genomics, and computational biology, and the findings would interest readers across these fields. The abstract is written in a way that is largely accessible to a broad scientific audience.
+  - Technical soundness: Not assessable from the abstract alone. The claims of GRN construction and driver line utility require detailed methods and validation, which are not provided.
+  - Readability for nonspecialists: The abstract is clear and well-structured, with technical terms defined in context. However, the lack of methodological detail may limit comprehension of how the results were achieved.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable resource, but the core claims of GRN accuracy and practical utility are not supported by the supplied material. A supportive recommendation would require access to the full manuscript with validation data and methodological details.
+
+## Risk / unsupported claims
+- The claim that enhancer GRNs were "created" for 40 cell types is unsupported without validation metrics.
+- The claim that enhancer architectures "can be used to design genetic driver lines" is speculative, as no experimental demonstration is provided.
+- The claim that 70,000 regulatory regions are "linked to developmental trajectories" is vague and not substantiated with specific analytical evidence.
+- The overall accuracy and biological relevance of the identified regulatory regions and networks are not assessable from the abstract.

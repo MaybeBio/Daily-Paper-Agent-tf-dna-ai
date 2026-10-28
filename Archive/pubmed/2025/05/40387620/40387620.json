@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "40387620",
+    "doi": "10.1021/acs.molpharmaceut.5c00104",
+    "title": "Optimizing siRNA Therapeutics Targeting HIF-1alpha: Computational Design, Screening, and Molecular Dynamics Simulation Studies."
+  },
+  "content": {
+    "abstract": "Hypoxia-inducible factor-1 alpha (HIF-1alpha) is an important transcription factor regulating glycolysis, angiogenesis, metastasis, and erythropoiesis under hypoxic conditions in solid tumors. Small interfering RNAs (siRNAs) have emerged as a promising therapeutic approach for solid tumors by selectively silencing target genes. This study explored siRNA-mediated degradation of HIF-1alpha by specifically targeting HIF-1alpha mRNA. We retrieved the HIF-1alpha gene sequence from the database and used various computational tools like siDirect and OligoWalk to get potential 19-21nts long siRNAs. Furthermore, these siRNAs were screened using parameters like sequence specificity, BLASTn, secondary structure formation, GC content, binding affinity between siRNA and mRNA, and thermodynamic properties. The potential siRNAs were further evaluated through molecular docking studies for interaction with the human Argonaute-2 protein (hAgo2), followed by molecular dynamics simulation studies. Post-MD studies revealed S4 (5'UAUAUGGUGAUGAUGUGGC3') as the most potential siRNA candidate against HIF-1alpha, based on root mean square deviation (RMSD), root mean square fluctuation (RMSF), radius of gyration (Rg), and H-bond analysis. Molecular mechanics Poisson-Boltzmann surface area (MMPBSA) analysis was also performed to further validate the selected siRNA candidates, which further affirmed S4 (5'UAUAUGGUGAUGAUGUGGC3') as a potential candidate against HIF-1alpha.",
+    "keywords": [
+      "HIF-1alpha",
+      "MD Simulations",
+      "RISC",
+      "molecular docking",
+      "siRNA"
+    ],
+    "mesh_terms": [
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*RNA, Small Interfering/genetics/chemistry/therapeutic use",
+      "Molecular Docking Simulation",
+      "RNA, Messenger/genetics",
+      "Argonaute Proteins/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shrivastava, Neeraj Kumar",
+        "Verma, Pratibha",
+        "Singh, Garima",
+        "Singh, Jyoti",
+        "Kumar, Anurag",
+        "Yadav, Sneha",
+        "Sonkar, Archana Bharti",
+        "Ansari, Mohd Nazam",
+        "S Saeedan, Abdulaziz",
+        "Akhter, Yusuf",
+        "A Aldossary, Sara",
+        "Kaithwas, Gaurav"
+      ],
+      "short_names": [
+        "Shrivastava NK",
+        "Verma P",
+        "Singh G",
+        "Singh J",
+        "Kumar A",
+        "Yadav S",
+        "Sonkar AB",
+        "Ansari MN",
+        "S Saeedan A",
+        "Akhter Y",
+        "A Aldossary S",
+        "Kaithwas G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8580-3002",
+        "ORCID: 0000-0001-9564-9790",
+        "ORCID: 0000-0003-1649-5434"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Biotechnology, School of Life Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 119 42, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 119 42, Saudi Arabia.",
+        "Department of Biotechnology, School of Life Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India.",
+        "Department of Pharmaceutical Sciences, Clinical Pharmacy College, King Faisal University, Al-Ahsa 319 82, Saudi Arabia.",
+        "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shrivastava, Neeraj Kumar",
+        "short_name": "Shrivastava NK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Verma, Pratibha",
+        "short_name": "Verma P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Garima",
+        "short_name": "Singh G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Life Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Jyoti",
+        "short_name": "Singh J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Anurag",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Sneha",
+        "short_name": "Yadav S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Sonkar, Archana Bharti",
+        "short_name": "Sonkar AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "Ansari, Mohd Nazam",
+        "short_name": "Ansari MN",
+        "identifiers": [
+          "0000-0001-8580-3002"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 119 42, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "S Saeedan, Abdulaziz",
+        "short_name": "S Saeedan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 119 42, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Akhter, Yusuf",
+        "short_name": "Akhter Y",
+        "identifiers": [
+          "0000-0001-9564-9790"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, School of Life Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      },
+      {
+        "full_name": "A Aldossary, Sara",
+        "short_name": "A Aldossary S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Clinical Pharmacy College, King Faisal University, Al-Ahsa 319 82, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Kaithwas, Gaurav",
+        "short_name": "Kaithwas G",
+        "identifiers": [
+          "0000-0003-1649-5434"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmaceutical Sciences, Babasaheb Bhimrao Ambedkar University (A Central University), Vidya Vihar, Raebareli Road, Lucknow 226 025, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Mol Pharm"
+    ],
+    "pub_date": "2025 Jun 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/19 12:29",
+    "fetched_at": "2026-10-05 03:52:16"
+  },
+  "links": {
+    "cites": [
+      "41034896",
+      "40918946"
+    ],
+    "refs": [],
+    "similar": [
+      "40387620",
+      "39490865",
+      "39798472",
+      "41056692",
+      "30784357",
+      "18767037",
+      "39520676",
+      "41125614",
+      "21437769",
+      "16552951",
+      "23555163",
+      "23873332",
+      "37440157",
+      "35367249",
+      "18162154",
+      "34089909",
+      "41447843",
+      "38118310",
+      "25423275",
+      "22924580",
+      "33321203",
+      "17332917",
+      "18704312",
+      "26882567",
+      "16489407",
+      "26187670",
+      "22086003",
+      "29542054",
+      "39579541",
+      "16778202",
+      "19919690",
+      "21085474",
+      "17561118",
+      "24436242",
+      "21814878",
+      "22487528",
+      "24176785",
+      "21185840",
+      "15890092",
+      "38327104",
+      "19293442",
+      "19176122",
+      "18027712",
+      "19414389",
+      "20980400",
+      "22355351",
+      "24860939",
+      "41045314",
+      "24795051",
+      "27638772",
+      "22227185",
+      "42152976",
+      "18818708",
+      "25824695",
+      "18289474",
+      "32944844",
+      "26002039",
+      "16306444",
+      "26066603",
+      "41641445",
+      "31587013",
+      "27577706",
+      "19277508",
+      "22524809",
+      "25162518",
+      "18509748",
+      "41508216",
+      "19456861",
+      "20139176",
+      "17645840",
+      "23947803",
+      "41194181",
+      "27756181",
+      "20188165",
+      "16849522",
+      "37120484",
+      "21897387",
+      "27239113",
+      "31630673",
+      "19277991",
+      "18366089",
+      "24213609",
+      "18393939",
+      "35318905",
+      "25637186",
+      "27040637",
+      "24607784",
+      "16920734",
+      "38299557",
+      "21056661",
+      "35537364",
+      "19538463",
+      "41713810",
+      "15695405",
+      "25847948",
+      "40289350",
+      "25733830",
+      "23618863",
+      "41443284",
+      "26472259"
+    ],
+    "review": [
+      "40387620"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/mpohbp/article-lookup/doi/10.1021/acs.molpharmaceut.5c00104",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

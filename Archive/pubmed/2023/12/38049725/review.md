@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and conclusions. Figures and tables are referenced but not fully provided; supplementary materials are not accessible.
+- **Assessment boundary** Evaluation is limited to the claims, methods, and results as described in the provided text. No independent verification of data, code, or experimental procedures was possible.
+- **Shared manuscript claim summary** The authors trained a convolutional recurrent neural network (RNN) on HT-SELEX data for the transcription factor GRHL1, applied it to human ChIP-Seq data, and identified 46 non-canonical binding sites missed by a PWM-based approach (FIMO) and DeepBind. They experimentally validated one novel site via isothermal titration calorimetry (ITC), showing nanomolar binding affinity despite lacking the canonical CNNG core motif. They further demonstrated that RNN prediction scores correlate strongly with experimentally measured binding affinities for a set of sequence variants.
+- **Visible evidence base** Text descriptions of model training, validation, and testing; performance comparisons (ROC and precision-recall AUCs); ITC results for selected sequences (Table 1); correlation analyses (Figure 6). Figures 1-6 are referenced but not fully visible in the provided material.
+- **Missing materials affecting confidence** Full figures and supplementary tables (e.g., Supplementary Tables 1-9) are not provided. Details of the neural network architecture, hyperparameter search, and code availability are incomplete. The exact sequences used for ITC and the full set of variant predictions are not fully described. The ChIP-Seq data processing pipeline and peak calling parameters are not detailed.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of deep learning to transcription factor binding site discovery, with experimental validation of a novel non-canonical GRHL1 binding site. The core finding, that an RNN can identify a functional binding site lacking the canonical motif, is noteworthy. However, the evidence base is incomplete, and several methodological details are missing, which limits the strength of the claims. The correlation analysis is based on a small number of data points, and the generalizability of the approach is not demonstrated beyond a single factor and a few sequences.
+- **Who would be interested in the results, and why** Researchers in computational biology, regulatory genomics, and transcription factor biology would be interested. The work is relevant to those developing and applying deep learning methods for motif discovery and variant effect prediction, as well as those studying GRHL family transcription factors and their roles in development and disease.
+- **Major strengths** The study addresses a relevant question: whether deep learning can uncover non-canonical binding sites missed by traditional methods. The combination of computational prediction with experimental validation via ITC is a strong point. The finding that the RNN outperforms both PWM and a CNN-based method on in vivo data is potentially significant. The correlation between predicted scores and measured affinities, if robust, suggests practical utility for quantitative predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the RNN identifies 46 non-canonical GRHL1 binding sites that are "not found by a conventional PWM approach" and that these are functionally relevant.
+  - **Evidence pointer** Results section "The RNN model identifies novel GRHL1 binding sites"; Supplementary Table 6 (not provided)
+  - **Concern** The criteria for defining "non-canonical" are not fully specified. The authors state that sites were selected based on RNN score > 0.99 and FIMO score < 0, but the biological relevance of these sites is not established beyond a single ITC experiment on one sequence. The other 45 sites are not experimentally validated, and no functional assays (e.g., reporter assays, ChIP-qPCR) are presented to support their relevance. The claim that these are "binding sites" is therefore premature.
+  - **Why it matters** The central novelty of the paper rests on the discovery of new, functional binding sites. Without validation of more than one site, the claim is not supported. The single validated site, while interesting, is an anecdote rather than a systematic demonstration.
+  - **Resolution test** The authors should either provide experimental validation for a larger subset of the predicted non-canonical sites, or clearly frame the 46 predictions as hypotheses requiring further testing. If validation is not feasible, the claim should be softened accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "RNN predictions highly correlate with experimentally determined GRHL1 binding affinity" with Pearson correlation of 0.926 and Spearman of 0.966.
+  - **Evidence pointer** Results section "RNN predictions highly correlate with experimentally determined GRHL1 binding affinity"; Figure 6; Table 1; Supplementary Table 9 (not provided)
+  - **Concern** The correlation is based on a very small number of data points. From Table 1, only 6 sequences with measurable Kd values are available (Pos_Ctrl, Pos_Ctrl_V1, Pos_Ctrl_V2, Pos_Ctrl_V3, Novel, Novel_V2). Non-binding sequences were assigned a Kd of 10 for the Spearman correlation, which is an arbitrary imputation. The Pearson correlation excludes non-binding sequences, further reducing the sample size. With n=6, the correlation is not robust and could be driven by a single outlier. The authors do not report confidence intervals or a statistical test for the correlation.
+  - **Why it matters** The claim of quantitative predictive power is a key selling point of the model. A correlation based on 6 points is insufficient to establish this. The arbitrary handling of non-binding sequences in the Spearman analysis is a methodological concern.
+  - **Resolution test** The authors should either increase the number of experimentally tested sequences, or provide a statistical analysis that accounts for the small sample size (e.g., bootstrap confidence intervals, permutation test). They should also justify the imputation of Kd=10 for non-binding sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The description of the neural network architecture and training procedure.
+  - **Evidence pointer** Methods section "Training, validation, and selection of the RNN model on in vitro data"; Figure 2; Supplementary Tables 1 and 2 (not provided)
+  - **Concern** The manuscript states that "several RNNs" were built with various hyperparameters, but the final architecture is only described at a high level (convolutional layer, recurrent layer, dense layer). Key details are missing: the number of layers, filter sizes, number of recurrent units, activation functions, optimization algorithm, learning rate, batch size, and number of epochs. The hyperparameter search space is not described. The code is not provided, and no mention is made of availability.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full architectural and training details, other researchers cannot replicate or build upon this work. The claim that the RNN outperforms other methods cannot be independently verified.
+  - **Resolution test** The authors should provide a complete description of the model architecture and training procedure, and make the code and trained model available (e.g., via a public repository).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the RNN "may uncover unanticipated binding sites and facilitate quantitative transcription factor binding predictions" and that this could be extended to other transcription factors.
+  - **Evidence pointer** Conclusions section
+  - **Concern** The authors acknowledge that they were unable to apply the method to other transcription factors due to time constraints. The generalizability of the approach is therefore untested. The novelty of the finding is also somewhat limited by the fact that only one new binding site was experimentally confirmed, and its biological significance (e.g., which genes it regulates) is not explored.
+  - **Why it matters** The broader impact of the work depends on whether the method can be applied to other factors and whether the discovered sites have functional consequences. As presented, the study is a proof-of-concept with a single example.
+  - **Resolution test** The authors should either provide evidence of generalizability (e.g., apply to another TF) or temper the conclusions to reflect the limited scope. They could also strengthen the biological relevance by linking the novel site to a known GRHL1 target gene and demonstrating functional effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "GRHL1 expression and purification"
+  - **Evidence pointer** Text
+  - **Issue** The description of protein purification is brief. The yield and purity of the GRHL1 DNA-binding domain are not reported, which is relevant for the ITC experiments.
+  - **Required correction** Provide a brief statement on protein yield and purity (e.g., SDS-PAGE gel image or a purity percentage).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "The RNN model performs better than other approaches on in vivo data"
+  - **Evidence pointer** Figure 4
+  - **Issue** The ROC and precision-recall curves are described, but no confidence intervals or statistical tests are provided for the differences in AUC between models. The authors state the RNN "performed slightly better" than DeepMind, but it is unclear if this difference is significant.
+  - **Required correction** Add confidence intervals or a statistical test (e.g., DeLong test for ROC AUC) to support claims of superiority.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods section "Training, validation, and selection of the RNN model on in vitro data"
+  - **Evidence pointer** Text
+  - **Issue** The source of the HT-SELEX data is mentioned as "the same GRHL1 binding sequences as employed by DeepMind," but the original accession or reference is not provided.
+  - **Required correction** Provide the original data source (e.g., GEO accession) for the HT-SELEX data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Text
+  - **Issue** The authors speculate that the RNN's advantage comes from the recurrent layer's ability to model sequential dependencies. This is plausible but not directly tested. No ablation study is presented to isolate the contribution of the recurrent layer.
+  - **Required correction** Either provide an ablation analysis (e.g., CNN-only vs. CNN+RNN) or soften the speculation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of non-canonical sites), R1-M2 (small sample size for correlation), R1-M3 (incomplete model description).
+- **Assessment against Nature-style criteria** Originality: The application of a CNN+RNN to GRHL1 binding site discovery is not entirely novel, as deep learning has been applied to TFBS prediction before. The specific finding of a non-canonical site lacking the core motif is interesting but is a single example. Scientific importance: The potential to identify new binding sites and predict affinity is important, but the evidence is preliminary. Interdisciplinary readership: The work bridges computational biology and biochemistry, which could appeal to a broad audience. Technical soundness: The computational methods are standard, but the validation is limited and the model description is incomplete. Readability for nonspecialists: The manuscript is generally clear, but some technical details (e.g., sliding-window approach) could be explained more thoroughly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence base is insufficient to fully support the claims. The authors should address the validation of non-canonical sites, strengthen the correlation analysis, and provide complete model details.
+
+## Risk / unsupported claims
+- The claim that 46 non-canonical binding sites are functionally relevant is unsupported; only one was experimentally tested.
+- The claim of high correlation between predicted and measured affinity is based on a very small sample size and arbitrary handling of non-binding sequences.
+- The claim that the RNN outperforms DeepMind on in vivo data is not statistically substantiated.
+- The generalizability of the method to other transcription factors is untested and therefore unsupported.
+- The biological significance of the novel binding site (e.g., target gene regulation) is not explored, so its relevance to GRHL1 function is unclear.

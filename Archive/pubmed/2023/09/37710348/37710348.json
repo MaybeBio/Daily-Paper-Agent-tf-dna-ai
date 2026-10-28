@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "37710348",
+    "doi": "10.1186/s40001-023-01318-w",
+    "title": "Hexarelin alleviates apoptosis on ischemic acute kidney injury via MDM2/p53 pathway."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Hexarelin exhibits significant protection against organ injury in models of ischemia/reperfusion (I/R)-induced injury (IRI). Nevertheless, the impact of Hexarelin on acute kidney injury (AKI) and its underlying mechanism remains unclear. In this study, we investigated the therapeutic potential of Hexarelin in I/R-induced AKI and elucidated its molecular mechanisms. METHODS: We assessed the protective effects of Hexarelin through both in vivo and in vitro experiments. In the I/R-induced AKI model, rats were pretreated with Hexarelin at 100 mug/kg/d for 7 days before being sacrificed 24 h post-IRI. Subsequently, kidney function, histology, and apoptosis were assessed. In vitro, hypoxia/reoxygenation (H/R)-induced HK-2 cell model was used to investigate the impact of Hexarelin on apoptosis in HK-2 cells. Then, we employed molecular docking using a pharmmapper server and autodock software to identify potential target proteins of Hexarelin. RESULTS: In this study, rats subjected to I/R developed severe kidney injury characterized by tubular necrosis, tubular dilatation, increased serum creatinine levels, and cell apoptosis. However, pretreatment with Hexarelin exhibited a protective effect by mitigating post-ischemic kidney pathological changes, improving renal function, and inhibiting apoptosis. This was achieved through the downregulation of conventional apoptosis-related genes, such as Caspase-3, Bax and Bad, and the upregulation of the anti-apoptotic protein Bcl-2. Consistent with the in vivo results, Hexarelin also reduced cell apoptosis in post-H/R HK-2 cells. Furthermore, our analysis using GSEA confirmed the essential role of the apoptosis pathway in I/R-induced AKI. Molecular docking revealed a strong binding affinity between Hexarelin and MDM2, suggesting the potential mechanism of Hexarelin's anti-apoptosis effect at least partially through its interaction with MDM2, a well-known negative regulator of apoptosis-related protein that of p53. To validate these findings, we evaluated the relative expression of MDM2 and p53 in I/R-induced AKI with or without Hexarelin pre-administration and observed a significant suppression of MDM2 and p53 by Hexarelin in both in vivo and in vitro experiments. CONCLUSION: Collectively, Hexarelin was identified as a promising medication in protecting apoptosis against I/R-induced AKI.",
+    "keywords": [
+      "Acute kidney injury",
+      "Apoptosis",
+      "Hexarelin",
+      "Kidney ischemia-reperfusion injury",
+      "MDM2/p53"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Rats",
+      "Tumor Suppressor Protein p53/genetics",
+      "Molecular Docking Simulation",
+      "*Acute Kidney Injury/drug therapy",
+      "*Reperfusion Injury/drug therapy",
+      "Ischemia",
+      "Oligopeptides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Chen",
+        "Li, Chenyu",
+        "Shen, Xuefei",
+        "Yang, Chengyu",
+        "Liu, Zengying",
+        "Zhang, Ningxin",
+        "Xu, Lingyu",
+        "Zhao, Long",
+        "Zhou, Bin",
+        "Man, Xiaofei",
+        "Luo, Congjuan",
+        "Luan, Hong",
+        "Che, Lin",
+        "Wang, Yanfei",
+        "Xu, Yan"
+      ],
+      "short_names": [
+        "Guan C",
+        "Li C",
+        "Shen X",
+        "Yang C",
+        "Liu Z",
+        "Zhang N",
+        "Xu L",
+        "Zhao L",
+        "Zhou B",
+        "Man X",
+        "Luo C",
+        "Luan H",
+        "Che L",
+        "Wang Y",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Medizinische Klinik Und Poliklinik IV, Klinikum Der Universitat, LMU Munchen, Munich, Germany.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China. xuyan@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Chen",
+        "short_name": "Guan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chenyu",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Medizinische Klinik Und Poliklinik IV, Klinikum Der Universität, LMU München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Shen, Xuefei",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chengyu",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zengying",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningxin",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lingyu",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Long",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bin",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Man, Xiaofei",
+        "short_name": "Man X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Congjuan",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Hong",
+        "short_name": "Luan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Che, Lin",
+        "short_name": "Che L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanfei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, 16 Jiangsu Road, Qingdao, 266003, China. xuyan@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2023 Sep 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/15 00:41",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "41422302",
+      "41126444",
+      "40583332",
+      "39558651"
+    ],
+    "refs": [
+      "37001295",
+      "36455676",
+      "36369319",
+      "36278223",
+      "36059935",
+      "35873574",
+      "35721209",
+      "35694252",
+      "35422072",
+      "35401211",
+      "35117976",
+      "34937917",
+      "34721034",
+      "34483931",
+      "34336610",
+      "34102281",
+      "34066741",
+      "33907245",
+      "33606150",
+      "33479346",
+      "32647339",
+      "32581828",
+      "32403043",
+      "32251763",
+      "31795143",
+      "31777389",
+      "31452866",
+      "30984789",
+      "30716432",
+      "30593588",
+      "30347214",
+      "28991892",
+      "28890325",
+      "28321024",
+      "26122615",
+      "25643664",
+      "25521941",
+      "25278975",
+      "23861368",
+      "22297670",
+      "16199517",
+      "15865928",
+      "14707283",
+      "7845430"
+    ],
+    "similar": [
+      "37710348",
+      "37894939",
+      "38395179",
+      "34183058",
+      "34742787",
+      "31339772",
+      "33156922",
+      "38056145",
+      "32967729",
+      "26132529",
+      "33336758",
+      "29790387",
+      "27993707",
+      "32251763",
+      "30675758",
+      "35664065",
+      "35841017",
+      "33295061",
+      "38081614",
+      "37215853",
+      "37884904",
+      "35783188",
+      "33325270",
+      "38008232",
+      "33490282",
+      "34653291",
+      "36583727",
+      "34916780",
+      "32863945",
+      "35721209",
+      "23418539",
+      "27152763",
+      "31216555",
+      "30984789",
+      "34619498",
+      "30970510",
+      "34242625",
+      "35081504",
+      "31771879",
+      "34937917",
+      "21332343",
+      "37542992",
+      "37002708",
+      "33865225",
+      "28544332",
+      "34189758",
+      "32265926",
+      "29275176",
+      "33183976",
+      "32414157",
+      "35489662",
+      "30278824",
+      "18815219",
+      "37202752",
+      "29960844",
+      "29022913",
+      "28737133",
+      "23325448",
+      "32248569",
+      "37762598",
+      "24963915",
+      "32238887",
+      "25088045",
+      "24630969",
+      "22297670",
+      "21680852",
+      "32187959",
+      "31722339",
+      "34768879",
+      "36449688",
+      "29324683",
+      "32375588",
+      "32934963",
+      "26277932",
+      "26343046",
+      "37462140",
+      "29925521",
+      "30712966",
+      "33964996",
+      "35092734",
+      "31885778",
+      "33653497",
+      "35837696",
+      "30180910",
+      "30365078",
+      "29733848",
+      "30820607",
+      "23953793",
+      "32423815",
+      "20486847",
+      "37127576",
+      "22417144",
+      "33341051",
+      "30877184",
+      "31914692",
+      "19470675",
+      "39313116",
+      "38196697",
+      "38367863",
+      "31689934",
+      "35552115",
+      "35918786",
+      "37324945",
+      "39326069",
+      "38027853",
+      "38239193",
+      "38973996",
+      "36963487",
+      "38178930",
+      "38542129",
+      "39188700",
+      "37469216",
+      "38665207"
+    ],
+    "review": [
+      "37710348"
+    ],
+    "pmc": [
+      "10500723"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-023-01318-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37710348/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37710348",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

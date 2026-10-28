@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40652070",
+    "doi": "10.1038/s41598-025-10656-0",
+    "title": "Identification of diagnostic biomarkers and dissecting immune microenvironment with crosstalk genes in the POAG and COVID-19 nexus."
+  },
+  "content": {
+    "abstract": "An underlying association between primary open-angle glaucoma (POAG) and COVID-19 has been hypothesized, but the causal link and shared mechanisms remain unclear. This study integrates epidemiological and bioinformatics approaches to investigate their relationship, aiming to identify common molecular pathways and validate clinical correlations. Epidemiological data from 3,015 participants in the CHARLS database were analyzed using multivariate logistic regression and Cox proportional hazards models to assess the association between COVID-19 and POAG, with stratification by gender, smoking status, and alcohol consumption. Concurrently, gene expression datasets from GEO (POAG: GSE27276; COVID-19: GSE171110, GSE152418) were used to identify 57 crosstalk genes (CGs) via differential expression analysis. Machine learning algorithms (LASSO, SVM-RFE, Random Forest) were applied to screen POAG diagnostic biomarkers from CGs, followed by construction of transcription factor (TF)-microRNA (miRNA)-protein-compound regulatory networks and consensus clustering to characterize COVID-19 immune microenvironment subtypes. Epidemiological analyses revealed that COVID-19 was an independent risk factor for POAG, with adjusted odds ratios (ORs) of 12.775-15.688 and hazard ratios (HRs) of 4.893-5.060 (all P < 0.001), with stronger associations in males (OR = 15.054, HR = 5.645) and smokers (OR = 29.828, HR = 9.323). HDL levels were significantly higher in POAG patients (P = 0.028), while vb001_s1 positivity was negatively associated with POAG (P < 0.001). Bioinformatics identified CGs enriched in inflammatory response, oxidative stress, and hypoxia pathways. Five potential biomarkers (CA12, ECRG4, CEBPD, HBB, HBA2) showed high diagnostic efficacy (AUC > 0.9) but limited specificity (expressed in uveitis and diabetic retinopathy). COVID-19 patients were stratified into three clusters, with Cluster B exhibiting hyperactive immune microenvironments characterized by elevated HLA class I/II and immune checkpoint genes (CTLA4, PDCD1LG2) in antigen-presenting cells and T cells. This study provides epidemiological and molecular evidence linking POAG to COVID-19, highlighting inflammation and immune dysregulation as shared mechanisms. Gender and smoking modify this association, warranting targeted POAG screening in male COVID-19 survivors and smokers. While identified biomarkers require specificity improvement, findings underscore the need for mechanistic studies (e.g., ACE2-mediated ocular injury, T-cell neuroinflammation) to validate causality and inform clinical management.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics/epidemiology/immunology/complications/diagnosis",
+      "Male",
+      "Female",
+      "*Biomarkers/metabolism",
+      "Middle Aged",
+      "*Glaucoma, Open-Angle/genetics/diagnosis/epidemiology/immunology",
+      "SARS-CoV-2",
+      "Gene Regulatory Networks",
+      "Aged",
+      "Risk Factors",
+      "MicroRNAs/genetics",
+      "Computational Biology",
+      "Transcription Factors/genetics",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Changfan",
+        "Hu, Long",
+        "Su, Wanwen",
+        "Hu, Xin"
+      ],
+      "short_names": [
+        "Peng C",
+        "Hu L",
+        "Su W",
+        "Hu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China. pengchangfan@pyhospital.com.cn.",
+        "XJTLU Wisdom Lake Academy of Pharmacy, Xi'an Jiaotong-Liverpool University, Suzhou, Jiangsu, 215123, People's Republic of China.",
+        "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China.",
+        "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Changfan",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China. pengchangfan@pyhospital.com.cn."
+        ]
+      },
+      {
+        "full_name": "Hu, Long",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "XJTLU Wisdom Lake Academy of Pharmacy, Xi'an Jiaotong-Liverpool University, Suzhou, Jiangsu, 215123, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Su, Wanwen",
+        "short_name": "Su W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xin",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated Panyu Central Hospital,Guangzhou Medical University, Guangzhou, Guangdong, 511400, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/13 03:39",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39417505",
+      "39398055",
+      "38831059",
+      "38701285",
+      "38670096",
+      "38502591",
+      "38467717",
+      "38451044",
+      "38370256",
+      "38233844",
+      "38212998",
+      "38162694",
+      "38101711",
+      "37996657",
+      "37940950",
+      "37915673",
+      "37834324",
+      "37742700",
+      "37686344",
+      "37516687",
+      "37460639",
+      "37239856",
+      "37081874",
+      "36920817",
+      "36626183",
+      "36517603",
+      "35923698",
+      "35894768",
+      "35535873",
+      "35253097",
+      "35105981",
+      "34588570",
+      "34466800",
+      "34419081",
+      "34418419",
+      "34413488",
+      "34394095",
+      "34261659",
+      "34127958",
+      "34125371",
+      "33835452",
+      "33595463",
+      "33393320",
+      "33096020",
+      "33028979",
+      "32788292",
+      "32687918",
+      "32382146",
+      "32346093",
+      "31645673",
+      "30931480",
+      "30643263",
+      "30354669",
+      "29775216",
+      "29695893",
+      "29536409",
+      "29344893",
+      "29243035",
+      "28202006",
+      "28146368",
+      "28039061",
+      "25605792",
+      "25511108",
+      "24003086",
+      "22455463",
+      "21184099",
+      "18929123",
+      "17496320",
+      "16962364",
+      "15332106",
+      "12676895"
+    ],
+    "similar": [
+      "40652070",
+      "39560561",
+      "39125762",
+      "36002796",
+      "39133496",
+      "37940950",
+      "41066424",
+      "40340571",
+      "39142001",
+      "37774963",
+      "37465678",
+      "38259479",
+      "39922523",
+      "39377750",
+      "34156425",
+      "38653779",
+      "37610681",
+      "39509434",
+      "39965013",
+      "35749386",
+      "41312366",
+      "40128732",
+      "41146237",
+      "40374840",
+      "41044520",
+      "40830558",
+      "38215989",
+      "37777104",
+      "36389792",
+      "41479901",
+      "32178636",
+      "39697326",
+      "40780580",
+      "40892227",
+      "41052072",
+      "26746594",
+      "40228223",
+      "40383755",
+      "36189314",
+      "40975158",
+      "40374866",
+      "40457357",
+      "40977679",
+      "38863714",
+      "38601162",
+      "40328901",
+      "34592243",
+      "40997906",
+      "41424060",
+      "38619629",
+      "39489517",
+      "39755370",
+      "41200172",
+      "40808948",
+      "40165133",
+      "40453984",
+      "39375405",
+      "31046067",
+      "35347632",
+      "39507054",
+      "36727359",
+      "41300841",
+      "36211429",
+      "38878325",
+      "40077931",
+      "29433851",
+      "40091789",
+      "40500570",
+      "39950836",
+      "38808722",
+      "40718484",
+      "33599104",
+      "41047921",
+      "37540264",
+      "41112249",
+      "40782934",
+      "40598145",
+      "40211014",
+      "35461232",
+      "41013727",
+      "36104591",
+      "41442003",
+      "39341981",
+      "40435035",
+      "39622968",
+      "38538269",
+      "37968618",
+      "41291841",
+      "39118112",
+      "38951833",
+      "24746386",
+      "38433131",
+      "41080564",
+      "30352225",
+      "40406126",
+      "39188714",
+      "20188420",
+      "39595659",
+      "40569586",
+      "40360670"
+    ],
+    "review": [
+      "40652070"
+    ],
+    "pmc": [
+      "12255735"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10656-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40652070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

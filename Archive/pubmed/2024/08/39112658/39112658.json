@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "39112658",
+    "doi": "10.1038/s41598-024-69429-w",
+    "title": "Unveiling novel insights into human IL-6 - IL-6R interaction sites through 3D computer-guided docking and systematic site mutagenesis."
+  },
+  "content": {
+    "abstract": "The cytokine interleukin-6 (IL-6) plays a crucial role in autoimmune and inflammatory diseases. Understanding the precise mechanism of IL-6 interaction at the amino acid level is essential to develop IL-6-inhibiting compounds. In this study, we employed computer-guided drug design tools to predict the key residues that are involved in the interaction between IL-6 and its receptor IL-6R. Subsequently, we generated IL-6 mutants and evaluated their binding affinity to IL-6R and the IL-6R - gp130 complex, as well as monitoring their biological activities. Our findings revealed that the R167A mutant exhibited increased affinity for IL-6R, leading to enhanced binding to IL-6R - gp130 complex and subsequently elevated intracellular phosphorylation of STAT3 in effector cells. On the other hand, although E171A reduced its affinity for IL-6R, it displayed stronger binding to the IL-6R - gp130 complex, thereby enhancing its biological activity. Furthermore, we identified the importance of R178 and R181 for the precise recognition of IL-6 by IL-6R. Mutants R181A/V failed to bind to IL-6R, while maintaining an affinity for the IL-6 - gp130 complex. Additionally, deletion of the D helix resulted in complete loss of IL-6 binding affinity for IL-6R. Overall, this study provides valuable insights into the binding mechanism of IL-6 and establishes a solid foundation for future design of novel IL-6 inhibitors.",
+    "keywords": [
+      "Computer-guided docking",
+      "IL-6 - IL-6R - gp130 complex",
+      "Surface plasmon resonance (SPR)",
+      "Systematic mutagenesis"
+    ],
+    "mesh_terms": [
+      "*Interleukin-6/metabolism/genetics",
+      "Humans",
+      "*Receptors, Interleukin-6/metabolism/genetics/chemistry",
+      "*Protein Binding",
+      "*Molecular Docking Simulation",
+      "Cytokine Receptor gp130/metabolism/genetics/chemistry",
+      "Mutagenesis, Site-Directed",
+      "Binding Sites",
+      "STAT3 Transcription Factor/metabolism",
+      "Phosphorylation",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Kaitong",
+        "Cai, Junyu",
+        "Jiang, Zhiyang",
+        "Meng, Qingbin",
+        "Meng, Zhao",
+        "Xiao, He",
+        "Chen, Guojiang",
+        "Qiao, Chunxia",
+        "Luo, Longlong",
+        "Yu, Jijun",
+        "Li, Xinying",
+        "Wei, Yinxiang",
+        "Li, Hui",
+        "Liu, Chenghua",
+        "Shen, Beifen",
+        "Wang, Jing",
+        "Feng, Jiannan"
+      ],
+      "short_names": [
+        "Li K",
+        "Cai J",
+        "Jiang Z",
+        "Meng Q",
+        "Meng Z",
+        "Xiao H",
+        "Chen G",
+        "Qiao C",
+        "Luo L",
+        "Yu J",
+        "Li X",
+        "Wei Y",
+        "Li H",
+        "Liu C",
+        "Shen B",
+        "Wang J",
+        "Feng J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China.",
+        "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China. jingw_biomed@163.com.",
+        "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China. fengjiannan1970@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Kaitong",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Junyu",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Zhiyang",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Qingbin",
+        "short_name": "Meng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zhao",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, He",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guojiang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Chunxia",
+        "short_name": "Qiao C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Longlong",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jijun",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinying",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yinxiang",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Joint National Laboratory for Antibody Drug Engineering, The First Affiliated Hospital of Henan University, Henan University, Kaifeng, 475004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chenghua",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Beifen",
+        "short_name": "Shen B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China. jingw_biomed@163.com."
+        ]
+      },
+      {
+        "full_name": "Feng, Jiannan",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genetic Engineering of Antibodies and Functional Proteins, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, China. fengjiannan1970@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/08 00:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "41562931",
+      "41356664",
+      "41184328",
+      "40676786"
+    ],
+    "refs": [
+      "37421735",
+      "37185540",
+      "37069261",
+      "36971365",
+      "36930708",
+      "35892735",
+      "35537412",
+      "35340805",
+      "35113729",
+      "32881084",
+      "32765502",
+      "32171076",
+      "32091533",
+      "31774398",
+      "29725131",
+      "29622697",
+      "29559558",
+      "29041951",
+      "28783950",
+      "28134246",
+      "28008232",
+      "20652679",
+      "14672670",
+      "12829785",
+      "12461182",
+      "10477390",
+      "10328265",
+      "9159484",
+      "9144766",
+      "9028955",
+      "8654370",
+      "8566809",
+      "8555185",
+      "8483922",
+      "8436132",
+      "8181515",
+      "7813426",
+      "7693665",
+      "7511100",
+      "2335213",
+      "2226871",
+      "2037043",
+      "1520299",
+      "1327882",
+      "1321818",
+      "1321736"
+    ],
+    "similar": [
+      "39112658",
+      "24802752",
+      "23564454",
+      "26363066",
+      "33610555",
+      "11698289",
+      "11991991",
+      "19264784",
+      "18650419",
+      "11120832",
+      "23027872",
+      "10427501",
+      "38569939",
+      "9295319",
+      "22469658",
+      "8702737",
+      "24712547",
+      "17085445",
+      "26551279",
+      "9973404",
+      "23136552",
+      "10779772",
+      "11884403",
+      "31237452",
+      "37838173",
+      "37355548",
+      "33471392",
+      "16973585",
+      "8467812",
+      "26525581",
+      "9395315",
+      "7511100",
+      "16741736",
+      "7744001",
+      "21989726",
+      "11238858",
+      "29668931",
+      "19420002",
+      "23456862",
+      "22029668",
+      "8877726",
+      "23297399",
+      "8537391",
+      "31987875",
+      "30279168",
+      "28881473",
+      "21176991",
+      "23268184",
+      "24986424",
+      "12731865",
+      "9694899",
+      "17465721",
+      "23215755",
+      "7744875",
+      "24456369",
+      "8621406",
+      "28675418",
+      "28363692",
+      "30576778",
+      "10482577",
+      "11412113",
+      "9794795",
+      "34738234",
+      "31101051",
+      "9110148",
+      "24973212",
+      "12461182",
+      "29020964",
+      "23428978",
+      "17724457",
+      "30467123",
+      "19690161",
+      "17671508",
+      "27226573",
+      "23209286",
+      "9326296",
+      "38881895",
+      "29322414",
+      "26869278",
+      "15166129",
+      "10946280",
+      "21173340",
+      "25340554",
+      "11502067",
+      "29626088",
+      "11113088",
+      "9759879",
+      "20159251",
+      "34935434",
+      "10722865",
+      "16557588",
+      "34474215",
+      "11121117",
+      "29559558",
+      "16640655",
+      "10210772",
+      "19589542",
+      "34404751",
+      "15277221",
+      "21035897",
+      "31958792",
+      "39348731",
+      "39152100"
+    ],
+    "review": [
+      "39112658",
+      "23136552",
+      "16741736",
+      "22029668",
+      "21176991",
+      "24986424",
+      "17465721",
+      "28675418",
+      "28363692",
+      "34738234",
+      "17724457",
+      "30467123",
+      "11502067",
+      "34474215",
+      "16640655"
+    ],
+    "pmc": [
+      "11306327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-69429-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39112658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IL6R-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

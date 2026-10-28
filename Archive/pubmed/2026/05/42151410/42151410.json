@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "42151410",
+    "doi": "10.1038/s41698-026-01395-0",
+    "title": "Bufalin targets E2F2 to transcriptionally inhibit LINC01410 and suppress Wnt/beta-catenin signaling in esophageal squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "Bufalin, a main active monomer component extracted from the Traditional Chinese Medicine toad venom, exhibits potent anti-tumour activity across diverse malignancies. However, its specific molecular targets in Oesophageal squamous cell carcinoma (ESCC) remain unclear. Here, we demonstrate that bufalin suppresses ESCC growth and metastasis in a concentration-dependent manner both in vitro and in vivo. RNA sequencing analysis revealed that bufalin inhibits ESCC progression by downregulating LINC01410. TCGA-ESCC data indicated that LINC01410 is highly expressed in ESCC tissues and promotes tumour progression by stabilising beta-catenin protein and activating the Wnt/beta-catenin pathway. Through multiple approaches including proteome microarray screening and machine learning analyses, we identified E2F2 as a upstream transcription factor of LINC01410. We further demonstrate that bufalin induces the proteasomal degradation of E2F2, consequently silencing LINC01410 transcription and collapsing the LINC01410-Wnt/beta-catenin signalling axis. In summary, our findings indicate that bufalin targets E2F2 to downregulate LINC01410, thereby providing a potential therapeutic strategy for suppressing ESCC progression.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Xiaohong",
+        "Ma, Yufei",
+        "Zhao, Hongke",
+        "Zhang, Haoling",
+        "Roy, Mridul",
+        "Liao, Mingjuan",
+        "Wei, Ying",
+        "Li, Xingqiao",
+        "Zhou, Yueyang",
+        "Xue, Huange",
+        "Yan, Xiaoxia",
+        "Zhang, Wangzheqi",
+        "Guo, Yadong",
+        "Cao, Fei",
+        "Chang, Tingmin"
+      ],
+      "short_names": [
+        "Kang X",
+        "Ma Y",
+        "Zhao H",
+        "Zhang H",
+        "Roy M",
+        "Liao M",
+        "Wei Y",
+        "Li X",
+        "Zhou Y",
+        "Xue H",
+        "Yan X",
+        "Zhang W",
+        "Guo Y",
+        "Cao F",
+        "Chang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China. kxhhgd@163.com.",
+        "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China.",
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China.",
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China.",
+        "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China.",
+        "Department of Traditional Chinese Medicine, Shanghai Ninth People's Hospital of Shanghai Jiao Tong University, Shanghai, China.",
+        "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China.",
+        "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China.",
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China.",
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China.",
+        "Department of Oncology, Luoyang Orthopedic-traumatological Hospital of Henan province, Luoyang, Henan, China.",
+        "School of Anesthesiology, Naval Medical University, Shanghai, China. 1198717503@qq.com.",
+        "Department of Urology, Shanghai Tenth People's Hospital, Shanghai, China. guoyadong@tongji.edu.cn.",
+        "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China. cf771225@163.com.",
+        "Department of Gastroenterology, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China. ctminmail@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Xiaohong",
+        "short_name": "Kang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China. kxhhgd@163.com."
+        ]
+      },
+      {
+        "full_name": "Ma, Yufei",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongke",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haoling",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Roy, Mridul",
+        "short_name": "Roy M",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Mingjuan",
+        "short_name": "Liao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Ninth People's Hospital of Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ying",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xingqiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Research Center, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yueyang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Huange",
+        "short_name": "Xue H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xiaoxia",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Luoyang Orthopedic-traumatological Hospital of Henan province, Luoyang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wangzheqi",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Naval Medical University, Shanghai, China. 1198717503@qq.com."
+        ]
+      },
+      {
+        "full_name": "Guo, Yadong",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Shanghai Tenth People's Hospital, Shanghai, China. guoyadong@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Fei",
+        "short_name": "Cao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The first Affiliated Hospital of Henan Medical University, Xingxiang, Henan, China. cf771225@163.com."
+        ]
+      },
+      {
+        "full_name": "Chang, Tingmin",
+        "short_name": "Chang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The first Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China. ctminmail@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ precision oncology"
+    ],
+    "journal_abbrev": [
+      "NPJ Precis Oncol"
+    ],
+    "pub_date": "2026 May 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 00:28",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [
+      "42165979"
+    ],
+    "refs": [
+      "41515937",
+      "41472748",
+      "41130034",
+      "40957432",
+      "40846852",
+      "40809457",
+      "40650849",
+      "40236773",
+      "40220852",
+      "40015520",
+      "39668405",
+      "39562049",
+      "39443725",
+      "39309441",
+      "39253139",
+      "39012431",
+      "38807594",
+      "38572751",
+      "38178183",
+      "38082327",
+      "38039962",
+      "37673066",
+      "37598158",
+      "37311739",
+      "37197494",
+      "36903477",
+      "36717994",
+      "36375317",
+      "36096424",
+      "35836256",
+      "35780119",
+      "35499057",
+      "35442766",
+      "35255921",
+      "35042991",
+      "35041823",
+      "34456337",
+      "34435542",
+      "34391433",
+      "34322379",
+      "34192538",
+      "33952804",
+      "33583123",
+      "33275145",
+      "33122847",
+      "31301315",
+      "31028291",
+      "29934048",
+      "29677511",
+      "28656204",
+      "28419994",
+      "27617575",
+      "27368099",
+      "23056515",
+      "12717451"
+    ],
+    "similar": [
+      "42151410",
+      "42210380",
+      "40534132",
+      "37768180",
+      "41734711",
+      "30990378",
+      "37197494",
+      "37263462",
+      "38588526",
+      "41088127",
+      "39617210",
+      "34057837",
+      "40730501",
+      "42430084",
+      "38906857",
+      "39511268",
+      "36636641",
+      "35484214",
+      "27267823",
+      "34659577",
+      "33538099",
+      "36289198",
+      "35041823",
+      "36163081",
+      "36442813",
+      "32765792",
+      "36757050",
+      "30444080",
+      "35768649",
+      "35129056",
+      "38881420",
+      "41327220",
+      "42517420",
+      "35879265",
+      "38046164",
+      "25844602",
+      "29497076",
+      "32533239",
+      "41039452",
+      "35366893",
+      "35576835",
+      "31888532",
+      "31278587",
+      "39903433",
+      "30556869",
+      "38082327",
+      "29760376",
+      "39419199",
+      "38317006",
+      "37233832",
+      "38954215",
+      "32863938",
+      "40078194",
+      "42182760",
+      "27414086",
+      "35497711",
+      "33515345",
+      "42306765",
+      "27721245",
+      "32236884",
+      "26648168",
+      "31720087",
+      "26045816",
+      "34289555",
+      "35351402",
+      "28633632",
+      "29949155",
+      "22701179",
+      "23836524",
+      "36933113",
+      "24118380",
+      "36051093",
+      "31807012",
+      "41998829",
+      "41720012",
+      "31669361",
+      "42216222",
+      "20603606",
+      "38340578",
+      "38055382",
+      "29805736",
+      "35448163",
+      "35893895",
+      "35241028",
+      "27329034",
+      "35986274",
+      "34866524",
+      "40787199",
+      "31269911",
+      "40211274",
+      "42030890",
+      "40476449",
+      "31383552",
+      "30067384",
+      "19664078",
+      "31722716",
+      "28404917",
+      "41714472",
+      "41961204",
+      "34268303"
+    ],
+    "review": [
+      "42151410",
+      "35448163"
+    ],
+    "pmc": [
+      "13448694"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41698-026-01395-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42151410/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

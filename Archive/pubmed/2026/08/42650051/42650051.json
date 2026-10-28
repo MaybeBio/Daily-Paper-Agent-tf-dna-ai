@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42650051",
+    "doi": "10.3390/genes17080858",
+    "title": "Identification of Pyroptosis-Related Gene Signatures Associated with Predicted Immune-Cell Enrichment in Atrial Fibrillation."
+  },
+  "content": {
+    "abstract": "Background: Research demonstrates that pyroptosis is a critical factor in the progression of cardiovascular diseases and their related complications. Nevertheless, the precise association between this particular cell death process and the pathophysiological characteristics of atrial fibrillation (AF) remains uncertain. This exploratory study investigates the association between pyroptosis-related genes (PRGs), predicted immune-cell enrichment, and AF using a systems biology approach. Methods: Two datasets obtained from the Gene Expression Omnibus, along with a dataset from GeneCards pertaining to pyroptosis-related genes (PRGs), were utilized in this study. Following this, 18 AF-PRGs acquired from the GSE41177 dataset and PRGs were analyzed for functional enrichment using Gene Ontology (GO) annotation, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis, and gene set enrichment analysis (GSEA). Subsequently, the validation dataset was employed to assess the 18 AF-PRGs, leading to the identification of seven candidate genes for exploratory validation. Then, interaction networks were developed to elucidate potential regulatory relationships among PRGs, miRNAs, transcription factors, and drugs. Finally, single-sample GSEA was used to estimate predicted immune-cell enrichment in AF. Results: The KEGG pathway analysis indicated that AF-related PRGs are significantly enriched in pathways linked to NOD-like receptor signaling, lipid metabolism, and bacterial infection, highlighting the potential role of inflammation in the pathogenesis of AF. After validation, we identified seven additional reliable genes: S100A9, S100A4, MPEG1, NAIP, CDK9, S100A8, and S100A12. Additionally, 177 miRNAs were predicted to regulate these seven genes, while 50 transcription factors (TFs) were identified to regulate six of them, and 38 drugs were predicted to target six genes as hypothesis-generating interactions. In assessing predicted immune-cell enrichment, we observed significant differences between AF and sinus rhythm atrial tissues. Conclusion: This exploratory study suggests that pyroptosis-related inflammatory gene signatures may be associated with AF and provides hypotheses for future mechanistic and translational validation.",
+    "keywords": [
+      "atrial fibrillation",
+      "biomarkers",
+      "predicted immune-cell enrichment",
+      "pyroptosis",
+      "risk prediction"
+    ],
+    "mesh_terms": [
+      "*Atrial Fibrillation/genetics/immunology/pathology",
+      "*Pyroptosis/genetics",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "*Transcriptome/genetics",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Junhao",
+        "Ma, Yuwei",
+        "Chen, Boyang",
+        "Yu, Li"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Ma Y",
+        "Chen B",
+        "Yu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China.",
+        "School of Medicine, Putian University, 1133 Xueyuan Road, Chengxiang District, Putian 351100, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Junhao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuwei",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Boyang",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Putian University, 1133 Xueyuan Road, Chengxiang District, Putian 351100, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Li",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Rd., Nanjing 210023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Jul 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39067835",
+      "37986224",
+      "37953380",
+      "35797768",
+      "35673561",
+      "35393446",
+      "35008432",
+      "34423492",
+      "34389797",
+      "33346822",
+      "32860505",
+      "31902237",
+      "30931480",
+      "30772258",
+      "30525268",
+      "29627355",
+      "29510138",
+      "29024030",
+      "28138137",
+      "28102478",
+      "27494721",
+      "27207943",
+      "26375003",
+      "25622848",
+      "25605792",
+      "25428369",
+      "24966695",
+      "24439044",
+      "24138885",
+      "23323831",
+      "23183193",
+      "22955616",
+      "22455463",
+      "22266138",
+      "21525001",
+      "21414208",
+      "21203903",
+      "19368739",
+      "19158963",
+      "17714514",
+      "17496320",
+      "16919727",
+      "16199517",
+      "14597658",
+      "11382525",
+      "8701470"
+    ],
+    "similar": [
+      "42650051",
+      "42499091",
+      "40091022",
+      "40659785",
+      "39512836",
+      "41078717",
+      "41208987",
+      "38034011",
+      "32682418",
+      "35790963",
+      "41536676",
+      "42530267",
+      "42363518",
+      "41808159",
+      "38890348",
+      "39444551",
+      "37971162",
+      "37386410",
+      "38062833",
+      "35957838",
+      "38178669",
+      "42364542",
+      "39055656",
+      "37883760",
+      "40350654",
+      "41760035",
+      "42565562",
+      "37872948",
+      "41458185",
+      "42195052",
+      "40078458",
+      "30760287",
+      "41315579",
+      "40682067",
+      "38282154",
+      "37752552",
+      "34698362",
+      "41006883",
+      "39331874",
+      "42316227",
+      "35273648",
+      "39051629",
+      "40837339",
+      "33741890",
+      "40248193",
+      "35003319",
+      "37480090",
+      "39776247",
+      "40855347",
+      "38274270",
+      "42424301",
+      "33706714",
+      "41840546",
+      "39586719",
+      "38977948",
+      "38277535",
+      "39466354",
+      "31894294",
+      "41262879",
+      "33287936",
+      "42071886",
+      "36226239",
+      "41734196",
+      "40307356",
+      "38505024",
+      "39251231",
+      "42123445",
+      "39897091",
+      "41257259",
+      "40329965",
+      "41996313",
+      "36291136",
+      "40355900",
+      "40977739",
+      "40533809",
+      "42483177",
+      "40312440",
+      "37161136",
+      "41299729",
+      "38736878",
+      "39995931",
+      "35242200",
+      "40918403",
+      "39462099",
+      "35757392",
+      "42431430",
+      "41120603",
+      "40821971",
+      "40861493",
+      "39090590",
+      "40066352",
+      "42304163",
+      "33755965",
+      "42348043",
+      "39438534",
+      "32383373",
+      "38703871",
+      "42023218",
+      "40289127",
+      "39945271"
+    ],
+    "review": [
+      "42650051"
+    ],
+    "pmc": [
+      "13511956"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17080858",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atrialfibrillation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atrial Fibrillation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42650051/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

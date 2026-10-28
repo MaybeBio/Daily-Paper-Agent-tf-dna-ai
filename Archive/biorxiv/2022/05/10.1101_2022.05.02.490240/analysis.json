@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.02.490240",
+  "title": "GraphPred: An approach to predict multiple DNA motifs from ATAC-seq data using graph neural network and coexisting probability",
+  "authors": "Shuangquan Zhang; Lili Yang; Xiaotian Wu; Nan Sheng; Yuan Fu; Anjun Ma; Yan Wang",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-04",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用图神经网络从ATAC-seq数据预测多个转录因子结合位点并发现DNA基序，核心聚焦TF-DNA结合位点预测，方法为AI（GNN），高度匹配本课题。",
+  "abstract": "Assay for Transposase-Accessible Chromatin sequencing (ATAC-seq) utilizes hyperactive Tn5 transposase to cut open chromatin and reveal chromatin accessibility at a genome-wide level. ATAC-seq can reveal more kinds of transcription factor binding regions than Chromatin immunoprecipitation sequencing (ChIP-seq) and DNase I hypersensitive sites sequencing (DNase-seq). Transcription factor binding sites (TFBSs) prediction is a crucial step to reveal the functions of TFs from the high throughput sequencing data. TFBSs of the same TF tend to be conserved in the sequence level, which is named motif. Several deep learning models based on the convolutional neural networks are used to find motifs from ATAC-seq data. However, these methods didn’t take into account that multiple TFs bind to a given sequence and the probability that a fragment of a given sequence is a TFBS. To find binding sites of multiple TFs, we developed a novel GNN model named GraphPred for TFBSs prediction and finding multiple motifs using the coexisting probability of k-mers. In the light of the experiment results, GraphPred can find more and higher quality motifs from 88 ATAC-seq datasets than comparison tools. Meanwhile, GraphPred achieved an area of eight metrics radar (AEMR) score of 2.31.",
+  "abstract_zh": "转座酶可及染色质测序（ATAC-seq）利用高活性Tn5转座酶切割开放染色质，在全基因组水平揭示染色质可及性。与染色质免疫沉淀测序（ChIP-seq）和DNase I超敏位点测序（DNase-seq）相比，ATAC-seq能揭示更多种类的转录因子结合区域。转录因子结合位点（TFBSs）预测是从高通量测序数据中揭示转录因子功能的关键步骤。同一转录因子的TFBSs在序列水平上趋于保守，这被称为基序（motif）。基于卷积神经网络的几种深度学习模型被用于从ATAC-seq数据中寻找基序。然而，这些方法未考虑多个转录因子结合同一序列以及给定序列片段作为TFBS的概率。为寻找多个转录因子的结合位点，我们开发了一种新型图神经网络（GNN）模型，名为GraphPred，利用k-mer共存概率进行TFBSs预测并发现多个基序。实验结果表明，GraphPred能从88个ATAC-seq数据集中找到比对比工具更多且质量更高的基序。同时，GraphPred的八指标雷达图面积（AEMR）得分为2.31。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.02.490240",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.02.490240",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.02.490240/index.html"
+}

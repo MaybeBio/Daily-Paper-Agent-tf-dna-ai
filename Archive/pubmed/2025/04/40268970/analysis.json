@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40268970",
+  "title": "Neural network conditioned to produce thermophilic protein sequences can increase thermal stability.",
+  "authors": "Komp, Evan; Phillips, Christian; Lee, Lauren M; Fallin, Shayna M; Alanzi, Humood N; Zorman, Marlo; McCully, Michelle E; Beck, David A C",
+  "journal": "Scientific reports",
+  "published_date": "2025-04-24",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用神经机器翻译设计耐热蛋白，虽涉及蛋白稳定性但非蛋白质-DNA互作体系，无结合建模或TF-DNA机制研究，与本课题关联微弱。",
+  "abstract": "This work presents Neural Optimization for Melting-temperature Enabled by Leveraging Translation (NOMELT), a novel approach for designing and ranking high-temperature stable proteins using neural machine translation. The model, trained on over 4 million protein homologous pairs from organisms adapted to different temperatures, demonstrates promising capability in targeting thermal stability. A designed variant of the Drosophila melanogaster Engrailed Homeodomain shows a melting temperature increase of 15.5 K. Furthermore, NOMELT achieves zero-shot predictive capabilities in ranking experimental melting and half-activation temperatures across a number of protein families. It achieves this without requiring extensive homology data or massive training datasets as do existing zero-shot predictors by specifically learning thermophilicity, as opposed to all natural variation. These findings underscore the potential of leveraging organismal growth temperatures in context-dependent design of proteins for enhanced thermal stability.",
+  "abstract_zh": "本工作提出了“神经优化实现熔解温度提升”（NOMELT），一种利用神经机器翻译设计和排序高温稳定蛋白质的新方法。该模型在来自适应不同温度生物体的超过400万对蛋白质同源序列上训练，展现出针对热稳定性的显著能力。一个设计变体果蝇（Drosophila melanogaster）Engrailed同源结构域蛋白的熔解温度提高了15.5 K。此外，NOMELT在多个蛋白质家族中实现了对实验熔解温度和半激活温度排序的零样本预测能力。它无需像现有零样本预测器那样依赖广泛的同源数据或大规模训练数据集，而是通过专门学习嗜热性（thermophilicity）而非所有自然变异来实现这一点。这些发现强调了利用生物体生长温度进行上下文依赖性蛋白质设计以增强热稳定性的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40268970/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40268970/",
+  "paper_page_path": "papers/pubmed/40268970/index.html"
+}

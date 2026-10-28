@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.18.469150",
+  "title": "Evidence for the role of transcription factors in the co-transcriptional regulation of intron retention",
+  "authors": "Ullah F; Salton M; Reddy AS; Ben-Hur A",
+  "journal": "bioRxiv",
+  "published_date": "2021-11-20",
+  "window": {
+    "start": "2021-11-15",
+    "end": "2021-11-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型分析开放染色质区域，预测影响内含子保留的转录因子基序，虽涉及TF-DNA结合但聚焦共转录剪接调控，非直接TF-DNA互作建模，方法可迁移。",
+  "abstract": "<h4>ABSTRACT</h4> Alternative splicing is a widespread regulatory phenomenon that enables a single gene to produce multiple transcripts. Among the different types of alternative splicing, intron retention is one of the least explored despite its high prevalence in both plants and animals. The recent discovery that the majority of splicing is co-transcriptional has led to the finding that chromatin state affects alternative splicing. Therefore it is plausible that transcription factors can regulate splicing outcomes. We provide evidence for this hypothesis by studying regions of open chromatin in retained and excised introns. Using deep learning models designed to distinguish between regions of open chromatin in retained introns and non-retained introns, we identified motifs enriched in IR events with significant hits to known human transcription factors. Our model predicts that the majority of transcription factors that affect intron retention come from the zinc finger family. We demonstrate the validity of these predictions using ChIP-seq data for multiple zinc finger transcription factors and find strong over-representation for their peaks in intron retention events. <h4>Availability</h4> Source code available at https://github.com/fahadahaf/chromir",
+  "abstract_zh": "<h4>摘要</h4> 选择性剪接（alternative splicing）是一种广泛的调控现象，使单个基因能够产生多种转录本。在各类选择性剪接中，内含子保留（intron retention）尽管在植物和动物中普遍存在，却是研究最少的类型之一。近期发现大多数剪接是共转录的，这促使人们认识到染色质状态影响选择性剪接。因此，转录因子可能调控剪接结果，这一假设是合理的。我们通过研究保留和切除内含子中的开放染色质区域，为该假设提供了证据。利用设计用于区分保留内含子与非保留内含子中开放染色质区域的深度学习模型，我们识别出在内含子保留事件中富集的基序，这些基序与已知人类转录因子有显著匹配。我们的模型预测，影响内含子保留的大多数转录因子来自锌指蛋白家族。我们使用多种锌指转录因子的ChIP-seq数据验证了这些预测的有效性，并发现其峰在内含子保留事件中显著过度代表。<h4>可用性</h4> 源代码可在 https://github.com/fahadahaf/chromir 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.18.469150",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.18.469150",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.18.469150/index.html"
+}

@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "42310671",
+    "doi": "10.1186/s12985-026-03221-2",
+    "title": "Thermodynamic variations at the HPV E1-E2 interface correlate with clinical risk groups: an in-silico analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Human Papillomavirus (HPV) infection is a leading cause of human cancers, including nearly all cases of cervical cancer. The viral life cycle and its associated oncogenic potential are critically dependent on the replication of the viral genome, a process driven by the viral E1 protein. Its central role and high degree of sequence conservation within the enzymatic core provide a structural rationale for targeted therapies. METHODS: A comprehensive in silico analysis was conducted to investigate the structural and functional roles of the HPV E1 protein using a multi-scale computational workflow. E1 sequences from the Papillomavirus Episteme database underwent multiple sequence alignment to delineate evolutionary relationships and identify conserved residues. Structural modeling using AlphaFold3 generated high-resolution models of E1 in complex with E2 and as hexameric assemblies. These models were subjected to thermodynamic profiling to calculate predicted binding energies (DeltaG) and interface geometry and solvation. Finally, a logistic regression framework evaluated the predictive power of these parameters in distinguishing oncogenic risk. RESULTS: The C-terminal helicase was identified as the most highly conserved region, with near-universal invariance in key catalytic motifs essential for ATP binding and hydrolysis. In contrast, the N-terminal regulatory region exhibited greater sequence divergence. Structural mapping onto the E1 DNA-binding domain (DBD) and the hexameric helicase assembly revealed that conserved residues cluster near DNA-recognition surfaces of the DBD and the interaction surface for the E2 regulatory protein. Thermodynamic analysis revealed an energetic distinction between High-Risk (HR) and Low-Risk (LR) types. LR E1-E2 complexes exhibited higher predicted stability (DeltaG =  - 25.65 kcal/mol) compared to HR complexes (DeltaG =  - 20.95 kcal/mol; P < 0.001). Receiver Operating Characteristic analysis demonstrated that E1-E2 binding energy has strong discriminative ability within this dataset (AUC = 0.875). CONCLUSIONS: The extensive conservation of E1's core enzymatic machinery highlights its indispensable function. However, thermodynamic variations at the E1-E2 interface correlate with distinct clinical risk groups. These in silico findings provide a framework for understanding functional sites in the E1-E2 complex and identify the recruitment interface as thermodynamically distinct between classes of pathogenicity. These results motivate future experimental validation of E1-E2 binding kinetics.",
+    "keywords": [
+      "ATPase domain",
+      "DNA helicase",
+      "DNA-binding domain",
+      "E1 Protein",
+      "Human papillomavirus",
+      "Sequence conservation",
+      "Structural modeling",
+      "Viral replication"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Human Papillomavirus Viruses/genetics/chemistry",
+      "Thermodynamics",
+      "*Oncogene Proteins, Viral/chemistry/genetics/metabolism",
+      "Protein Binding",
+      "Models, Molecular",
+      "Computer Simulation",
+      "*Papillomavirus Infections/virology",
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "Amino Acid Sequence",
+      "Sequence Alignment",
+      "*Papillomaviridae/genetics",
+      "*Viral Proteins/chemistry/genetics/metabolism",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fletcher, Sean",
+        "Biswas-Fiss, Esther E",
+        "Biswas, Subhasis B"
+      ],
+      "short_names": [
+        "Fletcher S",
+        "Biswas-Fiss EE",
+        "Biswas SB"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-4874-3552",
+        "ORCID: 0000-0002-5084-862X"
+      ],
+      "affiliations": [
+        "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA.",
+        "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA.",
+        "Ammon Pino Zotto Biopharmaceutical Innovation Center, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA.",
+        "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA. biswassb@udel.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fletcher, Sean",
+        "short_name": "Fletcher S",
+        "identifiers": [
+          "0009-0009-4874-3552"
+        ],
+        "affiliations": [
+          "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA."
+        ]
+      },
+      {
+        "full_name": "Biswas-Fiss, Esther E",
+        "short_name": "Biswas-Fiss EE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA.",
+          "Ammon Pino Zotto Biopharmaceutical Innovation Center, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA."
+        ]
+      },
+      {
+        "full_name": "Biswas, Subhasis B",
+        "short_name": "Biswas SB",
+        "identifiers": [
+          "0000-0002-5084-862X"
+        ],
+        "affiliations": [
+          "Department of Medical and Molecular Sciences, College of Health Sciences, University of Delaware, Newark, DE, 19716, USA. biswassb@udel.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virology journal"
+    ],
+    "journal_abbrev": [
+      "Virol J"
+    ],
+    "pub_date": "2026 Jun 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/18 06:32",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40804408",
+      "40362569",
+      "40330484",
+      "39913370",
+      "38830815",
+      "38718835",
+      "37235532",
+      "37047526",
+      "36468648",
+      "35751129",
+      "34772425",
+      "32828463",
+      "32759324",
+      "31644607",
+      "30890612",
+      "30479656",
+      "29927370",
+      "29155954",
+      "28768872",
+      "28640596",
+      "28053164",
+      "28040475",
+      "27890631",
+      "27130930",
+      "26193119",
+      "25883146",
+      "25833051",
+      "25577151",
+      "24029589",
+      "23998342",
+      "23849793",
+      "23329690",
+      "23199966",
+      "23189750",
+      "22768354",
+      "21734051",
+      "21450828",
+      "20951869",
+      "20676971",
+      "20592731",
+      "19939914",
+      "19798429",
+      "19151095",
+      "18412369",
+      "18372315",
+      "18032488",
+      "17681537",
+      "17519246",
+      "16855583",
+      "16415033",
+      "16285920",
+      "16072036",
+      "15980494",
+      "15454080",
+      "15289463",
+      "15183049",
+      "14593106",
+      "12191478",
+      "11889054",
+      "10949036",
+      "10906188",
+      "10364274",
+      "9915800",
+      "9892642",
+      "9843509",
+      "9696837",
+      "9525573",
+      "8290339",
+      "8289339",
+      "7919985",
+      "6329717"
+    ],
+    "similar": [
+      "42310671",
+      "40804408",
+      "9525677",
+      "40362569",
+      "9696837",
+      "10364274",
+      "12692220",
+      "10906188",
+      "38385450",
+      "39396813",
+      "39826199",
+      "12730224",
+      "9500925",
+      "14593106",
+      "9878365",
+      "27807239",
+      "42155768",
+      "18084026",
+      "8290339",
+      "10792994",
+      "25833051",
+      "7809048",
+      "22278251",
+      "20844047",
+      "10906136",
+      "10949036",
+      "28031358",
+      "21450828",
+      "11967317",
+      "26739052",
+      "10191198",
+      "12192057",
+      "27795438",
+      "30890607",
+      "30842331",
+      "9500927",
+      "39665560",
+      "29848583",
+      "17344281",
+      "37047526",
+      "15795266",
+      "10089498",
+      "7595403",
+      "9733858",
+      "29288769",
+      "9680127",
+      "15289463",
+      "10873756",
+      "9499806",
+      "11836404",
+      "16513133",
+      "10194380",
+      "9049327",
+      "9499053",
+      "42282523",
+      "28275188",
+      "37272841",
+      "29142126",
+      "10704351",
+      "12560558",
+      "8396665",
+      "42475469",
+      "7592989",
+      "7645243",
+      "41910319",
+      "27825778",
+      "10627562",
+      "8995605",
+      "1323690",
+      "11711585",
+      "25911730",
+      "8386271",
+      "30135125",
+      "31083694",
+      "7800477",
+      "25142587",
+      "7937813",
+      "16529788",
+      "19783272",
+      "12239214",
+      "7744075",
+      "16135518",
+      "16611886",
+      "18337573",
+      "23637413",
+      "10531369",
+      "20676971",
+      "23365439",
+      "37523977",
+      "21734051",
+      "8289339",
+      "10618715",
+      "19781729",
+      "26091566",
+      "16914454",
+      "8703960",
+      "10729151",
+      "21458836",
+      "20147403",
+      "17713926"
+    ],
+    "review": [
+      "42310671",
+      "39826199"
+    ],
+    "pmc": [
+      "13520174"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://virologyj.biomedcentral.com/articles/10.1186/s12985-026-03221-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hpv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HPV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42310671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

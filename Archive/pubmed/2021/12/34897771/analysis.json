@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34897771",
+  "title": "Bayesian regularization for a nonstationary Gaussian linear mixed effects model.",
+  "authors": "Gecili, Emrah; Sivaganesan, Siva; Asar, Ozgur; Clancy, John P; Ziady, Assem; Szczesniak, Rhonda D",
+  "journal": "Statistics in medicine",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出贝叶斯正则化线性混合效应模型用于蛋白质组学生物标志物选择，虽在酵母数据中识别转录因子，但核心是纵向表型预测而非蛋白质-DNA互作建模，且无AI或物理模拟方法。",
+  "abstract": "In omics experiments, estimation and variable selection can involve thousands of proteins/genes observed from a relatively small number of subjects. Many regression regularization procedures have been developed for estimation and variable selection in such high-dimensional problems. However, approaches have predominantly focused on linear regression models that ignore correlation arising from long sequences of repeated measurements on the outcome. Our work is motivated by the need to identify proteomic biomarkers that improve the prediction of rapid lung-function decline for individuals with cystic fibrosis (CF) lung disease. We extend four Bayesian penalized regression approaches for a Gaussian linear mixed effects model with nonstationary covariance structure to account for the complicated structure of longitudinal lung function data while simultaneously estimating unknown parameters and selecting important protein isoforms to improve predictive performance. Different types of shrinkage priors are evaluated to induce variable selection in a fully Bayesian framework. The approaches are studied with simulations. We apply the proposed method to real proteomics and lung-function outcome data from our motivating CF study, identifying a set of relevant clinical/demographic predictors and a proteomic biomarker for rapid decline of lung function. We also illustrate the methods on CD4 yeast cell-cycle genomic data, confirming that the proposed method identifies transcription factors that have been highlighted in the literature for their importance as cell cycle transcription factors.",
+  "abstract_zh": "在组学实验中，估计和变量选择可能涉及从相对较少的受试者中观察到的数千种蛋白质/基因。许多回归正则化方法已被开发用于此类高维问题中的估计和变量选择。然而，这些方法主要集中于线性回归模型，忽略了由结果变量的长序列重复测量所产生的相关性。我们的工作源于识别蛋白质组生物标志物的需求，这些标志物可改善囊性纤维化（CF）肺病个体肺功能快速下降的预测。我们将四种贝叶斯惩罚回归方法扩展至具有非平稳协方差结构的高斯线性混合效应模型，以考虑纵向肺功能数据的复杂结构，同时估计未知参数并选择重要的蛋白质异构体以提高预测性能。我们评估了不同类型的收缩先验，以在全贝叶斯框架中实现变量选择。这些方法通过模拟研究进行了验证。我们将所提出的方法应用于我们动机性CF研究中的真实蛋白质组学和肺功能结果数据，识别出一组相关的临床/人口统计学预测因子以及一个用于肺功能快速下降的蛋白质组生物标志物。我们还在CD4酵母细胞周期基因组数据上展示了这些方法，确认所提出的方法能够识别文献中强调为细胞周期转录因子重要性的转录因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34897771/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34897771/",
+  "paper_page_path": "papers/pubmed/34897771/index.html"
+}

@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "35814926",
+    "doi": "10.1039/d2md00053a",
+    "title": "Inhibition of MARK4 by serotonin as an attractive therapeutic approach to combat Alzheimer's disease and neuroinflammation."
+  },
+  "content": {
+    "abstract": "Mitogen-activated protein kinases (MAPKs) govern various cellular programs and crucial intermediate pathways in signaling. Microtubule affinity-regulating kinase 4 (MARK4) is a part of the kinase family recognized for actively phosphorylating neural microtubule-associated proteins (MAPs) like MAP2, MAP4 and most importantly, tau. The Ser/Thr kinase MARK4 overexpression is associated with various life-threatening conditions such as neurodegenerative disorders, diabetic neuropathy, and cancer. Functionally, MARK4 is correlated with many important signaling cascades and transcription factors contributing to neurodegeneration and cancer onset and progression. Serotonin is a key molecule associated with regulating mood, stress, and various behavioral aspects. Low serotonin levels promote the progression of neurological and psychotic disorders, which is also a consequence of tau accumulation. MARK4 being a major contributor to phosphorylating tau, leading to its accumulation, and contributing to tauopathy, is targeted for inhibition by serotonin. The study deals with the inhibition of MARK4 by serotonin using combined computational and experimental studies. The results presented in this paper provide strong evidence for the direct physical binding of serotonin to recombinant MARK4 and subsequent inhibition of its kinase activity. In addition, we have performed molecular docking, followed by 100 ns MD simulations of MARK4 in the presence of serotonin, to estimate the stability of the protein-ligand complex. Since MARK4 is a potential drug target and can be exploited for drug design and discovery for cancer and neurodegenerative disorders, the results presented here are of interest and may be further exploited for Alzheimer's disease (AD) and other neurodegenerative diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shamsi, Anas",
+        "DasGupta, Debarati",
+        "Alhumaydhi, Fahad A",
+        "Khan, Mohd Shahnawaz",
+        "Alsagaby, Suliman A",
+        "Al Abdulmonem, Waleed",
+        "Hassan, Md Imtaiyaz",
+        "Yadav, Dharmendra Kumar"
+      ],
+      "short_names": [
+        "Shamsi A",
+        "DasGupta D",
+        "Alhumaydhi FA",
+        "Khan MS",
+        "Alsagaby SA",
+        "Al Abdulmonem W",
+        "Hassan MI",
+        "Yadav DK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7055-7056",
+        "ORCID: 0000-0002-6289-5749",
+        "ORCID: 0000-0002-0151-8309",
+        "ORCID: 0000-0002-4599-5924",
+        "ORCID: 0000-0002-3663-4940"
+      ],
+      "affiliations": [
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar New Delhi 110025 India anas.shamsi18@gmail.com mihassan@jmi.ac.in.",
+        "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University United Arab Emirates.",
+        "College of Pharmacy, University of Michigan 428 Church Street Ann Arbor Michigan 48109 USA debarati@med.umich.edu.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University Buraydah Saudi Arabia f.alhumaydhi@qu.edu.sa.",
+        "Department of Biochemistry, College of Sciences, King Saud University Riyadh 11451 Saudi Arabia moskhan@ksu.edu.sa.",
+        "Department of Medical Laboratory Sciences, College of Applied Medical Sciences, Majmaah University Majmaah 11932 Saudi Arabia s.alsaqaby@mu.edu.sa.",
+        "Department of Pathology, College of Medicine, Qassim University Buraydah Saudi Arabia waleedmonem@qumed.edu.sa.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar New Delhi 110025 India anas.shamsi18@gmail.com mihassan@jmi.ac.in.",
+        "College of Pharmacy, Gachon University of Medicine and Science Hambakmoeiro, Yeonsu-gu Incheon 21924 South Korea dharmendra30oct@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shamsi, Anas",
+        "short_name": "Shamsi A",
+        "identifiers": [
+          "0000-0001-7055-7056"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar New Delhi 110025 India anas.shamsi18@gmail.com mihassan@jmi.ac.in.",
+          "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "DasGupta, Debarati",
+        "short_name": "DasGupta D",
+        "identifiers": [
+          "0000-0002-6289-5749"
+        ],
+        "affiliations": [
+          "College of Pharmacy, University of Michigan 428 Church Street Ann Arbor Michigan 48109 USA debarati@med.umich.edu."
+        ]
+      },
+      {
+        "full_name": "Alhumaydhi, Fahad A",
+        "short_name": "Alhumaydhi FA",
+        "identifiers": [
+          "0000-0002-0151-8309"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University Buraydah Saudi Arabia f.alhumaydhi@qu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Khan, Mohd Shahnawaz",
+        "short_name": "Khan MS",
+        "identifiers": [
+          "0000-0002-4599-5924"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, College of Sciences, King Saud University Riyadh 11451 Saudi Arabia moskhan@ksu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Alsagaby, Suliman A",
+        "short_name": "Alsagaby SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Sciences, College of Applied Medical Sciences, Majmaah University Majmaah 11932 Saudi Arabia s.alsaqaby@mu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Al Abdulmonem, Waleed",
+        "short_name": "Al Abdulmonem W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, Qassim University Buraydah Saudi Arabia waleedmonem@qumed.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Hassan, Md Imtaiyaz",
+        "short_name": "Hassan MI",
+        "identifiers": [
+          "0000-0002-3663-4940"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar New Delhi 110025 India anas.shamsi18@gmail.com mihassan@jmi.ac.in."
+        ]
+      },
+      {
+        "full_name": "Yadav, Dharmendra Kumar",
+        "short_name": "Yadav DK",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Gachon University of Medicine and Science Hambakmoeiro, Yeonsu-gu Incheon 21924 South Korea dharmendra30oct@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RSC medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "RSC Med Chem"
+    ],
+    "pub_date": "2022 Jun 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/12 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "40177269",
+      "40176911",
+      "39931856",
+      "39841316",
+      "39500357",
+      "39465382",
+      "38585978",
+      "37795023",
+      "36844587",
+      "36271116",
+      "35955902",
+      "35889524"
+    ],
+    "refs": [
+      "34751461",
+      "34121218",
+      "34023419",
+      "33859748",
+      "33105480",
+      "32587267",
+      "32443670",
+      "32429317",
+      "32422877",
+      "31954794",
+      "31714766",
+      "31150999",
+      "29079437",
+      "28775986",
+      "28323941",
+      "26882547",
+      "26841763",
+      "26592383",
+      "26011650",
+      "25961058",
+      "24533944",
+      "22683950",
+      "22582031",
+      "21870888",
+      "20708951",
+      "20139991",
+      "20071654",
+      "18814299",
+      "17089919",
+      "16268734",
+      "15927346",
+      "15031492",
+      "14690523",
+      "12511643",
+      "11191371",
+      "11134668",
+      "10688905",
+      "9571651"
+    ],
+    "similar": [
+      "35814926",
+      "36257368",
+      "35889524",
+      "37795023",
+      "38342269",
+      "33020179",
+      "31512980",
+      "37661636",
+      "38712317",
+      "36870649",
+      "37315665",
+      "32535203",
+      "38759860",
+      "35961526",
+      "34681645",
+      "29683402",
+      "31174206",
+      "36844587",
+      "14594945",
+      "32443670",
+      "26519933",
+      "27708431",
+      "26565604",
+      "37884211",
+      "22692785",
+      "34121218",
+      "27748164",
+      "29079437",
+      "24533944",
+      "23666762",
+      "28842631",
+      "34923338",
+      "32587267",
+      "37184133",
+      "38911744",
+      "36376029",
+      "26208600",
+      "31429800",
+      "35520423",
+      "31411112",
+      "38041405",
+      "32954123",
+      "26346160",
+      "35955902",
+      "34992737",
+      "24763618",
+      "34751461",
+      "24989893",
+      "27677563",
+      "23184942",
+      "31343173",
+      "25123532",
+      "32082974",
+      "30290280",
+      "25578778",
+      "32439949",
+      "34289095",
+      "23400999",
+      "31179271",
+      "32141394",
+      "32326642",
+      "37470016",
+      "35052845",
+      "28656979",
+      "23471664",
+      "22992738",
+      "31167564",
+      "32920628",
+      "10620503",
+      "22670221",
+      "30857324",
+      "35936719",
+      "16973293",
+      "26888669",
+      "34040253",
+      "33662429",
+      "22156579",
+      "28183853",
+      "31073393",
+      "38911173",
+      "22156016",
+      "7477934",
+      "34152739",
+      "31506531",
+      "24270002",
+      "31903881",
+      "28082867",
+      "30610738",
+      "27989667",
+      "28255271",
+      "9735171",
+      "38585978",
+      "24446173",
+      "30579124",
+      "30893872",
+      "30572013",
+      "28002468",
+      "28137967",
+      "1376245",
+      "11578751",
+      "31324720",
+      "35408478",
+      "18254724",
+      "33453943",
+      "25076872"
+    ],
+    "review": [
+      "35814926",
+      "37661636",
+      "35961526",
+      "35955902",
+      "34289095",
+      "23471664",
+      "31903881",
+      "28082867",
+      "30610738",
+      "11578751",
+      "33453943"
+    ],
+    "pmc": [
+      "9215163"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pubmed.jsp?pubmed_submit=Search&pubmed=35814926",
+        "provider": "BindingDB",
+        "category": "Chemical Information",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35814926/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2md00053a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35814926",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

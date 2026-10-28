@@ -1,0 +1,575 @@
+{
+  "identity": {
+    "pmid": "35108061",
+    "doi": "10.1126/scitranslmed.abj0324",
+    "title": "NF-kappaB perturbation reveals unique immunomodulatory functions in Prx1(+) fibroblasts that promote development of atopic dermatitis."
+  },
+  "content": {
+    "abstract": "Skin is composed of diverse cell populations that cooperatively maintain homeostasis. Up-regulation of the nuclear factor kappaB (NF-kappaB) pathway may lead to the development of chronic inflammatory disorders of the skin, but its role during the early events remains unclear. Through analysis of single-cell RNA sequencing data via iterative random forest leave one out prediction, an explainable artificial intelligence method, we identified an immunoregulatory role for a unique paired related homeobox-1 (Prx1)(+) fibroblast subpopulation. Disruption of Ikkb-NF-kappaB under homeostatic conditions in these fibroblasts paradoxically induced skin inflammation due to the overexpression of C-C motif chemokine ligand 11 (CCL11; or eotaxin-1) characterized by eosinophil infiltration and a subsequent T(H)2 immune response. Because the inflammatory phenotype resembled that seen in human atopic dermatitis (AD), we examined human AD skin samples and found that human AD fibroblasts also overexpressed CCL11 and that perturbation of Ikkb-NF-kappaB in primary human dermal fibroblasts up-regulated CCL11. Monoclonal antibody treatment against CCL11 was effective in reducing the eosinophilia and T(H)2 inflammation in a mouse model. Together, the murine model and human AD specimens point to dysregulated Prx1(+) fibroblasts as a previously unrecognized etiologic factor that may contribute to the pathogenesis of AD and suggest that targeting CCL11 may be a way to treat AD-like skin lesions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Artificial Intelligence",
+      "*Dermatitis, Atopic/pathology",
+      "Fibroblasts/pathology",
+      "Immunity",
+      "Mice",
+      "NF-kappa B/metabolism",
+      "Skin/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ko, Kang I",
+        "Merlet, Jean J",
+        "DerGarabedian, Brett P",
+        "Zhen, Huang",
+        "Suzuki-Horiuchi, Yoko",
+        "Hedberg, Matthew L",
+        "Hu, Eileen",
+        "Nguyen, Anh T",
+        "Prouty, Stephen",
+        "Alawi, Faizan",
+        "Walsh, Matthew C",
+        "Choi, Yongwon",
+        "Millar, Sarah E",
+        "Cliff, Ashley",
+        "Romero, Jonathon",
+        "Garvin, Michael R",
+        "Seykora, John T",
+        "Jacobson, Daniel",
+        "Graves, Dana T"
+      ],
+      "short_names": [
+        "Ko KI",
+        "Merlet JJ",
+        "DerGarabedian BP",
+        "Zhen H",
+        "Suzuki-Horiuchi Y",
+        "Hedberg ML",
+        "Hu E",
+        "Nguyen AT",
+        "Prouty S",
+        "Alawi F",
+        "Walsh MC",
+        "Choi Y",
+        "Millar SE",
+        "Cliff A",
+        "Romero J",
+        "Garvin MR",
+        "Seykora JT",
+        "Jacobson D",
+        "Graves DT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2967-8846",
+        "ORCID: 0000-0003-2890-9729",
+        "ORCID: 0000-0001-5591-7340",
+        "ORCID: 0000-0003-3800-6160",
+        "ORCID: 0000-0002-2810-9724",
+        "ORCID: 0000-0002-2181-8149",
+        "ORCID: 0000-0001-7272-1171",
+        "ORCID: 0000-0001-9436-8268",
+        "ORCID: 0000-0001-8792-6890",
+        "ORCID: 0000-0001-7809-5546",
+        "ORCID: 0000-0001-5249-1946",
+        "ORCID: 0000-0002-2204-7569",
+        "ORCID: 0000-0003-0383-031X",
+        "ORCID: 0000-0002-9822-8251",
+        "ORCID: 0000-0002-4664-8529"
+      ],
+      "affiliations": [
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA.",
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Periodontology, Peking University School and Hospital of Stomatology, Haidian District, Beijing 100081, China.",
+        "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Basic and Translational Sciences, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA.",
+        "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA.",
+        "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA.",
+        "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA.",
+        "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ko, Kang I",
+        "short_name": "Ko KI",
+        "identifiers": [
+          "0000-0003-2967-8846"
+        ],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Merlet, Jean J",
+        "short_name": "Merlet JJ",
+        "identifiers": [
+          "0000-0003-2890-9729"
+        ],
+        "affiliations": [
+          "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA."
+        ]
+      },
+      {
+        "full_name": "DerGarabedian, Brett P",
+        "short_name": "DerGarabedian BP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Zhen, Huang",
+        "short_name": "Zhen H",
+        "identifiers": [
+          "0000-0001-5591-7340"
+        ],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Department of Periodontology, Peking University School and Hospital of Stomatology, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Suzuki-Horiuchi, Yoko",
+        "short_name": "Suzuki-Horiuchi Y",
+        "identifiers": [
+          "0000-0003-3800-6160"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hedberg, Matthew L",
+        "short_name": "Hedberg ML",
+        "identifiers": [
+          "0000-0002-2810-9724"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Eileen",
+        "short_name": "Hu E",
+        "identifiers": [
+          "0000-0002-2181-8149"
+        ],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Anh T",
+        "short_name": "Nguyen AT",
+        "identifiers": [
+          "0000-0001-7272-1171"
+        ],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Prouty, Stephen",
+        "short_name": "Prouty S",
+        "identifiers": [
+          "0000-0001-9436-8268"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Alawi, Faizan",
+        "short_name": "Alawi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic and Translational Sciences, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Walsh, Matthew C",
+        "short_name": "Walsh MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Yongwon",
+        "short_name": "Choi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Millar, Sarah E",
+        "short_name": "Millar SE",
+        "identifiers": [
+          "0000-0001-8792-6890"
+        ],
+        "affiliations": [
+          "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Cliff, Ashley",
+        "short_name": "Cliff A",
+        "identifiers": [
+          "0000-0001-7809-5546"
+        ],
+        "affiliations": [
+          "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA."
+        ]
+      },
+      {
+        "full_name": "Romero, Jonathon",
+        "short_name": "Romero J",
+        "identifiers": [
+          "0000-0001-5249-1946"
+        ],
+        "affiliations": [
+          "Bredesen Center for Interdisciplinary Research and Graduate Education, University of Tennessee Knoxville, Knoxville, TN 37996, USA."
+        ]
+      },
+      {
+        "full_name": "Garvin, Michael R",
+        "short_name": "Garvin MR",
+        "identifiers": [
+          "0000-0002-2204-7569"
+        ],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA."
+        ]
+      },
+      {
+        "full_name": "Seykora, John T",
+        "short_name": "Seykora JT",
+        "identifiers": [
+          "0000-0003-0383-031X"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Jacobson, Daniel",
+        "short_name": "Jacobson D",
+        "identifiers": [
+          "0000-0002-9822-8251"
+        ],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA."
+        ]
+      },
+      {
+        "full_name": "Graves, Dana T",
+        "short_name": "Graves DT",
+        "identifiers": [
+          "0000-0002-4664-8529"
+        ],
+        "affiliations": [
+          "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science translational medicine"
+    ],
+    "journal_abbrev": [
+      "Sci Transl Med"
+    ],
+    "pub_date": "2022 Feb 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/03 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "42614600",
+      "42351638",
+      "42349051",
+      "42124049",
+      "42028413",
+      "41872033",
+      "41664378",
+      "41598494",
+      "41581894",
+      "41569693",
+      "41551767",
+      "41533514",
+      "41311399",
+      "41243996",
+      "41123093",
+      "40856011",
+      "40846081",
+      "40782349",
+      "40713851",
+      "40525648",
+      "40267702",
+      "40196418",
+      "40178270",
+      "40092571",
+      "40026499",
+      "40009233",
+      "39962262",
+      "39654684",
+      "39650645",
+      "39420283",
+      "39206203",
+      "39146798",
+      "38940997",
+      "38696610",
+      "38672786",
+      "38545113",
+      "38435807",
+      "38371487",
+      "38291032",
+      "37902166",
+      "37809065",
+      "37569742",
+      "37276016",
+      "37261432",
+      "37033625",
+      "36883660",
+      "36747738",
+      "36610396",
+      "36591258",
+      "36584405",
+      "36505405",
+      "36275707"
+    ],
+    "refs": [
+      "33479125",
+      "33176144",
+      "32738956",
+      "32109378",
+      "32079726",
+      "32035984",
+      "31810264",
+      "31672983",
+      "31604912",
+      "31590274",
+      "31501550",
+      "31462327",
+      "31439641",
+      "31178118",
+      "31142839",
+      "30819278",
+      "30670308",
+      "30658573",
+      "30654600",
+      "30042946",
+      "29930242",
+      "29158945",
+      "29080679",
+      "28547386",
+      "28476751",
+      "28249066",
+      "28086098",
+      "27883001",
+      "27814504",
+      "26993069",
+      "26597958",
+      "25883361",
+      "25862089",
+      "25801508",
+      "25748931",
+      "25516281",
+      "24722477",
+      "24565453",
+      "24231355",
+      "23434756",
+      "22902781",
+      "22573806",
+      "21772278",
+      "21249468",
+      "21243012",
+      "21039413",
+      "20236835",
+      "19078986",
+      "18430087",
+      "17850181",
+      "16481359",
+      "14597658",
+      "12112875",
+      "10931874"
+    ],
+    "similar": [
+      "35108061",
+      "26388234",
+      "11694538",
+      "32998341",
+      "37963429",
+      "29747743",
+      "26100037",
+      "34784561",
+      "24713170",
+      "33652742",
+      "32330842",
+      "23454147",
+      "16950294",
+      "31678637",
+      "28873377",
+      "31075381",
+      "35008979",
+      "16628194",
+      "30724631",
+      "23702389",
+      "15489928",
+      "32768955",
+      "28887839",
+      "23891346",
+      "34371956",
+      "34329716",
+      "30400140",
+      "24854572",
+      "24698321",
+      "10808183",
+      "33027922",
+      "17068475",
+      "26778605",
+      "25004886",
+      "32035984",
+      "23499868",
+      "34664800",
+      "28365521",
+      "24996260",
+      "32721463",
+      "30866501",
+      "20236835",
+      "33206422",
+      "28664215",
+      "31931018",
+      "31425706",
+      "35306042",
+      "23920370",
+      "29933898",
+      "22023698",
+      "30097125",
+      "34769428",
+      "28347830",
+      "16755001",
+      "34361560",
+      "31645147",
+      "35671605",
+      "33335525",
+      "21039413",
+      "14707467",
+      "35807237",
+      "25466270",
+      "29698775",
+      "20214667",
+      "23844115",
+      "26585782",
+      "10417617",
+      "37902166",
+      "33433718",
+      "30670308",
+      "25739980",
+      "34361003",
+      "30400334",
+      "34455178",
+      "17210053",
+      "28035398",
+      "22119586",
+      "31173875",
+      "28159725",
+      "17073866",
+      "26714752",
+      "23707484",
+      "34656059",
+      "30704333",
+      "24675422",
+      "11823539",
+      "34929516",
+      "12067303",
+      "31786805",
+      "35563717",
+      "26299987",
+      "34332065",
+      "31397016",
+      "32406065"
+    ],
+    "review": [
+      "35108061"
+    ],
+    "pmc": [
+      "8979241"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/scitranslmed.abj0324?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/35108061.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35108061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35108061",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35108061",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      }
+    ],
+    "text_mined": []
+  }
+}

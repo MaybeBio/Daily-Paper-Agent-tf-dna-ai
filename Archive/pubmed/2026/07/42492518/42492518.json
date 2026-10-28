@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "42492518",
+    "doi": "10.1016/j.xcrm.2026.102936",
+    "title": "Self-sufficient killing of malignant tumors by an engineered cancer-selective gene circuit."
+  },
+  "content": {
+    "abstract": "Gene therapies that selectively eliminate tumor cells within a heterogenous population remain an elusive goal in oncology, largely due to the difficulty to achieve cancer specificity by strict definition. Here, we engineer a therapeutic gene circuit capable of identifying cells that harbor oncogenic gain-of-function aberrations in E26 transformation-specific (ETS) transcription factors. Using a machine learning-guided random forest framework, we develop a cancer-selective promoter P(ETS *) that only activates during ETS overexpression and/or gene fusion events, while remaining inactive under physiological RAF-MEK-ERK signaling or in rapidly proliferating healthy tissues. When delivered using adenoviral vectors, P(ETS *) enables tumor-restricted viral replication in vivo as well as long-lasting tumor suppression and complete survival of treated mice. Specifically, intratracheal delivery of P(ETS *)-driven adenoviruses achieves sustained control of metastatic lung tumors for over 140 days. This work overcomes key barriers of synthetic biology and oncolytic virotherapy and could open up important avenues for future cancer treatment.",
+    "keywords": [
+      "ETS transcription factors",
+      "adenovirus delivery",
+      "cancer selective oncolytic virotherapy",
+      "cancer-specific promoter",
+      "synthetic gene circuit"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Adenoviridae/genetics",
+      "Mice",
+      "Promoter Regions, Genetic",
+      "Genetic Vectors",
+      "Oncolytic Virotherapy/methods",
+      "*Genetic Therapy/methods",
+      "*Gene Regulatory Networks",
+      "Cell Line, Tumor",
+      "*Neoplasms/therapy/genetics/pathology",
+      "*Lung Neoplasms/therapy/genetics",
+      "*Genetic Engineering",
+      "Proto-Oncogene Proteins c-ets/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Qi",
+        "Xiong, Qiqi",
+        "Xie, Guanglei",
+        "Chen, Qidi",
+        "Yang, Shujie",
+        "Wu, Yuhang",
+        "Zhao, Liuqi",
+        "Gao, Ting",
+        "Qiu, Xinyuan",
+        "Jiang, Jian",
+        "Wang, Xi",
+        "Shao, Jiawei",
+        "Xie, Mingqi",
+        "Ying, Songmin"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Xiong Q",
+        "Xie G",
+        "Chen Q",
+        "Yang S",
+        "Wu Y",
+        "Zhao L",
+        "Gao T",
+        "Qiu X",
+        "Jiang J",
+        "Wang X",
+        "Shao J",
+        "Xie M",
+        "Ying S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Basic Medical Sciences, Fudan University, Shanghai, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Westlake Institute for Advanced Study, Hangzhou 310024, China.",
+        "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China.",
+        "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Basic Medical Sciences, Fudan University, Shanghai, China.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China.",
+        "Department of Biology and Chemistry, College of Science, National University of Defense Technology, Changsha 410073, Hunan, China; College of Computer Science and Technology, National University of Defense Technology, Changsha 410073, Hunan, China.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Westlake Institute for Advanced Study, Hangzhou 310024, China.",
+        "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China. Electronic address: jiaweishao@zju.edu.cn.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Engineering, Westlake University, Hangzhou 310030, Zhejiang, China. Electronic address: xiemingqi@westlake.edu.cn.",
+        "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China; Department of Pharmacology and Department of Respiratory and Critical Care Medicine of the Second Affiliated Hospital, Zhejiang University School of Medicine, Key Laboratory of Respiratory Disease of Zhejiang Province, Hangzhou 310058, China. Electronic address: yings@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Qi",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Qiqi",
+        "short_name": "Xiong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Basic Medical Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Guanglei",
+        "short_name": "Xie G",
+        "identifiers": [],
+        "affiliations": [
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Westlake Institute for Advanced Study, Hangzhou 310024, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qidi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shujie",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuhang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Basic Medical Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Liuqi",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ting",
+        "short_name": "Gao T",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xinyuan",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, College of Science, National University of Defense Technology, Changsha 410073, Hunan, China; College of Computer Science and Technology, National University of Defense Technology, Changsha 410073, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jian",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Westlake Institute for Advanced Study, Hangzhou 310024, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Jiawei",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China. Electronic address: jiaweishao@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xie, Mingqi",
+        "short_name": "Xie M",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China; Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China; Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China; Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China; School of Engineering, Westlake University, Hangzhou 310030, Zhejiang, China. Electronic address: xiemingqi@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ying, Songmin",
+        "short_name": "Ying S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Center for Regenerative and Aging Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Zhejiang-Denmark Joint Laboratory of Regeneration and Aging Medicine, Yiwu 322000, China; Department of Pharmacology and Department of Respiratory and Critical Care Medicine of the Second Affiliated Hospital, Zhejiang University School of Medicine, Key Laboratory of Respiratory Disease of Zhejiang Province, Hangzhou 310058, China. Electronic address: yings@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2026 Aug 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/24 00:37",
+    "fetched_at": "2026-10-02 02:16:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38730657",
+      "38729160",
+      "38627967",
+      "38496694",
+      "38230766",
+      "38019857",
+      "37344568",
+      "36841365",
+      "36631681",
+      "36497300",
+      "36402738",
+      "36189285",
+      "35658214",
+      "35121865",
+      "34711990",
+      "33859378",
+      "33831557",
+      "33724117",
+      "33381459",
+      "32894272",
+      "32025007",
+      "31641136",
+      "31253799",
+      "31160723",
+      "30927317",
+      "30542624",
+      "30166458",
+      "29858085",
+      "29686425",
+      "29625055",
+      "29625050",
+      "29625048",
+      "28801903",
+      "28450705",
+      "28187284",
+      "27682039",
+      "27481008",
+      "26829320",
+      "26493648",
+      "26004498",
+      "25022906",
+      "24066765",
+      "23870508",
+      "23104886",
+      "22781695",
+      "22464321",
+      "21051352",
+      "20442708",
+      "20133564",
+      "19710704",
+      "19436055",
+      "19132916",
+      "19116625",
+      "19088268",
+      "18414476",
+      "18075512",
+      "17943135",
+      "15696177",
+      "14734481",
+      "12894249",
+      "12857895",
+      "11850117",
+      "11175366",
+      "11096443",
+      "9482916",
+      "9180086",
+      "7605428",
+      "2742465"
+    ],
+    "similar": [
+      "42492518",
+      "26515462",
+      "25376708",
+      "23229955",
+      "26902080",
+      "22244827",
+      "22842823",
+      "21187472",
+      "12670895",
+      "18214411",
+      "25701327",
+      "23021243",
+      "22261331",
+      "26471393",
+      "17630837",
+      "25303768",
+      "39329778",
+      "27379906",
+      "17508279",
+      "16570242",
+      "42341586",
+      "33477279",
+      "16373700",
+      "26084970",
+      "31486028",
+      "25034886",
+      "20735209",
+      "15232601",
+      "17545625",
+      "23503473",
+      "14577922",
+      "27080225",
+      "23000515",
+      "18273054",
+      "16900558",
+      "26823692",
+      "19956895",
+      "20635326",
+      "16617300",
+      "16307003",
+      "22086234",
+      "17472413",
+      "41494274",
+      "23869779",
+      "40459263",
+      "16034456",
+      "16172403",
+      "17085667",
+      "14734481",
+      "17102812",
+      "19785073",
+      "20487549",
+      "22212901",
+      "34066836",
+      "42564142",
+      "15379725",
+      "28941156",
+      "16096014",
+      "26081241",
+      "22040050",
+      "42248648",
+      "16861924",
+      "21699929",
+      "19571664",
+      "19122384",
+      "27323824",
+      "25683371",
+      "19363518",
+      "14674605",
+      "17346111",
+      "17604566",
+      "22032823",
+      "35048603",
+      "25980438",
+      "21169258",
+      "16467873",
+      "15920462",
+      "21948467",
+      "16871231",
+      "22384806",
+      "41733988",
+      "16951242",
+      "17131341",
+      "29396500",
+      "11238857",
+      "19484141",
+      "22033466",
+      "12719708",
+      "32216478",
+      "26950165",
+      "23962292",
+      "30848201",
+      "18949398",
+      "31238944",
+      "17113184",
+      "31641136",
+      "25525035",
+      "17875719",
+      "12188883",
+      "16166445"
+    ],
+    "review": [
+      "42492518",
+      "18214411",
+      "23021243",
+      "27379906",
+      "33477279",
+      "31486028",
+      "19956895",
+      "17472413",
+      "41494274",
+      "23869779",
+      "17102812",
+      "19785073",
+      "22212901",
+      "15379725",
+      "16096014",
+      "42248648",
+      "16861924",
+      "19122384",
+      "14674605",
+      "17346111",
+      "16467873"
+    ],
+    "pmc": [
+      "13522797"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(26)00353-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42492518/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42492518",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAF1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(26)00353-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "identity": {
+    "pmid": "40555806",
+    "doi": "10.1038/s41589-025-01936-x",
+    "title": "A small-molecule VHL molecular glue degrader for cysteine dioxygenase 1."
+  },
+  "content": {
+    "abstract": "The von Hippel-Lindau tumor suppressor gene product (pVHL) is an E3 ligase substrate receptor that binds proline-hydroxylated hypoxia-inducible factor HIF1alpha, leading to its ubiquitin-dependent degradation. By using protein arrays, we identified a small molecule that binds the HIF1alpha-binding pocket on pVHL and functions as a molecular glue degrader of the neosubstrate cysteine dioxygenase (CDO1) by recruiting it into the VHL-Cullin-RING E3 ligase complex and leading to its selective degradation. The CDO1-binding region involved in VHL recruitment was characterized through a combination of mutagenesis and protein-protein docking coupled with molecular-dynamics-based solvation analysis. The X-ray structure of the ternary complexes of VHL, CDO1 and degrader molecules confirms the binding region prediction and provides atomic insights into key molecular glue interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Von Hippel-Lindau Tumor Suppressor Protein/metabolism/chemistry",
+      "Humans",
+      "*Cysteine Dioxygenase/metabolism/chemistry",
+      "Crystallography, X-Ray",
+      "Protein Binding",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Binding Sites",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Proteolysis/drug effects",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tutter, Antonin",
+        "Buckley, Dennis",
+        "Golosov, Andrei A",
+        "Ma, Xiaolei",
+        "Shu, Wei",
+        "McKay, Daniel J J",
+        "Darsigny, Veronique",
+        "Dovala, Dustin",
+        "Beckwith, Rohan",
+        "Solomon, Jonathan",
+        "Rao, Pasupuleti",
+        "Xu, Lei",
+        "Fazal, Aleem",
+        "Lingel, Andreas",
+        "Wartchow, Charles",
+        "Cobb, Jennifer S",
+        "Hachey, Amanda",
+        "Tullai, Jennifer",
+        "Michaud, Gregory A"
+      ],
+      "short_names": [
+        "Tutter A",
+        "Buckley D",
+        "Golosov AA",
+        "Ma X",
+        "Shu W",
+        "McKay DJJ",
+        "Darsigny V",
+        "Dovala D",
+        "Beckwith R",
+        "Solomon J",
+        "Rao P",
+        "Xu L",
+        "Fazal A",
+        "Lingel A",
+        "Wartchow C",
+        "Cobb JS",
+        "Hachey A",
+        "Tullai J",
+        "Michaud GA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5307-827X",
+        "ORCID: 0000-0003-3259-6059",
+        "ORCID: 0000-0002-4588-2751",
+        "ORCID: 0000-0003-0643-0477",
+        "ORCID: 0000-0003-2909-4920",
+        "ORCID: 0000-0003-3954-4921"
+      ],
+      "affiliations": [
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Global Discovery Chemistry, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Global Discovery Chemistry, Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Global Discovery Chemistry, Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Global Discovery Chemistry, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Global Discovery Chemistry, Novartis Biomedical Research, Basel, Switzerland.",
+        "Discovery Sciences, Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA. gregory.michaud@novartis.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tutter, Antonin",
+        "short_name": "Tutter A",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Buckley, Dennis",
+        "short_name": "Buckley D",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Golosov, Andrei A",
+        "short_name": "Golosov AA",
+        "identifiers": [],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaolei",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0000-0002-5307-827X"
+        ],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shu, Wei",
+        "short_name": "Shu W",
+        "identifiers": [
+          "0000-0003-3259-6059"
+        ],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McKay, Daniel J J",
+        "short_name": "McKay DJJ",
+        "identifiers": [],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Darsigny, Veronique",
+        "short_name": "Darsigny V",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Dovala, Dustin",
+        "short_name": "Dovala D",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Beckwith, Rohan",
+        "short_name": "Beckwith R",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Solomon, Jonathan",
+        "short_name": "Solomon J",
+        "identifiers": [
+          "0000-0002-4588-2751"
+        ],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rao, Pasupuleti",
+        "short_name": "Rao P",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fazal, Aleem",
+        "short_name": "Fazal A",
+        "identifiers": [
+          "0000-0003-0643-0477"
+        ],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lingel, Andreas",
+        "short_name": "Lingel A",
+        "identifiers": [
+          "0000-0003-2909-4920"
+        ],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wartchow, Charles",
+        "short_name": "Wartchow C",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cobb, Jennifer S",
+        "short_name": "Cobb JS",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hachey, Amanda",
+        "short_name": "Hachey A",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Tullai, Jennifer",
+        "short_name": "Tullai J",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Michaud, Gregory A",
+        "short_name": "Michaud GA",
+        "identifiers": [
+          "0000-0003-3954-4921"
+        ],
+        "affiliations": [
+          "Discovery Sciences, Novartis Biomedical Research, Cambridge, MA, USA. gregory.michaud@novartis.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemical biology"
+    ],
+    "journal_abbrev": [
+      "Nat Chem Biol"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 00:28",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "42665764",
+      "42654382",
+      "42557329",
+      "42552395",
+      "42453411",
+      "42414544",
+      "42380604",
+      "42220438",
+      "42157816",
+      "42133863",
+      "42098103",
+      "41942732",
+      "41772859",
+      "41683435",
+      "41622634",
+      "41614187",
+      "41452132",
+      "41124365",
+      "40911408",
+      "40885760",
+      "40842115",
+      "39185450"
+    ],
+    "refs": [
+      "37919549",
+      "37816014",
+      "36863346",
+      "36656921",
+      "35983982",
+      "34432240",
+      "34364788",
+      "33236985",
+      "32875077",
+      "32804079",
+      "31819272",
+      "31693911",
+      "31693891",
+      "31686031",
+      "31658955",
+      "31289203",
+      "30611421",
+      "30264476",
+      "29942080",
+      "27811928",
+      "27338790",
+      "26909574",
+      "26574307",
+      "26075522",
+      "26070106",
+      "26035625",
+      "25605792",
+      "25405925",
+      "25166285",
+      "24292625",
+      "24292623",
+      "23793146",
+      "23102223",
+      "23065727",
+      "22369643",
+      "21829626",
+      "21460447",
+      "20383002",
+      "20124702",
+      "20124692",
+      "19461840",
+      "19360080",
+      "19011731",
+      "17135237",
+      "16489335",
+      "16341750",
+      "14644768",
+      "12875852",
+      "11438690",
+      "10353251",
+      "10205047",
+      "9653027",
+      "9419056",
+      "7915601",
+      "7585187"
+    ],
+    "similar": [
+      "40555806",
+      "25166285",
+      "27902963",
+      "15611064",
+      "34174286",
+      "28288108",
+      "22369643",
+      "20695530",
+      "19228690",
+      "23065727",
+      "27581016",
+      "30040896",
+      "23387829",
+      "11865071",
+      "35983982",
+      "23159849",
+      "29018234",
+      "29961792",
+      "14654728",
+      "28689235",
+      "14556007",
+      "10823831",
+      "30631068",
+      "23011899",
+      "25661653",
+      "18195360",
+      "27517496",
+      "23886708",
+      "32987061",
+      "28052007",
+      "25915846",
+      "29949369",
+      "28591624",
+      "10353251",
+      "10944113",
+      "33284613",
+      "27709157",
+      "34824248",
+      "22804960",
+      "17967880",
+      "22105711",
+      "22234250",
+      "19671042",
+      "31485743",
+      "28853884",
+      "26846855",
+      "11526493",
+      "12050673",
+      "23401859",
+      "27439424",
+      "18424433",
+      "34459035",
+      "40223615",
+      "17986458",
+      "20705044",
+      "22532874",
+      "16261165",
+      "12097293",
+      "12468553",
+      "12844285",
+      "27090638",
+      "12101228",
+      "30540463",
+      "38866867",
+      "27473774",
+      "10535940",
+      "18426857",
+      "11739384",
+      "11024059",
+      "26574473",
+      "39606859",
+      "34656901",
+      "19243301",
+      "24886840",
+      "34638033",
+      "12743597",
+      "24583008",
+      "31539241",
+      "21358672",
+      "21942715",
+      "12507560",
+      "18694926",
+      "26488390",
+      "30672516",
+      "11331613",
+      "38284361",
+      "28425505",
+      "18219317",
+      "39883230",
+      "26751167",
+      "38039781",
+      "15574766",
+      "18285459",
+      "16436671",
+      "21949687",
+      "11331612",
+      "30826187",
+      "16977322",
+      "23102223",
+      "38942127"
+    ],
+    "review": [
+      "40555806",
+      "35983982",
+      "14654728",
+      "19671042",
+      "34656901",
+      "19243301",
+      "24583008",
+      "12507560"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41589-025-01936-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=3317",
+        "provider": "Guide to Pharmacology",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "cysteine dioxygenase type 1 - data and references"
+      }
+    ],
+    "text_mined": []
+  }
+}

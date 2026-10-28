@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "41376372",
+    "doi": "10.1097/JS9.0000000000004408",
+    "title": "Mendelian randomization and transcriptomic analysis reveal a relationship between subarachnoid hemorrhage and post-translational modifications."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Post-translational modifications (PTMs) serve as crucial regulatory mechanisms in stroke-induced brain injury. Nevertheless, the specific roles of PTMs in subarachnoid hemorrhage (SAH) development and the functional properties of associated genes are not yet fully understood. METHODS: We performed differential expression analysis on SAH dataset and intersected results with PTM-related genes to identify PTM-associated genes of SAH differential expression (DE-PTMRGs), followed by functional enrichment analysis. Mendelian randomization (MR) was applied to determine causal PTM genes affecting SAH risk. Machine learning algorithms were used to screen feature genes from these causal genes. Candidate biomarkers derived from feature gene analysis were validated using an independent transcriptomic dataset. Subsequently, these biomarkers were employed for constructing clinical diagnostic models, performing single-gene enrichment and regulatory network analyses, conducting clinical experimental validation, and predicting potential drug repurposing opportunities. RESULTS: We identified 227 SAH-associated PTM genes, of which 12 demonstrated causal relationships through Mendelian randomization analysis. Machine learning algorithms screened ZRANB1 and ATG7 as key PTM biomarkers. The diagnostic model achieved excellent performance with AUC = 0.833 (0.701-0.966), calibration curve mean error of 0.088, and capability to predict 20%-90% SAH risk. Network analysis revealed distinct regulatory patterns: ZRANB1 showed extensive connectivity with 27 microRNAs and 6 transcription factors, while ATG7 exhibited focused regulation by 16 microRNAs and 1 transcription factor. Functionally, ZRANB1 primarily regulates metabolism and genetic maintenance, while ATG7 coordinates broader cellular processes including autophagy and signal transduction. Through clinical validation, we found that the levels of ATG7 and ZRANB1 were significantly altered between SAH patients and healthy control. Both biomarkers predicted Tretinoin as a potential therapeutic compound. Molecular docking showed strong binding affinities: ZRANB1-Tretinoin (-7.7 kcal/mol) and ATG7-Tretinoin (-6.1 kcal/mol). Molecular dynamics simulations confirmed stable dynamic binding between ATG7 and Tretinoin, while ZRANB1-Tretinoin complex showed instability. CONCLUSION: The work established a novel ATG7-ZRANB1 biomarker combination with superior diagnostic accuracy for SAH prediction and identified Tretinoin as a promising therapeutic candidate, demonstrating PTM-based precision medicine potential.",
+    "keywords": [
+      "ATG7",
+      "ZRANB1",
+      "mendelian randomization",
+      "post-translational modifications",
+      "transcriptomic analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Ligang",
+        "Jiang, Ce",
+        "Huang, Mingxuan",
+        "Su, Xiaoming",
+        "Chen, Hanlin",
+        "Li, Miao",
+        "Ma, Ning",
+        "Mo, Dapeng",
+        "Sun, Xuan",
+        "Gao, Feng",
+        "Miao, Zhongrong",
+        "Chen, Xiaofeng",
+        "Su, Yanguo",
+        "Cong, Hengri",
+        "He, Hongwei",
+        "Wu, Pei",
+        "Deng, Yiming"
+      ],
+      "short_names": [
+        "Song L",
+        "Jiang C",
+        "Huang M",
+        "Su X",
+        "Chen H",
+        "Li M",
+        "Ma N",
+        "Mo D",
+        "Sun X",
+        "Gao F",
+        "Miao Z",
+        "Chen X",
+        "Su Y",
+        "Cong H",
+        "He H",
+        "Wu P",
+        "Deng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China.",
+        "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+        "Department of Neurosurgery, Beijing Neurosurgical Institute, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Ligang",
+        "short_name": "Song L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ce",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Mingxuan",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Su, Xiaoming",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hanlin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Miao",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Ning",
+        "short_name": "Ma N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Dapeng",
+        "short_name": "Mo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xuan",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Feng",
+        "short_name": "Gao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Zhongrong",
+        "short_name": "Miao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaofeng",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yanguo",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhangjiakou First Hospital, Zhangjiakou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Hengri",
+        "short_name": "Cong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "He, Hongwei",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Neurosurgical Institute, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Pei",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yiming",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "China National Clinical Research Center for Neurological Diseases, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of surgery (London, England)"
+    ],
+    "journal_abbrev": [
+      "Int J Surg"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 07:42",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41376372",
+      "38897129",
+      "41214111",
+      "38518057",
+      "41415264",
+      "39849508",
+      "40835946",
+      "38649912",
+      "39717623",
+      "38702954",
+      "41333919",
+      "41371106",
+      "39346628",
+      "39647286",
+      "40916281",
+      "37752822",
+      "39370621",
+      "39804431",
+      "41480156",
+      "40319034",
+      "40782973",
+      "41353157",
+      "40822862",
+      "41342434",
+      "40350654",
+      "41199372",
+      "41492036",
+      "40762741",
+      "37800876",
+      "38464525",
+      "41422660",
+      "39483475",
+      "38523223",
+      "38965845",
+      "41305716",
+      "40343008",
+      "40107973",
+      "41221640",
+      "41378121",
+      "40404777",
+      "39650552",
+      "41186507",
+      "35087950",
+      "39721116",
+      "41191606",
+      "39062507",
+      "40958401",
+      "40755754",
+      "40665394",
+      "40681713",
+      "41297235",
+      "40983575",
+      "40374840",
+      "41258297",
+      "41461777",
+      "41261566",
+      "40651607",
+      "37627852",
+      "41003898",
+      "41080564",
+      "39539729",
+      "38260432",
+      "41436920",
+      "41204712",
+      "41052072",
+      "40274967",
+      "41448363",
+      "40588645",
+      "39353384",
+      "40304766",
+      "40745068",
+      "40453984",
+      "40593846",
+      "40618704",
+      "40714016",
+      "41376480",
+      "40411576",
+      "41158309",
+      "41189212",
+      "41177796",
+      "41496513",
+      "40964458",
+      "39022342",
+      "40564208",
+      "40406126",
+      "41366971",
+      "41276708",
+      "41465087",
+      "41274466",
+      "31208196",
+      "40229542",
+      "40698383",
+      "41163278",
+      "40156905",
+      "41083787",
+      "41183465",
+      "41353125",
+      "39400935",
+      "39788786",
+      "38709145"
+    ],
+    "review": [
+      "41376372",
+      "38523223"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41376372.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/JS9.0000000000004408",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "37515398",
+    "doi": "10.1049/syb2.12074",
+    "title": "Single-cell RNA sequencing identifies macrophage signatures correlated with clinical features and tumour microenvironment in meningiomas."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Meningiomas are common primary brain tumours, with macrophages playing a crucial role in their development and progression. This study aims to identify module genes correlated with meningioma-associated macrophages and analyse their correlation with clinical features and immune infiltration. METHODS: We analysed single-cell RNA sequencing (scRNA-seq) data from two paired meningioma and normal meninges to identify meningioma-associated macrophages. High-dimensional weighted gene co-expression network analysis (hdWGCNA) was employed to identify module genes linked to these macrophages, followed by functional enrichment and pseudotime trajectory analyses. A machine learning-based model using the module genes was developed to predict tumour grades. Finally, meningiomas were classified into two molecular subtypes based on the module genes, followed by a comparison of clinical characteristics and immune cell infiltration. RESULTS: Meningiomas exhibited a significantly higher proportion of macrophages than normal meninges, including novel macrophage clusters referred to as meningioma-associated macrophages. The hdWGCNA analysis of macrophages within meningiomas unveiled 12 distinct modules, with the blue, black, and turquoise modules closely correlated with the meningioma-associated macrophages. Hub genes within these modules were enriched in immune regulation, cellular communication, and metabolism pathways. Machine learning analysis identified 13 module genes (RSBN1, TIPRL, ATIC, SPP1, MALSU1, CDK1, MGP, DDIT3, SUPT16H, NFKBIA, SRSF5, ATXN2L, and UBB) strongly correlated with meningioma grade and constructed a predictive model with high accuracy and robustness. Based on the module genes, meningiomas were classified into two subtypes with distinct clinical and tumour microenvironment characteristics. CONCLUSIONS: Our findings provide insights into the molecular characteristics underlying macrophage infiltration in meningiomas. The molecular signatures of macrophages demonstrate correlations with clinical features and immune cell infiltration in meningiomas.",
+    "keywords": [
+      "bioinformatics",
+      "support vector machines"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Meningioma/genetics/metabolism/pathology",
+      "*Meningeal Neoplasms/genetics/metabolism/pathology",
+      "Tumor Microenvironment/genetics",
+      "Sequence Analysis, RNA",
+      "Macrophages/metabolism/pathology",
+      "Transcription Factors/genetics",
+      "Cell Cycle Proteins/genetics",
+      "Intracellular Signaling Peptides and Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaowei"
+      ],
+      "short_names": [
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1456-0119"
+      ],
+      "affiliations": [
+        "The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaowei",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-1456-0119"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 11:50",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "42608612",
+      "41742201",
+      "41291235",
+      "41154381",
+      "40940894",
+      "40771159",
+      "39900964"
+    ],
+    "refs": [
+      "37426759",
+      "35534562",
+      "35004283",
+      "34557778",
+      "34503199",
+      "34427324",
+      "34239132",
+      "34181733",
+      "33914067",
+      "33767177",
+      "33619259",
+      "33597522",
+      "32982948",
+      "32467593",
+      "32127012",
+      "31591222",
+      "30643263",
+      "29608179",
+      "27765066",
+      "27157931",
+      "25859807",
+      "25249493",
+      "24658644",
+      "23334667",
+      "22778768",
+      "20598126",
+      "20386868",
+      "20015288"
+    ],
+    "similar": [
+      "37515398",
+      "37880655",
+      "23651727",
+      "28314689",
+      "31039818",
+      "39075441",
+      "32661686",
+      "24289128",
+      "21948653",
+      "32596316",
+      "19360292",
+      "36994665",
+      "29660031",
+      "32070062",
+      "37752594",
+      "19885562",
+      "35637794",
+      "37263494",
+      "27624915",
+      "25681310",
+      "10755603",
+      "23229614",
+      "22995327",
+      "30594554",
+      "23053286",
+      "28870549",
+      "24989599",
+      "15540215",
+      "16879395",
+      "18365142",
+      "24612434",
+      "20685720",
+      "28193203",
+      "15958550",
+      "20054806",
+      "17047085",
+      "25168354",
+      "16103061",
+      "17110285",
+      "23108408",
+      "11859969",
+      "15832773",
+      "38979407",
+      "16850311",
+      "31177425",
+      "31069492",
+      "8789658",
+      "27624470",
+      "35004283",
+      "9160896",
+      "23879478",
+      "36227281",
+      "27614886",
+      "30443758",
+      "22886530",
+      "38446374",
+      "38416702",
+      "22137483",
+      "25648363",
+      "38147020",
+      "38491247",
+      "17937814",
+      "32068173",
+      "18069599",
+      "29423538",
+      "7531297",
+      "16761743",
+      "12163391",
+      "33393633",
+      "33538957",
+      "26092774",
+      "31083655",
+      "18507434",
+      "10729919",
+      "29031810",
+      "18418552",
+      "20547458",
+      "24722350",
+      "23840654",
+      "18808065",
+      "32245394",
+      "29073243",
+      "35534852",
+      "24398011",
+      "37974098",
+      "34495383",
+      "12182416",
+      "17357005",
+      "26216710",
+      "11485924",
+      "28651379",
+      "32908869",
+      "20450760",
+      "15674477",
+      "22287651",
+      "27451434",
+      "25347344",
+      "39364414",
+      "19703125",
+      "18203782",
+      "34174477",
+      "34716512",
+      "15535129",
+      "30519894",
+      "24724603",
+      "10764269",
+      "11147600",
+      "37952221",
+      "38760638",
+      "38788713",
+      "33262459",
+      "38742767",
+      "38444758",
+      "38449872",
+      "39179895",
+      "39040415",
+      "38102708",
+      "37878760",
+      "31077268",
+      "38811523",
+      "39049829",
+      "38868781",
+      "38702954",
+      "38349474",
+      "31653806",
+      "38220044",
+      "34433969",
+      "39149137",
+      "38681071",
+      "32982948",
+      "39093629",
+      "37426759",
+      "36602147",
+      "37292686",
+      "38500993",
+      "38826219",
+      "33167358",
+      "38988327",
+      "33305042",
+      "39158018",
+      "39430393",
+      "32974197",
+      "39413794",
+      "36972297",
+      "37860270"
+    ],
+    "review": [
+      "37515398",
+      "23651727",
+      "17110285",
+      "27624470",
+      "31083655",
+      "26216710",
+      "15674477",
+      "34716512",
+      "33262459",
+      "32982948"
+    ],
+    "pmc": [
+      "10579993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37515398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37515398",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.12074",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1141",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37515398",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

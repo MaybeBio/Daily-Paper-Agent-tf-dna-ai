@@ -1,0 +1,575 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.25.661597",
+  "title": "Single-molecule analysis of gap and nick binding by LIG1 and LIG3α at the final step of DNA repair",
+  "doi": "10.1101/2025.06.25.661597",
+  "abstract": "DNA ligase (LIG) 1 and LIG3α repair broken single-strand breaks in the phosphodiester backbone at the final ligation step of DNA excision repair pathways, and complement each other during nuclear replication in case of unligated Okazaki fragments. We previously reported that both ligases discriminate against nicks containing non-canonical ends and ligate gap intermediate if left unfilled by DNA polymerases. However, it remains unknown how the dynamics of DNA binding differ for gap versus nick substrates by LIG1 and LIG3α at single-molecule level. Here, using total internal reflection fluorescence (TIRF) and ligation assays, we showed that LIG3α binds less frequently but forms longer-lived complex than LIG1 for nicks containing canonical A:T, mismatch G:T, and damaged 8oxoG:A, and they exhibit subtle differences in discriminating unusual ends. Moreover, our results identified gap DNA as a new target to which LIG1 and LIG3α can bind as efficient as their preferential nick sites. We showed gap ligation and observed that more percentage of LIG1 molecules form stable long-lived complex on DNA containing one nucleotide gap, whereas LIG3α forms short-lived gap complex without any differences in the percentage of molecule forming gap-bound complex. Finally, our findings demonstrated that LIG1 can still stably bind to larger gaps with better recognition, whereas LIG3α binding becomes further infrequent and shorter-lived. Overall, our study provides single-molecule insights into intricate differences between LIG1 and LIG3α for binding to a range of mutagenic and deleterious DNA repair and replication intermediates that could be a threat for maintaining genome stability at the final step.",
+  "authors": [
+    "Surajit Chatterjee",
+    "Kar Men Lee",
+    "Kanal Balu",
+    "Melike Çağlayan"
+  ],
+  "published_date": "2025-06-25",
+  "updated_date": "2025-06-26T00:50:12Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661597",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661597.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:43:50Z",
+        "timestamp": 1768524230424,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            25
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 64,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2025-06-25T00:00:00Z",
+            "timestamp": 1750809600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000057",
+          "name": "the National Institute of General Medical Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "1R35GM147111-01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1R35GM147111-01"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000057",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA ligase (LIG) 1 and LIG3α repair broken single-strand breaks in the phosphodiester backbone at the final ligation step of DNA excision repair pathways, and complement each other during nuclear replication in case of unligated Okazaki fragments. We previously reported that both ligases discriminate against nicks containing non-canonical ends and ligate gap intermediate if left unfilled by DNA polymerases. However, it remains unknown how the dynamics of DNA binding differ for gap\n                  <jats:italic>versus</jats:italic>\n                  nick substrates by LIG1 and LIG3α at single-molecule level. Here, using total internal reflection fluorescence (TIRF) and ligation assays, we showed that LIG3α binds less frequently but forms longer-lived complex than LIG1 for nicks containing canonical A:T, mismatch G:T, and damaged 8oxoG:A, and they exhibit subtle differences in discriminating unusual ends. Moreover, our results identified gap DNA as a new target to which LIG1 and LIG3α can bind as efficient as their preferential nick sites. We showed gap ligation and observed that more percentage of LIG1 molecules form stable long-lived complex on DNA containing one nucleotide gap, whereas LIG3α forms short-lived gap complex without any differences in the percentage of molecule forming gap-bound complex. Finally, our findings demonstrated that LIG1 can still stably bind to larger gaps with better recognition, whereas LIG3α binding becomes further infrequent and shorter-lived. Overall, our study provides single-molecule insights into intricate differences between LIG1 and LIG3α for binding to a range of mutagenic and deleterious DNA repair and replication intermediates that could be a threat for maintaining genome stability at the final step.\n                </jats:p>",
+      "DOI": "10.1101/2025.06.25.661597",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            26
+          ]
+        ],
+        "date-time": "2025-06-26T00:50:12Z",
+        "timestamp": 1750899012000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Single-molecule analysis of gap and nick binding by LIG1 and LIG3α at the final step of DNA repair"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Surajit",
+          "family": "Chatterjee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kar Men",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kanal",
+          "family": "Balu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1107-1042",
+          "authenticated-orcid": false,
+          "given": "Melike",
+          "family": "Çağlayan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/em.22087"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.2",
+          "first-page": "35",
+          "article-title": "DNA repair, genome stability and cancer: a historical perspective",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "Nat. Rev. Cancer"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2023.11.001"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2380"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc2342"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0921-8777(00)00033-1"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.7",
+          "first-page": "228",
+          "article-title": "Coordination of DNA single strand break repair",
+          "volume": "107",
+          "year": "2018",
+          "journal-title": "Free Radic. Biol. Med"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.21.4051"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-94-007-4572-8_17"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.10",
+          "first-page": "4143",
+          "article-title": "Elevated expression of DNA ligase I in human cancers",
+          "volume": "7",
+          "year": "2001",
+          "journal-title": "Clinical Cancer Res"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.15.8.4303"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1279"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03082"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0140-6736(92)91266-B"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(92)90450-Q"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.115.7.1551"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09773"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13024-020-00376-6"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1568-7864(03)00118-6"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.23.16.5919-5927.2003"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2025.103826"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040498d"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.2.400"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1995.tb00222.x"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.24.12863"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2009.05.002"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1188"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/24.22.4387"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae865"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.04.028"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms14045"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.09.010"
+        },
+        {
+          "issue": "3708",
+          "key": "2025062710151021000_2025.06.25.661597v1.33",
+          "first-page": "3721",
+          "article-title": "The ligation of polβ mismatch insertion products governs the formation of promutagenic base excision DNA repair intermediates",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2024.107355"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.35",
+          "first-page": "168410",
+          "article-title": "Impact of polβ/XRCC1 interaction variants on the efficiency of nick sealing by DNA ligase IIIα in the base excision repair pathway",
+          "volume": "436",
+          "year": "2023",
+          "journal-title": "J. Mol. Biol"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/mutage/geaa023"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2021.100427"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2020.102945"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2818"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-31585-w"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.05.06.592774"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Balu, K.E. , Gulkis, M. , Almohdar, D. and Çağlayan, M. (2024) Structures of LIG1 provide a mechanistic basis for understanding a lack of sugar discrimination against a ribonucleotide at the 3’-end of nick DNA. J. Biol. Chem., 300, 107216.",
+          "DOI": "10.1016/j.jbc.2024.107216"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2024.107688"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae104"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0505166102"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.06.004"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.04.023"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-20-1602"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.enz.2019.06.001"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M114.597088"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.03391"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1024"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2014.01.007"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2021.772877"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1211364109"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-53497-7"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1301804110"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm8001668"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.59",
+          "unstructured": "Tomkinson, A.E. , Howes, T.R. and Wiest, N.E . (2013) DNA ligases as therapeutic targets. Transl. Cancer Res., 2."
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-07-6636"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae672"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-15-3243"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/mutage/gez026"
+        },
+        {
+          "key": "2025062710151021000_2025.06.25.661597v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1541-7786.MCR-11-0255"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.25.661597",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:59:52Z",
+        "timestamp": 1768467592000
+      },
+      "score": 120.44209,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.25.661597"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            25
+          ]
+        ]
+      },
+      "references-count": 64,
+      "URL": "https://doi.org/10.1101/2025.06.25.661597",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "identity": {
+    "pmid": "40762840",
+    "doi": "10.1148/radiol.242750",
+    "title": "Noninvasive Tumor Profiling: Quantitative Contrast-Enhanced MRI Markers Predict PD-L1 and CTNNB1 Status in Hepatocellular Carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Systemic molecular-targeted therapy is the standard of care for patients presenting with advanced-stage hepatocellular carcinoma (HCC); however, tumor response rates are limited, mainly owing to HCC biomolecular and pathologic heterogeneity. Therefore, novel markers for noninvasive molecular profiling are needed. PURPOSE: To determine whether advanced image analysis and machine learning on routinely acquired MRI scans can help predict HCC molecular profiles, thereby allowing biomarker-guided treatment allocations. MATERIALS AND METHODS: This single-center retrospective study included treatment-naive patients with HCC who underwent tumor resection or liver transplant between September 2006 and February 2022. Multiparametric contrast-enhanced MRI data were obtained, and quantitative and qualitative imaging markers were extracted from lesion and liver segmentations. Pathologic analysis of the resected samples was performed via immunohistochemistry to assess p53 loss of function; catenin beta 1 (CTNNB1) activation; forkhead box M1 activation; and programmed cell death ligand 1 (PD-L1), phosphorylated AKT serine/threonine kinase, phosphorylated SMAD2/3, and sterol O-acyltransferase 1 expression. For each molecular profile outcome, a multivariable logistic regression model was built separately using quantitative imaging, qualitative imaging, or clinical data. The area under the receiver operating characteristic curve (AUC) was used to evaluate model discriminatory performance, and DeLong tests were performed to compare AUCs across models trained on the different data. RESULTS: Seventy-five patients with T1-weighted, contrast-enhanced, dynamic MRI scans (mean age, 65.7 years +/- 9.43 [SD]; 60 males) were included. Receiver operating characteristic curve analysis demonstrated the good discriminatory performance of logistic regression models trained on quantitative imaging data for PD-L1, p53, and CTNNB1, with AUCs of 0.85 (95% CI: 0.74, 0.96), 0.79 (95% CI: 0.66, 0.93), and 0.7 (95% CI: 0.46, 0.93), respectively. Models trained on clinical and qualitative imaging data yielded lower AUCs across profiles, of 0.36 (95% CI: 0.2, 0.53; P < .001) and 0.41 (95% CI: 0.21, 0.62; P = .003), respectively, for p53. CONCLUSION: Quantitative MRI markers derived from whole tumor and liver volumes can potentially predict p53, PD-L1, and CTNNB1 status in HCC. (c) RSNA, 2025 Supplemental material is available for this article. See also the editorial by Cannella in this issue.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/diagnostic imaging/metabolism",
+      "*Liver Neoplasms/diagnostic imaging/metabolism",
+      "*Magnetic Resonance Imaging/methods",
+      "Contrast Media",
+      "*beta Catenin/metabolism",
+      "*B7-H1 Antigen/metabolism",
+      "*Biomarkers, Tumor/metabolism",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matuschewski, Nickolai J",
+        "Sobirey, Rabea",
+        "Revzin, Margarita",
+        "Zeevi, Tal",
+        "Gross, Moritz",
+        "Kasolowsky, Victor",
+        "Shewarega, Annabella",
+        "Meister, Ellen",
+        "Kao, Tabea",
+        "Tefera, Jonathan",
+        "Bousabarah, Khaled",
+        "Batra, Ramesh",
+        "Strazzabosco, Mario",
+        "Lin, MingDe",
+        "Gebauer, Bernhard",
+        "Savic, Lynn Jeanette",
+        "Duncan, James",
+        "Madoff, David C",
+        "Zhang, Xuchen",
+        "Chapiro, Julius"
+      ],
+      "short_names": [
+        "Matuschewski NJ",
+        "Sobirey R",
+        "Revzin M",
+        "Zeevi T",
+        "Gross M",
+        "Kasolowsky V",
+        "Shewarega A",
+        "Meister E",
+        "Kao T",
+        "Tefera J",
+        "Bousabarah K",
+        "Batra R",
+        "Strazzabosco M",
+        "Lin M",
+        "Gebauer B",
+        "Savic LJ",
+        "Duncan J",
+        "Madoff DC",
+        "Zhang X",
+        "Chapiro J"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-3330-8227",
+        "ORCID: 0000-0003-3418-8921",
+        "ORCID: 0000-0002-4118-2475",
+        "ORCID: 0000-0001-8917-7061",
+        "ORCID: 0000-0002-6831-5004",
+        "ORCID: 0009-0004-2699-563X",
+        "ORCID: 0000-0003-0663-3047",
+        "ORCID: 0009-0002-8846-9665",
+        "ORCID: 0009-0005-0358-2127",
+        "ORCID: 0000-0001-9038-8579",
+        "ORCID: 0009-0004-7699-9890",
+        "ORCID: 0000-0003-2425-9028",
+        "ORCID: 0000-0002-1995-6331",
+        "ORCID: 0000-0001-7641-2595",
+        "ORCID: 0000-0002-9948-7220",
+        "ORCID: 0000-0003-2115-6728",
+        "ORCID: 0000-0002-5167-9856",
+        "ORCID: 0000-0003-3461-437X",
+        "ORCID: 0000-0002-1484-4672",
+        "ORCID: 0000-0002-1984-2246"
+      ],
+      "affiliations": [
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Biomedical Engineering, School of Engineering and Applied Sciences, 17 Hillhouse Avenue, New Haven, CT 06520, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Visage Imaging GmbH, Lepsiusstrasse 70, 12163 Berlin, Germany.",
+        "Transplantation and Immunology, Department of Surgery, Yale University School of Medicine, 333 Cedar Street, New Haven, CT, 06520, USA.",
+        "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Visage Imaging, 12625 High Bluff Drive, Suite 205, San Diego, CA 29130, USA.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology, Charite-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Medicine, Section of Medical Oncology, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Surgery, Section of Surgical Oncology, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Surgical Pathology, Yale University School of Medicine, 333 Cedar St., New Haven, CT 06250, USA.",
+        "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+        "Department of Biomedical Engineering, School of Engineering and Applied Sciences, 17 Hillhouse Avenue, New Haven, CT 06520, USA.",
+        "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matuschewski, Nickolai J",
+        "short_name": "Matuschewski NJ",
+        "identifiers": [
+          "0009-0008-3330-8227"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Sobirey, Rabea",
+        "short_name": "Sobirey R",
+        "identifiers": [
+          "0000-0003-3418-8921"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Revzin, Margarita",
+        "short_name": "Revzin M",
+        "identifiers": [
+          "0000-0002-4118-2475"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Zeevi, Tal",
+        "short_name": "Zeevi T",
+        "identifiers": [
+          "0000-0001-8917-7061"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Biomedical Engineering, School of Engineering and Applied Sciences, 17 Hillhouse Avenue, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Gross, Moritz",
+        "short_name": "Gross M",
+        "identifiers": [
+          "0000-0002-6831-5004"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kasolowsky, Victor",
+        "short_name": "Kasolowsky V",
+        "identifiers": [
+          "0009-0004-2699-563X"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Shewarega, Annabella",
+        "short_name": "Shewarega A",
+        "identifiers": [
+          "0000-0003-0663-3047"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Meister, Ellen",
+        "short_name": "Meister E",
+        "identifiers": [
+          "0009-0002-8846-9665"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kao, Tabea",
+        "short_name": "Kao T",
+        "identifiers": [
+          "0009-0005-0358-2127"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Tefera, Jonathan",
+        "short_name": "Tefera J",
+        "identifiers": [
+          "0000-0001-9038-8579"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Bousabarah, Khaled",
+        "short_name": "Bousabarah K",
+        "identifiers": [
+          "0009-0004-7699-9890"
+        ],
+        "affiliations": [
+          "Visage Imaging GmbH, Lepsiusstraße 70, 12163 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Batra, Ramesh",
+        "short_name": "Batra R",
+        "identifiers": [
+          "0000-0003-2425-9028"
+        ],
+        "affiliations": [
+          "Transplantation and Immunology, Department of Surgery, Yale University School of Medicine, 333 Cedar Street, New Haven, CT, 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Strazzabosco, Mario",
+        "short_name": "Strazzabosco M",
+        "identifiers": [
+          "0000-0002-1995-6331"
+        ],
+        "affiliations": [
+          "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, MingDe",
+        "short_name": "Lin M",
+        "identifiers": [
+          "0000-0001-7641-2595"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Visage Imaging, 12625 High Bluff Drive, Suite 205, San Diego, CA 29130, USA."
+        ]
+      },
+      {
+        "full_name": "Gebauer, Bernhard",
+        "short_name": "Gebauer B",
+        "identifiers": [
+          "0000-0002-9948-7220"
+        ],
+        "affiliations": [
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Savic, Lynn Jeanette",
+        "short_name": "Savic LJ",
+        "identifiers": [
+          "0000-0003-2115-6728"
+        ],
+        "affiliations": [
+          "Department of Radiology, Charité-Universitaetsmedizin Berlin, corporate member of Freie Universitaet Berlin and Humboldt-Universitaet, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Duncan, James",
+        "short_name": "Duncan J",
+        "identifiers": [
+          "0000-0002-5167-9856"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Madoff, David C",
+        "short_name": "Madoff DC",
+        "identifiers": [
+          "0000-0003-3461-437X"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Medicine, Section of Medical Oncology, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Surgery, Section of Surgical Oncology, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuchen",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-1484-4672"
+        ],
+        "affiliations": [
+          "Department of Surgical Pathology, Yale University School of Medicine, 333 Cedar St., New Haven, CT 06250, USA."
+        ]
+      },
+      {
+        "full_name": "Chapiro, Julius",
+        "short_name": "Chapiro J",
+        "identifiers": [
+          "0000-0002-1984-2246"
+        ],
+        "affiliations": [
+          "Department of Radiology and Biomedical Imaging, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA.",
+          "Department of Biomedical Engineering, School of Engineering and Applied Sciences, 17 Hillhouse Avenue, New Haven, CT 06520, USA.",
+          "Department of Medicine, Liver Center, Section of Digestive Diseases, Yale University School of Medicine, 333 Cedar St, New Haven, CT 06520, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Radiology"
+    ],
+    "journal_abbrev": [
+      "Radiology"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/05 12:34",
+    "fetched_at": "2026-09-30 23:21:30"
+  },
+  "links": {
+    "cites": [
+      "42684194",
+      "42440113",
+      "42137165"
+    ],
+    "refs": [
+      "38217704",
+      "36605619",
+      "36208844",
+      "35739268",
+      "34914889",
+      "34801630",
+      "32801345",
+      "32710922",
+      "32402160",
+      "32086577",
+      "32002645",
+      "31941899",
+      "31295152",
+      "30976743",
+      "30814741",
+      "30666445",
+      "30617138",
+      "30373752",
+      "30251931",
+      "29849125",
+      "29628281",
+      "29203879",
+      "29092951",
+      "28983565",
+      "28532995",
+      "28445112",
+      "27626270",
+      "25752327",
+      "25028783",
+      "22811581",
+      "19723656",
+      "17173139",
+      "9662379",
+      "198091"
+    ],
+    "similar": [
+      "40762840",
+      "39383627",
+      "33993366",
+      "40493177",
+      "39901136",
+      "41013391",
+      "41014107",
+      "41045065",
+      "24946283",
+      "40640280",
+      "36513141",
+      "28939963",
+      "36821999",
+      "41179305",
+      "40597775",
+      "40581839",
+      "38896246",
+      "35085305",
+      "29721686",
+      "42450313",
+      "34047473",
+      "28153667",
+      "31132813",
+      "36877612",
+      "31529254",
+      "31115210",
+      "41382212",
+      "32064560",
+      "31300210",
+      "27740898",
+      "27320551",
+      "28928158",
+      "31250172",
+      "27456947",
+      "34605709",
+      "30999947",
+      "38782785",
+      "33417489",
+      "26367730",
+      "25995679",
+      "37099251",
+      "37351175",
+      "27359084",
+      "37173350",
+      "34130644",
+      "32587357",
+      "24509608",
+      "41887530",
+      "32115307",
+      "32112577",
+      "39657213",
+      "38420990",
+      "28409202",
+      "31251403",
+      "33904774",
+      "29327116",
+      "39720711",
+      "20644488",
+      "21876620",
+      "27332047",
+      "26636502",
+      "41720938",
+      "38321782",
+      "31094878",
+      "39732950",
+      "31337865",
+      "40211365",
+      "30465870",
+      "39964391",
+      "30539869",
+      "38199599",
+      "22811581",
+      "32581055",
+      "33721130",
+      "41388520",
+      "39956910",
+      "30712167",
+      "36348350",
+      "28859233",
+      "40603768",
+      "26345332",
+      "29134355",
+      "32724815",
+      "28825310",
+      "36762677",
+      "32405753",
+      "41535254",
+      "30387047",
+      "33197329",
+      "40146425",
+      "31186238",
+      "31108157",
+      "32492765",
+      "38866488",
+      "41644986",
+      "30788118",
+      "36933025",
+      "33236540",
+      "33656759",
+      "30606633"
+    ],
+    "review": [
+      "40762840",
+      "31132813",
+      "32064560",
+      "27740898",
+      "31250172",
+      "25995679",
+      "30712167",
+      "28859233"
+    ],
+    "pmc": [
+      "12405729"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.rsna.org/doi/10.1148/radiol.242750?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40762840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

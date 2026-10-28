@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "40027624",
+    "doi": "10.1101/2025.02.12.637979",
+    "title": "Mapping the nanoscale organization of the human cell surface proteome reveals new functional associations and surface antigen clusters."
+  },
+  "content": {
+    "abstract": "The cell surface is a dynamic interface that controls cell-cell communication and signal transduction relevant to organ development, homeostasis and repair, immune reactivity, and pathologies driven by aberrant cell surface phenotypes. The spatial organization of cell surface proteins is central to these processes. High-resolution fluorescence microscopy and proximity labeling have advanced studies of surface protein associations, but the spatial organization of the complete surface proteome remains uncharted. In this study, we systematically mapped the surface proteome of human T-lymphocytes and B-lymphoblasts using proximity labeling of 85 antigens, identified from over 100 antibodies tested for binding to surface-exposed proteins. These experiments were coupled with an optimized data-independent acquisition mass spectrometry workflow to generate a robust dataset. Unsupervised clustering of the resulting interactome revealed functional modules, including well-characterized complexes such as the T-cell receptor and HLA class I/II, alongside novel clusters. Notably, we identified mitochondrial proteins localized to the surface, including the transcription factor TFAM, suggesting previously unappreciated roles for mitochondrial proteins at the plasma membrane. A high-accuracy machine learning classifier predicted over 6,000 surface protein associations, highlighting functional associations such as IL10RB's role as a negative regulator of type I interferon signaling. Spatial modeling of the surface proteome provided insights into protein dispersion patterns, distinguishing widely distributed proteins, such as CD45, from localized antigens, such as CD226 pointing to active mechanisms of regulating surface organization. This work provides a comprehensive map of the human surfaceome and a resource for exploring the spatial and functional dynamics of the cell membrane proteome.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Floyd, Brendan M",
+        "Schmidt, Elizabeth L",
+        "Till, Nicholas A",
+        "Yang, Jonathan L",
+        "Liao, Pinyu",
+        "George, Benson M",
+        "Flynn, Ryan A",
+        "Bertozzi, Carolyn R"
+      ],
+      "short_names": [
+        "Floyd BM",
+        "Schmidt EL",
+        "Till NA",
+        "Yang JL",
+        "Liao P",
+        "George BM",
+        "Flynn RA",
+        "Bertozzi CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7412-0492",
+        "ORCID: 0000-0003-2421-7186",
+        "ORCID: 0000-0003-4031-0954",
+        "ORCID: 0000-0001-5013-0442",
+        "ORCID: 0000-0003-4482-2754"
+      ],
+      "affiliations": [
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Lead contact.",
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Stem Cell Program and Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA, USA.",
+        "Stem Cell Program and Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA, USA.",
+        "Harvard Stem Cell Institute, Harvard University, Cambridge, MA, USA.",
+        "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+        "Howard Hughes Medical Institute, Stanford, CA, USA.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Floyd, Brendan M",
+        "short_name": "Floyd BM",
+        "identifiers": [
+          "0000-0001-7412-0492"
+        ],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+          "Lead contact."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Elizabeth L",
+        "short_name": "Schmidt EL",
+        "identifiers": [],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Till, Nicholas A",
+        "short_name": "Till NA",
+        "identifiers": [
+          "0000-0003-2421-7186"
+        ],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jonathan L",
+        "short_name": "Yang JL",
+        "identifiers": [],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Liao, Pinyu",
+        "short_name": "Liao P",
+        "identifiers": [],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "George, Benson M",
+        "short_name": "George BM",
+        "identifiers": [
+          "0000-0003-4031-0954"
+        ],
+        "affiliations": [
+          "Stem Cell Program and Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Flynn, Ryan A",
+        "short_name": "Flynn RA",
+        "identifiers": [
+          "0000-0001-5013-0442"
+        ],
+        "affiliations": [
+          "Stem Cell Program and Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA, USA.",
+          "Harvard Stem Cell Institute, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bertozzi, Carolyn R",
+        "short_name": "Bertozzi CR",
+        "identifiers": [
+          "0000-0003-4482-2754"
+        ],
+        "affiliations": [
+          "Sarafan ChEM-H and Department of Chemistry, Stanford University, Stanford, CA, USA.",
+          "Howard Hughes Medical Institute, Stanford, CA, USA.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 17:12",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40020667",
+      "39372605",
+      "39169179",
+      "39024454",
+      "38772372",
+      "38720062",
+      "38663396",
+      "37438352",
+      "37359549",
+      "37322056",
+      "37156916",
+      "36865034",
+      "36739273",
+      "36370105",
+      "35914173",
+      "35858567",
+      "35439648",
+      "35325185",
+      "35257663",
+      "34857745",
+      "34703878",
+      "34079125",
+      "33973408",
+      "33961781",
+      "33802964",
+      "33432242",
+      "32788343",
+      "32214105",
+      "32191846",
+      "32139536",
+      "32060305",
+      "31768060",
+      "31471108",
+      "31461748",
+      "31051105",
+      "30373828",
+      "30125270",
+      "29440440",
+      "29328918",
+      "28514428",
+      "28394336",
+      "27348712",
+      "26079349",
+      "25829300",
+      "25453114",
+      "25419960",
+      "25030450",
+      "24295852",
+      "23943603",
+      "22939629",
+      "22412018",
+      "21463193",
+      "21339979",
+      "20705594",
+      "19131956",
+      "17965090",
+      "16381927",
+      "14980224",
+      "12554654",
+      "11602573",
+      "10347215"
+    ],
+    "similar": [
+      "40027624",
+      "34817906",
+      "38300624",
+      "30373828",
+      "23912807",
+      "34857745",
+      "34381044",
+      "28514442",
+      "35271311",
+      "33951178",
+      "38053024",
+      "7916294",
+      "31442056",
+      "32788342",
+      "24706754",
+      "11219392",
+      "22201823",
+      "37619408",
+      "37036222",
+      "40178992",
+      "33928561",
+      "35512328",
+      "34301218",
+      "22782131",
+      "36356940",
+      "35217172",
+      "19164585",
+      "30487426",
+      "28336715",
+      "31354474",
+      "39307423",
+      "37385249",
+      "39524449",
+      "38777147",
+      "30761133",
+      "37812652",
+      "38122900",
+      "29363421",
+      "28730490",
+      "34052579",
+      "35038586",
+      "30279286",
+      "24029068",
+      "38900844",
+      "33660993",
+      "12736267",
+      "38226771",
+      "18086671",
+      "33961781",
+      "26239596",
+      "23933161",
+      "15175790",
+      "28471460",
+      "15961381",
+      "40304900",
+      "31690592",
+      "35922511",
+      "27684489",
+      "37546992",
+      "36973167",
+      "36798302",
+      "14705953",
+      "33858848",
+      "34168657",
+      "32410729",
+      "37968396",
+      "27028148",
+      "36012766",
+      "29289568",
+      "39742809",
+      "39489976",
+      "22055681",
+      "36781781",
+      "35705039",
+      "36570227",
+      "28435053",
+      "39068512",
+      "40015257",
+      "34324892",
+      "34357683",
+      "32314731",
+      "32022686",
+      "35913978",
+      "28284537",
+      "31535972",
+      "22903705",
+      "25128530",
+      "26754106",
+      "40314078",
+      "7539755",
+      "32909689",
+      "38944040",
+      "23532855",
+      "33020478",
+      "38802340",
+      "34305923",
+      "22258663",
+      "34473623",
+      "32195257",
+      "22299025"
+    ],
+    "review": [
+      "40027624",
+      "38300624",
+      "22201823",
+      "40178992",
+      "15175790",
+      "29289568",
+      "39068512",
+      "28284537"
+    ],
+    "pmc": [
+      "11870420"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40027624/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.02.12.637979",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

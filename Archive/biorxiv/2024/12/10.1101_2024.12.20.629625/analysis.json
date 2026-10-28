@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.20.629625",
+  "title": "DNA-binding domain-aware classification enables systematic annotation of the regulatory genome",
+  "authors": "Christian Ickes; Cigdem Hazal Timucin; Bendix Christian Harms; Umut Akgül; Íñigo Vicente-Hernández; Ivan Bogeski; Tim Beißbarth; Martin Haubrock",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于DNABERT的TFClassPredict框架，将TFBS预测重构为跨23个DBD类别的多分类问题，利用DBD-DNA共进化解析共享DBD导致的结合歧义，并实现基因组尺度DBD类注释，核心聚焦TF-DNA结合位点识别与分类，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Defining the cis-regulatory code remains one of the central challenges of modern genomics, requiring the reliable association of transcription factor binding sites (TFBSs) with their cognate transcription factors (TFs) from DNA sequence information. While deep learning methods outperform conventional position weight matrix (PWM)-based approaches, both typically formulate TFBS prediction as a bound-versus-unbound decision rather than resolving the competitive binding potential among TFs at a given genomic location. This is further complicated by the widespread sharing of DNA-binding domains (DBDs) among TFs, which produces overlapping binding preferences, rendering TFBS assignment at the individual TF level inherently ambiguous. Consequently, we present TFClassPredict, a DNABERT-based framework that reframes TFBS prediction as a multi-class classification problem across 23 DBD-classes, discriminating each against all remaining DBD-classes, directly enabling the resolution of binding events between DBD-classes. Trained on high-confidence directly bound TFBSs and exploiting DBD-DNA co-evolution, TFClassPredict naturally resolves the ambiguity arising from shared DBD architectures. We demonstrate that TFClassPredict achieves robust DBD-class level classification, outperforming PWM-based approaches and benchmarked deep learning architectures with predictions mapping to biologically defined DBD-classes. Beyond classification, TFClassPredict improves PWM-based pipelines, three-dimensional genome interaction prediction, and allows genome-wide DBD-class annotation, while recapitulating known lineage-specifying TF programs from immune cell ATAC-seq data.",
+  "abstract_zh": "定义顺式调控代码仍然是现代基因组学的核心挑战之一，需要从DNA序列信息中可靠地将转录因子结合位点（TFBSs）与其同源转录因子（TFs）关联起来。尽管深度学习方法优于传统的基于位置权重矩阵（PWM）的方法，但两者通常将TFBS预测表述为结合与未结合的二元决策，而非解决给定基因组位置上TFs之间的竞争性结合潜力。这一问题因TFs中DNA结合域（DBDs）的广泛共享而进一步复杂化，这导致结合偏好重叠，使得在单个TF水平上的TFBS分配本质上具有模糊性。因此，我们提出了TFClassPredict，一个基于DNABERT的框架，将TFBS预测重新定义为跨23个DBD类别的多类分类问题，将每个类别与其余所有DBD类别进行区分，从而直接实现DBD类别间结合事件的解析。TFClassPredict基于高置信度直接结合的TFBSs进行训练，并利用DBD-DNA共进化，自然解决了共享DBD结构带来的模糊性。我们证明TFClassPredict实现了稳健的DBD类别水平分类，优于基于PWM的方法和基准深度学习架构，其预测映射到生物学定义的DBD类别。除分类外，TFClassPredict还改进了基于PWM的流程、三维基因组相互作用预测，并允许全基因组DBD类别注释，同时从免疫细胞ATAC-seq数据中重现已知的谱系指定TF程序。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.20.629625",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.20.629625",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.20.629625/index.html"
+}

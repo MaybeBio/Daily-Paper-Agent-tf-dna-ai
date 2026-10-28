@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary figure/table legends as provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology, and evidence presented in the provided text. No external data, raw sequencing files, or supplementary materials were available for independent verification.
+- **Shared manuscript claim summary** The authors report identification of six novel non-synonymous MSH3 variants in African American colorectal cancer (AA-CRC) samples via targeted exome sequencing, and use in-silico pathogenicity prediction tools and molecular dynamics simulations to argue these variants are pathogenic, structurally destabilizing, and likely contribute to CRC development in AA patients.
+- **Visible evidence base** Tables 1-3, Figures 1-5, Supplementary Tables 1-5, Supplementary Figures 1-3 as referenced in text. No raw sequencing data, variant call files, or simulation parameter files were provided.
+- **Missing materials affecting confidence** Raw sequencing data, variant calling quality metrics, coverage statistics, validation details for Sanger sequencing, complete molecular dynamics simulation parameters, force field validation, convergence criteria, and the full set of supplementary tables and figures were not available for review.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in genomic research, namely the underrepresentation of African American populations in variant databases, and identifies six novel MSH3 variants in AA-CRC. However, the central claim of "confirmed pathogenicity" is not supported by the evidence presented. The study relies entirely on computational predictions and simulations, with no functional validation. The molecular dynamics simulation analysis is descriptive and lacks quantitative rigor, and several methodological details are insufficiently described. The manuscript would benefit from substantial revision, including clearer presentation of sequencing data, more robust statistical analysis of simulation results, and tempering of conclusions to match the level of evidence.
+- **Who would be interested in the results, and why** Researchers in colorectal cancer genetics, DNA mismatch repair biology, and health disparities in cancer genomics would be interested. The identification of novel variants in an underrepresented population is of value for variant databases and future functional studies. Clinicians and genetic counselors working with AA populations may also find the variant information relevant.
+- **Major strengths** The study addresses a significant gap in genomic databases regarding African American populations. The use of multiple in-silico prediction tools and molecular dynamics simulations is comprehensive in scope. The identification of variants in functionally important domains (ATPase, MSH2-MSH3 interaction) provides a plausible biological rationale for pathogenicity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Evidence strength for pathogenicity claim
+  - **Claim pointer** The abstract and conclusion state that the variants are "confirmed" as pathogenic and "likely contributing to the development or advancement of CRC" in AA patients.
+  - **Evidence pointer** Abstract; Conclusion; Tables 1-3; Figures 3-5
+  - **Concern** The claim of "confirmed pathogenicity" is not supported by the evidence. All evidence is computational: in-silico prediction tools and molecular dynamics simulations. No functional assays, cellular experiments, or animal models are presented. The authors themselves note that "in-vitro experiments are currently underway," which contradicts the definitive language used in the title and abstract. Computational predictions can suggest pathogenicity but cannot confirm it.
+  - **Why it matters** The title and abstract make a definitive claim that goes beyond the evidence. This could mislead readers and clinicians who may use this information for genetic counseling or clinical decision-making. The distinction between "predicted pathogenic" and "confirmed pathogenic" is critical in genomic medicine.
+  - **Resolution test** The authors should either (a) provide functional validation data (e.g., cell-based mismatch repair assays, protein stability measurements, or complementation studies) or (b) revise all claims to state that variants are "predicted to be pathogenic" based on computational analysis, and remove "confirm" from the title.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of molecular dynamics simulations
+  - **Claim pointer** The manuscript claims that molecular dynamics simulations show variants "affect the structure and function of the MSH3 protein" and alter binding interactions with MSH2.
+  - **Evidence pointer** Methods (Molecular dynamics simulation); Results (Impact of MSH3 variants); Figures 3-5; Supplementary Tables 3-4
+  - **Concern** The molecular dynamics simulation analysis is presented descriptively without quantitative statistical comparison. RMSD and RMSF values are reported for wild-type and mutants, but no error analysis, replicate simulations, or statistical tests are shown. The claim that "the change in RMSD is due to the fluctuations in some regions" is speculative. The MMPBSA binding energy calculations are reported as single values without standard deviations across multiple trajectories or convergence assessment. The simulation time of 300 ns may be insufficient for convergence of large protein complexes, and no convergence criteria are reported.
+  - **Why it matters** Molecular dynamics simulations are powerful tools but require rigorous statistical analysis to draw meaningful conclusions. Without replicates, convergence assessment, and statistical comparison, the observed differences between wild-type and mutants could be due to sampling noise rather than genuine biophysical effects. This undermines the central mechanistic claims of the paper.
+  - **Resolution test** The authors should provide: (a) at least three independent simulation replicates per system, (b) block-averaging or similar analysis to assess convergence, (c) statistical tests (e.g., t-tests with multiple testing correction) comparing RMSD, RMSF, hydrogen bond counts, and binding energies between wild-type and each mutant, and (d) time series plots showing convergence of these metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Variant frequency and sample size
+  - **Claim pointer** Table 1 reports variant frequencies ranging from 0.036 to 0.071 in 54 AA-CRC samples, and the text states these are "different frequencies."
+  - **Evidence pointer** Table 1; Results (Validation of the six non-synonymous variants)
+  - **Concern** With 54 samples, a frequency of 0.037 corresponds to 2 out of 54 samples, and 0.074 corresponds to 4 out of 54. The confidence intervals for these frequencies are extremely wide (e.g., for 2/54, 95% CI approximately 0.5-13%). The manuscript does not report confidence intervals or discuss the uncertainty in these frequency estimates. Additionally, no information is provided on whether these are germline or somatic variants, tumor purity, or whether the variants were present in matched normal tissue.
+  - **Why it matters** The clinical and biological significance of these variants depends on their true frequency in the AA-CRC population. Overinterpretation of frequencies from small samples can lead to incorrect conclusions about variant importance. The distinction between germline and somatic variants is critical for understanding whether these variants predispose to CRC or arise during tumor development.
+  - **Resolution test** The authors should: (a) report confidence intervals for all variant frequencies, (b) clarify whether variants are germline or somatic with supporting evidence (e.g., matched normal tissue analysis), (c) discuss the limitations of the small sample size, and (d) if possible, validate frequencies in an independent cohort.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty claim
+  - **Claim pointer** The manuscript claims all six variants are "novel" and not present in any population database.
+  - **Evidence pointer** Results (Computational evaluation); Supplementary Table 1
+  - **Concern** The novelty claim is based on absence from gnomAD, ExAC, 1000 Genomes, dbSNP, and COSMIC. However, the authors do not specify the version of these databases used, the date of access, or the specific filtering criteria. More importantly, the absence from these databases does not guarantee novelty, as many databases have incomplete representation of African populations. The authors also note that the variants have "uncertain clinical significance" per InterVar, which is inconsistent with the strong pathogenicity claims elsewhere in the manuscript.
+  - **Why it matters** The novelty claim is a key selling point of the paper. If the variants are present in other databases not searched, or if the database versions are outdated, the novelty claim would be weakened. The inconsistency between "uncertain clinical significance" and "confirmed pathogenic" is confusing and needs resolution.
+  - **Resolution test** The authors should: (a) specify database versions and access dates, (b) search additional databases (e.g., ClinVar, LOVD, gnomAD v4), (c) clarify the criteria for "novel," and (d) reconcile the InterVar "uncertain" classification with the pathogenicity claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section, variant calling
+  - **Evidence pointer** Methods (Prediction of novelty); location not provided
+  - **Issue** The methods for variant calling from targeted exome sequencing are not described. No information is provided on the sequencing platform, coverage, variant calling algorithm, quality filters, or bioinformatics pipeline.
+  - **Required correction** Add a detailed description of the sequencing and variant calling pipeline, including software versions and quality thresholds.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figures 3-5
+  - **Evidence pointer** Figures 3-5
+  - **Issue** The figure legends are incomplete. Figure 3 legend does not explain all panels (e.g., what is shown in 3F vs 3G). Figure 4 and 5 legends lack sufficient detail on how to interpret the color scales and what specific comparisons are being made.
+  - **Required correction** Expand figure legends to fully describe each panel, including color scales, axes, and statistical comparisons shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Typographical and consistency errors
+  - **Affected element** Throughout text
+  - **Evidence pointer** Results (Computational evaluation); Table 2; Discussion
+  - **Issue** There are several typographical errors and inconsistencies. In Table 2, the note says "for example 22:23 means p.E413K is found as damaging in 22 out of 23 algorithms" but p.E413K has a ratio of 21:23, not 22:23. In the Discussion, "p.E976K; p.E976K" is repeated. The variant p.S920F is sometimes referred to as S902F in the text (e.g., in the PCA section and Figure 4 legend).
+  - **Required correction** Carefully proofread the manuscript for typographical errors and ensure consistent naming of variants throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference to supplementary materials
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary materials section
+  - **Issue** The supplementary materials are described as "Image, application 1" which is not informative. The authors state that "All the Supplementary data (figure and tables) are provided at the end of manuscript" but these were not included in the provided text.
+  - **Required correction** Provide a clear list of all supplementary files with descriptive titles and ensure they are accessible to reviewers and readers.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion does not adequately address the limitations of the study, including the small sample size, lack of functional validation, and the inherent limitations of computational predictions.
+  - **Required correction** Add a dedicated limitations paragraph acknowledging these issues and discussing how they affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (pathogenicity claim not supported by evidence), R1-M2 (inadequate statistical analysis of simulations), R1-M3 (insufficient variant frequency analysis and germline/somatic distinction).
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The identification of novel variants in an underrepresented population is valuable, but the approach (in-silico prediction plus simulation) is not methodologically novel.  
+  - **Scientific importance** Moderate. The findings could be relevant for understanding MSH3-related CRC risk in AA populations, but the lack of functional validation limits the significance.  
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to cancer geneticists and computational biologists. The clinical implications are speculative without functional data.  
+  - **Technical soundness** Insufficient. The molecular dynamics simulations lack statistical rigor, and the variant calling methods are not described in sufficient detail.  
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and accessible, though some sections (e.g., simulation methods) may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important topic and identifies potentially interesting variants, but the central claim of confirmed pathogenicity is not supported. Major revisions are required, including functional validation or substantial tempering of claims, more rigorous simulation analysis, and clearer presentation of sequencing data. If these concerns are addressed, the manuscript could be suitable for publication in a specialized journal, though it may not meet the broad-impact threshold for Nature.
+
+## Risk / unsupported claims
+- The claim that variants are "confirmed" as pathogenic is unsupported; only computational predictions are provided.
+- The claim that variants "likely contributing to the development or advancement of CRC" is speculative without functional or epidemiological evidence.
+- The claim that variants "affect the function of MSH3 protein" is based solely on simulation and prediction tools, not experimental validation.
+- The claim that all six variants are "novel" is based on database searches whose versions and completeness are not fully specified.
+- The claim that variants "might alter ATPase activity" is speculative and not directly tested.
+- The claim that "in-vitro experiments are currently underway" and that CRISPR-Cas9 knock-in has been initiated is mentioned but no data are provided; this does not support current conclusions.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42565475",
+  "title": "A hybrid deep learning framework for WT or mutant peptide prediction using p53 mutation data.",
+  "authors": "Patil, Manisha R; Bihari, Anand",
+  "journal": "Statistical applications in genetics and molecular biology",
+  "published_date": "2026-08-07",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN+Bi-LSTM和ESM-2嵌入对p53突变肽段进行WT/突变分类，虽涉及p53-DNA结合相关突变，但核心是序列分类而非TF-DNA互作建模，方法可迁移但深度不足。",
+  "abstract": "p53 is a tumor suppressor protein that maintains genome integrity. Single amino acid variations (SAVs), especially hotspot mutations (such as R175 and R248), are closely associated with oncogenic transformation and weaken DNA-binding and transcriptional regulatory capabilities. To identify deleterious SAVs for understanding disease mechanisms and key cellular processes, including apoptosis, DNA repair, and cell cycle regulation. This study used quantitative biochemical and microbial descriptors of p53 peptide sequences, along with a CNN and a 2-layer bidirectional long short-term memory (Bi-LSTM) network architecture with attention mechanisms and ESM-2-based embeddings, to classify sequences as wild-type or mutant. A systematic analysis of the p53 mutation dataset was performed using molecular weight, instability index, hydrophobicity, motif enrichment, and amino acid substitution patterns to identify mutation-centered peptides. Using stratified 5-fold cross-validation, the proposed model was tested, achieving an accuracy of 0.98, an area under the ROC curve (AUROC) of 0.98, and a precision-recall AUC of 0.99. Furthermore, SHAP-based interpretation identified the key amino acid residues and biochemical factors that contribute to the model's predictive performance. The proposed approach provides insights into the structural, sequential, and biochemical effects of variants, an interpretable, robust framework for evaluating the functional consequences of p53 hotspot and other variants, and a computationally efficient tool for prioritizing high-risk p53 variants.",
+  "abstract_zh": "p53是一种肿瘤抑制蛋白，维持基因组完整性。单氨基酸变异（SAVs），尤其是热点突变（如R175和R248），与致癌转化密切相关，并削弱DNA结合和转录调控能力。为识别有害SAVs，以理解疾病机制和关键细胞过程，包括细胞凋亡、DNA修复和细胞周期调控，本研究利用p53肽序列的定量生化和微生物学描述符，结合卷积神经网络（CNN）和带有注意力机制及基于ESM-2嵌入的两层双向长短期记忆（Bi-LSTM）网络架构，将序列分类为野生型或突变型。通过对p53突变数据集进行系统分析，使用分子量、不稳定指数、疏水性、基序富集和氨基酸替换模式来识别以突变为中心的肽段。采用分层5折交叉验证测试所提模型，实现了0.98的准确率、0.98的ROC曲线下面积（AUROC）和0.99的精确率-召回率AUC。此外，基于SHAP的解释识别了有助于模型预测性能的关键氨基酸残基和生化因素。所提方法提供了对变异的结构、序列和生化影响的见解，为评估p53热点及其他变异的功能后果提供了一个可解释、稳健的框架，以及一个用于优先排序高风险p53变异的计算高效工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42565475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42565475/",
+  "paper_page_path": "papers/pubmed/42565475/index.html"
+}

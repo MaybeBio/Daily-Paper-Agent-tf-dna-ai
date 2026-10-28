@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "42174634",
+    "doi": "10.1186/s13148-026-02150-9",
+    "title": "Early detection of gastric cancer with the assistance of cell-free DNA fragmentomics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer remains one of the most prevalent malignancies globally. As early-stage gastric cancer is typically asymptomatic or presents with non-specific symptoms, most patients are diagnosed at advanced stages, leading to poor survival outcomes. Effective early detection strategies are important for reducing gastric cancer-related mortality. In this study, we developed a non-invasive assay utilizing cell-free DNA to distinguish patients with early-stage gastric cancer from healthy individuals. RESULTS: We performed low-depth whole genome sequencing to profile cell-free DNA and extracted three distinct features: fragment size patterns, coverage at transcription factor binding sites, and methylation-based profiles. These features were integrated via machine learning to construct a stacked ensemble model. The study included a training cohort (108 gastric cancer patients and 108 healthy controls), a temporally independent validation cohort (79 patients and 79 healthy controls), and an external validation cohort recruited from two independent centers (136 patients and 136 healthy controls). The ensemble model demonstrated robust performance, achieving area under the curve values of 0.986, 0.978, and 0.967 in the training, validation, and external cohorts, respectively. Specificity and sensitivity were 98.1% and 89.8% in the training cohort, 97.5% and 87.6% in the validation cohort, and 96.3% and 87.5% in the external cohort. Notably, the sensitivity for detecting stage I gastric cancer exceeded 85% across all cohorts. CONCLUSIONS: By integrating multi-dimensional cell-free DNA fragmentomic features, this assay provides accurate, non-invasive detection of gastric cancer, particularly at early stages. While its performance was high, the specificity reported here may be overestimated due to the use of a strictly screened healthy control group. Nevertheless, this fragmentomic-based approach represents a promising tool to complement existing screening strategies, potentially improving early diagnosis rates.",
+    "keywords": [
+      "Cell-free DNA",
+      "Early detection",
+      "Fragmentomics",
+      "Gastric cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/diagnosis",
+      "*Early Detection of Cancer/methods",
+      "Female",
+      "DNA Methylation",
+      "*Cell-Free Nucleic Acids/genetics",
+      "Male",
+      "Middle Aged",
+      "*Whole Genome Sequencing/methods",
+      "Sensitivity and Specificity",
+      "Aged",
+      "Case-Control Studies",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Xiaoli",
+        "Han, Zhengxiang",
+        "Zhang, Ying",
+        "Wang, Hongmei",
+        "Li, Xuqi",
+        "Bai, Chenxi",
+        "Pan, Ying",
+        "Huang, Jingwen",
+        "Xie, Jiaojiao",
+        "Qian, Xiaohan",
+        "Wang, Xuan",
+        "Ding, Tao",
+        "Zhang, Jinpeng",
+        "Yang, Shanshan",
+        "Hong, Xinyue",
+        "Jing, Qifan",
+        "Li, Gang",
+        "Li, Xiaohua"
+      ],
+      "short_names": [
+        "Huang X",
+        "Han Z",
+        "Zhang Y",
+        "Wang H",
+        "Li X",
+        "Bai C",
+        "Pan Y",
+        "Huang J",
+        "Xie J",
+        "Qian X",
+        "Wang X",
+        "Ding T",
+        "Zhang J",
+        "Yang S",
+        "Hong X",
+        "Jing Q",
+        "Li G",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China.",
+        "Department of Oncology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, 221006, China.",
+        "Department of Radiotherapy, Xijing Hospital, Fourth Military Medical University, Xi'an, 710061, China.",
+        "Department of Oncology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, 221006, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China.",
+        "Medical College, Nantong University, Nantong, 226001, China.",
+        "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China.",
+        "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China.",
+        "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China.",
+        "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China.",
+        "Department of General Surgery, The Affiliated Cancer Hospital of Nanjing Medical University & Jiangsu Cancer Hospital & Jiangsu Institute of Cancer Research, No.42 Baiziting, Nanjing, 210009, Jiangsu, China. ligang@njmu.edu.cn.",
+        "Department of Digestive Surgery, Xijing Hospital, Fourth Military Medical University, 169 Changle West Road, Xi'an, 710061, Shaanxi, China. xjyylixiaohua@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Xiaoli",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China."
+        ]
+      },
+      {
+        "full_name": "Han, Zhengxiang",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, 221006, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Xijing Hospital, Fourth Military Medical University, Xi'an, 710061, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongmei",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, 221006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuqi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Chenxi",
+        "short_name": "Bai C",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Nantong University, Nantong, 226001, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Ying",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jingwen",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jiaojiao",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Xiaohan",
+        "short_name": "Qian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, 210031, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Tao",
+        "short_name": "Ding T",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinpeng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shanshan",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Xinyue",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Qifan",
+        "short_name": "Jing Q",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, 210032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gang",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Affiliated Cancer Hospital of Nanjing Medical University & Jiangsu Cancer Hospital & Jiangsu Institute of Cancer Research, No.42 Baiziting, Nanjing, 210009, Jiangsu, China. ligang@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaohua",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, Xijing Hospital, Fourth Military Medical University, 169 Changle West Road, Xi'an, 710061, Shaanxi, China. xjyylixiaohua@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2026 May 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/23 06:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [
+      "42557506"
+    ],
+    "refs": [
+      "40399276",
+      "39617822",
+      "39388714",
+      "39038922",
+      "38849905",
+      "38755237",
+      "38455396",
+      "37692483",
+      "36894035",
+      "36777187",
+      "36463275",
+      "36288287",
+      "35690859",
+      "34791072",
+      "34417454",
+      "33833097",
+      "33538338",
+      "33231677",
+      "32241902",
+      "31142840",
+      "30926654",
+      "30909187",
+      "30689553",
+      "30628031",
+      "28486502",
+      "28094848",
+      "25215497",
+      "24379990"
+    ],
+    "similar": [
+      "42174634",
+      "38849905",
+      "40712972",
+      "41366809",
+      "41731447",
+      "39909829",
+      "42067888",
+      "40543210",
+      "39073362",
+      "41318553",
+      "40311105",
+      "36346614",
+      "40133038",
+      "40992272",
+      "39233043",
+      "40468355",
+      "40136052",
+      "35690859",
+      "41237359",
+      "39038922",
+      "41165038",
+      "39332854",
+      "39089259",
+      "41685330",
+      "39694683",
+      "38584223",
+      "34702327",
+      "40244164",
+      "42165910",
+      "39009999",
+      "42035195",
+      "39075419",
+      "35780566",
+      "41201494",
+      "38750539",
+      "41380836",
+      "29686738",
+      "39466000",
+      "37728978",
+      "42014847",
+      "39406379",
+      "41291517",
+      "41917473",
+      "35027051",
+      "40184223",
+      "37567793",
+      "40961284",
+      "39088983",
+      "39352118",
+      "40757819",
+      "40425843",
+      "31727158",
+      "42167247",
+      "42324902",
+      "41495807",
+      "42475469",
+      "39748775",
+      "39735533",
+      "38849019",
+      "41797598",
+      "41359088",
+      "42097499",
+      "36524960",
+      "38670484",
+      "41931548",
+      "37678194",
+      "41943036",
+      "39093127",
+      "42145016",
+      "40500793",
+      "41162994",
+      "37819044",
+      "33694305",
+      "39235559",
+      "41381655",
+      "39478151",
+      "39753334",
+      "33536049",
+      "36788585",
+      "32512514",
+      "34641873",
+      "37936230",
+      "39003776",
+      "39725880",
+      "39776291",
+      "38128532",
+      "42567199",
+      "32066615",
+      "41331845",
+      "39819319",
+      "36849097",
+      "40375278",
+      "31443703",
+      "39520622",
+      "41152983",
+      "40366744",
+      "27993161",
+      "41129333",
+      "41792156",
+      "40737022"
+    ],
+    "review": [
+      "42174634",
+      "41797598",
+      "36788585"
+    ],
+    "pmc": [
+      "13374216"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-026-02150-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42174634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

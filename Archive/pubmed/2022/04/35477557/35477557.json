@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "35477557",
+    "doi": "10.1681/ASN.2021060784",
+    "title": "Molecular Characterization of Membranous Nephropathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Molecular characterization of nephropathies may facilitate pathophysiologic insight, development of targeted therapeutics, and transcriptome-based disease classification. Although membranous nephropathy (MN) is a common cause of adult-onset nephrotic syndrome, the molecular pathways of kidney damage in MN require further definition. METHODS: We applied a machine-learning framework to predict diagnosis on the basis of gene expression from the microdissected kidney tissue of participants in the Nephrotic Syndrome Study Network (NEPTUNE) cohort. We sought to identify differentially expressed genes between participants with MN versus those of other glomerulonephropathies across the NEPTUNE and European Renal cDNA Bank (ERCB) cohorts, to find MN-specific gene modules in a kidney-specific functional network, and to identify cell-type specificity of MN-specific genes using single-cell sequencing data from reference nephrectomy tissue. RESULTS: Glomerular gene expression alone accurately separated participants with MN from those with other nephrotic syndrome etiologies. The top predictive classifier genes from NEPTUNE participants were also differentially expressed in the ERCB participants with MN. We identified a signature of 158 genes that are significantly differentially expressed in MN across both cohorts, finding 120 of these in a validation cohort. This signature is enriched in targets of transcription factor NF-kappaB. Clustering these MN-specific genes in a kidney-specific functional network uncovered modules with functional enrichments, including in ion transport, cell projection morphogenesis, regulation of adhesion, and wounding response. Expression data from reference nephrectomy tissue indicated 43% of these genes are most highly expressed by podocytes. CONCLUSIONS: These results suggest that, relative to other glomerulonephropathies, MN has a distinctive molecular signature that includes upregulation of many podocyte-expressed genes, provides a molecular snapshot of MN, and facilitates insight into MN's underlying pathophysiology.",
+    "keywords": [
+      "machine learning",
+      "membranous nephropathy",
+      "podocyte",
+      "scRNA-seq",
+      "single-cell sequencing",
+      "transcriptional profiling"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "*Glomerulonephritis, Membranous/genetics/metabolism",
+      "Humans",
+      "Kidney/metabolism",
+      "*Kidney Diseases/metabolism",
+      "Kidney Glomerulus/metabolism",
+      "*Nephrotic Syndrome/genetics/metabolism",
+      "*Podocytes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sealfon, Rachel",
+        "Mariani, Laura",
+        "Avila-Casado, Carmen",
+        "Nair, Viji",
+        "Menon, Rajasree",
+        "Funk, Julien",
+        "Wong, Aaron",
+        "Lerner, Gabriel",
+        "Hayashi, Norifumi",
+        "Troyanskaya, Olga",
+        "Kretzler, Matthias",
+        "Beck, Laurence H Jr"
+      ],
+      "short_names": [
+        "Sealfon R",
+        "Mariani L",
+        "Avila-Casado C",
+        "Nair V",
+        "Menon R",
+        "Funk J",
+        "Wong A",
+        "Lerner G",
+        "Hayashi N",
+        "Troyanskaya O",
+        "Kretzler M",
+        "Beck LH Jr"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6280-9639",
+        "ORCID: 0000-0003-4064-0582",
+        "ORCID: 0000-0003-1482-4089"
+      ],
+      "affiliations": [
+        "Center for Computational Biology, Flatiron Institute, New York, New York.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey.",
+        "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan.",
+        "Toronto General Hospital Research Institute, Toronto, Ontario, Canada.",
+        "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan.",
+        "Center for Computational Biology, Flatiron Institute, New York, New York.",
+        "Center for Computational Biology, Flatiron Institute, New York, New York.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey.",
+        "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts.",
+        "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts.",
+        "Division of Nephrology, Kanazawa Medical University, Uchinada, Ishikawa, Japan.",
+        "Center for Computational Biology, Flatiron Institute, New York, New York.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey.",
+        "Department of Computer Science, Princeton University, Princeton, New Jersey.",
+        "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sealfon, Rachel",
+        "short_name": "Sealfon R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, New York, New York.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Mariani, Laura",
+        "short_name": "Mariani L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Avila-Casado, Carmen",
+        "short_name": "Avila-Casado C",
+        "identifiers": [],
+        "affiliations": [
+          "Toronto General Hospital Research Institute, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Nair, Viji",
+        "short_name": "Nair V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Menon, Rajasree",
+        "short_name": "Menon R",
+        "identifiers": [
+          "0000-0001-6280-9639"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Funk, Julien",
+        "short_name": "Funk J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Wong, Aaron",
+        "short_name": "Wong A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, New York, New York.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Lerner, Gabriel",
+        "short_name": "Lerner G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Norifumi",
+        "short_name": "Hayashi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts.",
+          "Division of Nephrology, Kanazawa Medical University, Uchinada, Ishikawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Troyanskaya, Olga",
+        "short_name": "Troyanskaya O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, New York, New York.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey.",
+          "Department of Computer Science, Princeton University, Princeton, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Kretzler, Matthias",
+        "short_name": "Kretzler M",
+        "identifiers": [
+          "0000-0003-4064-0582"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan.",
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Beck, Laurence H",
+        "short_name": "Beck LH",
+        "identifiers": [
+          "0000-0003-1482-4089"
+        ],
+        "affiliations": [
+          "Department of Medicine, Boston Medical Center and Boston University School of Medicine, Boston, Massachusetts."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Society of Nephrology : JASN"
+    ],
+    "journal_abbrev": [
+      "J Am Soc Nephrol"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/29 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "41189572",
+      "41026539",
+      "41026536",
+      "40539070",
+      "40439831",
+      "40191205",
+      "39972601",
+      "39516845",
+      "39082739",
+      "39027416",
+      "38046035",
+      "37809643",
+      "37633449",
+      "36405681",
+      "35577559"
+    ],
+    "refs": [],
+    "similar": [
+      "35477557",
+      "27855638",
+      "39819080",
+      "40149392",
+      "12830459",
+      "38029552",
+      "41854527",
+      "40058725",
+      "29508174",
+      "17697619",
+      "32668319",
+      "41476974",
+      "28337458",
+      "34473647",
+      "24602463",
+      "38227377",
+      "27214550",
+      "25157805",
+      "25875837",
+      "41853261",
+      "10589701",
+      "19827739",
+      "40442195",
+      "32974919",
+      "16598195",
+      "39776814",
+      "34716242",
+      "23377573",
+      "35484394",
+      "27631233",
+      "17726340",
+      "41948325",
+      "11337370",
+      "32680915",
+      "37974210",
+      "40539070",
+      "30991182",
+      "1300433",
+      "39068752",
+      "38791159",
+      "14566460",
+      "40840732",
+      "37451370",
+      "35935760",
+      "30414341",
+      "36305217",
+      "30566949",
+      "38237645",
+      "25954969",
+      "23325076",
+      "23999007",
+      "30526079",
+      "41711661",
+      "41697116",
+      "29480949",
+      "40888279",
+      "29269610",
+      "31060008",
+      "22176966",
+      "31705303",
+      "38846934",
+      "33862110",
+      "41502806",
+      "21234329",
+      "30509047",
+      "39248530",
+      "32712166",
+      "24750591",
+      "20150532",
+      "40739753",
+      "36531996",
+      "40067649",
+      "41132671",
+      "29155846",
+      "30084529",
+      "29247494",
+      "12119471",
+      "38940537",
+      "26154927",
+      "22086717",
+      "38156539",
+      "33754492",
+      "17699553",
+      "15800119",
+      "30242881",
+      "24194522",
+      "30626756",
+      "30394845",
+      "39177649",
+      "39515644",
+      "27489901",
+      "35796460",
+      "25976522",
+      "30067725",
+      "39082739",
+      "38785168",
+      "34135910",
+      "37863839",
+      "33632518",
+      "31285284"
+    ],
+    "review": [
+      "35477557",
+      "24602463",
+      "19827739",
+      "35484394",
+      "17726340",
+      "32680915",
+      "14566460",
+      "40888279",
+      "33862110",
+      "15800119",
+      "27489901"
+    ],
+    "pmc": [
+      "9161788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneydiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35477557/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35477557",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35477557",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse197307",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://www.ovid.com/10.1681/ASN.2021060784",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

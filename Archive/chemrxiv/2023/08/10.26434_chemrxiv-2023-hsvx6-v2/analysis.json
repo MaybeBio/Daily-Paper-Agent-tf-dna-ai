@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-hsvx6-v2",
+  "title": "Using AlphaFold and Experimental Structures for the Prediction of the Structure and Binding Affinities of GPCR Complexes via Induced Fit Docking and Free Energy Perturbation",
+  "authors": "Dilek Coskun; Muyun Lihan; Joao Rodrigues; Marton Vass; Daniel Robinson; Richard Friesner; Edward Miller",
+  "journal": "ChemRxiv",
+  "published_date": "2023-08-01",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用AlphaFold模型结合诱导拟合对接和自由能微扰预测GPCR复合物结构与结合亲和力，对象为蛋白-小分子而非蛋白-DNA互作，方法虽可迁移但与本课题TF-DNA结合研究关联甚微。",
+  "abstract": "Free energy perturbation (FEP) remains an indispensable method for computationally assaying prospective compounds in advance of synthesis. But before FEP can be deployed prospectively, it must demonstrate retrospective recapitulation of known experimental data where the subtle details of the atomic ligand-receptor model are consequential. An open question is whether AlphaFold models can serve as useful initial models for FEP in the regime where there exists a congeneric series of known chemical matter but where no experimental structures are available either of the target or of close homologues. As AlphaFold structures are provided without a ligand bound, we employ induced-fit docking to refine the AlphaFold models in the presence of one or more congeneric ligands. In this work, we first validate the performance of our latest induced-fit docking technology, IFD-MD on a retrospective set of public experimental GPCR structures with 95% of crossdocks produc-ing a pose with a ligand RMSD ≤ 2.5 Å in the top 2 predictions. We then apply IFD-MD and FEP on AlphaFold models of the somatostatin receptor family of GPCRs. We use AlphaFold models produced prior to the availability of any experi-mental structure from within this family. We arrive at FEP-validated models for SSTR2, SSTR4, and SSTR5, with RMSE around 1 kcal/mol and explore the challenges of model validation under scenarios of limited ligand-data, ample ligand data, and categorical data.",
+  "abstract_zh": "自由能微扰（Free energy perturbation, FEP）仍是计算评估候选化合物在合成前不可或缺的方法。但在FEP能够前瞻性应用之前，它必须展示对已知实验数据的回顾性重现，其中原子级配体-受体模型的细微细节至关重要。一个悬而未决的问题是，在存在一系列已知化学物质的同系物但既无靶标也无近缘同源物的实验结构的情况下，AlphaFold模型能否作为FEP的有用初始模型。由于AlphaFold结构未提供配体结合状态，我们采用诱导契合对接（induced-fit docking）在一个或多个同系物配体存在下优化AlphaFold模型。在本工作中，我们首先验证了我们最新的诱导契合对接技术IFD-MD在公开实验GPCR结构回顾性数据集上的性能，其中95%的交叉对接在排名前2的预测中产生了配体RMSD ≤ 2.5 Å的构象。随后，我们将IFD-MD和FEP应用于生长抑素受体家族GPCR的AlphaFold模型。我们使用了在该家族任何实验结构可用之前生成的AlphaFold模型。我们为SSTR2、SSTR4和SSTR5获得了FEP验证的模型，RMSE约为1 kcal/mol，并探讨了在配体数据有限、配体数据充足和分类数据场景下模型验证的挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-hsvx6-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-hsvx6-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-hsvx6-v2/index.html"
+}

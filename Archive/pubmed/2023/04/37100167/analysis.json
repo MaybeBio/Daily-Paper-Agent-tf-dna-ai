@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37100167",
+  "title": "Modulation of DNA-protein Interactions by Proximal Genetic Elements as Uncovered by Interpretable Deep Learning.",
+  "authors": "Kalakoti, Yogesh; Peter, Swathik Clarancia; Gawande, Swaraj; Sundar, Durai",
+  "journal": "Journal of molecular biology",
+  "published_date": "2023-04-27",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可解释深度学习框架分析TF结合基序上下游遗传元件对TF-DNA结合选择性的调控，聚焦TF-DNA互作建模与结合位点预测，方法为AI且具高可解释性，与课题高度匹配。",
+  "abstract": "Transcription factors (TF) recognize specific motifs in the genome that are typically 6-12 bp long to regulate various aspects of the cellular machinery. Presence of binding motifs and favorable genome accessibility are key drivers for a consistent TF-DNA interaction. Although these pre-requisites may occur thousands of times in the genome, there seems to be a high degree of selectivity for the sites that are actually bound. Here, we present a deep-learning framework that identifies and characterizes the upstream and downstream genetic elements to the binding motif, for their role in enforcing the mentioned selectivity. The proposed framework is based on an interpretable recurrent neural network architecture that enables for the relative analysis of sequence context features. We apply the framework to model twenty-six transcription factors and score the TF-DNA binding at a base-pair resolution. We find significant differences in activations of DNA context features for bound and unbound sequences. In addition to standardized evaluation protocols, we offer outstanding interpretability that enables us to identify and annotate DNA sequence with possible elements that modulate TF-DNA binding. Also, differences in data processing have a huge influence on the overall model performance. Overall, the proposed framework allows for novel insights on the non-coding genetic elements and their role in facilitating a stable TF-DNA interaction.",
+  "abstract_zh": "转录因子（Transcription factors, TF）识别基因组中通常长度为6-12 bp的特定基序，以调控细胞机制的各个方面。结合基序的存在及有利的基因组可及性是稳定TF-DNA相互作用的关键驱动因素。尽管这些前提条件在基因组中可能发生数千次，但实际被结合的位点似乎表现出高度的选择性。在此，我们提出一个深度学习框架，用于识别并表征结合基序上游和下游的遗传元件，及其在强化上述选择性中的作用。该框架基于一种可解释的循环神经网络架构，能够对序列上下文特征进行相对分析。我们应用该框架对二十六个转录因子进行建模，并以碱基对分辨率对TF-DNA结合进行评分。我们发现，在结合与未结合序列中，DNA上下文特征的激活存在显著差异。除了标准化的评估协议外，我们提供出色的可解释性，使我们能够识别并注释可能调节TF-DNA结合的DNA序列元件。此外，数据处理方式的差异对整体模型性能有巨大影响。总体而言，该框架为理解非编码遗传元件及其在促进稳定TF-DNA相互作用中的作用提供了新颖见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37100167/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37100167/",
+  "paper_page_path": "papers/pubmed/37100167/index.html"
+}

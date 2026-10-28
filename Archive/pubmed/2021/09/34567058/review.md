@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, funding, conflict of interest, publisher's note, supplementary material link)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality as presented in the provided text. No external data or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors evaluate whether deltaSVM scores, derived from gkm-SVM trained on ChIP-seq data, provide a more reliable measure of the impact of single nucleotide variants (SNVs) on in vivo transcription factor (TF) binding affinity than traditional position weight matrix (PWM) scores. They report that only about 20% of SNVs located inside putative TF binding sites significantly affect TF-DNA binding, and that PWM-based annotation may overestimate functional impact.
+- **Visible evidence base** Main text only. Supplementary Tables S1–S5 and Supplementary Figures 1–2 are referenced but not provided. No code or data were inspected.
+- **Missing materials affecting confidence** All supplementary materials (Tables S1–S5, Figures 1–2), the GitHub repository, and the underlying ChIP-seq datasets. Without these, quantitative results, thresholds, and reproducibility cannot be verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in non-coding variant interpretation, comparing PWM-based and gkm-SVM-based approaches for assessing SNV effects on TF binding. The central claim, that only about 20% of SNVs in putative binding sites are impactful, is potentially important but is not adequately supported by the evidence presented in the main text. The methods section lacks critical details on model training, threshold selection, and statistical testing. The results are presented descriptively without confidence intervals or formal comparisons. The manuscript would benefit from clearer articulation of the novelty relative to existing deltaSVM publications and from a more rigorous quantitative framework.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and statistical genetics, particularly those working on functional annotation of non-coding variants from GWAS. The comparison of PWM and gkm-SVM approaches is of practical interest for variant prioritization.
+- **Major strengths** The study addresses a clinically and biologically relevant question. The use of ChIP-seq-derived deltaSVM scores as a benchmark for PWM-based predictions is a reasonable approach. The inclusion of 18 TFs and 11 diseases provides breadth. The authors acknowledge limitations of PWM models and the cell-type specificity of ChIP-seq data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that deltaSVM scores can serve as a useful resource to quantify the impact of SNVs throughout the genome, and that only about 20% of SNVs inside putative TF binding sites have significant impact.
+  - **Evidence pointer** Materials and Methods, section "Measuring Impact of SNV on TF Binding Strength"; Results, section "Exploring Potential Association Between TFs and Complex Diseases"
+  - **Concern** The empirical threshold for calling an SNV impactful is derived from deltaSVM scores at non-motif sites, but the rationale for this control is not fully explained. The choice of the 2.5th and 97.5th percentiles as significance thresholds is arbitrary and not justified statistically. Moreover, the deltaSVM score is a sum over 10 k-mer pairs, and its distribution under the null hypothesis is not characterized. Without a clear statistical model or validation against independent experimental data, the 20% figure is not robustly established.
+  - **Why it matters** The central quantitative claim of the manuscript depends entirely on this thresholding procedure. If the thresholds are mis-specified, the conclusion that PWM-based annotation overestimates functional impact could be incorrect.
+  - **Resolution test** Provide a formal statistical justification for the threshold choice, or validate the thresholds against independent experimental data (e.g., allele-specific binding assays, reporter assays). Report the distribution of deltaSVM scores at motif versus non-motif sites and demonstrate that the chosen percentiles correspond to meaningful biological effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors state that "we conducted a comprehensive survey" and that results are summarized in Supplementary Tables and Figures.
+  - **Evidence pointer** Results, sections "Correlation Between SVM Weights and PWM Scores" and "Exploring Potential Association Between TFs and Complex Diseases"; Supplementary Tables S1–S5 and Supplementary Figures 1–2
+  - **Concern** All quantitative results, including the correlation coefficients, AUC values, and the 20% figure, are only available in supplementary materials that were not provided. The main text contains no numerical results, making it impossible to assess the strength of the evidence. The GitHub repository is mentioned but not described in terms of contents or accessibility.
+  - **Why it matters** A Nature-style manuscript must be self-contained enough for a reviewer to evaluate the claims. Without access to the supplementary data, the core findings cannot be verified or reproduced.
+  - **Resolution test** Include key quantitative results in the main text or ensure that all supplementary materials are available for review. Provide a detailed description of the GitHub repository contents and any code dependencies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contextualization
+  - **Claim pointer** The authors state that "a natural extension is to apply the gkm-SVM methodology to predict TF binding" and that they compare PWM scores with SVM weights.
+  - **Evidence pointer** Introduction, paragraph 3; Discussion, paragraph 1
+  - **Concern** The deltaSVM method has been previously published and applied to regulatory variant prediction. The manuscript does not clearly articulate what is new beyond applying an existing method to a set of 18 TFs. The comparison with PWM scores is descriptive, and the authors do not discuss prior work that may have already compared PWM and k-mer-based methods.
+  - **Why it matters** For a high-impact journal, the incremental contribution must be clearly defined. If the comparison is largely confirmatory, the significance of the work is diminished.
+  - **Resolution test** Explicitly state the novel contributions, such as a new benchmark dataset, a new statistical framework, or a new biological insight. Cite and discuss prior comparative studies and explain how this work advances beyond them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, section "Measuring TF Binding Strength"
+  - **Evidence pointer** "In some scenarios, relative entropy (Vinga, 2014) is preferred over the PWM score as the estimate of the binding strength. The relative entropy for motif sequence (a1, a2,…,aL) is defined by" followed by a blank equation
+  - **Issue** The equation for relative entropy is missing from the text. The definition is incomplete.
+  - **Required correction** Provide the full equation for relative entropy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, section "Correlation Between SVM Weights and PWM Scores"
+  - **Evidence pointer** "the correlation between PWM scores and SVM weights of these 10-mers ranges from −0.081 to 0.787"
+  - **Issue** No confidence intervals or p-values are reported for the correlation coefficients. It is unclear which correlations are statistically significant.
+  - **Required correction** Report confidence intervals or p-values for the correlation coefficients, and specify the number of 10-mers used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Results, section "Exploring Potential Association Between TFs and Complex Diseases"
+  - **Evidence pointer** "the average percentage of discordant SNVs across 18 TFs are close to 80% for all 11 diseases"
+  - **Issue** The term "discordant SNVs" is defined as those with insignificant deltaSVM scores despite being in PWM-identified sites. However, the biological interpretation of discordance is not discussed. It is unclear whether discordance implies a false positive by PWM or a false negative by deltaSVM.
+  - **Required correction** Clarify the interpretation of discordant SNVs and discuss potential reasons for discordance, such as cell-type specificity or motif context.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and precision
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** "only about 20% of SNVs located inside putative TF binding sites would likely to have significant impact on the TF-DNA binding"
+  - **Issue** The phrase "would likely to have" is grammatically incorrect. Also, "significant impact" is not defined in the abstract.
+  - **Required correction** Revise to "are likely to have a significant impact" and define "significant" in terms of the deltaSVM threshold.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (threshold justification), R1-M2 (missing supplementary data), R1-M3 (novelty unclear). The missing equation in the methods (R1-m1) is a technical error that must be fixed.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of deltaSVM to 18 TFs is not conceptually new, and the comparison with PWM is incremental. Scientific importance: Potentially high, as the 20% figure could influence variant interpretation, but the evidence is currently insufficient. Interdisciplinary readership: The topic is relevant to genetics, genomics, and bioinformatics, but the presentation is too specialized and lacks context for a broader audience. Technical soundness: Weak. The thresholding procedure is not statistically justified, and key results are not presented. Readability for nonspecialists: Poor. The methods are dense and the abstract does not clearly explain the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question, but the central claim is not supported by the evidence presented in the main text. Major revisions are required, including access to supplementary data, a statistically justified thresholding approach, and a clearer articulation of novelty.
+
+## Risk / unsupported claims
+- The claim that "only about 20% of SNVs located inside putative TF binding sites would likely to have significant impact" is unsupported because the thresholding procedure is not justified and the underlying data are not available.
+- The claim that "PWM-based method and SVM-based method does not always agree" is supported only by descriptive statements and unreferenced supplementary figures.
+- The claim that "SVM weight is a competitive method to score TF binding in vivo and performs better than PWM scores when the motif is shorter and weak" is based on AUC comparisons that are not reported in the main text.
+- The statement that "the SVM weights for CTCF obtained from the three different cell types are quite consistent" is based on an overlap analysis that is not described in sufficient detail.
+- The relevance of the disease association analysis is unclear because the selection of diseases and the interpretation of discordance are not fully explained.

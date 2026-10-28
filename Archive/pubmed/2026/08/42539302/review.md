@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a general physical mechanism by which flexibly tethered, rapidly diffusing DNA-binding domains accelerate association of large enzymes with DNA, using bacterial RNA polymerase and its α-subunit C-terminal domain as a model system. They combine single-molecule experiments, theory, and computation to support this claim and argue that the mechanism enables rapid DNA binding while minimizing non-functional genome sequestration.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, figure references, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, statistical analyses, model derivations, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing and potentially general biophysical hypothesis with broad relevance. However, the provided material is insufficient to evaluate the validity of the central claims. No quantitative data, experimental design details, or theoretical derivations are visible. The claim of a "general physical mechanism" is stated rather than demonstrated, and the abstract does not provide enough information to assess whether the evidence supports the proposed acceleration mechanism or the assertion regarding minimized non-functional sequestration.
+- **Who would be interested in the results, and why** Biophysicists studying protein-DNA interactions and macromolecular association kinetics; molecular biologists interested in transcription initiation and RNA polymerase function; researchers in single-molecule biophysics; and theorists working on diffusion-limited reactions in biological systems. The proposed mechanism, if validated, could inform understanding of how large multi-domain proteins achieve rapid target search without excessive non-specific binding.
+- **Major strengths** The hypothesis is conceptually novel and potentially unifying, linking a specific biological system (bacterial RNA polymerase) to a general physical principle. The combination of single-molecule experiments, theory, and computation is appropriate for addressing the question. The significance statement clearly articulates the potential biological importance of the mechanism.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "tethered domains can accelerate enzyme binding to DNA by orders of magnitude" and that this is demonstrated for the α-subunit C-terminal domain of bacterial RNA polymerase.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, no description of the single-molecule assays, no comparison to control conditions, and no theoretical or computational results. The claim of "orders of magnitude" acceleration is unsupported by any visible numbers or statistical measures.
+  - **Why it matters** The central quantitative claim is the foundation of the paper's significance. Without visible evidence, the reader cannot assess whether the effect size is real, reproducible, or specific to the proposed mechanism.
+  - **Resolution test** Provide the actual measured association rate constants with and without the tethered domain, including error bars and statistical comparisons, and show that the acceleration is indeed orders of magnitude.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims a "general physical mechanism" applicable to "large enzymes" beyond the specific case of RNA polymerase.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract presents only one biological example. No evidence is shown that the mechanism applies to other enzymes or that the theoretical framework is not system-specific.
+  - **Why it matters** The word "general" in the title and significance statement elevates the claim beyond a single case study. Without comparative analysis or a broadly validated theoretical model, the generality is not established.
+  - **Resolution test** Show that the theoretical model predicts acceleration across a parameter range relevant to diverse enzymes, or provide experimental evidence from at least one additional system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional implication
+  - **Claim pointer** The abstract states that the mechanism "may allow the polymerase to rapidly bind DNA while minimizing non-functional sequestration on the genome."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This claim implies a trade-off between association speed and non-specific occupancy, but no data on genome-wide binding, non-specific dwell times, or sequestration are presented or referenced.
+  - **Why it matters** The biological significance of the mechanism depends on this trade-off being real and relevant in vivo. Without evidence, this remains speculation.
+  - **Resolution test** Provide measurements or simulations of non-specific binding occupancy and dwell times, and show that the tethered-domain mechanism reduces sequestration relative to an untethered scenario.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Significance statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "expected to bind DNA only slowly because of slow enzyme diffusion" is presented without qualification. The relationship between enzyme size and diffusion-limited association is well established, but the statement could be misread as implying all large enzymes bind slowly, which is not universally true.
+  - **Required correction** Clarify that the expectation applies under diffusion-limited conditions and that other factors (e.g., electrostatic steering) can modulate this.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "flexibly-tethered α-subunit C-terminal domain"
+  - **Evidence pointer** Abstract, significance statement
+  - **Issue** The term "flexibly-tethered" is used without definition. It is unclear whether this refers to a known structural feature or a new characterization.
+  - **Required correction** Define the term or provide a reference to established structural data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, no methods section
+  - **Issue** The abstract mentions "single-molecule experiments, theory, and computation" but gives no indication of the specific techniques (e.g., FRET, optical tweezers, molecular dynamics) or the timescales probed.
+  - **Required correction** Add a brief description of the experimental and computational approaches in the abstract or ensure the full manuscript provides this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the central quantitative claim, the generality of the mechanism, or the biological implication regarding sequestration.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism is conceptually novel and not a trivial extension of existing models for facilitated diffusion. The idea that a tethered small domain can accelerate association of a large enzyme is creative and potentially impactful.
+  - Scientific importance: If validated, the mechanism could have broad implications for understanding how large multi-domain proteins search for DNA targets, a fundamental process in gene regulation. The potential to reconcile rapid association with low non-specific occupancy is biologically significant.
+  - Interdisciplinary readership: The topic bridges biophysics, molecular biology, and theory, and would appeal to a broad audience across these fields. The significance statement is written accessibly.
+  - Technical soundness: Cannot be assessed from the abstract alone. The combination of experiments, theory, and computation is appropriate, but no details are visible to evaluate rigor.
+  - Readability for nonspecialists: The abstract is clear and well-written, with the significance statement providing useful context. However, the lack of quantitative results makes it difficult for a nonspecialist to gauge the strength of the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is appropriate, but the abstract alone does not provide sufficient support for the central claims. A full manuscript with quantitative data, methodological details, and evidence for generality would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim of "orders of magnitude" acceleration is unsupported by any visible quantitative data.
+- The claim of a "general physical mechanism" is unsupported beyond the single example of RNA polymerase.
+- The claim regarding "minimizing non-functional sequestration" is speculative without supporting data.
+- The assertion that the mechanism "exemplifies" a general principle is not testable from the abstract alone.

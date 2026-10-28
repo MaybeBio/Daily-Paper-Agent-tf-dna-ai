@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "38570787",
+    "doi": "10.1186/s12935-024-03258-9",
+    "title": "Deciphering the prognostic features of bladder cancer through gemcitabine resistance and immune-related gene analysis and identifying potential small molecular drug PIK-75."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bladder cancer (BCa) stands out as a prevalent and highly lethal malignancy worldwide. Chemoresistance significantly contributes to cancer recurrence and progression. Traditional Tumor Node Metastasis (TNM) stage and molecular subtypes often fail to promptly identify treatment preferences based on sensitivity. METHODS: In this study, we developed a prognostic signature for BCa with uni-Cox + LASSO + multi-Cox survival analysis in multiple independent cohorts. Six machine learning algorithms were adopted to screen out the hub gene, RAC3. IHC staining was used to validate the expression of RAC3 in BCa tumor tissue. RT-qPCR and Western blot were performed to detect and quantify the mRNA and protein levels of RAC3. CCK8, colony formation, wound healing, and flow cytometry analysis of apoptosis were employed to determine cell proliferation, migration, and apoptosis. Molecular docking was used to find small target drugs, PIK-75. 3D cell viability assay was applied to evaluate the ATP viability of bladder cancer organoids before and after PIK-75 treated. RESULTS: The established clinical prognostic model, GIRS, comprises 13 genes associated with gemcitabine resistance and immunology. This model has demonstrated robust predictive capabilities for survival outcomes across various independent public cohorts. Additionally, the GIRS signature shows significant correlations with responses to both immunotherapy and chemotherapy. Leveraging machine learning algorithms, the hub gene, RAC3, was identified, and potential upstream transcription factors were screened through database analysis. IHC results showed that RAC3 was higher expressed in GEM-resistant BCa patients. Employing molecular docking, the small molecule drug PIK-75, as binding to RAC3, was identified. Experiments on cell lines, organoids and animals validated the biological effects of PIK-75 in bladder cancer. CONCLUSIONS: The GIRS signature offers a valuable complement to the conventional anatomic TNM staging system and molecular subtype stratification in bladder cancer. The hub gene, RAC3, plays a crucial role in BCa and is significantly associated with resistance to gemcitabine. The small molecular drug, PIK-75 having the potential as a therapeutic agent in the context of gemcitabine-resistant and immune-related pathways.",
+    "keywords": [
+      "Bladder cancer",
+      "Machine learning",
+      "PIK-75",
+      "Prognostic signature",
+      "RAC3"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Tingting",
+        "Feng, Tao",
+        "Li, Guangren",
+        "Wang, Jin",
+        "Jin, Shengming",
+        "Ye, Dingwei",
+        "Zhu, Yiping"
+      ],
+      "short_names": [
+        "Cai T",
+        "Feng T",
+        "Li G",
+        "Wang J",
+        "Jin S",
+        "Ye D",
+        "Zhu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Urology, The First Affiliated Hospital of Shandong First Medical University, Shandong, China.",
+        "Shandong Provincial Qianfoshan Hospital, Shandong, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China. dwyelie@163.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. dwyelie@163.com.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China. qdzhuyiping@aliyun.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. qdzhuyiping@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Tingting",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Tao",
+        "short_name": "Feng T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guangren",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Shandong First Medical University, Shandong, China.",
+          "Shandong Provincial Qianfoshan Hospital, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Shengming",
+        "short_name": "Jin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Dingwei",
+        "short_name": "Ye D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China. dwyelie@163.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. dwyelie@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yiping",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center, Shanghai, China. qdzhuyiping@aliyun.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. qdzhuyiping@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell international"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell Int"
+    ],
+    "pub_date": "2024 Apr 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/04 00:43",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "41809777",
+      "41142241",
+      "40619551",
+      "40269930",
+      "39688216",
+      "39376007",
+      "39351351"
+    ],
+    "refs": [
+      "38763801",
+      "36505486",
+      "36341760",
+      "36333236",
+      "35847878",
+      "35479097",
+      "35280438",
+      "34511303",
+      "34051178",
+      "33616840",
+      "33062641",
+      "32926318",
+      "31487867",
+      "30503554",
+      "29991725",
+      "29989981",
+      "29950347",
+      "29325693",
+      "29061650",
+      "28988769",
+      "27401919",
+      "27301673",
+      "27247223",
+      "25638160",
+      "24027076",
+      "22553347",
+      "18323559"
+    ],
+    "similar": [
+      "38570787",
+      "39351351",
+      "39376007",
+      "33062641",
+      "37310098",
+      "38299148",
+      "37691944",
+      "35847878",
+      "38847477",
+      "33600260",
+      "34938313",
+      "38991630",
+      "37269345",
+      "36211821",
+      "39181686",
+      "33425095",
+      "37790935",
+      "33850758",
+      "37251940",
+      "33443463",
+      "37346073",
+      "32570217",
+      "39269596",
+      "37441420",
+      "34112144",
+      "38993563",
+      "38767747",
+      "37158958",
+      "38518167",
+      "38217031",
+      "37578544",
+      "38343537",
+      "39107713",
+      "37668798",
+      "37728806",
+      "34579753",
+      "37925432",
+      "34257551",
+      "33830879",
+      "38824904",
+      "37325625",
+      "37849225",
+      "37880682",
+      "37697370",
+      "37647346",
+      "32467671",
+      "34368222",
+      "38226966",
+      "38336764",
+      "37401304",
+      "35938001",
+      "37502362",
+      "39157397",
+      "38319718",
+      "36300085",
+      "39273033",
+      "33061438",
+      "38566204",
+      "34753061",
+      "35958598",
+      "27402308",
+      "36211333",
+      "39238647",
+      "36902193",
+      "37965307",
+      "39071813",
+      "36555612",
+      "38482431",
+      "39155193",
+      "30304549",
+      "39554586",
+      "37124622",
+      "33050010",
+      "38759695",
+      "24366069",
+      "38994368",
+      "35127724",
+      "37518364",
+      "34733990",
+      "38789872",
+      "35898492",
+      "38656888",
+      "37740761",
+      "39524931",
+      "38144565",
+      "39227479",
+      "34490046",
+      "21489314",
+      "29602637",
+      "36873531",
+      "36211359",
+      "36033441",
+      "38869635",
+      "34776794",
+      "35917927",
+      "37152941",
+      "35401554",
+      "35509211",
+      "36632166",
+      "35581606"
+    ],
+    "review": [
+      "38570787"
+    ],
+    "pmc": [
+      "10993528"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cancerci.biomedcentral.com/articles/10.1186/s12935-024-03258-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38570787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38570787",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GMNN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1256",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

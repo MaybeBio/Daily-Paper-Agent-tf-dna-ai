@@ -1,0 +1,870 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.31.697150",
+  "title": "Generative AI-based design of hybrid transcriptional activator proteins with new DNA-binding specificity",
+  "doi": "10.64898/2025.12.31.697150",
+  "abstract": "Transcriptional control arises from the specific recognition of promoter DNA by transcription factors (TFs), forming the basis of cellular information processing and gene regulation. In synthetic biology, TF-promoter interactions are assembled into genetic circuits to program cellular behaviors. To ensure expected circuit performance, most synthetic genetic circuits rely on combinations of well-characterized and orthogonal transcriptional regulations. This reliance minimizes crosstalk but constrains circuit complexity and information integration. Creating hybrid TFs that combine or interpolate promoter specificities could therefore expand the design space of synthetic regulatory systems. However, it remains unclear whether hybrid functions can be created by mixing amino acid sequences, and how such functional integration could be achieved in a principled manner. Here we show that a variational autoencoder (VAE) trained on LuxR-family DNA-binding domains can generate transcription factors with hybrid and partially novel promoter recognition properties. By sampling intermediate regions of the VAE-learned latent space, we designed hybrid TFs that activate both the lux and las promoters. High-throughput sort-seq assays together with individual in vivo assays revealed that a subset of functional variants exhibited dual-responsive behavior while maintaining sequence-selective DNA recognition. Together, these results provide a data-driven strategy for exploring functional intermediate sequences between closely related proteins.",
+  "authors": [
+    "Sota L Okuda",
+    "Atsushi Minami",
+    "Michio Aiko",
+    "Kohei Uetsuka",
+    "Kazuteru Miyazaki",
+    "Kazumasa Ohtake",
+    "Daisuke Kiga"
+  ],
+  "published_date": "2025-12-31",
+  "updated_date": "2025-12-31T20:10:18Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697150",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697150.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T18:47:32Z",
+        "timestamp": 1790016452861,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 60,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                31
+              ]
+            ],
+            "date-time": "2025-12-31T00:00:00Z",
+            "timestamp": 1767139200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "19H00985"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "19H00985"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "21K19831"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21K19831"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "21H05228"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21H05228"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "22H04892"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22H04892"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "23H04431"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "23H04431"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "24K03036"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "24K03036"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "25K22848"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "25K22848"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMJCR21N4"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJCR21N4"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006321",
+          "name": "National Institutes of Natural Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "AB041011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "AB041011"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006321",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006321",
+          "name": "National Institutes of Natural Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "AB0602"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "AB0602"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006321",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006321",
+          "name": "National Institutes of Natural Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "AB0712"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "AB0712"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006321",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcriptional control arises from the specific recognition of promoter DNA by transcription factors (TFs), forming the basis of cellular information processing and gene regulation. In synthetic biology, TF-promoter interactions are assembled into genetic circuits to program cellular behaviors. To ensure expected circuit performance, most synthetic genetic circuits rely on combinations of well-characterized and orthogonal transcriptional regulations. This reliance minimizes crosstalk but constrains circuit complexity and information integration. Creating hybrid TFs that combine or interpolate promoter specificities could therefore expand the design space of synthetic regulatory systems. However, it remains unclear whether hybrid functions can be created by mixing amino acid sequences, and how such functional integration could be achieved in a principled manner. Here we show that a variational autoencoder (VAE) trained on LuxR-family DNA-binding domains can generate transcription factors with hybrid and partially novel promoter recognition properties. By sampling intermediate regions of the VAE-learned latent space, we designed hybrid TFs that activate both the\n                  <jats:italic>lux</jats:italic>\n                  and\n                  <jats:italic>las</jats:italic>\n                  promoters. High-throughput sort-seq assays together with individual\n                  <jats:italic>in vivo</jats:italic>\n                  assays revealed that a subset of functional variants exhibited dual-responsive behavior while maintaining sequence-selective DNA recognition. Together, these results provide a data-driven strategy for exploring functional intermediate sequences between closely related proteins.\n                </jats:p>",
+      "DOI": "10.64898/2025.12.31.697150",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "date-time": "2025-12-31T20:10:18Z",
+        "timestamp": 1767211818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Generative AI-based design of hybrid transcriptional activator proteins with new DNA-binding specificity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-1157-4535",
+          "authenticated-orcid": false,
+          "given": "Sota L",
+          "family": "Okuda",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Bioscience, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-6564-6872",
+          "authenticated-orcid": false,
+          "given": "Atsushi",
+          "family": "Minami",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Research Institute for Science and Engineering, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michio",
+          "family": "Aiko",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Smart Life Science Institute, Advanced Collaborative Research Organization for Smart Society, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-3910-5497",
+          "authenticated-orcid": false,
+          "given": "Kohei",
+          "family": "Uetsuka",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Bioscience, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8175-213X",
+          "authenticated-orcid": false,
+          "given": "Kazuteru",
+          "family": "Miyazaki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Research Department, National Institution for Academic Degrees and Quality Enhancement of Higher Education, Kodaira-shi, Tokyo 187-8587, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kazumasa",
+          "family": "Ohtake",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Bioscience, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            },
+            {
+              "name": "Research Institute for Science and Engineering, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3778-5887",
+          "authenticated-orcid": false,
+          "given": "Daisuke",
+          "family": "Kiga",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Bioscience, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            },
+            {
+              "name": "Research Institute for Science and Engineering, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            },
+            {
+              "name": "The Smart Life Science Institute, Advanced Collaborative Research Organization for Smart Society, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3239"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35002125"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35002131"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.6.1203"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhan, J. et al. Develop reusable and combinable designs for transcriptional logic gates. Mol. Syst. Biol. 6, 388 (2010).",
+          "DOI": "10.1038/msb.2010.42"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3227"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nielsen, A. A. K. et al. Genetic circuit design automation. Science 352, aac7341 (2016).",
+          "DOI": "10.1126/science.aac7341"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, Y. et al. Tuning the dynamic range of bacterial promoters regulated by ligand-inducible transcription factors. Nat. Commun. 9, 64 (2018).",
+          "DOI": "10.1038/s41467-017-02473-5"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-018-0168-3"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17993-w"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10262"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "370",
+          "DOI": "10.1038/s41586-018-0289-6",
+          "article-title": "Scaling up molecular pattern recognition with DNA-based winner-take-all neural networks",
+          "volume": "559",
+          "year": "2018",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-05218-7"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1205527"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/sb500235p"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Samaniego, C. C. , Moorman, A. , Giordano, G. & Franco, E . Signaling-based neural networks for cellular computation. in 2021 American Control Conference (ACC) 1883–1890 (IEEE, 2021).",
+          "DOI": "10.23919/ACC50511.2021.9482800"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0125144"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "3139",
+          "DOI": "10.1038/s41467-021-23336-0",
+          "article-title": "Synthetic neural-like computing in microbial consortia for pattern recognition",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33288-8"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add8468"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tang, L. , Wang, J. , Xu, K. , Li, Z. & Song, J . Upgraded circular single-stranded DNA regulators for multiple-input multiple-output gene circuits in mammalian cells. Sci. Adv. 11, eadv3396 (2025).",
+          "DOI": "10.1126/sciadv.adv3396"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2006.11.009"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.91.22.10747"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.04.001"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.25",
+          "unstructured": "Kingma, D. P. & Welling, M . Auto-Encoding Variational Bayes. arXiv [stat.ML] (2013)."
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.11.008"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0138-4"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Greener, J. G. , Moffat, L. & Jones, D. T . Design of metalloproteins and novel protein folds using variational autoencoders. Sci. Rep. 8, 16189 (2018).",
+          "DOI": "10.1038/s41598-018-34533-1"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1008736"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010271"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2408737122",
+          "DOI": "10.1073/pnas.2408737122",
+          "article-title": "ProT-VAE: Protein Transformer Variational AutoEncoder for functional protein design",
+          "volume": "122",
+          "year": "2025",
+          "journal-title": "Proc. Natl. Acad. Sci. U. S. A"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "4151",
+          "DOI": "10.1038/s41467-025-59499-3",
+          "article-title": "Design of diverse, functional mitochondrial targeting sequences across eukaryotic organisms using variational autoencoder",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2010",
+          "DOI": "10.1038/s41467-024-46203-0",
+          "article-title": "Machine learning-aided design and screening of an emergent protein function in synthetic cells",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2010.07279.x"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.24.11115"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.184.17.4912-4919.2002"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wellington Miranda, S. , et al. A covariation analysis reveals elements of selectivity in quorum sensing systems. Elife 10, (2021).",
+          "DOI": "10.7554/eLife.69169"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.21.8247"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1962196"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2015.06.005"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2015.06.003"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1004290107"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006226"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "6791",
+          "DOI": "10.1021/acs.jpcb.1c00771",
+          "article-title": "The N-terminal helix-turn-helix motif of transcription factors MarA and Rob drives DNA recognition",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.01443-07"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2009.06832.x"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.48",
+          "unstructured": "Kyro, G. W. , Qiu, T. & Batista, V. S . A model-centric review of deep learning for protein design. arXiv [cs.LG ] (2025)."
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2502.17504"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "2252",
+          "DOI": "10.1038/s41594-025-01669-4",
+          "article-title": "Computational design of sequence-specific DNA-binding proteins",
+          "volume": "32",
+          "year": "2025",
+          "journal-title": "Nat. Struct. Mol. Biol"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkf436"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.softx.2015.06.001",
+          "article-title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "volume": "1-2",
+          "year": "2015",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/815803"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.3.CO;2-L"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1105901108"
+        },
+        {
+          "key": "2026031607550869000_2025.12.31.697150v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-12-385120-8.00002-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.31.697150",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2026-03-16T14:55:24Z",
+        "timestamp": 1773672924000
+      },
+      "score": 125.671646,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.31.697150"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      },
+      "references-count": 60,
+      "URL": "https://doi.org/10.64898/2025.12.31.697150",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

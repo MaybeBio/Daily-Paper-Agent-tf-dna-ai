@@ -1,0 +1,472 @@
+{
+  "identity": {
+    "pmid": "37315128",
+    "doi": "10.1126/sciadv.ade1122",
+    "title": "Dynamic switching of transcriptional regulators between two distinct low-mobility chromatin states."
+  },
+  "content": {
+    "abstract": "How chromatin dynamics relate to transcriptional activity remains poorly understood. Using single-molecule tracking, coupled with machine learning, we show that histone H2B and multiple chromatin-bound transcriptional regulators display two distinct low-mobility states. Ligand activation results in a marked increase in the propensity of steroid receptors to bind in the lowest-mobility state. Mutational analysis revealed that interactions with chromatin in the lowest-mobility state require an intact DNA binding domain and oligomerization domains. These states are not spatially separated as previously believed, but individual H2B and bound-TF molecules can dynamically switch between them on time scales of seconds. Single bound-TF molecules with different mobilities exhibit different dwell time distributions, suggesting that the mobility of TFs is intimately coupled with their binding dynamics. Together, our results identify two unique and distinct low-mobility states that appear to represent common pathways for transcription activation in mammalian cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin/genetics",
+      "*Histones/genetics",
+      "Machine Learning",
+      "Protein Domains",
+      "Single Molecule Imaging",
+      "Mammals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wagh, Kaustubh",
+        "Stavreva, Diana A",
+        "Jensen, Rikke A M",
+        "Paakinaho, Ville",
+        "Fettweis, Gregory",
+        "Schiltz, R Louis",
+        "Wustner, Daniel",
+        "Mandrup, Susanne",
+        "Presman, Diego M",
+        "Upadhyaya, Arpita",
+        "Hager, Gordon L"
+      ],
+      "short_names": [
+        "Wagh K",
+        "Stavreva DA",
+        "Jensen RAM",
+        "Paakinaho V",
+        "Fettweis G",
+        "Schiltz RL",
+        "Wustner D",
+        "Mandrup S",
+        "Presman DM",
+        "Upadhyaya A",
+        "Hager GL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8514-027X",
+        "ORCID: 0000-0002-7904-6452",
+        "ORCID: 0000-0001-9006-1736",
+        "ORCID: 0000-0003-4204-1436",
+        "ORCID: 0000-0002-7314-3753",
+        "ORCID: 0000-0003-4995-9709",
+        "ORCID: 0000-0002-0961-5787",
+        "ORCID: 0000-0003-4515-8058",
+        "ORCID: 0000-0003-1496-919X",
+        "ORCID: 0000-0002-9300-5331"
+      ],
+      "affiliations": [
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Physics, University of Maryland, College Park, MD 20742, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Institute of Biomedicine, University of Eastern Finland, Kuopio, P.O. Box 1627, 70211 Kuopio, Finland.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Instituto de Fisiologia, Biologia Molecular y Neurociencias (IFIBYNE), CONICET-Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Buenos Aires C1428EGA, Argentina.",
+        "Department of Physics, University of Maryland, College Park, MD 20742, USA.",
+        "Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wagh, Kaustubh",
+        "short_name": "Wagh K",
+        "identifiers": [
+          "0000-0001-8514-027X"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Department of Physics, University of Maryland, College Park, MD 20742, USA."
+        ]
+      },
+      {
+        "full_name": "Stavreva, Diana A",
+        "short_name": "Stavreva DA",
+        "identifiers": [
+          "0000-0002-7904-6452"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Jensen, Rikke A M",
+        "short_name": "Jensen RAM",
+        "identifiers": [
+          "0000-0001-9006-1736"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Paakinaho, Ville",
+        "short_name": "Paakinaho V",
+        "identifiers": [
+          "0000-0003-4204-1436"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Institute of Biomedicine, University of Eastern Finland, Kuopio, P.O. Box 1627, 70211 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Fettweis, Gregory",
+        "short_name": "Fettweis G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Schiltz, R Louis",
+        "short_name": "Schiltz RL",
+        "identifiers": [
+          "0000-0002-7314-3753"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Wüstner, Daniel",
+        "short_name": "Wüstner D",
+        "identifiers": [
+          "0000-0003-4995-9709"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Mandrup, Susanne",
+        "short_name": "Mandrup S",
+        "identifiers": [
+          "0000-0002-0961-5787"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Presman, Diego M",
+        "short_name": "Presman DM",
+        "identifiers": [
+          "0000-0003-4515-8058"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Instituto de Fisiología, Biología Molecular y Neurociencias (IFIBYNE), CONICET-Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Buenos Aires C1428EGA, Argentina."
+        ]
+      },
+      {
+        "full_name": "Upadhyaya, Arpita",
+        "short_name": "Upadhyaya A",
+        "identifiers": [
+          "0000-0003-1496-919X"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Maryland, College Park, MD 20742, USA.",
+          "Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742, USA."
+        ]
+      },
+      {
+        "full_name": "Hager, Gordon L",
+        "short_name": "Hager GL",
+        "identifiers": [
+          "0000-0002-9300-5331"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2023 Jun 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/14 19:11",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42282720",
+      "41756840",
+      "41557765",
+      "41131710",
+      "41118578",
+      "40923401",
+      "40879746",
+      "40749051",
+      "40683884",
+      "40568061",
+      "40463087",
+      "40456604",
+      "40378829",
+      "40377219",
+      "40301047",
+      "40153514",
+      "39786807",
+      "39713324",
+      "39541347",
+      "39413793",
+      "39201346",
+      "38729109",
+      "38489381",
+      "37958958",
+      "37791849",
+      "37758052",
+      "37728600",
+      "36789429"
+    ],
+    "refs": [
+      "37792937",
+      "37116493",
+      "37018405",
+      "36066004",
+      "35581646",
+      "35418676",
+      "35337845",
+      "35220881",
+      "35205396",
+      "34003257",
+      "33674570",
+      "33592625",
+      "33561389",
+      "33440158",
+      "33422933",
+      "33077913",
+      "32976797",
+      "32574554",
+      "32553192",
+      "31932776",
+      "31792445",
+      "31527274",
+      "31421980",
+      "30824489",
+      "30653501",
+      "29987017",
+      "29792595",
+      "29388099",
+      "29300163",
+      "28712725",
+      "28635963",
+      "28467304",
+      "28315485",
+      "27967069",
+      "27382178",
+      "27062924",
+      "26512894",
+      "26278180",
+      "25768910",
+      "25693131",
+      "25647480",
+      "25599551",
+      "25297814",
+      "25034201",
+      "24793638",
+      "24379442",
+      "24342920",
+      "24019504",
+      "23707059",
+      "22844090",
+      "22723426",
+      "20866658",
+      "20862367",
+      "20371337",
+      "20006655",
+      "19659180",
+      "18176568",
+      "17525339",
+      "17189428",
+      "16360030",
+      "15743833",
+      "15572375",
+      "15533928",
+      "15178741",
+      "11782441",
+      "11448988",
+      "11406412",
+      "10725467",
+      "10579933",
+      "10076994",
+      "7629123"
+    ],
+    "similar": [
+      "37315128",
+      "32574554",
+      "33422933",
+      "21389633",
+      "33592625",
+      "25433490",
+      "24781148",
+      "30104407",
+      "25501817",
+      "26245832",
+      "37792937",
+      "35099534",
+      "22912562",
+      "36779711",
+      "27899623",
+      "9291093",
+      "33377115",
+      "36273101",
+      "28985346",
+      "27457419",
+      "24918633",
+      "22829781",
+      "35537448",
+      "35180281",
+      "35881789",
+      "25568052",
+      "26416482",
+      "38297077",
+      "33561389",
+      "6220876",
+      "24465219",
+      "26818008",
+      "34687484",
+      "30510186",
+      "33667509",
+      "39413793",
+      "28031249",
+      "26075789",
+      "34192510",
+      "20123073",
+      "26648124",
+      "29429329",
+      "35549704",
+      "1480489",
+      "33649601",
+      "29954426",
+      "33221335",
+      "30044984",
+      "33893157",
+      "26884462",
+      "22023434",
+      "38159566",
+      "33904398",
+      "27098855",
+      "33558757",
+      "33484328",
+      "36577379",
+      "22570494",
+      "26760202",
+      "34202617",
+      "36855961",
+      "30359306",
+      "38307220",
+      "27666592",
+      "37709752",
+      "20007597",
+      "29047414",
+      "26541514",
+      "23481318",
+      "25122771",
+      "23222641",
+      "36864100",
+      "22955984",
+      "26451043",
+      "19555456",
+      "24637397",
+      "37540844",
+      "21994445",
+      "34544361",
+      "32716939",
+      "36010552",
+      "26590261",
+      "28416484",
+      "30270107",
+      "8649361",
+      "16936823",
+      "35595602",
+      "15020050",
+      "12586842"
+    ],
+    "review": [
+      "37315128",
+      "33422933",
+      "21389633",
+      "24781148",
+      "9291093",
+      "39413793",
+      "20123073",
+      "33221335",
+      "22023434",
+      "27098855",
+      "33484328",
+      "34202617",
+      "38307220",
+      "24637397",
+      "37540844",
+      "16936823",
+      "35595602"
+    ],
+    "pmc": [
+      "10954219"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.ade1122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37315128.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37315128/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37315128",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41022589",
+  "title": "Inferring fungal cis-regulatory networks from genome sequences via unsupervised and interpretable representation learning.",
+  "authors": "Moses, Alan M; Stajich, Jason E; Gasch, Audrey P; Knowles, David A",
+  "journal": "Genetics",
+  "published_date": "2025-09-30",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用无监督表示学习从真菌基因组序列推断TF基序调控网络，虽聚焦TF-DNA结合位点预测，但缺乏三维互作建模与物理模拟，方法可迁移至TF-DNA研究。",
+  "abstract": "Gene expression patterns are determined to a large extent by transcription factor (TF) binding to noncoding regulatory regions in the genome. However, gene expression cannot yet be systematically predicted from genome sequences, in part because nonfunctional matches to the sequence patterns (motifs) recognized by TFs occur frequently throughout the genome. Large-scale functional genomics data for many TFs has enabled characterization of regulatory networks in experimentally accessible cells such as budding yeast. Beyond yeast, fungi are important industrial organisms and pathogens, but large-scale functional data is only sporadically available. Uncharacterized regulatory networks control key pathways and gene expression programs associated with fungal phenotypes. Here, we explore a sequence-only approach to inferring regulatory networks by leveraging the 100s of genomes now available for many clades of fungi. We use gene orthology as the learning signal to infer interpretable, TF motif-based representations of noncoding regulatory regions. Using these representations to identify conserved signals for motifs, comparative genomics can be scaled to evolutionary comparisons where sequence similarity cannot be detected. We show that similarity of these conserved motif signals predicts gene expression and regulation better than using experimental data, and that we can infer known and novel regulatory connections in diverse fungi. Our new predictions include a pathway for recombination in Candida albicans and pathways for mating and an RNAi immune response in Neurospora. Taken together, our results indicate that specific hypotheses about transcriptional regulation in fungi can be obtained for many genes from genome sequence analysis alone.",
+  "abstract_zh": "基因表达模式在很大程度上由转录因子（transcription factor, TF）与基因组中非编码调控区域的结合决定。然而，目前仍无法从基因组序列系统性地预测基因表达，部分原因在于基因组中频繁出现与TF识别序列模式（motifs）匹配但无功能的位点。针对许多TF的大规模功能基因组学数据已使得在实验可及细胞（如芽殖酵母）中表征调控网络成为可能。除酵母外，真菌是重要的工业生物和病原体，但大规模功能数据仅零星可得。未表征的调控网络控制着与真菌表型相关的关键通路和基因表达程序。在此，我们探索了一种仅基于序列的方法来推断调控网络，利用目前可用于许多真菌分支的数百个基因组。我们使用基因直系同源关系作为学习信号，以推断基于TF motif的非编码调控区域的可解释表示。利用这些表示来识别motif的保守信号，比较基因组学可扩展到无法检测序列相似性的进化比较中。我们表明，这些保守motif信号的相似性在预测基因表达和调控方面优于使用实验数据，并且我们能在多样真菌中推断已知和新型调控连接。我们的新预测包括白色念珠菌（Candida albicans）中的重组通路，以及粗糙脉孢菌（Neurospora）中的交配和RNAi免疫应答通路。综合来看，我们的结果表明，仅通过基因组序列分析即可获得关于真菌转录调控的特定假设，适用于许多基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41022589/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41022589/",
+  "paper_page_path": "papers/pubmed/41022589/index.html"
+}

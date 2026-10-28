@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "38950810",
+    "doi": "10.1016/j.brainres.2024.149097",
+    "title": "Identification of diagnose related therapeutic targets of Danggui buxue decoction in Parkinson's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Parkinson's disease (PD) is the fastest growing neurological disease. Currently, there is no disease-modifying therapy to slow the progression of the disease. Danggui buxue decoction (DBD) is widely used in the clinic because of its therapeutic effect. However, little is known about the molecular mechanism of DBD against PD. This study intends to explore the possible molecular mechanisms involved in DBD treatment of PD based on network pharmacology, and provide potential research directions for future research. METHODS: Firstly, the active components and target genes of DBD were screened from the traditional Chinese medicine systems pharmacology (TCMSP), DrugBank and UniProt database. Secondly, target genes of PD were identified from the (GEO) dataset, followed by identification of common target genes of DBD and PD. Thirdly, analysis of protein-protein interaction (PPI), functional enrichment and diagnosis was performed on common target genes, followed by correlation analysis between core target genes, immune cell, miRNAs, and transcription factors (TFs). Finally, molecular docking between core target genes and active components, and real-time PCR were performed. RESULTS: A total of 72 common target genes were identified between target genes of DBD and target genes of PD. Among which, 11 target genes with potential diagnostic value were further identified, including TP53, AKT1, IL1B, MMP9, NOS3, RELA, MAPK14, HMOX1, TGFB1, NOS2, and ERBB2. The combinations with the best docking binding were identified, including kaempferol-AKT1/HMOX1/NOS2/NOS3, quercetin-AKT1/ERBB2/IL1B/HMOX1/MMP9/TP53/NOS3/TGFB1. Moreover, IL1B and NOS2 respectively positively and negatively correlated with neutrophil and Type 1 T helper cell. Some miRNA-core target gene regulatory pairs were identified, such as hsa-miR-185-5p-TP53/TGFB1/RELA/MAPK14/IL1B/ERBB2/AKT1 and hsa-miR-214-3p-NOS3. These core target genes were significantly enriched in focal adhesion, TNF, HIF-1, and ErbB signaling pathway. CONCLUSION: Diagnostic TP53, AKT1, IL1B, MMP9, NOS3, RELA, MAPK14, HMOX1, TGFB1, NOS2, and ERBB2 may be considered as potential therapeutic targets of DBD in the treatment of PD.",
+    "keywords": [
+      "Danggui buxue decoction",
+      "Immune infiltration",
+      "Molecular docking",
+      "Parkinson's disease",
+      "Signaling pathway",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Parkinson Disease/drug therapy/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Medicine, Chinese Traditional/methods",
+      "MicroRNAs/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Man",
+        "Ye, Kaisheng",
+        "Hu, Defeng",
+        "Chen, Jiefang",
+        "Wu, Sha",
+        "Chi, Shumei"
+      ],
+      "short_names": [
+        "Jin M",
+        "Ye K",
+        "Hu D",
+        "Chen J",
+        "Wu S",
+        "Chi S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China.",
+        "Department of Traditional Chinese Medicine, Hangzhou Kanghui Integrated Traditional and Western Medicine Clinic, Hangzhou, Zhejiang Province 310019, China. Electronic address: kaishengye01@163.com.",
+        "Department of Psychiatry, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province 310063, China.",
+        "Department of Neurology, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China.",
+        "Intensive Care Units, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China.",
+        "Department of Psychiatry, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province 310063, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Man",
+        "short_name": "Jin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Kaisheng",
+        "short_name": "Ye K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Hangzhou Kanghui Integrated Traditional and Western Medicine Clinic, Hangzhou, Zhejiang Province 310019, China. Electronic address: kaishengye01@163.com."
+        ]
+      },
+      {
+        "full_name": "Hu, Defeng",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province 310063, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiefang",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Sha",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Units, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province, 310063, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Shumei",
+        "short_name": "Chi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Affiliated Mental Health Center, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province 310063, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain research"
+    ],
+    "journal_abbrev": [
+      "Brain Res"
+    ],
+    "pub_date": "2024 Nov 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/02 00:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38950810",
+      "33299870",
+      "38665560",
+      "35003302",
+      "34746302",
+      "34660782",
+      "34986125",
+      "30703496",
+      "33054436",
+      "35837376",
+      "37190808",
+      "39075002",
+      "37287284",
+      "33658761",
+      "33645090",
+      "37799727",
+      "35256890",
+      "33645094",
+      "35731466",
+      "39004032",
+      "36803762",
+      "35097126",
+      "38206683",
+      "36035842",
+      "38237172",
+      "37171334",
+      "37009506",
+      "33849106",
+      "36550856",
+      "37499457",
+      "34791846",
+      "35757478",
+      "38847696",
+      "33023593",
+      "36288951",
+      "39015338",
+      "37793334",
+      "39061044",
+      "33628311",
+      "35730236",
+      "37340752",
+      "36003525",
+      "36777831",
+      "36740793",
+      "33376732",
+      "35069454",
+      "37986389",
+      "37233418",
+      "38701256",
+      "35528155",
+      "37478256",
+      "35119030",
+      "37478218",
+      "37773840",
+      "36280016",
+      "37391801",
+      "36044117",
+      "38759074",
+      "38532341",
+      "36595795",
+      "37883761",
+      "35430443",
+      "33769518",
+      "37403397",
+      "37986321",
+      "38640300",
+      "38215128",
+      "37807411",
+      "33634308",
+      "39145055",
+      "38013344",
+      "39286188",
+      "34997010",
+      "38114219",
+      "37861047",
+      "37084637",
+      "36221378",
+      "38579905",
+      "38728495",
+      "38464966",
+      "36091822",
+      "37832514",
+      "34273999",
+      "35130311",
+      "38018195",
+      "37833363",
+      "35285205",
+      "37442185",
+      "38879763",
+      "34528665",
+      "37904445",
+      "39041101",
+      "36535207",
+      "35616676",
+      "38579044",
+      "36961137",
+      "34753385",
+      "38916485",
+      "37957903",
+      "38845538",
+      "32928080",
+      "38367649",
+      "38835123",
+      "38178669",
+      "39328512",
+      "36353458",
+      "39219327",
+      "38871234",
+      "39379677",
+      "39398618"
+    ],
+    "review": [
+      "38950810",
+      "37171334",
+      "38847696",
+      "35119030",
+      "38013344",
+      "38464966"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-8993(24)00351-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0006-8993(24)00351-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

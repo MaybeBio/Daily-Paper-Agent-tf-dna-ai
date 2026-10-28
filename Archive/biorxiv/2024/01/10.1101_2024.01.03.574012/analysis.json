@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.03.574012",
+  "title": "A Bag-Of-Motif Model Captures Cell States at Distal Regulatory Sequences",
+  "authors": "Cornejo-Páramo P; Zhang X; Louis L; Yang Y; Li Z; Humphreys D; Wong ES",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-03",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于TF结合基序的Bag-of-Motifs模型，用于预测远端调控序列的细胞状态，虽聚焦TF-DNA基序与调控功能，但未涉及三维互作建模或AI/物理模拟方法，属于广义蛋白-DNA互作且方法可迁移的中间档文献。",
+  "abstract": "Deciphering the intricate regulatory code governing cell-type-specific gene expression is a fundamental goal in genetics. Current methods struggle to capture the complex interplay between gene distal regulatory sequences and cell context. We developed a computational approach, BOM (Bag-of-Motifs), which represents cis-regulatory sequences by the type and number of TF binding motifs it contains, irrespective of motif order, orientation, and spacing. This simple yet powerful representation allows BOM to efficiently capture the complexity of cell-type-specific information encoded within these sequences. We apply BOM to mouse, human, and zebrafish distal regulatory regions, demonstrating remarkable accuracy. Notably, the method outperforms more complex deep learning models at the same task using fewer parameters. BOM can also uncover cross-species sequence similarities unrecognized by genome alignments. We experimentally validate our in silico predictions using enhancer reporter assay, showing that motifs with the most significant explanatory power are sequence determinants of cell-type specific enhancer activity. BOM offers a novel systematic framework for studying cell-type or condition-specific cis-regulatory sequences. Using BOM, we demonstrate the existence of a highly predictive sequence code at distal regulatory regions in mammals driven by TF binding motifs.",
+  "abstract_zh": "解析控制细胞类型特异性基因表达的复杂调控代码是遗传学中的一个基本目标。当前方法难以捕捉基因远端调控序列与细胞环境之间的复杂相互作用。我们开发了一种计算方法BOM（基序袋，Bag-of-Motifs），它通过顺式调控序列中包含的转录因子结合基序的类型和数量来表示该序列，而不考虑基序的顺序、方向和间距。这种简单而强大的表示方式使BOM能够高效捕捉这些序列中编码的细胞类型特异性信息的复杂性。我们将BOM应用于小鼠、人类和斑马鱼的远端调控区域，展示了显著的准确性。值得注意的是，该方法在相同任务上以更少的参数优于更复杂的深度学习模型。BOM还能揭示基因组比对未能识别的跨物种序列相似性。我们通过增强子报告实验验证了我们的计算机预测，表明具有最显著解释力的基序是细胞类型特异性增强子活性的序列决定因素。BOM为研究细胞类型或条件特异性顺式调控序列提供了一个新颖的系统框架。利用BOM，我们证明了在哺乳动物远端调控区域存在由转录因子结合基序驱动的高度预测性序列代码。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.03.574012",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.03.574012",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.03.574012/index.html"
+}

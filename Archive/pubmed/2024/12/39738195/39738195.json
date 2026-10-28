@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "39738195",
+    "doi": "10.1038/s41598-024-81037-2",
+    "title": "Computational biology assisted exploration of phytochemicals derived natural inhibitors to block BZLF1 gene activation of Epstein-Bar virus in host."
+  },
+  "content": {
+    "abstract": "The Epstein-Barr virus (EBV) is widespread and has been related to a variety of malignancies as well as infectious mononucleosis. Despite the lack of a vaccination, antiviral medications offer some therapy alternatives. The EBV BZLF1 gene significantly impacts viral replication and infection severity. The current study performed computer-assisted techniques to analyses the potential drug candidates against Epstein-Barr virus toxin Zta [Human gamma-herpesvirus 4 (Epstein-Barr virus)] from phytochemicals derived natural inhibitors. Various bioinformatics methods were employed to predict and analyze the toxin protein structure obtained from NCBI, and its secondary and tertiary structures were predicted using PSIPRED and the AlphaFold. ProtParam was used to assess physiochemical characteristics. Natural inhibitors were found in the literature and PubChem, tested with PyRx, and performed blind docking by using CB-Dock, then the top selected drug candidate from natural inhibitors was analyzed for possible drug development applications using preADMET, Molinspiration, and MD simulations. Density functional Theory analysis was executed to predict the transition energies and the reactivity. Imperatorin was the best candidate for developing the drug against toxin protein Zta coded by the BZLF1 gene because it exhibited the lowest binding energy (- 6.3 kcal/mol) during natural inhibitor screening. Imperatorin's compliance with Lipinski's Rule of 5 and favorable pharmacokinetics make it an ideal therapeutic agent against EBV. Since vaccines and medications are crucial for treating infectious diseases and cancer, computational approaches seem promising and less costly to design and discover potential drug candidates and vaccines with the help of in silico methods but further in vitro research is required for experimental validation.",
+    "keywords": [
+      "BZLF1",
+      "Computational biology",
+      "Drug design",
+      "EBV",
+      "Epstein-Barr virus"
+    ],
+    "mesh_terms": [
+      "*Phytochemicals/pharmacology/chemistry",
+      "*Trans-Activators/metabolism/chemistry/genetics/antagonists & inhibitors",
+      "*Herpesvirus 4, Human/drug effects/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Molecular Docking Simulation",
+      "Antiviral Agents/pharmacology/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naveed, Muhammad",
+        "Hussain, Muzamal",
+        "Aziz, Tariq",
+        "Hanif, Nimra",
+        "Kanwal, Nazia",
+        "Arshad, Arooj",
+        "Khan, Ayaz Ali",
+        "Alshammari, Abdulrahman",
+        "Alharbi, Metab"
+      ],
+      "short_names": [
+        "Naveed M",
+        "Hussain M",
+        "Aziz T",
+        "Hanif N",
+        "Kanwal N",
+        "Arshad A",
+        "Khan AA",
+        "Alshammari A",
+        "Alharbi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan. naveed.quaidian@gmail.com.",
+        "Department of Biological Sciences, Faculty of Sciences, The Superior University, Lahore, Punjab, 54590, Pakistan.",
+        "Laboratory of Animal Health Hygiene and Quality, University of Ioannina, 47132, Arta, Greece.",
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan.",
+        "Department of Biological Sciences, Faculty of Sciences, The Superior University, Lahore, Punjab, 54590, Pakistan.",
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan.",
+        "Department of Biotechnology, University of Malakand, Chakdara, 18800, Pakistan.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naveed, Muhammad",
+        "short_name": "Naveed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan. naveed.quaidian@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hussain, Muzamal",
+        "short_name": "Hussain M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Faculty of Sciences, The Superior University, Lahore, Punjab, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Aziz, Tariq",
+        "short_name": "Aziz T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal Health Hygiene and Quality, University of Ioannina, 47132, Arta, Greece."
+        ]
+      },
+      {
+        "full_name": "Hanif, Nimra",
+        "short_name": "Hanif N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Kanwal, Nazia",
+        "short_name": "Kanwal N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Faculty of Sciences, The Superior University, Lahore, Punjab, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Arshad, Arooj",
+        "short_name": "Arshad A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Punjab, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Ayaz Ali",
+        "short_name": "Khan AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, University of Malakand, Chakdara, 18800, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alshammari, Abdulrahman",
+        "short_name": "Alshammari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alharbi, Metab",
+        "short_name": "Alharbi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/31 12:21",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "41956447",
+      "41824191",
+      "41419749",
+      "40634475",
+      "40278293"
+    ],
+    "refs": [
+      "38233440",
+      "37781191",
+      "37717262",
+      "37566991",
+      "37561169",
+      "37504571",
+      "37485452",
+      "37465179",
+      "37318504",
+      "37269810",
+      "37189659",
+      "37111242",
+      "37046794",
+      "37046781",
+      "37029718",
+      "36980798",
+      "36754228",
+      "36470308",
+      "35127787",
+      "34893887",
+      "33513018",
+      "33436584",
+      "33258925",
+      "33239395",
+      "32946990",
+      "32517128",
+      "32362735",
+      "32180423",
+      "31863859",
+      "31779585",
+      "31437863",
+      "31244000",
+      "31088382",
+      "24786491",
+      "20979208",
+      "7553984"
+    ],
+    "similar": [
+      "39738195",
+      "39599481",
+      "32796077",
+      "39437701",
+      "39546470",
+      "32641480",
+      "28588024",
+      "35979671",
+      "26537683",
+      "38197630",
+      "8601788",
+      "31694936",
+      "32847852",
+      "34340305",
+      "20466055",
+      "8739603",
+      "8764021",
+      "22511310",
+      "16730442",
+      "26933051",
+      "24666405",
+      "11870879",
+      "28456021",
+      "22623769",
+      "29580369",
+      "31552622",
+      "22346751",
+      "26653871",
+      "36094198",
+      "27334596",
+      "34878852",
+      "24899173",
+      "29097641",
+      "30021895",
+      "23135711",
+      "28617871",
+      "33438528",
+      "32180423",
+      "19494003",
+      "16079238",
+      "12464647",
+      "16227304",
+      "36293632",
+      "12368338",
+      "22641235",
+      "26976570",
+      "15166418",
+      "33741394",
+      "17079287",
+      "11333921",
+      "23015699",
+      "22458933",
+      "15015577",
+      "31434743",
+      "10197618",
+      "9573284",
+      "20195470",
+      "10846060",
+      "26990870",
+      "19448399",
+      "2171186",
+      "19553389",
+      "21527354",
+      "37861016",
+      "28257801",
+      "37410772",
+      "19656881",
+      "21389123",
+      "16483937",
+      "39391317",
+      "33832906",
+      "32164512",
+      "24772891",
+      "24588869",
+      "30111570",
+      "10430944",
+      "32312752",
+      "10603176",
+      "20080764",
+      "11134300",
+      "23444223",
+      "38678137",
+      "31341047",
+      "11991990",
+      "32842606",
+      "30679646",
+      "37608602",
+      "23691099",
+      "31108875",
+      "25735952",
+      "25122803",
+      "16006448",
+      "12767005",
+      "22969425",
+      "9351176",
+      "38157248",
+      "1851858",
+      "35268612",
+      "30816843",
+      "36174106"
+    ],
+    "review": [
+      "39738195",
+      "19448399",
+      "16006448",
+      "9351176"
+    ],
+    "pmc": [
+      "11685455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-81037-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39738195/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

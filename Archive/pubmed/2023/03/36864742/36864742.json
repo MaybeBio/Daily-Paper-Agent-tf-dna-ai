@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "36864742",
+    "doi": "10.1093/nar/gkad127",
+    "title": "YbiB: a novel interactor of the GTPase ObgE."
+  },
+  "content": {
+    "abstract": "Obg is a widely conserved and essential GTPase in bacteria, which plays a central role in a large range of important cellular processes, such as ribosome biogenesis, DNA replication, cell division and bacterial persistence. Nevertheless, the exact function of Obg in these processes and the interactions it makes within the associated pathways remain largely unknown. Here, we identify the DNA-binding TrpD2 protein YbiB as an interactor of the Escherichia coli Obg (ObgE). We show that both proteins interact with high affinity in a peculiar biphasic fashion, and pinpoint the intrinsically disordered and highly negatively charged C-terminal domain of ObgE as a main driver for this interaction. Molecular docking and X-ray crystallography, together with site-directed mutagenesis, are used to map the binding site of this ObgE C-terminal domain within a highly positively charged groove on the surface of the YbiB homodimer. Correspondingly, ObgE efficiently inhibits the binding of DNA to YbiB, indicating that ObgE competes with DNA for binding in the positive clefts of YbiB. This study thus forms an important step for the further elucidation of the interactome and cellular role of the essential bacterial protein Obg.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Escherichia coli Proteins/metabolism",
+      "*Monomeric GTP-Binding Proteins/genetics",
+      "Molecular Docking Simulation",
+      "Escherichia coli/genetics/metabolism",
+      "Bacterial Proteins/metabolism",
+      "DNA/metabolism",
+      "DNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deckers, Babette",
+        "Vercauteren, Silke",
+        "De Kock, Veerke",
+        "Martin, Charlotte",
+        "Lazar, Tamas",
+        "Herpels, Pauline",
+        "Dewachter, Liselot",
+        "Verstraeten, Natalie",
+        "Peeters, Eveline",
+        "Ballet, Steven",
+        "Michiels, Jan",
+        "Galicia, Christian",
+        "Versees, Wim"
+      ],
+      "short_names": [
+        "Deckers B",
+        "Vercauteren S",
+        "De Kock V",
+        "Martin C",
+        "Lazar T",
+        "Herpels P",
+        "Dewachter L",
+        "Verstraeten N",
+        "Peeters E",
+        "Ballet S",
+        "Michiels J",
+        "Galicia C",
+        "Versees W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7496-6711",
+        "ORCID: 0000-0001-5829-0897",
+        "ORCID: 0000-0002-4695-696X"
+      ],
+      "affiliations": [
+        "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+        "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium.",
+        "Research Group of Microbiology, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "Research Group of Organic Chemistry, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+        "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+        "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+        "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium.",
+        "Research Group of Microbiology, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "Research Group of Organic Chemistry, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+        "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium.",
+        "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deckers, Babette",
+        "short_name": "Deckers B",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vercauteren, Silke",
+        "short_name": "Vercauteren S",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+          "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Kock, Veerke",
+        "short_name": "De Kock V",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Microbiology, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Martin, Charlotte",
+        "short_name": "Martin C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Organic Chemistry, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lazar, Tamas",
+        "short_name": "Lazar T",
+        "identifiers": [
+          "0000-0001-7496-6711"
+        ],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Herpels, Pauline",
+        "short_name": "Herpels P",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+          "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dewachter, Liselot",
+        "short_name": "Dewachter L",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+          "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Verstraeten, Natalie",
+        "short_name": "Verstraeten N",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+          "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Peeters, Eveline",
+        "short_name": "Peeters E",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Microbiology, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ballet, Steven",
+        "short_name": "Ballet S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Organic Chemistry, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michiels, Jan",
+        "short_name": "Michiels J",
+        "identifiers": [
+          "0000-0001-5829-0897"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Microbiology, 3001 Leuven, Belgium.",
+          "Centre of Microbial and Plant Genetics, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Galicia, Christian",
+        "short_name": "Galicia C",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Versées, Wim",
+        "short_name": "Versées W",
+        "identifiers": [
+          "0000-0002-4695-696X"
+        ],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Apr 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/04 06:00",
+    "fetched_at": "2026-09-28 20:59:24"
+  },
+  "links": {
+    "cites": [
+      "41222266",
+      "39516202",
+      "39071448",
+      "38787060"
+    ],
+    "refs": [
+      "35637307",
+      "35610748",
+      "35013344",
+      "34791371",
+      "34265844",
+      "33833657",
+      "33639093",
+      "31682301",
+      "31588918",
+      "31498933",
+      "30108166",
+      "30067506",
+      "29857815",
+      "29739979",
+      "29300836",
+      "29176613",
+      "29067766",
+      "28702018",
+      "28430871",
+      "28223358",
+      "27912845",
+      "27166375",
+      "26848972",
+      "26402567",
+      "26063803",
+      "26051177",
+      "25943545",
+      "25844078",
+      "24844575",
+      "24561554",
+      "23303910",
+      "22863262",
+      "22505256",
+      "21885683",
+      "21675921",
+      "20478830",
+      "20383002",
+      "19647513",
+      "19461840",
+      "18565343",
+      "17578452",
+      "17540168",
+      "17360576",
+      "16980477",
+      "16890019",
+      "16738554",
+      "16518617",
+      "16343434",
+      "16333325",
+      "15980475",
+      "15554976",
+      "15292126",
+      "15019792",
+      "12855728",
+      "12732302",
+      "12499312",
+      "12429099",
+      "12154230",
+      "12000841",
+      "11916378",
+      "11906166",
+      "11879184",
+      "11333217",
+      "11160812",
+      "10829079",
+      "10482526",
+      "9786189",
+      "9576956",
+      "8981995",
+      "7961487",
+      "7768831",
+      "1898771"
+    ],
+    "similar": [
+      "36864742",
+      "28223358",
+      "24844575",
+      "11555285",
+      "31861427",
+      "22863262",
+      "26063803",
+      "27137500",
+      "15836769",
+      "21195156",
+      "17578452",
+      "31498933",
+      "12402086",
+      "15737924",
+      "19555460",
+      "15721258",
+      "35610748",
+      "28702018",
+      "33639093",
+      "26695632",
+      "27641546",
+      "28357361",
+      "17054726",
+      "27710025",
+      "15827604",
+      "12855728",
+      "25912137",
+      "30894284",
+      "23537324",
+      "18565343",
+      "20830302",
+      "27834201",
+      "21352546",
+      "16980477",
+      "30261644",
+      "19546317",
+      "30455283",
+      "34903053",
+      "28470740",
+      "27677930",
+      "17905831",
+      "11683880",
+      "27021560",
+      "16518617",
+      "33713701",
+      "11879184",
+      "8444906",
+      "24822275",
+      "27297882",
+      "32817092",
+      "24021816",
+      "20434458",
+      "8530482",
+      "12732302",
+      "25562210",
+      "12826057",
+      "10832634",
+      "28292931",
+      "12429099",
+      "28078720",
+      "10510227",
+      "10873449",
+      "33000860",
+      "26285656",
+      "30305394",
+      "11827473",
+      "15292126",
+      "15019792",
+      "29974396",
+      "10844646",
+      "8981995",
+      "26051177",
+      "29037875",
+      "31665475",
+      "15554976",
+      "19594923",
+      "8837474",
+      "9335292",
+      "29695505",
+      "15325267",
+      "34666048",
+      "8577745",
+      "26135134",
+      "27941026",
+      "17483090",
+      "31138739",
+      "11906166",
+      "20172997",
+      "19636801",
+      "14973029",
+      "11523786",
+      "26122105",
+      "1429656",
+      "33020264",
+      "30593500"
+    ],
+    "review": [
+      "36864742",
+      "35610748",
+      "15827604",
+      "23537324"
+    ],
+    "pmc": [
+      "10123104"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG11580",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "ybiB"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36864742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36864742",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad127",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "37244148",
+    "doi": "10.1016/j.compbiomed.2023.107058",
+    "title": "The theranostic value of acetylation gene signatures in obstructive sleep apnea derived by machine learning."
+  },
+  "content": {
+    "abstract": "Epigenetic modifications are implicated in the onset and progression of obstructive sleep apnea (OSA) and its complications through their bidirectional relationship with long-term chronic intermittent hypoxia (IH). However, the exact role of epigenetic acetylation in OSA is unclear. Here we explored the relevance and impact of acetylation-related genes in OSA by identifying molecular subtypes modified by acetylation in OSA patients. Twenty-nine significantly differentially expressed acetylation-related genes were screened in a training dataset (GSE135917). Six common signature genes were identified using the lasso and support vector machine algorithms, with the powerful SHAP algorithm used to judge the importance of each identified feature. DSCC1, ACTL6A, and SHCBP1 were best calibrated and discriminated OSA patients from normal in both training and validation (GSE38792) datasets. Decision curve analysis showed that patients could benefit from a nomogram model developed using these variables. Finally, a consensus clustering approach characterized OSA patients and analyzed the immune signatures of each subgroup. OSA patients were divided into two acetylation patterns (higher acetylation scores in Group B than in Group A) that differed significantly in terms of immune microenvironment infiltration. This is the first study to reveal the expression patterns and key role played by acetylation in OSA, laying the foundation for OSA epitherapy and refined clinical decision-making.",
+    "keywords": [
+      "Acetylation",
+      "Consensus clustering",
+      "Epigenetics",
+      "Lasso regression",
+      "Machine learning",
+      "Obstructive sleep apnea",
+      "SHAP"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Acetylation",
+      "*Precision Medicine",
+      "Polysomnography",
+      "*Sleep Apnea, Obstructive/genetics",
+      "Machine Learning",
+      "Actins",
+      "Chromosomal Proteins, Non-Histone",
+      "DNA-Binding Proteins",
+      "Shc Signaling Adaptor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yixuan",
+        "Zhang, Jingyi",
+        "He, Yang",
+        "Pan, Zhou",
+        "Zhang, Xinyue",
+        "Liu, Peijun",
+        "Hu, Ke"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhang J",
+        "He Y",
+        "Pan Z",
+        "Zhang X",
+        "Liu P",
+        "Hu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China. Electronic address: huke-rmhospital@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yixuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingyi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "He, Yang",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Zhou",
+        "short_name": "Pan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinyue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Peijun",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Ke",
+        "short_name": "Hu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, 430060, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China. Electronic address: huke-rmhospital@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/28 01:07",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "41907424",
+      "41746584",
+      "41082129",
+      "38586115"
+    ],
+    "refs": [],
+    "similar": [
+      "37244148",
+      "35559050",
+      "36738700",
+      "37189386",
+      "28590499",
+      "38169659",
+      "36545020",
+      "33064953",
+      "36433227",
+      "34667186",
+      "36178720",
+      "32604683",
+      "34717928",
+      "37051415",
+      "34176557",
+      "31968116",
+      "36245838",
+      "35372438",
+      "26065047",
+      "33808100",
+      "31917446",
+      "30658615",
+      "31907135",
+      "24082310",
+      "36896329",
+      "34487556",
+      "25016368",
+      "31946203",
+      "32441656",
+      "32219710",
+      "26265604",
+      "36217078",
+      "24631013",
+      "34800782",
+      "34669574",
+      "24497664",
+      "36124597",
+      "34549473",
+      "38443855",
+      "28162150",
+      "26129934",
+      "33207343",
+      "23923005",
+      "33111168",
+      "31375206",
+      "32896360",
+      "32715796",
+      "35910196",
+      "30696334",
+      "33647771",
+      "30441257",
+      "33688499",
+      "29318567",
+      "19413140",
+      "35115631",
+      "31038827",
+      "28822964",
+      "19669842",
+      "35135082",
+      "27078132",
+      "28291701",
+      "32896341",
+      "30188014",
+      "30382346",
+      "23246417",
+      "27451274",
+      "29644903",
+      "28552790",
+      "24010499",
+      "28338434",
+      "26888452",
+      "35054894",
+      "22490498",
+      "26937681",
+      "28520763",
+      "30069673",
+      "29886647",
+      "36585689",
+      "37699925",
+      "29991419",
+      "29734982",
+      "30669593",
+      "23090861",
+      "28500380",
+      "26354107",
+      "36034887",
+      "30244352",
+      "35245923",
+      "38240658"
+    ],
+    "review": [
+      "37244148",
+      "36178720",
+      "34176557",
+      "36217078",
+      "28162150",
+      "31375206",
+      "29318567",
+      "19413140",
+      "31038827",
+      "35135082",
+      "35054894"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)00523-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)00523-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

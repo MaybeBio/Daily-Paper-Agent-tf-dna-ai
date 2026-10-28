@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, including the highlights section
+- **Shared manuscript claim summary** The authors use computational methods to screen 38 missense mutations in the DNA binding domain of the transcription factor Egr1, identify 17 as pathogenic and 7 as functionally impactful, and through molecular dynamics simulations and interaction analyses conclude that four mutants (R360H, H390R, E393V, H414Y) alter structural stability and DNA interactions, while R371C and R375C have minimal impact and H382R increases stability. The authors suggest these four mutants may have clinical significance pending experimental validation.
+- **Visible evidence base** Abstract text and highlights only. No figures, tables, methods details, simulation parameters, or numerical results are provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, detailed methods for pathogenicity prediction tools, molecular dynamics simulation setup and parameters, force field choices, simulation length, convergence criteria, residue interaction analysis methodology, DNA interaction analysis details, and any quantitative results or statistical measures.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow for assessing missense mutations in a transcription factor DNA binding domain. The topic is relevant to the fields of structural biology and computational genomics. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the methods or the robustness of the conclusions. The central claims regarding the differential impact of specific mutants rest on simulation and interaction analyses that are not described in sufficient detail to assess reproducibility or validity. The suggestion of clinical significance for four mutants is speculative without experimental support, which the authors acknowledge. The work may be of interest to specialists in transcription factor biology and computational mutation analysis, but the evidence base provided is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcription factor DNA binding specificity, computational predictors of mutation pathogenicity, and structural biologists interested in zinc finger proteins. Clinicians or geneticists working on disorders linked to Egr1 mutations may also find the prioritized mutant list useful as a starting point for experimental validation.
+- **Major strengths** The study addresses a biologically important question regarding how mutations in a conserved DNA binding domain may disrupt transcription factor function. The workflow integrates multiple computational approaches, including pathogenicity screening and molecular dynamics simulations, which is a reasonable strategy for prioritizing mutants. The authors appropriately acknowledge the need for experimental validation before clinical significance can be assigned.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulation, residue interaction analysis, and Egr1-DNA interaction analysis results support the conclusion that mutants R360H, H390R, E393V, and H414Y confer greater impact by altering structural stability and DNA interactions.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no details on the molecular dynamics simulation protocol, including force field, water model, simulation length, temperature and pressure coupling, equilibration procedure, or number of replicates. Without this information, the reliability of the structural stability conclusions cannot be assessed. Similarly, the residue interaction analysis and DNA interaction analysis methods are not described, so it is unclear how "impact" was quantified or what thresholds were used to classify mutants as having greater or lesser impact.
+  - **Why it matters** Molecular dynamics simulations are sensitive to simulation parameters and sampling length. Short simulations or inadequate equilibration can lead to artifacts that are misinterpreted as biologically meaningful changes. The classification of mutants as impactful versus non-impactful depends entirely on these analyses, so without methodological transparency the central conclusions are not verifiable.
+  - **Resolution test** Provide full methods for the simulation setup, including software, force field, simulation length, number of replicates, and convergence checks. Describe the residue interaction and DNA interaction analyses with specific metrics and thresholds. Show that the conclusions are robust to reasonable variations in simulation parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that 17 of 38 missense mutations were predicted as pathogenic and 7 of these were found to have functional impact on Egr1.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not specify which pathogenicity prediction tools were used, how predictions were combined or weighted, what thresholds defined "pathogenic" and "functional impact," or whether the tools were benchmarked for this specific protein family. The criteria for selecting the 7 functionally impactful mutants from the 17 pathogenic ones are not stated.
+  - **Why it matters** Pathogenicity prediction tools vary widely in their sensitivity and specificity, and their performance depends on the training data and the type of mutation. Without knowing which tools were used and how results were integrated, the claim that 17 mutations are pathogenic cannot be evaluated. The selection of 7 for further analysis introduces a potential bias that is not explained.
+  - **Resolution test** List the specific prediction tools, their versions, and the criteria for classifying a mutation as pathogenic and functionally impactful. Provide the raw prediction scores for all 38 mutations, ideally in a supplementary table, and justify the filtering steps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overclaiming
+  - **Claim pointer** The authors suggest that the four mutants R360H, H390R, E393V, and H414Y "exposes the prospects of considering these 4 deleterious mutations for clinical significance."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract provides no population frequency data, no association with disease phenotypes, and no experimental functional data for these mutants. The claim of clinical significance is based solely on computational predictions and simulations, which are hypothesis-generating rather than confirmatory.
+  - **Why it matters** Clinical significance requires evidence of an association with disease or a clear functional deficit in a relevant biological context. Computational predictions can prioritize candidates but cannot establish clinical relevance. The phrasing may mislead readers into overinterpreting the strength of the evidence.
+  - **Resolution test** Reframe the conclusion to state that these mutants are prioritized for experimental validation and that clinical significance cannot be inferred from computational data alone. If clinical significance is to be claimed, provide supporting evidence from patient cohorts, functional assays, or animal models.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "least impact" for R371C and R375C is vague. It is unclear whether this means no significant change in stability or interactions, or a small but measurable change.
+  - **Required correction** Specify the quantitative criteria used to define "least impact" versus "greater impact," such as root mean square deviation values, binding free energy changes, or interaction contact counts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not state the source of the 38 missense mutations. It is unclear whether these were obtained from public databases, literature curation, or a specific patient cohort.
+  - **Required correction** State the source of the mutation list, including database names and version numbers or literature references, to allow readers to reproduce the initial screening.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Structural context
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not specify the structural template used for the Egr1-DNA complex, the resolution of the structure, or whether the simulations were performed on the wild-type complex and mutant complexes in the same manner.
+  - **Required correction** Provide the PDB identifier and resolution of the starting structure, and describe how mutant structures were generated, such as through in silico mutagenesis tools, and whether the DNA was included in all simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** H382R claim
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The claim that H382R "tend to increase the structural stability" is presented without a measure of effect size or comparison to the wild type. It is unclear whether this increase is biologically meaningful or within simulation noise.
+  - **Required correction** Report the quantitative stability metrics for the wild type and H382R, and state whether the difference exceeds a defined threshold or statistical test.
+
+## Risk / unsupported claims
+- The claim that 17 of 38 mutations are pathogenic is unsupported without specifying the prediction tools and thresholds used.
+- The claim that 7 of these 17 have functional impact is unsupported without defining the functional impact criteria.
+- The conclusion that R360H, H390R, E393V, and H414Y alter structural stability and DNA interactions is not assessable from the abstract alone, as no simulation or interaction analysis details are provided.
+- The suggestion of clinical significance for these four mutants is unsupported and speculative without experimental or population-level evidence.
+- The relative ranking of mutants (least impact versus greater impact) is not verifiable without quantitative results.
+- The statement that H382R increases structural stability is not supported by any reported data.

@@ -1,0 +1,513 @@
+{
+  "identity": {
+    "pmid": "38957433",
+    "doi": "10.1155/2024/6908968",
+    "title": "CCR7 and CD48 as Predicted Targets in Acute Rejection Related to M1 Macrophage after Pediatric Kidney Transplantation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Kidney transplantation (KT) is the best treatment for end-stage renal disease. Although long and short-term survival rates for the graft have improved significantly with the development of immunosuppressants, acute rejection (AR) remains a major risk factor attacking the graft and patients. The innate immune response plays an important role in rejection. Therefore, our objective is to determine the biomarkers of congenital immunity associated with AR after KT and provide support for future research. MATERIALS AND METHODS: A differential expression genes (DEGs) analysis was performed based on the dataset GSE174020 from the NCBI gene Expression Synthesis Database (GEO) and then combined with the GSE5099 M1 macrophage-related gene identified in the Molecular Signatures Database. We then identified genes in DEGs associated with M1 macrophages defined as DEM1Gs and performed gene ontology (GO) and Kyoto Encyclopedia of Genomes (KEGG) enrichment analysis. Cibersort was used to analyze the immune cell infiltration during AR. At the same time, we used the protein-protein interaction (PPI) network and Cytoscape software to determine the key genes. Dataset, GSE14328 derived from pediatric patients, GSE138043 and GSE9493 derived from adult patients, were used to verify Hub genes. Additional verification was the rat KT model, which was used to perform HE staining, immunohistochemical staining, and Western Blot. Hub genes were searched in the HPA database to confirm their expression. Finally, we construct the interaction network of transcription factor (TF)-Hub genes and miRNA-Hub genes. RESULTS: Compared to the normal group, 366 genes were upregulated, and 423 genes were downregulated in the AR group. Then, 106 genes related to M1 macrophages were found among these genes. GO and KEGG enrichment analysis showed that these genes are mainly involved in cytokine binding, antigen binding, NK cell-mediated cytotoxicity, activation of immune receptors and immune response, and activation of the inflammatory NF-kappaB signaling pathway. Two Hub genes, namely CCR7 and CD48, were identified by PPI and Cytoscape analysis. They have been verified in external validation sets, originated from both pediatric patients and adult patients, and animal experiments. In the HPA database, CCR7 and CD48 are mainly expressed in T cells, B cells, macrophages, and tissues where these immune cells are distributed. In addition to immunoinfiltration, CD4+T, CD8+T, NK cells, NKT cells, and monocytes increased significantly in the AR group, which was highly consistent with the results of Hub gene screening. Finally, we predicted that 19 TFs and 32 miRNAs might interact with the Hub gene. CONCLUSIONS: Through a comprehensive bioinformatic analysis, our findings may provide predictive and therapeutic targets for AR after KT.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Graft Rejection/immunology/genetics",
+      "*Kidney Transplantation/adverse effects",
+      "*Macrophages/immunology/metabolism",
+      "Animals",
+      "Child",
+      "Rats",
+      "*Receptors, CCR7/genetics/metabolism",
+      "*Protein Interaction Maps",
+      "*CD48 Antigen/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Biomarkers",
+      "Computational Biology/methods",
+      "Male",
+      "Gene Regulatory Networks",
+      "Databases, Genetic",
+      "Gene Ontology",
+      "Disease Models, Animal",
+      "Female",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jie",
+        "Pei, Jun",
+        "Yu, Chengjun",
+        "Luo, Jin",
+        "Hong, Yifan",
+        "Hua, Yi",
+        "Wei, Guanghui"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Pei J",
+        "Yu C",
+        "Luo J",
+        "Hong Y",
+        "Hua Y",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2687-4366",
+        "ORCID: 0000-0001-8261-5903",
+        "ORCID: 0000-0002-3405-1450",
+        "ORCID: 0009-0007-1277-7692",
+        "ORCID: 0000-0002-1750-8615",
+        "ORCID: 0009-0006-8029-1136",
+        "ORCID: 0000-0002-7822-8684"
+      ],
+      "affiliations": [
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China.",
+        "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0003-2687-4366"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Jun",
+        "short_name": "Pei J",
+        "identifiers": [
+          "0000-0001-8261-5903"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chengjun",
+        "short_name": "Yu C",
+        "identifiers": [
+          "0000-0002-3405-1450"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jin",
+        "short_name": "Luo J",
+        "identifiers": [
+          "0009-0007-1277-7692"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Yifan",
+        "short_name": "Hong Y",
+        "identifiers": [
+          "0000-0002-1750-8615"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Yi",
+        "short_name": "Hua Y",
+        "identifiers": [
+          "0009-0006-8029-1136"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghui",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0002-7822-8684"
+        ],
+        "affiliations": [
+          "Department of Urology Children's Hospital of Chongqing Medical University National Clinical Research Center for Child Health and Disorders Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunology research"
+    ],
+    "journal_abbrev": [
+      "J Immunol Res"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/03 06:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42650459",
+      "41291734",
+      "40374840"
+    ],
+    "refs": [
+      "37331295",
+      "37033969",
+      "36084977",
+      "35788820",
+      "34956231",
+      "34860468",
+      "34499402",
+      "34063776",
+      "33883251",
+      "33595191",
+      "33564060",
+      "33352942",
+      "33329555",
+      "32553181",
+      "32086495",
+      "32061315",
+      "31213836",
+      "31061481",
+      "30665880",
+      "30282830",
+      "30004796",
+      "29455468",
+      "29367465",
+      "29292608",
+      "28722285",
+      "28701473",
+      "28546901",
+      "28288101",
+      "28073178",
+      "27581174",
+      "26860368",
+      "26851348",
+      "26794910",
+      "26070485",
+      "25359467",
+      "25260647",
+      "25099579",
+      "23684794",
+      "23640618",
+      "21625968",
+      "21240265",
+      "20885780",
+      "20812764",
+      "20688351",
+      "20473522",
+      "19909079",
+      "19260832",
+      "19191772",
+      "19032219",
+      "18843253",
+      "18379575",
+      "18294156",
+      "18085464",
+      "17537992",
+      "17082649",
+      "16877341",
+      "16164665",
+      "15905190",
+      "15210772",
+      "14557746",
+      "10792833",
+      "9039933",
+      "8964605",
+      "7903681",
+      "6390825",
+      "6342225",
+      "4932696"
+    ],
+    "similar": [
+      "38957433",
+      "38815767",
+      "37033969",
+      "36776400",
+      "35432371",
+      "38062833",
+      "39096939",
+      "31987036",
+      "34233597",
+      "34975915",
+      "35392084",
+      "34553293",
+      "31875420",
+      "38736878",
+      "33640831",
+      "29977931",
+      "34358255",
+      "32575108",
+      "38873601",
+      "38774257",
+      "36438903",
+      "36291136",
+      "33530816",
+      "38863714",
+      "34736376",
+      "36063903",
+      "39284931",
+      "39308866",
+      "31233342",
+      "35016690",
+      "32626989",
+      "34368360",
+      "35762549",
+      "32756534",
+      "39058890",
+      "35911963",
+      "37250717",
+      "37430199",
+      "32598242",
+      "30132538",
+      "37113991",
+      "38886539",
+      "35313524",
+      "39342024",
+      "35721731",
+      "32435051",
+      "35281953",
+      "38885209",
+      "37740761",
+      "33080677",
+      "33927789",
+      "33299863",
+      "35473522",
+      "32811479",
+      "37498421",
+      "36506310",
+      "33083497",
+      "37460430",
+      "38764052",
+      "35757392",
+      "36335193",
+      "36704339",
+      "35658960",
+      "33705733",
+      "35713363",
+      "39169439",
+      "36499614",
+      "34257537",
+      "34777635",
+      "34823491",
+      "38485036",
+      "35058922",
+      "39079197",
+      "30602391",
+      "38755717",
+      "39172048",
+      "29845250",
+      "31692035",
+      "33816621",
+      "35762542",
+      "38268224",
+      "32578582",
+      "37325630",
+      "32945465",
+      "31703725",
+      "35154512",
+      "32481304",
+      "30825595",
+      "35558576",
+      "33102593",
+      "38919616",
+      "35576491",
+      "38701300",
+      "37359526",
+      "33941565",
+      "34313877",
+      "34321013",
+      "38852219",
+      "39069636",
+      "28302149",
+      "31277149",
+      "38509535",
+      "32791489",
+      "35773742",
+      "36627660",
+      "35637927",
+      "35909518",
+      "34931168",
+      "32925795",
+      "35190763",
+      "28983581",
+      "39080525",
+      "39125762",
+      "39095691",
+      "38965970",
+      "38993198",
+      "38902567",
+      "39367003",
+      "36246123",
+      "39286150",
+      "39176085",
+      "39265357",
+      "39308815",
+      "34552988",
+      "37390254",
+      "38987688",
+      "39344316",
+      "39107483",
+      "39391879",
+      "39096856",
+      "39328595",
+      "39337585",
+      "38695984",
+      "38564938",
+      "39199011",
+      "39425025",
+      "38963237",
+      "33478117",
+      "39251231",
+      "39319258",
+      "39323470",
+      "37576963",
+      "39430765",
+      "38517701",
+      "35630098",
+      "38156385",
+      "39107295",
+      "38452983",
+      "38402873",
+      "38876403",
+      "39192657",
+      "39002808",
+      "39427047",
+      "38222811",
+      "39423109",
+      "39218162",
+      "38995420",
+      "34082770",
+      "38978245",
+      "38829444",
+      "39367463",
+      "39266981",
+      "32634125",
+      "39088353",
+      "39356055",
+      "39181167",
+      "39202387",
+      "39252231",
+      "39414868",
+      "38059138",
+      "39292564",
+      "18261221",
+      "39045407",
+      "39378654",
+      "32550916",
+      "38266128",
+      "39427606",
+      "38204239",
+      "38850201",
+      "38286349",
+      "39395380",
+      "38979407",
+      "38010448",
+      "39170115",
+      "38942609",
+      "38260810",
+      "39419187",
+      "39300613",
+      "39145061",
+      "39062794",
+      "39379953",
+      "37180776",
+      "39177325",
+      "38233686",
+      "39026189",
+      "32737302",
+      "39308854",
+      "34350693",
+      "39418727",
+      "38950836",
+      "39058876",
+      "38334429",
+      "39202434",
+      "39243908",
+      "39140683",
+      "39145631",
+      "33133517",
+      "39020469"
+    ],
+    "review": [
+      "38957433",
+      "33080677",
+      "32481304",
+      "35630098"
+    ],
+    "pmc": [
+      "11217580"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneytransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38957433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2024/6908968",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

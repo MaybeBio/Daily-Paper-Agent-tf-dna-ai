@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2204.02130v2",
+  "title": "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model",
+  "doi": "",
+  "abstract": "A large number of inorganic and organic compounds are able to bind DNA and form complexes, among which drug-related molecules are important. Chromatin accessibility changes not only directly affects drug-DNA interactions, but also promote or inhibit the expression of critical genes associated with drug resistance by affecting the DNA binding capacity of TFs and transcriptional regulators. However, Biological experimental techniques for measuring it are expensive and time consuming. In recent years, several kinds of computational methods have been proposed to identify accessible regions of the genome. Existing computational models mostly ignore the contextual information of bases in gene sequences. To address these issues, we proposed a new solution named SemanticCAP. It introduces a gene language model which models the context of gene sequences, thus being able to provide an effective representation of a certain site in gene sequences. Basically, we merge the features provided by the gene language model into our chromatin accessibility model. During the process, we designed some methods to make feature fusion smoother. Compared with other systems under public benchmarks, our model proved to have better performance.",
+  "authors": [
+    "Yikang Zhang",
+    "Xiaomin Chu",
+    "Yelu Jiang",
+    "Hongjie Wu",
+    "Lijun Quan"
+  ],
+  "published_date": "2022-04-05T11:47:58Z",
+  "updated_date": "2022-04-06T10:25:29Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2204.02130v2",
+  "pdf_url": "https://arxiv.org/pdf/2204.02130v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.GN",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2204.02130v2",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

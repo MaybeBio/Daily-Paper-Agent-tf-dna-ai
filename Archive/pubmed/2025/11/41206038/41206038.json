@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41206038",
+    "doi": "10.1093/nar/gkaf1166",
+    "title": "Transcriptional regulatory networks of the human gut symbiont Bacteroides thetaiotaomicron are uncovered using machine learning."
+  },
+  "content": {
+    "abstract": "Bacteroides thetaiotaomicron VPI-5482 is a prominent human gut symbiont of increasing importance to human health and therapeutic applications. Despite its significance, the transcriptional regulatory network (TRN) governing its survival and resilience in vivo remains poorly understood. Here, we present BtModulome, a comprehensive transcriptional regulatory framework derived from independent component analysis of 461 RNA-seq datasets spanning diverse niche-specific conditions and genetic backgrounds. This analysis revealed the BtModulome consisting of 110 independently modulated gene sets (iModulons), explaining 72.9% of the variance in the RNA-seq dataset. We validated strong associations with 39 known regulators and identified 311 novel regulator-regulon relationships, accounting for 22.4% expansion of the known TRN of B. thetaiotaomicron. In addition, we functionally characterized 11 ECF-sigmas, including SigW-1, which orchestrates arylsulfatase expression critical for host colonization, and SigH-1, which mediates (p)ppGpp-dependent stringent response. Integration of iModulon activities with multi-omics datasets provided mechanistic insights into stress responses and carbon utilization both in vitro and in vivo. This comprehensive TRN framework establishes a foundation for understanding adaptive mechanisms in gut commensals and demonstrates the utility of module-centric analysis for biological discovery in non-model organisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Bacteroides thetaiotaomicron/genetics/metabolism",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Machine Learning",
+      "*Gene Expression Regulation, Bacterial",
+      "*Gastrointestinal Microbiome/genetics",
+      "Bacterial Proteins/genetics/metabolism",
+      "Symbiosis/genetics",
+      "Regulon",
+      "RNA-Seq",
+      "Sigma Factor/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Kangsan",
+        "Choe, Donghui",
+        "Kim, Sun Chang",
+        "Yim, Sung Sun",
+        "Jeong, Ki Jun",
+        "Palsson, Bernhard",
+        "Cho, Suhyung",
+        "Cho, Byung-Kwan"
+      ],
+      "short_names": [
+        "Kim K",
+        "Choe D",
+        "Kim SC",
+        "Yim SS",
+        "Jeong KJ",
+        "Palsson B",
+        "Cho S",
+        "Cho BK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2357-6785",
+        "ORCID: 0000-0002-4853-9617",
+        "ORCID: 0000-0003-4788-4184"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, United States.",
+        "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Chemical and Biomolecular Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, United States.",
+        "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Kangsan",
+        "short_name": "Kim K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choe, Donghui",
+        "short_name": "Choe D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Sun Chang",
+        "short_name": "Kim SC",
+        "identifiers": [],
+        "affiliations": [
+          "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yim, Sung Sun",
+        "short_name": "Yim SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Ki Jun",
+        "short_name": "Jeong KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard",
+        "short_name": "Palsson B",
+        "identifiers": [
+          "0000-0003-2357-6785"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Cho, Suhyung",
+        "short_name": "Cho S",
+        "identifiers": [
+          "0000-0002-4853-9617"
+        ],
+        "affiliations": [
+          "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Byung-Kwan",
+        "short_name": "Cho BK",
+        "identifiers": [
+          "0000-0003-4788-4184"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "KI for the BioCentury, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Graduate School of Engineering Biology, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Oct 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/09 00:32",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39747016",
+      "39528443",
+      "39193902",
+      "38898010",
+      "38528147",
+      "38490991",
+      "38422018",
+      "38294941",
+      "37971266",
+      "37598339",
+      "35759819",
+      "35489688",
+      "35145026",
+      "34879815",
+      "34616040",
+      "34597405",
+      "34570751",
+      "33657378",
+      "33398323",
+      "33311500",
+      "33290552",
+      "33045728",
+      "32678091",
+      "32616573",
+      "32601452",
+      "32427907",
+      "31992627",
+      "31901520",
+      "31797920",
+      "31409684",
+      "31269533",
+      "31160824",
+      "30395287",
+      "30349080",
+      "30008292",
+      "29762716",
+      "29545622",
+      "29447345",
+      "29059500",
+      "28966055",
+      "28536290",
+      "28440278",
+      "28431252",
+      "28431251",
+      "27729509",
+      "26918244",
+      "26430127",
+      "26419879",
+      "26257719",
+      "25974305",
+      "24946009",
+      "24175918",
+      "23828941",
+      "23466210",
+      "23104808",
+      "22821568",
+      "22520389",
+      "22205877",
+      "21507958",
+      "20603004",
+      "19648241",
+      "19403529",
+      "19146523",
+      "18996345",
+      "18252563",
+      "16887706",
+      "16541078",
+      "12663928",
+      "12123450",
+      "12023304",
+      "8955400"
+    ],
+    "similar": [
+      "41206038",
+      "39868786",
+      "35102527",
+      "35196806",
+      "27729509",
+      "34251866",
+      "32075741",
+      "40526469",
+      "35306876",
+      "39269777",
+      "32576670",
+      "38534200",
+      "31901520",
+      "28009067",
+      "35145026",
+      "29018117",
+      "38842315",
+      "14700548",
+      "40823863",
+      "22943411",
+      "39103350",
+      "41104934",
+      "37278526",
+      "32678091",
+      "34420703",
+      "39878512",
+      "40057950",
+      "33657378",
+      "39747016",
+      "39330254",
+      "27118128",
+      "41330371",
+      "39565129",
+      "34777307",
+      "30833358",
+      "32856395",
+      "30305320",
+      "32084341",
+      "40913977",
+      "31690674",
+      "32005816",
+      "29535205",
+      "40956896",
+      "25182327",
+      "33045728",
+      "38975756",
+      "24330590",
+      "32231334",
+      "39527186",
+      "40216766",
+      "39297638",
+      "39141294",
+      "32060313",
+      "40387328",
+      "34379855",
+      "31900343",
+      "28091546",
+      "27353652",
+      "41074150",
+      "30559205",
+      "40938637",
+      "38422018",
+      "28966055",
+      "40558093",
+      "35080445",
+      "38528147",
+      "40628542",
+      "29794055",
+      "38387133",
+      "16936031",
+      "35715393",
+      "41099497",
+      "19270092",
+      "39132815",
+      "18996345",
+      "35044199",
+      "37670028",
+      "12663928",
+      "19555458",
+      "30367006",
+      "33469019",
+      "38879612",
+      "21507958",
+      "32616573",
+      "17132046",
+      "41249559",
+      "39264300",
+      "35916501",
+      "41239997",
+      "27003599",
+      "41040266",
+      "25766138",
+      "27660335",
+      "19050758",
+      "35623356",
+      "35357493",
+      "38189271",
+      "33097594",
+      "35759819",
+      "36847513"
+    ],
+    "review": [
+      "41206038",
+      "41104934",
+      "38387133",
+      "41099497"
+    ],
+    "pmc": [
+      "12596196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41206038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/5js9c563",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1166",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

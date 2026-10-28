@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "40718484",
+    "doi": "10.3389/fimmu.2025.1574157",
+    "title": "Leveraging the integration of bioinformatics and machine learning to uncover common biomarkers and molecular pathways underlying diabetes and nephrolithiasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Kidney stones are a common benign condition of the urinary system, characterized by high incidence and recurrence rates. Our previous studies revealed an increased prevalence of kidney stones among diabetic patients, suggesting potential underlying mechanisms linking these two conditions. This study aims to identify key genes, pathways, and immune cells that may connect diabetes and kidney stones. METHODS: We conducted bulk transcriptome differential analysis using our sequencing data, in conjunction with the AS dataset (GSE231569). After eliminating batch effects, we performed differential expression analysis and applied weighted gene co-expression network analysis (WGCNA) to investigate associations with 18 forms of cell death. Differentially expressed genes (DEGs) were subsequently analyzed using 10 commonly used machine learning algorithms, generating 101 unique combinations to identify the final DEGs. Functional enrichment analysis was performed, alongside the construction of protein-protein interaction (PPI) networks and transcription factor (TF)-gene interaction networks. RESULTS: For the first time, bioinformatics tools were utilized to investigate the close genetic relationship between diabetes and kidney stones. Among 101 machine learning models, S100A4, ARPC1B, and CEBPD were identified as the most significant interacting genes linking diabetes and kidney stones. The diagnostic potential of these biomarkers was validated in both training and test datasets. CONCLUSION: We identified three biomarkers-S100A4, ARPC1B, and CEBPD-that may play critical roles in the shared pathogenesis of diabetes and kidney stones. These findings open new avenues for the diagnosis and treatment of these comorbid conditions.",
+    "keywords": [
+      "bioinformatics",
+      "diabetes",
+      "kidney stone",
+      "machine learning",
+      "programmed cell death"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "*Diabetes Mellitus/genetics/metabolism",
+      "Gene Expression Profiling",
+      "*Nephrolithiasis/genetics/metabolism",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Xudong",
+        "Li, Guoxiang",
+        "Yao, Junfeng",
+        "Yang, Junping",
+        "Ding, Xiaobo",
+        "Hao, Zongyao",
+        "Chen, Yan",
+        "Chen, Yang"
+      ],
+      "short_names": [
+        "Shen X",
+        "Li G",
+        "Yao J",
+        "Yang J",
+        "Ding X",
+        "Hao Z",
+        "Chen Y",
+        "Chen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China.",
+        "Department of General Practice, Wuhu City Second People;s Hospital (Affiliated Wuhu Hospital of East China Normal University)Wuhu, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China.",
+        "Department of General Practice, Wuhu City Second People;s Hospital (Affiliated Wuhu Hospital of East China Normal University)Wuhu, Anhui, China.",
+        "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Institute of Urology, Anhui Medical University, Hefei, China.",
+        "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Xudong",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guoxiang",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Junfeng",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Junping",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuhu City Second People`s Hospital (Affiliated Wuhu Hospital of East China Normal University)Wuhu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiaobo",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Zongyao",
+        "short_name": "Hao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuhu City Second People`s Hospital (Affiliated Wuhu Hospital of East China Normal University)Wuhu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Institute of Urology, Anhui Medical University, Hefei, China.",
+          "Anhui Province Key Laboratory of Genitourinary Diseases, Anhui Medical University, Hefei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 18:51",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39462270",
+      "38774874",
+      "38538696",
+      "37977318",
+      "37628889",
+      "36470928",
+      "36349594",
+      "36282174",
+      "36078170",
+      "35844866",
+      "35648698",
+      "35464065",
+      "35260057",
+      "35222279",
+      "35145098",
+      "34791014",
+      "34497830",
+      "34381146",
+      "33794304",
+      "33502240",
+      "33079704",
+      "32961025",
+      "32872570",
+      "32343997",
+      "32276962",
+      "32227074",
+      "32172122",
+      "32117590",
+      "31704479",
+      "31438987",
+      "30771411",
+      "30710284",
+      "30484290",
+      "30021804",
+      "29069865",
+      "28875258",
+      "28720363",
+      "28368018",
+      "28365271",
+      "27465995",
+      "27245114",
+      "26174226",
+      "25253987",
+      "23352991",
+      "22864903",
+      "22347430",
+      "20829351",
+      "20651704",
+      "19635564",
+      "17652082",
+      "17328050",
+      "16105055",
+      "14600152",
+      "10594926",
+      "9405372",
+      "8754811"
+    ],
+    "similar": [
+      "40718484",
+      "40245021",
+      "39845878",
+      "40406126",
+      "38863714",
+      "40421012",
+      "40374866",
+      "41052072",
+      "41479901",
+      "41424060",
+      "40328901",
+      "41316541",
+      "40374840",
+      "40340571",
+      "39375405",
+      "40997906",
+      "41214111",
+      "40884580",
+      "39965013",
+      "39351221",
+      "41006883",
+      "41120603",
+      "40214693",
+      "39749331",
+      "38169604",
+      "39875572",
+      "40045538",
+      "39050860",
+      "39730451",
+      "39351239",
+      "40129981",
+      "40016711",
+      "39139563",
+      "38851464",
+      "40313958",
+      "41132671",
+      "38987624",
+      "41291978",
+      "39142001",
+      "39509434",
+      "40574839",
+      "40787468",
+      "39738398",
+      "41132669",
+      "39086489",
+      "39869603",
+      "39234248",
+      "41066424",
+      "41200172",
+      "41474729",
+      "40973872",
+      "40808946",
+      "41162503",
+      "40857330",
+      "38899746",
+      "40196107",
+      "40596265",
+      "41192647",
+      "38831425",
+      "40539266",
+      "40685483",
+      "41196851",
+      "39953122",
+      "40640102",
+      "40362669",
+      "40532306",
+      "40383755",
+      "39936105",
+      "40588645",
+      "39606015",
+      "39923303",
+      "40595011",
+      "40467768",
+      "40598145",
+      "40503237",
+      "40453984",
+      "41137290",
+      "41013556",
+      "41044520",
+      "40782934",
+      "39145311",
+      "38867322",
+      "40046872",
+      "41021615",
+      "39069636",
+      "40025145",
+      "38767974",
+      "40808948",
+      "40596702",
+      "40599778",
+      "40977739",
+      "39917301",
+      "38660311",
+      "41418349",
+      "40332792",
+      "39695788",
+      "39957315",
+      "40273141",
+      "39496786",
+      "40594252"
+    ],
+    "review": [
+      "40718484",
+      "40467768"
+    ],
+    "pmc": [
+      "12289493"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneystones.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Stones"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40718484/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1574157",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

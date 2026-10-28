@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "41063205",
+    "doi": "10.1186/s40478-025-02104-x",
+    "title": "Deep learning based semi-automated model can predict lineage in patients with pituitary neuroendocrine tumors."
+  },
+  "content": {
+    "abstract": "Pituitary neuroendocrine tumors (PitNETs) represent the most prevalent category of neuroendocrine neoplasms. Contemporary classification paradigms emphasize transcription factor immunohistochemistry (IHC) as a cornerstone for molecular subtyping and risk stratification. However, the clinical adoption of this approach is hindered by the lack of standardized interpretative thresholds for antibody staining and limited global availability of specialized reagents, particularly in resource-limited settings. To address these challenges, we developed a semi-automated computational framework that predicts PitNET lineages directly from hematoxylin and eosin (H&E)-stained histology slides. The pipeline employs a dynamic confidence threshold: samples below this threshold undergo confirmatory IHC staining and manual pathological review, while those surpassing it are classified automatically. In prospective validation, this approach achieved a 68.9% reduction in diagnostic workload while maintaining 95.9% overall accuracy. Similar efficacy was observed in functional (74.4% workload reduction, 99.0% accuracy) and external (39.3% reduction, 95.1% accuracy) cohorts. Statistical analysis confirmed non-inferiority between semi-automated predictions and fully manual IHC-based evaluations in all the cohorts. Furthermore, we implemented a deep learning-based virtual IHC staining module, generating synthetic transcription factor images demonstrating high morphological concordance with ground-truth IHC slides. Notably, our computational analysis revealed distinct histomorphological correlates of lineages: SF1-lineage tumors exhibited homogeneous cellular architecture characterized by densely packed, compact cells with reduced cytoplasmic volume, whereas PIT1-lineage neoplasms displayed larger cells with expanded intercellular spacing and disorganized spatial arrangements.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Neuroendocrine Tumors/pathology/diagnosis",
+      "*Pituitary Neoplasms/pathology/diagnosis",
+      "Female",
+      "Male",
+      "Adult",
+      "Middle Aged",
+      "Immunohistochemistry",
+      "Cell Lineage"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Guoqing",
+        "Ning, Zehang",
+        "Yan, Xiaorong",
+        "Li, Jianfang",
+        "Ma, Chiyuan",
+        "Cheng, Haixia",
+        "Cong, Zixiang",
+        "Li, Junjun",
+        "Sun, Shengyu",
+        "Wang, Yongfei",
+        "Deng, Xingli",
+        "Jiang, Changzhen",
+        "Chen, Hong",
+        "Ma, Hui",
+        "Yu, Jinhua",
+        "Qiao, Nidan"
+      ],
+      "short_names": [
+        "Wu G",
+        "Ning Z",
+        "Yan X",
+        "Li J",
+        "Ma C",
+        "Cheng H",
+        "Cong Z",
+        "Li J",
+        "Sun S",
+        "Wang Y",
+        "Deng X",
+        "Jiang C",
+        "Chen H",
+        "Ma H",
+        "Yu J",
+        "Qiao N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Information Science and Technology, Fudan University, Shanghai, China.",
+        "School of Information Science and Technology, Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China.",
+        "Department of General Medicine, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, General Hospital of Eastern Theater Command (Nanjing Jinlin Hospital), Nanjing, Jiangsu, China.",
+        "Department of Pathology, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, General Hospital of Eastern Theater Command (Nanjing Jinlin Hospital), Nanjing, Jiangsu, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Neurosurgery, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Department of Neurosurgery, Huashan Hospital, Shanghai Medical College, Fudan University, N Qiao, 12 Wulumuqi Zhong Road, Shanghai, China.",
+        "National Center for Neurological Disorders, Shanghai, China.",
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Brain Science, Fudan University, Shanghai, China.",
+        "Shanghai Key laboratory of Brain Function Restoration and Neural Regeneration, Shanghai, China.",
+        "Neurosurgical Institute of Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China.",
+        "Department of Pathology, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "School of Information Science and Technology, Fudan University, Shanghai, China. jhyu@fudan.edu.cn.",
+        "Department of Neurosurgery, Huashan Hospital, Shanghai Medical College, Fudan University, N Qiao, 12 Wulumuqi Zhong Road, Shanghai, China. qiaonidan@fudan.edu.cn.",
+        "National Center for Neurological Disorders, Shanghai, China. qiaonidan@fudan.edu.cn.",
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Brain Science, Fudan University, Shanghai, China. qiaonidan@fudan.edu.cn.",
+        "Shanghai Key laboratory of Brain Function Restoration and Neural Regeneration, Shanghai, China. qiaonidan@fudan.edu.cn.",
+        "Neurosurgical Institute of Fudan University, Shanghai, China. qiaonidan@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Guoqing",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Zehang",
+        "short_name": "Ning Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xiaorong",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianfang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chiyuan",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, General Hospital of Eastern Theater Command (Nanjing Jinlin Hospital), Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haixia",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Zixiang",
+        "short_name": "Cong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, General Hospital of Eastern Theater Command (Nanjing Jinlin Hospital), Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junjun",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shengyu",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongfei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Huashan Hospital, Shanghai Medical College, Fudan University, N Qiao, 12 Wulumuqi Zhong Road, Shanghai, China.",
+          "National Center for Neurological Disorders, Shanghai, China.",
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Brain Science, Fudan University, Shanghai, China.",
+          "Shanghai Key laboratory of Brain Function Restoration and Neural Regeneration, Shanghai, China.",
+          "Neurosurgical Institute of Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xingli",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Changzhen",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hong",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Hui",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jinhua",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Fudan University, Shanghai, China. jhyu@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qiao, Nidan",
+        "short_name": "Qiao N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Huashan Hospital, Shanghai Medical College, Fudan University, N Qiao, 12 Wulumuqi Zhong Road, Shanghai, China. qiaonidan@fudan.edu.cn.",
+          "National Center for Neurological Disorders, Shanghai, China. qiaonidan@fudan.edu.cn.",
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Brain Science, Fudan University, Shanghai, China. qiaonidan@fudan.edu.cn.",
+          "Shanghai Key laboratory of Brain Function Restoration and Neural Regeneration, Shanghai, China. qiaonidan@fudan.edu.cn.",
+          "Neurosurgical Institute of Fudan University, Shanghai, China. qiaonidan@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neuropathologica communications"
+    ],
+    "journal_abbrev": [
+      "Acta Neuropathol Commun"
+    ],
+    "pub_date": "2025 Sep 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/09 00:31",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42101572"
+    ],
+    "refs": [
+      "39309216",
+      "39289570",
+      "37932267",
+      "37097352",
+      "37074863",
+      "35952419",
+      "35895707",
+      "35291028",
+      "35047230",
+      "34306174",
+      "33859411",
+      "33649564",
+      "33321163",
+      "32991684",
+      "32741475",
+      "32130815",
+      "31142829",
+      "29434339"
+    ],
+    "similar": [
+      "41063205",
+      "42101572",
+      "39579326",
+      "38649148",
+      "35291028",
+      "40296825",
+      "33321163",
+      "38228887",
+      "37268858",
+      "41521161",
+      "41828530",
+      "40167112",
+      "41369112",
+      "39688088",
+      "31883967",
+      "37661840",
+      "40295206",
+      "37438981",
+      "42031964",
+      "30215160",
+      "37418134",
+      "36517420",
+      "39233337",
+      "36544040",
+      "33866514",
+      "36527335",
+      "41501761",
+      "40276548",
+      "37072666",
+      "41504789",
+      "32813227",
+      "37491061",
+      "39182926",
+      "33991528",
+      "38658971",
+      "38907774",
+      "40898302",
+      "37743343",
+      "41690144",
+      "38917431",
+      "40085941",
+      "38289085",
+      "36754052",
+      "41808436",
+      "40468622",
+      "38756997",
+      "40551554",
+      "37491056",
+      "38963295",
+      "41382947",
+      "41483255",
+      "41510173",
+      "42036854",
+      "37002436",
+      "40946794",
+      "31578606",
+      "37068095",
+      "31868239",
+      "35312985",
+      "37394342",
+      "41188199",
+      "33472171",
+      "39934142",
+      "35947342",
+      "32632841",
+      "41141357",
+      "38758238",
+      "41296644",
+      "37269416",
+      "39388031",
+      "36069849",
+      "38656092",
+      "37074863",
+      "30706322",
+      "38056042",
+      "38955705",
+      "29275530",
+      "39182993",
+      "35212383",
+      "25197368",
+      "37805393",
+      "32098443",
+      "40813692",
+      "30903445",
+      "36271964",
+      "37716506",
+      "34758873",
+      "40539233",
+      "36469605",
+      "38844718",
+      "37743330",
+      "39105524",
+      "41898535",
+      "38656317",
+      "40581303",
+      "30696866",
+      "31112312",
+      "34708902",
+      "39982832",
+      "36653153"
+    ],
+    "review": [
+      "41063205",
+      "35291028",
+      "38228887",
+      "41828530",
+      "36544040",
+      "39182926",
+      "38963295",
+      "42036854",
+      "31578606",
+      "37068095",
+      "35312985",
+      "37394342",
+      "36069849",
+      "38656092",
+      "29275530",
+      "39182993",
+      "32098443",
+      "40581303",
+      "31112312"
+    ],
+    "pmc": [
+      "12509416"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-025-02104-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41063205/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

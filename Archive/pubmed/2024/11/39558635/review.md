@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that two pathogenic electrostatic mutations, D169G and P112H, in the tandem RNA recognition motif domains of TDP-43 increase chemical stability at physiological pH but promote amyloid-like fibril formation at low pH, with P112H aggregating faster and showing stronger ionic strength dependence. Atomistic simulations attribute these patterns to thermal lability of the RRM1 domain and dynamical anticorrelation with RRM2.
+- **Visible evidence base** Abstract text only; no quantitative data, experimental methods, or simulation details are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, simulation parameters, experimental replicates, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking specific electrostatic mutations to pH- and ionic strength-dependent aggregation of TDP-43(tRRM), with a proposed mechanistic explanation from simulations. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the experimental claims, the validity of the simulation approach, or the strength of the experiment-simulation integration. The central claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 proteinopathy, amyotrophic lateral sclerosis pathogenesis, protein misfolding and aggregation mechanisms, and the role of electrostatic interactions in amyloid formation. The work may also interest computational biophysicists focused on atomistic simulations of protein dynamics and aggregation.
+- **Major strengths** The study addresses a clinically relevant question by linking patient-derived mutations to biophysical aggregation behavior. The combination of experimental and simulation approaches is commendable in principle. The focus on pH and ionic strength dependence adds environmental context that is often missing in aggregation studies.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that D169G and P112H show increased chemical stability compared to TDP-43(tRRM) at physiological pH, and that at low pH both mutants form amyloid-like fibrils with P112H being substantially faster.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative data, no measures of variability, no statistical comparisons, and no description of the assays used to assess chemical stability or fibril formation. The terms "increased chemical stability" and "substantially faster" are not supported by any visible numerical evidence.
+  - **Why it matters** Without quantitative support and statistical validation, the core experimental claims cannot be assessed for reliability or significance. The reader cannot determine whether the observed differences are robust or within experimental noise.
+  - **Resolution test** Provide mean values with standard deviations or confidence intervals, replicate numbers, statistical test results, and a clear description of the experimental readouts for stability and aggregation kinetics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation validity
+  - **Claim pointer** The claim that atomistic simulations assign the observed aggregation pattern to thermal lability of the RRM1 domain and dynamical anticorrelation with RRM2.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation details are provided, including force field, sampling method, simulation length, system setup, or how "thermal lability" and "dynamical anticorrelation" were quantified. The causal link between these simulated observables and the experimental aggregation behavior is asserted without visible validation.
+  - **Why it matters** The mechanistic conclusion rests entirely on the simulation results. Without methodological transparency and evidence that the simulations reproduce or explain the experimental trends quantitatively, the proposed mechanism remains speculative.
+  - **Resolution test** Describe simulation parameters, provide quantitative measures of thermal lability and anticorrelation for each sequence and condition, and show how these correlate with the experimental aggregation rates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim consistency
+  - **Claim pointer** The claim that only the P112H mutant undergoes a strong ionic strength-dependent aggregability trend, attributed to its excess charge.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that P112H shows a strong ionic strength-dependent trend while the other two sequences show comparable rates, but it is unclear whether the other sequences show no ionic strength dependence or simply a weaker one. The attribution to "excess charge" is not quantitatively supported.
+  - **Why it matters** The ionic strength dependence is a key differentiator for the proposed electrostatic mechanism. If the other sequences also show some dependence, the claim of uniqueness is weakened. The charge-based explanation requires quantitative comparison of charge differences and their effects.
+  - **Resolution test** Provide ionic strength titration data for all three sequences, with fitted parameters and statistical comparisons, and quantify the charge difference between P112H and the other sequences under the relevant pH conditions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "electrostatically aggravate" in the title is not defined or operationalized in the abstract.
+  - **Required correction** Define what "electrostatic aggravation" means mechanistically, for example in terms of charge changes, electrostatic potential, or salt dependence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "low pH" and "physiological pH" but does not specify the exact pH values used.
+  - **Required correction** State the specific pH values for both conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation observables
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The terms "thermal lability" and "dynamical anticorrelation" are not defined in the abstract.
+  - **Required correction** Provide brief definitions or refer to specific methods in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative experimental data, simulation details, and statistical validation means the central claims cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The specific combination of patient-derived electrostatic mutations with pH and ionic strength dependent aggregation is somewhat novel, but the general concept of charge effects on protein aggregation is well established.
+  - Scientific importance: The topic is relevant to ALS and TDP-43 proteinopathy, but the abstract does not demonstrate a major conceptual advance beyond existing knowledge of TDP-43 aggregation.
+  - Interdisciplinary readership: The work bridges experimental biophysics and computational simulation, which could appeal to a broad audience, but the abstract does not make the interdisciplinary value explicit.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is potentially valuable, but the abstract alone does not provide sufficient evidence to support the claims. A full manuscript with detailed methods, quantitative results, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of increased chemical stability for both mutants at physiological pH is unsupported without quantitative data.
+- The claim that P112H aggregates substantially faster at low pH is unsupported without kinetic data and statistical comparison.
+- The claim that only P112H shows strong ionic strength dependence is unsupported without titration data for all sequences.
+- The mechanistic attribution to thermal lability and dynamical anticorrelation is unsupported without simulation details and quantitative correlation with experiment.
+- The statement that the approach "unravels the otherwise hidden residue-wise contribution" is an overreach given the absence of residue-level experimental validation.

@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "37961577",
+    "doi": "10.1101/2023.10.25.563769",
+    "title": "NetREm: Network Regression Embeddings reveal cell-type transcription factor coordination for gene regulation."
+  },
+  "content": {
+    "abstract": "Transcription factor (TF) coordination plays a key role in target gene (TG) regulation via protein-protein interactions (PPIs) and DNA co-binding to regulatory elements. Single-cell technologies facilitate gene expression measurement for individual cells and cell-type identification, yet the connection between TF coordination and TG regulation of various cell types remains unclear. To address this, we have developed a novel computational approach, Network Regression Embeddings (NetREm), to reveal cell-type TF-TF coordination activities for TG regulation. NetREm leverages network-constrained regularization using prior knowledge of direct and/or indirect PPIs among TFs to analyze single-cell gene expression data. We test NetREm by simulation data and benchmark its performance in 4 real-world applications that have gold standard TF-TG networks available: mouse (mESCs) and simulated human (hESCs) embryonic stem (ESCs), human hematopoietic stem (HSCs), and mouse dendritic (mDCs) cells. Further, we use NetREm to prioritize valid novel TF-TF coordination links in human Peripheral Blood Mononuclear cell (PBMC) sub-types. We apply NetREm to analyze various cell types in both central (CNS) and peripheral (PNS) nerve system (NS) (e.g. neuronal, glial, Schwann cells (SCs)) as well as in Alzheimers disease (AD). Our findings uncover cell-type coordinating TFs and identify new TF-TG candidate links. We validate our top predictions using Cut&Run and knockout loss-of-function expression data in rat/mouse models and compare results with additional functional genomic data, including expression quantitative trait loci (eQTL) and Genome-Wide Association Studies (GWAS) to link genetic variants (single nucleotide polymorphisms (SNPs)) to TF coordination.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khullar, Saniya",
+        "Huang, Xiang",
+        "Ramesh, Raghu",
+        "Svaren, John",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Khullar S",
+        "Huang X",
+        "Ramesh R",
+        "Svaren J",
+        "Wang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9190-3704"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Khullar, Saniya",
+        "short_name": "Khullar S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Huang, Xiang",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ramesh, Raghu",
+        "short_name": "Ramesh R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Svaren, John",
+        "short_name": "Svaren J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0001-9190-3704"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 May 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/14 06:42",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37961577",
+      "40260118",
+      "35229021",
+      "30359306",
+      "26611531",
+      "35590387",
+      "28957321",
+      "36749045",
+      "35168626",
+      "29325558",
+      "24228871",
+      "39922197",
+      "32043966",
+      "27723773",
+      "37805453",
+      "31292129",
+      "37926287",
+      "40210438",
+      "35100260",
+      "32054475",
+      "21496241",
+      "33631799",
+      "22537144",
+      "19956545",
+      "30142147",
+      "37682477",
+      "28193859",
+      "34875418",
+      "38940155",
+      "17971223",
+      "27780826",
+      "38948852",
+      "32615918",
+      "35193937",
+      "33130899",
+      "21172055",
+      "38699303",
+      "36114445",
+      "29396371",
+      "40250421",
+      "35757392",
+      "35849618",
+      "30517703",
+      "24565265",
+      "29363433",
+      "29378629",
+      "27311443",
+      "29226599",
+      "31399483",
+      "37595278",
+      "37693486",
+      "18586698",
+      "25559499",
+      "35676421",
+      "27639379",
+      "31500627",
+      "30709337",
+      "39622643",
+      "30598100",
+      "23272209",
+      "39386531",
+      "34740743",
+      "28008225",
+      "23184988",
+      "36569748",
+      "22176772",
+      "34093651",
+      "35983231",
+      "29617928",
+      "18426580",
+      "22166063",
+      "25957350",
+      "26830357",
+      "20158869",
+      "38836027",
+      "39830273",
+      "23793746",
+      "29716548",
+      "25300490",
+      "20704747",
+      "36745138",
+      "36494794",
+      "23636944",
+      "22931563",
+      "36043696",
+      "27005890",
+      "17973026",
+      "32424124",
+      "38012720",
+      "39695844",
+      "29033978",
+      "32858223",
+      "37492098",
+      "18769540",
+      "39218853",
+      "16844711",
+      "31482761",
+      "38464086",
+      "23758851",
+      "28750606"
+    ],
+    "review": [
+      "37961577",
+      "36745138"
+    ],
+    "pmc": [
+      "10634989"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37961577/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.10.25.563769",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

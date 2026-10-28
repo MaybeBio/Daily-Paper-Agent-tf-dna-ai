@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "37985457",
+    "doi": "10.1093/bib/bbad414",
+    "title": "Predicting gene regulatory links from single-cell RNA-seq data using graph neural networks."
+  },
+  "content": {
+    "abstract": "Single-cell RNA-sequencing (scRNA-seq) has emerged as a powerful technique for studying gene expression patterns at the single-cell level. Inferring gene regulatory networks (GRNs) from scRNA-seq data provides insight into cellular phenotypes from the genomic level. However, the high sparsity, noise and dropout events inherent in scRNA-seq data present challenges for GRN inference. In recent years, the dramatic increase in data on experimentally validated transcription factors binding to DNA has made it possible to infer GRNs by supervised methods. In this study, we address the problem of GRN inference by framing it as a graph link prediction task. In this paper, we propose a novel framework called GNNLink, which leverages known GRNs to deduce the potential regulatory interdependencies between genes. First, we preprocess the raw scRNA-seq data. Then, we introduce a graph convolutional network-based interaction graph encoder to effectively refine gene features by capturing interdependencies between nodes in the network. Finally, the inference of GRN is obtained by performing matrix completion operation on node features. The features obtained from model training can be applied to downstream tasks such as measuring similarity and inferring causality between gene pairs. To evaluate the performance of GNNLink, we compare it with six existing GRN reconstruction methods using seven scRNA-seq datasets. These datasets encompass diverse ground truth networks, including functional interaction networks, Loss of Function/Gain of Function data, non-specific ChIP-seq data and cell-type-specific ChIP-seq data. Our experimental results demonstrate that GNNLink achieves comparable or superior performance across these datasets, showcasing its robustness and accuracy. Furthermore, we observe consistent performance across datasets of varying scales. For reproducibility, we provide the data and source code of GNNLink on our GitHub repository: https://github.com/sdesignates/GNNLink.",
+    "keywords": [
+      "gene regulatory networks (GRNs)",
+      "graph convolutional network",
+      "graph neural network",
+      "link prediction"
+    ],
+    "mesh_terms": [
+      "Reproducibility of Results",
+      "*Single-Cell Gene Expression Analysis",
+      "*Gene Expression Regulation",
+      "Neural Networks, Computer",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Sequence Analysis, RNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mao, Guo",
+        "Pang, Zhengbin",
+        "Zuo, Ke",
+        "Wang, Qinglin",
+        "Pei, Xiangdong",
+        "Chen, Xinhai",
+        "Liu, Jie"
+      ],
+      "short_names": [
+        "Mao G",
+        "Pang Z",
+        "Zuo K",
+        "Wang Q",
+        "Pei X",
+        "Chen X",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+        "Laboratory of Software Engineering for Complex System, National University of Defense Technology, deya, 410073 Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mao, Guo",
+        "short_name": "Mao G",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Zhengbin",
+        "short_name": "Pang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Ke",
+        "short_name": "Zuo K",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qinglin",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Xiangdong",
+        "short_name": "Pei X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinhai",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology on Parallel and Distributed Processing Laboratory, National University of Defense Technology, deya, 410073 Changsha, China.",
+          "Laboratory of Software Engineering for Complex System, National University of Defense Technology, deya, 410073 Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Sep 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/21 01:07",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42653305",
+      "42632029",
+      "42614561",
+      "42316003",
+      "42265576",
+      "42234838",
+      "42093817",
+      "41991527",
+      "41871930",
+      "41554051",
+      "41498638",
+      "41292720",
+      "41267133",
+      "41206950",
+      "40983951",
+      "40862236",
+      "40796919",
+      "40702704",
+      "40678148",
+      "40662821",
+      "40408160",
+      "40251476",
+      "40182174",
+      "40116659",
+      "40091193",
+      "40069807",
+      "40062616",
+      "39975293",
+      "39960893",
+      "39934680",
+      "39451156",
+      "39417321",
+      "39266676",
+      "39082651",
+      "39062480",
+      "38980373",
+      "38653489"
+    ],
+    "refs": [
+      "38217125",
+      "37418430",
+      "37079737",
+      "37038446",
+      "37004161",
+      "36879188",
+      "36877552",
+      "36629274",
+      "36434499",
+      "36070863",
+      "36007675",
+      "35961023",
+      "35901457",
+      "35062026",
+      "34424948",
+      "33539514",
+      "33303016",
+      "33294129",
+      "32728249",
+      "32135093",
+      "31907445",
+      "31822622",
+      "31627739",
+      "31340985",
+      "30971806",
+      "30953525",
+      "30547796",
+      "30476243",
+      "29801503",
+      "29434199",
+      "28968704",
+      "28614297",
+      "27993778",
+      "27599566",
+      "27534536",
+      "27365425",
+      "24919153",
+      "23794736",
+      "20927193"
+    ],
+    "similar": [
+      "37985457",
+      "35961023",
+      "38950180",
+      "38980373",
+      "39062480",
+      "30547796",
+      "36877552",
+      "38261340",
+      "39417321",
+      "37004161",
+      "37686146",
+      "34850828",
+      "37897702",
+      "36804214",
+      "36733262",
+      "35901457",
+      "36626328",
+      "37085776",
+      "34424948",
+      "33026066",
+      "37751336",
+      "35172334",
+      "37531858",
+      "38896510",
+      "36825817",
+      "38810116",
+      "33294129",
+      "31068142",
+      "38396909",
+      "35692809",
+      "36585783",
+      "39059210",
+      "37991248",
+      "38892162",
+      "39311699",
+      "35062026",
+      "38128706",
+      "37939200",
+      "39237886",
+      "39180857",
+      "34996359",
+      "37244909",
+      "35184277",
+      "35176138",
+      "37486829",
+      "38171931",
+      "36734596",
+      "34999771",
+      "38935070",
+      "34864884",
+      "37898127",
+      "36168811",
+      "38744843",
+      "36631401",
+      "35715748",
+      "38581422",
+      "38976751",
+      "29879919",
+      "35316190",
+      "38217125",
+      "39401117",
+      "38032470",
+      "30051742",
+      "38342857",
+      "37740957",
+      "39266676",
+      "37233193",
+      "37016281",
+      "36070863",
+      "38568766",
+      "35302164",
+      "37387180",
+      "38260386",
+      "39060167",
+      "34962260",
+      "31243426",
+      "35050715",
+      "35171981",
+      "38866896",
+      "38317025",
+      "38000911",
+      "34623390",
+      "37769630",
+      "38996550",
+      "30779739",
+      "38950719",
+      "37584660",
+      "37354494",
+      "35451460",
+      "38879931",
+      "39230705",
+      "39255084",
+      "37948464",
+      "36526433",
+      "34999761",
+      "37313714",
+      "36303726",
+      "36768917",
+      "34844559",
+      "34986805",
+      "36567258",
+      "33307360",
+      "34301623",
+      "39387266",
+      "38113416",
+      "37889053",
+      "37012448",
+      "39426072",
+      "39401181",
+      "38274364",
+      "39425176",
+      "39418829",
+      "39423493",
+      "39236555",
+      "36508663",
+      "39404807",
+      "38049725",
+      "38014256",
+      "39005295",
+      "39396189",
+      "37996959",
+      "39392732",
+      "39005431",
+      "39168402",
+      "38187622"
+    ],
+    "review": [
+      "37985457",
+      "38032470"
+    ],
+    "pmc": [
+      "10661972"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37985457/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37985457",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37985457",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad414",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

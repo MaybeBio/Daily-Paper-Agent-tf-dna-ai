@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36056063",
+  "title": "Machine learning and bioinformatics to identify 8 autophagy-related biomarkers and construct gene regulatory networks in dilated cardiomyopathy.",
+  "authors": "Zhang, Fengjun; Xia, Mingyue; Jiang, Jiarong; Wang, Shuai; Zhao, Qiong; Yu, Cheng; Yu, Jinzhen; Xian, Dexian; Li, Xiao; Zhang, Lin; Liu, Yuan; Peng, Min",
+  "journal": "Scientific reports",
+  "published_date": "2022-09-03",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习筛选扩张型心肌病自噬相关生物标志物并构建转录因子调控网络，但核心是疾病标志物而非蛋白质-DNA互作机制，无AI/物理模拟建模，仅边缘相关。",
+  "abstract": "Dilated cardiomyopathy (DCM) is a condition of impaired ventricular remodeling and systolic diastole that is often complicated by arrhythmias and heart failure with a poor prognosis. This study attempted to identify autophagy-related genes (ARGs) with diagnostic biomarkers of DCM using machine learning and bioinformatics approaches. Differential analysis of whole gene microarray data of DCM from the Gene Expression Omnibus (GEO) database was performed using the NetworkAnalyst 3.0 platform. Differentially expressed genes (DEGs) matching (|log2FoldChange >/= 0.8, p value &lt; 0.05|) were obtained in the GSE4172 dataset by merging ARGs from the autophagy gene libraries, HADb and HAMdb, to obtain autophagy-related differentially expressed genes (AR-DEGs) in DCM. The correlation analysis of AR-DEGs and their visualization were performed using R language. Gene Ontology (GO) enrichment analysis and combined multi-database pathway analysis were served by the Enrichr online enrichment analysis platform. We used machine learning to screen the diagnostic biomarkers of DCM. The transcription factors gene regulatory network was constructed by the JASPAR database of the NetworkAnalyst 3.0 platform. We also used the drug Signatures database (DSigDB) drug database of the Enrichr platform to screen the gene target drugs for DCM. Finally, we used the DisGeNET database to analyze the comorbidities associated with DCM. In the present study, we identified 23 AR-DEGs of DCM. Eight (PLEKHF1, HSPG2, HSF1, TRIM65, DICER1, VDAC1, BAD, TFEB) molecular markers of DCM were obtained by two machine learning algorithms. Transcription factors gene regulatory network was established. Finally, 10 gene-targeted drugs and complications for DCM were identified.",
+  "abstract_zh": "扩张型心肌病（Dilated cardiomyopathy, DCM）是一种心室重构和收缩舒张功能受损的疾病，常并发心律失常和心力衰竭，预后较差。本研究旨在利用机器学习和生物信息学方法，识别具有DCM诊断生物标志物的自噬相关基因（autophagy-related genes, ARGs）。通过NetworkAnalyst 3.0平台，对来自基因表达综合数据库（Gene Expression Omnibus, GEO）的DCM全基因微阵列数据进行差异分析。在GSE4172数据集中，通过将自噬基因库HADb和HAMdb中的ARGs合并，获得与DCM相关的自噬差异表达基因（autophagy-related differentially expressed genes, AR-DEGs），并筛选出符合（|log2FoldChange ≥ 0.8，p值 < 0.05|）的差异表达基因（differentially expressed genes, DEGs）。使用R语言进行AR-DEGs的相关性分析及其可视化。基因本体论（Gene Ontology, GO）富集分析和多数据库联合通路分析由Enrichr在线富集分析平台提供。我们利用机器学习筛选DCM的诊断生物标志物。通过NetworkAnalyst 3.0平台的JASPAR数据库构建转录因子基因调控网络。同时，使用Enrichr平台的药物签名数据库（drug Signatures database, DSigDB）筛选DCM的基因靶向药物。最后，利用DisGeNET数据库分析DCM相关的共病情况。在本研究中，我们识别出23个DCM的AR-DEGs。通过两种机器学习算法，获得了8个DCM分子标志物（PLEKHF1、HSPG2、HSF1、TRIM65、DICER1、VDAC1、BAD、TFEB）。建立了转录因子基因调控网络。最终，确定了10种基因靶向药物和DCM的并发症。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36056063/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36056063/",
+  "paper_page_path": "papers/pubmed/36056063/index.html"
+}

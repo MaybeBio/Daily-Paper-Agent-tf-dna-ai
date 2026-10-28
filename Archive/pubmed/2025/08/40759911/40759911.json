@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "40759911",
+    "doi": "10.1186/s12859-025-06224-y",
+    "title": "GenomicLayers: sequence-based simulation of epi-genomes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cellular development and differentiation in Eukaryotes depends upon sequential gene regulatory decisions that allow a single genome to encode many hundreds of distinct cellular phenotypes. Decisions are stored in the regulatory state of each cell, an important part of which is the epi-genome-the collection of proteins, RNA and their specific associations with the genome. Additionally, further cellular responses are, in part, determined by this regulatory state. To date, models of regulatory state have failed to include the contingency of incoming regulatory signals on the current epi-genetic state and none have done so at the whole-genome level. RESULTS: Here we introduce GenomicLayers, a new R package to run rules-based simulations of epigenetic state changes genome-wide in Eukaryotes. Simulations model the accumulation of changes to genome-wide layers by user-specified binding factors. As a first exemplar, we show two versions of a simple model of the recruitment and spreading of epigenetic marks near telomeres in the yeast Saccharomyces cerevisiae. By combining the output from 100 runs of the simulation, we generate whole genome predictions of epigenetic state at 1 bp resolution. The example yeast models are included within a 'vignette' with the GenomicLayers package, which is available at https://github.com/davetgerrard/GenomicLayers . To demonstrate the use of GenomicLayers on the full human reference genome (hg38), we show the results from parameter refinement on a simplistic model of the action of pluripotency factors against a self-spreading repressor seeded at CpG islands. The human genome model is included in supplementary information as an R script. CONCLUSIONS: GenomicLayers enables scientists working on diverse eukaryotic organisms to test models of gene regulation in silico. Applications include epigenetic silencing, activation by combinatorial binding of transcription factors and the sink effects caused by down-regulation of components of epigenetic regulators. The software is intended to be used to parameterise, refine and combine models and thereby capitalise on data from the thousands of studies of Eukaryotic epigenomes.",
+    "keywords": [
+      "Development",
+      "Epigenome",
+      "Genome",
+      "R",
+      "Simulation"
+    ],
+    "mesh_terms": [
+      "*Software",
+      "Saccharomyces cerevisiae/genetics",
+      "*Epigenesis, Genetic",
+      "*Genomics/methods",
+      "Computer Simulation",
+      "*Epigenomics/methods",
+      "Telomere/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gerrard, Dave T"
+      ],
+      "short_names": [
+        "Gerrard DT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine & Health, The University of Manchester, Stopford Building, Oxford Road, Manchester, M13 9PT, UK. dave.gerrard@manchester.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gerrard, Dave T",
+        "short_name": "Gerrard DT",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine & Health, The University of Manchester, Stopford Building, Oxford Road, Manchester, M13 9PT, UK. dave.gerrard@manchester.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2025 Aug 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/05 00:30",
+    "fetched_at": "2026-09-30 23:21:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35861233",
+      "35388217",
+      "35145080",
+      "35134826",
+      "33827924",
+      "32764605",
+      "32211857",
+      "30762521",
+      "29276005",
+      "29160132",
+      "28804139",
+      "28706074",
+      "27614255",
+      "26883003",
+      "26004630",
+      "25693563",
+      "25192661",
+      "24688731",
+      "24630727",
+      "24520114",
+      "24145198",
+      "23950696",
+      "23754747",
+      "23531360",
+      "22207353",
+      "21438682",
+      "20944598",
+      "19617889",
+      "19424429",
+      "12676793",
+      "12410229",
+      "12379856",
+      "10871358",
+      "9048479",
+      "2237406",
+      "2068097"
+    ],
+    "similar": [
+      "40759911",
+      "28083869",
+      "29907088",
+      "37294468",
+      "21901086",
+      "28605501",
+      "17559301",
+      "32003784",
+      "17363977",
+      "31138115",
+      "40662795",
+      "23077526",
+      "20421933",
+      "35786716",
+      "20457755",
+      "30086146",
+      "31602606",
+      "35451453",
+      "35695574",
+      "36576005",
+      "28100166",
+      "32471342",
+      "36582986",
+      "29579179",
+      "36941541",
+      "29761458",
+      "40346707",
+      "32199819",
+      "20363730",
+      "38449289",
+      "35856716",
+      "27863955",
+      "25536038",
+      "34058751",
+      "38832465",
+      "28222791",
+      "28838933",
+      "28056787",
+      "18287625",
+      "30577750",
+      "27091612",
+      "25830651",
+      "29360936",
+      "28410574",
+      "40221401",
+      "32727919",
+      "37142951",
+      "25268582",
+      "20074297",
+      "24074860",
+      "25823445",
+      "29438498",
+      "32469861",
+      "31985403",
+      "26091484",
+      "35191481",
+      "24271395",
+      "19179643",
+      "15034148",
+      "29566144",
+      "24607280",
+      "30877183",
+      "11850776",
+      "24227674",
+      "23124068",
+      "15608217",
+      "15262804",
+      "35188184",
+      "34326396",
+      "33381816",
+      "41042522",
+      "25928765",
+      "10068694",
+      "26649755",
+      "31960374",
+      "34672337",
+      "37158367",
+      "24472558",
+      "22689388",
+      "25537884",
+      "22430798",
+      "23028365",
+      "39498488",
+      "26497311",
+      "27556805",
+      "30760384",
+      "21501495",
+      "33001599",
+      "38951027",
+      "29484035",
+      "38055833",
+      "36321557",
+      "19208250",
+      "29668840",
+      "37068644",
+      "41365655",
+      "23068444",
+      "40748712",
+      "32631327",
+      "29028265"
+    ],
+    "review": [
+      "40759911",
+      "37294468",
+      "21901086",
+      "17363977",
+      "20457755",
+      "32199819",
+      "24074860",
+      "30877183",
+      "11850776",
+      "26649755",
+      "30760384",
+      "33001599"
+    ],
+    "pmc": [
+      "12323044"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06224-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40759911/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

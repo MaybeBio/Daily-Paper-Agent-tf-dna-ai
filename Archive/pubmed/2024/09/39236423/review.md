@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of expression quantitative trait loci (eQTL) for B cell receptor (BCR) signaling pathway genes using a mixed model applied to RNA expression data from lymphoblastoid cell lines of 376 European individuals in the GEUVADIS dataset. They report 266 associated SNPs, including 115 cis-acting SNPs, for 13 genes at P < 5 x 10(-8), with 19 independent signals for five genes. Functional annotation using DNase sensitivity, transcription factor binding sites, histone modification, promoters/enhancers, CpG islands, and ChIA-PET identified regulatory variants for SYK, VAV2, and PLCG2. Specific variants (rs2562397 for SYK; rs694505, rs636667, rs4889409 for VAV2 and PLCG2) were validated as promoter or enhancer variants, with allelic expression differences confirmed via ENCODE ChIP-seq and Sei neural network predictions. The authors suggest persistent allele-dependent differential expression may impact adaptive immunity, vascular development, and related diseases.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full methods for the mixed model, quality control procedures, multiple testing correction details, linkage disequilibrium analysis parameters, functional annotation pipeline specifics, validation criteria for promoter/enhancer assignments, and any statistical measures of effect sizes or confidence intervals
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful eQTL analysis of BCR signaling pathway genes, but the evidence base is too limited to evaluate the technical soundness of the mixed model approach, the robustness of the association findings, or the validity of the functional annotations. The claims of regulatory variant identification and allelic expression differences require detailed methodological transparency and supporting data that are not visible in the abstract. The biological interpretation linking eQTL to disease is speculative and not supported by direct evidence in the provided material.
+- **Who would be interested in the results, and why** Researchers studying genetic regulation of immune signaling pathways, particularly those focused on B cell biology, eQTL methodology, and functional genomics of autoimmune or hematological diseases. The work may also interest computational biologists developing mixed model approaches for expression trait mapping.
+- **Major strengths** The study addresses a relevant biological question regarding genetic control of BCR signaling. The use of a mixed model for eQTL analysis is a reasonable methodological choice for population structure correction. The integration of multiple functional annotation layers (DNase, TF binding, histone marks, ChIA-PET) is a commendable approach to prioritize regulatory variants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim identification of 266 SNPs, including 115 cis-acting SNPs, associated with transcription of 13 genes at P < 5 x 10(-8) using a mixed model.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the specific mixed model formulation, how population structure and relatedness were modeled, what covariates were included, or how the significance threshold was determined. Without these details, the validity of the association calls cannot be assessed. The threshold P < 5 x 10(-8) is typical for GWAS but may be inappropriate for eQTL studies with fewer tests, or overly lenient if many SNPs were tested.
+  - **Why it matters** eQTL results are highly sensitive to model specification, quality control, and multiple testing correction. If the model is misspecified or the threshold is miscalibrated, the reported associations may include false positives or miss true signals, undermining all downstream functional claims.
+  - **Resolution test** Provide full methods for the mixed model, including the software used, kinship or relatedness matrix estimation, covariate adjustment, and the number of tests performed. Demonstrate that the significance threshold is appropriate for the testing framework and that results are robust to alternative model specifications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that rs2562397 was validated as a SYK promoter variant and rs694505, rs636667, and rs4889409 were confirmed as enhancer variants for VAV2 and PLCG2, with allelic differences confirmed using ENCODE ChIP-seq and Sei neural network prediction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what "validated" and "confirmed" mean in this context. It is unclear whether these variants were experimentally validated (e.g., reporter assays, CRISPR perturbation) or only computationally predicted. The use of ENCODE ChIP-seq and Sei neural network predictions constitutes in silico evidence, not functional validation. The distinction is critical for interpreting the strength of the claims.
+  - **Why it matters** Computational predictions of regulatory function are hypothesis-generating, not confirmatory. If the authors present these as validated regulatory variants without experimental evidence, the claims overstate the certainty of the findings and could mislead readers about the functional relevance of the variants.
+  - **Resolution test** Clarify the validation approach. If only computational, revise the language to indicate prediction rather than validation. If experimental validation was performed, provide details of the assays and results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors state that persistent differential expression of these genes by alleles might impact the adaptive immune system, vascular development, and/or relevant diseases previously associated with other variants of the genes.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This interpretation is speculative and not directly supported by the eQTL data presented. The link between allele-dependent expression differences and disease outcomes is inferred from prior associations of other variants in the same genes, which does not establish a causal relationship for the specific variants identified here.
+  - **Why it matters** Overinterpretation of eQTL findings as disease-relevant without functional or epidemiological evidence can mislead readers and overstate the translational significance of the work.
+  - **Resolution test** Either temper the language to clearly indicate hypothesis generation, or provide additional evidence (e.g., colocalization with GWAS signals, Mendelian randomization, or functional experiments) linking the identified variants to disease phenotypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Sample description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "lymphoblastoid from 376 Europeans" which is incomplete phrasing. It should specify lymphoblastoid cell lines or lymphoblastoid cells.
+  - **Required correction** Revise to "lymphoblastoid cell lines from 376 European individuals."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Gene count
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports 266 SNPs associated with transcription of 13 genes, but it is unclear whether these 13 genes represent all BCR pathway genes tested or only those with significant associations. The total number of genes analyzed is not stated.
+  - **Required correction** Specify the total number of BCR signaling pathway genes included in the analysis and clarify whether the 13 genes are a subset of significant findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software and data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of software versions, analysis scripts, or data availability for the mixed model and functional annotation steps.
+  - **Required correction** Include a data and code availability statement in the full manuscript, and reference specific software tools and versions in the methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Effect sizes
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports only P values and SNP counts, with no effect sizes, standard errors, or confidence intervals for the eQTL associations.
+  - **Required correction** Report effect sizes (e.g., beta coefficients) and confidence intervals for the key associations in the full manuscript, and consider including them in the abstract if space permits.
+
+## Risk / unsupported claims
+- The claim that 266 SNPs are associated with transcription of 13 genes is not assessable without details on the mixed model, quality control, and multiple testing correction.
+- The claim that rs2562397 is a validated SYK promoter variant is unsupported as stated, because the abstract does not distinguish computational prediction from experimental validation.
+- The claim that rs694505, rs636667, and rs4889409 are confirmed enhancer variants for VAV2 and PLCG2 is unsupported without evidence of functional validation or clear criteria for confirmation.
+- The claim that allelic differences in gene expression were confirmed using ENCODE ChIP-seq and Sei neural network prediction is overstated, as these are computational tools, not direct measurements of allelic expression.
+- The biological interpretation linking persistent differential expression to adaptive immunity, vascular development, and disease is speculative and not directly supported by the presented data.
+- The overall significance of the findings for precision medicine is not established from the abstract alone.

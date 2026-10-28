@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "39735654",
+    "doi": "10.1177/11779322241249562",
+    "title": "Advancing Regulatory Genomics With Machine Learning."
+  },
+  "content": {
+    "abstract": "In recent years, several machine learning (ML) approaches have been proposed to predict gene expression signal and chromatin features from the DNA sequence alone. These models are often used to deduce and, to some extent, assess putative new biological insights about gene regulation, and they have led to very interesting advances in regulatory genomics. This article reviews a selection of these methods, ranging from linear models to random forests, kernel methods, and more advanced deep learning models. Specifically, we detail the different techniques and strategies that can be used to extract new gene-regulation hypotheses from these models. Furthermore, because these putative insights need to be validated with wet-lab experiments, we emphasize that it is important to have a measure of confidence associated with the extracted hypotheses. We review the procedures that have been proposed to measure this confidence for the different types of ML models, and we discuss the fact that they do not provide the same kind of information.",
+    "keywords": [
+      "Regulatory genomics",
+      "deep learning",
+      "gene expression",
+      "machine learning",
+      "model interpretation",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brehelin, Laurent"
+      ],
+      "short_names": [
+        "Brehelin L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bréhélin, Laurent",
+        "short_name": "Bréhélin L",
+        "identifiers": [],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics and biology insights"
+    ],
+    "journal_abbrev": [
+      "Bioinform Biol Insights"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/30 06:18",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42353882"
+    ],
+    "refs": [
+      "38987807",
+      "38036790",
+      "38036778",
+      "37982008",
+      "37324054",
+      "36973806",
+      "35769139",
+      "35603010",
+      "34608324",
+      "34335110",
+      "34020542",
+      "33983921",
+      "33861755",
+      "33796819",
+      "33760053",
+      "33692825",
+      "33603233",
+      "33134611",
+      "32905524",
+      "32433972",
+      "31856220",
+      "31701148",
+      "31619572",
+      "30971806",
+      "30709337",
+      "30013180",
+      "29588361",
+      "29510689",
+      "29140464",
+      "29022597",
+      "27899670",
+      "27896980",
+      "27084946",
+      "26642241",
+      "26301843",
+      "26213851",
+      "25693563",
+      "25240437",
+      "25033408",
+      "24670763",
+      "23715323",
+      "22955616",
+      "21875935",
+      "21576262",
+      "20808728",
+      "19865164",
+      "17324271",
+      "15499007",
+      "15131651",
+      "7584402",
+      "3525846",
+      "2179676"
+    ],
+    "similar": [
+      "39735654",
+      "42475469",
+      "41310253",
+      "23912807",
+      "26818008",
+      "40914877",
+      "35652477",
+      "38956008",
+      "32847102",
+      "36321557",
+      "30971806",
+      "41920894",
+      "29855387",
+      "15890068",
+      "38594933",
+      "36807077",
+      "36462664",
+      "33036834",
+      "42491247",
+      "15262804",
+      "39708837",
+      "22456606",
+      "33874910",
+      "41596454",
+      "34549716",
+      "30423062",
+      "34020542",
+      "35396274",
+      "27474269",
+      "30967126",
+      "38730006",
+      "32936825",
+      "42140663",
+      "30939415",
+      "28750606",
+      "40702706",
+      "41986002",
+      "27490187",
+      "36999047",
+      "41957161",
+      "36222139",
+      "41022589",
+      "9193109",
+      "37528982",
+      "38354497",
+      "35666736",
+      "40881170",
+      "17328811",
+      "34179082",
+      "35659533",
+      "39090688",
+      "26499213",
+      "36510125",
+      "36640453",
+      "34571539",
+      "36466610",
+      "33074101",
+      "34486522",
+      "34786308",
+      "28540688",
+      "30044963",
+      "32661261",
+      "37214836",
+      "40399818",
+      "41768279",
+      "39696434",
+      "32029002",
+      "38397134",
+      "42611956",
+      "41420926",
+      "34664074",
+      "38715516",
+      "42509369",
+      "37402191",
+      "27842491",
+      "41053612",
+      "31776829",
+      "39871351",
+      "40220943",
+      "30853548",
+      "38362268",
+      "33154517",
+      "22947103",
+      "39660643",
+      "19008939",
+      "41659440",
+      "34589181",
+      "32214348",
+      "33832990",
+      "41022923",
+      "41608988",
+      "39966813",
+      "41675657",
+      "38796034",
+      "37131927",
+      "39789848",
+      "40360798",
+      "29081688",
+      "29579165",
+      "39666835"
+    ],
+    "review": [
+      "39735654",
+      "35652477",
+      "38956008",
+      "36321557",
+      "30971806",
+      "38594933",
+      "42491247",
+      "39708837",
+      "41596454",
+      "34020542",
+      "27474269",
+      "38730006",
+      "41986002",
+      "9193109",
+      "40881170",
+      "34179082",
+      "35659533",
+      "26499213",
+      "36640453",
+      "36466610",
+      "28540688",
+      "30044963",
+      "41768279",
+      "42611956",
+      "41420926",
+      "38715516",
+      "42509369",
+      "40220943",
+      "34589181",
+      "37131927",
+      "40360798",
+      "29081688",
+      "29579165"
+    ],
+    "pmc": [
+      "11672376"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/11779322241249562?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39735654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

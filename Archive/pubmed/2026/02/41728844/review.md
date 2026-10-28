@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a direct interaction between irinotecan (IRT) and hnRNPA2B1, measured by Quartz Crystal Microbalance (QCM) with an apparent binding constant K(D_QCM) of (15 +/- 1) x 10(-3), comparable to that of camptothecin (17 +/- 2) x 10(-3). Computational docking and molecular dynamics simulations indicate stable binding to the RNA recognition domain (RRM) with a binding free energy of -10.36 kcal.mol(-1). The authors suggest IRT may inhibit hnRNPA2B1, contributing to anticancer activity beyond topoisomerase 1 inhibition.
+- **Visible evidence base** Abstract text only; no experimental details, computational methods, error analysis, or validation data provided
+- **Missing materials affecting confidence** Full methods, QCM experimental protocol and raw data, docking and MD simulation parameters, convergence criteria, statistical analysis, structural figures, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding of a novel interaction between an established anticancer drug and a cancer-associated RNA-binding protein. However, the evidence as presented is insufficient to establish the core claims. The binding constant values are reported without units that are physically interpretable for a dissociation constant, the computational free energy is presented without error estimates or validation, and the functional claim of inhibition is speculative without direct experimental support. The work may be of interest to the drug repurposing and RNA-binding protein communities, but the current abstract does not provide enough detail to assess technical soundness.
+- **Who would be interested in the results, and why** Researchers in drug repurposing, cancer biology, and RNA-binding protein pharmacology would be interested. The suggestion that irinotecan has a second target beyond topoisomerase 1 could have implications for understanding its mechanism of action and for designing combination therapies. Computational chemists studying protein-ligand interactions may also find the methodological comparison relevant.
+- **Major strengths** The combination of experimental (QCM) and computational (docking and MD) approaches is appropriate for studying a putative protein-ligand interaction. The inclusion of a reference ligand (camptothecin) provides a comparative benchmark. The identification of a specific binding domain (RRM) adds structural specificity to the claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The apparent binding constant K(D_QCM) of (15 +/- 1) x 10(-3) for IRT and (17 +/- 2) x 10(-3) for camptothecin is reported as comparable.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The reported K(D_QCM) values are dimensionless numbers (15 x 10(-3) and 17 x 10(-3)) without units. A dissociation constant (Kd) must have concentration units (e.g., M, mM, uM). If these are intended as dimensionless fractions or normalized values, the physical meaning is unclear. If they are Kd values, the units are missing, making the comparison and interpretation impossible.
+  - **Why it matters** The central experimental claim of binding affinity rests on these values. Without proper units, the reader cannot assess whether the binding is physiologically relevant, whether the comparison to camptothecin is meaningful, or whether the QCM measurement was correctly interpreted.
+  - **Resolution test** Provide the Kd values with explicit units and describe the QCM data fitting model. State whether the values are equilibrium dissociation constants or apparent constants derived from a specific model, and clarify the error propagation method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Molecular docking and MD simulations demonstrated stable binding of IRT to the RRM of hnRNPA2B1, yielding a binding free energy DeltaG of -10.36 kcal.mol(-1).
+  - **Evidence pointer** Abstract, computational analysis section (location not provided)
+  - **Concern** The binding free energy is reported as a single value without an error estimate, ensemble average, or convergence assessment. MD-derived free energies (e.g., MM-PBSA or MM-GBSA) typically have uncertainties of 1 to 3 kcal/mol, and a single value without standard deviation or confidence interval is not interpretable. No information is given on the simulation length, force field, water model, or number of replicates.
+  - **Why it matters** The computational claim of stable binding is a key pillar of the study. Without error estimates and methodological details, the reader cannot judge whether the reported value is robust or whether the binding is actually favorable within statistical uncertainty.
+  - **Resolution test** Report the mean and standard deviation of the binding free energy from multiple independent simulations or multiple frames. Provide simulation length, force field parameters, and convergence criteria. If possible, include a comparison with a known negative control ligand.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** These findings suggest that IRT may exert an inhibitory effect on hnRNPA2B1, potentially contributing to its anticancer activity beyond topoisomerase 1 inhibition.
+  - **Evidence pointer** Abstract, conclusion section (location not provided)
+  - **Concern** The abstract reports binding affinity and computational binding stability but provides no direct experimental evidence of inhibition. No functional assay (e.g., RNA binding competition, cellular activity, or enzymatic inhibition) is described. The leap from binding to inhibition is not supported by the presented data.
+  - **Why it matters** The title and conclusion imply a functional consequence, but the evidence only supports a physical interaction. Overstating the functional implication could mislead readers and overstate the significance of the finding.
+  - **Resolution test** Either add functional data (e.g., an RNA electrophoretic mobility shift assay or a cellular reporter assay) or temper the conclusion to state that binding was observed and that the functional consequence remains to be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract, first results sentence (location not provided)
+  - **Issue** The phrase "apparent binding constant K(D_QCM)" is used twice with different values for IRT and camptothecin, but the subscript notation is inconsistent and the term "apparent" is not defined.
+  - **Required correction** Define "apparent" in the context of the QCM measurement and use consistent notation throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, computational methods
+  - **Evidence pointer** Abstract, computational analysis section (location not provided)
+  - **Issue** The abstract does not specify which computational method was used to calculate the binding free energy (e.g., MM-PBSA, MM-GBSA, or thermodynamic integration).
+  - **Required correction** State the method used for free energy calculation in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract, background
+  - **Evidence pointer** Abstract, first sentence (location not provided)
+  - **Issue** The abstract assumes the reader knows what hnRNPA2B1 is and why it is relevant to cancer progression without providing a brief functional context.
+  - **Required correction** Add one sentence describing the known role of hnRNPA2B1 in cancer to make the abstract accessible to a broader readership.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing units for Kd), R1-M2 (missing error estimates and methodological detail for computational free energy), R1-M3 (unsupported functional claim)
+- **Assessment against Nature-style criteria** Originality: The finding of a potential secondary target for irinotecan is moderately original, but the concept of drug repurposing and off-target identification is not new. Scientific importance: Potentially relevant to cancer therapy, but the significance is not established without functional evidence. Interdisciplinary readership: The topic bridges chemistry, biology, and computational science, which could appeal to a broad audience if properly presented. Technical soundness: Not assessable from the abstract due to missing units, error estimates, and methodological details. Readability for nonspecialists: The abstract is concise but assumes background knowledge; the missing units and undefined terms reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the technical detail and functional validation needed to support the claims. I would be supportive if the full manuscript addresses the missing units, provides robust error analysis for the computational results, and either adds functional inhibition data or tempers the conclusion.
+
+## Risk / unsupported claims
+- The claim that IRT "may exert an inhibitory effect" on hnRNPA2B1 is unsupported by the abstract, as no functional data are presented.
+- The comparability of the two K(D_QCM) values is not assessable because the units are missing.
+- The binding free energy of -10.36 kcal.mol(-1) is presented without error estimates, making its reliability unassessable.
+- The statement that hnRNPA2B1 is "implicated in the progression of different kinds of cancers" is a general claim without citation or specific evidence in the abstract.

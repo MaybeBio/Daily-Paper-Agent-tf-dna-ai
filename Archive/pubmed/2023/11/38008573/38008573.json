@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "38008573",
+    "doi": "10.3760/cma.j.cn112150-20221111-01099",
+    "title": "[Evaluation of the application value of seven tumor-associated autoantibodies in non-small cell lung cancer based on machine learning algorithms]."
+  },
+  "content": {
+    "abstract": "Objective: Based on the diagnostic model established and validated by the machine learning algorithm, to investigate the value of seven tumor-associated autoantibodies (TAABs), namely anti-p53, PGP9.5, SOX2, GAGE7, GBU4-5, MAGEA1 and CAGE antibodies in the diagnosis of non-small cell lung cancer (NSCLC) and to differentiate between NSCLC and benign lung nodules. Methods: This was a retrospective study of clinical cases. Model building queue: a total of 227 primary patients who underwent radical lung cancer surgery in the Department of Thoracic Surgery, Shengjing Hospital of China Medical University, from November 2018 to June 2021 were collected as the NSCLC group, and 120 cases of benign lung nodules, 122 cases of pneumonia and 120 healthy individuals were selected as the control groups. External validation queue: a total of 100 primary patients who underwent radical lung cancer surgery in the Department of Thoracic Surgery, Shengjing Hospital of China Medical University, from May 2022 to December 2022 were collected as the NSCLC group, and 36 cases of benign lung nodules, 32 cases of pneumonia and 44 healthy individuals were selected as the control groups. In addition, NSCLC was divided into early (stage 0-ⅠB) and mid-to-late (stage ⅡA-ⅢB) subgroups. The levels of 7-TAABs were detected by enzyme immunoassay, and serum concentrations of CEA and CYFRA21-1 were detected by electrochemiluminescence. Four machine learning algorithms, XGBoost, Lasso logistic regression, Naive Bayes, and Support Vector Machine are used to establish classification models. And the best performance model was chosen based on evaluation metrics and a multi-indicator combination model was established. In addition, an online risk evaluation tool was generated to assist clinical applications. Results: Except for p53, the levels of rest six TAABs, CEA and CYFRA21-1 were significantly higher in the NSCLC group (P<0.05). Serum levels of anti-SOX2 [1.50 (0.60, 10.85) U/ml vs. 0.8 (0.20, 2.10) U/ml, Z=2.630, P<0.05] and MAGEA1 antibodies [0.20 (0.10, 0.43) U/ml vs. 0.10 (0.10, 0.20) U/ml, Z=2.289, P<0.05], CEA [3.13 (2.12, 5.64) ng/ml vs. 2.11 (1.25, 3.09) ng/ml, Z=3.970, P<0.05] and CYFRA21-1 [4.31(2.37, 7.14) ng/ml vs. 2.53(1.92, 3.48) ng/ml, Z=3.959, P<0.05] were significantly higher in patients with mid-to late-stage NSCLC than in early stages. XGBoost model was used to establish a multi-indicator combined detection model (after removing p53). 6-TAABs combined with CYFRA21-1 was the best combination model for the diagnosis of NSCLC and early NSCLC. The optimal diagnostic thresholds were 0.410, 0.701 and 0.744, and the AUC was 0.828, 0.757 and 0.741, respectively (NSCLC vs. control, NSCLC vs. benign lung nodules, early NSCLC vs. benign lung nodules) in model building queue, and the AUC was 0.760, 0.710 and 0.660, respectively (NSCLC vs. control, NSCLC vs. benign lung nodules, early NSCLC vs. benign lung nodules) in external validation queue. Conclusion: In the diagnosis of NSCLC, 6-TAABs is superior to that of traditional tumor markers CEA and CYFRA21-1, and can compensate for the shortcomings of traditional tumor markers. For the differential diagnosis of NSCLC and benign lung nodule, \"6-TAABs+CYFRA21-1\" is the most cost-effective combination, and plays an important role in prevention and screening for early lung cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/diagnosis/pathology/surgery",
+      "*Lung Neoplasms/diagnosis",
+      "Retrospective Studies",
+      "Autoantibodies",
+      "Bayes Theorem",
+      "Tumor Suppressor Protein p53",
+      "Carcinoembryonic Antigen",
+      "Antigens, Neoplasm",
+      "Biomarkers, Tumor",
+      "Algorithms",
+      "*Pneumonia",
+      "Keratin-19"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Y",
+        "Wu, L N",
+        "Lyu, Y T",
+        "Liu, Y Z",
+        "Qin, X S",
+        "Zheng, R"
+      ],
+      "short_names": [
+        "Hao Y",
+        "Wu LN",
+        "Lyu YT",
+        "Liu YZ",
+        "Qin XS",
+        "Zheng R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China.",
+        "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China.",
+        "Biological Sciences, City University of Hong Kong, Hong Kong 999077, China.",
+        "Pulmonary and Critical Care Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China.",
+        "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China.",
+        "Pulmonary and Critical Care Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Y",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, L N",
+        "short_name": "Wu LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Y T",
+        "short_name": "Lyu YT",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences, City University of Hong Kong, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Y Z",
+        "short_name": "Liu YZ",
+        "identifiers": [],
+        "affiliations": [
+          "Pulmonary and Critical Care Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China."
+        ]
+      },
+      {
+        "full_name": "Qin, X S",
+        "short_name": "Qin XS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China Liaoning Clinical Research Center for Laboratory Medicine, Shenyang 110000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, R",
+        "short_name": "Zheng R",
+        "identifiers": [],
+        "affiliations": [
+          "Pulmonary and Critical Care Medicine, Shengjing Hospital of China Medical University, Shenyang 110000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhonghua yu fang yi xue za zhi [Chinese journal of preventive medicine]"
+    ],
+    "journal_abbrev": [
+      "Zhonghua Yu Fang Yi Xue Za Zhi"
+    ],
+    "pub_date": "2023 Nov 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/27 00:43",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [
+      "41815158"
+    ],
+    "refs": [],
+    "similar": [
+      "38008573",
+      "34963239",
+      "34555232",
+      "35596744",
+      "39043046",
+      "26163610",
+      "38773432",
+      "38765082",
+      "22335951",
+      "38054473",
+      "17611117",
+      "39360656",
+      "25956656",
+      "29356386",
+      "22674301",
+      "33180443",
+      "37605590",
+      "27149479",
+      "26104892",
+      "28750095",
+      "26880855",
+      "30647803",
+      "35471981",
+      "25331391",
+      "37968078",
+      "32587591",
+      "29247745",
+      "25422226",
+      "34603482",
+      "26200270",
+      "31450913",
+      "30849967",
+      "28456790",
+      "26796649",
+      "35653624",
+      "28545454",
+      "36749237",
+      "36528251",
+      "39249157",
+      "32089756",
+      "30216488",
+      "36282321",
+      "30669764",
+      "29308305",
+      "21223692",
+      "26560853",
+      "37145062",
+      "17697728",
+      "19024326",
+      "34157802",
+      "33764713",
+      "38645446",
+      "36341686",
+      "37632966",
+      "26379938",
+      "38529301",
+      "32691153",
+      "35959801",
+      "34151844",
+      "36874112",
+      "29311420",
+      "20592392",
+      "28126538",
+      "25520076",
+      "35397524",
+      "39332854",
+      "32517459",
+      "33968062",
+      "25450285",
+      "21663860",
+      "29430184",
+      "26333429",
+      "35832243",
+      "21565138",
+      "27350753",
+      "34277058",
+      "32162867",
+      "15624359",
+      "28152979",
+      "35116511",
+      "31146974",
+      "36594104",
+      "12009236",
+      "33180422",
+      "24046070",
+      "18302890",
+      "35530343",
+      "18394347",
+      "36915755",
+      "15508787",
+      "32950635",
+      "34988182",
+      "29970696",
+      "38549716",
+      "34296781",
+      "39281372",
+      "20959068",
+      "8581396",
+      "38270088",
+      "34761718",
+      "38400801",
+      "31764214",
+      "36326305",
+      "37194408",
+      "27721249",
+      "30674390",
+      "23838141",
+      "38495760",
+      "24852868",
+      "31629809",
+      "21159246",
+      "37773123",
+      "22104668",
+      "21733826",
+      "22954172",
+      "37658862",
+      "34691202",
+      "36806719",
+      "33547948",
+      "39014163",
+      "36199771",
+      "38904626",
+      "39088983",
+      "30422669",
+      "31396403",
+      "36247849",
+      "36299704",
+      "38707478",
+      "17506794",
+      "39027487",
+      "32782622",
+      "38502292",
+      "38800369",
+      "29656111",
+      "38084245",
+      "38707910",
+      "38431566",
+      "22297547",
+      "35782072",
+      "38846326",
+      "37990399",
+      "37786508",
+      "28694742",
+      "38956551",
+      "38902493",
+      "34901134",
+      "37866126",
+      "38085828",
+      "39017954",
+      "37403334",
+      "36850744",
+      "36628560",
+      "29874986",
+      "38089873",
+      "37428988",
+      "39178857",
+      "38832344",
+      "38015536",
+      "38124086",
+      "38030063",
+      "38398122",
+      "37095081",
+      "39353277",
+      "39122762",
+      "38515358",
+      "33122336",
+      "37291189",
+      "35765059",
+      "37378867",
+      "39416627",
+      "38347558",
+      "35675338",
+      "31312384",
+      "38460724",
+      "23505559",
+      "38197091",
+      "33791593",
+      "39054150",
+      "32964000",
+      "36257825",
+      "36332502",
+      "37799460",
+      "38919748",
+      "33801002"
+    ],
+    "review": [
+      "38008573",
+      "28750095",
+      "26333429"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.yiigle.com/LinkIn.do?linkin_type=pubmed&DOI=10.3760/cma.j.cn112150-20221111-01099",
+        "provider": "Chinese Medical Association Publishing House Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pneumonia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pneumonia"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

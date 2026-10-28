@@ -1,0 +1,592 @@
+{
+  "identity": {
+    "pmid": "37216519",
+    "doi": "10.1073/pnas.2303480120",
+    "title": "Structure-function study of a Ca(2+)-independent metacaspase involved in lateral root emergence."
+  },
+  "content": {
+    "abstract": "Metacaspases are part of an evolutionarily broad family of multifunctional cysteine proteases, involved in disease and normal development. As the structure-function relationship of metacaspases remains poorly understood, we solved the X-ray crystal structure of an Arabidopsis thaliana type II metacaspase (AtMCA-IIf) belonging to a particular subgroup not requiring calcium ions for activation. To study metacaspase activity in plants, we developed an in vitro chemical screen to identify small molecule metacaspase inhibitors and found several hits with a minimal thioxodihydropyrimidine-dione structure, of which some are specific AtMCA-IIf inhibitors. We provide mechanistic insight into the basis of inhibition by the TDP-containing compounds through molecular docking onto the AtMCA-IIf crystal structure. Finally, a TDP-containing compound (TDP6) effectively hampered lateral root emergence in vivo, probably through inhibition of metacaspases specifically expressed in the endodermal cells overlying developing lateral root primordia. In the future, the small compound inhibitors and crystal structure of AtMCA-IIf can be used to study metacaspases in other species, such as important human pathogens, including those causing neglected diseases.",
+    "keywords": [
+      "AtMCA-IIf crystal structure",
+      "cysteine protease",
+      "lateral root development",
+      "metacaspase",
+      "small chemical inhibitor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Caspases/chemistry",
+      "Molecular Docking Simulation",
+      "Apoptosis",
+      "*Arabidopsis",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stael, Simon",
+        "Sabljic, Igor",
+        "Audenaert, Dominique",
+        "Andersson, Thilde",
+        "Tsiatsiani, Liana",
+        "Kumpf, Robert P",
+        "Vidal-Albalat, Andreu",
+        "Lindgren, Cecilia",
+        "Vercammen, Dominique",
+        "Jacques, Silke",
+        "Nguyen, Long",
+        "Njo, Maria",
+        "Fernandez-Fernandez, Alvaro D",
+        "Beunens, Tine",
+        "Timmerman, Evy",
+        "Gevaert, Kris",
+        "Van Montagu, Marc",
+        "Stahlberg, Jerry",
+        "Bozhkov, Peter V",
+        "Linusson, Anna",
+        "Beeckman, Tom",
+        "Van Breusegem, Frank"
+      ],
+      "short_names": [
+        "Stael S",
+        "Sabljic I",
+        "Audenaert D",
+        "Andersson T",
+        "Tsiatsiani L",
+        "Kumpf RP",
+        "Vidal-Albalat A",
+        "Lindgren C",
+        "Vercammen D",
+        "Jacques S",
+        "Nguyen L",
+        "Njo M",
+        "Fernandez-Fernandez AD",
+        "Beunens T",
+        "Timmerman E",
+        "Gevaert K",
+        "Van Montagu M",
+        "Stahlberg J",
+        "Bozhkov PV",
+        "Linusson A",
+        "Beeckman T",
+        "Van Breusegem F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8322-0428",
+        "ORCID: 0000-0001-9044-2678",
+        "ORCID: 0009-0003-7727-1968",
+        "ORCID: 0000-0003-1214-0329",
+        "ORCID: 0000-0002-4046-6935",
+        "ORCID: 0000-0002-7907-9318",
+        "ORCID: 0000-0002-5497-0438",
+        "ORCID: 0000-0003-4770-9757",
+        "ORCID: 0000-0002-4237-0283",
+        "ORCID: 0000-0003-4711-5131",
+        "ORCID: 0000-0003-4059-8580",
+        "ORCID: 0000-0002-8819-3884",
+        "ORCID: 0000-0003-0063-8912",
+        "ORCID: 0000-0002-3147-0860"
+      ],
+      "affiliations": [
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden.",
+        "VIB Screening Core, VIB, 9052 Ghent, Belgium.",
+        "Centre for Bioassay Development and Screening, Ghent University, 9000 Ghent, Belgium.",
+        "Department of Chemistry, Umea University, 90187 Umea, Sweden.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Chemistry, Umea University, 90187 Umea, Sweden.",
+        "Department of Chemistry, Umea University, 90187 Umea, Sweden.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "VIB Screening Core, VIB, 9052 Ghent, Belgium.",
+        "Centre for Bioassay Development and Screening, Ghent University, 9000 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Biomolecular Medicine, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Medical Biotechnology, VIB, 9052 Ghent, Belgium.",
+        "Department of Biomolecular Medicine, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Medical Biotechnology, VIB, 9052 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden.",
+        "Department of Chemistry, Umea University, 90187 Umea, Sweden.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+        "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stael, Simon",
+        "short_name": "Stael S",
+        "identifiers": [
+          "0000-0001-8322-0428"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium.",
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sabljić, Igor",
+        "short_name": "Sabljić I",
+        "identifiers": [
+          "0000-0001-9044-2678"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Audenaert, Dominique",
+        "short_name": "Audenaert D",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Screening Core, VIB, 9052 Ghent, Belgium.",
+          "Centre for Bioassay Development and Screening, Ghent University, 9000 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Andersson, Thilde",
+        "short_name": "Andersson T",
+        "identifiers": [
+          "0009-0003-7727-1968"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, 90187 Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Tsiatsiani, Liana",
+        "short_name": "Tsiatsiani L",
+        "identifiers": [
+          "0000-0003-1214-0329"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Kumpf, Robert P",
+        "short_name": "Kumpf RP",
+        "identifiers": [
+          "0000-0002-4046-6935"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Vidal-Albalat, Andreu",
+        "short_name": "Vidal-Albalat A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, 90187 Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lindgren, Cecilia",
+        "short_name": "Lindgren C",
+        "identifiers": [
+          "0000-0002-7907-9318"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, 90187 Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Vercammen, Dominique",
+        "short_name": "Vercammen D",
+        "identifiers": [
+          "0000-0002-5497-0438"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Jacques, Silke",
+        "short_name": "Jacques S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Long",
+        "short_name": "Nguyen L",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Screening Core, VIB, 9052 Ghent, Belgium.",
+          "Centre for Bioassay Development and Screening, Ghent University, 9000 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Njo, Maria",
+        "short_name": "Njo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Fernández-Fernández, Álvaro D",
+        "short_name": "Fernández-Fernández ÁD",
+        "identifiers": [
+          "0000-0003-4770-9757"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Beunens, Tine",
+        "short_name": "Beunens T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Timmerman, Evy",
+        "short_name": "Timmerman E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomolecular Medicine, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Medical Biotechnology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gevaert, Kris",
+        "short_name": "Gevaert K",
+        "identifiers": [
+          "0000-0002-4237-0283"
+        ],
+        "affiliations": [
+          "Department of Biomolecular Medicine, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Medical Biotechnology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Montagu, Marc",
+        "short_name": "Van Montagu M",
+        "identifiers": [
+          "0000-0003-4711-5131"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ståhlberg, Jerry",
+        "short_name": "Ståhlberg J",
+        "identifiers": [
+          "0000-0003-4059-8580"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Bozhkov, Peter V",
+        "short_name": "Bozhkov PV",
+        "identifiers": [
+          "0000-0002-8819-3884"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, 75007 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Linusson, Anna",
+        "short_name": "Linusson A",
+        "identifiers": [
+          "0000-0003-0063-8912"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, 90187 Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Beeckman, Tom",
+        "short_name": "Beeckman T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Breusegem, Frank",
+        "short_name": "Van Breusegem F",
+        "identifiers": [
+          "0000-0002-3147-0860"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium.",
+          "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 May 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/22 19:11",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42483934",
+      "42011563",
+      "40764672",
+      "40442124",
+      "37971931",
+      "37759555"
+    ],
+    "refs": [
+      "36339259",
+      "36209184",
+      "36131543",
+      "35264080",
+      "34566902",
+      "34214002",
+      "33686223",
+      "33685810",
+      "33057654",
+      "32719006",
+      "32382010",
+      "32202613",
+      "32142688",
+      "32032516",
+      "31956028",
+      "31953391",
+      "31454707",
+      "31362861",
+      "31327713",
+      "30921456",
+      "30898901",
+      "30875506",
+      "30176090",
+      "30024860",
+      "29982633",
+      "29145643",
+      "28932620",
+      "28750257",
+      "28643870",
+      "28234356",
+      "27891649",
+      "26883363",
+      "26872839",
+      "26787500",
+      "25630877",
+      "24855027",
+      "24786830",
+      "24408432",
+      "23964026",
+      "23834670",
+      "23579614",
+      "23412383",
+      "22761449",
+      "22658651",
+      "22529389",
+      "21799483",
+      "21597462",
+      "21494263",
+      "21395887",
+      "21209078",
+      "21097903",
+      "20624963",
+      "20200150",
+      "20179141",
+      "20167486",
+      "19876014",
+      "19794120",
+      "17110382",
+      "17065317",
+      "17028019",
+      "16785434",
+      "16785433",
+      "15326173",
+      "11835511",
+      "11090634",
+      "9006065",
+      "6035483"
+    ],
+    "similar": [
+      "37216519",
+      "37759555",
+      "17110382",
+      "15326173",
+      "15691845",
+      "23845786",
+      "24567106",
+      "35562978",
+      "17107676",
+      "26277721",
+      "30793051",
+      "21597462",
+      "36613753",
+      "36280347",
+      "17998208",
+      "30921456",
+      "36339259",
+      "37951047",
+      "22529389",
+      "24121807",
+      "22924162",
+      "21209078",
+      "32382010",
+      "23412383",
+      "20436999",
+      "23522353",
+      "21097903",
+      "39265363",
+      "28643870",
+      "31301397",
+      "22402587",
+      "35583778",
+      "28157265",
+      "25159848",
+      "26834715",
+      "23850889",
+      "22112449",
+      "28234356",
+      "24415839",
+      "17028019",
+      "36316540",
+      "23834670",
+      "30176090",
+      "33654845",
+      "37971931",
+      "22761449",
+      "29243818",
+      "29317266",
+      "21395887",
+      "25431419",
+      "26601383",
+      "35390704",
+      "31272898",
+      "33563831",
+      "34566902",
+      "12783227",
+      "29058102",
+      "28089596",
+      "34728367",
+      "29399733",
+      "16891103",
+      "27664707",
+      "34384491",
+      "30544979",
+      "19635746",
+      "32202613",
+      "30585394",
+      "28941233",
+      "21858231",
+      "18005666",
+      "25677381",
+      "34318487",
+      "22974309",
+      "19820703",
+      "31336941",
+      "33070379",
+      "33318019",
+      "24619997",
+      "33256228",
+      "31844687",
+      "18355456",
+      "21982825",
+      "11090634",
+      "37320971",
+      "22837984",
+      "27085600",
+      "31900062",
+      "28718794",
+      "17335919",
+      "31956028",
+      "28165668"
+    ],
+    "review": [
+      "37216519",
+      "35562978",
+      "26277721",
+      "21597462",
+      "36613753",
+      "30921456",
+      "28234356",
+      "25431419",
+      "35390704",
+      "19635746",
+      "18355456"
+    ],
+    "pmc": [
+      "10235996"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2303480120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37216519/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37216519",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

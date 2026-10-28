@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41270247",
+  "title": "Multimodal Artificial Intelligence Model From Baseline Histopathology Adds Prognostic Information for Distant Recurrence Assessment in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Early Breast Cancer.",
+  "authors": "Kates-Harbeck, Daniel; Kreipe, Hans; Gluz, Oleg; Christgen, Matthias; Kuemmel, Sherko; Graeser, Monika; Nitz, Ulrike; Mahner, Sven; Mayr, Doris; Wuerstlein, Rachel; Mitani, Akinori; Zhang, Jingbin; Pinckaers, Hans; Smit, Gijs; Ren, Yi; Joun, Songwan; Griffin, Jacqueline; Lin, Nancy; Feng, Felix; Esteva, Andre; Kates, Ronald; Harbeck, Nadia",
+  "journal": "JCO clinical cancer informatics",
+  "published_date": "2025-11-21",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用多模态AI基于组织病理图像预测乳腺癌远处复发，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "PURPOSE: Prognostic assessment in hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) early breast cancer (EBC) remains challenging, given relatively low rates of disease progression. Modern artificial intelligence (AI)-based techniques have provided advanced prognostic tools in cancer. PATIENTS AND METHODS: The Artera multimodal AI (MMAI) platform, using digital histopathology and clinical data, was applied to develop and test a prognostic risk assessment algorithm in HR+/HER2- EBC. Hematoxylin and eosin (H&E) slides from pretreatment breast biopsy and surgical specimens were digitized from the WSG PlanB and ADAPT trials. Patients with available images and complete data (n = 5,259) were stratified by trial, treatment, and distant metastasis (DM) into training (development: 60%) and internal validation (holdout: 40%) cohorts. The algorithm provided prognostic DM risk scores on the basis of image data and clinical variables (age, T and N stages, and tumor size). Univariable and multivariable Fine-Gray models were used to assess performance on the test cohort; subdistribution hazard ratios (sHR) are reported per standard deviation increase of the model scores. Prespecified prognostic subgroups for analysis were defined by nodal status, menopausal status, and tumor grade. RESULTS: The trained MMAI score was significantly associated with risk of DM in the test cohort (sHR, 2.3 [95% CI, 2.0 to 2.8]) as a whole and across subgroups. The score remained significant (sHR, 2.2 [95% CI, 1.7 to 2.8]) after adjusting for clinical prognostic factors. The MMAI image component alone had significant prognostic value (sHR, 1.6 [95% CI, 1.3 to 1.9]) in the test cohort; it also had significant prognostic value separately within the G2 and G3 subgroups, with sHR of 1.5 per standard deviation increase, and in most of the other predefined clinical subgroups. CONCLUSION: MMAI using digital pathology from H&E slides provides enhanced prognostic quality in HR+/HER2- EBC and could help to advance personalized breast cancer management.",
+  "abstract_zh": "目的：在激素受体阳性（HR+）/人表皮生长因子受体2阴性（HER2-）早期乳腺癌（EBC）中，鉴于疾病进展率相对较低，预后评估仍具挑战性。现代基于人工智能（AI）的技术已为癌症提供了先进的预后工具。患者与方法：应用Artera多模态AI（MMAI）平台，结合数字组织病理学和临床数据，开发并测试了一种针对HR+/HER2- EBC的预后风险评估算法。来自WSG PlanB和ADAPT试验的治疗前乳腺活检和手术标本的苏木精-伊红（H&E）切片被数字化。具有可用图像和完整数据的患者（n = 5,259）按试验、治疗和远处转移（DM）分层，分为训练（开发：60%）和内部验证（保留：40%）队列。该算法基于图像数据和临床变量（年龄、T和N分期、肿瘤大小）提供预后性DM风险评分。使用单变量和多变量Fine-Gray模型评估测试队列的性能；亚分布风险比（sHR）按模型评分每标准差增加报告。预设的预后亚组分析按淋巴结状态、绝经状态和肿瘤分级定义。结果：训练后的MMAI评分在测试队列中整体及亚组中与DM风险显著相关（sHR，2.3 [95% CI，2.0至2.8]）。在调整临床预后因素后，该评分仍显著（sHR，2.2 [95% CI，1.7至2.8]）。单独MMAI图像成分在测试队列中具有显著预后价值（sHR，1.6 [95% CI，1.3至1.9]）；在G2和G3亚组内分别具有显著预后价值，每标准差增加的sHR为1.5，并且在大多数其他预设临床亚组中也是如此。结论：使用H&E切片数字病理学的MMAI在HR+/HER2- EBC中提供了增强的预后质量，并可能有助于推进个性化乳腺癌管理。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41270247/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41270247/",
+  "paper_page_path": "papers/pubmed/41270247/index.html"
+}

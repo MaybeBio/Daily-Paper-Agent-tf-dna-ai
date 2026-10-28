@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose RF-SVM, a DNA-binding protein predictor using four feature types (PseAAC, AAD, ACF, Local-DPP), feature selection via Random Forest to 174 features, and SVM classification on training dataset UniSwiss-Tr. They report 84.25% accuracy on test dataset UniSwiss-Tst and identify six amino acid physicochemical properties as contributing to prediction. Code and datasets are provided via GitHub.
+- **Visible evidence base** Abstract text only; no methodological details, performance metrics beyond accuracy, or comparative results are visible
+- **Missing materials affecting confidence** Full text, all figures and tables, dataset descriptions, hyperparameter settings, cross-validation details, baseline method specifications, and statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible machine learning pipeline for DNA-binding protein prediction, but the evidence provided is insufficient to evaluate the novelty, robustness, or generalizability of the method. The reported accuracy alone, without comparison context or error analysis, does not establish the method's advantage over existing predictors. The claim about specific physicochemical properties contributing to prediction is not supported by any visible quantitative evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing machine learning approaches for DNA-binding protein identification. The feature engineering and selection strategy may interest researchers seeking to improve prediction accuracy through combined feature representations.
+- **Major strengths** The use of multiple complementary feature types is a reasonable strategy for capturing diverse aspects of protein sequence information. The provision of code and datasets via GitHub supports reproducibility, which is a positive practice in computational biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves 84.25% accuracy on test dataset UniSwiss-Tst.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports only a single accuracy value without any comparison to existing methods, baseline models, or statistical significance testing. It is unclear whether this accuracy is competitive, superior, or inferior to established DNA-binding protein predictors.
+  - **Why it matters** Without comparative performance metrics and significance testing, the claimed predictive performance cannot be contextualized. A single accuracy value is insufficient to establish that RF-SVM offers any improvement over existing approaches.
+  - **Resolution test** Provide a table comparing RF-SVM against multiple existing methods on the same test dataset, including sensitivity, specificity, Matthews correlation coefficient, and area under the ROC curve, with statistical significance tests (e.g., McNemar's test).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Random Forest algorithm is utilized for selecting top 174 features.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify how the feature selection threshold of 174 was determined, what criterion was used for ranking features, or whether feature selection was performed on the training set only to avoid data leakage.
+  - **Why it matters** Feature selection methodology directly impacts model generalizability. If feature selection used test set information or if the threshold was optimized on the test set, the reported accuracy would be optimistically biased.
+  - **Resolution test** Describe the feature selection procedure in detail, including the ranking criterion, threshold selection method, and confirmation that feature selection was nested within cross-validation on the training set only.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The physicochemical properties of amino acids for OOBM770101(H), CIDH920104(H), MIYS990104(H), NISK860101(H), VINM940103(H), and SNEP660101(A) have contribution to predict DNA-binding proteins.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts that six specific physicochemical properties contribute to prediction, but no quantitative evidence is provided, such as feature importance scores, ablation studies, or statistical analysis demonstrating their individual or combined contribution.
+  - **Why it matters** This claim implies biological interpretability and mechanistic insight, which would be a significant contribution. Without supporting evidence, the claim is speculative and cannot be evaluated.
+  - **Resolution test** Provide feature importance rankings, ablation experiments removing these properties, or statistical tests showing their significant contribution to model performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains grammatical errors and awkward phrasing, such as "the one of the most important steps" and "biological progress" instead of "biological processes."
+  - **Required correction** Revise the abstract for grammatical accuracy and clarity, for example, "one of the most important steps" and "biological processes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The training and test datasets UniSwiss-Tr and UniSwiss-Tst are named but not described in terms of size, sequence redundancy reduction, or class balance.
+  - **Required correction** Provide dataset statistics, including number of positive and negative samples, sequence length distribution, and redundancy reduction criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model evaluation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** Only accuracy is reported, which can be misleading for imbalanced datasets common in protein function prediction.
+  - **Required correction** Report additional metrics such as sensitivity, specificity, precision, recall, F1-score, and Matthews correlation coefficient.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The combination of four feature types with Random Forest feature selection and SVM is not clearly novel, as similar pipelines are common in this field. Scientific importance: The potential biological insight from specific physicochemical properties is interesting but unsubstantiated. Interdisciplinary readership: The work is primarily of interest to computational biologists, with limited broader appeal. Technical soundness: The evaluation is insufficient to establish reliability, with missing comparative analysis and potential data leakage concerns. Readability for nonspecialists: The abstract is accessible but contains grammatical issues and lacks context for the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, comparative performance, or statistical validation to support the claims. A full manuscript with comprehensive evaluation would be required to assess the method's validity.
+
+## Risk / unsupported claims
+- The reported 84.25% accuracy is uncontextualized and cannot be assessed for competitiveness without comparative data.
+- The claim that six specific physicochemical properties contribute to prediction is unsupported by any visible quantitative evidence.
+- The feature selection procedure and its potential for data leakage cannot be evaluated from the abstract.
+- The generalizability of the method to diverse protein datasets is not addressed.

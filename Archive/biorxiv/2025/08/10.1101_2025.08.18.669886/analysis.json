@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.18.669886",
+  "title": "Controllable Protein Design via Autoregressive Direct Coupling Analysis Conditioned on Principal Components",
+  "authors": "Caredda F; Gennai L; De Los Rios P; Pagnani A",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于主成分条件化的自回归DCA统计模型用于蛋白质序列生成，虽涉及DNA结合域相关蛋白家族的结构控制，但核心是蛋白质序列建模而非TF-DNA互作机制，方法可迁移但非直接聚焦。",
+  "abstract": "We present FeatureDCA, a statistical framework for protein sequence modeling and generation that extends Direct Coupling Analysis (DCA) with biologically meaningful conditioning. The method can leverage different kinds of information, such as phylogeny, optimal growth temperature, enzymatic activity or, as in the case presented here, principal components derived from multiple sequence alignments, and use it to improve the learning process and consequently efficiently condition the generative process. FeatureDCA allows sampling to be guided toward specific regions of sequence space while maintaining the efficiency and interpretability of Potts-based inference. Across multiple protein families, our autoregressive implementation of FeatureDCA matches or surpasses the generative accuracy of established models in reproducing higher-order sequence statistics while preserving substantial sequence diversity. Structural validation with AlphaFold and ESMFold confirms that generated sequences adopt folds consistent with their intended wild-type targets. In a detailed case study of the Response Regulator family (PF00072), which comprises distinct structural subclasses linked to different DNA-binding domains, FeatureDCA accurately reproduces class-specific architectures when conditioned on subtype-specific principal components, highlighting its potential for fine-grained structural control. Predictions of experimental deep mutational scanning data show accuracy comparable to that of unconditioned autoregressive Potts models, indicating that FeatureDCA also captures local functional constraints. These results position FeatureDCA as a flexible and transparent approach for targeted sequence generation, bridging statistical fidelity, structural realism, and interpretability in protein design.",
+  "abstract_zh": "我们提出了FeatureDCA，一个用于蛋白质序列建模和生成的统计框架，它通过具有生物学意义的条件设定扩展了直接耦合分析（Direct Coupling Analysis, DCA）。该方法能够利用不同类型的信息，例如系统发育、最适生长温度、酶活性，或如本文案例中所示，源自多序列比对的主成分，并利用这些信息改进学习过程，从而高效地调节生成过程。FeatureDCA允许采样被引导至序列空间的特定区域，同时保持基于Potts推断的效率和可解释性。在多个蛋白质家族中，我们自回归实现的FeatureDCA在再现高阶序列统计方面匹配或超越了既有模型的生成准确性，同时保留了显著的序列多样性。使用AlphaFold和ESMFold进行的结构验证确认，生成的序列采用与其预期野生型靶标一致的折叠构象。在对响应调节因子家族（PF00072）的详细案例研究中，该家族包含与不同DNA结合域相关的不同结构亚类，FeatureDCA在基于亚型特异性主成分进行条件设定时，准确再现了类别特异性架构，突显了其在细粒度结构控制方面的潜力。对实验性深度突变扫描数据的预测显示出与无条件自回归Potts模型相当的准确性，表明FeatureDCA也捕获了局部功能约束。这些结果将FeatureDCA定位为一种灵活且透明的靶向序列生成方法，在蛋白质设计中弥合了统计保真度、结构真实性和可解释性之间的鸿沟。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.18.669886",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.18.669886",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.18.669886/index.html"
+}

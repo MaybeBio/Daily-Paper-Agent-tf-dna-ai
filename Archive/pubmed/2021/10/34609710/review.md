@@ -1,0 +1,61 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, without access to the full text, figures, or methods
+- **Shared manuscript claim summary** The abstract presents a review of estrogen-related receptors (ERRs), their subtypes, roles in transcriptional regulation, and associations with hormone-related cancers and metabolic disorders. It highlights the authors' own findings using fluorescent protein labeling to study ERR subcellular dynamics, including a role for ERRbeta in controlling estrogen signaling via subnuclear dynamics of ligand-activated ERalpha, and a role for ERRgamma in liver lactate metabolism in association with LRPGC1. The abstract concludes that control of subcellular ERR dynamics may contribute to therapeutic development.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or references provided
+- **Missing materials affecting confidence** Full manuscript text, experimental methods, statistical analyses, figure legends, and reference list are not available. The abstract references "recent studies" and "clinical research" without specific citations or data.
+
+## Reviewer
+- **Overall assessment** The abstract provides a concise overview of ERR biology and highlights potentially interesting findings from the authors' own work. However, the claims regarding specific mechanistic roles of ERRbeta and ERRgamma are presented without supporting data, and the review's scope and novelty cannot be fully assessed from the abstract alone. The writing is clear but the scientific case for the stated conclusions is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, endocrine signaling, and metabolic regulation would find this review relevant. Clinicians and translational scientists studying hormone-related cancers and type 2 diabetes may also be interested given the stated associations. The focus on subcellular dynamics and fluorescent imaging could appeal to cell biologists using live-cell techniques.
+- **Major strengths** The abstract clearly summarizes the three ERR subtypes and their distinct biological roles. The emphasis on subcellular dynamics as an underappreciated layer of regulation is a useful framing. The mention of a recently identified protein, LRPGC1, and its link to lactate metabolism adds a contemporary element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "ERRbeta controls estrogen signaling by regulating the subnuclear dynamics of ligand-activated ERalpha" and that "ERRgamma promotes liver lactate metabolism in association with LRPGC1."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** These are specific mechanistic claims attributed to the authors' own work, but no data, experimental details, or statistical support are presented in the abstract. The reader cannot evaluate the robustness of these findings.
+  - **Why it matters** Without evidence, these claims cannot be distinguished from speculation. The review's value depends on the credibility of these novel findings, which are central to the stated conclusions.
+  - **Resolution test** Provide the relevant figures, statistical analyses, and experimental protocols from the full manuscript to substantiate these claims.
+- **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and novelty
+  - **Claim pointer** The abstract states that "this review summarizes the basic knowledge and recent advances in ERRs and their associated proteins."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not indicate what is new or distinct about this review relative to existing literature on ERRs. The novelty of the synthesis or the specific advances covered is unclear.
+  - **Why it matters** For a review article, the contribution to the field depends on offering a fresh perspective or integrating recent findings in a way that advances understanding. Without this, the review may be redundant.
+  - **Resolution test** Clarify in the abstract or introduction what specific gaps this review addresses and what new insights it provides beyond prior reviews.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "transregulation" is used without definition or context, which may confuse nonspecialist readers.
+  - **Required correction** Define "transregulation" or rephrase to describe the mechanism more plainly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "close associations of ERRs with the pathophysiology of hormone-related cancers and metabolic disorders" but does not specify which cancers or disorders beyond type 2 diabetes.
+  - **Required correction** Provide examples or a brief enumeration to give readers a clearer sense of the clinical scope.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Sentence structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The final sentence is long and combines a mechanistic statement with a therapeutic implication, which reduces clarity.
+  - **Required correction** Split into two sentences for improved readability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 is the primary technical failing. The central mechanistic claims lack visible supporting evidence. Without access to the full manuscript, the experimental rigor cannot be assessed.
+- **Assessment against Nature-style criteria** Originality cannot be fully assessed from the abstract, but the focus on subcellular dynamics and the specific findings on ERRbeta and ERRgamma may offer some novelty. Scientific importance is potentially high given the links to cancer and metabolic disease, but this is not substantiated with data. Interdisciplinary readership is plausible, spanning endocrinology, cell biology, and metabolism, though the abstract does not explicitly frame the work for a broad audience. Technical soundness is not assessable from the abstract alone. Readability for nonspecialists is moderate, with some jargon such as "transregulation" and "orphan NRs" that may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the core claims require the full manuscript to verify. A revised abstract with clearer evidence pointers and a defined scope would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that ERRbeta controls estrogen signaling via subnuclear dynamics of ERalpha is unsupported in the abstract.
+- The claim that ERRgamma promotes liver lactate metabolism in association with LRPGC1 is unsupported in the abstract.
+- The statement that "control of subcellular ERR dynamics will contribute toward the development of therapeutic approaches" is speculative and not supported by evidence in the abstract.
+- The general assertion of "close associations" with cancers and metabolic disorders is not backed by specific citations or data in the abstract.

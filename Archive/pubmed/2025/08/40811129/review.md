@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a machine learning-based tool for predicting transcription factor (TF) target gene interactions in soybean, presumably integrating genomic and transcriptomic features to generate predictions of regulatory relationships.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, validation details, or methodological specifics are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, model architecture details, training and test datasets, performance benchmarks, comparison with existing tools, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful bioinformatics resource for soybean functional genomics, but the supplied material is insufficient to evaluate the technical soundness, novelty, or practical utility of the tool. Key information on model design, training data, performance metrics, and validation is absent. The case for the tool's reliability and added value over existing methods is not established from the provided evidence.
+- **Who would be interested in the results, and why** Soybean geneticists and molecular breeders interested in prioritizing TF target genes for functional studies; computational biologists working on plant gene regulatory network inference; researchers in crop systems biology who may use such predictions to guide experimental design.
+- **Major strengths** The topic addresses a relevant gap in soybean research, where TF target gene information is sparse relative to model species. A user-friendly predictive tool could accelerate hypothesis generation for regulatory network studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract implies the tool can predict TF target gene interactions in soybean with useful accuracy.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No performance metrics, cross-validation results, or independent test set outcomes are reported. The abstract does not state the model's sensitivity, specificity, precision, or area under the ROC curve, nor does it compare performance against existing TF target prediction tools.
+  - **Why it matters** Without quantitative evidence of predictive accuracy, readers cannot assess whether the tool produces reliable predictions or merely generates noise. A machine learning tool for biological prediction must demonstrate that its outputs are sufficiently accurate to guide experimental investment.
+  - **Resolution test** Provide performance metrics on held-out test data, benchmark comparisons against existing methods, and ideally experimental validation of a subset of predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The abstract presents a tool, implying it is usable by the community.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is given on the training dataset composition, feature types, model architecture, software availability, or access instructions. The abstract does not state whether the tool is available as a web server, standalone package, or source code repository.
+  - **Why it matters** A predictive tool is only valuable if others can access and run it. Lack of availability details prevents assessment of usability and reproducibility, which are essential for community adoption.
+  - **Resolution test** State clearly where and how the tool can be accessed, and provide sufficient methodological detail for independent implementation or use.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The abstract implies the tool offers a new capability for soybean TF target prediction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how this tool differs from existing TF target prediction methods, whether for soybean or other plants. No comparison with prior tools or databases is mentioned, and the specific advantages of the machine learning approach are not articulated.
+  - **Why it matters** Without a clear statement of novelty and advantage, the contribution may be incremental. The scientific importance of the work depends on demonstrating that it fills a specific gap or improves upon existing resources.
+  - **Resolution test** Explicitly compare the tool with existing soybean and plant TF target prediction resources, and state the specific improvements or unique features.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain what types of input data a user would need to provide or what output format to expect.
+  - **Required correction** Add one or two sentences describing the input requirements and output format for potential users.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Context for plant biologists
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the scale of the soybean TF regulatory network covered, such as the number of TFs and target genes included in the model.
+  - **Required correction** Include the number of TFs and target genes covered to help readers gauge the tool's scope.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Validation strategy
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of how predictions were validated, whether through literature curation, ChIP-seq data, or experimental assays.
+  - **Required correction** State the validation approach used to confirm prediction accuracy.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of performance metrics, tool availability details, and novelty positioning means the core claims of a useful and reliable prediction tool are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: cannot be assessed from the abstract alone, as no comparison with existing tools is provided. Scientific importance: potentially relevant for soybean functional genomics, but the significance is not demonstrated without evidence of improved capability or broad utility. Interdisciplinary readership: the topic may appeal to both computational biologists and plant scientists, but the abstract lacks sufficient technical detail for computational readers and sufficient biological context for experimental readers. Technical soundness: not assessable due to missing methodology and performance data. Readability for nonspecialists: the abstract is understandable at a general level but omits practical details that would help nonspecialists evaluate or use the tool.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of a reliable and useful prediction tool. A full manuscript with performance metrics, validation, availability details, and novelty positioning would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that the tool can predict TF target gene interactions in soybean is unsupported by any reported performance data.
+- The implied utility of the tool for the research community is unsupported by evidence of accessibility or usability.
+- Any implied novelty or advantage over existing methods is unassessable from the abstract.

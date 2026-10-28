@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41940395",
+    "doi": "10.7717/peerj.20666",
+    "title": "Identification and verification of ferroptosis-related core gene in postmenopausal osteoporosis based on bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE AND BACKGROUND: Postmenopausal osteoporosis (PMOP) significantly increases the risk of fragility fractures and has substantial negative effects on patients. Accumulating evidence suggests that the pathogenesis of PMOP is associated with ferroptosis. In this study, we screened and validated core ferroptosis-related genes (FRGs) in PMOP and investigated their potential links using bioinformatics analysis. METHODS: Differentially expressed genes (DEGs) were identified between PMOP patients and healthy postmenopausal women based on the GSE230665 dataset in the Gene Expression Omnibus (GEO) database. Weighted gene co-expression network analysis (WGCNA) was conducted to sort and extract significant module genes. FRGs were acquired from an online ferroptosis database. By intersecting DEGs, FRGs, and significant module genes, we identified ferroptosis-associated DEGs (FDEGs). We performed Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and protein-protein interaction (PPI) analyses on FDEGs. Multiple algorithms within the cytoHubba plugin were employed to detect the core gene from the PPI network. The expression of the core gene was subsequently validated in the PMOP rat model, and the diagnostic efficacy of the core gene was evaluated using receiver operating characteristic (ROC) curves applied to external datasets. GeneMANIA and Gene Set Enrichment Analysis (GSEA) were conducted to explore important functions and pathways of the core gene. We further utilized the CIBERSORTx website to evaluate immune infiltration in PMOP and molecular docking analysis was performed to develop potential drugs for PMOP. Finally, we established a transcription factors (TFs)-mRNA-miRNAs regulatory network for mechanisms investigation. RESULTS: In this study, we identified phosphatase and tensin homologue deleted on chromosome 10 (PTEN) as the core gene through PPI analysis and various algorithms. qRT-PCR analysis and immunohistochemical staining revealed a significant elevation of PTEN expression in the PMOP rat models, and ROC curves demonstrated the relatively high diagnostic properties of PTEN. Moreover, GSEA analysis indicated that PTEN is involved in functions and pathways associated with MAPK signaling, oxidative phosphorylation, mTOR signaling, etc. We discovered three drugs that bind tightly to PTEN, including CX-5461, UMI-77, and GSK2256098. Ultimately, we constructed a TFs-mRNA-miRNAs network comprising 39 nodes (16 TFs, 22 miRNAs, and 1 mRNA) and 38 edges. CONCLUSION: PTEN was preliminarily identified and verified as a key ferroptosis gene in postmenopausal osteoporosis through bioinformatics analysis, and the diagnostic model constructed based on PTEN was of high value. These findings may provide novel perspectives on the pathogenesis of PMOP at the transcriptome level and establish a theoretical foundation for further research.",
+    "keywords": [
+      "Bioinformatics",
+      "Core gene",
+      "Ferroptosis",
+      "Postmenopausal osteoporosis"
+    ],
+    "mesh_terms": [
+      "*Osteoporosis, Postmenopausal/genetics",
+      "*Ferroptosis/genetics",
+      "Female",
+      "Humans",
+      "*Computational Biology/methods",
+      "Animals",
+      "Rats",
+      "Protein Interaction Maps",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ran, Dongcheng",
+        "Yang, Cheng",
+        "Zhou, Enyu",
+        "Li, Weimin",
+        "Xu, Jiamu",
+        "Wu, Wangxiang",
+        "Wang, Chunqing"
+      ],
+      "short_names": [
+        "Ran D",
+        "Yang C",
+        "Zhou E",
+        "Li W",
+        "Xu J",
+        "Wu W",
+        "Wang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedic, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, Guizhou Province, China.",
+        "Tumor Research Laboratory, The Affiliated Cancer Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Orthopedic, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, Guizhou Province, China.",
+        "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ran, Dongcheng",
+        "short_name": "Ran D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, Guizhou Province, China.",
+          "Tumor Research Laboratory, The Affiliated Cancer Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Cheng",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Enyu",
+        "short_name": "Zhou E",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weimin",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiamu",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wangxiang",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunqing",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38106447",
+      "36746095",
+      "36328754",
+      "36300620",
+      "36035224",
+      "35788564",
+      "35322335",
+      "35082963",
+      "35025696",
+      "34840985",
+      "34754625",
+      "34461313",
+      "34366868",
+      "34101965",
+      "33982655",
+      "33614622",
+      "33590921",
+      "33495651",
+      "33488513",
+      "32732881",
+      "32662828",
+      "32634074",
+      "32561161",
+      "32510140",
+      "32219413",
+      "32203407",
+      "32151769",
+      "31995253",
+      "31981979",
+      "31942516",
+      "31746405",
+      "31659150",
+      "31647101",
+      "31504780",
+      "31025251",
+      "30910286",
+      "30515522",
+      "30476243",
+      "30038596",
+      "29742503",
+      "29733451",
+      "29087512",
+      "28983411",
+      "28573592",
+      "27959630",
+      "27924018",
+      "26789873",
+      "26531824",
+      "26267216",
+      "26170904",
+      "25605792",
+      "25521941",
+      "25055920",
+      "24821572",
+      "22632970",
+      "22570238",
+      "22455463",
+      "22140110",
+      "21450337",
+      "20576703",
+      "19114008",
+      "18771759",
+      "16753011",
+      "16199517",
+      "14597658"
+    ],
+    "similar": [
+      "41940395",
+      "35757392",
+      "38650009",
+      "41444522",
+      "38226266",
+      "39586719",
+      "40024299",
+      "39341981",
+      "40821971",
+      "30809532",
+      "40628511",
+      "40241169",
+      "39541922",
+      "40918403",
+      "39945271",
+      "30569177",
+      "37683138",
+      "37605572",
+      "39351239",
+      "39142001",
+      "40791155",
+      "35620387",
+      "39375405",
+      "39608795",
+      "38899746",
+      "41738361",
+      "29138843",
+      "41120603",
+      "40597456",
+      "40245021",
+      "42348043",
+      "38020614",
+      "41508240",
+      "39793232",
+      "39172048",
+      "42327749",
+      "42060917",
+      "38347799",
+      "40374840",
+      "38718074",
+      "42530267",
+      "39176085",
+      "39556279",
+      "39707003",
+      "38902567",
+      "40574839",
+      "35151359",
+      "40228223",
+      "40859027",
+      "41511918",
+      "41824870",
+      "39050860",
+      "41291978",
+      "42537010",
+      "39609718",
+      "39086489",
+      "41479901",
+      "38885209",
+      "41044520",
+      "38260098",
+      "40790764",
+      "38736878",
+      "34218797",
+      "41816328",
+      "38741149",
+      "40091022",
+      "39853851",
+      "42286429",
+      "39072329",
+      "39466354",
+      "34555052",
+      "40836320",
+      "41316541",
+      "42267557",
+      "40093012",
+      "41311024",
+      "41703488",
+      "40078458",
+      "41094572",
+      "37250717",
+      "41567222",
+      "41162488",
+      "39118036",
+      "31987036",
+      "39735537",
+      "41629618",
+      "38691241",
+      "37259023",
+      "35016690",
+      "39337585",
+      "40161396",
+      "39671358",
+      "39673621",
+      "35278479",
+      "37752199",
+      "38734841",
+      "38062833",
+      "42289108",
+      "38774257",
+      "38319987"
+    ],
+    "review": [
+      "41940395"
+    ],
+    "pmc": [
+      "13048226"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41940395/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.20666",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

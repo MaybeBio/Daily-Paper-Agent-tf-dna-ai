@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, declarations)
+- **Assessment boundary** Scientific claims and evidence as presented in the supplied text; no external data or code were available for verification
+- **Shared manuscript claim summary** The authors claim that frozen embeddings from the AINN-P1 protein foundation model, when paired with a lightweight supervised head, outperform a task-specific model trained end to end from scratch for antibody-antigen binding affinity ranking (measured by Spearman rho), and that the performance gain is attributable to representation quality rather than downstream model capacity
+- **Visible evidence base** Abstract; Sections 1 through 5; Table 1 referenced but not shown; Figures 1 and 2 referenced but not shown; Declarations
+- **Missing materials affecting confidence** Table 1 (all quantitative results); Figures 1 and 2; dataset description (size, composition, source, curation criteria); AINN-P1 architecture details; baseline architecture and training details; hyperparameter choices; fold construction details; NDCG and AUC results; code and data availability
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in antibody engineering, namely whether frozen protein foundation-model embeddings provide a strong and efficient representation for affinity ranking. The central claim, that a linear probe on frozen embeddings outperforms a fully trained end-to-end model, is potentially interesting and practically useful. However, the manuscript as supplied does not contain the quantitative evidence needed to evaluate this claim. Table 1, which is the sole source of reported performance numbers, is not included. The dataset is described only as "curated" with no details on size, composition, or curation criteria. The baseline model is not described beyond being "task-specific" and "end-to-end," with architectural details withheld as proprietary. The AINN-P1 model itself is not described in sufficient detail to assess its relevance or generalizability. Without these materials, the core claims cannot be verified or reproduced. The writing is clear and the framing is sensible, but the evidentiary base is currently insufficient for a rigorous assessment.
+- **Who would be interested in the results, and why** Researchers and practitioners in antibody engineering, protein engineering, and computational biology would be interested in this work if the claims are substantiated. The practical implication, that a lightweight head on frozen foundation-model embeddings can serve as a fast and data-efficient default for affinity ranking, is directly relevant to those running affinity maturation campaigns. The broader question of when frozen representations suffice versus when fine-tuning is needed is of general interest to the protein machine-learning community.
+- **Major Strengths** The manuscript frames affinity maturation as a learning-to-rank problem, which is appropriate for the stated downstream use case. The comparison design, using identical folds and inputs across all configurations, is methodologically sound in principle. The claim that a linear probe outperforms a fully trained end-to-end model is a strong and falsifiable statement that, if supported, would be a useful contribution. The authors are transparent about the proprietary nature of the model and dataset, and they acknowledge the limitation of a single dataset and rank-based metrics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript reports mean Spearman rho values of 0.417 (from-scratch baseline), 0.457 (linear probe), and 0.533 (optimized lightweight head), and claims a relative improvement of approximately 28%
+  - **Evidence pointer** Table 1 (referenced but not provided); Section 2
+  - **Concern** All quantitative results are reported in Table 1, which is not included in the supplied material. The specific numbers cited in the text cannot be verified against any visible data. Additionally, the text states that NDCG and AUC were monitored as secondary measures, but no values for these metrics are reported anywhere in the text.
+  - **Why it matters** The central claim of the manuscript rests entirely on these numbers. Without access to the table, the reader cannot assess the magnitude of the reported effects, the variance across folds, or the statistical significance of the differences. The absence of secondary metric values further limits the ability to evaluate whether the improvement in Spearman rho corresponds to practically meaningful gains in ranking quality.
+  - **Resolution test** Provide Table 1 with per-fold results, means, and standard deviations for all metrics (Spearman rho, NDCG, AUC) for all three configurations. Report the number of test items per fold and the statistical significance of the differences between configurations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset description
+  - **Claim pointer** The manuscript claims results are obtained on "a curated antibody-antigen Delta Delta G dataset" (Section 4.5) and that all configurations used "identical inputs, labels, and folds" (Section 2)
+  - **Evidence pointer** Section 4.5; Section 2; location not provided for dataset details
+  - **Concern** The dataset is not described in any quantitative or qualitative detail. No information is given on the number of antibody-antigen pairs, the number of unique antibodies or antigens, the range of Delta Delta G values, the source of the data (e.g., experimental measurements, published databases, in-house assays), or the curation criteria used to include or exclude entries. The number of folds is stated as five, but the size of each fold is not given.
+  - **Why it matters** Without dataset details, the reader cannot assess whether the results are likely to generalize to other antibody-antigen systems or whether the dataset is sufficiently large and diverse to support the claims. The curation criteria are particularly important because biased or narrow datasets could inflate the apparent advantage of the foundation-model representation. The claim of a "curated" dataset without any description of the curation process is not assessable.
+  - **Resolution test** Provide a full description of the dataset: number of pairs, number of unique antibodies and antigens, distribution of Delta Delta G values, source of the data, inclusion and exclusion criteria, and the size of each cross-validation fold.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline and model description
+  - **Claim pointer** The manuscript claims a "task-specific sequence model trained end-to-end from scratch" (Abstract) and states that "architectural and training details of the internal models are proprietary and are omitted here" (Section 4.4)
+  - **Evidence pointer** Section 4.4; Section 4.3
+  - **Concern** The from-scratch baseline is not described beyond being a "task-specific sequence model." No information is given on its architecture (e.g., convolutional, recurrent, transformer), its parameter count, its training procedure, or its hyperparameters. Similarly, the "optimized lightweight head" is not described in any detail; the text does not specify its architecture, the optimization procedure, or the hyperparameter search space. The AINN-P1 model is described only as "autoregressive" and trained on "tens of millions of natural protein sequences," with no information on embedding dimension, number of parameters, or training data source.
+  - **Why it matters** The claim that frozen embeddings outperform an end-to-end model is only meaningful if the end-to-end model is a reasonable and competitive baseline. If the baseline is underpowered or poorly tuned, the comparison is unfair and the conclusion does not generalize. Similarly, the "optimized lightweight head" could be arbitrarily complex or tuned to the test set, which would undermine the claim that the gain comes from representation quality. The lack of detail on AINN-P1 prevents the reader from understanding what the embeddings represent and whether the results are specific to this particular foundation model.
+  - **Resolution test** Provide a full description of the baseline architecture, its parameter count, training procedure, and hyperparameters. Describe the lightweight head architecture and the hyperparameter optimization procedure, including whether the test set was used during optimization. Provide details on AINN-P1, including architecture, parameter count, training data, and embedding dimension.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims a relative improvement of approximately 28% in mean Spearman rho (from 0.42 to 0.53) and states that the linear probe "already outperforms" the from-scratch baseline
+  - **Evidence pointer** Section 2; Section 5
+  - **Concern** The manuscript reports only mean Spearman rho values across five folds. No variance measures, confidence intervals, or significance tests are reported. The text does not state whether the differences between configurations are statistically significant, and the number of test items per fold is not given, so the reader cannot estimate the precision of the reported means.
+  - **Why it matters** The claim of improvement is only meaningful if the differences are larger than the expected variability across folds. Without variance or significance testing, the reported improvement could be within the noise of the evaluation. This is particularly important given the relatively small absolute difference between the linear probe (0.457) and the baseline (0.417).
+  - **Resolution test** Report per-fold results, standard deviations, and confidence intervals for all metrics. Perform and report a statistical test (e.g., paired test across folds) comparing the baseline to the linear probe and to the optimized head. State the number of test items per fold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.4
+  - **Evidence pointer** Section 4.4
+  - **Issue** The baseline is described as "task-specific" and "end-to-end," but no details are given on how it was implemented or trained. The statement that details are "proprietary" is not sufficient for a scientific manuscript.
+  - **Required correction** Provide at least a high-level description of the baseline architecture and training procedure, or state explicitly that the baseline is not described for proprietary reasons and discuss the implications for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Metric reporting
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The manuscript states that NDCG and AUC are "additionally tracked" but no values are reported in the text or in the referenced table.
+  - **Required correction** Report NDCG and AUC values for all configurations, or state that they were computed but are not reported and explain why.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table references
+  - **Affected element** Section 2
+  - **Evidence pointer** Figure 1; Figure 2; Table 1
+  - **Issue** Figures 1 and 2 and Table 1 are referenced but not provided in the supplied material. The text refers to "Figure 1" for the pipeline overview and "Figure 2" for results, but neither figure is available for inspection.
+  - **Required correction** Ensure all referenced figures and tables are included in the manuscript submission.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Typographical error
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The text reads "alread outperforms" in the first paragraph of Section 3.
+  - **Required correction** Correct the typo to "already outperforms."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** Data and code availability section
+  - **Issue** The data and code availability statement indicates that the model and dataset are proprietary and that requests may be directed to the corresponding author. This limits the ability of other researchers to reproduce or build on the work.
+  - **Required correction** Consider providing at least the dataset in anonymized or aggregated form, or provide a clear statement of what can be shared and under what conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing Table 1), R1-M2 (missing dataset description), R1-M3 (missing baseline and model details). These are blocking because the core claims cannot be evaluated without the quantitative results, the dataset context, and the baseline description.
+- **Assessment against Nature-style criteria** Originality: The question of whether frozen foundation-model embeddings suffice for antibody-antigen affinity ranking is timely and relevant, but the approach of comparing frozen embeddings to an end-to-end baseline is not conceptually novel. The originality lies in the specific application and the claim that a linear probe suffices. Scientific importance: If substantiated, the result would be practically useful for antibody engineering, but the importance is incremental rather than transformative. The claim that representation quality dominates downstream capacity is consistent with prior work in protein fitness prediction and is not surprising. Interdisciplinary readership: The manuscript is written for a computational biology audience and would be accessible to researchers in protein engineering and machine learning. It is unlikely to attract broad interdisciplinary interest beyond these fields. Technical soundness: The evaluation protocol is sound in principle, but the missing details on the dataset, baseline, and results prevent an assessment of technical soundness. Readability for nonspecialists: The writing is clear and the concepts are explained adequately, but the manuscript assumes familiarity with foundation models and affinity maturation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the framing is sensible, but the core claims cannot be evaluated without the missing quantitative results, dataset description, and model details. The authors should provide the full table of results, a complete description of the dataset and baseline, and details on the lightweight head and AINN-P1 before the claims can be assessed. If these materials are provided and the results are as reported, the manuscript could be a useful contribution to the antibody engineering community.

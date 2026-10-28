@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "40533450",
+    "doi": "10.1038/s41467-025-60567-x",
+    "title": "Combinatorial discovery of microtopographical landscapes that resist biofilm formation through quorum sensing mediated autolubrication."
+  },
+  "content": {
+    "abstract": "Bio-instructive materials that intrinsically inhibit biofilm formation have significant anti-biofouling potential in industrial and healthcare settings. Since bacterial surface attachment is sensitive to surface topography, we experimentally surveyed 2176 combinatorially generated shapes embossed into polymers using an unbiased screen. This identified microtopographies that, in vitro, reduce colonization by pathogens associated with medical device-related infections by up to 15-fold compared to a flat polymer surface. Machine learning provided design rules, based on generalisable descriptors, for predicting biofilm-resistant microtopographies. On tracking single bacterial cells we observed that the motile behaviour of Pseudomonas aeruginosa is markedly different on anti-attachment microtopographies compared with pro-attachment or flat surfaces. Inactivation of Rhl-dependent quorum sensing in P. aeruginosa through deletion of rhlI or rhlR restored biofilm formation on the anti-attachment topographies due to the loss of rhamnolipid biosurfactant production. Exogenous provision of N-butanoyl-homoserine lactone to the rhlI mutant inhibited biofilm formation, as did genetic complementation of the rhlI, rhlR or rhlA mutants. These data are consistent with confinement-induced anti-adhesive rhamnolipid biosurfactant 'autolubrication'. In a murine foreign body infection model, anti-attachment topographies are refractory to P. aeruginosa colonization. Our findings highlight the potential of simple topographical patterning of implanted medical devices for preventing biofilm associated infections.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biofilms/growth & development/drug effects",
+      "*Quorum Sensing/physiology",
+      "*Pseudomonas aeruginosa/physiology/genetics/drug effects",
+      "Animals",
+      "Mice",
+      "Bacterial Proteins/genetics/metabolism",
+      "Bacterial Adhesion",
+      "Biofouling/prevention & control",
+      "Glycolipids/metabolism",
+      "4-Butyrolactone/analogs & derivatives/pharmacology/metabolism",
+      "Pseudomonas Infections/microbiology/prevention & control",
+      "Surface Properties",
+      "Female",
+      "Polymers/chemistry",
+      "Ligases",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Romero, Manuel",
+        "Luckett, Jeni",
+        "Dubern, Jean-Frederic",
+        "Figueredo, Grazziela P",
+        "Ison, Elizabeth",
+        "Carabelli, Alessandro M",
+        "Scurr, David J",
+        "Hook, Andrew L",
+        "Kammerling, Lisa",
+        "da Silva, Ana C",
+        "Xue, Xuan",
+        "Blackburn, Chester",
+        "Carlier, Aurelie",
+        "Vasilevich, Aliaksei",
+        "Sudarsanam, Phani K",
+        "Vermeulen, Steven",
+        "Winkler, David A",
+        "Ghaemmaghami, Amir M",
+        "Boer, Jan de",
+        "Alexander, Morgan R",
+        "Williams, Paul"
+      ],
+      "short_names": [
+        "Romero M",
+        "Luckett J",
+        "Dubern JF",
+        "Figueredo GP",
+        "Ison E",
+        "Carabelli AM",
+        "Scurr DJ",
+        "Hook AL",
+        "Kammerling L",
+        "da Silva AC",
+        "Xue X",
+        "Blackburn C",
+        "Carlier A",
+        "Vasilevich A",
+        "Sudarsanam PK",
+        "Vermeulen S",
+        "Winkler DA",
+        "Ghaemmaghami AM",
+        "Boer J",
+        "Alexander MR",
+        "Williams P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6902-6776",
+        "ORCID: 0000-0002-9951-6925",
+        "ORCID: 0000-0003-3625-4021",
+        "ORCID: 0000-0003-0859-3886",
+        "ORCID: 0000-0001-7756-8444",
+        "ORCID: 0000-0002-2305-5667",
+        "ORCID: 0000-0001-6797-7084",
+        "ORCID: 0000-0002-7301-6076",
+        "ORCID: 0000-0001-5182-493X",
+        "ORCID: 0000-0002-1920-5036"
+      ],
+      "affiliations": [
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK.",
+        "Department of Microbiology, Faculty of Biology-Aquatic One Health Research Center (iARCUS), Universidade de Santiago de Compostela, Santiago de Compostela, Spain.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK.",
+        "School of Computer Science, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK.",
+        "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, United Kingdom.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "Department of Chemistry, School of Science, Xi'an Jiaotong - Liverpool University, Suzhou, PR China.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+        "MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University, Maastricht, The Netherlands.",
+        "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands.",
+        "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands.",
+        "MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University, Maastricht, The Netherlands.",
+        "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands.",
+        "Department of Biochemistry and Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne, VIC, Australia.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+        "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands.",
+        "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom. morgan.alexander@nottingham.ac.uk.",
+        "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom. paul.williams@nottingham.ac.uk.",
+        "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK. paul.williams@nottingham.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Romero, Manuel",
+        "short_name": "Romero M",
+        "identifiers": [
+          "0000-0001-6902-6776"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+          "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK.",
+          "Department of Microbiology, Faculty of Biology-Aquatic One Health Research Center (iARCUS), Universidade de Santiago de Compostela, Santiago de Compostela, Spain."
+        ]
+      },
+      {
+        "full_name": "Luckett, Jeni",
+        "short_name": "Luckett J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Dubern, Jean-Frédéric",
+        "short_name": "Dubern JF",
+        "identifiers": [
+          "0000-0002-9951-6925"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+          "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK."
+        ]
+      },
+      {
+        "full_name": "Figueredo, Grazziela P",
+        "short_name": "Figueredo GP",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ison, Elizabeth",
+        "short_name": "Ison E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Carabelli, Alessandro M",
+        "short_name": "Carabelli AM",
+        "identifiers": [
+          "0000-0003-3625-4021"
+        ],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Scurr, David J",
+        "short_name": "Scurr DJ",
+        "identifiers": [
+          "0000-0003-0859-3886"
+        ],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hook, Andrew L",
+        "short_name": "Hook AL",
+        "identifiers": [
+          "0000-0001-7756-8444"
+        ],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kammerling, Lisa",
+        "short_name": "Kammerling L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "da Silva, Ana C",
+        "short_name": "da Silva AC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom.",
+          "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK.",
+          "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Xue, Xuan",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom.",
+          "Department of Chemistry, School of Science, Xi'an Jiaotong - Liverpool University, Suzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Blackburn, Chester",
+        "short_name": "Blackburn C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Carlier, Aurélie",
+        "short_name": "Carlier A",
+        "identifiers": [
+          "0000-0002-2305-5667"
+        ],
+        "affiliations": [
+          "MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vasilevich, Aliaksei",
+        "short_name": "Vasilevich A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Sudarsanam, Phani K",
+        "short_name": "Sudarsanam PK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vermeulen, Steven",
+        "short_name": "Vermeulen S",
+        "identifiers": [
+          "0000-0001-6797-7084"
+        ],
+        "affiliations": [
+          "MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University, Maastricht, The Netherlands.",
+          "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Winkler, David A",
+        "short_name": "Winkler DA",
+        "identifiers": [
+          "0000-0002-7301-6076"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Ghaemmaghami, Amir M",
+        "short_name": "Ghaemmaghami AM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Boer, Jan de",
+        "short_name": "Boer J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Alexander, Morgan R",
+        "short_name": "Alexander MR",
+        "identifiers": [
+          "0000-0001-5182-493X"
+        ],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham, United Kingdom. morgan.alexander@nottingham.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Williams, Paul",
+        "short_name": "Williams P",
+        "identifiers": [
+          "0000-0002-1920-5036"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Nottingham, Nottingham, United Kingdom. paul.williams@nottingham.ac.uk.",
+          "National Biofilm Innovation Centre, Biodiscovery Institute, University of Nottingham, Nottingham, UK. paul.williams@nottingham.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jun 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 00:25",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "42434525",
+      "42276819",
+      "42130947",
+      "42130907",
+      "41761820",
+      "41148672"
+    ],
+    "refs": [
+      "37276014",
+      "36258069",
+      "35982053",
+      "35922483",
+      "35618743",
+      "35476526",
+      "35398019",
+      "34308271",
+      "34165820",
+      "33495249",
+      "33417796",
+      "33397389",
+      "32905753",
+      "32573899",
+      "32537404",
+      "32278807",
+      "31682637",
+      "31583791",
+      "31511506",
+      "30846973",
+      "30581112",
+      "30482024",
+      "29449837",
+      "29191009",
+      "29170558",
+      "28984233",
+      "28369169",
+      "27713081",
+      "27571752",
+      "27510863",
+      "26577984",
+      "26104692",
+      "26041805",
+      "25683454",
+      "25670813",
+      "25626906",
+      "25491266",
+      "24845996",
+      "23509269",
+      "23019658",
+      "22885723",
+      "22719254",
+      "22389478",
+      "21961934",
+      "21949368",
+      "21046079",
+      "20729850",
+      "20508634",
+      "20356880",
+      "20336292",
+      "20191401",
+      "19637369",
+      "17891143",
+      "17453729",
+      "17220224",
+      "16186483",
+      "16101996",
+      "15516948",
+      "12533479",
+      "11882712",
+      "11598083",
+      "8898383",
+      "7604006",
+      "7568146",
+      "7494482"
+    ],
+    "similar": [
+      "40533450",
+      "28715477",
+      "39530727",
+      "30324376",
+      "15073294",
+      "28818490",
+      "28983655",
+      "17993517",
+      "33713665",
+      "31594819",
+      "17369333",
+      "20132256",
+      "32044022",
+      "26732761",
+      "28798903",
+      "34996996",
+      "17689222",
+      "28453568",
+      "29526565",
+      "29635051",
+      "40993527",
+      "20453898",
+      "15314190",
+      "28591849",
+      "40414445",
+      "29571725",
+      "30959097",
+      "19543378",
+      "34705176",
+      "29427006",
+      "26048802",
+      "25641250",
+      "19123197",
+      "29463534",
+      "21546585",
+      "38528442",
+      "15601686",
+      "30707095",
+      "34460871",
+      "30114353",
+      "11160083",
+      "9294432",
+      "10781536",
+      "9535661",
+      "11782502",
+      "27645245",
+      "31106966",
+      "40366200",
+      "19727948",
+      "38342794",
+      "39162513",
+      "17496081",
+      "31123307",
+      "14507361",
+      "17766417",
+      "40243300",
+      "39140783",
+      "30224496",
+      "12486077",
+      "30298548",
+      "28591665",
+      "29524516",
+      "17449629",
+      "39012538",
+      "30753921",
+      "7604006",
+      "17442101",
+      "30607721",
+      "12381027",
+      "38064526",
+      "31398531",
+      "41065783",
+      "25172852",
+      "32496187",
+      "10594832",
+      "8522523",
+      "40205343",
+      "30913464",
+      "23996096",
+      "9150205",
+      "40301384",
+      "21866701",
+      "34519474",
+      "29353476",
+      "31605708",
+      "26711774",
+      "16301370",
+      "32619289",
+      "32683348",
+      "17623027",
+      "31319827",
+      "28062182",
+      "17185531",
+      "11401724",
+      "14641579",
+      "27860087",
+      "18463485",
+      "11282644",
+      "41120835",
+      "20080211"
+    ],
+    "review": [
+      "40533450"
+    ],
+    "pmc": [
+      "12177056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-60567-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40533450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "36899621",
+    "doi": "10.3934/mbe.2023194",
+    "title": "Identifying key transcription factors and miRNAs coregulatory networks associated with immune infiltrations and drug interactions in idiopathic pulmonary arterial hypertension."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The deregulated genetic factors are critically associated with idiopathic pulmonary arterial hypertension (IPAH) development and progression. However, the identification of hub-transcription factors (TFs) and miRNA-hub-TFs co-regulatory network-mediated pathogenesis in IPAH remains lacking. METHODS: We used GSE48149, GSE113439, GSE117261, GSE33463, and GSE67597 for identifying key genes and miRNAs in IPAH. We used a series of bioinformatics approaches, including R packages, protein-protein interaction (PPI) network, and gene set enrichment analysis (GSEA) to identify the hub-TFs and miRNA-hub-TFs co-regulatory networks in IPAH. Also, we employed a molecular docking approach to evaluate the potential protein-drug interactions. RESULTS: We found that 14 TFs encoding genes, including ZNF83, STAT1, NFE2L3, and SMARCA2 are upregulated, and 47 TFs encoding genes, including NCOR2, FOXA2, NFE2, and IRF5 are downregulated in IPAH relative to the control. Then, we identified the differentially expressed 22 hub-TFs encoding genes, including four upregulated (STAT1, OPTN, STAT4, and SMARCA2) and 18 downregulated (such as NCOR2, IRF5, IRF2, MAFB, MAFG, and MAF) TFs encoding genes in IPAH. The deregulated hub-TFs regulate the immune system, cellular transcriptional signaling, and cell cycle regulatory pathways. Moreover, the identified differentially expressed miRNAs (DEmiRs) are involved in the co-regulatory network with hub-TFs. The six hub-TFs encoding genes, including STAT1, MAF, CEBPB, MAFB, NCOR2, and MAFG are consistently differentially expressed in the peripheral blood mononuclear cells of IPAH patients, and these hub-TFs showed significant diagnostic efficacy in distinguishing IPAH cases from the healthy individuals. Moreover, we revealed that the co-regulatory hub-TFs encoding genes are correlated with the infiltrations of various immune signatures, including CD4 regulatory T cells, immature B cells, macrophages, MDSCs, monocytes, Tfh cells, and Th1 cells. Finally, we discovered that the protein product of STAT1 and NCOR2 interacts with several drugs with appropriate binding affinity. CONCLUSIONS: The identification of hub-TFs and miRNA-hub-TFs co-regulatory networks may provide a new avenue into the mechanism of IPAH development and pathogenesis.",
+    "keywords": [
+      "Co-regulatory network",
+      "IPAH",
+      "TFs",
+      "binding affinity",
+      "immune signatures"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Molecular Docking Simulation",
+      "Familial Primary Pulmonary Hypertension/genetics",
+      "Leukocytes, Mononuclear/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Regulation, Neoplastic",
+      "Interferon Regulatory Factors/genetics/metabolism",
+      "Drug Interactions",
+      "Basic-Leucine Zipper Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qian",
+        "Hujiaaihemaiti, Minawaer",
+        "Wang, Jie",
+        "Uddin, Md Nazim",
+        "Li, Ming-Yuan",
+        "Aierken, Alidan",
+        "Wu, Yun"
+      ],
+      "short_names": [
+        "Li Q",
+        "Hujiaaihemaiti M",
+        "Wang J",
+        "Uddin MN",
+        "Li MY",
+        "Aierken A",
+        "Wu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China.",
+        "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China.",
+        "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China.",
+        "Institute of Food Science and Technology, Bangladesh Council of Scientific and Industrial Research (BCSIR), Dhaka 1205, Bangladesh.",
+        "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China.",
+        "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China.",
+        "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Hujiaaihemaiti, Minawaer",
+        "short_name": "Hujiaaihemaiti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Uddin, Md Nazim",
+        "short_name": "Uddin MN",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Food Science and Technology, Bangladesh Council of Scientific and Industrial Research (BCSIR), Dhaka 1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Li, Ming-Yuan",
+        "short_name": "Li MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Aierken, Alidan",
+        "short_name": "Aierken A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yun",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mathematical biosciences and engineering : MBE"
+    ],
+    "journal_abbrev": [
+      "Math Biosci Eng"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/12 06:00",
+    "fetched_at": "2026-09-28 21:16:04"
+  },
+  "links": {
+    "cites": [
+      "41234880",
+      "40074422",
+      "39149514",
+      "38561764",
+      "37461108"
+    ],
+    "refs": [],
+    "similar": [
+      "36899621",
+      "34981661",
+      "33478117",
+      "36926043",
+      "32714978",
+      "35127829",
+      "33995494",
+      "32493063",
+      "34026864",
+      "35536760",
+      "37740761",
+      "35773742",
+      "31500382",
+      "37878219",
+      "30602391",
+      "27188753",
+      "36147486",
+      "33598484",
+      "38797830",
+      "34234459",
+      "35958460",
+      "32982206",
+      "31612481",
+      "35757392",
+      "36291136",
+      "30138363",
+      "26611531",
+      "36049413",
+      "36627660",
+      "35663995",
+      "35322335",
+      "36514015",
+      "35646965",
+      "35705467",
+      "31692035",
+      "34754625",
+      "31322209",
+      "31987036",
+      "35975032",
+      "35534828",
+      "33816621",
+      "35008808",
+      "36264868",
+      "32642095",
+      "37543352",
+      "37410515",
+      "36499614",
+      "29788729",
+      "38144299",
+      "32615059",
+      "36635346",
+      "34968391",
+      "30249878",
+      "35132271",
+      "36708238",
+      "35620387",
+      "34218797",
+      "37941536",
+      "29921304",
+      "33439992",
+      "34844599",
+      "35637927",
+      "35020130",
+      "36329882",
+      "33927789",
+      "35034029",
+      "32595699",
+      "34422793",
+      "27278879",
+      "38982154",
+      "30985693",
+      "35562622",
+      "32791489",
+      "33204705",
+      "38952087",
+      "37289769",
+      "35877019",
+      "34744455",
+      "33664765",
+      "35842645",
+      "31424269",
+      "38168477",
+      "34722766",
+      "33868359",
+      "25292042",
+      "27572852",
+      "34517544",
+      "32645133",
+      "23497388",
+      "28440408",
+      "34777635",
+      "38568479",
+      "34840985",
+      "36532492",
+      "33604823",
+      "30641220",
+      "32508878",
+      "34663380",
+      "32888289",
+      "31321566",
+      "32013628",
+      "34434654",
+      "31082644",
+      "35392084",
+      "35757478",
+      "35315700",
+      "37063877",
+      "37287971",
+      "36749553",
+      "39045407",
+      "37335738",
+      "38058710",
+      "37221323",
+      "38233686",
+      "28899360",
+      "37608666",
+      "38375420",
+      "32737302",
+      "37089789",
+      "37852410",
+      "37935719",
+      "38814181",
+      "38586587",
+      "29755291",
+      "37663293",
+      "37313754",
+      "38464370",
+      "16390543",
+      "38161353",
+      "35960497",
+      "39400526",
+      "38384278",
+      "34252346",
+      "39240275",
+      "38433276",
+      "37495990",
+      "36527108",
+      "27221156",
+      "36937519",
+      "38384475",
+      "37753829",
+      "36551878",
+      "31867044",
+      "39087405",
+      "38376054",
+      "39262940",
+      "37178875",
+      "38397416",
+      "37303632",
+      "38858283",
+      "38321095",
+      "38111702",
+      "39333589",
+      "39294340",
+      "37772261",
+      "39149137",
+      "33490107",
+      "38190860",
+      "36621662",
+      "37776984",
+      "37315831",
+      "37834287",
+      "28335719",
+      "36918563",
+      "37745614",
+      "38106435",
+      "36672163",
+      "37131406",
+      "30018738",
+      "38313596",
+      "38514488",
+      "37674826",
+      "39395408",
+      "37627195",
+      "38335855",
+      "30881689"
+    ],
+    "review": [
+      "36899621",
+      "34517544"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aimspress.com/article/doi/10.3934/mbe.2023194",
+        "provider": "American Institute of Mathematical Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1277",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

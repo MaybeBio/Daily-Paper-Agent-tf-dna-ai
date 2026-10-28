@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15003922/v2",
+  "title": "Kinetic and Thermodynamic Control of Benzo[a]phenoxazin Ligand Binding to Oncogenic c-MYC DNA G-Quadruplex",
+  "authors": "Ndege Simisi Clovis; Deepika Sardana; Nisha Kumari; Harsh Sahu; Parvez Alam; Ajay Kumar Chand; Mohammad Firoz Khan; Tarak Karmakar; Sobhan Sen",
+  "journal": "ChemRxiv",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合FCS与MD/增强采样模拟研究苯并[a]吩噁嗪配体与c-MYC启动子G-四链体DNA的结合热力学与动力学，虽非典型TF-DNA体系，但属于蛋白-DNA互作可迁移的配体-DNA结合建模，方法上AI/物理模拟命中，对象与互作轴部分匹配。",
+  "abstract": "G-quadruplex (G4) DNA structures in oncogenic promoter regions play crucial roles in gene regulation and represent promising targets for anticancer therapeutics. Polyaromatic small molecule ligands, including benzo[a]phenoxazin-based derivatives, selectively bind G4 structures through π-π stacking or groove/loop binding, thereby mitigating transcriptional activity. However, the kinetic and thermodynamic parameters governing ligand-G4 interactions, particularly the ligand’s residence time within the G4 complex, have not been sufficiently characterized, although the residence time has been found to be a key parameter of drug efficacy and resistance in proteins. Here, we combine fluorescence correlation spectroscopy (FCS) with atomistic molecular dynamics (MD) simulations, including well-tempered metadynamics (WT-MetaD), and infrequent metadynamics (iMetaD), to characterize the binding thermodynamics and kinetics of a substituted cationic benzo[a]phenoxazin ligand with parallel G4 DNA formed by a 22-mer c-MYC promoter sequence. Steady-state fluorescence titration shows high binding affinity of the ligand to the parallel c-MYC G4 ( K = (2.9 ∓ 0.3) x 10 7 M -1 ), primarily driven by π-π stacking of benzo[a]phenoxazin aromatic core on the solvent-exposed 5’-terminal G-tetrad, along with stabilizing hydrogen-bond and salt-bridge interactions. FCS measurements reveal rapid reaction-coupled diffusion kinetics, yielding a ligand association rate of ݇ k on = (2.4 ∓ 0.2) x 10 9 M -1 s -1 and a ligand residence time ( τ res ) of ~10 ms in the G4-bound state, showing that ligand dissociation is the rate-limiting step. WT-MetaD simulations, employing contact-pair-based and hydration collective variables, enable reconstruction of a converged free-energy surface that provides binding free energy consistent with the experimental value and reveals multiple π-stacked binding orientations of the ligand on the G-tetrad, separated by barriers of ~30–35 kJ mol -1 . Extensive iMetaD simulations capture highly directional ligand-dissociation pathways through the loop region formed by T7, G8 and G9 of G4-DNA and recover a ligand residence time of ~9 ms, which closely matches the FCS result and directly validate iMetaD-derived kinetics. These findings establish a quantitative benchmark between enhanced-sampling simulations and experimentally measured kinetic and thermodynamic parameters for the interaction of benzo[a]phenoxazin with c-MYC G4 DNA. This work provides a generalizable multiscale framework for elucidating deeper molecular insight into ligand-G4 recognition across energy and time scales, identifying ligand residence time as a critical parameter that may be optimized through rational design of next-generation benzo[a]phenoxazin-based G4-targeted compounds with better efficacy.",
+  "abstract_zh": "致癌基因启动子区域的G-四链体 (G-quadruplex, G4) DNA结构在基因调控中发挥关键作用，并代表抗癌治疗的有前景靶点。多芳香族小分子配体，包括基于苯并[a]吩噁嗪的衍生物，通过π-π堆积或沟槽/环结合选择性结合G4结构，从而抑制转录活性。然而，控制配体-G4相互作用的动力学和热力学参数，特别是配体在G4复合物中的停留时间，尚未得到充分表征，尽管停留时间已被发现是蛋白质中药物疗效和耐药性的关键参数。在此，我们结合荧光相关光谱 (fluorescence correlation spectroscopy, FCS) 与原子级分子动力学 (molecular dynamics, MD) 模拟，包括良态元动力学 (well-tempered metadynamics, WT-MetaD) 和低频元动力学 (infrequent metadynamics, iMetaD)，来表征一种取代阳离子苯并[a]吩噁嗪配体与由22-mer c-MYC启动子序列形成的平行G4 DNA的结合热力学和动力学。稳态荧光滴定显示该配体对平行c-MYC G4具有高结合亲和力 ( K = (2.9 ∓ 0.3) x 10 7 M -1 )，主要由苯并[a]吩噁嗪芳香核心在溶剂暴露的5‘末端G-四联体上的π-π堆积驱动，并伴随稳定的氢键和盐桥相互作用。FCS测量揭示快速反应耦合扩散动力学，得到配体结合速率 ݇ k on = (2.4 ∓ 0.2) x 10 9 M -1 s -1 和配体在G4结合态中的停留时间 ( τ res ) 约为10 ms，表明配体解离是限速步骤。WT-MetaD模拟采用基于接触对和水合作用的集体变量，能够重建收敛的自由能面，提供与实验值一致的结合自由能，并揭示配体在G-四联体上的多种π-堆积结合取向，这些取向由约30–35 kJ mol -1 的能垒分隔。广泛的iMetaD模拟捕获通过G4-DNA的T7、G8和G9形成的环区域的高度定向配体解离路径，并恢复约9 ms的配体停留时间，这与FCS结果密切匹配，直接验证了iMetaD衍生的动力学。这些发现为增强采样模拟与实验测量的苯并[a]吩噁嗪与c-MYC G4 DNA相互作用的动力学和热力学参数建立了定量基准。这项工作提供了一个可推广的多尺度框架，用于在能量和时间尺度上阐明配体-G4识别的更深层分子见解，将配体停留时间确定为关键参数，可通过合理设计下一代基于苯并[a]吩噁嗪的G4靶向化合物来优化，以获得更好的疗效。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15003922/v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15003922/v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15003922_v2/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39707003",
+  "title": "NMF typing and machine learning algorithm-based exploration of preeclampsia-related mechanisms on ferroptosis signature genes.",
+  "authors": "Liu, Xuemin; Zhang, Di; Qiu, Hui",
+  "journal": "Cell biology and toxicology",
+  "published_date": "2024-12-21",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用NMF聚类和机器学习筛选子痫前期铁死亡特征基因，并预测上游转录因子ARID3A构建调控网络，但核心是疾病分型与基因表达，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，仅转录因子预测为间接关联。",
+  "abstract": "BACKGROUND: Globally, pre-eclampsia (PE) poses a major threat to the health and survival of pregnant women and fetuses, contributing significantly to morbidity and mortality. Recent studies suggest a pathological link between PE and ferroptosis. We aim to utilize non-negative matrix factorization (NMF) clustering and machine learning algorithms to pinpoint disease-specific genes related to the process of ferroptosis in PE and investigate likely underlying biochemistry mechanisms. METHODS: The acquisition of four microarray datasets from the Gene Expression Omnibus (GEO) repository, the integration of these datasets, and the elimination of batch effects formed the core procedure. Genes related to ferroptosis in PE (DE-FRG) were identified. NMF clustering was performed on DE-FRG for unsupervised analysis, generating a heatmap for clustering validation via principal component analysis. Immunocyte infiltration differences between different subtypes were compared to elucidate the impact of ferroptosis on immune infiltration in the placental tissue of PE patients. The application of weighted gene co-expression network analysis (WGCNA) revealed important module genes linked to sample subtypes and disease status. The screening of PE feature genes involved employing SVM, RF, GLM, and XGB machine learning algorithms, and their predictive performance was validated using various analyses and an external dataset. The iRegulon tool was utilized to predict upstream transcription factors associated with ferroptosis feature genes, from which differentially expressed transcription factors were screened to construct a \"Transcription Factor-FRG-ferroptosis\" regulatory network. Finally, in vitro (cultured cells) and in vivo (rat) models were utilized to evaluate the regulatory mechanisms of ferroptosis in normal and PE placental tissues. RESULTS: Differential analysis of the four merged GEO datasets identified 41 DE-FRGs. NMF clustering based on DE-FRGs revealed two PE subtypes. Immunocyte infiltration analysis indicated significant differences in immune levels between these subtypes. Further WGCNA analysis identified module genes associated with PE and these two subtypes. Subsequently, we developed an integrated machine learning model incorporating five FRGs and validated its predictive efficacy using various analyses and an external validation dataset. Finally, based on the transcription factor ARID3A and ferroptosis feature genes EPHB3 and PAPPA2, we constructed a \"Transcription Factor-FRG-ferroptosis\" regulatory network, with in vitro and in vivo experiments confirming that ARID3A promotes the progression of PE and ferroptosis by activating the expression of EPHB3 and PAPPA2. CONCLUSION: This analytical journey illuminated a critical regulatory nexus in PE, underscoring the central influence of ARID3A on PE through ferroptosis-mediated pathways.",
+  "abstract_zh": "背景：全球范围内，子痫前期（pre-eclampsia, PE）对孕妇及胎儿的健康与生存构成重大威胁，显著增加发病率和死亡率。近期研究表明，PE与铁死亡（ferroptosis）之间存在病理学关联。本研究旨在利用非负矩阵分解（non-negative matrix factorization, NMF）聚类和机器学习算法，识别与PE中铁死亡过程相关的疾病特异性基因，并探讨可能的潜在生物化学机制。方法：从基因表达综合数据库（Gene Expression Omnibus, GEO）获取四个微阵列数据集，整合这些数据集并消除批次效应构成核心流程。鉴定PE中与铁死亡相关的基因（DE-FRG）。对DE-FRG进行NMF聚类以进行无监督分析，生成热图，并通过主成分分析验证聚类结果。比较不同亚型之间的免疫细胞浸润差异，以阐明铁死亡对PE患者胎盘组织中免疫浸润的影响。应用加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）揭示与样本亚型和疾病状态相关的重要模块基因。PE特征基因的筛选涉及使用SVM、RF、GLM和XGB机器学习算法，并通过多种分析和外部数据集验证其预测性能。利用iRegulon工具预测与铁死亡特征基因相关的上游转录因子，从中筛选差异表达转录因子，构建“转录因子-FRG-铁死亡”调控网络。最后，利用体外（培养细胞）和体内（大鼠）模型评估正常和PE胎盘组织中铁死亡的调控机制。结果：对四个合并的GEO数据集进行差异分析，鉴定出41个DE-FRG。基于DE-FRG的NMF聚类揭示两种PE亚型。免疫细胞浸润分析表明，这些亚型之间的免疫水平存在显著差异。进一步的WGCNA分析识别出与PE及这两种亚型相关的模块基因。随后，我们开发了一个包含五个FRG的整合机器学习模型，并通过多种分析和外部验证数据集确认其预测效能。最后，基于转录因子ARID3A和铁死亡特征基因EPHB3及PAPPA2，我们构建了“转录因子-FRG-铁死亡”调控网络，体外和体内实验证实ARID3A通过激活EPHB3和PAPPA2的表达促进PE进展和铁死亡。结论：这一分析过程揭示了PE中的关键调控节点，强调了ARID3A通过铁死亡介导途径对PE的核心影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39707003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39707003/",
+  "paper_page_path": "papers/pubmed/39707003/index.html"
+}

@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplemental figure legends) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the supplied text. Figures and supplemental data are referenced but not directly viewable.
+- **Shared manuscript claim summary** The authors propose that the ChAHP complex, through the chromatin remodeling activity of its CHD4 subunit, restricts transcription factor access to chromatin at specific loci, particularly SINE B2 retrotransposons, and that this activity is required for transcriptional silencing and antagonism of CTCF binding.
+- **Visible evidence base** Text descriptions of results from AlphaFold structure prediction, co-immunoprecipitation, RNA-seq, ChIP-seq (ADNP, CTCF, BRF1, POLR3A), guidedNOMe-seq, and mass spectrometry. Figures S1-S4 and Tables S1-S3 are referenced but not directly assessable.
+- **Missing materials affecting confidence** Actual figures and data plots, numerical values for effect sizes and statistical tests, detailed clone validation data, and the referenced companion preprint (Schnabl-Baumgartner et al.) are not available for direct inspection.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant open question in chromatin biology: the molecular mechanism by which the ChAHP complex regulates transcription and antagonizes CTCF binding. The authors use a well-designed panel of endogenously edited mouse embryonic stem cell lines to dissect the contributions of individual ChAHP subunits. The key finding, that CHD4 catalytic activity is required for ChAHP function while being dispensable for chromatin association, is conceptually interesting and distinguishes this work from prior models. The use of CHD4-ADNP fusion proteins to achieve complex-specific inactivation of CHD4 is an elegant approach. However, the manuscript as presented has several technical and interpretive gaps that need to be addressed before the central claims are fully established. The reliance on text descriptions without direct access to the figures limits a complete assessment, but several concerns are evident from the text alone.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, transcription regulation, epigenetics, and genome organization would be interested. The work provides mechanistic insight into how a sequence-specific transcription factor can recruit chromatin remodeling activity to modulate local chromatin architecture and transcription factor access, which is relevant to understanding gene regulation, development, and diseases such as autism spectrum disorder linked to ADNP mutations.
+- **Major strengths** The use of precise endogenous genome editing to create separation-of-function alleles is a major strength. The distinction between CHD4's role in chromatin association versus its catalytic activity is clearly articulated. The combination of transcriptomic, chromatin occupancy, and nucleosome positioning assays provides a multi-layered view of the system. The inclusion of a catalytically dead CHD4 control is critical and well-executed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the N-terminal truncation of ADNP (ADNPΔN) specifically disrupts CHD4 binding without affecting other ChAHP complex functions or interactions.
+  - **Evidence pointer** Figure 1C-D, Figure S1D-E, location not provided
+  - **Concern** The manuscript states that ADNPΔN "only affected incorporation of CHD4, but not HP1 into the ChAHP complex" and that auxiliary interactors were not affected. However, the text does not provide quantitative data on the stoichiometry of CHD4 loss or the sensitivity of the interaction assays. It is unclear whether a residual fraction of CHD4 remains associated, which could confound downstream phenotypic analyses. The validation of the ΔN allele appears to rely on co-IP and proteomics, but the text does not describe the statistical power or replicates for these experiments.
+  - **Why it matters** If the ΔN allele does not completely ablate CHD4 association, the observed phenotypes (e.g., SINE B2 derepression) could be underestimated, and the conclusion that CHD4 catalytic activity is required would be weakened. The specificity of the allele is the foundation of the entire study.
+  - **Resolution test** Provide quantitative immunoblot or mass spectrometry data showing the percentage of CHD4 remaining in the complex in ADNPΔN cells. Show that the interaction is reduced to background levels. Include a statistical comparison across at least three biological replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the CHD4-ADNP fusion proteins do not form "unnatural ChAHP-NuRD supercomplexes" and that the interactome is unchanged.
+  - **Evidence pointer** Figure S3A-C, location not provided
+  - **Concern** The text states that "there were no differentially interacting proteins between any of the chimeras and the unfused controls, apart from three variable background artefacts." This is a strong negative claim. The text does not describe the statistical threshold used to define "differentially interacting" or the number of replicates. It is also unclear whether the fusion of CHD4 to ADNP could alter the subcellular localization or stability of the complex, which would not necessarily be captured by interactome analysis.
+  - **Why it matters** If the fusion creates a neomorphic complex with altered activity or localization, the interpretation that the observed phenotypes are due solely to loss of CHD4 catalytic activity would be invalid.
+  - **Resolution test** Provide the full list of interactors with quantitative values and statistical cutoffs. Show that the fusion proteins localize to the nucleus and chromatin similarly to the unfused complex. Consider testing whether the fusion affects the expression or stability of other ChAHP components.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that "remodeling activity of ChAHP, not merely its presence, is necessary to efficiently antagonize CTCF binding at SINE B2s."
+  - **Evidence pointer** Figure 4A, Figure S4A, location not provided
+  - **Concern** The text describes increased CTCF occupancy at SINE B2s in cells with catalytically dead CHD4. However, the magnitude of the effect and its statistical significance are not reported in the text. The claim that this effect is "locationally specific" is based on the absence of changes at non-SINE regions, but the text does not describe the power of the analysis to detect such changes. The comparison between CHD4 WT-ADNP WT and CHD4 WT-ADNP ΔN chimeras showing no difference in CTCF signal is used to argue that the N-terminus is not involved, but this is a negative result that requires adequate statistical power.
+  - **Why it matters** The central conclusion of the paper rests on the specificity and magnitude of the CTCF occupancy changes. Without quantitative data, the reader cannot assess whether the effect is biologically meaningful.
+  - **Resolution test** Report the mean fold change and confidence intervals for CTCF occupancy at SINE B2s in each condition. Show a genome-wide distribution of CTCF changes to demonstrate specificity. Include a power analysis or at least a statement of the number of loci and replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that "catalytically inactive ChAHP is trapped on SINE B2s" based on increased ChIP occupancy.
+  - **Evidence pointer** Figure 3B-C, location not provided
+  - **Concern** The text reports increased occupancy of catalytically dead CHD4-ADNP at SINE B2s. The interpretation of "trapped" implies a kinetic defect, but ChIP-seq measures steady-state occupancy. The increased signal could also be due to increased chromatin accessibility or altered complex stability. The text does not discuss alternative explanations.
+  - **Why it matters** The "trapped" model is used to support the idea that remodeling activity is required for complex turnover or release. If the increased occupancy is due to other factors, the mechanistic model would need revision.
+  - **Resolution test** Perform a time-course experiment after inhibition of new protein synthesis or use a reversible ATPase inhibitor to test whether the catalytically dead complex has altered residence time. Alternatively, use FRAP or similar approaches to measure dynamics.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SINE B2 derepression in ADNPΔN and catalytically dead CHD4 conditions is due to loss of ChAHP remodeling activity and not to indirect effects.
+  - **Evidence pointer** Figure 4B, Figure S4B-C, location not provided
+  - **Concern** The text reports that SINE B2 expression is increased in cells with catalytically dead CHD4. However, the text does not describe whether this is a direct effect on the SINE B2 locus or a secondary consequence of global transcriptional changes. The observation that other transposon families are not affected is helpful, but the text does not report the overall transcriptional state of the cells.
+  - **Why it matters** If the catalytically dead CHD4 causes widespread transcriptional changes, the SINE B2 derepression could be an indirect effect. The claim of specificity is important for the model.
+  - **Resolution test** Show that the effect is specific to SINE B2s by reporting the full transcriptomic response. Consider performing nuclear run-on or similar assays to measure transcription directly. Show that the effect is not due to changes in cell proliferation or differentiation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "HP1 proteins are dispensable" for SINE B2 silencing and CTCF antagonism. This is a strong claim that is supported by the data, but the abstract does not mention that HP1 is still required for heterochromatin association, which is a nuance that could be misinterpreted.
+  - **Required correction** Consider adding a phrase such as "for these specific functions" to clarify the scope of the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** ChIP-seq methods, location not provided
+  - **Issue** The ChIP-seq methods describe the use of antibodies against the affinity tag (3xFLAG) for ADNP and CHD4-ADNP chimeras. It is not clear whether the same antibody was used for all conditions and whether the ChIP efficiency was comparable across the different cell lines.
+  - **Required correction** Provide details on antibody validation and ChIP efficiency, such as the percentage of input recovered, for each cell line.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion speculates that ChAHP may "disrupt nucleosome arrangements favorable for CTCF binding." This is a reasonable hypothesis, but the data presented do not directly test this. The manuscript would benefit from a more explicit statement of what additional experiments would be needed to support this model.
+  - **Required correction** Add a sentence acknowledging that direct evidence for nucleosome repositioning at CTCF sites is not yet available and suggest future experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure legends, location not provided
+  - **Issue** The text references "Figure 4D" in the results section for the ADNPΔN validation, but the figure legend is not provided in the text. It is unclear what this panel shows.
+  - **Required correction** Ensure all figure panels are described in the legends and that the main text refers to the correct panels.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** RNA-seq analysis
+  - **Evidence pointer** Differential expression analysis, location not provided
+  - **Issue** The text states that a fold change threshold of 2-fold and FDR < 0.05 were used. It is not clear whether the analysis accounted for the multi-mapping nature of transposable element reads, which is a known challenge.
+  - **Required correction** Describe how multi-mapping reads were handled in the differential expression analysis and whether the results are robust to different mapping strategies.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The specificity of the ADNPΔN allele and the CHD4-ADNP fusion proteins must be rigorously demonstrated with quantitative data. The central claim that remodeling activity is required for CTCF antagonism and SINE B2 silencing needs to be supported by quantitative occupancy and expression data with appropriate statistical analysis.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its use of separation-of-function alleles to dissect ChAHP subunit roles. The finding that CHD4 catalytic activity is dispensable for association but required for function is a novel contribution.
+  - Scientific importance: The work addresses a fundamental question about how chromatin remodelers are targeted and how they regulate transcription factor access. The implications for understanding gene regulation and disease are significant.
+  - Interdisciplinary readership: The topic is of interest to a broad audience in molecular biology, genetics, and epigenetics. The conceptual framework is accessible.
+  - Technical soundness: The experimental design is generally sound, but the lack of quantitative data in the text and the reliance on text descriptions without direct figure access raise concerns. The validation of the key genetic tools needs to be more rigorous.
+  - Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. The use of jargon is appropriate for the target audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the experimental approach is elegant. However, the current manuscript does not provide sufficient quantitative evidence to fully support the central claims. The authors must provide detailed validation of their genetic tools and quantitative analysis of their key phenotypes.
+
+## Risk / unsupported claims
+- The claim that HP1 proteins are "dispensable" for SINE B2 silencing and CTCF antagonism is supported by the text but requires the full dataset to be verified.
+- The claim that catalytically inactive ChAHP is "trapped" on SINE B2s is an interpretation of steady-state ChIP data that is not directly supported by the presented evidence.
+- The claim that the CHD4-ADNP fusion does not create "unnatural supercomplexes" is based on a negative result that is not fully described.
+- The claim that ADNPΔN specifically disrupts CHD4 binding without affecting other interactions is not fully supported by quantitative data in the text.
+- The model that ChAHP remodels nucleosomes to occlude transcription factor binding sites is speculative and not directly tested.

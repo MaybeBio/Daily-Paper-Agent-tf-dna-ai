@@ -1,0 +1,594 @@
+{
+  "identity": {
+    "pmid": "40783572",
+    "doi": "10.1038/s41467-025-62459-6",
+    "title": "Non-coding genetic elements of lung cancer identified using whole genome sequencing in 13,722 Chinese."
+  },
+  "content": {
+    "abstract": "A substantial portion of lung cancer-associated genetic elements in East Asian populations remains unidentified, underscoring the need for large-scale genome-wide studies, particularly on non-coding regulation. We conducted a whole genome sequencing (WGS)-based genome-wide scan in 13,722 Chinese individuals to identify regulatory elements associated with lung cancer. We verified common-variant-based loci by meta-analysis across the available East Asian studies. Integrating a genome-transcriptome reference panel of lung tissue in 297 Chinese, we bridged the variant-lung cancer associations, highlighting genes including TP63 and DCBLD1. Implementing the STAAR pipeline for rare variant aggregate analysis, we identified and replicated novel genes, including PARPBP, PLA2G4C, and RITA1 in the context of non-coding regulation. Adapting a deep learning-based approach, potential upstream regulators such as TP53, MYC, ZEB1, and NFKB1 were revealed for the lung cancer-associated genes. These findings offered crucial insights into the non-coding regulation for the etiology of lung cancer, providing additional potential targets for intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Male",
+      "China",
+      "Gene Expression Regulation, Neoplastic",
+      "Genetic Predisposition to Disease",
+      "Genome-Wide Association Study",
+      "*Lung Neoplasms/genetics",
+      "Transcription Factors/genetics",
+      "Tumor Suppressor Proteins/genetics",
+      "Whole Genome Sequencing",
+      "*East Asian People/genetics",
+      "NF-kappa B p50 Subunit"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Dan",
+        "Wu, Ming",
+        "Tan, Qilong",
+        "Sun, Liyang",
+        "Tu, Yuanxing",
+        "Zheng, Weifang",
+        "Zhu, Yun",
+        "Yang, Min",
+        "Hu, Kejia",
+        "Hu, Fang",
+        "Xu, Xiaohang",
+        "Zhou, Hanyi",
+        "Luo, Tian",
+        "Yang, Fangming",
+        "Li, Fuqiang",
+        "Jin, Xin",
+        "Tu, Huakang",
+        "Li, Wenyuan",
+        "Wu, Kui",
+        "Wu, Xifeng"
+      ],
+      "short_names": [
+        "Zhou D",
+        "Wu M",
+        "Tan Q",
+        "Sun L",
+        "Tu Y",
+        "Zheng W",
+        "Zhu Y",
+        "Yang M",
+        "Hu K",
+        "Hu F",
+        "Xu X",
+        "Zhou H",
+        "Luo T",
+        "Yang F",
+        "Li F",
+        "Jin X",
+        "Tu H",
+        "Li W",
+        "Wu K",
+        "Wu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5313-8164",
+        "ORCID: 0000-0002-1009-5387",
+        "ORCID: 0000-0002-1175-3580",
+        "ORCID: 0000-0002-2085-1457",
+        "ORCID: 0000-0001-7554-4975",
+        "ORCID: 0000-0001-6196-9964",
+        "ORCID: 0000-0002-6857-7231",
+        "ORCID: 0000-0003-2980-8129"
+      ],
+      "affiliations": [
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Department of Thoracic Surgery, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "The Second Affiliated Hospital of Zhejiang University School of Medicine, Lanxi Branch (Lanxi People's Hospital), Lanxi, Zhejiang, China.",
+        "The Second Affiliated Hospital of Zhejiang University School of Medicine, Lanxi Branch (Lanxi People's Hospital), Lanxi, Zhejiang, China.",
+        "Lanxi Hospital of Traditional Chinese Medicine, Lanxi, Zhejiang, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Department of Nutrition and Food Hygiene School of Public Health, and Center of Clinical Big Data and Analytics of The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+        "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China.",
+        "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+        "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China.",
+        "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+        "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China.",
+        "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+        "School of Medicine, South China University of Technology, Guangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China.",
+        "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China. wukui@genomics.cn.",
+        "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China. wukui@genomics.cn.",
+        "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China. wukui@genomics.cn.",
+        "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China. xifengw@zju.edu.cn.",
+        "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China. xifengw@zju.edu.cn.",
+        "Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China. xifengw@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Dan",
+        "short_name": "Zhou D",
+        "identifiers": [
+          "0000-0002-5313-8164"
+        ],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ming",
+        "short_name": "Wu M",
+        "identifiers": [
+          "0000-0002-1009-5387"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Qilong",
+        "short_name": "Tan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Liyang",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Zhejiang University School of Medicine, Lanxi Branch (Lanxi People's Hospital), Lanxi, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Yuanxing",
+        "short_name": "Tu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Zhejiang University School of Medicine, Lanxi Branch (Lanxi People's Hospital), Lanxi, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Weifang",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Lanxi Hospital of Traditional Chinese Medicine, Lanxi, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yun",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Min",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene School of Public Health, and Center of Clinical Big Data and Analytics of The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Kejia",
+        "short_name": "Hu K",
+        "identifiers": [
+          "0000-0002-1175-3580"
+        ],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Fang",
+        "short_name": "Hu F",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaohang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hanyi",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Tian",
+        "short_name": "Luo T",
+        "identifiers": [],
+        "affiliations": [
+          "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+          "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fangming",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+          "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fuqiang",
+        "short_name": "Li F",
+        "identifiers": [
+          "0000-0002-2085-1457"
+        ],
+        "affiliations": [
+          "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+          "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xin",
+        "short_name": "Jin X",
+        "identifiers": [
+          "0000-0001-7554-4975"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China.",
+          "School of Medicine, South China University of Technology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Huakang",
+        "short_name": "Tu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenyuan",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0001-6196-9964"
+        ],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Kui",
+        "short_name": "Wu K",
+        "identifiers": [
+          "0000-0002-6857-7231"
+        ],
+        "affiliations": [
+          "HIM-BGI Omics Center, BGI Research, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), Hangzhou, China. wukui@genomics.cn.",
+          "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI Research, Shenzhen, China. wukui@genomics.cn.",
+          "Institute of Intelligent Medical Research (IIMR), BGI Genomics, Shenzhen, China. wukui@genomics.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Xifeng",
+        "short_name": "Wu X",
+        "identifiers": [
+          "0000-0003-2980-8129"
+        ],
+        "affiliations": [
+          "Center of Clinical Big Data and Analytics of the Second Affiliated Hospital and School of Public Health, Zhejiang University School of Medicine, Hangzhou, China. xifengw@zju.edu.cn.",
+          "Zhejiang Key Laboratory of Intelligent Preventive Medicine, Hangzhou, China. xifengw@zju.edu.cn.",
+          "Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China. xifengw@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/10 06:16",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42606738",
+      "42154075",
+      "41772156",
+      "41153042"
+    ],
+    "refs": [
+      "37236969",
+      "37011206",
+      "36778668",
+      "36622818",
+      "36564505",
+      "36350676",
+      "36303018",
+      "36113475",
+      "35817977",
+      "35776125",
+      "35701858",
+      "35618720",
+      "35143424",
+      "34737426",
+      "34594039",
+      "34478634",
+      "34375979",
+      "34145039",
+      "33990031",
+      "33940558",
+      "33930287",
+      "33594163",
+      "33538338",
+      "33046894",
+      "33020666",
+      "32913098",
+      "32839606",
+      "32832598",
+      "32446175",
+      "31768069",
+      "31740966",
+      "31714156",
+      "31326317",
+      "30992449",
+      "30926968",
+      "30293088",
+      "30100085",
+      "29097801",
+      "28686856",
+      "28615365",
+      "28446615",
+      "28407145",
+      "27268795",
+      "27158780",
+      "26898760",
+      "26746459",
+      "26432245",
+      "26301843",
+      "26258848",
+      "26013918",
+      "26013599",
+      "25937444",
+      "25885710",
+      "25697820",
+      "24037378",
+      "23937229",
+      "23315928",
+      "23143601",
+      "23104886",
+      "22426310",
+      "22343431",
+      "20926424",
+      "20616382",
+      "19910308",
+      "18385676",
+      "17264676",
+      "16800000",
+      "16199517",
+      "12824425",
+      "10871867"
+    ],
+    "similar": [
+      "40783572",
+      "40205015",
+      "40050692",
+      "40221599",
+      "20871597",
+      "37802043",
+      "39126614",
+      "36971353",
+      "39547589",
+      "41197642",
+      "39003419",
+      "27132513",
+      "31326317",
+      "39713882",
+      "22367405",
+      "22310392",
+      "32231272",
+      "33909040",
+      "26563375",
+      "28025329",
+      "39991798",
+      "23044494",
+      "30529582",
+      "24377560",
+      "31204706",
+      "29054765",
+      "29193083",
+      "41099493",
+      "37236969",
+      "25917613",
+      "39428839",
+      "39966892",
+      "40728933",
+      "36113475",
+      "29949718",
+      "40241080",
+      "39362880",
+      "40479597",
+      "34727735",
+      "39428694",
+      "39023044",
+      "31883642",
+      "26208975",
+      "33042282",
+      "34446064",
+      "40251992",
+      "40473309",
+      "40297899",
+      "39817569",
+      "38906146",
+      "39192244",
+      "27759212",
+      "40552851",
+      "22479346",
+      "38970244",
+      "40926209",
+      "28449811",
+      "34297049",
+      "31935503",
+      "39103720",
+      "40419521",
+      "34788621",
+      "35915169",
+      "41144497",
+      "24092572",
+      "21610222",
+      "29248470",
+      "39736507",
+      "33606672",
+      "30528300",
+      "25006012",
+      "23762359",
+      "32986714",
+      "33887194",
+      "40436827",
+      "40294824",
+      "39332896",
+      "39117733",
+      "38355797",
+      "29956121",
+      "28104536",
+      "39218851",
+      "40719211",
+      "39738056",
+      "40882761",
+      "37524447",
+      "40118068",
+      "35368043",
+      "23532257",
+      "25994056",
+      "33471964",
+      "31879220",
+      "37425772",
+      "25937444",
+      "37398408",
+      "25344291",
+      "35246634",
+      "35413122",
+      "40730666",
+      "40045203"
+    ],
+    "review": [
+      "40783572",
+      "31326317",
+      "30529582",
+      "37236969",
+      "39023044",
+      "40251992",
+      "39192244",
+      "40926209",
+      "35915169",
+      "41144497",
+      "29248470",
+      "40436827",
+      "39117733",
+      "37524447",
+      "40118068",
+      "23532257",
+      "25344291"
+    ],
+    "pmc": [
+      "12335547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-62459-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40783572/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40783572",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

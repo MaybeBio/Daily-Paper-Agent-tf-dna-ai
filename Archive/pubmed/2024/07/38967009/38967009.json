@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "38967009",
+    "doi": "10.1093/nar/gkae566",
+    "title": "Integration of chromosome locations and functional aspects of enhancers and topologically associating domains in knowledge graphs enables versatile queries about gene regulation."
+  },
+  "content": {
+    "abstract": "Knowledge about transcription factor binding and regulation, target genes, cis-regulatory modules and topologically associating domains is not only defined by functional associations like biological processes or diseases but also has a determinative genome location aspect. Here, we exploit these location and functional aspects together to develop new strategies to enable advanced data querying. Many databases have been developed to provide information about enhancers, but a schema that allows the standardized representation of data, securing interoperability between resources, has been lacking. In this work, we use knowledge graphs for the standardized representation of enhancers and topologically associating domains, together with data about their target genes, transcription factors, location on the human genome, and functional data about diseases and gene ontology annotations. We used this schema to integrate twenty-five enhancer datasets and two domain datasets, creating the most powerful integrative resource in this field to date. The knowledge graphs have been implemented using the Resource Description Framework and integrated within the open-access BioGateway knowledge network, generating a resource that contains an interoperable set of knowledge graphs (enhancers, TADs, genes, proteins, diseases, GO terms, and interactions between domains). We show how advanced queries, which combine functional and location restrictions, can be used to develop new hypotheses about functional aspects of gene expression regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Enhancer Elements, Genetic",
+      "*Gene Expression Regulation",
+      "*Databases, Genetic",
+      "Transcription Factors/metabolism/genetics",
+      "Genome, Human",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mulero-Hernandez, Juan",
+        "Mironov, Vladimir",
+        "Minarro-Gimenez, Jose Antonio",
+        "Kuiper, Martin",
+        "Fernandez-Breis, Jesualdo Tomas"
+      ],
+      "short_names": [
+        "Mulero-Hernandez J",
+        "Mironov V",
+        "Minarro-Gimenez JA",
+        "Kuiper M",
+        "Fernandez-Breis JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6818-3443",
+        "ORCID: 0000-0002-9766-5919",
+        "ORCID: 0000-0001-7221-9843",
+        "ORCID: 0000-0002-1171-9876",
+        "ORCID: 0000-0002-7558-2880"
+      ],
+      "affiliations": [
+        "Departamento de Informatica y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigacion Biosanitaria (IMIB),30100 Murcia, Spain.",
+        "Department of Biology, Norwegian University of Science and Technology, NO-7491 Trondheim, Norway.",
+        "Departamento de Informatica y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigacion Biosanitaria (IMIB),30100 Murcia, Spain.",
+        "Department of Biology, Norwegian University of Science and Technology, NO-7491 Trondheim, Norway.",
+        "Departamento de Informatica y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigacion Biosanitaria (IMIB),30100 Murcia, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mulero-Hernández, Juan",
+        "short_name": "Mulero-Hernández J",
+        "identifiers": [
+          "0000-0002-6818-3443"
+        ],
+        "affiliations": [
+          "Departamento de Informática y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigación Biosanitaria (IMIB),30100 Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Mironov, Vladimir",
+        "short_name": "Mironov V",
+        "identifiers": [
+          "0000-0002-9766-5919"
+        ],
+        "affiliations": [
+          "Department of Biology, Norwegian University of Science and Technology, NO-7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Miñarro-Giménez, José Antonio",
+        "short_name": "Miñarro-Giménez JA",
+        "identifiers": [
+          "0000-0001-7221-9843"
+        ],
+        "affiliations": [
+          "Departamento de Informática y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigación Biosanitaria (IMIB),30100 Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Kuiper, Martin",
+        "short_name": "Kuiper M",
+        "identifiers": [
+          "0000-0002-1171-9876"
+        ],
+        "affiliations": [
+          "Department of Biology, Norwegian University of Science and Technology, NO-7491 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Fernández-Breis, Jesualdo Tomás",
+        "short_name": "Fernández-Breis JT",
+        "identifiers": [
+          "0000-0002-7558-2880"
+        ],
+        "affiliations": [
+          "Departamento de Informática y Sistemas, Universidad de Murcia, CEIR Campus Mare Nostrum, Instituto Murciano de Investigación Biosanitaria (IMIB),30100 Murcia, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Aug 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 06:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42109305",
+      "40510764"
+    ],
+    "refs": [
+      "37843125",
+      "37362886",
+      "37340506",
+      "36318264",
+      "36318240",
+      "36125173",
+      "36124642",
+      "36042591",
+      "35694152",
+      "35686641",
+      "35685360",
+      "35351890",
+      "35277481",
+      "34968246",
+      "34875418",
+      "34811351",
+      "34761274",
+      "34757206",
+      "34420874",
+      "34389511",
+      "34295901",
+      "34028961",
+      "33858480",
+      "33442000",
+      "33202367",
+      "32728249",
+      "32360910",
+      "32197056",
+      "32109364",
+      "32103011",
+      "31740966",
+      "31710663",
+      "31667506",
+      "31665430",
+      "31465963",
+      "31338012",
+      "31311566",
+      "31226276",
+      "31221079",
+      "31086298",
+      "31005339",
+      "30891562",
+      "30871473",
+      "30788500",
+      "30689845",
+      "30624654",
+      "30576482",
+      "30553552",
+      "30407590",
+      "30286773",
+      "30262496",
+      "30247654",
+      "30123079",
+      "29716618",
+      "29059320",
+      "28869592",
+      "28690838",
+      "28654729",
+      "28605766",
+      "28056037",
+      "27863239",
+      "27452946",
+      "27402881",
+      "27128319",
+      "26978244",
+      "26634919",
+      "26438538",
+      "26073855",
+      "25887522",
+      "25852852",
+      "25693563",
+      "25547603",
+      "25160912",
+      "24670763",
+      "24602174",
+      "24599251",
+      "24550936",
+      "24413672",
+      "24119843",
+      "23503198",
+      "23473601",
+      "23001124",
+      "22492191",
+      "22293552",
+      "22270183",
+      "22143240",
+      "22139910",
+      "22080554",
+      "21702939",
+      "21441907",
+      "21208450",
+      "21030441",
+      "20200009",
+      "19796395",
+      "17989687",
+      "17947323",
+      "17526593",
+      "17130149",
+      "17130148",
+      "16151403",
+      "15892872",
+      "15608251",
+      "15608248",
+      "14681455",
+      "14681407",
+      "14681372",
+      "10928714"
+    ],
+    "similar": [
+      "38967009",
+      "29335803",
+      "30086749",
+      "41359035",
+      "18426580",
+      "35176995",
+      "30689845",
+      "31805995",
+      "33001599",
+      "31626801",
+      "34341417",
+      "22011226",
+      "40436628",
+      "26424082",
+      "36318264",
+      "32986267",
+      "40660252",
+      "29363429",
+      "39819837",
+      "34710644",
+      "35715427",
+      "30704404",
+      "24603674",
+      "33022222",
+      "28863138",
+      "35346379",
+      "19081792",
+      "34429265",
+      "36043696",
+      "41373562",
+      "22703170",
+      "30871473",
+      "34718747",
+      "38101409",
+      "27634932",
+      "31500627",
+      "33497970",
+      "33273453",
+      "19450688",
+      "24996062",
+      "32431014",
+      "24967590",
+      "41107735",
+      "20808951",
+      "23972280",
+      "38513612",
+      "30555922",
+      "32197056",
+      "28605766",
+      "29871881",
+      "24265222",
+      "34134708",
+      "30545857",
+      "30549021",
+      "40579703",
+      "33320871",
+      "29378629",
+      "29187214",
+      "35346781",
+      "33497014",
+      "37170707",
+      "36609218",
+      "31125724",
+      "24042128",
+      "23326246",
+      "31299961",
+      "24604095",
+      "31363138",
+      "25843807",
+      "23282411",
+      "35508135",
+      "34913122",
+      "33749795",
+      "26558551",
+      "25994056",
+      "28549169",
+      "26686465",
+      "40902506",
+      "36693380",
+      "37312570",
+      "34149720",
+      "34187518",
+      "30527662",
+      "36179666",
+      "36909938",
+      "18039705",
+      "28351896",
+      "20363979",
+      "23650633",
+      "17430565",
+      "29539428",
+      "42068378",
+      "23595228",
+      "30780195",
+      "39727192",
+      "34226917",
+      "18395495",
+      "31289032",
+      "16204087",
+      "27826147"
+    ],
+    "review": [
+      "38967009",
+      "31626801",
+      "34429265",
+      "22703170",
+      "33497970",
+      "24996062",
+      "32197056",
+      "30549021",
+      "31125724",
+      "26558551",
+      "36693380",
+      "37312570",
+      "34149720",
+      "36909938",
+      "28351896",
+      "23650633",
+      "30780195",
+      "31289032"
+    ],
+    "pmc": [
+      "11347148"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38967009/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae566",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

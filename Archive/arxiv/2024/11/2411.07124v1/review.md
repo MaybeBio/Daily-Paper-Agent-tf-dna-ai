@@ -1,0 +1,128 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2411.07124v1)
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no supplementary materials, figures, or tables were available for inspection
+- **Shared manuscript claim summary** The authors propose that the azurin-derived peptide p28 binds to the N-terminal domain of HDM2, occupying its hydrophobic p53-binding pocket, thereby disrupting HDM2-p53 interactions and preserving p53's tumor-suppressive activity. This is supported by HADDOCK docking, 200 ns molecular dynamics simulations, contact frequency analysis, and MMPBSA binding energy calculations.
+- **Visible evidence base** Text only; figures and tables referenced but not provided
+- **Missing materials affecting confidence** All figures (Figures 1-11), Table 1, equations (Equations 1-2), simulation parameter details, and structural validation data were not accessible. This substantially limits the ability to verify the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and potentially important question: whether the azurin-derived peptide p28 can directly interfere with the HDM2-p53 interaction, beyond its previously reported p53-stabilizing effects. The computational approach combining docking, MD simulations, and binding energy calculations is appropriate for generating hypotheses about molecular mechanisms. However, the current presentation has several critical limitations. The absence of key methodological details, the lack of quantitative validation metrics, and the unavailability of figures and tables make it impossible to fully assess the technical soundness of the work. The claims regarding "arresting" the HDM2-p53 interaction are supported only indirectly through computational predictions, with no experimental validation. The manuscript would benefit from clearer presentation of the structural data, more rigorous analysis of simulation convergence, and a more cautious interpretation of the biological implications.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying p53 regulation and MDM2/HDM2 inhibitors; computational biophysicists interested in protein-peptide interactions; and investigators developing peptide-based anticancer therapeutics. The potential clinical relevance of p28, which has already been studied in clinical trials, adds translational interest.
+- **Major strengths** The study addresses a clinically relevant question with a well-established computational toolkit. The combination of docking, MD simulations, and MMPBSA analysis is a standard and appropriate approach for this type of investigation. The authors identify specific residue-level interactions that could inform future experimental studies. The focus on multiple conformations (D4, D5, D8) rather than a single docked pose is a strength, as it acknowledges the dynamic nature of protein-peptide interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that p28 "effectively binds and masks the binding pocket on HDM2 protein" and that this prevents HDM2 from binding p53.
+  - **Evidence pointer** Section 2.2, Section 3.3, Figures 5-9 (not provided)
+  - **Concern** The central claim that p28 masks the HDM2 binding pocket is based on visual inspection of docked structures and contact frequency maps, but the quantitative criteria for "masking" are not defined. The authors do not report the solvent-accessible surface area of the p53-binding pocket residues before and after p28 binding, nor do they quantify the degree of occlusion. The statement that "in D1 and D2, the p28 peptide binds near the active region" but "in D2, the active site remains accessible" suggests that proximity alone is insufficient to claim effective blocking. The selection of D4, D5, and D8 as the "three conformationally relevant structures" appears to be based on qualitative criteria that are not fully specified.
+  - **Why it matters** The central mechanistic claim of the paper rests on the assertion that p28 physically blocks the p53-binding site on HDM2. Without quantitative measures of pocket occlusion (e.g., pocket volume, buried surface area, or residue-level accessibility changes), the claim is not rigorously established. This is the foundation upon which the entire therapeutic hypothesis is built.
+  - **Resolution test** Provide quantitative analysis of the HDM2 p53-binding pocket accessibility in the apo versus p28-bound states, such as pocket volume calculations, buried surface area of key residues (PHE19, TRP23, LEU26 binding site), or a defined metric for "masking" with a clear threshold. Additionally, report the distance between p28 and the critical HDM2 residues (LEU54, ILE61, VAL93, etc.) over the simulation trajectory to demonstrate sustained occlusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report MMPBSA binding energies of −37.3 ± 7.87, −41.92 ± 4.49, and −41.57 ± 6.91 kcal/mol for the D4, D5, and D8 complexes, respectively, and interpret these as indicating "strong affinity" and "favorable binding energies."
+  - **Evidence pointer** Section 3.5, Figure 10 (not provided)
+  - **Concern** The MMPBSA method is known to be highly sensitive to the choice of parameters, including the dielectric constant, the number of snapshots, the entropy contribution (which is often neglected), and the specific implementation. The authors do not report which snapshots were used (e.g., the last 10 ns, 20 ns, or the entire trajectory), whether entropy was included, or what dielectric constants were employed. The standard errors reported (±7.87, ±4.49, ±6.91 kcal/mol) are large relative to the differences between the complexes, raising questions about whether the three complexes are truly distinct in their binding affinities. Furthermore, MMPBSA values in this range are typical for protein-peptide interactions and do not necessarily indicate "strong" binding in a biologically meaningful sense without experimental corroboration.
+  - **Why it matters** The quantitative binding energy is a key piece of evidence for the stability of the HDM2-p28 interaction. If the parameters are not specified or the errors are large, the reported values cannot be interpreted reliably. The claim of "strong affinity" requires either experimental validation (e.g., ITC, SPR) or at minimum a more rigorous computational treatment with convergence analysis.
+  - **Resolution test** Report the full MMPBSA parameter set, including the number of snapshots, the dielectric constants for solute and solvent, the inclusion or exclusion of entropy, and the convergence of the binding energy over time. Provide a decomposition of the energy terms (van der Waals, electrostatic, polar solvation, non-polar solvation) for each complex. If possible, compare with an experimental binding affinity for p28-HDM2 or a positive control (e.g., p53 peptide-HDM2).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "we found 3 structures that adapt different binding poses and in which the p28 peptide effectively binds and masks the binding pocket on HDM2 protein" and later identify these as D4, D5, and D8.
+  - **Evidence pointer** Section 2.2, Section 3.3
+  - **Concern** The criteria for selecting the three structures (D4, D5, D8) from the ten initial docking clusters are not clearly defined. The authors mention "conformationally relevant structures that effectively block the hydrophobic pocket, display structurally unique binding patterns, maintain sustained inter-chain interactions, and exhibit favorable binding energies," but these criteria are qualitative. It is unclear whether the selection was made before or after the MD simulations, and whether the selection was based on visual inspection, quantitative metrics, or a combination. The lack of a transparent selection protocol introduces potential bias and limits reproducibility.
+  - **Why it matters** The identification of the three key complexes is central to the subsequent analysis (contact maps, MMPBSA, and the second docking with p53). Without a clear, objective selection criterion, the reader cannot assess whether the choice of D4, D5, and D8 was justified or whether other complexes might have been equally or more relevant. This affects the validity of all downstream conclusions.
+  - **Resolution test** Provide a clear, stepwise selection protocol with quantitative thresholds (e.g., minimum contact frequency, maximum distance from the pocket, binding energy cutoff). Alternatively, present the analysis for all ten complexes and demonstrate that D4, D5, and D8 are indeed the most relevant based on predefined metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "by blocking HDM2's binding sites, the p28 peptide can help maintain p53's transcriptional activity, thereby enhancing its tumor-suppressive roles, including the induction of apoptosis and the arrest of the cell cycle in cancer cells."
+  - **Evidence pointer** Section 3.6, Section 4
+  - **Concern** The manuscript is purely computational. While the authors acknowledge this implicitly, the conclusions are framed in a way that suggests biological efficacy ("can help maintain p53's transcriptional activity"). The second docking study with p53 TAD shows that p53 makes "only limited contacts" with HDM2 in the presence of p28, but this is a computational prediction. No experimental evidence (e.g., co-immunoprecipitation, cellular assays, or animal models) is provided to support the claim that p28 actually disrupts HDM2-p53 interactions in a biological context. The leap from computational prediction to biological conclusion is not adequately qualified.
+  - **Why it matters** The title and abstract present this as a "novel anti-cancer pathway," which implies biological relevance. Overstating computational findings as established biological mechanisms can mislead readers and potentially influence future research directions. The scientific community would benefit from a clearer distinction between computational predictions and experimentally validated findings.
+  - **Resolution test** Either temper the conclusions to explicitly state that these are computational predictions requiring experimental validation, or provide experimental data (e.g., pull-down assays, cellular thermal shift assays, or functional assays in p53-competent cancer cell lines) to support the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors state that both HDM2 NTD and p28 were "equilibrated at 300 K and 1 bar pressure for 100 ns within the NPT ensemble" prior to docking. However, the force field used for this equilibration is not specified. Later, in Section 2.2, the CHARMM36m force field is mentioned for the MD simulations of the docked complexes, but it is unclear whether the same force field was used for the initial equilibration of the individual components.
+  - **Required correction** Specify the force field used for the initial equilibration of HDM2 NTD and p28. If CHARMM36m was used throughout, state this explicitly. Also clarify the water model and ion concentration used in the equilibration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The authors state that "Na+ and Cl- ions were added to neutralize the system and simulate physiological salt concentrations." The specific salt concentration is not reported. This is relevant because the ionic strength can affect the electrostatic interactions and the stability of the protein-peptide complex.
+  - **Required correction** Report the final salt concentration used in the simulations. If a specific physiological concentration (e.g., 150 mM NaCl) was targeted, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The production run is described as "200 ns" in the NVT ensemble. However, the equilibration protocol is described as "NVT for 1 ns, followed by pressure equilibration at 1 bar in the NPT ensemble for 1 ns." It is unusual to run a production simulation in the NVT ensemble after NPT equilibration, as constant pressure is typically maintained during production to allow proper density fluctuations. The rationale for switching back to NVT for production is not explained.
+  - **Required correction** Justify the choice of NVT ensemble for the production run, or consider using NPT for consistency with the equilibration protocol. If NVT was chosen for a specific reason (e.g., to maintain a constant box size), state this explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The MMPBSA calculations are described as being performed with the "gmxMMPBSA package." The authors do not report the number of snapshots used for the calculation, the specific PB equation parameters, or whether the entropy contribution was estimated. These details are critical for reproducibility.
+  - **Required correction** Provide the full set of MMPBSA parameters, including the number of snapshots, the solute and solvent dielectric constants, the grid spacing, and whether entropy was included. If entropy was neglected, state this and discuss the potential impact on the reported binding energies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Section 3.6
+  - **Evidence pointer** Section 3.6
+  - **Issue** The section describing the second docking of the HDM2-p28 complex with p53 TAD is brief and lacks quantitative detail. The authors state that "HDM2 is unable to interact with p53, making only limited contacts between p53 TAD and its own other solvent-exposed regions," but no scores, contact numbers, or structural comparisons are provided.
+  - **Required correction** Provide quantitative results from the second docking, such as HADDOCK scores, the number of intermolecular contacts, and a comparison with the native HDM2-p53 docking as a control. This would strengthen the claim that p28 disrupts the HDM2-p53 interaction.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors used PDB ID 6Q96 for the HDM2 NTD and PDB ID 4AZU for azurin. It is not stated which chains or residues were extracted from these structures, nor how the p28 peptide (residues LEU50-ASP77 of azurin) was excised. The preparation of the peptide (e.g., capping, protonation state) is also not described.
+  - **Required correction** Describe the structural preparation in detail, including the specific chains and residue ranges used, the protonation states, and any modifications (e.g., N-terminal acetylation, C-terminal amidation) applied to the p28 peptide.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction contains a grammatical error: "Previous studies has suggested" should be "Previous studies have suggested." Additionally, the sentence "Some works have shown that the p28 peptide (a small peptide derived from azurin having residues LEU50-ASP77 of azurin)" is redundant and awkwardly phrased.
+  - **Required correction** Correct the grammatical error and rephrase the sentence for clarity, e.g., "The p28 peptide, a 28-residue fragment derived from azurin (residues LEU50-ASP77), has been shown to stabilize the p53 tumor suppressor protein..."
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The sentence "These structures are ranked by the HADDOCK server based on the HADDOCK scores, which quantify the overall docking energy as a weighted sum of various interaction energy terms, and are presented in Table 1" is a run-on sentence that is difficult to follow.
+  - **Required correction** Break this into shorter sentences, e.g., "The structures are ranked by the HADDOCK server based on their HADDOCK scores. These scores quantify the overall docking energy as a weighted sum of various interaction energy terms. The results are presented in Table 1."
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The authors state that "the D1 trajectory showed slightly lower SASA values, indicating more extensive masking of the hydrophobic pocket by p28 in this model." However, D1 is not among the three selected complexes (D4, D5, D8). This is confusing: if D1 shows the most extensive masking, why was it not selected for further analysis?
+  - **Required correction** Clarify the relationship between the SASA analysis and the selection of D4, D5, and D8. If D1 was excluded for other reasons (e.g., instability, unfavorable binding energy), state this explicitly.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The second docking study with p53 TAD is described, but the details of this docking are not provided. It is unclear whether the same HADDOCK protocol was used, what the input structures were (e.g., the final MD frames of the HDM2-p28 complexes), and how the results were analyzed.
+  - **Required correction** Provide a full description of the second docking protocol, including the input structures, the HADDOCK settings, and the criteria used to assess whether p53 TAD could bind to the HDM2-p28 complex.
+
+## Risk / unsupported claims
+- The claim that p28 "arrests" the p53-HDM2 interaction is not directly supported by the computational data presented. The docking and MD simulations suggest that p28 can bind to the HDM2 N-terminal domain, but the functional consequence of this binding (i.e., disruption of p53 binding) is inferred rather than demonstrated.
+- The statement that p28 "can help maintain p53's transcriptional activity, thereby enhancing its tumor-suppressive roles, including the induction of apoptosis and the arrest of the cell cycle" is a biological conclusion that extends beyond the computational evidence provided. No experimental data are presented to support these functional claims.
+- The reported MMPBSA binding energies are presented as evidence of "strong affinity," but without experimental validation or a detailed parameter analysis, these values cannot be interpreted as biologically meaningful.
+- The claim that "in many of these docked complexes, the p28 peptide was found to bind near the region of the hydrophobic pocket of HDM2 NTD" is based on visual inspection of docked structures. Without quantitative measures of the distance to the pocket or the degree of overlap with the p53 binding site, this observation remains qualitative.
+- The selection of D4, D5, and D8 as the three key complexes is not justified by transparent, quantitative criteria, making the subsequent analysis difficult to evaluate.
+- The manuscript does not provide any comparison with known HDM2 inhibitors (e.g., nutlin-3a, RG7112) or with the p53 peptide itself, which would help contextualize the predicted binding affinity of p28.
+- The absence of all figures and tables in the provided material means that the structural claims, contact maps, and energy decompositions cannot be independently verified.

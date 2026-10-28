@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40650155",
+    "doi": "10.3390/ijms26136378",
+    "title": "Integrative Analysis of GATA3 Expression and Variants as Prognostic Biomarkers in Urothelial Cancer."
+  },
+  "content": {
+    "abstract": "GATA3 is a transcription factor involved in urothelial differentiation and is widely used as a diagnostic marker for urothelial carcinoma (UC). Although loss of GATA3 expression has been linked to more aggressive disease, its prognostic significance remains uncertain. Genetic variation within the GATA3 locus, particularly rs1244159, may influence protein expression and clinical outcomes. We conducted a case control study in Taiwan including 461 UC cases and 586 controls genotyped for four GATA3 SNPs. GATA3 expression was assessed via immunohistochemistry (IHC) in 98 tumor tissues. Logistic regression and Kaplan-Meier analyses were used to evaluate SNP associations and survival outcomes. An XGBoost-based machine learning model with SHAP (SHapley Additive exPlanations) was applied to rank survival predictors. The rs1244159 G allele was associated with a significantly reduced UC risk (adjusted OR = 0.48, p = 0.0231) and higher GATA3 expression (p = 0.0173). High GATA3 expression predicted improved overall survival (p = 0.0092), particularly among G allele carriers (p = 0.0071). SHAP analysis identified age, chemotherapy, and GATA3 expression as the top predictors of survival, consistent with Cox regression results. In conclusion, our integrative analysis suggests that the rs1244159 G allele modulates GATA3 expression and influences UC prognosis. Combining genomics, pathology, and machine learning, GATA3 may serve as a clinically useful biomarker for risk stratification and outcome prediction in UC.",
+    "keywords": [
+      "GATA3 expression",
+      "XGBoost-based machine learning",
+      "single-nucleotide polymorphism",
+      "survival",
+      "urothelial carcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*GATA3 Transcription Factor/genetics/metabolism",
+      "Female",
+      "Male",
+      "*Polymorphism, Single Nucleotide",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Prognosis",
+      "Middle Aged",
+      "Aged",
+      "Case-Control Studies",
+      "Gene Expression Regulation, Neoplastic",
+      "Kaplan-Meier Estimate",
+      "Alleles",
+      "*Urinary Bladder Neoplasms/genetics/pathology",
+      "Taiwan"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chung, Chia-Min",
+        "Chang, Han",
+        "Chang, Chao-Hsiang",
+        "Chang, Yi-Huei",
+        "Hsiao, Po-Jen",
+        "Lien, Chi-Shun",
+        "Chung, Chi-Jung"
+      ],
+      "short_names": [
+        "Chung CM",
+        "Chang H",
+        "Chang CH",
+        "Chang YH",
+        "Hsiao PJ",
+        "Lien CS",
+        "Chung CJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1759-2279",
+        "ORCID: 0000-0001-9673-2430"
+      ],
+      "affiliations": [
+        "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404328, Taiwan.",
+        "Department of Psychiatry and Center for Addiction and Mental Health, China Medical University Hospital, Taichung 404327, Taiwan.",
+        "Department of Pathology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan.",
+        "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan.",
+        "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan.",
+        "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan.",
+        "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan.",
+        "Department of Public Health, College of Public Health, China Medical University, Taichung City 406040, Taiwan.",
+        "Department of Medical Research, China Medical University Hospital, Taichung 404327, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chung, Chia-Min",
+        "short_name": "Chung CM",
+        "identifiers": [
+          "0000-0003-1759-2279"
+        ],
+        "affiliations": [
+          "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404328, Taiwan.",
+          "Department of Psychiatry and Center for Addiction and Mental Health, China Medical University Hospital, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Han",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Chao-Hsiang",
+        "short_name": "Chang CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yi-Huei",
+        "short_name": "Chang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Po-Jen",
+        "short_name": "Hsiao PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lien, Chi-Shun",
+        "short_name": "Lien CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, College of Medicine, China Medical University Hospital, China Medical University, Taichung 404327, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chung, Chi-Jung",
+        "short_name": "Chung CJ",
+        "identifiers": [
+          "0000-0001-9673-2430"
+        ],
+        "affiliations": [
+          "Department of Public Health, College of Public Health, China Medical University, Taichung City 406040, Taiwan.",
+          "Department of Medical Research, China Medical University Hospital, Taichung 404327, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/13 03:35",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41658449"
+    ],
+    "refs": [
+      "40200918",
+      "40002258",
+      "39499231",
+      "38492115",
+      "38402457",
+      "37210288",
+      "36152841",
+      "34778177",
+      "32183076",
+      "32099398",
+      "31500577",
+      "31494492",
+      "31469885",
+      "31300876",
+      "31020542",
+      "29727703",
+      "28428106",
+      "27612592",
+      "26374428",
+      "25533674",
+      "24745616",
+      "24373477",
+      "23599157",
+      "23284679",
+      "22982890",
+      "22877502",
+      "22711262",
+      "22607700",
+      "20972438",
+      "17684133",
+      "10415360"
+    ],
+    "similar": [
+      "40650155",
+      "28428106",
+      "38908022",
+      "36152841",
+      "31551051",
+      "31494492",
+      "33538412",
+      "39090342",
+      "33128085",
+      "40736702",
+      "23599157",
+      "30971548",
+      "35039449",
+      "27241168",
+      "40497570",
+      "37667882",
+      "29902578",
+      "24504018",
+      "29524970",
+      "28322854",
+      "26317312",
+      "31469885",
+      "39523403",
+      "37629741",
+      "24124001",
+      "34707176",
+      "24993315",
+      "41303462",
+      "39979991",
+      "40856420",
+      "30523270",
+      "34690921",
+      "34106817",
+      "22982890",
+      "30928413",
+      "26988609",
+      "30301440",
+      "27752905",
+      "38052269",
+      "25449628",
+      "24121175",
+      "34180731",
+      "24578300",
+      "35467245",
+      "34269312",
+      "24745616",
+      "24711443",
+      "37726118",
+      "41225338",
+      "37965687",
+      "39513266",
+      "17460449",
+      "39611920",
+      "24448324",
+      "30293951",
+      "24824028",
+      "27292588",
+      "27793038",
+      "34189951",
+      "24780825",
+      "26486740",
+      "37829946",
+      "40824692",
+      "40833211",
+      "37777995",
+      "27237631",
+      "31965287",
+      "38425344",
+      "40947536",
+      "41029134",
+      "18246597",
+      "25408144",
+      "41093922",
+      "27684731",
+      "28753857",
+      "21078439",
+      "26231311",
+      "31277094",
+      "32645760",
+      "32339354",
+      "41024411",
+      "28288473",
+      "28423734",
+      "28525382",
+      "36649695",
+      "40439821",
+      "39405808",
+      "33462316",
+      "19004027",
+      "23539739",
+      "22706858",
+      "26927384",
+      "40947805",
+      "28333147",
+      "24071011",
+      "31279874",
+      "30213195",
+      "40513427",
+      "24925221",
+      "27018307"
+    ],
+    "review": [
+      "40650155",
+      "37629741",
+      "34690921"
+    ],
+    "pmc": [
+      "12249568"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26136378",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40650155/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

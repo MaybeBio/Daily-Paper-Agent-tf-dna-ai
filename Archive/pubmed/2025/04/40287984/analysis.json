@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40287984",
+  "title": "Machine learning analysis of FOSL2 and RHoBTB1 as central immunological regulators in knee osteoarthritis synovium.",
+  "authors": "Gao, Kun; Huang, Zhenyu; Liao, Zhouwei; Wang, Yanfei; Chen, Dayu",
+  "journal": "The Journal of international medical research",
+  "published_date": "2025-04-27",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习筛选膝骨关节炎滑膜中的FOSL2和RHoBTB1作为免疫调节关键基因，但仅涉及基因表达与免疫浸润关联，无蛋白质-DNA互作建模或TF-DNA结合机制研究，方法为常规ML筛选而非AI/物理模拟互作建模。",
+  "abstract": "BackgroundKnee osteoarthritis is a debilitating disease with a complex pathogenesis. Synovitis, which refers to inflammation of the synovial membrane surrounding the joint, is believed to play an important role in the development and progression of knee osteoarthritis. To better understand the molecular mechanisms underlying knee osteoarthritis, we conducted a comprehensive analysis of gene expression in knee osteoarthritis synovium using machine learning.MethodsDifferentially expressed genes between knee osteoarthritis and control synovial tissues were analyzed using the GSE55235 dataset. We employed several machine learning algorithms, including least absolute shrinkage and selection operator and support vector machine-recursive feature elimination, to screen for key genes. Then, we validated the key genes using an external dataset (GSE51588) and an in vitro knee osteoarthritis animal model. CIBERSORT was used to compare immune cell infiltration levels between knee osteoarthritis and control synovial tissues and determine their relationship with the key genes. Finally, we performed a Connectivity Map analysis to screen for potential small-molecule compounds. Moreover, we conducted single-cell RNA sequencing analysis using knee joint tissues to annotate different subtypes of cells.ResultsA total of 930 differentially expressed genes were identified. Least absolute shrinkage and selection operator regression and support vector machine-recursive feature elimination identified FOSL2 and RHoBTB1 as key genes. The expression levels of both genes were further validated in the GSE51588 dataset as well as verified through an in vitro experiment involving a knee osteoarthritis mouse model. Multiple significant correlation pairs were found between the immune cell infiltration levels. We unveiled the genetic basis of knee osteoarthritis using genome-wide association study and specific signaling pathways through gene set enrichment analysis. The GeneCards database was used to obtain 3032 pathogenic genes associated with knee osteoarthritis, and we found that RHoBTB1 expression was significantly negatively correlated and FOSL2 expression was significantly positively correlated with interleukin-1beta expression. We predicted several small-molecule compounds based on Connectivity Map analysis. Finally, single-cell RNA sequencing analysis revealed the expression levels of the two key genes in chondrocytes and tissue stem cells.ConclusionFOSL2 and RHoBTB1 may play key roles in the pathogenesis of knee osteoarthritis, exhibiting correlations with immune cell infiltration levels. These findings indicate that these genes have potential as therapeutic targets. However, further research and validation are necessary to confirm their exact roles and therapeutic potential in knee osteoarthritis.",
+  "abstract_zh": "背景膝骨关节炎是一种致残性疾病，其发病机制复杂。滑膜炎，即关节周围滑膜组织的炎症，被认为在膝骨关节炎的发生和发展中起重要作用。为更深入理解膝骨关节炎的分子机制，我们利用机器学习对膝骨关节炎滑膜中的基因表达进行了全面分析。方法使用GSE55235数据集分析膝骨关节炎与对照滑膜组织之间的差异表达基因。我们采用多种机器学习算法，包括最小绝对收缩和选择算子（least absolute shrinkage and selection operator）和支持向量机-递归特征消除（support vector machine-recursive feature elimination），以筛选关键基因。随后，我们使用外部数据集（GSE51588）和体外膝骨关节炎动物模型验证了这些关键基因。采用CIBERSORT比较膝骨关节炎与对照滑膜组织中的免疫细胞浸润水平，并确定其与关键基因的关系。最后，我们进行了Connectivity Map分析以筛选潜在的小分子化合物。此外，我们使用膝关节组织进行了单细胞RNA测序分析，以注释不同的细胞亚型。结果共鉴定出930个差异表达基因。最小绝对收缩和选择算子回归及支持向量机-递归特征消除将FOSL2和RHoBTB1确定为关键基因。这两个基因的表达水平在GSE51588数据集中得到进一步验证，并通过涉及膝骨关节炎小鼠模型的体外实验得到证实。在免疫细胞浸润水平之间发现了多个显著的相关性对。我们通过全基因组关联研究揭示了膝骨关节炎的遗传基础，并通过基因集富集分析确定了特定信号通路。使用GeneCards数据库获取了3032个与膝骨关节炎相关的致病基因，我们发现RHoBTB1表达与白细胞介素-1β表达显著负相关，而FOSL2表达与白细胞介素-1β表达显著正相关。基于Connectivity Map分析，我们预测了若干小分子化合物。最后，单细胞RNA测序分析揭示了这两个关键基因在软骨细胞和组织干细胞中的表达水平。结论FOSL2和RHoBTB1可能在膝骨关节炎的发病机制中发挥关键作用，并与免疫细胞浸润水平相关。这些发现表明这些基因具有作为治疗靶点的潜力。然而，需要进一步的研究和验证以确认它们在膝骨关节炎中的确切作用和治疗潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40287984/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40287984/",
+  "paper_page_path": "papers/pubmed/40287984/index.html"
+}

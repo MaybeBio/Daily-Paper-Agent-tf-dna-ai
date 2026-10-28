@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38967009",
+  "title": "Integration of chromosome locations and functional aspects of enhancers and topologically associating domains in knowledge graphs enables versatile queries about gene regulation.",
+  "authors": "Mulero-Hernandez, Juan; Mironov, Vladimir; Minarro-Gimenez, Jose Antonio; Kuiper, Martin; Fernandez-Breis, Jesualdo Tomas",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-07-05",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建知识图谱整合增强子、TAD与转录因子结合数据，支持基因调控查询，虽涉及TF-DNA结合信息但无AI/物理模拟建模，属广义蛋白-DNA互作资源整合，方法可借鉴但深度不足。",
+  "abstract": "Knowledge about transcription factor binding and regulation, target genes, cis-regulatory modules and topologically associating domains is not only defined by functional associations like biological processes or diseases but also has a determinative genome location aspect. Here, we exploit these location and functional aspects together to develop new strategies to enable advanced data querying. Many databases have been developed to provide information about enhancers, but a schema that allows the standardized representation of data, securing interoperability between resources, has been lacking. In this work, we use knowledge graphs for the standardized representation of enhancers and topologically associating domains, together with data about their target genes, transcription factors, location on the human genome, and functional data about diseases and gene ontology annotations. We used this schema to integrate twenty-five enhancer datasets and two domain datasets, creating the most powerful integrative resource in this field to date. The knowledge graphs have been implemented using the Resource Description Framework and integrated within the open-access BioGateway knowledge network, generating a resource that contains an interoperable set of knowledge graphs (enhancers, TADs, genes, proteins, diseases, GO terms, and interactions between domains). We show how advanced queries, which combine functional and location restrictions, can be used to develop new hypotheses about functional aspects of gene expression regulation.",
+  "abstract_zh": "关于转录因子结合与调控、靶基因、顺式调控模块及拓扑关联结构域的知识，不仅由生物过程或疾病等功能关联所定义，还具有决定性的基因组位置特征。在此，我们综合利用这些位置和功能方面，开发新策略以实现高级数据查询。尽管已有许多数据库提供增强子相关信息，但缺乏一种能够标准化表示数据、确保资源间互操作性的模式。在本研究中，我们利用知识图谱对增强子和拓扑关联结构域进行标准化表示，同时整合其靶基因、转录因子、人类基因组位置数据，以及关于疾病和基因本体注释的功能数据。我们采用此模式整合了二十五个增强子数据集和两个结构域数据集，构建了迄今为止该领域最强大的综合资源。这些知识图谱已通过资源描述框架实现，并集成到开放获取的BioGateway知识网络中，生成一个包含互操作性知识图谱集合（增强子、TADs、基因、蛋白质、疾病、GO术语及结构域间相互作用）的资源。我们展示了如何将功能与位置限制相结合的高级查询，用于开发关于基因表达调控功能方面的新假设。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38967009/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38967009/",
+  "paper_page_path": "papers/pubmed/38967009/index.html"
+}

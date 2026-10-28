@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41782896",
+  "title": "Mixing features of transcription factors and genes enable accurate prediction of gene regulation relationships for unknown transcription factors.",
+  "authors": "Okubo, Risa; Morikura, Takashi; Hiki, Yusuke; Tokuoka, Yuta; Kobayashi, Tetsuya J; Yamada, Takahiro G; Funahashi, Akira",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2026-03-05",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用2D-LSTM混合TF氨基酸序列与靶基因核苷酸序列特征，预测已知及未知TF的调控关系，核心聚焦TF-DNA结合识别，方法为深度学习，高度匹配本课题。",
+  "abstract": "Identifying regulatory relationships between transcription factors (TFs) and genes is essential to understand diverse biological phenomena related to gene expression. Recently, deep learning-based models to predict TFs that bind to genes from nucleotide sequences of the target genes have been developed, yet these models are trained to predict known TFs only. Here, we developed a deep learning model, GReNIMJA (Gene Regulatory Network Inference by Mixing and Jointing features of Amino acid and nucleotide sequences), to predict gene regulation even by unknown TFs. Our model is designed to mix the features of the TF amino acid sequences and nucleotide sequences of the target genes using a 2D Long Short-Term Memory architecture and to perform binary classification with the aim of determining the presence or absence of a regulatory relationship. By explicitly modeling interactions between TFs and genes, our model can predict gene regulation for unknown TFs. The accuracy of our model in predicting regulatory relationships was 84.4% for known TFs (higher than those of conventional models) and 68.5% for unknown TFs; the latter is an unsolved task for conventional deep learning-based models. We expect our model to advance identification of unknown gene regulatory networks and contribute to the understanding of diverse biological phenomena.",
+  "abstract_zh": "识别转录因子（TFs）与基因之间的调控关系对于理解与基因表达相关的多种生物现象至关重要。近年来，基于深度学习模型从目标基因的核苷酸序列预测与之结合的转录因子已有所发展，但这些模型仅训练用于预测已知的转录因子。在此，我们开发了一种深度学习模型GReNIMJA（通过混合和连接氨基酸及核苷酸序列特征推断基因调控网络），旨在即使面对未知转录因子也能预测基因调控。该模型设计利用二维长短期记忆架构混合转录因子氨基酸序列与目标基因核苷酸序列的特征，并进行二元分类，以确定调控关系是否存在。通过显式建模转录因子与基因间的相互作用，我们的模型能够预测未知转录因子的基因调控。在预测调控关系方面，该模型对已知转录因子的准确率为84.4%（高于传统模型），对未知转录因子的准确率为68.5%；后者是传统深度学习模型尚未解决的任务。我们预期该模型将推进未知基因调控网络的识别，并有助于理解多种生物现象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41782896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41782896/",
+  "paper_page_path": "papers/pubmed/41782896/index.html"
+}

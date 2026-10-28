@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "40234555",
+    "doi": "10.1038/s41598-025-95875-1",
+    "title": "Molecular dynamics reveal potential effects of novel VHL variants on VHL-Elongin C binding in ccRCC patients from Eastern India."
+  },
+  "content": {
+    "abstract": "Renal cell carcinoma (RCC) is the one of the most fatal and frequent form of urological malignancy worldwide. The von Hippel-Lindau (VHL) tumour suppressor gene is a critical component of the VHL-Cullin2-ElonginB/C (VCB) complex that regulates the ubiquitin-mediated proteasomal degradation of proteins with mutations consistently associated with the development of clear cell renal cell carcinoma (ccRCC). Despite extensive investigations conducted worldwide, there is a notable lack of data concerning VHL mutations in sporadic ccRCC patients from India. Our study aimed to investigate the sporadic VHL mutations within the tumours of 210 ccRCC patients without a familial history of VHL disease. We extracted genomic DNA from tumour and adjacent normal tissues, PCR amplified and sequenced the VHL gene. In silico tools were used assess the damaging potential of missense variants on pVHL structure and stability. Protein-protein docking and protein flexibility molecular docking simulation study were employed to study the interaction between wild-type and mutated VHL models with Elongin C. Sequence analysis revealed seven novel missense mutations in patient tumour tissues p.(Val170Phe), p.(Arg69Cys), p.(Phe76Leu), p.(Glu173Asp), p.(Leu201Val), p.(His208Leu), p.(Arg205Pro). I-Mutant 2.0 indicated these mutations reduced pVHL stability (DeltaDeltaG < -0.5 kcal/mol). Protein Flexibility-Molecular Dynamic (MD) Simulation study indicated that mutations weaken the interaction of VHL with Elongin C, with V170F showing the most significant reduction in binding quality and stability. In conclusion, this study introduces novel genetic data from an understudied population and highlights the impact of VHL mutations on its interaction with Elongin C. These findings contribute to our understanding of the molecular basis of VHL-related pathologies and may guide future therapeutic strategies targeting these interactions.",
+    "keywords": [
+      "In silico",
+      "Novel mutations",
+      "Protein flexibility modelling",
+      "Renal cell carcinoma (RCC)",
+      "VHL"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Von Hippel-Lindau Tumor Suppressor Protein/genetics/metabolism/chemistry",
+      "India",
+      "*Carcinoma, Renal Cell/genetics/metabolism/pathology",
+      "*Kidney Neoplasms/genetics/metabolism/pathology",
+      "Molecular Dynamics Simulation",
+      "*Elongin/metabolism/chemistry/genetics",
+      "Male",
+      "Female",
+      "Protein Binding",
+      "Middle Aged",
+      "Molecular Docking Simulation",
+      "Mutation, Missense",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chatterjee, Srilagna",
+        "Paul, Nirvika",
+        "Das, Anwesha",
+        "Bank, Sarbashri",
+        "Bankura, Biswabandhu",
+        "Yadav, Ravi Prakash",
+        "Sarkar, Kunal",
+        "Saha, Soumen",
+        "Malakar, Subhajit",
+        "Choudhury, Sunirmal",
+        "Ghosh, Sudakshina",
+        "Das, Madhusudan"
+      ],
+      "short_names": [
+        "Chatterjee S",
+        "Paul N",
+        "Das A",
+        "Bank S",
+        "Bankura B",
+        "Yadav RP",
+        "Sarkar K",
+        "Saha S",
+        "Malakar S",
+        "Choudhury S",
+        "Ghosh S",
+        "Das M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Multidisciplinary Research Unit, Calcutta Medical College and Hospital, Kolkata, West Bengal, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India.",
+        "Department of Urology, Calcutta Medical College and Hospital, Kolkata, West Bengal, India.",
+        "Department of Urology, Institute of Postgraduate Medical Education and Research, Kolkata, West Bengal, India.",
+        "Department of Urology, Calcutta Medical College and Hospital, Kolkata, West Bengal, India.",
+        "Department of Zoology, Vidyasagar College for Women, 39 Sankar Ghosh Lane, Kolkata, 700006, India.",
+        "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India. madhuzoo@yahoo.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chatterjee, Srilagna",
+        "short_name": "Chatterjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Paul, Nirvika",
+        "short_name": "Paul N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Das, Anwesha",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Bank, Sarbashri",
+        "short_name": "Bank S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Bankura, Biswabandhu",
+        "short_name": "Bankura B",
+        "identifiers": [],
+        "affiliations": [
+          "Multidisciplinary Research Unit, Calcutta Medical College and Hospital, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Ravi Prakash",
+        "short_name": "Yadav RP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Sarkar, Kunal",
+        "short_name": "Sarkar K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Soumen",
+        "short_name": "Saha S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Calcutta Medical College and Hospital, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Malakar, Subhajit",
+        "short_name": "Malakar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of Postgraduate Medical Education and Research, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Choudhury, Sunirmal",
+        "short_name": "Choudhury S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Calcutta Medical College and Hospital, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Sudakshina",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, Vidyasagar College for Women, 39 Sankar Ghosh Lane, Kolkata, 700006, India."
+        ]
+      },
+      {
+        "full_name": "Das, Madhusudan",
+        "short_name": "Das M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, University of Calcutta, 35, Ballygunge Circular Road, Kolkata, 700019, India. madhuzoo@yahoo.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42598718"
+    ],
+    "refs": [
+      "38756153",
+      "36831657",
+      "36106637",
+      "35323939",
+      "34099013",
+      "33893808",
+      "33720516",
+      "33538338",
+      "32739800",
+      "32303605",
+      "31278395",
+      "30671662",
+      "30371878",
+      "30349421",
+      "30268910",
+      "29788355",
+      "29762700",
+      "29595810",
+      "29479523",
+      "29319301",
+      "29124493",
+      "28591624",
+      "28276433",
+      "28121507",
+      "28088083",
+      "27536699",
+      "27530247",
+      "27511743",
+      "27333362",
+      "27271258",
+      "27057652",
+      "26961346",
+      "26842889",
+      "26564077",
+      "26448684",
+      "26228213",
+      "25371412",
+      "24969085",
+      "24829462",
+      "23934783",
+      "23819870",
+      "23626751",
+      "23235262",
+      "23011899",
+      "22705278",
+      "22689647",
+      "21919503",
+      "21715564",
+      "21155973",
+      "20462252",
+      "20368728",
+      "20180029",
+      "19996202",
+      "19878677",
+      "19768677",
+      "19671042",
+      "19583233",
+      "19216840",
+      "18676741",
+      "18635227",
+      "18189328",
+      "16488999",
+      "16261165",
+      "15849316",
+      "15611064",
+      "14691445",
+      "12004076",
+      "11921283",
+      "11793370",
+      "11331612",
+      "11292861",
+      "11125097",
+      "10900011",
+      "10878807",
+      "10802651",
+      "10587522",
+      "10353251",
+      "10205047",
+      "9390023",
+      "9341197",
+      "8789115",
+      "8401235",
+      "7831309",
+      "1363935"
+    ],
+    "similar": [
+      "40234555",
+      "28052007",
+      "27530247",
+      "35110537",
+      "11526493",
+      "35323939",
+      "30890701",
+      "21715564",
+      "11865071",
+      "24969085",
+      "30565303",
+      "37883464",
+      "37088333",
+      "10807693",
+      "15854350",
+      "19408298",
+      "15870918",
+      "30066860",
+      "24755468",
+      "19759417",
+      "21949687",
+      "21725364",
+      "22825683",
+      "21258414",
+      "27126173",
+      "20871634",
+      "11331613",
+      "23867514",
+      "24446253",
+      "27845047",
+      "32303605",
+      "23785518",
+      "12097293",
+      "17919893",
+      "35448166",
+      "10900011",
+      "20567917",
+      "22022277",
+      "24727139",
+      "30523454",
+      "25915846",
+      "23298237",
+      "28853079",
+      "26707870",
+      "26298207",
+      "22156657",
+      "22234250",
+      "24112165",
+      "25533676",
+      "40240354",
+      "9624531",
+      "11536052",
+      "10441001",
+      "24821879",
+      "33151962",
+      "21602815",
+      "12853836",
+      "19401348",
+      "19755989",
+      "30943211",
+      "18676741",
+      "38698165",
+      "9652757",
+      "23007793",
+      "30522901",
+      "16669786",
+      "36316043",
+      "23178531",
+      "21547579",
+      "32194829",
+      "20560986",
+      "30514329",
+      "7660130",
+      "39592433",
+      "26018559",
+      "23744542",
+      "23558940",
+      "37587253",
+      "22804960",
+      "11517223",
+      "19030229",
+      "19228690",
+      "32209418",
+      "21042786",
+      "19551141",
+      "10408776",
+      "25700976",
+      "40332447",
+      "11792959",
+      "15824735",
+      "15932632",
+      "15100736",
+      "34851479",
+      "18245539",
+      "30194449",
+      "39945572",
+      "23709298",
+      "28329682",
+      "15809750",
+      "39336758"
+    ],
+    "review": [
+      "40234555",
+      "30565303",
+      "26298207",
+      "25533676",
+      "38698165"
+    ],
+    "pmc": [
+      "12000512"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-95875-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40234555/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, results interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The manuscript reports an in silico characterization of the Baby Boom (BBM) transcription factor, including ortholog identification across plant proteomes, subcellular localization prediction, protein-protein and protein-ligand interaction predictions, molecular docking with interacting partners, peptide design, and molecular dynamics simulation of selected complexes. The authors claim this is the first report of BBM structural interaction data and propose experimental validation pathways.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Tables 1-6 (referenced), Figures 1-11 (referenced), Supplementary Tables S1-S2 and Figure S1 (referenced)
+- **Missing materials affecting confidence** Supplementary files (Tables S1-S2, Figure S1) not provided; raw docking output files not provided; AlphaFold structure identifiers and confidence score distributions not fully specified; MD simulation trajectory data and convergence metrics not shown; force field parameter details incomplete; no statistical analysis of docking scores or cluster populations
+
+## Reviewer
+- **Overall assessment** The manuscript presents a broad in silico pipeline applied to a plant transcription factor of agricultural interest. The work combines multiple established bioinformatics tools in a sequential manner, but the scientific depth is limited by a largely descriptive presentation of results without quantitative validation or benchmarking. The docking scores and binding affinities are reported without comparison to known complexes or experimental data, and the MD simulation is applied to only two peptide complexes without clear justification for selection. The claims of novelty are partially overstated, as structure prediction and docking of BBM-like proteins have been explored elsewhere. The manuscript would benefit from clearer hypotheses, quantitative comparisons, and a more critical interpretation of prediction reliability.
+- **Who would be interested in the results, and why** Plant biotechnologists and crop improvement researchers interested in developmental regulators such as BBM for improving transformation and regeneration efficiency. Computational biologists working on transcription factor interaction prediction may find the pipeline of interest. Researchers studying somatic embryogenesis and apomixis could use the predicted peptide sequences as starting points for experimental validation.
+- **Major strengths** The study addresses a relevant biological problem with potential translational impact. The use of multiple complementary computational tools is appropriate. The identification of specific peptide sequences from interaction interfaces provides testable hypotheses. The phylogenetic and conservation analysis across 278 plant genomes is comprehensive. The discussion connects computational predictions to concrete experimental follow-ups.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that docking scores and binding affinities (ΔG, Kd) from PRODIGY provide reliable measures of interaction strength for BBM with its partners.
+  - **Evidence pointer** Section 3.3.1, Tables 2-3, Section 2.4
+  - **Concern** The docking protocol uses Hex with default parameters and reports raw scores without calibration against known protein-protein complex structures. PRODIGY predictions are presented as absolute binding affinities without acknowledging that these are estimates with substantial uncertainty. No comparison to experimental binding data for any BBM interaction is provided. The selection of "representative" structures from clustering is not justified with cluster population sizes or structural diversity metrics.
+  - **Why it matters** The central claims of the paper rest on the reliability of these interaction predictions. Without benchmarking or experimental correlation, the reported ΔG and Kd values cannot be interpreted as meaningful biophysical constants. This undermines the utility of the data for downstream experimental design.
+  - **Resolution test** Provide benchmarking of the docking and affinity prediction pipeline against a set of known protein complexes with experimental binding data. Report cluster populations and structural variability. Acknowledge the approximate nature of predicted affinities and frame them as relative rankings rather than absolute values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the identified peptide sequences provide "avenues for altered functional interactions and the design of peptide mimetics that can be experimentally validated for their role in tissue culture or transformation media."
+  - **Evidence pointer** Section 3.3.4, Tables 4-5, Section 4
+  - **Concern** The peptide design is based solely on contiguous stretches of interface residues from docking predictions. No functional validation, sequence conservation analysis of the peptides across species, or structural rationale for why these specific peptides would modulate BBM function is provided. The leap from computational interface prediction to functional peptide mimetics is not supported by any experimental evidence or detailed mechanistic reasoning.
+  - **Why it matters** The translational potential of this work is a major stated motivation. If the peptide predictions are not grounded in functional relevance or evolutionary conservation, the claims of practical utility are speculative.
+  - **Resolution test** Provide sequence conservation analysis of the predicted peptides across BBM orthologs. Discuss structural features that would support peptide-mediated modulation. If possible, include preliminary experimental data or cite related experimental systems where similar peptides have been shown to function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that MD simulation showed "higher stability of peptide P2 (dock10) in the complex with BBM fragment 1" and "unstable binding of the peptide P4."
+  - **Evidence pointer** Section 3.3.8-3.3.10, Figures 8-9
+  - **Concern** The MD simulation is performed for only two peptide complexes without clear selection criteria. The RMSD and RMSF analysis is descriptive, with no quantitative metrics such as average RMSD values, standard deviations, or convergence assessment. The simulation length of 50 ns is relatively short for drawing conclusions about binding stability. No replica simulations or error estimates are provided.
+  - **Why it matters** The conclusion that one peptide binds stably while another does not is a key result supporting the peptide design strategy. Without rigorous MD analysis, this conclusion is not robustly supported.
+  - **Resolution test** Provide quantitative RMSD and RMSF statistics with error bars from replicate simulations. Include convergence analysis and justification for simulation length. Clearly state the selection criteria for choosing P2 and P4 for MD.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The manuscript claims "This novel data could pave the way for exploitation of BBM's potential" and "this is the first report to present that data" regarding BBM-BRM interaction.
+  - **Evidence pointer** Section 1, Section 4
+  - **Concern** The novelty claim is not well contextualized. Previous structural and interaction studies on BBM and AP2/ERF transcription factors are not thoroughly reviewed. The claim of being "first" for BBM-BRM interaction is not verified against existing literature. The overall approach of combining AlphaFold structures with docking is not novel per se.
+  - **Why it matters** Accurate positioning of novelty is essential for assessing the contribution of the work to the field. Overstated novelty claims reduce credibility.
+  - **Resolution test** Conduct a thorough literature review and clearly state what is genuinely new. Compare findings with any prior structural or interaction data on BBM or closely related AP2/ERF factors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "AGLI5" is used inconsistently; the text refers to "AGL15" in the Introduction and Discussion but "AGLI5" in Methods and Results.
+  - **Issue** Inconsistent gene name usage may confuse readers.
+  - **Required correction** Standardize the gene name to AGL15 throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5
+  - **Evidence pointer** "The Gromacs2021 package (version 2021.5 https://doi.org/10.5281/zenodo.445, Accessed on 20 May 2022 from Texas, USA)"
+  - **Issue** The DOI appears incomplete and the access location is irrelevant.
+  - **Required correction** Provide the complete DOI and remove the access location.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** "The Hex tool removed all water molecules and other 'hetero' atoms from these input files."
+  - **Issue** It is unclear whether this removal was automatic or user-specified, and whether this affects the biological relevance of the docking.
+  - **Required correction** Clarify the water/heteroatom handling and discuss any potential impact on docking results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2.1
+  - **Evidence pointer** "The ligands that scored 0.04 or higher on the C-Sore indicate a more reliable prediction"
+  - **Issue** The threshold of 0.04 is not justified, and the C-Score scale is not explained.
+  - **Required correction** Provide context for the C-Score threshold and explain its meaning.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "A local protein database was created using Blast+, and Arabidopsis thaliana BBM (AtBBM, Q6PQQ4.2) was used as a query to run Blastp 2.9.0+ locally with an e value of 1 × 10−5"
+  - **Issue** The e-value threshold is permissive for identifying orthologs across all plant proteomes, potentially including false positives.
+  - **Required correction** Justify the e-value choice or discuss potential false positive rates.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking and affinity prediction reliability), R1-M2 (peptide functional claims without validation), R1-M3 (MD simulation rigor)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of existing tools to BBM is useful but not conceptually novel. Scientific importance: Moderate. The agricultural relevance of BBM is clear, but the computational predictions require experimental validation to have significant impact. Interdisciplinary readership: Limited. The work is primarily of interest to plant biotechnologists and computational biologists. Technical soundness: Weak. The lack of benchmarking, quantitative validation, and rigorous MD analysis undermines the reliability of the conclusions. Readability for nonspecialists: Acceptable. The manuscript is generally clear but includes some jargon and inconsistent terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational pipeline but lacks the quantitative rigor and validation needed to support its claims. Major revisions addressing the technical concerns, particularly benchmarking of docking and affinity predictions, and a more cautious interpretation of peptide functional potential, would be required before the case is established.
+
+## Risk / unsupported claims
+- The claim that predicted ΔG and Kd values represent reliable biophysical constants for BBM interactions is unsupported without benchmarking or experimental correlation.
+- The claim that designed peptides can modulate BBM function in tissue culture or transformation media is speculative and not supported by functional data.
+- The claim of being "first" to report BBM-BRM interaction data is not verified against existing literature.
+- The conclusion that P2 binds stably while P4 does not, based on a single 50 ns MD simulation without replicates, is not robustly supported.
+- The biological significance of the predicted ligands (e.g., chlorophyll-a, metal ions) is not discussed in terms of whether these are likely physiological interactors or artifacts of the prediction method.

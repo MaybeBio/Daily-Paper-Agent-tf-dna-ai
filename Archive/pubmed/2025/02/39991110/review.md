@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the supplied text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors propose that nine halogenated-phenazine compounds, previously shown to have antibiofilm activity against *Staphylococcus aureus*, act as allosteric inhibitors of the *Pseudomonas aeruginosa* LasR protein. Using blind molecular docking, they report all nine compounds bind to a distal (allosteric) site. Molecular dynamics (MD) simulations over 200 ns identified five compounds (C2, C3, C4, C6, HP-14) that remained bound at this site. MM-PBSA binding free energy calculations were performed for these five. The authors conclude these compounds could inhibit LasR dimerization and thereby prevent biofilm formation.
+- **Visible evidence base** Abstract; Introduction; Methods (protein and ligand preparation, docking, MD simulation, MM-PBSA); Results (virtual screening, MD stability analyses including ligand RMSD, protein RMSF, Rg, PCA, FEL, MM-PBSA); Discussion; Conclusions. Figures and tables are referenced but not provided in the supplied material.
+- **Missing materials affecting confidence** Figures 1–7 and Tables 1–2 are referenced but not included. Specific numerical data for RMSD, RMSF, Rg, PCA eigenvalues, FEL minima, and MM-PBSA energy components are not provided. Details of MD simulation setup (e.g., thermostat, barostat, equilibration protocols, number of runs) are incomplete. No information on the structural basis for identifying the allosteric site (e.g., comparison with known orthosteric site) is given. The source of the LasR structure (PDB 6V7X) and the preparation steps are described, but validation of the prepared structure is absent.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic: identifying novel antibiofilm agents against *P. aeruginosa* via allosteric inhibition of LasR. The computational workflow (docking, MD, MM-PBSA) is standard and appropriate for a preliminary in silico screen. However, the evidence presented is insufficient to establish the central claim that these compounds act as allosteric inhibitors that prevent LasR dimerization. Key quantitative results are missing, the analysis lacks critical controls (e.g., comparison with known LasR modulators, free-energy perturbation, or mutational validation), and the link between binding at a distal site and functional inhibition of dimerization is speculative. The manuscript would benefit from substantial additional analysis and clearer presentation of data.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, specifically those focused on quorum-sensing inhibition and antibiofilm strategies against *P. aeruginosa*. Computational chemists and structural biologists studying LasR and LuxR-type proteins may also find the allosteric site hypothesis of interest. The work could inform future experimental validation of halogenated phenazines as anti-virulence agents.
+- **Major strengths** The study addresses a clinically important problem (biofilm-related chronic infections) with a rational target (LasR). The use of MD simulations beyond static docking is commendable. The authors correctly identify that competitive inhibition has been the dominant approach and explore an allosteric mechanism, which is a valuable conceptual contribution. The manuscript is generally readable and logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Molecular docking and simulations, coupled with binding energy calculations, identified five compounds with potential as anti-biofilm agents."
+  - **Evidence pointer** Results section, Tables 1–2, Figures 3–7 (not provided)
+  - **Concern** The central claim that five compounds are stable allosteric inhibitors rests on data that are not presented in the manuscript text. No numerical values for binding energies (docking scores or MM-PBSA) are given in the text. The RMSD, RMSF, and Rg results are described qualitatively, but the actual plots are not available for assessment. Without these data, the reader cannot evaluate the magnitude of binding affinities, the stability of the complexes, or the significance of the observed fluctuations.
+  - **Why it matters** The conclusion that these compounds are promising leads depends entirely on quantitative measures of binding and stability. Qualitative descriptions are insufficient to support the claim, especially when the authors themselves note that some compounds (C1, C5, C7, C8) were unstable. The distinction between stable and unstable compounds must be backed by clear numerical criteria.
+  - **Resolution test** Provide the actual values for docking scores (Table 1) and MM-PBSA energies (Table 2) in the text or supplementary material. Include the RMSD, RMSF, and Rg plots (Figure 3) with clear axis labels and thresholds for stability. State the criteria used to classify compounds as "stable" versus "unstable."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "The ligands were binding at the distal site of the LasR protein... using the PyRx software."
+  - **Evidence pointer** Methods, Virtual screening; Results, High-throughput virtual screening; Figure 2 (not provided)
+  - **Concern** The identification of the "distal site" as an allosteric site is not rigorously established. The authors do not describe how this site was defined relative to the known orthosteric ligand-binding pocket. No comparison with the native ligand (3-O-C12-HSL) binding mode is provided. It is unclear whether the distal site is a bona fide allosteric pocket or an artifact of blind docking. Additionally, the docking protocol (grid box size, exhaustiveness, validation of docking parameters) is not described in sufficient detail.
+  - **Why it matters** The entire premise of the study is allosteric inhibition. If the distal site is not properly characterized or is not functionally relevant, the conclusions are unfounded. Blind docking can produce false positives, and without validation (e.g., re-docking of known ligands, comparison with crystal structures of LasR in different conformations), the claim of allosteric binding is weak.
+  - **Resolution test** Provide a detailed description of the docking protocol, including grid box dimensions and center, exhaustiveness, and any validation steps. Show a structural comparison between the orthosteric and distal sites, and discuss whether the distal site is conserved or has known functional significance. Consider performing docking of a known LasR agonist/antagonist as a positive control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "By inhibiting LasR, specifically targeting its allosteric site, the dimerization of LasR and subsequent biofilm formation could be prevented."
+  - **Evidence pointer** Discussion; Conclusions
+  - **Concern** The manuscript does not provide any evidence that binding at the distal site would actually prevent LasR dimerization. The authors cite interactions with residues "responsible for dimerization" based on a protein-protein docking study (Chowdhury and Bagchi), but no direct analysis of the dimer interface or the effect of ligand binding on dimer stability is presented. The MD simulations were performed on monomeric LasR (implied by the use of Chain A), so the effect on dimerization cannot be assessed from the current data.
+  - **Why it matters** The proposed mechanism of action is central to the study's significance. Without demonstrating that ligand binding at the distal site disrupts dimerization (e.g., via MD simulations of the dimer, free-energy calculations for dimerization, or mutational analysis), the claim remains speculative. The link between allosteric binding and functional inhibition is not established.
+  - **Resolution test** Perform MD simulations on the LasR dimer in the presence and absence of the stable compounds. Calculate the binding free energy of dimerization or assess changes in the dimer interface. Alternatively, use techniques such as metadynamics or umbrella sampling to evaluate the effect of ligand binding on the dimerization free-energy profile. If experimental data are available, cite them.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The systems were subjected to energy minimization using the steepest descent method to reduce steric clashes for 50,000 steps."
+  - **Evidence pointer** Methods, MD simulation study
+  - **Concern** The MD simulation methodology is described with insufficient detail. Key parameters such as the thermostat and barostat algorithms, coupling constants, equilibration time, and the number of independent simulation replicates are not specified. The choice of the CHARMM36 force field for the protein and CGenFF for the ligand is appropriate, but the conversion of the ligand from Spartan (B3LYP/6-31G*) to CHARMM parameters is not described. The use of a single 200 ns simulation per complex is a limitation, as convergence cannot be assessed.
+  - **Why it matters** Reproducibility is a cornerstone of computational studies. The lack of detail prevents other researchers from replicating the simulations. Moreover, the absence of replicate simulations or convergence checks (e.g., block averaging, RMSD convergence) weakens the reliability of the stability conclusions.
+  - **Resolution test** Provide a complete description of the MD protocol, including all parameters, equilibration steps, and the number of replicates. Show convergence plots (e.g., RMSD vs. time for the protein backbone) for each complex. If only single simulations were performed, acknowledge this limitation and discuss its impact on the conclusions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** "These compounds exhibited higher binding affinities to the distal site, suggesting their structural capability to interact with allosteric site residues of the LasR protein."
+  - **Evidence pointer** Results, MM-PBSA binding free energy calculations; Table 2 (not provided)
+  - **Concern** The MM-PBSA calculations are presented without comparison to a reference or control. It is unclear whether the reported binding energies are favorable in an absolute sense or relative to known LasR inhibitors. The authors do not discuss the entropic contribution, which was excluded, and its potential impact on the ranking of compounds. Additionally, the error estimates for the MM-PBSA values are not reported.
+  - **Why it matters** MM-PBSA is an approximate method, and its results are sensitive to the choice of parameters and the inclusion of entropy. Without error bars or a comparison to a known binder, the reader cannot judge whether the reported energies are meaningful. The ranking of compounds may change if entropy were included.
+  - **Resolution test** Report the standard deviation or standard error of the mean for the MM-PBSA energies. Compare the binding energies of the five stable compounds to that of the native ligand (3-O-C12-HSL) or a known LasR inhibitor. Discuss the potential impact of neglecting entropy and consider performing entropy calculations (e.g., normal mode analysis) for at least the top candidates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "nine halogenated-phenazine compounds" were identified as allosteric inhibitors, but the results indicate only five were stable. This is misleading.
+  - **Required correction** Revise the abstract to clarify that nine compounds were initially identified by docking, but only five showed stable binding in MD simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results, High-throughput virtual screening
+  - **Evidence pointer** Results, High-throughput virtual screening; Discussion
+  - **Issue** The text states "We considered all ligands because their poses were at the distal site," but later states "The rest of the compounds did not show any definite binding site." This is contradictory.
+  - **Required correction** Clarify which compounds were considered for MD simulations and why. If some compounds did not show a definite binding site, they should be excluded from the MD analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The citation "37 Vetrivel et al." appears twice in the Discussion with different contexts, and the sentence "Compounds for this study were labeled as C1–C9 and HP-14, and the primary scaffold was labeled as HP" is attributed to Vetrivel et al., but the original source of the compounds is Huigens et al. (reference 23). This is confusing.
+  - **Required correction** Correct the citation placement and ensure the source of the compounds is clearly attributed to Huigens et al.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The phrase "the compounds caused a very intense structural change at the domain" is vague and not supported by quantitative data.
+  - **Required correction** Replace with a specific description of the structural changes observed, referencing the relevant figures or numerical data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, MD simulation study
+  - **Evidence pointer** Methods, MD simulation study
+  - **Issue** The method states "We followed the methods of Kwarteng et al." and "We followed the methods of Alexander Kwarteng et al." without providing a reference or details. This is not reproducible.
+  - **Required correction** Provide a full citation for the Kwarteng et al. methods and summarize the key parameters in the text.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The statement "HP compounds produce reactive oxygen species (ROS) more than pyocyanin from the experimental evaluation" is based on a study against *S. aureus* (Gram-positive), but the authors extrapolate this to *P. aeruginosa* (Gram-negative) without justification.
+  - **Required correction** Acknowledge the species difference and discuss whether the mechanism is likely to be conserved, or temper the claim.
+
+## Risk / unsupported claims
+- The claim that the five compounds "could serve as promising leads for the treatment of biofilm and quorum-sensing-related infections" is unsupported without experimental validation or comparison to known inhibitors.
+- The assertion that binding at the distal site "will halt the dimerization of the LasR protein" is speculative and not directly tested in this study.
+- The statement that "the compounds perturbed the DNA-binding domain of the protein and interacted with amino acid residues involved in dimerization, thereby inhibiting biofilm formation" is an overreach; the MD simulations do not demonstrate functional inhibition.
+- The claim that "the compounds caused an increase in the compactness of the protein by restricting and causing rampant motions of residues" is contradictory and not supported by quantitative data.
+- The relevance of the ROS-mediated mechanism from *S. aureus* studies to *P. aeruginosa* is not established and is presented as a supporting argument without evidence.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The concept of targeting an allosteric site on LasR is not entirely novel, but the specific use of halogenated phenazines for this purpose is a new angle. However, the study does not offer a fundamentally new approach or insight beyond a standard in silico screen.
+- **Scientific importance** Moderate. If validated experimentally, allosteric inhibitors of LasR could be valuable. However, the current study is purely computational and does not provide functional data, limiting its immediate impact.
+- **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and antimicrobial drug discovery researchers. It does not have broad appeal across disciplines.
+- **Technical soundness** Weak. The methodology is incompletely described, and key results are not presented. The lack of controls, convergence checks, and quantitative data undermines the technical rigor.
+- **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and explains concepts clearly, but the absence of data and figures makes it difficult for any reader to fully assess the findings.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a plausible hypothesis and a standard computational workflow, but the evidence is insufficient to support the central claims. The authors must provide the missing data, strengthen the methodological description, and address the concerns about the allosteric site and functional relevance before the case can be made. A revised manuscript with complete results and additional analyses (e.g., comparison with known inhibitors, dimer simulations, convergence checks) could be reconsidered.

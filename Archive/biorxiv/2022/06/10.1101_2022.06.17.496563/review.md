@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors study BPTI variants with fluorinated derivatives of Abu at the P1 position (Lys15) and investigate whether additional water molecules in the S1 binding pocket of β-trypsin form specific non-covalent interactions that extend inhibitor function. They report PMFs of unbinding for four complexes, enzyme activity inhibition assays, and a crystal structure of the Lys15MfeGly-BPTI-β-trypsin complex (PDB 7PH1). Both experimental and computational data show a step-wise increase in inhibitor strength with increasing fluorination. The PMF shows a minimum for the encounter complex and an intermediate state before the bound state. Computational analysis of water structure and dynamics in the S1 pocket, including Grid Inhomogeneous Solvation Theory (GIST), indicates a highly dynamic water network with no rigidification or stabilizing energetic trend that could explain the increased inhibitor strength. The authors conclude that fluorination systematically changes binding affinity but not via a persistent water network, and suggest that hydrophobicity, encounter complex stability, and an additional PMF minimum in the bound state likely influence affinity more directly.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details for simulations and assays, crystallographic refinement statistics, PMF convergence criteria, GIST analysis parameters, and raw experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-defined hypothesis and a multi-method approach combining simulation, enzymology, and structural biology. The central finding, that fluorination increases inhibitor strength but not through a persistent water network, is potentially interesting and relevant to the fields of protein engineering and halogenation effects in biomolecular recognition. However, the abstract alone provides insufficient detail to assess the robustness of the computational and experimental methods, the statistical significance of the activity data, or the convergence and accuracy of the PMF and GIST calculations. The conclusion that water network effects do not explain the affinity trend is stated clearly, but the alternative explanations offered are speculative and not quantitatively supported in the abstract. The manuscript may be of interest to specialists in computational biophysics, protein crystallography, and fluorine chemistry in biology, but the evidence base visible here is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in computational chemistry and biophysics studying protein-ligand binding and solvation effects; structural biologists working on serine protease-inhibitor complexes; medicinal chemists and chemical biologists interested in fluorinated amino acids as modulators of protein-protein interactions; and method developers applying GIST or similar solvation theories to binding pockets.
+- **Major strengths** The study combines multiple complementary techniques, including MD-based PMF calculations, enzyme inhibition assays, and X-ray crystallography, to address a focused hypothesis. The step-wise fluorination series provides a systematic approach to probing electronic and steric effects. The explicit test of the water-network hypothesis using GIST is a rigorous and appropriate method. The negative result regarding water network rigidification is a valuable contribution that challenges a common assumption in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational results
+  - **Claim pointer** The PMF shows a minimum for the encounter complex and an intermediate state just before the bound state, and the PMF supports a step-wise increase in inhibitor strength with fluorination.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports PMF profiles for four complexes but provides no information on simulation length, force field parameters, sampling convergence, error bars, or the criteria used to define the bound, intermediate, and encounter states. Without these details, the reliability of the PMF minima and the claimed step-wise trend cannot be evaluated.
+  - **Why it matters** PMF calculations are highly sensitive to sampling quality and force field accuracy, particularly for fluorinated side chains where parameters may be non-standard. If the PMFs are not converged or the force field is inaccurate, the central computational conclusion is undermined.
+  - **Resolution test** Provide convergence metrics, error estimates, force field parameterization details for fluorinated residues, and a comparison of PMF profiles across independent simulations or replicas.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of experimental data
+  - **Claim pointer** Enzyme activity inhibition assays show a step-wise increase in inhibitor strength with increasing fluorination.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that inhibition assays show a step-wise trend but provides no quantitative data, such as IC50 or Ki values, error estimates, or the number of replicates. Without these, the statistical significance of the step-wise increase cannot be assessed.
+  - **Why it matters** The experimental inhibition data are a key pillar of the manuscript's central claim. If the differences between fluorinated variants are within experimental error, the step-wise trend may not be robust.
+  - **Resolution test** Report Ki or IC50 values with standard deviations, replicate numbers, and a statistical test comparing adjacent fluorination levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the central conclusion
+  - **Claim pointer** The water network in the S1 pocket is highly dynamic and does not show a rigidification or stabilizing trend that could explain the increase in inhibitor strength, and GIST confirms this result.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that GIST analysis of enthalpy and entropy confirms the absence of a stabilizing water network trend, but no numerical values, comparison across variants, or error analysis are provided. The conclusion that water effects do not explain the affinity trend is a strong negative claim that requires quantitative support.
+  - **Why it matters** The central conclusion of the manuscript rests on this negative result. Without quantitative GIST data, the reader cannot judge whether the analysis was sufficiently sensitive to detect meaningful differences in water energetics.
+  - **Resolution test** Provide enthalpy and entropy contributions per water molecule or per region in the S1 pocket for all four variants, with error estimates and a clear comparison to the affinity trend.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of alternative mechanisms
+  - **Claim pointer** Other effects, such as hydrophobicity of fluorinated amino acids and stability of the encounter complex, likely influence affinity more directly.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The alternative explanations are presented as speculation without quantitative support. No data on hydrophobicity, encounter complex stability, or the additional PMF minimum are provided in the abstract to substantiate these claims.
+  - **Why it matters** The manuscript's contribution would be strengthened if the alternative mechanisms were tested or at least quantitatively discussed. As presented, the conclusion is incomplete and leaves the reader without a clear mechanistic picture.
+  - **Resolution test** Provide quantitative analysis of hydrophobicity (e.g., solvent-accessible surface area or transfer free energies) and encounter complex stability (e.g., PMF well depths or lifetimes) for all variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "Grid Inhomogeneous Solvation Theory" and "encounter complex" without brief definitions, which may hinder readability for readers outside computational biophysics.
+  - **Required correction** Add a brief parenthetical explanation for GIST and "encounter complex" on first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Crystallographic data
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions a crystal structure (PDB 7PH1) but does not state the resolution or whether water molecules in the S1 pocket were modeled and refined.
+  - **Required correction** Include resolution and a statement on water molecule placement in the structure description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "inhibitor strength" and "binding affinity" interchangeably, which may be imprecise if the assays measure inhibition constants rather than thermodynamic binding affinities.
+  - **Required correction** Use consistent terminology and specify whether Ki, IC50, or binding free energies are being reported.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of step-wise affinity increase and absence of a water network effect cannot be evaluated without quantitative data and methodological details.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that water networks may act as an extension of fluorinated inhibitors is a creative and testable idea, and the negative result is a useful contribution. Scientific importance: The findings are relevant to understanding fluorination effects in biomolecular recognition, but the impact is moderate and likely of interest to a specialized audience rather than a broad readership. Interdisciplinary readership: The work bridges computational chemistry, structural biology, and enzymology, which is commendable, but the abstract does not frame the findings in a way that would attract nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and methodological detail is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without explanation, and the logical flow from data to conclusion is not fully transparent.
+
+## Risk / unsupported claims
+- The step-wise increase in inhibitor strength with fluorination is unsupported without quantitative inhibition data and statistical analysis.
+- The PMF minima for the encounter complex and intermediate state are unsupported without convergence and error information.
+- The conclusion that the water network does not explain the affinity trend is unsupported without quantitative GIST results.
+- The alternative mechanisms (hydrophobicity, encounter complex stability) are speculative and not supported by data in the abstract.
+- The claim that the crystal structure supports the computational findings is not assessable without structural details.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors describe a new method, SMADNE, that enables single-molecule characterization of fluorescently tagged DNA-binding proteins from human nuclear extracts, measuring binding lifetimes, association rates, positional specificity, and 1D diffusion. The method is claimed to be broadly applicable across seven native DNA repair proteins and two structural variants, targeting three forms of DNA damage, and to support simultaneous multicolor measurements of multi-protein complex assembly and disassembly kinetics. The authors conclude that SMADNE provides new insights into damage recognition and represents a universal technique for rapid characterization of protein-DNA interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, raw data, statistical analyses, and any validation experiments are not provided. The abstract contains no quantitative results, no control experiments, and no comparative benchmarks against existing single-molecule techniques.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological advance in single-molecule analysis of DNA-binding proteins from native nuclear extracts. The concept of combining rapid extraction with single-molecule fluorescence to measure kinetic and diffusion parameters is appealing and could have broad applicability in DNA repair and chromatin biology. However, the abstract provides no quantitative data, no validation of the method against established techniques, and no evidence for the claimed universality or multicolor capability. As presented, the claims are plausible but entirely unsupported by the visible evidence. The work may be of interest to the field, but the current abstract does not establish the technical soundness or reproducibility of the method.
+- **Who would be interested in the results, and why** Researchers in DNA repair, genome stability, and single-molecule biophysics would be the primary audience. The method could enable studies of native protein complexes without recombinant overexpression, which is attractive for understanding physiological DNA damage recognition. Additionally, investigators studying protein diffusion on DNA, multi-protein assembly kinetics, and chromatin-associated processes would find the approach relevant. The potential to measure multiple colors simultaneously may appeal to those interested in dynamic protein interactions on DNA.
+- **Major strengths** The proposed method addresses a real need in the field, namely the ability to study native, untagged or minimally tagged proteins from nuclear extracts at the single-molecule level. The abstract claims a broad applicability across multiple DNA repair pathways and damage types, which suggests a generalizable platform. The inclusion of multicolor detection for multi-protein complex dynamics is a forward-looking feature that could distinguish this method from existing approaches.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method "rapidly generates single-molecule information" and "determines binding lifetimes (k off ), events per second (∼k on ), positional dependence (specificity), and characterizes 1D diffusion along DNA."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, no representative traces, no histograms of binding lifetimes, no diffusion coefficient measurements, and no statistical comparisons. There is no evidence that the method can reliably extract these parameters from nuclear extracts, which are complex mixtures containing many competing proteins and potential contaminants.  
+  - **Why it matters** Without quantitative validation, the core claim that SMADNE can accurately measure kinetic and diffusion parameters is unsubstantiated. The presence of unlabeled competing proteins in nuclear extracts could alter binding kinetics or cause artifacts, and the abstract does not address how such effects are controlled.  
+  - **Resolution test** Provide representative single-molecule trajectories, histograms of binding lifetimes, and diffusion coefficient distributions for at least one protein, with comparison to purified protein controls and to published values from established single-molecule assays.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method "demonstrated wide applicability on three forms of DNA damage using seven native DNA repair proteins and two structural variants."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract lists proteins and damage types but provides no data showing successful measurements for each. It is unclear whether all seven proteins and two variants were successfully labeled, whether all yielded interpretable single-molecule data, and whether the three damage types were all tested with each protein.  
+  - **Why it matters** The claim of wide applicability is central to the paper's significance. If some proteins failed to label or produced poor signals, the universality claim would be weakened. The abstract does not disclose any failures or limitations.  
+  - **Resolution test** Present a summary table or figure showing successful measurements for each protein and damage type, including labeling efficiency, signal-to-noise ratios, and the number of independent replicates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "By measuring multiple fluorescent colors simultaneously, we additionally characterized the assembly and disassembly kinetics of multi-protein complexes on DNA."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract claims simultaneous multicolor detection and kinetic characterization of multi-protein complexes, but no data are shown. It is unclear how the method distinguishes specific complex assembly from coincidental colocalization, how cross-talk between fluorophores is managed, and whether the kinetics are measured with sufficient time resolution.  
+  - **Why it matters** Multi-protein complex dynamics are a key differentiator of the method. Without evidence of controlled two-color or three-color experiments, including negative controls and cross-talk correction, this claim remains speculative.  
+  - **Resolution test** Provide representative multicolor traces showing correlated binding and unbinding events, with control experiments using single-color labels and a discussion of cross-talk correction and false colocalization rates.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and rigor  
+  - **Claim pointer** The method "represents a universal technique that can be used to rapidly characterize numerous protein-DNA interactions."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the labeling strategy, the extraction protocol, the surface chemistry for DNA tethering, or the imaging conditions. Without these details, reproducibility cannot be assessed, and the claim of universality is premature.  
+  - **Why it matters** A method paper must provide sufficient technical detail for others to adopt the approach. The abstract lacks any mention of critical parameters such as protein concentration, buffer conditions, labeling efficiency, or photobleaching rates.  
+  - **Resolution test** Include a detailed methods section with step-by-step protocols, a list of required reagents and equipment, and a discussion of troubleshooting and limitations.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "unprecedented mechanistic details" is subjective and not supported by any comparison to existing methods.  
+  - **Required correction** Replace with a more neutral phrasing, such as "detailed mechanistic information," and let the data demonstrate novelty.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Protein list  
+  - **Evidence pointer** Abstract, list of proteins  
+  - **Issue** The abstract lists seven proteins and two structural variants but does not specify which are the structural variants.  
+  - **Required correction** Clarify which proteins are the structural variants and briefly state the rationale for including them.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "∼k on "  
+  - **Evidence pointer** Abstract, second sentence  
+  - **Issue** The notation "events per second (∼k on )" is imprecise, as events per second may not directly equal the association rate constant.  
+  - **Required correction** Define the relationship between measured events per second and k on , or use a more accurate term such as "apparent association frequency."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the abstract provides no quantitative data or validation for the core kinetic, diffusion, and multicolor claims. R1-M4 is non-blocking but essential for reproducibility. The absence of any figures, tables, or methods means the technical case is not established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of applying single-molecule analysis to native nuclear extracts is not entirely new, but the specific combination of rapid extraction, multicolor detection, and kinetic parameter extraction may offer a novel angle. However, the abstract does not clearly differentiate SMADNE from existing single-molecule approaches that use purified proteins or cell lysates.  
+  - Scientific importance: If validated, the method could enable studies of native protein complexes and post-translational modifications that are lost during purification, which would be of significant interest to DNA repair and chromatin biology. The importance is high but conditional on technical success.  
+  - Interdisciplinary readership: The method bridges biochemistry, biophysics, and cell biology, and could appeal to a broad readership in molecular biology and biophysics. The abstract is written in accessible language, but the lack of quantitative detail limits its immediate impact.  
+  - Technical soundness: Not assessable from the abstract. No data, controls, or statistical analyses are provided. The claims of measuring k off , k on , specificity, and diffusion are plausible but unverified.  
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, but terms like "1D diffusion" and "k off " may require some background. The structure is logical, and the main message is understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept, but the absence of any quantitative results, validation, or methodological detail means the technical claims cannot be evaluated. I would be supportive if the full manuscript provides robust single-molecule data, appropriate controls, and a detailed methods section that addresses the concerns above.
+
+## Risk / unsupported claims
+- The claim that SMADNE "rapidly generates single-molecule information" is unsupported, as no time or throughput data are provided.
+- The claim of measuring "binding lifetimes (k off ), events per second (∼k on ), positional dependence (specificity), and 1D diffusion" is unsupported, as no quantitative results are shown.
+- The claim of "wide applicability" across seven proteins and two structural variants is unsupported, as no per-protein data are provided.
+- The claim of characterizing "assembly and disassembly kinetics of multi-protein complexes" via multicolor detection is unsupported, as no multicolor data or controls are shown.
+- The claim that SMADNE "represents a universal technique" is an overstatement given the lack of evidence for generality and the absence of any discussion of limitations.

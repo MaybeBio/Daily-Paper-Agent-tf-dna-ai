@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors reconstruct sample-specific gene regulatory networks from bulk RNA-seq data of 87 AD and 67 NCI postmortem DLPFC samples, identify 22 TF-gene edges that classify AD vs NCI with 96% weighted accuracy, validate on single-cell pseudobulk data, and report network structural differences, pathway enrichments, and correlations with cognitive decline measures
+- **Visible evidence base** Main text, Tables 1, Figures 1-8, Supplementary Figures S1-S7, Supplementary Data S1-S2
+- **Missing materials affecting confidence** Supplementary figures and data files not provided; no code availability statement; no detailed hyperparameter settings for machine learning models; no details on single-cell validation sample composition
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of sample-specific gene regulatory network modeling to Alzheimer's disease transcriptomics. The core idea of capturing inter-individual regulatory variation is timely and relevant. However, several methodological concerns undermine confidence in the central claims. The sample size is modest, the validation approach using single-cell pseudobulk from the same cohort raises questions about independence, and the statistical framework for network comparisons and enrichment analyses is incompletely described. The correlation analyses with cognitive decline are presented without multiple testing correction details. The manuscript would benefit from clearer justification of key analytical choices and more rigorous statistical reporting.
+- **Who would be interested in the results, and why** Researchers in computational biology and network medicine, particularly those working on gene regulatory network inference and its application to neurodegenerative disease. The sample-specific network approach may interest method developers. Alzheimer's disease researchers focused on transcriptional dysregulation and potential regulatory drivers of cognitive decline would find the identified TF hubs and pathway enrichments relevant.
+- **Major strengths** The application of sample-specific GRN modeling to AD is a novel angle that addresses inter-individual heterogeneity. The use of both common and condition-specific edges for downstream analysis is thoughtful. The validation of TF-target edges against known binding motifs adds biological plausibility. The correlation of network edges with cognitive decline measures attempts to bridge molecular findings with clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that 22 key TF-gene interactions distinguish AD from NCI with 96% weighted accuracy and AUC of 0.936 on an independent test set
+  - **Evidence pointer** Results section "Sample-specific gene regulatory networks reveal key regulatory differences in AD"; Figure 1
+  - **Concern** The classification performance is reported on a single random train-test split for the initial RFE feature selection, with Monte Carlo cross-validation providing the averaged metrics. However, the feature selection is performed on the training portion of one split, and the reported 96% accuracy and AUC 0.936 appear to be from this single split. The Monte Carlo results show lower AUC (0.839 ± 0.072), indicating potential overfitting in the initial split. The manuscript does not clarify whether the 22 features were re-selected within each Monte Carlo iteration or fixed from the initial split, which is critical for unbiased performance estimation.
+  - **Why it matters** If the 22 features were selected on the full discovery set before cross-validation, the reported performance metrics are optimistically biased. This would undermine the claim of robust classification and the generalizability of the identified regulatory edges.
+  - **Resolution test** Clarify the feature selection procedure within the cross-validation framework. If features were fixed, re-run the analysis with feature selection nested inside each training fold and report the unbiased performance estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation independence
+  - **Claim pointer** The validation of the 22 key TF-gene edges on single-cell data from the same ROSMAP cohort
+  - **Evidence pointer** Results section "Sample-specific gene regulatory networks reveal key regulatory differences in AD"; Methods section "Data acquisition and cohort selection"
+  - **Concern** The validation dataset consists of single-cell transcriptomic data from 48 DLPFC ROSMAP samples from the same cohort as the discovery dataset. While the authors state these were collected in a separate study, the samples likely originate from the same individuals or the same population. This does not constitute an independent validation cohort. The manuscript does not clarify whether the 48 single-cell samples overlap with the 154 bulk samples used for discovery.
+  - **Why it matters** Validation on non-independent data inflates confidence in the generalizability of the findings. The claim of validation is weakened if the same individuals contribute to both discovery and validation sets.
+  - **Resolution test** Clarify the overlap between discovery and validation samples. If overlap exists, either exclude overlapping individuals from validation or re-frame the single-cell analysis as a technical replication rather than independent validation. Ideally, validate on an external cohort.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Confounding control
+  - **Claim pointer** The claim that identified TF-gene edges are associated with AD rather than age or other confounders
+  - **Evidence pointer** Results section "Cohort selection for RNA-Seq analysis" and "Sample-specific gene regulatory networks reveal key regulatory differences in AD"
+  - **Concern** The AD and NCI groups differ significantly in age (mean 89.8 vs 84.3 years, p = 1.11e-06). Age is a major risk factor for AD and is known to affect gene expression in the brain. The manuscript does not describe any adjustment for age in the classification model, network comparisons, or correlation analyses with cognitive decline. The APOE genotype distribution also differs significantly between groups, and this is not addressed as a potential confounder.
+  - **Why it matters** Without controlling for age and APOE genotype, the identified regulatory differences may reflect aging or genetic background rather than AD-specific pathology. This would compromise the biological interpretation of the findings.
+  - **Resolution test** Include age and APOE genotype as covariates in the classification model and correlation analyses. Alternatively, perform a matched analysis or demonstrate that the identified edges remain significant after adjustment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Multiple testing
+  - **Claim pointer** The claim that six TF-gene edges are significantly correlated with cognitive decline measures
+  - **Evidence pointer** Results section "Correlation analysis with cognitive decline"; Figure 6
+  - **Concern** The manuscript reports significant correlations between six TF-gene edges and cognitive decline measures but does not describe the multiple testing correction applied. With 22 edges tested against multiple cognitive domains, the number of comparisons is substantial. The p-value threshold and correction method are not stated.
+  - **Why it matters** Without appropriate multiple testing correction, the reported correlations may include false positives, weakening the claim of clinical relevance.
+  - **Resolution test** Report the number of tests performed, the correction method used (e.g., Benjamini-Hochberg FDR), and the adjusted p-values for the six significant edges.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The claim that the top-weighted regulatory edges correspond to known binding motifs
+  - **Evidence pointer** Methods section "Gene regulatory network modelling"
+  - **Concern** The manuscript states that the top-weighted regulatory edges were validated by assessing whether the inferred TFs had known binding motifs in the regulatory regions of their target genes, but no details are provided on how this assessment was performed. The method for motif matching, the database used, the statistical significance threshold, and the proportion of edges that passed this validation are not described.
+  - **Why it matters** This validation step is presented as evidence of biological plausibility, but without methodological details, the reader cannot assess its rigor or interpret the results.
+  - **Resolution test** Provide a detailed description of the motif validation procedure, including the motif database, matching algorithm, threshold criteria, and the number or proportion of edges that were confirmed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Gene regulatory network modelling"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript does not specify the version of PANDA or LIONESS used, nor the parameters for the PANDA algorithm (e.g., alpha, number of iterations). The code for the analysis is not provided.
+  - **Required correction** Provide software versions, parameter settings, and a code availability statement or link to a repository.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods section "Data acquisition and cohort selection"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript does not specify the ROSMAP data accession numbers or how to access the specific data files used.
+  - **Required correction** Provide the relevant accession numbers or URLs for the bulk and single-cell datasets used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Results section "Identification of hub genes"
+  - **Evidence pointer** Results section
+  - **Issue** The hub gene analysis identifies ZNF225, ZNF879, and ZNF548 as hubs, but the text mentions ZNF849 in the abstract and discussion while the results state ZNF879. This inconsistency needs clarification.
+  - **Required correction** Verify the correct gene symbol and ensure consistency throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The p-values for network metric comparisons are reported without indicating the statistical test used or whether adjustments for multiple comparisons were made.
+  - **Required correction** Specify the statistical test for each comparison and state whether multiple testing correction was applied.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The differential co-expression figure is described but the statistical approach for comparing correlation coefficients between groups is not described in the methods.
+  - **Required correction** Describe the method used to compare correlation coefficients between AD and NCI groups and report the associated statistics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (feature selection bias in classification), R1-M2 (non-independent validation), R1-M3 (uncontrolled confounders)
+- **Assessment against Nature-style criteria** Originality: The application of sample-specific GRN inference to AD is a novel contribution that extends prior population-level network analyses. The focus on inter-individual regulatory variation is conceptually interesting. Scientific importance: If the methodological concerns are resolved, the identification of regulatory hubs and edges associated with cognitive decline could have implications for understanding AD mechanisms and potential therapeutic targets. However, the current evidence does not fully establish this importance. Interdisciplinary readership: The work bridges computational biology, network science, and AD research, which could appeal to a broad readership. Technical soundness: Several methodological issues, including feature selection bias, non-independent validation, and inadequate confounder control, currently undermine technical soundness. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are insufficiently explained for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question with a potentially valuable approach, but the methodological concerns regarding classification bias, validation independence, and confounder control must be resolved before the central claims can be accepted. I would be supportive if these issues are adequately addressed with revised analyses and transparent reporting.
+
+## Risk / unsupported claims
+- The claim of 96% weighted accuracy and AUC 0.936 on an independent test set is potentially biased due to unclear feature selection procedures within cross-validation.
+- The validation on single-cell data from the same ROSMAP cohort is not independent validation, and the claim of validation is overstated.
+- The correlation of six TF-gene edges with cognitive decline measures is reported without multiple testing correction details, making the significance claims unverifiable.
+- The claim that top-weighted regulatory edges correspond to known binding motifs is unsupported due to lack of methodological detail.
+- The biological interpretation of network structural differences (e.g., smaller largest connected component in AD) is speculative without functional validation.
+- The claim that identified TF hubs (ZNF225, ZNF879/ZNF849, ZNF548) are AD-specific is not supported by differential analysis between conditions, only by their presence in the AD network.

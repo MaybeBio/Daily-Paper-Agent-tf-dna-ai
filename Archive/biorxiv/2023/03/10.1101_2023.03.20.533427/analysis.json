@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.20.533427",
+  "title": "DRPBind: prediction of DNA, RNA and protein binding residues in intrinsically disordered protein sequences",
+  "authors": "Ronesh Sharma; Tatsuhiko Tsunoda; Alok Sharma",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-23",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用SVM预测固有无序蛋白中的DNA/RNA/蛋白结合残基，虽涉及蛋白-DNA互作但非TF-DNA特异性体系，且方法为传统机器学习，对课题有参考价值但深度有限。",
+  "abstract": "DRPbind predicts three components: deoxyribonucleic acid (DNA) binding, ribonucleic acid (RNA) binding and protein-binding residues of query protein sequences. DRPbind utilizes independent sources of information encoded for each component predictor and relies on the information-rich profiles of protein evolutionary-based features, protein physicochemical-based features, and protein structural-based features. DRPbind employs protein profile-based features extracted from the bigrams of PSSM and HMM profiles. It also extracts features from physicochemical and structural attributes. DRPbind takes primary protein sequences as input, and through the Support Vector Machine (SVM) classifier, it provides the binding prediction. DRPbind is optimized based on a specific binding type and shown superior performance in terms of simultaneously predicting the DNA-binding, RNA-binding and protein-binding residues. The source code is available at https://github.com/roneshsharma/DNA-RNA-Protein-Binding/wiki",
+  "abstract_zh": "DRPbind预测三个组成部分：查询蛋白序列的脱氧核糖核酸（DNA）结合、核糖核酸（RNA）结合和蛋白质结合残基。DRPbind利用为每个组分预测器编码的独立信息来源，并依赖于基于蛋白质进化特征、蛋白质理化特征和蛋白质结构特征的信息丰富图谱。DRPbind采用从PSSM和HMM图谱的二元组中提取的基于蛋白质图谱的特征，同时从理化和结构属性中提取特征。DRPbind以初级蛋白质序列为输入，通过支持向量机（SVM）分类器提供结合预测。DRPbind针对特定结合类型进行了优化，并在同时预测DNA结合、RNA结合和蛋白质结合残基方面表现出优越性能。源代码可在https://github.com/roneshsharma/DNA-RNA-Protein-Binding/wiki获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.20.533427",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.20.533427",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.20.533427/index.html"
+}

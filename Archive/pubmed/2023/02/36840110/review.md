@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological rigor, and interpretive soundness of the bioinformatics study as presented; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors claim that curcumin binds with high affinity (ΔG = −11.43 kcal/mol, Ki = 0.12 mM) to the WRKY transcription factor (PDB ID 2AYD) in tomato, forming a stable complex over 100 ns molecular dynamics simulations, and that this interaction can reinforce drought tolerance in Solanum lycopersicum L., potentially outperforming genetic mismatch repair approaches
+- **Visible evidence base** Results sections 2.1–2.5, Tables 1–2, Figures 1–7 (referenced but not provided), Materials and Methods section 3.1–3.4
+- **Missing materials affecting confidence** Figures 1–7 not provided; Table 1 and Table 2 contents not provided; no experimental validation data; no raw simulation trajectories or docking output files; no statistical analysis details; no accession numbers for the WRKY protein beyond PDB ID 2AYD; no sequence alignment or homology data linking 2AYD to tomato WRKY proteins
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational study attempting to link curcumin binding to a WRKY transcription factor with drought tolerance in tomato. The core claims are not established from the provided evidence. Critical issues include: the target protein 2AYD is described as β-Secretase in the Methods section, not a WRKY transcription factor; the connection between the modeled protein and tomato WRKY proteins is not demonstrated; the comparison to mismatch repair is unsupported and conceptually flawed; and the leap from in silico binding to whole-plant drought tolerance is unjustified. The study lacks experimental validation, appropriate controls, and methodological transparency. While the computational workflow is standard, the interpretation and conclusions substantially overreach the data.
+- **Who would be interested in the results, and why** Computational biologists and plant stress researchers might have passing interest in the methodological application of docking and MD simulations to plant transcription factors. However, given the target protein misidentification and lack of experimental validation, the results would not be considered reliable by researchers working on WRKY-mediated drought tolerance. The study could serve as a cautionary example of overinterpretation in computational biology.
+- **Major strengths** The authors employ a standard computational pipeline (docking, MD simulation, MM-GBSA, PCA) that is appropriate for preliminary binding studies. The use of multiple analytical tools (RMSD, RMSF, Rg, hydrogen bonding, PCA) to assess complex stability is methodologically sound in principle. The manuscript addresses a relevant topic, as understanding WRKY interactions with small molecules could inform drought tolerance strategies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target protein identity and relevance
+  - **Claim pointer** The study claims to investigate WRKY transcription factor binding to curcumin, with the target denoted as 2AYD
+  - **Evidence pointer** Section 3.1, "Potential Target Preparation"
+  - **Concern** The Methods section explicitly states that the target protein is "β-Secretase protein" obtained from the PDB, yet the manuscript title, abstract, and throughout the text refer to this as a WRKY transcription factor. PDB ID 2AYD corresponds to β-secretase (BACE1), not any WRKY protein. This is a fundamental misidentification that invalidates the entire premise of the study. No sequence alignment, homology modeling, or structural comparison is provided to bridge this gap.
+  - **Why it matters** The central claim that curcumin binds to a WRKY transcription factor is based on a protein that is not a WRKY protein. All subsequent analyses (docking, MD, MM-GBSA) describe interactions with β-secretase, which has no established role in drought tolerance. The conclusions about WRKY-mediated drought resistance are therefore unsupported by the data.
+  - **Resolution test** The authors must provide unambiguous evidence that the protein studied is a WRKY transcription factor, including sequence alignment with tomato WRKY proteins, structural validation, and correction of the Methods section. Alternatively, the study must be reframed as a β-secretase binding study, with all WRKY-related claims removed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract and conclusions state that curcumin "has the potential to improve fruit quality and reinforce drought tolerance" and "enhance the drought resistance of cultivated tomato plants"
+  - **Evidence pointer** Abstract; Section 5, Conclusions
+  - **Concern** The study provides no experimental data linking curcumin binding to drought tolerance. All evidence is computational: docking scores, MD stability metrics, and binding free energy calculations. No plant experiments, gene expression analyses, physiological measurements, or field trials are presented. The leap from in silico binding affinity to whole-plant drought tolerance is a logical fallacy that is not supported by any direct or indirect evidence.
+  - **Why it matters** Drought tolerance is a complex physiological trait involving multiple pathways, tissues, and developmental stages. A computational binding study, even if correctly targeted, cannot establish phenotypic outcomes. The claims as stated are misleading and could lead readers to overestimate the practical implications of the findings.
+  - **Resolution test** The authors must either remove all claims about drought tolerance enhancement or provide experimental validation (e.g., transgenic plants, curcumin treatment assays, drought stress phenotyping) that directly tests the hypothesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparison validity
+  - **Claim pointer** The abstract and Discussion state that "curcumin performed better in a drop-in crop yield over time" compared to "mismatch repair-base technique"
+  - **Evidence pointer** Abstract; Section 4, Discussion
+  - **Concern** The comparison between curcumin treatment and mismatch repair is conceptually incoherent. Mismatch repair is a DNA repair mechanism, not a drought tolerance strategy. No data are presented comparing these approaches, and the claim of "performed better" is entirely unsupported. This appears to be a non-sequitur that confuses distinct biological processes.
+  - **Why it matters** This unsupported comparison undermines the scientific credibility of the manuscript. It suggests a lack of understanding of the underlying biology and introduces a false dichotomy that could mislead readers.
+  - **Resolution test** The authors must either remove this comparison entirely or provide a clear, evidence-based rationale for why mismatch repair is a relevant comparator, along with data supporting the claimed superiority of curcumin.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The study reports specific numerical results including binding energy, Ki, RMSD, and MM-GBSA values
+  - **Evidence pointer** Sections 2.1–2.5; Tables 1–2; Figures 3–7
+  - **Concern** The manuscript lacks critical methodological details needed to evaluate the results. The docking grid coordinates, box dimensions, and validation of docking protocol are not described. The MD simulation setup (e.g., system size, equilibration protocol, number of replicates) is incomplete. The MM-GBSA calculation parameters are not specified. Figures 1–7 are referenced but not provided, making it impossible to assess the quality of the data. The statement "Every piece of data is measured three times" (Section 2.3) is unclear and does not constitute a proper statistical analysis.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete methodological details and access to the actual data figures, the results cannot be independently verified or replicated. This is particularly important for computational studies where small variations in protocol can significantly affect outcomes.
+  - **Resolution test** The authors must provide complete methodological details, including all parameters, software versions, and validation steps. All figures and tables must be included. Statistical analysis must be properly described with appropriate tests and error estimates.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological relevance
+  - **Claim pointer** The study implies that curcumin binding to the target protein has functional significance for drought tolerance
+  - **Evidence pointer** Abstract; Sections 2.2, 2.3, 4, 5
+  - **Concern** Even if the target protein were correctly identified as a WRKY transcription factor, the study does not demonstrate functional relevance. WRKY proteins bind to W-box DNA sequences to regulate gene expression. The manuscript does not address whether curcumin binding affects DNA binding, transcriptional activity, protein stability, or subcellular localization. No functional assays are presented. The binding site described (composed of leucine, valine, proline, etc.) is not mapped to any known functional domain of WRKY proteins.
+  - **Why it matters** Binding affinity alone does not imply biological function. A compound could bind to a protein without affecting its activity. The claimed relevance to drought tolerance requires demonstration that curcumin modulates WRKY function in a way that impacts stress responses.
+  - **Resolution test** The authors must either provide functional evidence (e.g., electrophoretic mobility shift assays, transcriptional reporter assays, protein stability assays) or substantially weaken their claims to state only that curcumin binds to the protein in silico, without implying functional consequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Section 3.1, ligand identifier
+  - **Evidence pointer** Section 3.1
+  - **Issue** The Methods section states curcumin was downloaded with "Chem I. D: 92158" and the URL points to "Lupenone", not curcumin. Later, Section 3.4 uses "C.I.D: 969516" for curcumin. These identifiers are inconsistent, and the URL appears to reference a different compound.
+  - **Required correction** Correct the compound identifiers and URLs. Verify that the correct PubChem CID for curcumin (likely 969516) is used consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, "inhibitory concentration"
+  - **Evidence pointer** Section 2.2
+  - **Issue** The term "inhibitory concentration (Ki)" is used, but the study does not demonstrate inhibition of any biological activity. Ki is typically used for enzyme inhibition, which is not established here. The use of this term implies a functional effect that is not supported.
+  - **Required correction** Replace "inhibitory concentration" with "binding affinity" or "dissociation constant" as appropriate, and avoid implying inhibition without functional data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract; Sections 1, 2, 4, 5
+  - **Issue** The manuscript contains numerous grammatical errors and awkward phrasings that impede readability. Examples include "regulatory capacity" without specification, "wild range" instead of "wide range," "drop-in crop yield" instead of "drop in crop yield," and "confronting global correlated motion" which is unclear.
+  - **Required correction** The manuscript requires thorough language editing by a native English speaker or professional editing service to improve clarity and professionalism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Citation and referencing
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Sections 1, 4
+  - **Issue** The manuscript makes broad claims about WRKY transcription factors, drought responses, and curcumin properties without adequate citation support. For example, the claim that "WRKY transcription factors can interact with a variety of proteins" and the discussion of mismatch repair lack specific references.
+  - **Required correction** Add appropriate citations for all factual claims and contextual statements. Ensure that references are relevant and current.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figures 1–7
+  - **Evidence pointer** Sections 2.1–2.5
+  - **Issue** Figures are referenced but not provided in the manuscript text. Based on the descriptions, figure labels and captions are not clear. For example, Figure 5a and 5b are described but the distinction is not obvious, and Figure 7 is described as showing PCA results but the description is confusing.
+  - **Required correction** Provide all figures with clear, self-explanatory captions. Ensure that all panels are labeled and described accurately in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (target protein misidentification), R1-M2 (unsupported phenotypic claims), R1-M3 (invalid comparison), R1-M4 (incomplete methodology and missing data)
+- **Assessment against Nature-style criteria** Originality: Low. The application of docking and MD simulations to plant transcription factors is not novel, and the specific claims are undermined by the target protein error. Scientific importance: Not established. The study does not provide reliable evidence that curcumin interacts with WRKY proteins or that such interaction would confer drought tolerance. Interdisciplinary readership: Limited. The study would only appeal to a narrow computational biology audience, and the errors would likely deter plant biologists. Technical soundness: Poor. The target protein misidentification, incomplete methods, and lack of validation are fundamental flaws. Readability for nonspecialists: Below acceptable. The manuscript contains numerous grammatical errors and unclear phrasing that obscure the scientific content.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has fundamental flaws that preclude publication in its current form. The target protein misidentification alone is disqualifying. Even if this were corrected, the lack of experimental validation and the overreach of claims would require major revisions and additional data.
+
+## Risk / unsupported claims
+- The claim that curcumin binds to a WRKY transcription factor is unsupported because the target protein (PDB 2AYD) is β-secretase, not a WRKY protein
+- The claim that curcumin "reinforces drought tolerance" or "enhances drought resistance" in tomato is unsupported by any experimental evidence
+- The comparison between curcumin and "mismatch repair-base technique" is conceptually invalid and unsupported by data
+- The claim that curcumin "has the potential to improve fruit quality" is entirely unsupported
+- The statement that "all four complexes achieved well stability" (Section 2.5) is unclear and unsupported, as only one complex (2AYD-curcumin) is described
+- The reported Ki value of 0.12 mM is presented without context or comparison to known inhibitors
+- The claim that curcumin "performed better in a drop-in crop yield over time" is unsupported and appears to reference data not presented in the manuscript

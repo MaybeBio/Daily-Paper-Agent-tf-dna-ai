@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.06.716755",
+  "title": "Deep-Plant: a supervised foundation model for plant regulatory genomics",
+  "authors": "Daoud A; Roy S; Zeng H; Bao X; Zhang Z; Wang J; Parodi P; Reddy AS; Liu J; Ben-Hur A",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出植物调控基因组学的监督式基础模型Deep-Plant，从序列预测染色质状态（含TF结合），虽非聚焦TF-DNA互作机制，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Large-scale sequence-to-function deep learning models have demonstrated unparalleled ability to model biological sequences and have revolutionized the field of regulatory genomics. However, the majority of such efforts have centered on human and mammalian systems, leaving plant regulatory genomics comparatively underexplored. To address this gap, we introduce D eep -P lant , a supervised foundation model trained to predict chromatin state directly from genomic sequence. In contrast to large language models, which are trained in a selfsupervised manner using sequence alone, our model is trained to predict chromatin state across tissues and conditions. Training the model on a large collection of genome-wide experiments including DNA accessibility, transcription factor binding, and histone modifications, provides it with added biological context beyond the sequence itself. We demonstrate that the resulting model is an effective platform for developing accurate models of regulatory activity relevant to gene expression and active enhancers, exhibiting large improvements in speed, accuracy, and interpretability over the complementary approach of fine-tuning DNA language models. D eep -P lant models are available in Arabidopsis and rice, and work well as a building block for sequence modeling in related species such as corn. Together, these results establish supervised, chromatin-informed foundation models as a practical and effective paradigm for regulatory sequence modeling in plants.",
+  "abstract_zh": "大规模序列-功能深度学习模型已展现出无与伦比的生物序列建模能力，并彻底改变了调控基因组学领域。然而，此类研究大多集中于人类和哺乳动物系统，使得植物调控基因组学相对探索不足。为弥补这一空白，我们引入了Deep-Plant，一种受监督的基础模型，训练其直接从基因组序列预测染色质状态。与仅利用序列进行自监督训练的大型语言模型不同，我们的模型被训练用于跨组织和条件预测染色质状态。在包括DNA可及性、转录因子结合和组蛋白修饰在内的大量全基因组实验数据上训练该模型，为其提供了超越序列本身的额外生物学背景。我们证明，所得到的模型是开发与基因表达和活性增强子相关的调控活性精确模型的有效平台，在速度、准确性和可解释性方面相较于微调DNA语言模型的补充方法展现出显著提升。Deep-Plant模型适用于拟南芥和水稻，并可作为玉米等相关物种序列建模的有效构建模块。综合这些结果，确立了受监督的、染色质信息基础模型作为植物调控序列建模的实用且有效范式。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716755",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716755",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.06.716755/index.html"
+}

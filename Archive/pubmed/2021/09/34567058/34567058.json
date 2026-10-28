@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "34567058",
+    "doi": "10.3389/fgene.2021.667866",
+    "title": "Systematic Evaluation of DNA Sequence Variations on in vivo Transcription Factor Binding Affinity."
+  },
+  "content": {
+    "abstract": "The majority of the single nucleotide variants (SNVs) identified by genome-wide association studies (GWAS) fall outside of the protein-coding regions. Elucidating the functional implications of these variants has been a major challenge. A possible mechanism for functional non-coding variants is that they disrupted the canonical transcription factor (TF) binding sites that affect the in vivo binding of the TF. However, their impact varies since many positions within a TF binding motif are not well conserved. Therefore, simply annotating all variants located in putative TF binding sites may overestimate the functional impact of these SNVs. We conducted a comprehensive survey to study the effect of SNVs on the TF binding affinity. A sequence-based machine learning method was used to estimate the change in binding affinity for each SNV located inside a putative motif site. From the results obtained on 18 TF binding motifs, we found that there is a substantial variation in terms of a SNV's impact on TF binding affinity. We found that only about 20% of SNVs located inside putative TF binding sites would likely to have significant impact on the TF-DNA binding.",
+    "keywords": [
+      "gapped k-mer SVM classifier",
+      "genome-wide association study",
+      "non-coding variant annotation",
+      "position weight matrix",
+      "transcription factor binding motif",
+      "transcription regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Yutong",
+        "Jiang, Jiahui",
+        "Wang, Ruixuan",
+        "Qin, Zhaohui S"
+      ],
+      "short_names": [
+        "Jin Y",
+        "Jiang J",
+        "Wang R",
+        "Qin ZS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States.",
+        "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States.",
+        "College of Environmental Sciences and Engineering, Peking University, Beijing, China.",
+        "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Yutong",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jiahui",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruixuan",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Environmental Sciences and Engineering, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhaohui S",
+        "short_name": "Qin ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/28 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "41495882",
+      "38855865",
+      "38517697",
+      "36430200",
+      "36335489"
+    ],
+    "refs": [
+      "33505025",
+      "30304335",
+      "29996888",
+      "29453388",
+      "29140464",
+      "28288115",
+      "27923386",
+      "27288444",
+      "27273672",
+      "26727659",
+      "26552868",
+      "26301843",
+      "26116565",
+      "26075791",
+      "26015273",
+      "25722376",
+      "25583119",
+      "25338716",
+      "25215497",
+      "25033408",
+      "24487584",
+      "24487276",
+      "24413736",
+      "24316577",
+      "24058049",
+      "24039567",
+      "23695286",
+      "23203885",
+      "22955989",
+      "22955828",
+      "22955616",
+      "22505627",
+      "22064851",
+      "21106904",
+      "20056654",
+      "19223927",
+      "17540862",
+      "14681366",
+      "10592259",
+      "10487864",
+      "8211139",
+      "7048259"
+    ],
+    "similar": [
+      "34567058",
+      "32450112",
+      "26901046",
+      "37805453",
+      "33077858",
+      "31362726",
+      "40250421",
+      "28957321",
+      "41863598",
+      "35435921",
+      "33216750",
+      "38736546",
+      "35229021",
+      "38517697",
+      "30040077",
+      "37214836",
+      "19956545",
+      "34383745",
+      "35240993",
+      "29363433",
+      "36043696",
+      "36690178",
+      "29617928",
+      "26476779",
+      "39386531",
+      "27471964",
+      "39010878",
+      "22955990",
+      "37926287",
+      "16362910",
+      "25070602",
+      "29703944",
+      "39482734",
+      "27492288",
+      "31871587",
+      "28691125",
+      "26971251",
+      "29654070",
+      "24920305",
+      "16873495",
+      "34465294",
+      "37693486",
+      "22300769",
+      "31074373",
+      "22863142",
+      "26291518",
+      "41536793",
+      "41518500",
+      "40060626",
+      "24218641",
+      "32770026",
+      "38538340",
+      "37682473",
+      "26160164",
+      "40098614",
+      "41542063",
+      "39922197",
+      "32033531",
+      "35968123",
+      "27567672",
+      "31723409",
+      "21596777",
+      "22189060",
+      "39020164",
+      "24039567",
+      "39107801",
+      "21963994",
+      "28726847",
+      "27803259",
+      "41381741",
+      "34252930",
+      "38168434",
+      "38748784",
+      "31742324",
+      "31292129",
+      "37520692",
+      "39943688",
+      "21486752",
+      "36057196",
+      "37492098",
+      "41035197",
+      "30352610",
+      "22904079",
+      "34001600",
+      "41495882",
+      "23812975",
+      "41927765",
+      "35410161",
+      "35546387",
+      "25957350",
+      "25428352",
+      "35978548",
+      "39896490",
+      "18371204",
+      "41308636",
+      "33505025",
+      "24603674",
+      "24086290",
+      "26550823",
+      "12946282"
+    ],
+    "review": [
+      "34567058",
+      "32450112",
+      "27471964",
+      "38538340",
+      "40098614",
+      "31742324"
+    ],
+    "pmc": [
+      "8458901"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34567058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34567058",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2021.667866",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

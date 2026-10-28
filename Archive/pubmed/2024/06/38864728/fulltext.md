@@ -1,0 +1,5 @@
+# PA-824 inhibits porcine epidemic diarrhea virus infection in vivo and in vitro by inhibiting p53 activation
+
+
+## IMPORTANCE
+  PEDV is a highly contagious enteric coronavirus that widely spread worldwide, causing serious economic losses. There is no drug or vaccine to effectively control PEDV. In this study, we found that PA-824, a compound of mycobacteria causing pulmonary diseases, inhibited PEDV proliferation in both in vitro and in vivo. We also found that PA-824 directly acted on viral particles and hindered the adsorption, internalization, and replication stages of the virus. In addition, we found that PA-824 could inhibit the apoptotic signaling pathway by inhibiting PEDV-induced p53 activation. In conclusion, it is expected to be developed as a drug or a feed additive to prevent and control PEDV diseases.

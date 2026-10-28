@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text sections, methods, and extended data figure legends
+- **Assessment boundary** Structural and biochemical characterization of the Gabija anti-phage defense complex and its inhibition by the phage-encoded Gad1 protein
+- **Shared manuscript claim summary** The authors report the X-ray crystal structure of the Bacillus cereus Gabija GajAB complex at 3.0 Å resolution and a cryo-EM structure of the GajAB–Gad1 co-complex at 2.7 Å resolution. They propose that GajA forms a tetrameric core with endonuclease activity, GajB dimers dock at opposite ends, and that phage Gad1 forms an octameric web that encircles the complex to block DNA binding and cleavage, thereby enabling viral immune evasion.
+- **Visible evidence base** Structural coordinates (PDB 8SM3 for GajAB), cryo-EM density maps for GajAB–Gad1 (deposition in progress), in vitro DNA cleavage assays, electrophoretic mobility shift assays, in vivo phage plaque assays in B. subtilis, pull-down assays, and sequence analyses
+- **Missing materials affecting confidence** Cryo-EM map validation metrics (FSC curves, local resolution estimates) are not shown in the provided text. The in vivo phage resistance data are described but the corresponding figures are not available in the supplied material. The companion manuscript by Yirmiya and Leavitt et al. is cited as submitted but not accessible. Data availability for the GajAB–Gad1 co-complex is incomplete (accession codes listed as NNNN).
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial structural advance in understanding the Gabija anti-phage defense system, one of the most prevalent defense systems in bacteria and archaea. The determination of the GajAB complex architecture at 3.0 Å by X-ray crystallography and the GajAB–Gad1 co-complex at 2.7 Å by cryo-EM provides a strong foundation for mechanistic interpretation. The proposed model, in which Gad1 forms an octameric web that physically occludes the DNA-binding surface of the GajA nuclease, is compelling and well supported by the combination of structural, biochemical, and in vivo data. However, several technical aspects require clarification, particularly regarding cryo-EM validation, the functional significance of the GajB helicase domain, and the quantitative interpretation of the in vivo rescue experiments. The manuscript is well written and will be of broad interest to the microbiology, structural biology, and immunology communities.
+- **Who would be interested in the results, and why** Structural biologists studying macromolecular complexes and host–pathogen interactions will find the atomic models valuable. Microbiologists and phage biologists will be interested in the mechanistic dissection of a prevalent anti-phage defense system. Immunologists studying innate immune signaling will appreciate the parallels drawn between bacterial defense complexes and eukaryotic signaling platforms such as inflammasomes and cGAS–STING. The work also has potential relevance for biotechnology applications involving phage resistance.
+- **Major strengths** The combination of X-ray crystallography and cryo-EM to capture both the native and inhibited states of the same complex is methodologically rigorous. The identification of Gad1 as a large (35 kDa) phage-encoded inhibitor that acts by wrapping around the entire host complex is a novel mechanistic finding. The in vitro DNA cleavage and binding assays directly link the structural observations to biochemical function. The in vivo phage resistance experiments provide physiological relevance. The manuscript is clearly written and the figures are logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structure of the GajAB–Gad1 co-complex at 2.7 Å resolution is used to support the model of Gad1 octameric web formation and its occlusion of the DNA-binding surface.
+  - **Evidence pointer** Methods section "Cryo-EM data processing" and "Cryo-EM model building", Extended Data Figures 6 and 7
+  - **Concern** The manuscript reports a 2.7 Å cryo-EM reconstruction but does not provide key validation metrics in the text, including gold-standard FSC curves, local resolution maps, directional resolution estimates, or per-residue model-to-map fit statistics (e.g., Q-scores or CCmask). The description of particle numbers (648,298 after classification, 570,485 in the final refinement) is provided, but the absence of these standard validation metrics prevents assessment of the reliability of the atomic model, particularly in the flexible arm and fist domains where the authors note limited resolution.
+  - **Why it matters** The central mechanistic claim, that Gad1 forms a continuous octameric web around GajAB, depends critically on the accuracy of the cryo-EM model in the Gad1 regions. Without proper validation metrics, the reader cannot evaluate whether the proposed web architecture is well supported by the density or partly model-biased, especially given the acknowledged flexibility in the fist domain.
+  - **Resolution test** Provide gold-standard FSC curves, local resolution maps, and model-to-map correlation metrics for the final cryo-EM reconstruction. Additionally, show representative density for the Gad1–GajA interface and the fist–fist interaction to demonstrate that the proposed contacts are supported by unambiguous density.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional validation
+  - **Claim pointer** The authors state that "Gad1 prevented GajAB from binding to target DNA and abolished all nuclease activity in vitro" and that mutant Gad1 proteins F192R and C282E "were no longer able to inhibit DNA cleavage."
+  - **Evidence pointer** Main text section "Inhibition of Gabija DNA binding and cleavage enables viral evasion", Figure 4c,d, Extended Data Figure 9b
+  - **Concern** The DNA cleavage assays are described qualitatively. The manuscript states that Gad1 "abolished" nuclease activity and that mutants "were no longer able to inhibit," but no quantitative data (e.g., reaction time courses, percent cleavage, kinetic parameters) are presented in the text. The gel images are referenced but not available in the supplied material. This limits the ability to assess the magnitude of the inhibitory effect and whether the mutant phenotypes are complete or partial.
+  - **Why it matters** The distinction between complete and partial inhibition is mechanistically important. If F192R or C282E retain partial inhibitory activity, this would suggest that the web architecture is not the sole determinant of inhibition and that additional contacts contribute. The current qualitative description does not allow this distinction.
+  - **Resolution test** Provide quantitative cleavage data, such as time-course experiments with percent substrate cleaved plotted against time for GajAB alone, GajAB with wild-type Gad1, and GajAB with each mutant. Include error bars and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** The authors state that "GajB ATP-hydrolysis and DNA unwinding activity may regulate GajA ATPase domain activation" and that the GajB helicase domain is in a "partially active conformation poised to interact with phage DNA."
+  - **Evidence pointer** Main text section "Mechanism and function of Gabija supramolecular complex formation", Figure 2e
+  - **Concern** The functional role of GajB in the context of the full GajAB complex is not experimentally tested. The manuscript does not present any ATPase or helicase activity assays for GajB, nor does it test whether GajB ATPase activity is required for DNA cleavage by GajA. The structural observation of a "partially active conformation" is speculative without functional data.
+  - **Why it matters** The proposed model of Gabija function implies a coordinated action between GajA nuclease and GajB helicase activities. Without experimental evidence linking GajB activity to GajA function, the mechanistic model remains incomplete. This is particularly relevant given that GajA alone is sufficient for DNA cleavage in vitro, raising questions about the specific contribution of GajB.
+  - **Resolution test** Perform ATPase activity assays on GajB alone and in the GajAB complex. Test whether ATP hydrolysis by GajB is required for DNA cleavage by GajA using ATPase-dead mutants of GajB. If feasible, test helicase activity on forked or partial duplex DNA substrates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** The authors state that mutations in the GajA–GajA dimerization interface and the GajA–GajB hetero-oligomerization interface "resulted in complete loss of phage resistance" or "dramatically reduced the ability of Gabija to inhibit phage replication in vivo."
+  - **Evidence pointer** Main text section "Mechanism and function of Gabija supramolecular complex formation", Figure 2f
+  - **Concern** The in vivo phage resistance data are described in a single sentence with reference to Figure 2f, but the actual data are not available in the supplied material. The efficiency of plating (EOP) values are not reported numerically. The distinction between "complete loss" and "dramatically reduced" is not quantified, and it is unclear whether the mutants affect protein expression or stability, which could confound the interpretation.
+  - **Why it matters** The in vivo data are essential for establishing that the structural interfaces identified are functionally relevant for phage defense. Without quantitative EOP values and appropriate controls (e.g., protein expression levels of the mutants), the strength of this conclusion cannot be evaluated.
+  - **Resolution test** Provide EOP values for each mutant with error bars and statistical significance. Include Western blot or other expression controls to demonstrate that the mutant proteins are expressed at levels comparable to wild-type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text, first paragraph of "Mechanism and function of Gabija supramolecular complex formation"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "GajA is alone sufficient to oligomerize into a homo-tetrameric assembly" but does not specify the technique used to demonstrate this (e.g., size-exclusion chromatography, multi-angle light scattering, analytical ultracentrifugation). The reference to Extended Data Figure 1b is given, but the method is not described in the main text.
+  - **Required correction** Briefly state the method used to determine the oligomeric state of GajA alone, or refer the reader to the relevant methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** "Data Availability Statement" section
+  - **Issue** The data availability statement indicates that coordinates and density maps for the GajAB–Gad1 co-complex are "being deposited" with accession codes listed as NNNN. This is incomplete and does not meet standard data availability requirements for structural biology manuscripts.
+  - **Required correction** Provide the accession codes for the GajAB–Gad1 co-complex coordinates and maps, or state clearly when they will be available and under which accession numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Main text, final paragraph of "Structural basis of viral inhibition of Gabija anti-phage defense"
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors state that "resistance to small phage proteins that simply block the GajA active site may explain why Gabija is a highly prevalent defense system." This is an interesting hypothesis but is presented without supporting evidence or discussion of alternative explanations for the prevalence of Gabija.
+  - **Required correction** Either provide supporting evidence or clearly frame this as a speculative hypothesis that requires further testing.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Cryo-EM sample preparation and data collection"
+  - **Evidence pointer** Location not provided
+  - **Issue** The methods state that grids were blotted for 9 s with a 10 s wait time prior to plunge freezing. This is an unusually long wait time and may affect sample distribution or ice thickness. The authors do not comment on whether this was optimized or if alternative conditions were tested.
+  - **Required correction** Briefly comment on the rationale for this blotting protocol or note that it was optimized for this sample.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM validation metrics) is the primary blocking concern. The structural model underpinning the central mechanistic claim requires proper validation. R1-M2 (quantitative cleavage data) and R1-M3 (GajB functional data) are important but not necessarily blocking if the authors can provide the missing data or temper the corresponding claims.
+- **Assessment against Nature-style criteria** Originality: High. The manuscript provides the first structural characterization of the Gabija defense complex and reveals a novel mechanism of viral immune evasion involving a large oligomeric inhibitor. Scientific importance: High. Gabija is one of the most prevalent anti-phage defense systems, and understanding its mechanism has broad implications for microbiology and phage biology. Interdisciplinary readership: Moderate to high. The work bridges structural biology, microbiology, and innate immunity, and the parallels drawn with eukaryotic signaling complexes will attract readers from multiple fields. Technical soundness: Generally strong, but the lack of cryo-EM validation metrics and quantitative biochemical data in the provided material weakens the current assessment. Readability for nonspecialists: Good. The manuscript is clearly written, and the figures are logically organized, though some structural details may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural findings are likely to be of significant interest, and the proposed mechanism is compelling. However, the manuscript in its current form does not fully establish the case due to the missing cryo-EM validation metrics and the qualitative nature of some functional data. Addressing these concerns would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that Gad1 forms a continuous octameric web around the GajAB complex is not fully supported by the provided evidence, as cryo-EM validation metrics are absent and the authors acknowledge limited resolution in the fist domain.
+- The statement that "Gad1 primarily recognizes the GajA nuclease core" is supported by the structural data, but the claim that both GajA and GajB are necessary for Gad1 interaction is based on pull-down assays that are referenced but not shown in the supplied material.
+- The hypothesis that "resistance to small phage proteins that simply block the GajA active site may explain why Gabija is a highly prevalent defense system" is speculative and not supported by direct evidence in this manuscript.
+- The functional significance of the GajB helicase domain in Gabija defense is not experimentally established; the claim that it "may regulate GajA ATPase domain activation" is presented as speculation without supporting data.

@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41361467",
+    "doi": "10.1186/s12967-025-06834-3",
+    "title": "L-Fucose alleviates inflammation, pyroptosis and mitochondrial injury in obesity-related cardiac injury via TLR4/MyD88/NF-kappaB pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Obesity-related cardiac injury is a serious global condition associated with excessive fat intake, which is strongly linked to chronic low-degrade inflammation. Pyroptosis, a pro-inflammatory form of cell death, has been implicated in obesity recently. L-Fucose (Fuc), a sulfated polysaccharide with anti-inflammatory and antioxidant properties, remains unexplored in the area of pyroptosis and obesity-related cardiac injury. METHODS: Six-week-old wide type C57BL/6 mice were subjected to high-fat diet (HFD) feeding for 20 weeks to induce obesity with or without Fuc gavaging, followed by assessment of metabolic related indicators. Echocardiography, histopathological analysis and enzymatic assays were used to assess cardiac function. The level of pro-inflammatory cytokines was detected by ELISA, qRT-PCR and CD68 staining. Pyroptosis-related protein including NLRP3, GSDMD, pro-caspase-1, cleaved-caspase-1, IL-1beta, and ASC were evaluated by western blot. Oxidative stress was detected by ROS level. Cardiac mitochondrial structure was assessed by electron microscopy and mitotracker staining. Mitochondrial function was measured by mitochondrial membrane potential (MMP) and oxygen consumption rate (OCR) assay. Molecular docking and molecular dynamics (MD) simulations were conducted to look for the potential target of Fuc. Cellular thermal shift assay (CETSA) and western blot were used to investigate the interaction between Fuc and its target. Palmitic acid (PA) induced lipotoxicity model in AC16 cells was used to further confirm the protective effects of Fuc and its downstream signaling pathway against inflammation, pyroptosis and mitochondrial injury in vitro. RESULTS: In vivo, Fuc treatment alleviated obesity-related weight gain, hyperlipidemia, elevated systolic blood pressure and cardiac diastolic dysfunction. It also reduced the expression of pro-inflammatory cytokines and pyroptosis-related proteins, the level of oxidative stress, and mitochondrial abnormalities in the myocardium. Moreover, the vitro lipotoxicity model further confirmed the protective effect of Fuc. The molecular docking analysis identified TLR4 as the key target of Fuc. Fuc reduced the level of TLR4 and its downstream proteins MyD88 and p-NF-kappaB, while activating TLR4/MyD88/NF-kappaB pathway by TLR4 agonist Neoseptin3 reversed the protective function of Fuc in vitro. CONCLUSIONS: These findings demonstrated that Fuc mitigated cardiac inflammation, pyroptosis and mitochondrial injury by inhibiting the TLR4/MyD88/NF-kappaB pathway, highlighting its potential as a therapeutic agent for obesity-associated cardiac injury.",
+    "keywords": [
+      "Cardiac injury",
+      "Inflammation",
+      "L-Fucose",
+      "Obesity",
+      "Pyroptosis",
+      "TLR4/MyD88/NF-kappaB pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Pyroptosis/drug effects",
+      "*Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "*Toll-Like Receptor 4/metabolism",
+      "*Obesity/complications/pathology",
+      "Mice, Inbred C57BL",
+      "*Inflammation/pathology/drug therapy/complications",
+      "*Fucose/pharmacology/therapeutic use",
+      "Male",
+      "*Myeloid Differentiation Factor 88/metabolism",
+      "*Mitochondria/drug effects/pathology/metabolism",
+      "*Heart Injuries/drug therapy/complications/pathology",
+      "Diet, High-Fat",
+      "Oxidative Stress/drug effects",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Jiaxin",
+        "Wei, Feng",
+        "Wu, Tianyu",
+        "Zhang, Ningzhi",
+        "Zhang, Yongqiao",
+        "Cui, Zhaoqiang",
+        "Ge, Junbo"
+      ],
+      "short_names": [
+        "Gong J",
+        "Wei F",
+        "Wu T",
+        "Zhang N",
+        "Zhang Y",
+        "Cui Z",
+        "Ge J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China. zhaoq_cui@163.com.",
+        "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Jiaxin",
+        "short_name": "Gong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Feng",
+        "short_name": "Wei F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Tianyu",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningzhi",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongqiao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhaoqiang",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China. zhaoq_cui@163.com."
+        ]
+      },
+      {
+        "full_name": "Ge, Junbo",
+        "short_name": "Ge J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongshan Hospital, Fudan University, Shanghai Institute of Cardiovascular Diseases, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Dec 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/09 00:32",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42511738",
+      "42072613",
+      "41745475"
+    ],
+    "refs": [
+      "39587363",
+      "39053708",
+      "38850784",
+      "38388468",
+      "37954581",
+      "37924812",
+      "37516223",
+      "37443105",
+      "37370831",
+      "37324479",
+      "37290185",
+      "37253360",
+      "37201406",
+      "36927772",
+      "36906189",
+      "36803990",
+      "36603072",
+      "36547902",
+      "36334887",
+      "36229086",
+      "35907465",
+      "35770725",
+      "35690810",
+      "35307617",
+      "35247611",
+      "35217813",
+      "35077745",
+      "34364596",
+      "34331963",
+      "33949876",
+      "33882682",
+      "33523143",
+      "32711244",
+      "32437302",
+      "32437299",
+      "32163341",
+      "31776456",
+      "31636403",
+      "31547311",
+      "31379826",
+      "31363171",
+      "31337966",
+      "30940158",
+      "30814686",
+      "29526711",
+      "27932073",
+      "27383986",
+      "26525535",
+      "26364141",
+      "25686105",
+      "23223931",
+      "21876127",
+      "19488026",
+      "12651883"
+    ],
+    "similar": [
+      "41361467",
+      "41814794",
+      "41175588",
+      "42280233",
+      "29940584",
+      "36732683",
+      "40865401",
+      "39447411",
+      "41950807",
+      "40525842",
+      "40015537",
+      "42284764",
+      "40252436",
+      "41948887",
+      "37018977",
+      "38367422",
+      "41875699",
+      "28115850",
+      "39971016",
+      "34034564",
+      "41652232",
+      "33902056",
+      "27452656",
+      "41988197",
+      "41508268",
+      "38057485",
+      "38798254",
+      "42170639",
+      "39951973",
+      "32341464",
+      "42219549",
+      "40010305",
+      "22394415",
+      "41864553",
+      "40674839",
+      "39715879",
+      "42011616",
+      "39647467",
+      "36075274",
+      "39307808",
+      "41038330",
+      "41176909",
+      "41549176",
+      "40461201",
+      "39874846",
+      "42242487",
+      "38181931",
+      "40378935",
+      "36646160",
+      "39426577",
+      "40858660",
+      "38626873",
+      "32172066",
+      "40350807",
+      "42040892",
+      "39133777",
+      "40524158",
+      "41106569",
+      "30231673",
+      "26091790",
+      "33460751",
+      "38833791",
+      "37573970",
+      "40338445",
+      "41812900",
+      "40057166",
+      "42102788",
+      "41518527",
+      "40684492",
+      "34648903",
+      "41795807",
+      "37880668",
+      "41508081",
+      "34581089",
+      "33301917",
+      "40850356",
+      "39547017",
+      "41265260",
+      "38621908",
+      "27643515",
+      "42015637",
+      "39923228",
+      "41951765",
+      "40706972",
+      "39318313",
+      "42052827",
+      "41524992",
+      "34032295",
+      "41965724",
+      "36194354",
+      "41389851",
+      "42166861",
+      "41508269",
+      "32398475",
+      "38388914",
+      "29990871",
+      "39041129",
+      "40484254",
+      "40056632",
+      "37308195"
+    ],
+    "review": [
+      "41361467",
+      "41176909"
+    ],
+    "pmc": [
+      "12683895"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06834-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41361467/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3636",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

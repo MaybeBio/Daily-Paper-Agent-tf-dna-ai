@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "42653305",
+    "doi": "10.3390/ijms27167300",
+    "title": "IAGRN: An Interleaved-Attention Graph Neural Network for Gene Regulatory Network Inference."
+  },
+  "content": {
+    "abstract": "Gene regulatory networks (GRNs) describe regulatory interactions between transcription factors and their target genes and are essential for understanding cellular processes and disease mechanisms. Recent advances in single-cell RNA sequencing (scRNA-seq) have enabled data-driven GRN inference at single-cell resolution. However, the high sparsity and noise inherent in scRNA-seq data pose substantial challenges for accurately recovering regulatory relationships. Existing graph neural network (GNN)-based approaches often rely on localized message passing, which can lead to over-smoothing and limited modeling of long-range regulatory dependencies. To address these limitations, a structure-aware interleaved-attention graph learning framework, termed IAGRN, is proposed for GRN inference from scRNA-seq data. Specifically, it interleaves topology-constrained local attention with distance-aware global attention, enabling effective integration of structural priors and long-range regulatory signals. Graph Laplacian positional encoding is further incorporated to preserve topological information and enhance node representations. Evaluations on seven public benchmark datasets demonstrate that IAGRN consistently improves GRN reconstruction under highly sparse conditions and achieves competitive performance compared with existing approaches.",
+    "keywords": [
+      "attention mechanisms",
+      "deep learning frameworks",
+      "gene regulatory networks",
+      "graph neural networks",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Graph Neural Networks",
+      "*Gene Regulatory Networks",
+      "Single-Cell Gene Expression Analysis",
+      "Humans",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Single-Cell Analysis/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yue",
+        "Tian, Sicheng",
+        "Li, Dan"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Tian S",
+        "Li D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China.",
+        "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China.",
+        "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Sicheng",
+        "short_name": "Tian S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Artificial Intelligence, Northeast Forestry University, Harbin 150040, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Aug 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41904375",
+      "41220428",
+      "40956752",
+      "40708222",
+      "40702704",
+      "40699953",
+      "40415678",
+      "38935070",
+      "38867109",
+      "38261340",
+      "38217125",
+      "37985457",
+      "36814848",
+      "35961023",
+      "35063006",
+      "34424948",
+      "32858223",
+      "31907445",
+      "31822622",
+      "30953525",
+      "30476243",
+      "30445495",
+      "29061959",
+      "29018868",
+      "28614297",
+      "27534536",
+      "27365425",
+      "26000846",
+      "24919153",
+      "23794736",
+      "23787338",
+      "22955616",
+      "20927193",
+      "20101234",
+      "18423521",
+      "12707371",
+      "12226108"
+    ],
+    "similar": [
+      "42653305",
+      "41554051",
+      "40116659",
+      "40956752",
+      "40251476",
+      "41871930",
+      "37985457",
+      "40699953",
+      "39417321",
+      "41206950",
+      "39934680",
+      "42265576",
+      "40062616",
+      "40662821",
+      "40708222",
+      "42632029",
+      "38950180",
+      "42059479",
+      "41544912",
+      "42560939",
+      "39800872",
+      "41300707",
+      "30547796",
+      "38896510",
+      "39939367",
+      "41329984",
+      "41317402",
+      "39960893",
+      "35961023",
+      "41489955",
+      "42061403",
+      "39975293",
+      "39401117",
+      "41132794",
+      "38342857",
+      "41896196",
+      "41288963",
+      "38778003",
+      "38261340",
+      "41052197",
+      "38980373",
+      "41883144",
+      "40853813",
+      "40409400",
+      "42093817",
+      "41267133",
+      "38892162",
+      "41534143",
+      "39708840",
+      "40511990",
+      "39999494",
+      "42614561",
+      "41791270",
+      "39311699",
+      "42650039",
+      "40713495",
+      "39487083",
+      "41067887",
+      "42316003",
+      "41191474",
+      "40426257",
+      "42361127",
+      "39694856",
+      "40841610",
+      "42308421",
+      "36626328",
+      "41043336",
+      "39082651",
+      "42478602",
+      "38879931",
+      "41775092",
+      "40415678",
+      "35050715",
+      "37939200",
+      "42104818",
+      "41786602",
+      "42378449",
+      "40983951",
+      "34424948",
+      "39062480",
+      "36877552",
+      "31068142",
+      "42215865",
+      "39446194",
+      "37686146",
+      "37016281",
+      "39684451",
+      "38996550",
+      "42475469",
+      "42332576",
+      "37085776",
+      "40838782",
+      "36804214",
+      "37897702",
+      "41981652",
+      "39605181",
+      "42335450",
+      "37864293",
+      "36585783",
+      "40073281"
+    ],
+    "review": [
+      "42653305",
+      "42632029"
+    ],
+    "pmc": [
+      "13513789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27167300",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42653305/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

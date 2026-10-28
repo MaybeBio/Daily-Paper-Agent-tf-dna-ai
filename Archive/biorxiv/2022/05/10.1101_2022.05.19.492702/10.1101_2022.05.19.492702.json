@@ -1,0 +1,904 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.19.492702",
+  "title": "JEDII: Juxtaposition Enabled DNA-binding Interface Identifier",
+  "doi": "10.1101/2022.05.19.492702",
+  "abstract": "The specific recognition of small stretches of the genomic sequence by their cognate binding protein partners is crucial for various biological processes. Traditionally the prediction of DNA-protein interactions has been treated as two separate problems - one where we predict the most probable DNA sequence that a given protein would bind to and another where we determine the amino acids constituting the DNA binding pocket on a protein. In this study, we introduce JEDII, a template-based method that combines these two aspects of DNA-protein interactions and predicts the residues, nucleotides and amino acids, that would mediate the interaction. Our computational method utilises known structures of DNA-protein complexes in a protocol that superimposes amino acid-nucleotide hydrogen-bonding donor and acceptors atoms on one another to identify the protein-DNA interface. The corner stone of the method is that specificity bestowing hydrogen-bonding interactions are structurally conserved. We validated the accuracy of our procedure on a dataset of 285 DNA-protein complexes where JEDII predicted the cognate DNA sequence with a 62% accuracy. It predicted the DNA-binding amino acids on the protein with 94 % accuracy and an MCC of 0.70. JEDII was also separately compared to other popular methods that predict the cognate DNA sequence and to methods that predict the DNA binding residues. The comparisons were done over four different datasets and JEDII outperformed most methods over all these data sets. JEDII is a robust method following a simple replicable algorithm to determine the molecular basis of DNA-protein specificity and could be instrumental in predicting DNA-protein complexes that are central to key biological phenomena.",
+  "authors": [
+    "Sanjana Nair",
+    "M.S. Madhusudhan"
+  ],
+  "published_date": "2022-05-20",
+  "updated_date": "2022-05-23T02:55:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492702",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492702.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:29:20Z",
+        "timestamp": 1768501760433,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 119,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The specific recognition of small stretches of the genomic sequence by their cognate binding protein partners is crucial for various biological processes. Traditionally the prediction of DNA-protein interactions has been treated as two separate problems - one where we predict the most probable DNA sequence that a given protein would bind to and another where we determine the amino acids constituting the DNA binding pocket on a protein. In this study, we introduce JEDII, a template-based method that combines these two aspects of DNA-protein interactions and predicts the residues, nucleotides and amino acids, that would mediate the interaction. Our computational method utilises known structures of DNA-protein complexes in a protocol that superimposes amino acid-nucleotide hydrogen-bonding donor and acceptors atoms on one another to identify the protein-DNA interface. The corner stone of the method is that specificity bestowing hydrogen-bonding interactions are structurally conserved. We validated the accuracy of our procedure on a dataset of 285 DNA-protein complexes where JEDII predicted the cognate DNA sequence with a 62% accuracy. It predicted the DNA-binding amino acids on the protein with 94 % accuracy and an MCC of 0.70. JEDII was also separately compared to other popular methods that predict the cognate DNA sequence and to methods that predict the DNA binding residues. The comparisons were done over four different datasets and JEDII outperformed most methods over all these data sets. JEDII is a robust method following a simple replicable algorithm to determine the molecular basis of DNA-protein specificity and could be instrumental in predicting DNA-protein complexes that are central to key biological phenomena.</jats:p>",
+      "DOI": "10.1101/2022.05.19.492702",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            23
+          ]
+        ],
+        "date-time": "2022-05-23T02:55:15Z",
+        "timestamp": 1653274515000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "JEDII: Juxtaposition Enabled DNA-binding Interface Identifier"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1861-417X",
+          "authenticated-orcid": false,
+          "given": "Sanjana",
+          "family": "Nair",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2889-5884",
+          "authenticated-orcid": false,
+          "given": "M.S.",
+          "family": "Madhusudhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.67.1.721"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1743-422X-7-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1324143111"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.4",
+          "first-page": "93",
+          "article-title": "Rad4 recognition-at-a-distance: Physical basis of conformation-specific anomalous diffusion of DNA repair proteins",
+          "volume": "127",
+          "year": "2016",
+          "journal-title": "Prog. Biophys. Mol. Biol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1162327"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-1-r1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(88)90209-7"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M404132200"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.23.1.1-13.2003"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/276565a0"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "5355",
+          "DOI": "10.1242/dev.127.24.5355",
+          "article-title": "Homeotic transformation of branchial arch identity after Hoxa2 overexpression",
+          "volume": "127",
+          "year": "2000",
+          "journal-title": "Development"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1547",
+          "DOI": "10.1242/dev.128.9.1547",
+          "article-title": "Overexpression of Hoxc13 in differentiating keratinocytes results in downregulation of a novel hair keratin gene cluster and alopecia",
+          "volume": "128",
+          "year": "2001",
+          "journal-title": "Development"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.23.16.5680-5691.2003"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.14",
+          "first-page": "145",
+          "article-title": "The structure of DNA in the nucleosome core",
+          "volume": "423",
+          "year": "2003",
+          "journal-title": "Nat. 2003 4236936"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(90)90453-L"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.36.22648"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80662-5"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.01678-13"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "3824",
+          "DOI": "10.1016/j.jmb.2015.10.008",
+          "article-title": "Structure of Zeste–DNA Complex Reveals a New Modality of DNA Recognition by Homeodomain-Like Proteins",
+          "volume": "427",
+          "year": "2015",
+          "journal-title": "J. Mol. Biol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/j.csbj.2016.12.001",
+          "article-title": "Molecular Mechanism of Binding between 17β-Estradiol and DNA",
+          "volume": "15",
+          "year": "2017",
+          "journal-title": "Comput. Struct. Biotechnol. J"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35094077"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-5556-x"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.23",
+          "first-page": "100015",
+          "article-title": "Structural analysis of missense mutations occurring in the DNA-binding domain of HSF4 associated with congenital cataracts",
+          "volume": "4",
+          "year": "2020",
+          "journal-title": "J. Struct. Biol. X"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M207030200"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.109.066647"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Geyer, H. , Geyer, R. and Pingoud, V. (2004) A novel strategy for the identification of protein-DNA contacts by photocrosslinking and mass spectrometry. Nucleic Acids Res., 32.",
+          "DOI": "10.1093/nar/gnh131"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/b503091a"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3306"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2011.402"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.11.013"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00216-007-1385-x"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bfgp/elu046"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.34",
+          "first-page": "65",
+          "article-title": "Protein Binding Microarrays for the Characterization of Protein-DNA Interactions",
+          "volume": "104",
+          "year": "2007",
+          "journal-title": "Adv. Biochem. Eng. Biotechnol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/5.9.3157"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.9.7.2944"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl298"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1752-0509-4-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1752-0509-5-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp449"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0133260",
+          "DOI": "10.1371/journal.pone.0133260",
+          "article-title": "SNBRFinder: A Sequence-Based Hybrid Algorithm for Enhanced Prediction of Nucleic Acid-Binding Residues",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "930",
+          "DOI": "10.1093/bioinformatics/bty756",
+          "article-title": "Improving the prediction of protein– nucleic acids binding residues via multiple sequence profiles and the consensus of complementary methods",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2016.2616469"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.45",
+          "first-page": "477",
+          "volume": "20",
+          "year": "2004",
+          "journal-title": "Analysis and prediction of DNA-binding proteins and their binding residues based on composition, sequence and structural information"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.46",
+          "first-page": "1",
+          "article-title": "PSSM-based prediction of DNA binding sites in proteins",
+          "volume": "6",
+          "year": "2005",
+          "journal-title": "BMC Bioinforma. 2005 61"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm174"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv585"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1016/j.engappai.2019.01.003",
+          "article-title": "Identification of DNA–protein binding sites by bootstrap multiple convolutional neural networks on sequence information",
+          "volume": "79",
+          "year": "2019",
+          "journal-title": "Eng. Appl. Artif. Intell"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BIBM.2016.7822496"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-10-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.52",
+          "first-page": "1",
+          "article-title": "Predicting DNA-binding sites of proteins from amino acid sequence",
+          "volume": "7",
+          "year": "2006",
+          "journal-title": "BMC Bioinforma. 2006 71"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.53",
+          "first-page": "1",
+          "article-title": "EL_PSSM-RT: DNA-binding residue prediction by integrating ensemble learning with PSSM Relation Transformation",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "BMC Bioinforma. 2017 181"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.54",
+          "first-page": "1",
+          "article-title": "iProDNA-CapsNet: identifying protein-DNA binding residues using capsule neural networks",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "BMC Bioinforma. 2019 2023"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1766",
+          "DOI": "10.1109/TCBB.2012.106",
+          "article-title": "Sequence-based prediction of DNA-binding residues in proteins with conservation and correlation information",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinforma"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl672"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20977"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.58",
+          "first-page": "e84",
+          "article-title": "DRNApred, fast sequence-based method that accurately predicts and discriminates DNA-and RNA-binding residues",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1372",
+          "DOI": "10.1109/TCBB.2018.2890261",
+          "article-title": "Prediction of DNA-Binding Residues in Local Segments of Protein Sequences with Fuzzy Cognitive Maps",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinforma"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1250",
+          "DOI": "10.1093/bib/bbx168",
+          "article-title": "Comprehensive review and empirical analysis of hallmarks of DNA-, RNA-and protein-binding residues in protein chains",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Brief. Bioinform"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq361"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.62",
+          "first-page": "2079",
+          "article-title": "Identification of DNA–protein Binding Sites through Multi-Scale Local Average Blocks on Sequence Information",
+          "volume": "22",
+          "year": "2017",
+          "journal-title": "Mol. A J. Synth. Chem. Nat. Prod. Chem"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinforma"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky439"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn332"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "482",
+          "DOI": "10.1002/prot.23214",
+          "article-title": "Predicting nucleic acid binding interfaces from structural models of proteins",
+          "volume": "80",
+          "year": "2012",
+          "journal-title": "Proteins Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.67",
+          "first-page": "7189",
+          "volume": "31",
+          "year": "2003",
+          "journal-title": "Using electrostatic potentials to predict DNA-binding sites on DNA-binding proteins"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti232"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00438-014-0812-x"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt617"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt029"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep31007"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm008"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "GraphBind: protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq396"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts269"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks481"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1007624",
+          "DOI": "10.1371/journal.pcbi.1007624",
+          "article-title": "Multiple protein-DNA interfaces unravelled by evolutionary information, physico-chemical and geometrical properties",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "PLOS Comput. Biol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv446"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.80",
+          "first-page": "135",
+          "article-title": "PDRLGB: precise DNA-binding residue prediction using a light gradient boosting machine",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "BMC Bioinforma. 2018 1919"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1002/prot.24330",
+          "article-title": "DNABind: a hybrid algorithm for structure-based prediction of DNA-binding residues by combining machine learning- and template-based approaches",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.82",
+          "first-page": "337",
+          "article-title": "Computer-assisted analysis of transcription control regions. Matinspector and other programs",
+          "volume": "132",
+          "year": "2000",
+          "journal-title": "Methods Mol. Biol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti473"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg585"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh372"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki378"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-13-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/18.2.333"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg605"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0215495"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv607"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CYBER.2012.6319888"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmpb.2014.07.009"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt388"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks551"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-1452-4"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks564"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.98",
+          "unstructured": "Berman, H.M. , Westbrook, J.D. , Feng, Z. , Gilliland, G.L. , Bhat, T.N. , Weissig, H. , Shindyalov, I.N. , Bourne, P.E. , Battistuz, T. , Bhat, T.N. , et al. The Protein Data Bank. 28, 235–42."
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq003"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.crstbi.2020.11.002",
+          "article-title": "Peptide bond planarity constrains hydrogen bond geometry and influences secondary structure conformations",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Curr. Res. Struct. Biol"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(92)81649-1"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt997"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1993.1626"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.104",
+          "first-page": "583",
+          "article-title": "Highly accurate protein structure prediction with AlphaFold",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nat. 2021 5967873"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr393"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr348"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx407"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-0708-4_12"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.1146014"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/ 0005-2795(75)90109-9"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(97)00260-8"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444998007501"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.114",
+          "first-page": "804",
+          "article-title": "Sequence-specific recognition of double helical nucleic acids by proteins",
+          "volume": "73",
+          "year": "1976",
+          "journal-title": "Biophysics (Oxf)"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2000-1-1-reviews001"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00091-3"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.117",
+          "doi-asserted-by": "crossref",
+          "first-page": "3298",
+          "DOI": "10.1093/nar/gky170",
+          "article-title": "Structural changes in DNA-binding proteins on complexation",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.118",
+          "doi-asserted-by": "crossref",
+          "first-page": "841",
+          "DOI": "10.1002/prot.24462",
+          "article-title": "Conformational changes in DNA-binding proteins: relationships with precomplex features and contributions to specificity and stability",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022052304200574000_2022.05.19.492702v1.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt890"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.19.492702",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:06:04Z",
+        "timestamp": 1768446364000
+      },
+      "score": 153.73105,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.19.492702"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "references-count": 119,
+      "URL": "https://doi.org/10.1101/2022.05.19.492702",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

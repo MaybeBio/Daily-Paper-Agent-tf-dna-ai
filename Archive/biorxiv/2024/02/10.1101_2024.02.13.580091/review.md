@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** The manuscript as provided, including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Shared manuscript claim summary** The authors propose that the N-terminal helix of MarA, a member of the AraC/XylS family of transcriptional regulators, plays a critical role in DNA binding. They use double cysteine variants to immobilize this helix via disulfide bond formation, and combine electrophoretic mobility shift assays, in vivo transcription reporter assays, and molecular dynamics simulations to show that immobilization prevents DNA binding. They further suggest this mechanism may be general for monomeric AraC/XylS family members, based on simulations of the related protein Rob.
+- **Visible evidence base** Results sections on N-terminal helix deletion, EMSA experiments, in vivo reporter assays, MD simulations of free MarA variants, MD simulations of MarA-DNA complexes, and MD simulations of Rob variants; Methods sections on bacterial strains, cloning, protein purification, EMSA, reporter system, Western blotting, mass spectrometry, intrinsic fluorescence, and MD simulation protocols; Supplementary figure and table references
+- **Missing materials affecting confidence** Supplementary figures S1-S25 and tables S1-S7 are referenced but not provided. Raw data for EMSA gels, Western blots, fluorescence measurements, and MD simulation trajectories are not available. The manuscript does not include a statistical analysis section. The authors state that the N-terminal helix is involved in "recognition of functional marboxes" but the data supporting this specific claim are not fully visible.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an interesting and potentially important question regarding the role of the N-terminal helix of MarA in DNA binding. The combination of experimental and computational approaches is commendable, and the central observation that immobilizing the N-terminal helix via a disulfide bond prevents DNA binding is potentially significant. However, the manuscript has several weaknesses that need to be addressed. The evidence for the specificity of the observed effect is incomplete, the in vivo data are limited, and the computational results, while suggestive, do not fully establish the proposed mechanism. The claim of universality for the AraC/XylS family is not sufficiently supported by the data presented. The manuscript would benefit from additional experiments to confirm the mechanism and rule out alternative explanations.
+- **Who would be interested in the results, and why** Researchers studying antimicrobial resistance mechanisms, particularly efflux pump regulation in Gram-negative bacteria. Also, structural biologists and biophysicists interested in the dynamics of helix-turn-helix DNA-binding proteins and the AraC/XylS family of transcription factors. The potential for targeting the N-terminal helix as a new inhibitory strategy would be of interest to those developing novel antimicrobials.
+- **Major strengths** The study combines multiple experimental and computational techniques to address a specific mechanistic question. The use of double cysteine variants to control helix mobility is a clever approach. The inclusion of a negative control variant (S62C/L121C) is good practice. The computational simulations are extensive and include both free and DNA-bound states, as well as a related protein (Rob) to test generality. The writing is generally clear and the logic of the experiments is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the I16C/M47C variant is unable to bind DNA when the disulfide bond is formed, based on EMSA results.
+  - **Evidence pointer** Results section "The N-terminal helix of MarA is a crucial structural element for the mechanism of DNA binding", Figure 2, Supplementary Figures S1-S3
+  - **Concern** The EMSA data are presented as gel images, but the manuscript does not provide quantitative analysis of these gels. It is unclear how the binding affinity is affected, and whether the observed "no binding" for I16C/M47C is a complete absence of binding or a significant reduction. The authors also do not show a titration series for the I16C/M47C variant, which would be necessary to determine if binding is completely abolished or just weakened. Furthermore, the manuscript does not address the possibility that the introduced cysteines could form non-specific disulfide bonds with other proteins or affect protein folding in a way that is not related to helix mobility.
+  - **Why it matters** The central conclusion of the paper rests on the observation that immobilizing the N-terminal helix prevents DNA binding. If this observation is not robustly quantified and alternative explanations are not ruled out, the main claim is not established.
+  - **Resolution test** The authors should provide quantitative EMSA data, including binding curves and dissociation constants (Kd) for WT and both variants under reducing and oxidizing conditions. They should also perform a control experiment with a variant where the disulfide bond is formed but the helix is not immobilized (e.g., by placing the cysteines in a different location) to rule out non-specific effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the in vivo transcription reporter assay shows that I16C/M47C cannot activate acrAB transcription when the disulfide bond is formed.
+  - **Evidence pointer** Results section "Constraining movement of the MarA N-terminal helix reduces activation of acrAB transcription", Figure 3
+  - **Concern** The in vivo data are presented as a bar graph, but the manuscript does not provide details on the number of biological replicates, error bars, or statistical analysis. The authors state "Data presented are the mean of two biological replicates" in the Methods, which is a very small number for a reliable statistical comparison. The Western blot in Figure 3B shows that WT MarA is expressed at a much lower level than the variants, which could confound the interpretation of the fluorescence data. The authors attribute this to degradation, but this difference in expression level makes it difficult to compare the transcriptional activation capabilities of the different proteins directly.
+  - **Why it matters** The in vivo data are meant to support the in vitro findings and demonstrate the biological relevance of the mechanism. If the data are not statistically robust and the expression levels are not normalized, the conclusions drawn from this experiment are not reliable.
+  - **Resolution test** The authors should repeat the in vivo experiments with at least three biological replicates and provide appropriate statistical analysis. They should also normalize the fluorescence signal to the expression level of the MarA variants, perhaps by using a quantitative Western blot or an epitope tag for detection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim that the mechanism of inhibition via the N-terminal helix is "universal for the monomeric members of the AraC/XylS family".
+  - **Evidence pointer** Results section "The mechanism of inhibition involving the N-terminal helix seems to be general for the members of the AraC/XylS transcription factor family", Figure 7, Supplementary Figures S23-S25
+  - **Concern** This claim is based solely on MD simulations of one related protein, Rob. No experimental data are provided for Rob or any other AraC/XylS family member. The simulations show that in one out of five replicates, the Rob variant loses interaction with the A-box, which is a weak effect. The authors acknowledge that more experimental work is needed, but the claim of universality is still too strong given the limited evidence.
+  - **Why it matters** Overstating the generality of the findings could mislead the field and overstate the significance of the work.
+  - **Resolution test** The authors should either soften the claim to be specific to MarA, or provide experimental evidence (e.g., EMSA or in vivo data) for at least one other AraC/XylS family member to support the claim of universality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use intrinsic fluorescence measurements to conclude that the disulfide bonds do not affect the overall fold of the N-terminal domain.
+  - **Evidence pointer** Results section "Intrinsic fluorescence measurements suggest that the disulfide bonds do not affect the overall fold of the N-terminal domain", Supplementary Figure S8
+  - **Concern** The intrinsic fluorescence data are only presented in a supplementary figure and are not described in detail in the main text. The interpretation is based on the maintenance of a fluorescence signal at 380 nm, but the authors do not provide a clear explanation of what this signal represents or how it relates to the protein's fold. The difference in fluorescence at 350 nm between the variants is attributed to a different microenvironment around W19, but this is not directly demonstrated.
+  - **Why it matters** This experiment is used to rule out a trivial explanation for the loss of DNA binding (i.e., that the mutations cause protein misfolding). If this control is not convincing, the main conclusion is weakened.
+  - **Resolution test** The authors should provide a more detailed analysis of the fluorescence data, including a comparison with a known unfolded or misfolded control. They could also use a more direct method to assess protein folding, such as circular dichroism spectroscopy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction provides a good overview of antimicrobial resistance and efflux pumps, but the transition to the specific role of MarA and the N-terminal helix could be smoother. The rationale for studying the N-terminal helix is not fully explained until later in the introduction.
+  - **Required correction** Consider adding a sentence early in the introduction that directly states the gap in knowledge regarding the role of the N-terminal helix in MarA function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, EMSA
+  - **Evidence pointer** Methods section "Electrophoretic mobility shift assay (EMSA)"
+  - **Issue** The EMSA buffer contains 100 mM MgCl2, which is an unusually high concentration. This could affect protein-DNA interactions and should be justified.
+  - **Required correction** Please explain the choice of 100 mM MgCl2 in the EMSA buffer, or use a more standard buffer composition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, in vivo reporter assay
+  - **Evidence pointer** Results section "Constraining movement of the MarA N-terminal helix reduces activation of acrAB transcription", Figure 3
+  - **Issue** The figure legend for Figure 3 does not specify what the error bars represent (e.g., standard deviation, standard error of the mean).
+  - **Required correction** Please clarify the meaning of the error bars in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, MD simulations
+  - **Evidence pointer** Results section "Impact of the I13C/M47C and I16C/M47C double cysteine mutations on the dynamics and structure of free MarA", Figure 4
+  - **Issue** The PCA plots in Figure 4 are described in the text, but it is difficult to assess the significance of the differences between the variants without a more quantitative analysis, such as the free energy landscape.
+  - **Required correction** Consider providing a free energy landscape plot or a quantitative measure of the conformational space sampled by each variant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is relatively brief and does not fully contextualize the findings within the broader literature on AraC/XylS family regulators and their potential as drug targets.
+  - **Required correction** Expand the discussion to include a more detailed comparison with other studies on MarA and related proteins, and discuss the potential implications and limitations of the proposed inhibitory strategy.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative EMSA data and the limited number of replicates in the in vivo experiments are the most significant technical issues. The manuscript also lacks a clear demonstration that the disulfide bond is fully formed and stable under the experimental conditions used. The MD simulations are extensive but the analysis could be more quantitative.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of using disulfide bond engineering to immobilize the N-terminal helix is creative and the question is important. However, the concept that N-terminal regions can modulate DNA binding is not entirely new, and the claim of universality is not fully supported.
+  - **Scientific importance** The work has the potential to be important for understanding the regulation of efflux pumps and for developing new antimicrobial strategies. However, the significance is diminished by the lack of robust experimental evidence and the overstatement of the universality of the mechanism.
+  - **Interdisciplinary readership** The topic is of interest to microbiologists, structural biologists, and computational chemists. The manuscript is written in a way that is accessible to these groups, but the lack of quantitative data may limit its appeal to a broader audience.
+  - **Technical soundness** The combination of techniques is appropriate, but the experimental data are not presented with sufficient rigor. The lack of quantitative analysis and statistical tests is a major weakness.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, particularly the MD simulation analysis, may be difficult for non-specialists to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The central claim is interesting but is not supported by sufficiently rigorous experimental data. The manuscript has the potential to be a valuable contribution, but it requires substantial revision and additional experiments to address the major concerns.
+
+## Risk / unsupported claims
+- The claim that the N-terminal helix is involved in "recognition of the functional marboxes" is not directly supported by the data presented. The deletion experiment shows a loss of binding, but this could be due to a general structural disruption rather than a specific role in recognition.
+- The claim that the mechanism of inhibition is "universal for the monomeric members of the AraC/XylS family" is not supported by the data, as only one additional protein (Rob) was tested, and only computationally.
+- The suggestion that the N-terminal helix is a "promising target for the development of inhibitors" is speculative and not directly tested in this work.
+- The potential inhibitory effect of I16C/M47C on endogenous MarA activity, suggested by the in vivo data, is not explored and is presented as a future study, making it an unsupported claim in the current context.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that adenanthin, an ent-kaurane diterpenoid from *Rabdosia adenantha*, exerts anti-inflammatory effects by covalently modifying Cys38 of the p65 (RelA) subunit of NF-kappaB, thereby inhibiting DNA binding and NF-kappaB signaling. They also introduce a method termed affinity-based label-free protein profiling (ALFPP) for identifying covalent targets of electrophilic natural products with ketone or aldehyde groups, and report identification of 27 potential covalent targets of adenanthin.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental procedures, statistical analyses, compound characterization data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a covalent mechanism of action for adenanthin and introduces a new target-identification method. However, the evidence base available for review is limited to the abstract, which precludes rigorous evaluation of the technical soundness, data quality, and robustness of the conclusions. The core claims are plausible but cannot be verified from the supplied material.
+- **Who would be interested in the results, and why** Researchers in natural product pharmacology, NF-kappaB signaling, covalent drug discovery, and chemical biology would find the results relevant. The proposed ALFPP method may interest investigators developing target-identification tools for electrophilic compounds. Clinically oriented scientists studying anti-inflammatory and anticancer agents derived from traditional medicines may also follow this work.
+- **Major strengths** The study addresses a significant gap in understanding adenanthin's molecular mechanism. The introduction of ALFPP as a label-free profiling approach for electrophilic carbonylated natural products is conceptually novel. The combination of multiple orthogonal techniques (LC-MS/MS, molecular docking, EMSA, genome editing) to support the proposed mechanism is commendable in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that adenanthin covalently modifies Cys38 of p65 and that this modification affects DNA binding to p65, thereby inhibiting NF-kappaB signaling.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that LC-MS/MS, molecular docking, EMSA, and genome editing were used, but no experimental details, quantitative results, or controls are described. It is unclear how the covalent modification at Cys38 was unambiguously established, whether the modification was stoichiometric, and whether the effect on DNA binding was demonstrated in a dose-dependent manner. The functional relevance of Cys38 modification in cellular contexts is not supported by any presented data.
+  - **Why it matters** The central mechanistic claim rests on the specificity and functional consequence of Cys38 modification. Without detailed evidence, the claim that this modification is responsible for the anti-inflammatory effects cannot be assessed. Overinterpretation of preliminary data could mislead the field.
+  - **Resolution test** Provide mass spectrometry data showing the exact site of modification, mutagenesis studies (e.g., C38A p65) demonstrating loss of adenanthin binding and functional effects, and quantitative DNA-binding assays with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that ALFPP is a new method that can identify covalent targets of electrophilic natural products with ketone or aldehyde groups, and that it identified 27 potential targets of adenanthin.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how ALFPP works, how specificity was ensured, how false positives were excluded, or how the 27 targets were validated. No comparison to existing methods is provided. The claim that ALFPP will facilitate target identification is speculative without demonstrated performance metrics.
+  - **Why it matters** A new method must be rigorously validated to be useful to the community. If ALFPP is not sufficiently specific or reproducible, the target list and downstream conclusions may be unreliable.
+  - **Resolution test** Provide a detailed protocol, validation with known positive and negative controls, assessment of false discovery rate, and independent confirmation of at least a subset of the identified targets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors imply that the elucidation of adenanthin's mechanism will contribute to new drug development for treating inflammations and cancers.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any in vivo efficacy data, pharmacokinetic properties, or selectivity assessments for adenanthin. The translational claim is therefore unsupported.
+  - **Why it matters** Claims about drug development potential require evidence of efficacy and safety in relevant disease models. Without such data, the statement is premature and may overstate the clinical relevance.
+  - **Resolution test** Provide in vivo data from relevant inflammation or cancer models, including dosing, toxicity, and target engagement studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms (e.g., ALFPP, ent-kaurane diterpenoid) without brief explanation, which may limit accessibility for readers outside the specialized field.
+  - **Required correction** Add a brief explanatory phrase for ALFPP and the compound class when first mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the number of replicates, statistical methods, or significance thresholds for the key experiments.
+  - **Required correction** Include basic statistical information or refer to the full text for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract statement on ALFPP utility
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that ALFPP "will facilitate" target identification is forward-looking and not directly supported by data in the abstract.
+  - **Required correction** Rephrase to describe what ALFPP demonstrated in this study rather than making a general prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanism and the new method must be substantiated with detailed experimental evidence. Without these, the case for adenanthin's covalent targeting of p65 and the utility of ALFPP is not established.
+- **Assessment against Nature-style criteria** Originality: The concept of targeting p65 Cys38 with a natural product is novel, and ALFPP appears to be a new approach, but novelty cannot be fully assessed without comparison to existing methods. Scientific importance: NF-kappaB is a well-validated therapeutic target, and a covalent inhibitor with a defined mechanism could be significant, but the translational impact is not yet demonstrated. Interdisciplinary readership: The topic bridges natural product chemistry, cell signaling, and drug discovery, which could attract a broad audience, but the abstract is too specialized in its current form. Technical soundness: Cannot be evaluated from the abstract alone; the described experiments are appropriate in principle but lack detail. Readability for nonspecialists: The abstract is moderately accessible but would benefit from clearer explanations of key terms and methods.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and the study has potential, but the abstract alone does not provide sufficient data to support the mechanistic and methodological conclusions. A full manuscript with detailed experimental evidence would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that adenanthin covalently modifies Cys38 of p65 is unsupported without mass spectrometry and mutagenesis data.
+- The claim that ALFPP identified 27 potential covalent targets is unverifiable without method details and validation.
+- The claim that adenanthin's mechanism will contribute to drug development is unsupported without in vivo or pharmacokinetic data.
+- The general utility of ALFPP for other electrophilic natural products is speculative and not demonstrated.

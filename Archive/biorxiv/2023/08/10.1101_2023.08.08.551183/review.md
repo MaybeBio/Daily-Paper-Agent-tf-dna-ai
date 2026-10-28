@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, methods, data availability, and supplementary file descriptions) as provided by the author.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with Nature-style criteria. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present a pan-cistrome of maize leaf under well-watered and drought conditions, generated via MOA-seq on 25 F1 hybrids. They identify ~210,000 binding-QTL (bQTL) associated with TF binding variation, validate these against known causal loci and ChIP-seq data, and demonstrate that bQTL capture the majority of heritable trait variation for ~71% of 143 phenotypes in the NAM population. They also characterize drought-responsive cis-regulatory loci, including a functional validation of ZmTINY promoter fragments.
+- **Visible evidence base** Abstract, full background, results sections (including figure legends and supplementary file references), methods, data availability statement, and author contributions. No raw data, figures, or supplementary tables were provided for direct inspection.
+- **Missing materials affecting confidence** All figures, supplementary tables (S1-S11), and supplementary figures (S1-S23) are referenced but not provided. Raw sequencing data, analysis scripts, and the custom genome browser are not accessible for verification. The methods section lacks detailed parameters for several key analyses (e.g., MOA-seq peak calling thresholds, mixed linear model specifications, heritability estimation validation).
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially important resource for plant functional genomics. The approach of using haplotype-specific MOA-seq in F1 hybrids to map cis-regulatory variation is innovative and well-conceived. The integration with heritability partitioning is a strong analytical contribution. However, the current evidence base is insufficient to fully evaluate the robustness of the claims. Key concerns include the lack of direct validation of bQTL effects on TF binding (beyond ChIP-seq overlap), the reliance on correlational evidence for the heritability claims, and the incomplete description of the drought-response analysis. The manuscript is well-written and the logical flow is clear, but several technical details and validations are needed before the central claims can be considered established.
+- **Who would be interested in the results, and why** Plant geneticists, maize researchers, and functional genomicists would be the primary audience. The pan-cistrome resource and bQTL map would be valuable for understanding cis-regulatory variation and its role in complex traits. Researchers working on crop improvement via genome editing would also be interested in the identification of functional variants. The heritability partitioning approach may appeal to quantitative geneticists, though the methods are not entirely novel.
+- **Major strengths** 1) The use of F1 hybrids with a shared reference parent is a clever design to minimize trans-effects and technical variation, enabling robust haplotype-specific footprinting. 2) The scale of the analysis (25 hybrids, ~210,000 bQTL) is impressive and provides a genome-wide resource. 3) The integration of bQTL with heritability partitioning is a powerful way to assess functional relevance. 4) The validation against known causal loci (VGT1, Trehalase1, ZmNAC111) and ChIP-seq data adds credibility. 5) The drought-response analysis, including the functional validation of ZmTINY, extends the utility of the resource to environmental responses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "bQTL capture the majority of heritable trait variation across ~70% of 143 phenotypes" (Abstract, Results section "MOA bQTL explain a large portion of heritable variation").
+  - **Evidence pointer** Figure 3e, Figure S16-S18, Supplemental Table S8 (location not provided for specific data points).
+  - **Concern** The heritability partitioning analysis is central to the paper's main claim, but the methods description is insufficient to assess its validity. The authors state that they used mixed linear models with kinship matrices estimated from bQTL, matched background SNPs, and remaining SNPs. However, they do not provide details on how the kinship matrices were constructed (e.g., whether they used all bQTL or a subset, how LD was accounted for), how the matched background SNPs were selected (beyond allele frequency and distance to gene), or how the variance components were estimated and compared. The simulation study (Figure S16) is mentioned but not described in sufficient detail to evaluate its adequacy. Without this information, it is impossible to determine whether the heritability estimates are unbiased or whether the comparison between bQTL and background SNPs is fair.
+  - **Why it matters** The claim that bQTL explain the majority of heritability is the key translational finding. If the analysis is flawed, the conclusion is unsupported, which would undermine the paper's significance.
+  - **Resolution test** Provide a detailed description of the VCAP pipeline, including the exact model specifications, kinship matrix construction, and simulation parameters. Show that the heritability estimates are robust to different sampling schemes and that the matched background SNPs are truly comparable to bQTL in terms of allele frequency and genomic context. Ideally, include a sensitivity analysis demonstrating that the results are not driven by the specific choice of SNPs or model parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "bQTL coincide with numerous known, causative regulatory loci" and "their footprint bias is mirrored between inbred parents and by ChIP-seq" (Abstract, Results section "bQTL coincide with numerous known, causative regulatory loci").
+  - **Evidence pointer** Figure 2d-f, Figure S9-S11, Figure 1d (location not provided for specific loci).
+  - **Concern** The validation of bQTL against known causal loci is presented as a key support for their functional relevance, but the analysis appears largely correlational. For example, the authors state that bQTL are "directly adjacent" to the YABBY TF binding site at Upright Plant Architecture2, but they do not demonstrate that the bQTL variant actually alters TF binding or gene expression. Similarly, for Trehalase1, they show a correlation between bQTL genotype and MOA signal, but the causal variant is not identified. The ChIP-seq comparison (Figure 1d) shows concordance in allelic bias for ZmBZR1, but this is for a single TF and may not generalize. The authors need to provide more direct evidence that bQTL represent functional variants, such as allele-specific binding assays or reporter constructs for a subset of loci.
+  - **Why it matters** The paper's premise is that bQTL are functional variants, not just statistical associations. Without direct validation, the resource's utility for targeted engineering is uncertain.
+  - **Resolution test** For a subset of bQTL (e.g., 5-10 loci), perform electrophoretic mobility shift assays (EMSAs) or luciferase reporter assays to demonstrate that the variant alleles differentially affect TF binding or promoter activity. Alternatively, use CRISPR-based editing to swap alleles in a model system and show effects on gene expression or phenotype. At minimum, provide a more detailed analysis of the ChIP-seq overlap, including the proportion of bQTL that fall within ChIP-seq peaks and the statistical significance of the enrichment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "identified more than 3500 drought-response cis-regulatory loci, including ZmTINY as candidate loci for future smart breeding" (Abstract, Results section "Characterization of a drought-responsive cistrome").
+  - **Evidence pointer** Figure 4, Figure S19-S23, Supplemental Tables S9-S11 (location not provided for specific loci).
+  - **Concern** The drought-response analysis is a significant part of the paper, but the definition of "drought-responsive cis-regulatory loci" is unclear. The authors state that they selected bQTL with drought-responsive occupancy near genes that displayed both haplotype-specific and drought-responsive transcript accumulation, but the criteria for "drought-responsive" (e.g., fold-change threshold, statistical significance) are not specified. The functional validation of ZmTINY is promising, but it is a single example and the effect sizes are modest (1.4-5.5-fold differences in MOA signal, 18-84-fold differences in transcript levels). The authors should clarify the selection criteria and provide a more comprehensive validation of the drought-responsive loci.
+  - **Why it matters** The drought-response component is a key novelty of the paper, but the claims are not fully supported by the evidence presented. If the criteria are too lenient, the list of 3500 loci may contain many false positives.
+  - **Resolution test** Provide a clear definition of "drought-responsive" with specific thresholds for MOA and transcript changes. Validate a larger set of drought-responsive bQTL (e.g., 10-20 loci) using an independent assay, such as qPCR or reporter constructs. Show that the ZmTINY results are representative of the broader set of loci.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We detected 327,029 MOA footprints (at a false discovery rate of 5%) with strong correlation across biological replicates (Pearson's correlation coefficient > 0.95)" (Results section "Quantification of functional cis-variation").
+  - **Evidence pointer** Figure S1, Supplemental Table S1 (location not provided for replicate data).
+  - **Concern** The reproducibility of the MOA-seq assay is critical, but the authors only report a single correlation coefficient (>0.95) without specifying how it was calculated (e.g., across all footprints, per sample, or per replicate pair). The number of biological replicates is not stated for the B73xMo17 experiment, and the methods for peak calling and footprint detection are not described in sufficient detail. The authors also do not report the number of footprints that were consistently detected across replicates, which would be a more informative measure of reproducibility.
+  - **Why it matters** If the assay is not reproducible, the downstream analyses (AMP calling, bQTL mapping) may be unreliable.
+  - **Resolution test** Provide a detailed description of the MOA-seq data processing, including the exact parameters for peak calling, the number of replicates, and the method for calculating correlation. Report the proportion of footprints that are reproducible across replicates and the concordance of AMP calls across replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract and introduction use several terms without definition (e.g., "pan-cistrome," "binding-QTL," "MOA-seq"), which may be unfamiliar to readers outside the plant genomics field. The authors should provide brief definitions or context for these terms.
+  - **Required correction** Add a sentence in the abstract or introduction explaining what MOA-seq is and what a "pan-cistrome" represents. Define "binding-QTL" in the context of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "MOA-seq data analysis"
+  - **Evidence pointer** Methods section, paragraph on MOA-seq data analysis
+  - **Issue** The methods for merging paired-end reads and generating fragment-center tracks are described, but the rationale for these steps is not explained. The authors should clarify why fragment-center tracks are used instead of raw read coverage.
+  - **Required correction** Add a brief explanation of the purpose of fragment-center tracks and how they improve the resolution of TF footprints.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results section "Characterization of a drought-responsive cistrome"
+  - **Evidence pointer** Figure 4f, text describing clustering of drought-responsive AMPs
+  - **Issue** The clustering analysis of drought-responsive AMPs (Figure 4f) is described in a single sentence, and the interpretation is not fully developed. The authors should provide more detail on the clustering method and the biological implications of the four groups.
+  - **Required correction** Expand the description of the clustering analysis, including the method used (e.g., k-means, hierarchical) and the criteria for assigning AMPs to groups. Discuss the potential biological significance of the different groups.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section "bQTL coincide with numerous known, causative regulatory loci"
+  - **Evidence pointer** Figure 2d-f, text describing ZmPGM1 and ZmSUBTILISIN11
+  - **Issue** The examples of ZmPGM1 and ZmSUBTILISIN11 are described in detail, but the connection to the broader claim is not always clear. The authors should explicitly state how these examples support the functional significance of bQTL.
+  - **Required correction** Add a sentence at the end of each example explaining how it demonstrates the utility of bQTL for identifying functional variants.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Variance Component Analysis Pipeline (VCAP)"
+  - **Evidence pointer** Methods section, paragraph on VCAP
+  - **Issue** The authors state that they used "matched background SNPs" but do not specify the matching criteria beyond allele frequency and distance to the nearest gene. This could affect the validity of the comparison.
+  - **Required correction** Provide a more detailed description of the matching procedure, including the exact bins used for allele frequency and distance, and whether other factors (e.g., LD, GC content) were considered.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (heritability partitioning methods), R1-M2 (lack of direct functional validation of bQTL), R1-M3 (unclear criteria for drought-responsive loci). These are the primary technical issues that prevent the central claims from being fully supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of haplotype-specific MOA-seq in F1 hybrids to map cis-regulatory variation is a novel approach, and the pan-cistrome resource is a unique contribution. The integration with heritability partitioning is not entirely new but is applied in a novel context.
+  - Scientific importance: The resource and the finding that bQTL explain a large portion of heritability have significant implications for understanding cis-regulation and for crop improvement. However, the importance is contingent on the validity of the heritability analysis, which is currently not fully established.
+  - Interdisciplinary readership: The topic is primarily of interest to plant geneticists and genomicists. The broader significance to non-plant researchers is limited, though the methodological approach could be of interest to those studying cis-regulation in other organisms.
+  - Technical soundness: The experimental design is sound, but the analysis methods are incompletely described, and the validation is insufficient. The lack of direct functional validation of bQTL is a significant gap.
+  - Readability for nonspecialists: The manuscript is generally well-written, but the abstract and introduction assume familiarity with specialized terms. The results are presented clearly, but the methods are dense and would be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable resource and a potentially important finding, but the current evidence is insufficient to fully support the central claims. The authors must provide a more detailed description of the heritability partitioning methods, direct functional validation of a subset of bQTL, and clearer criteria for drought-responsive loci. If these issues are addressed, the paper could be suitable for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that bQTL "capture the majority of heritable trait variation" is not fully supported due to incomplete methods description and lack of sensitivity analysis.
+- The claim that bQTL "coincide with numerous known, causative regulatory loci" is based on correlational evidence and lacks direct functional validation.
+- The claim that "more than 3500 drought-response cis-regulatory loci" were identified is unsupported due to unclear selection criteria.
+- The claim that the pan-cistrome is "near saturation" (Figure S6) is not verifiable without the figure.
+- The functional validation of ZmTINY is promising but is a single example and may not be representative of the broader set of drought-responsive loci.

@@ -1,0 +1,611 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.16.633485",
+  "title": "Binding affinities for 2D protein dimerization benefit from enthalpic stabilization",
+  "doi": "10.1101/2025.01.16.633485",
+  "abstract": "Dimerization underpins all macromolecular assembly processes both on and off the membrane. While the strength of dimerization, K D , is commonly quantified in solution (3D), many proteins like the soluble BAR domain-containing proteins also reversibly dimerize while bound to a membrane surface (2D). The ratio of dissociation constants, , defines a lengthscale that is essential for determining whether dimerization is more favorable in solution or on the membrane surface, particularly for these proteins that reversibly transition between 3D and 2D. While purely entropic rigid-body estimates of h apply well to transmembrane adhesion proteins, we show here using Molecular Dynamics simulations that even moderate flexibility in BAR domains dramatically alters the free energy landscape from 3D to 2D, driving enhanced selectivity and stability of the native dimer in 2D. By simulating BAR homodimerization in three distinct environments, 1) solution (3D), 2) bound to a lipid bilayer (2D), and 3) fully solvated but restrained to a pseudo membrane (2D), we show that both 2D environments induce backbone configurations that better match the crystal structure and produce more enthalpically favorable dimer states, violating the rigid-body estimates to drive h ≪ h RIGID . Remarkably, contact with an explicit lipid bilayer is not necessary to drive these changes, as the solvated pseudo membrane induces this same result. We show this outcome depends on the stability of the protein interaction, as a parameterization that produces exceptionally stable binding in 3D does not induce systematic improvements on the membrane. With h lengthscales calculated here that are well below a physiological volume-to-surface-area lengthscale, assembly will be dramatically enhanced on the membrane, which aligns with BAR domain function as membrane remodelers. Our approach provides simple metrics to move beyond rigid-body estimates of 2D affinities and assess whether conformational flexibility selects for enhanced stability on membranes.",
+  "authors": [
+    "Adip Jhaveri",
+    "Smriti Chhibber",
+    "Nandan Kulkarni",
+    "Margaret E Johnson"
+  ],
+  "published_date": "2025-01-21",
+  "updated_date": "2025-01-21T21:40:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.16.633485",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.16.633485.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T08:05:59Z",
+        "timestamp": 1775894759184,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            21
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 76,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                21
+              ]
+            ],
+            "date-time": "2025-01-21T00:00:00Z",
+            "timestamp": 1737417600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Dimerization underpins all macromolecular assembly processes both on and off the membrane. While the strength of dimerization, K\n                  <jats:sub>D</jats:sub>\n                  , is commonly quantified in solution (3D), many proteins like the soluble BAR domain-containing proteins also reversibly dimerize while bound to a membrane surface (2D). The ratio of dissociation constants,\n                  <jats:inline-formula>\n                    <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"633485v2_inline1.gif\"/>\n                  </jats:inline-formula>\n                  , defines a lengthscale that is essential for determining whether dimerization is more favorable in solution or on the membrane surface, particularly for these proteins that reversibly transition between 3D and 2D. While purely entropic rigid-body estimates of\n                  <jats:italic>h</jats:italic>\n                  apply well to transmembrane adhesion proteins, we show here using Molecular Dynamics simulations that even moderate flexibility in BAR domains dramatically alters the free energy landscape from 3D to 2D, driving enhanced selectivity and stability of the native dimer in 2D. By simulating BAR homodimerization in three distinct environments, 1) solution (3D), 2) bound to a lipid bilayer (2D), and 3) fully solvated but restrained to a pseudo membrane (2D), we show that both 2D environments induce backbone configurations that better match the crystal structure and produce more enthalpically favorable dimer states, violating the rigid-body estimates to drive\n                  <jats:italic>h</jats:italic>\n                  ≪\n                  <jats:italic>h</jats:italic>\n                  <jats:sub>\n                    <jats:italic>RIGID</jats:italic>\n                  </jats:sub>\n                  . Remarkably, contact with an explicit lipid bilayer is not necessary to drive these changes, as the solvated pseudo membrane induces this same result. We show this outcome depends on the stability of the protein interaction, as a parameterization that produces exceptionally stable binding in 3D does not induce systematic improvements on the membrane. With\n                  <jats:italic>h</jats:italic>\n                  lengthscales calculated here that are well below a physiological volume-to-surface-area lengthscale, assembly will be dramatically enhanced on the membrane, which aligns with BAR domain function as membrane remodelers. Our approach provides simple metrics to move beyond rigid-body estimates of 2D affinities and assess whether conformational flexibility selects for enhanced stability on membranes.\n                </jats:p>",
+      "DOI": "10.1101/2025.01.16.633485",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            21
+          ]
+        ],
+        "date-time": "2025-01-21T21:40:14Z",
+        "timestamp": 1737495614000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Binding affinities for 2D protein dimerization benefit from enthalpic stabilization"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Adip",
+          "family": "Jhaveri",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "TC Jenkins Department of Biophysics, Johns Hopkins University, 3400 N Charles St, Baltimore, MD 21218"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Smriti",
+          "family": "Chhibber",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TC Jenkins Department of Biophysics, Johns Hopkins University, 3400 N Charles St, Baltimore, MD 21218"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nandan",
+          "family": "Kulkarni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TC Jenkins Department of Biophysics, Johns Hopkins University, 3400 N Charles St, Baltimore, MD 21218"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9881-291X",
+          "authenticated-orcid": false,
+          "given": "Margaret E",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TC Jenkins Department of Biophysics, Johns Hopkins University, 3400 N Charles St, Baltimore, MD 21218"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2004.08.017"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.132"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-021-00375-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(97)78846-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2748"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28373-x"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1719801115"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23412-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.435511"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601174"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg511"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-12434-9"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2010.87"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1092586"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbalip.2006.06.015"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.0c10992"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1305766110"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4936134"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0010-4655(95)00042-E"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/0034-4885/71/12/126601"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2009.05.011"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2080"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E10-12-1021"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2015.02.011"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.25",
+          "first-page": "157",
+          "volume": "13",
+          "year": "1888",
+          "journal-title": "Ann. des Mines"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006031"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.27",
+          "unstructured": "Adam, G. ; Delbruck, M. Reduction of Dimensionality in Biological Diffusion Processes. In Structural Chemistry and Molecular Biology, Freeman, 1968; pp 198–215."
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(77)85544-6"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10183"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-50827-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.104.055855"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2006.270"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.105.072546"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1009969"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E16-06-0399"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2007.05.002"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2007694117"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17437-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01098-3"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00473"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(97)78756-3"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.42",
+          "unstructured": "Hill, T. L. An introduction to statistical thermodynamics; Dover, 1986."
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19336918.2016.1180487"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0409005102"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp003602d"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0187936"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.0c00507"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.2c01490"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-021-00676-1"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201104040"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.016118"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gallop, J. L. ; McMahon, H. T. BAR domains and membrane curvature: bringing your curves to the BAR. Biochem Soc Symp 2005, (72), 223–231.",
+          "DOI": "10.1042/bss0720223"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-06532-3"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.09.053"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-09259-w"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2009.06.036"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2009.11.011"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201807119"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2012.03.039"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms6974"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-47677-8"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2020.05.002"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4936135"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2319491121"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4929390"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300646g"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JCTC.3C00777/SUPPL_FILE/CT3C00777_SI_001.PDF"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202427399"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.100.020603"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.72",
+          "unstructured": "Bussi, G. ; Tribello, G. A. Analyzing and biasing simulations with PLUMED; https://arxiv.org/pdf/1812.08213.pdf."
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct400617"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/38.310720"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2026041100394499000_2025.01.16.633485v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3437359.3465593"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.01.16.633485",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T07:39:57Z",
+        "timestamp": 1775893197000
+      },
+      "score": 99.43226,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.01.16.633485"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            21
+          ]
+        ]
+      },
+      "references-count": 76,
+      "URL": "https://doi.org/10.1101/2025.01.16.633485",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

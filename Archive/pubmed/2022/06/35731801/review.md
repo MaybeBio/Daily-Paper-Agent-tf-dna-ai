@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, and reference to Supporting Information)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to presented evidence, and clarity of presentation
+- **Shared manuscript claim summary** The authors present PhosTF, a novel computational method for inferring indirect transcriptional regulation by protein kinases and phosphatases, based on linear cyclic causal models with latent variables. They also present GeneNetWeaverPhos, an extension of GeneNetWeaver for simulating perturbation data in networks with secondary regulation. The method is validated on simulated networks and applied to a large compendium of yeast perturbation data, yielding thousands of predicted regulatory interactions, with a surprising predominance of negative regulation of transcription factors by kinases and phosphatases.
+- **Visible evidence base** Full text including equations, figure legends (Figs 1–4), tables (Tables 1–4), and references to Supporting Information (S1 Text)
+- **Missing materials affecting confidence** Figures themselves, tables themselves, and Supporting Information (S1 Text) were not provided. These are essential for evaluating the validity of the simulation results, the yeast data analysis, and the statistical claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and under-explored problem in regulatory genomics: the systematic inference of indirect regulation of transcription factors by kinases and phosphatases. The methodological extension of the LLC framework to include latent activity variables is conceptually sound and the development of GeneNetWeaverPhos is a useful contribution. However, the manuscript as presented has several significant weaknesses. The performance claims on simulated data are difficult to assess without the figures and detailed simulation parameters. The yeast data analysis, while ambitious, raises concerns about the validity of the inferred interactions given the sparsity of the validation set and the potential for confounding effects. The reported dominance of negative regulation is intriguing but the authors' attempts to rule out systematic biases are not fully convincing. The manuscript would benefit from a clearer presentation of the method's limitations and a more cautious interpretation of the biological findings.
+- **Who would be interested in the results, and why** Researchers in systems biology, computational genomics, and signal transduction would be interested. Specifically, those working on gene regulatory network inference, kinase-substrate prediction, and the integration of perturbation data with prior interaction networks would find the method and the predicted interaction networks of value. The yeast community may also be interested in the specific predictions as a resource for targeted experimental validation.
+- **Major strengths** 1) The problem addressed is important and the extension of causal inference to include latent post-translational regulation is a logical and valuable step beyond existing methods. 2) The development of GeneNetWeaverPhos is a significant practical contribution, as it provides a much-needed simulation framework for benchmarking methods that aim to infer indirect regulation. 3) The application to a large, curated compendium of yeast perturbation data is ambitious and demonstrates the scalability of the approach. 4) The comparison to NetPhorest provides a relevant baseline, even if the comparison is not entirely fair.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that PhosTF achieves high performance on simulated networks, specifically an AUC of 0.89 for d(P,T) regulation, and that this performance is comparable to or better than the best methods from the DREAM4 challenge for primary regulation.
+    - **Evidence pointer** Results section "Performance on simulated networks", Figure 3A, and Discussion. The actual figures and detailed simulation parameters are in the missing Supporting Information.
+    - **Concern** The performance claims are based on simulations, but the details of the simulation setup are not fully described in the main text. The number of simulated networks (25) is relatively small, and it is unclear how the parameters for the simulation (e.g., network structure, noise levels, number of perturbation experiments) were chosen. The comparison to DREAM4 results is problematic because the DREAM4 challenge did not include secondary regulation, making the comparison indirect. The authors state that their method performs "comparably to the best methods" but the basis for this comparison is not clear from the text alone.
+    - **Why it matters** The entire premise of the method's utility rests on its ability to accurately infer regulatory interactions. If the simulation setup is not realistic or is biased in favor of the method, the performance claims are not meaningful. A fair and well-documented benchmark is essential to establish the method's validity.
+    - **Resolution test** The authors must provide the full details of the simulation setup, including the generation of random networks, the parameter ranges, and the number of replicates. They should also provide a more rigorous comparison to existing methods, potentially by running those methods on the same simulated data (including the new secondary regulation component). The ROC curves and AUC values must be shown in the main figures.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Validity of biological conclusions
+    - **Claim pointer** The claim that the inference on yeast data identified ~8800 PK/PP-TF interactions and ~6500 PK/PP-PK/PP interactions at an FDR threshold of q<0.05, and that these predictions are biologically meaningful based on enrichment of known interactions and shared GO terms.
+    - **Evidence pointer** Results section "Inference on yeast data", Figure 3B and 3C, and Discussion.
+    - **Concern** The evaluation of the yeast predictions is a major weakness. The validation set is very small (412 d(P,T) and 694 d(P,P) interactions) and represents only ~1% of the possible interactions. The authors report a "highly significant" enrichment of known interactions, but the statistical test (Fisher's exact test) is sensitive to the choice of the background set. The GO analysis is also weak, as the odds ratios (1.52 and 1.20) are modest, and the analysis does not account for the fact that genes in the same pathway are often co-regulated for many reasons unrelated to direct physical interaction. The claim that 30-40% of the novel predictions are expected to be real is a rough extrapolation from the enrichment of the known set and is not well-justified.
+    - **Why it matters** The biological conclusions, including the surprising predominance of negative regulation, are the main selling points of the paper. If the evaluation is not rigorous, the biological claims are not supported. The authors need to demonstrate that their predictions are specific and not simply reflecting general co-regulation or experimental artifacts.
+    - **Resolution test** The authors should provide a more robust statistical framework for evaluating their predictions. This could include a permutation-based test that accounts for the structure of the network, a comparison against a more appropriate background model, and a more detailed analysis of the GO term enrichment. They should also discuss the limitations of the validation set and avoid over-interpreting the enrichment results.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation of results
+    - **Claim pointer** The claim that the over-representation of negative regulation of transcription factors by kinases and phosphatases is a real biological phenomenon and not an artifact of the data or method.
+    - **Evidence pointer** Results section "Inference on yeast data", Discussion.
+    - **Concern** The authors present a thoughtful discussion of potential biases, but their arguments are not fully convincing. They argue that non-specific deletion effects would only increase positive regulation, which is a reasonable point. However, they do not address other potential biases, such as the directionality of the inferred edges being influenced by the choice of perturbation data or the initialization of the weights. The observation that the bias is stronger for known interactions (85% negative) than for all predictions (~70% negative) is interesting but not explained.
+    - **Why it matters** If the main biological finding is an artifact, the paper's impact is significantly diminished. The authors need to be more rigorous in exploring and ruling out alternative explanations for this striking observation.
+    - **Resolution test** The authors should perform additional analyses to test the robustness of this finding. For example, they could analyze the sign of the inferred interactions for a subset of well-characterized kinase-TF pairs, or they could perform simulations with known positive and negative regulation to see if their method can recover the correct signs. They should also discuss the potential for the method to systematically infer negative regulation due to the way the latent variables are modeled.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states that "over 2000 genome-wide expression profiles" were used, but the main text and Table 2 should be checked for consistency. The abstract also mentions "~8800" and "~6500" interactions, which are precise-sounding but are estimates.
+    - **Required correction** Ensure the numbers in the abstract are consistent with the main text and tables. Consider using "approximately" or rounding to fewer significant figures.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section "GeneNetWeaverPhos main equations"
+    - **Evidence pointer** Methods section, Equation 9
+    - **Issue** The description of the simulation model is brief. The functional form of f_i(ψ) is not given in the main text, and the parameter values used for the simulations are not stated.
+    - **Required correction** Provide the full equation for f_i(ψ) in the main text or refer more explicitly to the Supporting Information. State the default parameter values used for the simulations.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Statistical rigor
+    - **Affected element** Results section "Inference on yeast data"
+    - **Evidence pointer** Results section, Figure 3B
+    - **Issue** The authors report a "highly significant" p-value for the enrichment of known interactions but do not report the actual p-value or the odds ratio for this specific test.
+    - **Required correction** Report the exact p-value and the odds ratio for the Fisher's exact test.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Presentation
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion
+    - **Issue** The discussion of the "trafficking hypothesis" is interesting but speculative. The authors should be clearer that this is a hypothesis and not a conclusion of their work.
+    - **Required correction** Soften the language around this hypothesis and clearly state that it is one possible explanation among many.
+- **Technical failings that need to be addressed before the case is established** The lack of access to the figures and Supporting Information prevents a full assessment of the simulation results and the yeast data analysis. The evaluation of the yeast predictions is not sufficiently rigorous to support the biological claims. The comparison to DREAM4 is not well-defined. The potential for systematic biases in the inference of negative regulation needs to be more thoroughly investigated.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The work is original in its specific focus on inferring indirect regulation by kinases and phosphatases using a causal inference framework. The extension of LLC to include latent activity variables is a novel contribution.
+    - **Scientific importance** The problem is important, as post-translational regulation of transcription factors is a key mechanism of gene control. A reliable method for inferring such regulation from perturbation data would be a valuable tool. However, the importance is tempered by the lack of rigorous validation.
+    - **Interdisciplinary readership** The work is likely to appeal to computational biologists, systems biologists, and researchers in signal transduction. The methods are technical and may not be immediately accessible to a broader biological audience.
+    - **Technical soundness** The core methodological idea is sound, but the technical execution and validation have significant weaknesses. The simulation benchmark is not fully described, and the evaluation of the yeast predictions is not statistically robust.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is appropriate for the target audience. However, the abstract and introduction could be more accessible. The main text is generally clear, but the lack of figures makes it difficult to follow the results.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological idea is promising, but the validation and evaluation are insufficient to support the claims. The authors need to provide a more rigorous and complete demonstration of the method's performance and the validity of its biological predictions.
+
+## Risk / unsupported claims
+- The claim that PhosTF's performance is "comparable to the best methods" from DREAM4 is not well-supported, as the comparison is indirect and the simulation setup is not fully described.
+- The claim that 30-40% of the novel predictions are expected to be real is an unsupported extrapolation.
+- The biological significance of the predicted interactions, based on shared GO terms, is weakly supported due to the modest odds ratios and the lack of a proper statistical framework.
+- The claim that the predominance of negative regulation is a real biological phenomenon is not fully established, as potential systematic biases have not been completely ruled out.
+- The specific numbers of predicted interactions (~8800 and ~6500) are presented with a false sense of precision, given the lack of a robust validation.

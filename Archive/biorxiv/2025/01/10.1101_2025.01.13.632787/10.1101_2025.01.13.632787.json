@@ -1,0 +1,825 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.13.632787",
+  "title": "Genetic background sets the trajectory of cancer evolution",
+  "doi": "10.1101/2025.01.13.632787",
+  "abstract": "Human cancers are heterogeneous. Their genomes evolve from genetically diverse germlines in complex and dynamic environments, including exposure to potential carcinogens. This heterogeneity of humans, our environmental exposures, and subsequent tumours makes it challenging to understand the extent to which cancer evolution is predictable. Addressing this limitation, we re-ran early tumour evolution hundreds of times in diverse, inbred mouse strains, capturing genetic variation comparable to and beyond that found in human populations. The sex, environment, and carcinogenic exposures were all controlled and tumours comprehensively profiled with whole genome and transcriptome sequencing. Within a strain, there was a high degree of consistency in the mutational landscape, a limited range of driver mutations, and all strains converged on the acquisition of a MAPK activating mutation with similar transcriptional disruption of that pathway. Despite these similarities in the phenotypic state of tumours, different strains took markedly divergent paths to reach that state. This included pronounced biases in the precise driver mutations, the strain specific occurrence of whole genome duplication, and differences in subclonal selection that reflected both cancer susceptibility and tumour growth rate. These results show that interactions between the germline genome and the environment are highly deterministic for the trajectory of tumour genome evolution, and even modest genetic divergence can substantially alter selection pressures during cancer development, influencing both cancer risk and the biology of the tumour that develops.",
+  "authors": [
+    "Aitken SJ",
+    "Connor F",
+    "Feig C",
+    "Rayner TF",
+    "Lukk M",
+    "Luft J",
+    "Aitken S",
+    "Arnedo-Pac C",
+    "Hayes JF",
+    "Nicholson MD",
+    "Sundaram V",
+    "Verburg JC",
+    "Connelly J",
+    "Anderson CJ",
+    "Behm M",
+    "Campbell S",
+    "Daunesse M",
+    "Ewing A",
+    "Kaiser VB",
+    "Kentepozidou E",
+    "Pich O",
+    "Redmond AM",
+    "Santoyo-Lopez J",
+    "Sentís I",
+    "Talmane L",
+    "Flicek P",
+    "López-Bigas N",
+    "Semple CA",
+    "Taylor MS",
+    "Odom DT"
+  ],
+  "published_date": "2025-01-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.13.632787",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.13.632787.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR966294",
+    "raw_record": {
+      "id": "PPR966294",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR966294"
+        ]
+      },
+      "doi": "10.1101/2025.01.13.632787",
+      "title": "Genetic background sets the trajectory of cancer evolution",
+      "authorString": "Aitken SJ, Connor F, Feig C, Rayner TF, Lukk M, Luft J, Aitken S, Arnedo-Pac C, Hayes JF, Nicholson MD, Sundaram V, Verburg JC, Connelly J, Anderson CJ, Behm M, Campbell S, Daunesse M, Ewing A, Kaiser VB, Kentepozidou E, Pich O, Redmond AM, Santoyo-Lopez J, Sentís I, Talmane L, Liver Cancer Evolution Consortium, Flicek P, López-Bigas N, Semple CA, Taylor MS, Odom DT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Aitken SJ",
+            "lastName": "Aitken",
+            "firstName": "Sarah",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center of Molecular and Cellular Oncology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology, , , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Department of Histopathology, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Connor F",
+            "lastName": "Connor",
+            "firstName": "Frances",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2858-9411"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feig C",
+            "lastName": "Feig",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1385-7049"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rayner TF",
+            "lastName": "Rayner",
+            "firstName": "Tim",
+            "initials": "TF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6992-5592"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lukk M",
+            "lastName": "Lukk",
+            "firstName": "Margus",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0701-5358"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luft J",
+            "lastName": "Luft",
+            "firstName": "Juliet",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2458-9377"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aitken S",
+            "lastName": "Aitken",
+            "firstName": "Stuart",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arnedo-Pac C",
+            "lastName": "Arnedo-Pac",
+            "firstName": "Claudia",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2037-8487"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hayes JF",
+            "lastName": "Hayes",
+            "firstName": "James",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-0107-5460"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nicholson MD",
+            "lastName": "Nicholson",
+            "firstName": "Michael",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2813-8979"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Mathematics and the , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sundaram V",
+            "lastName": "Sundaram",
+            "firstName": "Vasavi",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Verburg JC",
+            "lastName": "Verburg",
+            "firstName": "Jan",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3012-3015"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Connelly J",
+            "lastName": "Connelly",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Edinburgh Pathology, Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Laboratory Medicine, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anderson CJ",
+            "lastName": "Anderson",
+            "firstName": "Craig",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2832-9313"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Behm M",
+            "lastName": "Behm",
+            "firstName": "Mikaela",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Regulatory Genomics and Cancer Evolution (B270), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Campbell S",
+            "lastName": "Campbell",
+            "firstName": "Susan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Daunesse M",
+            "lastName": "Daunesse",
+            "firstName": "Maëlle",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0350-7790"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ewing A",
+            "lastName": "Ewing",
+            "firstName": "Ailith",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "CRUK Scotland Centre, Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaiser VB",
+            "lastName": "Kaiser",
+            "firstName": "Vera",
+            "initials": "VB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kentepozidou E",
+            "lastName": "Kentepozidou",
+            "firstName": "Elissavet",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pich O",
+            "lastName": "Pich",
+            "firstName": "Oriol",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Redmond AM",
+            "lastName": "Redmond",
+            "firstName": "Aisling",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santoyo-Lopez J",
+            "lastName": "Santoyo-Lopez",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1988-5059"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sentís I",
+            "lastName": "Sentís",
+            "firstName": "Inés",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Talmane L",
+            "lastName": "Talmane",
+            "firstName": "Lana",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Liver Cancer Evolution Consortium"
+          },
+          {
+            "fullName": "Flicek P",
+            "lastName": "Flicek",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3897-7955"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "López-Bigas N",
+            "lastName": "López-Bigas",
+            "firstName": "Núria",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Semple CA",
+            "lastName": "Semple",
+            "firstName": "Colin",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor MS",
+            "lastName": "Taylor",
+            "firstName": "Martin",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7656-330X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Odom DT",
+            "lastName": "Odom",
+            "firstName": "Duncan",
+            "initials": "DT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , ,"
+                },
+                {
+                  "affiliation": "Division of Regulatory Genomics and Cancer Evolution (B270), , ,"
+                },
+                {
+                  "affiliation": "Liver Cancer Evolution Consortium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7656-330X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0701-5358"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1897-4140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2037-8487"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2832-9313"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3012-3015"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3897-7955"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6992-5592"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0350-7790"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1385-7049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1988-5059"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2458-9377"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2813-8979"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2858-9411"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4867-4568"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-0107-5460"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Human cancers are heterogeneous. Their genomes evolve from genetically diverse germlines in complex and dynamic environments, including exposure to potential carcinogens. This heterogeneity of humans, our environmental exposures, and subsequent tumours makes it challenging to understand the extent to which cancer evolution is predictable. Addressing this limitation, we re-ran early tumour evolution hundreds of times in diverse, inbred mouse strains, capturing genetic variation comparable to and beyond that found in human populations. The sex, environment, and carcinogenic exposures were all controlled and tumours comprehensively profiled with whole genome and transcriptome sequencing. Within a strain, there was a high degree of consistency in the mutational landscape, a limited range of driver mutations, and all strains converged on the acquisition of a MAPK activating mutation with similar transcriptional disruption of that pathway. Despite these similarities in the phenotypic state of tumours, different strains took markedly divergent paths to reach that state. This included pronounced biases in the precise driver mutations, the strain specific occurrence of whole genome duplication, and differences in subclonal selection that reflected both cancer susceptibility and tumour growth rate. These results show that interactions between the germline genome and the environment are highly deterministic for the trajectory of tumour genome evolution, and even modest genetic divergence can substantially alter selection pressures during cancer development, influencing both cancer risk and the biology of the tumour that develops.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT202878/B/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/J004243/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT223088/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT106563/Z/14/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "615584",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202878/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "788937",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT106563/Z/14/A",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT108749/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.13.632787"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.13.632787"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR966294"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR966294&type=FILE&fileName=EMS202631-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202631",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "biostudies",
+          "bioproject",
+          "gca",
+          "arrayexpress",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-01-16",
+      "firstPublicationDate": "2025-01-15",
+      "firstIndexDate": "2025-01-16",
+      "fullTextReceivedDate": "2025-02-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

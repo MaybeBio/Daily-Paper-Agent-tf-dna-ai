@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "34192561",
+    "doi": "10.1016/j.imlet.2021.06.005",
+    "title": "Downregulation of DNMT3a expression by RNAi and its effect on NF-kappaBs expression of thymic epithelial cells."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To understand the characteristics of DNA methyltransferase 3a (DNMT3a) in thymoma associated Myasthenia Gravis reveal its transcriptional regulator network as while as analyze the effect of DNMT3a on Rel/ nuclear factor-kappaB family (RelA/RelB) and its downstream autoimmune regulatory factor (Aire). METHODS: Tissues of 30 patients with thymoma, with or without myasthenia gravis (MG), were collected and the DNMT3a protein expression were evaluated through immunohistochemistry. We performed mRNA expression profiling microarray detection and analysis, and integrated the analysis by constructing protein-protein interaction networks and the integration with other database. We identified molecular difference between low and high DNMT3a in the thymoma by heatmap. We also performed PCR validation in thymoma tissues. The DNMT3a-shRNA plasmid was transfected into TEC cells, and these cells were treated with 5-aza-2-deoxycytidine, a blocker of DNMT3a. After the down-regulation of DNMT3a in TEC cells, the transcript and protein levels of RelA, RelB, Aire, and CHRNA3 were evaluated by western blotting. In addition, changes in gene expression profiles were screened through microarray technology. We performed differential gene analysis in the thymoma cohort by heatmap with R (v.4.3.0) software. RESULTS: In 30 matched tissue specimens, the expression of DNMT3a protein in thymoma with MG was lower than that in thymoma. Through mRNA expression profiling analysis, we constructed a co-expression network of DNMT3a and found direct interaction between IKZF1 and DNMT3a, and this co-expression relationship was overlappted with Cistrome DB database. We found up-regulation of 149 mRNAs and repression of 177 mRNAs in thymoma with MG compared with thymoma. Gene ontology and pathway analysis show the involvement of a multitude of genes in the mis-regulation of MG-related pathways. RNA interference significantly reduced the level of mRNA of DNMT3a, which proved that plasmid DNMT3a was effective. In comparison to the control group, the levels of DNMT3a, Aire, and CHRNA3 mRNA and protein in TEC cells transfected with DNMT3a-shRNA interference plasmid were significantly decreased, while the expression level of RelA and RelA/RelB was significantly increased. CONCLUSIONS: Our study reveals the DNMT3a-NF-kappaB pathway has a major effect on MG, and can be used as a marker for diagnosis as well as a target for MG treatment.",
+    "keywords": [
+      "DNMT3a",
+      "Myasthenia gravis",
+      "NF-kappaB",
+      "Pathway analysis",
+      "Thymoma"
+    ],
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "DNA Methyltransferase 3A/antagonists & inhibitors/*biosynthesis/genetics",
+      "Decitabine/pharmacology",
+      "Epithelial Cells/*metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "Gene Ontology",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Myasthenia Gravis/etiology/genetics/*metabolism",
+      "NF-kappa B/*biosynthesis/genetics",
+      "Neoplasm Proteins/antagonists & inhibitors/*biosynthesis/genetics",
+      "Protein Interaction Maps",
+      "*RNA Interference",
+      "RNA, Neoplasm/genetics",
+      "RNA, Small Interfering/genetics",
+      "Receptors, Nicotinic/biosynthesis/genetics",
+      "Thymoma/complications/genetics/*metabolism",
+      "Thymus Gland/*metabolism",
+      "Thymus Neoplasms/complications/genetics/*metabolism",
+      "Tissue Array Analysis",
+      "Transcription Factors/biosynthesis/genetics",
+      "Transcriptome",
+      "AIRE Protein"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Fan-Jie",
+        "Guo, Feng",
+        "Sun, Zhao-Nan",
+        "Wang, Shu-Jun",
+        "Yang, Chun-Rui",
+        "Wang, Chun-Yang",
+        "Zhang, Wen-Cheng",
+        "Gao, Zhou-Yong",
+        "Ji, Lin-Lin",
+        "Feng, Fu-Kai",
+        "Guan, Zhi-Yu",
+        "Wang, Guang-Shun"
+      ],
+      "short_names": [
+        "Meng FJ",
+        "Guo F",
+        "Sun ZN",
+        "Wang SJ",
+        "Yang CR",
+        "Wang CY",
+        "Zhang WC",
+        "Gao ZY",
+        "Ji LL",
+        "Feng FK",
+        "Guan ZY",
+        "Wang GS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China.",
+        "Department of Endoscopy, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Tianjin 300060, China.",
+        "Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "Tianjin Hospital, Tianjin 300211, China.",
+        "The Second Hospital of Tianjin Medical University, Tianjin 300211, China.",
+        "Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China.",
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China.",
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China.",
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China.",
+        "The Second Hospital of Tianjin Medical University, Tianjin 300211, China. Electronic address: guanzy69@163.com.",
+        "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China. Electronic address: wgs@bddhospital.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Fan-Jie",
+        "short_name": "Meng FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Feng",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endoscopy, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Tianjin 300060, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhao-Nan",
+        "short_name": "Sun ZN",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shu-Jun",
+        "short_name": "Wang SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Hospital, Tianjin 300211, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chun-Rui",
+        "short_name": "Yang CR",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital of Tianjin Medical University, Tianjin 300211, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chun-Yang",
+        "short_name": "Wang CY",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wen-Cheng",
+        "short_name": "Zhang WC",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhou-Yong",
+        "short_name": "Gao ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Lin-Lin",
+        "short_name": "Ji LL",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Fu-Kai",
+        "short_name": "Feng FK",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Zhi-Yu",
+        "short_name": "Guan ZY",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital of Tianjin Medical University, Tianjin 300211, China. Electronic address: guanzy69@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Guang-Shun",
+        "short_name": "Wang GS",
+        "identifiers": [],
+        "affiliations": [
+          "Baodi Clinical College of Tianjin Medical University, Tianjin Baodi Hospital, Tianjin 301800, China. Electronic address: wgs@bddhospital.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Immunology letters"
+    ],
+    "journal_abbrev": [
+      "Immunol Lett"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/01 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "37703595",
+      "37163445"
+    ],
+    "refs": [],
+    "similar": [
+      "34192561",
+      "30734484",
+      "18568643",
+      "28012741",
+      "9668266",
+      "16917804",
+      "32048308",
+      "27999265",
+      "32373124",
+      "25889429",
+      "9973484",
+      "15020075",
+      "30787364",
+      "16750039",
+      "34773374",
+      "24768600",
+      "22000402",
+      "31809976",
+      "28461027",
+      "31594658",
+      "32587589",
+      "38734662",
+      "17334980",
+      "15316806",
+      "8357211",
+      "3951715",
+      "1379503",
+      "17236586",
+      "8669470",
+      "28119349",
+      "8619530",
+      "8872116",
+      "17590173",
+      "1571478",
+      "20859117",
+      "34620045",
+      "35869073",
+      "24440286",
+      "17687331",
+      "39180749",
+      "22036612",
+      "8303777",
+      "3760907",
+      "26531692",
+      "1795043",
+      "2459614",
+      "11508787",
+      "22128624",
+      "18657424",
+      "8871679",
+      "868791",
+      "17004969",
+      "10403908",
+      "27577206",
+      "32243615",
+      "3612190",
+      "20926005",
+      "28299711",
+      "2057938",
+      "8357158",
+      "20728226",
+      "7629292",
+      "25700911",
+      "16178018",
+      "1372058",
+      "18657869",
+      "10390192",
+      "7014787",
+      "32149381",
+      "26875774",
+      "18567864",
+      "5166233",
+      "1995332",
+      "9688341",
+      "24518487",
+      "15679048",
+      "29522809",
+      "26653963",
+      "7725386",
+      "7761941",
+      "1552308",
+      "8623907",
+      "9330525",
+      "32700803",
+      "28238572",
+      "37975358",
+      "2449082",
+      "7936653",
+      "28730784",
+      "6389592",
+      "23944622",
+      "1583885",
+      "17502945",
+      "21733179",
+      "10730077",
+      "26364592",
+      "17293120",
+      "10483582",
+      "18514130",
+      "682943",
+      "32442579",
+      "2222057",
+      "8352784",
+      "15583985",
+      "14592886",
+      "34789272",
+      "35529877",
+      "36271124",
+      "35802752",
+      "36780882",
+      "33357314",
+      "36697230",
+      "20859134",
+      "12967480",
+      "34219124",
+      "15924152",
+      "28216655",
+      "18514126",
+      "35396004",
+      "28262400",
+      "31372268",
+      "37781041",
+      "36991043",
+      "36786935",
+      "37901862",
+      "35070964",
+      "37437230",
+      "38264208"
+    ],
+    "review": [
+      "34192561",
+      "32587589",
+      "20859117",
+      "25700911",
+      "26364592",
+      "10483582",
+      "18514130",
+      "35529877",
+      "20859134"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0165-2478(21)00099-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thymuscancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thymus Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0165-2478(21)00099-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

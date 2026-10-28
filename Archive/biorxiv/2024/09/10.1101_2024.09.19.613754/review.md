@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data/code availability statements)
+- **Assessment boundary** Scientific validity, technical soundness, methodological rigor, clarity of claims, and alignment with stated evidence. No assessment of formatting, grammar, or editorial fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors present scooby, a deep learning framework that models single-cell RNA-seq coverage and single-cell ATAC-seq insertion profiles from DNA sequence at single-cell resolution. The model builds on the pretrained Borzoi architecture, adds a cell-specific decoder conditioned on a low-dimensional single-cell embedding, and uses low-rank adaptation (LoRA) for fine-tuning. Claims include accurate cell-type-specific expression prediction, generalization to unseen cell states, improved TF activity inference via in silico motif deletion, and improved cell-type-resolved variant effect prediction compared to baselines.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative only, no figures or tables visible), Methods (detailed), Data availability, Code availability, Author contributions, Competing interests, Acknowledgements
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary figures, and supplementary tables are referenced but not provided. Quantitative results (correlation values, P values) are stated in text but cannot be verified against plots or tables. Benchmark details for seq2cells and Borzoi comparisons are partially described but not fully visible.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious and potentially valuable framework for single-cell multi-modal genomic profile prediction from DNA sequence. The core idea of leveraging a pretrained bulk model (Borzoi) with a cell-specific decoder conditioned on a low-dimensional embedding is conceptually sound and addresses a real limitation of existing single-cell sequence-to-function models. The methodological details are generally thorough, and the authors have made efforts to address data leakage and computational scalability. However, the current manuscript, as provided, lacks the visual and quantitative evidence needed to fully assess the strength of the claims. Several claims, particularly regarding generalization to unseen cell states and variant effect prediction, require careful scrutiny of the missing figures and supplementary materials. The comparison to baselines, especially for TF activity inference and eQTL deconvolution, needs to be critically evaluated for fairness and statistical rigor. The writing is clear and accessible, but the absence of key evidence limits the current ability to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and genomics researchers working on sequence-to-function models, single-cell multi-omics integration, regulatory genomics, and variant effect prediction. The framework's ability to jointly model scRNA-seq and scATAC-seq from sequence at single-cell resolution, and its potential for interpreting cell-type-specific regulatory mechanisms and eQTLs, would be of broad interest to the genomics community. The methodological approach of adapting a foundation model with a lightweight cell-specific decoder is also relevant to researchers developing scalable deep learning models for large single-cell atlases.
+- **Major strengths**
+  - The conceptual advance of jointly modeling scRNA-seq and scATAC-seq at single-cell resolution from sequence, addressing a gap in existing models.
+  - The use of a pretrained foundation model (Borzoi) with parameter-efficient fine-tuning (LoRA) is a pragmatic and scalable approach.
+  - The cell-specific decoder conditioned on a low-dimensional embedding is an elegant solution to avoid per-cell output heads, enabling scalability to large datasets.
+  - The authors address important practical issues, including data leakage prevention, computational efficiency, and providing a streamlined workflow.
+  - The application to eQTL deconvolution and linking variant effects to TF binding is a compelling and potentially impactful use case.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The claim that scooby "recapitulates cell-type-specific expression levels of held-out genes" and "captures cell-type-specific gene expression" is central to the paper's contribution.
+    - **Evidence pointer** Results section "scooby accurately captures cell-type-specific gene expression", Figure 2 (not provided), Extended Data Figures 3-5 (not provided)
+    - **Concern** The quantitative evidence for this claim is not visible. The text states mean Pearson correlations (e.g., 0.86 for pseudobulk, 0.54 for differential expression) but without the corresponding figures, it is impossible to assess the distribution of these correlations, the variance across cell types, or the biological significance of the predictions. The comparison to seq2cells is mentioned but the details of this comparison (e.g., which genes, how many, statistical testing) are not fully described in the visible text. The claim of "accurately" capturing expression needs a more rigorous statistical framework, such as confidence intervals or permutation tests, to be convincing.
+    - **Why it matters** This is the primary performance claim of the model. Without robust and visible evidence, the core value proposition of scooby is not established.
+    - **Resolution test** Provide the missing figures showing per-cell-type correlation distributions, scatter plots of predicted vs. observed expression for representative genes, and a clear statistical comparison to seq2cells and other baselines, including significance testing.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness of evaluation
+    - **Claim pointer** The claim that scooby "significantly outperformed" Borzoi and seq2cells on eQTL effect prediction, and that it can "deconvolve" bulk eQTLs into cell-type-specific effects.
+    - **Evidence pointer** Results section "scooby improves variant effect prediction of cell-type-resolved eQTLs", Figure 4 (not provided), Extended Data Figure 9 (not provided)
+    - **Concern** The evaluation of variant effect prediction is complex and prone to confounding. The text mentions Spearman correlations (0.45 vs 0.47 for GTEx) and improvements over baselines, but the methodology for this comparison is not fully detailed. For instance, how were "cell-type-matched" Borzoi tracks selected? The claim of "deconvolution" is strong; the validation against OneK1K fine-mapped eQTLs is a good idea, but the details of the positive/negative set construction, the handling of LD, and the statistical test used to claim "significantly outperformed" are not visible. The baseline of ranking cell types by pseudobulked expression or accessibility is a weak baseline, and the improvement over it needs to be contextualized.
+    - **Why it matters** This is a key application of the model and a major claimed advantage over bulk models. If the evaluation is not rigorous, the claim of cell-type-specific variant effect prediction is not supported.
+    - **Resolution test** Provide the full methodology for the eQTL benchmark, including the exact definition of positive and negative sets, the handling of LD, and the statistical tests used. Show the missing figures with clear performance metrics and error bars. Justify the choice of baselines and discuss potential confounding factors.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Generalizability and robustness
+    - **Claim pointer** The claim that scooby "can be applied to investigate unseen, but related cell states" and that it "shows robust and efficient scaling behavior to large numbers of cells."
+    - **Evidence pointer** Results section "scooby extrapolates gene expression dynamics to unseen cell states", Figure 2f-g (not provided), Methods section "Training Procedure"
+    - **Concern** The generalization experiment, where normoblasts are withheld, is a good test, but the visible text only provides a single correlation value (0.79 vs 0.81). It is unclear how robust this is across different random seeds, different withheld cell types, or different levels of relatedness. The claim of scalability is based on training on 63k cells and applying to 1.2M cells, but the computational cost of inference on 1.2M cells is not reported. The statement that the model "can in principle" be applied to atlas-scale data needs quantitative support.
+    - **Why it matters** Generalization to unseen states and scalability are key advantages claimed over existing methods. Without robust evidence, these claims remain speculative.
+    - **Resolution test** Provide a more thorough analysis of the generalization experiment, including multiple held-out cell types and variance estimates. Report inference time and memory usage for large datasets. Discuss the limitations of the embedding space for truly novel cell states.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretability and biological validation
+    - **Claim pointer** The claim that TF motif effect scores "allow the investigation of TFs and target gene regulation" and that they "recapitulate the importance of known motifs."
+    - **Evidence pointer** Results section "TF motif effect scoring allows the investigation of TFs and target gene regulation", Figure 3 (not provided), Extended Data Figures 6-7 (not provided)
+    - **Concern** The TF motif effect scores are a central interpretability tool. The text mentions correlations with TF expression and known motifs, but the validation is limited. The comparison to chromVAR and scBasset is mentioned, but the details of this comparison are not visible. The claim that the model "could alleviate the need for scATAC-seq data for the purpose of TF activity inference" is strong and needs more evidence. The issue of motif similarity (e.g., GATA1, TRPS1, GATA3) is acknowledged but not deeply addressed.
+    - **Why it matters** This is a key application of the model for generating biological hypotheses. If the scores are not well-validated, their utility is questionable.
+    - **Resolution test** Provide the missing figures showing the correlation of TF scores with expression for all TFs, not just a few examples. Show a more detailed comparison to chromVAR and scBasset, including a discussion of the limitations of each method. Address the issue of motif redundancy more thoroughly.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity of methodology
+    - **Affected element** Methods section "Data preparation for training"
+    - **Evidence pointer** Methods, "Data preparation for training"
+    - **Issue** The description of the "squashed-scale" approach for RNA coverage is brief. The exact formula and the rationale for the chosen parameters (e.g., clip_soft = 5) are not fully explained.
+    - **Required correction** Provide a more detailed description of the squashed-scale transformation, including the exact formula and a justification for the parameter choices.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section "Training Procedure"
+    - **Evidence pointer** Methods, "Training Procedure"
+    - **Issue** The learning rate schedule, the number of warmup steps, and the exact optimizer parameters are not specified. The statement "until convergence" is vague.
+    - **Required correction** Provide the full training hyperparameters, including learning rate schedule, batch size, number of epochs, and early stopping criteria.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Statistical rigor
+    - **Affected element** Results section "scooby accurately captures cell-type-specific gene expression"
+    - **Evidence pointer** Results, "scooby accurately captures cell-type-specific gene expression"
+    - **Issue** The text reports mean Pearson correlations but does not provide confidence intervals or measures of variance across cell types or genes.
+    - **Required correction** Report the range and standard deviation of correlations across cell types, and consider using bootstrap or other resampling methods to provide confidence intervals.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Clarity of comparison
+    - **Affected element** Results section "scooby improves variant effect prediction of cell-type-resolved eQTLs"
+    - **Evidence pointer** Results, "scooby improves variant effect prediction of cell-type-resolved eQTLs"
+    - **Issue** The comparison to Borzoi is described as "cell-type-matched," but the exact matching procedure is not described in the visible text.
+    - **Required correction** Clarify how Borzoi tracks were matched to cell types and whether this matching was done for all cell types or a subset.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Completeness of reporting
+    - **Affected element** Results section "scooby dissects TF activity within a cell type in a heart organoid case study"
+    - **Evidence pointer** Results, "scooby dissects TF activity within a cell type in a heart organoid case study"
+    - **Issue** The case study is presented as a demonstration of the model's utility, but the specific findings or hypotheses generated are not described in the text.
+    - **Required correction** Briefly summarize the key findings from the case study to illustrate the model's potential for generating biological insights.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (evidence sufficiency for core expression prediction claim)
+  - R1-M2 (technical soundness of eQTL evaluation)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of adapting a pretrained bulk model with a cell-specific decoder for single-cell multi-modal prediction is a novel and creative contribution. The approach of conditioning on a low-dimensional embedding rather than per-cell output heads is a distinct methodological advance over existing single-cell sequence models.
+  - **Scientific importance** The ability to predict single-cell gene expression and chromatin accessibility from sequence, and to interpret cell-type-specific regulatory mechanisms and variant effects, addresses a fundamental challenge in genomics. The potential for deconvolving bulk eQTLs into cell-type-specific effects is of high practical importance.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and genomics researchers. The methodological framework may also appeal to machine learning researchers working on foundation models for genomics. The biological applications, such as TF activity inference and eQTL interpretation, would be of interest to a broader genomics audience.
+  - **Technical soundness** The methodological approach is generally sound, with careful attention to data leakage and computational efficiency. However, the technical soundness of the evaluation, particularly for the eQTL and TF activity claims, cannot be fully assessed from the provided text. The lack of visible figures and detailed statistical methodology is a significant concern.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results and methods sections are more technical but generally well-written. The use of jargon is appropriate for the target audience. The manuscript would benefit from a brief explanation of key concepts, such as LoRA and single-cell embeddings, for a broader readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the methodological approach is sound. However, the current manuscript, as provided, does not fully establish the case due to missing evidence and incomplete evaluation details. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing the missing figures and a more rigorous statistical framework for their claims.

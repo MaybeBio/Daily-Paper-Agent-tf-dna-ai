@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary references) provided as a single document. Figures, tables, and supplementary files are referenced but not fully accessible.
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and claims as presented in the text. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors propose that the dominant-negative phenotype of the catalytically inactive Hrq1-K318A helicase in Saccharomyces cerevisiae during DNA inter-strand crosslink repair is caused by nonproductive DNA binding. They support this with a spontaneous suppressor screen, computational modelling, and biochemical assays.
+- **Visible evidence base** Text descriptions of results, including suppressor screen outcomes, western blot quantification, EMSA data, mass photometry, and structural modelling. Specific numerical values are provided for some experiments (e.g., p-values, ΔΔG thresholds), but raw data, full figures, and supplementary tables are not available for independent verification.
+- **Missing materials affecting confidence** Full figures (Figs. 1-6, S1-S9), all supplementary tables (S1-S3), supplementary files (S1-S2), and complete experimental details for some assays (e.g., exact EMSA conditions, mass photometry calibration) are not provided. This limits verification of quantitative claims and statistical analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and unresolved question in DNA repair: why a catalytically inactive helicase allele is more deleterious than a null allele. The genetic suppressor screen is well conceived, and the finding that all suppressors are intragenic second-site mutations in HRQ1 is striking and informative. The combination of genetic, biochemical, and computational approaches is appropriate and generally well executed. However, several claims are not fully supported by the evidence as presented, particularly the mechanistic distinction between DNA binding and protein stability, and the extrapolation to human RECQL4 pathology. The manuscript would benefit from additional experiments to directly test the proposed model and from clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying RecQ helicases, DNA inter-strand crosslink repair, and dominant-negative mechanisms in genome maintenance. The work also has relevance for understanding how partial loss-of-function alleles of disease-associated helicases (e.g., RECQL4) may exert pathogenic effects, which would interest the human genetics and cancer biology communities.
+- **Major strengths** 1) The suppressor screen is a powerful and unbiased approach that yielded a clear and unexpected result. 2) The combination of whole-genome and targeted amplicon sequencing provides robust identification of second-site mutations. 3) The use of multiple computational tools (ESM-1v, FoldX, MAESTRO) to predict mutational effects is thorough. 4) The biochemical validation with purified proteins, including mass photometry to assess oligomeric state, strengthens the conclusions. 5) The rational design of a DNA-binding mutant (R739A) based on structural homology is a nice example of hypothesis-driven follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for mechanistic model
+  - **Claim pointer** The authors claim that "disruption of DNA binding suppresses hrq1-K318A toxicity even when protein stability is retained" and that DNA binding is the central determinant of the dominant-negative effect.
+  - **Evidence pointer** Results section, Figures 2C-D, 4C, 5B-E; location not provided for specific data points
+  - **Concern** The key claim that DNA binding, rather than protein stability, is the critical factor for dominant-negative activity is not fully established. While the P732S and R739A mutants retain protein levels in vivo, the authors do not directly demonstrate that these mutants are properly folded and functional in the cellular context. The in vitro EMSA data show reduced DNA binding, but the correlation between in vitro binding affinity and in vivo dominant-negative activity is not quantitatively established. Furthermore, the authors acknowledge that the single mutants (P732S, R739A) do not fully phenocopy hrq1Δ, which complicates the interpretation. The distinction between "loosening" the DNA interaction versus other effects (e.g., altered protein-protein interactions) is speculative.
+  - **Why it matters** The central conclusion of the paper rests on this distinction. If the suppressors act primarily by destabilizing the protein or by disrupting protein-protein interactions rather than specifically by reducing DNA binding, the proposed model would need substantial revision. The clinical relevance to RECQL4 mutations also depends on this mechanistic interpretation.
+  - **Resolution test** Provide direct evidence that the P732S and R739A mutants retain native structure and protein-protein interactions in vivo (e.g., co-immunoprecipitation with known interactors). Quantitatively correlate DNA binding affinity (measured by EMSA or surface plasmon resonance) with the degree of dominant-negative suppression across a panel of mutants. Ideally, demonstrate that a mutant with abolished DNA binding but intact protein interactions fully phenocopies hrq1Δ.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and quantitative rigor
+  - **Claim pointer** The authors report that Hrq1-K318A binds ssDNA with "approximately twofold lower affinity" than Hrq1 (p = 0.0015) and that P732S and R739A mutants show "markedly reduced" binding (p < 0.0001).
+  - **Evidence pointer** Results section, Figure 4C; location not provided for exact binding constants or replicate numbers
+  - **Concern** The quantitative claims are presented without sufficient detail. The number of independent replicates, the method used to calculate binding affinities (e.g., Kd values), and the statistical tests used are not described. The EMSA data are shown as representative gels, but the quantification method and the error bars are not fully explained. The p-values are reported but the degrees of freedom and effect sizes are not. This makes it difficult to assess the robustness of the biochemical conclusions.
+  - **Why it matters** The biochemical data are central to the mechanistic model. Without rigorous quantitative analysis, the reader cannot determine whether the observed differences in DNA binding are biologically meaningful or within experimental noise. This is particularly important given the modest (twofold) difference between Hrq1 and Hrq1-K318A.
+  - **Resolution test** Provide full details of the EMSA quantification, including the number of replicates, the method for calculating Kd values, and the statistical tests used. Present the data as binding curves with error bars and individual data points. Consider using an orthogonal method (e.g., fluorescence anisotropy) to confirm the binding affinities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability to human RECQL4
+  - **Claim pointer** The authors state that "this work provides a conceptual framework for understanding how incomplete loss-of-function alleles of RecQ4-family helicases may have more severe consequences than null alleles" and suggest that targeting DNA binding by catalytically inactive RECQL4 is a viable therapeutic strategy.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The extrapolation from yeast Hrq1 to human RECQL4 is speculative and not well supported by the data presented. While the authors note sequence conservation in the catalytic core, they do not demonstrate that RECQL4 exhibits similar dominant-negative behavior or that the specific residues identified in Hrq1 are functionally relevant in the human protein. The therapeutic suggestion is premature without evidence that DNA binding by inactive RECQL4 is pathogenic in human cells.
+  - **Why it matters** The clinical relevance of this work is a major selling point. Overstating the implications could mislead readers and potentially influence future research directions in the field. The authors should be more cautious in their claims or provide additional evidence to support the translational relevance.
+  - **Resolution test** Provide evidence that RECQL4 mutations analogous to those studied in Hrq1 exhibit dominant-negative effects in human cell lines. Alternatively, temper the claims in the discussion and clearly state that the therapeutic implications are speculative and require further investigation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** Suppressor screen
+  - **Evidence pointer** Methods, "Spontaneous suppressor screen"; location not provided
+  - **Issue** The screen was performed at a single DEB concentration for each strain. It is unclear whether the suppressor frequency or the spectrum of mutations would differ at other concentrations, which could affect the interpretation of the results.
+  - **Required correction** Consider performing the screen at multiple DEB concentrations or at least discussing the rationale for the chosen concentrations and the potential limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Western blot quantification
+  - **Evidence pointer** Results, Figure 2C-D; location not provided
+  - **Issue** The western blot quantification is described in the text but the loading controls and the normalization method are not fully described. The authors report significant reductions in protein levels for some mutants but do not show the full blots or the quantification method.
+  - **Required correction** Provide representative full blots and describe the normalization method (e.g., to GAPDH) and the number of replicates in the figure legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structural modelling
+  - **Affected element** AlphaFold predictions
+  - **Evidence pointer** Methods, "Computational Structural Modelling and Energetics"; location not provided
+  - **Issue** The AlphaFold-predicted structure of Hrq1 is used for ΔΔG calculations, but the confidence of the prediction in the regions containing the suppressor mutations is not discussed. Low-confidence regions could lead to unreliable energetic predictions.
+  - **Required correction** Report the pLDDT scores for the regions containing the suppressor mutations and discuss the potential impact of low-confidence predictions on the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Multiple testing
+  - **Evidence pointer** Results, Figure 3A and Table S3; location not provided
+  - **Issue** The authors use three computational tools to assess the impact of multiple mutations, but no correction for multiple testing is mentioned. This could lead to false positives in identifying "highly deleterious" mutations.
+  - **Required correction** Discuss the potential for false positives and consider applying a multiple testing correction or using a more conservative threshold for significance.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion of dominant-negative mechanisms in other helicases is brief and could be expanded to better contextualize the findings. For example, the authors mention Dna2 and RTEL1 but do not discuss how their findings compare to or contrast with these systems in detail.
+  - **Required correction** Expand the discussion to more thoroughly compare and contrast the proposed mechanism with those described for other helicases, highlighting both similarities and differences.
+
+## Risk / unsupported claims
+- The claim that "DNA binding contributes to dominant-negative effects" is supported by the data, but the specific assertion that DNA binding is the "central determinant" is not fully established given the potential confounding effects of protein stability and protein-protein interactions.
+- The extrapolation to human RECQL4 pathology and the therapeutic suggestion are speculative and not directly supported by the data presented.
+- The claim that "many of the Hrq1 suppressor mutations targeted residues that are conserved in RECQL4 and are themselves mutated in tumour samples" is presented without specific examples or statistical analysis, making it difficult to assess its significance.
+- The statement that "the lack of consensus among the computational methods used to characterize our suppressors suggests that some of them are mechanistically surgical" is an interpretation that is not directly testable from the data presented.

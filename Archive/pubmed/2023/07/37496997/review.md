@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main body, summary, funding)
+- **Assessment boundary** Scientific content, technical soundness, and support for claims as presented in the supplied material
+- **Shared manuscript claim summary** The review argues that certain cancer-related proteins (KRAS, TP53, C-MYC, PTPs, AR-V7, β-catenin, HOXA9/MEIS1, EWS-FLI1, SMARCA2) are difficult to drug due to structural and functional features, and that emerging strategies (targeted protein degradation, PPI inhibition, IDP targeting, protein-DNA binding inhibition, AI-assisted drug design) can overcome these barriers.
+- **Visible evidence base** Text only; no figures, tables, or supplementary materials were provided
+- **Missing materials affecting confidence** Figures 1-3, Tables 1-3, reference list, and any supplementary data were not provided. This limits verification of specific claims about structures, clinical trial results, and drug properties.
+
+## Reviewer
+- **Overall assessment** This manuscript is a narrative review covering a broad and timely topic. The scope is ambitious, and the authors touch on several important strategies. However, the depth of analysis is uneven, and several sections read as lists of examples rather than critical evaluations. The manuscript would benefit from a clearer conceptual framework, more rigorous engagement with primary data, and careful editing for language and accuracy. The claim that certain proteins are "no longer considered undruggable" is stated without sufficient supporting evidence or nuance.
+- **Who would be interested in the results, and why** Researchers in cancer biology, medicinal chemistry, and drug discovery may find this review useful as a broad introduction to the topic. Clinicians interested in targeted therapies and resistance mechanisms may also read it. However, specialists in any single area (e.g., PROTAC development, KRAS biology) are unlikely to find new or sufficiently detailed information.
+- **Major strengths** The topic is timely and relevant. The authors cover a wide range of strategies and targets, which provides a useful overview for non-specialists. The inclusion of recent clinical trial data for some agents (e.g., AMG510, ARV-110, ARV-471) adds practical value. The discussion of AI in drug discovery is a forward-looking and appropriate addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript states that "the most classic and well-known technology is proteolysis targeting chimeras (PROTACs)" and that PROTACs can overcome undruggable targets.
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Concern** The claim that PROTACs are the "most classic and well-known" technology is presented without citation or comparative analysis. More importantly, the manuscript does not critically evaluate the limitations of PROTACs beyond listing challenges (predictability, molecular weight, resistance). The claim that PROTACs can overcome undruggable targets is not supported by a systematic review of efficacy data across targets.
+  - **Why it matters** A review should provide a balanced assessment. Overstating the success of PROTACs without rigorous evidence could mislead readers, especially those new to the field.
+  - **Resolution test** Provide a systematic comparison of PROTACs versus other degradation technologies, including success rates, target classes, and clinical stage. Cite primary sources for each claim about efficacy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript states that "KRAS is no longer considered clinically undruggable" following the approval of AMG510 and MRTX849.
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Concern** This statement is an oversimplification. While KRASG12C is now targetable, other KRAS mutations (e.g., G12D, G12V) remain challenging. The manuscript itself notes that MRTX1133 (a G12D inhibitor) is only in early clinical trials. The claim that KRAS is "no longer undruggable" is therefore only partially true and requires qualification.
+  - **Why it matters** Precision in claims is essential for a review. Overgeneralization could lead to incorrect assumptions about the druggability of other KRAS mutants.
+  - **Resolution test** Qualify the statement to specify that only KRASG12C has been successfully targeted to date, and discuss the remaining challenges for other mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes the use of AlphaFold for drug development, stating it "helps us a lot to predict the protein structure, which is beneficial for drug development."
+  - **Evidence pointer** Section 7, location not provided
+  - **Concern** The discussion of AlphaFold is superficial and does not address its known limitations, which the manuscript itself acknowledges later (e.g., inability to solve the protein folding problem, poor applicability to IDPs). The claim that AlphaFold is "beneficial" is not substantiated with specific examples of successful drug development enabled by AlphaFold.
+  - **Why it matters** AI is a rapidly evolving field, and a review should provide a critical and informed perspective. Unqualified enthusiasm could be misleading.
+  - **Resolution test** Provide specific case studies where AlphaFold predictions have led to validated drug candidates or binding site identification. Discuss limitations in more depth.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript states that "at least 20 PROTACs against the targets mentioned above have been developed."
+  - **Evidence pointer** Section 7, location not provided
+  - **Concern** This number is presented without citation or a breakdown of which targets and which development stages. It is unclear whether this refers to preclinical or clinical agents.
+  - **Why it matters** Quantitative claims require sources. Without them, the statement is unverifiable.
+  - **Resolution test** Provide a table listing the PROTACs, their targets, and their development stage, with appropriate citations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and depth
+  - **Claim pointer** The manuscript claims to cover "novel drug development strategies including targeting protein degradation, targeting PPI, targeting intrinsically disordered regions, as well as targeting protein-DNA binding."
+  - **Evidence pointer** Sections 3-6, location not provided
+  - **Concern** The coverage of each strategy is uneven. The section on targeting protein-DNA binding is brief and lacks depth compared to the PROTAC section. The section on IDPs is largely descriptive and does not critically evaluate the feasibility of the proposed strategies.
+  - **Why it matters** A review should provide balanced coverage. Uneven depth may reflect the authors' expertise but limits the manuscript's utility as a comprehensive resource.
+  - **Resolution test** Expand the sections on IDPs and protein-DNA binding with more detailed examples, mechanistic discussion, and critical evaluation of challenges.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains grammatical errors and awkward phrasing (e.g., "there are still large number of target proteins in cancer are still undruggable").
+  - **Required correction** Revise for clarity and grammatical accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The manuscript states that KRAS mutations occur in "27%-39%, 40%-54%, and 86%-96% of lung, colorectal, and pancreatic cancers, respectively." These ranges are unusually wide and not attributed to specific studies or subtypes.
+  - **Required correction** Provide specific references for these ranges and clarify whether they refer to specific cancer subtypes or stages.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The text states "Three are still some challenges" which appears to be a typo for "There are still some challenges."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The section on β-catenin mentions that no inhibitors have emerged but does not discuss why, despite the availability of structural information.
+  - **Required correction** Add a brief discussion of the specific challenges in targeting β-catenin (e.g., flat interaction surface, lack of pockets).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The statement "To date, more than 60 peptide-based drugs targeting PPIs have been developed, optimized, and approved for clinical application" is ambiguous. It is unclear whether these are approved for clinical use or merely in clinical trials.
+  - **Required correction** Clarify the regulatory status of these agents.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5, location not provided
+  - **Issue** The manuscript states that "over 30% of the eukaryotic proteins are IDPs." This figure is commonly cited but should be attributed to a specific source.
+  - **Required correction** Add a citation for this statistic.
+- **Technical failings that need to be addressed before the case is established** The manuscript lacks citations for several key claims (e.g., the number of PROTACs, the percentage of IDPs, the ranges of KRAS mutation frequencies). The discussion of clinical trial results for AMG510, ARV-110, and ARV-471 is not referenced. The manuscript does not provide a critical comparison of the strategies discussed, and the sections on IDPs and protein-DNA binding are underdeveloped. The language requires professional editing.
+- **Assessment against Nature-style criteria** Originality: The topic is not new, and the manuscript does not offer a novel framework or perspective. Scientific importance: The topic is important, but the treatment is not sufficiently rigorous or comprehensive to be a definitive reference. Interdisciplinary readership: The manuscript may appeal to a broad audience, but the lack of depth in several sections limits its value for specialists. Technical soundness: The manuscript is technically sound in its descriptions but lacks critical analysis and citations. Readability for nonspecialists: The manuscript is generally readable but contains grammatical errors and some unclear passages.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript requires substantial revision, including the addition of citations, a more balanced and critical treatment of the strategies, and professional language editing, before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that "at least 20 PROTACs against the targets mentioned above have been developed" is unsupported by citations.
+- The claim that "KRAS is no longer considered clinically undruggable" is an overgeneralization that requires qualification.
+- The claim that AlphaFold is "beneficial" for drug development is not substantiated with specific examples.
+- The ranges of KRAS mutation frequencies are presented without sources.
+- The statement that "more than 60 peptide-based drugs targeting PPIs have been developed, optimized, and approved for clinical application" is ambiguous and unsupported.
+- The claim that "over 30% of the eukaryotic proteins are IDPs" is not attributed to a source.

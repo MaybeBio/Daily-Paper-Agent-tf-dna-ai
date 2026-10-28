@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supporting data were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to show that aromatic mutations in the Cren7 protein alter DNA bending, compactness, collective motions, base pairing, base stacking, helical parameters, backbone dihedrals, and groove geometry in the Cren7–DNA complex, and attribute these changes to non-covalent interactions.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, convergence criteria, error bars, and any statistical tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of how protein mutations affect DNA dynamics in a chromatin protein complex. However, the current form provides only qualitative claims without any quantitative evidence, simulation validation, or methodological detail. The central mechanistic attribution to non-covalent interactions is asserted rather than demonstrated. The work cannot be evaluated for technical soundness or scientific significance from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein–DNA recognition, chromatin biology, and molecular dynamics method development would be interested. The study addresses a fundamental question about how single-site mutations propagate structural changes through non-covalent interaction networks, which is relevant to understanding protein–DNA binding specificity and stability.
+- **Major strengths** The study addresses a mechanistically important question about mutation-induced allostery in protein–DNA complexes. The use of multiple aromatic mutants provides a systematic approach to probe the role of specific residues. The combination of multiple structural descriptors (bending, Rg, PCA, base pairing, base stacking, helical parameters, backbone dihedrals, groove geometry) suggests a comprehensive analytical framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations reveal specific trends in DNA bending (F41A > Y58A > W26A > F50A > WT) and reduced compactness in mutants.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation details are provided. The abstract does not state the simulation length, number of replicas, force field, water model, temperature/pressure coupling, or equilibration protocol. Without this information, the convergence and statistical reliability of the reported trends cannot be assessed.
+  - **Why it matters** Molecular dynamics results are only meaningful if simulations are sufficiently long and well-equilibrated. The reported ordering of bending magnitudes across five systems could arise from insufficient sampling or from starting structure bias rather than from genuine physical differences.
+  - **Resolution test** Provide simulation lengths, replica counts, convergence metrics (e.g., RMSD plateau, block averaging), and force field details. Show that the bending trend is reproducible across independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract claims that hydrogen bonding between base pairs was perturbed and that base stacking interactions changed, with deviations in intra-base pair and base-pair step parameters.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative values, statistical comparisons, or error estimates are provided for any of the reported structural parameters. The abstract states that changes occurred but does not indicate their magnitude, direction, or significance relative to thermal fluctuations.
+  - **Why it matters** Without quantitative data and statistical testing, the reader cannot distinguish genuine mutation-induced effects from normal thermal noise. The claim that mutants show "enhanced flexibility and instability" requires a statistical basis.
+  - **Resolution test** Provide mean values with standard deviations or confidence intervals for each parameter in WT and each mutant, along with appropriate statistical tests (e.g., t-tests or bootstrap analysis).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic attribution
+  - **Claim pointer** The abstract claims that the observed changes are "solely governed by non-covalent interactions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any analysis that isolates the role of non-covalent interactions. No interaction energy decomposition, contact analysis, or hydrogen bond occupancy data are presented. The claim of sole governance by non-covalent interactions is an assertion without supporting evidence.
+  - **Why it matters** The central mechanistic conclusion of the study is that non-covalent interactions drive the observed effects. Without direct evidence linking specific non-covalent interactions to the structural changes, this conclusion is unsupported.
+  - **Resolution test** Provide interaction energy decomposition (e.g., electrostatic, van der Waals, hydrogen bonding) between mutated residues and DNA, and correlate these with the observed structural changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "The radius of gyration (Rg) of DNA shows higher fluctuations in Rg for mutants in compared to WT" which contains a grammatical error and redundant phrasing.
+  - **Required correction** Revise to "The radius of gyration (Rg) of DNA shows higher fluctuations in mutants compared to WT."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Protocol description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims to provide "a comprehensive protocol for investigating the stability and conformational dynamics of protein-DNA complexes" but no protocol details are given.
+  - **Required correction** Either provide the protocol in the full manuscript with sufficient detail for reproduction, or temper this claim in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Author information
+  - **Affected element** Author list
+  - **Evidence pointer** Title page; location not provided
+  - **Issue** The author "Arunima Verma" appears twice in the author list.
+  - **Required correction** Remove the duplicate author entry.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing simulation details), R1-M2 (no quantitative evidence or statistics), R1-M3 (unsupported mechanistic attribution)
+- **Assessment against Nature-style criteria** Originality: The question of how single-site mutations in a chromatin protein alter DNA dynamics is not entirely new, but the specific system and the multi-descriptor approach may offer some novelty. Scientific importance: The topic is relevant to protein–DNA recognition, but the significance is not established without quantitative evidence. Interdisciplinary readership: The work could appeal to computational chemists, biophysicists, and structural biologists, but the abstract is too vague to attract broad interest. Technical soundness: Cannot be assessed from the abstract alone; the absence of simulation details and statistics is a major deficiency. Readability for nonspecialists: The abstract is generally readable but uses technical terms without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study but lacks the quantitative and methodological detail necessary to evaluate the claims. A full manuscript with simulation protocols, statistical analyses, and interaction energy decomposition would be required to assess whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that non-covalent interactions "solely" govern the observed changes is unsupported without interaction energy analysis.
+- The specific ordering of bending magnitudes across mutants (F41A > Y58A > W26A > F50A > WT) is unverifiable without quantitative data.
+- The claim of "reduced compactness and stability" in mutants is not supported by statistical evidence.
+- The claim that the study provides a "comprehensive protocol" is not substantiated in the abstract.
+- All structural claims (base pairing, base stacking, helical parameters, backbone dihedrals, groove geometry) are unverifiable without figures or tables.

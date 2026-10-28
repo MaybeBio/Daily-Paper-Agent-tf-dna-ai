@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40099741",
+    "doi": "10.1002/elps.8133",
+    "title": "Forensic Age Estimation From Blood Samples by Combining DNA Methylation and MicroRNA Markers Using Droplet Digital PCR."
+  },
+  "content": {
+    "abstract": "Age estimation is important in criminal investigations and forensic practice, and extensive studies have focused on age determination based on DNA methylation (DNAm) and miRNA markers. Interestingly, it has been reported that combining different types of molecular omics data helps build more accurate predictive models. However, few studies have compared the application of combined DNAm and miRNA data to predict age in the same cohort. In this study, a novel multiplex droplet digital PCR (ddPCR) system that allows for the simultaneous detection of age-associated DNAm and miRNA markers, including KLF14, miR-106b-5p, and two reference genes (C-LESS-C1 and RNU6B), was developed. Next, we examined and calculated the methylation levels of KLF14 and relative expression levels of miR-106b-5p in 132 blood samples. The collected data were used to establish age prediction models. Finally, the optimal models were evaluated using bloodstain samples. The results revealed that the random forest (RF) model had a minimum mean absolute deviation (MAD) value of 3.51 years and a maximum R(2) of 0.84 for the validation sets in the combined age prediction models. However, the MAD was 5.66 years and the absolute error ranged from 3.16 to 10.54 years for bloodstain samples. Larger sample sizes and validation datasets are required to confirm these results in future studies. Overall, a stable method for the detection of KLF14, miR-106b-5p, C-LESS-C1, and RNU6B by 4-plex ddPCR was successfully established, and our study suggests that combining DNAm and miRNA data can improve the accuracy of age prediction, which has potential applications in forensic science.",
+    "keywords": [
+      "DNA methylation (DNAm)",
+      "age prediction",
+      "blood",
+      "droplet digital PCR (ddPCR)",
+      "machine learning",
+      "microRNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*MicroRNAs/blood/genetics",
+      "*DNA Methylation/genetics",
+      "Male",
+      "*Forensic Genetics/methods",
+      "Middle Aged",
+      "Adult",
+      "Female",
+      "Young Adult",
+      "Adolescent",
+      "Kruppel-Like Transcription Factors/genetics/blood",
+      "Genetic Markers/genetics",
+      "Aged",
+      "*Aging/genetics",
+      "Child",
+      "Child, Preschool",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Niu",
+        "Li, Junli",
+        "Yang, Fenglong",
+        "Yu, Daijing",
+        "Huo, Yumei",
+        "Liu, Xiaonan",
+        "Ji, Zhimin",
+        "Xing, Yangfeng",
+        "Zhang, Xiaomeng",
+        "Yuan, Piao",
+        "Liu, Jinding",
+        "Yan, Jiangwei"
+      ],
+      "short_names": [
+        "Gao N",
+        "Li J",
+        "Yang F",
+        "Yu D",
+        "Huo Y",
+        "Liu X",
+        "Ji Z",
+        "Xing Y",
+        "Zhang X",
+        "Yuan P",
+        "Liu J",
+        "Yan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China.",
+        "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+        "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Niu",
+        "short_name": "Gao N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junli",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fenglong",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Daijing",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Yumei",
+        "short_name": "Huo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaonan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Zhimin",
+        "short_name": "Ji Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Yangfeng",
+        "short_name": "Xing Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaomeng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Piao",
+        "short_name": "Yuan P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jinding",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jiangwei",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Shanxi Medical University, Jinzhong, Shanxi, China.",
+          "Shanxi Key Laboratory of Forensic Medicine, Jinzhong, Shanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Electrophoresis"
+    ],
+    "journal_abbrev": [
+      "Electrophoresis"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/18 15:22",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42634044"
+    ],
+    "refs": [],
+    "similar": [
+      "40099741",
+      "38301433",
+      "32325350",
+      "40665390",
+      "28841467",
+      "35131731",
+      "41985291",
+      "38160598",
+      "30300865",
+      "31546163",
+      "39983295",
+      "41289662",
+      "32721866",
+      "40799162",
+      "28854399",
+      "29631189",
+      "30031222",
+      "40085291",
+      "32006895",
+      "39763091",
+      "36379153",
+      "28254385",
+      "37783021",
+      "33933877",
+      "37598451",
+      "38703560",
+      "25979242",
+      "34814096",
+      "41963974",
+      "40857784",
+      "28511095",
+      "35819508",
+      "41162879",
+      "42068152",
+      "26026729",
+      "26280308",
+      "40382887",
+      "27017110",
+      "39256256",
+      "33279766",
+      "42132297",
+      "27288716",
+      "36057238",
+      "33707346",
+      "35777225",
+      "28419903",
+      "31490551",
+      "36867979",
+      "29172065",
+      "39243524",
+      "31165262",
+      "40839973",
+      "32659707",
+      "28725932",
+      "32353697",
+      "39266801",
+      "37285076",
+      "40730045",
+      "41643287",
+      "39693839",
+      "38488745",
+      "40526988",
+      "39752798",
+      "37454509",
+      "31648151",
+      "42252362",
+      "36640536",
+      "32087494",
+      "30336352",
+      "30243148",
+      "36811674",
+      "26010003",
+      "41086638",
+      "41564517",
+      "34852982",
+      "36739525",
+      "39162072",
+      "41310253",
+      "32055939",
+      "39402823",
+      "34245337",
+      "37264192",
+      "32453457",
+      "40145379",
+      "38275209",
+      "41874164",
+      "35810521",
+      "28874809",
+      "26635134",
+      "33313714",
+      "24727429",
+      "30878720",
+      "38308398",
+      "31002714",
+      "29413993",
+      "37820545",
+      "28691915",
+      "41910741",
+      "27337627",
+      "30902246"
+    ],
+    "review": [
+      "40099741",
+      "28691915"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://doi.org/10.1002/elps.8133",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose that the FIS protein of Orientia tsutsugamushi is a viable drug target identified via subtractive proteomics, that compound-356 is a potential inhibitor of this protein based on docking and 200 ns molecular dynamics simulations, and that specific conformational changes, including hinge motion, salt bridge formation, and ATP displacement, contribute to stabilization of the protein-inhibitor complex.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods details, simulation parameters, docking scores, structural validation data, and any statistical or reproducibility analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational pipeline for drug target identification and inhibitor screening against FIS in O. tsutsugamushi. However, the evidence as presented is insufficient to establish the central claims. Key quantitative results, methodological details, and validation steps are absent, and several statements are either vague or unsupported. The work may have merit as a preliminary computational study, but the current abstract does not provide enough information to assess technical soundness or biological significance.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, structural biology, and infectious disease microbiology, particularly those focused on neglected tropical diseases such as scrub typhus, would find this work relevant. The identification of a novel drug target and a potential lead compound could inform future experimental validation efforts.
+- **Major strengths** The study addresses a clinically important pathogen with rising global prevalence and antibiotic resistance. The use of subtractive proteomics to prioritize essential and non-homologous proteins is a rational approach. The combination of docking and molecular dynamics simulations is appropriate for preliminary assessment of protein-ligand interactions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that compound-356 is a potential inhibitor of FIS based on molecular docking and simulation results.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No docking scores, binding energies, or comparison with known inhibitors or controls are provided. The claim of inhibition is based solely on simulation stability, which is not a direct measure of inhibitory activity.
+  - **Why it matters** Without quantitative docking metrics or functional validation, the assertion that compound-356 is a potential inhibitor is not supported. Inhibition requires experimental or at least more rigorous computational evidence, such as free energy calculations or known activity data.
+  - **Resolution test** Provide docking scores, binding free energy estimates, and a comparison with a positive or negative control. If experimental data exist, include them. Otherwise, temper the claim to "potential binder" rather than "inhibitor."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The abstract states that the docked complex remained stable and compact throughout the 200 ns run.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No simulation details are given, including force field, water model, temperature, pressure, or software used. Stability is asserted without RMSD, RMSF, or radius of gyration values.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these parameters and metrics, the claim of stability cannot be evaluated or replicated.
+  - **Resolution test** Include full simulation setup and provide time series of RMSD, RMSF, and radius of gyration for the protein and ligand. State the criteria used to define stability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological relevance
+  - **Claim pointer** The abstract claims that hinge motion in the DNA binding domain and ATP displacement in the central AAA+ domain play a role in stabilizing the protein structure upon inhibitor binding.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The functional significance of these conformational changes is not explained. Hinge motion and ATP displacement are described as observations, but their link to inhibition or protein function is unclear. No comparison to the apo state or a control simulation is mentioned.
+  - **Why it matters** Without a baseline or functional interpretation, these observations may be incidental rather than mechanistically relevant. The claim that they stabilize the structure is speculative.
+  - **Resolution test** Compare simulations of the apo and holo forms. Quantify hinge motion and ATP displacement. Discuss how these changes relate to FIS function and whether they would impair DNA binding or signaling.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound identifier
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The compound is referred to as "compound-356 (CHEMBRIDGE-10040641-3710.356)" which is confusing. The identifier format is inconsistent and may hinder reproducibility.
+  - **Required correction** Use a single, unambiguous identifier, such as the CHEMBRIDGE catalog number, and state the source and purity if applicable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Salt bridge description
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The salt bridge between GLU910 and ARG417 is mentioned, but the residue numbering is not explained. It is unclear if this refers to the full-length protein or a specific domain construct.
+  - **Required correction** Clarify the residue numbering scheme and provide the protein sequence or domain boundaries used in the study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methodology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The subtractive proteomics approach is mentioned but not described. No details on criteria for essentiality, non-homology, or druggability are given.
+  - **Required correction** Briefly describe the filters used in the subtractive proteomics pipeline, such as essential gene databases, human homology exclusion, and subcellular localization prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 must be resolved. Specifically, quantitative docking and simulation data, full methodological details, and a functional interpretation of conformational changes are required.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of computational methods to FIS in O. tsutsugamushi is novel, but the approach itself is standard.
+  - Scientific importance: Potentially high given the clinical relevance of scrub typhus, but the current evidence does not establish a significant advance.
+  - Interdisciplinary readership: The topic bridges computational biology and infectious disease, but the abstract is too technical and incomplete for a broad audience.
+  - Technical soundness: Not assessable from the abstract alone. Critical details are missing.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with molecular dynamics and protein structure concepts. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be supportable if the technical concerns are resolved with full data and clearer claims, but as presented, the abstract does not provide sufficient support for the central conclusions.
+
+## Risk / unsupported claims
+- The claim that FIS is a potential drug target is unsupported without evidence of essentiality, druggability, or experimental validation.
+- The claim that compound-356 is a potential inhibitor is unsupported without docking scores, binding free energies, or functional assays.
+- The claim that the complex remained stable and compact is unsupported without simulation metrics and parameters.
+- The claim that hinge motion and ATP displacement stabilize the protein structure is speculative and lacks a comparative baseline.
+- The claim that salt bridge formation plays a role in stabilization is not substantiated with energetic or structural analysis.

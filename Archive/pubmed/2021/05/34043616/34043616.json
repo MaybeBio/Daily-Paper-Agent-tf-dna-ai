@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "34043616",
+    "doi": "10.1371/journal.pcbi.1009040",
+    "title": "A reaction-diffusion network model predicts a dual role of Cactus/IkappaB to regulate Dorsal/NFkappaB nuclear translocation in Drosophila."
+  },
+  "content": {
+    "abstract": "Dorsal-ventral patterning of the Drosophila embryo depends on the NFkappaB superfamily transcription factor Dorsal (Dl). Toll receptor activation signals for degradation of the IkappaB inhibitor Cactus (Cact), leading to a ventral-to-dorsal nuclear Dl gradient. Cact is critical for Dl nuclear import, as it binds to and prevents Dl from entering the nuclei. Quantitative analysis of cact mutants revealed an additional Cact function to promote Dl nuclear translocation in ventral regions of the embryo. To investigate this dual Cact role, we developed a predictive model based on a reaction-diffusion regulatory network. This network distinguishes non-uniform Toll-dependent Dl nuclear import and Cact degradation, from the Toll-independent processes of Cact degradation and reversible nuclear-cytoplasmic Dl flow. In addition, it incorporates translational control of Cact levels by Dl. Our model successfully reproduces wild-type data and emulates the Dl nuclear gradient in mutant dl and cact allelic combinations. Our results indicate that the dual role of Cact depends on the dynamics of Dl-Cact trimers along the dorsal-ventral axis: In the absence of Toll activation, free Dl-Cact trimers retain Dl in the cytoplasm, limiting the flow of Dl into the nucleus; in ventral-lateral regions, Dl-Cact trimers are recruited by Toll activation into predominant signaling complexes and promote Dl nuclear translocation. Simulations suggest that the balance between Toll-dependent and Toll-independent processes are key to this dynamics and reproduce the full assortment of Cact effects. Considering the high evolutionary conservation of these pathways, our analysis should contribute to understanding NFkappaB/c-Rel activation in other contexts such as in the vertebrate immune system and disease.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cell Nucleus/*metabolism",
+      "DNA-Binding Proteins/*metabolism",
+      "Drosophila/*metabolism",
+      "Drosophila Proteins/*metabolism",
+      "I-kappa B Kinase/*metabolism",
+      "*Models, Biological",
+      "NF-kappa B/*metabolism",
+      "Phosphoproteins/*metabolism",
+      "Protein Transport",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barros, Claudio D T",
+        "Cardoso, Maira A",
+        "Bisch, Paulo M",
+        "Araujo, Helena M",
+        "Lopes, Francisco J P"
+      ],
+      "short_names": [
+        "Barros CDT",
+        "Cardoso MA",
+        "Bisch PM",
+        "Araujo HM",
+        "Lopes FJP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7216-4376",
+        "ORCID: 0000-0002-8946-4113",
+        "ORCID: 0000-0002-3136-3520",
+        "ORCID: 0000-0003-0371-9523",
+        "ORCID: 0000-0002-2715-2341"
+      ],
+      "affiliations": [
+        "Laboratorio Nacional de Computacao Cientifica (LNCC), Petropolis, Brasil.",
+        "Laboratorio de Fisica Biologica, Instituto de Biofisica Carlos Chagas Filho (IBCCF), Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brasil.",
+        "Laboratorio de Biologia Molecular do Desenvolvimento, Instituto de Ciencias Biomedicas, Universidade Federal do Rio de Janeiro (UFRJ), Centro de Ciencias da Saude, Rio de Janeiro, Brasil.",
+        "Laboratorio de Fisica Biologica, Instituto de Biofisica Carlos Chagas Filho (IBCCF), Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brasil.",
+        "Laboratorio de Biologia Molecular do Desenvolvimento, Instituto de Ciencias Biomedicas, Universidade Federal do Rio de Janeiro (UFRJ), Centro de Ciencias da Saude, Rio de Janeiro, Brasil.",
+        "Grupo de Biologia do Desenvolvimento e Sistemas Dinamicos, Campus Duque de Caxias Professor Geraldo Cidade, Universidade Federal do Rio de Janeiro (UFRJ)-Duque de Caxias, Brasil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barros, Claudio D T",
+        "short_name": "Barros CDT",
+        "identifiers": [
+          "0000-0002-7216-4376"
+        ],
+        "affiliations": [
+          "Laboratório Nacional de Computação Científica (LNCC), Petrópolis, Brasil."
+        ]
+      },
+      {
+        "full_name": "Cardoso, Maira A",
+        "short_name": "Cardoso MA",
+        "identifiers": [
+          "0000-0002-8946-4113"
+        ],
+        "affiliations": [
+          "Laboratório de Física Biológica, Instituto de Biofísica Carlos Chagas Filho (IBCCF), Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brasil.",
+          "Laboratório de Biologia Molecular do Desenvolvimento, Instituto de Ciências Biomédicas, Universidade Federal do Rio de Janeiro (UFRJ), Centro de Ciências da Saúde, Rio de Janeiro, Brasil."
+        ]
+      },
+      {
+        "full_name": "Bisch, Paulo M",
+        "short_name": "Bisch PM",
+        "identifiers": [
+          "0000-0002-3136-3520"
+        ],
+        "affiliations": [
+          "Laboratório de Física Biológica, Instituto de Biofísica Carlos Chagas Filho (IBCCF), Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, Brasil."
+        ]
+      },
+      {
+        "full_name": "Araujo, Helena M",
+        "short_name": "Araujo HM",
+        "identifiers": [
+          "0000-0003-0371-9523"
+        ],
+        "affiliations": [
+          "Laboratório de Biologia Molecular do Desenvolvimento, Instituto de Ciências Biomédicas, Universidade Federal do Rio de Janeiro (UFRJ), Centro de Ciências da Saúde, Rio de Janeiro, Brasil."
+        ]
+      },
+      {
+        "full_name": "Lopes, Francisco J P",
+        "short_name": "Lopes FJP",
+        "identifiers": [
+          "0000-0002-2715-2341"
+        ],
+        "affiliations": [
+          "Grupo de Biologia do Desenvolvimento e Sistemas Dinâmicos, Campus Duque de Caxias Professor Geraldo Cidade, Universidade Federal do Rio de Janeiro (UFRJ)-Duque de Caxias, Brasil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 May",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/28 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "40662193",
+      "39397716",
+      "38826476"
+    ],
+    "refs": [
+      "32251432",
+      "30075226",
+      "29097443",
+      "28705899",
+      "27212406",
+      "25879657",
+      "25165818",
+      "25124754",
+      "24632597",
+      "24086459",
+      "23864715",
+      "22981910",
+      "22592793",
+      "22464168",
+      "22342544",
+      "22007136",
+      "21920753",
+      "21565610",
+      "21245164",
+      "21186361",
+      "20740013",
+      "20018754",
+      "19996178",
+      "19887633",
+      "19442719",
+      "18818726",
+      "17994019",
+      "17978003",
+      "17486138",
+      "17295838",
+      "16781701",
+      "16735576",
+      "16271864",
+      "15202778",
+      "11673497",
+      "10903186",
+      "10837071",
+      "10660298",
+      "10521480",
+      "10072384",
+      "10027560",
+      "9873017",
+      "9609827",
+      "9407033",
+      "9367441",
+      "9057089",
+      "9025065",
+      "9000511",
+      "8948598",
+      "8440018",
+      "8223244",
+      "8202491",
+      "7705656",
+      "7667086",
+      "7635064",
+      "3931919",
+      "3931918",
+      "3383245",
+      "2688897",
+      "2567637",
+      "1794309",
+      "1765005"
+    ],
+    "similar": [
+      "34043616",
+      "28705899",
+      "15558187",
+      "9510254",
+      "10072384",
+      "16107793",
+      "7859742",
+      "7705656",
+      "9025065",
+      "12653959",
+      "10660298",
+      "19442719",
+      "32251432",
+      "8846922",
+      "20921412",
+      "25879657",
+      "1325392",
+      "29097443",
+      "8202491",
+      "9405646",
+      "23864715",
+      "9570779",
+      "11532919",
+      "8622655",
+      "9367441",
+      "7903039",
+      "16493693",
+      "1518806",
+      "16782008",
+      "30735676",
+      "10921908",
+      "9407033",
+      "31987808",
+      "8948598",
+      "8223244",
+      "32143742",
+      "34017079",
+      "8196601",
+      "1423619",
+      "1559611",
+      "17978003",
+      "9550723",
+      "1794309",
+      "10602463",
+      "12446795",
+      "8227123",
+      "7479760",
+      "2598266",
+      "11400160",
+      "7575529",
+      "22654665",
+      "7667086",
+      "10636911",
+      "29432195",
+      "24086459",
+      "23583556",
+      "16781701",
+      "35567478",
+      "2688897",
+      "8970732",
+      "11133153",
+      "9553105",
+      "1655572",
+      "19996178",
+      "9000511",
+      "8404539",
+      "25429067",
+      "16271864",
+      "2598265",
+      "12379151",
+      "12532402",
+      "17032737",
+      "28924041",
+      "25427801",
+      "9712906",
+      "25165818",
+      "27163255",
+      "17295838",
+      "12973300",
+      "8253187",
+      "34627795",
+      "8808632",
+      "12538030",
+      "1988156",
+      "15987775",
+      "11777342",
+      "9326945",
+      "31941789",
+      "9710628",
+      "9570540",
+      "16248995",
+      "39161589",
+      "11024020",
+      "11322509",
+      "9188479",
+      "26994223",
+      "15211580",
+      "36516751",
+      "37938219",
+      "21776409",
+      "37963561",
+      "37878715",
+      "39397716",
+      "38826476"
+    ],
+    "review": [
+      "34043616",
+      "32143742",
+      "10602463",
+      "8970732",
+      "16271864",
+      "39161589"
+    ],
+    "pmc": [
+      "8189453"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34043616",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009040",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34043616/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34043616",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34043616",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

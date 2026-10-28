@@ -1,0 +1,630 @@
+{
+  "identity": {
+    "pmid": "36702896",
+    "doi": "10.1038/s41587-022-01624-4",
+    "title": "A universal deep-learning model for zinc finger design enables transcription factor reprogramming."
+  },
+  "content": {
+    "abstract": "Cys(2)His(2) zinc finger (ZF) domains engineered to bind specific target sequences in the genome provide an effective strategy for programmable regulation of gene expression, with many potential therapeutic applications. However, the structurally intricate engagement of ZF domains with DNA has made their design challenging. Here we describe the screening of 49 billion protein-DNA interactions and the development of a deep-learning model, ZFDesign, that solves ZF design for any genomic target. ZFDesign is a modern machine learning method that models global and target-specific differences induced by a range of library environments and specifically takes into account compatibility of neighboring fingers using a novel hierarchical transformer architecture. We demonstrate the versatility of designed ZFs as nucleases as well as activators and repressors by seamless reprogramming of human transcription factors. These factors could be used to upregulate an allele of haploinsufficiency, downregulate a gain-of-function mutation or test the consequence of regulation of a single gene as opposed to the many genes that a transcription factor would normally influence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "*Deep Learning",
+      "Zinc Fingers/genetics",
+      "Gene Expression Regulation",
+      "DNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ichikawa, David M",
+        "Abdin, Osama",
+        "Alerasool, Nader",
+        "Kogenaru, Manjunatha",
+        "Mueller, April L",
+        "Wen, Han",
+        "Giganti, David O",
+        "Goldberg, Gregory W",
+        "Adams, Samantha",
+        "Spencer, Jeffrey M",
+        "Razavi, Rozita",
+        "Nim, Satra",
+        "Zheng, Hong",
+        "Gionco, Courtney",
+        "Clark, Finnegan T",
+        "Strokach, Alexey",
+        "Hughes, Timothy R",
+        "Lionnet, Timothee",
+        "Taipale, Mikko",
+        "Kim, Philip M",
+        "Noyes, Marcus B"
+      ],
+      "short_names": [
+        "Ichikawa DM",
+        "Abdin O",
+        "Alerasool N",
+        "Kogenaru M",
+        "Mueller AL",
+        "Wen H",
+        "Giganti DO",
+        "Goldberg GW",
+        "Adams S",
+        "Spencer JM",
+        "Razavi R",
+        "Nim S",
+        "Zheng H",
+        "Gionco C",
+        "Clark FT",
+        "Strokach A",
+        "Hughes TR",
+        "Lionnet T",
+        "Taipale M",
+        "Kim PM",
+        "Noyes MB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7517-5150",
+        "ORCID: 0000-0002-5471-2906",
+        "ORCID: 0000-0001-6570-7857",
+        "ORCID: 0000-0002-2134-5134",
+        "ORCID: 0000-0003-4680-4218",
+        "ORCID: 0000-0002-5022-9976",
+        "ORCID: 0000-0003-4690-2432",
+        "ORCID: 0000-0003-0575-7312",
+        "ORCID: 0000-0002-8721-4719",
+        "ORCID: 0000-0003-1508-0202",
+        "ORCID: 0000-0003-3811-1761",
+        "ORCID: 0000-0003-3683-152X",
+        "ORCID: 0000-0002-3065-1096"
+      ],
+      "affiliations": [
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org.",
+        "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org.",
+        "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA. marcus.noyes@nyulangone.org.",
+        "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA. marcus.noyes@nyulangone.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ichikawa, David M",
+        "short_name": "Ichikawa DM",
+        "identifiers": [
+          "0000-0002-7517-5150"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Abdin, Osama",
+        "short_name": "Abdin O",
+        "identifiers": [
+          "0000-0002-5471-2906"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Alerasool, Nader",
+        "short_name": "Alerasool N",
+        "identifiers": [],
+        "affiliations": [
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kogenaru, Manjunatha",
+        "short_name": "Kogenaru M",
+        "identifiers": [
+          "0000-0001-6570-7857"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mueller, April L",
+        "short_name": "Mueller AL",
+        "identifiers": [
+          "0000-0002-2134-5134"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Han",
+        "short_name": "Wen H",
+        "identifiers": [
+          "0000-0003-4680-4218"
+        ],
+        "affiliations": [
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Giganti, David O",
+        "short_name": "Giganti DO",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Goldberg, Gregory W",
+        "short_name": "Goldberg GW",
+        "identifiers": [
+          "0000-0002-5022-9976"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Adams, Samantha",
+        "short_name": "Adams S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Spencer, Jeffrey M",
+        "short_name": "Spencer JM",
+        "identifiers": [
+          "0000-0003-4690-2432"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Razavi, Rozita",
+        "short_name": "Razavi R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Nim, Satra",
+        "short_name": "Nim S",
+        "identifiers": [],
+        "affiliations": [
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Zheng, Hong",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Gionco, Courtney",
+        "short_name": "Gionco C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Clark, Finnegan T",
+        "short_name": "Clark FT",
+        "identifiers": [
+          "0000-0003-0575-7312"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Strokach, Alexey",
+        "short_name": "Strokach A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Hughes, Timothy R",
+        "short_name": "Hughes TR",
+        "identifiers": [
+          "0000-0002-8721-4719"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Lionnet, Timothee",
+        "short_name": "Lionnet T",
+        "identifiers": [
+          "0000-0003-1508-0202"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Taipale, Mikko",
+        "short_name": "Taipale M",
+        "identifiers": [
+          "0000-0003-3811-1761"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kim, Philip M",
+        "short_name": "Kim PM",
+        "identifiers": [
+          "0000-0003-3683-152X"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org.",
+          "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org.",
+          "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada. pi@kimlab.org."
+        ]
+      },
+      {
+        "full_name": "Noyes, Marcus B",
+        "short_name": "Noyes MB",
+        "identifiers": [
+          "0000-0002-3065-1096"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA. marcus.noyes@nyulangone.org.",
+          "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA. marcus.noyes@nyulangone.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature biotechnology"
+    ],
+    "journal_abbrev": [
+      "Nat Biotechnol"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/27 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "42493606",
+      "42477347",
+      "42461945",
+      "42374116",
+      "42212714",
+      "42209525",
+      "41897406",
+      "41772312",
+      "41714636",
+      "41386884",
+      "41308636",
+      "41286458",
+      "41210586",
+      "41130140",
+      "40988083",
+      "40898613",
+      "40874594",
+      "40873471",
+      "40858620",
+      "40840519",
+      "40775487",
+      "40650152",
+      "40466641",
+      "40408265",
+      "40279643",
+      "40262634",
+      "40195118",
+      "39975040",
+      "39903729",
+      "39834592",
+      "39805837",
+      "39779847",
+      "39707395",
+      "39657052",
+      "39604381",
+      "39509282",
+      "39473180",
+      "39411963",
+      "39131181",
+      "39103447",
+      "39075148",
+      "39013849",
+      "39012588",
+      "38953172",
+      "38935715",
+      "38702711",
+      "38635012",
+      "38360922",
+      "38352411",
+      "38297187",
+      "38126677",
+      "37781609",
+      "37294804",
+      "37003949"
+    ],
+    "refs": [
+      "35016035",
+      "33838111",
+      "33020655",
+      "32971019",
+      "32383734",
+      "31359006",
+      "30850604",
+      "30692695",
+      "30545847",
+      "30374197",
+      "30290144",
+      "29733646",
+      "28808340",
+      "28412959",
+      "28273063",
+      "27776111",
+      "27662090",
+      "26670017",
+      "26501517",
+      "26443215",
+      "26384429",
+      "26098369",
+      "25730490",
+      "25690854",
+      "25593323",
+      "25516281",
+      "25307932",
+      "25079318",
+      "24752079",
+      "24529477",
+      "24214968",
+      "23892895",
+      "23303772",
+      "23222846",
+      "23104886",
+      "22863014",
+      "22745249",
+      "22543349",
+      "22484455",
+      "22388286",
+      "22210894",
+      "21980922",
+      "21486936",
+      "20192761",
+      "19119423",
+      "18798982",
+      "18657511",
+      "18585360",
+      "18332042",
+      "16200636",
+      "16107335",
+      "11433278",
+      "11340073",
+      "10940247",
+      "10077584",
+      "9779790",
+      "9005850",
+      "8939742",
+      "8303274",
+      "7972027",
+      "3047590"
+    ],
+    "similar": [
+      "36702896",
+      "25098749",
+      "36124796",
+      "24214968",
+      "11340073",
+      "20478078",
+      "12592413",
+      "20680832",
+      "18336208",
+      "32383734",
+      "27401554",
+      "17937891",
+      "35410161",
+      "28035002",
+      "12514243",
+      "36207690",
+      "24297167",
+      "19394375",
+      "10421761",
+      "10504263",
+      "16834537",
+      "24097433",
+      "21796215",
+      "9108026",
+      "15969093",
+      "16845061",
+      "28986805",
+      "26158299",
+      "16108353",
+      "14636595",
+      "22405571",
+      "24097990",
+      "10529348",
+      "8692697",
+      "11525835",
+      "18286240",
+      "1762917",
+      "16735158",
+      "20360772",
+      "10940247",
+      "25989233",
+      "29953437",
+      "16298089",
+      "32453726",
+      "8723389",
+      "17052325",
+      "22323524",
+      "8654390",
+      "24877793",
+      "23915119",
+      "20680835",
+      "25953800",
+      "16732192",
+      "19119423",
+      "20192761",
+      "9698361",
+      "15288776",
+      "12492848",
+      "16253273",
+      "25593323",
+      "10722717",
+      "24792165",
+      "19838191",
+      "10077584",
+      "22803940",
+      "18693452",
+      "11171968",
+      "12750739",
+      "17186549",
+      "9467467",
+      "1658795",
+      "30066981",
+      "23436653",
+      "17406419",
+      "8336715",
+      "8114711",
+      "33554320",
+      "11782357",
+      "27930301",
+      "30355731",
+      "36292728",
+      "11018257",
+      "14602907",
+      "15491583",
+      "27093352",
+      "17537811",
+      "20680853",
+      "10903945",
+      "12504096",
+      "27852650",
+      "26593440",
+      "10906122",
+      "7588776",
+      "9406578",
+      "36369302",
+      "16107335",
+      "15449319",
+      "23074246",
+      "29524128"
+    ],
+    "review": [
+      "36702896",
+      "20478078",
+      "18336208",
+      "17937891",
+      "19394375",
+      "16834537",
+      "16108353",
+      "22405571",
+      "10529348",
+      "11525835",
+      "16735158",
+      "10940247",
+      "25989233",
+      "16298089",
+      "20192761",
+      "16253273",
+      "22803940",
+      "12750739",
+      "30066981",
+      "27093352",
+      "15449319"
+    ],
+    "pmc": [
+      "10421740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41587-022-01624-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36702896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36702896",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36702896",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36702896",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

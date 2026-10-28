@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "40020686",
+    "doi": "10.1016/j.xgen.2025.100780",
+    "title": "Transfer learning reveals sequence determinants of the quantitative response to transcription factor dosage."
+  },
+  "content": {
+    "abstract": "Deep learning models have advanced our ability to predict cell-type-specific chromatin patterns from transcription factor (TF) binding motifs, but their application to perturbed contexts remains limited. We applied transfer learning to predict how concentrations of the dosage-sensitive TFs TWIST1 and SOX9 affect regulatory element (RE) chromatin accessibility in facial progenitor cells, achieving near-experimental accuracy. High-affinity motifs that allow for heterotypic TF co-binding and are concentrated at the center of REs buffer against quantitative changes in TF dosage and predict unperturbed accessibility. Conversely, low-affinity or homotypic binding motifs distributed throughout REs drive sensitive responses with minimal impact on unperturbed accessibility. Both buffering and sensitizing features display purifying selection signatures. We validated these sequence features through reporter assays and demonstrated that TF-nucleosome competition can explain low-affinity motifs' sensitizing effects. This combination of transfer learning and quantitative chromatin response measurements provides a novel approach for uncovering additional layers of the cis-regulatory code.",
+    "keywords": [
+      "chromatin accessibility",
+      "deep learning",
+      "degrons",
+      "gene dosage",
+      "gene regulation",
+      "motif affinity",
+      "nucleosomes",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Chromatin/metabolism/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "Animals",
+      "*SOX9 Transcription Factor/metabolism/genetics",
+      "Mice",
+      "Binding Sites",
+      "Humans",
+      "*Deep Learning",
+      "Protein Binding",
+      "Nucleosomes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naqvi, Sahin",
+        "Kim, Seungsoo",
+        "Tabatabaee, Saman",
+        "Pampari, Anusri",
+        "Kundaje, Anshul",
+        "Pritchard, Jonathan K",
+        "Wysocka, Joanna"
+      ],
+      "short_names": [
+        "Naqvi S",
+        "Kim S",
+        "Tabatabaee S",
+        "Pampari A",
+        "Kundaje A",
+        "Pritchard JK",
+        "Wysocka J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Department of Genetics, Stanford University, Stanford, CA 94305, USA; Division of Gastroenterology, Hepatology, and Nutrition, Boston Children's Hospital, Boston, MA 02115, USA; Department of Pediatrics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: sahin.naqvi@childrens.harvard.edu.",
+        "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+        "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Department of Biology, Stanford University, Stanford, CA 94305, USA. Electronic address: pritch@stanford.edu.",
+        "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA. Electronic address: wysocka@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naqvi, Sahin",
+        "short_name": "Naqvi S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Department of Genetics, Stanford University, Stanford, CA 94305, USA; Division of Gastroenterology, Hepatology, and Nutrition, Boston Children's Hospital, Boston, MA 02115, USA; Department of Pediatrics, Harvard Medical School, Boston, MA 02115, USA. Electronic address: sahin.naqvi@childrens.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Kim, Seungsoo",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Tabatabaee, Saman",
+        "short_name": "Tabatabaee S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Pampari, Anusri",
+        "short_name": "Pampari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Pritchard, Jonathan K",
+        "short_name": "Pritchard JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA; Department of Biology, Stanford University, Stanford, CA 94305, USA. Electronic address: pritch@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Wysocka, Joanna",
+        "short_name": "Wysocka J",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Chemical and Systems Biology and Developmental Biology, Stanford University School of Medicine, Stanford, CA 94305, USA; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA. Electronic address: wysocka@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2025 Mar 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/01 14:39",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42597241",
+      "42555666",
+      "41618434",
+      "41576918",
+      "41509417",
+      "41332771",
+      "41247408",
+      "41107536",
+      "40777328",
+      "40763802",
+      "40651947",
+      "40360798",
+      "40345201",
+      "39938795",
+      "38853998"
+    ],
+    "refs": [
+      "39814889",
+      "38262408",
+      "38233525",
+      "38086418",
+      "37857933",
+      "37848026",
+      "37557175",
+      "37552983",
+      "37024583",
+      "37007588",
+      "36693380",
+      "34987221",
+      "34579793",
+      "34467851",
+      "33603233",
+      "33290745",
+      "33288918",
+      "33046896",
+      "32991838",
+      "32451166",
+      "29588361",
+      "29140464",
+      "28846090",
+      "27471255",
+      "27197224",
+      "26717316",
+      "26472909",
+      "26365491",
+      "26314830",
+      "26213851",
+      "26013289",
+      "25557079",
+      "25516281",
+      "24925680",
+      "23996014",
+      "23386628",
+      "22868264",
+      "22388286",
+      "21149679",
+      "20130577",
+      "20110278",
+      "19910308",
+      "19773334",
+      "19505943",
+      "8988166"
+    ],
+    "similar": [
+      "40020686",
+      "38853998",
+      "26818008",
+      "31053165",
+      "39208807",
+      "41308636",
+      "35293310",
+      "23805837",
+      "38966997",
+      "40777328",
+      "40780181",
+      "29326300",
+      "39695228",
+      "37214836",
+      "22534400",
+      "28212748",
+      "31114856",
+      "28750606",
+      "26291518",
+      "20637845",
+      "42401553",
+      "31639474",
+      "22955984",
+      "20098497",
+      "34486522",
+      "38940155",
+      "26675734",
+      "37557175",
+      "37024583",
+      "19956545",
+      "40795153",
+      "41724964",
+      "22955990",
+      "35831531",
+      "27899623",
+      "23990766",
+      "25762553",
+      "37486787",
+      "28334916",
+      "42140663",
+      "42056506",
+      "30423062",
+      "39326643",
+      "41951735",
+      "28576882",
+      "42114111",
+      "38654130",
+      "37569400",
+      "42475469",
+      "41365655",
+      "42680730",
+      "22482953",
+      "39363017",
+      "24942981",
+      "34488759",
+      "42664966",
+      "41035197",
+      "26790608",
+      "42641603",
+      "40848288",
+      "36360189",
+      "22863112",
+      "32973041",
+      "31723409",
+      "35666736",
+      "36043696",
+      "19652015",
+      "35681170",
+      "42099803",
+      "39567683",
+      "40811719",
+      "29786094",
+      "37805453",
+      "39843737",
+      "22189060",
+      "33603233",
+      "33413545",
+      "38991237",
+      "42538372",
+      "41005292",
+      "20172488",
+      "28137873",
+      "29472540",
+      "41325984",
+      "40713947",
+      "38293962",
+      "41799016",
+      "31372637",
+      "24603674",
+      "33232622",
+      "31483104",
+      "39402535",
+      "23325854",
+      "28472398",
+      "38778580",
+      "21075748",
+      "24634209",
+      "34607350",
+      "39796242",
+      "37691488"
+    ],
+    "review": [
+      "40020686",
+      "31639474",
+      "35831531",
+      "38991237"
+    ],
+    "pmc": [
+      "11960506"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00036-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40020686/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40020686",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00036-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

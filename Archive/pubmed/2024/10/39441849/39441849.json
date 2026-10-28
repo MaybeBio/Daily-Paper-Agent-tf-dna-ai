@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "39441849",
+    "doi": "10.1021/acs.jmedchem.4c01416",
+    "title": "Enhancing the Predictive Power of Machine Learning Models through a Chemical Space Complementary DEL Screening Strategy."
+  },
+  "content": {
+    "abstract": "DNA-encoded library (DEL) technology is an effective method for small molecule drug discovery, enabling high-throughput screening against target proteins. While DEL screening produces extensive data, it can reveal complex patterns not easily recognized by human analysis. Lead compounds from DEL screens often have higher molecular weights, posing challenges for drug development. This study refines traditional DELs by integrating alternative techniques like photocross-linking screening to enhance chemical diversity. Combining these methods improved predictive performance for small molecule identification models. Using this approach, we predicted active small molecules for BRD4 and p300, achieving hit rates of 26.7 and 35.7%. Notably, the identified compounds exhibit smaller molecular weights and better modification potential compared to traditional DEL molecules. This research demonstrates the synergy between DEL and AI technologies, enhancing drug discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Small Molecule Libraries/chemistry",
+      "*Transcription Factors/metabolism/chemistry/antagonists & inhibitors",
+      "*Drug Discovery/methods",
+      "*High-Throughput Screening Assays/methods",
+      "Cell Cycle Proteins/metabolism/chemistry",
+      "E1A-Associated p300 Protein/metabolism/antagonists & inhibitors",
+      "DNA/chemistry",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Suo, Yanrui",
+        "Qian, Xu",
+        "Xiong, Zhaoping",
+        "Liu, Xiaohong",
+        "Wang, Chao",
+        "Mu, Baiyang",
+        "Wu, Xinyuan",
+        "Lu, Weiwei",
+        "Cui, Meiying",
+        "Liu, Jiaxiang",
+        "Chen, Yujie",
+        "Zheng, Mingyue",
+        "Lu, Xiaojie"
+      ],
+      "short_names": [
+        "Suo Y",
+        "Qian X",
+        "Xiong Z",
+        "Liu X",
+        "Wang C",
+        "Mu B",
+        "Wu X",
+        "Lu W",
+        "Cui M",
+        "Liu J",
+        "Chen Y",
+        "Zheng M",
+        "Lu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3323-3092",
+        "ORCID: 0000-0002-3600-288X"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "Technology Development Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "Technology Development Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "Shandong Second Medical University, Weifang 261053, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Suo, Yanrui",
+        "short_name": "Suo Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Xu",
+        "short_name": "Qian X",
+        "identifiers": [],
+        "affiliations": [
+          "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Zhaoping",
+        "short_name": "Xiong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Technology Development Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Technology Development Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Baiyang",
+        "short_name": "Mu B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "Shandong Second Medical University, Weifang 261053, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xinyuan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Weiwei",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Meiying",
+        "short_name": "Cui M",
+        "identifiers": [],
+        "affiliations": [
+          "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaxiang",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yujie",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "DEL Department, Suzhou Alphama Biotechnology Co., Ltd., Suzhou 215125,China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Mingyue",
+        "short_name": "Zheng M",
+        "identifiers": [
+          "0000-0002-3323-3092"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiaojie",
+        "short_name": "Lu X",
+        "identifiers": [
+          "0000-0002-3600-288X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 501 Haike Road, Zhang Jiang Hi-Tech Park, Pudong, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2024 Nov 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/23 18:22",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42543833",
+      "41907305",
+      "41623945",
+      "41450654",
+      "40927425",
+      "40528034"
+    ],
+    "refs": [],
+    "similar": [
+      "39441849",
+      "41698921",
+      "40792622",
+      "34427078",
+      "40708441",
+      "39116103",
+      "34981643",
+      "39508428",
+      "41047897",
+      "41828851",
+      "24673190",
+      "39794292",
+      "32525674",
+      "37328653",
+      "33914520",
+      "31111767",
+      "41722895",
+      "27238211",
+      "33412987",
+      "40614822",
+      "31858872",
+      "33891355",
+      "40658043",
+      "30920794",
+      "33637650",
+      "28011218",
+      "29361863",
+      "38753553",
+      "24767840",
+      "39716586",
+      "36096360",
+      "39004318",
+      "32107961",
+      "34364223",
+      "38658534",
+      "42028823",
+      "26820267",
+      "29239081",
+      "41033221",
+      "40583265",
+      "40590343",
+      "35535861",
+      "32362328",
+      "41096766",
+      "30884226",
+      "39305268",
+      "23451880",
+      "41481154",
+      "32446376",
+      "32359876",
+      "40928970",
+      "35254005",
+      "32808550",
+      "30672692",
+      "29990427",
+      "29735903",
+      "33795749",
+      "36841551",
+      "36656960",
+      "34030087",
+      "40175041",
+      "32444139",
+      "40404924",
+      "38278484",
+      "40336336",
+      "41883078",
+      "40702244",
+      "37368824",
+      "40553334",
+      "22827747",
+      "31829554",
+      "29795359",
+      "31398032",
+      "33295694",
+      "32686307",
+      "30624935",
+      "27924481",
+      "27053324",
+      "25732963",
+      "35121833",
+      "39132881",
+      "38326646",
+      "38565852",
+      "26914744",
+      "41609294",
+      "36773087",
+      "37129260",
+      "28032411",
+      "41260786",
+      "36458812",
+      "32768646",
+      "31253937",
+      "29361864",
+      "40156560",
+      "41266292",
+      "38197367",
+      "32320205",
+      "32149490",
+      "37578123",
+      "29956552"
+    ],
+    "review": [
+      "39441849",
+      "40708441",
+      "39508428",
+      "37328653",
+      "31111767",
+      "41722895",
+      "33891355",
+      "28011218",
+      "38753553",
+      "36096360",
+      "26820267",
+      "41033221",
+      "40590343",
+      "35535861",
+      "32362328",
+      "34030087",
+      "40175041",
+      "40404924",
+      "38278484",
+      "40702244",
+      "22827747",
+      "33295694",
+      "25732963",
+      "35121833",
+      "39132881",
+      "41609294",
+      "37129260",
+      "28032411",
+      "41260786",
+      "36458812",
+      "38197367"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.4c01416",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

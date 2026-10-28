@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39786868",
+    "doi": "10.1093/bioinformatics/btae762",
+    "title": "Transcription factor prediction using protein 3D secondary structures."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factors (TFs) are DNA-binding proteins that regulate gene expression. Traditional methods predict a protein as a TF if the protein contains any DNA-binding domains (DBDs) of known TFs. However, this approach fails to identify a novel TF that does not contain any known DBDs. Recently proposed TF prediction methods do not rely on DBDs. Such methods use features of protein sequences to train a machine learning model, and then use the trained model to predict whether a protein is a TF or not. Because the 3-dimensional (3D) structure of a protein captures more information than its sequence, using 3D protein structures will likely allow for more accurate prediction of novel TFs. RESULTS: We propose a deep learning-based TF prediction method (StrucTFactor), which is the first method to utilize 3D secondary structural information of proteins. We compare StrucTFactor with recent state-of-the-art TF prediction methods based on  approximately 525 000 proteins across 12 datasets, capturing different aspects of data bias (including sequence redundancy) possibly influencing a method's performance. We find that StrucTFactor significantly (P-value < 0.001) outperforms the existing TF prediction methods, improving the performance over its closest competitor by up to 17% based on Matthews correlation coefficient. AVAILABILITY AND IMPLEMENTATION: Data and source code are available at https://github.com/lieboldj/StrucTFactor and on our website at https://apps.cosy.bio/StrucTFactor.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/chemistry",
+      "Protein Structure, Secondary",
+      "*Computational Biology/methods",
+      "Deep Learning",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liebold, Jeanine",
+        "Neuhaus, Fabian",
+        "Geiser, Janina",
+        "Kurtz, Stefan",
+        "Baumbach, Jan",
+        "Newaz, Khalique"
+      ],
+      "short_names": [
+        "Liebold J",
+        "Neuhaus F",
+        "Geiser J",
+        "Kurtz S",
+        "Baumbach J",
+        "Newaz K"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0797-1806",
+        "ORCID: 0009-0006-2556-7662",
+        "ORCID: 0009-0001-3722-9429",
+        "ORCID: 0000-0001-5783-0054",
+        "ORCID: 0000-0002-0282-0462",
+        "ORCID: 0000-0002-1192-8360"
+      ],
+      "affiliations": [
+        "Institute for Computational Systems Biology, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Faculty of Mathematics, Informatics and Natural Sciences, ZBH-Center for Bioinformatics, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Institute for Computational Systems Biology, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Institute for Computational Systems Biology, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Faculty of Mathematics, Informatics and Natural Sciences, ZBH-Center for Bioinformatics, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Institute for Computational Systems Biology, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Department of Mathematics and Computer Science, University of Southern Denmark, Odense 5230, Denmark.",
+        "Institute for Computational Systems Biology, Universitat Hamburg, Hamburg 22761, Germany.",
+        "Center for Data and Computing in Natural Sciences, Universitat Hamburg, Hamburg 22761, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liebold, Jeanine",
+        "short_name": "Liebold J",
+        "identifiers": [
+          "0009-0002-0797-1806"
+        ],
+        "affiliations": [
+          "Institute for Computational Systems Biology, Universität Hamburg, Hamburg 22761, Germany.",
+          "Faculty of Mathematics, Informatics and Natural Sciences, ZBH-Center for Bioinformatics, Universität Hamburg, Hamburg 22761, Germany."
+        ]
+      },
+      {
+        "full_name": "Neuhaus, Fabian",
+        "short_name": "Neuhaus F",
+        "identifiers": [
+          "0009-0006-2556-7662"
+        ],
+        "affiliations": [
+          "Institute for Computational Systems Biology, Universität Hamburg, Hamburg 22761, Germany."
+        ]
+      },
+      {
+        "full_name": "Geiser, Janina",
+        "short_name": "Geiser J",
+        "identifiers": [
+          "0009-0001-3722-9429"
+        ],
+        "affiliations": [
+          "Institute for Computational Systems Biology, Universität Hamburg, Hamburg 22761, Germany."
+        ]
+      },
+      {
+        "full_name": "Kurtz, Stefan",
+        "short_name": "Kurtz S",
+        "identifiers": [
+          "0000-0001-5783-0054"
+        ],
+        "affiliations": [
+          "Faculty of Mathematics, Informatics and Natural Sciences, ZBH-Center for Bioinformatics, Universität Hamburg, Hamburg 22761, Germany."
+        ]
+      },
+      {
+        "full_name": "Baumbach, Jan",
+        "short_name": "Baumbach J",
+        "identifiers": [
+          "0000-0002-0282-0462"
+        ],
+        "affiliations": [
+          "Institute for Computational Systems Biology, Universität Hamburg, Hamburg 22761, Germany.",
+          "Department of Mathematics and Computer Science, University of Southern Denmark, Odense 5230, Denmark."
+        ]
+      },
+      {
+        "full_name": "Newaz, Khalique",
+        "short_name": "Newaz K",
+        "identifiers": [
+          "0000-0002-1192-8360"
+        ],
+        "affiliations": [
+          "Institute for Computational Systems Biology, Universität Hamburg, Hamburg 22761, Germany.",
+          "Center for Data and Computing in Natural Sciences, Universität Hamburg, Hamburg 22761, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2024 Dec 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 16:58",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "40908642",
+      "40634599"
+    ],
+    "refs": [
+      "39122953",
+      "38644393",
+      "36927031",
+      "36454728",
+      "36408920",
+      "36344848",
+      "35981062",
+      "35441395",
+      "34791371",
+      "34767442",
+      "34654918",
+      "34265844",
+      "33372147",
+      "32742675",
+      "31898477",
+      "29425488",
+      "29035372",
+      "28430951",
+      "27812944",
+      "25428369",
+      "24349230",
+      "23153078",
+      "20864494",
+      "18554421",
+      "18073188",
+      "16381970",
+      "10592235",
+      "10195279",
+      "9570129",
+      "6667333",
+      "2231712"
+    ],
+    "similar": [
+      "39786868",
+      "42099803",
+      "40102719",
+      "31742324",
+      "30808287",
+      "35997560",
+      "32770026",
+      "38940155",
+      "40848288",
+      "33372147",
+      "40971691",
+      "42475469",
+      "26291518",
+      "40742755",
+      "34571539",
+      "41450215",
+      "34272562",
+      "40569190",
+      "40914877",
+      "41633121",
+      "20838582",
+      "31483777",
+      "34073774",
+      "28961686",
+      "35652719",
+      "28056090",
+      "40662821",
+      "28750606",
+      "38824535",
+      "39576574",
+      "35652477",
+      "34478704",
+      "38830995",
+      "30075707",
+      "36637199",
+      "21124945",
+      "26679776",
+      "40569048",
+      "36321557",
+      "41978381",
+      "25957350",
+      "35692094",
+      "38701417",
+      "39424851",
+      "25559499",
+      "39457474",
+      "39693053",
+      "38701416",
+      "39304807",
+      "32821925",
+      "36057196",
+      "19956545",
+      "39316715",
+      "30709337",
+      "41042660",
+      "40375059",
+      "39478454",
+      "41601205",
+      "41861881",
+      "23912807",
+      "41634097",
+      "31723409",
+      "40889326",
+      "31372637",
+      "40689530",
+      "39489606",
+      "35471889",
+      "41902842",
+      "41172803",
+      "25775564",
+      "40439671",
+      "33154416",
+      "29757349",
+      "35150250",
+      "40411397",
+      "35266510",
+      "18922190",
+      "26130577",
+      "27567672",
+      "28334224",
+      "29028926",
+      "40354612",
+      "35511108",
+      "29554211",
+      "30419785",
+      "30629513",
+      "24349230",
+      "30423097",
+      "35039821",
+      "35263332",
+      "38905501",
+      "22574904",
+      "41826803",
+      "40233101",
+      "40327458",
+      "36346583",
+      "40581797",
+      "40174317",
+      "39121938",
+      "42412847"
+    ],
+    "review": [
+      "39786868",
+      "31742324",
+      "35652477",
+      "36321557",
+      "35692094"
+    ],
+    "pmc": [
+      "11769678"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39786868.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39786868/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btae762",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

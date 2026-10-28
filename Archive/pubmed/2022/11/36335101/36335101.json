@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "36335101",
+    "doi": "10.1038/s41467-022-34152-5",
+    "title": "Learning the histone codes with large genomic windows and three-dimensional chromatin interactions using transformer."
+  },
+  "content": {
+    "abstract": "The quantitative characterization of the transcriptional control by histone modifications has been challenged by many computational studies, but most of them only focus on narrow and linear genomic regions around promoters, leaving a room for improvement. We present Chromoformer, a transformer-based, three-dimensional chromatin conformation-aware deep learning architecture that achieves the state-of-the-art performance in the quantitative deciphering of the histone codes in gene regulation. The core essence of Chromoformer architecture lies in the three variants of attention operation, each specialized to model individual hierarchy of transcriptional regulation involving from core promoters to distal elements in contact with promoters through three-dimensional chromatin interactions. In-depth interpretation of Chromoformer reveals that it adaptively utilizes the long-range dependencies between histone modifications associated with transcription initiation and elongation. We also show that the quantitative kinetics of transcription factories and Polycomb group bodies can be captured by Chromoformer. Together, our study highlights the great advantage of attention-based deep modeling of complex interactions in epigenomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/genetics/metabolism",
+      "*Chromatin/genetics",
+      "Histone Code/genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Genomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Dohoon",
+        "Yang, Jeewon",
+        "Kim, Sun"
+      ],
+      "short_names": [
+        "Lee D",
+        "Yang J",
+        "Kim S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2163-5489",
+        "ORCID: 0000-0002-2693-5889",
+        "ORCID: 0000-0001-5385-9546"
+      ],
+      "affiliations": [
+        "Bioinformatics Institute, Seoul National University, Seoul, 08826, Republic of Korea.",
+        "BK21 FOUR Intelligence Computing, Seoul National University, Seoul, 08826, Republic of Korea.",
+        "Interdisciplinary Program in Artificial Intelligence, Seoul National University, Seoul, 08826, Republic of Korea.",
+        "Interdisciplinary Program in Artificial Intelligence, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+        "Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+        "Department of Computer Science and Engineering, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+        "AIGENDRUG Co., Ltd., Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Dohoon",
+        "short_name": "Lee D",
+        "identifiers": [
+          "0000-0003-2163-5489"
+        ],
+        "affiliations": [
+          "Bioinformatics Institute, Seoul National University, Seoul, 08826, Republic of Korea.",
+          "BK21 FOUR Intelligence Computing, Seoul National University, Seoul, 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yang, Jeewon",
+        "short_name": "Yang J",
+        "identifiers": [
+          "0000-0002-2693-5889"
+        ],
+        "affiliations": [
+          "Interdisciplinary Program in Artificial Intelligence, Seoul National University, Seoul, 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sun",
+        "short_name": "Kim S",
+        "identifiers": [
+          "0000-0001-5385-9546"
+        ],
+        "affiliations": [
+          "Interdisciplinary Program in Artificial Intelligence, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+          "Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+          "Department of Computer Science and Engineering, Seoul National University, Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr.",
+          "AIGENDRUG Co., Ltd., Seoul, 08826, Republic of Korea. sunkim.bioinfo@snu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Nov 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/06 06:00",
+    "fetched_at": "2026-09-28 15:43:17"
+  },
+  "links": {
+    "cites": [
+      "42656278",
+      "42444001",
+      "41924730",
+      "41832145",
+      "41628239",
+      "40777510",
+      "40236839",
+      "40213269",
+      "39660643",
+      "39316943",
+      "39073831",
+      "38979226",
+      "38859587",
+      "38605640",
+      "37996959",
+      "37508462",
+      "36829667"
+    ],
+    "refs": [
+      "35325548",
+      "34608324",
+      "34389703",
+      "34265844",
+      "34035898",
+      "33876751",
+      "33538820",
+      "33514712",
+      "33398174",
+      "33133123",
+      "32716348",
+      "32094912",
+      "31784727",
+      "31501517",
+      "31086298",
+      "30423076",
+      "30147283",
+      "27851967",
+      "27587684",
+      "27557709",
+      "27141961",
+      "26497214",
+      "26213851",
+      "25965999",
+      "25697820",
+      "25693563",
+      "24905166",
+      "24614317",
+      "23766291",
+      "23328393",
+      "22955616",
+      "22950368",
+      "22495300",
+      "20512118",
+      "20110278",
+      "19815776",
+      "19506577",
+      "19451168",
+      "19141475",
+      "11704680",
+      "11498575",
+      "9377276"
+    ],
+    "similar": [
+      "36335101",
+      "34769020",
+      "27003446",
+      "39316943",
+      "27391817",
+      "21846408",
+      "27487356",
+      "34320189",
+      "24637397",
+      "32499403",
+      "29716520",
+      "20409305",
+      "22768038",
+      "33238524",
+      "29581440",
+      "34553920",
+      "26825948",
+      "25008978",
+      "33479238",
+      "32461553",
+      "32533974",
+      "29102610",
+      "24727477",
+      "27048461",
+      "36208178",
+      "26646152",
+      "33885816",
+      "20565761",
+      "21262819",
+      "30967126",
+      "21379342",
+      "27443936",
+      "24385926",
+      "23766291",
+      "28334823",
+      "24136359",
+      "27940208",
+      "33280509",
+      "31868234",
+      "29158132",
+      "15235610",
+      "29659982",
+      "28105934",
+      "20920745",
+      "27681438",
+      "32726618",
+      "24472558",
+      "32689977",
+      "31965995",
+      "25122670",
+      "28515787",
+      "24781148",
+      "26474904",
+      "26553936",
+      "18927605",
+      "33257899",
+      "33089419",
+      "23667505",
+      "24013198",
+      "15268870",
+      "35680905",
+      "19094206",
+      "32917590",
+      "33658503",
+      "30183406",
+      "28513628",
+      "24213634",
+      "20522254",
+      "27082816",
+      "21502416",
+      "35955433",
+      "27095194",
+      "11532604",
+      "16226460",
+      "31876282",
+      "11536294",
+      "32197056",
+      "11470530",
+      "22289984",
+      "34048564",
+      "22047616",
+      "28115992",
+      "35717671",
+      "34099725",
+      "26704082",
+      "30423076",
+      "30707695",
+      "23186133",
+      "18985155",
+      "25783056"
+    ],
+    "review": [
+      "36335101",
+      "24637397",
+      "34553920",
+      "26825948",
+      "36208178",
+      "33885816",
+      "23766291",
+      "27940208",
+      "29158132",
+      "20920745",
+      "31965995",
+      "24781148",
+      "26474904",
+      "26553936",
+      "33257899",
+      "33089419",
+      "15268870",
+      "30183406",
+      "35955433",
+      "11532604",
+      "16226460",
+      "11536294",
+      "32197056"
+    ],
+    "pmc": [
+      "9637148"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-34152-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36335101/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36335101",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

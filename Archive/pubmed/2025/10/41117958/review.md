@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that nodD, a LysR-type transcriptional regulator (LTTR) critical for rhizobial nodulation, emerged from ancient LTTRs deep in proteobacterial history, underwent duplication and horizontal gene transfer (HGT), shows conserved synteny in classical rhizobia but architectural divergence in free-living lineages, retains a canonical LTTR fold with species-specific deviations in effector-binding regions, and regulates targets beyond symbiosis including metabolism, stress responses, and transcriptional control, thereby portraying nodD as a structurally conserved yet functionally flexible regulator.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, methods description, phylogenetic trees, reconciliation results, structural models, motif discovery outputs, network analyses, and all supporting data
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially interesting evolutionary and functional study of nodD-like LTTRs in alpha-proteobacteria. However, the claims are broad and numerous, and the abstract alone provides insufficient detail to evaluate the rigor of the phylogenetic, structural, and functional analyses. The central thesis, that nodD is a structurally conserved yet functionally flexible regulator with regulatory reach beyond symbiosis, is plausible but not established from the supplied material. The work may appeal to microbiologists and evolutionary biologists, but the evidence base is currently too thin to support the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying rhizobial symbiosis, bacterial transcriptional regulation, LTTR family evolution, and horizontal gene transfer in prokaryotes. The claim of regulatory diversification beyond symbiosis could also interest those working on bacterial adaptation and genome plasticity.
+- **Major strengths** The abstract integrates multiple analytical approaches, including pangenome clustering, phylogenetic reconciliation, gene-neighborhood analysis, structural modeling, and motif scanning, which suggests a comprehensive methodological scope. The focus on both conserved and divergent features across diverse taxa, including non-rhizobial and marine lineages, is a valuable framing that could extend the relevance of nodD beyond classical symbiosis studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that reconciliation reveals widespread duplication and HGT, with several rhizobia showing notable duplication and exchange, and marine/non-rhizobial taxa contributing to a mosaic of nodD-like genes.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states these evolutionary events as findings, but no quantitative or qualitative support is visible. There is no indication of how duplication and HGT were distinguished from other evolutionary processes, what statistical support was obtained, or how many taxa and events were analyzed.
+  - **Why it matters** The evolutionary trajectory claim is a central pillar of the paper. Without visible evidence for the reconciliation methods and results, the reader cannot assess whether the duplication and HGT inferences are robust or overinterpreted.
+  - **Resolution test** Provide the reconciliation method, support values for inferred events, and a summary of duplication and transfer counts across lineages, ideally with a figure or table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that structural comparisons with AlphaFold and PyMOL confirm the canonical LTTR fold while uncovering species-specific deviations concentrated in effector-binding loops and interfaces.
+  - **Evidence pointer** Location not provided
+  - **Concern** No structural details are provided, including which models were compared, how deviations were quantified, or whether the deviations were validated against experimental structures. The claim of species-specific deviations in effector-binding regions is specific but unsupported in the abstract.
+  - **Why it matters** Structural claims require clear methodological transparency, especially when using predicted models. Without details on model quality, comparison criteria, and the significance of the deviations, the claim cannot be evaluated.
+  - **Resolution test** Provide a structural comparison figure with model confidence metrics, a clear definition of deviation, and a statistical or quantitative measure of the differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that motif discovery and genome-wide scanning identify targets involved in metabolism, stress responses, and transcriptional control, and that network analysis reveals modular connectivity spanning core metabolism and accessory processes.
+  - **Evidence pointer** Location not provided
+  - **Concern** The functional claims are broad and lack specificity. No information is given on the motif discovery method, the number of targets identified, the statistical significance of the enrichments, or how the network analysis was constructed and validated.
+  - **Why it matters** The extension of nodD function beyond symbiosis is a key novelty claim. Without evidence for the target identification and network analysis, the claim of regulatory diversification is not established.
+  - **Resolution test** Provide a summary of identified target classes with enrichment statistics, and a description of the network construction and any validation or permutation testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, sentence on gene-neighborhood and operon analyses
+  - **Issue** The phrase "frequent monocistronic anchors with extended upstream regions" is ambiguous. It is unclear what "anchors" refers to and what constitutes "extended."
+  - **Required correction** Define "anchors" and specify the length or feature that qualifies as "extended" upstream regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract, opening sentence
+  - **Issue** The abstract states that nodD's regulatory reach beyond symbiosis is "incompletely resolved," but the study appears to focus on genomic and structural analyses rather than direct functional assays. The framing may overstate what the study can resolve.
+  - **Required correction** Clarify that the study provides evolutionary and genomic inference of regulatory potential, not direct functional validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Taxonomic scope
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract, mention of "selected outgroups"
+  - **Issue** The identity and number of outgroups are not specified, which limits the reader's ability to assess the rooting of the phylogenetic analysis.
+  - **Required correction** Specify the outgroup taxa and the rationale for their selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail or quantitative support for the central evolutionary, structural, and functional claims. Without these, the case for nodD as a structurally conserved yet functionally flexible regulator is not established.
+- **Assessment against Nature-style criteria** Originality: The idea of extending nodD function beyond symbiosis and integrating evolutionary and structural perspectives is potentially original, but the abstract does not demonstrate how this advances beyond existing LTTR literature. Scientific importance: The topic is of interest to a specialized community, but the broad significance to a general readership is not articulated. Interdisciplinary readership: The abstract touches on phylogenetics, structural biology, and genomics, which could appeal across disciplines, but the lack of detail limits accessibility. Technical soundness: Cannot be assessed from the abstract alone; the methods are named but not described. Readability for nonspecialists: The abstract is dense and uses field-specific jargon without sufficient context, which would hinder a nonspecialist reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting framework, but the absence of methodological detail and quantitative support for the major claims means the case is not yet made. A full manuscript with appropriate evidence could change this assessment.
+
+## Risk / unsupported claims
+- The claim of emergence from ancient LTTRs deep in proteobacterial history is unsupported without phylogenetic dating details.
+- The claim of widespread duplication and HGT is unsupported without reconciliation statistics.
+- The claim of species-specific structural deviations in effector-binding loops is unsupported without structural comparison details.
+- The claim of regulatory targets in metabolism, stress responses, and transcriptional control is unsupported without motif discovery and network analysis evidence.
+- The claim of modular connectivity spanning core and accessory processes is unsupported without network construction and validation details.
+- The overall portrayal of nodD as a structurally conserved yet functionally flexible regulator is not established from the abstract alone.

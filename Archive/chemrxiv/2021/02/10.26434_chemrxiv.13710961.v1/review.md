@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors use computational methods, including molecular dynamics (MD) simulations, to assess the binding profile of the N501Y mutation in the receptor binding domain (RBD) of the SARS-CoV-2 spike protein, aiming to explain enhanced infectivity and to provide structural insights for drug development.
+- **Visible evidence base** Abstract and narrative text only; no figures, tables, methods details, or simulation parameters are included in the supplied material
+- **Missing materials affecting confidence** Full methods section, simulation protocols, force field parameters, statistical analyses, structural figures, binding affinity data, and any comparison with experimental results are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question regarding the mechanistic basis of increased infectivity of the N501Y SARS-CoV-2 variant. However, the supplied material is largely descriptive and lacks the quantitative and methodological detail necessary to evaluate the validity of the claims. The central assertion that MD simulations reveal binding affinity changes and structural alterations is not supported by any presented data. As such, the case is currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Structural biologists, computational chemists, and virologists studying SARS-CoV-2 evolution and host recognition would be interested. The potential to identify druggable sites on the RBD/hACE2 interface is relevant to therapeutic development efforts.
+- **Major strengths** The topic is of high current relevance and public health importance. The focus on a specific mutation with epidemiological significance is well chosen. The stated goal of linking computational predictions to drug development is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "a computational aided binding profile prediction is made to investigate the binding affinity alteration and potential structural change of the N501Y mutant" and that "the resulting structures of N501Y mutant from MD simulations could be used to develop drug inhibitors."
+  - **Evidence pointer** Location not provided; no figures, tables, or quantitative results are included in the supplied material
+  - **Concern** No simulation results, binding affinity values, structural comparisons, or statistical analyses are presented. The text states that predictions were made but provides no data to support any conclusion about binding affinity changes or structural effects.
+  - **Why it matters** Without quantitative results, the central scientific claim is unverifiable. The reader cannot assess whether the computational approach was valid, whether the simulations converged, or whether the predicted changes are significant.
+  - **Resolution test** Provide the actual binding free energy calculations (e.g., MM/PBSA or similar), RMSD/RMSF analyses, and structural overlays comparing wild-type and N501Y mutant RBD in complex with hACE2, with appropriate error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript implies that MD simulations were performed and that resulting structures are usable for drug development.
+  - **Evidence pointer** Location not provided; no methods section is included
+  - **Concern** No details are given on the simulation system, force field, water model, simulation length, temperature/pressure coupling, equilibration protocol, or analysis tools. Reproducibility is impossible without this information.
+  - **Why it matters** Computational results are only meaningful if the methodology is fully described. The absence of methods prevents any assessment of technical soundness and undermines confidence in the conclusions.
+  - **Resolution test** Include a complete methods section with all relevant parameters, software versions, and validation steps (e.g., system equilibration, convergence checks).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Contextual grounding
+  - **Claim pointer** The manuscript states that "N501Y variants reduce neutralization sensitivity to convalescent sera and monoclonal antibodies" and implies that enhanced infectivity is linked to binding affinity changes.
+  - **Evidence pointer** Location not provided; no citations or experimental comparisons are given
+  - **Concern** The relationship between neutralization escape and binding affinity to hACE2 is not straightforward. The manuscript does not discuss whether the computational predictions align with or contradict experimental measurements of binding affinity for N501Y.
+  - **Why it matters** Without contextualizing computational results against experimental data, the biological relevance of the predictions remains unclear. Enhanced infectivity may arise from factors other than RBD/hACE2 binding affinity.
+  - **Resolution test** Compare predicted binding affinity changes with published experimental values (e.g., surface plasmon resonance or biolayer interferometry data) and discuss any discrepancies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "computational aided binding profile prediction" is awkward and imprecise. The text does not specify what type of binding profile (e.g., affinity, kinetics, structural contacts) is being assessed.
+  - **Required correction** Rephrase to clearly state the specific computational methods used (e.g., "molecular dynamics simulations and binding free energy calculations") and the specific binding properties evaluated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of implications
+  - **Evidence pointer** Location not provided
+  - **Issue** The claim that "resulting structures could be used to develop drug inhibitors" is speculative and not substantiated by any discussion of druggable sites or comparison with known inhibitors.
+  - **Required correction** Either provide evidence for specific druggable pockets identified in the simulations or temper the claim to reflect that the structures may serve as a starting point for future studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Introduction
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement "It's urgent to figure out the driving force of the new mutant's enhanced infectivity" uses informal language and does not specify what "driving force" means mechanistically.
+  - **Required correction** Replace with a more precise statement, such as "Understanding the molecular mechanisms underlying enhanced infectivity is of urgent importance."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of any quantitative results and complete methodological details means the central claims cannot be evaluated. R1-M3 is non-blocking but should be addressed to strengthen the biological interpretation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question is timely but the approach is not novel; MD simulations of RBD/hACE2 interactions are well established. No novel methodological contribution is evident from the supplied material.  
+  - Scientific importance: High, given the public health relevance of the N501Y variant. However, importance alone does not establish scientific validity.  
+  - Interdisciplinary readership: The topic bridges virology, structural biology, and computational chemistry, which could appeal to a broad audience if properly presented.  
+  - Technical soundness: Cannot be assessed due to missing methods and results. This is a critical deficiency.  
+  - Readability for nonspecialists: The text is generally accessible but lacks the quantitative context that would make the findings meaningful to a broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revision to include full methods, quantitative results, and contextualization with experimental data before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that N501Y enhances infectivity via altered binding affinity to hACE2 is unsupported by any presented data.
+- The claim that MD simulation structures can be used for drug development is speculative and not substantiated.
+- The statement that N501Y reduces neutralization sensitivity is presented without citation or experimental comparison.
+- Any quantitative statement about binding affinity changes or structural differences is not assessable from the supplied material.

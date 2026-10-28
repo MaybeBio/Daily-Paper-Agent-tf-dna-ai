@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41145553",
+  "title": "Identification of key biomarkers associated with necroptosis and immune infiltration in hepatitis B virus-related acute-on-chronic liver failure.",
+  "authors": "Cao, Chuangjie; Luo, Dan; Xie, Xia; Dou, Chengyun",
+  "journal": "Scientific reports",
+  "published_date": "2025-10-28",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学与机器学习筛选乙肝相关慢加急性肝衰竭中坏死性凋亡相关生物标志物，虽涉及转录因子预测但非蛋白质-DNA互作核心，且无AI/物理模拟结合建模，与本课题关联微弱。",
+  "abstract": "Hepatitis B virus-related acute-on-chronic liver failure (ACHBLF) is a severe condition associated with short-term mortality without liver transplantation. Substantial evidence indicates that necroptosis and immune infiltration play critical roles in ACHBLF development. Therefore, the identification of necroptosis-related biomarkers may be beneficial for prognostic evaluations and may shed light on potential therapeutic targets for ACHBLF. In this study, we used integrated bioinformatics analysis and machine learning algorithms to investigate the correlation between necroptosis and immune infiltration using peripheral blood mononuclear cells from ACHBLF patients. First, after GSE168048 and GSE248217 were obtained from the Gene Expression Omnibus (GEO) database, differentially expressed genes (DEGs) between ACHBLF patients and normal controls were identified. With the help of the weighted gene coexpression network, 211 necroptosis-related DEGs were identified by intersecting the DEGs with necroptosis-related genes (NRGs). The functional characterization of these NRG-related DEGs was subsequently performed using GO, KEGG, and gene set enrichment analysis. Hub genes were identified through the integration of LASSO regression, support vector machines recursive feature elimination, and random forest. Immune-related functions were explored by analyzing the correlations between hub gene expression and immune cells infiltration. Furthermore, mRNA-miRNA-lncRNA interaction network, RNA-binding proteins (RBPs) and transcription factors were predicted using the miRDB, starBase and hTFtarget databases. Finally, target drugs were predicted using a connectivity map. A total of 7461 DEGs were identified between the ACHBLF and normal groups; 3123 genes were upregulated and 4338 genes were downregulated. A total of 211 NRG-related DEGs and 5 hub genes (FCRL3, CDC14A, KLHL22, RALY, and MAP4K1) were obtained. The hub genes were enriched in the T cell receptor signaling pathway, ubiquitin-mediated proteolysis, and the MAPK signaling pathway and were correlated with immune cell infiltration. A lncRNA XIST-miR-424-5p-CDC14A regulatory network was constructed, and 20RBPs and 2 transcription factors (GATA1 and CEBPB) were identified. In addition, 10 candidate drugs were predicted to target MAP4K1. The 5 hub genes could serve as biomarkers for predicting the prognosis of ACHBLF patients and provide clues for new potential therapeutic targets.",
+  "abstract_zh": "乙型肝炎病毒相关慢加急性肝衰竭（ACHBLF）是一种严重疾病，若无肝移植则与短期死亡率相关。大量证据表明，坏死性凋亡（necroptosis）和免疫浸润在ACHBLF的发生发展中起关键作用。因此，鉴定坏死性凋亡相关生物标志物可能有助于预后评估，并可能为ACHBLF的潜在治疗靶点提供线索。在本研究中，我们利用整合生物信息学分析和机器学习算法，使用ACHBLF患者的外周血单核细胞探讨坏死性凋亡与免疫浸润之间的相关性。首先，从基因表达综合数据库（GEO）获取GSE168048和GSE248217后，鉴定出ACHBLF患者与正常对照之间的差异表达基因（DEGs）。借助加权基因共表达网络，通过将DEGs与坏死性凋亡相关基因（NRGs）取交集，鉴定出211个坏死性凋亡相关DEGs。随后，利用GO、KEGG和基因集富集分析对这些NRG相关DEGs进行功能表征。通过整合LASSO回归、支持向量机递归特征消除和随机森林，鉴定出核心基因（hub genes）。通过分析核心基因表达与免疫细胞浸润之间的相关性，探讨了免疫相关功能。此外，利用miRDB、starBase和hTFtarget数据库预测了mRNA-miRNA-lncRNA相互作用网络、RNA结合蛋白（RBPs）和转录因子。最后，利用连接图谱（connectivity map）预测靶向药物。在ACHBLF组与正常组之间共鉴定出7461个DEGs；其中3123个基因上调，4338个基因下调。共获得211个NRG相关DEGs和5个核心基因（FCRL3、CDC14A、KLHL22、RALY和MAP4K1）。这些核心基因富集于T细胞受体信号通路、泛素介导的蛋白水解和MAPK信号通路，并与免疫细胞浸润相关。构建了lncRNA XIST-miR-424-5p-CDC14A调控网络，并鉴定出20个RBPs和2个转录因子（GATA1和CEBPB）。此外，预测了10种靶向MAP4K1的候选药物。这5个核心基因可作为预测ACHBLF患者预后的生物标志物，并为新的潜在治疗靶点提供线索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41145553/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41145553/",
+  "paper_page_path": "papers/pubmed/41145553/index.html"
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "38514806",
+    "doi": "10.1038/s42003-024-06017-8",
+    "title": "Endothelial gene regulatory elements associated with cardiopharyngeal lineage differentiation."
+  },
+  "content": {
+    "abstract": "Endothelial cells (EC) differentiate from multiple sources, including the cardiopharyngeal mesoderm, which gives rise also to cardiac and branchiomeric muscles. The enhancers activated during endothelial differentiation within the cardiopharyngeal mesoderm are not completely known. Here, we use a cardiogenic mesoderm differentiation model that activates an endothelial transcription program to identify endothelial regulatory elements activated in early cardiogenic mesoderm. Integrating chromatin remodeling and gene expression data with available single-cell RNA-seq data from mouse embryos, we identify 101 putative regulatory elements of EC genes. We then apply a machine-learning strategy, trained on validated enhancers, to predict enhancers. Using this computational assay, we determine that 50% of these sequences are likely enhancers, some of which are already reported. We also identify a smaller set of regulatory elements of well-known EC genes and validate them using genetic and epigenetic perturbation. Finally, we integrate multiple data sources and computational tools to search for transcriptional factor binding motifs. In conclusion, we show EC regulatory sequences with a high likelihood to be enhancers, and we validate a subset of them using computational and cell culture models. Motif analyses show that the core EC transcription factors GATA/ETS/FOS is a likely driver of EC regulation in cardiopharyngeal mesoderm.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Endothelial Cells/metabolism",
+      "*Enhancer Elements, Genetic",
+      "Gene Expression Regulation, Developmental",
+      "Transcription Factors/genetics/metabolism",
+      "Cell Differentiation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aurigemma, Ilaria",
+        "Lanzetta, Olga",
+        "Cirino, Andrea",
+        "Allegretti, Sara",
+        "Lania, Gabriella",
+        "Ferrentino, Rosa",
+        "Poondi Krishnan, Varsha",
+        "Angelini, Claudia",
+        "Illingworth, Elizabeth",
+        "Baldini, Antonio"
+      ],
+      "short_names": [
+        "Aurigemma I",
+        "Lanzetta O",
+        "Cirino A",
+        "Allegretti S",
+        "Lania G",
+        "Ferrentino R",
+        "Poondi Krishnan V",
+        "Angelini C",
+        "Illingworth E",
+        "Baldini A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5330-0256"
+      ],
+      "affiliations": [
+        "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy.",
+        "Department of Chemistry and Biology, University of Salerno, Via Giovanni Paolo II 132, 84084, Fisciano, Italy.",
+        "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy.",
+        "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "Istituto Applicazioni del Calcolo, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy.",
+        "Department of Chemistry and Biology, University of Salerno, Via Giovanni Paolo II 132, 84084, Fisciano, Italy.",
+        "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy. antonio.baldini@unina.it.",
+        "Department of Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy. antonio.baldini@unina.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aurigemma, Ilaria",
+        "short_name": "Aurigemma I",
+        "identifiers": [],
+        "affiliations": [
+          "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy.",
+          "Department of Chemistry and Biology, University of Salerno, Via Giovanni Paolo II 132, 84084, Fisciano, Italy."
+        ]
+      },
+      {
+        "full_name": "Lanzetta, Olga",
+        "short_name": "Lanzetta O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Cirino, Andrea",
+        "short_name": "Cirino A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Allegretti, Sara",
+        "short_name": "Allegretti S",
+        "identifiers": [],
+        "affiliations": [
+          "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Lania, Gabriella",
+        "short_name": "Lania G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferrentino, Rosa",
+        "short_name": "Ferrentino R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Poondi Krishnan, Varsha",
+        "short_name": "Poondi Krishnan V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Biophysics, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Angelini, Claudia",
+        "short_name": "Angelini C",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto Applicazioni del Calcolo, National Research Council, Via Pietro Castellino 111, 80131, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Illingworth, Elizabeth",
+        "short_name": "Illingworth E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biology, University of Salerno, Via Giovanni Paolo II 132, 84084, Fisciano, Italy."
+        ]
+      },
+      {
+        "full_name": "Baldini, Antonio",
+        "short_name": "Baldini A",
+        "identifiers": [
+          "0000-0002-5330-0256"
+        ],
+        "affiliations": [
+          "PhD program in Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy. antonio.baldini@unina.it.",
+          "Department of Molecular Medicine and Medical Biotechnology, University Federico II, Via Sergio Pansini 5, 80131, Naples, Italy. antonio.baldini@unina.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2024 Mar 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/22 06:45",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38602103",
+      "37119815",
+      "36198871",
+      "35085381",
+      "34968235",
+      "34798131",
+      "34789765",
+      "34081835",
+      "34048734",
+      "33760378",
+      "33176168",
+      "32665552",
+      "31682597",
+      "31470976",
+      "31066453",
+      "30940554",
+      "30892142",
+      "30783653",
+      "30348673",
+      "30188322",
+      "29371425",
+      "28348391",
+      "28334937",
+      "28121289",
+      "27955943",
+      "27079877",
+      "26901438",
+      "26353929",
+      "26214132",
+      "26184878",
+      "25903628",
+      "25765347",
+      "25697820",
+      "25516281",
+      "25296024",
+      "25150979",
+      "23950696",
+      "23104886",
+      "22981692",
+      "22401818",
+      "22388286",
+      "21808000",
+      "21295278",
+      "20808444",
+      "20513432",
+      "20224563",
+      "20110278",
+      "19910308",
+      "19505943",
+      "19217421",
+      "18832752",
+      "18798982",
+      "17962413",
+      "17610275",
+      "17259973",
+      "17053063",
+      "16141220",
+      "11784081",
+      "11783996",
+      "11702954",
+      "11688566",
+      "7592761"
+    ],
+    "similar": [
+      "38514806",
+      "23326246",
+      "39819837",
+      "33453264",
+      "31746740",
+      "34789765",
+      "22412381",
+      "25802403",
+      "21415370",
+      "25813539",
+      "21160473",
+      "25887857",
+      "15987774",
+      "34798131",
+      "30892142",
+      "25564442",
+      "11578861",
+      "32065070",
+      "31053165",
+      "15501228",
+      "32231307",
+      "34930411",
+      "22759862",
+      "29030344",
+      "25819888",
+      "31160712",
+      "29539636",
+      "38579708",
+      "32431014",
+      "28334937",
+      "9732552",
+      "33044128",
+      "37052590",
+      "23765923",
+      "9362473",
+      "22011226",
+      "8336726",
+      "34272393",
+      "29269485",
+      "26604129",
+      "39662466",
+      "24794633",
+      "35314737",
+      "27079877",
+      "35997250",
+      "29807547",
+      "25650801",
+      "28121289",
+      "29272704",
+      "18184728",
+      "34716243",
+      "34244796",
+      "30237317",
+      "23547170",
+      "27095295",
+      "27662874",
+      "10625556",
+      "9882489",
+      "19106099",
+      "36196867",
+      "30807574",
+      "21106759",
+      "23852450",
+      "23972280",
+      "7555708",
+      "14966269",
+      "33581335",
+      "34486522",
+      "27899510",
+      "34081835",
+      "23922708",
+      "22537144",
+      "39127768",
+      "32245974",
+      "35817961",
+      "27833659",
+      "9834187",
+      "39075623",
+      "38898031",
+      "37582793",
+      "30030774",
+      "25678556",
+      "29670286",
+      "28445475",
+      "29180618",
+      "32442411",
+      "19070576",
+      "29187214",
+      "9409684",
+      "34666684",
+      "33608506",
+      "20808444",
+      "16137232",
+      "37694817",
+      "24496624",
+      "9740330",
+      "9676198",
+      "23335233",
+      "32499402",
+      "32804082"
+    ],
+    "review": [
+      "38514806",
+      "34798131",
+      "25819888",
+      "25650801"
+    ],
+    "pmc": [
+      "10957928"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-024-06017-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38514806/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38514806",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38514806",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse235649",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

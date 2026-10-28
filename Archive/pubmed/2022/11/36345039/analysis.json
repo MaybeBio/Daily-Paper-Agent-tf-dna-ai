@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36345039",
+  "title": "Comprehensive transcriptional variability analysis reveals gene networks regulating seed oil content of Brassica napus.",
+  "authors": "Tan, Zengdong; Peng, Yan; Xiong, Yao; Xiong, Feng; Zhang, Yuting; Guo, Ning; Tu, Zhuo; Zong, Zhanxiang; Wu, Xiaokun; Ye, Jiang; Xia, Chunjiao; Zhu, Tao; Liu, Yinmeng; Lou, Hongxiang; Liu, Dongxu; Lu, Shaoping; Yao, Xuan; Liu, Kede; Snowdon, Rod J; Golicz, Agnieszka A; Xie, Weibo; Guo, Liang; Zhao, Hu",
+  "journal": "Genome biology",
+  "published_date": "2022-11-09",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过eQTL和ATAC-seq分析甘蓝型油菜种子含油量调控网络，并用XGBoost和Basenji模型预测转录因子NAC13和SCL31的作用，虽涉及TF-DNA调控但以基因组变异和表达调控为主，缺乏直接的三维互作建模。",
+  "abstract": "BACKGROUND: Regulation of gene expression plays an essential role in controlling the phenotypes of plants. Brassica napus (B. napus) is an important source for the vegetable oil in the world, and the seed oil content is an important trait of B. napus. RESULTS: We perform a comprehensive analysis of the transcriptional variability in the seeds of B. napus at two developmental stages, 20 and 40 days after flowering (DAF). We detect 53,759 and 53,550 independent expression quantitative trait loci (eQTLs) for 79,605 and 76,713 expressed genes at 20 and 40 DAF, respectively. Among them, the local eQTLs are mapped to the adjacent genes more frequently. The adjacent gene pairs are regulated by local eQTLs with the same open chromatin state and show a stronger mode of expression piggybacking. Inter-subgenomic analysis indicates that there is a feedback regulation for the homoeologous gene pairs to maintain partial expression dosage. We also identify 141 eQTL hotspots and find that hotspot87-88 co-localizes with a QTL for the seed oil content. To further resolve the regulatory network of this eQTL hotspot, we construct the XGBoost model using 856 RNA-seq datasets and the Basenji model using 59 ATAC-seq datasets. Using these two models, we predict the mechanisms affecting the seed oil content regulated by hotspot87-88 and experimentally validate that the transcription factors, NAC13 and SCL31, positively regulate the seed oil content. CONCLUSIONS: We comprehensively characterize the gene regulatory features in the seeds of B. napus and reveal the gene networks regulating the seed oil content of B. napus.",
+  "abstract_zh": "背景：基因表达调控在控制植物表型中发挥重要作用。甘蓝型油菜（B. napus）是全球植物油的重要来源，种子含油量是甘蓝型油菜的重要农艺性状。结果：我们对甘蓝型油菜种子在开花后20天和40天两个发育阶段的转录变异进行了全面分析。在20和40 DAF时，我们分别检测到79,605和76,713个表达基因的53,759和53,550个独立表达数量性状位点（eQTLs）。其中，局部eQTLs更频繁地映射到邻近基因。受局部eQTLs调控的邻近基因对具有相同的开放染色质状态，并表现出更强的表达搭便车模式。亚基因组间分析表明，同源基因对之间存在反馈调控以维持部分表达剂量。我们还鉴定了141个eQTL热点，并发现热点87-88与种子含油量的一个QTL共定位。为进一步解析该eQTL热点的调控网络，我们使用856个RNA-seq数据集构建了XGBoost模型，并使用59个ATAC-seq数据集构建了Basenji模型。利用这两个模型，我们预测了热点87-88调控种子含油量的机制，并通过实验验证转录因子NAC13和SCL31正向调控种子含油量。结论：我们全面表征了甘蓝型油菜种子中的基因调控特征，并揭示了调控甘蓝型油菜种子含油量的基因网络。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36345039/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36345039/",
+  "paper_page_path": "papers/pubmed/36345039/index.html"
+}

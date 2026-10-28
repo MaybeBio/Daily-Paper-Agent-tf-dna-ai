@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the user. No figures, tables, or supplementary materials were available for inspection.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims as presented in the supplied text. No external validation of the simulation data, force field parameters, or structural models was performed.
+- **Shared manuscript claim summary** The authors claim that the intrinsically disordered C-terminal domain (CTD) of p53 allosterically regulates the DNA-binding domain (DBD) by stabilizing DBD-DNA interactions and modulating an internal allosteric network, as revealed by microsecond-scale molecular dynamics simulations, dynamic cross-correlation analysis, and binding free energy calculations.
+- **Visible evidence base** Text descriptions of results, including RMSD, Rg, RMSF, contact maps, DCC maps, free energy landscapes, and MM-GBSA binding free energies. References to figures (Figures 1–9, S1–S11) and tables (Tables 1, S1–S4) are made, but the actual figures and tables were not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the structural models, free energy landscapes, DCC maps, contact maps, and per-residue energy decomposition data. Without these, quantitative verification of the claims is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the role of intrinsically disordered regions in allosteric regulation, using p53 as a model system. The methodological approach, combining unbiased MD simulations with free energy and correlation analyses, is appropriate and potentially valuable. However, the current evidence base, as presented in text only, is insufficient to fully substantiate the central claims. The lack of access to figures and tables severely limits the ability to assess the quality of the data and the validity of the conclusions. The manuscript would benefit from clearer presentation of the simulation validation, statistical analysis, and a more critical discussion of the limitations of the methods employed.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, structural biology, and cancer biology would be interested. Specifically, those studying p53 function, intrinsically disordered proteins, and allosteric regulation would find the proposed two-step mechanism of DNA binding and CTD-mediated stabilization of potential interest. The work may also inform drug discovery efforts targeting p53.
+- **Major strengths** The study addresses a significant biological question with a state-of-the-art computational approach. The use of microsecond-scale simulations is appropriate for capturing conformational dynamics. The integration of multiple analytical techniques (DCC, FEG, MM-GBSA) provides a multi-faceted view of the system. The authors also attempt to validate their findings with in silico mutagenesis, which is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that the CTD enhances the allosteric regulatory mechanisms and stabilizes DBD-DNA interactions, leading to a more compact DBD conformation.
+  - **Evidence pointer** Figures 2–7, Tables S1–S4. Location not provided.
+  - **Concern** The central claims are based on data presented in figures and tables that were not provided for review. Without access to the actual free energy landscapes, DCC maps, contact maps, and binding free energy values, it is impossible to verify the magnitude of the reported effects, the statistical significance of the differences between systems, or the structural interpretation of the conformational changes. For example, the claim that the S6-S7 loop transitions to a "closed state" is not verifiable without the FEL plots.
+  - **Why it matters** The validity of the entire mechanistic model rests on the quantitative and qualitative data presented in these figures. The inability to inspect this data prevents an assessment of whether the conclusions are supported by the evidence.
+  - **Resolution test** The authors must provide the figures and tables, along with a clear description of the statistical analysis (e.g., error bars, number of independent simulations, convergence criteria) to allow for a thorough evaluation of the results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor and validation
+  - **Claim pointer** The authors state that the p53ALL structure was predicted using AlphaFold3 and that the zinc finger was built using Chimera. They also state that the CTD ultimately binds to DNA in all simulations.
+  - **Evidence pointer** Section 4.1, Figure S1, Figure S11. Location not provided.
+  - **Concern** The manuscript lacks a critical assessment of the structural models used. The initial conformation of the intrinsically disordered CTD, as predicted by AlphaFold3, is likely to be a major source of uncertainty. The authors do not discuss how the choice of the initial CTD conformation might bias the simulation results. Furthermore, the statement that the CTD "ultimately binds to DNA in all cases" is presented without quantitative details, such as the time to binding, the stability of the bound state, or the specific residues involved. The validation of the predicted p53 structure is mentioned but not detailed.
+  - **Why it matters** The conclusions about the CTD's role are dependent on the reliability of the starting structure and the reproducibility of the binding event. Without a robust validation of the model and a detailed analysis of the binding process, the claims are not fully supported.
+  - **Resolution test** The authors should provide a detailed analysis of the structural models, including a comparison of the predicted DBD structure with the experimental crystal structure (RMSD). They should also provide a quantitative analysis of the CTD-DNA binding, such as the time evolution of the distance between the CTD and DNA, and a discussion of the potential biases introduced by the initial model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overstatement of results
+  - **Claim pointer** The authors conclude that the CTD "regulates the allosteric network... to promote the binding of DBD to DNA" and that this mechanism "will provide new insights into the functional mechanisms of the p53 CTD and inform the rational design of p53-targeted drugs."
+  - **Evidence pointer** Sections 2.3, 3, and 5. Location not provided.
+  - **Concern** The interpretation of the simulation data is presented in a very definitive manner. While the simulations suggest a potential mechanism, the authors do not adequately discuss the limitations of using a single, unbiased MD simulation approach to capture a rare binding event. The claim that the findings can "inform the rational design of p53-targeted drugs" is an overstatement, as the study does not identify specific druggable sites or test any potential drug candidates. The link between the observed conformational changes and the functional outcome (e.g., transcriptional activity) is speculative.
+  - **Why it matters** Overinterpretation of computational results can mislead the field and overstate the significance of the findings. A more cautious and nuanced discussion of the implications would be more appropriate.
+  - **Resolution test** The authors should temper their conclusions, clearly stating that the proposed mechanism is a hypothesis based on computational evidence that requires experimental validation. The discussion on drug design should be framed as a potential future direction, not a direct outcome of this work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Section 4.1, Simulation Protocols
+  - **Evidence pointer** Location not provided.
+  - **Issue** The description of the simulation setup is incomplete. The authors do not specify the number of independent simulations performed for each system, the total simulation time per replicate, or the criteria used to assess convergence. The statement "We performed two independent, unbiased molecular dynamics (MD) simulations for each system, with each simulation generating 1 μs of trajectory" is clear, but the analysis of convergence is not described.
+  - **Required correction** Please add a description of how convergence was assessed (e.g., block averaging, RMSD stabilization) and provide details on the number of replicates used for the mutant simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Section 2.2, Figure 5
+  - **Evidence pointer** Location not provided.
+  - **Issue** The text states that the coordination number increases from "around 25 (p53DBD-DNA) to 80 (p53ALL-DNA)". It is unclear if this is a single value or an average over time. The units and the method of calculation should be clarified.
+  - **Required correction** Clarify whether the coordination number is a time-averaged value and specify the standard deviation or error associated with it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Location not provided.
+  - **Issue** The introduction mentions previous studies on p53 DBD allostery but does not cite specific works on the role of the CTD in DNA binding, beyond a general reference. A more focused review of the experimental evidence for CTD-DNA interactions would strengthen the rationale.
+  - **Required correction** Add specific citations to experimental studies that have directly investigated the CTD's role in DNA binding and p53 function.
+
+## Risk / unsupported claims
+- The claim that the CTD "enhances the allosteric regulatory mechanisms" is not supported by the provided text alone, as the key data (FELs, DCC maps) are not visible.
+- The claim that the DBD adopts a "more compact conformation" upon DNA binding is not verifiable without the Rg data and FEL plots.
+- The claim that the identified allosteric network "likely pre-organize or create interfaces that facilitate the recruitment of transcriptional co-activators" is speculative and not directly supported by the simulation data.
+- The claim that the findings "inform the rational design of p53-targeted drugs" is an overstatement, as no drug design or testing was performed.
+- The robustness of the predicted p53 structure is mentioned but not adequately demonstrated with quantitative data.

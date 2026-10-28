@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that PlzA, a PilZ domain-containing protein in Borrelia burgdorferi, binds DNA and RNA in a c-di-GMP dependent manner, with affinity increasing with c-di-GMP concentration. A c-di-GMP binding deficient mutant does not bind nucleic acids. PlzA interacts predominantly with the DNA major groove, and binding affinity is influenced by sequence length and G-C content. Domain dissection shows the N-terminal domain binds nucleic acids independently of c-di-GMP, while the C-terminal domain does not bind under tested conditions. Computational docking predicts c-di-GMP binding stabilizes the protein and facilitates N-terminal domain mediated DNA interactions. The authors propose that c-di-GMP levels during the enzootic life cycle direct PlzA binding to regulatory targets.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, supplementary data, computational docking details, and raw binding assay results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding PlzA function, specifically identifying a novel nucleic acid binding activity and a mechanistic link to c-di-GMP. However, the evidence base is limited to the abstract, and several claims require detailed experimental validation that cannot be assessed from the provided material. The work is likely of interest to the Lyme disease and bacterial signaling communities, but the strength of the conclusions cannot be fully evaluated without access to the full data.
+- **Who would be interested in the results, and why** Researchers studying cyclic di-GMP signaling in bacteria, particularly spirochetes; investigators focused on Borrelia burgdorferi pathogenesis and enzootic life cycle regulation; and those interested in PilZ domain protein functions beyond canonical cellulose synthase or flagellar motor interactions. The proposed regulatory model may also attract scientists studying post-transcriptional or transcriptional control in bacteria.
+- **Major strengths** The identification of a c-di-GMP dependent nucleic acid binding function for PlzA is novel and mechanistically plausible. The use of a c-di-GMP binding deficient mutant provides a clear control. The domain dissection approach is logical and informative. The integration of computational docking with experimental data strengthens the proposed model.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "PlzA can bind DNA and RNA and that nucleic acid binding requires c-di-GMP, with the affinity of PlzA for nucleic acids increasing as concentrations of c-di-GMP were increased"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that nucleic acid binding requires c-di-GMP and that affinity increases with c-di-GMP concentration, but no quantitative binding data, such as dissociation constants, binding curves, or statistical comparisons, are presented. The claim of "requires" is strong and implies an absolute dependence, yet the abstract does not specify the range of c-di-GMP concentrations tested or the magnitude of affinity changes.  
+  - **Why it matters** Without quantitative binding parameters and appropriate controls, the reader cannot assess whether the effect is specific, saturable, or physiologically relevant. The claim of absolute requirement is central to the proposed model and must be rigorously supported.  
+  - **Resolution test** Provide binding affinity measurements (e.g., Kd values) for PlzA with and without c-di-GMP across a concentration range, including statistical analysis and negative controls (e.g., unrelated proteins or nucleic acids). Demonstrate that no binding occurs in the absence of c-di-GMP under all tested conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** "PlzA interacts predominantly with the major groove of DNA and that sequence length and G-C content play a role in DNA binding affinity"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims major groove interaction and sequence dependence, but no experimental methods (e.g., footprinting, mutagenesis, or competition assays) or data are described. The basis for "predominantly" is unclear, and the relative contributions of sequence length versus G-C content are not quantified.  
+  - **Why it matters** These claims define the molecular basis of DNA recognition and are essential for understanding target specificity. Without supporting data, the conclusions are speculative and cannot be distinguished from non-specific electrostatic interactions.  
+  - **Resolution test** Present experimental evidence for major groove binding (e.g., major versus minor groove binding assays, base modification interference) and systematic variation of sequence length and G-C content with quantitative binding measurements.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** "Our data are supported by computational docking, which predicts that c-di-GMP binding at the C-terminal domain stabilizes the overall protein structure and facilitates PlzA-DNA interactions via residues in the N-terminal domain"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The computational docking results are mentioned as supporting data, but no details on the docking methodology, scoring functions, or validation are provided. The claim that c-di-GMP binding "stabilizes" the protein and "facilitates" DNA interactions is a prediction, not a direct experimental observation.  
+  - **Why it matters** Computational predictions are only as strong as their experimental validation. The abstract does not clarify whether the docking predictions were tested experimentally, such as through mutagenesis of predicted N-terminal residues or structural studies.  
+  - **Resolution test** Provide docking parameters and validation, and include experimental mutagenesis of predicted interaction residues to confirm their role in DNA binding. If structural data exist, present them.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological relevance  
+  - **Claim pointer** "levels of c-di-GMP during the various stages of the enzootic life cycle direct PlzA binding to regulatory targets"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The proposed model linking c-di-GMP levels to PlzA function in the enzootic life cycle is presented as a conclusion, but no in vivo or ex vivo data are provided to support this. The abstract does not describe any experiments in Borrelia burgdorferi or in tick or mammalian host contexts.  
+  - **Why it matters** The physiological relevance of the in vitro findings is a key aspect of the study's significance. Without evidence that c-di-GMP levels vary in a manner that affects PlzA binding in vivo, the model remains speculative.  
+  - **Resolution test** Provide data on c-di-GMP levels at different life cycle stages or conditions, and demonstrate that PlzA binding to identified targets correlates with these levels in cells.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "PlzA is a dual-domain protein with a PilZ-like N-terminal domain linked to a canonical C-terminal PilZ domain"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "PilZ-like" for the N-terminal domain is vague and could be misinterpreted. It is unclear whether this domain shares structural homology with canonical PilZ domains or has a distinct fold.  
+  - **Required correction** Clarify the structural relationship of the N-terminal domain to known PilZ domains, and specify the basis for the "PilZ-like" designation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** "The C-terminal domain, which includes the c-di-GMP binding motifs, did not bind nucleic acids under any tested conditions"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify which conditions were tested for the C-terminal domain, such as the range of c-di-GMP concentrations or nucleic acid substrates used.  
+  - **Required correction** List the conditions tested for the C-terminal domain binding assays to allow assessment of the negative result.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "regulatory targets"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "regulatory targets" is used without specifying whether these are DNA, RNA, or both, and whether any specific targets were identified.  
+  - **Required correction** Define what constitutes a regulatory target in this context and indicate whether specific targets were identified or if this is a general proposal.
+
+## Risk / unsupported claims
+- The claim that PlzA binding "requires" c-di-GMP is unsupported without quantitative data and negative controls.
+- The claim of major groove interaction and sequence length and G-C content effects is unsupported without experimental methods and data.
+- The computational docking predictions are presented as supportive but are not validated experimentally in the abstract.
+- The proposed model of c-di-GMP levels directing PlzA binding during the enzootic life cycle is speculative and not supported by in vivo data.
+- The statement that PlzA is "the only known cyclic di-GMP binding protein encoded by all Lyme disease spirochetes" is a factual claim that cannot be verified from the abstract alone.

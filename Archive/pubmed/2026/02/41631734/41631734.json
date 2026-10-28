@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41631734",
+    "doi": "10.1002/advs.202516213",
+    "title": "Engineering Compact Base Editors by AlphaFold-Guided Mutation Scan and Escherichia coli-Based Tri-Selection."
+  },
+  "content": {
+    "abstract": "APOBEC1-based cytosine base editors such as BE4max enable base conversion, but many alternative deaminases show low activity and cytotoxicity, especially when miniaturized for delivery. SsdA(tox), a DNA deaminase toxin from Pseudomonas syringae that is two-thirds the size of APOBEC1, is attractive for compact base editors but, in native form, shows low C-to-T editing efficiency and high cytotoxicity. Guided by an AlphaFold- and CASTpFold-based alanine scan, we identified K31 as a gatekeeping residue whose substitution enlarges the modeled DNA binding pocket. Site-saturation mutagenesis at K31 produced variants with ten-fold higher activity but increased indel formation. To further enhance activity while reducing indels and cytotoxicity, we developed Trinity-Screen, an Escherichia coli (E. coli)-based three-in-one directed evolution platform that selects for high activity and reduced double-strand break-associated indels. Trinity-Screen revealed four additional DNA-binding positions; combinatorial mutagenesis at these sites generated four- and five-site SsdA(tox) variants that retained high activity yet showed lower indel rates and rescued bacterial viability. To standardize comparisons, we defined the Base Editor Performance Index (BEPI), which integrates C-to-T conversion and indel frequency. Optimized SsdA(tox) variants achieved up to 31-fold improvement relative to wild type, outperforming BE4max at multiple endogenous targets and displaying ten-fold lower cytotoxicity in E. coli.",
+    "keywords": [
+      "SsdAtox",
+      "base editing",
+      "cytidine deaminase",
+      "directed evolution",
+      "gene therapy",
+      "precision genome editing",
+      "single-stranded DNA targeting",
+      "structure-guided protein engineering"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/genetics",
+      "*Gene Editing/methods",
+      "Directed Molecular Evolution/methods",
+      "Mutation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gang Son, Ryeo",
+        "Kim, Goeun",
+        "Lee, Jungjoon K"
+      ],
+      "short_names": [
+        "Gang Son R",
+        "Kim G",
+        "Lee JK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6798-1363"
+      ],
+      "affiliations": [
+        "Synthetic Biology for Clinical and Technological Innovation (SynCTI), Synthetic Biology Translational Research Programme and Department of Biochemistry, National University of Singapore, Singapore, Singapore.",
+        "Toolgen, Seoul, South Korea.",
+        "Toolgen, Seoul, South Korea.",
+        "Synthetic Biology for Clinical and Technological Innovation (SynCTI), Synthetic Biology Translational Research Programme and Department of Biochemistry, National University of Singapore, Singapore, Singapore.",
+        "National Centre for Engineering Biology (NCEB), Singapore, Singapore.",
+        "Toolgen, Seoul, South Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gang Son, Ryeo",
+        "short_name": "Gang Son R",
+        "identifiers": [],
+        "affiliations": [
+          "Synthetic Biology for Clinical and Technological Innovation (SynCTI), Synthetic Biology Translational Research Programme and Department of Biochemistry, National University of Singapore, Singapore, Singapore.",
+          "Toolgen, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Goeun",
+        "short_name": "Kim G",
+        "identifiers": [],
+        "affiliations": [
+          "Toolgen, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jungjoon K",
+        "short_name": "Lee JK",
+        "identifiers": [
+          "0000-0002-6798-1363"
+        ],
+        "affiliations": [
+          "Synthetic Biology for Clinical and Technological Innovation (SynCTI), Synthetic Biology Translational Research Programme and Department of Biochemistry, National University of Singapore, Singapore, Singapore.",
+          "National Centre for Engineering Biology (NCEB), Singapore, Singapore.",
+          "Toolgen, Seoul, South Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 15:00",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [
+      "42646487"
+    ],
+    "refs": [
+      "41044082",
+      "40781772",
+      "40715235",
+      "40258958",
+      "39901278",
+      "39496933",
+      "39289397",
+      "39284833",
+      "38907110",
+      "38783102",
+      "38718835",
+      "38181745",
+      "38109487",
+      "37917583",
+      "37624265",
+      "37379837",
+      "37188916",
+      "37018843",
+      "36894722",
+      "36797253",
+      "36702845",
+      "36702837",
+      "36639728",
+      "36624149",
+      "36581624",
+      "36357719",
+      "36357717",
+      "36229683",
+      "35976160",
+      "35941130",
+      "35046575",
+      "34764246",
+      "34732717",
+      "34668287",
+      "34211162",
+      "33863894",
+      "33448264",
+      "33048459",
+      "32641830",
+      "32572269",
+      "32514125",
+      "32433547",
+      "32424272",
+      "32284586",
+      "32042165",
+      "31548727",
+      "31477922",
+      "30995674",
+      "30622278",
+      "30587106",
+      "30323312",
+      "30082838",
+      "30059493",
+      "29813047",
+      "29431739",
+      "29160308",
+      "28931002",
+      "28849781",
+      "28585549",
+      "27492474",
+      "27096365",
+      "26735016",
+      "26628643",
+      "25513782",
+      "25243907",
+      "23656371",
+      "22935759",
+      "20140968",
+      "20056657",
+      "16524897",
+      "15209514",
+      "12954215",
+      "12888518",
+      "11404468"
+    ],
+    "similar": [
+      "41631734",
+      "40781772",
+      "41250247",
+      "31181567",
+      "31332326",
+      "36374037",
+      "36625577",
+      "39031643",
+      "38168994",
+      "42178964",
+      "40121078",
+      "39428086",
+      "32690971",
+      "36357717",
+      "40624252",
+      "31433621",
+      "41846215",
+      "30683865",
+      "35608343",
+      "42258531",
+      "38402281",
+      "32690970",
+      "39289397",
+      "29258982",
+      "32042165",
+      "31959743",
+      "28875174",
+      "27096365",
+      "37164010",
+      "32393889",
+      "38851742",
+      "35163069",
+      "28398345",
+      "42033211",
+      "31477922",
+      "42475680",
+      "33170255",
+      "31071267",
+      "40613705",
+      "31086823",
+      "32181363",
+      "29403014",
+      "30995674",
+      "40278504",
+      "33879582",
+      "29555822",
+      "39901278",
+      "32641830",
+      "38360922",
+      "30593278",
+      "38874784",
+      "7782343",
+      "40883747",
+      "34797942",
+      "31872379",
+      "36357719",
+      "30137492",
+      "42487445",
+      "30069054",
+      "39950393",
+      "40518666",
+      "11470870",
+      "32005820",
+      "34663942",
+      "21729945",
+      "31765564",
+      "39284833",
+      "34042262",
+      "31134125",
+      "37434066",
+      "31767844",
+      "42304391",
+      "33602235",
+      "35373735",
+      "38261989",
+      "41888883",
+      "36240636",
+      "39556313",
+      "40685751",
+      "36624149",
+      "42573069",
+      "34509669",
+      "37984866",
+      "36418298",
+      "28191901",
+      "28585179",
+      "33421132",
+      "28751571",
+      "33272268",
+      "33462442",
+      "36592306",
+      "37997697",
+      "35544322",
+      "38679734",
+      "39585742",
+      "32978399",
+      "40145755",
+      "32551562",
+      "32327447",
+      "36800529"
+    ],
+    "review": [
+      "41631734",
+      "31433621",
+      "42033211",
+      "33170255",
+      "37434066"
+    ],
+    "pmc": [
+      "13067763"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41631734/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusions, and figure/table captions as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported claims. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report the synthesis and characterization of five copper(I) complexes of the type [CuBr(PPh3)(dppz-R)] with varying functional groups on the dppz ligand. They claim that the functional groups modulate DNA-binding modes and affinities, as assessed by UV-vis titration, ethidium bromide fluorescence quenching, and viscometry, and that molecular docking supports these findings. They further claim that the complexes show anticancer activity against M-14 and MCF-7 cell lines, with the cyano-substituted complex (Cu-3) showing the best activity.
+- **Visible evidence base** Full text with methods, results, discussion, and conclusions. Figures and tables are referenced but not fully visible in the provided material. Supplementary figures are mentioned but not provided.
+- **Missing materials affecting confidence** Actual figures and tables (Figures 1–9, Scheme 1, Tables 1–3) are not visible. Supplementary data (Figures S1–S12) are not provided. Raw data for DNA-binding titrations, fluorescence quenching curves, viscosity plots, and cytotoxicity dose-response curves are not available. Crystallographic data for Cu-1 are deposited but not included.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic study of functionalized dppz ligands in copper(I) complexes and their effect on DNA-binding and cytotoxicity. The synthetic work appears sound, and the characterization data are consistent with the proposed structures. However, the quantitative claims regarding DNA-binding affinities and the mechanistic interpretation of the viscosity and fluorescence data are not fully supported by the visible evidence. The cytotoxicity data are presented only as IC50 values without statistical detail or replicate information. The molecular docking section is descriptive and lacks quantitative scoring comparisons. The manuscript would benefit from clearer presentation of the data and more rigorous quantitative analysis.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, medicinal inorganic chemistry, and anticancer drug development would be interested. The study addresses structure-activity relationships in copper(I) complexes with intercalating ligands, which is relevant to the design of metal-based anticancer agents. The comparative analysis of functional group effects on DNA-binding and cytotoxicity is of general interest to this community.
+- **Major strengths** The synthesis of a series of five related complexes with systematic variation of the dppz ligand is a logical and useful approach. The use of multiple complementary techniques for DNA-binding assessment (absorption, fluorescence, viscometry) is appropriate. The inclusion of molecular docking to support experimental findings is a positive addition. The comparison of cytotoxicity across the series and against cisplatin provides a practical benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data support
+  - **Claim pointer** The manuscript reports intrinsic binding constants (Kb) for the complexes binding to CT-DNA, and these values are used to compare binding strengths across the series.
+  - **Evidence pointer** Section 3.4, Table 2 (not visible)
+  - **Concern** The Kb values are stated to be calculated from Equation (1), but the actual values are not presented in the visible text. The discussion refers to relative binding strengths (e.g., "Cu-2 and Cu-1 have similar strengths", "Cu-3 and Cu-4 exhibit only 20% of the binding strength") without providing the numerical data. Without the actual Kb values and their associated errors, the quantitative comparisons cannot be assessed.
+  - **Why it matters** The central claim of the paper is that functional groups modulate DNA-binding affinity. This claim rests entirely on the Kb values, which are not visible. The reader cannot verify the magnitude of the differences or their statistical significance.
+  - **Resolution test** Provide the Kb values with standard deviations or confidence intervals for all five complexes, and state the number of independent replicates. If possible, include representative titration curves in the main text or supplementary material.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The manuscript claims that viscosity measurements indicate different binding modes for the complexes, including intercalation, partial intercalation, and groove binding.
+  - **Evidence pointer** Section 3.4, Figure 7 (not visible)
+  - **Concern** The interpretation of the viscosity data is qualitative and based on visual inspection of the plot. The text states "we can assume Cu-1 has at least a similar intercalating ability" and "Cu-3 has better intercalation ability than that exhibited by Cu-2 and/or weaker partial intercalation". These statements are speculative and not supported by quantitative analysis. The viscosity data are not compared to a positive control (e.g., ethidium bromide) in a quantitative manner.
+  - **Why it matters** The binding mode is a key mechanistic claim. Without quantitative analysis of the viscosity data, the conclusions about intercalation versus partial intercalation versus groove binding are not robust.
+  - **Resolution test** Present the viscosity data as a plot of (η/η0)^(1/3) versus [complex]/[DNA] for all complexes and ethidium bromide, and provide a quantitative metric (e.g., slope or binding length) to support the classification of binding modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cytotoxicity data rigor
+  - **Claim pointer** The manuscript reports IC50 values for the five complexes against M-14 and MCF-7 cell lines, and claims that Cu-3 has the best anticancer activity.
+  - **Evidence pointer** Section 3.6, Table 3 (not visible)
+  - **Concern** The IC50 values are mentioned but not shown in the visible text. No information is provided on the number of replicates, standard deviations, or statistical analysis. The claim that Cu-3 is the most active is based on a comparison that cannot be evaluated. Additionally, the text states that "the trend among the complexes in anticancer properties is following the same trend in the increase in quenching constant", but this correlation is not quantified.
+  - **Why it matters** The anticancer activity is a major claim of the paper. Without proper statistical reporting, the reader cannot determine whether the differences between complexes are significant or within experimental error.
+  - **Resolution test** Provide the IC50 values with standard deviations and the number of independent experiments. Perform and report a statistical test (e.g., ANOVA or t-test) to support the claim that Cu-3 is significantly more active than the others.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Docking methodology and reporting
+  - **Claim pointer** The manuscript claims that molecular docking supports the DNA-binding studies, with binding sites and modes changing with the functional groups.
+  - **Evidence pointer** Section 3.5, Figures 8 and 9 (not visible)
+  - **Concern** The docking section is descriptive. No docking scores, binding energies, or quantitative comparisons are provided. The text states that "complexes Cu-1, Cu-2, and Cu-3 favor side intercalative interactions between the G-C nucleobase pairs" but does not provide the scoring data that led to this conclusion. The methodology section does not specify the docking parameters, scoring function details, or how the best poses were selected beyond "lowest RMSD value".
+  - **Why it matters** Docking is used as supporting evidence for the experimental findings. Without quantitative docking results, the support is weak and the reader cannot assess the reliability of the docking predictions.
+  - **Resolution test** Provide docking scores (e.g., binding free energies) for all complexes and the reference ligand, and describe the scoring function and validation approach. Include a table of the top poses with their scores and interacting residues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of synthesis yields
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The text states that complexes were obtained in "moderate to good yields" but no specific yields are given for each complex.
+  - **Required correction** Provide the isolated yields for each complex in the synthesis section or in a table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Stability claim
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The text states that the complexes are stable in DMSO and acetonitrile solutions "over days" but no data are shown to support this claim.
+  - **Required correction** Provide UV-vis spectra or other evidence showing stability over time, or soften the claim to match the available data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Fluorescence quenching interpretation
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4, location not provided
+  - **Issue** The text correctly notes that the fluorescence quenching assay does not provide conclusive information on binding mode, but the discussion of the KSV values could be clearer about what the values do and do not indicate.
+  - **Required correction** Clarify that KSV values reflect the overall affinity of the complex for the EtBr-DNA adduct and do not distinguish between binding modes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Correlation claim
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, location not provided
+  - **Issue** The conclusion states that the trend in anticancer properties follows the trend in quenching constants, but this correlation is not quantified or shown graphically.
+  - **Required correction** Provide a plot of IC50 versus KSV or a correlation coefficient to support this claim.
+- **Technical failings that need to be addressed before the case is established** The quantitative data underlying the key claims (Kb values, IC50 values, viscosity data, docking scores) are not visible in the provided material. Without these data, the central claims of the manuscript cannot be verified. The statistical treatment of the cytotoxicity data is absent. The docking methodology lacks sufficient detail for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is a systematic extension of prior work by the same group, varying functional groups on a known ligand scaffold. The approach is not conceptually novel but provides useful structure-activity data.
+  - **Scientific importance** The findings are of moderate importance to the field of copper-based anticancer agents. The identification of the cyano group as enhancing activity is potentially useful but requires mechanistic follow-up.
+  - **Interdisciplinary readership** The work bridges coordination chemistry, bioinorganic chemistry, and cancer biology. It would appeal to a specialized audience rather than a broad interdisciplinary one.
+  - **Technical soundness** The synthetic and characterization work appears sound. However, the quantitative analysis of DNA-binding and cytotoxicity data is incomplete, and the docking study lacks rigor. These issues undermine the technical soundness of the conclusions.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the discussion of DNA-binding modes and the significance of the functional group effects would benefit from clearer explanation for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the key quantitative data are not visible, and the statistical and docking analyses are insufficient. The authors should be invited to provide the missing data and address the concerns raised.
+
+## Risk / unsupported claims
+- The claim that functional groups affect binding modes and strengths is unsupported without the actual Kb values and viscosity data.
+- The claim that Cu-3 has the best anticancer activity is unsupported without the IC50 values and statistical analysis.
+- The claim that molecular docking supports the experimental findings is unsupported without quantitative docking scores.
+- The claim that the trend in anticancer activity follows the trend in quenching constants is unsupported without a quantified correlation.
+- The claim that the complexes are stable in solution over days is unsupported without data.

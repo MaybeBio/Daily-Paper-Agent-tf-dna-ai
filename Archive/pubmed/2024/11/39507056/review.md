@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and alignment with claims made in the abstract and conclusion. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors propose that calcium acts as a physiological ligand for estrogen-related receptor γ (ERRγ), mediating glucagon effects on gluconeogenic gene expression, and that cadmium, as a calcium mimetic, disrupts metabolism through ERRγ. They support this with cell-based assays, mutational analysis, and molecular dynamics simulations.
+- **Visible evidence base** Results sections describing qPCR, Western blot, ChIP, immunofluorescence, reporter assays, GSEA, and molecular dynamics simulations. Figures 1–7 and Supplementary Figures 1–4 are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figure images, numerical data with error bars and statistical outputs, ChIP primer sequences, GSEA enrichment scores and FDR values, molecular dynamics simulation parameters and trajectories, and complete methods for transfection and mutagenesis validation. The manuscript text alone does not allow independent verification of effect sizes or statistical robustness.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: whether calcium and cadmium can act as ligands for ERRγ, a nuclear receptor previously considered orphan. The experimental design is logical and the use of multiple cell lines and assays is commendable. However, the evidence presented is largely correlative and indirect. The claim that calcium is a physiological ligand of ERRγ is not established by the data shown. The functional assays demonstrate that calcium and cadmium can influence ERRγ target gene expression and promoter recruitment, but direct binding of calcium to ERRγ is not demonstrated. The mutational and simulation data are suggestive but not conclusive. The manuscript would benefit from direct binding assays, dose-response analyses, and a clearer demonstration of specificity. The inconsistent effects of the antagonist on G6C expression and the lack of effect on SLC2A2 in some conditions raise concerns about the specificity of the proposed mechanism. Overall, the work is a reasonable starting point but requires substantial additional evidence to support the central claims.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, endocrine disruption, metal toxicology, and metabolic disease. The potential identification of a physiological ligand for ERRγ and the implication of cadmium as an environmental disruptor of ERRγ signaling would be of interest to those studying metabolic regulation and environmental health.
+- **Major strengths** The study addresses a significant gap in the field, namely the lack of identified ligands for ERRγ. The use of multiple complementary approaches, including gene expression, protein localization, promoter recruitment, and computational modeling, is a strength. The inclusion of both calcium and cadmium provides a comparative framework. The authors also acknowledge limitations and propose future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct ligand-receptor interaction
+  - **Claim pointer** The abstract and conclusion state that calcium is a potential ligand of ERRγ and that cadmium disrupts metabolism through ERRγ.
+  - **Evidence pointer** Results sections "Effects of glucagon, calcium, and cadmium on the expression of ERRγ-regulated genes" and "Identify the calcium and cadmium interaction domain on ERRγ"; Figures 1–3, 6.
+  - **Concern** The central claim that calcium and cadmium act as ligands of ERRγ is not supported by direct binding evidence. The functional assays show that these metals can modulate ERRγ activity, but this could occur through indirect mechanisms, such as changes in intracellular calcium levels, activation of calcium-sensing receptors, or effects on other signaling pathways. The mutational analysis identifies residues that, when mutated, reduce the response to calcium and cadmium, but this does not prove direct binding. Molecular dynamics simulations are predictive and not experimental evidence of binding.
+  - **Why it matters** The novelty and significance of the study hinge on the identification of calcium as a physiological ligand. Without direct binding data, the proposed mechanism remains speculative. The title and abstract overstate the findings.
+  - **Resolution test** Provide direct binding assays, such as isothermal titration calorimetry, surface plasmon resonance, or a radioligand binding assay, using purified ERRγ LBD and calcium/cadmium. Alternatively, demonstrate that the identified residues are required for direct metal binding using a biophysical assay. Show a dose-response relationship for calcium/cadmium on ERRγ activity that is consistent with a binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of the proposed mechanism
+  - **Claim pointer** The authors claim that the effects of calcium and cadmium on gluconeogenic genes are mediated specifically through ERRγ.
+  - **Evidence pointer** Results sections "Effects of glucagon, calcium, and cadmium on the expression of ERRγ-regulated genes" and "Effects of calcium and cadmium on ERRγ-regulated metabolic genes in transfected HEK293T cells"; Figures 1, 3, 4.
+  - **Concern** The specificity of the response to ERRγ is not fully established. The antagonist 4-hydroxytamoxifen blocks the effects of calcium and cadmium on some genes but not on G6PC. The authors attribute this to off-target effects of the antagonist, but this also suggests that the effects on G6PC may be mediated by a different mechanism. In HEK293T cells, the effects on SLC2A2 were inconsistent between ERRγ1 and ERRγ3. The lack of a clean antagonist effect and inconsistent gene-specific responses weaken the claim of a unified ERRγ-dependent mechanism.
+  - **Why it matters** If the effects are not specific to ERRγ, the conclusions about ERRγ as a mediator of calcium and cadmium effects are not valid. The manuscript needs to demonstrate that the observed effects are dependent on ERRγ expression and activity.
+  - **Resolution test** Use siRNA or CRISPR to knock down ERRγ expression and show that the effects of calcium and cadmium on target gene expression are abolished. Use a more specific ERRγ antagonist or a dominant-negative ERRγ construct. Rescue the knockdown phenotype with a wild-type ERRγ construct. Show that the effects are not observed in cells lacking ERRγ.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of the concentrations used
+  - **Claim pointer** The authors suggest that calcium mediates the effects of glucagon and that cadmium disrupts metabolism through ERRγ.
+  - **Evidence pointer** Methods section "Cell culture"; Results sections as above.
+  - **Concern** The concentrations of calcium (7.5–10 mM) and cadmium (5–10 µM) used are supraphysiological. Extracellular calcium concentrations are typically around 1–2 mM, and intracellular calcium is in the nanomolar range. Cadmium levels in the general population are much lower than 5 µM. The relevance of these high concentrations to physiological or environmental exposure is unclear.
+  - **Why it matters** The claim that calcium is a physiological ligand requires demonstration that it binds and activates ERRγ at physiologically relevant concentrations. The claim that cadmium disrupts metabolism through ERRγ requires demonstration that environmentally relevant concentrations can activate ERRγ.
+  - **Resolution test** Perform dose-response experiments with a range of calcium and cadmium concentrations, including those that are physiologically or environmentally relevant. Show that the effects on ERRγ activity occur at these lower concentrations. Discuss the relevance of the concentrations used in the context of known physiological and environmental levels.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical analysis and data presentation
+  - **Claim pointer** The results section reports significant changes in gene expression, protein levels, and promoter recruitment.
+  - **Evidence pointer** All results sections; Figures 1–7.
+  - **Concern** The statistical analysis is not described in sufficient detail. The methods state that ANOVA and t-tests were used, but it is not clear how many independent biological replicates were performed, whether the data met the assumptions of the tests, or how multiple comparisons were handled. The figures are not visible in the provided text, so it is not possible to assess the variability or the appropriateness of the statistical tests.
+  - **Why it matters** Without proper statistical reporting, the robustness of the findings cannot be evaluated. The conclusions are based on the significance of the observed changes.
+  - **Resolution test** Provide a detailed description of the statistical methods, including the number of replicates, the specific tests used for each comparison, and how multiple testing was addressed. Show the data points in the figures, not just bars with error bars. Provide effect sizes and confidence intervals where appropriate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Cell culture and treatment conditions
+  - **Evidence pointer** Methods section "Cell culture"
+  - **Issue** The duration of treatment for each assay is not consistently specified. For example, the qPCR, Western blot, and glucose measurement experiments may use different treatment times.
+  - **Required correction** Specify the treatment duration for each assay in the methods or figure legends.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Discussion of G6PC antagonist effect
+  - **Evidence pointer** Results section "Effects of glucagon, calcium, and cadmium on the expression of ERRγ-regulated genes"
+  - **Issue** The failure of 4-hydroxytamoxifen to block the calcium-induced increase in G6PC expression is attributed to off-target effects, but this is not tested. This could also indicate a non-ERRγ-mediated pathway.
+  - **Required correction** Acknowledge this alternative explanation and, if possible, test it by using a different ERRγ antagonist or knockdown approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Issue** The simulation parameters are not fully described. The force field, water model, simulation length, and number of replicates are not stated.
+  - **Required correction** Provide a complete description of the simulation parameters, including software version, force field, water model, simulation time, and any equilibration steps.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement says data will be made available "without undue reservation," but no accession numbers or repository links are provided for the microarray data or the molecular dynamics trajectories.
+  - **Required correction** Provide accession numbers for the microarray data (e.g., GEO) and a repository for the simulation data, or state clearly that they are available upon request.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1–7
+  - **Evidence pointer** Figure legends as provided
+  - **Issue** The figure legends are not fully visible in the provided text, and the figures themselves are not available. It is not possible to assess the quality of the images or the clarity of the data presentation.
+  - **Required correction** Ensure that all figures are of high resolution and that the legends clearly describe the experimental conditions, the number of replicates, and the statistical tests used.
+
+## Risk / unsupported claims
+- The claim that calcium is a physiological ligand of ERRγ is unsupported by direct binding evidence.
+- The claim that cadmium disrupts metabolism through ERRγ is not fully supported, as the specificity of the effect is not established.
+- The identification of S303, T429, and E452 as interaction sites is based on mutational analysis and simulations, but direct binding of calcium/cadmium to these residues is not demonstrated.
+- The physiological relevance of the concentrations used is not established.
+- The statement that "calcium mediates the effect of glucagon on gluconeogenesis" is an overinterpretation, as the data show correlative effects on gene expression and promoter recruitment, not a direct mechanistic link.

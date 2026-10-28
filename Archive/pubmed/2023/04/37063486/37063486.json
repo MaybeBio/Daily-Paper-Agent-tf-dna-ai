@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "37063486",
+    "doi": "10.3389/fdata.2023.1140663",
+    "title": "Unsupervised domain adaptation methods for cross-species transfer of regulatory code signals."
+  },
+  "content": {
+    "abstract": "Due to advances in NGS technologies whole-genome maps of various functional genomic elements were generated for a dozen of species, however experiments are still expensive and are not available for many species of interest. Deep learning methods became the state-of-the-art computational methods to analyze the available data, but the focus is often only on the species studied. Here we take advantage of the progresses in Transfer Learning in the area of Unsupervised Domain Adaption (UDA) and tested nine UDA methods for prediction of regulatory code signals for genomes of other species. We tested each deep learning implementation by training the model on experimental data from one species, then refined the model using the genome sequence of the target species for which we wanted to make predictions. Among nine tested domain adaptation architectures non-adversarial methods Minimum Class Confusion (MCC) and Deep Adaptation Network (DAN) significantly outperformed others. Conditional Domain Adversarial Network (CDAN) appeared as the third best architecture. Here we provide an empirical assessment of each approach using real world data. The different approaches were tested on ChIP-seq data for transcription factor binding sites and histone marks on human and mouse genomes, but is generalizable to any cross-species transfer of interest. We tested the efficiency of each method using species where experimental data was available for both. The results allows us to assess how well each implementation will work for species for which only limited experimental data is available and will inform the design of future experiments in these understudied organisms. Overall, our results proved the validity of UDA methods for generation of missing experimental data for histone marks and transcription factor binding sites in various genomes and highlights how robust the various approaches are to data that is incomplete, noisy and susceptible to analytic bias.",
+    "keywords": [
+      "Minimum Class Confusion",
+      "domain adaptation",
+      "domain adversarial networks",
+      "histone marks",
+      "transcription factors",
+      "transfer learning",
+      "versatile domain adaptation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Latyshev, Pavel",
+        "Pavlov, Fedor",
+        "Herbert, Alan",
+        "Poptsova, Maria"
+      ],
+      "short_names": [
+        "Latyshev P",
+        "Pavlov F",
+        "Herbert A",
+        "Poptsova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia.",
+        "InsideOutBio, Charlestown, MA, United States.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Latyshev, Pavel",
+        "short_name": "Latyshev P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Pavlov, Fedor",
+        "short_name": "Pavlov F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Herbert, Alan",
+        "short_name": "Herbert A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia.",
+          "InsideOutBio, Charlestown, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Poptsova, Maria",
+        "short_name": "Poptsova M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, HSE University, Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in big data"
+    ],
+    "journal_abbrev": [
+      "Front Big Data"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/18 06:00",
+    "fetched_at": "2026-09-28 23:17:00"
+  },
+  "links": {
+    "cites": [
+      "42211230"
+    ],
+    "refs": [
+      "35325188",
+      "35042722",
+      "34836511",
+      "34805988",
+      "34718705",
+      "34585247",
+      "33627475",
+      "33160328",
+      "31713622",
+      "31471617",
+      "30286077",
+      "29993662"
+    ],
+    "similar": [
+      "37063486",
+      "34464837",
+      "33866303",
+      "34478362",
+      "36227829",
+      "36383499",
+      "33170775",
+      "32361548",
+      "37894000",
+      "34494276",
+      "36321557",
+      "34757904",
+      "34735891",
+      "36172575",
+      "36007288",
+      "37090812",
+      "35833617",
+      "38400477",
+      "35247873",
+      "36182740",
+      "34138722",
+      "23912807",
+      "32604859",
+      "34537490",
+      "31021807",
+      "34383644",
+      "35508121",
+      "27490187",
+      "37966332",
+      "36713615",
+      "35981348",
+      "35096877",
+      "33001599",
+      "31398109",
+      "34788221",
+      "35753105",
+      "34520373",
+      "36347092",
+      "33957557",
+      "34546936",
+      "34106846",
+      "34714740",
+      "33729930",
+      "35461016",
+      "33036834",
+      "35052070",
+      "33939616",
+      "34874854",
+      "33877973",
+      "37856271",
+      "36183637",
+      "35185973",
+      "35907375",
+      "35447481",
+      "36332357",
+      "34833615",
+      "31880543",
+      "33784633",
+      "34371318",
+      "34897387",
+      "31508414",
+      "36179379",
+      "15478601",
+      "36841039",
+      "32585512",
+      "33760749",
+      "33905558",
+      "33095718",
+      "35898010",
+      "35298372",
+      "34139636",
+      "34033554",
+      "34506283",
+      "32497010",
+      "34246849",
+      "35874324",
+      "34962864",
+      "34534081",
+      "34813984",
+      "35727786",
+      "38400402"
+    ],
+    "review": [
+      "37063486",
+      "36321557",
+      "33095718",
+      "35898010"
+    ],
+    "pmc": [
+      "10101332"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37063486/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37063486",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3393",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fdata.2023.1140663",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

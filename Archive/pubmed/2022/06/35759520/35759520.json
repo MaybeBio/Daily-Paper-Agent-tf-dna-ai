@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "35759520",
+    "doi": "10.1371/journal.pcbi.1010239",
+    "title": "Computational analysis of memory consolidation following inhibitory avoidance (IA) training in adult and infant rats: Critical roles of CaMKIIalpha and MeCP2."
+  },
+  "content": {
+    "abstract": "Key features of long-term memory (LTM), such as its stability and persistence, are acquired during processes collectively referred to as consolidation. The dynamics of biological changes during consolidation are complex. In adult rodents, consolidation exhibits distinct periods during which the engram is more or less resistant to disruption. Moreover, the ability to consolidate memories differs during developmental periods. Although the molecular mechanisms underlying consolidation are poorly understood, the initial stages rely on interacting signaling pathways that regulate gene expression, including brain-derived neurotrophic factor (BDNF) and Ca2+/calmodulin-dependent protein kinase II alpha (CaMKIIalpha) dependent feedback loops. We investigated the ways in which these pathways may contribute to developmental and dynamical features of consolidation. A computational model of molecular processes underlying consolidation following inhibitory avoidance (IA) training in rats was developed. Differential equations described the actions of CaMKIIalpha, multiple feedback loops regulating BDNF expression, and several transcription factors including methyl-CpG binding protein 2 (MeCP2), histone deacetylase 2 (HDAC2), and SIN3 transcription regulator family member A (Sin3a). This model provides novel explanations for the (apparent) rapid forgetting of infantile memory and the temporal progression of memory consolidation in adults. Simulations predict that dual effects of MeCP2 on the expression of bdnf, and interaction between MeCP2 and CaMKIIalpha, play critical roles in the rapid forgetting of infantile memory and the progress of memory resistance to disruptions. These insights suggest new potential targets of therapy for memory impairment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Avoidance Learning/physiology",
+      "*Brain-Derived Neurotrophic Factor/metabolism",
+      "Hippocampus/physiology",
+      "Humans",
+      "*Memory Consolidation",
+      "Memory, Long-Term/physiology",
+      "Methyl-CpG-Binding Protein 2/genetics/metabolism/pharmacology",
+      "Rats"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yili",
+        "Smolen, Paul",
+        "Alberini, Cristina M",
+        "Baxter, Douglas A",
+        "Byrne, John H"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Smolen P",
+        "Alberini CM",
+        "Baxter DA",
+        "Byrne JH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2591-1324",
+        "ORCID: 0000-0002-7762-8096",
+        "ORCID: 0000-0001-7947-5890"
+      ],
+      "affiliations": [
+        "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America.",
+        "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America.",
+        "Center for Neural Science, New York University, New York City, New York, United States of America.",
+        "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America.",
+        "Department of Neurobiology and Experimental Therapeutics, College of Medicine, Texas A&M University, Houston, Texas, United States of America.",
+        "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yili",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-2591-1324"
+        ],
+        "affiliations": [
+          "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Smolen, Paul",
+        "short_name": "Smolen P",
+        "identifiers": [
+          "0000-0002-7762-8096"
+        ],
+        "affiliations": [
+          "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Alberini, Cristina M",
+        "short_name": "Alberini CM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neural Science, New York University, New York City, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Baxter, Douglas A",
+        "short_name": "Baxter DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America.",
+          "Department of Neurobiology and Experimental Therapeutics, College of Medicine, Texas A&M University, Houston, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Byrne, John H",
+        "short_name": "Byrne JH",
+        "identifiers": [
+          "0000-0001-7947-5890"
+        ],
+        "affiliations": [
+          "Department of Neurobiology and Anatomy; W.M. Keck Center for the Neurobiology of Learning and Memory; The University of Texas Medical School at Houston, Houston, Texas, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/28 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34796608",
+      "34324427",
+      "33968128",
+      "33448137",
+      "33175283",
+      "32459037",
+      "32188968",
+      "32005863",
+      "31965655",
+      "31085607",
+      "30992383",
+      "29983316",
+      "29804230",
+      "28615475",
+      "27918277",
+      "27680698",
+      "27523749",
+      "27428652",
+      "26190765",
+      "25896640",
+      "25209292",
+      "24532837",
+      "24287309",
+      "23597512",
+      "23160045",
+      "22904373",
+      "22876169",
+      "22335938",
+      "22272255",
+      "21768371",
+      "21423514",
+      "20736337",
+      "20300102",
+      "19706547",
+      "19547753",
+      "19193606",
+      "18511691",
+      "18287513",
+      "18075316",
+      "17702943",
+      "17626208",
+      "17494693",
+      "17224407",
+      "16540579",
+      "16415049",
+      "15714268",
+      "14593184",
+      "14593183",
+      "12151558",
+      "11994750",
+      "11477427",
+      "11301237",
+      "10701879",
+      "10454361",
+      "9888852",
+      "9036859",
+      "9020359",
+      "7393961",
+      "3393540"
+    ],
+    "similar": [
+      "35759520",
+      "25209292",
+      "29438740",
+      "26464112",
+      "23160045",
+      "33146738",
+      "20151243",
+      "27918277",
+      "27025446",
+      "21244716",
+      "21677163",
+      "33581144",
+      "32970734",
+      "22677942",
+      "12201640",
+      "21315825",
+      "19619620",
+      "31536788",
+      "26180209",
+      "34860826",
+      "26239616",
+      "28790188",
+      "16204202",
+      "26929354",
+      "31026567",
+      "22906840",
+      "16182449",
+      "26168901",
+      "25218897",
+      "27568801",
+      "29038222",
+      "27321160",
+      "22529784",
+      "17046689",
+      "25634725",
+      "24959860",
+      "17224407",
+      "31811833",
+      "28701956",
+      "31984447",
+      "25579386",
+      "19515929",
+      "29090669",
+      "33203444",
+      "33069732",
+      "29494759",
+      "25595880",
+      "35711008",
+      "26646512",
+      "28604632",
+      "17050729",
+      "21900885",
+      "18342551",
+      "34097099",
+      "17909100",
+      "19533679",
+      "30806012",
+      "18729634",
+      "18557922",
+      "23185492",
+      "19428630",
+      "24621058",
+      "36941060",
+      "16190868",
+      "23035088",
+      "15548423",
+      "20711185",
+      "32246495",
+      "35203405",
+      "10867979",
+      "17005423",
+      "34299103",
+      "18075316",
+      "30623374",
+      "15652381",
+      "22841916",
+      "25904806",
+      "22514307",
+      "24358339",
+      "26140854",
+      "33352471",
+      "22484543",
+      "28864864",
+      "31451802",
+      "24792393",
+      "23197404",
+      "28254465",
+      "18396005",
+      "27130259",
+      "26860633",
+      "22297041",
+      "32858125",
+      "15073322",
+      "17644752",
+      "39323086"
+    ],
+    "review": [
+      "35759520",
+      "20151243",
+      "31811833",
+      "25579386",
+      "25595880",
+      "35203405",
+      "31451802"
+    ],
+    "pmc": [
+      "9269953"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010239",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35759520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35759520",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a structure-guided approach using AlphaFold 3 (AF3) to model TF-DNA complexes and FoldX for physics-based assessment of non-coding SNVs affecting TF binding. They report agreement with SNP-SELEX data for six TFs, note that AF3's ipTM score aligns more closely with experimental allele preferences than energy-based metrics, and demonstrate recapitulation of disease-associated variant effects for NKX2-5, GATA3, and USF2A-USF1. They conclude that structural modelling provides interpretable insights but is less accurate than sequence-based methods.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, SNP-SELEX benchmark details, disease variant datasets, statistical analyses, and comparison methodology with sequence-based methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and timely approach to a challenging problem in regulatory genomics. The idea of using AF3's structural predictions to evaluate non-coding variants is novel and potentially valuable for interpretability. However, the abstract provides insufficient quantitative detail to assess the robustness of the claims. Key metrics, effect sizes, statistical significance, and comparative performance data are absent. The claim that ipTM outperforms energy-based metrics is intriguing but unsupported by any numbers. The disease variant applications are described qualitatively without specificity. While the work appears promising, the current evidence base is too thin to establish the case.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational variant effect prediction, and structural biology would find this work relevant. Those developing or applying variant interpretation tools for clinical or functional genomics would be interested in the complementary structural approach. The interpretability angle may appeal to investigators studying TF binding mechanisms and disease-associated non-coding variation.
+- **Major strengths** The approach addresses a genuine gap in non-coding variant interpretation by providing structural interpretability that sequence-based methods lack. The use of AF3 for TF-DNA complex modelling is timely and leverages recent advances in structural prediction. The combination of AF3 with FoldX for physics-based assessment is a reasonable and potentially generalizable strategy. The authors acknowledge limitations relative to sequence-based methods, which suggests balanced reporting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the FoldX-based strategy showed good agreement with experimental allele preferences for six TFs
+  - **Evidence pointer** Abstract, benchmark section; location not provided
+  - **Concern** The abstract states "good agreement" without providing any quantitative measure such as correlation coefficients, area under the curve, or concordance rates. No baseline or threshold for "good" is defined. The reader cannot assess whether the agreement is statistically meaningful or practically useful.
+  - **Why it matters** Without quantitative performance metrics, the central claim of the paper cannot be evaluated. The term "good agreement" is subjective and insufficient for a scientific claim in a benchmark study. This is the foundational result on which all subsequent claims rest.
+  - **Resolution test** Provide specific performance metrics (e.g., Pearson or Spearman correlation, AUC, accuracy) with confidence intervals and statistical tests comparing observed agreement to null expectations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that differences in AF3's ipTM score aligned even more closely with SNP-SELEX results, generally surpassing energy-based metrics
+  - **Evidence pointer** Abstract, benchmark section; location not provided
+  - **Concern** No quantitative comparison between ipTM-based and energy-based metrics is provided. The phrase "aligned even more closely" and "generally surpassing" lacks numerical support. It is unclear how ipTM differences were calculated, what statistical framework was used, and whether the improvement is consistent across all six TFs or driven by a subset.
+  - **Why it matters** This is a key novel finding that distinguishes the structural approach from physics-based methods. If unsupported, the main contribution of the paper is weakened. The claim of superiority requires rigorous statistical comparison.
+  - **Resolution test** Present head-to-head performance metrics for ipTM versus FoldX energies for each TF, with appropriate statistical tests (e.g., paired comparisons, permutation tests) and effect sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that application to known disease-associated variants recapitulated most reported effects for TFs including NKX2-5, GATA3 and USF2A-USF1
+  - **Evidence pointer** Abstract, disease variant section; location not provided
+  - **Concern** The abstract provides no details on the number of variants tested, the proportion recapitulated, the criteria for "recapitulated," or the comparison to existing methods. The phrase "most reported effects" is vague and unquantified. The specific TFs mentioned are only examples, leaving the full scope unclear.
+  - **Why it matters** The clinical or functional relevance of the approach depends on this claim. Without quantitative details, the utility for disease variant interpretation cannot be assessed.
+  - **Resolution test** Provide the full list of disease variants tested, the recapitulation rate with clear criteria, and a comparison to sequence-based predictions for the same variants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that considering both ΔipTM and FoldX energies proved more reliable than either metric alone
+  - **Evidence pointer** Abstract, disease variant section; location not provided
+  - **Concern** No data are presented to support the combined metric's superiority. The abstract does not describe how the combination was implemented, what metric was used to assess reliability, or the magnitude of improvement.
+  - **Why it matters** This is a practical recommendation that could guide future applications. Without evidence, the recommendation is unsupported and potentially misleading.
+  - **Resolution test** Show quantitative comparisons of single-metric versus combined-metric performance on the disease variant set, with clear definitions of the combined score and reliability measures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmark TF selection
+  - **Evidence pointer** Abstract, benchmark section; location not provided
+  - **Issue** The abstract lists six TFs but does not explain why these were chosen or whether they represent diverse structural and sequence contexts.
+  - **Required correction** Briefly state the selection criteria or note that the TFs were chosen to represent diverse binding motifs and structural classes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** AF3 modelling details
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The abstract does not specify how AF3 models were generated, including input features, number of models, or selection criteria for final models.
+  - **Required correction** Add a sentence in the abstract or refer to methods for AF3 modelling parameters and model selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Sequence-based method comparison
+  - **Evidence pointer** Abstract, comparison statement; location not provided
+  - **Issue** The claim that the approach is "less accurate than state-of-the-art sequence-based methods" lacks context on which methods were compared and under what conditions.
+  - **Required correction** Specify the sequence-based methods used for comparison and the benchmark conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. All four major concerns relate to missing quantitative evidence that is essential to support the central claims. Without these data, the case for the approach's utility is not established.
+- **Assessment against Nature-style criteria** Originality is high, as the application of AF3 to non-coding variant evaluation is novel and timely. Scientific importance is potentially significant given the need for interpretable variant effect prediction, but the current evidence does not demonstrate the required robustness. Interdisciplinary readership is plausible, spanning structural biology, genomics, and computational biology. Technical soundness cannot be assessed from the abstract alone, as no methodological details or statistical analyses are provided. Readability for nonspecialists is adequate, with clear language and logical flow, though some terms (e.g., ipTM) may require definition for broader audiences.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the research direction is valuable, but the abstract lacks the quantitative support needed to substantiate the claims. A revised version with full benchmark data, statistical analyses, and detailed methodology could change this assessment.
+
+## Risk / unsupported claims
+- The claim of "good agreement" with SNP-SELEX data is unsupported without quantitative metrics.
+- The claim that ipTM surpasses energy-based metrics is unsupported without head-to-head comparisons.
+- The claim of recapitulating "most reported effects" for disease variants is unsupported without variant counts and recapitulation rates.
+- The claim that combined ΔipTM and Fold3 energies are more reliable is unsupported without combined-score methodology and results.
+- The relative performance comparison to sequence-based methods is unquantified and cannot be evaluated.

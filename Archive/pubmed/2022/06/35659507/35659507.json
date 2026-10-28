@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "35659507",
+    "doi": "10.1016/j.jmb.2022.167663",
+    "title": "Cancer-related Mutations with Local or Long-range Effects on an Allosteric Loop of p53."
+  },
+  "content": {
+    "abstract": "The tumor protein 53 (p53) is involved in transcription-dependent and independent processes. Several p53 variants related to cancer have been found to impact protein stability. Other variants, on the contrary, might have little impact on structural stability and have local or long-range effects on the p53 interactome. Our group previously identified a loop in the DNA binding domain (DBD) of p53 (residues 207-213) which can recruit different interactors. Experimental structures of p53 in complex with other proteins strengthen the importance of this interface for protein-protein interactions. We here characterized with structure-based approaches somatic and germline variants of p53 which could have a marginal effect in terms of stability and act locally or allosterically on the region 207-213 with consequences on the cytosolic functions of this protein. To this goal, we studied 1132 variants in the p53 DBD with structure-based approaches, accounting also for protein dynamics. We focused on variants predicted with marginal effects on structural stability. We then investigated each of these variants for their impact on DNA binding, dimerization of the p53 DBD, and intramolecular contacts with the 207-213 region. Furthermore, we identified variants that could modulate long-range the conformation of the region 207-213 using a coarse-grain model for allostery and all-atom molecular dynamics simulations. Our predictions have been further validated using enhanced sampling methods for 15 variants. The methodologies used in this study could be more broadly applied to other p53 variants or cases where conformational changes of loop regions are essential in the function of disease-related proteins.",
+    "keywords": [
+      "Allosteric Interactions",
+      "Molecular Dynamics",
+      "Protein Stability",
+      "Protein Structure Network",
+      "Therapeutic Target"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation/genetics",
+      "DNA/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "*Neoplasms/genetics",
+      "Protein Binding",
+      "Protein Domains",
+      "*Tumor Suppressor Protein p53/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Degn, Kristine",
+        "Beltrame, Ludovica",
+        "Dahl Hede, Freja",
+        "Sora, Valentina",
+        "Nicolaci, Vincenzo",
+        "Vabistsevits, Marina",
+        "Schmiegelow, Kjeld",
+        "Wadt, Karin",
+        "Tiberti, Matteo",
+        "Lambrughi, Matteo",
+        "Papaleo, Elena"
+      ],
+      "short_names": [
+        "Degn K",
+        "Beltrame L",
+        "Dahl Hede F",
+        "Sora V",
+        "Nicolaci V",
+        "Vabistsevits M",
+        "Schmiegelow K",
+        "Wadt K",
+        "Tiberti M",
+        "Lambrughi M",
+        "Papaleo E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark. Electronic address: https://twitter.com/KristineDegn.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/LudoBeltrame.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark.",
+        "Department of Pediatrics and Adolescent Medicine, University Hospital Rigshospitalet, Copenhagen, Denmark.",
+        "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/teoKusaMatteo.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/LambrughiMatteo.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/@ElePapaleo."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Degn, Kristine",
+        "short_name": "Degn K",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark. Electronic address: https://twitter.com/KristineDegn."
+        ]
+      },
+      {
+        "full_name": "Beltrame, Ludovica",
+        "short_name": "Beltrame L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/LudoBeltrame."
+        ]
+      },
+      {
+        "full_name": "Dahl Hede, Freja",
+        "short_name": "Dahl Hede F",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Sora, Valentina",
+        "short_name": "Sora V",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Nicolaci, Vincenzo",
+        "short_name": "Nicolaci V",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Vabistsevits, Marina",
+        "short_name": "Vabistsevits M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Schmiegelow, Kjeld",
+        "short_name": "Schmiegelow K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Adolescent Medicine, University Hospital Rigshospitalet, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Wadt, Karin",
+        "short_name": "Wadt K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tiberti, Matteo",
+        "short_name": "Tiberti M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/teoKusaMatteo."
+        ]
+      },
+      {
+        "full_name": "Lambrughi, Matteo",
+        "short_name": "Lambrughi M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/LambrughiMatteo."
+        ]
+      },
+      {
+        "full_name": "Papaleo, Elena",
+        "short_name": "Papaleo E",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800 Lyngby, Denmark; Cancer Structural Biology, Danish Cancer Society Research Center, 2100 Copenhagen, Denmark. Electronic address: https://twitter.com/@ElePapaleo."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Sep 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/07 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [
+      "41944585",
+      "41552434",
+      "41454757",
+      "41057495",
+      "40835742",
+      "40806592",
+      "39896643",
+      "39723827",
+      "39309126",
+      "38261338",
+      "37375208",
+      "37085483",
+      "36461907"
+    ],
+    "refs": [],
+    "similar": [
+      "35659507",
+      "31881526",
+      "40464633",
+      "33315226",
+      "26442703",
+      "40504558",
+      "30339916",
+      "39737749",
+      "34403252",
+      "40725138",
+      "31027880",
+      "21561095",
+      "24191708",
+      "19913028",
+      "36245142",
+      "39140857",
+      "28597880",
+      "24324553",
+      "35234033",
+      "32307496",
+      "31006514",
+      "41082588",
+      "27604871",
+      "41284820",
+      "25897952",
+      "33984364",
+      "30160791",
+      "26477317",
+      "26244575",
+      "34792219",
+      "31216622",
+      "30649466",
+      "21457718",
+      "22110706",
+      "40769488",
+      "29124793",
+      "17824689",
+      "18260640",
+      "35163572",
+      "24100332",
+      "23863845",
+      "39264222",
+      "30420502",
+      "33443163",
+      "40842437",
+      "33591178",
+      "26579714",
+      "40425537",
+      "30419285",
+      "32098369",
+      "27317883",
+      "31241933",
+      "23243311",
+      "40101966",
+      "28813011",
+      "18315848",
+      "39603375",
+      "21339981",
+      "11917017",
+      "25550083",
+      "32184088",
+      "11152481",
+      "23135266",
+      "41008647",
+      "12051912",
+      "16768444",
+      "10411893",
+      "20700496",
+      "11606582",
+      "22917970",
+      "11524676",
+      "17703463",
+      "28126403",
+      "30388364",
+      "40064360",
+      "23952735",
+      "26596470",
+      "34132193",
+      "38737036",
+      "20847049",
+      "7859740",
+      "24253321",
+      "32715544",
+      "36077492",
+      "31990523",
+      "16717092",
+      "16548519",
+      "8023157",
+      "8632013",
+      "30949773",
+      "28871352",
+      "29979965",
+      "40738203",
+      "22028641",
+      "36555140",
+      "35887312",
+      "35166747",
+      "20113312",
+      "8875926",
+      "31952808"
+    ],
+    "review": [
+      "35659507",
+      "25550083"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00255-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

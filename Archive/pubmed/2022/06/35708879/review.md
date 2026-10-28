@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that pH-dependent conformational changes in PspA from *Yersinia enterocolitica* modulate PspA-PspF complex formation, with near-neutral pH promoting a stable complex and adverse pH conditions disrupting it, thereby enabling PspF to act as a transcriptional activator.
+- **Visible evidence base** CD, FTIR, AFM, MD simulation, and bio-layer interferometry results as summarized in the abstract
+- **Missing materials affecting confidence** Full methods, experimental replicates, statistical analyses, raw spectra, simulation parameters, AFM images, binding kinetics data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis linking pH-induced conformational changes in PspA to its regulatory interaction with PspF. However, the evidence as summarized is insufficient to establish the causal chain proposed. Several claims are internally inconsistent or lack quantitative support, and the absence of methodological detail precludes rigorous evaluation.
+- **Who would be interested in the results, and why** Researchers studying bacterial stress responses, phage shock protein systems, and protein-protein interaction regulation under environmental perturbations. The work may also interest biophysicists focused on pH-dependent conformational dynamics and their functional consequences.
+- **Major strengths** The study integrates multiple orthogonal biophysical techniques and computational approaches, which is commendable for addressing a complex mechanistic question. The focus on a pathogenic organism adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states that at near-neutral pH, CD and FTIR reveal an "ss-like conformational change" while AFM indicates a "lower oligomeric form" at the same pH.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The term "ss-like conformational change" is ambiguous and potentially contradictory. If "ss" refers to beta-sheet, the claim that a conformational change to beta-sheet occurs at near-neutral pH while simultaneously observing a lower oligomeric state is not mechanistically reconciled. The abstract does not clarify what conformational state is adopted at other pH values, making the pH-dependence claim difficult to interpret.
+  - **Why it matters** The central thesis depends on a clear demonstration that pH alters PspA conformation in a specific, reproducible manner. Ambiguity in the primary conformational readout undermines the foundation of the entire mechanistic model.
+  - **Resolution test** Provide secondary structure quantifications from CD and FTIR at each pH tested, with error bars and statistical comparisons. Clarify the meaning of "ss-like" and show how the conformational state relates to oligomeric status, ideally with size-exclusion chromatography or native gel data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract claims that "PspA conformational change in adverse pH conditions abandons PspF from having a stable complex with it, and thus, the latter can act as a trans-activator."
+  - **Evidence pointer** Abstract, conclusions (location not provided)
+  - **Concern** The abstract reports only that stable complex formation occurs at near-neutral pH. No data are presented showing that complex formation is reduced or absent at adverse pH values. The leap from "stable complex at near-neutral pH" to "adverse pH disrupts complex and enables PspF activation" is unsupported by the visible evidence.
+  - **Why it matters** The proposed regulatory mechanism requires demonstrating that pH conditions which alter PspA conformation also disrupt PspA-PspF binding. Without this direct comparison, the functional conclusion is speculative.
+  - **Resolution test** Include bio-layer interferometry or equivalent binding assays at multiple pH values, showing quantitative differences in binding affinity or kinetics. Ideally, correlate these with the conformational states observed by CD/FTIR.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that "MD simulation also support the conformational changes which indicate salt-bridge strength takes an intermediate position compared to other pHs."
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The phrase "salt-bridge strength takes an intermediate position" is vague and not interpretable as a quantitative or qualitative finding. It is unclear what this intermediate position means for conformational stability or functional outcome. No simulation details are provided, such as force field, simulation length, or how pH was modeled.
+  - **Why it matters** The MD simulation is presented as corroborating evidence, but without clear metrics or comparison to experimental data, its contribution to the argument is unverifiable.
+  - **Resolution test** Report specific salt-bridge interaction energies or occupancies across pH conditions, with error estimates. Show how these correlate with experimentally observed conformational changes. Provide simulation parameters in the methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, introduction (location not provided)
+  - **Issue** The opening sentence is overly long and conflates operon organization, stress types, and PspA function, making it difficult to parse the biological context.
+  - **Required correction** Split into shorter sentences and clearly distinguish the operon structure, the stress conditions, and the regulatory roles of PspA and PspF.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Issue** The term "ss-like" is nonstandard and could be confused with single-stranded (as in nucleic acids). Standard secondary structure terminology should be used.
+  - **Required correction** Replace "ss-like" with a specific secondary structure assignment, such as "beta-sheet enriched" or "increased beta-sheet content," based on the actual CD/FTIR analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, methods
+  - **Evidence pointer** Abstract, methods (location not provided)
+  - **Issue** The pH range tested is not specified. The abstract refers to "near-neutral pH" and "adverse pH conditions" without defining these values.
+  - **Required correction** State the exact pH values used in each experiment.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The primary conformational readout is ambiguous, the causal link between pH, conformation, and complex formation is not directly demonstrated, and the MD simulation results are not quantitatively interpretable.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of pH-dependent conformational analysis to the PspA-PspF system is somewhat novel, but the general concept of pH-regulated protein interactions is well established.  
+  - Scientific importance: Moderate. The work addresses a specific regulatory mechanism in a pathogen, but the broader significance beyond the Psp system is not articulated.  
+  - Interdisciplinary readership: Limited. The abstract is written for specialists in bacterial stress responses and biophysics; nonspecialists would struggle to grasp the significance.  
+  - Technical soundness: Not assessable from the abstract alone. The described techniques are appropriate, but the lack of quantitative detail and internal inconsistencies prevent validation.  
+  - Readability for nonspecialists: Poor. The abstract uses jargon and ambiguous terms without sufficient context or definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient, internally consistent evidence to support the proposed mechanism. Substantial additional data and clarification are required before the claims can be considered credible.
+
+## Risk / unsupported claims
+- The claim that adverse pH conditions disrupt PspA-PspF complex formation is unsupported, as no binding data at adverse pH are presented.
+- The claim that PspA conformational change alone can transduce adverse signals is speculative and not directly tested.
+- The functional conclusion that PspF acts as a trans-activator upon complex dissociation is inferred, not demonstrated.
+- The MD simulation results are not interpretable as presented and cannot be evaluated for consistency with experimental data.
+- The relationship between the observed "lower oligomeric form" and the "ss-like conformational change" is unexplained and potentially contradictory.

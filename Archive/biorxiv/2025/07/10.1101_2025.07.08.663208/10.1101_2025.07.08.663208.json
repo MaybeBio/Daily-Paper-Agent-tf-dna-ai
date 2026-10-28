@@ -1,0 +1,380 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.08.663208",
+  "title": "MitoPerturb-Seq identifies common and gene-specific single-cell responses to mitochondrial DNA depletion and heteroplasmy",
+  "doi": "10.1101/2025.07.08.663208",
+  "abstract": "<h4>Summary</h4> Mitochondria contain their own genome, the mitochondrial DNA (mtDNA), which is under strict control of the cell nucleus. mtDNA occurs in many copies in each cell, and mutations often only affect a proportion of them, giving rise to heteroplasmy. mtDNA copy number and heteroplasmy level together shape the cell- and tissue-specific impact of mtDNA mutations, ultimately giving rise to rare mitochondrial and common neurodegenerative diseases. However, little is known about how copy number and heteroplasmy interact within single cells, and how this is regulated by the nuclear genes and pathways that sense and control them. Here we describe MitoPerturb-Seq for CRISPR/Cas9-based high-throughput single-cell interrogation of the impact of nuclear gene perturbation on mtDNA copy number and heteroplasmy. We screened a panel of nuclear mtDNA maintenance genes in cells with heteroplasmic mtDNA mutations. This revealed both common and perturbation-specific aspects of the integrated stress-response to mtDNA depletion, that were only partially mediated by Atf4, and caused cell-cycle stage-independent slowing of cell proliferation. MitoPerturb-Seq thus provides novel experimental insight into disease-relevant mito-nuclear interactions, ultimately informing development of novel therapies targeting cell- and tissue-specific vulnerabilities to mitochondrial dysfunction.",
+  "authors": [
+    "Burr SP",
+    "Auckland K",
+    "Glynos A",
+    "Dhawanjewar A",
+    "Wei W",
+    "Ryall C",
+    "Hynes-Allen A",
+    "Prater M",
+    "Sczaniecka-Clift M",
+    "Prudent J",
+    "Chinnery PF",
+    "van den Ameele J"
+  ],
+  "published_date": "2025-07-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663208",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663208.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1047658",
+    "raw_record": {
+      "id": "PPR1047658",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1047658"
+        ]
+      },
+      "doi": "10.1101/2025.07.08.663208",
+      "title": "MitoPerturb-Seq identifies common and gene-specific single-cell responses to mitochondrial DNA depletion and heteroplasmy",
+      "authorString": "Burr SP, Auckland K, Glynos A, Dhawanjewar A, Wei W, Ryall C, Hynes-Allen A, Prater M, Sczaniecka-Clift M, Prudent J, Chinnery PF, van den Ameele J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Burr SP",
+            "lastName": "Burr",
+            "firstName": "Stephen",
+            "initials": "SP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8865-126X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Auckland K",
+            "lastName": "Auckland",
+            "firstName": "Kathryn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glynos A",
+            "lastName": "Glynos",
+            "firstName": "Angelos",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dhawanjewar A",
+            "lastName": "Dhawanjewar",
+            "firstName": "Abhilesh",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wei W",
+            "lastName": "Wei",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2945-3543"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ryall C",
+            "lastName": "Ryall",
+            "firstName": "Cameron",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hynes-Allen A",
+            "lastName": "Hynes-Allen",
+            "firstName": "Antony",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prater M",
+            "lastName": "Prater",
+            "firstName": "Malwina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8202-5345"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sczaniecka-Clift M",
+            "lastName": "Sczaniecka-Clift",
+            "firstName": "Matylda",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prudent J",
+            "lastName": "Prudent",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chinnery PF",
+            "lastName": "Chinnery",
+            "firstName": "Patrick",
+            "initials": "PF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7065-6617"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van den Ameele J",
+            "lastName": "van den Ameele",
+            "firstName": "Jelle",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2744-0810"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8865-126X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2744-0810"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2945-3543"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7065-6617"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8202-5345"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Mitochondria contain their own genome, the mitochondrial DNA (mtDNA), which is under strict control of the cell nucleus. mtDNA occurs in many copies in each cell, and mutations often only affect a proportion of them, giving rise to heteroplasmy. mtDNA copy number and heteroplasmy level together shape the cell- and tissue-specific impact of mtDNA mutations, ultimately giving rise to rare mitochondrial and common neurodegenerative diseases. However, little is known about how copy number and heteroplasmy interact within single cells, and how this is regulated by the nuclear genes and pathways that sense and control them. Here we describe MitoPerturb-Seq for CRISPR/Cas9-based high-throughput single-cell interrogation of the impact of nuclear gene perturbation on mtDNA copy number and heteroplasmy. We screened a panel of nuclear mtDNA maintenance genes in cells with heteroplasmic mtDNA mutations. This revealed both common and perturbation-specific aspects of the integrated stress-response to mtDNA depletion, that were only partially mediated by Atf4, and caused cell-cycle stage-independent slowing of cell proliferation. MitoPerturb-Seq thus provides novel experimental insight into disease-relevant mito-nuclear interactions, ultimately informing development of novel therapies targeting cell- and tissue-specific vulnerabilities to mitochondrial dysfunction.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/Y003209/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/11/2025.07.08.663208.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.08.663208"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1047658"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1047658&type=FILE&fileName=EMS207150-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41922875",
+            "reference": "Nature structural & molecular biology. 2026 Apr;33(4):711-723",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207150",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-07-13",
+      "firstPublicationDate": "2025-07-11",
+      "firstIndexDate": "2025-07-13",
+      "fullTextReceivedDate": "2025-07-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

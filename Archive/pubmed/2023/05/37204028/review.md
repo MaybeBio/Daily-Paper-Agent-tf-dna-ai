@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and materials and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and clinical correlations as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that the ER chaperone gp96 promotes AFP expression in HCC by binding to the transcription factor NR5A2, competitively blocking the SUMO E3 ligase RanBP2, thereby reducing NR5A2 SUMOylation and ubiquitination, stabilizing the protein, and enhancing AFP transcription. Clinical data are presented to support a positive correlation between tumor gp96 and serum AFP.
+- **Visible evidence base** In vitro cell line experiments (Huh7, HepG2), DEN-induced HCC mouse model with liver-specific gp96 knockout, transcriptomics, co-immunoprecipitation, GST pull-down, molecular docking, and IHC analysis of 63 HCC patient samples
+- **Missing materials affecting confidence** Original blots, full transcriptomics dataset, uncropped gel images, statistical details for all comparisons, raw clinical data, and supplementary figures referenced but not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important clinical question regarding why a substantial proportion of HCC patients show normal serum AFP. The proposed mechanism involving gp96-mediated stabilization of NR5A2 through competitive inhibition of RanBP2 binding is novel and potentially significant. However, several technical concerns regarding experimental rigor, quantification, and statistical reporting need to be addressed before the conclusions can be fully supported. The clinical correlation is based on a modest sample size and requires validation.
+- **Who would be interested in the results, and why** Researchers in HCC biology, AFP regulation, heat shock protein function, nuclear receptor post-translational modification, and cancer biomarker development would find these results relevant. The proposed mechanism of gp96 modulating client protein stability via SUMOylation interference could have broader implications for understanding HSP90 family chaperone functions beyond protein folding.
+- **Major strengths** The study combines in vivo genetic models, in vitro mechanistic dissection, and clinical correlation. The identification of a specific interaction region (aa 507–536) in NR5A2 for both gp96 and RanBP2 binding is a notable finding. The competitive binding model is supported by multiple complementary approaches including co-IP, GST pull-down, and molecular docking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that gp96 and RanBP2 competitively bind to NR5A2 at overlapping sites spanning aa 507–536, and that this competition is the mechanistic basis for gp96-mediated NR5A2 stabilization.
+  - **Evidence pointer** Results section "Cellular gp96 inhibits the interaction of RanBP2 with NR5A2" and "The binding sites in NR5A2 overlap for gp96 and RanBP2"; Figures 5 and 6
+  - **Concern** The competitive binding model is supported by co-IP and GST pull-down experiments, but the evidence for direct competition is indirect. The authors show that gp96 overexpression reduces NR5A2-RanBP2 interaction and that both proteins bind overlapping regions, but they do not perform a direct competition assay with increasing concentrations of one protein against a fixed amount of the other. The molecular docking results are computational predictions and should be validated experimentally with mutagenesis of the proposed interface residues.
+  - **Why it matters** The central mechanistic claim of the paper rests on the competitive binding model. Without direct evidence of competition, alternative explanations such as gp96-induced conformational changes in NR5A2 or indirect effects through other proteins cannot be excluded.
+  - **Resolution test** Perform in vitro competition assays with purified proteins, titrating gp96 against fixed NR5A2-RanBP2 complexes. Additionally, mutate key residues in the proposed binding interface (aa 507–536) and test whether this abolishes both gp96 and RanBP2 binding and whether the mutant NR5A2 is resistant to gp96-mediated stabilization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that gp96 knockdown reduces NR5A2 protein stability and that this is mediated through enhanced SUMOylation and ubiquitination.
+  - **Evidence pointer** Results section "Cellular gp96 interacts with NR5A2 and enhances its stability"; Figures 4 and 5
+  - **Concern** The protein stability experiments are described only briefly. The authors state that gp96 knockdown caused a dramatic reduction in NR5A2 protein stability (Figure 4F), but the methodology for this assay is not described in the Materials and methods. It is unclear whether cycloheximide chase or pulse-chase experiments were performed, and the half-life values are not reported. Additionally, the ubiquitination and SUMOylation assays appear to be performed under denaturing conditions, but this is not explicitly stated.
+  - **Why it matters** The claim that gp96 stabilizes NR5A2 by blocking SUMOylation-dependent ubiquitination requires rigorous demonstration that the observed changes in ubiquitination and SUMOylation are direct and not secondary to other effects. Without proper methodology details, the results cannot be evaluated or reproduced.
+  - **Resolution test** Provide detailed methodology for protein stability assays, including the specific inhibitor used, time points, and quantification method. Clarify whether ubiquitination and SUMOylation assays were performed under denaturing conditions to detect only covalently modified proteins. Include half-life calculations and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that clinical data show a positive correlation between tumor gp96 expression and serum AFP levels in HCC patients, and that low gp96 expression explains normal AFP in a substantial proportion of HCC patients.
+  - **Evidence pointer** Results section "gp96 expression in liver tumors correlates with serum AFP levels in HCC patients"; Figure 7 and Table 1
+  - **Concern** The clinical analysis is based on 63 HCC patients from a single center. The correlation coefficient is reported as R2=10.177, which appears to be a typographical error as R2 values cannot exceed 1. The statistical method used to assess correlation is not described. The authors categorize gp96 expression into three groups but do not provide the distribution of patients across these categories or the median AFP levels for each group. The claim that low gp96 expression explains normal AFP in a substantial proportion of patients requires a direct comparison of AFP-negative versus AFP-positive HCC cases.
+  - **Why it matters** The clinical correlation is a key translational aspect of the study. If the statistical reporting is incorrect or the analysis is not robust, the clinical significance of the findings is weakened.
+  - **Resolution test** Correct the reported R2 value and describe the statistical test used. Provide a scatter plot of gp96 expression versus serum AFP with the correlation coefficient and p-value. Perform a subgroup analysis comparing AFP-negative and AFP-positive HCC patients to directly test the claim that low gp96 explains normal AFP.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that gp96 regulates AFP expression mainly through NR5A2, based on siRNA experiments showing that NR5A2 knockdown largely restores AFP promoter activity suppressed by gp96 knockdown.
+  - **Evidence pointer** Results section "Cellular gp96 promotes AFP expression mainly through the transcription factor NR5A2 in hepatoma cells"; Figure 3
+  - **Concern** The rescue experiment with NR5A2 siRNA shows only partial restoration of promoter activity. The authors do not report the efficiency of NR5A2 knockdown or whether the residual AFP expression could be attributed to other transcription factors. The specificity of the effect is not fully established, as the authors do not test whether overexpression of NR5A2 in gp96-knockdown cells fully rescues AFP expression.
+  - **Why it matters** The conclusion that NR5A2 is the main mediator of gp96-induced AFP expression requires more definitive evidence. Partial rescue could indicate that other factors contribute to the effect.
+  - **Resolution test** Report knockdown efficiency for NR5A2 siRNA. Perform overexpression rescue experiments with NR5A2 in gp96-knockdown cells. Test whether other AFP transcription factors identified in the study (e.g., HNF1, HNF4, C/EBPα) are also affected by gp96 and whether their knockdown has additive effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that gp96 promotes AFP expression "at the transcriptional level" but does not provide the magnitude of the effect or the experimental systems used. The phrase "blocking NR5A2 SUMOylation and ubiquitination" in the title is somewhat technical and may not be immediately clear to readers outside the SUMOylation field.
+  - **Required correction** Consider adding a brief explanation of what SUMOylation is in the abstract or introduction. Provide quantitative information about the effect size in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section "The effects of gp96 on the expression of AFP transcription factors"
+  - **Issue** The authors state that mutations within the binding sites of Nkx2.8 or NR5A2/HNF4 significantly suppressed AFP promoter activity, but the figure legend is not provided. It is unclear whether the mutations were in the promoter reporter construct or in the transcription factor expression vectors.
+  - **Required correction** Clarify in the text or figure legend what exactly was mutated and how the reporter assay was performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods section "Statistical analysis"
+  - **Issue** The statistical analysis section is very brief and does not describe which tests were used for which comparisons. The authors state that Student's t-test was used, but multiple comparisons may require ANOVA or non-parametric tests.
+  - **Required correction** Provide a more detailed description of the statistical methods, including how normality was assessed, which tests were used for each comparison, and how multiple testing was handled.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the clinical implications is somewhat speculative. The authors suggest that measuring gp96 could increase the sensitivity of AFP-based HCC diagnosis, but they do not discuss the practical challenges of measuring gp96 in clinical samples or the potential confounding factors.
+  - **Required correction** Add a brief discussion of the practical considerations for clinical translation, such as the need for validated assays and prospective studies.
+
+## Risk / unsupported claims
+- The claim that gp96 and RanBP2 competitively bind to NR5A2 is not directly demonstrated; the evidence is indirect and computational.
+- The reported correlation coefficient R2=10.177 in the clinical analysis is mathematically impossible and appears to be a typographical error.
+- The claim that low gp96 expression explains normal AFP in a substantial proportion of HCC patients is not directly tested with a comparison of AFP-negative versus AFP-positive cases.
+- The claim that gp96 regulates AFP expression "mainly" through NR5A2 is only partially supported by the rescue experiments, which show incomplete restoration.
+- The statement that gp96 and RanBP2 binding sites span aa 507–536 is based on molecular docking and deletion constructs, but no mutagenesis validation is provided.
+- The claim that gp96 affects NR5A2 stability is based on experiments whose methodology is not fully described, making the results difficult to evaluate.

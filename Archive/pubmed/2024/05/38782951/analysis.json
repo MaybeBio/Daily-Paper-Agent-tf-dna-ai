@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38782951",
+  "title": "Characterization of clinical data for patient stratification in moderate osteoarthritis with support vector machines, regulatory network models, and verification against osteoarthritis Initiative data.",
+  "authors": "Segarra-Queralt, Maria; Galofre, Mar; Tio, Laura; Monfort, Jordi; Monllau, Joan Carlos; Piella, Gemma; Noailly, Jerome",
+  "journal": "Scientific reports",
+  "published_date": "2024-05-24",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用SVM和调控网络模型对骨关节炎患者进行分层，虽涉及转录因子激活，但核心是临床表型分类而非蛋白质-DNA互作建模，方法无AI/物理模拟创新，与本课题关联较弱。",
+  "abstract": "Knee osteoarthritis (OA) diagnosis is based on symptoms, assessed through questionnaires such as the WOMAC. However, the inconsistency of pain recording and the discrepancy between joint phenotype and symptoms highlight the need for objective biomarkers in knee OA diagnosis. To this end, we study relationships among clinical and molecular data in a cohort of women (n = 51) with Kellgren-Lawrence grade 2-3 knee OA through a Support Vector Machine (SVM) and a regulation network model. Clinical descriptors (i.e., pain catastrophism, depression, functionality, joint pain, rigidity, sensitization and synovitis) are used to classify patients. A Youden's test is performed for each classifier to determine optimal binarization thresholds for the descriptors. Thresholds are tested against patient stratification according to baseline WOMAC data from the Osteoarthritis Initiative, and the mean accuracy is 0.97. For our cohort, the data used as SVM inputs are knee OA descriptors, synovial fluid proteomic measurements (n = 25), and transcription factor activation obtained from regulatory network model stimulated with the synovial fluid measurements. The relative weights after classification reflect input importance. The performance of each classifier is evaluated through ROC-AUC analysis. The best classifier with clinical data is pain catastrophism (AUC = 0.9), highly influenced by funcionality and pain sensetization, suggesting that kinesophobia is involved in pain perception. With synovial fluid proteins used as input, leptin strongly influences every classifier, suggesting the importance of low-grade inflammation. When transcription factors are used, the mean AUC is limited to 0.608, which can be related to the pleomorphic behaviour of osteoarthritic chondrocytes. Nevertheless, funcionality has an AUC of 0.7 with a decisive importance of FOXO downregulation. Though larger and longitudinal cohorts are needed, this unique combination of SVM and regulatory network model shall help to stratify knee OA patients more objectively.",
+  "abstract_zh": "膝骨关节炎（knee osteoarthritis, OA）的诊断基于症状，通过WOMAC等问卷进行评估。然而，疼痛记录的不一致性以及关节表型与症状之间的差异，凸显了在膝OA诊断中需要客观生物标志物。为此，我们在一组患有Kellgren-Lawrence 2-3级膝OA的女性队列（n = 51）中，通过支持向量机（Support Vector Machine, SVM）和调控网络模型研究临床与分子数据之间的关系。临床描述符（即疼痛灾难化、抑郁、功能性、关节疼痛、僵硬、敏化和滑膜炎）用于对患者进行分类。对每个分类器进行Youden检验，以确定描述符的最佳二值化阈值。根据骨关节炎倡议（Osteoarthritis Initiative）的基线WOMAC数据对患者分层进行阈值测试，平均准确率为0.97。在我们的队列中，用作SVM输入的数据包括膝OA描述符、滑液蛋白质组测量值（n = 25），以及由滑液测量值刺激调控网络模型获得的转录因子激活。分类后的相对权重反映输入重要性。每个分类器的性能通过ROC-AUC分析评估。使用临床数据的最佳分类器是疼痛灾难化（AUC = 0.9），受功能性和疼痛敏化影响较大，提示运动恐惧症参与疼痛感知。当使用滑液蛋白作为输入时，瘦素强烈影响每个分类器，表明低度炎症的重要性。当使用转录因子时，平均AUC限于0.608，这可能与骨关节炎软骨细胞的多形性行为有关。尽管如此，功能性的AUC为0.7，且FOXO下调具有决定性重要性。尽管需要更大规模和纵向队列研究，但这种SVM与调控网络模型的独特组合应有助于更客观地对膝OA患者进行分层。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38782951/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38782951/",
+  "paper_page_path": "papers/pubmed/38782951/index.html"
+}

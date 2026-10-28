@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that pioneer transcription factors (PTFs) use a "confined target search" mechanism, alternating between fast free diffusion and slower confined diffusion within mesoscale chromatin domains, to access closed chromatin regions. They link this behavior to specific histone-interacting disordered regions, distinct from DNA-binding domains, and support the model with single-molecule imaging, super-resolved microscopy, and kinetic simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, all figures and supplementary data, statistical analyses, simulation parameters, and experimental controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant model for how PTFs navigate closed chromatin, with a plausible mechanistic link between mesoscale chromatin organization, confined diffusion, and target search efficiency. However, the evidence base is limited to the abstract, and several key claims require detailed validation that cannot be assessed from the supplied material. The conceptual advance is notable, but the strength of the causal chain from imaging observations to functional pioneer activity remains unclear without full data.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and transcription factor dynamics would find this relevant, as it addresses a long-standing question about how PTFs access closed chromatin. The proposed mechanism could also interest biophysicists studying intracellular diffusion and computational biologists modeling target search processes.
+- **Major strengths** The abstract identifies a novel behavioral distinction between PTFs and non-PTFs, linking single-molecule dynamics to chromatin architecture. The proposal that disordered regions, separate from DNA-binding domains, mediate confinement and pioneer activity is a testable and potentially generalizable concept. The inclusion of kinetic simulations to support the functional benefit of confinement adds a quantitative dimension.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that "specific histone-interacting disordered regions, distinct from DNA-binding domains, [are] crucial for confined target search kinetics and pioneer activity within closed chromatin"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that these disordered regions are "crucial" for both kinetics and pioneer activity, but no quantitative data, mutation details, or functional assays are described. It is unclear whether the effect is specific to the identified regions or a general consequence of altering protein structure.  
+  - **Why it matters** This is a central mechanistic claim that distinguishes the work from prior studies. Without evidence showing that deletion or mutation of these regions specifically disrupts confined diffusion and pioneer activity, while leaving DNA binding intact, the causal link is not established.  
+  - **Resolution test** Provide data from targeted mutations or truncations showing loss of confined diffusion and reduced pioneer activity, with controls for DNA-binding affinity and protein stability.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The claim that "PTFs such as FOXA1, FOXA2, SOX2, OCT4 and KLF4 sampled chromatin more frequently than non-PTF MYC"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports a comparative frequency of chromatin sampling, but no statistical measures, effect sizes, or sample numbers are given. It is not possible to assess whether the difference is robust across cell types, conditions, or biological replicates.  
+  - **Why it matters** This comparison underpins the specificity of the proposed mechanism to PTFs. If the difference is marginal or context-dependent, the generalizability of the model is weakened.  
+  - **Resolution test** Include statistical comparisons with confidence intervals and replicate numbers, and show that the effect is consistent across multiple PTFs and cell lines.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** The claim that "kinetic simulations suggested that transient confinement could increase target association rate by shortening search time and binding repeatedly"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The simulation outcome is described as "suggested," but no parameters, model assumptions, or sensitivity analyses are provided. It is unclear whether the simulation reflects realistic chromatin dynamics or whether the predicted increase is biologically significant.  
+  - **Why it matters** The simulation is used to provide a mechanistic rationale for the observed behavior. Without validation against experimental data or alternative models, the conclusion remains speculative.  
+  - **Resolution test** Provide simulation details, parameter ranges, and a comparison of predicted versus measured target association rates, including a test of alternative search models.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Functional relevance  
+  - **Claim pointer** The claim that "fusion to other factors enhanced pioneer activity"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that fusion enhances pioneer activity, but the target factors, assay systems, and magnitude of enhancement are not described. It is unclear whether this is a general effect or specific to certain contexts.  
+  - **Why it matters** This finding could have practical implications for engineering transcription factors, but without details, its robustness and mechanism are unassessable.  
+  - **Resolution test** Describe the fusion constructs, the pioneer activity assay, and the quantitative enhancement observed, with appropriate controls.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "mesoscale zones"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "mesoscale zones" is used without a size range or structural definition, which may confuse readers unfamiliar with chromatin architecture.  
+  - **Required correction** Provide a quantitative definition, such as a size range in nanometers, and relate it to known chromatin structures.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "confined target search"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase is introduced as a mechanism, but it is not clearly distinguished from prior models of facilitated diffusion or hopping.  
+  - **Required correction** Briefly contrast this mechanism with existing search models to clarify the conceptual novelty.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Generalizability of findings  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract focuses on FOXA1 and FOXA2 for super-resolution imaging, but it is unclear whether the confinement behavior is quantitatively similar across all PTFs tested.  
+  - **Required correction** State whether the mesoscale confinement phenotype is uniform across PTFs or varies in degree.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to missing quantitative evidence, lack of statistical detail, and unvalidated simulation predictions, all of which are essential to support the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed confined target search mechanism is a novel conceptual contribution, distinct from prior diffusion-based models.  
+  - Scientific importance: The work addresses a fundamental question in gene regulation, with potential implications for understanding cell fate control and designing synthetic transcription factors.  
+  - Interdisciplinary readership: The topic bridges cell biology, biophysics, and computational modeling, which could attract a broad audience.  
+  - Technical soundness: Cannot be fully assessed from the abstract; the imaging and simulation approaches are appropriate in principle, but validation is incomplete.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "mesoscale" and "confined target search" require more context for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, but the current abstract-level evidence is insufficient to establish the causal claims. Full data on mutations, statistics, and simulations are required.
+
+## Risk / unsupported claims
+- The claim that disordered regions are "crucial" for pioneer activity is unsupported without mutation or deletion data.
+- The comparative claim of higher chromatin sampling frequency in PTFs versus MYC is unquantified and lacks statistical backing.
+- The simulation-based prediction of increased target association rate is unvalidated and lacks parameter transparency.
+- The statement that "fusion to other factors enhanced pioneer activity" is vague and not assessable without assay details.
+- The generalizability of the confined search mechanism across all PTFs is not established from the abstract.

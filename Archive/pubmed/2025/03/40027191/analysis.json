@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40027191",
+  "title": "Galactose-Induced Cataracts in Rats: A Machine Learning Analysis.",
+  "authors": "Al-Mashhadani, Ahmed Jasim Mahmood; Gong, Qi; Shehaj, Franko; Zhou, Lianhong",
+  "journal": "International journal of medical sciences",
+  "published_date": "2025-03-03",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习分析大鼠半乳糖性白内障的基因表达，但对象为疾病表型而非蛋白质-DNA互作，无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Background: Rat models are widely used to study cataracts due to their cost-effectiveness and prominent physiological and genetic similarities to humans The objective of this study was to identify genes involved in cataractogenesis due to galactose exposure in rats. Methods: We analyzed four datasets from the Gene Expression Omnibus, including both ex vivo and in vivo models of cataracts in different rat strains. Feature selection tools were used to identify genes potentially relevant in cataract-related gene expression. A decision tree algorithm was implemented, and its predictions were interpreted using SHAP and LIME. To validate gene expression levels, PCR was conducted on six rat lenses cultured in M199 medium and galactose to induce cataract and six lenses cultured in M199 alone. Results: Using feature selection tools, four key genes-PLAGL2, CMTM7, PCYT1B, and NR1D2-were identified. Only PCYT1B was significantly differentially expressed between the cataract and control groups across analyzed datasets. The model showed strong predictive performance, particularly in ex vivo datasets. SHAP and LIME analyses revealed that CMTM7 had the largest impact on model predictions. PCR results did not show significant differences in gene expression between the cataract and control groups. Conclusion: The decision tree model trained on an in vivo dataset could predict ex vivo and in vivo cataracts despite no significant gene expression differences found between the cataract and control groups. Given a small number of samples, larger studies are needed to validate our findings.",
+  "abstract_zh": "背景：大鼠模型因其成本效益高以及与人类显著的生理和遗传相似性，被广泛用于研究白内障。本研究旨在识别因半乳糖暴露导致大鼠白内障发生过程中涉及的基因。方法：我们分析了来自基因表达综合数据库（Gene Expression Omnibus）的四个数据集，涵盖不同大鼠品系的离体和在体白内障模型。使用特征选择工具识别可能与白内障相关基因表达相关的基因。实施决策树算法，并利用SHAP和LIME解释其预测结果。为验证基因表达水平，对六只培养于含半乳糖的M199培养基中以诱导白内障的大鼠晶状体，以及六只仅培养于M199培养基中的晶状体进行了PCR检测。结果：通过特征选择工具，识别出四个关键基因——PLAGL2、CMTM7、PCYT1B和NR1D2。在分析的数据集中，仅PCYT1B在白内障组和对照组之间表现出显著差异表达。模型显示出较强的预测性能，尤其在离体数据集中。SHAP和LIME分析揭示，CMTM7对模型预测的影响最大。PCR结果未显示白内障组和对照组之间基因表达存在显著差异。结论：尽管白内障组和对照组之间未发现显著基因表达差异，但基于在体数据集训练的决策树模型能够预测离体和在体白内障。鉴于样本数量较少，需要更大规模的研究来验证我们的发现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40027191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40027191/",
+  "paper_page_path": "papers/pubmed/40027191/index.html"
+}

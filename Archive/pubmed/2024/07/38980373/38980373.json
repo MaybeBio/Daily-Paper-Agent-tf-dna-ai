@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "38980373",
+    "doi": "10.1093/bib/bbae334",
+    "title": "DeepGRNCS: deep learning-based framework for jointly inferring gene regulatory networks across cell subpopulations."
+  },
+  "content": {
+    "abstract": "Inferring gene regulatory networks (GRNs) allows us to obtain a deeper understanding of cellular function and disease pathogenesis. Recent advances in single-cell RNA sequencing (scRNA-seq) technology have improved the accuracy of GRN inference. However, many methods for inferring individual GRNs from scRNA-seq data are limited because they overlook intercellular heterogeneity and similarities between different cell subpopulations, which are often present in the data. Here, we propose a deep learning-based framework, DeepGRNCS, for jointly inferring GRNs across cell subpopulations. We follow the commonly accepted hypothesis that the expression of a target gene can be predicted based on the expression of transcription factors (TFs) due to underlying regulatory relationships. We initially processed scRNA-seq data by discretizing data scattering using the equal-width method. Then, we trained deep learning models to predict target gene expression from TFs. By individually removing each TF from the expression matrix, we used pre-trained deep model predictions to infer regulatory relationships between TFs and genes, thereby constructing the GRN. Our method outperforms existing GRN inference methods for various simulated and real scRNA-seq datasets. Finally, we applied DeepGRNCS to non-small cell lung cancer scRNA-seq data to identify key genes in each cell subpopulation and analyzed their biological relevance. In conclusion, DeepGRNCS effectively predicts cell subpopulation-specific GRNs. The source code is available at https://github.com/Nastume777/DeepGRNCS.",
+    "keywords": [
+      "deep learning model",
+      "gene regulatory networks",
+      "intercellular heterogeneity",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "Transcription Factors/genetics/metabolism",
+      "Computational Biology/methods",
+      "Sequence Analysis, RNA/methods",
+      "RNA-Seq/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lei, Yahui",
+        "Huang, Xiao-Tai",
+        "Guo, Xingli",
+        "Hang Katie Chan, Kei",
+        "Gao, Lin"
+      ],
+      "short_names": [
+        "Lei Y",
+        "Huang XT",
+        "Guo X",
+        "Hang Katie Chan K",
+        "Gao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China.",
+        "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China.",
+        "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China.",
+        "Department of Electrical Engineering, City University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Biomedical Sciences, City University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Epidemiology and Center for Global Cardiometabolic Health, Brown University, Providence, RI, United States.",
+        "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lei, Yahui",
+        "short_name": "Lei Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiao-Tai",
+        "short_name": "Huang XT",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xingli",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Hang Katie Chan, Kei",
+        "short_name": "Hang Katie Chan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering, City University of Hong Kong, Hong Kong SAR, China.",
+          "Department of Biomedical Sciences, City University of Hong Kong, Hong Kong SAR, China.",
+          "Department of Epidemiology and Center for Global Cardiometabolic Health, Brown University, Providence, RI, United States."
+        ]
+      },
+      {
+        "full_name": "Gao, Lin",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an 710071, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 12:43",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42353763",
+      "41498638",
+      "40601182",
+      "39960893",
+      "39763611"
+    ],
+    "refs": [
+      "38514966",
+      "38291364",
+      "38217125",
+      "37985457",
+      "36733706",
+      "35961023",
+      "35027529",
+      "34962260",
+      "34424948",
+      "34179690",
+      "33407675",
+      "33119511",
+      "33026066",
+      "32811424",
+      "32690031",
+      "32588900",
+      "32135093",
+      "31971577",
+      "31907445",
+      "31870423",
+      "31822622",
+      "31794418",
+      "31780666",
+      "31768052",
+      "30677040",
+      "30445495",
+      "30329142",
+      "30288055",
+      "29801503",
+      "29467401",
+      "29440769",
+      "29425488",
+      "29028984",
+      "28968704",
+      "28957658",
+      "28934120",
+      "28379368",
+      "27993778",
+      "23707782",
+      "20927193",
+      "10592173"
+    ],
+    "similar": [
+      "38980373",
+      "40251476",
+      "40062616",
+      "38950180",
+      "41288963",
+      "37985457",
+      "39062480",
+      "41052197",
+      "41043336",
+      "40662821",
+      "39960893",
+      "37085776",
+      "37004161",
+      "37686146",
+      "36168811",
+      "38653489",
+      "35961023",
+      "42059479",
+      "41191474",
+      "42225598",
+      "41300707",
+      "41317402",
+      "39417321",
+      "30547796",
+      "41896196",
+      "40220759",
+      "35050715",
+      "42378449",
+      "41984780",
+      "35692809",
+      "38810116",
+      "40116659",
+      "29879919",
+      "41354912",
+      "40591481",
+      "40654959",
+      "41871930",
+      "41329984",
+      "38744843",
+      "39578307",
+      "38892162",
+      "40409400",
+      "33026066",
+      "40956752",
+      "40708222",
+      "34251625",
+      "39487083",
+      "33876191",
+      "39679439",
+      "37244909",
+      "39605181",
+      "41067887",
+      "39975293",
+      "39082647",
+      "41257571",
+      "34424948",
+      "38896510",
+      "36070863",
+      "40977264",
+      "42061403",
+      "39694856",
+      "40838782",
+      "40983951",
+      "40699953",
+      "39939367",
+      "34962260",
+      "39585902",
+      "41746287",
+      "41139927",
+      "39535258",
+      "38261340",
+      "36585783",
+      "38342857",
+      "39311699",
+      "39376034",
+      "39036845",
+      "39508444",
+      "39684451",
+      "39708840",
+      "39881248",
+      "39762897",
+      "39504481",
+      "37897702",
+      "40094454",
+      "40444783",
+      "40188497",
+      "40713495",
+      "40797190",
+      "41009952",
+      "40426257",
+      "41883144",
+      "40671174",
+      "41330999",
+      "40197174",
+      "38976751",
+      "40152244",
+      "40037709",
+      "36877552",
+      "41093852",
+      "39900656"
+    ],
+    "review": [
+      "38980373",
+      "39939367"
+    ],
+    "pmc": [
+      "11232306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38980373.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38980373/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38980373",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae334",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

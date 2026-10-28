@@ -1,0 +1,470 @@
+{
+  "identity": {
+    "pmid": "36591240",
+    "doi": "10.3389/fimmu.2022.1080403",
+    "title": "Integration analysis identifies MYBL1 as a novel immunotherapy biomarker affecting the immune microenvironment in clear cell renal cell carcinoma: Evidence based on machine learning and experiments."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Previous studies have identified MYBL1 as a cancer-promoting molecule in numerous types of cancer. Nevertheless, the role of MYBL in renal cancer remains unclear. METHODS: Genomic and clinical data of clear cell renal cell carcinoma (ccRCC) was get from the Cancer Genome Atlas (TCGA) database. CCK8, colony formation, and 5-ethynyl-2'-deoxyuridine assay were utilized to evaluate the performance of cell proliferation. Cell apoptosis was detected using the flow cytometric analysis. The protein level of MYBL1 in different tissues was evaluated using immunohistochemistry. A machine learning algorithm was utilized to identify the prognosis signature based on MYBL1-derived molecules. RESULTS: Here, we comprehensively investigated the role of MYBL1 in ccRCC. Here, we noticed a higher level of MYBL1 in ccRCC patients in both RNA and protein levels. Further analysis showed that MYBL1 was correlated with progressive clinical characteristics and worse prognosis performance. Biological enrichment analysis showed that MYBL1 can activate multiple oncogenic pathways in ccRCC. Moreover, we found that MYBL1 can remodel the immune microenvironment of ccRCC and affect the immunotherapy response. In vitro and in vivo assays indicated that MYBL1 was upregulated in ccRCC cells and can promote cellular malignant behaviors of ccRCC. Ultimately, an machine learning algorithm - LASSO logistics regression was utilized to identify a prognosis signature based on the MYBL1-derived molecules, which showed satisfactory prediction ability on patient prognosis in both training and validation cohorts. CONCLUSIONS: Our result indicated that MYBL1 is a novel biomarker of ccRCC, which can remodel the tumor microenvironment, affect immunotherapy response and guide precision medicine in ccRCC.",
+    "keywords": [
+      "MYBL1",
+      "ccRCC",
+      "immunotherapy",
+      "machine learning",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Algorithms",
+      "*Carcinoma, Renal Cell/genetics/immunology/therapy",
+      "*Kidney Neoplasms/genetics/immunology/therapy",
+      "Proto-Oncogene Proteins",
+      "Trans-Activators",
+      "*Tumor Microenvironment/genetics/immunology",
+      "Biomarkers, Tumor/genetics/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tengda",
+        "Jian, Wengang",
+        "Xue, Wei",
+        "Meng, Yuyang",
+        "Xia, Zhinan",
+        "Li, Qinchen",
+        "Xu, Shenhao",
+        "Dong, Yu",
+        "Mao, Anli",
+        "Zhang, Cheng"
+      ],
+      "short_names": [
+        "Wang T",
+        "Jian W",
+        "Xue W",
+        "Meng Y",
+        "Xia Z",
+        "Li Q",
+        "Xu S",
+        "Dong Y",
+        "Mao A",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China.",
+        "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China.",
+        "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China.",
+        "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China.",
+        "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tengda",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Wengang",
+        "short_name": "Jian W",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Wei",
+        "short_name": "Xue W",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Yuyang",
+        "short_name": "Meng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Zhinan",
+        "short_name": "Xia Z",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qinchen",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shenhao",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yu",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Anli",
+        "short_name": "Mao A",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Surgery Department, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "The Fourth Affiliated Hospital, International Institutes of Medicine, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/03 06:00",
+    "fetched_at": "2026-09-28 18:41:54"
+  },
+  "links": {
+    "cites": [
+      "42171882",
+      "40014967",
+      "40009128",
+      "39796135",
+      "38473786"
+    ],
+    "refs": [
+      "36183674",
+      "35987690",
+      "35727368",
+      "34922542",
+      "34777331",
+      "34674757",
+      "34461944",
+      "34306023",
+      "33148208",
+      "33106387",
+      "32178821",
+      "32123314",
+      "31535374",
+      "31053804",
+      "30127393",
+      "29625051",
+      "29344893",
+      "29092952",
+      "28296891",
+      "28143526",
+      "28096468",
+      "27890923",
+      "27765066",
+      "26631070",
+      "26610247",
+      "26359337",
+      "26318520",
+      "25385470",
+      "23797736",
+      "23633565",
+      "22455463",
+      "19237447",
+      "16199517",
+      "12401408"
+    ],
+    "similar": [
+      "36591240",
+      "38808948",
+      "39237939",
+      "39301023",
+      "39256647",
+      "33243605",
+      "32683301",
+      "36421841",
+      "36479115",
+      "33000227",
+      "34217993",
+      "38671348",
+      "36551318",
+      "37781030",
+      "36932108",
+      "34512816",
+      "38130918",
+      "39249558",
+      "35122734",
+      "38970690",
+      "38023190",
+      "39288623",
+      "37689589",
+      "34239350",
+      "38953023",
+      "38245436",
+      "39011666",
+      "39136845",
+      "32737216",
+      "32228647",
+      "37047824",
+      "36570012",
+      "38822402",
+      "32311223",
+      "38801430",
+      "37938155",
+      "35120484",
+      "37985807",
+      "37108666",
+      "32567187",
+      "32245446",
+      "31823423",
+      "30137025",
+      "38599101",
+      "36635779",
+      "37699648",
+      "36869574",
+      "30293904",
+      "37304236",
+      "36123627",
+      "38819232",
+      "37908350",
+      "37919459",
+      "34237133",
+      "34329838",
+      "36505496",
+      "36177018",
+      "36057262",
+      "34421357",
+      "35936012",
+      "38862242",
+      "36562383",
+      "37762031",
+      "31781309",
+      "38036719",
+      "33735492",
+      "32371459",
+      "35883015",
+      "38179741",
+      "38663187",
+      "38494845",
+      "35808868",
+      "37056778",
+      "39107475",
+      "35935986",
+      "36189255",
+      "33746989",
+      "35734169",
+      "32402768",
+      "32012488",
+      "35677048",
+      "34704468",
+      "36785707",
+      "36825082",
+      "38538287",
+      "36933049",
+      "35092501",
+      "34845968",
+      "35686121",
+      "35043231",
+      "35784363",
+      "34957313",
+      "35675366",
+      "38607586",
+      "37217993",
+      "31929144",
+      "38309289",
+      "27855702",
+      "31886185",
+      "35422048",
+      "37992987",
+      "36100323",
+      "33955826",
+      "37801479",
+      "37175461",
+      "35812372",
+      "37688768",
+      "33346915",
+      "38565604",
+      "37679715",
+      "37600786",
+      "36528763",
+      "38081888",
+      "39167430",
+      "33711273",
+      "31961022",
+      "36123895",
+      "27779101",
+      "36349258",
+      "34686501",
+      "35023290",
+      "38442575",
+      "38951896",
+      "34856762",
+      "38728235",
+      "39333254",
+      "36611973",
+      "35299868",
+      "37735297",
+      "31703694",
+      "32669964",
+      "30957284",
+      "35845137",
+      "36201853",
+      "38146369",
+      "30032137",
+      "33589528",
+      "32044664",
+      "31138299",
+      "33725966",
+      "31646670",
+      "31915310",
+      "34531849",
+      "37662929",
+      "35281041",
+      "34159861",
+      "35941663",
+      "36222186",
+      "35800227",
+      "32452055",
+      "36530957",
+      "30015930",
+      "36505457",
+      "35165523",
+      "38125441",
+      "38365923",
+      "38659199",
+      "32166404",
+      "37749329",
+      "37503331",
+      "38073441",
+      "39278398",
+      "37006234",
+      "38580922",
+      "38061153",
+      "36403525",
+      "37117633",
+      "37247081",
+      "36661693",
+      "31675502",
+      "37335139",
+      "36367018",
+      "38612943",
+      "37401412",
+      "37653791",
+      "36765369",
+      "38724393",
+      "39021735",
+      "38090653",
+      "39145002",
+      "37034217",
+      "36902242",
+      "37427103",
+      "29038551",
+      "38473786",
+      "37063301",
+      "37702445",
+      "37261105",
+      "37413991",
+      "38993563",
+      "37711200",
+      "37722291",
+      "36874021",
+      "35141144",
+      "37739440",
+      "37729872",
+      "27615548",
+      "34900744",
+      "37655535",
+      "33344220",
+      "38067341",
+      "36950245",
+      "38136342"
+    ],
+    "review": [
+      "36591240",
+      "33746989",
+      "27615548",
+      "38136342"
+    ],
+    "pmc": [
+      "9794576"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/36591240/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36591240/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36591240",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.1080403",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

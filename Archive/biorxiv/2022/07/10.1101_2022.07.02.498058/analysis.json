@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.02.498058",
+  "title": "SiRCle (Signature Regulatory Clustering) model integration reveals mechanisms of phenotype regulation in renal cancer",
+  "authors": "Mora A; Schmidt C; Balderson B; Frezza C; Bodén M",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-04",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出SiRCle多组学整合方法用于肾癌表型调控机制分析，虽涉及DNA甲基化与转录调控，但非蛋白质-DNA互作或TF-DNA结合建模，且方法为多组学统计与VAE，缺乏三维互作与物理模拟，仅边缘相关。",
+  "abstract": "Clear cell renal cell carcinoma (ccRCC) tumours develop and progress via complex remodelling of the kidney epigenome, transcriptome, proteome, and metabolome. Given the subsequent tumour and inter-patient heterogeneity, drug-based treatments report limited success, calling for multi-omics studies to extract regulatory relationships, and ultimately, to develop targeted therapies. However, current methods are unable to extract nonlinear multi-omics perturbations. Here, we present SiRCle ( Si gnature Re gulatory Cl ust e ring), a novel method to integrate DNA methylation, RNA-seq and proteomics data. Applying SiRCle to a case study of ccRCC, we disentangle the layer (DNA methylation, transcription and/or translation) where dys-regulation first occurs and find the primary biological processes altered. Next, we detect regulatory differences between patient subsets by using a variational autoencoder to integrate omics’ data followed by statistical comparisons on the integrated space. In ccRCC patients, SiRCle allows to identify metabolic enzymes and cell-type-specific markers associated with survival along with the likely molecular driver behind the gene’s perturbations.",
+  "abstract_zh": "透明细胞肾细胞癌（ccRCC）肿瘤的发生和发展涉及肾脏表观基因组、转录组、蛋白质组和代谢组的复杂重塑。鉴于随后的肿瘤异质性和患者间异质性，基于药物的治疗报告成功率有限，这要求进行多组学研究以提取调控关系，并最终开发靶向疗法。然而，当前方法无法提取非线性多组学扰动。在此，我们提出SiRCle（Si gnature Re gulatory Cl ust e ring），一种整合DNA甲基化、RNA-seq和蛋白质组数据的新方法。将SiRCle应用于ccRCC的案例研究，我们厘清了失调首次发生的层面（DNA甲基化、转录和/或翻译），并发现改变的主要生物过程。接下来，我们通过使用变分自编码器整合组学数据，随后对整合空间进行统计比较，检测患者亚群之间的调控差异。在ccRCC患者中，SiRCle能够识别与生存相关的代谢酶和细胞类型特异性标志物，以及基因扰动背后可能的分子驱动因素。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.02.498058",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.02.498058",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.02.498058/index.html"
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations using the UNRES force field with Gō-like potentials and NMR-derived distance restraints to study the binding mechanism between p300 Taz2 and p53 TAD2. They observe a metastable intermediate state, propose a three-stage binding process, and use machine-learning PathDetect-SOM to identify two binding pathways.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, convergence criteria, force field validation, restraint implementation details, PathDetect-SOM parameters, pathway definitions, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study of an important IDP recognition problem, but the evidence provided is insufficient to evaluate the validity of the central claims. The three-stage binding mechanism and the identification of two pathways are stated without quantitative support. The use of distance restraints to accelerate binding simulations raises questions about whether the observed process reflects native binding or is an artifact of the imposed constraints. The study addresses a biologically relevant question, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, p53 regulation, protein-protein recognition mechanisms, and computational methods for binding simulations would be interested. The work could inform understanding of how disordered regions achieve specificity despite low affinity, and the methodological approach may be relevant to those developing enhanced sampling or pathway analysis techniques.
+- **Major strengths** The study addresses a biologically important and mechanistically challenging question. The combination of a physics-based coarse-grained force field with machine-learning pathway analysis is methodologically interesting. The explicit focus on the binding process rather than static structures is valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "successful binding is achieved after a series of stages, including (1) protein collisions to initiate the formation of encounter complexes, (2) partial attachment of TAD2, and finally (3) full attachment of TAD2 to the correct binding pocket of Taz2."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The three-stage binding mechanism is presented as a definitive finding, but no quantitative evidence is provided. The abstract does not report how many independent simulations support this sequence, what fraction of trajectories followed this pathway, whether alternative sequences were observed, or how the stages were defined and distinguished. The use of distance restraints on intermolecular residue pairs may bias the system toward specific binding geometries, and the abstract does not clarify whether the observed stages are robust to the choice of restraints or initial conditions.
+  - **Why it matters** A central claim of the paper is the elucidation of a binding mechanism. Without statistical support and evidence that the mechanism is not an artifact of the simulation setup, the claim cannot be evaluated. The mechanism must be shown to be reproducible and robust to methodological choices.
+  - **Resolution test** Provide the number of successful binding events across all simulations, the fraction of trajectories exhibiting each stage in the proposed order, and a comparison of results with and without restraints or with different restraint sets. Show that the three-stage sequence is statistically dominant and not dependent on specific simulation conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "machine-learning-based PathDetect-SOM was used to identify two binding pathways, the encounter complexes, and the intermediate states."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The identification of two binding pathways is stated without any description of what distinguishes these pathways, how they were validated, or what statistical confidence is associated with the identification. PathDetect-SOM is a dimensionality reduction and clustering method, and the abstract does not explain how the method was applied, what features were used, how the number of pathways was determined, or whether the pathways are statistically distinct. The relationship between the two pathways and the three-stage mechanism is also unclear.
+  - **Why it matters** The pathway identification is a key novel contribution of the work. Without details on the method application and validation, the claim that two distinct pathways exist cannot be assessed. The reader cannot determine whether the two pathways are robust findings or artifacts of the clustering procedure.
+  - **Resolution test** Describe the PathDetect-SOM implementation, including input features, parameters, and criteria for defining distinct pathways. Provide statistical measures of pathway separation and stability, and show that the two pathways are reproducible across independent analyses or subsampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "a metastable intermediate state in which the middle helical segment of TAD2 is anchored in the binding pocket" was observed.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of a metastable intermediate state requires evidence of metastability, such as a free energy minimum, a residence time distribution, or a clear separation of timescales. The abstract does not report any quantitative measure of metastability, nor does it describe how the intermediate was identified, how long it persisted, or how it was distinguished from transient encounter complexes. The structural description of the intermediate is also minimal.
+  - **Why it matters** The intermediate state is presented as a significant finding that highlights the role of the TAD2 helix in directing recognition. Without evidence of metastability, the intermediate could be a transient artifact of the simulation protocol. The biological significance of the intermediate depends on its being a genuine populated state.
+  - **Resolution test** Provide free energy profiles or residence time distributions showing that the intermediate is a local minimum with a statistically significant population. Show that the intermediate is observed across multiple independent simulations and is not dependent on the specific initial placement of TAD2.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Taz2 was immobilized in a native-like conformation and disordered TAD2 was fully free."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** Immobilizing Taz2 in a native-like conformation removes conformational flexibility that may be functionally important. The abstract does not justify this choice or discuss its potential impact on the binding mechanism. If Taz2 conformational changes are part of the native binding process, the simulations would miss them. The abstract also does not specify how the immobilization was implemented or whether the native-like conformation was maintained throughout the simulations.
+  - **Why it matters** The validity of the proposed mechanism depends on the simulation model faithfully representing the physical system. If the immobilization of Taz2 biases the binding process, the observed stages and pathways may not reflect the true mechanism. The reader cannot assess the impact of this approximation without more detail.
+  - **Resolution test** Justify the immobilization choice with reference to experimental evidence or show that allowing Taz2 flexibility does not change the observed mechanism. Provide details on the immobilization implementation and demonstrate that the Taz2 conformation remained stable and native-like throughout the simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses the phrase "verbose but well-organized signal transduction" which is vague and not standard terminology. The opening could be more precise about the specific biological question being addressed.
+  - **Required correction** Rephrase to describe the specific signaling context in which p300 Taz2-p53 TAD2 recognition is relevant, using standard terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not report the simulation length, number of replicas, or system size. These are essential parameters for evaluating the statistical significance of the results.
+  - **Required correction** Add key simulation parameters to the abstract or indicate where they are reported in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Pathway identification
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The relationship between the "two binding pathways" and the "three stages" is not explicitly stated. It is unclear whether the pathways are alternative sequences of the same stages or distinct mechanisms.
+  - **Required correction** Clarify the relationship between the pathways and the stages, and define what distinguishes the two pathways from each other.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The central claims of a three-stage mechanism, two distinct pathways, and a metastable intermediate are all unsupported by quantitative evidence in the abstract. The simulation protocol includes a potentially biasing restraint scheme that is not adequately justified.
+- **Assessment against Nature-style criteria** Originality: The combination of UNRES with Gō-like potentials, distance restraints, and machine-learning pathway analysis is methodologically interesting, but the abstract does not establish that the findings are conceptually novel beyond what is already known about IDP binding. Scientific importance: The p53-p300 interaction is biologically significant, and understanding IDP recognition mechanisms is an important problem. However, the abstract does not demonstrate that the findings substantially advance this understanding. Interdisciplinary readership: The work bridges computational chemistry, biophysics, and cancer biology, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: The simulation approach is reasonable in principle, but the abstract provides insufficient evidence to evaluate the validity of the results. Readability for nonspecialists: The abstract is accessible in structure but lacks the explanatory context needed for a general scientific audience to appreciate the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study with interesting methodological elements, but the central claims are not supported by quantitative evidence in the provided material. The authors should provide statistical support for the mechanism, intermediate state, and pathway identification, and justify the simulation protocol choices.
+
+## Risk / unsupported claims
+- The three-stage binding mechanism is unsupported by quantitative evidence in the abstract.
+- The identification of two binding pathways is unsupported by methodological details or validation.
+- The metastable intermediate state is unsupported by evidence of metastability.
+- The claim that the TAD2 helix "directs" protein recognition is an interpretation that is not directly supported by the evidence presented.
+- The biological relevance of the findings to native p300 Taz2-p53 TAD2 binding is not established given the use of restraints and immobilization.

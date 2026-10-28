@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42289463",
+  "title": "Uncovering core regulators of multi-abiotic stress adaptation in Arabidopsis thaliana through integrative meta-analysis and machine learning with RT-qPCR validation.",
+  "authors": "Mehdizadeh Hakkak, Maryam; Tohidfar, Masoud",
+  "journal": "Scientific reports",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过转录组荟萃分析和机器学习识别拟南芥多胁迫响应核心调控因子，涉及转录因子表达统计与共表达网络，但无蛋白质-DNA互作建模或结合机制研究，仅边缘相关。",
+  "abstract": "Abiotic stresses such as drought and salinity impose substantial constraints on agricultural productivity, underscoring the need to decipher the core transcriptional programs that underlie plant resilience. Here, we performed an integrative meta-analysis of Arabidopsis thaliana transcriptomes exposed to drought, salt, and abscisic acid (ABA) treatments. The three stresses exhibited distinct transcriptional architectures: salt stress triggered the most extensive reprogramming (957 DEGs), dominated by pronounced induction of ERF transcription factors (32 genes); drought induced a moderate response (634 DEGs), with NAC (9 genes) and MYB (8 genes) families most represented; and ABA elicited the smallest transcriptional shift (608 DEGs), characterized primarily by ERF and NAC regulators (9 genes each). From the shared stress-responsive gene set, a consensus machine learning framework integrating XGBoost, Random Forest, and AdaBoost identified eight high-confidence predictive biomarkers. To focus on novel discoveries, four candidates with less-established roles in stress signaling-At5g50360, At1g73480, At3g46230, and At1g16850-were prioritized for experimental validation. RT-qPCR analysis confirmed their robust induction under osmotic stress, while the weaker responses of At3g46230 and At1g16850 to exogenous ABA reflected their distinct cis-regulatory architectures, indicating activation through ABA-independent or combinatorial pathways. To link these hub genes to upstream regulation, Pearson correlation analysis across all biological replicates revealed strong positive correlations with ten commonly upregulated TFs (r = 0.67-0.90) and consistent negative correlations with a downregulated repressor (At5g28770, r = - 0.47 to - 0.74), consistent with both activation and de-repression mechanisms. Protein-protein interaction networks further positioned these genes within key stress-related modules, including ABA signaling, lipid metabolism, chaperone networks, and osmotic stress adaptation. Collectively, the integration of large-scale transcriptomic meta-analysis, ensemble machine learning, co-expression analysis, interaction network modeling, and experimental validation defines a conserved abiotic stress-responsive transcriptional signature and prioritizes candidate regulators for future functional characterization in plant stress biology.",
+  "abstract_zh": "干旱和盐分等非生物胁迫对农业生产率构成重大制约，因此亟需解析植物抗逆性背后的核心转录程序。在此，我们对拟南芥（Arabidopsis thaliana）在干旱、盐和脱落酸（ABA）处理下的转录组进行了整合性荟萃分析。三种胁迫表现出截然不同的转录架构：盐胁迫触发了最广泛的转录重编程（957个差异表达基因，DEGs），以ERF转录因子（32个基因）的显著诱导为主导；干旱诱导了中等程度的响应（634个DEGs），其中NAC（9个基因）和MYB（8个基因）家族最具代表性；而ABA引发了最小的转录变化（608个DEGs），主要特征为ERF和NAC调控因子（各9个基因）。基于共享的胁迫响应基因集，一个整合XGBoost、随机森林（Random Forest）和AdaBoost的共识机器学习框架识别出八个高置信度预测性生物标志物。为聚焦新发现，四个在胁迫信号中作用尚不明确的候选基因——At5g50360、At1g73480、At3g46230和At1g16850——被优先用于实验验证。RT-qPCR分析确认了它们在渗透胁迫下的强烈诱导，而At3g46230和At1g16850对外源ABA的较弱响应反映了它们独特的顺式调控架构，表明其通过不依赖ABA或组合途径被激活。为将这些枢纽基因与上游调控联系起来，对所有生物学重复进行的Pearson相关分析揭示了它们与十个共同上调转录因子（r = 0.67-0.90）的强正相关，以及与一个下调抑制因子（At5g28770，r = -0.47至-0.74）的一致负相关，这与激活和去抑制两种机制均相符。蛋白质-蛋白质相互作用网络进一步将这些基因定位在关键胁迫相关模块中，包括ABA信号、脂质代谢、伴侣网络和渗透胁迫适应。总体而言，大规模转录组荟萃分析、集成机器学习、共表达分析、相互作用网络建模和实验验证的整合，定义了一个保守的非生物胁迫响应转录特征，并为未来植物胁迫生物学中的功能表征优先筛选了候选调控因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42289463/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42289463/",
+  "paper_page_path": "papers/pubmed/42289463/index.html"
+}

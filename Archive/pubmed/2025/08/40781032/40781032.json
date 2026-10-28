@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40781032",
+    "doi": "10.1016/j.scib.2025.07.009",
+    "title": "Integrative scATAC-seq and mtDNA mutation analysis reveals disease-driven regulatory aberrations in AML."
+  },
+  "content": {
+    "abstract": "Disturbances in transcriptional regulation during hematopoiesis can lead to aberrant hematopoietic differentiation and potential leukemogenesis. Given the high relapse risk of acute myeloid leukemia (AML), understanding its progression mechanisms and identifying prognostic biomarkers are crucial for improving treatment outcomes. Here, we applied a mitochondrial single-cell assay for transposase-accessible chromatin with sequencing mitochondria single-cell ATAC-seq (mtscATAC-seq), supplemented with single-cell RNA-seq, to comprehensively characterize AML cells. By constructing a single-cell hematopoiesis reference and mapping tumor cells to it, we identified significant alterations in chromatin accessibility of cis-regulatory elements (CREs) associated with AML differentiation. Using an in-house developed algorithm, cisGRN, we analyzed CRE dynamics and discovered that mutations in the zinc finger domain of WT1 are associated with decreased chromatin accessibility and hypermethylation at the regulatory regions of their target genes, leading to gene downregulation. Functional validation confirmed the pathogenic effects of five WT1 zinc finger mutations: R467Q, R467L, R467W, H470Y, and H470R. Additionally, we identified a CRE mutation that emerges early in hematopoiesis, introducing a new binding motif for CCAAT enhancer binding protein beta (CEBPB), which facilitates its binding to the enhancer, activating enhancer activity and GATA binding protein 4 (GATA4) expression, thereby promoting AML proliferation. These effects were validated through luciferase reporter assays and prime editing experiments. Using mitochondria DNA tracing and machine learning modeling, we identified relapse-associated clones resembling leukemia stem cells (LSCs) and uncovered marker genes in the clones that more accurately predict drug resistance and relapse risk. Collectively, our findings underscore the utility of combining mtscATAC-seq, lineage tracing, and gene regulatory network (GRN) analysis to uncover aberrant regulatory changes and track relapse-prone AML clones.",
+    "keywords": [
+      "AML relapse",
+      "Gene regulatory network",
+      "Lineage tracing",
+      "Non-coding mutations"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Gene Expression Analysis",
+      "Leukemia, Myeloid, Acute/genetics/pathology",
+      "DNA Mutational Analysis",
+      "Mutation",
+      "*DNA, Mitochondrial/genetics",
+      "Hematopoiesis/genetics",
+      "Chromatin/genetics/metabolism",
+      "Zinc Fingers/genetics",
+      "WT1 Proteins/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Mitochondria/genetics",
+      "GATA4 Transcription Factor/genetics/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Chen",
+        "Dong, Yijun",
+        "Sun, Xin",
+        "Xu, Longchen",
+        "Ma, Xiaoli",
+        "Tao, Yuwei",
+        "Wang, Fang",
+        "Zhang, Haohang",
+        "Li, Jie",
+        "Li, Kun",
+        "Chen, Yasong",
+        "Liu, Hongxing",
+        "Lan, Xun"
+      ],
+      "short_names": [
+        "Tian C",
+        "Dong Y",
+        "Sun X",
+        "Xu L",
+        "Ma X",
+        "Tao Y",
+        "Wang F",
+        "Zhang H",
+        "Li J",
+        "Li K",
+        "Chen Y",
+        "Liu H",
+        "Lan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tsinghua University School of Medicine, Beijing 100084, China; National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China.",
+        "Tsinghua University School of Life Sciences, Beijing 100084, China; Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100730, China.",
+        "Tsinghua University School of Medicine, Beijing 100084, China.",
+        "Tsinghua University School of Medicine, Beijing 100084, China.",
+        "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China.",
+        "Tsinghua University School of Medicine, Beijing 100084, China.",
+        "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China.",
+        "Tsinghua University School of Medicine, Beijing 100084, China.",
+        "Yunnan Key Laboratory of Breast Cancer Precision Medicine, Academy of Biomedical Engineering, Kunming Medical University, Kunming 650500, China.",
+        "National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China.",
+        "National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China.",
+        "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China; Molecular Medicine Center, Beijing Lu Daopei Institute of Hematology, Beijing 100084, China; Division of Pathology & Laboratory Medicine, Beijing Lu Daopei Hospital, Beijing 100084, China; Department of Oncology, Capital Medical University, Beijing 100084, China. Electronic address: starliu@pku.edu.cn.",
+        "Tsinghua University School of Medicine, Beijing 100084, China. Electronic address: xlan@tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Chen",
+        "short_name": "Tian C",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China; National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yijun",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Life Sciences, Beijing 100084, China; Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xin",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Longchen",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaoli",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Yuwei",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fang",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haohang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Key Laboratory of Breast Cancer Precision Medicine, Academy of Biomedical Engineering, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yasong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center of Eco-environment Protection for Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430014, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongxing",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Hebei Yanda Lu Daopei Hospital, Langfang 065000, China; Molecular Medicine Center, Beijing Lu Daopei Institute of Hematology, Beijing 100084, China; Division of Pathology & Laboratory Medicine, Beijing Lu Daopei Hospital, Beijing 100084, China; Department of Oncology, Capital Medical University, Beijing 100084, China. Electronic address: starliu@pku.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lan, Xun",
+        "short_name": "Lan X",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University School of Medicine, Beijing 100084, China. Electronic address: xlan@tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science bulletin"
+    ],
+    "journal_abbrev": [
+      "Sci Bull (Beijing)"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/09 13:48",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "41694344"
+    ],
+    "refs": [],
+    "similar": [
+      "40781032",
+      "38647535",
+      "30301799",
+      "33882316",
+      "40419644",
+      "33623142",
+      "40660382",
+      "36807073",
+      "27526324",
+      "20038731",
+      "40707954",
+      "37873452",
+      "26660446",
+      "26490736",
+      "39380054",
+      "22649106",
+      "36945732",
+      "18809607",
+      "32376693",
+      "36469010",
+      "30827679",
+      "25932436",
+      "33352111",
+      "29240258",
+      "25482556",
+      "40577680",
+      "39700048",
+      "34992253",
+      "39422985",
+      "38939973",
+      "30082223",
+      "36066283",
+      "24405639",
+      "32170627",
+      "30900388",
+      "18445271",
+      "32977829",
+      "41139207",
+      "33740924",
+      "29452230",
+      "38338756",
+      "15907324",
+      "40409464",
+      "29286103",
+      "20368469",
+      "38126767",
+      "38741085",
+      "41363143",
+      "29096332",
+      "25601757",
+      "40029523",
+      "22923494",
+      "30190467",
+      "41139200",
+      "38475919",
+      "39127768",
+      "38953149",
+      "31097000",
+      "34288813",
+      "35858748",
+      "40294241",
+      "34083792",
+      "20013787",
+      "34550965",
+      "36792778",
+      "27881874",
+      "35003895",
+      "19171881",
+      "30958261",
+      "38660833",
+      "40482912",
+      "40462177",
+      "41671045",
+      "33191916",
+      "31076406",
+      "41139231",
+      "32604177",
+      "36790759",
+      "27796738",
+      "41299571",
+      "39326643",
+      "26638462",
+      "25398938",
+      "40882028",
+      "39501301",
+      "38022588",
+      "27197573",
+      "11734301",
+      "29558892",
+      "39694194",
+      "7890725",
+      "39436449",
+      "39788500",
+      "40038518",
+      "41126239",
+      "24732596",
+      "19221039",
+      "32434928",
+      "28400619",
+      "25241285"
+    ],
+    "review": [
+      "40781032",
+      "29240258",
+      "38939973",
+      "38338756",
+      "20013787",
+      "36792778",
+      "27796738",
+      "26638462",
+      "39436449"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2095-9273(25)00726-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

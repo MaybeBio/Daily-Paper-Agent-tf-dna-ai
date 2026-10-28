@@ -1,0 +1,315 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.30.454350",
+  "title": "Using attentive gated neural networks to quantify the impact of non-coding variants on transcription factor binding affinity",
+  "doi": "10.1101/2021.07.30.454350",
+  "abstract": "A large proportion of non-coding variants are present within binding sites of transcription factors(TFs), which play a significant role in gene regulation. Thus, deriving the impact of non-coding variants on TF binding is the first step towards unravelling their regulatory roles within their associated disease traits. Most of the modern algorithms used for this purpose are based on convolutional neural network(CNN) architectures. However, these models are incapable of capturing the positional effect of different sub-sequences within the TF binding sites on the binding affinity. In this paper, we utilize the attentive gated neural network(AGNet) architecture to build a set of TF-AGNet models for predicting in vivo TF binding intensities in the GM12878 lymphoblastoid cells. These models have novel layers capable of deriving the impact of relative positions of different DNA sub-sequences, within a binding site, on TF binding affinity, and of extracting the most relevant prediction features. We show that the TF-AGNet models are able to outperform conventional CNNs for predicting continuous values of TF binding affinity. We also train additional TF-AGNet models for 20 TFs using data from 4 other cell-lines to assess the generalizability of their prediction accuracy. Lastly, we show that the TF-AGNet based models more accurately classify non-coding variants that significantly affect TF binding compared to models based on 7 variant annotation tools. This accuracy can be leveraged to derive gene regulatory roles of millions of non-coding variants across the genome to further examine their mechanistic associations with complex disease traits.",
+  "authors": [
+    "Neel Patel",
+    "Haimeng Bai",
+    "William S. Bush"
+  ],
+  "published_date": "2021-08-02",
+  "updated_date": "2021-08-02T04:40:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.30.454350",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.30.454350.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:58:45Z",
+        "timestamp": 1768496325832,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 26,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  A large proportion of non-coding variants are present within binding sites of transcription factors(TFs), which play a significant role in gene regulation. Thus, deriving the impact of non-coding variants on TF binding is the first step towards unravelling their regulatory roles within their associated disease traits. Most of the modern algorithms used for this purpose are based on convolutional neural network(CNN) architectures. However, these models are incapable of capturing the positional effect of different sub-sequences within the TF binding sites on the binding affinity. In this paper, we utilize the attentive gated neural network(AGNet) architecture to build a set of TF-AGNet models for predicting\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding intensities in the GM12878 lymphoblastoid cells. These models have novel layers capable of deriving the impact of relative positions of different DNA sub-sequences, within a binding site, on TF binding affinity, and of extracting the most relevant prediction features. We show that the TF-AGNet models are able to outperform conventional CNNs for predicting continuous values of TF binding affinity. We also train additional TF-AGNet models for 20 TFs using data from 4 other cell-lines to assess the generalizability of their prediction accuracy. Lastly, we show that the TF-AGNet based models more accurately classify non-coding variants that significantly affect TF binding compared to models based on 7 variant annotation tools. This accuracy can be leveraged to derive gene regulatory roles of millions of non-coding variants across the genome to further examine their mechanistic associations with complex disease traits.\n                </jats:p>",
+      "DOI": "10.1101/2021.07.30.454350",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            2
+          ]
+        ],
+        "date-time": "2021-08-02T04:40:16Z",
+        "timestamp": 1627879216000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Using attentive gated neural networks to quantify the impact of non-coding variants on transcription factor binding affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Neel",
+          "family": "Patel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haimeng",
+          "family": "Bai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9729-6519",
+          "authenticated-orcid": false,
+          "given": "William S.",
+          "family": "Bush",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1879-7"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0078833"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13835"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-74793-4"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu446"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr377"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh299"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz363"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky215"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx234"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00521-020-04879-7"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/253427"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3331"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv565"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03205-y"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0579-z"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pennington J , Socher R , Manning CD . GloVe: Global Vectors for Word Representation. In: Empirical Methods in Natural Language Processing (EMNLP). ; 2014:1532–1543. http://www.aclweb.org/anthology/D14-1162.",
+          "DOI": "10.3115/v1/D14-1162"
+        },
+        {
+          "key": "2021080311500742000_2021.07.30.454350v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1001"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.30.454350",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:01:11Z",
+        "timestamp": 1768442471000
+      },
+      "score": 120.56207,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.30.454350"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            2
+          ]
+        ]
+      },
+      "references-count": 26,
+      "URL": "https://doi.org/10.1101/2021.07.30.454350",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

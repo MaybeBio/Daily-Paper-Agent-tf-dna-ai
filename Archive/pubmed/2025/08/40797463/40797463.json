@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40797463",
+    "doi": "10.1097/MD.0000000000043844",
+    "title": "Systematic analysis of doxorubicin-induced myocardial injury mechanisms using network toxicology and molecular docking strategy."
+  },
+  "content": {
+    "abstract": "To systematically investigate the molecular mechanisms of doxorubicin (DOX)-induced myocardial injury through network toxicology, molecular docking, and molecular dynamics simulations, aiming to identify critical molecular targets for reducing DOX's cardiotoxicity. Multiple databases were systematically mined to identify DOX-related targets. A protein-protein interaction network was constructed using STRING database and analyzed via Cytoscape. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were performed using WebGestalt. Molecular docking simulations evaluated binding interactions between DOX and identified hub proteins, followed by 100 ns molecular dynamics simulations to assess complex stability. Results: Network analysis identified 5 critical hub genes (AKT1, TP53, EGFR, HIF1A, and BCL2) among 47 overlapping targets between DOX activity and myocardial injury pathways. Functional enrichment demonstrated significant involvement in cellular responses to oxidative stress, reactive oxygen species (ROS) metabolism, and membrane-associated processes. Molecular docking revealed strong binding interactions with energies from -5.2 to -7.8 kcal/mol. Molecular dynamics simulations confirmed varying complex stability, with EGFR showing superior stability (root mean square deviation [RMSD] = 0.1-0.4 nm), AKT1 and BCL2 displaying moderate fluctuations (~0.6 nm), and HIF1A and TP53 exhibiting greater conformational variability (0.6-0.7 nm). This integrated computational analysis provides insights into DOX-induced myocardial injury mechanisms. The identification of key targets and their differential binding stability with DOX establishes a foundation for developing targeted strategies to minimize cardiotoxicity while preserving therapeutic efficacy.",
+    "keywords": [
+      "doxorubicin",
+      "mechanisms",
+      "molecular docking",
+      "myocardial injury",
+      "network toxicology"
+    ],
+    "mesh_terms": [
+      "*Doxorubicin/adverse effects/toxicity",
+      "Molecular Docking Simulation",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Interaction Maps/drug effects",
+      "*Cardiotoxicity/etiology",
+      "Proto-Oncogene Proteins c-akt/metabolism/genetics",
+      "*Antibiotics, Antineoplastic/adverse effects/toxicity",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "ErbB Receptors",
+      "Tumor Suppressor Protein p53",
+      "Proto-Oncogene Proteins c-bcl-2"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Feng",
+        "Zheng, Zhen",
+        "Liu, Kaitai"
+      ],
+      "short_names": [
+        "Jiang F",
+        "Zheng Z",
+        "Liu K"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-0977-318",
+        "ORCID: 0000-0003-1757-5591"
+      ],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, The Second Hospital of Yinzhou, Ningbo, Zhejiang Province, China.",
+        "Department of Chemoradiation Oncology, The Affiliated Lihuili Hospital of Ningbo University, Ningbo, Zhejiang Province, China.",
+        "Department of Chemoradiation Oncology, The Affiliated Lihuili Hospital of Ningbo University, Ningbo, Zhejiang Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Feng",
+        "short_name": "Jiang F",
+        "identifiers": [
+          "0009-0000-0977-318"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Second Hospital of Yinzhou, Ningbo, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhen",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemoradiation Oncology, The Affiliated Lihuili Hospital of Ningbo University, Ningbo, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kaitai",
+        "short_name": "Liu K",
+        "identifiers": [
+          "0000-0003-1757-5591"
+        ],
+        "affiliations": [
+          "Department of Chemoradiation Oncology, The Affiliated Lihuili Hospital of Ningbo University, Ningbo, Zhejiang Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Aug 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 06:29",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39240427",
+      "38400848",
+      "37938165",
+      "37282796",
+      "37257765",
+      "37095548",
+      "36959563",
+      "36326834",
+      "35609983",
+      "34895945",
+      "33603661",
+      "33389601",
+      "32848792",
+      "31699882",
+      "30912763",
+      "30824861",
+      "30817977",
+      "30538286",
+      "30375404",
+      "30257319",
+      "30063064",
+      "29929978",
+      "28986362",
+      "28798196",
+      "28759485",
+      "28193895",
+      "28049018",
+      "27680684",
+      "26882038",
+      "26828775",
+      "26612707",
+      "26122615",
+      "26074974",
+      "25948538",
+      "25359381",
+      "25046438",
+      "24382354",
+      "24361255",
+      "24355989",
+      "23977055",
+      "23377657",
+      "23302777",
+      "22304911",
+      "22258630",
+      "19668191",
+      "19668186",
+      "18978187",
+      "18948619",
+      "18669466",
+      "18430438",
+      "18346979",
+      "18313710",
+      "18064042",
+      "17897022",
+      "17516870",
+      "17508921",
+      "17346995",
+      "17163590",
+      "16564551",
+      "16510593",
+      "16449733",
+      "16243980",
+      "15582322",
+      "15374877",
+      "15193679",
+      "14766674",
+      "12767102",
+      "12570372",
+      "12392981",
+      "12388234",
+      "9744975",
+      "9346240"
+    ],
+    "similar": [
+      "40797463",
+      "38847263",
+      "40466611",
+      "41096726",
+      "40543694",
+      "40615101",
+      "40350911",
+      "40939458",
+      "41331168",
+      "40676786",
+      "37948293",
+      "38363942",
+      "41044206",
+      "39066538",
+      "39251712",
+      "41303381",
+      "40050647",
+      "41193654",
+      "41429607",
+      "41330962",
+      "41203698",
+      "38964628",
+      "38822913",
+      "41492010",
+      "38759074",
+      "40958307",
+      "40192506",
+      "41418734",
+      "41367024",
+      "41380825",
+      "40452077",
+      "39992538",
+      "40696610",
+      "41006479",
+      "39964600",
+      "38381309",
+      "40600628",
+      "40421218",
+      "30535663",
+      "39701786",
+      "41309766",
+      "40760645",
+      "38916485",
+      "40312983",
+      "40427511",
+      "40716635",
+      "38114219",
+      "40943141",
+      "41134653",
+      "39125368",
+      "41261616",
+      "40388786",
+      "40237055",
+      "41029129",
+      "38896162",
+      "37691456",
+      "40585331",
+      "39310787",
+      "37549513",
+      "41305757",
+      "39218162",
+      "34954266",
+      "41150817",
+      "40544700",
+      "40359556",
+      "40522420",
+      "39499411",
+      "39465796",
+      "32958254",
+      "40914029",
+      "40721767",
+      "39705422",
+      "40332431",
+      "39765297",
+      "41274246",
+      "40790309",
+      "40255473",
+      "39738201",
+      "37879505",
+      "39033091",
+      "38674327",
+      "40013962",
+      "41083578",
+      "41310176",
+      "40132971",
+      "40681587",
+      "39049631",
+      "41197925",
+      "38704482",
+      "38608086",
+      "41444324",
+      "39969310",
+      "41398816",
+      "39954354",
+      "39004032",
+      "39410900",
+      "40266298",
+      "39923611",
+      "41189264",
+      "39969345"
+    ],
+    "review": [
+      "40797463"
+    ],
+    "pmc": [
+      "12338302"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40797463.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40797463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000043844",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

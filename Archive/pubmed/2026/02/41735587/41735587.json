@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "41735587",
+    "doi": "10.1038/s41588-026-02503-3",
+    "title": "Three-dimensional genome reorganization foreshadows zygotic genome activation in Drosophila."
+  },
+  "content": {
+    "abstract": "How chromatin conformation relates to chromatin state remains a central challenge in genome regulation. Here we present Pico-C, a low-input Micro-C approach that enables high-resolution, temporally resolved three-dimensional genome mapping during early Drosophila embryogenesis. Contrary to a prevailing view of a disorganized genome before zygotic genome activation (ZGA), we uncover a dynamic and ordered emergence of chromatin loops during pre-ZGA nuclear cycles. Spatial autocorrelation analysis points to context-dependent regulatory influences on chromatin. Notably, inhibition of transcriptional elongation has site-specific effects, retaining some early loops while weakening insulation at active promoters, suggesting distinct regulatory dependencies. Machine learning models trained on sequence features identify orthogonal, motif-specific contributions to architecture. Co-depletion of the pioneer factors Zelda and GAF leads to factor-specific perturbations in chromatin architecture, further highlighting a modular regulatory logic in genome establishment. Together, our findings reveal that early genome organization is orchestrated by an interplay of overlapping yet separable regulatory inputs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Chromatin/genetics",
+      "*Zygote/metabolism",
+      "*Genome, Insect",
+      "Gene Expression Regulation, Developmental",
+      "Drosophila Proteins/genetics/metabolism",
+      "*Drosophila melanogaster/genetics/embryology",
+      "Transcription Factors/genetics",
+      "Chromosome Mapping/methods",
+      "Promoter Regions, Genetic",
+      "*Drosophila/genetics",
+      "Embryonic Development/genetics",
+      "Nuclear Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maziak, Noura",
+        "Zhang, Yuchen",
+        "Groll, Fabian",
+        "Brown, Haley E",
+        "Madich, Alla",
+        "Kaur, Yadwinder",
+        "Harrison, Melissa M",
+        "Zhou, Jian",
+        "Vaquerizas, Juan M"
+      ],
+      "short_names": [
+        "Maziak N",
+        "Zhang Y",
+        "Groll F",
+        "Brown HE",
+        "Madich A",
+        "Kaur Y",
+        "Harrison MM",
+        "Zhou J",
+        "Vaquerizas JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2697-7373",
+        "ORCID: 0009-0007-9293-3789",
+        "ORCID: 0000-0002-0991-0233",
+        "ORCID: 0000-0003-4566-5236",
+        "ORCID: 0000-0002-6535-9845",
+        "ORCID: 0009-0001-0779-8575",
+        "ORCID: 0000-0002-8228-6836",
+        "ORCID: 0000-0002-3721-4550",
+        "ORCID: 0000-0002-6583-6541"
+      ],
+      "affiliations": [
+        "MRC Laboratory of Medical Sciences, London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern, Dallas, TX, USA.",
+        "Section of Genetic Medicine, Department of Medicine, University of Chicago, Chicago, IL, USA.",
+        "MRC Laboratory of Medical Sciences, London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern, Dallas, TX, USA.",
+        "Section of Genetic Medicine, Department of Medicine, University of Chicago, Chicago, IL, USA.",
+        "MRC Laboratory of Medical Sciences, London, UK. j.vaquerizas@lms.mrc.ac.uk.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. j.vaquerizas@lms.mrc.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maziak, Noura",
+        "short_name": "Maziak N",
+        "identifiers": [
+          "0000-0003-2697-7373"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Medical Sciences, London, UK.",
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuchen",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0007-9293-3789"
+        ],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern, Dallas, TX, USA.",
+          "Section of Genetic Medicine, Department of Medicine, University of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Groll, Fabian",
+        "short_name": "Groll F",
+        "identifiers": [
+          "0000-0002-0991-0233"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Medical Sciences, London, UK.",
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Brown, Haley E",
+        "short_name": "Brown HE",
+        "identifiers": [
+          "0000-0003-4566-5236"
+        ],
+        "affiliations": [
+          "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Madich, Alla",
+        "short_name": "Madich A",
+        "identifiers": [
+          "0000-0002-6535-9845"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Kaur, Yadwinder",
+        "short_name": "Kaur Y",
+        "identifiers": [
+          "0009-0001-0779-8575"
+        ],
+        "affiliations": [
+          "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Harrison, Melissa M",
+        "short_name": "Harrison MM",
+        "identifiers": [
+          "0000-0002-8228-6836"
+        ],
+        "affiliations": [
+          "Department of Biomolecular Chemistry, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jian",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-3721-4550"
+        ],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern, Dallas, TX, USA.",
+          "Section of Genetic Medicine, Department of Medicine, University of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Vaquerizas, Juan M",
+        "short_name": "Vaquerizas JM",
+        "identifiers": [
+          "0000-0002-6583-6541"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Medical Sciences, London, UK. j.vaquerizas@lms.mrc.ac.uk.",
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. j.vaquerizas@lms.mrc.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 00:29",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "42384408",
+      "42206359",
+      "41735607"
+    ],
+    "refs": [
+      "40957418",
+      "40644348",
+      "40335694",
+      "40148291",
+      "39999387",
+      "39110499",
+      "38868435",
+      "38856708",
+      "38809952",
+      "38709825",
+      "37962376",
+      "37616526",
+      "37563108",
+      "37536338",
+      "37478844",
+      "37430091",
+      "37003261",
+      "36735786",
+      "35559678",
+      "35551308",
+      "35182480",
+      "35113722",
+      "35065445",
+      "34853314",
+      "34629071",
+      "34614388",
+      "34342574",
+      "33972523",
+      "33854237",
+      "33795867",
+      "33795866",
+      "33720012",
+      "33334380",
+      "33303640",
+      "33199682",
+      "32998764",
+      "32745185",
+      "32502394",
+      "32347792",
+      "32003791",
+      "31806660",
+      "31290943",
+      "31235656",
+      "31199868",
+      "31133747",
+      "30982648",
+      "30808658",
+      "30573849",
+      "30346395",
+      "30143029",
+      "30008320",
+      "29261646",
+      "29120462",
+      "28891464",
+      "28388407",
+      "27879204",
+      "27723753",
+      "27079975",
+      "26910731",
+      "26358872",
+      "26356912",
+      "25765347",
+      "25748651",
+      "25697820",
+      "25516281",
+      "25497547",
+      "25313869",
+      "25199790",
+      "25043061",
+      "24227677",
+      "23951546",
+      "23950696",
+      "23104886",
+      "22743772",
+      "22455463",
+      "22388286",
+      "22028662",
+      "21346796",
+      "21179090",
+      "21074439",
+      "20513432",
+      "19675129",
+      "18931655",
+      "18394895",
+      "17627279",
+      "12809602",
+      "8674433",
+      "6411748"
+    ],
+    "similar": [
+      "41735587",
+      "40494353",
+      "33720012",
+      "40957418",
+      "28388407",
+      "41955115",
+      "40441155",
+      "22028662",
+      "34342574",
+      "26335634",
+      "30993896",
+      "32226006",
+      "28676122",
+      "23560912",
+      "34849887",
+      "39285248",
+      "18931655",
+      "21637778",
+      "39541353",
+      "21569360",
+      "39661467",
+      "31101825",
+      "34887421",
+      "40148291",
+      "37557175",
+      "30797686",
+      "33795867",
+      "22028675",
+      "25538246",
+      "31511251",
+      "24055651",
+      "34853314",
+      "28760140",
+      "40512118",
+      "32098765",
+      "24909324",
+      "24764079",
+      "31582744",
+      "25313869",
+      "35876878",
+      "32220807",
+      "42560964",
+      "27879204",
+      "26335633",
+      "22456606",
+      "41226380",
+      "33844976",
+      "22247430",
+      "30692203",
+      "26391952",
+      "23358822",
+      "41219538",
+      "42592798",
+      "34234130",
+      "24091009",
+      "37478844",
+      "33074101",
+      "34982026",
+      "30021792",
+      "22537497",
+      "29720659",
+      "32502394",
+      "37459895",
+      "29261646",
+      "29539636",
+      "36598809",
+      "23699410",
+      "25150012",
+      "41784530",
+      "42475469",
+      "36423263",
+      "30008320",
+      "38166964",
+      "38927123",
+      "26358871",
+      "30248133",
+      "30795893",
+      "30292539",
+      "30709849",
+      "25944915",
+      "23233545",
+      "29335486",
+      "32347792",
+      "27046080",
+      "21430782",
+      "22965566",
+      "35065445",
+      "16613483",
+      "30977698",
+      "25043061",
+      "34614388",
+      "35926038",
+      "27439862",
+      "34236313",
+      "20599892",
+      "40499548",
+      "30639105",
+      "29727464",
+      "36430821",
+      "21346796"
+    ],
+    "review": [
+      "41735587",
+      "39285248",
+      "32220807",
+      "25150012",
+      "38927123",
+      "26358871",
+      "30292539",
+      "22965566",
+      "35065445"
+    ],
+    "pmc": [
+      "12987734"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41735587",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41588-026-02503-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41735587/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

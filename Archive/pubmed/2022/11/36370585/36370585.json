@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "36370585",
+    "doi": "10.1016/j.compbiomed.2022.106268",
+    "title": "Random Fourier features-based sparse representation classifier for identifying DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) protect DNA from nuclease hydrolysis, inhibit the action of RNA polymerase, prevents replication and transcription from occurring simultaneously on a piece of DNA. Most of the conventional methods for detecting DBPs are biochemical methods, but the time cost is high. In recent years, a variety of machine learning-based methods that have been used on a large scale for large-scale screening of DBPs. To improve the prediction performance of DBPs, we propose a random Fourier features-based sparse representation classifier (RFF-SRC), which randomly map the features into a high-dimensional space to solve nonlinear classification problems. And L(2,1)-matrix norm is introduced to get sparse solution of model. To evaluate performance, our model is tested on several benchmark data sets of DBPs and 8 UCI data sets. RFF-SRC achieves better performance in experimental results.",
+    "keywords": [
+      "Biological sequence features",
+      "Random features",
+      "Sequence classification",
+      "Sparse representation-based classifier"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "*DNA-Binding Proteins",
+      "Machine Learning",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xiaoyi",
+        "Tiwari, Prayag",
+        "Zhang, Ying",
+        "Han, Shuguang",
+        "Wang, Yansu",
+        "Ding, Yijie"
+      ],
+      "short_names": [
+        "Guo X",
+        "Tiwari P",
+        "Zhang Y",
+        "Han S",
+        "Wang Y",
+        "Ding Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, PR China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: kerry.guoxiaoyi@163.com.",
+        "School of Information Technology, Halmstad University, Sweden. Electronic address: prayag.tiwari@ieee.org.",
+        "Beidahuang Industry Group General Hospital, Harbin 150088, PR China. Electronic address: zhangying_biggh@163.com.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: shughan@uestc.edu.cn.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, PR China. Electronic address: Wangys_c@hotmail.com.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: wuxi_dyj@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xiaoyi",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, PR China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: kerry.guoxiaoyi@163.com."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Prayag",
+        "short_name": "Tiwari P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Technology, Halmstad University, Sweden. Electronic address: prayag.tiwari@ieee.org."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beidahuang Industry Group General Hospital, Harbin 150088, PR China. Electronic address: zhangying_biggh@163.com."
+        ]
+      },
+      {
+        "full_name": "Han, Shuguang",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: shughan@uestc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yansu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, PR China. Electronic address: Wangys_c@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, PR China. Electronic address: wuxi_dyj@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/13 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42317413"
+    ],
+    "refs": [],
+    "similar": [
+      "36370585",
+      "34882559",
+      "37060772",
+      "31123959",
+      "32300371",
+      "34743286",
+      "20529363",
+      "34932484",
+      "37651627",
+      "31901564",
+      "35378437",
+      "26829813",
+      "35801442",
+      "36044786",
+      "32352006",
+      "28359635",
+      "27389571",
+      "28937647",
+      "28391816",
+      "27565741",
+      "35693338",
+      "30957840",
+      "32920048",
+      "35731758",
+      "32750882",
+      "30582555",
+      "28858805",
+      "24678505",
+      "19233205",
+      "29763967",
+      "28987977",
+      "33780341",
+      "29125297",
+      "32919230",
+      "29904059",
+      "30510569",
+      "23014744",
+      "21529372",
+      "29182548",
+      "30668479",
+      "34291709",
+      "35154264",
+      "26894961",
+      "35389869",
+      "35447463",
+      "27392352",
+      "24808205",
+      "29124453",
+      "28393883",
+      "31675334",
+      "33410688",
+      "30316822",
+      "31208324",
+      "26192325",
+      "35748253",
+      "36154119",
+      "34273616",
+      "35992998",
+      "34441096",
+      "33028187",
+      "31174048",
+      "30598073",
+      "24475169",
+      "35344997",
+      "33245696",
+      "32092614",
+      "28922127",
+      "22574904",
+      "35799660",
+      "31437709",
+      "33085628",
+      "25967778",
+      "26720247",
+      "30071697",
+      "29990266",
+      "25415943",
+      "35334314",
+      "27576270",
+      "29994102",
+      "30891794",
+      "32938375",
+      "28546808",
+      "30441588",
+      "23039673",
+      "26577712",
+      "36033548",
+      "25946106",
+      "34166212",
+      "24564973",
+      "19594868",
+      "26394421",
+      "24808575",
+      "24835226",
+      "34078256"
+    ],
+    "review": [
+      "36370585",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00976-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00976-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

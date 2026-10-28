@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion, figure legends as provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text. No external validation or replication attempted.
+- **Shared manuscript claim summary** The authors identify a minimal 15 bp binding site for the HK97 small terminase within the cos region, determine a cryoEM structure of the small terminase:DNA complex at 3.0 Å resolution, and propose a novel "arginine clamp" mechanism for sequence-specific DNA recognition by a circular protein that threads DNA through its central channel.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative), Methods (cloning, expression, purification, EMSA, CD, MST, cryoEM data collection and processing, model building), figure legends (Figures 1-6, Supplementary Figures 1-15, Supplementary Tables 1-3), data availability statement.
+- **Missing materials affecting confidence** The actual figures and supplementary figures are not provided. Supplementary tables are referenced but not included. Raw EMSA gel images, MST binding curves, CD spectra, and cryoEM density maps are not available for independent assessment. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript reports the first cryoEM structure of a bacteriophage small terminase bound to DNA, a significant technical achievement that addresses a long-standing question in viral DNA packaging. The proposed mechanism, involving DNA threading through the central channel and sequence-specific recognition by a bipartite helix-turn-helix-like substructure formed from two adjacent protomers, is novel and potentially paradigm-shifting. However, the evidence presented in the text is insufficient to fully support all claims, particularly regarding the specificity of the identified binding site, the quantitative binding data, and the functional relevance of the proposed "arginine clamp" mechanism. The manuscript is well-written and the structural work appears technically sound, but several concerns must be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Virologists studying dsDNA virus assembly and packaging, structural biologists interested in protein-DNA recognition, and researchers working on molecular motors and genome translocation mechanisms. The proposed mechanism of a circular protein sliding along DNA while transiently checking sequence could also be of interest to the broader nucleic acid-protein interaction community and those developing biotechnological tools based on DNA-binding proteins.
+- **Major strengths** 1. First experimental structure of a small terminase:DNA complex, filling a critical gap in the field. 2. Identification of a minimal binding site with single-base resolution using a systematic approach. 3. The proposed "arginine clamp" mechanism is novel and provides a plausible explanation for how a circular protein can achieve sequence-specific recognition while threading DNA. 4. The study combines structural, biochemical, and biophysical methods to support the conclusions. 5. The manuscript is clearly written and the logic is easy to follow.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** The authors claim that the identified 15 bp region (positions 15-29) is the "minimal region necessary for small terminase binding" and that this is a "specific" binding site.
+    - **Evidence pointer** Results section "Specific small terminase binding site within the HK97 cos region", Figure 1, Supplementary Figure 2
+    - **Concern** The EMSA experiments used to define the minimal binding site are described only in narrative form. The actual data (gel images, quantification) are not shown in the provided text. The claim of "single base pair resolution" for the binding site boundary requires careful demonstration that the observed binding is specific and not due to non-specific electrostatic interactions, especially given the high positive charge of the channel. The authors do not report competition experiments with unlabeled specific vs. non-specific DNA, nor do they show that a scrambled or unrelated DNA sequence of the same length fails to bind. Without these controls, the specificity of the identified site is not fully established.
+    - **Why it matters** The entire structural and mechanistic interpretation rests on the premise that the identified site is the bona fide recognition element. If the binding is not specific, the relevance of the structure to in vivo function is questionable.
+    - **Resolution test** Provide the EMSA data for the truncation series, including representative gels and quantification. Include competition experiments with unlabeled specific and non-specific competitors. Show that a DNA fragment with the same base composition but scrambled sequence does not bind. Ideally, demonstrate that mutations in the identified site that abolish binding in vitro also affect packaging in a functional assay.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** The authors state that the cryoEM structure reveals the DNA "threaded through the central channel" and that the complex is "asymmetric with the DNA bent towards one side."
+    - **Evidence pointer** Results section "CryoEM structure of the small terminase:DNA complex", Figure 2, Figure 3, Supplementary Figures 5-9
+    - **Concern** The resolution of the final map is reported as 2.9 Å overall, but the focused classification used to improve the density for the N-terminal helix resulted in a map at 3.0 Å. The authors do not provide local resolution estimates or a map-model correlation analysis. The description of the DNA path and the specific interactions is qualitative. The claim that the DNA is "bent" and that this bend is functionally important requires a quantitative analysis of the DNA curvature and a comparison to the free DNA structure. Furthermore, the authors state that the DNA is "threaded" but do not discuss how the ends of the DNA are positioned relative to the protein, which is critical for understanding how the complex forms.
+    - **Why it matters** The structural model is the central piece of evidence for the proposed mechanism. If the DNA path or the protein-DNA interactions are not accurately modeled, the mechanistic conclusions are unsupported.
+    - **Resolution test** Provide local resolution maps, a detailed description of the DNA path with clear density for the DNA bases, and a quantitative analysis of the DNA bend angle with associated errors. Show that the DNA ends are not blocked by the protein, allowing for threading. Ideally, provide a figure showing the density for the key interacting residues (Arg128, Arg7) and the DNA bases.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** The authors propose that Arg128 and Arg7 form specific contacts with G21 and T16, respectively, and that these interactions are crucial for sequence-specific recognition.
+    - **Evidence pointer** Results section "Specific protein: DNA interactions formed by the DNA binding substructure", Figure 3c, Figure 4
+    - **Concern** The mutagenesis data (Figure 5) show that mutations in the channel residues (Lys100, Arg107, Arg114) and the NTA residues (Lys4, Arg5, Arg7) reduce binding affinity by only ~1.5-fold as measured by MST. This is a very modest effect for residues proposed to be critical for specific recognition. The authors do not report the effect of mutating Arg128, which is the residue proposed to make the key base-specific contact with G21. The claim that Arg128 is crucial is therefore not directly tested. The MST data are described but the actual binding curves and fitted Kd values are not shown in the provided text.
+    - **Why it matters** The "arginine clamp" mechanism relies on specific contacts made by Arg128 and Arg7. Without direct mutagenesis of Arg128 and a demonstration that its mutation abolishes or severely impairs binding, the proposed mechanism is not validated.
+    - **Resolution test** Provide MST data for an Arg128 mutant. Show that the mutation of Arg128 to alanine (or another residue) significantly reduces binding affinity, ideally to a level comparable to the non-specific binding observed with the 71 bp control DNA. Also, provide the MST binding curves and show the quality of the fits.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Data interpretation
+    - **Claim pointer** The authors propose a model for packaging termination in which the small terminase slides along DNA, recognizes the cos site, and stalls the packaging motor.
+    - **Evidence pointer** Results section "A model for packaging termination in HK97 phage", Figure 6
+    - **Concern** This model is highly speculative and goes beyond the data presented. The authors have shown that the small terminase can bind to a specific DNA sequence in vitro, but they have not demonstrated that this binding is required for packaging termination in vivo. The proposed conformational changes in the small terminase that would lead to stalling are not supported by any experimental evidence. The model is presented as a series of steps (i-v) without any direct experimental support for most of them.
+    - **Why it matters** While a model can be useful for generating hypotheses, it should be clearly distinguished from experimentally supported conclusions. Presenting this speculative model as a "model for packaging termination" without appropriate caveats could mislead readers.
+    - **Resolution test** Clearly label this section as a speculative model. Provide a more detailed discussion of alternative models and the limitations of the current data. If possible, perform experiments to test at least some aspects of the model, such as the effect of the small terminase on the ATPase activity of the large terminase in the presence of the specific binding site.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states that the small terminase "utilizes a previously unknown mechanism of DNA binding" and that "DNA-recognition is generated at its exit by a substructure formed by the N- and C-terminal segments of two adjacent protomers." This is a strong claim that is not fully supported by the data, as the functional significance of this interaction is not demonstrated.
+    - **Required correction** Soften the language to "proposes a previously unknown mechanism" or "suggests a novel mechanism" to reflect the speculative nature of the functional interpretation.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Results section "Interactions with DNA bound in the central channel"
+    - **Evidence pointer** Results section, Figure 3a
+    - **Issue** The description of the interactions between the channel residues and the DNA backbone is qualitative. The authors state that "the DNA duplex forms hydrogen bonds with 2-3 residues from adjacent protomers at each 'level'" but do not provide a detailed list of these interactions or their distances.
+    - **Required correction** Provide a supplementary table listing the specific hydrogen bonds and salt bridges between the protein and DNA, with distances.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Results section "Influence of DNA sequence on binding"
+    - **Evidence pointer** Figure 4
+    - **Issue** The description of the mutagenesis experiments is clear, but the figure legend is not provided. It is unclear what the y-axis represents in Figure 4 (e.g., fraction bound, relative binding).
+    - **Required correction** Provide a complete figure legend for Figure 4, including a description of the assay and the error bars.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods section "Microscale thermophoresis (MST)"
+    - **Evidence pointer** Methods section
+    - **Issue** The MST experiments were performed with a 100 bp DNA fragment containing the binding site and a 71 bp fragment lacking it. The Kd for the 71 bp fragment was 2.04 μM, which is only 4-fold higher than the specific binding. This suggests a significant non-specific binding component. The authors should discuss this and consider whether the specific binding is sufficiently strong to be biologically relevant.
+    - **Required correction** Discuss the non-specific binding component and its potential impact on the interpretation of the Kd values. Consider performing MST with a DNA fragment of the same length as the specific one but with a scrambled sequence to better control for length-dependent non-specific binding.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Results section "Comparison of small terminase structures of double stranded bacteriophages"
+    - **Evidence pointer** Results section, Supplementary Figure 1
+    - **Issue** The comparison of the HK97 small terminase structure with those of other bacteriophages is brief. The authors state that the channel of some small terminases is too narrow for DNA to pass through, but they do not provide a quantitative comparison of channel diameters.
+    - **Required correction** Provide a supplementary table with the channel diameters of the different small terminases and a more detailed discussion of the structural differences.
+    - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods section "CryoEM data processing"
+    - **Evidence pointer** Methods section, Supplementary Figures 5-7
+    - **Issue** The authors report that they discarded all tilted micrographs from the second dataset. This is a significant amount of data to discard, and it is unclear if this affected the final resolution or the particle distribution.
+    - **Required correction** Provide a brief justification for discarding the tilted micrographs and discuss the potential impact on the final map quality.
+    - **Concern ID** R1-m7
+    - **Severity** Minor
+    - **Axis** Clarity / Presentation
+    - **Affected element** Results section "A model for packaging termination in HK97 phage"
+    - **Evidence pointer** Figure 6
+    - **Issue** The model is described in a stepwise manner, but the figure is not provided. It is difficult to follow the model without the figure.
+    - **Required correction** Provide the figure and a complete figure legend that clearly labels each step of the model.
+
+## Risk / unsupported claims
+- The claim that the identified 15 bp sequence is the "minimal" and "specific" binding site is not fully supported without competition experiments and scrambled-sequence controls.
+- The claim that the "arginine clamp" is the mechanism for sequence-specific recognition is not directly tested, as no mutation of Arg128 was reported.
+- The claim that the small terminase "slides along DNA" is inferred from the structure but not directly demonstrated experimentally.
+- The proposed model for packaging termination is speculative and not supported by functional experiments.
+- The functional significance of the observed DNA bending is not established.
+- The claim that the mechanism is "hitherto unknown" is strong and should be tempered, as it is based on a single structure and limited biochemical data.
+- The quantitative Kd values from MST are reported but the raw data and fit quality are not shown, making it difficult to assess the reliability of these measurements.

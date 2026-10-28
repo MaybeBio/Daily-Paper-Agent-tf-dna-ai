@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41998008",
+    "doi": "10.1038/s41598-026-45451-y",
+    "title": "An integrated analysis of lactylation signature reveals PRDX1 as a therapeutic target of keloid pathogenesis."
+  },
+  "content": {
+    "abstract": "Keloids represent a pathological fibroproliferative disorder with high recurrence rates and limited therapeutic options. This study integrates multi-dataset transcriptomics (GSE158395, GSE188952, GSE92566, GSE173900) and machine learning algorithms (XGBoost, Random Forest, LASSO) to systematically investigate the role of lactylation modification in keloid pathogenesis. We identified 26 lactylation-related differentially expressed genes (15 upregulated, 11 downregulated) enriched in oxidative stress, immune response, and extracellular matrix pathways. Machine learning convergence revealed five lactylation hub genes (PRDX1, CSRP1, IFI16, CALD1, VIM), with PRDX1 exhibiting the highest diagnostic efficacy (AUC = 0.85). Immune infiltration analysis demonstrated significant correlations between hub genes and dysregulated immune cells. Experimental validation confirmed reduced PRDX1 expression in keloid tissues; its knockdown in fibroblasts elevated ROS levels and enhanced proliferation and migration. Regulatory network analysis predicted shared transcription factors (KLF12, NFKB1, MYC) governing hub genes, while drug screening prioritized three clinically actionable compounds (acetaminophen, valproic acid, vorinostat) targeting PRDX1. These findings establish lactylation as a critical regulator of keloid pathogenesis and identify PRDX1 as a promising therapeutic target.",
+    "keywords": [
+      "Keloid",
+      "Lactylation",
+      "Machine learning",
+      "PRDX1",
+      "Therapeutic target"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Peroxiredoxins/metabolism/genetics",
+      "*Keloid/genetics/metabolism/pathology/drug therapy",
+      "Fibroblasts/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Cell Proliferation",
+      "Cell Movement",
+      "Reactive Oxygen Species/metabolism",
+      "Gene Expression Regulation",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Ruizhe",
+        "Sun, Mengzhe",
+        "Liu, Tiantian",
+        "Peng, Yinbo",
+        "Peng, Linbo",
+        "Fang, Yong"
+      ],
+      "short_names": [
+        "He R",
+        "Sun M",
+        "Liu T",
+        "Peng Y",
+        "Peng L",
+        "Fang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China.",
+        "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China.",
+        "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China.",
+        "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China.",
+        "Department of Cardiology, Third Affiliated Hospital of Naval Medical University, Shanghai, People's Republic of China. 243779724@qq.com.",
+        "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. 114096@sh9hospital.org.cn.",
+        "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China. 114096@sh9hospital.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Ruizhe",
+        "short_name": "He R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Mengzhe",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tiantian",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yinbo",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Peng, Linbo",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Third Affiliated Hospital of Naval Medical University, Shanghai, People's Republic of China. 243779724@qq.com."
+        ]
+      },
+      {
+        "full_name": "Fang, Yong",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic Surgery and Department of Plastic and Reconstructive Surgery, Shanghai 9th Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. 114096@sh9hospital.org.cn.",
+          "Institute of Traumatic Medicine, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China. 114096@sh9hospital.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/18 13:10",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [
+      "42511686"
+    ],
+    "refs": [
+      "41407173",
+      "41306557",
+      "40690843",
+      "40633755",
+      "40599233",
+      "40597258",
+      "40374155",
+      "39879982",
+      "39700636",
+      "39457482",
+      "38821374",
+      "38789037",
+      "38602106",
+      "38548215",
+      "38492983",
+      "38346584",
+      "38200523",
+      "38159556",
+      "38128537",
+      "38046417",
+      "37895153",
+      "37867188",
+      "37742376",
+      "37524866",
+      "37463576",
+      "37242427",
+      "37123979",
+      "36728674",
+      "36594683",
+      "36425105",
+      "36169237",
+      "36161591",
+      "36050306",
+      "35999109",
+      "35769828",
+      "35761067",
+      "35123990",
+      "34813576",
+      "34656878",
+      "34518894",
+      "33448325",
+      "33408828",
+      "33343575",
+      "33278780",
+      "32540643",
+      "31708446",
+      "31645732",
+      "30931480",
+      "30429075",
+      "29498630",
+      "29444460",
+      "27707499",
+      "27553611",
+      "26424082",
+      "25605792",
+      "25081927",
+      "23071184",
+      "22405222",
+      "22257669",
+      "19639219"
+    ],
+    "similar": [
+      "41998008",
+      "39874886",
+      "39489224",
+      "41214769",
+      "39014455",
+      "40928556",
+      "42136654",
+      "42123445",
+      "33200804",
+      "42412240",
+      "40868258",
+      "39923303",
+      "41737208",
+      "42045413",
+      "42369759",
+      "40596702",
+      "42413388",
+      "41756296",
+      "40742424",
+      "41246341",
+      "35082796",
+      "41566505",
+      "38476235",
+      "42135859",
+      "41544047",
+      "40598145",
+      "42565562",
+      "40702440",
+      "41106221",
+      "40256656",
+      "41388523",
+      "41044520",
+      "40633755",
+      "42158856",
+      "41310117",
+      "42324107",
+      "35709926",
+      "37980270",
+      "41691090",
+      "41041835",
+      "33200800",
+      "41116042",
+      "41052072",
+      "42296881",
+      "41019038",
+      "41504052",
+      "33860039",
+      "41826854",
+      "41923163",
+      "42015036",
+      "42358997",
+      "41948341",
+      "42185567",
+      "41224720",
+      "40101610",
+      "40374866",
+      "41816328",
+      "40406126",
+      "42327749",
+      "24788198",
+      "38393632",
+      "34964740",
+      "39221860",
+      "42123756",
+      "42233387",
+      "36608994",
+      "37930112",
+      "41222888",
+      "40764361",
+      "41310324",
+      "35677827",
+      "40216809",
+      "41139200",
+      "28121871",
+      "42400038",
+      "41986576",
+      "37168863",
+      "40910217",
+      "39697326",
+      "40184794",
+      "38863714",
+      "41298951",
+      "41955702",
+      "40504273",
+      "39139563",
+      "41511717",
+      "41909697",
+      "40552285",
+      "40571139",
+      "40854452",
+      "42074514",
+      "28498357",
+      "40404675",
+      "41325315",
+      "25745770",
+      "41137290",
+      "22785331",
+      "40973872",
+      "42092981",
+      "41816342"
+    ],
+    "review": [
+      "41998008",
+      "22785331"
+    ],
+    "pmc": [
+      "13249837"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-45451-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41998008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-297",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

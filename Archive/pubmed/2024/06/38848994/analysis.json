@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38848994",
+  "title": "Nonlinear classifiers for wet-neuromorphic computing using gene regulatory neural network.",
+  "authors": "Ratwatte, Adrian; Somathilaka, Samitha; Balasubramaniam, Sasitharan; Gilad, Assaf A",
+  "journal": "Biophysical reports",
+  "published_date": "2024-06-08",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文将基因调控网络映射为类神经网络，以转录因子为输入构建非线性分类器，虽涉及TF-DNA调控逻辑但未聚焦结合位点预测或三维互作建模，方法为概念性建模而非AI/物理模拟，故属广义蛋白-DNA互作的可借鉴边缘文献。",
+  "abstract": "The gene regulatory network (GRN) of biological cells governs a number of key functionalities that enable them to adapt and survive through different environmental conditions. Close observation of the GRN shows that the structure and operational principles resemble an artificial neural network (ANN), which can pave the way for the development of wet-neuromorphic computing systems. Genes are integrated into gene-perceptrons with transcription factors (TFs) as input, where the TF concentration relative to half-maximal RNA concentration and gene product copy number influences transcription and translation via weighted multiplication before undergoing a nonlinear activation function. This process yields protein concentration as the output, effectively turning the entire GRN into a gene regulatory neural network (GRNN). In this paper, we establish nonlinear classifiers for molecular machine learning using the inherent sigmoidal nonlinear behavior of gene expression. The eigenvalue-based stability analysis, tailored to system parameters, confirms maximum-stable concentration levels, minimizing concentration fluctuations and computational errors. Given the significance of the stabilization phase in GRNN computing and the dynamic nature of the GRN, alongside potential changes in system parameters, we utilize the Lyapunov stability theorem for temporal stability analysis. Based on this GRN-to-GRNN mapping and stability analysis, three classifiers are developed utilizing two generic multilayer sub-GRNNs and a sub-GRNN extracted from the Escherichia coli GRN. Our findings also reveal the adaptability of different sub-GRNNs to suit different application requirements.",
+  "abstract_zh": "生物细胞的基因调控网络（GRN）调控着多项关键功能，使其能够适应并在不同环境条件下生存。对GRN的细致观察表明，其结构和运作原理类似于人工神经网络（ANN），这为开发湿式神经形态计算系统铺平了道路。基因被整合为以转录因子（TFs）为输入的基因感知器，其中TF浓度相对于半数最大RNA浓度以及基因产物拷贝数，通过加权乘法影响转录和翻译，随后经过非线性激活函数。此过程产生蛋白质浓度作为输出，有效地将整个GRN转化为基因调控神经网络（GRNN）。在本文中，我们利用基因表达固有的S形非线性行为，为分子机器学习建立非线性分类器。基于特征值的稳定性分析，针对系统参数定制，确认了最大稳定浓度水平，从而最小化浓度波动和计算误差。鉴于稳定阶段在GRNN计算中的重要性以及GRN的动态特性，加之系统参数可能的变化，我们采用Lyapunov稳定性定理进行时间稳定性分析。基于这种GRN到GRNN的映射及稳定性分析，我们利用两个通用多层子GRNN和一个从大肠杆菌GRN中提取的子GRNN，开发了三个分类器。我们的发现还揭示了不同子GRNN的适应性，以满足不同应用需求。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38848994/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38848994/",
+  "paper_page_path": "papers/pubmed/38848994/index.html"
+}

@@ -1,0 +1,422 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.15.575662",
+  "title": "ATP-Binding Free Energy Simulations Reveal an Allosteric Link Between the Enzyme Active Site and Multiple Functional Protein-Protein Interaction Interfaces in Cyclin Dependent Kinase-1",
+  "doi": "10.1101/2024.01.15.575662",
+  "abstract": "The ATP dependent phosphorylation activity of Cyclin Dependent Kinase 1 (CDK1), an essential enzyme for cell cycle progression, is intrinsically dependent upon interactions with Cyclin-B, substrate, and Cks proteins. A recent joint experimental-computational study from our group showed intriguingly that acetylation at the active site abrogated the binding of CDK with Cyclin-B. These results posit the possibility of a bi-directional communication between the catalytic site and the protein-protein interface(s). Now, we present evidence for a general allosteric link between the CDK1 active site and all three of its protein-protein interaction (PPI) interfaces through atomistic molecular dynamics simulations (MD). Specifically, we examined ATP binding free energies to CDK1 in native non-acetylated (K33wt) and acetylated (K33Ac) forms as well as in two mutant forms of CDK1, the acetyl-mimic K33Q and the acetyl-null K33R which are accessible in-vitro. We find, in agreement with experiments, that ATP binding is energetically more favorable in K33wt relative to all other states wherein the active site lysine is perturbed (K33Ac, K33Q, and K33R). We also develop an entropy decomposition scheme which reveals, in addition to expected local changes in entropy, significant non-local entropy responses to ATP binding/perturbation of K33 from the 𝛼𝐶-helix, activation loop (A-loop), and the 𝛼𝐺-𝛼H loop segments in CDK1 which interface with Cyclin-B, substrate, and Cks proteins. Statistical analyses over a large set of MD trajectories reveal that while the local and non-local entropic responses to active site perturbations are on average correlated with dynamical changes in the associated protein segments, such correlations may be lost in about 9-48 % of the dataset depending on the segment. Besides, proving the bi-directional communication between the active site and CDK1:Cyclin-B interface, our study provides new insights into the regulation of ATP binding by multiple PPI interfaces in CDK1.",
+  "authors": [
+    "Krishna Kant Vishwakarma",
+    "Ullas Seetharam Kolthur",
+    "Ravindra Venkatramani"
+  ],
+  "published_date": "2024-01-15",
+  "updated_date": "2024-01-15T17:50:24Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575662",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575662.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:11:44Z",
+        "timestamp": 1768507904531,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The ATP dependent phosphorylation activity of Cyclin Dependent Kinase 1 (CDK1), an essential enzyme for cell cycle progression, is intrinsically dependent upon interactions with Cyclin-B, substrate, and Cks proteins. A recent joint experimental-computational study from our group showed intriguingly that acetylation at the active site abrogated the binding of CDK with Cyclin-B. These results posit the possibility of a bi-directional communication between the catalytic site and the protein-protein interface(s). Now, we present evidence for a general allosteric link between the CDK1 active site and all three of its protein-protein interaction (PPI) interfaces through atomistic molecular dynamics simulations (MD). Specifically, we examined ATP binding free energies to CDK1 in native non-acetylated (K33wt) and acetylated (K33Ac) forms as well as in two mutant forms of CDK1, the acetyl-mimic K33Q and the acetyl-null K33R which are accessible in-vitro. We find, in agreement with experiments, that ATP binding is energetically more favorable in K33wt relative to all other states wherein the active site lysine is perturbed (K33Ac, K33Q, and K33R). We also develop an entropy decomposition scheme which reveals, in addition to expected local changes in entropy, significant non-local entropy responses to ATP binding/perturbation of K33 from the 𝛼𝐶-helix, activation loop (A-loop), and the 𝛼𝐺-𝛼H loop segments in CDK1 which interface with Cyclin-B, substrate, and Cks proteins. Statistical analyses over a large set of MD trajectories reveal that while the local and non-local entropic responses to active site perturbations are on average correlated with dynamical changes in the associated protein segments, such correlations may be lost in about 9-48 % of the dataset depending on the segment. Besides, proving the bi-directional communication between the active site and CDK1:Cyclin-B interface, our study provides new insights into the regulation of ATP binding by multiple PPI interfaces in CDK1.</jats:p>",
+      "DOI": "10.1101/2024.01.15.575662",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2024-01-15T17:50:24Z",
+        "timestamp": 1705341024000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ATP-Binding Free Energy Simulations Reveal an Allosteric Link Between the Enzyme Active Site and Multiple Functional Protein-Protein Interaction Interfaces in Cyclin Dependent Kinase-1"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Krishna Kant",
+          "family": "Vishwakarma",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2612-1743",
+          "authenticated-orcid": false,
+          "given": "Ullas Seetharam",
+          "family": "Kolthur",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8893-2352",
+          "authenticated-orcid": false,
+          "given": "Ravindra",
+          "family": "Venkatramani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.13.1.261"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2005.09.005"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)81684-0"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc2602"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22031010"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1007/s11523-017-0541-2",
+          "article-title": "Inhibiting CDK in Cancer Therapy: Current Evidence and Future Directions",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "Target. Oncol"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1208618"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12032-022-01731-x"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/376313a0"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb0896-696"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.3.1.13"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms6945"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.2640"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/26155"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/26164"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/382325a0"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2707"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1991.tb04896.x"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M609151200"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.phrs.2018.07.009"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1175371"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-23276-8"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp777"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01557-07"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "2127",
+          "DOI": "10.1016/j.jmb.2019.04.005",
+          "article-title": "Allosteric Regulation of Cyclin-B Binding by the Charge State of Catalytic Lysine in CDK1 Is Essential for Cell-Cycle Progression",
+          "volume": "431",
+          "year": "2019",
+          "journal-title": "J. Mol. Biol."
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "779",
+          "DOI": "10.1006/jmbi.1993.1626",
+          "article-title": "Comparative Protein Modelling by Satisfaction of spatial Restraints",
+          "volume": "234",
+          "year": "1993",
+          "journal-title": "JMB"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2210/pdb1B38/pdb"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-382"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.30",
+          "first-page": "19",
+          "article-title": "Gromacs: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "volume": "1–2",
+          "year": "2015",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp101759q"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.9b00055"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, D. J. & Holian, B. L . The Nose–Hoover thermostat. 83, 4069–4074 (1985).",
+          "DOI": "10.1063/1.449071"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.448118"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.45.1196"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tanner, D. E. , Chan, K.-Y. , Phillips, J. C. & Schulten, K . Parallel Generalized Born Implicit Solvent Calculations with NAMD. J. Chem. Theory Comput 7, (2011).",
+          "DOI": "10.1021/ct200563j"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00172a038"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1401821"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.105.071589"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carrera, A. C. , Alexandrov, K. & Roberts, T. M . The conserved lysine of the catalytic domain of protein kinases is actively involved in the phosphotransfer reaction and not required for anchoring ATP. Proc. Nati. Acad. Sci. USA vol. 90 (1993).",
+          "DOI": "10.1073/pnas.90.2.442"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1002469"
+        },
+        {
+          "key": "2024011719300984000_2024.01.15.575662v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2015.06.027"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.15.575662",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:47:41Z",
+        "timestamp": 1768456061000
+      },
+      "score": 118.1201,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.15.575662"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2024.01.15.575662",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "40102789",
+    "doi": "10.1186/s12885-025-13901-x",
+    "title": "Single-cell transcriptomic analysis reveals CD8 + T cell heterogeneity and identifies a prognostic signature in cervical cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In recent years, immunotherapy has made significant progress. However, the understanding of the heterogeneity and function of T cells, particularly CD8 + T cells, in cervical cancer (CESC) microenvironment remains insufficient. We aim to characterize the heterogeneity, developmental trajectory, regulatory network, and intercellular communication of CD8 + T cells in cervical squamous cell carcinoma and to construct a prognostic risk model based on the transcriptomic characteristics of CD8 + T cells. METHODS: We integrated single-cell RNA sequencing data from CESC tumor samples with bulk transcriptome data from TCGA and GEO databases. We identified CD8 + T cell subsets in the CESC microenvironment, revealing significant interactions between CD8 + T cells and other cell types through intercellular communication analysis. Pseudotime trajectory analysis revealed dynamic transcriptional regulation during CD8 + T cell differentiation and functional acquisition processes. We constructed a transcriptional regulatory network for CESC CD8 + T cells, identifying key transcription factors. Based on CD8 + T cell-related genes, a prognostic risk model comprising eight core genes was developed and validated using machine learning. RESULTS: We identified four distinct CD8 + T cell subsets, namely progenitor, intermediate, proliferative, and terminally differentiated, each exhibiting unique transcriptomic characteristics and functional properties. CD8 + T cell subsets interact with macrophages through different ligand-receptor networks, including the CCL-CCR signaling pathway and costimulatory molecules. Sorafenib was identified as a potential immunotherapeutic drug through drug screening. Experimental validation demonstrated that sorafenib enhances the cytotoxicity of CD8 + T cells by increasing the secretion of IFN-gamma and TNF-alpha, thereby significantly inhibiting the invasiveness and survival of CESC cells. CONCLUSIONS: Our study provides valuable insights into the heterogeneity and functional diversity of CD8 + T cells in CESC. We demonstrate that a CD8 + T cell-related prognostic signature may serve as a potential tool for risk stratification in patients with CESC. Additionally, our finding suggests that sorafenib could be a promising therapeutic candidate for improving antitumor immunity in this patient population.",
+    "keywords": [
+      "CD8 + T cell",
+      "Cervical cancer",
+      "Machine learning",
+      "Molecular docking",
+      "Single-cell RNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Single-Cell Analysis/methods",
+      "*CD8-Positive T-Lymphocytes/immunology/metabolism",
+      "*Uterine Cervical Neoplasms/genetics/immunology/pathology/mortality",
+      "Prognosis",
+      "Tumor Microenvironment/immunology/genetics",
+      "Gene Expression Profiling",
+      "*Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Rongbin",
+        "Xie, Yuli",
+        "Wang, Zuheng",
+        "Liu, Zige",
+        "Lu, Wenhao",
+        "Li, Xiao",
+        "Wei, Chunmeng",
+        "Li, Xing",
+        "Wang, Fubo"
+      ],
+      "short_names": [
+        "Zhou R",
+        "Xie Y",
+        "Wang Z",
+        "Liu Z",
+        "Lu W",
+        "Li X",
+        "Wei C",
+        "Li X",
+        "Wang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China.",
+        "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "School of Life Sciences, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China.",
+        "Department of Obstetrics and Gynecology, Shanghai General Hospital, School of Medicine, Shanghai Jiao Tong University, No. 85, Wujin Road, Hongkou District, Shanghai, 200080, China. lixing19190509@163.com.",
+        "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        "School of Life Sciences, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        "Department of Urology, Affiliated Tumor Hospital of Guangxi Medical University, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        "School of Public Health, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+        ", No. 22, Shuangyong Road, Qingxiu District, Nanning City, Guangxi Zhuang Autonomous Region, 530021, China. wangfubo@gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Rongbin",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuli",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zuheng",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zige",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wenhao",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Guangxi Medical University, Nanning, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chunmeng",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xing",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shanghai General Hospital, School of Medicine, Shanghai Jiao Tong University, No. 85, Wujin Road, Hongkou District, Shanghai, 200080, China. lixing19190509@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Fubo",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Centre of Regenerative Medicine and Medical BioResource Development and Application Co-constructed by the Province and Ministry, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          "Center for Genomic and Personalized Medicine, Guangxi key Laboratory for Genomic and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomic and Personalized Medicine, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          "School of Life Sciences, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          "Department of Urology, Affiliated Tumor Hospital of Guangxi Medical University, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          "School of Public Health, Guangxi Medical University, Nanning, Guangxi, 530021, China. wangfubo@gxmu.edu.cn.",
+          ", No. 22, Shuangyong Road, Qingxiu District, Nanning City, Guangxi Zhuang Autonomous Region, 530021, China. wangfubo@gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Mar 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 06:22",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42529136",
+      "42440783",
+      "42426811",
+      "42358534",
+      "42305465",
+      "42185567",
+      "41758064",
+      "41660555",
+      "41562704",
+      "41427221",
+      "41245397",
+      "41199110",
+      "40836929"
+    ],
+    "refs": [
+      "39614076",
+      "39591663",
+      "39580469",
+      "39404933",
+      "39180795",
+      "38943641",
+      "38030593",
+      "37907738",
+      "37450965",
+      "37423524",
+      "36659929",
+      "36037651",
+      "35488273",
+      "35449866",
+      "35386453",
+      "35145098",
+      "34914889",
+      "33275792",
+      "33202877",
+      "32561888",
+      "32024970",
+      "31812369",
+      "31391334",
+      "31100868",
+      "31011186",
+      "30943124",
+      "30755279",
+      "30638582",
+      "30207593",
+      "30123362",
+      "29961579",
+      "29942092",
+      "29686425",
+      "29608179",
+      "29508855",
+      "29443960",
+      "29441071",
+      "29198524",
+      "29032503",
+      "28509958",
+      "28282575",
+      "28059093",
+      "26942092",
+      "26033233",
+      "25822800",
+      "24658644",
+      "22419253",
+      "21629244",
+      "19015660",
+      "18727632",
+      "17016424",
+      "16199517",
+      "11937530"
+    ],
+    "similar": [
+      "40102789",
+      "40308576",
+      "40230854",
+      "39941131",
+      "32795900",
+      "38863714",
+      "39206965",
+      "39075098",
+      "40225866",
+      "33901225",
+      "38044747",
+      "36253777",
+      "38809517",
+      "31977248",
+      "39507529",
+      "38656879",
+      "35924232",
+      "39202452",
+      "39354417",
+      "40303412",
+      "37735483",
+      "33966732",
+      "39031800",
+      "39604668",
+      "39224598",
+      "40270962",
+      "39976849",
+      "39267056",
+      "39850878",
+      "37936457",
+      "39530087",
+      "38840928",
+      "39580787",
+      "39093712",
+      "40145099",
+      "40356050",
+      "40064955",
+      "38970067",
+      "39840054",
+      "40145096",
+      "35449866",
+      "35719936",
+      "38441026",
+      "36817087",
+      "33777046",
+      "39261819",
+      "37784026",
+      "40141028",
+      "39447409",
+      "39859524",
+      "39904693",
+      "39894886",
+      "36837559",
+      "40211502",
+      "40241525",
+      "40330470",
+      "38864475",
+      "32729415",
+      "39587687",
+      "39654198",
+      "35657977",
+      "38709170",
+      "39849233",
+      "39759522",
+      "35739227",
+      "34040608",
+      "33006785",
+      "38597597",
+      "39896800",
+      "39152700",
+      "39712016",
+      "38894657",
+      "40068177",
+      "39215032",
+      "39726033",
+      "40205481",
+      "34185421",
+      "31041817",
+      "37584713",
+      "34054840",
+      "38795156",
+      "39904894",
+      "34048924",
+      "40124621",
+      "40330458",
+      "39355255",
+      "40065044",
+      "40275154",
+      "38515748",
+      "39879834",
+      "34970268",
+      "40221624",
+      "32202912",
+      "33748188",
+      "40211257",
+      "38847309",
+      "36183678",
+      "40205583",
+      "39901166",
+      "40200221"
+    ],
+    "review": [
+      "40102789"
+    ],
+    "pmc": [
+      "11916872"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-13901-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40102789/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

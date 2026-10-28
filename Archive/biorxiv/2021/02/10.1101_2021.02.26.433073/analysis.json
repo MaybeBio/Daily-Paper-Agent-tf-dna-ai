@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.26.433073",
+  "title": "Discovering differential genome sequence activity with interpretable and efficient deep learning",
+  "authors": "Hammelman J; Gifford DK",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-27",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出可解释深度学习方法来发现细胞类型特异的基因组调控序列模式，识别转录因子基序及其间距，虽聚焦序列活性而非直接TF-DNA三维互作建模，但方法可迁移至TF-DNA结合位点预测与互作机制研究。",
+  "abstract": "Discovering sequence features that differentially direct cells to alternate fates is key to understanding both cellular development and the consequences of disease related mutations. We introduce Expected Pattern Effect and Differential Expected Pattern Effect, two black-box methods that can interpret genome regulatory sequences for cell type-specific or condition specific patterns. We show that these methods identify relevant transcription factor motifs and spacings that are predictive of cell state-specific chromatin accessibility. Finally, we integrate these methods into framework that is readily accessible to non-experts and available for download as a binary or installed via PyPI or bioconda at https://cgs.csail.mit.edu/deepaccess-package/ . <h4>Author Summary</h4> Within the genome are the instructions to build all the cell types that make up the human body. However, understanding these instructions and how and when these instructions go wrong in cancer or genetically inherited disease is an open problem. Deep neural networks provide powerful models to learn the relationship between DNA sequence and functional consequence across many different cell types, such as whether a particular stretch of DNA is accessible and genes in that region can be expressed or is inaccessible and therefore genes are inactive. Despite these advances, a major setback in deep learning is that it is challenging to understand what patterns of DNA sequences a deep learning model has learned to associate with a particular genomic function, whether these patterns are significant, and how to determine whether these patterns are specific to a particular cell type or are general “housekeeping” patterns that function across many cell types. We introduce Expected Pattern Effect and Differential Expected Pattern Effect, two methods which allow us to evaluate the significance of particular patterns of DNA sequence features on models trained to predict function across multiple cell types, and apply this to problems of transcription factor binding and DNA accessibility across multiple cell types.",
+  "abstract_zh": "发现能够差异性地引导细胞走向不同命运的序列特征，是理解细胞发育及疾病相关突变后果的关键。我们引入了期望模式效应（Expected Pattern Effect）和差异期望模式效应（Differential Expected Pattern Effect），这两种黑盒方法能够解释基因组调控序列中细胞类型特异性或条件特异性的模式。我们展示了这些方法能够识别与细胞状态特异性染色质可及性相关的转录因子基序及其间距。最后，我们将这些方法整合到一个便于非专家使用的框架中，该框架可作为二进制文件下载，或通过PyPI或bioconda安装，网址为https://cgs.csail.mit.edu/deepaccess-package/。\n\n<h4>作者总结</h4> 基因组内包含了构建构成人体所有细胞类型的指令。然而，理解这些指令以及它们在癌症或遗传性疾病中如何及何时出错，仍是一个开放性问题。深度神经网络提供了强大的模型，用于学习DNA序列与多种细胞类型中功能后果之间的关系，例如特定DNA片段是否可及，以及该区域的基因能否表达，或是不可及因而基因失活。尽管取得了这些进展，深度学习的一个主要障碍在于，难以理解深度学习模型学会了将哪些DNA序列模式与特定基因组功能相关联，这些模式是否显著，以及如何确定这些模式是特定于某一细胞类型，还是跨多种细胞类型起作用的通用“管家”模式。我们引入了期望模式效应和差异期望模式效应，这两种方法使我们能够评估在跨多种细胞类型预测功能的模型上，特定DNA序列特征模式的重要性，并将其应用于跨多种细胞类型的转录因子结合和DNA可及性问题。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.26.433073",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.26.433073",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.26.433073/index.html"
+}

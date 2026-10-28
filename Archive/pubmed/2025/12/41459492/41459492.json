@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "41459492",
+    "doi": "10.3389/fimmu.2025.1639881",
+    "title": "Deep learning, deeper relief: pipeline toward tailored analgesia for experimental animal models."
+  },
+  "content": {
+    "abstract": "Effective pain management in animal models is crucial for maintaining ethical and scientific integrity. However, commonly used analgesics may affect immune responses and disturb signaling pathways, thereby potentially confounding the experimental outcomes. In mouse colitis models, opioids and non-steroidal anti-inflammatory drugs have been shown to interfere with the immune response and the activation of the central regulator of inflammation, the transcription factor nuclear factor kappa B (NF-kappaB). Here, we propose a tailored pipeline for the identification and the validation of analgesics with minimal off-target effects. This approach combines protein-centered relation extraction using deep language models and distant supervision via the Protein-Centered Association Extraction with Deep Language (PEDL(+)) together with an in vivo experimental validation with a NF-kappaB reporter mouse model that enables unambiguous visualization of direct NF-kappaB activity across different tissues. Our findings indicate that commonly used analgesics, such as tramadol and acetaminophen, not only interfere with immune cell recruitment and NF-kappaB activation but also skew the differentiation of epithelial stem cells into goblet cells, affecting epithelial functions even after short exposures. Conversely, the analgesics selected by our PEDL(+)-based workflow, such as piritramide, demonstrated no significant interference with NF-kappaB signaling. To validate our findings in vivo, we treated our NF-kappaB reporter mice with the analgesics selected by our computational pipeline. Amantadine demonstrated the least impact on the inflammatory responses and NF-kappaB activation. We then predicted and identified the signaling pathways that are impacted by amantadine treatment. In summary, our proposed pipeline facilitates a shift from one-size-fits-all analgesics to a precision medicine approach that considers the unique molecular interactions associated with each model.",
+    "keywords": [
+      "NF-kappaB signaling",
+      "amantadine",
+      "analgesia",
+      "colitis",
+      "deep language"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Disease Models, Animal",
+      "NF-kappa B/metabolism",
+      "*Deep Learning",
+      "*Analgesics/pharmacology/therapeutic use",
+      "Signal Transduction/drug effects",
+      "*Analgesia/methods",
+      "*Colitis/drug therapy",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barleben, Luisa",
+        "Simon, Mareike",
+        "Drees, Lisa",
+        "Flohr, Franziska",
+        "Jochum, Christoph",
+        "Di Virgilio, Michela",
+        "Tacke, Frank",
+        "Broer, Sonja",
+        "Wolf, Jana",
+        "Kolesnichenko, Marina"
+      ],
+      "short_names": [
+        "Barleben L",
+        "Simon M",
+        "Drees L",
+        "Flohr F",
+        "Jochum C",
+        "Di Virgilio M",
+        "Tacke F",
+        "Broer S",
+        "Wolf J",
+        "Kolesnichenko M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Max Delbruck Center for Molecular Medicine, Berlin, Germany.",
+        "Mathematical Modelling of Cellular Processes, Max Delbruck Center for Molecular Medicine, Berlin, Germany.",
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Laboratory of Genome Diversification and Integrity, Max Delbruck Center for Molecular Medicine, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Berlin, Germany.",
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Institute of Pharmacology and Toxicology, School of Veterinary Medicine, Freie Universitat Berlin, Berlin, Germany.",
+        "Mathematical Modelling of Cellular Processes, Max Delbruck Center for Molecular Medicine, Berlin, Germany.",
+        "Department of Mathematics and Computer Science, Freie Universitat Berlin, Berlin, Germany.",
+        "Charite- Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin and Humboldt- Universitat zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+        "Max Delbruck Center for Molecular Medicine, Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barleben, Luisa",
+        "short_name": "Barleben L",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+          "Max Delbrück Center for Molecular Medicine, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Simon, Mareike",
+        "short_name": "Simon M",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematical Modelling of Cellular Processes, Max Delbrück Center for Molecular Medicine, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Drees, Lisa",
+        "short_name": "Drees L",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Flohr, Franziska",
+        "short_name": "Flohr F",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Jochum, Christoph",
+        "short_name": "Jochum C",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Di Virgilio, Michela",
+        "short_name": "Di Virgilio M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genome Diversification and Integrity, Max Delbrück Center for Molecular Medicine, Berlin, Germany.",
+          "Charité - Universitätsmedizin Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Tacke, Frank",
+        "short_name": "Tacke F",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Bröer, Sonja",
+        "short_name": "Bröer S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, School of Veterinary Medicine, Freie Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Wolf, Jana",
+        "short_name": "Wolf J",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematical Modelling of Cellular Processes, Max Delbrück Center for Molecular Medicine, Berlin, Germany.",
+          "Department of Mathematics and Computer Science, Freie Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kolesnichenko, Marina",
+        "short_name": "Kolesnichenko M",
+        "identifiers": [],
+        "affiliations": [
+          "Charité- Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin and Humboldt- Universität zu Berlin, Department of Hepatology and Gastroenterology, Berlin, Germany.",
+          "Max Delbrück Center for Molecular Medicine, Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/29 07:08",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [
+      "42620472"
+    ],
+    "refs": [
+      "39558165",
+      "39418944",
+      "38194476",
+      "37950510",
+      "37342621",
+      "35764784",
+      "35108049",
+      "34871378",
+      "34751748",
+      "34358489",
+      "33459422",
+      "32958760",
+      "32733481",
+      "32657389",
+      "32222043",
+      "31896389",
+      "31601922",
+      "31341225",
+      "31106366",
+      "29212578",
+      "28272448",
+      "28086098",
+      "27141961",
+      "25025283",
+      "24792161",
+      "24048355",
+      "20453868",
+      "19281767",
+      "18479258",
+      "15800186",
+      "12508094",
+      "10839919",
+      "9817203",
+      "8747629",
+      "7859080",
+      "7569976"
+    ],
+    "similar": [
+      "41459492",
+      "36030029",
+      "24239644",
+      "39725622",
+      "31719637",
+      "24992474",
+      "41368736",
+      "36764096",
+      "39991681",
+      "41124707",
+      "40749954",
+      "40049341",
+      "38367465",
+      "23536316",
+      "31781591",
+      "17119390",
+      "40505233",
+      "26251468",
+      "33130971",
+      "31536729",
+      "24504372",
+      "18559989",
+      "36508925",
+      "18025231",
+      "26718746",
+      "26878795",
+      "40043824",
+      "38380568",
+      "31386886",
+      "21989142",
+      "25986850",
+      "38150877",
+      "32570035",
+      "34673033",
+      "38584532",
+      "39128305",
+      "25239813",
+      "32390406",
+      "40815948",
+      "35320937",
+      "26088864",
+      "31895948",
+      "28275298",
+      "36504132",
+      "35314916",
+      "40549321",
+      "26947454",
+      "41394102",
+      "26767626",
+      "41370975",
+      "40199409",
+      "35460395",
+      "31569788",
+      "33422953",
+      "39951973",
+      "34648903",
+      "39261383",
+      "25004394",
+      "19423687",
+      "23603141",
+      "40651433",
+      "40907407",
+      "27235792",
+      "40644858",
+      "24716225",
+      "25554639",
+      "26386585",
+      "20310012",
+      "25194678",
+      "30114636",
+      "23250811",
+      "39340986",
+      "33168409",
+      "34155144",
+      "40036995",
+      "39006190",
+      "23911882",
+      "39318313",
+      "36653304",
+      "26891685",
+      "21436313",
+      "29608924",
+      "27639114",
+      "29156532",
+      "40056633",
+      "29482156",
+      "39832759",
+      "40330488",
+      "25448682",
+      "23403560",
+      "28336257",
+      "24681655",
+      "31134075",
+      "38205677",
+      "37240346",
+      "38583725",
+      "23125156",
+      "22475725",
+      "36583631",
+      "34302158"
+    ],
+    "review": [
+      "41459492",
+      "18559989"
+    ],
+    "pmc": [
+      "12741108"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41459492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1639881",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

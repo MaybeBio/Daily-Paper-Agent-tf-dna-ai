@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "42136208",
+    "doi": "10.2174/0115734099401120251101190026",
+    "title": "Integrating Multi-omics, Mendelian Randomization, and Experimental Validation to Unveil the Role of Traditional Chinese Medicine in Postmenopausal Osteoporosis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Postmenopausal Osteoporosis (PMOP) is an age-related disease prevalent among elderly women, characterized by decreased bone density and increased fracture risk. This study investigates the mechanisms of traditional Chinese medicine (TCM) in treating PMOP. METHODS: We analyzed bulk transcriptome data (GSE56815) and scRNA-seq data (GSE169396) using a range of bioinformatics techniques, including WGCNA, co-expression analysis, proteinprotein interaction (PPI) analysis, and immune infiltration. Transcription factor interactions and protein pathway involvement were explored. The TwoSampleMR package and SMR database were utilized for Mendelian randomization analysis. Molecular docking was performed using beta-carotene from Eucommia ulmoides Oliv as a ligand and CTNNB1 as a receptor to validate drug-target binding. RESULTS AND DISCUSSION: The study identified five key genes (PPP3CA, CTNNB1, NCOA2, NPEPPS, and ADRB) with AUC values above 0.7, which are involved in critical cellular and immune processes related to PMOP. Immune infiltration analysis emphasized the role of Tregs and correlated specific genes with various immune cells. Key transcription factors, including ELK1, SREBF1, PRRX2, FOXC1, and FOXL1, were identified as regulators of CTNNB1. Single- cell analysis revealed CTNNB1's predominant distribution in osteoclastic cells. Mendelian randomization analysis demonstrated a causal relationship between CTNNB1 and osteoporosis (OR=0.950431762, P =6.45E-17). Additionally, animal PCR results validated the expression of the key gene CTNNB1. These results suggest that CTNNB1 related pathways may play a role in the therapeutic effects of traditional Chinese medicine in PMOP. CONCLUSION: Our study sheds light on five critical targets related to PMOP progression. We found that TCM potentially modulates the miR-139-3p/ELK1/CTNNB1 axis within the noncanonical Wnt pathway, impacting osteoblast differentiation and providing therapeutic benefits for PMOP.",
+    "keywords": [
+      "Bulk-seq",
+      "Postmenopausal osteoporosis",
+      "Traditional Chinese Medicine",
+      "hub gene",
+      "mendelian randomization.",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Hefang",
+        "Wang, Yaobin",
+        "Chen, Yi",
+        "Geng, Bin",
+        "Xia, Yayi"
+      ],
+      "short_names": [
+        "Xiao H",
+        "Wang Y",
+        "Chen Y",
+        "Geng B",
+        "Xia Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China.",
+        "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China.",
+        "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China.",
+        "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China.",
+        "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Hefang",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaobin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Bin",
+        "short_name": "Geng B",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yayi",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Orthopaedics Key Laboratory of Gansu Province, Gansu Provincial Orthopedic Clinical Medical Research Center, Gansu Provincial Intelligent Orthopedics Industry Technology Center, #82 Cuiyingmen, Lanzhou, 730000, Gansu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current computer-aided drug design"
+    ],
+    "journal_abbrev": [
+      "Curr Comput Aided Drug Des"
+    ],
+    "pub_date": "2026 May 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/15 06:29",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42136208",
+      "40131629",
+      "37683138",
+      "39263088",
+      "36451445",
+      "38652170",
+      "41940395",
+      "39328516",
+      "35583534",
+      "39568587",
+      "35757392",
+      "38226266",
+      "39362330",
+      "37856991",
+      "40515615",
+      "39346628",
+      "41138576",
+      "40916281",
+      "36428932",
+      "41386308",
+      "30809532",
+      "36967763",
+      "41939867",
+      "38547625",
+      "39212665",
+      "39819546",
+      "39993547",
+      "30569177",
+      "38914151",
+      "40905742",
+      "38658320",
+      "40791155",
+      "41814823",
+      "33357782",
+      "38873611",
+      "38249960",
+      "41224214",
+      "39874886",
+      "34530875",
+      "37935322",
+      "39152444",
+      "41986576",
+      "34951191",
+      "40624035",
+      "34045964",
+      "38142661",
+      "40449695",
+      "39736250",
+      "37949959",
+      "38767632",
+      "40745068",
+      "41843143",
+      "41836370",
+      "40500779",
+      "40148470",
+      "41591671",
+      "29855663",
+      "40640983",
+      "40679719",
+      "38050297",
+      "36111039",
+      "39364870",
+      "38096145",
+      "37496029",
+      "35757478",
+      "41016294",
+      "38130072",
+      "35920104",
+      "37849727",
+      "33107256",
+      "40713676",
+      "41772383",
+      "39682775",
+      "41104349",
+      "41564522",
+      "38883609",
+      "40350654",
+      "41083787",
+      "41088691",
+      "38728482",
+      "35360081",
+      "40890691",
+      "32493411",
+      "36386173",
+      "42051535",
+      "41029778",
+      "40692979",
+      "40760141",
+      "37465165",
+      "41071635",
+      "35523810",
+      "38178685",
+      "38151824",
+      "41378860",
+      "41630199",
+      "36764273",
+      "38994035",
+      "41961168",
+      "37752532",
+      "41192724"
+    ],
+    "review": [
+      "42136208",
+      "34951191",
+      "41836370"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

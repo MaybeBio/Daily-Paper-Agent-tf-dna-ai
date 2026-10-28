@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report identification of five biofilm-associated proteins from a pathogenic *Escherichia coli* strain using MALDI-TOF-TOF mass spectrometry and top-down analysis. They compare experimental tandem mass spectrometry fragmentation patterns with AlphaFold3-predicted structures, perform molecular dynamics simulations to assess unfolding propensity during sample preparation, and simulate a CsgB-CsgA curli multimer in hexafluoro-isopropanol (HFIP) to explain experimental disintegration. They also report electrostatic analysis of the curli complex.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full methods, experimental spectra, simulation parameters, force fields, simulation lengths, convergence criteria, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting integration of experimental top-down mass spectrometry with computational structural biology to investigate biofilm-associated proteins from a pathogenic *E. coli* strain. The combination of experimental fragmentation data with AlphaFold3 predictions and molecular dynamics simulations is timely and potentially valuable. However, the abstract alone provides insufficient detail to evaluate the technical rigor of either the mass spectrometry or the computational methods. Several claims, particularly regarding the mechanism of HFIP action on curli complexes and the electrostatic driving forces for assembly, appear to extend beyond what can be supported by the evidence described. The work may be of interest to researchers in bacterial pathogenesis, amyloid biology, and biophysical mass spectrometry, but the current evidence base is too limited to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying bacterial biofilm formation and curli amyloid assembly would find the combined experimental-computational approach relevant. Mass spectrometrists interested in gas-phase protein dissociation mechanisms and the influence of protein structure on fragmentation would also be interested. Computational biologists using AlphaFold3 and molecular dynamics to interpret experimental biophysical data may find the methodological framework useful. The electrostatic analysis of curli assembly could interest those studying amyloid polymerization mechanisms generally.
+- **Major strengths** The study addresses a biologically relevant question, namely the identity and behavior of biofilm-associated proteins in a pathogenic strain. The integration of top-down mass spectrometry with AlphaFold3 structural prediction and molecular dynamics simulations represents a modern, multi-technique approach. The observation that fragmentation efficiency varies considerably among the five identified proteins provides a basis for structure-function correlation. The use of RMSF and RMSD calculations to assess unfolding propensity during MALDI sample preparation is a thoughtful application of computational methods to a practical analytical problem.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular dynamics simulations show "rapid disintegration of this short curli complex in hexafluoro-isopropanol (HFIP) consistent with experimental observations"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that a simulation of a CsgB-CsgA multimer showed rapid disintegration in HFIP, but no simulation parameters are provided. Critical details such as the force field, water model, HFIP concentration, simulation box size, simulation length, temperature coupling, and equilibration protocol are absent. Without these details, it is impossible to assess whether the observed disintegration is a genuine physical phenomenon or an artifact of the simulation setup. Furthermore, the claim of consistency with experimental observations cannot be evaluated because the experimental data are not described in the abstract.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and force field choices. If the simulation protocol is inadequate, the conclusion that HFIP disrupts the curli complex could be incorrect. The claim of experimental consistency is central to the paper's narrative and must be verifiable.
+  - **Resolution test** Provide full simulation methods including force field, water model, HFIP representation, simulation length, number of replicates, and convergence criteria. Show that the disintegration is reproducible across multiple independent simulations and that the timescale of disintegration is physically reasonable. Present the experimental data showing curli complex disintegration in HFIP with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "Strong hydrogen bonding of HFIP appears to disrupt the intermolecular hydrogen bonds of this amyloid protein complex but does not unfold CsgA monomer because of 138 intramolecular hydrogen bonds present in its solenoidal beta-sheet structure"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This claim presents a mechanistic interpretation that requires quantitative analysis of hydrogen bonding patterns over the course of the simulation. The abstract does not describe how hydrogen bonds were counted, what threshold was used to define a hydrogen bond, how the 138 intramolecular hydrogen bonds were identified, or whether this number is stable throughout the simulation. The assertion that HFIP disrupts intermolecular but not intramolecular hydrogen bonds implies a specificity that requires energetic or structural analysis not described here.
+  - **Why it matters** The proposed mechanism is a key conclusion of the study. If the hydrogen bond analysis is not rigorous, the mechanistic claim is unsupported. The number 138 appears precise but its derivation is unclear, which raises concerns about the reliability of the analysis.
+  - **Resolution test** Describe the hydrogen bond definition and analysis method. Show the time evolution of intermolecular and intramolecular hydrogen bond counts in the presence and absence of HFIP. Demonstrate that the 138 intramolecular hydrogen bonds are maintained throughout the simulation and that this number is robust to the hydrogen bond definition used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "electrostatic analysis of the curli complex reveals partitioned regions of positive and negative charge along the fibril axis that may facilitate its assembly"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The electrostatic analysis is described only in a single sentence. No information is provided about the method used to calculate electrostatic potentials, the dielectric model, the ionic strength conditions, or how the charge partitioning was quantified. The phrase "may facilitate its assembly" is speculative, but the abstract does not describe any test of this hypothesis, such as mutagenesis or simulation of assembly under altered electrostatic conditions.
+  - **Why it matters** The electrostatic claim is presented as a finding, but without methodological detail and without any test of the proposed facilitation mechanism, it remains an untested hypothesis. The claim as stated cannot be distinguished from a qualitative observation of charge distribution that may have no functional relevance.
+  - **Resolution test** Provide the electrostatic calculation method and parameters. Show quantitative analysis of the charge distribution along the fibril axis. Present additional evidence, such as simulations with charge-altered variants or comparison with experimental assembly data under different ionic conditions, to support the claim that the charge partitioning facilitates assembly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "postsource decay" and "solenoidal beta-sheet structure" without brief explanation. Nonspecialist readers in the broader mass spectrometry or microbiology communities may not be familiar with these terms.
+  - **Required correction** Add brief parenthetical explanations for these terms, or rephrase to make the concepts accessible without oversimplifying.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state why the specific *E. coli* strain was chosen or why these five proteins are biologically significant beyond being identified. The pathogenic context is mentioned but not developed.
+  - **Required correction** Add one or two sentences explaining the biological relevance of these proteins in biofilm formation or pathogenicity, and why understanding their gas-phase behavior matters for the broader field.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fragmentation efficiency comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "fragmentation efficiency of these singly charged protein ions varied considerably" but does not provide any quantitative measure of this variation or any hypothesis for why it varies.
+  - **Required correction** Provide quantitative fragmentation efficiency values or a qualitative ranking, and briefly state what structural features are proposed to explain the variation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The simulation methodology is not described, the hydrogen bond analysis is not described, and the electrostatic analysis is not described. Without these details, the computational claims cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of top-down MALDI-TOF-TOF with AlphaFold3 and molecular dynamics for biofilm proteins is somewhat novel, though each technique individually is established. The application to curli complexes in HFIP is a specific and potentially original contribution.
+  - **Scientific importance** The biological questions about biofilm formation and curli assembly are important, but the abstract does not establish that the findings change current understanding. The mechanistic claims about HFIP and electrostatics could be important if rigorously supported.
+  - **Interdisciplinary readership** The work bridges mass spectrometry, structural biology, and computational biophysics, which could attract readers from multiple fields. However, the abstract is written in a way that assumes familiarity with all three areas.
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of any methodological detail for the simulations is a serious limitation.
+  - **Readability for nonspecialists** The abstract is dense and uses field-specific terminology without explanation. It would be challenging for a reader outside the immediate subfields.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an interesting study, but the computational claims are presented without sufficient methodological detail to evaluate their validity. The mechanistic interpretations, particularly regarding HFIP action and electrostatic facilitation of assembly, require substantial additional evidence. The manuscript may become publishable if the full methods and results support the claims, but this cannot be determined from the abstract alone.
+
+## Risk / unsupported claims
+- The claim of "rapid disintegration" of the curli complex in HFIP is unsupported because no simulation parameters or convergence criteria are provided.
+- The claim that HFIP disrupts intermolecular but not intramolecular hydrogen bonds is unsupported because no hydrogen bond analysis is described.
+- The specific number of 138 intramolecular hydrogen bonds in CsgA is presented without derivation or context.
+- The claim that electrostatic charge partitioning "may facilitate" curli assembly is speculative and untested as described.
+- The claim of consistency between simulation and experimental observations cannot be evaluated because the experimental data are not described.
+- The variation in fragmentation efficiency among the five proteins is stated but not quantified or explained.

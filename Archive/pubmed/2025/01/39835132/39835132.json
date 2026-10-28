@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "39835132",
+    "doi": "10.3389/fimmu.2024.1519345",
+    "title": "Integrating bioinformatics and machine learning to identify AhR-related gene signatures for prognosis and tumor microenvironment modulation in melanoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The Aryl Hydrocarbon Receptor (AhR) pathway significantly influences immune cell regulation, impacting the effectiveness of immunotherapy and patient outcomes in melanoma. However, the specific downstream targets and mechanisms by which AhR influences melanoma remain insufficiently understood. METHODS: Melanoma samples from The Cancer Genome Atlas (TCGA) and normal skin tissues from the Genotype-Tissue Expression (GTEx) database were analyzed to identify differentially expressed genes, which were intersected with a curated list of AhR-related pathway genes. Prognostic models were subsequently developed, and feature genes were identified. Advanced methodologies, including Gene Set Enrichment Analysis (GSEA) and immune cell infiltration analysis, were employed to explore the biological significance of these genes. The stability of the machine learning models and the relationship between gene expression and immune infiltrating cells were validated using three independent melanoma datasets. A mouse melanoma model was used to validate the dynamic changes of the feature genes during tumor progression. The relationship between the selected genes and drug sensitivity, as well as non-coding RNA interactions, was thoroughly investigated. RESULTS: Our analysis identified a robust prognostic model, with four AhR-related genes (MAP2K1, PRKACB, KLF5, and PIK3R2) emerging as key contributors to melanoma progression. GSEA revealed that these genes are involved in primary immunodeficiency. Immune cell infiltration analysis demonstrated enrichment of CD4(+) naive and memory T cells, macrophages (M0 and M2), and CD8(+) T cells in melanoma, all of which were associated with the expression of the four feature genes. Importantly, the diagnostic power of the prognostic model and the relevance of the feature genes were validated in three additional independent melanoma datasets. In the mouse melanoma model, Map2k1 and Prkacb mRNA levels exhibited a progressive increase with tumor progression, supporting their role in melanoma advancement. CONCLUSIONS: This study presents a comprehensive analysis of AhR-related genes in melanoma, highlighting MAP2K1, PRKACB, KLF5, and PIK3R2 as key prognostic markers and potential therapeutic targets. The integration of bioinformatics and machine learning provides a robust framework for enhancing prognostic evaluation in melanoma patients and offers new avenues for the development of treatments, particularly for those resistant to current immunotherapies.",
+    "keywords": [
+      "Aryl Hydrocarbon Receptor",
+      "immune cell infiltration",
+      "machine learning models",
+      "melanoma",
+      "prognostic model"
+    ],
+    "mesh_terms": [
+      "*Tumor Microenvironment/genetics/immunology",
+      "*Receptors, Aryl Hydrocarbon/genetics/metabolism",
+      "Animals",
+      "*Melanoma/genetics/immunology/pathology/metabolism/mortality",
+      "Humans",
+      "Prognosis",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "Biomarkers, Tumor/genetics",
+      "*Skin Neoplasms/genetics/immunology",
+      "Lymphocytes, Tumor-Infiltrating/immunology",
+      "Databases, Genetic",
+      "Basic Helix-Loop-Helix Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qianru",
+        "Li, Heli"
+      ],
+      "short_names": [
+        "Li Q",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Wuhan No.1 Hospital, Wuhan, Hubei, China.",
+        "Hubei Province & Key Laboratory of Skin Infection and Immunity, Wuhan, Hubei, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qianru",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Wuhan No.1 Hospital, Wuhan, Hubei, China.",
+          "Hubei Province & Key Laboratory of Skin Infection and Immunity, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Heli",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/21 09:02",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "42591444",
+      "42060194",
+      "41843384",
+      "40700394"
+    ],
+    "refs": [
+      "39365866",
+      "39211042",
+      "39055398",
+      "38925041",
+      "38867074",
+      "38759655",
+      "38367867",
+      "38339226",
+      "37989822",
+      "37963637",
+      "37839474",
+      "37714844",
+      "37516056",
+      "37231261",
+      "37196716",
+      "37106727",
+      "37028428",
+      "37013935",
+      "36806560",
+      "36549921",
+      "36528701",
+      "35139353",
+      "34557778",
+      "34115095",
+      "34074497",
+      "33516665",
+      "32933997",
+      "32897070",
+      "32877761",
+      "32731180",
+      "32539381",
+      "31942071",
+      "31510660",
+      "31504780",
+      "31435021",
+      "31269229",
+      "30961830",
+      "30931480",
+      "30827862",
+      "30643263",
+      "30377198",
+      "29625049",
+      "29487603",
+      "28268064",
+      "28115390",
+      "27124452",
+      "26005855",
+      "25792458",
+      "25750696",
+      "25690886",
+      "25605792",
+      "24297251",
+      "23833645",
+      "19915147",
+      "18362914"
+    ],
+    "similar": [
+      "39835132",
+      "41656832",
+      "40607411",
+      "41613147",
+      "33169786",
+      "39355255",
+      "40205338",
+      "40200221",
+      "34290693",
+      "40761790",
+      "40330458",
+      "40496857",
+      "40438100",
+      "40460484",
+      "41798945",
+      "41425595",
+      "39799269",
+      "39687627",
+      "39431237",
+      "40211502",
+      "37653150",
+      "40963625",
+      "34025664",
+      "40903770",
+      "38742936",
+      "40746552",
+      "42292425",
+      "32902917",
+      "40438115",
+      "33273963",
+      "41052233",
+      "40838069",
+      "41208987",
+      "42292348",
+      "34040608",
+      "40308576",
+      "41938517",
+      "41235474",
+      "40547036",
+      "42195052",
+      "41058684",
+      "41094572",
+      "38795156",
+      "40328901",
+      "41913413",
+      "33179141",
+      "42263482",
+      "41378005",
+      "41208974",
+      "39707377",
+      "40821828",
+      "39737177",
+      "34659224",
+      "40607387",
+      "41235257",
+      "40230854",
+      "34032721",
+      "37539569",
+      "39202452",
+      "40475773",
+      "38890248",
+      "39015570",
+      "35095893",
+      "41966742",
+      "40473799",
+      "33390791",
+      "38898266",
+      "41169155",
+      "38660305",
+      "40463372",
+      "40909289",
+      "41716413",
+      "39418727",
+      "40330470",
+      "41019083",
+      "40763838",
+      "39213172",
+      "41573564",
+      "40719833",
+      "39052109",
+      "40034693",
+      "38780866",
+      "31874858",
+      "40313958",
+      "38766879",
+      "42047819",
+      "41254408",
+      "39654198",
+      "40695191",
+      "40247837",
+      "39075441",
+      "40362553",
+      "41740484",
+      "39353384",
+      "40225866",
+      "32815653",
+      "39507529",
+      "39738081",
+      "33511023",
+      "32714316"
+    ],
+    "review": [
+      "39835132"
+    ],
+    "pmc": [
+      "11743449"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39835132/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1538",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1519345",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

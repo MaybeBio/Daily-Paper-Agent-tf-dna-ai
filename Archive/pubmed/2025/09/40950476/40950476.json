@@ -1,0 +1,590 @@
+{
+  "identity": {
+    "pmid": "40950476",
+    "doi": "10.1101/2025.08.28.25334684",
+    "title": "Enhancer-targeting CRISPR screens at coronary artery disease loci suggest shared mechanisms of disease risk."
+  },
+  "content": {
+    "abstract": "To systematically identify causal genetic mechanisms that confer risk for coronary artery disease (CAD) in GWAS loci, we mapped genome-wide variant-to-enhancer-to-gene (V2E2G) links in vascular smooth muscle cells (SMC). Enhancers identified by active chromatin features, and further prioritized by base-resolution deep learning models of chromatin accessibility in 108 CAD loci, were studied with CRISPRi targeting and Direct-Capture Targeted Perturb-seq (DC-TAP-seq) evaluation of 470 genes. Seventy-six V2E2G links were identified for 59 candidate CAD genes representing gene programs including epithelial-mesenchymal transformation, ubiquitination, and protein folding as well as BMP and TGFB signaling. Similar methods employed with an independent focused screen targeting one candidate locus at 9p21.3 identified 10 enhancers regulating expression of multiple genes at this location. Detailed molecular studies revealed that two enhancers mediating transcription factor binding and transcriptional regulation contribute to ancestry-specific and sex-specific risk for CAD and the surrogate biomarker vascular calcification. Together, these studies advance our identification of GWAS CAD V2E2G links across the genome, and specific mechanisms of risk at the complex 9p21.3 locus.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramste, Markus",
+        "Weldy, Chad",
+        "Kundu, Soumya",
+        "Zhao, Quanyi",
+        "Li, Daniel",
+        "Brand, Kayla",
+        "Sharma, Disha",
+        "Ramste, Amanda",
+        "Jagoda, Evelyn",
+        "Ray, Judhajeet",
+        "Caceres, Roxanne Diaz",
+        "Galante, James",
+        "Gschwind, Andreas R",
+        "Lahtinen, Nuutti",
+        "Nguyen, Trieu",
+        "Amrute, Junedh M",
+        "Park, Chong Yong",
+        "Kim, Juyong Brian",
+        "Kaikkonen, Minna U",
+        "Stitziel, Nathan O",
+        "Steinmetz, Lars",
+        "Kundaje, Anshul",
+        "Engreitz, Jesse M",
+        "Quertermous, Thomas"
+      ],
+      "short_names": [
+        "Ramste M",
+        "Weldy C",
+        "Kundu S",
+        "Zhao Q",
+        "Li D",
+        "Brand K",
+        "Sharma D",
+        "Ramste A",
+        "Jagoda E",
+        "Ray J",
+        "Caceres RD",
+        "Galante J",
+        "Gschwind AR",
+        "Lahtinen N",
+        "Nguyen T",
+        "Amrute JM",
+        "Park CY",
+        "Kim JB",
+        "Kaikkonen MU",
+        "Stitziel NO",
+        "Steinmetz L",
+        "Kundaje A",
+        "Engreitz JM",
+        "Quertermous T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4652-6422",
+        "ORCID: 0000-0002-6851-0168",
+        "ORCID: 0000-0001-6294-0979",
+        "ORCID: 0000-0002-4963-8211",
+        "ORCID: 0000-0002-5754-1719",
+        "ORCID: 0000-0002-7645-9067"
+      ],
+      "affiliations": [
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Wihuri Research Institute, University of Helsinki, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Department of Computer Science, Stanford, CA; 94305.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA.",
+        "Wihuri Research Institute, University of Helsinki, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Division of Cardiology, Department of Medicine, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+        "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, Kuopio, Finland.",
+        "Division of Cardiology, Department of Medicine, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Department of Genetics, Stanford, CA; 94305.",
+        "Department of Computer Science, Stanford, CA; 94305.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, Stanford, California, USA.",
+        "Stanford University School of Medicine, Stanford, California, USA.",
+        "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramste, Markus",
+        "short_name": "Ramste M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305.",
+          "Wihuri Research Institute, University of Helsinki, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Weldy, Chad",
+        "short_name": "Weldy C",
+        "identifiers": [
+          "0000-0003-4652-6422"
+        ],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Kundu, Soumya",
+        "short_name": "Kundu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305.",
+          "Department of Computer Science, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Zhao, Quanyi",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Li, Daniel",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Brand, Kayla",
+        "short_name": "Brand K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305.",
+          "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA."
+        ]
+      },
+      {
+        "full_name": "Sharma, Disha",
+        "short_name": "Sharma D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Ramste, Amanda",
+        "short_name": "Ramste A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Jagoda, Evelyn",
+        "short_name": "Jagoda E",
+        "identifiers": [],
+        "affiliations": [
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA."
+        ]
+      },
+      {
+        "full_name": "Ray, Judhajeet",
+        "short_name": "Ray J",
+        "identifiers": [],
+        "affiliations": [
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA."
+        ]
+      },
+      {
+        "full_name": "Caceres, Roxanne Diaz",
+        "short_name": "Caceres RD",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Galante, James",
+        "short_name": "Galante J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Gschwind, Andreas R",
+        "short_name": "Gschwind AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305.",
+          "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA."
+        ]
+      },
+      {
+        "full_name": "Lahtinen, Nuutti",
+        "short_name": "Lahtinen N",
+        "identifiers": [],
+        "affiliations": [
+          "Wihuri Research Institute, University of Helsinki, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Trieu",
+        "short_name": "Nguyen T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Amrute, Junedh M",
+        "short_name": "Amrute JM",
+        "identifiers": [
+          "0000-0002-6851-0168"
+        ],
+        "affiliations": [
+          "Division of Cardiology, Department of Medicine, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Park, Chong Yong",
+        "short_name": "Park CY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Kim, Juyong Brian",
+        "short_name": "Kim JB",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Kaikkonen, Minna U",
+        "short_name": "Kaikkonen MU",
+        "identifiers": [
+          "0000-0001-6294-0979"
+        ],
+        "affiliations": [
+          "A. I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Stitziel, Nathan O",
+        "short_name": "Stitziel NO",
+        "identifiers": [
+          "0000-0002-4963-8211"
+        ],
+        "affiliations": [
+          "Division of Cardiology, Department of Medicine, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Steinmetz, Lars",
+        "short_name": "Steinmetz L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305."
+        ]
+      },
+      {
+        "full_name": "Engreitz, Jesse M",
+        "short_name": "Engreitz JM",
+        "identifiers": [
+          "0000-0002-5754-1719"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford, CA; 94305.",
+          "Department of Computer Science, Stanford, CA; 94305.",
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA.",
+          "Basic Science and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA.",
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, Stanford, California, USA.",
+          "Stanford University School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Quertermous, Thomas",
+        "short_name": "Quertermous T",
+        "identifiers": [
+          "0000-0002-7645-9067"
+        ],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford, CA; 94305."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2025 Sep 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:33",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40546321",
+      "40376148",
+      "40345201",
+      "40143812",
+      "40026154",
+      "39983850",
+      "39825430",
+      "39294132",
+      "39052835",
+      "38760839",
+      "38326615",
+      "38301602",
+      "37971293",
+      "37805337",
+      "37770635",
+      "37443254",
+      "37354304",
+      "37276403",
+      "36744494",
+      "36610402",
+      "36474045",
+      "36350656",
+      "36246779",
+      "35915156",
+      "35735005",
+      "35590109",
+      "35175464",
+      "34930414",
+      "34851361",
+      "34774128",
+      "34711957",
+      "34418317",
+      "34024118",
+      "33830992",
+      "33309175",
+      "33080691",
+      "32670558",
+      "32591598",
+      "32513244",
+      "32483332",
+      "32441123",
+      "32067586",
+      "32066403",
+      "31784727",
+      "31701148",
+      "31659325",
+      "31543200",
+      "31359001",
+      "30612741",
+      "30227237",
+      "30146127",
+      "30003042",
+      "29688277",
+      "29308617",
+      "29301708",
+      "29212778",
+      "28481916",
+      "27708057",
+      "27596813",
+      "27389912",
+      "27022014",
+      "26982883",
+      "26653891",
+      "26432245",
+      "26316498",
+      "25908644",
+      "25620626",
+      "25535248",
+      "25307932",
+      "25111813",
+      "24573017",
+      "24531546",
+      "23343465",
+      "23266674",
+      "23162013",
+      "22952318",
+      "22607024",
+      "22058161",
+      "21307941",
+      "20861231",
+      "20427482",
+      "19458158",
+      "19176322",
+      "18579210",
+      "17713536",
+      "17701901",
+      "16921403",
+      "15155384",
+      "10080920",
+      "9125304"
+    ],
+    "similar": [
+      "40950476",
+      "39606421",
+      "36597873",
+      "33626337",
+      "26020271",
+      "21307941",
+      "25835000",
+      "32513244",
+      "37017084",
+      "35735005",
+      "40143812",
+      "30444878",
+      "34990206",
+      "40653482",
+      "41210961",
+      "26966275",
+      "41667033",
+      "27903283",
+      "31287004",
+      "40205616",
+      "41332607",
+      "42190655",
+      "29212778",
+      "40409268",
+      "34961328",
+      "35246263",
+      "38853913",
+      "31815603",
+      "36474045",
+      "30146127",
+      "26020946",
+      "27386823",
+      "38326615",
+      "38747151",
+      "29491472",
+      "26966274",
+      "31917787",
+      "39355906",
+      "28481916",
+      "30892142",
+      "39830273",
+      "37066230",
+      "41293823",
+      "40027824",
+      "30429326",
+      "25249547",
+      "38863031",
+      "41445618",
+      "30307970",
+      "41648216",
+      "40655014",
+      "35175464",
+      "41057608",
+      "36928188",
+      "32442411",
+      "40034789",
+      "40874306",
+      "23341446",
+      "25578447",
+      "23667179",
+      "25838425",
+      "42642720",
+      "39802764",
+      "42123708",
+      "32744316",
+      "41873862",
+      "39909615",
+      "30861420",
+      "41757042",
+      "39819837",
+      "35590109",
+      "39341862",
+      "31014396",
+      "39673284",
+      "40501802",
+      "23561647",
+      "28957430",
+      "31539914",
+      "30786239",
+      "40421528",
+      "36747745",
+      "38602103",
+      "36170352",
+      "22537144",
+      "24452806",
+      "40666338",
+      "38190101",
+      "41252360",
+      "34038741",
+      "42487124",
+      "40827730",
+      "40784299",
+      "35714152",
+      "24920305",
+      "31196451",
+      "38723632",
+      "29467471",
+      "41427057",
+      "42385718",
+      "31500558"
+    ],
+    "review": [
+      "40950476",
+      "37017084",
+      "29212778",
+      "36474045",
+      "29491472",
+      "41873862",
+      "39909615",
+      "36170352"
+    ],
+    "pmc": [
+      "12424881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40950476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40950476",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.28.25334684",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

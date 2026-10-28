@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42265104",
+  "title": "Robust footprinting with sample-specific Tn5 bias correction for bulk and single cell ATAC-seq.",
+  "authors": "Lin, Yuxuan; Wang, Hanzhi; Wilson, Parker C; Zhang, Nancy R",
+  "journal": "Nature communications",
+  "published_date": "2026-06-10",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发TraceBind方法，通过样本特异Tn5偏差校正从ATAC-seq数据中检测TF足迹，虽涉及TF-DNA结合位点预测，但主要基于测序数据统计而非三维互作建模或AI/物理模拟方法，属于广义蛋白-DNA互作的应用研究。",
+  "abstract": "Accurate detection of transcription factor (TF) and nucleosome occupancy from assay for transposase-accessible chromatin via sequencing (ATAC-seq) remains challenging due to sequence-dependent Tn5 cleavage bias. We show that this cleavage bias varies across samples and introduce TraceBind, an ATAC-seq footprinting framework that performs sample-specific Tn5 bias correction by fine-tuning a pretrained cleavage model using mitochondrial DNA reads, followed by multiscale detection with empirical false discovery rate control. Across bulk and single-cell ATAC-seq datasets, with validation by naked DNA controls, matched ChIP-seq and CUT&RUN experiments, and TF degradation perturbations, TraceBind reduces false positives while maintaining high sensitivity compared to existing methods. TraceBind enables improved downstream single-cell analyses, including transcription factor activity inference and cell age prediction. Base-resolution comparisons with DNA foundation model-based sequence annotations show enriched overlap but reveals many high-confidence footprints not captured by DNA foundation models, highlighting complementary regulatory information beyond what can be learned from DNA sequence alone.",
+  "abstract_zh": "通过转座酶可及性染色质测序（ATAC-seq）准确检测转录因子（TF）和核小体占据仍具挑战性，原因在于序列依赖的Tn5切割偏好。我们表明，这种切割偏好在不同样本间存在差异，并引入TraceBind，一种ATAC-seq足迹分析框架，通过使用线粒体DNA读数微调预训练切割模型，实现样本特异性Tn5偏差校正，随后进行多尺度检测并控制经验假发现率。在批量及单细胞ATAC-seq数据集中，经裸DNA对照、匹配的ChIP-seq和CUT&RUN实验以及TF降解扰动验证，TraceBind在保持高灵敏度的同时，相比现有方法减少了假阳性。TraceBind改善了后续单细胞分析，包括转录因子活性推断和细胞年龄预测。与基于DNA基础模型的序列注释进行碱基分辨率比较，显示重叠富集，但揭示了DNA基础模型未捕获的许多高置信度足迹，突显了超越仅从DNA序列可学习信息的互补调控信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42265104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42265104/",
+  "paper_page_path": "papers/pubmed/42265104/index.html"
+}

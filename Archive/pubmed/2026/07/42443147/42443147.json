@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "42443147",
+    "doi": "10.1038/s41398-026-04275-0",
+    "title": "Mapping lncRNAs onto multilevel mRNA co‑expression modules in autism."
+  },
+  "content": {
+    "abstract": "Autism spectrum disorder (ASD) involves heterogeneous genetic and transcriptomic alterations, but how these changes are organized across hierarchical co-expression scales and linked to long noncoding RNAs (lncRNAs) remains incompletely understood. Here, we present Minimum Span Clustering Network (MSCN), an unsupervised, deterministic framework that constructs traceable multilevel mRNA co-expression hierarchies without requiring soft-thresholding powers, fixed module numbers, cut heights, or stochastic initialization. Applied to two independent ASD brain transcriptome cohorts, MSCN reveals hierarchical gene modules across four resolution levels, enabling the detection of transcriptional patterns ranging from low-level, specific signals to high-level, broader biological pathways. We uncovered modules enriched in neuronal/axonal, developmental, and immune-related pathways, reflecting interconnected neurodevelopmental and immune-dysregulation programs in ASD. Cross-method comparisons showed that MSCN complements WGCNA and MEGENA by preserving biologically concordant modules while providing an explicit parent-child hierarchy; simulation and benchmark analyses supported comparable module recovery, preservation, and enrichment performance. By mapping lncRNAs to MSCN-derived mRNA modules, we identified lncRNAs associated with ASD-related mRNA modules and evaluated them as candidate statistical mediators in downstream transcription factor (TF)-lncRNA-mRNA analyses. This analysis identified over 11,000 candidate TF-lncRNA-mRNA axes, including 644 axes involving 46 SFARI score 1 or 2 genes, four of which were syndromic genes, and 12 named lncRNA mediators. External transcriptomic evaluation further supported 789 axes, including representative HIF1A-STXBP5-AS1-CADPS, E2F1-PART1-SCN2A, and RELA-RFPL1S-GRIN2A relationships. Together, these findings establish MSCN as a scalable framework for decomposing ASD mRNA co-expression architecture, provide a hypothesis-generating resource linking coding and noncoding transcriptomic alterations, and help prioritize these relationships for future validation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Chen-Ling",
+        "Hu, Geng-Ming",
+        "Li, Yi-Pei",
+        "Mai, Te-Lun"
+      ],
+      "short_names": [
+        "Lee CL",
+        "Hu GM",
+        "Li YP",
+        "Mai TL"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-3439-8925",
+        "ORCID: 0000-0002-9356-6198"
+      ],
+      "affiliations": [
+        "Department of Life Science, National Taiwan University, Taipei, Taiwan.",
+        "Department of Physics, National Taiwan Normal University, Taipei, Taiwan.",
+        "Department of Life Science, National Taiwan University, Taipei, Taiwan.",
+        "Department of Life Science, National Taiwan University, Taipei, Taiwan. tlmai@ntu.edu.tw.",
+        "Center for Computational and Systems Biology, National Taiwan University, Taipei, Taiwan. tlmai@ntu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Chen-Ling",
+        "short_name": "Lee CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science, National Taiwan University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hu, Geng-Ming",
+        "short_name": "Hu GM",
+        "identifiers": [
+          "0009-0007-3439-8925"
+        ],
+        "affiliations": [
+          "Department of Physics, National Taiwan Normal University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Li, Yi-Pei",
+        "short_name": "Li YP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science, National Taiwan University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Mai, Te-Lun",
+        "short_name": "Mai TL",
+        "identifiers": [
+          "0000-0002-9356-6198"
+        ],
+        "affiliations": [
+          "Department of Life Science, National Taiwan University, Taipei, Taiwan. tlmai@ntu.edu.tw.",
+          "Center for Computational and Systems Biology, National Taiwan University, Taipei, Taiwan. tlmai@ntu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational psychiatry"
+    ],
+    "journal_abbrev": [
+      "Transl Psychiatry"
+    ],
+    "pub_date": "2026 Jul 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/14 00:35",
+    "fetched_at": "2026-10-02 01:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42443147",
+      "41779288",
+      "30547845",
+      "38057311",
+      "39343885",
+      "28649314",
+      "35710789",
+      "39841251",
+      "41898708",
+      "28562671",
+      "40913903",
+      "31462944",
+      "32228580",
+      "33329745",
+      "26399424",
+      "41683685",
+      "42382761",
+      "41997320",
+      "42326009",
+      "42317361",
+      "42265520",
+      "41502897",
+      "21614001",
+      "28621149",
+      "36462391",
+      "33193567",
+      "39639867",
+      "36385761",
+      "33160303",
+      "40069611",
+      "32477405",
+      "31182053",
+      "27793094",
+      "29989084",
+      "31615521",
+      "42224107",
+      "34971620",
+      "37099974",
+      "41596688",
+      "41611834",
+      "27483382",
+      "38329124",
+      "39949372",
+      "32653993",
+      "30988816",
+      "22949041",
+      "42123445",
+      "41988836",
+      "38389525",
+      "34554377",
+      "35026983",
+      "30280282",
+      "38977176",
+      "34898376",
+      "27919067",
+      "42019823",
+      "33833992",
+      "40188093",
+      "42024670",
+      "34426790",
+      "32685450",
+      "35594946",
+      "42074604",
+      "30561910",
+      "35462908",
+      "34532296",
+      "34746237",
+      "31512745",
+      "33159718",
+      "32127416",
+      "40723809",
+      "39257693",
+      "27610074",
+      "30613154",
+      "36894947",
+      "41595671",
+      "41398680",
+      "38352274",
+      "32923393",
+      "42121772",
+      "30719228",
+      "33920310",
+      "39383929",
+      "34767189",
+      "35430283",
+      "39608637",
+      "31721901",
+      "39333906",
+      "31960487",
+      "42223712",
+      "41998783",
+      "37228500",
+      "39539669",
+      "35968017",
+      "38838009",
+      "33664764",
+      "32125527",
+      "30128795",
+      "31673306",
+      "27363013"
+    ],
+    "review": [
+      "42443147",
+      "38977176",
+      "40723809",
+      "34767189"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41398-026-04275-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3341",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

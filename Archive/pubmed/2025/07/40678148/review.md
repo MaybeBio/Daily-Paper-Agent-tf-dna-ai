@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, results, discussion, methods, and supplementary figure references.
+- **Assessment boundary** Scientific and technical evaluation of the proposed DLTRNM model, its validation, and its claims regarding transcriptional regulatory network inference in *Saccharomyces cerevisiae*. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose a distributed large-scale transcriptional regulatory neural network model (DLTRNM) that integrates prior knowledge from the YEASTRACT database with pan-transcriptomic pre-training and time-series fine-tuning. They claim the model can accurately predict transcriptional regulatory relationships, simulate TF knockout effects, identify key TFs, and complement existing regulatory subnetworks.
+- **Visible evidence base** Main text, all figures (Figs. 1-5), methods section, and references to supplementary figures (Fig. S1-S3) and Table 1. GitHub repository link provided for code and data.
+- **Missing materials affecting confidence** Supplementary figures (S1-S3) and supplementary data were not provided for review. The GitHub repository was not accessed. Full validation datasets and detailed hyperparameter configurations for individual subnetworks were not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to transcriptional regulatory network modeling by combining mechanistic prior knowledge with deep learning in a distributed architecture. The idea of per-gene subnetworks with transfer learning is sensible and potentially scalable. However, the validation strategy is weak in several critical aspects. The reported accuracy metrics (0.583 for regulatory direction prediction, 0.52 for knockout simulation) are modest and lack rigorous comparison against baseline methods or statistical significance testing. The use of static labels from SGD to validate dynamic predictions is problematic, as the authors acknowledge. The claim that DLTRNM "complements" existing subnetworks is based on limited case studies without systematic evaluation. The technical soundness is partially established, but the biological insights derived are preliminary. The manuscript would benefit from stronger benchmarking, uncertainty quantification, and more rigorous validation against independent datasets.
+- **Who would be interested in the results, and why** Researchers in systems biology, computational biology, and gene regulatory network inference would be interested. Those working on deep learning applications in genomics, particularly transfer learning approaches for model organisms, would find the distributed architecture concept relevant. The potential for identifying key TFs and complementing existing regulatory networks may interest experimental biologists studying transcriptional regulation in yeast.
+- **Major strengths** 1) The distributed architecture is a novel and practical design choice that allows per-gene analysis without retraining the entire network. 2) The integration of prior knowledge from YEASTRACT with data-driven learning is a sensible hybrid approach. 3) The transfer learning strategy (pre-training on pan-transcriptomic data, fine-tuning on time-series) is well-motivated. 4) The model provides interpretable outputs through SHAP analysis, which is valuable for biological hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DLTRNM can independently simulate how each TG is influenced by variations in TFs, accurately capturing the relationships between TFs and TGs without interference from other subnetworks."
+  - **Evidence pointer** Results section, Fig. 3A-B
+  - **Concern** The validation of regulatory direction prediction relies on static labels from SGD, which the authors acknowledge cannot capture dynamic or condition-specific regulation. The overall accuracy of 0.583 (excluding "other" predictions) is barely above random chance for a binary classification (0.5). No confidence intervals, statistical tests, or comparison against simpler baseline models (e.g., correlation-based methods, random forest) are provided.
+  - **Why it matters** Without rigorous benchmarking and statistical evaluation, the claimed predictive accuracy cannot be distinguished from chance or from simpler methods. The validation approach using static labels is fundamentally mismatched with the dynamic nature of transcriptional regulation, undermining the claim of "accurate" prediction.
+  - **Resolution test** Provide comparison against at least one baseline method (e.g., Pearson correlation, GENIE3, or a simple feedforward network without prior knowledge). Report confidence intervals and statistical significance (e.g., binomial test against 0.5). Alternatively, validate on independent time-series datasets with known regulatory dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Knockout simulations were performed for all 225 transcription factors associated with the 5859 genes modeled in DLTRNM... the overall prediction accuracy also remains at a moderate level (0.52)."
+  - **Evidence pointer** Results section, Fig. 3C-D
+  - **Concern** The knockout simulation accuracy of 0.52 is essentially at chance level for binary classification. The authors attribute this to the dynamic nature of regulatory relationships, but this explanation is not tested. No analysis is provided to determine whether the model performs better for specific TFs, conditions, or regulatory motifs. The confusion matrix for ROX1 (63.86% accuracy) is presented as a case study, but it is unclear whether this is representative or cherry-picked.
+  - **Why it matters** A model with near-chance accuracy on a core claimed capability (knockout simulation) does not establish utility for biological discovery. The lack of stratified analysis prevents understanding of when the model works and when it fails, which is essential for practical application.
+  - **Resolution test** Provide stratified accuracy analysis by TF, by regulatory motif, or by condition. Compare against a null model (e.g., random predictions or a model without prior knowledge). Report precision-recall curves or Matthews correlation coefficient in addition to accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "DLTRNM can complement previously reported transcriptional regulatory subnetworks and identify potential key transcriptional regulatory interactions."
+  - **Evidence pointer** Results section, Fig. 5A-B
+  - **Concern** The claim of complementing existing subnetworks is based on two case studies (temperature response and oxidative stress). The removal of MED8-HXK1 and MED8-GLK1 edges is justified by MED8 not being a TF, which is a reasonable curation step. However, the added edges (e.g., YAP1-CAD1-STB5) are described as "supported by research," but the nature and strength of this support is not detailed. The systematic evaluation of how many edges were added, removed, or modified across the entire network is not provided.
+  - **Why it matters** The claim of complementing existing networks is a key selling point of the model. Without a systematic evaluation of the model's contributions across multiple subnetworks, the generalizability of this capability is not established.
+  - **Resolution test** Provide a systematic analysis of how DLTRNM modifies existing subnetworks across a larger set of conditions or subnetworks. Quantify the number of added, removed, and confirmed edges. Validate a sample of novel predictions experimentally or against independent databases.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "DLTRNM provides a powerful tool for studying transcriptional regulation with reduced computational demands and enhanced interpretability."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of "reduced computational demands" is not quantified. No runtime, memory usage, or scaling analysis is provided. The distributed architecture is argued to reduce computational burden, but the pre-training on 969 samples across 6085 subnetworks and fine-tuning on time-series data may still be computationally intensive. The claim of "enhanced interpretability" is supported by SHAP analysis, but the interpretability is limited to feature importance rankings and does not provide mechanistic insights into regulatory logic.
+  - **Why it matters** Computational efficiency and interpretability are stated as key advantages of the proposed method. Without quantitative evidence, these claims cannot be evaluated and may not hold in practice.
+  - **Resolution test** Provide benchmark comparisons of training and inference time against existing methods (e.g., GENIE3, GRNBoost2, or a single large-scale neural network). Report memory usage. Provide examples of how SHAP values lead to testable biological hypotheses beyond simple feature ranking.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Preprocessing of pan-transcriptome data preprocessing"
+  - **Evidence pointer** Methods section, subsection title
+  - **Issue** The subsection title contains a redundancy: "Preprocessing of pan-transcriptome data preprocessing."
+  - **Required correction** Change the title to "Preprocessing of pan-transcriptomic data."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Transfer learning for fine tuning"
+  - **Evidence pointer** Methods section, equation (4)
+  - **Issue** The equation for determining the maximum number of epochs (epoch = 200 x dataset_size) is presented without justification. It is unclear why this linear scaling was chosen and whether it was optimized.
+  - **Required correction** Provide a brief justification for the epoch scaling rule or cite a reference. Alternatively, describe any sensitivity analysis performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, "DLTRNM can independently simulate TG responses"
+  - **Evidence pointer** Results section, Fig. 3A
+  - **Issue** The accuracy of 0.583 is reported without any measure of uncertainty. It is unclear how many regulatory relationships were evaluated and whether the accuracy varies significantly across different TGs or TFs.
+  - **Required correction** Report the number of evaluated relationships, confidence intervals, and ideally a per-TG or per-TF breakdown of accuracy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "DLTRNM can predict key TFs for each TG"
+  - **Evidence pointer** Results section, Fig. 4C-E
+  - **Issue** The selection of HAP4 and PYK2 as case studies is not justified. It is unclear whether these were chosen based on biological interest, model performance, or other criteria.
+  - **Required correction** Briefly state the criteria for selecting these two TGs for detailed analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence 2
+  - **Issue** The phrase "data-and mechanism-driven" is used in the title and abstract but is not clearly defined in the main text. The distinction between "data-driven" and "mechanism-driven" components of the model could be clarified.
+  - **Required correction** Add a brief explanation in the Introduction or Methods of what constitutes the "mechanism-driven" aspect versus the "data-driven" aspect.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation against static labels with near-chance accuracy), R1-M2 (knockout simulation accuracy at chance level without stratified analysis), R1-M4 (unquantified claims of computational efficiency).
+- **Assessment against Nature-style criteria** Originality: The distributed per-gene architecture with transfer learning is a novel contribution, though the individual components (neural networks, transfer learning, SHAP) are established. Scientific importance: The potential to identify key TFs and complement existing regulatory networks is of interest to the systems biology community, but the modest predictive accuracy limits immediate impact. Interdisciplinary readership: The work bridges machine learning and molecular biology, but the technical depth may limit accessibility for experimental biologists. Technical soundness: The model architecture is reasonable, but the validation methodology is insufficient to establish reliability. Readability for nonspecialists: The manuscript is generally well-structured, but the methods section assumes familiarity with deep learning and SHAP concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising, but the validation strategy must be substantially strengthened. Specifically, the authors should benchmark against baseline methods, provide statistical rigor, and demonstrate utility beyond chance-level accuracy. The claims of complementing existing networks and identifying key TFs require more systematic evaluation.
+
+## Risk / unsupported claims
+- The claim that DLTRNM "accurately" predicts regulatory direction is not supported given the accuracy of 0.583 without statistical comparison to chance or baselines.
+- The claim that DLTRNM can "systematically" simulate TF knockouts is not supported given the overall accuracy of 0.52.
+- The claim of "reduced computational demands" is unquantified and cannot be evaluated from the provided material.
+- The claim that DLTRNM "complements" existing regulatory subnetworks is based on two case studies and lacks systematic evaluation.
+- The assertion that "87.27% of the subnetworks have large CV values, indicating significant differences in the importance of most variables" is presented without a clear threshold for "large" or a statistical test.
+- The statement that "an average loss of 0.144 is regarded as an acceptable error" is a subjective judgment without a formal acceptance criterion or comparison to alternative models.

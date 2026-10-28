@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39391807",
+  "title": "Modeling Control of Supercoiling Dynamics and Transcription Using DNA-Binding Proteins.",
+  "authors": "Clark, Harris; Taylor, Aleczander; Yeung, Enoch",
+  "journal": "IEEE control systems letters",
+  "published_date": "2024-10-11",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用数学模型研究DNA结合蛋白调控超螺旋动力学进而控制转录，虽涉及蛋白-DNA互作和转录调控，但缺乏AI或物理模拟方法，且未聚焦TF-DNA特异性结合机制。",
+  "abstract": "Nearly all natural and synthetic gene networks rely on the fundamental process of transcription to enact biological feedback, genetic programs, and living circuitry. In this work, we investigate the efficacy of controlling transcription using a new biophysical mechanism, control of localized supercoiling near a gene of interest. We postulate a basic reaction network model for describing the general phenomenon of transcription and introduce a separate set of equations to describe the dynamics of supercoiling. We show that supercoiling and transcription introduce a shared reaction flux term in the model dynamics and illustrate how the modulation of supercoiling can be used to control transcription rates. We show the supercoiling-transcription model can be written as a nonlinear state-space model, with a radial basis function nonlinearity to capture the empirical relationship between supercoiling and transcription rates. We show the system admits a single, globally exponentially stable equilibrium point. Notably, we show that mRNA steady-state levels can be controlled directly by increasing a length-scale parameter for genetic spacing. Finally, we build a mathematical model to explore the use of a DNA binding protein, to define programmable boundary conditions on supercoiling propagation, which we show can be used to control transcriptional bursting or pulsatile transcriptional response. We show there exists a stabilizing control law for mRNA tracking, using the method of control Lyapunov functions and illustrate these results with numerical simulations.",
+  "abstract_zh": "几乎所有天然和合成的基因网络都依赖于转录这一基本过程来实现生物反馈、遗传程序及生命回路。在本工作中，我们研究了一种新的生物物理机制——对目标基因附近局部超螺旋的控制——在调控转录中的有效性。我们假设了一个基本的反应网络模型来描述转录的一般现象，并引入一组独立的方程来描述超螺旋的动态。我们表明，超螺旋和转录在模型动态中引入了一个共享的反应通量项，并阐明了如何通过调节超螺旋来控制转录速率。我们展示了超螺旋-转录模型可以写成非线性状态空间模型，其中采用径向基函数非线性来捕捉超螺旋与转录速率之间的经验关系。我们证明该系统具有一个唯一的全局指数稳定平衡点。值得注意的是，我们表明mRNA稳态水平可以通过增加基因间距的长度尺度参数直接控制。最后，我们构建了一个数学模型来探索使用DNA结合蛋白定义超螺旋传播的可编程边界条件，并证明这可用于控制转录爆发或脉冲式转录响应。我们证明存在一种用于mRNA跟踪的稳定控制律，采用控制李雅普诺夫函数方法，并通过数值模拟展示了这些结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39391807/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39391807/",
+  "paper_page_path": "papers/pubmed/39391807/index.html"
+}

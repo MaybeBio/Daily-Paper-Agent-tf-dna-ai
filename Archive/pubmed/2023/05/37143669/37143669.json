@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "37143669",
+    "doi": "10.3389/fimmu.2023.1150828",
+    "title": "Identification of NETs-related biomarkers and molecular clusters in systemic lupus erythematosus."
+  },
+  "content": {
+    "abstract": "Neutrophil extracellular traps (NETs) is an important process involved in the pathogenesis of systemic lupus erythematosus (SLE), but the potential mechanisms of NETs contributing to SLE at the genetic level have not been clearly investigated. This investigation aimed to explore the molecular characteristics of NETs-related genes (NRGs) in SLE based on bioinformatics analysis, and identify associated reliable biomarkers and molecular clusters. Dataset GSE45291 was acquired from the Gene Expression Omnibus repository and used as a training set for subsequent analysis. A total of 1006 differentially expressed genes (DEGs) were obtained, most of which were associated with multiple viral infections. The interaction of DEGs with NRGs revealed 8 differentially expressed NRGs (DE-NRGs). The correlation and protein-protein interaction analyses of these DE-NRGs were performed. Among them, HMGB1, ITGB2, and CREB5 were selected as hub genes by random forest, support vector machine, and least absolute shrinkage and selection operator algorithms. The significant diagnostic value for SLE was confirmed in the training set and three validation sets (GSE81622, GSE61635, and GSE122459). Additionally, three NETs-related sub-clusters were identified based on the hub genes' expression profiles analyzed by unsupervised consensus cluster assessment. Functional enrichment was performed among the three NETs subgroups, and the data revealed that cluster 1 highly expressed DEGs were prevalent in innate immune response pathways while that of cluster 3 were enriched in adaptive immune response pathways. Moreover, immune infiltration analysis also revealed that innate immune cells were markedly infiltrated in cluster 1 while the adaptive immune cells were upregulated in cluster 3. As per our knowledge, this investigation is the first to explore the molecular characteristics of NRGs in SLE, identify three potential biomarkers (HMGB1, ITGB2, and CREB5), and three distinct clusters based on these hub biomarkers.",
+    "keywords": [
+      "bioinformatics",
+      "biomarker",
+      "clusters",
+      "machine learning",
+      "neutrophil extracellular traps (NETs)",
+      "systemic lupus erythematosus (SLE)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Extracellular Traps",
+      "*HMGB1 Protein/genetics/metabolism",
+      "*Lupus Erythematosus, Systemic/diagnosis/genetics",
+      "Biomarkers/metabolism",
+      "Phagocytosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Haoguang",
+        "Zhang, Xiuling",
+        "Shang, Jingjing",
+        "Feng, Xueqin",
+        "Yu, Le",
+        "Fan, Jie",
+        "Ren, Jie",
+        "Zhang, Rongwei",
+        "Duan, Xinwang"
+      ],
+      "short_names": [
+        "Li H",
+        "Zhang X",
+        "Shang J",
+        "Feng X",
+        "Yu L",
+        "Fan J",
+        "Ren J",
+        "Zhang R",
+        "Duan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Haoguang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuling",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Jingjing",
+        "short_name": "Shang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xueqin",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Le",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jie",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Jie",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rongwei",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Xinwang",
+        "short_name": "Duan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Second Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/05 06:42",
+    "fetched_at": "2026-09-28 23:57:44"
+  },
+  "links": {
+    "cites": [
+      "42247428",
+      "41530536",
+      "41335221",
+      "41104131",
+      "40949741",
+      "40858985",
+      "40239243",
+      "40102753",
+      "40082645",
+      "39849606",
+      "39717551",
+      "39479185",
+      "39364719",
+      "38443092",
+      "38298525",
+      "38186568",
+      "38044432",
+      "37781711",
+      "37740815",
+      "37719859",
+      "37528306",
+      "37526746",
+      "37481739"
+    ],
+    "refs": [
+      "36257987",
+      "35688556",
+      "35686129",
+      "34884569",
+      "34557778",
+      "33511473",
+      "33039957",
+      "32740860",
+      "32536928",
+      "32195365",
+      "31386190",
+      "31180031",
+      "31180030",
+      "31139013",
+      "30944313",
+      "29086801",
+      "28990587",
+      "28849060",
+      "28794077",
+      "28471259",
+      "27872476",
+      "27322403",
+      "27008011",
+      "26842629",
+      "26811368",
+      "26683153",
+      "25964631",
+      "25687121",
+      "25309543",
+      "24930139",
+      "24531837",
+      "23937229",
+      "23753600",
+      "23323831",
+      "22952397",
+      "22933624",
+      "22458844",
+      "21561920",
+      "21414208",
+      "20808728",
+      "20709738",
+      "20576703",
+      "20546955",
+      "20427518",
+      "17632569",
+      "17496320",
+      "16632515",
+      "15277234",
+      "15001782",
+      "10802651",
+      "10592173",
+      "8440710"
+    ],
+    "similar": [
+      "37143669",
+      "38044432",
+      "38941671",
+      "36470144",
+      "38801616",
+      "37465678",
+      "39081100",
+      "35757721",
+      "36341378",
+      "33468161",
+      "35558576",
+      "31673979",
+      "38013304",
+      "38493695",
+      "36059547",
+      "31619143",
+      "38774864",
+      "36532016",
+      "39290707",
+      "35608258",
+      "34553293",
+      "39256536",
+      "39205658",
+      "37313407",
+      "35935949",
+      "37520666",
+      "34160465",
+      "38912340",
+      "32426333",
+      "31257985",
+      "38852219",
+      "37519764",
+      "37715643",
+      "29257335",
+      "37950194",
+      "38766319",
+      "37539924",
+      "37582308",
+      "37465687",
+      "37614232",
+      "36595110",
+      "30915077",
+      "29550813",
+      "36465614",
+      "38637124",
+      "37671131",
+      "34721432",
+      "36028828",
+      "39388708",
+      "39199011",
+      "38130724",
+      "38972975",
+      "31030361",
+      "38507132",
+      "36195955",
+      "35858908",
+      "35967373",
+      "36655136",
+      "29588275",
+      "37072474",
+      "37426642",
+      "33123584",
+      "35864995",
+      "34180358",
+      "38371524",
+      "37369873",
+      "26658004",
+      "38018597",
+      "35757684",
+      "38370470",
+      "39107483",
+      "38026241",
+      "31313503",
+      "38323113",
+      "39170142",
+      "31444555",
+      "33786699",
+      "35495164",
+      "31300459",
+      "34761271",
+      "35810799",
+      "37692541",
+      "35764238",
+      "26245802",
+      "38464525",
+      "25500436",
+      "30563869",
+      "37800460",
+      "37860011",
+      "37846867",
+      "33176801",
+      "35958412",
+      "37716978",
+      "31529548",
+      "23945056",
+      "37419296",
+      "38518057",
+      "36530895",
+      "39361430",
+      "35025058",
+      "35713363",
+      "36940814",
+      "36996699",
+      "39360156",
+      "37686381",
+      "39394253",
+      "39362013",
+      "39419909",
+      "39396625"
+    ],
+    "review": [
+      "37143669",
+      "26658004"
+    ],
+    "pmc": [
+      "10151561"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37143669/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37143669",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4042",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1150828",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

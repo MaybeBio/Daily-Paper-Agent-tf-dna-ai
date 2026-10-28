@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, discussion, conclusions, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors propose a likelihood-based framework using an over-dispersed binomial distribution to benchmark sequence-to-affinity models for transcription factor binding using allele-specific ChIP-seq data. They introduce PyProBound, a reimplementation of ProBound, and demonstrate its utility for model training and de novo motif discovery using CTCF as a case study.
+- **Visible evidence base** Abstract, full text of Background, Results, Discussion, Conclusions, and Methods sections; references to figures and supplementary materials are mentioned but not provided
+- **Missing materials affecting confidence** Figures 1-5, Supplemental Figures S1-S4, all figure legends, supplementary methods, and detailed parameter settings for PyProBound training are not included. This limits verification of quantitative claims and visual data interpretation.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful framework for benchmarking TF binding models using allele-specific data. The idea of aggregating sub-threshold allelic imbalance evidence across the genome is sound and addresses a real limitation of per-SNV analysis. The introduction of PyProBound as a flexible, extensible tool is a valuable contribution. However, the manuscript as provided has several significant gaps. The absence of figures and detailed results makes it impossible to fully evaluate the strength of the evidence. The statistical framework, while described, lacks sufficient detail on model selection, parameter estimation, and validation. The claim of improved performance from modeling fragmentation bias is plausible but not fully substantiated without the corresponding figures and quantitative comparisons. The de novo motif discovery result is intriguing but presented with limited validation. Overall, the work has merit but requires substantial additional detail and analysis to fully support its conclusions.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF-DNA binding specificity, regulatory genomics, and variant effect prediction. The PyProBound software will be of interest to researchers developing or applying biophysical models of TF binding. The benchmarking framework could be adopted by the broader genomics community for evaluating sequence-to-affinity models.
+- **Major strengths** 1. The conceptual advance of using genome-wide likelihood aggregation to benchmark models without requiring per-SNV significance is a clear strength. 2. The development of PyProBound as a flexible, open-source tool addresses a practical need. 3. The explicit modeling of DNA fragmentation bias in ChIP-seq analysis is a thoughtful methodological contribution. 4. The use of multiple data types (ChIP-seq, ChIP-exo, CUT&Tag) for comparison is comprehensive.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical methodology
+  - **Claim pointer** The beta-binomial likelihood framework is claimed to provide an unbiased metric for comparing model performance.
+  - **Evidence pointer** Methods section "Beta-binomial model of genome-wide allelic effects on the binding affinity"; Results section "A metric for binding model quality based on observed allelic preference across the genome"
+  - **Concern** The statistical framework is described at a high level, but critical details are missing. Specifically, how is the over-dispersion parameter ρ estimated? What is the justification for the specific functional form of p in terms of Karef and Kaalt? How is the background parameter C determined? Is there a possibility of overfitting when estimating ρ and C on the same data used for model comparison? The manuscript does not describe any cross-validation or sensitivity analysis for these parameters.
+  - **Why it matters** The validity of the entire benchmarking approach rests on the correctness and robustness of this statistical model. If the parameter estimation is biased or unstable, the model comparisons could be misleading. The claim of "unbiased" assessment is particularly strong and requires rigorous justification.
+  - **Resolution test** Provide a detailed derivation of the likelihood, describe the optimization procedure, and include simulation studies or analytical results demonstrating the estimator's properties. Show that the model comparison results are robust to reasonable variations in ρ and C, perhaps through bootstrap or sensitivity analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that ChIP-seq-derived models with fragmentation bias modeling outperform those without, and that CUT&Tag-derived models outperform ChIP-based approaches.
+  - **Evidence pointer** Results section "Taking DNA fragmentation bias into account when analyzing ChIP-seq data yields superior sequence-to-affinity models"; Figure 4 (not provided)
+  - **Concern** The quantitative evidence for these claims is entirely contained in figures that are not provided. The text mentions specific log-likelihood values for one comparison (LL = −3.2086 vs −3.1995) but does not provide effect sizes, confidence intervals, or statistical tests for the other comparisons. The claim that CUT&Tag models are "better" is not quantified. Without the figures, the magnitude of the differences and their practical significance cannot be assessed.
+  - **Why it matters** These are central results of the paper. If the improvements are marginal or inconsistent, the conclusions would be weakened. The reader needs to see the actual data distributions and effect sizes to judge whether the differences are meaningful.
+  - **Resolution test** Provide the figures with clear annotations, include effect sizes and confidence intervals for all comparisons, and report the results of appropriate statistical tests (e.g., paired tests across SNVs or bootstrapped differences).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of de novo motif discovery
+  - **Claim pointer** The de novo motif discovery from allele-aware ChIP-seq counts yields a model with "excellent agreement" with the MotifCentral model (Pearson r = 0.94).
+  - **Evidence pointer** Results section "De novo motif discovery from allele-aware ChIP-seq counts"; Figure 5 (not provided)
+  - **Concern** A single Pearson correlation coefficient is insufficient to validate a discovered motif. The correlation could be driven by a few extreme positions or by the overall shape rather than the specific motif pattern. There is no comparison to a null distribution, no assessment of whether the discovered motif is statistically significant, and no evaluation of whether the motif is biologically meaningful (e.g., does it match known CTCF binding sites?).
+  - **Why it matters** De novo motif discovery is a challenging problem, and the claim of "excellent agreement" is a strong one. Without proper validation, this result could be an artifact of the optimization procedure or the specific data used.
+  - **Resolution test** Provide a more comprehensive validation: compare the discovered motif to known CTCF motifs (e.g., from JASPAR or CIS-BP), perform a permutation test to establish significance, and show the full position weight matrix or energy logo. Also, test the discovered model on held-out data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The framework is proposed as "broadly useful for benchmarking sequence-based predictors of TF binding affinity across many different cellular contexts and many different TFs."
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript only demonstrates the framework on CTCF, with limited analysis of PU.1 and EBF1. The claim of broad utility is not supported by the evidence presented. Different TFs may have different binding modes, cofactor dependencies, or ChIP-seq data characteristics that could affect the framework's performance. The manuscript does not discuss potential limitations or failure modes.
+  - **Why it matters** Overgeneralization from a single TF could mislead readers into applying the framework inappropriately. The scientific community needs to understand the scope and limitations of the proposed method.
+  - **Resolution test** Either temper the claim to reflect the current evidence, or provide additional analyses on a diverse set of TFs with different DNA-binding domains, expression levels, and ChIP-seq data quality.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we propose a framework for benchmarking sequence-to-affinity models" but does not clearly state what the key finding or take-home message is beyond the framework's existence.
+  - **Required correction** Add a sentence summarizing the main result, e.g., "We show that fragmentation-aware models trained on ChIP-seq data outperform in vitro-derived models for predicting allele-specific binding."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "In vivo binding data analysis with PyProBound"
+  - **Issue** The description of the PyProBound model training is incomplete. The text mentions "a multiplicative bias was trained for each consecutive set of five windows" but does not explain why five windows were chosen, how this bias is parameterized, or how it interacts with the fragmentation and binding models.
+  - **Required correction** Provide a more detailed description of the model architecture, including the number of parameters, the initialization, and the rationale for the window size choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Results section "A metric for binding model quality based on observed allelic preference across the genome"
+  - **Issue** The log-likelihood values are reported to four decimal places, which implies a precision that may not be meaningful given the bootstrap procedure. The manuscript does not report the spread of the bootstrap distribution.
+  - **Required correction** Report the mean and standard deviation (or confidence interval) of the bootstrap distribution, and round the values appropriately.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Background
+  - **Evidence pointer** Background section
+  - **Issue** The background does not discuss prior work on benchmarking TF binding models or on using allele-specific data for this purpose. This makes it difficult to assess the novelty of the contribution.
+  - **Required correction** Add a brief review of existing benchmarking efforts and explicitly state how the proposed framework differs from and improves upon prior approaches.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Software availability
+  - **Affected element** Availability of data and materials
+  - **Evidence pointer** Availability of data and materials
+  - **Issue** The statement "All code for processing data files and training models can be accessed at: https://github.com/BussemakerLab/AlleleSpecificBinding" is good, but the manuscript does not specify the software license or versioning information.
+  - **Required correction** Add license information and a version number or commit hash for reproducibility.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of detailed statistical validation for the beta-binomial framework (R1-M1). 2. Missing quantitative evidence for model comparison claims (R1-M2). 3. Insufficient validation of de novo motif discovery (R1-M3). 4. Overgeneralization of the framework's utility beyond demonstrated evidence (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of using genome-wide likelihood aggregation for benchmarking is novel and represents a conceptual advance over per-SNV approaches. The development of PyProBound is a practical contribution. However, the originality is somewhat tempered by the lack of comparison to existing benchmarking methods.
+  - **Scientific importance** The work addresses a real need in the field: evaluating TF binding models in a way that is relevant to variant effect prediction. The framework could have broad applicability if validated. The importance is currently limited by the narrow demonstration on a single TF.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The statistical framework and software tool may appeal to a broader audience, but the presentation is quite technical and may not be accessible to experimental biologists without additional context.
+  - **Technical soundness** The core statistical framework is plausible, but the lack of detailed validation and the missing figures prevent a full assessment. The PyProBound implementation appears sound, but the description of model training is incomplete. The de novo motif discovery result requires more rigorous validation.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with TF binding models, ChIP-seq analysis, and statistical inference. The abstract is accessible, but the results and methods sections would be challenging for nonspecialists. The use of jargon (e.g., "over-dispersed binomial distribution", "position weight matrix") is not always explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and software tool are valuable contributions, but the current manuscript does not provide sufficient evidence to fully support the claims. The authors should address the statistical validation, provide the missing figures and quantitative results, and temper the generalizability claims.
+
+## Risk / unsupported claims
+- The claim that the likelihood framework provides an "unbiased" metric is unsupported without rigorous statistical analysis.
+- The claim that fragmentation-aware ChIP-seq models are "superior" is not quantified and cannot be verified without Figure 4.
+- The claim of "excellent agreement" for de novo motif discovery is based on a single correlation coefficient and lacks proper validation.
+- The claim that the framework is "broadly useful" for many TFs and contexts is an extrapolation from a single TF demonstration.
+- The statement that "it is in fact not even necessary to map any reads to the genome if the DNA fragments defined by the read pairs are long enough" is made without supporting evidence or detailed explanation of the conditions under which this holds.

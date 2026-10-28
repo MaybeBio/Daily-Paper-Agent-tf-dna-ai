@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results sections, conclusions, methods)
+- **Assessment boundary** Scientific claims, modeling evidence, internal consistency, and alignment with stated conclusions
+- **Shared manuscript claim summary** The author proposes that C9ORF72 d(GGGGC)n repeat RNA folds into G-quadruplexes (rGQs) that bind hemin, forming peroxidase complexes generating superoxide. TDP-43 and Tau proteins dock to these rGQ-hemin complexes via methionine residues, squelching superoxide production. Disease-associated variants of TDP-43 and Tau disrupt this protective function, leading to oxidative neuronal damage in ALS and FTD. The author further extends this model to Aβ4 in Alzheimer's Disease and proposes therapeutic strategies targeting rGQ formation or hemin displacement.
+- **Visible evidence base** AlphaFold V3 (AF3) structural models (Figures 1B, 3A–F, 4A–C, 5), cited literature, and the author's interpretive synthesis
+- **Missing materials affecting confidence** Supplementary Data File (PDB files) not provided; experimental validation data not provided; molecular dynamics simulation data referenced but not shown; no quantitative metrics for model confidence (e.g., pLDDT, PAE) reported
+
+## Reviewer
+- **Overall assessment** The manuscript presents a speculative but potentially interesting hypothesis linking rGQ-hemin peroxidase activity to oxidative stress in ALS and FTD, with TDP-43 and Tau proposed as protective factors. The central claims rest entirely on AF3 structural predictions without experimental validation. While the hypothesis is coherent and builds on established literature, the evidence base is insufficient to establish the proposed mechanism. The manuscript reads as a perspective or hypothesis paper rather than a primary research article, and the modeling evidence, as presented, does not meet the standard required to support the strong mechanistic claims made.
+- **Who would be interested in the results, and why** Researchers studying ALS and FTD pathogenesis, particularly those focused on C9ORF72 repeat expansions, G-quadruplex biology, oxidative stress mechanisms, and TDP-43/Tau pathology. The proposed framework may also interest those developing antioxidant or G-quadruplex-targeting therapeutics for neurodegenerative diseases.
+- **Major strengths** The hypothesis is novel and integrates multiple established observations (C9ORF72 repeat expansion, G-quadruplex formation, hemin peroxidase activity, TDP-43/Tau pathology, oxidative stress) into a unified framework. The author correctly identifies a gap in understanding how noncoding repeat expansions cause neuronal death and proposes a testable mechanism. The use of AF3 to explore protein-nucleic acid interactions is timely, and the author acknowledges the limitations of the modeling approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TDP-43 methionines lie over hemin and likely squelch the generation of superoxide by the porphyrin-bound Fe" and "TDP-43 variants that disrupt the positioning of the methionines are found in ALS patients"
+  - **Evidence pointer** Figures 3A–F; Section 4; location not provided
+  - **Concern** The central mechanistic claim that TDP-43 methionines physically block hemin-mediated superoxide generation is based solely on AF3-predicted structures. No experimental data (e.g., biochemical assays measuring superoxide production in the presence or absence of TDP-43, mutagenesis studies, or cellular models) are provided to support this interaction or its functional consequence. The author states that disease-associated variants "disrupt the positioning of the methionines" but does not provide quantitative measures of structural disruption or demonstrate that such disruption correlates with loss of protective function.
+  - **Why it matters** The entire proposed disease mechanism hinges on this specific protein-hemin-rGQ interaction and its functional relevance. Without experimental validation, the claim remains speculative. AF3 predictions, while useful for hypothesis generation, are not sufficient to establish a causal biochemical mechanism, especially given the known challenges in modeling intrinsically disordered regions and nucleic acid complexes.
+  - **Resolution test** Provide experimental evidence: (1) biochemical assays showing TDP-43 reduces rGQ-hemin peroxidase activity in a methionine-dependent manner; (2) comparative assays with disease-associated TDP-43 variants; (3) cellular models demonstrating oxidative stress modulation by TDP-43 in the context of C9ORF72 repeat RNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** "AF3 modeling shows that the TDP-43 docks to a complex of GQ and hemin" and "AF3 correctly modeled" the rGQ structure
+  - **Evidence pointer** Figures 1B, 3A–F; Section 8 (Methods); location not provided
+  - **Concern** The author acknowledges that "AF3 is not explicitly trained to model flipon structures, nor their interactions with protein motifs," yet the manuscript relies entirely on AF3 predictions for all structural claims. No validation of the predicted complexes is provided (e.g., comparison with experimental structures, cross-linking data, or biophysical measurements). The selection criteria for choosing among the five AF3 models ("based on the bonding scheme and steric fit") are subjective and not described with sufficient detail to be reproducible. The claim that AF3 "correctly modeled" the rGQ structure is not substantiated with any reference to experimental structural data for this specific sequence.
+  - **Why it matters** The reliability of the structural predictions is foundational to all subsequent claims. If the AF3 models are inaccurate or the selection process is biased, the entire hypothesis collapses. The lack of validation and the subjective model selection undermine confidence in the reported structures.
+  - **Resolution test** Provide: (1) confidence metrics (pLDDT, PAE) for all predicted models; (2) comparison of the predicted rGQ structure with experimentally determined structures of similar G-quadruplexes; (3) independent validation of at least one protein-rGQ-hemin complex (e.g., by NMR, crystallography, or mutagenesis coupled with binding assays); (4) a clear, reproducible description of model selection criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "In ALS and FTD, loss-of-function variants cause an uncompensated surplus of superoxide, which sparks neuronal cell death"
+  - **Evidence pointer** Sections 3–5; location not provided
+  - **Concern** The manuscript asserts a causal chain from rGQ-hemin complex formation to superoxide generation to neuronal death, but no direct evidence is presented linking these steps. The author cites literature on hemin-G-quadruplex peroxidase activity and on oxidative stress in ALS, but does not demonstrate that this specific mechanism operates in patient cells or animal models. The claim that TDP-43 and Tau variants are "loss-of-function" in this context is inferred from structural modeling, not from functional assays. The extension to Aβ4 in Alzheimer's Disease is even more speculative, with no mechanistic data provided.
+  - **Why it matters** Establishing causality is essential for the proposed disease model and for therapeutic targeting. Correlation or plausibility is insufficient. The manuscript conflates the existence of a biochemical activity (hemin-GQ peroxidase) with its pathogenic relevance in disease.
+  - **Resolution test** Provide functional evidence: (1) detection of rGQ-hemin complexes in patient-derived cells or tissues; (2) demonstration that superoxide levels correlate with repeat expansion and TDP-43/Tau status; (3) rescue experiments showing that reducing rGQ formation or hemin binding attenuates oxidative damage and neuronal death in disease models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency
+  - **Claim pointer** "Full-length Tau, which is often considered prone to aggregation and a prion-like disease agent, can bind to an array composed of multiple GQs as a fully folded protein"
+  - **Evidence pointer** Section 5; Figure 4B; location not provided
+  - **Concern** The author presents Tau as both a protective factor (binding rGQ-hemin to squelch superoxide) and a pathogenic factor (aggregation-prone, prion-like). The relationship between these two roles is not reconciled. If Tau is protective, why do Tau aggregates characterize disease? Does aggregation deplete the protective pool of Tau? The manuscript does not address this apparent contradiction, which is central to understanding Tau's role in the proposed model.
+  - **Why it matters** The dual role of Tau creates ambiguity in the proposed mechanism and in therapeutic implications. If Tau is protective, then Tau aggregation could be a secondary consequence of failed protection, but this is not stated or explored. The manuscript's internal logic is weakened by this unresolved tension.
+  - **Resolution test** Clarify the relationship between Tau's proposed protective function and its aggregation pathology. Provide a model that reconciles these roles, or explicitly state the hypothesis that aggregation depletes protective Tau and test this prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "TDP-43 methionines lie over hemin and likely squelch the generation of superoxide" but does not mention that this is based solely on computational modeling. The abstract overstates the evidence level.
+  - **Required correction** Add a qualifier such as "based on AlphaFold modeling" to the abstract's description of the TDP-43-hemin interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Section 8; location not provided
+  - **Issue** The methods state that "the exact conditions and seed sequences used are given in the titles of the PDB files in the Supplementary Data File," but this file was not provided for review. The model selection criteria ("based on the bonding scheme and steric fit") are subjective and not operationalized.
+  - **Required correction** Provide the Supplementary Data File and describe the model selection criteria in a more objective, reproducible manner (e.g., ranking by pLDDT scores, PAE values, or specific geometric criteria).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4; location not provided
+  - **Issue** The claim that "hemin is present at high concentrations within cells" is not referenced. The concentration of free hemin in cells is debated and is generally considered to be very low due to sequestration by hemopexin and other binding proteins.
+  - **Required correction** Provide a reference for the cellular concentration of free hemin, or qualify the statement to reflect the range of reported values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 6
+  - **Evidence pointer** Section 6; location not provided
+  - **Issue** The term "FeIV-catalyzed superoxide formation" is chemically imprecise. The peroxidase cycle of hemin involves higher oxidation states (Compound I and II), but the description as "FeIV-catalyzed" is an oversimplification that may confuse readers.
+  - **Required correction** Use more precise terminology, such as "hemin-catalyzed" or "heme-iron-mediated" superoxide generation, or provide a brief explanation of the peroxidase cycle.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5; location not provided
+  - **Issue** The extension to Alzheimer's Disease via Aβ4 is presented with minimal supporting evidence. The single paragraph on Aβ4 does not adequately develop the argument and feels tangential to the main focus on ALS and FTD.
+  - **Required correction** Either expand the Aβ4 section with more detailed evidence and reasoning, or remove it and note the potential extension as future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no experimental validation of the central mechanism), R1-M2 (unvalidated AF3 models with subjective selection criteria), R1-M3 (causal chain asserted without functional evidence)
+
+## Risk / unsupported claims
+- The claim that TDP-43 methionines "squelch" superoxide generation by rGQ-hemin complexes is unsupported by experimental data and rests entirely on AF3 predictions.
+- The claim that disease-associated TDP-43 variants disrupt methionine positioning and thereby increase ALS risk is inferred from modeling without functional validation.
+- The claim that Tau binds rGQ-hemin complexes as a fully folded protein and provides protection is unsupported by experimental evidence.
+- The extension of the model to Alzheimer's Disease via Aβ4 is speculative and lacks mechanistic data.
+- The claim that "loss-of-function variants cause an uncompensated surplus of superoxide, which sparks neuronal cell death" is presented as established fact but is a hypothesis without direct evidence.
+- The therapeutic implications discussed in Section 6 are speculative and not grounded in demonstrated efficacy of the proposed approaches.

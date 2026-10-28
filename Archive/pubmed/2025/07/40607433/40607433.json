@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "40607433",
+    "doi": "10.3389/fimmu.2025.1599667",
+    "title": "Identification and validation of NETs-related biomarkers in active tuberculosis through bioinformatics analysis and machine learning algorithms."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Diagnostic delays in tuberculosis (TB) threaten global control efforts, necessitating early detection of active TB (ATB). This study explores neutrophil extracellular traps (NETs) as key mediators of TB immunopathology to identify NETs-related biomarkers for differentiating ATB from latent TB infection (LTBI). METHODS: We analyzed transcriptomic datasets (GSE19491, GSE62525, GSE28623) using differential expression analysis (|log, FC| >/= 0.585, adj. p < 0.05), immune cell profiling (CIBERSORT), and machine learning (SVM-RFE, LASSO, Random Forest). Regulatory networks and drug-target interactions were predicted using NetworkAnalyst, Tarbase, and DGIdb. RESULTS: We identified three hub genes (CD274, IRF1, HPSE) showing high diagnostic accuracy (AUC 0.865-0.98, sensitivity/specificity >80%) validated through ROC/precision-recall curves. IRF1 and HPSE correlated with neutrophil infiltration (r > 0.6, p < 0.001), suggesting roles in NETosis. FOXC1, GATA2, and hsa-miR-106a-5p emerged as core regulators, and 46 candidate drugs (e.g., PD-1 inhibitors, heparin) were prioritized for repurposing. DISCUSSION: CD274, IRF1, and HPSE represent promising NETs-derived diagnostic biomarkers for ATB. Their dual roles in neutrophil-mediated immunity highlight therapeutic potential, though drug predictions require preclinical validation. Future studies should leverage spatial omics and CRISPR screening to elucidate mechanistic pathways.",
+    "keywords": [
+      "active tuberculosis (ATB)",
+      "diagnosis",
+      "latent tuberculosis infection (LTBI)",
+      "machine learning",
+      "neutrophil extracellular traps (NETs)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "*Extracellular Traps/immunology/metabolism/genetics",
+      "*Tuberculosis/diagnosis/genetics/immunology",
+      "Gene Expression Profiling",
+      "Neutrophils/immunology",
+      "Latent Tuberculosis/diagnosis/genetics/immunology",
+      "Transcriptome",
+      "Interferon Regulatory Factor-1/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xia, Shengfang",
+        "An, Qi",
+        "Lin, Rui",
+        "Tu, Yalan",
+        "Chen, Zhu",
+        "Wang, Dongmei"
+      ],
+      "short_names": [
+        "Xia S",
+        "An Q",
+        "Lin R",
+        "Tu Y",
+        "Chen Z",
+        "Wang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China.",
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China.",
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China.",
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China.",
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China.",
+        "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xia, Shengfang",
+        "short_name": "Xia S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "An, Qi",
+        "short_name": "An Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Rui",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Yalan",
+        "short_name": "Tu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhu",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongmei",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education Division, Public Health Clinical Center of Chengdu, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 12:31",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42079596",
+      "41107976"
+    ],
+    "refs": [
+      "38706074",
+      "37986224",
+      "37953380",
+      "37918256",
+      "37511144",
+      "37153734",
+      "37039646",
+      "37016321",
+      "36930329",
+      "36823353",
+      "36793717",
+      "36532016",
+      "36016930",
+      "35688556",
+      "35504885",
+      "35410994",
+      "35003097",
+      "34951658",
+      "34213077",
+      "34053983",
+      "33946542",
+      "33549960",
+      "32987746",
+      "32554933",
+      "31735099",
+      "31720742",
+      "31661198",
+      "31012115",
+      "30931480",
+      "30315525",
+      "30024982",
+      "29803788",
+      "29740038",
+      "29084563",
+      "28990587",
+      "28929912",
+      "28871253",
+      "27763261",
+      "27726784",
+      "27259979",
+      "27057774",
+      "26818387",
+      "26359860",
+      "26249176",
+      "26187873",
+      "26136467",
+      "25895988",
+      "25822800",
+      "25748325",
+      "25299867",
+      "25105093",
+      "24717092",
+      "24643836",
+      "24629634",
+      "23641931",
+      "22545156",
+      "22455463",
+      "22409933",
+      "22236695",
+      "20808728",
+      "20725040",
+      "19749004",
+      "19693465",
+      "19056316",
+      "17523867",
+      "17496320",
+      "16362982",
+      "15942898",
+      "15316057",
+      "15001782",
+      "11528590",
+      "11244049",
+      "11112109",
+      "10881762",
+      "9208840",
+      "2088528"
+    ],
+    "similar": [
+      "40607433",
+      "40789248",
+      "37228444",
+      "39054612",
+      "41102315",
+      "41405396",
+      "40524207",
+      "40565608",
+      "38312744",
+      "40775512",
+      "41104131",
+      "40487315",
+      "40244055",
+      "35456421",
+      "40589756",
+      "39845946",
+      "39609541",
+      "40301426",
+      "39419909",
+      "41057887",
+      "33841389",
+      "40565607",
+      "33592820",
+      "40066454",
+      "41052072",
+      "41080564",
+      "38890657",
+      "39142001",
+      "37163321",
+      "31013272",
+      "37393262",
+      "41088461",
+      "39622968",
+      "39709510",
+      "39418810",
+      "39199011",
+      "39256536",
+      "40620701",
+      "39075154",
+      "41016070",
+      "34225667",
+      "40499471",
+      "38131281",
+      "39394253",
+      "38754565",
+      "40598791",
+      "36581808",
+      "26818387",
+      "36281118",
+      "29164066",
+      "41428679",
+      "30528869",
+      "41324863",
+      "34512645",
+      "40289505",
+      "35435753",
+      "41479901",
+      "38017571",
+      "32866942",
+      "38690269",
+      "40406126",
+      "36411825",
+      "31921195",
+      "35938824",
+      "34858413",
+      "41312366",
+      "39375405",
+      "37740371",
+      "41146237",
+      "40089249",
+      "32760401",
+      "28061954",
+      "40760602",
+      "40547033",
+      "31796535",
+      "40948644",
+      "31175974",
+      "38852219",
+      "40453984",
+      "38679629",
+      "28531231",
+      "39505948",
+      "30711160",
+      "41000384",
+      "41013556",
+      "40808948",
+      "34995637",
+      "40628837",
+      "41184829",
+      "40053030",
+      "38801616",
+      "39139563",
+      "34277462",
+      "33953714",
+      "38705210",
+      "39483475",
+      "28610785",
+      "36007657",
+      "34315412",
+      "40677720"
+    ],
+    "review": [
+      "40607433",
+      "31013272"
+    ],
+    "pmc": [
+      "12213393"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/tuberculosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Tuberculosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40607433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1599667",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

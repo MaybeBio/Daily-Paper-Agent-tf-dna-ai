@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2023)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text; no external validation or replication attempted
+- **Shared manuscript claim summary** The authors apply graph-theoretic concepts (Dense Spanning Trees, DST; Minimum Dense Spanning Trees, MDST) to analyze the structure of a literature-derived SCLC transcription factor (TF) network. They identify hubs, integrate RNA-seq-derived interaction probabilities as edge weights, and report that hubs correspond to known SCLC subtype regulators/destabilizers. They further hypothesize that hub-connecting pathways mediate subtype transitions and present Boolean network simulations suggesting that the FLI1–ASCL1–MITF pathway supports NON-NE to NE transition. Additional dynamic analyses of 700 asynchronous simulations implicate NR0B1 and CEBPD as potentially contributing to this transition.
+- **Visible evidence base** Main text, Methods sections A–D, Figures 1–9 (referenced, not directly inspected), Supplementary Figures 1–2 (referenced, not directly inspected)
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; no code or data availability statement; no details on the RNA-seq dataset used for edge weights beyond citation to prior work; no statistical or significance testing for hub identification or simulation results
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of network structural analysis to a clinically relevant problem (SCLC subtype regulation and transitions). The DST/MDST framework is clearly described and the integration of experimental data as edge weights is a reasonable extension. However, the evidence base is limited: figures and supplementary materials are not available for inspection, the simulation results are presented without quantitative rigor (e.g., no statistics, no sensitivity analyses), and the link between structural hubs and functional roles is asserted rather than demonstrated. The core claims are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational biology, network science, and cancer systems biology would be interested. The work offers a methodological template for identifying structurally important nodes in TF networks and linking them to subtype biology. Clinically oriented SCLC researchers may also find the proposed transition pathways of interest, though the evidence is preliminary.
+- **Major strengths** 1) Clear and accessible explanation of DST and MDST concepts, including a boxed summary for nonspecialists. 2) The integration of RNA-seq-derived probabilities as edge weights is a sensible way to move from purely structural to data-informed analysis. 3) The hypothesis that hub-connecting pathways mediate subtype transitions is novel and testable. 4) The use of Boolean simulations to explore transition dynamics is appropriate for the network size.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "All the found hubs are either regulators or destabilizers of the previously identified SCLC subtypes"
+  - **Evidence pointer** Results sections A and B; Figures 2–4; location not provided
+  - **Concern** The claim that all identified hubs are biologically relevant is based on qualitative comparison with literature. No quantitative enrichment analysis, statistical test, or comparison against random networks is provided. The number of hubs is small (FLI1, ASCL1, MITC, NR0B1, FOXA1, MYC), and the overlap with known regulators could occur by chance given the small network size (35 TFs).
+  - **Why it matters** Without a statistical baseline, the central claim that structural analysis identifies functionally important nodes is not rigorously supported. This weakens the generalizability of the method.
+  - **Resolution test** Provide a permutation or null-model analysis (e.g., random rewiring of the network) to show that hub identification is non-random. Alternatively, perform a hypergeometric test for enrichment of known subtype regulators among hubs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Upon setting the network’s initial state to NON-NE subtype ... and running asynchronous network simulation ... we observe a transition from NON-NE to NE subtype"
+  - **Evidence pointer** Results section C; Figure 5; Methods section C; location not provided
+  - **Concern** The simulation result is presented as a single observation. No details are given on the number of simulations run, the variability of outcomes, the criteria for "transition" (e.g., convergence threshold), or the robustness of the result to parameter choices (e.g., update rules, initial conditions, noise). The claim that the pathway "may have a role" is appropriately hedged, but the evidence is anecdotal.
+  - **Why it matters** Boolean network simulations are stochastic and parameter-sensitive. Without reproducibility metrics or sensitivity analysis, the reader cannot assess whether the observed transition is a robust property of the model or an artifact of specific settings.
+  - **Resolution test** Report the fraction of simulations that result in NE convergence, provide confidence intervals, and test at least a few alternative parameter sets (e.g., different update rules, initial perturbations).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We extend the DST concept into Minimum Dense Spanning Tree (MDST) concept for which the DST optimization problem is extended into a multi-objective optimization problem"
+  - **Evidence pointer** Methods section B; location not provided
+  - **Concern** The multi-objective formulation is described only in equation form. The authors do not explain how the two objectives (minimize total distance, minimize sum of weights) are balanced or combined. Is it a weighted sum, a Pareto approach, or a lexicographic ordering? How are the 46 MDSTs obtained, and are they all Pareto-optimal?
+  - **Why it matters** The method is central to the data-driven analysis. Without a clear statement of the optimization strategy, the results are not reproducible and the interpretation of "minimum" is ambiguous.
+  - **Resolution test** Provide a detailed algorithmic description, including the scalarization or Pareto handling, and state the software or code used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "NR0B1 and CEBPD may have a regulatory involvement in this transition"
+  - **Evidence pointer** Results section D; Figures 8–9; location not provided
+  - **Concern** The identification of NR0B1 and CEBPD as potentially involved in the transition is based on frequency counts in distance-increasing/decreasing patterns. No statistical test is applied to determine whether these frequencies differ significantly from what would be expected by chance. The interpretation of "may have a role" is speculative.
+  - **Why it matters** The manuscript proposes new candidate regulators, but the evidence is descriptive. Without a null model or statistical comparison, these claims are not distinguishable from noise.
+  - **Resolution test** Apply a permutation test or binomial test to assess whether the observed frequencies are significantly different from random expectation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "we hypothesize that the pathways connecting functionally distinct hubs may control subtype transitions and test this hypothesis via network simulations on a candidate pathway and observe subtype transition." The phrase "observe subtype transition" is vague; it is unclear whether this is a single observation or a robust result.
+  - **Required correction** Specify the number of simulations and the fraction that resulted in transition, or rephrase to indicate the preliminary nature of the observation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section C
+  - **Evidence pointer** Methods section C; location not provided
+  - **Issue** The description of the Boolean simulation does not specify the number of runs, the random seed, or the convergence criteria.
+  - **Required correction** Add these details to the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1; location not provided
+  - **Issue** The network figure is referenced but not described in the text. The reader cannot assess the network topology or the basis for edge inclusion.
+  - **Required correction** Add a brief description of the network construction, including the number of nodes, edges, and the source of the interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Entire manuscript; location not provided
+  - **Issue** No data or code availability statement is provided.
+  - **Required correction** Add a statement indicating where the code, data, and any supplementary materials can be accessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of hub relevance), R1-M2 (reproducibility of simulations), R1-M3 (clarity of MDST optimization)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of DST/MDST to a TF network is not entirely new, but the specific focus on SCLC subtype transitions is a fresh angle. Scientific importance: Moderate. The findings are potentially relevant to SCLC biology, but the evidence is preliminary and not yet at a level that would change clinical or experimental practice. Interdisciplinary readership: The work bridges network theory and cancer biology, which could appeal to a broad audience, but the lack of quantitative rigor may limit impact. Technical soundness: The mathematical framework is sound, but the lack of statistical validation and sensitivity analysis undermines confidence. Readability for nonspecialists: The manuscript is generally well written, with a helpful box explaining key concepts, but the Methods sections are dense and would benefit from more explanatory text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence base is insufficient to establish the claims. The authors should address the statistical validation of hub relevance, provide reproducible simulation details, and clarify the MDST optimization procedure.
+
+## Risk / unsupported claims
+- The claim that all identified hubs are biologically relevant is unsupported without a statistical null model.
+- The claim that the FLI1–ASCL1–MITF pathway mediates NON-NE to NE transition is based on a single simulation observation and is not robustly established.
+- The suggestion that NR0B1 and CEBPD are involved in the transition is speculative and lacks statistical support.
+- The generalizability of the DST/MDST method to other networks is asserted but not demonstrated with additional examples or benchmarks.

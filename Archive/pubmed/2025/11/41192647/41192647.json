@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "41192647",
+    "doi": "10.1016/j.jsbmb.2025.106887",
+    "title": "Integrative bioinformatics and transcriptomic analysis identifies biomarkers in Polycystic Ovary Syndrome through machine learning approach."
+  },
+  "content": {
+    "abstract": "Polycystic Ovary Syndrome (PCOS) is a common endocrine condition that affects women of reproductive age. The study used high-throughput sequencing to profile gene expression in PCOS and control samples. The sequenced reads were quality assessed and aligned to the human reference genome hg38 using FastQC and the Hisat2 aligner. The R software \"DESeq2\" identified 1193 differentially expressed genes (DEGs) in SRP224633 and 82 DEGs in SRP353681. Notably, 8 DEGs were shared by the two datasets, and a total of 1267 DEGs were found. GO analysis revealed that DEGs in SRP224633 were enriched in biological processes related to immune response and cell activation, whereas DEGs in SRP353681 were associated with response to external stimuli and immune processes. Pathway analysis highlighted the involvement of chemokine signaling receptor, and cytokine-cytokine receptor interaction pathways in both datasets. The STRING database was used to evaluate protein-protein interaction (PPI) networks. Hub genes like IL1B, PTPRC, ITGAM, TYROBP, ITGB2, FCGR3A, CCR7, SYK, TLR2, FCGR3B were identified as crucial nodes using Cytohubba plugins in Cytoscape, highlighting their potential role in PCOS pathogenesis. Regulatory networks discovered miRNAs such as has-mir-34a-5p, hsa-miR-26a-5p, has-let-7b-5p and transcription factors such as SP1, RUNX1, ER as possible regulators of target genes implicated in PCOS pathogenesis. LASSO regression and ROC analysis indicated certain hub genes, such as IL1B, PTPRC, ITGB2, FCGR3A, CCR7, FCGR3B as relevant biomarkers due to their high coefficients, emphasizing their significance in PCOS. CCR7, FCGR3A, FCGR3B, and ITGB2 have been discovered as novel genes with significant potential as PCOS biomarkers. Our research adds to a deeper knowledge of PCOS at the molecular level by offering an extensive understanding of the etiological reasons and molecular mechanisms. The discovered DEGs, pathways, and regulatory networks and novel biomarker are promising targets for future studies and treatments in PCOS management.",
+    "keywords": [
+      "Biomarker",
+      "Key Genes",
+      "LASSO analysis",
+      "Next-Generation sequencing",
+      "Polycystic Ovary Syndrome",
+      "RNA-SEQ"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Polycystic Ovary Syndrome/genetics/metabolism",
+      "Female",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "Protein Interaction Maps",
+      "*Transcriptome",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Senthilkumar, Harshini",
+        "Arumugam, Mohanapriya"
+      ],
+      "short_names": [
+        "Senthilkumar H",
+        "Arumugam M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology University, Vellore, Tamil Nadu 632014, India.",
+        "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology University, Vellore, Tamil Nadu 632014, India. Electronic address: mohanapriyaa@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Senthilkumar, Harshini",
+        "short_name": "Senthilkumar H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology University, Vellore, Tamil Nadu 632014, India."
+        ]
+      },
+      {
+        "full_name": "Arumugam, Mohanapriya",
+        "short_name": "Arumugam M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology University, Vellore, Tamil Nadu 632014, India. Electronic address: mohanapriyaa@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of steroid biochemistry and molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Steroid Biochem Mol Biol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/06 00:27",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41192647",
+      "41006883",
+      "40480394",
+      "40884580",
+      "41079183",
+      "33622336",
+      "39754246",
+      "39048886",
+      "39608739",
+      "38678611",
+      "41300749",
+      "35379124",
+      "39396400",
+      "41214666",
+      "38444712",
+      "28949383",
+      "37537636",
+      "41496105",
+      "41088367",
+      "39773546",
+      "39375405",
+      "31184307",
+      "40347801",
+      "38873601",
+      "39028999",
+      "33407587",
+      "39398336",
+      "35693550",
+      "36523600",
+      "39358491",
+      "36221354",
+      "40387450",
+      "33067753",
+      "39981695",
+      "37171773",
+      "39848950",
+      "39364875",
+      "36512189",
+      "34430597",
+      "32323770",
+      "40406126",
+      "32127169",
+      "39107365",
+      "36544152",
+      "40977739",
+      "33224973",
+      "39025980",
+      "38167332",
+      "41047472",
+      "38839916",
+      "38268224",
+      "40099263",
+      "40340571",
+      "40826767",
+      "35794640",
+      "39397125",
+      "29601948",
+      "38810612",
+      "36104591",
+      "41316541",
+      "39143634",
+      "38899746",
+      "29262729",
+      "39953122",
+      "34553293",
+      "34777635",
+      "34211581",
+      "40328901",
+      "36072900",
+      "39313041",
+      "39192637",
+      "37363398",
+      "39966990",
+      "40628512",
+      "25622783",
+      "34313877",
+      "41044520",
+      "41052072",
+      "30132538",
+      "40707643",
+      "40834023",
+      "32757043",
+      "38102584",
+      "35958412",
+      "36536067",
+      "41227338",
+      "38660311",
+      "32922167",
+      "33936113",
+      "34190177",
+      "39538292",
+      "36223608",
+      "38863714",
+      "39421991",
+      "41016372",
+      "40055592",
+      "39116715",
+      "34536521",
+      "36854280",
+      "36068422"
+    ],
+    "review": [
+      "41192647",
+      "36512189"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-0760(25)00215-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ITGAM-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

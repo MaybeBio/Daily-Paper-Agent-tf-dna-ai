@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.23.701435",
+  "title": "A computational framework for designing micron-scale crisscross DNA megastructures",
+  "doi": "10.64898/2026.01.23.701435",
+  "abstract": "Crisscross polymerization enables the assembly of hundreds of unique DNA origami ‘slats’ into micron-sized structures with nanoscale precision. To design these megastructures, thousands of handle sequences from a fixed library must be assigned to individual slats to encode the desired binding architecture. This complexity presents two major challenges: handles must be selected to minimize parasitic interactions that compete with desired assembly, and the fabrication of hundreds of unique slats creates a substantial logistical burden. Here, we develop a unified framework that standardizes the design and fabrication of crisscross megastructures. We use an evolutionary algorithm to optimize handle assignment and minimize parasitic binding between slats, paired with a graph-based algorithm that expands the handle library. Together, these algorithms enable the assembly of large, multi-layered megastructures that otherwise would be produced at negligible yields. We have released this framework as #-CAD, an open-source graphical application that integrates these algorithms, streamlines laboratory workflows, and makes crisscross DNA origami more broadly accessible.",
+  "authors": [
+    "Aquilina M",
+    "Katzmeier F",
+    "Nijenhuis MA",
+    "Wang SS",
+    "Becker C",
+    "Zhao Y",
+    "Seok SH",
+    "Finkel J",
+    "Cui H",
+    "Lee J",
+    "Lee S",
+    "Shih WM"
+  ],
+  "published_date": "2026-01-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701435",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701435.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1227973",
+    "raw_record": {
+      "id": "PPR1227973",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1227973"
+        ]
+      },
+      "doi": "10.64898/2026.01.23.701435",
+      "title": "A computational framework for designing micron-scale crisscross DNA megastructures",
+      "authorString": "Aquilina M, Katzmeier F, Nijenhuis MA, Wang SS, Becker C, Zhao Y, Seok SH, Finkel J, Cui H, Lee J, Lee S, Shih WM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Aquilina M",
+            "lastName": "Aquilina",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Katzmeier F",
+            "lastName": "Katzmeier",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nijenhuis MA",
+            "lastName": "Nijenhuis",
+            "firstName": "Minke A.D.",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang SS",
+            "lastName": "Wang",
+            "firstName": "Siyuan Stella",
+            "initials": "SS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8249-6553"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Becker C",
+            "lastName": "Becker",
+            "firstName": "Corey",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao Y",
+            "lastName": "Zhao",
+            "firstName": "Yichen",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seok SH",
+            "lastName": "Seok",
+            "firstName": "Su Hyun",
+            "initials": "SH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkel J",
+            "lastName": "Finkel",
+            "firstName": "Julie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cui H",
+            "lastName": "Cui",
+            "firstName": "Huangchen",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee J",
+            "lastName": "Lee",
+            "firstName": "Jaewon",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "KU-KIST Graduate School of Converging Science and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee S",
+            "lastName": "Lee",
+            "firstName": "Seungwoo",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wyss Institute for Biologically Inspired Engineering, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shih WM",
+            "lastName": "Shih",
+            "firstName": "William",
+            "initials": "WM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8249-6553"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Crisscross polymerization enables the assembly of hundreds of unique DNA origami ‘slats’ into micron-sized structures with nanoscale precision. To design these megastructures, thousands of handle sequences from a fixed library must be assigned to individual slats to encode the desired binding architecture. This complexity presents two major challenges: handles must be selected to minimize parasitic interactions that compete with desired assembly, and the fabrication of hundreds of unique slats creates a substantial logistical burden. Here, we develop a unified framework that standardizes the design and fabrication of crisscross megastructures. We use an evolutionary algorithm to optimize handle assignment and minimize parasitic binding between slats, paired with a graph-based algorithm that expands the handle library. Together, these algorithms enable the assembly of large, multi-layered megastructures that otherwise would be produced at negligible yields. We have released this framework as #-CAD, an open-source graphical application that integrates these algorithms, streamlines laboratory workflows, and makes crisscross DNA origami more broadly accessible.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.23.701435"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1227973"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1227973&type=FILE&fileName=EMS214501-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42469232",
+            "reference": "Nature communications. \n    2026 Jul;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214501",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-24",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

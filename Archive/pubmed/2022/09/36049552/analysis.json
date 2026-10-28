@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36049552",
+  "title": "Improving the prediction of DNA-protein binding by integrating multi-scale dense convolutional network with fault-tolerant coding.",
+  "authors": "Yin, Yu-Hang; Shen, Long-Chen; Jiang, Yuanhao; Gao, Shang; Song, Jiangning; Yu, Dong-Jun",
+  "journal": "Analytical biochemistry",
+  "published_date": "2022-09-02",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 7,
+  "one_liner_zh": "提出结合容错编码与多尺度密集卷积网络的MSDenseNet方法，基于ChIP-seq序列数据预测DNA-蛋白质结合，属于广义蛋白-DNA互作位点预测的AI方法，虽非聚焦TF-DNA三维结构机制，但方法可迁移至TF-DNA研究。",
+  "abstract": "Accurate prediction of DNA-protein binding (DPB) is of great biological significance for studying the regulatory mechanism of gene expression. In recent years, with the rapid development of deep learning techniques, advanced deep neural networks have been introduced into the field and shown to significantly improve the prediction performance of DPB. However, these methods are primarily based on the DNA sequences measured by the ChIP-seq technology, failing to consider the possible partial variations of the motif sequences and errors of the sequencing technology itself. To address this, we propose a novel computational method, termed MSDenseNet, which combines a new fault-tolerant coding (FTC) scheme with the dense connectional deep neural networks. Three important factors can be attributed to the success of MSDenseNet: First, MSDenseNet utilizes a powerful feature representation approach, which transforms the raw DNA sequence into fusion coding using the fault-tolerant feature sequence; Second, in terms of network structure, MSDenseNet uses a multi-scale convolution within the dense layer and the multi-scale convolution preceding the dense block. This is shown to be able to significantly improve the network performance and accelerate the network convergence speed, and third, building upon the advanced deep neural network, MSDenseNet is capable of effectively mining the hidden complex relationship between the internal attributes of fusion sequence features to enhance the prediction of DPB. Benchmarking experiments on 690 ChIP-seq datasets show that MSDenseNet achieves an average AUC of 0.933 and outperforms the state-of-the-art method. The source code of MSDenseNet is available at https://github.com/csbio-njust-edu/msdensenet. The results show that MSDenseNet can effectively predict DPB. We anticipate that MSDenseNet will be exploited as a powerful tool to facilitate a more exhaustive understanding of DNA-binding proteins and help toward their functional characterization.",
+  "abstract_zh": "DNA-蛋白质结合（DPB）的准确预测对于研究基因表达的调控机制具有重要的生物学意义。近年来，随着深度学习技术的快速发展，先进的深度神经网络已被引入该领域，并显著提升了DPB的预测性能。然而，这些方法主要基于ChIP-seq技术测得的DNA序列，未能考虑基序序列可能的部分变异以及测序技术本身的误差。为解决这一问题，我们提出了一种新颖的计算方法，称为MSDenseNet，它将一种新的容错编码（FTC）方案与密集连接的深度神经网络相结合。MSDenseNet的成功可归因于三个重要因素：首先，MSDenseNet利用了一种强大的特征表示方法，通过容错特征序列将原始DNA序列转换为融合编码；其次，在网络结构方面，MSDenseNet在密集层内使用多尺度卷积，并在密集块之前使用多尺度卷积，这被证明能显著提升网络性能并加速网络收敛速度；第三，基于先进的深度神经网络，MSDenseNet能够有效挖掘融合序列特征内部属性之间的隐藏复杂关系，以增强DPB的预测。在690个ChIP-seq数据集上的基准实验表明，MSDenseNet实现了平均AUC为0.933，并优于现有最先进的方法。MSDenseNet的源代码可在https://github.com/csbio-njust-edu/msdensenet获取。结果表明，MSDenseNet能有效预测DPB。我们预期MSDenseNet将被用作一种强大工具，以促进对DNA结合蛋白的更全面理解，并有助于其功能表征。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36049552/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36049552/",
+  "paper_page_path": "papers/pubmed/36049552/index.html"
+}

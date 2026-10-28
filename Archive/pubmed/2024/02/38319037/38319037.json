@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "38319037",
+    "doi": "10.1080/07391102.2024.2310208",
+    "title": "Identification of potential regulatory mechanisms and therapeutic targets for lung cancer."
+  },
+  "content": {
+    "abstract": "Lung cancer poses a significant health threat globally, especially in regions like India, with 5-year survival rates remain alarmingly low. Our study aimed to uncover key markers for effective treatment and early detection. We identified specific genes related to lung cancer using the BioXpress database and delved into their roles through DAVID enrichment analysis. By employing network theory, we explored the intricate interactions within lung cancer networks, identifying ASPM and MKI67 as crucial regulator genes. Predictions of microRNA and transcription factor interactions provided additional insights. Examining gene expression patterns using GEPIA and KM Plotter revealed the clinical relevance of these key genes. In our pursuit of targeted therapies, Drug Bank pointed to methotrexate as a potential drug for the identified key regulator genes. Confirming this, molecular docking studies through Swiss Dock showed promising binding interactions. To ensure stability, we conducted molecular dynamics simulations using the AMBER 16 suite. In summary, our study pinpoints ASPM and MKI67 as vital regulators in lung cancer networks. The identification of hub genes and functional pathways enhances our understanding of molecular processes, offering potential therapeutic targets. Importantly, methotrexate emerged as a promising drug candidate, supported by robust docking and simulation studies. These findings lay a solid foundation for further experimental validations and hold promise for advancing personalized therapeutic strategies in lung cancer.",
+    "keywords": [
+      "Lung cancer",
+      "key regulator",
+      "network theory",
+      "protein-protein interaction network (PPI)",
+      "therapeutical biomarker"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/genetics/drug therapy/metabolism",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Gene Regulatory Networks",
+      "Methotrexate/chemistry/pharmacology/therapeutic use",
+      "MicroRNAs/genetics/metabolism",
+      "Molecular Targeted Therapy",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Priya, Anjali",
+        "Dashti, Mohammed",
+        "Thanaraj, Thangavel Alphonse",
+        "Irshad, Mohammad",
+        "Singh, Virendra",
+        "Tandon, Ravi",
+        "Mehrotra, Rekha",
+        "Singh, Alok Kumar",
+        "Mago, Payal",
+        "Singh, Vishal",
+        "Malik, Md Zubbair",
+        "Ray, Ashwini Kumar"
+      ],
+      "short_names": [
+        "Priya A",
+        "Dashti M",
+        "Thanaraj TA",
+        "Irshad M",
+        "Singh V",
+        "Tandon R",
+        "Mehrotra R",
+        "Singh AK",
+        "Mago P",
+        "Singh V",
+        "Malik MZ",
+        "Ray AK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6693-0401"
+      ],
+      "affiliations": [
+        "Department of Environmental Studies, University of Delhi, New Delhi, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India.",
+        "Dasman Diabetes Institute, Kuwait City, Kuwait.",
+        "Dasman Diabetes Institute, Kuwait City, Kuwait.",
+        "Dasman Diabetes Institute, Kuwait City, Kuwait.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India.",
+        "Department of Microbiology, Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, New Delhi, India.",
+        "Department of Zoology, Ramjas College, University of Delhi, New Delhi, India.",
+        "Department of Botany, Shri Aurobindo College, University of Delhi, New Delhi, India to Campus Of Open Learning, University of Delhi, New Delhi, India.",
+        "Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, New Delhi, India.",
+        "Delhi School of Public Health, Institution of Eminence, University of Delhi, New Delhi, India.",
+        "Dasman Diabetes Institute, Kuwait City, Kuwait.",
+        "Department of Environmental Studies, University of Delhi, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Priya, Anjali",
+        "short_name": "Priya A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Studies, University of Delhi, New Delhi, India.",
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Dashti, Mohammed",
+        "short_name": "Dashti M",
+        "identifiers": [],
+        "affiliations": [
+          "Dasman Diabetes Institute, Kuwait City, Kuwait."
+        ]
+      },
+      {
+        "full_name": "Thanaraj, Thangavel Alphonse",
+        "short_name": "Thanaraj TA",
+        "identifiers": [],
+        "affiliations": [
+          "Dasman Diabetes Institute, Kuwait City, Kuwait."
+        ]
+      },
+      {
+        "full_name": "Irshad, Mohammad",
+        "short_name": "Irshad M",
+        "identifiers": [],
+        "affiliations": [
+          "Dasman Diabetes Institute, Kuwait City, Kuwait."
+        ]
+      },
+      {
+        "full_name": "Singh, Virendra",
+        "short_name": "Singh V",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Tandon, Ravi",
+        "short_name": "Tandon R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Mehrotra, Rekha",
+        "short_name": "Mehrotra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Alok Kumar",
+        "short_name": "Singh AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, Ramjas College, University of Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Mago, Payal",
+        "short_name": "Mago P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany, Shri Aurobindo College, University of Delhi, New Delhi, India to Campus Of Open Learning, University of Delhi, New Delhi, India.",
+          "Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Vishal",
+        "short_name": "Singh V",
+        "identifiers": [],
+        "affiliations": [
+          "Delhi School of Public Health, Institution of Eminence, University of Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Malik, Md Zubbair",
+        "short_name": "Malik MZ",
+        "identifiers": [
+          "0000-0001-6693-0401"
+        ],
+        "affiliations": [
+          "Dasman Diabetes Institute, Kuwait City, Kuwait."
+        ]
+      },
+      {
+        "full_name": "Ray, Ashwini Kumar",
+        "short_name": "Ray AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Studies, University of Delhi, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/06 13:19",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [
+      "42579075",
+      "39880831"
+    ],
+    "refs": [],
+    "similar": [
+      "38319037",
+      "41326554",
+      "41442003",
+      "40331978",
+      "38142454",
+      "38268224",
+      "39434198",
+      "40826767",
+      "39118438",
+      "31692035",
+      "33578541",
+      "39780215",
+      "30602391",
+      "39067352",
+      "39150631",
+      "32059076",
+      "40924735",
+      "37534476",
+      "39556154",
+      "40973399",
+      "38840248",
+      "40259252",
+      "40265430",
+      "40320470",
+      "40658875",
+      "30937635",
+      "35313857",
+      "38524085",
+      "34806315",
+      "40898538",
+      "40442126",
+      "41005317",
+      "40676786",
+      "41492010",
+      "31981472",
+      "39945271",
+      "35178291",
+      "38670393",
+      "34968391",
+      "28205554",
+      "39125368",
+      "38783288",
+      "38728242",
+      "31506038",
+      "39251231",
+      "40843941",
+      "35254116",
+      "31805030",
+      "37740654",
+      "40927719",
+      "41300749",
+      "39342122",
+      "39145086",
+      "38822913",
+      "40332431",
+      "29845250",
+      "35281953",
+      "34039311",
+      "40355485",
+      "41211465",
+      "39567714",
+      "39888730",
+      "34825846",
+      "41009706",
+      "38062833",
+      "30569133",
+      "39232183",
+      "39184354",
+      "33145355",
+      "41405767",
+      "39817717",
+      "38731403",
+      "40816715",
+      "37770919",
+      "37711100",
+      "37771185",
+      "37776011",
+      "32969465",
+      "39075939",
+      "41150817",
+      "36352081",
+      "40859027",
+      "31061236",
+      "41330962",
+      "39108650",
+      "40406126",
+      "31987036",
+      "36291136",
+      "39933268",
+      "36899621",
+      "39923231",
+      "24200043",
+      "37691428",
+      "41162544",
+      "30806032",
+      "40355237",
+      "39917915",
+      "39944354",
+      "26611531",
+      "39813876"
+    ],
+    "review": [
+      "38319037"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2310208?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2310208",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

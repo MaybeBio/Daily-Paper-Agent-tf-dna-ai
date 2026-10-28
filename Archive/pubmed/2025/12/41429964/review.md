@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors present L-CRE, an interpretable deep learning model, which predicts high and low gene expression levels from flanking genomic regions in four tomato varieties, achieving 86.9% peak accuracy. Interpretability analysis identifies genomic regions with high contribution scores, often containing transcription factor binding sites, and recovers experimentally validated regulatory elements.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, training and validation datasets, performance metrics beyond peak accuracy, interpretability methodology, statistical tests, and details of experimentally validated regulatory elements
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful application of interpretable deep learning to cis-regulatory element discovery in tomato. The core idea is relevant and the reported accuracy is promising. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the model, the rigor of the interpretability analysis, or the biological validity of the identified regulatory elements. Several claims are presented without supporting evidence, and the relationship between model predictions and biological mechanism remains unclear from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists and crop geneticists interested in gene regulation and promoter engineering would find the approach relevant. Computational biologists working on interpretable models for genomics may also be interested in the methodological contribution. The potential to identify functional regulatory elements from sequence alone could appeal to researchers in tomato breeding and functional genomics.
+- **Major strengths** The study addresses a biologically important question, namely the link between non-coding regulatory elements and gene expression. The use of interpretability analysis to move beyond black-box prediction is commendable. The reported accuracy of 86.9% suggests the model captures meaningful signal. The claim that experimentally validated regulatory elements were recovered provides a useful anchor for biological relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model "successfully predicted high and low levels of gene expression, achieving a peak accuracy of 86.9%, demonstrating robust performance."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports only a peak accuracy value without specifying the train-test split, cross-validation scheme, class balance, number of genes or varieties used, or comparison against baseline models. Accuracy alone is insufficient to establish robust performance, particularly if classes are imbalanced or if the test set overlaps with training data.  
+  - **Why it matters** Without these details, the reported performance cannot be interpreted or reproduced. The claim of robustness is not supported by a single accuracy metric.  
+  - **Resolution test** Provide full performance metrics including precision, recall, F1, and AUC, along with dataset sizes, cross-validation strategy, and baseline comparisons. Show that performance is consistent across varieties and not driven by trivial sequence features.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretability and biological validity  
+  - **Claim pointer** "Based on the analysis of contribution scores, we successfully identified several experimentally validated regulatory elements."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how many regulatory elements were identified, how many were experimentally validated, what fraction of predictions were confirmed, or how validation was performed. Without these numbers, the success rate and significance of the finding cannot be assessed.  
+  - **Why it matters** The biological relevance of the model depends on the precision of regulatory element discovery. A claim of successful identification requires quantitative evidence of enrichment over random expectation.  
+  - **Resolution test** Report the number of predicted elements, the number tested, the validation method, and the enrichment or precision statistics. Provide a clear comparison to background or negative controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The model was developed by analyzing flanking regions from four tomato varieties and is presented as providing "novel insights and methodologies for future research in crop genetic improvement."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not state whether the model was tested on additional varieties, species, or independent datasets. The claim of broad utility for crop improvement is speculative without evidence of transferability.  
+  - **Why it matters** Regulatory element function can vary across genetic backgrounds. A model trained on four varieties may not generalize, and the abstract provides no evidence either way.  
+  - **Resolution test** Include cross-variety validation, external dataset testing, or at minimum a clear statement of the intended scope and limitations of the model.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "refined previous models" is vague. It is unclear which previous models were refined and what specific modifications were made.  
+  - **Required correction** Specify the prior model or architecture and describe the key refinements introduced in L-CRE.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not describe the nature of the flanking regions, such as their length, genomic coordinates, or whether they include promoters, enhancers, or other regulatory sequences.  
+  - **Required correction** Provide details on the genomic features used as model input, including sequence length and annotation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** Performance claim  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "peak accuracy" suggests variability across conditions, but no confidence intervals or variance estimates are reported.  
+  - **Required correction** Report mean and standard deviation or confidence intervals for performance metrics across replicates or folds.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Biological interpretation  
+  - **Affected element** Transcription factor binding site claim  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The statement that high-contribution regions "frequently encompass transcription factor binding sites" lacks a quantitative definition of "frequently" and a comparison to genomic background.  
+  - **Required correction** Provide the proportion of high-contribution regions overlapping known binding sites and a statistical enrichment test against matched background regions.
+
+## Risk / unsupported claims
+- The claim of "robust performance" based solely on a peak accuracy of 86.9% is unsupported without additional metrics and validation details.
+- The claim of successfully identifying experimentally validated regulatory elements is unquantified and cannot be evaluated from the abstract.
+- The claim that the study provides "novel insights and methodologies for future research in crop genetic improvement" is speculative without evidence of generalizability beyond the four varieties studied.
+- The biological significance of the identified regions, beyond their overlap with transcription factor binding sites, is not established from the supplied material.

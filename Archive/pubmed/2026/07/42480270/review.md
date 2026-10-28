@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The authors report a dual-modal MIRA-PfAgo assay for rapid visual and real-time fluorescence detection of Staphylococcus aureus, with a 1 h turnaround time, a limit of detection of 1 copy/muL, and validation on 267 clinical isolates showing 99.63% accuracy and 100% specificity. They further propose a mechanistic model, based on molecular simulation, in which target DNA binding stabilizes the PfAgo complex, rearranges the catalytic center, and remodels the bimetallic ion coordination environment in a Mn(2+)-mediated system.
+- **Visible evidence base** Abstract text only; no experimental details, simulation parameters, statistical analyses, or raw data are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, clinical isolate selection criteria, reference standard for accuracy and specificity calculations, simulation methodology and validation, and any negative or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful diagnostic assay with strong reported performance metrics. However, the evidence base is limited to the abstract, and several claims, particularly the mechanistic interpretation from molecular simulation, cannot be evaluated without the underlying data. The clinical validation metrics are promising but require scrutiny of the study design and statistical handling. The work may be of interest to the diagnostic and molecular biology communities, but the current evidence is insufficient to fully establish the mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers and clinicians in infectious disease diagnostics, point-of-care testing developers, and molecular biologists studying Argonaute proteins and isothermal amplification technologies. The reported speed, sensitivity, and specificity would appeal to those seeking field-deployable or resource-limited diagnostic solutions for S. aureus.
+- **Major strengths** The combination of MIRA and PfAgo in a dual-modal format is a reasonable technical innovation. The reported LOD of 1 copy/muL and the large clinical validation cohort (267 isolates) are notable. The inclusion of molecular simulation to propose a mechanistic basis adds a dimension beyond typical assay development reports.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The assay achieves an LOD of 1 copy/muL and detects S. aureus within 1 h.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how the LOD was determined, including the number of replicates, the statistical method (e.g., probit analysis), or whether the LOD was confirmed with spiked clinical matrices or only in buffer. The 1 h turnaround time is stated without clarification of whether this includes sample preparation or only the amplification and detection steps.
+  - **Why it matters** LOD and turnaround time are central performance claims. Without methodological detail, these metrics cannot be reproduced or compared with existing assays, and the practical utility for clinical samples remains uncertain.
+  - **Resolution test** Provide the experimental protocol for LOD determination, including replicate numbers, statistical approach, and matrix conditions. Clarify the components of the 1 h workflow.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Evaluation using 267 clinical isolates demonstrated an accuracy of 99.63% and a specificity of 100%.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the composition of the 267 isolates, the reference method used for comparison, the number of true positives and true negatives, or how sensitivity and specificity were calculated. The term "accuracy" is used without defining whether it refers to overall agreement or a different metric. The absence of a reported sensitivity value is notable given the specificity claim.
+  - **Why it matters** Clinical validation metrics are only meaningful with a clear reference standard and a breakdown of the cohort. Without these details, the reported accuracy and specificity cannot be assessed for bias or generalizability.
+  - **Resolution test** Specify the reference method, the distribution of positive and negative samples, and provide a contingency table with sensitivity, specificity, and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** Molecular simulation analysis suggested that target DNA binding enhanced the overall stability of the PfAgo complex and induced conformational rearrangement of the catalytic center, as well as remodeling of the bimetallic ion coordination environment.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanistic claim is based on molecular simulation, but the abstract provides no information on the simulation method, force field, system setup, simulation length, or whether the results were validated against experimental data (e.g., mutagenesis or biochemical assays). The phrase "suggested" is appropriately cautious, but the claim is presented as a substantive finding.
+  - **Why it matters** The mechanistic interpretation is a major part of the paper's novelty. Without methodological transparency and experimental validation, the simulation results remain speculative and cannot be independently evaluated.
+  - **Resolution test** Provide full simulation details and include experimental validation, such as mutational analysis of key residues or binding assays, to support the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "MIRA" and "PfAgo" without defining them, which may limit accessibility for readers outside the molecular diagnostics field.
+  - **Required correction** Define MIRA and PfAgo at first mention, or provide a brief explanatory phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "dual-modal" is used, but the abstract does not clarify whether the two modes (real-time fluorescence and visual) are performed simultaneously or sequentially, or whether they require different reagents or instruments.
+  - **Required correction** Clarify the operational relationship between the two detection modes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "specificity of 100%" but does not report sensitivity. This asymmetry is unusual and may reflect a cohort composition issue or a selective reporting choice.
+  - **Required correction** Report sensitivity alongside specificity, or explain why sensitivity is not reported.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The LOD and clinical validation metrics require full methodological disclosure, and the mechanistic claim requires simulation details and experimental support.
+- **Assessment against Nature-style criteria** Originality is moderate; the combination of MIRA and PfAgo is not entirely novel but may offer a practical advance. Scientific importance is potentially high for diagnostic applications, though the clinical impact depends on validation quality. Interdisciplinary readership is plausible, spanning diagnostics, microbiology, and molecular biology. Technical soundness cannot be fully assessed from the abstract alone, and the mechanistic claim is currently under-supported. Readability for nonspecialists is limited by undefined technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The assay performance claims are promising but require full methodological transparency and experimental validation of the mechanistic model before the case is convincing.
+
+## Risk / unsupported claims
+- The LOD of 1 copy/muL is unsupported without details on replicate number, statistical method, and matrix conditions.
+- The clinical accuracy of 99.63% and specificity of 100% are unsupported without a defined reference standard, cohort composition, and contingency data.
+- The mechanistic model involving target DNA binding, catalytic center rearrangement, and bimetallic ion remodeling is unsupported without simulation parameters and experimental validation.
+- The 1 h turnaround time is ambiguous regarding whether sample preparation is included.

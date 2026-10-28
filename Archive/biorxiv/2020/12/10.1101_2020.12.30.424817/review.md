@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint, no supplementary files or figures provided.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the supplied text. No assessment of supplementary figures, tables, or code beyond what is described.
+- **Shared manuscript claim summary** The authors present ChINN, a convolutional neural network-based method that predicts chromatin interactions between open chromatin regions using only DNA sequences and optionally distance. They claim accurate prediction for CTCF-, RNA Polymerase II-, and Hi-C-associated interactions, cross-sample generalizability, identification of biologically relevant sequence motifs, and successful application to CLL patient samples revealing subtype-associated interaction heterogeneity.
+- **Visible evidence base** Main text only. Results sections describe auPRC values for within-sample and cross-sample evaluations, motif discovery outcomes, and patient sample analyses. Methods sections describe data generation and machine learning procedures. No figures, supplementary tables, or supplementary methods were available for inspection.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and supplementary methods. These are essential for evaluating model architecture details, hyperparameter choices, dataset construction, performance metrics, motif matching procedures, and validation experiments. The code repository is referenced but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics, namely predicting chromatin interactions from DNA sequence alone, which could enable analysis of clinical samples lacking extensive functional genomics data. The authors demonstrate awareness of prior methodological pitfalls, particularly the issue of data leakage in cross-validation. However, the main text alone provides insufficient detail to verify the core claims. Key performance metrics are reported without confidence intervals or statistical comparisons. The motif analysis is described qualitatively. The clinical application is intriguing but the interpretation of heterogeneity is confounded by technical variability and limited sample size. The manuscript has potential but requires substantial additional detail and rigorous validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists developing predictive models for 3D genome organization, researchers studying chromatin architecture in cancer, and clinicians interested in applying genomic predictions to patient samples. The method's potential to work from DNA sequence alone would appeal to those working with limited clinical material where extensive epigenomic profiling is impractical.
+- **Major strengths** The problem is well motivated and clinically relevant. The authors correctly identify and avoid a known methodological pitfall in the field. The approach of using DNA sequence features is conceptually clean and potentially widely applicable. The application to patient samples, including validation by orthogonal methods, is a valuable contribution. The observation of subtype-associated interaction differences in CLL is biologically plausible and potentially important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ChINN achieves accurate prediction of chromatin interactions from DNA sequences, with reported auPRC values of 0.77 for GM12878 CTCF, 0.75 for HelaS3 CTCF, and 0.51-0.60 for Pol II datasets.
+  - **Evidence pointer** Results section "Open chromatin interactions can be predicted from DNA sequences", Figure 2b (not visible)
+  - **Concern** The reported auPRC values are presented without confidence intervals, statistical significance testing against baselines, or comparison to alternative methods. The text states that sequence-based models perform worse than functional genomics-based models for Pol II datasets, but the magnitude and significance of this difference is not quantified. More critically, the evaluation protocol is not fully described in the main text. It is unclear whether hyperparameter tuning was performed on the test set, how many random seeds were used, and whether the reported values represent the mean or best performance. Without this information, the robustness of the performance claims cannot be assessed.
+  - **Why it matters** The central claim of the paper is that ChINN provides accurate predictions. If the reported metrics are not robust or are optimistically biased, the entire premise of the method is undermined. The field has been burned by over-exaggerated performance claims, as the authors themselves note, and they must therefore meet the highest standards of evaluation rigor.
+  - **Resolution test** Provide confidence intervals or standard deviations for all reported auPRC values across multiple random initializations. Report performance of a baseline model (e.g., logistic regression on GC content or random sequence) under the same evaluation protocol. Describe the hyperparameter tuning procedure and confirm that test set was not used for model selection. If possible, compare against existing methods under a common benchmark.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that ChINN can be applied to new datasets, with the method described as taking "a list of open chromatin regions and produc[ing] predictions of chromatin interactions between the open chromatin regions."
+  - **Evidence pointer** Methods section "Machine learning of ChIA-PET data", Figure 4a (not visible)
+  - **Concern** The main text does not describe the complete model architecture, training procedure, or hyperparameters. The methods refer to "Supplementary Methods1" for details, which was not available for review. Critical details such as the number of convolutional layers, kernel sizes, pooling strategies, batch size, learning rate, regularization, and early stopping criteria are absent. The procedure for constructing open chromatin regions from ATAC-seq or DNase-seq data is not specified. The threshold for calling a predicted interaction is described only for the CLL application, not for general use.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or adapt the method. The field cannot build on results that cannot be reproduced.
+  - **Resolution test** Provide a complete description of the model architecture and training procedure in the main text or a supplementary methods document that is made available for review. Specify all hyperparameters and the procedure for selecting them. Describe the exact pipeline for converting raw open chromatin data into model inputs, including any filtering or normalization steps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that application of ChINN to CLL patient samples demonstrates "extensive patient heterogeneity in chromatin interactions" and that "one of the sources of this heterogeneity were the different subtypes of CLL."
+  - **Evidence pointer** Results sections "Exploring chromatin interactions in patient samples" and "Exploring chromatin interactions in a cohort of patient samples", Figures 5-8 (not visible)
+  - **Concern** The clinical application is presented as a key outcome, but the analysis appears descriptive. The text mentions that differences in interaction scores were "not significant" when associating with differentially expressed genes. The separation of mCLL and uCLL samples is mentioned but the effect size and statistical significance are not reported. The validation of predicted interactions by Hi-C in 6 samples is described qualitatively. The analysis of 84 samples relies on predicted rather than experimentally measured interactions, and the accuracy of these predictions in this specific context is not established.
+  - **Why it matters** The clinical relevance of the method depends on whether predicted interactions are reliable enough to draw biological conclusions. If the predictions are noisy, the observed heterogeneity could reflect technical artifacts rather than true biological variation. The claim that subtypes differ in interaction profiles has potential clinical importance but requires stronger statistical support.
+  - **Resolution test** Report the classification accuracy or separation metric for mCLL vs uCLL with confidence intervals. Quantify the validation rate of predicted interactions by Hi-C. For the 84-sample analysis, assess whether the observed heterogeneity exceeds what would be expected from technical variability alone, e.g., by permutation testing or comparison to within-sample replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that motif analysis identified convergent CTCF motifs as important for prediction, and that this is biologically meaningful.
+  - **Evidence pointer** Results section "Convergent CTCF motifs are important for prediction of CTCF-associated open chromatin interactions", Figure 3 (not visible)
+  - **Concern** The text states that "in CTCF models the important sequence features were on different strands of the two anchors" and interprets this as convergent CTCF motifs. However, the analysis is described only qualitatively. The correlation coefficients between importance scores on different strands are not reported. The comparison to Pol II models, which do not show this pattern, is not quantified. The claim that "using only CTCF motif information for the prediction of CTCF-associated open chromatin interactions could not recapitulate the performance achieved by the convolutional neural network" is presented without the actual performance numbers.
+  - **Why it matters** The biological interpretability of the model is a claimed advantage. If the motif analysis is not rigorously quantified, the interpretation may be over-stated. The finding that CTCF motifs are important is expected given the known role of CTCF in chromatin organization, so the novelty must be clearly established.
+  - **Resolution test** Report the correlation coefficients and p-values for importance score comparisons. Provide the performance of the CTCF-motif-only model alongside the full model. Quantify the enrichment of convergent motif pairs in positive versus negative predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section "Open chromatin interactions can be predicted from functional genomic features"
+  - **Evidence pointer** Figure 1 (not visible)
+  - **Issue** The text states that "the interaction between distance and other features could help to distinguish between positive and negative chromatin interactions" but does not explain what this interaction means mechanistically or statistically.
+  - **Required correction** Clarify whether this refers to a statistical interaction term in the model or a biological interaction between distance and chromatin features. Provide a brief explanation of why this interaction improves prediction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Open chromatin interactions can be predicted from DNA sequences"
+  - **Evidence pointer** Figure 2 (not visible)
+  - **Issue** The text reports that including distance as a feature "only slightly improved the performances" but does not provide the actual values or the magnitude of improvement.
+  - **Required correction** Report the auPRC values with and without distance for each dataset, along with the difference and its significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Machine learning of Hi-C data from clinical samples"
+  - **Evidence pointer** Methods text
+  - **Issue** The text states that the CLL 401 model was used for across-sample prediction but does not explain why this particular sample was chosen.
+  - **Required correction** Justify the choice of CLL 401, e.g., by highest performance or representativeness.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion text
+  - **Issue** The discussion mentions "false positives" that might be real interactions missed by Hi-C, but this point is not developed or supported with data.
+  - **Required correction** Provide evidence or a reasoned argument for why predicted interactions not validated by Hi-C might still be real, e.g., by citing known limitations of Hi-C sensitivity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Exploring chromatin interactions in a cohort of patient samples"
+  - **Evidence pointer** Figure 7 (not visible)
+  - **Issue** The text states that "Pol2-associated chromatin interactions were better conserved across the CLL samples than CTCF-associated chromatin interactions" but does not provide a quantitative measure of conservation.
+  - **Required correction** Define the conservation metric and report the values for both interaction types.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance robustness), R1-M2 (reproducibility of model architecture and training), R1-M3 (statistical support for clinical claims), R1-M4 (quantification of motif analysis).
+- **Assessment against Nature-style criteria** Originality: The approach of predicting chromatin interactions from DNA sequence alone is not entirely novel, given prior work such as Akita, but the focus on open chromatin regions and the application to clinical samples provides a distinct angle. Scientific importance: The potential to predict interactions in samples lacking extensive epigenomic data is valuable, and the CLL application addresses a clinically relevant question. However, the importance is not fully realized without stronger validation. Interdisciplinary readership: The work bridges machine learning, genomics, and clinical oncology, which would appeal to a broad audience. Technical soundness: The evaluation appears methodologically aware but is insufficiently detailed and lacks statistical rigor in the main text. Readability for nonspecialists: The main text is generally clear, but some sections assume familiarity with chromatin interaction terminology and machine learning concepts. The manuscript would benefit from a brief primer on key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims are plausible but cannot be verified without access to the supplementary materials and additional statistical detail. The authors should be encouraged to resubmit with a complete description of the model, rigorous performance evaluation with confidence intervals and baselines, and quantitative support for the clinical findings.
+
+## Risk / unsupported claims
+- The claim that ChINN "shows good across-sample performances" is not supported by quantitative data in the main text.
+- The claim that "one of the sources of heterogeneity were the different subtypes of CLL" is presented without statistical testing.
+- The claim that "ChINN is able to identify bona fide chromatin interactions that might have been previously missed out" is based on a small number of 4C-seq validations and requires more extensive validation.
+- The claim that convergent CTCF motifs are important for prediction is not quantified.
+- The performance comparison between sequence-based and functional genomics-based models is described qualitatively without numbers.
+- The generalizability of the method to other cell types and conditions beyond those tested is asserted but not demonstrated.

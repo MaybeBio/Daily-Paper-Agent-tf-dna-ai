@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results and discussion, data availability, and supplementary figure/table references.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency of the reported results. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report that dimerization of a bisbenzamidine DNA binding agent via alkylation of terminal amidine groups yields a compound with over 20-fold enhanced affinity for extended A/T-rich DNA sites, supported by NMR and MD studies, and that this enhanced affinity correlates with improved antileishmanial activity.
+- **Visible evidence base** Abstract, full methods for synthesis, SPR, viability assays, and computational studies; results narrative for NMR, CD, SPR, MD, and antileishmanial assays; data availability statement referencing supplementary figures and ModelArchive deposits.
+- **Missing materials affecting confidence** Supplementary figures S1–S10 and Table S1 are referenced but not provided. NMR spectra, raw SPR sensorgrams, MD trajectory analyses, and full synthetic characterization data are not accessible. ModelArchive structures are cited but not verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually straightforward dimerization strategy to enhance DNA binding affinity of a bisbenzamidine scaffold, with a plausible mechanistic rationale and a clear translational hook via antileishmanial activity. The core claim of over 20-fold affinity enhancement is supported by the reported SPR data, though the precision of the kinetic parameters is questionable given the stated errors. The structural interpretation from NMR and MD is internally consistent but relies heavily on qualitative observations. The biological data are limited to a single parasite strain and one life-cycle stage, which tempers the strength of the translational claim. The work is technically sound in its execution but the novelty is incremental, building on established principles of bivalent DNA binders. The manuscript would benefit from clearer presentation of raw data and more rigorous statistical treatment of the biological replicates.
+- **Who would be interested in the results, and why** Researchers in chemical biology, nucleic acid recognition, and antiparasitic drug development would find this work relevant. The dimerization strategy for enhancing minor groove binding affinity could inform design of improved DNA-targeted therapeutics. The antileishmanial data, while preliminary, may interest parasitologists seeking new lead compounds.
+- **Major strengths** The dimerization chemistry is simple and efficient, requiring a single step from a known monomer. The SPR data provide quantitative binding affinities across multiple DNA sequences, enabling a clear comparison of monomer versus dimer behavior. The combination of NMR and MD offers complementary structural insights. The demonstration that enhanced DNA binding translates to improved antiparasitic activity, albeit modest, provides a functional validation of the design concept.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim a dissociation constant of 3.4 ± 2 nM for dimer 2 binding to the two-site sequence, and 181 nM for the single-site sequence, with monomer values of 4900 and 4800 nM respectively.
+  - **Evidence pointer** Results and discussion, "DNA binding studies by SPR" section; Figure 4
+  - **Concern** The reported errors on the kinetic and equilibrium constants are exceptionally large, with the dimer KD error (±2 nM) being nearly 60% of the reported value. The monomer KD values are reported without any error estimate. The text states that monomer binding was too fast for SPR measurement, yet a KD of 4900 nM is reported from steady-state analysis. The precision of these values, and hence the claimed 20-fold enhancement, cannot be adequately assessed from the information provided. The authors should report confidence intervals from replicate experiments and justify the use of a one-site binding model when the dimer may exhibit more complex binding behavior.
+  - **Why it matters** The central quantitative claim of the manuscript, the affinity enhancement factor, depends entirely on the accuracy and precision of these KD values. If the errors are as large as reported, the 20-fold enhancement may not be statistically distinguishable from a smaller effect. This undermines the primary conclusion of the paper.
+  - **Resolution test** Provide replicate SPR measurements with full error propagation, show the fitted curves with residuals, and report the KD values with 95% confidence intervals. If the monomer binding is too fast for SPR, an alternative method (e.g., ITC or fluorescence anisotropy) should be used to obtain a reliable monomer KD for comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The authors state that NMR experiments "showed that both the ligand and the DNA display significant chemical shift perturbations, indicating a molecular recognition event" and that intermolecular NOEs were used to generate a putative 3D model.
+  - **Evidence pointer** Results and discussion, "Binding of 1 to the DNA by NMR and in silico studies" section; Figure 1; Supplementary Table S1
+  - **Concern** The NMR analysis is described only qualitatively. No chemical shift perturbation magnitudes are quantified, no binding stoichiometry is established, and the intermolecular NOEs are not listed with assignments or distance restraints. The statement that the model was generated by "manually docking the ligand following the observed intermolecular NOEs" suggests a subjective procedure that is not reproducible from the provided information. The MD simulations are described as confirming stability, but no convergence criteria, ensemble analyses, or comparison with experimental restraints are shown.
+  - **Why it matters** The structural model underpins the interpretation of how the dimer binds to the composite site. Without quantitative NMR data and a reproducible modeling protocol, the structural claims cannot be independently verified. This weakens the mechanistic insight that is a key part of the paper's contribution.
+  - **Resolution test** Provide a table of chemical shift perturbations with magnitudes, list the intermolecular NOEs with assignments and distance ranges, and describe the docking procedure in sufficient detail for reproduction. For MD, show RMSD convergence plots, cluster analyses, and a comparison of key contacts with the NMR-derived restraints.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** The authors report IC50 values of 2.5 ± 0.1 μM for dimer 2 and 32.9 ± 3.6 μM for monomer 1 against L. major promastigotes, concluding that the dimer exhibits 10-fold higher antileishmanial activity.
+  - **Evidence pointer** Results and discussion, "Improved antiparasitic activity of the dimer 2" section; Figure 6
+  - **Concern** The antileishmanial data are derived from a single experiment with a single parasite strain and only the extracellular promastigote form. No dose-response curves are shown, no replicates are described, and the statistical analysis is limited to the reported standard deviations. The claim that the increased DNA binding "translates into" higher antileishmanial activity is an inference, not a demonstrated causal link. The comparison to pentamidine is based on a single concentration point rather than a full dose-response.
+  - **Why it matters** The translational relevance of the work rests on the antileishmanial data. Without robust biological replicates, full dose-response curves, and testing against intracellular amastigotes (the clinically relevant form), the claim of improved therapeutic potential is premature. The causal link between DNA binding affinity and antiparasitic activity is asserted but not experimentally tested.
+  - **Resolution test** Provide full dose-response curves with at least three independent biological replicates, report IC50 values with 95% confidence intervals, and test the compounds against intracellular amastigotes. If possible, include a control compound with similar physicochemical properties but different DNA binding affinity to strengthen the mechanistic link.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "over 20-fold enhanced DNA affinity" without specifying the sequence context or the comparison basis. The reader cannot tell if this refers to the two-site versus single-site comparison for the dimer, or dimer versus monomer on the same sequence.
+  - **Required correction** Specify the comparison explicitly, e.g., "dimer 2 shows 20-fold higher affinity than monomer 1 for a composite A/T-rich site containing two AAATTT sequences."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Synthesis of 1 and 2"
+  - **Evidence pointer** Materials and methods, "Synthesis of 1 and 2" section
+  - **Issue** The synthetic procedure for compound 2 reports a yield of 26% but does not specify the purity of the final product beyond the mass spectrometry data. The NMR characterization is referenced to supplementary data but not summarized in the main text.
+  - **Required correction** Provide a brief summary of the purity assessment (e.g., HPLC trace, elemental analysis) and list the key 1H NMR resonances in the main text or a table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Results and discussion, "DNA binding studies by SPR" section; Figure 4
+  - **Issue** The figure is described as showing sensorgrams and binding curves, but the axes, units, and fitting parameters are not described in the text. The reader cannot assess the quality of the fits or the appropriateness of the model.
+  - **Required correction** Add a figure legend that specifies the axes, the model used for fitting, and the fitted parameters with errors. Consider showing residuals or a goodness-of-fit metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and discussion, "Improved antiparasitic activity of the dimer 2"
+  - **Evidence pointer** Results and discussion, "Improved antiparasitic activity of the dimer 2" section
+  - **Issue** The term "oligomerization" is used to describe the dimerization of two monomer units. This is imprecise, as oligomerization typically implies more than two units.
+  - **Required correction** Replace "oligomerization" with "dimerization" throughout the relevant section.
+- **Technical failings that need to be addressed before the case is established** The SPR-derived KD values carry errors that are too large to support the claimed 20-fold enhancement with confidence. The NMR-derived structural model is not reproducible from the provided information. The antileishmanial data lack sufficient replication and dose-response characterization to support the translational claim.
+- **Assessment against Nature-style criteria** Originality: The dimerization strategy is a logical extension of known bivalent DNA binder designs and does not represent a conceptually new approach. The specific application to bisbenzamidines and the detailed characterization are useful but incremental. Scientific importance: The work addresses a real limitation of minor groove binders, namely low affinity for longer sequences, and provides a practical solution. However, the therapeutic relevance is not firmly established. Interdisciplinary readership: The work bridges chemistry, biophysics, and parasitology, and would appeal to a broad audience if the data were more robust. Technical soundness: The experimental methods are appropriate, but the precision of the key quantitative measurements is insufficient, and the structural modeling lacks rigor. Readability for nonspecialists: The manuscript is clearly written and accessible, with a logical flow from design to characterization to biological testing.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is sound and the work has potential, but the quantitative claims need to be substantiated with more precise data and the structural model needs to be made reproducible. The biological data require additional validation before the translational claim can be accepted.
+
+## Risk / unsupported claims
+- The claim of "over 20-fold enhanced DNA affinity" is not reliably supported due to the large errors on the reported KD values.
+- The statement that the increased DNA binding "translates into" higher antileishmanial activity is an inference not directly tested.
+- The structural model of the dimer-DNA complex is presented as definitive but is based on qualitative NMR analysis and a manual docking procedure that is not reproducible from the provided information.
+- The comparison of dimer 2 to pentamidine is based on a single concentration and does not constitute a rigorous comparative assessment.
+- The claim that the dimer binds "cooperatively" to the two AAATTT sites is not directly demonstrated; the data are consistent with independent binding of each monomer unit within the dimer.

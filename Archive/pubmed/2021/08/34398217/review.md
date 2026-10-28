@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present ezGeno, an automated model selection package for deep neural network analysis of 1D genomic data. They claim that ezGeno consistently returns optimal parameters and network structures for transcription factor (TF) binding prediction, outperforms hand-designed models for tissue-specific enhancer activity prediction, and surpasses DeepBind and AutoKeras in efficiency and accuracy.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, benchmark definitions, hyperparameter search space, computational resource specifications, and statistical test details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool for automating deep learning model selection in genomic applications. However, the claims of consistent superiority and broad applicability are not supported by the evidence visible in the abstract alone. The lack of quantitative results, benchmark protocols, and statistical rigor prevents a full evaluation of the package's performance and novelty. The work may be of interest to computational biologists, but the current evidence base is insufficient to establish the stated advantages.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians who apply deep learning to genomic sequence analysis, particularly those working on TF binding prediction, enhancer activity modeling, and other 1D genomic feature tasks. The promise of automated model selection could reduce the barrier to entry for researchers without extensive deep learning expertise.
+- **Major strengths** The abstract addresses a practical need for automating neural network design in genomics. The package is described as applicable to any 1D genomic data and combinations thereof, suggesting flexibility. The availability of the package on GitHub is a positive step for reproducibility and community adoption.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ezGeno can consistently return the best performing set of parameters and network structure" and "regularly outperforms the hand-designed models"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract provides no quantitative metrics, no comparison baselines with numerical results, and no statistical significance testing to support the claims of consistent and regular superiority. The terms "consistently" and "regularly" imply reproducibility across multiple datasets or conditions, but no such evidence is visible.
+  - **Why it matters** Without quantitative evidence, the core claims of the package's performance advantage cannot be verified. The abstract's assertions are unfalsifiable as presented, which undermines the scientific value of the work.
+  - **Resolution test** Provide specific performance metrics (e.g., AUC, accuracy) for each benchmark task, include error bars or confidence intervals, and report statistical tests comparing ezGeno against baselines across multiple independent datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "ezGeno automates the search process of various parameters and network structures"
+  - **Evidence pointer** Abstract, Motivation section; location not provided
+  - **Concern** The abstract does not describe the search algorithm, the parameter space explored, the computational cost of the search, or the criteria for selecting the "best" model. Without this information, the method cannot be reproduced or compared fairly against alternatives.
+  - **Why it matters** Reproducibility is a cornerstone of scientific software. The lack of methodological detail prevents other researchers from implementing or validating the approach, and it obscures whether the claimed efficiency advantage is due to algorithmic innovation or favorable benchmarking choices.
+  - **Resolution test** Describe the search strategy (e.g., Bayesian optimization, random search, reinforcement learning), define the hyperparameter and architecture search space, and report the computational time and resources required for each benchmark.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and context
+  - **Claim pointer** "ezGeno is superior in efficiency and accuracy compared to the one-layer DeepBind model and AutoKeras"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The comparison to DeepBind and AutoKeras is mentioned without context on why these specific baselines were chosen, how they were configured, or whether they represent the current state of the art. The abstract does not discuss prior AutoML approaches in genomics, leaving the novelty claim unsubstantiated.
+  - **Why it matters** The scientific contribution depends on demonstrating an advance over existing methods. Without a clear baseline rationale and a discussion of related work, the reader cannot assess whether ezGeno fills a genuine gap or merely replicates existing capabilities.
+  - **Resolution test** Justify the choice of baselines, describe their configurations, and include a comparison against a broader set of relevant AutoML and genomics-specific deep learning tools. Discuss how ezGeno differs from prior automated model selection approaches.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Motivation section
+  - **Evidence pointer** "Combinations of multiple abovementioned 1D features are also applicable"
+  - **Issue** The phrase "abovementioned" is vague and the sentence does not clarify what types of feature combinations are supported or how they are integrated.
+  - **Required correction** Specify the types of 1D genomic features that can be combined and provide an example of a multi-feature input format.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** "highlight the important segments within the original sequences"
+  - **Issue** The mechanism for highlighting important segments is not described. It is unclear whether this is a built-in interpretability feature or a post-hoc analysis.
+  - **Required correction** Briefly describe the interpretability method (e.g., saliency maps, attention weights, or perturbation-based approaches) and how it is integrated into the package.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, Availability section
+  - **Evidence pointer** "The ezGeno package can be freely accessed at https://github.com/ailabstw/ezGeno"
+  - **Issue** The abstract does not mention the software license, documentation, or example usage, which are important for practical adoption.
+  - **Required correction** State the license type and note the availability of documentation and tutorials in the package repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks quantitative evidence and methodological detail, respectively. These must be resolved before the performance and applicability claims can be evaluated.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Not assessable from the abstract alone. The concept of AutoML for genomics is not new, but the specific implementation and any novel algorithmic contributions are not described.
+  - **Scientific importance** Potentially moderate. Automating model selection could benefit the genomics community, but the importance depends on demonstrated performance gains over existing tools, which are not shown.
+  - **Interdisciplinary readership** Limited. The abstract is written for a bioinformatics audience and does not frame the work in a way that would attract a broader scientific readership.
+  - **Technical soundness** Not assessable. No technical details, validation protocols, or statistical analyses are provided.
+  - **Readability for nonspecialists** The abstract is accessible to those familiar with deep learning and genomics, but terms like "1D genomic data" and "TF binding" are not explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract makes strong performance claims without supporting data. A revised submission with quantitative results, methodological transparency, and contextualization against existing tools would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that ezGeno "consistently" returns the best performing set of parameters and network structure is unsupported without multi-dataset evidence.
+- The claim that ezGeno "regularly outperforms" hand-designed models is unsupported without quantitative comparisons.
+- The claim of superiority over DeepBind and AutoKeras in efficiency and accuracy is unsupported without specific metrics and benchmark conditions.
+- The applicability to "any kind of 1D genomic data" is an overgeneralization that cannot be verified from the abstract.
+- The interpretability feature of highlighting important segments is mentioned but not substantiated with examples or methodology.

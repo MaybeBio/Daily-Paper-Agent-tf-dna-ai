@@ -1,0 +1,391 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.02.621639",
+  "title": "In vivo single-cell ribosome profiling reveals cell-type-specific translational programs during aging",
+  "doi": "10.1101/2024.11.02.621639",
+  "abstract": "Somatic stem cells are characterized by their low overall protein synthesis rates, a feature implicated in driving their stemness. However, how aging reshapes the translational landscape of stem cells and how these changes impact their regenerative capacity remains poorly understood. Here, we present an in vivo single-cell ribosome profiling strategy to monitor tissue-wide translational landscapes of the young and aged mouse epidermis. By implementing ribosomal elongation-inhibited cell isolation and switching to RNase I ribonuclease for generating ribosomal footprints, we expand the applicability of single-cell ribosome profiling to in vivo systems and facilitate the evaluation of triplet periodicity, a hallmark of high-quality ribosome profiling data. Leveraging this strategy and integrating ribosome profiling with single-cell RNA sequencing, we document the in vivo translational landscapes of the major epidermal cell types, outline cell-type-specific translational efficiencies and capture heterogeneity in differentiation commitment within stem cell populations. Notably, we identify a pronounced translational reprogramming of AP-1 subunits specifically in aged epidermal stem cells, with functional consequences for keratinocyte behavior. Our study illustrates the power of in vivo single-cell ribosome profiling to map cell-type-specific translational programs and offers a scalable strategy for tissue-wide interrogation of translational landscapes at single-cell resolution.",
+  "authors": [
+    "Duré C",
+    "Ghoshdastider U",
+    "Weber R",
+    "Valdivia-Francia F",
+    "Renz PF",
+    "Khandekar A",
+    "Sella F",
+    "Hyams K",
+    "Taborsky D",
+    "Yigit M",
+    "Ormiston M",
+    "Yamahachi H",
+    "Levesque M",
+    "Ellis S",
+    "Sendoel A"
+  ],
+  "published_date": "2024-11-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.02.621639",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.02.621639.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR934764",
+    "raw_record": {
+      "id": "PPR934764",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR934764"
+        ]
+      },
+      "doi": "10.1101/2024.11.02.621639",
+      "title": "<i>In vivo</i>  single-cell ribosome profiling reveals cell-type-specific translational programs during aging",
+      "authorString": "Duré C, Ghoshdastider U, Weber R, Valdivia-Francia F, Renz PF, Khandekar A, Sella F, Hyams K, Taborsky D, Yigit M, Ormiston M, Yamahachi H, Levesque M, Ellis S, Sendoel A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Duré C",
+            "lastName": "Duré",
+            "firstName": "Clara",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                },
+                {
+                  "affiliation": "Life Science Zurich Graduate School, Molecular Life Science Program, / , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghoshdastider U",
+            "lastName": "Ghoshdastider",
+            "firstName": "Umesh",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weber R",
+            "lastName": "Weber",
+            "firstName": "Ramona",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4176-1685"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valdivia-Francia F",
+            "lastName": "Valdivia-Francia",
+            "firstName": "Fabiola",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9338-2225"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                },
+                {
+                  "affiliation": "Life Science Zurich Graduate School, Molecular Life Science Program, / , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Renz PF",
+            "lastName": "Renz",
+            "firstName": "Peter",
+            "initials": "PF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-7259-5022"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khandekar A",
+            "lastName": "Khandekar",
+            "firstName": "Ameya",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Perutz Labs, , Dr.-Bohr-Gasse 9 , ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Biology, Department of Microbiology, Immunobiology, and Genetics, Dr.-Bohr-Gasse 9 , , ,"
+                },
+                {
+                  "affiliation": "Vienna BioCenter PhD Program, Doctoral School of the and , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sella F",
+            "lastName": "Sella",
+            "firstName": "Federica",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hyams K",
+            "lastName": "Hyams",
+            "firstName": "Katie",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taborsky D",
+            "lastName": "Taborsky",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3568-4636"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                },
+                {
+                  "affiliation": "Life Science Zurich Graduate School, Molecular Life Science Program, / , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yigit M",
+            "lastName": "Yigit",
+            "firstName": "Merve",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                },
+                {
+                  "affiliation": "Life Science Zurich Graduate School, Molecular Life Science Program, / , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ormiston M",
+            "lastName": "Ormiston",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yamahachi H",
+            "lastName": "Yamahachi",
+            "firstName": "Homare",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levesque M",
+            "lastName": "Levesque",
+            "firstName": "Mitchell",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ellis S",
+            "lastName": "Ellis",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Perutz Labs, , Dr.-Bohr-Gasse 9 , ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Biology, Department of Microbiology, Immunobiology, and Genetics, Dr.-Bohr-Gasse 9 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sendoel A",
+            "lastName": "Sendoel",
+            "firstName": "Ataman",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regenerative Medicine (IREM), , Wagistrasse 12 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3900-790X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9338-2225"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3568-4636"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4176-1685"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-7259-5022"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Somatic stem cells are characterized by their low overall protein synthesis rates, a feature implicated in driving their stemness. However, how aging reshapes the translational landscape of stem cells and how these changes impact their regenerative capacity remains poorly understood. Here, we present an  in vivo single-cell ribosome profiling strategy to monitor tissue-wide translational landscapes of the young and aged mouse epidermis. By implementing ribosomal elongation-inhibited cell isolation and switching to RNase I ribonuclease for generating ribosomal footprints, we expand the applicability of single-cell ribosome profiling to  in vivo systems and facilitate the evaluation of triplet periodicity, a hallmark of high-quality ribosome profiling data. Leveraging this strategy and integrating ribosome profiling with single-cell RNA sequencing, we document the  in vivo translational landscapes of the major epidermal cell types, outline cell-type-specific translational efficiencies and capture heterogeneity in differentiation commitment within stem cell populations. Notably, we identify a pronounced translational reprogramming of AP-1 subunits specifically in aged epidermal stem cells, with functional consequences for keratinocyte behavior. Our study illustrates the power of  in vivo single-cell ribosome profiling to map cell-type-specific translational programs and offers a scalable strategy for tissue-wide interrogation of translational landscapes at single-cell resolution.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "176825",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "205601",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.02.621639"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.02.621639"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR934764"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR934764&type=FILE&fileName=EMS199923-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199923",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-06",
+      "firstPublicationDate": "2024-11-03",
+      "firstIndexDate": "2024-11-06",
+      "fullTextReceivedDate": "2024-11-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

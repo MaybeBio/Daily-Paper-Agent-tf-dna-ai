@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "38160320",
+    "doi": "10.1002/pro.4891",
+    "title": "A complex network of interdomain interactions underlies the conformational ensemble of monomeric TDP-43 and modulates its phase behavior."
+  },
+  "content": {
+    "abstract": "TAR DNA-binding protein 43 (TDP-43) is a multidomain protein involved in the regulation of RNA metabolism, and its aggregates have been observed in neurodegenerative diseases, including amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD). Numerous studies indicate TDP-43 can undergo liquid-liquid phase separation (LLPS) in vitro and is a component of biological condensates. Homo-oligomerization via the folded N-terminal domain (aa:1-77) and the conserved helical region (aa:319-341) of the disordered, C-terminal domain is found to be an important driver of TDP-43 phase separation. However, a comprehensive molecular view of TDP-43 phase separation, particularly regarding the nature of heterodomain interactions, is lacking due to the challenges associated with its stability and purification. Here, we utilize all-atom and coarse-grained (CG) molecular dynamics (MD) simulations to uncover the network of interdomain interactions implicated in TDP-43 phase separation. All-atom simulations uncovered the presence of transient, interdomain interactions involving flexible linkers, RNA-recognition motif (RRM) domains and a charged segment of disordered C-terminal domain (CTD). CG simulations indicate these inter-domain interactions which affect the conformational landscape of TDP-43 in the dilute phase are also prevalent in the condensed phase. Finally, sequence and surface charge distribution analysis coupled with all-atom simulations (at high salt) confirmed that the transient interdomain contacts are predominantly electrostatic in nature. Overall, our findings from multiscale simulations lead to a greater appreciation of the complex interaction network underlying the structural landscape and phase separation of TDP-43.",
+    "keywords": [
+      "TAR DNA-binding protein 43 (TDP-43)",
+      "amyotrophic lateral sclerosis (ALS)",
+      "biomolecular condensates",
+      "frontotemporal dementia (FTD)",
+      "molecular dynamics (MD) simulations",
+      "phase separation",
+      "phase-coexistence simulations"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amyotrophic Lateral Sclerosis/genetics",
+      "Protein Domains",
+      "*Frontotemporal Dementia",
+      "DNA-Binding Proteins/chemistry",
+      "RNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mohanty, Priyesh",
+        "Rizuan, Azamat",
+        "Kim, Young C",
+        "Fawzi, Nicolas L",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Mohanty P",
+        "Rizuan A",
+        "Kim YC",
+        "Fawzi NL",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3919-3527",
+        "ORCID: 0000-0003-3590-0829",
+        "ORCID: 0000-0001-5483-0577",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Naval Research Laboratory, Center for Materials Physics and Technology, Washington, District of Columbia, USA.",
+        "Department of Molecular Biology, Cell Biology and Biochemistry, Providence, Rhode Island, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [
+          "0000-0003-3919-3527"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Rizuan, Azamat",
+        "short_name": "Rizuan A",
+        "identifiers": [
+          "0000-0003-3590-0829"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Naval Research Laboratory, Center for Materials Physics and Technology, Washington, District of Columbia, USA."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology and Biochemistry, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/02 11:42",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "41851271",
+      "41394620",
+      "41298416",
+      "41298366",
+      "41253788",
+      "41088757",
+      "40969122",
+      "40842365",
+      "40441156",
+      "40412392",
+      "40389455",
+      "40289673",
+      "40060049",
+      "39987392",
+      "39920231",
+      "39554085",
+      "39432675",
+      "39354713",
+      "39005345",
+      "38885177",
+      "38766024",
+      "38405719",
+      "38328053",
+      "37961422"
+    ],
+    "refs": [
+      "38592759",
+      "38553587",
+      "38492239",
+      "37853696",
+      "37579155",
+      "37267850",
+      "36537242",
+      "36371546",
+      "36253101",
+      "36075972",
+      "35802394",
+      "35767952",
+      "35758053",
+      "35112738",
+      "34557680",
+      "34490845",
+      "34380047",
+      "34301955",
+      "34239072",
+      "34144468",
+      "34029402",
+      "33934416",
+      "33744316",
+      "33597515",
+      "33577679",
+      "33545530",
+      "33453922",
+      "33388290",
+      "33335017",
+      "33302617",
+      "33169001",
+      "33078950",
+      "33032406",
+      "33004511",
+      "32881101",
+      "32480125",
+      "32302571",
+      "32302570",
+      "32132204",
+      "32029630",
+      "31653829",
+      "31605140",
+      "31117592",
+      "30990694",
+      "30217894",
+      "30214057",
+      "30100264",
+      "30045872",
+      "29763584",
+      "29677512",
+      "29602697",
+      "29526694",
+      "29511089",
+      "29438978",
+      "29364893",
+      "28746339",
+      "28663553",
+      "28636604",
+      "28483149",
+      "28225081",
+      "27545621",
+      "27289443",
+      "27040765",
+      "26574392",
+      "25556531",
+      "25531225",
+      "25400522",
+      "25288112",
+      "24240615",
+      "24220679",
+      "23395180",
+      "23019361",
+      "22710296",
+      "22398450",
+      "21783422",
+      "19075767",
+      "18083189",
+      "17356578",
+      "17023659",
+      "16392929",
+      "15264254",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "38160320",
+      "37579155",
+      "29511089",
+      "38029395",
+      "29279008",
+      "33577819",
+      "31911437",
+      "36841957",
+      "34787357",
+      "39302099",
+      "35495061",
+      "41298366",
+      "41969219",
+      "38997630",
+      "24497641",
+      "27545621",
+      "30824544",
+      "35112738",
+      "41178159",
+      "37853696",
+      "40960392",
+      "39342654",
+      "28988034",
+      "28817800",
+      "33441818",
+      "36809847",
+      "32132204",
+      "29438978",
+      "42295787",
+      "33446423",
+      "40468389",
+      "33151007",
+      "27040765",
+      "30814253",
+      "41933903",
+      "33917983",
+      "33771571",
+      "34783967",
+      "41169547",
+      "41512823",
+      "33065281",
+      "37431963",
+      "40305655",
+      "34115105",
+      "39987392",
+      "30948513",
+      "34944548",
+      "40654645",
+      "39201466",
+      "38585945",
+      "36293362",
+      "39354713",
+      "36310222",
+      "31917988",
+      "37177801",
+      "35644946",
+      "40032118",
+      "28112502",
+      "20864052",
+      "39610319",
+      "29555476",
+      "42507931",
+      "27015757",
+      "33097688",
+      "38178578",
+      "42335378",
+      "41993496",
+      "40454469",
+      "38615537",
+      "34118419",
+      "41446138",
+      "28566288",
+      "37720552",
+      "38466778",
+      "25635624",
+      "37961424",
+      "34131277",
+      "31241884",
+      "30826182",
+      "39621905",
+      "28833982",
+      "33417141",
+      "38422113",
+      "38115557",
+      "33044808",
+      "31914861",
+      "34972208",
+      "30309612",
+      "35790708",
+      "36499553",
+      "22776664",
+      "36482422",
+      "41088757",
+      "19174564",
+      "28663553",
+      "35459796",
+      "42171508",
+      "40975059",
+      "28257838",
+      "30728452"
+    ],
+    "review": [
+      "38160320",
+      "38029395",
+      "41178159",
+      "42295787",
+      "33446423",
+      "40468389",
+      "39987392",
+      "30948513",
+      "36293362",
+      "40032118",
+      "28112502",
+      "20864052",
+      "27015757",
+      "37720552",
+      "35790708",
+      "22776664"
+    ],
+    "pmc": [
+      "10804676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38160320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38160320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4891",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

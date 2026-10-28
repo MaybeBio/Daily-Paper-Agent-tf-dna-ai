@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "41618393",
+    "doi": "10.1186/s12951-026-04036-7",
+    "title": "Design of RGD-functionalized GSH-responsive pegylated polymeric protacs for selective BRD4 degradation and EndMT-driven cardiac fibrosis inhibition."
+  },
+  "content": {
+    "abstract": "Endothelial cells (ECs) of endothelial-to-mesenchymal transition (EndMT) are drivers of cardiac fibrosis. BRD4 has recently been identified as an epigenetic regulator of EndMT. Proteolysis-targeting chimera (PROTAC) technology has revolutionized targeted protein degradation, offering unprecedented opportunities for BRD4 modulation in diverse pathological contexts. Nevertheless, the non-selective cellular targeting profile of PROTACs poses significant limitations for their therapeutic application in cardiac fibrosis management. To address these limitations, we developed a GSH-responsive nanoscale PROTAC (RGD-PEG-MZ1) that targets activated platelets, leveraging their chemotactic properties to precisely degrade BRD4 in ECs. RGD-PEG-MZ1 exhibits selectivity for ECs and inhibition of EndMT, which can prevent the progression of cardiac fibrosis. The RNA-seq analysis revealed an attenuation of the MAPK signaling pathway following RGD-PEG-MZ1 treatment. The interaction between BRD4 and the MAPK signaling was analyzed through AlphaFold3 and immunoprecipitation assays. The experimental data showed that BRD4 directly interacts with RAF1, a critical effector in MAPK signaling, which suggested that RGD-PEG-MZ1 modulates MAPK signaling by disrupting the BRD4-RAF1 interaction. This innovative GSH-activated PROTAC strategy not only offers a novel therapeutic approach for cardiac fibrosis but also provides insights into the functional role of BRD4 in the disease pathogenesis of cardiac fibrosis.",
+    "keywords": [
+      "Bromodomain-containing protein 4",
+      "Cardiac fibrosis",
+      "Endothelial-to-mesenchymal transition",
+      "PROTAC"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Mice",
+      "Biocompatible Materials/chemistry/pharmacology",
+      "Blood Platelets/metabolism",
+      "*Bromodomain Containing Proteins/metabolism",
+      "Cell Line",
+      "Drug Design",
+      "*Endothelial-Mesenchymal Transition/drug effects",
+      "Fibrosis/drug therapy/metabolism",
+      "Glutathione/chemistry",
+      "*Heart Diseases/drug therapy/metabolism/pathology",
+      "MAP Kinase Signaling System/drug effects",
+      "Mice, Inbred C57BL",
+      "*Nanoparticles/administration & dosage/chemistry",
+      "*Nuclear Proteins/metabolism",
+      "Oligopeptides/chemistry",
+      "Polyethylene Glycols/chemistry",
+      "Proteolysis",
+      "Proto-Oncogene Proteins c-raf/metabolism",
+      "*Transcription Factors/metabolism",
+      "Humans",
+      "*Cell Cycle Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bi, Tao",
+        "Chen, Lei",
+        "Wang, Ting",
+        "Miao, Wenjun",
+        "Zhai, Silong",
+        "Huang, Rui",
+        "Sun, Qin",
+        "Chen, Yihan",
+        "Su, Hongna",
+        "Zhou, Jie",
+        "Li, Ruowen",
+        "Huang, Weixue",
+        "Yao, Xiaojun",
+        "Luo, Pei",
+        "Liu, Zengjin"
+      ],
+      "short_names": [
+        "Bi T",
+        "Chen L",
+        "Wang T",
+        "Miao W",
+        "Zhai S",
+        "Huang R",
+        "Sun Q",
+        "Chen Y",
+        "Su H",
+        "Zhou J",
+        "Li R",
+        "Huang W",
+        "Yao X",
+        "Luo P",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China.",
+        "Environmental Health Effects and Risk Assessment Key Laboratory of Luzhou, School of Public Health, Southwest Medical University, Luzhou, 646000, China.",
+        "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, 999078, China.",
+        "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, 345 Lingling Road, Shanghai, 200032, China.",
+        "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China.",
+        "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China.",
+        "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, 345 Lingling Road, Shanghai, 200032, China. wxhuang@sioc.ac.cn.",
+        "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, 999078, China. xjyao@mpu.edu.mo.",
+        "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China. pluo@must.edu.mo.",
+        "Guangdong-HongKong-Macao Universities Joint Laboratory for Internationalization of TCM, Jinan University, Guangzhou, 510632, China. pluo@must.edu.mo.",
+        "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. zengjinliu@swmu.edu.cn.",
+        "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. zengjinliu@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bi, Tao",
+        "short_name": "Bi T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lei",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Health Effects and Risk Assessment Key Laboratory of Luzhou, School of Public Health, Southwest Medical University, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Wenjun",
+        "short_name": "Miao W",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+          "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Silong",
+        "short_name": "Zhai S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Rui",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+          "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qin",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+          "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yihan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, 345 Lingling Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Su, Hongna",
+        "short_name": "Su H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruowen",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Weixue",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, 345 Lingling Road, Shanghai, 200032, China. wxhuang@sioc.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaojun",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, 999078, China. xjyao@mpu.edu.mo."
+        ]
+      },
+      {
+        "full_name": "Luo, Pei",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mechanism and Quality of Chinese Medicine, Faculty of Chinese Medicine, Macau University of Science and Technology, Macau, 999078, China. pluo@must.edu.mo.",
+          "Guangdong-HongKong-Macao Universities Joint Laboratory for Internationalization of TCM, Jinan University, Guangzhou, 510632, China. pluo@must.edu.mo."
+        ]
+      },
+      {
+        "full_name": "Liu, Zengjin",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Research Center of Integrated Traditional Chinese and Western Medicine, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. zengjinliu@swmu.edu.cn.",
+          "Luzhou Key Laboratory of Research and Development of Medical Institution Preparations and Large-Scale Health Products, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. zengjinliu@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of nanobiotechnology"
+    ],
+    "journal_abbrev": [
+      "J Nanobiotechnology"
+    ],
+    "pub_date": "2026 Jan 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/31 06:31",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41474932",
+      "41462565",
+      "41348354",
+      "41233877",
+      "41042531",
+      "41026144",
+      "40791017",
+      "40045597",
+      "39962553",
+      "39920247",
+      "39795950",
+      "39530628",
+      "39488207",
+      "39443808",
+      "39215370",
+      "39128586",
+      "38892367",
+      "38714800",
+      "38635879",
+      "38628905",
+      "38572107",
+      "38553243",
+      "38461687",
+      "38246244",
+      "38111334",
+      "38099494",
+      "37871321",
+      "37857609",
+      "37781923",
+      "37489841",
+      "37477624",
+      "37442129",
+      "37327395",
+      "37317568",
+      "37225873",
+      "36788245",
+      "36740781",
+      "36735787",
+      "36730431",
+      "36575984",
+      "36542856",
+      "36537041",
+      "36503256",
+      "36361564",
+      "36309482",
+      "36045132",
+      "35916511",
+      "35865099",
+      "35682700",
+      "35671157",
+      "35642036",
+      "35587208",
+      "35575093",
+      "35447403",
+      "35273164",
+      "35229727",
+      "35217813",
+      "35127386",
+      "35042991",
+      "35042977",
+      "34943879",
+      "34936449",
+      "34571987",
+      "34417174",
+      "34305651",
+      "34202205",
+      "34199719",
+      "34196216",
+      "33682427",
+      "33568808",
+      "33522573",
+      "33113340",
+      "32862327",
+      "32851865",
+      "32518142",
+      "32433238",
+      "32268117",
+      "31927988",
+      "31566962",
+      "31409188",
+      "30832981",
+      "30529814",
+      "30467427",
+      "28428753",
+      "28195723",
+      "27339799",
+      "26668635",
+      "26644586",
+      "23911322",
+      "21106947",
+      "19416203"
+    ],
+    "similar": [
+      "41618393",
+      "30529267",
+      "42094600",
+      "40344878",
+      "37683536",
+      "40756370",
+      "31409188",
+      "42017318",
+      "42508181",
+      "40659131",
+      "31958767",
+      "42341263",
+      "40604997",
+      "40380932",
+      "36170346",
+      "41635951",
+      "38437473",
+      "41348354",
+      "41558059",
+      "38581996",
+      "39862737",
+      "39523308",
+      "41198561",
+      "36787659",
+      "39816690",
+      "40295770",
+      "38365636",
+      "35299072",
+      "40957137",
+      "39775984",
+      "40045597",
+      "40643546",
+      "37066758",
+      "42250737",
+      "39716819",
+      "32338867",
+      "32893006",
+      "38849043",
+      "34878263",
+      "39219068",
+      "36563515",
+      "35988145",
+      "41839264",
+      "39475482",
+      "31707348",
+      "26035625",
+      "41194767",
+      "27793799",
+      "40317844",
+      "41807997",
+      "38609561",
+      "36542856",
+      "40202531",
+      "41904167",
+      "39962553",
+      "39002520",
+      "38055861",
+      "40695797",
+      "31708096",
+      "39454579",
+      "31734632",
+      "41233877",
+      "38364230",
+      "40700052",
+      "32226528",
+      "37942611",
+      "40754781",
+      "41187371",
+      "40451554",
+      "31470872",
+      "40977536",
+      "40132213",
+      "39098906",
+      "40628510",
+      "39164524",
+      "28288108",
+      "41380451",
+      "37871321",
+      "38423674",
+      "41041074",
+      "41685426",
+      "41804264",
+      "41662485",
+      "38702019",
+      "39128586",
+      "42224297",
+      "35882867",
+      "39173854",
+      "31356816",
+      "37541594",
+      "39491551",
+      "41966583",
+      "38956052",
+      "41403144",
+      "39891210",
+      "42527573",
+      "41615661",
+      "39110281",
+      "39945752",
+      "22245495"
+    ],
+    "review": [
+      "41618393",
+      "41635951",
+      "42250737",
+      "39219068",
+      "41187371"
+    ],
+    "pmc": [
+      "12933928"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jnanobiotechnology.biomedcentral.com/articles/10.1186/s12951-026-04036-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41618393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAF1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

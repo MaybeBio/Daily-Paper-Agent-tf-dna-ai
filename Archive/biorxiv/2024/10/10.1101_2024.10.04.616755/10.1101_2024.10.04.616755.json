@@ -1,0 +1,379 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.04.616755",
+  "title": "pLM-DBPs: Enhanced DNA-Binding Protein Prediction in Plants Using Embeddings From Protein Language Models",
+  "doi": "10.1101/2024.10.04.616755",
+  "abstract": "DNA-binding proteins (DBPs) play critical roles in gene regulation, development, and environmental response across various species, including plants, animals, and microorganisms. While various machine learning and deep learning models have been developed to distinguish DNA-binding proteins (DBPs) from non-DNA-binding proteins (NDBPs), most available tools have focused on human and mouse datasets. As a result, there are limited studies specifically addressing plant-based DNA-binding proteins, which restricts our understanding of their unique roles and functions in plant biology. Developing an efficient framework for improving DBP prediction in plants would enhance our knowledge and enable precise gene expression control, accelerate crop improvement, enhance stress resilience, and optimize metabolic engineering for agricultural advancement. In this work, we developed a tool that uses a protein language model (pLM) pre-trained on millions of sequences. We evaluated several leading models, including ProtT5, Ankh, and ESM-2, and leveraged their high-dimensional, information-rich representations to improve the accuracy of DNA-binding protein prediction in plants significantly. Our final model, pLM-DBPs, a feed-forward neural network classifier utilizing ProtT5-based representations, outperformed existing approaches with a Matthews Correlation Coefficient (MCC) of 83.8% on the independent test set. This represents a 10% improvement over the previous state-of-the-art model for plant-based DBP prediction, highlighting its superior performance compared to the existing approaches.",
+  "authors": [
+    "Suresh Pokharel",
+    "Kepha Barasa",
+    "Pawel Pratyush",
+    "Dukka Kc"
+  ],
+  "published_date": "2024-10-06",
+  "updated_date": "2024-10-06T21:45:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616755",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616755.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2026-04-13T15:31:59Z",
+        "timestamp": 1776094319859,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2024-10-06T00:00:00Z",
+            "timestamp": 1728172800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA-binding proteins (DBPs) play critical roles in gene regulation, development, and environmental response across various species, including plants, animals, and microorganisms. While various machine learning and deep learning models have been developed to distinguish DNA-binding proteins (DBPs) from non-DNA-binding proteins (NDBPs), most available tools have focused on human and mouse datasets. As a result, there are limited studies specifically addressing plant-based DNA-binding proteins, which restricts our understanding of their unique roles and functions in plant biology. Developing an efficient framework for improving DBP prediction in plants would enhance our knowledge and enable precise gene expression control, accelerate crop improvement, enhance stress resilience, and optimize metabolic engineering for agricultural advancement. In this work, we developed a tool that uses a protein language model (pLM) pre-trained on millions of sequences. We evaluated several leading models, including ProtT5, Ankh, and ESM-2, and leveraged their high-dimensional, information-rich representations to improve the accuracy of DNA-binding protein prediction in plants significantly. Our final model, pLM-DBPs, a feed-forward neural network classifier utilizing ProtT5-based representations, outperformed existing approaches with a Matthews Correlation Coefficient (MCC) of 83.8% on the independent test set. This represents a 10% improvement over the previous state-of-the-art model for plant-based DBP prediction, highlighting its superior performance compared to the existing approaches.</jats:p>",
+      "DOI": "10.1101/2024.10.04.616755",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2024-10-06T21:45:11Z",
+        "timestamp": 1728251111000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "pLM-DBPs: Enhanced DNA-Binding Protein Prediction in Plants Using Embeddings From Protein Language Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1495-2953",
+          "authenticated-orcid": false,
+          "given": "Suresh",
+          "family": "Pokharel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kepha",
+          "family": "Barasa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4210-1200",
+          "authenticated-orcid": false,
+          "given": "Pawel",
+          "family": "Pratyush",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dukka",
+          "family": "Kc",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.3",
+          "article-title": "Ankh: Optimized protein language model unlocks general-purpose modelling",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "10",
+          "key": "2024111103452513000_2024.10.04.616755v2.4",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32007-7"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3884"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-64211-4"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-463"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj.11262"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.10",
+          "first-page": "500902",
+          "article-title": "Language models of protein sequences at the scale of evolution enable accurate structure prediction",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "BioRxiv"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.12",
+          "article-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty653"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv805"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.15",
+          "unstructured": "Tom O’Malley , Elie Bursztein , James Long , François Chollet , Haifeng Jin , Luca Invernizzi , et al. Kerastuner. https://github.com/keras-team/keras-tuner, 2019."
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/glycob/cwad033"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-21366-2"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms242116000"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac483"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae290"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1574893614666181212102030"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2018.05.006"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2842864"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa701"
+        },
+        {
+          "issue": "4",
+          "key": "2024111103452513000_2024.10.04.616755v2.25",
+          "first-page": "2284",
+          "article-title": "Idrbp-ppct: identifying nucleic acid-binding proteins based on position-specific score matrix and position-specific frequency matrix cross transformation",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2022.05.001"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Siwen Wu and Jun-tao Guo . Improved prediction of dna and rna binding proteins with deep learning models. Briefings in Bioinformatics, 25(4), 2024.",
+          "DOI": "10.1093/bib/bbae285"
+        },
+        {
+          "issue": "4",
+          "key": "2024111103452513000_2024.10.04.616755v2.28",
+          "first-page": "1451",
+          "article-title": "Deepdrbp-2l: a new genome annotation predictor for identifying dna-binding proteins and rna-binding proteins using convolutional neural network and long short-term memory",
+          "volume": "18",
+          "year": "2019",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2024111103452513000_2024.10.04.616755v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.09.008"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.04.616755",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:12:41Z",
+        "timestamp": 1768461161000
+      },
+      "score": 162.35472,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.04.616755"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.1101/2024.10.04.616755",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

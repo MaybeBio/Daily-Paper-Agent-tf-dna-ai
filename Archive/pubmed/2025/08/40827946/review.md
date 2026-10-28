@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, methods, and supplementary material references.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and claims as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors report the discovery and characterization of uracil derivatives, specifically NSC232005 and NSC20116, as direct ligands of the SRA domain of UHRF1. They provide thermodynamic profiles via ITC, structural hypotheses via MD and DFT calculations, and preliminary in vitro evidence of global DNA demethylation in HCT116 cells for NSC232005.
+- **Visible evidence base** Abstract, full results and discussion sections, materials and methods, and references to supplementary figures and tables (Table S1, Figures S1–S11).
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S11) were not provided. Raw ITC thermograms, DSF raw data, and full MD trajectory analyses were not available for independent assessment. The in vitro demethylation data are presented only as a summary without dose-response curves or statistical details.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and technically sound approach to identifying and characterizing uracil-based ligands for the SRA domain of UHRF1. The combination of biophysical, computational, and cellular assays is commendable. However, several claims, particularly regarding the structural basis of enthalpy-entropy compensation and the cellular selectivity of demethylation, are not fully supported by the data presented in the main text. The study is a valuable contribution to the field of epigenetic drug discovery, but the evidence for the mechanistic hypotheses requires strengthening.
+- **Who would be interested in the results, and why** Researchers in epigenetic drug discovery, chemical biology, and cancer biology would be interested. The work provides new chemical matter targeting UHRF1, a protein of high interest as a therapeutic target in cancer. The detailed thermodynamic and computational analysis will also appeal to biophysical chemists studying protein-ligand interactions.
+- **Major strengths** 1. Orthogonal validation of hits using DSF and ITC, with clear reporting of Kd values and stoichiometry. 2. Detailed computational analysis including DFT for tautomer stability and MD for binding dynamics. 3. The use of a cellular assay to demonstrate functional activity (DNA demethylation) of the lead compound. 4. Transparent discussion of compound liabilities (PAINS, solubility) during screening.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The authors claim that the enthalpy-entropy compensation observed for NSC232005 and NSC20116 is primarily due to differences in conformational flexibility and solvent displacement, with NSC232005 binding being entropically driven and NSC20116 enthalpically driven.
+  - **Evidence pointer** Results and Discussion, "Investigation of Enthalpy–Entropy Compensation Effects" section; Figures 3 and 4 (referenced but not provided).
+  - **Concern** The hypothesis linking the thermodynamic profiles to specific structural features (e.g., rotamer flexibility, water displacement) is based on computational predictions (MD, SZmap) that are not experimentally validated. The claim that the "fourth hydration site" is displaced by NSC232005 but not NSC20116 is speculative and is even revised later in the text based on ΔCp data. The link between the observed thermodynamic parameters and the proposed molecular mechanisms is not directly demonstrated.
+  - **Why it matters** The central scientific narrative of the paper is the explanation of the different binding modes of two similar ligands. If the structural rationale is not robustly supported, the mechanistic insight is weakened, and the utility of the model for future compound design is diminished.
+  - **Resolution test** Provide experimental evidence to support the computational predictions. This could include: (1) X-ray co-crystal structures of both ligands bound to SRA-UHRF1; (2) site-directed mutagenesis of key residues (e.g., Asp469) to test their contribution to binding enthalpy; (3) more detailed thermodynamic analysis, such as van't Hoff plots, to validate the ITC-derived ΔCp values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological data interpretation
+  - **Claim pointer** The authors claim that NSC232005 demonstrates "promising global demethylating activity reaching an approximate 75% reduction compared to control" in HCT116 cells, and that this effect is not reproduced in "healthy HPC hematopoietic cells," suggesting cell-type selective effects.
+  - **Evidence pointer** Results and Discussion, "In Vitro DNA Demethylation Assessment" section; Figure 5D (referenced but not provided).
+  - **Concern** The cellular data are presented as a single endpoint (75% reduction) without showing dose-response, time-course, or statistical analysis. The claim of cell-type selectivity is based on a single comparison to one non-cancer cell line. The mechanism of demethylation (e.g., passive vs. active) is not investigated. The concentration used (25 μM) is high, and the specificity of the effect (on-target vs. off-target) is not established.
+  - **Why it matters** The functional relevance of the compound is a key part of the paper's significance. Without robust cellular data, the claim that these compounds are "effective UHRF1 inhibitors" with therapeutic potential is not established. The selectivity claim is particularly important for a potential therapeutic and requires more rigorous validation.
+  - **Resolution test** Provide a full dose-response curve for NSC232005 in HCT116 cells, with a clear EC50 value. Include a time-course experiment. Test the compound in a panel of cancer and non-cancer cell lines to substantiate the selectivity claim. Perform experiments to link the demethylation effect directly to UHRF1 inhibition (e.g., rescue experiments with UHRF1 overexpression, or comparison to UHRF1 knockdown). Assess cell viability to ensure the demethylation is not a consequence of cytotoxicity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section, "In Vitro DNA Methylation Assay"
+  - **Evidence pointer** Materials and Methods, "In Vitro DNA Methylation Assay" section.
+  - **Issue** The description of the LC-MS method for quantifying methylated cytosine is incomplete. The text mentions "Degradase Plus enzyme" and LC-MS conditions but does not specify the internal standards used for quantification, the specific MRM transitions monitored, or the limits of detection/quantification.
+  - **Required correction** Provide details on the internal standards (e.g., stable isotope-labeled 5-mdC), the MRM transitions for 5-mdC and dG, and the validation of the assay (linearity, LOD, LOQ).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, "Initial Screening and Isothermal Titration Calorimetry Measurements"
+  - **Evidence pointer** Figure 1 (referenced but not provided).
+  - **Issue** The text refers to "Figure 1A, B, D" but the figure legend is not provided. It is unclear what exactly is plotted in each panel (e.g., raw thermograms, binding isotherms, ΔTm values).
+  - **Required correction** Ensure the figure legend clearly describes each panel, including the type of plot, axes labels, and the data points shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section, "Molecular Simulations"
+  - **Evidence pointer** Materials and Methods, "Molecular Simulations" section.
+  - **Issue** The text states that "multiple simulations with different random seeds were performed" but does not specify the number of replicates or how convergence was assessed.
+  - **Required correction** State the number of independent MD simulations performed for each system and describe the criteria used to assess convergence (e.g., RMSD stability, block averaging).
+- **Technical failings that need to be addressed before the case is established** 1. The structural hypothesis for enthalpy-entropy compensation (R1-M1) is not experimentally validated. 2. The cellular demethylation data (R1-M2) are insufficient to support the claims of efficacy and selectivity. 3. The lack of raw data for ITC and DSM experiments prevents independent verification of the reported thermodynamic parameters.
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its specific focus on uracil derivatives as SRA-domain ligands and provides a detailed thermodynamic comparison of two closely related compounds. However, the overall approach of targeting UHRF1 is not new. **Scientific importance:** The identification of new chemical matter for UHRF1 is of importance to the field of epigenetic drug discovery. The detailed thermodynamic analysis is a useful contribution. However, the lack of robust in vivo or mechanistic data limits the immediate impact. **Interdisciplinary readership:** The work will appeal to medicinal chemists, chemical biologists, and structural biologists. The computational and biophysical methods are well-integrated. **Technical soundness:** The biophysical and computational methods are generally sound and well-executed. The main weaknesses are in the biological validation and the lack of experimental support for the structural hypotheses. **Readability for nonspecialists:** The manuscript is well-written and logically structured. The concepts are explained clearly, although the thermodynamic and computational details may be challenging for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of two potent SRA ligands with distinct thermodynamic profiles is interesting and potentially valuable. However, the manuscript's central mechanistic hypothesis and the key biological claim require additional experimental evidence before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the enthalpy-entropy compensation is due to specific conformational and solvation effects (R1-M1) is unsupported by direct experimental evidence.
+- The claim of "cell type-selective effects" of NSC232005 is unsupported, as it is based on a single non-cancer cell line.
+- The claim that NSC232005 is an "effective UHRF1 inhibitor" based on the observed demethylation is not fully supported, as the mechanism of action is not demonstrated.
+- The statement that NSC20116 is "less prone to undergo Fischer–Hepp rearrangement" is speculative and not experimentally tested.
+- The biological significance of the ΔCp values and their link to specific structural features is not fully established.

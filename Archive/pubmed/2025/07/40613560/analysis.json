@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40613560",
+  "title": "Decoding PANoptosis in Gout: Signature Gene Identification and Immune Infiltration Profiling.",
+  "authors": "Cao, Junjie; Li, Aifang; Luo, Gaiying; Wu, Zhen; Liu, Yuan",
+  "journal": "International journal of rheumatic diseases",
+  "published_date": "2025-07-04",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学与机器学习识别痛风中的PANoptosis相关基因SOCS3，虽构建了miRNA-mRNA-TF网络，但核心是炎症基因表达与免疫浸润，缺乏蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Gout is an inflammatory disorder triggered by the deposition of monosodium urate (MSU) crystals in joints and periarticular tissues. PANoptosis, a recently identified form of inflammatory cell death, remains uncharacterized in gout pathogenesis. This study aims to identify PANoptosis-related genes that may drive gout progression. METHODS: Gout-related datasets, including the human cohort (GSE160170) and murine model (GSE190138), were retrieved from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were screened using thresholds of |log(2) fold change (FC)| >/= 1 and adjusted P-value < 0.05. PANoptosis-related biomarkers were identified through the combined use of MCODE and cytoHubba algorithms in Cytoscape. Least Absolute Shrinkage and Selection Operator (LASSO) regression was applied to select hub genes. Subsequently, we performed single-sample gene set enrichment analysis (ssGSEA) for the hub genes, analyzed the infiltration levels of immune cells, constructed a miRNA-mRNA-transcription factor (TF) regulatory network, and identified potential therapeutic drugs via the DSigDB database and the Coremine Medical database. Finally, the expression of the diagnostic gene was validated by real-time quantitative reverse transcription polymerase chain reaction (RT-qPCR). RESULTS: The PANoptosis-associated gene SOCS3 was identified via integrative bioinformatics screening. Enrichment analysis and immune infiltration assessment revealed its involvement in gout pathogenesis through pathways linked to inflammation and cell death, with significant correlations observed with specific immune cell subsets. Clinical validation via RT-qPCR confirmed a strong consistency between SOCS3 expression levels in gout patients and computational predictions. CONCLUSION: We identified the hub gene SOCS3 in gout and elucidated its mechanistic roles by integrated bioinformatics analysis, machine learning approach, and clinical validation, providing critical insights for advancing diagnostic biomarkers and therapeutic strategies in gout management.",
+  "abstract_zh": "背景：痛风是由单钠尿酸盐（MSU）晶体在关节及关节周围组织中沉积所诱发的炎症性疾病。PANoptosis是一种新近发现的炎症性细胞死亡形式，其在痛风发病机制中的作用尚未明确。本研究旨在识别可能驱动痛风进展的PANoptosis相关基因。方法：从基因表达综合（GEO）数据库中获取痛风相关数据集，包括人类队列（GSE160170）和小鼠模型（GSE190138）。使用阈值|log(2) 倍数变化（FC）| ≥ 1且校正后P值 < 0.05筛选差异表达基因（DEGs）。通过Cytoscape中MCODE和cytoHubba算法的联合应用识别PANoptosis相关生物标志物。应用最小绝对收缩和选择算子（LASSO）回归选择核心基因。随后，我们对核心基因进行单样本基因集富集分析（ssGSEA），分析免疫细胞浸润水平，构建miRNA-mRNA-转录因子（TF）调控网络，并通过DSigDB数据库和Coremine Medical数据库识别潜在治疗药物。最后，通过实时定量逆转录聚合酶链反应（RT-qPCR）验证诊断基因的表达。结果：通过整合生物信息学筛选，识别出PANoptosis相关基因SOCS3。富集分析和免疫浸润评估揭示其通过炎症和细胞死亡相关通路参与痛风发病机制，并与特定免疫细胞亚群显著相关。通过RT-qPCR的临床验证证实，痛风患者中SOCS3表达水平与计算预测高度一致。结论：我们通过整合生物信息学分析、机器学习方法和临床验证，识别了痛风中的核心基因SOCS3并阐明其机制作用，为推进痛风管理中的诊断生物标志物和治疗策略提供了关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40613560/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40613560/",
+  "paper_page_path": "papers/pubmed/40613560/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and limited proteolysis coupled mass spectrometry to explain how the D124A mutation in 14-3-3 ζ reduces phosphopeptide binding by reorganizing the binding pocket, repositioning N173, and increasing dynamic exposure of a peptide binding helix.
+- **Visible evidence base** Simulation observations described in text; lip-MS results described in text; no quantitative data, statistics, or methodological details provided
+- **Missing materials affecting confidence** Full text, all figures and tables, simulation parameters, force fields, convergence criteria, replicate numbers, MS peptide identification details, experimental replicates, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis supported by two complementary approaches, but the evidence as described is insufficient to establish the central claims. Key quantitative details, validation of simulation convergence, and experimental reproducibility are absent. The work addresses a specific and mechanistically interesting question, but the current presentation does not allow assessment of technical rigor.
+- **Who would be interested in the results, and why** Researchers studying 14-3-3 protein family function, phosphopeptide recognition mechanisms, and structure based drug design targeting protein protein interactions. The findings may also interest computational biophysicists focused on mutation effects on binding pocket dynamics.
+- **Major strengths** The study combines atomistic simulations with experimental proteomics to address a functionally important mutation. The identification of a specific helix region (158-186) whose exposure changes upon mutation provides a testable structural correlate. The focus on an invariant residue with clear functional relevance gives the work biological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations show that the D124A mutation leads to binding pocket reorganization including widening of the binding pocket at the major groove and repositioning of N173.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are provided. The abstract does not state the simulation length, number of replicas, force field, water model, temperature coupling, or equilibration protocol. Without these, the convergence and statistical reliability of the observed pocket widening and N173 repositioning cannot be evaluated.
+  - **Why it matters** Molecular dynamics results on conformational changes are highly sensitive to sampling adequacy. A single short trajectory or insufficient replicates could produce the described reorganization as an artifact rather than a robust feature of the mutant.
+  - **Resolution test** Provide simulation setup details, demonstrate convergence through RMSD or similar metrics, and show that the pocket widening and N173 repositioning are reproducible across independent replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Both gain and loss of electrostatic interactions in the form of salt bridges strongly indicate a rearrangement of the network of interactions within the binding pocket.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports qualitative changes in salt bridge interactions but provides no quantitative data such as occupancy percentages, distance distributions, or interaction free energies. The phrase "strongly indicate" is not supported by any numerical evidence visible in the abstract.
+  - **Why it matters** Salt bridge changes are common in simulations and may be transient. Without quantitative analysis, the claim of a rearranged interaction network is speculative and cannot be distinguished from normal thermal fluctuations.
+  - **Resolution test** Present salt bridge occupancy over time, distance distributions, and a comparison between WT and mutant systems with statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Limited proteolysis coupled mass spectrometry of the apo and holo forms of WT and mutant protein shows a peptide binding helix otherwise buried in the WT protein was particularly accessible to trypsin in the apo form of the mutant protein and the region was mapped to 158-186 amino acid residues.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The lip-MS result is described without any experimental detail. The abstract does not state the number of replicates, the proteolysis conditions, the criteria for identifying differential accessibility, or the statistical significance of the observed difference. The mapping to residues 158-186 is presented as a single observation without supporting spectra or quantification.
+  - **Why it matters** Limited proteolysis experiments are prone to variability, and differential accessibility can arise from experimental artifacts. Without replicates and statistical analysis, the claim that the helix is "particularly accessible" in the mutant apo form is not established.
+  - **Resolution test** Provide replicate numbers, statistical comparison of peptide abundance between WT and mutant, and representative MS spectra or extracted ion chromatograms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses "lip-MS" without defining the acronym at first use.
+  - **Required correction** Spell out "limited proteolysis coupled mass spectrometry" before using the abbreviation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence "the region was mapped to 158-186 amino acid residues of 14-3-3 ζ )" contains a stray closing parenthesis.
+  - **Required correction** Remove the extra parenthesis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state whether the D124A mutation has been studied in other 14-3-3 isoforms, which would help contextualize the generality of the proposed mechanism.
+  - **Required correction** Add a sentence noting whether the invariant aspartate is conserved across isoforms and whether similar effects have been observed elsewhere.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate; the question of how a charged residue maintains binding pocket geometry is mechanistically interesting but not conceptually novel. Scientific importance is limited to a specific protein system and may not generalize broadly. Interdisciplinary readership is possible given the combination of simulation and proteomics, but the abstract does not frame the work for a broad audience. Technical soundness cannot be assessed from the abstract alone due to missing methodological and statistical details. Readability for nonspecialists is acceptable but would benefit from clearer definitions and removal of typographical errors.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail required to support the central claims. A revised version with full methods, statistical analyses, and validation of simulation convergence could change this assessment.
+
+## Risk / unsupported claims
+- The claim that D124A mutation "dramatically reduced phosphopeptide binding" is referenced as experimental observation but no data are provided in the abstract.
+- The claim that the D124A mutation "induced opening of the binding pocket" is stated without quantitative structural metrics.
+- The claim that the identified helix region 158-186 is "otherwise buried in the WT protein" is not supported by any structural comparison data in the abstract.
+- The mechanistic conclusion that D124 "enforces the structural integrity of amphipathic pocket" is an interpretation not directly tested by the presented evidence.

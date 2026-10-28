@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41171477",
+  "title": "The ferroptosis-related gene MAFG screened by machine learning is associated with the diagnosis and prognosis of sepsis.",
+  "authors": "Du, Lin; Lv, Shanshan; He, Daosheng; Chen, Xiangren; Liu, Leping; Song, Xiaohong; Zhang, Junhua; Qiao, Zhenrong; Luo, Yanwei",
+  "journal": "Clinical and experimental medicine",
+  "published_date": "2025-10-31",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习筛选脓毒症铁死亡相关基因MAFG并预测其靶标TXN，虽涉及转录因子MAFG与DNA靶标预测，但核心是诊断预后标志物，缺乏蛋白-DNA互作建模与机制研究。",
+  "abstract": "Ferroptosis is a novel form of cell death induced by ferrous ions and lipid peroxidation. However, the mechanisms of ferroptosis-related genes (FRGs) in sepsis have not been studied thoroughly. We performed differential analysis using GSE65682, and the differentially expressed genes (DEGs) were intersected with FRGs to obtain the differentially expressed FRGs. We constructed a random forest model to explore characteristic FRGs for sepsis diagnosis using the training set and verified its predictive efficacy using the testing set. There are 43 differentially expressed FRGs and the top five FRGs in the model are MAFG, QSOX1, KLF2, TXN, and PEBP1. Meanwhile, three genes remained after the univariate Cox analysis, survival analysis and nomogram, but only MAFG was validated to be associated with sepsis prognosis. MAFG was selected as the most diagnostically and prognostically significant FRG based on the following evidence: (1) consistently significant overexpression across multiple datasets, (2) the highest MeanDecreaseGini score in the random forest model, (3) the largest hazard ratio in univariate Cox regression analysis, (4) a strong association with patient survival demonstrated by the nomogram, and (5) an AUC of 0.64 (p < 0.05) in GSE185263 in the ROC analysis for sepsis prognosis. Subsequently, TXN was predicted as a ferroptosis-related potential target for the transcription factor MAFG, and their elevation in sepsis was confirmed by RT-qPCR. Ultimately, we discovered that MAFG was mainly localized in monocytes by single-cell RNA-sequencing analysis, which was significantly upregulated in sepsis and non-survivors of sepsis. In this study, we identified MAFG as a potential candidate FRG related to the diagnosis and prognosis of sepsis, although further validation is required, which broadens novel insights into the therapeutic targets of sepsis and the role of ferroptosis in sepsis.",
+  "abstract_zh": "铁死亡（ferroptosis）是一种由亚铁离子和脂质过氧化诱导的新型细胞死亡形式。然而，铁死亡相关基因（FRGs）在脓毒症中的机制尚未得到充分研究。我们使用GSE65682进行了差异分析，并将差异表达基因（DEGs）与FRGs取交集，以获得差异表达的FRGs。我们构建了随机森林模型，利用训练集探索用于脓毒症诊断的特征性FRGs，并使用测试集验证其预测效能。共发现43个差异表达的FRGs，模型中排名前五的FRGs为MAFG、QSOX1、KLF2、TXN和PEBP1。同时，在单变量Cox分析、生存分析和列线图分析后保留了三个基因，但仅MAFG被验证与脓毒症预后相关。基于以下证据，MAFG被选为最具诊断和预后意义的FRG：（1）在多个数据集中持续显著过表达，（2）在随机森林模型中具有最高的MeanDecreaseGini得分，（3）在单变量Cox回归分析中具有最大的风险比，（4）列线图显示其与患者生存密切相关，以及（5）在GSE185263的ROC分析中，用于脓毒症预后的AUC为0.64（p < 0.05）。随后，TXN被预测为转录因子MAFG的铁死亡相关潜在靶点，并通过RT-qPCR证实了它们在脓毒症中的升高。最终，我们通过单细胞RNA测序分析发现，MAFG主要定位于单核细胞，并在脓毒症及脓毒症非存活者中显著上调。在本研究中，我们确定MAFG为与脓毒症诊断和预后相关的潜在候选FRG，尽管仍需进一步验证，这拓宽了对脓毒症治疗靶点及铁死亡在脓毒症中作用的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41171477/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41171477/",
+  "paper_page_path": "papers/pubmed/41171477/index.html"
+}

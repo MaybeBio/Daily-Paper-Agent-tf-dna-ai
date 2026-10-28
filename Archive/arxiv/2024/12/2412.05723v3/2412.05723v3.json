@@ -1,0 +1,40 @@
+{
+  "source": "arxiv",
+  "source_id": "2412.05723v3",
+  "title": "Training-Free Bayesianization for Low-Rank Adapters of Large Language Models",
+  "doi": "",
+  "abstract": "Estimating the uncertainty of responses from Large Language Models (LLMs) remains a critical challenge. While recent Bayesian methods have demonstrated effectiveness in quantifying uncertainty through low-rank weight updates, they typically require complex fine-tuning or post-training procedures. In this paper, we propose Training-Free Bayesianization (TFB), a simple yet theoretically grounded framework that efficiently transforms trained low-rank adapters into Bayesian ones without additional training. TFB systematically searches for the maximally acceptable level of variance in the weight posterior, constrained within a family of low-rank isotropic Gaussian distributions. Our theoretical analysis shows that under mild conditions, this search process is equivalent to KL-regularized variational optimization, a generalized form of variational inference. Through comprehensive experiments, we show that TFB achieves superior uncertainty estimation and generalization compared to existing methods while eliminating the need for complex Bayesianization training procedures. Code will be available at https://github.com/Wang-ML-Lab/bayesian-peft.",
+  "authors": [
+    "Haizhou Shi",
+    "Yibin Wang",
+    "Ligong Han",
+    "Huan Zhang",
+    "Hao Wang"
+  ],
+  "published_date": "2024-12-07T18:49:27Z",
+  "updated_date": "2025-09-26T17:37:00Z",
+  "journal": "",
+  "category": "stat.ML, cs.AI, cs.CL, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2412.05723v3",
+  "pdf_url": "https://arxiv.org/pdf/2412.05723v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "3",
+  "keywords": [
+    "stat.ML",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2412.05723v3",
+    "raw_categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and reported results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose DRBpred, a sequence-based machine learning method using an optimized LightGBM classifier with a sliding window and feature selection (RFE with SHAP) to predict DNA- and RNA-binding residues. They report substantial improvements over existing methods on benchmark datasets.
+- **Visible evidence base** Abstract, Introduction, Related Work, Proposed Method (Dataset, Feature Extraction, Machine Learning Algorithms, Feature Selection, Performance Evaluation Metrics), Results, Case Study, Conclusions, Data Availability
+- **Missing materials affecting confidence** Full dataset details, hyperparameter tuning specifics, statistical significance tests, detailed comparison methodology, and code/webserver validation were not independently verifiable from the manuscript text alone.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of nucleic acid-binding residues from protein sequence alone. The methodological approach is reasonable, combining established feature types with a modern gradient boosting framework. However, several technical aspects require clarification and additional validation before the reported performance improvements can be fully accepted. The comparison with existing methods relies on previously published results, and the manuscript lacks critical details on experimental setup, statistical rigor, and potential biases.
+- **Who would be interested in the results, and why** Researchers in bioinformatics and computational biology, particularly those working on protein function prediction, protein-nucleic acid interactions, and machine learning applications in genomics. The method could be useful for annotating proteins without experimental structures, aiding in drug discovery and understanding disease mechanisms.
+- **Major strengths** The problem is well-motivated and practically important. The use of diverse feature types (sequence, evolutionary, structural, physicochemical) is comprehensive. The application of LightGBM with hyperparameter optimization is a modern and appropriate choice. The inclusion of SHAP for feature interpretation and LIME for case studies demonstrates attention to model explainability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim significant improvements over state-of-the-art methods, e.g., "112.00%, 33.33%, and 6.49% for the DNA-binding test set compared to the state-of-the-art method."
+  - **Evidence pointer** Results section, Tables 4 and 5, Figures 14 and 15
+  - **Concern** The comparison with existing methods is based on results "gathered from the DRNApred paper" (as stated in the Results section). This introduces potential inconsistencies in evaluation protocols, such as different data splits, preprocessing steps, or threshold selection. The manuscript does not provide a direct, controlled comparison where all methods are evaluated under identical conditions on the same test set.
+  - **Why it matters** Without a fair and controlled comparison, the reported improvements may be artifacts of different evaluation setups rather than genuine methodological advances. This undermines the central claim of the paper.
+  - **Resolution test** The authors should re-run existing methods (where possible) on their exact test sets using the same evaluation pipeline, or provide a detailed analysis showing that the comparison is valid despite differing protocols. If existing methods are not available, this limitation should be explicitly acknowledged and discussed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the dataset is highly imbalanced" and select AUC, Recall, and MCC as evaluation metrics.
+  - **Evidence pointer** Performance Evaluation Metrics section, Dataset section, Table 1
+  - **Concern** The manuscript does not report the class imbalance ratio (e.g., percentage of binding vs. non-binding residues) for the training and test sets. Furthermore, while AUC, Recall, and MCC are appropriate for imbalanced data, the authors do not report confidence intervals or statistical significance tests for their performance differences. The reported improvements could be within random variation.
+  - **Why it matters** Without knowledge of the imbalance ratio and statistical significance, it is difficult to assess the robustness and reliability of the reported performance. This is critical for a method intended for practical use.
+  - **Resolution test** Provide the class distribution for all datasets. Report confidence intervals (e.g., via bootstrapping) or perform statistical tests (e.g., McNemar's test) to demonstrate that performance differences are significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "The DRBpred webserver is available at https://bmll.cs.uno.edu" and code is available at a GitHub repository.
+  - **Evidence pointer** Data Availability section
+  - **Concern** The manuscript does not provide details on the implementation, such as software versions, specific libraries, or the exact feature extraction pipelines. While a webserver and code repository are mentioned, their functionality and completeness cannot be verified from the manuscript.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without sufficient implementation details, other researchers may not be able to replicate the results or apply the method to their own data.
+  - **Resolution test** Provide a detailed description of the implementation, including all software dependencies and versions. Ensure the code repository is publicly accessible and well-documented, with instructions for reproducing the reported results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their method "surpasses the performance of currently established state-of-the-art techniques" (Results section).
+  - **Evidence pointer** Results section, Figures 16 and 17
+  - **Concern** The ROC-AUC curves in Figures 16 and 17 are "constructed using data obtained from the findings presented in the paper [15]" for existing methods. This is not a direct comparison and may not accurately represent the performance of those methods on the same test data. The manuscript does not discuss potential reasons for performance differences, such as feature types or model complexity.
+  - **Why it matters** The scientific contribution of the paper hinges on demonstrating a clear advantage over existing methods. A comparison based on indirect data weakens this claim.
+  - **Resolution test** Perform a direct comparison on the same test sets, or clearly state the limitations of the indirect comparison and discuss potential factors that could influence the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Feature Extraction section
+  - **Evidence pointer** Section "Feature Extraction"
+  - **Issue** The description of some features is vague. For example, "We extended the PSSM scores to calculate monogram (MG) and bi-gram (BG) features" does not specify the exact formulas or parameters used.
+  - **Required correction** Provide precise definitions or references for all feature types, including MG, BG, and the "close neighbor correlation coefficient."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Section "Performance of Machine learning methods on the training dataset"
+  - **Issue** The text states "Figures 12 and 13 show that the optimal window size is 11 for the DNA and RNA models." This sentence is ambiguous; it should clarify that the optimal window size is 11 for both models, or specify different values if they differ.
+  - **Required correction** Rewrite the sentence to clearly state the optimal window size for each model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Case Study section
+  - **Evidence pointer** Section "Case Study"
+  - **Issue** The case study presents LIME explanations for two individual predictions. While illustrative, this is not a systematic evaluation of model interpretability. The authors should clarify the purpose of this analysis and how it supports the main claims.
+  - **Required correction** Clarify the role of the case study in the overall paper and consider adding a more systematic analysis of feature importance across the test set.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "DRBpred shows an improvement of 112.00%, 33.33%, and 6.49% for the DNA-binding test set compared to the state-of-the-art method." It is unclear which specific method is the "state-of-the-art method" and which metrics these percentages refer to.
+  - **Required correction** Specify the baseline method and the metrics (e.g., Sensitivity, MCC, AUC) in the abstract for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (uncontrolled comparison), R1-M2 (lack of statistical rigor), R1-M3 (insufficient reproducibility details).
+- **Assessment against Nature-style criteria** Originality: The combination of features and LightGBM is not entirely novel, but the specific application and feature set may offer incremental value. Scientific importance: The problem is important, but the demonstrated advantage over existing methods is not fully convincing. Interdisciplinary readership: The topic is of interest to computational and molecular biologists, but the presentation is technical. Technical soundness: The methodology is generally sound, but the evaluation lacks rigor. Readability for nonspecialists: The manuscript is written for a specialized audience and may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of significant improvement require a more rigorous and controlled evaluation. The manuscript has potential but needs substantial revisions to address the major concerns.
+
+## Risk / unsupported claims
+- The claim of "112.00%, 33.33%, and 6.49% improvement" over state-of-the-art is unsupported due to the uncontrolled comparison methodology.
+- The claim that the method "surpasses the performance of currently established state-of-the-art techniques" is not fully supported by the evidence presented.
+- The statement that "the most important feature in both datasets is the Accessible Surface Area" is based on SHAP analysis but lacks quantitative validation or comparison with alternative feature importance methods.
+- The generalizability of the method to diverse protein families is not demonstrated, as the dataset composition and potential biases are not discussed in detail.

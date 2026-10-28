@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "39535029",
+    "doi": "10.1093/nar/gkae1035",
+    "title": "Enhancing disease risk gene discovery by integrating transcription factor-linked trans-variants into transcriptome-wide association analyses."
+  },
+  "content": {
+    "abstract": "Transcriptome-wide association studies (TWAS) have been successful in identifying disease susceptibility genes by integrating cis-variants predicted gene expression with genome-wide association studies (GWAS) data. However, trans-variants for predicting gene expression remain largely unexplored. Here, we introduce transTF-TWAS, which incorporates transcription factor (TF)-linked trans-variants to enhance model building for TF downstream target genes. Using data from the Genotype-Tissue Expression project, we predict gene expression and alternative splicing and applied these prediction models to large GWAS datasets for breast, prostate, lung cancers and other diseases. We demonstrate that transTF-TWAS outperforms other existing TWAS approaches in both constructing gene expression prediction models and identifying disease-associated genes, as shown by simulations and real data analysis. Our transTF-TWAS approach significantly contributes to the discovery of disease risk genes. Findings from this study shed new light on several genetically driven key TF regulators and their associated TF-gene regulatory networks underlying disease susceptibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Genome-Wide Association Study/methods",
+      "*Transcription Factors/genetics/metabolism",
+      "*Genetic Predisposition to Disease",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "*Gene Expression Profiling",
+      "Polymorphism, Single Nucleotide",
+      "Male",
+      "Alternative Splicing",
+      "Female",
+      "Prostatic Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Jingni",
+        "Perera, Deshan",
+        "Wen, Wanqing",
+        "Ping, Jie",
+        "Li, Qing",
+        "Lyu, Linshuoshuo",
+        "Chen, Zhishan",
+        "Shu, Xiang",
+        "Long, Jirong",
+        "Cai, Qiuyin",
+        "Shu, Xiao-Ou",
+        "Yin, Zhijun",
+        "Zheng, Wei",
+        "Long, Quan",
+        "Guo, Xingyi"
+      ],
+      "short_names": [
+        "He J",
+        "Perera D",
+        "Wen W",
+        "Ping J",
+        "Li Q",
+        "Lyu L",
+        "Chen Z",
+        "Shu X",
+        "Long J",
+        "Cai Q",
+        "Shu XO",
+        "Yin Z",
+        "Zheng W",
+        "Long Q",
+        "Guo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3004-5168",
+        "ORCID: 0000-0003-3795-1873",
+        "ORCID: 0000-0001-5269-1294"
+      ],
+      "affiliations": [
+        "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, The Alfred Centre, Level 6, 99 Commercial Road, Melbourne, VIC 3004, Australia.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, 633 3rd Ave, 3rd Floor, New York, NY, 10017, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Department of Biomedical Informatics, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada.",
+        "Department of Medical Genetics, University of Calgary, 3330 Hospital Drive NW, Calgary, AB T2N 4N2, Canada.",
+        "Department of Mathematics & Statistics, University of Calgary, Mathematical Sciences 476, 2500 University Drive NW, Calgary, AB, T2N 1N4, Canada.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Heritage Medical Research Building, 3330 Hospital Dr. NW, Calgary, AB T2N 4N1, Canada.",
+        "Hotchkiss Brain Institute, University of Calgary, Health Research Innovation Centre, 3330 Hospital Drive NW, Calgary, Alberta, T2N 4N1, Canada.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+        "Department of Biomedical Informatics, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Jingni",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada.",
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, The Alfred Centre, Level 6, 99 Commercial Road, Melbourne, VIC 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Perera, Deshan",
+        "short_name": "Perera D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Wen, Wanqing",
+        "short_name": "Wen W",
+        "identifiers": [
+          "0000-0002-3004-5168"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Ping, Jie",
+        "short_name": "Ping J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Lyu, Linshuoshuo",
+        "short_name": "Lyu L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhishan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Shu, Xiang",
+        "short_name": "Shu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, 633 3rd Ave, 3rd Floor, New York, NY, 10017, USA."
+        ]
+      },
+      {
+        "full_name": "Long, Jirong",
+        "short_name": "Long J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Cai, Qiuyin",
+        "short_name": "Cai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Shu, Xiao-Ou",
+        "short_name": "Shu XO",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Yin, Zhijun",
+        "short_name": "Yin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wei",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      },
+      {
+        "full_name": "Long, Quan",
+        "short_name": "Long Q",
+        "identifiers": [
+          "0000-0003-3795-1873"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, HMRB 231, 3330 Hospital Drive NW, Calgary, AB T2N 4N1, Canada.",
+          "Department of Medical Genetics, University of Calgary, 3330 Hospital Drive NW, Calgary, AB T2N 4N2, Canada.",
+          "Department of Mathematics & Statistics, University of Calgary, Mathematical Sciences 476, 2500 University Drive NW, Calgary, AB, T2N 1N4, Canada.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Heritage Medical Research Building, 3330 Hospital Dr. NW, Calgary, AB T2N 4N1, Canada.",
+          "Hotchkiss Brain Institute, University of Calgary, Health Research Innovation Centre, 3330 Hospital Drive NW, Calgary, Alberta, T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Guo, Xingyi",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0001-5269-1294"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA.",
+          "Department of Biomedical Informatics, Vanderbilt University School of Medicine, 2525 West End Ave, Nashville, TN 37203, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:53",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "42218145",
+      "42090444",
+      "41417631",
+      "41353205"
+    ],
+    "refs": [
+      "38759092",
+      "38670944",
+      "38571435",
+      "38036790",
+      "37903058",
+      "37632791",
+      "36402776",
+      "35672318",
+      "34608324",
+      "34518541",
+      "34475573",
+      "33798195",
+      "33684137",
+      "33536621",
+      "33505025",
+      "33471974",
+      "33398198",
+      "33230299",
+      "33200776",
+      "33058866",
+      "32961112",
+      "32913098",
+      "32912253",
+      "32728217",
+      "32687525",
+      "32424353",
+      "32424349",
+      "32424124",
+      "32115800",
+      "32039725",
+      "32015527",
+      "31911677",
+      "31696517",
+      "31515496",
+      "31444360",
+      "31402092",
+      "31402091",
+      "31337649",
+      "31101764",
+      "31051098",
+      "31043753",
+      "31006511",
+      "30926970",
+      "30926968",
+      "30613398",
+      "30462313",
+      "30293088",
+      "30287866",
+      "30096302",
+      "30054336",
+      "29915430",
+      "29892016",
+      "29739930",
+      "29727689",
+      "29662166",
+      "29625053",
+      "29083409",
+      "28604730",
+      "28025329",
+      "27471964",
+      "27459855",
+      "27371723",
+      "27087447",
+      "27019110",
+      "26928228",
+      "26854917",
+      "26618344",
+      "26354892",
+      "26258848",
+      "26014596",
+      "24702953",
+      "24670764",
+      "23715323",
+      "23374354",
+      "23001124",
+      "22532805",
+      "17701901",
+      "14597658"
+    ],
+    "similar": [
+      "39535029",
+      "37873299",
+      "36402776",
+      "41540004",
+      "38824563",
+      "41099493",
+      "41810371",
+      "38723630",
+      "34286847",
+      "38733992",
+      "42201988",
+      "30864331",
+      "35766062",
+      "40902598",
+      "38001381",
+      "38845201",
+      "39558015",
+      "34520569",
+      "40775447",
+      "33615361",
+      "41188790",
+      "32574393",
+      "30054336",
+      "42090444",
+      "39789109",
+      "31919517",
+      "39999848",
+      "40111921",
+      "40145662",
+      "41508609",
+      "37099718",
+      "30993394",
+      "35175464",
+      "38400758",
+      "41556068",
+      "33482886",
+      "37632791",
+      "38515142",
+      "33630843",
+      "33058866",
+      "38320554",
+      "37164006",
+      "39621803",
+      "34779012",
+      "40017037",
+      "33831007",
+      "41338297",
+      "32867763",
+      "39745514",
+      "42066773",
+      "38890564",
+      "31429796",
+      "39137781",
+      "33635859",
+      "29218884",
+      "32961112",
+      "40694035",
+      "31455417",
+      "28238358",
+      "31978332",
+      "39526380",
+      "41065575",
+      "35672318",
+      "38240717",
+      "29378629",
+      "32818884",
+      "29728367",
+      "35100255",
+      "31065785",
+      "37245199",
+      "36755318",
+      "40603866",
+      "41239602",
+      "39341862",
+      "33798195",
+      "34669946",
+      "35052378",
+      "39151574",
+      "39863741",
+      "33523105",
+      "41932314",
+      "39550224",
+      "31696517",
+      "40036802",
+      "30287866",
+      "37197658",
+      "40409268",
+      "39558360",
+      "34142171",
+      "40516523",
+      "32103259",
+      "38723632",
+      "41666075",
+      "31402092",
+      "35334221",
+      "33691763",
+      "35043938",
+      "32397189",
+      "31101764",
+      "34626721"
+    ],
+    "review": [
+      "39535029",
+      "34286847",
+      "38515142",
+      "37164006",
+      "34779012",
+      "31429796",
+      "40694035"
+    ],
+    "pmc": [
+      "11724290"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39535029/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae1035",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

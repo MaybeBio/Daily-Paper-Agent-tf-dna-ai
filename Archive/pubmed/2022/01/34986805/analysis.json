@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34986805",
+  "title": "Periodic synchronization of isolated network elements facilitates simulating and inferring gene regulatory networks including stochastic molecular kinetics.",
+  "authors": "Hettich, Johannes; Gebhardt, J Christof M",
+  "journal": "BMC bioinformatics",
+  "published_date": "2022-01-07",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出模块化同步方法模拟和推断基因调控网络，虽涉及转录因子-DNA随机互作，但核心是网络级模拟与推断，缺乏TF-DNA三维结构或结合位点建模，AI/物理模拟方法深度有限。",
+  "abstract": "BACKGROUND: The temporal progression of many fundamental processes in cells and organisms, including homeostasis, differentiation and development, are governed by gene regulatory networks (GRNs). GRNs balance fluctuations in the output of their genes, which trace back to the stochasticity of molecular interactions. Although highly desirable to understand life processes, predicting the temporal progression of gene products within a GRN is challenging when considering stochastic events such as transcription factor-DNA interactions or protein production and degradation. RESULTS: We report a method to simulate and infer GRNs including genes and biochemical reactions at molecular detail. In our approach, we consider each network element to be isolated from other elements during small time intervals, after which we synchronize molecule numbers across all network elements. Thereby, the temporal behaviour of network elements is decoupled and can be treated by local stochastic or deterministic solutions. We demonstrate the working principle of this modular approach with a repressive gene cascade comprising four genes. By considering a deterministic time evolution within each time interval for all elements, our method approaches the solution of the system of deterministic differential equations associated with the GRN. By allowing genes to stochastically switch between on and off states or by considering stochastic production of gene outputs, we are able to include increasing levels of stochastic detail and approximate the solution of a Gillespie simulation. Thereby, CaiNet is able to reproduce noise-induced bi-stability and oscillations in dynamically complex GRNs. Notably, our modular approach further allows for a simple consideration of deterministic delays. We further infer relevant regulatory connections and steady-state parameters of a GRN of up to ten genes from steady-state measurements by identifying each gene of the network with a single perceptron in an artificial neuronal network and using a gradient decent method originally designed to train recurrent neural networks. To facilitate setting up GRNs and using our simulation and inference method, we provide a fast computer-aided interactive network simulation environment, CaiNet. CONCLUSION: We developed a method to simulate GRNs at molecular detail and to infer the topology and steady-state parameters of GRNs. Our method and associated user-friendly framework CaiNet should prove helpful to analyze or predict the temporal progression of reaction networks or GRNs in cellular and organismic biology. CaiNet is freely available at https://gitlab.com/GebhardtLab/CaiNet .",
+  "abstract_zh": "背景：细胞和生物体中许多基本过程的时间进程，包括稳态、分化和发育，受基因调控网络（GRNs）调控。GRNs平衡其基因输出的波动，这些波动可追溯至分子相互作用的随机性。尽管理解生命过程极为可取，但在考虑诸如转录因子-DNA相互作用或蛋白质产生与降解等随机事件时，预测GRN内基因产物的时间进程仍具挑战性。结果：我们报告了一种方法，可在分子细节上模拟和推断包含基因及生化反应的GRNs。在我们的方法中，我们考虑每个网络元素在小时间间隔内与其他元素隔离，之后我们跨所有网络元素同步分子数量。由此，网络元素的时间行为被解耦，并可通过局部随机或确定性解来处理。我们通过一个包含四个基因的抑制性基因级联展示了这种模块化方法的工作原理。通过在每个时间间隔内对所有元素考虑确定性时间演化，我们的方法逼近与GRN相关的确定性微分方程系统的解。通过允许基因在开启和关闭状态之间随机切换，或考虑基因输出的随机产生，我们能够纳入递增的随机细节水平，并近似Gillespie模拟的解。因此，CaiNet能够再现动态复杂GRN中的噪声诱导双稳态和振荡。值得注意的是，我们的模块化方法还允许简单考虑确定性延迟。我们进一步通过将网络中的每个基因识别为人工神经元网络中的单个感知器，并使用最初设计用于训练循环神经网络的梯度下降方法，从稳态测量中推断多达十个基因的GRN的相关调控连接和稳态参数。为便于建立GRNs并使用我们的模拟和推断方法，我们提供了一个快速的计算机辅助交互式网络模拟环境CaiNet。结论：我们开发了一种方法，可在分子细节上模拟GRNs，并推断GRNs的拓扑结构和稳态参数。我们的方法及相关的用户友好框架CaiNet应有助于分析或预测细胞和生物体生物学中反应网络或GRNs的时间进程。CaiNet可在https://gitlab.com/GebhardtLab/CaiNet 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34986805/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34986805/",
+  "paper_page_path": "papers/pubmed/34986805/index.html"
+}

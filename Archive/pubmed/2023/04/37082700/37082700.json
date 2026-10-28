@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "37082700",
+    "doi": "10.1136/wjps-2022-000547",
+    "title": "Identifying the potential transcriptional regulatory network in Hirschsprung disease by integrated analysis of microarray datasets."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Hirschsprung disease (HSCR) is one of the common neurocristopathies in children, which is associated with at least 20 genes and involves a complex regulatory mechanism. Transcriptional regulatory network (TRN) has been commonly reported in regulating gene expression and enteric nervous system development but remains to be investigated in HSCR. This study aimed to identify the potential TRN implicated in the pathogenesis and diagnosis of HSCR. METHODS: Based on three microarray datasets from the Gene Expression Omnibus database, the multiMiR package was used to investigate the microRNA (miRNA)-target interactions, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses. Then, we collected transcription factors (TFs) from the TransmiR database to construct the TF-miRNA-mRNA regulatory network and used cytoHubba to identify the key modules. Finally, the receiver operating characteristic (ROC) curve was determined and the integrated diagnostic models were established based on machine learning by the support vector machine method. RESULTS: We identified 58 hub differentially expressed microRNAs (DEMis) and 16 differentially expressed mRNAs (DEMs). The robust target genes of DEMis and DEMs mainly enriched in several GO/KEGG terms, including neurogenesis, cell-substrate adhesion, PI3K-Akt, Ras/mitogen-activated protein kinase and Rho/ROCK signaling. Moreover, 2 TFs (TP53 and TWIST1), 4 miRNAs (has-miR-107, has-miR-10b-5p, has-miR-659-3p, and has-miR-371a-5p), and 4 mRNAs (PIM3, CHUK, F2RL1, and CA1) were identified to construct the TF-miRNA-mRNA regulatory network. ROC analysis revealed a strong diagnostic value of the key TRN regulons (all area under the curve values were more than 0.8). CONCLUSION: This study suggests a potential role of the TF-miRNA-mRNA network that can help enrich the connotation of HSCR pathogenesis and diagnosis and provide new horizons for treatment.",
+    "keywords": [
+      "congenital abnormalities",
+      "neonatal screening",
+      "pediatrics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Wenyao",
+        "Yu, Hui",
+        "Chen, Dian",
+        "Pan, Weikang",
+        "Yang, Weili",
+        "Miao, Jing",
+        "Jia, Wanying",
+        "Zheng, Baijun",
+        "Liu, Yong",
+        "Chen, Xinlin",
+        "Gao, Ya",
+        "Tian, Donghao"
+      ],
+      "short_names": [
+        "Xu W",
+        "Yu H",
+        "Chen D",
+        "Pan W",
+        "Yang W",
+        "Miao J",
+        "Jia W",
+        "Zheng B",
+        "Liu Y",
+        "Chen X",
+        "Gao Y",
+        "Tian D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4617-7640",
+        "ORCID: 0000-0002-1886-6123"
+      ],
+      "affiliations": [
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pulmonary and Critical Care Medicine, Peking University Third Hospital, Peking University, Beijing, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China.",
+        "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+        "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Wenyao",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+          "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hui",
+        "short_name": "Yu H",
+        "identifiers": [
+          "0000-0002-4617-7640"
+        ],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+          "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dian",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Peking University Third Hospital, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Weikang",
+        "short_name": "Pan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Weili",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Jing",
+        "short_name": "Miao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Wanying",
+        "short_name": "Jia W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Baijun",
+        "short_name": "Zheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinlin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ya",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Donghao",
+        "short_name": "Tian D",
+        "identifiers": [
+          "0000-0002-1886-6123"
+        ],
+        "affiliations": [
+          "Department of Pediatric Surgery, the Second Affiliated Hospital, Xi'an Jiaotong University, Xi'an, China.",
+          "Institute of Neurobiology, Environment and Genes Related to Diseases Key Laboratory of Chinese Ministry of Education, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of pediatric surgery"
+    ],
+    "journal_abbrev": [
+      "World J Pediatr Surg"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/21 06:41",
+    "fetched_at": "2026-09-28 23:17:00"
+  },
+  "links": {
+    "cites": [
+      "38577013",
+      "38397401"
+    ],
+    "refs": [
+      "36038837",
+      "35091706",
+      "34880446",
+      "34852916",
+      "34844630",
+      "34762231",
+      "34702353",
+      "34575824",
+      "34557778",
+      "33971419",
+      "33808757",
+      "33711435",
+      "33421511",
+      "33307856",
+      "33237311",
+      "33151298",
+      "32576196",
+      "32515097",
+      "32323054",
+      "32297806",
+      "32158358",
+      "31994402",
+      "31778666",
+      "31069374",
+      "30970187",
+      "30616633",
+      "30371815",
+      "30108335",
+      "29483204",
+      "29300049",
+      "29170536",
+      "29031500",
+      "28924375",
+      "28359679",
+      "28197555",
+      "28193689",
+      "28087321",
+      "28034674",
+      "28000847",
+      "27869805",
+      "27725903",
+      "27693352",
+      "27682968",
+      "27548576",
+      "27059883",
+      "26933947",
+      "26863197",
+      "26806097",
+      "26255195",
+      "26052356",
+      "25792468",
+      "25605792",
+      "25521941",
+      "25210621",
+      "25063298",
+      "24974861",
+      "24832597",
+      "23868067",
+      "22833419",
+      "22247279",
+      "20620323",
+      "20607797",
+      "19505587",
+      "19019295",
+      "15998805",
+      "3878126"
+    ],
+    "similar": [
+      "37082700",
+      "35397550",
+      "35313857",
+      "31737678",
+      "34754625",
+      "35757392",
+      "33015184",
+      "33569435",
+      "33104965",
+      "36457754",
+      "32508878",
+      "36841081",
+      "34234459",
+      "28965333",
+      "38374020",
+      "31536386",
+      "22260379",
+      "34336929",
+      "31277149",
+      "35909518",
+      "34840985",
+      "35132271",
+      "32855723",
+      "31934299",
+      "30138363",
+      "32714978",
+      "34686186",
+      "28919164",
+      "28415685",
+      "36291136",
+      "36203804",
+      "33299863",
+      "32982206",
+      "34377019",
+      "35620387",
+      "35966326",
+      "34100730",
+      "30985693",
+      "32595699",
+      "35949853",
+      "32481304",
+      "34844599",
+      "31788082",
+      "33892654",
+      "33407587",
+      "34744455",
+      "34434654",
+      "36819574",
+      "34422793",
+      "35322101",
+      "36254052",
+      "32305357",
+      "26795575",
+      "32547322",
+      "32714975",
+      "36118873",
+      "36398070",
+      "29128636",
+      "35119030",
+      "33274225",
+      "35368701",
+      "35968900",
+      "36212136",
+      "35322335",
+      "33664765",
+      "34754623",
+      "34466069",
+      "31100472",
+      "32435051",
+      "31692035",
+      "29516510",
+      "37065602",
+      "36831107",
+      "33209394",
+      "32377460",
+      "33061972",
+      "35577542",
+      "36186471",
+      "31322209",
+      "36798788",
+      "31612481",
+      "32645133",
+      "35957689",
+      "35719390",
+      "30607582",
+      "29344146",
+      "36523600",
+      "31622249",
+      "33194441",
+      "29686831",
+      "31886250",
+      "39241324"
+    ],
+    "review": [
+      "37082700",
+      "32481304"
+    ],
+    "pmc": [
+      "10111925"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1136/wjps-2022-000547",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37082700/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37082700",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

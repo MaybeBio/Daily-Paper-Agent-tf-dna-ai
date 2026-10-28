@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "36047457",
+    "doi": "10.1111/jipb.13354",
+    "title": "A cost-effective tsCUT&Tag method for profiling transcription factor binding landscape."
+  },
+  "content": {
+    "abstract": "Knowledge of the transcription factor binding landscape (TFBL) is necessary to analyze gene regulatory networks for important agronomic traits. However, a low-cost and high-throughput in vivo chromatin profiling method is still lacking in plants. Here, we developed a transient and simplified cleavage under targets and tagmentation (tsCUT&Tag) that combines transient expression of transcription factor proteins in protoplasts with a simplified CUT&Tag without nucleus extraction. Our tsCUT&Tag method provided higher data quality and signal resolution with lower sequencing depth compared with traditional ChIP-seq. Furthermore, we developed a strategy combining tsCUT&Tag with machine learning, which has great potential for profiling the TFBL across plant development.",
+    "keywords": [
+      "CUT&Tag",
+      "ChIP-seq",
+      "binding sites",
+      "machine learning",
+      "transcription factor",
+      "transient expression"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Cost-Benefit Analysis",
+      "Protein Binding",
+      "*Chromatin",
+      "*Transcription Factors/metabolism",
+      "High-Throughput Nucleotide Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Leiming",
+        "Luo, Zi",
+        "Shi, Yanni",
+        "Jiang, Yizhe",
+        "Li, Ruonan",
+        "Miao, Xinxin",
+        "Yang, Fang",
+        "Li, Qing",
+        "Zhao, Han",
+        "Xue, Jiquan",
+        "Xu, Shutu",
+        "Zhang, Tifu",
+        "Li, Lin"
+      ],
+      "short_names": [
+        "Wu L",
+        "Luo Z",
+        "Shi Y",
+        "Jiang Y",
+        "Li R",
+        "Miao X",
+        "Yang F",
+        "Li Q",
+        "Zhao H",
+        "Xue J",
+        "Xu S",
+        "Zhang T",
+        "Li L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "The National Engineering Laboratory of Crop Resistance Breeding, School of Life Sciences, Anhui Agricultural University, Hefei, 230036, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, 712100, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, 712100, China.",
+        "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "Hubei Hongshan Laboratory, Wuhan, 430070, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Leiming",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+          "The National Engineering Laboratory of Crop Resistance Breeding, School of Life Sciences, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zi",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yanni",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yizhe",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruonan",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Xinxin",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fang",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Han",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Jiquan",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shutu",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tifu",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+          "Hubei Hongshan Laboratory, Wuhan, 430070, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of integrative plant biology"
+    ],
+    "journal_abbrev": [
+      "J Integr Plant Biol"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/02 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "42096114",
+      "41971346",
+      "41879153",
+      "41866906",
+      "41851888",
+      "41826777",
+      "41761339",
+      "41668066",
+      "41165253",
+      "40468596",
+      "40223143",
+      "40033282",
+      "39985171",
+      "39928526",
+      "39300560",
+      "38903438",
+      "38668992",
+      "38105608",
+      "38005777",
+      "37850650",
+      "37776021",
+      "37633966",
+      "37332723",
+      "37035059"
+    ],
+    "refs": [],
+    "similar": [
+      "36047457",
+      "32884577",
+      "34870837",
+      "38105608",
+      "34382199",
+      "37682472",
+      "39141237",
+      "28079019",
+      "36384731",
+      "31036827",
+      "33912205",
+      "25213249",
+      "24146601",
+      "23531767",
+      "37035059",
+      "34250209",
+      "25757769",
+      "38497648",
+      "24581441",
+      "18684996",
+      "37935964",
+      "29525962",
+      "25486472",
+      "23580539",
+      "23975789",
+      "20946807",
+      "39375575",
+      "35435920",
+      "22115494",
+      "29525963",
+      "28623590",
+      "33326109",
+      "22479205",
+      "21586587",
+      "28349419",
+      "34488759",
+      "30688406",
+      "19159457",
+      "28885181",
+      "34467227",
+      "33972210",
+      "28539971",
+      "36264486",
+      "22323522",
+      "24480351",
+      "28234893",
+      "25957350",
+      "36264496",
+      "25827896",
+      "34383745",
+      "35704898",
+      "34022041",
+      "35532268",
+      "22784574",
+      "32009660",
+      "22517426",
+      "34382190",
+      "29514105",
+      "23688556",
+      "22576095",
+      "30897079",
+      "29030827",
+      "27873277",
+      "23595148",
+      "25827087",
+      "28064247",
+      "21113027",
+      "27191592",
+      "35799371",
+      "30414155",
+      "26032817",
+      "25179504",
+      "28623578",
+      "32820402",
+      "33928555",
+      "19029915",
+      "27502941",
+      "23629434",
+      "29684008",
+      "28349420",
+      "28718849",
+      "25151167",
+      "23427986",
+      "29848263",
+      "23161675",
+      "26280331",
+      "27864767",
+      "23872976",
+      "31196130",
+      "24927817",
+      "23939288",
+      "33707229",
+      "20158869",
+      "35300717"
+    ],
+    "review": [
+      "36047457",
+      "38105608",
+      "37935964",
+      "25486472",
+      "28885181",
+      "26032817"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/jipb.13354",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36047457",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

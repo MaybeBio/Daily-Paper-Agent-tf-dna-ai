@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors present a computational pipeline integrating GWAS data, DNase I footprinting, cardiac enhancer annotations, and a gapped k-mer SVM model to prioritize CVD-associated non-coding SNPs predicted to alter GATA4-DNA binding. Four prioritized variants were validated via electrophoretic mobility shift assays and dual-luciferase reporter assays, with results supporting altered binding and transcriptional activity.
+- **Visible evidence base** Abstract, Introduction, Methods (data sources, model training, protein expression, EMSA, reporter assays), Results (prioritization, binding, reporter activity), Discussion, Author Contributions, Competing Interests, Acknowledgments
+- **Missing materials affecting confidence** Figures and supplementary files referenced but not provided; no raw data, replicate numbers, statistical details beyond p-values, or full model performance metrics; no information on EMSA quantification replicates or reporter assay normalization details beyond text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful integrative approach for prioritizing non-coding disease-associated variants that affect transcription factor binding. The combination of machine learning prediction with in vitro and cellular validation is commendable. However, the provided text lacks sufficient experimental detail and quantitative data to fully assess the robustness of the claims. Several key results are described qualitatively, and the absence of figures and supplementary data limits verification. The claim that the GKM SVM model outperforms PWM-based approaches is supported by only three tested variants, which is a limited basis for such a general conclusion.
+- **Who would be interested in the results, and why** Researchers in cardiovascular genetics, regulatory genomics, and transcription factor biology would find this work relevant. Those developing or applying machine learning methods for variant prioritization would also be interested in the comparative analysis of SVM versus PWM models. The work may also appeal to investigators studying GATA4 function in cardiac development and disease.
+- **Major strengths** The study addresses an important problem, namely the functional interpretation of non-coding disease-associated variants. The integration of multiple public datasets (GWAS, DNase I footprints, enhancer annotations, eQTLs) with a machine learning model is a sensible and potentially powerful strategy. The inclusion of both in vitro binding assays and cellular transcriptional assays provides complementary evidence. The comparison between SVM and PWM models is a useful contribution, even if preliminary.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the LS-GKM SVM model effectively predicts changes in DNA-binding affinity for full-length GATA4 and its DNA-binding domain, and that it outperforms PWM-based models.
+  - **Evidence pointer** Results section "Comparison of LS-GKM SVM and PWM-based Predictive Models on CVD-associated SNPs"; Discussion
+  - **Concern** The claim of model effectiveness and superiority over PWM models is based on only three variants with contradictory predictions tested in vitro. This is a very small sample size from which to draw general conclusions about model performance. Additionally, the text states that the SVM model agreed with in vitro results for all three tested variants, but the quantitative data (binding affinities, fold-changes) for these variants are not fully presented in the text. The overall agreement between models was only about half of the 9,105 SNPs, which raises questions about the reliability of either model for prioritization.
+  - **Why it matters** The central premise of the paper is that the computational model can reliably prioritize causal variants. If the validation set is too small or the model agreement is low, the practical utility of the approach for the broader research community is not established.
+  - **Resolution test** Provide a more extensive validation set, including additional variants with contradictory predictions and variants with concordant predictions. Present full quantitative binding data for all tested variants. Report model performance metrics (e.g., precision, recall) on a held-out test set. Discuss the implications of the ~50% agreement between models for the reliability of prioritization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that variants rs1506537 and rs56992000 showed increased GATA4-DNA binding affinity compared to no binding for the reference allele, and that variants rs2941506 and rs2301249 resulted in a total loss of binding.
+  - **Evidence pointer** Results section "CVD-associated SNPs alter GATA4-DNA Binding"; Figure 2
+  - **Concern** The text reports apparent Kd values for the alternate alleles of rs1506537 and rs56992000 (451.7 nM for one, the other value is missing due to a typo), but no Kd values are reported for the reference alleles or for the other two variants. The statement "no binding observed" for reference alleles is qualitative. For a claim of "total loss of binding," it is critical to know the detection limit of the assay and whether binding was truly absent or just below the detection threshold. The text also mentions "significant differences" but does not provide statistical test results or error estimates for the binding data.
+  - **Why it matters** The quantitative characterization of binding affinities is central to the claim that these variants disrupt GATA4-DNA binding. Without complete data, including Kd values for all alleles and statistical analysis, the strength of the conclusion cannot be evaluated.
+  - **Resolution test** Provide a complete table of Kd values (or EC50 values) for all four variants, both alleles, with standard errors and number of replicates. Include a statement on the detection limit of the EMSA assay. Provide statistical analysis (e.g., t-tests or ANOVA) comparing binding affinities between alleles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the identified variants are potential causal variants for CVDs through GATA4 dysregulation, and they link the variants to changes in expression of specific genes (MRPL33, TOP2B, PGAP3, etc.) based on eQTL data.
+  - **Evidence pointer** Results section "CVD-associated SNP alter GATA4 Regulatory Activity"; Figure 4
+  - **Concern** The link between the in vitro and cellular assays and the eQTL data is correlative. The authors show that the alternate alleles alter GATA4 binding and reporter gene expression, and that these same alleles are associated with expression changes of nearby genes in GTEx. However, they do not demonstrate that the expression changes in GTEx are mediated by GATA4 binding at these specific loci. The genes mentioned are not necessarily direct GATA4 targets, and the causal chain from variant to GATA4 binding to gene expression change to disease is not established.
+  - **Why it matters** The claim of potential causal variants is a key motivation for the work. Without functional evidence linking GATA4 binding at these specific loci to the expression of the proposed target genes, the significance of the findings for understanding CVD etiology remains speculative.
+  - **Resolution test** Perform experiments to directly test whether GATA4 regulates the expression of the proposed target genes, such as ChIP-qPCR at the relevant loci in cardiac cells, or CRISPR-based perturbation of the variant loci followed by expression analysis. Alternatively, temper the claims of causality and present the eQTL data as suggestive correlative evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction states that over 95% of disease-associated variants are in the non-coding genome, but the abstract states over 90%. This inconsistency should be resolved.
+  - **Required correction** Ensure the percentage is consistent between the abstract and the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, LS-GKM SVM Model Training and Scoring
+  - **Evidence pointer** Methods section
+  - **Issue** The text mentions a typo in the variant name "rs56992000" in the Results section, where it is written as "56992000" in one instance. This should be corrected.
+  - **Required correction** Correct the typo to "rs56992000" throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Prioritization of CVD-associated SNPs
+  - **Evidence pointer** Results section
+  - **Issue** The text states that 13,982 CVD-associated variants were identified, then intersected with DGFs and enhancers to yield 1,535 variants, then expanded via LD to 14,218 unique variants. The relationship between these numbers is not entirely clear, particularly why the final number is larger than the initial number.
+  - **Required correction** Clarify the filtering and expansion steps in the pipeline, perhaps with a more detailed description of the LD expansion process and how the final number of unique variants was derived.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The phrase "leveraged on available functional genomic" is grammatically awkward.
+  - **Required correction** Rephrase to "leveraged available functional genomic data" or similar.
+- **Technical failings that need to be addressed before the case is established** The lack of complete quantitative binding data (Kd values for all alleles, statistical analysis) for the four primary variants is a significant gap. The small validation set for the model comparison (three variants) is insufficient to support the claim of SVM superiority. The correlative nature of the eQTL data and the lack of direct evidence for GATA4-mediated regulation of the proposed target genes weakens the causal claims.
+- **Assessment against Nature-style criteria** Originality: The combination of a gapped k-mer SVM with functional validation for GATA4 in the context of CVD-associated variants has elements of novelty, although similar approaches have been applied to other transcription factors. Scientific importance: The work addresses a significant problem in variant interpretation, but the limited validation and correlative functional data temper the potential impact. Interdisciplinary readership: The work bridges computational genomics, molecular biology, and cardiovascular disease, which could appeal to a broad audience. Technical soundness: The computational methods are standard, but the experimental validation is incomplete in its quantitative detail. Readability for nonspecialists: The manuscript is generally readable, but some sections, particularly the methods, assume familiarity with specialized techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the preliminary data are encouraging. However, the manuscript in its current form does not fully establish the claims due to incomplete quantitative data and limited validation. Addressing the major concerns, particularly providing complete binding data and a more robust model validation, would significantly strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the LS-GKM SVM model is superior to PWM-based models is not supported by the limited data presented (three variants).
+- The claim that the identified variants are "potential causal variants for CVDs through GATA4 dysregulation" is not fully supported, as the link between GATA4 binding at these loci and the expression of the proposed target genes is correlative.
+- The statement that variants rs1506537 and rs56992000 result in "no binding" for the reference allele is qualitative and lacks a defined detection limit.
+- The functional significance of the observed changes in reporter gene expression for disease pathogenesis is not established.

@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "41161773",
+    "doi": "10.1620/tjem.2025.J118",
+    "title": "Unraveling Shared Diagnostic Biomarkers: Integrated Bioinformatics Identification of CGB7, MYCNUT, and GPR32 in Gestational Diabetes Mellitus and Retinopathy of Prematurity."
+  },
+  "content": {
+    "abstract": "The relationship between Gestational Diabetes Mellitus (GDM) and Retinopathy of Prematurity (ROP) is not fully understood, but both conditions may share critical molecular biomarkers. This study integrated datasets to identify genes associated with GDM and ROP. Weighted Gene Co-expression Network Analysis (WGCNA) was employed to construct networks and identify gene modules related to GDM and ROP. Three machine learning models were utilized to filter for core co-morbid genes. Immune infiltration analysis was performed to investigate the correlations of these genes with immune cells. Finally, a diagnostic nomogram model was constructed based on the expression levels of the three core co-morbid genes, and Receiver Operating Characteristic (ROC) curve analysis was conducted to assess its diagnostic capabilities. We identified 16 co-morbid genes associated with GDM and ROP. Through machine learning model filtering, chorionic gonadotropin beta subunit 7 (CGB7), MYCN upstream transcript (MYCNUTR), and G protein-coupled receptor 32 (GPR32) were confirmed as core genes. These genes exhibited significantly elevated expression levels in patients with GDM and ROP, positively correlating with activated cytotoxic T lymphocytes (CD8 T) cells and negatively correlating with central memory CD8 T cells. The diagnostic nomogram model achieved an Area Under the Curve (AUC) value of 0.913 in the GDM training set and 0.875 in the ROP training set. This study reveals a potential shared critical role for CGB7, MYCNUT, and GPR32 in the interplay between GDM and ROP. The constructed diagnostic nomogram model shows promising predictive capability.",
+    "keywords": [
+      "diagnostic nomogram",
+      "gestational diabetes mellitus",
+      "immune infiltration",
+      "retinopathy of prematurity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Diabetes, Gestational/genetics/diagnosis",
+      "Pregnancy",
+      "*Computational Biology/methods",
+      "*Retinopathy of Prematurity/genetics/diagnosis",
+      "Biomarkers/metabolism",
+      "*Receptors, G-Protein-Coupled/genetics/metabolism",
+      "ROC Curve",
+      "Nomograms",
+      "Gene Regulatory Networks",
+      "*N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Lixiong",
+        "Zhang, Chang"
+      ],
+      "short_names": [
+        "Liu L",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, Children's Hospital, Zhejiang University School of Medicine.",
+        "Department of Ophthalmology, Tongde Hospital of Zhejiang Province."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Lixiong",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Children's Hospital, Zhejiang University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chang",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Tongde Hospital of Zhejiang Province."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Tohoku journal of experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Tohoku J Exp Med"
+    ],
+    "pub_date": "2026 Apr 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 00:27",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41161773",
+      "40374866",
+      "41073551",
+      "40626241",
+      "41137247",
+      "37842292",
+      "40476676",
+      "40611211",
+      "41836449",
+      "38347799",
+      "31881887",
+      "38028617",
+      "41013727",
+      "33890634",
+      "41300841",
+      "35370940",
+      "41034754",
+      "41479901",
+      "41052072",
+      "40997906",
+      "40244055",
+      "41387755",
+      "41731716",
+      "40825795",
+      "40102801",
+      "40454615",
+      "40374840",
+      "38785203",
+      "39697326",
+      "40617086",
+      "41323972",
+      "38987624",
+      "40129981",
+      "40055514",
+      "39749331",
+      "39876591",
+      "38544693",
+      "41601064",
+      "34956091",
+      "39375405",
+      "41543551",
+      "41787525",
+      "34254540",
+      "41117218",
+      "40786954",
+      "31886571",
+      "40761790",
+      "40122115",
+      "39709373",
+      "41334450",
+      "39975557",
+      "40097519",
+      "40835875",
+      "38690269",
+      "39735547",
+      "41816328",
+      "39139563",
+      "41636184",
+      "41214111",
+      "41013556",
+      "36499008",
+      "40787926",
+      "40672961",
+      "39544937",
+      "33637645",
+      "40998941",
+      "38149095",
+      "39142001",
+      "34104645",
+      "31959134",
+      "39691970",
+      "38625888",
+      "39029061",
+      "39285345",
+      "41189784",
+      "40969769",
+      "40274429",
+      "40273141",
+      "39978792",
+      "39396400",
+      "41044520",
+      "34190178",
+      "36341343",
+      "41432807",
+      "38711005",
+      "38449866",
+      "36929799",
+      "25521746",
+      "40093012",
+      "41462151",
+      "36275192",
+      "41200172",
+      "39825726",
+      "40064529",
+      "39695788",
+      "41316541",
+      "33149201",
+      "38914792",
+      "40296179",
+      "39559355"
+    ],
+    "review": [
+      "41161773"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1620/tjem.2025.J118",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

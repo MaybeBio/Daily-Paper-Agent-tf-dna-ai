@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a novel in silico miRNA regulatory network in hepatocellular carcinoma (HCC) centered on hsa-miR-138-5p, which targets genes involved in mitochondrial fission. They further identify druggable pockets on transcription factors WDR5 and HNF4 that regulate this miRNA, and report molecular docking of FDA-approved HCC drugs (sorafenib, lenvatinib, regorafenib) to these pockets, suggesting an off-target mechanism affecting mitochondrial function.
+- **Visible evidence base** Abstract text only; no methodological details, docking scores, network construction criteria, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, docking parameters, target gene lists, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis linking miRNA regulation to mitochondrial dynamics in HCC, with a proposed off-target drug mechanism. However, the evidence base is entirely computational and the abstract lacks sufficient methodological detail to assess the rigor of the network construction, the specificity of the docking predictions, or the biological relevance of the proposed pathway. The claim of a "novel regulatory network" and the off-target drug mechanism are intriguing but currently under-supported by the visible material.
+- **Who would be interested in the results, and why** Researchers in HCC biology, miRNA regulation, mitochondrial dynamics, and computational drug repurposing would find this relevant. The potential off-target effects of approved drugs on mitochondrial function via miRNA pathways could interest clinical oncologists and pharmacologists, though the in silico nature limits immediate translational appeal.
+- **Major strengths** The focus on an underexplored area (miRNA regulation of mitochondrial fission in HCC) is timely. The integration of network analysis, transcription factor targeting, and drug docking is a coherent computational pipeline. The identification of a central miRNA (hsa-miR-138-5p) and specific druggable pockets provides a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We constructed a novel regulatory network, identifying hsa-miR-138-5p as a central regulator targeting key mitochondrial genes."
+  - **Evidence pointer** Abstract only; no network construction details or target gene list provided
+  - **Concern** The abstract does not describe how the network was constructed, what databases or algorithms were used, how "central regulator" was defined, or which mitochondrial genes were targeted. Without this information, the novelty and validity of the network cannot be assessed.
+  - **Why it matters** The central claim of the paper rests on the network construction. If the methodology is not transparent or the network is not robust, the entire downstream analysis (transcription factor targeting and docking) loses foundation.
+  - **Resolution test** Provide a detailed methods section describing network construction, target prediction tools, scoring criteria, and a list of target genes with supporting evidence. Include a sensitivity analysis or comparison with existing networks to demonstrate robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking studies demonstrated favorable binding affinities of FDA-approved HCC drugs (sorafenib, lenvatinib, and regorafenib) to these binding pockets, suggesting an off-target mechanism."
+  - **Evidence pointer** Abstract only; no docking scores, pocket definitions, or comparison with known targets provided
+  - **Concern** The abstract reports "favorable binding affinities" without providing numerical values, docking software, scoring functions, or a threshold for "favorable." It is unclear whether these affinities are comparable to the drugs' known primary targets or whether they are statistically significant.
+  - **Why it matters** The off-target mechanism claim is a key novel contribution. Without quantitative docking data and appropriate controls (e.g., docking against unrelated pockets or known off-targets), the claim is speculative and cannot be evaluated.
+  - **Resolution test** Report docking scores (e.g., binding energy, Ki values) for each drug-pocket pair, specify the software and scoring function, and include a comparison with docking of the same drugs to their canonical targets or to negative control pockets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings contribute to the growing understanding of miRNA-mediated regulation in HCC and offer a foundation for developing novel microRNA-targeting drugs to modulate mitochondrial dynamics."
+  - **Evidence pointer** Abstract only; no experimental validation or functional data
+  - **Concern** The abstract is entirely in silico and lacks any experimental validation (e.g., miRNA expression data in HCC, knockdown or overexpression studies, mitochondrial fission assays). The translational claim of "a foundation for developing novel drugs" is premature without such validation.
+  - **Why it matters** In silico predictions are hypothesis-generating, not confirmatory. The significance of the findings for HCC management depends on whether the predicted regulatory axis operates in biological systems, which is not demonstrated.
+  - **Resolution test** Include experimental data (e.g., miRNA and target gene expression in HCC cell lines or patient samples, functional assays for mitochondrial fission) or clearly frame the work as a hypothesis-generating study with explicit limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses technical terms (e.g., "druggable binding pockets," "off-target mechanism") without brief contextual explanation, which may hinder nonspecialist readers.
+  - **Required correction** Add a brief phrase defining "druggable binding pockets" and clarify what "off-target" means in this context (e.g., "binding to proteins other than the intended drug targets").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Transcription factor selection
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that WDR5 and HNF4 regulate hsa-miR-138-5p but does not explain why these specific transcription factors were chosen or how their regulatory role was determined.
+  - **Required correction** Briefly state the basis for selecting these transcription factors (e.g., literature evidence, promoter analysis) in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Drug selection
+  - **Evidence pointer** Abstract text
+  - **Issue** The choice of sorafenib, lenvatinib, and regorafenib is not justified beyond being "FDA-approved HCC drugs." It is unclear if these were selected based on known mitochondrial effects or other criteria.
+  - **Required correction** Add a sentence explaining the rationale for selecting these specific drugs (e.g., clinical relevance, prior evidence of mitochondrial interaction).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (network construction details), R1-M2 (docking quantification and controls). These are blocking because the core claims of network novelty and off-target drug mechanism cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The specific combination of miRNA network analysis, transcription factor targeting, and drug docking for mitochondrial fission in HCC appears novel, though the abstract does not allow verification of prior art. Scientific importance: Potentially relevant to HCC biology and drug repurposing, but the in silico-only nature limits immediate impact. Interdisciplinary readership: Bridges computational biology, cancer research, and pharmacology, which could attract a broad audience if validated. Technical soundness: Not assessable from the abstract; the lack of methodological detail and quantitative results is a major gap. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the computational pipeline is coherent, but the abstract lacks the methodological transparency and quantitative results needed to support the central claims. I would be supportive if the full manuscript provides detailed methods, docking scores with controls, and a clear framing of limitations.
+
+## Risk / unsupported claims
+- The "novel regulatory network" claim is unsupported without network construction details or comparison to existing literature.
+- The "favorable binding affinities" claim is unsupported without numerical docking data or a defined threshold.
+- The "off-target mechanism" for drug effects on mitochondrial function is speculative and not validated experimentally.
+- The "foundation for developing novel microRNA-targeting drugs" is an overreach given the purely computational nature of the study.
+- The biological relevance of hsa-miR-138-5p as a "central regulator" is not demonstrated with expression or functional data.

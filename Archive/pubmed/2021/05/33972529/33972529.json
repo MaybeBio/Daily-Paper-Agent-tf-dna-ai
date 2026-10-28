@@ -1,0 +1,511 @@
+{
+  "identity": {
+    "pmid": "33972529",
+    "doi": "10.1038/s41467-021-22813-w",
+    "title": "LRIG1 is a gatekeeper to exit from quiescence in adult neural stem cells."
+  },
+  "content": {
+    "abstract": "Adult neural stem cells (NSCs) must tightly regulate quiescence and proliferation. Single-cell analysis has suggested a continuum of cell states as NSCs exit quiescence. Here we capture and characterize in vitro primed quiescent NSCs and identify LRIG1 as an important regulator. We show that BMP-4 signaling induces a dormant non-cycling quiescent state (d-qNSCs), whereas combined BMP-4/FGF-2 signaling induces a distinct primed quiescent state poised for cell cycle re-entry. Primed quiescent NSCs (p-qNSCs) are defined by high levels of LRIG1 and CD9, as well as an interferon response signature, and can efficiently engraft into the adult subventricular zone (SVZ) niche. Genetic disruption of Lrig1 in vivo within the SVZ NSCs leads an enhanced proliferation. Mechanistically, LRIG1 primes quiescent NSCs for cell cycle re-entry and EGFR responsiveness by enabling EGFR protein levels to increase but limiting signaling activation. LRIG1 is therefore an important functional regulator of NSC exit from quiescence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult Stem Cells/cytology/drug effects/*metabolism",
+      "Animals",
+      "Bone Morphogenetic Protein 4/pharmacology",
+      "Cell Cycle/genetics",
+      "Cell Cycle Proteins/metabolism",
+      "Cell Proliferation/genetics",
+      "DNA-Binding Proteins/metabolism",
+      "ErbB Receptors/pharmacology",
+      "Fibroblast Growth Factor 2/pharmacology",
+      "Gene Ontology",
+      "Immunohistochemistry",
+      "Interferons/pharmacology",
+      "Lateral Ventricles/cytology/*metabolism",
+      "MAP Kinase Signaling System/drug effects/*genetics",
+      "Membrane Glycoproteins/genetics/*metabolism",
+      "Mice",
+      "Nerve Tissue Proteins/genetics/*metabolism",
+      "Neural Stem Cells/cytology/drug effects/*metabolism",
+      "Neurogenesis/*genetics",
+      "Proteomics",
+      "RNA-Seq",
+      "Regeneration/drug effects",
+      "Tetraspanin 29/metabolism",
+      "Up-Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marques-Torrejon, Maria Angeles",
+        "Williams, Charles A C",
+        "Southgate, Benjamin",
+        "Alfazema, Neza",
+        "Clements, Melanie P",
+        "Garcia-Diaz, Claudia",
+        "Blin, Carla",
+        "Arranz-Emparan, Nerea",
+        "Fraser, Jane",
+        "Gammoh, Noor",
+        "Parrinello, Simona",
+        "Pollard, Steven M"
+      ],
+      "short_names": [
+        "Marques-Torrejon MA",
+        "Williams CAC",
+        "Southgate B",
+        "Alfazema N",
+        "Clements MP",
+        "Garcia-Diaz C",
+        "Blin C",
+        "Arranz-Emparan N",
+        "Fraser J",
+        "Gammoh N",
+        "Parrinello S",
+        "Pollard SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5265-8830",
+        "ORCID: 0000-0003-0867-5339",
+        "ORCID: 0000-0002-5759-4984",
+        "ORCID: 0000-0001-9402-9581",
+        "ORCID: 0000-0003-0820-6292",
+        "ORCID: 0000-0001-6428-0492"
+      ],
+      "affiliations": [
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK.",
+        "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK.",
+        "Cancer Research UK Edinburgh Centre, Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK.",
+        "Cancer Research UK Edinburgh Centre, Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK.",
+        "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK.",
+        "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK. steven.pollard@ed.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marqués-Torrejón, María Ángeles",
+        "short_name": "Marqués-Torrejón MÁ",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Williams, Charles A C",
+        "short_name": "Williams CAC",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Southgate, Benjamin",
+        "short_name": "Southgate B",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Alfazema, Neza",
+        "short_name": "Alfazema N",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Clements, Melanie P",
+        "short_name": "Clements MP",
+        "identifiers": [
+          "0000-0001-5265-8830"
+        ],
+        "affiliations": [
+          "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Garcia-Diaz, Claudia",
+        "short_name": "Garcia-Diaz C",
+        "identifiers": [
+          "0000-0003-0867-5339"
+        ],
+        "affiliations": [
+          "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Blin, Carla",
+        "short_name": "Blin C",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Arranz-Emparan, Nerea",
+        "short_name": "Arranz-Emparan N",
+        "identifiers": [
+          "0000-0002-5759-4984"
+        ],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Fraser, Jane",
+        "short_name": "Fraser J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research UK Edinburgh Centre, Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Gammoh, Noor",
+        "short_name": "Gammoh N",
+        "identifiers": [
+          "0000-0001-9402-9581"
+        ],
+        "affiliations": [
+          "Cancer Research UK Edinburgh Centre, Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Parrinello, Simona",
+        "short_name": "Parrinello S",
+        "identifiers": [
+          "0000-0003-0820-6292"
+        ],
+        "affiliations": [
+          "Samantha Dickson Brain Cancer Unit, UCL Cancer Institute, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Pollard, Steven M",
+        "short_name": "Pollard SM",
+        "identifiers": [
+          "0000-0001-6428-0492"
+        ],
+        "affiliations": [
+          "MRC Centre for Regenerative Medicine & Cancer Research UK Edinburgh Centre, University of Edinburgh, Edinburgh, UK. steven.pollard@ed.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 10",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/12 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42668621",
+      "42121880",
+      "41883201",
+      "41481722",
+      "41234357",
+      "41201961",
+      "41133217",
+      "41028717",
+      "40847119",
+      "40723832",
+      "40720543",
+      "40587239",
+      "40513565",
+      "40436940",
+      "40429889",
+      "40427564",
+      "40179071",
+      "40118056",
+      "39872114",
+      "39796134",
+      "39499086",
+      "39358505",
+      "39343943",
+      "39285246",
+      "39126035",
+      "39120954",
+      "39113792",
+      "38993124",
+      "38987622",
+      "38971831",
+      "38841203",
+      "38758807",
+      "38667283",
+      "38418814",
+      "38180982",
+      "38025190",
+      "37605090",
+      "37243590",
+      "37185361",
+      "37146152",
+      "37109434",
+      "37104615",
+      "37095395",
+      "37091923",
+      "36922629",
+      "36916004",
+      "36631891",
+      "36420140",
+      "36348111",
+      "36316503",
+      "36316307",
+      "36202789",
+      "36027907",
+      "35969315",
+      "35938168",
+      "35481944",
+      "35450289",
+      "35269466",
+      "34687484"
+    ],
+    "refs": [
+      "32296435",
+      "32183906",
+      "30827680",
+      "30777863",
+      "29638216",
+      "29622651",
+      "29311336",
+      "29196443",
+      "28465359",
+      "28346443",
+      "28096221",
+      "27870168",
+      "27814520",
+      "27452173",
+      "26893147",
+      "26607953",
+      "26235341",
+      "26075660",
+      "25505873",
+      "25486356",
+      "25185890",
+      "24811379",
+      "24749069",
+      "24500246",
+      "24174682",
+      "23964093",
+      "23964022",
+      "23884926",
+      "23698583",
+      "22704510",
+      "22388892",
+      "21558414",
+      "21112568",
+      "20871603",
+      "20844536",
+      "20682445",
+      "20621052",
+      "20452319",
+      "19896442",
+      "19427292",
+      "19332781",
+      "19096037",
+      "19001271",
+      "18786416",
+      "18786414",
+      "18267078",
+      "17078026",
+      "16086633",
+      "15345710",
+      "14973255",
+      "12495619",
+      "12067728",
+      "11163261",
+      "10380923",
+      "9185542",
+      "8893018"
+    ],
+    "similar": [
+      "33972529",
+      "29101245",
+      "22514327",
+      "38987622",
+      "32183906",
+      "31988061",
+      "33053360",
+      "36631891",
+      "32902139",
+      "26739753",
+      "27753164",
+      "27666792",
+      "29983386",
+      "23322492",
+      "23415832",
+      "28656980",
+      "27647730",
+      "38985883",
+      "36027907",
+      "29386140",
+      "28771884",
+      "21508317",
+      "23481253",
+      "33482084",
+      "28619719",
+      "31159890",
+      "29622651",
+      "33566222",
+      "35053334",
+      "23562833",
+      "28694255",
+      "32630355",
+      "31784517",
+      "38682901",
+      "21843531",
+      "36420140",
+      "28247022",
+      "38001081",
+      "30485812",
+      "33207218",
+      "38518783",
+      "29311336",
+      "24578327",
+      "23695674",
+      "30905769",
+      "31919522",
+      "34687484",
+      "28728023",
+      "35132995",
+      "33229571",
+      "31062248",
+      "23723414",
+      "28534273",
+      "36323247",
+      "24681169",
+      "35861333",
+      "25319688",
+      "35523180",
+      "26893147",
+      "25183173",
+      "31943155",
+      "39250533",
+      "32005867",
+      "34685774",
+      "33607046",
+      "35969315",
+      "25591773",
+      "40179071",
+      "29727663",
+      "29617675",
+      "24806549",
+      "36029179",
+      "31430423",
+      "39316665",
+      "27832087",
+      "27068685",
+      "25044744",
+      "27857231",
+      "34772946",
+      "28648897",
+      "39587709",
+      "26387477",
+      "38852158",
+      "30595545",
+      "24811379",
+      "28406573",
+      "34368973",
+      "38971831",
+      "23131154",
+      "23964093",
+      "28864354",
+      "23308259",
+      "30088176",
+      "24448162",
+      "29107300",
+      "31178417",
+      "29574582",
+      "31111999",
+      "26664789",
+      "32324743"
+    ],
+    "review": [
+      "33972529",
+      "32902139",
+      "23415832",
+      "27647730",
+      "38985883",
+      "35969315",
+      "28864354"
+    ],
+    "pmc": [
+      "8110534"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22813-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33972529/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33972529",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-8",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse168189",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33972529",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

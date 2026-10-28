@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to figures, tables, methods details, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Polyphyllin VI (PPVI) directly binds FOXO3, promotes its nuclear translocation and liquid-liquid phase separation (LLPS) driven by the C2 region (151-673 aa), and thereby induces BNIP3/NIX-mediated mitophagy and mitochondrial dysfunction in breast cancer cells. In vivo, PPVI suppresses tumor growth in xenograft models but shows cardiotoxicity in zebrafish, liver accumulation, short half-life, and extremely low oral bioavailability. The authors propose PPVI as a pharmacological probe and lead compound acting through direct FOXO3 modulation.
+- **Visible evidence base** Abstract text only; methods are summarized but no numerical data, statistical details, or experimental results are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, raw data, supplementary information, and any details of experimental replicates or controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically ambitious and potentially interesting story linking a natural product to FOXO3 phase separation and mitophagy in breast cancer. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic steps are asserted without quantitative support, the causal chain from PPVI binding to FOXO3 LLPS to mitophagy to tumor suppression is not fully evidenced, and the reported toxicity and pharmacokinetic liabilities raise questions about the therapeutic framing. The work may be of interest to researchers in natural product pharmacology, autophagy, and phase separation biology, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying natural product anticancer mechanisms, particularly steroidal saponins; investigators in the autophagy and mitophagy field; and scientists working on transcription factor phase separation and its functional consequences. The potential link between a small molecule and FOXO3 LLPS could attract interest from chemical biology and drug discovery communities.
+- **Major strengths** The study addresses a novel mechanistic hypothesis connecting a natural product to transcription factor phase separation, which is an emerging and high-interest area. The use of multiple orthogonal methods, including biotin-labeled pull-down, mass spectrometry, microscale thermophoresis, live-cell imaging, FRAP, truncation mutants, and molecular dynamics simulations, suggests a comprehensive experimental approach. The inclusion of in vivo models and pharmacokinetic assessment adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** "PPVI directly bound FOXO3, promoting nuclear translocation and transcriptional activation" and "FOXO3 underwent LLPS... and PPVI enhanced the nuclear LLPS of FOXO3"
+  - **Evidence pointer** Methods summarized in abstract; no specific figures or quantitative data provided
+  - **Concern** The abstract asserts direct binding and functional enhancement of FOXO3 LLPS by PPVI, but no binding affinity values, concentration-response data, or quantitative LLPS measurements are reported. The causal relationship between PPVI binding and enhanced LLPS is not established; it is unclear whether PPVI acts on FOXO3 directly to promote phase separation or whether the observed effects are indirect.
+  - **Why it matters** The central novelty of the paper rests on the claim that PPVI directly modulates FOXO3 phase behavior. Without quantitative binding data and evidence that the LLPS enhancement is a direct consequence of PPVI-FOXO3 interaction, the mechanistic story is not supported.
+  - **Resolution test** Provide binding affinity (e.g., Kd from microscale thermophoresis), show that PPVI enhances LLPS in a dose-dependent manner in purified or cell-based systems, and demonstrate that a PPVI mutant or competitor that disrupts binding abolishes the LLPS enhancement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic linkage
+  - **Claim pointer** "PPVI induced BNIP3/NIX-mediated mitophagy and mitochondrial dysfunction" and "FOXO3 underwent LLPS... thereby predominantly engages BNIP3/NIX-mediated mitophagy"
+  - **Evidence pointer** Methods summarized in abstract; no data shown
+  - **Concern** The abstract does not explain how FOXO3 LLPS mechanistically leads to BNIP3/NIX-mediated mitophagy. It is unclear whether LLPS is required for transcriptional activation of BNIP3/NIX, whether the phase-separated FOXO3 recruits coactivators or chromatin modifiers, or whether LLPS is a consequence rather than a cause of transcriptional activity. The causal chain from LLPS to mitophagy is asserted but not evidenced.
+  - **Why it matters** The paper's title and conclusion emphasize the role of FOXO3 LLPS in promoting mitophagy. If LLPS is not mechanistically linked to BNIP3/NIX transcription, the central claim is weakened.
+  - **Resolution test** Show that FOXO3 mutants unable to undergo LLPS fail to induce BNIP3/NIX expression and mitophagy, and that restoring LLPS rescues the phenotype. Provide evidence that the LLPS condensates colocalize with transcriptional machinery or target gene loci.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and safety balance
+  - **Claim pointer** "PPVI suppressed tumor growth in vivo but exhibited cardiotoxicity in zebrafish" and "extremely low oral bioavailability"
+  - **Evidence pointer** Methods summarized in abstract; no quantitative tumor growth inhibition, toxicity, or pharmacokinetic parameters provided
+  - **Concern** The abstract reports tumor suppression alongside cardiotoxicity and poor pharmacokinetics, but no quantitative data are given. The therapeutic window is not assessable. The conclusion that PPVI is a "unique pharmacological probe and lead compound" is not supported by the summarized safety and bioavailability profile.
+  - **Why it matters** For a natural product proposed as a lead compound, the balance between efficacy and toxicity, as well as bioavailability, is critical. Without these data, the translational claim is premature.
+  - **Resolution test** Provide tumor growth inhibition curves, toxicity endpoints, and pharmacokinetic parameters (e.g., Cmax, AUC, half-life, oral bioavailability) with statistical comparisons. Discuss the therapeutic index and whether the observed cardiotoxicity precludes further development.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract methods section
+  - **Issue** The abstract lists many methods but does not specify the breast cancer cell lines used, the PPVI concentrations tested, or the duration of treatments.
+  - **Required correction** Specify the cell lines, dose range, and treatment timeline in the abstract or indicate that these details are in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "liquid-liquid phase separation"
+  - **Evidence pointer** Abstract results section
+  - **Issue** The abstract uses "liquid-liquid phase separation" without defining the criteria used to classify FOXO3 condensation as LLPS (e.g., sensitivity to 1,6-hexanediol, fusion events, FRAP recovery fraction).
+  - **Required correction** Briefly state the operational criteria for LLPS or refer to the main text for validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All results
+  - **Evidence pointer** Abstract results section
+  - **Issue** No statistical measures, sample sizes, or significance thresholds are reported in the abstract.
+  - **Required correction** Include representative statistical information or state that full statistics are in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The concept of a small molecule inducing transcription factor LLPS to promote mitophagy is novel and potentially high-impact. Scientific importance: If fully substantiated, the findings could open new avenues in both cancer therapy and phase separation biology. Interdisciplinary readership: The topic bridges pharmacology, cell biology, and biophysics, which could attract a broad audience. Technical soundness: Not assessable from the abstract; the methods list is extensive but no data are shown. Readability for nonspecialists: The abstract is dense and assumes familiarity with LLPS and mitophagy; the mechanistic narrative is not easily followed without figures.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis but lacks the quantitative and mechanistic detail required to support the central claims. A full manuscript with complete data may change this assessment.
+
+## Risk / unsupported claims
+- The claim that PPVI directly binds FOXO3 is unsupported without binding affinity data.
+- The claim that FOXO3 LLPS is required for BNIP3/NIX-mediated mitophagy is unsupported without loss-of-function or rescue experiments.
+- The claim that PPVI is a "unique pharmacological probe and lead compound" is unsupported given the reported cardiotoxicity and poor bioavailability.
+- The in vivo antitumor efficacy and safety profile are not quantitatively assessable from the abstract.
+- The pharmacokinetic and tissue distribution data are mentioned but not reported, making the "extremely low oral bioavailability" claim unverifiable.

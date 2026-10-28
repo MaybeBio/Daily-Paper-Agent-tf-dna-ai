@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.25.690371",
+  "title": "CrossPPI: A Cross-Fusion Based Model for Protein–Protein Binding Affinity Prediction",
+  "authors": "Suhas Reddy Singam; Nithish Chandra Azad Devarashetty; Sanjana Gogte; Vani Kondaparthi",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出CrossPPI深度学习模型预测蛋白质-蛋白质结合亲和力，虽非TF-DNA体系，但其跨注意力融合序列与结构特征的方法可迁移至蛋白质-DNA互作建模，故给予中档评分。",
+  "abstract": "Many biological processes depend on protein–protein interactions (PPIs), which are particularly important across biology, medicine, and biotechnology. It is essential to accurately predict the binding affinity between protein pairs to prioritize candidate interactions in large-scale studies and expedite drug discovery. The application of cross-attention mechanisms between ligand and receptor protein sequences is often neglected in current computational models, limiting their capacity to accurately represent inter-protein dependencies. In this study, we introduce CrossPPI, a novel deep learning framework that integrates structural and sequential features of interacting proteins to improve binding affinity prediction. To model intricate interactions between protein pairs, CrossPPI uses a transformer-based cross-fusion module and a dual-view feature-extraction approach that combines Graph Attention Networks (GATs) and Convolutional Neural Networks (CNNs). On the test dataset of 300 protein–protein pairs, CrossPPI achieved a Pearson correlation coefficient (PCC) of 0.7616, a Spearman correlation coefficient (SCC) of 0.7644, a mean absolute error (MAE) of 1.2869, and a root mean square error (RMSE) of 1.6824, indicating its ability to predict the binding affinity of two proteins. The results highlight CrossPPI’s capability to predict inter-protein binding affinities by leveraging an attention-based integration of sequence and structural features.",
+  "abstract_zh": "许多生物过程依赖于蛋白质-蛋白质相互作用（PPIs），这在生物学、医学和生物技术领域尤为重要。准确预测蛋白质对之间的结合亲和力对于在大规模研究中优先考虑候选相互作用以及加速药物发现至关重要。当前计算模型中常忽视配体与受体蛋白质序列之间的交叉注意力机制，这限制了其准确表征蛋白质间依赖性的能力。在本研究中，我们引入了CrossPPI，一种新颖的深度学习框架，该框架整合了相互作用蛋白质的结构和序列特征，以提高结合亲和力预测的准确性。为模拟蛋白质对之间的复杂相互作用，CrossPPI采用基于transformer的交叉融合模块和结合图注意力网络（GATs）与卷积神经网络（CNNs）的双视图特征提取方法。在包含300个蛋白质-蛋白质对的测试数据集上，CrossPPI实现了皮尔逊相关系数（PCC）为0.7616，斯皮尔曼相关系数（SCC）为0.7644，平均绝对误差（MAE）为1.2869，均方根误差（RMSE）为1.6824，表明其预测两种蛋白质结合亲和力的能力。结果凸显了CrossPPI通过基于注意力的序列与结构特征整合来预测蛋白质间结合亲和力的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690371",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690371",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.25.690371/index.html"
+}

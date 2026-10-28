@@ -1,0 +1,503 @@
+{
+  "identity": {
+    "pmid": "38587531",
+    "doi": "10.1007/s00011-024-01877-6",
+    "title": "Transcriptomic analysis reveals molecular characterization and immune landscape of PANoptosis-related genes in atherosclerosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerosis is a chronic inflammatory disease characterized by abnormal lipid deposition in the arteries. Programmed cell death is involved in the inflammatory response of atherosclerosis, but PANoptosis, as a new form of programmed cell death, is still unclear in atherosclerosis. This study explored the key PANoptosis-related genes involved in atherosclerosis and their potential mechanisms through bioinformatics analysis. METHODS: We evaluated differentially expressed genes (DEGs) and immune infiltration landscape in atherosclerosis using microarray datasets and bioinformatics analysis. By intersecting PANoptosis-related genes from the GeneCards database with DEGs, we obtained a set of PANoptosis-related genes in atherosclerosis (PANoDEGs). Functional enrichment analysis of PANoDEGs was performed and protein-protein interaction (PPI) network of PANoDEGs was established. The machine learning algorithms were used to identify the key PANoDEGs closely linked to atherosclerosis. Receiver operating characteristic (ROC) analysis was used to assess the diagnostic potency of key PANoDEGs. CIBERSORT was used to analyze the immune infiltration patterns in atherosclerosis, and the Spearman method was used to study the relationship between key PANoDEGs and immune infiltration abundance. The single gene enrichment analysis of key PANoDEGs was investigated by GSEA. The transcription factors and target miRNAs of key PANoDEGs were predicted by Cytoscape and online database, respectively. The expression of key PANoDEGs was validated through animal and cell experiments. RESULTS: PANoDEGs in atherosclerosis were significantly enriched in apoptotic process, pyroptosis, necroptosis, cytosolic DNA-sensing pathway, NOD-like receptor signaling pathway, lipid and atherosclerosis. Four key PANoDEGs (ZBP1, SNHG6, DNM1L, and AIM2) were found to be closely related to atherosclerosis. The ROC curve analysis demonstrated that the key PANoDEGs had a strong diagnostic potential in distinguishing atherosclerotic samples from control samples. Immune cell infiltration analysis revealed that the proportion of initial B cells, plasma cells, CD4 memory resting T cells, and M1 macrophages was significantly higher in atherosclerotic tissues compared to normal tissues. Spearman analysis showed that key PANoDEGs showed strong correlations with immune cells such as T cells, macrophages, plasma cells, and mast cells. The regulatory networks of the four key PANoDEGs were established. The expression of key PANoDEGs was verified in further cell and animal experiments. CONCLUSIONS: This study evaluated the expression changes of PANoptosis-related genes in atherosclerosis, providing a reference direction for the study of PANoptosis in atherosclerosis and offering potential new avenues for further understanding the pathogenesis and treatment strategies of atherosclerosis.",
+    "keywords": [
+      "Atherosclerosis",
+      "Bioinformatics",
+      "Immune cells",
+      "PANoptosis",
+      "Transcriptomic"
+    ],
+    "mesh_terms": [
+      "*Atherosclerosis/genetics/immunology",
+      "Animals",
+      "*Gene Expression Profiling",
+      "Protein Interaction Maps/genetics",
+      "Transcriptome",
+      "Humans",
+      "Computational Biology",
+      "Male",
+      "Pyroptosis/genetics",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Zhipeng",
+        "Li, Kaiyuan",
+        "Yang, Zhiyuan",
+        "Wang, Xiaowen",
+        "Shen, Cheng",
+        "Zhang, Yubin",
+        "Lu, Huimin",
+        "Yin, Zhifeng",
+        "Sha, Min",
+        "Ye, Jun",
+        "Zhu, Li"
+      ],
+      "short_names": [
+        "Zheng Z",
+        "Li K",
+        "Yang Z",
+        "Wang X",
+        "Shen C",
+        "Zhang Y",
+        "Lu H",
+        "Yin Z",
+        "Sha M",
+        "Ye J",
+        "Zhu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dalian Medical University, Dalian, 116000, China.",
+        "Dalian Medical University, Dalian, 116000, China.",
+        "Dalian Medical University, Dalian, 116000, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Dalian Medical University, Dalian, 116000, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China.",
+        "Jiangsu Hanjiang Biotechnology Co., LTD, Taizhou, 225399, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. 408164123@qq.com.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. dingyinglinyejun@126.com.",
+        "Dalian Medical University, Dalian, 116000, China. tzheartchina@126.com.",
+        "Nanjing University of Chinese Medicine, Nanjing, 210023, China. tzheartchina@126.com.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. tzheartchina@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Zhipeng",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kaiyuan",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhiyuan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowen",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Cheng",
+        "short_name": "Shen C",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yubin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Huimin",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Zhifeng",
+        "short_name": "Yin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Hanjiang Biotechnology Co., LTD, Taizhou, 225399, China."
+        ]
+      },
+      {
+        "full_name": "Sha, Min",
+        "short_name": "Sha M",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. 408164123@qq.com."
+        ]
+      },
+      {
+        "full_name": "Ye, Jun",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. dingyinglinyejun@126.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Li",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116000, China. tzheartchina@126.com.",
+          "Nanjing University of Chinese Medicine, Nanjing, 210023, China. tzheartchina@126.com.",
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, 225399, China. tzheartchina@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/08 12:44",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42495605",
+      "42429138",
+      "42351906",
+      "42098355",
+      "42092981",
+      "42027668",
+      "41555100",
+      "41511602",
+      "41473675",
+      "40612110",
+      "40536795",
+      "40534879",
+      "40528127",
+      "40427707",
+      "39576410"
+    ],
+    "refs": [
+      "37823450",
+      "37681883",
+      "37563308",
+      "37517319",
+      "37486259",
+      "37379970",
+      "37365625",
+      "37237862",
+      "37228237",
+      "37210082",
+      "36989574",
+      "36710220",
+      "36461105",
+      "36332811",
+      "36248191",
+      "36134566",
+      "35882998",
+      "35788564",
+      "35667161",
+      "35646635",
+      "35585052",
+      "35523864",
+      "35500048",
+      "35467292",
+      "35325185",
+      "34686350",
+      "34530444",
+      "34504660",
+      "34471287",
+      "34445084",
+      "34389841",
+      "34253911",
+      "33996813",
+      "33980849",
+      "33731931",
+      "33536648",
+      "33523181",
+      "33505023",
+      "33501579",
+      "33483732",
+      "33406884",
+      "33368763",
+      "33353368",
+      "33338208",
+      "33318199",
+      "32981416",
+      "32829024",
+      "32729116",
+      "32713036",
+      "32683448",
+      "32518528",
+      "32493171",
+      "32350114",
+      "32296175",
+      "32203286",
+      "32002588",
+      "31850239",
+      "31815603",
+      "31727288",
+      "31591603",
+      "31588227",
+      "31578516",
+      "31504780",
+      "31372985",
+      "31334597",
+      "31061481",
+      "30312399",
+      "30106639",
+      "30012706",
+      "29579705",
+      "29278382",
+      "29045897",
+      "28634194",
+      "28607103",
+      "28084332",
+      "26892964",
+      "26892956",
+      "26410368",
+      "26095253",
+      "26062988",
+      "25605792",
+      "25587046",
+      "25058159",
+      "23995626",
+      "23832491",
+      "23790454",
+      "21700929",
+      "20808728",
+      "19131956",
+      "16199517"
+    ],
+    "similar": [
+      "38587531",
+      "38800594",
+      "39394418",
+      "35842645",
+      "39145311",
+      "38899746",
+      "38562657",
+      "39258145",
+      "39072329",
+      "37173673",
+      "38736872",
+      "39104814",
+      "37861483",
+      "38660311",
+      "39393431",
+      "39095691",
+      "38652339",
+      "37667921",
+      "39074415",
+      "35480868",
+      "34233597",
+      "39273699",
+      "34082770",
+      "38867322",
+      "39079197",
+      "39340997",
+      "38778086",
+      "35990678",
+      "38573982",
+      "39364414",
+      "37582718",
+      "37063877",
+      "35710932",
+      "35558576",
+      "38189554",
+      "38062833",
+      "37773866",
+      "35278479",
+      "36064366",
+      "35637927",
+      "37386410",
+      "35811739",
+      "37641197",
+      "38404827",
+      "35197088",
+      "39402203",
+      "38701259",
+      "38690269",
+      "36084605",
+      "37550393",
+      "36035208",
+      "31875420",
+      "36438903",
+      "38034011",
+      "38125299",
+      "38981197",
+      "33478117",
+      "38268224",
+      "35381314",
+      "32375652",
+      "39120060",
+      "36823662",
+      "35713363",
+      "39315170",
+      "36303246",
+      "37664853",
+      "38283345",
+      "38073349",
+      "38527674",
+      "34536521",
+      "38774257",
+      "33397492",
+      "37266648",
+      "38167983",
+      "32821283",
+      "34553293",
+      "35016690",
+      "38203518",
+      "36699262",
+      "38736878",
+      "37963970",
+      "33109609",
+      "38443950",
+      "35958412",
+      "34772393",
+      "38656456",
+      "34113405",
+      "38319987",
+      "36532040",
+      "31673979",
+      "34321013",
+      "38047310",
+      "34218797",
+      "33530816",
+      "33407587",
+      "35571620",
+      "37008314",
+      "32213192",
+      "37752552",
+      "37325631",
+      "37335740",
+      "31233342",
+      "38353723",
+      "35957838",
+      "35562622",
+      "36681837",
+      "36193061",
+      "37063926",
+      "30643084",
+      "33468161",
+      "36345357",
+      "36311708",
+      "39128418",
+      "29226137",
+      "36470144",
+      "38649061",
+      "39188323",
+      "39107365",
+      "39031474",
+      "36304068",
+      "36061826",
+      "39093811",
+      "39223367",
+      "39051056",
+      "35534881",
+      "38965390",
+      "38553639",
+      "38160361",
+      "39346794",
+      "39276965",
+      "39088353",
+      "38862443",
+      "39003157",
+      "36329783",
+      "38862450",
+      "38877579",
+      "39058876",
+      "38917217",
+      "39234946",
+      "38204239",
+      "39310902",
+      "39394253",
+      "39261934",
+      "38002938",
+      "37369700",
+      "38968517",
+      "39235684",
+      "38990187",
+      "39079987",
+      "39291396",
+      "39269827",
+      "38886134",
+      "39118664",
+      "36894003",
+      "39225412",
+      "38860590",
+      "37642954",
+      "38823582",
+      "39351493",
+      "39345636",
+      "39271430",
+      "38730033"
+    ],
+    "review": [
+      "38587531",
+      "39093811",
+      "38553639",
+      "39003157",
+      "38877579",
+      "39235684"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-024-01877-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-57",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

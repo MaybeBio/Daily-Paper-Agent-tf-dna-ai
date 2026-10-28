@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "34400635",
+    "doi": "10.1038/s41467-021-25248-5",
+    "title": "Structural basis for ALK2/BMPR2 receptor complex signaling through kinase domain oligomerization."
+  },
+  "content": {
+    "abstract": "Upon ligand binding, bone morphogenetic protein (BMP) receptors form active tetrameric complexes, comprised of two type I and two type II receptors, which then transmit signals to SMAD proteins. The link between receptor tetramerization and the mechanism of kinase activation, however, has not been elucidated. Here, using hydrogen deuterium exchange mass spectrometry (HDX-MS), small angle X-ray scattering (SAXS) and molecular dynamics (MD) simulations, combined with analysis of SMAD signaling, we show that the kinase domain of the type I receptor ALK2 and type II receptor BMPR2 form a heterodimeric complex via their C-terminal lobes. Formation of this dimer is essential for ligand-induced receptor signaling and is targeted by mutations in BMPR2 in patients with pulmonary arterial hypertension (PAH). We further show that the type I/type II kinase domain heterodimer serves as the scaffold for assembly of the active tetrameric receptor complexes to enable phosphorylation of the GS domain and activation of SMADs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Activin Receptors, Type I/*chemistry/genetics/*metabolism",
+      "Bone Morphogenetic Protein Receptors/metabolism",
+      "Bone Morphogenetic Protein Receptors, Type II/*chemistry/genetics/*metabolism",
+      "Bone Morphogenetic Proteins/metabolism",
+      "Familial Primary Pulmonary Hypertension/metabolism",
+      "Humans",
+      "Ligands",
+      "Models, Molecular",
+      "Mutation",
+      "Phosphorylation",
+      "Protein Binding",
+      "Protein Domains",
+      "Pulmonary Arterial Hypertension",
+      "Scattering, Small Angle",
+      "Signal Transduction/genetics/*physiology",
+      "Smad Proteins/metabolism",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Agnew, Christopher",
+        "Ayaz, Pelin",
+        "Kashima, Risa",
+        "Loving, Hanna S",
+        "Ghatpande, Prajakta",
+        "Kung, Jennifer E",
+        "Underbakke, Eric S",
+        "Shan, Yibing",
+        "Shaw, David E",
+        "Hata, Akiko",
+        "Jura, Natalia"
+      ],
+      "short_names": [
+        "Agnew C",
+        "Ayaz P",
+        "Kashima R",
+        "Loving HS",
+        "Ghatpande P",
+        "Kung JE",
+        "Underbakke ES",
+        "Shan Y",
+        "Shaw DE",
+        "Hata A",
+        "Jura N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9944-0481",
+        "ORCID: 0000-0002-6784-7076",
+        "ORCID: 0000-0003-4269-7339",
+        "ORCID: 0000-0002-3865-8110",
+        "ORCID: 0000-0001-8265-5761",
+        "ORCID: 0000-0003-3784-1738",
+        "ORCID: 0000-0001-5129-641X"
+      ],
+      "affiliations": [
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+        "D. E. Shaw Research, New York, NY, USA.",
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, IA, USA.",
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+        "Department of Structural Biology, Genentech, Inc., South San Francisco, USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, IA, USA. esu@iastate.edu.",
+        "D. E. Shaw Research, New York, NY, USA. Yibing.Shan@DEShawResearch.com.",
+        "D. E. Shaw Research, New York, NY, USA. David.Shaw@DEShawResearch.com.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. David.Shaw@DEShawResearch.com.",
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+        "Department of Biochemistry and Biophysics, University of California San Francisco, San Francisco, CA, USA.",
+        "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA. Natalia.Jura@ucsf.edu.",
+        "Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA. Natalia.Jura@ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Agnew, Christopher",
+        "short_name": "Agnew C",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ayaz, Pelin",
+        "short_name": "Ayaz P",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kashima, Risa",
+        "short_name": "Kashima R",
+        "identifiers": [
+          "0000-0002-9944-0481"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Loving, Hanna S",
+        "short_name": "Loving HS",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Ghatpande, Prajakta",
+        "short_name": "Ghatpande P",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kung, Jennifer E",
+        "short_name": "Kung JE",
+        "identifiers": [
+          "0000-0002-6784-7076"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+          "Department of Structural Biology, Genentech, Inc., South San Francisco, USA."
+        ]
+      },
+      {
+        "full_name": "Underbakke, Eric S",
+        "short_name": "Underbakke ES",
+        "identifiers": [
+          "0000-0003-4269-7339"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, IA, USA. esu@iastate.edu."
+        ]
+      },
+      {
+        "full_name": "Shan, Yibing",
+        "short_name": "Shan Y",
+        "identifiers": [
+          "0000-0002-3865-8110"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA. Yibing.Shan@DEShawResearch.com."
+        ]
+      },
+      {
+        "full_name": "Shaw, David E",
+        "short_name": "Shaw DE",
+        "identifiers": [
+          "0000-0001-8265-5761"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA. David.Shaw@DEShawResearch.com.",
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. David.Shaw@DEShawResearch.com."
+        ]
+      },
+      {
+        "full_name": "Hata, Akiko",
+        "short_name": "Hata A",
+        "identifiers": [
+          "0000-0003-3784-1738"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA.",
+          "Department of Biochemistry and Biophysics, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jura, Natalia",
+        "short_name": "Jura N",
+        "identifiers": [
+          "0000-0001-5129-641X"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California San Francisco, San Francisco, CA, USA. Natalia.Jura@ucsf.edu.",
+          "Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA. Natalia.Jura@ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Aug 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/18 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "42639152",
+      "42072706",
+      "41641350",
+      "40912403",
+      "40854140",
+      "40832159",
+      "40667219",
+      "40661831",
+      "40586861",
+      "40525393",
+      "40160294",
+      "38538669",
+      "38500216",
+      "38049682",
+      "37568404",
+      "37509165",
+      "37287291",
+      "37231012",
+      "36017263",
+      "35866484",
+      "35721723",
+      "35177083"
+    ],
+    "refs": [
+      "32113352",
+      "31914313",
+      "31797984",
+      "31588918",
+      "31406341",
+      "31249422",
+      "30760596",
+      "30395289",
+      "30260738",
+      "30246251",
+      "29789425",
+      "29735687",
+      "29458127",
+      "29449428",
+      "29280436",
+      "28973643",
+      "28836357",
+      "28735764",
+      "27920040",
+      "27638177",
+      "27630371",
+      "27273096",
+      "26795434",
+      "26776312",
+      "26690041",
+      "26387786",
+      "26333933",
+      "26076766",
+      "25764013",
+      "25484842",
+      "25136070",
+      "24918548",
+      "24704088",
+      "24182003",
+      "23793146",
+      "23646137",
+      "23572558",
+      "22992590",
+      "22977237",
+      "22961979",
+      "22710174",
+      "22692830",
+      "22293501",
+      "22073163",
+      "21545110",
+      "21460441",
+      "21098638",
+      "20959140",
+      "20408171",
+      "20383002",
+      "20124692",
+      "19514729",
+      "19461840",
+      "18321866",
+      "16981200",
+      "16928994",
+      "16777603",
+      "15449706",
+      "15173825",
+      "14759363",
+      "14684682",
+      "14523231",
+      "12700602",
+      "12499371",
+      "12358355",
+      "12221115",
+      "12045205",
+      "11714695",
+      "11583628",
+      "11572780",
+      "11553725",
+      "11115378",
+      "11015450",
+      "10973254",
+      "10903931",
+      "10712517",
+      "10354416",
+      "10025408",
+      "9895674",
+      "9233797",
+      "8744570",
+      "8443157",
+      "8047140",
+      "7862150",
+      "7774578"
+    ],
+    "similar": [
+      "34400635",
+      "23572558",
+      "29739878",
+      "24018044",
+      "32899497",
+      "21622843",
+      "25688877",
+      "28232325",
+      "15883158",
+      "24116187",
+      "25354296",
+      "24337809",
+      "31626133",
+      "23937428",
+      "28391780",
+      "22174087",
+      "23142694",
+      "32521690",
+      "15621726",
+      "23139294",
+      "16782755",
+      "11714695",
+      "28588028",
+      "29587293",
+      "35177083",
+      "23867624",
+      "18436795",
+      "28619995",
+      "15845886",
+      "31797984",
+      "30246251",
+      "18160401",
+      "26873969",
+      "35504921",
+      "29307777",
+      "18326817",
+      "18292470",
+      "30586714",
+      "32522605",
+      "17576816",
+      "20186146",
+      "26589479",
+      "21471205",
+      "16002577",
+      "19424179",
+      "25447587",
+      "32687728",
+      "32437875",
+      "28356442",
+      "21920918",
+      "31826007",
+      "19366699",
+      "20861306",
+      "23747011",
+      "14684852",
+      "20204736",
+      "9748228",
+      "32255665",
+      "12419820",
+      "19153267",
+      "29374556",
+      "28646109",
+      "35643319",
+      "20204735",
+      "17295905",
+      "18952055",
+      "31257577",
+      "26690041",
+      "12117821",
+      "20392248",
+      "19051722",
+      "24449086",
+      "16497988",
+      "17347486",
+      "22085733",
+      "28641928",
+      "19502096",
+      "16357305",
+      "21377447",
+      "21856816",
+      "16923969",
+      "25411245",
+      "21702718",
+      "16436528",
+      "29551750",
+      "33374819",
+      "30149506",
+      "18159113",
+      "22961979",
+      "24713633",
+      "22306733",
+      "36717825",
+      "33233517",
+      "33938785",
+      "36744494",
+      "17911401",
+      "21030519"
+    ],
+    "review": [
+      "34400635",
+      "15621726",
+      "30246251",
+      "32522605",
+      "20204736",
+      "20204735",
+      "26690041",
+      "19051722",
+      "19502096",
+      "33374819",
+      "30149506",
+      "33233517"
+    ],
+    "pmc": [
+      "8368100"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25248-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34400635/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34400635",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2209",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/66k326b8",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34400635",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

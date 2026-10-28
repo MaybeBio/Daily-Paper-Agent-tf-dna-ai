@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.02.530529",
+  "title": "Unveiling causal regulatory mechanisms through cell-state parallax",
+  "authors": "Wu AP; Singh R; Walsh C; Berger B",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-03",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络GrID-Net从单细胞多组学推断非编码变异与基因的因果调控关联，涉及转录因子结合破坏，但核心是调控因果推断而非TF-DNA结合建模，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Genome-wide association studies (GWAS) identify numerous disease-linked genetic variants at noncoding genomic loci, yet therapeutic progress is hampered by the challenge of deciphering the regulatory roles of these loci in tissue-specific contexts. Single-cell multimodal assays that simultaneously profile chromatin accessibility and gene expression could predict tissue-specific causal links between noncoding loci and the genes they affect. However, current computational strategies either neglect the causal relationship between chromatin accessibility and transcription or lack variant-level precision, aggregating data across genomic ranges due to data sparsity. To address this, we introduce GrID-Net, a graph neural network approach that generalizes Granger causal inference to detect new causal locus–gene associations in graph-structured systems such as single-cell trajectories. Inspired by the principles of optical parallax, which reveals object depth from static snapshots, we hypothesized that causal mechanisms could be inferred from static single-cell snapshots by exploiting the time lag between epigenetic and transcriptional cell states, a concept we term “cell-state parallax.” Applying GrID-Net to schizophrenia (SCZ) genetic variants, we increased variant coverage by 36% and uncovered noncoding mechanisms that dysregulate 132 genes, including key potassium transporters such as KCNG2 and SLC12A6. Furthermore, we discovered evidence for the prominent role of neural transcription-factor binding disruptions in SCZ etiology. Our work not only provides a strategy for elucidating the tissue-specific impact of noncoding variants but also underscores the breakthrough potential of cell-state parallax in single-cell multiomics for discovering tissue-specific gene regulatory mechanisms.",
+  "abstract_zh": "全基因组关联研究（GWAS）在非编码基因组位点识别出大量与疾病相关的遗传变异，然而，由于解读这些位点在组织特异性环境中的调控作用面临挑战，治疗进展受到阻碍。同时分析染色质可及性和基因表达的单细胞多模态检测方法，能够预测非编码位点与其影响基因之间的组织特异性因果关联。然而，当前的计算策略要么忽视了染色质可及性与转录之间的因果关系，要么缺乏变异级别的精度，因数据稀疏性而在基因组范围内聚合数据。为解决这一问题，我们引入了GrID-Net，一种图神经网络方法，将格兰杰因果推断（Granger causal inference）推广至检测图结构系统（如单细胞轨迹）中新的因果位点-基因关联。受光学视差原理启发——该原理通过静态快照揭示物体深度——我们假设，通过利用表观遗传状态与转录细胞状态之间的时间延迟，可以从静态单细胞快照中推断出因果机制，我们将这一概念称为“细胞状态视差”。将GrID-Net应用于精神分裂症（SCZ）遗传变异，我们将变异覆盖率提高了36%，并揭示了使132个基因失调的非编码机制，其中包括关键钾转运体如KCNG2和SLC12A6。此外，我们发现了神经转录因子结合破坏在SCZ病因学中起重要作用的证据。我们的工作不仅提供了一种阐明非编码变异组织特异性影响的策略，还强调了细胞状态视差在单细胞多组学中发现组织特异性基因调控机制方面的突破潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.02.530529",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.02.530529",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.02.530529/index.html"
+}

@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42348910",
+    "doi": "10.1021/acs.jcim.6c01246",
+    "title": "ESM2-BiMamba: A Length-Adaptive Hybrid Framework for Efficient Concurrent Prediction of DNA-Binding Proteins and DNA-Binding Residue Sites."
+  },
+  "content": {
+    "abstract": "Accurate identification of DNA-binding proteins (DBPs) and their DNA-binding residue sites (DBSs) is essential for understanding gene regulatory processes. Despite recent progress achieved by protein language models, current methods still face fundamental limitations, including the quadratic computational burden of Transformer architectures, inadequate modeling of long-range dependencies, and reduced generalization on long or low-homology protein sequences. To address these challenges, we propose ESM2-BiMamba, a length-adaptive hybrid architecture for efficient and scalable protein-DNA interaction prediction. The model preserves the first 29 Transformer layers of the pretrained 33-layer ESM2 and replaces its top four layers with bidirectional Mamba state-space modules, enabling linear-time context propagation while maintaining rich sequence semantics. A sequence-length-adaptive dynamic chunking mechanism further reduces redundant computation and stabilizes long-range dependency modeling. To mitigate the distribution shift between pretraining and downstream tasks, a lightweight adapter is incorporated to enhance representation alignment. In addition, a dual-task prediction head comprising a protein-level DBP classifier and a residue-level DBS predictor allows the model to jointly capture global functional patterns and fine-grained binding-site signals. Extensive experiments on multiple standard benchmark data sets demonstrate that ESM2-BiMamba achieves superior performance in both DNA-binding protein identification and DNA-binding residue prediction, with notable advantages in processing long sequences and generalizing to low-homology targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "*DNA/metabolism/chemistry",
+      "*Computational Biology/methods",
+      "Models, Molecular",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yun",
+        "Qiu, Hanlei",
+        "Liu, Dong",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Qiu H",
+        "Liu D",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2413-894X"
+      ],
+      "affiliations": [
+        "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+        "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yun",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0009-0001-2413-894X"
+        ],
+        "affiliations": [
+          "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+          "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Hanlei",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dong",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+          "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China.",
+          "Key Laboratory of Artificial Intelligence and Personalized Learning in Education of Henan Province, College of Computer and Information Engineering, Henan Normal University, Xinxiang453007, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:52",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42348910",
+      "41352986",
+      "41977286",
+      "39244557",
+      "41791267",
+      "42412847",
+      "42377576",
+      "42190366",
+      "40914877",
+      "42475469",
+      "25756377",
+      "41750265",
+      "42157243",
+      "42288985",
+      "41989903",
+      "42239143",
+      "41168713",
+      "40209920",
+      "38975896",
+      "41491543",
+      "41285097",
+      "40914361",
+      "40601256",
+      "42412843",
+      "34073774",
+      "41677811",
+      "39270885",
+      "42099803",
+      "15720719",
+      "39357703",
+      "35709747",
+      "41902287",
+      "41257600",
+      "39214282",
+      "34415020",
+      "16712732",
+      "42235009",
+      "40439671",
+      "41172803",
+      "35378437",
+      "41686649",
+      "39848362",
+      "39488202",
+      "42163392",
+      "29536446",
+      "41762162",
+      "40077987",
+      "19091029",
+      "40673435",
+      "42154341",
+      "41231692",
+      "41564724",
+      "29753757",
+      "41131671",
+      "41045511",
+      "21689482",
+      "41454719",
+      "40601266",
+      "23335013",
+      "41278538",
+      "41290782",
+      "41031876",
+      "41807423",
+      "26527718",
+      "40684093",
+      "27282833",
+      "30040656",
+      "38830995",
+      "24448651",
+      "42223886",
+      "39304807",
+      "38349057",
+      "23788679",
+      "19958487",
+      "23912807",
+      "21787304",
+      "31186519",
+      "16573808",
+      "38340437",
+      "27730230",
+      "39103447",
+      "39456153",
+      "41094395",
+      "40359455",
+      "35652477",
+      "42555504",
+      "26336137",
+      "32920048",
+      "41266599",
+      "30943723",
+      "40940539",
+      "42450121",
+      "36044786",
+      "28841194",
+      "17316627",
+      "39833102",
+      "42190587",
+      "30598073",
+      "25708928",
+      "38491248"
+    ],
+    "review": [
+      "42348910",
+      "25756377",
+      "40209920",
+      "40601266",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c01246",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

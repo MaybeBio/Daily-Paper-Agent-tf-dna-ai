@@ -1,0 +1,384 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2024.03.14.24304298",
+  "title": "Distinct spatiotemporal atrophy patterns in corticobasal syndrome are associated with different underlying pathologies",
+  "doi": "10.1101/2024.03.14.24304298",
+  "abstract": "<h4>Objective: </h4> To identify imaging subtypes of the cortico-basal syndrome (CBS) based solely on a data-driven assessment of MRI atrophy patterns, and investigate whether these subtypes provide information on the underlying pathology. Methods We applied Subtype and Stage Inference (SuStaIn), a machine learning algorithm that identifies groups of individuals with distinct biomarker progression patterns, to a large cohort of 135 CBS cases (52 had a pathological or biomarker defined diagnosis) and 252 controls. The model was fit using volumetric features extracted from baseline T1-weighted MRI scans and validated using follow-up MRI. We compared the clinical phenotypes of each subtype and investigated whether there were differences in associated pathology between the subtypes. Results SuStaIn identified two subtypes with distinct sequences of atrophy progression; four-repeat-tauopathy confirmed cases were most commonly assigned to the Subcortical subtype (83% of CBS-PSP and 75% of CBS-CBD), while CBS-AD was most commonly assigned to the Fronto-parieto-occipital subtype (81% of CBS-AD). Subtype assignment was stable at follow-up (98% of cases), and individuals consistently progressed to higher stages (100% stayed at the same stage or progressed), supporting the model ability to stage progression. Interpretation By jointly modelling disease stage and subtype, we provide data-driven evidence for at least two distinct and longitudinally stable spatiotemporal subtypes of atrophy in CBS that are associated with different underlying pathologies. In the absence of sensitive and specific biomarkers, accurately subtyping and staging individuals with CBS at baseline has important implications for screening on entry into clinical trials, as well as for tracking disease progression.",
+  "authors": [
+    "Scotton WJ",
+    "Shand C",
+    "Todd E",
+    "Bocchetta M",
+    "Cash DM",
+    "VandeVrede L",
+    "Heuer HW",
+    "Young AL",
+    "Oxtoby NP",
+    "Alexander DC",
+    "Rowe JB",
+    "Morris H",
+    "Boxer AL",
+    "Rohrer JD",
+    "Wijeratne PA"
+  ],
+  "published_date": "2024-03-18",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2024.03.14.24304298",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2024.03.14.24304298.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR823975",
+    "raw_record": {
+      "id": "PPR823975",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR823975"
+        ]
+      },
+      "doi": "10.1101/2024.03.14.24304298",
+      "title": "Distinct spatiotemporal atrophy patterns in corticobasal syndrome are associated with different underlying pathologies",
+      "authorString": "Scotton WJ, Shand C, Todd E, Bocchetta M, Cash DM, VandeVrede L, Heuer HW, Young AL, Oxtoby NP, Alexander DC, Rowe JB, Morris H, Boxer AL, Rohrer JD, Wijeratne PA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Scotton WJ",
+            "lastName": "Scotton",
+            "firstName": "William",
+            "initials": "WJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, Department of Neurodegenerative Disease, University College London Queen Square Institute of Neurology, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shand C",
+            "lastName": "Shand",
+            "firstName": "Cameron",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Todd E",
+            "lastName": "Todd",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, Department of Neurodegenerative Disease, University College London Queen Square Institute of Neurology, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bocchetta M",
+            "lastName": "Bocchetta",
+            "firstName": "Martina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1814-5024"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, Department of Neurodegenerative Disease, University College London Queen Square Institute of Neurology, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Centre for Cognitive and Clinical Neuroscience, Division of Psychology, Department of Life Sciences, College of Health, Medicine and Life Sciences, Brunel University London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cash DM",
+            "lastName": "Cash",
+            "firstName": "David",
+            "initials": "DM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, Department of Neurodegenerative Disease, University College London Queen Square Institute of Neurology, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "VandeVrede L",
+            "lastName": "VandeVrede",
+            "firstName": "Lawren",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Memory and Aging Center, University of California, San Francisco, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heuer HW",
+            "lastName": "Heuer",
+            "firstName": "Hilary",
+            "initials": "HW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Memory and Aging Center, University of California, San Francisco, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Young AL",
+            "lastName": "Young",
+            "firstName": "Alexandra",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oxtoby NP",
+            "lastName": "Oxtoby",
+            "firstName": "Neil",
+            "initials": "NP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alexander DC",
+            "lastName": "Alexander",
+            "firstName": "Daniel",
+            "initials": "DC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rowe JB",
+            "lastName": "Rowe",
+            "firstName": "James",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge University Department of Clinical Neurosciences and Cambridge University Hospitals NHS Trust"
+                },
+                {
+                  "affiliation": "Medical Research Council Cognition and Brain Sciences Unit, Cambridge UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morris H",
+            "lastName": "Morris",
+            "firstName": "Huw",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Movement Neurosciences, University College London Queen Square Institute of Neurology, London, UK"
+                },
+                {
+                  "affiliation": "Movement Disorders Centre, University College London Queen Square Institute of Neurology, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boxer AL",
+            "lastName": "Boxer",
+            "firstName": "Adam",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Rohrer JD",
+            "lastName": "Rohrer",
+            "firstName": "Jonathan",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Cognitive and Clinical Neuroscience, Division of Psychology, Department of Life Sciences, College of Health, Medicine and Life Sciences, Brunel University London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wijeratne PA",
+            "lastName": "Wijeratne",
+            "firstName": "Peter",
+            "initials": "PA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1814-5024"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Objective: </h4> To identify imaging subtypes of the cortico-basal syndrome (CBS) based solely on a data-driven assessment of MRI atrophy patterns, and investigate whether these subtypes provide information on the underlying pathology. Methods We applied Subtype and Stage Inference (SuStaIn), a machine learning algorithm that identifies groups of individuals with distinct biomarker progression patterns, to a large cohort of 135 CBS cases (52 had a pathological or biomarker defined diagnosis) and 252 controls. The model was fit using volumetric features extracted from baseline T1-weighted MRI scans and validated using follow-up MRI. We compared the clinical phenotypes of each subtype and investigated whether there were differences in associated pathology between the subtypes. Results SuStaIn identified two subtypes with distinct sequences of atrophy progression; four-repeat-tauopathy confirmed cases were most commonly assigned to the Subcortical subtype (83% of CBS-PSP and 75% of CBS-CBD), while CBS-AD was most commonly assigned to the Fronto-parieto-occipital subtype (81% of CBS-AD). Subtype assignment was stable at follow-up (98% of cases), and individuals consistently progressed to higher stages (100% stayed at the same stage or progressed), supporting the model ability to stage progression. Interpretation By jointly modelling disease stage and subtype, we provide data-driven evidence for at least two distinct and longitudinally stable spatiotemporal subtypes of atrophy in CBS that are associated with different underlying pathologies. In the absence of sensitive and specific biomarkers, accurately subtyping and staging individuals with CBS at baseline has important implications for screening on entry into clinical trials, as well as for tracking disease progression.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220258",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "227341/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "004",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220582/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221915/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "517",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203312",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2024/03/18/2024.03.14.24304298.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.14.24304298"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR823975"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR823975&type=FILE&fileName=EMS194879-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40070441",
+            "reference": "Brain communications. 2025 ;7(2):fcaf066",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194879",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "nct"
+        ]
+      },
+      "dateOfCreation": "2024-03-20",
+      "firstPublicationDate": "2024-03-18",
+      "firstIndexDate": "2024-03-20",
+      "fullTextReceivedDate": "2024-03-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

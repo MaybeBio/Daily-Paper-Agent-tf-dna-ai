@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.19.660093",
+  "title": "Genome-wide rules of transcription factor cooperativity revealed through <i>in silico</i> binding site ablation",
+  "authors": "Xuening He; Hjörleifur Einarsson; Petra Páleníková; Sarah Rennie; Dewei Hu; Ruining Cui; Christian Vaagensø; Kasper Lage; Robert Krautz; Robin Andersson",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-24",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习模型DeepCompARE结合计算机模拟基序消融，在全基因组范围解析转录因子协同性规则，虽聚焦调控序列语法而非直接三维互作建模，但方法可迁移至TF-DNA结合位点预测与互作机制研究。",
+  "abstract": "Transcription factor (TF) cooperativity plays a critical role in gene regulation. However, the underlying genomic rules remain unclear, calling for scalable methods to characterize the TF binding site (motif) syntax of regulatory elements. Here, we introduce DeepCompARE, a lightweight model paired with an in silico ablation (ISA) framework for genome-wide analysis of regulatory sequences. Our framework enables precise interpretation of the motif syntax governing chromatin accessibility, enhancer activity, and promoter function. We find that most TF motifs are pairwise independent, indicating a default additive behavior of TFs, and define a cooperativity score to quantify deviations from this baseline. This reveals synergy and redundancy as opposite effects along the same cooperative spectrum. TF redundancy is linked to promoter activity and broad expression, whereas TF synergy is associated with enhancer activity, physical interactions, and cell-type specificity. Our framework provides a quantitative model for TF cooperativity, offering new insights into gene regulatory logic.",
+  "abstract_zh": "转录因子（TF）协同性在基因调控中扮演关键角色。然而，其潜在的基因组规则仍不清楚，亟需可扩展的方法来表征调控元件中转录因子结合位点（基序）的语法。在此，我们介绍了DeepCompARE，一种轻量级模型，配以计算机模拟消融（ISA）框架，用于调控序列的全基因组分析。我们的框架能够精确解读调控染色质可及性、增强子活性和启动子功能的基序语法。我们发现大多数TF基序是成对独立的，表明TF具有默认的加性行为，并定义了一个协同性评分来量化与此基线的偏差。这揭示了协同和冗余作为同一协同谱上的相反效应。TF冗余与启动子活性和广泛表达相关，而TF协同则与增强子活性、物理相互作用和细胞类型特异性相关。我们的框架为TF协同性提供了定量模型，为基因调控逻辑提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.19.660093",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.19.660093",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.19.660093/index.html"
+}

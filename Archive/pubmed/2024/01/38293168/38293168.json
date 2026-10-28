@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "38293168",
+    "doi": "10.1101/2023.12.15.571942",
+    "title": "DeepPBS: Geometric deep learning for interpretable prediction of protein-DNA binding specificity."
+  },
+  "content": {
+    "abstract": "Predicting specificity in protein-DNA interactions is a challenging yet essential task for understanding gene regulation. Here, we present Deep Predictor of Binding Specificity (DeepPBS), a geometric deep-learning model designed to predict binding specificity across protein families based on protein-DNA structures. The DeepPBS architecture allows investigation of different family-specific recognition patterns. DeepPBS can be applied to predicted structures, and can aid in the modeling of protein-DNA complexes. DeepPBS is interpretable and can be used to calculate protein heavy atom-level importance scores, demonstrated as a case-study on p53-DNA interface. When aggregated at the protein residue level, these scores conform well with alanine scanning mutagenesis experimental data. The inference time for DeepPBS is sufficiently fast for analyzing simulation trajectories, as demonstrated on a molecular-dynamics simulation of a Drosophila Hox-DNA tertiary complex with its cofactor. DeepPBS and its corresponding data resources offer a foundation for machine-aided protein-DNA interaction studies, guiding experimental choices and complex design, as well as advancing our understanding of molecular interactions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitra, Raktim",
+        "Li, Jinsen",
+        "Sagendorf, Jared M",
+        "Jiang, Yibei",
+        "Chiu, Tsu-Pei",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Mitra R",
+        "Li J",
+        "Sagendorf JM",
+        "Jiang Y",
+        "Chiu TP",
+        "Rohs R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1182-3742",
+        "ORCID: 0000-0002-1015-5263",
+        "ORCID: 0009-0009-1195-1753",
+        "ORCID: 0009-0002-9785-3343",
+        "ORCID: 0000-0002-2472-6557",
+        "ORCID: 0000-0003-1752-1884"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0003-1182-3742"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Jinsen",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-1015-5263"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sagendorf, Jared M",
+        "short_name": "Sagendorf JM",
+        "identifiers": [
+          "0009-0009-1195-1753"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jiang, Yibei",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0009-0002-9785-3343"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chiu, Tsu-Pei",
+        "short_name": "Chiu TP",
+        "identifiers": [
+          "0000-0002-2472-6557"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [
+          "0000-0003-1752-1884"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/31 06:43",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "42168328",
+      "39853433",
+      "37932446"
+    ],
+    "refs": [],
+    "similar": [
+      "38293168",
+      "39103447",
+      "34418678",
+      "22574904",
+      "38365157",
+      "33808496",
+      "38352411",
+      "22153072",
+      "26268369",
+      "38529493",
+      "35637310",
+      "29281985",
+      "36069455",
+      "36576775",
+      "36116806",
+      "39304807",
+      "38102755",
+      "36454608",
+      "35352094",
+      "37983648",
+      "35196613",
+      "19878545",
+      "37600972",
+      "39206846",
+      "38254672",
+      "28541224",
+      "33693581",
+      "36230685",
+      "37567456",
+      "32936825",
+      "37454734",
+      "26527718",
+      "23703214",
+      "10966773",
+      "38979954",
+      "28245811",
+      "33858485",
+      "19343221",
+      "36496303",
+      "34291486",
+      "38349057",
+      "36174933",
+      "32717382",
+      "38990514",
+      "33538038",
+      "37515872",
+      "38724920",
+      "28155662",
+      "37824738",
+      "34819872",
+      "16712732",
+      "34227303",
+      "19357097",
+      "35652477",
+      "35152280",
+      "23790211",
+      "39303280",
+      "34534646",
+      "17316627",
+      "33693482",
+      "15262804",
+      "19481089",
+      "38405499",
+      "22166082",
+      "38693737",
+      "34236667",
+      "38102069",
+      "31819266",
+      "12217688",
+      "31538879",
+      "37070547",
+      "36794291",
+      "39345796",
+      "20369883",
+      "38871095",
+      "30287797",
+      "26737172",
+      "34497831",
+      "38986166",
+      "23912807",
+      "35606422",
+      "35705565",
+      "36430386",
+      "37645797",
+      "27936513",
+      "28923002",
+      "24305904",
+      "30891794",
+      "30458007",
+      "35142086",
+      "38014181",
+      "31093705",
+      "23514235",
+      "21261310",
+      "34073705",
+      "33035205",
+      "16359704",
+      "21787304",
+      "36924867"
+    ],
+    "review": [
+      "38293168",
+      "33808496",
+      "38102755",
+      "38254672",
+      "35652477",
+      "23790211",
+      "31538879",
+      "39345796",
+      "30287797"
+    ],
+    "pmc": [
+      "10827229"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38293168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.15.571942",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

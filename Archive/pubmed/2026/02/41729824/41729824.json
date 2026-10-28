@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "41729824",
+    "doi": "10.1093/bib/bbag065",
+    "title": "Revealing shared molecular markers and mechanisms in colorectal cancer and COVID-19 through bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) and Coronavirus Disease 2019 (COVID-19) are distinct diseases that may share overlapping molecular mechanisms, particularly in immune dysregulation. However, the specific regulatory pathways driving this shared pathophysiology have remained elusive, as prior studies have been limited by single-level data. To dissect this common pathobiology, we implemented a synergistic computational framework, integrating bulk transcriptomics with single-cell data. Through a multi-tiered analysis pipeline employing differential expression, weighted gene co-expression networks, and machine learning-based feature selection, we pinpointed a core molecular signature of 31 shared hub genes. Among these, four core candidates-GPR15, PTGDR2, FCER1A, and MAL-were significantly downregulated, a finding robustly associated with impaired CD8+ T cell infiltration. Delving deeper into the regulatory architecture using a modified weighted out-degree centrality algorithm, we constructed an integrated transcription factor-microRNA-target network. Network analysis revealed upregulation of p53 and downregulation of miR-3619-5p as possible drivers of immune dysfunction. Finally, E-4031 was identified through molecular simulation as a potential therapeutic agent targeting all four core genes. These findings uncover a shared regulatory axis involving immune suppression and transcriptional disruption, and provide promising diagnostic and therapeutic targets for CRC and COVID-19.",
+    "keywords": [
+      "COVID-19",
+      "bioinformatics",
+      "colorectal cancer",
+      "comorbidity",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/immunology/metabolism",
+      "*Machine Learning",
+      "*COVID-19/genetics/immunology/virology/metabolism",
+      "*Computational Biology/methods",
+      "MicroRNAs/genetics",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "SARS-CoV-2",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hairui",
+        "Yao, Haodong",
+        "Niu, Wenchao",
+        "Xing, Rongchang",
+        "Cai, Lu",
+        "Xi, Zuoxin",
+        "Gao, Shichen",
+        "Zhao, Lina"
+      ],
+      "short_names": [
+        "Wang H",
+        "Yao H",
+        "Niu W",
+        "Xing R",
+        "Cai L",
+        "Xi Z",
+        "Gao S",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9796-0221"
+      ],
+      "affiliations": [
+        "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "School of Information Engineering, Minzu University of China, 27 Zhongguancun South Avenue, Beijing 100083, China.",
+        "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+        "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hairui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Haodong",
+        "short_name": "Yao H",
+        "identifiers": [],
+        "affiliations": [
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+          "University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Wenchao",
+        "short_name": "Niu W",
+        "identifiers": [],
+        "affiliations": [
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Rongchang",
+        "short_name": "Xing R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Lu",
+        "short_name": "Cai L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China.",
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Zuoxin",
+        "short_name": "Xi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+          "School of Information Engineering, Minzu University of China, 27 Zhongguancun South Avenue, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shichen",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, China University of Geosciences, Xueyuan Road 29, Haidian District, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lina",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0002-9796-0221"
+        ],
+        "affiliations": [
+          "Multi-disciplinary Research Division, Institute of High Energy Physics Chinese Academy of Sciences, 19B Yuquan Road, Shijingshan District, Beijing 100049, China.",
+          "University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/23 18:52",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "42138601"
+    ],
+    "refs": [
+      "39539289",
+      "39119983",
+      "39036382",
+      "38742117",
+      "38572751",
+      "38542332",
+      "37943801",
+      "37765012",
+      "37457582",
+      "37261339",
+      "36505634",
+      "36220303",
+      "36191449",
+      "35866260",
+      "35246494",
+      "35079746",
+      "34787756",
+      "34347185",
+      "34071688",
+      "33924934",
+      "33765612",
+      "33727229",
+      "33441124",
+      "32979941",
+      "32954769",
+      "32444850",
+      "32321874",
+      "32234466",
+      "32066541",
+      "29604141",
+      "29425488",
+      "28572627",
+      "28422750",
+      "27466285",
+      "24255632",
+      "23193258",
+      "19847166",
+      "19498078",
+      "19399780",
+      "19114008",
+      "16199517",
+      "12776198",
+      "8517400"
+    ],
+    "similar": [
+      "41729824",
+      "41436831",
+      "41642369",
+      "41052072",
+      "40374866",
+      "41066424",
+      "40340571",
+      "39142001",
+      "42123445",
+      "42074514",
+      "40406126",
+      "40328901",
+      "41703488",
+      "41442003",
+      "41751534",
+      "39080525",
+      "39965013",
+      "41424060",
+      "38863714",
+      "34390411",
+      "40997906",
+      "41826854",
+      "42313235",
+      "39093763",
+      "40004112",
+      "42263871",
+      "40383755",
+      "40588645",
+      "39199281",
+      "41729615",
+      "41390349",
+      "34975885",
+      "41013556",
+      "40008534",
+      "41053192",
+      "38259479",
+      "42233387",
+      "41772406",
+      "41153026",
+      "40603423",
+      "42528957",
+      "42561036",
+      "41373010",
+      "41219406",
+      "39234248",
+      "36059456",
+      "39372411",
+      "39909246",
+      "41112249",
+      "41300841",
+      "39377750",
+      "42470494",
+      "41878449",
+      "41388523",
+      "40065477",
+      "42302029",
+      "37777104",
+      "40898538",
+      "40958237",
+      "41596688",
+      "29393467",
+      "39966486",
+      "41006883",
+      "37047484",
+      "40196107",
+      "32064687",
+      "39976834",
+      "39433800",
+      "30542696",
+      "38640424",
+      "37740761",
+      "40764361",
+      "41342434",
+      "39375405",
+      "42158856",
+      "42327749",
+      "39512836",
+      "41563994",
+      "41741495",
+      "41137290",
+      "41476086",
+      "40652070",
+      "41316541",
+      "39482662",
+      "40419032",
+      "36189314",
+      "40408617",
+      "36576616",
+      "41291978",
+      "38941374",
+      "40711603",
+      "40596265",
+      "41836397",
+      "40595823",
+      "41601694",
+      "34308980",
+      "42510823",
+      "41716413",
+      "40453984",
+      "39120548"
+    ],
+    "review": [
+      "41729824",
+      "41219406"
+    ],
+    "pmc": [
+      "12927884"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41729824/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag065",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

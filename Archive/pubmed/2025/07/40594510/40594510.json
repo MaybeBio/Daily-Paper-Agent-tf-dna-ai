@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "40594510",
+    "doi": "10.1038/s41598-025-07215-y",
+    "title": "Molecular docking and biological evaluation of a novel IWS1 inhibitor for the treatment of human retroperitoneal liposarcoma."
+  },
+  "content": {
+    "abstract": "IWS1 is a key assembly factor of the RNA polymerase II (RNAPII) elongation complex, and its overexpression is associated with worse outcomes in patients with liposarcoma (LPS). This study aimed to identify compounds that can disrupt the IWS1/Spt6 interaction and assess their biological effects in dedifferentiated LPS (DDLPS). Using the AlphaFold-predicted structure of IWS1, we identified a core binding region (AA 545-694) for its interaction with Spt6. Through molecular modeling and virtual screening, Ketotifen and Desloratadine were predicted as candidate inhibitors. Both were predicted to mimic Spt6 phenylalanine (F217) and disrupt the complex, which was confirmed by co-immunoprecipitation. Functional assays showed that treatment with either compound reduced migration, invasion, and spheroid formation in DDLPS cell lines. Additionally, increased nuclear localization of IWS1 was observed. These findings suggest Ketotifen and Desloratadine as promising inhibitors of the IWS1/Spt6 interaction, with potential applications in reducing the invasive properties of human LPS.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Liposarcoma/drug therapy/metabolism/pathology",
+      "*Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Loratadine/analogs & derivatives/pharmacology/chemistry",
+      "Cell Movement/drug effects",
+      "*Transcription Factors/antagonists & inhibitors/metabolism/chemistry",
+      "Protein Binding/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goryunova, Marina",
+        "He, Yiran",
+        "Karakis, Carson",
+        "Titerina, Elizaveta K",
+        "Salazar-Puerta, Ana I",
+        "Tahara, Sayumi",
+        "Sp, Nipin",
+        "Thakkar, Neil N",
+        "Combita-Heredia, Orlando",
+        "Dathathreya, Kavya",
+        "La Ferlita, Alessandro",
+        "Xu, Yanping",
+        "Zhang, Zhentao",
+        "Pollock, Raphael",
+        "Gallego-Perez, Daniel",
+        "Zhu, Hua",
+        "Hadad, Christopher M",
+        "Beane, Joal D"
+      ],
+      "short_names": [
+        "Goryunova M",
+        "He Y",
+        "Karakis C",
+        "Titerina EK",
+        "Salazar-Puerta AI",
+        "Tahara S",
+        "Sp N",
+        "Thakkar NN",
+        "Combita-Heredia O",
+        "Dathathreya K",
+        "La Ferlita A",
+        "Xu Y",
+        "Zhang Z",
+        "Pollock R",
+        "Gallego-Perez D",
+        "Zhu H",
+        "Hadad CM",
+        "Beane JD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+        "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+        "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+        "Department of Internal Medicine, Division of Medical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA.",
+        "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA.",
+        "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of General Surgery, The Ohio State University, Columbus, OH, USA.",
+        "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA.",
+        "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA. Joal.Beane@osumc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Goryunova, Marina",
+        "short_name": "Goryunova M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "He, Yiran",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Karakis, Carson",
+        "short_name": "Karakis C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Titerina, Elizaveta K",
+        "short_name": "Titerina EK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Salazar-Puerta, Ana I",
+        "short_name": "Salazar-Puerta AI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Tahara, Sayumi",
+        "short_name": "Tahara S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Sp, Nipin",
+        "short_name": "Sp N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Thakkar, Neil N",
+        "short_name": "Thakkar NN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Cómbita-Heredia, Orlando",
+        "short_name": "Cómbita-Heredia O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Dathathreya, Kavya",
+        "short_name": "Dathathreya K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "La Ferlita, Alessandro",
+        "short_name": "La Ferlita A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Medical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Yanping",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhentao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Pollock, Raphael",
+        "short_name": "Pollock R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Gallego-Perez, Daniel",
+        "short_name": "Gallego-Perez D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, Columbus, OH, USA.",
+          "Department of Surgery, Division of General Surgery, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hua",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiac Surgery, Department of Surgery, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Hadad, Christopher M",
+        "short_name": "Hadad CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Beane, Joal D",
+        "short_name": "Beane JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Surgical Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA. Joal.Beane@osumc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:29",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38552050",
+      "38500686",
+      "38492514",
+      "38118119",
+      "38104352",
+      "38001729",
+      "37760435",
+      "37298520",
+      "37237004",
+      "36924499",
+      "36651856",
+      "36439412",
+      "35547818",
+      "34822292",
+      "34791371",
+      "34278794",
+      "34265844",
+      "34021257",
+      "33772099",
+      "33179614",
+      "33118813",
+      "32555510",
+      "31988310",
+      "31875869",
+      "31507311",
+      "31436329",
+      "31106371",
+      "30852045",
+      "29546880",
+      "29250486",
+      "28978489",
+      "27420544",
+      "27354702",
+      "26629955",
+      "25300484",
+      "24980690",
+      "24831787",
+      "24462114",
+      "22936003",
+      "22854810",
+      "22743772",
+      "22039081",
+      "21356241",
+      "21253554",
+      "21094070",
+      "21067583",
+      "21060307",
+      "21057455",
+      "19141475",
+      "19023046",
+      "18814299",
+      "18086892",
+      "17585754",
+      "17234882",
+      "14657486",
+      "12524336"
+    ],
+    "similar": [
+      "40594510",
+      "21057455",
+      "19141475",
+      "12242279",
+      "40835814",
+      "33677797",
+      "21060307",
+      "17234882",
+      "31126284",
+      "33648535",
+      "37237004",
+      "32949334",
+      "40909601",
+      "26193637",
+      "40961077",
+      "29061812",
+      "35292923",
+      "30208029",
+      "26573603",
+      "25238053",
+      "39463305",
+      "40185868",
+      "33555519",
+      "30846735",
+      "31387924",
+      "28629371",
+      "40103229",
+      "28901664",
+      "26006023",
+      "33893924",
+      "39154788",
+      "31201607",
+      "34860309",
+      "39769278",
+      "25590759",
+      "34822292",
+      "41316348",
+      "31069877",
+      "39025196",
+      "34233157",
+      "35604485",
+      "28369544",
+      "20926373",
+      "21169051",
+      "39109389",
+      "40758628",
+      "32145342",
+      "27893412",
+      "23719280",
+      "27918490",
+      "35313831",
+      "40468683",
+      "22959205",
+      "32579347",
+      "33609497",
+      "25888633",
+      "40540926",
+      "40826716",
+      "26475335",
+      "34834427",
+      "25028469",
+      "18513937",
+      "31160689",
+      "35251319",
+      "26373732",
+      "40928975",
+      "16741367",
+      "30421387",
+      "40944709",
+      "32576580",
+      "41226144",
+      "34325315",
+      "36987836",
+      "32367501",
+      "29808961",
+      "31274307",
+      "40468526",
+      "21355074",
+      "38621503",
+      "31914068",
+      "27460081",
+      "24227706",
+      "24315890",
+      "20139304",
+      "32406319",
+      "18086892",
+      "40257618",
+      "39681523",
+      "37057834",
+      "35982904",
+      "27409346",
+      "28300575",
+      "37957853",
+      "36151848",
+      "29980789",
+      "39050797",
+      "30640473",
+      "24852265",
+      "19013045",
+      "26245696"
+    ],
+    "review": [
+      "40594510",
+      "33893924",
+      "21169051",
+      "40826716",
+      "18513937",
+      "35251319"
+    ],
+    "pmc": [
+      "12216911"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-07215-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40594510/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40594510",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

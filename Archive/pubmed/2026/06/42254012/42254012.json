@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42254012",
+    "doi": "10.3389/fimmu.2026.1777038",
+    "title": "Integrative multi-omics identifies MSR1 as a programmed cell death and extracellular matrix hub gene in osteoarthritis with hesperidin targeting potential."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a degenerative joint disease with complex molecular mechanisms. There is an interplay between programmed cell death (PCD) and extracellular matrix (ECM) in inflammatory diseases. This study aimed to identify a key PCD/ECM-related gene involved in OA pathogenesis through multi-omics analysis. METHODS: RNA-seq data of OA synovial tissue from the GEO databases were analyzed. Weighted gene co-expression network analysis (WGCNA), differential expression analysis, cross analysis, and protein-protein interaction (PPI) network were used to identify key PCD/ECM-related genes in OA. Regulatory networks were predicted using miRDB, TargetScan, and miRWalk databases, and transcription factor binding was analyzed using JASPAR and FIMO. The role of MSR1 in OA progression was investigated by establishing an IL-1beta-induced in vitro OA cell model. RESULTS: We identified 517 genes associated with OA that were enriched in immune and developmental pathways. Differential expression analysis and cross-analysis revealed 24 OA-associated PCD- and ECM-related genes. MSR1 was identified as the key candidate via PPI network analysis. In both the training and validation sets, MSR1 expression was higher in OA samples than in healthy samples, with an AUC value greater than 0.7. MSR1 expression was positively correlated with key immune populations and microenvironment scores, suggesting a role for MSR1 in OA pathogenesis through immune modulation. In addition, molecular docking identified hesperidin as a high-affinity MSR1-binding compound with favorable interaction stability. In vitro experiments demonstrated that MSR1 was upregulated in IL-1beta-induced OA-like chondrocytes and promoted apoptosis, extracellular matrix degradation, and NF-kappaB pathway activation. CONCLUSION: This study highlights PCD/ECM-related gene MSR1 as a central regulator of OA pathogenesis and proposes hesperidin as a potential therapeutic agent. The integrative approach provides a framework for understanding OA mechanisms and drug discovery.",
+    "keywords": [
+      "MSR1",
+      "WGCNA",
+      "extracellular matrix",
+      "hesperidin",
+      "immune microenvironment",
+      "molecular docking",
+      "osteoarthritis",
+      "programmed cell death"
+    ],
+    "mesh_terms": [
+      "*Osteoarthritis/genetics/drug therapy/metabolism/pathology",
+      "Humans",
+      "*Extracellular Matrix/metabolism/genetics",
+      "*Hesperidin/pharmacology",
+      "*Apoptosis/genetics/drug effects",
+      "Protein Interaction Maps",
+      "Multiomics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bao, Jinquan",
+        "Wu, Lingling",
+        "Zhao, Wenqiang",
+        "Li, Bo",
+        "Li, Zilong",
+        "Bai, Zhigang",
+        "Ma, Penglei",
+        "Gao, Bo",
+        "Qiao, Chenggang"
+      ],
+      "short_names": [
+        "Bao J",
+        "Wu L",
+        "Zhao W",
+        "Li B",
+        "Li Z",
+        "Bai Z",
+        "Ma P",
+        "Gao B",
+        "Qiao C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bao, Jinquan",
+        "short_name": "Bao J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingling",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wenqiang",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zilong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Zhigang",
+        "short_name": "Bai Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Penglei",
+        "short_name": "Ma P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bo",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Chenggang",
+        "short_name": "Qiao C",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 12:38",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40563514",
+      "40545965",
+      "40493524",
+      "40485220",
+      "40050342",
+      "39937200",
+      "39332163",
+      "38711519",
+      "38664616",
+      "38440290",
+      "37854319",
+      "37711057",
+      "37580395",
+      "37506502",
+      "37232576",
+      "36982438",
+      "36571440",
+      "35525025",
+      "35101656",
+      "35034907",
+      "34737801",
+      "33644066",
+      "33604393",
+      "33536413",
+      "33414452",
+      "33014529",
+      "32955487",
+      "32066456",
+      "31945013",
+      "31903103",
+      "31527653",
+      "30485705",
+      "30319283",
+      "30291029",
+      "29509840",
+      "29154963",
+      "25688060",
+      "25605792",
+      "24412614",
+      "24069595",
+      "22763563",
+      "22641138",
+      "22455463",
+      "19855427",
+      "19847166",
+      "19114008",
+      "16585599",
+      "16324852",
+      "12488451"
+    ],
+    "similar": [
+      "42254012",
+      "40216809",
+      "42233387",
+      "41089260",
+      "42363474",
+      "41237469",
+      "41574521",
+      "42352882",
+      "42353855",
+      "42584803",
+      "42249421",
+      "41316378",
+      "42051521",
+      "39612274",
+      "42377012",
+      "42274933",
+      "41232761",
+      "40592131",
+      "40196125",
+      "38771826",
+      "40628511",
+      "39026663",
+      "42399461",
+      "41997321",
+      "39839184",
+      "39176085",
+      "41546107",
+      "40442788",
+      "39086489",
+      "40589764",
+      "41694337",
+      "42410693",
+      "30365099",
+      "38070024",
+      "41017094",
+      "41112282",
+      "40281518",
+      "41273287",
+      "39639239",
+      "42397093",
+      "39640258",
+      "42292825",
+      "39438957",
+      "42123445",
+      "42045320",
+      "41591671",
+      "33360372",
+      "41049291",
+      "40564983",
+      "41444617",
+      "41628840",
+      "38851464",
+      "41635814",
+      "41638276",
+      "41111909",
+      "40426157",
+      "30551734",
+      "40885352",
+      "42106542",
+      "41965191",
+      "34340232",
+      "39779817",
+      "42392495",
+      "32281255",
+      "42484941",
+      "42389985",
+      "38664616",
+      "32342805",
+      "42474760",
+      "41823093",
+      "40335993",
+      "41288681",
+      "36068644",
+      "40804350",
+      "38444758",
+      "42495609",
+      "35860189",
+      "42449128",
+      "41502501",
+      "41491956",
+      "41449394",
+      "41326925",
+      "42284285",
+      "34583778",
+      "34521030",
+      "32062610",
+      "40635214",
+      "41832502",
+      "40771586",
+      "40995851",
+      "39953769",
+      "39121926",
+      "38509535",
+      "31637891",
+      "37853395",
+      "40724902",
+      "35603405",
+      "41146237",
+      "41067202",
+      "32597559"
+    ],
+    "review": [
+      "42254012",
+      "34340232"
+    ],
+    "pmc": [
+      "13233285"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42254012/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1777038",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

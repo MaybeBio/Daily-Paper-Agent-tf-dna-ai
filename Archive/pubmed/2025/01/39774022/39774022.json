@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39774022",
+    "doi": "10.1038/s41598-024-83730-8",
+    "title": "Mechanistic insights into gut microbe derived siderophores and PHD2 interactions with implications for HIF-1alpha stabilization."
+  },
+  "content": {
+    "abstract": "In oxygen-deprived conditions, cells respond by activating adaptive mechanisms to bolster their survival and protect tissue integrity. A key player in this process is the HIF-1alpha signaling cascade, meticulously regulated by Prolyl Hydroxylase Domain 2 (PHD2), which orchestrates cellular responses to varying oxygen levels. The primary aim of this investigation is to utilize gut siderophores as inhibitors of PHD2 in ischemic conditions. This study also helps in understanding the structural mechanisms by which gut microbiota regulate HIF-1alpha via PHD2 inhibition through the secretion of siderophores. We explore potential PHD2 inhibitors through in-silico approaches, specifically molecular docking, binding pose metadynamics, molecular dynamics simulations, and free energy calculations. We evaluated siderophores secreted by gut microbiota as candidate inhibitors for PHD2. Docking studies revealed that Salmochelin SX exhibits the highest binding affinity to PHD2 (- 9.527 kcal/mol), interacting with key residues such as ASP254, TYR310, ASP315, and ARG322. Despite its high affinity, binding pose metadynamics indicated instability for Salmochelin SX, whereas Staphyloferrin A demonstrated superior stability. Molecular dynamics simulations confirmed stable ligand interactions with PHD2, highlighting HIS313 and ASP315 as critical for inhibition. Principal Component Analysis (PCA) and Free Energy Landscape (FEL) analyses underscored conformational changes and binding stability, suggesting that these interactions may stabilize PHD2's active site and have potential therapeutic implications. Additionally, the study reveals how gut microbiota prevent gut dysbiosis through the stabilization of HIF-1alpha signaling by secreting siderophores.",
+    "keywords": [
+      "Gut microbiota",
+      "HIF-1alpha signaling",
+      "Hypoxia",
+      "Ischemia",
+      "Siderophores"
+    ],
+    "mesh_terms": [
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Gastrointestinal Microbiome",
+      "*Hypoxia-Inducible Factor-Proline Dioxygenases/metabolism",
+      "*Siderophores/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "Protein Binding",
+      "Protein Stability"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patel, Jainabbi Irshad Ahmed",
+        "Poyya, Jagadeesha",
+        "Padakannaya, Apeksha",
+        "Kurdekar, Namrata Manjunath",
+        "Khandagale, Ajay Sathayanarayan",
+        "Joshi, Chandrashekhar Gajanan",
+        "Kanade, Santosh R",
+        "Satyamoorthy, Kapaettu"
+      ],
+      "short_names": [
+        "Patel JIA",
+        "Poyya J",
+        "Padakannaya A",
+        "Kurdekar NM",
+        "Khandagale AS",
+        "Joshi CG",
+        "Kanade SR",
+        "Satyamoorthy K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India.",
+        "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India. poyyajagadeesha@gmail.com.",
+        "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India.",
+        "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India.",
+        "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India.",
+        "Department of Biochemistry, Mangalore University, Mangalore, Karnataka, 574199, India.",
+        "Department of Plant Sciences, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, Telangana, India.",
+        "Shri Dharmasthala Manjunatheshwara (SDM) University, Manjushree Nagar, Sattur, Dharwad, Karnataka, 580009, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patel, Jainabbi Irshad Ahmed",
+        "short_name": "Patel JIA",
+        "identifiers": [],
+        "affiliations": [
+          "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India."
+        ]
+      },
+      {
+        "full_name": "Poyya, Jagadeesha",
+        "short_name": "Poyya J",
+        "identifiers": [],
+        "affiliations": [
+          "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India. poyyajagadeesha@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Padakannaya, Apeksha",
+        "short_name": "Padakannaya A",
+        "identifiers": [],
+        "affiliations": [
+          "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India."
+        ]
+      },
+      {
+        "full_name": "Kurdekar, Namrata Manjunath",
+        "short_name": "Kurdekar NM",
+        "identifiers": [],
+        "affiliations": [
+          "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India."
+        ]
+      },
+      {
+        "full_name": "Khandagale, Ajay Sathayanarayan",
+        "short_name": "Khandagale AS",
+        "identifiers": [],
+        "affiliations": [
+          "SDM Research Institute for Biomedical Sciences, Shri Dharmasthala Manjunatheshwara University, Dharwad, Karnataka, 580009, India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Chandrashekhar Gajanan",
+        "short_name": "Joshi CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Mangalore University, Mangalore, Karnataka, 574199, India."
+        ]
+      },
+      {
+        "full_name": "Kanade, Santosh R",
+        "short_name": "Kanade SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Sciences, School of Life Sciences, University of Hyderabad, Hyderabad, 500046, Telangana, India."
+        ]
+      },
+      {
+        "full_name": "Satyamoorthy, Kapaettu",
+        "short_name": "Satyamoorthy K",
+        "identifiers": [],
+        "affiliations": [
+          "Shri Dharmasthala Manjunatheshwara (SDM) University, Manjushree Nagar, Sattur, Dharwad, Karnataka, 580009, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 18:22",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "40914945"
+    ],
+    "refs": [
+      "37981648",
+      "37965556",
+      "36816751",
+      "35798726",
+      "35461318",
+      "34583309",
+      "34098495",
+      "33913638",
+      "31996410",
+      "31377947",
+      "31228465",
+      "30805897",
+      "29522678",
+      "29522057",
+      "28615919",
+      "28274224",
+      "28106131",
+      "27780750",
+      "27672153",
+      "27561929",
+      "27050287",
+      "26628374",
+      "26584231",
+      "26324945",
+      "26187473",
+      "26006106",
+      "23937437",
+      "23683440",
+      "23595060",
+      "23376032",
+      "22897855",
+      "22878108",
+      "22687491",
+      "22304911",
+      "20965423",
+      "20949517",
+      "20600011",
+      "20345171",
+      "19709449",
+      "19395675",
+      "18259202",
+      "18259201",
+      "18259200",
+      "17034125",
+      "16782814",
+      "15027866",
+      "12101228",
+      "11454738",
+      "10749844",
+      "10592235",
+      "10386577"
+    ],
+    "similar": [
+      "39774022",
+      "27030384",
+      "20574527",
+      "26949511",
+      "39244636",
+      "26740011",
+      "22804960",
+      "23466866",
+      "23088526",
+      "24875174",
+      "38870755",
+      "34205318",
+      "29542054",
+      "20308610",
+      "37670941",
+      "25420025",
+      "32937467",
+      "24190904",
+      "16155211",
+      "21335603",
+      "39859474",
+      "23787140",
+      "16815840",
+      "18500250",
+      "25868626",
+      "30817904",
+      "26337139",
+      "31996410",
+      "24105925",
+      "36902141",
+      "33713969",
+      "26765925",
+      "29394091",
+      "24354513",
+      "16489060",
+      "22687491",
+      "23487784",
+      "22933585",
+      "29530922",
+      "20581113",
+      "16139409",
+      "31998438",
+      "25231392",
+      "23501055",
+      "15104534",
+      "36397226",
+      "25010988",
+      "20026900",
+      "21627711",
+      "36191632",
+      "26818499",
+      "22946054",
+      "28038470",
+      "17101841",
+      "27770548",
+      "22451659",
+      "27393459",
+      "27624128",
+      "29644938",
+      "19304911",
+      "24055079",
+      "22075993",
+      "21291529",
+      "37175841",
+      "34190032",
+      "40136672",
+      "33410354",
+      "39844325",
+      "34658364",
+      "37367818",
+      "28341633",
+      "24010824",
+      "24711448",
+      "26112411",
+      "27775044",
+      "30784357",
+      "22971010",
+      "39168829",
+      "35675755",
+      "26108712",
+      "36219563",
+      "17060326",
+      "28418093",
+      "35724581",
+      "34339019",
+      "31413262",
+      "19339211",
+      "20216402",
+      "16306444",
+      "37086960",
+      "21435465",
+      "29601782",
+      "27001147",
+      "20461086",
+      "26868435",
+      "18072750",
+      "39593151",
+      "31993253",
+      "17370314",
+      "23077544"
+    ],
+    "review": [
+      "39774022",
+      "30817904",
+      "20461086"
+    ],
+    "pmc": [
+      "11707245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-83730-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39774022/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

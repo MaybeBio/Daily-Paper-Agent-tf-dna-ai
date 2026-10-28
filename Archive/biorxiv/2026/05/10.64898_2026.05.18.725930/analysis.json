@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.18.725930",
+  "title": "Prediction of Transcription Factor DNA Binding Affinity with High-Throughput <i>K</i> <sub>d</sub> Measurements and Deep Learning",
+  "authors": "Zhi Wang; Di Wang; Ke Shen; Junchen Luo; Xinyao Wang; Nan Wu; Yunzhi Lang; Xiangyu Wang; Jun Ren; Wenyang Dong; Lu Pan; Yitong Lyu; Gang Li; Dubai Li; Chen Xie; Zhen Zhang; Shijun Yu; Liuying Shan; Nannan Zhang; Jian Yan; Mingchen Chen; Xiaoliang Sunney Xie",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-20",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过高通量Kd测量和深度学习模型Seq2Kd预测TF-DNA绝对结合亲和力，核心聚焦TF-DNA互作机制，方法为AI建模，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) regulate gene expression through specific interactions with genomic DNA. While TF binding motifs from public databases describe sequence preferences, quantifying genome-wide affinity ( K d ) is highly desirable for a more accurate thermodynamic description. Here, we report ivt FOODIE ( in vitro FOOtprinting with DeamInasE), an assay that leverages deaminase-mediated cytosine-to-uracil conversion to measure K d values for a given TF across accessible genomic regions from human cells. By pre-training on TF binding sites from JASPAR and fine-tuning with our ivt FOODIE data from 46 TFs representing 13 different DNA-binding domains (DBDs), we developed Seq2K d , a deep learning model capable of predicting a TF’s absolute binding affinity on DNA sequences. Seq2K d enables de novo motif discovery of ∼500 previously uncharacterized human TFs and reveals the effects of genetic variation both in TF-coding regions and DNA-binding sites on gene expression and disease susceptibility. By correlating predicted affinity changes with the sign and magnitude of expression quantitative trait locus (eQTL) effects, we stratified TFs into activator-like and repressor-like groups. Compared to clinically benign variants, pathogenic single-nucleotide variants (SNVs) within regulatory and protein-coding regions show significantly larger predicted shifts in K d . We provide an interactive web portal, the ENcyclopedia of Transcription-factor Interactions with Regulatory Elements (ENTIRE), which integrates the Seq2K d model with the ivt FOODIE dataset. This resource offers thermodynamic prediction for TF–DNA interactions for functional genomics and human disease.",
+  "abstract_zh": "转录因子（TFs）通过与基因组DNA的特异性相互作用调控基因表达。虽然公共数据库中的TF结合基序描述了序列偏好，但量化全基因组亲和力（K d ）对于更精确的热力学描述极为必要。在此，我们报告了ivt FOODIE（体外脱氨酶介导的足迹分析， in vitro FOOtprinting with DeamInasE），一种利用脱氨酶介导的胞嘧啶至尿嘧啶转换来测量人类细胞中可及基因组区域上给定TF的K d 值的检测方法。通过预训练于JASPAR的TF结合位点，并用来自代表13种不同DNA结合域（DBDs）的46个TFs的ivt FOODIE数据进行微调，我们开发了Seq2K d ，一种能够预测TF在DNA序列上绝对结合亲和力的深度学习模型。Seq2K d 使得约500个先前未表征的人类TFs的从头基序发现成为可能，并揭示了TF编码区和DNA结合位点中遗传变异对基因表达和疾病易感性的影响。通过将预测的亲和力变化与表达数量性状位点（eQTL）效应的符号和幅度相关联，我们将TFs分为激活样和抑制样两组。与临床良性变异相比，调控区和蛋白质编码区内的致病性单核苷酸变异（SNVs）显示出显著更大的预测K d 位移。我们提供了一个交互式网络门户，即转录因子与调控元件相互作用百科全书（ENTIRE），该门户整合了Seq2K d 模型与ivt FOODIE数据集。该资源为功能基因组学和人类疾病提供TF–DNA相互作用的热力学预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725930",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725930",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.18.725930/index.html"
+}

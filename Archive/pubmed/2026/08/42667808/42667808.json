@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "42667808",
+    "doi": "10.1016/j.tranon.2026.102995",
+    "title": "Integrative single-cell and spatial transcriptomic analysis reveals 4-HNE-related stromal remodeling in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: 4-HNE is a lipid peroxidation product involved in oxidative stress, tumor microenvironment remodeling, and tumor progression. This study aimed to characterize the cellular distribution, prognostic relevance, and functional roles of 4-HNE-related molecular features in lung adenocarcinoma. METHODS: 4-HNE-related targets were collected from ChEMBL and SwissTargetPrediction, followed by enrichment, differential expression, and survival analyses in TCGA-LUAD. A HNE_score was constructed using single-cell RNA-seq data. Cell-cell communication, fibroblast trajectory, transcription factor activity, spatial transcriptomics, machine learning, molecular docking, virtual knockout, and EdU assays were further performed. RESULTS: A total of 1,280 4-HNE-related candidate targets were identified and were mainly associated with xenobiotic response, PPAR signaling, estrogen signaling, and chemical carcinogenesis-related pathways. At the single-cell level, higher HNE_score values were mainly observed in macrophage, epithelial, and fibroblast populations. The HNE_high state was associated with enhanced stromal communication and a matrix-remodeling pattern involving fibroblasts, epithelial cells, and myeloid cells, together with enrichment of CTHRC1-positive myofibroblastic cancer-associated fibroblast features. RRM2 and CYP4B1 were identified as stable HNE_score-related prognostic candidates with opposite prognostic associations. RRM2 knockdown reduced DNA synthesis and proliferation in PC9 cells, supporting its functional relevance in lung adenocarcinoma. CONCLUSION: This study provides a multilayered map of 4-HNE-related cellular states in lung adenocarcinoma and links 4-HNE activity to stromal remodeling, altered cell-cell communication, and prognostic gene screening. RRM2 and CYP4B1 may represent key HNE-related prognostic candidates, with RRM2 showing functional relevance in tumor cell proliferation.",
+    "keywords": [
+      "4-HNE",
+      "Lipid peroxidation",
+      "Lung adenocarcinoma",
+      "RRM2",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Pei",
+        "Ma, Ke",
+        "Yu, Yue",
+        "Cao, Xu-Chen",
+        "Lyu, Yang"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Ma K",
+        "Yu Y",
+        "Cao XC",
+        "Lyu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Intensive Care Unit, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China.",
+        "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China.",
+        "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China.",
+        "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China. Electronic address: caoxuchen@tmu.edu.cn.",
+        "Department of Intensive Care Unit, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China. Electronic address: lyuyang@tjmuch.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Pei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Ke",
+        "short_name": "Ma K",
+        "identifiers": [],
+        "affiliations": [
+          "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yue",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Xu-Chen",
+        "short_name": "Cao XC",
+        "identifiers": [],
+        "affiliations": [
+          "The First Department of Breast Cancer, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, Tianjin's Clinical Research Center for Cancer, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China. Electronic address: caoxuchen@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lyu, Yang",
+        "short_name": "Lyu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Huan-Hu-Xi Road, He-Xi District, Tianjin, 300060, China. Electronic address: lyuyang@tjmuch.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational oncology"
+    ],
+    "journal_abbrev": [
+      "Transl Oncol"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/29 23:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42667808",
+      "42495647",
+      "42136962",
+      "42206269",
+      "42512054",
+      "42611083",
+      "40616092",
+      "41716413",
+      "40705084",
+      "42486346",
+      "42089585",
+      "41663460",
+      "42051516",
+      "42698055",
+      "41761123",
+      "42642681",
+      "41168822",
+      "41341805",
+      "42531733",
+      "40517220",
+      "42520529",
+      "42422066",
+      "41246350",
+      "42443906",
+      "42577419",
+      "42469385",
+      "42625168",
+      "41371106",
+      "42240917",
+      "42288924",
+      "41383634",
+      "42238572",
+      "42435052",
+      "41342545",
+      "42220487",
+      "42079738",
+      "42180849",
+      "41498033",
+      "40308576",
+      "42336135",
+      "40396179",
+      "42212139",
+      "42614523",
+      "40936758",
+      "42564958",
+      "42352501",
+      "42140356",
+      "42664787",
+      "42445428",
+      "41485251",
+      "41467951",
+      "41948724",
+      "41836446",
+      "42558886",
+      "40787454",
+      "42402362",
+      "39516442",
+      "42265520",
+      "42209795",
+      "41249682",
+      "41656832",
+      "42040898",
+      "40657391",
+      "42674820",
+      "42343374",
+      "42317342",
+      "42364542",
+      "42183963",
+      "37559628",
+      "40474806",
+      "42370143",
+      "41436831",
+      "41164190",
+      "42067796",
+      "40722679",
+      "42491158",
+      "40617150",
+      "40682067",
+      "42151495",
+      "41836418",
+      "42122127",
+      "41776080",
+      "42270842",
+      "40811979",
+      "41208987",
+      "40672941",
+      "42210008",
+      "37942473",
+      "42195019",
+      "40228772",
+      "39895784",
+      "41164195",
+      "41234862",
+      "41491011",
+      "42079345",
+      "42695089",
+      "42227003",
+      "42222902",
+      "41483290",
+      "39696439"
+    ],
+    "review": [
+      "42667808"
+    ],
+    "pmc": [
+      "13545281"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1936-5233(26)00331-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42667808/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1936-5233(26)00331-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

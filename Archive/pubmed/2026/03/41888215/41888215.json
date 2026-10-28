@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41888215",
+    "doi": "10.1038/s41598-026-45572-4",
+    "title": "Immunoinformatic-based design of a multi-epitope subunit vaccine against Ruminococcus torques using subtractive proteomics and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Ruminococcus torques is an anaerobic, Gram-positive gut bacterium that has been associated with gastrointestinal diseases including irritable bowel syndrome (IBS) and inflammatory bowel disease (IBD). Its mucolytic effect disrupts the integrity of the intestinal barriers, which are involved in dysbiosis and pathogenicity. Recent clinical evidence has also reported its involvement in extraintestinal infections like pneumonia, keratitis, bacteremia and ocular infection in immunocompromised individuals. Although, R. torques has emerged as a clinically more significant pathogen, no vaccine is yet approved against it, highlighting the urgent need for novel prophylaxis strategies. The primary objective of this investigation was to employ bioinformatics and immunoinformatics strategies in the construction of a candidate multi-epitope vaccine. The complete proteome of Ruminococcus torques strain ATCC 27,756 was obtained and subjected to a series of analyses to find strong B- and T-cell epitopes with high antigenicity, non-allergenicity and non-toxicity. Key proteins such as cell division protein FtsX, single-stranded DNA binding protein and probable peptidoglycan glycosyltransferase FtsW were identified as the final target candidates. A multi-epitope vaccine was designed by linking the selected epitopes with the assistance of suitable spacers and adjuvant. The three-dimensional structure of the vaccine was modeled, refined and validated by in-silico approach. Furthermore, the protein-protein molecular docking was conducted to define probable binding poses on the multi-epitope vaccine against the Toll-like receptor (TLR4) protein. The stability of the vaccine-receptor complex was further validated by molecular dynamics simulation. In silico cloning of the vaccine construct yielded a GC content of 49.29% and a Codon Adaptation Index (CAI) of 0.875 indicating maximum expression potential in the host system. Although computational analyses provide valuable insights, experimental validation is required to confirm the immunogenicity and protective efficacy of the vaccine proposed.",
+    "keywords": [
+      "Ruminococcus torques",
+      "Immunoinformatics",
+      "Multi-epitope vaccine",
+      "Reverse vaccinology",
+      "Subtractive proteomics"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Proteomics/methods",
+      "Immunoinformatics",
+      "*Epitopes, T-Lymphocyte/immunology/chemistry",
+      "*Bacterial Vaccines/immunology/chemistry",
+      "Protein Subunit Vaccines",
+      "*Vaccines, Subunit/immunology/chemistry",
+      "Bacterial Proteins/immunology",
+      "*Epitopes, B-Lymphocyte/immunology/chemistry",
+      "Computational Biology",
+      "*Epitopes/immunology",
+      "Proteome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kousar, Samina",
+        "Manzoor, Irfan",
+        "Muhammad, Sher",
+        "Almohaimeed, Hailah M",
+        "Hasan, Tabinda",
+        "Fenibo, Emmanuel O",
+        "Matambo, Tonderayi"
+      ],
+      "short_names": [
+        "Kousar S",
+        "Manzoor I",
+        "Muhammad S",
+        "Almohaimeed HM",
+        "Hasan T",
+        "Fenibo EO",
+        "Matambo T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1583-3032"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Faculty of Sciences, The Superior University Lahore, Lahore, 54000, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan.",
+        "Faculty of Agriculture and Veterinary Sciences, Superior University Lahore, Lahore, 54000, Pakistan. sher.muhammad@superior.edu.pk.",
+        "Department of Basic Science, College of Medicine, Princess Nourah bint Abdulrahman University, P.O.Box 84428, Riyadh, 11671, Saudi Arabia.",
+        "Department of Basic Science, College of Medicine, Princess Nourah bint Abdulrahman University, P.O.Box 84428, Riyadh, 11671, Saudi Arabia.",
+        "National Agency for Food and Drug Administration, 8-10 Merret Road, Medical Compound, Yaba, Lagos State, Nigeria.",
+        "Centre for Competence in Environmental Biotechnology, College of Animal and Environmental Science, University of South Africa, Florida Science Campus, Roodepoort, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kousar, Samina",
+        "short_name": "Kousar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Faculty of Sciences, The Superior University Lahore, Lahore, 54000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Manzoor, Irfan",
+        "short_name": "Manzoor I",
+        "identifiers": [
+          "0000-0003-1583-3032"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Muhammad, Sher",
+        "short_name": "Muhammad S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Agriculture and Veterinary Sciences, Superior University Lahore, Lahore, 54000, Pakistan. sher.muhammad@superior.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Almohaimeed, Hailah M",
+        "short_name": "Almohaimeed HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Science, College of Medicine, Princess Nourah bint Abdulrahman University, P.O.Box 84428, Riyadh, 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hasan, Tabinda",
+        "short_name": "Hasan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Science, College of Medicine, Princess Nourah bint Abdulrahman University, P.O.Box 84428, Riyadh, 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Fenibo, Emmanuel O",
+        "short_name": "Fenibo EO",
+        "identifiers": [],
+        "affiliations": [
+          "National Agency for Food and Drug Administration, 8-10 Merret Road, Medical Compound, Yaba, Lagos State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Matambo, Tonderayi",
+        "short_name": "Matambo T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Competence in Environmental Biotechnology, College of Animal and Environmental Science, University of South Africa, Florida Science Campus, Roodepoort, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Mar 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:15",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42420440"
+    ],
+    "refs": [
+      "40854630",
+      "40597387",
+      "40297578",
+      "40255918",
+      "40223268",
+      "39850273",
+      "39504600",
+      "39038391",
+      "38975756",
+      "38690283",
+      "38418560",
+      "38311642",
+      "38099061",
+      "38001481",
+      "37933859",
+      "37735703",
+      "37166683",
+      "37022613",
+      "37015876",
+      "36371806",
+      "36298525",
+      "36225900",
+      "36092861",
+      "35949048",
+      "35632575",
+      "35632446",
+      "35514977",
+      "35418729",
+      "35414157",
+      "34690620",
+      "34609711",
+      "34556364",
+      "34026584",
+      "33441035",
+      "33351863",
+      "33101309",
+      "32295479",
+      "31609969",
+      "31545127",
+      "30692671",
+      "30236283",
+      "29285689",
+      "28959259",
+      "28875543",
+      "28367149",
+      "28079879",
+      "27672674",
+      "27671647",
+      "24911789",
+      "24878803",
+      "23737448",
+      "22784991",
+      "21738325",
+      "21685045",
+      "21111484",
+      "21029963",
+      "19528036",
+      "19055730",
+      "18937104",
+      "18045787",
+      "17973982",
+      "17207271",
+      "15980527",
+      "14681410",
+      "14511229",
+      "8808585"
+    ],
+    "similar": [
+      "41888215",
+      "40297578",
+      "41449186",
+      "39936152",
+      "39809513",
+      "42445188",
+      "42035012",
+      "34425197",
+      "32931955",
+      "39018007",
+      "42436212",
+      "41791311",
+      "38799422",
+      "41028278",
+      "40589333",
+      "36459272",
+      "42168870",
+      "41949632",
+      "42013568",
+      "36775659",
+      "40957351",
+      "40610881",
+      "38116749",
+      "42148102",
+      "41708036",
+      "41629588",
+      "41897006",
+      "41252394",
+      "39514991",
+      "33866250",
+      "42323435",
+      "40018038",
+      "40014550",
+      "40334722",
+      "40730055",
+      "41023772",
+      "41083417",
+      "40739488",
+      "36845087",
+      "41526444",
+      "40056072",
+      "34611250",
+      "38407210",
+      "42417153",
+      "40698087",
+      "39039549",
+      "41593501",
+      "41905024",
+      "41679099",
+      "39992906",
+      "41599631",
+      "37309762",
+      "37934390",
+      "36603375",
+      "31962160",
+      "40829349",
+      "38710251",
+      "30797936",
+      "37073655",
+      "40641013",
+      "42119371",
+      "40959094",
+      "42467983",
+      "42192530",
+      "41792674",
+      "37774751",
+      "34917072",
+      "41757946",
+      "35429833",
+      "41746998",
+      "37506789",
+      "39611932",
+      "41534429",
+      "41727457",
+      "42185761",
+      "38690283",
+      "37771176",
+      "41196893",
+      "41265053",
+      "40913648",
+      "32928063",
+      "41888661",
+      "40890251",
+      "42420440",
+      "41765043",
+      "38938443",
+      "41303441",
+      "37608125",
+      "39919064",
+      "31394292",
+      "41467395",
+      "41654930",
+      "41381008",
+      "38987613",
+      "39221241",
+      "37723882",
+      "40226615",
+      "31606417",
+      "40303072",
+      "35250977"
+    ],
+    "review": [
+      "41888215",
+      "42467983"
+    ],
+    "pmc": [
+      "13171970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-45572-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41888215/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

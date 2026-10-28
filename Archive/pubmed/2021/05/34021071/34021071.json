@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "34021071",
+    "doi": "10.1158/1541-7786.MCR-20-1017",
+    "title": "Defining the Energetic Basis for a Conformational Switch Mediating Ligand-Independent Activation of Mutant Estrogen Receptors in Breast Cancer."
+  },
+  "content": {
+    "abstract": "Although most primary estrogen receptor (ER)-positive breast cancers respond well to endocrine therapies, many relapse later as metastatic disease due to endocrine therapy resistance. Over one third of these are associated with mutations in the ligand-binding domain (LBD) that activate the receptor independent of ligand. We have used an array of advanced computational techniques rooted in molecular dynamics simulations, in concert with and validated by experiments, to characterize the molecular mechanisms by which specific acquired somatic point mutations give rise to ER constitutive activation. By comparing structural and energetic features of constitutively active mutants and ligand-bound forms of ER-LBD with unliganded wild-type (WT) ER, we characterize a spring force originating from strain in the Helix 11-12 loop of WT-ER, opposing folding of Helix 12 into the active conformation and keeping WT-ER off and disordered, with the ligand-binding pocket open for rapid ligand binding. We quantify ways in which this spring force is abrogated by activating mutations that latch (Y537S) or relax (D538G) the folded form of the loop, enabling formation of the active conformation without ligand binding. We also identify a new ligand-mediated hydrogen-bonding network that stabilizes the active, ligand-bound conformation of WT-ER LBD, and similarly stabilizes the active conformation of the ER mutants in the hormone-free state. IMPLICATIONS: Our investigations provide deep insight into the energetic basis for the structural mechanisms of receptor activation through mutation, exemplified here with ER in endocrine-resistant metastatic breast cancers, with potential application to other dysregulated receptor signaling due to driver mutations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Breast Neoplasms/genetics/metabolism/*pathology",
+      "Crystallography, X-Ray",
+      "Female",
+      "Humans",
+      "Ligands",
+      "Models, Molecular",
+      "*Mutation",
+      "Protein Binding",
+      "*Protein Conformation",
+      "Receptors, Estrogen/*chemistry/genetics/metabolism",
+      "Tumor Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mayne, Christopher G",
+        "Toy, Weiyi",
+        "Carlson, Kathryn E",
+        "Bhatt, Trusha",
+        "Fanning, Sean W",
+        "Greene, Geoffrey L",
+        "Katzenellenbogen, Benita S",
+        "Chandarlapaty, Sarat",
+        "Katzenellenbogen, John A",
+        "Tajkhorshid, Emad"
+      ],
+      "short_names": [
+        "Mayne CG",
+        "Toy W",
+        "Carlson KE",
+        "Bhatt T",
+        "Fanning SW",
+        "Greene GL",
+        "Katzenellenbogen BS",
+        "Chandarlapaty S",
+        "Katzenellenbogen JA",
+        "Tajkhorshid E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9428-0060",
+        "ORCID: 0000-0001-6894-8728",
+        "ORCID: 0000-0002-8847-2752",
+        "ORCID: 0000-0003-4532-8053",
+        "ORCID: 0000-0003-0914-0010",
+        "ORCID: 0000-0001-8434-1010"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Illinois at Urbana-Champaign, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Urbana, Illinois.",
+        "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York.",
+        "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois.",
+        "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York.",
+        "Ben May Department for Cancer Research, University of Chicago, Chicago, Illinois.",
+        "Ben May Department for Cancer Research, University of Chicago, Chicago, Illinois.",
+        "Department of Molecular and Integrative Physiology, University of Illinois at Urbana-Champaign, Urbana, Illinois.",
+        "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York.",
+        "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois. emad@illinois.edu jkatzene@illinois.edu.",
+        "Department of Biochemistry, University of Illinois at Urbana-Champaign, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Urbana, Illinois. emad@illinois.edu jkatzene@illinois.edu.",
+        "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mayne, Christopher G",
+        "short_name": "Mayne CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Illinois at Urbana-Champaign, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Urbana, Illinois."
+        ]
+      },
+      {
+        "full_name": "Toy, Weiyi",
+        "short_name": "Toy W",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Carlson, Kathryn E",
+        "short_name": "Carlson KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois."
+        ]
+      },
+      {
+        "full_name": "Bhatt, Trusha",
+        "short_name": "Bhatt T",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Fanning, Sean W",
+        "short_name": "Fanning SW",
+        "identifiers": [
+          "0000-0002-9428-0060"
+        ],
+        "affiliations": [
+          "Ben May Department for Cancer Research, University of Chicago, Chicago, Illinois."
+        ]
+      },
+      {
+        "full_name": "Greene, Geoffrey L",
+        "short_name": "Greene GL",
+        "identifiers": [
+          "0000-0001-6894-8728"
+        ],
+        "affiliations": [
+          "Ben May Department for Cancer Research, University of Chicago, Chicago, Illinois."
+        ]
+      },
+      {
+        "full_name": "Katzenellenbogen, Benita S",
+        "short_name": "Katzenellenbogen BS",
+        "identifiers": [
+          "0000-0002-8847-2752"
+        ],
+        "affiliations": [
+          "Department of Molecular and Integrative Physiology, University of Illinois at Urbana-Champaign, Urbana, Illinois."
+        ]
+      },
+      {
+        "full_name": "Chandarlapaty, Sarat",
+        "short_name": "Chandarlapaty S",
+        "identifiers": [
+          "0000-0003-4532-8053"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, Human Oncology and Pathogenesis Program, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Katzenellenbogen, John A",
+        "short_name": "Katzenellenbogen JA",
+        "identifiers": [
+          "0000-0003-0914-0010"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois. emad@illinois.edu jkatzene@illinois.edu."
+        ]
+      },
+      {
+        "full_name": "Tajkhorshid, Emad",
+        "short_name": "Tajkhorshid E",
+        "identifiers": [
+          "0000-0001-8434-1010"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Illinois at Urbana-Champaign, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Urbana, Illinois. emad@illinois.edu jkatzene@illinois.edu.",
+          "Department of Chemistry, University of Illinois at Urbana-Champaign, Urbana, Illinois."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer research : MCR"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Res"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/23 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "41516337",
+      "40884685",
+      "39671302",
+      "39598735",
+      "39184142",
+      "38643482",
+      "37883178",
+      "36877834",
+      "36336145"
+    ],
+    "refs": [
+      "32805108",
+      "32752662",
+      "30205045",
+      "29662238",
+      "29438694",
+      "29390830",
+      "29202130",
+      "28904064",
+      "28749600",
+      "28746339",
+      "28718930",
+      "28701416",
+      "28475830",
+      "28027327",
+      "27986707",
+      "27532364",
+      "27174596",
+      "26889708",
+      "26836308",
+      "26609855",
+      "26592383",
+      "26586503",
+      "26583988",
+      "26238484",
+      "25018675",
+      "24944348",
+      "24071849",
+      "24000174",
+      "23527883",
+      "23341755",
+      "23146088",
+      "23145473",
+      "22406404",
+      "21673899",
+      "20133683",
+      "19847780",
+      "19575467",
+      "18451092",
+      "18075575",
+      "17894371",
+      "16683746",
+      "16222654",
+      "15185334",
+      "14683521",
+      "12563018",
+      "11937504",
+      "11924734",
+      "11250199",
+      "10753809",
+      "10551784",
+      "9398213",
+      "9338790",
+      "8923465",
+      "8744570",
+      "1445887"
+    ],
+    "similar": [
+      "34021071",
+      "33980285",
+      "9398213",
+      "8923465",
+      "32067153",
+      "26836308",
+      "9259327",
+      "30826563",
+      "32381587",
+      "39184142",
+      "27472462",
+      "30733228",
+      "9102207",
+      "32277377",
+      "30850489",
+      "9774463",
+      "28904064",
+      "12554752",
+      "33184109",
+      "29306943",
+      "8833652",
+      "15661830",
+      "18451095",
+      "16990259",
+      "29438694",
+      "36125660",
+      "33451133",
+      "26277097",
+      "28535794",
+      "11278577",
+      "30489256",
+      "12736255",
+      "11016635",
+      "25838462",
+      "24185512",
+      "31127318",
+      "2400987",
+      "24217577",
+      "8264659",
+      "10328849",
+      "34452998",
+      "36336145",
+      "30897853",
+      "9292936",
+      "31647985",
+      "17556356",
+      "15337744",
+      "31340854",
+      "11953755",
+      "29557271",
+      "9713824",
+      "11818562",
+      "11914066",
+      "10375022",
+      "33184106",
+      "32039233",
+      "18403716",
+      "24415950",
+      "25401474",
+      "10601978",
+      "9581827",
+      "31552220",
+      "8625307",
+      "14973389",
+      "15026080",
+      "17761695",
+      "12947047",
+      "24398047",
+      "29748621",
+      "1556769",
+      "36395883",
+      "30404440",
+      "24608856",
+      "33088967",
+      "9338790",
+      "11036937",
+      "29029116",
+      "38978585",
+      "38854123",
+      "7861463",
+      "11222743",
+      "12004807",
+      "10894150",
+      "15161930",
+      "21362200",
+      "1362141",
+      "9219916",
+      "17043219",
+      "22821401",
+      "30027855",
+      "12111992",
+      "12496244",
+      "38335301",
+      "30659843",
+      "8274440",
+      "12714702",
+      "8919544",
+      "9599231",
+      "20924370",
+      "10840033",
+      "12970748",
+      "17249692",
+      "39386976",
+      "38851818",
+      "37363949",
+      "28032978",
+      "34228431",
+      "38638686"
+    ],
+    "review": [
+      "34021071",
+      "33451133",
+      "26277097",
+      "36336145",
+      "31647985",
+      "14973389",
+      "11036937",
+      "1362141",
+      "30027855",
+      "30659843"
+    ],
+    "pmc": [
+      "8419021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34021071/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34021071",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34021071",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mcr/article-lookup/doi/10.1158/1541-7786.MCR-20-1017",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "36980170",
+    "doi": "10.3390/cells12060829",
+    "title": "iProm-Sigma54: A CNN Base Prediction Tool for sigma(54) Promoters."
+  },
+  "content": {
+    "abstract": "The sigma (sigma) factor of RNA holoenzymes is essential for identifying and binding to promoter regions during gene transcription in prokaryotes. sigma54 promoters carried out various ancillary methods and environmentally responsive procedures; therefore, it is crucial to accurately identify sigma54 promoter sequences to comprehend the underlying process of gene regulation. Herein, we come up with a convolutional neural network (CNN) based prediction tool named \"iProm-Sigma54\" for the prediction of sigma54 promoters. The CNN consists of two one-dimensional convolutional layers, which are followed by max pooling layers and dropout layers. A one-hot encoding scheme was used to extract the input matrix. To determine the prediction performance of iProm-Sigma54, we employed four assessment metrics and five-fold cross-validation; performance was measured using a benchmark and test dataset. According to the findings of this comparison, iProm-Sigma54 outperformed existing methodologies for identifying sigma54 promoters. Additionally, a publicly accessible web server was constructed.",
+    "keywords": [
+      "DNA promoters",
+      "bioinformatics",
+      "computational biology",
+      "convolutional neural networks",
+      "deep learning",
+      "sigma factors"
+    ],
+    "mesh_terms": [
+      "RNA Polymerase Sigma 54/genetics/metabolism",
+      "*DNA-Directed RNA Polymerases/metabolism",
+      "*Sigma Factor/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shujaat, Muhammad",
+        "Kim, Hoonjoo",
+        "Tayara, Hilal",
+        "Chong, Kil To"
+      ],
+      "short_names": [
+        "Shujaat M",
+        "Kim H",
+        "Tayara H",
+        "Chong KT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1752-3927",
+        "ORCID: 0000-0001-5678-3479",
+        "ORCID: 0000-0002-1952-0001"
+      ],
+      "affiliations": [
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "School of Pharmacy, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "School of International Engineering and Science, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "Advanced Electronics and Information Research Center, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shujaat, Muhammad",
+        "short_name": "Shujaat M",
+        "identifiers": [
+          "0000-0003-1752-3927"
+        ],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hoonjoo",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Tayara, Hilal",
+        "short_name": "Tayara H",
+        "identifiers": [
+          "0000-0001-5678-3479"
+        ],
+        "affiliations": [
+          "School of International Engineering and Science, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chong, Kil To",
+        "short_name": "Chong KT",
+        "identifiers": [
+          "0000-0002-1952-0001"
+        ],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+          "Advanced Electronics and Information Research Center, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2023 Mar 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "41120858",
+      "40239990",
+      "39781509",
+      "38701419"
+    ],
+    "refs": [
+      "36406389",
+      "36232840",
+      "35942693",
+      "35885909",
+      "35817838",
+      "35563648",
+      "35533969",
+      "34834320",
+      "34440291",
+      "33371507",
+      "32962628",
+      "32890916",
+      "32614400",
+      "31536883",
+      "31024615",
+      "30649179",
+      "30425888",
+      "30059731",
+      "29745856",
+      "29269498",
+      "28881991",
+      "28186907",
+      "28171531",
+      "25361964",
+      "23060610",
+      "21954440",
+      "18536650",
+      "18331472",
+      "18237374",
+      "15631638",
+      "15199147",
+      "12016061",
+      "11875034",
+      "11726928",
+      "10973249",
+      "10731414",
+      "10536136",
+      "10366656",
+      "10366655",
+      "9570960",
+      "8996787",
+      "7791218",
+      "7540694",
+      "2677638",
+      "1447138"
+    ],
+    "similar": [
+      "36980170",
+      "35533969",
+      "16629675",
+      "35885909",
+      "17456470",
+      "29126750",
+      "12235394",
+      "11842099",
+      "10792721",
+      "11842114",
+      "10348845",
+      "33371507",
+      "18786144",
+      "14757243",
+      "36406389",
+      "12013439",
+      "35065417",
+      "11260476",
+      "14641574",
+      "28171531",
+      "9489676",
+      "17090527",
+      "12754257",
+      "9724648",
+      "9287006",
+      "17185540",
+      "37291763",
+      "15743918",
+      "26365052",
+      "27789741",
+      "9603877",
+      "19008221",
+      "12957116",
+      "9275163",
+      "17481658",
+      "15601696",
+      "12649285",
+      "26425847",
+      "10510234",
+      "14659000",
+      "18331472",
+      "9738023",
+      "11397080",
+      "10876247",
+      "32614400",
+      "9079923",
+      "9790843",
+      "12079348",
+      "30458580",
+      "16725156",
+      "9632254",
+      "19969540",
+      "11101659",
+      "21827769",
+      "10536136",
+      "9427396",
+      "10692153",
+      "11243780",
+      "16926155",
+      "17089148",
+      "16798040",
+      "29993815",
+      "15489447",
+      "10393188",
+      "8636038",
+      "1391041",
+      "10692367",
+      "33488763",
+      "10336451",
+      "17157497",
+      "9144180",
+      "29745856",
+      "23028780",
+      "7473719",
+      "19474350",
+      "26082500",
+      "16963577",
+      "9990859",
+      "15033236",
+      "10406809",
+      "9573172",
+      "17768253",
+      "10524235",
+      "8606177",
+      "7494477",
+      "19076234",
+      "18225647",
+      "7601844",
+      "17905996",
+      "8244932",
+      "34633869",
+      "11311395",
+      "9451003",
+      "39096613",
+      "39168294",
+      "33672576",
+      "39303290",
+      "33817015",
+      "38918692",
+      "35353704",
+      "34055810",
+      "38660008",
+      "38510021"
+    ],
+    "review": [
+      "36980170",
+      "12013439",
+      "27789741",
+      "18331472"
+    ],
+    "pmc": [
+      "10047130"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells12060829",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36980170/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36980170",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

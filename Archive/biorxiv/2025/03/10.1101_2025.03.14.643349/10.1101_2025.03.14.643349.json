@@ -1,0 +1,119 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.14.643349",
+  "title": "Single-cell multiomics reveals disrupted glial gene regulatory programs in Alzheimer’s disease via interpretable machine learning",
+  "doi": "10.1101/2025.03.14.643349",
+  "abstract": "<h4>ABSTRACT</h4> Recent development of single-cell technology across multiple omics platforms has provided new ways to obtain holistic views of cells to study disease pathobiology. Alzheimer’s disease (AD) is the most common form of dementia worldwide, yet the detailed understanding of its cellular and molecular mechanisms remains limited. In this study, we analyzed paired single-cell transcriptomic (scRNA-seq) and chromatin accessibility (scATAC-seq) data from the Seattle Alzheimer’s Disease Brain Cell Atlas (SEA-AD) Consortium to investigate the molecular mechanisms of AD at a cell-subpopulation-specific resolution focusing on glial cells. We benchmarked various multi-omics integration methods using diverse metrics and built an analytic workflow that enabled effective batch correction and cross-modality alignment, creating a unified cell state space. Through integrative analysis of 26 human brain samples, we uncovered AD-associated gene expression and pathway changes in glial subpopulations and highlighted important transcriptomic and epigenomic signatures via functional inference and interpretable machine learning paradigms, discovering the profound involvement of the Solute Carrier proteins (SLC) family genes in multiple glial cell types. We also identified glial cell-specific regulatory programs mediated by key transcription factors such as JUN and FOSL2 in astrocytes, the Zinc Finger (ZNF) family genes in microglia, and the SOX family of transcription factors in oligodendrocytes. Our study provides a comprehensive workflow and a high-resolution view of how glial regulatory programs are disrupted in AD. Our findings offer novel insights into disease-related changes in gene regulation and suggest potential targets for further research and therapy.",
+  "authors": [
+    "Zhang S",
+    "Hu H",
+    "Wang X",
+    "Xiong C",
+    "Asmann YW",
+    "Ren Y"
+  ],
+  "published_date": "2025-03-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.14.643349",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.14.643349.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR991605",
+    "raw_record": {
+      "id": "PPR991605",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.14.643349",
+      "title": "Single-cell multiomics reveals disrupted glial gene regulatory programs in Alzheimer’s disease via interpretable machine learning",
+      "authorString": "Zhang S, Hu H, Wang X, Xiong C, Asmann YW, Ren Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Shuwen",
+            "initials": "S"
+          },
+          {
+            "fullName": "Hu H",
+            "lastName": "Hu",
+            "firstName": "Hongru",
+            "initials": "H"
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xue",
+            "initials": "X"
+          },
+          {
+            "fullName": "Xiong C",
+            "lastName": "Xiong",
+            "firstName": "Chengjie",
+            "initials": "C"
+          },
+          {
+            "fullName": "Asmann YW",
+            "lastName": "Asmann",
+            "firstName": "Yan",
+            "initials": "YW"
+          },
+          {
+            "fullName": "Ren Y",
+            "lastName": "Ren",
+            "firstName": "Yingxue",
+            "initials": "Y"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Recent development of single-cell technology across multiple omics platforms has provided new ways to obtain holistic views of cells to study disease pathobiology. Alzheimer’s disease (AD) is the most common form of dementia worldwide, yet the detailed understanding of its cellular and molecular mechanisms remains limited. In this study, we analyzed paired single-cell transcriptomic (scRNA-seq) and chromatin accessibility (scATAC-seq) data from the Seattle Alzheimer’s Disease Brain Cell Atlas (SEA-AD) Consortium to investigate the molecular mechanisms of AD at a cell-subpopulation-specific resolution focusing on glial cells. We benchmarked various multi-omics integration methods using diverse metrics and built an analytic workflow that enabled effective batch correction and cross-modality alignment, creating a unified cell state space. Through integrative analysis of 26 human brain samples, we uncovered AD-associated gene expression and pathway changes in glial subpopulations and highlighted important transcriptomic and epigenomic signatures via functional inference and interpretable machine learning paradigms, discovering the profound involvement of the Solute Carrier proteins (SLC) family genes in multiple glial cell types. We also identified glial cell-specific regulatory programs mediated by key transcription factors such as  JUN and  FOSL2 in astrocytes, the Zinc Finger (ZNF) family genes in microglia, and the SOX family of transcription factors in oligodendrocytes. Our study provides a comprehensive workflow and a high-resolution view of how glial regulatory programs are disrupted in AD. Our findings offer novel insights into disease-related changes in gene regulation and suggest potential targets for further research and therapy.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.14.643349"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-21",
+      "firstPublicationDate": "2025-03-17",
+      "firstIndexDate": "2025-03-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

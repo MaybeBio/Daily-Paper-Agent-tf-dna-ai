@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text. Figures, tables, and supplementary materials referenced but not directly examined.
+- **Shared manuscript claim summary** The authors present a multi-tissue epigenomic atlas for the bovine genome, comprising 1,138 genome-wide profiles (RNA-seq, ATAC-seq, ChIP-seq for six histone marks and CTCF, WGBS, Hi-C) across 53 adult tissues, five fetal tissues, and seven primary cell types. They report annotation of approximately 45% of the genome as putative regulatory elements, use ChromBPNet to discover 301 sequence motifs, identify 91,125 allele-specific SNPs, apply deltaSVM to score 28 million variants, and perform cross-species comparisons with human epigenomes.
+- **Visible evidence base** Abstract, Results sections (narrative text), Discussion, Methods (partial), Data availability, Author contributions. Figures and tables referenced but not provided.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and detailed method parameters. The manuscript text alone does not permit independent verification of quantitative claims, statistical analyses, or computational model performance.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial and potentially valuable community resource for bovine functional genomics. The scale of data generation and integration is impressive, and the application of deep learning and allele-specific analyses to a livestock species is timely. However, the provided text does not include the actual figures, tables, or detailed methods necessary to evaluate the technical quality of the data, the validity of the computational models, or the robustness of the biological conclusions. Several claims are stated without supporting quantitative detail in the text. The manuscript is likely to be of interest to the livestock genomics and comparative regulatory biology communities, but the case for broad significance and technical soundness cannot be fully assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in livestock genomics, animal breeding, and comparative genomics will find this resource useful for interpreting non-coding variation, prioritizing candidate causal variants, and designing functional validation experiments. The cross-species comparison with human epigenomes may also interest human geneticists studying regulatory evolution and heritability architecture, though the relevance to human disease is presented as secondary.
+- **Major strengths** The scale and breadth of the dataset (1,138 profiles across diverse tissues and developmental stages) is a clear strength. The integration of multiple epigenomic assays with transcriptomes and chromatin conformation provides a multi-layered view. The application of ChromBPNet and deltaSVM to a non-human species is methodologically progressive. The allele-specific analysis across 3.5 million heterozygous SNPs is extensive. The cross-species comparison with human Roadmap data is a useful addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that approximately 45% of the bovine autosomal genome is annotated as putative regulatory elements.
+  - **Evidence pointer** Results section "Comprehensive regulatory element annotation of the bovine genome"; Figure 2a; location not provided
+  - **Concern** The claim that 45% of the genome is regulatory is stated without a clear definition of what constitutes a "regulatory element" in this context. The 10-state and 15-state chromatin models include states such as Quies, which are excluded from the 45% figure, but the exact composition of the annotated fraction (which states are included, how enhancer vs promoter vs repressed states are counted) is not described in the text. Without this definition, the claim is difficult to interpret or compare with other annotations.
+  - **Why it matters** The 45% figure is a headline quantitative result. If the definition is overly permissive (e.g., including weak or poised states), the claim may overstate the extent of functional regulatory DNA. Conversely, if it is conservative, the resource may be under-annotated. The interpretability of the entire resource depends on this definition.
+  - **Resolution test** Provide a clear breakdown of the genomic fraction assigned to each chromatin state, and specify which states are counted as "regulatory" in the 45% figure. Compare this fraction with the previous bovine annotation by Kern et al. and with human Roadmap annotations using the same state definitions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ChromBPNet models achieved a median Pearson correlation of 0.76 between predicted and observed ATAC-seq read counts on held-out peaks.
+  - **Evidence pointer** Results section "Deep learning reveals regulatory sequence syntax across tissue contexts"; Extended Data Figure 7a; location not provided
+  - **Concern** The performance metric is reported as a single median value across 55 tissue contexts. The text does not report the range, variance, or the number of peaks used for evaluation. It is also unclear whether the held-out peaks were from the same chromosomes used for training or from completely held-out chromosomes, which is a critical distinction for evaluating generalization. The comparison with Yuan et al. is mentioned but the quantitative result (0.75 vs 0.84) is only given for one tissue (abomasum).
+  - **Why it matters** Deep learning model performance can vary substantially across tissues and genomic regions. A single median value does not establish that the models are consistently reliable. If the models perform poorly in some tissues, the downstream motif discovery and variant effect predictions may be unreliable in those contexts.
+  - **Resolution test** Report the full distribution of Pearson correlations across all 55 tissues, including the number of peaks evaluated per tissue. Specify the chromosome split strategy. Provide a per-tissue comparison with Yuan et al. data, not just a single example.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that deltaSVM scores were positively correlated with allele-specific effect sizes across epigenomic assays, and that incorporating regulatory magnitude priors reduced credible set sizes in fine-mapping of 22 traits.
+  - **Evidence pointer** Results section "In silico prioritization of regulatory variants"; Figure 5a, 5f; location not provided
+  - **Concern** The correlation between deltaSVM scores and AS effect sizes is stated as positive but the magnitude of the correlation is not reported. More importantly, the fine-mapping results are summarized only as "significantly reduced credible set sizes" without reporting the median reduction, the number of loci where the reduction was observed, or the statistical significance of the improvement. The example given (protein percentage, variant 6:84709163) is illustrative but does not establish a systematic benefit.
+  - **Why it matters** The claim that regulatory magnitude priors improve fine-mapping is a key translational outcome of the resource. Without quantitative detail, it is not possible to assess whether the improvement is meaningful or whether it is driven by a small number of loci.
+  - **Resolution test** Report the distribution of credible set size reductions across all 22 traits and all loci. Provide a statistical test comparing credible set sizes with and without priors. Report the correlation coefficient (e.g., Spearman rho) between deltaSVM scores and AS effect sizes, with confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that 75 datasets were computationally imputed using ChromImpute and included in the chromatin state annotation.
+  - **Evidence pointer** Results section "A comprehensive atlas of the bovine epigenomic landscape"; Extended Data Figure 1; location not provided
+  - **Concern** The text states that imputed datasets were validated using a cross-validation-like procedure with two randomly masked samples, repeated 15 times. However, the results of this validation are not reported in the text. It is unclear whether the imputed data are of sufficient quality to be used interchangeably with experimental data in chromatin state annotation. The inclusion of imputed data in the core analysis could bias the annotation if the imputation is systematically inaccurate for certain marks or tissues.
+  - **Why it matters** The resource is presented as a uniform, high-quality atlas. If a substantial fraction of the data (75 out of 682 ChIP-seq datasets, approximately 11%) is imputed, the reliability of the downstream analyses depends on the accuracy of that imputation. The authors should demonstrate that imputed data do not introduce systematic biases.
+  - **Resolution test** Report the validation statistics (e.g., correlation between imputed and observed signals) for the held-out samples. Compare chromatin state annotations derived from experimental data only versus experimental plus imputed data, and show that the key conclusions are robust.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that cross-species analysis revealed evolutionarily conserved features of regulatory architecture and provided evolutionary insights into complex traits and diseases in humans.
+  - **Evidence pointer** Results section "Comparative analysis of bovine and human epigenomes"; Figure 6; location not provided
+  - **Concern** The classification of human CREs into four conservation categories (sfCREs, sdCREs, soCREs, ssCREs) is described, and the finding that approximately 30% of human CREs are sdCREs is stated. However, the text does not explain how "sequence conservation" and "functional conservation" were operationalized. The heritability partitioning analysis is described as identifying 46 significant tissue-trait associations, but the details of which traits and tissues were enriched, and the magnitude of the enrichment, are not provided.
+  - **Why it matters** The comparative analysis is presented as a major outcome, but the text does not provide enough detail to evaluate whether the conclusions are robust. The claim that sdCREs are functionally divergent despite sequence conservation is interesting but requires a clear definition of "functional divergence" and a demonstration that this is not an artifact of the annotation method.
+  - **Resolution test** Provide a detailed description of the conservation classification method. Report the full results of the LDSC analysis, including the specific tissue-trait pairs that were significant and the enrichment fold-changes. Show that the conclusions are robust to the choice of conservation thresholds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "53 adult tissues, five fetal tissues, and seven primary cell types" but the Results section mentions "72 bovine epigenomes" and "65 bovine tissues" for the expanded model. The relationship between the number of tissues and the number of epigenomes is not immediately clear.
+  - **Required correction** Clarify whether the 72 epigenomes include replicates or multiple developmental stages per tissue, and define the relationship between tissues and epigenomes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, ChromImpute
+  - **Evidence pointer** Methods section "Imputation of missing and low-quality histone and CTCF signals"; location not provided
+  - **Issue** The text states that imputation was performed using ChromImpute but does not specify which marks were imputed for which tissues, or the criteria for deciding that a dataset was "low quality" and required imputation.
+  - **Required correction** Provide a supplementary table listing which datasets were imputed, which were experimental, and the quality metrics used to make this determination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, allele-specific analysis
+  - **Evidence pointer** Results section "Allele-specific identification"; location not provided
+  - **Issue** The text states that 91,125 SNPs exhibited significant allelic imbalance out of 3,568,140 heterozygous SNPs overlapping epigenomic peaks. The threshold for significance is stated as adjusted P < 0.05, but the text does not specify whether this is a global FDR or a per-tissue FDR.
+  - **Required correction** Specify the multiple testing correction procedure and whether it was applied per tissue or across all tissues combined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, super-enhancers
+  - **Evidence pointer** Results section "Comprehensive regulatory element annotation of the bovine genome"; Supplementary Figure S18-19; location not provided
+  - **Issue** The text states that super-enhancers were predicted using ROSE, but the number of super-enhancers per tissue and the criteria for defining them are not described in the text.
+  - **Required correction** Provide a brief description of the ROSE parameters and the range of super-enhancer numbers across tissues.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The text states that accession IDs will be available upon acceptance of the manuscript. This is a significant limitation for a resource paper, as reviewers and readers cannot access the data.
+  - **Required correction** Provide accession IDs for at least a subset of the data, or a temporary reviewer link, to allow verification of the claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (definition of regulatory fraction), R1-M2 (model evaluation details), R1-M3 (quantitative fine-mapping results), R1-M4 (imputation validation), R1-M5 (comparative analysis details).
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is not conceptually novel, as similar atlases exist for human and mouse, and the methods (ChromHMM, ChromBPNet, deltaSVM) are established. The originality lies in the scale and species focus, which is a meaningful contribution but not a paradigm shift.
+  - **Scientific importance** The resource is important for the livestock genomics community and for comparative regulatory biology. The potential to improve fine-mapping of cattle complex traits is valuable. However, the broader significance for human biology is presented as secondary and is not strongly demonstrated in the text.
+  - **Interdisciplinary readership** The manuscript will appeal primarily to animal genomics and computational biology researchers. The cross-species comparison may attract some human geneticists, but the text does not make a compelling case for why a broad readership should care about the bovine epigenome.
+  - **Technical soundness** The technical approach is generally sound, but the lack of quantitative detail in the text prevents full evaluation. The imputation of 75 datasets and the inclusion of these in the core analysis is a concern that needs to be addressed.
+  - **Readability for nonspecialists** The text is dense and assumes familiarity with epigenomic assays and computational methods. The abstract is accessible but the results section is not written for a general audience. Terms such as "ChromBPNet," "deltaSVM," and "chromatin states" are used without sufficient explanation for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource is potentially valuable, but the manuscript in its current form does not provide enough evidence to fully evaluate the claims. The authors should provide the missing quantitative details, clarify the definition of regulatory elements, and demonstrate the robustness of the computational analyses.

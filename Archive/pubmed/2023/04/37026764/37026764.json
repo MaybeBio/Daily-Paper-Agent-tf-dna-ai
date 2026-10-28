@@ -1,0 +1,632 @@
+{
+  "identity": {
+    "pmid": "37026764",
+    "doi": "10.1002/epi4.12738",
+    "title": "Early preclinical plasma protein biomarkers of brain trauma are influenced by early seizures and levetiracetam."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: We used the lateral fluid percussion injury (LFPI) model of moderate-to-severe traumatic brain injury (TBI) to identify early plasma biomarkers predicting injury, early post-traumatic seizures or neuromotor functional recovery (neuroscores), considering the effect of levetiracetam, which is commonly given after severe TBI. METHODS: Adult male Sprague-Dawley rats underwent left parietal LFPI, received levetiracetam (200 mg/kg bolus, 200 mg/kg/day subcutaneously for 7 days [7d]) or vehicle post-LFPI, and were continuously video-EEG recorded (n = 14/group). Sham (craniotomy only, n = 6), and naive controls (n = 10) were also used. Neuroscores and plasma collection were done at 2d or 7d post-LFPI or equivalent timepoints in sham/naive. Plasma protein biomarker levels were determined by reverse phase protein microarray and classified according to injury severity (LFPI vs. sham/control), levetiracetam treatment, early seizures, and 2d-to-7d neuroscore recovery, using machine learning. RESULTS: Low 2d plasma levels of Thr(231) -phosphorylated tau protein (pTAU-Thr(231) ) and S100B combined (ROC AUC = 0.7790) predicted prior craniotomy surgery (diagnostic biomarker). Levetiracetam-treated LFPI rats were differentiated from vehicle treated by the 2d-HMGB1, 2d-pTAU-Thr(231) , and 2d-UCHL1 plasma levels combined (ROC AUC = 0.9394) (pharmacodynamic biomarker). Levetiracetam prevented the seizure effects on two biomarkers that predicted early seizures only among vehicle-treated LFPI rats: pTAU-Thr(231) (ROC AUC = 1) and UCHL1 (ROC AUC = 0.8333) (prognostic biomarker of early seizures among vehicle-treated LFPI rats). Levetiracetam-resistant early seizures were predicted by high 2d-IFNgamma plasma levels (ROC AUC = 0.8750) (response biomarker). 2d-to-7d neuroscore recovery was best predicted by higher 2d-S100B, lower 2d-HMGB1, and 2d-to-7d increase in HMGB1 or decrease in TNF (P < 0.05) (prognostic biomarkers). SIGNIFICANCE: Antiseizure medications and early seizures need to be considered in the interpretation of early post-traumatic biomarkers.",
+    "keywords": [
+      "inflammation",
+      "lateral fluid percussion injury",
+      "levetiracetam",
+      "neuromotor recovery",
+      "tau",
+      "traumatic brain injury"
+    ],
+    "mesh_terms": [
+      "Rats",
+      "Male",
+      "Animals",
+      "Levetiracetam/pharmacology",
+      "*HMGB1 Protein",
+      "Rats, Sprague-Dawley",
+      "*Brain Injuries, Traumatic/drug therapy",
+      "Seizures/drug therapy",
+      "Biomarkers",
+      "Blood Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saletti, Patricia G",
+        "Mowrey, Wenzhu B",
+        "Liu, Wei",
+        "Li, Qianyun",
+        "McCullough, Jesse",
+        "Aniceto, Roxanne",
+        "Lin, I-Hsuan",
+        "Eklund, Michael",
+        "Casillas-Espinosa, Pablo M",
+        "Ali, Idrish",
+        "Santana-Gomez, Cesar",
+        "Coles, Lisa",
+        "Shultz, Sandy R",
+        "Jones, Nigel",
+        "Staba, Richard",
+        "O'Brien, Terence J",
+        "Moshe, Solomon L",
+        "Agoston, Denes V",
+        "Galanopoulou, Aristea S"
+      ],
+      "short_names": [
+        "Saletti PG",
+        "Mowrey WB",
+        "Liu W",
+        "Li Q",
+        "McCullough J",
+        "Aniceto R",
+        "Lin IH",
+        "Eklund M",
+        "Casillas-Espinosa PM",
+        "Ali I",
+        "Santana-Gomez C",
+        "Coles L",
+        "Shultz SR",
+        "Jones N",
+        "Staba R",
+        "O'Brien TJ",
+        "Moshe SL",
+        "Agoston DV",
+        "Galanopoulou AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6199-9415",
+        "ORCID: 0000-0002-0971-4654",
+        "ORCID: 0000-0001-9163-5615",
+        "ORCID: 0000-0002-1080-8439",
+        "ORCID: 0000-0001-9427-9476",
+        "ORCID: 0000-0002-0472-2903"
+      ],
+      "affiliations": [
+        "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Department of Epidemiology & Population Health, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+        "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia.",
+        "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+        "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia.",
+        "Department of Neurology, UCLA, Los Angeles, California, USA.",
+        "University of Minnesota Twin Cities, Minneapolis, Minnesota, USA.",
+        "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+        "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia.",
+        "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+        "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia.",
+        "Department of Neurology, UCLA, Los Angeles, California, USA.",
+        "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+        "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia.",
+        "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Isabelle Rapin Division of Child Neurology, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Department of Pediatrics, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Isabelle Rapin Division of Child Neurology, Albert Einstein College of Medicine, Bronx, New York, USA.",
+        "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, New York, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saletti, Patricia G",
+        "short_name": "Saletti PG",
+        "identifiers": [],
+        "affiliations": [
+          "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Mowrey, Wenzhu B",
+        "short_name": "Mowrey WB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology & Population Health, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qianyun",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "McCullough, Jesse",
+        "short_name": "McCullough J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Aniceto, Roxanne",
+        "short_name": "Aniceto R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, I-Hsuan",
+        "short_name": "Lin IH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Eklund, Michael",
+        "short_name": "Eklund M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Casillas-Espinosa, Pablo M",
+        "short_name": "Casillas-Espinosa PM",
+        "identifiers": [
+          "0000-0002-6199-9415"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+          "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Ali, Idrish",
+        "short_name": "Ali I",
+        "identifiers": [
+          "0000-0002-0971-4654"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+          "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Santana-Gomez, Cesar",
+        "short_name": "Santana-Gomez C",
+        "identifiers": [
+          "0000-0001-9163-5615"
+        ],
+        "affiliations": [
+          "Department of Neurology, UCLA, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Coles, Lisa",
+        "short_name": "Coles L",
+        "identifiers": [],
+        "affiliations": [
+          "University of Minnesota Twin Cities, Minneapolis, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Shultz, Sandy R",
+        "short_name": "Shultz SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+          "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Jones, Nigel",
+        "short_name": "Jones N",
+        "identifiers": [
+          "0000-0002-1080-8439"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+          "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Staba, Richard",
+        "short_name": "Staba R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, UCLA, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Terence J",
+        "short_name": "O'Brien TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Monash University, Melbourne, Victoria, Australia.",
+          "Department of Medicine, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Moshé, Solomon L",
+        "short_name": "Moshé SL",
+        "identifiers": [
+          "0000-0001-9427-9476"
+        ],
+        "affiliations": [
+          "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+          "Isabelle Rapin Division of Child Neurology, Albert Einstein College of Medicine, Bronx, New York, USA.",
+          "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, New York, USA.",
+          "Department of Pediatrics, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Agoston, Denes V",
+        "short_name": "Agoston DV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Physiology and Genetics, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Galanopoulou, Aristea S",
+        "short_name": "Galanopoulou AS",
+        "identifiers": [
+          "0000-0002-0472-2903"
+        ],
+        "affiliations": [
+          "Saul R. Korey Department of Neurology, Laboratory of Developmental Epilepsy, Albert Einstein College of Medicine, Bronx, New York, USA.",
+          "Isabelle Rapin Division of Child Neurology, Albert Einstein College of Medicine, Bronx, New York, USA.",
+          "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Epilepsia open"
+    ],
+    "journal_abbrev": [
+      "Epilepsia Open"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/08 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "42315867",
+      "42017361",
+      "41871415",
+      "41388803",
+      "41356251",
+      "40863447",
+      "39665957",
+      "39514789",
+      "39506350",
+      "38570704",
+      "38219860",
+      "37762352"
+    ],
+    "refs": [
+      "36950806",
+      "36677008",
+      "36447266",
+      "36072772",
+      "35486220",
+      "35369719",
+      "35188950",
+      "34638900",
+      "34586833",
+      "34530937",
+      "34425874",
+      "34277597",
+      "34212374",
+      "34166200",
+      "34150829",
+      "34147911",
+      "34003313",
+      "33967940",
+      "33906422",
+      "33727100",
+      "33633297",
+      "33584493",
+      "33422120",
+      "33360039",
+      "33340499",
+      "33336359",
+      "33117257",
+      "32957411",
+      "32775958",
+      "32740901",
+      "32641538",
+      "32641529",
+      "32571850",
+      "32476212",
+      "32464528",
+      "32251265",
+      "32126476",
+      "32094584",
+      "31963750",
+      "31602002",
+      "31451375",
+      "31171434",
+      "31145451",
+      "31072225",
+      "30848161",
+      "30711714",
+      "30596792",
+      "30553097",
+      "30499129",
+      "30465951",
+      "30391757",
+      "30303442",
+      "30209234",
+      "30071385",
+      "30054151",
+      "30030023",
+      "29987972",
+      "29936231",
+      "29889559",
+      "29859872",
+      "29690824",
+      "29688078",
+      "29588942",
+      "29537656",
+      "29105073",
+      "29020853",
+      "28753497",
+      "28738126",
+      "28404801",
+      "27693413",
+      "27539721",
+      "27495360",
+      "27349514",
+      "27315805",
+      "27307089",
+      "27289302",
+      "27014178",
+      "26671550",
+      "26645542",
+      "26454821",
+      "26149793",
+      "25771151",
+      "25770058",
+      "25701905",
+      "24880639",
+      "24754437",
+      "24636248",
+      "24630809",
+      "24554454",
+      "23712899",
+      "23639870",
+      "23161523",
+      "22915134",
+      "22867012",
+      "22840783",
+      "22837752",
+      "22811676",
+      "22789964",
+      "22771222",
+      "22292611",
+      "21441982",
+      "21381863",
+      "21190398",
+      "21041717",
+      "20875430",
+      "20805525",
+      "20674607",
+      "20609566",
+      "19464270",
+      "19428269",
+      "18828701",
+      "18397299",
+      "17522796",
+      "16650603",
+      "16456449",
+      "14669533",
+      "14530574",
+      "12525711",
+      "11455366",
+      "11139112",
+      "10541231",
+      "2761692"
+    ],
+    "similar": [
+      "37026764",
+      "36950806",
+      "37316328",
+      "33893636",
+      "34033249",
+      "27106270",
+      "36499527",
+      "32786029",
+      "36769143",
+      "35366338",
+      "37221897",
+      "23718645",
+      "31076256",
+      "38056191",
+      "39401067",
+      "32142864",
+      "29987972",
+      "26671550",
+      "35914438",
+      "28699371",
+      "18981892",
+      "18657524",
+      "27495360",
+      "35625875",
+      "38052475",
+      "30543155",
+      "24636248",
+      "39005303",
+      "12902834",
+      "31343072",
+      "27307089",
+      "32265608",
+      "18490145",
+      "31882899",
+      "38244466",
+      "27012461",
+      "38556449",
+      "34593559",
+      "28724747",
+      "32130500",
+      "28753497",
+      "30981541",
+      "31229637",
+      "26619246",
+      "39237847",
+      "33057716",
+      "29545916",
+      "33843262",
+      "37619297",
+      "28452872",
+      "25579788",
+      "33009357",
+      "33557217",
+      "38740070",
+      "37536383",
+      "33340499",
+      "20836615",
+      "30605864",
+      "30391757",
+      "27395404",
+      "38316735",
+      "31650880",
+      "38569246",
+      "32919030",
+      "27312416",
+      "36167949",
+      "32633403",
+      "34286461",
+      "37256778",
+      "37762352",
+      "32349620",
+      "26894518",
+      "35483447",
+      "35451496",
+      "22364620",
+      "28712212",
+      "27662529",
+      "31723543",
+      "18828701",
+      "27500827",
+      "29635589",
+      "30711714",
+      "34839268",
+      "16004580",
+      "26890099",
+      "32854584",
+      "30286390",
+      "24553065",
+      "33477960",
+      "30173323",
+      "35963263",
+      "33949882",
+      "34027761",
+      "29067000",
+      "35249875",
+      "31530242",
+      "35963261",
+      "34742877",
+      "15665604",
+      "26927633",
+      "25255156",
+      "32302792",
+      "37154543",
+      "39338349"
+    ],
+    "review": [
+      "37026764",
+      "27395404",
+      "38316735",
+      "38569246"
+    ],
+    "pmc": [
+      "10235584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/traumaticbraininjury.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Traumatic Brain Injury"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37026764/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37026764",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/epi4.12738",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-601",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9bd619m4",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

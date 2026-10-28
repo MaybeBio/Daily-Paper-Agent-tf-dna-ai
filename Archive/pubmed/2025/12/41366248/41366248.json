@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "41366248",
+    "doi": "10.1038/s41467-025-66883-6",
+    "title": "Implementing N-terminomics and machine learning to probe Nt-arginylation."
+  },
+  "content": {
+    "abstract": "N-terminal arginylation (Nt-arginylation) is a multifunctional post-translational modification (PTM) with roles in protein quality control, organelle homeostasis and stress signaling, but its study has been limited by technical challenges. Here, we develop an integrated approach combining N-terminomics with machine learning-based filtering to identify in cellulo Nt-arginylation. Using Arg-starting missed cleavage peptides as proxies for ATE1-mediated arginylation, we train a transfer learning model to predict mass spectra and retention times. By applying the prediction models with an additional statistical filter, we identify 134 Nt-arginylation sites in thapsigargin-treated HeLa cells. Arginylation is enriched in proteins from various organelles, especially at caspase cleavage and signal peptide processing sites. Eight of twelve tested proteins are further validated for their interaction with p62 ZZ domain. Temporal profiling reveals that ATF4 increases early post-stress, followed by arginylation at caspase-3 substrates and ER signal-cleaved proteins. Our approach enables sensitive detection of rare N-terminal modifications, offering potential for biomarker and drug target discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "HeLa Cells",
+      "*Protein Processing, Post-Translational",
+      "*Arginine/metabolism",
+      "*Proteomics/methods",
+      "Activating Transcription Factor 4/metabolism",
+      "Thapsigargin/pharmacology",
+      "Caspase 3/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ju, Shinyeong",
+        "Nawale, Laxman",
+        "Lee, Seonjeong",
+        "Kim, Jung Gi",
+        "Lee, Hankyul",
+        "Park, Narae",
+        "Kim, Dong Hyun",
+        "Cha-Molstad, Hyunjoo",
+        "Lee, Cheolju"
+      ],
+      "short_names": [
+        "Ju S",
+        "Nawale L",
+        "Lee S",
+        "Kim JG",
+        "Lee H",
+        "Park N",
+        "Kim DH",
+        "Cha-Molstad H",
+        "Lee C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5483-4690",
+        "ORCID: 0009-0002-5371-0447",
+        "ORCID: 0009-0005-5513-2566",
+        "ORCID: 0000-0002-7463-209X",
+        "ORCID: 0000-0003-3676-7150",
+        "ORCID: 0000-0001-8482-4696"
+      ],
+      "affiliations": [
+        "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+        "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea.",
+        "Advanced Bioconvergence Department, KRIBB School, University of Science and Technology, Daejeon, Republic of Korea.",
+        "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+        "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea.",
+        "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+        "KHU-KIST Department of Converging Science and Technology, Kyung Hee University, Seoul, Republic of Korea.",
+        "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+        "KHU-KIST Department of Converging Science and Technology, Kyung Hee University, Seoul, Republic of Korea.",
+        "Cancer Metastasis Branch, Division of Cancer Biology, National Cancer Center, Goyang, Republic of Korea.",
+        "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea. hcha@kribb.ac.kr.",
+        "Advanced Bioconvergence Department, KRIBB School, University of Science and Technology, Daejeon, Republic of Korea. hcha@kribb.ac.kr.",
+        "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea. clee270@kist.re.kr.",
+        "Division of Bio-Medical Science & Technology, KIST School, University of Science and Technology, Seoul, Republic of Korea. clee270@kist.re.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ju, Shinyeong",
+        "short_name": "Ju S",
+        "identifiers": [
+          "0000-0001-5483-4690"
+        ],
+        "affiliations": [
+          "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nawale, Laxman",
+        "short_name": "Nawale L",
+        "identifiers": [],
+        "affiliations": [
+          "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea.",
+          "Advanced Bioconvergence Department, KRIBB School, University of Science and Technology, Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Seonjeong",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Jung Gi",
+        "short_name": "Kim JG",
+        "identifiers": [],
+        "affiliations": [
+          "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hankyul",
+        "short_name": "Lee H",
+        "identifiers": [
+          "0009-0002-5371-0447"
+        ],
+        "affiliations": [
+          "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+          "KHU-KIST Department of Converging Science and Technology, Kyung Hee University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Narae",
+        "short_name": "Park N",
+        "identifiers": [
+          "0009-0005-5513-2566"
+        ],
+        "affiliations": [
+          "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+          "KHU-KIST Department of Converging Science and Technology, Kyung Hee University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Dong Hyun",
+        "short_name": "Kim DH",
+        "identifiers": [
+          "0000-0002-7463-209X"
+        ],
+        "affiliations": [
+          "Cancer Metastasis Branch, Division of Cancer Biology, National Cancer Center, Goyang, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cha-Molstad, Hyunjoo",
+        "short_name": "Cha-Molstad H",
+        "identifiers": [
+          "0000-0003-3676-7150"
+        ],
+        "affiliations": [
+          "Nucleic Acid Therapeutics Research Center, Korea Research Institute of Bioscience and Biotechnology, Ochang, Republic of Korea. hcha@kribb.ac.kr.",
+          "Advanced Bioconvergence Department, KRIBB School, University of Science and Technology, Daejeon, Republic of Korea. hcha@kribb.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Cheolju",
+        "short_name": "Lee C",
+        "identifiers": [
+          "0000-0001-8482-4696"
+        ],
+        "affiliations": [
+          "Chemical and Biological Integrative Research Center, Korea Institute of Science and Technology, Seoul, Republic of Korea. clee270@kist.re.kr.",
+          "Division of Bio-Medical Science & Technology, KIST School, University of Science and Technology, Seoul, Republic of Korea. clee270@kist.re.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 01:47",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40898325",
+      "40855110",
+      "40739772",
+      "39468056",
+      "39264755",
+      "39019974",
+      "38218942",
+      "37832787",
+      "37010766",
+      "37010765",
+      "36696595",
+      "36433986",
+      "36370105",
+      "35576205",
+      "35413196",
+      "35247316",
+      "34980915",
+      "34795227",
+      "34717010",
+      "34711972",
+      "34265844",
+      "33687501",
+      "33456583",
+      "33409279",
+      "33156866",
+      "32522993",
+      "32413515",
+      "32267142",
+      "31570514",
+      "31375263",
+      "31133760",
+      "30657305",
+      "30284925",
+      "29669822",
+      "29507222",
+      "29145629",
+      "29125736",
+      "27504778",
+      "27211901",
+      "27067052",
+      "26960794",
+      "26667783",
+      "26075355",
+      "25969538",
+      "25357241",
+      "24214067",
+      "23499006",
+      "22825847",
+      "22670058",
+      "22116877",
+      "20423325",
+      "20208520",
+      "19229197",
+      "18948421",
+      "18722006",
+      "17896865",
+      "17543534",
+      "16794040",
+      "16401511",
+      "14597658",
+      "12665801",
+      "12098698",
+      "11574073",
+      "11274152",
+      "2185248",
+      "2168415"
+    ],
+    "similar": [
+      "41366248",
+      "40855110",
+      "35878037",
+      "29507222",
+      "40887164",
+      "26285889",
+      "40568806",
+      "33228359",
+      "27510035",
+      "37832787",
+      "38854050",
+      "26797053",
+      "37010765",
+      "26075355",
+      "34896361",
+      "27318192",
+      "27685622",
+      "36184612",
+      "29295953",
+      "40099869",
+      "32553119",
+      "41147131",
+      "36077558",
+      "37010766",
+      "31606094",
+      "37010748",
+      "26285884",
+      "37010757",
+      "40992840",
+      "40898325",
+      "33687501",
+      "37010767",
+      "20423325",
+      "39149376",
+      "10685604",
+      "30586322",
+      "37010750",
+      "35008737",
+      "37010763",
+      "21784066",
+      "39207120",
+      "37010768",
+      "26303972",
+      "37532399",
+      "39852692",
+      "29976090",
+      "34985212",
+      "25125176",
+      "30091410",
+      "29261001",
+      "26285880",
+      "24529990",
+      "27560450",
+      "8292492",
+      "37010758",
+      "37010744",
+      "37010771",
+      "37010756",
+      "36226970",
+      "35253655",
+      "37010747",
+      "37010752",
+      "22577142",
+      "10685606",
+      "8139756",
+      "37010761",
+      "34669233",
+      "26285882",
+      "26285890",
+      "9357010",
+      "27752365",
+      "36682863",
+      "31744379",
+      "12098698",
+      "35451816",
+      "17197444",
+      "35972260",
+      "26285874",
+      "36709327",
+      "26285887",
+      "16733816",
+      "36087779",
+      "1743260",
+      "31375263",
+      "37236440",
+      "26175007",
+      "16002466",
+      "9130258",
+      "16087676",
+      "40887163",
+      "25052841",
+      "22118671",
+      "26511365",
+      "26285886",
+      "1801699",
+      "17896865",
+      "37010746",
+      "37010742",
+      "30385798",
+      "25969538"
+    ],
+    "review": [
+      "41366248",
+      "27318192",
+      "41147131",
+      "21784066",
+      "25125176",
+      "30091410",
+      "26285874",
+      "37236440"
+    ],
+    "pmc": [
+      "12780112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-66883-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41366248/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

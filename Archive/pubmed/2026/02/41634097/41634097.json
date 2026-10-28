@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "41634097",
+    "doi": "10.1038/s41598-026-37483-1",
+    "title": "A DNABERT based deep learning framework for predicting transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Transcription factors are proteins that regulate the expression of genes by binding to specific genomic regions known as Transcription Factor Binding Sites (TFBSs), typically located in the promoter regions of those genes. Accurate prediction of these binding sites is essential for understanding the complex gene regulatory networks underlying various cellular functions. In this regard, many deep learning models have been developed for such prediction, but there is still scope of improvement. In this work, we have developed a deep learning model which uses pre-trained DNABERT, a convolutional neural network (CNN) module, a modified convolutional block attention module (MCBAM), a multi-scale convolutions with attention (MSCA) module and an output module. The pre-trained DNABERT is used for sequence embedding, thereby capturing the long-term dependencies in the DNA sequences while the CNN, MCBAM and MSCA modules are useful in extracting higher-order local features. The proposed model TFBS-Finder is trained and tested on 165 ENCODE ChIP-seq datasets. We have also performed ablation studies as well as cross-cell line validations and comparisons with other models. The experimental results show the superiority of the proposed method in predicting TFBSs compared to the existing methodologies. Furthermore, we have performed visual analysis to show the interpretability of the prediction results. The source code of the proposed model is available at https://github.com/NimishaGhosh/TFBS-Finder.",
+    "keywords": [
+      "DNA Sequences",
+      "DNABERT",
+      "Deep Learning",
+      "Transcription Factor Binding Sites"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Deep Learning",
+      "*Transcription Factors/metabolism",
+      "Convolutional Neural Networks",
+      "Humans",
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "Promoter Regions, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dutta, Pratik",
+        "Ghosh, Nimisha",
+        "Santoni, Daniele"
+      ],
+      "short_names": [
+        "Dutta P",
+        "Ghosh N",
+        "Santoni D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar, India. pratikdutta@soa.ac.in.",
+        "Department of Computer Science and Engineering, Shiv Nadar University Chennai, Chennai, Tamil Nadu, India.",
+        "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dutta, Pratik",
+        "short_name": "Dutta P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar, India. pratikdutta@soa.ac.in."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Nimisha",
+        "short_name": "Ghosh N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Shiv Nadar University Chennai, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Santoni, Daniele",
+        "short_name": "Santoni D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/04 05:06",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38732207",
+      "38701417",
+      "37328639",
+      "36748992",
+      "36399495",
+      "36136096",
+      "35020807",
+      "34929739",
+      "33837387",
+      "33767912",
+      "33538820",
+      "31634140",
+      "28536180",
+      "27307608",
+      "27084946",
+      "26794315",
+      "26301843",
+      "26213851",
+      "23814189",
+      "22955616",
+      "22492513",
+      "21330290",
+      "19543377",
+      "17324271",
+      "15637633",
+      "14597652",
+      "9570129",
+      "2128034"
+    ],
+    "similar": [
+      "41634097",
+      "38701417",
+      "39701486",
+      "40914877",
+      "34073774",
+      "40889326",
+      "34929739",
+      "37328639",
+      "40102719",
+      "39350338",
+      "39107889",
+      "34272562",
+      "40334196",
+      "38733561",
+      "38732207",
+      "34664074",
+      "30835229",
+      "39227799",
+      "42099803",
+      "36748992",
+      "41920894",
+      "31634140",
+      "34571539",
+      "35652477",
+      "34752400",
+      "24042128",
+      "32960766",
+      "42475469",
+      "42145197",
+      "40702706",
+      "41627694",
+      "39519295",
+      "36935548",
+      "37598467",
+      "40411397",
+      "39714563",
+      "32770026",
+      "41601205",
+      "39214282",
+      "38643066",
+      "33522898",
+      "27503086",
+      "36155619",
+      "39096613",
+      "40646507",
+      "40065237",
+      "35263332",
+      "42242678",
+      "31372637",
+      "33372147",
+      "41762162",
+      "40302345",
+      "41677998",
+      "41595447",
+      "38798191",
+      "29757349",
+      "40740140",
+      "41290782",
+      "41527854",
+      "33137083",
+      "30808287",
+      "38236675",
+      "39900285",
+      "34613923",
+      "33837387",
+      "38830995",
+      "37723425",
+      "36094959",
+      "22672438",
+      "41564724",
+      "19730699",
+      "34882561",
+      "39747934",
+      "40646689",
+      "36484687",
+      "20808951",
+      "17914226",
+      "31323206",
+      "29970003",
+      "19586888",
+      "41172803",
+      "41962361",
+      "24586611",
+      "39696434",
+      "36458923",
+      "28245811",
+      "41576119",
+      "38049725",
+      "27845669",
+      "33538820",
+      "30588558",
+      "27106869",
+      "38980373",
+      "35891778",
+      "40989420",
+      "29993783",
+      "36403092",
+      "40251476",
+      "31336830",
+      "39174927"
+    ],
+    "review": [
+      "41634097",
+      "35652477"
+    ],
+    "pmc": [
+      "12921214"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-37483-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41634097/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

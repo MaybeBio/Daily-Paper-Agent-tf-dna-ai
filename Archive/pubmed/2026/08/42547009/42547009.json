@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "42547009",
+    "doi": "10.1016/j.lfs.2026.124610",
+    "title": "CHRNA5 orchestrates tumorigenesis and immune invasion through the CaMKII/AKT/NF-kappaB-CCL20 axis in pancreatic ductal adenocarcinoma."
+  },
+  "content": {
+    "abstract": "AIMS: Pancreatic ductal adenocarcinoma (PDAC) is a highly aggressive malignancy characterized by poor prognosis, extensive perineural invasion (PNI), enhanced tumor stemness, and immune evasion. This study aimed to identify the key cholinergic receptor driving PDAC progression and elucidate its underlying mechanisms. MATERIALS AND METHODS: Transcriptomic analyses of publicly available PDAC datasets, immunohistochemical staining, and functional assays were performed to investigate the enrichment of cholinergic signaling and the tumor-promoting effects of acetylcholine (ACh) in PDAC. We integrated three machine learning models, single-cell RNA-seq reanalysis, in vitro and in vivo experiments to identify alpha5-nicotinic acetylcholine receptor (CHRNA5) as a central mediator of PDAC progression. RNA sequencing combined with molecular experiments was performed to elucidate the mechanisms of CHRNA5. KEY FINDINGS: Integrated transcriptomic analyses, machine learning, single-cell RNA-seq reanalysis, and functional assays demonstrated the tumor-promoting roles of ACh and CHRNA5, while rescue experiments confirmed that CHRNA5 knockdown abrogated ACh-induced effects. Notably, CHRNA5 inhibition produced stronger anti-tumor effects in immunocompetent C57BL/6 mice than in Rag2-knockout mice. Mechanistically, CHRNA5 reprogrammed an immunosuppressive tumor microenvironment by transcriptionally upregulating CCL20 via CaMKII/AKT/NF-kappaB pathway, thereby facilitating the recruitment of polymorphonuclear myeloid-derived suppressor cells (PMN-MDSCs) and reducing CD8(+) T cell infiltration. SIGNIFICANCE: These findings establish CHRNA5 as a crucial mediator of PDAC progression that drives malignant behavior and remodels the immune microenvironment, highlighting its potential as a promising therapeutic target in pancreatic cancer.",
+    "keywords": [
+      "ACh",
+      "CHRNA5",
+      "PDAC",
+      "tumor immune microenvironment",
+      "tumor malignancy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "NF-kappa B/metabolism",
+      "Mice",
+      "Humans",
+      "*Carcinoma, Pancreatic Ductal/pathology/metabolism/immunology/genetics",
+      "*Pancreatic Neoplasms/pathology/metabolism/immunology/genetics",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "*Receptors, Nicotinic/metabolism/genetics",
+      "Carcinogenesis/metabolism/genetics",
+      "Mice, Inbred C57BL",
+      "*Calcium-Calmodulin-Dependent Protein Kinase Type 2/metabolism",
+      "Signal Transduction",
+      "Cell Line, Tumor",
+      "Mice, Knockout",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yue",
+        "Li, Liang",
+        "Zhu, Jiao",
+        "Wang, Yan",
+        "Wei, Kai",
+        "Ma, Min",
+        "Tao, Kunming",
+        "Miao, Xuerong",
+        "Lu, Zhijie"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Li L",
+        "Zhu J",
+        "Wang Y",
+        "Wei K",
+        "Ma M",
+        "Tao K",
+        "Miao X",
+        "Lu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Southwest Hospital, Third Military Medical University, 400038, Chongqing, China; Department of Anesthesiology, Minhang Hospital, Fudan University, Shanghai, 201100, China.",
+        "Department of Respiratory and Critical Care Medicine, Yangpu Hospital, School of Medicine, Tongji University, Shanghai, 200090, China.",
+        "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China.",
+        "Department of Anesthesiology, Banyannur Hospital, 015000, Bayannur, China.",
+        "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China.",
+        "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China.",
+        "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China. Electronic address: tkmgood@163.com.",
+        "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China. Electronic address: miaoxuerong@foxmail.com.",
+        "Department of Anesthesiology, Minhang Hospital, Fudan University, Shanghai, 201100, China. Electronic address: luzhijie@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yue",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Southwest Hospital, Third Military Medical University, 400038, Chongqing, China; Department of Anesthesiology, Minhang Hospital, Fudan University, Shanghai, 201100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Yangpu Hospital, School of Medicine, Tongji University, Shanghai, 200090, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jiao",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Banyannur Hospital, 015000, Bayannur, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Kai",
+        "short_name": "Wei K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Min",
+        "short_name": "Ma M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Kunming",
+        "short_name": "Tao K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China. Electronic address: tkmgood@163.com."
+        ]
+      },
+      {
+        "full_name": "Miao, Xuerong",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Third Affiliated Hospital of Naval Military Medical University, Shanghai, 200438, China. Electronic address: miaoxuerong@foxmail.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhijie",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Minhang Hospital, Fudan University, Shanghai, 201100, China. Electronic address: luzhijie@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life sciences"
+    ],
+    "journal_abbrev": [
+      "Life Sci"
+    ],
+    "pub_date": "2026 Oct 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 00:35",
+    "fetched_at": "2026-10-02 03:09:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42547009",
+      "40083936",
+      "41716413",
+      "34718325",
+      "25683115",
+      "40540648",
+      "41601623",
+      "39956331",
+      "41350704",
+      "42545624",
+      "39740539",
+      "41952208",
+      "41929495",
+      "40869052",
+      "41383622",
+      "37541772",
+      "41066593",
+      "41394830",
+      "41121153",
+      "32375768",
+      "41812332",
+      "40963905",
+      "41161625",
+      "32098780",
+      "42096959",
+      "41135873",
+      "41353164",
+      "40752749",
+      "25127677",
+      "41699675",
+      "41966742",
+      "40158738",
+      "40634284",
+      "41722836",
+      "42442087",
+      "41742226",
+      "39778762",
+      "41920243",
+      "42212130",
+      "38604311",
+      "42194035",
+      "35189958",
+      "34245764",
+      "40929955",
+      "39865281",
+      "40970928",
+      "42263886",
+      "41639735",
+      "40840404",
+      "39656237",
+      "38467382",
+      "33811437",
+      "41203070",
+      "39261943",
+      "29987671",
+      "42260484",
+      "42032684",
+      "29344673",
+      "40653839",
+      "41736094",
+      "29248441",
+      "41356184",
+      "42577400",
+      "32120026",
+      "33819482",
+      "35699794",
+      "42203767",
+      "39810240",
+      "38817665",
+      "41421221",
+      "34416910",
+      "31888763",
+      "41981139",
+      "42208634",
+      "39885986",
+      "31771616",
+      "30691517",
+      "39427920",
+      "39990208",
+      "40659704",
+      "42304476",
+      "39110005",
+      "31307515",
+      "32085715",
+      "40250076",
+      "40222712",
+      "41812061",
+      "29248440",
+      "28188806",
+      "35577506",
+      "31843590",
+      "34075561",
+      "29414775",
+      "29453972",
+      "24998203",
+      "40553966",
+      "27578530",
+      "41679176",
+      "39288628",
+      "38889281"
+    ],
+    "review": [
+      "42547009"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0024-3205(26)00419-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

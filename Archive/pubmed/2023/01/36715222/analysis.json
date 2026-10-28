@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36715222",
+  "title": "iEnhancer-SKNN: a stacking ensemble learning-based method for enhancer identification and classification using sequence information.",
+  "authors": "Wu, Hao; Liu, Mengdi; Zhang, Pengyu; Zhang, Hongming",
+  "journal": "Briefings in functional genomics",
+  "published_date": "2023-01-31",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用堆叠集成学习（KNN+逻辑回归）基于序列特征识别增强子并分类强弱，虽涉及增强子区域转录因子结合位点基序，但核心是序列分类而非TF-DNA互作建模，方法为传统机器学习，与课题关联有限。",
+  "abstract": "Enhancers, a class of distal cis-regulatory elements located in the non-coding region of DNA, play a key role in gene regulation. It is difficult to identify enhancers from DNA sequence data because enhancers are freely distributed in the non-coding region, with no specific sequence features, and having a long distance with the targeted promoters. Therefore, this study presents a stacking ensemble learning method to accurately identify enhancers and classify enhancers into strong and weak enhancers. Firstly, we obtain the fusion feature matrix by fusing the four features of Kmer, PseDNC, PCPseDNC and Z-Curve9. Secondly, five K-Nearest Neighbor (KNN) models with different parameters are trained as the base model, and the Logistic Regression algorithm is utilized as the meta-model. Thirdly, the stacking ensemble learning strategy is utilized to construct a two-layer model based on the base model and meta-model to train the preprocessed feature sets. The proposed method, named iEnhancer-SKNN, is a two-layer prediction model, in which the function of the first layer is to predict whether the given DNA sequences are enhancers or non-enhancers, and the function of the second layer is to distinguish whether the predicted enhancers are strong enhancers or weak enhancers. The performance of iEnhancer-SKNN is evaluated on the independent testing dataset and the results show that the proposed method has better performance in predicting enhancers and their strength. In enhancer identification, iEnhancer-SKNN achieves an accuracy of 81.75%, an improvement of 1.35% to 8.75% compared with other predictors, and in enhancer classification, iEnhancer-SKNN achieves an accuracy of 80.50%, an improvement of 5.5% to 25.5% compared with other predictors. Moreover, we identify key transcription factor binding site motifs in the enhancer regions and further explore the biological functions of the enhancers and these key motifs. Source code and data can be downloaded from https://github.com/HaoWuLab-Bioinformatics/iEnhancer-SKNN.",
+  "abstract_zh": "增强子（enhancers）是一类位于DNA非编码区的远端顺式调控元件，在基因调控中发挥关键作用。由于增强子自由分布于非编码区，缺乏特定序列特征，且与目标启动子距离较远，因此从DNA序列数据中识别增强子较为困难。为此，本研究提出了一种堆叠集成学习方法，以准确识别增强子并将其分类为强增强子和弱增强子。首先，通过融合Kmer、PseDNC、PCPseDNC和Z-Curve9四种特征，获得融合特征矩阵。其次，训练五个具有不同参数的K近邻（K-Nearest Neighbor, KNN）模型作为基模型，并采用逻辑回归（Logistic Regression）算法作为元模型。再次，利用堆叠集成学习策略，基于基模型和元模型构建两层模型，对预处理后的特征集进行训练。所提出的方法命名为iEnhancer-SKNN，是一个两层预测模型，其中第一层功能是预测给定DNA序列是否为增强子或非增强子，第二层功能是区分预测的增强子为强增强子或弱增强子。iEnhancer-SKNN的性能在独立测试数据集上进行了评估，结果表明该方法在预测增强子及其强度方面具有更优表现。在增强子识别中，iEnhancer-SKNN的准确率达到81.75%，与其他预测器相比提高了1.35%至8.75%；在增强子分类中，iEnhancer-SKNN的准确率达到80.50%，与其他预测器相比提高了5.5%至25.5%。此外，我们识别了增强子区域中的关键转录因子结合位点基序，并进一步探索了增强子及这些关键基序的生物学功能。源代码和数据可从https://github.com/HaoWuLab-Bioinformatics/iEnhancer-SKNN下载。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36715222/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36715222/",
+  "paper_page_path": "papers/pubmed/36715222/index.html"
+}

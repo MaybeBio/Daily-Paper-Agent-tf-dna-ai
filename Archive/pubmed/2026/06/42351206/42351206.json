@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "42351206",
+    "doi": "10.1186/s13019-026-04475-1",
+    "title": "Identification of T-cell exhaustion-related biomarkers in aortic dissection via integrated multi-omics analysis and mendelian randomization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Aortic dissection (AD) is a life-threatening cardiovascular emergency characterized by high acute mortality. While immune dysregulation is known to drive AD pathogenesis, the specific involvement of T-cell exhaustion-related genes (TEXRGs) remains largely elusive. METHODS: Differentially expressed TEXRGs (DETEXRGs) between AD and control samples were identified using transcriptomic datasets. Functional enrichment and Mendelian randomization (MR) analyses were performed to investigate potential causal associations with AD risk. Key diagnostic biomarkers were selected through integrated machine learning algorithms. Immune infiltration landscapes were characterized via gene set enrichment analysis (GSEA), while single-cell RNA sequencing (scRNA-seq) was employed to elucidate cell-type-specific expression profiles. Furthermore, the transcription factor (TF)-regulatory network and drug-gene interaction map were constructed. Finally, the expression levels of candidate genes were validated using quantitative real-time PCR (qRT-PCR). RESULTS: A total of 270 DETEXRGs were identified, which were predominantly enriched in cytokine-mediated signaling pathways and viral infection-related processes. MR analysis identified six genes significant causal associations with AD susceptibility. Among these, CASP4 and FPR1 were prioritized as core biomarkers through integrated machine learning algorithms. Immune infiltration analysis revealed a significantly altered immune landscape in AD tissues, characterized by the enrichment of eight immune cell subtypes that positively correlated with the expression of the identified biomarkers. Furthermore, scRNA-seq analysis localized FPR1 expression primarily to macrophages and monocytes. Finally, qRT-PCR validation confirmed significantly elevated expression levels of FPR1, PLSCR1, and other candidate genes in AD samples. CONCLUSION: This study underscores the critical involvement of T-cell exhaustion-related mechanisms in the pathogenesis of AD and robust diagnostic biomarkers. These findings offer novel insights for early risk stratification and provide a theoretical foundation for the development of targeted immunotherapeutic strategies in aortic dissection.",
+    "keywords": [
+      "Aortic dissection",
+      "Biomarkers",
+      "Immune",
+      "T-cell exhaustion",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*T-Cell Exhaustion/genetics",
+      "*Aortic Dissection/genetics/immunology",
+      "Biomarkers/metabolism",
+      "Humans",
+      "*Mendelian Randomization Analysis/methods",
+      "Multiomics",
+      "Dissection, Thoracic Aorta"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yanzhi",
+        "Zhao, Yangchao",
+        "Long, Xiaoqing",
+        "Xu, Jing"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Zhao Y",
+        "Long X",
+        "Xu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China.",
+        "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China.",
+        "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China.",
+        "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China. xj_cardio@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yanzhi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yangchao",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China."
+        ]
+      },
+      {
+        "full_name": "Long, Xiaoqing",
+        "short_name": "Long X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jing",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China. xj_cardio@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cardiothoracic surgery"
+    ],
+    "journal_abbrev": [
+      "J Cardiothorac Surg"
+    ],
+    "pub_date": "2026 Jun 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:49",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41970381",
+      "41962205",
+      "41838874",
+      "41204050",
+      "40221228",
+      "39024553",
+      "38719891",
+      "38708978",
+      "38493291",
+      "37938149",
+      "37684281",
+      "37234985",
+      "36830768",
+      "36568976",
+      "36263134",
+      "36122307",
+      "35970871",
+      "35784460",
+      "35547761",
+      "35480868",
+      "35414780",
+      "34869652",
+      "34602274",
+      "34409732",
+      "33059568",
+      "33004136",
+      "32957084",
+      "32811295",
+      "31591603",
+      "31336833",
+      "30031130",
+      "29926568",
+      "29846171",
+      "29323277",
+      "28052254",
+      "26664885",
+      "26375003",
+      "26339779",
+      "25939063",
+      "25680272",
+      "21042851",
+      "20860543",
+      "18436559",
+      "12842847",
+      "11015167"
+    ],
+    "similar": [
+      "42351206",
+      "42436415",
+      "42292364",
+      "41620799",
+      "40532306",
+      "37684281",
+      "41080564",
+      "41333919",
+      "41291841",
+      "41246346",
+      "42305536",
+      "41388523",
+      "40021385",
+      "40909263",
+      "41903158",
+      "41436831",
+      "40679719",
+      "41699549",
+      "41191606",
+      "42236612",
+      "41806029",
+      "40596702",
+      "42495634",
+      "42291321",
+      "42051535",
+      "39647286",
+      "42195052",
+      "41815567",
+      "41879435",
+      "41132152",
+      "39874886",
+      "41603583",
+      "40916281",
+      "42309401",
+      "41065575",
+      "42292469",
+      "41143248",
+      "42363518",
+      "42558367",
+      "41986576",
+      "41706425",
+      "42123445",
+      "42579704",
+      "41948344",
+      "41665627",
+      "42004723",
+      "40342964",
+      "40902395",
+      "41822387",
+      "40350654",
+      "42642681",
+      "41327739",
+      "41364147",
+      "41846910",
+      "42154423",
+      "42024670",
+      "41601671",
+      "42157054",
+      "41772215",
+      "41132791",
+      "36186997",
+      "42259201",
+      "42411190",
+      "42536689",
+      "42288847",
+      "40276515",
+      "40450287",
+      "41815139",
+      "39717623",
+      "41044520",
+      "41327265",
+      "38962008",
+      "41847341",
+      "41415264",
+      "41663976",
+      "42113191",
+      "40258895",
+      "42643640",
+      "42181212",
+      "41358199",
+      "40745068",
+      "41340073",
+      "42059276",
+      "41787453",
+      "41208649",
+      "40653482",
+      "40630963",
+      "42158856",
+      "39479394",
+      "41054053",
+      "42609827",
+      "42216376",
+      "41629825",
+      "42245402",
+      "40976895",
+      "40764361",
+      "40835946",
+      "42247642",
+      "41107929",
+      "42509698"
+    ],
+    "review": [
+      "42351206",
+      "41665627"
+    ],
+    "pmc": [
+      "13560137"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-026-04475-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42351206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

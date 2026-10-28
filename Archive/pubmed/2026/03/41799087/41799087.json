@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "41799087",
+    "doi": "10.1021/acsomega.5c11326",
+    "title": "Exploring the Molecular Mechanism of Shaoyao Gancao Decoction for Trigeminal Neuralgia Based on Network Pharmacology, Molecular Docking, and Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "Background: Shaoyao Gancao Decoction (SGD) has demonstrated a broad spectrum of analgesic effects and has found application in the management of trigeminal neuralgia (TN). Nonetheless, the underlying molecular mechanisms of this therapeutic intervention remain poorly understood. Objective: This study is designed to elucidate the molecular mechanism of SGD in treating TN by employing an integrated approach that combines network pharmacology, molecular docking, and molecular dynamics simulation. Methods: The active ingredients and associated targets within SGD were screened from the TCMSP database. TN-related targets were extracted from GeneCards, OMIM, CTD, and DisGeNET databases. Subsequently, we constructed a comprehensive TN-SGD-herbs-ingredients-targets network by employing Cytoscape software for visualization. A protein-protein interaction (PPI) network was constructed using the STRING database and further analyzed with Cytoscape, from which we identified pivotal hub genes using three distinct Cytoscape plugins. GO and KEGG enrichment analyses were carried out utilizing R software. Then, molecular docking was executed using AutoDock Vina, and docking results were visualized and augmented with molecular dynamics simulations utilizing BIOVIA Discovery Studio software. Finally, in vitro experiments verified the anti-inflammatory effect of SGD on LPS-treated BV2 cells. Results: A total of 103 active ingredients within SGD, 332 targets associated with TN, and 68 potential therapeutic targets were obtained. We constructed a TN-SGD-herbs-ingredients-targets network and obtained a PPI network of potential therapeutic targets. Then, we extracted seven hub genes from the potential therapeutic targets, including ESR1, JUN, TP53, STAT3, BCL2, AKT1, and ESR2. GO enrichment analyses indicated that SGD affected multiple biological processes and functions, such as responses to xenobiotic stimuli, membrane rafts, DNA binding, and transcription factor binding. KEGG pathway analyses revealed that lipid and atherosclerosis, the AGE-RAGE signaling pathway in diabetic complications, and chemical carcinogenesis-receptor activation were mainly involved in the therapeutic effects of SGD on TN. Importantly, molecular docking analysis demonstrated substantial binding affinities between the top eight ranked active ingredients and the seven identified hub genes. Furthermore, molecular dynamics simulations validated the binding activity between shinpterocarpin and ESR2. Finally, SGD decreased the levels of TNF-alpha, IL-1beta, and IL-6 and regulated protein expression of ESR1 and ESR2 on LPS-treated BV2 cells, indicating that SGD exerted anti-inflammatory effect on microglia. Conclusion: This study offers valuable insights into the active ingredients of SGD and elucidates their potential molecular mechanisms in the treatment of TN. The findings presented herein lay the groundwork for the development of anti-TN agents rooted in the constituents of SGD.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xiaofeng",
+        "Xu, Ting",
+        "Lei, Wenjuan",
+        "Lv, Zhongyi",
+        "Zhang, Yifan",
+        "Wang, Tinghuan"
+      ],
+      "short_names": [
+        "Liu X",
+        "Xu T",
+        "Lei W",
+        "Lv Z",
+        "Zhang Y",
+        "Wang T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4977-8900"
+      ],
+      "affiliations": [
+        "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China. RINGGOLD: 602856",
+        "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China. RINGGOLD: 602856",
+        "Department of Cardiothoracic Surgery, The People's Hospital of Dehong Prefecture, Dehong, Yunnan Province 678400, People's Republic of China. RINGGOLD: 722097",
+        "Office of the CPC Committee, De Hong Zhou Renmin Yiyuan, Dehong, Yunnan Province 678499, People's Republic of China.",
+        "Department of Neurology, Shenzhen Bao an Peoples Hospital, Shenzhen, Guangdong Province 518100, People's Republic of China. RINGGOLD: 444337",
+        "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China. RINGGOLD: 602856"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xiaofeng",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ting",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lei, Wenjuan",
+        "short_name": "Lei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, The People's Hospital of Dehong Prefecture, Dehong, Yunnan Province 678400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhongyi",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Office of the CPC Committee, De Hong Zhou Renmin Yiyuan, Dehong, Yunnan Province 678499, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yifan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Shenzhen Bao an Peoples Hospital, Shenzhen, Guangdong Province 518100, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tinghuan",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0002-4977-8900"
+        ],
+        "affiliations": [
+          "Department of Neurology, The First People's Hospital of Jiashan, 1218 Tiyunan Road, Jiaxing, Zhejiang 314100, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2026 Mar 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 17:36",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37664862",
+      "36752377",
+      "36106815",
+      "36059945",
+      "35819160",
+      "35779626",
+      "35616000",
+      "34895945",
+      "34838943",
+      "34832910",
+      "34649363",
+      "34512320",
+      "33964360",
+      "33893246",
+      "33745380",
+      "33555527",
+      "33212954",
+      "33141516",
+      "32822636",
+      "32433966",
+      "31955821",
+      "31697467",
+      "31461309",
+      "31388843",
+      "31085863",
+      "30961625",
+      "30871032",
+      "30736806",
+      "30642007",
+      "29747718",
+      "29368949",
+      "29349661",
+      "28403399",
+      "28190392",
+      "28103857",
+      "27324995",
+      "27093858",
+      "26996171",
+      "25767502",
+      "25599238",
+      "25267210",
+      "24912658",
+      "24735618",
+      "22455463",
+      "21371995",
+      "11139744",
+      "8598865",
+      "7374548",
+      "5327969"
+    ],
+    "similar": [
+      "41799087",
+      "42421348",
+      "40676786",
+      "41150817",
+      "36386135",
+      "40728954",
+      "39099827",
+      "39074420",
+      "38822913",
+      "42163610",
+      "39701711",
+      "38759074",
+      "42227389",
+      "38619514",
+      "37799727",
+      "40721767",
+      "41540514",
+      "40013962",
+      "35430443",
+      "39004032",
+      "38322942",
+      "39310787",
+      "42109914",
+      "34746316",
+      "41029129",
+      "39577223",
+      "39410900",
+      "37469733",
+      "34159207",
+      "40543694",
+      "36193154",
+      "33645094",
+      "37879505",
+      "35432570",
+      "37499457",
+      "39075002",
+      "41694764",
+      "40585331",
+      "41496113",
+      "37478234",
+      "37556042",
+      "41492010",
+      "39917915",
+      "40266298",
+      "38109076",
+      "38798219",
+      "37190808",
+      "33634308",
+      "41431016",
+      "37340752",
+      "40699713",
+      "39289941",
+      "35616676",
+      "35578843",
+      "39640673",
+      "37287284",
+      "38050247",
+      "39660000",
+      "39364246",
+      "36452059",
+      "34560213",
+      "37317908",
+      "40662553",
+      "35851128",
+      "36338468",
+      "34791846",
+      "39565454",
+      "33645090",
+      "38964628",
+      "38621884",
+      "38206683",
+      "38783288",
+      "41814225",
+      "38567354",
+      "35837376",
+      "41261616",
+      "33082858",
+      "36281111",
+      "37233418",
+      "36003525",
+      "36313338",
+      "37305432",
+      "34149863",
+      "38775721",
+      "40800999",
+      "40916281",
+      "42405402",
+      "41064833",
+      "39686413",
+      "35966251",
+      "39061044",
+      "40237055",
+      "38167125",
+      "36874926",
+      "40922365",
+      "35730236",
+      "35873910",
+      "40816715",
+      "35097123",
+      "41069602"
+    ],
+    "review": [
+      "41799087",
+      "37478234"
+    ],
+    "pmc": [
+      "12961621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41799087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.5c11326",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

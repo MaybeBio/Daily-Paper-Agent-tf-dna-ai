@@ -1,0 +1,484 @@
+{
+  "identity": {
+    "pmid": "37145883",
+    "doi": "10.1021/jacs.3c00932",
+    "title": "Mass Spectrometry of RNA-Binding Proteins during Liquid-Liquid Phase Separation Reveals Distinct Assembly Mechanisms and Droplet Architectures."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of heterogeneous ribonucleoproteins (hnRNPs) drives the formation of membraneless organelles, but structural information about their assembled states is still lacking. Here, we address this challenge through a combination of protein engineering, native ion mobility mass spectrometry, and molecular dynamics simulations. We used an LLPS-compatible spider silk domain and pH changes to control the self-assembly of the hnRNPs FUS, TDP-43, and hCPEB3, which are implicated in neurodegeneration, cancer, and memory storage. By releasing the proteins inside the mass spectrometer from their native assemblies, we could monitor conformational changes associated with liquid-liquid phase separation. We find that FUS monomers undergo an unfolded-to-globular transition, whereas TDP-43 oligomerizes into partially disordered dimers and trimers. hCPEB3, on the other hand, remains fully disordered with a preference for fibrillar aggregation over LLPS. The divergent assembly mechanisms revealed by ion mobility mass spectrometry of soluble protein species that exist under LLPS conditions suggest structurally distinct complexes inside liquid droplets that may impact RNA processing and translation depending on biological context.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry",
+      "*RNA-Binding Proteins",
+      "Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sahin, Cagla",
+        "Motso, Aikaterini",
+        "Gu, Xinyu",
+        "Feyrer, Hannes",
+        "Lama, Dilraj",
+        "Arndt, Tina",
+        "Rising, Anna",
+        "Gese, Genis Valentin",
+        "Hallberg, B Martin",
+        "Marklund, Erik G",
+        "Schafer, Nicholas P",
+        "Petzold, Katja",
+        "Teilum, Kaare",
+        "Wolynes, Peter G",
+        "Landreh, Michael"
+      ],
+      "short_names": [
+        "Sahin C",
+        "Motso A",
+        "Gu X",
+        "Feyrer H",
+        "Lama D",
+        "Arndt T",
+        "Rising A",
+        "Gese GV",
+        "Hallberg BM",
+        "Marklund EG",
+        "Schafer NP",
+        "Petzold K",
+        "Teilum K",
+        "Wolynes PG",
+        "Landreh M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2889-5200",
+        "ORCID: 0000-0002-5190-0039",
+        "ORCID: 0000-0002-1872-1207",
+        "ORCID: 0000-0002-9804-5009",
+        "ORCID: 0000-0001-9470-0347",
+        "ORCID: 0000-0001-6919-1982",
+        "ORCID: 0000-0001-7975-9287",
+        "ORCID: 0000-0002-7958-4074"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Structural Biology and NMR Laboratory and the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes vej 5, 2200 Copenhagen, Denmark.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+        "Department of Chemistry, Rice University, Houston, Texas 77005, United States.",
+        "Department of Medical Biochemistry and Biophysics, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, S-141 57 Huddinge, Sweden.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, S-141 57 Huddinge, Sweden.",
+        "Department of Anatomy, Physiology and Biochemistry, Swedish University of Agricultural Sciences, Box 7011, S-750 07 Uppsala, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Stockholm, Sweden.",
+        "Department of Chemistry - BMC, Uppsala University, Box 576, 751 23 Uppsala, Sweden.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+        "Department of Chemistry, Rice University, Houston, Texas 77005, United States.",
+        "Department of Medical Biochemistry and Biophysics, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, 751 24 Uppsala, Sweden.",
+        "Structural Biology and NMR Laboratory and the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes vej 5, 2200 Copenhagen, Denmark.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+        "Department of Chemistry, Rice University, Houston, Texas 77005, United States.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 17165 Solna, Sweden.",
+        "Department of Cell- and Molecular Biology, Uppsala University, Box 596, 751 24 Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sahin, Cagla",
+        "short_name": "Sahin C",
+        "identifiers": [
+          "0000-0002-2889-5200"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden.",
+          "Structural Biology and NMR Laboratory and the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Motso, Aikaterini",
+        "short_name": "Motso A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gu, Xinyu",
+        "short_name": "Gu X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+          "Department of Chemistry, Rice University, Houston, Texas 77005, United States."
+        ]
+      },
+      {
+        "full_name": "Feyrer, Hannes",
+        "short_name": "Feyrer H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Biophysics, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lama, Dilraj",
+        "short_name": "Lama D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Arndt, Tina",
+        "short_name": "Arndt T",
+        "identifiers": [
+          "0000-0002-5190-0039"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Nutrition, Karolinska Institutet, S-141 57 Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rising, Anna",
+        "short_name": "Rising A",
+        "identifiers": [
+          "0000-0002-1872-1207"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Nutrition, Karolinska Institutet, S-141 57 Huddinge, Sweden.",
+          "Department of Anatomy, Physiology and Biochemistry, Swedish University of Agricultural Sciences, Box 7011, S-750 07 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gese, Genis Valentin",
+        "short_name": "Gese GV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Hällberg, B Martin",
+        "short_name": "Hällberg BM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Marklund, Erik G",
+        "short_name": "Marklund EG",
+        "identifiers": [
+          "0000-0002-9804-5009"
+        ],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Box 576, 751 23 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schafer, Nicholas P",
+        "short_name": "Schafer NP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+          "Department of Chemistry, Rice University, Houston, Texas 77005, United States."
+        ]
+      },
+      {
+        "full_name": "Petzold, Katja",
+        "short_name": "Petzold K",
+        "identifiers": [
+          "0000-0001-9470-0347"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Biophysics, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden.",
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, 751 24 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Teilum, Kaare",
+        "short_name": "Teilum K",
+        "identifiers": [
+          "0000-0001-6919-1982"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory and the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Wolynes, Peter G",
+        "short_name": "Wolynes PG",
+        "identifiers": [
+          "0000-0001-7975-9287"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77005, United States.",
+          "Department of Chemistry, Rice University, Houston, Texas 77005, United States."
+        ]
+      },
+      {
+        "full_name": "Landreh, Michael",
+        "short_name": "Landreh M",
+        "identifiers": [
+          "0000-0002-7958-4074"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 17165 Solna, Sweden.",
+          "Department of Cell- and Molecular Biology, Uppsala University, Box 596, 751 24 Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2023 May 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/05 18:42",
+    "fetched_at": "2026-09-28 23:57:44"
+  },
+  "links": {
+    "cites": [
+      "41991555",
+      "40885704",
+      "40521608",
+      "40011431",
+      "39987392",
+      "39886581",
+      "39037698",
+      "38513106",
+      "38279531",
+      "38146123",
+      "37907762",
+      "37439740",
+      "37276246",
+      "37084706"
+    ],
+    "refs": [
+      "36224716",
+      "35853451",
+      "35481658",
+      "34795061",
+      "34380047",
+      "34108660",
+      "34044018",
+      "33712624",
+      "33686294",
+      "33597515",
+      "33535034",
+      "33469149",
+      "33446423",
+      "33439171",
+      "33349959",
+      "33318217",
+      "33148640",
+      "32660238",
+      "32480125",
+      "32165583",
+      "32132204",
+      "31911439",
+      "31416913",
+      "31235914",
+      "30823702",
+      "30682370",
+      "30540446",
+      "30471696",
+      "29961577",
+      "29944854",
+      "29786080",
+      "29677515",
+      "29438978",
+      "29301985",
+      "28942918",
+      "28935776",
+      "28833982",
+      "28663553",
+      "28534479",
+      "28389532",
+      "28225081",
+      "28184384",
+      "27818176",
+      "27037416",
+      "26437245",
+      "26412307",
+      "26074072",
+      "24659241",
+      "23435382",
+      "22545654",
+      "22445064",
+      "20144764",
+      "19110440",
+      "16563743",
+      "11685242",
+      "11242064",
+      "10716196",
+      "10449714"
+    ],
+    "similar": [
+      "37145883",
+      "29511089",
+      "38997630",
+      "30814253",
+      "39342654",
+      "37898314",
+      "34953857",
+      "37276246",
+      "36268634",
+      "32132204",
+      "29712961",
+      "35943083",
+      "33148640",
+      "32231288",
+      "33982369",
+      "37084706",
+      "33097688",
+      "37189373",
+      "28988034",
+      "36843414",
+      "29526694",
+      "34233002",
+      "34156864",
+      "34787417",
+      "29555476",
+      "37204199",
+      "36444977",
+      "35187086",
+      "31917988",
+      "36310222",
+      "33744316",
+      "32577653",
+      "32615218",
+      "26406374",
+      "32405004",
+      "34102212",
+      "36453011",
+      "29364893",
+      "34431665",
+      "31506351",
+      "31270472",
+      "35142991",
+      "30948513",
+      "34179096",
+      "34787357",
+      "33607084",
+      "33876938",
+      "36930291",
+      "39069878",
+      "31941785",
+      "36499553",
+      "30397184",
+      "29956241",
+      "34787433",
+      "39372747",
+      "33149109",
+      "33469149",
+      "36464283",
+      "29734651",
+      "35709363",
+      "30205960",
+      "33229560",
+      "32194074",
+      "35297101",
+      "32548680",
+      "33547841",
+      "29650703",
+      "35381286",
+      "34718734",
+      "36373662",
+      "33049211",
+      "36227478",
+      "23912807",
+      "35902591",
+      "31479821",
+      "34427634",
+      "35491929",
+      "35883530",
+      "32649883",
+      "28389532",
+      "33967699",
+      "36115020",
+      "35495061",
+      "32096047",
+      "32169484",
+      "34163831",
+      "37439740",
+      "37596729",
+      "36542408",
+      "38933916",
+      "37186597",
+      "30271967",
+      "38594355",
+      "37364418"
+    ],
+    "review": [
+      "37145883",
+      "36268634",
+      "35187086",
+      "35142991",
+      "30948513",
+      "36464283",
+      "32194074",
+      "32548680",
+      "36373662",
+      "33049211",
+      "31479821",
+      "28389532",
+      "32096047",
+      "32169484",
+      "38594355",
+      "37364418"
+    ],
+    "pmc": [
+      "10197120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacs.3c00932",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37145883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37145883",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.3c00932",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

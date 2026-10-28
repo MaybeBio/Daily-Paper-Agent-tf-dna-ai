@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "41292729",
+    "doi": "10.1101/2025.11.12.688039",
+    "title": "Cell type-independent timekeeping gene modules enable embryonic stage prediction in zebrafish."
+  },
+  "content": {
+    "abstract": "Gene expression changes across embryonic development reflect both differentiation and genes whose expression varies strictly with developmental time, independent of cell type. Multiple embryonic timing systems set the onset and pace of developmental events, and blocking transcription arrests many of these events. However, the genes comprising the vertebrate embryonic timing system(s) remain largely unknown. To identify genes whose expression changes with time alone, we examine naive zebrafish embryonic explants that form only two tissue types yet maintain developmental timing, thus uncoupling developmental age from most differentiation programs. By comparing longitudinal gene expression in naive explants with Nodal-induced explants that differentiate into all three germ layers, we identify \"timekeeping\" genes whose temporal expression patterns vary strictly with developmental age. Consensus clustering of temporally dynamic genes identified 20 gene clusters, termed \"chrono-constitutive modules\" (CCMs), that maintain distinct schedules of expression regardless of tissue type. These CCM trajectories are similar in intact zebrafish embryos and single embryonic cells of multiple distinct lineages. Enrichment analysis of microRNA targets and transcription factor regulons within the CCMs further reveal distinct putative regulators of several modules. Strikingly, CCM expression patterns are also largely conserved during early development of another fish species, Japanese medaka. Machine learning models trained on only zebrafish CCM transcript levels accurately predict the developmental age of embryonic explants, intact embryos, and even individual embryonic cells, demonstrating their utility in developmental timekeeping. These results support the existence of transcriptional timekeeping during early development and demonstrate its utility in embryonic stage prediction.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kanchi, Rupa",
+        "Grimm, Sandra L",
+        "Vella, Divya",
+        "Saoud, Richard",
+        "Gandhi, Tanmay",
+        "Koirala, Amrit",
+        "Cervino, Ailen",
+        "MacGowan, Jacalyn",
+        "Coarfa, Cristian",
+        "Williams, Margot Kossmann"
+      ],
+      "short_names": [
+        "Kanchi R",
+        "Grimm SL",
+        "Vella D",
+        "Saoud R",
+        "Gandhi T",
+        "Koirala A",
+        "Cervino A",
+        "MacGowan J",
+        "Coarfa C",
+        "Williams MK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+        "Molecular Virology and Microbiology Department, Baylor College of Medicine, Houston.",
+        "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+        "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kanchi, Rupa",
+        "short_name": "Kanchi R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Grimm, Sandra L",
+        "short_name": "Grimm SL",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Vella, Divya",
+        "short_name": "Vella D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Saoud, Richard",
+        "short_name": "Saoud R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Tanmay",
+        "short_name": "Gandhi T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Koirala, Amrit",
+        "short_name": "Koirala A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Cervino, Ailen",
+        "short_name": "Cervino A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "MacGowan, Jacalyn",
+        "short_name": "MacGowan J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Coarfa, Cristian",
+        "short_name": "Coarfa C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston.",
+          "Molecular Virology and Microbiology Department, Baylor College of Medicine, Houston."
+        ]
+      },
+      {
+        "full_name": "Williams, Margot Kossmann",
+        "short_name": "Williams MK",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Department, Baylor College of Medicine, Houston.",
+          "Center for Precision Environmental Health, Baylor College of Medicine, Houston."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 06:29",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40134271",
+      "40082610",
+      "39263690",
+      "38977847",
+      "38600066",
+      "38012023",
+      "37949057",
+      "36950383",
+      "36812209",
+      "36699385",
+      "36513979",
+      "35817937",
+      "35789323",
+      "34285779",
+      "33090988",
+      "32591361",
+      "31940339",
+      "31572727",
+      "31527703",
+      "31211993",
+      "31211992",
+      "30944313",
+      "30464314",
+      "30061678",
+      "29972771",
+      "29409532",
+      "29187729",
+      "28399811",
+      "27531719",
+      "27436874",
+      "26886793",
+      "26653891",
+      "26506307",
+      "26062939",
+      "25312495",
+      "25164755",
+      "25069653",
+      "24985912",
+      "24700857",
+      "24504336",
+      "24485336",
+      "24335756",
+      "24227677",
+      "24056933",
+      "24008197",
+      "23961710",
+      "23907533",
+      "23706736",
+      "23180783",
+      "23104886",
+      "22960373",
+      "22422859",
+      "21555364",
+      "21497761",
+      "21356103",
+      "21179090",
+      "20643359",
+      "20430792",
+      "20427518",
+      "19910308",
+      "18331713",
+      "18193022",
+      "18061570",
+      "17994019",
+      "16484454",
+      "16310180",
+      "16132083",
+      "15543604",
+      "12828687",
+      "12538516",
+      "12351791",
+      "12091302",
+      "10801442",
+      "10649291",
+      "9744277",
+      "9199306",
+      "9007228",
+      "8674426",
+      "8589427",
+      "7816599",
+      "7276823",
+      "7139712",
+      "6183003",
+      "5465208",
+      "4729951",
+      "4198663",
+      "2534558",
+      "702029",
+      "528860"
+    ],
+    "similar": [
+      "41292729",
+      "42475469",
+      "34398141",
+      "36087778",
+      "34895465",
+      "35660371",
+      "28399811",
+      "28780048",
+      "32969791",
+      "35700449",
+      "20212526",
+      "31431477",
+      "42383567",
+      "40641848",
+      "25185836",
+      "42011025",
+      "42239412",
+      "39526457",
+      "42210302",
+      "24516585",
+      "41787119",
+      "35142607",
+      "18402692",
+      "41781333",
+      "29746690",
+      "29700227",
+      "37208698",
+      "22102912",
+      "31782996",
+      "18415940",
+      "30239859",
+      "12142272",
+      "28327131",
+      "16544152",
+      "29700225",
+      "24975847",
+      "19203379",
+      "10368935",
+      "17540039",
+      "9053314",
+      "19952138",
+      "27716579",
+      "17632043",
+      "29539636",
+      "37995681",
+      "24223173",
+      "35079788",
+      "25277163",
+      "38270285",
+      "32367800",
+      "35146756",
+      "26740066",
+      "22697119",
+      "41782053",
+      "40891422",
+      "20828405",
+      "32467236",
+      "29180571",
+      "31199790",
+      "28859285",
+      "39320016",
+      "29546319",
+      "12091301",
+      "30078982",
+      "42411605",
+      "8288127",
+      "23700457",
+      "23567754",
+      "41898791",
+      "19770025",
+      "15125793",
+      "21396359",
+      "36396033",
+      "22011226",
+      "41131497",
+      "14694429",
+      "40418454",
+      "25765133",
+      "17418841",
+      "40055639",
+      "18231586",
+      "22925828",
+      "38520033",
+      "19494032",
+      "21160473",
+      "26288249",
+      "24924767",
+      "38600066",
+      "42520680",
+      "29985950",
+      "27072135",
+      "39819837",
+      "20862309",
+      "24397936",
+      "28992598",
+      "24042128",
+      "24204288",
+      "22949352",
+      "17850782",
+      "42142717"
+    ],
+    "review": [
+      "41292729",
+      "29746690",
+      "12142272",
+      "24975847"
+    ],
+    "pmc": [
+      "12642444"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41292729/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.12.688039",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

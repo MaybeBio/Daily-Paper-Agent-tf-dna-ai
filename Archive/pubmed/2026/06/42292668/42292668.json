@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "42292668",
+    "doi": "10.3389/fbinf.2026.1729982",
+    "title": "Systematic analysis of bacterial lipopolysaccharide-related genes and immune cell infiltration characteristics in pediatric septic shock using integrated bioinformatics and machine learning approaches."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bacterial lipopolysaccharide (LPS) play a crucial role in triggering dysregulated immune responses in pediatric septic shock, profoundly influencing disease onset and progression. This study systematically investigated the differential expression of LPS-related genes, constructed diagnostic models, explored regulatory networks, analyzed immune cell infiltration, and identified potential therapeutic targets of traditional Chinese medicine for pediatric septic shock. METHODS: Three publicly available pediatric septic shock datasets (GSE26440, GSE9692, and GSE13904) were retrieved from gene expression repositories. Differentially expressed genes (DEGs) were identified, and key module genes were determined using weighted gene co-expression network analysis (WGCNA). These genes were intersected with LPS-related genes curated from genomic databases. To improve biomarker screening precision, the Least Absolute Shrinkage and Selection Operator (LASSO) regression and Support Vector Machine-Recursive Feature Elimination (SVM-RFE) algorithms were applied to identify feature genes and construct a diagnostic model, which was validated using an independent dataset. Functional enrichment analyses were performed based on diagnostic model-derived scores. Immune cell infiltration was quantified using the ssGSEA algorithm, and transcription factor (TF)-gene regulatory networks were constructed to elucidate underlying molecular mechanisms. Moreover, drugs relevant to pediatric sepsis over the past decade were extracted from the COREMINE database, and their bioactive components underwent molecular docking with the identified feature genes to evaluate binding affinity. RESULTS: Four LPS-related feature genes-IL10, MMP9, S100A12, and STAT3-were identified as potential diagnostic biomarkers of pediatric septic shock. The diagnostic model built using the Stepwise Generalized Linear Model (StepGLM [backward]) combined with LASSO achieved excellent performance, with an average area under the ROC curve (AUC) of 0.994. Enrichment analyses revealed that high-score samples were significantly associated with inflammatory and immune hyperactivation pathways, whereas low-score samples were enriched in homeostatic or protective pathways. Immune infiltration analysis revealed marked differences among multiple immune cell types, including lymphocyte subsets, neutrophils, and macrophages. Notably, MMP9 expression showed a strong positive correlation with activated dendritic cells. Protein-protein interaction and regulatory analyses revealed a TF-gene network comprising 26 nodes and 32 edges and a miRNA-gene network with 71 nodes and 67 edges. Furthermore, Chrysanthemum indicum was identified as a promising therapeutic candidate, with luteolin and quercetin as its principal active ingredients. Molecular docking analyses confirmed stable binding affinities between these compounds and the key feature genes. CONCLUSION: This integrative bioinformatics and machine learning study identified IL10, MMP9, S100A12, and STAT3 as LPS-associated signature genes in pediatric septic shock. These genes are intricately involved in immune dysregulation and may serve as potential diagnostic biomarkers and therapeutic targets. The findings provide novel insights into the molecular mechanisms and treatment strategies for pediatric sepsis.",
+    "keywords": [
+      "bioinformatics",
+      "biomarkers",
+      "immune infiltration",
+      "lipopolysaccharide-associated genes",
+      "machine learning",
+      "pediatric septic shock"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiao, Junying",
+        "Zou, Lanlan",
+        "Zhao, Jianchuang",
+        "Cui, Chenhang",
+        "Huang, Xianjie",
+        "Fan, Yazhen"
+      ],
+      "short_names": [
+        "Qiao J",
+        "Zou L",
+        "Zhao J",
+        "Cui C",
+        "Huang X",
+        "Fan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiao, Junying",
+        "short_name": "Qiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Lanlan",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jianchuang",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Chenhang",
+        "short_name": "Cui C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xianjie",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yazhen",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Critical Care Medicine, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 12:50",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41306770",
+      "40375087",
+      "40364841",
+      "38868715",
+      "38795170",
+      "38558800",
+      "38454423",
+      "38430202",
+      "38245897",
+      "38245889",
+      "38145013",
+      "38142698",
+      "38013255",
+      "38003374",
+      "37956336",
+      "37700349",
+      "37564869",
+      "37359549",
+      "37261908",
+      "36724330",
+      "36370105",
+      "36281079",
+      "36169237",
+      "36142454",
+      "35751589",
+      "35609983",
+      "35134967",
+      "34850068",
+      "34758337",
+      "34605806",
+      "34539750",
+      "34193208",
+      "33940332",
+      "33885157",
+      "33202146",
+      "32858223",
+      "32736703",
+      "32631717",
+      "32032273",
+      "31954465",
+      "31936182",
+      "31504780",
+      "31491842",
+      "31377749",
+      "31199706",
+      "30873175",
+      "29801717",
+      "29549727",
+      "28886074",
+      "28146645",
+      "27782333",
+      "27089280",
+      "26903338",
+      "25521941",
+      "25055920",
+      "25051284",
+      "24310172",
+      "24232462",
+      "23575874",
+      "23323831",
+      "22323479",
+      "22140110",
+      "21269502",
+      "20665200",
+      "20593260",
+      "20576703",
+      "20401516",
+      "19781994",
+      "19114008",
+      "18304834",
+      "15608262",
+      "14597658",
+      "10592235"
+    ],
+    "similar": [
+      "42292668",
+      "39586719",
+      "37359526",
+      "39609718",
+      "41146237",
+      "41508240",
+      "38291374",
+      "41388523",
+      "41988156",
+      "41858783",
+      "41479901",
+      "39507054",
+      "41189212",
+      "42597971",
+      "39375405",
+      "40129981",
+      "41013556",
+      "38371524",
+      "41909133",
+      "42338983",
+      "42274933",
+      "41895505",
+      "41432483",
+      "41703488",
+      "42363518",
+      "36532015",
+      "40374866",
+      "40360670",
+      "40860289",
+      "41826854",
+      "42326009",
+      "39142001",
+      "42015036",
+      "41316541",
+      "38028617",
+      "41787525",
+      "37115484",
+      "40453984",
+      "42302029",
+      "39396400",
+      "40328901",
+      "39341981",
+      "42247642",
+      "41667698",
+      "41324863",
+      "36439140",
+      "39509434",
+      "41200172",
+      "42123445",
+      "38951833",
+      "41044520",
+      "41611834",
+      "41013727",
+      "35764238",
+      "40630623",
+      "42107160",
+      "41902830",
+      "38767974",
+      "36589450",
+      "40997906",
+      "40406620",
+      "42473589",
+      "40901831",
+      "42236612",
+      "42123756",
+      "40500570",
+      "42266692",
+      "41563994",
+      "36746103",
+      "40620701",
+      "42473771",
+      "42491949",
+      "39315170",
+      "40151199",
+      "42164373",
+      "41219826",
+      "38987624",
+      "40598145",
+      "39139563",
+      "41291841",
+      "40340571",
+      "38144565",
+      "42520089",
+      "42292468",
+      "41136974",
+      "42303913",
+      "37908757",
+      "36605987",
+      "41583295",
+      "41052072",
+      "42582767",
+      "40791849",
+      "41442003",
+      "40374840",
+      "41220724",
+      "42558367",
+      "39583859",
+      "41883400",
+      "37986345",
+      "40362543"
+    ],
+    "review": [
+      "42292668"
+    ],
+    "pmc": [
+      "13261020"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42292668/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2026.1729982",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

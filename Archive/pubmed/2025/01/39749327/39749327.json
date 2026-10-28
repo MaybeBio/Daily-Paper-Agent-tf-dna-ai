@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "39749327",
+    "doi": "10.3389/fimmu.2024.1504220",
+    "title": "High density of TCF1+ stem-like tumor-infiltrating lymphocytes is associated with favorable disease-specific survival in NSCLC."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Tumor-infiltrating lymphocytes are both prognostic and predictive biomarkers for immunotherapy response. However, less is known about the survival benefits oftheir subpopulations. METHODS: Using machine learning models, we assessed the clinical association of the CD8+, PD1+, TCF1+ cel l subset by multiplex immunohistochemistry using tissue microarrays in 553 non-small cell lung cancer (NSCLC) patients and its correlation with other immune cell biomarkers. RESULTS: We observed positive correlations between TCF1 and CD20 (r=0.37), CD3 (r=0.45)and CD4 (r=0.33). Notably, triple positive (CD8+PD1+TCF1+) were rare, only observed in 29 of 553 patients (5%). Our analysis revealed that cells coexpressing TCF1 with either CD8+ or PD1+ were independent prognostic markers of disease-specific survival in multivariable analysis (HR=0.728, p=0.029 for CD8+TCF1+, and HR=0.612, p=0.002 for PD1+TCF1+). To pilot the subtype of abundant CD8-TCF1+ cells, we explored an immune cell infiltrated whole slideimage and found the majority to be CD4+. DISCUSSION: Overall, these findings suggest that assessment of CD8+, PD1+, TCF1+ could serve as a potential prognostic biomarker in NSCLC.",
+    "keywords": [
+      "CD8",
+      "NSCLC",
+      "PD1",
+      "TCF1",
+      "digital pathology",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/mortality/immunology/pathology",
+      "*Lymphocytes, Tumor-Infiltrating/immunology/metabolism",
+      "Male",
+      "Female",
+      "*Lung Neoplasms/mortality/immunology/pathology",
+      "*Hepatocyte Nuclear Factor 1-alpha/metabolism/genetics",
+      "Middle Aged",
+      "Aged",
+      "Prognosis",
+      "Biomarkers, Tumor",
+      "CD8-Positive T-Lymphocytes/immunology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Forde, Dagny",
+        "Kilvaer, Thomas",
+        "Pedersen, Mona Irene",
+        "Blix, Egil S",
+        "Urbarova, Ilona",
+        "Paulsen, Erna-Elise",
+        "Rakaee, Mehrdad",
+        "Busund, Lill-Tove Rasmussen",
+        "Donnem, Tom",
+        "Andersen, Sigve"
+      ],
+      "short_names": [
+        "Forde D",
+        "Kilvaer T",
+        "Pedersen MI",
+        "Blix ES",
+        "Urbarova I",
+        "Paulsen EE",
+        "Rakaee M",
+        "Busund LR",
+        "Donnem T",
+        "Andersen S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Oncology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Oncology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Community Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Pulmonology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Pathology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Cancer Genetics, Oslo University Hospital, Oslo, Norway.",
+        "Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Pathology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Oncology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Oncology, University Hospital of North Norway, Tromso, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Førde, Dagny",
+        "short_name": "Førde D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Kilvær, Thomas",
+        "short_name": "Kilvær T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Oncology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Pedersen, Mona Irene",
+        "short_name": "Pedersen MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Blix, Egil S",
+        "short_name": "Blix ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Urbarova, Ilona",
+        "short_name": "Urbarova I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Community Medicine, UiT The Arctic University of Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Paulsen, Erna-Elise",
+        "short_name": "Paulsen EE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Pulmonology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Rakaee, Mehrdad",
+        "short_name": "Rakaee M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway.",
+          "Department of Cancer Genetics, Oslo University Hospital, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Busund, Lill-Tove Rasmussen",
+        "short_name": "Busund LR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Donnem, Tom",
+        "short_name": "Donnem T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Oncology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Andersen, Sigve",
+        "short_name": "Andersen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromsø, Norway.",
+          "Department of Oncology, University Hospital of North Norway, Tromsø, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/03 06:21",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42305548",
+      "42085932",
+      "41822496",
+      "41659881",
+      "40725844"
+    ],
+    "refs": [
+      "38959885",
+      "38687939",
+      "38590234",
+      "38572751",
+      "38503922",
+      "37844197",
+      "37782797",
+      "37536668",
+      "37322116",
+      "37298470",
+      "36901757",
+      "36806938",
+      "36512052",
+      "36059484",
+      "35970031",
+      "35492873",
+      "35487986",
+      "35153298",
+      "34917097",
+      "34725738",
+      "34385712",
+      "34253904",
+      "34127847",
+      "33913198",
+      "33818764",
+      "33572793",
+      "33158974",
+      "32929195",
+      "31734149",
+      "31378236",
+      "31181510",
+      "31102428",
+      "30743162",
+      "30676822",
+      "30635237",
+      "30520029",
+      "30275043",
+      "29885403",
+      "29396238",
+      "29203879",
+      "28723565",
+      "28466857",
+      "27923906",
+      "27708229",
+      "27533016",
+      "27501248",
+      "26834066",
+      "26578726",
+      "25680376",
+      "24872958",
+      "23384671",
+      "22109558",
+      "21814277",
+      "21376230",
+      "19161739",
+      "16130938",
+      "12011119",
+      "11477404"
+    ],
+    "similar": [
+      "39749327",
+      "41659881",
+      "34281863",
+      "38590234",
+      "42367769",
+      "18698040",
+      "39567670",
+      "35970031",
+      "29074606",
+      "29388007",
+      "40040705",
+      "34657342",
+      "39631852",
+      "32120230",
+      "26658106",
+      "41432877",
+      "31060602",
+      "30337185",
+      "27502728",
+      "39078518",
+      "39315096",
+      "29168339",
+      "29269008",
+      "39413714",
+      "30145359",
+      "39299754",
+      "42085932",
+      "27770170",
+      "39992312",
+      "26771872",
+      "28950145",
+      "31843013",
+      "32047958",
+      "39454350",
+      "31754936",
+      "32919305",
+      "39726591",
+      "40346580",
+      "14611679",
+      "33402127",
+      "34558296",
+      "33035322",
+      "32610210",
+      "38646528",
+      "18671239",
+      "26674143",
+      "25680376",
+      "29518341",
+      "32447027",
+      "41230345",
+      "30635237",
+      "38658748",
+      "41723041",
+      "28832075",
+      "34907028",
+      "25563322",
+      "33676448",
+      "34107469",
+      "27602763",
+      "41671623",
+      "31898519",
+      "30297881",
+      "30505306",
+      "31053597",
+      "41223031",
+      "25650315",
+      "38969523",
+      "39376565",
+      "35649657",
+      "30341017",
+      "29510739",
+      "26619201",
+      "33910273",
+      "30977778",
+      "24136748",
+      "31421259",
+      "39994401",
+      "23384671",
+      "40475772",
+      "39192984",
+      "34122444",
+      "22456757",
+      "41202699",
+      "42265935",
+      "39576843",
+      "41326648",
+      "29282718",
+      "25725111",
+      "39372398",
+      "41469097",
+      "37898752",
+      "40534266",
+      "41422799",
+      "29409671",
+      "32102750",
+      "27816392",
+      "21953630",
+      "39093404",
+      "38272565",
+      "31773516"
+    ],
+    "review": [
+      "39749327",
+      "39372398"
+    ],
+    "pmc": [
+      "11693705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39749327/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1504220",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

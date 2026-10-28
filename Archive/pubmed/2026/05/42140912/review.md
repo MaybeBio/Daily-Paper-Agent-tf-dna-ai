@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality based solely on the supplied material
+- **Shared manuscript claim summary** The authors present PromoterAtlas, a 1.8M parameter transformer model pre-trained on 9M upstream regulatory sequences from 3371 Gammaproteobacteria species. They claim the model recognizes diverse regulatory elements (promoters for five sigma factors, RBS, terminators, TFBS), enables genome-wide promoter annotation with high validation rates, embeds cross-species evolutionary relationships, and supports prediction of transcription and translation levels.
+- **Visible evidence base** Main text figures (Figs 1-6), supplementary figure references (S1-S8), dataset descriptions, and methodological details as described in the manuscript
+- **Missing materials affecting confidence** Supplementary figures and data files not provided; no code availability statement; no model availability details; no detailed hyperparameter settings; no statistical test details for embedding analyses; no baseline comparisons for annotation accuracy beyond two tools
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable resource for bacterial regulatory sequence analysis. The core idea of training a taxonomically focused transformer model on upstream regions is sensible and addresses a real gap in the field. The demonstration of regulatory feature recognition via logit visualisation is compelling and well illustrated. However, several technical concerns limit the strength of the claims as currently presented. The validation strategy for the annotation tool relies heavily on a single ChIP-seq dataset and a database, with limited discussion of limitations. The embedding analysis is largely descriptive and lacks quantitative assessment of clustering quality. The expression prediction results, while promising, are based on E. coli data only, and the comparison to PromoterCalculator is presented without statistical significance testing. The manuscript would benefit from clearer reporting of model training details, more rigorous benchmarking, and a more balanced discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in bacterial genomics, regulatory genomics, and synthetic biology would find this work of interest. The annotation tool addresses a practical need for scalable promoter identification in newly sequenced genomes. The demonstration that embeddings capture sigma factor identity across species is of evolutionary interest. The lightweight model architecture (1.8M parameters) is attractive for laboratories without access to large-scale computing, contrasting with larger foundation models. The expression prediction results suggest potential applications in promoter engineering and design.
+- **Major strengths** The dataset scale (9M sequences from 3371 species) is a significant resource. The logit visualisation approach is intuitive and provides interpretable evidence of learned regulatory features. The validation strategy using multiple independent approaches (ChIP-seq, distribution analysis, GO enrichment) is thoughtful. The demonstration of cross-species embedding structure is conceptually interesting. The lightweight architecture and practical annotation pipeline address real usability concerns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PromoterAtlas-annotation achieves high validation rates (85-100% across sigma factor classes) against ChIP-seq and RegulonDB data.
+  - **Evidence pointer** Figure 4B, Methods section "PromoterAtlas-annotation"
+  - **Concern** The validation of the annotation tool is performed exclusively on E. coli, using a single ChIP-seq dataset (Cho et al. 21) and RegulonDB. The manuscript does not report how the 318 training sequences were selected beyond stating they were "manually curated" and "clearly identifiable," which introduces potential selection bias. The validation metrics are reported as percentages of predictions validated, but the total number of predictions per sigma factor class is not clearly stated, making it difficult to assess the statistical robustness of the reported validation rates. Furthermore, the comparison with ProPr and SAPPHIRE reports only validation rates, not the total number of predictions made by each tool, which could be misleading if the tools have very different prediction counts.
+  - **Why it matters** The central practical claim of this work is that PromoterAtlas-annotation provides a reliable genome-wide promoter annotation tool. If the validation is based on a biased training set and a single organism, the generalisability to other Gammaproteobacteria is not established. The lack of clear prediction counts prevents assessment of whether the high validation rate is achieved by making very few, highly confident predictions, which may limit practical utility.
+  - **Resolution test** Provide the total number of predictions made per sigma factor class in E. coli, along with the number validated. Report precision and recall separately, not just validation rate. Validate on at least one additional species with available ChIP-seq data, or clearly discuss the limitation of single-species validation. Describe the criteria for including sequences in the training set more explicitly, and ideally provide inter-annotator agreement statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PromoterAtlas embeddings enable state-of-the-art transcription and translation prediction, with the model trained on Urtecho et al. achieving correlations "matching or exceeding Promoter Calculator" across all datasets.
+  - **Evidence pointer** Figure 6B, Methods section "Prediction of transcription levels"
+  - **Concern** The comparison to PromoterCalculator is presented as a key result, but no statistical significance testing is reported. The differences in Pearson correlations between the PromoterAtlas-based model and PromoterCalculator are not quantified with confidence intervals or p-values. Additionally, the manuscript does not report whether the PromoterCalculator predictions were made using the same sequence standardisation (86 nt, adenine padding) as the other models, which could affect its performance. The Evo2 comparison is also limited by the use of a single 7B parameter model with no exploration of alternative foundation models or embedding extraction strategies.
+  - **Why it matters** The claim of state-of-the-art performance is a strong one that requires rigorous statistical support. Without significance testing, the observed differences could be within noise. The potential mismatch in input processing for PromoterCalculator could introduce systematic bias. The expression prediction results are also based entirely on E. coli data, limiting the claim of broad applicability.
+  - **Resolution test** Report confidence intervals or bootstrap estimates for all correlation coefficients. Perform statistical tests for the difference between correlated correlations (e.g., Steiger's test). Clarify the input processing for PromoterCalculator. Discuss the limitations of E. coli-only validation for expression prediction and, if possible, include at least one non-E. coli dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality / scientific importance
+  - **Claim pointer** The claim that the embedding space reflects cross-species evolutionary relationships, clustering promoters by sigma factor identity rather than species-specific features.
+  - **Evidence pointer** Figure 5, Methods section "Embedding space analysis"
+  - **Concern** The embedding analysis is largely descriptive. The UMAP visualisation shows clustering, but no quantitative metrics are provided to support the claim that sigma factor identity is the dominant organising principle. The correlation analysis with GC content is reported only for block 1 and block 7, with no intermediate layers shown. The number of sequences used for this analysis (n=121) is small, and it is unclear how these were selected. The claim that clustering reflects "evolutionary relationships" is not directly tested, for example by comparing embedding distances to a phylogenetic tree.
+  - **Why it matters** The claim that the model captures evolutionary structure is interesting but requires quantitative support. If the clustering is driven by trivial sequence features such as GC content even in deeper layers, the claim of evolutionary encoding is weakened. The small sample size and lack of clear selection criteria limit the generalisability of the observation.
+  - **Resolution test** Provide quantitative clustering metrics (e.g., silhouette score, adjusted Rand index) for sigma factor identity versus species identity. Show the GC content correlation for all layers, not just two. Increase the number of sequences analysed and describe the selection criteria. Consider a direct comparison of embedding distances to phylogenetic distances.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model recognises transcription factor binding sites, including motifs for CRP, ntrC, luxR, and FNR.
+  - **Evidence pointer** Supplementary Figure S2, Results section "Recognition of regulatory features"
+  - **Concern** The recognition of TFBS motifs is presented as a qualitative observation from logit plots. No quantitative assessment is provided, such as comparison to known motif databases or position weight matrices. The manuscript does not specify how many TFBS motifs were examined, how they were selected, or what fraction were correctly identified. The biological significance of TFBS recognition is not discussed in the context of the annotation tool, which focuses on promoters.
+  - **Why it matters** If TFBS recognition is claimed as a capability, it should be rigorously evaluated. Qualitative visual inspection of a few examples is insufficient to establish this as a general property of the model. The lack of quantitative evaluation makes it difficult to assess the reliability of this feature.
+  - **Resolution test** Provide a systematic evaluation of TFBS recognition, for example by scanning known TFBS motifs from a database such as RegulonDB or PRODORIC and reporting sensitivity and specificity. Alternatively, clearly frame TFBS recognition as an anecdotal observation rather than a validated capability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model training details
+  - **Evidence pointer** Methods section "PromoterAtlas-base training"
+  - **Issue** The manuscript reports the learning rate, batch size, and early stopping criteria, but does not report the number of training steps, the total training time, the random seed used, or the hardware configuration beyond "a single NVIDIA a100". The number of parameters in the model is stated (1.8M), but the vocabulary size, number of attention heads, and other architectural hyperparameters are not fully specified.
+  - **Required correction** Provide a complete specification of all hyperparameters, including number of layers, attention heads, embedding dimension, feed-forward dimension, dropout rates, and any regularisation techniques. Report the random seed and the number of training steps. Consider releasing the training code and model weights to facilitate reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigour
+  - **Affected element** GO enrichment analysis
+  - **Evidence pointer** Methods section "Gene ontology analysis", Figure 4D
+  - **Issue** The GO enrichment analysis is described as identifying "top ten most enriched terms," but no statistical details are provided. It is unclear what background set was used, what statistical test was applied, and whether multiple testing correction was performed. The figure shows only the top 10 terms without effect sizes or p-values.
+  - **Required correction** Describe the statistical methodology for GO enrichment, including the background set, the test used, and the multiple testing correction method. Report the p-values or adjusted p-values for the terms shown in Figure 4D.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4C
+  - **Evidence pointer** Figure 4C
+  - **Issue** The number of promoters predicted per species is reported, but the total number of coding sequences per genome is not provided, making it difficult to interpret the annotation density. The species abbreviations used in the figure are not defined in the legend.
+  - **Required correction** Provide the total number of coding sequences for each species, or report the fraction of coding sequences with predicted promoters. Define all species abbreviations in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Manuscript text
+  - **Issue** No data or code availability statement is present in the provided material. Given the emphasis on practical utility and the claim of a deployable annotation tool, the absence of a clear statement on code and model availability is a significant omission.
+  - **Required correction** Add a Data and Code Availability section specifying where the training data, model weights, and annotation pipeline can be accessed, with appropriate links or accession numbers.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is brief and does not address several important caveats, including the potential for species-specific biases in the training data, the lack of experimental validation of predicted promoters, and the unknown performance on species distantly related to those in the training set.
+  - **Required correction** Expand the limitations paragraph to address these points explicitly and suggest directions for future validation.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art" transcription prediction performance is not statistically supported, as no significance testing is reported for comparisons with PromoterCalculator.
+- The claim that the model recognises TFBS motifs is based on qualitative visual inspection of a small number of examples and is not quantitatively evaluated.
+- The claim that embedding clustering reflects "evolutionary relationships" is not directly tested against phylogenetic data.
+- The generalisability of the annotation tool to non-E. coli species is asserted but not directly validated with independent experimental data.
+- The claim that the model "decodes regulatory sequences" is broader than what is demonstrated, as the work focuses on motif recognition and annotation rather than mechanistic decoding of regulatory logic.
+- The performance of the expression prediction models on non-E. coli datasets is not assessed, limiting the claim of broad applicability.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors use Reflective Phantom Interface (RPI) biosensing and all-atom molecular dynamics simulations to characterize specific vs. nonspecific binding of the Gal4 transcription factor to DNA. They report that specific binding is stronger but slower, with a free energy gap of only ~1 kcal/mol between specific and nonspecific binding, and propose that entropy-enthalpy compensation, involving DNA bending and conformational freezing, underlies this small difference.
+- **Visible evidence base** Main text figures (Figures 1-6), tables (Table 1), supplementary figure references (Figures S1-S12), supplementary tables (Tables S1-S5), and supplementary text sections (Texts S1-S8) as cited in the manuscript
+- **Missing materials affecting confidence** Supplementary figures, tables, and text sections are referenced but not provided in the submitted material. Raw RPI binding curves, detailed fitting parameters, and MD simulation trajectories are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated combination of label-free biosensing and molecular dynamics simulation to address a fundamental question in protein-DNA recognition. The RPI methodology appears well-suited for comparative kinetic and equilibrium measurements, and the nested-well model provides a useful conceptual framework. However, several aspects of the analysis require clarification, particularly regarding the interpretation of the small free energy difference, the robustness of the entropy-enthalpy decomposition, and the generalizability of the conclusions beyond the specific system studied. The manuscript is well-written and the findings are potentially of broad interest, but the strength of some claims exceeds what the presented evidence can support.
+- **Who would be interested in the results, and why** Researchers in the fields of transcription factor biology, protein-DNA interactions, biophysics of molecular recognition, and biosensor development would find this work relevant. The study addresses the long-standing question of how transcription factors achieve specificity despite weak intrinsic sequence discrimination, and the combined experimental-computational approach offers a template for similar investigations. The entropy-enthalpy compensation mechanism proposed has implications for understanding gene regulation and could inform engineering of DNA-binding proteins.
+- **Major strengths** The combination of experimental binding measurements and atomistic simulations is powerful and complementary. The RPI technology enables real-time, label-free, multi-spot detection, allowing direct comparison of specific and nonspecific interactions under identical conditions. The nested-well model is conceptually elegant and provides a quantitative framework for dissecting the contributions of nonspecific and specific binding. The temperature- and ionic-strength-dependent measurements add depth to the thermodynamic characterization. The MD simulations offer mechanistic insight into the conformational changes underlying the observed thermodynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The authors claim that "the free energy gap between specific and nonspecific binding is of the order of one kcal/mol only" and that this small value arises from strong enthalpy-entropy compensation.
+  - **Evidence pointer** Section 2.1, Figure 2D, Section 2.3, Figure 4
+  - **Concern** The free energy difference of ~1 kcal/mol is derived from Kd values of 25-35 nM (specific) and 160-240 nM (nonspecific). However, the Kd values for nonspecific binding show considerable scatter (160-240 nM), and the specific Kd range (25-35 nM) also spans a factor of 1.4. The propagation of these uncertainties into the calculated ΔG is not reported. Moreover, the enthalpy and entropy values are obtained from a van't Hoff analysis (Figure 4) with only a limited temperature range implied, and the reported uncertainties (±3 kcal/mol for ΔH, ±9 cal/(mol·K) for ΔS) are substantial. The claim of "strong" compensation requires a rigorous error analysis demonstrating that the compensation is statistically significant and not an artifact of correlated fitting parameters.
+  - **Why it matters** The central conclusion of the paper rests on the magnitude of the free energy difference and the compensation mechanism. If the uncertainties are larger than the reported ΔG itself, the conclusion that specific binding is only marginally favored thermodynamically would be weakened. Similarly, the entropy-enthalpy compensation is a key mechanistic claim that requires robust statistical support.
+  - **Resolution test** Provide a full error propagation analysis for ΔG, ΔH, and ΔS, including confidence intervals. Perform a statistical test for enthalpy-entropy compensation (e.g., a compensation plot with proper error ellipses). If possible, extend the temperature range of the measurements to improve the van't Hoff fit.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology and model validation
+  - **Claim pointer** The authors state that "the binding kinetics to a nested-well probe is a double exponential" and that the model "captures the differences in both the binding strength and kinetics."
+  - **Evidence pointer** Section 2.2, Figure 1B, Figure 2A, Supplementary Text S6
+  - **Concern** The nested-well model is introduced and used to fit the data, but the manuscript does not provide sufficient detail on how the model parameters are constrained or identified. The model has multiple free parameters (kon1, koff1, kon2, koff2, and the equilibrium constants), and it is unclear whether the fits are unique or whether different parameter combinations could produce equally good fits. The claim that the model "captures" the data is supported only by visual inspection of fits in Figure 1B, with no goodness-of-fit statistics, residual analysis, or comparison to alternative models (e.g., a simple two-site independent binding model). Without such validation, the extracted parameters and the conclusions drawn from them remain uncertain.
+  - **Why it matters** The nested-well model is central to the interpretation of the kinetic data and the extraction of the free energy difference. If the model is not uniquely identified or if alternative models fit equally well, the quantitative conclusions are not robust.
+  - **Resolution test** Provide a detailed description of the fitting procedure, including initial guesses, parameter bounds, and convergence criteria. Report goodness-of-fit statistics (e.g., chi-squared, AIC) and perform model comparison against simpler alternatives. Conduct a parameter identifiability analysis (e.g., profile likelihood) to demonstrate that the parameters are well-constrained by the data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology and interpretation
+  - **Claim pointer** The authors claim that MD simulations show "a strong enthalpy-entropy compensation, by which the binding of Gal4 to its cognate sequence entails a DNA bending and a striking conformational freezing."
+  - **Evidence pointer** Section 2.4, Section 2.5, Figures 5-6, Tables S2-S5, Supplementary Text S7
+  - **Concern** The MD simulations are described as "microsecond all-atom" with two repeats, but the manuscript does not provide sufficient detail on the convergence of the simulations, the force field used, or the statistical analysis of the thermodynamic quantities. The claim of "striking conformational freezing" is based on qualitative observations (Figure 6A) and changes in secondary structure, but no quantitative measure of conformational entropy is provided. The enthalpy and entropy contributions are estimated from the simulations (Tables S4-S5), but the methodology for these estimates is only briefly referenced to Supplementary Text S7, which is not available for review. The agreement between simulation-derived and experimentally-derived thermodynamic quantities is not quantitatively assessed.
+  - **Why it matters** The MD simulations are used to provide a mechanistic explanation for the experimentally observed entropy-enthalpy compensation. If the simulations are not converged or the thermodynamic estimates are not reliable, the proposed mechanism remains speculative.
+  - **Resolution test** Provide convergence metrics for the MD simulations (e.g., RMSD stabilization, block averaging of thermodynamic quantities). Describe the method for estimating entropy and enthalpy contributions in detail. Quantitatively compare simulation-derived free energies with experimental values and discuss discrepancies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and biological relevance
+  - **Claim pointer** The authors speculate that "the large entropic cost in specific binding... might be a critical element in recruiting the cofactors necessary to initiate the transcription, thereby minimizing the ectopic transcription initiation events."
+  - **Evidence pointer** Section 3 (Discussion and Conclusions)
+  - **Concern** The biological implications are speculative and go beyond the data presented. The study uses a truncated Gal4 construct (amino acids 1-147) and short DNA oligomers, which may not fully recapitulate the in vivo context. The claim that conformational freezing is "instrumental in the biological function of Gal4" is not directly tested. The authors acknowledge the limited scope but still present this as a plausible mechanism without discussing alternative explanations or potential caveats.
+  - **Why it matters** The broader significance of the work depends on the relevance of the findings to transcription regulation in vivo. Overinterpretation of in vitro and in silico results could mislead readers.
+  - **Resolution test** Soften the speculative claims or provide additional experimental evidence (e.g., mutagenesis studies, in vivo assays) to support the proposed biological role of conformational freezing. Discuss alternative mechanisms and limitations of the truncated system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Section 2.1, Figure 2D
+  - **Issue** The Kd values are presented as ranges (25-35 nM for specific, 160-240 nM for nonspecific) but the number of replicates and the source of variability are not clearly stated.
+  - **Required correction** Specify the number of independent measurements, the error bars in Figure 2D, and the statistical method used to determine the ranges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology detail
+  - **Affected element** RPI surface preparation
+  - **Evidence pointer** Section 4.1, Supplementary Text S8
+  - **Issue** The manuscript states that DNA probes are "chemically immobilized" on the RPI surface but does not describe the immobilization chemistry or the surface density of probes.
+  - **Required correction** Provide a brief description of the immobilization chemistry and the probe surface density, or refer to a specific section in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Section 2.1, Figure 3
+  - **Issue** The nonmonotonic behavior of Kd for nonspecific binding at high ionic strength (Figure 3A) is mentioned but not discussed in detail.
+  - **Required correction** Add a brief discussion of the possible origin of this nonmonotonic behavior and its implications for the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, Figure 4
+  - **Issue** The term "entropy-enthalpy compensation" is used, but the manuscript does not explicitly define what constitutes "compensation" in this context.
+  - **Required correction** Provide a clear definition of entropy-enthalpy compensation and how it is quantified in this study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4, reference [39]
+  - **Issue** The reference to Curves+ is cited as [39] in the text, but the reference list appears to have a different numbering (Curves+ is cited as [50] in Section 4.3).
+  - **Required correction** Verify and correct the reference numbering throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (error analysis for thermodynamic quantities), R1-M2 (model validation and identifiability), R1-M3 (MD simulation convergence and thermodynamic estimation methodology)
+- **Assessment against Nature-style criteria** Originality: The study is original in its combination of RPI biosensing with a nested-well kinetic model and MD simulations to dissect specific vs. nonspecific binding of a transcription factor. The entropy-enthalpy compensation mechanism, while previously proposed for other systems, is here applied to Gal4 with quantitative support. Scientific importance: The findings address a fundamental question in gene regulation, namely how transcription factors achieve specificity. The small free energy gap and the proposed role of conformational freezing have implications for understanding transcriptional regulation. However, the importance is somewhat limited by the use of a truncated protein and short DNA oligomers. Interdisciplinary readership: The work bridges biophysics, molecular biology, and computational chemistry, and would appeal to researchers across these disciplines. Technical soundness: The RPI methodology appears sound, and the MD simulations are state-of-the-art, but the lack of detailed error analysis and model validation weakens the technical robustness. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear figures and logical flow, though some sections (e.g., the nested-well model derivation) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental approach and conceptual framework are promising, but the quantitative claims require more rigorous error analysis and model validation. The MD simulation results need to be presented with sufficient detail to assess their reliability. If these concerns are addressed, the manuscript would make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the free energy gap between specific and nonspecific binding is "of the order of one kcal/mol only" is not supported by a rigorous error analysis.
+- The claim of "strong enthalpy-entropy compensation" is based on limited temperature-dependent data and MD estimates that are not fully described.
+- The speculation that conformational freezing is "instrumental in the biological function of Gal4" is not directly tested and goes beyond the data.
+- The statement that "the binding kinetics to a nested-well probe is a double exponential" is not validated with goodness-of-fit statistics or model comparison.
+- The generalizability of the findings to other transcription factors is asserted without comparative data.

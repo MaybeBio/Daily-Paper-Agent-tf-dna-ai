@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report construction of a complete TfR1 dimer model, docking of two transferrin molecules, and computational analyses (normal mode analysis and molecular dynamics simulations, including solvent and membrane environments) of conformational dynamics in apo TfR1 and the TfR1-2Tf complex. They report subdomain-specific flexibility patterns, ligand-induced stabilisation of the stalk and upper helical subdomain, enhanced inter-subdomain coordination upon Tf binding, and identification of novel interface residues between Tf N-lobes and the TfR1 stalk.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field choices, system setup details, convergence criteria, validation of the docked complex, all figures and tables, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with potential relevance to TfR1 biology and drug delivery. However, the evidence base available for review is limited to the abstract, which precludes verification of the methodological rigour, the validity of the model construction, the quality of the simulations, and the robustness of the reported conclusions. The claims are scientifically interesting but currently cannot be assessed for technical soundness from the supplied material.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biophysics, and molecular modelling, particularly those studying transferrin receptor dynamics, iron metabolism, and receptor-mediated endocytosis. The findings may also interest groups developing TfR1-targeted drug delivery systems or anti-cancer therapeutics that exploit TfR1-mediated internalisation.
+- **Major strengths** The study addresses a biologically and therapeutically relevant target. The combination of normal mode analysis and molecular dynamics simulations, including membrane and solvent environments, is appropriate for studying conformational dynamics. The identification of novel interface residues and the focus on preserving functional dynamics for ligand design are potentially valuable contributions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a complete TfR1 dimer model was constructed and two Tf structures were docked to form the TfR1-2Tf complex, and that conformational dynamics were investigated using NMA and MD simulations including solvent and membrane environments.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are available to assess the quality of the model construction, the docking procedure, the simulation length, the force field parameters, the membrane model, or the equilibration and convergence criteria. Without these details, the reliability of the simulation results cannot be evaluated.
+  - **Why it matters** The conclusions regarding subdomain flexibility, ligand-induced stabilisation, and inter-subdomain coordination depend entirely on the quality and convergence of the simulations. Inadequate sampling, incorrect system setup, or force field artefacts could invalidate the reported dynamics.
+  - **Resolution test** Provide full methods, including model building steps, docking validation, simulation protocols, convergence metrics, and reproducibility details. Demonstrate that the simulations are converged and that the observed dynamics are robust to parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors claim that Tf binding stabilises the stalk and upper helical subdomain, limits large tilting motions, preserves hinge regions, enhances coordination between subdomains, and that novel interface residues mediating Tf N-lobe and TfR1 stalk interactions were identified.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as root-mean-square fluctuation values, dynamic cross-correlation coefficients, or interaction energies, to support these claims. The novelty of the interface residues cannot be assessed without comparison to existing structural and mutagenesis data.
+  - **Why it matters** The central conclusions of the study rest on these specific observations. Without quantitative support and comparison to prior knowledge, the claims remain qualitative and their significance cannot be established.
+  - **Resolution test** Provide quantitative results with appropriate statistical measures, and compare the identified interface residues with previously reported TfR1-Tf interaction data to substantiate novelty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors state that the findings provide a structural basis for rational ligand design targeting TfR1 without disrupting its functional dynamics, offering insights for drug delivery and receptor inhibition.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The translational relevance of the findings is asserted without any experimental validation or demonstration that the identified dynamics and interface residues are functionally important in a cellular context.
+  - **Why it matters** Computational predictions of functional relevance require experimental corroboration or at least strong correlation with known functional data. Without such support, the claimed implications for drug design remain speculative.
+  - **Resolution test** Discuss how the identified residues and dynamic features relate to existing functional or mutagenesis data, or clearly frame the findings as hypotheses requiring experimental testing.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "complete model of the TfR1 dimer" is ambiguous. It is unclear whether this refers to a full-length model including all domains, a model with resolved missing regions, or a model assembled from multiple templates.
+  - **Required correction** Clarify what "complete" means in the context of the model construction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the simulation timescales or the number of replicas, which are essential for assessing sampling adequacy.
+  - **Required correction** Include simulation lengths and replication information in the abstract or ensure they are prominently reported in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Novel interface residues"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "novel" requires a clear baseline. Without stating what these residues are novel relative to, the claim is difficult to interpret.
+  - **Required correction** Specify the comparison basis, such as previously resolved structures or prior computational studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and quantitative support means the core claims cannot be verified from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of NMA and MD on a full TfR1 dimer with docked Tf in a membrane environment may offer a new perspective, but the abstract does not clearly differentiate the approach from prior computational studies of TfR1. Assessment: not fully assessable from abstract.
+  - Scientific importance: TfR1 is a relevant therapeutic target, and understanding its dynamics is of interest. However, the significance of the specific findings cannot be evaluated without quantitative context. Assessment: potentially important but unverified.
+  - Interdisciplinary readership: The topic bridges structural biology, computational chemistry, and drug delivery. The abstract is written in a way that is broadly accessible. Assessment: adequate.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail is a major limitation. Assessment: currently not established.
+  - Readability for nonspecialists: The abstract is clear and avoids excessive jargon, making it accessible to a broad scientific audience. Assessment: good.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be of interest, but the abstract alone does not provide sufficient information to assess the validity of the methods or the robustness of the conclusions. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that a "complete" TfR1 dimer model was constructed is unsupported without details of the modelling procedure.
+- The claim that Tf binding stabilises specific subdomains and enhances inter-subdomain coordination is unsupported without quantitative data.
+- The claim that novel interface residues were identified is unsupported without comparison to existing data.
+- The translational implications for drug design and receptor inhibition are speculative without experimental or functional validation.

@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "41937775",
+    "doi": "10.3389/fpls.2026.1802398",
+    "title": "Multilevel analysis of salt stress responses in sorghum during seed germination."
+  },
+  "content": {
+    "abstract": "A significant number of crop species and their associated agricultural landscapes are impacted by soil salinity, which severely hampers germination and seedling establishment. Developing salt-tolerant germplasm and improving screening methods are critical priorities for plant breeding programs. This study used sorghum as a model to evaluate germination and early growth responses in 100 accessions under control and 150 mM NaCl conditions. Multiple indices were used to develop a numeric salt tolerance score (STS), minimizing baseline growth effects to better reflect true stress responses. Multivariate approaches, including PCA, cluster analysis, and machine learning, were employed to assess salt tolerance. Salt stress significantly reduced germination traits such as germination index, rate, and vigor. The STS proved effective in ranking accessions for salt tolerance. Salt-tolerant accession showed upregulation of ion transport and homeostasis genes (SbNHXLP, SbHKT1;4, SbHKT1;5, and SbCLCc), and downregulation of certain transcription factors. Physiological analyses revealed lower sodium accumulation, higher K+/Na+ ratios, and enhanced antioxidant and osmotic regulation in tolerant accessions. These findings suggest that coordinated ion homeostasis and stress responses are likely determinants of salt tolerance during germination. This integrated screening system offers a valuable tool for early-stage breeding of salt-tolerant sorghum.",
+    "keywords": [
+      "antioxidant defense",
+      "ion homeostasis",
+      "salt tolerance",
+      "seedling vigor",
+      "sorghum"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hong-Jin",
+        "Yu, Yi",
+        "Zhao, Yun",
+        "Wang, Hui",
+        "Hu, Xiangwei",
+        "Ullah, Uzair",
+        "Yang, Baoyi",
+        "Huang, Jianan",
+        "Chen, Kunming",
+        "Khan, Aamir Hamid",
+        "Abbas, Waseem",
+        "Feng, Guojun",
+        "Kuerban, Zaituniguli"
+      ],
+      "short_names": [
+        "Wang HJ",
+        "Yu Y",
+        "Zhao Y",
+        "Wang H",
+        "Hu X",
+        "Ullah U",
+        "Yang B",
+        "Huang J",
+        "Chen K",
+        "Khan AH",
+        "Abbas W",
+        "Feng G",
+        "Kuerban Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China.",
+        "College of Pratacultural Science, Xinjiang Agricultural University, Urumqi, Xinjiang, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China.",
+        "Department of Biogeography, Paleoecology and Nature Conservation, Faculty of Biology and Environmental Protection, University of Lodz, Lodz, Poland.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Longhua Bioindustry and Innovation Research Institute, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+        "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hong-Jin",
+        "short_name": "Wang HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China.",
+          "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yi",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pratacultural Science, Xinjiang Agricultural University, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yun",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiangwei",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ullah, Uzair",
+        "short_name": "Ullah U",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Baoyi",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jianan",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kunming",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Improvement for Stress Tolerance and Production, College of Life Sciences, Northwest A&F University, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Khan, Aamir Hamid",
+        "short_name": "Khan AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biogeography, Paleoecology and Nature Conservation, Faculty of Biology and Environmental Protection, University of Łódź, Łódź, Poland."
+        ]
+      },
+      {
+        "full_name": "Abbas, Waseem",
+        "short_name": "Abbas W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Longhua Bioindustry and Innovation Research Institute, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Guojun",
+        "short_name": "Feng G",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Kuerban, Zaituniguli",
+        "short_name": "Kuerban Z",
+        "identifiers": [],
+        "affiliations": [
+          "Crop Research Institute of Xinjiang Uygur Autonomous Region Academy of Agricultural Sciences, Urumqi, Xinjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41451288",
+      "41338063",
+      "41178568",
+      "41039240",
+      "41027890",
+      "40770158",
+      "40621050",
+      "40182557",
+      "40173137",
+      "39917600",
+      "38327054",
+      "38318366",
+      "38203189",
+      "38202374",
+      "38172573",
+      "37736710",
+      "37660623",
+      "37446223",
+      "37111807",
+      "36656365",
+      "36371210",
+      "35161396",
+      "34633473",
+      "34484255",
+      "34224010",
+      "34040107",
+      "33524921",
+      "32906023",
+      "32603857",
+      "32531914",
+      "32470809",
+      "32408717",
+      "32397526",
+      "32153619",
+      "32052233",
+      "30828339",
+      "28111589",
+      "27707746",
+      "26812088",
+      "25139769",
+      "24958898",
+      "24914928",
+      "24630845",
+      "24503564",
+      "24325391",
+      "18444910",
+      "16143716",
+      "12221975",
+      "11846609"
+    ],
+    "similar": [
+      "41937775",
+      "40240984",
+      "42144115",
+      "41131482",
+      "41372820",
+      "41703457",
+      "38269142",
+      "42129284",
+      "39376236",
+      "40621050",
+      "42067801",
+      "41600037",
+      "42137205",
+      "40045220",
+      "40185445",
+      "41281327",
+      "37702838",
+      "42357205",
+      "32291006",
+      "25004761",
+      "40283149",
+      "35009100",
+      "39919063",
+      "35574088",
+      "38152345",
+      "32648285",
+      "41451288",
+      "42583612",
+      "32531914",
+      "41606489",
+      "24325391",
+      "34224010",
+      "41368143",
+      "38304185",
+      "39367326",
+      "40282327",
+      "39806297",
+      "35926737",
+      "41559562",
+      "32050903",
+      "28558653",
+      "41559598",
+      "33983490",
+      "37887053",
+      "37872968",
+      "35392519",
+      "41714958",
+      "42210056",
+      "40963827",
+      "40724910",
+      "42092794",
+      "29480957",
+      "34834796",
+      "42058852",
+      "38797209",
+      "32052233",
+      "31644988",
+      "40148782",
+      "42480472",
+      "34678626",
+      "41092553",
+      "38202374",
+      "41393885",
+      "39917600",
+      "42555920",
+      "35217965",
+      "38464747",
+      "40076517",
+      "30894419",
+      "28843888",
+      "42280630",
+      "36126616",
+      "36232362",
+      "32606296",
+      "42424489",
+      "41703238",
+      "39054427",
+      "42121022",
+      "30149642",
+      "24840039",
+      "42475469",
+      "32523398",
+      "42428938",
+      "42588916",
+      "41900365",
+      "41754367",
+      "33465130",
+      "27063367",
+      "37446223",
+      "41214085",
+      "40102743",
+      "41183403",
+      "40683318",
+      "36275563",
+      "31105727",
+      "40317365",
+      "34834826",
+      "33868346",
+      "41353893",
+      "38439514"
+    ],
+    "review": [
+      "41937775",
+      "34224010"
+    ],
+    "pmc": [
+      "13044168"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41937775/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2026.1802398",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

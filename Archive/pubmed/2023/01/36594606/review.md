@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and methods section. Supplementary material referenced but not provided.
+- **Assessment boundary** Computational identification and analysis of allosteric networks in steroid receptor ligand-binding domains using MD simulations and suboptimal path analysis.
+- **Shared manuscript claim summary** The authors identify an evolutionarily conserved allosteric network in steroid receptors, centered on a site between helices 9 and 10 (Site 1), which communicates with the AF-2 surface and the ligand-binding pocket. This network is conserved across five steroid receptors including a reconstructed ancestor, and the authors propose that Site 1 represents a functionally important allosteric site beyond its known role in dimerization.
+- **Visible evidence base** Main text figures (Figures 1–8), tables referenced in text (Tables S1–S6), methods section, and abstract. Supplementary figures and tables are referenced but not included in the provided material.
+- **Missing materials affecting confidence** Supplementary figures (Figure S1) and tables (Tables S1–S6) are referenced but not provided. These contain edge weight heat maps and full lists of conserved edges, which are central to several claims. Without these, the quantitative basis for some conclusions cannot be fully evaluated.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational analysis of allosteric networks in steroid receptors, combining MD simulations with suboptimal path analysis across five receptors including a reconstructed ancestor. The identification of a conserved allosteric site at the H9–H10 interface is potentially interesting and could have implications for understanding steroid receptor regulation. However, the manuscript has several technical limitations that need to be addressed, particularly regarding the validation of the computational approach, the statistical treatment of the MD data, and the interpretation of edge weight changes. The claim that Site 1 is "unique" among the identified sites requires stronger quantitative support. The evolutionary interpretation, while intriguing, is based on a single ancestral reconstruction and would benefit from additional context. Overall, the work is technically sound in its core methodology but the strength of the conclusions currently exceeds what the presented evidence supports.
+- **Who would be interested in the results, and why** Researchers in the fields of nuclear receptor biology, allostery, and computational biophysics would find this work relevant. Those studying steroid receptor structure-function relationships, particularly the role of the LBD in coregulator recruitment and dimerization, would be interested in the identification of a potentially new allosteric site. Computational biologists developing or applying network-based methods for allosteric site prediction would also find the approach of interest.
+- **Major strengths** The use of a resurrected ancestral receptor (AncSR2) to study evolutionary conservation of allosteric networks is a novel and valuable approach. The systematic comparison across five receptors provides a broad perspective. The combination of unliganded and ligand-bound simulations adds depth to the analysis. The identification of a conserved site at H9–H10 with potential functional relevance beyond dimerization is a potentially significant finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Site 1 is unique compared to Sites 2–6 identified in our analysis because it is not redundant with other sites and also because all Site 1 auxiliary sites are distant from Site 1, suggesting that they are likely to be true allosteric sites."
+  - **Evidence pointer** Figure 8, Results section "Why Is Site 1 So Important for All SRs?"
+  - **Concern** The claim of uniqueness for Site 1 is based on a comparison of auxiliary sites for Sites 2, 3, 4, and 6, but the criteria for "redundancy" and "distance" are not quantitatively defined. The authors state that Sites 3 and 6 have identical auxiliary sites and Sites 2 and 4 have nearly identical auxiliary sites, but the threshold for "nearly identical" is not specified. Furthermore, the analysis of auxiliary sites for Sites 2–6 appears to be performed only in AncSR2, not across all five receptors, which weakens the claim that Site 1 is uniquely conserved.
+  - **Why it matters** The central conclusion of the paper is that Site 1 is a uniquely important conserved allosteric site. If the comparison to other sites is not rigorously quantified, the claim of uniqueness is not established. This is the key differentiator between Site 1 and the other identified sites.
+  - **Resolution test** Provide a quantitative definition of "redundancy" and "distance" for auxiliary sites. Perform the auxiliary site analysis for Sites 2–6 across all five receptors, not just AncSR2. Provide statistical measures (e.g., overlap coefficients, distance distributions) to support the claim that Site 1's auxiliary sites are uniquely distant and non-redundant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state: "In AR, ligand addition leads to large increases (Δ ≈ 120–150) in the range of edge weights" and interpret changes in edge weights as indicating changes in the strength of communication.
+  - **Evidence pointer** Figure 5C, Tables S2, Results section "Ligand-Bound Complexes Confirm Site 1 as a Crucial Allosteric Site"
+  - **Concern** The interpretation of edge weight changes between unliganded and ligand-bound states is based on comparing distributions (box plots) and heat maps, but no statistical tests are reported. The authors state that "activating ligands may induce strong edges in certain regions of the receptor compared to inactive ligands" but this hypothesis is based on a small number of ligands per receptor (e.g., only DHT activates AR) and no statistical framework is provided to distinguish genuine differences from noise. The claim that "DHT is the only ligand that activates AR in vitro, and similar to observations in AncSR2 and PR, it preserves similar or lower edge weights" is presented as a pattern, but with n=1 activating ligand for AR, this is anecdotal.
+  - **Why it matters** The interpretation of how ligands modulate allosteric networks is a key part of the results. Without statistical testing, the observed differences in edge weights could be within the range of natural fluctuation. The claim that activating versus inactive ligands have differential effects on edge weights is not supported by the evidence presented.
+  - **Resolution test** Perform statistical comparisons (e.g., permutation tests, bootstrap) between edge weight distributions for unliganded versus ligand-bound states, and between different ligand states. Report effect sizes and confidence intervals. If the sample size is insufficient for statistical testing, state this limitation explicitly and temper the conclusions accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state: "We determined all interhelical edges involved in Site 1 signaling, that is, edges formed between H9/H10/H5 and amino acids outside the helices. We describe the conservation of these edges as 1/5, 2/5, 3/5, 4/5, or 5/5 based on the extent to which residue identities are conserved across the five SRs studied here."
+  - **Evidence pointer** Table S6, Results section "Why Is Site 1 So Important for All SRs?"
+  - **Concern** The conservation analysis is based on residue identity conservation across five receptors. However, the authors do not account for conservative substitutions that may preserve the physicochemical nature of the interaction. Two residues could be different in identity but similar in character (e.g., both hydrophobic), and the edge could still be functionally conserved. The binary classification of "conserved" versus "not conserved" based on identical residues may underestimate the true conservation of the network.
+  - **Why it matters** The claim that Site 1's network is evolutionarily conserved depends on how conservation is defined. If conservative substitutions are not considered, the analysis may miss functionally conserved edges, potentially weakening or strengthening the conclusions depending on the direction of the bias.
+  - **Resolution test** Repeat the conservation analysis using a more nuanced classification (e.g., amino acid property classes, BLOSUM similarity scores). Report whether the conclusions change when conservative substitutions are considered. Alternatively, justify why strict identity is the appropriate metric.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state: "This study suggests an evolutionarily importance of the helix 9–helix 10 site in steroid receptors and identifies an approach that may be applied to discover previously unknown allosteric sites in proteins."
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** The claim that the approach "may be applied to discover previously unknown allosteric sites in proteins" is a general statement that goes beyond the scope of this study. The method is applied to steroid receptors only, and its generalizability to other protein families is not demonstrated. Furthermore, the functional significance of Site 1 is inferred from computational analysis and literature, but no experimental validation is provided. The authors acknowledge this in the Conclusions ("Future work will be necessary to define the roles of Site 1 as an allosteric SR modulator"), but the abstract and introduction frame the findings more strongly.
+  - **Why it matters** The broader significance of the work depends on whether the identified site has functional relevance. Without experimental validation, the claim of "evolutionary importance" remains a computational prediction. The generalizability of the approach is an assertion that is not tested.
+  - **Resolution test** Temper the claims in the abstract and introduction to match the evidence. Explicitly state that the functional significance of Site 1 is a prediction that requires experimental testing. If possible, add a brief discussion of the potential limitations of the approach for other protein families.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript uses terminology such as "suboptimal paths," "edge weights," and "sink node" without providing sufficient intuitive explanation for readers who may not be familiar with network analysis of MD simulations. The Methods section provides technical details, but the Results section assumes familiarity with the approach.
+  - **Required correction** Add a brief, plain-language explanation of the suboptimal path approach in the Introduction or at the start of the Results section. For example, explain that the method identifies chains of interacting residues that could transmit signals, and that "edge weight" reflects the strength of correlation between residue movements.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model Preparation
+  - **Evidence pointer** location not provided
+  - **Issue** The authors state that "All water and surface-bound molecules from crystallization buffers were deleted." This is a standard practice, but the authors do not specify whether any crystallographic waters that might be important for structure stability were retained. Additionally, the method for generating ligand-bound models by "modifying steroidal cores in each complex" is described, but the specific modifications for each ligand are not detailed.
+  - **Required correction** Clarify whether any crystallographic waters were retained. Provide a brief description of the modifications made to generate each ligand-bound complex, or reference a prior publication where this approach is described in detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD Simulations
+  - **Evidence pointer** location not provided
+  - **Issue** The authors state that "triplicate 500 ns production simulations were performed for each system." However, the convergence of the simulations is not assessed. For a study that relies on correlation analysis, it is important to demonstrate that the simulations have converged and that the correlations are stable over time.
+  - **Required correction** Add an analysis of simulation convergence, such as block averaging of correlation values or comparison of results from the first and second halves of the trajectories. Alternatively, cite prior work demonstrating that 500 ns is sufficient for convergence of this type of analysis in similar systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 2
+  - **Evidence pointer** location not provided
+  - **Issue** Figure 2 presents the six identified sites, but the figure caption does not clearly explain how the sites are defined or how the reader should interpret the "prominence" of each site across receptors.
+  - **Required correction** Expand the figure caption to explain the criteria for site identification and how the visual representation (e.g., color intensity, size) corresponds to the number of suboptimal paths.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (uniqueness of Site 1 not quantitatively established), R1-M2 (lack of statistical testing for edge weight changes), R1-M3 (conservation analysis may be too strict). These need to be addressed before the central claims of the manuscript can be considered fully supported.
+- **Assessment against Nature-style criteria** Originality: The use of a resurrected ancestral receptor to study allosteric network evolution is a creative and relatively novel approach. The identification of a specific conserved site at H9–H10 is a potentially original finding. Scientific importance: The work addresses a fundamental question about the evolution of allostery in a biologically important protein family. If the findings are robust, they could have implications for understanding steroid receptor regulation and for drug design. However, the lack of experimental validation limits the immediate impact. Interdisciplinary readership: The work bridges computational biophysics and structural biology, and would be of interest to researchers in both fields. The evolutionary angle may also attract interest from evolutionary biologists. Technical soundness: The core methodology (MD simulations, suboptimal path analysis) is well-established, but the statistical treatment of the results and the quantitative basis for the uniqueness claim need strengthening. Readability for nonspecialists: The manuscript is generally well-written, but the Results section could benefit from more intuitive explanations of the network analysis approach for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is sound and the identification of a conserved allosteric site is potentially interesting. However, the claims of uniqueness and the interpretation of ligand effects need stronger quantitative support. The manuscript would be strengthened by addressing the statistical concerns and by tempering the conclusions to match the evidence.
+
+## Risk / unsupported claims
+- The claim that Site 1 is "unique" among the identified sites is not quantitatively supported without a rigorous comparison of auxiliary sites across all receptors.
+- The hypothesis that "activating ligands may induce strong edges in certain regions of the receptor compared to inactive ligands" is based on a very small number of observations and is not statistically tested.
+- The claim that the approach "may be applied to discover previously unknown allosteric sites in proteins" is a general statement that is not demonstrated by the data presented.
+- The functional significance of Site 1 is inferred from computational analysis and literature, but no experimental validation is provided. The authors acknowledge this, but the framing in the abstract and introduction is stronger than the evidence supports.

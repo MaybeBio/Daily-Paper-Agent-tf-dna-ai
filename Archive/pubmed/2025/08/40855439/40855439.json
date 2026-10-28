@@ -1,0 +1,472 @@
+{
+  "identity": {
+    "pmid": "40855439",
+    "doi": "10.1186/s12964-025-02369-8",
+    "title": "Senescent fibroblasts secrete CTHRC1 to promote cancer stemness in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cellular senescence plays a significant role in tumorigenesis and tumor progression. Substantial evidence indicates that senescence occurs in cancer-associated fibroblasts (CAFs), the predominant stromal component within the tumor microenvironment (TME), which profoundly impacts tumor biology. However, despite growing evidence of stromal cell involvement in cancer progression, the specific mechanisms and clinical implications of senescent CAFs (SCAFs) in hepatocellular carcinoma (HCC) have not been fully elucidated. METHODS: The senescence signature was utilized to evaluate the senescence status of cell types within the TME of HCC using the GSE149614 dataset. The CytoTRACE and cell-cell communication analysis were used to find the correlation between cancer stemness and SCAFs. A risk prediction model associated with SCAFs was constructed to investigate potential mechanisms by which SCAFs promote tumor progression. Single-cell RNA sequencing data was used to identify senescent CAF-related genes. Gene expression and clinical data for HCC were obtained from the Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), and National Omics Data Encyclopedia (NODE) databases. Using four machine-learning algorithms, crucial genes were identified to develop a CAF-senescence-related risk model, predicting prognosis, cancer stemness, immune infiltration, tumor mutation burden, and therapeutic responses in HCC patients. Next, we explored the role of Collagen Triple Helix Repeat Containing-1 (CTHRC1) in cancer stemness using both in vitro and in vivo experiments. Through various functional experiments, we elucidated the downstream signaling pathways of CTHRC1. Additionally, chromatin immunoprecipitation experiments were used to verify that key transcription factors bind to the CTHRC1 promoter region. RESULTS: CAFs exhibited high senescence status and a strong correlation with cancer stemness in HCC. A novel CAF-senescence-score (CSscore) prognostic model was established for HCC based on 10 genes: CTHRC1, SERPINE1, RNF11, ENG, MARCKSL1, ASAP1, FHL3, LAMB1, CD151, and OLFML2B. The survival prediction performance was validated on TCGA, ICGC, and NODE cohorts. Immune analysis revealed that the CSscore was positively correlated with immunosuppressive immune cell populations, including M2 macrophages and regulatory T cells. Conversely, a negative correlation was observed between the CSscore and anti-tumor immune cells such as CD8 + T cells, dendritic cells, and B cells HCC patients with a low CSscore had a lower tumor mutation burden and showed improved responsiveness to immunotherapy and transarterial chemoembolization. In vitro experiments and bioinformatics analysis further revealed that CTHRC1 was significantly elevated in SCAFs promoted cancer stemness and metastasis via the SRY-box transcription factor 4 (SOX4)-CTHRC1-Notch1 axis in HCC. CONCLUSION: Our study revealed that SCAFs were strongly correlated with cancer stemness in HCC. A novel machine learning model based on senescent CAF-related genes was constructed to accurately predict prognosis in HCC patients. Furthermore, CTHRC1 was identified as a novel prognostic and therapeutic biomarker to predict poor prognosis in HCC and promote cancer stemness and metastasis through the Notch signaling pathway, with its expression being transcriptionally regulated by SOX4.",
+    "keywords": [
+      "Cancer stemness",
+      "Cancer-associated fibroblasts",
+      "Cellular senescence",
+      "Hepatocellular carcinoma",
+      "Notch signaling pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/pathology/metabolism/genetics",
+      "*Liver Neoplasms/pathology/metabolism/genetics",
+      "*Cellular Senescence",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology",
+      "Tumor Microenvironment",
+      "*Extracellular Matrix Proteins/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Hai",
+        "Peng, Wang",
+        "Zhou, Qiaodan",
+        "Zhao, Yuchong",
+        "Liu, Luyao",
+        "Cui, Haochen",
+        "Liang, Jingwen",
+        "Cao, Mengdie",
+        "Chen, Wei",
+        "Wang, Ronghua",
+        "Chen, Shiru",
+        "Xiong, Si",
+        "Cheng, Bin",
+        "Bai, Shuya"
+      ],
+      "short_names": [
+        "Huang H",
+        "Peng W",
+        "Zhou Q",
+        "Zhao Y",
+        "Liu L",
+        "Cui H",
+        "Liang J",
+        "Cao M",
+        "Chen W",
+        "Wang R",
+        "Chen S",
+        "Xiong S",
+        "Cheng B",
+        "Bai S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "School of Life Sciences, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, 999077, China.",
+        "Department of Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15213, USA.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. b.cheng@tjh.tjmu.edu.cn.",
+        "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. 18137370151@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Hai",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Wang",
+        "short_name": "Peng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qiaodan",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuchong",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Luyao",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Haochen",
+        "short_name": "Cui H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jingwen",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Mengdie",
+        "short_name": "Cao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+          "School of Life Sciences, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ronghua",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Shiru",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Si",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Bin",
+        "short_name": "Cheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. b.cheng@tjh.tjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bai, Shuya",
+        "short_name": "Bai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. 18137370151@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2025 Aug 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/28 04:47",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42683247",
+      "42656378",
+      "41878160",
+      "41619135",
+      "41479645",
+      "41444607",
+      "41316207",
+      "41208981"
+    ],
+    "refs": [
+      "39753912",
+      "39739618",
+      "39661488",
+      "39267787",
+      "39229506",
+      "39217404",
+      "39139001",
+      "39121846",
+      "39039076",
+      "38886186",
+      "38821603",
+      "38790068",
+      "38686865",
+      "38683161",
+      "38683144",
+      "38679394",
+      "38629299",
+      "38614215",
+      "38572751",
+      "38569015",
+      "38516242",
+      "38499573",
+      "38453603",
+      "37784082",
+      "37634009",
+      "37444482",
+      "37287976",
+      "37231261",
+      "37004088",
+      "36978029",
+      "36775834",
+      "36765091",
+      "36369487",
+      "36208990",
+      "35933472",
+      "35120600",
+      "35022204",
+      "34996812",
+      "34557778",
+      "34504325",
+      "34500043",
+      "34050758",
+      "33981085",
+      "33597522",
+      "33510460",
+      "33385331",
+      "32899119",
+      "31974247",
+      "31888685",
+      "31857293",
+      "31675495",
+      "31560156",
+      "31389184",
+      "31235879",
+      "30999932",
+      "30996127",
+      "30341162",
+      "30241973",
+      "30154154",
+      "30127393",
+      "30108162",
+      "29625051",
+      "29443960",
+      "29307467",
+      "29285247",
+      "29115304",
+      "29059467",
+      "29033130",
+      "28732212",
+      "28575665",
+      "28096526",
+      "27678171",
+      "26771021",
+      "25516281",
+      "25483067",
+      "24954210",
+      "24802416",
+      "23539594",
+      "18711403",
+      "18323559",
+      "17634582",
+      "17060621",
+      "16199517",
+      "14960456"
+    ],
+    "similar": [
+      "40855439",
+      "40736659",
+      "41208981",
+      "40241143",
+      "30999932",
+      "39138551",
+      "38694506",
+      "40591224",
+      "30564864",
+      "39021175",
+      "35733776",
+      "38949237",
+      "39641162",
+      "36458010",
+      "39503880",
+      "41050691",
+      "39966876",
+      "39661488",
+      "35991839",
+      "38956074",
+      "40751418",
+      "37004088",
+      "33682185",
+      "40746880",
+      "39085893",
+      "37987774",
+      "39798003",
+      "40216977",
+      "40134434",
+      "36211448",
+      "39252517",
+      "40289085",
+      "38472558",
+      "38189188",
+      "39814999",
+      "39178796",
+      "40069889",
+      "25263696",
+      "36307751",
+      "39574133",
+      "37898914",
+      "39603378",
+      "37960718",
+      "23922981",
+      "38821603",
+      "38847249",
+      "39712016",
+      "34975338",
+      "36299502",
+      "35610614",
+      "39674501",
+      "39835122",
+      "39544420",
+      "37540264",
+      "40665682",
+      "39859485",
+      "39703515",
+      "39067872",
+      "39658708",
+      "40038727",
+      "40330470",
+      "27297362",
+      "35381131",
+      "39080215",
+      "30555042",
+      "40355422",
+      "39884379",
+      "29248714",
+      "38114725",
+      "39596041",
+      "36246969",
+      "32883551",
+      "40413530",
+      "36714595",
+      "38008711",
+      "38317842",
+      "39773565",
+      "36275676",
+      "28288874",
+      "39850878",
+      "40302343",
+      "41200185",
+      "34551961",
+      "41068948",
+      "39097533",
+      "39718123",
+      "36835352",
+      "39447409",
+      "40211257",
+      "36938461",
+      "31969776",
+      "39827226",
+      "39834857",
+      "37480091",
+      "32231177",
+      "41120498",
+      "40378566",
+      "38859773",
+      "37565899",
+      "40485623"
+    ],
+    "review": [
+      "40855439",
+      "36835352"
+    ],
+    "pmc": [
+      "12376455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-025-02369-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40855439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40855439",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

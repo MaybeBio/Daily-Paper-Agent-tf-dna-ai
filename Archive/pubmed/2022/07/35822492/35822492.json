@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "35822492",
+    "doi": "10.1080/07391102.2022.2097313",
+    "title": "Promising disruptors of p53-MDM2 dimerization from some medicinal plant phytochemicals: a molecular modeling study."
+  },
+  "content": {
+    "abstract": "Cancer is a major global health issue that has a high mortality rate. p53, which functions as a tumor suppressor, is critical in preventing tumor development by regulating the cell cycle and inducing apoptosis in damaged cells. However, the tumor suppressor function of p53 is effectively inhibited by its direct interaction with the hydrophobic cleft of MDM2 protein via multiple mechanisms As a result, restoring p53 activity by blocking the p53-MDM2 protein-protein interaction has been proposed as a compelling therapeutic strategy for cancer treatment. The use of molecular docking and phytochemical screening procedures are appraised to inhibit MDM2's hydrophobic cleft and disrupt the p53-MDM2 interaction. For this purpose, a library of 51 bioactive compounds from 10 medicinal plants was compiled and subjected to structure-based virtual screening. Out of these, only 3 compounds (Atalantoflavone, Cudraxanthone 1, and Ursolic acid) emerged as promising inhibitors of MDM2-p53 based on their binding affinities (-9.1 kcal/mol, -8.8 kcal/mol, and -8.8 kcal/mol respectively) when compared to the standard (-8.8 kcal/mol). Moreover, these compounds showed better pharmacokinetic and drug-like profiling than the standard inhibitor (Chromonotriazolopyrimidine 1). Finally, the 100 ns MD simulation analysis confirmed no significant perturbation in the conformational dynamics of the simulated binary complexes when compared to the standard. In particular, Ursolic acid was found to satisfy the molecular enumeration the most compared to the other inhibitors. Our overall molecular modeling finding shows why these compounds may emerge as potent arsenals for cancer therapeutics. Nonetheless, extensive experimental and clinical research is needed to augment their use in clinics.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "ADMET evaluation",
+      "Cancer therapy",
+      "MDM2-p53 inhibitors",
+      "Molecular dynamics simulation",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "Tumor Suppressor Protein p53/chemistry",
+      "*Plants, Medicinal",
+      "Proto-Oncogene Proteins c-mdm2/chemistry/metabolism",
+      "Dimerization",
+      "*Neoplasms/drug therapy",
+      "Protein Binding",
+      "Ursolic Acid"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oyedele, Abdul-Quddus Kehinde",
+        "Adelusi, Temitope Isaac",
+        "Ogunlana, Abdeen Tunde",
+        "Ayoola, Mojeed Ashiru",
+        "Adeyemi, Rofiat Oluwabusola",
+        "Babalola, Musa Oladayo",
+        "Ayorinde, James Babatunde",
+        "Isong, Josiah Ayoola",
+        "Ajasa, Toheeb Olakunle",
+        "Boyenle, Ibrahim Damilare"
+      ],
+      "short_names": [
+        "Oyedele AK",
+        "Adelusi TI",
+        "Ogunlana AT",
+        "Ayoola MA",
+        "Adeyemi RO",
+        "Babalola MO",
+        "Ayorinde JB",
+        "Isong JA",
+        "Ajasa TO",
+        "Boyenle ID"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6151-1950"
+      ],
+      "affiliations": [
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria.",
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Department of Chemical Sciences, Biochemistry Unit, College of Natural and Applied Science, Fountain University, Osogbo, Nigeria.",
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Department of Biochemistry, University of Lagos, Lagos, Nigeria.",
+        "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria.",
+        "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria.",
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oyedele, Abdul-Quddus Kehinde",
+        "short_name": "Oyedele AK",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+          "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adelusi, Temitope Isaac",
+        "short_name": "Adelusi TI",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ogunlana, Abdeen Tunde",
+        "short_name": "Ogunlana AT",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ayoola, Mojeed Ashiru",
+        "short_name": "Ayoola MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Biochemistry Unit, College of Natural and Applied Science, Fountain University, Osogbo, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adeyemi, Rofiat Oluwabusola",
+        "short_name": "Adeyemi RO",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Babalola, Musa Oladayo",
+        "short_name": "Babalola MO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Lagos, Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ayorinde, James Babatunde",
+        "short_name": "Ayorinde JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Isong, Josiah Ayoola",
+        "short_name": "Isong JA",
+        "identifiers": [
+          "0000-0002-6151-1950"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Nutrition, Nigerian Institute of Medical Research (NIMR), Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ajasa, Toheeb Olakunle",
+        "short_name": "Ajasa TO",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Boyenle, Ibrahim Damilare",
+        "short_name": "Boyenle ID",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology, Drug Discovery Laboratory, Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023 Jul-Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/14 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "40703345",
+      "40308267",
+      "37323538",
+      "36057867"
+    ],
+    "refs": [],
+    "similar": [
+      "35822492",
+      "35536362",
+      "33988074",
+      "31473433",
+      "28723868",
+      "25377899",
+      "24858256",
+      "27269808",
+      "37764441",
+      "38011915",
+      "30513790",
+      "24554192",
+      "30464405",
+      "27905468",
+      "19255450",
+      "32851919",
+      "37288734",
+      "31781989",
+      "30253242",
+      "27943171",
+      "32691963",
+      "22666487",
+      "18673221",
+      "32748738",
+      "20666726",
+      "31089613",
+      "27302609",
+      "35702782",
+      "24264557",
+      "31971801",
+      "16817233",
+      "23400593",
+      "25312347",
+      "28482147",
+      "26141769",
+      "30549062",
+      "17116689",
+      "25987034",
+      "30041135",
+      "32001262",
+      "32497081",
+      "31795143",
+      "16789731",
+      "18435534",
+      "21764342",
+      "21425995",
+      "17002294",
+      "33952867",
+      "25396320",
+      "24211465",
+      "22745160",
+      "27538695",
+      "31121972",
+      "23428467",
+      "24210632",
+      "24050442",
+      "24207125",
+      "27709883",
+      "28669344",
+      "26746660",
+      "22316395",
+      "20726601",
+      "26138282",
+      "18765522",
+      "19507240",
+      "35333136",
+      "26556313",
+      "26032728",
+      "17938582",
+      "25808617",
+      "23601819",
+      "37086514",
+      "22807444",
+      "23046248",
+      "35563397",
+      "20056466",
+      "32651397",
+      "26343143",
+      "23611770",
+      "9131587",
+      "37049742",
+      "26992014",
+      "27888811",
+      "23324352",
+      "22408446",
+      "32448094",
+      "28581721",
+      "33773191",
+      "24491548",
+      "22148351",
+      "28871352",
+      "30989812",
+      "34806333",
+      "27686656",
+      "27907876",
+      "31918545",
+      "35899385",
+      "19457663",
+      "37621217",
+      "38697854",
+      "36281711",
+      "37279114",
+      "38111168",
+      "37661778",
+      "37922151",
+      "37885259",
+      "36099201",
+      "37779953",
+      "39259407",
+      "38361286",
+      "37916669",
+      "39318425",
+      "38240096",
+      "38149859",
+      "22715313",
+      "38319030",
+      "39244969",
+      "38650742",
+      "38497799",
+      "35539888",
+      "27213086"
+    ],
+    "review": [
+      "35822492",
+      "30253242",
+      "27943171",
+      "18673221",
+      "20666726",
+      "27302609",
+      "21425995",
+      "25396320",
+      "28669344",
+      "22316395",
+      "18765522",
+      "35563397",
+      "26343143",
+      "27888811",
+      "27686656"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2022.2097313?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2022.2097313",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

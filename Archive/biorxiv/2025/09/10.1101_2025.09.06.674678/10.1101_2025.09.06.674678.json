@@ -1,0 +1,472 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.06.674678",
+  "title": "Disease-associated variants are enriched for altering cell-type-specific gene co-expression relationships",
+  "doi": "10.1101/2025.09.06.674678",
+  "abstract": "Genes act within complex regulatory networks, and genetic variants can perturb these networks by altering gene co-expression. Here, we performed co-expression quantitative trait locus (co-eQTL) mapping using single-cell RNA-seq from the sc-eQTLGen consortium (1,330 donors, >2 million cells), enabling sensitive detection and prioritization of informative variant–gene–gene triplets. We identified co-eQTLs for 398 eGenes where a nearby genetic variant affected both the gene’s expression ( cis -gene) and its co-expression with other genes, often implicating upstream regulators. For 181 genes, we inferred a likely upstream transcription factor, with motif disruption predicted for 41 genes. These upstream genes are more often loss-of-function intolerant and show more network connections, providing an explanation for why co-eQTL variants are 2.8x more strongly associated with immune diseases than classical eQTLs. These findings position co-eQTLs as mechanistic links between genetic variation and disease, revealing how variants can rewire cell-type-specific gene networks.",
+  "authors": [
+    "Kaptijn D",
+    "Losert C",
+    "Korshevniuk M",
+    "Oelen R",
+    "Vochteloo M",
+    "Deelen P",
+    "Warmerdam R",
+    "Kooijmans A",
+    "Considine D",
+    "Tsepilov Y",
+    "Trynka G",
+    "Westra H",
+    "van der Wijst M",
+    "Bonder MJ",
+    "Heinig M",
+    "Franke L"
+  ],
+  "published_date": "2025-09-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.06.674678",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.06.674678.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1080474",
+    "raw_record": {
+      "id": "PPR1080474",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1080474"
+        ]
+      },
+      "doi": "10.1101/2025.09.06.674678",
+      "title": "Disease-associated variants are enriched for altering cell-type-specific gene co-expression relationships",
+      "authorString": "Kaptijn D, Losert C, Korshevniuk M, Oelen R, Vochteloo M, Deelen P, Warmerdam R, Kooijmans A, Considine D, BIOS Consortium, sc-eQTLGen Consortium, Tsepilov Y, Trynka G, Westra H, van der Wijst M, Bonder MJ, Heinig M, Franke L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kaptijn D",
+            "lastName": "Kaptijn",
+            "firstName": "Dan",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-7529-2040"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Losert C",
+            "lastName": "Losert",
+            "firstName": "Corinna",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5997-4702"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Computer Science, TUM School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korshevniuk M",
+            "lastName": "Korshevniuk",
+            "firstName": "Maryna",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oelen R",
+            "lastName": "Oelen",
+            "firstName": "Roy",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5026-6531"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vochteloo M",
+            "lastName": "Vochteloo",
+            "firstName": "Martijn",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deelen P",
+            "lastName": "Deelen",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5654-3966"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warmerdam R",
+            "lastName": "Warmerdam",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8691-0053"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kooijmans A",
+            "lastName": "Kooijmans",
+            "firstName": "Anoek",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Considine D",
+            "lastName": "Considine",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-7769-2195"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "BIOS Consortium"
+          },
+          {
+            "collectiveName": "sc-eQTLGen Consortium",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsepilov Y",
+            "lastName": "Tsepilov",
+            "firstName": "Yakov",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4931-6052"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trynka G",
+            "lastName": "Trynka",
+            "firstName": "Gosia",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Westra H",
+            "lastName": "Westra",
+            "firstName": "Harm-Jan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van der Wijst M",
+            "lastName": "van der Wijst",
+            "firstName": "Monique",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bonder MJ",
+            "lastName": "Bonder",
+            "firstName": "Marc Jan",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Computer Science, TUM School of Computation, Information and Technology, , ,"
+                },
+                {
+                  "affiliation": ", partner site Munich Heart Alliance, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinig M",
+            "lastName": "Heinig",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , 9 Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franke L",
+            "lastName": "Franke",
+            "firstName": "Lude",
+            "initials": "L"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8691-0053"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4931-6052"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5026-6531"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5654-3966"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5997-4702"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-7529-2040"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-7769-2195"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Genes act within complex regulatory networks, and genetic variants can perturb these networks by altering gene co-expression. Here, we performed co-expression quantitative trait locus (co-eQTL) mapping using single-cell RNA-seq from the sc-eQTLGen consortium (1,330 donors, >2 million cells), enabling sensitive detection and prioritization of informative variant–gene–gene triplets. We identified co-eQTLs for 398 eGenes where a nearby genetic variant affected both the gene’s expression (  cis -gene) and its co-expression with other genes, often implicating upstream regulators. For 181 genes, we inferred a likely upstream transcription factor, with motif disruption predicted for 41 genes. These upstream genes are more often loss-of-function intolerant and show more network connections, providing an explanation for why co-eQTL variants are 2.8x more strongly associated with immune diseases than classical eQTLs.  These findings position co-eQTLs as mechanistic links between genetic variation and disease, revealing how variants can rewire cell-type-specific gene networks.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ZonMw",
+            "grantId": "09150182010019",
+            "orderIn": 0
+          },
+          {
+            "agency": "ZonMw",
+            "grantId": "10430302110002",
+            "orderIn": 0
+          },
+          {
+            "agency": "ZonMw",
+            "grantId": "09150172310068",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.06.674678"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1080474"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1080474&type=FILE&fileName=EMS208670-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208670",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gwas",
+          "efo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-10",
+      "firstPublicationDate": "2025-09-08",
+      "firstIndexDate": "2025-09-10",
+      "fullTextReceivedDate": "2025-10-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

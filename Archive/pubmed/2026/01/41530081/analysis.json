@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41530081",
+  "title": "Inferring DNA Kinkability from Biased MD Simulations.",
+  "authors": "Fassino, Arianna; Carlon, Enrico; Voorspoels, Aderik",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-01-14",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用偏置MD模拟研究DNA扭结形成的序列依赖性自由能景观，虽非直接TF-DNA体系，但为蛋白-DNA互作中DNA强变形机制提供物理模拟方法，可迁移至TF结合位点建模。",
+  "abstract": "In several biological processes, such as looping, supercoiling, and DNA-protein interactions, DNA is subject to very strong deformations. While coarse-grained models often approximate DNA as a smoothly bendable polymer, experimental and theoretical studies have demonstrated that mechanical stress can induce localized kinks. Here, we employ the Rigid Base Biasing of Nucleic Acids (RBB-NA) algorithm to systematically probe the properties of highly deformed DNA in all-atom simulations of short dodecamers. A simultaneous bias in bending (roll) and twist is applied locally to two consecutive base pairs in the center of the dodecamers. Using umbrella sampling, we construct free energy landscapes that reveal sequence-dependent effects for kink formation and quantify the energetic cost of kinking. We identify distinct features in the free energy profiles highlighting anharmonic effects, such as asymmetries in the positive vs negative roll. Our analysis suggests two distinct kink types characterized either by positive roll and undertwisting (twist-bend kinks) or by negative roll without excess twist (pure bend kinks). The former are frequently observed in DNA-protein structures and are expected to be favored in vivo in negatively supercoiled chromosomes. The latter has been observed in DNA simulations of minicircles and is favored in torsionally constrained DNA.",
+  "abstract_zh": "在若干生物过程中，如成环、超螺旋以及DNA-蛋白质相互作用，DNA会遭受非常强烈的形变。尽管粗粒化模型常将DNA近似为可平滑弯曲的聚合物，实验和理论研究已表明，机械应力可诱导局部扭结。在此，我们采用核酸刚性碱基偏置（RBB-NA）算法，在短十二聚体的全原子模拟中系统探究高度变形DNA的性质。在十二聚体中心的两个连续碱基对上，局部施加弯曲（roll）和扭转（twist）的同步偏置。利用伞形采样，我们构建了自由能景观，揭示了扭结形成中序列依赖的效应，并量化了扭结的能量代价。我们在自由能剖面中识别出显著特征，突显了非谐效应，如正负roll方向上的不对称性。我们的分析表明存在两种不同的扭结类型，其特征分别为正roll伴随过度解旋（扭转-弯曲扭结）或负roll而无额外扭转（纯弯曲扭结）。前者在DNA-蛋白质结构中频繁观察到，并预期在体内负超螺旋染色体中更受青睐；后者已在微环DNA模拟中观察到，并在扭转约束的DNA中占优。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41530081/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41530081/",
+  "paper_page_path": "papers/pubmed/41530081/index.html"
+}

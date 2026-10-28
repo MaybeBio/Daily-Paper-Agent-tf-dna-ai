@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "39397003",
+    "doi": "10.1038/s41598-024-71076-0",
+    "title": "ResisenseNet hybrid neural network model for predicting drug sensitivity and repurposing in breast Cancer."
+  },
+  "content": {
+    "abstract": "Breast cancer remains a leading cause of mortality among women worldwide, with drug resistance driven by transcription factors and mutations posing significant challenges. To address this, we present ResisenseNet, a predictive model for drug sensitivity and resistance. ResisenseNet integrates transcription factor expression, genomic markers, drugs, and molecular descriptors, employing a hybrid architecture of 1D-CNN + LSTM and DNN to effectively learn long-range and temporal patterns from amino acid sequences and transcription factor data. The model demonstrated exceptional predictive accuracy, achieving a validation accuracy of 0.9794 and a loss value of 0.042. Comprehensive validation included comparisons with state-of-the-art models and ablation studies, confirming the robustness of the developed architecture. ResisenseNet has been applied to repurpose existing anticancer drugs across 14 different cancers, with a focus on breast cancer. Among the malignancies studied, drugs targeting Low-grade Glioma (LGG) and Lung Adenocarcinoma (LUAD) showed increased sensitivity to breast cancer as per ResisenseNet's assessment. Further evaluation of the predicted sensitive drugs revealed that 14 had no prior history of anticancer activity against breast cancer. These drugs target key signaling pathways involved in breast cancer, presenting novel therapeutic opportunities. ResisenseNet addresses drug resistance by filtering ineffective compounds and enhancing chemotherapy for breast cancer. In vitro studies on sensitive drugs provide valuable insights into breast cancer prognosis, contributing to improved treatment strategies.",
+    "keywords": [
+      "Breast adenocarcinoma",
+      "DoRothEA",
+      "Drug repurposing",
+      "Drug resistance",
+      "ResisenseNet"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/metabolism/genetics/pathology",
+      "Female",
+      "*Neural Networks, Computer",
+      "*Drug Repositioning/methods",
+      "*Antineoplastic Agents/pharmacology/therapeutic use",
+      "*Drug Resistance, Neoplasm/genetics",
+      "Adenocarcinoma of Lung/drug therapy/genetics/pathology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karampuri, Anush",
+        "Jakkula, Bharath Kumar",
+        "Perugu, Shyam"
+      ],
+      "short_names": [
+        "Karampuri A",
+        "Jakkula BK",
+        "Perugu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India.",
+        "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India.",
+        "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India. shyamperugu@nitw.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karampuri, Anush",
+        "short_name": "Karampuri A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India."
+        ]
+      },
+      {
+        "full_name": "Jakkula, Bharath Kumar",
+        "short_name": "Jakkula BK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India."
+        ]
+      },
+      {
+        "full_name": "Perugu, Shyam",
+        "short_name": "Perugu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Warangal, 500604, India. shyamperugu@nitw.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Oct 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/14 00:20",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "40698144"
+    ],
+    "refs": [
+      "38642491",
+      "38405632",
+      "37649051",
+      "37453969",
+      "37294406",
+      "37026029",
+      "36672617",
+      "36615523",
+      "36453252",
+      "35947990",
+      "35908023",
+      "35705565",
+      "35138529",
+      "34459479",
+      "34417675",
+      "34324118",
+      "33775688",
+      "33739367",
+      "33524528",
+      "33381841",
+      "33347858",
+      "33278499",
+      "33209251",
+      "33173189",
+      "32750854",
+      "32372224",
+      "32166610",
+      "31831874",
+      "31443300",
+      "30555244",
+      "29287960",
+      "29229604",
+      "29099416",
+      "28947240",
+      "28378028",
+      "23868188",
+      "19214387"
+    ],
+    "similar": [
+      "39397003",
+      "34863612",
+      "30939415",
+      "32024872",
+      "38925223",
+      "38710798",
+      "27859674",
+      "33739367",
+      "35810716",
+      "34059012",
+      "38478170",
+      "38629299",
+      "31408580",
+      "38798241",
+      "31550502",
+      "36293493",
+      "38643755",
+      "29989066",
+      "31562957",
+      "32762035",
+      "32855362",
+      "39044569",
+      "38967523",
+      "38936760",
+      "31503425",
+      "38664825",
+      "38563847",
+      "38131663",
+      "38918225",
+      "28025934",
+      "33602077",
+      "33727228",
+      "38987529",
+      "39394098",
+      "38615873",
+      "21255398",
+      "36906970",
+      "39348965",
+      "33486901",
+      "27542212",
+      "39113697",
+      "32395869",
+      "32838729",
+      "38745285",
+      "27504932",
+      "11748447",
+      "38979602",
+      "39253092",
+      "39051144",
+      "22528367",
+      "34612768",
+      "32759499",
+      "33648460",
+      "9214671",
+      "30360816",
+      "37694790",
+      "38710740",
+      "39090096",
+      "39159158",
+      "31375661",
+      "35443626",
+      "35082323",
+      "26824188",
+      "19638211",
+      "26690765",
+      "36717788",
+      "28702892",
+      "24962108",
+      "38940035",
+      "34301211",
+      "38588933",
+      "32513387",
+      "38149244",
+      "39259576",
+      "34502549",
+      "26452030",
+      "38652344",
+      "34623477",
+      "39127727",
+      "29303076",
+      "38831092",
+      "31879365",
+      "25885449",
+      "31562955",
+      "37340696",
+      "26612860",
+      "38670045",
+      "24097821",
+      "16273361",
+      "33003540",
+      "26679199",
+      "28768489",
+      "38555814",
+      "14718792",
+      "23344024",
+      "12973733",
+      "34597657",
+      "12223074",
+      "26585578"
+    ],
+    "review": [
+      "39397003",
+      "34863612",
+      "35810716",
+      "31550502",
+      "31562957",
+      "28025934",
+      "33602077",
+      "38615873",
+      "32838729",
+      "11748447",
+      "9214671",
+      "30360816",
+      "38588933",
+      "34502549",
+      "38652344",
+      "34623477",
+      "31562955",
+      "26612860",
+      "38670045",
+      "33003540",
+      "14718792",
+      "23344024",
+      "12223074"
+    ],
+    "pmc": [
+      "11471817"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-71076-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39397003/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

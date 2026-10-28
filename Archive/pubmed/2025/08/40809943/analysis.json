@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40809943",
+  "title": "Automated machine learning profiling with MAP-HR for quantifying homologous recombination foci in patient samples.",
+  "authors": "Ozmen, Tugba Y; Rames, Matthew J; Zangirolani, Gabriel M; Ozmen, Furkan; Jeong, Kangjin; Frankston, Connor; Mills, Gordon B",
+  "journal": "NAR cancer",
+  "published_date": "2025-08-14",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习分析免疫荧光图像量化同源重组修复焦点，虽涉及DNA修复蛋白RAD51焦点，但无蛋白质-DNA互作建模或TF-DNA结合机制研究，仅属细胞表型图像分析，与本课题关联微弱。",
+  "abstract": "Accurate visualization and quantification of homologous recombination (HR)-associated foci in readily available patient samples are critical for identifying patients with HR deficiency (HRD) when they present for care to guide polyADP ribose polymerase (PARP) inhibitors (PARPi) or platinum-based therapies. Immunofluorescence (IF) assays have the potential to accurately visualize DNA repair processes as punctate foci within the nucleus. To ensure precise HRD assessment, we developed MAP-HR, (Machine-learning Assisted Profiling of Homologous Recombination), a scalable machine-learning (ML) analysis platform to enable effective patient triage and therapeutic decision-making. This workflow integrates high-resolution four-channel IF imaging and automated analysis of Geminin (cell cycle states), RAD51 foci (HR repair), gammaH2AX foci (double strand breaks) and DAPI (nuclear localization) in both cultured cell lines and in a single formalin-fixed, paraffin-embedded (FFPE) patient samples. Using a spinning disk confocal microscope, we optimized imaging parameters to improve resolution and signal-to-noise ratio. Our MAP-HR pipeline uses nested nuclei and segmentation of foci to analyze the HR status of each cell, unlike competing bulk or single-foci marker assays, allowing evaluation of HR functional heterogeneity across and within patient biopsies. This approach facilitates robust comparisons of HR and foci-based processes across diverse cell populations and patient tissues, enabling scalable, translational research.",
+  "abstract_zh": "在患者就诊时，准确可视化和量化易于获取的患者样本中的同源重组（HR）相关病灶，对于识别HR缺陷（HRD）患者以指导聚ADP核糖聚合酶（PARP）抑制剂（PARPi）或铂类治疗至关重要。免疫荧光（IF）检测具有在细胞核内以点状病灶形式准确可视化DNA修复过程的潜力。为确保精确的HRD评估，我们开发了MAP-HR（同源重组的机器学习辅助分析），这是一个可扩展的机器学习（ML）分析平台，旨在实现有效的患者分诊和治疗决策。该工作流程整合了高分辨率四通道IF成像，并在培养细胞系和单个福尔马林固定、石蜡包埋（FFPE）患者样本中，对Geminin（细胞周期状态）、RAD51病灶（HR修复）、gammaH2AX病灶（双链断裂）和DAPI（核定位）进行自动化分析。使用转盘共聚焦显微镜，我们优化了成像参数以提高分辨率和信噪比。我们的MAP-HR流程采用嵌套细胞核和病灶分割来分析每个细胞的HR状态，不同于竞争性的批量或单病灶标记检测，从而能够评估患者活检组织内及跨活检组织的HR功能异质性。该方法促进了跨不同细胞群体和患者组织的HR及基于病灶过程的稳健比较，支持可扩展的转化研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40809943/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40809943/",
+  "paper_page_path": "papers/pubmed/40809943/index.html"
+}

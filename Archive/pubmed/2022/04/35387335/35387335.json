@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "35387335",
+    "doi": "10.3389/fphar.2022.794139",
+    "title": "Potential Therapeutic Targets of Rehmannia Formulations on Diabetic Nephropathy: A Comparative Network Pharmacology Analysis."
+  },
+  "content": {
+    "abstract": "Background: Previous retrospective cohorts showed that Rehmannia-6 (R-6, Liu-wei-di-huang-wan) formulations were associated with significant kidney function preservation and mortality reduction among chronic kidney disease patients with diabetes. This study aimed to investigate the potential mechanism of action of common R-6 variations in a clinical protocol for diabetic nephropathy (DN) from a system pharmacology approach. Study Design and Methods: Disease-related genes were retrieved from GeneCards and OMIM by searching \"Diabetic Nephropathy\" and \"Macroalbuminuria\". Variations of R-6 were identified from a published existing clinical practice guideline developed from expert consensus and pilot clinical service program. The chemical compound IDs of each herb were retrieved from TCM-Mesh and PubChem. Drug targets were subsequently revealed via PharmaMapper and UniProtKB. The disease gene interactions were assessed through STRING, and disease-drug protein-protein interaction network was integrated and visualized by Cytoscape. Clusters of disease-drug protein-protein interaction were constructed by Molecular Complex Detection (MCODE) extension. Functional annotation of clusters was analyzed by DAVID and KEGG pathway enrichment. Differences among variations of R-6 were compared. Binding was verified by molecular docking with AutoDock. Results: Three hundred fifty-eight genes related to DN were identified, forming 11 clusters which corresponded to complement and coagulation cascades and signaling pathways of adipocytokine, TNF, HIF-1, and AMPK. Five variations of R-6 were analyzed. Common putative targets of the R-6 variations on DN included ACE, APOE, CCL2, CRP, EDN1, FN1, HGF, ICAM1, IL10, IL1B, IL6, INS, LEP, MMP9, PTGS2, SERPINE1, and TNF, which are related to regulation of nitric oxide biosynthesis, lipid storage, cellular response to lipopolysaccharide, inflammatory response, NF-kappa B transcription factor activity, smooth muscle cell proliferation, blood pressure, cellular response to interleukin-1, angiogenesis, cell proliferation, peptidyl-tyrosine phosphorylation, and protein kinase B signaling. TNF was identified as the seed for the most significant cluster of all R-6 variations. Targets specific to each formulation were identified. The key chemical compounds of R-6 have good binding ability to the putative protein targets. Conclusion: The mechanism of action of R-6 on DN is mostly related to the TNF signaling pathway as a core mechanism, involving amelioration of angiogenesis, fibrosis, inflammation, disease susceptibility, and oxidative stress. The putative targets identified could be validated through clinical trials.",
+    "keywords": [
+      "Rehmannia",
+      "TNF",
+      "chronic kidney disease",
+      "diabetic nephropathy",
+      "integrative medicine",
+      "mechanism",
+      "network pharmacology",
+      "traditional Chinese medicine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chan, Kam Wa",
+        "Yu, Kam Yan",
+        "Yiu, Wai Han",
+        "Xue, Rui",
+        "Lok, Sarah Wing-Yan",
+        "Li, Hongyu",
+        "Zou, Yixin",
+        "Ma, Jinyuan",
+        "Lai, Kar Neng",
+        "Tang, Sydney Chi-Wai"
+      ],
+      "short_names": [
+        "Chan KW",
+        "Yu KY",
+        "Yiu WH",
+        "Xue R",
+        "Lok SW",
+        "Li H",
+        "Zou Y",
+        "Ma J",
+        "Lai KN",
+        "Tang SC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chan, Kam Wa",
+        "short_name": "Chan KW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Kam Yan",
+        "short_name": "Yu KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Yiu, Wai Han",
+        "short_name": "Yiu WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Rui",
+        "short_name": "Xue R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lok, Sarah Wing-Yan",
+        "short_name": "Lok SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongyu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yixin",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jinyuan",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Kar Neng",
+        "short_name": "Lai KN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Sydney Chi-Wai",
+        "short_name": "Tang SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/08 06:00",
+    "fetched_at": "2026-09-28 07:05:30"
+  },
+  "links": {
+    "cites": [
+      "42014349",
+      "38383512",
+      "38357845",
+      "38305397",
+      "38020710",
+      "37307005",
+      "36467079"
+    ],
+    "refs": [
+      "35168474",
+      "34879977",
+      "34622097",
+      "34513860",
+      "34195211",
+      "34179830",
+      "33912050",
+      "33692692",
+      "33683189",
+      "33679399",
+      "33564432",
+      "33441879",
+      "33436470",
+      "32615961",
+      "32183005",
+      "32164424",
+      "31998809",
+      "31942046",
+      "31699518",
+      "30995972",
+      "30990260",
+      "30846939",
+      "30675433",
+      "30481552",
+      "30476243",
+      "30395287",
+      "30371825",
+      "30327604",
+      "30032275",
+      "29967617",
+      "29751683",
+      "29564666",
+      "29305106",
+      "29294056",
+      "29243483",
+      "29106631",
+      "28662316",
+      "28590441",
+      "28588237",
+      "28522654",
+      "28472422",
+      "28399632",
+      "28282788",
+      "28262777",
+      "28143897",
+      "27558558",
+      "27496229",
+      "27322403",
+      "27283743",
+      "27230798",
+      "26592189",
+      "26553517",
+      "26398493",
+      "26385481",
+      "26244923",
+      "26061548",
+      "26009228",
+      "25937071",
+      "25457474",
+      "25272234",
+      "25200314",
+      "25140911",
+      "24784702",
+      "24751506",
+      "24731445",
+      "24707305",
+      "24561496",
+      "24553432",
+      "24343093",
+      "23594678",
+      "23264657",
+      "22731511",
+      "22266663",
+      "22021706",
+      "21537349",
+      "20939814",
+      "20496053",
+      "19483708",
+      "19131956",
+      "18936753",
+      "18182449",
+      "17213346",
+      "15673189",
+      "14597658",
+      "12874442",
+      "10612823"
+    ],
+    "similar": [
+      "35387335",
+      "34349833",
+      "33634308",
+      "33849116",
+      "33178322",
+      "33628839",
+      "34593896",
+      "34047086",
+      "33645090",
+      "35178959",
+      "33645093",
+      "33444721",
+      "35343164",
+      "36503032",
+      "34808299",
+      "35378831",
+      "34125845",
+      "34738404",
+      "34660782",
+      "25178949",
+      "33496115",
+      "34994141",
+      "33023593",
+      "31112872",
+      "34149863",
+      "34472273",
+      "33645014",
+      "34738439",
+      "32896625",
+      "32389853",
+      "38356141",
+      "34977095",
+      "32928080",
+      "34692849",
+      "34951253",
+      "35360660",
+      "34474187",
+      "33496116",
+      "33208065",
+      "32315738",
+      "32495559",
+      "33243703",
+      "35388303",
+      "38379386",
+      "34047081",
+      "35101570",
+      "35285206",
+      "33743701",
+      "32489062",
+      "34926700",
+      "33691446",
+      "34467696",
+      "35196362",
+      "33645089",
+      "35615688",
+      "38027201",
+      "32802118",
+      "39100967",
+      "29853965",
+      "38347789",
+      "34539795",
+      "36499658",
+      "36065266",
+      "36465462",
+      "37769864",
+      "33953789",
+      "36200190",
+      "36311969",
+      "37151537",
+      "38737933"
+    ],
+    "review": [
+      "35387335",
+      "33243703",
+      "38379386",
+      "36499658"
+    ],
+    "pmc": [
+      "8977554"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35387335/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35387335",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.794139",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

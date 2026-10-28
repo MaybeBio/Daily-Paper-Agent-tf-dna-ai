@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40317453",
+    "doi": "10.1007/s11684-025-1132-8",
+    "title": "Determining the biomarkers and pathogenesis of myocardial infarction combined with ankylosing spondylitis via a systems biology approach."
+  },
+  "content": {
+    "abstract": "Ankylosing spondylitis (AS) is linked to an increased prevalence of myocardial infarction (MI). However, research dedicated to elucidating the pathogenesis of AS-MI is lacking. In this study, we explored the biomarkers for enhancing the diagnostic and therapeutic efficiency of AS-MI. Datasets were obtained from the Gene Expression Omnibus database. We employed weighted gene co-expression network analysis and machine learning models to screen hub genes. A receiver operating characteristic curve and a nomogram were designed to assess diagnostic accuracy. Gene set enrichment analysis was conducted to reveal the potential function of hub genes. Immune infiltration analysis indicated the correlation between hub genes and the immune landscape. Subsequently, we performed single-cell analysis to identify the expression and subcellular localization of hub genes. We further constructed a transcription factor (TF)-microRNA (miRNA) regulatory network. Finally, drug prediction and molecular docking were performed. S100A12 and MCEMP1 were identified as hub genes, which were correlated with immune-related biological processes. They exhibited high diagnostic value and were predominantly expressed in myeloid cells. Furthermore, 24 TFs and 9 miRNA were associated with these hub genes. Enzastaurin, meglitinide, and nifedipine were predicted as potential therapeutic agents. Our study indicates that S100A12 and MCEMP1 exhibit significant potential as biomarkers and therapeutic targets for AS-MI, offering novel insights into the underlying etiology of this condition.",
+    "keywords": [
+      "ankylosing spondylitis",
+      "bioinformatics analysis",
+      "inflammation",
+      "myocardial infarction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Spondylitis, Ankylosing/genetics/complications",
+      "*Systems Biology/methods",
+      "*Myocardial Infarction/genetics/etiology/diagnosis",
+      "Biomarkers/metabolism",
+      "MicroRNAs/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chunying",
+        "Peng, Chengfei",
+        "Jia, Xiaodong",
+        "Yan, Chenghui",
+        "Liu, Dan",
+        "Zhang, Xiaolin",
+        "Song, Haixu",
+        "Han, Yaling"
+      ],
+      "short_names": [
+        "Liu C",
+        "Peng C",
+        "Jia X",
+        "Yan C",
+        "Liu D",
+        "Zhang X",
+        "Song H",
+        "Han Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Beifang Hospital of China Medical University, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China. haixu0215@163.com.",
+        "Beifang Hospital of China Medical University, Shenyang, 110016, China. hanyaling@163.net.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China. hanyaling@163.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chunying",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Beifang Hospital of China Medical University, Shenyang, 110016, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chengfei",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Xiaodong",
+        "short_name": "Jia X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chenghui",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaolin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Song, Haixu",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China. haixu0215@163.com."
+        ]
+      },
+      {
+        "full_name": "Han, Yaling",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beifang Hospital of China Medical University, Shenyang, 110016, China. hanyaling@163.net.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Cardiovascular Research Institute and Department of Cardiology, Shenyang, 110016, China. hanyaling@163.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers of medicine"
+    ],
+    "journal_abbrev": [
+      "Front Med"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/03 22:23",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "41598430"
+    ],
+    "refs": [
+      "38582507",
+      "38363157",
+      "38172627",
+      "38013255",
+      "37983164",
+      "37813481",
+      "37087452",
+      "36480284",
+      "35843602",
+      "35599277",
+      "35185901",
+      "35059612",
+      "34977174",
+      "34190404",
+      "33983685",
+      "33858620",
+      "33754220",
+      "33333232",
+      "32099552",
+      "32057918",
+      "31841135",
+      "31330576",
+      "30883005",
+      "30181852",
+      "30131197",
+      "29608179",
+      "28446810",
+      "27340270",
+      "26846866",
+      "26515415",
+      "26438688",
+      "25848906",
+      "25778740",
+      "25527775",
+      "23731794",
+      "22333600",
+      "20066092",
+      "19499576",
+      "19403516",
+      "18817899",
+      "18443896",
+      "15953541",
+      "10910177",
+      "7227967"
+    ],
+    "similar": [
+      "40317453",
+      "39086489",
+      "40496861",
+      "41204493",
+      "39354722",
+      "40251588",
+      "40340571",
+      "37986378",
+      "36643579",
+      "39139563",
+      "40196107",
+      "39973855",
+      "41052072",
+      "40685440",
+      "39759509",
+      "38987688",
+      "40574839",
+      "35958412",
+      "41196851",
+      "41204556",
+      "40704466",
+      "34115526",
+      "41432483",
+      "38987624",
+      "38839020",
+      "38863714",
+      "38968466",
+      "41316541",
+      "38711508",
+      "40933471",
+      "35764238",
+      "40367892",
+      "37386410",
+      "40635026",
+      "34536521",
+      "40406126",
+      "39391879",
+      "39853176",
+      "34777632",
+      "40997906",
+      "39512836",
+      "40822862",
+      "41459671",
+      "41145553",
+      "40634444",
+      "40216809",
+      "40596265",
+      "39673621",
+      "40147738",
+      "36618351",
+      "41044520",
+      "39319462",
+      "40374866",
+      "35047008",
+      "40630623",
+      "39031474",
+      "38690269",
+      "39396400",
+      "32920122",
+      "39875572",
+      "39775580",
+      "40821971",
+      "38062833",
+      "41146237",
+      "27367417",
+      "36011284",
+      "39556279",
+      "41006883",
+      "39292413",
+      "40929101",
+      "37246754",
+      "40296690",
+      "40810238",
+      "38757696",
+      "38783198",
+      "39341952",
+      "37359526",
+      "40093012",
+      "41291841",
+      "38965390",
+      "39953122",
+      "39658789",
+      "39142001",
+      "39727004",
+      "39367003",
+      "40129981",
+      "41479901",
+      "38451044",
+      "41277057",
+      "38899746",
+      "40738705",
+      "37152368",
+      "40453984",
+      "41125916",
+      "37254181",
+      "37226132",
+      "39713769",
+      "40613560",
+      "37100862",
+      "35286184"
+    ],
+    "review": [
+      "40317453"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11684-025-1132-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1154",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

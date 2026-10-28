@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific validity of computational findings, methodological rigor, internal consistency, and support for stated conclusions
+- **Shared manuscript claim summary** The authors propose that a zinc-conjugated doxorubicin (Zn-Doxorubicin) binds more favorably to β-catenin than doxorubicin alone, disrupts the β-catenin/Tcf-4 interaction, and may therefore serve as a therapeutic strategy for cervical cancer via Wnt pathway inhibition, based on molecular docking, molecular dynamics (MD) simulations, MM/GBSA, and DFT calculations.
+- **Visible evidence base** Abstract; Introduction; Experimental procedure (ligand preparation, protein preparation, MD, MM/GBSA, DFT); Results (docking scores, MD stability, binding free energies, DFT HOMO-LUMO gaps); Discussion; Conclusion; references to supplementary figures (S1–S6) and tables (Tables 1–4)
+- **Missing materials affecting confidence** Figures 1–10 and Tables 1–4 are referenced but not provided; supplementary figures S1–S6 are referenced but not provided; no raw trajectory data, no docking pose coordinates, no convergence metrics, no error bars or standard deviations for MD/MM/GBSA values; no information on force field validation or system setup details beyond brief descriptions
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting hypothesis: that zinc conjugation could improve doxorubicin's ability to disrupt β-catenin/Tcf-4 interactions in the Wnt pathway. However, the evidence presented is largely descriptive and lacks quantitative rigor. Key claims about binding affinity, complex disruption, and functional significance are supported by single-point values without statistical treatment, and the connection to cervical cancer is asserted rather than demonstrated. The computational workflow is standard but the execution and reporting have significant gaps that prevent the conclusions from being established.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, Wnt signaling biology, and metal-based anticancer therapeutics might find the hypothesis of interest. The idea of metal conjugation to enhance binding specificity is a recurring theme in medicinal chemistry, and the Wnt/β-catenin pathway remains a high-value target. However, the current evidence is too preliminary to inform experimental design or clinical translation.
+- **Major strengths** The study addresses a clinically relevant target (β-catenin) with a well-known oncogenic role. The use of multiple computational methods (docking, MD, MM/GBSA, DFT) is appropriate for a preliminary screening study. The authors reference prior work on β-catenin inhibitors and zinc biology, providing some context. The comparison between doxorubicin and Zn-doxorubicin is a reasonable starting point for hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The Zn-conjugated Doxorubicin will be discussed in the context of cervical cancer with the hope of improving drug efficacy and reducing toxicities"
+  - **Evidence pointer** Abstract; Discussion; Conclusion
+  - **Concern** The manuscript claims relevance to cervical cancer, but no cervical cancer-specific model, cell line, or pathway context is used. The target is a generic β-catenin structure (PDB 1JDH), and the Tcf-4 interaction is studied in isolation. The leap from a computational binding study to a therapeutic claim for cervical cancer is unsupported.
+  - **Why it matters** The stated purpose is to provide a strategy for cervical cancer treatment, but the study does not establish any cervical cancer-specific mechanism, selectivity, or biological plausibility beyond the general role of β-catenin in cancer. This overreach undermines the translational relevance claimed.
+  - **Resolution test** The authors should either reframe the conclusions to be strictly about β-catenin/Tcf-4 disruption as a general mechanism, or include cervical cancer-specific context (e.g., HPV-related β-catenin regulation, cervical cancer cell line data, or at least a discussion of why β-catenin is particularly relevant in cervical cancer).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The binding energy of Zn conjugated with Doxorubicin has shown -7.2 kcal/mol and Doxorubicin registers -5.9 kcal/mol against β-catenin"
+  - **Evidence pointer** Results, Molecular docking analysis; Table 1 (not provided)
+  - **Concern** Docking scores are reported as single values without any measure of variance, replicate runs, or statistical comparison. The difference of 1.3 kcal/mol between the two ligands is presented as meaningful, but no error analysis or significance testing is provided. Additionally, the docking protocol (Glide-XP) is described but no validation of the docking procedure (e.g., redocking of co-crystallized ligand, enrichment studies) is reported.
+  - **Why it matters** Docking scores are highly sensitive to protocol choices and can vary between runs. Without replicates or statistical treatment, the claimed difference cannot be distinguished from noise. This is a foundational issue because subsequent MD and MM/GBSA analyses build on this docking result.
+  - **Resolution test** Provide at least three independent docking runs with mean and standard deviation, and perform a statistical test (e.g., t-test or Mann-Whitney) to support the claim that Zn-doxorubicin binds more favorably. Report docking validation metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The disruption between the β-catenin/Tcf-4 complex was observed through the Zinc-Doxorubicin complex, both the proteins are separated about 12 Å"
+  - **Evidence pointer** Results, Residual Interactions; Figure 4 (not provided)
+  - **Concern** The claim of complex disruption is based on a single distance measurement (Lys312–Glu24) before and after ligand binding. No time-resolved analysis, no free energy of binding between β-catenin and Tcf-4, and no comparison to a control (e.g., doxorubicin alone) is provided for this disruption. The 12 Å separation is presented as evidence of disruption, but the functional significance of this distance is not established.
+  - **Why it matters** The central hypothesis is that Zn-doxorubicin disrupts the β-catenin/Tcf-4 complex. This claim requires evidence that the complex is actually destabilized, not just that a single distance changes. Without a binding free energy calculation for the protein-protein interaction or a time-dependent analysis, the disruption claim is speculative.
+  - **Resolution test** Perform a protein-protein binding free energy calculation (e.g., MM/GBSA or PMF) for the β-catenin/Tcf-4 complex in the presence and absence of each ligand, and show that Zn-doxorubicin significantly reduces the binding affinity. Provide time-series data for the Lys312–Glu24 distance across the MD trajectory.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The binding free energy calculations exhibit the Zn conjugated Doxorubicin favors in the study by showing ~ 3 kcal/mol difference with Doxorubicin"
+  - **Evidence pointer** Results, MM/GBSA analysis; Table 2 (not provided)
+  - **Concern** MM/GBSA values are reported as single averages without standard deviations, and the methodology for selecting frames (every 20th frame) is described but no convergence analysis is shown. The claim of a 3 kcal/mol difference is presented as significant, but no error bars or statistical tests are provided. Additionally, the MM/GBSA method is known to be sensitive to the choice of dielectric constant, entropy terms, and the snapshots used.
+  - **Why it matters** MM/GBSA is an approximate method, and its results are only meaningful with proper error analysis and convergence assessment. Without these, the 3 kcal/mol difference cannot be evaluated for significance, and the conclusion that Zn-doxorubicin is favored is not supported.
+  - **Resolution test** Report mean and standard deviation from at least three independent MD runs, show convergence of the MM/GBSA values over time, and perform a statistical test to support the difference. Discuss the limitations of the MM/GBSA approach in the context of the results.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The DFT analysis using the B3LYP/6-31g(d,p) method explores that Zn-doxorubicin in complex with the binding site residues has shown the HOMO-LUMO gap of 2.55 eV"
+  - **Evidence pointer** Results, DFT analysis; Table 4 (not provided)
+  - **Concern** The DFT section is confusing. The abstract reports a HOMO-LUMO gap of 2.55 eV using B3LYP/6-31g(d,p), but the results section states that "the M06 method has produced appropriate results" and reports a gap of 2.17 eV at M06/6-31G(d,p). The text also mentions that BHandHLYP and ωB97XD "has not shown any consistency results." The choice of which functional to trust is not justified, and the discrepancy between the abstract and results is not addressed.
+  - **Why it matters** DFT results are functional-dependent, and the authors need to justify their choice of functional and explain why different functionals give different results. The inconsistency between the abstract and the results section is a serious reporting error that undermines the reliability of the DFT analysis.
+  - **Resolution test** Clarify which functional is used for the final reported values, provide a comparison table of all functionals tested, and justify the choice based on benchmarks or literature precedent. Correct the abstract to match the results.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The simulation for both the complexes was performed as triplicates and the study demonstrates the average interaction shown by the binding site residues"
+  - **Evidence pointer** Experimental procedure, MD simulations; Results, Molecular dynamics simulations
+  - **Concern** The manuscript states that simulations were performed in triplicate, but no details are given on how the replicates were defined (e.g., different initial velocities, different starting structures), and no measures of variability are reported for any MD-derived quantity (RMSD, RMSF, interaction fractions). The claim of triplication is therefore not verifiable from the provided information.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without details on replicate setup and variability reporting, the reader cannot assess the robustness of the MD results.
+  - **Resolution test** Describe the replicate setup explicitly, and report mean and standard deviation for key MD metrics (e.g., RMSD, interaction occupancy) across replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "Artem Blagodatski et al., reported that a potent compound called β-elemene..." (location not provided)
+  - **Issue** The citation style is inconsistent. "Artem Blagodatski et al." is written in text, while other citations use numeric brackets. Also, "Yang et al., 2021 [reference]" has a placeholder "[reference]" that was not filled in.
+  - **Required correction** Standardize all citations to the journal's format and remove placeholder text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, DFT analysis
+  - **Evidence pointer** "The HOMO-LUMO gap, in Zn-Doxorubicin, has been observed to be 2.17 kcal/mol at M06/6-31G(d,p)"
+  - **Issue** The units are inconsistent. Earlier in the text, the HOMO-LUMO gap is reported in eV (2.55 eV), but here it is reported in kcal/mol. HOMO-LUMO gaps are typically reported in eV or Hartree, not kcal/mol.
+  - **Required correction** Report the HOMO-LUMO gap in consistent units (eV) throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Molecular dynamics simulations
+  - **Evidence pointer** "The RMSD plot shows that the protein has raised up to 9 Å resulting that there would be conformational change"
+  - **Issue** The phrase "resulting that there would be" is grammatically awkward and unclear. It is not specified whether the 9 Å refers to the protein backbone, the ligand, or the complex.
+  - **Required correction** Rewrite for clarity, e.g., "The protein RMSD reached 9 Å, suggesting a conformational change," and specify which atoms were used for the RMSD calculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental procedure, DFT calculations
+  - **Evidence pointer** "Owing to the computational limitation, we have considered only closely interacting amino acids with the Zn-doxorubicin and doxorubicin for the DFT study"
+  - **Issue** The selection criteria for "closely interacting amino acids" are not defined. It is unclear how many residues were included and how they were chosen.
+  - **Required correction** Specify the selection criteria (e.g., distance cutoff from the ligand) and list the residues included in the DFT calculations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Molecular docking analysis
+  - **Evidence pointer** "Five binding sites were predicted through the SiteMap analysis. Out of which, the third prediction has shown the significance in the binding when compared to other."
+  - **Issue** The criteria for selecting the third binding site over the others are not explained. No scores or properties of the five sites are provided.
+  - **Required correction** Provide the SiteMap scores for all five sites and justify the selection of the third site.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cervical cancer relevance), R1-M2 (docking statistics), R1-M3 (disruption evidence), R1-M4 (MM/GBSA statistics), R1-M5 (DFT inconsistency)
+- **Assessment against Nature-style criteria** Originality: Moderate. The idea of metal conjugation to improve drug targeting is not new, and the specific application to β-catenin is a logical extension of existing work. Scientific importance: Low to moderate. The study is purely computational and does not provide experimental validation or a new biological insight. The clinical relevance to cervical cancer is asserted but not demonstrated. Interdisciplinary readership: Limited. The work is narrowly focused on computational chemistry and would primarily interest computational biologists and medicinal chemists. Technical soundness: Weak. The lack of statistical treatment, inconsistent DFT reporting, and unsupported disruption claim are significant flaws. Readability for nonspecialists: Poor. The manuscript assumes familiarity with docking, MD, MM/GBSA, and DFT methods without sufficient explanation, and the writing is at times unclear.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting but the evidence is insufficient. Major revisions addressing the statistical rigor, the DFT inconsistency, and the overreach to cervical cancer would be required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that Zn-doxorubicin disrupts the β-catenin/Tcf-4 complex is unsupported; only a single distance measurement is provided without functional or energetic evidence.
+- The claim of improved drug efficacy and reduced toxicity for cervical cancer is unsupported; no cervical cancer-specific data or discussion is provided.
+- The claim that Zn-doxorubicin is favored over doxorubicin based on a 3 kcal/mol MM/GBSA difference is unsupported without error analysis or statistical testing.
+- The DFT results are internally inconsistent (2.55 eV vs 2.17 eV) and the choice of functional is not justified.
+- The docking score difference (1.3 kcal/mol) is presented as meaningful without replicates or statistical comparison.
+- The statement that "the study demonstrates the average interaction" from triplicate simulations is unverifiable because no variability measures are reported.

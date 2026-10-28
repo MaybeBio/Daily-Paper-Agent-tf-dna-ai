@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "37214836",
+    "doi": "10.1101/2023.05.11.540401",
+    "title": "De novo distillation of thermodynamic affinity from deep learning regulatory sequence models of in vivo protein-DNA binding."
+  },
+  "content": {
+    "abstract": "Transcription factors (TF) are proteins that bind DNA in a sequence-specific manner to regulate gene transcription. Despite their unique intrinsic sequence preferences, in vivo genomic occupancy profiles of TFs differ across cellular contexts. Hence, deciphering the sequence determinants of TF binding, both intrinsic and context-specific, is essential to understand gene regulation and the impact of regulatory, non-coding genetic variation. Biophysical models trained on in vitro TF binding assays can estimate intrinsic affinity landscapes and predict occupancy based on TF concentration and affinity. However, these models cannot adequately explain context-specific, in vivo binding profiles. Conversely, deep learning models, trained on in vivo TF binding assays, effectively predict and explain genomic occupancy profiles as a function of complex regulatory sequence syntax, albeit without a clear biophysical interpretation. To reconcile these complementary models of in vitro and in vivo TF binding, we developed Affinity Distillation (AD), a method that extracts thermodynamic affinities de-novo from deep learning models of TF chromatin immunoprecipitation (ChIP) experiments by marginalizing away the influence of genomic sequence context. Applied to neural networks modeling diverse classes of yeast and mammalian TFs, AD predicts energetic impacts of sequence variation within and surrounding motifs on TF binding as measured by diverse in vitro assays with superior dynamic range and accuracy compared to motif-based methods. Furthermore, AD can accurately discern affinities of TF paralogs. Our results highlight thermodynamic affinity as a key determinant of in vivo binding, suggest that deep learning models of in vivo binding implicitly learn high-resolution affinity landscapes, and show that these affinities can be successfully distilled using AD. This new biophysical interpretation of deep learning models enables high-throughput in silico experiments to explore the influence of sequence context and variation on both intrinsic affinity and in vivo occupancy.",
+    "keywords": [
+      "Transcription factors",
+      "binding affinity",
+      "deep learning",
+      "gene regulation",
+      "high-throughput binding assays",
+      "protein-DNA binding"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alexandari, Amr M",
+        "Horton, Connor A",
+        "Shrikumar, Avanti",
+        "Shah, Nilay",
+        "Li, Eileen",
+        "Weilert, Melanie",
+        "Pufall, Miles A",
+        "Zeitlinger, Julia",
+        "Fordyce, Polly M",
+        "Kundaje, Anshul"
+      ],
+      "short_names": [
+        "Alexandari AM",
+        "Horton CA",
+        "Shrikumar A",
+        "Shah N",
+        "Li E",
+        "Weilert M",
+        "Pufall MA",
+        "Zeitlinger J",
+        "Fordyce PM",
+        "Kundaje A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Stanford University, Stanford, CA 94305.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305.",
+        "Department of Earth System Science, Stanford University, Stanford, CA 94305.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Department of Biochemistry, Carver College of Medicine, University of Iowa, Iowa City, Iowa 52242, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "The University of Kansas Medical Center, Kansas City, KS, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305.",
+        "ChEM-H Institute, Stanford University, Stanford, CA 94305.",
+        "Chan Zuckerberg Biohub, San Francisco, CA 94110.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alexandari, Amr M",
+        "short_name": "Alexandari AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Horton, Connor A",
+        "short_name": "Horton CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Shrikumar, Avanti",
+        "short_name": "Shrikumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Earth System Science, Stanford University, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Shah, Nilay",
+        "short_name": "Shah N",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Eileen",
+        "short_name": "Li E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Weilert, Melanie",
+        "short_name": "Weilert M",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Pufall, Miles A",
+        "short_name": "Pufall MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Carver College of Medicine, University of Iowa, Iowa City, Iowa 52242, USA."
+        ]
+      },
+      {
+        "full_name": "Zeitlinger, Julia",
+        "short_name": "Zeitlinger J",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+          "The University of Kansas Medical Center, Kansas City, KS, USA."
+        ]
+      },
+      {
+        "full_name": "Fordyce, Polly M",
+        "short_name": "Fordyce PM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305.",
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305.",
+          "ChEM-H Institute, Stanford University, Stanford, CA 94305.",
+          "Chan Zuckerberg Biohub, San Francisco, CA 94110."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305.",
+          "Department of Genetics, Stanford University, Stanford, CA 94305."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 May 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/22 19:11",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37733848",
+      "35524116",
+      "35428271",
+      "34850907",
+      "34734672",
+      "34608324",
+      "34568830",
+      "33983921",
+      "33975875",
+      "33790284",
+      "33760053",
+      "33692541",
+      "33603233",
+      "33340452",
+      "33289352",
+      "33208538",
+      "33134611",
+      "32375217",
+      "31740686",
+      "31379877",
+      "31351028",
+      "30826165",
+      "30473071",
+      "29651053",
+      "29638214",
+      "29605182",
+      "29588420",
+      "29563167",
+      "29425488",
+      "29176962",
+      "29098147",
+      "28581502",
+      "27903915",
+      "27471964",
+      "27466627",
+      "27410729",
+      "27191703",
+      "27155014",
+      "26979602",
+      "26645049",
+      "26527727",
+      "26301843",
+      "26213851",
+      "25969468",
+      "25751057",
+      "25313048",
+      "25151169",
+      "25085117",
+      "25042805",
+      "24853928",
+      "24781324",
+      "24243859",
+      "24094406",
+      "24039567",
+      "23953592",
+      "23836653",
+      "23813011",
+      "23812975",
+      "23595148",
+      "23562153",
+      "23558744",
+      "23026909",
+      "23021216",
+      "23021215",
+      "22965134",
+      "22955986",
+      "22955828",
+      "22955619",
+      "22505627",
+      "22479205",
+      "22146299",
+      "21700227",
+      "21654662",
+      "21154709",
+      "20802496",
+      "20110278",
+      "19505943",
+      "19458158",
+      "19443739",
+      "19265799",
+      "19029958",
+      "18725950",
+      "18616293",
+      "18446154",
+      "17540862",
+      "17218526",
+      "17098775",
+      "16900144",
+      "16722558",
+      "15797194",
+      "15637633",
+      "15215380",
+      "15131651",
+      "14757430",
+      "12399584",
+      "12360277",
+      "11861919",
+      "11467361",
+      "11102525",
+      "10487864",
+      "9581503",
+      "8539622",
+      "7939631",
+      "7048259",
+      "3742595",
+      "2919167",
+      "1840505"
+    ],
+    "similar": [
+      "37214836",
+      "20838582",
+      "33975875",
+      "26291518",
+      "19956545",
+      "37805453",
+      "29588420",
+      "26818008",
+      "38168434",
+      "27104615",
+      "38853998",
+      "38517697",
+      "22955984",
+      "20098497",
+      "30423062",
+      "26285121",
+      "38496549",
+      "25775564",
+      "23935523",
+      "22106333",
+      "34534646",
+      "38966997",
+      "31362726",
+      "19652015",
+      "24039567",
+      "25070602",
+      "37873361",
+      "35410161",
+      "33603233",
+      "24086290",
+      "26016777",
+      "38352411",
+      "19158363",
+      "16873495",
+      "28234893",
+      "22863112",
+      "29617928",
+      "35396274",
+      "35799193",
+      "25722376",
+      "23812975",
+      "22534400",
+      "33340452",
+      "35240993",
+      "38826350",
+      "32976105",
+      "26160164",
+      "29654070",
+      "38352517",
+      "31742324",
+      "38293094",
+      "29326300",
+      "28137873",
+      "22189060",
+      "20158869",
+      "26971251",
+      "30517703",
+      "22300769",
+      "23272209",
+      "18725950",
+      "36043696",
+      "22238267",
+      "32770026",
+      "31639474",
+      "34272562",
+      "35681170",
+      "30897079",
+      "23595148",
+      "30085281",
+      "28750606",
+      "31114856",
+      "31723409",
+      "30567711",
+      "29605182",
+      "34252930",
+      "38853896",
+      "35971180",
+      "33796819",
+      "20870645",
+      "34567058",
+      "30709337",
+      "16873497",
+      "22940246",
+      "18021409",
+      "27466627",
+      "37889068",
+      "35609992",
+      "36360189",
+      "33372147",
+      "38844976",
+      "31974574",
+      "20172488",
+      "25294828",
+      "35293310",
+      "35263332",
+      "36057196",
+      "26675734",
+      "22863142",
+      "27311443",
+      "34607350",
+      "39413205",
+      "39026761",
+      "39318505",
+      "38659757"
+    ],
+    "review": [
+      "37214836",
+      "31742324",
+      "31639474"
+    ],
+    "pmc": [
+      "10197627"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37214836/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37214836",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.11.540401",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse207001",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

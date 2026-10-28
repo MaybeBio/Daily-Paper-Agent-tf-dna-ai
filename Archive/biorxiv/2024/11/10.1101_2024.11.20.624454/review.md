@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors report the first in vitro reconstitution of meiotic DNA double-strand break (DSB) formation using mouse SPO11, demonstrating intrinsic catalytic activity, covalent attachment to 5' broken strands, sequence/bendability/topology-dependent target site selection, monomeric solution state requiring dimerization for cleavage via hybrid active sites, nick resealing activity, and a 1:1 SPO11-TOP6BL complex with distinct DNA end-binding properties. They propose that in vivo partners assemble condensates to promote SPO11 dimerization.
+- **Visible evidence base** Text descriptions of Figures 1-5, Extended Data Figures 1-9, Supplementary Tables S1-S3; no actual figures, numerical data, or statistical analyses provided
+- **Missing materials affecting confidence** All figures, extended data figures, numerical datasets, statistical analyses, raw gel images, SEC-MALS elution profiles, AlphaFold3 model coordinates, and methodological details for key experiments (e.g., cleavage site mapping, quantification methods)
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing question in meiosis research by reporting the first in vitro reconstitution of SPO11 catalytic activity. The core findings, if fully supported by the data, would represent a significant advance. However, the provided text alone does not allow verification of several central claims, particularly regarding the monomer-dimer equilibrium, the hybrid active site mechanism, and the quantitative aspects of target site selection. The manuscript is well-structured and clearly written, but the evidence base as presented is incomplete for a definitive assessment.
+- **Who would be interested in the results, and why** Researchers in meiosis, DNA repair, topoisomerase biology, and chromosome dynamics would find these results of high interest. The reconstitution of SPO11 activity opens new avenues for mechanistic studies, and the proposed condensation-based regulatory model has broad implications for understanding how DNA cleavage is controlled in chromatin contexts. The work may also interest those studying the evolution of topoisomerase mechanisms.
+- **Major strengths** The manuscript tackles a technically challenging problem that has resisted solution for over 25 years. The experimental approach is logical and multi-pronged, combining biochemical reconstitution, mutagenesis, biophysical characterization (SEC-MALS), and structural modeling. The authors are appropriately cautious in distinguishing direct evidence from inference, particularly regarding the condensation model. The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SPO11 is monomeric in solution and that cleavage requires dimerization to reconstitute two hybrid active sites"
+  - **Evidence pointer** Figure 4, Extended Data Figures 3, 8; location not provided
+  - **Concern** The claim that SPO11 is monomeric in solution and must dimerize for cleavage is central to the paper's model. However, the text provides only a single SEC-MALS experiment at 4 µM protein, and the authors note that a smaller peak "may correspond to dimers, although the molecular weight could not be determined." The mutant mixing experiment (YYFF + E224A) is presented as evidence for hybrid active sites, but the text does not describe how the observed nicked products were quantified or distinguished from other possible explanations (e.g., complementation via transient association, or residual activity of the mutants). The KD estimate of 1-5 µM appears to be inferred rather than directly measured, and no titration experiments are described.
+  - **Why it matters** The monomer-to-dimer transition is the mechanistic linchpin of the proposed model. If SPO11 is partially dimeric at the concentrations used, or if the mixing experiment has alternative interpretations, the conclusion that dimerization is the controlling step would be weakened. The distinction between "monomeric in solution" and "monomeric at the concentrations used" is critical.
+  - **Resolution test** Provide direct measurement of the dimerization constant (e.g., analytical ultracentrifugation or titration by light scattering), show that the mixing experiment produces nicked products at a frequency consistent with statistical reassortment of subunits, and demonstrate that cleavage activity scales with the square of protein concentration (or equivalent) to support a bimolecular dimerization step.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "target site selection by SPO11 is influenced by the sequence, bendability and topology of the DNA substrate"
+  - **Evidence pointer** Figure 3, Extended Data Figure 1; location not provided
+  - **Concern** The text describes a "strikingly periodic pattern" for Widom 601-containing substrates and a "non-random distribution" of cleavage sites on plasmids, but no quantitative analysis is presented. The claim that bendability influences target site selection is based on a correlation with a computational prediction tool (DNAcycP), yet the authors acknowledge that "bendability alone as predicted by DNAcycP is not sufficient to account for the target site preference." The relative contributions of sequence, bendability, and topology are not deconvolved, and no statistical framework is described.
+  - **Why it matters** Understanding how SPO11 selects target sites is fundamental to explaining meiotic DSB distribution. If the evidence for bendability/topology preferences is only correlative and not quantitatively robust, the claim as stated is overstated. The distinction between "influenced by" and "determined by" is important for the field.
+  - **Resolution test** Provide quantitative cleavage site mapping with statistical comparison of observed vs. expected frequencies, include control substrates that vary one parameter at a time (e.g., bendability matched for sequence, topology controlled by supercoiling density), and report effect sizes with confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** "SPO11 can reseal single-strand DNA breaks"
+  - **Evidence pointer** Extended Data Figure 8; location not provided
+  - **Concern** The observation of topoisomers in reactions containing mixed wild-type and mutant SPO11 is interpreted as evidence for nick resealing. However, the text does not exclude alternative explanations, such as topoisomerase-like strand passage without covalent intermediate, or the possibility that the topoisomers arise from incomplete cleavage rather than religation. The proposed mechanism involving monomer separation and reassociation is speculative and not directly tested.
+  - **Why it matters** The ability to reseal nicks has implications for understanding how SPO11 avoids persistent DNA damage and for the evolutionary relationship to topoisomerases. If the interpretation is incorrect, the conclusion about nick resealing would be unsupported.
+  - **Resolution test** Directly demonstrate religation using a labeled substrate where the released fragment can be tracked, or show that the topoisomer distribution is consistent with a defined number of strand passage events. Include a time course showing accumulation of topoisomers after initial nicking.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** "We propose a model where additional partners of SPO11 required for DSB formation in vivo assemble biomolecular condensates that recruit SPO11-TOP6BL, enabling dimerization and cleavage"
+  - **Evidence pointer** Figure 6; location not provided
+  - **Concern** This model is presented in the Discussion and is explicitly speculative, which is appropriate. However, the text does not describe any experiments that test the model, nor does it discuss alternative models (e.g., post-translational regulation, chromatin remodeling). The connection between the in vitro findings and the proposed in vivo mechanism is plausible but untested.
+  - **Why it matters** The model is likely to be influential and will be cited. If it is presented without appropriate caveats or alternative considerations, it may be over-interpreted by readers. The distinction between a hypothesis and a conclusion should be clear.
+  - **Resolution test** This is a Discussion-level model; the resolution is not experimental but rather a matter of framing. The authors should explicitly state which aspects are directly supported by their data and which are extrapolations requiring future testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "SPO11 catalyzes break formation in the absence of any partners," which is a strong claim. The text later clarifies that this is in vitro and that partners are required in vivo. The abstract could be misread as claiming partners are dispensable in all contexts.
+  - **Required correction** Add "in vitro" to the relevant sentence in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Plasmid cleavage assays
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The methods state that reactions were "typically" carried out with 250 nM SPOII and 5 ng/µl plasmid, but the range of conditions tested is not described. The text mentions that cleavage is sensitive to enzyme and substrate concentrations, but no systematic titration is shown.
+  - **Required correction** Provide a description of the range of conditions tested and the rationale for the standard conditions chosen.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section on SPO11-TOP11 complex
+  - **Evidence pointer** Figure 5, location not provided
+  - **Issue** The text states that the SPO11-TOP6BL complex has "similar activity" to SPO11 alone but also that activity is "context dependent" and that the complex binds DNA ends with higher affinity. The relationship between these observations is not fully explained.
+  - **Required correction** Clarify whether the higher DNA end-binding affinity of the complex affects the interpretation of the cleavage activity comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Issue** The manuscript does not discuss the accompanying paper by Zheng and colleagues in any detail, beyond noting it reports "similar findings." Given the potential for overlapping claims, the relationship between the two studies should be clarified.
+  - **Required correction** Add a brief statement in the Discussion describing the complementary or overlapping nature of the two studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of dimerization-controlled cleavage and target site selection are not quantitatively supported by the provided text. The lack of numerical data, statistical analyses, and experimental details prevents verification of these claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The in vitro reconstitution of SPO11 activity is a first and addresses a long-standing gap.
+  - **Scientific importance** High. Understanding SPO11 regulation is fundamental to meiosis and has implications for genome stability.
+  - **Interdisciplinary readership** Moderate. The work will primarily interest meiosis and DNA repair specialists, though the condensation model may attract broader attention.
+  - **Technical soundness** Cannot be fully assessed from the provided text. The experimental logic is sound, but the absence of quantitative data and statistical analyses is a significant limitation.
+  - **Readability for nonspecialists** Good. The writing is clear, and the model is presented in an accessible way.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the evidence as presented is insufficient to fully establish the central claims. The authors should provide quantitative data, statistical analyses, and additional controls to support the dimerization and target site selection conclusions.
+
+## Risk / unsupported claims
+- The claim that SPO11 is monomeric in solution is based on a single SEC-MALS experiment at one concentration; the dimer peak could not be characterized.
+- The claim that cleavage requires dimerization is inferred from the mutant mixing experiment, but alternative explanations are not excluded.
+- The claim that target site selection is influenced by bendability is correlational and not quantitatively established.
+- The claim that SPO11 can reseal single-strand breaks is inferred from topoisomer formation, but alternative mechanisms are not ruled out.
+- The proposed condensation model for in vivo regulation is speculative and not tested.
+- The statement that the in vitro assay "recapitulates all the hallmarks of meiotic DSB formation" is an overstatement, as the text does not demonstrate all hallmarks (e.g., interaction with accessory factors, chromatin context).

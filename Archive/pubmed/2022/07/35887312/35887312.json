@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "35887312",
+    "doi": "10.3390/ijms23147960",
+    "title": "Structural Basis of Mutation-Dependent p53 Tetramerization Deficiency."
+  },
+  "content": {
+    "abstract": "The formation of a tetrameric assembly is essential for the ability of the tumor suppressor protein p53 to act as a transcription factor. Such a quaternary conformation is driven by a specific tetramerization domain, separated from the central DNA-binding domain by a flexible linker. Despite the distance, functional crosstalk between the two domains has been reported. This phenomenon can explain the pathogenicity of some inherited or somatically acquired mutations in the tetramerization domain, including the widespread R337H missense mutation present in the population in south Brazil. In this work, we combined computational predictions through extended all-atom molecular dynamics simulations with functional assays in a genetically defined yeast-based model system to reveal structural features of p53 tetramerization domains and their transactivation capacity and specificity. In addition to the germline and cancer-associated R337H and R337C, other rationally designed missense mutations targeting a significant salt-bridge interaction that stabilizes the p53 tetramerization domain were studied (i.e., R337D, D352R, and the double-mutation R337D plus D352R). The simulations revealed a destabilizing effect of the pathogenic mutations within the p53 tetramerization domain and highlighted the importance of electrostatic interactions between residues 337 and 352. The transactivation assay, performed in yeast by tuning the expression of wild-type and mutant p53 proteins, revealed that p53 tetramerization mutations could decrease the transactivation potential and alter transactivation specificity, in particular by better tolerating negative features in weak DNA-binding sites. These results establish the effect of naturally occurring variations at positions 337 and 352 on p53's conformational stability and function.",
+    "keywords": [
+      "R337H",
+      "TP53",
+      "molecular dynamics",
+      "tetramerization domain",
+      "transactivation assays"
+    ],
+    "mesh_terms": [
+      "DNA",
+      "Mutant Proteins/metabolism",
+      "Mutation",
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rigoli, Marta",
+        "Spagnolli, Giovanni",
+        "Lorengo, Giulia",
+        "Monti, Paola",
+        "Potestio, Raffaello",
+        "Biasini, Emiliano",
+        "Inga, Alberto"
+      ],
+      "short_names": [
+        "Rigoli M",
+        "Spagnolli G",
+        "Lorengo G",
+        "Monti P",
+        "Potestio R",
+        "Biasini E",
+        "Inga A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7448-1896",
+        "ORCID: 0000-0002-0578-0558",
+        "ORCID: 0000-0002-1978-4998",
+        "ORCID: 0000-0001-6408-9380",
+        "ORCID: 0000-0002-8767-1637"
+      ],
+      "affiliations": [
+        "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy.",
+        "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy.",
+        "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy.",
+        "Mutagenesis and Cancer Prevention Unit, IRCCS Ospedale Policlinico San Martino, L.go R. Benzi, 10, 16132 Genoa, Italy.",
+        "Department of Physics, University of Trento, Via Sommarive 9, 38121 Trento, Italy.",
+        "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy.",
+        "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rigoli, Marta",
+        "short_name": "Rigoli M",
+        "identifiers": [
+          "0000-0001-7448-1896"
+        ],
+        "affiliations": [
+          "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Spagnolli, Giovanni",
+        "short_name": "Spagnolli G",
+        "identifiers": [
+          "0000-0002-0578-0558"
+        ],
+        "affiliations": [
+          "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Lorengo, Giulia",
+        "short_name": "Lorengo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Monti, Paola",
+        "short_name": "Monti P",
+        "identifiers": [
+          "0000-0002-1978-4998"
+        ],
+        "affiliations": [
+          "Mutagenesis and Cancer Prevention Unit, IRCCS Ospedale Policlinico San Martino, L.go R. Benzi, 10, 16132 Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Potestio, Raffaello",
+        "short_name": "Potestio R",
+        "identifiers": [
+          "0000-0001-6408-9380"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Biasini, Emiliano",
+        "short_name": "Biasini E",
+        "identifiers": [],
+        "affiliations": [
+          "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      },
+      {
+        "full_name": "Inga, Alberto",
+        "short_name": "Inga A",
+        "identifiers": [
+          "0000-0002-8767-1637"
+        ],
+        "affiliations": [
+          "Department CIBIO, University of Trento, Via Sommarive 9, 38121 Trento, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jul 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/28 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "41030976",
+      "40334261",
+      "39264222",
+      "37367066"
+    ],
+    "refs": [
+      "34862374",
+      "34289043",
+      "34283062",
+      "34164069",
+      "34163952",
+      "34027043",
+      "33473123",
+      "33444431",
+      "33443163",
+      "33401096",
+      "33263541",
+      "33194757",
+      "33024147",
+      "32875577",
+      "32873579",
+      "32797160",
+      "32665592",
+      "32457520",
+      "32234473",
+      "31817996",
+      "31424436",
+      "31283823",
+      "30726928",
+      "30710145",
+      "30649466",
+      "30420502",
+      "30107566",
+      "30057026",
+      "30042151",
+      "29529297",
+      "29125602",
+      "29099489",
+      "28912355",
+      "28904012",
+      "28886379",
+      "27864306",
+      "27663983",
+      "27641333",
+      "27091942",
+      "26596470",
+      "26574453",
+      "26477317",
+      "26081755",
+      "25591003",
+      "25185827",
+      "24651012",
+      "24577402",
+      "24120139",
+      "23630318",
+      "22972749",
+      "22682249",
+      "21933903",
+      "21779515",
+      "21674059",
+      "21457718",
+      "21343334",
+      "20978130",
+      "20516129",
+      "20516128",
+      "20498645",
+      "20364130",
+      "19935675",
+      "19815500",
+      "19776742",
+      "19597154",
+      "19410540",
+      "19011621",
+      "18940924",
+      "18811160",
+      "18719709",
+      "18391200",
+      "17900613",
+      "17620598",
+      "17212484",
+      "17053786",
+      "16825430",
+      "16793544",
+      "16793410",
+      "16461916",
+      "16007150",
+      "15843459",
+      "15761534",
+      "15264254",
+      "15037740",
+      "14534297",
+      "12873982",
+      "12826609",
+      "12446780",
+      "11875500",
+      "11805092",
+      "11358490",
+      "11313981",
+      "10097082",
+      "9843948",
+      "9628871",
+      "9524109",
+      "9405613",
+      "8837616",
+      "8023157",
+      "7878469"
+    ],
+    "similar": [
+      "35887312",
+      "40064360",
+      "20978130",
+      "32873579",
+      "18996393",
+      "11313981",
+      "37838351",
+      "35166747",
+      "11420672",
+      "40464633",
+      "16260757",
+      "17900613",
+      "19913028",
+      "29147811",
+      "18714371",
+      "10065154",
+      "11423991",
+      "11753428",
+      "8548757",
+      "40504558",
+      "40704418",
+      "12634062",
+      "12446780",
+      "12917626",
+      "18940924",
+      "10097082",
+      "21674059",
+      "28369373",
+      "26477317",
+      "34197865",
+      "20505364",
+      "30042151",
+      "11697899",
+      "31293051",
+      "29750295",
+      "15138567",
+      "30362715",
+      "11395510",
+      "7813439",
+      "7651437",
+      "26579714",
+      "36555140",
+      "19806023",
+      "18189286",
+      "21829606",
+      "9766574",
+      "16138827",
+      "19933326",
+      "28597880",
+      "36108750",
+      "7859740",
+      "18547443",
+      "11125276",
+      "33899789",
+      "22972749",
+      "23892287",
+      "25564201",
+      "20128691",
+      "11917017",
+      "21626703",
+      "33984364",
+      "12417323",
+      "16395672",
+      "23359294",
+      "9131587",
+      "16007150",
+      "9627118",
+      "12901798",
+      "9125151",
+      "23570263",
+      "19106109",
+      "40851047",
+      "39737749",
+      "10629029",
+      "29069390",
+      "25897952",
+      "16460008",
+      "34403252",
+      "31881526",
+      "19106606",
+      "27210019",
+      "25736369",
+      "11803461",
+      "16687402",
+      "23684608",
+      "18216268",
+      "29421308",
+      "19393630",
+      "24122735",
+      "21522129",
+      "31216622",
+      "11429705",
+      "26742101",
+      "11152481",
+      "24119020",
+      "17113101",
+      "10493578",
+      "18923936",
+      "17311302",
+      "8552392"
+    ],
+    "review": [
+      "35887312",
+      "32873579",
+      "11420672",
+      "10065154"
+    ],
+    "pmc": [
+      "9316806"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23147960",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35887312/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35887312",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35887312",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

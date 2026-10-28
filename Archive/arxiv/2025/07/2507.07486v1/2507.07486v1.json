@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2507.07486v1",
+  "title": "Sparse Autoencoders Reveal Interpretable Structure in Small Gene Language Models",
+  "doi": "",
+  "abstract": "Sparse autoencoders (SAEs) have recently emerged as a powerful tool for interpreting the internal representations of large language models (LLMs), revealing latent latent features with semantical meaning. This interpretability has also proven valuable in biological domains: applying SAEs to protein language models uncovered meaningful features related to protein structure and function. More recently, SAEs have been used to analyze genomics-focused models such as Evo 2, identifying interpretable features in gene sequences. However, it remains unclear whether SAEs can extract meaningful representations from small gene language models, which have fewer parameters and potentially less expressive capacity. To address it, we propose applying SAEs to the activations of a small gene language model. We demonstrate that even small-scale models encode biologically relevant genomic features, such as transcription factor binding motifs, that SAEs can effectively uncover. Our findings suggest that compact gene language models are capable of learning structured genomic representations, and that SAEs offer a scalable approach for interpreting gene models across various model sizes.",
+  "authors": [
+    "Haoxiang Guan",
+    "Jiyan He",
+    "Jie Zhang"
+  ],
+  "published_date": "2025-07-10T07:13:54Z",
+  "updated_date": "2025-07-10T07:13:54Z",
+  "journal": "",
+  "category": "q-bio.OT",
+  "landing_url": "https://arxiv.org/abs/2507.07486v1",
+  "pdf_url": "https://arxiv.org/pdf/2507.07486v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.OT"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2507.07486v1",
+    "raw_categories": [
+      "q-bio.OT"
+    ],
+    "journal_ref": ""
+  }
+}

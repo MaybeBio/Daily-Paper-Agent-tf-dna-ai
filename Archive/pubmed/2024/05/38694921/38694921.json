@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "38694921",
+    "doi": "10.3389/fphar.2024.1364160",
+    "title": "Identification of pivotal genes and regulatory networks associated with atherosclerotic carotid artery stenosis based on comprehensive bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Bioinformatics methods were applied to investigate the pivotal genes and regulatory networks associated with atherosclerotic carotid artery stenosis (ACAS) and provide new insights for the treatment of this disease. METHODS: The study utilized five ACAS datasets (GSE100927, GSE11782, GESE28829, GSE41571, and GSE43292) downloaded from the NCBI GEO database. The first four datasets were combined as the training set (n = 99), while GSE43292 (n = 64) was used as the validation set. Difference analysis and functional enrichment analysis were then performed on the training set. The pathogenic targets of ACAS were screened by protein-protein interaction networks and MCODE analyses, combined with three machine learning algorithms. The results were next verified by analysis of inter-group differences and ROC curve analysis. Next, immune-related function and immune cell correlation analyses were performed, and plaques of human ACAS were applied to verify the results via immunohistochemistry (IH) and immunofluorescence (IF). Finally, the competing endogenous RNAs (ceRNA) and transcription factors (TFs) regulatory networks of the characterized genes were constructed. RESULTS: A total of 177 differentially expressed genes were identified, including 67 genes downregulated and 110 genes upregulated. Gene set enrichment analysis revealed that five pathways were active in the experimental group, including xenograft rejection, autoimmune thyroid disease, graft-versus-host disease, leishmaniasis infection, and lysosomes. Four key genes were identified, with C3AR1 being upregulated and FBLN5, PPP1R12A, and TPM1 being downregulated. The analysis of inter-group differences demonstrated that the four characterized genes were differentially expressed in both the control and experimental groups. The ROC analysis showed that they had high AUC values in both the training and validation sets. Therefore, a predictive ACAS patient nomogram model based on the screened genes was established. Correlation analysis revealed a positive correlation between C3AR1 expression and neutrophils, which was further validated in IH and IF. One or multiple lncRNAs may compete with the characterized genes for binding miRNAs. Additionally, each characterized gene interacts with multiple TFs. CONCLUSION: Four pivotal genes were screened, and relevant ceRNA and TFs were predicted. These molecules may exert a crucial role in ACAS and serve as potential biomarkers and therapeutic targets.",
+    "keywords": [
+      "atherosclerosis",
+      "carotid artery stenosis",
+      "machine learning",
+      "pathogenic markers",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Xiaohong",
+        "Ding, Rui",
+        "Lu, Haoran",
+        "Zhang, Wenfei",
+        "Wei, Shanshan",
+        "Ji, Baowei",
+        "Geng, Rongxin",
+        "Wu, Liquan",
+        "Chen, Zhibiao"
+      ],
+      "short_names": [
+        "Qin X",
+        "Ding R",
+        "Lu H",
+        "Zhang W",
+        "Wei S",
+        "Ji B",
+        "Geng R",
+        "Wu L",
+        "Chen Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Oncology, Wuchang Hospital Affiliated to Wuhan University of Science and Technology, Wuhan, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Xiaohong",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Rui",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Haoran",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenfei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shanshan",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Wuchang Hospital Affiliated to Wuhan University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Baowei",
+        "short_name": "Ji B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Rongxin",
+        "short_name": "Geng R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Liquan",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhibiao",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/02 06:42",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42512067",
+      "42477884",
+      "41851623",
+      "41584359",
+      "40836955",
+      "40520774",
+      "39959637"
+    ],
+    "refs": [
+      "37468046",
+      "37032832",
+      "36905928",
+      "36635933",
+      "35798450",
+      "35773742",
+      "35568721",
+      "35356421",
+      "35182512",
+      "35179253",
+      "35039631",
+      "34785599",
+      "34487721",
+      "34454905",
+      "34403009",
+      "34140767",
+      "33990205",
+      "33744381",
+      "32990682",
+      "32078448",
+      "32009226",
+      "31996800",
+      "31601801",
+      "31578516",
+      "31342266",
+      "31318658",
+      "31045582",
+      "31043745",
+      "30938840",
+      "30931480",
+      "27574949",
+      "27198221",
+      "23419712",
+      "22895665",
+      "21802130",
+      "12525261",
+      "11993522",
+      "7642636",
+      "2166003"
+    ],
+    "similar": [
+      "38694921",
+      "35757392",
+      "35773742",
+      "36341343",
+      "36823662",
+      "37315377",
+      "35990977",
+      "37259023",
+      "36470144",
+      "36187128",
+      "38690269",
+      "37821907",
+      "36211422",
+      "35957838",
+      "32037372",
+      "37854191",
+      "36575422",
+      "31304055",
+      "34536521",
+      "38716195",
+      "36959587",
+      "38510272",
+      "35909518",
+      "37608666",
+      "36223608",
+      "38348310",
+      "38382092",
+      "35842645",
+      "36457745",
+      "35368701",
+      "38650649",
+      "37752199",
+      "36061211",
+      "32863767",
+      "35811739",
+      "35713363",
+      "34128858",
+      "36704339",
+      "37264340",
+      "38371524",
+      "36393970",
+      "37235492",
+      "37576602",
+      "34743709",
+      "38051734",
+      "37063926",
+      "36960398",
+      "36660246",
+      "35634481",
+      "36524127",
+      "28260035",
+      "38573982",
+      "36725810",
+      "34234459",
+      "35401659",
+      "37822923",
+      "38176923",
+      "35719392",
+      "35558576",
+      "38044432",
+      "37649719",
+      "31322209",
+      "35877019",
+      "36792688",
+      "34426790",
+      "35356421",
+      "36605987",
+      "34218797",
+      "32655995",
+      "33986769",
+      "30602391",
+      "31392826",
+      "37783761",
+      "32616722",
+      "36513616",
+      "34280006",
+      "37732314",
+      "35924235",
+      "36419192",
+      "38428097",
+      "38283345",
+      "35975032",
+      "31106044",
+      "37065602",
+      "38629070",
+      "37250717",
+      "37760894",
+      "38650009",
+      "32379583",
+      "36699469",
+      "38268224",
+      "37507775",
+      "38194604"
+    ],
+    "review": [
+      "38694921"
+    ],
+    "pmc": [
+      "11061441"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38694921/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38694921",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2024.1364160",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

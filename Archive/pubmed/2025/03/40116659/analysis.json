@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40116659",
+  "title": "AttentionGRN: a functional and directed graph transformer for gene regulatory network reconstruction from scRNA-seq data.",
+  "authors": "Gao, Zhen; Su, Yansen; Tang, Jin; Jin, Huaiwan; Ding, Yun; Cao, Rui-Fen; Wei, Pi-Jing; Zheng, Chun-Hou",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-03-21",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图Transformer从scRNA-seq重建基因调控网络，虽涉及转录因子-靶基因关联，但核心是基因表达网络推断而非TF-DNA三维互作建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Single-cell RNA sequencing (scRNA-seq) enables the reconstruction of cell type-specific gene regulatory networks (GRNs), offering detailed insights into gene regulation at high resolution. While graph neural networks have become widely used for GRN inference, their message-passing mechanisms are often limited by issues such as over-smoothing and over-squashing, which hinder the preservation of essential network structure. To address these challenges, we propose a novel graph transformer-based model, AttentionGRN, which leverages soft encoding to enhance model expressiveness and improve the accuracy of GRN inference from scRNA-seq data. Furthermore, the GRN-oriented message aggregation strategies are designed to capture both the directed network structure information and functional information inherent in GRNs. Specifically, we design directed structure encoding to facilitate the learning of directed network topologies and employ functional gene sampling to capture key functional modules and global network structure. Our extensive experiments, conducted on 88 datasets across two distinct tasks, demonstrate that AttentionGRN consistently outperforms existing methods. Furthermore, AttentionGRN has been successfully applied to reconstruct cell type-specific GRNs for human mature hepatocytes, revealing novel hub genes and previously unidentified transcription factor-target gene regulatory associations.",
+  "abstract_zh": "单细胞RNA测序（scRNA-seq）能够重建细胞类型特异性的基因调控网络（GRNs），为高分辨率下的基因调控提供详细见解。尽管图神经网络已广泛用于GRN推断，但其消息传递机制常受过度平滑和过度压缩等问题限制，阻碍了关键网络结构的保留。为解决这些挑战，我们提出了一种基于图变换器的新模型AttentionGRN，利用软编码增强模型表达能力，并提高从scRNA-seq数据推断GRN的准确性。此外，设计了面向GRN的消息聚合策略，以捕获GRN中固有的有向网络结构信息和功能信息。具体而言，我们设计有向结构编码以促进有向网络拓扑的学习，并采用功能基因采样来捕获关键功能模块和全局网络结构。我们在两个不同任务的88个数据集上进行的广泛实验表明，AttentionGRN始终优于现有方法。此外，AttentionGRN已成功应用于重建人类成熟肝细胞的细胞类型特异性GRNs，揭示了新的枢纽基因和先前未识别的转录因子-靶基因调控关联。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40116659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40116659/",
+  "paper_page_path": "papers/pubmed/40116659/index.html"
+}

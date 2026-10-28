@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose diaryl terephthalamides as a new chemotype for disrupting the c-Myb-CBP/p300 KIX protein-protein interaction, supported by computational screening, docking, molecular dynamics, MM/PBSA calculations, free-energy landscape analysis, ADMET profiling, and experimental validation via microscale thermophoresis and cell viability assays in AML lines.
+- **Visible evidence base** Abstract text only; no numerical data beyond IC50 values and DeltaDeltaG(PPI) values; no methodological details, statistical analyses, or experimental protocols provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods, experimental protocols, statistical analysis details, compound structures, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hit-discovery story for a well-validated oncogenic target. The integration of computational and experimental approaches is commendable in principle. However, the evidence as presented is insufficient to establish the central claims. Key weaknesses include the absence of methodological detail, lack of experimental replicates and statistical rigor, unclear target selectivity, and the modest potency of the lead compounds. The claim that C4 and C5 are "the most compelling leads" is not adequately supported by the data visible in the abstract.
+- **Who would be interested in the results, and why** Researchers in chemical biology, medicinal chemistry, and leukemia biology would be interested. The c-Myb-KIX interaction is a recognized but challenging target, and new chemotypes with validated biochemical activity could inform future inhibitor development. The computational-experimental workflow may also interest methodologists in structure-based drug discovery.
+- **Major strengths** The target is biologically and clinically relevant. The study combines multiple computational approaches with two orthogonal experimental assays. The identification of two compounds with reproducible activity in both biochemical and cellular assays provides a reasonable starting point for hit-to-lead optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and reproducibility
+  - **Claim pointer** "Experimental microscale thermophoresis confirmed direct disruption of the Myb-KIX interaction, with C4 and C5 showing the best inhibitory potency, yielding IC50 values of 27.72 +/- 7.80 and 27.11 +/- 7.45 muM, respectively"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The IC50 values are reported with standard deviations, but no information is provided on the number of replicates, the protein and ligand concentrations used, the buffer conditions, or the specific MST protocol. Without these details, the reliability and reproducibility of the measurements cannot be assessed.
+  - **Why it matters** IC50 values derived from a single assay format with unknown replicates and conditions are insufficient to establish the claimed inhibitory potency. The reported errors may reflect technical variability rather than biological reproducibility.
+  - **Resolution test** Provide full MST methods, including replicate numbers, concentration ranges, and a representative binding curve. Show that the IC50 values are reproducible across independent experiments and that the assay is validated with a known positive control.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target selectivity and specificity
+  - **Claim pointer** "diaryl terephthalamides as promising c-Myb-CBP/p300 KIX disruptors"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not report any selectivity data. It is unclear whether the compounds disrupt the c-Myb-KIX interaction specifically or whether they act via nonspecific mechanisms such as aggregation, denaturation, or off-target binding to other KIX-binding partners or unrelated proteins.
+  - **Why it matters** For a protein-protein interaction inhibitor, selectivity is a core requirement. Without evidence that the compounds do not broadly disrupt other KIX interactions or exert nonspecific effects, the claim of specific disruption is not established.
+  - **Resolution test** Include counter-screening against other KIX-binding partners (e.g., MLL, p53, or CREB) and a negative control protein. Show that the compounds do not cause aggregation or denaturation under assay conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cellular activity and mechanism
+  - **Claim pointer** "C4 and C5 showed the strongest reduction in AML cell viability in HL-60 and THP-1 cells"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports cell viability reduction but provides no dose-response data, no EC50 values, no selectivity against non-AML cell lines, and no evidence that the observed cytotoxicity is due to on-target c-Myb-KIX disruption rather than general toxicity.
+  - **Why it matters** The claim that these compounds are promising leads for AML requires evidence that their cellular activity is mechanistically linked to the intended target. Without this, the cellular effects could be due to off-target toxicity.
+  - **Resolution test** Provide dose-response curves, EC50 values, and a comparison with a non-AML or non-cancer cell line. Include a mechanistic experiment such as a rescue assay or a target engagement study in cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational predictions and experimental correlation
+  - **Claim pointer** "MM/PBSA-based protein-protein interaction perturbation analysis further showed that all five compounds produced positive DeltaDeltaG(PPI) values, consistent with weakening of the c-Myb-CBP/p300 KIX interface, with C4 and C5 showing the largest predicted disruptive effects (+25.85 and +18.27 kcal/mol, respectively)"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The magnitude of the reported DeltaDeltaG(PPI) values is unusually large for a protein-protein interaction perturbation. Typical MM/PBSA errors are on the order of 1 to 3 kcal/mol, and values above 10 kcal/mol are rarely considered reliable. The abstract does not report error estimates or convergence criteria for these calculations.
+  - **Why it matters** If the computational values are not robust, the ranking of compounds and the correlation with experimental data may be coincidental. The lack of error analysis undermines confidence in the computational prioritization.
+  - **Resolution test** Provide error bars or standard deviations for the MM/PBSA calculations, show convergence of the simulations, and demonstrate a statistically significant correlation between predicted and experimental rankings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of compound nomenclature
+  - **Affected element** Compound labels C1-C5
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to compounds C1-C5 without providing their chemical structures or a reference to a figure or table where they are defined.
+  - **Required correction** Include a structure table or a supplementary figure reference in the abstract or state that structures are provided in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Cell viability data
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that C4 and C5 showed the strongest reduction in cell viability but does not report the magnitude of the effect, the concentration used, or any statistical significance.
+  - **Required correction** Report the percentage reduction, the concentration, and the p-values or confidence intervals for the viability assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** ADMET claim specificity
+  - **Affected element** "notable developability liabilities"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions developability liabilities but does not specify which properties are problematic or how they were assessed.
+  - **Required correction** Specify the ADMET parameters that failed and the predicted values, or refer to a table in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental reproducibility), R1-M2 (selectivity), R1-M3 (cellular mechanism), R1-M4 (computational robustness)
+- **Assessment against Nature-style criteria** Originality is moderate; diaryl terephthalamides are a new chemotype for this target, but the approach is a standard virtual screening and validation workflow. Scientific importance is potentially high given the target's role in AML, but the modest potency and lack of selectivity data limit the current impact. Interdisciplinary readership is plausible, but the abstract is too brief to engage a broad audience. Technical soundness cannot be fully assessed from the abstract; the computational and experimental methods are not described in sufficient detail. Readability for nonspecialists is acceptable but would benefit from clearer definitions of the computational metrics and their significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hit-discovery story, but the lack of methodological detail, selectivity data, and mechanistic cellular evidence prevents validation of the central claims. The authors should be encouraged to resubmit with a full manuscript that addresses the concerns above.
+
+## Risk / unsupported claims
+- The claim that C4 and C5 are "the most compelling leads" is not supported by the abstract data, as the IC50 values are modest and no selectivity or cellular mechanism data are provided.
+- The claim that the compounds "weakened the c-Myb-KIX interface to varying extents" is based solely on computational predictions without experimental validation of binding affinity changes.
+- The DeltaDeltaG(PPI) values of +25.85 and +18.27 kcal/mol are presented without error estimates and are not credible as absolute free energy changes.
+- The statement that the series "satisfies basic drug-likeness criteria" is vague and not supported by specific ADMET data in the abstract.
+- The relevance of the cell viability data to on-target c-Myb-KIX disruption is unsubstantiated.

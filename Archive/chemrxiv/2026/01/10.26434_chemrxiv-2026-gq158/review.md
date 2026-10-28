@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report the first full-length homology model of human elastin-binding protein (EBP, residues 29-516), validated by duplicate 1 microsecond molecular dynamics (MD) simulations. Molecular docking of VGVAPG and lactose, followed by MD, identified key binding residues for each ligand, a shared binding region (residues 83-139) suggesting competitive binding, and residues P233 and I234 implicated in interactions with PPCA or NEU-1 for elastin receptor complex assembly.
+- **Visible evidence base** Abstract text only; no structural coordinates, simulation parameters, docking scores, validation metrics, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, simulation convergence data, docking validation, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with potentially useful structural insights into EBP-ligand interactions. However, the evidence base is limited to a summary of results without access to the underlying data, making it impossible to verify the validity of the homology model, the quality of the MD simulations, the reliability of the docking predictions, or the strength of the competitive binding claim. The work is of interest to the elastin and glycosaminoglycan research communities, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying elastin-derived peptides, elastin receptor complex signaling, sialidase regulation, and extracellular matrix biology. Additionally, computational chemists and structural biologists interested in homology modeling and MD-based ligand binding predictions for membrane-associated or multi-domain proteins would find the methodological approach relevant.
+- **Major strengths** The study addresses a significant gap in understanding EBP structure and ligand recognition. The use of microsecond-scale MD simulations for model validation is a rigorous approach. The identification of a shared binding region for VGVAPG and lactose provides a testable hypothesis for competitive binding. The implication of specific residues in ERC assembly adds functional context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "First full-length homology model of EBP (residues 29-516), constructed and validated through duplicate 1 microsecond long MD simulations"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a validated homology model but provides no details on the template selection, sequence identity, model quality metrics (e.g., QMEAN, Ramachandran statistics), or the criteria used to judge MD-based validation as successful. Without these, the claim of a "validated" model is unverifiable.
+  - **Why it matters** Homology model quality is foundational to all subsequent docking and MD results. If the model is inaccurate, the identified binding residues and the competitive binding hypothesis would be unreliable.
+  - **Resolution test** Provide template information, sequence identity, model quality scores, and MD convergence metrics (e.g., RMSD stability, RMSF analysis, and comparison to experimental data if available) in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking of VGVAPG and lactose followed by MD simulations allowed us to identify key binding residues"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the docking method, scoring function, or how binding residues were defined from the MD trajectories. It is unclear whether the residues were identified based on contact frequency, binding free energy calculations, or visual inspection. The lack of quantitative criteria undermines the reliability of the residue assignments.
+  - **Why it matters** The central conclusion of a shared binding region depends on the accuracy of the residue identification. Without a transparent and reproducible method, the claim cannot be assessed.
+  - **Resolution test** Describe the docking protocol, scoring function, and the criteria for defining key binding residues (e.g., contact occupancy thresholds, energy decomposition). Provide supporting figures or tables in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "These data reveal a shared binding region within residues 83-139, suggesting a competitive binding between EDPs and galactosugars"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The competitive binding claim is inferred from overlapping binding regions, but no direct evidence of competition (e.g., co-binding experiments, displacement assays, or free energy comparisons) is presented. The abstract does not rule out simultaneous binding or allosteric effects.
+  - **Why it matters** The therapeutic relevance of EBP-targeted antagonists depends on whether EDPs and galactosugars truly compete. An unsupported competitive model could mislead future drug design efforts.
+  - **Resolution test** Provide additional computational evidence such as binding free energy differences, or clearly state that competition is a hypothesis requiring experimental validation. If experimental data exist, include them.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "EBP residues P233 and I234 were implicated in potential interactions with PPCA or NEU-1, contributing to ERC assembly"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The basis for implicating P233 and I234 is not described. It is unclear whether this comes from the MD simulations, docking of PPCA or NEU-1, or speculative analysis. The phrase "potential interactions" is vague and lacks supporting data.
+  - **Why it matters** This claim extends beyond the ligand binding focus and could be overstated if not backed by specific evidence. It may distract from the core findings.
+  - **Resolution test** Clarify the method used to identify these residues and provide supporting data (e.g., interaction maps, mutation analysis, or literature comparison) in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "NEU-1 sialidase activity" and "ERC assembly" without brief contextual explanation, which may limit accessibility for readers outside the elastin biology field.
+  - **Required correction** Add a short phrase defining NEU-1 and ERC on first use, or provide a brief functional context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the significance of the findings relative to existing knowledge, such as how this model improves upon prior partial models or experimental structures.
+  - **Required correction** Include a sentence comparing the new model to previous structural data or highlighting the novelty in the context of EBP research.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "duplicate 1 microsecond long MD simulations" but does not specify the force field, water model, or temperature/pressure coupling conditions, which are essential for reproducibility.
+  - **Required correction** Provide these methodological details in the full manuscript and consider mentioning the force field in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation evidence), R1-M2 (docking and residue identification methodology), R1-M3 (competitive binding evidence)
+- **Assessment against Nature-style criteria** Originality: The first full-length EBP model is a novel contribution, but the abstract does not demonstrate how it advances beyond existing partial structures. Scientific importance: The topic is relevant to elastin biology and therapeutic development, but the impact is not quantified or contextualized. Interdisciplinary readership: The abstract is likely to appeal to structural biologists and elastin researchers, but the lack of methodological detail limits broader appeal. Technical soundness: Cannot be assessed from the abstract alone; the absence of validation metrics and docking details is a critical gap. Readability for nonspecialists: The abstract is concise but uses field-specific jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising computational study, but the lack of methodological detail and validation data prevents verification of the core claims. Supportive if the full manuscript addresses the technical concerns, particularly model validation, docking methodology, and the competitive binding hypothesis.
+
+## Risk / unsupported claims
+- The claim of a "validated" homology model is unsupported without quality metrics and MD convergence data.
+- The identification of specific binding residues is unverifiable without docking and trajectory analysis details.
+- The competitive binding between VGVAPG and lactose is inferred, not demonstrated, and should be framed as a hypothesis.
+- The implication of P233 and I234 in ERC assembly is speculative without a described method or supporting evidence.
+- The statement "first full-length homology model" cannot be confirmed without a literature comparison, which is not provided.

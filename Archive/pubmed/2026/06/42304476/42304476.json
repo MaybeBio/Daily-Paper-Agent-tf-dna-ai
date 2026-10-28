@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "42304476",
+    "doi": "10.1186/s12967-026-08451-0",
+    "title": "Integrative spatiotemporal transcriptomics identifies a liver metastasis-related initial cell population associated with the SEMA3A-NRP1 axis in pancreatic ductal adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic ductal adenocarcinoma (PDAC) is a highly lethal malignancy in which liver metastasis represents the principal determinant of poor prognosis. Although metastatic dissemination is thought to be driven by highly plastic tumor cells, the transcriptional features of liver metastasis-related initial cell (LMIC) and its spatial crosstalk with the metastatic microenvironment during PDAC progression remain incompletely defined. METHODS: We integrated bulk transcriptomic, single-cell RNA sequencing, and 10x Genomics spatial transcriptomic datasets from multiple clinical cohorts. Malignant epithelial cells were accurately identified using a machine learning-based approach (scMalignantFinder). Developmental trajectory inference algorithms (VECTOR, scTour, and Monocle2) were applied to define LMIC. Intercellular communication was interrogated using CellChat and CellPhoneDB, while spatial ecological niches were resolved using RCTD and MISTy. Functional validation of key signaling axes was performed by immunohistochemistry (IHC), wound-healing assays, and Transwell invasion assays. RESULTS: We identified a TSPAN1_MC2 subpopulation of malignant epithelial cells with high differentiation potential and further characterized LMIC located at the origin of the developmental trajectory, characterized by concurrent epithelial-mesenchymal transition (EMT) and stemness features. The LMIC population exhibited elevated expression of stemness-associated genes, including NRP1 and NRP2, and was significantly associated with poor clinical outcomes and resistance to immunotherapy. Cell-cell communication and spatial analyses revealed that cancer-associated fibroblasts (CAFs) secrete SEMA3A, which engages NRP1 on LMIC, mediating their spatial co-localization and functional reprogramming. In vitro assays supported that over-expression of SEMA3A and NRP1 could enhance PDAC cell migration and invasion. The transcription factor YY1 was nominated as a potential regulatory associated with the LMIC transcriptional program, showing structural alignment with NRP1 expression and the activation of pathways such as WNT and PI3K-AKT signaling. In addition, the LMIC phenotype displayed pronounced lipid metabolic reprogramming, with up-regulation of rate-limiting enzymes including FASN and ACACA. Pharmacogenomic simulations further suggested a potential correlation with heightened sensitivity of the LMIC population to FAK inhibitors (PF-562271) and HDAC inhibitors (Mocetinostat), suggesting hypothetical therapeutic vulnerabilities. CONCLUSIONS: At single-cell resolution, this study characterizes the LMIC population in PDAC and implicates a CAF-associated SEMA3A-NRP1 signaling axis within their spatial and functional microenvironmental niches. These findings provide a refined conceptual framework for the development of prospective targeted strategies aimed at disrupting early microenvironmental cross-talk associated with PDAC liver metastasis.",
+    "keywords": [
+      "LMIC",
+      "Liver metastasis",
+      "NRP1",
+      "Pancreatic ductal adenocarcinoma",
+      "SEMA3A",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics",
+      "YY1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuropilin-1/metabolism/genetics",
+      "*Carcinoma, Pancreatic Ductal/pathology/genetics",
+      "*Liver Neoplasms/secondary/genetics/pathology",
+      "*Semaphorin-3A/metabolism/genetics",
+      "*Pancreatic Neoplasms/pathology/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Signal Transduction/genetics",
+      "Spatial Transcriptomics",
+      "Cell Movement/genetics",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Gene Expression Profiling",
+      "*Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yang",
+        "Liu, Ya-Die",
+        "Jiang, Zhi-Ying",
+        "Lu, Hong-Xiang"
+      ],
+      "short_names": [
+        "Li Y",
+        "Liu YD",
+        "Jiang ZY",
+        "Lu HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0363-0564"
+      ],
+      "affiliations": [
+        "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China.",
+        "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China.",
+        "Department of Laboratory Medicine, Jiangning Hospital Affiliated to Nanjing Medical University, Nanjing, 211100, China.",
+        "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China. hero_0620@163.com.",
+        "Department of Laboratory Medicine, Jiangning Hospital Affiliated to Nanjing Medical University, Nanjing, 211100, China. hero_0620@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ya-Die",
+        "short_name": "Liu YD",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Zhi-Ying",
+        "short_name": "Jiang ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Jiangning Hospital Affiliated to Nanjing Medical University, Nanjing, 211100, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hong-Xiang",
+        "short_name": "Lu HX",
+        "identifiers": [
+          "0000-0002-0363-0564"
+        ],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang City, 212013, China. hero_0620@163.com.",
+          "Department of Laboratory Medicine, Jiangning Hospital Affiliated to Nanjing Medical University, Nanjing, 211100, China. hero_0620@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Jun 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/17 06:32",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41675508",
+      "41663153",
+      "41145665",
+      "40402249",
+      "40148533",
+      "40133495",
+      "39652581",
+      "39133317",
+      "39090094",
+      "38801700",
+      "38670629",
+      "38592405",
+      "38169627",
+      "37846051",
+      "37353848",
+      "37231261",
+      "37059070",
+      "36932224",
+      "36841806",
+      "36699385",
+      "36656750",
+      "36652559",
+      "36354098",
+      "35814628",
+      "35469013",
+      "35422018",
+      "34992217",
+      "34911571",
+      "34557778",
+      "34417225",
+      "34301623",
+      "33603203",
+      "33597522",
+      "33462499",
+      "31740819",
+      "31465728",
+      "31340985",
+      "30339548",
+      "28832964",
+      "28825705",
+      "25605792",
+      "23323831"
+    ],
+    "similar": [
+      "42304476",
+      "41716413",
+      "40303346",
+      "42212130",
+      "42589604",
+      "41942785",
+      "38670629",
+      "42079345",
+      "40520021",
+      "41929495",
+      "42214806",
+      "41952208",
+      "39740539",
+      "38702773",
+      "41121153",
+      "41742226",
+      "40443671",
+      "38587552",
+      "41953013",
+      "41394830",
+      "37370109",
+      "33757206",
+      "35854234",
+      "26215634",
+      "40240899",
+      "31888763",
+      "42611083",
+      "40659704",
+      "30691517",
+      "33852841",
+      "42614523",
+      "39402590",
+      "40666516",
+      "40050872",
+      "41601623",
+      "40711603",
+      "40855036",
+      "40764361",
+      "33397441",
+      "40357856",
+      "42174623",
+      "42486346",
+      "27750041",
+      "38657117",
+      "41966742",
+      "17631638",
+      "41987092",
+      "42456992",
+      "23896173",
+      "34049503",
+      "41920243",
+      "41812332",
+      "41766855",
+      "34727952",
+      "35533267",
+      "42520475",
+      "38827297",
+      "42119923",
+      "29621546",
+      "41455615",
+      "41176774",
+      "42212140",
+      "41508037",
+      "42089585",
+      "32988401",
+      "33428605",
+      "35718922",
+      "41350704",
+      "39682758",
+      "42420840",
+      "38343537",
+      "24884523",
+      "40582491",
+      "42361739",
+      "41208840",
+      "30311406",
+      "42163252",
+      "32467989",
+      "41387974",
+      "42143353",
+      "41208987",
+      "41806200",
+      "24999732",
+      "41782148",
+      "42140356",
+      "41235257",
+      "41366455",
+      "39358777",
+      "42139279",
+      "38685045",
+      "41168822",
+      "42032684",
+      "42301521",
+      "42442087",
+      "42537428",
+      "40616092",
+      "26804176",
+      "40065368",
+      "42209795",
+      "42495647"
+    ],
+    "review": [
+      "42304476"
+    ],
+    "pmc": [
+      "13508459"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08451-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42304476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1785",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

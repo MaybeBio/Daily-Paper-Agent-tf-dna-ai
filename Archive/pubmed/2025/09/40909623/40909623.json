@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40909623",
+    "doi": "10.1101/2025.08.30.673257",
+    "title": "GlycoEnzDB: A database of enzymes involved in human glycosylation."
+  },
+  "content": {
+    "abstract": "The glycan distribution on cells is governed by the stochastic activity of different families of enzymes that are together called 'glycoEnzymes'. These include ~400 gene products or 2% of the proteome, that have recently been curated in an ontology called GlycoEnzOnto. With the goal of making this ontology more accessible to the larger biomedical and biotechnology community, we organized a web resource called GlycoEnzDB, presenting this enzyme classification both in terms of enzyme function and the pathways that they participate in. This information is linked to i) Figures from the \" Essentials of Glycobiology\" textbook, ii) General gene, enzyme and pathway data appearing in external databases, iii) Manual and generative-artificial intelligence (AI) based text describing the function and pathways regulated by these entities, iv) Single-cell expression data across cell lines, normal human cell-types and tissue, and v) CRISPR-knockout/activation/inactivation and Transcription factor activity predictions. Whereas these data are curated for human glycoEnzymes, the knowledge framework may be extended to other species also. The user-friendly web interface is accessible at www.virtualglycome.org/glycoenzdb.",
+    "keywords": [
+      "glycoinformatics",
+      "glycoscience",
+      "glycosidase",
+      "glycosyltransferase",
+      "pathway"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yusen",
+        "Ghosh, Vishnu",
+        "Venkatesan, Shriramprasad",
+        "Sriram, Shyam",
+        "Sobczak, Edward",
+        "Setlur, Srirangaraj",
+        "Gunawan, Rudiyanto",
+        "Neelamegham, Sriram"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Ghosh V",
+        "Venkatesan S",
+        "Sriram S",
+        "Sobczak E",
+        "Setlur S",
+        "Gunawan R",
+        "Neelamegham S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6480-7976",
+        "ORCID: 0000-0002-1371-8500"
+      ],
+      "affiliations": [
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Biomedical Engineering, State University of New York, Buffalo, NY 14260.",
+        "Department of Medicine, State University of New York, Buffalo, NY 14260."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yusen",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Vishnu",
+        "short_name": "Ghosh V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+          "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Venkatesan, Shriramprasad",
+        "short_name": "Venkatesan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Sriram, Shyam",
+        "short_name": "Sriram S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Sobczak, Edward",
+        "short_name": "Sobczak E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Setlur, Srirangaraj",
+        "short_name": "Setlur S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Gunawan, Rudiyanto",
+        "short_name": "Gunawan R",
+        "identifiers": [
+          "0000-0002-6480-7976"
+        ],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260."
+        ]
+      },
+      {
+        "full_name": "Neelamegham, Sriram",
+        "short_name": "Neelamegham S",
+        "identifiers": [
+          "0000-0002-1371-8500"
+        ],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, State University of New York, Buffalo, NY 14260.",
+          "Department of Biomedical Engineering, State University of New York, Buffalo, NY 14260.",
+          "Department of Medicine, State University of New York, Buffalo, NY 14260."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 06:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39703423",
+      "37962425",
+      "37941124",
+      "36408920",
+      "36282863",
+      "36243972",
+      "36124642",
+      "35663018",
+      "35549404",
+      "34850161",
+      "34755880",
+      "33730547",
+      "33211880",
+      "33087899",
+      "32572234",
+      "31710658",
+      "31616925",
+      "31184695",
+      "31068700",
+      "28654725",
+      "28177454",
+      "27744149",
+      "27558841",
+      "26780180",
+      "26543186",
+      "25871730",
+      "22722607",
+      "21436236",
+      "18776214",
+      "16014746",
+      "10802651"
+    ],
+    "similar": [
+      "40909623",
+      "41206486",
+      "36282863",
+      "35536985",
+      "21030441",
+      "29669592",
+      "27744149",
+      "37129482",
+      "36799723",
+      "26940363",
+      "19426460",
+      "18006570",
+      "40357648",
+      "24234447",
+      "17445272",
+      "39690313",
+      "24978019",
+      "21106561",
+      "24225315",
+      "18838391",
+      "41206471",
+      "32937895",
+      "10592185",
+      "39134728",
+      "33070389",
+      "27733503",
+      "18504293",
+      "33730547",
+      "25568279",
+      "27678076",
+      "19811689",
+      "35875501",
+      "35696078",
+      "26209309",
+      "27423401",
+      "24890856",
+      "16381841",
+      "35961636",
+      "37401199",
+      "22080564",
+      "29165610",
+      "24304896",
+      "14681408",
+      "34367349",
+      "30574787",
+      "30726003",
+      "22102576",
+      "16381901",
+      "26876983",
+      "15383839",
+      "27924014",
+      "41497647",
+      "37463024",
+      "36321557",
+      "32776087",
+      "23180789",
+      "38260527",
+      "24178989",
+      "39703423",
+      "35563570",
+      "41188073",
+      "40996714",
+      "11125129",
+      "41107735",
+      "27318307",
+      "24271398",
+      "24715220",
+      "17537266",
+      "27899677",
+      "40996709",
+      "24124474",
+      "26322134",
+      "21729256",
+      "15608210",
+      "16381827",
+      "36367312",
+      "12519987",
+      "14681481",
+      "24163257",
+      "31640540",
+      "25332395",
+      "26947550",
+      "11125119",
+      "38851451",
+      "23912807",
+      "16381900",
+      "15888675",
+      "39729356",
+      "28887379",
+      "27004978",
+      "36350659",
+      "17344243",
+      "35427438",
+      "17645793",
+      "35820040",
+      "24194592",
+      "32542364",
+      "11752298",
+      "37864350",
+      "28011601"
+    ],
+    "review": [
+      "40909623",
+      "35536985",
+      "27744149",
+      "32937895",
+      "35875501",
+      "27423401",
+      "35961636",
+      "37463024",
+      "36321557",
+      "35563570",
+      "27004978"
+    ],
+    "pmc": [
+      "12407983"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40909623/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.30.673257",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

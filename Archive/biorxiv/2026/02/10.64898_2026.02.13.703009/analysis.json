@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.13.703009",
+  "title": "Learning fragment-based segmentation of binding sites from molecular dynamics: a proof-of-concept on cardiac myosin",
+  "authors": "Yu-Yuan Yang; Richard W. Pickersgill; Arianna Fornili",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-16",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用3D U-Net对肌球蛋白结合位点进行基于片段的语义分割，结合MD轨迹预测片段结合倾向，虽非TF-DNA体系，但蛋白-配体互作建模与MD+AI方法可迁移至TF-DNA研究。",
+  "abstract": "The geometric and chemical features of protein binding sites tend to change as a consequence of conformational dynamics. In the ligand-unbound (apo) state, a binding site might be only transiently organised in a way that can accommodate a given ligand, with the relevant regions of the protein coming together in a suitable arrangement only in a subset of conformations. Ligand binding itself can also induce further changes in the binding site. Because most ligands can be decomposed into smaller fragments, we hypothesised that mapping onto the binding site surface the propensity of binding specific fragments could be used to monitor changes in the overall ability of the site to bind a ligand. This task can be formulated as semantic segmentation, which can now be performed successfully using deep learning methods. Here we introduce the Fragment-Based protein Ensemble semantic Segmentation Tool for Myosin (FragBEST-Myo), a deep learning method based on a 3D U-Net architecture, trained to partition the omecamtiv mecarbil (OM) binding site of cardiac myosin into fragment-specific regions using only local shape and physico-chemical features. The model was trained on labelled Molecular Dynamics (MD) trajectories of OM-bound myosin in both post-rigor (PR) and pre-power-stroke (PPS) states, achieving an accuracy of ~95% and a mean Intersection over Union (mIoU) > 0.75 on unseen trajectories from both states. When applied to apo trajectories, FragBEST-Myo-derived descriptors produced rankings consistent with similarity to holo conformations. Moreover, selecting apo frames based on FragBEST-Myo ranking increased the chance of recovering holo-like OM docking poses relative to randomly chosen control frames, supporting its use as a screening tool for ensemble docking. Beyond frame selection, fragment maps provide a compact representation to assess docking poses and to guide fragment-based design. Our proof-of-concept provides a basis for developing future general models applicable to a broader range of proteins and ligands, with the fragment-based formulation offering a natural route to generalisation. Graphical Abstract",
+  "abstract_zh": "蛋白结合位点的几何与化学特征往往会随构象动态而发生变化。在配体未结合（apo）状态下，结合位点可能仅以瞬态方式组织，从而能够容纳特定配体，蛋白质的相关区域仅在部分构象中以合适排列方式聚合。配体结合本身也可诱导结合位点的进一步变化。由于大多数配体可分解为较小的片段，我们假设，将特定片段结合倾向映射到结合位点表面，可用于监测位点整体结合配体能力的变化。该任务可表述为语义分割，现可通过深度学习方法成功实现。在此，我们引入基于片段的肌球蛋白蛋白质集合语义分割工具（FragBEST-Myo），这是一种基于3D U-Net架构的深度学习方法，训练用于仅利用局部形状和物理化学特征，将心肌肌球蛋白的omecamtiv mecarbil（OM）结合位点划分为片段特异性区域。模型在标记的OM结合肌球蛋白分子动力学（MD）轨迹上训练，涵盖post-rigor（PR）和pre-power-stroke（PPS）两种状态，在两种状态的未见轨迹上实现了约95%的准确率和>0.75的平均交并比（mIoU）。当应用于apo轨迹时，FragBEST-Myo衍生的描述符产生的排序与holo构象的相似性一致。此外，基于FragBEST-Myo排序选择apo帧，相比随机选择的对照帧，增加了恢复holo样OM对接姿态的机会，支持其作为集合对接筛选工具的用途。除帧选择外，片段图谱提供了紧凑表示，用于评估对接姿态并指导基于片段的设计。我们的概念验证为开发适用于更广泛蛋白质和配体的未来通用模型奠定了基础，基于片段的表述为泛化提供了自然途径。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.703009",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.703009",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.13.703009/index.html"
+}

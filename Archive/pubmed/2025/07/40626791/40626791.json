@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40626791",
+    "doi": "10.1021/acs.est.5c07344",
+    "title": "Event-Driven Taxonomy (EDT) Screening: Leveraging Effect-Based Spectral Libraries to Accelerate Semiquantitative Nontarget Analysis of AhR Agonists in Sediment in the Era of Big Data."
+  },
+  "content": {
+    "abstract": "Sediments contain complex chemical mixtures. While effect-directed analysis (EDA) combined with nontarget screening (NTS) is promising, its large-scale application has been limited by time-consuming workflows. Here, we developed an event-driven taxonomy (EDT)-Screening strategy to effectively identify and semiquantify nontarget bioactive contaminants in sediment, taking aryl hydrocarbon receptor (AhR) activity as an example. To accelerate EDA and NTS workflows, this strategy integrated fractionation, bioassay, identification, and quantification into a single step by embedding two novel effect-based spectral libraries into LC-HRMS screening templates. The event driver (ED) library was assembled from data-mined AhR-active compounds, and the event driver ion (EDION) library contained effect-related fragment ions predicted by deep learning. Compared to conventional databases (e.g., ChemSpider), the AhR-ED library improved identification accuracy with a more complete AhR-agonist list and fewer false positives, while the AhR-EDION library uncovered additional AhR agonists, particularly industrial intermediates and transformation products often missed due to limited prior knowledge. With the multimodal learning-based semiquantitative module, the EDT-Screening strategy increased the explained bioactivity contribution from 7.1% to 82%, significantly expanding the detections of \"unknown unknowns\". Our findings show that effect-based HRMS libraries provided a rapid solution for identifying and prioritizing bioactive contaminants in complex chemical mixtures, advancing EDA-NTS workflows for environmental risk assessment.",
+    "keywords": [
+      "aryl hydrocarbon receptor agonists",
+      "chemical mixtures",
+      "data-driven approaches",
+      "effect-directed analysis",
+      "event-driven taxonomy-Screening",
+      "semiquantitative nontarget analysis"
+    ],
+    "mesh_terms": [
+      "*Geologic Sediments/chemistry",
+      "*Receptors, Aryl Hydrocarbon/agonists",
+      "Big Data",
+      "Water Pollutants, Chemical"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Fei",
+        "Li, Huizhen",
+        "Lou, Xiaohan",
+        "He, Liwei",
+        "Wu, Xinyan",
+        "Huang, Jiehui",
+        "Kuang, Jiangmeng",
+        "Che, Jinshui",
+        "Yu, Zhiqiang",
+        "You, Jing"
+      ],
+      "short_names": [
+        "Cheng F",
+        "Li H",
+        "Lou X",
+        "He L",
+        "Wu X",
+        "Huang J",
+        "Kuang J",
+        "Che J",
+        "Yu Z",
+        "You J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5200-1916",
+        "ORCID: 0000-0002-4006-8339"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Advanced Environmental Technology, Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, Guangzhou 510640, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China.",
+        "Thermo Fisher Scientific, Shanghai 200120, China.",
+        "Thermo Fisher Scientific, Shanghai 200120, China.",
+        "State Key Laboratory of Advanced Environmental Technology, Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, Guangzhou 510640, China.",
+        "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Fei",
+        "short_name": "Cheng F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Environmental Technology, Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, Guangzhou 510640, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huizhen",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0002-5200-1916"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Xiaohan",
+        "short_name": "Lou X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      },
+      {
+        "full_name": "He, Liwei",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xinyan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiehui",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Jiangmeng",
+        "short_name": "Kuang J",
+        "identifiers": [],
+        "affiliations": [
+          "Thermo Fisher Scientific, Shanghai 200120, China."
+        ]
+      },
+      {
+        "full_name": "Che, Jinshui",
+        "short_name": "Che J",
+        "identifiers": [],
+        "affiliations": [
+          "Thermo Fisher Scientific, Shanghai 200120, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhiqiang",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Environmental Technology, Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, Guangzhou 510640, China."
+        ]
+      },
+      {
+        "full_name": "You, Jing",
+        "short_name": "You J",
+        "identifiers": [
+          "0000-0002-4006-8339"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Environmental Pollution and Health, College of Environment and Climate, Jinan University, Guangzhou 511443, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental science & technology"
+    ],
+    "journal_abbrev": [
+      "Environ Sci Technol"
+    ],
+    "pub_date": "2025 Jul 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 12:54",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40626791",
+      "38696305",
+      "31675573",
+      "39393239",
+      "39566688",
+      "35738365",
+      "24411837",
+      "18936997",
+      "24213842",
+      "27993371",
+      "34030261",
+      "41124814",
+      "40577923",
+      "35738515",
+      "35500338",
+      "27043777",
+      "34481160",
+      "35077967",
+      "39983266",
+      "33647203",
+      "17993219",
+      "21391090",
+      "27640527",
+      "25645060",
+      "24548649",
+      "16568750",
+      "29573714",
+      "31328511",
+      "29128247",
+      "37116726",
+      "10788565",
+      "39993345",
+      "26706770",
+      "27083484",
+      "22476785",
+      "27810545",
+      "29655065",
+      "39374668",
+      "37972298",
+      "16758706",
+      "25058931",
+      "26408977",
+      "24958532",
+      "24680543",
+      "38992177",
+      "39608634",
+      "23925657",
+      "21590714",
+      "38904418",
+      "40664368",
+      "26298852",
+      "15603527",
+      "19296140",
+      "22257214",
+      "32812753",
+      "38657698",
+      "16325885",
+      "26366531",
+      "18403193",
+      "23932260",
+      "18203687",
+      "27176940",
+      "27211013",
+      "38039589",
+      "8812260",
+      "11790108",
+      "24317228",
+      "12842597",
+      "28351761",
+      "40203635",
+      "34142809",
+      "16687390",
+      "19303625",
+      "33272675",
+      "37787753",
+      "17492086",
+      "20435555",
+      "29127629",
+      "30585062",
+      "31878777",
+      "35307388",
+      "19344927",
+      "10953044",
+      "11764156",
+      "18350874",
+      "18179178",
+      "12398362",
+      "16650473",
+      "25367641",
+      "21959539",
+      "20435556",
+      "28190338",
+      "35582860",
+      "27146477",
+      "17291011",
+      "31479813",
+      "22446824",
+      "27816282",
+      "16126234",
+      "25532870"
+    ],
+    "review": [
+      "40626791",
+      "29128247",
+      "37972298",
+      "38992177"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/esthag/article-lookup/doi/10.1021/acs.est.5c07344",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

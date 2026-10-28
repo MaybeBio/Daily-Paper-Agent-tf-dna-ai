@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented in the supplied text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present TransBind, a deep learning architecture that integrates DNA sequence embeddings with protein embeddings from a protein language model (ESM-DBP) via cross-attention, to improve genome-wide transcription factor binding site prediction. They report AUROC of 0.950 and AUPR of 0.371 on 690 ChIP-seq experiments across 161 TFs and 91 cell types, outperforming TBiNet, DanQ, and DeepSEA by ≥11.3% relative AUPR. They also report recovery of 160 known TF motifs from JASPAR and demonstrate zero-shot prediction for three unseen TFs.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (DNA Data, Transcription Factor Data, Deep Learning Model, Training and Evaluation, Zero-Shot Model); Results (Comparison with SOTA, Biological Interpretation, Zero-shot Prediction, Ablation Study); Discussion; Table 1 (data distribution, referenced); Table 2 (performance comparison, referenced); Table 3 (zero-shot results, referenced); Table 4 (ablation results, referenced); Figures 1-5 (referenced)
+- **Missing materials affecting confidence** Actual tables and figures are not provided; Supplementary Note S1 (hyperparameter optimization details) and Supplementary Figures S1 and S2 are referenced but not included; code repository is referenced but not reviewed; no details on baseline model architectures or training procedures beyond a statement of retraining; no confidence intervals or error bars reported for any metric; no details on the EPBDXDNA dataset preprocessing beyond binning and labeling
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in regulatory genomics, namely the integration of TF protein information into DNA-based binding site prediction. The proposed architecture is conceptually sound and the inclusion of zero-shot prediction is a valuable contribution. However, the evidence as presented is incomplete in several critical respects. The reported performance gains, while statistically significant, are numerically small in absolute terms for AUROC, and the AUPR improvements, though larger in relative terms, are not contextualized with confidence intervals or per-TF variability. The zero-shot results are presented for only three TFs with no comparison to any baseline capable of this task, making the claim of "zero-shot capability" difficult to evaluate. The ablation study shows a very small improvement, and the biological interpretation section, while interesting, does not establish that the recovered motifs are unique to TransBind or that they contribute causally to the performance gains. The manuscript would benefit from a more rigorous statistical framework, additional baselines, and a clearer articulation of what constitutes a meaningful improvement in this domain.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF-DNA binding prediction, regulatory genomics, and deep learning applications in genomics. Researchers developing protein language models and multimodal architectures for biological sequence analysis would also find the approach relevant. The zero-shot prediction capability, if validated, would be of interest to those studying poorly characterized TFs or non-model organisms.
+- **Major strengths** 1. The problem is well-motivated and addresses a genuine limitation of existing methods, namely the exclusion of TF information. 2. The architecture is clearly described and the use of cross-attention for TF-DNA integration is a reasonable and potentially generalizable design choice. 3. The evaluation on a large dataset (690 experiments, 161 TFs) is a strength, and the use of a chromosome-based split is appropriate for avoiding data leakage. 4. The inclusion of zero-shot prediction is forward-looking and addresses a real need. 5. The motif recovery analysis provides some biological interpretability, which is often lacking in deep learning models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reporting
+  - **Claim pointer** "TransBind achieves an AUROC of 0.950 and AUPR of 0.371—representing a ≥11.3% relative AUPR improvement over state-of-the-art methods including TBiNet, DanQ, and DeepSEA."
+  - **Evidence pointer** Table 2 (referenced, not provided)
+  - **Concern** The reported metrics are point estimates without any measure of variability (e.g., confidence intervals, standard deviations across seeds or bootstrap resamples). Given the large number of TF-cell type combinations (690), it is essential to report the distribution of performance across these combinations, not just the average. The paired t-test results are reported, but the effect sizes (Cohen's d) are modest, and the practical significance of an absolute AUROC improvement of 0.012 is unclear.
+  - **Why it matters** Without measures of uncertainty, it is impossible to assess whether the observed improvements are robust or could be due to chance, particularly given the small absolute differences. The field of deep learning for genomics has been criticized for overfitting to specific datasets, and the lack of statistical rigor here undermines confidence in the generalizability of the findings.
+  - **Resolution test** Provide confidence intervals or standard deviations for all reported metrics, ideally computed across multiple training seeds. Report the distribution of per-TF-cell-type AUROC and AUPR values (e.g., boxplots or histograms) and discuss the fraction of combinations where TransBind outperforms each baseline. If possible, perform a permutation test or bootstrap analysis to establish the significance of the aggregate improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Zero-shot evaluation
+  - **Claim pointer** "The model also enables zero-shot prediction for unseen TFs, demonstrating its potential of generalizing to new, poorly characterized TFs."
+  - **Evidence pointer** Table 3 (referenced, not provided); Materials and Methods, "Deep Learning Model for Zero-Shot TF-DNA Binding Site Prediction"
+  - **Concern** The zero-shot evaluation is limited to three TFs (HNF1A, ATF4, FOXA3) with no comparison to any alternative method capable of zero-shot prediction. The AUROC values are described as "substantially above random (0.5)" but the actual values are not given in the text. There is no discussion of how these three TFs were selected, whether they are representative of the diversity of TF families, or what the expected performance range would be. Furthermore, the reformulation from multi-label to binary classification changes the task, and it is unclear how the training data were re-labeled for this purpose.
+  - **Why it matters** The zero-shot claim is a major selling point of the manuscript, but the evidence is too thin to support it. Three TFs is a very small sample, and without a baseline or a clear articulation of the expected performance, the results are difficult to interpret. The claim of "generalizing to new, poorly characterized TFs" requires a more extensive evaluation across a broader set of TF families and a comparison to simpler baselines (e.g., using only DNA sequence with a generic model).
+  - **Resolution test** Expand the zero-shot evaluation to a larger and more diverse set of held-out TFs (e.g., 20-30 TFs from different structural families). Report the full distribution of AUROC and AUPR values. Compare against a reasonable baseline, such as a DNA-only model fine-tuned on the training TFs, or a simple sequence similarity-based approach. Discuss the selection criteria for the held-out TFs and the expected performance given their sequence and structural properties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ablation study interpretation
+  - **Claim pointer** "As shown in Table 4, integrating the TF features with DNA features yielded consistent improvements across both evaluation metrics, with AUROC increasing from 0.9493 to 0.9504 and AUPR from 0.3685 to 0.3710."
+  - **Evidence pointer** Table 4 (referenced, not provided); Results, "An Ablation Study of TransBind"
+  - **Concern** The ablation study shows a very small improvement (AUROC +0.0011, AUPR +0.0025). While the authors note the AUPR gain is "modest," they do not provide any statistical test for this difference, nor do they discuss whether this improvement is practically meaningful. The ablation compares the full model to a version without protein features, but it is unclear whether the improvement is specifically due to the cross-attention mechanism or simply to the addition of any extra input features. A more informative ablation would isolate the contribution of the cross-attention mechanism versus a simpler concatenation of the protein embedding.
+  - **Why it matters** The core claim of the manuscript is that integrating protein information improves prediction. If the improvement is as small as reported, the practical value of the added complexity (protein language model inference, cross-attention) needs to be justified. The lack of statistical testing makes it impossible to determine if the improvement is real.
+  - **Resolution test** Report confidence intervals or p-values for the ablation comparison. Add an additional ablation where the protein embedding is concatenated with the DNA embedding (without cross-attention) to demonstrate that the cross-attention mechanism itself is responsible for the improvement. Discuss the practical significance of the observed gains in the context of the intended applications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline fairness and completeness
+  - **Claim pointer** "For fairness, we retrained all baseline models (DeepSeA, DanQ, TBiNet, and DNABERT-2) on our training dataset."
+  - **Evidence pointer** Results, "Comparison with State-of-the-art TF-DNA Binding Prediction Methods"
+  - **Concern** The manuscript states that baselines were retrained but provides no details on the hyperparameter tuning process for these baselines. It is unclear whether the baselines were given the same level of hyperparameter optimization as TransBind (which used Optuna). If the baselines were trained with default or suboptimal hyperparameters, the comparison would be unfair. Additionally, DNABERT-2 is a large language model, and it is unclear how it was adapted for this task; the manuscript does not describe the fine-tuning procedure.
+  - **Why it matters** Unfair comparisons are a common criticism in the deep learning literature. If the baselines are not optimally trained, the reported improvements may be inflated. The inclusion of DNABERT-2 suggests the authors are comparing against a strong modern baseline, but the lack of detail makes it impossible to verify.
+  - **Resolution test** Provide full details of the hyperparameter search for each baseline, including the search space and the number of trials. Describe the fine-tuning procedure for DNABERT-2, including the task-specific head and the training objective. If possible, report the performance of the baselines with both default and tuned hyperparameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, Introduction
+  - **Evidence pointer** Abstract, Introduction (location not provided)
+  - **Issue** The phrase "protein language model pretrained on DNA-binding proteins" is slightly ambiguous. It is unclear whether ESM-DBP was pretrained exclusively on DNA-binding proteins or fine-tuned from ESM-2 on such proteins. The distinction matters for understanding the nature of the embeddings.
+  - **Required correction** Clarify the training procedure for ESM-DBP, e.g., "fine-tuned from ESM-2 on DNA-binding protein sequences" or "pretrained from scratch on DNA-binding protein sequences."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "Training and Evaluation"
+  - **Evidence pointer** Materials and Methods, "Training and Evaluation" (location not provided)
+  - **Issue** The manuscript states that hyperparameter optimization was performed using Optuna but refers to Supplementary Note S1 for details. The main text does not specify the number of Optuna trials, the search space, or the metric used for early stopping.
+  - **Required correction** Provide a brief summary of the hyperparameter search in the main text, including the number of trials and the key hyperparameters that were tuned.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Materials and Methods, "DNA Data"
+  - **Evidence pointer** Materials and Methods, "DNA Data" (location not provided)
+  - **Issue** The description of the EPBDXDNA dataset is brief. It is unclear how the 690 experiments were selected, whether all 161 TFs have the same number of experiments, and how the negative set was constructed (e.g., random genomic bins vs. matched controls).
+  - **Required correction** Provide more detail on the dataset construction, including the number of positive and negative examples per experiment, the criteria for selecting experiments, and the method for generating negative examples.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 5
+  - **Evidence pointer** Results, "Biological Interpretation of TransBind" (location not provided)
+  - **Issue** The text states that Figure 5 presents sequence logo comparisons, but the figure itself is not provided. The description of "striking visual correspondence" is subjective and cannot be evaluated without seeing the figure.
+  - **Required correction** Ensure the figure is included in the final submission and consider adding a quantitative measure of motif similarity (e.g., Pearson correlation of position weight matrices) to support the visual claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion (location not provided)
+  - **Issue** The discussion of limitations is thoughtful but does not address the computational cost of the approach. ESM-DBP inference for each TF and the cross-attention mechanism add computational overhead, and it would be useful to discuss the trade-off between performance and cost.
+  - **Required correction** Add a brief discussion of the computational requirements of TransBind compared to DNA-only baselines, including inference time and memory usage.
+
+## Risk / unsupported claims
+- The claim of "unprecedented biological interpretability" in the Results section is not supported by the evidence presented. The motif recovery analysis is interesting, but no comparison to motif recovery from baseline models is provided, so it is unclear whether this is a unique property of TransBind.
+- The claim that TransBind "recovers 160 known motifs" is presented without context. It is unclear how many motifs were tested, what the false discovery rate is, and whether the recovered motifs are statistically enriched relative to what would be expected by chance.
+- The zero-shot prediction results are presented for only three TFs, and the claim that this "demonstrates its potential of generalizing to new, poorly characterized TFs" is an overstatement given the limited evidence.
+- The statement that "the approach enables zero-shot prediction for unseen TFs" is not fully supported because the manuscript does not describe how the model handles TFs with very different sequence properties or domain families from those seen in training.
+- The claim that "TransBind achieved excellent motif discovery performance" is subjective and not backed by quantitative benchmarks or comparisons to existing motif discovery tools.

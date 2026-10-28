@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41265166",
+  "title": "Machine Learning-Based Transcriptomic Diagnosis of Periodontitis.",
+  "authors": "Cheng, Ya'nan; Yang, Haiqiong; Mo, Hui; Xu, Pu",
+  "journal": "International dental journal",
+  "published_date": "2025-11-21",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习基于转录组数据诊断牙周炎，虽涉及转录因子网络但非蛋白质-DNA互作建模，与本课题无关。",
+  "abstract": "BACKGROUND: Periodontitis, a prevalent chronic inflammatory disease, remains a global health challenge with conventional diagnostic methods hindered by subjectivity and low sensitivity. This study aimed to develop a machine learning (ML)-based diagnostic framework using transcriptomic data to enhance diagnostic accuracy and efficiency. METHODS: Transcriptomic datasets from 616 samples (452 periodontitis, 164 healthy controls) were retrieved from the Gene Expression Omnibus (GEO). Differentially expressed genes (DEGs) were identified, and functional enrichment, weighted gene co-expression network analysis (WGCNA), and immune infiltration profiling were performed. Key biomarkers were refined using Boruta and Least Absolute Shrinkage and Selection Operator (LASSO) algorithms. Independent six ML models were constructed and validated. A nomogram for risk prediction, transcription factor networks, and drug-target interactions were analysed. RESULTS: Five diagnostic biomarkers (CSF2RB, COL15A1, MME, NEFM, CYP24A1) were identified, with robust performance across datasets. The Random Forest (RF) and eXtreme Gradient Boosting (XGBoost) achieved perfect classification in training and high accuracy in external validation. Immune infiltration analysis revealed significant correlations between biomarkers and immune cell populations (eg, dendritic cells, T cells). Transcription factor networks highlighted NFYA and SP1 as central regulators. Drug prediction identified re-purposable candidates with validated molecular docking affinity. CONCLUSION: This study establishes a ML-driven diagnostic framework for periodontitis, integrating transcriptomic, immune, and regulatory network insights. These gene biomarkers may provide novel insight into periodontitis pathogenesis, while our diagnostic models show potential for clinical utility in personalised diagnosis, targeted intervention, and therapeutic development. PLAIN LANGUAGE SUMMARY: Periodontitis is a common, serious condition often diagnosed too late using traditional methods that can be subjective. To improve detection, we developed an machine learning (ML) tool that analyses genetic activity in gum tissue. Using data from 616 patient samples, we identified five key genes (CSF2RB, COL15A1, MME, NEFM, CYP24A1) that act as biological 'flags' for gum disease. These genes are linked to immune responses that drive gum inflammation. Our ML models - especially two types called Random Forest and XGBoost - perfectly spotted gum disease in initial tests and remained highly accurate in new patient groups. We also created a simple scoring chart (nomogram) to predict individual risk. The genes we found interact with immune cells and vitamin D pathways, revealing new disease mechanisms. This work provides a faster, more objective way to diagnose gum disease and opens doors for personalised treatments.",
+  "abstract_zh": "背景：牙周炎是一种常见的慢性炎症性疾病，仍是全球健康挑战，传统诊断方法受主观性和低灵敏度限制。本研究旨在利用转录组数据开发基于机器学习（machine learning, ML）的诊断框架，以提高诊断准确性和效率。方法：从基因表达综合数据库（Gene Expression Omnibus, GEO）获取616个样本（452例牙周炎，164例健康对照）的转录组数据集。鉴定差异表达基因（differentially expressed genes, DEGs），并进行功能富集、加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）和免疫浸润分析。使用Boruta和最小绝对收缩与选择算子（Least Absolute Shrinkage and Selection Operator, LASSO）算法筛选关键生物标志物。构建并验证了六个独立的机器学习模型。分析了用于风险预测的列线图、转录因子网络和药物-靶点相互作用。结果：鉴定出五个诊断生物标志物（CSF2RB、COL15A1、MME、NEFM、CYP24A1），在各数据集中表现稳健。随机森林（Random Forest, RF）和极端梯度提升（eXtreme Gradient Boosting, XGBoost）在训练中实现完美分类，并在外部验证中保持高准确性。免疫浸润分析显示生物标志物与免疫细胞群（如树突状细胞、T细胞）之间存在显著相关性。转录因子网络突出NFYA和SP1为核心调控因子。药物预测识别出可再利用的候选药物，并验证了分子对接亲和力。结论：本研究建立了机器学习驱动的牙周炎诊断框架，整合了转录组、免疫和调控网络信息。这些基因生物标志物可能为牙周炎发病机制提供新见解，而我们的诊断模型在个性化诊断、靶向干预和治疗开发方面显示出临床应用的潜力。通俗语言摘要：牙周炎是一种常见且严重的疾病，常因传统方法的主观性而被诊断过晚。为改进检测，我们开发了一种机器学习（ML）工具，分析牙龈组织中的基因活性。利用616例患者样本的数据，我们识别出五个关键基因（CSF2RB、COL15A1、MME、NEFM、CYP24A1），它们作为牙周疾病的生物学“标志”。这些基因与驱动牙龈炎症的免疫反应相关。我们的机器学习模型——尤其是随机森林和XGBoost两种类型——在初步测试中完美识别牙周疾病，并在新患者群体中保持高准确性。我们还创建了一个简单的评分图表（列线图）来预测个体风险。我们发现的基因与免疫细胞和维生素D通路相互作用，揭示了新的疾病机制。这项工作为诊断牙周疾病提供了更快、更客观的方法，并为个性化治疗开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41265166/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41265166/",
+  "paper_page_path": "papers/pubmed/41265166/index.html"
+}

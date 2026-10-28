@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39649418",
+    "doi": "10.2147/JIR.S488841",
+    "title": "Identification of ZNF652 as a Diagnostic and Therapeutic Target in Osteoarthritis Using Machine Learning."
+  },
+  "content": {
+    "abstract": "PURPOSE: Osteoarthritis (OA) is the most common degenerative joint disease. However, its etiology remains largely unknown. Zinc Finger Protein 652 (ZNF652) is a transcription factor implicated in various biological processes. Nevertheless, its role in OA has not been elucidated. METHODS: The search term \"osteoarthritis\" was utilized to procure transcriptome data relating to OA patients and healthy people from the Gene Expression Omnibus (GEO) database. Then a screening process was initiated to identify differentially expressed genes (DEGs). The DEGs were discerned using three distinct machine learning methods. The accuracy of these DEGs in diagnosing OA was evaluated using the Receiver Operating Characteristic (ROC) Curve. A competitive endogenous RNA (ceRNA) visualization network was established to delve into potential regulatory targets. The ZNF652 expression was confirmed in the cartilage of OA rats using quantitative reverse transcription polymerase chain reaction (qRT-PCR) and Western blotting (WB) and analyzed using an independent t-test. RESULTS: ZNF652 was identified as a DEG and exhibited the highest diagnostic value for OA according to the ROC analysis. The GO and KEGG enrichment analyses suggest that ZNF652 plays a vital role in OA development through processes including nitric oxide anabolism, macrophage proliferation, immune response, and the PI3K/Akt and the MAPK signaling pathways. The increased expression of ZNF652 in OA was validated in qRT-PCR (1.193 +/- 0.005 vs 1.000 +/- 0.005, p < 0.001) and WB (0.981 +/- 0.055 vs 0.856 +/- 0.026, p = 0.012) analysis. CONCLUSION: ZNF652 was found to be related to OA pathogenesis and can potentially serve as a diagnostic and therapeutic target of OA. The underlying mechanism is that ZNF652 was related to nitric oxide anabolism, macrophage proliferation, various signaling pathways, and immune cells and their functions in OA. Nevertheless, the findings need to be confirmed in clinical trials and the molecular mechanism requires further study.",
+    "keywords": [
+      "immune cell",
+      "machine learning algorithms",
+      "osteoarthritis",
+      "zinc finger protein 652"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yeping",
+        "Liang, Rongyuan",
+        "Zheng, Xifan",
+        "Fang, Dalang",
+        "Lu, William W",
+        "Chen, Yan"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Liang R",
+        "Zheng X",
+        "Fang D",
+        "Lu WW",
+        "Chen Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-8499-3734",
+        "ORCID: 0000-0002-5780-2886"
+      ],
+      "affiliations": [
+        "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China.",
+        "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China.",
+        "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China.",
+        "Department of Thyroid and Breast Surgery, Affiliated Hospital of Youjiang Medical College of Nationalities, Baise, Guangxi, People's Republic of China.",
+        "Department of Orthopedics and Traumatology, The University of Hong Kong, Hong Kong, People's Republic of China.",
+        "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yeping",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0009-0002-8499-3734"
+        ],
+        "affiliations": [
+          "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liang, Rongyuan",
+        "short_name": "Liang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xifan",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fang, Dalang",
+        "short_name": "Fang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Affiliated Hospital of Youjiang Medical College of Nationalities, Baise, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, William W",
+        "short_name": "Lu WW",
+        "identifiers": [
+          "0000-0002-5780-2886"
+        ],
+        "affiliations": [
+          "Department of Orthopedics and Traumatology, The University of Hong Kong, Hong Kong, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/09 11:28",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "41439130"
+    ],
+    "refs": [
+      "38381849",
+      "38348279",
+      "38296798",
+      "38052778",
+      "38026876",
+      "37994506",
+      "37906592",
+      "37688589",
+      "37654229",
+      "37509581",
+      "36527845",
+      "36127328",
+      "36032081",
+      "35893032",
+      "35837327",
+      "35667544",
+      "35350787",
+      "35043097",
+      "34926705",
+      "34848838",
+      "34424826",
+      "34086763",
+      "33556400",
+      "33553146",
+      "33540075",
+      "33415105",
+      "33380394",
+      "32943922",
+      "32655775",
+      "32081707",
+      "32051751",
+      "32044352",
+      "31988454",
+      "31981062",
+      "31653858",
+      "31629545",
+      "31277663",
+      "31191315",
+      "30787268",
+      "30739432",
+      "30538463",
+      "30496623",
+      "30450530",
+      "30033738",
+      "29929535",
+      "29922454",
+      "29922442",
+      "29880063",
+      "29629903",
+      "29569941",
+      "29134132",
+      "29109687",
+      "29044705",
+      "28436958",
+      "28320092",
+      "27716360",
+      "26671522",
+      "26241776",
+      "26238409",
+      "26028135",
+      "23831668",
+      "23744977",
+      "23519402",
+      "22398175",
+      "21305607",
+      "17498049",
+      "15077302"
+    ],
+    "similar": [
+      "39649418",
+      "40216809",
+      "38509535",
+      "37378023",
+      "39779817",
+      "39695788",
+      "35651940",
+      "37138862",
+      "38734758",
+      "39484639",
+      "37503333",
+      "39839184",
+      "35783271",
+      "39176085",
+      "39086489",
+      "38127891",
+      "38767974",
+      "36359826",
+      "40312440",
+      "38175691",
+      "36685513",
+      "39026663",
+      "39935469",
+      "37805587",
+      "34536521",
+      "34583778",
+      "37986345",
+      "29885465",
+      "36082523",
+      "35473522",
+      "39282111",
+      "40335993",
+      "39586719",
+      "40247403",
+      "39953769",
+      "35381129",
+      "34224029",
+      "38897125",
+      "39585570",
+      "39438957",
+      "38496843",
+      "30551734",
+      "37454542",
+      "39403102",
+      "38771826",
+      "37465641",
+      "35368701",
+      "29922448",
+      "34512730",
+      "36106017",
+      "37390254",
+      "36186471",
+      "36929359",
+      "38645862",
+      "39512836",
+      "35996406",
+      "38997894",
+      "37497233",
+      "29247798",
+      "39286216",
+      "32135469",
+      "34424826",
+      "29978613",
+      "35284549",
+      "39640258",
+      "37723556",
+      "29255496",
+      "35757392",
+      "33732303",
+      "33325525",
+      "36760992",
+      "39351239",
+      "35436417",
+      "36700234",
+      "38090564",
+      "34113405",
+      "40299032",
+      "39677287",
+      "38510272",
+      "38571590",
+      "40224214",
+      "33407587",
+      "40263537",
+      "38463824",
+      "33468167",
+      "37866944",
+      "40022676",
+      "33782454",
+      "36849988",
+      "31572500",
+      "39919076",
+      "36532015",
+      "37291167",
+      "36700022",
+      "39081871",
+      "38428406",
+      "26832188",
+      "40034747",
+      "40078458",
+      "39938337"
+    ],
+    "review": [
+      "39649418"
+    ],
+    "pmc": [
+      "11624598"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/JIR.S488841?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39649418/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S488841",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

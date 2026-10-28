@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40758203",
+  "title": "Development and Validation of an Explainable MRI-Based Habitat Radiomics Model for Predicting p53-Abnormal Endometrial Cancer: A Multicentre Feasibility Study.",
+  "authors": "Jin, Wentao; Zhang, Hao; Ning, Yan; Chen, Xiaojun; Zhang, Guofu; Li, Haiming; Zhang, He",
+  "journal": "Journal of imaging informatics in medicine",
+  "published_date": "2025-08-04",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用MRI影像组学预测子宫内膜癌p53异常亚型，属于纯临床影像诊断，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题完全无关。",
+  "abstract": "We developed an MRI-based habitat radiomics model (HRM) to predict p53-abnormal (p53abn) molecular subtypes of endometrial cancer (EC). Patients with pathologically confirmed EC were retrospectively enrolled from three hospitals and categorized into a training cohort (n = 270), test cohort 1 (n = 70), and test cohort 2 (n = 154). The tumour was divided into habitat sub-regions using diffusion-weighted imaging (DWI) and contrast-enhanced (CE) images with the K-means algorithm. Radiomics features were extracted from T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), DWI, and CE images. Three machine learning classifiers-logistic regression, support vector machines, and random forests-were applied to develop predictive models for p53abn EC. Model performance was validated using receiver operating characteristic (ROC) curves, and the model with the best predictive performance was selected as the HRM. A whole-region radiomics model (WRM) was also constructed, and a clinical model (CM) with five clinical features was developed. The SHApley Additive ExPlanations (SHAP) method was used to explain the outputs of the models. DeLong's test evaluated and compared the performance across the cohorts. A total of 1920 habitat radiomics features were considered. Eight features were selected for the HRM, ten for the WRM, and three clinical features for the CM. The HRM achieved the highest AUC: 0.855 (training), 0.769 (test1), and 0.766 (test2). The AUCs of the WRM were 0.707 (training), 0.703 (test1), and 0.738 (test2). The AUCs of the CM were 0.709 (training), 0.641 (test1), and 0.665 (test2). The MRI-based HRM successfully predicted p53abn EC. The results indicate that habitat combined with machine learning, radiomics, and SHAP can effectively predict p53abn EC, providing clinicians with intuitive insights and interpretability regarding the impact of risk factors in the model.",
+  "abstract_zh": "我们开发了一种基于MRI的栖息地影像组学模型（HRM），用于预测子宫内膜癌（EC）的p53异常（p53abn）分子亚型。回顾性纳入了来自三家医院、经病理确诊的EC患者，并将其分为训练队列（n = 270）、测试队列1（n = 70）和测试队列2（n = 154）。使用K-means算法，基于扩散加权成像（DWI）和对比增强（CE）图像，将肿瘤划分为栖息地子区域。从T1加权成像（T1WI）、T2加权成像（T2WI）、DWI和CE图像中提取影像组学特征。应用三种机器学习分类器——逻辑回归、支持向量机和随机森林——来开发p53abn EC的预测模型。使用受试者工作特征（ROC）曲线验证模型性能，并选择预测性能最佳的模型作为HRM。还构建了全区域影像组学模型（WRM），并开发了包含五个临床特征的临床模型（CM）。使用SHapley Additive ExPlanations（SHAP）方法解释模型的输出。DeLong检验评估并比较了各队列间的性能。共考虑了1920个栖息地影像组学特征。为HRM选择了八个特征，为WRM选择了十个特征，为CM选择了三个临床特征。HRM达到了最高的AUC：0.855（训练）、0.769（测试1）和0.766（测试2）。WRM的AUC分别为0.707（训练）、0.703（测试1）和0.738（测试2）。CM的AUC分别为0.709（训练）、0.641（测试1）和0.665（测试2）。基于MRI的HRM成功预测了p53abn EC。结果表明，栖息地与机器学习、影像组学和SHAP相结合，可以有效预测p53abn EC，为临床医生提供关于模型中风险因素影响的直观见解和可解释性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40758203/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40758203/",
+  "paper_page_path": "papers/pubmed/40758203/index.html"
+}

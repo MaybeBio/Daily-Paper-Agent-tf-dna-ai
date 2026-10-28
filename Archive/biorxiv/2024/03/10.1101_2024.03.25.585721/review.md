@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, funding, author contributions, competing interests, data availability, acknowledgments, footnotes)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with Nature-style criteria based solely on the provided text
+- **Shared manuscript claim summary** The authors present MaSIF-neosurf, an adaptation of their geometric deep learning framework MaSIF, to design de novo protein binders targeting neosurfaces formed by protein-ligand complexes. They report computational design, experimental validation (yeast display, biophysical characterization, structural analysis), and functional demonstration in cell-based systems for three targets: Bcl2:Venetoclax, DB3:Progesterone, and PDF1:Actinonin.
+- **Visible evidence base** Main text sections (Abstract, Main, Discussion), figure references (Fig. 1A-D, 2A-C, 3A-D, 4A-E, 5A-I), supplementary figure references (fig. S1-S13), table references (table S1-S3), PDB deposition (8S1X), and code/data availability statements
+- **Missing materials affecting confidence** Figures, supplementary figures, tables, methods section, and experimental protocols are referenced but not provided. Quantitative data (e.g., exact binding affinities, statistical analyses, flow cytometry data, structural validation metrics) are only summarized. This limits full verification of claims.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a notable extension of a previously published geometric deep learning framework (MaSIF) to the challenging problem of designing protein binders against protein-ligand neosurfaces. The core claim, that surface-based representations trained on proteins can generalize to small molecule-containing surfaces without additional training, is scientifically interesting and potentially impactful. The experimental validation across three distinct targets, including structural confirmation for one complex, is commendable. However, the provided text lacks the detailed methods, figures, and quantitative data necessary to fully assess the technical soundness and robustness of the claims. The functional demonstrations in cellular systems are promising but appear preliminary. The manuscript is well-written and accessible, but the evidence base as presented is incomplete for a definitive Nature-level assessment.
+- **Who would be interested in the results, and why** Researchers in computational protein design, geometric deep learning, chemical biology, and synthetic biology would find this work relevant. The demonstration of generalizability to non-protein surfaces addresses a known limitation in current design tools. The potential applications in drug-controllable cell therapies and biosensors would interest those in translational biomedical research. The methodological advance could also attract machine learning researchers focused on molecular representations.
+- **Major strengths** 1) The conceptual advance of applying surface-based deep learning to neosurfaces is novel and addresses a real gap in the field. 2) The experimental validation across three diverse targets (a clinically approved drug complex, an antibody-ligand complex, and an antibiotic-enzyme complex) strengthens the generalizability claim. 3) The inclusion of a co-crystal structure (PDB: 8S1X) provides direct structural evidence for the design accuracy. 4) The demonstration of functional activity in cell-free and mammalian systems suggests practical utility. 5) The manuscript is clearly written and places the work in appropriate context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MaSIF-neosurf recovers more than 70% of the correct binding partners and their binding poses" in benchmark tests.
+  - **Evidence pointer** Fig. 1B, fig. S2, Methods (not provided)
+  - **Concern** The benchmark results are presented as a single percentage without details on the composition of the 14 complexes, the criteria for "correct" retrieval, the statistical significance, or comparison to baseline methods. The claim that "only a small subset of test cases could be recovered in the absence of the ligand" is vague. Without the actual figure and methods, the robustness of this benchmark cannot be evaluated.
+  - **Why it matters** The benchmark is the primary evidence for the core claim that MaSIF-neosurf captures neosurface properties. If the benchmark is not rigorous or the success criteria are lenient, the generalizability claim is weakened.
+  - **Resolution test** Provide the full benchmark details, including the list of complexes, decoy generation protocol, success criteria (e.g., RMSD thresholds), and a comparison against a non-ligand-aware baseline. Show per-case results in the figure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The designed binders show no binding in the absence of the corresponding small molecules, whereas modest to high binding signals were observed with the ligands in yeast display experiments."
+  - **Evidence pointer** Fig. 3B, fig. S4, table S2
+  - **Concern** The text states that "enriched clones were deep sequenced" and "we show one binder targeting each of the selected test cases." It is unclear how many independent binders were identified per target, how many replicates were performed, and what the quantitative enrichment values were. The claim of "no binding" in the absence of ligand is critical for the ON-switch behavior but is not supported with quantitative data (e.g., mean fluorescence values, gates).
+  - **Why it matters** The specificity of binding (ligand-dependent) is the central functional claim. Without rigorous quantitative flow cytometry data and appropriate controls, the possibility of non-specific or ligand-independent binding cannot be excluded.
+  - **Resolution test** Provide representative flow cytometry histograms with quantitative mean fluorescence values for all tested conditions, including replicates. Report the number of independent clones characterized and the criteria for "positive" binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The crystal structure closely resembled the computational model with a Cα RMSD of 2.33 Å and a full-atom interface RMSD of 2.26 Å."
+  - **Evidence pointer** Fig. 4D, fig. S12
+  - **Concern** While the RMSD values are provided, the text notes a "misplaced residue (Y2)" that induced a shift. The corrected Cα RMSD of 0.93 Å is mentioned, but it is unclear whether this correction is applied to the full model or only a portion. The structural validation is only presented for one of the three designs (DBAct553_1), and the cryo-EM data for DBPro1156_2 is described as "low-resolution" without specific resolution values.
+  - **Why it matters** Structural validation is the strongest evidence for design accuracy. If the RMSD values are inflated by a single residue error, the actual accuracy may be better, but the ambiguity undermines confidence. The lack of structural data for the other two designs weakens the generalizability of the structural claim.
+  - **Resolution test** Clearly state the RMSD calculation details (which atoms, which residues, whether the correction is applied). Provide the cryo-EM resolution and the fitting procedure. Discuss why structural validation was not possible for the other designs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The designed CIDs can be used to functionalize molecular components in cellular systems, suggesting a promising route for the development of new modules for synthetic biology."
+  - **Evidence pointer** Fig. 5A-I
+  - **Concern** The functional demonstrations show fold-changes in reporter activity (15.8-fold, 26.8-fold, 19.1-fold) and EC50 values, but the text does not provide details on the dynamic range, background signal, or comparison to existing systems. The statement that the system "displayed a heightened sensitivity" is not supported by a direct comparison to other CID systems.
+  - **Why it matters** The claim of practical utility for synthetic biology applications requires demonstration that the system performs comparably or better than existing tools. Without comparative data, the significance of these functional results is unclear.
+  - **Resolution test** Provide quantitative comparison to established CID systems (e.g., rapamycin-based) under identical conditions. Report the signal-to-noise ratio and the dynamic range of the response.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "neosurfaces" without a brief definition, which may be unclear to readers outside the immediate field.
+  - **Required correction** Add a brief parenthetical definition, e.g., "neosurfaces (surfaces formed by protein-ligand complexes)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Main text, "MaSIF captures interaction propensities of neosurfaces" section
+  - **Issue** The text states "we split each of them into two subunits, resulting in 28 independent benchmarking cases" but does not clarify whether the two subunits are treated independently or as a pair, and how the decoy database was constructed.
+  - **Required correction** Clarify the benchmark protocol in the methods, including how decoys were generated and whether the two subunits from the same complex were considered independent.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding affinity measurements
+  - **Evidence pointer** "Biochemical characterization and structural validation" section, fig. S8
+  - **Issue** The text reports KD values for three designs but does not specify the measurement method (e.g., SPR, ITC, BLI) or the number of replicates.
+  - **Required correction** Specify the biophysical method and provide error estimates or replicate numbers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of "molecular glues" and "chemically-induced dimerization" assumes familiarity with these concepts, which may not be universal.
+  - **Required correction** Briefly define these terms or provide context for readers outside chemical biology.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark rigor), R1-M2 (quantitative binding data), R1-M3 (structural validation clarity). These are the primary technical issues that must be resolved to substantiate the core claims.
+- **Assessment against Nature-style criteria** Originality: High. The application of surface-based deep learning to neosurfaces is a novel contribution. Scientific importance: Moderate to high. The work addresses a recognized gap in protein design, but the significance of the functional demonstrations needs to be better contextualized. Interdisciplinary readership: Moderate. The work bridges computational design, structural biology, and synthetic biology, but the presentation may be too specialized in places. Technical soundness: Currently not fully assessable due to missing methods and quantitative data. The claims are plausible but not fully verifiable from the provided text. Readability for nonspecialists: Generally good, but some terms and concepts require clarification.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the experimental validation is substantial, but the manuscript as presented lacks the detail necessary to fully evaluate the claims. The authors should provide the missing methods, figures, and quantitative data to allow a thorough assessment.
+
+## Risk / unsupported claims
+- The claim that "surface fingerprints trained only on proteins can be applied to neosurfaces emerging from small molecules" is supported by the benchmark but requires the full benchmark details to be verified.
+- The claim that "the designed binders engage the target interface with a binding mode in agreement with our computational models" is inferred from SSM data and one crystal structure, but the lack of structural data for two designs makes this a generalization.
+- The claim of "heightened sensitivity" in the GEMS system is not supported by comparative data.
+- The statement that the approach "unlocks possibilities for the development and regulation of novel therapeutic approaches" is speculative and not directly supported by the data presented.

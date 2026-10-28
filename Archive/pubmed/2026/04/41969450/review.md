@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological rigor, and interpretational soundness of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a novel "PET-SPI1-MYL9" transcriptional axis in lung adenocarcinoma (LUAD), wherein airborne polyethylene terephthalate (PET) microplastics bind to the transcription factor SPI1, inhibit its regulation of MYL9, and thereby promote LUAD progression. The claim is supported by integrated bulk RNA-seq, scRNA-seq, machine learning, survival analysis, and molecular docking.
+- **Visible evidence base** Bulk RNA-seq datasets (GSE116959, GSE75037, GSE31908, GSE102287, GSE68465), PET-exposed cell line dataset (GSE269348), scRNA-seq dataset (GSE131907), HPA immunohistochemistry, cBioPortal co-expression, hTFtarget and Cistrome TF databases, molecular docking (AutoDock), Kaplan-Meier survival analyses
+- **Missing materials affecting confidence** No figures or supplementary data were provided; no experimental validation data (e.g., ChIP-qPCR, dual-luciferase, SPR); no details on PET exposure concentrations, particle sizes, or durations in the underlying dataset GSE269348; no code or parameter specifications for machine learning models; no details on the molecular docking protocol beyond the reported ΔG value
+
+## Reviewer
+- **Overall assessment** This manuscript presents an integrative bioinformatics workflow that is technically competent in its execution but falls short of establishing the causal mechanistic claim implied by the title and conclusions. The computational evidence supports a correlative association between PET exposure, SPI1, and MYL9 expression changes, but the leap to a "transcriptional axis" driven by direct PET-SPI1 binding is not supported by the data presented. The study is best framed as a hypothesis-generating analysis, and the authors partially acknowledge this in the discussion. However, the title and abstract overstate the findings. The lack of experimental validation, the absence of dose-response or exposure-relevant context, and the reliance on a monomer as a proxy for PET microplastics are substantive limitations that prevent the case from being established.
+- **Who would be interested in the results, and why** Environmental health researchers studying microplastic toxicity, particularly those focused on respiratory outcomes, would find the hypothesis-generating framework useful. Cancer biologists interested in non-genotoxic carcinogenesis mechanisms and the role of transcription factors in LUAD may also find the SPI1-MYL9 correlation of interest. The study may also appeal to bioinformaticians developing integrative multi-omics pipelines for environmental exposure research.
+- **Major strengths** The integration of multiple public datasets and analytical approaches is methodologically thorough. The use of machine learning for feature selection across independent cohorts adds robustness to the identification of MYL9. The survival analysis across three independent LUAD cohorts provides consistent prognostic evidence. The authors appropriately acknowledge the computational nature of their findings and explicitly list the experimental validations needed. The discussion of context-dependent MYL9 function is thoughtful and well-referenced.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The title and conclusions state that PET "drives" LUAD by binding to SPI1 and inhibiting MYL9 transcription, establishing a causal "PET-SPI1-MYL9" axis.
+  - **Evidence pointer** Molecular docking section; Conclusions section
+  - **Concern** The causal claim is not supported by the evidence. Molecular docking with a PET monomer predicts a binding pose and a ΔG value, but this is a computational prediction, not a demonstration of binding in a biological context. No experimental data show that PET exposure leads to SPI1 binding inhibition, MYL9 downregulation, or LUAD progression. The correlation between SPI1 and MYL9 expression in bulk datasets does not establish a regulatory relationship, let alone one that is disrupted by PET.
+  - **Why it matters** The central novelty of the manuscript is the proposed causal axis. Without experimental validation, the claim is speculative and could mislead readers into believing a mechanism has been established. The title and abstract currently overstate the findings relative to the evidence.
+  - **Resolution test** The authors must either (a) provide experimental evidence (e.g., ChIP-qPCR showing SPI1 occupancy on the MYL9 promoter, dual-luciferase reporter assays, and PET exposure experiments in lung epithelial cells showing downstream effects on MYL9) or (b) revise the title, abstract, and conclusions to explicitly frame the work as a hypothesis-generating computational study, removing causal language.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Exposure relevance
+  - **Claim pointer** The study claims to investigate "PET exposure" and its role in LUAD, implying environmental relevance.
+  - **Evidence pointer** Methods, Data acquisition section; Results, Transcriptomic profiling section
+  - **Concern** The PET exposure dataset GSE269348 is described as "PET-treated epithelial cells," but no details are provided on the concentration, particle size, duration of exposure, or cell type. Without this information, it is impossible to assess whether the exposure conditions are environmentally relevant or whether the observed transcriptomic changes are specific to PET versus general particulate stress. The authors acknowledge this limitation in the discussion but do not provide the necessary context in the methods or results.
+  - **Why it matters** The environmental health significance of the study depends on the relevance of the exposure model. If the concentrations used are orders of magnitude above environmental levels, the findings may have limited translational value. The lack of exposure details also prevents reproducibility.
+  - **Resolution test** Provide full details of the PET exposure conditions in GSE269348, including concentration, particle size, duration, and cell type. If these details are not available from the dataset, state this explicitly and discuss the implications for environmental relevance. Consider whether the analysis should be reframed as a general particulate stress response rather than PET-specific.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The machine learning models are reported to have high AUC values (e.g., 1.000 for NB, RF, SVM in GSE116959), which are presented as evidence of model performance.
+  - **Evidence pointer** Results, Key candidate genes identified through machine learning-based screening
+  - **Concern** AUC values of 1.000 on training sets strongly suggest overfitting, particularly with only seven candidate genes as features. The test set AUCs are notably lower (e.g., 0.682 for NB in GSE116959), indicating poor generalization. The manuscript does not report cross-validation details, hyperparameter search ranges, or whether the test sets were held out from feature selection. The interpretation of model performance is therefore overstated.
+  - **Why it matters** The machine learning step is used to prioritize candidate genes. If the models are overfitted, the selection of MYL9 and MDK may not be robust. The reported AUC values could mislead readers about the reliability of the gene selection.
+  - **Resolution test** Report the full model training and evaluation protocol, including cross-validation strategy, hyperparameter tuning, and whether feature selection was performed within cross-validation folds. Provide test set performance with confidence intervals. Consider using nested cross-validation or external validation to demonstrate generalizability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational consistency
+  - **Claim pointer** The authors state that SPI1 is "concurrently downregulated in LUAD" and propose that PET binding to SPI1 inhibits its transcriptional activity, leading to MYL9 downregulation.
+  - **Evidence pointer** Results, Differential TF screening section; Discussion
+  - **Concern** If SPI1 is downregulated in LUAD and MYL9 is also downregulated, the proposed model requires SPI1 to be a positive regulator of MYL9. However, the manuscript does not demonstrate that SPI1 activates MYL9 transcription. The correlation (R=0.556) is consistent with positive regulation, but it is equally consistent with co-regulation by a shared upstream factor or with indirect effects. The molecular docking prediction that PET binds to the SPI1 DNA-binding domain and inhibits its function is not integrated with the observation that SPI1 itself is downregulated. If SPI1 is already reduced in LUAD, what is the additional contribution of PET binding?
+  - **Why it matters** The proposed mechanism is internally inconsistent without a clear model of how PET binding and SPI1 downregulation interact. The manuscript does not address whether PET binding is proposed to be an early event that causes SPI1 downregulation, or whether the two are independent. This ambiguity weakens the mechanistic narrative.
+  - **Resolution test** Clarify the proposed sequence of events. Is PET binding proposed to cause SPI1 degradation or transcriptional repression? Provide a testable model that accounts for both the observed downregulation of SPI1 and the predicted PET-SPI1 interaction. If the model is that PET binding inhibits SPI1 function without affecting its expression, then the observed downregulation of SPI1 in LUAD is a separate phenomenon that needs to be explained.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, scRNA-seq processing
+  - **Evidence pointer** Methods, scRNA-seq processing and malignant-cell DEG analysis
+  - **Issue** The scRNA-seq processing section does not specify the number of cells, samples, or sequencing platforms. The criteria for identifying malignant cells via CNV analysis are described but not quantified.
+  - **Required correction** Provide the number of cells and samples analyzed, the sequencing platform, and the thresholds used for CNV-based malignant cell identification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Survival analysis
+  - **Evidence pointer** Results, Machine learning and multi-dimensional validation
+  - **Issue** The survival analysis reports HRs and 95% CIs but does not specify the statistical test used or whether the proportional hazards assumption was checked.
+  - **Required correction** State the statistical test (e.g., log-rank) and the method for HR estimation. Report whether the proportional hazards assumption was verified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Molecular docking
+  - **Evidence pointer** Results, Molecular docking section
+  - **Issue** The docking results are described with a single ΔG value, but no information is provided on the docking software version, scoring function, or the number of poses evaluated. The figure (Figure 8E) is not available for review.
+  - **Required correction** Provide details on the docking protocol, including software version, scoring function, and the range of binding energies across poses. Clarify whether the reported ΔG is the best pose or an average.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title; Abstract
+  - **Issue** The term "transcriptional axis" implies a validated regulatory pathway. Given the computational nature of the study, a more cautious term such as "candidate transcriptional axis" or "putative regulatory link" would be more accurate.
+  - **Required correction** Revise the title and abstract to use more cautious language that reflects the hypothesis-generating nature of the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal claim without experimental validation) and R1-M2 (lack of exposure context) are the primary technical failings. R1-M3 (overfitting in machine learning) also needs to be addressed to establish the robustness of gene selection.
+- **Assessment against Nature-style criteria** Originality: Moderate. The integration of PET exposure with a specific transcriptional axis in LUAD is novel, but the approach is largely computational and the proposed mechanism is not experimentally validated. Scientific importance: Moderate. If validated, the findings could have implications for environmental health and LUAD risk assessment, but the current evidence is insufficient to establish clinical or mechanistic significance. Interdisciplinary readership: The topic bridges environmental science, toxicology, and cancer biology, which could attract a broad readership, but the lack of experimental validation limits its impact. Technical soundness: The bioinformatics workflow is generally sound, but the machine learning evaluation is incomplete and the docking study is presented without sufficient protocol detail. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the overstatement of causal claims may mislead nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a well-executed computational analysis that generates a testable hypothesis, but the central causal claim is not supported by the data. Major revisions are required, including either experimental validation or a substantial reframing of the claims as hypothesis-generating. The authors should also address the exposure relevance and machine learning robustness concerns.
+
+## Risk / unsupported claims
+- The claim that PET "drives" LUAD via the SPI1-MYL9 axis is unsupported; the data are correlative and computational.
+- The claim that PET binding to SPI1 "impairs its transcriptional regulation of MYL9" is unsupported; no experimental evidence of binding or functional inhibition is provided.
+- The use of a PET monomer as a proxy for PET microplastics is not justified; the relevance of monomer binding to microplastic toxicity is unclear.
+- The statement that SPI1 is a "key transcriptional regulator" of MYL9 is based on correlation and database predictions, not on direct regulatory evidence.
+- The survival analysis results are presented as consistent across cohorts, but the inability to adjust for confounders (acknowledged by the authors) limits the strength of the prognostic claim.

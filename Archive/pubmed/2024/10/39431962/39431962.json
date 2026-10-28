@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "39431962",
+    "doi": "10.1093/clinchem/hvae156",
+    "title": "Machine Learning-Based Detection of Bladder Cancer by Urine cfDNA Fragmentation Hotspots that Capture Cancer-Associated Molecular Features."
+  },
+  "content": {
+    "abstract": "BACKGROUND: cfDNA fragmentomics-based liquid biopsy is a potential option for noninvasive bladder cancer (BLCA) detection that remains an unmet clinical need. METHODS: We assessed the diagnostic performance of cfDNA hotspot-driven machine-learning models in a cohort of 55 BLCA patients, 51 subjects with benign conditions, and 11 healthy volunteers. We further performed functional bioinformatics analysis for biological understanding and interpretation of the tool's diagnostic capability. RESULTS: Urinary cfDNA hotspots-based machine-learning model enabled effective BLCA detection, achieving high performance (area under curve 0.96) and an 87% sensitivity at 100% specificity. It outperformed models using other cfDNA-derived features. In stage-stratified analysis, the sensitivity at 100% specificity of the urine hotspots-based model was 71% and 92% for early (low-grade Ta and T1) and advanced (high-grade T1 and muscle-invasive) disease, respectively. Biologically, cfDNA hotspots effectively retrieved regulatory elements and were correlated with the cell of origin. Urine cfDNA hotspots specifically captured BLCA-related molecular features, including key functional pathways, chromosome loci associated with BLCA risk as identified in genome-wide association studies, or presenting frequent somatic alterations in BLCA tumors, and the transcription factor regulatory landscape. CONCLUSIONS: Our findings support the applicability of urine cfDNA fragmentation hotspots for noninvasive BLCA diagnosis, as well as for future translational study regarding its molecular pathology and heterogeneity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/urine/diagnosis/genetics",
+      "*Machine Learning",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aged",
+      "Biomarkers, Tumor/urine/genetics",
+      "Cell-Free Nucleic Acids/urine",
+      "Liquid Biopsy/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Xiang-Yu",
+        "Zhou, Xiong-Hui",
+        "Li, Shuo",
+        "Shi, Ming-Jun",
+        "Li, Xuan-Hao",
+        "Yang, Bo-Yu",
+        "Liu, Min",
+        "Yi, Ke-Zhen",
+        "Wang, Yun-Ze",
+        "Zhang, Hong-Yu",
+        "Song, Jian",
+        "Wang, Fu-Bing",
+        "Wang, Xing-Huan"
+      ],
+      "short_names": [
+        "Meng XY",
+        "Zhou XH",
+        "Li S",
+        "Shi MJ",
+        "Li XH",
+        "Yang BY",
+        "Liu M",
+        "Yi KZ",
+        "Wang YZ",
+        "Zhang HY",
+        "Song J",
+        "Wang FB",
+        "Wang XH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5669-3502",
+        "ORCID: 0000-0003-1234-1091",
+        "ORCID: 0000-0002-8078-4401"
+      ],
+      "affiliations": [
+        "Department of Urology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Provincial Clinical Medical Research Center for Nephropathy, Hubei Minzu University, Enshi, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China.",
+        "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China.",
+        "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China.",
+        "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China.",
+        "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Wuhan Research Center for Infectious Diseases and Cancer, Chinese Academy of Medical Sciences, Wuhan, China.",
+        "Department of Urology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Wuhan Research Center for Infectious Diseases and Cancer, Chinese Academy of Medical Sciences, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Xiang-Yu",
+        "short_name": "Meng XY",
+        "identifiers": [
+          "0000-0001-5669-3502"
+        ],
+        "affiliations": [
+          "Department of Urology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Hubei Provincial Clinical Medical Research Center for Nephropathy, Hubei Minzu University, Enshi, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiong-Hui",
+        "short_name": "Zhou XH",
+        "identifiers": [
+          "0000-0003-1234-1091"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuo",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ming-Jun",
+        "short_name": "Shi MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuan-Hao",
+        "short_name": "Li XH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Bo-Yu",
+        "short_name": "Yang BY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Min",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Ke-Zhen",
+        "short_name": "Yi KZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Center for Single-cell Omics and Tumor Liquid Biopsy, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yun-Ze",
+        "short_name": "Wang YZ",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong-Yu",
+        "short_name": "Zhang HY",
+        "identifiers": [
+          "0000-0002-8078-4401"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jian",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Beijing Friendship Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fu-Bing",
+        "short_name": "Wang FB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Wuhan Research Center for Infectious Diseases and Cancer, Chinese Academy of Medical Sciences, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xing-Huan",
+        "short_name": "Wang XH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Wuhan Research Center for Infectious Diseases and Cancer, Chinese Academy of Medical Sciences, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical chemistry"
+    ],
+    "journal_abbrev": [
+      "Clin Chem"
+    ],
+    "pub_date": "2024 Dec 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/21 16:17",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42587715",
+      "41827701",
+      "41312143",
+      "41310905",
+      "41206952",
+      "41179679",
+      "40996489",
+      "40772765",
+      "40282460",
+      "40237938",
+      "39614371"
+    ],
+    "refs": [],
+    "similar": [
+      "39431962",
+      "39909829",
+      "39073362",
+      "30528938",
+      "31811000",
+      "39406232",
+      "30988170",
+      "38196148",
+      "39234248",
+      "39979837",
+      "38579191",
+      "35968916",
+      "27358136",
+      "36738246",
+      "39075419",
+      "30279572",
+      "30887605",
+      "39069115",
+      "37373000",
+      "36346614",
+      "29445424",
+      "39088983",
+      "22264718",
+      "39711442",
+      "28096270",
+      "38977273",
+      "40020203",
+      "29907142",
+      "10953114",
+      "32613569",
+      "37455222",
+      "29883442",
+      "34061567",
+      "39948752",
+      "26462026",
+      "34644276",
+      "31368627",
+      "38128532",
+      "31795775",
+      "35780566",
+      "39843210",
+      "28753876",
+      "38966038",
+      "33122139",
+      "30767431",
+      "31679136",
+      "35127956",
+      "38561976",
+      "14977841",
+      "32859160",
+      "39776291",
+      "36056434",
+      "37888201",
+      "27528424",
+      "34291583",
+      "37898819",
+      "34464379",
+      "29686738",
+      "38849019",
+      "40330458",
+      "39466000",
+      "38750539",
+      "31443703",
+      "32817589",
+      "34112144",
+      "30275913",
+      "26757983",
+      "38927119",
+      "33523215",
+      "35690859",
+      "40133038",
+      "15947579",
+      "40237938",
+      "30706728",
+      "38064272",
+      "37942753",
+      "39089259",
+      "34102169",
+      "33888644",
+      "31173267",
+      "27586786",
+      "40244164",
+      "38849905",
+      "29376201",
+      "36403035",
+      "18923359",
+      "38905450",
+      "30857943",
+      "40136052",
+      "31416571",
+      "39260052",
+      "39749345",
+      "16360453",
+      "38856716",
+      "31004682",
+      "38454812",
+      "34059130",
+      "29061538",
+      "39206580",
+      "31100252"
+    ],
+    "review": [
+      "39431962",
+      "37373000",
+      "40020203",
+      "37455222",
+      "26462026",
+      "31795775",
+      "39843210",
+      "28753876",
+      "40237938",
+      "18923359",
+      "31416571"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39431962.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/clinchem/article-lookup/doi/10.1093/clinchem/hvae156",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

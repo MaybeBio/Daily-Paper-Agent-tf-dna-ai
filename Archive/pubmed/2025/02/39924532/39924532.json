@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "39924532",
+    "doi": "10.1038/s41598-024-83597-9",
+    "title": "An assessment of breast cancer HER2, ER, and PR expressions based on mammography using deep learning with convolutional neural networks."
+  },
+  "content": {
+    "abstract": "Mammography is the recommended imaging modality for breast cancer screening. Expressions of human epidermal growth factor receptor 2 (HER2), estrogen receptor (ER), and progesterone receptor (PR) are critical to the development of therapeutic strategies for breast cancer. In this study, a deep learning model (CBAM ResNet-18) was developed to predict the expression of these three receptors on mammography without manual segmentation of masses. Mammography of patients with pathologically proven breast cancer was obtained from two centers. A deep learning-based model (CBAM ResNet-18) for predicting HER2, ER, and PR expressions was trained and validated using five-fold cross-validation on a training dataset. The performance of the model was further tested using an external test dataset. Area under receiver operating characteristic curve (AUC), accuracy (ACC), and F1-score were calculated to assess the ability of the model to predict each receptor. For comparison we also developed original ResNet-18 without attention module and VGG-19 with and without attention module. The AUC (95% CI), ACC, and F1-score were 0.708 (0.609, 0.808), 0.651, 0.528, respectively, in the HER2 test dataset; 0.785 (0.673, 0.897), 0.845, 0.905, respectively, in the ER test dataset; and 0.706 (0.603, 0.809), 0.678, 0.773, respectively, in the PR test dataset. The proposed model demonstrates superior performance compared to the original ResNet-18 without attention module and VGG-19 with and without attention module. The model has the potential to predict HER2, PR, and especially ER expressions, and thus serve as an adjunctive diagnostic tool for breast cancer.",
+    "keywords": [
+      "Breast cancer",
+      "Deep learning",
+      "Histopathology",
+      "Mammography"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "*Breast Neoplasms/diagnostic imaging/metabolism/genetics/pathology",
+      "Female",
+      "*Deep Learning",
+      "*Receptors, Estrogen/metabolism/genetics",
+      "*Receptors, Progesterone/metabolism/genetics",
+      "*Mammography/methods",
+      "Neural Networks, Computer",
+      "ROC Curve",
+      "Middle Aged",
+      "Biomarkers, Tumor",
+      "Adult",
+      "Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Shun",
+        "Chen, Hongyu",
+        "Jing, Rui",
+        "Yang, Wenzhuo",
+        "He, Ligong",
+        "Zou, Tianle",
+        "Liu, Peng",
+        "Liang, Bo",
+        "Shi, Dan",
+        "Wu, Wenhao",
+        "Lin, Qiusheng",
+        "Ma, Zhenyu",
+        "Zha, Jinhui",
+        "Zhong, Yonghao",
+        "Zhang, Xianbin",
+        "Shao, Guangrui",
+        "Gong, Peng"
+      ],
+      "short_names": [
+        "Zeng S",
+        "Chen H",
+        "Jing R",
+        "Yang W",
+        "He L",
+        "Zou T",
+        "Liu P",
+        "Liang B",
+        "Shi D",
+        "Wu W",
+        "Lin Q",
+        "Ma Z",
+        "Zha J",
+        "Zhong Y",
+        "Zhang X",
+        "Shao G",
+        "Gong P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of Health Outcomes & Biomedical Informatics, University of Florida, Gainesville, FL, USA.",
+        "Department of Radiology, Second Hospital of Shandong University, Jinan, Shandong, China.",
+        "Sun Yat-sen University Cancer Center, Sun Yat-sen University, Guangzhou, China.",
+        "Sun Yat-sen University Cancer Center, Sun Yat-sen University, Guangzhou, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of Thyroid and Breast Surgery, Huazhong University of Science and Technology Union Shenzhen Hospital, 89 Taoyuan Road, Shenzhen, 518052, China.",
+        "Department of Radiology, Second Hospital of Shandong University Zhaoyuan Branch, Zhaoyuan, Shandong, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China.",
+        "Department of Radiology, Second Hospital of Shandong University, Jinan, Shandong, China.",
+        "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China. doctorgongpeng@szu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Shun",
+        "short_name": "Zeng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hongyu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Outcomes & Biomedical Informatics, University of Florida, Gainesville, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Jing, Rui",
+        "short_name": "Jing R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Second Hospital of Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenzhuo",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Sun Yat-sen University Cancer Center, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Ligong",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Sun Yat-sen University Cancer Center, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Tianle",
+        "short_name": "Zou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Peng",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Bo",
+        "short_name": "Liang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Dan",
+        "short_name": "Shi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wenhao",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Qiusheng",
+        "short_name": "Lin Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Huazhong University of Science and Technology Union Shenzhen Hospital, 89 Taoyuan Road, Shenzhen, 518052, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zhenyu",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Second Hospital of Shandong University Zhaoyuan Branch, Zhaoyuan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zha, Jinhui",
+        "short_name": "Zha J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yonghao",
+        "short_name": "Zhong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xianbin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Guangrui",
+        "short_name": "Shao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Second Hospital of Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Peng",
+        "short_name": "Gong P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Institute of Precision Diagnosis and Treatment of Digestive System Tumors and Guangdong Provincial Key Laboratory of Chinese Medicine Ingredients and Gut Microbiomics, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China. doctorgongpeng@szu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/10 00:19",
+    "fetched_at": "2026-10-05 02:58:47"
+  },
+  "links": {
+    "cites": [
+      "42530698",
+      "42168900",
+      "42164685",
+      "41491736",
+      "41329305",
+      "41312172",
+      "41154441",
+      "41131122",
+      "40389875"
+    ],
+    "refs": [
+      "39094328",
+      "38751537",
+      "35094119",
+      "34994603",
+      "33538338",
+      "31711023",
+      "31502769",
+      "31467326",
+      "30428932",
+      "30032964",
+      "29545529",
+      "29477427",
+      "28920897",
+      "28171807",
+      "28109404",
+      "27955963",
+      "26886976",
+      "26458112",
+      "26253814",
+      "26017442",
+      "25975904",
+      "25910262",
+      "25462637",
+      "24101045",
+      "23787338",
+      "23233704",
+      "23000897",
+      "20847885",
+      "20385184",
+      "18647900",
+      "17547474",
+      "16979070",
+      "7015139",
+      "6366135"
+    ],
+    "similar": [
+      "39924532",
+      "38641451",
+      "39643475",
+      "40143808",
+      "39837702",
+      "34994603",
+      "38916820",
+      "40068996",
+      "41329305",
+      "36522478",
+      "41135295",
+      "39985907",
+      "41061345",
+      "28975433",
+      "40645910",
+      "41405264",
+      "24652232",
+      "41549611",
+      "42148109",
+      "30129697",
+      "42329472",
+      "41468007",
+      "39006260",
+      "35789315",
+      "32350370",
+      "34464510",
+      "34244052",
+      "40249269",
+      "27743431",
+      "35094119",
+      "41186132",
+      "26138872",
+      "41757801",
+      "37812297",
+      "27315045",
+      "41731833",
+      "19432961",
+      "38766488",
+      "40148997",
+      "41597401",
+      "25880075",
+      "39681144",
+      "33667252",
+      "40952290",
+      "24070170",
+      "39424816",
+      "38717291",
+      "38395930",
+      "40341568",
+      "41744185",
+      "39806274",
+      "30756285",
+      "22045649",
+      "40597935",
+      "22290394",
+      "21785049",
+      "27666130",
+      "36287799",
+      "36224558",
+      "41129497",
+      "38720675",
+      "41084879",
+      "41831466",
+      "30128822",
+      "38815444",
+      "38531147",
+      "40831385",
+      "38678959",
+      "41786866",
+      "41315645",
+      "30613307",
+      "40414575",
+      "37816333",
+      "39461104",
+      "39933196",
+      "32592349",
+      "22270937",
+      "22903686",
+      "23723333",
+      "40147847",
+      "27760283",
+      "30968114",
+      "34673584",
+      "39529003",
+      "37947928",
+      "23240985",
+      "41874202",
+      "38780889",
+      "40640789",
+      "32423453",
+      "36175898",
+      "42164685",
+      "41590326",
+      "29278880",
+      "30209957",
+      "42302265",
+      "18098228",
+      "27456970",
+      "27116182",
+      "41787618"
+    ],
+    "review": [
+      "39924532"
+    ],
+    "pmc": [
+      "11808088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mammography.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Mammography"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-83597-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39924532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

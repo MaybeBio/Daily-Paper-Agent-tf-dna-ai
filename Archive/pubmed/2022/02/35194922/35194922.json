@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "35194922",
+    "doi": "10.1111/jcmm.17244",
+    "title": "Top-down stepwise refinement identifies coding and noncoding RNA-associated epigenetic regulatory maps in malignant glioma."
+  },
+  "content": {
+    "abstract": "With the emergence of the molecular era and retreat of the histology epoch in malignant glioma, it is becoming increasingly necessary to research diagnostic/prognostic/therapeutic biomarkers and their related regulatory mechanisms. While accumulating studies have investigated coding gene-associated biomarkers in malignant glioma, research on comprehensive coding and noncoding RNA-associated biomarkers is lacking. Furthermore, few studies have illustrated the cross-talk signalling pathways among these biomarkers and mechanisms in detail. Here, we identified DEGs and ceRNA networks in malignant glioma and then constructed Cox/Lasso regression models to further identify the most valuable genes through stepwise refinement. Top-down comprehensive integrated analysis, including functional enrichment, SNV, immune infiltration, transcription factor binding site, and molecular docking analyses, further revealed the regulatory maps among these genes. The results revealed a novel and accurate model (AUC of 0.91 and C-index of 0.84 in the whole malignant gliomas, AUC of 0.90 and C-index of 0.86 in LGG, and AUC of 0.75 and C-index of 0.69 in GBM) that includes twelve ncRNAs, 1 miRNA and 6 coding genes. Stepwise logical reasoning based on top-down comprehensive integrated analysis and references revealed cross-talk signalling pathways among these genes that were correlated with the circadian rhythm, tumour immune microenvironment and cellular senescence pathways. In conclusion, our work reveals a novel model where the newly identified biomarkers may contribute to a precise diagnosis/prognosis and subclassification of malignant glioma, and the identified cross-talk signalling pathways would help to illustrate the noncoding RNA-associated epigenetic regulatory mechanisms of glioma tumorigenesis and aid in targeted therapy.",
+    "keywords": [
+      "Cox-Lasso regression",
+      "biomarker",
+      "cross-talk signalling",
+      "epigenetic regulation",
+      "integrative analysis",
+      "malignant glioma",
+      "noncoding RNA"
+    ],
+    "mesh_terms": [
+      "Biomarkers, Tumor/genetics/metabolism",
+      "*Brain Neoplasms/genetics/pathology",
+      "Epigenesis, Genetic",
+      "Gene Expression Regulation, Neoplastic",
+      "*Glioma/genetics/pathology",
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "*RNA, Long Noncoding/genetics",
+      "Tumor Microenvironment/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yutao",
+        "Gao, Xiangyu",
+        "Yang, Erwan",
+        "Yue, Kangyi",
+        "Cao, Yuan",
+        "Zhao, Boyan",
+        "Zhang, Haofuzi",
+        "Dai, Shuhui",
+        "Zhang, Lei",
+        "Luo, Peng",
+        "Jiang, Xiaofan"
+      ],
+      "short_names": [
+        "Huang Y",
+        "Gao X",
+        "Yang E",
+        "Yue K",
+        "Cao Y",
+        "Zhao B",
+        "Zhang H",
+        "Dai S",
+        "Zhang L",
+        "Luo P",
+        "Jiang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2433-8183",
+        "ORCID: 0000-0003-0746-939X"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "State Key Laboratory of Cancer Biology, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "State Key Laboratory of Cancer Biology, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yutao",
+        "short_name": "Huang Y",
+        "identifiers": [
+          "0000-0002-2433-8183"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiangyu",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+          "State Key Laboratory of Cancer Biology, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Erwan",
+        "short_name": "Yang E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Kangyi",
+        "short_name": "Yue K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+          "State Key Laboratory of Cancer Biology, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuan",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Boyan",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haofuzi",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Shuhui",
+        "short_name": "Dai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [
+          "0000-0003-0746-939X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaofan",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/24 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "40674222",
+      "40380049",
+      "40171811",
+      "39953480",
+      "39935745",
+      "38397429"
+    ],
+    "refs": [
+      "33330918",
+      "32916125",
+      "32269383",
+      "32264951",
+      "32111820",
+      "31907414",
+      "31730848",
+      "31645151",
+      "31504780",
+      "31350295",
+      "31131326",
+      "31124566",
+      "30753579",
+      "30742538",
+      "30615844",
+      "30523327",
+      "30506951",
+      "30395287",
+      "30149878",
+      "30053265",
+      "29947810",
+      "29170066",
+      "29126174",
+      "28701486",
+      "28367255",
+      "27899564",
+      "27476975",
+      "27157931",
+      "27047535",
+      "26922301",
+      "26524530",
+      "26267216",
+      "26087991",
+      "25957685",
+      "25950237",
+      "25712091",
+      "25605792",
+      "25427834",
+      "25385339",
+      "25368618",
+      "25155243",
+      "24958592",
+      "24485249",
+      "24429633",
+      "24194598",
+      "24193082",
+      "23827673",
+      "23446346",
+      "23159848",
+      "23095881",
+      "23071898",
+      "22681889",
+      "22410704",
+      "22096659",
+      "21909094",
+      "21802130",
+      "21645191",
+      "21127246",
+      "21098712",
+      "21045797",
+      "20303878",
+      "20217129",
+      "20159955",
+      "19910308",
+      "19360123",
+      "19158398",
+      "18836471",
+      "18802415",
+      "18669428",
+      "18347289",
+      "17662938",
+      "17618441",
+      "17486113",
+      "17055429",
+      "16921403",
+      "15951747",
+      "15790593",
+      "15767669",
+      "15758009",
+      "15499615",
+      "15485355",
+      "14998915",
+      "14597658",
+      "12724733",
+      "12407406",
+      "12372299",
+      "11044454",
+      "10884382",
+      "10843666",
+      "9143691",
+      "8996080",
+      "8756624",
+      "7753174",
+      "6163133"
+    ],
+    "similar": [
+      "35194922",
+      "34596120",
+      "38674418",
+      "38864705",
+      "33454543",
+      "38824202",
+      "29355660",
+      "34539626",
+      "32572951",
+      "34659218",
+      "31387808",
+      "34081618",
+      "35668574",
+      "34288803",
+      "27229531",
+      "30117678",
+      "35677036",
+      "27267902",
+      "32081833",
+      "38719174",
+      "34726238",
+      "27880937",
+      "34054873",
+      "39216321",
+      "28800786",
+      "33946049",
+      "28187439",
+      "39333603",
+      "38738989",
+      "31207033",
+      "31477638",
+      "39160329",
+      "34603561",
+      "30949502",
+      "32978519",
+      "33186124",
+      "32213181",
+      "36171401",
+      "36305410",
+      "29945317",
+      "34686327",
+      "27835581",
+      "38728502",
+      "36203569",
+      "34212046",
+      "38286348",
+      "31234870",
+      "32725165",
+      "30691465",
+      "31518750",
+      "35959373",
+      "33217867",
+      "24203894",
+      "33363544",
+      "33801310",
+      "32802843",
+      "33877554",
+      "32741804",
+      "35124175",
+      "38613802",
+      "32289666",
+      "34840971",
+      "36331751",
+      "36110575",
+      "32916774",
+      "24887176",
+      "27589728",
+      "37735118",
+      "32472311",
+      "31020692",
+      "38875999",
+      "34876094",
+      "24194606",
+      "35444654",
+      "27058823",
+      "38728467",
+      "37173373",
+      "30261893",
+      "33832517",
+      "31896490",
+      "33582947",
+      "35349479",
+      "28651608",
+      "35879775",
+      "33029085",
+      "33078370",
+      "31926584",
+      "29412778",
+      "28107175",
+      "31240814",
+      "34390854",
+      "30809632",
+      "30894197",
+      "31181442",
+      "27495233",
+      "32626942",
+      "32883226",
+      "38578883",
+      "32757451",
+      "26463235"
+    ],
+    "review": [
+      "35194922",
+      "29355660",
+      "31387808",
+      "30117678",
+      "28187439",
+      "32213181",
+      "29945317",
+      "36331751",
+      "24887176",
+      "33582947",
+      "31926584"
+    ],
+    "pmc": [
+      "8995455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/35194922.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35194922/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35194922",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.17244",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

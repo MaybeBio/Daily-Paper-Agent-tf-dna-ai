@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "35597499",
+    "doi": "10.1016/j.toxlet.2022.05.002",
+    "title": "A new strategy for the rapid identification and validation of direct toxicity targets of psoralen-induced hepatotoxicity."
+  },
+  "content": {
+    "abstract": "The interaction between small-molecule compounds of traditional Chinese medicine and their direct targets is the molecular initiation event, which is the key factor for toxicity efficacy. Psoralen, an active component of Fructus Psoraleae, is toxic to the liver and has various pharmacological properties. Although the mechanism of psoralen-induced hepatotoxicity has been studied, the direct target of psoralen remains unclear. Thus, the aim of this study was to discover direct targets of psoralen. To this end, we initially used proteomics based on drug affinity responsive target stability (DARTS) technology to identify the direct targets of psoralen. Next, we used surface plasmon resonance (SPR) analysis and verified the affinity effect of the 'component-target protein'. This method combines molecular docking technology to explore binding sites between small molecules and proteins. SPR and molecular docking confirmed that psoralen and tyrosine-protein kinase ABL1 could be stably combined. Based on the above experimental results, ABL1 is a potential direct target of psoralen-induced hepatotoxicity. Finally, the targets Nrf2 and mTOR, which are closely related to the hepatotoxicity caused by psoralen, were predicted by integrating proteomics and network pharmacology. The direct target ABL1 is located upstream of Nrf2 and mTOR, Nrf2 can influence the expression of mTOR by affecting the level of reactive oxygen species. Immunofluorescence experiments and western blot results showed that psoralen could affect ROS levels and downstream Nrf2 and mTOR protein changes, whereas the ABL1 inhibitor imatinib and ABL1 agonist DPH could enhance or inhibit this effect. In summary, we speculated that when psoralen causes hepatotoxicity, it acts on the direct target ABL1, resulting in a decrease in Nrf2 expression, an increase in ROS levels and a reduction in mTOR expression, which may cause cell death. We developed a new strategy for predicting and validating the direct targets of psoralen. This strategy identified the toxic target, ABL1, and the potential toxic mechanism of psoralen.",
+    "keywords": [
+      "ABL1",
+      "DARTS",
+      "Hepatotoxicity",
+      "Oxidative stress",
+      "Psoralen"
+    ],
+    "mesh_terms": [
+      "*Chemical and Drug Induced Liver Injury/etiology",
+      "Ficusin/toxicity",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*NF-E2-Related Factor 2/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "TOR Serine-Threonine Kinases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Sitong",
+        "Wang, Manshu",
+        "Yuan, Yu",
+        "Wang, Shuo",
+        "Ding, Haoran",
+        "Liang, Chenrui",
+        "Li, Xiaomeng",
+        "Fan, Simiao",
+        "Li, Yubo"
+      ],
+      "short_names": [
+        "Sun S",
+        "Wang M",
+        "Yuan Y",
+        "Wang S",
+        "Ding H",
+        "Liang C",
+        "Li X",
+        "Fan S",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: fansimiao@aliyun.com.",
+        "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: yuboli1@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Sitong",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Manshu",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yu",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Haoran",
+        "short_name": "Ding H",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Chenrui",
+        "short_name": "Liang C",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaomeng",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Simiao",
+        "short_name": "Fan S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: fansimiao@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yubo",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin State Key Laboratory of Modern Chinese Medicine, School of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: yuboli1@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxicology letters"
+    ],
+    "journal_abbrev": [
+      "Toxicol Lett"
+    ],
+    "pub_date": "2022 Jun 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/22 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "41181603",
+      "39161897",
+      "36386468",
+      "36091226",
+      "35899228"
+    ],
+    "refs": [],
+    "similar": [
+      "35597499",
+      "35872289",
+      "35987407",
+      "31364909",
+      "36056681",
+      "36457007",
+      "31271704",
+      "30597224",
+      "32259676",
+      "34803375",
+      "35792449",
+      "33317360",
+      "30459602",
+      "26721592",
+      "37446707",
+      "30630510",
+      "29921882",
+      "29136249",
+      "30235447",
+      "29066411",
+      "35032590",
+      "31875996",
+      "37253395",
+      "34363931",
+      "32454347",
+      "29338970",
+      "27931128",
+      "35178925",
+      "31310828",
+      "32240813",
+      "23661004",
+      "24988078",
+      "30132663",
+      "31004821",
+      "33550145",
+      "33557643",
+      "39299507",
+      "30558169",
+      "29459119",
+      "35092914",
+      "34153373",
+      "35178996",
+      "32738495",
+      "28061443",
+      "27821800",
+      "33556477",
+      "32627467",
+      "31678598",
+      "31795743",
+      "21367918",
+      "32061150",
+      "30826469",
+      "33176120",
+      "32389853",
+      "35441652",
+      "33657990",
+      "30906210",
+      "32634765",
+      "24486344",
+      "35378193",
+      "33968025",
+      "31245199",
+      "33843202",
+      "24590984",
+      "24349524",
+      "33977953",
+      "26565025",
+      "30568426",
+      "32348741",
+      "25585349",
+      "30952839",
+      "29441915",
+      "31173878",
+      "29791258",
+      "32081044",
+      "32863309",
+      "19901266",
+      "31684074",
+      "34639126",
+      "24813929",
+      "28498799",
+      "27784786",
+      "32505843",
+      "31494242",
+      "34526248",
+      "15801679",
+      "35913174",
+      "32920133",
+      "31787729",
+      "34467739",
+      "31790703",
+      "34217946",
+      "18721845",
+      "28212891",
+      "26286854",
+      "29969714",
+      "39161897",
+      "31524870",
+      "39119266",
+      "38242895",
+      "38308871",
+      "36997132",
+      "33995060",
+      "38248666",
+      "37268345",
+      "37763211",
+      "36558913",
+      "37298148"
+    ],
+    "review": [
+      "35597499",
+      "32738495",
+      "33968025",
+      "31245199",
+      "35913174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-4274(22)00090-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1776",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

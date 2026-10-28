@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "39833696",
+    "doi": "10.1186/s10194-025-01950-3",
+    "title": "Machine learning-driven identification of critical gene programs and key transcription factors in migraine."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Migraine is a complex neurological disorder characterized by recurrent episodes of severe headaches. Although genetic factors have been implicated, the precise molecular mechanisms, particularly gene expression patterns in migraine-associated brain regions, remain unclear. This study applies machine learning techniques to explore region-specific gene expression profiles and identify critical gene programs and transcription factors linked to migraine pathogenesis. METHODS: We utilized single-nucleus RNA sequencing (snRNA-seq) data from 43 brain regions, along with genome-wide association study (GWAS) data, to investigate susceptibility to migraine. The cell-type-specific expression (CELLEX) algorithm was employed to calculate specific expression profiles for each region, while non-negative matrix factorization (NMF) was applied to decompose gene programs within the single-cell data from these regions. Following the annotation of brain region expression profiles and gene programs to the genome, we employed stratified linkage disequilibrium score regression (S-LDSC) to assess the associations between brain regions, gene programs, and migraine-related SNPs. Key transcription factors regulating critical gene programs were identified using a random forest model based on regulatory networks derived from the GTEx consortium. RESULTS: Our analysis revealed significant enrichment of migraine-associated single nucleotide polymorphisms (SNPs) in the posterior nuclear complex-medial geniculate nuclei (PoN_MG) of the thalamus, highlighting this region's crucial role in migraine pathogenesis. Gene program 1, identified through NMF, was enriched in the calcium signaling pathway, a known contributor to migraine pathophysiology. Random forest analysis predicted ARID3A as the top transcription factor regulating gene program 1, suggesting its potential role in modulating calcium-related genes involved in migraine. CONCLUSION: This study provides new insights into the molecular mechanisms underlying migraine, emphasizing the importance of the PoN_MG thalamic region, calcium signaling pathways, and key transcription factors like ARID3A. These findings offer potential avenues for developing targeted therapeutic strategies for migraine treatment.",
+    "keywords": [
+      "Gene program",
+      "Migraine",
+      "Random forest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Migraine Disorders/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "Genome-Wide Association Study",
+      "Polymorphism, Single Nucleotide",
+      "Genetic Predisposition to Disease",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lei",
+        "Li, Yujie",
+        "Xu, Yunhao",
+        "Wang, Wei",
+        "Guo, Guangyu"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Li Y",
+        "Xu Y",
+        "Wang W",
+        "Guo G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Academy of Medical Sciences of Zhengzhou University, Zhengzhou, China.",
+        "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Academy of Medical Sciences of Zhengzhou University, Zhengzhou, China.",
+        "Department of Neurology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Headache Center, Department of Neurology, Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University, Hangzhou, China. weiwang336776@163.com.",
+        "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. guangyuguoer@163.com.",
+        "Department of Neurology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China. guangyuguoer@163.com.",
+        "NHC Key Laboratory of Prevention and treatment of Cerebrovascular Diseases, Zhengzhou, China. guangyuguoer@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yujie",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Sciences of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yunhao",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+          "Academy of Medical Sciences of Zhengzhou University, Zhengzhou, China.",
+          "Department of Neurology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Headache Center, Department of Neurology, Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University, Hangzhou, China. weiwang336776@163.com."
+        ]
+      },
+      {
+        "full_name": "Guo, Guangyu",
+        "short_name": "Guo G",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. guangyuguoer@163.com.",
+          "Department of Neurology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China. guangyuguoer@163.com.",
+          "NHC Key Laboratory of Prevention and treatment of Cerebrovascular Diseases, Zhengzhou, China. guangyuguoer@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of headache and pain"
+    ],
+    "journal_abbrev": [
+      "J Headache Pain"
+    ],
+    "pub_date": "2025 Jan 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/21 09:02",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "42233024",
+      "41684036",
+      "41606734",
+      "41557243",
+      "41233745",
+      "40419944",
+      "40329184",
+      "40083275"
+    ],
+    "refs": [
+      "39190341",
+      "38899347",
+      "38760739",
+      "38627631",
+      "38142636",
+      "37824663",
+      "37657674",
+      "37553625",
+      "37488425",
+      "37478888",
+      "37098469",
+      "36175791",
+      "36160378",
+      "36079577",
+      "35349784",
+      "35115687",
+      "35073844",
+      "34794382",
+      "34294844",
+      "33799975",
+      "33773610",
+      "33707969",
+      "33267788",
+      "33069326",
+      "32968778",
+      "32958568",
+      "32955435",
+      "32525759",
+      "32502461",
+      "31784727",
+      "31780648",
+      "31660761",
+      "31636120",
+      "31366133",
+      "31226929",
+      "31178118",
+      "29969040",
+      "29518355",
+      "29481977",
+      "29368949",
+      "29069589",
+      "28948863",
+      "28271496",
+      "28194570",
+      "28179394",
+      "27466345",
+      "27322543",
+      "27190019",
+      "27053949",
+      "26899160",
+      "26414678",
+      "25439723",
+      "25107879",
+      "24679534",
+      "24382884",
+      "23793025",
+      "23449592",
+      "23195532",
+      "23128226",
+      "22589599",
+      "22435804",
+      "22220971",
+      "20811451",
+      "20598126",
+      "17970989",
+      "10802651",
+      "10686182",
+      "10592173",
+      "6501112"
+    ],
+    "similar": [
+      "39833696",
+      "24674449",
+      "35472084",
+      "32121467",
+      "39707003",
+      "24666033",
+      "24266335",
+      "29995844",
+      "38840241",
+      "28058943",
+      "29498289",
+      "24920305",
+      "26899160",
+      "37254524",
+      "40296690",
+      "29378629",
+      "28333195",
+      "29396371",
+      "19819557",
+      "30634909",
+      "25633374",
+      "39578729",
+      "38716195",
+      "28058730",
+      "26967494",
+      "39547276",
+      "22072275",
+      "38043973",
+      "38800474",
+      "28952330",
+      "40313958",
+      "21519858",
+      "20528957",
+      "38650934",
+      "39509434",
+      "29357833",
+      "35166138",
+      "25451450",
+      "23237777",
+      "28166722",
+      "35454329",
+      "31226929",
+      "39266962",
+      "39926598",
+      "39039470",
+      "29506519",
+      "40253457",
+      "21448238",
+      "39394142",
+      "25708662",
+      "34273149",
+      "23294458",
+      "22375693",
+      "39026663",
+      "25039261",
+      "36759319",
+      "39874886",
+      "34972135",
+      "30635810",
+      "27322543",
+      "39158717",
+      "33130899",
+      "32046629",
+      "37245199",
+      "25916332",
+      "40197205",
+      "32554045",
+      "33447900",
+      "38927733",
+      "30071827",
+      "39507054",
+      "39753113",
+      "22030984",
+      "28302063",
+      "22678113",
+      "32029221",
+      "39142001",
+      "14624354",
+      "33762637",
+      "37606917",
+      "29491472",
+      "36292730",
+      "16473310",
+      "16378686",
+      "39697326",
+      "32979221",
+      "30776002",
+      "24698360",
+      "28957430",
+      "20740293",
+      "40155810",
+      "28957321",
+      "19253056",
+      "39745514",
+      "35546551",
+      "21195698",
+      "39888730",
+      "29482603",
+      "40056998",
+      "39841246"
+    ],
+    "review": [
+      "39833696",
+      "35472084",
+      "32121467",
+      "30634909",
+      "26967494",
+      "22072275",
+      "38043973",
+      "21519858",
+      "35454329",
+      "31226929",
+      "21448238",
+      "23294458",
+      "22375693",
+      "36759319",
+      "27322543",
+      "32046629",
+      "33447900",
+      "14624354",
+      "29491472",
+      "36292730"
+    ],
+    "pmc": [
+      "11745026"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://thejournalofheadacheandpain.biomedcentral.com/articles/10.1186/s10194-025-01950-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/migraine.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Migraine"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39833696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2233",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

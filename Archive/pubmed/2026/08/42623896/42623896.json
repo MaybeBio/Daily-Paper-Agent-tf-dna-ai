@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "42623896",
+    "doi": "10.1016/j.neo.2026.101352",
+    "title": "Machine learning of sunitinib resistance genes reveals that SP5 regulates angiogenesis and sunitinib resistance in RCC via the VEGFA/AKT axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sunitinib resistance remains a major clinical challenge in renal cell carcinoma, and the underlying molecular mechanisms are incompletely understood. SP5, a member of the specificity protein transcription factor family, has been implicated in tumor progression, but its role in sunitinib resistance and angiogenesis in RCC is unclear. METHODS: We integrated bulk RNA-seq datasets (GSE172165, GSE173572, GSE216494) and single-cell transcriptomics (GSE156632) to identify sunitinib resistance-associated differentially expressed genes. A prognostic model was constructed using 117 machine-learning algorithms and validated across multiple independent cohorts. Functional assays, including CCK-8, colony formation, transwell, tube formation, CUT&RUN, and xenograft models, were performed. Virtual screening and molecular docking identified suramin as a potential SP5 inhibitor. RESULTS: We identified SP5 as a core resistance-related gene. The risk model effectively stratified patients, with high-risk individuals showing worse prognosis, elevated TMB, and immunosuppressive microenvironments. Mechanistically, SP5 directly bound to the VEGFA promoter to upregulate VEGFA transcription, activating AKT phosphorylation via autocrine and paracrine loops, thereby promoting angiogenesis and sunitinib resistance. SP5 knockdown suppressed proliferation, migration, invasion, and tube formation, and resensitized cells to sunitinib. Suramin disrupted the SP5-VEGFA interaction, synergized with sunitinib to inhibit tumor growth, and reduced VEGFA secretion. CONCLUSION: Our findings establish SP5 as a critical driver of sunitinib resistance and identify suramin as a promising therapeutic strategy.",
+    "keywords": [
+      "RCC",
+      "SP5",
+      "Sunitinib resistance",
+      "VEGFA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sunitinib/pharmacology",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Carcinoma, Renal Cell/drug therapy/genetics/pathology/metabolism",
+      "*Vascular Endothelial Growth Factor A/metabolism/genetics",
+      "Animals",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Mice",
+      "*Kidney Neoplasms/drug therapy/genetics/pathology/metabolism",
+      "*Neovascularization, Pathologic/genetics/metabolism/pathology/drug therapy",
+      "*Machine Learning",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "Prognosis",
+      "Signal Transduction",
+      "Cell Proliferation",
+      "Angiogenesis Inhibitors/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pu, Shihang",
+        "Qian, Shijie",
+        "Ding, Yiheng",
+        "Li, Qi",
+        "Li, Baochao",
+        "Xing, Jiajun",
+        "Jin, Ling",
+        "Xi, Xiaohai",
+        "Wang, Zengjun",
+        "Xu, Aiming",
+        "Wang, Tao"
+      ],
+      "short_names": [
+        "Pu S",
+        "Qian S",
+        "Ding Y",
+        "Li Q",
+        "Li B",
+        "Xing J",
+        "Jin L",
+        "Xi X",
+        "Wang Z",
+        "Xu A",
+        "Wang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: psh991012@163.com.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China; Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, Jiangsu, 215002, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: zengjunwang@njmu.edu.cn.",
+        "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: xam1989@njmu.edu.cn.",
+        "Department of Urology, The First People's Hospital of Taicang, Taicang Affiliated Hospital of Soochow University, Suzhou, Jiangsu, 215400, China; Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: wangtao623111@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pu, Shihang",
+        "short_name": "Pu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: psh991012@163.com."
+        ]
+      },
+      {
+        "full_name": "Qian, Shijie",
+        "short_name": "Qian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yiheng",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qi",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Li, Baochao",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Jiajun",
+        "short_name": "Xing J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China; Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, Jiangsu, 215002, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Ling",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Xiaohai",
+        "short_name": "Xi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zengjun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: zengjunwang@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Aiming",
+        "short_name": "Xu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: xam1989@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First People's Hospital of Taicang, Taicang Affiliated Hospital of Soochow University, Suzhou, Jiangsu, 215400, China; Department of Urology, First Affiliated Hospital with Nanjing Medical University, No.300, Guangzhou Street, Nanjing, Jiangsu, 210029, China. Electronic address: wangtao623111@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neoplasia (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Neoplasia"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 23:35",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42335405",
+      "41872817",
+      "41663022",
+      "40939431",
+      "40788954",
+      "39962118",
+      "39769351",
+      "39055398",
+      "39033764",
+      "38494680",
+      "38467852",
+      "37740648",
+      "37596430",
+      "37491579",
+      "36739809",
+      "36633525",
+      "36106637",
+      "35538475",
+      "34208775",
+      "34145400",
+      "33640465",
+      "33052225",
+      "33020645",
+      "32059772",
+      "30944313",
+      "30341162",
+      "29456745",
+      "28428277",
+      "28052254",
+      "27117758",
+      "26312386",
+      "25446042",
+      "24841777",
+      "23892664",
+      "23216836",
+      "20581845",
+      "20448661",
+      "18923433",
+      "18824429",
+      "17626017",
+      "16442207",
+      "16380080",
+      "16273202",
+      "15611513",
+      "15374992",
+      "14597566",
+      "9575179",
+      "8534928",
+      "7882614",
+      "7528839",
+      "2174730"
+    ],
+    "similar": [
+      "42623896",
+      "41693648",
+      "42335405",
+      "40435846",
+      "41418537",
+      "37545017",
+      "42358821",
+      "31545453",
+      "39614428",
+      "40948085",
+      "33052225",
+      "32641718",
+      "39477683",
+      "34826699",
+      "41872817",
+      "41698049",
+      "40004241",
+      "40135592",
+      "41999263",
+      "39664571",
+      "41832498",
+      "42213490",
+      "38822145",
+      "26364599",
+      "35538475",
+      "40683967",
+      "32513235",
+      "30419914",
+      "24122794",
+      "32041631",
+      "42287957",
+      "38702028",
+      "41799185",
+      "31534544",
+      "41171368",
+      "25093491",
+      "40746889",
+      "41566451",
+      "41663022",
+      "26678908",
+      "31268155",
+      "31669222",
+      "41314434",
+      "42220427",
+      "34938069",
+      "32901879",
+      "33859753",
+      "38442705",
+      "27556517",
+      "27560553",
+      "40789057",
+      "34461182",
+      "39866227",
+      "29572225",
+      "31501521",
+      "32814829",
+      "31173226",
+      "34593007",
+      "39929852",
+      "41369408",
+      "41029457",
+      "41146251",
+      "20501804",
+      "39831843",
+      "23457532",
+      "42706534",
+      "26935927",
+      "28011500",
+      "36176934",
+      "40790482",
+      "40554999",
+      "40885145",
+      "42382780",
+      "32663095",
+      "34910612",
+      "42260484",
+      "38768682",
+      "41643974",
+      "26487278",
+      "32232883",
+      "24073208",
+      "24676409",
+      "32879446",
+      "42053610",
+      "28166200",
+      "41999432",
+      "32051393",
+      "41960369",
+      "42480295",
+      "24448243",
+      "41285235",
+      "39804969",
+      "31752390",
+      "42603632",
+      "40829740",
+      "36264173",
+      "31518897",
+      "42322858",
+      "39092767",
+      "40358820"
+    ],
+    "review": [
+      "42623896"
+    ],
+    "pmc": [
+      "13524518"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-5586(26)00083-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42623896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1476-5586(26)00083-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

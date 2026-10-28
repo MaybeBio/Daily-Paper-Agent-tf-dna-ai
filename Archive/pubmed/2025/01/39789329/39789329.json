@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "39789329",
+    "doi": "10.1038/s41551-024-01312-5",
+    "title": "Interpretable identification of cancer genes across biological networks via transformer-powered graph representation learning."
+  },
+  "content": {
+    "abstract": "Graph representation learning has been leveraged to identify cancer genes from biological networks. However, its applicability is limited by insufficient interpretability and generalizability under integrative network analysis. Here we report the development of an interpretable and generalizable transformer-based model that accurately predicts cancer genes by leveraging graph representation learning and the integration of multi-omics data with the topologies of homogeneous and heterogeneous networks of biological interactions. The model allows for the interpretation of the respective importance of multi-omic and higher-order structural features, achieved state-of-the-art performance in the prediction of cancer genes across biological networks (including networks of interactions between miRNA and proteins, transcription factors and proteins, and transcription factors and miRNA) in pan-cancer and cancer-specific scenarios, and predicted 57 cancer-gene candidates (including three genes that had not been identified by other models) among 4,729 unlabelled genes across 8 pan-cancer datasets. The model's interpretability and generalization may facilitate the understanding of gene-related regulatory mechanisms and the discovery of new cancer genes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/genetics",
+      "*Gene Regulatory Networks",
+      "*Computational Biology/methods",
+      "MicroRNAs/genetics/metabolism",
+      "*Machine Learning",
+      "Algorithms",
+      "*Genes, Neoplasm",
+      "Gene Expression Regulation, Neoplastic",
+      "Databases, Genetic",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Xiaorui",
+        "Hu, Pengwei",
+        "Li, Dongxu",
+        "Zhao, Bowei",
+        "Niu, Zhaomeng",
+        "Herget, Thomas",
+        "Yu, Philip S",
+        "Hu, Lun"
+      ],
+      "short_names": [
+        "Su X",
+        "Hu P",
+        "Li D",
+        "Zhao B",
+        "Niu Z",
+        "Herget T",
+        "Yu PS",
+        "Hu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5468-6085",
+        "ORCID: 0000-0002-1591-8549"
+      ],
+      "affiliations": [
+        "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Department of Computer Science, University of Illinois Chicago, Chicago, IL, USA.",
+        "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Department of Health Informatics, Rutgers School of Health Professions, Piscataway, NJ, USA.",
+        "Merck KGaA, Darmstadt, Germany.",
+        "Department of Computer Science, University of Illinois Chicago, Chicago, IL, USA.",
+        "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China. hulun@ms.xjb.ac.cn.",
+        "University of Chinese Academy of Sciences, Beijing, China. hulun@ms.xjb.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Xiaorui",
+        "short_name": "Su X",
+        "identifiers": [
+          "0000-0001-5468-6085"
+        ],
+        "affiliations": [
+          "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Department of Computer Science, University of Illinois Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Pengwei",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongxu",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bowei",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Zhaomeng",
+        "short_name": "Niu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Informatics, Rutgers School of Health Professions, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Herget, Thomas",
+        "short_name": "Herget T",
+        "identifiers": [],
+        "affiliations": [
+          "Merck KGaA, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Yu, Philip S",
+        "short_name": "Yu PS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Illinois Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Lun",
+        "short_name": "Hu L",
+        "identifiers": [
+          "0000-0002-1591-8549"
+        ],
+        "affiliations": [
+          "Xinjiang Technical Institutes of Physics and Chemistry, Chinese Academy of Sciences, Urumqi, China. hulun@ms.xjb.ac.cn.",
+          "University of Chinese Academy of Sciences, Beijing, China. hulun@ms.xjb.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature biomedical engineering"
+    ],
+    "journal_abbrev": [
+      "Nat Biomed Eng"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/10 00:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42579672",
+      "42537002",
+      "42316179",
+      "42285956",
+      "42242221",
+      "42222301",
+      "42215535",
+      "42213730",
+      "42189891",
+      "42156464",
+      "42152095",
+      "42127127",
+      "42110214",
+      "42088442",
+      "42014628",
+      "42000900",
+      "41915641",
+      "41883030",
+      "41867661",
+      "41865006",
+      "41841344",
+      "41807454",
+      "41785238",
+      "41782896",
+      "41718327",
+      "41666195",
+      "41642902",
+      "41642192",
+      "41604548",
+      "41536313",
+      "41533702",
+      "41520229",
+      "41514421",
+      "41479646",
+      "41454063",
+      "41348931",
+      "41330980",
+      "41315648",
+      "41269282",
+      "41248170",
+      "41231876",
+      "41166379",
+      "41154602",
+      "41153637",
+      "40889115",
+      "40695887",
+      "40691467",
+      "40629144",
+      "40231657"
+    ],
+    "refs": [
+      "35869277",
+      "35565354",
+      "34965582",
+      "32931549",
+      "31945018",
+      "31088372",
+      "30606230",
+      "30293088",
+      "30291241",
+      "29146569",
+      "28607512",
+      "27911828",
+      "27387949",
+      "27345400",
+      "26257062",
+      "26175931",
+      "25501392",
+      "25159663",
+      "24390350",
+      "24336805",
+      "24319262",
+      "24071849",
+      "23945592",
+      "23770567",
+      "23745585",
+      "23550303",
+      "23539594",
+      "22980975",
+      "22133146",
+      "22020437",
+      "21376230",
+      "21356337",
+      "21093383",
+      "19155295",
+      "19111387",
+      "18369380",
+      "17502601",
+      "16984892",
+      "16601750",
+      "16244221",
+      "14998494",
+      "14567915",
+      "12360277",
+      "12089322",
+      "11752579",
+      "10573421",
+      "10571020",
+      "9916985"
+    ],
+    "similar": [
+      "39789329",
+      "36064320",
+      "39256197",
+      "40251476",
+      "32533167",
+      "39426693",
+      "39751645",
+      "39602828",
+      "39871129",
+      "39644579",
+      "39470307",
+      "31856727",
+      "38867699",
+      "21375730",
+      "30963493",
+      "39186807",
+      "39408682",
+      "39210506",
+      "38342857",
+      "39096613",
+      "39227405",
+      "36049413",
+      "29481877",
+      "40155814",
+      "40072848",
+      "24968068",
+      "27064982",
+      "30142158",
+      "39523622",
+      "40067266",
+      "38643595",
+      "33706810",
+      "24223834",
+      "39934680",
+      "32019413",
+      "39848362",
+      "36933628",
+      "38670157",
+      "39987715",
+      "36639646",
+      "39804102",
+      "34890164",
+      "39968416",
+      "34009265",
+      "39384707",
+      "38446654",
+      "26763900",
+      "31634852",
+      "29137601",
+      "39142001",
+      "40313967",
+      "38678587",
+      "38863714",
+      "25281301",
+      "25707768",
+      "37862225",
+      "38844961",
+      "39700492",
+      "38225583",
+      "26518901",
+      "39656775",
+      "30012015",
+      "39692449",
+      "26505200",
+      "39071134",
+      "39695368",
+      "27035433",
+      "31480350",
+      "25024357",
+      "38729996",
+      "29897412",
+      "31059106",
+      "38652712",
+      "28005952",
+      "34402865",
+      "20418949",
+      "33838602",
+      "24895499",
+      "31349729",
+      "40194558",
+      "33963829",
+      "39704704",
+      "39550022",
+      "25087086",
+      "38254021",
+      "17415519",
+      "39401117",
+      "39326482",
+      "39395234",
+      "39177104",
+      "30726216",
+      "37978418",
+      "32446956",
+      "27580177",
+      "35439150",
+      "40313958",
+      "40116659",
+      "24497942",
+      "39626533",
+      "36889026"
+    ],
+    "review": [
+      "39789329",
+      "39804102",
+      "38729996"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41551-024-01312-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

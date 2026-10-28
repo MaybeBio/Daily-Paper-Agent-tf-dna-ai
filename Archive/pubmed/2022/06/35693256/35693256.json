@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "35693256",
+    "doi": "10.1155/2022/9705275",
+    "title": "Research on DNA-Binding Protein Identification Method Based on LSTM-CNN Feature Fusion."
+  },
+  "content": {
+    "abstract": "Protein is closely related to life activities. As a kind of protein, DNA-binding protein plays an irreplaceable role in life activities. Therefore, it is very important to study DNA-binding protein, which is a subject worthy of study. Although traditional biotechnology has high precision, its cost and efficiency are increasingly unable to meet the needs of modern society. Machine learning methods can make up for the deficiencies of biological experimental techniques to a certain extent, but they are not as simple and fast as deep learning for data processing. In this paper, a deep learning framework based on parallel long and short-term memory(LSTM) and convolutional neural networks(CNN) was proposed to identify DNA-binding protein. This model can not only further extract the information and features of protein sequences, but also the features of evolutionary information. Finally, the two features are combined for training and testing. On the PDB2272 dataset, compared with PDBP_Fusion model, Accuracy(ACC) and Matthew's Correlation Coefficient (MCC) increased by 3.82% and 7.98% respectively. The experimental results of this model have certain advantages.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*DNA-Binding Proteins",
+      "Humans",
+      "Machine Learning",
+      "*Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Weizhong",
+        "Chen, Xiaoyi",
+        "Zhang, Yu",
+        "Wu, Hongjie",
+        "Ding, Yijie",
+        "Shen, Jiawei",
+        "Guan, Shixuan",
+        "Li, Haiou"
+      ],
+      "short_names": [
+        "Lu W",
+        "Chen X",
+        "Zhang Y",
+        "Wu H",
+        "Ding Y",
+        "Shen J",
+        "Guan S",
+        "Li H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8754-5489",
+        "ORCID: 0000-0001-5921-8707",
+        "ORCID: 0000-0003-2911-7643"
+      ],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "Provincial Key Laboratory for Computer Information Processing Technology, Soochow University, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "Suzhou Industrial Park Institute of Services Outsourcing, Suzhou 215123, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324000, P.R, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Weizhong",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China.",
+          "Provincial Key Laboratory for Computer Information Processing Technology, Soochow University, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoyi",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0002-8754-5489"
+        ],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Industrial Park Institute of Services Outsourcing, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0001-5921-8707"
+        ],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [
+          "0000-0003-2911-7643"
+        ],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324000, P.R, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Jiawei",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Shixuan",
+        "short_name": "Guan S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiou",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou 215009, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and mathematical methods in medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Math Methods Med"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/14 06:00",
+    "fetched_at": "2026-09-28 09:44:06"
+  },
+  "links": {
+    "cites": [
+      "39657630"
+    ],
+    "refs": [
+      "34743286",
+      "33986992",
+      "32775434",
+      "31267738",
+      "31228283",
+      "30802041",
+      "29753757",
+      "29287069",
+      "28961273",
+      "27907159",
+      "27542402",
+      "27490858",
+      "27411231",
+      "27307608",
+      "26482832",
+      "26335556",
+      "26213851",
+      "25248192",
+      "20525822",
+      "18515839",
+      "18276468",
+      "12824396",
+      "11452024"
+    ],
+    "similar": [
+      "35693256",
+      "33986992",
+      "30071670",
+      "37402073",
+      "31725778",
+      "36590235",
+      "35605495",
+      "33424547",
+      "34614452",
+      "36366228",
+      "38604414",
+      "34601431",
+      "36719781",
+      "34577436",
+      "35591209",
+      "35009865",
+      "32366055",
+      "33980138",
+      "31305921",
+      "30323214",
+      "29287069",
+      "37896468",
+      "33652697",
+      "34199559",
+      "33378269",
+      "35325031",
+      "34118670",
+      "34206540",
+      "31760248",
+      "32808039",
+      "32004641",
+      "35800687",
+      "35083336",
+      "35062502",
+      "35336437",
+      "35281195",
+      "33018617",
+      "34659395",
+      "33940915",
+      "34743286",
+      "33001309",
+      "31035406",
+      "29182152",
+      "32449176",
+      "31946581",
+      "32750962",
+      "37810796",
+      "33988840",
+      "34306171",
+      "33949998",
+      "34305565",
+      "33923712",
+      "33334313",
+      "34640934",
+      "34204443",
+      "33266267",
+      "29994460",
+      "29060597",
+      "34656864",
+      "33435633",
+      "24151525",
+      "38082253",
+      "34695921",
+      "33794507",
+      "35633492",
+      "33808317",
+      "32326349",
+      "29996546",
+      "35161459",
+      "30040656",
+      "34159204",
+      "30626132",
+      "35016607",
+      "31874640",
+      "35746325",
+      "30440301",
+      "31710668",
+      "31810201",
+      "34440291",
+      "35676633",
+      "35603935",
+      "35801442",
+      "35805201",
+      "35303216",
+      "37845681",
+      "39270885",
+      "34670488",
+      "38248912",
+      "37437362",
+      "31212665",
+      "38347788",
+      "37319057",
+      "36699417"
+    ],
+    "review": [
+      "35693256"
+    ],
+    "pmc": [
+      "9184165"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35693256/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35693256",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/9705275",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

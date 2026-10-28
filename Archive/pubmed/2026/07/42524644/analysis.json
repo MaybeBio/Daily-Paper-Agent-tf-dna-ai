@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42524644",
+  "title": "Machine learning identifies neutrophil-related signatures for diagnostic value in neonatal sepsis.",
+  "authors": "Chen, Qibing; Chen, Jiandong; Zhong, Ronghua",
+  "journal": "Journal of clinical biochemistry and nutrition",
+  "published_date": "2026-07-29",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习筛选新生儿脓毒症中性粒细胞相关诊断基因，仅涉及miRNA-TF调控网络预测，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "Neonatal sepsis (NS) is one of the leading causes of neonatal mortality. The nonspecific clinical manifestations and the limited timeliness of existing biomarkers (such as C-reactive protein) highlight the urgent need for highly accurate diagnostic tools. Neutrophils, as key effector cells of innate immunity, are closely involved in the progression of NS. This study integrated training (GSE69686) and validation (GSE25504) datasets from the GEO database. Neutrophil infiltration characteristics were analyzed utilizing CIBERSORT, and weighted gene co-expression network analysis (WGCNA) was introduced to determine neutrophil-related co-expression modules. Three machine learning algorithms-LASSO, SVM-RFE, and RF-were implemented to cross-screen core diagnostic genes. A combined diagnostic model was distributed based on these genes. NetworkAnalyst was utilized to predict miRNA-TF regulatory networks, and GSVA was conducted to interpret biological functions. Three algorithms identified IL1R2 and METTL7B as core diagnostic genes; the model showed strong reliability. IL1R2 high expression correlated with reduced CD8(+) T cells, regulatory T cells, and neutrophils (p<0.05). METTL7B high expression linked positively to B cells and negatively to NK cells/neutrophils. The two genes synergistically cause immune cell dysfunction. Six miRNAs and 15 transcription factors (e.g., NFKB1/RELA, STAT3) regulating these genes were found, involved in inflammation and metabolic reprogramming. Integrating neutrophil infiltration and triple-machine-learning, this study first proposed an IL1R2/METTL7B two-gene panel. The model had high accuracy and generalizability, potentially contributing to NS pathogenesis via immune dysfunction and metabolic reprogramming, supporting rapid diagnostics and targeted interventions.",
+  "abstract_zh": "新生儿败血症（Neonatal sepsis, NS）是导致新生儿死亡的主要原因之一。其非特异性临床表现及现有生物标志物（如C反应蛋白）时效性有限，凸显了对高精度诊断工具的迫切需求。中性粒细胞作为先天免疫的关键效应细胞，密切参与NS的进展。本研究整合了GEO数据库中的训练集（GSE69686）和验证集（GSE25504）。利用CIBERSORT分析中性粒细胞浸润特征，并引入加权基因共表达网络分析（WGCNA）以确定中性粒细胞相关共表达模块。采用三种机器学习算法——LASSO、SVM-RFE和RF——进行核心诊断基因的交叉筛选。基于这些基因构建了联合诊断模型。利用NetworkAnalyst预测miRNA-TF调控网络，并通过GSVA解释生物学功能。三种算法鉴定出IL1R2和METTL7B为核心诊断基因；该模型显示出较强的可靠性。IL1R2高表达与CD8(+) T细胞、调节性T细胞和中性粒细胞减少相关（p<0.05）。METTL7B高表达与B细胞正相关，与NK细胞/中性粒细胞负相关。这两个基因协同导致免疫细胞功能障碍。发现调控这些基因的6个miRNA和15个转录因子（如NFKB1/RELA、STAT3），涉及炎症和代谢重编程。通过整合中性粒细胞浸润和三元机器学习，本研究首次提出IL1R2/METTL7B双基因组合。该模型具有高准确性和泛化能力，可能通过免疫功能障碍和代谢重编程促进NS发病机制，支持快速诊断和靶向干预。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42524644/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42524644/",
+  "paper_page_path": "papers/pubmed/42524644/index.html"
+}

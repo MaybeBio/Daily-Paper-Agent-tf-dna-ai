@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "39823264",
+    "doi": "10.1111/jcmm.70323",
+    "title": "Cellular Senescence Genes as Cutting-Edge Signatures for Abdominal Aortic Aneurysm Diagnosis: Potential for Innovative Therapeutic Interventions."
+  },
+  "content": {
+    "abstract": "Abdominal aortic aneurysm (AAA) is the most prevalent dilated arterial aneurysm that poses a significant threat to older adults, but the molecular mechanisms linking senescence to AAA progression remain poorly understood. This study aims to identify cellular senescence-related genes (SRGs) implicated in AAA development and assess their potential as therapeutic targets. Four hundred and twenty-nine differentially expressed genes (DEGs) were identified from the GSE57691 training set, and 867 SRGs were obtained. Through the intersection of DEGs with SRGs, 19 differentially expressed senescence-related genes (DESRGs) were uncovered. Functional enrichment analysis was performed to explore their biological roles in AAA. To identify hub genes, we applied machine learning algorithms, including LASSO, SVM-RFE and random forest. These hub genes were then validated in two independent datasets. In the initial validation cohort, significant differences in the expression levels of BTG2, ETS1, ID1 and ITPR3 were observed between the AAA and control groups. Receiver operating characteristic (ROC) analysis demonstrated a robust diagnostic performance. Further validation across different AAA stages (small, large and ruptured AAA) identified ETS1 and ITPR3 as potential diagnostic genes. Subsequently, the diagnostic relevance of ETS1 and ITPR3 was further validated in human serum samples and mouse models of AAA. In addition, single-cell RNA sequencing suggests that senescent endothelial cells play a pivotal role in AAA progression, we further confirmed the correlation between ETS1 and ITPR3 and senescent endothelial cells by WB, IF and RT-qPCR. In conclusion, our study reveals the pivotal role of cellular senescence in AAA progression and identifies ETS1 and ITPR3 as promising diagnostic biomarkers.",
+    "keywords": [
+      "ETS1",
+      "abdominal aortic aneurysm",
+      "biomarkers",
+      "cellular senescence-related genes",
+      "machine learning",
+      "therapeutic interventions"
+    ],
+    "mesh_terms": [
+      "*Aortic Aneurysm, Abdominal/genetics/diagnosis",
+      "Humans",
+      "*Cellular Senescence/genetics",
+      "Animals",
+      "Mice",
+      "Gene Expression Profiling",
+      "Biomarkers",
+      "Gene Regulatory Networks",
+      "Male",
+      "Proto-Oncogene Protein c-ets-1/genetics",
+      "Transcriptome",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuli",
+        "Li, Jiayin",
+        "Wang, Ruichen",
+        "Zhao, Xiaojie",
+        "Mei, Zhu",
+        "Wang, Xiaozeng"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Li J",
+        "Wang R",
+        "Zhao X",
+        "Mei Z",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1979-0287"
+      ],
+      "affiliations": [
+        "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "Northeastern University, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuli",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruichen",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Northeastern University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaojie",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Zhu",
+        "short_name": "Mei Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical and Bioinformatics Engineering, Northeastern University, Shenyang, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaozeng",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-1979-0287"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/17 18:23",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39017852",
+      "38604170",
+      "38022704",
+      "37972608",
+      "37962376",
+      "37818548",
+      "37751480",
+      "37565573",
+      "37100862",
+      "36942826",
+      "36834544",
+      "36736165",
+      "36552246",
+      "35977132",
+      "35769488",
+      "35476452",
+      "35075181",
+      "35052774",
+      "34950048",
+      "34667279",
+      "34557778",
+      "34420357",
+      "34062172",
+      "34022272",
+      "33779682",
+      "32949214",
+      "32264951",
+      "31864346",
+      "31722692",
+      "31178118",
+      "31109450",
+      "30931480",
+      "30917677",
+      "30531897",
+      "30453885",
+      "30355080",
+      "30337540",
+      "29912392",
+      "29556500",
+      "29268916",
+      "29049590",
+      "28673480",
+      "28347473",
+      "28182849",
+      "27650558",
+      "27402766",
+      "27283346",
+      "27213333",
+      "25944698",
+      "25605792",
+      "25341896",
+      "24249717",
+      "23241402",
+      "22135297",
+      "21079638",
+      "20618519",
+      "20031636",
+      "19585947",
+      "19047592",
+      "17122446",
+      "15866312",
+      "15247905",
+      "12971829",
+      "12829616"
+    ],
+    "similar": [
+      "39823264",
+      "41557627",
+      "40532306",
+      "39512836",
+      "39173977",
+      "40561071",
+      "38867262",
+      "35381314",
+      "42175497",
+      "41183720",
+      "41200172",
+      "39600608",
+      "41815567",
+      "41461777",
+      "34852854",
+      "41816342",
+      "40775512",
+      "40915059",
+      "31553078",
+      "40612944",
+      "35503629",
+      "40140755",
+      "40948769",
+      "41884632",
+      "34637689",
+      "36582740",
+      "41073490",
+      "42327787",
+      "41079183",
+      "39697326",
+      "39103059",
+      "35769488",
+      "36186997",
+      "42216376",
+      "40967560",
+      "38728466",
+      "40791849",
+      "41388523",
+      "40857330",
+      "34139912",
+      "40557159",
+      "36341412",
+      "41511918",
+      "35447046",
+      "38070790",
+      "39328407",
+      "35299890",
+      "39754246",
+      "41544137",
+      "34777635",
+      "42233387",
+      "40510349",
+      "39723205",
+      "29439675",
+      "39234237",
+      "41487007",
+      "39738612",
+      "42267557",
+      "32783773",
+      "34814367",
+      "41299613",
+      "41291841",
+      "41044520",
+      "42161063",
+      "41024137",
+      "42327749",
+      "42291452",
+      "38112597",
+      "40374840",
+      "41146237",
+      "27157464",
+      "33407182",
+      "41151411",
+      "41006883",
+      "41677271",
+      "41422136",
+      "39508893",
+      "38785203",
+      "32678909",
+      "22704053",
+      "40849369",
+      "41665627",
+      "42254657",
+      "41816328",
+      "41107929",
+      "41789070",
+      "33415145",
+      "34686186",
+      "41262249",
+      "41013440",
+      "40901831",
+      "41208012",
+      "30614051",
+      "42064079",
+      "31730405",
+      "42107160",
+      "40898234",
+      "33801150",
+      "37737183",
+      "40328901"
+    ],
+    "review": [
+      "39823264",
+      "41665627"
+    ],
+    "pmc": [
+      "11740988"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39823264.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39823264/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.70323",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

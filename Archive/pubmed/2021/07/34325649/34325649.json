@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "34325649",
+    "doi": "10.1186/s12874-021-01299-6",
+    "title": "A new hybrid record linkage process to make epidemiological databases interoperable: application to the GEMO and GENEPSO studies involving BRCA1 and BRCA2 mutation carriers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Linking independent sources of data describing the same individuals enable innovative epidemiological and health studies but require a robust record linkage approach. We describe a hybrid record linkage process to link databases from two independent ongoing French national studies, GEMO (Genetic Modifiers of BRCA1 and BRCA2), which focuses on the identification of genetic factors modifying cancer risk of BRCA1 and BRCA2 mutation carriers, and GENEPSO (prospective cohort of BRCAx mutation carriers), which focuses on environmental and lifestyle risk factors. METHODS: To identify as many as possible of the individuals participating in the two studies but not registered by a shared identifier, we combined probabilistic record linkage (PRL) and supervised machine learning (ML). This approach (named \"PRL + ML\") combined together the candidate matches identified by both approaches. We built the ML model using the gold standard on a first version of the two databases as a training dataset. This gold standard was obtained from PRL-derived matches verified by an exhaustive manual review. Results The Random Forest (RF) algorithm showed a highest recall (0.985) among six widely used ML algorithms: RF, Bagged trees, AdaBoost, Support Vector Machine, Neural Network. Therefore, RF was selected to build the ML model since our goal was to identify the maximum number of true matches. Our combined linkage PRL + ML showed a higher recall (range 0.988-0.992) than either PRL (range 0.916-0.991) or ML (0.981) alone. It identified 1995 individuals participating in both GEMO (6375 participants) and GENEPSO (4925 participants). CONCLUSIONS: Our hybrid linkage process represents an efficient tool for linking GEMO and GENEPSO. It may be generalizable to other epidemiological studies involving other databases and registries.",
+    "keywords": [
+      "Hybrid process",
+      "Probabilistic linkage",
+      "Record linkage",
+      "Supervised machine learning"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*BRCA1 Protein/genetics",
+      "*BRCA2 Protein/genetics",
+      "Breast Neoplasms",
+      "Cohort Studies",
+      "Databases, Factual",
+      "Genetic Predisposition to Disease",
+      "Mutation",
+      "Prospective Studies",
+      "Risk"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiao, Yue",
+        "Lesueur, Fabienne",
+        "Azencott, Chloe-Agathe",
+        "Laurent, Maite",
+        "Mebirouk, Noura",
+        "Laborde, Lilian",
+        "Beauvallet, Juana",
+        "Dondon, Marie-Gabrielle",
+        "Eon-Marchais, Severine",
+        "Lauge, Anthony",
+        "Nogues, Catherine",
+        "Andrieu, Nadine",
+        "Stoppa-Lyonnet, Dominique",
+        "Caputo, Sandrine M"
+      ],
+      "short_names": [
+        "Jiao Y",
+        "Lesueur F",
+        "Azencott CA",
+        "Laurent M",
+        "Mebirouk N",
+        "Laborde L",
+        "Beauvallet J",
+        "Dondon MG",
+        "Eon-Marchais S",
+        "Lauge A",
+        "Nogues C",
+        "Andrieu N",
+        "Stoppa-Lyonnet D",
+        "Caputo SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5338-9388"
+      ],
+      "affiliations": [
+        "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Mines ParisTech, PSL Research University, CBIO-Centre for Computational Biology, Paris, France.",
+        "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Institut Paoli-Calmettes, Centre de Traitement des Donnees IPC-PACA, Departement de la Recherche Clinique et de l'Innovation, Marseille, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+        "Institut Paoli-Calmettes, Departement d'Anticipation et de Suivi du Cancer, Oncogenetique clinique, Marseille France Inserm, U830, Universite Paris Descartes, Paris, France.",
+        "Aix Marseille Univ, INSERM, IRD, SESSTIM, Sciences Economiques et Sociales de la Sante & Traitement de l'Information Medicale, Marseille, France.",
+        "Inserm, U900, Paris, France.",
+        "Institut Curie, PSL Research University, Mines ParisTech, Paris, France.",
+        "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+        "Paris University, Paris, France.",
+        "Inserm, U830, Paris, France.",
+        "Department of Genetics, Institut Curie, PSL Research University, Paris, France. sandrine.caputo@curie.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiao, Yue",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lesueur, Fabienne",
+        "short_name": "Lesueur F",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Azencott, Chloé-Agathe",
+        "short_name": "Azencott CA",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Mines ParisTech, PSL Research University, CBIO-Centre for Computational Biology, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Laurent, Maïté",
+        "short_name": "Laurent M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Institut Curie, PSL Research University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Mebirouk, Noura",
+        "short_name": "Mebirouk N",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Laborde, Lilian",
+        "short_name": "Laborde L",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Paoli-Calmettes, Centre de Traitement des Données IPC-PACA, Département de la Recherche Clinique et de l'Innovation, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Beauvallet, Juana",
+        "short_name": "Beauvallet J",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dondon, Marie-Gabrielle",
+        "short_name": "Dondon MG",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Eon-Marchais, Séverine",
+        "short_name": "Eon-Marchais S",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Laugé, Anthony",
+        "short_name": "Laugé A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Institut Curie, PSL Research University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Noguès, Catherine",
+        "short_name": "Noguès C",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Paoli-Calmettes, Département d'Anticipation et de Suivi du Cancer, Oncogénétique clinique, Marseille France Inserm, U830, Université Paris Descartes, Paris, France.",
+          "Aix Marseille Univ, INSERM, IRD, SESSTIM, Sciences Economiques et Sociales de la Santé & Traitement de l'Information Médicale, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Andrieu, Nadine",
+        "short_name": "Andrieu N",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, U900, Paris, France.",
+          "Institut Curie, PSL Research University, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Stoppa-Lyonnet, Dominique",
+        "short_name": "Stoppa-Lyonnet D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Institut Curie, PSL Research University, Paris, France.",
+          "Paris University, Paris, France.",
+          "Inserm, U830, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Caputo, Sandrine M",
+        "short_name": "Caputo SM",
+        "identifiers": [
+          "0000-0001-5338-9388"
+        ],
+        "affiliations": [
+          "Department of Genetics, Institut Curie, PSL Research University, Paris, France. sandrine.caputo@curie.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical research methodology"
+    ],
+    "journal_abbrev": [
+      "BMC Med Res Methodol"
+    ],
+    "pub_date": "2021 Jul 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/31 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42274624",
+      "34608931",
+      "34597585"
+    ],
+    "refs": [
+      "31948486",
+      "31792088",
+      "31550255",
+      "31360853",
+      "30430080",
+      "29936258",
+      "29446198",
+      "29025131",
+      "28632866",
+      "26931183",
+      "26004791",
+      "25613119",
+      "23918944",
+      "22956590",
+      "16622123",
+      "15778796",
+      "15178677",
+      "14426783",
+      "12185898"
+    ],
+    "similar": [
+      "34325649",
+      "22076253",
+      "22762150",
+      "18497862",
+      "20174566",
+      "24824314",
+      "40347974",
+      "33597508",
+      "20309627",
+      "20482762",
+      "28802188",
+      "22351618",
+      "23628597",
+      "27528622",
+      "21393566",
+      "21593217",
+      "20807450",
+      "23011509",
+      "32022473",
+      "31792088",
+      "20135344",
+      "25082516",
+      "16551851",
+      "27033093",
+      "34870614",
+      "23706288",
+      "31948486",
+      "20204502",
+      "31081934",
+      "24698998",
+      "26986251",
+      "22253144",
+      "22212556",
+      "19656774",
+      "20368571",
+      "30980249",
+      "32037537",
+      "33423179",
+      "26700119",
+      "21118973",
+      "12491499",
+      "28993434",
+      "26181175",
+      "34929424",
+      "33493488",
+      "23483928",
+      "27323902",
+      "9643283",
+      "30175445",
+      "28632866",
+      "26378051",
+      "23544012",
+      "26026974",
+      "12409590",
+      "29116468",
+      "18781154",
+      "22113258",
+      "27393621",
+      "33428613",
+      "32997669",
+      "26239694",
+      "26857456",
+      "30652428",
+      "39475295",
+      "26195121",
+      "39356978",
+      "18327210",
+      "19802015",
+      "25613119",
+      "31581314",
+      "40399999",
+      "35216860",
+      "22348646",
+      "27015555",
+      "31706072",
+      "21614564",
+      "23341570",
+      "28609204",
+      "21425892",
+      "12473589",
+      "25808098",
+      "25971625",
+      "17196508",
+      "28343309",
+      "16818684",
+      "34320204",
+      "19858402",
+      "29164974",
+      "16648044",
+      "29206279",
+      "17972172",
+      "29483665",
+      "26951453",
+      "28477318",
+      "28727877",
+      "22405187",
+      "15654225",
+      "17582599",
+      "32698099",
+      "24789418"
+    ],
+    "review": [
+      "34325649",
+      "24824314",
+      "27528622",
+      "23483928",
+      "35216860"
+    ],
+    "pmc": [
+      "8320036"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01299-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34325649/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34325649",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

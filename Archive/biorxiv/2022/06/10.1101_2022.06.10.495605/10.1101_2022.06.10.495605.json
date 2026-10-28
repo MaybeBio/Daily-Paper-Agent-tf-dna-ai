@@ -1,0 +1,612 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.10.495605",
+  "title": "Global Profiling of c-Jun and JunB transcription factor binding sites in an ALK+ ALCL cell line",
+  "doi": "10.1101/2022.06.10.495605",
+  "abstract": "Anaplastic lymphoma kinase-positive, anaplastic large cell lymphoma (ALK+ ALCL) is a T cell lymphoma which features translocations or inversion involving the ALK tyrosine kinase gene, and results in oncogenic fusion proteins (e.g. NPM-ALK). The elevated expression and/or activation of activator protein-1 (AP-1) transcription factors, c-Jun and JunB, is another molecular feature of ALK+ ALCL. c-Jun/JunB transcriptional targets are important in the pathobiology of this lymphoma, and several are also therapeutic targets. To better understand c-Jun/JunB function in ALK+ ALCL, we performed chromatin immunoprecipitation–sequencing experiments in the Karpas 299 ALK+ ALCL cell line to comprehensively identify sites bound by these transcription factors. We identified 13,083 c-Jun and 40,369 JunB binding sites, and ∼60% of sites bound by c-Jun were shared with JunB. Many sites were associated with genes known or predicted to be important in the pathogenesis of ALK+ ALCL. Pathway enrichment analysis of genes associated with both c-Jun and JunB binding sites revealed a significant over-representation for pathways associated with cancer and cell signalling. Furthermore, we identified several c-Jun and JunB binding sites associated with the NIBAN2 / FAM129B gene. FAM129B is a PH domain-containing phosphoprotein that promotes proliferation in multiple cell types. However, while we found that FAM129B knock-down resulted in modest cell cycle alteration in most ALK+ ALCL cell lines, this did not appear to result in a significant proliferation defect. Finally, we found that inhibition of NPM-ALK and MEK/Erk signalling altered FAM129B electrophoretic mobility and decreased phosphorylation of FAM129B on serine residues known to be Erk phosphosites. In summary, this study is the first to globally profile sites bound by c-Jun/JunB in ALK+ ALCL. It reveals novel putative targets for these transcription factors in ALK+ ALCL, and identifies FAM129B as a novel phosphoprotein downstream of NPM-ALK signalling.",
+  "authors": [
+    "Zuoqiao Wu",
+    "Mary Nicoll",
+    "Farynna Loubich Facundo",
+    "Jingxi Zhang",
+    "Robert J. Ingham"
+  ],
+  "published_date": "2022-06-10",
+  "updated_date": "2022-06-10T12:50:40Z",
+  "journal": "bioRxiv",
+  "category": "Cancer Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.10.495605",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.10.495605.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Cancer Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cancer Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:21:37Z",
+        "timestamp": 1768501297167,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            10
+          ]
+        ]
+      },
+      "group-title": "Cancer Biology",
+      "reference-count": 59,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Anaplastic lymphoma kinase-positive, anaplastic large cell lymphoma (ALK+ ALCL) is a T cell lymphoma which features translocations or inversion involving the\n                  <jats:italic>ALK</jats:italic>\n                  tyrosine kinase gene, and results in oncogenic fusion proteins (e.g. NPM-ALK). The elevated expression and/or activation of activator protein-1 (AP-1) transcription factors, c-Jun and JunB, is another molecular feature of ALK+ ALCL. c-Jun/JunB transcriptional targets are important in the pathobiology of this lymphoma, and several are also therapeutic targets. To better understand c-Jun/JunB function in ALK+ ALCL, we performed chromatin immunoprecipitation–sequencing experiments in the Karpas 299 ALK+ ALCL cell line to comprehensively identify sites bound by these transcription factors. We identified 13,083 c-Jun and 40,369 JunB binding sites, and ∼60% of sites bound by c-Jun were shared with JunB. Many sites were associated with genes known or predicted to be important in the pathogenesis of ALK+ ALCL. Pathway enrichment analysis of genes associated with both c-Jun and JunB binding sites revealed a significant over-representation for pathways associated with cancer and cell signalling. Furthermore, we identified several c-Jun and JunB binding sites associated with the\n                  <jats:italic>NIBAN2</jats:italic>\n                  /\n                  <jats:italic>FAM129B</jats:italic>\n                  gene. FAM129B is a PH domain-containing phosphoprotein that promotes proliferation in multiple cell types. However, while we found that FAM129B knock-down resulted in modest cell cycle alteration in most ALK+ ALCL cell lines, this did not appear to result in a significant proliferation defect. Finally, we found that inhibition of NPM-ALK and MEK/Erk signalling altered FAM129B electrophoretic mobility and decreased phosphorylation of FAM129B on serine residues known to be Erk phosphosites. In summary, this study is the first to globally profile sites bound by c-Jun/JunB in ALK+ ALCL. It reveals novel putative targets for these transcription factors in ALK+ ALCL, and identifies FAM129B as a novel phosphoprotein downstream of NPM-ALK signalling.\n                </jats:p>",
+      "DOI": "10.1101/2022.06.10.495605",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2022-06-10T12:50:40Z",
+        "timestamp": 1654865440000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Global Profiling of c-Jun and JunB transcription factor binding sites in an ALK+ ALCL cell line"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Zuoqiao",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mary",
+          "family": "Nicoll",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Farynna Loubich",
+          "family": "Facundo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jingxi",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2482-8641",
+          "authenticated-orcid": false,
+          "given": "Robert J.",
+          "family": "Ingham",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "6",
+          "key": "2022061303500756000_2022.06.10.495605v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1043",
+          "DOI": "10.1111/bjh.15763",
+          "article-title": "From bench to bedside: the past, present and future of therapy for systemic paediatric ALCL, ALK",
+          "volume": "185",
+          "year": "2019",
+          "journal-title": "Br J Haematol"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.2",
+          "unstructured": "Delsol G , Falini, B. , Muller-Hermelink, H.K. , Campo, E. , Jaffe, E.S. , Gascoyne, R.D. , Stein, H. , Kinney, M.C. Anaplastic large cell lymphoma (ALCL), ALK-positive. In: Swerdlow S.H. CE , Harris N.L. , Jaffe E.S. , Pileri S.A. , Stein H. , Thiele J. , Vardiman, J.W. , editor. WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues. 4th ed. Lyon: International Agency for Research on Cancer (IARC); 2008. p. 429."
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.3",
+          "first-page": "123253",
+          "article-title": "NPM-ALK: The Prototypic Member of a Family of Oncogenic Fusion Tyrosine Kinases",
+          "volume": "2012",
+          "year": "2012",
+          "journal-title": "Journal of signal transduction"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.2741/s441",
+          "article-title": "Anaplastic lymphoma kinase: activating mechanisms and signaling pathways",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "Front Biosci (Schol Ed)"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2007-02-071258"
+        },
+        {
+          "issue": "17",
+          "key": "2022061303500756000_2022.06.10.495605v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "7628",
+          "DOI": "10.1158/0008-5472.CAN-05-0925",
+          "article-title": "JunB induced by constitutive CD30-extracellular signal-regulated kinase 1/2 mitogen-activated protein kinase signaling activates the CD30 promoter in anaplastic large cell lymphoma and reed-sternberg cells of Hodgkin lymphoma",
+          "volume": "65",
+          "year": "2005",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/01.pas.0000213412.25935.e4"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1204383"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb0502-e131"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1204385"
+        },
+        {
+          "issue": "4",
+          "key": "2022061303500756000_2022.06.10.495605v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "514",
+          "DOI": "10.1111/bjh.13079",
+          "article-title": "The oncogenic JUNB/CD30 axis contributes to cell cycle deregulation in ALK+ anaplastic large cell lymphoma",
+          "volume": "167",
+          "year": "2014",
+          "journal-title": "Br J Haematol"
+        },
+        {
+          "issue": "1",
+          "key": "2022061303500756000_2022.06.10.495605v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "16019",
+          "DOI": "10.1038/s41598-018-34199-9",
+          "article-title": "The c-Jun and JunB transcription factors facilitate the transit of classical Hodgkin lymphoma tumour cells through G1",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2006-11-059451"
+        },
+        {
+          "issue": "1",
+          "key": "2022061303500756000_2022.06.10.495605v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1186/s40164-020-00197-9",
+          "article-title": "AP-1 family transcription factors: a diverse family of proteins that regulate varied cellular activities in classical hodgkin lymphoma and ALK+ ALCL",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "Experimental hematology & oncology"
+        },
+        {
+          "issue": "10",
+          "key": "2022061303500756000_2022.06.10.495605v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "4005",
+          "DOI": "10.1182/blood.V88.10.4005.bloodjournal88104005",
+          "article-title": "Anaplastic large-cell lymphomas of T-cell and null-cell phenotype express cytotoxic molecules",
+          "volume": "88",
+          "year": "1996",
+          "journal-title": "Blood"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02255598"
+        },
+        {
+          "issue": "2",
+          "key": "2022061303500756000_2022.06.10.495605v1.17",
+          "first-page": "124",
+          "article-title": "NPM-ALK and the JunB transcription factor regulate the expression of cytotoxic molecules in ALK-positive, anaplastic large cell lymphoma",
+          "volume": "4",
+          "year": "2011",
+          "journal-title": "Int J Clin Exp Pathol"
+        },
+        {
+          "issue": "1",
+          "key": "2022061303500756000_2022.06.10.495605v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1186/1476-4598-13-199",
+          "article-title": "Expression of granzyme B sensitizes ALK+ ALCL tumour cells to apoptosis-inducing drugs",
+          "volume": "13",
+          "year": "2014",
+          "journal-title": "Molecular cancer"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm.2966"
+        },
+        {
+          "issue": "11",
+          "key": "2022061303500756000_2022.06.10.495605v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2162",
+          "DOI": "10.1038/leu.2015.127",
+          "article-title": "Constitutive control of AKT1 gene expression by JUNB/CJUN in ALK+ anaplastic large-cell lymphoma: a novel crosstalk mechanism",
+          "volume": "29",
+          "year": "2015",
+          "journal-title": "Leukemia"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2407-12-229"
+        },
+        {
+          "issue": "17",
+          "key": "2022061303500756000_2022.06.10.495605v1.22",
+          "first-page": "2189",
+          "article-title": "GSK3-SCF(FBXW7) targets JunB for degradation in G2 to preserve chromatid cohesion before anaphase",
+          "volume": "32",
+          "year": "2012",
+          "journal-title": "Oncogene"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/dnares/12.2.139"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "issue": "10",
+          "key": "2022061303500756000_2022.06.10.495605v1.25",
+          "first-page": "1010",
+          "volume": "25",
+          "year": "2011",
+          "journal-title": "CpG islands and the regulation of transcription. Genes & development"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-07-4709"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1205152"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1207703"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2014-08-594507"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/path.1346"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/jcp.2004.022335"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2353/ajpath.2009.080982"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1159/000348884"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/bjh.12246"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3324/haematol.2009.008631"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1102855108"
+        },
+        {
+          "issue": "11",
+          "key": "2022061303500756000_2022.06.10.495605v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "629",
+          "DOI": "10.1111/pin.12861",
+          "article-title": "Multiple functions of S100A10, an important cancer promoter",
+          "volume": "69",
+          "year": "2019",
+          "journal-title": "Pathology international"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4096"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr378"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1055"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jassal B , Matthews L , Viteri G , Gong C , Lorente P , Fabregat A , et al. The reactome pathway knowledgebase. Nucleic Acids Res. 2019. Epub 2019/11/07.",
+          "DOI": "10.1093/nar/gkz1031"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1070"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2009.03.007"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1517112113"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "7493",
+          "DOI": "10.2147/OTT.S161852",
+          "article-title": "FAM129B promoted tumor invasion and proliferation via facilitating the phosphorylation of FAK signaling and associated with adverse clinical outcome of non-small cell lung cancer patients",
+          "volume": "11",
+          "year": "2018",
+          "journal-title": "OncoTargets and therapy"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajpath.2011.03.045"
+        },
+        {
+          "issue": "1",
+          "key": "2022061303500756000_2022.06.10.495605v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1016/j.bbcan.2019.04.003",
+          "article-title": "The AP-1 transcriptional complex: Local switch or remote command?",
+          "volume": "1872",
+          "year": "2019",
+          "journal-title": "Biochimica et biophysica acta Reviews on cancer"
+        },
+        {
+          "issue": "3",
+          "key": "2022061303500756000_2022.06.10.495605v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "696",
+          "DOI": "10.1038/s41375-018-0239-1",
+          "article-title": "Dependency on the TYK2/STAT1/MCL1 axis in anaplastic large cell lymphoma",
+          "volume": "33",
+          "year": "2019",
+          "journal-title": "Leukemia"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2010-09-301994"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41375-018-0045-9"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2012-01-405555"
+        },
+        {
+          "issue": "5",
+          "key": "2022061303500756000_2022.06.10.495605v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "331",
+          "DOI": "10.1002/mc.23295",
+          "article-title": "FAM129B-dependent activation of NRF2 promotes an invasive phenotype in BRAF mutant melanoma cells",
+          "volume": "60",
+          "year": "2021",
+          "journal-title": "Molecular carcinogenesis"
+        },
+        {
+          "issue": "5",
+          "key": "2022061303500756000_2022.06.10.495605v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1018",
+          "DOI": "10.1002/tox.23461",
+          "article-title": "Upregulation of FAM129B protects cardiomyocytes from hypoxia/reoxygenation-induced injury by inhibiting apoptosis, oxidative stress, and inflammatory response via enhancing Nrf2/ARE activation",
+          "volume": "37",
+          "year": "2022",
+          "journal-title": "Environmental toxicology"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1016/j.ebiom.2019.06.022",
+          "article-title": "FAM129B, an antioxidative protein, reduces chemosensitivity by competing with Nrf2 for Keap1 binding",
+          "volume": "45",
+          "year": "2019",
+          "journal-title": "EBioMedicine"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1754"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M507831200"
+        },
+        {
+          "key": "2022061303500756000_2022.06.10.495605v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.27"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.10.495605",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:11:56Z",
+        "timestamp": 1768446716000
+      },
+      "score": 97.505196,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.10.495605"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            10
+          ]
+        ]
+      },
+      "references-count": 59,
+      "URL": "https://doi.org/10.1101/2022.06.10.495605",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

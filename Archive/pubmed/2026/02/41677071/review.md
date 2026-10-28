@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented; no evaluation of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors present PlantCTCIP, a CNN-Transformer deep learning model for predicting promoter-proximal (PPI) and promoter-distal (PDI) chromatin interactions in four crop species (maize, rice, cotton, wheat). They report improved accuracy over four existing models, construct genome-wide interaction maps, validate predictions with Hi-C and 3C experiments, identify functional motifs enriched in eQTLs and open chromatin regions, and provide a web server.
+- **Visible evidence base** Main text figures referenced (Figures 1-8), supplementary figures and tables referenced (Figures S1-S24, Tables S1-S11), methods descriptions, data availability statement
+- **Missing materials affecting confidence** Actual figures and supplementary materials not provided; training/validation/test data splits not fully specified; hyperparameter tuning details incomplete; statistical significance testing methodology for AUC comparisons not described; code not inspected; Hi-C validation details (replicates, resolution, statistical significance of interaction calls) not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in plant genomics by adapting deep learning approaches for chromatin interaction prediction to crop species. The model architecture combining CNN and Transformer is reasonable and contemporary. However, the evidence as presented has several gaps that prevent full assessment of the claims. The performance improvements over baseline models are reported as aggregate percentages without clear statistical testing. The biological validation, while commendable, is limited to a small number of loci. The cross-species generalization claims are supported by transfer learning experiments, but the details are insufficient to evaluate robustness. The manuscript would benefit from clearer reporting of data splits, hyperparameter selection, and statistical significance of all reported improvements.
+- **Who would be interested in the results, and why** Plant molecular biologists and geneticists studying 3D genome organization and gene regulation; computational biologists developing deep learning methods for genomics; crop scientists interested in regulatory element discovery for breeding applications. The web server provides practical utility for the community.
+- **Major strengths** 1) Addresses a relevant problem in plant genomics with limited existing computational tools. 2) Model architecture is appropriate and contemporary, combining local feature extraction (CNN) with long-range dependency capture (Transformer). 3) Multi-species evaluation across monocots and dicots, including polyploid species. 4) Integration of multiple validation approaches (Hi-C, 3C, eQTL enrichment, motif analysis). 5) Provision of a publicly accessible web server enhances practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PlantCTCIP demonstrated superior performance compared to the conventional models. Specifically, PlantCTCIP improved the average AUC of chromatin interaction predictions by 14.56% across the four species in PPI mode. Similarly, PlantCTCIP improved the average AUC of chromatin interaction predictions by 9.6% in the PDI mode."
+  - **Evidence pointer** Figure 2A-H; location not provided
+  - **Concern** The reported AUC improvements are presented as aggregate averages without per-species breakdowns, confidence intervals, or statistical significance testing. The comparison methodology against baseline models is not fully described. It is unclear whether the same train/test splits were used across all models, whether hyperparameters for baseline models were optimized, and whether the improvements are statistically significant given potential variance across random seeds or data subsamples.
+  - **Why it matters** The central claim of the manuscript is that PlantCTCIP outperforms existing methods. Without rigorous statistical comparison, the reported improvements could be within noise or could reflect suboptimal baseline implementations rather than genuine architectural advantages.
+  - **Resolution test** Provide per-species AUC values with standard deviations across multiple runs, perform paired statistical tests (e.g., Wilcoxon signed-rank or McNemar) comparing PlantCTCIP against each baseline, and describe the hyperparameter optimization procedure for all models to ensure fair comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We constructed genome-wide chromatin interaction maps for four plants (maize, rice, cotton and wheat) through PlantCTCIP, further used the Hi-C experiment to validate correctness of the predicted PPIs and PDIs."
+  - **Evidence pointer** Figure 3D-H, Figure 5D-E; location not provided
+  - **Concern** The Hi-C validation is described only qualitatively ("exhibited a consistent interaction pattern"). No quantitative metrics are provided to assess agreement between predicted and experimentally observed interactions. The number of validated loci is small (two regions on maize chromosome 5, two regions on chromosomes 1 and 2). The resolution of Hi-C data (40 kb) is much coarser than the 1.5-3 kb sequence-level predictions, raising questions about how direct comparison was performed.
+  - **Why it matters** The claim that Hi-C experiments validate prediction accuracy is central to establishing biological relevance. Qualitative visual comparison is insufficient to demonstrate predictive validity, especially given the scale mismatch between prediction resolution and experimental resolution.
+  - **Resolution test** Provide quantitative overlap metrics (e.g., Jaccard index, recall, precision) between predicted and Hi-C detected interactions at matched resolutions. Describe the procedure for comparing sequence-level predictions with 40 kb Hi-C bins. Report the number of validated interactions and statistical significance of overlap.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "PlantCTCIP is available at http://www.plantctcip.com" and "Methods, including statements of data availability and any associated accession codes and references, are available at https://github.com/Zy-Wang-18/PlantCTCIP/tree/master."
+  - **Evidence pointer** Data Availability Statement; location not provided
+  - **Concern** The manuscript does not provide sufficient detail on model training procedures to ensure reproducibility. Key hyperparameters are mentioned (batch size, learning rate, dropout, kernel size, filter number) but the full architecture configuration, training epochs, early stopping criteria, data augmentation strategies, and exact train/validation/test splits are not fully specified. The GitHub repository is referenced but not inspected.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without complete training details, other researchers cannot reliably implement or benchmark the method.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, and data splits in the main text or supplementary materials. Ensure the GitHub repository contains all code, trained model weights, and example data necessary for full reproduction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The identified motifs exhibit significant species specificity and are significantly enriched in expression quantitative trait loci (eQTLs) and open chromatin regions."
+  - **Evidence pointer** Figure 3J-L, Figure 5H-I, Figure S11; location not provided
+  - **Concern** The motif analysis identifies many motifs (5746, 7266, 1809, 6382 in PPI mode across four species), but the biological interpretation is limited. The enrichment analysis in eQTLs and open chromatin regions is reported as significant, but the effect sizes are not quantified. The functional validation is limited to literature-based matching of a few motifs. The claim of "species specificity" is not rigorously tested beyond descriptive comparison.
+  - **Why it matters** The biological insights derived from motif analysis are a key contribution beyond prediction accuracy. Without quantitative enrichment effect sizes and rigorous species-specificity testing, the biological significance of the identified motifs remains unclear.
+  - **Resolution test** Report enrichment fold-changes and confidence intervals for eQTL and open chromatin enrichment. Perform formal statistical tests for species specificity (e.g., comparing motif frequencies across species with appropriate multiple testing correction). Provide functional validation for a larger set of motifs or clearly state the limitations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results show that transfer learning can significantly improve the prediction accuracy of PlantCTCIP compared to directly predicting chromatin interactions."
+  - **Evidence pointer** Figure S8; location not provided
+  - **Concern** The transfer learning experiments are described only in a supplementary figure. The specific source-target species combinations, the amount of fine-tuning data, and the magnitude of improvement are not described in the main text. It is unclear whether transfer learning was applied in both PPI and PDI modes and across all species pairs.
+  - **Why it matters** Cross-species generalization is a key claimed advantage. Without detailed reporting of transfer learning experimental design and results, this claim cannot be properly evaluated.
+  - **Resolution test** Provide a dedicated section describing transfer learning experiments, including source-target pairs, data amounts, fine-tuning strategies, and quantitative results with statistical significance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, PDI data processing
+  - **Evidence pointer** "The PDI datasets of shoot tissue comprising 11,207 PDIs (Li et al. 2019)."
+  - **Issue** This sentence is grammatically incomplete and unclear. It is not specified whether this is the training set size, the total dataset size, or the number of positive interactions.
+  - **Required correction** Rewrite to clearly state the dataset composition, e.g., "The PDI dataset from shoot tissue comprised 11,207 positive interaction pairs (Li et al. 2019)."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, motif analysis
+  - **Evidence pointer** "The threshold of the continuous gradient was set to 0.5"
+  - **Issue** The threshold description is ambiguous. It is unclear whether this threshold applies to the gradient values, the motif significance scores, or something else.
+  - **Required correction** Clarify what the threshold applies to and how it was determined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, Hi-C validation
+  - **Evidence pointer** "High Throughput Hi-C Sequencing" section
+  - **Issue** The description of Hi-C data analysis lacks details on quality control metrics, mapping statistics, and the criteria for defining significant interactions.
+  - **Required correction** Provide standard Hi-C data processing metrics and interaction calling criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, cross-species prediction
+  - **Evidence pointer** "The prediction accuracy of wheat and cotton is substantially lower than that of maize and rice."
+  - **Issue** The specific AUC values for each species are not provided in the main text, making it difficult to assess the magnitude of the difference.
+  - **Required correction** Report per-species AUC values in the main text or a clearly referenced table.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Web server description
+  - **Evidence pointer** "PlantCTCIP is available at http://www.plantctcip.com"
+  - **Issue** The web server functionality, input requirements, and output formats are not described.
+  - **Required correction** Add a brief description of the web server interface and usage.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 3I-J, Figure 5F-G
+  - **Evidence pointer** "The 50 random sampling results showed that high interactive OCRs (HI-OCR) have higher GC content, higher chromatin open state and enriching more active histone modification signals than the random OCRs"
+  - **Issue** The statistical test used for these comparisons is not specified.
+  - **Required correction** State the statistical test used and report effect sizes or confidence intervals.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical comparison of model performance), R1-M2 (quantitative Hi-C validation)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of CNN-Transformer to plant chromatin interaction prediction is novel in the plant domain, though similar architectures exist for human genomics. Scientific importance: High for the plant genomics community, providing a tool for regulatory element discovery in crops. Interdisciplinary readership: Limited; primarily relevant to computational biologists and plant molecular geneticists. Technical soundness: Partially established; the architecture is reasonable, but statistical rigor and validation details are insufficient. Readability for nonspecialists: Generally accessible, though some methods sections are dense and would benefit from clearer exposition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem with a reasonable approach, but the central performance claims require stronger statistical evidence, and the Hi-C validation needs quantitative metrics.
+
+## Risk / unsupported claims
+- The claim of "superior performance" over baseline models is not statistically substantiated as reported.
+- The claim that Hi-C experiments "validate" prediction accuracy is not quantitatively supported.
+- The claim of "significant" enrichment in eQTLs and open chromatin regions lacks reported effect sizes and test details.
+- The claim of "species specificity" of motifs is descriptive rather than rigorously tested.
+- The transfer learning improvement claim is not described in sufficient detail to evaluate.
+- The generalizability of the model to species beyond the four tested is asserted but not demonstrated.

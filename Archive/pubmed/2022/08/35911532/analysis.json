@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35911532",
+  "title": "Hub Genes Identification, Small Molecule Compounds Prediction for Atrial Fibrillation and Diagnostic Model Construction Based on XGBoost Algorithm.",
+  "authors": "Yang, Lingzhi; Chen, Yunwei; Huang, Wei",
+  "journal": "Frontiers in cardiovascular medicine",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于转录组数据整合与XGBoost构建房颤诊断模型，虽涉及转录因子-miRNA-mRNA网络，但核心为疾病生物标志物与药物预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia and engenders significant global health care burden. The underlying mechanisms of AF is remained to be revealed and current treatment options for AF have limitations. Besides, a detection system can help identify those at risk of developing AF and will enable personalized management. MATERIALS AND METHODS: In this study, we utilized the robust rank aggregation method to integrate six AF microarray datasets from the Gene Expression Omnibus database, and identified a set of differentially expressed genes between patients with AF and controls. Potential compounds were identified by mining the Connectivity Map database. Functional modules and closely-interacted clusters were identified using weighted gene co-expression network analysis and protein-protein interaction network, respectively. The overlapped hub genes were further filtered. Subsequent analyses were performed to analyze the function, biological features, and regulatory networks. Moreover, a reliable Machine Learning-based diagnostic model was constructed and visualized to clarify the diagnostic features of these genes. RESULTS: A total of 156 upregulated and 34 downregulated genes were identified, some of which had not been previously investigated. We showed that mitogen-activated protein kinase and epidermal growth factor receptor inhibitors were likely to mitigate AF based on Connectivity Map analysis. Four genes, including CXCL12, LTBP1, LOXL1, and IGFBP3, were identified as hub genes. CXCL12 was shown to play an important role in regulation of local inflammatory response and immune cell infiltration. Regulation of CXCL12 expression in AF was analyzed by constructing a transcription factor-miRNA-mRNA network. The Machine Learning-based diagnostic model generated in this study showed good efficacy and reliability. CONCLUSION: Key genes involving in the pathogenesis of AF and potential therapeutic compounds for AF were identified. The biological features of CXCL12 in AF were investigated using integrative bioinformatics tools. The results suggested that CXCL12 might be a biomarker that could be used for distinguishing subsets of AF, and indicated that CXCL12 might be an important intermediate in the development of AF. A reliable Machine Learning-based diagnostic model was constructed. Our work improved understanding of the mechanisms of AF predisposition and progression, and identified potential therapeutic avenues for treatment of AF.",
+  "abstract_zh": "背景：心房颤动（AF）是最常见的持续性心律失常，给全球医疗保健带来沉重负担。AF的潜在机制尚未完全揭示，目前AF的治疗选择存在局限性。此外，检测系统有助于识别有AF风险的人群，并实现个体化管理。材料与方法：在本研究中，我们利用稳健秩聚合方法整合了来自基因表达综合数据库的六个AF微阵列数据集，并识别了AF患者与对照组之间的差异表达基因。通过挖掘连接图谱数据库识别潜在化合物。分别使用加权基因共表达网络分析和蛋白质-蛋白质相互作用网络识别功能模块和紧密相互作用的簇。进一步筛选重叠的核心基因。随后进行分析以探讨其功能、生物学特征和调控网络。此外，构建并可视化了一个基于机器学习的可靠诊断模型，以阐明这些基因的诊断特征。结果：共识别出156个上调基因和34个下调基因，其中一些此前未被研究。我们基于连接图谱分析显示，丝裂原活化蛋白激酶和表皮生长因子受体抑制剂可能缓解AF。四个基因，包括CXCL12、LTBP1、LOXL1和IGFBP3，被确定为核心基因。CXCL12被证明在调节局部炎症反应和免疫细胞浸润中发挥重要作用。通过构建转录因子-微小RNA-mRNA网络分析了AF中CXCL12表达的调控。本研究生成的基于机器学习的诊断模型显示出良好的效能和可靠性。结论：识别了参与AF发病机制的关键基因和潜在治疗化合物。使用综合生物信息学工具研究了CXCL12在AF中的生物学特征。结果表明，CXCL12可能是一种可用于区分AF亚型的生物标志物，并提示CXCL12可能是AF发展中的重要中间体。构建了一个可靠的基于机器学习的诊断模型。我们的工作增进了对AF易感性和进展机制的理解，并确定了治疗AF的潜在途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35911532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35911532/",
+  "paper_page_path": "papers/pubmed/35911532/index.html"
+}

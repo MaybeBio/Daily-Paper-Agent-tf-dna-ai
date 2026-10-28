@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.10.561776",
+  "title": "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction",
+  "authors": "Gonzalo Benegas; Carlos Albors; Alan J. Aw; Chengzhong Ye; Yun S. Song",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-11",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于多序列比对的DNA语言模型GPN-MSA用于全基因组变异效应预测，虽涉及DNA序列建模但未聚焦蛋白质-DNA互作或TF-DNA结合机制，方法上属AI但对象与互作轴均偏离本课题核心。",
+  "abstract": "Whereas protein language models have demonstrated remarkable efficacy in predicting the effects of missense variants, DNA counterparts have not yet achieved a similar competitive edge for genome-wide variant effect predictions, especially in complex genomes such as that of humans. To address this challenge, we here introduce GPN-MSA, a novel framework for DNA language models that leverages whole-genome sequence alignments across multiple species and takes only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC, OMIM), experimental functional assays (DMS, DepMap), and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and non-coding variants.",
+  "abstract_zh": "尽管蛋白质语言模型在预测错义变异效应方面已展现出显著效能，但DNA对应模型在全基因组变异效应预测中尚未达到类似的竞争优势，尤其是在人类等复杂基因组中。为应对这一挑战，我们在此引入GPN-MSA，一种新颖的DNA语言模型框架，该框架利用跨物种的全基因组序列比对，且仅需数小时即可完成训练。在临床数据库（ClinVar、COSMIC、OMIM）、实验功能检测（DMS、DepMap）及群体基因组数据（gnomAD）的多个基准测试中，我们针对人类基因组的模型在编码区和非编码区变异的致病性预测上均取得了卓越性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.10.561776",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.10.561776",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.10.561776/index.html"
+}

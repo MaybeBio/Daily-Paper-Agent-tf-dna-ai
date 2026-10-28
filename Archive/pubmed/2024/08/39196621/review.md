@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, materials and methods summary)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text; no supplementary figures, tables, or datasets were available for inspection
+- **Shared manuscript claim summary** The authors propose an integrated transcription factor (TF) framework for regulatory T cell (Treg) identity and diversity, built from single-cell chromatin accessibility data and topic modeling, refined by allele-specific analysis of natural genetic variation, and validated by targeted genetic perturbations. They report that Treg diversity arises from imbricated combinations of TF activities rather than discrete sublineages, that FoxP3 acts as both activator and repressor across distinct chromatin programs, and that tissue-specific Treg adaptations and differential FoxP3 dependence across subsets map onto this framework.
+- **Visible evidence base** Main text figures referenced (Figs. 1–5), SI Appendix figures referenced (Figs. S1–S8), datasets referenced (Datasets S2–S7), GEO accession numbers
+- **Missing materials affecting confidence** All supplementary figures, tables, datasets, computational notes, and methodological details beyond brief summaries; raw data; full figure legends; details of statistical tests and multiple testing corrections; specifics of the topic modeling ensemble approach and AME calculations
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually ambitious and technically sophisticated effort to integrate TF activities into a coherent framework for Treg identity and diversity. The combination of single-cell chromatin profiling, topic modeling, and allele-specific analysis of natural genetic variation is innovative and potentially powerful. The validation experiments, particularly the Smarcc1 prediction and test, are commendable. However, the provided text lacks sufficient methodological detail and access to supplementary materials to fully evaluate the robustness of the topic model, the statistical rigor of the AME calculations, and the strength of several key claims. The central conclusion that Treg diversity is best described by imbricated TF combinations rather than discrete sublineages is plausible but requires stronger quantitative support than is visible in the text alone. The FoxP3 findings are interesting and partially consistent with prior literature, but the claim of resolving the activator-versus-repressor debate is overstated given the correlational nature of much of the evidence.
+- **Who would be interested in the results, and why** Immunologists studying regulatory T cell biology, gene regulatory networks, and transcriptional control of cell identity. Computational biologists working on single-cell epigenomics, topic modeling, and integration of genetic variation with chromatin data. Researchers interested in the mechanisms of tissue-resident T cell adaptation and the functional heterogeneity of Treg subsets. The framework and analytical pipeline could be of broader interest to those studying combinatorial TF control in other cell types.
+- **Major strengths** 1) The integration of multiple complementary approaches (scATAC-seq, topic modeling, natural genetic variation, genetic perturbation) is methodologically ambitious and, if robust, provides a powerful template for dissecting complex regulatory networks. 2) The use of allele-specific analysis in F1 mice to infer causal cis-regulatory effects is a rigorous and innovative strategy. 3) The validation of a novel regulator (Smarcc1) based on framework predictions demonstrates the predictive utility of the model. 4) The finding that FoxP3 exerts opposing effects on different chromatin programs, rather than a uniform genome-wide effect, is an important conceptual contribution. 5) The portability of the framework across tissues and the provision of a web application enhance its potential utility to the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / statistical rigor
+  - **Claim pointer** The authors claim that topic modeling produced a "coherent multifactor model" and a "stable framework of coregulated modules" (17 topics) that is reproducible across datasets.
+  - **Evidence pointer** Results section "An Integrated Treg TF Framework"; SI Appendix Computational Note 1; Fig. 2B; location not provided
+  - **Concern** The text states that an ensemble approach was used to create a consensus set of 17 reproducible topics, but no details are provided on how topic number was selected, how stability was quantified, how ensemble members were aggregated, or what thresholds defined "reproducible." The claim of reproducibility is supported only by a reference to Fig. 2B showing "excellent concordance," but the metric used and its statistical significance are not described.
+  - **Why it matters** The entire framework rests on the validity and stability of the topic model. If the topic number or membership is sensitive to analysis choices, all downstream claims about TF-topic associations, FoxP3 effects, and tissue-specific adaptations are compromised. Without transparent reporting of model selection and stability metrics, the core analytical foundation cannot be evaluated.
+  - **Resolution test** Provide detailed methods for topic model selection (e.g., perplexity, stability across random seeds, silhouette scores), quantitative stability metrics (e.g., adjusted Rand index between independent runs), and sensitivity analyses showing that key conclusions are robust to reasonable variations in model parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / causal inference
+  - **Claim pointer** The authors claim that allele-specific motif effects (AMEs) "causally identified" and "causally determined" the connection between TF motifs and target chromatin programs.
+  - **Evidence pointer** Results section "An Integrated Treg TF Framework"; SI Appendix Computational Note 2; Fig. 2C; location not provided
+  - **Concern** The AME approach is described only briefly. It is unclear how the authors distinguished cis-acting effects of sequence variation on chromatin accessibility from trans-acting effects, how they accounted for linkage disequilibrium between variants, how many variants per motif were analyzed, what statistical model was used, and how multiple testing was controlled across the large number of motif-topic combinations tested. The term "causal" is used repeatedly, but the inference chain from sequence variation to chromatin accessibility to TF activity involves several assumptions that are not articulated.
+  - **Why it matters** The claim of causal identification is a major selling point of the manuscript and distinguishes it from purely correlative approaches. If the statistical framework is underpowered, confounded by LD, or improperly controlled for multiple comparisons, the causal claims are not established. Overstating causal inference could mislead the field.
+  - **Resolution test** Provide a detailed description of the AME statistical model, including how allelic imbalance was quantified, how significance was determined, how multiple testing was controlled, and how sensitivity analyses (e.g., variant filtering, LD pruning) affected results. Clarify the assumptions required for causal interpretation and acknowledge limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength / claim support
+  - **Claim pointer** The authors claim that "FoxP3 is then required for Treg maturation to aTreg" and that FoxP3 "protects Treg identity, suppresses Tconv programs and enables the induction of aTreg-specific chromatin programs."
+  - **Evidence pointer** Results section "FoxP3 Control of Treg Identity"; Fig. 4; location not provided
+  - **Concern** The evidence for these claims comes from comparing FoxP3-deficient Treg-like cells to wild-type Tregs in heterozygous female mice. While this is a clever system, the text does not report the magnitude of the chromatin changes, the number of differentially accessible regions, the effect sizes, or the statistical thresholds used. The statement that FoxP3-deficient cells are "shifted wholesale" is qualitative. The claim that FoxP3 "protects" identity implies a specific temporal or mechanistic role that may not be directly testable with this static comparison.
+  - **Why it matters** The central role of FoxP3 in Treg biology is well established, but the specific claim that it is "required for maturation to aTreg" and the division of its effects into protective and inductive functions is a strong interpretation. Without quantitative reporting of the chromatin changes and a clear definition of "maturation," the claim is not fully supported by the visible evidence.
+  - **Resolution test** Report the number and magnitude of differentially accessible regions between WT and KO Tregs, the overlap with topic assignments, and the statistical significance. Provide a more nuanced interpretation that acknowledges the limitations of a static comparison and the possibility of indirect effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength / validation
+  - **Claim pointer** The authors claim that the framework "predicted a specific effect of Smarcc1 in aTreg-biased topics 3 and 10" and that CRISPR-Cas9-mediated deletion of Smarcc1 confirmed this prediction.
+  - **Evidence pointer** Results section "An Integrated Treg TF Framework"; Fig. 2G; location not provided
+  - **Concern** The validation experiment is described in a single sentence. No details are provided on the efficiency of the CRISPR deletion, the number of biological replicates, the magnitude of the chromatin changes, the specificity of the effect to predicted topics, or whether the effect was specific to Smarcc1 versus off-target effects. The statement that "Smarcc1-dependent OCRs were enriched for Topic 3 OCRs" is not quantified.
+  - **Why it matters** This validation is presented as a key demonstration of the framework's predictive power. If the experiment is underpowered or the effect is weak or nonspecific, the claim of successful prediction is not convincing. The lack of detail prevents assessment of whether this is a robust validation or a preliminary observation.
+  - **Resolution test** Provide full experimental details, including CRISPR editing efficiency, number of replicates, effect sizes, statistical significance, and a demonstration of specificity (e.g., comparison to unrelated TF deletions or rescue experiments).
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength / interpretation
+  - **Claim pointer** The authors claim that "RORγ+ and Helios+ Treg populations depend differentially on FoxP3" and that the differential susceptibility is "foretold by the topic activity of RORγ+ Treg chromatin."
+  - **Evidence pointer** Results section "FoxP3 Deficiency Differentially Affects Treg Subsets In Vivo"; Fig. 5; location not provided
+  - **Concern** The text reports a "modest increase" in RORγ+ cells in KO mice across several organs but a "major shift" in the colon. The claim that this differential susceptibility is "foretold" by topic activity is based on a comparison of RORγ+ vs. Helios+ Treg chromatin that is not described in detail. The causal link between the observed topic activity differences and the differential dependence on FoxP3 is speculative.
+  - **Why it matters** This is an interesting observation with potential clinical relevance, but the strength of the claim exceeds the visible evidence. The term "foretold" implies a predictive relationship that is not demonstrated. The interpretation that Helios and FoxP3 collaborate in a feed-forward loop is plausible but not directly tested.
+  - **Resolution test** Provide quantitative data on the topic activity differences between RORγ+ and Helios+ Tregs, the statistical significance of the differential FoxP3 dependence, and ideally a direct test of the proposed feed-forward loop (e.g., Helios overexpression or deletion in the context of FoxP3 deficiency).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Materials and Methods section "Data Analysis"; location not provided
+  - **Issue** The description of the topic modeling approach is too brief. Key parameters (e.g., number of topics tested, convergence criteria, initialization) and the ensemble strategy are not specified.
+  - **Required correction** Provide a detailed description of the topic modeling procedure, including model selection, ensemble aggregation, and reproducibility metrics, either in the main text or in a supplementary methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Differential accessibility analyses
+  - **Evidence pointer** Materials and Methods section "Data Analysis"; location not provided
+  - **Issue** The text mentions "significance by t test with Benjamini–Hochberg correction" for differential accessibility on the motif-topic framework, but no thresholds, effect sizes, or numbers of significant regions are reported in the main text.
+  - **Required correction** Report the number of significant regions, effect size distributions, and significance thresholds for each comparison, either in the main text or in supplementary tables.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation / overstatement
+  - **Affected element** Discussion of FoxP3 mechanism
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The statement that the results "resolve" the debate about whether FoxP3 acts as an activator or repressor is too strong. The data show context-dependent effects, but the mechanistic basis (direct vs. indirect, cofactor-dependent) is not established.
+  - **Required correction** Soften the language to indicate that the results "provide evidence for" or "are consistent with" context-dependent dual roles, rather than claiming resolution of the debate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation of framework predictions
+  - **Evidence pointer** Results section "An Integrated Treg TF Framework"; location not provided
+  - **Issue** The Smarcc1 validation is described very briefly. It is unclear whether this was a single experiment or replicated, and whether the authors tested other TF predictions that may have failed.
+  - **Required correction** Provide more detail on the Smarcc1 experiment and, ideally, report on the success rate of framework predictions across multiple validation attempts to allow assessment of the framework's predictive power.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web application
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The web application is mentioned but its functionality, data requirements, and limitations are not described.
+  - **Required correction** Briefly describe what users can do with the web application, what input formats are supported, and any limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (topic model stability and selection not documented), R1-M2 (AME statistical framework not described in sufficient detail to evaluate causal claims), R1-M3 (quantitative evidence for FoxP3-dependent chromatin changes not reported)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The combination of topic modeling with allele-specific analysis of natural genetic variation in single cells is a novel and creative approach to dissecting combinatorial TF control. The conceptual shift from discrete Treg sublineages to imbricated TF combinations is potentially important.
+  - Scientific importance: High. Understanding how FoxP3 and other TFs coordinate Treg identity and diversity is a central question in immunology with implications for therapeutic manipulation of Tregs. The framework could serve as a reference for future studies.
+  - Interdisciplinary readership: Moderate. The topic will primarily interest immunologists, but the analytical approach could attract computational biologists and those studying gene regulation in other systems. The writing is accessible but assumes familiarity with Treg biology and single-cell genomics.
+  - Technical soundness: Not fully assessable from the provided text. The methodological descriptions are too brief to evaluate the robustness of the topic model, the statistical rigor of the AME analysis, and the strength of the validation experiments. The conceptual framework is compelling, but the technical foundation requires closer scrutiny.
+  - Readability for nonspecialists: Moderate. The main text is clearly written and the conceptual narrative is easy to follow, but the methods are described at a level that requires specialized knowledge. The figures are referenced but not visible in the provided text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and analytical approach are innovative and potentially impactful, but the current text does not provide sufficient methodological detail to fully evaluate the robustness of the topic model, the statistical rigor of the causal inference, and the strength of the validation experiments. The authors should be encouraged to provide comprehensive supplementary methods and quantitative results to support their claims.
+
+## Risk / unsupported claims
+- The claim that the framework "causally identified" TF-topic connections is not fully supported by the visible methodological description; the causal inference chain requires more detailed justification.
+- The claim that FoxP3 is "required for Treg maturation to aTreg" is an interpretation that goes beyond the static comparative data presented.
+- The claim that the framework "resolves" the activator-versus-repressor debate for FoxP3 is overstated; the data support context-dependent roles but do not establish the underlying mechanisms.
+- The claim that the framework "could become a portable and reusable scaffold" is plausible but not yet demonstrated beyond the two datasets analyzed.
+- The statement that "very few motifs having repressive effects" is based on AME analysis that is not described in sufficient detail to evaluate.
+- The claim that Smarcc1 validation supports the framework's predictive power is based on a single experiment described in one sentence; the strength of this validation cannot be assessed.

@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "41155287",
+    "doi": "10.3390/ijms26209996",
+    "title": "Immunometabolic Dysregulation in B-Cell Acute Lymphoblastic Leukemia Revealed by Single-Cell RNA Sequencing: Perspectives on Subtypes and Potential Therapeutic Targets."
+  },
+  "content": {
+    "abstract": "B-cell acute lymphoblastic leukemia (B-ALL) is characterized by the abnormal proliferation of B-lineage lymphocytes in the bone marrow (BM). The roles of immune cells within the BM microenvironment remain incompletely understood. Single-cell RNA sequencing (scRNA-seq) provides the potential for groundbreaking insights into the pathogenesis of B-ALL. In this study, scRNA-seq was conducted on BM samples from 17 B-ALL patients (B-ALL cohorts) and 13 healthy controls (HCs). Bioinformatics analyses, including clustering, differential expression, pathway analysis, and gene set variation analysis, systematically identified immune cell types and assessed T-cell prognostic and metabolic heterogeneity. A metabolic-feature-based machine learning model was developed for B-ALL subtyping. Furthermore, T-cell-monocyte interactions, transcription factor (TF) activity, and drug enrichment analyses were performed to identify therapeutic targets. The results indicated significant increases in Pro-B cells, alongside decreases in B cells, NK cells, monocytes, and plasmacytoid dendritic cells (pDCs) among B-ALL patients, suggesting immune dysfunction. Clinical prognosis correlated significantly with the distribution of T-cell subsets. Metabolic heterogeneity categorized patients into four distinct groups (A-D), all exhibiting enhanced major histocompatibility class I (MHC-I)-mediated intercellular communication. The metabolic-based machine learning model achieved precise classification of B-ALL groups. Analysis of TF activity underscored the critical roles of MYC, STAT3, and TCF7 within the B-ALL immunometabolic network. Drug targeting studies revealed that dorlimomab aritox and palbociclib specifically target dysregulation in ribosomal and CDK4/6 pathways, offering novel therapeutic avenues. This study elucidates immunometabolic dysregulation in B-ALL, characterized by altered cellular composition, metabolic disturbances, and abnormal cellular interactions. Key TFs were identified, and targeted drug profiles were established, demonstrating the significant clinical potential of integrating immunological mechanisms with metabolic regulation for the treatment of B-ALL.",
+    "keywords": [
+      "B-cell acute lymphoblastic leukemia",
+      "T cells",
+      "bulk RNA-seq",
+      "immunometabolism",
+      "machine learning model",
+      "monocyte",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "Female",
+      "Male",
+      "Sequence Analysis, RNA/methods",
+      "Prognosis",
+      "Child",
+      "B-Lymphocytes/immunology/metabolism",
+      "*Precursor B-Cell Lymphoblastic Leukemia-Lymphoma/immunology/genetics/metabolism",
+      "Adult",
+      "Machine Learning",
+      "Adolescent",
+      "Child, Preschool",
+      "T-Lymphocytes/immunology/metabolism",
+      "Computational Biology/methods",
+      "Gene Expression Regulation, Leukemic",
+      "Tumor Microenvironment",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Dingya",
+        "Hu, Dun",
+        "Wang, Jialu",
+        "Peng, Jun",
+        "Wang, Shan"
+      ],
+      "short_names": [
+        "Sun D",
+        "Hu D",
+        "Wang J",
+        "Peng J",
+        "Wang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Xiangya School of Pharmaceutical Sciences, Department of Pharmacology, Central South University, Changsha 410083, China.",
+        "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China.",
+        "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China.",
+        "Xiangya School of Pharmaceutical Sciences, Department of Pharmacology, Central South University, Changsha 410083, China.",
+        "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Dingya",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Department of Pharmacology, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Dun",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jialu",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jun",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Department of Pharmacology, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Engineering, College of Chemistry and Chemical Engineering, Central South University, Changsha 410083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Oct 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 06:28",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "42651767"
+    ],
+    "refs": [
+      "40759141",
+      "40579554",
+      "40503229",
+      "40435412",
+      "40388162",
+      "40325200",
+      "40301374",
+      "40239541",
+      "40213545",
+      "39982537",
+      "39786374",
+      "39668206",
+      "39542752",
+      "39516648",
+      "39402302",
+      "39247833",
+      "39227959",
+      "39146933",
+      "38844062",
+      "38710919",
+      "38569429",
+      "38418879",
+      "38086891",
+      "38041084",
+      "37907738",
+      "37700538",
+      "37620322",
+      "37553297",
+      "37407363",
+      "37249233",
+      "37079999",
+      "36617563",
+      "36581735",
+      "36463401",
+      "36450331",
+      "36106363",
+      "35900788",
+      "35886021",
+      "35734177",
+      "35544603",
+      "35381213",
+      "35158926",
+      "35013097",
+      "34981777",
+      "34914499",
+      "34831075",
+      "34557778",
+      "34480118",
+      "34417225",
+      "34365737",
+      "34088845",
+      "34062119",
+      "33981085",
+      "33948348",
+      "33922612",
+      "33913198",
+      "33901594",
+      "33895809",
+      "33719206",
+      "33713428",
+      "33692103",
+      "33619257",
+      "33597522",
+      "33272898",
+      "33271120",
+      "33237278",
+      "32848464",
+      "32624246",
+      "32528961",
+      "32470390",
+      "32410558",
+      "32268011",
+      "32221812",
+      "31907401",
+      "31681794",
+      "31611651",
+      "31340985",
+      "31237234",
+      "31123029",
+      "30962205",
+      "30925935",
+      "30923193",
+      "30776148",
+      "30650663",
+      "30650380",
+      "30643263",
+      "30643249",
+      "30578463",
+      "30479382",
+      "30463850",
+      "30443842",
+      "30197303",
+      "29768180",
+      "29669281",
+      "29605883",
+      "29408328",
+      "29186193",
+      "29045897",
+      "28825705",
+      "28550162",
+      "27588422",
+      "27496732",
+      "27313405",
+      "26261266",
+      "25651723",
+      "24889532",
+      "23347146",
+      "23323831",
+      "23193258",
+      "21862557",
+      "20054396",
+      "19668191",
+      "17142855",
+      "16448548",
+      "10802651",
+      "10592173",
+      "9491996",
+      "8833395"
+    ],
+    "similar": [
+      "41155287",
+      "39877357",
+      "40764361",
+      "39465162",
+      "38844062",
+      "36439178",
+      "41139200",
+      "39676870",
+      "39955305",
+      "34716967",
+      "41312364",
+      "37845689",
+      "41006377",
+      "40078987",
+      "30393877",
+      "33777046",
+      "40205350",
+      "39394558",
+      "41261231",
+      "41474172",
+      "38515748",
+      "37095455",
+      "39814058",
+      "40819095",
+      "38569429",
+      "39938577",
+      "21459790",
+      "41325182",
+      "41281377",
+      "32470390",
+      "39896800",
+      "33218352",
+      "25431969",
+      "40522146",
+      "38962008",
+      "40474296",
+      "40330458",
+      "41208987",
+      "41346577",
+      "40406147",
+      "41310117",
+      "41399063",
+      "38885819",
+      "39234258",
+      "40625291",
+      "40524207",
+      "39523741",
+      "40541706",
+      "32268011",
+      "37650991",
+      "40594370",
+      "39498293",
+      "40817406",
+      "40296690",
+      "28787399",
+      "40308576",
+      "40954153",
+      "39945785",
+      "39762897",
+      "39247833",
+      "39108261",
+      "39863799",
+      "30361418",
+      "40332226",
+      "40994257",
+      "40315269",
+      "18333847",
+      "40064955",
+      "38800474",
+      "40711603",
+      "39421742",
+      "38759695",
+      "41235252",
+      "27634205",
+      "40618698",
+      "40179028",
+      "40141028",
+      "39993960",
+      "39759507",
+      "33227818",
+      "38979407",
+      "29477343",
+      "39406187",
+      "40225866",
+      "33154494",
+      "40753315",
+      "40607387",
+      "40029433",
+      "12357356",
+      "37981856",
+      "41153416",
+      "35603962",
+      "41181151",
+      "39658531",
+      "40145099",
+      "39384856",
+      "39555084",
+      "41326474",
+      "39849233",
+      "21828124"
+    ],
+    "review": [
+      "41155287",
+      "28787399"
+    ],
+    "pmc": [
+      "12563021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26209996",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41155287/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

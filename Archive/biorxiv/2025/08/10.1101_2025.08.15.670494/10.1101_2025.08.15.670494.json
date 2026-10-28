@@ -1,0 +1,285 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.15.670494",
+  "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+  "doi": "10.1101/2025.08.15.670494",
+  "abstract": "Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation—the mechanistic transformation of MAVE data and allelic integration—offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+  "authors": [
+    "Çubuk H",
+    "Plech M",
+    "Aslanzadeh V",
+    "Zikanova M",
+    "Skopova V",
+    "Kmoch S",
+    "Shen Y",
+    "Marsh JA",
+    "Kudla G"
+  ],
+  "published_date": "2025-08-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670494",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670494.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1068168",
+    "raw_record": {
+      "id": "PPR1068168",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1068168"
+        ]
+      },
+      "doi": "10.1101/2025.08.15.670494",
+      "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+      "authorString": "Çubuk H, Plech M, Aslanzadeh V, Zikanova M, Skopova V, Kmoch S, Shen Y, Marsh JA, Kudla G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Çubuk H",
+            "lastName": "Çubuk",
+            "firstName": "Hasan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plech M",
+            "lastName": "Plech",
+            "firstName": "Marcin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aslanzadeh V",
+            "lastName": "Aslanzadeh",
+            "firstName": "Vahid",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4500-1627"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zikanova M",
+            "lastName": "Zikanova",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Paediatrics and Inherited Metabolic Disorders, First Faculty of Medicine, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skopova V",
+            "lastName": "Skopova",
+            "firstName": "Vaclava",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Paediatrics and Inherited Metabolic Disorders, First Faculty of Medicine, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kmoch S",
+            "lastName": "Kmoch",
+            "firstName": "Stanislav",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Paediatrics and Inherited Metabolic Disorders, First Faculty of Medicine, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shen Y",
+            "lastName": "Shen",
+            "firstName": "Yuxin",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Informatics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kudla G",
+            "lastName": "Kudla",
+            "firstName": "Grzegorz",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4500-1627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation—the mechanistic transformation of MAVE data and allelic integration—offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "MC_UU_00035/8",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "101001169",
+            "orderIn": 0
+          },
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "MC_UU_00035/9",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "207507",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.15.670494"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1068168"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1068168&type=FILE&fileName=EMS208084-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208084",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-22",
+      "firstPublicationDate": "2025-08-16",
+      "firstIndexDate": "2025-08-22",
+      "fullTextReceivedDate": "2025-08-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

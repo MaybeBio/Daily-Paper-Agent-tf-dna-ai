@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42185665",
+  "title": "Structure-based machine learning model for discovering pregnane X receptor (PXR) agonists and biological activity validation.",
+  "authors": "Huang, Fang-Fang; Luo, Ying; Chen, Hao; Meng, Yu-Huan; Li, Wei; Liang, Hong; Ai, Chun-Zhi",
+  "journal": "Archives of toxicology",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用结构基机器学习模型预测核受体PXR激动剂，对象为蛋白-小分子互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上可部分借鉴，故评分较低。",
+  "abstract": "Pregnane X receptor (PXR), a nuclear receptor superfamily member, maintains bile acid homeostasis by regulating metabolic enzymes [e.g., cytochrome P450 3A4 (CYP3A4), uridine diphosphate glucuronosyltransferase 1A1 (UGT1A1)] and multidrug resistance protein 1 transporter, and alleviates liver/intestinal inflammation via inhibiting the nuclear factor kappa-B pathway, serving as a critical therapeutic target for cholestatic liver diseases and inflammatory bowel disease. In this study, we established a novel structure-based machine learning strategy to identify PXR agonists from a natural product database. With generated bioactive conformations binding with PXR, we integrated ligand-based and structure-based features to construct a comprehensive machine learning model using light gradient boosting machine. This model illustrated an R(2) of 0.874 for the internal validation set and an R(2) of 0.845 for the external test set, superior to the performance of other machine learning models, e.g. random forest regression, support vector regression, gradient boosting regression, K-nearest neighbors, and extreme gradient boosting. The model was used to predict the PXR agonistic activity of the candidate molecules screened out by the pharmacophore model. Promising candidates were selected out for further assay with HepG2 cell culture combined with a dual-luciferase reporter. Ultimately, natural products like schisantherin A, rhynchophylline, and irigenin were identified as potent PXR agonists, with half-maximal effective concentrations (EC(50)) of 1.58 muM, 2.57 muM, and 20.67 muM, respectively. These PXR agonists act as potential candidates for targeted therapies against PXR-related diseases. We anticipate that this work will provide support for the design and discovery of PXR modulators.",
+  "abstract_zh": "孕烷X受体（PXR）作为核受体超家族成员，通过调控代谢酶[如细胞色素P450 3A4（CYP3A4）、尿苷二磷酸葡萄糖醛酸转移酶1A1（UGT1A1）]及多药耐药蛋白1转运体维持胆汁酸稳态，并通过抑制核因子kappa-B通路减轻肝脏/肠道炎症，是胆汁淤积性肝病和炎症性肠病的重要治疗靶点。在本研究中，我们建立了一种新颖的基于结构的机器学习策略，从天然产物数据库中识别PXR激动剂。通过生成与PXR结合的生物活性构象，我们整合了基于配体和基于结构的特征，利用轻量梯度提升机构建了综合机器学习模型。该模型在内部验证集上展示了R(2)为0.874，在外部测试集上R(2)为0.845，优于其他机器学习模型（如随机森林回归、支持向量回归、梯度提升回归、K近邻和极端梯度提升）的性能。该模型被用于预测药效团模型筛选出的候选分子的PXR激动活性。通过HepG2细胞培养结合双荧光素酶报告基因实验，筛选出有前景的候选物进行进一步测定。最终，天然产物如五味子酯甲、钩藤碱和鸢尾苷元被鉴定为强效PXR激动剂，其半数有效浓度（EC(50)）分别为1.58 μM、2.57 μM和20.67 μM。这些PXR激动剂作为针对PXR相关疾病靶向治疗的潜在候选物。我们预期这项工作将为PXR调节剂的设计和发现提供支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42185665/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42185665/",
+  "paper_page_path": "papers/pubmed/42185665/index.html"
+}

@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41959448",
+    "doi": "10.64898/2026.03.09.710649",
+    "title": "Distinct cellular DNA methylation mechanisms underlie common and rare genetic risk for brain disorders."
+  },
+  "content": {
+    "abstract": "Noncoding genetic variation contributes to brain disorder risk, but the mechanisms through which it acts in specific brain cell types remain unclear. DNA methylation (DNAm), a highly cell type-specific regulatory layer in the brain, may mediate noncoding genetic risk, yet whether methylation at CG (mCG) and neuron-enriched non-CG (mCH) dinucleotides contribute differently to that risk remains unknown. Here we develop a deep learning framework that predicts DNAm from DNA sequence and estimates variant effects across 186 brain cell subtypes in both mCG and mCH, leveraging single-nucleus DNAm profiles from 46 brain regions. The models reveal distinct transcription factor (TF) programs underlying the two methylation contexts, with mCH-associated TFs showing stronger evolutionary constraint. Predicted variant effects agree closely with cell type-matched mQTLs in both direction and magnitude. Common variants predicted to affect mCG, particularly in excitatory neurons, show substantially greater heritability enrichment for brain-related traits than variants affecting mCH. By contrast, noncoding de novo mutations in autism preferentially perturb mCH, but not mCG, at conserved neuronal regulatory regions. This pattern is replicated across two independent cohorts totaling 5,782 probands and 4,053 unaffected siblings. Together, these findings indicate that common and rare noncoding variants contribute to brain disorders through distinct DNA methylation mechanisms.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Jiyun",
+        "Liu, Cuining",
+        "Liu, Xiaoming",
+        "Zhang, Yuan",
+        "Wei, Yu",
+        "Shin, Joo Heon",
+        "Maher, Brady",
+        "Liu, Chunyu",
+        "Luo, Chongyuan",
+        "Wang, Kai",
+        "Weinberger, Daniel R",
+        "Han, Shizhong"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Liu C",
+        "Liu X",
+        "Zhang Y",
+        "Wei Y",
+        "Shin JH",
+        "Maher B",
+        "Liu C",
+        "Luo C",
+        "Wang K",
+        "Weinberger DR",
+        "Han S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8285-5528",
+        "ORCID: 0000-0002-5986-4415",
+        "ORCID: 0000-0002-5585-982X",
+        "ORCID: 0000-0002-5114-6742"
+      ],
+      "affiliations": [
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+        "Department of Human Genetics, University of California, Los Angeles, Los Angeles, CA, 90095, USA.",
+        "USF Genomics & College of Public Health, University of South Florida, 3720 Spectrum Boulevard, Suite 304, Tampa, FL 33612, USA.",
+        "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, PA 19104, USA.",
+        "Department of Psychiatry, SUNY Upstate Medical University, Syracuse, NY, 13210, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+        "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Department of Psychiatry, SUNY Upstate Medical University, Syracuse, NY, 13210, USA.",
+        "Department of Human Genetics, University of California, Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+        "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+        "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+        "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Jiyun",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Cuining",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, University of California, Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoming",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0001-8285-5528"
+        ],
+        "affiliations": [
+          "USF Genomics & College of Public Health, University of South Florida, 3720 Spectrum Boulevard, Suite 304, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Yu",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, SUNY Upstate Medical University, Syracuse, NY, 13210, USA."
+        ]
+      },
+      {
+        "full_name": "Shin, Joo Heon",
+        "short_name": "Shin JH",
+        "identifiers": [],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Maher, Brady",
+        "short_name": "Maher B",
+        "identifiers": [],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+          "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunyu",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-5986-4415"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, SUNY Upstate Medical University, Syracuse, NY, 13210, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Chongyuan",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, University of California, Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [
+          "0000-0002-5585-982X"
+        ],
+        "affiliations": [
+          "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, PA 19104, USA.",
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Weinberger, Daniel R",
+        "short_name": "Weinberger DR",
+        "identifiers": [],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+          "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+          "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+          "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+          "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Shizhong",
+        "short_name": "Han S",
+        "identifiers": [
+          "0000-0002-5114-6742"
+        ],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD, 21287, USA.",
+          "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+          "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 06:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606153",
+      "40997811",
+      "40894881",
+      "40360671",
+      "39841154",
+      "39742481",
+      "39455800",
+      "39385032",
+      "38781388",
+      "37824674",
+      "37824643",
+      "36788214",
+      "36640404",
+      "36371428",
+      "35969790",
+      "35115700",
+      "34608324",
+      "34475392",
+      "33795684",
+      "33561390",
+      "33462491",
+      "33343315",
+      "33131715",
+      "32461654",
+      "32435502",
+      "32341540",
+      "31727856",
+      "31554518",
+      "31501549",
+      "31103814",
+      "31097668",
+      "31031093",
+      "30661751",
+      "30247488",
+      "30100085",
+      "29724907",
+      "29724495",
+      "29588361",
+      "29420931",
+      "29142228",
+      "28798132",
+      "28516912",
+      "28395661",
+      "26619358",
+      "26619357",
+      "26414678",
+      "25429278",
+      "24614070",
+      "24362762",
+      "24351709",
+      "23828890",
+      "23034175",
+      "22781841",
+      "21903627",
+      "20601685",
+      "20215007",
+      "20110278",
+      "19858363",
+      "17324271",
+      "16024819"
+    ],
+    "similar": [
+      "41959448",
+      "42475469",
+      "38293210",
+      "35947991",
+      "39742481",
+      "42281968",
+      "42298188",
+      "28320934",
+      "35969790",
+      "41726570",
+      "34462306",
+      "40667191",
+      "40672290",
+      "41733741",
+      "40027628",
+      "31311581",
+      "37953264",
+      "25870282",
+      "39572019",
+      "41651809",
+      "41062488",
+      "42320469",
+      "34616061",
+      "36993726",
+      "41675975",
+      "31554518",
+      "32799817",
+      "39079538",
+      "26077819",
+      "40799738",
+      "40469813",
+      "30864328",
+      "34802461",
+      "30691483",
+      "33032641",
+      "40470234",
+      "37333391",
+      "33888138",
+      "35987687",
+      "36993720",
+      "40166175",
+      "28798132",
+      "38844976",
+      "36043696",
+      "41946833",
+      "32243819",
+      "41192574",
+      "42481940",
+      "40992585",
+      "39152038",
+      "42395488",
+      "39005386",
+      "30871624",
+      "31771860",
+      "30643296",
+      "35312124",
+      "42716912",
+      "33023636",
+      "33216750",
+      "39118140",
+      "39936280",
+      "41247408",
+      "36790133",
+      "31146783",
+      "27780202",
+      "34895465",
+      "34637873",
+      "33795684",
+      "31346403",
+      "42327220",
+      "34615521",
+      "32839016",
+      "39716176",
+      "40307894",
+      "33054850",
+      "40935851",
+      "38256020",
+      "38781344",
+      "29703944",
+      "31288836",
+      "39391988",
+      "39606363",
+      "29945882",
+      "27153397",
+      "36850002",
+      "29988321",
+      "37944515",
+      "32616021",
+      "41494241",
+      "37824643",
+      "42390000",
+      "41279245",
+      "41282167",
+      "42237307",
+      "36824816",
+      "28344757",
+      "26030523",
+      "15121991",
+      "29562171",
+      "39239947"
+    ],
+    "review": [
+      "41959448",
+      "41726570",
+      "26077819",
+      "40992585",
+      "42716912",
+      "32839016",
+      "40935851",
+      "29988321",
+      "42390000"
+    ],
+    "pmc": [
+      "13060888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41959448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.09.710649",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

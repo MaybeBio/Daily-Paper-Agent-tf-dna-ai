@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table legends.
+- **Assessment boundary** The scientific claims, methodology, and evidence presented in the manuscript. This review does not assess the choice of journal or the manuscript's suitability for a specific publication venue.
+- **Shared manuscript claim summary** The authors use AlphaFold2 structural modeling, targeted mutagenesis, biochemical endonuclease assays, and yeast genetic assays to propose a mechanism by which phosphorylated Sae2 activates the Mre11-Rad50 endonuclease. They identify specific interfaces between Sae2, Mre11, and Rad50, and provide evidence for a conserved mechanism in human CtIP.
+- **Visible evidence base** The manuscript text, including descriptions of all figures and supplementary figures, and the methods section.
+- **Missing materials affecting confidence** The actual figures, supplementary figures, and supplementary tables are not provided. This significantly limits the ability to assess the quality of the structural models, the magnitude of the biochemical effects, and the statistical significance of the genetic data. The authors state that models are deposited in ModelArchive, but the identifiers are not evaluated here.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated combination of computational and experimental approaches to address a long-standing question in DNA repair: how Sae2/CtIP activates the Mre11-Rad50 endonuclease. The use of AlphaFold2 to generate testable hypotheses, followed by rigorous biochemical and genetic validation, is a powerful strategy. The identification of specific, functionally validated interfaces is a significant advance. However, the absence of the actual figures and data tables prevents a full evaluation of the quantitative claims and the robustness of the structural models. The conclusions are largely supported by the textual descriptions, but the strength of the evidence cannot be fully verified.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA double-strand break repair, homologous recombination, genome stability, and cancer biology. The work provides mechanistic insights into a core process and has implications for understanding how mutations in these pathways lead to human disease. The methodological approach, combining AlphaFold2 with experimental validation, will also be of interest to a broader structural biology and molecular biology audience.
+- **Major strengths**
+    - The study addresses a critical and unresolved question in the field.
+    - The combination of AlphaFold2 predictions with in vitro biochemistry and in vivo genetics is powerful and mutually reinforcing.
+    - The use of charge-swap and compensatory mutations to validate predicted interfaces is a rigorous and convincing approach.
+    - The evolutionary analysis, extending the findings to human CtIP and S. pombe Ctp1, significantly increases the impact and generalizability of the work.
+    - The writing is clear and the logic of the experimental design is easy to follow.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence quality
+        - **Claim pointer** The claim that AlphaFold2 predicts two distinct conformations of the Mre11-Rad50 complex, representing auto-inhibited and activated states, is central to the paper.
+        - **Evidence pointer** Figure 1A, 1B, 1C, 1D, Figure S1
+        - **Concern** The manuscript describes the AlphaFold2 models but does not provide the actual figures. It is impossible to assess the confidence of these models (e.g., pLDDT scores, predicted aligned error), the structural differences between the two classes, or the validity of the comparison to the E. coli active state. The claim that the models "converged into two distinct classes" is presented without supporting visual evidence.
+        - **Why it matters** The entire paper is built on the premise that these models are accurate representations of the conformational states. Without seeing the models, their quality, and the key structural features, the foundation of the paper cannot be properly evaluated.
+        - **Resolution test** The authors must provide the actual figures showing the AlphaFold2 models, including confidence metrics, and a clear structural comparison between the predicted states and the experimental E. coli structure.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence quality
+        - **Claim pointer** The claim that specific mutations (e.g., E113R in Rad50, R181E/R184E in Mre11, R264E in Sae2) disrupt or rescue the predicted interfaces, thereby validating the model, is a key experimental pillar.
+        - **Evidence pointer** Figures 3A, 3B, 3E, 4A, 5A, Figure S3, S5
+        - **Concern** The text describes the results of the biochemical endonuclease assays and genetic recombination assays, but the actual data (gel images, quantifications, graphs, statistical analysis) are not provided. The "rescue coefficient" (R) is a critical quantitative metric, but its calculation and the raw data behind it cannot be scrutinized. The magnitude of the effects and the reproducibility of the results are unknown.
+        - **Why it matters** The validation of the structural model rests entirely on these experimental results. Without seeing the data, it is impossible to determine if the effects are robust, specific, and statistically significant, or if they could be due to non-specific protein misfolding or other artifacts.
+        - **Resolution test** The authors must provide the full figures with all data points, error bars, and statistical tests. The raw data for the rescue coefficient calculations should be made available.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Claim support
+        - **Claim pointer** The claim that the mechanism is conserved in humans, with CtIP employing a similar strategy to activate MRN.
+        - **Evidence pointer** Figure 7D, 7E, Figure S7C
+        - **Concern** The evidence for the human system appears to be based solely on an AlphaFold2 model of the human complex. No experimental validation in human cells or with human proteins is presented. The text states that the model is "not as compact" and that "the contribution of DNA or other unpartnered partners... may be necessary," which introduces significant uncertainty.
+        - **Why it matters** This is a major claim that significantly extends the paper's impact. If the human model is not experimentally validated, the claim of a conserved mechanism remains speculative and is a much weaker conclusion than the yeast data.
+        - **Resolution test** The authors should either provide experimental evidence for the human system or temper the claim to reflect that it is a prediction based on structural modeling that requires further testing.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Methods section
+        - **Evidence pointer** Methods: Structural modeling
+        - **Issue** The description of the "rescue coefficient" (R) is clear, but the rationale for why a value >1 specifically indicates a direct interaction, as opposed to an allosteric effect, could be more thoroughly explained.
+        - **Required correction** Add a sentence or two to the methods or results clarifying the assumptions behind this metric and its limitations.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Readability
+        - **Affected element** Results section
+        - **Evidence pointer** Results: "R77E substitution in Rad50..."
+        - **Issue** The statement that R77E Rad50 is "the first reported mutation in the MRX complex that partially bypasses the requirement for Sae2" is a strong claim. It would be helpful to have a brief discussion of prior attempts to find such mutations to provide context.
+        - **Required correction** Add a sentence citing previous work on Sae2 bypass or suppression to support this claim.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Data presentation
+        - **Affected element** Figure legends
+        - **Evidence pointer** Figure legends (not provided)
+        - **Issue** The text refers to "Figure S4" for spore viability data, but the results are not described in the text. It is unclear if the rescue of sporulation by the double mutant also rescued spore viability.
+        - **Required correction** Briefly describe the spore viability results in the main text to clarify the extent of the functional rescue.
+- **Technical failings that need to be addressed before the case is established**
+    - The most significant failing is the lack of the actual figures and data. The manuscript's claims cannot be fully verified without them. This is a prerequisite for any further assessment.
+    - The lack of experimental validation for the human CtIP model is a major gap that needs to be addressed or the claims need to be significantly softened.
+- **Assessment against Nature-style criteria**
+    - **Originality** High. The study provides a novel structural model for the activation of a core DNA repair nuclease, which has been a long-standing question. The application of AlphaFold2 to this specific problem is timely and innovative.
+    - **Scientific importance** High. The Mre11-Rad50 complex is essential for genome stability across all domains of life. Understanding its regulation is of fundamental importance and has direct implications for cancer biology and other human diseases.
+    - **Interdisciplinary readership** Moderate to High. The work will be of great interest to DNA repair specialists, structural biologists, and biochemists. The evolutionary analysis may also appeal to a broader audience.
+    - **Technical soundness** The experimental design is sound and the combination of methods is appropriate. However, the technical soundness cannot be fully confirmed without seeing the data. The reliance on AlphaFold2 models, while powerful, requires careful experimental validation, which the authors have attempted for the yeast system.
+    - **Readability for nonspecialists** The manuscript is well-written and the logic is clear. The concepts are explained well, but the level of detail in the results may be challenging for a complete nonspecialist. The abstract and introduction are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis and experimental strategy are compelling. The yeast data, as described, appear to provide strong support for the model. However, the manuscript cannot be accepted in its current form because the evidence is not fully visible. The authors must provide the missing figures and data to allow for a complete assessment. The claims regarding the human system should be revised to more accurately reflect the level of evidence.
+
+## Risk / unsupported claims
+- The claim that the mechanism of activation is conserved in humans is unsupported by experimental evidence and is based solely on an unvalidated structural model.
+- The claim that the AlphaFold2 models "converged into two distinct classes" is unverifiable without the model figures and confidence scores.
+- The quantitative "rescue coefficient" and the magnitude of the reported biochemical and genetic effects are unverifiable without the underlying data.

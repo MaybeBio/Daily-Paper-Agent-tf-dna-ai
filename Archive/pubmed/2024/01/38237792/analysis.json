@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38237792",
+  "title": "DBPboost:A method of classification of DNA-binding proteins based on improved differential evolution algorithm and feature extraction.",
+  "authors": "Sun, Ailun; Li, Hongfei; Dong, Guanghui; Zhao, Yuming; Zhang, Dandan",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2024-01-19",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用改进差分进化算法和特征提取方法预测DNA结合蛋白，属于广义蛋白-DNA互作分类任务，但未涉及TF-DNA特异性结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins are a class of proteins that can interact with DNA molecules through physical and chemical interactions. Their main functions include regulating gene expression, maintaining chromosome structure and stability, and more. DNA-binding proteins play a crucial role in cellular and molecular biology, as they are essential for maintaining normal cellular physiological functions and adapting to environmental changes. The prediction of DNA-binding proteins has been a hot topic in the field of bioinformatics. The key to accurately classifying DNA-binding proteins is to find suitable feature sources and explore the information they contain. Although there are already many models for predicting DNA-binding proteins, there is still room for improvement in mining feature source information and calculation methods. In this study, we created a model called DBPboost to better identify DNA-binding proteins. The innovation of this study lies in the use of eight feature extraction methods, the improvement of the feature selection step, which involves selecting some features first and then performing feature selection again after feature fusion, and the optimization of the differential evolution algorithm in feature fusion, which improves the performance of feature fusion. The experimental results show that the prediction accuracy of the model on the UniSwiss dataset is 89.32%, and the sensitivity is 89.01%, which is better than most existing models.",
+  "abstract_zh": "DNA结合蛋白是一类能够通过物理和化学相互作用与DNA分子结合的蛋白质。它们的主要功能包括调控基因表达、维持染色体结构和稳定性等。DNA结合蛋白在细胞和分子生物学中扮演着至关重要的角色，因为它们对于维持正常细胞生理功能及适应环境变化至关重要。DNA结合蛋白的预测一直是生物信息学领域的热点问题。准确分类DNA结合蛋白的关键在于寻找合适的特征来源并挖掘其中蕴含的信息。尽管已有许多用于预测DNA结合蛋白的模型，但在特征来源信息挖掘和计算方法方面仍有改进空间。在本研究中，我们创建了一个名为DBPboost的模型，以更好地识别DNA结合蛋白。本研究的创新之处在于使用了八种特征提取方法，改进了特征选择步骤，即先选择部分特征，在特征融合后再次进行特征选择，并优化了特征融合中的差分进化算法，从而提升了特征融合的性能。实验结果表明，该模型在UniSwiss数据集上的预测准确率为89.32%，灵敏度为89.01%，优于大多数现有模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38237792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38237792/",
+  "paper_page_path": "papers/pubmed/38237792/index.html"
+}

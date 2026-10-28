@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36094959",
+  "title": "TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq profile.",
+  "authors": "Yang, Tianqi; Henao, Ricardo",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-09-13",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用1D-CNN从ATAC-seq谱预测基序中心TF结合活性，聚焦TF-DNA结合位点预测，方法为深度学习，高度匹配本课题。",
+  "abstract": "Determining transcriptional factor binding sites (TFBSs) is critical for understanding the molecular mechanisms regulating gene expression in different biological conditions. Biological assays designed to directly mapping TFBSs require large sample size and intensive resources. As an alternative, ATAC-seq assay is simple to conduct and provides genomic cleavage profiles that contain rich information for imputing TFBSs indirectly. Previous footprint-based tools are inheritably limited by the accuracy of their bias correction algorithms and the efficiency of their feature extraction models. Here we introduce TAMC (Transcriptional factor binding prediction from ATAC-seq profile at Motif-predicted binding sites using Convolutional neural networks), a deep-learning approach for predicting motif-centric TF binding activity from paired-end ATAC-seq data. TAMC does not require bias correction during signal processing. By leveraging a one-dimensional convolutional neural network (1D-CNN) model, TAMC make predictions based on both footprint and non-footprint features at binding sites for each TF and outperforms existing footprinting tools in TFBS prediction particularly for ATAC-seq data with limited sequencing depth.",
+  "abstract_zh": "确定转录因子结合位点（TFBSs）对于理解不同生物学条件下调控基因表达的分子机制至关重要。直接映射TFBSs的生物测定方法需要大量样本和密集资源。作为替代方案，ATAC-seq测定操作简便，能提供富含间接推断TFBSs所需信息的基因组切割图谱。以往的基于足迹的工具固有地受限于其偏差校正算法的准确性和特征提取模型的效率。在此，我们介绍TAMC（利用卷积神经网络在基序预测结合位点处从ATAC-seq图谱预测转录因子结合），这是一种从双端ATAC-seq数据预测以基序为中心的转录因子结合活性的深度学习方法。TAMC在信号处理过程中无需偏差校正。通过利用一维卷积神经网络（1D-CNN）模型，TAMC基于每个转录因子结合位点的足迹和非足迹特征进行预测，并在TFBS预测方面优于现有足迹工具，尤其对于测序深度有限的ATAC-seq数据表现更佳。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36094959/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36094959/",
+  "paper_page_path": "papers/pubmed/36094959/index.html"
+}

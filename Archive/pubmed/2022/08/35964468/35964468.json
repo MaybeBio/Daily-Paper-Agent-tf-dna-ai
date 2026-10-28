@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "35964468",
+    "doi": "10.1016/j.compbiomed.2022.105924",
+    "title": "A Cuproptosis Activation Scoring model predicts neoplasm-immunity interactions and personalized treatments in glioma."
+  },
+  "content": {
+    "abstract": "Gliomas are malignant tumors in the central nervous system. Cuproptosis is a newly discovered cell death mechanism targeting lipoylated tricarboxylic acid cycle proteins. Previous studies have found that cuproptosis participates in tumor progression, but its role in gliomas is still elusive. Here, we systematically explored the bulk-tumor and single-cell transcriptome data to reveal its role in gliomas. The cuproptosis activity score (CuAS) was constructed based on cuproptosis-related genes, and machine learning techniques validated the score stability. High CuAS gliomas were more likely to have a poor prognosis and an aggressive mesenchymal (MES) subtype. Subsequently, the SCENIC algorithm predicted 20 CuAS-related transcription factors (TFs) in gliomas. Function enrichment and microenvironment analyses found that CuAS was associated with tumor immune infiltration. Accordingly, intercellular communications between neoplasm and immunity were explored by the R package \"Cellchat\". Five signaling pathways and 8 ligand-receptor pairs including ICAM1, ITGAX, ITGB2, ANXA1-FRR1, and the like, were identified to suggest how cuproptosis activity connected neoplastic and immune cells. Critically, 13 potential drugs targeting high CuAs gliomas were predicted according to the CTRP and PRISM databases, including oligomycin A, dihydroartemisinin, and others. Taken together, cuproptosis is involved in glioma aggressiveness, neoplasm-immune interactions, and may be used to assist in drug selection.",
+    "keywords": [
+      "Cell-cell communication",
+      "Cuproptosis",
+      "Drug prediction",
+      "Glioma",
+      "Immunocyte",
+      "Mesenchymal"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Brain Neoplasms",
+      "Gene Expression Regulation, Neoplastic",
+      "*Glioma",
+      "Transcriptome",
+      "Tumor Microenvironment",
+      "Copper",
+      "*Apoptosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Bo",
+        "Zhou, Xiaoxi",
+        "Yang, Liting",
+        "Zhou, Hongshu",
+        "Meng, Ming",
+        "Zhang, Liyang",
+        "Li, Jian"
+      ],
+      "short_names": [
+        "Chen B",
+        "Zhou X",
+        "Yang L",
+        "Zhou H",
+        "Meng M",
+        "Zhang L",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: bochen2019@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhouxiaoxi@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Hypothalamic-pituitary Research Center, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: yanglt@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhou_hs@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: mengming@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Hypothalamic-pituitary Research Center, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhangliyang@csu.edu.cn.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: lj.nrsg@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Bo",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: bochen2019@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaoxi",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhouxiaoxi@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Liting",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Hypothalamic-pituitary Research Center, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: yanglt@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hongshu",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhou_hs@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Meng, Ming",
+        "short_name": "Meng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: mengming@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liyang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Hypothalamic-pituitary Research Center, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: zhangliyang@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China; Clinical Diagnosis and Therapy Center for Glioma, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: lj.nrsg@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/15 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "42319714",
+      "42164373",
+      "42022794",
+      "41863975",
+      "41824199",
+      "41428162",
+      "41310468",
+      "41267132",
+      "41186622",
+      "41174784",
+      "41114487",
+      "40948940",
+      "40868100",
+      "40866730",
+      "40837339",
+      "40756352",
+      "40747615",
+      "40458306",
+      "40341098",
+      "40307579",
+      "40296031",
+      "39896073",
+      "39794799",
+      "39702813",
+      "39567497",
+      "39555457",
+      "39387560",
+      "39342548",
+      "39333603",
+      "39295987",
+      "39231258",
+      "39201811",
+      "39184045",
+      "39174890",
+      "39139735",
+      "39100456",
+      "39008196",
+      "38947313",
+      "38743491",
+      "38642129",
+      "38545600",
+      "38486750",
+      "38434988",
+      "38404591",
+      "37928479",
+      "37898914",
+      "37712959",
+      "37529698",
+      "37528285",
+      "37101543",
+      "36980514",
+      "36947706",
+      "36882769",
+      "36713586",
+      "36579333",
+      "36386799",
+      "36333684"
+    ],
+    "refs": [],
+    "similar": [
+      "35964468",
+      "36647156",
+      "36045691",
+      "36936439",
+      "37515314",
+      "36110851",
+      "39333603",
+      "36479114",
+      "38151613",
+      "36814111",
+      "36267281",
+      "36341328",
+      "36814682",
+      "36211378",
+      "38947313",
+      "36203594",
+      "36213162",
+      "36248822",
+      "36588797",
+      "39264832",
+      "36505293",
+      "36438201",
+      "36195876",
+      "35990642",
+      "37610668",
+      "36523779",
+      "36341437",
+      "37715546",
+      "36065073",
+      "36605188",
+      "36353226",
+      "36212436",
+      "36275737",
+      "36248908",
+      "36717792",
+      "36466876",
+      "35126346",
+      "36597032",
+      "36082469",
+      "36317420",
+      "36050740",
+      "36579333",
+      "38509725",
+      "36158220",
+      "35967366",
+      "36620594",
+      "38888512",
+      "36059638",
+      "34603309",
+      "36451815",
+      "35938036",
+      "36553481",
+      "36177029",
+      "36313774",
+      "36653989",
+      "36324575",
+      "39281776",
+      "35116021",
+      "37620966",
+      "36189780",
+      "36386799",
+      "36253436",
+      "36589745",
+      "36211344",
+      "36213577",
+      "37409114",
+      "38393693",
+      "36281357",
+      "36333684",
+      "36717900",
+      "36248857",
+      "36338998",
+      "34726238",
+      "33664747",
+      "36405733",
+      "36674979",
+      "36640225",
+      "36059510",
+      "36276275",
+      "36212447",
+      "31118022",
+      "36360316",
+      "36060936",
+      "36647100",
+      "36618352",
+      "36386454",
+      "36212138",
+      "36601107",
+      "36263417",
+      "33246490",
+      "36551318",
+      "36209249",
+      "36532719",
+      "36714025",
+      "36384423",
+      "36611966",
+      "36263140",
+      "36090999",
+      "36414625",
+      "32999349",
+      "36060266",
+      "36598701",
+      "36496537",
+      "37214253",
+      "36882769",
+      "38693584",
+      "38918694",
+      "36755067",
+      "38486750",
+      "37183977",
+      "37150036",
+      "36395954",
+      "38161335",
+      "38488682",
+      "37767404",
+      "38824478",
+      "37154876",
+      "37164186",
+      "37637426",
+      "38605864",
+      "37500296",
+      "38357312",
+      "35562341",
+      "37011869",
+      "35594843",
+      "37492249",
+      "35354936",
+      "35925445",
+      "38077997",
+      "35459854",
+      "36987684"
+    ],
+    "review": [
+      "35964468",
+      "36045691",
+      "37715546",
+      "36414625",
+      "37214253",
+      "36882769",
+      "38693584",
+      "38918694",
+      "36755067",
+      "38486750",
+      "37150036",
+      "37767404",
+      "38824478",
+      "37154876",
+      "37637426",
+      "38605864",
+      "37500296",
+      "38357312"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00665-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ANXA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-311",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00665-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

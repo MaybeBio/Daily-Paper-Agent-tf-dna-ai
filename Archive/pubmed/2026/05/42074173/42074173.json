@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "42074173",
+    "doi": "10.3390/ijms27083530",
+    "title": "AHR/NRF2 Dual Agonist Prediction and Natural Compound Screening Based on Machine Learning: A New Strategy for the Treatment of Atopic Dermatitis."
+  },
+  "content": {
+    "abstract": "In the treatment of atopic dermatitis (AD), synergistic activation of the aryl hydrocarbon receptor (AHR)/nuclear factor erythroid 2-related factor 2 (NRF2) pathways represents a promising strategy. However, known dual agonists are limited, and traditional screening methods are inefficient. Therefore, this study developed machine learning models to predict AHR/NRF2 dual agonists using molecular descriptors and fingerprints. All models achieved area under the receiver operating characteristic curve (AUC) values above 0.86, indicating good classification performance. The optimal AHR model showed an accuracy (ACC) of 0.811 and an AUC of 0.878, while the best NRF2 model yielded an ACC of 0.839 and an AUC of 0.907. Based on this model, compounds with a low fraction of sp(3)-hybridized carbons, moderate hydrophobicity, limited alkyl chains, and highly conjugated structures tend to act as AHR/NRF2 dual agonists. Finally, this study screened 1011 potential natural AHR/NRF2 dual agonists suitable for drug development. Among these, 2-arylbenzofurans, alkaloids, phenanthrenes, flavones, and furocoumarins demonstrated particular advantages. For validation, Indirubin, imperatorin and 3'-O-Methylbutastatin III were first discovered as AHR/NRF2 dual agonists in HaCaT cells. This work provides a robust predictive tool, clarifies key molecular features of dual agonists, and may support the discovery of anti-AD agents.",
+    "keywords": [
+      "AHR",
+      "NRF2",
+      "atopic dermatitis",
+      "machine learning",
+      "natural compounds"
+    ],
+    "mesh_terms": [
+      "*Receptors, Aryl Hydrocarbon/agonists/metabolism",
+      "*NF-E2-Related Factor 2/agonists/metabolism",
+      "*Dermatitis, Atopic/drug therapy/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "*Biological Products/pharmacology/chemistry",
+      "*Basic Helix-Loop-Helix Proteins/agonists",
+      "Predictive Learning Models",
+      "Drug Evaluation, Preclinical"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhen, Yu",
+        "Li, Qi",
+        "Hu, Xiaoxu",
+        "Liu, Xiaorui",
+        "Shao, Zhijie",
+        "Xie, Heidi Qunhui",
+        "Zhao, Bin",
+        "Xu, Li"
+      ],
+      "short_names": [
+        "Zhen Y",
+        "Li Q",
+        "Hu X",
+        "Liu X",
+        "Shao Z",
+        "Xie HQ",
+        "Zhao B",
+        "Xu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3790-1200"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "Sino-Danish College & Sino-Danish Centre for Education and Research, University of Chinese Academy of Sciences, Beijing 100190, China.",
+        "Department of Pharmacy, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310024, China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310024, China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhen, Yu",
+        "short_name": "Zhen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+          "Sino-Danish College & Sino-Danish Centre for Education and Research, University of Chinese Academy of Sciences, Beijing 100190, China.",
+          "Department of Pharmacy, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Li, Qi",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaoxu",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+          "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310024, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaorui",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Zhijie",
+        "short_name": "Shao Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Heidi Qunhui",
+        "short_name": "Xie HQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bin",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310024, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Li",
+        "short_name": "Xu L",
+        "identifiers": [
+          "0000-0003-3790-1200"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Apr 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 06:32",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41263032",
+      "40306810",
+      "40247142",
+      "40207460",
+      "40010426",
+      "40004095",
+      "39939818",
+      "39900897",
+      "39617751",
+      "39598579",
+      "39588778",
+      "39359054",
+      "39063153",
+      "39024674",
+      "38977267",
+      "38614089",
+      "38254672",
+      "38194778",
+      "38135181",
+      "36385050",
+      "36113834",
+      "35710077",
+      "35174548",
+      "34952507",
+      "34831399",
+      "34571534",
+      "33857815",
+      "33272675",
+      "33270331",
+      "33198233",
+      "32857505",
+      "32751111",
+      "32712291",
+      "32416390",
+      "32200257",
+      "31408336",
+      "31005679",
+      "30705343",
+      "28703805",
+      "28029781",
+      "26276439",
+      "26258437",
+      "23949496",
+      "23348739",
+      "21753779",
+      "16780804",
+      "15044633"
+    ],
+    "similar": [
+      "42074173",
+      "35174548",
+      "33302042",
+      "40945864",
+      "41371571",
+      "42057395",
+      "32751111",
+      "31683543",
+      "39770040",
+      "41452362",
+      "23800876",
+      "20395535",
+      "42285379",
+      "38569320",
+      "27720465",
+      "42259240",
+      "39063153",
+      "23583297",
+      "39890034",
+      "39855429",
+      "23348739",
+      "36996741",
+      "42451153",
+      "35204110",
+      "38759404",
+      "25680693",
+      "39835132",
+      "36076953",
+      "39732775",
+      "42474233",
+      "14510636",
+      "40571216",
+      "24258214",
+      "24914470",
+      "28595996",
+      "41628058",
+      "38506079",
+      "29414119",
+      "31868801",
+      "25482884",
+      "42002051",
+      "38896238",
+      "33179104",
+      "40907674",
+      "30071202",
+      "27869817",
+      "41501583",
+      "39939818",
+      "33272675",
+      "21753779",
+      "24092408",
+      "34555451",
+      "28273792",
+      "42475469",
+      "33321923",
+      "36087060",
+      "16581946",
+      "33648937",
+      "40840653",
+      "30265702",
+      "37451370",
+      "29788535",
+      "24161444",
+      "24588654",
+      "24521260",
+      "41822751",
+      "41805335",
+      "15790560",
+      "29500077",
+      "25548370",
+      "41027023",
+      "40607255",
+      "40542283",
+      "38672460",
+      "21256954",
+      "39929862",
+      "33310139",
+      "28703805",
+      "42163282",
+      "21569840",
+      "17709388",
+      "17266942",
+      "42185665",
+      "41896127",
+      "30091999",
+      "42522513",
+      "39608634",
+      "40765830",
+      "41670376",
+      "31344386",
+      "41403940",
+      "29752288",
+      "40418571",
+      "41229709",
+      "27129092",
+      "39570674",
+      "37895177",
+      "41322408",
+      "39220192",
+      "29576052"
+    ],
+    "review": [
+      "42074173",
+      "35174548",
+      "42057395",
+      "32751111",
+      "31683543",
+      "39770040",
+      "39890034",
+      "39855429",
+      "35204110",
+      "28273792",
+      "17266942",
+      "42522513",
+      "40765830"
+    ],
+    "pmc": [
+      "13115769"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27083530",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42074173/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

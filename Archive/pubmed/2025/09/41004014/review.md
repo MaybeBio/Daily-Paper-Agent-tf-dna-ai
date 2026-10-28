@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or full text were available for evaluation
+- **Shared manuscript claim summary** The authors review in silico approaches to facilitated diffusion of DNA-binding proteins (DBPs) along DNA, argue that crowding effects in this context differ from those in protein-protein association and cannot be explained solely by volume exclusion, and demonstrate that physicochemical properties of crowding agents modulate DBP facilitated diffusion in the nuclear environment
+- **Visible evidence base** Abstract text only; no experimental or simulation data, no methodological details, no figures or tables
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, quantitative results, figures, tables, and any comparative analysis with prior work
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially important topic, namely the role of macromolecular crowding in facilitated diffusion of DNA-binding proteins. The stated conclusions, however, are broad and largely qualitative, and the abstract does not provide sufficient detail to assess the rigor of the underlying review or the strength of the evidence supporting the central claims. The distinction between crowding effects in protein-DNA versus protein-protein systems is an interesting angle, but the abstract does not articulate the mechanistic basis for this difference. The manuscript may be of interest to computational biophysicists and molecular biologists, but the current abstract alone does not establish the scientific case.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein-DNA interactions, experimentalists investigating nuclear organization and gene regulation, and researchers developing coarse-grained or atomistic models of crowded environments would find this review relevant. The claim that crowding effects are not reducible to volume exclusion has implications for interpreting in vivo versus in vitro binding kinetics and for designing simulation studies of nuclear processes.
+- **Major strengths** The topic addresses a biologically important and underexplored question, namely how the crowded nuclear milieu affects target search by DNA-binding proteins. The abstract explicitly challenges a common assumption that volume exclusion alone explains crowding effects, which is a useful conceptual contribution. The focus on physicochemical properties of crowding agents, rather than only concentration, suggests a nuanced treatment of the subject.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that crowding effects on facilitated diffusion differ significantly from those in protein-protein association and cannot be solely attributed to volume exclusion principles  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a qualitative difference between crowding effects in protein-DNA facilitated diffusion and protein-protein association, but no data, simulation results, or comparative analysis are presented to support this distinction. The mechanistic basis for this difference is not explained.  
+  - **Why it matters** This is the central scientific claim of the work. Without supporting evidence, the claim remains an assertion rather than a demonstrated finding, and readers cannot evaluate whether the conclusion is justified.  
+  - **Resolution test** Provide specific simulation or experimental data comparing crowding effects in protein-DNA versus protein-protein systems, including quantitative measures such as association rates, diffusion coefficients, or binding probabilities under matched crowding conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological transparency  
+  - **Claim pointer** The authors state that they review in silico approaches and demonstrate how physicochemical characteristics of crowding agents impact facilitated diffusion  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No methodological details are provided regarding which simulation techniques were used, what crowding agents were modeled, what parameters were varied, or how the conclusions were derived. The term "demonstrate" implies original results, but the abstract does not clarify whether these are new findings or a synthesis of existing literature.  
+  - **Why it matters** Without methodological transparency, the scientific community cannot reproduce or build upon the work. The distinction between a review and an original research contribution is unclear from the abstract.  
+  - **Resolution test** Clarify in the abstract whether the work presents new simulation results or a literature synthesis, and include key methodological parameters such as simulation type, system size, crowding agent identity and concentration range, and timescales studied.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope and generalizability  
+  - **Claim pointer** The authors claim that the effects of crowding on facilitated diffusion differ from those in protein-protein association  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the range of crowding conditions, protein types, or DNA substrate properties over which this claim holds. It is unclear whether the conclusion is general or limited to specific simulation conditions.  
+  - **Why it matters** Overgeneralization from limited conditions could mislead readers who apply these conclusions to different biological contexts.  
+  - **Resolution test** Specify the parameter space explored and state explicitly any limitations on the generalizability of the conclusions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** The phrase "cannot be solely attributed to volume exclusion principles"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "volume exclusion principles" is not defined, and it is unclear whether the authors refer to hard-core repulsion, depletion forces, or a specific theoretical framework.  
+  - **Required correction** Define the term or replace it with a more specific description of the physical mechanism being excluded.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** The phrase "physicochemical characteristics of crowding agents"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify which physicochemical characteristics are meant, such as charge, shape, hydrophobicity, or flexibility.  
+  - **Required correction** List the specific characteristics considered in the review.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Contextual framing  
+  - **Affected element** The opening statement about protein-DNA interaction being fundamental to enzymatic processes  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention any specific enzymatic processes or biological outcomes that depend on facilitated diffusion, which would help frame the biological relevance.  
+  - **Required correction** Add one or two examples of processes, such as transcription initiation or DNA repair, that depend on DBP target search.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim of differential crowding effects is unsupported by visible evidence, and the methodological basis for the stated demonstration is absent. Without addressing these, the scientific case is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel perspective by distinguishing crowding effects in facilitated diffusion from those in protein-protein association, but the originality cannot be fully assessed without the full text.  
+  - **Scientific importance** The question of how crowding affects protein-DNA target search is biologically significant and relevant to gene regulation and nuclear organization.  
+  - **Interdisciplinary readership** The topic bridges biophysics, computational biology, and molecular biology, and would likely appeal to a broad readership if the claims are well supported.  
+  - **Technical soundness** Not assessable from the abstract alone. The absence of methodological detail prevents evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally readable but uses terms such as "facilitated diffusion" and "volume exclusion principles" without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting topic and a potentially important conceptual claim, but the absence of supporting data and methodological detail means the scientific case cannot be evaluated. The manuscript may become suitable for publication if the full text provides adequate evidence and the blocking concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that crowding effects on facilitated diffusion differ significantly from those in protein-protein association is unsupported by any visible evidence.
+- The claim that the authors "demonstrate" how physicochemical characteristics of crowding agents impact facilitated diffusion is unsupported, as no results or methods are presented.
+- The claim that crowding effects cannot be solely attributed to volume exclusion principles is presented without mechanistic explanation or supporting data.
+- The generalizability of the conclusions to biological nuclear environments is not assessable from the abstract.

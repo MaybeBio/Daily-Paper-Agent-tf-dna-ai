@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "42589626",
+    "doi": "10.3390/ijms27156972",
+    "title": "Exploring the Role of the LCN2-DHODH Interaction in Mitochondrial Ferroptosis During Sepsis-Induced Myocardial Injury and LPS-Induced HL-1 Cardiomyocyte Injury."
+  },
+  "content": {
+    "abstract": "This study aimed to investigate the regulatory effect of lipocalin-2 (LCN2) knockdown on DHODH-mediated mitochondrial ferroptosis in sepsis-induced myocardial injury (SIMI) and clarify the underlying STAT3-related molecular mechanism in a cecal ligation and puncture (CLP) mouse model and lipopolysaccharide (LPS)-stimulated HL-1 cardiomyocyte injury model. We established a classic cecal ligation and puncture (CLP)-induced SIMI mouse model. Pharmacological suppression of ferroptosis was performed to confirm the pathogenic role of ferroptosis in SIMI progression. Subsequently, LCN2-knockdown mice were utilized to explore the biological function of LCN2 in modulating myocardial ferroptosis and septic cardiac injury, and the direct protein interaction between LCN2 and DHODH was verified via molecular docking and co-immunoprecipitation assays. In vitro, we constructed stable DHODH-overexpressing HL-1 cardiomyocytes via lentiviral transfection and established a lipopolysaccharide (LPS)-induced cardiomyocyte injury model. The results showed that LCN2 expression was markedly upregulated in SIMI. Both GPX4- and DHODH-dependent mitochondrial ferroptosis were significantly activated during SIMI. Lentivirus-mediated DHODH overexpression exerted prominent protective effects against LPS-induced cardiomyocyte injury. Importantly, pharmacological blockade of DHODH by Brequinar reversed the reduction of p-STAT3 induced by LCN2 silencing. However, Fin56-mediated specific inhibition of mitochondrial GPX4 exhibited no significant effect on STAT3 phosphorylation level, revealing distinct regulatory mechanisms for these two pathways. In summary, LCN2 knockdown inhibits DHODH-mediated mitochondrial ferroptosis to alleviate SIMI. Pharmacological inhibition of DHODH abrogates the cardioprotective effect of LCN2 knockdown by restoring STAT3 phosphorylation. These findings provide novel insights into the prevention and treatment of sepsis-induced myocardial injury.",
+    "keywords": [
+      "STAT3",
+      "dihydroorotate dehydrogenase",
+      "lipocalin-2",
+      "mitochondrial derived ferroptosis",
+      "sepsis induce myocardial injury"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Myocytes, Cardiac/metabolism/pathology",
+      "Lipopolysaccharides/toxicity",
+      "*Lipocalin-2/metabolism/genetics",
+      "*Sepsis/complications/metabolism/pathology",
+      "*Ferroptosis",
+      "Mice",
+      "Male",
+      "STAT3 Transcription Factor/metabolism",
+      "Cell Line",
+      "*Mitochondria/metabolism",
+      "Disease Models, Animal",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Lu",
+        "Li, Yuping",
+        "Hao, Yixuan",
+        "Yu, Mengjie",
+        "Xia, Shicheng",
+        "Wang, Jiahui",
+        "Ye, Hongwei",
+        "Gao, Qin"
+      ],
+      "short_names": [
+        "Li L",
+        "Li Y",
+        "Hao Y",
+        "Yu M",
+        "Xia S",
+        "Wang J",
+        "Ye H",
+        "Gao Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5201-926X",
+        "ORCID: 0000-0002-7599-4295"
+      ],
+      "affiliations": [
+        "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "School of Life Sciences, Bengbu Medical University, Bengbu 233000, China.",
+        "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "School of Life Sciences, Bengbu Medical University, Bengbu 233000, China.",
+        "Department of Clinical Medicine, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+        "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+        "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Lu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuping",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+          "School of Life Sciences, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Yixuan",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mengjie",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China.",
+          "School of Life Sciences, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Shicheng",
+        "short_name": "Xia S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Hongwei",
+        "short_name": "Ye H",
+        "identifiers": [
+          "0000-0002-5201-926X"
+        ],
+        "affiliations": [
+          "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Qin",
+        "short_name": "Gao Q",
+        "identifiers": [
+          "0000-0002-7599-4295"
+        ],
+        "affiliations": [
+          "Department of Physiology, Bengbu Medical University, Bengbu 233000, China.",
+          "Key Laboratory of Basic and Clinical Cardiovascular Diseases, Bengbu Medical University, Bengbu 233000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Aug 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41703107",
+      "39899131",
+      "39662594",
+      "38761990",
+      "38670252",
+      "37531930",
+      "37240031",
+      "37126929",
+      "36973755",
+      "36940731",
+      "36632502",
+      "36113464",
+      "35990970",
+      "34740378",
+      "34599691",
+      "34367186",
+      "34328510",
+      "34276358",
+      "33981038",
+      "33268902",
+      "32641834",
+      "32349646",
+      "31951565",
+      "31901947",
+      "31694929",
+      "31623831",
+      "31551419",
+      "31499527",
+      "30925886",
+      "30692261",
+      "30320189",
+      "30318938",
+      "30268886",
+      "29628435",
+      "29447109",
+      "29362479",
+      "28643487",
+      "28628361",
+      "27836304",
+      "27800610",
+      "27641501",
+      "26193341",
+      "26166707",
+      "26129883",
+      "25227123",
+      "24863067",
+      "24725742",
+      "21430780",
+      "20220144",
+      "19949414",
+      "19131954",
+      "18598004",
+      "18230827",
+      "17391123",
+      "16446425",
+      "16254208",
+      "11303500",
+      "9464512"
+    ],
+    "similar": [
+      "42589626",
+      "40613295",
+      "41437212",
+      "38761990",
+      "41987307",
+      "42350800",
+      "39662594",
+      "41475687",
+      "39899131",
+      "40722030",
+      "41397542",
+      "35365451",
+      "41611068",
+      "39082362",
+      "42167092",
+      "40581164",
+      "40819789",
+      "40779707",
+      "37057132",
+      "39512683",
+      "41793535",
+      "38643713",
+      "41478419",
+      "41316369",
+      "42361940",
+      "42035548",
+      "39415524",
+      "42241977",
+      "41340475",
+      "41539372",
+      "39623277",
+      "39738844",
+      "42365698",
+      "42366650",
+      "38517565",
+      "41743749",
+      "38822624",
+      "41023284",
+      "40220410",
+      "39326685",
+      "38414350",
+      "41652232",
+      "41886619",
+      "41678102",
+      "34969358",
+      "42223565",
+      "39814108",
+      "42143503",
+      "42014343",
+      "34162128",
+      "39153053",
+      "34311527",
+      "38547523",
+      "41494251",
+      "40768888",
+      "42208328",
+      "40695650",
+      "42235794",
+      "40205009",
+      "41494591",
+      "42043768",
+      "42394490",
+      "40696470",
+      "37545443",
+      "41619537",
+      "39789306",
+      "41421227",
+      "38686889",
+      "38837857",
+      "42576487",
+      "40967330",
+      "42497660",
+      "42099627",
+      "41656459",
+      "35188436",
+      "40277060",
+      "41997058",
+      "40111530",
+      "39986118",
+      "41404734",
+      "41042219",
+      "42409347",
+      "41637825",
+      "42032737",
+      "42522960",
+      "41241334",
+      "41958127",
+      "39529130",
+      "41747801",
+      "40743621",
+      "31900829",
+      "40646387",
+      "41484741",
+      "36713420",
+      "32373063",
+      "40791017",
+      "39067535",
+      "41066922",
+      "36230956",
+      "40721557"
+    ],
+    "review": [
+      "42589626",
+      "40768888"
+    ],
+    "pmc": [
+      "13467353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27156972",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589626/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

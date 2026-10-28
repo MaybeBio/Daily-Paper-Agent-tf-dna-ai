@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "33895441",
+    "doi": "10.1016/j.envint.2021.106574",
+    "title": "Identification of non-validated endocrine disrupting chemical characterization methods by screening of the literature using artificial intelligence and by database exploration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Exposure to endocrine disrupting chemicals (EDCs) represents a critical public health threat. Several adverse health outcomes (e.g., cancers, metabolic and neurocognitive/neurodevelopmental disorders, infertility, immune diseases and allergies) are associated with exposure to EDCs. However, the regulatory tests that are currently employed in the EU to identify EDCs do not assess all of the endocrine pathways. OBJECTIVE: Our objective was to explore the literature, guidelines and databases to identify relevant and reliable test methods which could be used for prioritization and regulatory pre-validation of EDCs in missing and urgent key areas. METHODS: Abstracts of articles referenced in PubMed were automatically screened using an updated version of the AOP-helpFinder text mining approach. Other available sources were manually explored. Exclusion criteria (computational methods, specific tests for estrogen receptors, tests under validation or already validated, methods accepted by regulatory bodies) were applied according to the priorities of the French Public-privatE Platform for the Pre-validation of Endocrine disRuptors (PEPPER) characterisation methods. RESULTS: 226 unique non-validated methods were identified. These experimental methods (in vitro and in vivo) were developed for 30 species using diverse techniques (e.g., reporter gene assays and radioimmunoassays). We retrieved bioassays mainly for the reproductive system, growth/developmental systems, lipogenesis/adipogenicity, thyroid, steroidogenesis, liver metabolism-mediated toxicity, and more specifically for the androgen-, thyroid hormone-, glucocorticoid- and aryl hydrocarbon receptors. CONCLUSION: We identified methods to characterize EDCs which could be relevant for regulatory pre-validation and, ultimately for the efficient prevention of EDC-related severe health outcomes. This integrative approach highlights a successful and complementary strategy which combines computational and manual curation approaches.",
+    "keywords": [
+      "AOP-helpFinder",
+      "Assay validation",
+      "Bioassays",
+      "Endocrine disruptors",
+      "Guidelines",
+      "OECD",
+      "PEPPER"
+    ],
+    "mesh_terms": [
+      "Artificial Intelligence",
+      "Biological Assay",
+      "*Endocrine Disruptors/toxicity",
+      "Endocrine System",
+      "Receptors, Estrogen"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zgheib, Elias",
+        "Kim, Min Ji",
+        "Jornod, Florence",
+        "Bernal, Kevin",
+        "Tomkiewicz, Celine",
+        "Bortoli, Sylvie",
+        "Coumoul, Xavier",
+        "Barouki, Robert",
+        "De Jesus, Kelly",
+        "Grignard, Elise",
+        "Hubert, Philippe",
+        "Katsanou, Efrosini S",
+        "Busquet, Francois",
+        "Audouze, Karine"
+      ],
+      "short_names": [
+        "Zgheib E",
+        "Kim MJ",
+        "Jornod F",
+        "Bernal K",
+        "Tomkiewicz C",
+        "Bortoli S",
+        "Coumoul X",
+        "Barouki R",
+        "De Jesus K",
+        "Grignard E",
+        "Hubert P",
+        "Katsanou ES",
+        "Busquet F",
+        "Audouze K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite Sorbonne Paris Nord, Bobigny, INSERM UMR-S 1124, Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France.",
+        "PEPPER, Paris, France.",
+        "PEPPER, Paris, France.",
+        "PEPPER, Paris, France.",
+        "Benaki Phytopathological Institute, Athens, Greece.",
+        "Altertox, Brussels, Belgium.",
+        "Universite de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France. Electronic address: karine.audouze@u-paris.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zgheib, Elias",
+        "short_name": "Zgheib E",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Kim, Min Ji",
+        "short_name": "Kim MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Université Sorbonne Paris Nord, Bobigny, INSERM UMR-S 1124, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jornod, Florence",
+        "short_name": "Jornod F",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bernal, Kévin",
+        "short_name": "Bernal K",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Tomkiewicz, Céline",
+        "short_name": "Tomkiewicz C",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bortoli, Sylvie",
+        "short_name": "Bortoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Coumoul, Xavier",
+        "short_name": "Coumoul X",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Barouki, Robert",
+        "short_name": "Barouki R",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "De Jesus, Kelly",
+        "short_name": "De Jesus K",
+        "identifiers": [],
+        "affiliations": [
+          "PEPPER, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Grignard, Elise",
+        "short_name": "Grignard E",
+        "identifiers": [],
+        "affiliations": [
+          "PEPPER, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Hubert, Philippe",
+        "short_name": "Hubert P",
+        "identifiers": [],
+        "affiliations": [
+          "PEPPER, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Katsanou, Efrosini S",
+        "short_name": "Katsanou ES",
+        "identifiers": [],
+        "affiliations": [
+          "Benaki Phytopathological Institute, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Busquet, Francois",
+        "short_name": "Busquet F",
+        "identifiers": [],
+        "affiliations": [
+          "Altertox, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Audouze, Karine",
+        "short_name": "Audouze K",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, T3S, Inserm UMR S-1124, F-75006 Paris, France. Electronic address: karine.audouze@u-paris.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment international"
+    ],
+    "journal_abbrev": [
+      "Environ Int"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/26 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "39569757",
+      "38535916",
+      "38523647",
+      "36006128",
+      "35886395",
+      "35393121",
+      "35295112",
+      "35295107"
+    ],
+    "refs": [],
+    "similar": [
+      "33895441",
+      "34863984",
+      "34418449",
+      "34452691",
+      "32340264",
+      "32598900",
+      "33190914",
+      "37451095",
+      "36982431",
+      "35015608",
+      "30633647",
+      "20872646",
+      "21038429",
+      "33716955",
+      "33848905",
+      "34666016",
+      "25282305",
+      "33735605",
+      "25451822",
+      "23190036",
+      "31792807",
+      "27241264",
+      "28464759",
+      "23688835",
+      "31349169",
+      "32391796",
+      "35628520",
+      "32552445",
+      "28319747",
+      "20684730",
+      "35660566",
+      "32360643",
+      "32973678",
+      "35642859",
+      "34718414",
+      "30584954",
+      "37572129",
+      "37028267",
+      "30994381",
+      "29119384",
+      "33072697",
+      "32344727",
+      "35988584",
+      "18174954",
+      "24316064",
+      "30857347",
+      "37554099",
+      "16291569",
+      "27509913",
+      "26291836",
+      "17257656",
+      "33022499",
+      "28795474",
+      "32901485",
+      "21120754",
+      "32841708",
+      "28934726",
+      "32370863",
+      "32360905",
+      "34524809",
+      "35378198",
+      "17674209",
+      "18006066",
+      "28602910",
+      "23074026",
+      "33223326",
+      "28292651",
+      "32490822",
+      "26851879",
+      "31830512",
+      "29522903",
+      "23524272",
+      "26975043",
+      "28128023",
+      "39246236",
+      "31325560",
+      "28232102",
+      "25742517",
+      "34452684",
+      "32423144",
+      "26880303",
+      "30929029",
+      "19482336",
+      "34859678",
+      "27155823",
+      "11566572",
+      "35915953",
+      "21565684",
+      "26184583",
+      "32745784",
+      "24515815",
+      "23453986",
+      "27692877",
+      "34271427",
+      "17047927",
+      "24800870",
+      "33920428",
+      "27139122",
+      "37295163",
+      "23123408",
+      "27363826",
+      "12948882",
+      "22267834",
+      "29126512",
+      "35010832",
+      "34119701",
+      "38883262",
+      "35159304",
+      "32502797",
+      "33917455",
+      "32354186",
+      "39364092",
+      "35660951",
+      "38417485",
+      "37211130",
+      "38601197",
+      "37229356",
+      "32171711",
+      "32699854",
+      "32991717",
+      "37456981",
+      "38081530",
+      "35167326",
+      "35573277",
+      "38862081",
+      "37490962",
+      "36769005",
+      "39195643",
+      "37415082",
+      "38535916",
+      "36693459",
+      "37209109",
+      "36277366",
+      "35634558",
+      "36090961",
+      "35295107"
+    ],
+    "review": [
+      "33895441",
+      "34863984",
+      "34452691",
+      "32340264",
+      "36982431",
+      "35015608",
+      "30633647",
+      "33716955",
+      "33848905",
+      "34666016",
+      "33735605",
+      "23190036",
+      "31792807",
+      "28464759",
+      "23688835",
+      "35628520",
+      "20684730",
+      "35660566",
+      "32973678",
+      "29119384",
+      "33072697",
+      "32344727",
+      "37554099",
+      "16291569",
+      "27509913",
+      "26291836",
+      "33022499",
+      "28795474",
+      "32841708",
+      "28934726",
+      "35378198",
+      "17674209",
+      "18006066",
+      "28292651",
+      "32490822",
+      "31830512",
+      "29522903",
+      "23524272",
+      "28128023",
+      "31325560",
+      "26880303",
+      "19482336",
+      "27155823",
+      "11566572",
+      "26184583",
+      "23453986",
+      "27692877",
+      "33920428",
+      "23123408",
+      "27363826",
+      "35010832",
+      "33917455",
+      "35660951",
+      "38417485",
+      "32171711",
+      "38081530",
+      "38862081",
+      "36769005",
+      "38535916",
+      "36693459"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0160-4120(21)00199-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

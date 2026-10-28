@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.07981v1",
+  "title": "Regulatory DNA sequence Design with Reinforcement Learning",
+  "authors": "Zhao Yang; Bing Su; Chuan Cao; Ji-Rong Wen",
+  "journal": "",
+  "published_date": "2025-03-11",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用强化学习微调自回归模型设计顺式调控元件，以转录因子结合位点（TFBS）为奖励信号优化DNA序列，虽聚焦序列生成而非三维互作建模，但TF-DNA结合位点预测与生成方法对本课题有直接借鉴价值。",
+  "abstract": "Cis-regulatory elements (CREs), such as promoters and enhancers, are relatively short DNA sequences that directly regulate gene expression. The fitness of CREs, measured by their ability to modulate gene expression, highly depends on the nucleotide sequences, especially specific motifs known as transcription factor binding sites (TFBSs). Designing high-fitness CREs is crucial for therapeutic and bioengineering applications. Current CRE design methods are limited by two major drawbacks: (1) they typically rely on iterative optimization strategies that modify existing sequences and are prone to local optima, and (2) they lack the guidance of biological prior knowledge in sequence optimization. In this paper, we address these limitations by proposing a generative approach that leverages reinforcement learning (RL) to fine-tune a pre-trained autoregressive (AR) model. Our method incorporates data-driven biological priors by deriving computational inference-based rewards that simulate the addition of activator TFBSs and removal of repressor TFBSs, which are then integrated into the RL process. We evaluate our method on promoter design tasks in two yeast media conditions and enhancer design tasks for three human cell types, demonstrating its ability to generate high-fitness CREs while maintaining sequence diversity. The code is available at https://github.com/yangzhao1230/TACO.",
+  "abstract_zh": "顺式调控元件（cis-regulatory elements, CREs），如启动子和增强子，是相对较短的DNA序列，直接调控基因表达。CREs的适应性，以其调节基因表达的能力来衡量，高度依赖于核苷酸序列，尤其是被称为转录因子结合位点（transcription factor binding sites, TFBSs）的特异性基序。设计高适应性的CREs对于治疗和生物工程应用至关重要。当前的CRE设计方法受限于两大主要缺陷：（1）它们通常依赖于迭代优化策略，修改现有序列，容易陷入局部最优；（2）在序列优化中缺乏生物学先验知识的指导。在本文中，我们通过提出一种生成式方法来解决这些限制，该方法利用强化学习（reinforcement learning, RL）对预训练的自回归（autoregressive, AR）模型进行微调。我们的方法通过推导基于计算推断的奖励来整合数据驱动的生物学先验，模拟添加激活型TFBSs和去除抑制型TFBSs，然后将这些奖励整合到RL过程中。我们在两种酵母培养基条件下的启动子设计任务和三种人类细胞类型的增强子设计任务上评估了我们的方法，展示了其在保持序列多样性的同时生成高适应性CREs的能力。代码可在 https://github.com/yangzhao1230/TACO 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2503.07981v1",
+  "source_url": "https://arxiv.org/abs/2503.07981v1",
+  "paper_page_path": "papers/arxiv/2503.07981v1/index.html"
+}

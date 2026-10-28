@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40894159",
+    "doi": "10.1101/2025.08.18.25333841",
+    "title": "Interpretable machine learning coupled to spatial transcriptomics unveils mechanisms of macrophage-driven fibroblast activation in ischemic cardiomyopathy."
+  },
+  "content": {
+    "abstract": "Myocardial infarction (MI) often leads to ischemic cardiomyopathy, which is characterized by extensive cardiac remodeling and pathological fibrosis accompanied by inflammatory cell accumulation. Although inflammatory responses elicited by cardiac macrophages are instrumental in post-MI cardiac remodeling, macrophage microniche-mediated fibroblast activation in MI are not understood. Analyses of the spatial transcriptomics data of the hearts of patients with ischemic cardiomyopathy and a history of MI using a novel workflow combining Significant Latent Factor Interaction Discovery (SLIDE), which is an interpretable machine learning approach recently developed by us, regulatory network inference, and in-silico perturbations unveiled unique context-specific cellular programs and corresponding transcription factors driving these programs (that would have been missed by traditional analyses) in macrophages, and resting and activated cardiac fibroblasts. More nuanced analyses to examine the microniches comprising these cells in failed hearts uncovered additional cellular programs reflective of altered paracrine signaling among these cells. Silencing of niche-specific key genes and TFs from these cellular programs in both mouse and human macrophages altered the expression of pro-fibrotic genes. Furthermore, the secretomes from these macrophages suppressed myofibroblast differentiation. Finally, macrophage-specific in vivo silencing of Tvp23b, Tdrd6, and B3galnt1 and the transcription factors Mafk and Maz, which are differentially expressed in macrophage/activated fibroblast niches, using a novel lipidoid nanoparticle approach in mice with MI significantly improved cardiac function and suppressed fibrosis. Our study uncovers novel macrophage niche-mediated fibroblast activation mechanisms and provides a new generalizable framework, coupling interpretable machine learning, regulatory network inference, in-silico perturbations, and in vitro and in vivo testing.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Natarajan, Niranjana",
+        "Xiao, Hanxi",
+        "Haque, Shagufta",
+        "Cundiff, Mary D",
+        "Hara, Mika",
+        "Sriram, Varsha",
+        "Das, Jishnu",
+        "Dutta, Partha"
+      ],
+      "short_names": [
+        "Natarajan N",
+        "Xiao H",
+        "Haque S",
+        "Cundiff MD",
+        "Hara M",
+        "Sriram V",
+        "Das J",
+        "Dutta P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5747-064X"
+      ],
+      "affiliations": [
+        "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213.",
+        "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine.",
+        "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh.",
+        "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh.",
+        "Joint CMU-Pitt Program in Computational Biology.",
+        "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213.",
+        "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine.",
+        "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine.",
+        "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh.",
+        "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213.",
+        "Department of Bioengineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA.",
+        "Veterans Affairs Pittsburgh Healthcare System, Pittsburgh, PA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Natarajan, Niranjana",
+        "short_name": "Natarajan N",
+        "identifiers": [],
+        "affiliations": [
+          "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213.",
+          "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine.",
+          "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hanxi",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh.",
+          "Joint CMU-Pitt Program in Computational Biology."
+        ]
+      },
+      {
+        "full_name": "Haque, Shagufta",
+        "short_name": "Haque S",
+        "identifiers": [],
+        "affiliations": [
+          "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213."
+        ]
+      },
+      {
+        "full_name": "Cundiff, Mary D",
+        "short_name": "Cundiff MD",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Hara, Mika",
+        "short_name": "Hara M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Sriram, Varsha",
+        "short_name": "Sriram V",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [
+          "0000-0002-5747-064X"
+        ],
+        "affiliations": [
+          "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Dutta, Partha",
+        "short_name": "Dutta P",
+        "identifiers": [],
+        "affiliations": [
+          "Pittsburgh Heart, Lung, Blood, and Vascular Medicine Institute, Division of Cardiology, Department of Medicine, University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA 15213.",
+          "Department of Bioengineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA.",
+          "Veterans Affairs Pittsburgh Healthcare System, Pittsburgh, PA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2025 Aug 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:30",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40197368",
+      "39443792",
+      "39394532",
+      "39352744",
+      "39292803",
+      "39198639",
+      "39195916",
+      "39187565",
+      "38765890",
+      "38719175",
+      "38546848",
+      "38374265",
+      "38264914",
+      "37816293",
+      "37776122",
+      "37471486",
+      "37438528",
+      "37339972",
+      "37074566",
+      "36755098",
+      "36738398",
+      "36579644",
+      "36036590",
+      "35998113",
+      "35948637",
+      "35893744",
+      "35136032",
+      "33277324",
+      "33195890",
+      "33135058",
+      "32877204",
+      "32862327",
+      "32762776",
+      "32673537",
+      "32051509",
+      "31969688",
+      "31565659",
+      "31299062",
+      "31158407",
+      "30737012",
+      "29664017",
+      "29664015",
+      "29408013",
+      "28436487",
+      "28413032",
+      "26987915",
+      "26593722",
+      "26561648",
+      "26519109",
+      "25521548",
+      "24849652",
+      "24786973",
+      "24231799",
+      "24189039",
+      "23684677",
+      "23207731",
+      "22943504",
+      "22182509",
+      "21837283",
+      "20530020",
+      "19345099",
+      "19168509",
+      "18025128",
+      "16135787",
+      "11890659",
+      "8040308"
+    ],
+    "similar": [
+      "40894159",
+      "41208894",
+      "42323100",
+      "34997943",
+      "41648224",
+      "39234697",
+      "42019016",
+      "39994656",
+      "41548375",
+      "31856969",
+      "40308203",
+      "33769920",
+      "41238175",
+      "33164548",
+      "32600176",
+      "36240436",
+      "35862254",
+      "41279812",
+      "41404747",
+      "39914589",
+      "40567222",
+      "34415185",
+      "38867219",
+      "41667113",
+      "36747878",
+      "40750734",
+      "33550817",
+      "36484260",
+      "33971401",
+      "40448227",
+      "38390737",
+      "38816815",
+      "42113345",
+      "35115932",
+      "39762127",
+      "33140535",
+      "28356446",
+      "34023353",
+      "33172999",
+      "42396853",
+      "42475469",
+      "41168006",
+      "31513837",
+      "36747104",
+      "38281937",
+      "40460294",
+      "41898567",
+      "37824022",
+      "28439731",
+      "40188526",
+      "39005419",
+      "39267173",
+      "24786398",
+      "40564023",
+      "30246716",
+      "32845445",
+      "41859105",
+      "38899461",
+      "41362745",
+      "31284728",
+      "38799173",
+      "41787499",
+      "41919224",
+      "41027152",
+      "42302376",
+      "32886000",
+      "40334985",
+      "41609618",
+      "24928992",
+      "33847835",
+      "40072075",
+      "33264286",
+      "30789914",
+      "36003911",
+      "25024745",
+      "39482719",
+      "33313154",
+      "41078122",
+      "27262672",
+      "38449872",
+      "34623184",
+      "30832557",
+      "39098433",
+      "29030341",
+      "36685542",
+      "40410053",
+      "22012077",
+      "42121865",
+      "40082768",
+      "41642196",
+      "41853297",
+      "25128086",
+      "40460795",
+      "35966575",
+      "40955564",
+      "40015386",
+      "42150704",
+      "38989590",
+      "31588225",
+      "41547068"
+    ],
+    "review": [
+      "40894159",
+      "40334985",
+      "40072075"
+    ],
+    "pmc": [
+      "12393634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40894159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.18.25333841",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

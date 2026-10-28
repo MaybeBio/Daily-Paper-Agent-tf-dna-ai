@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37582793",
+  "title": "Predicting the impact of sequence motifs on gene regulation using single-cell data.",
+  "authors": "Hepkema, Jacob; Lee, Nicholas Keone; Stewart, Benjamin J; Ruangroengkulrith, Siwat; Charoensawan, Varodom; Clatworthy, Menna R; Hemberg, Martin",
+  "journal": "Genome biology",
+  "published_date": "2023-08-16",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN从单细胞数据推断调控基序及其细胞类型特异性重要性，虽涉及TF结合基序预测，但缺乏三维互作建模与机制研究，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "The binding of transcription factors at proximal promoters and distal enhancers is central to gene regulation. Identifying regulatory motifs and quantifying their impact on expression remains challenging. Using a convolutional neural network trained on single-cell data, we infer putative regulatory motifs and cell type-specific importance. Our model, scover, explains 29% of the variance in gene expression in multiple mouse tissues. Applying scover to distal enhancers identified using scATAC-seq from the developing human brain, we identify cell type-specific motif activities in distal enhancers. Scover can identify regulatory motifs and their importance from single-cell data where all parameters and outputs are easily interpretable.",
+  "abstract_zh": "转录因子在近端启动子和远端增强子处的结合是基因调控的核心。识别调控基序并量化其对表达的影响仍具挑战性。利用在单细胞数据上训练的卷积神经网络，我们推断出推定的调控基序及细胞类型特异性的重要性。我们的模型scover解释了多个小鼠组织中基因表达方差的29%。将scover应用于通过scATAC-seq识别的发育中人脑远端增强子，我们识别出远端增强子中细胞类型特异性的基序活性。Scover能够从单细胞数据中识别调控基序及其重要性，且所有参数和输出均易于解释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37582793/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37582793/",
+  "paper_page_path": "papers/pubmed/37582793/index.html"
+}

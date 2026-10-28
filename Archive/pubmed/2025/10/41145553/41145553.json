@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "41145553",
+    "doi": "10.1038/s41598-025-21273-2",
+    "title": "Identification of key biomarkers associated with necroptosis and immune infiltration in hepatitis B virus-related acute-on-chronic liver failure."
+  },
+  "content": {
+    "abstract": "Hepatitis B virus-related acute-on-chronic liver failure (ACHBLF) is a severe condition associated with short-term mortality without liver transplantation. Substantial evidence indicates that necroptosis and immune infiltration play critical roles in ACHBLF development. Therefore, the identification of necroptosis-related biomarkers may be beneficial for prognostic evaluations and may shed light on potential therapeutic targets for ACHBLF. In this study, we used integrated bioinformatics analysis and machine learning algorithms to investigate the correlation between necroptosis and immune infiltration using peripheral blood mononuclear cells from ACHBLF patients. First, after GSE168048 and GSE248217 were obtained from the Gene Expression Omnibus (GEO) database, differentially expressed genes (DEGs) between ACHBLF patients and normal controls were identified. With the help of the weighted gene coexpression network, 211 necroptosis-related DEGs were identified by intersecting the DEGs with necroptosis-related genes (NRGs). The functional characterization of these NRG-related DEGs was subsequently performed using GO, KEGG, and gene set enrichment analysis. Hub genes were identified through the integration of LASSO regression, support vector machines recursive feature elimination, and random forest. Immune-related functions were explored by analyzing the correlations between hub gene expression and immune cells infiltration. Furthermore, mRNA-miRNA-lncRNA interaction network, RNA-binding proteins (RBPs) and transcription factors were predicted using the miRDB, starBase and hTFtarget databases. Finally, target drugs were predicted using a connectivity map. A total of 7461 DEGs were identified between the ACHBLF and normal groups; 3123 genes were upregulated and 4338 genes were downregulated. A total of 211 NRG-related DEGs and 5 hub genes (FCRL3, CDC14A, KLHL22, RALY, and MAP4K1) were obtained. The hub genes were enriched in the T cell receptor signaling pathway, ubiquitin-mediated proteolysis, and the MAPK signaling pathway and were correlated with immune cell infiltration. A lncRNA XIST-miR-424-5p-CDC14A regulatory network was constructed, and 20RBPs and 2 transcription factors (GATA1 and CEBPB) were identified. In addition, 10 candidate drugs were predicted to target MAP4K1. The 5 hub genes could serve as biomarkers for predicting the prognosis of ACHBLF patients and provide clues for new potential therapeutic targets.",
+    "keywords": [
+      "Acute-on-chronic hepatitis b liver failure",
+      "Bioinformatics",
+      "Immune infiltration",
+      "Machine learning",
+      "Necroptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Necroptosis/genetics",
+      "*Acute-On-Chronic Liver Failure/genetics/immunology/virology/pathology/etiology",
+      "*Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "*Hepatitis B virus",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "*Hepatitis B/complications",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Chuangjie",
+        "Luo, Dan",
+        "Xie, Xia",
+        "Dou, Chengyun"
+      ],
+      "short_names": [
+        "Cao C",
+        "Luo D",
+        "Xie X",
+        "Dou C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, Hengyang, 421001, Hunan Province, China.",
+        "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China.",
+        "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China.",
+        "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China. ashleydou@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Chuangjie",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, Hengyang, 421001, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Dan",
+        "short_name": "Luo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Xia",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Chengyun",
+        "short_name": "Dou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Hengyang Medical School, The First Affiliated Hospital of University of South China, University of South China, 69 Chuanshan Road, Hengyang, 421001, Hunan, China. ashleydou@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/28 06:30",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "42100402",
+      "41891997"
+    ],
+    "refs": [
+      "39988725",
+      "39730228",
+      "39417505",
+      "38993567",
+      "38880454",
+      "38461541",
+      "38111573",
+      "37734869",
+      "37274736",
+      "36952348",
+      "36944807",
+      "36864689",
+      "36639542",
+      "35941292",
+      "35753351",
+      "34921136",
+      "34908452",
+      "34885097",
+      "34166980",
+      "33909326",
+      "33842643",
+      "33750796",
+      "33462187",
+      "33431576",
+      "33109719",
+      "32655398",
+      "32547233",
+      "32535264",
+      "32433540",
+      "31441146",
+      "31172417",
+      "30922965",
+      "30870006",
+      "30519104",
+      "29200007",
+      "27924226",
+      "27605011",
+      "26283732",
+      "26201023",
+      "24388581",
+      "21984439",
+      "20305686",
+      "19669378",
+      "11598127",
+      "10592173",
+      "9003777"
+    ],
+    "similar": [
+      "41145553",
+      "40374866",
+      "38319987",
+      "41146237",
+      "39072329",
+      "39375405",
+      "34041839",
+      "39991755",
+      "41479901",
+      "39717265",
+      "41044520",
+      "39806277",
+      "40997906",
+      "34536521",
+      "40091022",
+      "39142001",
+      "40861493",
+      "39696012",
+      "38873601",
+      "40496861",
+      "40558824",
+      "38371524",
+      "40574839",
+      "39028999",
+      "35378210",
+      "36291136",
+      "35036448",
+      "31987036",
+      "37740761",
+      "39870856",
+      "35480868",
+      "38867322",
+      "38863714",
+      "41052072",
+      "39251231",
+      "39080525",
+      "36193503",
+      "41291978",
+      "40129981",
+      "39341981",
+      "41305746",
+      "38509535",
+      "35713363",
+      "40312440",
+      "39350187",
+      "35558576",
+      "34233597",
+      "40055592",
+      "39992204",
+      "40263537",
+      "41006883",
+      "40849369",
+      "36618366",
+      "38957433",
+      "39081100",
+      "26400407",
+      "39031474",
+      "31521462",
+      "25024610",
+      "36627660",
+      "40274384",
+      "40977739",
+      "39636891",
+      "35762549",
+      "33376723",
+      "39341952",
+      "37359526",
+      "41325315",
+      "39466354",
+      "37773866",
+      "30996211",
+      "35909518",
+      "40659785",
+      "33102593",
+      "30602391",
+      "27454179",
+      "36125921",
+      "33407587",
+      "35840882",
+      "40093012",
+      "39331874",
+      "31703725",
+      "39403102",
+      "35658960",
+      "41120603",
+      "38062833",
+      "40068024",
+      "41496071",
+      "41316541",
+      "30132538",
+      "33604823",
+      "41300841",
+      "40406620",
+      "40340571",
+      "39118438",
+      "38509743",
+      "40216809",
+      "40818967",
+      "41291841",
+      "40966021"
+    ],
+    "review": [
+      "41145553"
+    ],
+    "pmc": [
+      "12559277"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hepatitisb.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hepatitis B"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-21273-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41145553/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-264",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

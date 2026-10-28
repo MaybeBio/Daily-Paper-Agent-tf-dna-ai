@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors identify a truncated TGA transcription factor, StTGA2.1, in potato, which lacks a full bZIP DNA-binding domain. They propose that this "mini-TGA" cannot bind DNA alone but modulates gene expression by heterodimerizing with full-length TGA proteins, thereby contributing to salicylic acid-mediated immunity against potato virus Y. The study combines expression analysis, protein interaction assays, transcriptomics, and molecular dynamics simulations to support a model in which StTGA2.1 acts as a modulator of TGA-mediated transcriptional regulation.
+- **Visible evidence base** Results sections on phylogenetic analysis, protein interactions, transcriptomic profiling, and structural simulations; methods sections for in silico analysis, MD simulations, plant material, cloning, and assays; supplementary figure and table legends.
+- **Missing materials affecting confidence** Full supplementary data files (Tables S3, S5, S11) are referenced but not provided in the submitted text. Raw RNA-seq data and detailed statistical outputs are not included. The full MD simulation parameters and convergence criteria are only partially described. The transactivation assay data are presented in summary form without raw luminescence values.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel and potentially significant finding: a truncated TGA transcription factor that retains regulatory function through heterodimerization rather than direct DNA binding. The combination of experimental and computational approaches is ambitious and largely appropriate. However, several claims are not fully supported by the data as presented, particularly regarding the mechanistic model of DNA distortion and the physiological relevance of the overexpression system. The study would benefit from additional direct evidence for the proposed mechanism and a more cautious interpretation of the simulation data.
+- **Who would be interested in the results, and why** Plant molecular biologists studying transcriptional regulation in immunity, particularly those working on salicylic acid signaling and TGA transcription factors. The finding that truncated transcription factor variants can acquire new regulatory functions through protein-protein interactions is of broader interest to the transcription factor community, including those studying non-model species where such variants may be more common.
+- **Major strengths** The identification and characterization of a naturally occurring truncated TGA variant is novel and challenges the assumption that such truncations are simply loss-of-function alleles. The study integrates multiple experimental approaches, including protein interaction assays, transcriptomics, and structural simulations, providing a multifaceted view of StTGA2.1 function. The use of a potato-PVY pathosystem is agriculturally relevant and extends beyond the Arabidopsis-centric view of TGA function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for mechanism
+  - **Claim pointer** The authors claim that StTGA2.1 "modulates gene expression through heterogeneous association with transcription factors" and that its compact structure "distorts DNA conformation upon heterodimer binding to enable transcriptional activation."
+  - **Evidence pointer** Results sections "StTGA2.1 and StTGA2.3 activate the class III peroxidase StPRX07" and "StTGA2.1 N terminus likely contributes to protein interactions and alters TGA binding to DNA"; Figure 5; Supplemental Tables S8 and S9.
+  - **Concern** The central mechanistic claim that StTGA2.1 distorts DNA conformation is based solely on MD simulations of a truncated N-terminal fragment, not the full-length protein. The simulations are performed on a chimeric system modeled from a CREB-bZIP-CRE template, and the authors do not provide experimental validation of the predicted DNA distortion. Furthermore, the transactivation assay shows only that coexpression of StTGA2.1 and StTGA2.3 increases promoter activity, but does not directly demonstrate that this requires DNA distortion or that the effect is specific to the proposed heterodimer conformation.
+  - **Why it matters** The proposed mechanism is the central novelty of the paper. Without direct experimental evidence for DNA distortion or a clear demonstration that the heterodimer has altered DNA-binding properties compared to the homodimer, the mechanistic model remains speculative.
+  - **Resolution test** Provide experimental evidence, such as electrophoretic mobility shift assays or DNA footprinting, comparing the DNA-binding properties of StTGA2.3 homodimers versus StTGA2.1-StTGA2.3 heterodimers. Alternatively, perform MD simulations with the full-length proteins and validate key predictions experimentally.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physiological relevance of overexpression
+  - **Claim pointer** The authors state that "overexpression of StTGA2.1 can compensate for the lack of SA in potato immune response to PVY."
+  - **Evidence pointer** Results section "StTGA2.1 improves immune response in SA-deficient potato"; Figure 2; Supplemental Figure S2.
+  - **Concern** The conclusion is based on overexpression in a SA-deficient background. The authors acknowledge that overexpression may not reflect endogenous function, but they do not provide data on endogenous StTGA2.1 expression levels or function. The claim that StTGA2.1 "improves immune response" is only demonstrated under artificial overexpression conditions, and the relevance to natural infection scenarios is unclear.
+  - **Why it matters** The physiological role of StTGA2.1 in potato immunity is a key part of the paper's significance. Without evidence that endogenous StTGA2.1 contributes to immunity, the claim of compensation is overstated.
+  - **Resolution test** Provide data on endogenous StTGA2.1 expression during PVY infection in nontransgenic plants, or generate knockout/knockdown lines to assess the effect on immunity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Transcriptomic data interpretation
+  - **Claim pointer** The authors identify 217 genes regulated by StTGA2.1 overexpression and over 1,800 genes differentially expressed in TGA2.1-NahG plants upon infection.
+  - **Evidence pointer** Results section "Identification of potential StTGA2.1 targets with spatial transcriptomic profiling"; Supplemental Tables S3 and S5.
+  - **Concern** The transcriptomic analysis is presented as a way to identify potential targets, but the authors do not provide a clear validation of these targets beyond the RT-qPCR confirmation of a few genes. The spatial sampling approach is described, but the data are not shown in the main text. The biological significance of the large number of differentially expressed genes is not discussed in depth.
+  - **Why it matters** The transcriptomic data are used to support the claim that StTGA2.1 modulates gene expression, but the lack of detailed analysis and validation weakens this support.
+  - **Resolution test** Provide a more detailed analysis of the transcriptomic data, including a discussion of the biological processes enriched and a clearer link between the identified targets and the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Introduction and Results
+  - **Evidence pointer** Introduction, first paragraph; Results, first section
+  - **Issue** The term "mini-TGA" is introduced without a formal definition or comparison to other truncated TGA variants. The relationship between StTGA2.1 and the previously identified StTGA2.4 and SlTGA2.3 is mentioned but not clearly explained.
+  - **Required correction** Provide a clear definition of "mini-TGA" and a brief comparison of the structural features of StTGA2.1, StTGA2.4, and SlTGA2.3.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, transactivation assay
+  - **Evidence pointer** Figure 4C; Supplemental Figure S8C
+  - **Issue** The transactivation assay results are described as showing "more than two-fold induction" and "three to four-times stronger" induction, but no statistical analysis is reported for these comparisons.
+  - **Required correction** Report the statistical tests used and the resulting P values for the transactivation assay comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation methodology
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The MD simulation protocol is described in detail, but the choice of force fields, water models, and simulation lengths for the production runs is not justified. The authors state that five independent simulations were performed, but the convergence of these simulations is not assessed.
+  - **Required correction** Provide a brief justification for the choice of force fields and water models, and include an assessment of simulation convergence (e.g., RMSD plots or block averaging).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Results, transcriptomics
+  - **Evidence pointer** Supplemental Tables S3 and S5
+  - **Issue** The full lists of differentially expressed genes and enrichment results are provided as supplementary Excel files, but these are not included in the submitted text.
+  - **Required correction** Ensure that all supplementary data files are accessible and that the main text provides sufficient summary information for the reader to evaluate the results without accessing the files.
+
+## Risk / unsupported claims
+- The claim that StTGA2.1 "distorts DNA conformation upon heterodimer binding" is unsupported by direct experimental evidence and relies entirely on MD simulations of a truncated fragment.
+- The claim that StTGA2.1 "compensates for the lack of SA" is only demonstrated under overexpression conditions and may not reflect endogenous function.
+- The statement that "truncation in evolution of genes does not necessary lead to a loss-of-function phenotype" is presented as a general conclusion but is based on a single case study.
+- The identification of StTGA2.1 as a "mini-TGA" with distinct function is not compared to other known truncated TGA variants in other species, limiting the generalizability of the claim.

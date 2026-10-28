@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.02.556055",
+  "title": "Deep Learning for Protein–peptide binding Prediction: Incorporating Sequence, Structural and Language Model Features",
+  "authors": "Abel Chandra; Alok Sharma; Iman Dehzangi; Tatsuhiko Tsunoda; Abdul Sattar",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-06",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测蛋白-肽结合，虽涉及蛋白-肽互作建模，但对象非蛋白质-DNA体系，方法可部分借鉴但与本课题TF-DNA互作核心关联较弱。",
+  "abstract": "Protein-peptide interactions play a crucial role in various cellular processes and are implicated in abnormal cellular behaviors leading to diseases such as cancer. Therefore, understanding these interactions is vital for both functional genomics and drug discovery efforts. Despite a significant increase in the availability of protein-peptide complexes, experimental methods for studying these interactions remain laborious, time-consuming, and expensive. Computational methods offer a complementary approach but often fall short in terms of prediction accuracy. To address these challenges, we introduce PepCNN, a deep learning-based prediction model that incorporates structural and sequence-based information from primary protein sequences. By utilizing a combination of half-sphere exposure, position specific scoring matrices, and pre-trained transformer language model, PepCNN outperforms state-of-the-art methods in terms of specificity, precision, and AUC. The PepCNN software and datasets are publicly available at https://github.com/abelavit/PepCNN.git .",
+  "abstract_zh": "蛋白质-肽相互作用在多种细胞过程中扮演关键角色，并与导致癌症等疾病的异常细胞行为相关。因此，理解这些相互作用对于功能基因组学和药物发现工作都至关重要。尽管蛋白质-肽复合物的可用性显著增加，但研究这些相互作用的实验方法仍然费力、耗时且昂贵。计算方法提供了一种补充途径，但通常在预测准确性方面有所不足。为解决这些挑战，我们引入了PepCNN，一种基于深度学习的预测模型，该模型整合了初级蛋白质序列的结构和序列信息。通过利用半球暴露、位置特异性评分矩阵和预训练变压器语言模型的组合，PepCNN在特异性、精确度和AUC方面优于现有最先进方法。PepCNN软件和数据集可在https://github.com/abelavit/PepCNN.git 公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.02.556055",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.02.556055",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.02.556055/index.html"
+}

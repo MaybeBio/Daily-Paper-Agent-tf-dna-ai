@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental procedures, results and discussion, acknowledgements, footnotes)
+- **Assessment boundary** Technical soundness and completeness of the crystallization and diffraction study as reported; no assessment of biological claims beyond the structural work
+- **Shared manuscript claim summary** The authors report the first successful purification, crystallization, and initial X-ray diffraction analysis of the α1 domain of the mating type transcription factor MAT1-1-1 from *Aspergillus fumigatus* in complex with its cognate DNA. Native crystals diffracted to 3.2 Å; selenomethionine-substituted crystals also diffracted to 3.2 Å with anomalous signal to 3.7 Å, but phasing attempts have not yet yielded interpretable electron density.
+- **Visible evidence base** Abstract, Introduction, Experimental procedures, Results and discussion, Table 1 (macromolecule production), Table 2 (crystallization conditions), Table 3 (data collection and processing statistics), Figures 1–4 (referenced but not visible), Supplementary Table S1 (referenced but not visible)
+- **Missing materials affecting confidence** Figures 1–4 and Table S1 are referenced but not provided; Table 3 data collection statistics are summarized in text but full values are not visible; no electron density maps or phasing statistics are shown; no SDS–PAGE image is visible despite reference to Figure 3a
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial technical effort to obtain diffraction-quality crystals of a fungal MAT1-1-1 α1 domain–DNA complex, a goal that has not been previously achieved. The experimental work appears carefully executed, and the use of streak seeding to improve crystal quality is a sensible and well-documented approach. However, the study is presented as a crystallization report, and the central claims are limited to crystal production and initial diffraction. The lack of a solved structure, the modest resolution, and the unsuccessful phasing attempts mean that the biological or structural insights are not yet established. The manuscript is suitable as a technical advance for a specialized crystallography audience, but its broader impact is currently limited.
+- **Who would be interested in the results, and why** Structural biologists working on fungal transcription factors, particularly those studying mating type regulation in ascomycetes, would be the primary audience. Researchers interested in protein–DNA complex crystallization strategies, especially for challenging transcription factor domains, may also find the methodological details useful. The work may be of interest to the *Aspergillus* research community given the clinical importance of *A. fumigatus*.
+- **Major strengths** 1. The study addresses a previously unmet need, as no crystallization of a fungal α1 domain has been reported. 2. The experimental procedures are described in detail, including buffer compositions, crystallization conditions, and seeding techniques, which will facilitate replication. 3. The authors are transparent about the limitations, including the failure of phasing attempts and the moderate resolution achieved. 4. The use of multiple data sets for the SeMet crystals to maximize anomalous signal is methodologically sound.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The manuscript claims that diffraction data to 3.2 Å resolution were obtained for both native and SeMet crystals, and that these data are suitable for structure determination.  
+    - **Evidence pointer** Results and discussion, Table 3 (referenced but not fully visible)  
+    - **Concern** The resolution of 3.2 Å is modest for a protein–DNA complex of this size, and the authors report that phasing attempts with SHELXE did not yield phases of sufficient quality for model building. The claim that the data are suitable for structure determination is therefore not yet supported. The manuscript does not provide completeness, redundancy, R-merge, or I/σI values in the visible text, making it impossible to assess data quality independently.  
+    - **Why it matters** The central purpose of a crystallization paper is to demonstrate that the crystals are of sufficient quality to enable structure solution. Without successful phasing or at least a clear path to phasing, the utility of the crystals is not established. The absence of key data quality metrics weakens the technical case.  
+    - **Resolution test** Provide full data collection and processing statistics in Table 3, including completeness, redundancy, R-merge, I/σI, and CC1/2. If phasing remains unsuccessful, state explicitly whether the data are expected to be sufficient for experimental phasing with improved methods or higher-resolution crystals.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Reproducibility  
+    - **Claim pointer** The authors state that the optimal protein:DNA ratio was 2:1 and that no crystals were obtained at 1:1.2 or with protein alone.  
+    - **Evidence pointer** Results and discussion, location not provided  
+    - **Concern** The manuscript does not report how the protein:DNA ratio was determined or whether the 2:1 ratio was verified by a binding assay (e.g., electrophoretic mobility shift assay). The claim that the ratio is critical for crystallization is plausible but not experimentally supported in the visible text.  
+    - **Why it matters** If the 2:1 ratio is essential for crystallization, other researchers attempting to reproduce the work will need to know how this was established and whether the stoichiometry was confirmed. Without this information, the reproducibility of the crystallization condition is uncertain.  
+    - **Resolution test** Provide a brief description of how the optimal ratio was determined, or include a reference to a prior study that established the binding stoichiometry. If no such data exist, state this explicitly.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Completeness of evidence  
+    - **Claim pointer** The authors state that the presence of both protein and DNA in the crystals was confirmed.  
+    - **Evidence pointer** Results and discussion, Figure 3 (referenced but not visible)  
+    - **Concern** The confirmation of protein and DNA in the crystals is referenced to Figure 3, but the figure is not provided. The method used for this confirmation (e.g., gel electrophoresis of dissolved crystals) is described only by reference to Pryor et al. (2012).  
+    - **Why it matters** Verification that the crystals contain both components is essential to support the claim that the crystals are of the protein–DNA complex and not of protein alone or DNA alone. Without visible evidence, this claim cannot be assessed.  
+    - **Resolution test** Provide the relevant figure or a detailed description of the confirmation method and results.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, location not provided  
+    - **Issue** The abstract states that this is the first report of structural studies on the α1 domain, but the term "structural studies" is ambiguous. It could refer to crystallization only or to a full structure determination.  
+    - **Required correction** Clarify in the abstract that this is the first report of crystallization and initial diffraction, not a completed structure.  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Experimental procedures  
+    - **Evidence pointer** Experimental procedures, location not provided  
+    - **Issue** The manuscript states that "addition of charged amino acids as described above proved to be essential," but the specific amino acids and their concentrations are not described in the visible text.  
+    - **Required correction** Specify the charged amino acids used and their concentrations, or provide a reference to the prior publication where this is described.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Results and discussion  
+    - **Evidence pointer** Results and discussion, location not provided  
+    - **Issue** The space group for the native crystals is given as P 6 2 22 or P 6 4 22, but the ambiguity is not resolved. This is acceptable at the crystallization stage, but the authors should state whether the ambiguity is due to systematic absences or data quality.  
+    - **Required correction** Add a brief statement explaining the source of the space group ambiguity.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (data quality metrics and phasing status), R1-M2 (verification of protein:DNA stoichiometry), R1-M3 (visible evidence of crystal content)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is original in that no prior crystallization of a fungal α1 domain has been reported. However, the advance is incremental, as it does not yet provide a structure or new biological insight.  
+  - **Scientific importance** The biological importance of MAT1-1-1 in *A. fumigatus* is clear, but the current manuscript does not yet deliver results that would change understanding of this system. The importance is therefore potential rather than demonstrated.  
+  - **Interdisciplinary readership** The manuscript is likely to appeal primarily to structural biologists and crystallographers. The broader *Aspergillus* and fungal biology community may be interested, but the lack of a structure limits cross-disciplinary appeal.  
+  - **Technical soundness** The experimental work appears technically sound, but the absence of full data statistics and the unsuccessful phasing attempts mean that the technical case is incomplete.  
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible to a general scientific audience, with sufficient context provided in the introduction. However, the technical details of crystallization and phasing may be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a useful technical advance, but the central claims regarding crystal quality and suitability for structure determination are not fully supported without complete data statistics and a clearer path to phasing. The authors should be encouraged to resubmit once the data quality metrics are provided and, ideally, once phasing is achieved or a more detailed assessment of the barriers to phasing is given.
+
+## Risk / unsupported claims
+- The claim that the crystals are suitable for structure determination is unsupported, as phasing attempts have not succeeded and full data quality metrics are not visible.
+- The claim that the 2:1 protein:DNA ratio is optimal for crystallization is not experimentally supported in the visible text.
+- The claim that the crystals contain both protein and DNA is not verifiable without Figure 3.
+- The claim that this is the first report of structural studies on the α1 domain is supported by the literature search as described, but the term "structural studies" is ambiguous and should be clarified.

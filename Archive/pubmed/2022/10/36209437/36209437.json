@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "36209437",
+    "doi": "10.1093/bib/bbac447",
+    "title": "DeepLncPro: an interpretable convolutional neural network model for identifying long non-coding RNA promoters."
+  },
+  "content": {
+    "abstract": "Long non-coding RNA (lncRNA) plays important roles in a series of biological processes. The transcription of lncRNA is regulated by its promoter. Hence, accurate identification of lncRNA promoter will be helpful to understand its regulatory mechanisms. Since experimental techniques remain time consuming for gnome-wide promoter identification, developing computational tools to identify promoters are necessary. However, only few computational methods have been proposed for lncRNA promoter prediction and their performances still have room to be improved. In the present work, a convolutional neural network based model, called DeepLncPro, was proposed to identify lncRNA promoters in human and mouse. Comparative results demonstrated that DeepLncPro was superior to both state-of-the-art machine learning methods and existing models for identifying lncRNA promoters. Furthermore, DeepLncPro has the ability to extract and analyze transcription factor binding motifs from lncRNAs, which made it become an interpretable model. These results indicate that the DeepLncPro can server as a powerful tool for identifying lncRNA promoters. An open-source tool for DeepLncPro was provided at https://github.com/zhangtian-yang/DeepLncPro.",
+    "keywords": [
+      "convolution neural network",
+      "long non-coding RNA",
+      "model interpretability",
+      "promoter",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*RNA, Long Noncoding/genetics/metabolism",
+      "Computational Biology/methods",
+      "Neural Networks, Computer",
+      "Promoter Regions, Genetic",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianyang",
+        "Tang, Qiang",
+        "Nie, Fulei",
+        "Zhao, Qi",
+        "Chen, Wei"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Tang Q",
+        "Nie F",
+        "Zhao Q",
+        "Chen W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9713-1864"
+      ],
+      "affiliations": [
+        "School of Life Sciences, North China University of Science and Technology.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine.",
+        "School of Life Sciences, North China University of Science and Technology.",
+        "School of Computer Science and Software Engineering, University of Science and Technology Liaoning.",
+        "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianyang",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, North China University of Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Tang, Qiang",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine."
+        ]
+      },
+      {
+        "full_name": "Nie, Fulei",
+        "short_name": "Nie F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, North China University of Science and Technology."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qi",
+        "short_name": "Zhao Q",
+        "identifiers": [
+          "0000-0001-9713-1864"
+        ],
+        "affiliations": [
+          "School of Computer Science and Software Engineering, University of Science and Technology Liaoning."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Nov 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/10 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "41470045",
+      "40188358",
+      "39984880",
+      "38871816",
+      "38868182",
+      "38510021",
+      "38375921",
+      "37373445",
+      "36936423"
+    ],
+    "refs": [],
+    "similar": [
+      "36209437",
+      "39096613",
+      "31323206",
+      "31480319",
+      "32444875",
+      "34498677",
+      "31349310",
+      "36610216",
+      "36305458",
+      "34283719",
+      "37606159",
+      "35947255",
+      "35362511",
+      "30875752",
+      "38733474",
+      "35533969",
+      "31905146",
+      "25275320",
+      "36198065",
+      "35180094",
+      "35785626",
+      "32736513",
+      "28623317",
+      "36709266",
+      "31323239",
+      "33227813",
+      "31795943",
+      "32454029",
+      "34828296",
+      "30598114",
+      "27345524",
+      "32248123",
+      "32086216",
+      "39080344",
+      "33267800",
+      "37549089",
+      "28158264",
+      "34813484",
+      "36573492",
+      "35685437",
+      "33326066",
+      "38872515",
+      "34983363",
+      "36088549",
+      "31639442",
+      "35108355",
+      "31811618",
+      "34254917",
+      "35006529",
+      "36530425",
+      "30247501",
+      "32387314",
+      "29955818",
+      "31725386",
+      "32467970",
+      "30401954",
+      "34429059",
+      "31568653",
+      "32216744",
+      "34585231",
+      "28459942",
+      "31686064",
+      "32572768",
+      "34486019",
+      "31893451",
+      "30376036",
+      "30084867",
+      "38206558",
+      "25588719",
+      "34836494",
+      "28489543",
+      "33415333",
+      "29850816",
+      "35430839",
+      "30453964",
+      "29228285",
+      "35594681",
+      "31519146",
+      "35317723",
+      "36161334",
+      "33745450",
+      "26485761",
+      "27783602",
+      "33980138",
+      "33125333",
+      "33120126",
+      "31796414",
+      "25239089",
+      "36545797",
+      "30598088",
+      "33005306",
+      "34898376",
+      "36920063",
+      "29764394",
+      "36305456",
+      "35692094",
+      "38918692",
+      "25262155",
+      "33488763",
+      "38109668",
+      "38510021",
+      "29986088",
+      "35353704",
+      "39168294",
+      "37291763",
+      "34587091",
+      "36924420",
+      "38701419",
+      "34473626",
+      "37385595",
+      "33630066",
+      "38816885",
+      "37018561",
+      "39120645",
+      "36892166",
+      "37520281",
+      "38443802",
+      "37387140",
+      "37027676",
+      "34508359",
+      "39110340",
+      "37387183",
+      "37889083",
+      "38014229",
+      "36747873",
+      "37476664",
+      "37748826"
+    ],
+    "review": [
+      "36209437",
+      "36610216",
+      "27345524",
+      "36530425",
+      "30247501",
+      "30084867",
+      "33120126"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36209437.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac447",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

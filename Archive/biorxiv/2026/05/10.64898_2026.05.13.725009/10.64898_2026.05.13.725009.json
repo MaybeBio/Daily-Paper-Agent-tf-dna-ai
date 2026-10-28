@@ -1,0 +1,469 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.13.725009",
+  "title": "MIMOSA: A model-independent framework for comparing transcription factor binding site motifs",
+  "doi": "10.64898/2026.05.13.725009",
+  "abstract": "Motivation Transcription factors (TFs) regulate gene expression by binding specific DNA sequences, which are commonly represented by motif models. Although position weight matrices (PWMs) remain the dominant motif representation, alternative models, such as Markov models, can capture interpositional dependencies and may provide higher predictive performance. Existing motif comparison tools, however, are designed mainly for PWMs or require reducing motifs to position weight matrices or position frequency matrices. This limits cross-model motif comparison, complicates interpretation of de novo motif discovery results, and hinders integration of diverse motif models into genomic analyses. Results We present MIMOSA (Model-Independent Motif Similarity Assessment), a model-independent framework for direct comparison of TF binding site (TFBS) motifs regardless of their mathematical representation. MIMOSA assesses motif similarity by comparing calibrated recognition profiles produced by different motif models on the same DNA sequence set, rather than by comparing motif parameters. In a cross-database benchmark on HOCOMOCO motifs, MIMOSA achieved retrieval performance comparable to established PWM-oriented tools, including Tomtom and MACRO-APE, with mean reciprocal rank (MRR) and Recall@ k close to the best-performing methods. Pairwise ranking comparisons showed that MIMOSA captures a similarity signal consistent with existing approaches while providing a model-independent comparison strategy. Applying MIMOSA to de novo ATF3 ChIP-seq motifs showed that recognition-profile comparison distinguished alternative spacer variants represented as separate PWMs from their integration within more flexible models such as BaMM and Slim. Thus, MIMOSA enables quantitative cross-model motif comparison and supports interpretation of motif heterogeneity in TFBS analyses. Availability and implementation MIMOSA is implemented in Python and is freely available at https://github.com/ubercomrade/mimosa .",
+  "authors": [
+    "Anton V. Tsukanov",
+    "Victor G. Levitsky"
+  ],
+  "published_date": "2026-05-17",
+  "updated_date": "2026-05-18T06:40:40Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.13.725009",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.13.725009.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T08:59:06Z",
+        "timestamp": 1790240346395,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2026-05-17T00:00:00Z",
+            "timestamp": 1778976000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "The research was funded by the Russian Science Foundation",
+          "award": [
+            "25-74-00116"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "25-74-00116"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03y2gwe85",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Transcription factors (TFs) regulate gene expression by binding specific DNA sequences, which are commonly represented by motif models. Although position weight matrices (PWMs) remain the dominant motif representation, alternative models, such as Markov models, can capture interpositional dependencies and may provide higher predictive performance. Existing motif comparison tools, however, are designed mainly for PWMs or require reducing motifs to position weight matrices or position frequency matrices. This limits cross-model motif comparison, complicates interpretation of de novo motif discovery results, and hinders integration of diverse motif models into genomic analyses.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We present MIMOSA (Model-Independent Motif Similarity Assessment), a model-independent framework for direct comparison of TF binding site (TFBS) motifs regardless of their mathematical representation. MIMOSA assesses motif similarity by comparing calibrated recognition profiles produced by different motif models on the same DNA sequence set, rather than by comparing motif parameters. In a cross-database benchmark on HOCOMOCO motifs, MIMOSA achieved retrieval performance comparable to established PWM-oriented tools, including Tomtom and MACRO-APE, with mean reciprocal rank (MRR) and Recall@\n                    <jats:italic>k</jats:italic>\n                    close to the best-performing methods. Pairwise ranking comparisons showed that MIMOSA captures a similarity signal consistent with existing approaches while providing a model-independent comparison strategy. Applying MIMOSA to de novo ATF3 ChIP-seq motifs showed that recognition-profile comparison distinguished alternative spacer variants represented as separate PWMs from their integration within more flexible models such as BaMM and Slim. Thus, MIMOSA enables quantitative cross-model motif comparison and supports interpretation of motif heterogeneity in TFBS analyses.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    MIMOSA is implemented in Python and is freely available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/ubercomrade/mimosa\">https://github.com/ubercomrade/mimosa</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.05.13.725009",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T06:40:40Z",
+        "timestamp": 1779086440000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "MIMOSA: A model-independent framework for comparing transcription factor binding site motifs"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5174-6609",
+          "authenticated-orcid": false,
+          "given": "Anton V.",
+          "family": "Tsukanov",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4905-3088",
+          "authenticated-orcid": false,
+          "given": "Victor G.",
+          "family": "Levitsky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2008.02.002"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab203"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/18.4.594"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(87)90354-8"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.5.1255"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-14217-8"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-020-03952-1"
+        },
+        {
+          "issue": "D1",
+          "key": "2026092401000571000_2026.05.13.725009v2.10",
+          "first-page": "D569",
+          "article-title": "Comprehensive analysis of nucleotide dependencies in transcription factor binding sites",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physa.2022.127456"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw689"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0185570"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt831"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz507"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv083"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz800"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-481"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-15-80"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2016.04.008"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms26010386"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.185033.114"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-025-01227-1"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm272"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.09.003"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-071524-111008"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005176"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf1209"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/embj.201385895"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac333"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw521"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2013.11.004"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa045"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18699/VJ21.002"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2022.938545"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-8-23"
+        },
+        {
+          "issue": "D1",
+          "key": "2026092401000571000_2026.05.13.725009v2.45",
+          "first-page": "D266",
+          "article-title": "Hocomoco v12: a comprehensive collection of transcription factor binding models",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae195"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2026092401000571000_2026.05.13.725009v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.13.725009",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T08:00:13Z",
+        "timestamp": 1790236813000
+      },
+      "score": 158.11804,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.13.725009"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            17
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.05.13.725009",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

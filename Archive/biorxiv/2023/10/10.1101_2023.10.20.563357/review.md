@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that 14 chromatin regulators undergo evolutionarily conserved neuron-specific microexon splicing. They focus on PHF21A and LSD1 within the LSD1-CoREST-PHF21A complex, showing that the neuronal PHF21A isoform lacks DNA-binding activity due to disruption of an AT-hook motif while retaining H3K4me0 recognition. They reconstitute canonical and neuronal complexes and demonstrate that the neuronal complex has reduced nucleosome binding and H3K4 demethylase activity. They also show that an autism-associated mutation impairs splicing of both PHF21A isoforms.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative), Figure legends (Figures 1-6), Supplementary Figure legends (S1-S2), Methods sections for bioinformatics, cell culture, protein purification, EMSA, histone binding, demethylation assays, and minigene splicing assays
+- **Missing materials affecting confidence** Actual figures and data panels are not provided; only figure legends are available. Statistical details (n numbers, error bars, replicates) are not fully described. Western blot images, EMSA gels, and chromatin traces are not viewable. Supplementary tables (e.g., full list of 14 genes with splicing coordinates) are not included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially important finding that neuron-specific microexon splicing can alter the intrinsic biochemical function of a chromatin regulatory complex, rather than merely changing its recruitment or localization. The identification of a novel DNA-binding function for PHF21A via an AT-hook motif, and its ablation in the neuronal isoform, is conceptually interesting and relevant to understanding neuronal chromatin regulation and neurodevelopmental disorders. However, the evidence as presented is incomplete in several key areas. The central claims regarding the functional consequences of the neuronal isoforms on complex activity rely on biochemical reconstitution experiments whose quantitative details and statistical rigor are not fully described. The connection to the autism-associated mutation is suggestive but the mechanistic link to disease remains correlative. The manuscript would benefit from clearer presentation of data and additional controls to fully support the conclusions.
+- **Who would be interested in the results, and why** Researchers studying chromatin regulation, histone modifications, alternative splicing in the nervous system, and the molecular basis of neurodevelopmental disorders such as autism and intellectual disability. The work bridges chromatin biology and neuroscience and may also interest those studying the evolution of tissue-specific gene regulation.
+- **Major strengths** 1. The systematic bioinformatic screen for neuron-specific splicing in chromatin regulators is a valuable resource. 2. The discovery of a previously uncharacterized DNA-binding function (AT-hook) in PHF21A is novel. 3. The demonstration that alternative splicing can alter intrinsic enzymatic complex activity, rather than just targeting, is conceptually important. 4. The use of reconstituted complexes and designer nucleosomes provides a rigorous biochemical platform. 5. The connection to a patient-derived mutation adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the neuronal PHF21A-LSD1 complex is a "hypomorphic H3K4 demethylating machinery with reduced nucleosome engagement."
+  - **Evidence pointer** Figure 5, "location not provided"
+  - **Concern** The quantitative data supporting reduced nucleosome binding and demethylase activity are not shown in the provided material. The figure legend describes results but the actual binding curves, kinetic traces, or quantitative Western blot data with error bars and statistical tests are not visible. The claim of "hypomorphic" activity rests on these data.
+  - **Why it matters** This is a central conclusion of the paper. Without clear quantitative evidence and statistical support, the claim that the neuronal complex has reduced but not absent activity cannot be properly evaluated.
+  - **Resolution test** Provide the actual data panels with replicates, error bars, and statistical analysis. Show that the reduction in activity is significant and reproducible across independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the PHF21A c.1285G>A mutation "led to a 63% and 55% reduction of canonical and neuronal splicing products."
+  - **Evidence pointer** Figure 6B, "location not provided"
+  - **Concern** The minigene splicing assay is described but the actual data are not shown. The percentage reductions are stated without error bars, number of replicates, or statistical analysis. It is unclear whether the mutation affects splicing efficiency or mRNA stability. The assay uses overexpression of minigenes, which may not fully recapitulate endogenous splicing regulation.
+  - **Why it matters** This is the key link to human disease. If the mutation's effect on splicing is not robustly demonstrated, the conclusion that reduced PHF21A-n levels contribute to the patient's phenotype is weakened.
+  - **Resolution test** Show the splicing assay data with replicates and statistics. Include controls for mRNA stability. Consider validating in patient-derived cells if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors suggest that the autism-associated mutation's effect on splicing "is likely a contributing factor to the neurodevelopmental traits of the affected individual."
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Concern** The manuscript does not provide functional data linking reduced PHF21A-n levels to specific neurodevelopmental phenotypes. The patient has a syndromic presentation, and the relative contribution of reduced PHF21A-n versus PHF21A-c or other effects of the mutation is not experimentally addressed.
+  - **Why it matters** The claim of disease relevance is speculative without functional validation in a relevant model system.
+  - **Resolution test** Perform experiments in neuronal models or patient-derived cells to show that reduced PHF21A-n levels lead to specific molecular or cellular phenotypes relevant to autism.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A, "location not provided"
+  - **Issue** The schematic of PHF21A isoforms and the position of the AT-hook motif relative to the PHD finger is described but not shown. A clear domain diagram would help readers understand the structural consequences of the microexon.
+  - **Required correction** Include a domain architecture figure showing PHF21A-c and PHF21A-n with the AT-hook and PHD finger positions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, "location not provided"
+  - **Issue** The table listing 14 chromatin regulators with neuron-specific splicing is mentioned but not included in the provided material. The full list with splicing coordinates and validation status would be a useful resource.
+  - **Required correction** Include Table 1 in the manuscript or as a supplementary table with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, EMSA
+  - **Evidence pointer** Methods, "location not provided"
+  - **Issue** The EMSA methods describe using "increasing concentration of PHF21A protein fragments" but do not specify the concentration range or how binding affinity was quantified.
+  - **Required correction** Provide concentration ranges and describe how binding was quantified (e.g., fraction bound, Kd estimation).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 5D-E
+  - **Evidence pointer** Figure 5D-E, "location not provided"
+  - **Issue** The demethylation assay results are described qualitatively. The number of independent experiments and how quantification was performed are not stated.
+  - **Required correction** State the number of replicates and describe the quantification method for the Western blot data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative biochemical data and the splicing assay data must be provided and statistically robust. Without these, the central claims of reduced complex activity and disease-relevant splicing impairment are not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The finding that alternative splicing can alter the intrinsic catalytic or binding activity of a chromatin complex, rather than just its recruitment, is conceptually novel and goes beyond prior work on cell-type-specific subunits. The identification of a new DNA-binding function for PHF21A is also original.
+  - **Scientific importance** The work addresses a fundamental question about how cell-type-specific chromatin landscapes emerge. The potential link to neurodevelopmental disorders adds translational significance. If fully supported, the findings could change how we think about the functional diversity of chromatin regulators.
+  - **Interdisciplinary readership** The topic bridges chromatin biology, RNA splicing, neuroscience, and human genetics. The findings would interest researchers in all these fields. The clinical connection to autism broadens the appeal.
+  - **Technical soundness** The biochemical reconstitution approach is rigorous in principle. However, the lack of visible quantitative data and statistical details in the provided material prevents full assessment. The bioinformatic screen appears sound but the validation is incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The concepts are explained clearly. However, some sections assume familiarity with chromatin biochemistry and splicing mechanisms. The figures, once visible, should help clarify the key points.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the experimental approach is appropriate. However, the current evidence as presented is insufficient to fully establish the central claims. The authors must provide the actual data panels with statistical analysis for the biochemical and splicing experiments. If these are satisfactory, the manuscript would be a strong candidate for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the neuronal PHF21A-LSD1 complex is "hypomorphic" is not supported by visible quantitative data.
+- The claim that the c.1285G>A mutation reduces splicing by specific percentages is not supported by visible data.
+- The claim that reduced PHF21A-n levels contribute to the patient's neurodevelopmental phenotype is speculative and not functionally validated.
+- The claim that 14 chromatin regulators undergo neuron-specific splicing is based on bioinformatic analysis but the full list and validation details are not provided.
+- The claim that PHF21A-n is the dominant isoform in human neurons is based on iPSC differentiation data that are not fully shown.

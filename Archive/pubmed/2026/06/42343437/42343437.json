@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "42343437",
+    "doi": "10.1186/s13058-026-02335-3",
+    "title": "FBXO5 regulates RPL23A to promote MDM2-mediated p53 degradation and facilitate malignant progression of breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer (BC) is one of the most common malignant tumors in women worldwide, with metastasis and recurrence constituting major therapeutic challenges. F-Box Protein 5(FBXO5), a core component of the E3 ubiquitin ligase complex, is overexpressed in multiple cancers, but its specific role and underlying mechanism in BC remain unclear and require further investigation. METHODS: We screened E3 ubiquitin ligase-related cancer dependency genes by integrating data from the DepMap and UniProt databases, and further analyzed transcriptomic data from TCGA and GEO to identify the candidate gene FBXO5. We then validated its expression at the mRNA and protein levels in BC tissues from two independent centers and in cell lines, employing qRT-PCR, Western blot, and immunohistochemistry.The effects of FBXO5 on the proliferation, migration, and invasion abilities of BC cells were evaluated in vitro and in vivo through colony formation, CCK8, Transwell assays, wound healing assays, IHC, and subcutaneous tumor formation in nude mice. The interactions between FBXO5 and proteins, as well as its main functions and pathways, were investigated using Co-IP, mass spectrometry, immunofluorescence confocal microscopy, molecular docking and bioinformatics analysis, with results validated by rescue experiments. RESULTS: The mRNA and protein expression levels of FBXO5 were significantly upregulated in BC tissues from two centers, high expression of FBXO5 was significantly correlated with adverse clinicopathological features, including larger tumor size, positive nodal status, and elevated Ki-67, and was associated with poor overall survival (OS) and disease-free survival (DFS).In vitro and in vivo experiments confirmed that FBXO5 significantly affected the proliferation, invasion, and migration abilities of BC cells. Mechanistically, Co-IP, mass spectrometry, molecular docking and immunofluorescence confocal microscopy experiments confirmed that FBXO5 directly interacts with ribosomal protein L23a (RPL23A) and promotes its polyubiquitination at the K48 chain, thereby regulating its degradation. Further experiments showed that the ubiquitination-mediated degradation of RPL23A led to a decrease in the stability of Tumor Protein p53(p53) and facilitated its degradation by Proto-Oncogene MDM2 (MDM2). CONCLUSION: Our study establishes the existence of a novel FBXO5/RPL23A/MDM2/p53 oncogenic axis in BC. These findings thereby nominate FBXO5 as a promising therapeutic target for BC intervention.",
+    "keywords": [
+      "Breast cancer",
+      "FBXO5",
+      "MDM2",
+      "RPL23A",
+      "Ubiquitination",
+      "p53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/genetics/metabolism",
+      "Animals",
+      "*F-Box Proteins/metabolism/genetics",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Mice",
+      "*Proto-Oncogene Proteins c-mdm2/metabolism/genetics",
+      "Cell Proliferation",
+      "Gene Expression Regulation, Neoplastic",
+      "*Ribosomal Proteins/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "Cell Movement/genetics",
+      "Proteolysis",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jianwen",
+        "Yao, Longdi",
+        "Chen, Yuming",
+        "Zhu, Qiang",
+        "Xu, Wenjing",
+        "Xu, An",
+        "Li, Xiang",
+        "Chen, Zhi",
+        "Cheng, Min",
+        "Leng, Qi",
+        "Li, Chunlian",
+        "Deng, Xintao",
+        "Fu, Deyuan"
+      ],
+      "short_names": [
+        "Wang J",
+        "Yao L",
+        "Chen Y",
+        "Zhu Q",
+        "Xu W",
+        "Xu A",
+        "Li X",
+        "Chen Z",
+        "Cheng M",
+        "Leng Q",
+        "Li C",
+        "Deng X",
+        "Fu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thyroid and Breast Surgery, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Thyroid and Breast Surgery, Changxing Hospital of Traditional Chinese Medicine, Huzhou, China.",
+        "Department of Urology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Nephrology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Medical Oncology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China.",
+        "Department of Neurology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Clinical Laboratory Medicine, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Thyroid and Breast Surgery, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of Pathology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China.",
+        "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China.",
+        "Department of Cardiology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China. dengxintao2021@163.com.",
+        "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China. 18051060677@yzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jianwen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Longdi",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Changxing Hospital of Traditional Chinese Medicine, Huzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuming",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Qiang",
+        "short_name": "Zhu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenjing",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, An",
+        "short_name": "Xu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhi",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Medicine, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Min",
+        "short_name": "Cheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Leng, Qi",
+        "short_name": "Leng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunlian",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xintao",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Xinghua People's Hospital Affiliated to Yangzhou University, Xinghua, Jiangsu Province, China. dengxintao2021@163.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Deyuan",
+        "short_name": "Fu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, Jiangsu Province, China. 18051060677@yzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2026 Jun 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/25 06:36",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40410880",
+      "39468210",
+      "39462368",
+      "39253578",
+      "39048965",
+      "38882636",
+      "38762096",
+      "38572751",
+      "38212299",
+      "37795365",
+      "37467495",
+      "37328395",
+      "35530293",
+      "35189910",
+      "34131295",
+      "31391919",
+      "30971826",
+      "30554948",
+      "30254986",
+      "29728763",
+      "29673923",
+      "29207594",
+      "29083409",
+      "28753430",
+      "27347110",
+      "27251275",
+      "26908445",
+      "25867069",
+      "24658274",
+      "24658219",
+      "24174547",
+      "23202783",
+      "22995332",
+      "22391559",
+      "19878869",
+      "19287375",
+      "14707283",
+      "11988738",
+      "11389834",
+      "10531035"
+    ],
+    "similar": [
+      "42343437",
+      "39222175",
+      "34650049",
+      "38528516",
+      "37537694",
+      "32800832",
+      "41642454",
+      "39746389",
+      "41923267",
+      "38810862",
+      "39143552",
+      "22907703",
+      "41945109",
+      "40876087",
+      "37839786",
+      "40713465",
+      "30961661",
+      "34362424",
+      "40652043",
+      "41713576",
+      "39722009",
+      "39702367",
+      "39113057",
+      "42260555",
+      "40251552",
+      "37981069",
+      "25046164",
+      "32028981",
+      "32894144",
+      "42653385",
+      "30176896",
+      "39548735",
+      "23907365",
+      "40145872",
+      "35637966",
+      "41618776",
+      "36252649",
+      "41832516",
+      "30642351",
+      "42676445",
+      "26556313",
+      "41937179",
+      "42331176",
+      "39671783",
+      "35837768",
+      "40999529",
+      "40228045",
+      "37433992",
+      "41240879",
+      "31406303",
+      "42001122",
+      "26229107",
+      "32571254",
+      "41314902",
+      "25016295",
+      "41942828",
+      "41748046",
+      "42069097",
+      "38881325",
+      "39905441",
+      "38515112",
+      "39232805",
+      "42315734",
+      "38844957",
+      "40089132",
+      "42617475",
+      "39181686",
+      "33125146",
+      "34511432",
+      "41443404",
+      "31138778",
+      "30181579",
+      "30064446",
+      "40667845",
+      "40719768",
+      "41935138",
+      "42530251",
+      "39039194",
+      "24587254",
+      "41315221",
+      "42119245",
+      "30690837",
+      "41910821",
+      "39044262",
+      "39343799",
+      "35671810",
+      "38914670",
+      "26718483",
+      "40856423",
+      "31930662",
+      "31023317",
+      "28063307",
+      "37480689",
+      "41999926",
+      "41035649",
+      "39500657",
+      "27079864",
+      "41633015",
+      "39450547",
+      "35213076"
+    ],
+    "review": [
+      "42343437",
+      "41633015"
+    ],
+    "pmc": [
+      "13555960"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-026-02335-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42343437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

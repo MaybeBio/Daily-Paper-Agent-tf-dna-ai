@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary material description.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that the C-terminal D/E repeats of HMGB1 cause autoinhibition of DNA binding through electrostatic fuzzy interactions with intrinsically disordered regions, and that this multivalent mechanism produces strong macroscopic autoinhibition despite weak individual intramolecular interactions.
+- **Visible evidence base** Experimental data: fluorescence anisotropy binding assays, NMR chemical shift and heteronuclear NOE measurements, MD simulations (atomistic and coarse-grained). Figures 1–7 and one supplementary figure are referenced.
+- **Missing materials affecting confidence** Raw data files, full NMR assignment tables, simulation parameter files, and convergence metrics are not provided. Supplementary Figure S1 is mentioned but not included in the supplied text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thorough and well-designed investigation of HMGB1 autoinhibition, combining quantitative binding assays, NMR spectroscopy, and molecular dynamics simulations. The central claim that fuzzy electrostatic interactions between the D/E repeats and IDRs mediate autoinhibition is supported by multiple independent lines of evidence. The work is technically sound and the conclusions are generally well-aligned with the data. However, several concerns regarding the interpretation of the macroscopic versus microscopic equilibrium constants, the generalizability of the simulation results, and the functional relevance of the PTM-mimetic mutations require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-DNA interactions, autoinhibition mechanisms, and the functional roles of D/E repeats. The work is also relevant to those interested in HMGB1 biology, DNA damage recognition, and the biophysical basis of fuzzy interactions.
+- **Major strengths** The combination of experimental and computational approaches is powerful and mutually reinforcing. The use of a wide salt concentration range to fully shift the conformational equilibrium is elegant and allows quantitative thermodynamic analysis. The NMR experiments under high salt conditions using coaxial tubes are technically impressive. The identification of preferential interactions with IDRs over folded domains is a novel and important finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that the discrepancy between macroscopic and microscopic equilibrium constants suggests that multivalency of fuzzy interactions enables strong autoinhibition despite weak individual interactions.
+  - **Evidence pointer** Results section "Electrostatic fuzzy interactions in autoinhibition", Figures 2–4
+  - **Concern** The interpretation of the discrepancy between macroscopic and microscopic Kai values is not fully justified. The macroscopic Kai is derived from binding data using a two-state model, while the microscopic Kai values are derived from NMR chemical shift differences for individual residues. These two measurements may not be directly comparable because the NMR data report on local conformational changes, whereas the binding data report on the overall functional outcome. The authors should provide a more rigorous quantitative framework linking the two, or explicitly acknowledge the limitations of this comparison.
+  - **Why it matters** The central mechanistic claim of the paper rests on this discrepancy. If the comparison is not valid, the conclusion that multivalency enhances autoinhibition is weakened.
+  - **Resolution test** Provide a quantitative model that relates the microscopic residue-specific equilibrium constants to the macroscopic binding-derived constant, or perform additional experiments (e.g., mutations that disrupt individual interaction sites) to test the multivalency hypothesis directly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that both atomistic and coarse-grained simulations show that the D/E repeats interact preferentially with IDRs over folded domains.
+  - **Evidence pointer** Results section "Autoinhibition dynamics observed in molecular dynamics simulations", Figure 5
+  - **Concern** The atomistic simulations were initiated from a truncated construct (residues 2–166) with the missing C-terminal region (167–215) modeled in a mostly helical conformation. This choice may bias the sampling of the D/E repeat conformations and their interactions with the rest of the protein. The authors should justify this modeling choice and discuss how it might affect the observed interaction preferences.
+  - **Why it matters** The simulation results are used to support the experimental finding of preferential IDR interactions. If the initial conformation biases the results, the conclusions may not be robust.
+  - **Resolution test** Perform additional simulations with different initial conformations of the C-terminal region, or compare with simulations starting from the full-length structure if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that PTM-mimetic mutations relevant to nuclear export moderately modulate DNA-binding affinity, possibly by impacting autoinhibition.
+  - **Evidence pointer** Results section "Impact of PTM-mimetic mutations", Figure 7
+  - **Concern** The functional relevance of the observed ~3-fold change in binding affinity is not discussed in the context of HMGB1 biology. The authors do not address whether this magnitude of change is likely to be physiologically significant, nor do they discuss how the increased affinity might relate to the nuclear export function.
+  - **Why it matters** The paper aims to illuminate a functional role of fuzzy interactions. Without a clear link to biological function, the significance of the PTM findings remains unclear.
+  - **Resolution test** Add a discussion of the physiological implications of the observed affinity changes, or perform additional experiments (e.g., cellular assays) to test functional consequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "D/E repeats and other parts of HMGB1 undergo electrostatic fuzzy interactions, each of which is weaker than expected from the macroscopic autoinhibitory effect." This phrasing is somewhat ambiguous; it could be read as each interaction being weaker than the macroscopic effect, which is not meaningful. Clarify that the individual interactions are weaker than would be expected if a single interaction were responsible for the macroscopic effect.
+  - **Required correction** Rephrase to explicitly state that the individual microscopic interactions are weaker than the macroscopic autoinhibition would suggest if it were mediated by a single strong interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR experiments
+  - **Evidence pointer** Materials and Methods, "NMR experiments on salt dependence of autoinhibition equilibrium"
+  - **Issue** The methods state that 1D 1H and 1H-15N TROSY spectra were recorded, but the analysis of chemical shift differences uses both 1H and 15N dimensions. It is unclear whether the 1D 1H spectra were used for any analysis or if only the 2D TROSY data were used.
+  - **Required correction** Clarify the role of the 1D 1H spectra in the analysis, or remove mention if they were not used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Electrostatic fuzzy interactions in autoinhibition"
+  - **Evidence pointer** Figure 4, location not provided
+  - **Issue** The presentation of residue-specific Kai values in Figure 4 is dense and difficult to interpret. A clearer visualization or a summary table of representative values would improve accessibility.
+  - **Required correction** Consider adding a summary table or simplifying the figure to highlight key residues and trends.
+- **Technical failings that need to be addressed before the case is established** The comparison between macroscopic and microscopic equilibrium constants (R1-M1) is the primary technical issue that must be resolved. The potential bias in atomistic simulation initial conditions (R1-M2) also needs to be addressed.
+- **Assessment against Nature-style criteria** Originality: High. The concept of fuzzy interactions mediating autoinhibition is novel and extends current understanding of IDR function. Scientific importance: Moderate to high. The work provides mechanistic insight into HMGB1 regulation, but the broader implications for other D/E repeat-containing proteins are not fully explored. Interdisciplinary readership: Moderate. The work will appeal to biophysicists, structural biologists, and those studying protein-DNA interactions, but may be less accessible to a general biological audience. Technical soundness: Generally strong, with the caveats noted above. Readability for nonspecialists: The manuscript is well-written but assumes familiarity with NMR and simulation techniques; some sections may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are novel and well-supported, but the interpretation of the macroscopic versus microscopic equilibrium constants needs to be strengthened, and the simulation methodology should be justified more thoroughly.
+
+## Risk / unsupported claims
+- The claim that multivalency of fuzzy interactions enhances macroscopic autoinhibition is not fully supported by the current data, as the comparison between macroscopic and microscopic equilibrium constants may not be quantitatively valid.
+- The functional significance of the PTM-mimetic mutations for nuclear export is speculative and not directly tested.
+- The generalizability of the findings to other D/E repeat-containing proteins is suggested but not demonstrated.

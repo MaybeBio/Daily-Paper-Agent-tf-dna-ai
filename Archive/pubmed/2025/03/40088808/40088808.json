@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40088808",
+    "doi": "10.1016/j.compbiolchem.2025.108419",
+    "title": "Targeting quorum sensing in Pseudomonas aeruginosa with high-affinity inhibitors: A high-throughput screening and in-silico analysis."
+  },
+  "content": {
+    "abstract": "Pseudomonas aeruginosa is a major pathogen in clinical settings, notorious for its intrinsic resistance to multiple antibiotics and ability to form biofilms, therefore, complicating treatment. This study reporting the results of a high-throughput screen of an antibacterial library targeting LasR, a key QS regulator in P. aeruginosa MB638, isolated from an infected surgical implant. The species identity was confirmed as P. aeruginosa via 16S rDNA analysis (accession number MT643188). The strain demonstrated strong biofilm formation and multidrug resistance, along with significant production of the quorum sensing signalling molecule N-(3-oxododecanoyl)-L-homoserine lactone (OdDHL). We screened a  approximately 1400-compound library and identified inhibitors compounds that surpass the binding affinity of LasR's native ligand. The ADMET analysis revealed that among these, compounds Inh-1, Inh-2 and Inh-3 demonstrated favourable absorption, permeability and broader bioactivity profiles. Inh-1 exhibited a suitable profile, being non-toxic, non-hepatotoxic, and non-mutagenic, with low carcinogenic and immunotoxin potential. Molecular docking studies using GLIDE identified key binding interactions and residues within the LasR ligand-binding domain (LBD), with Inh-1, Inh-2 and Inh-3 showing the highest binding affinities and favourable docking scores of -14.587, -13.645 and -12.967, respectively. Structural Interaction Molecular dynamics simulation at 100 ns showed Inh-1 maintained stable hydrophobic and hydrophilic contacts within the active site. RMSD analysis confirmed the stability of the Inh-1 complex, while RMSF indicated conformational adaptability. Inh-1 stands out as promising lead for LasR inhibition, warranting further experimental study. These inhibitors hold promise for disrupting quorum sensing in P. aeruginosa and may serve as potential therapeutic agent against resistant infections.",
+    "keywords": [
+      "ADMET",
+      "LasR",
+      "Molecular docking",
+      "Pseudomonas aeruginosa",
+      "RMSD"
+    ],
+    "mesh_terms": [
+      "*Quorum Sensing/drug effects",
+      "*Pseudomonas aeruginosa/drug effects/physiology",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "*High-Throughput Screening Assays",
+      "*Bacterial Proteins/antagonists & inhibitors/metabolism",
+      "Microbial Sensitivity Tests",
+      "*Trans-Activators/antagonists & inhibitors/metabolism",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abbas, Sidra",
+        "Mujawar, Shama",
+        "Yasmin, Azra",
+        "Perveen, Shaghufta",
+        "Malik, Parvez Azam",
+        "Gill, Muhammad Shoaib Ali",
+        "Chohan, Tahir Ali"
+      ],
+      "short_names": [
+        "Abbas S",
+        "Mujawar S",
+        "Yasmin A",
+        "Perveen S",
+        "Malik PA",
+        "Gill MSA",
+        "Chohan TA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan. Electronic address: sidraas@gmail.com.",
+        "MIT School of Bioengineering Sciences and Research, MIT Art Design Technology University, Loni Kalbhor, Pune, Maharashtra 412201, India.",
+        "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan.",
+        "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan.",
+        "Department of Pathology, Rai Medical College, Sargodha, Pakistan.",
+        "Institute of Pharmaceutical Sciences (IPS), University of Veterinary and Animal Sciences (UVAS), Lahore, Pakistan.",
+        "Institute of Pharmaceutical Sciences (IPS), University of Veterinary and Animal Sciences (UVAS), Lahore, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abbas, Sidra",
+        "short_name": "Abbas S",
+        "identifiers": [],
+        "affiliations": [
+          "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan. Electronic address: sidraas@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Mujawar, Shama",
+        "short_name": "Mujawar S",
+        "identifiers": [],
+        "affiliations": [
+          "MIT School of Bioengineering Sciences and Research, MIT Art Design Technology University, Loni Kalbhor, Pune, Maharashtra 412201, India."
+        ]
+      },
+      {
+        "full_name": "Yasmin, Azra",
+        "short_name": "Yasmin A",
+        "identifiers": [],
+        "affiliations": [
+          "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Perveen, Shaghufta",
+        "short_name": "Perveen S",
+        "identifiers": [],
+        "affiliations": [
+          "Microbiology and Biotechnology Research Lab, Department of Biotechnology, Fatima Jinnah Women University, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Malik, Parvez Azam",
+        "short_name": "Malik PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Rai Medical College, Sargodha, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Gill, Muhammad Shoaib Ali",
+        "short_name": "Gill MSA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Sciences (IPS), University of Veterinary and Animal Sciences (UVAS), Lahore, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Chohan, Tahir Ali",
+        "short_name": "Chohan TA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Sciences (IPS), University of Veterinary and Animal Sciences (UVAS), Lahore, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/16 12:44",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "41751475",
+      "41369779",
+      "40871342"
+    ],
+    "refs": [],
+    "similar": [
+      "40088808",
+      "41272294",
+      "40884678",
+      "33713665",
+      "41751921",
+      "40261876",
+      "28818490",
+      "38379380",
+      "40199129",
+      "32824118",
+      "32163399",
+      "30913464",
+      "29526565",
+      "26048802",
+      "39855517",
+      "40153475",
+      "20935125",
+      "39046261",
+      "40389180",
+      "23203920",
+      "28351711",
+      "28712963",
+      "39693924",
+      "16966394",
+      "40124560",
+      "27825554",
+      "32235775",
+      "29735954",
+      "40996594",
+      "28065820",
+      "29571725",
+      "31787031",
+      "37642215",
+      "41043246",
+      "39303517",
+      "40617383",
+      "39153575",
+      "29076756",
+      "28386534",
+      "41966741",
+      "34833903",
+      "30849491",
+      "39566032",
+      "40736657",
+      "39921728",
+      "40358894",
+      "41520905",
+      "40413369",
+      "38679246",
+      "38679245",
+      "32037806",
+      "19330325",
+      "41717737",
+      "30959097",
+      "31284940",
+      "29694695",
+      "26840534",
+      "28939255",
+      "39864373",
+      "41109536",
+      "37096792",
+      "42003594",
+      "41616526",
+      "40601048",
+      "38506163",
+      "26593271",
+      "40318447",
+      "39976031",
+      "30476580",
+      "40960234",
+      "35856709",
+      "39794611",
+      "41065783",
+      "30201815",
+      "29135250",
+      "39015339",
+      "26248208",
+      "40489515",
+      "37865056",
+      "25704369",
+      "41698559",
+      "40058275",
+      "40993527",
+      "26358567",
+      "29085409",
+      "30039322",
+      "32333184",
+      "39165918",
+      "41155687",
+      "35384183",
+      "31986566",
+      "41529483",
+      "24002091",
+      "25474181",
+      "40663976",
+      "32020464",
+      "40205343",
+      "29524516",
+      "38385459",
+      "28798903"
+    ],
+    "review": [
+      "40088808"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00079-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

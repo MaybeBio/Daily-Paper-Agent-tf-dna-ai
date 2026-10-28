@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "34577052",
+    "doi": "10.3390/molecules26185574",
+    "title": "Exploring EZH2-Proteasome Dual-Targeting Drug Discovery through a Computational Strategy to Fight Multiple Myeloma."
+  },
+  "content": {
+    "abstract": "Multiple myeloma is an incurable plasma cell neoplastic disease representing about 10-15% of all haematological malignancies diagnosed in developed countries. Proteasome is a key player in multiple myeloma and proteasome inhibitors are the current first-line of treatment. However, these are associated with limited clinical efficacy due to acquired resistance. One of the solutions to overcome this problem is a polypharmacology approach, namely combination therapy and multitargeting drugs. Several polypharmacology avenues are currently being explored. The simultaneous inhibition of EZH2 and Proteasome 20S remains to be investigated, despite the encouraging evidence of therapeutic synergy between the two. Therefore, we sought to bridge this gap by proposing a holistic in silico strategy to find new dual-target inhibitors. First, we assessed the characteristics of both pockets and compared the chemical space of EZH2 and Proteasome 20S inhibitors, to establish the feasibility of dual targeting. This was followed by molecular docking calculations performed on EZH2 and Proteasome 20S inhibitors from ChEMBL 25, from which we derived a predictive model to propose new EZH2 inhibitors among Proteasome 20S compounds, and vice versa, which yielded two dual-inhibitor hits. Complementarily, we built a machine learning QSAR model for each target but realised their application to our data is very limited as each dataset occupies a different region of chemical space. We finally proceeded with molecular dynamics simulations of the two docking hits against the two targets. Overall, we concluded that one of the hit compounds is particularly promising as a dual-inhibitor candidate exhibiting extensive hydrogen bonding with both targets. Furthermore, this work serves as a framework for how to rationally approach a dual-targeting drug discovery project, from the selection of the targets to the prediction of new hit compounds.",
+    "keywords": [
+      "EZH2",
+      "Proteasome 20S",
+      "QSAR",
+      "machine learning",
+      "molecular docking",
+      "molecular dynamics",
+      "multiple myeloma",
+      "multitargeting (advantages)",
+      "polypharmacology"
+    ],
+    "mesh_terms": [
+      "*Multiple Myeloma/drug therapy/metabolism",
+      "*Enhancer of Zeste Homolog 2 Protein/antagonists & inhibitors/metabolism",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Proteasome Inhibitors/pharmacology/chemistry",
+      "*Drug Discovery/methods",
+      "*Proteasome Endopeptidase Complex/metabolism/chemistry",
+      "Quantitative Structure-Activity Relationship",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Estrada, Filipe G A",
+        "Miccoli, Silvia",
+        "Aniceto, Natalia",
+        "Garcia-Sosa, Alfonso T",
+        "Guedes, Rita C"
+      ],
+      "short_names": [
+        "Estrada FGA",
+        "Miccoli S",
+        "Aniceto N",
+        "Garcia-Sosa AT",
+        "Guedes RC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8570-2903",
+        "ORCID: 0000-0001-7039-0022",
+        "ORCID: 0000-0003-0542-4446",
+        "ORCID: 0000-0002-5790-9181"
+      ],
+      "affiliations": [
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Institute of Chemistry, University of Tartu, Ravila 14a, 50411 Tartu, Estonia.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Department of Drug Science and Technology, University of Turin, Via Verdi 8, 10124 Torino, Italy.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Institute of Chemistry, University of Tartu, Ravila 14a, 50411 Tartu, Estonia.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Estrada, Filipe G A",
+        "short_name": "Estrada FGA",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+          "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+          "Institute of Chemistry, University of Tartu, Ravila 14a, 50411 Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Miccoli, Silvia",
+        "short_name": "Miccoli S",
+        "identifiers": [
+          "0000-0002-8570-2903"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+          "Department of Drug Science and Technology, University of Turin, Via Verdi 8, 10124 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Aniceto, Natália",
+        "short_name": "Aniceto N",
+        "identifiers": [
+          "0000-0001-7039-0022"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+          "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "García-Sosa, Alfonso T",
+        "short_name": "García-Sosa AT",
+        "identifiers": [
+          "0000-0003-0542-4446"
+        ],
+        "affiliations": [
+          "Institute of Chemistry, University of Tartu, Ravila 14a, 50411 Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Guedes, Rita C",
+        "short_name": "Guedes RC",
+        "identifiers": [
+          "0000-0002-5790-9181"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+          "Department of Pharmaceutical Sciences and Medicines, Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2021 Sep 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/29 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "37239949"
+    ],
+    "refs": [
+      "33950214",
+      "33729791",
+      "33669839",
+      "33039723",
+      "32267687",
+      "32093567",
+      "32039665",
+      "31785545",
+      "31731563",
+      "31685780",
+      "31514715",
+      "31479618",
+      "31218726",
+      "30834243",
+      "30768902",
+      "30728502",
+      "30365892",
+      "30243108",
+      "30064421",
+      "29904056",
+      "29674291",
+      "29340951",
+      "29233023",
+      "29196868",
+      "29126724",
+      "28835722",
+      "28490465",
+      "28362441",
+      "28236510",
+      "27899562",
+      "27713574",
+      "27493187",
+      "27468126",
+      "27318981",
+      "26620784",
+      "26610119",
+      "25394401",
+      "24183816",
+      "23919353",
+      "23252414",
+      "23184418",
+      "23128397",
+      "21982300",
+      "21899493",
+      "21843142",
+      "21430775",
+      "21410373",
+      "21335612",
+      "21078963",
+      "20944071",
+      "19934320",
+      "19471122",
+      "19440739",
+      "18181565",
+      "18006806",
+      "17212484",
+      "16211538",
+      "8709122"
+    ],
+    "similar": [
+      "34577052",
+      "28490465",
+      "25394401",
+      "27438821",
+      "37403265",
+      "23148232",
+      "33971487",
+      "34826777",
+      "24891205",
+      "32267687",
+      "21673924",
+      "30601533",
+      "25914958",
+      "28052011",
+      "27889629",
+      "30343511",
+      "22726543",
+      "30102324",
+      "22711561",
+      "32101123",
+      "32913136",
+      "28079010",
+      "36361848",
+      "35204815",
+      "24912524",
+      "29196868",
+      "25641789",
+      "33635506",
+      "30639896",
+      "30365892",
+      "28322158",
+      "31307247",
+      "28027531",
+      "24946214",
+      "31568628",
+      "23142973",
+      "27264969",
+      "21843142",
+      "26232029",
+      "27123978",
+      "36806958",
+      "35853457",
+      "26907687",
+      "32297217",
+      "32298691",
+      "24877566",
+      "23531222",
+      "29743723",
+      "27012957",
+      "35088066",
+      "32853683",
+      "35790913",
+      "35246527",
+      "27493187",
+      "29407987",
+      "30347865",
+      "26589840",
+      "28182990",
+      "27941792",
+      "34378191",
+      "31336592",
+      "30009671",
+      "25006746",
+      "30066579",
+      "32274756",
+      "36771118",
+      "31883910",
+      "35344764",
+      "36282272",
+      "34664960",
+      "30942459",
+      "34862367",
+      "31514715",
+      "25942361",
+      "28924240",
+      "30612952",
+      "27286897",
+      "21143798",
+      "37295239",
+      "30243108",
+      "27318981",
+      "35408601",
+      "29113763",
+      "34093859",
+      "22726545",
+      "23528167",
+      "39082677",
+      "22726541",
+      "38804044",
+      "36399828",
+      "31576013",
+      "30952265",
+      "29052093",
+      "24069311",
+      "24561716",
+      "33967157",
+      "33223460",
+      "34397372",
+      "29674291",
+      "24321833",
+      "30555699",
+      "25087721",
+      "39138277",
+      "37017875",
+      "38954070",
+      "39071914",
+      "39213358",
+      "38260042",
+      "39105536",
+      "33799793",
+      "39369611",
+      "39386079"
+    ],
+    "review": [
+      "34577052",
+      "27438821",
+      "22726543",
+      "30102324",
+      "22711561",
+      "32101123",
+      "28079010",
+      "29196868",
+      "32297217",
+      "24877566",
+      "26589840",
+      "30066579",
+      "32274756",
+      "31883910",
+      "36282272",
+      "27286897",
+      "35408601",
+      "22726545",
+      "23528167",
+      "39082677",
+      "29052093",
+      "30555699",
+      "39105536"
+    ],
+    "pmc": [
+      "8468724"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules26185574",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34577052/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34577052",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

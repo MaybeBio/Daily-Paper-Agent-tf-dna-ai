@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42412843",
+  "title": "NPBIP: predicting binding preferences of uncharacterized nucleic-acid-binding proteins.",
+  "authors": "Shimshoviz, Noam; Butto, Safwan; Orenstein, Yaron",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出NPBIP方法，结合蛋白语言模型与混合卷积-Transformer网络预测核酸结合蛋白对DNA/RNA序列的结合偏好，虽非聚焦TF-DNA特异性机制，但属于广义蛋白-DNA互作且AI方法可迁移至TF-DNA研究。",
+  "abstract": "MOTIVATION: Nucleic-acid-binding proteins (NBPs) are crucial regulators of gene expression, recognizing specific RNA or DNA binding sites. While high-throughput experiments have generated vast amounts of binding data, a significant challenge remains in predicting binding affinities of a novel query NBP to any nucleic-acid sequence. Current computational methods often require prior experimental data for the query NBP or are limited to predictions over predefined short RNA or DNA sequences. RESULTS: We present New Protein Binding Intensity Predictor (NPBIP), a new method to predict the binding of a query NBP to any RNA or DNA sequence by integrating two complementary components: (i) a similarity-based method that computes a weighted mean of binding predictions over the training NBPs; and (ii) a deep-learning model that combines a large protein language model with a hybrid convolutional-transformer network to predict binding directly. We trained and evaluated NPBIP on 420 RNA-binding protein (RBP) experiments and 464 DNA-binding protein (DBP) experiments. NPBIP significantly outperformed each of its components and all competing baselines, achieving a mean Pearson correlation of 0.414+/-0.20 and 0.581+/-0.22 over the RNA- and DNA-binding experiments, respectively. This prediction performance was statistically comparable to an experimental k-mer upper bound over RBPs and statistically superior to an upper bound over DBPs. Furthermore, our interpretability analysis demonstrates that NPBIP recovers canonical binding motifs for both RBPs and DBPs, providing biological validation for the model's predictions. AVAILABILITY AND IMPLEMENTATION: Source code and datasets are publicly available at https://github.com/OrensteinLab/NPBIP.",
+  "abstract_zh": "动机：核酸结合蛋白（NBPs）是基因表达的关键调控因子，能够识别特定的RNA或DNA结合位点。尽管高通量实验已产生大量结合数据，但预测新型查询NBP与任意核酸序列的结合亲和力仍面临重大挑战。当前计算方法通常需要查询NBP的先前实验数据，或仅限于对预定义的短RNA或DNA序列进行预测。结果：我们提出了新型蛋白质结合强度预测器（NPBIP），这是一种通过整合两个互补组件来预测查询NBP与任意RNA或DNA序列结合的新方法：（i）一种基于相似性的方法，计算训练NBPs上结合预测的加权平均值；（ii）一种深度学习模型，结合大型蛋白质语言模型与混合卷积-Transformer网络直接预测结合。我们在420个RNA结合蛋白（RBP）实验和464个DNA结合蛋白（DBP）实验上训练并评估了NPBIP。NPBIP显著优于其每个组件及所有竞争基线，在RNA和DNA结合实验中分别实现了平均皮尔逊相关系数0.414±0.20和0.581±0.22。该预测性能在统计上与RBP的实验性k-mer上限相当，并在统计上优于DBP的上限。此外，我们的可解释性分析表明，NPBIP恢复了RBP和DBP的典型结合基序，为模型的预测提供了生物学验证。可用性和实现：源代码和数据集公开可用，网址为https://github.com/OrensteinLab/NPBIP。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42412843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42412843/",
+  "paper_page_path": "papers/pubmed/42412843/index.html"
+}

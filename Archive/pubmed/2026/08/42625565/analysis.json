@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42625565",
+  "title": "NN-assisted image analysis for quantifying intracellular Trypanosoma cruzi infection.",
+  "authors": "Iolster, Joaquin; Vilchez Larrea, Salome Catalina; Alonso, Guillermo Daniel",
+  "journal": "Frontiers in cellular and infection microbiology",
+  "published_date": "2026-08-21",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用神经网络分析细胞内克氏锥虫感染图像，仅涉及DNA染色成像，无蛋白质-DNA互作、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Quantification of intracellular Trypanosoma cruzi infection remains a central, yet methodologically challenging step in Chagas disease research and early-stage drug discovery. Current approaches largely rely on manual microscopy-based counting or on genetically modified parasites, both of which present limitations in scalability, reproducibility, or accessibility. Here, we developed and validated a neural network (NN)-based pipeline for the automated quantification of infection rates and parasite burden in mammalian cells using images stained exclusively with DNA-binding fluorescent dyes. Two independently refined deep-learning models were fine-tuned to segment host cell nuclei and intracellular amastigotes, respectively, and subsequently integrated into a unified algorithm that assigns each parasite to its nearest host cell. The pipeline was evaluated using confocal images from six mammalian cell lines infected with two T. cruzi strains and compared against blinded manual quantification. Automated detection of both host nuclei and parasites showed high concordance with manual counts, with median deviations around 5% and similar distributions of parasite burden per cell. In contrast to morphology-based image analysis methods, our NN-based approach demonstrated improved robustness across diverse cell types and staining conditions, reduced parameter dependency, and independent segmentation of host and parasite objects, minimizing error propagation. Although minor biases in parasite-to-cell assignment were observed, the automated workflow accurately quantified the percentage of infected cells and the number of amastigotes per cell, demonstrating high detection performance and strong agreement with manual quantification as assessed by precision/recall metrics and Bland-Altman analysis. This accessible and scalable AI-assisted workflow provides a reproducible alternative to manual quantification and represents a methodological advance for standardized phenotypic screening of intracellular T. cruzi, supporting more robust and harmonized drug discovery efforts in Chagas disease.",
+  "abstract_zh": "细胞内克氏锥虫感染的定量分析仍是恰加斯病研究和早期药物发现中一个核心但方法学上具有挑战性的步骤。当前方法主要依赖基于显微镜的人工计数或基因修饰寄生虫，两者在可扩展性、可重复性或可及性方面均存在局限性。在此，我们开发并验证了一种基于神经网络（NN）的流程，用于使用仅以DNA结合荧光染料染色的图像，自动定量哺乳动物细胞中的感染率和寄生虫载量。两个独立优化的深度学习模型分别被微调以分割宿主细胞核和细胞内无鞭毛体，随后整合为一个统一算法，将每个寄生虫分配给其最近的宿主细胞。该流程使用感染两种克氏锥虫株的六种哺乳动物细胞系的共聚焦图像进行评估，并与盲法人工计数进行比较。宿主细胞核和寄生虫的自动检测与人工计数高度一致，中位偏差约为5%，且每个细胞的寄生虫载量分布相似。与基于形态学的图像分析方法相比，我们的基于NN的方法在多种细胞类型和染色条件下表现出更高的稳健性，减少了参数依赖性，并实现了宿主和寄生虫对象的独立分割，从而最小化误差传播。尽管观察到寄生虫-细胞分配存在轻微偏差，自动化流程仍准确量化了感染细胞百分比和每个细胞的无鞭毛体数量，通过精确率/召回率指标和Bland-Altman分析显示出高检测性能及与人工计数的强一致性。这种可及且可扩展的AI辅助流程为人工定量提供了一种可重复的替代方案，代表了标准化细胞内克氏锥虫表型筛选的方法学进展，支持恰加斯病药物发现工作中更稳健和协调的努力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42625565/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42625565/",
+  "paper_page_path": "papers/pubmed/42625565/index.html"
+}

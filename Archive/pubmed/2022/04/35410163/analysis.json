@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35410163",
+  "title": "Inferring mammalian tissue-specific regulatory conservation by predicting tissue-specific differences in open chromatin.",
+  "authors": "Kaplow, Irene M; Schaffer, Daniel E; Wirthlin, Morgan E; Lawler, Alyssa J; Brown, Ashley R; Kleyman, Michael; Pfenning, Andreas R",
+  "journal": "BMC genomics",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN预测哺乳动物组织特异性开放染色质，推断增强子保守性，虽涉及TF结合位点组合编码，但核心是开放染色质预测而非TF-DNA直接互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "BACKGROUND: Evolutionary conservation is an invaluable tool for inferring functional significance in the genome, including regions that are crucial across many species and those that have undergone convergent evolution. Computational methods to test for sequence conservation are dominated by algorithms that examine the ability of one or more nucleotides to align across large evolutionary distances. While these nucleotide alignment-based approaches have proven powerful for protein-coding genes and some non-coding elements, they fail to capture conservation of many enhancers, distal regulatory elements that control spatial and temporal patterns of gene expression. The function of enhancers is governed by a complex, often tissue- and cell type-specific code that links combinations of transcription factor binding sites and other regulation-related sequence patterns to regulatory activity. Thus, function of orthologous enhancer regions can be conserved across large evolutionary distances, even when nucleotide turnover is high. RESULTS: We present a new machine learning-based approach for evaluating enhancer conservation that leverages the combinatorial sequence code of enhancer activity rather than relying on the alignment of individual nucleotides. We first train a convolutional neural network model that can predict tissue-specific open chromatin, a proxy for enhancer activity, across mammals. Next, we apply that model to distinguish instances where the genome sequence would predict conserved function versus a loss of regulatory activity in that tissue. We present criteria for systematically evaluating model performance for this task and use them to demonstrate that our models accurately predict tissue-specific conservation and divergence in open chromatin between primate and rodent species, vastly out-performing leading nucleotide alignment-based approaches. We then apply our models to predict open chromatin at orthologs of brain and liver open chromatin regions across hundreds of mammals and find that brain enhancers associated with neuron activity have a stronger tendency than the general population to have predicted lineage-specific open chromatin. CONCLUSION: The framework presented here provides a mechanism to annotate tissue-specific regulatory function across hundreds of genomes and to study enhancer evolution using predicted regulatory differences rather than nucleotide-level conservation measurements.",
+  "abstract_zh": "背景：进化保守性是推断基因组功能意义的重要工具，包括对许多物种至关重要的区域以及经历趋同进化的区域。用于检测序列保守性的计算方法主要依赖于算法，这些算法检查一个或多个核苷酸在较大进化距离上的比对能力。尽管这些基于核苷酸比对的方法在蛋白质编码基因和一些非编码元件中已被证明有效，但它们无法捕捉许多增强子（控制基因表达空间和时间模式的远端调控元件）的保守性。增强子的功能由一种复杂的、通常具有组织和细胞类型特异性的代码所支配，该代码将转录因子结合位点的组合及其他与调控相关的序列模式与调控活性联系起来。因此，直系同源增强子区域的功能可以在较大进化距离上保持保守，即使核苷酸替换率很高。结果：我们提出了一种基于机器学习的新方法，用于评估增强子保守性，该方法利用增强子活性的组合序列代码，而非依赖单个核苷酸的比对。我们首先训练了一个卷积神经网络模型，该模型可以预测哺乳动物中组织特异性的开放染色质（增强子活性的代理指标）。接下来，我们应用该模型来区分基因组序列预测保守功能与在该组织中调控活性丧失的情况。我们提出了系统评估模型在此任务中性能的标准，并利用这些标准证明我们的模型能准确预测灵长类和啮齿类物种之间开放染色质的组织特异性保守性和差异性，显著优于领先的基于核苷酸比对的方法。然后，我们将模型应用于预测数百种哺乳动物中脑和肝开放染色质区域直系同源物的开放染色质，发现与神经元活动相关的脑增强子比一般群体更倾向于具有预测的谱系特异性开放染色质。结论：本文提出的框架提供了一种机制，用于在数百个基因组中注释组织特异性调控功能，并利用预测的调控差异而非核苷酸水平的保守性测量来研究增强子进化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35410163/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35410163/",
+  "paper_page_path": "papers/pubmed/35410163/index.html"
+}

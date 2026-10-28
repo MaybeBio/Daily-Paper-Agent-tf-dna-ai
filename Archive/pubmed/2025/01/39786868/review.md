@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, figure legends, and supplementary material references
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors propose StrucTFactor, a deep learning method that uses 3D secondary structural information of proteins (derived from AlphaFold structures via DSSP) to predict whether a protein is a transcription factor. They claim it is the first such method, that it significantly outperforms existing sequence-based methods (DeepTFactor and DeepReg) across 12 datasets, and that interpretability analysis shows it focuses on known DNA-binding domains.
+- **Visible evidence base** Main text with 5 figures, 3 tables, supplementary sections S1-S3, supplementary figures S1-S5, supplementary tables S1-S5
+- **Missing materials affecting confidence** Actual figure images and supplementary data files were not provided; only figure legends and table captions are visible. Statistical test details, hyperparameter configurations, and exact code implementation are referenced but not fully visible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely improving transcription factor prediction by incorporating structural information. The idea of using 3D secondary structure from predicted models is timely given the availability of AlphaFold predictions. However, several methodological concerns and potential overclaims need to be addressed before the case is fully established. The comparison with existing methods, while extensive, has some limitations in terms of fairness and interpretation. The interpretability analysis is interesting but preliminary. Overall, the work has merit but requires revisions to strengthen the evidence and clarify the claims.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and genomics who work on protein function prediction, transcription factor annotation, and deep learning applications in biology. The work is also relevant to those interested in leveraging predicted protein structures for downstream functional tasks, given the growing availability of AlphaFold predictions.
+- **Major strengths** The manuscript addresses a clear gap in the field by incorporating structural information into TF prediction. The evaluation across 12 datasets with different bias aspects is comprehensive. The use of AlphaFold structures is timely and practical. The interpretability analysis provides mechanistic insight into why the method works. The authors are transparent about limitations, including the use of GO annotations and the potential for homology bias.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological soundness
+  - **Claim pointer** The authors claim that StrucTFactor is the first TF prediction method to use 3D secondary structural information of proteins.
+  - **Evidence pointer** Section 1.2, "Our contributions"
+  - **Concern** The claim of being "first" is strong and requires a thorough literature search to substantiate. The authors only compare with DeepTFactor and DeepReg, both sequence-based. There may be other methods that use structural features, even if not deep learning-based, or that use tertiary structure. The authors should provide a more comprehensive literature review to support this claim or soften it.
+  - **Why it matters** If the claim of novelty is inaccurate, it undermines the contribution of the work. A thorough literature search is essential to establish the novelty of the approach.
+  - **Resolution test** Provide a systematic literature review of TF prediction methods, including those using structural features, and demonstrate that no prior method uses 3D secondary structure in the manner proposed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that StrucTFactor significantly outperforms DeepTFactor and DeepReg, with improvements up to 17% in MCC on the most reliable dataset.
+  - **Evidence pointer** Section 3.1, Figure 3, Table 2
+  - **Concern** The comparison with DeepTFactor and DeepReg may not be entirely fair. The authors use hyperparameters recommended by the original studies for these methods, but it is unclear if these were optimized for the datasets used here. Additionally, the authors use the same hyperparameters for StrucTFactor as those optimized for DeepTFactor, which may not be optimal for the new architecture. A more rigorous comparison would involve hyperparameter tuning for each method on the same validation sets.
+  - **Why it matters** Unfair comparisons can lead to inflated performance differences and undermine the conclusion that structural information is beneficial. The performance gap may be due to suboptimal hyperparameters for the baseline methods.
+  - **Resolution test** Perform hyperparameter tuning for all methods on the same validation sets, or justify why the chosen hyperparameters are appropriate for each method. Report results with tuned hyperparameters for all methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that StrucTFactor's superiority is potentially explained by its focus on known DBD regions, as shown by integrated gradients analysis.
+  - **Evidence pointer** Section 3.5, Figure 5
+  - **Concern** The interpretability analysis is based on a single dataset (D(rl,nr,3)) and only 395 TFs with DBD information. The analysis compares StrucTFactor only with DeepTFactor, not DeepReg. The statistical significance of the difference in DBD-related scores between methods is not reported. Additionally, the integrated gradients method can be sensitive to model architecture and training, and the results may not generalize.
+  - **Why it matters** The interpretability analysis is used to provide a mechanistic explanation for the performance improvement. If this analysis is not robust or statistically validated, the explanation remains speculative.
+  - **Resolution test** Extend the interpretability analysis to more datasets, include DeepReg, and report statistical tests for the differences. Discuss the limitations of integrated gradients and consider alternative interpretability methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that data and source code are available at GitHub and a website.
+  - **Evidence pointer** Data availability section
+  - **Concern** While the authors provide links, it is not clear if the code is well-documented, if the exact versions of dependencies are specified, or if the data processing pipelines are fully described. Reproducibility is a key requirement for computational methods.
+  - **Why it matters** Without clear documentation and reproducibility, the method cannot be easily adopted or verified by the community.
+  - **Resolution test** Provide a detailed README, specify software versions, and ensure the code runs end-to-end with the provided data. Consider depositing the code in a permanent repository with a DOI.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "we use all 570 830 reviewed proteins from UniProt"
+  - **Issue** The number of proteins in the initial UniProt download (570,830) and the final number after filtering (524,674) are provided, but the filtering criteria are only briefly mentioned. It would be helpful to provide a more detailed flowchart or table showing the number of proteins removed at each step.
+  - **Required correction** Add a supplementary figure or table showing the filtering steps and the number of proteins at each stage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "StrucTFactor significantly (p-value < 0.005) outperforms DeepTFactor"
+  - **Issue** The p-value threshold is different from the one used in Section 3.1 (p < 0.001). It would be clearer to use a consistent significance level throughout, or explain why different thresholds are used.
+  - **Required correction** Use a consistent significance level or justify the different thresholds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3 legend
+  - **Issue** The figure legend mentions "upper left panel" but it is not clear what the other panels show. A more detailed legend or subplot labels would improve readability.
+  - **Required correction** Add clear subplot labels and a more detailed legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.9
+  - **Evidence pointer** "we apply the integrated gradient method"
+  - **Issue** The details of the integrated gradients implementation are not fully described, such as the number of steps, baseline choice, and whether the method was applied to the input or to intermediate layers.
+  - **Required correction** Provide more details on the integrated gradients implementation or cite a specific implementation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (novelty claim), R1-M2 (fairness of comparison), R1-M3 (robustness of interpretability analysis)
+- **Assessment against Nature-style criteria** Originality: The use of 3D secondary structure for TF prediction is a novel contribution, but the claim of being "first" needs to be verified with a thorough literature search. Scientific importance: The problem of TF prediction is important, and improving accuracy has practical implications. The work is relevant to a broad audience in genomics and computational biology. Interdisciplinary readership: The work bridges structural biology, machine learning, and genomics, making it of interest to multiple communities. Technical soundness: The evaluation is extensive, but concerns about the fairness of comparison and the robustness of the interpretability analysis need to be addressed. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some technical details could be clarified for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the evaluation is extensive, but the novelty claim, fairness of comparison, and robustness of the interpretability analysis need to be strengthened.
+
+## Risk / unsupported claims
+- The claim that StrucTFactor is the "first" method to use 3D secondary structural information for TF prediction is not fully supported by the provided evidence, as no comprehensive literature review is presented.
+- The claim that the performance improvement is "potentially explained" by focus on DBD regions is speculative and not statistically validated.
+- The claim that DeepTFactor and DeepReg's original performance estimates were "overestimated" due to data leakage is based on the authors' analysis but is not directly compared with the original studies' protocols.
+- The generalizability of the method to species beyond those represented in the training data is not fully assessed, despite the authors noting this limitation.

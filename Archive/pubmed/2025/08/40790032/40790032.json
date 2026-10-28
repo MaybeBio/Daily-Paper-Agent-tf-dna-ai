@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40790032",
+    "doi": "10.1038/s41467-025-62531-1",
+    "title": "DNA polymerase actively and sequentially displaces single-stranded DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "Single-stranded DNA-binding proteins (SSBs) protect transiently exposed ssDNA, yet how DNA polymerase (DNAp) displaces them during replication remains unclear. Using single-molecule force spectroscopy, dual-color imaging, and molecular dynamics simulations on bacteriophage T7 DNAp and SSB, we investigated molecular mechanisms underlying SSB displacement. T7 SSB modulates replication in a force-dependent manner: enhancing it at low tension by preventing secondary structures while impeding it at high tension. Dual-color imaging shows SSBs remain stationary as DNAp advances, supporting a sequential displacement model. Molecular dynamics suggests that DNAp actively lowers the SSB dissociation energy barrier through interactions mediated by the SSB C-terminal tail. FRET confirms close protein proximity during encounters. Optimal replication requires SSB saturation of ssDNA, establishing a delicate balance between protection and efficiency. This spatiotemporal coordination between DNAp and SSB is critical for resolving molecular collisions and may represent a general mechanism for resolving molecular collisions, ensuring both processivity and genomic integrity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Directed DNA Polymerase/metabolism/genetics/chemistry",
+      "*DNA, Single-Stranded/metabolism/chemistry/genetics",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Bacteriophage T7/metabolism/genetics/enzymology",
+      "Molecular Dynamics Simulation",
+      "*Viral Proteins/metabolism/genetics/chemistry",
+      "DNA Replication",
+      "Single Molecule Imaging",
+      "Protein Binding",
+      "Fluorescence Resonance Energy Transfer",
+      "Escherichia coli/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Longfu",
+        "Jin, Shikai",
+        "Urem, Mia",
+        "Lee, Seung-Joo",
+        "Lamers, Meindert H",
+        "Chen, Xun",
+        "Wolynes, Peter G",
+        "Wuite, Gijs J L"
+      ],
+      "short_names": [
+        "Xu L",
+        "Jin S",
+        "Urem M",
+        "Lee SJ",
+        "Lamers MH",
+        "Chen X",
+        "Wolynes PG",
+        "Wuite GJL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0074-3106",
+        "ORCID: 0000-0001-9525-4166",
+        "ORCID: 0000-0002-8259-3991",
+        "ORCID: 0000-0002-4205-1338",
+        "ORCID: 0000-0002-5706-043X"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, and LaserLaB Amsterdam, Vrije Universiteit Amsterdam, De Boelelaan 1081, 1081 HV, Amsterdam, The Netherlands.",
+        "Center for Theoretical Biological Physics, Rice University, 6100 Main St, Houston, TX, USA.",
+        "Department of Biosciences, Rice University, 6100 Main St, Houston, TX, USA.",
+        "Leiden University Center of Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cell and Chemical Biology, Leiden University Medical Center (LUMC), Leiden, the Netherlands.",
+        "Department of Medicinal Chemistry, National Vaccine Innovation Platform, Nanjing Medical University, 101 Longmian Avenue, Nanjing, China.",
+        "Center for Theoretical Biological Physics, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu.",
+        "Department of Biosciences, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu.",
+        "Department of Chemistry, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu.",
+        "Department of Physics and Astronomy, and LaserLaB Amsterdam, Vrije Universiteit Amsterdam, De Boelelaan 1081, 1081 HV, Amsterdam, The Netherlands. g.j.l.wuite@vu.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Longfu",
+        "short_name": "Xu L",
+        "identifiers": [
+          "0000-0003-0074-3106"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, and LaserLaB Amsterdam, Vrije Universiteit Amsterdam, De Boelelaan 1081, 1081 HV, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jin, Shikai",
+        "short_name": "Jin S",
+        "identifiers": [
+          "0000-0001-9525-4166"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, 6100 Main St, Houston, TX, USA.",
+          "Department of Biosciences, Rice University, 6100 Main St, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Urem, Mia",
+        "short_name": "Urem M",
+        "identifiers": [
+          "0000-0002-8259-3991"
+        ],
+        "affiliations": [
+          "Leiden University Center of Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lee, Seung-Joo",
+        "short_name": "Lee SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lamers, Meindert H",
+        "short_name": "Lamers MH",
+        "identifiers": [
+          "0000-0002-4205-1338"
+        ],
+        "affiliations": [
+          "Department of Cell and Chemical Biology, Leiden University Medical Center (LUMC), Leiden, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Chen, Xun",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, National Vaccine Innovation Platform, Nanjing Medical University, 101 Longmian Avenue, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wolynes, Peter G",
+        "short_name": "Wolynes PG",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu.",
+          "Department of Biosciences, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu.",
+          "Department of Chemistry, Rice University, 6100 Main St, Houston, TX, USA. pw8@rice.edu."
+        ]
+      },
+      {
+        "full_name": "Wuite, Gijs J L",
+        "short_name": "Wuite GJL",
+        "identifiers": [
+          "0000-0002-5706-043X"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, and LaserLaB Amsterdam, Vrije Universiteit Amsterdam, De Boelelaan 1081, 1081 HV, Amsterdam, The Netherlands. g.j.l.wuite@vu.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 00:27",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [
+      "42265459",
+      "41359173"
+    ],
+    "refs": [
+      "38909023",
+      "37254785",
+      "37111518",
+      "37011199",
+      "36973549",
+      "36730193",
+      "36583344",
+      "35914145",
+      "34849486",
+      "34265844",
+      "33171642",
+      "32682257",
+      "32396727",
+      "31919510",
+      "31659895",
+      "30968132",
+      "30723327",
+      "29803030",
+      "29588158",
+      "29588157",
+      "29258817",
+      "28256218",
+      "27322406",
+      "27185951",
+      "27099372",
+      "27098223",
+      "26699500",
+      "26446790",
+      "26323319",
+      "25362344",
+      "24443844",
+      "24379377",
+      "23549287",
+      "23444293",
+      "21784244",
+      "21416086",
+      "21321607",
+      "20375019",
+      "19748362",
+      "19726688",
+      "19400798",
+      "18937104",
+      "18772224",
+      "18412538",
+      "17604719",
+      "17490681",
+      "17050544",
+      "16935876",
+      "16851756",
+      "16452983",
+      "16043363",
+      "15890198",
+      "15167897",
+      "11481454",
+      "11447279",
+      "10716452",
+      "9440688",
+      "8628994",
+      "8106511",
+      "7822323",
+      "1634539"
+    ],
+    "similar": [
+      "40790032",
+      "30968132",
+      "10773070",
+      "21606333",
+      "22976178",
+      "27185951",
+      "38663547",
+      "26620561",
+      "21907611",
+      "41359173",
+      "23629733",
+      "9497392",
+      "40070037",
+      "11481454",
+      "36511874",
+      "24792418",
+      "37254785",
+      "29458770",
+      "22976174",
+      "16881051",
+      "24371279",
+      "40598891",
+      "29059392",
+      "21784244",
+      "12766155",
+      "26578575",
+      "20360609",
+      "36769124",
+      "15795374",
+      "40052821",
+      "30044093",
+      "38770626",
+      "24606314",
+      "12748198",
+      "3053701",
+      "15044449",
+      "26305498",
+      "24021816",
+      "8106511",
+      "19571366",
+      "25562210",
+      "7473731",
+      "21701044",
+      "21572106",
+      "33847970",
+      "38522699",
+      "17050544",
+      "38508303",
+      "20375019",
+      "21169364",
+      "29803030",
+      "21865075",
+      "7721799",
+      "22977246",
+      "2838482",
+      "38470036",
+      "18757858",
+      "24200676",
+      "11000276",
+      "28615444",
+      "28078720",
+      "16807232",
+      "36477586",
+      "14676214",
+      "25222770",
+      "22543238",
+      "1899235",
+      "18238893",
+      "19820696",
+      "33020264",
+      "33847969",
+      "10488082",
+      "40442115",
+      "38126671",
+      "29138440",
+      "9079662",
+      "25855635",
+      "27694621",
+      "41264243",
+      "31724707",
+      "17369350",
+      "22304461",
+      "8995262",
+      "16829679",
+      "19726688",
+      "30767010",
+      "41172990",
+      "24338568",
+      "34578319",
+      "22549990",
+      "24394415",
+      "28416680",
+      "36744436",
+      "12598538",
+      "9545375",
+      "33847966",
+      "15890198",
+      "34089559",
+      "12496273",
+      "20329707"
+    ],
+    "review": [
+      "40790032",
+      "21907611",
+      "36769124",
+      "38770626",
+      "21865075",
+      "34578319"
+    ],
+    "pmc": [
+      "12339929"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-62531-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40790032/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

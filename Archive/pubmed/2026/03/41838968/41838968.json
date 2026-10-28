@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "41838968",
+    "doi": "10.1200/CCI-25-00252",
+    "title": "Interpretable Active Learning for Pedigree Data Deduplication in Cancer Genetics."
+  },
+  "content": {
+    "abstract": "PURPOSE: Studying rare genetic conditions often requires multicenter research to gather sufficient data. However, data from multiple institutions may include relatives from the same family enrolled at different sites, increasing the likelihood of duplicate records. This issue is compounded by the use of deidentified data, which limits the direct linkage through personal identifiers. These redundancies can bias family-based genetic studies underscoring the need for robust methods for pedigree deduplication. We propose an interpretable, active learning-based approach to efficiently identify duplicate records in genetic studies, with specific application to families with TP53 mutations in the Li-Fraumeni and TP53: Understanding and Progress (LiFT UP) study. MATERIALS AND METHODS: Our approach combines heuristic labeling with graph-based features and a machine learning model to iteratively refine duplicate detection. We first generate a partially labeled data set leveraging mutation variant diversity and family characteristics. A random forest classifier is then trained to predict duplicate pairs, with active learning guiding iterative refinement. This method is applied to real-world pedigree data from the LiFT UP study to assess its effectiveness in a multicenter setting. RESULTS: Our method labeled pedigree pairs in data from the LiFT UP study with a high degree of automation, achieving 99.95% automated processing in the deduplication workflow. By prioritizing likely duplicates for human review, it minimized manual effort while aiming for high specificity. This automated approach avoids dependence on rule-based filters, such as identifier matching, which ultimately require manual confirmation, offering a more scalable solution for improving data quality in risk estimation. CONCLUSION: Interpretable active learning provides an effective solution for pedigree deduplication. Future work will explore refinements in identifying potential duplicates and evaluate its generalizability across other genetic data sets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Pedigree",
+      "*Machine Learning",
+      "*Neoplasms/genetics/diagnosis",
+      "Mutation",
+      "Tumor Suppressor Protein p53/genetics",
+      "Female",
+      "Random Forest",
+      "Classification Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rosito, Maria S",
+        "Cervantes, Aleck E",
+        "Hong, Christine",
+        "Bonner, Joseph D",
+        "Nehoray, Bita",
+        "Schwartz Levine, Alison",
+        "Rosenberg, Danna",
+        "Anez-Bruzual, Isabel",
+        "Parmigiani, Giovanni",
+        "Amos, Christopher I",
+        "Garber, Judy E",
+        "Gruber, Stephen B",
+        "Braun, Danielle"
+      ],
+      "short_names": [
+        "Rosito MS",
+        "Cervantes AE",
+        "Hong C",
+        "Bonner JD",
+        "Nehoray B",
+        "Schwartz Levine A",
+        "Rosenberg D",
+        "Anez-Bruzual I",
+        "Parmigiani G",
+        "Amos CI",
+        "Garber JE",
+        "Gruber SB",
+        "Braun D"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1218-0149",
+        "ORCID: 0000-0002-7482-7719",
+        "ORCID: 0000-0002-3571-2097",
+        "ORCID: 0000-0003-3861-4203",
+        "ORCID: 0000-0002-0762-6837",
+        "ORCID: 0000-0002-8783-5961",
+        "ORCID: 0000-0001-9449-3982",
+        "ORCID: 0000-0001-8656-7822",
+        "ORCID: 0000-0002-5177-8598"
+      ],
+      "affiliations": [
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA.",
+        "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA.",
+        "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA.",
+        "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA.",
+        "Division of Clinical Cancer Genomics, City of Hope National Medical Center, Duarte, CA.",
+        "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA.",
+        "Clinical and Translational Research, Baylor College of Medicine, Houston, TX.",
+        "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rosito, Maria S",
+        "short_name": "Rosito MS",
+        "identifiers": [
+          "0009-0004-1218-0149"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Cervantes, Aleck E",
+        "short_name": "Cervantes AE",
+        "identifiers": [
+          "0000-0002-7482-7719"
+        ],
+        "affiliations": [
+          "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Hong, Christine",
+        "short_name": "Hong C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Bonner, Joseph D",
+        "short_name": "Bonner JD",
+        "identifiers": [
+          "0000-0002-3571-2097"
+        ],
+        "affiliations": [
+          "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Nehoray, Bita",
+        "short_name": "Nehoray B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical Cancer Genomics, City of Hope National Medical Center, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Schwartz Levine, Alison",
+        "short_name": "Schwartz Levine A",
+        "identifiers": [
+          "0000-0003-3861-4203"
+        ],
+        "affiliations": [
+          "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Rosenberg, Danna",
+        "short_name": "Rosenberg D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Anez-Bruzual, Isabel",
+        "short_name": "Anez-Bruzual I",
+        "identifiers": [
+          "0000-0002-0762-6837"
+        ],
+        "affiliations": [
+          "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Parmigiani, Giovanni",
+        "short_name": "Parmigiani G",
+        "identifiers": [
+          "0000-0002-8783-5961"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Amos, Christopher I",
+        "short_name": "Amos CI",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical and Translational Research, Baylor College of Medicine, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Garber, Judy E",
+        "short_name": "Garber JE",
+        "identifiers": [
+          "0000-0001-9449-3982"
+        ],
+        "affiliations": [
+          "Center for Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Gruber, Stephen B",
+        "short_name": "Gruber SB",
+        "identifiers": [
+          "0000-0001-8656-7822"
+        ],
+        "affiliations": [
+          "Center for Precision Medicine, City of Hope National Medical Center, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Braun, Danielle",
+        "short_name": "Braun D",
+        "identifiers": [
+          "0000-0002-5177-8598"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.",
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCO clinical cancer informatics"
+    ],
+    "journal_abbrev": [
+      "JCO Clin Cancer Inform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/16 21:57",
+    "fetched_at": "2026-10-01 16:35:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41838968",
+      "42475469",
+      "36321557",
+      "33036834",
+      "32817165",
+      "41310253",
+      "38412388",
+      "41637753",
+      "40183298",
+      "34406119",
+      "35043155",
+      "26086041",
+      "34709361",
+      "31719101",
+      "34780712",
+      "41670376",
+      "40570739",
+      "21552135",
+      "41498535",
+      "41912385",
+      "42528300",
+      "25313051",
+      "34750410",
+      "41650107",
+      "42574441",
+      "32282466",
+      "41814305",
+      "42174465",
+      "37924278",
+      "26727920",
+      "41342203",
+      "40106382",
+      "33085409",
+      "41797598",
+      "40882304",
+      "20522432",
+      "28973705",
+      "29392648",
+      "42491247",
+      "41521338",
+      "39417312",
+      "27714481",
+      "41456007",
+      "30726003",
+      "42129764",
+      "41043704",
+      "28573494",
+      "42129635",
+      "26269925",
+      "29262162",
+      "29763967",
+      "42207236",
+      "31719099",
+      "37562436",
+      "9764816",
+      "25925845",
+      "42528422",
+      "21305319",
+      "30571073",
+      "32143809",
+      "39007733",
+      "39261343",
+      "38428200",
+      "41617215",
+      "41820213",
+      "30481172",
+      "41575322",
+      "42361408",
+      "40459794",
+      "40444411",
+      "41564302",
+      "22653678",
+      "38018912",
+      "42247453",
+      "42271312",
+      "25588387",
+      "28911001",
+      "41984477",
+      "41278162",
+      "30545805",
+      "41617871",
+      "34857774",
+      "33138793",
+      "41232303",
+      "38873396",
+      "41723010",
+      "41701300",
+      "41688057",
+      "32675277",
+      "40542714",
+      "40587839",
+      "31216622",
+      "41335175",
+      "42145960",
+      "30886117",
+      "41529257",
+      "41998703",
+      "40543052",
+      "41419964",
+      "42158462"
+    ],
+    "review": [
+      "41838968",
+      "36321557",
+      "41912385",
+      "41797598",
+      "42491247",
+      "39417312",
+      "26269925",
+      "25588387",
+      "38873396",
+      "40542714"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/CCI-25-00252?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

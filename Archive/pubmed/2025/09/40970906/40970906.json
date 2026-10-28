@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "40970906",
+    "doi": "10.1021/acs.jctc.5c00765",
+    "title": "Predicting Saturation Concentrations of Phase-Separating Proteins via Thermodynamic Integration."
+  },
+  "content": {
+    "abstract": "Phase separation of proteins and nucleic acids into biomolecular condensates contributes to the regulation of cellular compartmentalization in membrane-less environments. A key parameter controlling the onset of biomolecular condensate formation is the saturation concentration (C(sat)) horizontal line the threshold concentration above which condensation takes place. While measuring C(sat) for protein solutions in vitro is experimentally accessible, determining this quantity in simulations remains challenging due to the extremely low equilibrium concentrations at which many proteins phase separate. This occurs because the gold standard in simulations consists of combining a residue-resolution coarse-grained model with the Direct Coexistence simulation method, which yields poor estimates of the equilibrium concentrations of the dilute phase due to lack of statistics. In this work, we present two independent thermodynamic integration (TI) schemes which, when combined with Direct Coexistence simulations, enable accurate calculation of saturation concentrations and phase diagrams horizontal line facilitating direct comparison with experimental measurements across a wide range of conditions. Our methods, combined with the Mpipi-Recharged residue-resolution model, accurately estimate C(sat) for a broad range of intrinsically disordered and multidomain proteins, including disease-associated RNA- and DNA-binding proteins involved in the formation of stress granules and P granules, as well as engineered mutants of hnRNPA1. Furthermore, we compare our TI methods against a computationally efficient machine-learning predictor trained to estimate saturation concentrations at room temperature. While both approaches yield realistic predictions, explicit molecular dynamics simulations enable the calculation of complete phase diagrams and provide insight into the molecular mechanisms and interactions driving phase separation. Overall, our approach offers a robust, physically grounded framework for improving and validating coarse-grained models of biomolecular phase behavior, effectively bridging the gap between simulation and experiment.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Thermodynamics",
+      "Molecular Dynamics Simulation",
+      "*Proteins/chemistry",
+      "Humans",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pedraza, Eduardo",
+        "Tejedor, Andres R",
+        "Feito, Alejandro",
+        "Gamez, Francisco",
+        "Collepardo-Guevara, Rosana",
+        "Sanz, Eduardo",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Pedraza E",
+        "Tejedor AR",
+        "Feito A",
+        "Gamez F",
+        "Collepardo-Guevara R",
+        "Sanz E",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0154-4643",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0009-0000-1282-7580",
+        "ORCID: 0000-0001-6937-9950",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0001-6474-5835",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+        "Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, U.K.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pedraza, Eduardo",
+        "short_name": "Pedraza E",
+        "identifiers": [
+          "0000-0003-0154-4643"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andres R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Feito, Alejandro",
+        "short_name": "Feito A",
+        "identifiers": [
+          "0009-0000-1282-7580"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Gámez, Francisco",
+        "short_name": "Gámez F",
+        "identifiers": [
+          "0000-0001-6937-9950"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+          "Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, U.K."
+        ]
+      },
+      {
+        "full_name": "Sanz, Eduardo",
+        "short_name": "Sanz E",
+        "identifiers": [
+          "0000-0001-6474-5835"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Avenue Complutense s/n, Madrid 28040, Spain.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Oct 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/19 12:51",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42407334"
+    ],
+    "refs": [],
+    "similar": [
+      "40970906",
+      "39804953",
+      "40172489",
+      "40028356",
+      "40009520",
+      "40058249",
+      "36883003",
+      "36758221",
+      "32696384",
+      "33307683",
+      "38832749",
+      "39937084",
+      "34716273",
+      "32619404",
+      "40954121",
+      "41187075",
+      "40614690",
+      "34598583",
+      "37043540",
+      "40690668",
+      "40420812",
+      "40098319",
+      "39605385",
+      "35727989",
+      "39227569",
+      "38181073",
+      "40664121",
+      "34772789",
+      "40944421",
+      "39225535",
+      "37468629",
+      "40131954",
+      "40782375",
+      "38383656",
+      "39908323",
+      "32405004",
+      "34916288",
+      "37408305",
+      "33139563",
+      "33453922",
+      "23912807",
+      "35325654",
+      "37194953",
+      "40588121",
+      "40848932",
+      "38112495",
+      "36829460",
+      "34507991",
+      "41481439",
+      "35787038",
+      "40877270",
+      "39486437",
+      "36004748",
+      "40943551",
+      "39947751",
+      "40408482",
+      "39591652",
+      "37470705",
+      "34552246",
+      "39725032",
+      "40766493",
+      "40972943",
+      "41337585",
+      "39827079",
+      "32393642",
+      "36979462",
+      "37735186",
+      "39432826",
+      "33672806",
+      "35795820",
+      "39663388",
+      "40830100",
+      "34862761",
+      "40455990",
+      "41129218",
+      "39636939",
+      "35179885",
+      "30471685",
+      "40748104",
+      "40626470",
+      "39922189",
+      "39319382",
+      "41342450",
+      "40985078",
+      "34772786",
+      "41191214",
+      "33496264",
+      "32426986",
+      "39554101",
+      "36607820",
+      "38429263",
+      "35793442",
+      "26574429",
+      "34767801",
+      "41319238",
+      "33864415",
+      "40911789",
+      "39987501",
+      "33930220",
+      "29364893"
+    ],
+    "review": [
+      "40970906",
+      "40172489",
+      "40058249",
+      "40614690",
+      "40664121",
+      "34772789",
+      "39947751",
+      "39827079",
+      "35179885",
+      "34772786",
+      "41191214",
+      "34767801"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00765",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.06.499067",
+  "title": "DeepBend: An Interpretable Model of DNA Bendability",
+  "doi": "10.1101/2022.07.06.499067",
+  "abstract": "The bendability of genomic DNA impacts chromatin packaging and protein-DNA binding. However, beyond a handful of known sequence motifs, such as certain dinucleotides and poly(A)/poly(T) sequences, we do not have a comprehensive understanding of the motifs influencing DNA bendability. Recent high-throughput technologies like Loop-Seq offer an opportunity to address this gap but the lack of accurate and interpretable machine learning models still poses a significant challenge. Here we introduce DeepBend, a convolutional neural network model built as a visible neural network where we designed the convolutions to directly capture the motifs underlying DNA bendability and how their periodic occurrences or relative arrangements modulate bendability. Through extensive benchmarking on Loop-Seq data, we show that DeepBend consistently performs on par with alternative machine learning and deep learning models while giving an extra edge through mechanistic interpretations. Besides confirming the known motifs of DNA bendability, DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability. DeepBend’s genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling bendability of topologically associated domains and their boundaries.",
+  "authors": [
+    "Khan SR",
+    "Sakib S",
+    "Rahman MS",
+    "Samee MAH"
+  ],
+  "published_date": "2022-07-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499067",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499067.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR515301",
+    "raw_record": {
+      "id": "PPR515301",
+      "source": "PPR",
+      "doi": "10.1101/2022.07.06.499067",
+      "title": "DeepBend: An Interpretable Model of DNA Bendability",
+      "authorString": "Khan SR, Sakib S, Rahman MS, Samee MAH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Khan SR",
+            "lastName": "Khan",
+            "firstName": "Samin Rahman",
+            "initials": "SR"
+          },
+          {
+            "fullName": "Sakib S",
+            "lastName": "Sakib",
+            "firstName": "Sadman",
+            "initials": "S"
+          },
+          {
+            "fullName": "Rahman MS",
+            "lastName": "Rahman",
+            "firstName": "Sohel",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9419-6478"
+            }
+          },
+          {
+            "fullName": "Samee MAH",
+            "lastName": "Samee",
+            "firstName": "Md. Abul Hassan",
+            "initials": "MAH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7472-1156"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9419-6478"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7472-1156"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The bendability of genomic DNA impacts chromatin packaging and protein-DNA binding. However, beyond a handful of known sequence motifs, such as certain dinucleotides and poly(A)/poly(T) sequences, we do not have a comprehensive understanding of the motifs influencing DNA bendability. Recent high-throughput technologies like Loop-Seq offer an opportunity to address this gap but the lack of accurate and interpretable machine learning models still poses a significant challenge. Here we introduce DeepBend, a convolutional neural network model built as a visible neural network where we designed the convolutions to directly capture the motifs underlying DNA bendability and how their periodic occurrences or relative arrangements modulate bendability. Through extensive benchmarking on Loop-Seq data, we show that DeepBend consistently performs on par with alternative machine learning and deep learning models while giving an extra edge through mechanistic interpretations. Besides confirming the known motifs of DNA bendability, DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability. DeepBend’s genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling bendability of topologically associated domains and their boundaries.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/07/2022.07.06.499067.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.06.499067"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36866046",
+            "reference": "iScience. 2023 Feb;26(2):105945",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-09",
+      "firstPublicationDate": "2022-07-07",
+      "firstIndexDate": "2022-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

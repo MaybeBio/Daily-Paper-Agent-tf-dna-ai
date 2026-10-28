@@ -1,0 +1,844 @@
+{
+  "identity": {
+    "pmid": "41588163",
+    "doi": "10.1038/s41564-025-02241-y",
+    "title": "Effector-host interactome map links type III secretion systems in healthy gut microbiomes to immune modulation."
+  },
+  "content": {
+    "abstract": "Pseudomonadota (formerly Proteobacteria) are prevalent in the commensal human gut microbiota, but also include many pathogens that rely on secretion systems to support pathogenicity by injecting proteins into host cells. Here we show that 80% of Pseudomonadota from healthy gut microbiomes also have intact type III secretion systems (T3SS). Candidate effectors predicted by machine learning display sequence and structural features that are distinct from those of pathogen effectors. Towards a systems-level functional understanding, we experimentally constructed a protein-protein meta-interactome map between human proteins and commensal effectors. Network analyses uncovered that effector-targeted neighbourhoods are enriched for genetic variation linked to microbiome-associated conditions, including autoimmune and metabolic diseases. Metagenomic analysis revealed effector enrichment in Crohn's disease but depletion in ulcerative colitis. Functionally, commensal effectors can translocate into human cells and modulate NF-kappaB signalling and cytokine secretion in vitro. Our findings indicate that T3SS contribute to microorganism-host cohabitation and that effector-host protein interactions may represent an underappreciated route by which commensal gut microbiota influences health.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Gastrointestinal Microbiome/immunology",
+      "*Type III Secretion Systems/metabolism/genetics/immunology",
+      "Bacterial Proteins/metabolism/genetics",
+      "Crohn Disease/microbiology/immunology",
+      "NF-kappa B/metabolism",
+      "*Immunomodulation",
+      "Host-Pathogen Interactions",
+      "Colitis, Ulcerative/microbiology/immunology",
+      "Host Microbial Interactions",
+      "Protein Interaction Maps",
+      "Metagenomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Young, Veronika",
+        "Dohai, Bushra",
+        "Halder, Hridi",
+        "Fernandez-Macgregor, Jaime",
+        "van Heusden, Niels S",
+        "Hitch, Thomas C A",
+        "Weller, Benjamin",
+        "Hyden, Patrick",
+        "Saha, Deeya",
+        "Pieren, Daan K J",
+        "Rittchen, Sonja",
+        "Lambourne, Luke",
+        "Maseko, Sibusiso B",
+        "Lin, Chung-Wen",
+        "Tun, Ye Min",
+        "Bibus, Jonas",
+        "Pletschacher, Luisa",
+        "Boujeant, Megane",
+        "Choteau, Sebastien A",
+        "Bergogne, Lou",
+        "Perrin, Jeremie",
+        "Ober, Franziska",
+        "Schwehn, Patrick",
+        "Rothballer, Simin T",
+        "Altmann, Melina",
+        "Altmann, Stefan",
+        "Strobel, Alexandra",
+        "Rothballer, Michael",
+        "Tofaute, Marie",
+        "Kotlarz, Daniel",
+        "Heinig, Matthias",
+        "Clavel, Thomas",
+        "Calderwood, Michael A",
+        "Vidal, Marc",
+        "Twizere, Jean-Claude",
+        "Vincentelli, Renaud",
+        "Krappmann, Daniel",
+        "Boes, Marianne",
+        "Falter, Claudia",
+        "Rattei, Thomas",
+        "Brun, Christine",
+        "Zanzoni, Andreas",
+        "Falter-Braun, Pascal"
+      ],
+      "short_names": [
+        "Young V",
+        "Dohai B",
+        "Halder H",
+        "Fernandez-Macgregor J",
+        "van Heusden NS",
+        "Hitch TCA",
+        "Weller B",
+        "Hyden P",
+        "Saha D",
+        "Pieren DKJ",
+        "Rittchen S",
+        "Lambourne L",
+        "Maseko SB",
+        "Lin CW",
+        "Tun YM",
+        "Bibus J",
+        "Pletschacher L",
+        "Boujeant M",
+        "Choteau SA",
+        "Bergogne L",
+        "Perrin J",
+        "Ober F",
+        "Schwehn P",
+        "Rothballer ST",
+        "Altmann M",
+        "Altmann S",
+        "Strobel A",
+        "Rothballer M",
+        "Tofaute M",
+        "Kotlarz D",
+        "Heinig M",
+        "Clavel T",
+        "Calderwood MA",
+        "Vidal M",
+        "Twizere JC",
+        "Vincentelli R",
+        "Krappmann D",
+        "Boes M",
+        "Falter C",
+        "Rattei T",
+        "Brun C",
+        "Zanzoni A",
+        "Falter-Braun P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1524-8039",
+        "ORCID: 0000-0002-8346-1990",
+        "ORCID: 0000-0003-2244-7412",
+        "ORCID: 0000-0003-0461-5064",
+        "ORCID: 0000-0002-7001-7575",
+        "ORCID: 0009-0004-9409-0154",
+        "ORCID: 0000-0002-7229-5595",
+        "ORCID: 0000-0001-6475-1418",
+        "ORCID: 0000-0002-8683-705X",
+        "ORCID: 0000-0001-9667-0196",
+        "ORCID: 0000-0001-7640-3234",
+        "ORCID: 0000-0003-2590-1692",
+        "ORCID: 0000-0002-0592-7791",
+        "ORCID: 0000-0002-4818-6161",
+        "ORCID: 0000-0003-2012-6746"
+      ],
+      "affiliations": [
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Aix-Marseille University, CNRS, AFMB, UMR CNRS 7257, Turing Center for Living Systems, Marseille, France.",
+        "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+        "Functional Microbiome Research Group, Institute of Medical Microbiology, University Hospital of RWTH Aachen, Aachen, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Department of Microbiology and Ecosystem Science, Research Network: Chemistry meets Microbiology, University of Vienna, Vienna, Austria.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Department of Biotechnology, Faculty of Life and Allied Health Sciences, Ramaiah University of Applied Sciences, Bangalore, India.",
+        "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+        "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+        "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Laboratory of Viral Interactomes, GIGA Institute, University of Liege, Liege, Belgium.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Dr von Hauner Children's Hospital, Department of Pediatrics, University Hospital, Ludwig-Maximilians-Universitat Munich, Munich, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Dr von Hauner Children's Hospital, Department of Pediatrics, University Hospital, Ludwig-Maximilians-Universitat Munich, Munich, Germany.",
+        "Institute of Translational Genomics, Helmholtz Zentrum Munchen, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "German Center for Child and Adolescent Health (DZKJ), partner site Munich, Munich, Germany.",
+        "Institute of Computational Biology (ICB), Computational Health Center, Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Department of Computer Science, TUM School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "Functional Microbiome Research Group, Institute of Medical Microbiology, University Hospital of RWTH Aachen, Aachen, Germany.",
+        "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Laboratory of Viral Interactomes, GIGA Institute, University of Liege, Liege, Belgium.",
+        "TERRA Teaching and Research Centre, University of Liege, Gembloux, Belgium.",
+        "Laboratory of Algal Synthetic and Systems Biology, Division of Science, New York University Abu Dhabi, Abu Dhabi, United Arab Emirates.",
+        "Aix-Marseille University, CNRS, AFMB, UMR CNRS 7257, Turing Center for Living Systems, Marseille, France.",
+        "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Center for Translational Immunology, Pediatrics Department, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+        "Department of Microbiology and Ecosystem Science, Research Network: Chemistry meets Microbiology, University of Vienna, Vienna, Austria.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+        "CNRS, Marseille, France.",
+        "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France. andreas.zanzoni@univ-amu.fr.",
+        "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany. pascal.falter-braun@helmholtz-munich.de.",
+        "Microbe-Host Interactions, Faculty of Biology, Ludwig-Maximilians-Universitat (LMU) Munchen, Planegg-Martinsried, Germany. pascal.falter-braun@helmholtz-munich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Young, Veronika",
+        "short_name": "Young V",
+        "identifiers": [
+          "0000-0002-1524-8039"
+        ],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Dohai, Bushra",
+        "short_name": "Dohai B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Halder, Hridi",
+        "short_name": "Halder H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Fernandez-Macgregor, Jaime",
+        "short_name": "Fernandez-Macgregor J",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+          "Aix-Marseille University, CNRS, AFMB, UMR CNRS 7257, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "van Heusden, Niels S",
+        "short_name": "van Heusden NS",
+        "identifiers": [
+          "0000-0002-8346-1990"
+        ],
+        "affiliations": [
+          "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hitch, Thomas C A",
+        "short_name": "Hitch TCA",
+        "identifiers": [
+          "0000-0003-2244-7412"
+        ],
+        "affiliations": [
+          "Functional Microbiome Research Group, Institute of Medical Microbiology, University Hospital of RWTH Aachen, Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Weller, Benjamin",
+        "short_name": "Weller B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hyden, Patrick",
+        "short_name": "Hyden P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Ecosystem Science, Research Network: Chemistry meets Microbiology, University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Saha, Deeya",
+        "short_name": "Saha D",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+          "Department of Biotechnology, Faculty of Life and Allied Health Sciences, Ramaiah University of Applied Sciences, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Pieren, Daan K J",
+        "short_name": "Pieren DKJ",
+        "identifiers": [
+          "0000-0003-0461-5064"
+        ],
+        "affiliations": [
+          "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Rittchen, Sonja",
+        "short_name": "Rittchen S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lambourne, Luke",
+        "short_name": "Lambourne L",
+        "identifiers": [
+          "0000-0002-7001-7575"
+        ],
+        "affiliations": [
+          "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Maseko, Sibusiso B",
+        "short_name": "Maseko SB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Viral Interactomes, GIGA Institute, University of Liège, Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lin, Chung-Wen",
+        "short_name": "Lin CW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tun, Ye Min",
+        "short_name": "Tun YM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bibus, Jonas",
+        "short_name": "Bibus J",
+        "identifiers": [],
+        "affiliations": [
+          "Dr von Hauner Children's Hospital, Department of Pediatrics, University Hospital, Ludwig-Maximilians-Universität Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Pletschacher, Luisa",
+        "short_name": "Pletschacher L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Boujeant, Mégane",
+        "short_name": "Boujeant M",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Choteau, Sébastien A",
+        "short_name": "Choteau SA",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Bergogne, Lou",
+        "short_name": "Bergogne L",
+        "identifiers": [
+          "0009-0004-9409-0154"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Perrin, Jérémie",
+        "short_name": "Perrin J",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Ober, Franziska",
+        "short_name": "Ober F",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schwehn, Patrick",
+        "short_name": "Schwehn P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rothballer, Simin T",
+        "short_name": "Rothballer ST",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Altmann, Melina",
+        "short_name": "Altmann M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Altmann, Stefan",
+        "short_name": "Altmann S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Strobel, Alexandra",
+        "short_name": "Strobel A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rothballer, Michael",
+        "short_name": "Rothballer M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tofaute, Marie",
+        "short_name": "Tofaute M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kotlarz, Daniel",
+        "short_name": "Kotlarz D",
+        "identifiers": [],
+        "affiliations": [
+          "Dr von Hauner Children's Hospital, Department of Pediatrics, University Hospital, Ludwig-Maximilians-Universität Munich, Munich, Germany.",
+          "Institute of Translational Genomics, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany.",
+          "German Center for Child and Adolescent Health (DZKJ), partner site Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Heinig, Matthias",
+        "short_name": "Heinig M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational Biology (ICB), Computational Health Center, Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany.",
+          "Department of Computer Science, TUM School of Computation, Information and Technology, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Clavel, Thomas",
+        "short_name": "Clavel T",
+        "identifiers": [
+          "0000-0002-7229-5595"
+        ],
+        "affiliations": [
+          "Functional Microbiome Research Group, Institute of Medical Microbiology, University Hospital of RWTH Aachen, Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Calderwood, Michael A",
+        "short_name": "Calderwood MA",
+        "identifiers": [
+          "0000-0001-6475-1418"
+        ],
+        "affiliations": [
+          "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Vidal, Marc",
+        "short_name": "Vidal M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Systems Biology (CCSB), Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Twizere, Jean-Claude",
+        "short_name": "Twizere JC",
+        "identifiers": [
+          "0000-0002-8683-705X"
+        ],
+        "affiliations": [
+          "Laboratory of Viral Interactomes, GIGA Institute, University of Liège, Liège, Belgium.",
+          "TERRA Teaching and Research Centre, University of Liège, Gembloux, Belgium.",
+          "Laboratory of Algal Synthetic and Systems Biology, Division of Science, New York University Abu Dhabi, Abu Dhabi, United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "Vincentelli, Renaud",
+        "short_name": "Vincentelli R",
+        "identifiers": [
+          "0000-0001-9667-0196"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, CNRS, AFMB, UMR CNRS 7257, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Krappmann, Daniel",
+        "short_name": "Krappmann D",
+        "identifiers": [
+          "0000-0001-7640-3234"
+        ],
+        "affiliations": [
+          "Research Unit Signaling and Translation, Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Boes, Marianne",
+        "short_name": "Boes M",
+        "identifiers": [
+          "0000-0003-2590-1692"
+        ],
+        "affiliations": [
+          "Center for Translational Immunology, Pediatrics Department, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Falter, Claudia",
+        "short_name": "Falter C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rattei, Thomas",
+        "short_name": "Rattei T",
+        "identifiers": [
+          "0000-0002-0592-7791"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Ecosystem Science, Research Network: Chemistry meets Microbiology, University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Brun, Christine",
+        "short_name": "Brun C",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France.",
+          "CNRS, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Zanzoni, Andreas",
+        "short_name": "Zanzoni A",
+        "identifiers": [
+          "0000-0002-4818-6161"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, TAGC, UMR_S1090, Turing Center for Living Systems, Marseille, France. andreas.zanzoni@univ-amu.fr."
+        ]
+      },
+      {
+        "full_name": "Falter-Braun, Pascal",
+        "short_name": "Falter-Braun P",
+        "identifiers": [
+          "0000-0003-2012-6746"
+        ],
+        "affiliations": [
+          "Institute of Network Biology (INET), Molecular Targets and Therapeutics Center (MTTC), Helmholtz Munich, German Research Center for Environmental Health, Neuherberg, Germany. pascal.falter-braun@helmholtz-munich.de.",
+          "Microbe-Host Interactions, Faculty of Biology, Ludwig-Maximilians-Universität (LMU) München, Planegg-Martinsried, Germany. pascal.falter-braun@helmholtz-munich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature microbiology"
+    ],
+    "journal_abbrev": [
+      "Nat Microbiol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 00:52",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42558572",
+      "42379168",
+      "42326403",
+      "41876719"
+    ],
+    "refs": [
+      "40328737",
+      "40212988",
+      "39443812",
+      "37933859",
+      "37704730",
+      "37429856",
+      "37165188",
+      "37156916",
+      "36823319",
+      "36690744",
+      "36350631",
+      "36217029",
+      "36115835",
+      "35790781",
+      "35056636",
+      "34788826",
+      "34770776",
+      "34761267",
+      "34711957",
+      "34694987",
+      "34617013",
+      "34555295",
+      "34071792",
+      "33794144",
+      "33564394",
+      "33196847",
+      "33156333",
+      "33084862",
+      "32696352",
+      "32612234",
+      "32296183",
+      "32068313",
+      "31958669",
+      "31730192",
+      "31680160",
+      "31477907",
+      "31467278",
+      "31404834",
+      "31142855",
+      "31128275",
+      "30745586",
+      "30661755",
+      "30531976",
+      "30504855",
+      "30109217",
+      "30020411",
+      "29590394",
+      "29457794",
+      "29150361",
+      "29076577",
+      "28971969",
+      "28959254",
+      "28787424",
+      "28622658",
+      "28392566",
+      "28292977",
+      "27713481",
+      "26738735",
+      "26590402",
+      "26582926",
+      "25977477",
+      "25279917",
+      "25211078",
+      "24575107",
+      "24081580",
+      "23399932",
+      "23060610",
+      "22810586",
+      "22699609",
+      "22453911",
+      "22039361",
+      "21909575",
+      "21798944",
+      "21798943",
+      "20602997",
+      "20557357",
+      "20489017",
+      "20211023",
+      "20200009",
+      "20003500",
+      "19390696",
+      "15808742",
+      "11557134"
+    ],
+    "similar": [
+      "41588163",
+      "31744919",
+      "26185088",
+      "39216231",
+      "42405792",
+      "30042203",
+      "34346702",
+      "30514785",
+      "39878476",
+      "28451521",
+      "29339461",
+      "28112271",
+      "30045964",
+      "38217090",
+      "33735297",
+      "39526800",
+      "26247360",
+      "29717012",
+      "31239375",
+      "31178419",
+      "28401683",
+      "40931196",
+      "25691588",
+      "41134048",
+      "40522423",
+      "27837488",
+      "33729090",
+      "30281019",
+      "26823466",
+      "41596470",
+      "30744677",
+      "39735273",
+      "41824637",
+      "38531781",
+      "27923746",
+      "41733340",
+      "39008129",
+      "23890184",
+      "33707240",
+      "40996286",
+      "41758121",
+      "29921672",
+      "40599135",
+      "40778777",
+      "32188755",
+      "41945428",
+      "40231845",
+      "39133938",
+      "42171730",
+      "32058947",
+      "27022930",
+      "37099273",
+      "36154276",
+      "28799907",
+      "35064769",
+      "28782508",
+      "30942149",
+      "34090822",
+      "30964713",
+      "42430408",
+      "28653671",
+      "24950204",
+      "29503811",
+      "40425050",
+      "34392594",
+      "30049795",
+      "27377745",
+      "29024267",
+      "31974499",
+      "41686848",
+      "32764209",
+      "31530678",
+      "30279280",
+      "41247119",
+      "27993130",
+      "27206522",
+      "41910951",
+      "28671993",
+      "26921426",
+      "39570047",
+      "31740421",
+      "31891220",
+      "28069818",
+      "37036369",
+      "31240408",
+      "25784698",
+      "40044131",
+      "41277869",
+      "40403987",
+      "39431830",
+      "32723799",
+      "40330488",
+      "29488864",
+      "35107329",
+      "34738337",
+      "42424228",
+      "21143776",
+      "21390206",
+      "26811648",
+      "35659762"
+    ],
+    "review": [
+      "41588163",
+      "29339461",
+      "38217090",
+      "31178419",
+      "40522423",
+      "39735273",
+      "41824637",
+      "42171730",
+      "32058947",
+      "28799907",
+      "30942149",
+      "34090822",
+      "30964713",
+      "24950204",
+      "40425050",
+      "34392594",
+      "41910951",
+      "31240408",
+      "34738337"
+    ],
+    "pmc": [
+      "12872453"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41564-025-02241-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41588163/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

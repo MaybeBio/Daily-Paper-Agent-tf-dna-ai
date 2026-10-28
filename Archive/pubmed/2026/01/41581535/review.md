@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Xiaoyaosan (XYS) and its component isoliquiritigenin (ILG) ameliorate depressive-like behaviors in mouse models (CSDS and LPS), exert dual cellular effects (promoting hippocampal neural stem cell proliferation and differentiation, inhibiting microglial neuroinflammation), reverse abnormal chromatin 3D structure in hippocampal microglia, target NF-kappaB p65, and suppress p65 phase-separated condensates, thereby providing a mechanistic basis for natural antidepressant development.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, statistical analyses, Hi-C data processing details, molecular docking parameters, co-culture experimental design, quantification of phase separation, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious set of claims linking a traditional Chinese medicine formula and a single compound to chromatin architecture, transcription factor phase separation, and behavioral outcomes. The narrative is coherent and potentially interesting, but the abstract alone provides insufficient evidence to evaluate the rigor of the experimental design, the robustness of the data, or the validity of the causal chain proposed. Several claims are stated as established findings without visible quantitative support. The work may be of interest to researchers in neuropharmacology and chromatin biology, but the current evidence base is too limited to assess technical soundness or to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying the molecular mechanisms of antidepressant action, particularly those interested in natural products, chromatin dynamics in neuroinflammation, and the emerging role of phase separation in transcriptional regulation. The dual focus on neural stem cells and microglia may also appeal to investigators in neuroimmunology and regenerative neuroscience.
+- **Major strengths** The abstract integrates multiple advanced methodologies (Hi-C, transcriptomics, molecular docking, 3D genomics, co-culture systems) to address a clinically relevant question. The identification of a specific active component (ILG) from a complex formula adds translational value. The proposed mechanism linking chromatin 3D structure and p65 phase separation is conceptually novel and potentially impactful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract states that XYS and ILG "reversed the abnormal chromatin 3D structure in hippocampal microglia of depression models" and that this reversal is mechanistically linked to therapeutic effects.
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract does not describe how chromatin 3D structure changes were quantified, which specific architectural features were altered (e.g., topologically associating domains, compartments, loops), or whether these changes were statistically significant and reproducible across biological replicates. The causal relationship between chromatin structure reversal and behavioral improvement is asserted but not demonstrated.
+  - **Why it matters** Without evidence that chromatin structural changes precede or correlate with functional outcomes, the claim that chromatin remodeling is a mechanistic driver rather than a downstream correlate remains unsupported. This is central to the paper's novelty.
+  - **Resolution test** Provide quantitative Hi-C data showing specific, statistically significant architectural changes reversed by XYS and ILG, with appropriate multiple-testing correction, and demonstrate a temporal or genetic link between these changes and behavioral or cellular phenotypes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The abstract states that "overexpression of p65 promotes inflammation and inhibits neuronal growth" in co-culture experiments, and that XYS and ILG suppress p65 phase-separated condensates.
+  - **Evidence pointer** Abstract only; co-culture methods and phase separation assays not described
+  - **Concern** The abstract does not specify how p65 overexpression was achieved, whether the co-culture effects were cell-type specific, or how phase separation was assessed (e.g., in vitro reconstitution, cellular imaging, FRAP). The link between p65 phase separation and its transcriptional activity is not established, and the specificity of XYS and ILG for p65 versus other NF-kappaB family members is unclear.
+  - **Why it matters** Phase separation is a rapidly evolving field with stringent criteria for functional relevance. Without evidence that condensate formation is required for p65-mediated inflammation and that XYS and ILG disrupt this process specifically, the mechanistic claim is premature.
+  - **Resolution test** Provide imaging and biochemical data demonstrating p65 condensate formation in relevant cells, show that disruption of condensates (e.g., via mutation or drug) phenocopies XYS and ILG effects, and include controls for off-target effects on other NF-kappaB subunits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose and specificity of active component
+  - **Claim pointer** The abstract identifies ILG as a "key ingredient" of XYS and attributes the formula's effects to this compound.
+  - **Evidence pointer** Abstract only; no dose-response or comparative data provided
+  - **Concern** The abstract does not report the concentration of ILG in XYS, the doses used in vivo or in vitro, or whether ILG alone recapitulates all effects of the full formula. The possibility that other components contribute additively or synergistically is not addressed.
+  - **Why it matters** For a natural product study, establishing that a single compound is sufficient and necessary for the observed effects is critical for translational claims. Without dose-response and comparative data, the "key ingredient" designation is not justified.
+  - **Resolution test** Provide dose-response curves for ILG in behavioral and cellular assays, compare ILG alone versus full XYS extract, and report ILG content in the preparation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Model validation
+  - **Affected element** Behavioral data
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that XYS and ILG "significantly improved depressive-like behaviors" in two models but does not specify which behavioral tests were used or whether both models showed equivalent effects.
+  - **Required correction** Specify the behavioral assays (e.g., sucrose preference, social interaction, forced swim test) and report effect sizes and statistical comparisons for each model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Cell type specificity
+  - **Affected element** Neural stem cell and microglia findings
+  - **Evidence pointer** Abstract only
+  - **Issue** The dual regulatory effects on neural stem cells and microglia are described as separate observations, but the abstract does not clarify whether these effects are independent or interdependent.
+  - **Required correction** Clarify whether the effects on neural stem cells are direct or mediated by microglial factors, and describe the co-culture design in more detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Phase separated condensates"
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "phase separated condensates" is used without operational definition or criteria for identification.
+  - **Required correction** Define the criteria used to identify condensates (e.g., size, dynamics, sensitivity to 1,6-hexanediol) and cite established methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail or quantitative evidence to support the central causal and mechanistic claims.
+- **Assessment against Nature-style criteria** Originality: The combination of chromatin 3D structure and p65 phase separation in the context of depression is conceptually original. Scientific importance: Potentially high if the mechanism is rigorously established, as it could link environmental stress to epigenetic and transcriptional dysregulation. Interdisciplinary readership: The topic bridges pharmacology, chromatin biology, and neuroscience, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the methods are named but not described, and no data are shown. Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "chromatin 3D structure," "phase separation") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the absence of methodological detail and quantitative data prevents evaluation of the central claims. Supportive if the full manuscript provides rigorous evidence addressing the concerns above.
+
+## Risk / unsupported claims
+- The claim that XYS and ILG "reverse abnormal chromatin 3D structure" is unsupported without quantitative Hi-C data and statistical analysis.
+- The claim that p65 phase separation is pathological and suppressed by XYS and ILG is unsupported without imaging and functional assays.
+- The designation of ILG as a "key ingredient" is unsupported without dose-response and comparative efficacy data.
+- The causal link between chromatin remodeling, p65 phase separation, and behavioral improvement is asserted but not demonstrated.
+- The general statement that the findings "provide a solid experimental foundation" is an overreach given the evidence presented in the abstract.

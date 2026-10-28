@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42145197",
+  "title": "Prediction method for transcription factor binding sites integrating channel and spatial attention mechanisms.",
+  "authors": "Feng, Ji-Hua; Chen, Zhong-Xing; Kang, Qi-Lin; Li, Long-Fei; Yang, Jia-Hui; Zhang, Yu-Ting",
+  "journal": "Yi chuan = Hereditas",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出融合通道与空间注意力机制的深度学习模型，用于跨细胞类型高精度预测转录因子结合位点，核心聚焦TF-DNA互作识别，方法为AI建模，高度匹配本课题。",
+  "abstract": "Accurate identification of transcription factor binding sites (TFBSs) at single-nucleotide resolution remains a central challenge in deciphering gene expression regulatory networks. To improve the performance of existing computational models for predicting TFBSs across different cell types, we presented a deep learning model integrating channel and spatial attention mechanisms. In this study, we trained and tested the model using a comprehensive dataset that included ChIP-seq data from 51 groups, involving 10 core transcription factors (e.g., CTCF, EGR1, FOXA1) across 13 human cell lines (e.g., A549, GM12878, H1-hESC), and DNase-seq data from 13 datasets. The results demonstrated that this model exhibited superior performance across 23 TF-cell type combinations, achieving a mean area under the receiver operating characteristic curve (AUROC) of 0.986, with 91% of samples yielding an AUROC above 0.970. Additionally, the mean area under the precision-recall curve (AUPRC) reached 0.169, over 1,000-fold higher than the random baseline 0.000156. When compared to state-of-the-art models in the field, such as FactorNet, Leopard, and DeepGRN, our model outperformed them in terms of AUROC on nine shared TF-cell type datasets. Visualization analyses further confirmed that our model enabled accurate identification of cell-type-specific TFBSs. This study provides an efficient computational framework for precise cross-cell-type TFBS prediction, thereby facilitating in-depth investigations into gene expression regulatory mechanisms and the molecular pathogenesis of related diseases.",
+  "abstract_zh": "以单核苷酸分辨率精确识别转录因子结合位点（TFBSs）仍是解析基因表达调控网络的核心挑战。为提升现有计算模型在不同细胞类型中预测TFBSs的性能，我们提出了一种整合通道与空间注意力机制的深度学习模型。在本研究中，我们使用包含51组ChIP-seq数据（涉及13种人类细胞系（如A549、GM12878、H1-hESC）中的10个核心转录因子（如CTCF、EGR1、FOXA1））以及13组DNase-seq数据的综合数据集对模型进行了训练和测试。结果表明，该模型在23种转录因子-细胞类型组合中表现出优越性能，平均受试者工作特征曲线下面积（AUROC）达到0.986，其中91%的样本AUROC超过0.970。此外，平均精确率-召回率曲线下面积（AUPRC）达到0.169，比随机基线0.000156高出1000倍以上。与领域内先进模型（如FactorNet、Leopard和DeepGRN）相比，在九个共享的转录因子-细胞类型数据集上，我们的模型在AUROC方面表现更优。可视化分析进一步证实，我们的模型能够准确识别细胞类型特异性的TFBSs。本研究为跨细胞类型精确预测TFBSs提供了一种高效的计算框架，从而有助于深入探究基因表达调控机制及相关疾病的分子发病机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42145197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42145197/",
+  "paper_page_path": "papers/pubmed/42145197/index.html"
+}

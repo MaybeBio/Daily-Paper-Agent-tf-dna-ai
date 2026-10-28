@@ -1,0 +1,319 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.17.562688",
+  "title": "The genetic architecture of protein interaction affinity and specificity",
+  "doi": "10.1101/2023.10.17.562688",
+  "abstract": "Proteins function in crowded cellular environments in which they must bind to specific target proteins but also avoid binding to many other off-target proteins. In large protein families this task is particularly challenging because many off-target proteins have very similar structures. How this specificity of physical protein-protein interactions in cellular networks is encoded and evolves is not very well understood. Here we address the question of specificity-encoding by comprehensively quantifying the effects of all mutations in one protein, JUN, on its binding to all other members of a protein family, the 54 human basic leucine zipper transcription factors. Fitting a global thermodynamic model to the data reveals that most affinity changing mutations equally affect JUN’s propensity to bind to all its interaction partners. Mutations that alter the specificity of binding are much rarer. These specificity-altering mutations are, however, distributed throughout the JUN interaction interface. JUN’s interaction specificity is encoded by both positive determinants that promote on-target interactions and negative determinants that prevent off-target interactions. Indeed, about half of the specificity-defining residues in JUN have dual functions and both promote on-target binding and prevent off-target binding. Whereas nearly all mutations that alter specificity are pleiotropic and also alter the affinity of binding to all interaction partners, the converse is not true with mutations outside of the interface able to tune affinity without affecting specificity. Our results provide the first global view of how mutations in a protein affect binding to all its potential interaction partners and reveal the distributed encoding of specificity and affinity in an interaction interface. They also show how the modular architecture of coiled-coils provides an elegant solution to the challenge of optimising specificity and affinity in a large protein family.",
+  "authors": [
+    "Bendel AM",
+    "Faure AJ",
+    "Klein D",
+    "Shimada K",
+    "Kempf G",
+    "Cavadini S",
+    "Lehner B",
+    "Diss G"
+  ],
+  "published_date": "2023-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562688",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562688.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR745476",
+    "raw_record": {
+      "id": "PPR745476",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR745476"
+        ]
+      },
+      "doi": "10.1101/2023.10.17.562688",
+      "title": "The genetic architecture of protein interaction affinity and specificity",
+      "authorString": "Bendel AM, Faure AJ, Klein D, Shimada K, Kempf G, Cavadini S, Lehner B, Diss G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bendel AM",
+            "lastName": "Bendel",
+            "firstName": "Alexandra",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5266-4675"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                },
+                {
+                  "affiliation": "University of Basel, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Faure AJ",
+            "lastName": "Faure",
+            "firstName": "André",
+            "initials": "AJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4471-5994"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klein D",
+            "lastName": "Klein",
+            "firstName": "Dominique",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shimada K",
+            "lastName": "Shimada",
+            "firstName": "Kenji",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kempf G",
+            "lastName": "Kempf",
+            "firstName": "Georg",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0228-6730"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cavadini S",
+            "lastName": "Cavadini",
+            "firstName": "Simone",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2777-7584"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lehner B",
+            "lastName": "Lehner",
+            "firstName": "Ben",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8817-1124"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Universitat Pompeu Fabra (UPF), Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Wellcome Sanger Institute, Hinxton, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diss G",
+            "lastName": "Diss",
+            "firstName": "Guillaume",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9153-4523"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5266-4675"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9153-4523"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0228-6730"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4471-5994"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8817-1124"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2777-7584"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Proteins function in crowded cellular environments in which they must bind to specific target proteins but also avoid binding to many other off-target proteins. In large protein families this task is particularly challenging because many off-target proteins have very similar structures. How this specificity of physical protein-protein interactions in cellular networks is encoded and evolves is not very well understood. Here we address the question of specificity-encoding by comprehensively quantifying the effects of all mutations in one protein, JUN, on its binding to all other members of a protein family, the 54 human basic leucine zipper transcription factors. Fitting a global thermodynamic model to the data reveals that most affinity changing mutations equally affect JUN’s propensity to bind to all its interaction partners. Mutations that alter the specificity of binding are much rarer. These specificity-altering mutations are, however, distributed throughout the JUN interaction interface. JUN’s interaction specificity is encoded by both positive determinants that promote on-target interactions and negative determinants that prevent off-target interactions. Indeed, about half of the specificity-defining residues in JUN have dual functions and both promote on-target binding and prevent off-target binding. Whereas nearly all mutations that alter specificity are pleiotropic and also alter the affinity of binding to all interaction partners, the converse is not true with mutations outside of the interface able to tune affinity without affecting specificity. Our results provide the first global view of how mutations in a protein affect binding to all its potential interaction partners and reveal the distributed encoding of specificity and affinity in an interaction interface. They also show how the modular architecture of coiled-coils provides an elegant solution to the challenge of optimising specificity and affinity in a large protein family.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197593",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "883742",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/20/2023.10.17.562688.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.17.562688"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR745476"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR745476&type=FILE&fileName=EMS189949-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39402041",
+            "reference": "Nature communications. 2024 Oct;15(1):8868",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189949",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-10-22",
+      "firstPublicationDate": "2023-10-20",
+      "firstIndexDate": "2023-10-22",
+      "fullTextReceivedDate": "2023-12-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present structural models of the meiotic Rec114−Mei4 and Mer2 complexes from Saccharomyces cerevisiae, supported by AlphaFold predictions, NMR spectroscopy, SAXS, and mutagenesis. They propose that Rec114−Mei4 forms a heterotrimer with two DNA-binding sites driving condensation, that Mer2 forms a parallel homotetrameric coiled coil with DNA-bridging activity, and that these structural features are conserved across eukaryotes while DNA-binding properties vary. They suggest a model where Mer2 condensation is the primary driver of meiotic DSB machinery assembly, with Rec114−Mei4 playing a supportive role.
+- **Visible evidence base** Abstract, Introduction, Results sections (text only), Discussion, Materials and Methods, figure legends referenced but figures not provided, supplementary figure/table references
+- **Missing materials affecting confidence** Figures and supplementary figures/tables are referenced but not provided; raw NMR data, SAXS curves, SEC-MALS elution profiles, AFM images, and gel-shift data are not directly assessable; specific numerical values for binding affinities and structural parameters are not fully detailed in text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in meiosis research, namely the structure and function of the Rec114−Mei4 and Mer2 complexes that are essential for Spo11-dependent DNA double-strand break formation. The authors combine computational prediction with biochemical and biophysical validation, which is a commendable approach. The central claims regarding the architecture of these complexes and their DNA-binding properties are plausible and potentially significant. However, the manuscript as presented has several limitations that prevent full assessment. The absence of the actual figures and supplementary data makes it impossible to evaluate the quality of the experimental evidence. The text alone cannot support the strength of the conclusions drawn, particularly regarding the conservation claims and the functional model proposed. The finding that the previously proposed antiparallel model for Mer2 is incorrect and that a parallel homotetramer is the correct architecture is potentially important, but the evidence presented in text form is insufficient to fully establish this. The manuscript would benefit from clearer presentation of quantitative data and a more nuanced discussion of the limitations of AlphaFold predictions in the absence of high-resolution experimental structures.
+- **Who would be interested in the results, and why** Researchers in the fields of meiosis, chromosome biology, DNA repair, and recombination would find this work of interest. The structural insights into the Rec114−Mei4 and Mer2 complexes are relevant to understanding how Spo11-mediated DSB formation is regulated and how these complexes assemble at recombination hotspots. Additionally, the demonstration of a conserved architecture across eukaryotes, despite low sequence conservation, is of interest to evolutionary biologists studying protein structure-function relationships. The methodological approach combining AlphaFold with biophysical validation may also interest structural biologists working on challenging protein complexes that resist traditional structure determination methods.
+- **Major strengths** The combination of multiple complementary techniques (AlphaFold, NMR, SAXS, SEC-MALS, AFM, mutagenesis) to address the structure and function of these complexes is a significant strength. The use of experimental data to validate computational predictions is commendable. The evolutionary analysis across multiple species, including yeast, mouse, plants, and fission yeast, provides a broad perspective on conservation. The revision of the previously proposed antiparallel model for Mer2 to a parallel homotetramer is an important contribution. The functional experiments linking DNA-binding properties to in vivo phenotypes, such as spore viability, strengthen the biological relevance of the structural findings.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Evidence sufficiency
+- **Claim pointer** The authors claim that NMR spectroscopy and SAXS data "strongly support" the AlphaFold models of the Rec114−Mei4 complex and the parallel homotetrameric Mer2 coiled coil.
+- **Evidence pointer** Results sections "Structure of a minimal Rec114−Mei4 complex" and "Structural model of Mer2 homotetramers"; Figures 1 and 4; Supplemental Figures S1, S2, S5
+- **Concern** The manuscript text describes the NMR and SAXS results but the actual data are not provided in the text. The claim that these data "strongly support" the models cannot be evaluated without seeing the spectra, chemical shift assignments, NOE distance restraints, SAXS curves, and goodness-of-fit parameters. For NMR, the authors report 13 unambiguous NOEs, which is a relatively small number for validating a protein complex structure. For SAXS, the discrimination between parallel and antiparallel models based on scattering profiles needs to be demonstrated with quantitative comparison metrics. The text alone is insufficient to assess whether the experimental data truly distinguish between alternative models.
+- **Why it matters** The central structural claims of the manuscript rest on the validation of AlphaFold predictions by experimental data. If the experimental support is weak or ambiguous, the structural conclusions are not firmly established. This is particularly important given that AlphaFold predictions, while often accurate, can be incorrect for protein complexes and for regions of conformational flexibility.
+- **Resolution test** Provide the actual NMR spectra with assigned resonances, the complete list of NOE restraints with distance ranges, and a quantitative comparison between experimental and predicted chemical shifts. For SAXS, provide the experimental scattering curves with error bars, the calculated curves from the models, and the chi-squared values for both parallel and antiparallel models. Show that the parallel model fits significantly better than the antiparallel model.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Functional significance
+- **Claim pointer** The authors claim that the two DNA-binding sites in the Rec114−Mei4 complex drive condensation and that this is important for DSB formation, but that DNA-binding activity is not essential based on spore viability of mutants.
+- **Evidence pointer** Results section "Rec114−Mei4 heterotrimers have two duplex-DNA binding sites"; Figures 3 and 6; Supplemental Figures S4, S12
+- **Concern** The manuscript reports that mutations in the DNA-binding sites (4KR, 6KR, 8KR) do not completely abolish Rec114 function in vivo, as determined by spore viability. In fact, increasing the number of mutations increases spore viability, which is described as "astonishing." This result is counterintuitive and requires a more detailed explanation. The text suggests a possible regulatory function but does not provide experimental evidence for this. The relationship between in vitro DNA-binding activity, condensation, and in vivo function is not clearly established. The finding that mutants with reduced DNA binding have improved spore viability could indicate that the DNA-binding activity is inhibitory in some contexts, or it could reflect compensatory mechanisms that are not discussed.
+- **Why it matters** The functional model proposed in the manuscript depends on the relationship between DNA binding, condensation, and DSB formation. If the DNA-binding mutants do not show the expected defects in vivo, the model that condensation driven by multivalent DNA-binding is essential for DSB formation is weakened. The manuscript needs to address this discrepancy more thoroughly.
+- **Resolution test** Provide a more detailed analysis of the in vivo phenotypes, including DSB formation levels in the mutant strains, not just spore viability. Discuss potential explanations for the unexpected results, such as redundancy with other DNA-binding domains or context-dependent effects. Consider whether the in vitro condensation assays accurately reflect the in vivo situation.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Conservation claims
+- **Claim pointer** The authors claim that the structure of Rec114−Mei4 and Mer2 complexes is conserved across eukaryotes, while DNA-binding properties vary significantly.
+- **Evidence pointer** Results sections "Conservation of Rec114−Mei4 structure and DNA-binding properties" and "Conservation of Mer2 structure and DNA-binding properties"; Figures 6 and 7; Supplemental Figures S8-S18
+- **Concern** The conservation analysis relies heavily on AlphaFold predictions for orthologs from M. musculus, S. pombe, A. thaliana, and Z. mays. While AlphaFold is a powerful tool, the confidence in cross-species predictions varies, and the manuscript does not provide a systematic assessment of prediction confidence for each ortholog. The experimental validation is limited to a few selected orthologs, and the DNA-binding assays show significant variability between species. The claim of structural conservation is based on predicted models, not experimental structures, and the functional significance of the observed variations in DNA-binding properties is not fully explored.
+- **Why it matters** The evolutionary conservation claims are a key part of the manuscript's significance. If the structural predictions are not reliable for all orthologs, or if the functional variations are not well characterized, the conclusions about conservation may be overstated.
+- **Resolution test** Provide prediction confidence scores (e.g., pLDDT, PAE) for each ortholog model. For the orthologs where experimental data are available, show that the predicted models are consistent with the experimental results. Discuss the functional implications of the observed variations in DNA-binding properties in the context of each species' biology.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Abstract and Discussion
+- **Evidence pointer** Abstract, Discussion section
+- **Issue** The abstract states that "the structure of Rec114−Mei4 and Mer2 are conserved across eukaryotes, while DNA-binding properties vary significantly." This is a strong claim that is not fully supported by the data presented, as the DNA-binding assays were only performed for a limited number of orthologs and showed variable results. The Discussion section could more clearly acknowledge the limitations of the conservation analysis.
+- **Required correction** Soften the language in the abstract to reflect the preliminary nature of the conservation analysis, such as "predicted to be conserved" or "suggesting conservation." In the Discussion, explicitly state the limitations of the cross-species analysis and the need for experimental validation in additional species.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Methodology
+- **Affected element** Materials and Methods, NMR section
+- **Evidence pointer** Materials and Methods, "Nuclear Magnetic Resonance (NMR) spectroscopy" section
+- **Concern** The NMR section describes the assignment process but does not provide details on the completeness of the assignments, the number of assigned residues, or the quality of the spectra. The statement that "NMR analyses did not allow us to determine the structure of the complexes de novo" is vague and could be interpreted as a limitation of the data quality.
+- **Required correction** Provide statistics on the percentage of backbone and side-chain assignments completed, the number of NOE-derived distance restraints per residue, and any relevant quality metrics for the NMR data. Clarify why de novo structure determination was not possible and how the data were used to validate the AlphaFold models.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Data presentation
+- **Affected element** Results section "Rec114−Mei4 heterotrimers have two duplex-DNA binding sites"
+- **Evidence pointer** Figure 3, Supplemental Figure S4
+- **Issue** The text describes gel-shift assays and competition experiments but does not provide quantitative binding affinities or dissociation constants. The statement that Rec114−Mei4 binds "preferentially" to branched DNA substrates is not supported by numerical data in the text.
+- **Required correction** Include quantitative binding data, such as apparent Kd values or fold-differences in binding affinity between different DNA substrates, either in the text or in the figure legends. This would strengthen the claim of preferential binding to branched substrates.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Interpretation
+- **Affected element** Discussion section, "A model for Mer2-mediated condensation"
+- **Evidence pointer** Discussion section, Supplemental Figure S19
+- **Concern** The proposed model for Mer2-mediated condensation relies on the assumption that the coiled-coil domain bridges co-aligned DNA duplexes through electrostatic interactions. While this is a plausible model, the manuscript does not provide direct evidence for this bridging mechanism, and the AFM images are not shown in the text.
+- **Required correction** Provide the AFM images and a more detailed description of the bridging activity observed. Discuss alternative models for how the coiled-coil domain interacts with DNA and how the proposed mechanism could be tested experimentally.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Literature context
+- **Affected element** Introduction and Discussion
+- **Evidence pointer** Introduction, Discussion
+- **Issue** The manuscript cites relevant literature but does not fully contextualize the findings within the broader field of meiotic DSB formation. For example, the relationship between the proposed condensation model and other models of DSB machinery assembly is not discussed in detail.
+- **Required correction** Add a brief discussion of how the proposed model compares to and integrates with existing models of meiotic DSB formation, including the roles of other proteins such as Spo11, Rad50, and Mre11.
+
+## Risk / unsupported claims
+- The claim that NMR and SAXS data "strongly support" the AlphaFold models is not assessable without the actual data.
+- The claim that the structure of Rec114−Mei4 and Mer2 is conserved across eukaryotes is based primarily on AlphaFold predictions without experimental validation for most orthologs.
+- The claim that DNA-binding properties vary significantly between orthologs is based on limited experimental data and may be overstated.
+- The functional model proposing that Mer2 condensation is the essential driver of DSB machinery assembly, with Rec114−Mei4 playing a supportive role, is not fully supported by the in vivo data presented, particularly the unexpected spore viability results with DNA-binding mutants.
+- The claim that the two DNA-binding sites in Rec114−Mei4 drive condensation is based on in vitro experiments with mutant proteins, but the in vivo relevance of this finding is not clearly established.

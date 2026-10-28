@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "38554552",
+    "doi": "10.1016/j.ejso.2024.108311",
+    "title": "Are biomarkers expression and clinical-pathological factors predictive markers of the efficacy of neoadjuvant chemotherapy for locally advanced cervical cancer?"
+  },
+  "content": {
+    "abstract": "INTRODUCTION: To predict the overall pathologic response to neoadjuvant chemotherapy (NACT) of patients with locally advanced cervical cancer (LACC) creating a prediction model based on clinical-pathological factors and biomarkers (p53, Bcl1 and Bcl2) and to evaluate the prognostic outcomes of NACT. MATERIALS AND METHODS: This is a retrospective study of 88 consecutive patients with LACC who underwent NACT followed by nerve sparing surgery with retroperitoneal lymphadenectomy at National Cancer Institute of Milan, between January 2000 and June 2013. Clinical pathologic data were retrieved from the institutional database. Biomarkers (p53, Bcl1 and Bcl2) were evaluated before and after NACT in the specimen. To investigate their role as predictors of response, we tried several statistical machine learning algorithms. RESULTS: Responders to NACT showed a 5-years survival between 100%(CR) and 85.7%(PR). Clinical factors were the most important predictor of response. Age, BMI and grade represented the most important predictors of response at random forest analysis. Tree-based boosting revealed that after adjusting for other prognostic factors, age, grade, BMI and tumor size were independent predictors of response to NACT, while p53 was moderately related to response to NACT. Area under the curve (crude estimate): 0.871. Whereas Bcl1 and Bcl2, were not predictors for response to NACT. The final logistic regression reported that grade was the only significant predictor of response to NACT. CONCLUSION: Combined model that included clinical pathologic variables plus p53 cannot predict response to NACT. Despite this, NACT remain a safe treatment in chemosensitive patients avoiding collateral sequelae related to chemo-radiotherapy.",
+    "keywords": [
+      "Cervical cancer",
+      "LACC",
+      "Locally advanced cervical cancer",
+      "NACT",
+      "Neoadjuvant chemotherapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/pathology/therapy/drug therapy/metabolism",
+      "*Neoadjuvant Therapy",
+      "Middle Aged",
+      "Retrospective Studies",
+      "*Biomarkers, Tumor/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Adult",
+      "Aged",
+      "Proto-Oncogene Proteins c-bcl-2/metabolism",
+      "Prognosis",
+      "Neoplasm Staging",
+      "Chemotherapy, Adjuvant",
+      "Lymph Node Excision",
+      "Treatment Outcome",
+      "Antineoplastic Combined Chemotherapy Protocols/therapeutic use",
+      "Neoplasm Grading",
+      "Survival Rate"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ditto, Antonino",
+        "Longo, Mariangela",
+        "Chiarello, Giulia",
+        "Mariani, Luigi",
+        "Paolini, Biagio",
+        "Leone Roberti Maggiore, Umberto",
+        "Martinelli, Fabio",
+        "Bogani, Giorgio",
+        "Raspagliesi, Francesco"
+      ],
+      "short_names": [
+        "Ditto A",
+        "Longo M",
+        "Chiarello G",
+        "Mariani L",
+        "Paolini B",
+        "Leone Roberti Maggiore U",
+        "Martinelli F",
+        "Bogani G",
+        "Raspagliesi F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy. Electronic address: dittotony@hotmail.com.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Statistics Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Pathology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy.",
+        "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ditto, Antonino",
+        "short_name": "Ditto A",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy. Electronic address: dittotony@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Longo, Mariangela",
+        "short_name": "Longo M",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Chiarello, Giulia",
+        "short_name": "Chiarello G",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mariani, Luigi",
+        "short_name": "Mariani L",
+        "identifiers": [],
+        "affiliations": [
+          "Statistics Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Paolini, Biagio",
+        "short_name": "Paolini B",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Leone Roberti Maggiore, Umberto",
+        "short_name": "Leone Roberti Maggiore U",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Martinelli, Fabio",
+        "short_name": "Martinelli F",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bogani, Giorgio",
+        "short_name": "Bogani G",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Raspagliesi, Francesco",
+        "short_name": "Raspagliesi F",
+        "identifiers": [],
+        "affiliations": [
+          "Gynecological Oncology Department, Fondazione IRCCS Istituto Dei Tumori, Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology"
+    ],
+    "journal_abbrev": [
+      "Eur J Surg Oncol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/31 00:42",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42558587",
+      "40441737"
+    ],
+    "refs": [],
+    "similar": [
+      "38554552",
+      "26222484",
+      "29747270",
+      "26268452",
+      "26905330",
+      "27350066",
+      "26825842",
+      "24342439",
+      "32892198",
+      "35996118",
+      "29851821",
+      "36370209",
+      "29787015",
+      "21330834",
+      "33392721",
+      "22265255",
+      "21880186",
+      "32386022",
+      "40251501",
+      "36471257",
+      "37335690",
+      "23141176",
+      "29753611",
+      "40302100",
+      "24096111",
+      "21741694",
+      "19407570",
+      "21815150",
+      "18606439",
+      "24589412",
+      "28774279",
+      "37253491",
+      "31550774",
+      "11967899",
+      "26825826",
+      "22481620",
+      "25859857",
+      "15539913",
+      "33289585",
+      "38828494",
+      "32915266",
+      "31424649",
+      "27314292",
+      "26261578",
+      "27678502",
+      "35994243",
+      "25890492",
+      "25867278",
+      "18380893",
+      "27577931",
+      "32072387",
+      "31648443",
+      "26637198",
+      "31898673",
+      "23122543",
+      "33342807",
+      "30474571",
+      "37857565",
+      "22623692",
+      "38570232",
+      "23970155",
+      "41779340",
+      "16952434",
+      "23771556",
+      "41537197",
+      "37093455",
+      "31574835",
+      "39004706",
+      "31395503",
+      "21377101",
+      "17206484",
+      "33419848",
+      "38555423",
+      "10565159",
+      "20686381",
+      "24063966",
+      "36641433",
+      "37752528",
+      "36652730",
+      "26115978",
+      "39342592",
+      "29848719",
+      "38138250",
+      "39205559",
+      "16185756",
+      "28574931",
+      "25328994",
+      "40323553",
+      "26597364",
+      "20058210",
+      "38929488",
+      "31310455",
+      "27247200",
+      "26715276",
+      "20150636",
+      "23353129",
+      "20944162",
+      "25380690",
+      "16640856",
+      "39696095"
+    ],
+    "review": [
+      "38554552",
+      "35994243"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0748-7983(24)00363-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0748-7983(24)00363-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

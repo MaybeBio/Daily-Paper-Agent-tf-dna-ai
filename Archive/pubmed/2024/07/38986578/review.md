@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplemental figure/table references
+- **Assessment boundary** Technical soundness, methodological novelty, validation rigor, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors present Allo, a tool that allocates multimapped reads (MMRs) in short-read sequencing data by combining probabilistic read allocation with a convolutional neural network (CNN) that assesses peak-like read distributions. They claim improved accuracy over read count-only and random allocation methods, discovery of thousands of new transcription factor (TF) binding sites in repetitive regions, and broad applicability across ChIP-seq, ATAC-seq, and DNase-seq data.
+- **Visible evidence base** Main figures 1-7 (referenced), supplemental figures S1-S7 (referenced), supplemental tables S1-S8 (referenced), methods descriptions, and software availability
+- **Missing materials affecting confidence** Actual figure images, supplemental data files, code repository contents, and detailed CNN architecture specifications are not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant gap in regulatory genomics by enabling analysis of repetitive regions through MMR allocation. The methodological combination of probabilistic allocation with CNN-based peak detection is conceptually sound and the results are promising. However, several technical details and validation aspects require clarification or additional evidence to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers studying gene regulation in repetitive elements, transposable element biology, chromatin structure at centromeres and segmental duplications, and those developing or using ChIP-seq/ATAC-seq analysis pipelines. The tool's compatibility with existing workflows makes it broadly applicable.
+- **Major strengths** 1) Addresses a well-recognized limitation in standard pipelines by rescuing MMRs. 2) Provides a user-friendly, open-source tool with read-level output compatible with existing peak callers. 3) Demonstrates biological relevance through CTCF analysis and large-scale ENCODE application. 4) Includes comparative validation against multiple allocation strategies.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Allo combines probabilistic mapping of multimapped reads with a convolutional neural network that recognizes the read distribution features of potential peaks, offering enhanced accuracy in multimapping read assignment."
+  - **Evidence pointer** Methods section "CNN architecture and training", Figure 2
+  - **Concern** The CNN architecture is described only at a high level. Specific details such as the number of layers, filter sizes, pooling strategies, and training hyperparameters are not provided. The rationale for choosing 100x100 pixel images and the specific training data augmentation strategies are unclear.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without detailed architecture and training specifications, other researchers cannot replicate or adapt the method, and the robustness of the CNN component cannot be independently assessed.
+  - **Resolution test** Provide a complete description of the CNN architecture, training procedure, and hyperparameters in the methods or supplemental material. Include a diagram of the network structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** "Allo had similar or lower percentage error in allocated read depth at peaks on all but three of the 38 tested data sets" (comparison with SmartMap).
+  - **Evidence pointer** Figure 4, Methods section "SmartMap comparison"
+  - **Concern** The comparison with SmartMap is limited to read depth at peaks, not per-read allocation accuracy. The authors acknowledge they could not compare per-read accuracy due to SmartMap's output format. This limits the strength of the claim that Allo is more accurate than SmartMap.
+  - **Why it matters** Read depth at peaks is an indirect metric. Per-read accuracy is the gold standard for allocation methods. Without this comparison, the superiority claim over SmartMap is not fully established.
+  - **Resolution test** Develop a method to compare per-read allocation accuracy, or clearly state this limitation and temper the claim accordingly. Alternatively, provide additional validation metrics such as motif enrichment or biological replication consistency.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Allo's neural network takes the form of a CNN that is trained on images of UMR distributions at peaks" and "the CNN's convolutional layer to find shape-related features at peaks without dependence on ChIP-seq signal levels."
+  - **Evidence pointer** Methods section "CNN training and testing set generation", Figure 2
+  - **Concern** The claim that the CNN is independent of signal levels is not fully supported. The training images are generated from read counts, which are inherently signal-dependent. The normalization procedure to achieve signal independence is not described in detail.
+  - **Why it matters** If the CNN is sensitive to signal levels, it may perform poorly on low-quality or low-depth datasets, limiting its generalizability.
+  - **Resolution test** Describe the exact normalization procedure used to generate training images. Provide validation on datasets with varying signal-to-noise ratios to demonstrate signal independence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Allo may be particularly beneficial in identifying ChIP-seq peaks at centromeres, near segmentally duplicated genes, and in younger TEs, enabling new regulatory analyses in these regions."
+  - **Evidence pointer** Figure 7, Supplemental Figures S6, S7
+  - **Concern** The biological significance of the newly discovered peaks is not deeply explored. While the authors show enrichment in certain repeat classes, they do not validate a subset of these peaks experimentally or through orthogonal assays (e.g., CRISPR, reporter assays, or independent ChIP-seq replicates).
+  - **Why it matters** The claim of "enabling new regulatory analyses" implies biological relevance. Without functional validation, the peaks could be artifacts of the allocation method.
+  - **Resolution test** Provide experimental validation for a subset of novel peaks, or clearly state that functional validation is beyond the scope and suggest it as future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The schematic in Figure 1B-C is described in text but the actual figure is not available for review. The description of the algorithm workflow could be clearer for nonspecialist readers.
+  - **Required correction** Ensure the figure clearly illustrates the two-phase allocation process and the role of the CNN. Add a step-by-step legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Allo allocation algorithm"
+  - **Evidence pointer** Methods section "Allo allocation algorithm"
+  - **Issue** The pseudocode or detailed algorithmic steps for the allocation process are not provided. The description is narrative and lacks specific implementation details.
+  - **Required correction** Provide pseudocode or a detailed algorithm box in the methods or supplemental material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Software availability section
+  - **Issue** The version of Allo used is archived as Supplemental Code, but the specific version number or commit hash is not mentioned.
+  - **Required correction** Specify the exact version or commit hash of Allo used in the study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The statistical significance of the enrichment of novel peaks in specific repeat classes is not described. It is unclear if the enrichment is beyond what would be expected by chance.
+  - **Required correction** Provide statistical tests (e.g., Fisher's exact test, permutation test) for the enrichment analyses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Read allocation accuracy"
+  - **Evidence pointer** Methods section "Read allocation accuracy"
+  - **Issue** The method for creating ground-truth MMRs by artificially shortening reads may not fully recapitulate the properties of naturally occurring MMRs, particularly in complex repetitive regions.
+  - **Required correction** Discuss this limitation and, if possible, validate on a dataset with known true MMR locations (e.g., simulated data with known repeat structure).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (CNN architecture details), R1-M2 (per-read accuracy comparison with SmartMap)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The combination of probabilistic allocation with CNN-based peak detection is novel and addresses a clear gap.
+  - **Scientific importance** High. Repetitive regions are understudied in regulatory genomics, and this tool could enable new discoveries.
+  - **Interdisciplinary readership** Moderate. Primarily relevant to computational biologists and genomics researchers, but the biological findings could attract a broader audience.
+  - **Technical soundness** Moderate. The approach is promising but requires more detailed validation and methodological transparency.
+  - **Readability for nonspecialists** Good. The manuscript is generally well-written and the concepts are explained clearly, though some figure descriptions could be improved.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the results are promising, but the CNN architecture details and the per-read accuracy comparison with SmartMap need to be addressed to fully establish the claims.
+
+## Risk / unsupported claims
+- The claim that Allo "offers enhanced accuracy in multimapping read assignment" is supported by the read depth comparison but not by per-read accuracy comparison with SmartMap.
+- The claim that the CNN is "without dependence on ChIP-seq signal levels" is not fully supported by the provided evidence.
+- The biological significance of novel peaks at centromeres and segmental duplications is suggested but not functionally validated.
+- The performance of Allo on ATAC-seq and DNase-seq data is mentioned but not thoroughly evaluated in the main text.

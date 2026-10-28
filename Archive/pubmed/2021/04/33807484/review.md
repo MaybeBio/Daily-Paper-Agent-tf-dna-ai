@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure references.
+- **Assessment boundary** Evaluation of the scientific claims, methodology, and evidence presented in the manuscript as provided. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose a structural model for the N-terminal homodimerization of the BCL11B transcription factor, mediated by an atypical CCHC-type zinc finger domain. They combine homology modeling, enhanced sampling molecular dynamics (TIGER2hs), and FACS-FRET experiments to identify key residues involved in dimer formation and validate their computational predictions.
+- **Visible evidence base** Abstract, full text sections (Introduction, Results and Discussion, Conclusions, Methods), figure references (Figures 1–5), and literature citations.
+- **Missing materials affecting confidence** No supplementary data, structural coordinates, simulation trajectories, or raw FACS-FRET datasets were provided. Figure panels are referenced but not shown in the supplied text. Details on force field validation, convergence criteria, and statistical analysis of experimental replicates are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question regarding the dimerization mechanism of BCL11B, a transcription factor with established roles in development and disease. The combination of computational and experimental approaches is commendable and aligns with modern structural biology practice. However, several technical aspects of the simulation methodology, the interpretation of the FRET data, and the strength of the structural claims require clarification and additional evidence before the conclusions can be fully supported. The work is likely of interest to researchers in computational biophysics, zinc finger biology, and transcriptional regulation, but the current presentation does not yet establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers studying zinc finger protein structure and function, particularly those interested in atypical zinc finger domains and protein-protein interactions. Computational biophysicists developing and applying enhanced sampling methods for protein folding and binding will also find the methodological aspects relevant. Additionally, investigators working on BCL11B in the context of T-cell development, leukemia, and other diseases may be interested in the potential therapeutic implications of targeting this dimerization interface.
+- **Major strengths** The study addresses a biologically relevant question with a clear rationale. The combination of multiple computational techniques (homology modeling, TIGER2hs enhanced sampling, alanine scanning) with experimental validation (FACS-FRET) is a strong approach. The identification of specific hydrophobic residues (L67, I70, I74) as key mediators of dimerization provides a testable hypothesis. The use of a hybrid solvent scheme to reduce computational cost while retaining explicit solvation is a thoughtful methodological choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation methodology
+  - **Claim pointer** The authors claim that TIGER2hs simulations "exhaustively explore the dimer configuration space" and that the resulting free energy landscapes identify stable dimer conformations.
+  - **Evidence pointer** Section 2.3, Section 2.5, Section 4.5
+  - **Concern** The manuscript does not provide sufficient evidence for convergence of the TIGER2hs simulations. No convergence metrics (e.g., time evolution of free energy estimates, replica exchange acceptance rates, or block analysis) are reported. The claim of exhaustive exploration is therefore not substantiated. Additionally, the use of only 11 replicas for the dimer simulations (Section 4.5) with a temperature range of 280–450 K may be insufficient for adequate sampling, especially given the large system size (8 nm cubic box).
+  - **Why it matters** Without demonstrated convergence, the free energy landscapes and the identified minimum structures may not represent the true equilibrium ensemble. This directly affects the validity of the structural model and the interpretation of residue contributions to dimerization.
+  - **Resolution test** Provide convergence analysis (e.g., cumulative free energy estimates, replica exchange statistics, or multiple independent runs) demonstrating that the sampled ensemble is stable and reproducible. If necessary, increase the number of replicas or simulation length and show that results are unchanged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and data interpretation
+  - **Claim pointer** The authors state that FACS-FRET measurements confirm the importance of specific residues for dimerization and that the computational predictions are in "good agreement" with experimental results.
+  - **Evidence pointer** Section 2.4, Section 4.8, Figure 4
+  - **Concern** The FACS-FRET data are described qualitatively, but no quantitative results (e.g., FRET efficiencies, statistical comparisons, or dose-response curves) are presented. The manuscript states that "at least 5 replicates were performed" but does not report error bars, significance tests, or a clear threshold for positive versus negative dimerization. The interpretation of "medium FRET signal" for L71A|V72A is subjective without defined criteria.
+  - **Why it matters** The experimental data are central to validating the computational model. Without quantitative analysis and clear statistical treatment, the agreement between predictions and experiments cannot be rigorously assessed, and the conclusions regarding residue importance are not firmly established.
+  - **Resolution test** Provide quantitative FRET data with appropriate statistical analysis (e.g., mean ± SD, p-values) for all constructs tested. Define a clear cutoff for positive dimerization and show that the results are reproducible across replicates and conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural model validation
+  - **Claim pointer** The authors propose a specific homodimer model with a defined interface and orientation, based on homology modeling and simulation refinement.
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 2.3, Figures 1–3
+  - **Concern** The structural model is derived from a single homology model template (1FU9) with no discussion of template quality, sequence identity, or alternative models. The extension of the N-terminal region as disordered coil and subsequent folding during simulation is not validated against any experimental structural data (e.g., NMR, crystallography, or SAXS). The final model is not deposited or made available for independent assessment.
+  - **Why it matters** The reliability of the proposed dimer structure depends on the accuracy of the initial model and the sampling protocol. Without validation against experimental structural data or comparison with alternative modeling approaches, the specific atomic-level details of the interface remain uncertain.
+  - **Resolution test** Provide a more detailed assessment of the homology model quality (e.g., QMEAN, ProSA, or similar scores). Consider generating and comparing multiple models from different templates or using ab initio methods. If possible, validate the model against experimental data (e.g., mutagenesis data beyond FRET, cross-linking, or small-angle scattering).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section, simulation parameters
+  - **Evidence pointer** Section 4.2, Section 4.3, Section 4.4
+  - **Issue** The manuscript does not specify the exact version of the TIGER2hs code used, nor does it provide input files or a detailed description of the replica exchange protocol (e.g., exchange attempt frequency, temperature spacing, or criteria for choosing the number of replicas). The force field parameters for the zinc ion are not described in detail.
+  - **Required correction** Provide a more detailed description of the simulation protocol, including software versions, parameter files, and a link to any custom code or scripts. Specify the zinc ion parameters and how they were validated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures and results
+  - **Evidence pointer** Figures 1–5
+  - **Issue** The figures are referenced but not shown in the supplied text. It is unclear whether the free energy landscapes, structural models, and FRET data are presented clearly and with appropriate labels. The manuscript mentions "mode2" in Section 2.5 without defining what this refers to.
+  - **Required correction** Ensure all figures are self-explanatory with clear labels, legends, and scale bars. Define all terms such as "mode2" when first used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1.1, Section 1.2, Section 1.3
+  - **Issue** The introduction provides a broad overview of BCL11B and enhanced sampling methods but does not sufficiently contextualize the specific novelty of the current work relative to previous studies on BCL11B dimerization or zinc finger dimerization in general. The claim that this is the "first attempt to apply TIGER2h for protein-protein docking" is stated without comparison to other enhanced sampling approaches applied to similar problems.
+  - **Required correction** Expand the discussion of prior work on BCL11B structure and dimerization, and compare the TIGER2h approach with other methods (e.g., metadynamics, accelerated MD) in terms of advantages and limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation convergence), R1-M2 (quantitative FRET analysis), R1-M3 (structural model validation).
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of TIGER2h to protein-protein docking is a novel methodological contribution, and the identification of a specific dimerization interface in BCL11B is a new finding. However, the overall concept of zinc finger dimerization is not entirely new, and the originality is somewhat tempered by the lack of comparison with alternative approaches.  
+  - **Scientific importance** The work has potential importance for understanding BCL11B function and for therapeutic targeting, but the significance is not fully established given the technical concerns. The biological implications are discussed but not deeply explored.  
+  - **Interdisciplinary readership** The topic bridges computational biophysics, structural biology, and molecular biology, and would appeal to a broad audience if the methods and results are presented clearly. However, the current level of technical detail may be challenging for non-specialists.  
+  - **Technical soundness** The methodology is generally sound in concept, but the lack of convergence analysis, quantitative experimental data, and model validation undermines the technical rigor.  
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but includes jargon and technical details that may obscure the main message for a general scientific audience. The abstract is clear, but the results section could benefit from more accessible explanations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and approach are promising, and the combination of computational and experimental methods is appropriate. However, the current evidence does not fully support the claims of exhaustive sampling, quantitative agreement with experiments, and a validated structural model. Addressing the major concerns would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that TIGER2hs simulations "exhaustively explore the dimer configuration space" is unsupported without convergence analysis.
+- The statement that computational predictions are in "good agreement" with FACS-FRET results is not quantitatively substantiated.
+- The proposed structural model is presented as definitive, but it is not validated against independent experimental structural data or alternative modeling approaches.
+- The claim that this is the "first attempt to apply TIGER2h for protein-protein docking" is not verifiable from the provided material and may be overstated without a comprehensive literature search.
+- The biological significance of the dimerization interface for BCL11B function is discussed but not experimentally tested (e.g., functional assays in cells).

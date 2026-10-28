@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "38815767",
+    "doi": "10.1016/j.trim.2024.102066",
+    "title": "Transcriptomics-based exploration of shared M1-type macrophage-related biomarker in acute kidney injury after kidney transplantation and acute rejection after kidney transplantation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Macrophage type 1 (M1) cells are associated with both acute kidney injury (AKI) during kidney transplantation and acute rejection (AR) after kidney transplantation. Our study explored M1-related biomarkers involved in both AKI and AR and their potential biological functions. METHODS: Based on the Gene Expression Omnibus (GEO) database, the immune cell infiltration levels and differentially expressed genes were examined in AKI and AR in the kidney transplantation; M1-related genes shared in AKI and AR were identified using weighted gene co-expression analysis (WGCNA) system. Subsequently, protein-protein interaction (PPI) networks and machine learning methods to identify Hub genes and construct diagnostic models. Both AKI model and AR rat models were built to validate the expressions of Hub genes and test the injury phenotype, oxidative stress markers, and inflammatory factors. Finally, the transcription factor (TF)-Hub gene and micro-RNA (miRNA)-Hub gene regulatory networks were constructed based on identified Hub genes. RESULTS: Out of 2167 differential expression genes (DEGs) in AKI and 2100 DEGs in AR, four M1-related Hub genes were obtained by PPI networks and machine learning methods, namely GBP2, TYROBP, CCR5, and TLR8. The calibration curves in the nomogram diagnostic model for these four Hub genes suggested the same predictive probability as an ideal model for AKI and AR after kidney transplantation (AUC values of the area under the ROC curve were all >0.7). The same observations were confirmed in ischemia reperfusion injury (IRI) and AR rat models by identifying common four Hub genes (GBP2, TYROBP, TLR8, and CCR5). Western blots showed that these four Hub genes were significantly different in rat models of IRI and AR (all p<0.05). Compared with the control group, IRI and AR groups showed aggravated histopathological damage and increased secretion of oxidative stress markers and inflammatory factors in rat kidneys (all p<0.05). Finally, TF-Hub and miRNA-Hub gene regulatory networks were constructed to provide a theoretical basis for the regulation of Hub genes. CONCLUSION: We identified four macrophage M1-related Hub genes shared among AKI and AR after kidney transplantation. These genes may be considered for diagnosis of AKI and AR after kidney transplantation.",
+    "keywords": [
+      "Acute kidney injury (AKI)",
+      "Acute rejection (AR)",
+      "Immune infiltration",
+      "Kidney transplantation",
+      "Macrophage M1"
+    ],
+    "mesh_terms": [
+      "*Kidney Transplantation",
+      "*Acute Kidney Injury/genetics/diagnosis",
+      "Animals",
+      "*Graft Rejection/diagnosis/genetics",
+      "Rats",
+      "*Biomarkers/metabolism",
+      "Humans",
+      "Male",
+      "Transcriptome",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "Disease Models, Animal",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Macrophages/immunology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Jun",
+        "Zhang, Jie",
+        "Yu, Chengjun",
+        "Luo, Jin",
+        "Wen, Sheng",
+        "Hua, Yi",
+        "Wei, Guanghui"
+      ],
+      "short_names": [
+        "Pei J",
+        "Zhang J",
+        "Yu C",
+        "Luo J",
+        "Wen S",
+        "Hua Y",
+        "Wei G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China. Electronic address: huayi_workmail@hospital.cqmu.edu.cn.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China. Electronic address: u806806@cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Jun",
+        "short_name": "Pei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chengjun",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jin",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Sheng",
+        "short_name": "Wen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Yi",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China. Electronic address: huayi_workmail@hospital.cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghui",
+        "short_name": "Wei G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Chongqing, China; Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, National Clinical Research Center for Child Health and Disorders, China International Science and Technology Cooperation Base of Child Development and Critical Disorders, Children's Hospital of Chongqing Medical University, Chongqing, China; Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, China. Electronic address: u806806@cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Transplant immunology"
+    ],
+    "journal_abbrev": [
+      "Transpl Immunol"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/31 00:42",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "42680946",
+      "42112382",
+      "41535570",
+      "40103812",
+      "39329743"
+    ],
+    "refs": [],
+    "similar": [
+      "38815767",
+      "38957433",
+      "40147738",
+      "40716784",
+      "40624201",
+      "35658960",
+      "37033969",
+      "39096939",
+      "40103812",
+      "39442187",
+      "39600181",
+      "35432371",
+      "40891136",
+      "40155864",
+      "36125921",
+      "38564938",
+      "39356055",
+      "39308866",
+      "37063876",
+      "39715172",
+      "41198554",
+      "39433868",
+      "36238494",
+      "40574839",
+      "40659785",
+      "38428147",
+      "36246123",
+      "37622120",
+      "39756163",
+      "38266883",
+      "39080525",
+      "39002808",
+      "39181167",
+      "39556279",
+      "39923303",
+      "31699960",
+      "36776400",
+      "35630098",
+      "41107920",
+      "37789254",
+      "40997906",
+      "34975915",
+      "38499050",
+      "39661223",
+      "40977739",
+      "41243474",
+      "33401265",
+      "37230395",
+      "39953769",
+      "40086342",
+      "39549926",
+      "39074415",
+      "40596704",
+      "41196851",
+      "39086489",
+      "36793712",
+      "41052072",
+      "39313116",
+      "35473522",
+      "27724849",
+      "40116046",
+      "38987624",
+      "40068024",
+      "37740761",
+      "32791489",
+      "40091022",
+      "40596265",
+      "37026010",
+      "40196107",
+      "29977931",
+      "38863714",
+      "39914590",
+      "40685483",
+      "30074154",
+      "40595246",
+      "39627404",
+      "36735737",
+      "40216945",
+      "39391879",
+      "40754871",
+      "40496861",
+      "41120603",
+      "34754625",
+      "38691241",
+      "40421012",
+      "39675129",
+      "40196131",
+      "34368360",
+      "41511918",
+      "34536521",
+      "31257474",
+      "38370470",
+      "33863396",
+      "41162503",
+      "38329418",
+      "41081092",
+      "39968099",
+      "39512836",
+      "40540223",
+      "38690269"
+    ],
+    "review": [
+      "38815767",
+      "35630098"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0966-3274(24)00082-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneytransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Transplantation"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0966-3274(24)00082-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

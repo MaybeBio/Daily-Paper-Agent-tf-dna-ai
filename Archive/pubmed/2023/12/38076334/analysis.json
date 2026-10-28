@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38076334",
+  "title": "Analysis and Verification of Glycosylation Characteristics of Septic Acute Kidney Injury.",
+  "authors": "Chen, Si; Gan, Hua",
+  "journal": "Journal of inflammation research",
+  "published_date": "2023-12-11",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究脓毒症急性肾损伤的糖基化特征，虽预测了转录因子但未涉及蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Septic acute kidney injury (S-AKI) results from an imbalance in the regulation of systemic inflammatory responses. Glycosylation plays an important role in inflammatory responses. However, the relationship between S-AKI and glycosylation is unclear. METHODS: The datasets of the public platform were analyzed using R language to obtain glycosylation-related differentially expressed genes (GRDEGs) in S-AKI. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes pathway (KEGG) enrichment analyses were performed for GRDEGs. Hub genes were obtained using three machine learning algorithms and their diagnostic values were evaluated using receiver operating characteristic (ROC) curves. The relationships between the hub genes, immune cells, and signaling pathways were analyzed, and the upstream miRNAs, transcription factors, and compounds of the hub genes were predicted. Mouse models of AKI with sepsis were constructed and the expression of the hub genes was verified. RESULTS: We obtained 45 GRDEGs that were mainly enriched in glycoprotein metabolism and immune inflammatory response, such as \"O-glycan biosynthesis\", \"phagosome\", \"pathogenic Escherichia coli infection\", \"glycosyltransferase activity\", etc. Seven hub genes that have potential diagnostic value were identified and were associated with the regulation of immune cells. Through gene set enrichment analysis (GSEA) of hub genes, it was found that these genes may be involved in metabolism, signaling transduction, and inflammation-related signaling pathways, such as \"metabolism of amino and derivatives\", \"RHO GTPase cycle\", \"transport of small molecules\", \"neutrophil degranulation\", \"immune system\", etc. We then predicted 100 miRNAs, 60 TFs, and 23 compounds of the hub genes using forecasting tools. Finally, animal experiments confirmed the differential expression of ASGR1, UMOD, SPTBN1, and ADAMTS17. CONCLUSION: This study identified and validated four biomarkers associated with abnormal glycosylation that could be potential targets for AKI in sepsis.",
+  "abstract_zh": "背景：脓毒症急性肾损伤（S-AKI）源于全身炎症反应调节失衡。糖基化在炎症反应中发挥重要作用。然而，S-AKI与糖基化之间的关系尚不清楚。方法：使用R语言分析公共平台的数据集，以获得S-AKI中糖基化相关的差异表达基因（GRDEGs）。对GRDEGs进行了基因本体论（GO）和京都基因与基因组百科全书通路（KEGG）富集分析。通过三种机器学习算法获得核心基因，并使用受试者工作特征（ROC）曲线评估其诊断价值。分析了核心基因与免疫细胞及信号通路之间的关系，并预测了核心基因的上游miRNA、转录因子和化合物。构建了脓毒症AKI小鼠模型，并验证了核心基因的表达。结果：我们获得了45个GRDEGs，主要富集在糖蛋白代谢和免疫炎症反应中，如“O-聚糖生物合成”、“吞噬体”、“致病性大肠杆菌感染”、“糖基转移酶活性”等。鉴定出七个具有潜在诊断价值的核心基因，并与免疫细胞的调节相关。通过核心基因的基因集富集分析（GSEA），发现这些基因可能参与代谢、信号转导和炎症相关信号通路，如“氨基酸及其衍生物代谢”、“RHO GTP酶循环”、“小分子转运”、“中性粒细胞脱颗粒”、“免疫系统”等。随后，我们使用预测工具预测了核心基因的100个miRNA、60个转录因子和23个化合物。最后，动物实验证实了ASGR1、UMOD、SPTBN1和ADAMTS17的差异表达。结论：本研究识别并验证了四个与异常糖基化相关的生物标志物，它们可能成为脓毒症中AKI的潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38076334/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38076334/",
+  "paper_page_path": "papers/pubmed/38076334/index.html"
+}

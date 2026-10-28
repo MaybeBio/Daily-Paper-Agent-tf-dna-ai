@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2021-4qcqm",
+  "title": "A Machine Learning Approach to Calculate Electronic Couplings between Quasi-Diabatic Molecular Orbitals: The Case of DNA",
+  "authors": "Xin Bai; Xin Guo; Linjun Wang",
+  "journal": "ChemRxiv",
+  "published_date": "2021-09-13",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习计算DNA分子间准绝热分子轨道的电子耦合，虽涉及DNA但聚焦电荷传输而非蛋白质-DNA互作，方法可迁移性有限。",
+  "abstract": "Diabatization of one-electron states in flexible molecular aggregates is a great challenge due to the presence of surface crossings between molecular orbital (MO) levels and the complex interaction between MOs of neighboring molecules. In this work, we present an efficient machine learning approach to calculate electronic couplings between quasi-diabatic MOs without the need of nonadiabatic coupling calculations. Using MOs of rigid molecules as references, the MOs that can be directly regarded to be quasi-diabatic in molecular dynamics are selected out, state tracked, and phase corrected. On the basis of this information, artificial neural networks are trained to characterize the structure-dependent onsite energies of quasi-diabatic MOs and the inter-molecular electronic couplings. A representative sequence of DNA is systematically studied as an illustration. Smooth time evolution of electronic couplings in all base pairs is obtained with quasi-diabatic MOs. Especially, our method can calculate electronic couplings between different quasi-diabatic MOs independently, and thus possesses unique advantages in many applications.",
+  "abstract_zh": "柔性分子聚集体中单电子态的绝热化（diabatization）因分子轨道（MO）能级间的表面交叉以及邻近分子MO之间的复杂相互作用而面临巨大挑战。在本工作中，我们提出了一种高效的机器学习方法，用于计算准绝热MO之间的电子耦合，而无需进行非绝热耦合计算。以刚性分子的MO作为参考，我们选择出在分子动力学中可直接视为准绝热的MO，并进行态追踪和相位校正。基于这些信息，训练人工神经网络以表征准绝热MO的结构依赖性在位能及分子间电子耦合。以一段代表性的DNA序列为例进行系统研究，获得了所有碱基对中电子耦合的平滑时间演化。特别地，我们的方法能够独立计算不同准绝热MO之间的电子耦合，因此在许多应用中具有独特优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2021-4qcqm",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2021-4qcqm",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2021-4qcqm/index.html"
+}

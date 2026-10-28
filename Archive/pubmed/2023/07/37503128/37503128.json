@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "37503128",
+    "doi": "10.1101/2023.07.15.549120",
+    "title": "Extrusion fountains are hallmarks of chromosome organization emerging upon zygotic genome activation."
+  },
+  "content": {
+    "abstract": "The initiation of gene expression during development, known as zygotic genome activation (ZGA), is accompanied by massive changes in chromosome organization. However, the earliest events of chromosome folding and their functional roles remain unclear. Using Hi-C on zebrafish embryos, we discovered that chromosome folding begins early in development with the formation of \"fountains\", a novel element of chromosome organization. Emerging preferentially at enhancers, fountains exhibit an initial accumulation of cohesin, which later redistributes to CTCF sites at TAD borders. Knockouts of pioneer transcription factors driving ZGA enhancers result in the specific loss of fountains, establishing a causal link between enhancer activation and fountain formation. Polymer simulations demonstrate that fountains may arise as sites of facilitated cohesin loading, requiring two-sided but desynchronized loop extrusion, potentially caused by cohesin collisions with obstacles or internal switching. Moreover, we detected similar fountain patterns at enhancers in mouse cells. Fountains disappear upon acute cohesin depletion, as well as during mitosis, and reappear with cohesin loading in early G1. Altogether, fountains represent the first known enhancer-specific elements of chromosome organization and constitute starting points for chromosome folding during development, likely through facilitated cohesin loading.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Galitsyna, Aleksandra",
+        "Ulianov, Sergey V",
+        "Bazarevich, Mariia",
+        "Bykov, Nikolai S",
+        "Veil, Marina",
+        "Gao, Meijiang",
+        "Perevoschikova, Kristina",
+        "Gelfand, Mikhail S",
+        "Razin, Sergey V",
+        "Mirny, Leonid",
+        "Onichtchouk, Daria"
+      ],
+      "short_names": [
+        "Galitsyna A",
+        "Ulianov SV",
+        "Bazarevich M",
+        "Bykov NS",
+        "Veil M",
+        "Gao M",
+        "Perevoschikova K",
+        "Gelfand MS",
+        "Razin SV",
+        "Mirny L",
+        "Onichtchouk D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8969-5694",
+        "ORCID: 0000-0002-6187-310X",
+        "ORCID: 0000-0002-6321-487X",
+        "ORCID: 0000-0002-0769-8996",
+        "ORCID: 0000-0002-7600-5102",
+        "ORCID: 0000-0003-1976-8661",
+        "ORCID: 0000-0002-0785-5410",
+        "ORCID: 0000-0001-6497-1445"
+      ],
+      "affiliations": [
+        "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Institute of Gene Biology, Russian Academy of Sciences, 119334, Russia.",
+        "Faculty of Biology, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia.",
+        "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+        "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany.",
+        "Center for Molecular and Cellular Biology, Moscow, Russia.",
+        "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+        "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+        "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany.",
+        "Faculty of Bioengineering and Bioinformatics, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia.",
+        "Center for Molecular and Cellular Biology, Moscow, Russia.",
+        "Institute of Gene Biology, Russian Academy of Sciences, 119334, Russia.",
+        "Faculty of Biology, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia.",
+        "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+        "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+        "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany.",
+        "Koltzov Institute of Developmental Biology RAS, Moscow, 119991, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Galitsyna, Aleksandra",
+        "short_name": "Galitsyna A",
+        "identifiers": [
+          "0000-0001-8969-5694"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Ulianov, Sergey V",
+        "short_name": "Ulianov SV",
+        "identifiers": [
+          "0000-0002-6187-310X"
+        ],
+        "affiliations": [
+          "Institute of Gene Biology, Russian Academy of Sciences, 119334, Russia.",
+          "Faculty of Biology, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia."
+        ]
+      },
+      {
+        "full_name": "Bazarevich, Mariia",
+        "short_name": "Bazarevich M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+          "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany."
+        ]
+      },
+      {
+        "full_name": "Bykov, Nikolai S",
+        "short_name": "Bykov NS",
+        "identifiers": [
+          "0000-0002-6321-487X"
+        ],
+        "affiliations": [
+          "Center for Molecular and Cellular Biology, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Veil, Marina",
+        "short_name": "Veil M",
+        "identifiers": [
+          "0000-0002-0769-8996"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany."
+        ]
+      },
+      {
+        "full_name": "Gao, Meijiang",
+        "short_name": "Gao M",
+        "identifiers": [
+          "0000-0002-7600-5102"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+          "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany."
+        ]
+      },
+      {
+        "full_name": "Perevoschikova, Kristina",
+        "short_name": "Perevoschikova K",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioengineering and Bioinformatics, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia."
+        ]
+      },
+      {
+        "full_name": "Gelfand, Mikhail S",
+        "short_name": "Gelfand MS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular and Cellular Biology, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Razin, Sergey V",
+        "short_name": "Razin SV",
+        "identifiers": [
+          "0000-0003-1976-8661"
+        ],
+        "affiliations": [
+          "Institute of Gene Biology, Russian Academy of Sciences, 119334, Russia.",
+          "Faculty of Biology, M.V. Lomonosov Moscow State University, Moscow, 119991, Russia."
+        ]
+      },
+      {
+        "full_name": "Mirny, Leonid",
+        "short_name": "Mirny L",
+        "identifiers": [
+          "0000-0002-0785-5410"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+          "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139."
+        ]
+      },
+      {
+        "full_name": "Onichtchouk, Daria",
+        "short_name": "Onichtchouk D",
+        "identifiers": [
+          "0000-0001-6497-1445"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, University of Freiburg, Freiburg, 79104, Germany.",
+          "Signaling Research Centres BIOSS and CIBSS, Freiburg, 79104, Germany.",
+          "Koltzov Institute of Developmental Biology RAS, Moscow, 119991, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/28 06:43",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38809952",
+      "38774252",
+      "38709825",
+      "38402507",
+      "37709752",
+      "37322110",
+      "37157000",
+      "37076620",
+      "36977375",
+      "36941433",
+      "36897969",
+      "36842325",
+      "36550219",
+      "36471076",
+      "36471071",
+      "36182691",
+      "36097291",
+      "35789323",
+      "35710842",
+      "35585235",
+      "35420890",
+      "35390275",
+      "35182480",
+      "35145080",
+      "34850907",
+      "34518536",
+      "34312537",
+      "34197738",
+      "34099928",
+      "34035898",
+      "34006570",
+      "34006569",
+      "33836078",
+      "33689750",
+      "33397980",
+      "33318687",
+      "33239788",
+      "33199682",
+      "32737473",
+      "32728250",
+      "32728249",
+      "32250245",
+      "32055031",
+      "32015543",
+      "32003791",
+      "31940339",
+      "31801998",
+      "31792383",
+      "31776509",
+      "31290943",
+      "31189646",
+      "30922844",
+      "30796039",
+      "30674556",
+      "30292539",
+      "30241609",
+      "30143029",
+      "29972771",
+      "29790989",
+      "29757277",
+      "29728444",
+      "29567640",
+      "29433064",
+      "29348367",
+      "29217590",
+      "29180568",
+      "29158440",
+      "28985562",
+      "28855260",
+      "28746339",
+      "28709003",
+      "28703188",
+      "28658625",
+      "28525758",
+      "28512193",
+      "28388407",
+      "28355183",
+      "28154080",
+      "27224481",
+      "27210764",
+      "27192037",
+      "27079975",
+      "27058398",
+      "26671609",
+      "26030525",
+      "25516281",
+      "25497547",
+      "25024921",
+      "24398455",
+      "24056933",
+      "23950494",
+      "23814184",
+      "23193258",
+      "22941365",
+      "22780989",
+      "22593555",
+      "22421047",
+      "20720539",
+      "20300217",
+      "20219941",
+      "19815776",
+      "14711414",
+      "12045153",
+      "9032291",
+      "8589427"
+    ],
+    "similar": [
+      "37503128",
+      "41690937",
+      "40586309",
+      "40667008",
+      "37786717",
+      "40029160",
+      "40210441",
+      "36897969",
+      "41648525",
+      "32680543",
+      "32220807",
+      "41381614",
+      "29158440",
+      "32250245",
+      "41980771",
+      "34197738",
+      "29972771",
+      "41013693",
+      "29867216",
+      "42146630",
+      "42030943",
+      "40436628",
+      "25677180",
+      "35687682",
+      "31216471",
+      "42192110",
+      "39093600",
+      "35585235",
+      "40374602",
+      "29094699",
+      "39229045",
+      "42146483",
+      "40490791",
+      "29217590",
+      "42463888",
+      "40804526",
+      "27582050",
+      "37146570",
+      "29728444",
+      "37459895",
+      "41951674",
+      "29967174",
+      "42475469",
+      "36097291",
+      "32293525",
+      "40950200",
+      "25299688",
+      "24321385",
+      "35710842",
+      "30096363",
+      "29757144",
+      "38206813",
+      "39543681",
+      "32778134",
+      "36482254",
+      "42239201",
+      "39827577",
+      "39383545",
+      "32579944",
+      "40011778",
+      "41102415",
+      "34309513",
+      "33318687",
+      "35048511",
+      "27089971",
+      "36430821",
+      "41529373",
+      "41380688",
+      "25081205",
+      "39741350",
+      "40418443",
+      "32987449",
+      "41959188",
+      "27210764",
+      "32213323",
+      "39229088",
+      "41994921",
+      "37858706",
+      "25307058",
+      "35456389",
+      "31582854",
+      "31968256",
+      "24002784",
+      "31177910",
+      "37076620",
+      "40628528",
+      "41040233",
+      "41984826",
+      "29335803",
+      "30444999",
+      "40189615",
+      "31776509",
+      "39975341",
+      "20553708",
+      "38927123",
+      "27475850",
+      "41756876",
+      "36424654",
+      "33558242",
+      "39358607"
+    ],
+    "review": [
+      "37503128",
+      "40029160",
+      "32220807",
+      "30096363",
+      "39827577",
+      "39383545",
+      "35048511",
+      "27089971",
+      "41529373",
+      "32987449",
+      "35456389",
+      "38927123"
+    ],
+    "pmc": [
+      "10370019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37503128/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37503128",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.07.15.549120",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

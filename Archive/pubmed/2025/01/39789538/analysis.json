@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39789538",
+  "title": "Estimation of TP53 mutations for endometrial cancer based on diffusion-weighted imaging deep learning and radiomics features.",
+  "authors": "Shen, Lei; Dai, Bo; Dou, Shewei; Yan, Fengshan; Yang, Tianyun; Wu, Yaping",
+  "journal": "BMC cancer",
+  "published_date": "2025-01-10",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于DWI影像组学和深度学习特征预测子宫内膜癌TP53突变状态，属于临床影像诊断应用，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "OBJECTIVES: To construct a prediction model based on deep learning (DL) and radiomics features of diffusion weighted imaging (DWI), and clinical variables for evaluating TP53 mutations in endometrial cancer (EC). METHODS: DWI and clinical data from 155 EC patients were included in this study, consisting of 80 in the training set, 35 in the test set, and 40 in the external validation set. Radiomics features, convolutional neural network-based DL features, and clinical variables were analyzed. Feature selection was performed using Mann-Whitney U test, LASSO regression, and SelectKBest. Prediction models were established by gaussian process (GP) and decision tree (DT) algorithms and evaluated by the area under the receiver operating characteristic curve (AUC), net reclassification index (NRI), calibration curves, and decision curve analysis (DCA). RESULTS: Compared to the DL (AUC(training) = 0.830, AUC(test) = 0.779, and AUC(validation) = 0.711), radiomics (AUC(training) = 0.810, AUC(test) = 0.710, and AUC(validation) = 0.839), and clinical (AUC(training) = 0.780, AUC(test) = 0.685, and AUC(validation) = 0.695) models, the combined model based on the GP algorithm, which consisted of four DL features, five radiomics features, and two clinical variables, not only demonstrated the highest diagnostic efficacy (AUC(training) = 0.949, AUC(test) = 0.877, and AUC(validation) = 0.914) but also led to an improvement in risk reclassification of the TP53 mutation (NIR(training) = 66.38%, 56.98%, and 83.48%, NIR(test) = 50.72%, 80.43%, and 89.49%, and NIR(validation) = 64.58%, 87.50%, and 120.83%, respectively). In addition, the combined model exhibited good agreement and clinical utility in calibration curves and DCA analyses, respectively. CONCLUSIONS: A prediction model based on the GP algorithm and consisting of DL and radiomics features of DWI as well as clinical variables can effectively assess TP53 mutation in EC.",
+  "abstract_zh": "目的：构建基于深度学习（DL）和扩散加权成像（DWI）影像组学特征及临床变量的预测模型，用于评估子宫内膜癌（EC）中的TP53突变。方法：本研究纳入155例EC患者的DWI及临床数据，其中训练集80例，测试集35例，外部验证集40例。分析了影像组学特征、基于卷积神经网络的DL特征及临床变量。特征选择采用Mann-Whitney U检验、LASSO回归和SelectKBest方法。预测模型通过高斯过程（GP）和决策树（DT）算法建立，并使用受试者工作特征曲线下面积（AUC）、净重分类指数（NRI）、校准曲线和决策曲线分析（DCA）进行评估。结果：与DL模型（AUC(训练) = 0.830，AUC(测试) = 0.779，AUC(验证) = 0.711）、影像组学模型（AUC(训练) = 0.810，AUC(测试) = 0.710，AUC(验证) = 0.839）和临床模型（AUC(训练) = 0.780，AUC(测试) = 0.685，AUC(验证) = 0.695）相比，基于GP算法的联合模型（包含四个DL特征、五个影像组学特征和两个临床变量）不仅展现出最高的诊断效能（AUC(训练) = 0.949，AUC(测试) = 0.877，AUC(验证) = 0.914），还改善了TP53突变的风险重分类（NIR(训练) = 66.38%、56.98%和83.48%，NIR(测试) = 50.72%、80.43%和89.49%，NIR(验证) = 64.58%、87.50%和120.83%）。此外，联合模型在校准曲线和DCA分析中分别表现出良好的一致性和临床实用性。结论：基于GP算法并包含DWI的DL和影像组学特征及临床变量的预测模型可有效评估EC中的TP53突变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39789538/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39789538/",
+  "paper_page_path": "papers/pubmed/39789538/index.html"
+}

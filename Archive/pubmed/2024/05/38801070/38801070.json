@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "38801070",
+    "doi": "10.1093/nar/gkae433",
+    "title": "Deep DNAshape webserver: prediction and real-time visualization of DNA shape considering extended k-mers."
+  },
+  "content": {
+    "abstract": "Sequence-dependent DNA shape plays an important role in understanding protein-DNA binding mechanisms. High-throughput prediction of DNA shape features has become a valuable tool in the field of protein-DNA recognition, transcription factor-DNA binding specificity, and gene regulation. However, our widely used webserver, DNAshape, relies on statistically summarized pentamer query tables to query DNA shape features. These query tables do not consider flanking regions longer than two base pairs, and acquiring a query table for hexamers or higher-order k-mers is currently still unrealistic due to limitations in achieving sufficient statistical coverage in molecular simulations or structural biology experiments. A recent deep-learning method, Deep DNAshape, can predict DNA shape features at the core of a DNA fragment considering flanking regions of up to seven base pairs, trained on limited simulation data. However, Deep DNAshape is rather complicated to install, and it must run locally compared to the pentamer-based DNAshape webserver, creating a barrier for users. Here, we present the Deep DNAshape webserver, which has the benefits of both methods while being accurate, fast, and accessible to all users. Additional improvements of the webserver include the detection of user input in real time, the ability of interactive visualization tools and different modes of analyses. URL: https://deepdnashape.usc.edu.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry",
+      "*Software",
+      "*Internet",
+      "*Nucleic Acid Conformation",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jinsen",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Li J",
+        "Rohs R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1015-5263",
+        "ORCID: 0000-0003-1752-1884"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jinsen",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-1015-5263"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [
+          "0000-0003-1752-1884"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Jul 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/27 12:43",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "42345194",
+      "42251035",
+      "42183351",
+      "41863075",
+      "41372172",
+      "40990245",
+      "40731031",
+      "40127180",
+      "40037710",
+      "39972129",
+      "39891349",
+      "39605552"
+    ],
+    "refs": [
+      "38336958",
+      "38130056",
+      "37996753",
+      "37953312",
+      "37733848",
+      "36656856",
+      "36471057",
+      "35504755",
+      "35015646",
+      "34772949",
+      "33767912",
+      "33767413",
+      "33397927",
+      "33328628",
+      "33268361",
+      "33155134",
+      "33134611",
+      "32763226",
+      "32053778",
+      "31372637",
+      "31226207",
+      "30157419",
+      "29165643",
+      "29040720",
+      "28359978",
+      "25843630",
+      "24913666",
+      "23703209",
+      "23562153",
+      "20334529",
+      "19865164",
+      "2619933",
+      "2482765"
+    ],
+    "similar": [
+      "38801070",
+      "37961633",
+      "38336958",
+      "39891349",
+      "23703209",
+      "29409522",
+      "28642456",
+      "25775564",
+      "32324217",
+      "31301183",
+      "40914877",
+      "28541376",
+      "34009383",
+      "21830782",
+      "40449614",
+      "27787828",
+      "29165643",
+      "23912807",
+      "38630617",
+      "36321557",
+      "39494533",
+      "31612957",
+      "33767912",
+      "16844974",
+      "26668005",
+      "29800452",
+      "23703214",
+      "35341743",
+      "26163275",
+      "29621972",
+      "15725347",
+      "24078250",
+      "22747501",
+      "40601254",
+      "30261835",
+      "34905768",
+      "34571539",
+      "34073705",
+      "33372607",
+      "33138911",
+      "31045209",
+      "37328639",
+      "25184541",
+      "40126909",
+      "24771339",
+      "41324554",
+      "38676949",
+      "40069726",
+      "34073774",
+      "42252518",
+      "39350338",
+      "34415020",
+      "33372147",
+      "34601568",
+      "29281985",
+      "12683994",
+      "38747347",
+      "39107889",
+      "31665425",
+      "41854168",
+      "31372637",
+      "25605483",
+      "29905876",
+      "24214955",
+      "38236675",
+      "19362815",
+      "35652477",
+      "15720719",
+      "28431131",
+      "35648435",
+      "41863075",
+      "33835022",
+      "39576586",
+      "16489208",
+      "37140058",
+      "28383703",
+      "10487873",
+      "23282203",
+      "28167566",
+      "36656856",
+      "41915679",
+      "25843630",
+      "35073170",
+      "18793422",
+      "40889326",
+      "42083872",
+      "35978548",
+      "15215382",
+      "37140053",
+      "31114906",
+      "37158242",
+      "35417351",
+      "32631226",
+      "33834190",
+      "34019664",
+      "22943312",
+      "15807904",
+      "33577557",
+      "29390080",
+      "41616241"
+    ],
+    "review": [
+      "38801070",
+      "21830782",
+      "36321557",
+      "19362815"
+    ],
+    "pmc": [
+      "11223853"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38801070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae433",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

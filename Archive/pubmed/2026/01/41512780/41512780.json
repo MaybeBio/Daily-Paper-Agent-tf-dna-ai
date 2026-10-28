@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "41512780",
+    "doi": "10.1016/j.ecoenv.2026.119676",
+    "title": "Dysregulation of atrazine-associated core gene networks and risk prediction in human cancers: Insights from integrated transcriptomics and network toxicology analyses."
+  },
+  "content": {
+    "abstract": "Atrazine, a widely used chlorotriazine herbicide, persists in aquatic environments and poses potential carcinogenic risks. While epidemiological studies link atrazine exposure to malignancies, its intrinsic molecular mechanisms across organ systems remain incompletely understood. This study employed integrated network toxicology and transcriptomic analyses to clarify atrazine-associated oncogenic pathways in liver hepatocellular carcinoma (LIHC), kidney renal clear cell carcinoma (KIRC), lung adenocarcinoma (LUAD), and sarcoma (SARC). Transcriptomic data from The Cancer Genome Atlas (TCGA) for these cancers were analyzed to identify atrazine-related genes. Protein-protein interaction networks were constructed and analyzed to identify hub genes. Functional enrichment, immune microenvironment analyses, and survival analysis were performed. Molecular docking validated atrazine-target binding, and independent datasets were used for hub gene expression and pan-cancer relevance validation. We identified 92 (LUAD), 136 (LIHC), 137 (KIRC), and 161 (SARC) atrazine-associated targets. Hub genes including CDC6, MCM5/7, UBE2C, FEN1, CDCA8, and VIM were differentially expressed across these cancers. Enrichment analyses revealed atrazine disruption of core pathways, including cell cycle progression and chromosomal instability, epithelial-mesenchymal transition, metabolic reprogramming, and senescence-associated secretory pathways. Molecular docking confirmed high-affinity binding between atrazine and key targets. Pan-cancer validation implicated these hub genes in multiple additional malignancies. Transcription factor analysis nominated HSD17B8 as a key regulatory node. This study demonstrates that atrazine promotes carcinogenesis by dysregulating conserved networks governing genomic stability, cell proliferation, metabolic adaptation, and immune microenvironment remodeling, providing a mechanistic framework linking aquatic atrazine exposure to multi-organ carcinogenesis and nominating HSD17B8-associated pathways for therapeutic intervention. These findings underscore the imperative for enhanced environmental monitoring of atrazine contamination.",
+    "keywords": [
+      "Agricultural runoff pollution",
+      "Atrazine",
+      "Carcinogenesis",
+      "Molecular docking",
+      "Network toxicology"
+    ],
+    "mesh_terms": [
+      "*Atrazine/toxicity",
+      "Humans",
+      "*Gene Regulatory Networks/drug effects",
+      "*Herbicides/toxicity",
+      "*Neoplasms/chemically induced/genetics",
+      "*Transcriptome/drug effects",
+      "Molecular Docking Simulation",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "*Water Pollutants, Chemical/toxicity",
+      "Protein Interaction Maps/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Xi",
+        "Zhang, Xiangxin",
+        "Tang, Ping",
+        "Shang, Yifeng",
+        "Wang, Yaoyu",
+        "Yin, Changqing",
+        "Wang, Lianlei",
+        "Zhang, Qunye",
+        "Liu, Xinyu",
+        "Yang, Qing",
+        "Yang, Liu"
+      ],
+      "short_names": [
+        "Chen X",
+        "Zhang X",
+        "Tang P",
+        "Shang Y",
+        "Wang Y",
+        "Yin C",
+        "Wang L",
+        "Zhang Q",
+        "Liu X",
+        "Yang Q",
+        "Yang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "Department of Emergency Medicine, Qilu Hospital of Shandong University, Jinan 250012, China; Shandong Provincial Clinical Research Center for Emergency and Critical Care Medicine, Institute of Emergency and Critical Care Medicine of Shandong University Chest Pain Center, Qilu Hospital of Shandong University, Jinan 250012, China; Medical and Pharmaceutical Basic Research Innovation Center of Emergency and Critical Care Medicine, China's Ministry of Education, Shandong Provincial Engineering Laboratory for Emergency and Critical Care Medicine, Key Laboratory of Emergency and Critical Care Medicine of Shandong Province, Key Laboratory of Cardiopulmonary-Cerebral Resuscitation Research of Shandong Province, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China.",
+        "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China.",
+        "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China.",
+        "Department of Radiology, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China.",
+        "Department of Radiology, Qilu Hospital of Shandong University, Jinan 250012, China. Electronic address: 609923610@qq.com.",
+        "Department of Clinical Laboratory, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan 250012, China. Electronic address: 2295722106@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiangxin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Qilu Hospital of Shandong University, Jinan 250012, China; Shandong Provincial Clinical Research Center for Emergency and Critical Care Medicine, Institute of Emergency and Critical Care Medicine of Shandong University Chest Pain Center, Qilu Hospital of Shandong University, Jinan 250012, China; Medical and Pharmaceutical Basic Research Innovation Center of Emergency and Critical Care Medicine, China's Ministry of Education, Shandong Provincial Engineering Laboratory for Emergency and Critical Care Medicine, Key Laboratory of Emergency and Critical Care Medicine of Shandong Province, Key Laboratory of Cardiopulmonary-Cerebral Resuscitation Research of Shandong Province, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ping",
+        "short_name": "Tang P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Yifeng",
+        "short_name": "Shang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaoyu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China; Qilu Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Changqing",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lianlei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qunye",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Innovation and Transformation of Luobing Theory; Key Laboratory of Cardiovascular Remodeling and Function Research of MOE, NHC, CAMS and Shandong Province; Department of Cardiology, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Qilu Hospital of Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qing",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Qilu Hospital of Shandong University, Jinan 250012, China. Electronic address: 609923610@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Liu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan 250012, China. Electronic address: 2295722106@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 00:34",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42345802",
+      "41949597"
+    ],
+    "refs": [],
+    "similar": [
+      "41512780",
+      "39780215",
+      "41371106",
+      "40317014",
+      "42100321",
+      "40474796",
+      "41895505",
+      "41288681",
+      "41442003",
+      "41769099",
+      "41293954",
+      "40821775",
+      "41240582",
+      "42265520",
+      "40924735",
+      "41871056",
+      "41790626",
+      "41492010",
+      "41465929",
+      "41246859",
+      "41191606",
+      "40265430",
+      "41183465",
+      "41562054",
+      "41977161",
+      "41444679",
+      "41671296",
+      "40640592",
+      "40355485",
+      "40764361",
+      "41151853",
+      "40406126",
+      "42136962",
+      "35782736",
+      "41500779",
+      "40898538",
+      "42032347",
+      "40359556",
+      "34831096",
+      "41667778",
+      "40990645",
+      "42024670",
+      "41714375",
+      "42244292",
+      "41847139",
+      "40370109",
+      "41384025",
+      "41716413",
+      "41291892",
+      "41751534",
+      "40711603",
+      "42180604",
+      "41181148",
+      "42089585",
+      "40804795",
+      "41226680",
+      "41388523",
+      "41271048",
+      "42033937",
+      "41261566",
+      "40593998",
+      "40826767",
+      "42292825",
+      "41019083",
+      "39350059",
+      "38783288",
+      "41419874",
+      "41529475",
+      "42079738",
+      "41436831",
+      "33067881",
+      "42123445",
+      "42249833",
+      "41226349",
+      "42006143",
+      "35832625",
+      "40445003",
+      "38142454",
+      "41316541",
+      "25559354",
+      "42074514",
+      "40532600",
+      "40467639",
+      "33134373",
+      "41511918",
+      "41237469",
+      "42278407",
+      "39985046",
+      "31633428",
+      "41511815",
+      "42348043",
+      "42228706",
+      "41005317",
+      "41417218",
+      "42136961",
+      "40065477",
+      "39434198",
+      "41683685",
+      "40615101",
+      "41342434"
+    ],
+    "review": [
+      "41512780"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00005-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-UBE2C-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-700",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

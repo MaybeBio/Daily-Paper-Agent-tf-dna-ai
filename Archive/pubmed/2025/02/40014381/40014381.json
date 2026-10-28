@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40014381",
+    "doi": "10.7554/eLife.101127",
+    "title": "PROTAC-induced protein structural dynamics in targeted protein degradation."
+  },
+  "content": {
+    "abstract": "PROteolysis TArgeting Chimeras (PROTACs) are small molecules that induce target protein degradation via the ubiquitin-proteasome system. PROTACs recruit the target protein and E3 ligase; a critical first step is forming a ternary complex. However, while the formation of a ternary complex is crucial, it may not always guarantee successful protein degradation. The dynamics of the PROTAC-induced degradation complex play a key role in ubiquitination and subsequent degradation. In this study, we computationally modelled protein complex structures and dynamics associated with a series of PROTACs featuring different linkers to investigate why these PROTACs, all of which formed ternary complexes with Cereblon (CRBN) E3 ligase and the target protein bromodomain-containing protein 4 (BRD4(BD1)), exhibited varying degrees of degradation potency. We constructed the degradation machinery complexes with Culling-Ring Ligase 4A (CRL4A) E3 ligase scaffolds. Through atomistic molecular dynamics simulations, we illustrated how PROTAC-dependent protein dynamics facilitating the arrangement of surface lysine residues of BRD4(BD1) into the catalytic pocket of E2/ubiquitin cascade for ubiquitination. Despite featuring identical warheads in this PROTAC series, the linkers were found to affect the residue-interaction networks, and thus governing the essential motions of the entire degradation machine for ubiquitination. These findings offer a structural dynamic perspective on ligand-induced protein degradation, providing insights to guide future PROTAC design endeavors.",
+    "keywords": [
+      "conformational sampling",
+      "drug development",
+      "molecular biophysics",
+      "molecular mechanics",
+      "molecular modeling",
+      "none",
+      "structural biology",
+      "structural dynamic",
+      "targeted protein degradation"
+    ],
+    "mesh_terms": [
+      "*Proteolysis",
+      "Ubiquitin-Protein Ligases/metabolism/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Ubiquitination",
+      "*Transcription Factors/metabolism/chemistry",
+      "Protein Conformation",
+      "Cell Cycle Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "Proteasome Endopeptidase Complex/metabolism",
+      "Ubiquitin/metabolism",
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Kingsley Y",
+        "Hung, Ta I",
+        "Chang, Chia-En A"
+      ],
+      "short_names": [
+        "Wu KY",
+        "Hung TI",
+        "Chang CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7989-1584",
+        "ORCID: 0009-0008-9702-3829",
+        "ORCID: 0000-0002-6504-8529"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Riverside, Riverside, United States.",
+        "Department of Chemistry, University of California, Riverside, Riverside, United States.",
+        "Department of Bioengineering, University of California, Riverside, United States.",
+        "Department of Chemistry, University of California, Riverside, Riverside, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Kingsley Y",
+        "short_name": "Wu KY",
+        "identifiers": [
+          "0000-0002-7989-1584"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, Riverside, United States."
+        ]
+      },
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [
+          "0009-0008-9702-3829"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, Riverside, United States.",
+          "Department of Bioengineering, University of California, Riverside, United States."
+        ]
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [
+          "0000-0002-6504-8529"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, Riverside, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Feb 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/27 12:28",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42457586",
+      "42311447",
+      "42133863",
+      "42089481",
+      "41750393",
+      "41252598",
+      "40940201",
+      "40372131",
+      "40012705"
+    ],
+    "refs": [
+      "37918563",
+      "37877240",
+      "36961978",
+      "36536188",
+      "36494034",
+      "36235052",
+      "36202813",
+      "35101445",
+      "35042991",
+      "34824248",
+      "34291038",
+      "34131295",
+      "33625214",
+      "33271439",
+      "32976709",
+      "32969649",
+      "32962378",
+      "32859748",
+      "31059647",
+      "30807093",
+      "30714732",
+      "30631068",
+      "30540295",
+      "30019901",
+      "29892083",
+      "29788355",
+      "29129718",
+      "29129717",
+      "28767222",
+      "28418661",
+      "28339196",
+      "26909574",
+      "26605738",
+      "26593377",
+      "26583988",
+      "26574453",
+      "26463729",
+      "26051217",
+      "25999370",
+      "25043012",
+      "21501475",
+      "20871596",
+      "20689979",
+      "12395429"
+    ],
+    "similar": [
+      "40014381",
+      "38746111",
+      "35101445",
+      "40001507",
+      "40202531",
+      "38383787",
+      "34432243",
+      "33143537",
+      "38305738",
+      "36047364",
+      "39374557",
+      "32080280",
+      "33780296",
+      "29129718",
+      "36300631",
+      "30721025",
+      "33190579",
+      "39087481",
+      "28288108",
+      "37418320",
+      "29449372",
+      "37625128",
+      "39783892",
+      "38377822",
+      "32976709",
+      "28378579",
+      "36606710",
+      "30826187",
+      "37922656",
+      "30175757",
+      "36142231",
+      "34081921",
+      "31157769",
+      "38609561",
+      "38655701",
+      "34397373",
+      "33567268",
+      "34432240",
+      "35410300",
+      "39864384",
+      "37443112",
+      "39225044",
+      "38192078",
+      "40316744",
+      "39496477",
+      "31553577",
+      "39606859",
+      "35393989",
+      "39361611",
+      "38702019",
+      "31873151",
+      "35191283",
+      "40156562",
+      "33792163",
+      "30012605",
+      "39688565",
+      "35671157",
+      "35933246",
+      "31035238",
+      "35084845",
+      "39491551",
+      "30631068",
+      "33549806",
+      "35018781",
+      "31059647",
+      "33010159",
+      "40295770",
+      "36235052",
+      "39641357",
+      "40208910",
+      "36961978",
+      "39600079",
+      "38320555",
+      "32475992",
+      "36764760",
+      "39140051",
+      "38768083",
+      "38864414",
+      "34824248",
+      "39389062",
+      "36557960",
+      "27473774",
+      "36084553",
+      "39396041",
+      "35983982",
+      "37126968",
+      "34583995",
+      "37102218",
+      "31200861",
+      "36642326",
+      "39475482",
+      "33009960",
+      "34494353",
+      "31064868",
+      "36202813",
+      "37354907",
+      "38802326",
+      "33783207",
+      "29018234",
+      "37388700"
+    ],
+    "review": [
+      "40014381",
+      "40001507",
+      "33143537",
+      "36047364",
+      "39374557",
+      "30175757",
+      "36142231",
+      "35410300",
+      "40316744",
+      "39496477",
+      "35393989",
+      "35191283",
+      "40156562",
+      "35671157",
+      "35933246",
+      "31035238",
+      "33549806",
+      "36235052",
+      "39600079",
+      "32475992",
+      "38864414",
+      "36557960",
+      "35983982",
+      "31200861",
+      "36642326",
+      "34494353"
+    ],
+    "pmc": [
+      "11867615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40014381/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/9216h0t4",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.101127",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

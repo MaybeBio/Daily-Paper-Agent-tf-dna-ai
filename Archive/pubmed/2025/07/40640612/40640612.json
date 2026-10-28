@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "40640612",
+    "doi": "10.1038/s44320-025-00131-3",
+    "title": "PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations."
+  },
+  "content": {
+    "abstract": "Chemical and genetic perturbations, such as those induced by small molecules and CRISPR, effect complex changes in the molecular states of cells. Despite advances in high-throughput single-cell perturbation screening technology, the space of possible perturbations is far too large to measure exhaustively. Here, we introduce PerturbNet, a flexible deep generative model designed to predict the distribution of cell states induced by unseen chemical or genetic perturbations. PerturbNet accurately predicts gene expression changes in response to unseen small molecules based on their chemical structures while also accounting for key covariates such as dosage and cell type. Moreover, PerturbNet accurately predicts the distribution of single-cell gene expression states following CRISPR activation or CRISPR interference by leveraging gene functional annotations. Our approach significantly outperforms previous methods, particularly for predicting the effects of perturbing completely unseen genes. Finally, we demonstrate for the first time that amino acid sequence embeddings can be used to predict gene expression changes induced by missense mutations. We use PerturbNet to predict the effects of all point mutations in GATA1 and nominate variants that significantly impact the cell state distribution of human hematopoietic stem cells. Using a crystal structure of GATA1 bound to DNA, we validate that these large-effect variants occur in the core DNA-contact region of GATA1 and tend to involve large changes in amino acid side-chain volume.",
+    "keywords": [
+      "Deep Generative Model",
+      "Genome Editing",
+      "High-throughput Screening",
+      "Perturbation Prediction",
+      "Single-cell Transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "Humans",
+      "GATA1 Transcription Factor/genetics/chemistry/metabolism",
+      "CRISPR-Cas Systems",
+      "*Computational Biology/methods",
+      "Gene Expression Regulation/drug effects",
+      "Mutation, Missense"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Hengshi",
+        "Qian, Weizhou",
+        "Song, Yuxuan",
+        "Welch, Joshua D"
+      ],
+      "short_names": [
+        "Yu H",
+        "Qian W",
+        "Song Y",
+        "Welch JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9850-9347",
+        "ORCID: 0000-0003-3884-7920",
+        "ORCID: 0000-0002-5883-1208",
+        "ORCID: 0000-0002-5869-2391"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA. welchjd@umich.edu.",
+        "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, MI, 48109, USA. welchjd@umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Hengshi",
+        "short_name": "Yu H",
+        "identifiers": [
+          "0000-0001-9850-9347"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Qian, Weizhou",
+        "short_name": "Qian W",
+        "identifiers": [
+          "0000-0003-3884-7920"
+        ],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yuxuan",
+        "short_name": "Song Y",
+        "identifiers": [
+          "0000-0002-5883-1208"
+        ],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Welch, Joshua D",
+        "short_name": "Welch JD",
+        "identifiers": [
+          "0000-0002-5869-2391"
+        ],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, 48109, USA. welchjd@umich.edu.",
+          "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, MI, 48109, USA. welchjd@umich.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42656953",
+      "42491402",
+      "41811907",
+      "41628222",
+      "41356789",
+      "41301211",
+      "41254174",
+      "41045509",
+      "40983974",
+      "40501829",
+      "38948789",
+      "37590228"
+    ],
+    "refs": [
+      "41250104",
+      "40759747",
+      "38225466",
+      "37592036",
+      "37154091",
+      "37137305",
+      "36866529",
+      "35108499",
+      "35058622",
+      "34462589",
+      "34140681",
+      "34050150",
+      "34016135",
+      "33876751",
+      "33558698",
+      "33381839",
+      "33243861",
+      "32747759",
+      "31873215",
+      "31806696",
+      "31395745",
+      "31363220",
+      "31127041",
+      "30504886",
+      "29994351",
+      "29532027",
+      "29505029",
+      "29409532",
+      "29195078",
+      "28099430",
+      "27984733",
+      "27984732",
+      "26472758",
+      "26400175",
+      "25687211",
+      "25430774",
+      "20426451",
+      "15667143",
+      "7108955"
+    ],
+    "similar": [
+      "40640612",
+      "41452988",
+      "39677694",
+      "37154091",
+      "41628222",
+      "38625746",
+      "42411605",
+      "42475469",
+      "38940153",
+      "23704091",
+      "42019216",
+      "41889931",
+      "42167225",
+      "41000745",
+      "27044088",
+      "38760566",
+      "41826830",
+      "23912807",
+      "31110232",
+      "39716183",
+      "38940174",
+      "40593897",
+      "30890156",
+      "42269591",
+      "31784727",
+      "34904892",
+      "40187352",
+      "42067667",
+      "41330380",
+      "26747759",
+      "39226889",
+      "41984780",
+      "42412811",
+      "40631143",
+      "39462106",
+      "41197632",
+      "37989654",
+      "39937081",
+      "42196261",
+      "31628330",
+      "32441252",
+      "31181342",
+      "29019352",
+      "41977443",
+      "40259084",
+      "37602218",
+      "29363560",
+      "22050843",
+      "37875911",
+      "18818370",
+      "40245860",
+      "30753226",
+      "35766512",
+      "38225637",
+      "16166640",
+      "40483517",
+      "37770709",
+      "41350457",
+      "41184550",
+      "41959429",
+      "33081820",
+      "29069390",
+      "37704762",
+      "28082341",
+      "32809547",
+      "41758161",
+      "30530752",
+      "39689711",
+      "37592036",
+      "40501829",
+      "39584702",
+      "36043696",
+      "41394575",
+      "33491336",
+      "29173171",
+      "31363220",
+      "39914388",
+      "40631127",
+      "40831507",
+      "32231336",
+      "30762338",
+      "39522648",
+      "19843882",
+      "33095769",
+      "28985507",
+      "34016988",
+      "28710008",
+      "41044372",
+      "37770710",
+      "40419657",
+      "24021675",
+      "19556247",
+      "41573962",
+      "41436831",
+      "29337374",
+      "40997798",
+      "20573270",
+      "41862973",
+      "27984733",
+      "34930414"
+    ],
+    "review": [
+      "40640612",
+      "42269591",
+      "37989654",
+      "31181342",
+      "37875911",
+      "29173171",
+      "39522648"
+    ],
+    "pmc": [
+      "12322087"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44320-025-00131-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40640612/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40640612",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

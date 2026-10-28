@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41844670",
+    "doi": "10.1038/s41540-026-00684-5",
+    "title": "Context-aware synthetic promoter design using neural networks enables rewiring of eukaryotic transcriptional networks."
+  },
+  "content": {
+    "abstract": "Gene regulation through promoter engineering is a cornerstone of synthetic biology, enabling precise control over transcriptional networks. However, experimental approaches remain labor-intensive. While artificial neural networks (ANNs) have improved regulatory element prediction, tools for promoter-transcription factor binding site (TFBS) recombination are still lacking. We present an ANN framework for context-aware design of synthetic promoters in Saccharomyces cerevisiae. The model predicts optimal TFBS insertion sites and the extent of promoter rewriting needed for successful integration. Applying this, we screened 6,011 native yeast promoters for compatibility with the TetR TFBS, generating a ranked list of high-confidence promoter-TFBS pairs. Experimental validation showed that model-designed promoters achieved repression rates up to 98.4%, without prior experimental characterization or tuning. We further rewired the yeast transcriptional network by introducing glucose-dependent regulation of an essential gene via Mig1 TFBS insertion. These results establish a scalable, predictive method for engineering regulatory sequences and reprogramming transcriptional logic.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic/genetics",
+      "*Gene Regulatory Networks/genetics",
+      "Saccharomyces cerevisiae/genetics",
+      "*Neural Networks, Computer",
+      "Synthetic Biology/methods",
+      "Transcription Factors/genetics/metabolism",
+      "Saccharomyces cerevisiae Proteins/genetics",
+      "Binding Sites/genetics",
+      "Gene Expression Regulation, Fungal/genetics",
+      "Genetic Engineering/methods",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kuhajda, Lukas",
+        "Honzik, Tomas",
+        "Svec, Jan",
+        "Georgiev, Daniel"
+      ],
+      "short_names": [
+        "Kuhajda L",
+        "Honzik T",
+        "Svec J",
+        "Georgiev D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "New Technologies for the Information Society, University of West Bohemia in Pilsen, Pilsen, Czechia.",
+        "New Technologies for the Information Society, University of West Bohemia in Pilsen, Pilsen, Czechia.",
+        "Department of Cybernetics, University of West Bohemia in Pilsen, Pilsen, Czechia.",
+        "Department of Cybernetics, University of West Bohemia in Pilsen, Pilsen, Czechia. georgiev@kky.zcu.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kuhajda, Lukas",
+        "short_name": "Kuhajda L",
+        "identifiers": [],
+        "affiliations": [
+          "New Technologies for the Information Society, University of West Bohemia in Pilsen, Pilsen, Czechia."
+        ]
+      },
+      {
+        "full_name": "Honzik, Tomas",
+        "short_name": "Honzik T",
+        "identifiers": [],
+        "affiliations": [
+          "New Technologies for the Information Society, University of West Bohemia in Pilsen, Pilsen, Czechia."
+        ]
+      },
+      {
+        "full_name": "Svec, Jan",
+        "short_name": "Svec J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cybernetics, University of West Bohemia in Pilsen, Pilsen, Czechia."
+        ]
+      },
+      {
+        "full_name": "Georgiev, Daniel",
+        "short_name": "Georgiev D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cybernetics, University of West Bohemia in Pilsen, Pilsen, Czechia. georgiev@kky.zcu.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2026 Mar 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 07:26",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38217125",
+      "37246641",
+      "36042233",
+      "35551305",
+      "35264797",
+      "34608324",
+      "34113473",
+      "34083762",
+      "32747797",
+      "32424410",
+      "32355169",
+      "30637352",
+      "29588361",
+      "27197224",
+      "27084946",
+      "27045664",
+      "27034378",
+      "25871405",
+      "25722415",
+      "24862902",
+      "24744025",
+      "24627493",
+      "24467947",
+      "24458563",
+      "23607865",
+      "23474465",
+      "22745249",
+      "22446695",
+      "22345607",
+      "21150903",
+      "18985154",
+      "18448704",
+      "17700541",
+      "16406119",
+      "16123130",
+      "15875027",
+      "14970819",
+      "12787501",
+      "10802621",
+      "10659857",
+      "10087931",
+      "9483801",
+      "9435063",
+      "9381177",
+      "9032237",
+      "8529272",
+      "3472723",
+      "2161514"
+    ],
+    "similar": [
+      "41844670",
+      "29566038",
+      "42545751",
+      "25573467",
+      "27325743",
+      "24386279",
+      "20938527",
+      "27973777",
+      "30618248",
+      "29750501",
+      "32355169",
+      "27152757",
+      "19029883",
+      "30850530",
+      "39424601",
+      "31689317",
+      "39245291",
+      "22442681",
+      "24445804",
+      "9858577",
+      "34320991",
+      "32808199",
+      "23921661",
+      "40737869",
+      "22113266",
+      "23950146",
+      "12399584",
+      "22565375",
+      "11563983",
+      "23674068",
+      "24187969",
+      "25810078",
+      "19087243",
+      "23955598",
+      "28531348",
+      "19494041",
+      "41589500",
+      "21106074",
+      "19014615",
+      "27143390",
+      "15556037",
+      "28012062",
+      "20573214",
+      "25056312",
+      "34688814",
+      "9267432",
+      "7663308",
+      "8393142",
+      "18849996",
+      "31051075",
+      "31788779",
+      "27965290",
+      "33180289",
+      "33859035",
+      "40240607",
+      "29620523",
+      "24194933",
+      "23715978",
+      "23589456",
+      "15009095",
+      "29058647",
+      "21627806",
+      "40179610",
+      "10510295",
+      "1924319",
+      "18950675",
+      "32690010",
+      "16356266",
+      "34652274",
+      "22863014",
+      "27016735",
+      "20627890",
+      "22110603",
+      "25204769",
+      "16381908",
+      "33899477",
+      "16528100",
+      "15684073",
+      "39702268",
+      "41581077",
+      "15107850",
+      "38906116",
+      "28369627",
+      "25560196",
+      "14704355",
+      "22609971",
+      "15113405",
+      "15965243",
+      "10781542",
+      "15693953",
+      "30203049",
+      "15053842",
+      "10982825",
+      "17417638",
+      "16885275",
+      "24694393",
+      "27557757",
+      "39068334",
+      "30332327",
+      "21931670"
+    ],
+    "review": [
+      "41844670",
+      "42545751",
+      "39245291",
+      "15556037",
+      "40179610",
+      "33899477"
+    ],
+    "pmc": [
+      "13144678"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-026-00684-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41844670/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

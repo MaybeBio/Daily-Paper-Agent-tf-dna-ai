@@ -1,0 +1,646 @@
+{
+  "identity": {
+    "pmid": "34635656",
+    "doi": "10.1038/s41467-021-26272-1",
+    "title": "Three chromosome-level duck genome assemblies provide insights into genomic variation during domestication."
+  },
+  "content": {
+    "abstract": "Domestic ducks are raised for meat, eggs and feather down, and almost all varieties are descended from the Mallard (Anas platyrhynchos). Here, we report chromosome-level high-quality genome assemblies for meat and laying duck breeds, and the Mallard. Our new genomic databases contain annotations for thousands of new protein-coding genes and recover a major percentage of the presumed \"missing genes\" in birds. We obtain the entire genomic sequences for the C-type lectin (CTL) family members that regulate eggshell biomineralization. Our population and comparative genomics analyses provide more than 36 million sequence variants between duck populations. Furthermore, a mutant cell line allows confirmation of the predicted anti-adipogenic function of NR2F2 in the duck, and uncovered mutations specific to Pekin duck that potentially affect adipose deposition. Our study provides insights into avian evolution and the genetics of oviparity, and will be a rich resource for the future genetic improvement of commercial traits in the duck.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adipogenesis/*genetics",
+      "Adipose Tissue/cytology/metabolism",
+      "Animals",
+      "Avian Proteins/classification/*genetics/metabolism",
+      "Breeding",
+      "COUP Transcription Factor II/*genetics/metabolism",
+      "Domestication",
+      "Ducks/*genetics",
+      "Egg Shell/metabolism",
+      "Female",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "*Genome",
+      "Lectins, C-Type/*genetics/metabolism",
+      "Lipid Metabolism/genetics",
+      "Male",
+      "Molecular Sequence Annotation",
+      "Mutation",
+      "Zygote/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Feng",
+        "Yin, Zhong-Tao",
+        "Wang, Zheng",
+        "Smith, Jacqueline",
+        "Zhang, Fan",
+        "Martin, Fergal",
+        "Ogeh, Denye",
+        "Hincke, Maxwell",
+        "Lin, Fang-Bing",
+        "Burt, David W",
+        "Zhou, Zheng-Kui",
+        "Hou, Shui-Sheng",
+        "Zhao, Qiang-Sen",
+        "Li, Xiao-Qin",
+        "Ding, Si-Ran",
+        "Li, Guan-Sheng",
+        "Yang, Fang-Xi",
+        "Hao, Jing-Pin",
+        "Zhang, Ziding",
+        "Lu, Li-Zhi",
+        "Yang, Ning",
+        "Hou, Zhuo-Cheng"
+      ],
+      "short_names": [
+        "Zhu F",
+        "Yin ZT",
+        "Wang Z",
+        "Smith J",
+        "Zhang F",
+        "Martin F",
+        "Ogeh D",
+        "Hincke M",
+        "Lin FB",
+        "Burt DW",
+        "Zhou ZK",
+        "Hou SS",
+        "Zhao QS",
+        "Li XQ",
+        "Ding SR",
+        "Li GS",
+        "Yang FX",
+        "Hao JP",
+        "Zhang Z",
+        "Lu LZ",
+        "Yang N",
+        "Hou ZC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2813-7872",
+        "ORCID: 0000-0002-1672-050X",
+        "ORCID: 0000-0001-6134-5668",
+        "ORCID: 0000-0002-9991-1028",
+        "ORCID: 0000-0002-5192-2465",
+        "ORCID: 0000-0002-9296-571X",
+        "ORCID: 0000-0001-5772-3320",
+        "ORCID: 0000-0003-4752-2255"
+      ],
+      "affiliations": [
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "The Roslin Institute & R(D)SVS, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+        "Department of Cellular and Molecular Medicine, Department of Innovation in Medical Education, Faculty of Medicine, University of Ottawa, 451 Smyth Road, Ottawa, KIH 8M5, Canada.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "The Roslin Institute & R(D)SVS, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK.",
+        "The University of Queensland, St. Lucia, QLD, 4072, Australia.",
+        "Key Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture and Rural Affairs; State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "Key Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture and Rural Affairs; State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "Beijing Golden-Star Inc., Beijing, 100076, China.",
+        "Beijing Golden-Star Inc., Beijing, 100076, China.",
+        "State Key Laboratory of Agrobiotechnology, College of Biological Sciences, China Agricultural University, Beijing, 100193, China.",
+        "Institute of Animal Husbandry and Veterinary Science, Zhejiang Academy of Agricultural Sciences, Hangzhou, 310021, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China.",
+        "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China. zchou@cau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Feng",
+        "short_name": "Zhu F",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Zhong-Tao",
+        "short_name": "Yin ZT",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheng",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Smith, Jacqueline",
+        "short_name": "Smith J",
+        "identifiers": [
+          "0000-0002-2813-7872"
+        ],
+        "affiliations": [
+          "The Roslin Institute & R(D)SVS, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Martin, Fergal",
+        "short_name": "Martin F",
+        "identifiers": [
+          "0000-0002-1672-050X"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK."
+        ]
+      },
+      {
+        "full_name": "Ogeh, Denye",
+        "short_name": "Ogeh D",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK."
+        ]
+      },
+      {
+        "full_name": "Hincke, Maxwell",
+        "short_name": "Hincke M",
+        "identifiers": [
+          "0000-0001-6134-5668"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, Department of Innovation in Medical Education, Faculty of Medicine, University of Ottawa, 451 Smyth Road, Ottawa, KIH 8M5, Canada."
+        ]
+      },
+      {
+        "full_name": "Lin, Fang-Bing",
+        "short_name": "Lin FB",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Burt, David W",
+        "short_name": "Burt DW",
+        "identifiers": [
+          "0000-0002-9991-1028"
+        ],
+        "affiliations": [
+          "The Roslin Institute & R(D)SVS, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK.",
+          "The University of Queensland, St. Lucia, QLD, 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zheng-Kui",
+        "short_name": "Zhou ZK",
+        "identifiers": [
+          "0000-0002-5192-2465"
+        ],
+        "affiliations": [
+          "Key Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture and Rural Affairs; State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Shui-Sheng",
+        "short_name": "Hou SS",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture and Rural Affairs; State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qiang-Sen",
+        "short_name": "Zhao QS",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao-Qin",
+        "short_name": "Li XQ",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Si-Ran",
+        "short_name": "Ding SR",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guan-Sheng",
+        "short_name": "Li GS",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fang-Xi",
+        "short_name": "Yang FX",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Golden-Star Inc., Beijing, 100076, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Jing-Pin",
+        "short_name": "Hao JP",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Golden-Star Inc., Beijing, 100076, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziding",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-9296-571X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Agrobiotechnology, College of Biological Sciences, China Agricultural University, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Li-Zhi",
+        "short_name": "Lu LZ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Husbandry and Veterinary Science, Zhejiang Academy of Agricultural Sciences, Hangzhou, 310021, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ning",
+        "short_name": "Yang N",
+        "identifiers": [
+          "0000-0001-5772-3320"
+        ],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Zhuo-Cheng",
+        "short_name": "Hou ZC",
+        "identifiers": [
+          "0000-0003-4752-2255"
+        ],
+        "affiliations": [
+          "National Engineering Laboratory for Animal Breeding and Key Laboratory of Animal Genetics, Breeding and Reproduction, MARA; College of Animal Science and Technology, China Agricultural University, No. 2 Yuanmingyuan West Rd, Beijing, 100193, China. zchou@cau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Oct 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/13 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "42511144",
+      "42450702",
+      "42431169",
+      "42063177",
+      "41673320",
+      "41486123",
+      "41421306",
+      "41153941",
+      "40781581",
+      "40489932",
+      "40428310",
+      "40393508",
+      "40336248",
+      "40208415",
+      "40102741",
+      "40045614",
+      "39828703",
+      "39804725",
+      "39741153",
+      "39736931",
+      "39566170",
+      "39510002",
+      "39363174",
+      "39345142",
+      "39258299",
+      "39091784",
+      "38998005",
+      "38929366",
+      "38868520",
+      "38447307",
+      "38397234",
+      "38396553",
+      "38254437",
+      "38129834",
+      "38057566",
+      "38001525",
+      "37931036",
+      "37523777",
+      "37443887",
+      "37395718",
+      "37121996",
+      "36971291",
+      "36763048",
+      "36716736",
+      "36683094",
+      "35967448",
+      "35640266",
+      "35325213",
+      "35281050"
+    ],
+    "refs": [
+      "32050971",
+      "31952469",
+      "31754106",
+      "31669705",
+      "31477016",
+      "31375807",
+      "31290097",
+      "31199868",
+      "30944313",
+      "30611188",
+      "30610207",
+      "30576505",
+      "30481528",
+      "30423142",
+      "30414111",
+      "30398656",
+      "30395331",
+      "30357350",
+      "30018292",
+      "29769347",
+      "29722887",
+      "29635409",
+      "29140470",
+      "29112718",
+      "29027120",
+      "28969617",
+      "28962031",
+      "28486516",
+      "28333384",
+      "27919046",
+      "27852011",
+      "27749838",
+      "27268795",
+      "26519415",
+      "26258291",
+      "26045719",
+      "26040883",
+      "25917302",
+      "25518852",
+      "25516281",
+      "25504712",
+      "25409509",
+      "25260700",
+      "25156517",
+      "24753421",
+      "24695404",
+      "24676480",
+      "24626529",
+      "24185095",
+      "24008419",
+      "23749191",
+      "23644548",
+      "23185243",
+      "23020625",
+      "22797562",
+      "22388286",
+      "22217600",
+      "22201802",
+      "21900150",
+      "20513432",
+      "19505943",
+      "19451168",
+      "19274634",
+      "18428791",
+      "18424795",
+      "18250317",
+      "18190707",
+      "17526529",
+      "17485477",
+      "16845043",
+      "16627734",
+      "15922639",
+      "15263013",
+      "15145805",
+      "14726203",
+      "14500829",
+      "12034836",
+      "11846609",
+      "10802651",
+      "10592173",
+      "10410246",
+      "9862982",
+      "9149143",
+      "7648490",
+      "6733226",
+      "6323992",
+      "6314256",
+      "6027925",
+      "2231712",
+      "1385366"
+    ],
+    "similar": [
+      "34635656",
+      "30735526",
+      "33396489",
+      "33849442",
+      "28899357",
+      "30660177",
+      "25663538",
+      "31952469",
+      "26710879",
+      "30018292",
+      "29771917",
+      "24412807",
+      "23224277",
+      "32165372",
+      "31265113",
+      "24116183",
+      "38129834",
+      "21410945",
+      "24989051",
+      "29684538",
+      "28630415",
+      "26218061",
+      "32049997",
+      "34923880",
+      "33269825",
+      "21819592",
+      "18454809",
+      "34488647",
+      "30950572",
+      "26436390",
+      "19656363",
+      "17012164",
+      "33525657",
+      "33669581",
+      "34745142",
+      "30425731",
+      "24992969",
+      "33058234",
+      "37048411",
+      "34058976",
+      "35502208",
+      "31477016",
+      "30648884",
+      "26630129",
+      "37652165",
+      "33677537",
+      "34841553",
+      "29635409",
+      "29388248",
+      "33007371",
+      "23625204",
+      "34330207",
+      "15205935",
+      "16919729",
+      "17215160",
+      "33372351",
+      "35640266",
+      "31872482",
+      "38789099",
+      "38128789",
+      "27064738",
+      "17675860",
+      "30624718",
+      "28198082",
+      "20674751",
+      "31046421",
+      "28116946",
+      "23050463",
+      "27175015",
+      "30595026",
+      "39427075",
+      "25561294",
+      "36971291",
+      "25917302",
+      "31754106",
+      "33406261",
+      "24865900",
+      "29793441",
+      "38179331",
+      "11719286",
+      "37121157",
+      "16510785",
+      "31838250",
+      "32334113",
+      "28034341",
+      "25966217",
+      "30968708",
+      "39305617",
+      "36677059",
+      "27520070",
+      "30064255",
+      "27260395",
+      "1490583",
+      "38781766",
+      "18957137",
+      "19937201",
+      "36438573",
+      "34847529",
+      "18657864",
+      "21082261",
+      "25445905",
+      "36726023",
+      "31960274",
+      "23148259",
+      "37523777",
+      "29377917",
+      "32787779",
+      "23990950",
+      "38517556",
+      "37931036",
+      "22164198",
+      "38317190",
+      "38806002",
+      "37013465",
+      "38868520",
+      "38929366"
+    ],
+    "review": [
+      "34635656",
+      "17675860"
+    ],
+    "pmc": [
+      "8505442"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-26272-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34635656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34635656",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34635656",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "http://www.arb-silva.de/search/show/ssu/pubid/34635656",
+        "provider": "SILVA",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "SILVA SSU Database"
+      }
+    ],
+    "text_mined": []
+  }
+}

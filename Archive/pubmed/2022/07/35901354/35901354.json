@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "35901354",
+    "doi": "10.31557/APJCP.2022.23.7.2459",
+    "title": "A Comparative Evaluation of Cancer Classification via TP53 Gene Mutations Using Machin Learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Cancer is one of the horrendous diseases. Classifying cancer is founded on identifying cancer-causing mutations in gene sequences. Although genetic analysis can predict certain types of cancer, there is currently no effective method for predicting cancers. Therefore, the purpose of this paper is to predict the cancer types and to find a data mining technique that uses two different machine learning algorithms for classifying cancer. Moreover, earlier detection of the mutated tumor protein P53 gene can predict treatment and gene therapy techniques. METHODS: (UMD-2010) the Universal Mutation Database is used to diagnose mutations in genes. The challenge, however, is that the database very basic. Besides, it is an excel format database. Due to its limitations, the data base cannot be used to classify cancer. In addition, bioinformatics techniques such as pairwise alignment and BLAST are used, followed by machine learning algorithms that use neural network algorithms to classify cancer based on malignant mutations in the TP53 gene, by selecting (12) out of (53) database fields for the TP53 gene database in the second stage. It should be noted that the (UMDCell-line2010) database does not have one of these twelve fields (Field of gene locus). RESULT: As a Utilizing MLP and SVM for training and testing a set number of fields, the Machin learning methods were found to be an effective way to classify cancers. Where the Relative Absolute Error for MLP and SVM is 83.6005 % ,65.6605 %, the accuracy is 90 %, 93.7% respectively. CONCLUSION: Following the learning and testing stages, the mean absolute error (MAE), used to measure the errors was found in the SVM less than the (MAE) in MLP algorithm. we can conclude that using SVM is considered better than the MLP algorithm because the accuracy in SVM better than the accuracy of MLP.",
+    "keywords": [
+      "Bioinformatics",
+      "Classification",
+      "Machin learning",
+      "Neural Networks",
+      "cancer"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Genes, p53",
+      "Humans",
+      "Mutation",
+      "*Neoplasms/genetics",
+      "Neural Networks, Computer",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mikhail, Dina Yousif",
+        "Al-Mukhtar, Firas H",
+        "Kareem, Shahab Wahab"
+      ],
+      "short_names": [
+        "Mikhail DY",
+        "Al-Mukhtar FH",
+        "Kareem SW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Information System Engineering Department, Technical Engineering College, Erbil Polytechnic University, Erbil, Iraq.",
+        "Department of Information Technology & Computer science, Catholic University in Erbil, Iraq.",
+        "Department of Information Technology, College of Engineering and Computer Science, Lebanese French University, Erbil, Iraq."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mikhail, Dina Yousif",
+        "short_name": "Mikhail DY",
+        "identifiers": [],
+        "affiliations": [
+          "Information System Engineering Department, Technical Engineering College, Erbil Polytechnic University, Erbil, Iraq."
+        ]
+      },
+      {
+        "full_name": "Al-Mukhtar, Firas H",
+        "short_name": "Al-Mukhtar FH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology & Computer science, Catholic University in Erbil, Iraq."
+        ]
+      },
+      {
+        "full_name": "Kareem, Shahab Wahab",
+        "short_name": "Kareem SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, College of Engineering and Computer Science, Lebanese French University, Erbil, Iraq."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Asian Pacific journal of cancer prevention : APJCP"
+    ],
+    "journal_abbrev": [
+      "Asian Pac J Cancer Prev"
+    ],
+    "pub_date": "2022 Jul 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "41841102",
+      "38096313",
+      "38076050"
+    ],
+    "refs": [
+      "35225473",
+      "33498339",
+      "33057328",
+      "31835684",
+      "25732671",
+      "12610533",
+      "2231712"
+    ],
+    "similar": [
+      "35901354",
+      "34750410",
+      "41053756",
+      "25077572",
+      "34341396",
+      "40183298",
+      "35781590",
+      "23161690",
+      "39852681",
+      "34883032",
+      "36239727",
+      "29903487",
+      "27880943",
+      "29404850",
+      "20409990",
+      "31521253",
+      "30542790",
+      "12619103",
+      "38546090",
+      "35883535",
+      "17496437",
+      "38250147",
+      "33317871",
+      "22503644",
+      "38976190",
+      "35043155",
+      "32971129",
+      "24665023",
+      "34528189",
+      "35280713",
+      "23168175",
+      "38153859",
+      "31554353",
+      "31035958",
+      "35896038",
+      "39295255",
+      "22628563",
+      "35328048",
+      "35669670",
+      "20504346",
+      "36471402",
+      "37987977",
+      "40444411",
+      "29394005",
+      "36261636",
+      "32723242",
+      "30084593",
+      "32007736",
+      "19863819",
+      "36321557",
+      "37740767",
+      "34930937",
+      "36654066",
+      "27328919",
+      "35079034",
+      "21704230",
+      "31216622",
+      "17606709",
+      "35371256",
+      "16161005",
+      "40524430",
+      "36308351",
+      "17311302",
+      "21343334",
+      "33233358",
+      "32125890",
+      "27630122",
+      "40262626",
+      "40596560",
+      "27626311",
+      "16173033",
+      "38144565",
+      "38300437",
+      "38069266",
+      "35771720",
+      "39888730",
+      "35845866",
+      "8666367",
+      "30832569",
+      "37537230",
+      "15732402",
+      "17570145",
+      "37447852",
+      "36401182",
+      "12457032",
+      "31946643",
+      "24374933",
+      "36096144",
+      "18366602",
+      "20572016",
+      "38215928",
+      "41053612",
+      "41345436",
+      "36232628",
+      "30075670",
+      "35597830",
+      "19336573",
+      "38200512",
+      "37161202",
+      "20522432"
+    ],
+    "review": [
+      "35901354",
+      "12619103",
+      "17496437",
+      "24665023",
+      "23168175",
+      "36321557",
+      "21704230"
+    ],
+    "pmc": [
+      "9727340"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35901354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35901354",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://journal.waocp.org/?sid=Entrez:PubMed&id=pmid:35901354&key=2022.23.7.2459",
+        "provider": "Asian Pacific Organization for Cancer Prevention",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38863710",
+  "title": "Interpretable deep learning reveals the role of an E-box motif in suppressing somatic hypermutation of AGCT motifs within human immunoglobulin variable regions.",
+  "authors": "Tambe, Abhik; MacCarthy, Thomas; Pavri, Rushad",
+  "journal": "Frontiers in immunology",
+  "published_date": "2024-06-12",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用可解释深度学习模型DeepSHM预测并解析免疫球蛋白可变区AGCT基序的体细胞超突变位置偏好，发现E-box转录因子结合基序CAGCTG对突变的抑制作用，虽涉及TF-DNA结合基序与突变调控，但核心是突变预测而非TF-DNA互作机制建模，方法可迁移但对象和互作轴偏弱。",
+  "abstract": "INTRODUCTION: Somatic hypermutation (SHM) of immunoglobulin variable (V) regions by activation induced deaminase (AID) is essential for robust, long-term humoral immunity against pathogen and vaccine antigens. AID mutates cytosines preferentially within WRCH motifs (where W=A or T, R=A or G and H=A, C or T). However, it has been consistently observed that the mutability of WRCH motifs varies substantially, with large variations in mutation frequency even between multiple occurrences of the same motif within a single V region. This has led to the notion that the immediate sequence context of WRCH motifs contributes to mutability. Recent studies have highlighted the potential role of local DNA sequence features in promoting mutagenesis of AGCT, a commonly mutated WRCH motif. Intriguingly, AGCT motifs closer to 5' ends of V regions, within the framework 1 (FW1) sub-region1, mutate less frequently, suggesting an SHM-suppressing sequence context. METHODS: Here, we systematically examined the basis of AGCT positional biases in human SHM datasets with DeepSHM, a machine-learning model designed to predict SHM patterns. This was combined with integrated gradients, an interpretability method, to interrogate the basis of DeepSHM predictions. RESULTS: DeepSHM predicted the observed positional differences in mutation frequencies at AGCT motifs with high accuracy. For the conserved, lowly mutating AGCT motifs in FW1, integrated gradients predicted a large negative contribution of 5'C and 3'G flanking residues, suggesting that a CAGCTG context in this location was suppressive for SHM. CAGCTG is the recognition motif for E-box transcription factors, including E2A, which has been implicated in SHM. Indeed, we found a strong, inverse relationship between E-box motif fidelity and mutation frequency. Moreover, E2A was found to associate with the V region locale in two human B cell lines. Finally, analysis of human SHM datasets revealed that naturally occurring mutations in the 3'G flanking residues, which effectively ablate the E-box motif, were associated with a significantly increased rate of AGCT mutation. DISCUSSION: Our results suggest an antagonistic relationship between mutation frequency and the binding of E-box factors like E2A at specific AGCT motif contexts and, therefore, highlight a new, suppressive mechanism regulating local SHM patterns in human V regions.",
+  "abstract_zh": "引言：通过激活诱导脱氨酶（activation induced deaminase, AID）对免疫球蛋白可变（V）区进行体细胞超突变（somatic hypermutation, SHM）对于针对病原体和疫苗抗原的强效、长期体液免疫至关重要。AID优先在WRCH基序（其中W=A或T，R=A或G，H=A、C或T）内突变胞嘧啶。然而，人们一直观察到WRCH基序的可突变性差异显著，即使在单个V区内同一基序的多次出现之间，突变频率也存在巨大差异。这导致了一种观点，即WRCH基序的直接序列背景对其可突变性有贡献。近期研究强调了局部DNA序列特征在促进AGCT（一种常见突变的WRCH基序）诱变中的潜在作用。有趣的是，靠近V区5'端、位于框架1（FW1）亚区1内的AGCT基序突变频率较低，提示存在一种抑制SHM的序列背景。方法：在此，我们利用DeepSHM（一种旨在预测SHM模式的机器学习模型）系统研究了人类SHM数据集中AGCT位置偏倚的基础。这结合了积分梯度（一种可解释性方法），以探究DeepSHM预测的基础。结果：DeepSHM以高精度预测了AGCT基序突变频率的观察位置差异。对于FW1中保守且低突变的AGCT基序，积分梯度预测5'C和3'G侧翼残基具有大的负贡献，提示该位置的CAGCTG背景对SHM具有抑制作用。CAGCTG是E-box转录因子（包括E2A）的识别基序，而E2A已被认为与SHM相关。确实，我们发现E-box基序保真度与突变频率之间存在强烈的反向关系。此外，在两种人类B细胞系中发现E2A与V区局部区域相关联。最后，对人类SHM数据集的分析揭示，3'G侧翼残基中的自然发生突变（有效消除E-box基序）与AGCT突变率显著增加相关。讨论：我们的结果提示，在特定AGCT基序背景下，突变频率与E-box因子（如E2A）结合之间存在拮抗关系，因此，突显了一种调控人类V区局部SHM模式的新型抑制机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38863710/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38863710/",
+  "paper_page_path": "papers/pubmed/38863710/index.html"
+}

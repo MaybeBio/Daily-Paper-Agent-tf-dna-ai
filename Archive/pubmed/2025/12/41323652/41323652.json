@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "41323652",
+    "doi": "10.3389/fnagi.2025.1597511",
+    "title": "Integrated analysis of N-glycosylation and Alzheimer's disease: identifying key biomarkers and mechanisms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD) is the most prevalent cause of dementia in the elderly, imposing a significant societal burden. Current therapeutic approaches primarily address symptoms, underscoring the critical need to elucidate its pathogenesis and identify robust early biomarkers. N-glycosylation, a critical post-translational modification, is dysregulated in neurodegenerative disorders, yet its role in AD and diagnostic potential remain underexplored. OBJECTIVE: This investigation aimed to characterize the interplay between N-glycosylation and AD through multi-dimensional bioinformatics analysis, identify core differentially expressed genes (DEGs) associated with this crosstalk, and evaluate their diagnostic efficacy in early AD detection. METHODS: A bibliometric analysis of Web of Science literature spanning 2001-2025 was performed using VOSviewer, CiteSpace, and R. Transcriptomic data were analyzed with LIMMA to identify DEGs. Feature prioritization and molecular interaction decoding were achieved through Lasso, Random Forest, XGBoost, and SHAP analysis. RESULTS: Bibliometric analysis highlighted a shift toward granular molecular mechanisms, with \"bisecting GlcNAc\" and \"GNT-III (MGAT3)\" emerging as key research topics. Differential expression profiling identified 6,845 DEGs, including TMEM59, MLEC, and MAX. Machine learning algorithms consistently prioritized these three genes as core N-glycosylation-related biomarkers, alongside APP as a key associated molecule. Among transcription factors, MAX was identified as a central regulator, with a subset of 8 factors (including MAX and BRD9) pinpointed as critical modulators of N-glycosylation and glial activation in AD. Diagnostic models demonstrated strong performance: logistic regression achieved an AUC of 0.947 with MAX, APP, and MLEC; Random Forest and XGBoost attained perfect AUC = 1.0 in primary analyses; and a clinical nomogram integrating core genes yielded an AUC of 0.899. SHAP analysis confirmed MAX, APP, MLEC, and TMEM59 as top predictors, revealing significant positive interactions between MLEC and TMEM59 (p = 0.00019) and a negative interaction between MAX and MGAT3 (p = 0.0288). Notably, MAX alone served as a impactful single-gene biomarker, with AUC values ranging from 0.644 to 0.898 across external validation. CONCLUSION: MAX, MLEC, and TMEM59 represent key N-glycosylation-linked diagnostic biomarkers for AD. This integrative framework provides novel insights into AD pathogenesis and lays the foundation for personalized diagnostic tools and therapies, warranting experimental validation.",
+    "keywords": [
+      "Alzheimer's disease",
+      "N-glycosylation",
+      "diagnostic biomarkers",
+      "machine learning",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hao",
+        "Chen, WenJun",
+        "Yuan, ShuYou",
+        "Cai, Bo",
+        "Ding, ShaoXiang",
+        "Bao, HongXia",
+        "Sun, JunKai",
+        "Lu, Wei",
+        "Zhu, HaoGang"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Chen W",
+        "Yuan S",
+        "Cai B",
+        "Ding S",
+        "Bao H",
+        "Sun J",
+        "Lu W",
+        "Zhu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Department of Neurology, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Department of Laboratory, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Department of Pathology, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, WenJun",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, ShuYou",
+        "short_name": "Yuan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Bo",
+        "short_name": "Cai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Ding, ShaoXiang",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Bao, HongXia",
+        "short_name": "Bao H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, JunKai",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wei",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, HaoGang",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in aging neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Aging Neurosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/01 12:28",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "41929970"
+    ],
+    "refs": [
+      "41079451",
+      "41042700",
+      "40786940",
+      "40717728",
+      "40654813",
+      "40314575",
+      "39723328",
+      "39690817",
+      "39135555",
+      "37930896",
+      "37188790",
+      "36882691",
+      "36468008",
+      "36180553",
+      "33337366",
+      "33195275",
+      "33019139",
+      "32859206",
+      "31638736",
+      "31400430",
+      "31282275",
+      "30181269",
+      "29760644",
+      "28554385",
+      "28266015",
+      "27557535",
+      "27104897",
+      "23931436",
+      "23376921",
+      "21859806",
+      "21813736",
+      "21091052",
+      "19158417",
+      "12727205",
+      "12676319"
+    ],
+    "similar": [
+      "41323652",
+      "39507054",
+      "41291841",
+      "41415264",
+      "40315768",
+      "40808948",
+      "39920860",
+      "37491248",
+      "40207815",
+      "39394418",
+      "40901474",
+      "41390089",
+      "36195955",
+      "40725485",
+      "41265166",
+      "41320776",
+      "39730451",
+      "41132791",
+      "40636523",
+      "41044520",
+      "41364313",
+      "41214767",
+      "41449193",
+      "40025954",
+      "40825025",
+      "41220724",
+      "40304918",
+      "39857095",
+      "40547214",
+      "40791849",
+      "34194312",
+      "41169155",
+      "41143248",
+      "41200172",
+      "40642087",
+      "40596702",
+      "40916281",
+      "37434738",
+      "41424060",
+      "41024255",
+      "37545529",
+      "40520536",
+      "40899950",
+      "40328901",
+      "39616855",
+      "40500570",
+      "41390349",
+      "41009659",
+      "38537674",
+      "40830558",
+      "40552285",
+      "41104127",
+      "36875704",
+      "37520121",
+      "41121436",
+      "41242442",
+      "40980038",
+      "41199372",
+      "36408104",
+      "41146472",
+      "41080564",
+      "41049291",
+      "25592972",
+      "36569892",
+      "41081092",
+      "40519720",
+      "40076442",
+      "41305834",
+      "40540134",
+      "40362669",
+      "41300841",
+      "41037154",
+      "41088987",
+      "39588536",
+      "40034343",
+      "41461777",
+      "39584743",
+      "40177250",
+      "40685632",
+      "41388523",
+      "39754246",
+      "41151411",
+      "41004623",
+      "41115648",
+      "34308907",
+      "41437287",
+      "35966794",
+      "41006883",
+      "38808722",
+      "40695719",
+      "40033432",
+      "28465241",
+      "40129981",
+      "40842654",
+      "39142001",
+      "38595695",
+      "40418571",
+      "40522559",
+      "39875978",
+      "40165133"
+    ],
+    "review": [
+      "41323652",
+      "40025954"
+    ],
+    "pmc": [
+      "12657396"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41323652/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnagi.2025.1597511",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

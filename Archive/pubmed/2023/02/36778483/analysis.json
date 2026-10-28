@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36778483",
+  "title": "Single-cell multi-omic topic embedding reveals cell-type-specific and COVID-19 severity-related immune signatures.",
+  "authors": "Zhou, Manqi; Zhang, Hao; Baii, Zilong; Mann-Krzisnik, Dylan; Wang, Fei; Li, Yue",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-02-14",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出单细胞多组学主题嵌入模型moETM，整合转录组与染色质可及性数据识别免疫相关转录因子基序，但核心是单细胞多组学整合分析，而非蛋白质-DNA互作建模或TF-DNA结合机制研究，方法上虽用深度学习但未聚焦互作预测或物理模拟，仅间接涉及TF基序识别。",
+  "abstract": "The advent of single-cell multi-omics sequencing technology makes it possible for re-searchers to leverage multiple modalities for individual cells and explore cell heterogeneity. However, the high dimensional, discrete, and sparse nature of the data make the downstream analysis particularly challenging. Most of the existing computational methods for single-cell data analysis are either limited to single modality or lack flexibility and interpretability. In this study, we propose an interpretable deep learning method called multi-omic embedded topic model (moETM) to effectively perform integrative analysis of high-dimensional single-cell multimodal data. moETM integrates multiple omics data via a product-of-experts in the encoder for efficient variational inference and then employs multiple linear decoders to learn the multi-omic signatures of the gene regulatory programs. Through comprehensive experiments on public single-cell transcriptome and chromatin accessibility data (i.e., scRNA+scATAC), as well as scRNA and proteomic data (i.e., CITE-seq), moETM demonstrates superior performance compared with six state-of-the-art single-cell data analysis methods on seven publicly available datasets. By applying moETM to the scRNA+scATAC data in human bone marrow mononuclear cells (BMMCs), we identified sequence motifs corresponding to the transcription factors that regulate immune gene signatures. Applying moETM analysis to CITE-seq data from the COVID-19 patients revealed not only known immune cell-type-specific signatures but also composite multi-omic biomarkers of critical conditions due to COVID-19, thus providing insights from both biological and clinical perspectives.",
+  "abstract_zh": "单细胞多组学测序技术的出现使得研究人员能够利用多种模态信息对单个细胞进行分析，并探索细胞异质性。然而，数据的高维性、离散性和稀疏性使得下游分析尤为具有挑战性。现有的大多数单细胞数据分析计算方法要么局限于单一模态，要么缺乏灵活性和可解释性。在本研究中，我们提出了一种可解释的深度学习方法，称为多组学嵌入式主题模型（moETM），以有效执行高维单细胞多模态数据的整合分析。moETM通过编码器中的专家乘积（product-of-experts）整合多种组学数据，以实现高效的变分推断，随后采用多个线性解码器学习基因调控程序的多组学特征。通过对公共单细胞转录组和染色质可及性数据（即scRNA+scATAC）以及单细胞RNA和蛋白质组数据（即CITE-seq）的综合实验，moETM在七个公开数据集上展示了优于六种最先进的单细胞数据分析方法的性能。将moETM应用于人类骨髓单核细胞（BMMCs）的scRNA+scATAC数据，我们识别出与调控免疫基因特征的转录因子相对应的序列基序。将moETM分析应用于COVID-19患者的CITE-seq数据，不仅揭示了已知的免疫细胞类型特异性特征，还发现了COVID-19重症状态的复合多组学生物标志物，从而从生物学和临床角度提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36778483/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36778483/",
+  "paper_page_path": "papers/pubmed/36778483/index.html"
+}

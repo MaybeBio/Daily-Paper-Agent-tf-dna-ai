@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose HighPlay, a method integrating Monte Carlo Tree Search (MCTS) reinforcement learning with the HighFold structure prediction model, to design cyclic peptide sequences from target protein sequence information alone. The method is claimed to achieve synergistic optimization of sequence and binding site, dynamically explore sequence space without predefined target information, and produce candidates with good binding affinity for three targets, with micromolar-level affinity experimentally confirmed for a TEAD4-targeting peptide.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, figures, or experimental protocols are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, molecular dynamics simulation parameters and results, experimental binding assay details, sequence data, comparator benchmarks, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of reinforcement learning to cyclic peptide design, but the claims substantially exceed what can be evaluated from the provided material. The central assertion of "synergistic optimization" and "dynamic exploration without predefined target information" is not supported by any methodological detail. The experimental validation for TEAD4 is mentioned only as "micromolar-level affinity," which is a modest result that does not by itself establish broad utility. The abstract lacks quantitative comparisons to existing methods, which is essential for assessing whether HighPlay offers meaningful advances over current approaches.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on peptide therapeutics would be the primary audience. Researchers developing AI-driven drug design methods, particularly those applying reinforcement learning to molecular generation, would also find the approach relevant. The potential to reduce experimental burden in cyclic peptide discovery could interest medicinal chemists in both academic and industrial settings.
+- **Major strengths** The integration of reinforcement learning with structure prediction is a reasonable conceptual direction. The claim of designing from sequence information alone, if substantiated, would represent a practical simplification. The inclusion of experimental validation, even at micromolar level, is a positive step beyond purely computational studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "integrates reinforcement learning (MCTS) with the HighFold structural prediction model" and achieves "synergistic optimization of cyclic peptide sequences and binding sites"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no description of how MCTS and HighFold are integrated, what the state and action spaces are, how the reward function is defined, or how binding site optimization is coupled to sequence generation. Without this information, the core methodological claim cannot be assessed.
+  - **Why it matters** The novelty of the work rests on the specific integration mechanism. If the integration is trivial or the reward function is poorly designed, the claimed advantages over existing methods would not hold. The phrase "synergistic optimization" implies a coupled process that must be technically demonstrated.
+  - **Resolution test** Provide a clear description of the algorithmic architecture, including the state representation, action space, reward formulation, and the specific role of HighFold in the loop. A pseudocode or schematic diagram would be necessary.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "was applied to the design of cyclic peptide sequences for three different targets, which were screened and verified through molecular dynamics simulations, demonstrating good binding affinity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are provided for any of the three targets. "Good binding affinity" is undefined, and no binding energies, simulation convergence criteria, or comparison to known binders are given. The experimental validation is limited to one target with "micromolar-level affinity," which is a weak benchmark for therapeutic relevance.
+  - **Why it matters** Without quantitative results, the reader cannot judge whether the method produces useful candidates. Micromolar affinity for a cyclic peptide is not by itself compelling, and the absence of data for the other two targets leaves the generalizability claim unsupported.
+  - **Resolution test** Provide binding affinity values for all three targets from simulations, with appropriate error estimates and comparison to controls or known binders. For the experimental validation, report the full dose-response curve, the assay used, and the positive and negative controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and comparative positioning
+  - **Claim pointer** The abstract states that existing methods "face challenges such as limited molecular diversity, high cost, and time-consuming" and implies HighPlay addresses these limitations
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No comparison to existing cyclic peptide design methods is provided. The abstract does not name any prior method, nor does it present benchmarks showing that HighPlay achieves greater diversity, lower cost, or faster design cycles.
+  - **Why it matters** The claim of improvement over existing approaches is central to the paper's significance. Without a direct comparison, the contribution cannot be positioned within the field, and the stated limitations of prior work may not apply to the most recent methods.
+  - **Resolution test** Include a benchmark section comparing HighPlay to at least two existing methods on the same targets, with metrics for sequence diversity, computational cost, and success rate in binding prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "without the need for predefined target information" is confusing, as the method is stated to use "target protein sequence information." These two statements appear contradictory.
+  - **Required correction** Clarify what is meant by "predefined target information." If the method uses only sequence and not structure, state this explicitly. If it requires some target features, describe them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code availability, data availability, or whether HighFold is publicly accessible.
+  - **Required correction** State in the abstract or methods whether the code and models are publicly available, and provide a repository link if applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "HighPlay" naming
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The name "HighPlay" is not defined or justified. It is unclear whether it refers to a software package, a web server, or a conceptual framework.
+  - **Required correction** Briefly define what HighPlay is as a deliverable, and clarify its relationship to HighFold.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The integration mechanism, quantitative results, and comparative positioning are all unsubstantiated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: the combination of MCTS with structure prediction for cyclic peptides is a plausible niche contribution, but the abstract does not demonstrate conceptual novelty beyond existing generative methods. Scientific importance: the potential to reduce experimental burden in peptide design is relevant, but micromolar affinity for one target is not a strong demonstration of impact. Interdisciplinary readership: the work sits at the interface of machine learning, structural biology, and medicinal chemistry, which could attract broad interest if the results are compelling. Technical soundness: cannot be assessed from the abstract; the lack of algorithmic detail is a critical gap. Readability for nonspecialists: the abstract is generally accessible, though the phrase "synergistic optimization" and the contradiction regarding target information reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, quantitative results, or comparative benchmarks to support the central claims. A full manuscript with detailed methods, complete results for all three targets, and direct comparison to existing approaches would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "synergistic optimization of cyclic peptide sequences and binding sites" is unsupported without algorithmic details.
+- The claim of "dynamic exploration of sequence space without the need for predefined target information" is internally inconsistent with the stated use of target sequence information.
+- The claim of "good binding affinity" for three targets is unsupported by any quantitative data.
+- The claim that the method addresses limitations of existing approaches is unsupported without comparative benchmarks.
+- The experimental result of "micromolar-level affinity" for TEAD4 is reported without assay details, controls, or context, making it uninterpretable as a standalone claim.

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "36183965",
+    "doi": "10.1016/j.bbadis.2022.166561",
+    "title": "Pan-cancer analysis of Chromobox (CBX) genes for prognostic significance and cancer classification."
+  },
+  "content": {
+    "abstract": "Polycomb group of proteins play a significant role in chromatin remodelling essential for epigenetic regulation of transcription. Chromobox (CBX) gene family is an important part of canonical polycomb repressive complex 1 (PRC1), belonging to the polycomb group involved in chromatin remodelling. Aberrations in CBX expression are linked to various cancers. To assess their biomarker significance, we performed a pan-cancer analysis of CBX mRNA levels in 18 cancer types. We also performed cancer classification using CBX genes as distinctive features for machine learning model development. Logistic regression (L.R.), support vector machine (SVM), random forest (R.F.), decision tree (D.T.), and XGBoost (XGB) algorithms for model training and classification. The expression of CBX genes was significantly changed in four cancer types, i.e., cholangiocarcinoma (CHOL), colon adenocarcinoma (COAD), lung adenocarcinoma (LUAD), and lung squamous cell carcinoma (LUSC). The fold change (FC) values suggest that CBX2 was significantly upregulated in CHOL (FC = 1.639), COAD (FC = 1.734), and LUSC (FC = 1.506). On the other hand, CBX7 was found downregulated in COAD (FC = -1.209), LUAD (FC = -1.190), and LUSC (FC = -1.214). The performance of machine learning models for classification was excellent. L.R., R.F., SVM, and XGB obtained a prediction accuracy of 100 % for most cancers. However, D.T. performed comparatively poorly in prediction accuracy. The results suggest that CBX expression is significantly altered in all the cancers studied; therefore, they might be treated as potential biomarkers for therapeutic intervention of these cancers.",
+    "keywords": [
+      "CBX genes",
+      "Cancer classification",
+      "Chromatin remodelling",
+      "Epigenetic regulation",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenocarcinoma/genetics",
+      "Epigenesis, Genetic",
+      "Polycomb Repressive Complex 1/genetics",
+      "*Polycomb-Group Proteins/genetics",
+      "Prognosis",
+      "*Carcinoma/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naqvi, Ahmad Abu Turab",
+        "Rizvi, Syed Afzal Murtaza",
+        "Hassan, Md Imtaiyaz"
+      ],
+      "short_names": [
+        "Naqvi AAT",
+        "Rizvi SAM",
+        "Hassan MI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Jamia Millia Islamia, New Delhi 110025, India.",
+        "Department of Computer Science, Jamia Millia Islamia, New Delhi 110025, India. Electronic address: sarizvi@jmi.ac.in.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India. Electronic address: mihassan@jmi.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naqvi, Ahmad Abu Turab",
+        "short_name": "Naqvi AAT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Rizvi, Syed Afzal Murtaza",
+        "short_name": "Rizvi SAM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, New Delhi 110025, India. Electronic address: sarizvi@jmi.ac.in."
+        ]
+      },
+      {
+        "full_name": "Hassan, Md Imtaiyaz",
+        "short_name": "Hassan MI",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi 110025, India. Electronic address: mihassan@jmi.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Molecular basis of disease"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Mol Basis Dis"
+    ],
+    "pub_date": "2023 Jan 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/03 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "42094796",
+      "41219497",
+      "40861818",
+      "40806514",
+      "40714923",
+      "39987187",
+      "39896419",
+      "39456039",
+      "39175037",
+      "38946868",
+      "38427207",
+      "38383836",
+      "38213143",
+      "37696812"
+    ],
+    "refs": [],
+    "similar": [
+      "36183965",
+      "33082469",
+      "24793759",
+      "34896523",
+      "37733753",
+      "21282530",
+      "33344640",
+      "37756159",
+      "25065329",
+      "32979540",
+      "35210369",
+      "38427207",
+      "29190923",
+      "32860274",
+      "18927235",
+      "31211140",
+      "33950564",
+      "38426219",
+      "35969177",
+      "32230868",
+      "23502315",
+      "34715055",
+      "36890004",
+      "25232004",
+      "32894652",
+      "29723807",
+      "30514760",
+      "31177918",
+      "37553450",
+      "34321009",
+      "22226355",
+      "36361869",
+      "34790394",
+      "37243607",
+      "31755685",
+      "26807715",
+      "31937053",
+      "34035231",
+      "33400401",
+      "31965994",
+      "32257050",
+      "29073373",
+      "35254116",
+      "18316406",
+      "35646140",
+      "34172784",
+      "34966411",
+      "35782736",
+      "29459770",
+      "35464847",
+      "35282653",
+      "30357595",
+      "34531868",
+      "33209492",
+      "34500520",
+      "31199242",
+      "27723458",
+      "24375438",
+      "34471502",
+      "35682651",
+      "30023485",
+      "36566204",
+      "35521553",
+      "35692759",
+      "37009012",
+      "34117289",
+      "25449062",
+      "27614332",
+      "21402785",
+      "26431491",
+      "37189494",
+      "33053359",
+      "35342353",
+      "34745015",
+      "28018136",
+      "30481161",
+      "19791798",
+      "27102007",
+      "28454437",
+      "22419124",
+      "33549049",
+      "36034290",
+      "27659983",
+      "28839133",
+      "36292141",
+      "30066858",
+      "36460465",
+      "25225902",
+      "35155439",
+      "35331963",
+      "33602871",
+      "31753799",
+      "34266781",
+      "28049731",
+      "34426021",
+      "28454227",
+      "33240468",
+      "27705745",
+      "19602592",
+      "27291091",
+      "36076977",
+      "38779967"
+    ],
+    "review": [
+      "36183965",
+      "24793759",
+      "25065329",
+      "32979540",
+      "38426219",
+      "31177918",
+      "25225902",
+      "34266781",
+      "34426021",
+      "36076977"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0925-4439(22)00232-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

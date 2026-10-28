@@ -1,68 +1,76 @@
 ## Review setup
 - **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
-- **Shared manuscript claim summary** The authors report that advantame (ADV) binds to calf thymus DNA (ct-DNA) predominantly via intercalation and to human serum albumin (HSA) at Sudlow's site I, with static quenching and hydrophobic interactions driving the HSA interaction, as supported by multispectroscopic and molecular docking analyses.
-- **Visible evidence base** Abstract text only; no experimental spectra, docking scores, or statistical parameters are provided
-- **Missing materials affecting confidence** Full methods, all figures and tables, docking parameters, thermodynamic data, and any statistical analyses
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The study reports that advantame binds calf thymus DNA predominantly via intercalation and human serum albumin at Sudlow's site I via static quenching and hydrophobic interactions, as determined by multispectroscopic methods and molecular docking.
+- **Visible evidence base** Abstract text only; no figures, tables, spectra, or docking parameters provided
+- **Missing materials affecting confidence** Full manuscript, experimental spectra, quantitative binding constants, thermodynamic values, docking scores, statistical analyses, and methodological details
 
 ## Reviewer
-- **Overall assessment** The abstract presents a plausible and well-structured study on the molecular interactions of advantame with two biologically relevant macromolecules. The combination of spectroscopic techniques with molecular docking is appropriate for the stated aims. However, the abstract alone does not provide sufficient quantitative evidence to verify the strength of the claims, particularly regarding binding constants, thermodynamic parameters, and docking scores. The conclusions are broadly consistent with the described methodology, but the absence of numerical data limits the ability to assess technical rigor.
-- **Who would be interested in the results, and why** Researchers in food safety, toxicology, and biophysical chemistry would find these results relevant, as they address the molecular fate of a widely used artificial sweetener in biological systems. The study also has potential implications for regulatory assessment of food additives and for understanding structure-activity relationships of aspartame derivatives.
-- **Major strengths** The study integrates multiple complementary spectroscopic techniques with computational docking, which strengthens the internal consistency of the conclusions. The use of competitive displacement assays and site-marker experiments to identify binding sites is methodologically sound. The abstract clearly distinguishes between the two macromolecular targets and provides a coherent mechanistic narrative for each.
+- **Overall assessment** The abstract presents a plausible and well-structured study on the molecular interactions of advantame with two biologically relevant macromolecules. The combination of spectroscopic techniques with molecular docking is appropriate for the stated aims. However, the abstract lacks quantitative data, methodological specifics, and statistical validation, which limits the ability to assess the robustness of the conclusions. The claims are internally consistent but cannot be independently verified from the supplied material.
+- **Who would be interested in the results, and why** Researchers in food safety, toxicology, and molecular biophysics would find these results relevant, as they address the biological fate of a widely used artificial sweetener. The study also speaks to the broader field of ligand-macromolecule interactions, which is of interest to computational chemists and structural biologists.
+- **Major strengths** The study integrates multiple complementary spectroscopic techniques with molecular docking, which strengthens the credibility of the binding mode assignments. The use of competitive displacement assays and site-marker experiments for HSA is methodologically sound. The conclusions are presented in a clear and logical sequence.
 - **Major Concerns** 
   - **Concern ID** R1-M1
   - **Severity** Major
   - **Blocking** Yes
   - **Axis** Quantitative evidence
-  - **Claim pointer** The abstract claims "strong" interaction with ct-DNA and "preferential" binding to Sudlow's site I on HSA, with a "predominantly static quenching mechanism" and "spontaneous binding process mainly driven by hydrophobic interactions."
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** The abstract reports qualitative outcomes (e.g., "significant hypochromism," "slight increase in alpha-helical content") without providing any numerical values such as binding constants, quenching constants, thermodynamic parameters (ΔG, ΔH, ΔS), or docking energies. Without these data, the strength of the interactions and the proposed mechanisms cannot be independently evaluated.
-  - **Why it matters** Quantitative parameters are essential for substantiating claims of binding affinity, mode, and driving forces. The absence of these values prevents readers from assessing whether the conclusions are robust or merely suggestive.
-  - **Resolution test** Provide binding constants (e.g., Kb, Ksv), thermodynamic values, and docking scores in the full manuscript, and ensure the abstract includes at least the key numerical results that support the main claims.
+  - **Claim pointer** The abstract claims "significant hypochromism, a bathochromic shift, fluorescence quenching, competitive displacement assays, circular dichroism, and viscosity measurements" as evidence for intercalative binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative values are provided for any of the spectroscopic measurements. The magnitude of hypochromism, the extent of the bathochromic shift, the Stern-Volmer quenching constants, and the viscosity ratios are all absent. Without these numbers, the strength of the interaction and the validity of the intercalation assignment cannot be evaluated.
+  - **Why it matters** Intercalation is a strong structural claim that requires quantitative support. For example, viscosity measurements should show a significant increase in DNA length upon intercalation, and fluorescence quenching should yield a binding constant within a reasonable range. The absence of these data makes the claim unverifiable.
+  - **Resolution test** Provide the numerical values for all spectroscopic parameters, including binding constants, quenching constants, and viscosity changes, with appropriate error margins and statistical significance.
   - **Concern ID** R1-M2
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Methodological transparency
-  - **Claim pointer** The abstract states that "molecular docking further corroborated the experimental findings" for both ct-DNA and HSA.
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** No details are given regarding the docking software, scoring functions, or the criteria used to define a "stable" complex. The claim of corroboration is therefore not verifiable from the abstract.
-  - **Why it matters** Docking results are highly dependent on the chosen parameters and scoring functions. Without this information, the computational support for the experimental conclusions cannot be assessed.
-  - **Resolution test** Specify the docking protocol, including software version, force field, and validation steps, and report the relevant scores and interaction energies in the full manuscript.
+  - **Axis** Thermodynamic interpretation
+  - **Claim pointer** The abstract states that "thermodynamic parameters revealed that the spontaneous binding process is mainly driven by hydrophobic interactions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The thermodynamic parameters (e.g., enthalpy and entropy changes) are not reported. The assignment of hydrophobic interactions as the main driving force is typically inferred from the sign and magnitude of these parameters, but without the actual values, this conclusion is unsupported.
+  - **Why it matters** The interpretation of binding forces is central to understanding the molecular recognition mechanism. If the thermodynamic data are not shown, the claim cannot be distinguished from speculation.
+  - **Resolution test** Report the enthalpy and entropy changes with their uncertainties and explain how the signs and magnitudes support the hydrophobic interaction conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking validation
+  - **Claim pointer** The abstract claims that molecular docking "corroborated the experimental findings" for both DNA and HSA.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No docking scores, binding energies, or structural details are provided. The statement that docking confirmed the experimental results is a qualitative assertion without supporting numbers or figures.
+  - **Why it matters** Docking results are only meaningful when accompanied by scoring functions, energy values, and an assessment of the reliability of the predicted poses. Without these, the corroboration claim is not testable.
+  - **Resolution test** Provide docking scores, binding energies, and a description of the predicted binding poses, including hydrogen-bonding partners and distances.
 - **Minor Comments** 
   - **Concern ID** R1-m1
   - **Severity** Minor
   - **Axis** Clarity
   - **Affected element** Terminology
-  - **Evidence pointer** Abstract text
-  - **Issue** The term "next-generation high-intensity sweetener" is used redundantly after the initial description of ADV as "highly potent" and "aspartame-derived."
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "next-generation high-intensity sweetener" is used redundantly after the compound has already been described as "highly potent" and "aspartame-derived."
   - **Required correction** Remove the redundant descriptor or replace it with a more specific attribute, such as "a recently approved sweetener."
   - **Concern ID** R1-m2
   - **Severity** Minor
   - **Axis** Completeness
   - **Affected element** Experimental conditions
-  - **Evidence pointer** Abstract text
-  - **Issue** The abstract does not mention the buffer conditions, pH, temperature, or ionic strength used in the spectroscopic experiments, which are known to affect binding parameters.
-  - **Required correction** Include the key experimental conditions in the methods summary or abstract.
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the buffer conditions, pH, temperature, or ionic strength used in the experiments. These factors can significantly affect binding measurements.
+  - **Required correction** Add a brief statement of the experimental conditions in the abstract or ensure they are clearly stated in the full manuscript.
   - **Concern ID** R1-m3
   - **Severity** Minor
-  - **Axis** Interpretation
-  - **Affected element** CD spectroscopy result
-  - **Evidence pointer** Abstract text
-  - **Issue** The statement that a "slight increase in the alpha-helical content" implies "partial stabilization" of HSA is an interpretation that may require additional support, as CD changes can also reflect local conformational rearrangements.
-  - **Required correction** Clarify the basis for the stabilization interpretation or temper the claim to reflect the observed spectral change.
-- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks the quantitative and methodological details necessary to verify the central claims of binding mode, affinity, and computational corroboration.
+  - **Axis** Statistical rigor
+  - **Affected element** Replicates and error analysis
+  - **Evidence pointer** Abstract, all measurements
+  - **Issue** No mention of replicate measurements or error analysis is made. It is unclear whether the reported effects are statistically significant.
+  - **Required correction** State the number of replicates and the statistical methods used to assess significance in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data and docking parameters means the core claims of intercalation, hydrophobic-driven binding, and computational corroboration are not currently established.
 - **Assessment against Nature-style criteria** 
-  - Originality: Moderate. The study applies established methods to a relatively new compound, but the approach is not conceptually novel.
-  - Scientific importance: Moderate. The findings are of interest to food safety and biophysical chemistry, but the broader biological or health implications are not articulated.
-  - Interdisciplinary readership: Limited. The abstract is written for a specialist audience familiar with spectroscopic and docking techniques.
-  - Technical soundness: Not fully assessable from the abstract. The methodology is appropriate, but the absence of quantitative data prevents verification.
-  - Readability for nonspecialists: Acceptable. The abstract is clear and logically structured, though some terms (e.g., "hypochromism," "Sudlow's site I") may be unfamiliar to general readers.
-- **Recommendation posture** Currently not established from the provided evidence. The study appears promising, but the abstract alone does not provide sufficient quantitative and methodological detail to support the claims. A revised version with key numerical results and docking parameters would be required for a supportive assessment.
+  - Originality: The study addresses a relatively underexplored compound, but the approach is standard and does not introduce novel methodology. The originality is moderate.
+  - Scientific importance: The findings are of interest to food safety and biophysics communities, but the broader impact is limited by the incremental nature of the work.
+  - Interdisciplinary readership: The topic bridges food chemistry, biophysics, and computational biology, which could attract a diverse audience.
+  - Technical soundness: The experimental design is reasonable, but the lack of quantitative reporting prevents a full assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is clearly written and accessible, though some terms (e.g., "Sudlow's site I") may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative support for the major claims. A revised version with full data reporting could change this assessment.
 
 ## Risk / unsupported claims
-- The claim of "strong" interaction with ct-DNA is unsupported without binding constants or comparable quantitative measures.
-- The claim of "predominantly intercalative binding mode" is not verifiable without the actual spectra and displacement assay data.
-- The claim of "preferential binding to Sudlow's site I" is not verifiable without site-marker displacement results.
-- The claim of "static quenching mechanism" is not verifiable without Stern-Volmer plots and temperature-dependent data.
-- The claim of "spontaneous binding process mainly driven by hydrophobic interactions" is not verifiable without thermodynamic parameters.
-- The claim that docking "corroborated" experimental findings is not assessable without docking scores and interaction details.
+- The claim of "predominantly intercalative binding mode" is unsupported without quantitative spectroscopic and viscosity data.
+- The claim that "thermodynamic parameters revealed... hydrophobic interactions" is unsupported without reported enthalpy and entropy values.
+- The claim that molecular docking "corroborated" experimental findings is unsupported without docking scores or structural details.
+- The claim of "slight increase in the alpha-helical content" is unverifiable without CD data or numerical values.
+- The overall conclusion that the study provides "molecular-level insights" is not assessable from the abstract alone.

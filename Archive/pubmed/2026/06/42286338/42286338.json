@@ -1,0 +1,1184 @@
+{
+  "identity": {
+    "pmid": "42286338",
+    "doi": "10.1038/s43018-026-01175-6",
+    "title": "Integrated proteogenomic and metabolomic profiling of acute myeloid leukemias to identify molecular subtypes and associated therapy targets."
+  },
+  "content": {
+    "abstract": "Acute myeloid leukemia (AML) is a genetically and phenotypically heterogeneous hematological malignancy. Here, to better define this clinically taxing and translationally challenging malignancy, we applied a multiomics approach, consisting of 13 modalities to analyze 173 treatment-naive individuals with AML. By integrating these 'omes', we identified distinct AML subtypes, genotype-phenotype associations, biomarkers and pathobiological mechanisms. Across the spectrum of primitive and committed AML, we found extensive metabolomic and lipidomic reprogramming driven by divergent MYC and mTOR activity. We linked metabolic changes to striking hyperacetylation of mitochondrial proteins in CEBPA-mutant AML. Protein-centric subtyping revealed a distinct NPM1-mutant subset characterized by outlier expression of FOXC1 and HOXB8/9. To nominate therapeutic targets across subtypes, we developed a multiomic machine-learning approach and validated MTA1 as a contributor to panobinostat resistance. Altogether our findings underscore the complex nature of AML and provide a clinically and translationally informed unified view that reveals coalescent phenotypes across multiomic layers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/metabolism/drug therapy/classification",
+      "Nucleophosmin",
+      "*Proteogenomics/methods",
+      "*Metabolomics/methods",
+      "Multiomics",
+      "Mutation",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "CCAAT-Enhancer-Binding Proteins/genetics",
+      "Molecular Targeted Therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chu, Shih-Chun A",
+        "Hsiao, Yi",
+        "Wang, Chenwei",
+        "Kyle, Jennifer E",
+        "Jain, Raghav",
+        "Deng, Yamei",
+        "Gritsenko, Marina A",
+        "Henry, Leanne E",
+        "Lei, Jonathan T",
+        "Dou, Yongchao",
+        "Tercan, Bahar",
+        "Shi, Zhiao",
+        "Gondal, Mahnoor N",
+        "Tsai, Chia-Feng",
+        "Elizarraras, John M",
+        "Chu, Rosalie K",
+        "Yu, Fengchao",
+        "Joshi, Sunil K",
+        "Jing, Xiaojun",
+        "Polasky, Daniel A",
+        "Weitz, Karl K",
+        "Li, Ginny Xiaohe",
+        "Paurus, Vanessa L",
+        "Clendinen, Chaevien S",
+        "Schepmoes, Athena A",
+        "Lalli, Priscila M",
+        "Eder, Josie G",
+        "Flores, Javier E",
+        "Stratton, Kelly G",
+        "Pino, James C",
+        "Posso, Camilo",
+        "Petyuk, Vladislav A",
+        "Sagendorf, Tyler J",
+        "Xu, Yuanwei",
+        "Ibrahim, Omar M",
+        "Moore, Ronald J",
+        "Zhao, Rui",
+        "Chen, Jin",
+        "Monroe, Matthew E",
+        "Thiagarajan, Mathangi",
+        "Hostetter, Galen",
+        "Newton, Chelsea",
+        "An, Eunkyung",
+        "Robles, Ana I",
+        "Zhang, Xu",
+        "Edwards, Nathan J",
+        "Lu, Yin",
+        "Zhang, Hui",
+        "Abdelhakim, Haitham",
+        "Piehowski, Paul D",
+        "Mesri, Mehdi",
+        "Smith, Richard D",
+        "Kumar-Sinha, Chandan",
+        "Tognon, Cristina E",
+        "Dunlap, Jennifer",
+        "Traer, Elie",
+        "Ding, Li",
+        "Tyner, Jeffrey W",
+        "Chinnaiyan, Arul M",
+        "Omenn, Gilbert S",
+        "Rodland, Karin D",
+        "Dhanasekaran, Saravana M",
+        "Gosline, Sara J C",
+        "Nesvizhiskii, Alexey I",
+        "Zhang, Bing",
+        "Liu, Tao",
+        "Cieslik, Marcin P"
+      ],
+      "short_names": [
+        "Chu SA",
+        "Hsiao Y",
+        "Wang C",
+        "Kyle JE",
+        "Jain R",
+        "Deng Y",
+        "Gritsenko MA",
+        "Henry LE",
+        "Lei JT",
+        "Dou Y",
+        "Tercan B",
+        "Shi Z",
+        "Gondal MN",
+        "Tsai CF",
+        "Elizarraras JM",
+        "Chu RK",
+        "Yu F",
+        "Joshi SK",
+        "Jing X",
+        "Polasky DA",
+        "Weitz KK",
+        "Li GX",
+        "Paurus VL",
+        "Clendinen CS",
+        "Schepmoes AA",
+        "Lalli PM",
+        "Eder JG",
+        "Flores JE",
+        "Stratton KG",
+        "Pino JC",
+        "Posso C",
+        "Petyuk VA",
+        "Sagendorf TJ",
+        "Xu Y",
+        "Ibrahim OM",
+        "Moore RJ",
+        "Zhao R",
+        "Chen J",
+        "Monroe ME",
+        "Thiagarajan M",
+        "Hostetter G",
+        "Newton C",
+        "An E",
+        "Robles AI",
+        "Zhang X",
+        "Edwards NJ",
+        "Lu Y",
+        "Zhang H",
+        "Abdelhakim H",
+        "Piehowski PD",
+        "Mesri M",
+        "Smith RD",
+        "Kumar-Sinha C",
+        "Tognon CE",
+        "Dunlap J",
+        "Traer E",
+        "Ding L",
+        "Tyner JW",
+        "Chinnaiyan AM",
+        "Omenn GS",
+        "Rodland KD",
+        "Dhanasekaran SM",
+        "Gosline SJC",
+        "Nesvizhiskii AI",
+        "Zhang B",
+        "Liu T",
+        "Cieslik MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9435-0305",
+        "ORCID: 0000-0002-0920-8639",
+        "ORCID: 0000-0002-1284-6762",
+        "ORCID: 0000-0002-3680-5930",
+        "ORCID: 0000-0001-9992-9829",
+        "ORCID: 0000-0002-9419-6758",
+        "ORCID: 0000-0002-6514-6911",
+        "ORCID: 0000-0001-7759-2540",
+        "ORCID: 0000-0002-7695-3698",
+        "ORCID: 0000-0002-0515-1735",
+        "ORCID: 0000-0002-8960-2926",
+        "ORCID: 0000-0002-1487-4126",
+        "ORCID: 0000-0002-1550-1655",
+        "ORCID: 0000-0001-7020-7961",
+        "ORCID: 0000-0002-9903-6657",
+        "ORCID: 0000-0003-2806-2855",
+        "ORCID: 0000-0003-3096-9413",
+        "ORCID: 0000-0001-5019-4374",
+        "ORCID: 0000-0001-8726-7098",
+        "ORCID: 0000-0001-5108-2227",
+        "ORCID: 0000-0002-8696-3400",
+        "ORCID: 0000-0003-1517-2975",
+        "ORCID: 0000-0002-2133-0960",
+        "ORCID: 0000-0001-9282-3415",
+        "ORCID: 0000-0002-8976-6074",
+        "ORCID: 0000-0002-2806-7819",
+        "ORCID: 0000-0001-8676-2425",
+        "ORCID: 0000-0001-9529-6550",
+        "ORCID: 0000-0002-5467-1040"
+      ],
+      "affiliations": [
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+        "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Texas Children's Hospital, Department of Pediatrics, Houston, TX, USA.",
+        "Dan L. Duncan Cancer Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Medicine, Divisions of Hematology and Oncology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Cancer Institute, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology. Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Medicine, Washington University in St. Louis, St. Louis, MO, USA.",
+        "McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA.",
+        "Van Andel Research Institute, Grand Rapids, MI, USA.",
+        "Van Andel Research Institute, Grand Rapids, MI, USA.",
+        "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA.",
+        "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA.",
+        "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA.",
+        "Department of Biochemistry and Molecular and Cellular Biology, Georgetown University Medical Center, Washington DC, USA.",
+        "ICF, Rockville, MD, USA.",
+        "Department of Pathology. Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "University of Kansas Medical Center, The University of Kansas Cancer Center, Kansas City, KS, USA.",
+        "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+        "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+        "Department of Pathology, Oregon Health and Science University, Portland, OR, USA.",
+        "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Oregon Health and Science University, Portland, OR, USA.",
+        "Division of Oncology, Department of Medicine, Washington University, St. Louis, MO, USA.",
+        "Siteman Cancer Center, Washington University, St. Louis, MO, USA.",
+        "Department of Cell, Developmental and Cancer Biology, Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Howard Hughes Medical Institute, Ann Arbor, MI, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Cell, Developmental and Cancer Biology, Oregon Health and Science University, Portland, OR, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Biomedical Engineering, Oregon Health and Sciences University, Portland, OR, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA. nesvi@med.umich.edu.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA. nesvi@med.umich.edu.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA. Bing.Zhang@bcm.edu.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA. Bing.Zhang@bcm.edu.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA. Tao.Liu@pnnl.gov.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu.",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chu, Shih-Chun A",
+        "short_name": "Chu SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Yi",
+        "short_name": "Hsiao Y",
+        "identifiers": [
+          "0000-0002-9435-0305"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenwei",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0002-0920-8639"
+        ],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Kyle, Jennifer E",
+        "short_name": "Kyle JE",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Jain, Raghav",
+        "short_name": "Jain R",
+        "identifiers": [
+          "0000-0002-1284-6762"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Deng, Yamei",
+        "short_name": "Deng Y",
+        "identifiers": [
+          "0000-0002-3680-5930"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Gritsenko, Marina A",
+        "short_name": "Gritsenko MA",
+        "identifiers": [
+          "0000-0001-9992-9829"
+        ],
+        "affiliations": [
+          "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Henry, Leanne E",
+        "short_name": "Henry LE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Lei, Jonathan T",
+        "short_name": "Lei JT",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Dou, Yongchao",
+        "short_name": "Dou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Tercan, Bahar",
+        "short_name": "Tercan B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Zhiao",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Gondal, Mahnoor N",
+        "short_name": "Gondal MN",
+        "identifiers": [
+          "0000-0002-9419-6758"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tsai, Chia-Feng",
+        "short_name": "Tsai CF",
+        "identifiers": [
+          "0000-0002-6514-6911"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Elizarraras, John M",
+        "short_name": "Elizarraras JM",
+        "identifiers": [
+          "0000-0001-7759-2540"
+        ],
+        "affiliations": [
+          "Texas Children's Hospital, Department of Pediatrics, Houston, TX, USA.",
+          "Dan L. Duncan Cancer Center, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Chu, Rosalie K",
+        "short_name": "Chu RK",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Fengchao",
+        "short_name": "Yu F",
+        "identifiers": [
+          "0000-0002-7695-3698"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Joshi, Sunil K",
+        "short_name": "Joshi SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Divisions of Hematology and Oncology, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Cancer Institute, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jing, Xiaojun",
+        "short_name": "Jing X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Polasky, Daniel A",
+        "short_name": "Polasky DA",
+        "identifiers": [
+          "0000-0002-0515-1735"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Weitz, Karl K",
+        "short_name": "Weitz KK",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Ginny Xiaohe",
+        "short_name": "Li GX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Paurus, Vanessa L",
+        "short_name": "Paurus VL",
+        "identifiers": [
+          "0000-0002-8960-2926"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Clendinen, Chaevien S",
+        "short_name": "Clendinen CS",
+        "identifiers": [
+          "0000-0002-1487-4126"
+        ],
+        "affiliations": [
+          "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Schepmoes, Athena A",
+        "short_name": "Schepmoes AA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lalli, Priscila M",
+        "short_name": "Lalli PM",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Eder, Josie G",
+        "short_name": "Eder JG",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Flores, Javier E",
+        "short_name": "Flores JE",
+        "identifiers": [
+          "0000-0002-1550-1655"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Stratton, Kelly G",
+        "short_name": "Stratton KG",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Pino, James C",
+        "short_name": "Pino JC",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Posso, Camilo",
+        "short_name": "Posso C",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Petyuk, Vladislav A",
+        "short_name": "Petyuk VA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Sagendorf, Tyler J",
+        "short_name": "Sagendorf TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Yuanwei",
+        "short_name": "Xu Y",
+        "identifiers": [
+          "0000-0001-7020-7961"
+        ],
+        "affiliations": [
+          "Department of Pathology. Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ibrahim, Omar M",
+        "short_name": "Ibrahim OM",
+        "identifiers": [
+          "0000-0002-9903-6657"
+        ],
+        "affiliations": [
+          "Department of Medicine, Washington University in St. Louis, St. Louis, MO, USA.",
+          "McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Ronald J",
+        "short_name": "Moore RJ",
+        "identifiers": [
+          "0000-0003-2806-2855"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Rui",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Monroe, Matthew E",
+        "short_name": "Monroe ME",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Thiagarajan, Mathangi",
+        "short_name": "Thiagarajan M",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hostetter, Galen",
+        "short_name": "Hostetter G",
+        "identifiers": [],
+        "affiliations": [
+          "Van Andel Research Institute, Grand Rapids, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Newton, Chelsea",
+        "short_name": "Newton C",
+        "identifiers": [],
+        "affiliations": [
+          "Van Andel Research Institute, Grand Rapids, MI, USA."
+        ]
+      },
+      {
+        "full_name": "An, Eunkyung",
+        "short_name": "An E",
+        "identifiers": [
+          "0000-0003-3096-9413"
+        ],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Robles, Ana I",
+        "short_name": "Robles AI",
+        "identifiers": [
+          "0000-0001-5019-4374"
+        ],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Edwards, Nathan J",
+        "short_name": "Edwards NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular and Cellular Biology, Georgetown University Medical Center, Washington DC, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Yin",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "ICF, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0001-8726-7098"
+        ],
+        "affiliations": [
+          "Department of Pathology. Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Abdelhakim, Haitham",
+        "short_name": "Abdelhakim H",
+        "identifiers": [],
+        "affiliations": [
+          "University of Kansas Medical Center, The University of Kansas Cancer Center, Kansas City, KS, USA."
+        ]
+      },
+      {
+        "full_name": "Piehowski, Paul D",
+        "short_name": "Piehowski PD",
+        "identifiers": [
+          "0000-0001-5108-2227"
+        ],
+        "affiliations": [
+          "Environmental and Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Mesri, Mehdi",
+        "short_name": "Mesri M",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, Division of Cancer Treatment and Diagnosis, National Cancer Institute, Rockville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Richard D",
+        "short_name": "Smith RD",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar-Sinha, Chandan",
+        "short_name": "Kumar-Sinha C",
+        "identifiers": [
+          "0000-0002-8696-3400"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tognon, Cristina E",
+        "short_name": "Tognon CE",
+        "identifiers": [],
+        "affiliations": [
+          "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Dunlap, Jennifer",
+        "short_name": "Dunlap J",
+        "identifiers": [],
+        "affiliations": [
+          "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+          "Department of Pathology, Oregon Health and Science University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Traer, Elie",
+        "short_name": "Traer E",
+        "identifiers": [],
+        "affiliations": [
+          "Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA.",
+          "Division of Hematology and Medical Oncology, Department of Medicine, Oregon Health and Science University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Li",
+        "short_name": "Ding L",
+        "identifiers": [
+          "0000-0003-1517-2975"
+        ],
+        "affiliations": [
+          "Division of Oncology, Department of Medicine, Washington University, St. Louis, MO, USA.",
+          "Siteman Cancer Center, Washington University, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Tyner, Jeffrey W",
+        "short_name": "Tyner JW",
+        "identifiers": [
+          "0000-0002-2133-0960"
+        ],
+        "affiliations": [
+          "Department of Cell, Developmental and Cancer Biology, Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Arul M",
+        "short_name": "Chinnaiyan AM",
+        "identifiers": [
+          "0000-0001-9282-3415"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+          "Howard Hughes Medical Institute, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Omenn, Gilbert S",
+        "short_name": "Omenn GS",
+        "identifiers": [
+          "0000-0002-8976-6074"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Rodland, Karin D",
+        "short_name": "Rodland KD",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+          "Department of Cell, Developmental and Cancer Biology, Oregon Health and Science University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Dhanasekaran, Saravana M",
+        "short_name": "Dhanasekaran SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Gosline, Sara J C",
+        "short_name": "Gosline SJC",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA.",
+          "Department of Biomedical Engineering, Oregon Health and Sciences University, Portland, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Nesvizhiskii, Alexey I",
+        "short_name": "Nesvizhiskii AI",
+        "identifiers": [
+          "0000-0002-2806-7819"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA. nesvi@med.umich.edu.",
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA. nesvi@med.umich.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bing",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0001-8676-2425"
+        ],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX, USA. Bing.Zhang@bcm.edu.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA. Bing.Zhang@bcm.edu."
+        ]
+      },
+      {
+        "full_name": "Liu, Tao",
+        "short_name": "Liu T",
+        "identifiers": [
+          "0000-0001-9529-6550"
+        ],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA. Tao.Liu@pnnl.gov."
+        ]
+      },
+      {
+        "full_name": "Cieslik, Marcin P",
+        "short_name": "Cieslik MP",
+        "identifiers": [
+          "0000-0002-5467-1040"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu.",
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu.",
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI, USA. mcieslik@med.umich.edu."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cancer"
+    ],
+    "journal_abbrev": [
+      "Nat Cancer"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/13 00:38",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [
+      "42242681"
+    ],
+    "refs": [
+      "40294241",
+      "39663389",
+      "39587361",
+      "38917788",
+      "38762545",
+      "38360865",
+      "38232702",
+      "38167958",
+      "38043791",
+      "38016493",
+      "37843125",
+      "37738504",
+      "37422594",
+      "37358260",
+      "37272750",
+      "36983080",
+      "36734985",
+      "36699385",
+      "36581735",
+      "36572751",
+      "36442087",
+      "36008542",
+      "35941135",
+      "35895896",
+      "35868306",
+      "35797463",
+      "35618837",
+      "35469013",
+      "35245447",
+      "35073573",
+      "34171263",
+      "34006997",
+      "33712601",
+      "33594052",
+      "33264602",
+      "32864703",
+      "32649887",
+      "32457018",
+      "32393329",
+      "31974170",
+      "31552303",
+      "31340985",
+      "30930145",
+      "30827681",
+      "30563849",
+      "30423294",
+      "30400809",
+      "30333627",
+      "29925568",
+      "29416718",
+      "29310020",
+      "28991892",
+      "28297619",
+      "28207743",
+      "27926740",
+      "26915293",
+      "26822488",
+      "26373280",
+      "25605792",
+      "25593033",
+      "25374453",
+      "24464287",
+      "23634996",
+      "23333149",
+      "23268687",
+      "22627767",
+      "22455463",
+      "22135298",
+      "21546393",
+      "20507583",
+      "20094052",
+      "19880497",
+      "19399780",
+      "17981841",
+      "17550846",
+      "11571641",
+      "10946390",
+      "3862359"
+    ],
+    "similar": [
+      "42286338",
+      "18809607",
+      "34288448",
+      "40307896",
+      "40844427",
+      "40886194",
+      "29310020",
+      "21343560",
+      "25400766",
+      "42295454",
+      "33623142",
+      "39352624",
+      "40829168",
+      "29157973",
+      "40066454",
+      "41340131",
+      "33594943",
+      "31077683",
+      "23114160",
+      "20038735",
+      "20970189",
+      "41126239",
+      "19706798",
+      "18450602",
+      "31557597",
+      "20026798",
+      "27285584",
+      "39080831",
+      "22658276",
+      "39961276",
+      "42547969",
+      "27062340",
+      "32711425",
+      "41318446",
+      "23521373",
+      "41402890",
+      "28380436",
+      "38864430",
+      "41107983",
+      "40954214",
+      "26847745",
+      "34615546",
+      "33594052",
+      "31309149",
+      "28945881",
+      "41250004",
+      "24801015",
+      "42454038",
+      "38232702",
+      "29932212",
+      "29286103",
+      "42472419",
+      "39955536",
+      "41679345",
+      "19666867",
+      "41492215",
+      "28835438",
+      "39174699",
+      "24441947",
+      "37261703",
+      "32471953",
+      "33550446",
+      "38905635",
+      "17671232",
+      "39582863",
+      "18337557",
+      "32599434",
+      "34700049",
+      "22731647",
+      "40972674",
+      "25932436",
+      "35245447",
+      "21724308",
+      "30082223",
+      "22568493",
+      "22990006",
+      "31835432",
+      "18096415",
+      "42123320",
+      "31570689",
+      "36853451",
+      "39533394",
+      "26408402",
+      "41948341",
+      "35003895",
+      "36232714",
+      "23100311",
+      "39388660",
+      "37334560",
+      "29806051",
+      "25241285",
+      "35072375",
+      "25174404",
+      "24915920",
+      "39068559",
+      "20060365",
+      "41512877",
+      "34064268",
+      "23666693",
+      "32086816"
+    ],
+    "review": [
+      "42286338",
+      "34288448",
+      "40886194",
+      "39352624",
+      "29157973",
+      "23114160",
+      "41126239",
+      "19706798",
+      "41250004",
+      "24801015",
+      "42472419",
+      "39174699",
+      "37261703",
+      "32599434",
+      "34700049",
+      "21724308",
+      "18096415",
+      "35072375",
+      "32086816"
+    ],
+    "pmc": [
+      "13309276"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s43018-026-01175-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42286338/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1619",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

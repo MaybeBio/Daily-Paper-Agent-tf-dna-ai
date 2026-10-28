@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "41035687",
+    "doi": "10.1016/j.isci.2025.113495",
+    "title": "Efficient inference, training, and fine-tuning of protein language models."
+  },
+  "content": {
+    "abstract": "Protein language models (PLMs) have shown great promise in protein structure and function predictions, but their adoption is limited by computational cost. We address this challenge by enhancing the efficiency of evolutionary scale modeling (ESM). Using FlashAttention and sequence packing, we achieve 4-9x faster inference and 3-14x lower memory usage. Four-bit quantization of billion-parameter models further reduces memory by 2-3x while preserving accuracy for missense variant effect prediction. Training is also optimized, cutting runtime 6-fold with methods, such as activation checkpointing and DeepSpeed zero-offload. Parameter-efficient fine-tuning of a few adapter weights yields state-of-the-art performance at protein property and function predictions, resulting in 70% Spearman's correlation for melting point and 87% AU-PRC for transcription factor identification. Our efficient ESM (ESME) implementation significantly lowers the barrier to using these powerful models, making them accessible to academic laboratories with limited computational resources. The code is available on GitHub.",
+    "keywords": [
+      "Bioinformatics",
+      "Protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Celik, Muhammed Hasan",
+        "Xie, Xiaohui"
+      ],
+      "short_names": [
+        "Celik MH",
+        "Xie X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, University of California, Irvine, Irvine, CA, USA.",
+        "Center for Complex Biological Systems, University of California, Irvine, Irvine, CA, USA.",
+        "Department of Computer Science, University of California, Irvine, Irvine, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Çelik, Muhammed Hasan",
+        "short_name": "Çelik MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California, Irvine, Irvine, CA, USA.",
+          "Center for Complex Biological Systems, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Xiaohui",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California, Irvine, Irvine, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2025 Oct 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 06:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39818825",
+      "39633723",
+      "39629167",
+      "39294165",
+      "39110734",
+      "38900798",
+      "38838016",
+      "38718835",
+      "38570504",
+      "38565617",
+      "38030641",
+      "37935419",
+      "37909046",
+      "37733863",
+      "37563329",
+      "37468638",
+      "37289807",
+      "37095349",
+      "36996195",
+      "36927031",
+      "36651724",
+      "36408920",
+      "35365602",
+      "35020807",
+      "34707284",
+      "34265844",
+      "33876751",
+      "33372147",
+      "32284610",
+      "32015543",
+      "31942072",
+      "31406981",
+      "30250057",
+      "30038395",
+      "28092658"
+    ],
+    "similar": [
+      "41035687",
+      "39060029",
+      "40592174",
+      "38900798",
+      "39110130",
+      "42498639",
+      "40601249",
+      "37986761",
+      "41912799",
+      "35235521",
+      "39198457",
+      "41709974",
+      "42234930",
+      "41742038",
+      "41159381",
+      "40661509",
+      "39795988",
+      "41587256",
+      "40985030",
+      "42662288",
+      "42356631",
+      "42290698",
+      "41726095",
+      "42210417",
+      "35443054",
+      "41675712",
+      "39708669",
+      "40806259",
+      "39483526",
+      "40942833",
+      "42223886",
+      "42421217",
+      "40347917",
+      "36495196",
+      "41783256",
+      "42705143",
+      "40609014",
+      "40736745",
+      "42685501",
+      "37577664",
+      "40027759",
+      "39985945",
+      "41581371",
+      "35020807",
+      "42173334",
+      "40849052",
+      "38310333",
+      "41896605",
+      "39858443",
+      "40067411",
+      "40609505",
+      "39605589",
+      "35436295",
+      "42412802",
+      "40439671",
+      "32070857",
+      "40313770",
+      "41970610",
+      "40594749",
+      "40546733",
+      "37566498",
+      "41018952",
+      "41145629",
+      "41352986",
+      "40343467",
+      "38956442",
+      "41409043",
+      "39896621",
+      "41819621",
+      "42215857",
+      "34232869",
+      "41061027",
+      "42658703",
+      "41697807",
+      "41300810",
+      "41418561",
+      "35290185",
+      "41452662",
+      "37862274",
+      "40628826",
+      "37874953",
+      "41858843",
+      "42104958",
+      "38824535",
+      "42608825",
+      "42163392",
+      "42763976",
+      "39878455",
+      "42765333",
+      "42286792",
+      "41172803",
+      "41310253",
+      "40280883",
+      "38894415",
+      "40989496",
+      "38979193",
+      "39471774",
+      "42437533",
+      "41614412",
+      "39467119"
+    ],
+    "review": [
+      "41035687",
+      "39985945"
+    ],
+    "pmc": [
+      "12481099"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(25)01756-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41035687/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

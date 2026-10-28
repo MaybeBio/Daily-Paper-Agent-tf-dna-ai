@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.14727573.v1",
+  "title": "Robust, Efficient and Automated Methods for Accurate Prediction of Protein-Ligand Binding Affinities in AMBER Drug Discovery Boost",
+  "authors": "Tai-Sung Lee; Hsu-Chun Tsai; Abir Ganguly; Timothy J Giese; Darrin M. York",
+  "journal": "ChemRxiv",
+  "published_date": "2021-06-08",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文聚焦AMBER软件中蛋白-配体结合亲和力的自由能模拟方法，虽涉及分子模拟但对象为蛋白-小分子而非蛋白-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Recent concurrent advances in methodology development, computer hardware and simulation software has transformed our ability to make practical, quantitative predictions of relative ligand binding affinities to guide rational drug design. In the past, these calculations have been hampered by the lack of affordable software with highly efficient implementations of state-of-the-art methods on specialized hardware such as graphical processing units, combined with the paucity of available workflows to streamline throughput for real-world industry applications. Herein we discuss recent methodology development, GPU-accelerated implementation, and workflow creation for alchemical free energy simulation methods in the AMBER Drug Discovery Boost (AMBER-DD Boost) package available as a patch to AMBER20. Among the methodological advances are 1) new methods for the treatment of softcore potentials that overcome long standing end-point catastrophe and softcore imbalance problems and enable single-step alchemical transformations between ligands, and 2) new adaptive enhanced sampling methods in the \"alchemical\" (or \"λ\") dimension to accelerate convergence and obtain high precision ligand binding affinity predictions, 3) robust network-wide analysis methods that include cycle closure and reference constraints and restraints, and 4) practical workflows that enable streamlined calculations on large datasets to be performed. Benchmark calculations on various systems demonstrate that these tools deliver an outstanding combination of accuracy and performance, resulting in reliable high-throughput binding affinity predictions at affordable cost.",
+  "abstract_zh": "方法开发、计算机硬件和模拟软件方面的最新并行进展，已转变了我们进行实用、定量预测相对配体结合亲和力以指导合理药物设计的能力。过去，这些计算因缺乏价格合理且在高性能硬件（如图形处理单元）上高效实现最新方法的软件，以及缺乏简化实际工业应用吞吐量的可用工作流程而受到阻碍。在此，我们讨论了AMBER药物发现增强版（AMBER-DD Boost）包（作为AMBER20的补丁提供）中炼金术自由能模拟方法的最新方法开发、GPU加速实现和工作流程创建。方法学进展包括：1）处理软核势的新方法，克服了长期存在的端点灾难和软核不平衡问题，并实现配体间的单步炼金术转换；2）在“炼金术”（或“λ”）维度上的新自适应增强采样方法，以加速收敛并获得高精度的配体结合亲和力预测；3）稳健的网络级分析方法，包括循环闭合和参考约束及限制；4）实用工作流程，支持对大型数据集进行简化计算。对多种系统的基准计算表明，这些工具提供了精度和性能的卓越结合，以可承受的成本实现可靠的高通量结合亲和力预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.14727573.v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.14727573.v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.14727573.v1/index.html"
+}

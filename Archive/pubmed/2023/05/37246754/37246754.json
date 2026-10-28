@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "37246754",
+    "doi": "10.1080/0886022X.2023.2216307",
+    "title": "Neutrophil extracellular trap is an important connection between hemodialysis and acute myocardial infarction."
+  },
+  "content": {
+    "abstract": "The incidence of acute myocardial infarction (AMI) in hemodialysis (HD) patients is high and the prognosis is extremely poor. However, the potential connection between HD and AMI, and its regulatory mechanisms remain unclear. In this study, the gene expression profiles of HD (GSE15072) and AMI (GSE66360) were downloaded from the Gene Expression Omnibus database, common differentially expressed genes (DEGs) were obtained using the limma R package, the biological functions were analyzed according to Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses, machine learning was conducted to identify hub genes. Receiver operating characteristic curves and gene set enrichment analyses were used to explore the characters and biological function of hub genes, networks were used for candidate identification of transcription factor (TF), microRNA (miRNA), and drug. After a total of 255 common DEGs were selected, GO and KEGG analyses indicated that neutrophil extracellular trap (NET) may be a potential connection between HD and AMI, LILRB2, S100A12, CYBB, ITGAM, and PPIF were finally identified as hub genes. The area under curve of LILRB2, S100A12, and PPIF was higher than 0.8 in both datasets. Networks show the relationship between hub genes, TF, and miRNA, also the relationship between potential drugs and protein. In conclusion, NETs may be the potential connection between AMI and HD. The potential hub gene, signaling pathways, and drugs provided by this study may contribute to future AMI prevention and intervention in HD patients.",
+    "keywords": [
+      "Hemodialysis",
+      "acute myocardial infarction",
+      "hub gene",
+      "neutrophil extracellular trap",
+      "potential connection"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Extracellular Traps",
+      "S100A12 Protein",
+      "*MicroRNAs/genetics",
+      "Databases, Factual",
+      "*Myocardial Infarction/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yue",
+        "Jiao, Yuan-Yuan",
+        "Zhang, Zheng",
+        "Zhuo, Li",
+        "Li, Wen-Ge"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Jiao YY",
+        "Zhang Z",
+        "Zhuo L",
+        "Li WG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China.",
+        "Department of Nephrology, Fuwai Hospital, Chinese Academy of Medical Science, Beijing, PR China.",
+        "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China.",
+        "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China.",
+        "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yue",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yuan-Yuan",
+        "short_name": "Jiao YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Fuwai Hospital, Chinese Academy of Medical Science, Beijing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Li",
+        "short_name": "Zhuo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Wen-Ge",
+        "short_name": "Li WG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, China-Japan Friendship Hospital, Beijing, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Renal failure"
+    ],
+    "journal_abbrev": [
+      "Ren Fail"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/29 13:04",
+    "fetched_at": "2026-09-29 01:30:34"
+  },
+  "links": {
+    "cites": [
+      "41235141",
+      "40711156",
+      "39096473",
+      "39014096"
+    ],
+    "refs": [
+      "36389792",
+      "36072587",
+      "36062187",
+      "35688556",
+      "35686486",
+      "35463752",
+      "35282371",
+      "34648022",
+      "34490057",
+      "34122426",
+      "33883728",
+      "32414662",
+      "32324499",
+      "32061315",
+      "32040154",
+      "32040147",
+      "31704083",
+      "31582143",
+      "31510770",
+      "31181415",
+      "30634198",
+      "30228352",
+      "28223004",
+      "27035867",
+      "26914918",
+      "25777665",
+      "25713707",
+      "25074436",
+      "24530674",
+      "24347799",
+      "23324110",
+      "22403271",
+      "21258041",
+      "21143389",
+      "20847094",
+      "20649681",
+      "20068293",
+      "19698090",
+      "19536082",
+      "18587235",
+      "18180403",
+      "16487851",
+      "15806502",
+      "15001782",
+      "14581387",
+      "12821241",
+      "12610097",
+      "12460868"
+    ],
+    "similar": [
+      "37246754",
+      "38764052",
+      "36062187",
+      "38485036",
+      "36582740",
+      "35463752",
+      "34115526",
+      "35872921",
+      "36863716",
+      "35585822",
+      "33847684",
+      "35795659",
+      "38518057",
+      "33506919",
+      "35069843",
+      "27746059",
+      "31772617",
+      "28636181",
+      "35958412",
+      "35473522",
+      "36536067",
+      "37571880",
+      "37662030",
+      "36407421",
+      "36505315",
+      "36440001",
+      "34568491",
+      "32594092",
+      "37597790",
+      "37800460",
+      "31987036",
+      "34490057",
+      "35764238",
+      "36506310",
+      "35224064",
+      "35144391",
+      "37426635",
+      "36879254",
+      "35286184",
+      "35422846",
+      "35313524",
+      "39314024",
+      "38228864",
+      "38323113",
+      "35562622",
+      "36862882",
+      "36704339",
+      "36600215",
+      "36915729",
+      "33506940",
+      "38783198",
+      "34565282",
+      "33293800",
+      "37214088",
+      "35300139",
+      "39024234",
+      "33354250",
+      "36860851",
+      "36193326",
+      "31914060",
+      "34390411",
+      "33640831",
+      "31733574",
+      "36660246",
+      "35050240",
+      "35909518",
+      "36389792",
+      "36110200",
+      "35132271",
+      "39014096",
+      "37901228",
+      "36245596",
+      "30886860",
+      "33083497",
+      "35757636",
+      "36435743",
+      "29049183",
+      "36291136",
+      "37935719",
+      "32597946",
+      "36927770",
+      "37228892",
+      "29845217",
+      "37747003",
+      "35790963",
+      "35620387",
+      "36547406",
+      "28415685",
+      "32493063",
+      "30138363",
+      "36624863",
+      "36743510",
+      "33470885",
+      "29328442",
+      "34536521",
+      "31277149",
+      "30864710",
+      "37549822",
+      "35634481",
+      "34857679",
+      "35773742",
+      "36118873",
+      "37082197",
+      "36212136",
+      "30365134",
+      "33240619",
+      "33664765",
+      "33376723",
+      "37113991",
+      "32922167",
+      "35966326",
+      "31675148",
+      "35762549",
+      "31703725",
+      "33437215",
+      "37083810",
+      "38426147",
+      "39419909",
+      "38314309",
+      "38829148",
+      "38065877",
+      "37868889",
+      "37839544",
+      "30514363",
+      "37730550",
+      "38466505",
+      "39040073"
+    ],
+    "review": [
+      "37246754"
+    ],
+    "pmc": [
+      "10228304"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/0886022X.2023.2216307?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37246754/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37246754",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/0886022X.2023.2216307",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

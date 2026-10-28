@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.01.685830",
+  "title": "Mapping Allosteric Rewiring in Viral RNA: Sequence-Encoded Control of Protein Binding Mechanisms",
+  "authors": "D Samant; A Chakraborty; A Sinha; R Sarkar; S Roy",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-02",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过原子级MD模拟与图网络算法研究病毒TAR RNA与Tat蛋白的别构通讯重布线，虽对象为RNA-蛋白互作而非典型TF-DNA体系，但其动态结合机制与AI/物理模拟方法对TF-DNA互作建模具有直接借鉴价值。",
+  "abstract": "RNA recognition by proteins is governed not only by static structure but also by allostery encoded within non-local dynamic motifs. In this study, we systematically identify allosteric communication hubs in RNA and map multiple residue-connected pathways, revealing how these networks are rewired upon mutation and protein binding. To capture these effects under physiological salt conditions, we performed tens of microseconds of atomistic and steered molecular dynamics simulations and computed binding free energies for Tat–TAR complexes across three immunodeficiency virus variants, BIV, HIV-1, and HIV-2. Allosterically coupled sites were identified using contact-based principal component analysis, and communication pathways were traced through an extended graph-network algorithm—the first such application to RNA systems. Two distant motifs—the bulge and the apical loop—emerge as allosteric switches and information hubs: the bulge engages Tat, while the loop interacts with another protein partner, CycT1, both essential for transcriptional activation and antiviral targeting. We find that HIV-2 TAR, with strong loop–bulge coupling and high self-integrity, favour conformational selection and exhibits lower Tat-binding affinity. In contrast, a single C24 insertion in HIV-1 TAR reconfigures communication pathways, enabling an induced-fit mechanism with enhanced affinity. The study not only elucidates an allosteric rewiring between the loop and bulge but also highlights how this communication is dynamically reconfigured upon protein binding. Tat association at the bulge reorganizes and reorients loop residues, thereby promoting the subsequent recruitment of CycT1. This work overall underscores how sequence (even a single mutation) encoded RNA allostery can modulate not only a protein’s binding mechanism and affinity but also influence downstream molecular events within transcriptional signalling cascades. STATEMENT OF SIGNIFICANCE In vitro selection strategies such as SELEX have long underscored the therapeutic relevance of the TAR RNA–Tat protein interface, yet they remain experimentally demanding and often overlook how subtle sequence variations reshape molecular recognition and RNA-protein binding affinity. By integrating atomistic and free-energy simulations with a graph-network-based framework, the study reveals that even a single-nucleotide change can rewire RNA’s allosteric communication pathways, switching between conformational selection and induced-fit mechanisms and alter binding affinity. These findings bridge molecular dynamics with experimental selection, offering a predictive, thermodynamics-based framework to rationalize sequence-structure-function relationships and guide the rational design of high-affinity RNA-protein complexes and next-generation RNA therapeutics.",
+  "abstract_zh": "RNA与蛋白质的识别不仅受静态结构调控，还受编码于非局部动态基序中的变构效应（allostery）调控。在本研究中，我们系统性地识别了RNA中的变构通信枢纽，并绘制了多条残基连接的路径，揭示了这些网络在突变和蛋白质结合时如何被重新布线。为了在生理盐浓度条件下捕捉这些效应，我们进行了数十微秒的全原子和牵引分子动力学（steered molecular dynamics）模拟，并计算了三种免疫缺陷病毒变体BIV、HIV-1和HIV-2中Tat–TAR复合物的结合自由能。变构偶联位点通过基于接触的主成分分析（contact-based principal component analysis）进行识别，通信路径则通过扩展的图网络算法（graph-network algorithm）追踪——这是该算法首次应用于RNA系统。两个远距离基序——凸起（bulge）和顶端环（apical loop）——被确定为变构开关和信息枢纽：凸起与Tat结合，而环与另一蛋白质伴侣CycT1相互作用，两者对转录激活和抗病毒靶向均至关重要。我们发现，HIV-2 TAR具有强环–凸起偶联和高自完整性，倾向于构象选择（conformational selection）机制，并表现出较低的Tat结合亲和力。相比之下，HIV-1 TAR中单个C24插入重新配置了通信路径，实现了诱导契合（induced-fit）机制并增强了亲和力。本研究不仅阐明了环与凸起之间的变构重布线，还强调了这种通信在蛋白质结合时如何被动态重构。Tat在凸起处的结合重组并重新定向了环残基，从而促进后续CycT1的招募。总体而言，这项工作强调了序列（甚至单个突变）编码的RNA变构效应不仅能调节蛋白质的结合机制和亲和力，还能影响转录信号级联中的下游分子事件。  \n**意义声明** 诸如SELEX等体外选择策略长期以来强调了TAR RNA–Tat蛋白界面的治疗相关性，但它们在实验上仍具挑战性，且往往忽视了细微序列变异如何重塑分子识别和RNA-蛋白质结合亲和力。通过将全原子和自由能模拟与基于图网络的框架相结合，本研究揭示，即使单核苷酸变化也能重布线RNA的变构通信路径，在构象选择和诱导契合机制之间切换并改变结合亲和力。这些发现将分子动力学与实验选择联系起来，提供了一个基于热力学的预测性框架，以合理化序列-结构-功能关系，并指导高亲和力RNA-蛋白质复合物及下一代RNA疗法的理性设计。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.01.685830",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.01.685830",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.01.685830/index.html"
+}

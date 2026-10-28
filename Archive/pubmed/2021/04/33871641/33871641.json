@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "33871641",
+    "doi": "10.1093/molbev/msab111",
+    "title": "Predictive Models of Genetic Redundancy in Arabidopsis thaliana."
+  },
+  "content": {
+    "abstract": "Genetic redundancy refers to a situation where an individual with a loss-of-function mutation in one gene (single mutant) does not show an apparent phenotype until one or more paralogs are also knocked out (double/higher-order mutant). Previous studies have identified some characteristics common among redundant gene pairs, but a predictive model of genetic redundancy incorporating a wide variety of features derived from accumulating omics and mutant phenotype data is yet to be established. In addition, the relative importance of these features for genetic redundancy remains largely unclear. Here, we establish machine learning models for predicting whether a gene pair is likely redundant or not in the model plant Arabidopsis thaliana based on six feature categories: functional annotations, evolutionary conservation including duplication patterns and mechanisms, epigenetic marks, protein properties including posttranslational modifications, gene expression, and gene network properties. The definition of redundancy, data transformations, feature subsets, and machine learning algorithms used significantly affected model performance based on holdout, testing phenotype data. Among the most important features in predicting gene pairs as redundant were having a paralog(s) from recent duplication events, annotation as a transcription factor, downregulation during stress conditions, and having similar expression patterns under stress conditions. We also explored the potential reasons underlying mispredictions and limitations of our studies. This genetic redundancy model sheds light on characteristics that may contribute to long-term maintenance of paralogs, and will ultimately allow for more targeted generation of functionally informative double mutants, advancing functional genomic studies.",
+    "keywords": [
+      "genetic redundancy",
+      "machine learning",
+      "molecular evolution"
+    ],
+    "mesh_terms": [
+      "Arabidopsis/*genetics",
+      "*Biological Evolution",
+      "*Gene Duplication",
+      "*Machine Learning",
+      "*Models, Genetic"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cusack, Siobhan A",
+        "Wang, Peipei",
+        "Lotreck, Serena G",
+        "Moore, Bethany M",
+        "Meng, Fanrui",
+        "Conner, Jeffrey K",
+        "Krysan, Patrick J",
+        "Lehti-Shiu, Melissa D",
+        "Shiu, Shin-Han"
+      ],
+      "short_names": [
+        "Cusack SA",
+        "Wang P",
+        "Lotreck SG",
+        "Moore BM",
+        "Meng F",
+        "Conner JK",
+        "Krysan PJ",
+        "Lehti-Shiu MD",
+        "Shiu SH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2104-7292",
+        "ORCID: 0000-0001-6470-235X"
+      ],
+      "affiliations": [
+        "Cell and Molecular Biology Program, Michigan State University, East Lansing, MI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Department of Botany, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Ecology, Evolution, and Behavior Program, Michigan State University, East Lansing, MI, USA.",
+        "Kellogg Biological Station, Michigan State University, East Lansing, MI, USA.",
+        "Department of Horticulture, University of Wisconsin-Madison, Madison, WI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Cell and Molecular Biology Program, Michigan State University, East Lansing, MI, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Ecology, Evolution, and Behavior Program, Michigan State University, East Lansing, MI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cusack, Siobhan A",
+        "short_name": "Cusack SA",
+        "identifiers": [],
+        "affiliations": [
+          "Cell and Molecular Biology Program, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Peipei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Lotreck, Serena G",
+        "short_name": "Lotreck SG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Bethany M",
+        "short_name": "Moore BM",
+        "identifiers": [
+          "0000-0002-2104-7292"
+        ],
+        "affiliations": [
+          "Department of Botany, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Meng, Fanrui",
+        "short_name": "Meng F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Conner, Jeffrey K",
+        "short_name": "Conner JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+          "Ecology, Evolution, and Behavior Program, Michigan State University, East Lansing, MI, USA.",
+          "Kellogg Biological Station, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Krysan, Patrick J",
+        "short_name": "Krysan PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture, University of Wisconsin-Madison, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Lehti-Shiu, Melissa D",
+        "short_name": "Lehti-Shiu MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Shiu, Shin-Han",
+        "short_name": "Shiu SH",
+        "identifiers": [
+          "0000-0001-6470-235X"
+        ],
+        "affiliations": [
+          "Cell and Molecular Biology Program, Michigan State University, East Lansing, MI, USA.",
+          "Department of Plant Biology, Michigan State University, East Lansing, MI, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+          "Ecology, Evolution, and Behavior Program, Michigan State University, East Lansing, MI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Evol"
+    ],
+    "pub_date": "2021 Jul 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/20 06:00",
+    "fetched_at": "2026-09-27 16:21:05"
+  },
+  "links": {
+    "cites": [
+      "42354877",
+      "41874801",
+      "41841639",
+      "41805294",
+      "41419797",
+      "41077918",
+      "40826469",
+      "40290317",
+      "38616489",
+      "38479836",
+      "38411627",
+      "38034561",
+      "37572358",
+      "37403524",
+      "37306056",
+      "36747211",
+      "36010400",
+      "35287709",
+      "35156768",
+      "33554343"
+    ],
+    "refs": [
+      "30674669",
+      "28387971",
+      "27899567",
+      "27791167",
+      "27288366",
+      "26673716",
+      "26286535",
+      "26201819",
+      "26192091",
+      "26100883",
+      "25220462",
+      "24451623",
+      "24092741",
+      "23671338",
+      "23573814",
+      "23539305",
+      "23396833",
+      "22889912",
+      "22821463",
+      "22694750",
+      "22247268",
+      "22110026",
+      "21087504",
+      "20118918",
+      "20043823",
+      "18832363",
+      "18786741",
+      "18715958",
+      "18594508",
+      "18419781",
+      "18419293",
+      "17483113",
+      "17376166",
+      "17130148",
+      "16949326",
+      "16818725",
+      "15806101",
+      "15800040",
+      "15336052",
+      "15208398",
+      "15034147",
+      "12805578",
+      "12660784",
+      "11228432",
+      "10802651",
+      "10101175",
+      "9217155",
+      "8589620",
+      "8269506",
+      "7824951",
+      "5345390",
+      "2231712"
+    ],
+    "similar": [
+      "33871641",
+      "21087504",
+      "16949326",
+      "15371526",
+      "37724752",
+      "23573814",
+      "24102485",
+      "20185454",
+      "29309664",
+      "16980566",
+      "10797596",
+      "33290522",
+      "8672563",
+      "25644246",
+      "18947417",
+      "28387971",
+      "30781591",
+      "16193095",
+      "23154062",
+      "16914158",
+      "17827171",
+      "29188194",
+      "25040904",
+      "22519790",
+      "27502434",
+      "17467016",
+      "18786741",
+      "32485308",
+      "30866803",
+      "31856731",
+      "17611127",
+      "20093430",
+      "21801252",
+      "26103993",
+      "32213716",
+      "17389874",
+      "28923019",
+      "14973163",
+      "26252898",
+      "31981691",
+      "15634198",
+      "18847470",
+      "16507168",
+      "22305522",
+      "19508432",
+      "27296049",
+      "17208962",
+      "15171794",
+      "12519955",
+      "28004282",
+      "24571519",
+      "16740146",
+      "26286535",
+      "26773809",
+      "22820491",
+      "32676093",
+      "21886450",
+      "11818563",
+      "17594963",
+      "35956487",
+      "38034561",
+      "37101642",
+      "38045359",
+      "38282974",
+      "31556487",
+      "30542366",
+      "36212273",
+      "18723030",
+      "37949845",
+      "39048689",
+      "38177139",
+      "39242841",
+      "39242903"
+    ],
+    "review": [
+      "33871641",
+      "16949326",
+      "37724752",
+      "29309664",
+      "10797596",
+      "29188194"
+    ],
+    "pmc": [
+      "8321531"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33871641/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33871641",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33871641",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33871641",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msab111",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

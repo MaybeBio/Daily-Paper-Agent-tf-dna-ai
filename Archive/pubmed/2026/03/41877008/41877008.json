@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "41877008",
+    "doi": "10.1186/s12864-026-12768-x",
+    "title": "DcSE: an improved densenet with enhanced attention fusion for super-enhancer prediction."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Super-enhancers are critical cis-regulatory elements that play a central role in modulating gene expression and driving cellular identity. Their dysregulation is closely associated with the development of numerous major human diseases, particularly cancer. In this study, we propose DcSE, a novel deep learning framework designed for efficient and precise super-enhancer prediction. The core architecture is based on an enhanced DenseNet featuring an improved Convolutional Block Attention Module. Unlike standard serial processing, our module employs a dynamic fusion mechanism that adjusts the contributions of channel and spatial attention through learnable parameters. To further enhance robustness, DcSE adopts an ensemble learning framework utilizing cross-validation and multiple initializations. RESULTS: DcSE demonstrates exceptional performance on benchmark datasets for both human and mouse, surpassing existing state-of-the-art models across all evaluation metrics. It achieves 80.81% ACC and 87.86% AUC on the human dataset, along with 80.16% ACC and 87.04% AUC on the mouse dataset. Visual analysis through t-SNE confirms that the model learns highly separable, high-order feature representations from raw sequences. Furthermore, cross-species validation experiments prove the robust generalization capability of the framework. Motif analysis utilizing mask-based attribution methods successfully identifies species-specific key transcription factors, such as ZKSCAN3 in humans and STAT1 in mouse, providing clear biological interpretability. CONCLUSIONS: DcSE is a high-performance, robust, and interpretable computational tool. By accurately capturing key sequence features and providing biological insights into transcription factor regulation, it offers a reliable framework for super-enhancer identification and the study of genomic regulatory mechanisms.",
+    "keywords": [
+      "CBAM",
+      "Deep learning",
+      "DenseNet",
+      "Dynamic feature fusion",
+      "Ensemble learning",
+      "Super-Enhancer"
+    ],
+    "mesh_terms": [
+      "*Super Enhancers",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Deep Learning",
+      "*Computational Biology/methods",
+      "Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ao",
+        "Jia, Jianhua"
+      ],
+      "short_names": [
+        "Zhang A",
+        "Jia J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, 333403, China.",
+        "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, 333403, China. jjh163yx@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ao",
+        "short_name": "Zhang A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, 333403, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Jianhua",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, 333403, China. jjh163yx@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2026 Mar 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/25 07:09",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40772277",
+      "39561516",
+      "37348298",
+      "36318264",
+      "36030022",
+      "34666191",
+      "33538820",
+      "33412758",
+      "32504817",
+      "31874637",
+      "31874597",
+      "31701148",
+      "31675502",
+      "30814546",
+      "30478442",
+      "28881991",
+      "27474269",
+      "27197224",
+      "26301843",
+      "26213851",
+      "25635462",
+      "24119843",
+      "23787338",
+      "23582322",
+      "23175603",
+      "21875935",
+      "17324271",
+      "12519945",
+      "7584402"
+    ],
+    "similar": [
+      "41877008",
+      "41576119",
+      "42475469",
+      "40302345",
+      "40349379",
+      "40613943",
+      "41399733",
+      "40772277",
+      "38179749",
+      "39561516",
+      "40869356",
+      "39550226",
+      "41677998",
+      "42243656",
+      "41319043",
+      "41283958",
+      "40251827",
+      "36520922",
+      "40183298",
+      "42380674",
+      "42060662",
+      "39577030",
+      "37348298",
+      "40282384",
+      "41299278",
+      "42056343",
+      "40613852",
+      "41762162",
+      "42334640",
+      "40598296",
+      "40929291",
+      "39900285",
+      "42254369",
+      "40914877",
+      "40889326",
+      "39420601",
+      "40684093",
+      "42074175",
+      "27490187",
+      "37760334",
+      "42478102",
+      "41257586",
+      "42242678",
+      "41557578",
+      "41739380",
+      "40335860",
+      "41679678",
+      "41924282",
+      "38531147",
+      "41642902",
+      "41023673",
+      "42483770",
+      "41861881",
+      "41229401",
+      "40889118",
+      "40646507",
+      "40203028",
+      "41749211",
+      "42393111",
+      "42102106",
+      "41206398",
+      "40778316",
+      "40871820",
+      "35190950",
+      "42347131",
+      "41588477",
+      "41299450",
+      "41086069",
+      "41595447",
+      "42031870",
+      "35605495",
+      "31874637",
+      "39546160",
+      "38385876",
+      "41257600",
+      "42302349",
+      "41880056",
+      "41697918",
+      "40596197",
+      "39096613",
+      "41558310",
+      "40863483",
+      "39350338",
+      "40820010",
+      "40033075",
+      "41066756",
+      "39519295",
+      "41663926",
+      "41667551",
+      "38485768",
+      "42192291",
+      "41922959",
+      "41617662",
+      "33808317",
+      "31874597",
+      "42338220",
+      "41382144",
+      "42417674",
+      "41820521",
+      "42151225"
+    ],
+    "review": [
+      "41877008"
+    ],
+    "pmc": [
+      "13134126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-026-12768-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41877008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

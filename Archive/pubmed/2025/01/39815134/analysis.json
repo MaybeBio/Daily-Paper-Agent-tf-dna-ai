@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39815134",
+  "title": "Deep Radiogenomics Sequencing for Breast Tumor Gene-Phenotype Decoding Using Dynamic Contrast Magnetic Resonance Imaging.",
+  "authors": "Shiri, Isaac; Salimi, Yazdan; Mohammadi Kazaj, Pooya; Bagherieh, Sara; Amini, Mehdi; Saberi Manesh, Abdollah; Zaidi, Habib",
+  "journal": "Molecular imaging and biology",
+  "published_date": "2025-01-16",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用动态对比增强MRI和深度学习预测乳腺癌ER/PR/HER2基因状态，属于影像基因组学，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "PURPOSE: We aim to perform radiogenomic profiling of breast cancer tumors using dynamic contrast magnetic resonance imaging (MRI) for the estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2) genes. METHODS: The dataset used in the current study consists of imaging data of 922 biopsy-confirmed invasive breast cancer patients with ER, PR, and HER2 gene mutation status. Breast MR images, including a T1-weighted pre-contrast sequence and three post-contrast sequences, were enrolled for analysis. All images were corrected using N4 bias correction algorithms. Based on all images and tumor masks, a bounding box of 128 x 128 x 68 was chosen to include all tumor regions. All networks were implemented in 3D fashion with input sizes of 128 x 128 x 68, and four images were input to each network for multi-channel analysis. Data were randomly split into train/validation (80%) and test set (20%) with stratification in class (patient-wise), and all metrics were reported in 20% of the untouched test dataset. RESULTS: For ER prediction, SEResNet50 achieved an AUC mean of 0.695 (CI95%: 0.610-0.775), a sensitivity of 0.564, and a specificity of 0.787. For PR prediction, ResNet34 achieved an AUC mean of 0.658 (95% CI: 0.573-0.741), a sensitivity of 0.593, and a specificity of 0.734. For HER2 prediction, SEResNext101 achieved an AUC mean of 0.698 (95% CI: 0.560-0.822), a sensitivity of 0.750, and a specificity of 0.625. CONCLUSION: The current study demonstrated the feasibility of imaging gene-phenotype decoding in breast tumors using MR images and deep learning algorithms with moderate performance.",
+  "abstract_zh": "目的：我们旨在利用动态对比增强磁共振成像（MRI）对乳腺癌肿瘤进行影像基因组学分析，针对雌激素受体（ER）、孕激素受体（PR）和人表皮生长因子受体2（HER2）基因。方法：本研究使用的数据集包含922例经活检确诊的浸润性乳腺癌患者的影像数据，并记录了ER、PR和HER2基因突变状态。分析中纳入了乳腺MR图像，包括T1加权预对比序列和三个后对比序列。所有图像均使用N4偏置场校正算法进行校正。基于所有图像和肿瘤掩膜，选择128 x 128 x 68的边界框以包含所有肿瘤区域。所有网络均以3D方式实现，输入尺寸为128 x 128 x 68，每个网络输入四张图像进行多通道分析。数据按类别（患者层面）分层随机分为训练/验证集（80%）和测试集（20%），所有指标均在未触及的20%测试数据集上报告。结果：对于ER预测，SEResNet50实现了平均AUC为0.695（95% CI：0.610-0.775），敏感性为0.564，特异性为0.787。对于PR预测，ResNet34实现了平均AUC为0.658（95% CI：0.573-0.741），敏感性为0.593，特异性为0.734。对于HER2预测，SEResNext101实现了平均AUC为0.698（95% CI：0.560-0.822），敏感性为0.750，特异性为0.625。结论：本研究证明了利用MR图像和深度学习算法对乳腺肿瘤进行影像基因表型解码的可行性，且性能表现中等。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39815134/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39815134/",
+  "paper_page_path": "papers/pubmed/39815134/index.html"
+}

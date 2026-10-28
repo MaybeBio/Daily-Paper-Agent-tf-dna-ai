@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that PEG-induced LLPS alters the photophysical properties of topotecan (TPT), induces structural changes in calf thymus DNA (ctDNA), and modulates TPT-DNA interactions in binary and ternary systems, supported by spectroscopy, microscopy, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond one lifetime value, or simulation parameters are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, simulation protocols, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on the interplay between LLPS and drug-nucleic acid interactions, with a plausible mechanistic narrative. However, the current evidence base is insufficient to evaluate the rigor of the claims. Several assertions lack quantitative support, and the logical connection between some experimental observations and the stated conclusions is not fully established from the abstract alone. The work may be of interest to the biophysical chemistry community, but the case is not yet compelling based on the provided material.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug delivery, and biomolecular condensate biology would find this relevant. The study addresses how crowding agents like PEG, commonly used to induce LLPS, can alter drug photophysics and nucleic acid structure, which has implications for understanding drug behavior in cellular environments and for designing drug delivery systems.
+- **Major strengths** The study combines multiple experimental techniques (fluorescence, absorption, microscopy) with molecular dynamics simulations, providing a multi-pronged approach. The focus on both binary and ternary systems allows for a systematic comparison of PEG effects on TPT alone, DNA alone, and their complex. The observation of altered condensate morphologies adds a structural dimension that is often missing in photophysical studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that LLPS induces a shift from the emissive Z-form to the more stable C-TPT form with enhanced fluorescence and a longer approximately 4.0 ns lifetime.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states a shift from Z-form to C-TPT form, but no spectroscopic evidence (e.g., emission maxima, excitation spectra, or pH dependence) is provided to support this assignment. The single lifetime value of approximately 4.0 ns is presented without comparison to the lifetime in the absence of PEG or in dilute conditions.
+  - **Why it matters** The identification of specific tautomeric or prototropic forms of TPT is central to the mechanistic interpretation. Without quantitative spectral data and appropriate controls, the claim that LLPS stabilizes a particular form is not verifiable.
+  - **Resolution test** Provide emission and excitation spectra for TPT in the absence and presence of PEG, with clear assignment of spectral features to specific forms. Include lifetime measurements under both conditions with fitting parameters and error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PEG-induced phase separation caused significant structural changes in ctDNA, including quenching of B-form DNA signals and a blue shift in absorption spectra.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which B-form DNA signals were quenched (e.g., circular dichroism bands, fluorescence intercalator displacement) or the magnitude of the blue shift. It is unclear whether the observed changes are due to LLPS itself or to PEG-induced crowding in the absence of phase separation.
+  - **Why it matters** Distinguishing between effects of phase separation and molecular crowding is critical for the central claim that LLPS modulates DNA structure. Without control experiments in non-phase-separating crowding conditions, the attribution to LLPS is not established.
+  - **Resolution test** Include control experiments with PEG at concentrations below the LLPS threshold, and provide quantitative data on the spectral changes (e.g., shift in nm, change in CD signal intensity) with statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MD simulations corroborated the experimental findings, revealing PEG-induced crowding around TPT and enhanced hydrogen bonding between the TPT-DNA complex under crowded conditions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation details are provided, including force field parameters, system size, simulation time, or how PEG-induced crowding was modeled. The abstract does not specify which experimental findings the simulations corroborate or how hydrogen bonding was quantified.
+  - **Why it matters** MD simulations are only meaningful if the methodology is sound and the results are quantitatively linked to experimental observables. Without these details, the corroborative claim is unverifiable.
+  - **Resolution test** Provide simulation methods in full, including convergence criteria, and show quantitative comparisons between simulated and experimental observables (e.g., radial distribution functions, hydrogen bond lifetimes, and spectral predictions).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The terms "Z-form" and "C-TPT form" are used without definition or context, which may confuse readers unfamiliar with topotecan photophysics.
+  - **Required correction** Briefly define these forms in the abstract or provide a reference to prior work where they are described.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Broader implications
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final sentence claims potential applications in complex molecular environments, but the abstract does not specify what these applications might be or how the findings translate to biological contexts.
+  - **Required correction** Add a sentence specifying at least one concrete implication, such as relevance to drug delivery in cellular condensates or to understanding drug efficacy in crowded intracellular environments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Quantitative reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports only one numerical value (approximately 4.0 ns lifetime) and no error estimates or statistical measures for any of the spectral or microscopic observations.
+  - **Required correction** Include representative quantitative values with uncertainties for key measurements, or state that full data are presented in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative spectral data, absence of control experiments distinguishing LLPS from crowding, and insufficient simulation details collectively prevent verification of the central claims.
+- **Assessment against Nature-style criteria** Originality: The combination of LLPS with drug photophysics and DNA structure is somewhat novel, though the individual components are well studied. Scientific importance: Moderate; the findings could inform drug delivery but the broader significance is not yet clear. Interdisciplinary readership: The topic bridges physical chemistry and biology, but the abstract is too specialized for a broad audience. Technical soundness: Not assessable from the abstract; key methodological details are missing. Readability for nonspecialists: The abstract is dense and uses undefined terms, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the lack of quantitative data, controls, and simulation details means the claims cannot be evaluated. A revised version with full methodological transparency and explicit evidence linking LLPS to the observed effects would be needed to support the conclusions.
+
+## Risk / unsupported claims
+- The assignment of TPT to Z-form and C-TTP forms is unsupported without spectral evidence.
+- The attribution of DNA structural changes to LLPS rather than general crowding is unsupported without control experiments.
+- The claim that MD simulations corroborate experimental findings is unverifiable without simulation details.
+- The statement that DNA binding partially attenuated PEG's modulation of TPT's excited states is not supported by any quantitative comparison.
+- The claim of reduced water accessibility in the PEG-rich environment is inferred but not directly measured.

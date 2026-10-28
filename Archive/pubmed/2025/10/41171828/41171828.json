@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "41171828",
+    "doi": "10.1371/journal.pone.0335410",
+    "title": "In-Silico discovery of Pediatric Acute-Myeloid-Leukemia (pAML) causing druggable molecular signatures highlighting their pathogenetic processes and therapeutic agents through single-cell RNA-Seq profile analysis."
+  },
+  "content": {
+    "abstract": "Pediatric acute-myeloid-leukemia (pAML) is an aggressive malignancy and the second most common blood cancer in children. In spite of significant advances in the frontline therapeutic approaches, approximately 50% of pAML patients show poor prognosis and relapse. Though drugs show positive response against the cancer cells initially, however, it becomes resistant in the long run of treatment, requiring the use of alternative drugs. Therefore, this study aimed to discover pAML-causing druggable molecular signatures highlighting their pathogenetic processes and alternative therapeutic agents. To address these issues, at first, we performed an integrated single-cell RNA sequencing (scRNA-seq) profile analysis of two datasets with accession IDs GSE154109 and GSE235923, which revealed 6 pAML-related key cell types (Erythroid cells, GdT-cells, Naive B-cells, Naive CD4 T-cells, Non-Classical Monocytes, and T-regs) and 198 common differentially expressed genes (cDEGs) between pAML and healthy groups. The protein-protein interaction (PPI) analysis yielded top-ranked eight cDEGs (JUN, MDM2, FOS, SOD2, FBXW7, CHD3, MCL1, and MAP2K1) as common key genes (cKGs) across the key cell types. Disease-cKGs enrichment analysis further confirmed the relevance of these genes to pAML and other leukemic diseases. Regulatory network analysis identified top four transcription factors (FOXC1, GATA2, RELA, and TP53) and three microRNAs (hsa-let-7a-5p, hsa-let-7e-5p, hsa-miR-15a-5p) that regulate these cKGs. Gene ontology (GO) terms and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis results reflected their potential roles in pAML pathogenesis. Pathway perturbation analysis through gene-set enrichment analysis (GSEA) tool identified significantly perturbed pathways, highlighting how they are altered in pAML environment and how the cKGs are linked in the process. Subsequently, three potential therapeutic candidates (IRINOTECAN HYDROCHLORIDE, IMATINIB and IBRUTINIB) were disclosed through an integrative strategy combining molecular docking, drug-likeness, ADME/T, and DFT analyses. Molecular dynamics (MD) simulation studies for the top three drug-target complexes indicated the stability of complexes. Thus, the findings potentially offer valuable insights for pAML pathogenesis and effective therapeutic candidates for pAML patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Single-Cell Analysis/methods",
+      "Child",
+      "*Leukemia, Myeloid, Acute/genetics/drug therapy/pathology/metabolism",
+      "RNA-Seq",
+      "Computer Simulation",
+      "Protein Interaction Maps",
+      "*Antineoplastic Agents/pharmacology/therapeutic use",
+      "Gene Expression Regulation, Leukemic/drug effects",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmed, Md Foysal",
+        "Al Noman, Md",
+        "Ahmed, Md Feroj",
+        "Latif, Md Abdul",
+        "Pappu, Md Al Amin",
+        "Islam, Md Shariful",
+        "Hossain, Md Sanoar",
+        "Hossen, Md Bayazid",
+        "Faysal, Md Fahim",
+        "Hasan, Md Mehedi",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Ahmed MF",
+        "Al Noman M",
+        "Ahmed MF",
+        "Latif MA",
+        "Pappu MAA",
+        "Islam MS",
+        "Hossain MS",
+        "Hossen MB",
+        "Faysal MF",
+        "Hasan MM",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Institute of Bangladesh Studies (IBS), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Agricultural and Applied Statistics, Bangladesh Agricultural University, Mymensingh, Bangladesh.",
+        "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi, Bangladesh.",
+        "Division of Biotechnology and Molecular Medicine, Department of Pathobiological Science, School of Veterinary Medicine, Louisiana State University, Baton Rouge, Louisiana, United States of America.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmed, Md Foysal",
+        "short_name": "Ahmed MF",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Al Noman, Md",
+        "short_name": "Al Noman M",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Md Feroj",
+        "short_name": "Ahmed MF",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Latif, Md Abdul",
+        "short_name": "Latif MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Pappu, Md Al Amin",
+        "short_name": "Pappu MAA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Shariful",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Sanoar",
+        "short_name": "Hossain MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+          "Institute of Bangladesh Studies (IBS), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossen, Md Bayazid",
+        "short_name": "Hossen MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural and Applied Statistics, Bangladesh Agricultural University, Mymensingh, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Faysal, Md Fahim",
+        "short_name": "Faysal MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan, Md Mehedi",
+        "short_name": "Hasan MM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biotechnology and Molecular Medicine, Department of Pathobiological Science, School of Veterinary Medicine, Louisiana State University, Baton Rouge, Louisiana, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 18:30",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "42361106",
+      "42316306",
+      "41465132"
+    ],
+    "refs": [
+      "39841459",
+      "39703843",
+      "39558183",
+      "39402623",
+      "39399884",
+      "38650628",
+      "38631346",
+      "38347575",
+      "38031713",
+      "37818101",
+      "37798266",
+      "37782001",
+      "37627199",
+      "37553246",
+      "37532055",
+      "37448673",
+      "37108344",
+      "37047003",
+      "36426870",
+      "36300619",
+      "36190670",
+      "36179024",
+      "36160019",
+      "36117858",
+      "35309927",
+      "35163880",
+      "35085550",
+      "34820000",
+      "34791371",
+      "34782601",
+      "33780170",
+      "33779466",
+      "33188581",
+      "33168968",
+      "32692727",
+      "32664667",
+      "32592658",
+      "32300964",
+      "32050659",
+      "31992182",
+      "31815781",
+      "31795243",
+      "31740819",
+      "31393631",
+      "31118680",
+      "31024627",
+      "30951143",
+      "30531897",
+      "30504886",
+      "30371825",
+      "30357364",
+      "30246332",
+      "30086763",
+      "29758466",
+      "29409532",
+      "29156006",
+      "29156001",
+      "29140473",
+      "28979704",
+      "28940711",
+      "28429294",
+      "28256516",
+      "28105602",
+      "27840425",
+      "26688095",
+      "26373280",
+      "25950236",
+      "25877637",
+      "25873628",
+      "25860834",
+      "25521941",
+      "25176396",
+      "24981612",
+      "24307721",
+      "24127737",
+      "23506147",
+      "22958424",
+      "22879540",
+      "22716043",
+      "22496479",
+      "21573418",
+      "21045058",
+      "20525924",
+      "19808698",
+      "19499576",
+      "19074117",
+      "18474036",
+      "18048412",
+      "17895890",
+      "16983673",
+      "16380191",
+      "16199517",
+      "16010591",
+      "15314684",
+      "14991544",
+      "14764989",
+      "14707283",
+      "14597658",
+      "12734009",
+      "11948792",
+      "11560954",
+      "9878062",
+      "9226149",
+      "8898928"
+    ],
+    "similar": [
+      "41171828",
+      "41219276",
+      "36991484",
+      "33950983",
+      "40127075",
+      "40834023",
+      "39160196",
+      "36439178",
+      "41465132",
+      "31298340",
+      "40025145",
+      "41300749",
+      "37359050",
+      "37893423",
+      "38717954",
+      "39348357",
+      "41139200",
+      "40421018",
+      "40536508",
+      "36567949",
+      "41056367",
+      "40482912",
+      "33274216",
+      "36104591",
+      "29128636",
+      "41189229",
+      "39251712",
+      "40873580",
+      "30289875",
+      "41006797",
+      "35390032",
+      "40024421",
+      "40370100",
+      "40826767",
+      "33237828",
+      "41261300",
+      "40839931",
+      "39622393",
+      "33299888",
+      "39813619",
+      "41357210",
+      "30896832",
+      "36401966",
+      "33891561",
+      "36160019",
+      "32977829",
+      "39893187",
+      "32547322",
+      "33831468",
+      "39586719",
+      "32422235",
+      "41188916",
+      "41088263",
+      "40387517",
+      "30503955",
+      "35275451",
+      "40748585",
+      "32093341",
+      "38444712",
+      "33534927",
+      "41162544",
+      "38640424",
+      "30558617",
+      "34053416",
+      "33407587",
+      "40507971",
+      "35603405",
+      "39324133",
+      "33054128",
+      "36793717",
+      "36291136",
+      "36927770",
+      "35313857",
+      "40674817",
+      "34398996",
+      "39926598",
+      "33764282",
+      "41006377",
+      "30092792",
+      "32597160",
+      "39028999",
+      "25646775",
+      "40068024",
+      "39674047",
+      "32299382",
+      "31277149",
+      "40260377",
+      "39067546",
+      "40640313",
+      "39604273",
+      "41326474",
+      "35401659",
+      "41446353",
+      "38873601",
+      "40790764",
+      "36786134",
+      "40715263",
+      "34313877",
+      "35968647",
+      "39834440"
+    ],
+    "review": [
+      "41171828",
+      "40748585"
+    ],
+    "pmc": [
+      "12578151"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0335410",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41171828/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

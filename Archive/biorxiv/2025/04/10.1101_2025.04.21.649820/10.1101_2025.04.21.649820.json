@@ -1,0 +1,271 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.21.649820",
+  "title": "Chronobot: Deep learning guided time-resolved cryo-EM captures molecular choreography of RecA in homology search",
+  "doi": "10.1101/2025.04.21.649820",
+  "abstract": "The function of proteins and other biological macromolecules is regulated by conformational dynamics 1 . Many functional changes take place on millisecond timescales which cannot be experimentally captured by manual sample preparation for cryo-EM 2 . Here we introduce Chronobot, a robust, data-driven platform enabling reproducible, time-resolved cryo-EM sample preparation to visualize these transient intermediates. We quantify ice thickness, an important precondition and thus a reliable predictor of 3D reconstruction quality, using two complementary methods: a bespoke deep learning model analysing high-speed camera videos of the grid just before vitrification, and detailed ice thickness quantifications of outputs from common TEM screening workflows like the EPU software. Combining these methods enables rapid optimisation, resulting in an 11-fold improvement in cryo-EM sample quality compared to our previously reported workflow 3 . To demonstrate the Chronobot in capturing transient reaction intermediates visualised through cryo-EM and single particle analysis we focused on RecA homology search. The RecA family of recombinases perform the essential task of rapidly scanning for homologous dsDNA sequences to initiate homologous recombination. The dynamics of these RecA-dsDNA interactions occur on millisecond timescales, limiting structural insights 4 . We capture time-resolved homology search intermediates at 250 milliseconds. These structures reveal the involvement of the secondary DNA binding site in initial capture of dsDNA before homology sampling occurs. We also observe three-strand homology sampling intermediates, where the homologous strand is not fully displaced, and homology is not stably bound. Our results suggest a model of how RecA-family recombinases function in early homologous recombination, by coordinating the incoming DNA between RecA’s various DNA binding sites depending on the stage of homology search and the presence of suUicient homology. We anticipate the Chronobot method to be broadly applicable to processes which cannot be captured by manual sample preparation methods. In addition, by leveraging AI inference, our rapid user feedback mechanisms allow for per-sample optimisation of grid conditions, increasing the likelihood of success and reducing the sample requirements of each time-resolved experiment.",
+  "authors": [
+    "Mäeots M",
+    "Tupin S",
+    "Esfahani MMN",
+    "Molina JBR",
+    "Clapperton JA",
+    "Amin A",
+    "Imbert A",
+    "Enchev RI"
+  ],
+  "published_date": "2025-04-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649820",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649820.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1008836",
+    "raw_record": {
+      "id": "PPR1008836",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1008836"
+        ]
+      },
+      "doi": "10.1101/2025.04.21.649820",
+      "title": "Chronobot: Deep learning guided time-resolved cryo-EM captures molecular choreography of RecA in homology search",
+      "authorString": "Mäeots M, Tupin S, Esfahani MMN, Molina JBR, Clapperton JA, Amin A, Imbert A, Enchev RI.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mäeots M",
+            "lastName": "Mäeots",
+            "firstName": "Märt-Erik",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tupin S",
+            "lastName": "Tupin",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0982-8210"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Making STP, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Esfahani MMN",
+            "lastName": "Esfahani",
+            "firstName": "Mohammad",
+            "initials": "MMN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molina JBR",
+            "lastName": "Molina",
+            "firstName": "Juan Rodriguez",
+            "initials": "JBR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clapperton JA",
+            "lastName": "Clapperton",
+            "firstName": "Julie",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-9914-7729"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amin A",
+            "lastName": "Amin",
+            "firstName": "Aran",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Imbert A",
+            "lastName": "Imbert",
+            "firstName": "Albane",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4666-2101"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Making STP, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enchev RI",
+            "lastName": "Enchev",
+            "firstName": "Radoslav",
+            "initials": "RI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Visual Biochemistry Laboratory, , 1 Midland Rd , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4666-2101"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0982-8210"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3305-9722"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-9914-7729"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The function of proteins and other biological macromolecules is regulated by conformational dynamics  1 . Many functional changes take place on millisecond timescales which cannot be experimentally captured by manual sample preparation for cryo-EM  2 . Here we introduce Chronobot, a robust, data-driven platform enabling reproducible, time-resolved cryo-EM sample preparation to visualize these transient intermediates. We quantify ice thickness, an important precondition and thus a reliable predictor of 3D reconstruction quality, using two complementary methods: a bespoke deep learning model analysing high-speed camera videos of the grid just before vitrification, and detailed ice thickness quantifications of outputs from common TEM screening workflows like the EPU software. Combining these methods enables rapid optimisation, resulting in an 11-fold improvement in cryo-EM sample quality compared to our previously reported workflow  3 .  To demonstrate the Chronobot in capturing transient reaction intermediates visualised through cryo-EM and single particle analysis we focused on RecA homology search. The RecA family of recombinases perform the essential task of rapidly scanning for homologous dsDNA sequences to initiate homologous recombination. The dynamics of these RecA-dsDNA interactions occur on millisecond timescales, limiting structural insights  4 . We capture time-resolved homology search intermediates at 250 milliseconds. These structures reveal the involvement of the secondary DNA binding site in initial capture of dsDNA before homology sampling occurs. We also observe three-strand homology sampling intermediates, where the homologous strand is not fully displaced, and homology is not stably bound. Our results suggest a model of how RecA-family recombinases function in early homologous recombination, by coordinating the incoming DNA between RecA’s various DNA binding sites depending on the stage of homology search and the presence of suUicient homology. We anticipate the Chronobot method to be broadly applicable to processes which cannot be captured by manual sample preparation methods. In addition, by leveraging AI inference, our rapid user feedback mechanisms allow for per-sample optimisation of grid conditions, increasing the likelihood of success and reducing the sample requirements of each time-resolved experiment.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "The Francis Crick Institute",
+            "grantId": "CC2059",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/22/2025.04.21.649820.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.21.649820"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1008836"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1008836&type=FILE&fileName=EMS204966-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS204966",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-04-25",
+      "firstPublicationDate": "2025-04-22",
+      "firstIndexDate": "2025-04-25",
+      "fullTextReceivedDate": "2025-04-29",
+      "hasEvaluations": "Y"
+    }
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "40913516",
+    "doi": "10.1002/advs.202509952",
+    "title": "Inhibition of Macrophage ARID3A Alleviates Myocardial Ischemia-Reperfusion Injury After Heart Transplantation by Reducing THBS1/CD47 Signaling-Mediated Neutrophil Extracellular Traps Formation."
+  },
+  "content": {
+    "abstract": "Mitigating myocardial ischemia-reperfusion (IR) injury is essential for enhancing the success of heart transplantation (HT) and improving patient outcomes. During HT, infiltrating neutrophils are influenced and regulated by various other cell types, contributing to myocardial IR injury through the excessive release of neutrophil extracellular traps (NETs). Nonetheless, the precise mechanisms underlying the interactions between neutrophils and other non-cardiomyocytes remain largely unexplored. Single-cell RNA sequencing is employed to characterize the cellular landscape and to explore the crosstalk between neutrophils and other non-cardiomyocytes. The role of AT-rich interactive domain-containing protein 3A (ARID3A) during HT is further examined using myeloid-specific ARID3A-knockout mice. Molecular docking analyses are conducted to identify the target of 4-octyl itaconate (4-OI). These results reveal that M1 macrophages recruited during the reperfusion of HT promote NETs formation and myocardial IR injury through THBS1/CD47 axis, whereas CD47 induces NETosis by activating the p38 MAPK signaling. Exogenous administration of 4-OI specifically inhibits ARID3A in macrophages, thereby suppressing NETosis and alleviating myocardial IR injury. These findings indicate that THBS1/CD47 signaling is a critical bridge mediating the interaction between M1 macrophages and NETs-associated neutrophils, and identify 4-OI as a promising therapeutic candidate for the treatment of myocardial IR injury following HT.",
+    "keywords": [
+      "heart transplantation",
+      "intercellular crosstalk",
+      "ischemia-reperfusion injury",
+      "neutrophil extracellular traps (NETs)",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Myocardial Reperfusion Injury/metabolism",
+      "*Extracellular Traps/metabolism",
+      "*Macrophages/metabolism",
+      "*Heart Transplantation/adverse effects",
+      "Neutrophils/metabolism",
+      "Signal Transduction",
+      "*CD47 Antigen/metabolism/genetics",
+      "*Thrombospondin 1/metabolism/genetics",
+      "Male",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Mice, Knockout",
+      "*Transcription Factors/metabolism/genetics",
+      "Mice, Inbred C57BL",
+      "Humans",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Hao",
+        "Xiong, Yonghong",
+        "Zhan, Junbiao",
+        "Lu, Zhikun",
+        "Zhang, Yuxi",
+        "Leng, Yan",
+        "Huang, Qin",
+        "Xia, Zhongyuan"
+      ],
+      "short_names": [
+        "Tian H",
+        "Xiong Y",
+        "Zhan J",
+        "Lu Z",
+        "Zhang Y",
+        "Leng Y",
+        "Huang Q",
+        "Xia Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5807-9554"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Hao",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yonghong",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Junbiao",
+        "short_name": "Zhan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhikun",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuxi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Leng, Yan",
+        "short_name": "Leng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qin",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xia, Zhongyuan",
+        "short_name": "Xia Z",
+        "identifiers": [
+          "0000-0002-5807-9554"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/06 12:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "42519148",
+      "42470727",
+      "42305782",
+      "42171325",
+      "41403700",
+      "41303172",
+      "41221274"
+    ],
+    "refs": [
+      "40325032",
+      "40151877",
+      "39973763",
+      "39935176",
+      "39854149",
+      "39848358",
+      "39443808",
+      "39384116",
+      "39352691",
+      "39350193",
+      "39165142",
+      "39089570",
+      "39073665",
+      "38861835",
+      "38775664",
+      "38745069",
+      "38604314",
+      "38538784",
+      "38447462",
+      "38323308",
+      "38238518",
+      "38225394",
+      "38169726",
+      "38086436",
+      "37659731",
+      "37530529",
+      "37517989",
+      "37489289",
+      "37258315",
+      "37254661",
+      "37122894",
+      "36977669",
+      "36827980",
+      "36814859",
+      "36719377",
+      "36344311",
+      "36008383",
+      "35899614",
+      "35837403",
+      "35688556",
+      "35662396",
+      "35235776",
+      "35189380",
+      "35185378",
+      "35092203",
+      "34717705",
+      "34648022",
+      "34570885",
+      "34375400",
+      "33920030",
+      "33908380",
+      "33746988",
+      "32945901",
+      "32791101",
+      "32740860",
+      "32326963",
+      "32324499",
+      "32191637",
+      "31178405",
+      "30830879",
+      "30705422",
+      "30496104",
+      "29590092",
+      "28267716",
+      "28158426",
+      "27374498",
+      "27259468",
+      "26325193",
+      "26271065",
+      "25938591",
+      "25652948",
+      "25527775",
+      "25450968",
+      "25185498",
+      "24786973",
+      "24591151",
+      "24200682",
+      "23677049",
+      "23144964",
+      "22261166",
+      "19738144",
+      "16294224",
+      "11157717"
+    ],
+    "similar": [
+      "40913516",
+      "38900242",
+      "39836624",
+      "27259369",
+      "40616949",
+      "38861835",
+      "41265218",
+      "32611241",
+      "38599097",
+      "38476275",
+      "39261768",
+      "39951937",
+      "38666340",
+      "40151877",
+      "34218049",
+      "40768896",
+      "31249639",
+      "35250972",
+      "39236457",
+      "38589685",
+      "30586706",
+      "41175585",
+      "41248570",
+      "34248948",
+      "31982429",
+      "30018168",
+      "34091010",
+      "34273405",
+      "40001309",
+      "22859854",
+      "39994679",
+      "41031413",
+      "31496351",
+      "39277122",
+      "33664937",
+      "40204883",
+      "29960272",
+      "25855125",
+      "40576028",
+      "30850588",
+      "33089917",
+      "34646379",
+      "29061334",
+      "31632398",
+      "40102948",
+      "31370677",
+      "41072078",
+      "32437924",
+      "32506691",
+      "39380143",
+      "36603844",
+      "40107980",
+      "41217483",
+      "37816851",
+      "40068761",
+      "40967029",
+      "40349409",
+      "41405834",
+      "24234226",
+      "39315100",
+      "34899751",
+      "40967078",
+      "40963908",
+      "39137629",
+      "41019041",
+      "33232198",
+      "35063996",
+      "38485036",
+      "37659731",
+      "40250000",
+      "32366943",
+      "34375400",
+      "41079938",
+      "41014772",
+      "39536084",
+      "23499828",
+      "26347075",
+      "39865866",
+      "19481167",
+      "24045574",
+      "38198534",
+      "35640777",
+      "38811421",
+      "38225394",
+      "37325925",
+      "40605028",
+      "31453815",
+      "39340991",
+      "38129877",
+      "41092769",
+      "24390148",
+      "40285622",
+      "30582448",
+      "27742621",
+      "23683381",
+      "27692564",
+      "39303536",
+      "30456926",
+      "38979889",
+      "33765345"
+    ],
+    "review": [
+      "40913516",
+      "41092769"
+    ],
+    "pmc": [
+      "12667509"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hearttransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40913516/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD47-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

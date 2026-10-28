@@ -1,0 +1,397 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.06.626709",
+  "title": "Scalable DNA Feature Generation and Transcription Factor Binding Prediction via Deep Surrogate Models",
+  "doi": "10.1101/2024.12.06.626709",
+  "abstract": "Simulating DNA breathing dynamics, for instance Extended Peyrard-Bishop-Dauxois (EPBD) model, across the entire human genome using traditional biophysical methods like pyDNA-EPBD is computationally prohibitive due to intensive techniques such as Markov Chain Monte Carlo (MCMC) and Langevin dynamics. To overcome this limitation, we propose a deep surrogate generative model utilizing a conditional Denoising Diffusion Probabilistic Model (DDPM) trained on DNA sequence-EPBD feature pairs. This surrogate model efficiently generates high-fidelity DNA breathing features conditioned on DNA sequences, reducing computational time from months to hours–a speedup of over 1000 times. By integrating these features into the EPBDxDNABERT-2 model, we enhance the accuracy of transcription factor (TF) binding site predictions. Experiments demonstrate that the surrogate-generated features perform comparably to those obtained from the original EPBD framework, validating the model’s efficacy and fidelity. This advancement enables real-time, genome-wide analyses, significantly accelerating genomic research and offering powerful tools for disease understanding and therapeutic development.",
+  "authors": [
+    "Anowarul Kabir",
+    "Toki Tahmid Inan",
+    "Kim Rasmussen",
+    "Amarda Shehu",
+    "Anny Usheva",
+    "Alan Bishop",
+    "Boian Alexandrov",
+    "Manish Bhattarai"
+  ],
+  "published_date": "2024-12-10",
+  "updated_date": "2024-12-11T03:50:51Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.626709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.626709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:35:19Z",
+        "timestamp": 1768520119964,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 24,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                10
+              ]
+            ],
+            "date-time": "2024-12-10T00:00:00Z",
+            "timestamp": 1733788800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Simulating DNA breathing dynamics, for instance Extended Peyrard-Bishop-Dauxois (EPBD) model, across the entire human genome using traditional biophysical methods like pyDNA-EPBD is computationally prohibitive due to intensive techniques such as Markov Chain Monte Carlo (MCMC) and Langevin dynamics. To overcome this limitation, we propose a deep surrogate generative model utilizing a conditional Denoising Diffusion Probabilistic Model (DDPM) trained on DNA sequence-EPBD feature pairs. This surrogate model efficiently generates high-fidelity DNA breathing features conditioned on DNA sequences, reducing computational time from months to hours–a speedup of over 1000 times. By integrating these features into the EPBDxDNABERT-2 model, we enhance the accuracy of transcription factor (TF) binding site predictions. Experiments demonstrate that the surrogate-generated features perform comparably to those obtained from the original EPBD framework, validating the model’s efficacy and fidelity. This advancement enables real-time, genome-wide analyses, significantly accelerating genomic research and offering powerful tools for disease understanding and therapeutic development.</jats:p>",
+      "DOI": "10.1101/2024.12.06.626709",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            11
+          ]
+        ],
+        "date-time": "2024-12-11T03:50:51Z",
+        "timestamp": 1733889051000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Scalable DNA Feature Generation and Transcription Factor Binding Prediction via Deep Surrogate Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Anowarul",
+          "family": "Kabir",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Toki Tahmid",
+          "family": "Inan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kim",
+          "family": "Rasmussen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5230-4610",
+          "authenticated-orcid": false,
+          "given": "Amarda",
+          "family": "Shehu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anny",
+          "family": "Usheva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alan",
+          "family": "Bishop",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Boian",
+          "family": "Alexandrov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1421-3643",
+          "authenticated-orcid": false,
+          "given": "Manish",
+          "family": "Bhattarai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks758"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp1084"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.107.123471"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.5",
+          "first-page": "8780",
+          "article-title": "Diffusion Models Beat GANs on Image Synthesis",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "In Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.6",
+          "first-page": "6840",
+          "article-title": "Denoising diffusion probabilistic models",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "In Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae783"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.9",
+          "unstructured": "Kabir, A. ; Bhattarai, M. ; Rasmussen, K. ; Shehu, A. ; Usheva, A. ; Bishop, A. ; and Alexandrov, B. 2023a. pyDNA-EPBD: A Python-based Implementation of the Extended Peyrard-Bishop-Dauxois Model for DNA Breathing Dynamics Simulation."
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad699"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.11",
+          "article-title": "Generating and designing DNA with deep generative models",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.12",
+          "unstructured": "Loshchilov, I. ; and Hutter, F. 2019. Decoupled Weight Decay Regularization. International Conference on Learning Representations."
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002881"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002881"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-70218-4"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.62.2755"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ronneberger, O. ; Fischer, P. ; and Brox, T. 2015. U-Net: Convolutional Networks for Biomedical Image Segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, 234–241. Springer.",
+          "DOI": "10.1007/978-3-319-24574-4_28"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.19",
+          "unstructured": "Senan, S. ; Reddy, A. J. ; Nussbaum, Z. ; Wenteler, A. ; Bejan, M. ; Love, M. I. ; Meuleman, W. ; and Pinello, L. 2024. DNA-Diffusion: Leveraging Generative Models for Controlling Chromatin Accessibility and Gene Expression via Synthetic Regulatory Elements. In ICLR 2024 Workshop on Machine Learning for Genomics Explorations."
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1486"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.22",
+          "first-page": "5998",
+          "article-title": "Attention is All You Need",
+          "volume": "30",
+          "year": "2017",
+          "journal-title": "In Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2011.11.029"
+        },
+        {
+          "key": "2024121220104376000_2024.12.06.626709v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.06.626709",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:38:47Z",
+        "timestamp": 1768462727000
+      },
+      "score": 153.55673,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.06.626709"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ]
+      },
+      "references-count": 24,
+      "URL": "https://doi.org/10.1101/2024.12.06.626709",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

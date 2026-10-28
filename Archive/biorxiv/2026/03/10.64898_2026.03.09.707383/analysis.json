@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.09.707383",
+  "title": "A DNA foundation model predicts osteoporosis risk genes without proximity bias",
+  "authors": "Cristian Regep; Chantriolnt-Andreas Kapourani; Emre Sofyali; Agnieszka Dobrowolska; Giannis Loukas; Andrew Anighoro; Eleonora Canale; Torsten Gross; Marco P. Licciardello; Revant Gupta; Sorina Maciuca; Tariq Desai; Alice Del Vecchio; Cameron Field; Karl Gemayel; Avelino Javer; Zicong Zhang; Rika Tsujikawa; Fumitaka Inoue; Edith. M. Hessel; Jake P. Taylor-King; John Whittaker; David Roblin; Rebecca E. McIntyre; Lindsay M. Edwards",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-12",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用DNA基础模型预测变异-基因调控关系，虽涉及序列调控而非直接TF-DNA互作建模，但方法可迁移至TF结合位点预测，属广义蛋白-DNA互作相关。",
+  "abstract": "Targets supported by human genetic associations are more than twice as likely to progress from clinical development to approval. Genome-wide association studies are the largest source of genetic evidence for disease risk but linking non-coding variants to effector genes remains a significant barrier to identifying causal targets. Current gene-mapping approaches suffer from proximity bias, largely ignoring distal genes. Here we introduce Rosalind, a DNA foundation model fine-tuned on human genetic variation from GTEx, that directly predicts variant-gene regulatory relationships from sequence without relying on nearest-gene heuristics. We demonstrate Rosalind’s accuracy through extensive benchmarking, apply it to multiple complex traits to establish broad utility, and provide experimental validation in osteoporosis using a translational osteoblast assay. We demonstrate that genes distal to osteoporosis risk variants were significantly more likely to alter a bone formation phenotype than nearest genes. Together, these results highlight deep learning-based regulatory models as a general and scalable framework for translating novel genetic insights to drug discovery.",
+  "abstract_zh": "有人类遗传关联支持的靶点从临床开发进入获批的可能性是其他靶点的两倍以上。全基因组关联研究是疾病风险遗传证据的最大来源，但将非编码变异与效应基因联系起来仍是识别因果靶点的重大障碍。当前的基因映射方法存在邻近性偏差，很大程度上忽略了远端基因。在此，我们引入Rosalind，一种基于GTEx人类遗传变异微调的DNA基础模型，它直接从序列预测变异-基因调控关系，而不依赖最近基因启发式方法。我们通过广泛的基准测试证明Rosalind的准确性，将其应用于多个复杂性状以确立广泛实用性，并使用成骨细胞转化实验在骨质疏松症中提供实验验证。我们证明，与骨质疏松症风险变异相关的远端基因显著更可能改变骨形成表型，而非最近基因。综合来看，这些结果凸显了基于深度学习的调控模型作为将新遗传见解转化为药物发现的通用且可扩展框架的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.707383",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.707383",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.09.707383/index.html"
+}

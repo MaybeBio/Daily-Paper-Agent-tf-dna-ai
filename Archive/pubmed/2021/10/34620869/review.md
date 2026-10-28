@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure captions.
+- **Assessment boundary** Scientific content, theoretical derivation, simulation methodology, data analysis, and interpretation as presented. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose a two-parameter analytical theory for condensin-mediated DNA loop extrusion, predicting loop extrusion velocity and step size distribution as functions of external load. They claim quantitative agreement with single-molecule experiments, and support a "scrunching" mechanism whereby ATP binding induces a large conformational change in condensin, bringing the head and hinge domains closer by approximately 22–26 nm per catalytic cycle. Simulations of a coarse-grained model of condensin, with and without DNA, are used to corroborate the predicted conformational change.
+- **Visible evidence base** Theoretical derivations (Eqs. 1–7), fits to published experimental data (Fig. 4a, c, d), coarse-grained MD simulation results (Fig. 5), and comparisons with prior models (ref. 16). Supplementary information is referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** Supplementary Information (SI) sections I–VI, including simulation details, Hamiltonian parameters, and normal mode analysis, are referenced but not available. Source Data files for Figs. 4 and 5 are not provided. The Mathematica notebook and simulation code are mentioned but not accessible for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually appealing and analytically tractable model for condensin-mediated loop extrusion, with a commendable focus on minimizing free parameters. The central idea that a large conformational change between open and closed states drives loop extrusion is well motivated by experimental observations, and the authors make a serious effort to connect theory, simulation, and experiment. However, the manuscript has several significant weaknesses that currently prevent full endorsement. The theoretical derivation relies on approximations whose validity is not fully established, the treatment of the external load is oversimplified, and the comparison with experimental data, while visually reasonable, lacks rigorous statistical assessment. The simulations, while supportive, are based on a highly simplified model, and the discrepancy in persistence length between the model and experiments is acknowledged but not resolved. The discussion of alternative mechanisms is somewhat one-sided, and the claim of being the "only" theory to reproduce experiments is overstated given the existence of other models. Overall, the work is interesting and potentially important, but the case is not yet fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of chromosome organization, single-molecule biophysics, and molecular motor mechanisms would find this work of interest. The theoretical framework for loop extrusion, with its emphasis on conformational changes and polymer physics, could inform future experimental design and data interpretation. The connection to the broader question of how SMC complexes organize genomes makes it relevant to a wider cell biology and biophysics audience.
+- **Major strengths**
+    1.  The model is analytically solvable with only two free parameters, which is a significant advantage over more complex kinetic models.
+    2.  The theory makes a specific, testable prediction about the magnitude of the conformational change (ΔR ≈ 26 nm), which is supported by independent experimental measurements.
+    3.  The combination of theory, simulation, and experimental data analysis provides a multi-pronged approach to the problem.
+    4.  The manuscript is generally well-written and accessible, with clear figures that effectively illustrate the key concepts.
+- **Major Concerns**
+    - **R1-M1** (Severity: Major, Blocking: Yes, Axis: Technical soundness of theory)
+        - **Claim pointer** The authors claim that the approximation L ≈ R is valid on the length scale of condensin size (~50 nm) and that the distribution P(L|R) has a peak at L ≈ R, justifying this approximation.
+        - **Evidence pointer** Section "Theory for the captured length (L) of DNA", Fig. 2a.
+        - **Concern** The justification for the central approximation L ≈ R is not sufficiently rigorous. The distribution P(L|R) is shown to have a heavy tail and no well-defined mean. While the peak of the distribution is near L ≈ R, the distribution is broad, and the manuscript does not quantify the error introduced by neglecting the contribution of larger L values. The statement that "the presence of f would stretch the DNA, in turn decrease the length of DNA that condensin captures" is plausible but not derived. The validity of this approximation is critical, as the entire theory of loop extrusion velocity depends on it.
+        - **Why it matters** If the approximation L ≈ R is not accurate, the derived expression for the loop extrusion velocity (Eq. 6) and the subsequent fit to experimental data could be based on a flawed premise, undermining the quantitative conclusions of the paper.
+        - **Resolution test** The authors should provide a quantitative error analysis of the L ≈ R approximation. This could be done by calculating the mean of L from the full distribution P(L|R) and comparing it to R, or by deriving a correction term to the velocity expression and showing it is negligible for the relevant parameters.
+    - **R1-M2** (Severity: Major, Blocking: Yes, Axis: Technical soundness of data analysis)
+        - **Claim pointer** The authors claim "excellent agreement" between their theoretical calculations and the experimental data for both the load-dependent velocity (Fig. 4a) and the step size distribution (Fig. 4c, d).
+        - **Evidence pointer** Section "Analysis of experimental data", Fig. 4a, c, d.
+        - **Concern** The assessment of agreement is purely visual. No statistical measures (e.g., R², chi-squared, confidence intervals) are provided for the fits. The comparison in Fig. 4c appears to show a reasonable match, but the agreement in Fig. 4a, especially at intermediate extensions, is less convincing. The manuscript would be significantly strengthened by a quantitative measure of goodness-of-fit.
+        - **Why it matters** Without statistical validation, the claim of quantitative agreement is subjective and cannot be properly evaluated. This is a central claim of the paper, and it needs to be supported by more than visual inspection.
+        - **Resolution test** Provide statistical measures of fit quality for the data presented in Fig. 4a, c, and d. This could include reduced chi-squared values, R² values, or residual analysis. The authors should also state the uncertainties on the fitted parameters (k0 and ΔR).
+    - **R1-M3** (Severity: Major, Blocking: No, Axis: Technical soundness of simulations)
+        - **Claim pointer** The authors state that simulations of a simple model of condensin, with and without DNA, "lend support" to the scrunching mechanism and the predicted ΔR value.
+        - **Evidence pointer** Section "Simulations without DNA", "Simulations with DNA", Fig. 5.
+        - **Concern** The simulation model is highly simplified, and the manuscript does not provide sufficient detail to assess its validity. The persistence length of the CC is set to 24 nm, which is acknowledged to be much higher than the experimentally estimated value of ~3.8 nm. The authors state that this discrepancy is "too large to be explained" by protein interactions, but they do not offer a satisfactory alternative explanation. This raises questions about the predictive power of the simulation model.
+        - **Why it matters** If the simulation model does not accurately represent the physical properties of condensin, its ability to support the proposed mechanism is limited. The discrepancy in persistence length is a major unresolved issue that could affect the interpretation of the simulation results.
+        - **Resolution test** The authors should either provide a more detailed justification for the choice of persistence length, or perform simulations with a range of persistence lengths to show that the qualitative conclusions are robust. A more thorough discussion of the limitations of the model and the potential reasons for the discrepancy is also necessary.
+    - **R1-M4** (Severity: Major, Blocking: No, Axis: Scientific importance and originality)
+        - **Claim pointer** The authors state that their theory is "currently the only one that reproduces the experimental observations accurately with just two parameters" and that the previous model (ref. 16) has a "major discrepancy" with experiments.
+        - **Evidence pointer** Section "Discussion", "Relation to a previous study".
+        - **Concern** The comparison with the previous model (ref. 16) is presented in a somewhat dismissive manner. While the authors correctly point out the large number of parameters in the previous model, the claim of being the "only" theory to reproduce experiments is strong and potentially misleading. The comparison in Fig. 4a (right panel) shows that the previous model also captures the general trend of the data, even if the quantitative agreement is not as good. The authors should temper their claims and provide a more balanced discussion of the relative merits and limitations of different theoretical approaches.
+        - **Why it matters** Overstating the novelty or superiority of the proposed model can undermine the credibility of the work. A more nuanced comparison would strengthen the paper.
+        - **Resolution test** Revise the discussion to acknowledge the contributions of previous models more fairly and to clearly state the specific advantages of the proposed theory without overgeneralizing.
+- **Minor Comments**
+    - **R1-m1** (Severity: Minor, Axis: Readability for nonspecialists)
+        - **Affected element** Introduction, first paragraph.
+        - **Evidence pointer** Section "Introduction".
+        - **Issue** The opening sentence, "Condensation of hundreds of mega-base-pair-long human chromosomes in a small nuclear volume is a spectacular biological phenomenon," is somewhat informal for a Nature-style journal. The term "spectacular" is subjective and could be replaced with a more objective description.
+        - **Required correction** Consider rephrasing to something like, "The compaction of human chromosomes, which are hundreds of mega-base-pairs in length, into the micrometer-scale cell nucleus is a remarkable feat of biological organization."
+    - **R1-m2** (Severity: Minor, Axis: Technical soundness)
+        - **Affected element** Section "Theory for the captured length (L) of DNA".
+        - **Evidence pointer** Equation (1) and surrounding text.
+        - **Concern** The notation for the normalization constants A, B, C, and D is confusing. It is not immediately clear which constants depend on which variables. The text states that A and C do not depend on L, but the dependence on other variables (e.g., R, f) is not explicitly stated.
+        - **Required correction** Clarify the dependencies of all normalization constants. For example, state that A is a function of R, B is a function of L, C is a function of R and f, and D is a function of R and f.
+    - **R1-m3** (Severity: Minor, Axis: Technical soundness)
+        - **Affected element** Section "Analysis of experimental data", "Loop extrusion velocity".
+        - **Evidence pointer** Fig. 4a.
+        - **Concern** The conversion of the x-axis from relative extension (x) to force (f) is not clearly explained. The text mentions using a numerical procedure, but the details are not provided.
+        - **Required correction** Briefly describe the numerical procedure used to convert between x and f, or provide a reference for the force-extension relation used.
+    - **R1-m4** (Severity: Minor, Axis: Readability for nonspecialists)
+        - **Affected element** Section "Discussion", "Scrunching versus translocation".
+        - **Evidence pointer** Section "Discussion".
+        - **Concern** The term "scrunching" is used throughout the manuscript but is not explicitly defined in a way that is accessible to a general reader. While the concept is illustrated in Fig. 1, a brief verbal description of the mechanism would be helpful.
+        - **Required correction** Add a sentence in the introduction or discussion that explicitly defines the scrunching mechanism, e.g., "In the scrunching mechanism, the condensin complex remains largely stationary on the DNA, while a conformational change in the coiled-coil domains reels in the DNA, thereby extruding a loop."
+    - **R1-m5** (Severity: Minor, Axis: Technical soundness)
+        - **Affected element** Section "Simulations without DNA".
+        - **Evidence pointer** Fig. 5b.
+        - **Concern** The manuscript states that the distributions P(R) are "broad" and that this is in "excellent agreement" with experiments. However, the comparison is not quantified. It would be helpful to provide a quantitative measure of the width of the distributions (e.g., standard deviation) and compare it directly to the experimental value.
+        - **Required correction** Provide the standard deviation of the simulated P(R) distributions and compare it to the experimental value of 13 nm.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of rigorous justification for the L ≈ R approximation.
+    - R1-M2: Absence of statistical measures for the quality of fits to experimental data.
+    - R1-M3: Unresolved discrepancy in the persistence length of the coiled-coil in simulations.
+- **Assessment against Nature-style criteria**
+    - **Originality** The work presents a novel theoretical framework for loop extrusion, distinct from previous kinetic models. The emphasis on a scrunching mechanism driven by a large conformational change is a valuable contribution. However, the concept of scrunching itself is not new, and the originality lies primarily in the specific analytical model.
+    - **Scientific importance** The question of how SMC complexes organize chromosomes is of fundamental importance in biology. A simple, predictive model for loop extrusion could have significant impact on the field. The work provides a useful framework for interpreting single-molecule experiments.
+    - **Interdisciplinary readership** The topic is of interest to biophysicists, cell biologists, and molecular biologists. The theoretical and computational aspects may appeal to physicists and computational biologists. The manuscript is written in a way that is largely accessible to this broad audience.
+    - **Technical soundness** The theoretical derivation is plausible but has a critical unvalidated approximation. The simulation methodology is appropriate for a coarse-grained model, but the model's limitations are not fully addressed. The data analysis is not statistically rigorous. These issues need to be resolved to establish technical soundness.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the figures are clear. The main concepts are explained adequately, though some terms (e.g., "scrunching") could be defined more explicitly. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the model is potentially valuable, but the current manuscript does not fully establish the case due to the concerns outlined above, particularly the lack of rigorous validation of the central approximation and the absence of statistical analysis of the fits.
+
+## Risk / unsupported claims
+- The claim that the theory is the "only one" to reproduce experimental observations accurately is not fully supported, as the comparison with the previous model is not quantitative.
+- The claim of "excellent agreement" with experimental data is not supported by statistical evidence.
+- The prediction of a conformational change of 22–26 nm is supported by the fit, but the uncertainty on this value is not provided.
+- The statement that the discrepancy in persistence length "cannot be explained" by protein interactions is an unsupported assertion.
+- The biological relevance of the model to in vivo conditions, where multiple condensin complexes and other factors are present, is not discussed and is not assessable from the provided material.

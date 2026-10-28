@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, and figure descriptions, as provided by the user.
+- **Assessment boundary** The review is based solely on the supplied manuscript text. No external data, figures, or supplementary materials were accessed or evaluated.
+- **Shared manuscript claim summary** The authors review the role of intrinsically disordered regions (IDRs) in protein autoinhibition, emphasizing the contributions of multivalency and effective concentration. They survey structural and functional diversity across several biological mechanisms, discuss evolutionary conservation of disordered autoinhibitory motifs, and evaluate the potential of AlphaFold2 to predict such intramolecular interactions.
+- **Visible evidence base** The manuscript includes descriptions of multiple protein examples (e.g., FOXO4, p53, MDMX, Rb, HMGB1, Tau, U2AF2, Mcm4, RIG-I, TFB2M, ETS1, PLCβ3, UHRF1, RBBP1, HP1α, MeCP2, Vav1, SMAD4, SMAD2, PAKs), references to published experimental data (e.g., NMR, ITC, SAXS, FRET, CD, X-ray crystallography), and qualitative statements about AlphaFold2 predictions. Specific figures and supplemental materials are referenced but not provided.
+- **Missing materials affecting confidence** The actual figures, supplemental figures, tables, and the glossary are not included. Experimental details, quantitative data, and AlphaFold2 prediction outputs are referenced but not directly verifiable from the supplied text. The absence of these materials limits the ability to independently assess the accuracy of specific claims.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and informative review that addresses a timely and important topic in structural biology. The authors successfully synthesize a broad range of examples to illustrate the mechanistic diversity of IDR-mediated autoinhibition, with a clear focus on the roles of multivalency and effective concentration. The discussion of evolutionary conservation and the potential utility of AlphaFold2 adds forward-looking value. However, the review is largely descriptive and relies heavily on previously published work, with limited critical synthesis or quantitative comparison across examples. The claims regarding AlphaFold2's predictive capabilities are intriguing but are presented with insufficient detail to fully evaluate their robustness. Overall, the manuscript is a useful contribution to the field, but its impact would be strengthened by a more critical and quantitative treatment of the evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of protein biophysics, structural biology, and molecular biology, particularly those studying intrinsically disordered proteins, protein regulation, and the mechanisms of autoinhibition. The review would also be of interest to computational biologists and bioinformaticians working on protein structure prediction, as well as to scientists studying disease-associated mutations in regulatory regions. The clear presentation of diverse examples makes it accessible to a broad audience within these disciplines.
+- **Major strengths** The review provides a comprehensive and well-organized survey of IDR-mediated autoinhibition, covering a wide range of proteins and mechanisms. The focus on multivalency and effective concentration is a useful conceptual framework that ties together disparate examples. The discussion of evolutionary conservation, including cases of both high and low sequence conservation, is insightful. The inclusion of AlphaFold2 as a potential predictive tool is timely and relevant, and the authors appropriately acknowledge its current limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality and support for claims
+  - **Claim pointer** The authors state that "autoinhibitory IDRs are challenging to characterize" and that "multiple biophysical techniques are used to assess affinity, size, structure, and dynamics of autoinhibitory IDRs," citing specific methods such as SEC, SAXS, FRET, NMR, and ITC.
+  - **Evidence pointer** Section "Techniques to study IDR-mediated autoinhibition", location not provided
+  - **Concern** The review describes various biophysical techniques but does not provide a critical comparison of their strengths and limitations in the context of IDR-mediated autoinhibition. For example, the authors mention that SEC and SAXS provide size information but do not discuss the challenges of interpreting these data for highly dynamic systems. Similarly, while NMR is highlighted as a powerful tool, the practical difficulties of studying large or multi-domain proteins by NMR are not addressed. A more critical evaluation of when each technique is most appropriate, and what complementary information they provide, would strengthen the practical utility of this section.
+  - **Why it matters** The stated goal of the review is to discuss methods used to identify and characterize autoinhibitory IDRs. Without a critical assessment of the techniques, the reader is left with a list of methods but little guidance on how to choose among them or how to interpret their outputs in the context of dynamic, multivalent interactions. This limits the review's value as a practical resource.
+  - **Resolution test** The authors should add a comparative discussion of the techniques, including their respective advantages and limitations for studying IDR-mediated autoinhibition. This could be structured as a table or a dedicated paragraph that explicitly addresses the types of questions each technique can answer and the challenges associated with data interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for claims regarding AlphaFold2
+  - **Claim pointer** The authors claim that "AlphaFold2 accurately predicts transient secondary structure at the known CFB SLiMs of CR3 in FOXO4 and TAD2 in p53" and that "for MDMX, AlphaFold2 predicts the multivalency of WW motif and the N-terminal flanking region for p53BD."
+  - **Evidence pointer** Section "Can Alpha-Fold predict IDR-mediated autoinhibition?", Figure 3, location not provided
+  - **Concern** The claims about AlphaFold2's predictive capabilities are presented without sufficient detail. The authors reference Figure 3 and supplemental materials, but these are not provided. It is unclear what specific metrics were used to assess prediction accuracy, how the predictions were compared to experimental data, and whether the predictions were made using the full-length protein or isolated domains. The statement that AlphaFold2 "does not predict the intramolecular docking of these regions" is also vague, as it is not clear whether this is a general limitation or specific to the examples discussed.
+  - **Why it matters** The potential of AlphaFold2 to predict IDR-mediated autoinhibition is a key forward-looking claim of the review. If this claim is not rigorously supported, it could mislead readers about the current capabilities of the tool. A more detailed and critical assessment, including specific examples of successes and failures, would be necessary to establish the validity of this claim.
+  - **Resolution test** The authors should provide a more detailed description of the AlphaFold2 predictions, including the specific proteins and regions tested, the confidence scores obtained, and how these predictions compare to experimentally determined structures or binding data. If possible, they should also discuss the limitations of AlphaFold2 in predicting intramolecular interactions involving IDRs, with reference to specific examples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for claims
+  - **Claim pointer** The authors state that "the autoinhibitory IDRs described here all have relatively weak binding affinities for their ordered partners that decrease binding to an external partner by 10 to >400-fold."
+  - **Evidence pointer** Section "Highlighting 4 well-characterized examples of IDR-mediated autoinhibition", location not provided
+  - **Concern** This quantitative claim is presented without specific data or references to the original studies. The range of 10 to >400-fold is broad, and it is not clear which proteins fall at which end of this range, nor what the basis is for these numbers. Without this information, the claim is difficult to evaluate and may be misleading if the fold-changes are not directly comparable across different experimental systems.
+  - **Why it matters** Quantitative claims about the magnitude of autoinhibition are important for understanding the functional significance of these interactions. If the data are not clearly presented, the reader cannot assess the strength of the evidence or compare the examples discussed.
+  - **Resolution test** The authors should provide a table or a more detailed description that lists each protein, the binding affinity of the autoinhibitory interaction, the fold-change in binding to the external partner, and the reference for each measurement. This would allow the reader to evaluate the consistency and comparability of the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and accessibility
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "effective concentration" is used prominently in the title and throughout the review, but it is not defined in the main text. The authors refer to a glossary in the supplement, but this is not provided.
+  - **Required correction** Define "effective concentration" in the main text, either in the introduction or in a dedicated box, to ensure that readers who do not access the supplement can follow the argument.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Section "Structural properties and sequence conservation at disordered autoinhibitory motifs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors mention that "direct coupling analysis can be used to identify covariance between an IDR and an ordered domain" but do not provide a specific example or reference for this application in the context of autoinhibition.
+  - **Required correction** Add a specific example or a reference to a study where direct coupling analysis was successfully applied to identify autoinhibitory interactions, to illustrate the practical utility of this approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figure 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of Figure 3 in the text is brief and does not clearly explain what is shown in each panel. The reader cannot fully appreciate the AlphaFold2 predictions without seeing the figure.
+  - **Required correction** Expand the figure legend or the text description to clearly state what is shown in each panel of Figure 3, including the specific proteins, the regions of interest, and the confidence scores or other relevant metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Section "Can Alpha-Fold predict IDR-mediated autoinhibition?"
+  - **Evidence pointer** Location not provided
+  - **Issue** The section title uses "Alpha-Fold" while the text uses "AlphaFold2". This inconsistency is distracting.
+  - **Required correction** Use "AlphaFold2" consistently throughout the manuscript, including in the section title.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scope of discussion
+  - **Affected element** Concluding Remarks
+  - **Evidence pointer** Location not provided
+  - **Issue** The concluding remarks mention that "driver mutations in autoinhibitory sequences may result in a constitutively active conformation, leading to a disease state," but this point is not developed or linked to specific examples from the review.
+  - **Required correction** Briefly expand on this point, perhaps by citing one or two specific examples from the reviewed literature where mutations in autoinhibitory IDRs are linked to disease, to strengthen the translational relevance of the review.
+
+## Risk / unsupported claims
+- The claim that "AlphaFold2 accurately predicts transient secondary structure at the known CFB SLiMs of CR3 in FOXO4 and TAD2 in p53" is not fully supported by the provided text, as the specific prediction outputs and comparison metrics are not described.
+- The claim that "for MDMX, AlphaFold2 predicts the multivalency of WW motif and the N-terminal flanking region for p53BD" is similarly under-supported without access to the referenced figure and supplemental data.
+- The quantitative statement that autoinhibitory interactions "decrease binding to an external partner by 10 to >400-fold" is presented without specific data or references, making it unverifiable from the supplied material.
+- The statement that "IDR-mediated regulation of protein function through autoinhibition is very common, especially in nucleic acid binding proteins" is presented as a suspicion rather than a demonstrated conclusion, and the evidence for this claim is not detailed.
+- The claim that "AlphaFold2 is currently able to create confident predictions for >50% of the human proteome" is presented without a reference or context, making it difficult to evaluate.

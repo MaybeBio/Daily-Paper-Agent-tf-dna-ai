@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.04.709638",
+  "title": "TFBSpedia: a comprehensive human and mouse transcription factor binding sites database",
+  "authors": "Shiting Li; Elysia Chou; Kai Wang; Alan P. Boyle; Maureen A. Sartor",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-06",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建整合人类和小鼠TFBS的数据库并评估不同来源预测的一致性，虽聚焦TF-DNA结合位点但以数据整合与评估为主，缺乏AI或物理模拟方法，属于广义TF-DNA资源类工作，对本课题有参考价值但深度不足。",
+  "abstract": "Mapping the genomic locations and patterns of transcription factor binding sites (TFBS) is essential for understanding gene regulation and advancing treatments for diseases driven by DNA modifications, including epigenetic changes and sequence variants. Although several TFBS databases exist, no study has systematically benchmarked these databases across different sequencing technologies and computational algorithms. In this study, we addressed this gap by constructing a TFBS database that integrates all available ENCODE cell line ATAC-seq and Cistrome Data Browser ChIP-seq datasets, comprising 11.3 million human and 1.87 million mouse TFBS. We also integrated previously published TFBS resources (Factorbook, Unibind, RegulomeDB, and ENCODE_footprint) and found each contains a substantial fraction of unique TFBS predictions, highlighting significant discrepancies among existing resources. To assess the accuracy of the combined TFBS regions, we assembled ten independent genomic annotation datasets for evaluation and found that TFBS regions predicted by multiple databases are more likely to represent true and biologically meaningful binding sites. For each predicted TFBS region, we define two scores: the confidence score reflects prediction reliability, while the importance score represents biological functional relevance. Finally, we introduce TFBSpedia, a lightweight and efficient search engine that enables rapid retrieval of TFBS regions and comprehensive annotation information across the integrated databases.",
+  "abstract_zh": "绘制转录因子结合位点（TFBS）的基因组位置和模式对于理解基因调控以及推进由DNA修饰（包括表观遗传变化和序列变异）驱动的疾病治疗至关重要。尽管存在多个TFBS数据库，但尚无研究系统性地跨不同测序技术和计算算法对这些数据库进行基准测试。在本研究中，我们通过构建一个整合了所有可用的ENCODE细胞系ATAC-seq和Cistrome Data Browser ChIP-seq数据集的TFBS数据库来填补这一空白，该数据库包含1130万个人类和187万个小鼠TFBS。我们还整合了先前发表的TFBS资源（Factorbook、Unibind、RegulomeDB和ENCODE_footprint），并发现每个资源都包含大量独特的TFBS预测，突显了现有资源之间的显著差异。为了评估组合TFBS区域的准确性，我们组装了十个独立的基因组注释数据集进行评估，发现由多个数据库预测的TFBS区域更可能代表真实且具有生物学意义的结合位点。对于每个预测的TFBS区域，我们定义了两个评分：置信度评分反映预测可靠性，而重要性评分代表生物学功能相关性。最后，我们介绍了TFBSpedia，一个轻量级且高效的搜索引擎，能够快速检索TFBS区域以及跨整合数据库的全面注释信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709638",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709638",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.04.709638/index.html"
+}

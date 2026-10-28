@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40860289",
+  "title": "Computational Analyses Identified Three Diagnostic Biomarkers Associated With Programmed Cell Death for Lung Adenocarcinoma.",
+  "authors": "Gong, Ting; Jia, Bin; Lv, Hui; Zeng, Lili; Zhong, Diansheng",
+  "journal": "Human mutation",
+  "published_date": "2025-08-27",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过机器学习筛选肺腺癌程序性细胞死亡相关诊断标志物并构建TF-标志物-化学网络，但核心是表达诊断与湿实验验证，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，仅边缘涉及TF网络预测。",
+  "abstract": "Background: The high morbidity and mortality of lung adenocarcinoma (LUAD) are partly caused by a lack of sensitive and reliable molecular markers for early diagnosis. Programmed cell death (PCD) is a crucial process involved in tumorigenesis and immune regulation, and identifying PCD-correlated genes may contribute to the precision diagnosis and targeted therapy of LUAD. Methods: LUAD samples were acquired from UCSC Xena and Gene Expression Omnibus (GEO) database. PCD-correlated module genes were identified by WGCNA. \"Limma\" package was employed for screening differentially expressed genes (DEGs) between LUAD and control samples, followed by conducting functional enrichment analysis with \"ClusterProfiler\" package. Hub genes were selected through machine learning algorithms. Biomarkers for LUAD were screened and further validated by receiver operating characteristic (ROC) analysis. The robustness of the diagnostic model was verified by the confusion matrix. Immune cell infiltration was assessed employing \"ESTIMATE\" and \"GSVA\" packages. HALLMARK pathway score was calculated with the \"GSVA\" package. Transcription factor (TF)-biomarker-chemical network was established using NetworkAnalyst and Cytoscape software. The expressions of the biomarkers in LUAD cells were detected by in vitro experiments. The viability, migration, and invasion of the LUAD cells were measured by CCK-8, wound healing, and Transwell assays. Results: We identified 160 module genes and 5934 DEGs. Then, eight hub genes were selected applying LASSO and support vector machine-recursive feature elimination (SVM-RFE) analyses. Further, FGR, TLR4, and NLRC4, which showed an area under the ROC curve (AUC) > 0.7, were determined as the diagnostic biomarkers for LUAD. Interestingly, they were all low expressed in LUAD samples. We developed a diagnostic model that demonstrated robust performance in distinguishing LUAD samples from normal controls. The three biomarkers showed positive correlation to the infiltration of most immune cells and enrichment in HALLMARK pathways associated with inflammation, immune regulation, and cytokine signaling. Moreover, nine TFs and nine small-molecule compounds targeting the three biomarkers were predicted to construct a TF-biomarker-chemical network. Functional validation revealed that all the three biomarkers were significantly downregulated in LUAD cells. Notably, FGR overexpression markedly suppressed LUAD cell proliferation, migration, and invasion. Conclusion: This study identified three PCD-related biomarkers for LUAD diagnosis, providing new potential therapeutic targets.",
+  "abstract_zh": "背景：肺腺癌（LUAD）的高发病率和死亡率部分归因于缺乏用于早期诊断的敏感且可靠的分子标志物。程序性细胞死亡（PCD）是涉及肿瘤发生和免疫调节的关键过程，识别与PCD相关的基因可能有助于LUAD的精准诊断和靶向治疗。方法：从UCSC Xena和基因表达综合数据库（GEO）获取LUAD样本。通过WGCNA识别PCD相关模块基因。使用“Limma”包筛选LUAD与对照样本之间的差异表达基因（DEGs），随后利用“ClusterProfiler”包进行功能富集分析。通过机器学习算法选择核心基因。筛选LUAD的生物标志物，并通过受试者工作特征（ROC）分析进一步验证。通过混淆矩阵验证诊断模型的稳健性。使用“ESTIMATE”和“GSVA”包评估免疫细胞浸润。使用“GSVA”包计算HALLMARK通路评分。利用NetworkAnalyst和Cytoscape软件建立转录因子（TF）-生物标志物-化学物质网络。通过体外实验检测LUAD细胞中生物标志物的表达。通过CCK-8、伤口愈合和Transwell实验测量LUAD细胞的活力、迁移和侵袭。结果：我们识别了160个模块基因和5934个DEGs。随后，通过LASSO和支持向量机-递归特征消除（SVM-RFE）分析选择了八个核心基因。进一步，FGR、TLR4和NLRC4（其ROC曲线下面积（AUC）> 0.7）被确定为LUAD的诊断生物标志物。有趣的是，它们在LUAD样本中均低表达。我们开发了一个诊断模型，该模型在区分LUAD样本与正常对照方面表现出稳健性能。这三个生物标志物与大多数免疫细胞的浸润呈正相关，并富集于与炎症、免疫调节和细胞因子信号传导相关的HALLMARK通路中。此外，预测了靶向这三个生物标志物的九个TFs和九种小分子化合物，以构建TF-生物标志物-化学物质网络。功能验证显示，所有三个生物标志物在LUAD细胞中均显著下调。值得注意的是，FGR过表达显著抑制了LUAD细胞的增殖、迁移和侵袭。结论：本研究识别了三个与PCD相关的LUAD诊断生物标志物，提供了新的潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40860289/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40860289/",
+  "paper_page_path": "papers/pubmed/40860289/index.html"
+}

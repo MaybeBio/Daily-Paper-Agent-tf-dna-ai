@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34549716",
+  "title": "[Identification of potential regulatory genes for embryonic stem cell self-renewal and pluripotency by random forest].",
+  "authors": "Zeng, P; Tang, X; Wu, T; Tian, Q; Li, M; Ding, J",
+  "journal": "Nan fang yi ke da xue xue bao = Journal of Southern Medical University",
+  "published_date": "2021-09-23",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用随机森林整合多组学数据预测胚胎干细胞自我更新与多能性调控基因，虽涉及转录因子结合数据但核心是基因预测与湿实验验证，缺乏TF-DNA互作建模与机制研究，与本课题关联较弱。",
+  "abstract": "OBJECTIVE: To identify novel genes associated with self-renewal and pluripotency of mouse embryonic stem cells(mESCs)by integrating multiomics data based on machine learning methods. METHODS: We integrated multiomics information of mESCs involving transcriptome, histone modifications, chromatin accessibility, transcription factor binding and architectural protein binding, and compared the signal differences between known stem cell self-renewal and pluripotency genes and other genes.By integrating these multiomics data, we established prediction models based on several machine learning classifiers including random forests and performed 5-fold cross validations.The model was trained using the training dataset containing two thirds of the input samples, and the remaining one third of the input samples were used as the test dataset to assess the performance of the model in independent tests.Finally, the results predicted by the model were validated through gene function annotation and cell function experiments including cell viability assay, colony formation assay and cell cycle analysis. RESULTS: Compared with the random genes, the genes known to be associated with self-renewal and pluripotency of mESCs in the multiomics data showed significantly different features.Random forest outperformed the other machine learning algorithms tested on these multiomics data, with an area under the curve (AUC) of 0.883+/-0.018 for cross validation and an AUC of 0.880+/-0.028 for independent test.Based on this model, we identified 893 potential regulatory genes associated wwith self-renewal and pluripotency of mESCs, which were similar to the known genes in functional annotation.Known-down of the predicted novel regulator gene Cct6a resulted in significant decreases in the cell viability of mESCs (P < 0.0001) and the number of cell clones (P < 0.01), significantly increased the number of cells in G1 phase (P < 0.01) and decreasedthe number of S phase cells (P < 0.05).Knockdown of Cct6a also led to failure of positive alkaline phosphatase staining of the mESCs. CONCLUSION: Machine learning model based on multiomics data can be used to predict potential self-renewal and pluripotency regulators with high performance.By using this model, we predicted potential self-renewal and pluripotency regulatory genes including Cct6a and applied experimental validation.This model provides new insights into the regulatory mechanism of mESCs and contribute to stem cell research.",
+  "abstract_zh": "目的：基于机器学习方法整合多组学数据，以识别与小鼠胚胎干细胞（mESCs）自我更新和多能性相关的新基因。方法：我们整合了mESCs的多组学信息，包括转录组、组蛋白修饰、染色质可及性、转录因子结合及结构蛋白结合，并比较了已知干细胞自我更新和多能性基因与其他基因之间的信号差异。通过整合这些多组学数据，我们基于包括随机森林在内的多种机器学习分类器建立了预测模型，并进行了5折交叉验证。模型使用包含三分之二输入样本的训练数据集进行训练，剩余三分之一的输入样本作为测试数据集，以评估模型在独立测试中的性能。最后，通过基因功能注释和细胞功能实验（包括细胞活力测定、集落形成测定和细胞周期分析）验证模型预测的结果。结果：与随机基因相比，在多组学数据中已知与mESCs自我更新和多能性相关的基因显示出显著不同的特征。随机森林在这些多组学数据上的表现优于其他测试的机器学习算法，交叉验证的曲线下面积（AUC）为0.883±0.018，独立测试的AUC为0.880±0.028。基于此模型，我们识别出893个与mESCs自我更新和多能性相关的潜在调控基因，这些基因在功能注释上与已知基因相似。敲低预测的新调控基因Cct6a导致mESCs细胞活力显著下降（P < 0.0001）和细胞克隆数量显著减少（P < 0.01），显著增加了G1期细胞数量（P < 0.01）并减少了S期细胞数量（P < 0.05）。Cct6a的敲低还导致mESCs碱性磷酸酶染色阳性失败。结论：基于多组学数据的机器学习模型可用于高绩效预测潜在的自我更新和多能性调控因子。通过使用此模型，我们预测了包括Cct6a在内的潜在自我更新和多能性调控基因，并进行了实验验证。该模型为mESCs的调控机制提供了新见解，并有助于干细胞研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34549716/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34549716/",
+  "paper_page_path": "papers/pubmed/34549716/index.html"
+}

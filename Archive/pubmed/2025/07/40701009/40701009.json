@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "40701009",
+    "doi": "10.1016/j.ejmech.2025.117967",
+    "title": "A Cinderella story in antimicrobials: CDPDP's perfect fit for multiple-pathway bacterial inhibition."
+  },
+  "content": {
+    "abstract": "The rapid rise of antibiotic resistance among bacterial pathogens threatens global health, rendering many existing drugs ineffective and creating an urgent demand for new therapeutic strategies. To the best of our knowledge, this is the first work reporting the detailed antibacterial mechanism of action of twelve targeted genes. Here, we evaluated the marine-derived compound CDPDP for its antibacterial activity against Staphylococcus aureus (S.A.) and Riemerella anatipestifer (R.A.), demonstrating potent bactericidal effects (IC(50) = 300 muM for S.A.; 100 muM for R.A.). Scanning electron microscopy revealed pronounced morphological alterations in treated cells, including cell shrinkage, membrane blebbing, and wall irregularities. Comparative transcriptome analysis uncovered that CDPDP exerts its antibacterial activity in S.A. primarily through targeting DNA/nucleic acid-binding genes-downregulating key replication and repair factors (SSB, DnaN, RecF, MutS, PolA, LigA)-while in R.A. it disrupts membrane integrity by suppressing genes involved in outer-membrane biogenesis and protein translocation (SecY, SecG, TatA, YajC, MurC, AccB). Validation via qRT-PCR consistently confirmed the RNA-Seq differential expression patterns, verifying the downregulation of DNA-binding and membrane-associated genes in both pathogens after CDPDP treatment, and molecular docking identified crucial amino acid interactions mediating CDPDP binding (Arg1086/Thr1098 in SSB; Phe78/Ile82 in SecY). Molecular dynamics simulations further substantiated the stability of these interactions under physiological conditions. Additionally, in silico epoxidation and N-dealkylation predictions reveal potential metabolic transformations that could influence CDPDP's bioactivity. Collectively, these findings unveil a dual antibacterial mechanism-DNA-targeted lethality in Gram-positives and membrane disruption in Gram-negatives-demonstrating CDPDP's potential as a broad-spectrum, resistance-resilient antibiotic lead.",
+    "keywords": [
+      "Anti-bacterial",
+      "Mechanism of action",
+      "Molecular docking",
+      "R. anatipestifer",
+      "S.aureus",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "*Staphylococcus aureus/drug effects",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "Microbial Sensitivity Tests",
+      "Structure-Activity Relationship",
+      "*Riemerella/drug effects",
+      "Molecular Structure",
+      "Dose-Response Relationship, Drug",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ul Hassan, Syed Shams",
+        "Ahmad, Naveed",
+        "Rehman, Abdur",
+        "Pan, Chengqian",
+        "Wu, Jiajia",
+        "Li, Tao",
+        "Yan, Shi-Kai",
+        "Jin, Huizi"
+      ],
+      "short_names": [
+        "Ul Hassan SS",
+        "Ahmad N",
+        "Rehman A",
+        "Pan C",
+        "Wu J",
+        "Li T",
+        "Yan SK",
+        "Jin H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Joint Center for Single Cell Biology, Shanghai Collaborative Innovation Center of Agri-Seeds, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "College of Life Sciences, Northwest A&F University, Yangling, Xianyang, 712100, China.",
+        "School of Pharmacy, Jiangsu University, Zhenjiang, China.",
+        "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Shanghai Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Shanghai, 200241, China. Electronic address: litao@shvri.ac.cn.",
+        "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China. Electronic address: Shkyan@sjtu.edu.cn.",
+        "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China. Electronic address: Kimhz@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ul Hassan, Syed Shams",
+        "short_name": "Ul Hassan SS",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Naveed",
+        "short_name": "Ahmad N",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Center for Single Cell Biology, Shanghai Collaborative Innovation Center of Agri-Seeds, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Rehman, Abdur",
+        "short_name": "Rehman A",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Northwest A&F University, Yangling, Xianyang, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Chengqian",
+        "short_name": "Pan C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangsu University, Zhenjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiajia",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Shanghai, 200241, China. Electronic address: litao@shvri.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Shi-Kai",
+        "short_name": "Yan SK",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China. Electronic address: Shkyan@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Huizi",
+        "short_name": "Jin H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs, School of Pharmacy, Shanghai Jiao Tong University, Shanghai, 200240, China. Electronic address: Kimhz@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2025 Nov 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/24 00:25",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40701009",
+      "41161067",
+      "38503396",
+      "40158089",
+      "33838559",
+      "40819369",
+      "40743706",
+      "41371939",
+      "39202871",
+      "41242511",
+      "39764664",
+      "40924963",
+      "32605985",
+      "39520787",
+      "34772526",
+      "33964649",
+      "33524686",
+      "24389824",
+      "17074800",
+      "38651882",
+      "33219748",
+      "34634935",
+      "40764363",
+      "39795086",
+      "38842361",
+      "39838658",
+      "27900434",
+      "39779516",
+      "38989988",
+      "34798838",
+      "41161053",
+      "39378822",
+      "40914015",
+      "34871841",
+      "39033680",
+      "40380090",
+      "28094220",
+      "33065440",
+      "26119984",
+      "38266554",
+      "27693894",
+      "41240624",
+      "38263380",
+      "39243868",
+      "41203173",
+      "40856353",
+      "39474886",
+      "39683935",
+      "41071843",
+      "41187142",
+      "40058275",
+      "40058225",
+      "39905515",
+      "39814109",
+      "33030668",
+      "40649759",
+      "41151443",
+      "41137800",
+      "30768109",
+      "40802919",
+      "27167126",
+      "40367508",
+      "40239338",
+      "39258811",
+      "29227931",
+      "39746234",
+      "40479766",
+      "41340492",
+      "30097370",
+      "39088997",
+      "41099073",
+      "32310051",
+      "41028857",
+      "39529027",
+      "40750851",
+      "41025659",
+      "30268826",
+      "40884916",
+      "39368263",
+      "31795952",
+      "36215786",
+      "39273596",
+      "41186410",
+      "40694651",
+      "40739104",
+      "27548123",
+      "39311589",
+      "39894234",
+      "39206483",
+      "39832262",
+      "31627724",
+      "36578142",
+      "40187579",
+      "40189032",
+      "38678002",
+      "40976608",
+      "39097216",
+      "39647361",
+      "39684295",
+      "39908797"
+    ],
+    "review": [
+      "40701009"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(25)00732-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      }
+    ],
+    "text_mined": []
+  }
+}

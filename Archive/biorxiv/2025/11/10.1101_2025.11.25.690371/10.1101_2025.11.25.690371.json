@@ -1,0 +1,524 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.25.690371",
+  "title": "CrossPPI: A Cross-Fusion Based Model for Protein–Protein Binding Affinity Prediction",
+  "doi": "10.1101/2025.11.25.690371",
+  "abstract": "Many biological processes depend on protein–protein interactions (PPIs), which are particularly important across biology, medicine, and biotechnology. It is essential to accurately predict the binding affinity between protein pairs to prioritize candidate interactions in large-scale studies and expedite drug discovery. The application of cross-attention mechanisms between ligand and receptor protein sequences is often neglected in current computational models, limiting their capacity to accurately represent inter-protein dependencies. In this study, we introduce CrossPPI, a novel deep learning framework that integrates structural and sequential features of interacting proteins to improve binding affinity prediction. To model intricate interactions between protein pairs, CrossPPI uses a transformer-based cross-fusion module and a dual-view feature-extraction approach that combines Graph Attention Networks (GATs) and Convolutional Neural Networks (CNNs). On the test dataset of 300 protein–protein pairs, CrossPPI achieved a Pearson correlation coefficient (PCC) of 0.7616, a Spearman correlation coefficient (SCC) of 0.7644, a mean absolute error (MAE) of 1.2869, and a root mean square error (RMSE) of 1.6824, indicating its ability to predict the binding affinity of two proteins. The results highlight CrossPPI’s capability to predict inter-protein binding affinities by leveraging an attention-based integration of sequence and structural features.",
+  "authors": [
+    "Suhas Reddy Singam",
+    "Nithish Chandra Azad Devarashetty",
+    "Sanjana Gogte",
+    "Vani Kondaparthi"
+  ],
+  "published_date": "2025-11-27",
+  "updated_date": "2025-11-27T15:35:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690371",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690371.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T02:55:02Z",
+        "timestamp": 1768532102680,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 42,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                27
+              ]
+            ],
+            "date-time": "2025-11-27T00:00:00Z",
+            "timestamp": 1764201600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Many biological processes depend on protein–protein interactions (PPIs), which are particularly important across biology, medicine, and biotechnology. It is essential to accurately predict the binding affinity between protein pairs to prioritize candidate interactions in large-scale studies and expedite drug discovery. The application of cross-attention mechanisms between ligand and receptor protein sequences is often neglected in current computational models, limiting their capacity to accurately represent inter-protein dependencies. In this study, we introduce CrossPPI, a novel deep learning framework that integrates structural and sequential features of interacting proteins to improve binding affinity prediction. To model intricate interactions between protein pairs, CrossPPI uses a transformer-based cross-fusion module and a dual-view feature-extraction approach that combines Graph Attention Networks (GATs) and Convolutional Neural Networks (CNNs).</jats:p>\n                <jats:p>On the test dataset of 300 protein–protein pairs, CrossPPI achieved a Pearson correlation coefficient (PCC) of 0.7616, a Spearman correlation coefficient (SCC) of 0.7644, a mean absolute error (MAE) of 1.2869, and a root mean square error (RMSE) of 1.6824, indicating its ability to predict the binding affinity of two proteins.</jats:p>\n                <jats:p>The results highlight CrossPPI’s capability to predict inter-protein binding affinities by leveraging an attention-based integration of sequence and structural features.</jats:p>",
+      "DOI": "10.1101/2025.11.25.690371",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ],
+        "date-time": "2025-11-27T15:35:14Z",
+        "timestamp": 1764257714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CrossPPI: A Cross-Fusion Based Model for Protein–Protein Binding Affinity Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-8980-851X",
+          "authenticated-orcid": false,
+          "given": "Suhas Reddy",
+          "family": "Singam",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-8564-4880",
+          "authenticated-orcid": false,
+          "given": "Nithish Chandra Azad",
+          "family": "Devarashetty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-2926-3659",
+          "authenticated-orcid": false,
+          "given": "Sanjana",
+          "family": "Gogte",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0991-5003",
+          "authenticated-orcid": false,
+          "given": "Vani",
+          "family": "Kondaparthi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-022-00821-7"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Neagu M , Constantin C. Signal Transduction in Immune Cells and Protein Kinases. 2021. p. 133–49.",
+          "DOI": "10.1007/978-3-030-49844-3_5"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41577-023-00838-0"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2020.12.073"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-49844-3_1"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abo5546"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2014.08.008"
+        },
+        {
+          "issue": "8",
+          "key": "2025112913050847000_2025.11.25.690371v1.8",
+          "first-page": "e674",
+          "article-title": "Protein modification in neurodegenerative diseases",
+          "volume": "5",
+          "year": "2024",
+          "journal-title": "MedComm (2020)"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1210291"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "107544",
+          "DOI": "10.1016/j.phrs.2024.107544",
+          "article-title": "Targeting protein-protein interactions in drug discovery: Modulators approved or in clinical trials for cancer treatment",
+          "volume": "211",
+          "year": "2025",
+          "journal-title": "Pharmacol Res"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "205",
+          "DOI": "10.1007/978-1-0716-3327-4_19",
+          "article-title": "Next-Generation Yeast Two-Hybrid Screening to Discover Protein-Protein Interactions",
+          "volume": "2690",
+          "year": "2023",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1007/978-1-0716-1609-3_4",
+          "article-title": "Yeast Two-Hybrid Screening for Identification of Protein-Protein Interactions in Solanum tuberosum",
+          "volume": "2354",
+          "year": "2021",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-2425-7_11"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.1016/j.ymeth.2024.03.007",
+          "article-title": "Isothermal titration calorimetry and surface plasmon resonance methods to probe protein-protein interactions",
+          "volume": "225",
+          "year": "2024",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "363",
+          "DOI": "10.1007/978-1-0716-3445-5_23",
+          "article-title": "Surface Plasmon Resonance: A Sensitive Tool to Study Protein-Protein Interactions",
+          "volume": "2715",
+          "year": "2024",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "issue": "7",
+          "key": "2025112913050847000_2025.11.25.690371v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "15684",
+          "DOI": "10.3390/s150715684",
+          "article-title": "Localized Surface Plasmon Resonance Biosensing: Current Challenges and Approaches",
+          "volume": "15",
+          "year": "2015",
+          "journal-title": "Sensors (Basel)"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065703",
+          "DOI": "10.3389/fbinf.2022.1065703",
+          "article-title": "Machine learning methods for protein-protein binding affinity prediction in protein design",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Front Bioinform"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "203",
+          "DOI": "10.1007/978-1-4939-9752-7_13",
+          "article-title": "Molecular Docking Simulations with ArgusLab",
+          "volume": "2053",
+          "year": "2019",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "issue": "3",
+          "key": "2025112913050847000_2025.11.25.690371v1.19",
+          "first-page": "e2124",
+          "article-title": "PRODIGY: A Contact-based Predictor of Binding Affinity in Protein-protein Complexes",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Bio Protoc"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2022.08.070"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz111"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsishyn M , Pucci F , Rooman M. Quantification of biases in predictions of protein-protein binding affinity changes upon mutations. Brief Bioinform. [Research Support, Non-U.S. Gov’t]. 2023 Nov 22;25(1).",
+          "DOI": "10.1093/bib/bbad491"
+        },
+        {
+          "issue": "5",
+          "key": "2025112913050847000_2025.11.25.690371v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2252",
+          "DOI": "10.1016/j.ymthe.2025.04.003",
+          "article-title": "Recent progress and future challenges in structure-based protein-protein interaction prediction",
+          "volume": "33",
+          "year": "2025",
+          "journal-title": "Mol Ther"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang Z , Wang Y , Chen S , Tan YS , Deng L , Wu M. DeepRSMA: a cross-fusion-based deep learning method for RNA-small molecule binding affinity prediction. Bioinformatics. 2024 Nov 28;40(12).",
+          "DOI": "10.1093/bioinformatics/btae678"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.26",
+          "unstructured": "Velickovic P , Cucurull G , Casanova A , Romero A , Lio’ P , Bengio Y. Graph Attention Networks. ArXiv. 2017;abs/1710.10903."
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kiranyaz S , Avci O , Abdeljaber O , Ince T , Gabbouj M , Inman DJ . 1D Convolutional Neural Networks and Applications: A Survey. ArXiv. 2019;abs/1905.03554.",
+          "DOI": "10.1109/ICASSP.2019.8682194"
+        },
+        {
+          "issue": "11",
+          "key": "2025112913050847000_2025.11.25.690371v1.28",
+          "first-page": "e11794",
+          "article-title": "Raiders of the Lost Correlation: A Guide on Using Pearson and Spearman Coefficients to Detect Hidden Correlations in Medical Sciences",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Cureus"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.29",
+          "unstructured": "Wisniewski SJ , Brannan GD . Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis. StatPearls. Treasure Island (FL) ineligible companies. Disclosure: Grace Brannan declares no relevant financial relationships with ineligible companies.2025."
+        },
+        {
+          "issue": "2",
+          "key": "2025112913050847000_2025.11.25.690371v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0279774",
+          "DOI": "10.1371/journal.pone.0279774",
+          "article-title": "Decomposition of the mean absolute error (MAE) into systematic and unsystematic components",
+          "volume": "18",
+          "year": "2023",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.31",
+          "first-page": "195",
+          "article-title": "A comprehensive survey of loss functions and metrics in deep learning",
+          "volume": "58",
+          "year": "2023",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.32",
+          "unstructured": "Holzmüller D , Schölpple M. Beyond ReLU: How Activations Affect Neural Kernels and Random Wide Networks. ArXiv. 2025;abs/2506.22429."
+        },
+        {
+          "issue": "23",
+          "key": "2025112913050847000_2025.11.25.690371v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "7453",
+          "DOI": "10.3390/s24237453",
+          "article-title": "ReLU, Sparseness, and the Encoding of Optic Flow in Neural Networks",
+          "volume": "24",
+          "year": "2024",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao L , He Q , Song H , Zhou T , Luo A , Wen Z , et al. Protein A-like Peptide Design Based on Diffusion and ESM2 Models. Molecules. 2024 Oct 21;29(20).",
+          "DOI": "10.3390/molecules29204965"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jneumeth.2021.109282"
+        },
+        {
+          "issue": "1",
+          "key": "2025112913050847000_2025.11.25.690371v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "2494",
+          "DOI": "10.1038/s41598-023-29695-6",
+          "article-title": "Attention-assisted hybrid 1D CNN-BiLSTM model for predicting electric field induced by transcranial magnetic stimulation coil",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "issue": "1",
+          "key": "2025112913050847000_2025.11.25.690371v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1316",
+          "DOI": "10.1038/s41597-024-03997-4",
+          "article-title": "PPB-Affinity: Protein-Protein Binding Affinity dataset for AI-based protein drug discovery",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Sci Data"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arlot S , Celisse A. A Survey of Cross Validation Procedures for Model Selection. Statistics Surveys. 2009;4.",
+          "DOI": "10.1214/09-SS054"
+        },
+        {
+          "issue": "1",
+          "key": "2025112913050847000_2025.11.25.690371v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1109/TIT.1967.1053964",
+          "article-title": "Nearest neighbor pattern classification",
+          "volume": "13",
+          "year": "1967",
+          "journal-title": "IEEE Transactions on Information Theory"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5254. 708428"
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.41",
+          "unstructured": "Vaswani A , Shazeer NM , Parmar N , Uszkoreit J , Jones L , Gomez AN , et al., editors. Attention is All you Need. Neural Information Processing Systems; 2017."
+        },
+        {
+          "key": "2025112913050847000_2025.11.25.690371v1.42",
+          "unstructured": "Kipf T , Welling M. Semi-Supervised Classification with Graph Convolutional Networks. ArXiv. 2016;abs/1609.02907."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.25.690371",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:06:03Z",
+        "timestamp": 1768471563000
+      },
+      "score": 114.58098,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.25.690371"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "references-count": 42,
+      "URL": "https://doi.org/10.1101/2025.11.25.690371",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

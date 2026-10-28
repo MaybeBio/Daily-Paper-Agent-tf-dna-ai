@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.11.664312",
+  "title": "PromoterAtlas: decoding regulatory sequences across Gammaproteobacteria using a transformer model",
+  "authors": "Coppens L; Ledesma-Amaro R",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-16",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Transformer模型对γ-变形菌全基因组启动子及转录因子结合位点等调控序列进行注释与预测，虽非TF-DNA三维互作建模，但TFBS识别与嵌入分析对TF-DNA结合位点预测有直接借鉴价值。",
+  "abstract": "Recent advances in deep learning, particularly transformer architectures, have improved computational approaches for biological sequence analysis. Despite these advances, computational models for bacterial promoter prediction have remained limited by small datasets, species-specific training, and binary classification approaches rather than comprehensive annotation frameworks. We present PromoterAtlas, a 1.8M parameter transformer model trained on 9M regulatory sequences from 3,371 gammaproteobacterial species. The model demonstrates recognition of various regulatory elements across different species, including ribosomal binding sites, various types of bacterial promoters, transcription factor binding sites, and terminators. Using this model, we developed a whole-genome promoter annotation tool for Gammaproteobacteria, with various levels of validation that support the predictions of promoters associated with different sigma (σ) factors. Furthermore, we show that the model embeddings encode cross-species evolutionary relationships, clustering promoters by σ factor identity rather than species-specific sequence features. Finally, we show that model embeddings encode regulatory sequence information that enables effective prediction of transcription and translation levels. PromoterAtlas can contribute to our understanding of and ability to engineer bacterial regulatory sequences with potential applications in bacterial biology, synthetic biology, and comparative genomics.",
+  "abstract_zh": "深度学习的最新进展，尤其是Transformer架构，提升了生物序列分析的计算方法。尽管有这些进展，用于细菌启动子预测的计算模型仍受限于小数据集、物种特异性训练，以及二元分类方法，而非全面的注释框架。我们提出了PromoterAtlas，一个拥有180万参数的Transformer模型，该模型在来自3,371种γ-变形菌纲物种的900万条调控序列上进行了训练。该模型展示了跨不同物种识别多种调控元件的能力，包括核糖体结合位点、各类细菌启动子、转录因子结合位点和终止子。利用此模型，我们开发了一种用于γ-变形菌纲的全基因组启动子注释工具，并通过多种验证水平支持与不同σ因子相关的启动子预测。此外，我们表明模型嵌入编码了跨物种的进化关系，根据σ因子身份而非物种特异性序列特征对启动子进行聚类。最后，我们证明模型嵌入编码了调控序列信息，能够有效预测转录和翻译水平。PromoterAtlas有助于我们理解并工程化细菌调控序列，在细菌生物学、合成生物学和比较基因组学中具有潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.11.664312",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.11.664312",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.11.664312/index.html"
+}

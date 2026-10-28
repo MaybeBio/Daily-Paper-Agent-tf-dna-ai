@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that cefpiramide, an FDA-approved drug identified through computational screening of approximately 8000 compounds, binds to multiple Mycobacterium tuberculosis OmpR family response regulators (MtrA, PrrA, MprA, RegX3, PhoP), disrupts MtrA DNA-binding function, and inhibits M.tb H37Rv growth with MIC50 of 4 ± 2.38 μg/mL, suggesting potential for combinatorial tuberculosis therapy.
+- **Visible evidence base** Abstract text only; includes docking scores, binding constants (Kb) for MtrA and RegX3, mutant analysis results, and MIC50 data
+- **Missing materials affecting confidence** Full manuscript, experimental methods, docking scores for all five RRs, molecular dynamics simulation details, mutant construction and validation, specificity controls, cytotoxicity data, and statistical analysis details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting drug repurposing strategy targeting multiple response regulators in M.tb. The computational-to-experimental workflow is logical, and the reported binding affinities are notable. However, the evidence provided in the abstract is insufficient to establish the central claims regarding multi-target engagement, mechanism of action, and therapeutic potential. Several critical controls and quantitative details are absent, and the reported Kb values appear implausibly high for protein-ligand interactions, raising concerns about data interpretation or reporting accuracy.
+- **Who would be interested in the results, and why** Researchers in tuberculosis drug discovery, antimicrobial resistance, two-component signal transduction systems, and drug repurposing would find these results relevant. The potential to target multiple essential regulators with a single FDA-approved compound could interest medicinal chemists and infectious disease specialists seeking new combination therapy components.
+- **Major strengths** The hypothesis that multi-targeting reduces resistance evolution is well-founded and clinically relevant. The screening approach using FDA-approved drugs accelerates translational potential. The combination of computational prediction with experimental validation (binding assays, mutant analysis, MIC determination) provides a coherent workflow. The reported MIC50 in the low μg/mL range suggests meaningful antibacterial activity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data plausibility and interpretation
+  - **Claim pointer** "Cefpiramide showed strong docking scores and favorable interactions with all five RRs" and "cefpiramide binds MtrA and RegX3 with Kb values of 109.69 ± 27.99 nM–1 and 113.49 ± 36.63 nM–1"
+  - **Evidence pointer** Abstract, binding constant section
+  - **Concern** The reported Kb values are expressed in units of nM–1, which is dimensionally unusual for a binding constant. Standard binding constants are typically reported in M–1 or M. A Kb of 109.69 nM–1 corresponds to 1.1 × 10^11 M–1, which would represent an extraordinarily high affinity, exceeding typical protein-small molecule interactions by several orders of magnitude. This suggests either a unit error, a calculation error, or a misinterpretation of the experimental data.
+  - **Why it matters** The binding affinity is a central quantitative claim supporting the mechanism of action. If the values are incorrect or misinterpreted, the strength of the interaction between cefpiramide and MtrA/RegX3 is not established, undermining the mechanistic basis for the observed growth inhibition.
+  - **Resolution test** Provide the raw binding data, the exact experimental method (e.g., fluorescence quenching, ITC, SPR), the correct units for Kb, and a comparison with known affinities for similar drug-protein interactions. Recalculate and report Kd or Kb in standard units with appropriate error analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and multi-target claim
+  - **Claim pointer** "Cefpiramide showed strong docking scores and favorable interactions with all five RRs" and "Experimental validations confirmed that cefpiramide binds MtrA and RegX3"
+  - **Evidence pointer** Abstract, computational screening and experimental validation sections
+  - **Concern** The abstract claims computational evidence for binding to all five RRs but experimental validation is only reported for MtrA and RegX3. No experimental evidence is provided for binding to PrrA, MprA, or PhoP. The multi-target hypothesis, which is the central rationale for the study, is therefore only partially tested.
+  - **Why it matters** The premise that cefpiramide targets multiple RRs to reduce resistance evolution is not supported by experimental data for three of the five claimed targets. Without this evidence, the unique selling point of the study is weakened, and the mechanism of growth inhibition could be attributed to a single target or off-target effects.
+  - **Resolution test** Provide experimental binding data (e.g., Kb or Kd) for PrrA, MprA, and PhoP, or clearly state that these interactions are only computationally predicted and not experimentally confirmed. If experimental validation failed for these targets, discuss the implications for the multi-target hypothesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "The disruption of transcription repressor function of MtrA is possibly by disruption of its DNA binding property, as mutant analysis indicated that cefpiramide targets the DNA-binding domain of MtrA"
+  - **Evidence pointer** Abstract, mutant analysis section
+  - **Concern** The abstract states that mutant analysis indicated targeting of the DNA-binding domain, but no details are provided about the nature of the mutants, the assay used to assess DNA binding, or the functional readout. The word "possibly" introduces uncertainty, and the link between cefpiramide binding to the DNA-binding domain and disruption of MtrA repressor function is not directly demonstrated.
+  - **Why it matters** The proposed mechanism of action is that cefpiramide inhibits MtrA function by blocking DNA binding. Without direct evidence that cefpiramide disrupts MtrA-DNA interactions (e.g., EMSA or reporter assays), the mechanism remains speculative. This is critical because the growth inhibition could occur through other mechanisms, including off-target effects.
+  - **Resolution test** Provide details of the mutant constructs, the DNA-binding assays performed, and quantitative data showing reduced DNA binding in the presence of cefpiramide. Include a direct demonstration that cefpiramide disrupts MtrA-DNA complex formation in a dose-dependent manner.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Therapeutic relevance and selectivity
+  - **Claim pointer** "Cefpiramide inhibited M.tb H37Rv growth (MIC50 = 4 ± 2.38 μg/mL), warranting further investigation as a component of combinatorial tuberculosis therapy"
+  - **Evidence pointer** Abstract, MIC section
+  - **Concern** The MIC50 value is reported with a large relative error (approximately 60% of the mean), which is unusual for a standard MIC determination. No information is provided on the assay conditions, the number of replicates, or the variability across experiments. Additionally, no cytotoxicity data against mammalian cells are presented, which is essential for assessing therapeutic potential.
+  - **Why it matters** The therapeutic claim depends on both efficacy and safety. A poorly characterized MIC with high variability and no selectivity data does not support the conclusion that cefpiramide warrants further investigation as a therapeutic component. The large error also raises questions about the reliability of the measurement.
+  - **Resolution test** Provide the full MIC assay protocol, including media, inoculum size, incubation time, and number of biological replicates. Report the MIC50 with confidence intervals. Include cytotoxicity data against a relevant mammalian cell line and calculate a selectivity index.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Computational screening details
+  - **Evidence pointer** Abstract, screening section
+  - **Issue** The abstract states that approximately 8000 FDA-approved compounds were screened but does not specify the software, scoring functions, or criteria used for hit selection. The phrase "strong docking scores" is subjective without defined thresholds.
+  - **Required correction** Specify the computational tools and scoring criteria used, and provide the docking score ranges for the five RRs to allow assessment of the stringency of the selection process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Binding constant measurements
+  - **Evidence pointer** Abstract, binding section
+  - **Issue** The Kb values are reported as mean ± error, but the number of independent experiments and the statistical test used are not stated. The large error bars relative to the mean suggest potential reproducibility issues.
+  - **Required correction** Report the number of replicates, the statistical analysis method, and the confidence intervals for the Kb values. Clarify whether the error represents standard deviation or standard error of the mean.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of target validation
+  - **Affected element** RegX3 binding
+  - **Evidence pointer** Abstract, binding section
+  - **Issue** The abstract reports Kb for RegX3 but does not describe any functional consequence of this binding. It is unclear whether cefpiramide affects RegX3 activity or whether this interaction contributes to growth inhibition.
+  - **Required correction** Provide functional data for RegX3, such as effects on its DNA-binding or phosphorylation-dependent activity, or explicitly state that the functional relevance of RegX3 binding is not yet determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Chemical characterization
+  - **Affected element** Cefpiramide properties
+  - **Evidence pointer** Abstract, general
+  - **Issue** No information is provided on the purity, solubility, or stability of cefpiramide under the assay conditions. These factors can significantly affect both binding and MIC measurements.
+  - **Required correction** Include details on compound source, purity, and any solubility or stability assessments performed under the experimental conditions used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding constant units and plausibility), R1-M2 (lack of experimental validation for three of five claimed targets), R1-M3 (insufficient mechanistic evidence for DNA-binding disruption)
+- **Assessment against Nature-style criteria** Originality: The concept of targeting multiple response regulators with a single FDA-approved drug is moderately original, though multi-target drug repurposing is an established strategy in infectious disease. Scientific importance: The potential to address drug-resistant tuberculosis is clinically significant, but the current evidence does not yet demonstrate a clear advantage over existing approaches. Interdisciplinary readership: The work bridges computational chemistry, microbiology, and drug discovery, which could appeal to a broad audience if fully validated. Technical soundness: The computational workflow is standard, but the reported binding constants are implausible as presented, and the experimental validation is incomplete for the multi-target claim. Readability for nonspecialists: The abstract is generally accessible, though the binding constant units and the distinction between computational prediction and experimental validation could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but critical issues with binding constant reporting, incomplete target validation, and insufficient mechanistic evidence prevent the claims from being supported. The manuscript could become publishable if these concerns are addressed with additional experimental data and corrected analyses.
+
+## Risk / unsupported claims
+- The claim that cefpiramide binds all five RRs is unsupported by experimental evidence for PrrA, MprA, and PhoP; only computational predictions are reported.
+- The claim that cefpiramide disrupts MtrA DNA-binding function is weakly supported; the abstract provides no direct DNA-binding assay data.
+- The Kb values of 109.69 ± 27.99 nM–1 and 113.49 ± 36.63 nM–1 are implausible as reported and cannot be evaluated without corrected units and raw data.
+- The therapeutic potential claim is not supported without cytotoxicity data and a more robust MIC determination.
+- The statement that cefpiramide "warrants further investigation as a component of combinatorial tuberculosis therapy" is premature given the lack of selectivity and in vivo data.

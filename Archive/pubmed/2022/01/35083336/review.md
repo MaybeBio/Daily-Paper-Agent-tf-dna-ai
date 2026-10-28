@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors propose a DNA-binding protein prediction model combining graph convolutional networks (GCN) with contact maps predicted by Pconsc4, using PSSM and other biological features, and report improved performance on benchmark datasets PDB14189 and PDB2272.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusions, Data Availability, Conflicts of Interest, Acknowledgments
+- **Missing materials affecting confidence** Figures 1-5 and Tables 1-5 are referenced but not provided; no code, hyperparameter search details, statistical significance tests, or comparison with baseline methods beyond a summary table are included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics, namely the prediction of DNA-binding proteins, and proposes a reasonable combination of established techniques (GCN, contact maps, PSSM features). However, the current presentation has substantial gaps in methodological detail, experimental rigor, and reproducibility. The core claims of improved performance cannot be fully evaluated from the provided material, as key figures and tables are missing, and the comparison with existing methods is not sufficiently contextualized. The work may have incremental value, but the case for a significant advance is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-protein interactions, and graph-based deep learning applications. The work may also be of interest to developers of predictive tools for genomic annotation.
+- **Major strengths** The problem is well-motivated and practically relevant. The combination of GCN with contact maps is a sensible approach that leverages structural information. The use of standard benchmark datasets (PDB14189, PDB2272) facilitates comparison with prior work. The manuscript is generally readable and follows a logical structure.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model architecture and training procedure are described, but key details are missing.
+  - **Evidence pointer** Section 2.3, Section 3.2, Tables 3 and 4 (not provided)
+  - **Concern** The manuscript does not specify critical training details such as the number of epochs, learning rate, optimizer, batch size, weight initialization, or the exact split of training/validation/test sets. The hyperparameter tuning process is described only qualitatively ("compared and determined through experiments"), and the referenced tables are not available.
+  - **Why it matters** Without these details, the experiments cannot be reproduced, and the reported results cannot be independently verified. Reproducibility is a fundamental requirement for computational studies.
+  - **Resolution test** Provide a complete description of training hyperparameters, data splits, and the hyperparameter search procedure. Include the referenced tables or equivalent information in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The method "had some advantages by testing various indexes of PDB14189 and PDB2272" and achieved ACC (78.49%), SN (92.59%), SP (64.15%), MCC (59.27%).
+  - **Evidence pointer** Section 3.5, Table 5 (not provided)
+  - **Concern** The reported performance metrics are presented without any measure of statistical significance, confidence intervals, or variance across multiple runs. The comparison with existing methods in Table 5 is not visible, so it is impossible to assess whether the claimed advantages are meaningful or within the range of random variation.
+  - **Why it matters** Performance claims in machine learning require statistical rigor. Without error bars or significance testing, the reported improvements could be due to chance or favorable data splits.
+  - **Resolution test** Report results over multiple independent runs with standard deviations, and perform statistical significance tests (e.g., paired t-test or Wilcoxon) against baseline methods. Provide the full comparison table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological soundness
+  - **Claim pointer** The contact map is predicted by Pconsc4 and used as the adjacency matrix for the GCN.
+  - **Evidence pointer** Section 2.2, Section 2.3
+  - **Concern** The manuscript does not explain how the predicted contact map (a probability matrix) is converted into a binary adjacency matrix. The thresholding step is mentioned (0.5), but the implications of this choice on graph connectivity and model performance are not discussed. Additionally, the use of predicted rather than experimental contact maps introduces a source of error that is not analyzed.
+  - **Why it matters** The adjacency matrix is a core input to the GCN. An arbitrary thresholding choice can significantly affect the graph structure and, consequently, the model's performance. The robustness of the method to this choice should be demonstrated.
+  - **Resolution test** Justify the threshold choice, analyze sensitivity to this parameter, and discuss the impact of prediction errors in contact maps on final performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The proposed model is presented as a novel contribution.
+  - **Evidence pointer** Section 1, Section 4
+  - **Concern** The combination of GCN with contact maps for protein function prediction is not new, and the manuscript does not clearly articulate what specific novelty is being claimed beyond this combination. The use of PSSM and other features is standard. The contribution appears incremental.
+  - **Why it matters** For a high-impact venue, the novelty must be clearly delineated. If the contribution is primarily the specific application or parameter choices, this should be stated explicitly and positioned against prior GCN-based protein prediction work.
+  - **Resolution test** Clearly state the novel elements of the approach and compare against existing GCN-based protein prediction methods in the introduction and discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Equation (1)
+  - **Evidence pointer** Section 2.2
+  - **Issue** The notation in Equation (1) is unclear. The indicator function is written as "i(x)" but should be "I(...)" to denote an indicator. Also, the summation index "i" is used both for the indicator function and the summation variable, which is confusing.
+  - **Required correction** Clarify the notation, e.g., use "I(A_i,j = k)" and a different summation index.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The manuscript states that the method "has certain advantages compared with the existing methods" but does not discuss any limitations or failure cases.
+  - **Required correction** Add a discussion of limitations, such as dependence on contact map prediction quality, computational cost, or potential biases in the benchmark datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction contains some imprecise statements, e.g., "DNA-binding proteins are an enzyme" (should be "enzymes" or "a class of proteins") and "There is about 18% of the weight of protein in the human body" (unclear and likely inaccurate).
+  - **Required correction** Revise these statements for accuracy and clarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data Availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The data availability statement says "The datasets can be found in the references," which is insufficient. The specific accession numbers or URLs for PDB14189 and PDB2272 should be provided.
+  - **Required correction** Provide direct links or accession numbers for the datasets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reproducibility), R1-M2 (statistical rigor), R1-M3 (methodological justification)
+- **Assessment against Nature-style criteria** Originality: The approach is a combination of existing techniques and does not present a fundamentally new concept. Scientific importance: The problem is relevant, but the incremental advance does not clearly elevate its significance. Interdisciplinary readership: The work is primarily of interest to bioinformatics specialists, with limited broader appeal. Technical soundness: The methodology is plausible but insufficiently detailed and not rigorously validated. Readability for nonspecialists: The manuscript is generally understandable, but some technical sections are dense and would benefit from clearer explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions to address reproducibility, statistical rigor, and methodological justification before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that the method "had some advantages" is unsupported without the full comparison table and statistical analysis.
+- The reported performance metrics (ACC, SN, SP, MCC) are presented without variance or significance testing, making them unverifiable.
+- The novelty of the approach is not clearly established relative to prior GCN-based protein prediction methods.
+- The impact of contact map prediction errors on the final results is not assessed, leaving the robustness of the method unknown.

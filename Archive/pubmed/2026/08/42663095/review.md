@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full manuscript, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report the design of three salnaphen metal complexes (Ni(II), Cu(II), Zn(II)) with charged side chains to investigate how substituent size and shape affect G-quadruplex (G4) DNA binding. They claim that aromatic side chains enhance G4 stabilization relative to non-aromatic analogues, that the Cu(II) complex shows the strongest affinity with sequence-dependent selectivity, that molecular dynamics simulations reveal more persistent end-stacking interactions for aromatic substituents, and that the most effective stabilizer exhibits antiproliferative activity associated with ROS generation.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, binding assay data, simulation parameters and trajectories, cellular assay details, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structure-activity relationship study linking aromatic side chains in salnaphen metal complexes to G4 DNA binding and biological activity. The combination of G4 targeting with redox-mediated cytotoxicity is a noteworthy angle. However, the evidence base available for assessment is limited to the abstract, and several claims are made without quantitative support. The novelty relative to prior work on metal complexes with aromatic substituents and G4 DNA is not clearly established from the abstract alone. The computational and experimental results are described in a way that suggests correlation rather than causation, and the link between ROS generation and G4 targeting as a combined mechanism requires more rigorous demonstration.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, nucleic acid recognition, and anticancer drug design would find these results relevant. The study addresses a fundamental question about how ligand aromaticity modulates G4 binding, which is of interest to those developing metal-based G4 stabilizers. The dual G4-targeting and ROS-mediated cytotoxicity concept could appeal to investigators working on multifunctional anticancer agents.
+- **Major strengths** The study addresses a clear and important question about the role of substituent aromaticity in metal complex-G4 interactions. The use of three metal centers with structurally related ligands allows for systematic comparison. The integration of experimental binding studies with molecular dynamics simulations provides a complementary approach. The exploration of both G4 stabilization and biological activity in a single framework is a strength, as these features are rarely addressed together.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "aromatic complexes exhibited enhanced G4 stabilization compared to non-aromatic analogues, with copper(II) complexes displaying the strongest affinity and a marked sequence-dependent DNA-binding profile"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that aromatic complexes show enhanced G4 stabilization and that Cu(II) has the strongest affinity with sequence-dependent binding, but no quantitative data are provided. No binding constants, stabilization temperatures (e.g., ΔTm), or selectivity ratios are given. The comparison to "non-aromatic analogues" is mentioned but these analogues are not described in the abstract, and it is unclear whether they were experimentally tested or only computationally evaluated.
+  - **Why it matters** Without quantitative binding data and a clear description of the comparator compounds, the central claim of enhanced affinity due to aromatic side chains cannot be evaluated. The sequence-dependent profile is a key finding but requires specific data on which sequences were tested and the magnitude of the differences.
+  - **Resolution test** Provide binding constants or ΔTm values for all complexes against multiple G4 sequences and non-G4 controls, with statistical analysis. Clearly describe the non-aromatic analogues and present their data alongside the aromatic complexes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Molecular dynamics simulations provide a structural rationale for these observations, revealing for the first time that aromatic substituents foster more persistent end-stacking interactions and enhanced stability of the metal complex-G4 system"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that this is revealed "for the first time" is a strong novelty assertion that cannot be verified from the abstract. The simulation methodology, force fields, simulation timescales, and convergence criteria are not described. The phrase "more persistent end-stacking interactions" implies a quantitative comparison, but no metrics such as occupancy, residence times, or interaction energies are provided.
+  - **Why it matters** The computational results are presented as providing the structural rationale for the experimental observations, but without methodological details and quantitative metrics, the reliability and significance of the simulations cannot be assessed. The novelty claim requires a literature context that is not provided.
+  - **Resolution test** Describe the simulation protocol in detail, provide quantitative measures of stacking persistence (e.g., contact occupancy, free energy profiles), and include a comparison with prior computational studies on metal complex-G4 interactions to substantiate the "first time" claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological claim support
+  - **Claim pointer** "the most effective G4 stabilizer also exhibits measurable antiproliferative activity in vitro, associated with pronounced reactive oxygen species (ROS) generation, highlighting how G4 targeting and redox-mediated cytotoxicity-two features only rarely addressed together-can be effectively combined within a single molecular framework"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims antiproliferative activity and ROS generation for the most effective G4 stabilizer, but no cell lines, IC50 values, ROS quantification methods, or controls are provided. The causal link between G4 targeting and the observed biological effect is implied but not demonstrated. The statement that these two features are "only rarely addressed together" is a broad claim without literature support.
+  - **Why it matters** The biological data are essential to support the translational relevance of the study. Without specific data and appropriate controls (e.g., a non-G4-binding control compound), the connection between G4 stabilization and antiproliferative activity remains correlative. The ROS mechanism needs to be shown to be dependent on G4 binding rather than a general metal complex effect.
+  - **Resolution test** Provide cell viability data with IC50 values for relevant cell lines, ROS measurements with appropriate probes and controls, and experiments that dissect the contribution of G4 binding versus ROS generation to the observed cytotoxicity (e.g., using a G4-binding-deficient analogue or ROS scavengers).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "structurally related charged side chains" and "aromatic complexes" versus "non-aromatic analogues," but the specific chemical structures are not described. The term "salmaphen" is used without definition or structural context.
+  - **Required correction** Provide a brief structural description of the salnaphen scaffold and the side chain variations, or refer to a scheme in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "G4 stabilization"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "G4 stabilization" without specifying the assay used (e.g., FRET melting, CD spectroscopy, UV melting). Different assays can yield different conclusions about stabilization.
+  - **Required correction** Specify the assay type in the abstract or ensure it is clearly stated in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sequence-dependent binding
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "a marked sequence-dependent DNA-binding profile" for the Cu(II) complex but does not indicate which G4 sequences were tested or whether non-G4 DNA controls were included.
+  - **Required correction** List the G4 sequences and control DNA used, and summarize the selectivity pattern in the abstract or refer to a table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data missing), R1-M2 (simulation details and novelty substantiation missing), R1-M3 (biological data and mechanistic link insufficient)
+- **Assessment against Nature-style criteria** Originality: The combination of G4 targeting with ROS-mediated cytotoxicity in a single metal complex is a potentially interesting angle, but the abstract does not establish how this differs from prior work on metal-based G4 binders with redox activity. Scientific importance: The question of how ligand aromaticity modulates G4 binding is of general interest, but the significance is not fully demonstrated without quantitative comparisons and a clear biological context. Interdisciplinary readership: The study bridges coordination chemistry, nucleic acid biophysics, and cell biology, which could appeal to a broad audience, but the abstract is too brief to convey the depth required for such a readership. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail for both experiments and simulations is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., "salmaphen," "end-stacking") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept, but the absence of quantitative data, methodological details, and a clear demonstration of the causal link between G4 binding and biological activity means the claims cannot be evaluated. A full manuscript with complete experimental and computational data would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that aromatic substituents enhance G4 stabilization is unsupported without quantitative binding data and a clear description of the non-aromatic comparators.
+- The "for the first time" claim regarding persistent end-stacking interactions is unverifiable from the abstract and requires a literature comparison.
+- The association between antiproliferative activity and ROS generation is presented without specific data, and the causal link to G4 targeting is not established.
+- The statement that G4 targeting and redox-mediated cytotoxicity are "only rarely addressed together" is a broad generalization without supporting references.
+- The sequence-dependent binding profile is mentioned but not substantiated with specific sequences or data.

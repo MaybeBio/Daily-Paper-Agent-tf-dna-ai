@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39657846",
+  "title": "Unraveling pathogenesis and potential biomarkers for autism spectrum disorder associated with HIF1A pathway based on machine learning and experiment validation.",
+  "authors": "Cui, Jinru; Li, Heli; Hu, Cong; Zhang, Feiyan; Li, Yunjie; Weng, Ying; Yang, Liping; Li, Yingying; Yao, Minglan; Li, Hao; Luo, Xiaoping; Hao, Yan",
+  "journal": "Neurobiology of disease",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于机器学习识别自闭症中HIF1A通路相关诊断标志物，但核心是疾病标志物与通路验证，未涉及蛋白质-DNA互作建模或TF-DNA结合机制，仅边缘相关。",
+  "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental disorder with a high social burden and limited treatments. Hypoxic condition of the brain is considered an important pathological mechanism of ASD. HIF1A is a key participant in brain hypoxia, but its contribution to the pathophysiological landscape of ASD remains unclear. METHODS: ASD-related datasets were obtained from GEO database, and HIF1A-related genes from GeneCards. Co-expression module analysis identified module genes, which were intersected with HIF1A-related genes to identify common genes. Machine learning identified hub genes from intersection genes and PPI networks were constructed to explore relationships among hub and HIF1A. Single-cell RNA sequencing analyzed hub gene distribution across cell clusters. ASD mouse model was created by inducing maternal immune activation (MIA) with poly(I:C) injections, verified through behavioral tests. Validation of HIF1A pathway and hub genes was confirmed through Western Blot, qPCR, and immunofluorescence in ASD mice and microglia BV-2 cells. RESULTS: Using CEMiTool and GeneCards, 45 genes associated with ASD and HIF1A pathway were identified. Machine learning identified CDKN1A, ETS2, LYN, and SLC16A3 as potential ASD diagnostic markers. Single-cell sequencing pinpointed activated microglia as key immune cells. Behavioral tests showed MIA offspring mice exhibited typical ASD-like behaviors. Immunofluorescence confirmed the activation of microglia and HIF1A pathway in frontal cortex of ASD mice. Additionally, IL-6 contributed to ASD by activating JUN/HIF1A pathway, affecting CDKN1A, LYN, and SLC16A3 expression in microglia. CONCLUSIONS: HIF1A-related genes CDKN1A, ETS2, LYN, and SLC16A3 are strong diagnostic markers for ASD and the activation of IL-6/JUN/HIF1A pathway in microglia contributes to the pathogenesis of ASD.",
+  "abstract_zh": "背景：自闭症谱系障碍（ASD）是一种具有高社会负担且治疗手段有限的神经发育障碍。大脑缺氧状态被认为是ASD的重要病理机制。HIF1A是脑缺氧中的关键参与者，但其在ASD病理生理图景中的作用仍不清楚。方法：从GEO数据库获取ASD相关数据集，从GeneCards获取HIF1A相关基因。共表达模块分析识别模块基因，并与HIF1A相关基因取交集以确定共同基因。机器学习从交集基因中识别核心基因，并构建PPI网络以探索核心基因与HIF1A之间的关系。单细胞RNA测序分析核心基因在不同细胞簇中的分布。通过poly(I:C)注射诱导母体免疫激活（MIA）创建ASD小鼠模型，并通过行为测试验证。通过Western Blot、qPCR和免疫荧光在ASD小鼠和小胶质细胞BV-2细胞中验证HIF1A通路及核心基因的表达。结果：使用CEMiTool和GeneCards，识别出45个与ASD和HIF1A通路相关的基因。机器学习确定CDKN1A、ETS2、LYN和SLC16A3为潜在的ASD诊断标志物。单细胞测序指出活化的小胶质细胞是关键免疫细胞。行为测试显示MIA后代小鼠表现出典型的ASD样行为。免疫荧光确认ASD小鼠额叶皮层中小胶质细胞和HIF1A通路的激活。此外，IL-6通过激活JUN/HIF1A通路，影响小胶质细胞中CDKN1A、LYN和SLC16A3的表达，从而促进ASD。结论：HIF1A相关基因CDKN1A、ETS2、LYN和SLC16A3是ASD的强诊断标志物，且小胶质细胞中IL-6/JUN/HIF1A通路的激活参与ASD的发病机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39657846/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39657846/",
+  "paper_page_path": "papers/pubmed/39657846/index.html"
+}

@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "38243330",
+    "doi": "10.1186/s13000-023-01425-6",
+    "title": "Translating prognostic quantification of c-MYC and BCL2 from tissue microarrays to whole slide images in diffuse large B-cell lymphoma using deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: c-MYC and BCL2 positivity are important prognostic factors for diffuse large B-cell lymphoma. However, manual quantification is subject to significant intra- and inter-observer variability. We developed an automated method for quantification in whole-slide images of tissue sections where manual quantification requires evaluating large areas of tissue with possibly heterogeneous staining. We train this method using annotations of tumor positivity in smaller tissue microarray cores where expression and staining are more homogeneous and then translate this model to whole-slide images. METHODS: Our method applies a technique called attention-based multiple instance learning to regress the proportion of c-MYC-positive and BCL2-positive tumor cells from pathologist-scored tissue microarray cores. This technique does not require annotation of individual cell nuclei and is trained instead on core-level annotations of percent tumor positivity. We translate this model to scoring of whole-slide images by tessellating the slide into smaller core-sized tissue regions and calculating an aggregate score. Our method was trained on a public tissue microarray dataset from Stanford and applied to whole-slide images from a geographically diverse multi-center cohort produced by the Lymphoma Epidemiology of Outcomes study. RESULTS: In tissue microarrays, the automated method had Pearson correlations of 0.843 and 0.919 with pathologist scores for c-MYC and BCL2, respectively. When utilizing standard clinical thresholds, the sensitivity/specificity of our method was 0.743 / 0.963 for c-MYC and 0.938 / 0.951 for BCL2. For double-expressors, sensitivity and specificity were 0.720 and 0.974. When translated to the external WSI dataset scored by two pathologists, Pearson correlation was 0.753 & 0.883 for c-MYC and 0.749 & 0.765 for BCL2, and sensitivity/specificity was 0.857/0.991 & 0.706/0.930 for c-MYC, 0.856/0.719 & 0.855/0.690 for BCL2, and 0.890/1.00 & 0.598/0.952 for double-expressors. Survival analysis demonstrates that for progression-free survival, model-predicted TMA scores significantly stratify double-expressors and non double-expressors (p = 0.0345), whereas pathologist scores do not (p = 0.128). CONCLUSIONS: We conclude that proportion of positive stains can be regressed using attention-based multiple instance learning, that these models generalize well to whole slide images, and that our models can provide non-inferior stratification of progression-free survival outcomes.",
+    "keywords": [
+      "BCL2",
+      "Deep learning",
+      "Diffuse large B-cell Lymphoma",
+      "Immunohistochemistry",
+      "Multiple instance learning",
+      "Tissue microarrays",
+      "Whole slide images",
+      "c-MYC"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Prognosis",
+      "*Deep Learning",
+      "Proto-Oncogene Proteins c-myc/metabolism",
+      "*Lymphoma, Large B-Cell, Diffuse",
+      "Proto-Oncogene Proteins c-bcl-2/metabolism",
+      "Antineoplastic Combined Chemotherapy Protocols"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tavolara, Thomas E",
+        "Niazi, M Khalid Khan",
+        "Feldman, Andrew L",
+        "Jaye, David L",
+        "Flowers, Christopher",
+        "Cooper, Lee A D",
+        "Gurcan, Metin N"
+      ],
+      "short_names": [
+        "Tavolara TE",
+        "Niazi MKK",
+        "Feldman AL",
+        "Jaye DL",
+        "Flowers C",
+        "Cooper LAD",
+        "Gurcan MN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA. tavolara.thomas@mayo.edu.",
+        "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA.",
+        "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA.",
+        "Department of Lymphoma/Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+        "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tavolara, Thomas E",
+        "short_name": "Tavolara TE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA. tavolara.thomas@mayo.edu."
+        ]
+      },
+      {
+        "full_name": "Niazi, M Khalid Khan",
+        "short_name": "Niazi MKK",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Feldman, Andrew L",
+        "short_name": "Feldman AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Jaye, David L",
+        "short_name": "Jaye DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Flowers, Christopher",
+        "short_name": "Flowers C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lymphoma/Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cooper, Lee A D",
+        "short_name": "Cooper LAD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Gurcan, Metin N",
+        "short_name": "Gurcan MN",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Artificial Intelligence Research, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Diagnostic pathology"
+    ],
+    "journal_abbrev": [
+      "Diagn Pathol"
+    ],
+    "pub_date": "2024 Jan 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/20 05:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "40949070",
+      "40088978",
+      "39951716"
+    ],
+    "refs": [
+      "37014891",
+      "36497258",
+      "36268094",
+      "36005456",
+      "35512532",
+      "34017010",
+      "34000621",
+      "33657296",
+      "33649564",
+      "33204028",
+      "32623277",
+      "29467881",
+      "29167021",
+      "28771788",
+      "26980727",
+      "26834124",
+      "25763314",
+      "25560974",
+      "25431238",
+      "22851565"
+    ],
+    "similar": [
+      "38243330",
+      "31171907",
+      "27286976",
+      "27739436",
+      "29801406",
+      "25090026",
+      "31615842",
+      "34980601",
+      "29088292",
+      "29325248",
+      "26573234",
+      "24506200",
+      "31315646",
+      "34732441",
+      "29968039",
+      "28327893",
+      "23449635",
+      "29097500",
+      "26421520",
+      "22851565",
+      "28525305",
+      "26214636",
+      "26158410",
+      "26240231",
+      "34764434",
+      "25431238",
+      "34438040",
+      "36401148",
+      "29903764",
+      "32613279",
+      "22929980",
+      "27071312",
+      "37348414",
+      "27391453",
+      "30523716",
+      "25828389",
+      "28522442",
+      "22213394",
+      "27095041",
+      "29581544",
+      "31127909",
+      "35715938",
+      "26960633",
+      "22002575",
+      "25687653",
+      "25149548",
+      "22665537",
+      "32074595",
+      "34806851",
+      "32606309",
+      "31607305",
+      "32598736",
+      "31944390",
+      "26884853",
+      "29983382",
+      "25284491",
+      "31288832",
+      "29674626",
+      "34739417",
+      "26515759",
+      "30306208",
+      "32566654",
+      "30252929",
+      "37897298",
+      "26010683",
+      "31109360",
+      "29785017",
+      "26390147",
+      "26834242",
+      "36849712",
+      "27514648",
+      "32390113",
+      "30523053",
+      "26565895",
+      "36826063",
+      "27027803",
+      "33771538",
+      "23335369",
+      "34456240",
+      "27549735",
+      "28552541",
+      "38101156",
+      "32889391",
+      "37356143",
+      "19597184",
+      "31498031",
+      "28351934",
+      "24887414",
+      "31942813",
+      "32722781",
+      "36196757",
+      "30496802",
+      "30998153",
+      "32780847",
+      "37517597",
+      "28984304",
+      "20118770",
+      "32817282",
+      "34637146",
+      "37269416",
+      "39265953",
+      "36068311",
+      "39367648",
+      "39396418",
+      "38819973",
+      "27920955",
+      "33375043",
+      "35242441",
+      "36134972",
+      "36854550",
+      "39050971",
+      "35236916",
+      "36118303",
+      "39229153",
+      "38767581",
+      "39254030",
+      "39106145",
+      "35693123",
+      "39272955",
+      "39045139",
+      "34261206",
+      "37497459",
+      "38993786",
+      "39040241",
+      "36303844",
+      "39422775",
+      "36323656",
+      "39279830",
+      "36691660"
+    ],
+    "review": [
+      "38243330",
+      "32074595",
+      "29674626"
+    ],
+    "pmc": [
+      "10797911"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://diagnosticpathology.biomedcentral.com/articles/10.1186/s13000-023-01425-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38243330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38243330",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.30.573521",
+  "title": "Transient power-law behaviour following induction distinguishes between competing models of stochastic gene expression",
+  "authors": "Nicoll AG; Szavits-Nossan J; Evans MR; Grima R",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-30",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过数学建模和mRNA计数数据分析随机基因表达中的转录状态数，未涉及蛋白质-DNA互作、结合位点预测或AI/物理模拟方法，与本课题无关。",
+  "abstract": "What features of transcription can be learnt by fitting mathematical models of gene expression to mRNA count data? Given a suite of models, fitting to data selects an optimal one, thus identifying a probable transcriptional mechanism. Whilst attractive, the utility of this methodology remains unclear. Here, we sample steady-state, single-cell mRNA count distributions from parameters in the physiological range, and show they cannot be used to confidently estimate the number of inactive gene states, i.e. the number of rate-limiting steps in transcriptional initiation. Distributions from over 99% of the parameter space generated using models with 2, 3, or 4 inactive states can be well fit by one with a single inactive state. However, we show that for many minutes following induction, eukaryotic cells show an increase in the mean mRNA count that obeys a power law whose exponent equals the sum of the number of states visited from the initial inactive to the active state and the number of rate-limiting post-transcriptional processing steps. Our study shows that estimation of the exponent from eukaryotic data can be sufficient to determine a lower bound on the total number of regulatory steps in transcription initiation, splicing, and nuclear export.",
+  "abstract_zh": "通过将基因表达的数学模型拟合到mRNA计数数据，可以学习到转录的哪些特征？给定一系列模型，拟合数据会选择最优模型，从而识别出可能的转录机制。尽管这种方法颇具吸引力，但其实用性仍不明确。在此，我们从生理范围内的参数中采样稳态、单细胞mRNA计数分布，并表明这些分布无法用于可靠估计非活性基因状态的数量，即转录起始中限速步骤的数量。使用具有2、3或4个非活性状态的模型生成的超过99%的参数空间分布，可以很好地用仅含一个非活性状态的模型来拟合。然而，我们表明，在诱导后的许多分钟内，真核细胞中平均mRNA计数的增加遵循幂律，其指数等于从初始非活性状态到活性状态所经历的状态数量与限速转录后加工步骤数量之和。我们的研究表明，从真核数据中估计该指数足以确定转录起始、剪接和核输出中调控步骤总数的下限。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.30.573521",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.30.573521",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.30.573521/index.html"
+}

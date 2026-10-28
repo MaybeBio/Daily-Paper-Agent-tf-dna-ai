@@ -1,0 +1,373 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.21.671354",
+  "title": "The genetic architecture of the human bZIP interaction network",
+  "doi": "10.1101/2025.08.21.671354",
+  "abstract": "Generative biology holds the promise to transform our ability to design and understand living systems by creating novel proteins, pathways, and organisms with tailored functions that address challenges in medicine, sustainability, and technology. However, training generative models requires large quantities of data that captures the genetic architecture of protein function in all its complexity, but these are currently scarce. Here, we systematically mutagenized all 54 human basic-leucine zipper (bZIP) domains and quantified their interactions with each other using bindingPCA, a quantitative deep mutational scanning assay. This resulted in ∼2 million interaction measurements, capturing the effect of all single amino acid substitutions at each of the 35 interfacial positions. We found that mutation effects are largely additive in the vicinity of each wild-type bZIPs, but diverge across the family, indicating strong context dependency. A global additive thermodynamic model provided moderate prediction of mutation effects, while individual models per bZIP achieved higher performance, supporting a model of local simplicity and global complexity. Our results therefore suggest that the genetic architecture of protein function is more complex than previously anticipated, which could hinder predictability. However, a convolutional neural network trained on this dataset could accurately predict binding scores from sequence alone. Furthermore, the model enabled the design of synthetic bZIPs with high target specificity, demonstrating practical applicability for bioengineering purposes. Our study shows that capturing family-wide diversity is essential to reveal context dependencies and train accurate quantitative models of protein-protein interactions.",
+  "authors": [
+    "Bendel A",
+    "Eichenberger B",
+    "Kempf G",
+    "Klein D",
+    "Shimada K",
+    "Franco M",
+    "Jaaks-Kraatz S",
+    "Durdu S",
+    "Herrmann V",
+    "Roth G",
+    "Soneson C",
+    "Smallwood S",
+    "Thomä N",
+    "Schübeler D",
+    "Stadler M",
+    "Zenke F",
+    "Diss G"
+  ],
+  "published_date": "2025-08-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671354",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671354.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1071715",
+    "raw_record": {
+      "id": "PPR1071715",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1071715"
+        ]
+      },
+      "doi": "10.1101/2025.08.21.671354",
+      "title": "The genetic architecture of the human bZIP interaction network",
+      "authorString": "Bendel A, Eichenberger B, Kempf G, Klein D, Shimada K, Franco M, Jaaks-Kraatz S, Durdu S, Herrmann V, Roth G, Soneson C, Smallwood S, Thomä N, Schübeler D, Stadler M, Zenke F, Diss G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bendel A",
+            "lastName": "Bendel",
+            "firstName": "A.M.",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5266-4675"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eichenberger B",
+            "lastName": "Eichenberger",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kempf G",
+            "lastName": "Kempf",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klein D",
+            "lastName": "Klein",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shimada K",
+            "lastName": "Shimada",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franco M",
+            "lastName": "Franco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jaaks-Kraatz S",
+            "lastName": "Jaaks-Kraatz",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Durdu S",
+            "lastName": "Durdu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herrmann V",
+            "lastName": "Herrmann",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roth G",
+            "lastName": "Roth",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soneson C",
+            "lastName": "Soneson",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Swiss Institute for Experimental Cancer Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smallwood S",
+            "lastName": "Smallwood",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thomä N",
+            "lastName": "Thomä",
+            "firstName": "N.H.",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Swiss Institute for Experimental Cancer Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schübeler D",
+            "lastName": "Schübeler",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stadler M",
+            "lastName": "Stadler",
+            "firstName": "M.B.",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zenke F",
+            "lastName": "Zenke",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diss G",
+            "lastName": "Diss",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5266-4675"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Generative biology holds the promise to transform our ability to design and understand living systems by creating novel proteins, pathways, and organisms with tailored functions that address challenges in medicine, sustainability, and technology. However, training generative models requires large quantities of data that captures the genetic architecture of protein function in all its complexity, but these are currently scarce. Here, we systematically mutagenized all 54 human basic-leucine zipper (bZIP) domains and quantified their interactions with each other using bindingPCA, a quantitative deep mutational scanning assay. This resulted in ∼2 million interaction measurements, capturing the effect of all single amino acid substitutions at each of the 35 interfacial positions. We found that mutation effects are largely additive in the vicinity of each wild-type bZIPs, but diverge across the family, indicating strong context dependency. A global additive thermodynamic model provided moderate prediction of mutation effects, while individual models per bZIP achieved higher performance, supporting a model of local simplicity and global complexity. Our results therefore suggest that the genetic architecture of protein function is more complex than previously anticipated, which could hinder predictability. However, a convolutional neural network trained on this dataset could accurately predict binding scores from sequence alone. Furthermore, the model enabled the design of synthetic bZIPs with high target specificity, demonstrating practical applicability for bioengineering purposes. Our study shows that capturing family-wide diversity is essential to reveal context dependencies and train accurate quantitative models of protein-protein interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "884664",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "202981",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.21.671354"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1071715"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1071715&type=FILE&fileName=EMS208170-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208170",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-24",
+      "firstPublicationDate": "2025-08-22",
+      "firstIndexDate": "2025-08-24",
+      "fullTextReceivedDate": "2025-09-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

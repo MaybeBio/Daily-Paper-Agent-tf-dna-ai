@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "41380087",
+    "doi": "10.1021/acsnano.5c13500",
+    "title": "Multivalent Interactions between Chaperone and Ribosome-Nascent Chain Complex Revealed by High-Speed AFM and MD Simulations."
+  },
+  "content": {
+    "abstract": "Trigger Factor (TF) is a primary ATP-independent molecular chaperone in bacteria that engages nascent polypeptide chains emerging from the ribosomal exit tunnel to assist their folding. However, the real-time behavior of TF during active translation under near-physiological conditions remains elusive. Here, we employ high-speed atomic force microscopy (HS-AFM) imaging to visualize TF dynamics on intact Escherichia coli ribosomes in real time. We observe that TF transitions between compact and extended conformations and forms stable and transient contacts near ribosomal proteins uL23 and bL17, respectively. Interestingly, TFs engage distinct regions of the same ribosome-nascent chain complex, with one TF binding near the nascent chain and another near bL17, revealing multivalent interactions on the ribosome surface. Complementary all-atom molecular dynamics simulations reproduced the observed TF conformations and interaction dynamics, validating the experimentally observed structural transitions and dual-site engagement. This integrative approach uncovers previously inaccessible dynamics of ribosome-associated chaperones and offers a broadly applicable platform to probe cotranslational folding under near-physiological conditions.",
+    "keywords": [
+      "atomic force microscopy imaging",
+      "molecular dynamics simulations",
+      "protein folding",
+      "ribosome",
+      "trigger factor (chaperone)"
+    ],
+    "mesh_terms": [
+      "*Ribosomes/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Escherichia coli/metabolism/chemistry",
+      "*Escherichia coli Proteins/chemistry/metabolism",
+      "*Microscopy, Atomic Force",
+      "*Molecular Chaperones/chemistry/metabolism",
+      "*Peptidylprolyl Isomerase/chemistry/metabolism",
+      "Protein Conformation",
+      "Ribosomal Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nunez, Eider",
+        "Saha, Prithwidip",
+        "Ibarluzea, Markel G",
+        "Muguruza-Montero, Arantza",
+        "M-Alicante, Sara",
+        "Ramis, Rafael",
+        "Leonardo, Aritz",
+        "Bergara, Aitor",
+        "Villarroel, Alvaro",
+        "Rico, Felix"
+      ],
+      "short_names": [
+        "Nunez E",
+        "Saha P",
+        "Ibarluzea MG",
+        "Muguruza-Montero A",
+        "M-Alicante S",
+        "Ramis R",
+        "Leonardo A",
+        "Bergara A",
+        "Villarroel A",
+        "Rico F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8075-9815",
+        "ORCID: 0000-0003-2600-0415",
+        "ORCID: 0000-0002-5942-2270",
+        "ORCID: 0000-0003-2707-1856",
+        "ORCID: 0000-0002-7757-8340"
+      ],
+      "affiliations": [
+        "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France.",
+        "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain.",
+        "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France.",
+        "Donostia International Physics Center, Donostia 20018, Spain.",
+        "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain.",
+        "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain.",
+        "Department of Physiology, Faculty of Medicine and Nursery, University of the Basque Country, UPV/EHU, Leioa 48940, Spain.",
+        "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain.",
+        "Donostia International Physics Center, Donostia 20018, Spain.",
+        "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain.",
+        "Donostia International Physics Center, Donostia 20018, Spain.",
+        "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain.",
+        "Donostia International Physics Center, Donostia 20018, Spain.",
+        "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain.",
+        "Materials Physics Center, 20018 Donostia, Spain.",
+        "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain.",
+        "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nuñez, Eider",
+        "short_name": "Nuñez E",
+        "identifiers": [
+          "0000-0001-8075-9815"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France.",
+          "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Saha, Prithwidip",
+        "short_name": "Saha P",
+        "identifiers": [
+          "0000-0003-2600-0415"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France."
+        ]
+      },
+      {
+        "full_name": "Ibarluzea, Markel G",
+        "short_name": "Ibarluzea MG",
+        "identifiers": [],
+        "affiliations": [
+          "Donostia International Physics Center, Donostia 20018, Spain.",
+          "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Muguruza-Montero, Arantza",
+        "short_name": "Muguruza-Montero A",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain.",
+          "Department of Physiology, Faculty of Medicine and Nursery, University of the Basque Country, UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "M-Alicante, Sara",
+        "short_name": "M-Alicante S",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramis, Rafael",
+        "short_name": "Ramis R",
+        "identifiers": [],
+        "affiliations": [
+          "Donostia International Physics Center, Donostia 20018, Spain.",
+          "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Leonardo, Aritz",
+        "short_name": "Leonardo A",
+        "identifiers": [
+          "0000-0002-5942-2270"
+        ],
+        "affiliations": [
+          "Donostia International Physics Center, Donostia 20018, Spain.",
+          "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Bergara, Aitor",
+        "short_name": "Bergara A",
+        "identifiers": [
+          "0000-0003-2707-1856"
+        ],
+        "affiliations": [
+          "Donostia International Physics Center, Donostia 20018, Spain.",
+          "Department of Physics and EHU Quantum Center, University of The Basque Country, UPV/EHU, Leioa 48940, Spain.",
+          "Materials Physics Center, 20018 Donostia, Spain."
+        ]
+      },
+      {
+        "full_name": "Villarroel, Alvaro",
+        "short_name": "Villarroel A",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute, CSIC-UPV/EHU, Leioa 48940, Spain."
+        ]
+      },
+      {
+        "full_name": "Rico, Felix",
+        "short_name": "Rico F",
+        "identifiers": [
+          "0000-0002-7757-8340"
+        ],
+        "affiliations": [
+          "Aix-Marseille University, INSERM, DyNaMo, Turing Centre For Living Systems, Marseille 13009, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2025 Dec 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 19:42",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40711920",
+      "40494932",
+      "39739798",
+      "39468350",
+      "38985872",
+      "38426645",
+      "37709237",
+      "36979501",
+      "35667441",
+      "35294442",
+      "34930833",
+      "34265844",
+      "34135520",
+      "33877305",
+      "33436616",
+      "33431655",
+      "33288716",
+      "33206646",
+      "32924932",
+      "32518240",
+      "31714766",
+      "30755450",
+      "30478320",
+      "29956233",
+      "29893830",
+      "29714686",
+      "29222465",
+      "27626893",
+      "27320387",
+      "27092002",
+      "26512985",
+      "25870411",
+      "25400877",
+      "25201128",
+      "24939037",
+      "24812405",
+      "24026055",
+      "23931321",
+      "23565160",
+      "23541159",
+      "23341755",
+      "23051696",
+      "22921937",
+      "22680285",
+      "22248867",
+      "21776078",
+      "21414251",
+      "20691699",
+      "20595383",
+      "20096367",
+      "19737520",
+      "18497744",
+      "18045873",
+      "17372359",
+      "17051157",
+      "16428856",
+      "16271892",
+      "16222654",
+      "15989950",
+      "15837180",
+      "15353602",
+      "15334087",
+      "15317974",
+      "15084258",
+      "14729669",
+      "12756233",
+      "12732306",
+      "12559924",
+      "12452438",
+      "12226666",
+      "11724963",
+      "10824113",
+      "9407040",
+      "9299330",
+      "8633085",
+      "8521806",
+      "7687469",
+      "7588623"
+    ],
+    "similar": [
+      "41380087",
+      "27320387",
+      "12226666",
+      "18497744",
+      "15334087",
+      "38987455",
+      "20595383",
+      "17051157",
+      "27626893",
+      "12756233",
+      "34930833",
+      "40711920",
+      "19737520",
+      "38908370",
+      "29222465",
+      "22153074",
+      "15837180",
+      "22921937",
+      "12581648",
+      "18045873",
+      "16359675",
+      "16091460",
+      "23931321",
+      "17296610",
+      "22735532",
+      "23831649",
+      "30753870",
+      "15175291",
+      "14656439",
+      "29714686",
+      "33761323",
+      "15978066",
+      "16551615",
+      "20659464",
+      "26527152",
+      "20096367",
+      "39739798",
+      "11592405",
+      "15978070",
+      "12452438",
+      "16316984",
+      "30093407",
+      "28385637",
+      "19933110",
+      "19519521",
+      "28437479",
+      "16380200",
+      "40348781",
+      "15632130",
+      "23051696",
+      "15148364",
+      "18717565",
+      "11724963",
+      "24939037",
+      "28939815",
+      "26906929",
+      "27487212",
+      "26926436",
+      "17360615",
+      "24555433",
+      "25389111",
+      "18288106",
+      "36090041",
+      "20132842",
+      "26512985",
+      "41373642",
+      "16829677",
+      "12559924",
+      "31409676",
+      "40911678",
+      "15457244",
+      "39373534",
+      "12732306",
+      "15353602",
+      "15128935",
+      "19647435",
+      "32138505",
+      "19636937",
+      "41233324",
+      "12205085",
+      "16407311",
+      "14729669",
+      "19491936",
+      "29100053",
+      "34672004",
+      "38811604",
+      "16271892",
+      "26321634",
+      "25908824",
+      "24805251",
+      "9268318",
+      "22680285",
+      "23770820",
+      "15084258",
+      "26344570",
+      "23517476",
+      "38985872",
+      "16926148",
+      "16421097",
+      "12244297"
+    ],
+    "review": [
+      "41380087",
+      "15837180",
+      "20132842",
+      "12732306",
+      "19647435"
+    ],
+    "pmc": [
+      "12752688"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41380087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.5c13500",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

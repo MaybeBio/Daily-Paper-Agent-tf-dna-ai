@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "34445773",
+    "doi": "10.3390/ijms22169067",
+    "title": "Paradoxical Pro-angiogenic Effect of Low-Dose Ellipticine Identified by In Silico Drug Repurposing."
+  },
+  "content": {
+    "abstract": "Inadequate vessel maintenance or growth causes ischemia in diseases such as myocardial infarction, stroke, and neurodegenerative disorders. Therefore, developing an effective strategy to salvage ischemic tissues using a novel compound is urgent. Drug repurposing has become a widely used method that can make drug discovery more efficient and less expensive. Additionally, computational virtual screening tools make drug discovery faster and more accurate. This study found a novel drug candidate for pro-angiogenesis by in silico virtual screening. Using Gene Expression Omnibus (GEO) microarray datasets related to angiogenesis studies, differentially expressed genes were identified and characteristic direction signatures extracted from GEO2EnrichR were used as input data on L1000CDS(2) to screen pro-angiogenic molecules. After a thorough review of the candidates, a list of compounds structurally similar to TWS-119 was generated using ChemMine Tools and its clustering toolbox. ChemMine Tools and ChemminR structural similarity search tools for small-molecule analysis and clustering were used for second screening. A molecular docking simulation was conducted using AutoDock v.4 to evaluate the physicochemical effect of secondary-screened chemicals. A cell viability or toxicity test was performed to determine the proper dose of the final candidate, ellipticine. As a result, we found ellipticine, which has pro-angiogenic effects, using virtual computational methods. The noncytotoxic concentration of ellipticine was 156.25 nM. The phosphorylation of glycogen synthase kinase-3beta was decreased, whereas the beta-catenin expression was increased in human endothelial cells treated with ellipticine. We concluded that ellipticine at sublethal dosage could be successfully repositioned as a pro-angiogenic substance by in silico virtual screening.",
+    "keywords": [
+      "angiogenesis",
+      "drug repurposing",
+      "ellipticine",
+      "in silico",
+      "noncytotoxic concentration"
+    ],
+    "mesh_terms": [
+      "Cell Survival/drug effects",
+      "Cells, Cultured",
+      "Drug Discovery/methods",
+      "Drug Repositioning/methods",
+      "Ellipticines/*pharmacology",
+      "Gene Expression/drug effects",
+      "Glycogen Synthase Kinase 3 beta/metabolism",
+      "Human Umbilical Vein Endothelial Cells/*drug effects/metabolism",
+      "Humans",
+      "Molecular Docking Simulation/methods",
+      "Molecular Dynamics Simulation",
+      "Neovascularization, Pathologic/*drug therapy/metabolism",
+      "Protein Binding/drug effects",
+      "beta Catenin/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oh, Jisu",
+        "Lee, Hyeon Hae",
+        "Jeong, Yunhui",
+        "Yoon, Siyeong",
+        "An, Hyun-Ju",
+        "Baek, Minjung",
+        "Kim, Do Kyung",
+        "Lee, Soonchul"
+      ],
+      "short_names": [
+        "Oh J",
+        "Lee HH",
+        "Jeong Y",
+        "Yoon S",
+        "An HJ",
+        "Baek M",
+        "Kim DK",
+        "Lee S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5359-715X"
+      ],
+      "affiliations": [
+        "Division of Hemato-Oncology, Department of Internal Medicine, Yongin Severance Hospital, Yonsei University College of Medicine, 363 Dongbaekjukjeon-daero, Giheung-gu, Yongin-si 16995, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea.",
+        "CHA Graduate School of Medicine, 120 Hyeryong-ro, Pocheon 11160, Korea.",
+        "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oh, Jisu",
+        "short_name": "Oh J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hemato-Oncology, Department of Internal Medicine, Yongin Severance Hospital, Yonsei University College of Medicine, 363 Dongbaekjukjeon-daero, Giheung-gu, Yongin-si 16995, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hyeon Hae",
+        "short_name": "Lee HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Yunhui",
+        "short_name": "Jeong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      },
+      {
+        "full_name": "Yoon, Siyeong",
+        "short_name": "Yoon S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      },
+      {
+        "full_name": "An, Hyun-Ju",
+        "short_name": "An HJ",
+        "identifiers": [
+          "0000-0002-5359-715X"
+        ],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      },
+      {
+        "full_name": "Baek, Minjung",
+        "short_name": "Baek M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Do Kyung",
+        "short_name": "Kim DK",
+        "identifiers": [],
+        "affiliations": [
+          "CHA Graduate School of Medicine, 120 Hyeryong-ro, Pocheon 11160, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Soonchul",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, CHA Bundang Medical Center, CHA University School of Medicine, Seong-nam 13496, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Aug 23",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/28 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "41282672"
+    ],
+    "refs": [
+      "32606304",
+      "31810470",
+      "29880920",
+      "28688705",
+      "28575679",
+      "28555524",
+      "28553165",
+      "28413689",
+      "28298523",
+      "27293534",
+      "27080087",
+      "26671619",
+      "26148350",
+      "25547492",
+      "24785412",
+      "24078773",
+      "23651302",
+      "22911885",
+      "21849664",
+      "21843585",
+      "21841793",
+      "21839775",
+      "21753906",
+      "21576229",
+      "21283602",
+      "20957181",
+      "20846436",
+      "19426684",
+      "18694957",
+      "17936059",
+      "17912008",
+      "17681352",
+      "17637951",
+      "16690890",
+      "16337242",
+      "15994955",
+      "15896464",
+      "15781615",
+      "15286734",
+      "15150104",
+      "12615961",
+      "12444738",
+      "11755121",
+      "9119522",
+      "8426740",
+      "7681277",
+      "7584949",
+      "7509344",
+      "7003658"
+    ],
+    "similar": [
+      "34445773",
+      "30547434",
+      "33925237",
+      "30396316",
+      "30816547",
+      "22780961",
+      "22678744",
+      "29848281",
+      "30553197",
+      "20027146",
+      "30547440",
+      "6155993",
+      "32561274",
+      "28688145",
+      "31846362",
+      "29144001",
+      "29032031",
+      "34500568",
+      "16288908",
+      "32360530",
+      "30914192",
+      "27756875",
+      "25944736",
+      "30472378",
+      "31586903",
+      "4016757",
+      "15662032",
+      "27989880",
+      "31755336",
+      "26757112",
+      "8494604",
+      "27404817",
+      "3015146",
+      "31559538",
+      "22917556",
+      "19426684",
+      "26969382",
+      "28602978",
+      "29335817",
+      "16337242",
+      "29772481",
+      "31864394",
+      "28555524",
+      "28715869",
+      "36257147",
+      "26806572",
+      "32561397",
+      "28455219",
+      "23168683",
+      "24687256",
+      "32645937",
+      "22040216",
+      "27058891",
+      "2544183",
+      "22167207",
+      "24019254",
+      "32615525",
+      "28477443",
+      "29208522",
+      "17376678",
+      "36216900",
+      "33378412",
+      "29947280",
+      "28138703",
+      "29578387",
+      "28197631",
+      "25533511",
+      "26060925",
+      "7104026",
+      "20576524",
+      "30217479",
+      "31450226",
+      "34156395",
+      "27133199",
+      "29209632",
+      "27771716",
+      "32335141",
+      "25736325",
+      "21893193",
+      "21329734",
+      "39213358",
+      "35285479",
+      "38320249",
+      "37525054",
+      "31174591",
+      "24575968",
+      "21576229",
+      "31798962",
+      "39020064",
+      "37493987",
+      "34364293",
+      "30346717",
+      "36440278"
+    ],
+    "review": [
+      "34445773",
+      "30553197",
+      "34500568",
+      "32360530",
+      "32615525",
+      "20576524",
+      "35285479"
+    ],
+    "pmc": [
+      "8396501"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22169067",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34445773/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34445773",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

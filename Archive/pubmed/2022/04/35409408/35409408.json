@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "35409408",
+    "doi": "10.3390/ijms23074049",
+    "title": "Validation and Data-Integration of Yeast-Based Assays for Functional Classification of BRCA1 Missense Variants."
+  },
+  "content": {
+    "abstract": "Germline mutations in the BRCA1 gene have been reported to increase the lifetime risk of developing breast and/or ovarian cancer (BOC). By new sequencing technologies, numerous variants of uncertain significance (VUS) are identified. It is mandatory to develop new tools to evaluate their functional impact and pathogenicity. As the expression of pathogenic BRCA1 variants in Saccharomyces cerevisiae increases the frequency of intra- and inter-chromosomal homologous recombination (HR), and gene reversion (GR), we validated the two HR and the GR assays by testing 23 benign and 23 pathogenic variants and compared the results with those that were obtained in the small colony phenotype (SCP) assay, an additional yeast-based assay, that was validated previously. We demonstrated that they scored high accuracy, sensitivity, and sensibility. By using a classifier that was based on majority of voting, we have integrated data from HR, GR, and SCP assays and developed a reliable method, named yBRCA1, with high sensitivity to obtain an accurate VUS functional classification (benign or pathogenic). The classification of BRCA1 variants, important for assessing the risk of developing BOC, is often difficult to establish with genetic methods because they occur rarely in the population. This study provides a new tool to get insights on the functional impact of the BRCA1 variants.",
+    "keywords": [
+      "BRCA1",
+      "gene reversion",
+      "homologous recombination",
+      "machine learning",
+      "variant classification",
+      "variant of uncertain significance",
+      "yeast-based functional assays"
+    ],
+    "mesh_terms": [
+      "BRCA1 Protein/genetics/metabolism",
+      "BRCA2 Protein/genetics",
+      "*Breast Neoplasms/genetics/pathology",
+      "Female",
+      "Genes, BRCA1",
+      "Genetic Predisposition to Disease",
+      "Humans",
+      "Mutation, Missense",
+      "*Ovarian Neoplasms/genetics",
+      "Saccharomyces cerevisiae/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Belle, Francesca",
+        "Mercatanti, Alberto",
+        "Lodovichi, Samuele",
+        "Congregati, Caterina",
+        "Guglielmi, Chiara",
+        "Tancredi, Mariella",
+        "Caligo, Maria Adelaide",
+        "Cervelli, Tiziana",
+        "Galli, Alvaro"
+      ],
+      "short_names": [
+        "Belle F",
+        "Mercatanti A",
+        "Lodovichi S",
+        "Congregati C",
+        "Guglielmi C",
+        "Tancredi M",
+        "Caligo MA",
+        "Cervelli T",
+        "Galli A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5110-9688",
+        "ORCID: 0000-0002-6780-7410",
+        "ORCID: 0000-0003-0589-1829",
+        "ORCID: 0000-0002-9997-1741",
+        "ORCID: 0000-0002-9091-5639"
+      ],
+      "affiliations": [
+        "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy.",
+        "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy.",
+        "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy.",
+        "Division of Internal Medicine, University Hospital of Pisa, 56125 Pisa, Italy.",
+        "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy.",
+        "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy.",
+        "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy.",
+        "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy.",
+        "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bellè, Francesca",
+        "short_name": "Bellè F",
+        "identifiers": [],
+        "affiliations": [
+          "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Mercatanti, Alberto",
+        "short_name": "Mercatanti A",
+        "identifiers": [
+          "0000-0001-5110-9688"
+        ],
+        "affiliations": [
+          "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Lodovichi, Samuele",
+        "short_name": "Lodovichi S",
+        "identifiers": [
+          "0000-0002-6780-7410"
+        ],
+        "affiliations": [
+          "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Congregati, Caterina",
+        "short_name": "Congregati C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Internal Medicine, University Hospital of Pisa, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Guglielmi, Chiara",
+        "short_name": "Guglielmi C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Tancredi, Mariella",
+        "short_name": "Tancredi M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Caligo, Maria Adelaide",
+        "short_name": "Caligo MA",
+        "identifiers": [
+          "0000-0003-0589-1829"
+        ],
+        "affiliations": [
+          "Molecular Genetics Unit, Department of Laboratory Medicine, University Hospital of Pisa, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Cervelli, Tiziana",
+        "short_name": "Cervelli T",
+        "identifiers": [
+          "0000-0002-9997-1741"
+        ],
+        "affiliations": [
+          "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Galli, Alvaro",
+        "short_name": "Galli A",
+        "identifiers": [
+          "0000-0002-9091-5639"
+        ],
+        "affiliations": [
+          "Yeast Genetics and Genomics, Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, CNR via Moruzzi 1, 56125 Pisa, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Apr 6",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/13 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "41275418",
+      "41009487",
+      "39062754",
+      "37651978",
+      "37514027"
+    ],
+    "refs": [
+      "34573285",
+      "34230640",
+      "34045478",
+      "33761318",
+      "33087888",
+      "32656256",
+      "32546644",
+      "32377563",
+      "32152249",
+      "31892348",
+      "31783775",
+      "31769492",
+      "31131967",
+      "30586411",
+      "30283497",
+      "30219179",
+      "30209399",
+      "29179779",
+      "28886340",
+      "28866612",
+      "28781887",
+      "27515922",
+      "27484786",
+      "27272900",
+      "26381082",
+      "25741868",
+      "25643705",
+      "22753008",
+      "18680205",
+      "18197258",
+      "17401334",
+      "16161804",
+      "15343273",
+      "15004537",
+      "12947386",
+      "12073320",
+      "2665967"
+    ],
+    "similar": [
+      "35409408",
+      "31769492",
+      "32546644",
+      "35472165",
+      "28866612",
+      "29884841",
+      "31907386",
+      "31911673",
+      "37232349",
+      "22684231",
+      "21922593",
+      "30725392",
+      "33087888",
+      "29302806",
+      "27495310",
+      "23867111",
+      "37335020",
+      "25643705",
+      "37085799",
+      "28807866",
+      "31409081",
+      "30415210",
+      "31477031",
+      "18680205",
+      "34749799",
+      "32180084",
+      "35729312",
+      "34597585",
+      "30606148",
+      "29297111",
+      "30257991",
+      "24728577",
+      "24607278",
+      "32772980",
+      "19543972",
+      "37731132",
+      "37578980",
+      "11157798",
+      "23615697",
+      "29215753",
+      "30458859",
+      "29580235",
+      "39062754",
+      "36775216",
+      "23704879",
+      "26381082",
+      "33428613",
+      "36833189",
+      "33078592",
+      "31825140",
+      "31853058",
+      "27124784",
+      "27741520",
+      "28477318",
+      "23328489",
+      "34855882",
+      "18489799",
+      "36404616",
+      "21356067",
+      "29996917",
+      "32284662",
+      "35736817",
+      "16847550",
+      "31336956",
+      "29394989",
+      "25652403",
+      "25556971",
+      "12938098",
+      "31112341",
+      "18497862",
+      "28765325",
+      "23231788",
+      "34146199",
+      "24323938",
+      "12215251",
+      "29236234",
+      "15689452",
+      "22753008",
+      "31131967",
+      "33273034",
+      "20737206",
+      "19493677",
+      "28319063",
+      "21990134",
+      "15004537",
+      "12872252",
+      "19200354",
+      "27914478",
+      "18824701",
+      "34207612",
+      "33287145",
+      "38417439",
+      "31331294",
+      "32862574",
+      "12955719",
+      "20614180",
+      "29797126",
+      "35216584",
+      "14722926",
+      "33128190",
+      "34045478",
+      "35659930",
+      "36171434",
+      "30696104",
+      "35641994",
+      "37651978",
+      "35196514",
+      "37718511",
+      "37090572",
+      "36593954",
+      "37168384",
+      "21447777",
+      "34793697",
+      "32377563",
+      "37917606",
+      "36741700",
+      "35665744",
+      "38242199",
+      "33293522",
+      "37201251",
+      "36246618",
+      "38895336",
+      "39243022",
+      "37380723",
+      "34906453",
+      "39389016",
+      "31144781",
+      "38037760",
+      "36629452",
+      "37905042",
+      "35021209",
+      "38826236",
+      "37961354",
+      "38223342",
+      "35146455",
+      "38836089",
+      "36711907"
+    ],
+    "review": [
+      "35409408",
+      "28866612",
+      "31409081",
+      "31825140",
+      "24323938",
+      "22753008",
+      "21990134",
+      "35216584",
+      "37651978"
+    ],
+    "pmc": [
+      "8999655"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23074049",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35409408/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35409408",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35409408",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

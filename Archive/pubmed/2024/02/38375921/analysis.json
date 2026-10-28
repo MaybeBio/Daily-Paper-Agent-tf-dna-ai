@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38375921",
+  "title": "Employing bimodal representations to predict DNA bendability within a self-supervised pre-trained framework.",
+  "authors": "Yang, Minghao; Zhang, Shichen; Zheng, Zhihang; Zhang, Pengfei; Liang, Yan; Tang, Shaojun",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-02-20",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用预训练语言模型DNABERT和CNN预测DNA弯曲性，虽非直接TF-DNA结合建模，但涉及转录因子结合位点区域的弯曲性分析，方法可迁移至TF-DNA互作研究。",
+  "abstract": "The bendability of genomic DNA, which measures the DNA looping rate, is crucial for numerous biological processes of DNA. Recently, an advanced high-throughput technique known as 'loop-seq' has made it possible to measure the inherent cyclizability of DNA fragments. However, quantifying the bendability of large-scale DNA is costly, laborious, and time-consuming. To close the gap between rapidly evolving large language models and expanding genomic sequence information, and to elucidate the DNA bendability's impact on critical regulatory sequence motifs such as super-enhancers in the human genome, we introduce an innovative computational model, named MIXBend, to forecast the DNA bendability utilizing both nucleotide sequences and physicochemical properties. In MIXBend, a pre-trained language model DNABERT and convolutional neural network with attention mechanism are utilized to construct both sequence- and physicochemical-based extractors for the sophisticated refinement of DNA sequence representations. These bimodal DNA representations are then fed to a k-mer sequence-physicochemistry matching module to minimize the semantic gap between each modality. Lastly, a self-attention fusion layer is employed for the prediction of DNA bendability. In conclusion, the experimental results validate MIXBend's superior performance relative to other state-of-the-art methods. Additionally, MIXBend reveals both novel and known motifs from the yeast. Moreover, MIXBend discovers significant bendability fluctuations within super-enhancer regions and transcription factors binding sites in the human genome.",
+  "abstract_zh": "基因组DNA的可弯曲性，衡量DNA成环速率，对DNA的众多生物学过程至关重要。近期，一种先进的高通量技术“loop-seq”使得测量DNA片段固有的环化能力成为可能。然而，量化大规模DNA的可弯曲性既成本高昂、劳动密集又耗时。为了弥合快速演进的大型语言模型与不断扩展的基因组序列信息之间的鸿沟，并阐明DNA可弯曲性对人类基因组中如超级增强子等关键调控序列基序的影响，我们引入了一种创新的计算模型，名为MIXBend，利用核苷酸序列和物理化学性质来预测DNA可弯曲性。在MIXBend中，利用预训练语言模型DNABERT和带有注意力机制的卷积神经网络，构建了基于序列和基于物理化学特性的提取器，以精细优化DNA序列表示。这些双模态DNA表示随后被输入到一个k-mer序列-物理化学匹配模块，以最小化各模态之间的语义差距。最后，采用自注意力融合层进行DNA可弯曲性的预测。总之，实验结果验证了MIXBend相对于其他最先进方法的优越性能。此外，MIXBend从酵母中揭示了新颖及已知的基序。而且，MIXBend发现人类基因组中超级增强子区域和转录因子结合位点内存在显著的可弯曲性波动。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38375921/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38375921/",
+  "paper_page_path": "papers/pubmed/38375921/index.html"
+}

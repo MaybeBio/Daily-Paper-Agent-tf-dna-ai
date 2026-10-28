@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, experimental section, and supplementary material references.
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and support of conclusions based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors report the synthesis of four novel pyrrolyl quinone derivatives (9–12) and characterize their DNA-binding properties using UV–vis spectroscopy, gel electrophoresis, viscosity measurements, and molecular docking. They conclude that these compounds interact with DNA via an intercalative binding mode, with compounds 11 and 12 showing the strongest effects, and that the pyrrolyl quinone scaffold represents a promising platform for drug design.
+- **Visible evidence base** Synthetic procedures and characterization data for compounds 9–12; UV–vis titration data; DNA-binding constant determinations; gel electrophoresis images; viscosity data; molecular docking results; cell proliferation assay for compound 12.
+- **Missing materials affecting confidence** Raw UV–vis spectra, gel images, viscosity plots, and docking figures are referenced but not fully described in the text; supporting information tables (S1–S3) are mentioned but not provided; no error bars or statistical analyses are reported for quantitative measurements; no positive/negative controls for the cell proliferation assay are described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward synthetic and biophysical study of new pyrrolyl quinone derivatives as potential DNA-binding agents. The synthetic work appears competent, and the combination of experimental and computational methods is appropriate for the stated goal. However, several technical issues and interpretive gaps weaken the central claim of intercalative binding. The evidence is suggestive but not conclusive, and the manuscript would benefit from additional controls, quantitative rigor, and clearer presentation of data.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, chemical biology, and nucleic acid chemistry would be interested in the expansion of the pyrrolyl quinone scaffold as a DNA-targeting motif. The work may also appeal to those studying atypical intercalators and non-fused aromatic systems for therapeutic applications.
+- **Major strengths** The synthesis of four new derivatives with structural diversity is a clear contribution. The use of multiple complementary techniques (UV–vis, electrophoresis, viscosity, docking) is commendable. The docking validation with ellipticine (RMSD = 0.840 Å) is a good practice. The identification of compound 11 with the highest binding constant and strongest electrophoretic effect provides a useful structure–activity relationship.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding constant determination
+  - **Claim pointer** The intrinsic DNA-binding constants (Kb) were determined from absorbance changes at 260 nm using a Benesi-Hildebrand relationship, yielding log10(Kb) values of 4.19–4.61.
+  - **Evidence pointer** Section "Determination of the DNA Binding Constants"; Figure 3 (referenced but not shown)
+  - **Concern** The Benesi-Hildebrand method is typically applied to host–guest complexation with 1:1 stoichiometry and assumes that the ligand concentration is much greater than the binding site concentration. Here, the titrations were performed by keeping DNA constant (90 μM) and adding ligand (6.46–45.2 μM), which violates the usual assumptions of this method. The use of absorbance at 260 nm is also problematic because both DNA and the ligands absorb in this region, and the authors do not account for the DNA contribution to the absorbance. The reported Kb values may therefore be unreliable.
+  - **Why it matters** The Kb values are used to rank the compounds and to support the intercalation claim. If the values are not accurately determined, the quantitative conclusions and the comparison between compounds are not valid.
+  - **Resolution test** The authors should use a more appropriate method, such as a Scatchard analysis or a McGhee–von Hippel model, and should correct for the absorbance of DNA at 260 nm. Alternatively, they should monitor a wavelength where only the ligand absorbs and use a titration where the ligand concentration is held constant and DNA is added, as is standard for DNA-binding studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of UV–vis data
+  - **Claim pointer** All four compounds exhibit hypochromism and shifts in λmax, which the authors interpret as consistent with intercalative binding.
+  - **Evidence pointer** Section "UV–Vis Studies for PQ Derivatives-DNA Interactions"; Figure 2 (referenced but not shown)
+  - **Concern** The UV–vis data are described qualitatively, with no quantitative values for the degree of hypochromism or the magnitude of the shifts beyond the λmax changes. For compounds 9 and 10, hypsochromic shifts of 17.75 and 19.75 nm are reported, which are unusually large for intercalation and are more commonly associated with external binding or conformational changes. The authors cite methotrexate as a precedent, but this is a single example and does not establish that such large blueshifts are typical for intercalators. The overlap of the ligand and DNA absorption bands at 253 nm for compound 12 further complicates the interpretation.
+  - **Why it matters** The central claim of the manuscript is that these compounds bind via intercalation. If the UV–vis data are ambiguous or inconsistent with intercalation, the conclusion is not supported.
+  - **Resolution test** The authors should provide quantitative hypochromicity values (e.g., percent hypochromism) and should discuss the unusual hypsochromic shifts in more detail. They should also perform additional experiments, such as competitive displacement assays with ethidium bromide or DNA melting studies, to confirm the intercalative mode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of electrophoretic data
+  - **Claim pointer** Gel electrophoresis shows that compounds 9–12 induce a shift from supercoiled to relaxed plasmid DNA, consistent with intercalation.
+  - **Evidence pointer** Section "Gel Electrophoresis Studies"; Figures 4–6 (referenced but not shown); Tables S1–S3 (not provided)
+  - **Concern** The text states that quantitative analysis of band intensities is provided in the Supporting Information, but these data are not available to the reviewer. Without the actual gel images or the quantitative band intensities, it is not possible to assess the extent of the topological changes or whether the effects are concentration-dependent. The claim that compound 11 shows the most pronounced effect is based on data not visible in the manuscript.
+  - **Why it matters** The electrophoretic data are a key piece of evidence for intercalation. If the data are not presented clearly or are not quantitative, the claim is weakened.
+  - **Resolution test** The authors should include the gel images in the main text or ensure that the Supporting Information is available and clearly referenced. They should also provide a quantitative analysis of the band intensities with appropriate statistics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Docking methodology and interpretation
+  - **Claim pointer** Molecular docking shows that compounds 9–12 occupy the same intercalation site as ellipticine, with favorable binding energies.
+  - **Evidence pointer** Section "Molecular Docking Studies"; Table 1 (referenced but not shown); Figure 7 (referenced but not shown)
+  - **Concern** The docking protocol is described, but the results are not presented in the text. The binding energies are mentioned as "summarized in Table 1," but the table is not shown. The authors state that all four compounds occupy the same intercalation site as ellipticine, but no details on the docking scores, the nature of the interactions, or the structural basis for the differences between compounds are provided. The use of a single DNA structure (PDB 1Z3F) without considering sequence specificity or conformational flexibility is a limitation.
+  - **Why it matters** The docking results are used to support the experimental findings and to provide a structural rationale. Without the actual data, the computational claim is not verifiable.
+  - **Resolution test** The authors should present the docking scores and the key interactions in the main text or in a clearly accessible table. They should also discuss the limitations of the docking approach and, if possible, perform additional simulations with different DNA sequences or conformations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings (e.g., "stablishing" instead of "establishing", "the direct use of simple pyrrolyl quinones as DNA-interacting scaffolds has not been previously reported" is followed by a discussion of related systems that somewhat contradicts this claim). The writing would benefit from careful editing.
+  - **Required correction** The authors should revise the manuscript for grammar and clarity, and ensure that the novelty claim is precisely stated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental details
+  - **Affected element** UV–vis titration conditions
+  - **Evidence pointer** Section "UV–Vis Measurements"
+  - **Issue** The titration conditions are described, but the concentration of DNA in terms of base pairs is not specified. The authors state that DNA was added in the range of 0–90 μM, but it is unclear whether this refers to nucleotide or base-pair concentration. This is important for calculating binding constants.
+  - **Required correction** The authors should specify the DNA concentration units and provide the DNA concentration in base pairs or nucleotides.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Cell proliferation assay
+  - **Affected element** Section "Cell Proliferation"
+  - **Evidence pointer** Section "Cell Proliferation"
+  - **Issue** The cell proliferation assay is described only briefly, with no details on the number of replicates, the statistical analysis, or the positive/negative controls. The results are shown in a figure that is not described in the text.
+  - **Required correction** The authors should provide more details on the assay methodology and the statistical treatment of the data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** References
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** Several references are cited with superscript numbers, but the reference list is not provided in the manuscript text. This makes it difficult to verify the claims.
+  - **Required correction** The authors should ensure that the reference list is complete and accessible.
+
+## Risk / unsupported claims
+- The claim that all four compounds bind via intercalation is not fully supported by the data presented. The UV–vis shifts for compounds 9 and 10 are unusual, and the electrophoretic data are not shown.
+- The Kb values are determined using a method that may not be appropriate for the experimental conditions, and the values may be unreliable.
+- The docking results are not presented, so the computational claim is not verifiable.
+- The cell proliferation data for compound 12 are described but not shown, and the assay lacks sufficient methodological detail.
+- The statement that "the direct use of simple pyrrolyl quinones as DNA-interacting scaffolds has not been previously reported" is not fully supported, as the authors themselves cite related systems in the introduction.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or simulation details provided
+- **Shared manuscript claim summary** The authors propose a new theoretical approach based on stochastic descriptions and effective free-energy landscapes to explain why nucleosome breathing is asymmetric, argue that asymmetric breathing follows kinetically preferred pathways, and suggest that this asymmetry enables faster target search by transcription factors, with predictions supported by computer simulations and experiments.
+- **Visible evidence base** Abstract text only; no equations, simulation parameters, experimental datasets, or comparison details
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details, experimental data, figures, and supporting information are not available; assessment is limited to the abstract's claims
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially important question about the molecular origin of asymmetric nucleosome breathing. The proposed theoretical framework, based on stochastic dynamics and effective free-energy landscapes, is conceptually appealing and could offer a mechanistic explanation that is currently missing in the field. However, the abstract provides insufficient detail to evaluate the rigor, novelty, or validity of the approach. Key claims, such as the existence of kinetically preferred pathways and the functional advantage for transcription factor search, are stated without supporting quantitative evidence. The connection to experimental data is mentioned but not substantiated. While the topic is timely and the hypothesis is plausible, the current evidence base is too thin to establish the case.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, biophysics, and molecular dynamics would be interested, as the work addresses a fundamental question about nucleosome dynamics and its implications for gene regulation. Computational biophysicists and theorists studying stochastic processes in biological systems may also find the methodological approach relevant. The potential link to transcription factor search efficiency could attract investigators in gene expression and epigenetics.
+- **Major strengths** The abstract addresses a clearly defined and unresolved question in the field. The proposed theoretical framework is conceptually novel, offering a microscopic explanation for a phenomenon that has been observed experimentally but not mechanistically understood. The suggestion that asymmetric breathing is kinetically preferred and functionally advantageous provides a testable hypothesis that could unify experimental observations.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "asymmetric breathing follows the kinetically preferred pathways" and that the theoretical approach "gives microscopic explanations of asymmetric breathing."  
+  - **Evidence pointer** Abstract only; no methods or results section provided  
+  - **Concern** The abstract does not describe the stochastic model, the nature of the free-energy landscapes, or the criteria used to define "kinetically preferred pathways." Without these details, it is impossible to assess whether the model is physically realistic, whether the assumptions are justified, or whether the conclusions follow from the mathematics.  
+  - **Why it matters** The central claim of the paper rests on the validity of the theoretical framework. If the model is not rigorously derived or if the kinetic criteria are arbitrary, the explanation of asymmetry would be unsupported.  
+  - **Resolution test** Provide a clear description of the model, including the state space, transition rates, and free-energy construction, and demonstrate that the predicted asymmetric pathways emerge from the model without ad hoc assumptions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The abstract states that "theoretical predictions, supported by computer simulations, agree with experiments."  
+  - **Evidence pointer** Abstract only; no simulation or experimental data shown  
+  - **Concern** No quantitative comparison is provided between theory, simulations, and experiments. It is unclear what specific experimental data are used, what metrics are compared, and whether the agreement is qualitative or quantitative.  
+  - **Why it matters** Agreement with experiments is a key validation of the model. Without details, the claim of agreement cannot be evaluated, and the reader cannot judge the reliability of the predictions.  
+  - **Resolution test** Present a figure or table showing direct comparison of theoretical predictions, simulation results, and experimental measurements, with clear statistical measures of agreement.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims that "asymmetric breathing leads to a faster target search by transcription factors" and that "nature utilizes the symmetry of nucleosome breathing to achieve a better dynamic accessibility of chromatin."  
+  - **Evidence pointer** Abstract only; no supporting analysis provided  
+  - **Concern** The functional implication for transcription factor search is stated as a finding, but no model or data are presented to support this claim. The link between asymmetric breathing and search efficiency is plausible but not demonstrated.  
+  - **Why it matters** This claim elevates the significance of the work beyond a mechanistic explanation to a functional role in gene regulation. If not supported, it overstates the implications of the findings.  
+  - **Resolution test** Provide a separate analysis or simulation that explicitly models transcription factor search on a nucleosomal template and shows that asymmetric breathing accelerates search relative to symmetric breathing.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "symmetric" and "asymmetric" breathing  
+  - **Evidence pointer** Abstract, first two sentences  
+  - **Issue** The abstract defines symmetric breathing as unwrapping from both ends but does not clarify whether asymmetric breathing means unwrapping from only one end at a time or a preference for one end over time.  
+  - **Required correction** Provide a precise operational definition of asymmetric breathing in the context of the model.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract, "supported by computer simulations"  
+  - **Issue** No information is given about the simulation method, parameters, or system size, which limits reproducibility.  
+  - **Required correction** Include a brief description of the simulation approach and key parameters in the main text or methods.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Terminology "effective free-energy landscapes"  
+  - **Evidence pointer** Abstract, third sentence  
+  - **Issue** The term is introduced without explanation, which may confuse nonspecialist readers.  
+  - **Required correction** Define what is meant by effective free-energy landscapes and how they are constructed from the stochastic description.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The theoretical model must be fully described and validated, and the claimed agreement with experiments must be demonstrated with quantitative data. Without these, the core explanation of asymmetric breathing is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel theoretical approach to a known experimental phenomenon, which is potentially original. However, the novelty cannot be fully assessed without seeing the model details and how it differs from existing theoretical treatments of nucleosome dynamics.  
+  - **Scientific importance** The question of why nucleosome breathing is asymmetric is important for understanding chromatin dynamics and gene regulation. The proposed functional link to transcription factor search adds significance, but this claim is not yet supported.  
+  - **Interdisciplinary readership** The topic bridges biophysics, molecular biology, and computational biology, and the abstract is written in a way that is broadly accessible. However, the lack of technical detail may limit engagement from specialists.  
+  - **Technical soundness** Cannot be evaluated from the abstract alone. The absence of model equations, simulation methods, and experimental comparisons prevents any judgment of technical rigor.  
+  - **Readability for nonspecialists** The abstract is clear and concise, with minimal jargon, making it accessible to a broad audience. The main ideas are communicated effectively, though some terms could be better defined.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of methodological detail and quantitative validation means the case is not made. I would be supportive if the full manuscript provides a rigorous model description, simulation details, and direct comparison with experimental data.
+
+## Risk / unsupported claims
+- The claim that "asymmetric breathing follows the kinetically preferred pathways" is unsupported without model details.
+- The claim that "theoretical predictions, supported by computer simulations, agree with experiments" is unsupported without quantitative comparisons.
+- The claim that "asymmetric breathing leads to a faster target search by transcription factors" is unsupported without a dedicated analysis.
+- The proposal that "nature utilizes the symmetry of nucleosome breathing to achieve a better dynamic accessibility" is speculative and not backed by evidence in the abstract.

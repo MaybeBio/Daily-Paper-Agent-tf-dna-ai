@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "41822387",
+    "doi": "10.3389/fmolb.2026.1756851",
+    "title": "Identification of core genes and transcription factors related to metabolic reprogramming in atherosclerosis: a multi-omics analysis and experimental validation approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerosis (AS) is a chronic inflammatory disease driven significantly by metabolic reprogramming (MR). However, the core MR-related genes and their specific functions in AS remain incompletely understood, thus creating an urgent need for reliable diagnostic and therapeutic biomarkers. METHODS: Two AS-related microarray datasets (GSE100927 and GSE28829) were integrated and normalized. Differential expression analysis identified differentially expressed genes (DEGs), which were intersected with an MR-related gene set to obtain MR-related DEGs (MRDEGs). Functional enrichment analyses-including Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses-were conducted. Subsequently, weighted gene co-expression network analysis (WGCNA) was combined with multiple machine learning algorithms to screen for hub genes. These candidate genes were further validated using an external dataset (GSE43292) and evaluated via receiver operating characteristic (ROC) curve analysis. Additionally, a multi-gene diagnostic model was constructed and assessed using both nomogram and SHAP analysis. Single-gene Gene Set Enrichment Analysis (GSEA) elucidated the biological functions of core genes. Immune infiltration and single-cell analyses investigated microenvironment remodeling. Moreover, transcription factor (TF) prediction via hTFtarget, integrated with transcriptome sequencing of human umbilical vein endothelial cells (HUVECs), identify upstream regulators. Finally, Experimental validation was performed in ApoE(-/-) mice. RESULTS: We identified 57 MRDEGs and selected four core genes-LYN, FABP5, MMP9, and ANPEP-which demonstrated high diagnostic value. The multi-gene model showed strong clinical predictive performance. GSEA further revealed significant involvement of these genes in immune-inflammatory pathways. Immune infiltration and single-cell analyses confirmed substantial immune microenvironment remodeling and altered cell-cell communication. EGR1 was identified as a key upstream transcription factor. Ultimately, Experimental validation in ApoE(-/-) mice confirmed marked upregulation of all four core genes at mRNA and protein levels, with EGR1 also showing significantly elevated protein expression. CONCLUSION: This study identifies LYN, FABP5, MMP9, and ANPEP as core MR-related genes in AS, clarifies their roles in immune microenvironment regulation, and confirms their value as diagnostic biomarkers, thereby providing new insights for precise diagnosis and targeted therapy of AS.",
+    "keywords": [
+      "Atherosclerosis",
+      "bioinformatics",
+      "machine learning algorithms",
+      "metabolic reprogramming",
+      "multi-omics analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yanhong",
+        "Ma, Yirong",
+        "Song, Zhijian",
+        "Lai, Junyu",
+        "Huang, Yingying",
+        "Ding, Doukun",
+        "Fan, Zengguang",
+        "Wu, Jianguang"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Ma Y",
+        "Song Z",
+        "Lai J",
+        "Huang Y",
+        "Ding D",
+        "Fan Z",
+        "Wu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yanhong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yirong",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zhijian",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Junyu",
+        "short_name": "Lai J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yingying",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Doukun",
+        "short_name": "Ding D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Postgraduate, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zengguang",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jianguang",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 06:52",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40660002",
+      "39188527",
+      "39041203",
+      "38975335",
+      "38385291",
+      "38273998",
+      "38137358",
+      "38091232",
+      "37677929",
+      "37062929",
+      "36826550",
+      "36562301",
+      "35743980",
+      "35328769",
+      "33883728",
+      "33597522",
+      "33407885",
+      "33237278",
+      "32962412",
+      "32891480",
+      "32316875",
+      "32290181",
+      "31992061",
+      "31229835",
+      "31148343",
+      "30905179",
+      "30285099",
+      "30172754",
+      "29608179",
+      "29562241",
+      "29500419",
+      "29310800",
+      "28413029",
+      "28303004",
+      "26892967",
+      "24903093",
+      "23660665",
+      "22388324",
+      "22238271",
+      "22121495",
+      "21492859",
+      "21474828",
+      "20920650",
+      "19114008",
+      "18603624",
+      "18603472",
+      "18511927",
+      "17008586",
+      "16950138",
+      "16405877",
+      "14699114",
+      "12057982",
+      "11168595",
+      "10712437"
+    ],
+    "similar": [
+      "41822387",
+      "41895505",
+      "40916281",
+      "40406620",
+      "42123445",
+      "42597971",
+      "41044520",
+      "41388523",
+      "41591671",
+      "42348043",
+      "41879435",
+      "41200172",
+      "40901474",
+      "41146237",
+      "41358199",
+      "39805933",
+      "42233387",
+      "39403102",
+      "40950408",
+      "41479901",
+      "42510870",
+      "39588003",
+      "41665627",
+      "41415264",
+      "42338983",
+      "42327749",
+      "40374840",
+      "41703488",
+      "42092981",
+      "41436831",
+      "39713769",
+      "41940395",
+      "41052072",
+      "39396400",
+      "41970276",
+      "41611834",
+      "42292668",
+      "40967560",
+      "40406126",
+      "39375405",
+      "42583273",
+      "40642528",
+      "37659036",
+      "42083957",
+      "38571624",
+      "42449128",
+      "40630623",
+      "40500570",
+      "42072050",
+      "42195052",
+      "42236612",
+      "39142001",
+      "41432483",
+      "36316672",
+      "41508240",
+      "40836320",
+      "42326009",
+      "42313235",
+      "38274270",
+      "40821971",
+      "35958412",
+      "41191606",
+      "40597456",
+      "38384969",
+      "40532306",
+      "42254657",
+      "41500779",
+      "42377012",
+      "41120603",
+      "41246341",
+      "40842856",
+      "42164373",
+      "41837135",
+      "42051519",
+      "39697749",
+      "39586719",
+      "41789070",
+      "41257259",
+      "38867322",
+      "39145311",
+      "40055592",
+      "41424060",
+      "36532015",
+      "40097519",
+      "38951833",
+      "38899746",
+      "42274933",
+      "41872824",
+      "41816328",
+      "41907204",
+      "41143248",
+      "40628511",
+      "37008314",
+      "41013556",
+      "40078458",
+      "42303913",
+      "42363518",
+      "40360670",
+      "41948344",
+      "39351239"
+    ],
+    "review": [
+      "41822387",
+      "41665627"
+    ],
+    "pmc": [
+      "12975476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41822387/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2026.1756851",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

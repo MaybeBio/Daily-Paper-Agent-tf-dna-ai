@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a molecular docking study of nine food additives (flavor enhancers, preservatives, sweeteners) against ATM, p53, and DNA, aiming to explain how these additives cause chromosomal abnormalities. They report highest binding affinities for SB to ATM, XYL to p53, and XYL to DNA, and subsequent flexible docking (IFD) for SB, XYL, and MDG.
+- **Visible evidence base** Abstract text only; no docking scores beyond those cited, no methodological details, no structural validation data, no statistical or error analysis
+- **Missing materials affecting confidence** Full methods, docking score tables, figures of binding poses, validation of docking protocols, target structure preparation details, ligand preparation details, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but preliminary computational study. The central claim that molecular docking reveals how these additives cause chromosomal abnormalities is not established from the provided evidence. The abstract lacks critical methodological detail, validation, and a clear link between docking affinity and biological mechanism. The work may be of interest to computational toxicologists, but the current evidence base is insufficient to support the mechanistic conclusions.
+- **Who would be interested in the results, and why** Computational toxicologists and food safety researchers interested in predicting genotoxic potential of food additives. The study could also appeal to those studying ATM/p53-mediated DNA damage responses. However, without experimental validation, the practical utility for regulatory or risk assessment purposes is limited.
+- **Major strengths** The study addresses a relevant public health topic, namely the genotoxic potential of commonly used food additives. The choice of targets (ATM, p53, DNA) is biologically justified given their roles in DNA damage response. The use of both standard and flexible docking is a reasonable approach to explore binding interactions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that molecular docking determined "the potential binding modes of the food additives to target molecules' possible inhibition mechanisms" and that this shows "how these additives cause chromosomal abnormalities."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no methodological details on docking software, scoring functions, target structure sources, ligand preparation, or validation of the docking protocol. Without this, the reported binding affinities cannot be assessed for reliability. Moreover, the leap from in silico binding affinity to a mechanistic explanation of chromosomal abnormalities is unsupported. Docking scores alone do not demonstrate inhibition, functional impact, or causality.  
+  - **Why it matters** The core conclusion of the manuscript rests on the assumption that binding affinity correlates with biological effect. This assumption is not justified in the abstract and is often unreliable without experimental validation. If the mechanistic claim is the main contribution, the evidence is currently inadequate.  
+  - **Resolution test** Provide full docking methodology, include validation of the docking protocol (e.g., redocking with known ligands, RMSD values), and either provide experimental data (e.g., in vitro assays showing ATM/p53 activation or DNA damage) or explicitly reframe the conclusions as predictive and hypothesis-generating rather than mechanistic.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that "new information was obtained to show how these additives cause chromosomal abnormalities."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not explain how the docking results connect to chromosomal abnormalities. No pathway, no dose-response, no comparison with known genotoxic mechanisms, and no discussion of whether the binding affinities are physiologically relevant. The claim of new information is therefore not substantiated.  
+  - **Why it matters** The stated novelty and significance of the work depend on this mechanistic link. Without it, the study is a descriptive docking exercise with limited scientific impact.  
+  - **Resolution test** Clarify the proposed mechanism linking binding to chromosomal abnormalities, and provide either supporting literature or experimental evidence that the identified interactions lead to genotoxic outcomes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract implies relevance to toxicology and food safety, but the presentation is highly technical without context for nonspecialists.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract assumes familiarity with docking scores and IFD without explaining their meaning or significance. A reader from a broader toxicology or regulatory background may not be able to interpret the results.  
+  - **Why it matters** For a journal like Toxicology, the readership includes experimental toxicologists who may not be computational experts. The abstract should make the relevance and interpretation of docking results accessible.  
+  - **Resolution test** Add a brief explanation of what docking scores mean, what constitutes a "high" affinity in this context, and why the selected targets are relevant to genotoxicity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract lists nine additives but only reports scores for three (SB, XYL, MDG). The criteria for selecting these for further analysis are not stated.  
+  - **Required correction** State the selection criteria for IFD analysis, or clarify that only the highest-affinity compounds were pursued.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify the units or meaning of the docking scores (e.g., kcal/mol) or whether more negative values indicate stronger binding.  
+  - **Required correction** Include units and a brief statement on score interpretation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention any comparison with known genotoxic mechanisms or existing literature on these additives, which would help contextualize the findings.  
+  - **Required correction** Add a sentence situating the results within prior genotoxicity studies of these additives.
+
+## Risk / unsupported claims
+- The claim that docking results show "how these additives cause chromosomal abnormalities" is unsupported by the abstract evidence.
+- The claim that the study provides "new information" on mechanisms is not substantiated without experimental or literature-based corroboration.
+- The reported binding affinities are not assessable for reliability due to missing methodological details.
+- The biological relevance of the docking scores is not established.

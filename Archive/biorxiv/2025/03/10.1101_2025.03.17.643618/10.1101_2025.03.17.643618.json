@@ -1,0 +1,142 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.17.643618",
+  "title": "Deep Learning-Based High-Resolution Time Inference for Deciphering Dynamic Gene Regulation from Fixed Embryos",
+  "doi": "10.1101/2025.03.17.643618",
+  "abstract": "Embryo development is driven by the spatiotemporal dynamics of complex gene regulatory networks. Uncovering these dynamics requires simultaneous tracking of multiple fluctuating molecular species over time, which exceeds the capabilities of traditional live-imaging approaches. Fixed-embryo imaging offers the necessary sensitivity and capacity but lacks temporal resolution. Here, we present a multi-scale ensemble deep learning approach to precisely infer absolute developmental time with 1-minute resolution from nuclear morphology in fixed Drosophila embryo images. Applying this approach to quantitative imaging of fixed wild-type embryos, we resolve the spatiotemporal regulation of the endogenous segmentation gene Krüppel ( Kr ) by multiple transcription factors (TFs) during early development without genetic modification. Integrating a time-resolved theoretical model of single-molecule mRNA statistics, we further uncover the unsteady-state bursty kinetics of the endogenous segmentation gene, hunchback ( hb ), driven by dynamic TF binding. Our method provides a versatile framework for deciphering complex gene network dynamics in genetically unmodified organisms.",
+  "authors": [
+    "Bao H",
+    "Zhang S",
+    "Yu Z",
+    "Xu H"
+  ],
+  "published_date": "2025-03-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643618",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643618.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR990806",
+    "raw_record": {
+      "id": "PPR990806",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.17.643618",
+      "title": "Deep Learning-Based High-Resolution Time Inference for Deciphering Dynamic Gene Regulation from Fixed Embryos",
+      "authorString": "Bao H, Zhang S, Yu Z, Xu H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bao H",
+            "lastName": "Bao",
+            "firstName": "Huihan",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Shihe",
+            "initials": "S"
+          },
+          {
+            "fullName": "Yu Z",
+            "lastName": "Yu",
+            "firstName": "Zhiyang",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Xu H",
+            "lastName": "Xu",
+            "firstName": "Heng",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3717-0412"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3717-0412"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Embryo development is driven by the spatiotemporal dynamics of complex gene regulatory networks. Uncovering these dynamics requires simultaneous tracking of multiple fluctuating molecular species over time, which exceeds the capabilities of traditional live-imaging approaches. Fixed-embryo imaging offers the necessary sensitivity and capacity but lacks temporal resolution. Here, we present a multi-scale ensemble deep learning approach to precisely infer absolute developmental time with 1-minute resolution from nuclear morphology in fixed  Drosophila embryo images. Applying this approach to quantitative imaging of fixed wild-type embryos, we resolve the spatiotemporal regulation of the endogenous segmentation gene  Krüppel (  Kr ) by multiple transcription factors (TFs) during early development without genetic modification. Integrating a time-resolved theoretical model of single-molecule mRNA statistics, we further uncover the unsteady-state bursty kinetics of the endogenous segmentation gene,  hunchback (  hb ), driven by dynamic TF binding. Our method provides a versatile framework for deciphering complex gene network dynamics in genetically unmodified organisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.03.17.643618"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.17.643618"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40670357",
+            "reference": "Nature communications. 2025 Jul;16(1):6565",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-20",
+      "firstPublicationDate": "2025-03-17",
+      "firstIndexDate": "2025-03-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

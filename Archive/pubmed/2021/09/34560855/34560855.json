@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "34560855",
+    "doi": "10.1186/s12915-021-01140-y",
+    "title": "Large-scale data analysis for robotic yeast one-hybrid platforms and multi-disciplinary studies using GateMultiplex."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Yeast one-hybrid (Y1H) is a common technique for identifying DNA-protein interactions, and robotic platforms have been developed for high-throughput analyses to unravel the gene regulatory networks in many organisms. Use of these high-throughput techniques has led to the generation of increasingly large datasets, and several software packages have been developed to analyze such data. We previously established the currently most efficient Y1H system, meiosis-directed Y1H; however, the available software tools were not designed for processing the additional parameters suggested by meiosis-directed Y1H to avoid false positives and required programming skills for operation. RESULTS: We developed a new tool named GateMultiplex with high computing performance using C++. GateMultiplex incorporated a graphical user interface (GUI), which allows the operation without any programming skills. Flexible parameter options were designed for multiple experimental purposes to enable the application of GateMultiplex even beyond Y1H platforms. We further demonstrated the data analysis from other three fields using GateMultiplex, the identification of lead compounds in preclinical cancer drug discovery, the crop line selection in precision agriculture, and the ocean pollution detection from deep-sea fishery. CONCLUSIONS: The user-friendly GUI, fast C++ computing speed, flexible parameter setting, and applicability of GateMultiplex facilitate the feasibility of large-scale data analysis in life science fields.",
+    "keywords": [
+      "C++",
+      "Deep-sea fishery",
+      "Precision agriculture",
+      "Preclinical drug discovery",
+      "Yeast one-hybrid"
+    ],
+    "mesh_terms": [
+      "Data Analysis",
+      "Gene Regulatory Networks",
+      "Robotics",
+      "*Saccharomyces cerevisiae/genetics",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tsai, Ni-Chiao",
+        "Hsu, Tzu-Shu",
+        "Kuo, Shang-Che",
+        "Kao, Chung-Ting",
+        "Hung, Tzu-Huan",
+        "Lin, Da-Gin",
+        "Yeh, Chung-Shu",
+        "Chu, Chia-Chen",
+        "Lin, Jeng-Shane",
+        "Lin, Hsin-Hung",
+        "Ko, Chia-Ying",
+        "Chang, Tien-Hsien",
+        "Su, Jung-Chen",
+        "Lin, Ying-Chung Jimmy"
+      ],
+      "short_names": [
+        "Tsai NC",
+        "Hsu TS",
+        "Kuo SC",
+        "Kao CT",
+        "Hung TH",
+        "Lin DG",
+        "Yeh CS",
+        "Chu CC",
+        "Lin JS",
+        "Lin HH",
+        "Ko CY",
+        "Chang TH",
+        "Su JC",
+        "Lin YJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7120-4690"
+      ],
+      "affiliations": [
+        "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan.",
+        "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan.",
+        "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan.",
+        "Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei, 10617, Taiwan.",
+        "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan.",
+        "Biotechnology Division, Taiwan Agricultural Research Institute, Taichung, 41362, Taiwan.",
+        "Biotechnology Division, Taiwan Agricultural Research Institute, Taichung, 41362, Taiwan.",
+        "Genomics Research Center, Academia Sinica, Taipei, 11529, Taiwan.",
+        "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan.",
+        "Department of Life Sciences, National Chung Hsing University, Taichung, 40227, Taiwan.",
+        "Department of Horticulture and Biotechnology, Chinese Culture University, Taipei, 11114, Taiwan.",
+        "Department of Life Sciences and Institute of Fisheries Science, National Taiwan University, Taipei, 10617, Taiwan.",
+        "Genomics Research Center, Academia Sinica, Taipei, 11529, Taiwan. chang108@gate.sinica.edu.tw.",
+        "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan. jcsu@nycu.edu.tw.",
+        "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan. ycjimmylin@ntu.edu.tw.",
+        "Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei, 10617, Taiwan. ycjimmylin@ntu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tsai, Ni-Chiao",
+        "short_name": "Tsai NC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsu, Tzu-Shu",
+        "short_name": "Hsu TS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kuo, Shang-Che",
+        "short_name": "Kuo SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan.",
+          "Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei, 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kao, Chung-Ting",
+        "short_name": "Kao CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hung, Tzu-Huan",
+        "short_name": "Hung TH",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Division, Taiwan Agricultural Research Institute, Taichung, 41362, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Da-Gin",
+        "short_name": "Lin DG",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Division, Taiwan Agricultural Research Institute, Taichung, 41362, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yeh, Chung-Shu",
+        "short_name": "Yeh CS",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics Research Center, Academia Sinica, Taipei, 11529, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chu, Chia-Chen",
+        "short_name": "Chu CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Jeng-Shane",
+        "short_name": "Lin JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, National Chung Hsing University, Taichung, 40227, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Hsin-Hung",
+        "short_name": "Lin HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Biotechnology, Chinese Culture University, Taipei, 11114, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Ko, Chia-Ying",
+        "short_name": "Ko CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Institute of Fisheries Science, National Taiwan University, Taipei, 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Tien-Hsien",
+        "short_name": "Chang TH",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics Research Center, Academia Sinica, Taipei, 11529, Taiwan. chang108@gate.sinica.edu.tw."
+        ]
+      },
+      {
+        "full_name": "Su, Jung-Chen",
+        "short_name": "Su JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, National Yang Ming Chiao Tung University, Taipei, 11221, Taiwan. jcsu@nycu.edu.tw."
+        ]
+      },
+      {
+        "full_name": "Lin, Ying-Chung Jimmy",
+        "short_name": "Lin YJ",
+        "identifiers": [
+          "0000-0001-7120-4690"
+        ],
+        "affiliations": [
+          "Department of Life Science and Institute of Plant Biology, College of Life Science, National Taiwan University, Taipei, 10617, Taiwan. ycjimmylin@ntu.edu.tw.",
+          "Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei, 10617, Taiwan. ycjimmylin@ntu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC biology"
+    ],
+    "journal_abbrev": [
+      "BMC Biol"
+    ],
+    "pub_date": "2021 Sep 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/26 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34366578",
+      "33588103",
+      "33536485",
+      "33290960",
+      "32943464",
+      "32926747",
+      "32807947",
+      "31550555",
+      "31426235",
+      "31186303",
+      "31159721",
+      "31113359",
+      "31095908",
+      "30755461",
+      "30538157",
+      "30356219",
+      "30261753",
+      "30172841",
+      "30149790",
+      "29472481",
+      "28599651",
+      "28205527",
+      "27871810",
+      "26835678",
+      "26792836",
+      "26428484",
+      "26276637",
+      "26099924",
+      "25910213",
+      "25822370",
+      "25533953",
+      "24828052",
+      "24280390",
+      "23439110",
+      "23326347",
+      "23112316",
+      "22960909",
+      "22135419",
+      "22037706",
+      "22037705",
+      "22037703",
+      "21964422",
+      "21575658",
+      "21173034",
+      "21091654",
+      "20007865",
+      "19895345",
+      "19430758",
+      "19160513",
+      "18660458",
+      "18251993",
+      "16777607",
+      "16445349",
+      "12186655"
+    ],
+    "similar": [
+      "34560855",
+      "31186303",
+      "23496976",
+      "29855956",
+      "31974098",
+      "22037705",
+      "29855957",
+      "30576311",
+      "28623579",
+      "28439865",
+      "22245546",
+      "23185323",
+      "29534677",
+      "36427139",
+      "26758513",
+      "15489331",
+      "29855955",
+      "36691483",
+      "22647087",
+      "26163265",
+      "30742367",
+      "28330138",
+      "29302838",
+      "27557765",
+      "31648100",
+      "32393166",
+      "29855954",
+      "29621972",
+      "29967274",
+      "32742251",
+      "34788802",
+      "21527030",
+      "22430798",
+      "27143038",
+      "30102702",
+      "35123390",
+      "12853624",
+      "33403122",
+      "24564491",
+      "20172945",
+      "30165777",
+      "24428926",
+      "37142946",
+      "12824351",
+      "31985403",
+      "33459255",
+      "24408512",
+      "17176458",
+      "19254356",
+      "30782112",
+      "32522662",
+      "30428831",
+      "29432475",
+      "28985361",
+      "24712852",
+      "33926480",
+      "25046278",
+      "22348508",
+      "25550709",
+      "23217191",
+      "34955721",
+      "24593312",
+      "23024288",
+      "19109877",
+      "16806892",
+      "25381290",
+      "27934684",
+      "37235796",
+      "24305553",
+      "30010636",
+      "21863492",
+      "17172747",
+      "35867230",
+      "24927834",
+      "21414234",
+      "30799854",
+      "19828039",
+      "26030796",
+      "33462440",
+      "32430035",
+      "36476060",
+      "27712582",
+      "28319150",
+      "26498454",
+      "29401212",
+      "22692220",
+      "9504804",
+      "18380896",
+      "33527735",
+      "33346083",
+      "32660416",
+      "33573289"
+    ],
+    "review": [
+      "34560855",
+      "16806892"
+    ],
+    "pmc": [
+      "8461970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01140-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34560855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34560855",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

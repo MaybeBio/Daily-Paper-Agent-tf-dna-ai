@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39242688",
+  "title": "On discovery of novel hub genes for ER+ and TN breast cancer types through RNA seq data analyses and classification models.",
+  "authors": "Saddiqa, Alishbah; Zakir, Mahrukh; Sheikh, Mawara; Muneer, Zahid; Hassan, Arsalan; Ali, Iqra; Haq, Ihtisham Ul; Khan, Azmat Ali; Malik, Abdul; Siddiqi, Abdul Rauf",
+  "journal": "Scientific reports",
+  "published_date": "2024-09-07",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过RNA-seq和机器学习分类乳腺癌亚型并筛选hub基因，但无蛋白质-DNA互作体系、无结合建模，仅属纯表达分析与分类应用，与本课题无关。",
+  "abstract": "Breast cancer (BC) is a malignant neoplasm which is classified into various types defined by underlying molecular factors such as estrogen receptor positive (ER+), progesterone receptor positive (PR+), human epidermal growth factor positive (HER2+) and triple negative (TNBC). Early detection of ER+ and TNBC is crucial in the choice of diagnosis and appropriate treatment strategy. Here we report the key genes associated to ER+ and TNBC using RNA-Seq analysis and machine learning models. Three ER+ and TNBC RNA seq datasets comprising 164 patients in-toto were selected for standard NGS hierarchical data processing and data analyses protocols. Enrichment pathway analysis and network analysis was done and finally top hub genes were identified. To come with a reliable classifier which could distinguish the distinct transcriptome patterns associated to ER+ and TNBC, ML models were built employing Naive Bayes, SVM and kNN. 1730 common DEG's exhibiting significant logFC values with 0.05 p-value threshold were identified. A list of top ten hub genes were screened on the basis of maximal clique centrality (MCC) which included CDC20, CDK1, BUB1, AURKA, CDCA8, RRM2, TTK, CENPF, CEP55 and NDC80.These genes were found to be involved in crucial cell cycle pathways. k-Nearest Neighbor (kNN) model was observed to be best classifier with accuracy 84%, specificity 66% and sensitivity 95% to differentiate between ER+ and TNBC RNA-Seq transcriptomes. Our screened list of 10 hub genes can thus help unearth novel molecular signatures implicated in ER+ and TNBC onset, prognosis and design of novel protocols for breast cancer diagnostics and therapeutics.",
+  "abstract_zh": "乳腺癌（BC）是一种恶性肿瘤，根据潜在的分子因素被分类为多种类型，如雌激素受体阳性（ER+）、孕激素受体阳性（PR+）、人表皮生长因子受体阳性（HER2+）和三阴性（TNBC）。早期检测ER+和TNBC对于选择诊断方法和适当的治疗策略至关重要。在此，我们利用RNA-Seq分析和机器学习模型报告了与ER+和TNBC相关的关键基因。选取了三个包含164名患者的ER+和TNBC RNA-seq数据集，进行标准的NGS分层数据处理和数据分析流程。进行了富集通路分析和网络分析，最终确定了核心枢纽基因。为了构建一个可靠的分类器，能够区分与ER+和TNBC相关的不同转录组模式，我们采用了朴素贝叶斯、支持向量机（SVM）和k近邻（kNN）构建了机器学习模型。共鉴定出1730个共同差异表达基因（DEGs），其logFC值显著，p值阈值设为0.05。基于最大团中心性（MCC）筛选出前十位枢纽基因列表，包括CDC20、CDK1、BUB1、AURKA、CDCA8、RRM2、TTK、CENPF、CEP55和NDC80。这些基因被发现参与关键的细胞周期通路。观察到k近邻（kNN）模型是区分ER+和TNBC RNA-Seq转录组的最佳分类器，准确率为84%，特异性为66%，敏感性为95%。因此，我们筛选出的10个枢纽基因列表有助于揭示与ER+和TNBC发病、预后相关的新型分子特征，并为乳腺癌诊断和治疗设计新方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39242688/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39242688/",
+  "paper_page_path": "papers/pubmed/39242688/index.html"
+}

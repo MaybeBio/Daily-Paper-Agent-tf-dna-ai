@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40201978",
+  "title": "FT-GNN Tool for Bridging HRMS Features and Bioactivity: Uncovering Unidentified Estrogen Receptor Agonists in Sewage.",
+  "authors": "Fan, Fan; Liu, Fu; Yu, Qingmiao; Yi, Ran; Ren, Hongqiang; Geng, Jinju",
+  "journal": "Environmental science & technology",
+  "published_date": "2025-04-09",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用基于碎片化树的图神经网络预测污水中雌激素受体激动剂生物活性，虽涉及蛋白-配体（ER）结合预测，但对象为小分子-受体而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上GNN可迁移，故相关性低。",
+  "abstract": "Identifying primary estrogen receptor (ER) agonists in municipal sewage is essential for ensuring the health of aquatic environments. Given the complex and variable chemical composition of sewage, the predominant ER agonists remain unclear. High-resolution mass spectrometry (HRMS)-based models have been developed to predict compound bioactivity in complex matrices, but further optimization is needed to effectively bridge HRMS features with ER agonists. To address this challenge, an FT-GNN (fragmentation tree-based graph neural network) model was proposed. Given limited data and class imbalance, data augmentation was performed using model predictions within the applicability domain (AD) and oversampling technique (OTE). Model development results demonstrated that integrating the FT-GNN with data augmentation improved the balanced accuracy (bACC) value by 6%-31%. The developed model, with a high bACC to identify more true ER agonists, efficiently classified tens of thousands of unidentified HRMS features in sewage, reducing postprocessing workload in nontargeted screening. Analysis of ER agonist transformation during sewage treatment revealed the anaerobic stage as key to both their removal and formation. Estrogenic effect balance analysis suggests that alpha-E2 and 9,11-didehydroestriol may be two previously overlooked key ER agonists. Collectively, the development and application of the FT-GNN model are crucial advancements toward credible tracking and efficient control of estrogenic risks in water.",
+  "abstract_zh": "识别城市污水中主要的雌激素受体（ER）激动剂对于确保水生环境健康至关重要。鉴于污水化学成分复杂多变，主要的ER激动剂仍不明确。基于高分辨率质谱（HRMS）的模型已被开发用于预测复杂基质中化合物的生物活性，但需进一步优化以有效桥接HRMS特征与ER激动剂。为应对这一挑战，提出了一种基于碎片树图神经网络（FT-GNN）模型。鉴于数据有限且类别不平衡，通过在适用域（AD）内使用模型预测和过采样技术（OTE）进行了数据增强。模型开发结果表明，将FT-GNN与数据增强相结合，将平衡准确率（bACC）值提高了6%-31%。所开发的模型具有较高的bACC，能够识别更多真实的ER激动剂，高效分类污水中数万个未识别的HRMS特征，减少了非靶向筛查中的后处理工作量。对污水处理过程中ER激动剂转化的分析揭示，厌氧阶段是其去除和形成的关键环节。雌激素效应平衡分析表明，α-E2和9,11-二脱氢雌三醇可能是两个先前被忽视的关键ER激动剂。总体而言，FT-GNN模型的开发和应用是朝着可信追踪和有效控制水中雌激素风险迈出的关键进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40201978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40201978/",
+  "paper_page_path": "papers/pubmed/40201978/index.html"
+}

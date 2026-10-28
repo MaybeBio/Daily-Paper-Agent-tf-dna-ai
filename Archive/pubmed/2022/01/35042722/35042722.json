@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "35042722",
+    "doi": "10.1101/gr.275394.121",
+    "title": "Domain-adaptive neural networks improve cross-species prediction of transcription factor binding."
+  },
+  "content": {
+    "abstract": "The intrinsic DNA sequence preferences and cell type-specific cooperative partners of transcription factors (TFs) are typically highly conserved. Hence, despite the rapid evolutionary turnover of individual TF binding sites, predictive sequence models of cell type-specific genomic occupancy of a TF in one species should generalize to closely matched cell types in a related species. To assess the viability of cross-species TF binding prediction, we train neural networks to discriminate ChIP-seq peak locations from genomic background and evaluate their performance within and across species. Cross-species predictive performance is consistently worse than within-species performance, which we show is caused in part by species-specific repeats. To account for this domain shift, we use an augmented network architecture to automatically discourage learning of training species-specific sequence features. This domain adaptation approach corrects for prediction errors on species-specific repeats and improves overall cross-species model performance. Our results show that cross-species TF binding prediction is feasible when models account for domain shifts driven by species-specific repeats.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Computational Biology/methods",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cochran, Kelly",
+        "Srivastava, Divyanshi",
+        "Shrikumar, Avanti",
+        "Balsubramani, Akshay",
+        "Hardison, Ross C",
+        "Kundaje, Anshul",
+        "Mahony, Shaun"
+      ],
+      "short_names": [
+        "Cochran K",
+        "Srivastava D",
+        "Shrikumar A",
+        "Balsubramani A",
+        "Hardison RC",
+        "Kundaje A",
+        "Mahony S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5481-2344",
+        "ORCID: 0000-0002-6580-6166",
+        "ORCID: 0000-0003-4084-7516",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0002-2641-1807"
+      ],
+      "affiliations": [
+        "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, USA.",
+        "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, California 94305, USA.",
+        "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, California 94305, USA.",
+        "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cochran, Kelly",
+        "short_name": "Cochran K",
+        "identifiers": [
+          "0000-0001-5481-2344"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+          "Department of Computer Science, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Divyanshi",
+        "short_name": "Srivastava D",
+        "identifiers": [
+          "0000-0002-6580-6166"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Shrikumar, Avanti",
+        "short_name": "Shrikumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Balsubramani, Akshay",
+        "short_name": "Balsubramani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Hardison, Ross C",
+        "short_name": "Hardison RC",
+        "identifiers": [
+          "0000-0003-4084-7516"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, California 94305, USA.",
+          "Department of Genetics, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [
+          "0000-0002-2641-1807"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/20 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42045261",
+      "42008668",
+      "41984952",
+      "41279220",
+      "41277691",
+      "41125441",
+      "41063341",
+      "40962325",
+      "40501927",
+      "40462903",
+      "40411397",
+      "39974895",
+      "39085231",
+      "39076052",
+      "38658544",
+      "37934781",
+      "37524935",
+      "37418376",
+      "37173718",
+      "37063486",
+      "36695505",
+      "35769139",
+      "35576146",
+      "35529103"
+    ],
+    "refs": [
+      "34608324",
+      "33983921",
+      "33603233",
+      "33413545",
+      "33046897",
+      "32687525",
+      "31759822",
+      "31639474",
+      "31249361",
+      "30922998",
+      "30289877",
+      "30286077",
+      "30169659",
+      "29588361",
+      "29049320",
+      "27153584",
+      "27084946",
+      "26923725",
+      "26766440",
+      "26355004",
+      "26213851",
+      "25765714",
+      "25693563",
+      "25409824",
+      "25319995",
+      "25129887",
+      "25033408",
+      "24675637",
+      "24243859",
+      "23974199",
+      "23932714",
+      "23717578",
+      "22955616",
+      "22550342",
+      "22388286",
+      "21795385",
+      "21571218",
+      "21486936",
+      "21410980",
+      "20887899",
+      "20378774",
+      "19736561",
+      "18682548",
+      "17529977",
+      "16740159",
+      "11988762",
+      "9753719"
+    ],
+    "similar": [
+      "35042722",
+      "39076052",
+      "35681170",
+      "31336830",
+      "28750606",
+      "26291518",
+      "34929739",
+      "33037196",
+      "30395277",
+      "39402535",
+      "34272562",
+      "36484687",
+      "19956545",
+      "35410161",
+      "24564277",
+      "33372147",
+      "26285121",
+      "31723409",
+      "32770026",
+      "26818008",
+      "22955984",
+      "33603233",
+      "30897079",
+      "33522898",
+      "22955990",
+      "34579793",
+      "34292930",
+      "31406384",
+      "30517703",
+      "33498086",
+      "32960766",
+      "32574834",
+      "31742324",
+      "25957350",
+      "27780826",
+      "30629513",
+      "20663846",
+      "26679776",
+      "28849563",
+      "31093693",
+      "27311443",
+      "33413545",
+      "34534646",
+      "25775564",
+      "26105820",
+      "27153645",
+      "22534400",
+      "32976105",
+      "35462009",
+      "28718849",
+      "28234893",
+      "35240993",
+      "34752400",
+      "26703974",
+      "30835229",
+      "23272209",
+      "34383745",
+      "25722376",
+      "25070602",
+      "29325176",
+      "32404971",
+      "37919990",
+      "24581441",
+      "21124945",
+      "27104615",
+      "31372637",
+      "35263332",
+      "20158869",
+      "29993783",
+      "24927817",
+      "27264535",
+      "34255854",
+      "23382538",
+      "24565265",
+      "31754708",
+      "31942977",
+      "28623590",
+      "27845669",
+      "30922998",
+      "17118162",
+      "37873361",
+      "32660981",
+      "23935523",
+      "25213249",
+      "31138617",
+      "34073774",
+      "35997560",
+      "39271116",
+      "38293094",
+      "38826350"
+    ],
+    "review": [
+      "35042722",
+      "31742324",
+      "31093693",
+      "26105820"
+    ],
+    "pmc": [
+      "8896468"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=35042722",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35042722/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35042722",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

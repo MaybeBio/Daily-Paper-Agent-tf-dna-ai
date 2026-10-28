@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.11.430730",
+  "title": "White-box Deep Neural Network Prediction of Genome-Wide Transcriptome Signatures",
+  "doi": "10.1101/2021.02.11.430730",
+  "abstract": "Prediction algorithms for protein or gene structures, including transcription factor binding from sequence information, have been transformative in understanding gene regulation. Here we ask whether human transcriptomic profiles can be predicted solely from the expression of transcription factors (TFs). To this end, we explore whether a neural network (NN) could predict the transcriptome from TFs. Using at least one hidden layer, we find that the expression of 1,600 TFs can explain >95% of variance in 25,000 genes. Using the light-up technique to inspect the trained NN, we find an overrepresentation of known TF-gene regulations. Furthermore, the learned prediction network has a hierarchical organization. A smaller set of around 125 core TFs could explain close to 80% of the variance. Interestingly, reducing the number of TFs below 500 induces a rapid decline in prediction performance. Next, we evaluated the prediction model using transcriptional data from 22 human diseases. The TFs were sufficient to predict the target genes’ dysregulation (rho=0.61, P < 10 −216 ). By inspecting the model, key causative TFs could be extracted for subsequent validation using disease-associated genetic variants. In conclusion, we demonstrate the construction of an interpretable neural network predictor. Analysis of the predictors revealed key TFs that were inducing transcriptional changes during disease.",
+  "authors": [
+    "Magnusson R",
+    "Tegnér JN",
+    "Gustafsson M"
+  ],
+  "published_date": "2021-02-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.11.430730",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.11.430730.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR282342",
+    "raw_record": {
+      "id": "PPR282342",
+      "source": "PPR",
+      "doi": "10.1101/2021.02.11.430730",
+      "title": "White-box Deep Neural Network Prediction of Genome-Wide Transcriptome Signatures",
+      "authorString": "Magnusson R, Tegnér JN, Gustafsson M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Magnusson R",
+            "lastName": "Magnusson",
+            "firstName": "Rasmus",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9395-6025"
+            }
+          },
+          {
+            "fullName": "Tegnér JN",
+            "lastName": "Tegnér",
+            "firstName": "Jesper",
+            "initials": "JN"
+          },
+          {
+            "fullName": "Gustafsson M",
+            "lastName": "Gustafsson",
+            "firstName": "Mika",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9395-6025"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9568-5588"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Prediction algorithms for protein or gene structures, including transcription factor binding from sequence information, have been transformative in understanding gene regulation. Here we ask whether human transcriptomic profiles can be predicted solely from the expression of transcription factors (TFs). To this end, we explore whether a neural network (NN) could predict the transcriptome from TFs. Using at least one hidden layer, we find that the expression of 1,600 TFs can explain >95% of variance in 25,000 genes. Using the light-up technique to inspect the trained NN, we find an overrepresentation of known TF-gene regulations. Furthermore, the learned prediction network has a hierarchical organization. A smaller set of around 125 core TFs could explain close to 80% of the variance. Interestingly, reducing the number of TFs below 500 induces a rapid decline in prediction performance. Next, we evaluated the prediction model using transcriptional data from 22 human diseases. The TFs were sufficient to predict the target genes’ dysregulation (rho=0.61, P < 10  −216 ). By inspecting the model, key causative TFs could be extracted for subsequent validation using disease-associated genetic variants. In conclusion, we demonstrate the construction of an interpretable neural network predictor. Analysis of the predictors revealed key TFs that were inducing transcriptional changes during disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/12/2021.02.11.430730.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.11.430730"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-02-15",
+      "firstPublicationDate": "2021-02-12",
+      "firstIndexDate": "2021-02-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

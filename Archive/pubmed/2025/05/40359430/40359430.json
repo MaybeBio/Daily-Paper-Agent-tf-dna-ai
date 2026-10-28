@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40359430",
+    "doi": "10.1371/journal.pcbi.1012513",
+    "title": "Identifying the DNA methylation preference of transcription factors using ProtBERT and SVM."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) can affect gene expression by binding to certain specific DNA sequences. This binding process of TFs may be modulated by DNA methylation. A subset of TFs that serve as methylation readers preferentially binds to certain methylated DNA and is defined as TFPM. The identification of TFPMs enhances our understanding of DNA methylation's role in gene regulation. However, their experimental identification is resource-demanding. In this study, we propose a novel two-step computational approach to classify TFs and TFPMs. First, we employed a fine-tuned ProtBERT model to differentiate between the classes of TFs and non-TFs. Second, we combined the Reduced Amino Acid Category (RAAC) with K-mer and SVM to predict the potential of TFs to bind to methylated DNA. Comparative experiments demonstrate that our proposed methods outperform all existing approaches and emphasize the efficiency of our computational framework in classifying TFs and TFPMs. Cross-species validation on an independent mouse dataset further demonstrates the generalizability of our proposed framework In addition, we conducted predictions on all human transcription factors and found that most of the top 20 proteins belong to the Krueppel C2H2-type Zinc-finger family. So far, some studies have demonstrated a partial correlation between this family and DNA methylation and confirmed the preference of some of its members, thereby showing the robustness of our approach.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Methylation/genetics",
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Computational Biology/methods",
+      "*Support Vector Machine",
+      "Algorithms",
+      "DNA/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yanchao",
+        "Zou, Quan",
+        "Dai, Qi",
+        "Stalin, Antony",
+        "Luo, Ximei"
+      ],
+      "short_names": [
+        "Li Y",
+        "Zou Q",
+        "Dai Q",
+        "Stalin A",
+        "Luo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2929-5936",
+        "ORCID: 0000-0003-2956-6799"
+      ],
+      "affiliations": [
+        "School of Information and Software Engineering, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China.",
+        "College of Life Science and medicine, Zhejiang Sci-Tech University, Hangzhou, Zhejiang, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yanchao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Software Engineering, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Qi",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science and medicine, Zhejiang Sci-Tech University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Stalin, Antony",
+        "short_name": "Stalin A",
+        "identifiers": [
+          "0000-0002-2929-5936"
+        ],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ximei",
+        "short_name": "Luo X",
+        "identifiers": [
+          "0000-0003-2956-6799"
+        ],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/13 18:41",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42169128",
+      "41888197",
+      "41511814"
+    ],
+    "refs": [
+      "40093378",
+      "38359659",
+      "37956397",
+      "37815839",
+      "37562328",
+      "37556835",
+      "37552230",
+      "37497772",
+      "37402367",
+      "37114997",
+      "36800973",
+      "36777731",
+      "36743498",
+      "36659924",
+      "36503892",
+      "36461699",
+      "36252888",
+      "36119976",
+      "35514183",
+      "34962264",
+      "34570239",
+      "34265844",
+      "34232869",
+      "34103528",
+      "33539511",
+      "33486591",
+      "33313647",
+      "33294291",
+      "33250548",
+      "33212104",
+      "32399547",
+      "32169803",
+      "31689433",
+      "31521504",
+      "31164644",
+      "31092938",
+      "30718982",
+      "30395287",
+      "29990107",
+      "29947743",
+      "29425488",
+      "29145608",
+      "28890846",
+      "28473536",
+      "18286240",
+      "17565494",
+      "12520060",
+      "12101405",
+      "11361095"
+    ],
+    "similar": [
+      "40359430",
+      "40362469",
+      "34962264",
+      "36119976",
+      "35799193",
+      "25775564",
+      "21152420",
+      "25722376",
+      "42475469",
+      "31481462",
+      "39367138",
+      "29145608",
+      "18554421",
+      "39541188",
+      "18426580",
+      "19088121",
+      "41662352",
+      "35142952",
+      "20838582",
+      "42557242",
+      "24349230",
+      "31074373",
+      "22689783",
+      "22165960",
+      "16354688",
+      "11221845",
+      "27567672",
+      "16267080",
+      "19158363",
+      "24015356",
+      "42099803",
+      "22369687",
+      "28716409",
+      "29419752",
+      "30155812",
+      "20827602",
+      "33859751",
+      "26679776",
+      "32399547",
+      "37486787",
+      "33372147",
+      "22923524",
+      "38490467",
+      "40279252",
+      "27385050",
+      "32352758",
+      "37805453",
+      "15496828",
+      "39605503",
+      "41782896",
+      "25760736",
+      "30709337",
+      "24918633",
+      "25428367",
+      "28472398",
+      "22369666",
+      "30577740",
+      "42043940",
+      "40848288",
+      "28473536",
+      "34455627",
+      "24669864",
+      "36782389",
+      "21059262",
+      "25708928",
+      "37650641",
+      "24291025",
+      "36563044",
+      "18371204",
+      "33294291",
+      "28092692",
+      "25605483",
+      "40702706",
+      "41261862",
+      "23590861",
+      "23209563",
+      "36890579",
+      "26285121",
+      "28882572",
+      "39650552",
+      "21172055",
+      "27401554",
+      "22955984",
+      "36123148",
+      "11340073",
+      "18713790",
+      "35440061",
+      "21498098",
+      "18411210",
+      "29221486",
+      "16899225",
+      "34099689",
+      "31123959",
+      "21342583",
+      "33708244",
+      "33780341",
+      "32806782",
+      "29159284",
+      "20870645",
+      "32043966"
+    ],
+    "review": [
+      "40359430",
+      "28716409"
+    ],
+    "pmc": [
+      "12121914"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012513",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40359430/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

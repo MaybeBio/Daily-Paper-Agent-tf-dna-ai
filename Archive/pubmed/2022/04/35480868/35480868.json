@@ -1,0 +1,605 @@
+{
+  "identity": {
+    "pmid": "35480868",
+    "doi": "10.1155/2022/6184802",
+    "title": "Role of Necroptosis and Immune Infiltration in Human Stanford Type A Aortic Dissection: Novel Insights from Bioinformatics Analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Stanford type A aortic dissection (TAAD) is one of the most life-threatening cardiovascular emergencies with high mortality and morbidity, and necroptosis is a newly identified type of programmed cell death and contributes to the pathogenesis of various cardiovascular diseases. However, the role of necroptosis in TAAD has not been elucidated. This study was aimed at determining the role of necroptosis in TAAD using bioinformatics analyses. METHODS: The RNA sequencing dataset GSE153434 and the microarray dataset GSE52093 were obtained from Gene Expression Omnibus (GEO) database. Differentially expressed genes of necroptosis (NRDEGs) were identified based on differentially expressed genes (DEGs) and necroptosis gene set. Gene set enrichment analysis (GSEA) was applied to evaluate the gene enrichment signaling pathway in TAAD. The STRING database and Cytoscape software were used to establish and visualize protein-protein interaction (PPI) networks and identify the key functional modules of NRDEGs. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses of NRDEGs were also performed. Additionally, Spearman correlations were used to construct the necroptosis-related transcription factor-target genes regulatory network, immune infiltration patterns were analyzed using the ImmuCellAI algorithm, and the correlation between immune cell-type abundance and NRDEGs expression was investigated. The expression levels of NRDEGs and immune infiltration were additionally verified in the GSE52093 dataset. RESULTS: We found that the necroptosis pathway was considerably enriched and activated in TAAD samples. Overall, 25 NRDEGs were identified including MLKL, RIPK1, and FADD, and among them, 18 were verified in the validation set. Moreover, GO and KEGG enrichment analyses found that NRDEGs were primarily involved in the tumor necrosis factor signaling pathway, nucleotide-binding oligomerization domain-like receptor signaling pathway, and interleukin-17 signaling pathway. The imbalance of Th17/Treg cells was identified in the TAAD samples. Furthermore, correlation analysis indicated that expression of NRDEGs was positively associated with proinflammatory immune-cell infiltrations and negatively associated with anti-inflammatory or regulatory immune-cell infiltrations. CONCLUSIONS: The present findings suggest that necroptosis phenomenon exists in TAAD and correlates with immune cell infiltration, which indicate necroptosis may promote the development of TAAD through activating immune infiltration and immune response. This study paves a new road to future investigation of the pathogenic mechanisms and therapeutic strategies for TAAD.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Aortic Dissection/genetics",
+      "*Computational Biology",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Humans",
+      "Necroptosis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Fuqiang",
+        "Wei, Tao",
+        "Liu, Lin",
+        "Hou, Fangxia",
+        "Xu, Cuixiang",
+        "Guo, Hua",
+        "Zhang, Wei",
+        "Ma, Meijuan",
+        "Zhang, Yulian",
+        "Yu, Qi",
+        "Wang, Junkui"
+      ],
+      "short_names": [
+        "Liu F",
+        "Wei T",
+        "Liu L",
+        "Hou F",
+        "Xu C",
+        "Guo H",
+        "Zhang W",
+        "Ma M",
+        "Zhang Y",
+        "Yu Q",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0371-639X",
+        "ORCID: 0000-0002-2325-2038",
+        "ORCID: 0000-0002-4741-6404",
+        "ORCID: 0000-0003-0677-9169",
+        "ORCID: 0000-0001-9498-4175",
+        "ORCID: 0000-0002-0471-7979",
+        "ORCID: 0000-0003-3565-0129",
+        "ORCID: 0000-0002-6291-5594",
+        "ORCID: 0000-0001-9227-9384",
+        "ORCID: 0000-0002-3558-8647",
+        "ORCID: 0000-0002-4478-5335"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Key Laboratory of Ischemic Cardiovascular Diseases & Institute of Basic and Translational Medicine, Xi'an Medical University, Xi'an, China.",
+        "Shaanxi Key Laboratory of Integrative Traditional Chinese and Western Medicine for Prevention and Treatment of Cardiovascular Diseases, Xianyang, China.",
+        "Department of Cardiovascular Surgery, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Nursing, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Nursing, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Key Laboratory of Ischemic Cardiovascular Diseases & Institute of Basic and Translational Medicine, Xi'an Medical University, Xi'an, China.",
+        "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Shaanxi Key Laboratory of Integrative Traditional Chinese and Western Medicine for Prevention and Treatment of Cardiovascular Diseases, Xianyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Fuqiang",
+        "short_name": "Liu F",
+        "identifiers": [
+          "0000-0003-0371-639X"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Shaanxi Key Laboratory of Ischemic Cardiovascular Diseases & Institute of Basic and Translational Medicine, Xi'an Medical University, Xi'an, China.",
+          "Shaanxi Key Laboratory of Integrative Traditional Chinese and Western Medicine for Prevention and Treatment of Cardiovascular Diseases, Xianyang, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Tao",
+        "short_name": "Wei T",
+        "identifiers": [
+          "0000-0002-2325-2038"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0002-4741-6404"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Fangxia",
+        "short_name": "Hou F",
+        "identifiers": [
+          "0000-0003-0677-9169"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Cuixiang",
+        "short_name": "Xu C",
+        "identifiers": [
+          "0000-0001-9498-4175"
+        ],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Hua",
+        "short_name": "Guo H",
+        "identifiers": [
+          "0000-0002-0471-7979"
+        ],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Department of Nursing, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0003-3565-0129"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Meijuan",
+        "short_name": "Ma M",
+        "identifiers": [
+          "0000-0002-6291-5594"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yulian",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0001-9227-9384"
+        ],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Department of Nursing, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qi",
+        "short_name": "Yu Q",
+        "identifiers": [
+          "0000-0002-3558-8647"
+        ],
+        "affiliations": [
+          "Shaanxi Key Laboratory of Ischemic Cardiovascular Diseases & Institute of Basic and Translational Medicine, Xi'an Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junkui",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-4478-5335"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Shaanxi Key Laboratory of Integrative Traditional Chinese and Western Medicine for Prevention and Treatment of Cardiovascular Diseases, Xianyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oxidative medicine and cellular longevity"
+    ],
+    "journal_abbrev": [
+      "Oxid Med Cell Longev"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/29 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "42121931",
+      "41979740",
+      "41672970",
+      "41193634",
+      "41113993",
+      "40727462",
+      "40258895",
+      "40229837",
+      "39991658",
+      "39806277",
+      "39522011",
+      "39483148",
+      "39261934",
+      "39206267",
+      "39170298",
+      "39145050",
+      "39058876",
+      "38595338",
+      "38370978",
+      "37958896",
+      "37403014",
+      "37303674",
+      "36979417",
+      "36934132",
+      "36835806",
+      "36238356",
+      "36046241"
+    ],
+    "refs": [
+      "34652258",
+      "34597613",
+      "34277731",
+      "34211294",
+      "33142926",
+      "33066131",
+      "32687661",
+      "32274301",
+      "32116765",
+      "31887080",
+      "31694392",
+      "31640947",
+      "31391333",
+      "30442927",
+      "30258282",
+      "30034339",
+      "29360940",
+      "29104039",
+      "28186202",
+      "28153878",
+      "28124516",
+      "27532042",
+      "26798703",
+      "26339779",
+      "25788370",
+      "25605792",
+      "25563840",
+      "25521941",
+      "25378412",
+      "25352553",
+      "24476434",
+      "24334970",
+      "23774175",
+      "23685554",
+      "22455463",
+      "22236596",
+      "20860543",
+      "19896778",
+      "18789403",
+      "18603160",
+      "17947979",
+      "17145990",
+      "16515922",
+      "12525261"
+    ],
+    "similar": [
+      "35480868",
+      "37773866",
+      "39344316",
+      "37051233",
+      "37571880",
+      "38947229",
+      "37283588",
+      "39270557",
+      "34652258",
+      "37403014",
+      "38426147",
+      "39261934",
+      "34211294",
+      "39145050",
+      "37373979",
+      "38509743",
+      "37817158",
+      "34277731",
+      "34553293",
+      "37371833",
+      "38736878",
+      "35278479",
+      "37736497",
+      "39350187",
+      "37330462",
+      "38319987",
+      "36619743",
+      "35356426",
+      "28432618",
+      "33397492",
+      "35658960",
+      "33953793",
+      "35307059",
+      "39205966",
+      "35369349",
+      "38587531",
+      "35680809",
+      "35154512",
+      "34233597",
+      "35237223",
+      "35346191",
+      "34536521",
+      "37026011",
+      "39072329",
+      "37550393",
+      "31545495",
+      "33407587",
+      "37653627",
+      "33046027",
+      "39337585",
+      "35957838",
+      "35378210",
+      "35840882",
+      "29546564",
+      "34583778",
+      "33468161",
+      "36686646",
+      "36225941",
+      "31703725",
+      "35016690",
+      "34313877",
+      "37963970",
+      "35713363",
+      "39058876",
+      "29845250",
+      "36755239",
+      "30132538",
+      "36276976",
+      "36186997",
+      "34736376",
+      "34162355",
+      "35711523",
+      "32922167",
+      "36643579",
+      "34257537",
+      "35757392",
+      "39006493",
+      "35395988",
+      "37008314",
+      "36017103",
+      "36726122",
+      "36036007",
+      "32546690",
+      "36936916",
+      "33640831",
+      "35709926",
+      "35562622",
+      "35990977",
+      "36082523",
+      "31380418",
+      "39120060",
+      "31638917",
+      "34174849",
+      "31339875",
+      "30278585",
+      "30916045",
+      "38017548",
+      "35795203",
+      "32626989",
+      "36733486",
+      "28983581",
+      "32228827",
+      "30705250",
+      "31233342",
+      "38862443",
+      "30525236",
+      "24969630",
+      "36438903",
+      "36063903",
+      "31987036",
+      "37977205",
+      "30670912",
+      "34110956",
+      "35475279",
+      "30706927",
+      "32598242",
+      "34421922",
+      "31114135",
+      "33982485",
+      "32547322",
+      "36253777",
+      "32772341",
+      "34931168",
+      "32008037",
+      "32863767",
+      "36979417",
+      "36553511",
+      "36195955",
+      "31673979",
+      "31211595",
+      "33978371",
+      "38980440",
+      "32304567",
+      "36273177",
+      "37284660",
+      "34895422",
+      "36305413",
+      "35036448",
+      "37684281",
+      "37861483",
+      "38163105",
+      "37605568",
+      "38355637",
+      "38144322",
+      "36934132",
+      "37877967",
+      "38273392",
+      "35178459",
+      "38628660",
+      "37938149",
+      "36518671",
+      "38317877",
+      "37965055",
+      "36531699",
+      "31721906",
+      "36818541",
+      "38298716",
+      "38165854",
+      "36466876",
+      "39031474",
+      "38138924",
+      "37815499",
+      "38863043",
+      "37990533",
+      "36895830",
+      "33066131",
+      "37410216",
+      "36875119",
+      "37969393",
+      "37055577",
+      "39397125",
+      "36818726",
+      "37704417",
+      "35864995",
+      "38445624",
+      "38404827",
+      "35222395",
+      "36712253",
+      "37168851",
+      "29115411",
+      "38914997",
+      "38301047",
+      "37303674",
+      "36808332",
+      "37207221",
+      "37168259",
+      "38130716",
+      "39276965",
+      "36733342",
+      "37421290",
+      "38567101",
+      "37035734",
+      "38279441",
+      "37965311",
+      "36684561",
+      "36309656",
+      "38726127",
+      "38484666",
+      "38368442",
+      "36685185",
+      "38852373",
+      "37773841",
+      "31786503",
+      "39275894",
+      "33450702",
+      "36279950",
+      "38828294",
+      "38656671",
+      "37113134",
+      "38204239",
+      "38020922",
+      "37770840",
+      "37872959",
+      "36824454",
+      "33803192",
+      "39177325",
+      "38562184",
+      "38090293",
+      "37964329",
+      "39077089",
+      "36208338",
+      "38236462",
+      "38184215",
+      "39139741",
+      "36568106",
+      "38652339",
+      "38919950",
+      "36691896",
+      "38073713",
+      "37744268",
+      "36871552",
+      "38504565",
+      "39418727",
+      "39393431",
+      "37218975",
+      "38920136",
+      "38491247",
+      "37205167",
+      "38478169",
+      "39156756",
+      "37741602",
+      "38660678",
+      "37161210",
+      "38279589",
+      "38649659",
+      "35186462",
+      "36602538",
+      "38168496",
+      "38174389",
+      "36588814",
+      "37637145",
+      "38680615",
+      "36614113",
+      "37643078",
+      "36777818",
+      "36469164",
+      "39247606",
+      "37876543",
+      "39381736",
+      "36806069",
+      "38347782",
+      "36506527",
+      "39004392",
+      "34636837",
+      "36610583",
+      "36820091",
+      "37313309",
+      "38858536"
+    ],
+    "review": [
+      "35480868",
+      "37113134",
+      "39077089",
+      "37741602"
+    ],
+    "pmc": [
+      "9036163"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35480868/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35480868",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/6184802",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

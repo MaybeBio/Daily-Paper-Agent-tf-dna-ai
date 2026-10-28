@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "35044082",
+    "doi": "10.1111/jcmm.17182",
+    "title": "Identification of a glioma functional network from gene fitness data using machine learning."
+  },
+  "content": {
+    "abstract": "Glioblastoma multiforme (GBM) is an aggressive form of brain tumours that remains incurable despite recent advances in clinical treatments. Previous studies have focused on sub-categorizing patient samples based on clustering various transcriptomic data. While functional genomics data are rapidly accumulating, there exist opportunities to leverage these data to decipher glioma-associated biomarkers. We sought to implement a systematic approach to integrating data from high throughput CRISPR-Cas9 screening studies with machine learning algorithms to infer a glioma functional network. We demonstrated the network significantly enriched various biological pathways and may play roles in glioma tumorigenesis. From densely connected glioma functional modules, we further predicted 12 potential Wnt/beta-catenin signalling pathway targeted genes, including AARSD1, HOXB5, ITGA6, LRRC71, MED19, MED24, METTL11B, SMARCB1, SMARCE1, TAF6L, TENT5A and ZNF281. Cox regression modelling with these targets was significantly associated with glioma overall survival prognosis. Additionally, TRIB2 was identified as a glioma neoplastic cell marker in single-cell RNA-seq of GBM samples. This work establishes novel strategies for constructing functional networks to identify glioma biomarkers for the development of diagnosis and treatment in clinical practice.",
+    "keywords": [
+      "CRISPR-Cas9",
+      "co-functional network",
+      "glioma",
+      "prognostic biomarkers",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Brain Neoplasms/pathology",
+      "Calcium-Calmodulin-Dependent Protein Kinases/genetics/metabolism",
+      "Chromosomal Proteins, Non-Histone/genetics",
+      "DNA-Binding Proteins/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Glioblastoma/pathology",
+      "*Glioma/genetics",
+      "Humans",
+      "Machine Learning",
+      "Mediator Complex/genetics",
+      "Repressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiang, Chun-Xiang",
+        "Liu, Xi-Guo",
+        "Zhou, Da-Quan",
+        "Zhou, Yi",
+        "Wang, Xu",
+        "Chen, Feng"
+      ],
+      "short_names": [
+        "Xiang CX",
+        "Liu XG",
+        "Zhou DQ",
+        "Zhou Y",
+        "Wang X",
+        "Chen F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0776-0702"
+      ],
+      "affiliations": [
+        "Department of Pathology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China.",
+        "Department of Head and Neck Surgery, Hubei Cancer Hospital, Wuhan, Hubei, China.",
+        "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China.",
+        "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China.",
+        "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China.",
+        "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiang, Chun-Xiang",
+        "short_name": "Xiang CX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xi-Guo",
+        "short_name": "Liu XG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Surgery, Hubei Cancer Hospital, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Da-Quan",
+        "short_name": "Zhou DQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yi",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feng",
+        "short_name": "Chen F",
+        "identifiers": [
+          "0000-0002-0776-0702"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2022 Feb",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/20 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42167576",
+      "38880820",
+      "38827949",
+      "38204269",
+      "36647772"
+    ],
+    "refs": [
+      "34281602",
+      "34131250",
+      "34118725",
+      "33961781",
+      "33070389",
+      "32709848",
+      "32641768",
+      "31960380",
+      "31318172",
+      "30979825",
+      "30924036",
+      "30573688",
+      "30541550",
+      "30486714",
+      "30476243",
+      "30462320",
+      "30445539",
+      "30357367",
+      "30279739",
+      "30124334",
+      "29778836",
+      "29666150",
+      "29312632",
+      "29091775",
+      "29038160",
+      "28753431",
+      "28609654",
+      "28360267",
+      "28059652",
+      "27892958",
+      "27708008",
+      "27515988",
+      "27355964",
+      "27157931",
+      "26942673",
+      "26641068",
+      "26627737",
+      "26472760",
+      "25845910",
+      "25803850",
+      "25616647",
+      "25605792",
+      "25163906",
+      "24120666",
+      "24101040",
+      "24078694",
+      "23258844",
+      "22617422",
+      "22426491",
+      "21789020",
+      "21414208",
+      "20129251",
+      "19920198",
+      "19208739",
+      "18981407",
+      "18940004",
+      "18565887",
+      "17160063",
+      "17121922",
+      "16284200",
+      "15829953",
+      "15758009",
+      "15374961",
+      "14993220",
+      "12925520",
+      "8548103"
+    ],
+    "similar": [
+      "35044082",
+      "32616845",
+      "31318172",
+      "30382873",
+      "21595825",
+      "31419987",
+      "30864699",
+      "37149563",
+      "35525406",
+      "35599254",
+      "37650991",
+      "16623952",
+      "35413821",
+      "35456975",
+      "31532757",
+      "34596120",
+      "36474171",
+      "33970702",
+      "23261424",
+      "36834486",
+      "36305410",
+      "31462429",
+      "24278465",
+      "34367317",
+      "34303851",
+      "30691485",
+      "31923345",
+      "31277942",
+      "24158112",
+      "25681036",
+      "24518219",
+      "33469841",
+      "26902498",
+      "33000268",
+      "35436915",
+      "35328072",
+      "32572951",
+      "36596853",
+      "31118022",
+      "27426982",
+      "35283227",
+      "30894197",
+      "34301218",
+      "28356518",
+      "32703494",
+      "11844831",
+      "31329830",
+      "30376874",
+      "33832517",
+      "31692451",
+      "26654598",
+      "32642801",
+      "37183261",
+      "34812552",
+      "34539626",
+      "30059495",
+      "30106127",
+      "37121053",
+      "27903708",
+      "32725165",
+      "17318412",
+      "37787188",
+      "28631286",
+      "36944954",
+      "26663173",
+      "34056009",
+      "25283629",
+      "31785437",
+      "26895104",
+      "37451151",
+      "25658639",
+      "29614978",
+      "27135271",
+      "31001929",
+      "27905892",
+      "33877554",
+      "28952134",
+      "33406529",
+      "30872592",
+      "27495233",
+      "24078801",
+      "31462285",
+      "34556022",
+      "25498217",
+      "30694558",
+      "34919784",
+      "33839757",
+      "31186453",
+      "29549165",
+      "33047898",
+      "33449451",
+      "27572852",
+      "22639155",
+      "32467990",
+      "28957313"
+    ],
+    "review": [
+      "35044082",
+      "35525406",
+      "37787188"
+    ],
+    "pmc": [
+      "8831986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/35044082.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35044082/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35044082",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.17182",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-528",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

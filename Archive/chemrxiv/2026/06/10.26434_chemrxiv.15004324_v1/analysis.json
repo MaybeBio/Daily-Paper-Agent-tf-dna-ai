@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15004324/v1",
+  "title": "Learning chemically transferable protein-protein binding energetics from peptide potential of mean force building blocks",
+  "authors": "Tariq Shereef; Emiel Kram; Alexander J. Pak",
+  "journal": "ChemRxiv",
+  "published_date": "2026-06-04",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用粗粒化力场从三肽PMF学习蛋白质-蛋白质结合自由能，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模，故给5分。",
+  "abstract": "Conventional all-atom molecular dynamics (AAMD) simulations can expedite exploration of protein-protein interactions and the resultant design space but are too costly to span the time and length scales relevant to protein oligomerization and self-assembly. In this work, we define a framework for a chemically transferable coarse-grained (CG) force-field for interprotein interactions by matching nonbonded interaction potentials to the potential of mean force (PMF) governing small peptide association using a two-body Lennard-Jones-Gaussian (LJG) potential; we refer to our model as PEBBLE (Potential of mean force Estimator from Building BLock Energetics). Parameters are learned via relative entropy minimization (REM) from AAMD of GXG tripeptides (with guest residue X) for all 210 amino acid pair combinations. Application of these parameters yields good agreement with AA potentials of mean force (PMFs) and experimental binding free energies across three benchmarks: dimerization motif QVVAG, heterodimeric coiled-coil E3/K3, and globular barnase/barstar (both wild-type and mutants). We further reproduce assembly outcomes for experimentally characterized tripeptides: fibrillar (VFF) and non-assembling (ECG). These results show that a simple LJG basis trained only on tripeptide statistics can generalize from molecular PMFs to higher-order structures and energetics relevant to protein-protein interactions and ultimately, protein-based materials design. In the future, we envision that the PEBBLE CG model will be used to (i) enable sampling of protein oligomers when AAMD is too costly and (ii) accelerate development of low-resolution CG models.",
+  "abstract_zh": "传统全原子分子动力学（AAMD）模拟能够加速探索蛋白质-蛋白质相互作用及由此产生的设计空间，但其成本过高，难以覆盖与蛋白质寡聚化和自组装相关的时间和长度尺度。在本工作中，我们通过将非键相互作用势匹配至控制小肽缔合的平均力势（PMF），并采用双体Lennard-Jones-Gaussian（LJG）势，定义了一个化学可转移的粗粒化（CG）力场框架，用于蛋白质间相互作用；我们将此模型称为PEBBLE（基于构建块能量学的平均力势估计器）。参数通过相对熵最小化（REM）从GXG三肽（其中X为客体残基）的AAMD模拟中学习，涵盖所有210种氨基酸对组合。应用这些参数，在三个基准测试中与AA平均力势（PMFs）及实验结合自由能取得了良好一致性：二聚化基序QVVAG、异二聚卷曲螺旋E3/K3，以及球状barnase/barstar（包括野生型和突变体）。我们进一步重现了实验表征的三肽组装结果：纤维状（VFF）和非组装型（ECG）。这些结果表明，仅基于三肽统计训练的简单LJG基组能够从分子PMFs推广至与蛋白质-蛋白质相互作用及最终基于蛋白质的材料设计相关的高阶结构和能量学。未来，我们设想PEBBLE CG模型将用于：（i）在AAMD成本过高时实现蛋白质寡聚体的采样，以及（ii）加速低分辨率CG模型的开发。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15004324/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15004324/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15004324_v1/index.html"
+}

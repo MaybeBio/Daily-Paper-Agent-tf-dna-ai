@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "37976692",
+    "doi": "10.1016/j.phymed.2023.155193",
+    "title": "Lupeol alleviates autoimmune myocarditis by suppressing macrophage pyroptosis and polarization via PPARalpha/LACC1/NF-kappaB signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Autoimmune myocarditis, with increasing incidence and limited therapeutic strategies, is in urgent need to explore its underlying mechanisms and effective drugs. Pyroptosis is a programmed cell death that may contribute to the pathogenesis of myocarditis. Nonetheless, no direct evidence validated the role of pyroptosis in autoimmune myocarditis. Lupeol (Lup), a pentacyclic triterpene, possesses various biological activities such as antidiabetic properties. However, the effects of Lup on autoimmune myocarditis and pyroptosis remain unelucidated. PURPOSE: This study aimed to reveal the role of pyroptosis in autoimmune myocarditis and explore the protective effects of Lup, and its engaged mechanisms. METHODS: The experimental autoimmune myocarditis (EAM) mouse model was established by immunization with a fragment of cardiac myosin in Balb/c mice. Lup and MCC950 were administered after EAM induction. The protective effects were assessed by inflammation score, cardiac injury, chronic fibrosis, and cardiac function. Mechanistically, the effects of Lup on the M1 polarization and pyroptosis of macrophages were evaluated. Transcriptome sequencing and molecular docking were subsequently employed, and the underlying mechanisms of Lup were further explored in vitro with small interfering RNA and adenovirus. RESULTS: Administration of Lup and MCC950 alleviated EAM progression. Western blotting and immunofluorescence staining identified macrophages as the primary cells undergoing pyroptosis. Lup inhibited the expression of pyroptosis-associated proteins in macrophages during EAM in a dose-dependent manner. Furthermore, Lup suppressed pyroptosis in both bone marrow-derived macrophages (BMDMs) and THP-1-derived macrophages in vitro. In addition, Lup inhibited the M1 polarization of macrophages both in vivo and in vitro. Mechanistically, the protective effects of Lup were demonstrated via the suppression of the nuclear factor-kappaBeta (NF-kappaB) signaling pathway. Transcriptome sequencing and molecular docking revealed the potential involvement of peroxisome proliferator-associated receptor alpha (PPARalpha). Subsequently, we demonstrated that Lup activated PPARalpha to reduce the expression level of LACC1, thereby inhibiting the NF-kappaB pathway and pyroptosis. CONCLUSION: Our findings indicated the crucial role of macrophage pyroptosis in the pathogenesis of EAM. Lup ameliorated EAM by inhibiting the M1 polarization and pyroptosis of macrophages through the PPARalpha/LACC1/NF-kappaB signaling pathway. Thus, our results provided a novel therapeutic target and agent for myocarditis.",
+    "keywords": [
+      "Inflammasome",
+      "Lupeol",
+      "Macrophage",
+      "Myocarditis",
+      "Pyroptosis"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Myocarditis",
+      "NF-kappa B/metabolism",
+      "PPAR alpha",
+      "*Autoimmune Diseases/drug therapy",
+      "Pyroptosis",
+      "Molecular Docking Simulation",
+      "Peroxisome Proliferators/therapeutic use",
+      "Signal Transduction",
+      "Macrophages",
+      "Pentacyclic Triterpenes/pharmacology",
+      "*Lupanes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Yulong",
+        "Zhang, Zhenhao",
+        "Liu, Shangyu",
+        "Shen, Lishui",
+        "Zheng, Lihui",
+        "Ding, Ligang",
+        "Liu, Limin",
+        "Wu, Lingmin",
+        "Li, Le",
+        "Hu, Zhao",
+        "Zhang, Zhuxin",
+        "Zhou, Likun",
+        "Yao, Yan"
+      ],
+      "short_names": [
+        "Xiong Y",
+        "Zhang Z",
+        "Liu S",
+        "Shen L",
+        "Zheng L",
+        "Ding L",
+        "Liu L",
+        "Wu L",
+        "Li L",
+        "Hu Z",
+        "Zhang Z",
+        "Zhou L",
+        "Yao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China.",
+        "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China. Electronic address: ianyao@263.net.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Yulong",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenhao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shangyu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Shen, Lishui",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Lihui",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ligang",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Limin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingmin",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Le",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhao",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhuxin",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Likun",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yan",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China; State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, 167A Beilishi Road, Xi Cheng District, Beijing 100037, PR China. Electronic address: ianyao@263.net.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/18 11:41",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42589363",
+      "42370183",
+      "42045186",
+      "42016255",
+      "41924622",
+      "41896209",
+      "41847429",
+      "41745475",
+      "41695394",
+      "41458951",
+      "41424864",
+      "41376621",
+      "41193588",
+      "40832143",
+      "40650120",
+      "40275171",
+      "40248592",
+      "39629104",
+      "39605919",
+      "39388091"
+    ],
+    "refs": [],
+    "similar": [
+      "37976692",
+      "38042114",
+      "36689357",
+      "38547614",
+      "39069042",
+      "15774612",
+      "22531062",
+      "38636372",
+      "37820748",
+      "39298917",
+      "34861244",
+      "28485793",
+      "34641966",
+      "28246012",
+      "37831404",
+      "38581923",
+      "37454749",
+      "37354779",
+      "39388091",
+      "32128893",
+      "34125371",
+      "26655877",
+      "29414662",
+      "17042978",
+      "26767626",
+      "34688696",
+      "24097428",
+      "35901530",
+      "35282269",
+      "30557558",
+      "28525856",
+      "36583372",
+      "15337697",
+      "38354482",
+      "36536301",
+      "38556341",
+      "33859743",
+      "37834220",
+      "34630845",
+      "36401729",
+      "14703419",
+      "36301340",
+      "32431172",
+      "37993938",
+      "32071306",
+      "24732212",
+      "35728304",
+      "32503416",
+      "30024944",
+      "29128901",
+      "34109585",
+      "36367676",
+      "29350825",
+      "31225989",
+      "35749827",
+      "23674516",
+      "38290207",
+      "35579737",
+      "36516692",
+      "33466926",
+      "35447422",
+      "37628889",
+      "37812891",
+      "36574951",
+      "30349538",
+      "36418383",
+      "34916609",
+      "36203339",
+      "38166688",
+      "29040966",
+      "36425057",
+      "38701735",
+      "35976115",
+      "35994850",
+      "36708976",
+      "36229750",
+      "31545785",
+      "36115602",
+      "37075579",
+      "37114508",
+      "30848408",
+      "37526050",
+      "28887037",
+      "37446339",
+      "34575918",
+      "35228524",
+      "30319603",
+      "34804360",
+      "33939070",
+      "14499870",
+      "33939927",
+      "33413501",
+      "28415686",
+      "33047847",
+      "28336257",
+      "21720000",
+      "39080676",
+      "35797941",
+      "25626689",
+      "34580236",
+      "37547335",
+      "26899795",
+      "37857123",
+      "15537494",
+      "36034755",
+      "37716974",
+      "28398673",
+      "15698832",
+      "38978328",
+      "27959965",
+      "39225315",
+      "39214011",
+      "39405969",
+      "38540212",
+      "38668725",
+      "38224882",
+      "38218233",
+      "38306778",
+      "39313956",
+      "39374773",
+      "39081086",
+      "38741130",
+      "38943695",
+      "37629059",
+      "38229085",
+      "38483295",
+      "38380334",
+      "39155466",
+      "38817865"
+    ],
+    "review": [
+      "37976692",
+      "39214011",
+      "38943695"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00552-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autoimmunediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autoimmune Diseases"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "34539976",
+    "doi": "10.1155/2021/9957908",
+    "title": "Citrate Synthase and OGDH as Potential Biomarkers of Atherosclerosis under Chronic Stress."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pathological changes of the adrenal gland and the possible underlying molecular mechanisms are currently unclear in the case of atherosclerosis (AS) combined with chronic stress (CS). METHODS: New Zealand white rabbits were used to construct a CS and AS animal model. Proteomics and bioinformatics were employed to identify hub proteins in the adrenal gland related to CS and AS. Hub proteins were detected using immunohistochemistry, immunofluorescence assays, and Western blotting. Real-time quantitative polymerase chain reaction (RT-qPCR) was used to analyze the expression of genes. In addition, a neural network model was constructed. The quantitative relationships were inferred by cubic spline interpolation. Enzymatic activity of mitochondrial citrate synthase and OGDH was detected by the enzymatic assay kit. Function of citrate synthase and OGDH with knockdown experiments in the adrenal cell lines was performed. Furthermore, target genes-TF-miRNA regulatory network was constructed. Coimmunoprecipitation (IP) assay and molecular docking study were used to detect the interaction between citrate synthase and OGDH. RESULTS: Two most significant hub proteins (citrate synthase and OGDH) that were related to CS and AS were identified in the adrenal gland using numerous bioinformatic methods. The hub proteins were mainly enriched in mitochondrial proton transport ATP synthase complex, ATPase activation, and the AMPK signaling pathway. Compared with the control group, the adrenal glands were larger and more disordered, irregular, and necrotic in the AS+CS group. The expression of citrate synthase and OGDH was higher in the AS+CS group than in the control group, both at the protein and mRNA levels (P < 0.05). There were strong correlations among the cross-sectional areas of adrenal glands, citrate synthase, and OGDH (P < 0.05) via Spearman's rho analysis, receiver operating characteristic curves, a neural network model, and cubic spline interpolation. Enzymatic activity of citrate synthase and OGDH increased under the situation of atherosclerosis and chronic stress. Through the CCK8 assay, the adrenal cell viability was downregulated significantly after the knockdown experiment of citrate synthase and OGDH. Target genes-TF-miRNA regulatory network presented the close interrelations among the predicted microRNA, citrate synthase and OGDH. After Coimmunoprecipitation (IP) assay, the result manifested that the citrate synthase and OGDH were coexpressed in the adrenal gland. The molecular docking study showed that the docking score of optimal complex conformation between citrate synthase and OGDH was -6.15 kcal/mol. CONCLUSION: AS combined with CS plays a significant role on the hypothalamic-pituitary-adrenal (HPA) axis, promotes adrenomegaly, increases the release of glucocorticoid (GC), and might enhance ATP synthesis and energy metabolism in the body through citrate synthase and OGDH gene targets, providing a potential research direction for future related explorations into this mechanism.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adrenal Glands/metabolism",
+      "Animals",
+      "Atherosclerosis/metabolism/*pathology",
+      "Binding Sites",
+      "Biomarkers/*metabolism",
+      "Citrate (si)-Synthase/antagonists & inhibitors/genetics/*metabolism",
+      "Disease Models, Animal",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks/genetics",
+      "Ketoglutarate Dehydrogenase Complex/antagonists & inhibitors/genetics/*metabolism",
+      "Ligands",
+      "MicroRNAs/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps/genetics",
+      "RNA Interference",
+      "RNA, Small Interfering/metabolism",
+      "Rabbits",
+      "Stress, Physiological/*physiology",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Ling-Bing",
+        "Hu, Gai-Feng",
+        "Shan, Meng-Jie",
+        "Zhang, Yuan-Meng",
+        "Yu, Ze-Mou",
+        "Liu, Yun-Qing",
+        "Xu, Hong-Xuan",
+        "Wang, Li",
+        "Gong, Tao",
+        "Liu, De-Ping"
+      ],
+      "short_names": [
+        "Meng LB",
+        "Hu GF",
+        "Shan MJ",
+        "Zhang YM",
+        "Yu ZM",
+        "Liu YQ",
+        "Xu HX",
+        "Wang L",
+        "Gong T",
+        "Liu DP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1746-6109",
+        "ORCID: 0000-0003-4905-554X",
+        "ORCID: 0000-0002-3451-1103",
+        "ORCID: 0000-0003-1740-5912",
+        "ORCID: 0000-0002-7611-0316",
+        "ORCID: 0000-0003-1909-1179",
+        "ORCID: 0000-0003-2138-8174",
+        "ORCID: 0000-0001-7465-5403",
+        "ORCID: 0000-0002-9135-8619",
+        "ORCID: 0000-0001-5887-4120"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Wenzhou Medical University, Nanbaixiang, Wenzhou 325000, China.",
+        "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China.",
+        "Department of Plastic Surgery, Peking Union Medical College Hospital, Beijing 100730, China.",
+        "Department of Internal Medicine, the Third Medical Centre of Chinese PLA General Hospital, The Training Site for Postgraduate of Jinzhou Medical University, Beijing, China.",
+        "Department of Neurology, Beijing Children's Hospital, No. 56 Nanlishi Road, Xicheng District, Beijing 100045, China.",
+        "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Department of Neurology, Beijing Hospital, National Center of Gerontology, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Department of Neurology, Beijing Hospital, National Center of Gerontology, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+        "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Ling-Bing",
+        "short_name": "Meng LB",
+        "identifiers": [
+          "0000-0003-1746-6109"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+          "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Gai-Feng",
+        "short_name": "Hu GF",
+        "identifiers": [
+          "0000-0003-4905-554X"
+        ],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Wenzhou Medical University, Nanbaixiang, Wenzhou 325000, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Meng-Jie",
+        "short_name": "Shan MJ",
+        "identifiers": [
+          "0000-0002-3451-1103"
+        ],
+        "affiliations": [
+          "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China.",
+          "Department of Plastic Surgery, Peking Union Medical College Hospital, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan-Meng",
+        "short_name": "Zhang YM",
+        "identifiers": [
+          "0000-0003-1740-5912"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, the Third Medical Centre of Chinese PLA General Hospital, The Training Site for Postgraduate of Jinzhou Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Ze-Mou",
+        "short_name": "Yu ZM",
+        "identifiers": [
+          "0000-0002-7611-0316"
+        ],
+        "affiliations": [
+          "Department of Neurology, Beijing Children's Hospital, No. 56 Nanlishi Road, Xicheng District, Beijing 100045, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yun-Qing",
+        "short_name": "Liu YQ",
+        "identifiers": [
+          "0000-0003-1909-1179"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hong-Xuan",
+        "short_name": "Xu HX",
+        "identifiers": [
+          "0000-0003-2138-8174"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-7465-5403"
+        ],
+        "affiliations": [
+          "Department of Neurology, Beijing Hospital, National Center of Gerontology, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Tao",
+        "short_name": "Gong T",
+        "identifiers": [
+          "0000-0002-9135-8619"
+        ],
+        "affiliations": [
+          "Department of Neurology, Beijing Hospital, National Center of Gerontology, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Liu, De-Ping",
+        "short_name": "Liu DP",
+        "identifiers": [
+          "0000-0001-5887-4120"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, No. 1 DaHua Road, Dong Dan, Beijing 100730, China.",
+          "Graduate School, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 9 Dongdansantiao, Dongcheng District, Beijing 100730, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oxidative medicine and cellular longevity"
+    ],
+    "journal_abbrev": [
+      "Oxid Med Cell Longev"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/21 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [
+      "42325549",
+      "41828579",
+      "41096519",
+      "40663520",
+      "39403185",
+      "39297074",
+      "38192665",
+      "37762245",
+      "37663275",
+      "35300174"
+    ],
+    "refs": [
+      "32882485",
+      "32383294",
+      "32153588",
+      "31857692",
+      "31755935",
+      "31487691",
+      "30944313",
+      "30700193",
+      "30594494",
+      "30528667",
+      "30450911",
+      "30321428",
+      "29921279",
+      "29336364",
+      "29211711",
+      "29168546",
+      "29136116",
+      "29080684",
+      "28739526",
+      "28729353",
+      "28676747",
+      "28527570",
+      "28448944",
+      "28159647",
+      "27924018",
+      "27899627",
+      "27881856",
+      "27796142",
+      "27585566",
+      "26699386",
+      "26051468",
+      "25868464",
+      "25666404",
+      "25352553",
+      "24495017",
+      "24312499",
+      "23494154",
+      "23199362",
+      "21921276",
+      "19541911",
+      "19485904"
+    ],
+    "similar": [
+      "34539976",
+      "34517822",
+      "31648943",
+      "30602391",
+      "23139858",
+      "28216161",
+      "31686854",
+      "33622336",
+      "34218797",
+      "33890634",
+      "30552625",
+      "28465283",
+      "34248836",
+      "22485150",
+      "33204705",
+      "31247190",
+      "2661555",
+      "31049696",
+      "33439992",
+      "32662828",
+      "31321566",
+      "34968391",
+      "19479947",
+      "6144277",
+      "28952134",
+      "28085499",
+      "29130995",
+      "30542696",
+      "30948703",
+      "34844599",
+      "31612481",
+      "30368606",
+      "2899080",
+      "15459651",
+      "11850746",
+      "33910038",
+      "8349677",
+      "36520152",
+      "33854374",
+      "32383294",
+      "33827531",
+      "1996609",
+      "30092598",
+      "33693904",
+      "33691969",
+      "32102656",
+      "34293449",
+      "25545012",
+      "33902539",
+      "34806315",
+      "31669638",
+      "37663275",
+      "34728602",
+      "27732861",
+      "25251478",
+      "31875420",
+      "18783430",
+      "32908877",
+      "31747387",
+      "15033961",
+      "31500382",
+      "17486291",
+      "34115526",
+      "30456462",
+      "28415685",
+      "31987036",
+      "20716647",
+      "26928132",
+      "34743709",
+      "23470715",
+      "34840985",
+      "3104207",
+      "27085781",
+      "2432887",
+      "35237384",
+      "32315738",
+      "31989994",
+      "34234459",
+      "1542694",
+      "32307200",
+      "33391181",
+      "28467904",
+      "34220331",
+      "27773789",
+      "31886250",
+      "27468871",
+      "31422208",
+      "31286324",
+      "9047343",
+      "33747117",
+      "33501586",
+      "36035950",
+      "38421106",
+      "36071491",
+      "37058555",
+      "38139285",
+      "21196296",
+      "26245528",
+      "35525197",
+      "31751601",
+      "30481676",
+      "35540547",
+      "35479112",
+      "36202047",
+      "38541691"
+    ],
+    "review": [
+      "34539976",
+      "32102656"
+    ],
+    "pmc": [
+      "8445721"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34539976/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34539976",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/9957908",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

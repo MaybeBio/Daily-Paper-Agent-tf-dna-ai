@@ -1,0 +1,246 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-khbrl/v3",
+  "title": "Data-centric training enables meaningful interaction learning in protein–ligand binding affinity prediction",
+  "doi": "10.26434/chemrxiv-2025-khbrl/v3",
+  "abstract": "Predicting protein–ligand binding affinity remains a fundamental challenge in drug discovery, where deep learning models have become central. However, these models often struggle with protein and ligand biases and limited generalization. Here, we present a convolutional neural network (CNN)-based scoring function, DockTDeep , that accurately predicts protein–ligand binding affinities by carefully designing the training strategy instead of increasing architectural complexity. A systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance. We also introduce a straightforward but efficient regularization technique that reduces reliance on isolated protein or ligand features and, coupled with random rotation, promotes learning of meaningful intermolecular interaction patterns. DockTDeep outperforms or matches state-of-the-art scoring methods on standard benchmarks across diverse external datasets, supporting its applicability in drug design. Moreover, a comparative evaluation of existing out-of-distribution splitting schemes identified Pfam-CV as the most stringent, enforcing a degree of separation by similarity that surpasses other strategies. Additionally, our results indicate that the performance degradation observed under more stringent splitting schemes is unlikely to reflect an intrinsic inability of the model to capture physically meaningful interactions. Instead, it points to limitations in the available training data, which inadequately sample the diversity and complexity of binding landscapes required for robust generalization to previously unseen interaction patterns.",
+  "authors": [
+    "Matheus da Silva",
+    "Lincon Vidal",
+    "Isabella Guedes",
+    "Camila de Magalhães",
+    "Fábio Custódio",
+    "Laurent Dardenne"
+  ],
+  "published_date": "2026-02-08",
+  "updated_date": "2026-02-09T06:47:46Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-khbrl/v3",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-khbrl/v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "3",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T22:23:43Z",
+        "timestamp": 1787178223999,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            8
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>\n                  Predicting protein–ligand binding affinity remains a fundamental challenge in drug discovery, where deep learning models have become central. However, these models often struggle with protein and ligand biases and limited generalization. Here, we present a convolutional neural network (CNN)-based scoring function,\n                  <jats:italic toggle=\"yes\">DockTDeep</jats:italic>\n                  , that accurately predicts protein–ligand binding affinities by carefully designing the training strategy instead of\n                  <jats:bold/>\n                  increasing architectural complexity.\n                  <jats:bold/>\n                  A systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance. We also introduce a straightforward but efficient regularization technique that reduces reliance on isolated protein or ligand features and, coupled with random rotation, promotes learning of meaningful intermolecular interaction patterns.\n                  <jats:italic toggle=\"yes\">DockTDeep</jats:italic>\n                  outperforms or matches state-of-the-art scoring methods on standard benchmarks across diverse external datasets, supporting its applicability in drug design. Moreover, a comparative evaluation of existing out-of-distribution splitting schemes identified Pfam-CV as the most stringent, enforcing a degree of separation by similarity that surpasses other strategies. Additionally, our results indicate that the performance degradation observed under more stringent splitting schemes is unlikely to reflect an intrinsic inability of the model to capture physically meaningful interactions. Instead, it points to limitations in the available training data, which inadequately sample the diversity and complexity of binding landscapes required for robust generalization to previously unseen interaction patterns.\n                </jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-khbrl/v3",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            9
+          ]
+        ],
+        "date-time": "2026-02-09T06:47:46Z",
+        "timestamp": 1770619666000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Data-centric training enables meaningful interaction learning in protein–ligand binding affinity prediction"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Matheus",
+          "family": "da Silva",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lincon",
+          "family": "Vidal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabella",
+          "family": "Guedes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Camila",
+          "family": "de Magalhães",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidade Federal do Rio de Janeiro",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fábio",
+          "family": "Custódio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8518-8062",
+          "authenticated-orcid": false,
+          "given": "Laurent",
+          "family": "Dardenne",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratório Nacional de Computação Científica",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-khbrl/v3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T21:24:03Z",
+        "timestamp": 1787174643000
+      },
+      "score": 105.32366,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-khbrl/v3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            8
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-khbrl/v3",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

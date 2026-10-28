@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without supplementary materials or figures beyond in-text references.
+- **Assessment boundary** Scientific content, methodological validity, clarity of claims, and alignment with stated conclusions. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors present an analytical framework, based on linear noise approximation and quasi-static equilibrium assumptions, to study how decoy binding sites affect the first passage time (FPT) statistics of transcription factor accumulation. They report that decoys increase mean FPT, that stable decoy-bound transcription factors reduce FPT noise, and that tuning burst frequency or threshold to maintain a fixed mean FPT can enhance timing precision at increased expression cost.
+- **Visible evidence base** Main text equations (Eqs. 1-22), Figures 1-4 (referenced but not fully visible in provided text), Table 1 (notation), and references to Supplementary Sections A, B and Figures S1-S4.
+- **Missing materials affecting confidence** Supplementary information (derivations, additional figures S1-S4), full figure panels with numerical values, parameter ranges for all simulations, and any code or data availability statements. These are essential for verifying the analytical derivations and the claimed agreement with stochastic simulations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in stochastic gene expression: how decoy molecules modulate the timing of intracellular events. The authors propose a tractable analytical approach to a nonlinear problem and validate it with simulations. However, the presentation is dense and several key claims lack sufficient quantitative support in the main text. The distinction between the two regimes (beta = 1 and beta = 0) is clear, but the biological interpretation and the practical implications of the results are underdeveloped. The work is a solid contribution to the theoretical literature, but its impact would be strengthened by clearer exposition of the assumptions, a more thorough discussion of the limitations, and a direct connection to experimental systems beyond the phage lambda example mentioned in the discussion.
+- **Who would be interested in the results, and why** Researchers in stochastic gene expression, systems biology, and biophysics would find this work relevant. It provides analytical tools for understanding how decoy sites, which are abundant in genomes, affect the timing of gene expression events. The results could inform the design of synthetic genetic circuits where precise timing is critical, and they offer predictions that could be tested in experimental systems such as the phage lambda lysis timing model mentioned by the authors.
+- **Major strengths** The analytical derivations are a valuable addition to the field, as exact solutions for FPT statistics in nonlinear systems are rare. The use of a total protein variable to bypass nonlinearity is elegant and well-motivated. The authors clearly delineate the two cases of decoy stability and show contrasting behaviors, which is insightful. The verification with stochastic simulations, albeit referenced rather than fully shown, adds credibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the modified FPT definition (Eq. 14), using total protein threshold X/g, accurately approximates the true FPT for free protein reaching X, and that this holds even when binding/unbinding is slow (Supplementary Fig. S1).
+  - **Evidence pointer** Section "FPT statistics in the presence of decoys", Figure 2, Supplementary Figure S1
+  - **Concern** The validity of the approximation in Eq. 14 is central to all subsequent results. The authors state it works "when the noise in the system is relatively small" and show agreement in Figure 2, but the criteria for "small noise" are not quantified. More critically, the claim that it persists for slow binding/unbinding is surprising, as the quasi-static equilibrium assumption (used to derive g) breaks down in that limit. The supplementary figure is not visible, so I cannot assess the quality of the agreement. Without a clear statement of the parameter regimes where the approximation fails, the general applicability of the results is unclear.
+  - **Why it matters** If the approximation fails for biologically relevant parameters (e.g., slow binding or large noise), the analytical expressions for mean and noise of FPT would be misleading. The authors need to provide a systematic comparison between the approximation and exact simulations across a wide range of parameters, including those where the approximation is expected to break down, to establish its domain of validity.
+  - **Resolution test** Provide a figure or table showing the relative error between the approximate and simulated FPT statistics as a function of key parameters (e.g., binding rate, noise level, threshold X). State explicitly the conditions under which the approximation is valid and discuss the implications for the conclusions if those conditions are not met.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that decoys enhance timing precision at the expense of higher expression cost, and that stable decoys offer greater precision with less cost than unstable ones.
+  - **Evidence pointer** Section "FPT statistics when bound TFs are protected from degradation", Figure 4
+  - **Concern** The concept of "expression cost" is introduced qualitatively and is not rigorously defined. The authors state that increasing burst frequency or threshold increases cost, but no metric is provided. The claim that stable decoys are more cost-effective is based on this undefined notion. Without a quantitative definition, the trade-off between precision and cost cannot be evaluated, and the practical implications for cellular design principles remain speculative.
+  - **Why it matters** The central message of the paper is that decoys can improve timing precision, but the associated cost is a key part of the trade-off. If cost is not defined, the reader cannot judge whether the proposed mechanism is beneficial in a biological or engineering context. A clear definition, even a simple one (e.g., total protein production rate), would make the claim testable and more impactful.
+  - **Resolution test** Define a quantitative measure of expression cost (e.g., mean total protein level or total production rate) and show how it varies with N for both beta = 0 and beta = 1. Replot Figure 4 with cost on one axis and precision on the other to demonstrate the trade-off explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that for beta = 1, the relationship between FPT mean and noise is invariant of N, following a master curve (Eq. 18).
+  - **Evidence pointer** Section "FPT statistics when both bound and free TFs decay at the same rate", Figure 3c
+  - **Concern** This claim is based on the observation that Eq. 18 has the same functional form as the no-decoy case. However, the mean FPT itself depends on N through g, so the master curve is traversed at different points for different N. The authors do not discuss whether this invariance is a robust feature or an artifact of the approximation. The simulation results in Figure 3c are referenced but not shown in detail, so I cannot verify the claim.
+  - **Why it matters** The master curve is a key result that suggests decoys do not alter the noise-mean relationship when beta = 1. If this is true, it has implications for how cells can tune timing without affecting variability. However, if the approximation introduces a bias, the conclusion could be incorrect.
+  - **Resolution test** Show the simulation data points for multiple N values on the same plot as the master curve, with error bars, to demonstrate that the data collapse onto the curve. Discuss any deviations and their potential causes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section "Introduction", Section "Discussion"
+  - **Issue** The biological motivation is stated but not elaborated. The introduction mentions decoys in the context of transcription factor binding but does not provide concrete examples of biological processes where timing precision is critical and where decoys are known to play a role. The discussion mentions phage lambda but only briefly.
+  - **Required correction** Add a paragraph in the introduction or discussion that describes specific biological systems (e.g., cell cycle, circadian clocks, developmental decisions) where decoy-mediated timing control could be relevant, and cite experimental evidence for decoy effects in those systems.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model formulation
+  - **Evidence pointer** Section "Model formulation", Table 1
+  - **Issue** The model assumes a fixed total number of decoys N. The authors acknowledge this in the discussion but do not address the potential impact of decoy number fluctuations on the results. Since decoy sites can be dynamic (e.g., chromatin remodeling), this is a relevant limitation.
+  - **Required correction** Briefly discuss in the discussion how decoy number fluctuations could alter the FPT statistics and whether the analytical framework could be extended to account for this.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, FPT statistics when bound TFs are protected from degradation
+  - **Evidence pointer** Section "FPT statistics when bound TFs are protected from degradation", Equation 22
+  - **Issue** The approximation for beta = 0 is derived under the condition kd << xf. The authors do not state the range of kd values used in the simulations or whether the analytical results hold for larger kd.
+  - **Required correction** State the parameter range for kd used in the simulations and discuss the behavior of the system when kd is not small.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The validity of the central approximation and the definition of the key trade-off must be clarified. R1-M3 is important but not blocking if the master curve claim is supported by the simulations.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its specific focus on FPT statistics in the presence of decoys, which is a relatively unexplored area. The analytical approach is novel, but the underlying methods (LNA, SNA) are standard. The originality is moderate.
+  - **Scientific importance** The question of how decoys affect timing is important for understanding gene regulatory networks. However, the impact is limited by the lack of a quantitative cost metric and the absence of a direct experimental connection. The importance is moderate.
+  - **Interdisciplinary readership** The topic is of interest to researchers in biophysics, systems biology, and synthetic biology. The mathematical content may be challenging for experimentalists, but the core message is accessible. The interdisciplinary appeal is moderate.
+  - **Technical soundness** The analytical derivations appear plausible, but the central approximation (Eq. 14) requires more rigorous validation. The lack of visible simulation details and supplementary materials prevents a full assessment. The technical soundness is currently not fully established.
+  - **Readability for nonspecialists** The paper is clearly written but dense. The abstract and introduction are accessible, but the results section requires familiarity with stochastic processes. The readability is adequate for a specialized audience but could be improved for a broader one.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the analytical framework is a useful contribution. However, the blocking concerns regarding the validity of the approximation and the definition of expression cost must be addressed before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the modified FPT approximation (Eq. 14) is valid for slow binding/unbinding is not supported by visible evidence; the supplementary figure is not provided.
+- The claim that decoys enhance timing precision at the expense of higher expression cost is not quantitatively supported, as "expression cost" is not defined.
+- The claim that stable decoys offer greater precision with less cost than unstable ones is not testable without a cost metric.
+- The general applicability of the results to biological systems is asserted but not demonstrated with specific parameter values or experimental comparisons.
+- The agreement between analytical results and simulations is claimed but not fully shown in the main text; the quality of the agreement is not assessable from the provided material.

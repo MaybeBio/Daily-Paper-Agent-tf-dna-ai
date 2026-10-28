@@ -1,0 +1,629 @@
+{
+  "identity": {
+    "pmid": "41437153",
+    "doi": "10.1038/s41588-025-02441-6",
+    "title": "Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion."
+  },
+  "content": {
+    "abstract": "Systematically designing regulatory elements for precise gene expression control remains a central challenge in genomics and synthetic biology. Here we introduce DNA-Diffusion, a generative artificial intelligence framework that uses machine learning trained on DNA accessibility data from diverse cell lines to design compact regulatory elements with cell-type-specific activity. We show that DNA-Diffusion generates 200-base-pair synthetic elements that recapitulate endogenous transcription factor binding grammar while exhibiting enhanced cell-type specificity. We validated these elements using a 5,850-element STARR-seq library across three cell lines. Moreover, we demonstrated successful endogenous gene modulation using EXTRA-seq, reactivating AXIN2, a leukemia-protective gene, in its native genomic context. Our approach outperforms existing computational methods in balancing functional activity with cell-type specificity while maintaining sequence diversity. This work establishes DNA-Diffusion as a powerful tool for engineering compact, highly specific regulatory elements crucial for advancing gene therapies and understanding gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA/genetics",
+      "Synthetic Biology/methods",
+      "*Artificial Intelligence",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Gene Expression Regulation/genetics",
+      "Axin Protein/genetics",
+      "Machine Learning",
+      "Cell Line",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "DaSilva, Lucas Ferreira",
+        "Senan, Simon",
+        "Kribelbauer-Swietek, Judith F",
+        "Patel, Zain Munir",
+        "Louis, Lithin Karmel",
+        "Reddy, Aniketh Janardhan",
+        "Gabbita, Sameer",
+        "Rosen, Jonathan D",
+        "Nussbaum, Zach",
+        "Cordova, Cesar Miguel Valdez",
+        "Wenteler, Aaron",
+        "Weber, Noah",
+        "Tunjic, Tin M",
+        "Mansoldo, Martino",
+        "Khan, Talha Ahmad",
+        "Hwang, Gue-Ho",
+        "Gardeux, Vincent",
+        "Humphreys, David T",
+        "Smith, Cameron",
+        "Bejan, Matei",
+        "Bromley, Peter",
+        "Connell, Will",
+        "Deplancke, Bart",
+        "Love, Michael I",
+        "Wong, Emily S",
+        "Meuleman, Wouter",
+        "Pinello, Luca"
+      ],
+      "short_names": [
+        "DaSilva LF",
+        "Senan S",
+        "Kribelbauer-Swietek JF",
+        "Patel ZM",
+        "Louis LK",
+        "Reddy AJ",
+        "Gabbita S",
+        "Rosen JD",
+        "Nussbaum Z",
+        "Cordova CMV",
+        "Wenteler A",
+        "Weber N",
+        "Tunjic TM",
+        "Mansoldo M",
+        "Khan TA",
+        "Hwang GH",
+        "Gardeux V",
+        "Humphreys DT",
+        "Smith C",
+        "Bejan M",
+        "Bromley P",
+        "Connell W",
+        "Deplancke B",
+        "Love MI",
+        "Wong ES",
+        "Meuleman W",
+        "Pinello L"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-7501-2102",
+        "ORCID: 0000-0002-8072-7773",
+        "ORCID: 0000-0002-9782-5361",
+        "ORCID: 0000-0001-6396-4219",
+        "ORCID: 0000-0001-8954-2161",
+        "ORCID: 0000-0002-6347-7506",
+        "ORCID: 0000-0001-9935-843X",
+        "ORCID: 0000-0003-0315-2942",
+        "ORCID: 0000-0002-1196-5401",
+        "ORCID: 0000-0003-1109-3823"
+      ],
+      "affiliations": [
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA.",
+        "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia.",
+        "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, CA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Genetics, Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.",
+        "Independent researcher, New York, NY, USA.",
+        "Quantitative Life Sciences, McGill University, Montreal, QC, Canada; Mila-Quebec AI Institute, Montreal, QC, Canada.",
+        "Queen Mary University of London, London, UK.",
+        "Cosmon, San Francisco, CA, USA.",
+        "Axion Labs Inc, San Francisco, CA, USA.",
+        "Independent researcher, London, UK.",
+        "GSK.ai, London, UK.",
+        "Independent researcher, Pittsburgh, PA, USA.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Department of Computational Biology, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia.",
+        "School of Clinical Medicine, UNSW Sydney, Sydney, Australia.",
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "University of Bucharest, Bucharest, Romania.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA, USA.",
+        "Independent researcher, Berkeley, CA, USA.",
+        "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+        "Department of Genetics, Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.",
+        "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia.",
+        "School of Biotechnology and Biomolecular Sciences, Faculty of Science, UNSW Sydney, Sydney, Australia.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA, USA.",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+        "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+        "Broad Institute of Harvard and MIT, Cambridge, MA, USA. lpinello@mgh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "DaSilva, Lucas Ferreira",
+        "short_name": "DaSilva LF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Senan, Simon",
+        "short_name": "Senan S",
+        "identifiers": [
+          "0009-0003-7501-2102"
+        ],
+        "affiliations": [
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kribelbauer-Swietek, Judith F",
+        "short_name": "Kribelbauer-Swietek JF",
+        "identifiers": [
+          "0000-0002-8072-7773"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA.",
+          "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Patel, Zain Munir",
+        "short_name": "Patel ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Louis, Lithin Karmel",
+        "short_name": "Louis LK",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Reddy, Aniketh Janardhan",
+        "short_name": "Reddy AJ",
+        "identifiers": [
+          "0000-0002-9782-5361"
+        ],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gabbita, Sameer",
+        "short_name": "Gabbita S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+          "Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Rosen, Jonathan D",
+        "short_name": "Rosen JD",
+        "identifiers": [
+          "0000-0001-6396-4219"
+        ],
+        "affiliations": [
+          "Department of Genetics, Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Nussbaum, Zach",
+        "short_name": "Nussbaum Z",
+        "identifiers": [],
+        "affiliations": [
+          "Independent researcher, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Córdova, César Miguel Valdez",
+        "short_name": "Córdova CMV",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Life Sciences, McGill University, Montreal, QC, Canada; Mila-Québec AI Institute, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Wenteler, Aaron",
+        "short_name": "Wenteler A",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Mary University of London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Weber, Noah",
+        "short_name": "Weber N",
+        "identifiers": [],
+        "affiliations": [
+          "Cosmon, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tunjic, Tin M",
+        "short_name": "Tunjic TM",
+        "identifiers": [],
+        "affiliations": [
+          "Axion Labs Inc, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mansoldo, Martino",
+        "short_name": "Mansoldo M",
+        "identifiers": [],
+        "affiliations": [
+          "Independent researcher, London, UK.",
+          "GSK.ai, London, UK."
+        ]
+      },
+      {
+        "full_name": "Khan, Talha Ahmad",
+        "short_name": "Khan TA",
+        "identifiers": [],
+        "affiliations": [
+          "Independent researcher, Pittsburgh, PA, USA.",
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, USA.",
+          "Department of Computational Biology, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Hwang, Gue-Ho",
+        "short_name": "Hwang GH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gardeux, Vincent",
+        "short_name": "Gardeux V",
+        "identifiers": [
+          "0000-0001-8954-2161"
+        ],
+        "affiliations": [
+          "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Humphreys, David T",
+        "short_name": "Humphreys DT",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia.",
+          "School of Clinical Medicine, UNSW Sydney, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Smith, Cameron",
+        "short_name": "Smith C",
+        "identifiers": [
+          "0000-0002-6347-7506"
+        ],
+        "affiliations": [
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+          "Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bejan, Matei",
+        "short_name": "Bejan M",
+        "identifiers": [],
+        "affiliations": [
+          "University of Bucharest, Bucharest, Romania."
+        ]
+      },
+      {
+        "full_name": "Bromley, Peter",
+        "short_name": "Bromley P",
+        "identifiers": [],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Connell, Will",
+        "short_name": "Connell W",
+        "identifiers": [],
+        "affiliations": [
+          "Independent researcher, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Deplancke, Bart",
+        "short_name": "Deplancke B",
+        "identifiers": [
+          "0000-0001-9935-843X"
+        ],
+        "affiliations": [
+          "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Love, Michael I",
+        "short_name": "Love MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wong, Emily S",
+        "short_name": "Wong ES",
+        "identifiers": [
+          "0000-0003-0315-2942"
+        ],
+        "affiliations": [
+          "Victor Chang Cardiac Institute, Darlinghurst, New South Wales, Australia.",
+          "School of Biotechnology and Biomolecular Sciences, Faculty of Science, UNSW Sydney, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Meuleman, Wouter",
+        "short_name": "Meuleman W",
+        "identifiers": [
+          "0000-0002-1196-5401"
+        ],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA, USA.",
+          "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinello, Luca",
+        "short_name": "Pinello L",
+        "identifiers": [
+          "0000-0003-1109-3823"
+        ],
+        "affiliations": [
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+          "Molecular Pathology Unit and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+          "Broad Institute of Harvard and MIT, Cambridge, MA, USA. lpinello@mgh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 07:43",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "42509369",
+      "42495002",
+      "42261595",
+      "42211230",
+      "41781614",
+      "41676719",
+      "41559820"
+    ],
+    "refs": [
+      "41781614",
+      "41168159",
+      "40403729",
+      "40245860",
+      "39565199",
+      "39443793",
+      "39322281",
+      "38086419",
+      "38086418",
+      "37962376",
+      "37490428",
+      "37433327",
+      "37104592",
+      "36973806",
+      "36635457",
+      "36426870",
+      "36253868",
+      "36042233",
+      "35440565",
+      "35177836",
+      "34608324",
+      "33832990",
+      "33555272",
+      "32912294",
+      "32728249",
+      "32728217",
+      "31784727",
+      "30866806",
+      "30568279",
+      "30305743",
+      "28850106",
+      "27831498",
+      "26503782",
+      "26432245",
+      "26072434",
+      "25693563",
+      "24799436",
+      "24435020",
+      "24351709",
+      "24091925",
+      "23715323",
+      "22955616",
+      "20595513",
+      "20110278",
+      "19773334",
+      "19649655",
+      "17132828",
+      "16199517",
+      "16093699",
+      "11932250",
+      "11667959"
+    ],
+    "similar": [
+      "41437153",
+      "38352499",
+      "23867016",
+      "32043966",
+      "41554183",
+      "40329378",
+      "42475469",
+      "39124917",
+      "41285795",
+      "39747019",
+      "30427832",
+      "40245860",
+      "38715516",
+      "22011226",
+      "41920894",
+      "40472848",
+      "41419171",
+      "39587360",
+      "24603674",
+      "8369280",
+      "8376406",
+      "29617928",
+      "41981910",
+      "40914877",
+      "41420926",
+      "8769570",
+      "22955983",
+      "22955984",
+      "32978299",
+      "40170308",
+      "14694093",
+      "41713401",
+      "39088190",
+      "36931273",
+      "12428013",
+      "39443793",
+      "8132552",
+      "39127768",
+      "42478686",
+      "42509369",
+      "42094554",
+      "41862973",
+      "22115494",
+      "32728250",
+      "38093018",
+      "35435921",
+      "22955619",
+      "21106904",
+      "22761590",
+      "38604126",
+      "41288963",
+      "12115037",
+      "28620196",
+      "38730006",
+      "41247408",
+      "39322281",
+      "37600946",
+      "20133776",
+      "2544800",
+      "26499213",
+      "16784907",
+      "1549130",
+      "39814021",
+      "1761546",
+      "38092918",
+      "41128614",
+      "23912807",
+      "36935423",
+      "20140202",
+      "10455139",
+      "39843737",
+      "23892608",
+      "23482648",
+      "26818008",
+      "12758126",
+      "2188976",
+      "20827583",
+      "22763441",
+      "14642566",
+      "30414113",
+      "23732772",
+      "34898596",
+      "11813254",
+      "22950945",
+      "37805453",
+      "16204087",
+      "20661307",
+      "34292930",
+      "39326643",
+      "29855387",
+      "12177069",
+      "19782160",
+      "24985916",
+      "10022610",
+      "39904740",
+      "41639451",
+      "39824164",
+      "41951735",
+      "15527974",
+      "29579165"
+    ],
+    "review": [
+      "41437153",
+      "41554183",
+      "39124917",
+      "38715516",
+      "41419171",
+      "41420926",
+      "40170308",
+      "41713401",
+      "42509369",
+      "41862973",
+      "38093018",
+      "38730006",
+      "26499213",
+      "36935423"
+    ],
+    "pmc": [
+      "13221708"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41588-025-02441-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41437153/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

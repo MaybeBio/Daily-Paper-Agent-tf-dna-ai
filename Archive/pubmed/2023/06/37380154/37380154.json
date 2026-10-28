@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "37380154",
+    "doi": "10.1097/RCT.0000000000001454",
+    "title": "Oligodendrocyte Transcription Factor 2 as a Potential Prognostic Biomarker of Glioblastoma: Kaplan-Meier Analysis and the Development of a Binary Predictive Model Based on Visually Accessible Rembrandt Image and Magnetic Resonance Imaging Radiomic Features."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Oligodendrocyte transcription factor 2 (OLIG2) is universally expressed in human glioblastoma (GB). Our study explores whether OLIG2 expression impacts GB patients' overall survival and establishes a machine learning model for OLIG2 level prediction in patients with GB based on clinical, semantic, and magnetic resonance imaging radiomic features. METHODS: Kaplan-Meier analysis was used to determine the optimal cutoff value of the OLIG2 in 168 GB patients. Three hundred thirteen patients enrolled in the OLIG2 prediction model were randomly divided into training and testing sets in a ratio of 7:3. The radiomic, semantic, and clinical features were collected for each patient. Recursive feature elimination (RFE) was used for feature selection. The random forest (RF) model was built and fine-tuned, and the area under the curve was calculated to evaluate the performance. Finally, a new testing set excluding IDH-mutant patients was built and tested in a predictive model using the fifth edition of the central nervous system tumor classification criteria. RESULTS: One hundred nineteen patients were included in the survival analysis. Oligodendrocyte transcription factor 2 was positively associated with GB survival, with an optimal cutoff of 10% ( P = 0.00093). One hundred thirty-four patients were eligible for the OLIG2 prediction model. An RFE-RF model based on 2 semantic and 21 radiomic signatures achieved areas under the curve of 0.854 in the training set, 0.819 in the testing set, and 0.825 in the new testing set. CONCLUSIONS: Glioblastoma patients with </=10% OLIG2 expression tended to have worse overall survival. An RFE-RF model integrating 23 features can predict the OLIG2 level of GB patients preoperatively, irrespective of the central nervous system classification criteria, further guiding individualized treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/diagnostic imaging/pathology",
+      "Kaplan-Meier Estimate",
+      "Prognosis",
+      "*Brain Neoplasms/diagnostic imaging/genetics",
+      "Oligodendrocyte Transcription Factor 2",
+      "Retrospective Studies",
+      "Magnetic Resonance Imaging/methods",
+      "Biomarkers"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mei, Nan",
+        "Lu, Yiping",
+        "Yang, Shan",
+        "Jiang, Shenghong",
+        "Ruan, Zhuoying",
+        "Wang, Dongdong",
+        "Liu, Xiujuan",
+        "Ying, Yinwei",
+        "Li, Xuanxuan",
+        "Yin, Bo"
+      ],
+      "short_names": [
+        "Mei N",
+        "Lu Y",
+        "Yang S",
+        "Jiang S",
+        "Ruan Z",
+        "Wang D",
+        "Liu X",
+        "Ying Y",
+        "Li X",
+        "Yin B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "Pathology, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology.",
+        "From the Departments of Radiology."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mei, Nan",
+        "short_name": "Mei N",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Lu, Yiping",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Yang, Shan",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shenghong",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Ruan, Zhuoying",
+        "short_name": "Ruan Z",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongdong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiujuan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology, Huashan Hospital, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ying, Yinwei",
+        "short_name": "Ying Y",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Li, Xuanxuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      },
+      {
+        "full_name": "Yin, Bo",
+        "short_name": "Yin B",
+        "identifiers": [],
+        "affiliations": [
+          "From the Departments of Radiology."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computer assisted tomography"
+    ],
+    "journal_abbrev": [
+      "J Comput Assist Tomogr"
+    ],
+    "pub_date": "2023 Jul-Aug 01",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/29 01:08",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "40002166",
+      "39247740"
+    ],
+    "refs": [],
+    "similar": [
+      "37380154",
+      "32980505",
+      "31546124",
+      "33509914",
+      "31003026",
+      "35405713",
+      "37993907",
+      "29442128",
+      "28079702",
+      "37001387",
+      "33941364",
+      "31218383",
+      "29915951",
+      "27326665",
+      "30561851",
+      "32162004",
+      "35881182",
+      "37222229",
+      "30277442",
+      "32417712",
+      "30426720",
+      "30391622",
+      "36853347",
+      "39155364",
+      "30054278",
+      "34645095",
+      "37985291",
+      "32374045",
+      "38054695",
+      "30660472",
+      "29036412",
+      "30039219",
+      "29404769",
+      "32160197",
+      "29721688",
+      "38956384",
+      "33006658",
+      "23041832",
+      "32144360",
+      "32278699",
+      "15198128",
+      "26203066",
+      "27447975",
+      "38418494",
+      "33462763",
+      "31606714",
+      "28074320",
+      "32006166",
+      "36920774",
+      "31568682",
+      "32089742",
+      "29430935",
+      "34233259",
+      "34269536",
+      "34648115",
+      "32239241",
+      "33535988",
+      "36841898",
+      "33819703",
+      "36453877",
+      "30421019",
+      "28642265",
+      "31001929",
+      "37201539",
+      "30324390",
+      "36461120",
+      "26188015",
+      "30847586",
+      "35856894",
+      "34003477",
+      "38135816",
+      "28914549",
+      "36276136",
+      "32758279",
+      "33553421",
+      "29564594",
+      "29527478",
+      "27781499",
+      "30910431",
+      "31594994",
+      "30979965",
+      "31786560",
+      "30735871",
+      "30878526",
+      "32500196",
+      "31272093",
+      "35033600",
+      "33289845",
+      "26409566",
+      "30719536",
+      "33525116",
+      "31320621",
+      "31104273",
+      "30120041",
+      "28674975",
+      "28362236",
+      "33559302",
+      "32488372",
+      "30067421",
+      "29191871",
+      "31845844",
+      "27329522",
+      "34638460",
+      "33746333",
+      "38468052"
+    ],
+    "review": [
+      "37380154"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/37380154.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/RCT.0000000000001454",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

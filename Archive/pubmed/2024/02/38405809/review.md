@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text; no external data or supplementary figures were available for inspection
+- **Shared manuscript claim summary** The authors use computational modeling (homology modeling, classical and accelerated molecular dynamics simulations) and a mammalian two-hybrid assay to propose that the hinge region of the farnesoid X receptor (FXR) mediates ligand-specific interdomain communication between the DNA-binding domain (DBD) and ligand-binding domain (LBD), with potent agonists inducing a compact domain arrangement.
+- **Visible evidence base** Main text figures referenced (Figs. 1–5), supplementary figures (S1–S6), supplementary table (S1), and methods descriptions; no actual figure panels, numerical data, or statistical outputs were provided in the supplied material
+- **Missing materials affecting confidence** All figure contents, supplementary data, simulation parameters (beyond those described), raw trajectory analyses, statistical test outputs, and the full methods details for the two-hybrid assay; the manuscript appears to be a preprint and may lack final formatting
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in nuclear receptor biology, namely the molecular basis of interdomain communication in full-length receptors. The combination of long-timescale atomistic simulations with experimental validation is commendable and aligns with current trends in the field. However, the evidence as presented has several gaps that prevent full confidence in the central claims. The simulation methodology, while state-of-the-art, is described with insufficient detail to assess convergence and sampling adequacy. The experimental validation is limited to a single assay with modest effect sizes reported qualitatively. The claim of ligand specificity is based on a small number of ligands and lacks a mechanistic explanation at the molecular level. The manuscript would benefit from clearer presentation of quantitative results and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural biology, and computational biophysics would find these results of interest. The study provides a framework for studying full-length receptors, which has been a long-standing challenge. The proposed role of the hinge as an active mediator of interdomain communication, rather than a passive linker, has implications for understanding allosteric regulation in this protein family. The methodological approach combining simulations with cellular assays could be adopted by others studying multidomain proteins.
+- **Major strengths** (1) The study tackles a difficult and important problem, namely the dynamic behavior of full-length nuclear receptors, which is poorly understood due to experimental challenges. (2) The use of microsecond-scale atomistic simulations on a specialized supercomputer (Anton 2) represents a significant technical investment and provides a level of detail not commonly achieved. (3) The combination of computational predictions with experimental validation via a two-hybrid assay strengthens the study's conclusions. (4) The identification of specific interdomain interfaces (DLI-1, DLI-2, DLI-3) provides a useful framework for future studies. (5) The observation that ligand potency correlates with the ability to induce domain compaction is a potentially important finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation methodology
+  - **Claim pointer** The authors claim that extended molecular dynamics simulations (>10 microseconds) and enhanced sampling simulations provide evidence that ligands selectively induce domain rearrangement.
+  - **Evidence pointer** Methods section, "Classical MD simulations" and "Accelerated MD simulations"; Figures 2 and 3
+  - **Concern** The manuscript does not provide sufficient detail on simulation convergence, sampling adequacy, or replica/ensemble strategies. For a claim of ligand-specific effects on domain rearrangement, it is critical to demonstrate that the observed differences are not due to insufficient sampling or initial condition bias. The number of independent simulations per condition, the criteria for determining convergence, and the statistical treatment of trajectory ensembles are not described. Additionally, the accelerated MD method is known to introduce biases that can obscure ligand-specific dynamics, yet the authors acknowledge this but do not provide a quantitative assessment of the bias magnitude.
+  - **Why it matters** Without demonstrated convergence and adequate sampling, the observed differences between ligand-bound states could be artifacts of the simulation setup rather than genuine biophysical differences. This is particularly important given the long timescales involved and the known challenges of sampling multidomain protein conformations.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD stabilization, cluster population stability over time), the number of independent simulations, and a comparison of results from different starting conditions. Quantify the effect of the accelerated MD boost potential on the observed dynamics, possibly by comparing with unbiased simulations for a subset of systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation strength
+  - **Claim pointer** The authors claim that two-hybrid experiments confirm that the FXR LBD and DBD interact only when the hinge is included, and that this interaction is ligand-specific.
+  - **Evidence pointer** Results section, "Experimental validation of ligand-induced interdomain contact in FXR"; Figure 5
+  - **Concern** The experimental validation relies on a single assay (mammalian two-hybrid) with qualitative descriptions of results. The manuscript states that "a small but significant increase" was observed for GW4064 and OCA, but no quantitative data (e.g., fold changes, error bars, statistical test values) are presented in the text. The figure is not available for inspection. The two-hybrid assay is an indirect measure of protein-protein interaction and can be influenced by many factors unrelated to direct physical contact, such as changes in protein stability, expression levels, or nuclear localization. The authors do not address these potential confounders.
+  - **Why it matters** The experimental data are the primary evidence for the biological relevance of the computational predictions. If the assay results are not robustly quantified and controlled, the claim of ligand-specific interdomain communication is not firmly established.
+  - **Resolution test** Provide quantitative data with appropriate statistical analysis, including effect sizes and confidence intervals. Include control experiments to rule out effects on protein expression or stability (e.g., Western blots). Consider orthogonal validation methods such as co-immunoprecipitation or FRET-based assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the proposed mechanism
+  - **Claim pointer** The authors propose that the hinge plays an active role in mediating interdomain contact and that this is ligand-specific, with potent agonists inducing compaction.
+  - **Evidence pointer** Results sections on MD simulations and experimental validation; Discussion
+  - **Concern** The manuscript does not provide a mechanistic explanation for why potent agonists (OCA, GW4064) induce domain compaction while weaker ligands (LCA, CDCA) do not. The authors note that binding affinity is not always correlated with activity, but they do not explore what specific ligand properties (e.g., size, polarity, binding mode) might drive the differential effect. Furthermore, the claim that the hinge "plays an active role" is not fully supported by the data, as the simulations show hinge involvement but do not demonstrate causality. The two-hybrid experiments show that the hinge is necessary for interaction, but not that it actively mediates the conformational change.
+  - **Why it matters** A mechanistic understanding is essential for the findings to be generalizable to other nuclear receptors and for guiding future experimental work. Without a clear model of how ligand binding in the LBD propagates through the hinge to affect DBD positioning, the study remains largely descriptive.
+  - **Resolution test** Perform additional simulations or analyses to identify specific hinge residues or structural motifs that respond to ligand binding. Test the effect of hinge mutations on the two-hybrid interaction. Compare the structural and dynamic properties of the hinge in the presence of different ligands to identify ligand-specific effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors state that their framework "will enable characterization of other full length nuclear receptors."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is limited to FXR, and the authors do not discuss how their findings might apply to other nuclear receptors with different domain architectures, hinge lengths, or dimerization properties. The comparison with existing full-length structures (RXRα-PPARγ, RXRα-LXRβ, etc.) is brief and does not address whether the DLI classification scheme would be applicable to other receptors. The authors also do not discuss the potential role of DNA binding or coregulator interactions in modulating the interdomain communication they observe.
+  - **Why it matters** The broader significance of the work depends on its applicability beyond FXR. If the proposed framework is FXR-specific, the impact on the field is more limited.
+  - **Resolution test** Discuss how the DLI classification and the role of the hinge might apply to other nuclear receptors, considering variations in hinge length and sequence. If possible, perform preliminary simulations or analyses on one or two additional receptors to test the generalizability of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section, "Prediction and optimization of structural models of full-length FXR"
+  - **Issue** The description of the model building process is brief. It is unclear how the three hinge conformations were generated and how the "extended" and "compact" models were selected from the clustering analysis. The criteria for choosing these two models as starting points for subsequent simulations are not stated.
+  - **Required correction** Provide more detail on the model generation and selection process, including the clustering algorithm used and the rationale for choosing the two representative conformations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 5 and associated text
+  - **Evidence pointer** Results section, "Experimental validation of ligand-induced interdomain contact in FXR"
+  - **Issue** The statistical analysis is described in the methods but the results are not reported in the text. The number of independent experiments, the exact p-values, and the effect sizes are not given.
+  - **Required correction** Report the quantitative results of the two-hybrid assays, including mean values, standard deviations or standard errors, and p-values for the relevant comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Accelerated MD simulations
+  - **Evidence pointer** Methods section, "Accelerated MD simulations"
+  - **Concern** The parameters for the accelerated MD boost potential are not provided. The equation is given but the specific values for the threshold energy (E) and the acceleration factor (α) are not stated. This prevents reproduction of the simulations.
+  - **Required correction** Provide the specific parameters used for the accelerated MD simulations, including the values for E and α for each system.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of salt bridge analysis
+  - **Affected element** Table S1 and associated text
+  - **Evidence pointer** Results section, "Hinge-LBD salt bridges play a prominent role in stabilizing fl-FXR"
+  - **Issue** The manuscript states that hinge-LBD salt bridges are the most prevalent, but it is not clear how prevalence was quantified. The threshold for "prevalence" (e.g., percentage of trajectory frames) is not defined.
+  - **Required correction** Define the criteria for identifying a salt bridge as "prevalent" and provide the quantitative thresholds used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not adequately address the limitations of the computational approach, particularly the approximations inherent in the force field, the limited timescale of the simulations relative to biologically relevant conformational changes, and the potential artifacts of the accelerated MD method.
+  - **Required correction** Add a paragraph discussing the limitations of the computational methods and how they might affect the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation convergence and sampling adequacy) and R1-M2 (quantitative experimental validation) are the primary technical issues that must be resolved. Without these, the central claims of ligand-specific domain rearrangement and hinge-mediated communication are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is original in its application of long-timescale atomistic simulations to a full-length nuclear receptor and in its proposal that the hinge is an active mediator of interdomain communication. However, the concept of ligand-induced conformational changes in nuclear receptors is well established, and the specific findings, while novel for FXR, may not represent a conceptual breakthrough.
+  - Scientific importance: The question of interdomain communication in nuclear receptors is important, and the study provides a framework that could be applied to other receptors. However, the significance is somewhat limited by the lack of mechanistic detail and the reliance on a single experimental assay.
+  - Interdisciplinary readership: The work bridges computational biophysics and molecular biology, and would be of interest to researchers in both fields. The methods and findings are presented in a way that is largely accessible to a broad audience.
+  - Technical soundness: The simulation methodology is state-of-the-art, but the lack of demonstrated convergence and the potential biases of accelerated MD are concerns. The experimental validation is technically sound but limited in scope and quantitative rigor.
+  - Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly. However, some sections, particularly the description of the geometric parameters (θ, dv), may be challenging for readers without a computational background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and the combination of computational and experimental approaches is promising. However, the current evidence does not fully establish the central claims. The authors should provide additional data on simulation convergence, quantitative experimental results, and a more detailed mechanistic analysis before the findings can be considered robust.
+
+## Risk / unsupported claims
+- The claim that "ligands selectively induce domain rearrangement" is not fully supported without demonstrated simulation convergence and statistical analysis of multiple independent trajectories.
+- The claim that the hinge "plays an active role in mediating interdomain contact" is supported by the two-hybrid data but lacks a mechanistic explanation at the residue level.
+- The statement that this is "the first observation of an open (extended) to closed (compact) domain rearrangement in a nuclear receptor" is difficult to verify from the provided text and may be overstated given the limited experimental evidence.
+- The comparison of the compact state with the RXR binding site (Fig. S1) is speculative and not experimentally validated.
+- The MM-PBSA binding affinity calculations (Fig. S3) are presented without discussion of the known limitations of this method, and the authors appropriately refrain from making inferences based on the observed trend.
+- The claim that the DLI classification scheme will be applicable to other nuclear receptors is speculative and not supported by data from other receptors.

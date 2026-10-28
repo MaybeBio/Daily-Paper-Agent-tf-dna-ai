@@ -1,0 +1,350 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.06.561233",
+  "title": "Spatial transcriptomics in the adult Drosophila brain and body",
+  "doi": "10.1101/2023.10.06.561233",
+  "abstract": "Recently, we have achieved a significant milestone with the creation of the Fly Cell Atlas. This single-nuclei atlas encompasses the entire fly, covering the entire head and body, in addition to all major organs. This atlas catalogs many hundreds of cell types, of which we annotated 250. Thus, a large number of clusters remain to be fully characterized, in particular in the brain. Furthermore, by applying single-nuclei sequencing, all information about the spatial location of the cells in the body and of about possible subcellular localization of the mRNAs within these cells is lost. Spatial transcriptomics promises to tackle these issues. In a proof-of-concept study, we have here applied spatial transcriptomics using a selected gene panel to pinpoint the locations of 150 mRNA species in the adult fly. This enabled us to map unknown clusters identified in the Fly Cell Atlas to their spatial locations in the fly brain. Additionally, spatial transcriptomics discovered interesting principles of mRNA localization and transcriptional diversity within the large and crowded muscle cells that may spark future mechanistic investigations. Furthermore, we present a set of computational tools that will allow for easier integration of spatial transcriptomics and single-cell datasets.",
+  "authors": [
+    "Janssens J",
+    "Mangeol P",
+    "Hecker N",
+    "Partel G",
+    "Spanier K",
+    "Ismail J",
+    "Hulselmans G",
+    "Aerts S",
+    "Schnorrer F"
+  ],
+  "published_date": "2023-10-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.06.561233",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.06.561233.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR738156",
+    "raw_record": {
+      "id": "PPR738156",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR738156"
+        ]
+      },
+      "doi": "10.1101/2023.10.06.561233",
+      "title": "Spatial transcriptomics in the adult  <i>Drosophila</i>  brain and body",
+      "authorString": "Janssens J, Mangeol P, Hecker N, Partel G, Spanier K, Ismail J, Hulselmans G, Aerts S, Schnorrer F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Janssens J",
+            "lastName": "Janssens",
+            "firstName": "Jasper",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9264-0782"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mangeol P",
+            "lastName": "Mangeol",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8305-7322"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CNRS, , Turing Centre for Living Systems, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hecker N",
+            "lastName": "Hecker",
+            "firstName": "Nikolai",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1693-4257"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Partel G",
+            "lastName": "Partel",
+            "firstName": "Gabriele",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4482-3119"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spanier K",
+            "lastName": "Spanier",
+            "firstName": "Katina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ismail J",
+            "lastName": "Ismail",
+            "firstName": "Joy",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hulselmans G",
+            "lastName": "Hulselmans",
+            "firstName": "Gert",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aerts S",
+            "lastName": "Aerts",
+            "firstName": "Stein",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8006-0315"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "VIB Center for AI & Computational Biology, , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Computational Biology, Department of Human Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnorrer F",
+            "lastName": "Schnorrer",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9518-7263"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CNRS, , Turing Centre for Living Systems, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9264-0782"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4482-3119"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8006-0315"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8305-7322"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9518-7263"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1693-4257"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Recently, we have achieved a significant milestone with the creation of the Fly Cell Atlas. This single-nuclei atlas encompasses the entire fly, covering the entire head and body, in addition to all major organs. This atlas catalogs many hundreds of cell types, of which we annotated 250. Thus, a large number of clusters remain to be fully characterized, in particular in the brain. Furthermore, by applying single-nuclei sequencing, all information about the spatial location of the cells in the body and of about possible subcellular localization of the mRNAs within these cells is lost. Spatial transcriptomics promises to tackle these issues. In a proof-of-concept study, we have here applied spatial transcriptomics using a selected gene panel to pinpoint the locations of 150 mRNA species in the adult fly. This enabled us to map unknown clusters identified in the Fly Cell Atlas to their spatial locations in the fly brain. Additionally, spatial transcriptomics discovered interesting principles of mRNA localization and transcriptional diversity within the large and crowded muscle cells that may spark future mechanistic investigations. Furthermore, we present a set of computational tools that will allow for easier integration of spatial transcriptomics and single-cell datasets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101054387",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "856118",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "310939",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.06.561233"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR738156"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR738156&type=FILE&fileName=EMS189376-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40100257",
+            "reference": "eLife. \n    2025 Mar;13:RP92618",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189376",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-10-11",
+      "firstPublicationDate": "2023-10-06",
+      "firstIndexDate": "2023-10-11",
+      "fullTextReceivedDate": "2025-01-21",
+      "hasEvaluations": "Y"
+    }
+  }
+}

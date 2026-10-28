@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "39966875",
+    "doi": "10.1186/s41065-025-00385-9",
+    "title": "Identification of biomarkers and mechanism exploration of ferroptosis related genes regulated by m6A in type 2 diabetes mellitus."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study is aims to explore the role of ferroptosis genes regulated by N6-methyladenosine (m6A) in Type 2 diabetes mellitus (T2DM). MATERIAL AND METHODS: Firstly, differentially expressed m6A-FRGs (DEm6A-FRGs) were obtained by intersecting the differentially expressed genes (DEGs) and the m6A-related ferroptosis genes (m6A-FRGs). After enrichment analysis of DEm6A-FRGs, artificial neural network (ANN) and nomogram models were constructed using 4 biomarkers. Moreover, the gene set enrichment analysis of biomarkers was performed. Furthermore, the transcription factors (TF)-mRNA and competing endogenous RNAs (ceRNA) regulatory networks were constructed to reveal the potential regulation of biomarkers at molecular level. In addition, the targeted drugs of biomarkers were predicted, and the molecular docking was used to study the inter-molecular interactions between biomarkers and targeted drugs by \"AutoDockvina\". RESULTS: Totals of 10 DEm6A-FRGs were obtained by intersecting the 402 DEGs and 299 m6A-FRGs. Moreover, the ANN model and nomogram model were constructed with 4 biomarkers including CDKN1A, MIOX, MYCN and CD82, among them, CDKN1A was the most important biomarker for forecasting T2DM. Notably, the function of extracellular matrix structural constituent was low expression in CD82 and MIOX, the function of mitochondrial protein-containing complex was high expression in CD82 and CDKN1A. Furthermore, TP63 could regulate CD82, CDKN1A and MIOX, GATA3 could regulate CD82, CDKN1A and MYCN at the same time. The ceRNA network was constructed with 4 mRNAs, 51 miRNAs and 37 lncRNAs, among them, XIST was a key lncRNA that associated with 12 miRNAs, which could influence CDKN1A. In addition, bisphenol A was associated with CD82 and MYCN, CGP 25608 was associated with CDKN1A and MIOX. CONCLUSION: This study revealed the potential molecular mechanisms of m6A-related ferroptosis genes in T2DM, which could provide novel insights for the clinical diagnosis and treatment of T2DM.",
+    "keywords": [
+      "Biomarkers",
+      "Diagnostic model",
+      "Differentially expressed genes",
+      "Gene Set Enrichment Analysis (GSEA)",
+      "Molecular docking"
+    ],
+    "mesh_terms": [
+      "*Diabetes Mellitus, Type 2/genetics",
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Adenosine/analogs & derivatives/metabolism/genetics",
+      "Gene Regulatory Networks",
+      "Biomarkers",
+      "Neural Networks, Computer",
+      "Gene Expression Regulation",
+      "Molecular Docking Simulation",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jing",
+        "Li, Xuying",
+        "Geng, Juan",
+        "Wang, Ruiduo",
+        "Ma, Gang",
+        "Liu, Pan"
+      ],
+      "short_names": [
+        "Wang J",
+        "Li X",
+        "Geng J",
+        "Wang R",
+        "Ma G",
+        "Liu P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anaesthesiology, Northwest Women's and Children's Hospital, Yanxiang Road, Yanta District, Xi'an, 710000, Shanxi Province, China.",
+        "Department of Anesthesiology, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, Hainan, China.",
+        "Department of Anaesthesiology, Northwest Women's and Children's Hospital, Yanxiang Road, Yanta District, Xi'an, 710000, Shanxi Province, China.",
+        "State Key Laboratory of Transient Optics and Photonics, Xi'an Institute of Optics and Precision Mechanics, Chinese Academy of Science, Xi'an, 710119, China.",
+        "Department of Anesthesiology, General Hospital of Ningxia Medical University, Yinchuan, China 704 Shengli Street, Yinchuan, 750004, Ningxia, China. magang2671@163.com.",
+        "Department of Neurology, Renmin Hospital, Hubei University of Medicine, Maojian District, No. 39, Chaoyang Middle Road, Shiyan, Hubei, 442000, People's Republic of China. 260949545@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anaesthesiology, Northwest Women's and Children's Hospital, Yanxiang Road, Yanta District, Xi'an, 710000, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuying",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Juan",
+        "short_name": "Geng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anaesthesiology, Northwest Women's and Children's Hospital, Yanxiang Road, Yanta District, Xi'an, 710000, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruiduo",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Transient Optics and Photonics, Xi'an Institute of Optics and Precision Mechanics, Chinese Academy of Science, Xi'an, 710119, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Gang",
+        "short_name": "Ma G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, General Hospital of Ningxia Medical University, Yinchuan, China 704 Shengli Street, Yinchuan, 750004, Ningxia, China. magang2671@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Pan",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Renmin Hospital, Hubei University of Medicine, Maojian District, No. 39, Chaoyang Middle Road, Shiyan, Hubei, 442000, People's Republic of China. 260949545@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2025 Feb 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/19 00:15",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42220498",
+      "42136573",
+      "42007157",
+      "41094555",
+      "41020866"
+    ],
+    "refs": [
+      "38239865",
+      "37484960",
+      "37249295",
+      "36882414",
+      "36770809",
+      "36736310",
+      "36309694",
+      "35802474",
+      "35361964",
+      "34882999",
+      "34831062",
+      "34557778",
+      "34261004",
+      "34258295",
+      "34084770",
+      "34023900",
+      "34011924",
+      "33953224",
+      "33585251",
+      "32992479",
+      "32454462",
+      "32169892",
+      "32068099",
+      "32060267",
+      "31437128",
+      "30742570",
+      "30705493",
+      "29463878",
+      "29290465",
+      "28985560",
+      "28495880",
+      "28208054",
+      "27895157",
+      "27738746",
+      "27274295",
+      "26704973",
+      "26649805",
+      "25385600",
+      "24603685",
+      "24493648",
+      "22996663",
+      "22455463",
+      "20470393",
+      "20401516",
+      "19499576",
+      "15124020",
+      "14597658",
+      "7734551"
+    ],
+    "similar": [
+      "39966875",
+      "40197384",
+      "37904700",
+      "37275855",
+      "38741149",
+      "38007403",
+      "40024299",
+      "39793232",
+      "37702097",
+      "38402377",
+      "38323182",
+      "37305039",
+      "39739972",
+      "35422168",
+      "38360841",
+      "38440906",
+      "40124361",
+      "40165108",
+      "35898457",
+      "37259023",
+      "35810010",
+      "39072329",
+      "38470002",
+      "35637927",
+      "34868391",
+      "37626211",
+      "37378023",
+      "38650009",
+      "36034449",
+      "39171207",
+      "40229748",
+      "39324703",
+      "37550393",
+      "34506683",
+      "39716081",
+      "36187128",
+      "35778697",
+      "35757392",
+      "39814853",
+      "37163321",
+      "38172792",
+      "34652258",
+      "39792889",
+      "37316756",
+      "38902567",
+      "32337289",
+      "36440700",
+      "35093068",
+      "39248438",
+      "34861872",
+      "37752199",
+      "35444445",
+      "37131411",
+      "36718444",
+      "37081490",
+      "36218109",
+      "36335193",
+      "33934391",
+      "39415091",
+      "38229237",
+      "37530128",
+      "35901060",
+      "38866217",
+      "39868645",
+      "35957725",
+      "38660574",
+      "39622968",
+      "33493136",
+      "39181316",
+      "33650665",
+      "36875702",
+      "39732963",
+      "37957905",
+      "38472694",
+      "35308568",
+      "39262465",
+      "35331183",
+      "39331874",
+      "37759912",
+      "35975587",
+      "35051888",
+      "35668574",
+      "40262934",
+      "38144322",
+      "35100981",
+      "39991755",
+      "34868393",
+      "38965799",
+      "39634181",
+      "37645416",
+      "38242381",
+      "35305616",
+      "40022042",
+      "38368317",
+      "34672420",
+      "39444146",
+      "34573357",
+      "38802844",
+      "38370466",
+      "37878496"
+    ],
+    "review": [
+      "39966875",
+      "39181316"
+    ],
+    "pmc": [
+      "11834627"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-025-00385-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39966875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

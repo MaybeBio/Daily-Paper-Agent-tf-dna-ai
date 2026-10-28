@@ -1,0 +1,268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.06.668922",
+  "title": "A novel approach to Caudoviricetes taxonomy utilising whole proteome structure-structure comparison",
+  "doi": "10.1101/2025.08.06.668922",
+  "abstract": "Viral proteins often evolve so rapidly that sequence similarity is lost even among conserved functional genes, complicating phylogenetic analysis and classification. This challenge is acute for Caudoviricetes , a highly diverse class of dsDNA tailed bacteriophages recently redefined by the International Committee on Taxonomy of Viruses (ICTV). To address the limitations of sequence-based taxonomy, we present a structure-based classification framework using whole-proteome structural clustering. From 4,082 exemplar genomes, we predicted 445,098 protein structures with ESMFold and clustered them using Foldseek. Genomes were encoded as binary profiles of structural fold presence, and phylogenetic distances were inferred and normalized using Relative Evolutionary Divergence (RED). This yielded a revised structural taxonomy comprising 159 orders, 267 families, 502 subfamilies, and 1,189 genera. We also introduce PhagePleats , a Python tool for classifying novel phage genomes based on structural similarity. Our approach highlights the utility of protein structure for resolving distant viral relationships.",
+  "authors": [
+    "Smith L",
+    "Schmidt TS",
+    "Tolstoy I",
+    "Skvortsov T",
+    "Hill C",
+    "Shkoporov AN"
+  ],
+  "published_date": "2025-08-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668922",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668922.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1063876",
+    "raw_record": {
+      "id": "PPR1063876",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1063876"
+        ]
+      },
+      "doi": "10.1101/2025.08.06.668922",
+      "title": "A novel approach to  <i>Caudoviricetes</i>  taxonomy utilising whole proteome structure-structure comparison",
+      "authorString": "Smith L, Schmidt TS, Tolstoy I, Skvortsov T, Hill C, Shkoporov AN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Smith L",
+            "lastName": "Smith",
+            "firstName": "Linda",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "APC Microbiome Ireland, ,"
+                },
+                {
+                  "affiliation": "School of Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmidt TS",
+            "lastName": "Schmidt",
+            "firstName": "Thomas S.B.",
+            "initials": "TS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8587-4177"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "APC Microbiome Ireland, ,"
+                },
+                {
+                  "affiliation": "School of Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tolstoy I",
+            "lastName": "Tolstoy",
+            "firstName": "Igor",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skvortsov T",
+            "lastName": "Skvortsov",
+            "firstName": "Timofey",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4048-6725"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hill C",
+            "lastName": "Hill",
+            "firstName": "Colin",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "APC Microbiome Ireland, ,"
+                },
+                {
+                  "affiliation": "School of Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shkoporov AN",
+            "lastName": "Shkoporov",
+            "firstName": "Andrey",
+            "initials": "AN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5547-8672"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "APC Microbiome Ireland, ,"
+                },
+                {
+                  "affiliation": "School of Microbiology, ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8587-4177"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4048-6725"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5547-8672"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Viral proteins often evolve so rapidly that sequence similarity is lost even among conserved functional genes, complicating phylogenetic analysis and classification. This challenge is acute for  Caudoviricetes , a highly diverse class of dsDNA tailed bacteriophages recently redefined by the International Committee on Taxonomy of Viruses (ICTV). To address the limitations of sequence-based taxonomy, we present a structure-based classification framework using whole-proteome structural clustering. From 4,082 exemplar genomes, we predicted 445,098 protein structures with ESMFold and clustered them using Foldseek. Genomes were encoded as binary profiles of structural fold presence, and phylogenetic distances were inferred and normalized using Relative Evolutionary Divergence (RED). This yielded a revised structural taxonomy comprising 159 orders, 267 families, 502 subfamilies, and 1,189 genera. We also introduce  PhagePleats , a Python tool for classifying novel phage genomes based on structural similarity. Our approach highlights the utility of protein structure for resolving distant viral relationships.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Research Ireland",
+            "grantId": "12/RC/2273-P2",
+            "orderIn": 0
+          },
+          {
+            "agency": "Research Ireland Centre for Research Training in Genomics Data Science",
+            "grantId": "18/CRT/6214",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust Research Career Development Fellowship",
+            "grantId": "220646/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220646/Z/20/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/06/2025.08.06.668922.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.06.668922"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1063876"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1063876&type=FILE&fileName=EMS207904-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207904",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam"
+        ]
+      },
+      "dateOfCreation": "2025-08-08",
+      "firstPublicationDate": "2025-08-06",
+      "firstIndexDate": "2025-08-08",
+      "fullTextReceivedDate": "2025-08-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

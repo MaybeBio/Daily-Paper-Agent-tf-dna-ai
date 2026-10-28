@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41959628",
+  "title": "PRIMED: predicting DNA binding residues by leveraging pre-trained protein language models.",
+  "authors": "Zhang, Luoshu; Li, Xin; Song, Ruocen; Song, Qianqian; Fan, Xiao",
+  "journal": "Frontiers in artificial intelligence",
+  "published_date": "2026-04-10",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用预训练蛋白语言模型（ESM-2/3/C）集成表示预测DNA结合残基，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合机制。",
+  "abstract": "INTRODUCTION: Protein-DNA interactions are central to gene regulation, genome stability, and disease mechanisms. Identifying DNA-binding residues (DBRs) is critical for structural modeling, protein engineering, and therapeutic design. Although experimental approaches provide valuable insights, they remain low-throughput and resource-intensive. Computational methods offer scalable alternatives by leveraging protein sequential and structural information to predict DBRs. METHODS: We present PRIMED (Protein Residue Inference using Multilayer perceptron for Enhanced DNA-binding predictions), a machine learning framework that integrates protein representations of distinct biochemical and structural properties from three protein language models: ESM-2, ESM-3, and ESM-C. These representations are concatenated and processed by a multilayer perceptron to perform DBR predictions. RESULTS: PRIMED demonstrated strong performance across three benchmark datasets: Test-46 and Test-129 from a previous study, CLAPE-DB, and Test-10 K, which we curated from UniProtKB/Swiss-Prot. The model achieves an area under the Receiver Operating Characteristic curve (AUC) of 0.92 and a Matthews Correlation Coefficient (MCC) of 0.64 on Test-46, as well as an AUC of 0.93 and MCC of 0.45 on Test-129. On Test-10 K, PRIMED demonstrates generalizability across proteins with varying DBR percentages, maintaining competitive performance relative to the runner-up method, CLAPE-DB. DISCUSSION: These results highlight the effectiveness of integrating diverse protein language model representations for accurate, transferable DBR predictions.",
+  "abstract_zh": "引言：蛋白质-DNA相互作用是基因调控、基因组稳定性和疾病机制的核心。识别DNA结合残基（DBRs）对于结构建模、蛋白质工程和治疗设计至关重要。尽管实验方法提供了宝贵的见解，但它们仍存在通量低和资源密集的问题。计算方法通过利用蛋白质序列和结构信息来预测DBRs，提供了可扩展的替代方案。方法：我们提出了PRIMED（使用多层感知器进行增强DNA结合预测的蛋白质残基推断），这是一个机器学习框架，整合了来自三种蛋白质语言模型——ESM-2、ESM-3和ESM-C——的具有不同生化和结构特性的蛋白质表征。这些表征被串联起来，并由多层感知器处理以进行DBR预测。结果：PRIMED在三个基准数据集上表现出强劲性能：来自先前研究的Test-46和Test-129、CLAPE-DB，以及我们从UniProtKB/Swiss-Prot整理的Test-10 K。该模型在Test-46上实现了接收者操作特征曲线下面积（AUC）为0.92，马修斯相关系数（MCC）为0.64，在Test-129上AUC为0.93，MCC为0.45。在Test-10 K上，PRIMED展示了在不同DBR百分比的蛋白质中的泛化能力，相对于排名第二的方法CLAPE-DB，保持了竞争性性能。讨论：这些结果突显了整合多样化蛋白质语言模型表征对于准确、可转移的DBR预测的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41959628/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41959628/",
+  "paper_page_path": "papers/pubmed/41959628/index.html"
+}

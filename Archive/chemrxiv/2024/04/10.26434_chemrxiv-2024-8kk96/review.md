@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the supplied material
+- **Shared manuscript claim summary** The authors report the design of HinZip, a chimeric protein fusing the Hin recombinase DNA-binding domain and the FosW leucine zipper, intended to mimic the structure and DNA-binding function of the plant HD-Zip transcription factor family. They claim HinZip binds cooperatively as a dimer to a 29 base-pair inverted hixC palindrome with Kd 17 nM, shows no binding to nonspecific DNA up to 2 µM protein, and that dimerization via the FosW coiled-coil is essential for this cooperative behavior. They further claim that HinZip demonstrates a general strategy for designing small proteins that target long DNA sequences without structural guidance.
+- **Visible evidence base** Text descriptions of bacterial one-hybrid assays, quantitative electrophoretic mobility shift assays, circular dichroism, and dynamic light scattering experiments. No figures, tables, raw data, or experimental methods are provided in the supplied material.
+- **Missing materials affecting confidence** All figures, tables, experimental protocols, statistical analyses, raw binding data, and sequence information for HinZip, HinZip/LA, and DNA constructs. The absence of these materials severely limits the ability to verify quantitative claims and experimental rigor.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting concept: a designed chimeric protein that combines a sequence-specific DNA-binding domain with a dimerization module to achieve cooperative binding to a long DNA target. The idea of mimicking HD-Zip architecture without structural templates is creative and potentially useful for synthetic biology applications. However, the provided text alone is insufficient to establish the core claims. Quantitative results (Kd values, specificity, cooperativity) are stated without supporting data, and the experimental details necessary to assess technical soundness are absent. The claim that HinZip "mimics the structure" of HD-Zip is not supported by any structural evidence. The manuscript would benefit from a complete presentation of data and methods before the case can be evaluated.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, protein design, and gene regulation would be interested. The potential to create small, sequence-specific DNA-binding proteins for orthogonal gene control could appeal to those developing genetic circuits or therapeutic protein tools. The use of a plant transcription factor family as inspiration may also attract plant biologists, though the direct relevance to plant systems is not demonstrated.
+- **Major strengths** The design concept is clear and biologically motivated. The choice of a long DNA target (24+ base pairs) to achieve genomic uniqueness is a sensible rationale. The comparison between HinZip, Hin (non-dimerizing), and HinZip/LA (dimerization-deficient) provides a logical framework to test the role of the leucine zipper. The use of multiple biophysical methods (EMSA, CD, DLS) is appropriate for characterizing binding and structure.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "HinZip binds cooperatively to a 29 base-pair inverted hixC palindrome with Kd 17 nM and no binding to nonspecific DNA up to 2 µM protein."
+  - **Evidence pointer** Location not provided (no figures or tables in supplied material)
+  - **Concern** The quantitative binding parameters (Kd 17 nM, no binding up to 2 µM) are presented as definitive results, but no experimental data, error estimates, or statistical analyses are shown. The methods for EMSA quantification and the definition of "no binding" are not described.
+  - **Why it matters** These numbers are central to the claim that HinZip achieves high affinity and specificity. Without raw data or replicates, the reliability of these values cannot be assessed, and the comparison to Hin (Kd 34 nM) may be misleading if experimental conditions differ.
+  - **Resolution test** Provide representative EMSA gels, binding curves with fitted parameters, error bars from at least three independent experiments, and a clear description of how Kd and specificity were calculated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "HinZip demonstrates that even in the absence of guidance from structural information, small frankenproteins designed from cut-and-paste of unrelated protein modules can specifically target long DNA sequences."
+  - **Evidence pointer** Location not provided
+  - **Concern** The manuscript title and abstract claim that HinZip "mimics the structure" of HD-Zip, but no structural data (e.g., X-ray, NMR, or cryo-EM) are presented. CD and DLS indicate coiled-coil formation, but these do not establish a structural mimicry of the HD-Zip fold. The generalization to a broad design strategy is based on a single example.
+  - **Why it matters** The claim of structural mimicry is a key selling point but is unsupported. Overgeneralization from one construct weakens the scientific case and may mislead readers about the robustness of the approach.
+  - **Resolution test** Either provide structural evidence (e.g., a model or experimental structure) or revise the claims to state that HinZip is "functionally inspired by" HD-Zip rather than "mimics the structure." For the general strategy, discuss limitations and potential variability across different DNA-binding domains and zippers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** "Using bacterial one-hybrid and quantitative electrophoretic mobility shift assays, we tested spacings of 0-9 base pairs between half-sites to optimize the orientation and space parameters that FosW needs for coiled-coil dimerization."
+  - **Evidence pointer** Location not provided
+  - **Concern** The results of the spacer optimization are not reported in the text. It is unclear which spacer lengths were tested, which were optimal, and how the 29 base-pair palindrome was selected. The relationship between spacer length, binding affinity, and cooperativity is not described.
+  - **Why it matters** The spacer optimization is a critical part of the design process. Without these data, the reader cannot evaluate whether the final construct was rationally chosen or if other spacers might perform better.
+  - **Resolution test** Include a table or figure showing binding affinities or reporter activities for each spacer length, and explain the criteria for selecting the final construct.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Location not provided
+  - **Issue** The rationale for choosing a 24 base-pair target is stated, but the relationship between the 24 base-pair target and the 29 base-pair palindrome (two 12 base-pair half-sites plus a 5 base-pair spacer) is not explicitly explained.
+  - **Required correction** Clarify how the target length relates to the final construct design, and define the exact DNA sequence used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "frankenprotein" is informal and may not be universally understood; the title uses it without definition.
+  - **Required correction** Define the term at first use or replace with a more standard term such as "chimeric protein" or "designed fusion protein."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Location not provided
+  - **Issue** The text mentions "HinZip/LA, where the Leu residues responsible for dimerization were replaced with Ala," but does not specify which Leu residues or how many were mutated.
+  - **Required correction** Provide the exact mutation sites and the rationale for choosing them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The claim that "no binding to nonspecific DNA up to 2 µM protein" is presented as evidence of specificity, but the nature of the nonspecific DNA (sequence, length, GC content) is not described.
+  - **Required correction** Describe the nonspecific DNA used and consider testing multiple nonspecific sequences to strengthen the specificity claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative data), R1-M2 (unsupported structural mimicry claim), R1-M3 (missing spacer optimization results). These are blocking because the core claims of affinity, specificity, cooperativity, and design rationale cannot be verified from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The concept of fusing a recombinase domain with a leucine zipper to mimic HD-Zip is novel and potentially interesting. Scientific importance: The potential for long DNA sequence targeting is relevant to synthetic biology, but the significance is not yet demonstrated beyond a single construct. Interdisciplinary readership: The work could appeal to protein engineers, synthetic biologists, and molecular biologists, but the presentation assumes familiarity with specific assays. Technical soundness: Cannot be assessed due to missing data and methods. Readability for nonspecialists: The text is generally clear but uses jargon (e.g., "hixC," "bacterial one-hybrid") without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising, but the manuscript requires substantial additional data (binding curves, specificity controls, spacer optimization results, and structural or modeling evidence) and revised claims before the case can be supported.
+
+## Risk / unsupported claims
+- The claim that HinZip "mimics the structure" of HD-Zip is unsupported; no structural data are provided.
+- The quantitative Kd values (17 nM for HinZip, 34 nM for Hin) are unverifiable without raw data.
+- The claim of "no binding to nonspecific DNA up to 2 µM protein" is unverifiable without specificity assay details.
+- The general strategy claim ("small frankenproteins... can specifically target long DNA sequences") is overgeneralized from a single example.
+- The spacer optimization results are mentioned but not reported, making the design rationale unassessable.

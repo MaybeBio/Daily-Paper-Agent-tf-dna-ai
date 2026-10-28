@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36518755",
+  "title": "Machine learning links different gene patterns of viral infection to immunosuppression and immune-related biomarkers in severe burns.",
+  "authors": "Wang, Peng; Zhang, Zexin; Lin, Rongjie; Lin, Jiali; Liu, Jiaming; Zhou, Xiaoqian; Jiang, Liyuan; Wang, Yu; Deng, Xudong; Lai, Haijing; Xiao, Hou'an",
+  "journal": "Frontiers in immunology",
+  "published_date": "2022-12-16",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习分析严重烧伤中病毒相关基因与免疫抑制及预后，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "INTRODUCTION: Viral infection, typically disregarded, has a significant role in burns. However, there is still a lack of biomarkers and immunotherapy targets related to viral infections in burns. METHODS: Virus-related genes (VRGs) that were extracted from Gene Oncology (GO) database were included as hallmarks. Through unsupervised consensus clustering, we divided patients into two VRGs molecular patterns (VRGMPs). Weighted gene co-expression network analysis (WGCNA) was performed to study the relationship between burns and VRGs. Random forest (RF), least absolute shrinkage and selection operator (LASSO) regression, and logistic regression were used to select key genes, which were utilized to construct prognostic signatures by multivariate logistic regression. The risk score of the nomogram defined high- and low-risk groups. We compared immune cells, immune checkpoint-related genes, and prognosis between the two groups. Finally, we used network analysis and molecular docking to predict drugs targeting CD69 and SATB1. Expression of CD69 and SATB1 was validated by qPCR and microarray with the blood sample from the burn patient. RESULTS: We established two VRGMPs, which differed in monocytes, neutrophils, dendritic cells, and T cells. In WGCNA, genes were divided into 14 modules, and the black module was correlated with VRGMPs. A total of 65 genes were selected by WGCNA, STRING, and differential expression analysis. The results of GO enrichment analysis were enriched in Th1 and Th2 cell differentiation, B cell receptor signaling pathway, alpha-beta T cell activation, and alpha-beta T cell differentiation. Then the 2-gene signature was constructed by RF, LASSO, and LOGISTIC regression. The signature was an independent prognostic factor and performed well in ROC, calibration, and decision curves. Further, the expression of immune cells and checkpoint genes differed between high- and low-risk groups. CD69 and SATB1 were differentially expressed in burns. DISCUSSION: This is the first VRG-based signature (including 2 key genes validated by qPCR) for predicting survival, and it could provide vital guidance to achieve optimized immunotherapy for immunosuppression in burns.",
+  "abstract_zh": "引言：病毒感染在烧伤中常被忽视，但具有重要作用。然而，目前仍缺乏与烧伤中病毒感染相关的生物标志物和免疫治疗靶点。方法：从基因本体论（Gene Oncology, GO）数据库中提取病毒相关基因（virus-related genes, VRGs）作为标志物。通过无监督共识聚类，我们将患者分为两种VRGs分子模式（VRGMPs）。采用加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）研究烧伤与VRGs之间的关系。使用随机森林（random forest, RF）、最小绝对收缩和选择算子（least absolute shrinkage and selection operator, LASSO）回归及逻辑回归筛选关键基因，并通过多变量逻辑回归构建预后特征。列线图的风险评分定义了高风险组和低风险组。我们比较了两组间的免疫细胞、免疫检查点相关基因及预后。最后，我们利用网络分析和分子对接预测靶向CD69和SATB1的药物。通过qPCR和微阵列分析，使用烧伤患者血液样本验证了CD69和SATB1的表达。结果：我们建立了两种VRGMPs，它们在单核细胞、中性粒细胞、树突状细胞和T细胞方面存在差异。在WGCNA中，基因被分为14个模块，其中黑色模块与VRGMPs相关。通过WGCNA、STRING和差异表达分析共筛选出65个基因。GO富集分析结果富集于Th1和Th2细胞分化、B细胞受体信号通路、α-β T细胞激活及α-β T细胞分化。随后，通过RF、LASSO和逻辑回归构建了2基因特征。该特征是独立的预后因素，并在ROC曲线、校准曲线和决策曲线中表现良好。此外，高风险组和低风险组之间的免疫细胞和检查点基因表达存在差异。CD69和SATB1在烧伤中差异表达。讨论：这是首个基于VRG的特征（包括通过qPCR验证的2个关键基因）用于预测生存，可为烧伤中免疫抑制的优化免疫治疗提供重要指导。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36518755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36518755/",
+  "paper_page_path": "papers/pubmed/36518755/index.html"
+}

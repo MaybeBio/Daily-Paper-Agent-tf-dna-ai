@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "42083872",
+    "doi": "10.1093/nar/gkag425",
+    "title": "xBind: an integrated webserver for large language model-enabled cross-molecular protein binding site prediction."
+  },
+  "content": {
+    "abstract": "xBind is an interactive, freely accessible, and fully configurable webserver for large language model (LLM)-enabled cross-molecular protein binding-site prediction. xBind leverages LLM embeddings from the ESM-2 model together with sequence- and structure-derived features to predict protein-protein, protein-DNA, and protein-RNA binding sites using symmetry-aware deep graph neural networks. The input to xBind is either a single-chain protein sequence in FASTA format or a monomer protein structure in PDB or mmCIF format and it outputs predicted residue-level binding sites of the input protein with its pre-selected interaction partner. The customizable xBind web interface provides: (i) choice of interaction partners including protein-protein, protein-DNA, and protein-RNA; (ii) on-the-fly AlphaFold-based protein structure prediction for sequence-only inputs; (iii) on-demand selection of the likelihood threshold for calibrating structure-aware binding site annotations; (iv) interactive and interpretable web-based results, including sequence and structural visualizations and plots of residue-level binding likelihoods with user-adjustable threshold calibration; and (v) extensive help information for usage and results interpretation through a web-based tutorial and guide. xBind is freely available at https://fusion.cs.vt.edu/xBind.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Software",
+      "Internet",
+      "Large Language Models",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Protein Conformation",
+      "Graph Neural Networks",
+      "*Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xinyu",
+        "Feng, Xingyue",
+        "Tarafder, Sumit",
+        "Bhattacharya, Debswapna"
+      ],
+      "short_names": [
+        "Wang X",
+        "Feng X",
+        "Tarafder S",
+        "Bhattacharya D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9630-0141"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Feng, Xingyue",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Tarafder, Sumit",
+        "short_name": "Tarafder S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Debswapna",
+        "short_name": "Bhattacharya D",
+        "identifiers": [
+          "0000-0002-9630-0141"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jul 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/05 06:32",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41145424",
+      "40601256",
+      "38739759",
+      "38281252",
+      "37651442",
+      "37523536",
+      "36927031",
+      "36828844",
+      "36046620",
+      "35637310",
+      "34498061",
+      "34282049",
+      "34265844",
+      "34232869",
+      "34139171",
+      "33876751",
+      "33654096",
+      "33577689",
+      "31819266",
+      "31296772",
+      "23023127",
+      "21537951",
+      "20675356",
+      "18820678",
+      "15687504",
+      "9299343",
+      "9299342",
+      "8552589"
+    ],
+    "similar": [
+      "42083872",
+      "40449614",
+      "40601256",
+      "42190366",
+      "16845003",
+      "38738636",
+      "37356909",
+      "22661576",
+      "42605800",
+      "40919912",
+      "28383703",
+      "42579672",
+      "42119874",
+      "39833102",
+      "40601253",
+      "37824738",
+      "33999209",
+      "21576233",
+      "40337922",
+      "28132027",
+      "40331414",
+      "33999203",
+      "40742755",
+      "40601251",
+      "32621227",
+      "15720719",
+      "41766644",
+      "39693053",
+      "42377576",
+      "28637296",
+      "41278538",
+      "24243399",
+      "40646507",
+      "34415020",
+      "41045511",
+      "23703214",
+      "41791267",
+      "38281252",
+      "41505730",
+      "42316773",
+      "39576586",
+      "23761453",
+      "27198220",
+      "33577689",
+      "41290782",
+      "32920048",
+      "41385420",
+      "38491248",
+      "42289971",
+      "40187682",
+      "41977286",
+      "21575183",
+      "24854765",
+      "41134132",
+      "21689482",
+      "25977296",
+      "41774792",
+      "42099275",
+      "40961942",
+      "39471921",
+      "20478832",
+      "25884379",
+      "17237068",
+      "41168713",
+      "41651016",
+      "42155622",
+      "36574037",
+      "32142788",
+      "32324217",
+      "25063293",
+      "19835626",
+      "36116806",
+      "29361894",
+      "30020551",
+      "42335477",
+      "21622655",
+      "39478454",
+      "42288985",
+      "24343026",
+      "40601266",
+      "29970003",
+      "40914406",
+      "29253082",
+      "38824535",
+      "39357703",
+      "26509288",
+      "40544633",
+      "38015872",
+      "35039821",
+      "34905768",
+      "16141250",
+      "40279085",
+      "36454227",
+      "41940623",
+      "37745556",
+      "22574904",
+      "28431137",
+      "27787829",
+      "38166858",
+      "20507911"
+    ],
+    "review": [
+      "42083872",
+      "39833102",
+      "40601266",
+      "29253082"
+    ],
+    "pmc": [
+      "13355072"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42083872/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag425",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

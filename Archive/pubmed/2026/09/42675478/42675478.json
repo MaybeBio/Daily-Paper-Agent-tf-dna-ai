@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "42675478",
+    "doi": "10.1186/s12951-026-04938-6",
+    "title": "AI-guided design of plectin-1-targeted (68)Ga-radiotracers reveals EP300-mediated membrane relocalization of plectin-1 in pancreatic ductal adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Plectin-1 (PLEC) is a membrane-associated biomarker implicated in the progression of pancreatic ductal adenocarcinoma (PDAC) and is an attractive target for molecular imaging. However, peptide-based radiotracers targeting PLEC remain limited, and the mechanisms linking plectin-1 relocalization to aggressive biology have yet to be fully elucidated. METHODS: In the present study, we performed stepwise in silico screening to identify membrane-associated metastatic drivers in PDAC. Then, we performed convolutional neural network-assisted docking to guide the design of (68)Ga-labeled NOTA-conjugated plectin-1-targeted monomeric (FZPN) and dimeric (FZPN-dimer) radiotracers. Radiochemical characterization, surface plasmon resonance, cellular uptake, blocking, pharmacokinetic, microPET/CT, biodistribution, and preliminary toxicity studies were then undertaken in PANC-1 models. Mechanistic studies assessed the subcellular localization of PLEC, its interaction with EP300, acetylation, and the functional role of lysine 1310 (K1310). RESULTS: PLEC emerged as the top membrane-enriched, metastasis-linked, and prognostically adverse candidate for PDAC. Analysis demonstrated that the [(68)Ga]Ga-NOTA-FZPN-dimer exhibited high affinity for PLEC, favorable hydrophilicity and stability, and significantly higher cellular uptake and tumor accumulation than the monomeric tracer, with receptor-specific blockade in vitro and in vivo. In PANC-1 xenografts, tumor uptake of the dimer reached 3.8 +/- 0.5%ID/g at 30 min after injection and remained higher than that of the monomer at all imaging time points. Mechanistically, PDAC tissues exhibited membrane-enriched PLEC; EP300 interacted with PLEC, acetylation was increased in PDAC cells, and the deacetylation-mimetic PLEC-K1310R mutant redirected plectin-1 away from the plasma membrane and reduced cell migration. CONCLUSIONS: Collectively, our findings show that [(68)Ga]Ga-NOTA-FZPN-dimer represents a promising PLEC-targeted PET radiotracer for molecular imaging in PDAC. EP300-mediated acetylation at K1310 appears to drive the membrane relocalization of PLEC and promote the migration of tumor cells, providing biological support for PLEC-targeted imaging and a rationale for further translational development.",
+    "keywords": [
+      "EP300",
+      "Gallium-68",
+      "PET/CT",
+      "Pancreatic ductal adenocarcinoma",
+      "Plectin-1",
+      "Radiotracer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Carcinoma, Pancreatic Ductal/metabolism/diagnostic imaging",
+      "*Plectin/metabolism/chemistry",
+      "Cell Line, Tumor",
+      "*Pancreatic Neoplasms/diagnostic imaging/metabolism",
+      "Mice",
+      "*Gallium Radioisotopes/chemistry",
+      "Tissue Distribution",
+      "*Radiopharmaceuticals/chemistry/pharmacokinetics",
+      "Positron Emission Tomography Computed Tomography",
+      "Mice, Nude",
+      "Female",
+      "E1A-Associated p300 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Chunjuan",
+        "Zhang, Fengsheng",
+        "He, Simin",
+        "Huang, Xuan",
+        "Zhu, Jiamin",
+        "Li, Panli",
+        "Li, Jindian",
+        "Wang, Xiangwei",
+        "Song, Shaoli"
+      ],
+      "short_names": [
+        "Jiang C",
+        "Zhang F",
+        "He S",
+        "Huang X",
+        "Zhu J",
+        "Li P",
+        "Li J",
+        "Wang X",
+        "Song S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2544-7522"
+      ],
+      "affiliations": [
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. Xiangweiwang2023@outlook.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. Xiangweiwang2023@outlook.com.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China. Xiangweiwang2023@outlook.com.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China. Xiangweiwang2023@outlook.com.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China. Xiangweiwang2023@outlook.com.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. shaoli-song@163.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. shaoli-song@163.com.",
+        "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China. shaoli-song@163.com.",
+        "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China. shaoli-song@163.com.",
+        "Center for Biomedical Imaging, Fudan University, Shanghai, China. shaoli-song@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Chunjuan",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fengsheng",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, Simin",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xuan",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jiamin",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Panli",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jindian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiangwei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. Xiangweiwang2023@outlook.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. Xiangweiwang2023@outlook.com.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China. Xiangweiwang2023@outlook.com.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China. Xiangweiwang2023@outlook.com.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China. Xiangweiwang2023@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Song, Shaoli",
+        "short_name": "Song S",
+        "identifiers": [
+          "0000-0003-2544-7522"
+        ],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. shaoli-song@163.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China. shaoli-song@163.com.",
+          "Shanghai Engineering Research Center of Molecular Imaging Probes, Shanghai, China. shaoli-song@163.com.",
+          "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai, 200433, China. shaoli-song@163.com.",
+          "Center for Biomedical Imaging, Fudan University, Shanghai, China. shaoli-song@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of nanobiotechnology"
+    ],
+    "journal_abbrev": [
+      "J Nanobiotechnology"
+    ],
+    "pub_date": "2026 Aug 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/01 05:41",
+    "fetched_at": "2026-10-02 04:52:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41603856",
+      "39571181",
+      "39291372",
+      "38608197",
+      "38421139",
+      "38230766",
+      "35570408",
+      "35525203",
+      "34954457",
+      "34913031",
+      "34897465",
+      "34440923",
+      "34168013",
+      "33219316",
+      "31447265",
+      "30459476",
+      "29774075",
+      "29574092",
+      "27300108",
+      "26507169",
+      "24839966",
+      "24810881",
+      "24218614",
+      "23815613",
+      "22864774",
+      "22245045",
+      "21821021",
+      "21098698",
+      "19760374",
+      "18416599",
+      "10891503"
+    ],
+    "similar": [
+      "42675478",
+      "41603856",
+      "40632219",
+      "42132828",
+      "28194631",
+      "38319321",
+      "40250254",
+      "41916034",
+      "42676425",
+      "38411667",
+      "41167052",
+      "31450071",
+      "42600667",
+      "42268404",
+      "40883440",
+      "41350972",
+      "39069891",
+      "31740201",
+      "40318506",
+      "39346545",
+      "41887115",
+      "30843003",
+      "39513616",
+      "37878029",
+      "40266244",
+      "37403817",
+      "40193102",
+      "37463487",
+      "31013092",
+      "41499560",
+      "22497506",
+      "40938807",
+      "38871388",
+      "32544337",
+      "32086242",
+      "39878895",
+      "39930702",
+      "15471848",
+      "31593482",
+      "39721147",
+      "39947908",
+      "39577227",
+      "37493664",
+      "18204838",
+      "39532749",
+      "42000453",
+      "37166496",
+      "39655726",
+      "24633452",
+      "38167622",
+      "34375678",
+      "41324177",
+      "34695640",
+      "38683349",
+      "41325906",
+      "42343548",
+      "40140133",
+      "31829615",
+      "36695823",
+      "35525203",
+      "30655329",
+      "41676913",
+      "29655611",
+      "41205472",
+      "38561515",
+      "40225586",
+      "40580128",
+      "34559266",
+      "38216779",
+      "29889537",
+      "42234007",
+      "41671333",
+      "41486626",
+      "40347699",
+      "39979580",
+      "36207137",
+      "18416599",
+      "31588246",
+      "32483420",
+      "42052981",
+      "39736080",
+      "42008867",
+      "41648948",
+      "39152916",
+      "38768077",
+      "25456837",
+      "38246909",
+      "40932168",
+      "41875503",
+      "41266253",
+      "38376806",
+      "41192837",
+      "37857656",
+      "42091184",
+      "39710979",
+      "39893698",
+      "26251418",
+      "42079239",
+      "40899351",
+      "41794719"
+    ],
+    "review": [
+      "42675478"
+    ],
+    "pmc": [
+      "13531995"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jnanobiotechnology.biomedcentral.com/articles/10.1186/s12951-026-04938-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42675478/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-564",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "35421087",
+    "doi": "10.1371/journal.pcbi.1010028",
+    "title": "A general framework for predicting the transcriptomic consequences of non-coding variation and small molecules."
+  },
+  "content": {
+    "abstract": "Genome wide association studies (GWASs) for complex traits have implicated thousands of genetic loci. Most GWAS-nominated variants lie in noncoding regions, complicating the systematic translation of these findings into functional understanding. Here, we leverage convolutional neural networks to assist in this challenge. Our computational framework, peaBrain, models the transcriptional machinery of a tissue as a two-stage process: first, predicting the mean tissue specific abundance of all genes and second, incorporating the transcriptomic consequences of genotype variation to predict individual abundance on a subject-by-subject basis. We demonstrate that peaBrain accounts for the majority (>50%) of variance observed in mean transcript abundance across most tissues and outperforms regularized linear models in predicting the consequences of individual genotype variation. We highlight the validity of the peaBrain model by calculating non-coding impact scores that correlate with nucleotide evolutionary constraint that are also predictive of disease-associated variation and allele-specific transcription factor binding. We further show how these tissue-specific peaBrain scores can be leveraged to pinpoint functional tissues underlying complex traits, outperforming methods that depend on colocalization of eQTL and GWAS signals. We subsequently: (a) derive continuous dense embeddings of genes for downstream applications; (b) highlight the utility of the model in predicting transcriptomic impact of small molecules and shRNA (on par with in vitro experimental replication of external test sets); (c) explore how peaBrain can be used to model difficult-to-study processes (such as neural induction); and (d) identify putatively functional eQTLs that are missed by high-throughput experimental approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "Genetic Predisposition to Disease",
+      "*Genome-Wide Association Study",
+      "Humans",
+      "Multifactorial Inheritance",
+      "Polymorphism, Single Nucleotide/genetics",
+      "*Quantitative Trait Loci/genetics",
+      "Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abdalla, Moustafa",
+        "Abdalla, Mohamed"
+      ],
+      "short_names": [
+        "Abdalla M",
+        "Abdalla M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2481-9753",
+        "ORCID: 0000-0002-2776-6036"
+      ],
+      "affiliations": [
+        "Wellcome Trust Centre for Human Genetics, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.",
+        "Oxford Centre for Diabetes, Endocrinology and Metabolism, Radcliffe Department of Medicine, University of Oxford, Oxford, United Kingdom.",
+        "Computational Statistics and Machine Learning, Department of Statistics, University of Oxford, Oxford, United Kingdom.",
+        "Department of Surgery, Harvard Medical School, Boston, Massachusetts, United States of America.",
+        "Vector Institute for Artificial Intelligence, Toronto, Canada.",
+        "Department of Computer Science, University of Toronto, Toronto, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abdalla, Moustafa",
+        "short_name": "Abdalla M",
+        "identifiers": [
+          "0000-0002-2481-9753"
+        ],
+        "affiliations": [
+          "Wellcome Trust Centre for Human Genetics, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.",
+          "Oxford Centre for Diabetes, Endocrinology and Metabolism, Radcliffe Department of Medicine, University of Oxford, Oxford, United Kingdom.",
+          "Computational Statistics and Machine Learning, Department of Statistics, University of Oxford, Oxford, United Kingdom.",
+          "Department of Surgery, Harvard Medical School, Boston, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Abdalla, Mohamed",
+        "short_name": "Abdalla M",
+        "identifiers": [
+          "0000-0002-2776-6036"
+        ],
+        "affiliations": [
+          "Vector Institute for Artificial Intelligence, Toronto, Canada.",
+          "Department of Computer Science, University of Toronto, Toronto, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/15 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "41614802",
+      "38104199",
+      "37993778"
+    ],
+    "refs": [
+      "34608324",
+      "33538820",
+      "32687525",
+      "32433972",
+      "30568279",
+      "30254052",
+      "30013180",
+      "29588361",
+      "29058715",
+      "29058714",
+      "29022581",
+      "28742084",
+      "28516912",
+      "28278150",
+      "27866706",
+      "27346688",
+      "27259153",
+      "27197224",
+      "26901046",
+      "26854917",
+      "26727659",
+      "26476779",
+      "26414678",
+      "26301843",
+      "26258848",
+      "26213851",
+      "26075791",
+      "25954001",
+      "25355519",
+      "24670763",
+      "24487276",
+      "24227294",
+      "24119843",
+      "24097068",
+      "24092820",
+      "23263488",
+      "22955989",
+      "22941192",
+      "22426492",
+      "22371084",
+      "21993624",
+      "21167468",
+      "20944595",
+      "19474294",
+      "17571346",
+      "16199517",
+      "12045153"
+    ],
+    "similar": [
+      "35421087",
+      "37857933",
+      "35982161",
+      "32817676",
+      "30290150",
+      "35212359",
+      "31296926",
+      "31718536",
+      "29547942",
+      "27132591",
+      "23935528",
+      "27005890",
+      "28334830",
+      "33733352",
+      "29058715",
+      "30606113",
+      "26474488",
+      "22235315",
+      "32350919",
+      "33626337",
+      "33371893",
+      "34356078",
+      "29913353",
+      "27866706",
+      "30864331",
+      "24846176",
+      "27346688",
+      "28391543",
+      "34582792",
+      "29058714",
+      "18067574",
+      "26102239",
+      "32954640",
+      "22509407",
+      "27554816",
+      "31070582",
+      "23341781",
+      "31427789",
+      "31410488",
+      "28575649",
+      "21846806",
+      "29218884",
+      "32574393",
+      "30390624",
+      "32870927",
+      "35192625",
+      "20369022",
+      "28193859",
+      "33499903",
+      "26938653",
+      "24968232",
+      "27199374",
+      "31598692",
+      "29650998",
+      "31691812",
+      "25192044",
+      "34680927",
+      "37541758"
+    ],
+    "review": [
+      "35421087",
+      "26474488",
+      "29913353"
+    ],
+    "pmc": [
+      "9041867"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010028",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35421087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35421087",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

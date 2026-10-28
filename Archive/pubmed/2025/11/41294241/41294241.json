@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41294241",
+    "doi": "10.1093/bib/bbaf604",
+    "title": "QTFPred: robust high-performance quantum machine learning modeling that predicts main and cooperative transcription factor bindings with base resolution."
+  },
+  "content": {
+    "abstract": "Deep learning has become an essential tool for identifying transcription factor (TF) binding sites, yet conventional approaches often struggle with limited training data for specific TFs. Here, we introduce QTFPred (Quantum-based TF Predictor), a quantum-classical hybrid framework that integrates quantum convolutional layers within neural networks to predict TF binding at base resolution. By leveraging the exponential feature space offered by quantum circuits and training from scratch via GPU simulation, QTFPred achieves robust performance even in data-sparse scenarios. In benchmarks on 49 Encyclopedia of DNA elements ChIP-seq datasets, QTFPred delivered state-of-the-art accuracy in 92% of binary prediction and 96% of signal prediction tasks, outperforming conventional models in precision and stability. Moreover, the method reveals underlying TF motif representations, offering insights into cooperative binding mechanisms. These results highlight the potential of quantum machine learning to overcome the limitations of traditional deep learning in genomics modeling.",
+    "keywords": [
+      "cooperative motif prediction",
+      "deep learning",
+      "quantum circuit learning",
+      "quantum computation",
+      "quantum convolutional neural network",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Deep Learning",
+      "*Transcription Factors/chemistry",
+      "Protein Binding",
+      "*Software",
+      "*Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsubara, Taichi",
+        "Machida, Shuto",
+        "Owusu, Samuel Papa Kwesi",
+        "Asakura, Akihiro",
+        "Hashimoto, Hiroki",
+        "Matsuoka, Masanori",
+        "Nagasaki, Masao"
+      ],
+      "short_names": [
+        "Matsubara T",
+        "Machida S",
+        "Owusu SPK",
+        "Asakura A",
+        "Hashimoto H",
+        "Matsuoka M",
+        "Nagasaki M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan.",
+        "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+        "Center for Genomic Medicine, Graduate School of Medicine, Kyoto University, Kyoto 606-8507, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsubara, Taichi",
+        "short_name": "Matsubara T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+          "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan."
+        ]
+      },
+      {
+        "full_name": "Machida, Shuto",
+        "short_name": "Machida S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+          "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan."
+        ]
+      },
+      {
+        "full_name": "Owusu, Samuel Papa Kwesi",
+        "short_name": "Owusu SPK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan."
+        ]
+      },
+      {
+        "full_name": "Asakura, Akihiro",
+        "short_name": "Asakura A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan."
+        ]
+      },
+      {
+        "full_name": "Hashimoto, Hiroki",
+        "short_name": "Hashimoto H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuoka, Masanori",
+        "short_name": "Matsuoka M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+          "BlueMeme Inc., Nishikicho 3-20, Kandanishiki-cho, Chiyoda-ku, Tokyo 101-0054, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagasaki, Masao",
+        "short_name": "Nagasaki M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Information Analysis, Medical Research Center for High Depth Omics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-8582, Japan.",
+          "Center for Genomic Medicine, Graduate School of Medicine, Kyoto University, Kyoto 606-8507, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 13:10",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40702706",
+      "39609566",
+      "39541441",
+      "37962376",
+      "37099664",
+      "35263332",
+      "34673265",
+      "34608324",
+      "34579793",
+      "34272562",
+      "33603233",
+      "33538820",
+      "32755593",
+      "32191882",
+      "31856220",
+      "30768345",
+      "29706549",
+      "29652405",
+      "29140464",
+      "28905917",
+      "27197224",
+      "27084946",
+      "26826681",
+      "26781813",
+      "26550823",
+      "26301843",
+      "26213851",
+      "25637093",
+      "25045190",
+      "25033408",
+      "24487584",
+      "21875935",
+      "21330290",
+      "20334529",
+      "17324271",
+      "15499007",
+      "12004135",
+      "10812473"
+    ],
+    "similar": [
+      "41294241",
+      "40102719",
+      "41450215",
+      "40183298",
+      "35263332",
+      "41466036",
+      "34272562",
+      "40914877",
+      "34534646",
+      "39177127",
+      "28234893",
+      "33372147",
+      "40334196",
+      "41274926",
+      "41896305",
+      "28245811",
+      "41042660",
+      "40252145",
+      "29993783",
+      "39202100",
+      "36094959",
+      "34073774",
+      "34607350",
+      "41188344",
+      "34579793",
+      "35043942",
+      "41120605",
+      "35410161",
+      "41043222",
+      "30922998",
+      "20838582",
+      "41383998",
+      "19956545",
+      "35007471",
+      "38795030",
+      "40096220",
+      "33498086",
+      "41920894",
+      "41799016",
+      "40021838",
+      "25722376",
+      "40152267",
+      "36057196",
+      "31336830",
+      "40302345",
+      "40423252",
+      "32770026",
+      "39433779",
+      "29404850",
+      "40662839",
+      "33603233",
+      "39862469",
+      "40871820",
+      "34520937",
+      "35325031",
+      "31372637",
+      "40877341",
+      "41344072",
+      "39482734",
+      "37345042",
+      "28750606",
+      "40857188",
+      "33796819",
+      "34524404",
+      "41564724",
+      "40865268",
+      "40715162",
+      "39304807",
+      "41763759",
+      "41050338",
+      "39686395",
+      "39076052",
+      "41643219",
+      "37880386",
+      "39701486",
+      "30835229",
+      "33741685",
+      "31324140",
+      "40982572",
+      "38084744",
+      "29757349",
+      "41131660",
+      "20158869",
+      "28254085",
+      "38250147",
+      "23272209",
+      "39910206",
+      "32960766",
+      "31974574",
+      "40575261",
+      "35997560",
+      "41580658",
+      "24640962",
+      "40662821",
+      "41325984",
+      "37919990",
+      "32976105",
+      "34864886",
+      "25957350",
+      "38501649"
+    ],
+    "review": [
+      "41294241",
+      "36057196"
+    ],
+    "pmc": [
+      "12648403"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41294241.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41294241/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf604",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

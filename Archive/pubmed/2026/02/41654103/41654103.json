@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "41654103",
+    "doi": "10.1016/j.neuroscience.2026.02.002",
+    "title": "Comparative analysis of key phagocytic genes in humans and mice using machine learning integrated with single-cell RNA sequencing."
+  },
+  "content": {
+    "abstract": "Microglial phagocytosis is essential for neurological recovery after intracerebral hemorrhage (ICH). Using single-cell RNA sequencing, we compared microglial responses in murine and human ICH and identified striking species-specific temporal patterns. Murine microglia exhibited a sustained enhancement of phagocytic activity, whereas human microglia showed only a transient increase followed by a decline and persistent inflammation. To identify genes associated with phagocytic differences, we evaluated five machine learning models and selected XGBoost as the best-performing model. This analysis identified Tlr2 in mice and CLEC7A in humans as genes associated with microglial phagocytic status. Inferred transcription factor activity analysis further revealed stronger phagocytosis- and inflammation-associated transcriptional activity in murine phagocytic microglial subclusters, whereas human microglia were predominantly characterized by inflammation-associated transcription factors. Consistent with these results, Tlr2 expression was markedly increased at day 14 in single-cell data, and immunostaining confirmed its colocalization with IBA1(+) microglia and upregulation at days 3 and 7 after ICH. Together, our findings demonstrate that integrating single-cell RNA sequencing with machine learning facilitates the identification of phagocytosis-associated genes and reveals both conserved and divergent patterns of microglial phagocytosis, providing new insights into species-specific responses to ICH.",
+    "keywords": [
+      "Inflammation",
+      "Intracerebral hemorrhage",
+      "Machine Learning",
+      "Microglia",
+      "Phagocytosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Phagocytosis/genetics/physiology",
+      "Humans",
+      "*Microglia/metabolism",
+      "*Machine Learning",
+      "Mice",
+      "Single-Cell Gene Expression Analysis",
+      "Sequence Analysis, RNA/methods",
+      "Single-Cell Analysis/methods",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Species Specificity"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chengcheng, Li",
+        "Hang, Liu"
+      ],
+      "short_names": [
+        "Chengcheng L",
+        "Hang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Chongqing Medical University, 400010 Chongqing, China. Electronic address: lic@stu.cqmu.edu.cn.",
+        "Chongqing Public Health Medical Center, 400010 Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chengcheng, Li",
+        "short_name": "Chengcheng L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, 400010 Chongqing, China. Electronic address: lic@stu.cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hang, Liu",
+        "short_name": "Hang L",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Public Health Medical Center, 400010 Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuroscience"
+    ],
+    "journal_abbrev": [
+      "Neuroscience"
+    ],
+    "pub_date": "2026 Apr 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/08 00:35",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41654103",
+      "41266469",
+      "40826098",
+      "40934970",
+      "42082621",
+      "41329043",
+      "38865753",
+      "39218784",
+      "39515654",
+      "39672459",
+      "40258609",
+      "41673661",
+      "42041532",
+      "40627214",
+      "33840225",
+      "26831741",
+      "40374315",
+      "41055763",
+      "29788964",
+      "36271414",
+      "40549067",
+      "40967560",
+      "35934164",
+      "39591421",
+      "41572692",
+      "42100980",
+      "22431652",
+      "40785673",
+      "40777042",
+      "39868438",
+      "41456951",
+      "41246346",
+      "42334745",
+      "41074638",
+      "38082331",
+      "31980585",
+      "39353548",
+      "30206190",
+      "40787447",
+      "40086357",
+      "39217701",
+      "42101824",
+      "34412701",
+      "40064361",
+      "27228556",
+      "40404711",
+      "39142439",
+      "39088351",
+      "35099711",
+      "41580850",
+      "35876247",
+      "32959911",
+      "40803604",
+      "35998432",
+      "41261421",
+      "28778418",
+      "27859601",
+      "39293730",
+      "39278970",
+      "25811458",
+      "33540859",
+      "41392242",
+      "21598312",
+      "40640733",
+      "33293423",
+      "41895620",
+      "33588866",
+      "36622892",
+      "40468324",
+      "40045485",
+      "39067680",
+      "38558012",
+      "39657846",
+      "31301160",
+      "31924226",
+      "40303347",
+      "38961424",
+      "38800474",
+      "40971318",
+      "39985040",
+      "40943452",
+      "38677987",
+      "38678526",
+      "40859550",
+      "41235394",
+      "37290684",
+      "40450318",
+      "33766097",
+      "42040898",
+      "36852060",
+      "23405209",
+      "42361133",
+      "39735538",
+      "41310775",
+      "41354822",
+      "32057796",
+      "29178914",
+      "39929468",
+      "40864216",
+      "40035728"
+    ],
+    "review": [
+      "41654103"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0306-4522(26)00085-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0306-4522(26)00085-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

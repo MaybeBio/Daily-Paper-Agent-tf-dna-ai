@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or supporting data
+- **Shared manuscript claim summary** The authors report replica exchange molecular dynamics (REMD) simulations of wild-type and R273H p53 DNA-binding domain (DBD). They claim that the wild-type H2 helix exhibits thermal stability via a molecular mechanics-solvation free energy compensation (MSC) mechanism, and that the R273H mutation disrupts this mechanism locally while inducing allosteric rigidification of distal loops and global topological reorganization of the DBD.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods (force field, simulation length, replica count, convergence criteria), all quantitative results, structural figures, network analysis details, statistical validation, and comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding the dual local and allosteric effects of the R273H mutation on p53DBD dynamics. The proposed MSC mechanism is conceptually novel and could refine the classification of R273H as a purely DNA-contact mutation. However, the abstract provides no quantitative evidence, methodological details, or validation against experimental data. The strength of the claims cannot be assessed from the supplied material, and several statements appear to exceed what can be reasonably supported by simulation data alone without additional experimental corroboration.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics, cancer biologists studying p53 mutations and their structural consequences, and drug discovery groups interested in stabilizing mutant p53. The work could also appeal to method developers in enhanced-sampling simulations and allostery analysis.
+- **Major strengths** The conceptual framing of a compensation mechanism between molecular mechanics and solvation free energy is a useful lens for interpreting temperature-dependent stability. The attempt to bridge local mutation effects with global allosteric changes via network analysis is ambitious and potentially impactful. The work addresses a clinically relevant mutation and could refine its functional classification.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the wild-type H2 helix exhibits "robust thermal stability" governed by an MSC mechanism, and that R273H "dual-destabilizes" the DBD via local electrostatic disruption and global allosteric rigidification.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract presents these as established findings, but no quantitative data are shown. There are no free energy values, no error bars, no convergence metrics, and no comparison with experimental thermal stability data (e.g., melting temperatures from biophysical assays). The MSC mechanism is described qualitatively, and the "network analysis" results are stated without any topological metrics or statistical significance.
+  - **Why it matters** The central claims of the paper rest on the robustness of the simulation results and the interpretation of the network analysis. Without quantitative evidence, the reader cannot evaluate whether the observed effects are statistically meaningful or within simulation noise. The claim of "dual-destabilization" and "global topological reorganization" is strong and requires correspondingly strong evidence.
+  - **Resolution test** Provide free energy differences (e.g., per-residue or per-secondary-structure-element) with uncertainty estimates, convergence checks (e.g., block averaging, replica exchange acceptance rates), and network metrics (e.g., betweenness centrality changes, community partition stability) with statistical significance tests. If possible, compare with experimental thermal stability data for wild-type and R273H p53DBD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The use of REMD simulations to delineate the "structural-thermodynamic landscape" of p53DBD.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The force field, water model, simulation temperature range, number of replicas, total simulation time, and equilibration protocol are all absent. The choice of REMD parameters critically affects the reliability of the thermodynamic conclusions. Additionally, the abstract does not state how the "MSC mechanism" was quantified or how the salt bridge and hydrogen bond networks were identified and tracked over time.
+  - **Why it matters** REMD results are highly sensitive to simulation setup. Without knowing the force field and sampling protocol, the reader cannot judge whether the enhanced sampling was sufficient to converge the free energy landscape. The MSC mechanism, if it is a central contribution, must be defined operationally so that others can reproduce the analysis.
+  - **Resolution test** Include a methods section or supplementary information detailing the simulation protocol, force field parameters, convergence assessment, and the specific definitions and calculations used for the MSC terms, salt bridge occupancy, and hydrogen bond persistence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The statement that these findings "refine the classification of R273H" and "offer potential leads for therapeutic stabilization."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not reference any experimental data that would validate the simulation predictions. For a clinically relevant mutation like R273H, there is substantial experimental literature on its stability, DNA binding, and structural effects. The claim of refining the classification implies a comparison with existing experimental knowledge, but no such comparison is presented.
+  - **Why it matters** Simulation-only conclusions about a well-studied protein mutation are strengthened considerably by agreement with experimental data. Without such validation, the therapeutic implications are speculative and the classification refinement is not grounded in the broader literature.
+  - **Resolution test** Add a comparison of simulation-derived stability trends with experimental measurements (e.g., thermal denaturation, limited proteolysis, or hydrogen-deuterium exchange data) for wild-type and R273H p53DBD. Discuss how the proposed allosteric mechanism aligns with or revises existing experimental observations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology "MSC mechanism"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abbreviation MSC is introduced without a clear operational definition. The phrase "molecular mechanics-solvation free energy compensation" is descriptive but does not specify how the compensation is quantified or what threshold defines "compensation."
+  - **Required correction** Define MSC explicitly in terms of the computed energy components and state the criterion used to identify compensation behavior.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Phrase "dual-destabilizes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dual-destabilizes" is vague. It is unclear whether this refers to two independent destabilization mechanisms, a single mechanism with two manifestations, or a synergistic effect.
+  - **Required correction** Clarify whether the local and global effects are mechanistically coupled or independent, and specify the relative magnitude of each contribution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Network analysis description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The network analysis is mentioned as supporting the global reorganization claim, but no details are given about the network construction (e.g., nodes, edges, correlation metric) or the community detection method.
+  - **Required correction** Briefly describe the network construction and community detection approach, or refer to a methods section where these are detailed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological details prevents any assessment of whether the central claims are supported. R1-M3 is important but not strictly blocking if the authors can justify the simulation-only scope.
+- **Assessment against Nature-style criteria** Originality: The MSC mechanism and the allosteric interpretation of R273H are conceptually original, though the underlying observation that mutations can have long-range effects is not new. Scientific importance: The work addresses a clinically significant mutation and could refine its classification, which is of interest to the cancer biology community. Interdisciplinary readership: The work bridges computational biophysics and cancer biology, but the abstract is written in a way that is accessible to both audiences. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major concern. Readability for nonspecialists: The abstract is generally readable, though terms like "REMD" and "MSC" are used without full explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract does not provide sufficient quantitative or methodological support for the claims. I would be supportive if the full manuscript provides the missing evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "robust thermal stability" in the wild-type H2 helix is unsupported without free energy data or convergence metrics.
+- The claim that R273H "dual-destabilizes" the DBD is unsupported without quantitative comparison of local and global effects.
+- The claim of "global topological reorganization" and "decoupling of L2-L3 inter-loop coordination" is unsupported without network analysis details and statistical significance.
+- The statement that the findings "offer potential leads for therapeutic stabilization" is speculative and not supported by the abstract content.
+- The refinement of the R273H classification is not grounded in comparison with existing experimental literature.

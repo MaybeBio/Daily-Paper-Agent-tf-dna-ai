@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37335681",
+  "title": "Comprehensive analysis of femoral head necrosis based on machine learning and bioinformatics analysis.",
+  "authors": "Chen, Zheng; Jiang, Yuankang; Wu, Suwen; Dang, Meng",
+  "journal": "Medicine",
+  "published_date": "2023-06-19",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 0,
+  "one_liner_zh": "基于机器学习和生物信息学分析股骨头坏死差异表达基因与免疫微环境，仅涉及转录因子网络构建和分子对接，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题无关。",
+  "abstract": "Osteonecrosis of the femoral head (ONFH) is a kind of disabling disease, given that the molecular mechanism of ONFH has not been elucidated, it is of significance to use bioinformatics analysis to understand the disease mechanism of ONFH and discover biomarkers. Gene set for ONFH GSE74089 was downloaded in the Gene Expression Omnibus, and \"limma\" package in R software was used to identify differentially expressed genes related to oxidative stress. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyze were performed for functional analysis. We constructed a protein interaction network and identified potential transcription factors and therapeutic drugs for the hub genes, and delineated the TF-hub genes network. Least absolute shrinkage and selection operator regression, support vector machine and cytoHubba were used to screen feature genes and key genes, which were validated by Receiver operating characteristic. CIBERSORT was used to explored the immune microenvironment. Subsequently, we identified the function of key genes using Gene set variation analysis and their relationship with each type of immune cell. Finally, molecular docking validated the binding association between molecules and validated genes. We detected 144 differentially expressed oxidative stress-related genes, and enrichment analysis showed that they were enriched in reactive oxygen species and AGE-RAGE signaling pathway. Protein-protein interaction and TF-hub genes network were conducted. Further exploration suggested that APOD and TMEM161A were feature genes, while TNF, NOS3 and CASP3 were key genes. Receiver operating characteristic analysis showed that APOD, CASP3, NOS3, and TNF have strong diagnostic ability. The key genes were enriched in oxidative phosphorylation. CIBERSORT analysis showed that 17 types immune cells were differentially relocated, and most of which were also closely related to key genes. In addition, genistein maybe potential therapeutic compound. In all, we identified that TNF, NOS3, and CASP3 played key roles on ONFH, and APOD, CASP3, NOS3, and TNF could serve as diagnostic biomarkers.",
+  "abstract_zh": "股骨头坏死（ONFH）是一种致残性疾病，鉴于ONFH的分子机制尚未阐明，利用生物信息学分析理解ONFH的疾病机制并发现生物标志物具有重要意义。从Gene Expression Omnibus下载了ONFH的基因集GSE74089，并使用R软件中的“limma”包识别与氧化应激相关的差异表达基因。进行了Gene Ontology和Kyoto Encyclopedia of Genes and Genomes通路富集分析以进行功能分析。我们构建了蛋白质相互作用网络，识别了核心基因的潜在转录因子和治疗药物，并描绘了TF-核心基因网络。使用最小绝对收缩和选择算子回归、支持向量机和cytoHubba筛选特征基因和关键基因，并通过受试者工作特征曲线进行验证。使用CIBERSORT探索免疫微环境。随后，我们通过基因集变异分析识别了关键基因的功能及其与每种免疫细胞的关系。最后，分子对接验证了分子与验证基因之间的结合关联。我们检测到144个差异表达的氧化应激相关基因，富集分析显示它们富集于活性氧和AGE-RAGE信号通路。进行了蛋白质-蛋白质相互作用和TF-核心基因网络构建。进一步探索表明APOD和TMEM161A是特征基因，而TNF、NOS3和CASP3是关键基因。受试者工作特征分析显示APOD、CASP3、NOS3和TNF具有强诊断能力。关键基因富集于氧化磷酸化。CIBERSORT分析显示17种免疫细胞差异分布，其中大多数也与关键基因密切相关。此外，金雀异黄酮可能是潜在的治疗化合物。总之，我们识别出TNF、NOS3和CASP3在ONFH中发挥关键作用，且APOD、CASP3、NOS3和TNF可作为诊断生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37335681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37335681/",
+  "paper_page_path": "papers/pubmed/37335681/index.html"
+}

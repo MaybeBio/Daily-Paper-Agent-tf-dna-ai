@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40596058",
+    "doi": "10.1038/s41598-025-04562-8",
+    "title": "The value of MRI-based radiomics and clinicoradiological data for the detection of forkhead box protein A1 gene mutated prostate cancer."
+  },
+  "content": {
+    "abstract": "This study aimed to develop models for predicting forkhead box protein A1 (FOXA1) gene mutations in prostate cancer using clinicoradiological and MRI radiomics data. Totally 367 prostate cancer patients (109 with FOXA1 mutations and 258 without) from three centers underwent multiparametric MRI. Patients from Center 1 (n = 236) were randomly divided into training and internal validation sets (7:3). Patients from Centers 2 and 3 (n = 131) were used for external validation. The index tumor lesion's volume of interest was delineated on MRI images to obtain 428 radiomics features for each patient. Radiomics features were selected by least absolute shrinkage and selection operator regression. Clinicoradiological features were compared between mutant and wild-type patients for feature selection. Those selected features were further chosen by binary logistic regression (LR) analysis, and used to develop prediction models for FOXA1 mutations with LR, support vector machine (SVM), and random forest (RF) classifiers. Models' performances were assessed by area under the receiver operating characteristic curve (AUC). No clinicoradiological feature was associated with FOXA1 mutations, while three radiomics features were selected to build models. AUCs of RF model in internal and external validation sets (0.82 and 0.81) were significantly greater than LR (0.74 and 0.71) and SVM (0.60 and 0.65) models (all p < 0.05), while AUC of LR model was greater than SVM model in internal validation set (p = 0.03). Radiomics method with RF classifier could effectively predict FOXA1 mutations in prostate cancer.",
+    "keywords": [
+      "Forkhead box protein A1",
+      "Multiparametric magnetic resonance imaging",
+      "Prostate cancer",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/genetics/diagnostic imaging/pathology",
+      "*Hepatocyte Nuclear Factor 3-alpha/genetics",
+      "*Mutation",
+      "Middle Aged",
+      "*Magnetic Resonance Imaging/methods",
+      "Aged",
+      "Support Vector Machine",
+      "ROC Curve",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deng, Lin",
+        "Chen, Ruchuan",
+        "Zhou, Bingni",
+        "Hu, Guoqing",
+        "Gan, Hualei",
+        "Zhang, Ling",
+        "Zhou, Liangping",
+        "Liu, Kefu",
+        "Liu, Xiaohang"
+      ],
+      "short_names": [
+        "Deng L",
+        "Chen R",
+        "Zhou B",
+        "Hu G",
+        "Gan H",
+        "Zhang L",
+        "Zhou L",
+        "Liu K",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Shanghai Proton and Heavy Ion Center, Fudan University Cancer Hospital, No. 4365, Kangxin Road, Shanghai, 201321, China.",
+        "Shanghai Key Laboratory of Radiation Oncology, No. 4365, Kangxin Road, Shanghai, 201321, China.",
+        "Shanghai Engineering Research Center of Proton and Heavy Ion Radiation Therapy, No. 4365, Kangxin Road, Shanghai, 201321, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+        "Department of Radiology, Suzhou Municipal Hospital, No. 26 Daoqian Road, Suzhou, 215002, China. lkf77@126.com.",
+        "Department of Radiology, Shanghai Proton and Heavy Ion Center, Fudan University Cancer Hospital, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com.",
+        "Shanghai Key Laboratory of Radiation Oncology, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com.",
+        "Shanghai Engineering Research Center of Proton and Heavy Ion Radiation Therapy, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deng, Lin",
+        "short_name": "Deng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shanghai Proton and Heavy Ion Center, Fudan University Cancer Hospital, No. 4365, Kangxin Road, Shanghai, 201321, China.",
+          "Shanghai Key Laboratory of Radiation Oncology, No. 4365, Kangxin Road, Shanghai, 201321, China.",
+          "Shanghai Engineering Research Center of Proton and Heavy Ion Radiation Therapy, No. 4365, Kangxin Road, Shanghai, 201321, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ruchuan",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bingni",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guoqing",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Hualei",
+        "short_name": "Gan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Pathology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ling",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liangping",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, No. 270, Dong-An Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College of Fudan University, No. 270, Dong-An Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kefu",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Suzhou Municipal Hospital, No. 26 Daoqian Road, Suzhou, 215002, China. lkf77@126.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shanghai Proton and Heavy Ion Center, Fudan University Cancer Hospital, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com.",
+          "Shanghai Key Laboratory of Radiation Oncology, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com.",
+          "Shanghai Engineering Research Center of Proton and Heavy Ion Radiation Therapy, No. 4365, Kangxin Road, Shanghai, 201321, China. liuxiang_1940@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:29",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "41583907"
+    ],
+    "refs": [
+      "39488849",
+      "38942817",
+      "38153859",
+      "37987657",
+      "37958805",
+      "37640161",
+      "37624511",
+      "37584393",
+      "37491794",
+      "37202314",
+      "37048688",
+      "36898172",
+      "36836937",
+      "36600265",
+      "36043882",
+      "36018068",
+      "35646683",
+      "35184376",
+      "35048135",
+      "34937944",
+      "34009176",
+      "33328650",
+      "32980775",
+      "31969336",
+      "31356111",
+      "31243372",
+      "31243370",
+      "30181068",
+      "29236593",
+      "29206995",
+      "29092951",
+      "22722839",
+      "22138582",
+      "21401706",
+      "20498680",
+      "20466122",
+      "17392714",
+      "16545965"
+    ],
+    "similar": [
+      "40596058",
+      "38153859",
+      "41076201",
+      "34075559",
+      "40632147",
+      "38326860",
+      "31942672",
+      "41188013",
+      "35024015",
+      "32222795",
+      "38508934",
+      "36355199",
+      "35771720",
+      "39631431",
+      "38625419",
+      "38181835",
+      "40624579",
+      "31747902",
+      "39639211",
+      "34604968",
+      "37926572",
+      "36656410",
+      "37064376",
+      "39354727",
+      "40091561",
+      "41352852",
+      "40188349",
+      "33220449",
+      "30711405",
+      "41083477",
+      "40369261",
+      "33936969",
+      "40910573",
+      "38217635",
+      "38580939",
+      "31828414",
+      "40468196",
+      "40273481",
+      "39736623",
+      "31062459",
+      "36426965",
+      "40615943",
+      "39753878",
+      "40165301",
+      "38952311",
+      "39788813",
+      "40596249",
+      "40730778",
+      "39968895",
+      "36282309",
+      "36819277",
+      "39995707",
+      "41322408",
+      "38887926",
+      "31776744",
+      "39575426",
+      "41163973",
+      "39283049",
+      "37949702",
+      "35692398",
+      "41188459",
+      "39417854",
+      "38875420",
+      "33970516",
+      "31834910",
+      "40976116",
+      "37995359",
+      "40460947",
+      "40967950",
+      "39103756",
+      "34055600",
+      "32371181",
+      "39604917",
+      "37214402",
+      "31016445",
+      "39528886",
+      "38316655",
+      "40395152",
+      "38458887",
+      "37993801",
+      "33979466",
+      "39147885",
+      "38549935",
+      "36991347",
+      "37627852",
+      "33970517",
+      "40727372",
+      "39026540",
+      "39704412",
+      "40355910",
+      "39912494",
+      "34677748",
+      "35847942",
+      "40553115",
+      "40177755",
+      "38016821",
+      "34567999",
+      "40223991",
+      "40831132",
+      "35417660"
+    ],
+    "review": [
+      "40596058"
+    ],
+    "pmc": [
+      "12215378"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-04562-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40596058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

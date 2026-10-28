@@ -1,0 +1,646 @@
+{
+  "identity": {
+    "pmid": "34019796",
+    "doi": "10.1016/j.cell.2021.04.028",
+    "title": "Charting human development using a multi-endodermal organ atlas and organoid models."
+  },
+  "content": {
+    "abstract": "Organs are composed of diverse cell types that traverse transient states during organogenesis. To interrogate this diversity during human development, we generate a single-cell transcriptome atlas from multiple developing endodermal organs of the respiratory and gastrointestinal tract. We illuminate cell states, transcription factors, and organ-specific epithelial stem cell and mesenchyme interactions across lineages. We implement the atlas as a high-dimensional search space to benchmark human pluripotent stem cell (hPSC)-derived intestinal organoids (HIOs) under multiple culture conditions. We show that HIOs recapitulate reference cell states and use HIOs to reconstruct the molecular dynamics of intestinal epithelium and mesenchyme emergence. We show that the mesenchyme-derived niche cue NRG1 enhances intestinal stem cell maturation in vitro and that the homeobox transcription factor CDX2 is required for regionalization of intestinal epithelium and mesenchyme in humans. This work combines cell atlases and organoid technologies to understand how human organ development is orchestrated.",
+    "keywords": [
+      "CDX2",
+      "NRG1",
+      "human endoderm development",
+      "intestinal organoids",
+      "mesenchyme heterogeneity",
+      "multi-organ cell atlas",
+      "single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Anatomy, Artistic",
+      "*Atlases as Topic",
+      "CDX2 Transcription Factor/metabolism",
+      "Cell Line",
+      "*Embryonic Development",
+      "Endoderm/*embryology",
+      "Epidermal Growth Factor/pharmacology",
+      "Epithelial Cells/cytology",
+      "Female",
+      "Gastrulation",
+      "Gene Deletion",
+      "Gene Expression Regulation, Developmental/drug effects",
+      "Humans",
+      "Intestines/embryology",
+      "Male",
+      "Mesoderm/embryology",
+      "Middle Aged",
+      "*Models, Biological",
+      "Neuregulin-1/metabolism",
+      "Organ Specificity",
+      "Organoids/*embryology",
+      "Pluripotent Stem Cells/cytology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Qianhui",
+        "Kilik, Umut",
+        "Holloway, Emily M",
+        "Tsai, Yu-Hwai",
+        "Harmel, Christoph",
+        "Wu, Angeline",
+        "Wu, Joshua H",
+        "Czerwinski, Michael",
+        "Childs, Charlie J",
+        "He, Zhisong",
+        "Capeling, Meghan M",
+        "Huang, Sha",
+        "Glass, Ian A",
+        "Higgins, Peter D R",
+        "Treutlein, Barbara",
+        "Spence, Jason R",
+        "Camp, J Gray"
+      ],
+      "short_names": [
+        "Yu Q",
+        "Kilik U",
+        "Holloway EM",
+        "Tsai YH",
+        "Harmel C",
+        "Wu A",
+        "Wu JH",
+        "Czerwinski M",
+        "Childs CJ",
+        "He Z",
+        "Capeling MM",
+        "Huang S",
+        "Glass IA",
+        "Higgins PDR",
+        "Treutlein B",
+        "Spence JR",
+        "Camp JG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland.",
+        "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland.",
+        "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland.",
+        "Department of Biomedical Engineering, University of Michigan College of Engineering, Ann Arbor, MI 48109, USA.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Pediatrics, Genetic Medicine, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland. Electronic address: barbara.treutlein@bsse.ethz.ch.",
+        "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA; Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA; Department of Biomedical Engineering, University of Michigan College of Engineering, Ann Arbor, MI 48109, USA. Electronic address: spencejr@med.umich.edu.",
+        "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland. Electronic address: grayson.camp@iob.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Qianhui",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kilik, Umut",
+        "short_name": "Kilik U",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Holloway, Emily M",
+        "short_name": "Holloway EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Tsai, Yu-Hwai",
+        "short_name": "Tsai YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Harmel, Christoph",
+        "short_name": "Harmel C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wu, Angeline",
+        "short_name": "Wu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Joshua H",
+        "short_name": "Wu JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Czerwinski, Michael",
+        "short_name": "Czerwinski M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Childs, Charlie J",
+        "short_name": "Childs CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "He, Zhisong",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, 4058 Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Capeling, Meghan M",
+        "short_name": "Capeling MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Michigan College of Engineering, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Sha",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Glass, Ian A",
+        "short_name": "Glass IA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Genetic Medicine, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Higgins, Peter D R",
+        "short_name": "Higgins PDR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Treutlein, Barbara",
+        "short_name": "Treutlein B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, 4058 Basel, Switzerland. Electronic address: barbara.treutlein@bsse.ethz.ch."
+        ]
+      },
+      {
+        "full_name": "Spence, Jason R",
+        "short_name": "Spence JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor, MI 48109, USA; Department of Internal Medicine, Gastroenterology, University of Michigan Medical School, Ann Arbor, MI 48109, USA; Department of Biomedical Engineering, University of Michigan College of Engineering, Ann Arbor, MI 48109, USA. Electronic address: spencejr@med.umich.edu."
+        ]
+      },
+      {
+        "full_name": "Camp, J Gray",
+        "short_name": "Camp JG",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Clinical Ophthalmology Basel, 4031 Basel, Switzerland; Department of Ophthalmology, University of Basel, 4031 Basel, Switzerland. Electronic address: grayson.camp@iob.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2021 Jun 10",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/22 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "42730907",
+      "42488555",
+      "42486901",
+      "42393305",
+      "42288223",
+      "42174194",
+      "42016763",
+      "41957847",
+      "41687611",
+      "41545895",
+      "41513700",
+      "41508998",
+      "41397979",
+      "41359105",
+      "41263369",
+      "41117135",
+      "40966450",
+      "40950081",
+      "40931072",
+      "40777494",
+      "40694852",
+      "40674448",
+      "40592324",
+      "40461506",
+      "40381917",
+      "40355592",
+      "40276096",
+      "40169914",
+      "40152244",
+      "40082610",
+      "40043706",
+      "39837850",
+      "39798574",
+      "39701210",
+      "39567783",
+      "39475272",
+      "39377807",
+      "39210279",
+      "39206092",
+      "39143209",
+      "38987599",
+      "38982135",
+      "38971147",
+      "38587174",
+      "38557358",
+      "38555026",
+      "38551817",
+      "38536877",
+      "38280855",
+      "38193187",
+      "38057509",
+      "38014192",
+      "37996466",
+      "37995704",
+      "37987171",
+      "37966116",
+      "37922878",
+      "37796037",
+      "37758697",
+      "37607912",
+      "37279279",
+      "37258747",
+      "37195526",
+      "37168734",
+      "37128282",
+      "37070767",
+      "37020681",
+      "36912192",
+      "36821371",
+      "36769267",
+      "36737647",
+      "36458020",
+      "36224409",
+      "36214410",
+      "36177906",
+      "36044863",
+      "36039869",
+      "35978039",
+      "35911883",
+      "35884253",
+      "35831300",
+      "35812075",
+      "35395175",
+      "35322210",
+      "35172130",
+      "34910257",
+      "34350179"
+    ],
+    "refs": [
+      "33526876",
+      "33497358",
+      "33406409",
+      "33294969",
+      "33290721",
+      "33278341",
+      "33184181",
+      "32946783",
+      "32884148",
+      "32867824",
+      "32855417",
+      "32841595",
+      "32693086",
+      "32676663",
+      "32586441",
+      "32586439",
+      "32214235",
+      "32109386",
+      "32103204",
+      "32084389",
+      "31748748",
+      "31619793",
+      "31611701",
+      "31604266",
+      "31556415",
+      "31425933",
+      "31406383",
+      "31348891",
+      "30930166",
+      "30787436",
+      "30745430",
+      "30742039",
+      "30664680",
+      "30612954",
+      "30531897",
+      "30526881",
+      "30449713",
+      "30270042",
+      "30270040",
+      "30244869",
+      "30228295",
+      "30204897",
+      "30195922",
+      "30151330",
+      "29909964",
+      "29720649",
+      "29608179",
+      "29608177",
+      "29249664",
+      "29228172",
+      "29110754",
+      "28991892",
+      "28943029",
+      "28803915",
+      "28665271",
+      "28648364",
+      "28074039",
+      "28052057",
+      "27927684",
+      "27869805",
+      "26949732",
+      "26668002",
+      "26459240",
+      "26064466",
+      "26050928",
+      "25964470",
+      "25828392",
+      "25803487",
+      "25363776",
+      "25326803",
+      "25312952",
+      "25042702",
+      "24739965",
+      "24691965",
+      "24496613",
+      "24210555",
+      "23895934",
+      "23860500",
+      "23545496",
+      "22761392",
+      "22387004",
+      "22190642",
+      "22082986",
+      "21816365",
+      "21546393",
+      "21385574",
+      "21151107",
+      "21074721",
+      "20542037",
+      "20354101",
+      "20162561",
+      "20043902",
+      "19651307",
+      "19619492",
+      "19575677",
+      "19450592",
+      "19398967",
+      "19386267",
+      "19301404",
+      "19135477",
+      "18579683",
+      "17934449",
+      "16919167",
+      "16829981",
+      "16199517",
+      "15117820",
+      "12297622",
+      "11959827",
+      "11500978",
+      "11133155",
+      "11040183",
+      "10695022"
+    ],
+    "similar": [
+      "34019796",
+      "32652003",
+      "28361317",
+      "31924806",
+      "40355592",
+      "26230325",
+      "40592324",
+      "31956653",
+      "30664680",
+      "27287882",
+      "36161099",
+      "30072687",
+      "21151107",
+      "41384805",
+      "19386267",
+      "35978039",
+      "38370768",
+      "25803487",
+      "32443983",
+      "29429958",
+      "34309606",
+      "35905739",
+      "31554966",
+      "35217915",
+      "32841595",
+      "25326803",
+      "25792515",
+      "35955755",
+      "38229108",
+      "32855417",
+      "28911212",
+      "40043706",
+      "41418844",
+      "32586442",
+      "26395140",
+      "18655789",
+      "41117135",
+      "30612954",
+      "27869805",
+      "25828392",
+      "30745430",
+      "39567792",
+      "31746148",
+      "22482503",
+      "27565022",
+      "33263786",
+      "33470182",
+      "32390556",
+      "32718852",
+      "22082986",
+      "33900299",
+      "12641570",
+      "28614297",
+      "33133779",
+      "39701210",
+      "34861147",
+      "19329573",
+      "36795851",
+      "32612071",
+      "28361319",
+      "34019794",
+      "22057081",
+      "33324771",
+      "40883608",
+      "33168233",
+      "37070767",
+      "28855280",
+      "30470820",
+      "39662475",
+      "32586443",
+      "9202392",
+      "36264199",
+      "41830459",
+      "32145469",
+      "34301945",
+      "33558697",
+      "25035496",
+      "32693086",
+      "40772719",
+      "32109386",
+      "22190642",
+      "33334234",
+      "34352726",
+      "33221939",
+      "38890321",
+      "34142711",
+      "38587174",
+      "39485283",
+      "37165073",
+      "41340194",
+      "29361536",
+      "32640120",
+      "30787436",
+      "22791892",
+      "33843928",
+      "30449713",
+      "27375081",
+      "34856121",
+      "21246663",
+      "39415002"
+    ],
+    "review": [
+      "34019796",
+      "32652003",
+      "31956653",
+      "27287882",
+      "35978039",
+      "32443983",
+      "25792515",
+      "26395140",
+      "31746148",
+      "27565022",
+      "32718852",
+      "19329573",
+      "36795851",
+      "33324771",
+      "25035496",
+      "40772719",
+      "33334234",
+      "34352726",
+      "33221939",
+      "37165073",
+      "27375081"
+    ],
+    "pmc": [
+      "8208823"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(21)00531-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34019796/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34019796",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34019796",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/34019796",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

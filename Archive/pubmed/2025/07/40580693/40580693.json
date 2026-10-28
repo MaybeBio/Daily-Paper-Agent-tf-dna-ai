@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "40580693",
+    "doi": "10.1016/j.phymed.2025.157013",
+    "title": "The HIF-1alpha signaling pathway: A key approach to revealing the effects of Scutellaria baicalensis Georgi against lipopolysaccharide-induced spontaneous abortion."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Scutellaria baicalensis Georgi (SBG) is traditionally used to prevent miscarriage through its anti-inflammatory, antioxidant, and antiapoptotic effects. However, its mechanisms in early-stage abortion (ESA) remain unclear. MATERIALS AND METHODS: A novel network pharmacology workflow was developed to identify bioactive compounds in SBG, including the nontargeted detection of SBG components, extraction of compounds from the HERB database, manual screening and filtering. These compounds were confirmed via high-performance liquid chromatography (HPLC). Targets associated with bioactive compounds were enriched via the SWISS database, and disease-related targets were identified via GeneCards. Overlapping targets were analyzed to construct a protein - protein interaction (PPI) network, with interactions predicted via STRING and visualized via Cytoscape. Molecular docking, dynamic simulations, and transcriptomics were used to prioritize key bioactive compounds. Two ESA models were used to evaluate therapeutic effects: one induced by lipopolysaccharide (LPS) and the other by mifepristone (Ru486). Decidual histopathology was observed via transmission electron microscopy (TEM) and hematoxylin - eosin (HE) staining. Key targets and pathways were validated through network pharmacology, immunohistochemistry (IHC), immunofluorescence (IF), Western blotting (WB), and ELISA. Finally, the effects of SBG on pregnancy maintenance were investigated by modulating the HIF-1alpha pathway, with a focus on its impact on critical biomarkers identified through the screening process. RESULTS: Compared with RU486, SBG demonstrated greater efficacy in treating LPS-induced ESAs, as evidenced by lower embryo absorption rates, fewer miscarriages, and milder decidual pathological changes. Through multilevel screening, we identified 10 compounds in SBG with the highest drug potential, which were confirmed in the original plant. These compounds are predicted to specifically modulate LPS-ESA through 38 targets, influencing 525 biological processes and 126 signaling pathways. Integrated pharmacological analysis highlighted the HIF-1alpha signaling pathway as the key mechanism underlying the therapeutic effects of SBG on ESAs. Experiments involving HIF-1alpha pathway activation and inhibition confirmed that SBG inhibits decidual and embryonic cell apoptosis and hypoxia by blocking HIF-1alpha signal transmission. CONCLUSIONS: This study established a rigorous framework for screening and analyzing the therapeutic components of SBG and revealed that SBG is specifically effective against ESAs and maternal-fetal interface inflammation through the HIF-1alpha signaling pathway. These findings highlight SBG as a therapeutic agent for ESA and provide a foundation for future mechanistic studies.",
+    "keywords": [
+      "Early spontaneous abortion (ESA)",
+      "Lipopolysaccharide (LPS)",
+      "Network pharmacology (NP)",
+      "Scutellaria baicalensis Georgi (SBG)"
+    ],
+    "mesh_terms": [
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Female",
+      "Lipopolysaccharides",
+      "*Scutellaria baicalensis/chemistry",
+      "Signal Transduction/drug effects",
+      "*Abortion, Spontaneous/chemically induced/drug therapy/prevention & control",
+      "Pregnancy",
+      "Molecular Docking Simulation",
+      "Animals",
+      "*Plant Extracts/pharmacology",
+      "Network Pharmacology",
+      "Humans",
+      "Mice",
+      "Protein Interaction Maps",
+      "Mifepristone/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Jing-Xin",
+        "Yue, Mei-Ying",
+        "Huang, Jin-Zhu",
+        "Guo, Ze-Yi",
+        "Wang, Huan",
+        "Deng, Lin-Wen",
+        "Ding, Wei-Jun",
+        "Zhou, Hang"
+      ],
+      "short_names": [
+        "Gao JX",
+        "Yue MY",
+        "Huang JZ",
+        "Guo ZY",
+        "Wang H",
+        "Deng LW",
+        "Ding WJ",
+        "Zhou H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China.",
+        "Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, 610037, China.",
+        "Clinical Medical College, Chengdu University of TCM, Chengdu, Sichuan, 610037, China.",
+        "Research and Experiment Center, Sichuan College of Traditional Chinese Medicine, No. 2 Middle Education Road, Education Park, Mianyang, Sichuan, 621000, China.",
+        "Department of Gynecology, Hospital of Chengdu University of TCM, Chengdu, Sichuan, 610072, China. Electronic address: dlwen1982@163.com.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China. Electronic address: dingweijun@cdutcm.edu.cn.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China. Electronic address: zh6463@cdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Jing-Xin",
+        "short_name": "Gao JX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Mei-Ying",
+        "short_name": "Yue MY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jin-Zhu",
+        "short_name": "Huang JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, 610037, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Ze-Yi",
+        "short_name": "Guo ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Chengdu University of TCM, Chengdu, Sichuan, 610037, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Experiment Center, Sichuan College of Traditional Chinese Medicine, No. 2 Middle Education Road, Education Park, Mianyang, Sichuan, 621000, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Lin-Wen",
+        "short_name": "Deng LW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Hospital of Chengdu University of TCM, Chengdu, Sichuan, 610072, China. Electronic address: dlwen1982@163.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Wei-Jun",
+        "short_name": "Ding WJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China. Electronic address: dingweijun@cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, State Key Laboratory of Southwestern Chinese Medicine Resources, Chengdu, 611137, China. Electronic address: zh6463@cdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 04:52",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40580693",
+      "41038150",
+      "35667260",
+      "31506998",
+      "34335829",
+      "36588535",
+      "38253276",
+      "38988155",
+      "41038325",
+      "38645989",
+      "36415861",
+      "39923957",
+      "40350911",
+      "41240412",
+      "39805787",
+      "40344969",
+      "40350824",
+      "40585331",
+      "38776853",
+      "40750966",
+      "39006190",
+      "39089660",
+      "16565440",
+      "40858065",
+      "40109471",
+      "41346967",
+      "21866919",
+      "40553825",
+      "34421596",
+      "40133025",
+      "34808299",
+      "39716274",
+      "29855978",
+      "37150329",
+      "40912487",
+      "40543694",
+      "30668355",
+      "39004032",
+      "38432577",
+      "39374881",
+      "34014492",
+      "38616754",
+      "15931583",
+      "38759074",
+      "40172736",
+      "39066538",
+      "31269661",
+      "40088688",
+      "32389853",
+      "38840248",
+      "40752597",
+      "24910406",
+      "39377749",
+      "30647760",
+      "39577677",
+      "34939529",
+      "39490433",
+      "41038145",
+      "41311552",
+      "40912485",
+      "39074420",
+      "39076092",
+      "41345301",
+      "35317323",
+      "24393619",
+      "36403742",
+      "38723920",
+      "36867320",
+      "38626646",
+      "41351313",
+      "40873782",
+      "37005817",
+      "41188309",
+      "37084637",
+      "40252437",
+      "39362328",
+      "41135618",
+      "21299906",
+      "34997010",
+      "41052691",
+      "37807411",
+      "38676511",
+      "35178959",
+      "36086762",
+      "21718777",
+      "39934490",
+      "25287937",
+      "37282864",
+      "38688354",
+      "33981230",
+      "40316156",
+      "39280256",
+      "37986331",
+      "38715318",
+      "36216728",
+      "40013962",
+      "41106101",
+      "40816715",
+      "37499457",
+      "39410900"
+    ],
+    "review": [
+      "40580693",
+      "36216728"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00652-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/miscarriage.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Miscarriage"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

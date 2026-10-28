@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "39413799",
+    "doi": "10.1093/bib/bbae514",
+    "title": "Mut-Map: Comprehensive Computational Pipeline for Structural Mapping and Analysis of Cancer-Associated Mutations."
+  },
+  "content": {
+    "abstract": "Understanding the functional impact of genetic mutations on protein structures is essential for advancing cancer research and developing targeted therapies. The main challenge lies in accurately mapping these mutations to protein structures and analysing their effects on protein function. To address this, Mut-Map (https://genemutation.org/) is a comprehensive computational pipeline designed to integrate mutation data from the Catalogue Of Somatic Mutations In Cancer database with protein structural data from the Protein Data Bank and AlphaFold models. The pipeline begins by taking a UniProt ID and proceeds through mapping corresponding Protein Data Bank structures, renumbering residues, and assessing disorder percentages. It then overlays mutation data, categorizes mutations based on structural context, and visualizes them using advanced tools like MolStar. This approach allows for a detailed analysis of how mutations may disrupt protein function by affecting key regions such as DNA interfaces, ligand-binding sites, and dimer interactions. To validate the pipeline, a case study on the TP53 gene, a critical tumour suppressor often mutated in cancers, was conducted. The analysis highlighted the most frequent mutations occurring at the DNA-binding interface, providing insights into their potential role in cancer progression. Mut-Map offers a powerful resource for elucidating the structural implications of cancer-associated mutations, paving the way for more targeted therapeutic strategies and advancing our understanding of protein structure-function relationships.",
+    "keywords": [
+      "cancer genomics",
+      "computational pipeline",
+      "mutation impact analysis",
+      "mutation mapping",
+      "somatic mutations",
+      "structural bioinformatics"
+    ],
+    "mesh_terms": [
+      "*Neoplasms/genetics",
+      "Humans",
+      "*Mutation",
+      "*Computational Biology/methods",
+      "Databases, Protein",
+      "Tumor Suppressor Protein p53/genetics/chemistry",
+      "Software",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alsulami, Ali F"
+      ],
+      "short_names": [
+        "Alsulami AF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6696-7770"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Faculty of Science, King Abdulaziz University, Jeddah, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alsulami, Ali F",
+        "short_name": "Alsulami AF",
+        "identifiers": [
+          "0000-0002-6696-7770"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Science, King Abdulaziz University, Jeddah, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/17 10:03",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "42672009",
+      "41009698"
+    ],
+    "refs": [
+      "38383791",
+      "36471044",
+      "36420884",
+      "36400749",
+      "35396508",
+      "34265844",
+      "34228733",
+      "33956157",
+      "30371878",
+      "30224644",
+      "30158682",
+      "29217837",
+      "27807141",
+      "27225414",
+      "26973785",
+      "26822701",
+      "25885774",
+      "24281696",
+      "24131965",
+      "23951226",
+      "20216074",
+      "16793544",
+      "15980494",
+      "10089483",
+      "8254673"
+    ],
+    "similar": [
+      "39413799",
+      "41009698",
+      "39700856",
+      "27043210",
+      "42475469",
+      "41751629",
+      "31216622",
+      "40333905",
+      "31323058",
+      "34137435",
+      "40464633",
+      "27328919",
+      "42037558",
+      "20572016",
+      "39639563",
+      "32101536",
+      "38489015",
+      "17419939",
+      "9926936",
+      "38896352",
+      "22759657",
+      "27197156",
+      "30339916",
+      "24687952",
+      "25550083",
+      "31014259",
+      "26810975",
+      "41808444",
+      "31693276",
+      "38870521",
+      "21561095",
+      "23863845",
+      "26776172",
+      "38790205",
+      "18996393",
+      "11793474",
+      "15353313",
+      "32988402",
+      "29663862",
+      "14741214",
+      "40019690",
+      "41402909",
+      "26244575",
+      "27503997",
+      "25075982",
+      "14519637",
+      "12606942",
+      "35662458",
+      "33359708",
+      "36700982",
+      "29069390",
+      "36555140",
+      "25897952",
+      "33984364",
+      "27914054",
+      "38928318",
+      "19834613",
+      "19881536",
+      "18986996",
+      "42089576",
+      "25592571",
+      "24100332",
+      "36261849",
+      "31797597",
+      "40457970",
+      "26392535",
+      "26657081",
+      "40343619",
+      "23583620",
+      "30160791",
+      "20658337",
+      "39660592",
+      "30150714",
+      "14534297",
+      "24817905",
+      "30808373",
+      "41570449",
+      "31161204",
+      "27887606",
+      "27880943",
+      "30253099",
+      "23839036",
+      "30371878",
+      "17063491",
+      "32684626",
+      "38936693",
+      "42421183",
+      "39573833",
+      "12826609",
+      "30542790",
+      "12815593",
+      "27175787",
+      "17401432",
+      "23468845",
+      "41291409",
+      "27907895",
+      "26411585",
+      "30416077",
+      "40299217",
+      "36499604"
+    ],
+    "review": [
+      "39413799",
+      "17419939",
+      "25550083",
+      "15353313",
+      "27503997"
+    ],
+    "pmc": [
+      "11483132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39413799.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39413799/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae514",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

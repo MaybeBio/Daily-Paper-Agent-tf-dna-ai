@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) without supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the reported MD simulation study
+- **Shared manuscript claim summary** The authors use microsecond-length molecular dynamics simulations to show that differential reactivity of the two zinc fingers in the estrogen receptor alpha DNA-binding domain can be explained by differences in protein flexibility, solvent accessibility of coordinating cysteines, and population of sulfur-containing hydrogen bonds. They further claim that dimerization and DNA binding protect the more labile ZF2 by reducing solvent exposure and increasing SCHB populations.
+- **Visible evidence base** Main text figures (Figures 1-4), tables referenced in text (SI Tables S1-S5), statistical tests reported in text
+- **Missing materials affecting confidence** Supplementary figures and tables (SI Figures S1-S3, SI Tables S1-S5), force field parameter details, simulation convergence criteria, PDB structure preparation details
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a mechanistically important question regarding the structural determinants of differential zinc finger reactivity in ERα, with potential implications for targeted therapeutic strategies. The use of microsecond-scale MD simulations is appropriate and represents a methodological advance over prior shorter simulations. The central claims regarding flexibility, solvent accessibility, and SCHB populations as mediators of differential Cys reactivity are plausible and internally consistent. However, several technical aspects require clarification, particularly regarding simulation convergence, statistical treatment of correlated data, and the interpretation of the free dimer simulations. The link between computed observables and experimentally measured reactivity is suggestive but not fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying zinc finger proteins, metalloprotein redox chemistry, and structural determinants of electrophile sensitivity. The work may also interest those developing covalent or electrophilic inhibitors targeting zinc finger transcription factors in cancer and viral contexts, as it provides a computational framework for predicting labile zinc finger motifs.
+- **Major strengths** The study addresses a clinically relevant target with a well-defined mechanistic question. The use of microsecond-scale simulations is appropriate for capturing conformational dynamics relevant to solvent exposure and hydrogen bonding. The comparison across three states (monomer, free dimer, DNA-bound dimer) provides a coherent framework for understanding protection conferred by dimerization. The analysis of SCHB populations as a function of conformational state is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim statistically significant differences in RMSF between ZF1 and ZF2 based on independent-sample t-tests.
+  - **Evidence pointer** Results and Discussion, "Flexibility of the Free ERαDBD Monomer" section, Figure 2
+  - **Concern** The use of independent-sample t-tests on time-series data from MD simulations is statistically problematic. Consecutive frames in a trajectory are highly autocorrelated, violating the independence assumption of the t-test. The effective sample size is far smaller than the number of frames, and the reported p-values are likely inflated in significance. The authors do not report how many independent trajectories were used for the statistical comparison, nor do they describe any block-averaging or other decorrelation procedure.
+  - **Why it matters** The statistical significance claim underpins the central assertion that ZF2 is more flexible than ZF1. If the statistical treatment is invalid, the strength of this claim is not supported by the evidence as presented.
+  - **Resolution test** The authors should report the number of independent trajectories, apply block averaging or a similar decorrelation method, and re-run the statistical comparison. Alternatively, they could present the RMSF differences as descriptive observations without inferential statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that in the free dimer simulations, the dimer either dissociated or maintained a structure similar to the DNA-bound dimer, and that additional hydrogen bonds (M42-S58') stabilized the intact dimer.
+  - **Evidence pointer** Results and Discussion, "Flexibility of the DNA-Bound ERαDBD Dimer" section, SI Table S3, SI Figure S3
+  - **Concern** The free dimer simulations are described as showing two distinct behaviors across three trajectories, with one dissociating and two remaining intact. The authors acknowledge the intact dimer is "likely an artifact of the simulation" initiated from the DNA-bound crystal structure. However, they then use these two intact-dimer trajectories to draw conclusions about SCHB populations and flexibility in the free dimer state. The small number of trajectories and the acknowledged artifact risk make these conclusions unreliable. It is unclear whether the two intact trajectories represent a physically meaningful state or a simulation artifact that should be excluded from analysis.
+  - **Why it matters** The comparison between free dimer and DNA-bound dimer is used to support claims about protection conferred by DNA binding. If the free dimer state is not reliably sampled, the interpretation of the dimerization effect is compromised.
+  - **Resolution test** The authors should either provide additional independent trajectories to establish reproducibility of the intact-dimer state, or clearly separate the analysis of the dissociating trajectory from the intact ones and discuss the implications of the artifact for their conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors conclude that "the greater reactivity of C62 could be attributed to less shielding by SCHB interactions with the peptide backbone, which results from the greater flexibility of ZF2 in the monomer," contrasting with an experimental study attributing this to pKa lowering by adjacent basic residues.
+  - **Evidence pointer** Results and Discussion, "Solvent Accessibility" section
+  - **Concern** The authors present their interpretation as an alternative to the experimental attribution involving pKa effects from R63, but they do not provide a quantitative comparison. They report that R63 is approximately 13 Å from C62 in their simulations, but they do not calculate pKa values, electrostatic potentials, or otherwise quantify the potential influence of R63 on C62 reactivity. The claim that their explanation is more consistent with the data requires a more direct test.
+  - **Why it matters** The manuscript aims to identify structural factors contributing to zinc finger protection. If the authors are proposing a mechanistic alternative to an existing experimental explanation, they need to provide evidence that distinguishes their mechanism from the pKa-based one.
+  - **Resolution test** The authors could perform electrostatic calculations or pKa predictions for C62 in their simulated ensembles, or at minimum discuss the quantitative relationship between the 13 Å distance and the expected electrostatic influence of R63.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, simulation protocol
+  - **Issue** The methods state that "data was averaged over the runs" but do not specify how averaging was performed across trajectories of different lengths or whether all trajectories were of equal length.
+  - **Required correction** Specify the length of each production run, whether all trajectories were the same length, and how averaging was performed across trajectories.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Force field parameters
+  - **Evidence pointer** Methods section, "bonded zinc AMBER force field (ZAFF)"
+  - **Issue** The ZAFF parameters are referenced but the specific parameters used for the zinc coordination sites are not provided. Given that the accuracy of the zinc coordination geometry directly affects all subsequent analyses, this is an important detail.
+  - **Required correction** Provide the ZAFF parameters in the supplementary material or reference the specific parameter set used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of SCHB thresholds
+  - **Evidence pointer** Methods section, hydrogen bond analysis
+  - **Issue** The SCHB cutoff criteria (4.0 Å, 90 degrees) are stated but the sensitivity of the results to these thresholds is not discussed. Given that SCHB populations are central to the conclusions, a brief discussion of threshold sensitivity would strengthen the analysis.
+  - **Required correction** Add a sentence noting whether the qualitative conclusions are robust to reasonable variations in the SCHB geometric criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to experimental data
+  - **Evidence pointer** Results and Discussion, "Solvent Accessibility" section
+  - **Issue** The authors reference an experimental study showing C62 is more reactive than C59 in a metal-free peptide model, but they do not discuss whether the metal-free peptide model is an appropriate proxy for the full protein context, where zinc coordination is present.
+  - **Required correction** Add a brief comment on the relevance and limitations of the metal-free peptide model for interpreting the full-length protein simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical treatment of correlated MD data) and R1-M2 (reliability of free dimer simulations) must be addressed. R1-M3 requires additional analysis to distinguish the proposed mechanism from the existing pKa-based explanation.
+- **Assessment against Nature-style criteria** Originality: The application of microsecond-scale MD to specifically interrogate differential zinc finger reactivity in ERα is a reasonable extension of prior work, though the individual factors examined (flexibility, solvent accessibility, SCHBs) have been discussed separately in the literature. Scientific importance: The question of what determines zinc finger lability is of genuine importance for drug development, and the ERα system is clinically relevant. However, the advance over prior understanding is incremental rather than transformative. Interdisciplinary readership: The work bridges structural biology, computational chemistry, and cancer biology, and would be accessible to researchers in these areas. Technical soundness: The simulation methodology is generally appropriate, but the statistical treatment of correlated data and the handling of the free dimer simulations raise concerns that need resolution. Readability for nonspecialists: The manuscript is clearly written and the figures support the narrative, though some familiarity with MD simulation concepts is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is worthwhile and the simulation approach is appropriate, but the statistical validity of the central flexibility claim and the reliability of the free dimer simulations must be established before the mechanistic conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that ZF2 is statistically significantly more flexible than ZF1 is not supported due to inappropriate statistical testing on autocorrelated time-series data.
+- The claim that the free dimer state shows specific SCHB patterns is based on two trajectories that the authors themselves acknowledge may be artifacts of the simulation setup.
+- The claim that the authors' explanation for C62 reactivity is preferable to the pKa-based explanation is not directly tested and therefore not established.
+- The statement that "these results may also apply to other ZF proteins" is speculative and not supported by data presented in this manuscript.

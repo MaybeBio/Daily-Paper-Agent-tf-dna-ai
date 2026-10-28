@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Structural and biochemical characterization of SAP05-Rpn10 recognition; claims regarding mechanistic implications for ubiquitin-independent proteasomal degradation
+- **Shared manuscript claim summary** The authors report crystal structures of AYWB_SAP05 and OY_SAP05 in complex with the Arabidopsis thaliana Rpn10 vWA domain, revealing a conserved non-classical binding interface involving a "stapled V-shape peptide" and C-terminal region of SAP05. They propose a general mode of phytoplasma infection whereby SAP05 acts as a molecular glue to bridge transcription factors to the proteasome ATPase pore for ubiquitin-independent degradation.
+- **Visible evidence base** Crystal structures (PDB 8JTK, 8JTL), SPR binding assays, pull-down assays, SEC-MALS, sequence alignments, structural superpositions
+- **Missing materials affecting confidence** Electron density maps, structure validation reports (MolProbity, Ramachandran statistics beyond what is in Table 1), raw SPR sensorgrams, full statistical details for replicate measurements, coordinates for the docking model shown in Figure 5, experimental validation of the proposed degradation mechanism
+
+## Reviewer
+- **Overall assessment** This manuscript presents two new crystal structures of phytoplasma SAP05 effectors bound to the plant proteasome subunit Rpn10, providing a structural explanation for the species-specific hijacking mechanism previously reported. The structures are of good resolution and the biochemical validation is generally consistent. However, the manuscript's central mechanistic claim regarding how SAP05 bridges transcription factors to the proteasome pore for ubiquitin-independent degradation is supported only by docking and superposition, not by direct experimental evidence. The structural work is solid, but the functional implications are overextended relative to the data presented.
+- **Who would be interested in the results, and why** Plant pathologists studying phytoplasma effector biology; structural biologists interested in proteasome recognition mechanisms; researchers in the targeted protein degradation field, particularly those developing molecular glue degraders; plant biotechnology groups working on phytoplasma-resistant crops
+- **Major strengths** Two high-resolution crystal structures of SAP05-Rpn10 complexes from different phytoplasma species; clear demonstration of a non-canonical binding interface distinct from ubiquitin/UBL recognition; good combination of structural and biochemical validation; identification of conserved residues that explain species specificity; useful comparison with the recently reported SAP05-SPL5 complex
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional claims vs. evidence
+  - **Claim pointer** "SAP05 may play a molecular glue-like role to bridge TFs close to the ATPase central pore of proteasomes for the direct degradation"
+  - **Evidence pointer** Figure 5, Discussion section
+  - **Concern** The central mechanistic claim that SAP05 positions transcription factors near the ATPase pore for degradation is based solely on rigid-body docking of the SAP05-Rpn10 complex into the spinach 26S proteasome structure and superposition with the SAP05-SPL5 complex. No experimental data (mutations that disrupt the proposed bridging, in vitro degradation assays, cryo-EM, or crosslinking) are provided to test this model. The authors themselves acknowledge the lack of substrate in their structures, yet the title and abstract present this degradation mechanism as a finding.
+  - **Why it matters** The title and abstract promise a structural basis for ubiquitin-independent protein degradation, but the structures only show SAP05-Rpn10 recognition. The degradation mechanism is speculative and could mislead the field if presented without appropriate caveats. The distinction between "structure of a recognition complex" and "mechanism of degradation" is critical for accurate scientific communication.
+  - **Resolution test** Either (a) provide direct experimental evidence for the bridging model (e.g., degradation assays with SAP05 mutants that disrupt Rpn10 binding, or a ternary complex structure), or (b) substantially revise the title, abstract, and discussion to clearly separate the structural findings from the proposed model, presenting the latter as a hypothesis requiring future testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural validation and model quality
+  - **Claim pointer** The structures are described as reliable at 1.57 Å and 1.78 Å resolution
+  - **Evidence pointer** Table 1, Methods section
+  - **Concern** The crystallographic table lacks several key validation metrics. No Ramachandran statistics, MolProbity scores, or B-factor distributions for the interface residues are reported. The Rfree/Rwork gap is acceptable, but the completeness for the highest resolution shell of the OY_SAP05 complex (98.6%) with I/σ(I) of 1.0 at the outer shell raises questions about the effective resolution. Additionally, the authors do not report whether the interface residues have well-defined electron density.
+  - **Why it matters** The central conclusion of the paper rests on the reliability of the protein-protein interface. Without proper validation metrics, readers cannot assess whether the observed interactions are genuine or artifacts of model building. The high B-factors and low I/σ(I) in the outer shell of the OY structure could affect the accuracy of side-chain placement at the interface.
+  - **Resolution test** Provide complete validation statistics including Ramachandran analysis, MolProbity scores, real-space correlation coefficients for interface residues, and representative electron density maps (2Fo-Fc and Fo-Fc) for the key interface regions in supplementary figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of binding data
+  - **Claim pointer** "AYWB_SAP05 bound AtRpn10 with three orders of magnitude lower dissociation constant (0.4 ± 0.039 μM) compared with the Homo sapiens Rpn10"
+  - **Evidence pointer** Figure 1A, Figure 3A-D, Methods section
+  - **Concern** The SPR data presentation is incomplete. The authors report KD values but do not show the full kinetic analysis (ka, kd) or the fitting quality. For the hRpn10 interaction, the KD is described as "far larger" but no numerical value is provided. The mutant analysis in Figure 3 shows "BD" (below detection) for some mutants, but the detection limit is not defined. The concentration normalization method described in the Methods (adjusting based on SDS-PAGE band intensity) is semi-quantitative and could introduce systematic errors.
+  - **Why it matters** The species specificity and the effects of mutations are key claims of the paper. Without rigorous quantitative analysis, the reader cannot assess whether the reported differences are statistically significant or within experimental error. The lack of kinetic parameters also prevents comparison with other protein-protein interaction studies.
+  - **Resolution test** Provide full SPR kinetic parameters (ka, kd, KD) with confidence intervals for all interactions, define the detection limit of the assay, show representative sensorgrams with fitted curves, and report the number of independent replicates for each measurement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed conserved recognition mode
+  - **Claim pointer** "This interaction is highly conserved in various SAP05 homologs, suggesting a general mode in plant infection"
+  - **Evidence pointer** Figure 3E-F, Figure 4A, Discussion section
+  - **Concern** The authors conclude a conserved recognition mode based on sequence alignment and two structures. However, the OY_SAP05 structure shows that despite only 42.11% sequence identity in the V-shape region, the binding mode is conserved. This is interesting but raises a question: how many phytoplasma SAP05 variants actually use this mechanism? The authors tested only two SAP05 homologs. The sequence alignments show conservation of key residues, but no functional data from additional homologs or from plant species beyond Arabidopsis are presented.
+  - **Why it matters** The claim of a "general mode" has implications for developing broad-spectrum phytoplasma resistance strategies. If the recognition is not truly conserved across the diverse phytoplasma species that infect different crops, the translational relevance is limited.
+  - **Resolution test** Either test additional SAP05 homologs from phylogenetically distant phytoplasma species in binding assays, or temper the claim to "conserved among tested homologs" and discuss the limitations of extrapolating from two structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title reads "Structure basis" which should be "Structural basis". Additionally, the title overstates the scope by implying the full degradation mechanism is addressed when only the recognition complex is described.
+  - **Required correction** Change to "Structural basis for recognition of plant Rpn10 by phytoplasma SAP05 in ubiquitin-independent protein degradation" and consider whether the title should be more conservative regarding the degradation mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A-C
+  - **Issue** The SPR curves in Figure 1A appear to show equilibrium binding responses, but the figure legend does not specify whether these are steady-state or kinetic analyses. The y-axis label is not visible in the description.
+  - **Required correction** Clarify in the figure legend the type of SPR analysis performed, the concentration range tested, and the fitting model used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Docking procedure
+  - **Evidence pointer** Methods section, Figure 5
+  - **Issue** The docking of the SAP05-Rpn10 complex into the spinach proteasome structure is described only as "software docking" without specifying the software, parameters, or validation of the docking result.
+  - **Required correction** Provide details of the docking software and protocol, and include a supplementary figure showing the docking quality (e.g., clash scores, interface complementarity).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites the previous work by Huang et al. on SAP05 function but does not discuss how the new structural data extends or refines the functional model proposed in that study. The relationship between the two studies could be more clearly articulated.
+  - **Required correction** Add a paragraph in the Discussion explicitly comparing the structural findings with the functional data from Huang et al. and discussing any apparent discrepancies or new insights.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3B, 3D, 4F
+  - **Evidence pointer** Figure legends
+  - **Issue** The histograms showing KD values do not report the number of replicates or error bars for all conditions. The error bars are described as "stand error of -logKD" but the number of independent experiments is not stated.
+  - **Required correction** State the number of independent replicates for each measurement in the figure legends and ensure error bars are shown for all conditions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Summary section
+  - **Issue** The abstract uses specialized terminology ("stapled V-shape peptide", "vWA domain") without brief explanation, which may limit accessibility for readers outside the structural biology or plant pathology fields.
+  - **Required correction** Add brief parenthetical explanations for domain names and structural features in the abstract.
+
+## Risk / unsupported claims
+- The claim that SAP05 acts as a "molecular glue" to bridge transcription factors to the proteasome ATPase pore is not experimentally supported by the data presented. This is a docking-based hypothesis that requires functional validation.
+- The statement that the recognition mode is "highly conserved in various SAP05 homologs" is based on sequence alignment and only two experimentally tested homologs. The extrapolation to "various" homologs is not fully supported.
+- The claim that SAP05 binding "has little impact on the constitutive assembly of proteasome" is inferred from a rigid-body docking model without experimental validation.
+- The suggestion that SAP05 may substitute for ubiquitin in bringing substrates to the proteasome is speculative and not directly tested.
+- The functional significance of the observed species-specific differences between plant and human Rpn10 is discussed but not experimentally addressed beyond the binding assays.

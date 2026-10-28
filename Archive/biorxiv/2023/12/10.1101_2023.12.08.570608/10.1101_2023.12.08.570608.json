@@ -1,0 +1,340 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.08.570608",
+  "title": "pyRBDome: A comprehensive computational platform for enhancing and interpreting RNA-binding proteome data",
+  "doi": "10.1101/2023.12.08.570608",
+  "abstract": "High-throughput proteomics approaches have revolutionised the identification of RNA-binding proteins (RBPome) and RNA-binding sequences (RBDome) across organisms. Yet the extent of noise, including false-positives, associated with these methodologies, is difficult to quantify as experimental approaches for validating the results are generally low throughput. To address this, we introduce pyRBDome, a pipeline for enhancing RNA-binding proteome data in silico . It aligns the experimental results with RNA-binding site (RBS) predictions from distinct machine learning tools and integrates high-resolution structural data when available. Its statistical evaluation of RBDome data enables quick identification of likely genuine RNA-binders in experimental datasets. Furthermore, by leveraging the pyRBDome results, we have enhanced the sensitivity and specificity of RBS detection through training new ensemble machine learning models. pyRBDome analysis of a human RBDome dataset, compared with known structural data, revealed that while UV cross-linked amino acids were more likely to contain predicted RBSs, they infrequently bind RNA in high-resolution structures. This discrepancy underscores the limitations of structural data as benchmarks, positioning pyRBDome as a valuable alternative for increasing confidence in RBDome datasets.",
+  "authors": [
+    "Chu L",
+    "Christopoulou N",
+    "McCaughan H",
+    "Winterbourne S",
+    "Cazzola D",
+    "Wang S",
+    "Litvin U",
+    "Brunon S",
+    "Harker PJ",
+    "McNae I",
+    "Granneman S"
+  ],
+  "published_date": "2023-12-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.08.570608",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.08.570608.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR771467",
+    "raw_record": {
+      "id": "PPR771467",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR771467"
+        ]
+      },
+      "doi": "10.1101/2023.12.08.570608",
+      "title": "pyRBDome: A comprehensive computational platform for enhancing and interpreting RNA-binding proteome data",
+      "authorString": "Chu L, Christopoulou N, McCaughan H, Winterbourne S, Cazzola D, Wang S, Litvin U, Brunon S, Harker PJ, McNae I, Granneman S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chu L",
+            "lastName": "Chu",
+            "firstName": "Liang-Cui",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0549-2003"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Christopoulou N",
+            "lastName": "Christopoulou",
+            "firstName": "Niki",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McCaughan H",
+            "lastName": "McCaughan",
+            "firstName": "Hugh",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4090-9054"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winterbourne S",
+            "lastName": "Winterbourne",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cazzola D",
+            "lastName": "Cazzola",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7214-1812"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Shichao",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Litvin U",
+            "lastName": "Litvin",
+            "firstName": "Ulad",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, Glasgow, G61 1QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brunon S",
+            "lastName": "Brunon",
+            "firstName": "Salomé",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institut de Biologie de l’Ecole normale supérieure (IBENS), 75230, Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harker PJ",
+            "lastName": "Harker",
+            "firstName": "Patrick J.B.",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2531-8774"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Cancer Research UK Cancer Biomarker Centre, University of Manchester, Manchester M20 4BX, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNae I",
+            "lastName": "McNae",
+            "firstName": "Iain",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6312-7936"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Granneman S",
+            "lastName": "Granneman",
+            "firstName": "Sander",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7214-1812"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0549-2003"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2531-8774"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4090-9054"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6312-7936"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "High-throughput proteomics approaches have revolutionised the identification of RNA-binding proteins (RBPome) and RNA-binding sequences (RBDome) across organisms. Yet the extent of noise, including false-positives, associated with these methodologies, is difficult to quantify as experimental approaches for validating the results are generally low throughput. To address this, we introduce pyRBDome, a pipeline for enhancing RNA-binding proteome data  in silico . It aligns the experimental results with RNA-binding site (RBS) predictions from distinct machine learning tools and integrates high-resolution structural data when available. Its statistical evaluation of RBDome data enables quick identification of likely genuine RNA-binders in experimental datasets. Furthermore, by leveraging the pyRBDome results, we have enhanced the sensitivity and specificity of RBS detection through training new ensemble machine learning models. pyRBDome analysis of a human RBDome dataset, compared with known structural data, revealed that while UV cross-linked amino acids were more likely to contain predicted RBSs, they infrequently bind RNA in high-resolution structures. This discrepancy underscores the limitations of structural data as benchmarks, positioning pyRBDome as a valuable alternative for increasing confidence in RBDome datasets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/20/2023.12.08.570608.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.08.570608"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR771467"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR771467&type=FILE&fileName=EMS192670-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS192670",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-12-10",
+      "firstPublicationDate": "2023-12-08",
+      "firstIndexDate": "2023-12-10",
+      "fullTextReceivedDate": "2024-02-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

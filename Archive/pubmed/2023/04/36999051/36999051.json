@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "36999051",
+    "doi": "10.3389/fgene.2023.1142938",
+    "title": "Construction of a prognostic model based on eight ubiquitination-related genes via machine learning and potential therapeutics analysis for cervical cancer."
+  },
+  "content": {
+    "abstract": "Introduction: Ubiquitination is involved in many biological processes and its predictive value for prognosis in cervical cancer is still unclear. Methods: To further explore the predictive value of the ubiquitination-related genes we obtained URGs from the Ubiquitin and Ubiquitin-like Conjugation Database, analyzed datasets from The Cancer Genome Atlas and Gene Expression Omnibus databases, and then selected differentially expressed ubiquitination-related genes between normal and cancer tissues. Then, DURGs significantly associated with overall survival were selected through univariate Cox regression. Machine learning was further used to select the DURGs. Then, we constructed and validated a reliable prognostic gene signature by multivariate analysis. In addition, we predicted the substrate proteins of the signature genes and did a functional analysis to further understand the molecular biology mechanisms. The study provided new guidelines for evaluating cervical cancer prognosis and also suggested new directions for drug development. Results: By analyzing 1,390 URGs in GEO and TCGA databases, we obtained 175 DURGs. Our results showed 19 DURGs were related to prognosis. Finally, eight DURGs were identified via machine learning to construct the first ubiquitination prognostic gene signature. Patients were stratified into high-risk and low-risk groups and the prognosis was worse in the high-risk group. In addition, these gene protein levels were mostly consistent with their transcript level. According to the functional analysis of substrate proteins, the signature genes may be involved in cancer development through the transcription factor activity and the classical P53 pathway ubiquitination-related signaling pathways. Additionally, 71 small molecular compounds were identified as potential drugs. Conclusion: We systematically studied the influence of ubiquitination-related genes on prognosis in cervical cancer, established a prognostic model through a machine learning algorithm, and verified it. Also, our study provides a new treatment strategy for cervical cancer.",
+    "keywords": [
+      "bioinformatics",
+      "cervical cancer",
+      "machine learning",
+      "potential therapeutics",
+      "prognosis model",
+      "ubiquitination-related genes"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Yiping",
+        "Guy, Mutangala Muloye",
+        "Liu, Qingqing",
+        "Li, Ruowen",
+        "Mao, Zhonghao",
+        "Jiang, Nan",
+        "Wang, Bingyu",
+        "Cui, Baoxia",
+        "Zhang, Wenjing"
+      ],
+      "short_names": [
+        "Hao Y",
+        "Guy MM",
+        "Liu Q",
+        "Li R",
+        "Mao Z",
+        "Jiang N",
+        "Wang B",
+        "Cui B",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Yiping",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Guy, Mutangala Muloye",
+        "short_name": "Guy MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qingqing",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruowen",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Zhonghao",
+        "short_name": "Mao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Nan",
+        "short_name": "Jiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bingyu",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Baoxia",
+        "short_name": "Cui B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenjing",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "41201663",
+      "38567159"
+    ],
+    "refs": [
+      "34843906",
+      "34669962",
+      "34349117",
+      "34257653",
+      "34095460",
+      "33914773",
+      "33781891",
+      "33627786",
+      "33538338",
+      "33433946",
+      "33061808",
+      "32974164",
+      "32825184",
+      "31724308",
+      "31151253",
+      "31000580",
+      "30860036",
+      "29617326",
+      "29106644",
+      "28839186",
+      "28375744",
+      "27002218",
+      "26789255",
+      "25613900",
+      "25294822",
+      "24879114",
+      "24145113",
+      "23756179",
+      "23742843",
+      "23405241",
+      "23172288",
+      "22455463",
+      "19626045",
+      "19325623",
+      "17616526",
+      "17609271",
+      "17008526",
+      "16220686",
+      "12925520",
+      "12612638",
+      "11265246",
+      "2175676"
+    ],
+    "similar": [
+      "36999051",
+      "38313020",
+      "36253873",
+      "36046241",
+      "35958325",
+      "36123926",
+      "33914773",
+      "34336819",
+      "38898455",
+      "38136595",
+      "36253777",
+      "35866781",
+      "34315402",
+      "36689018",
+      "36611207",
+      "36267311",
+      "36685836",
+      "33414811",
+      "34926275",
+      "32707305",
+      "35924232",
+      "36275774",
+      "36660709",
+      "35872794",
+      "35111198",
+      "34776794",
+      "31803536",
+      "36388031",
+      "32518728",
+      "34825509",
+      "36451813",
+      "34090418",
+      "36523602",
+      "34706720",
+      "35399245",
+      "33663535",
+      "36568383",
+      "34789197",
+      "36561319",
+      "36248822",
+      "36357874",
+      "33869028",
+      "35694087",
+      "34876056",
+      "36911389",
+      "36581948",
+      "33626918",
+      "36175889",
+      "36479114",
+      "33304656",
+      "34122523",
+      "37274231",
+      "35573741",
+      "32046766",
+      "36968582",
+      "36281462",
+      "35676619",
+      "32300605",
+      "33631974",
+      "35443644",
+      "36936916",
+      "35935823",
+      "33981333",
+      "37340527",
+      "36566175",
+      "38062820",
+      "35611195",
+      "34095228",
+      "36713541",
+      "36092911",
+      "31612115",
+      "33002836",
+      "36591215",
+      "35574984",
+      "36941538",
+      "36091041",
+      "34123852",
+      "33520448",
+      "34670584",
+      "36138348",
+      "35840882",
+      "34868990",
+      "36938461",
+      "34498424",
+      "33227411",
+      "36388651",
+      "34177903",
+      "32457603",
+      "36281082",
+      "35392063",
+      "35422048",
+      "34721975",
+      "39296545",
+      "39247585",
+      "36672459",
+      "37353793",
+      "37438832"
+    ],
+    "review": [
+      "36999051"
+    ],
+    "pmc": [
+      "10043205"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36999051/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36999051",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2023.1142938",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

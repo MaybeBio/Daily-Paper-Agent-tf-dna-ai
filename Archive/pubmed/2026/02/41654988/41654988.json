@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "41654988",
+    "doi": "10.1186/s40001-025-03696-9",
+    "title": "Identification of immune-related genes and serum miR-100-5p in idiopathic inflammatory myopathy-related heart failure by integrated bioinformatics analysis and clinical validation."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Idiopathic inflammatory myopathy (IIM) is a collection of autoimmune disorders marked by muscle inflammation, with heart failure (HF) being a common and deadly complication. Exploring the underlying mechanisms and diagnostic markers for HF in IIM has significant clinical value. METHODS: We identified shared differentially expressed genes (DEGs) between HF and IIM using transcriptome data from the Gene Expression Omnibus (GEO). DEGs underwent functional enrichment analysis via Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO). Key genes were screened using two machine-learning algorithms and a protein-protein interaction network. Immune cell infiltration was estimated using the CIBERSORT algorithm, and its correlation with key genes was assessed. The key gene-related regulatory transcription factors (TFs) and miRNAs were predicted using miRNet, followed by validation through both online datasets and clinical samples. RESULTS: Seventy DEGs were shared by IIM and HF, primarily involved in immune and inflammatory responses. Key genes, including DDX60, CCL5, and IFIT3, exhibited strong diagnostic potential in both IIM and HF cohorts. Expression of IFIT3 and CCL5 was negatively associated with Tregs. In order to uncover the control of important genes, we also constructed TF-gene and miRNA-gene networks. Lastly, we confirmed that IIM with HF had higher levels of miR-100-5p expression than those without HF. CONCLUSION: DDX60, CCL5, and IFIT3 are likely central to the development of HF in IIM. Additionally, serum levels of miR-100-5p may serve as a potential biomarker for detecting HF in IIM patients.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarkers",
+      "Heart failure",
+      "Idiopathic inflammatory myopathy",
+      "Immune cell infiltration"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Yinghong",
+        "Ma, Li",
+        "Zhang, Shuang",
+        "Dai, Jiayi",
+        "Li, Dongyu",
+        "Hu, Qi",
+        "Shan, Linwei",
+        "Li, Lin",
+        "Zhang, Yixin",
+        "Sun, Xiaoxuan",
+        "Wang, Yan",
+        "Wang, Qiang",
+        "Zhou, Lei"
+      ],
+      "short_names": [
+        "Tang Y",
+        "Ma L",
+        "Zhang S",
+        "Dai J",
+        "Li D",
+        "Hu Q",
+        "Shan L",
+        "Li L",
+        "Zhang Y",
+        "Sun X",
+        "Wang Y",
+        "Wang Q",
+        "Zhou L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiac Ultrasound, The Friendship Hospital of Ili Kazakh Autonomous Prefecture, No. 92 Stalin Street, Yining, 835000, Xinjiang, People's Republic of China.",
+        "Institute of Clinical Medicine, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Friendship Hospital of Ili Kazakh Autonomous Prefecture, Ili and Jiangsu Joint Institute of Health, No. 92 Stalin Street, Yining, 835000, Xinjiang, People's Republic of China.",
+        "Endoscopy Center, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China.",
+        "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China. zhoulei@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Yinghong",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ma, Li",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiac Ultrasound, The Friendship Hospital of Ili Kazakh Autonomous Prefecture, No. 92 Stalin Street, Yining, 835000, Xinjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dai, Jiayi",
+        "short_name": "Dai J",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongyu",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qi",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shan, Linwei",
+        "short_name": "Shan L",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yixin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoxuan",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Friendship Hospital of Ili Kazakh Autonomous Prefecture, Ili and Jiangsu Joint Institute of Health, No. 92 Stalin Street, Yining, 835000, Xinjiang, People's Republic of China.",
+          "Endoscopy Center, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiang",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Rheumatology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lei",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Cardiology, The First Affiliated Hospital with Nanjing Medical University, No. 300 Guangzhou Road, Nanjing, 210029, Jiangsu Province, People's Republic of China. zhoulei@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2026 Feb 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/08 00:35",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41654988",
+      "40406620",
+      "36704339",
+      "39351239",
+      "40374866",
+      "39142001",
+      "37638007",
+      "38699746",
+      "34218797",
+      "37118825",
+      "39028999",
+      "38034382",
+      "41291813",
+      "33407587",
+      "37008314",
+      "38757035",
+      "36291136",
+      "39143741",
+      "40818967",
+      "35719390",
+      "41291978",
+      "35958412",
+      "41044520",
+      "34934349",
+      "35757392",
+      "38912340",
+      "37686108",
+      "41153026",
+      "38509983",
+      "38863714",
+      "39866466",
+      "36324504",
+      "32346408",
+      "39263286",
+      "40078458",
+      "41479901",
+      "38355637",
+      "38169604",
+      "40950408",
+      "39375405",
+      "36647068",
+      "40948644",
+      "41120603",
+      "39586719",
+      "36071497",
+      "35401659",
+      "39430414",
+      "41146237",
+      "40421012",
+      "38549107",
+      "39805933",
+      "34041839",
+      "36212136",
+      "38656659",
+      "37390254",
+      "39351221",
+      "40312440",
+      "38347953",
+      "36189314",
+      "39875572",
+      "39275894",
+      "38259479",
+      "34345178",
+      "36105301",
+      "39909085",
+      "41052072",
+      "39466354",
+      "36118873",
+      "38951833",
+      "37927963",
+      "31703725",
+      "38701300",
+      "39170142",
+      "35128826",
+      "40826767",
+      "36856573",
+      "41472876",
+      "37423398",
+      "41255601",
+      "37122694",
+      "40748585",
+      "38873601",
+      "40628511",
+      "35783271",
+      "40500570",
+      "41145553",
+      "38562184",
+      "36536067",
+      "37259023",
+      "41544137",
+      "41006883",
+      "35346191",
+      "34536521",
+      "38266934",
+      "41378005",
+      "35392084",
+      "40630623",
+      "34754625",
+      "40617086",
+      "34313877"
+    ],
+    "review": [
+      "41654988",
+      "40748585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03696-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

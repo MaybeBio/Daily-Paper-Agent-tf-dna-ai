@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33941776",
+  "title": "Learning a genome-wide score of human-mouse conservation at the functional genomics level.",
+  "authors": "Kwon, Soo Bin; Ernst, Jason",
+  "journal": "Nature communications",
+  "published_date": "2021-05-05",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用神经网络整合人类与小鼠的表观基因组、转录因子结合和转录组数据，学习跨物种功能基因组保守性评分，虽涉及TF结合数据但非聚焦TF-DNA互作机制，且无三维结构建模或结合位点预测，方法上仅用神经网络做整合评分，与课题核心关联较弱。",
+  "abstract": "Identifying genomic regions with functional genomic properties that are conserved between human and mouse is an important challenge in the context of mouse model studies. To address this, we develop a method to learn a score of evidence of conservation at the functional genomics level by integrating information from a compendium of epigenomic, transcription factor binding, and transcriptomic data from human and mouse. The method, Learning Evidence of Conservation from Integrated Functional genomic annotations (LECIF), trains neural networks to generate this score for the human and mouse genomes. The resulting LECIF score highlights human and mouse regions with shared functional genomic properties and captures correspondence of biologically similar human and mouse annotations. Analysis with independent datasets shows the score also highlights loci associated with similar phenotypes in both species. LECIF will be a resource for mouse model studies by identifying loci whose functional genomic properties are likely conserved.",
+  "abstract_zh": "识别人类与小鼠之间具有保守功能基因组学特性的基因组区域，是小鼠模型研究背景下的一个重要挑战。为解决此问题，我们开发了一种方法，通过整合来自人类和小鼠的表观基因组、转录因子结合及转录组数据汇编中的信息，来学习功能基因组学水平上的保守性证据评分。该方法，即从整合功能基因组注释中学习保守性证据（LECIF），训练神经网络为人类和小鼠基因组生成此评分。所得的LECIF评分突出显示了具有共享功能基因组学特性的人类和小鼠区域，并捕捉了生物学相似的人类和小鼠注释之间的对应关系。使用独立数据集的分析表明，该评分还突出了在两个物种中与相似表型相关的位点。LECIF将通过识别功能基因组学特性可能保守的位点，成为小鼠模型研究的一项资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33941776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33941776/",
+  "paper_page_path": "papers/pubmed/33941776/index.html"
+}

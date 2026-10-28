@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "35462009",
+    "doi": "10.1016/j.ymeth.2022.04.010",
+    "title": "Prediction of the transcription factor binding sites with meta-learning."
+  },
+  "content": {
+    "abstract": "With the accumulation of ChIP-seq data, convolution neural network (CNN)-based methods have been proposed for predicting transcription factor binding sites (TFBSs). However, biological experimental data are noisy, and are often treated as ground truth for both training and testing. Particularly, existing classification methods ignore the false positive and false negative which are caused by the error in the peak calling stage, and therefore, they can easily overfit to biased training data. It leads to inaccurate identification and inability to reveal the rules of governing protein-DNA binding. To address this issue, we proposed a meta learning-based CNN method (namely TFBS_MLCNN or MLCNN for short) for suppressing the influence of noisy labels data and accurately recognizing TFBSs from ChIP-seq data. Guided by a small amount of unbiased meta-data, MLCNN can adaptively learn an explicit weighting function from ChIP-seq data and update the parameter of classifier simultaneously. The weighting function overcomes the influence of biased training data on classifier by assigning a weight to each sample according to its training loss. The experimental results on 424 ChIP-seq datasets show that MLCNN not only outperforms other existing state-of-the-art CNN methods, but can also detect noisy samples which are given the small weights to suppress them. The suppression ability to the noisy samples can be revealed through the visualization of samples' weights. Several case studies demonstrate that MLCNN has superior performance to others.",
+    "keywords": [
+      "Convolution neural network",
+      "Meta learning",
+      "Noisy labels data",
+      "Transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jing, Fang",
+        "Zhang, Shao-Wu",
+        "Zhang, Shihua"
+      ],
+      "short_names": [
+        "Jing F",
+        "Zhang SW",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Key Laboratory of Information Fusion Technology, School of Automation, Northwestern Polytechnical University, Xi'an 710072, China.",
+        "MOE Key Laboratory of Information Fusion Technology, School of Automation, Northwestern Polytechnical University, Xi'an 710072, China. Electronic address: zhangsw@nwpu.edu.cn.",
+        "NCMIS, CEMS, RCSDS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing 100190, China; School of Mathematical Sciences, University of Chinese Academy of Sciences, Beijing 100049, China; Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, Kunming 650223, China. Electronic address: zsh@amss.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jing, Fang",
+        "short_name": "Jing F",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Information Fusion Technology, School of Automation, Northwestern Polytechnical University, Xi'an 710072, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shao-Wu",
+        "short_name": "Zhang SW",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Information Fusion Technology, School of Automation, Northwestern Polytechnical University, Xi'an 710072, China. Electronic address: zhangsw@nwpu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shihua",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "NCMIS, CEMS, RCSDS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing 100190, China; School of Mathematical Sciences, University of Chinese Academy of Sciences, Beijing 100049, China; Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, Kunming 650223, China. Electronic address: zsh@amss.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/25 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "41627694",
+      "38732207"
+    ],
+    "refs": [],
+    "similar": [
+      "35462009",
+      "34752400",
+      "38701417",
+      "34929739",
+      "33498086",
+      "36094959",
+      "34272562",
+      "37328639",
+      "30835229",
+      "36748992",
+      "32404971",
+      "32960766",
+      "24472686",
+      "23427986",
+      "34418693",
+      "20158869",
+      "24927817",
+      "33975951",
+      "24564277",
+      "34464837",
+      "38732207",
+      "23282203",
+      "31634140",
+      "32946398",
+      "32976105",
+      "35263332",
+      "37598467",
+      "31465497",
+      "20946807",
+      "39350338",
+      "33522898",
+      "30445619",
+      "24146601",
+      "38733561",
+      "35042722",
+      "32660981",
+      "35731778",
+      "22784574",
+      "36155619",
+      "20056654",
+      "28234893",
+      "25486472",
+      "21912677",
+      "33961567",
+      "29993783",
+      "23771139",
+      "34073774",
+      "33588754",
+      "22827163",
+      "19586888",
+      "34664074",
+      "26704972",
+      "34448158",
+      "22369349",
+      "29848263",
+      "34292930",
+      "33320934",
+      "28334268",
+      "31750523",
+      "35471887",
+      "20827591",
+      "38049725",
+      "19553195",
+      "31942977",
+      "23580539",
+      "34613923",
+      "24608116",
+      "23762209",
+      "31960370",
+      "32413949",
+      "22348285",
+      "27845669",
+      "37021899",
+      "21533218",
+      "30824903",
+      "30395277",
+      "27071201",
+      "34382190",
+      "24386279",
+      "31336830",
+      "29081688",
+      "33878366",
+      "34157645",
+      "33656670",
+      "30897079",
+      "34534646",
+      "22039215",
+      "27209209",
+      "34965583",
+      "30351403",
+      "26703974",
+      "37845681",
+      "24581441",
+      "31138617",
+      "21486936",
+      "31372637",
+      "24565265",
+      "33879052",
+      "31653198",
+      "32568326",
+      "35213314",
+      "34057898",
+      "34308429",
+      "37126626",
+      "38134600",
+      "37665707",
+      "37962995",
+      "38194961",
+      "35604981"
+    ],
+    "review": [
+      "35462009",
+      "25486472",
+      "19586888",
+      "29848263",
+      "28334268"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(22)00099-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

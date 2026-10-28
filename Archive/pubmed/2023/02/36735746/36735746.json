@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "36735746",
+    "doi": "10.1371/journal.pcbi.1010335",
+    "title": "Model of neural induction in the ascidian embryo."
+  },
+  "content": {
+    "abstract": "How cell specification can be controlled in a reproducible manner is a fundamental question in developmental biology. In ascidians, a group of invertebrate chordates, geometry plays a key role in achieving this control. Here, we use mathematical modeling to demonstrate that geometry dictates the neural-epidermal cell fate choice in the 32-cell stage ascidian embryo by a two-step process involving first the modulation of ERK signaling and second, the expression of the neural marker gene, Otx. The model describes signal transduction by the ERK pathway that is stimulated by FGF and attenuated by ephrin, and ERK-mediated control of Otx gene expression, which involves both an activator and a repressor of ETS-family transcription factors. Considering the measured area of cell surface contacts with FGF- or ephrin-expressing cells as inputs, the solutions of the model reproduce the experimental observations about ERK activation and Otx expression in the different cells under normal and perturbed conditions. Sensitivity analyses and computations of Hill coefficients allow us to quantify the robustness of the specification mechanism controlled by cell surface area and to identify the respective role played by each signaling input. Simulations also predict in which conditions the dual control of gene expression by an activator and a repressor that are both under the control of ERK can induce a robust ON/OFF control of neural fate induction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Urochordata/genetics",
+      "Cell Differentiation",
+      "Signal Transduction/physiology",
+      "Nervous System",
+      "Ephrins/genetics",
+      "Gene Expression Regulation, Developmental"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bettoni, Rossana",
+        "Hudson, Clare",
+        "Williaume, Geraldine",
+        "Sirour, Cathy",
+        "Yasuo, Hitoyoshi",
+        "de Buyl, Sophie",
+        "Dupont, Genevieve"
+      ],
+      "short_names": [
+        "Bettoni R",
+        "Hudson C",
+        "Williaume G",
+        "Sirour C",
+        "Yasuo H",
+        "de Buyl S",
+        "Dupont G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1585-8328",
+        "ORCID: 0000-0002-3314-9616",
+        "ORCID: 0000-0002-1408-4052"
+      ],
+      "affiliations": [
+        "Unite de Chronobiologie Theorique, Faculte des Sciences, CP231, Universite Libre de Bruxelles (ULB), Boulevard du Triomphe, Brussels, Belgium.",
+        "Applied Physics Research Group, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium.",
+        "Laboratoire de Biologie du Developpement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Universite, CNRS, Villefranche-sur-Mer, France.",
+        "Laboratoire de Biologie du Developpement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Universite, CNRS, Villefranche-sur-Mer, France.",
+        "Laboratoire de Biologie du Developpement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Universite, CNRS, Villefranche-sur-Mer, France.",
+        "Laboratoire de Biologie du Developpement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Universite, CNRS, Villefranche-sur-Mer, France.",
+        "Applied Physics Research Group, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium.",
+        "Unite de Chronobiologie Theorique, Faculte des Sciences, CP231, Universite Libre de Bruxelles (ULB), Boulevard du Triomphe, Brussels, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bettoni, Rossana",
+        "short_name": "Bettoni R",
+        "identifiers": [],
+        "affiliations": [
+          "Unité de Chronobiologie Théorique, Faculté des Sciences, CP231, Université Libre de Bruxelles (ULB), Boulevard du Triomphe, Brussels, Belgium.",
+          "Applied Physics Research Group, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hudson, Clare",
+        "short_name": "Hudson C",
+        "identifiers": [
+          "0000-0003-1585-8328"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie du Développement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Université, CNRS, Villefranche-sur-Mer, France."
+        ]
+      },
+      {
+        "full_name": "Williaume, Géraldine",
+        "short_name": "Williaume G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biologie du Développement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Université, CNRS, Villefranche-sur-Mer, France."
+        ]
+      },
+      {
+        "full_name": "Sirour, Cathy",
+        "short_name": "Sirour C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biologie du Développement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Université, CNRS, Villefranche-sur-Mer, France."
+        ]
+      },
+      {
+        "full_name": "Yasuo, Hitoyoshi",
+        "short_name": "Yasuo H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biologie du Développement de Villefranche-sur-Mer, Institut de la Mer de Villefranche-sur-Mer, Sorbonne Université, CNRS, Villefranche-sur-Mer, France."
+        ]
+      },
+      {
+        "full_name": "de Buyl, Sophie",
+        "short_name": "de Buyl S",
+        "identifiers": [
+          "0000-0002-3314-9616"
+        ],
+        "affiliations": [
+          "Applied Physics Research Group, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dupont, Geneviève",
+        "short_name": "Dupont G",
+        "identifiers": [
+          "0000-0002-1408-4052"
+        ],
+        "affiliations": [
+          "Unité de Chronobiologie Théorique, Faculté des Sciences, CP231, Université Libre de Bruxelles (ULB), Boulevard du Triomphe, Brussels, Belgium.",
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, La Plaine Campus, Brussels, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/04 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "41843499",
+      "37895872"
+    ],
+    "refs": [
+      "35860005",
+      "35217620",
+      "34672970",
+      "32665244",
+      "32646972",
+      "31751550",
+      "31058292",
+      "29149270",
+      "28319331",
+      "28121291",
+      "26096970",
+      "25772309",
+      "24098142",
+      "23527779",
+      "21945596",
+      "17965050",
+      "16729063",
+      "16227978",
+      "15171620",
+      "14729966",
+      "14651852",
+      "12743820",
+      "12062090",
+      "11165477",
+      "10330152",
+      "9572732",
+      "8816754",
+      "8552081",
+      "6947258"
+    ],
+    "similar": [
+      "36735746",
+      "34672970",
+      "26714026",
+      "15147764",
+      "18977283",
+      "12941619",
+      "25121599",
+      "11466522",
+      "24098142",
+      "27888190",
+      "17216525",
+      "17344225",
+      "9463358",
+      "14618404",
+      "12193804",
+      "12019564",
+      "12441299",
+      "15750182",
+      "12421701",
+      "25482623",
+      "25576927",
+      "37213081",
+      "9362472",
+      "27265866",
+      "14516697",
+      "24067356",
+      "24433293",
+      "17965050",
+      "22889275",
+      "29442319",
+      "14651852",
+      "23453950",
+      "11180824",
+      "9303342",
+      "29542081",
+      "10354472",
+      "11566860",
+      "24853834",
+      "35761237",
+      "9242421",
+      "9043063",
+      "11576169",
+      "12617820",
+      "10508695",
+      "11180813",
+      "30007244",
+      "9344543",
+      "9769178",
+      "36702215",
+      "12701103",
+      "25231764",
+      "27913219",
+      "29542088",
+      "8246182",
+      "11151302",
+      "34465302",
+      "15338306",
+      "21880784",
+      "32130723",
+      "11526077",
+      "33920662",
+      "15272372",
+      "15738634",
+      "21637844",
+      "10491253",
+      "16950241",
+      "33639715",
+      "11683488",
+      "14651843",
+      "12424517",
+      "26515371",
+      "29438806",
+      "11476571",
+      "11526070",
+      "25949155",
+      "22945355",
+      "20459606",
+      "9394921",
+      "17728350",
+      "25209243",
+      "26293298",
+      "15115756",
+      "30710513",
+      "28057272",
+      "8812106",
+      "17534657",
+      "11923208",
+      "23444354",
+      "11493523",
+      "10479446",
+      "11585798",
+      "12091314",
+      "10445498",
+      "29519242",
+      "17366575",
+      "10851130",
+      "20149789",
+      "21427146",
+      "12783791",
+      "31552663"
+    ],
+    "review": [
+      "36735746",
+      "12019564",
+      "25482623",
+      "29442319",
+      "29542081",
+      "24853834",
+      "10508695",
+      "30007244",
+      "29542088",
+      "32130723",
+      "33920662",
+      "15272372",
+      "15738634",
+      "11683488",
+      "14651843",
+      "29438806",
+      "9394921",
+      "28057272"
+    ],
+    "pmc": [
+      "9931142"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010335",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36735746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36735746",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

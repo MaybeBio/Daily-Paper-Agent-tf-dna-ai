@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) without supplementary materials, figures, schemes, or tables
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by provided evidence
+- **Shared manuscript claim summary** The authors report the solid-phase synthesis of 18 novel trimethoprim analogs containing amide bonds, designed as dual-function agents targeting human dihydrofolate reductase (hDHFR) and DNA. They report DNA-binding activity via ethidium displacement assays, hDHFR inhibition with IC50 values, and molecular docking and dynamics studies suggesting interactions with the catalytic residue Glu-30.
+- **Visible evidence base** Text descriptions of synthesis procedures, biological assay results (reported as percentages and IC50 values), and molecular modelling outcomes. No actual figures, tables, or supplementary data were provided.
+- **Missing materials affecting confidence** All figures, schemes, tables (including Table 1 with key numerical data), and supplementary materials (Table S1) are absent. This substantially limits verification of quantitative claims and structural assignments.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a systematic medicinal chemistry effort to generate dual-target anticancer candidates by combining structural features of trimethoprim and netropsin. The synthetic strategy is logical and builds on prior work from the same group. However, the absence of all primary data displays (figures, tables, schemes) prevents verification of the central claims. Several internal inconsistencies and ambiguities in the text further weaken the current presentation. The molecular dynamics section lacks methodological detail and quantitative reporting. The work has potential interest for the medicinal chemistry community, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Medicinal chemists working on antifolate anticancer agents, researchers in DNA-targeted therapy, and computational chemists studying DHFR-ligand interactions would find this work relevant. The dual-targeting concept combining DHFR inhibition with DNA minor-groove binding is a plausible strategy to address drug resistance, which is a topic of ongoing interest in cancer chemotherapy.
+- **Major strengths** The synthetic approach using solid-phase methodology is practical and enables systematic variation of structural features. The design rationale, based on prior structure-activity relationships and the known importance of Glu-30 in hDHFR, is coherent. The combination of experimental biological assays with computational studies (docking and MD) represents a comprehensive approach to compound evaluation. The comparison with established drugs (TMP, MTX, netropsin) provides useful benchmarks.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims specific DNA-binding percentages, IC50 values, and binding constants for compounds 1-18, including statements such as "compounds 13-14 (49.89% and 43.85%) and 17-18 (41.68% and 42.99%) showed a higher binding affinity to pBR322 plasmid than NT" and "all of the compounds showed better inhibitory properties against hDHFR than standard, which confirms that the addition of the amide bond into the TMP structures increases affinity towards hDHFR."
+  - **Evidence pointer** Table 1, Figures 5-9, location not provided
+  - **Concern** All quantitative results are presented exclusively in tables and figures that were not included in the provided material. Without access to Table 1 (which contains the IC50 values, DNA-binding percentages, and binding constants), the central claims of the manuscript cannot be verified. The same applies to the molecular docking scores and MD simulation data shown in Figures 5-9. The reader cannot assess the magnitude of effects, statistical variability, or the validity of comparisons with standards.
+  - **Why it matters** The entire scientific case rests on these quantitative data. Claims of "higher binding affinity" or "better inhibitory properties" are meaningless without the actual numbers and appropriate statistical analysis. The absence of this evidence makes the manuscript's conclusions unverifiable.
+  - **Resolution test** Provide all figures, tables, and supplementary data. Ensure Table 1 includes complete data for all compounds with appropriate replicates and error estimates. Confirm that all values cited in the text match those in the tables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states "Derivatives 2, 6, 13, 14, and 16 were found to be the most potent hDHFR inhibitors." The results section states "Seven derivatives (2, 6, 13-14, and 16-18) showed the best inhibitory properties against hDHFR with IC50 values ranging from 0.88 to 2.09 µM." The conclusions state "five were determined to be particularly effective, namely 2, 6, 13, 14, and 16."
+  - **Evidence pointer** Abstract, Section 2.2, Section 4
+  - **Concern** The number of "most potent" compounds is inconsistent across the manuscript. The abstract and conclusions identify five compounds (2, 6, 13, 14, 16), while the results section identifies seven (2, 6, 13, 14, 16, 17, 18). This discrepancy is not explained. Either the criteria for "most potent" differ between sections, or there is an error. Additionally, the IC50 range cited (0.88-2.09 µM) appears to cover seven compounds, but the text does not clarify which specific values correspond to which compounds.
+  - **Why it matters** Inconsistent reporting of the key findings undermines confidence in the data analysis and the authors' interpretation. Readers cannot determine which compounds are actually the most promising leads.
+  - **Resolution test** Reconcile the number of lead compounds across abstract, results, and conclusions. Provide a clear statement of selection criteria for "most potent" classification. Ensure all cited IC50 values are traceable to Table 1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The molecular dynamics section claims "Our molecular dynamics calculations proved that strong contact is eventually formed" with Glu-30, and the conclusions state "This was also validated by our MD study, where we found that Ala-9, Val-215, and Tyr-121 residues were responsible for the stabilization of our ligands by interacting with the amide group."
+  - **Evidence pointer** Section 2.4, Section 4
+  - **Concern** The MD methodology is described only in general terms in Section 3.7, but key parameters are missing. The simulation length is stated as 20 ns, which is relatively short for drawing conclusions about stable binding. No information is provided on the number of replicates, convergence criteria, or error analysis. The claim that MD "proved" strong contact formation is an overstatement, as MD simulations provide evidence of plausible interactions, not proof. The specific residues mentioned in the conclusions (Ala-9, Val-215, Tyr-121) do not all appear in the results section, where Val-115 is mentioned instead. The residue numbering appears inconsistent.
+  - **Why it matters** The computational component is presented as validation of experimental findings. If the MD methodology is not rigorously described and the results not quantitatively reported, the validation claim is weakened. The residue numbering discrepancy suggests possible errors in analysis or reporting.
+  - **Resolution test** Provide complete MD methodology including force field parameters, simulation protocol, equilibration details, and analysis methods. Report quantitative data such as binding free energies, hydrogen bond occupancies with standard deviations, and RMSD/RMSF values with appropriate statistical treatment. Clarify residue numbering and ensure consistency between results and conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The manuscript states "These structures may have an interesting future as a template for developing new analogs with potential anticancer properties" and the title describes the compounds as "Multi-Targeted Compounds."
+  - **Evidence pointer** Section 4, Title
+  - **Concern** The manuscript reports enzyme inhibition and DNA binding but provides no cellular or in vivo data. The title and conclusions imply anticancer potential, yet no cytotoxicity or antiproliferative assays are described. The connection between DHFR inhibition, DNA binding, and anticancer activity is inferred but not demonstrated. The authors acknowledge this limitation in the conclusions ("We plan to do further in vitro investigations of the activity on cancer cell lines"), but the title's claim of "Multi-Targeted Compounds" may overstate the current evidence.
+  - **Why it matters** The therapeutic relevance of these compounds is a key motivation for the work. Without cellular data, the translational significance remains speculative. The title may mislead readers about the level of biological validation achieved.
+  - **Resolution test** Either temper the title and claims to reflect the current stage of investigation, or add cellular assays demonstrating antiproliferative activity. Clarify that the dual-targeting concept is supported by biochemical and computational data only at this stage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The text states "The results revealed that all of the newly obtained compounds presented a DNA-binding effect (<100%)." This statement is tautological since a percentage decrease in fluorescence cannot exceed 100% by definition. The intended meaning is likely that all compounds showed measurable DNA binding, but the phrasing is confusing.
+  - **Required correction** Rephrase to clarify that all compounds showed a measurable decrease in fluorescence, indicating DNA-binding activity, and specify the range of values observed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The text mentions "The affinity constants of compounds 1-18 in the range of 1.2-5.8 x 10^5 M^-1 indicated moderate interactions with calf thymus" but does not provide the corresponding values for T4 coliphage DNA, poly(dA-dT)2, or poly(dG-dC)2 in the text. These are presumably in Table 1, but the text should summarize the key findings for each DNA type to support the claim of minor-groove selectivity.
+  - **Required correction** Add a brief summary of the binding constants for each DNA type and explain how the data support the conclusion of minor-groove binding preference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The synthesis section states "The acid chlorides En1 were dissolved in DCM. The acid chlorides En1 were dissolved in DCM." This sentence is duplicated verbatim. Additionally, the section does not provide yields for the final compounds or characterization data beyond NMR confirmation, which is mentioned but not shown.
+  - **Required correction** Remove the duplicated sentence. Provide yields for compounds 1-18 and reference the supplementary data for full characterization. If yields are variable, report the range.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The IC50 values are reported without error estimates or the number of replicates. For enzyme inhibition assays, at least triplicate measurements with standard deviations are expected.
+  - **Required correction** Report IC50 values with standard deviations and the number of independent experiments. State the statistical methods used for curve fitting.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The text states "Because of the imperfections of molecular docking algorithms and the previously discussed importance of interaction with Glu-30, we decided to use structures of 13, 14, and 16 where the amino group and aromatic ring are arranged in a similar way to the other inhibitors." This implies the authors manually adjusted docking poses, which is a subjective procedure. The text should clarify whether these adjusted poses were used for subsequent MD simulations and whether the original docking scores in Table 1 correspond to the adjusted or unadjusted poses.
+  - **Required correction** Clarify the pose selection procedure and state explicitly which poses were used for MD starting structures and for the reported binding energies.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary data is the primary technical failing. Without these, the quantitative claims cannot be assessed. The internal inconsistency regarding the number of lead compounds (five vs. seven) must be resolved. The MD methodology lacks sufficient detail for reproducibility, and the claim of "proof" from MD simulations is overstated. The residue numbering inconsistency (Val-215 vs. Val-115) suggests potential analysis errors.
+- **Assessment against Nature-style criteria** Originality: The dual-targeting concept combining DHFR inhibition with DNA minor-groove binding is not entirely novel, as the authors themselves cite prior work in this direction. The specific compound series is new, but the conceptual advance is incremental. Scientific importance: The work addresses a relevant problem (anticancer drug resistance) and provides a systematic SAR study, but the lack of cellular data limits the immediate significance. Interdisciplinary readership: The work bridges medicinal chemistry and computational biology, which could appeal to a broad audience, but the presentation is specialized. Technical soundness: The synthetic chemistry appears sound based on the described procedures, but the biological and computational components cannot be fully evaluated without the missing data. Readability for nonspecialists: The manuscript is written in a technical style appropriate for a specialist journal but would benefit from clearer summaries of key findings in the text rather than relying on tables and figures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The synthetic work and design rationale are promising, and the concept has merit. However, the manuscript in its current form, with missing data displays and internal inconsistencies, does not fully establish the claims. The authors must provide all primary data, reconcile the inconsistencies, and strengthen the computational methodology reporting before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that "the addition of the amide bond into the TMP structures increases affinity towards hDHFR" is presented as a general conclusion but is based on data not visible in the provided material. The comparison with TMP is mentioned but the actual values are not available for verification.
+- The statement "Our molecular dynamics calculations proved that strong contact is eventually formed" with Glu-30 is unsupported. MD simulations provide evidence of plausible interactions but cannot "prove" contact formation without quantitative binding data and appropriate statistical analysis.
+- The claim that compounds 13-14 and 17-18 showed "higher binding affinity to pBR322 plasmid than NT" cannot be verified without the actual fluorescence data and statistical comparisons.
+- The conclusion that these compounds "may have an interesting future as a template for developing new analogs with potential anticancer properties" is speculative, as no cellular or in vivo data are presented to support anticancer potential.
+- The statement "All of the synthesized TMP analogs have an amide bond incorporated between two aromatic rings" is presented as a design feature, but the structural verification of all 18 compounds is only referenced to supplementary data not provided.
+- The claim that "the results from molecular docking are in accordance with the experimental data" is an interpretation that cannot be independently assessed without the docking scores and experimental values in Table 1.

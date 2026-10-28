@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report a method to measure genome-wide absolute apparent binding affinities of transcription factors (TFs) to native chromatinized DNA. They claim that DNA accessibility is the main determinant of TF binding, that high-affinity (nanomolar) binding of YY1, SP1, and MYC/MAX is largely restricted to promoters, that FOXA1 also binds non-promoter elements with high affinity, that consensus motifs are important but not strictly required for nanomolar affinity interactions, and that TF concentration-dependent binding to specific gene classes may affect gene expression and cell fate. They further claim the method enables stratification of genomic targets and prediction of TF binding sites under non-physiological conditions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, methods description, experimental validation, quantitative data, statistical analyses, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological advance with broad implications for understanding TF binding in chromatin context. However, the claims are broad and the evidence base is not assessable from the abstract alone. The central assertion that DNA accessibility is the main determinant of TF binding, and the specific claims about TF-specific behaviors, require detailed experimental and quantitative support that is not visible here. The abstract is well written and the conceptual framing is clear, but the scientific case is currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, transcription factor biology, and computational genomics would be interested. The method could provide a quantitative framework for predicting TF binding under varying conditions, which is relevant to understanding development, cell fate decisions, and disease states such as oncogene overexpression.
+- **Major strengths** The abstract introduces a conceptually important question, namely quantifying TF binding affinities in native chromatin context. The proposed method appears to add a quantitative dimension that could complement existing approaches. The findings, if validated, would have broad implications for interpreting TF binding data and for predicting binding under non-physiological conditions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that DNA accessibility is the main determinant of TF binding in the genome, and that this largely restricts nanomolar affinity binding of YY1, SP1, and MYC/MAX to promoters.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that DNA accessibility is the main determinant of TF binding, but no quantitative comparison, statistical test, or control analysis is presented. The claim that accessibility "largely restricts" high-affinity binding to promoters is not supported by any visible data.
+  - **Why it matters** This is the central conclusion of the study. Without evidence showing that accessibility outperforms other chromatin features or DNA sequence in explaining binding affinity, the claim is unsupported. The distinction between promoter and non-promoter binding for different TFs is also a key finding that requires direct measurement and comparison.
+  - **Resolution test** Provide quantitative data showing the relationship between accessibility and measured apparent affinities across the genome, including statistical models that compare accessibility to other features. Show that the restriction of nanomolar binding to promoters is statistically significant and not an artifact of TF expression levels or motif distribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The claim that the method determines genome-wide absolute apparent binding affinities of TFs to native chromatinized DNA.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the method, its validation, or its limitations. It is unclear how affinities are measured, whether they are truly absolute, and how the method accounts for confounding factors such as TF concentration, cooperativity, or post-translational modifications.
+  - **Why it matters** The entire study rests on the validity of the method. Without details on calibration, reproducibility, and comparison to established approaches, the reliability of the affinity measurements cannot be assessed.
+  - **Resolution test** Provide a detailed methods section with validation experiments, including comparison to known binding affinities, reproducibility across replicates, and controls for non-specific binding or technical artifacts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The claim that consensus motifs are not always strictly required to generate nanomolar affinity interactions in the genome.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that motifs are important but not strictly required, but no examples, frequencies, or statistical support are given. It is unclear how many high-affinity sites lack motifs, and whether these sites are biologically relevant or experimental artifacts.
+  - **Why it matters** This claim challenges a common assumption in TF biology. If true, it has implications for motif-based prediction of TF binding. However, the claim needs quantitative support showing that motif-less high-affinity sites are reproducible and functionally meaningful.
+  - **Resolution test** Provide data on the proportion of high-affinity binding sites lacking consensus motifs, with controls for motif degeneracy, and demonstrate that these sites are not due to indirect binding or technical noise.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive claim
+  - **Claim pointer** The claim that TF concentration-dependent binding to specific gene classes suggests concentration-dependent effects on gene expression and cell fate.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract links concentration-dependent binding to gene expression and cell fate, but no functional data are presented. The connection is speculative and not supported by any experimental evidence in the abstract.
+  - **Why it matters** This claim extends the findings to a biological outcome. Without functional validation, such as perturbation experiments or correlation with expression changes, the claim remains an interpretation rather than a demonstrated result.
+  - **Resolution test** Provide experimental evidence linking concentration-dependent binding to changes in gene expression or cell fate, or clearly frame this as a hypothesis for future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "absolute apparent binding affinities" is potentially confusing, as "apparent" and "absolute" may seem contradictory.
+  - **Required correction** Clarify the meaning of "absolute apparent" in the abstract, or rephrase to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Abstract claim on disease relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the method enables prediction of TF binding sites under non-physiological conditions such as disease-associated overexpression is stated without any example or validation.
+  - **Required correction** Either provide a specific example or soften the claim to indicate potential applicability rather than demonstrated utility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The method validation and the central claims about accessibility and motif requirements are not assessable from the abstract and require full experimental detail.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of measuring absolute apparent affinities in native chromatin is novel and potentially significant.
+  - Scientific importance: If validated, the findings would advance understanding of TF binding regulation and could inform predictive models.
+  - Interdisciplinary readership: The topic is relevant to molecular biology, genomics, and computational biology, and the abstract is accessible to a broad audience.
+  - Technical soundness: Not assessable from the abstract; requires full methods and validation.
+  - Readability for nonspecialists: The abstract is clearly written and understandable, though some terms could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the central claims and the method itself require full manuscript evaluation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that DNA accessibility is the main determinant of TF binding is unsupported without quantitative comparison.
+- The claim that consensus motifs are not strictly required for nanomolar affinity is unsupported without examples and statistics.
+- The claim that concentration-dependent binding affects gene expression and cell fate is speculative without functional data.
+- The claim that the method enables prediction of TF binding under non-physiological conditions is not demonstrated.
+- The overall validity of the method is not assessable from the abstract.

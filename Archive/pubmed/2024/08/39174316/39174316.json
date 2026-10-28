@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "39174316",
+    "doi": "10.1093/jrr/rrae062",
+    "title": "In vitro and in silico study of biological effects on cancer cells in the presence of metallic materials during radiotherapy."
+  },
+  "content": {
+    "abstract": "X-ray therapy aims to eliminate tumours while minimizing side effects. Intense mucositis is sometimes induced when irradiating the oral cavity with a dental metal crown (DMC). However, the underlying mechanisms of such inducing radiosensitization by DMC remain uncertain. This study explored the radiosensitizing mechanisms around DMCs in an interdisciplinary approach with cell experiments and Monte Carlo simulation with the PHITS code. Clonogenic survival and nuclear 53BP1 foci of a cell line derived from cervical cancer cells (HeLa cells) were measured post-irradiation with therapeutic X-rays near high-Z materials such as Pb or Au plates, and the experimental sensitizer enhancement ratio (SER) was obtained. Meanwhile, the dose enhancement ratio (DER) and relative biological effectiveness for DNA damage yields were calculated using the PHITS code, by considering the corresponding experimental condition. The experiments show the experimental SER values for cell survival and 53BP1 foci near metals are 1.2-1.4, which agrees well with the calculated DER values. These suggest that the radiosensitizing effects near metal are predominantly attributed to the dose increase. In addition, as a preclinical evaluation, the spatial distributions of DER near DMC are calculated using Computed Tomography Digital Imaging and Communications in Medicine (CT-DICOM) data and a simple tooth model. As a result, the DER values evaluated using the CT-DICOM data were lower than those from a simple tooth model. These findings highlight the challenge of evaluating radiosensitizing effects near DMCs using Digital Imaging and Communications in Medicine (DICOM) images due to volume-averaging effects and emphasize the need for a high-resolution (<1 mm) dose assessment method unaffected by these effects.",
+    "keywords": [
+      "Monte Carlo simulation",
+      "X-ray therapy",
+      "cell experiment",
+      "dose enhancement",
+      "high-z dental metal",
+      "sensitizer enhancement ratio"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Metals/chemistry",
+      "*Computer Simulation",
+      "*Cell Survival/radiation effects",
+      "HeLa Cells",
+      "Dose-Response Relationship, Radiation",
+      "Monte Carlo Method",
+      "Tumor Suppressor p53-Binding Protein 1/metabolism",
+      "DNA Damage",
+      "Radiotherapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagano, Takuya",
+        "Matsuya, Yusuke",
+        "Kaida, Atsushi",
+        "Nojima, Hitomi",
+        "Furuta, Takuya",
+        "Sato, Kaoru",
+        "Yoshimura, Ryoichi",
+        "Miura, Masahiko"
+      ],
+      "short_names": [
+        "Nagano T",
+        "Matsuya Y",
+        "Kaida A",
+        "Nojima H",
+        "Furuta T",
+        "Sato K",
+        "Yoshimura R",
+        "Miura M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiation Therapeutics and Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan.",
+        "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan.",
+        "Faculty of Health Sciences, Hokkaido University, Kita-12 Nishi-5, Kita-ku, Sapporo, Hokkaido 060-0812, Japan.",
+        "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan.",
+        "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan.",
+        "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan.",
+        "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan.",
+        "Department of Radiation Therapeutics and Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan.",
+        "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nagano, Takuya",
+        "short_name": "Nagano T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Therapeutics and Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuya, Yusuke",
+        "short_name": "Matsuya Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan.",
+          "Faculty of Health Sciences, Hokkaido University, Kita-12 Nishi-5, Kita-ku, Sapporo, Hokkaido 060-0812, Japan."
+        ]
+      },
+      {
+        "full_name": "Kaida, Atsushi",
+        "short_name": "Kaida A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+        ]
+      },
+      {
+        "full_name": "Nojima, Hitomi",
+        "short_name": "Nojima H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+        ]
+      },
+      {
+        "full_name": "Furuta, Takuya",
+        "short_name": "Furuta T",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan."
+        ]
+      },
+      {
+        "full_name": "Sato, Kaoru",
+        "short_name": "Sato K",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Science and Engineering Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshimura, Ryoichi",
+        "short_name": "Yoshimura R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Therapeutics and Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+        ]
+      },
+      {
+        "full_name": "Miura, Masahiko",
+        "short_name": "Miura M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dental Radiology and Radiation Oncology, Tokyo Medical and Dental University, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8519, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of radiation research"
+    ],
+    "journal_abbrev": [
+      "J Radiat Res"
+    ],
+    "pub_date": "2024 Sep 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/23 00:43",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42406257"
+    ],
+    "refs": [
+      "35781266",
+      "34930091",
+      "33912970",
+      "33432383",
+      "31776470",
+      "30090895",
+      "29800455",
+      "26894359",
+      "26520713",
+      "26512725",
+      "24863679",
+      "24515253",
+      "24332675",
+      "19223833",
+      "18417299",
+      "17321069",
+      "12697768",
+      "11941360",
+      "7866501",
+      "3679935",
+      "1947001",
+      "1612965"
+    ],
+    "similar": [
+      "39174316",
+      "38501279",
+      "38153111",
+      "17457757",
+      "22894428",
+      "28886212",
+      "30704035",
+      "31021733",
+      "26520760",
+      "30133705",
+      "23824114",
+      "36740000",
+      "24387494",
+      "33469290",
+      "36228611",
+      "24320476",
+      "31918367",
+      "28786486",
+      "31505039",
+      "36297640",
+      "39299711",
+      "34930091",
+      "27167284",
+      "11238909",
+      "39125823",
+      "36674901",
+      "21813962",
+      "21859044",
+      "39000171",
+      "31040665",
+      "27695329",
+      "24877837",
+      "23594417",
+      "39249663",
+      "8635948",
+      "24169737",
+      "24387504",
+      "28703119",
+      "35342953",
+      "28322329",
+      "16918294",
+      "26894359",
+      "11483347",
+      "23822414",
+      "29419809",
+      "35781266",
+      "25281958",
+      "28948388",
+      "21923301",
+      "17664549",
+      "37352865",
+      "27660146",
+      "31153400",
+      "25652523",
+      "37753877",
+      "32880637",
+      "17654915",
+      "28045991",
+      "31835321",
+      "24309720",
+      "28624366",
+      "28543610",
+      "25715852",
+      "25266332",
+      "28339846",
+      "17278816",
+      "31557625",
+      "20571213",
+      "26520716",
+      "34218169",
+      "38669482",
+      "30593679",
+      "37137293",
+      "26243567",
+      "37410090",
+      "16204876",
+      "28986987",
+      "32365916",
+      "29678602",
+      "27167252",
+      "28397142",
+      "36186704",
+      "38570400",
+      "32916674",
+      "31947954",
+      "31146217",
+      "32930134",
+      "28300387",
+      "25879344",
+      "26226203",
+      "29448059",
+      "28428498",
+      "15933138",
+      "33766478",
+      "17148817",
+      "32250844",
+      "26127058",
+      "22225281",
+      "27074489",
+      "29388453"
+    ],
+    "review": [
+      "39174316",
+      "36740000"
+    ],
+    "pmc": [
+      "11420842"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

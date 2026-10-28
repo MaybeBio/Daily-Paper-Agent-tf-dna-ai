@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and alignment with Nature-style criteria. Editorial and formatting issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors use long-timescale all-atom molecular dynamics simulations to classify endocrine-disrupting chemicals (EDCs) as binders to estrogen receptor alpha (ERα) and glucocorticoid receptor (GR), proposing that H12 folding and conformational angles are discerning features for EDC binding classification, with protein–ligand interaction and binding energy more relevant for GR.
+- **Visible evidence base** Methods descriptions, results narrative, references to supporting figures and tables (Figure 2–5, Tables S1–S10, Figures S1–S31), statistical descriptions, and comparisons to experimental data from a cosubmitted manuscript and literature.
+- **Missing materials affecting confidence** The cosubmitted experimental paper (Pitkänen et al.) is referenced but not available; supporting information (figures and tables) is not provided; no raw simulation data, force-field parameter files, or convergence metrics are shown; no docking scores or pose validation details are given; no code or analysis scripts are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: the classification of EDCs binding to steroid hormone receptors using dynamic structural descriptors. The computational effort is substantial, with approximately 300 μs of aggregate simulation time, and the focus on H12 conformational dynamics as a classification feature is conceptually interesting. However, the evidence presented is insufficient to fully support the central claims. Key limitations include the absence of the supporting information, the reliance on a cosubmitted experimental manuscript for validation, the lack of quantitative convergence assessments, and the acknowledged strong dependence of results on initial structures. The distinction between "agonist-like" and "antagonist-like" classifications for EDCs is not rigorously established, and the predictive power of the proposed descriptors is not demonstrated with independent validation. The manuscript is technically sound in its simulation methodology but falls short of establishing a robust, generalizable classification framework.
+- **Who would be interested in the results, and why** Researchers in computational toxicology, nuclear receptor biology, and endocrine disruption would find the approach relevant. Those developing structure-based methods for predicting endocrine activity of environmental chemicals, and those interested in the conformational dynamics of nuclear receptor ligand-binding domains, would benefit from the methodological insights and the proposed descriptor set. The work may also interest regulatory scientists involved in EDC hazard identification.
+- **Major strengths** 1) The study addresses a significant gap: the use of dynamic, rather than static, structural features for EDC classification. 2) The simulation effort is extensive, with microsecond-scale trajectories and multiple replicas. 3) The comparison of multiple EDCs across two receptors within a consistent framework is valuable. 4) The authors are transparent about limitations, particularly the bias introduced by initial structures and the caution against using energy predictions alone. 5) The statistical treatment acknowledges the pitfalls of large sample sizes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "H12 folding and conformational angles can be discerning features for binding of EDCs to SHRs" and that these features enable classification of EDCs.
+  - **Evidence pointer** Results sections "H12 Folding, H12-Related Distances, and Angles Can Be Monitored as a Distinctive Feature for SHR Activation" and "Unbiased Selection of MD-Derived Metrics for EDC Classification"; Figures 4 and 5; Supporting Information Tables S8–S10.
+  - **Concern** The central claim of classification using H12-based descriptors is supported primarily by PCA and SOM analyses, but the separation between EDCs and controls is not quantitatively validated. No classification accuracy, cross-validation, or independent test set is provided. The PCA loadings are described qualitatively, and the claim that EDCs "are mostly separated along the second PC axis" is not supported by a clear decision boundary or statistical measure of separation. Furthermore, the authors acknowledge that "the application of statistical tests is problematic due to the large samples," yet no alternative robust statistical framework is offered.
+  - **Why it matters** Without quantitative validation, the claim that these features are "discerning" is not established. The reader cannot assess whether the proposed descriptors would generalize to new EDCs or whether the observed separation is an artifact of the specific simulation setup.
+  - **Resolution test** Provide a quantitative classification analysis (e.g., cross-validated accuracy, sensitivity/specificity, or a permutation test) demonstrating that the proposed descriptors distinguish agonists from antagonists and correctly classify EDCs relative to experimental outcomes. Show that the classification is robust across replicas and independent of initial structure choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and reproducibility
+  - **Claim pointer** The authors state that "MD simulations combined with experimental assays can be a useful tool for studying novel EDCs by providing relevant structural features for their classification."
+  - **Evidence pointer** Abstract; Discussion; references to "Pitkänen et al., submitted" and Figure 1.
+  - **Concern** The experimental validation is entirely dependent on a cosubmitted manuscript that is not available to the reader. The authors reference experimental results (e.g., ERα EC50 for MEHP, reporter gene assay outcomes) but do not provide the data or a detailed comparison within this manuscript. The claim that the computational features correlate with experimental activity is therefore not verifiable from the provided material.
+  - **Why it matters** The utility of the proposed method hinges on its ability to predict or classify experimental outcomes. Without access to the experimental data or a detailed comparison, the central practical claim cannot be assessed.
+  - **Resolution test** Include the experimental data (dose-response curves, EC50 values, activity classifications) in the main text or supplementary material, and provide a direct quantitative comparison between computational predictions and experimental results. If the experimental manuscript is under review, provide the data as supplementary material or a preprint.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that "unbiased all-atom long-time scale molecular dynamics simulations" were used and that the systems "equilibrated over time."
+  - **Evidence pointer** Methods section "MD Simulations"; Results section "SHR-EDC Stability Relies on Interactions with the Hydrophobic Subpocket and H3/H10 Anchoring Contacts"; Figures S2–S4.
+  - **Concern** The manuscript does not report convergence metrics for the simulations. RMSD stabilization is mentioned, but no block averaging, autocorrelation analysis, or replica convergence assessment is provided. The claim of "long-time scale" is supported by aggregate simulation time, but the per-system sampling and whether the relevant conformational space was adequately explored is not demonstrated. The choice of five replicas per system is not justified.
+  - **Why it matters** Without convergence evidence, the reader cannot determine whether the observed conformational differences between ligands are meaningful or reflect insufficient sampling. This is particularly important given the authors' own caution about initial structure bias.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD block averaging, principal component overlap between replicas, or free-energy convergence) for representative systems. Justify the number of replicas and simulation length based on the timescales of the conformational changes being monitored.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim precision
+  - **Claim pointer** The authors state that "GR displayed less flexibility in this region, suggesting that protein–ligand interaction and binding energy are more relevant for its classification."
+  - **Evidence pointer** Results section "GR's H12 Conformation Flexibility Can Indicate Antagonism but Not Classify EDC Binding"; Figures S20, S25, S26, S28.
+  - **Concern** The claim that protein–ligand interaction and binding energy are "more relevant" for GR classification is not supported by a direct comparison of descriptor performance. The authors do not show that interaction-based or energy-based features actually classify GR binders better than H12-based features. The statement appears to be an inference from the observed lack of H12 flexibility, but no quantitative comparison is provided.
+  - **Why it matters** The conclusion that different descriptors are needed for different receptors is potentially important, but it is not substantiated. Without a comparative analysis, the reader cannot evaluate this claim.
+  - **Resolution test** Perform a comparative analysis of descriptor sets (H12-based vs. interaction-based vs. energy-based) for both receptors, showing which features best separate agonists from antagonists and correctly classify EDCs. Report quantitative performance metrics for each descriptor set.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract begins with a broad statement about metabolism-disrupting chemicals and metabolic problems, but the study focuses on binding classification, not metabolic outcomes. The connection is not made explicit.
+  - **Required correction** Briefly link the metabolic consequences to the relevance of studying EDC binding to steroid hormone receptors, or rephrase to focus the opening on the receptor-binding question.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, model generation
+  - **Evidence pointer** Methods section "Model Generation and Structure Preparation"
+  - **Issue** The description of homology modeling states that "models were generated as individually specified below," but the specific template selection criteria, sequence identity, and alignment details are not provided. The statement that "one representative model structure was selected" is vague.
+  - **Required correction** Provide details on template selection, sequence alignment, and model quality assessment (e.g., Ramachandran statistics, QMEAN scores). Specify the criteria for selecting the representative model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical analyses
+  - **Evidence pointer** Methods section "Statistical Analyses and Image Generations"
+  - **Issue** The authors state that the Kruskal–Wallis test followed by Dunn's post hoc test was applied, but no effect sizes or confidence intervals are reported. The text notes that large sample sizes make minor differences statistically significant, but no correction or alternative approach is described.
+  - **Required correction** Report effect sizes or standardized differences for key comparisons. Consider using a more appropriate significance threshold or a bootstrap-based approach to account for the large sample sizes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, EDC classification
+  - **Evidence pointer** Results section "Unbiased Selection of MD-Derived Metrics for EDC Classification"; Figure 5
+  - **Issue** The PCA and SOM results are described, but the specific EDC classifications (which EDCs are predicted as agonist-like, antagonist-like, or indeterminate) are not clearly listed in the main text. The reader must infer from the figures.
+  - **Required correction** Provide a table or explicit list of each EDC and its predicted classification based on the PCA/SOM analysis, alongside the experimental classification where available.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on GR flexibility
+  - **Issue** The term "more relevant" is used without a defined metric. It is unclear whether this refers to statistical significance, effect size, or practical utility.
+  - **Required correction** Define what "more relevant" means in this context and provide the supporting quantitative evidence.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative validation for the classification claims (R1-M1). 2) Inaccessibility of the experimental validation data (R1-M2). 3) Absence of convergence metrics for the simulations (R1-M3). 4) Unsupported comparative claim about descriptor relevance for GR (R1-M4). 5) Insufficient detail on model generation and selection criteria (R1-m2). 6) Incomplete statistical reporting (R1-m3).
+- **Assessment against Nature-style criteria** Originality: The use of dynamic conformational descriptors, particularly H12 angles and folding, for EDC classification is a novel angle within computational toxicology. However, the concept of H12 conformation as a determinant of nuclear receptor activity is well established, and the novelty lies primarily in its application to EDC screening. Scientific importance: The problem of identifying EDCs and understanding their receptor interactions is of high societal and regulatory importance. A robust computational classification method would be valuable. However, the current manuscript does not yet demonstrate such robustness. Interdisciplinary readership: The topic bridges computational chemistry, structural biology, toxicology, and endocrinology. The writing is generally accessible, though some methodological details assume specialist knowledge. Technical soundness: The simulation methodology is standard and appropriate, but the analysis and validation are incomplete, as detailed above. Readability for nonspecialists: The abstract and introduction are accessible, but the results section is dense and would benefit from clearer framing of the key findings and their implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem with a substantial computational effort and a conceptually interesting approach. However, the central claims are not yet established from the provided evidence. The authors must provide quantitative validation of the classification, access to the experimental data, convergence assessments, and a more rigorous comparative analysis of descriptors. If these concerns are addressed, the work could make a meaningful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that H12 folding and conformational angles are "discerning features" for EDC classification is not quantitatively supported.
+- The claim that protein–ligand interaction and binding energy are "more relevant" for GR classification is not supported by comparative analysis.
+- The claim that the simulations "can be a useful tool for studying novel EDCs" is contingent on the unverified correlation with experimental data.
+- The statement that "our results show a clear gap for GR reference ligands" is based on MM/GBSA predictions, which the authors themselves caution are approximate.
+- The assertion that "BPC would bind with higher affinity to ERαANT" is a single prediction from MM/GBSA and is not experimentally validated within this manuscript.
+- The generalizability of the proposed classification framework to novel EDCs is not demonstrated.

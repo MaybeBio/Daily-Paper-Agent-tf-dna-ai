@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41465914",
+  "title": "TLR2, CCR1, IRF8, and CCL4 as biomarkers for atherosclerosis progression and therapy response: A multi-omics study.",
+  "authors": "Zhou, Wangwei; Huang, Min; Li, Han; Shi, Jian",
+  "journal": "Medicine",
+  "published_date": "2025-12-30",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过多组学与机器学习筛选动脉粥样硬化生物标志物，虽涉及IRF8等转录因子，但核心是疾病诊断与药物筛选，缺乏蛋白质-DNA互作建模与机制研究，与本课题关联较弱。",
+  "abstract": "Atherosclerosis (AS) is a growing vascular disease linked to plaque buildup, causing blood flow issues. Current diagnosis relies on symptoms and imaging, which are limited for early detection and plaque biology assessment. Treatments focus on symptoms but don't address root causes, leading to complications. This study aims to find new diagnostic markers and therapies using bioinformatics and machine learning. Data from gene expression omnibus datasets (GSE28829 for gene expression, GSE159677 for single-cell analysis) were analyzed via WGCNA to identify gene modules, Limma for differentially expressed genes, and gene ontology/KEGG for pathway enrichment. Protein-Protein Interaction networks, machine learning (least absolute shrinkage and selection operator, Random Forest, artificial neural network), immune infiltration (CIBERSORT), and single-cell RNA-seq were used. A nomogram model was built, and candidate drugs (e.g., simvastatin) were tested via molecular docking. Key modules (turquoise) and 238 differentially expressed genes linked to immune processes. Four biomarkers (toll like receptor 2, CCR1, interferon regulatory factor 8, CCL4) showed high diagnostic accuracy (AUC > 0.8). Immune analysis revealed altered macrophage/T cell profiles, with biomarkers correlating to monocyte/macrophage activity. The nomogram model was robust, and simvastatin docked strongly to target proteins. toll like receptor 2, CCR1, interferon regulatory factor 8, and CCL4 are novel AS biomarkers linked to immune pathways. The nomogram aids risk prediction, and simvastatin shows potential as a targeted therapy. Findings advance AS understanding and offer tools for early diagnosis and personalized treatment.",
+  "abstract_zh": "动脉粥样硬化（Atherosclerosis, AS）是一种与斑块积聚相关的进行性血管疾病，导致血流问题。当前诊断依赖于症状和影像学，这些方法在早期检测和斑块生物学评估方面存在局限。治疗侧重于症状管理，但未解决根本原因，导致并发症发生。本研究旨在利用生物信息学和机器学习寻找新的诊断标志物和治疗方法。通过基因表达综合数据库数据集（GSE28829用于基因表达，GSE159677用于单细胞分析）的数据，采用加权基因共表达网络分析（WGCNA）识别基因模块，Limma分析差异表达基因，基因本体论/KEGG进行通路富集分析。使用蛋白质-蛋白质相互作用网络、机器学习（最小绝对收缩和选择算子、随机森林、人工神经网络）、免疫浸润（CIBERSORT）和单细胞RNA测序。构建列线图模型，并通过分子对接测试候选药物（如辛伐他汀）。关键模块（turquoise）和238个与免疫过程相关的差异表达基因被识别。四个生物标志物（toll样受体2、CCR1、干扰素调节因子8、CCL4）显示出高诊断准确性（AUC > 0.8）。免疫分析揭示了巨噬细胞/T细胞谱的改变，生物标志物与单核细胞/巨噬细胞活性相关。列线图模型稳健，辛伐他汀与靶蛋白强结合。toll样受体2、CCR1、干扰素调节因子8和CCL4是与免疫通路相关的新型AS生物标志物。列线图有助于风险预测，辛伐他汀显示出作为靶向治疗的潜力。研究结果推进了对AS的理解，并为早期诊断和个性化治疗提供了工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41465914/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41465914/",
+  "paper_page_path": "papers/pubmed/41465914/index.html"
+}

@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41510921",
+    "doi": "10.15586/aei.v54i1.1519",
+    "title": "Revolutionizing leishmaniasis control: leveraging immunoinformatics for precision-driven in-silico vaccine design."
+  },
+  "content": {
+    "abstract": "Leishmaniasis is an endemic disease in many countries that affects vulnerable populations of humans, dogs, and cats. This study employs immunoinformatics to design a multi-epitope vaccine construct for leishmaniasis by identifying vaccine targets on the protein Pteridine Reductase. T-cell and B-cell epitopes were screened for antigenicity, toxicity, and allergenicity. Shortlisted T-cell targets were confirmed to have appropriate IC values (</= 50 nM and </= 500 nM for MHC I and MHC II, respectively). One B-cell epitope, six MHC class I epitopes, and 25 MHC class II epitopes were selected for inclusion in the vaccine construct, which was linked with EAAAK, CPGPG, and AAY linkers, along with a CPG Oligodeoxynucleotide adjuvant. The vaccine construct had a Ramachandran score of 89.9% and an Errat score of 98.4615. HLA alleles were predicted to produce an immune response in 81.8% of the global population, indicating encouraging potential for broad immunogenicity. Successful binding of the vaccine construct with TLR-9 was confirmed through molecular docking, and the docked complex exhibited a low eigenvalue of 2.06e-0.6 and a DeltaG of -11.8 kcal mol-1, indicating stable binding and a high level of flexibility. Codon optimization was carried out, followed by in-silico cloning of the vaccine in Escherichia coli K12 strain using the vector pET-21a (+). These results suggest that the vaccine is stable and capable of eliciting a promising immune response against Leishmania, making it a favorable candidate for experimental trials.",
+    "keywords": [
+      "immunoinformatics",
+      "leishmaniasis",
+      "multi-epitope vaccine pteridine reductase"
+    ],
+    "mesh_terms": [
+      "Immunoinformatics",
+      "*Leishmaniasis/prevention & control/immunology",
+      "Animals",
+      "Epitopes, B-Lymphocyte/immunology/genetics",
+      "Epitopes, T-Lymphocyte/immunology/genetics",
+      "Humans",
+      "*Leishmaniasis Vaccines/immunology",
+      "Molecular Docking Simulation",
+      "*Leishmania/immunology",
+      "Protein Subunit Vaccines",
+      "Toll-Like Receptor 9/metabolism/immunology",
+      "Computer Simulation",
+      "Immunogenicity, Vaccine",
+      "Histocompatibility Antigens Class I/immunology",
+      "Dogs",
+      "Oxidoreductases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ovais, Meeral",
+        "Kanwal, Munazza",
+        "Naz, Shumaila",
+        "Aziz, Tariq",
+        "Al-Hoshani, Nawal",
+        "Alwethaynani, Maher S",
+        "Abduljawad, Sahar",
+        "Asseri, Jamal I",
+        "Sagini, Hanan Abdulrahman",
+        "Alkhatib, Shaza N",
+        "Al-Joufi, Fakhria A",
+        "Jamal, Syed Babar"
+      ],
+      "short_names": [
+        "Ovais M",
+        "Kanwal M",
+        "Naz S",
+        "Aziz T",
+        "Al-Hoshani N",
+        "Alwethaynani MS",
+        "Abduljawad S",
+        "Asseri JI",
+        "Sagini HA",
+        "Alkhatib SN",
+        "Al-Joufi FA",
+        "Jamal SB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, CA, USA.",
+        "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan.",
+        "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan.",
+        "Laboratory of Animal Health, Hygiene and Food Quality, University of Ioannina Arta Greece; iwockd@gmail.com.",
+        "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. Box 84428, Riyadh 11671, Saudi Arabia.",
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Shaqra University, Riyadh, Saudi Arabia.",
+        "College of Health Sciences, Umm Al-Qura University, Al-Lith 28425, Saudi Arabia.",
+        "Department of Biological Sciences, College of Science and Humanities, Shaqra University, Shaqra, Saudi Arabia.",
+        "Department of Biological Sciences, College of Sciences, University of Jeddah, Jeddah, Saudi Arabia.",
+        "Department of Biological Sciences, Collage of Sciences and Arts Khulais, University of Jeddah, Jeddah, Saudi Arabia.",
+        "Department of Pharmacology, College of Pharmacy, Jouf University, Aljouf, Saudi Arabia.",
+        "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan; babar.jamal@numspak.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ovais, Meeral",
+        "short_name": "Ovais M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kanwal, Munazza",
+        "short_name": "Kanwal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Naz, Shumaila",
+        "short_name": "Naz S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Aziz, Tariq",
+        "short_name": "Aziz T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal Health, Hygiene and Food Quality, University of Ioannina Arta Greece; iwockd@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Al-Hoshani, Nawal",
+        "short_name": "Al-Hoshani N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. Box 84428, Riyadh 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alwethaynani, Maher S",
+        "short_name": "Alwethaynani MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Shaqra University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abduljawad, Sahar",
+        "short_name": "Abduljawad S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Sciences, Umm Al-Qura University, Al-Lith 28425, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Asseri, Jamal I",
+        "short_name": "Asseri JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science and Humanities, Shaqra University, Shaqra, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Sagini, Hanan Abdulrahman",
+        "short_name": "Sagini HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Sciences, University of Jeddah, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alkhatib, Shaza N",
+        "short_name": "Alkhatib SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Collage of Sciences and Arts Khulais, University of Jeddah, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Joufi, Fakhria A",
+        "short_name": "Al-Joufi FA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Pharmacy, Jouf University, Aljouf, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Jamal, Syed Babar",
+        "short_name": "Jamal SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Medical Sciences, Rawalpindi, Pakistan; babar.jamal@numspak.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Allergologia et immunopathologia"
+    ],
+    "journal_abbrev": [
+      "Allergol Immunopathol (Madr)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 13:34",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42527813",
+      "42463610"
+    ],
+    "refs": [],
+    "similar": [
+      "41510921",
+      "28811600",
+      "41381008",
+      "40830404",
+      "41239337",
+      "42013568",
+      "39936152",
+      "40134009",
+      "41252394",
+      "41467395",
+      "33082015",
+      "40348967",
+      "37655736",
+      "42119371",
+      "41449186",
+      "34425197",
+      "41949632",
+      "40130172",
+      "41534429",
+      "34611250",
+      "31931259",
+      "40957351",
+      "41897006",
+      "41274916",
+      "39703502",
+      "41791311",
+      "39325755",
+      "37934390",
+      "40698087",
+      "40303072",
+      "33161887",
+      "41901750",
+      "39840071",
+      "40589333",
+      "42213354",
+      "28549876",
+      "32311400",
+      "38799422",
+      "40959094",
+      "37774751",
+      "31634814",
+      "35990651",
+      "41757946",
+      "42148102",
+      "40965217",
+      "40433372",
+      "40154672",
+      "41931545",
+      "40610881",
+      "41028278",
+      "42338316",
+      "39258802",
+      "31606417",
+      "41526444",
+      "36603375",
+      "41083417",
+      "40730055",
+      "32681997",
+      "32771659",
+      "41559260",
+      "40594603",
+      "41929236",
+      "39521154",
+      "42137845",
+      "34542663",
+      "32849643",
+      "42064452",
+      "37866569",
+      "41129557",
+      "40581703",
+      "38938443",
+      "41686870",
+      "31394292",
+      "40669099",
+      "42142540",
+      "42035672",
+      "36935104",
+      "32938504",
+      "36928431",
+      "41599631",
+      "40739488",
+      "33517154",
+      "32379348",
+      "33352214",
+      "40125606",
+      "41765043",
+      "39792829",
+      "42025584",
+      "39623035",
+      "39050858",
+      "41727457",
+      "42047888",
+      "37811774",
+      "40665184",
+      "35318896",
+      "32534195",
+      "42102528",
+      "39630708",
+      "38486475",
+      "36829109"
+    ],
+    "review": [
+      "41510921"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/leishmaniasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leishmaniasis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3897",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

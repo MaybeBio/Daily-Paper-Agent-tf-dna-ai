@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, funding, conflict of interest, author contributions, acknowledgements)
+- **Assessment boundary** Scientific content and technical soundness of the reported findings; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report the use of a high-density genomic SNAP DNA-binding microarray to define the DNA binding specificity of GRHL2 at 6-bp resolution across genomic sequences. They report recovery of the canonical 5'-AACCGGTT-3' motif, identification of position-dependent nucleotide tolerance with strongest constraints at positions 3 and 6, evidence for dimeric binding with periodic helical spacing, and the ability to distinguish direct from indirect GRHL2 genomic occupancy when integrated with ChIP-seq data.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (narrative descriptions of Figures 1-7), Discussion, Funding, Conflict of Interest, Author Contributions, Acknowledgements
+- **Missing materials affecting confidence** Figures 1-7 and Supplementary Figures/Tables are referenced but not provided; detailed statistical methods for the dimer binding model are incomplete (equation truncated); raw data and analysis scripts are not provided; no information on replicate numbers for the SNAP array experiments beyond "triplicate" mention in methods; no negative control experiments described for the ERa/FoxA1 differential binding analyses
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant gap in understanding GRHL2 DNA binding specificity by applying a high-density genomic binding array approach. The conceptual framework of distinguishing direct from indirect binding events through integration of biochemical array data with ChIP-seq is sound and potentially valuable. However, the current manuscript has several technical concerns that need to be addressed before the conclusions can be fully evaluated. The most significant issues relate to incomplete methodological detail, the absence of key validation experiments, and the lack of quantitative rigor in some analyses. The claim that the SNAP array can distinguish direct from indirect binding events is interesting but requires stronger statistical support and appropriate controls. The structural modeling section relies on a homology-based approach that needs clearer justification and validation. Overall, the work has potential but is not yet fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying transcription factor DNA binding specificity, particularly those working on the Grainyhead family of transcription factors; investigators interested in epithelial biology and epithelial-to-mesenchymal transition; cancer biologists studying GRHL2 in breast cancer and other epithelial malignancies; researchers developing or using high-throughput DNA binding assays; computational biologists working on transcription factor binding site prediction and motif discovery
+- **Major strengths** The use of a genomic context-derived array design is a thoughtful approach that bridges the gap between in vitro binding assays and in vivo occupancy data. The integration of SNAP array data with ChIP-seq to classify direct versus indirect binding events is a potentially powerful analytical framework. The systematic analysis of single-nucleotide variants and their positional effects provides a detailed binding landscape. The inclusion of dimeric binding site spacing analysis adds a layer of complexity that is often overlooked in transcription factor binding studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the SNAP array can distinguish direct, motif-encoded GRHL2 binding from indirect, cofactor-mediated recruitment at genomic sites.
+  - **Evidence pointer** Results section "Differential Binding of ERa and FoxA1 to SNAP Regions"; Figure 6
+  - **Concern** The classification of direct versus indirect binding events relies on a threshold of normalized intensity greater than 3.0. This threshold appears arbitrary and is not justified with any statistical framework, calibration experiments, or validation against known direct and indirect binding sites. The manuscript does not describe how this threshold was determined or what its sensitivity and specificity are. Furthermore, the comparison of ERa and FoxA1 features between direct and indirect classes uses chi-squared tests, but the manuscript does not describe how multiple testing is controlled for across the many comparisons performed.
+  - **Why it matters** The central claim of the manuscript is that this approach can functionally separate direct from indirect binding events. If the threshold is arbitrary or the statistical framework is inadequate, this conclusion is not supported. This distinction has downstream implications for how the field interprets GRHL2 ChIP-seq data and for the identification of functionally relevant binding sites.
+  - **Resolution test** The authors should provide a clear justification for the intensity threshold, ideally through calibration experiments using known direct and indirect binding sites. They should also describe their multiple testing correction strategy and provide confidence intervals or error estimates for the classification. Validation of the classification scheme using an orthogonal method, such as in vitro binding assays on selected loci or mutation of predicted direct binding sites followed by functional assays, would substantially strengthen this claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the dimer binding model reveals periodic helical spacing consistent with interactions on the same face of the DNA helix, with a periodicity of approximately 5.5 bp.
+  - **Evidence pointer** Results section "Motif spacing reveals periodic dimer-dependent binding and orientation preferences"; Figure 5; Materials and Methods "Dimer binding model"
+  - **Concern** The dimer binding model is described with an equation that is truncated in the manuscript, making it impossible to fully evaluate the model. The fitting procedure is described as using nonlinear least-squares minimization, but no information is provided on the number of parameters, the degrees of freedom, the quality of fit, or the uncertainty in the fitted parameters. The claim of a 5.5-bp periodicity is stated but no confidence intervals are provided. Additionally, the model assumes a specific relationship between fluorescence and binding affinity that is not validated.
+  - **Why it matters** The periodic spacing analysis is a key finding that supports the dimeric binding model. If the model is not fully described or the fit quality is not assessed, the conclusion of periodic helical phasing is not robustly supported. This finding has implications for understanding GRHL2 cooperative binding and for predicting functional dimeric binding sites in the genome.
+  - **Resolution test** The authors should provide the complete model equation, describe the fitting procedure in full, report goodness-of-fit statistics, and provide confidence intervals for the fitted parameters. They should also validate the model using independent approaches, such as electrophoretic mobility shift assays with designed DNA substrates containing varying spacer lengths, or by comparing predicted binding affinities with measured values across a range of spacer lengths.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the SNAP array experiments were performed in triplicate and normalized using global and quantile normalization procedures.
+  - **Evidence pointer** Materials and Methods "Array Data Normalization"
+  - **Concern** The normalization procedure is described briefly, but no information is provided on the variability between replicates, the quality control metrics used to assess array performance, or the criteria for excluding outlier arrays or probes. The manuscript does not report correlation coefficients between replicates, coefficients of variation, or any assessment of technical noise. The choice of median intensity across replicates is reasonable, but the manuscript does not describe how this choice was validated.
+  - **Why it matters** Reproducibility is fundamental to the validity of the reported binding measurements. Without adequate quality control metrics and replicate variability assessment, it is difficult to evaluate the reliability of the intensity measurements that underlie all subsequent analyses. This is particularly important given that the classification of direct versus indirect binding sites depends on intensity thresholds.
+  - **Resolution test** The authors should report replicate correlation coefficients, coefficients of variation across replicates, and any quality control metrics used to assess array performance. They should also describe their criteria for excluding outlier data points and provide an assessment of the technical noise floor of the assay.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the structural model generated using the GRHL1 crystal structure as a template is reasonable due to 76% identity and 94% similarity between the DNA binding domains of GRHL1 and GRHL2.
+  - **Evidence pointer** Results section "Motif spacing reveals periodic dimer-dependent binding and orientation preferences"; Figure 5D
+  - **Concern** The structural modeling relies on a homology-based approach, but the manuscript does not describe the specific methods used for model building, the alignment procedure, or the validation of the resulting model. The claim that the model supports the observed spacing preferences is presented without quantitative assessment of model quality or alternative conformations. The structural interpretation is used to support the biological relevance of the spacing findings, but the modeling appears to be illustrative rather than rigorously validated.
+  - **Why it matters** The structural model is used to provide a mechanistic interpretation of the spacing preferences. If the model is not rigorously constructed and validated, the structural interpretation is speculative. This does not necessarily invalidate the experimental findings, but it does affect the strength of the mechanistic conclusions.
+  - **Resolution test** The authors should describe their modeling methods in detail, including the alignment, model building, and validation procedures. They should also discuss alternative conformations and the limitations of the homology-based approach. If possible, they should validate key predictions of the model experimentally, such as by testing the effect of mutations at predicted protein-DNA contacts.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the SNAP array design was based on overlapping peaks from four GRHL2 ChIP-seq datasets, with 8,931 regions identified and 6,151 utilized for array design.
+  - **Evidence pointer** Materials and Methods "GRHL2 SNAP Array Design"; Results section "Design and validation of a high-resolution genomic SNAP array for GRHL2 DNA binding sites"
+  - **Concern** The manuscript does not provide sufficient detail on the criteria used to merge peaks across the four ChIP-seq datasets, the specific parameters used for peak calling in the original datasets, or the rationale for excluding regions exceeding 1 kb. The selection of 6,151 regions from 8,931 is not fully explained. The manuscript also does not describe how the 3,401 prioritized regions were selected beyond mentioning they included known GRHL2 motifs and ERa/FoxA1 co-binding sites.
+  - **Why it matters** The array design is the foundation of the entire study. If the selection criteria are not transparent and reproducible, the representativeness of the array and the generalizability of the findings cannot be assessed. This is particularly important for the claim that the array provides a comprehensive view of GRHL2 binding across genomic sequences.
+  - **Resolution test** The authors should provide a detailed description of their peak merging and region selection criteria, including any computational scripts or parameters used. They should also provide a comparison of the characteristics of the included versus excluded regions to demonstrate that the selection process did not introduce substantial bias.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the SNAP array resolves binding "at 6 base pair resolution across genomic sequences" but does not clarify what this resolution means in practical terms. It is unclear whether this refers to the tiling density of probes or the ability to discriminate binding at single-nucleotide resolution within motifs.
+  - **Required correction** Clarify in the abstract what "6 base pair resolution" means in the context of the array design and the conclusions that can be drawn from this resolution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "GRHL2 binding favors the canonical AACCGGTT motif"
+  - **Evidence pointer** Results section; Figure 3
+  - **Issue** The description of the SSL analysis is difficult to follow without seeing the figure. The text mentions "peaks in the mismatch rings" and "progressive numbers of mutations" but does not clearly explain how the SSL is constructed or how the reader should interpret the visual representation.
+  - **Required correction** Provide a clearer textual description of the SSL construction and interpretation, including a brief explanation of how the concentric ring design maps to sequence space and binding affinity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "A dense cluster of GRHL2 motifs"
+  - **Evidence pointer** Results section; Figure 7
+  - **Issue** The discussion of the chromosome 7 region is presented as a notable finding, but the significance of this observation is not fully contextualized. It is unclear whether such dense clusters are common in the genome or whether this is an unusual occurrence.
+  - **Required correction** Provide context on the frequency of such dense motif clusters in the genome and discuss whether this observation has broader implications for GRHL2 function.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods "Array Data Normalization"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The manuscript states that data were "globally normalized" and "quantile normalized" but does not provide the specific implementation details, such as the software packages or custom scripts used.
+  - **Required correction** Provide specific details on the normalization implementation, including software versions and any custom code used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of implications for breast cancer biology is speculative and not directly supported by the data presented. The connection between the binding specificity findings and clinical outcomes is presented without a clear mechanistic link.
+  - **Required correction** Either strengthen the connection between the binding specificity data and breast cancer biology with additional analysis or clearly label this section as speculative and beyond the scope of the current data.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods "Dimer binding model"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The equation for the dimer binding model is truncated in the manuscript, making it impossible to fully evaluate the model.
+  - **Required correction** Provide the complete equation and a clear description of all parameters and their biological meaning.
+
+## Risk / unsupported claims
+- The claim that the SNAP array can distinguish direct from indirect GRHL2 binding events is not fully supported without validation of the intensity threshold and the classification scheme.
+- The claim of a 5.5-bp periodicity in dimer binding is not fully supported without complete model details and confidence intervals.
+- The structural interpretation based on the GRHL1 homology model is speculative without detailed modeling methods and validation.
+- The discussion of implications for breast cancer biology and clinical outcomes is speculative and not directly supported by the data.
+- The claim that the array provides a "compendium of GRHL2 binding data for 770,000-plus genomic sites" is not verifiable without access to the data and quality metrics.
+- The claim that flanking sequences modulate binding affinity is based on enrichment analysis, but the statistical significance of these effects is not fully described.
+- The statement that GRHL2 binding can be localized "to a sub-peak level" within ChIP-seq peaks is not quantitatively supported without comparison to existing high-resolution binding assays.

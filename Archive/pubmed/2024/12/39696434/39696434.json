@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "39696434",
+    "doi": "10.1186/s13040-024-00410-z",
+    "title": "Detection and classification of long terminal repeat sequences in plant LTR-retrotransposons and their analysis using explainable machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Long terminal repeats (LTRs) represent important parts of LTR retrotransposons and retroviruses found in high copy numbers in a majority of eukaryotic genomes. LTRs contain regulatory sequences essential for the life cycle of the retrotransposon. Previous experimental and sequence studies have provided only limited information about LTR structure and composition, mostly from model systems. To enhance our understanding of these key sequence modules, we focused on the contrasts between LTRs of various retrotransposon families and other genomic regions. Furthermore, this approach can be utilized for the classification and prediction of LTRs. RESULTS: We used machine learning methods suitable for DNA sequence classification and applied them to a large dataset of plant LTR retrotransposon sequences. We trained three machine learning models using (i) traditional model ensembles (Gradient Boosting), (ii) hybrid convolutional/long and short memory network models, and (iii) a DNA pre-trained transformer-based model using k-mer sequence representation. All three approaches were successful in classifying and isolating LTRs in this data, as well as providing valuable insights into LTR sequence composition. The best classification (expressed as F1 score) achieved for LTR detection was 0.85 using the hybrid network model. The most accurate classification task was superfamily classification (F1=0.89) while the least accurate was family classification (F1=0.74). The trained models were subjected to explainability analysis. Positional analysis identified a mixture of interesting features, many of which had a preferred absolute position within the LTR and/or were biologically relevant, such as a centrally positioned TATA-box regulatory sequence, and TG..CA nucleotide patterns around both LTR edges. CONCLUSIONS: Our results show that the models used here recognized biologically relevant motifs, such as core promoter elements in the LTR detection task, and a development and stress-related subclass of transcription factor binding sites in the family classification task. Explainability analysis also highlighted the importance of 5'- and 3'- edges in LTR identity and revealed need to analyze more than just dinucleotides at these ends. Our work shows the applicability of machine learning models to regulatory sequence analysis and classification, and demonstrates the important role of the identified motifs in LTR detection.",
+    "keywords": [
+      "CNN-LSTM",
+      "DNABERT",
+      "Deep learning",
+      "Eukaryote",
+      "Regulatory mechanisms",
+      "Repeat",
+      "SHAP score",
+      "Sequence analysis",
+      "TFBS",
+      "Transcription factor binding sites",
+      "Transposable elements"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Horvath, Jakub",
+        "Jedlicka, Pavel",
+        "Kratka, Marie",
+        "Kubat, Zdenek",
+        "Kejnovsky, Eduard",
+        "Lexa, Matej"
+      ],
+      "short_names": [
+        "Horvath J",
+        "Jedlicka P",
+        "Kratka M",
+        "Kubat Z",
+        "Kejnovsky E",
+        "Lexa M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Informatics, Masaryk University, Botanicka 68a, Brno, 60200, Czech Republic. jakubhorvath119@gmail.com.",
+        "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic.",
+        "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic.",
+        "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, Brno, 62500, Czech Republic.",
+        "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic.",
+        "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic.",
+        "Faculty of Informatics, Masaryk University, Botanicka 68a, Brno, 60200, Czech Republic. lexa@fi.muni.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Horvath, Jakub",
+        "short_name": "Horvath J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Informatics, Masaryk University, Botanicka 68a, Brno, 60200, Czech Republic. jakubhorvath119@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Jedlicka, Pavel",
+        "short_name": "Jedlicka P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kratka, Marie",
+        "short_name": "Kratka M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic.",
+          "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, Brno, 62500, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kubat, Zdenek",
+        "short_name": "Kubat Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kejnovsky, Eduard",
+        "short_name": "Kejnovsky E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Developmental Genetics, Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, Brno, 61200, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Lexa, Matej",
+        "short_name": "Lexa M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Informatics, Masaryk University, Botanicka 68a, Brno, 60200, Czech Republic. lexa@fi.muni.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioData mining"
+    ],
+    "journal_abbrev": [
+      "BioData Min"
+    ],
+    "pub_date": "2024 Dec 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/19 06:22",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "42728621",
+      "41144018",
+      "40443126",
+      "39736671"
+    ],
+    "refs": [
+      "38480847",
+      "38235196",
+      "38058296",
+      "37596675",
+      "37144459",
+      "36879200",
+      "36418324",
+      "35922916",
+      "35822734",
+      "35365602",
+      "34983397",
+      "34977976",
+      "34856504",
+      "34850907",
+      "34306171",
+      "34267227",
+      "34265844",
+      "34055489",
+      "34020551",
+      "33538820",
+      "33397727",
+      "33287435",
+      "32902599",
+      "32783496",
+      "32607472",
+      "32573687",
+      "32508870",
+      "32415954",
+      "32015543",
+      "31960179",
+      "31856220",
+      "31444327",
+      "31419934",
+      "29684010",
+      "29104214",
+      "28082394",
+      "27259207",
+      "27079975",
+      "26869697",
+      "25953851",
+      "25569788",
+      "25101670",
+      "25061895",
+      "24579996",
+      "24497839",
+      "24485461",
+      "24456522",
+      "24447172",
+      "23542206",
+      "22888907",
+      "22173101",
+      "21642989",
+      "21399627",
+      "20525006",
+      "19936065",
+      "19349283",
+      "19304878",
+      "19064703",
+      "18853265",
+      "18309491",
+      "17984973",
+      "17326825",
+      "16731699",
+      "16093677",
+      "12853133",
+      "12654934",
+      "11169193",
+      "9377276",
+      "8189520",
+      "7584402",
+      "2418981"
+    ],
+    "similar": [
+      "39696434",
+      "38627766",
+      "20226011",
+      "19365549",
+      "34055489",
+      "32508870",
+      "28700586",
+      "23369192",
+      "33525408",
+      "39211332",
+      "18194517",
+      "29093758",
+      "33009553",
+      "23861922",
+      "24478016",
+      "16093661",
+      "19390694",
+      "30987586",
+      "19786494",
+      "8756594",
+      "1325183",
+      "15078861",
+      "10395984",
+      "6256079",
+      "17620143",
+      "31871489",
+      "17407597",
+      "15725362",
+      "21262516",
+      "35822734",
+      "20127492",
+      "35698176",
+      "23208147",
+      "12073029",
+      "28448614",
+      "36570931",
+      "15040813",
+      "18691433",
+      "11245979",
+      "27154235",
+      "25086340",
+      "30359262",
+      "34157969",
+      "30622655",
+      "36502372",
+      "29684010",
+      "29510672",
+      "29799487",
+      "28853263",
+      "25515665",
+      "36401648",
+      "19123047",
+      "17131159",
+      "23452336",
+      "2843665",
+      "27577548",
+      "16093711",
+      "9608047",
+      "17725822",
+      "26470789",
+      "12952871",
+      "12045146",
+      "22691070",
+      "24106085",
+      "10571856",
+      "12372141",
+      "30159494",
+      "19651192",
+      "28476688",
+      "14611659",
+      "30531940",
+      "26779288",
+      "33817015",
+      "19762481",
+      "21369828",
+      "34727516",
+      "8659116",
+      "38392337",
+      "28522611",
+      "11717436",
+      "9054504",
+      "30442098",
+      "18547398",
+      "24899073",
+      "28165867",
+      "20226081",
+      "11070056",
+      "6286367",
+      "35052350",
+      "20525006",
+      "2596030",
+      "2542587",
+      "23119066",
+      "10673276",
+      "15003117",
+      "23452340",
+      "40176144",
+      "24317340",
+      "29304730",
+      "10527415"
+    ],
+    "review": [
+      "39696434",
+      "16093661",
+      "1325183",
+      "36570931",
+      "28853263",
+      "36401648",
+      "16093711",
+      "28476688",
+      "24317340"
+    ],
+    "pmc": [
+      "11656987"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biodatamining.biomedcentral.com/articles/10.1186/s13040-024-00410-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39696434/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "38630325",
+    "doi": "10.1007/s12032-024-02366-w",
+    "title": "Chlordiazepoxide against signalling, receptor and regulatory proteins of breast cancer: a structure-based in-silico approach."
+  },
+  "content": {
+    "abstract": "Among the most prevalent forms of cancer are breast, lung, colon-rectum, and prostate cancers, and breast cancer is a major global health challenge, contributing to 2.26 million cases with approximately 685,000 deaths worldwide in 2020 alone, typically beginning in the milk ducts or lobules that produce and transport milk during lactation and it is becoming challenging to treat as the tissues are developing resistance, which makes urgent calls for new multitargeted drugs. The multitargeted drug design provides a better solution, simultaneously targeting multiple pathways, even when the drug resists one, it remains effective for others. In this study, we included four crucial proteins that perform signalling, receptor, and regulatory action, namely- NUDIX Hydrolases, Dihydrofolate Reductase, HER2/neu Kinase and EGFR and performed multitargeted molecular docking studies against human-approved drugs using HTVS, SP and extra precise algorithms and filtered the poses with MM\\GBSA, suggested a benzodiazepine derivative chlordiazepoxide, used as an anxiolytic agent, can be a multitargeted inhibitor with docking and MM\\GBSA score ranging from - 4.628 to - 7.877 and - 18.59 to - 135.86 kcal/mol, respectively, and the most interacted residues were 6ARG, 6GLU, 3TRP, and 3VAL. The QikProp-based ADMET and DFT computations showed the suitability and stability of the drug candidate followed by 100 ns MD simulation in water and MMGBSA on trajectories, resulting in stable performance and many intermolecular interactions to make the complexes stable, which favours that chlordiazepoxide can be a multitargeted breast cancer inhibitor. However, experimental validation is needed before its use.",
+    "keywords": [
+      "Breast cancer",
+      "Density functional theory",
+      "MM\\GBSA",
+      "Molecular dynamics simulation",
+      "Multitargeted drug design"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Male",
+      "Humans",
+      "*Breast Neoplasms/drug therapy",
+      "Chlordiazepoxide",
+      "Molecular Docking Simulation",
+      "Signal Transduction",
+      "Benzodiazepines",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alsaiari, Ahad Amer",
+        "Gharib, Amal F",
+        "Bakhuraysah, Maha Mahfouz",
+        "Alrehaili, Amani A",
+        "Algethami, Shatha M",
+        "Alsaif, Hayfa Ali",
+        "Al Harthi, Norah",
+        "Hakami, Mohammed Ageeli"
+      ],
+      "short_names": [
+        "Alsaiari AA",
+        "Gharib AF",
+        "Bakhuraysah MM",
+        "Alrehaili AA",
+        "Algethami SM",
+        "Alsaif HA",
+        "Al Harthi N",
+        "Hakami MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4117-5811",
+        "ORCID: 0000-0001-8008-3368",
+        "ORCID: 0000-0002-9727-650X",
+        "ORCID: 0000-0002-5691-9118",
+        "ORCID: 0009-0001-6153-6920",
+        "ORCID: 0009-0008-0553-2977",
+        "ORCID: 0009-0001-5987-7611",
+        "ORCID: 0000-0002-1747-1277"
+      ],
+      "affiliations": [
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia.",
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Shaqra University, Al-Quwayiyah, Riyadh, 11433, Saudi Arabia. m.hakami@su.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alsaiari, Ahad Amer",
+        "short_name": "Alsaiari AA",
+        "identifiers": [
+          "0000-0003-4117-5811"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Gharib, Amal F",
+        "short_name": "Gharib AF",
+        "identifiers": [
+          "0000-0001-8008-3368"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Bakhuraysah, Maha Mahfouz",
+        "short_name": "Bakhuraysah MM",
+        "identifiers": [
+          "0000-0002-9727-650X"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alrehaili, Amani A",
+        "short_name": "Alrehaili AA",
+        "identifiers": [
+          "0000-0002-5691-9118"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Algethami, Shatha M",
+        "short_name": "Algethami SM",
+        "identifiers": [
+          "0009-0001-6153-6920"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alsaif, Hayfa Ali",
+        "short_name": "Alsaif HA",
+        "identifiers": [
+          "0009-0008-0553-2977"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al Harthi, Norah",
+        "short_name": "Al Harthi N",
+        "identifiers": [
+          "0009-0001-5987-7611"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, Taif University, P.O. Box 11099, Taif, 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hakami, Mohammed Ageeli",
+        "short_name": "Hakami MA",
+        "identifiers": [
+          "0000-0002-1747-1277"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Shaqra University, Al-Quwayiyah, Riyadh, 11433, Saudi Arabia. m.hakami@su.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical oncology (Northwood, London, England)"
+    ],
+    "journal_abbrev": [
+      "Med Oncol"
+    ],
+    "pub_date": "2024 Apr 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/17 12:44",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37783782",
+      "37681049",
+      "37593205",
+      "36892124",
+      "36144770",
+      "35971958",
+      "35889265",
+      "35454354",
+      "35451934",
+      "31621500",
+      "30584354",
+      "30258937",
+      "29343827",
+      "27557051",
+      "24981612",
+      "24053334",
+      "22003817",
+      "19088015",
+      "17034125",
+      "16231289",
+      "15048827",
+      "12196540",
+      "11169868",
+      "2215695"
+    ],
+    "similar": [
+      "38630325",
+      "38399423",
+      "38546811",
+      "38905286",
+      "38203761",
+      "39414839",
+      "37154501",
+      "38100507",
+      "37864019",
+      "38517073",
+      "38874035",
+      "37394519",
+      "37058176",
+      "37855303",
+      "37771142",
+      "37599470",
+      "31513003",
+      "39120789",
+      "37682937",
+      "34139975",
+      "39019378",
+      "37151057",
+      "35125087",
+      "33402049",
+      "37612857",
+      "34514973",
+      "37241915",
+      "37154824",
+      "30557817",
+      "38084900",
+      "35744817",
+      "34491628",
+      "37578958",
+      "36752338",
+      "34502340",
+      "36235128",
+      "37075433",
+      "29702367",
+      "35293845",
+      "37824496",
+      "36379678",
+      "33866129",
+      "38069604",
+      "32748755",
+      "37857034",
+      "33954893",
+      "36017854",
+      "35635599",
+      "35366187",
+      "35889478",
+      "36358960",
+      "29334340",
+      "34554395",
+      "35032738",
+      "35737256",
+      "38483871",
+      "36680290",
+      "38149858",
+      "34957309",
+      "17993229",
+      "35253621",
+      "38460436",
+      "36990409",
+      "30343043",
+      "37817764",
+      "36510679",
+      "38648537",
+      "33345701",
+      "37349948",
+      "32835632",
+      "38141177",
+      "35451934",
+      "32186248",
+      "37948293",
+      "37306420",
+      "35037841",
+      "32586261",
+      "35881145",
+      "37099048",
+      "38152692",
+      "37154819",
+      "32954977",
+      "35341731",
+      "37630311",
+      "26906522",
+      "31673107",
+      "36617972",
+      "30563058",
+      "35773777",
+      "34957911",
+      "36318405",
+      "37301608",
+      "37570684",
+      "36752362",
+      "30415281",
+      "36797509",
+      "32568613",
+      "37940790"
+    ],
+    "review": [
+      "38630325",
+      "17993229"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12032-024-02366-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

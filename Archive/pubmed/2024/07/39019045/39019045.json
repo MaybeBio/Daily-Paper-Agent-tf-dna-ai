@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "39019045",
+    "doi": "10.1016/j.molcel.2024.06.022",
+    "title": "Systematic dissection of sequence features affecting binding specificity of a pioneer factor reveals binding synergy between FOXA1 and AP-1."
+  },
+  "content": {
+    "abstract": "Despite the unique ability of pioneer factors (PFs) to target nucleosomal sites in closed chromatin, they only bind a small fraction of their genomic motifs. The underlying mechanism of this selectivity is not well understood. Here, we design a high-throughput assay called chromatin immunoprecipitation with integrated synthetic oligonucleotides (ChIP-ISO) to systematically dissect sequence features affecting the binding specificity of a classic PF, FOXA1, in human A549 cells. Combining ChIP-ISO with in vitro and neural network analyses, we find that (1) FOXA1 binding is strongly affected by co-binding transcription factors (TFs) AP-1 and CEBPB; (2) FOXA1 and AP-1 show binding cooperativity in vitro; (3) FOXA1's binding is determined more by local sequences than chromatin context, including eu-/heterochromatin; and (4) AP-1 is partially responsible for differential binding of FOXA1 in different cell types. Our study presents a framework for elucidating genetic rules underlying PF binding specificity and reveals a mechanism for context-specific regulation of its binding.",
+    "keywords": [
+      "ChIP-ISO",
+      "binding cooperativity",
+      "binding specificity",
+      "chromatin",
+      "pioneer factor",
+      "synthetic DNA library",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Hepatocyte Nuclear Factor 3-alpha/metabolism/genetics",
+      "Humans",
+      "*Transcription Factor AP-1/metabolism/genetics",
+      "*Protein Binding",
+      "Binding Sites",
+      "A549 Cells",
+      "Chromatin/metabolism/genetics",
+      "Chromatin Immunoprecipitation",
+      "Oligonucleotides/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Cheng",
+        "Kleinschmidt, Holly",
+        "Yang, Jianyu",
+        "Leith, Erik M",
+        "Johnson, Jenna",
+        "Tan, Song",
+        "Mahony, Shaun",
+        "Bai, Lu"
+      ],
+      "short_names": [
+        "Xu C",
+        "Kleinschmidt H",
+        "Yang J",
+        "Leith EM",
+        "Johnson J",
+        "Tan S",
+        "Mahony S",
+        "Bai L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA; Department of Physics, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: lub15@psu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Cheng",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Kleinschmidt, Holly",
+        "short_name": "Kleinschmidt H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianyu",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Leith, Erik M",
+        "short_name": "Leith EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Jenna",
+        "short_name": "Johnson J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Song",
+        "short_name": "Tan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Bai, Lu",
+        "short_name": "Bai L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA; Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA 16802, USA; Department of Physics, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: lub15@psu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2024 Aug 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/18 00:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42509840",
+      "42192059",
+      "42087786",
+      "41882356",
+      "41512071",
+      "41339492",
+      "40705824",
+      "40196012",
+      "40174587",
+      "40027722",
+      "40024204",
+      "39684407",
+      "38958075",
+      "38778580"
+    ],
+    "refs": [
+      "38262408",
+      "37740118",
+      "37327775",
+      "37289591",
+      "37225990",
+      "37184694",
+      "36996811",
+      "36973556",
+      "36522426",
+      "36471082",
+      "36182685",
+      "35815787",
+      "35551305",
+      "35264768",
+      "34789735",
+      "34303077",
+      "33835453",
+      "33692541",
+      "33603233",
+      "33561389",
+      "33413545",
+      "32886547",
+      "32424275",
+      "32327602",
+      "32246829",
+      "31959800",
+      "31826955",
+      "31531882",
+      "31521504",
+      "31303471",
+      "31249361",
+      "31034924",
+      "30944313",
+      "30888317",
+      "30630522",
+      "30572828",
+      "30423086",
+      "30017582",
+      "29484800",
+      "29358654",
+      "29358650",
+      "29272704",
+      "29165643",
+      "29115441",
+      "29040720",
+      "28484230",
+      "27471964",
+      "27079975",
+      "27062924",
+      "26675734",
+      "26668005",
+      "26550823",
+      "26472909",
+      "25892221",
+      "25843630",
+      "25557079",
+      "25215497",
+      "25129887",
+      "24813947",
+      "24353316",
+      "24173036",
+      "24093963",
+      "23562153",
+      "23159369",
+      "22955990",
+      "22955984",
+      "22868264",
+      "22534400",
+      "22217937",
+      "22115363",
+      "22056668",
+      "21726817",
+      "21493652",
+      "21330290",
+      "21233399",
+      "21149679",
+      "20714352",
+      "20356413",
+      "20110278",
+      "19910308",
+      "19505943",
+      "18798982",
+      "18358809",
+      "18329890",
+      "17324271",
+      "16980581",
+      "15766881",
+      "11864602",
+      "11600717",
+      "11162410",
+      "9228025"
+    ],
+    "similar": [
+      "39019045",
+      "37986839",
+      "31588232",
+      "27458208",
+      "34984978",
+      "39413792",
+      "38101414",
+      "27634452",
+      "27034986",
+      "21233399",
+      "23355396",
+      "39121853",
+      "19919681",
+      "24451200",
+      "25127374",
+      "18358809",
+      "21572391",
+      "24801505",
+      "27062924",
+      "30142277",
+      "24373287",
+      "36043696",
+      "40874905",
+      "26929406",
+      "18818283",
+      "19129543",
+      "24093963",
+      "29669022",
+      "20501845",
+      "25804738",
+      "34518541",
+      "21937452",
+      "27259199",
+      "22863112",
+      "20348100",
+      "25720775",
+      "38966997",
+      "41224124",
+      "19846536",
+      "32432922",
+      "37405916",
+      "38429368",
+      "32888433",
+      "19687299",
+      "21358819",
+      "28282036",
+      "21878914",
+      "38851846",
+      "22125492",
+      "31243370",
+      "16009131",
+      "27197147",
+      "23805837",
+      "15748903",
+      "22083952",
+      "33420376",
+      "27926873",
+      "39463949",
+      "31243372",
+      "39515290",
+      "32868907",
+      "30840881",
+      "36930833",
+      "41381516",
+      "22955984",
+      "19339686",
+      "24073287",
+      "24875621",
+      "25486472",
+      "12588992",
+      "37805453",
+      "26818008",
+      "37873361",
+      "31029427",
+      "27132513",
+      "12801640",
+      "37486787",
+      "31253573",
+      "19897491",
+      "40494627",
+      "16239259",
+      "22665440",
+      "29030827",
+      "24440874",
+      "22348285",
+      "40479714",
+      "41508539",
+      "19028685",
+      "34099689",
+      "27191592",
+      "18263612",
+      "21179027",
+      "21915096",
+      "36253868",
+      "30526044",
+      "31053165",
+      "30016502",
+      "24290378",
+      "20959602",
+      "28137873"
+    ],
+    "review": [
+      "39019045",
+      "25486472"
+    ],
+    "pmc": [
+      "11334613"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00529-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39019045/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39019045",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

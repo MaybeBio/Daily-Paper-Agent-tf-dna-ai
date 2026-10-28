@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41969615",
+    "doi": "10.1155/humu/1816649",
+    "title": "Panomics Integration via Machine Learning Prioritizes TAF1D as a Therapeutic Vulnerability in Lung Adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Lung adenocarcinoma (LUAD) is a leading cause of cancer mortality, necessitating the identification of robust biomarkers and a deeper understanding of its molecular underpinnings. This study is aimed at screening for potential LUAD biomarkers and characterizing their biological functions. Using an integrative computational framework, we combined multitranscriptomic data analysis with three machine learning algorithms (LASSO, SVM-RFE, and random forest) to identify a consensus seven-gene signature (TTC13, TAF1D, ZNF587, PRPF3, LINC01355, TARBP1, and CCNL2). A classifier based on this signature achieved exceptional diagnostic accuracy (AUC = 0.972), with TAF1D identified as the most influential predictor via SHAP analysis. TAF1D was significantly upregulated in tumors, correlated with an immunosuppressive microenvironment, and promoted cancer cell proliferation by regulating cell cycle and immune-related pathways. Critically, TAF1D exhibited significant spatial heterogeneity in expression across different samples and tissue regions, suggesting it may exert region-specific biological functions within the tumor. In conclusion, our work defines a validated gene signature for LUAD, nominating TAF1D as a key oncogenic driver and promising candidate for diagnostic and therapeutic development.",
+    "keywords": [
+      "SHAP analysis",
+      "TAF1D",
+      "cell proliferation",
+      "immune cell infiltration",
+      "lung adenocarcinoma",
+      "single-cell RNA sequencing",
+      "somatic mutation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factor TFIID/genetics",
+      "*Adenocarcinoma of Lung/genetics/metabolism/pathology/diagnosis",
+      "*TATA-Binding Protein Associated Factors/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/genetics",
+      "*Lung Neoplasms/genetics",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "Tumor Microenvironment/genetics",
+      "Histone Acetyltransferases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Lan",
+        "Xu, Qingmei",
+        "Liu, Dongdong",
+        "Wu, Jingyu",
+        "Cai, Xufan",
+        "Xu, Feiqi",
+        "Ma, Shuhan",
+        "Wang, Haitao",
+        "Shi, Yanyan"
+      ],
+      "short_names": [
+        "Ding L",
+        "Xu Q",
+        "Liu D",
+        "Wu J",
+        "Cai X",
+        "Xu F",
+        "Ma S",
+        "Wang H",
+        "Shi Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3813-9772",
+        "ORCID: 0009-0008-9298-4698"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Nursing, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Geriatric Ward, The 903rd Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army, Hangzhou, Zhejiang, China.",
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of General Surgery, Zhejiang Cancer Hospital, Hangzhou, Zhejiang, China, zchospital.com.",
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Graduate, Hangzhou Normal University, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+        "Department of Nursing, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Lan",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+          "Department of Nursing, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Qingmei",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatric Ward, The 903rd Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongdong",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Jingyu",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Zhejiang Cancer Hospital, Hangzhou, Zhejiang, China, zchospital.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Xufan",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Feiqi",
+        "short_name": "Xu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Shuhan",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Graduate, Hangzhou Normal University, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Haitao",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0003-3813-9772"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, Yanyan",
+        "short_name": "Shi Y",
+        "identifiers": [
+          "0009-0008-9298-4698"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Cancer Center, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn.",
+          "Department of Nursing, Zhejiang Provincial People's Hospital, Affiliated People's Hospital, Hangzhou Medical College, Hangzhou, Zhejiang, China, hznu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 18:17",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40282006",
+      "39436503",
+      "39307376",
+      "39075270",
+      "38519371",
+      "38458196",
+      "38259856",
+      "37722290",
+      "37497412",
+      "37406826",
+      "36701546",
+      "36165706",
+      "34947995",
+      "34182217",
+      "33262323",
+      "31648166",
+      "31243265",
+      "30224757",
+      "26464651"
+    ],
+    "similar": [
+      "41969615",
+      "41169155",
+      "40860289",
+      "42792990",
+      "40313958",
+      "42495647",
+      "41409294",
+      "39553728",
+      "41383634",
+      "39148731",
+      "41663460",
+      "41436831",
+      "41523912",
+      "41164195",
+      "41671296",
+      "42079738",
+      "40552290",
+      "40657391",
+      "39794414",
+      "39539551",
+      "41394854",
+      "42266684",
+      "39071134",
+      "39267056",
+      "39516442",
+      "42240917",
+      "40474570",
+      "41341805",
+      "42089585",
+      "42469385",
+      "38616208",
+      "42674820",
+      "40352269",
+      "42003422",
+      "41862916",
+      "41342545",
+      "42450135",
+      "42443661",
+      "39823156",
+      "40831319",
+      "41266429",
+      "41583466",
+      "42530242",
+      "41074434",
+      "41164190",
+      "40084259",
+      "42288924",
+      "40328901",
+      "41822495",
+      "42238598",
+      "40595823",
+      "41985273",
+      "32333046",
+      "40993741",
+      "42589294",
+      "42136962",
+      "38910478",
+      "40308576",
+      "39346927",
+      "40936758",
+      "41663976",
+      "41187171",
+      "40976828",
+      "39411951",
+      "41415280",
+      "39580469",
+      "41634895",
+      "42774450",
+      "42643623",
+      "42270842",
+      "39267750",
+      "39333719",
+      "40475775",
+      "40396179",
+      "40766320",
+      "37516981",
+      "41429196",
+      "40474806",
+      "41699663",
+      "41540361",
+      "40610605",
+      "41274397",
+      "37507593",
+      "39068752",
+      "42189270",
+      "42328676",
+      "39669580",
+      "41339815",
+      "40469299",
+      "42051516",
+      "41935997",
+      "41836411",
+      "41299753",
+      "41162544",
+      "39987127",
+      "41662930",
+      "41168822",
+      "42349120",
+      "42112349",
+      "33839701"
+    ],
+    "review": [
+      "41969615"
+    ],
+    "pmc": [
+      "13069365"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41969615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/1816649",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

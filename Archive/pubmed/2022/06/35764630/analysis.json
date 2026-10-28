@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35764630",
+  "title": "Learning representations of chromatin contacts using a recurrent neural network identifies genomic drivers of conformation.",
+  "authors": "Dsouza, Kevin B; Maslova, Alexandra; Al-Jibury, Ediem; Merkenschlager, Matthias; Bhargava, Vijay K; Libbrecht, Maxwell W",
+  "journal": "Nature communications",
+  "published_date": "2022-06-29",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用LSTM学习Hi-C染色质互作表征并识别构象相关转录因子，虽涉及TF与DNA互作但非直接结合建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Despite the availability of chromatin conformation capture experiments, discerning the relationship between the 1D genome and 3D conformation remains a challenge, which limits our understanding of their affect on gene expression and disease. We propose Hi-C-LSTM, a method that produces low-dimensional latent representations that summarize intra-chromosomal Hi-C contacts via a recurrent long short-term memory neural network model. We find that these representations contain all the information needed to recreate the observed Hi-C matrix with high accuracy, outperforming existing methods. These representations enable the identification of a variety of conformation-defining genomic elements, including nuclear compartments and conformation-related transcription factors. They furthermore enable in-silico perturbation experiments that measure the influence of cis-regulatory elements on conformation.",
+  "abstract_zh": "尽管染色质构象捕获实验已经可用，但辨别1D基因组与3D构象之间的关系仍是一个挑战，这限制了我们对其在基因表达和疾病中影响的理解。我们提出Hi-C-LSTM，一种通过循环长短期记忆神经网络模型生成低维潜在表示的方法，这些表示总结了染色体内的Hi-C接触。我们发现这些表示包含了以高精度重建观察到的Hi-C矩阵所需的全部信息，优于现有方法。这些表示能够识别多种定义构象的基因组元件，包括核区室和与构象相关的转录因子。此外，它们还支持进行计算机模拟扰动实验，以测量顺式调控元件对构象的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35764630/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35764630/",
+  "paper_page_path": "papers/pubmed/35764630/index.html"
+}

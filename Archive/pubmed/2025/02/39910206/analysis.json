@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39910206",
+  "title": "CoTF-reg reveals cooperative transcription factors in oligodendrocyte gene regulation using single-cell multi-omics.",
+  "authors": "Choi, Jerome J; Svaren, John; Wang, Daifeng",
+  "journal": "Communications biology",
+  "published_date": "2025-02-06",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出coTF-reg框架，整合单细胞多组学与深度学习模型识别少突胶质细胞中协同转录因子对及其靶基因调控，虽聚焦TF-DNA共结合与调控预测，但未涉及三维互作建模或分子模拟，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Oligodendrocytes are the myelinating cells within the central nervous system, but the mechanisms by which transcription factors (TFs) cooperate for gene regulation in oligodendrocytes remain unclear. We introduce coTF-reg, an analytical framework that integrates scRNA-seq and scATAC-seq data to identify cooperative TFs co-regulating the target gene (TG). First, we identify co-binding TF pairs in the same oligodendrocyte-specific regulatory regions. Next, we train a deep learning model to predict each TG expression using the co-binding TFs' expressions. Shapley interaction scores reveal high interactions between co-binding TF pairs, such as SOX10-TCF12. Validation using oligodendrocyte eQTLs and their eGenes that are regulated by these cooperative TFs show potential regulatory roles for genetic variants. Experimental validation using ChIP-seq data confirms some cooperative TF pairs, such as SOX10-OLIG2. Prediction performance of our models is evaluated through holdout data and additional datasets, and an ablation study is also conducted. The results demonstrate stable and consistent performance.",
+  "abstract_zh": "少突胶质细胞是中枢神经系统中的髓鞘形成细胞，但转录因子（TFs）在少突胶质细胞中协同调控基因表达的机制仍不清楚。我们引入了coTF-reg，一个整合scRNA-seq和scATAC-seq数据的分析框架，用于识别协同调控靶基因（TG）的转录因子。首先，我们在相同的少突胶质细胞特异性调控区域中识别共结合的TF对。接下来，我们训练一个深度学习模型，利用共结合TF的表达来预测每个TG的表达。Shapley交互分数揭示了共结合TF对之间的高交互性，如SOX10-TCF12。利用少突胶质细胞eQTL及其受这些协同TF调控的eGenes进行验证，显示了遗传变异的潜在调控作用。通过ChIP-seq数据进行的实验验证确认了一些协同TF对，如SOX10-OLIG2。我们模型的预测性能通过保留数据和额外数据集进行评估，并进行了消融研究。结果表明模型性能稳定且一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39910206/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39910206/",
+  "paper_page_path": "papers/pubmed/39910206/index.html"
+}

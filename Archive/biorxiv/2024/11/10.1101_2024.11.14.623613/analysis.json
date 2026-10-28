@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.14.623613",
+  "title": "Ranking protein-peptide binding affinities with protein language models",
+  "authors": "Charles Charbel Chalas; Michael P. Dunne",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-15",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白质语言模型无监督排序蛋白-肽结合亲和力，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作强度预测，对课题有借鉴价值。",
+  "abstract": "In this study we explore the use of protein language models for ranking protein-peptide interaction strength, extending the concept of binary protein interaction classification. We introduce a method that measures and ranks protein binding affinities in an unsupervised manner, eliminating the need for extensive labeled data, structural information, or complex biochemical features. We demonstrate the utility of our approach across five distinct protein-peptide datasets by comparing predicted interaction strength rankings with experimentally derived inhibitory concentration (IC50) values. Furthermore, we discuss limitations encountered during our study and present preliminary findings on extending our approach to more general protein-protein interactions. Finally, we highlight the need for comprehensive datasets specifically designed for ranking protein-protein interactions.",
+  "abstract_zh": "在本研究中，我们探索了利用蛋白质语言模型来排序蛋白质-肽相互作用强度，将二元蛋白质相互作用分类的概念进行了扩展。我们提出了一种方法，能够以无监督的方式测量并排序蛋白质结合亲和力，从而无需大量标记数据、结构信息或复杂的生化特征。我们通过五个不同的蛋白质-肽数据集，将预测的相互作用强度排序与实验得出的抑制浓度（IC50）值进行比较，展示了我们方法的实用性。此外，我们讨论了研究过程中遇到的局限性，并展示了将我们的方法扩展到更普遍的蛋白质-蛋白质相互作用的初步发现。最后，我们强调了针对蛋白质-蛋白质相互作用排序专门设计的全面数据集的需求。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623613",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623613",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.14.623613/index.html"
+}

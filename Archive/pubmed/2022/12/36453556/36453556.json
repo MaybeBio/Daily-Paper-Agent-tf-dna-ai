@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "36453556",
+    "doi": "10.1002/pmic.202200083",
+    "title": "Impact of Asp/Glu-ADP-ribosylation on protein-protein interaction and protein function."
+  },
+  "content": {
+    "abstract": "PARylation plays critical role in regulating multiple cellular processes such as DNA damage response and repair, transcription, RNA processing, and stress response. More than 300 human proteins have been found to be modified by PARylation on acidic residues, that is, Asp (D) and Glu (E). We used the deep-learning tool AlphaFold to predict protein-protein interactions (PPIs) and their interfaces for these proteins based on coevolution signals from joint multiple sequence alignments (MSAs). AlphaFold predicted 260 confident PPIs involving PARylated proteins, and about one quarter of these PPIs have D/E-PARylation sites in their predicted PPI interfaces. AlphaFold predictions offer novel insights into the mechanisms of PARylation regulations by providing structural details of the PPI interfaces. D/E-PARylation sites have a preference to occur in coil regions and disordered regions, and PPI interfaces containing D/E-PARylation sites tend to occur between short linear sequence motifs in disordered regions and globular domains. The hub protein PCNA is predicted to interact with more than 20 proteins via the common PIP box motif and the structurally variable flanking regions. D/E-PARylation sites were found in the interfaces of key components of the RNA transcription and export complex, the SF3a spliceosome complex, and H/ACA and C/D small nucleolar ribonucleoprotein complexes, suggesting that systematic PARylation have a profound effect in regulating multiple RNA-related processes such as RNA nuclear export, splicing, and modification. Finally, PARylation of SUMO2 could modulate its interaction with CHAF1A, thereby representing a potential mechanism for the cross-talk between PARylation and SUMOylation in regulation of chromatin remodeling.",
+    "keywords": [
+      "D/E-PARylation",
+      "coevolution",
+      "interaction interface",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*ADP-Ribosylation",
+      "*Poly ADP Ribosylation",
+      "Transcription Factors",
+      "Chromatin Assembly and Disassembly",
+      "RNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Jimin",
+        "Zhang, Jing",
+        "Wang, Xu-Dong",
+        "Kim, Chiho",
+        "Yu, Yonghao",
+        "Cong, Qian"
+      ],
+      "short_names": [
+        "Pei J",
+        "Zhang J",
+        "Wang XD",
+        "Kim C",
+        "Yu Y",
+        "Cong Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8909-0414"
+      ],
+      "affiliations": [
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA.",
+        "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA.",
+        "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA.",
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Jimin",
+        "short_name": "Pei J",
+        "identifiers": [],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu-Dong",
+        "short_name": "Wang XD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Chiho",
+        "short_name": "Kim C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Yonghao",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pharmacology and Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Cong, Qian",
+        "short_name": "Cong Q",
+        "identifiers": [
+          "0000-0002-8909-0414"
+        ],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, Texas, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteomics"
+    ],
+    "journal_abbrev": [
+      "Proteomics"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/02 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "41385329",
+      "40682621",
+      "40216015",
+      "37964489",
+      "37446831"
+    ],
+    "refs": [
+      "36168146",
+      "35881696",
+      "35677162",
+      "35325185",
+      "35273146",
+      "35002525",
+      "34762488",
+      "34293799",
+      "34265844",
+      "33883742",
+      "33237286",
+      "33191911",
+      "33137182",
+      "32656996",
+      "32276417",
+      "32144435",
+      "31940791",
+      "31218365",
+      "31134302",
+      "31077644",
+      "31055645",
+      "30481609",
+      "30476227",
+      "30395283",
+      "30315277",
+      "30157440",
+      "29860432",
+      "29804836",
+      "29633969",
+      "29327913",
+      "29166620",
+      "28854736",
+      "28202539",
+      "28071730",
+      "27339980",
+      "27240471",
+      "26773052",
+      "26091340",
+      "25416956",
+      "25219674",
+      "23955771",
+      "23329690",
+      "23060610",
+      "22713970",
+      "22144908",
+      "21123224",
+      "20603072",
+      "19919826",
+      "19836239",
+      "19662157",
+      "19273151",
+      "19179534",
+      "19131956",
+      "18292223",
+      "18081865",
+      "17980603",
+      "17055769",
+      "17000901",
+      "16984396",
+      "16189514",
+      "15770508",
+      "14681455",
+      "14597658",
+      "14519857",
+      "12829735",
+      "12522211",
+      "11911893",
+      "11675789",
+      "11524371",
+      "10869041",
+      "10592249",
+      "9254694",
+      "6667333"
+    ],
+    "similar": [
+      "36453556",
+      "35986334",
+      "30728452",
+      "31248990",
+      "31842403",
+      "29216372",
+      "27240471",
+      "34408146",
+      "25938242",
+      "36077221",
+      "31395352",
+      "22736760",
+      "35327636",
+      "33524253",
+      "33231937",
+      "29166620",
+      "31606080",
+      "36253381",
+      "30542118",
+      "32962438",
+      "31485633",
+      "27664469",
+      "35501985",
+      "33433610",
+      "34418551",
+      "31940791",
+      "37076532",
+      "21870261",
+      "30097881",
+      "27689873",
+      "31519936",
+      "35382873",
+      "30097858",
+      "37000654",
+      "27677453",
+      "24055347",
+      "36077699",
+      "30799503",
+      "29058739",
+      "30045870",
+      "32358582",
+      "28695510",
+      "23290998",
+      "30110632",
+      "33408245",
+      "36839575",
+      "34001206",
+      "23277454",
+      "29712969",
+      "27080423",
+      "37106138",
+      "38585848",
+      "29981477",
+      "27440879",
+      "26201266",
+      "34519134",
+      "32621411",
+      "26391948",
+      "28107648",
+      "34610310",
+      "31616951",
+      "27693398",
+      "29029387",
+      "27793508",
+      "32029454",
+      "35002525",
+      "36261849",
+      "34094834",
+      "33683197",
+      "30940816",
+      "25553460",
+      "31034795",
+      "31855104",
+      "26047893",
+      "29668892",
+      "36383218",
+      "37224531",
+      "38225382",
+      "37632170",
+      "39328266"
+    ],
+    "review": [
+      "36453556",
+      "31842403",
+      "27240471",
+      "25938242",
+      "36077221",
+      "31395352",
+      "35327636",
+      "27664469",
+      "35501985",
+      "31940791",
+      "27677453",
+      "36077699",
+      "30799503",
+      "23290998",
+      "36839575",
+      "32621411",
+      "27693398",
+      "32029454",
+      "25553460"
+    ],
+    "pmc": [
+      "10362910"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36453556/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36453556",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pmic.202200083",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-558",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/99r9k3t2",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

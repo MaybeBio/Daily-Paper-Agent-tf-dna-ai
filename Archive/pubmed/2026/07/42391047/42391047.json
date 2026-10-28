@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "42391047",
+    "doi": "10.1093/nar/gkag630",
+    "title": "Bacillus subtilis DnaB forms multiple protein-protein interactions essential for DNA replication initiation."
+  },
+  "content": {
+    "abstract": "DNA replication is initiated at specific chromosomal loci termed origins. In bacteria, the master replication initiation protein DnaA unwinds the origin (oriC), allowing a pair of replicative helicases to be loaded around each strand of the DNA duplex. The molecular mechanisms for managing bacterial helicase loading at oriC are unclear. Here we have investigated the role of the essential accessory helicase loader DnaB in Bacillus subtilis. By identifying and characterizing DnaB residues that are critical for its role during DNA replication initiation, we have located three necessary protein-protein interactions that DnaB makes with initiation proteins DnaA, DnaD, and DnaI. Combining single particle cryo-electron microscopy, AlphaFold3 predictions, and two-hybrid interaction analyses, the data suggests that DnaB acts as an interaction hub to orchestrate dual helicase loading at the origin. We propose a model for DNA replication initiation in B. subtilis and related Firmicutes pathogens that employ DnaB-type helicase loaders.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Bacillus subtilis/genetics/metabolism",
+      "*DNA Replication",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "*DnaB Helicases/metabolism/chemistry/genetics",
+      "Replication Origin",
+      "DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "Models, Molecular",
+      "Cryoelectron Microscopy",
+      "DNA Helicases/metabolism",
+      "DNA, Bacterial/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guyet, Aurelie",
+        "Campoy, Reyes Ruiz",
+        "Manja, Petra",
+        "Schramm, Frederic D",
+        "Pelliciari, Simone",
+        "Fenyk, Stepan",
+        "Li, Yuanyuan",
+        "Winterhalter, Charles",
+        "Ilangovan, Aravindan",
+        "Murray, Heath"
+      ],
+      "short_names": [
+        "Guyet A",
+        "Campoy RR",
+        "Manja P",
+        "Schramm FD",
+        "Pelliciari S",
+        "Fenyk S",
+        "Li Y",
+        "Winterhalter C",
+        "Ilangovan A",
+        "Murray H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8971-7013",
+        "ORCID: 0000-0003-1872-590X",
+        "ORCID: 0009-0009-8969-2878",
+        "ORCID: 0000-0003-1858-7770",
+        "ORCID: 0000-0003-3150-9136",
+        "ORCID: 0000-0001-9673-1227",
+        "ORCID: 0000-0002-0391-3812",
+        "ORCID: 0000-0002-6467-3656"
+      ],
+      "affiliations": [
+        "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom.",
+        "Biodiscovery Institute, School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, United Kingdom.",
+        "Research Unit in Biology of Microorganisms, Department of Biology, Universite de Namur, Namur 5000, Belgium.",
+        "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom.",
+        "Institute of Medical Biology, Polish Academy of Sciences, Lodowa 106, Lodz 93-232, Poland.",
+        "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom.",
+        "Centre for Molecular Cell Biology, School of Biological and Behavioural Sciences, Queen Mary University of London, Newark Street, London E1 2AT, United Kingdom.",
+        "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom.",
+        "Centre for Molecular Cell Biology, School of Biological and Behavioural Sciences, Queen Mary University of London, Newark Street, London E1 2AT, United Kingdom.",
+        "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guyet, Aurélie",
+        "short_name": "Guyet A",
+        "identifiers": [
+          "0000-0001-8971-7013"
+        ],
+        "affiliations": [
+          "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Campoy, Reyes Ruiz",
+        "short_name": "Campoy RR",
+        "identifiers": [
+          "0000-0003-1872-590X"
+        ],
+        "affiliations": [
+          "Biodiscovery Institute, School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Manja, Petra",
+        "short_name": "Manja P",
+        "identifiers": [
+          "0009-0009-8969-2878"
+        ],
+        "affiliations": [
+          "Research Unit in Biology of Microorganisms, Department of Biology, Université de Namur, Namur 5000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Schramm, Frederic D",
+        "short_name": "Schramm FD",
+        "identifiers": [
+          "0000-0003-1858-7770"
+        ],
+        "affiliations": [
+          "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Pelliciari, Simone",
+        "short_name": "Pelliciari S",
+        "identifiers": [
+          "0000-0003-3150-9136"
+        ],
+        "affiliations": [
+          "Institute of Medical Biology, Polish Academy of Sciences, Lodowa 106, Łódź 93-232, Poland."
+        ]
+      },
+      {
+        "full_name": "Fenyk, Stepan",
+        "short_name": "Fenyk S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Li, Yuanyuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Molecular Cell Biology, School of Biological and Behavioural Sciences, Queen Mary University of London, Newark Street, London E1 2AT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Winterhalter, Charles",
+        "short_name": "Winterhalter C",
+        "identifiers": [
+          "0000-0001-9673-1227"
+        ],
+        "affiliations": [
+          "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ilangovan, Aravindan",
+        "short_name": "Ilangovan A",
+        "identifiers": [
+          "0000-0002-0391-3812"
+        ],
+        "affiliations": [
+          "Centre for Molecular Cell Biology, School of Biological and Behavioural Sciences, Queen Mary University of London, Newark Street, London E1 2AT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Murray, Heath",
+        "short_name": "Murray H",
+        "identifiers": [
+          "0000-0002-6467-3656"
+        ],
+        "affiliations": [
+          "Centre for Bacterial Cell Biology, Biosciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4AX, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jun 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 22:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41860230",
+      "41558826",
+      "41298506",
+      "39776183",
+      "39552041",
+      "39526373",
+      "39441067",
+      "39436044",
+      "38718835",
+      "38597606",
+      "38097584",
+      "37774136",
+      "37140053",
+      "37093985",
+      "36877032",
+      "36416272",
+      "34783343",
+      "34410368",
+      "32817095",
+      "30797687",
+      "30582519",
+      "30534966",
+      "30285297",
+      "29872004",
+      "29447345",
+      "28854626",
+      "28808061",
+      "28250466",
+      "28165473",
+      "27830752",
+      "27281207",
+      "26420830",
+      "26370899",
+      "25071173",
+      "25041308",
+      "24983530",
+      "24636567",
+      "24048025",
+      "24040512",
+      "23613349",
+      "23562643",
+      "22933559",
+      "22797751",
+      "22743772",
+      "22417087",
+      "21964332",
+      "20587500",
+      "20383002",
+      "20130679",
+      "20071750",
+      "20057044",
+      "19968790",
+      "19255093",
+      "18811726",
+      "18216012",
+      "17003052",
+      "16829961",
+      "16594962",
+      "16561900",
+      "16002087",
+      "15686560",
+      "15037234",
+      "12718886",
+      "12682358",
+      "12234917",
+      "11916378",
+      "11585815",
+      "10844689",
+      "10572294",
+      "10072765",
+      "9576956",
+      "9405146",
+      "9144786",
+      "9068655",
+      "9054506",
+      "7744016",
+      "6310593",
+      "6091903",
+      "3038874",
+      "2830236",
+      "1943786"
+    ],
+    "similar": [
+      "42391047",
+      "41558826",
+      "15686560",
+      "36416272",
+      "21097613",
+      "15186423",
+      "20071750",
+      "37093985",
+      "40439200",
+      "11679082",
+      "30534966",
+      "39776183",
+      "39230358",
+      "10844689",
+      "19968790",
+      "17420252",
+      "16002087",
+      "32817095",
+      "35598828",
+      "30285297",
+      "40962056",
+      "21856207",
+      "10972842",
+      "41312769",
+      "12718886",
+      "9852089",
+      "12161435",
+      "32540966",
+      "15556628",
+      "11842108",
+      "29176877",
+      "27241926",
+      "26728455",
+      "12835421",
+      "11254968",
+      "17003052",
+      "17289076",
+      "11551962",
+      "11313334",
+      "35238386",
+      "19961412",
+      "26812209",
+      "11606418",
+      "31267560",
+      "12421318",
+      "34107018",
+      "19546317",
+      "9874774",
+      "27382050",
+      "22821970",
+      "40598899",
+      "16622063",
+      "12864864",
+      "18157148",
+      "11585815",
+      "19527752",
+      "35880876",
+      "22074440",
+      "11406602",
+      "22942281",
+      "9037022",
+      "18506095",
+      "8702501",
+      "30233515",
+      "11316803",
+      "8106460",
+      "15371441",
+      "29396913",
+      "15901724",
+      "36762863",
+      "35351361",
+      "36053906",
+      "27281207",
+      "19013274",
+      "10480943",
+      "19707554",
+      "36877032",
+      "7781616",
+      "9407123",
+      "9701819",
+      "30582519",
+      "22053082",
+      "14757052",
+      "42635293",
+      "9254631",
+      "11278792",
+      "26244508",
+      "38588814",
+      "19632993",
+      "19943900",
+      "30797687",
+      "11222620",
+      "12065427",
+      "17906136",
+      "19255093",
+      "10749858",
+      "30060236",
+      "16036556",
+      "27001508",
+      "21239581"
+    ],
+    "review": [
+      "42391047",
+      "39230358",
+      "27241926",
+      "11254968",
+      "19527752",
+      "35351361",
+      "36877032"
+    ],
+    "pmc": [
+      "13326638"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42391047/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag630",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

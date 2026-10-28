@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37462277",
+  "title": "Clusters of acidic and hydrophobic residues can predict acidic transcriptional activation domains from protein sequence.",
+  "authors": "Kotha, Sanjana R; Staller, Max Valentin",
+  "journal": "Genetics",
+  "published_date": "2023-07-18",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文从蛋白序列预测酸性转录激活结构域，虽涉及转录因子但聚焦激活域而非DNA结合互作，且无AI/物理模拟建模，仅用CNN辅助预测，与TF-DNA互作课题关联较弱。",
+  "abstract": "Transcription factors activate gene expression in development, homeostasis, and stress with DNA binding domains and activation domains. Although there exist excellent computational models for predicting DNA binding domains from protein sequence, models for predicting activation domains from protein sequence have lagged, particularly in metazoans. We recently developed a simple and accurate predictor of acidic activation domains on human transcription factors. Here, we show how the accuracy of this human predictor arises from the clustering of aromatic, leucine, and acidic residues, which together are necessary for acidic activation domain function. When we combine our predictor with the predictions of convolutional neural network (CNN) models trained in yeast, the intersection is more accurate than individual models, emphasizing that each approach carries orthogonal information. We synthesize these findings into a new set of activation domain predictions on human transcription factors.",
+  "abstract_zh": "转录因子通过DNA结合域和激活域在发育、稳态及应激中激活基因表达。尽管已有优秀的计算模型可从蛋白质序列预测DNA结合域，但从蛋白质序列预测激活域的模型则相对滞后，尤其是在后生动物中。我们近期开发了一个简单且准确的人类转录因子酸性激活域预测器。在此，我们展示了该人类预测器的准确性如何源于芳香族、亮氨酸和酸性残基的聚集，这些残基共同对酸性激活域功能至关重要。当我们将我们的预测器与在酵母中训练的卷积神经网络（CNN）模型的预测结果相结合时，交集部分比单一模型更为准确，这强调了每种方法携带正交信息。我们将这些发现综合为一组新的人类转录因子激活域预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37462277/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37462277/",
+  "paper_page_path": "papers/pubmed/37462277/index.html"
+}

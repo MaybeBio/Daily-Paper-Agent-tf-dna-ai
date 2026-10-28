@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, author contributions, declarations)
+- **Assessment boundary** Scientific validity, methodological soundness, data interpretation, and claims as presented in the provided text. No external data or supplementary materials were assessed.
+- **Shared manuscript claim summary** The authors apply the KaScape high-throughput method to exhaustively map DNA binding sites for the *Bacillus subtilis* transcription factor YsiA (FadR), a pre-formed dimeric repressor involved in fatty acid degradation. They report that a half-site (ATGAAT) is sufficient for binding, identify novel minor binding sequences beyond the known consensus, and propose that KaScape is broadly applicable to dimeric transcription factors.
+- **Visible evidence base** Figures 1–4 (referenced but not shown), methods sections 2.1–2.5, results sections 3.1–3.3, and conclusions. No raw sequencing data, statistical analyses, or supplementary tables were provided.
+- **Missing materials affecting confidence** Figures 1–4 are referenced but not included in the provided text. Raw sequencing counts, enrichment calculations, statistical tests, and code are not available. EMSA gel images and quantitative binding data are absent. Genome-wide predictions mentioned in the conclusions are not described or validated.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of the KaScape method to a dimeric transcription factor, with the interesting finding that a half-site suffices for YsiA binding. However, the current text lacks the essential data presentation, statistical rigor, and methodological detail needed to substantiate the central claims. The absence of figures, raw data, and quantitative analyses prevents verification of the reported energy landscapes, correlation coefficients, and EMSA comparisons. The conclusions extend beyond the evidence shown, particularly regarding genome-wide predictions and general applicability to dimeric TFs.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription regulation, particularly TetR-family repressors and fatty acid metabolism. Those developing or applying high-throughput DNA-protein interaction methods (e.g., SELEX, Bind-n-seq, KaScape) would be interested in the methodological demonstration. Structural biologists studying dimeric TF-DNA recognition may also find the half-site binding observation relevant.
+- **Major strengths** The study addresses a relevant question in bacterial gene regulation. The KaScape method, if properly validated, offers a high-throughput approach to map binding landscapes. The finding that a half-site is sufficient for YsiA binding is potentially novel and mechanistically interesting. The use of EMSA as an orthogonal validation is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The authors claim that KaScape experiments with random base lengths of 4, 5, 6, and 7 are "highly consistent" and that relative binding energy landscapes were calculated for each condition.
+  - **Evidence pointer** Section 3.2, Figures 2 and 3 (not provided)
+  - **Concern** The core quantitative results are presented only as figure references. No actual energy values, correlation coefficients, or statistical measures are reported in the text. The claim of consistency across experiments cannot be evaluated without the figures or underlying data. The methods section (2.4) describes the calculation of relative binding energy but omits key details such as normalization procedures, read count thresholds, and error estimation.
+  - **Why it matters** Reproducibility is a fundamental requirement. Without access to the data or a clear description of the analysis pipeline, readers cannot assess the robustness of the reported energy landscapes or the consistency claim. This undermines the central methodological contribution.
+  - **Resolution test** Provide the figures with clear axis labels, error bars, and statistical annotations. Include a detailed description of the normalization and calculation steps, and make the raw sequencing counts and analysis code publicly available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors state that "the half-site is enough for YsiA to bind dsDNA" and that "TGA is enough for YsiA to bind dsDNA" based on EMSA results.
+  - **Evidence pointer** Section 3.3, Figure 4 (not provided)
+  - **Concern** The EMSA experiments are described only qualitatively. No gel images, binding constants, or quantitative comparisons are shown. The conclusion that a half-site or even a trinucleotide (TGA) is sufficient for binding is a strong claim that requires quantitative binding data. The text does not specify how binding was defined (e.g., shifted band intensity, concentration dependence) or whether negative controls were included.
+  - **Why it matters** The half-site sufficiency claim is a central finding with implications for understanding TF-DNA recognition. If not rigorously supported, the conclusion is premature and could mislead subsequent studies.
+  - **Resolution test** Include EMSA gel images with labeled concentrations, quantify bound versus free DNA, and provide dissociation constants or at least a clear threshold for binding. Include negative controls (e.g., mutated sequences) to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors conclude that "KaScape can be used to study dimeric transcription factors (TFs) in general."
+  - **Evidence pointer** Conclusions section
+  - **Concern** This generalization is based on a single TF (YsiA). While the method may be applicable to other dimeric TFs, the current data do not demonstrate this. The authors do not discuss potential limitations, such as the need for specific buffer conditions, DNA library design, or the influence of TF cooperativity on binding site identification.
+  - **Why it matters** Overgeneralization from a single example can lead to inappropriate adoption of the method by others. A more cautious statement, acknowledging the need for validation across diverse TF families, would be more scientifically accurate.
+  - **Resolution test** Either temper the conclusion to reflect the single-TF evidence or provide additional data from at least one other dimeric TF to support the general claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report Pearson correlation coefficients "higher than 0.5" between KaScape experiments.
+  - **Evidence pointer** Section 3.2, Figure 3 (not provided)
+  - **Concern** A correlation coefficient of 0.5 is modest and may not indicate strong agreement, especially for quantitative binding measurements. The text does not report confidence intervals, p-values, or the number of data points used. The choice of threshold for "consistency" is not justified.
+  - **Why it matters** The claim of reproducibility rests on these correlations. Without proper statistical reporting, readers cannot judge whether the observed consistency is meaningful or within acceptable limits for the intended application.
+  - **Resolution test** Report correlation coefficients with confidence intervals and p-values. Justify the threshold for consistency. Consider using additional metrics such as rank-order agreement or concordance correlation coefficients.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section 2.4 (data analysis)
+  - **Evidence pointer** Section 2.4
+  - **Issue** The description of the relative binding energy calculation is incomplete. The text states that proportions were calculated and energy was derived, but the exact formula is not given. The sentence "the relative binding energy which represents the affinity (8) of short sequence s i was calculated as" ends without the actual equation.
+  - **Required correction** Provide the explicit formula for relative binding energy, including all variables and normalization steps. If the formula is in the original KaScape paper, cite it clearly and summarize the key steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology and consistency
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The species name is spelled "Basillus subtilis" in the title and abstract, but "B. subtilis" elsewhere. The correct spelling is "Bacillus subtilis." Additionally, "regullates" (Introduction) and "resuls" (Abstract) are typographical errors.
+  - **Required correction** Correct the species name spelling throughout. Proofread for typographical errors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 2.3 (KaScape procedures)
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the KaScape procedure is brief. Key parameters such as the concentration of YsiA used, the ratio of protein to DNA, the number of wash steps, and the elution conditions are not specified. This limits reproducibility.
+  - **Required correction** Provide detailed experimental conditions, including buffer compositions, incubation times, and any steps unique to this application.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states that "the relative binding energy of ATGAAT is -0.3702 whereas the relative binding energy of TTGAAT is -0.2830" and that values less than zero indicate binding. The choice of zero as a threshold is not explained, and the units of the energy scale are not defined.
+  - **Required correction** Clarify the meaning of the energy scale, how zero is calibrated, and what constitutes a significant binding signal.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of conclusions
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The authors mention that "through searching the B. subtilis's genome, and calculate the relative binding energy using the KaScape data, we may predict some more genes" but no such predictions are presented. This is a forward-looking statement, not a result.
+  - **Required correction** Either present the genome-wide predictions as a result with validation, or clearly label this as future work and remove it from the conclusions.
+
+## Risk / unsupported claims
+- The claim that "the half-site is enough for YsiA to bind dsDNA" is not supported by quantitative data in the provided text.
+- The claim that "TGA is enough for YsiA to bind dsDNA" is even stronger and lacks any supporting evidence in the text.
+- The claim that KaScape results are "highly consistent" across different random base lengths is unverifiable without figures or statistical data.
+- The claim that KaScape "can be used to study dimeric transcription factors in general" is an overgeneralization from a single example.
+- The statement that "the relative binding energy predicted by KaScape experiment is less than 0 which means those sequences are the binding signal" is presented without justification or calibration.
+- The genome-wide predictions mentioned in the conclusions are not presented or validated, making them unsupported.

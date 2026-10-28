@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39816084",
+  "title": "Comprehensive in silico analysis of single nucleotide polymorphism and molecular dynamics simulation of human GATA6 protein in ventricular septal defect.",
+  "authors": "Hidayat, Taufiq; Irwanto, Irwanto; Rohman, Ali; Muhyiddin, Afrizal Aa; Putri, Safira Na; Kurniawan, Dedy B; Syaban, Mokhamad Fr; Firdaus, Theakirana; Rahman, Mahrus A; Utamayasa, I Ka",
+  "journal": "Narra J",
+  "published_date": "2025-01-16",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学与分子动力学模拟分析GATA6基因SNP在室间隔缺损中的致病性，虽涉及转录因子GATA6与DNA互作相关通路，但核心是疾病关联突变评估而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "Congenital heart disease (CHD) represents nearly one-third of congenital birth defects annually, with ventricular septal defect (VSD) being the most common type. The aim of this study was to explore the role of specific GATA binding protein 6 gene (GATA6) mutations as a potential etiological factor in the development of VSD through an in silico approach. Data were collected from the human gene databases: DisGeNET and GeneCards, with protein-protein interaction networks constructed via STRING and Cytoscape. Gene ontology and pathway enrichment analyses were conducted using DAVID, with data analysis in R with significance set at FDR p<0.05. Target single nucleotide polymorphisms (SNPs) of GATA6 were obtained from NCBI dbSNP, and non- synonymous single nucleotide polymorphism (nsSNP) effects were predicted using SIFT, PolyPhen-2, I-Mutant 2.0, Fathmm, MutPred 2.0, SNP&GO, and PON-P2. Conserved regions of GATA6 were analyzed using ConSurf, with functional classification, variant conservation, and stability changes evaluated in Google Colab. Multiple sequence alignment was performed using ClustalW. Mutation modeling and molecular dynamics analysis, using GROMACS, revealed that among 87 intersecting genes, 16 proteins were interconnected with GATA6, showing a centrality value of 0.4378. Gene ontology analysis highlighted atrioventricular canal development, protein-DNA complexes, and transcription factor regulation as key processes for cardiac development, especially in the ventricular septum. NsSNP and molecular dynamics analyses identified rs387906818 and rs387906820 as having the highest pathogenic potential for VSD due to amino acid structural changes.",
+  "abstract_zh": "先天性心脏病（CHD）每年约占先天性出生缺陷的近三分之一，其中室间隔缺损（VSD）是最常见的类型。本研究旨在通过计算机模拟方法，探讨特异性GATA结合蛋白6基因（GATA6）突变作为VSD发展的潜在病因因素的作用。数据收集自人类基因数据库：DisGeNET和GeneCards，并通过STRING和Cytoscape构建蛋白质-蛋白质相互作用网络。使用DAVID进行基因本体论和通路富集分析，数据分析在R中进行，显著性设定为FDR p<0.05。GATA6的目标单核苷酸多态性（SNPs）从NCBI dbSNP获取，非同义单核苷酸多态性（nsSNP）效应通过SIFT、PolyPhen-2、I-Mutant 2.0、Fathmm、MutPred 2.0、SNP&GO和PON-P2进行预测。使用ConSurf分析GATA6的保守区域，并在Google Colab中评估功能分类、变异保守性和稳定性变化。使用ClustalW进行多序列比对。使用GROMACS进行的突变建模和分子动力学分析显示，在87个交叉基因中，有16个蛋白质与GATA6相互连接，中心性值为0.4378。基因本体论分析强调房室管发育、蛋白质-DNA复合物和转录因子调控是心脏发育的关键过程，尤其是在室间隔中。NsSNP和分子动力学分析确定rs387906818和rs387906820因氨基酸结构变化而具有最高的VSD致病潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39816084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39816084/",
+  "paper_page_path": "papers/pubmed/39816084/index.html"
+}

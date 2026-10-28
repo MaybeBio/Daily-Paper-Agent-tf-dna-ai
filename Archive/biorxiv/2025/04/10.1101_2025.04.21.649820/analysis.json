@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.21.649820",
+  "title": "Chronobot: Deep learning guided time-resolved cryo-EM captures molecular choreography of RecA in homology search",
+  "authors": "Mäeots M; Tupin S; Esfahani MMN; Molina JBR; Clapperton JA; Amin A; Imbert A; Enchev RI",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-22",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习辅助时间分辨冷冻电镜捕捉RecA同源搜索中的蛋白-DNA互作中间态，虽非TF-DNA体系，但方法可迁移至转录因子-DNA动态结合研究。",
+  "abstract": "The function of proteins and other biological macromolecules is regulated by conformational dynamics 1 . Many functional changes take place on millisecond timescales which cannot be experimentally captured by manual sample preparation for cryo-EM 2 . Here we introduce Chronobot, a robust, data-driven platform enabling reproducible, time-resolved cryo-EM sample preparation to visualize these transient intermediates. We quantify ice thickness, an important precondition and thus a reliable predictor of 3D reconstruction quality, using two complementary methods: a bespoke deep learning model analysing high-speed camera videos of the grid just before vitrification, and detailed ice thickness quantifications of outputs from common TEM screening workflows like the EPU software. Combining these methods enables rapid optimisation, resulting in an 11-fold improvement in cryo-EM sample quality compared to our previously reported workflow 3 . To demonstrate the Chronobot in capturing transient reaction intermediates visualised through cryo-EM and single particle analysis we focused on RecA homology search. The RecA family of recombinases perform the essential task of rapidly scanning for homologous dsDNA sequences to initiate homologous recombination. The dynamics of these RecA-dsDNA interactions occur on millisecond timescales, limiting structural insights 4 . We capture time-resolved homology search intermediates at 250 milliseconds. These structures reveal the involvement of the secondary DNA binding site in initial capture of dsDNA before homology sampling occurs. We also observe three-strand homology sampling intermediates, where the homologous strand is not fully displaced, and homology is not stably bound. Our results suggest a model of how RecA-family recombinases function in early homologous recombination, by coordinating the incoming DNA between RecA’s various DNA binding sites depending on the stage of homology search and the presence of suUicient homology. We anticipate the Chronobot method to be broadly applicable to processes which cannot be captured by manual sample preparation methods. In addition, by leveraging AI inference, our rapid user feedback mechanisms allow for per-sample optimisation of grid conditions, increasing the likelihood of success and reducing the sample requirements of each time-resolved experiment.",
+  "abstract_zh": "蛋白质及其他生物大分子的功能受构象动态调控¹。许多功能性变化发生在毫秒时间尺度，无法通过手动样品制备进行冷冻电镜（cryo-EM）实验捕捉²。在此，我们介绍Chronobot，一个稳健、数据驱动的平台，能够实现可重复、时间分辨的冷冻电镜样品制备，以可视化这些瞬时中间态。我们使用两种互补方法量化冰层厚度——这是三维重建质量的重要前提，因此也是可靠预测指标：一种定制的深度学习模型，分析玻璃化前网格的高速相机视频；以及通过常见透射电镜筛选工作流程（如EPU软件）输出进行详细的冰层厚度量化。结合这些方法可实现快速优化，使冷冻电镜样品质量较我们先前报道的工作流程提升11倍³。为展示Chronobot在捕捉通过冷冻电镜和单颗粒分析可视化的瞬时反应中间态方面的能力，我们聚焦于RecA同源搜索。RecA家族重组酶执行快速扫描同源双链DNA序列以启动同源重组的关键任务。这些RecA-dsDNA相互作用的动态发生在毫秒时间尺度，限制了结构洞察⁴。我们在250毫秒时捕捉到时间分辨的同源搜索中间态。这些结构揭示了次级DNA结合位点在同源采样前初始捕获dsDNA中的参与。我们还观察到三链同源采样中间态，其中同源链未完全置换，且同源性未稳定结合。我们的结果提出了RecA家族重组酶在早期同源重组中如何通过根据同源搜索阶段及足够同源性的存在，协调进入的DNA在RecA各DNA结合位点之间分配的模型。我们预期Chronobot方法可广泛适用于无法通过手动样品制备方法捕捉的过程。此外，通过利用AI推理，我们的快速用户反馈机制允许对每个样品进行网格条件优化，提高成功可能性并减少每次时间分辨实验的样品需求。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649820",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649820",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.21.649820/index.html"
+}

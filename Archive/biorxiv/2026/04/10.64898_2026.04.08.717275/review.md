@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including Summary, Introduction, Results, Discussion, Materials and Methods, figure legends, and supplementary figure legends. No primary figures or tables were provided.
+- **Assessment boundary** The review is limited to the scientific claims, methodological coherence, and evidentiary support as presented in the text. No raw data, sequencing files, or code were assessed.
+- **Shared manuscript claim summary** The authors present a multi-modal platform (NicE-viewSeq with NicEL deep learning) to profile chromatin accessibility and nucleosome positioning in HT1080 cells following LSD1 inhibition, HDAC inhibition, or dual inhibition. They report increased chromatin accessibility, histone mark spreading, CoREST complex redistribution, and a proposed JunB-mediated displacement of a CoREST-RUNX axis that triggers apoptosis.
+- **Visible evidence base** Text descriptions of results, figure legends, and supplementary figure legends. No actual figures, numerical data, or statistical outputs were available for direct inspection.
+- **Missing materials affecting confidence** All primary figures, supplementary figures, tables, and raw data. The absence of these materials severely limits the ability to verify quantitative claims, statistical significance, and the validity of the deep learning model performance.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question regarding the comparative efficacy of mono- versus dual-epigenetic inhibition, and introduces a potentially useful analytical tool. However, the current text presents a large number of broad claims with limited quantitative detail. The mechanistic model, while interesting, is supported by correlative data and lacks direct functional validation. The absence of all figures and tables makes a full technical assessment impossible. The work is potentially of interest to the epigenetics and cancer biology community, but the evidence as presented is insufficient to establish the central claims.
+- **Who would be interested in the results, and why** Researchers in cancer epigenetics, particularly those studying chromatin remodeling, histone modifications, and transcriptional regulation in response to epigenetic drugs. The NicEL tool may be of interest to computational biologists developing deep learning approaches for microscopy-based chromatin analysis. Clinicians and translational researchers exploring combination therapies for cancer may also find the comparative inhibitor data relevant.
+- **Major strengths** The study addresses a clinically important question about mono- versus dual-inhibitor strategies. The integration of imaging-based chromatin accessibility (NicE-viewSeq) with sequencing (NicE-seq) and histone profiling (NEED-seq) is a multi-modal approach that could provide a more comprehensive view of chromatin state. The identification of a specific TF switch involving JunB and RUNX provides a testable mechanistic hypothesis. The use of a deep learning model for automated nuclei detection and ACI scoring is a methodological advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that NicEL provides accurate and robust chromatin accessibility quantification.
+  - **Evidence pointer** Results section "NicEL-a NicE-viewSeq based deep learning pipeline for chromatin accessibility quantification"; Figure 1; Supplementary Material 1.
+  - **Concern** The performance of the NicEL model is described qualitatively. No quantitative metrics (e.g., Dice coefficient, IoU, precision, recall) for the nuclei segmentation task are provided. The validation of the ACI as a proxy for chromatin accessibility is not shown against any ground truth (e.g., ATAC-seq or NicE-seq data from the same cells). The claim of reduced variability is supported only by a reference to a figure that was not provided.
+  - **Why it matters** The entire downstream analysis depends on the reliability of the NicEL-derived ACI. Without quantitative validation, the biological conclusions drawn from the imaging data are not trustworthy. The model's performance is a foundational element of the paper's technical contribution.
+  - **Resolution test** Provide quantitative segmentation performance metrics on a held-out test set. Show a direct correlation between ACI values and NicE-seq read density at matched genomic loci. Demonstrate reproducibility across biological replicates with appropriate statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that dual inhibition leads to a synergistic effect on chromatin accessibility.
+  - **Evidence pointer** Results section "NicE-seq multi-modality unveiled the differences between HDAC and LSD1 inhibitor"; Figure 2; Figure S1.
+  - **Concern** The text states that dual inhibition shows a "maximum increase in intensities" and a "synergistic effect in accessible chromatin formation," but the basis for this conclusion is unclear. The number of differential peaks for the dual condition (∼28k) is lower than for HDACi alone (∼46k), which is not consistent with a simple additive or synergistic model. The claim of synergy is based on |log2FC| values, but the statistical framework for defining synergy (e.g., deviation from additivity) is not described. The MA plots referenced are not provided.
+  - **Why it matters** The central premise of the paper is the comparative efficacy of mono- versus dual-inhibition. If the synergy claim is not rigorously supported, the main conclusion is weakened. The interpretation of the data as synergistic rather than additive or antagonistic is critical.
+  - **Resolution test** Define a clear quantitative model for synergy (e.g., Bliss independence or Loewe additivity) and apply it to the differential peak data. Show that the observed number and magnitude of changes in the dual condition significantly exceed what would be expected from the mono-treatments alone. Provide the MA plots and statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that JunB displaces CoREST-RUNX at differentially accessible regions, triggering apoptosis.
+  - **Evidence pointer** Results sections "Inversely proportionate chromatin localization of JunB with RUNX and RCOR1 following HDAC and LSD1 inhibition" and "Differential chromatin accessibility and nucleosome positioning regulate transcription upon LSD1 and HDAC inhibition"; Figures 4 and 5; Figure S4.
+  - **Concern** The proposed mechanism is a "displacement" model, but the evidence presented is correlative. The data show co-localization and inverse correlation of JunB with RCOR1/RUNX, but no direct evidence of physical displacement (e.g., sequential ChIP, re-ChIP, or in vitro binding assays) is provided. The link to apoptosis is inferred from GO analysis of DEGs, but no direct functional assay (e.g., Annexin V staining, caspase activity) is described. The statement that this is a "convergent therapeutic vulnerability" is a significant overreach without functional validation.
+  - **Why it matters** The proposed mechanism is the main novel biological insight of the paper. Without direct evidence for displacement and a functional link to apoptosis, the mechanism remains a hypothesis. The clinical implications drawn from this model are therefore premature.
+  - **Resolution test** Perform sequential ChIP (re-ChIP) to show that JunB and RCOR1/RUNX do not co-occupy the same DNA fragments after treatment. Use an in vitro system to demonstrate that JunB can compete with RCOR1/RUNX for binding to target sequences. Conduct functional assays (e.g., apoptosis assays, knockdown/rescue experiments) to directly link JunB activity to the observed cell death.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the multi-modal platform is a robust framework for assessing drug-induced chromatin alterations.
+  - **Evidence pointer** Materials and Methods sections "NicE-view", "NicE-seq", "NEED-seq", "RNA-Seq".
+  - **Concern** The methods section lacks critical details for reproducibility. For example, the number of biological and technical replicates for each assay is not stated. The parameters for the NicEL model training (e.g., dataset size, number of epochs, learning rate schedule) are not provided. The analysis pipeline for NicE-seq and NEED-seq data is described in general terms but lacks specific version numbers and parameters for tools like Bowtie2, MACS3, and DESeq2. The RNA-Seq analysis states "two replicates each," which is a very low number for reliable differential expression analysis.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The lack of detail prevents other researchers from replicating the experiments or the analysis. The low number of RNA-Seq replicates raises concerns about the reliability of the DEG lists and the subsequent GO analysis.
+  - **Resolution test** Provide a detailed description of all experimental and computational parameters. State the number of replicates for all experiments. Justify the use of two replicates for RNA-Seq or provide additional replicates. Make the analysis scripts and parameters publicly available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Summary section; Results section "NicE-seq multi-modality unveiled the differences between HDAC and LSD1 inhibitor"
+  - **Issue** The term "multi-modal" is used to describe the platform, but the text does not clearly define what the distinct modalities are. It appears to refer to imaging (NicE-view) and sequencing (NicE-seq), but the integration of these data types is not explicitly described.
+  - **Required correction** Define the modalities clearly and describe how the data from each modality are integrated in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Altered chromatin accessibility and nucleosome positioning by HDAC1 and LSD1 inhibition"
+  - **Evidence pointer** Figure 3; Figure S2.
+  - **Issue** The text states that nucleosome repositioning events were identified with FDR ≤ 1%, but the number of events and the magnitude of the shifts are not reported. The statement that "a small, ∼2% of histone H3 nucleosomes shifted beyond the linker region" is vague.
+  - **Required correction** Report the total number of repositioning events, the distribution of shift sizes, and the statistical significance of the observed changes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Transcription factor binding sequence identification exhibits transcription factor switch following HDAC and LSD1 inhibition"
+  - **Evidence pointer** Figure 4; Figure S3.
+  - **Issue** The text mentions "22 TF families" and a "clear switch of enrichment" but does not provide a list of these families or the specific TFs within them. The reader cannot assess the biological relevance of the identified TFs.
+  - **Required correction** Provide a table or supplementary figure listing the TF families, the specific TFs, and their enrichment scores in each condition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The term "convergent therapeutic vulnerability" is used, but the concept is not defined or contextualized. It is unclear what is "convergent" about the vulnerability.
+  - **Required correction** Define the term and explain how the data support this specific conclusion.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative validation for the NicEL model (R1-M1), the unsupported claim of synergy (R1-M2), and the correlative nature of the mechanistic data (R1-M3) are the primary technical failings. The insufficient methodological detail (R1-M4) also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of imaging-based accessibility with deep learning and multi-omics readouts is a novel methodological approach. The proposed JunB-CoREST-RUNX axis is a potentially new mechanistic insight. However, the originality of the biological findings is difficult to assess without the figures and detailed data.
+  - **Scientific importance** The question of mono- versus dual-epigenetic inhibition is of high clinical relevance. If the synergy claim is substantiated, the work could inform combination therapy design. The potential role of JunB in mediating the effects of these inhibitors is a significant finding if validated.
+  - **Interdisciplinary readership** The work bridges cancer biology, epigenetics, and computational biology. The deep learning component may attract a computational audience, while the mechanistic biology will interest experimentalists. The clinical implications could draw interest from translational researchers.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to missing figures and methods details. The described approach is plausible, but the lack of validation metrics and statistical rigor is a major concern.
+  - **Readability for nonspecialists** The abstract is relatively clear, but the results section is dense and assumes significant background knowledge in epigenetics and bioinformatics. The use of jargon without definition may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a potentially useful tool, but the core claims are not supported by the evidence provided in the text. The absence of all figures and tables is a critical issue. The authors should be invited to resubmit a revised manuscript that addresses the major concerns, particularly the validation of the NicEL model, the rigorous definition of synergy, and the direct testing of the proposed displacement mechanism.

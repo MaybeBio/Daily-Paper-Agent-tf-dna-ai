@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "34607350",
+    "doi": "10.1093/bib/bbab374",
+    "title": "Assessing deep learning methods in cis-regulatory motif finding based on genomic sequencing data."
+  },
+  "content": {
+    "abstract": "Identifying cis-regulatory motifs from genomic sequencing data (e.g. ChIP-seq and CLIP-seq) is crucial in identifying transcription factor (TF) binding sites and inferring gene regulatory mechanisms for any organism. Since 2015, deep learning (DL) methods have been widely applied to identify TF binding sites and predict motif patterns, with the strengths of offering a scalable, flexible and unified computational approach for highly accurate predictions. As far as we know, 20 DL methods have been developed. However, without a clear and systematic assessment, users will struggle to choose the most appropriate tool for their specific studies. In this manuscript, we evaluated 20 DL methods for cis-regulatory motif prediction using 690 ENCODE ChIP-seq, 126 cancer ChIP-seq and 55 RNA CLIP-seq data. Four metrics were investigated, including the accuracy of motif finding, the performance of DNA/RNA sequence classification, algorithm scalability and tool usability. The assessment results demonstrated the high complementarity of the existing DL methods. It was determined that the most suitable model should primarily depend on the data size and type and the method's outputs.",
+    "keywords": [
+      "CLIP-seq",
+      "ChIP-seq",
+      "TF binding sites identification",
+      "deep learning method assessment",
+      "motif prediction"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Base Sequence",
+      "Binding Sites/genetics",
+      "Chromatin Immunoprecipitation",
+      "*Deep Learning",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuangquan",
+        "Ma, Anjun",
+        "Zhao, Jing",
+        "Xu, Dong",
+        "Ma, Qin",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Ma A",
+        "Zhao J",
+        "Xu D",
+        "Ma Q",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3264-8392",
+        "ORCID: 0000-0002-4751-0708"
+      ],
+      "affiliations": [
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Department of Electrical Engineering and Computer Science, and Christopher S. Bond Life Science Center, University of Missouri, MO, 65211, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuangquan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Anjun",
+        "short_name": "Ma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Dong",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, and Christopher S. Bond Life Science Center, University of Missouri, MO, 65211, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Qin",
+        "short_name": "Ma Q",
+        "identifiers": [
+          "0000-0002-3264-8392"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-4751-0708"
+        ],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+          "School of Artificial Intelligence, Jilin University, Changchun, 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/05 06:00",
+    "fetched_at": "2026-09-28 00:35:07"
+  },
+  "links": {
+    "cites": [
+      "42495597",
+      "41537311",
+      "41319043",
+      "40152247",
+      "40102719",
+      "39623329",
+      "39402535",
+      "39364891",
+      "38905284",
+      "38643066",
+      "38515040",
+      "38487805",
+      "37962376",
+      "36360189",
+      "36238163",
+      "35997564",
+      "35782725"
+    ],
+    "refs": [
+      "33974543",
+      "33203837",
+      "32551184",
+      "32421805",
+      "32372224",
+      "31948481",
+      "31856220",
+      "31811910",
+      "31754708",
+      "31701148",
+      "31372637",
+      "31336830",
+      "31243265",
+      "31186519",
+      "30967126",
+      "30936559",
+      "30922998",
+      "30579865",
+      "30323214",
+      "29970003",
+      "29757349",
+      "29722865",
+      "29654070",
+      "29617928",
+      "29140464",
+      "28656310",
+      "28419194",
+      "28395661",
+      "28334268",
+      "28245811",
+      "28234893",
+      "27473064",
+      "27307608",
+      "27197224",
+      "27153639",
+      "27084946",
+      "26794315",
+      "26645049",
+      "26559373",
+      "26489674",
+      "26301843",
+      "26213851",
+      "25884720",
+      "25682954",
+      "25199790",
+      "24853928",
+      "24642471",
+      "22990209",
+      "22517426",
+      "21486936",
+      "19154590",
+      "19029915",
+      "16601727",
+      "15173120",
+      "12520026",
+      "8594589"
+    ],
+    "similar": [
+      "34607350",
+      "28334268",
+      "24927817",
+      "25442502",
+      "26971251",
+      "19956545",
+      "37805453",
+      "30957858",
+      "35782725",
+      "22863112",
+      "31372637",
+      "20375099",
+      "35240993",
+      "30517703",
+      "26236718",
+      "21486936",
+      "30897079",
+      "23461573",
+      "36094959",
+      "25957350",
+      "29654070",
+      "24278002",
+      "21602262",
+      "20056654",
+      "20838582",
+      "18684996",
+      "20158869",
+      "24039567",
+      "26016777",
+      "24472686",
+      "25179504",
+      "23758851",
+      "35681170",
+      "26552868",
+      "25486472",
+      "28234893",
+      "27845669",
+      "36902216",
+      "28607381",
+      "27993786",
+      "21543442",
+      "23790213",
+      "24322294",
+      "34272562",
+      "20525272",
+      "22039215",
+      "31070745",
+      "24555784",
+      "27557775",
+      "22610855",
+      "34292930",
+      "32976105",
+      "17951829",
+      "31942977",
+      "35471887",
+      "26818008",
+      "38189539",
+      "32946398",
+      "23427986",
+      "30133315",
+      "16286651",
+      "27899623",
+      "22517426",
+      "27104615",
+      "25070602",
+      "24475069",
+      "16362910",
+      "23975789",
+      "22955984",
+      "29363433",
+      "28334916",
+      "24564528",
+      "24564277",
+      "29116820",
+      "22534400",
+      "34383745",
+      "24581441",
+      "27519564",
+      "28204599",
+      "38214231",
+      "19652015",
+      "25128017",
+      "22912568",
+      "22955990",
+      "23748563",
+      "21912677",
+      "34534646",
+      "25953800",
+      "32960766",
+      "35799371",
+      "24428924",
+      "36012247",
+      "28718849",
+      "27153645",
+      "29281953",
+      "34755879",
+      "31742324",
+      "35971180",
+      "39350338",
+      "37214836",
+      "38732207",
+      "38848239"
+    ],
+    "review": [
+      "34607350",
+      "28334268",
+      "25486472",
+      "23790213",
+      "24555784"
+    ],
+    "pmc": [
+      "8769700"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34607350.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34607350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34607350",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab374",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

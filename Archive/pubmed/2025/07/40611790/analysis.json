@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40611790",
+  "title": "Ultrahigh-Throughput Virtual Screening Strategies against PPI Targets: A Case Study of STAT Inhibitors.",
+  "authors": "Szalai, Tibor Viktor; Peczka, Nikolett; Sipos-Szabo, Levente; Petri, Laszlo; Bajusz, David; Keseru, Gyorgy M",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-07-04",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用AI辅助的超高通量虚拟筛选（Deep Docking）针对STAT3/STAT5b转录因子发现抑制剂，虽聚焦蛋白-蛋白互作而非TF-DNA结合，但方法可迁移至TF-DNA体系，故给予中档评分。",
+  "abstract": "In recent years, virtual screening of ultralarge (10(8+)) libraries of synthetically accessible compounds (uHTVS) became a popular approach in hit identification. With AI-assisted virtual screening workflows, such as Deep Docking, these protocols might be feasible even without supercomputers. Yet, these methodologies have their own conceptual limitations, including the fact that physics-based docking is replaced by a cheaper deep learning (DL) step for the vast majority of compounds. In turn, the performance of this DL step will highly depend on the performance of the underlying docking model that is used to evaluate parts of the whole data set to train the DL architecture itself. Here, we evaluated the performance of the popular Deep Docking workflow on compound libraries of different sizes, against benchmark cases of classic brute-force docking approaches conducted on smaller libraries. We were especially interested in more difficult, protein-protein interaction-type oncotargets where the reliability of the underlying docking model is harder to assess. Specifically, our virtual screens have resulted in several new inhibitors of two oncogenic transcription factors, STAT3 and STAT5b. For STAT5b, in particular, we disclose the first application of virtual screening against its N-terminal domain, whose importance was recognized more recently. While the AI-based uHTVS is computationally more demanding, it can achieve exceptionally good hit rates (50.0% for STAT3). Deep Docking can also work well with a compound library containing only several million (instead of several billion) compounds, achieving a 42.9% hit rate against the SH2 domain of STAT5b, while presenting a highly economic workflow with just under 120,000 compounds actually docked.",
+  "abstract_zh": "近年来，对合成可及化合物的超大型（10(8+)）库进行虚拟筛选（uHTVS）已成为命中识别中的一种流行方法。借助AI辅助的虚拟筛选工作流程，如Deep Docking，这些方案即使在没有超级计算机的情况下也可能可行。然而，这些方法有其自身的概念局限性，包括对于绝大多数化合物，基于物理的对接被更廉价的深度学习（DL）步骤所取代。反过来，这一DL步骤的性能将高度依赖于用于评估整个数据集部分内容以训练DL架构本身的底层对接模型的性能。在此，我们评估了流行的Deep Docking工作流程在不同大小的化合物库上的性能，并与在较小库上进行的经典暴力对接方法的基准案例进行了比较。我们特别关注更困难的、蛋白质-蛋白质相互作用型肿瘤靶点，在这些靶点中，底层对接模型的可靠性更难评估。具体而言，我们的虚拟筛选产生了针对两个致癌转录因子STAT3和STAT5b的几种新抑制剂。特别是对于STAT5b，我们首次披露了针对其N端结构域的虚拟筛选应用，该结构域的重要性是最近才被认识的。虽然基于AI的uHTVS在计算上要求更高，但它能实现异常高的命中率（STAT3为50.0%）。Deep Docking也能在仅包含几百万（而非几十亿）个化合物的化合物库中良好工作，针对STAT5b的SH2结构域实现了42.9%的命中率，同时提供了一个高度经济的工作流程，实际对接的化合物不到120,000个。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40611790/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40611790/",
+  "paper_page_path": "papers/pubmed/40611790/index.html"
+}

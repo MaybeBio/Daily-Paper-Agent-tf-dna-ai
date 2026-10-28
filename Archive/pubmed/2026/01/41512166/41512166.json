@@ -1,0 +1,642 @@
+{
+  "identity": {
+    "pmid": "41512166",
+    "doi": "10.1182/bloodadvances.2025017224",
+    "title": "Neutrophil CD14 is a driver and a therapeutic target for deep vein thrombosis."
+  },
+  "content": {
+    "abstract": "Neutrophil-mediated persistent inflammation and neutrophil extracellular trap formation (NETosis) are critical in the pathogenesis of deep vein thrombosis (DVT). Identifying the mechanisms controlling these proinflammatory and prothrombotic functions is critical for designing and developing new therapeutics for DVT. However, how neutrophils acquire these phenotypes during the early stages of DVT remains poorly understood. Here, multiomic analyses (RNA sequencing, proteomics, and flow cytometry) of bone-marrow neutrophils 3 hours after DVT, revealed consistent overexpression of CD14. Concurrently, mice with DVT exhibited significantly elevated plasma granulocyte colony-stimulating factor (G-CSF) and neutrophil hyperactivation. Mechanistic studies using a geometric deep learning model (DeepPBS) and chromatin immunoprecipitation revealed that elevated G-CSF drives CD14 overexpression by upregulating the transcription factor C/EBPalpha (leucine zipper CCAAT-enhancer binding protein alpha). Importantly, neutrophil-specific CD14 knockdown using a novel lentiviral short hairpin RNA approach significantly improved DVT outcomes by lowering thrombus burden, thrombosis incidence, and intrathrombus neutrophil and citrullinated histone H3 accumulation. Studies in G-CSF stimulated primary human neutrophils revealed that CD14 inhibition reduces markers of inflammation and NETosis (activated gasdermin D, citrullinated histone H3, and S100A8/A9), while increasing apoptosis, thus demonstrating translational relevance. Collectively, our study uncovers an essential role of neutrophil CD14 in DVT pathogenesis and establishes it as a promising therapeutic target for DVT.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Venous Thrombosis/etiology/metabolism/therapy/pathology/drug therapy",
+      "*Neutrophils/metabolism",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Lipopolysaccharide Receptors/metabolism/genetics",
+      "Granulocyte Colony-Stimulating Factor/metabolism/blood",
+      "Disease Models, Animal",
+      "Extracellular Traps/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pandey, Nilesh",
+        "Kaur, Harpreet",
+        "Mitra, Raktim",
+        "Chandaluri, Lakshmi",
+        "Shaaban, Nirvana",
+        "Martinez, Alexa",
+        "Kidder, Evan",
+        "Anand, Sumit Kumar",
+        "Butler, Megan E",
+        "Zhang, Xiaolu",
+        "Goswami, Dweipayan",
+        "Frausto, Louise",
+        "Kumar, Dhananjay",
+        "Pandit, Rajan",
+        "Das, Sandeep",
+        "Rohilla, Sumati",
+        "Mohajan, Suman",
+        "Male, Gurranna",
+        "Huque, Amdadul",
+        "Salem, Amr R",
+        "Magdy, Tarek",
+        "Gross, David S",
+        "Stokes, Karen Y",
+        "Orr, A Wayne",
+        "Tousif, Sultan",
+        "Yurdagul, Arif Jr",
+        "Rom, Oren",
+        "Dhanesha, Nirav"
+      ],
+      "short_names": [
+        "Pandey N",
+        "Kaur H",
+        "Mitra R",
+        "Chandaluri L",
+        "Shaaban N",
+        "Martinez A",
+        "Kidder E",
+        "Anand SK",
+        "Butler ME",
+        "Zhang X",
+        "Goswami D",
+        "Frausto L",
+        "Kumar D",
+        "Pandit R",
+        "Das S",
+        "Rohilla S",
+        "Mohajan S",
+        "Male G",
+        "Huque A",
+        "Salem AR",
+        "Magdy T",
+        "Gross DS",
+        "Stokes KY",
+        "Orr AW",
+        "Tousif S",
+        "Yurdagul A Jr",
+        "Rom O",
+        "Dhanesha N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1182-3742",
+        "ORCID: 0000-0001-8308-5692",
+        "ORCID: 0000-0001-5595-7270",
+        "ORCID: 0000-0003-0165-0294",
+        "ORCID: 0009-0004-1513-0251",
+        "ORCID: 0000-0002-6722-3909",
+        "ORCID: 0000-0002-0860-0188",
+        "ORCID: 0000-0002-8913-9425",
+        "ORCID: 0000-0003-2544-6626",
+        "ORCID: 0000-0001-8269-1420",
+        "ORCID: 0000-0002-4790-490X",
+        "ORCID: 0000-0002-7612-3467",
+        "ORCID: 0000-0002-2377-213X",
+        "ORCID: 0000-0002-9272-086X",
+        "ORCID: 0000-0001-9268-4363"
+      ],
+      "affiliations": [
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Bioinformatics and Modeling Core, The Center for Applied Immunology and Pathological Processes, Department of Microbiology and Immunology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Microbiology and Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, India.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Cellular Biology and Anatomy, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Cellular Biology and Anatomy, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+        "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pandey, Nilesh",
+        "short_name": "Pandey N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Kaur, Harpreet",
+        "short_name": "Kaur H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0003-1182-3742"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Chandaluri, Lakshmi",
+        "short_name": "Chandaluri L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Shaaban, Nirvana",
+        "short_name": "Shaaban N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Martinez, Alexa",
+        "short_name": "Martinez A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Kidder, Evan",
+        "short_name": "Kidder E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Anand, Sumit Kumar",
+        "short_name": "Anand SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Butler, Megan E",
+        "short_name": "Butler ME",
+        "identifiers": [
+          "0000-0001-8308-5692"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaolu",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0001-5595-7270"
+        ],
+        "affiliations": [
+          "Bioinformatics and Modeling Core, The Center for Applied Immunology and Pathological Processes, Department of Microbiology and Immunology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Goswami, Dweipayan",
+        "short_name": "Goswami D",
+        "identifiers": [
+          "0000-0003-0165-0294"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, India."
+        ]
+      },
+      {
+        "full_name": "Frausto, Louise",
+        "short_name": "Frausto L",
+        "identifiers": [
+          "0009-0004-1513-0251"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Dhananjay",
+        "short_name": "Kumar D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Pandit, Rajan",
+        "short_name": "Pandit R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Das, Sandeep",
+        "short_name": "Das S",
+        "identifiers": [
+          "0000-0002-6722-3909"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Rohilla, Sumati",
+        "short_name": "Rohilla S",
+        "identifiers": [
+          "0000-0002-0860-0188"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Mohajan, Suman",
+        "short_name": "Mohajan S",
+        "identifiers": [
+          "0000-0002-8913-9425"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Male, Gurranna",
+        "short_name": "Male G",
+        "identifiers": [
+          "0000-0003-2544-6626"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Huque, Amdadul",
+        "short_name": "Huque A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Biology and Anatomy, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Salem, Amr R",
+        "short_name": "Salem AR",
+        "identifiers": [
+          "0000-0001-8269-1420"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Magdy, Tarek",
+        "short_name": "Magdy T",
+        "identifiers": [
+          "0000-0002-4790-490X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Gross, David S",
+        "short_name": "Gross DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Stokes, Karen Y",
+        "short_name": "Stokes KY",
+        "identifiers": [
+          "0000-0002-7612-3467"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Orr, A Wayne",
+        "short_name": "Orr AW",
+        "identifiers": [
+          "0000-0002-2377-213X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Tousif, Sultan",
+        "short_name": "Tousif S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Biology and Anatomy, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Yurdagul, Arif",
+        "short_name": "Yurdagul A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Rom, Oren",
+        "short_name": "Rom O",
+        "identifiers": [
+          "0000-0002-9272-086X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA.",
+          "Department of Molecular and Cellular Physiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      },
+      {
+        "full_name": "Dhanesha, Nirav",
+        "short_name": "Dhanesha N",
+        "identifiers": [
+          "0000-0001-9268-4363"
+        ],
+        "affiliations": [
+          "Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center-Shreveport, Shreveport, LA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Blood advances"
+    ],
+    "journal_abbrev": [
+      "Blood Adv"
+    ],
+    "pub_date": "2026 Apr 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 18:30",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42254464",
+      "41893861"
+    ],
+    "refs": [
+      "40441220",
+      "40280129",
+      "40267423",
+      "39667687",
+      "39440970",
+      "39306095",
+      "39187689",
+      "39103447",
+      "39047082",
+      "38881899",
+      "38718835",
+      "38657197",
+      "38498701",
+      "38109907",
+      "37566060",
+      "36701760",
+      "36560865",
+      "36044595",
+      "35851383",
+      "35358299",
+      "35053354",
+      "34728120",
+      "34529778",
+      "34152402",
+      "34110909",
+      "33300307",
+      "33174372",
+      "32195632",
+      "32067731",
+      "31246211",
+      "30786739",
+      "30143555",
+      "30138777",
+      "29708507",
+      "29286428",
+      "29045901",
+      "29045891",
+      "27975098",
+      "27807194",
+      "27789332",
+      "27189130",
+      "27002713",
+      "25180606",
+      "24429631",
+      "24366358",
+      "23771928",
+      "23650392",
+      "22652600",
+      "22451716",
+      "22044575",
+      "21637292",
+      "18363963",
+      "16951705",
+      "16493489",
+      "16284987",
+      "14978070",
+      "14632917",
+      "12893769",
+      "7685797"
+    ],
+    "similar": [
+      "41512166",
+      "38260582",
+      "26712312",
+      "38498701",
+      "32314961",
+      "22044575",
+      "38838230",
+      "30456926",
+      "40111724",
+      "41118613",
+      "40484203",
+      "41671618",
+      "31552036",
+      "40695538",
+      "40422770",
+      "38547695",
+      "38908490",
+      "41856250",
+      "15664994",
+      "41791658",
+      "40957695",
+      "34015302",
+      "37680629",
+      "41046768",
+      "36032109",
+      "23650392",
+      "41786157",
+      "42252035",
+      "28743887",
+      "25070665",
+      "29391442",
+      "41161621",
+      "42332748",
+      "41343940",
+      "40898418",
+      "41143464",
+      "41064000",
+      "36745138",
+      "41593670",
+      "25955268",
+      "18363963",
+      "41947351",
+      "42247722",
+      "41476978",
+      "31048354",
+      "35360546",
+      "38563147",
+      "41896892",
+      "40762076",
+      "22826226",
+      "33300307",
+      "39156897",
+      "30990798",
+      "38666386",
+      "41059285",
+      "40267315",
+      "29444200",
+      "40390290",
+      "31477636",
+      "36778209",
+      "38267754",
+      "34152080",
+      "28408624",
+      "39910417",
+      "40461699",
+      "40905133",
+      "29482157",
+      "31083537",
+      "38151026",
+      "42148583",
+      "22592923",
+      "23104849",
+      "15337885",
+      "39082070",
+      "31300403",
+      "41194921",
+      "41607298",
+      "33938940",
+      "40945881",
+      "40107250",
+      "41451132",
+      "22652600",
+      "31808871",
+      "39337405",
+      "11588034",
+      "42119476",
+      "41248570",
+      "22451716",
+      "32567730",
+      "39201786",
+      "38238536",
+      "27574188",
+      "30733719",
+      "41192568",
+      "23751182",
+      "41631470",
+      "41544789",
+      "10667491",
+      "42475966",
+      "41420075"
+    ],
+    "review": [
+      "41512166",
+      "37680629",
+      "40898418",
+      "36745138",
+      "22652600"
+    ],
+    "pmc": [
+      "13053839"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/565936",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/deepveinthrombosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Deep Vein Thrombosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41512166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=565936",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://ashpublications.org/bloodadvances/article-lookup/doi/10.1182/bloodadvances.2025017224",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

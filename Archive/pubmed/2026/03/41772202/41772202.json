@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "41772202",
+    "doi": "10.1007/s11427-025-3191-5",
+    "title": "Single-nucleus multi-omics dissection of dysregulated trophoblast development and disrupted immune microenvironment in complete hydatidiform moles."
+  },
+  "content": {
+    "abstract": "Hydatidiform mole (HM) is driven by aberrant trophoblast proliferation, disrupting embryonic development and leading to pregnancy loss with increased risk of malignant progression. Despite its clinical significance, the cellular and molecular heterogeneity of HM remains poorly characterized. To address this, we integrated single-nucleus RNA sequencing (snRNA-seq), single-nucleus transposase-accessible chromatin sequencing (snATAC-seq), and spatial transcriptomics to construct a cell-resolved atlas of androgenetic complete HM compared with gestational age-matched controls. The three major trophoblast lineages exhibit distinct differentiation relationships and functional associations: villous cytotrophoblast (VCT) are trophoblast cells with stemness, which can differentiate into hormone-secreting syncytiotrophoblast (SCT) and invasive migratory extravillous trophoblast (EVT). Our findings demonstrate that imprinted genes exhibited cell-type-specific expression patterns in HM, with more pronounced dysregulation in trophoblasts compared to non-trophoblast cells. We identified a deficiency of the progenitor subpopulation VCT1 with inactivation of the stemness-maintaining core transcription factor TP63. The invasive and migratory capacities of EVT were enhanced in HM, along with hyperactivation of the transcription factor MYCN and intensified crosstalk with the immune microenvironment. The SCT-Mature1 compartment displayed impaired maturation and downregulation of placenta-specific hormones, including PSG, CSH, and PAPPA. Machine learning analysis identified RASA1 as a novel key regulator characterized by its specific low expression in HM, which was further validated using hTSC (human trophoblast stem cell) to be involved in SCT differentiation. Potential therapeutic targets, such as MYCN and RASA1, and the diagnostic utility of monitoring placenta-specific hormone levels, are expected. Together, our findings establish a framework for understanding HM-specific placental dysfunction and developing future targeted diagnoses and therapies.",
+    "keywords": [
+      "gene imprint",
+      "hydatidiform moles",
+      "multi-omics",
+      "snRNA-seq",
+      "trophoblast development"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Pregnancy",
+      "*Hydatidiform Mole/genetics/immunology/pathology/metabolism",
+      "*Trophoblasts/metabolism/pathology/immunology",
+      "*Uterine Neoplasms/genetics/immunology/pathology",
+      "Cell Differentiation/genetics",
+      "Multiomics",
+      "Extravillous Trophoblasts",
+      "Cell Nucleus/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Xueyao",
+        "Yu, Ruijie",
+        "Gao, Xiaoyuan",
+        "Zhang, Xinwen",
+        "Gao, Yuan",
+        "Han, Yanli",
+        "Lu, Minghui",
+        "Xie, Hongqiang",
+        "Zou, Yang",
+        "Xu, Peiwen",
+        "Chen, Zi-Jiang",
+        "Yu, Yunhai",
+        "Zhao, Han",
+        "Zhao, Rusong"
+      ],
+      "short_names": [
+        "Chen X",
+        "Yu R",
+        "Gao X",
+        "Zhang X",
+        "Gao Y",
+        "Han Y",
+        "Lu M",
+        "Xie H",
+        "Zou Y",
+        "Xu P",
+        "Chen ZJ",
+        "Yu Y",
+        "Zhao H",
+        "Zhao R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. 13791042890@163.com.",
+        "The Second Qilu Hospital of Shandong University, Jinan, 250012, China. 13791042890@163.com.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. hanzh80@sdu.edu.cn.",
+        "Center for Clinical Reproductive Medicine, the First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China. hanzh80@sdu.edu.cn.",
+        "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. ashley_rs@163.com.",
+        "Center for Clinical Reproductive Medicine, the First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China. ashley_rs@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Xueyao",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Ruijie",
+        "short_name": "Yu R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaoyuan",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinwen",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yuan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yanli",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Minghui",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Hongqiang",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yang",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Peiwen",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zi-Jiang",
+        "short_name": "Chen ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yunhai",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. 13791042890@163.com.",
+          "The Second Qilu Hospital of Shandong University, Jinan, 250012, China. 13791042890@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Han",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. hanzh80@sdu.edu.cn.",
+          "Center for Clinical Reproductive Medicine, the First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China. hanzh80@sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Rusong",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine and Offspring Health, Center for Reproductive Medicine, Institute of Women, Children and Reproductive Health, Shandong University, Jinan, 250012, China. ashley_rs@163.com.",
+          "Center for Clinical Reproductive Medicine, the First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China. ashley_rs@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science China. Life sciences"
+    ],
+    "journal_abbrev": [
+      "Sci China Life Sci"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/03 00:30",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42588606"
+    ],
+    "refs": [
+      "39969747",
+      "39763585",
+      "39325428",
+      "39300283",
+      "39289562",
+      "39161125",
+      "39057130",
+      "38880601",
+      "38871986",
+      "38748354",
+      "38432321",
+      "38368983",
+      "38267607",
+      "37588202",
+      "37231261",
+      "36991123",
+      "36951126",
+      "35993908",
+      "35948637",
+      "35775327",
+      "35562545",
+      "35348648",
+      "35020896",
+      "34929228",
+      "34557778",
+      "34238211",
+      "34127641",
+      "33633365",
+      "33525981",
+      "32719530",
+      "32607472",
+      "32510326",
+      "32385195",
+      "32272451",
+      "31658584",
+      "31627090",
+      "31558714",
+      "31300808",
+      "30899105",
+      "30765227",
+      "30498493",
+      "30479382",
+      "30429548",
+      "30402542",
+      "30270482",
+      "30042384",
+      "29409532",
+      "29295995",
+      "29249463",
+      "28965763",
+      "28825706",
+      "28825705",
+      "27752708",
+      "26544189",
+      "26383828",
+      "25785839",
+      "25765347",
+      "24937963",
+      "24850905",
+      "24605918",
+      "24379408",
+      "24336642",
+      "23999759",
+      "22422453",
+      "21750961",
+      "20728069",
+      "20622108",
+      "20080505",
+      "19914712",
+      "19160109",
+      "18798982",
+      "18773629",
+      "18536715",
+      "18243302",
+      "17826980",
+      "17085480",
+      "16501552",
+      "16033091",
+      "15677707",
+      "15157839",
+      "12820349",
+      "12648595",
+      "12471053",
+      "12361682",
+      "12242037",
+      "12124770",
+      "11603213",
+      "9988214",
+      "9364601",
+      "8698316",
+      "8421073",
+      "7997454",
+      "6447836",
+      "1310983",
+      "561314"
+    ],
+    "similar": [
+      "41772202",
+      "29908639",
+      "41407310",
+      "13129680",
+      "25740878",
+      "23065465",
+      "30213486",
+      "19217658",
+      "40157524",
+      "26992684",
+      "15028424",
+      "9419766",
+      "32814763",
+      "36307023",
+      "40888738",
+      "41188410",
+      "16884384",
+      "33031755",
+      "31963593",
+      "39567716",
+      "23121032",
+      "35020896",
+      "13678718",
+      "39216132",
+      "8852444",
+      "39028417",
+      "41780336",
+      "15733390",
+      "38478759",
+      "42090250",
+      "22002546",
+      "38368983",
+      "9474880",
+      "38267607",
+      "7685239",
+      "41372470",
+      "12566248",
+      "3039485",
+      "39987557",
+      "38763341",
+      "10831118",
+      "23993393",
+      "24004950",
+      "1592864",
+      "31300808",
+      "39733647",
+      "17163397",
+      "40228123",
+      "38831319",
+      "38838858",
+      "28904069",
+      "2943162",
+      "10629564",
+      "22041443",
+      "40294258",
+      "40642093",
+      "36611882",
+      "26248480",
+      "8963630",
+      "21632119",
+      "38766743",
+      "42248577",
+      "41601671",
+      "40253080",
+      "29608700",
+      "32048992",
+      "16565489",
+      "2856911",
+      "20354077",
+      "12649670",
+      "23313847",
+      "42269857",
+      "37853336",
+      "41576512",
+      "2230405",
+      "41849438",
+      "2828198",
+      "8698316",
+      "39322461",
+      "32482863",
+      "3881026",
+      "36729386",
+      "28713902",
+      "40643491",
+      "41939867",
+      "41173003",
+      "35289305",
+      "38346993",
+      "36892411",
+      "3222224",
+      "30558966",
+      "39325428",
+      "6619191",
+      "42040898",
+      "29655027",
+      "40394177",
+      "33649217",
+      "3905532",
+      "11688455",
+      "32733385"
+    ],
+    "review": [
+      "41772202",
+      "29908639",
+      "38478759",
+      "9474880",
+      "40253080",
+      "29608700",
+      "39322461",
+      "36892411"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/uterinecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Uterine Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11427-025-3191-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3337",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

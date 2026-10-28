@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "40596707",
+    "doi": "10.1002/bmc.70160",
+    "title": "Predicting Quality Markers of Xuefu Zhuyu Wan for Postoperative Cognitive Dysfunction Using Integrated LC-MS Analysis and Network Pharmacology."
+  },
+  "content": {
+    "abstract": "The study aims to analyze the chemical constituents of Xuefu Zhuyu Wan (XZW) based on LC-MS and explore the mechanism of XZW in treating postoperative cognitive dysfunction (POCD) through network pharmacology and identify its potential quality marker (Q-marker). The chemical components of XZW were analyzed by LC-MS, and the corresponding targets were predicted by SwissTargetPrediction. Then POCD targets were obtained by GeneCards, OMIM, PharmGKB, and TTD database, and the \"components-targets\" and protein-protein interaction (PPI) maps were drawn by Cytoscape 3.9.1. The visualization of GO and KEGG enrichment analysis was obtained by micro-information. Finally, the content of network pharmacology prediction was preliminarily verified by molecular docking. Eighteen compounds were identified in XZW using LC-MS. SwissTargetPrediction predicted 443 compound targets. Among these, there are 352 common targets between the drug and the disease. Using Cytoscape 3.9.1, the main active components were screened as inophyllum E, liquiritigenin, pyrethrin, albiflorin, isoliquiritigenin, prunasin, meranzin, ligustilide, isoglycyrol, and dibutylphenol. PPI analysis identified the top 10 core proteins as: glyceraldehyde-phosphate dehydrogenase (GAPDH), protein kinase B (AKT1), tumor necrosis factor (TNF), src protein (SRC), epidermal growth factor receptor (EGFR), caspase 3 (CASP3), estrogen receptor (ESR1), prostaglandin peroxidase synthase 2 (PTGS2), matrix metalloenzyme 9 (MMP9), and transcription factor (JUN). KEGG enrichment analysis revealed 166 pathways, including the neuroactive ligand-receptor interaction pathway. Molecular docking shows that the active components have a good affinity with the core targets. It is predicted that liquiritigenin, isoglycyrol, inophyllum, and albiflorin could serve as Q-marker for XZW in the treatment of POCD. The chemical constituents of XZW were obtained by preliminary analysis, and the possible pharmacodynamic substances and their mechanism in treating POCD were discussed. The Q-marker of XZW in treating POCD was predicted, which provided basis for its clinical application and drug development.",
+    "keywords": [
+      "Xuefu Zhuyuwan",
+      "liquid chromatography-mass spectrometry",
+      "network pharmacology",
+      "postoperative cognitive dysfunction",
+      "quality markers"
+    ],
+    "mesh_terms": [
+      "*Drugs, Chinese Herbal/chemistry/analysis/pharmacology",
+      "*Network Pharmacology/methods",
+      "Molecular Docking Simulation",
+      "Chromatography, Liquid/methods",
+      "Humans",
+      "Protein Interaction Maps/drug effects",
+      "Biomarkers/analysis",
+      "*Postoperative Cognitive Complications/drug therapy/metabolism",
+      "*Mass Spectrometry/methods",
+      "Liquid Chromatography-Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Mingxin",
+        "Zeng, Jiaqi",
+        "Xu, Sang",
+        "Wu, Xia",
+        "Hu, Zhiqiang",
+        "Wang, Xuping",
+        "Wang, Liangliang"
+      ],
+      "short_names": [
+        "Guo M",
+        "Zeng J",
+        "Xu S",
+        "Wu X",
+        "Hu Z",
+        "Wang X",
+        "Wang L"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8662-2623"
+      ],
+      "affiliations": [
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China.",
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China.",
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China.",
+        "New Drug Research and Development Center, Guangdong Pharmaceutical University, Guangzhou, China.",
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China.",
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China.",
+        "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Mingxin",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jiaqi",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Sang",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xia",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "New Drug Research and Development Center, Guangdong Pharmaceutical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhiqiang",
+        "short_name": "Hu Z",
+        "identifiers": [
+          "0009-0008-8662-2623"
+        ],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuping",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liangliang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yixing Hospital of Jiangsu University, Yixing, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedical chromatography : BMC"
+    ],
+    "journal_abbrev": [
+      "Biomed Chromatogr"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40596707",
+      "39923611",
+      "41261616",
+      "37818576",
+      "40905742",
+      "39041127",
+      "33645093",
+      "35101570",
+      "37287284",
+      "41203698",
+      "39410900",
+      "34873575",
+      "40543694",
+      "36471935",
+      "39701711",
+      "40237055",
+      "40350871",
+      "35718498",
+      "38822913",
+      "38759074",
+      "38747108",
+      "37523837",
+      "37612858",
+      "41367024",
+      "37340752",
+      "38916485",
+      "41239709",
+      "41496113",
+      "40013962",
+      "35430443",
+      "35285206",
+      "38623977",
+      "38109076",
+      "38806972",
+      "37282910",
+      "39929626",
+      "39074420",
+      "37802787",
+      "38403323",
+      "40922365",
+      "36535207",
+      "39099351",
+      "40427511",
+      "39307810",
+      "41439108",
+      "39809170",
+      "38114219",
+      "40585331",
+      "40326031",
+      "34746302",
+      "38513380",
+      "40986607",
+      "36604848",
+      "40935210",
+      "39928767",
+      "38704482",
+      "39654159",
+      "39205203",
+      "38517816",
+      "41431016",
+      "35960089",
+      "41305755",
+      "40819186",
+      "40132971",
+      "41239699",
+      "36863641",
+      "40449695",
+      "36472041",
+      "40605076",
+      "39820731",
+      "40816715",
+      "37879505",
+      "37948293",
+      "35781817",
+      "39259129",
+      "39670490",
+      "39960946",
+      "36158891",
+      "37190808",
+      "37807411",
+      "39075939",
+      "40128040",
+      "34994141",
+      "37833363",
+      "34058439",
+      "34159207",
+      "36372090",
+      "36805594",
+      "33645090",
+      "34581057",
+      "40898519",
+      "39177391",
+      "40589271",
+      "33082858",
+      "39259410",
+      "38571354",
+      "36471978",
+      "38460276",
+      "39311772",
+      "36272491"
+    ],
+    "review": [
+      "40596707"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/bmc.70160",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

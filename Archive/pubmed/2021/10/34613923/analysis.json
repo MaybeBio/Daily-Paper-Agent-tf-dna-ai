@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34613923",
+  "title": "FCNGRU: Locating Transcription Factor Binding Sites by Combing Fully Convolutional Neural Network With Gated Recurrent Unit.",
+  "authors": "Wang, Siguo; He, Ying; Chen, Zhanheng; Zhang, Qinhu",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2021-10-07",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出FCNGRU深度学习模型，结合全卷积网络与门控循环单元直接定位转录因子结合位点，核心聚焦TF-DNA结合位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Deciphering the relationship between transcription factors (TFs) and DNA sequences is very helpful for computational inference of gene regulation and a comprehensive understanding of gene regulation mechanisms. Transcription factor binding sites (TFBSs) are specific DNA short sequences that play a pivotal role in controlling gene expression through interaction with TF proteins. Although recently many computational and deep learning methods have been proposed to predict TFBSs aiming to predict sequence specificity of TF-DNA binding, there is still a lack of effective methods to directly locate TFBSs. In order to address this problem, we propose FCNGRU combing a fully convolutional neural network (FCN) with the gated recurrent unit (GRU) to directly locate TFBSs in this paper. Furthermore, we present a two-task framework (FCNGRU-double): one is a classification task at nucleotide level which predicts the probability of each nucleotide and locates TFBSs, and the other is a regression task at sequence level which predicts the intensity of each sequence. A series of experiments are conducted on 45 in-vitro datasets collected from the UniPROBE database derived from universal protein binding microarrays (uPBMs). Compared with competing methods, FCNGRU-double achieves much better results on these datasets. Moreover, FCNGRU-double has an advantage over a single-task framework, FCNGRU-single, which only contains the branch of locating TFBSs. In addition, we combine with in vivo datasets to make a further analysis and discussion.",
+  "abstract_zh": "解析转录因子（TFs）与DNA序列之间的关系对于基因调控的计算推断及全面理解基因调控机制非常有帮助。转录因子结合位点（TFBSs）是特定的DNA短序列，通过与TF蛋白相互作用在控制基因表达中发挥关键作用。尽管近年来已提出许多计算和深度学习方法用于预测TFBSs，旨在预测TF-DNA结合的序列特异性，但仍缺乏直接定位TFBSs的有效方法。为解决这一问题，本文提出FCNGRU，将全卷积神经网络（FCN）与门控循环单元（GRU）相结合，直接定位TFBSs。此外，我们提出一个双任务框架（FCNGRU-double）：一个是核苷酸水平的分类任务，预测每个核苷酸的概率并定位TFBSs；另一个是序列水平的回归任务，预测每条序列的强度。我们在从UniPROBE数据库收集的45个体外数据集上开展了一系列实验，这些数据集源自通用蛋白结合微阵列（uPBMs）。与竞争方法相比，FCNGRU-double在这些数据集上取得了更优的结果。此外，FCNGRU-double相比仅包含定位TFBSs分支的单任务框架FCNGRU-single具有优势。我们还结合体内数据集进行了进一步的分析和讨论。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34613923/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34613923/",
+  "paper_page_path": "papers/pubmed/34613923/index.html"
+}

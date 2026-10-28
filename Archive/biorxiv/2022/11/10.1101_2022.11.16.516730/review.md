@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, contributions, declarations)
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and internal consistency as presented in the provided text. No external literature verification or replication of analyses performed.
+- **Shared manuscript claim summary** The authors use single-molecule FRET to quantify the binding of Arabidopsis thaliana ARF transcription factors to a bipartite auxin response element (IR7). They report that the PB1 domain increases DNA-binding affinity of AtARF2 by stabilizing the protein dimer, that oligomerization does not further enhance binding, and that a four-state cyclic model quantitatively explains the observed kinetics and equilibria. They further propose that dimer stability is a general determinant of ARF-DNA binding affinity across the family.
+- **Visible evidence base** Results sections describing smFRET titrations, HMM kinetic analysis, global fitting to a four-state model, and SAXS measurements. Figures referenced: Fig. 1a-d, Fig. 2a-d, Fig. 3, Fig. 4, Fig. 5, Supporting Information Fig. S1. Table 1 referenced. Methods sections for protein purification, DNA constructs, smFRET, binding isotherm analysis, time trace analysis, and SAXS.
+- **Missing materials affecting confidence** Figures and tables themselves are not provided. Supporting Information (Notes 1 and 2, Fig. S1) is not provided. Raw data and fitting code are not provided. Details of the global fitting procedure, error estimation, and model comparison are incomplete. SAXS data analysis details and quality metrics are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in plant transcriptional regulation: how the two dimerization domains of ARF transcription factors contribute to DNA-binding affinity and specificity. The use of single-molecule FRET to dissect the kinetic and equilibrium parameters of ARF-DNA interactions is a methodological strength, and the derivation of a four-state cyclic model provides a quantitative framework that goes beyond simple apparent affinity measurements. The central claim, that PB1-domain-mediated dimer stabilization enhances DNA binding and that dimer stability is a key parameter across ARF family members, is well motivated and supported by the presented data. However, the manuscript as provided has several technical and presentational gaps that prevent full assessment. The absence of the actual figures, tables, and supporting notes makes it impossible to verify the quality of the fits, the statistical robustness of the parameter estimates, and the validity of the model assumptions. The methods sections, while describing the general approach, lack critical details on data selection, error analysis, and model validation. The discussion is thoughtful and appropriately speculative, but some claims extend beyond the direct evidence presented. Overall, the work is potentially important and of broad interest, but the current version does not fully establish the case from the provided materials.
+- **Who would be interested in the results, and why** Plant biologists studying auxin signaling and transcriptional regulation will be directly interested, as this work provides quantitative insights into ARF-DNA interaction mechanisms. Biophysicists and biochemists interested in protein-DNA interactions, cooperativity, and single-molecule approaches will also find the methodological framework and the four-state model valuable. The findings have implications for understanding how transcription factor dimerization and oligomerization modulate DNA-binding specificity and affinity, which is a topic of general relevance in gene regulation. The work may also interest researchers studying the evolution of auxin response pathways, given the comparative discussion of class A and B ARFs.
+- **Major strengths** The study employs a powerful quantitative approach (smFRET) to address a question that has largely been studied qualitatively. The derivation of a four-state cyclic model and its application to globally fit both equilibrium and kinetic data is a significant conceptual advance. The use of PB1-domain mutants to dissect the contribution of dimerization versus oligomerization is well designed. The comparison across multiple ARF family members and the inclusion of a DNA-binding mutant (R215A) provide important controls. The discussion of the biological implications, particularly regarding binding specificity in vivo, is thoughtful and well grounded in the data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the four-state cyclic model quantitatively explains the kinetics and affinity of AtARF2-IR7 interaction, and that the increase in affinity can be completely attributed to a shift in the dimer-monomer equilibrium.
+  - **Evidence pointer** Results section "ARF-IR7 interaction follows a four-state cyclic interaction mechanism", Fig. 2b-c, Table 1, Supporting Notes 1 and 2
+  - **Concern** The manuscript states that a global fit of the binding isotherms and observed kinetic constants was performed using a system of equations with shared and variant-specific parameters. However, the provided text does not include the actual figures, the fitted parameter values with uncertainties, or the supporting notes that presumably contain the model derivation. Without these, it is impossible to assess the quality of the fit, the identifiability of the parameters, the validity of the model assumptions (e.g., that k_on for monomers and dimers are diffusion-limited and unaffected by PB1 mutations), or the statistical significance of the differences in K_I between variants. The claim that the model "completely" explains the data and that the effect is "completely" due to the dimerization shift is strong and requires robust evidence, including model comparison against simpler alternatives and residual analysis.
+  - **Why it matters** The central quantitative conclusion of the paper rests on the validity and robustness of the four-state model and the global fit. If the model is not properly validated or the parameters are not well constrained, the mechanistic interpretation could be incorrect. The claim of "complete" attribution is particularly strong and needs to be supported by rigorous statistical evidence.
+  - **Resolution test** Provide the full model derivation, the fitted parameter values with confidence intervals, a description of the fitting algorithm and error estimation method, and a comparison of the four-state model against simpler models (e.g., a two-state model with only dimer binding). Show residual plots for the fits to both the isotherms and the kinetic data. Demonstrate that the model parameters are identifiable and that the conclusions are robust to reasonable variations in model assumptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the PB1 domain promotes DNA binding through stabilization of the AtARF2 dimer, and that oligomerization has no sizable effect.
+  - **Evidence pointer** Results section "The AtARF2 PB1 domain promotes DNA binding through stabilization of the AtARF2 dimer", Fig. 1b, Fig. 2b-c
+  - **Concern** The comparison between AtARF2-DBD and AtARF2-FL shows a clear difference in apparent affinity, and the mutant studies (K2S, OPCA) support a role for PB1-mediated dimerization. However, the claim that oligomerization has no effect is based on the comparison between the K2S/OPCA mixture (KpO) and the wild-type FL. The text states that KpO and FL show similar affinity, but the K_I values from the fit are different (0.016 µM vs 0 µM for FL). The manuscript does not provide error bars or statistical tests to demonstrate that these values are not significantly different. Furthermore, the interpretation that the KpO mixture can only dimerize but not oligomerize relies on the assumption that the two mutants cannot form heterodimers with each other, which is stated but not experimentally verified. The possibility of residual oligomerization in the KpO mixture or of other effects of the mutations on protein stability or folding is not addressed.
+  - **Why it matters** The conclusion that oligomerization is not important for DNA binding is a key part of the paper's message. If the KpO control is not fully validated, or if the statistical power is insufficient to detect a difference, this conclusion is not secure. This could have implications for understanding how ARFs interact with more complex response elements.
+  - **Resolution test** Provide statistical analysis (e.g., confidence intervals for K_I values, or a formal test of equivalence) to support the claim that KpO and FL have similar binding properties. Provide experimental evidence that the K2S and OPCA mutants cannot form heterodimers (e.g., co-immunoprecipitation or analytical ultracentrifugation). Address the potential for the mutations to affect protein folding or stability independently of their effect on dimerization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that dimer stability is a key parameter defining the affinity and kinetics of different ARF DBDs, and that the higher affinity of AtARF5-DBD is due to its higher propensity to dimerize.
+  - **Evidence pointer** Results section "Dimer stability determines the binding kinetics of ARF-DBDs", Fig. 3, Fig. 4
+  - **Concern** The manuscript compares the binding kinetics of AtARF1-DBD, AtARF2-DBD, and AtARF5-DBD and attributes the higher affinity of AtARF5-DBD to its more stable dimer. This is supported by SAXS data showing higher dimer prevalence for AtARF5-DBD. However, the SAXS data are presented only as a qualitative statement ("the difference in dimer stability is clear") without quantitative analysis, such as derived dimerization constants or fits to a monomer-dimer equilibrium. The text mentions that the results are "consistent with a dimerization Kd in the order of the tenth of µM" for AtARF5-DBD and "few µM" for AtARF1-DBD, but no error estimates or details of the SAXS analysis are provided. Furthermore, the possibility that differences in the DNA-binding interface itself (not just dimer stability) contribute to the observed differences in affinity is not fully excluded. The G279N mutant is used to support the role of dimerization, but the effect of this mutation on the monomer's intrinsic DNA-binding affinity is not assessed.
+  - **Why it matters** The generalization that dimer stability is the primary determinant of ARF-DNA binding affinity across the family is a strong claim. If the SAXS data are not quantitatively analyzed, or if alternative explanations (e.g., differences in the intrinsic DNA-binding affinity of the monomers) are not ruled out, the conclusion is not fully supported.
+  - **Resolution test** Provide quantitative analysis of the SAXS data, including derived dimerization constants with uncertainties for all tested ARF DBDs. Perform a global analysis that simultaneously fits the binding and SAXS data to test whether the differences in affinity can be fully explained by differences in dimer stability. Assess the intrinsic DNA-binding affinity of the G279N mutant monomer to rule out an effect of the mutation on the DNA-binding interface.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Methods section "Binding isotherms analysis"
+  - **Evidence pointer** Methods section "Binding isotherms analysis"
+  - **Issue** The description of the correction for the uncorrected fraction bound is incomplete. The text states that the uncorrected fraction bound is typically 0.1 in the absence of protein and that this value is used to renormalize the titration, but the exact formula for the correction is not provided (the text says "the corrected fraction bound for each data point can be calculated as" but the formula is missing).
+  - **Required correction** Provide the explicit formula for the correction and a brief justification for the assumption that the error is proportional to the fraction bound.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Time traces analysis"
+  - **Evidence pointer** Methods section "Time traces analysis"
+  - **Issue** The description of the HMM analysis using ebFRET is brief. It is not clear how the number of states was determined, how the transition matrix was used to calculate k_on and k_off, and how the reported uncertainties were estimated.
+  - **Required correction** Provide more details on the HMM procedure, including the criteria for state selection, the method for extracting rate constants, and the approach for estimating uncertainties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section "The AtARF2 PB1 domain promotes DNA binding through stabilization of the AtARF2 dimer"
+  - **Evidence pointer** Results section, first paragraph
+  - **Issue** The text states that the FRET efficiency distributions show the free DNA population at E* = 0.59 and the bound population at E* = 0.42. It would be helpful to state the expected FRET efficiency changes based on the dye positions and the DNA structure, to confirm that the observed change is consistent with the expected binding mode.
+  - **Required correction** Add a brief statement about the expected FRET efficiency change based on the labeling positions and the geometry of the bound complex.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph on oligomerization
+  - **Issue** The discussion speculates that oligomerization could be relevant on response elements with more than two AuxREs. This is a reasonable hypothesis, but it is presented without reference to any existing data on such elements. A brief mention of whether such elements are known to exist and whether any preliminary data exist would strengthen the speculation.
+  - **Required correction** Add a sentence acknowledging the lack of direct evidence and, if possible, cite any relevant studies on ARF binding to multi-AuxRE elements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "SAXS"
+  - **Evidence pointer** Methods section "SAXS"
+  - **Issue** The SAXS methods section is very brief. It does not describe the data reduction steps, the Guinier fit range, the quality of the fits, or how the volume fractions of oligomers were determined with OLIGOMER.
+  - **Required correction** Provide more details on the SAXS data processing and analysis, including the quality metrics for the Guinier fits and the OLIGOMER analysis.
+
+## Risk / unsupported claims
+- The claim that the four-state cyclic model "completely" explains the kinetics and affinity is not fully supported without the model derivation, fit results, and statistical validation.
+- The claim that oligomerization has no effect on DNA binding is not statistically substantiated.
+- The claim that dimer stability is the primary determinant of ARF-DNA binding affinity across the family is not fully supported without quantitative SAXS analysis and exclusion of alternative explanations.
+- The statement that the PB1 domain of AtARF5 is mainly for auxin responsiveness, while for AtARF2 it is required for stable DNA binding, is a reasonable interpretation but is based on a limited set of ARFs and may not be generalizable.
+- The speculation about the role of oligomerization on multi-AuxRE elements is untested and should be clearly labeled as a hypothesis.

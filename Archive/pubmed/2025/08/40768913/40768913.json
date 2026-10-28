@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "40768913",
+    "doi": "10.1016/j.compbiomed.2025.110837",
+    "title": "Alz-QNet: A quantum regression network for studying Alzheimer's gene interactions."
+  },
+  "content": {
+    "abstract": "Understanding the molecular-level mechanisms underpinning Alzheimer's Disease (AD) by studying crucial genes associated with the disease remains a challenge. Alzheimer's, being a multifactorial disease, requires understanding the gene-gene interactions underlying it for theranostics and progress. In this article, a novel attempt has been made using a quantum regression to decode how some crucial genes in the AD Amyloid Beta Precursor Protein (APP), Sterol regulatory element binding transcription factor 14 (FGF14), Yin Yang 1 (YY1), and Phospholipase D Family Member 3 (PLD3) etc., become influenced by other prominent switching genes during disease progression, which may help in gene expression-based therapy for AD. Our proposed Quantum Regression Network for Alzheimer disease (Alz-QNet) introduces a pioneering approach with insights from the state-of-the-art Quantum Gene Regulatory Networks (QGRNs) to unravel the gene interactions involved in AD pathology, particularly within the Entorhinal Cortex (EC), where early pathological changes occur. Using the proposed Alz-QNet framework, we explore the interactions between key genes (APP, FGF14, YY1, EGR1, GAS7, AKT3, SREBF2, and PLD3) within the CE microenvironment of AD patients, studying genetic samples from the database GSE138852, all of which are believed to play a crucial role in the progression of AD. Our investigation uncovers intricate gene-gene interactions, shedding light on the potential regulatory mechanisms that underlie the pathogenesis of AD, which help us to find potential gene inhibitors or regulators for theranostics.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Computational biology",
+      "Gene regulatory networks",
+      "Quantum machine learning"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/metabolism",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Epistasis, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Konar, Debanjan",
+        "Sreekumar, Neerav",
+        "Jiang, Richard",
+        "Aggarwal, Vaneet"
+      ],
+      "short_names": [
+        "Konar D",
+        "Sreekumar N",
+        "Jiang R",
+        "Aggarwal V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Purdue University, West Lafayette, IN, USA. Electronic address: konar.debanjan@ieee.org.",
+        "Indian Institute of Technology Tirupati, India.",
+        "Lancaster University, Lancaster, UK. Electronic address: r.jiang2@lancaster.ac.uk.",
+        "Purdue University, West Lafayette, IN, USA. Electronic address: vaneet@purdue.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Konar, Debanjan",
+        "short_name": "Konar D",
+        "identifiers": [],
+        "affiliations": [
+          "Purdue University, West Lafayette, IN, USA. Electronic address: konar.debanjan@ieee.org."
+        ]
+      },
+      {
+        "full_name": "Sreekumar, Neerav",
+        "short_name": "Sreekumar N",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Technology Tirupati, India."
+        ]
+      },
+      {
+        "full_name": "Jiang, Richard",
+        "short_name": "Jiang R",
+        "identifiers": [],
+        "affiliations": [
+          "Lancaster University, Lancaster, UK. Electronic address: r.jiang2@lancaster.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Aggarwal, Vaneet",
+        "short_name": "Aggarwal V",
+        "identifiers": [],
+        "affiliations": [
+          "Purdue University, West Lafayette, IN, USA. Electronic address: vaneet@purdue.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 00:27",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42467988"
+    ],
+    "refs": [],
+    "similar": [
+      "40768913",
+      "39507054",
+      "33920138",
+      "30208929",
+      "24935720",
+      "23827971",
+      "38902572",
+      "41009659",
+      "40277064",
+      "39953559",
+      "39920860",
+      "28446202",
+      "41361238",
+      "31346329",
+      "33830999",
+      "41390089",
+      "35849618",
+      "39905093",
+      "40973403",
+      "27030769",
+      "24336208",
+      "40108056",
+      "40671224",
+      "22119426",
+      "38809924",
+      "24613671",
+      "40429980",
+      "39993589",
+      "40642087",
+      "32006383",
+      "23811083",
+      "39998021",
+      "32510331",
+      "40670811",
+      "16539685",
+      "39188714",
+      "27799057",
+      "29468564",
+      "39730451",
+      "32787971",
+      "23955715",
+      "28612290",
+      "31942999",
+      "34243818",
+      "25281018",
+      "39327003",
+      "21163940",
+      "41115648",
+      "28366226",
+      "39485681",
+      "29935546",
+      "30598117",
+      "39919076",
+      "30715720",
+      "35114922",
+      "32603655",
+      "25781952",
+      "31291334",
+      "35702791",
+      "29598827",
+      "32807513",
+      "40679987",
+      "28800327",
+      "34953465",
+      "39197298",
+      "41097081",
+      "26235086",
+      "39907966",
+      "26502820",
+      "40832968",
+      "36648426",
+      "28934252",
+      "33865224",
+      "41317176",
+      "28663518",
+      "41291841",
+      "35980567",
+      "33495355",
+      "27756223",
+      "25765079",
+      "40447964",
+      "32450446",
+      "24269917",
+      "39556154",
+      "25432889",
+      "32925027",
+      "7690677",
+      "26235085",
+      "29359159",
+      "41189021",
+      "25362032",
+      "39757625",
+      "39144121",
+      "38976461",
+      "39844282",
+      "25086961",
+      "39394418",
+      "37340466",
+      "39604273",
+      "31614849"
+    ],
+    "review": [
+      "40768913",
+      "24935720",
+      "23827971",
+      "40973403",
+      "22119426",
+      "39998021",
+      "32787971",
+      "41097081",
+      "28663518",
+      "33495355",
+      "40447964"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)01188-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)01188-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "38674361",
+    "doi": "10.3390/genes15040426",
+    "title": "Investigating the Influence of ANTXR2 Gene Mutations on Protective Antigen Binding for Heightened Anthrax Resistance."
+  },
+  "content": {
+    "abstract": "Bacillus anthracis is the bacterium responsible for causing the zoonotic disease called anthrax. The disease presents itself in different forms like gastrointestinal, inhalation, and cutaneous. Bacterial spores are tremendously adaptable, can persist for extended periods and occasionally endanger human health. The Anthrax Toxin Receptor-2 (ANTXR2) gene acts as membrane receptor and facilitates the entry of the anthrax toxin into host cells. Additionally, mutations in the ANTXR2 gene have been linked to various autoimmune diseases, including Hyaline Fibromatosis Syndrome (HFS), Ankylosing Spondylitis (AS), Juvenile Hyaline Fibromatosis (JHF), and Infantile Systemic Hyalinosis (ISH). This study delves into the genetic landscape of ANTXR2, aiming to comprehend its associations with diverse disorders, elucidate the impacts of its mutations, and pinpoint minimal non-pathogenic mutations capable of reducing the binding affinity of the ANTXR2 gene with the protective antigen. Recognizing the pivotal role of single-nucleotide polymorphisms (SNPs) in shaping genetic diversity, we conducted computational analyses to discern highly deleterious and tolerated non-synonymous SNPs (nsSNPs) in the ANTXR2 gene. The Mutpred2 server determined that the Arg465Trp alteration in the ANTXR2 gene leads to altered DNA binding (p = 0.22) with a probability of a deleterious mutation of 0.808; notably, among the identified deleterious SNPs, rs368288611 (Arg465Trp) stands out due to its significant impact on altering the DNA-binding ability of ANTXR2. We propose these SNPs as potential candidates for hypertension linked to the ANTXR2 gene, which is implicated in blood pressure regulation. Noteworthy among the tolerated substitutions is rs200536829 (Ala33Ser), recognized as less pathogenic; this highlights its potential as a valuable biomarker, potentially reducing side effects on the host while also reducing binding with the protective antigen protein. Investigating these SNPs holds the potential to correlate with several autoimmune disorders and mitigate the impact of anthrax disease in humans.",
+    "keywords": [
+      "ANTXR2",
+      "anthrax",
+      "molecular docking",
+      "protective antigen",
+      "single-nucleotide polymorphisms (SNPs)"
+    ],
+    "mesh_terms": [
+      "*Antigens, Bacterial/genetics/immunology",
+      "Humans",
+      "*Anthrax/microbiology/genetics/immunology",
+      "*Receptors, Peptide/genetics",
+      "*Mutation",
+      "*Polymorphism, Single Nucleotide",
+      "Bacterial Toxins/genetics",
+      "Bacillus anthracis/genetics/pathogenicity",
+      "Hyaline Fibromatosis Syndrome/genetics/microbiology",
+      "Spondylitis, Ankylosing/genetics/immunology/microbiology",
+      "Disease Resistance/genetics",
+      "Receptors, Cell Surface/genetics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Archana, Chamalapura Ashwathama",
+        "Sekar, Yamini Sri",
+        "Suresh, Kuralayanapalya Puttahonnappa",
+        "Subramaniam, Saravanan",
+        "Sagar, Ningegowda",
+        "Rani, Swati",
+        "Anandakumar, Jayashree",
+        "Pandey, Rajan Kumar",
+        "Barman, Nagendra Nath",
+        "Patil, Sharanagouda S"
+      ],
+      "short_names": [
+        "Archana CA",
+        "Sekar YS",
+        "Suresh KP",
+        "Subramaniam S",
+        "Sagar N",
+        "Rani S",
+        "Anandakumar J",
+        "Pandey RK",
+        "Barman NN",
+        "Patil SS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1737-4976",
+        "ORCID: 0000-0003-4808-0807",
+        "ORCID: 0000-0002-2135-5287"
+      ],
+      "affiliations": [
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "ICAR-National Institute on Foot and Mouth Disease, Bhubaneswar 752050, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India.",
+        "Department of Medical Biochemistry and Biophysics, Karolinska Institute, 17177 Solna, Sweden.",
+        "College of Veterinary Science, Assam Agricultural University (AAU), Guwahati 781022, India.",
+        "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Archana, Chamalapura Ashwathama",
+        "short_name": "Archana CA",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Sekar, Yamini Sri",
+        "short_name": "Sekar YS",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Suresh, Kuralayanapalya Puttahonnappa",
+        "short_name": "Suresh KP",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Subramaniam, Saravanan",
+        "short_name": "Subramaniam S",
+        "identifiers": [
+          "0000-0003-1737-4976"
+        ],
+        "affiliations": [
+          "ICAR-National Institute on Foot and Mouth Disease, Bhubaneswar 752050, India."
+        ]
+      },
+      {
+        "full_name": "Sagar, Ningegowda",
+        "short_name": "Sagar N",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Rani, Swati",
+        "short_name": "Rani S",
+        "identifiers": [
+          "0000-0003-4808-0807"
+        ],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Anandakumar, Jayashree",
+        "short_name": "Anandakumar J",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      },
+      {
+        "full_name": "Pandey, Rajan Kumar",
+        "short_name": "Pandey RK",
+        "identifiers": [
+          "0000-0002-2135-5287"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Biophysics, Karolinska Institute, 17177 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Barman, Nagendra Nath",
+        "short_name": "Barman NN",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Science, Assam Agricultural University (AAU), Guwahati 781022, India."
+        ]
+      },
+      {
+        "full_name": "Patil, Sharanagouda S",
+        "short_name": "Patil SS",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics (NIVEDI), Bengaluru 560064, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2024 Mar 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/27 09:51",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "40759954",
+      "40004447",
+      "39340111"
+    ],
+    "refs": [
+      "37926374",
+      "37363236",
+      "35944036",
+      "35752930",
+      "35726349",
+      "34782625",
+      "34341308",
+      "33842351",
+      "33319247",
+      "32867672",
+      "31871931",
+      "31358949",
+      "28747718",
+      "27170489",
+      "26824843",
+      "26805886",
+      "26703731",
+      "25647319",
+      "25102047",
+      "24739539",
+      "24684968",
+      "24646999",
+      "24115442",
+      "23819482",
+      "22300424",
+      "22215446",
+      "22144704",
+      "22118297",
+      "20385868",
+      "20354512",
+      "19901963",
+      "19768599",
+      "19734154",
+      "19561590",
+      "18757876",
+      "17825469",
+      "17719744",
+      "16912992",
+      "16624804",
+      "16429166",
+      "16401723",
+      "16372356",
+      "16173255",
+      "15243628",
+      "15079089",
+      "15044490",
+      "14696386",
+      "14586293",
+      "14570563",
+      "14508707",
+      "12973667",
+      "12824425",
+      "12468536",
+      "11704686",
+      "11683410"
+    ],
+    "similar": [
+      "38674361",
+      "17459655",
+      "17054395",
+      "26703731",
+      "26728147",
+      "17389920",
+      "33147779",
+      "25169729",
+      "32196989",
+      "26590821",
+      "17381430",
+      "16008584",
+      "10197996",
+      "36318971",
+      "26805886",
+      "22300424",
+      "28103792",
+      "22274828",
+      "23027535",
+      "11596878",
+      "26107617",
+      "34782625",
+      "35726349",
+      "19812208",
+      "29740033",
+      "28342664",
+      "22383261",
+      "18955474",
+      "22118297",
+      "22215446",
+      "34931070",
+      "19168734",
+      "38814306",
+      "19075066",
+      "22550037",
+      "26207820",
+      "29404280",
+      "24641616",
+      "30176098",
+      "22948605",
+      "31559791",
+      "23311776",
+      "30255098",
+      "12113932",
+      "25564615",
+      "21518787",
+      "30152846",
+      "18808698",
+      "22174672",
+      "31570528",
+      "25102364",
+      "22526673",
+      "19179420",
+      "25842948",
+      "10722564",
+      "34627224",
+      "11327699",
+      "18285494",
+      "16923785",
+      "15694864",
+      "18394287",
+      "23995686",
+      "24684968",
+      "21683629",
+      "31430284",
+      "23271637",
+      "25736362",
+      "27101370",
+      "15231178",
+      "29935338",
+      "19732789",
+      "32664053",
+      "16760326",
+      "21075356",
+      "17983750",
+      "25285720",
+      "32771412",
+      "38385928",
+      "15702923",
+      "15036135",
+      "26195305",
+      "22303962",
+      "24286182",
+      "30621469",
+      "17886469",
+      "2509473",
+      "30381454",
+      "17980467",
+      "18192092",
+      "31448094",
+      "31416791",
+      "33252744",
+      "29133571",
+      "21198675",
+      "22585968",
+      "29188618",
+      "11390699",
+      "21576337",
+      "12973667",
+      "27555325",
+      "30809297",
+      "37038572",
+      "39258861",
+      "38989346"
+    ],
+    "review": [
+      "38674361",
+      "25169729",
+      "26805886",
+      "22274828",
+      "11596878",
+      "35726349",
+      "22215446",
+      "30176098",
+      "23311776",
+      "30255098",
+      "15694864",
+      "24684968",
+      "15231178",
+      "29935338",
+      "19732789",
+      "32664053",
+      "15036135",
+      "26195305",
+      "31448094",
+      "33252744"
+    ],
+    "pmc": [
+      "11049084"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38674361/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes15040426",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/anthrax.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Anthrax"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38674361/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38674361",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "40011786",
+    "doi": "10.1038/s41586-025-08656-1",
+    "title": "Genome-coverage single-cell histone modifications for embryo lineage tracing."
+  },
+  "content": {
+    "abstract": "Substantial epigenetic resetting during early embryo development from fertilization to blastocyst formation ensures zygotic genome activation and leads to progressive cellular heterogeneities(1-3). Mapping single-cell epigenomic profiles of core histone modifications that cover each individual cell is a fundamental goal in developmental biology. Here we develop target chromatin indexing and tagmentation (TACIT), a method that enabled genome-coverage single-cell profiling of seven histone modifications across mouse early embryos. We integrated these single-cell histone modifications with single-cell RNA sequencing data to chart a single-cell resolution epigenetic landscape. Multimodal chromatin-state annotations showed that the onset of zygotic genome activation at the early two-cell stage already primes heterogeneities in totipotency. We used machine learning to identify totipotency gene regulatory networks, including stage-specific transposable elements and putative transcription factors. CRISPR activation of a combination of these identified transcription factors induced totipotency activation in mouse embryonic stem cells. Together with single-cell co-profiles of multiple histone modifications, we developed a model that predicts the earliest cell branching towards the inner cell mass and the trophectoderm in latent multimodal space and identifies regulatory elements and previously unknown lineage-specifying transcription factors. Our work provides insights into single-cell epigenetic reprogramming, multimodal regulation of cellular lineages and cell-fate priming during mouse pre-implantation development.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Male",
+      "Mice",
+      "Blastocyst/metabolism/cytology",
+      "*Cell Lineage",
+      "Chromatin/metabolism/genetics",
+      "DNA Transposable Elements",
+      "*Embryo, Mammalian/cytology/metabolism",
+      "Embryonic Development",
+      "Epigenesis, Genetic",
+      "Epigenomics",
+      "Gene Expression Regulation, Developmental",
+      "Gene Regulatory Networks",
+      "*Genome",
+      "*Histone Code",
+      "*Histones/metabolism",
+      "Machine Learning",
+      "Mouse Embryonic Stem Cells/cytology/metabolism",
+      "*Single-Cell Analysis",
+      "Totipotent Stem Cells/metabolism/cytology",
+      "Transcription Factors/metabolism/genetics",
+      "Zygote/metabolism/cytology",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Min",
+        "Yue, Yanzhu",
+        "Chen, Xubin",
+        "Xian, Kexin",
+        "Dong, Chao",
+        "Shi, Ming",
+        "Xiong, Haiqing",
+        "Tian, Kang",
+        "Li, Yuzhe",
+        "Zhang, Qiangfeng Cliff",
+        "He, Aibin"
+      ],
+      "short_names": [
+        "Liu M",
+        "Yue Y",
+        "Chen X",
+        "Xian K",
+        "Dong C",
+        "Shi M",
+        "Xiong H",
+        "Tian K",
+        "Li Y",
+        "Zhang QC",
+        "He A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1260-2426",
+        "ORCID: 0000-0002-3489-2305"
+      ],
+      "affiliations": [
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China.",
+        "Department of Cell Fate and Diseases, Jilin Provincial Key Laboratory of Women's Reproductive Health, Jilin Provincial Clinical Research Center for Birth Defect and Rare Disease, The First Hospital of Jilin University, Changchun, China.",
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China.",
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China.",
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China.",
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China.",
+        "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing, China.",
+        "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China. ahe@pku.edu.cn.",
+        "Key Laboratory of Carcinogenesis and Translational Research of Ministry of Education of China, Peking University Cancer Hospital and Institute, Peking University, Beijing, China. ahe@pku.edu.cn.",
+        "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, China. ahe@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Min",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Yanzhu",
+        "short_name": "Yue Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Fate and Diseases, Jilin Provincial Key Laboratory of Women's Reproductive Health, Jilin Provincial Clinical Research Center for Birth Defect and Rare Disease, The First Hospital of Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xubin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xian, Kexin",
+        "short_name": "Xian K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Chao",
+        "short_name": "Dong C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ming",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Haiqing",
+        "short_name": "Xiong H",
+        "identifiers": [
+          "0000-0002-1260-2426"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Kang",
+        "short_name": "Tian K",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+          "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuzhe",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiangfeng Cliff",
+        "short_name": "Zhang QC",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Beijing Advanced Innovation Center for Structural Biology and Frontier Research Center for Biological Structure, Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+          "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "He, Aibin",
+        "short_name": "He A",
+        "identifiers": [
+          "0000-0002-3489-2305"
+        ],
+        "affiliations": [
+          "Institute of Molecular Medicine and National Biomedical Imaging Center, College of Future Technology, Peking-Tsinghua Center for Life Sciences and State Key Laboratory of Gene Function and Modulation Research, Peking University, Beijing, China. ahe@pku.edu.cn.",
+          "Key Laboratory of Carcinogenesis and Translational Research of Ministry of Education of China, Peking University Cancer Hospital and Institute, Peking University, Beijing, China. ahe@pku.edu.cn.",
+          "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, China. ahe@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/27 05:01",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42620038",
+      "42587135",
+      "42566531",
+      "42541720",
+      "42455444",
+      "42443520",
+      "42416196",
+      "42321437",
+      "42193956",
+      "42151571",
+      "42137184",
+      "42094470",
+      "42091680",
+      "42072692",
+      "42021385",
+      "42011025",
+      "41998711",
+      "41984276",
+      "41909742",
+      "41816913",
+      "41783593",
+      "41755639",
+      "41609358",
+      "41562256",
+      "41550661",
+      "41470040",
+      "41444682",
+      "41416641",
+      "41408042",
+      "41236708",
+      "41206131",
+      "41034520",
+      "40913545",
+      "40606909",
+      "40340740",
+      "40307391"
+    ],
+    "refs": [
+      "38744282",
+      "37541214",
+      "35803226",
+      "35803225",
+      "35697785",
+      "35332340",
+      "34896808",
+      "34728646",
+      "34062119",
+      "33991488",
+      "33958790",
+      "33846646",
+      "33846645",
+      "33737484",
+      "33623021",
+      "33536621",
+      "33420491",
+      "32728240",
+      "32665685",
+      "32601371",
+      "32518404",
+      "32492406",
+      "32382044",
+      "31875854",
+      "31604482",
+      "31481796",
+      "31471188",
+      "31431618",
+      "31304534",
+      "31189957",
+      "31178118",
+      "31110232",
+      "30962623",
+      "30787437",
+      "30078726",
+      "29686265",
+      "29545511",
+      "29120462",
+      "28991892",
+      "28703188",
+      "28621329",
+      "28459457",
+      "28273065",
+      "27867194",
+      "27661255",
+      "27635762",
+      "27626382",
+      "27626379",
+      "27626377",
+      "27309802",
+      "27015307",
+      "26657559",
+      "26346307",
+      "25799994",
+      "25751142",
+      "25693563",
+      "25621011",
+      "25303116",
+      "24799436",
+      "24408435",
+      "24352427",
+      "22722858",
+      "22373907",
+      "20513432",
+      "19603040",
+      "19536196",
+      "18992931",
+      "18798982",
+      "18223651",
+      "17320508"
+    ],
+    "similar": [
+      "40011786",
+      "39447008",
+      "27626379",
+      "38375873",
+      "25303116",
+      "27309802",
+      "30257850",
+      "38843832",
+      "40480920",
+      "40760451",
+      "31273069",
+      "23893501",
+      "33623021",
+      "24183668",
+      "28621329",
+      "29720659",
+      "37935903",
+      "24699365",
+      "32671792",
+      "23560077",
+      "20676102",
+      "40768587",
+      "38338738",
+      "35700449",
+      "34831338",
+      "24831699",
+      "32563750",
+      "39826539",
+      "41654129",
+      "31122174",
+      "14723853",
+      "34875212",
+      "18272526",
+      "40146829",
+      "22647320",
+      "31767152",
+      "31746724",
+      "28102431",
+      "30836937",
+      "22722858",
+      "21576353",
+      "34045607",
+      "27626377",
+      "35868641",
+      "41094030",
+      "41562256",
+      "24383959",
+      "23261930",
+      "24504341",
+      "38871031",
+      "26740066",
+      "32238933",
+      "18093226",
+      "37295962",
+      "27993980",
+      "19960551",
+      "34906611",
+      "19564914",
+      "30451828",
+      "39630006",
+      "29746690",
+      "32847824",
+      "38462486",
+      "28859285",
+      "39769308",
+      "41755639",
+      "29686265",
+      "22894908",
+      "26403153",
+      "17215844",
+      "39932187",
+      "16586346",
+      "28355183",
+      "40593492",
+      "33420491",
+      "40273908",
+      "36348116",
+      "9191039",
+      "31615786",
+      "27609454",
+      "33169018",
+      "29358330",
+      "38643480",
+      "23671187",
+      "30305613",
+      "41233731",
+      "40181107",
+      "39576233",
+      "29232016",
+      "28050628",
+      "31304534",
+      "26952987",
+      "35717671",
+      "25512302",
+      "27881878",
+      "27999898",
+      "40335308",
+      "40595944",
+      "15713636",
+      "27681438"
+    ],
+    "review": [
+      "40011786",
+      "38375873",
+      "25303116",
+      "30257850",
+      "40480920",
+      "23893501",
+      "24699365",
+      "32671792",
+      "38338738",
+      "32563750",
+      "31122174",
+      "28102431",
+      "18093226",
+      "19960551",
+      "29746690",
+      "32847824",
+      "38462486",
+      "31615786",
+      "40181107",
+      "39576233",
+      "28050628"
+    ],
+    "pmc": [
+      "12003199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-025-08656-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40011786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40011786",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

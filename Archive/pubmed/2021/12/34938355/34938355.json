@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "34938355",
+    "doi": "10.1155/2021/6745282",
+    "title": "Recognition of the Possible miRNA-mRNA Controlling Network in Stroke by Bioinformatics Examination."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Based on the latest research of WHO, it has been revealed that more than 15 million people suffer from stroke every year worldwide. Of these 15 million people, 6 million succumb to death, and 5 million get permanently disabled. This is the prime reason for the substantial economic burden on all parts of the world. METHODS: These data have been obtained from the GEO database, and the GEO2R tool was used to find out the differentially expressed miRNAs (DEMs) between the stroke and normal patients' blood. FunRich and miRNet were considered to find potential upstream transcription factors and downstream target genes of candidate EMRs. Next, we use GO annotation and KEGG pathway enrichment. Target genes were analyzed with the help of the R software. Then, the STRING database and Cytoscape software were used to conduct PPI and DEM-hub gene networks. Finally, GSE58294 was used to estimate the hub gene expressions. RESULTS: Six DEMs in total were selected out from GSE95204 and GSE117064 datasets. 663 DEMs' target genes were predicted, and NRF1, EGR1, MYC, YY1, E2F1, SP4, and SP1 were predicted as an upstream transcription factor for DEMs' target genes. Target genes of DEMs were primarily augmented in the PI3K-Akt signaling pathway and p53 signaling pathway. The network construction of DEM hygiene is potentially modulated by hsa-miR-3591-5p, hsa-miR-548as-3p, hsa-miR-206, and hsa-miR-4503 hub genes which were found among the top 10 of the hub genes. Among the top 10 hub genes, justification of CTNNB1, PTEN, ESR1, CCND1, KRAS, AKT1, CCND2, CDKN1B, and MYCN was constant with that in the GSE58294 dataset. CONCLUSION: In summary, our research first constructs the miRNA-mRNA network in stroke, which probably renders an awakening purview into the pathogenesis and cure of stroke.",
+    "keywords": [],
+    "mesh_terms": [
+      "Case-Control Studies",
+      "Computational Biology",
+      "Databases, Genetic",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "MicroRNAs/*genetics",
+      "Protein Interaction Maps/genetics",
+      "RNA, Messenger/*genetics",
+      "Signal Transduction/genetics",
+      "Stroke/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Wei",
+        "Li, Jian",
+        "Yang, Yong"
+      ],
+      "short_names": [
+        "Li W",
+        "Li J",
+        "Yang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9089-1916"
+      ],
+      "affiliations": [
+        "Emergency Department of Benxi Central Hospital, Benxi City, Liaoning Province 117000, China.",
+        "Department of Thyroid Head and Neck Surgery, Cancer Hospital of China Medical University, Liaoning Cancer Hospital & Institute, Shenyang City, Liaoning Province 110801, China.",
+        "Emergency Department of Benxi Central Hospital, Benxi City, Liaoning Province 117000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department of Benxi Central Hospital, Benxi City, Liaoning Province 117000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid Head and Neck Surgery, Cancer Hospital of China Medical University, Liaoning Cancer Hospital & Institute, Shenyang City, Liaoning Province 110801, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yong",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0001-9089-1916"
+        ],
+        "affiliations": [
+          "Emergency Department of Benxi Central Hospital, Benxi City, Liaoning Province 117000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and mathematical methods in medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Math Methods Med"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/24 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "38094342",
+      "36755220",
+      "36399471"
+    ],
+    "refs": [
+      "34632668",
+      "34597887",
+      "33758620",
+      "33615665",
+      "33445560",
+      "33421998",
+      "33292230",
+      "33188203",
+      "33177827",
+      "32956661",
+      "32758579",
+      "32603878",
+      "32286127",
+      "31848851",
+      "31842576",
+      "31500382",
+      "31266951",
+      "31204565",
+      "31056284",
+      "30811405",
+      "30320189",
+      "30284677",
+      "30248537",
+      "30217293",
+      "30105420",
+      "29226599",
+      "28886366",
+      "28596967",
+      "26497793",
+      "25697638",
+      "25678853",
+      "25637490",
+      "24911610",
+      "24352519",
+      "22835698",
+      "21622133",
+      "19888324",
+      "19480567",
+      "19287386",
+      "19171871",
+      "18258266",
+      "17493601",
+      "17182009",
+      "16461918",
+      "16298214",
+      "16009126",
+      "15685193",
+      "12713903",
+      "11779458"
+    ],
+    "similar": [
+      "34938355",
+      "32982206",
+      "35313857",
+      "36798788",
+      "32435051",
+      "39028999",
+      "35310909",
+      "34190177",
+      "35132271",
+      "35281953",
+      "38411985",
+      "31692035",
+      "28302149",
+      "33892654",
+      "34313877",
+      "32597160",
+      "33104965",
+      "33299863",
+      "31277149",
+      "34235224",
+      "32481304",
+      "31621692",
+      "32714975",
+      "30602391",
+      "32950571",
+      "35545337",
+      "34844599",
+      "34600545",
+      "38848199",
+      "30268144",
+      "38444712",
+      "33204705",
+      "35577542",
+      "30865617",
+      "33747117",
+      "32104700",
+      "29128636",
+      "34916825",
+      "33172374",
+      "35832124",
+      "34867824",
+      "32923489",
+      "35322101",
+      "35620387",
+      "33015184",
+      "31703725",
+      "30627556",
+      "31138194",
+      "31788082",
+      "33666785",
+      "31987036",
+      "30937635",
+      "32013934",
+      "31747387",
+      "34234459",
+      "32714978",
+      "29760609",
+      "35993048",
+      "33182754",
+      "34254931",
+      "38839916",
+      "38296899",
+      "35049167",
+      "37199314",
+      "32626985",
+      "34434654",
+      "35877019",
+      "32299382",
+      "25189652",
+      "31886250",
+      "37686108",
+      "36291136",
+      "35800215",
+      "28952134",
+      "31311829",
+      "29032608",
+      "30258285",
+      "30092792",
+      "34722763",
+      "34337040",
+      "30760287",
+      "37201049",
+      "28919164",
+      "28415685",
+      "34777635",
+      "30168505",
+      "39080700",
+      "31989994",
+      "34734085",
+      "36104591",
+      "34670670",
+      "33407587",
+      "31737678",
+      "31032340",
+      "33653335",
+      "35300139",
+      "32888289",
+      "38268224",
+      "31257520",
+      "33639954",
+      "39116715",
+      "38995420"
+    ],
+    "review": [
+      "34938355",
+      "32481304"
+    ],
+    "pmc": [
+      "8687781"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34938355/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34938355",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/6745282",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

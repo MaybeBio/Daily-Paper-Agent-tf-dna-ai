@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38508191",
+  "title": "PMSPcnn: Predicting protein stability changes upon single point mutations with convolutional neural network.",
+  "authors": "Sun, Xiaohan; Yang, Shuang; Wu, Zhixiang; Su, Jingjie; Hu, Fangrui; Chang, Fubin; Li, Chunhua",
+  "journal": "Structure (London, England : 1993)",
+  "published_date": "2024-03-21",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN预测单点突变引起的蛋白质稳定性变化，虽涉及蛋白质结构拓扑特征，但核心是蛋白质自身稳定性而非蛋白质-DNA互作，且无TF-DNA结合或互作建模，与本课题关联微弱。",
+  "abstract": "Protein missense mutations and resulting protein stability changes are important causes for many human genetic diseases. However, the accurate prediction of stability changes due to mutations remains a challenging problem. To address this problem, we have developed an unbiased effective model: PMSPcnn that is based on a convolutional neural network. We have included an anti-symmetry property to build a balanced training dataset, which improves the prediction, in particular for stabilizing mutations. Persistent homology, which is an effective approach for characterizing protein structures, is used to obtain topological features. Additionally, a regression stratification cross-validation scheme has been proposed to improve the prediction for mutations with extreme DeltaDeltaG. For three test datasets: S(sym), p53, and myoglobin, PMSPcnn achieves a better performance than currently existing predictors. PMSPcnn also outperforms currently available methods for membrane proteins. Overall, PMSPcnn is a promising method for the prediction of protein stability changes caused by single point mutations.",
+  "abstract_zh": "蛋白质错义突变及其导致的蛋白质稳定性变化是许多人类遗传疾病的重要原因。然而，准确预测由突变引起的稳定性变化仍是一个具有挑战性的问题。为解决此问题，我们开发了一个无偏有效模型：PMSPcnn，该模型基于卷积神经网络。我们引入了反对称性质来构建平衡的训练数据集，从而改善了预测效果，特别是对于稳定化突变的预测。持续同调（persistent homology）作为表征蛋白质结构的有效方法，被用于获取拓扑特征。此外，我们提出了一种回归分层交叉验证方案，以提高对具有极端DeltaDeltaG突变的预测能力。对于三个测试数据集：S(sym)、p53和肌红蛋白，PMSPcnn的性能优于现有预测器。PMSPcnn在膜蛋白方面也优于当前可用方法。总体而言，PMSPcnn是预测单点突变引起的蛋白质稳定性变化的一种有前景的方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38508191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38508191/",
+  "paper_page_path": "papers/pubmed/38508191/index.html"
+}

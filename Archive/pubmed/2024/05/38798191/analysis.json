@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38798191",
+  "title": "Prediction of Transcription Factor Binding Sites on Cell-Free DNA Based on Deep Learning.",
+  "authors": "Qi, Ting; Zhou, Ying; Sheng, Yuqi; Li, Zhihui; Yang, Yuwei; Liu, Quanjun; Ge, Qinyu",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-05-27",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用CNN+LSTM深度学习模型从cfDNA序列预测转录因子结合位点，虽聚焦于非侵入性检测而非三维互作机制，但核心对象为TF-DNA结合位点预测，方法为AI，对课题有直接参考价值。",
+  "abstract": "Transcription factors (TFs) are important regulatory elements for vital cellular activities, and the identification of transcription factor binding sites (TFBS) can help to explore gene regulatory mechanisms. Research studies have proved that cfDNA (cell-free DNA) shows relatively higher coverage at TFBS due to the protection by TF from degradation by nucleases and short fragments of cfDNA are enriched in TFBS. However, there are still great difficulties in the noninvasive identification of TFBSs from experimental techniques. In this study, we propose a deep learning-based approach that can noninvasively predict TFBSs of cfDNA by learning sequence information from known TFBSs through convolutional neural networks. Under the addition of long short-term memory, our model achieved an area under the curve of 84%. Based on this model to predict cfDNA, we found consistent motifs in cfDNA fragments and lower coverage occurred upstream and downstream of these cfDNA fragments, which is consistent with a previous study. We also found that the binding sites of the same TF differ in different cell lines. TF-specific target genes were detected from cfDNA and were enriched in cancer-related pathways. In summary, our method of locating TFBSs from plasma has the potential to reflect the intrinsic regulatory mechanism from a noninvasive perspective and provide technical guidance for dynamic monitoring of disease in clinical practice.",
+  "abstract_zh": "转录因子（TFs）是细胞关键生命活动的重要调控元件，识别转录因子结合位点（TFBS）有助于探索基因调控机制。研究已证明，cfDNA（游离DNA）在TFBS处因受TF保护免受核酸酶降解而显示出相对较高的覆盖度，且cfDNA的短片段在TFBS中富集。然而，通过实验技术无创识别TFBS仍面临巨大挑战。本研究提出了一种基于深度学习的方法，通过卷积神经网络从已知TFBS学习序列信息，从而实现对cfDNA的TFBS无创预测。在加入长短期记忆网络后，我们的模型达到了84%的曲线下面积。基于该模型预测cfDNA，我们在cfDNA片段中发现了一致的基序，且这些cfDNA片段的上游和下游覆盖度较低，这与先前研究一致。我们还发现，同一TF在不同细胞系中的结合位点存在差异。从cfDNA中检测到TF特异性靶基因，并富集于癌症相关通路中。总之，我们从血浆中定位TFBS的方法有望从无创角度反映内在调控机制，并为临床疾病动态监测提供技术指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38798191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38798191/",
+  "paper_page_path": "papers/pubmed/38798191/index.html"
+}

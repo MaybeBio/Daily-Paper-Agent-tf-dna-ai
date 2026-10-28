@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40742465",
+  "title": "Identification and validation of tricarboxylic acid cycle-related diagnostic biomarkers for diabetic nephropathy via weighted gene co-expression network analysis and single-cell transcriptome analysis.",
+  "authors": "He, Xuelin; Wu, Yichen; Ying, Guanghui; Xia, Min; He, Qien; Chen, Zhaogui; Zhang, Qiao; Liu, Li; Liu, Xia; Li, Yongtao",
+  "journal": "Acta diabetologica",
+  "published_date": "2025-07-31",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过WGCNA和机器学习筛选糖尿病肾病的TCA循环相关诊断标志物，仅涉及转录因子预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Diabetic nephropathy (DN) is a prevalent and serious complication of diabetes, characterized by high incidence and significant morbidity. Despite growing evidence that the tricarboxylic acid (TCA) cycle plays a crucial role in DN progression, the diagnostic potential of TCA-related genes has yet to be fully explored. METHODS: This study began by analyzing the GSE131882 dataset to reveal the expression patterns of TCA-related genes in various renal cell types and to identify genes that differ in expression between high and low subgroups. The GSE30122 dataset was then examined to identify genes with differential expression in DN. Single-sample gene set enrichment analysis (ssGSEA) and weighted gene co-expression network analysis (WGCNA) were applied to pinpoint TCA-related gene modules. Following this, multiple machine learning techniques were employed to analyze the TCA gene set that showed differential expression at both cellular and sample levels, allowing us to identify the hub genes. A diagnostic model was constructed, with its effectiveness validated through ROC analysis. The immune landscape of DN was assessed using ssGSEA. GeneMANIA and NetworkAnalyst were also utilized to predict genes with similar functions, as well as miRNAs and transcription factors (TFs) that may regulate these diagnostic genes. Finally, single-cell RNA sequencing (scRNA-seq) data confirmed the expression patterns of these genes. RESULTS: Two TCA-related genes, HPGD and G6PC, were identified as potential diagnostic markers for DN. ROC analysis demonstrated that these genes and their predictive model exhibited strong diagnostic performance in both training and validation cohorts. Immune landscape analysis revealed a more active immune microenvironment in DN patients compared to controls. Additionally, 59 miRNAs and 15 TFs were predicted to regulate the expression of HPGD and G6PC, along with 20 functionally related genes. scRNA-seq data highlighted that HPGD and G6PC are predominantly expressed in glomerular and proximal tubular cells. CONCLUSION: Two reliable TCA-related biomarkers were pinpointed, potentially advancing early diagnosis and management of DN.",
+  "abstract_zh": "背景：糖尿病肾病（DN）是糖尿病常见且严重的并发症，具有高发病率和显著致残率。尽管越来越多的证据表明三羧酸（TCA）循环在DN进展中发挥关键作用，但TCA相关基因的诊断潜力尚未被充分探索。方法：本研究首先分析GSE131882数据集，以揭示TCA相关基因在各种肾细胞类型中的表达模式，并识别高、低亚组之间表达差异的基因。随后检查GSE30122数据集，以识别DN中差异表达的基因。应用单样本基因集富集分析（ssGSEA）和加权基因共表达网络分析（WGCNA）来定位TCA相关基因模块。此后，采用多种机器学习技术分析在细胞和样本水平均显示差异表达的TCA基因集，从而识别核心基因。构建诊断模型，并通过ROC分析验证其有效性。使用ssGSEA评估DN的免疫景观。还利用GeneMANIA和NetworkAnalyst预测功能相似的基因，以及可能调控这些诊断基因的miRNA和转录因子（TFs）。最后，单细胞RNA测序（scRNA-seq）数据确认了这些基因的表达模式。结果：两个TCA相关基因HPGD和G6PC被确定为DN的潜在诊断标志物。ROC分析表明，这些基因及其预测模型在训练和验证队列中均表现出较强的诊断性能。免疫景观分析显示，与对照组相比，DN患者的免疫微环境更为活跃。此外，预测有59个miRNA和15个TFs调控HPGD和G6PC的表达，以及20个功能相关基因。scRNA-seq数据强调，HPGD和G6PC主要在肾小球和近端肾小管细胞中表达。结论：确定了两个可靠的TCA相关生物标志物，可能促进DN的早期诊断和管理。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40742465/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40742465/",
+  "paper_page_path": "papers/pubmed/40742465/index.html"
+}

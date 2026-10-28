@@ -1,0 +1,600 @@
+{
+  "identity": {
+    "pmid": "41561639",
+    "doi": "10.1155/humu/8690530",
+    "title": "Systematic Pathway Screening via Integrated Machine Learning Identifies FOXO-Mediated Transcription Signature for Robust Immunotherapy Response Prediction in Non-Small Cell Lung Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Non-small cell lung cancer (NSCLC), accounting for 80% of lung cancer cases, remains a leading cause of cancer-related mortality globally. While immune checkpoint inhibitors (ICIs) have improved outcomes, their efficacy is limited to a subset of patients, necessitating robust biomarkers for personalized immunotherapy response prediction. METHODS: We integrated transcriptomic data from 584 NSCLC patients across four cohorts treated with ICIs. Using 12,025 pathways from MSigDB, we applied 101 machine learning algorithm combinations (e.g., random survival forest [RSF], least absolute shrinkage and selection operator [Lasso], and Cox proportional hazards model with component-wise likelihood-based boosting [CoxBoost]) to identify prognostic signatures. OAK was used as the training set and Ravi, Jung, and Poplar as the validation set. The optimal pathway and algorithm combination was determined based on the average concordance index (C-index) ranking in the validation sets, and a predictive model was generated. Performance was assessed by C-index, receiver operating characteristic (ROC) analysis, and survival analysis. Biological relevance was evaluated through gene set enrichment analysis (GSEA), immune infiltration profiling, and immunohistochemistry (IHC). RESULTS: The FOXO-mediated transcription pathway combined with Lasso-RSF algorithms emerged as the top predictor. The derived FOXO-related signature (FRS) stratified patients into high-risk and low-risk groups, with high-risk patients showing significantly worse progression-free survival (PFS) and overall survival (OS) across all cohorts (p < 0.05). FRS outperformed clinical variables and 43 published models in predictive accuracy. IHC confirmed elevated expression of FRS-associated genes (PCK1, IGFBP1) in nonresponders. Immune profiling revealed enriched antitumor immunity in low-FRS patients. CONCLUSION: FRS, a machine learning-derived pathway signature, robustly predicts immunotherapy response and survival in NSCLC. Its integration of FOXO-mediated immune regulation offers a clinically translatable tool for precision oncology.",
+    "keywords": [
+      "FOXO-mediated transcription pathway",
+      "immune checkpoints",
+      "immune infiltration",
+      "immunotherapy",
+      "non-small cell lung cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/therapy/drug therapy/metabolism/mortality/pathology",
+      "*Lung Neoplasms/genetics/therapy/drug therapy/metabolism/mortality",
+      "*Forkhead Transcription Factors/genetics/metabolism",
+      "*Machine Learning",
+      "*Immunotherapy/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Biomarkers, Tumor/genetics",
+      "Female",
+      "Gene Expression Profiling",
+      "Male",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shuqi",
+        "Deng, Chenxi",
+        "Fan, Chaofan",
+        "Liang, Qiheng",
+        "Zhu, Lingxuan",
+        "Mou, Weiming",
+        "Huang, Hongsen",
+        "Wu, Keren",
+        "Li, Yizhang",
+        "Deng, Gengwen",
+        "Xu, Liling",
+        "Xie, Jiarui",
+        "Hong, Chenglin",
+        "Deng, Yuhang",
+        "Li, Xingjian",
+        "Wu, Changda",
+        "Yang, Tao",
+        "Luo, Peng",
+        "Wong, Hank Z H",
+        "Jiang, Aimin",
+        "Lin, Anqi",
+        "Chen, Xin",
+        "Ren, Minghua"
+      ],
+      "short_names": [
+        "Wu S",
+        "Deng C",
+        "Fan C",
+        "Liang Q",
+        "Zhu L",
+        "Mou W",
+        "Huang H",
+        "Wu K",
+        "Li Y",
+        "Deng G",
+        "Xu L",
+        "Xie J",
+        "Hong C",
+        "Deng Y",
+        "Li X",
+        "Wu C",
+        "Yang T",
+        "Luo P",
+        "Wong HZH",
+        "Jiang A",
+        "Lin A",
+        "Chen X",
+        "Ren M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6432-7999",
+        "ORCID: 0009-0001-9077-408X",
+        "ORCID: 0009-0007-1089-6516",
+        "ORCID: 0009-0009-3565-3486",
+        "ORCID: 0000-0002-8215-2045",
+        "ORCID: 0000-0002-9563-983X",
+        "ORCID: 0000-0002-6324-0410",
+        "ORCID: 0000-0002-1920-8835"
+      ],
+      "affiliations": [
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Urology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China, shsmu.edu.cn.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Medical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China, cacms.ac.cn.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China, hku.hk.",
+        "Department of Urology, Changhai Hospital, Naval Medical University (Second Military Medical University), Shanghai, China, chhospital.com.cn.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Urology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China, shsmu.edu.cn.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+        "Department of Medical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China, cacms.ac.cn.",
+        "Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China, hku.hk.",
+        "Department of Urology, Changhai Hospital, Naval Medical University (Second Military Medical University), Shanghai, China, chhospital.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shuqi",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Chenxi",
+        "short_name": "Deng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Fan, Chaofan",
+        "short_name": "Fan C",
+        "identifiers": [
+          "0000-0002-6432-7999"
+        ],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Qiheng",
+        "short_name": "Liang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lingxuan",
+        "short_name": "Zhu L",
+        "identifiers": [
+          "0009-0001-9077-408X"
+        ],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Mou, Weiming",
+        "short_name": "Mou W",
+        "identifiers": [
+          "0009-0007-1089-6516"
+        ],
+        "affiliations": [
+          "Department of Urology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China, shsmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Hongsen",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Keren",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yizhang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Gengwen",
+        "short_name": "Deng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Liling",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Xie, Jiarui",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Hong, Chenglin",
+        "short_name": "Hong C",
+        "identifiers": [
+          "0009-0009-3565-3486"
+        ],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Yuhang",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Li, Xingjian",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Changda",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Tao",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China, cacms.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [
+          "0000-0002-8215-2045"
+        ],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Wong, Hank Z H",
+        "short_name": "Wong HZH",
+        "identifiers": [],
+        "affiliations": [
+          "Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China, hku.hk."
+        ]
+      },
+      {
+        "full_name": "Jiang, Aimin",
+        "short_name": "Jiang A",
+        "identifiers": [
+          "0000-0002-9563-983X"
+        ],
+        "affiliations": [
+          "Department of Urology, Changhai Hospital, Naval Medical University (Second Military Medical University), Shanghai, China, chhospital.com.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Anqi",
+        "short_name": "Lin A",
+        "identifiers": [
+          "0000-0002-6324-0410"
+        ],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Xin",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0002-1920-8835"
+        ],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com."
+        ]
+      },
+      {
+        "full_name": "Ren, Minghua",
+        "short_name": "Ren M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "School of Stomatology, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "Department of Urology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China, shsmu.edu.cn.",
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China, fimmu.com.",
+          "Department of Medical Oncology, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China, cacms.ac.cn.",
+          "Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China, hku.hk.",
+          "Department of Urology, Changhai Hospital, Naval Medical University (Second Military Medical University), Shanghai, China, chhospital.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:32",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40267755",
+      "39789165",
+      "39507041",
+      "39502700",
+      "39495385",
+      "39225204",
+      "39001428",
+      "38953893",
+      "38939246",
+      "38867938",
+      "38830035",
+      "38641539",
+      "38594879",
+      "38554448",
+      "38539522",
+      "38405003",
+      "38389415",
+      "38179738",
+      "37879443",
+      "37820539",
+      "37633678",
+      "37489792",
+      "37443539",
+      "37396553",
+      "37027426",
+      "37024582",
+      "36923308",
+      "36822595",
+      "36788550",
+      "36639452",
+      "36635928",
+      "36313314",
+      "35726417",
+      "35331128",
+      "35223828",
+      "35159131",
+      "34747372",
+      "34557778",
+      "34273294",
+      "34249711",
+      "34220801",
+      "33354967",
+      "33177696",
+      "32759987",
+      "32372224",
+      "31757380",
+      "31697686",
+      "31537801",
+      "31526368",
+      "30741509",
+      "30115704",
+      "29684436",
+      "29567705",
+      "29410116",
+      "29329556",
+      "29309928",
+      "29155239",
+      "29141660",
+      "29081843",
+      "28808415",
+      "27979383",
+      "27718847",
+      "27192563",
+      "26970723",
+      "26643314",
+      "25882892",
+      "25822800",
+      "25605792",
+      "24113773",
+      "24027076",
+      "23903752",
+      "22455463",
+      "22437870",
+      "20838408",
+      "19815849",
+      "19319144",
+      "18452692",
+      "16199517"
+    ],
+    "similar": [
+      "41561639",
+      "41601635",
+      "41488620",
+      "41394854",
+      "42231301",
+      "42136648",
+      "41656832",
+      "41347091",
+      "28687838",
+      "41223031",
+      "41851738",
+      "42322411",
+      "40944717",
+      "39735553",
+      "41798945",
+      "40181378",
+      "31290993",
+      "38750370",
+      "41299753",
+      "42035196",
+      "41425595",
+      "39797413",
+      "38755433",
+      "41523912",
+      "40496857",
+      "42244292",
+      "39817633",
+      "40329352",
+      "42032980",
+      "41387877",
+      "41137329",
+      "33927719",
+      "39890699",
+      "42277693",
+      "39654181",
+      "41822495",
+      "39437487",
+      "39723204",
+      "41663976",
+      "40438100",
+      "42267455",
+      "40457349",
+      "42180906",
+      "39506771",
+      "39455880",
+      "42135732",
+      "31539267",
+      "40956482",
+      "41766864",
+      "35990668",
+      "42724399",
+      "40170009",
+      "41022600",
+      "40766320",
+      "41276092",
+      "39563352",
+      "35953696",
+      "41436831",
+      "40308576",
+      "39609690",
+      "41233664",
+      "39199281",
+      "34844602",
+      "30100403",
+      "40260244",
+      "31539077",
+      "40501221",
+      "39535375",
+      "40352269",
+      "41654892",
+      "33256552",
+      "40308604",
+      "41816460",
+      "39938068",
+      "40771813",
+      "41208987",
+      "33059196",
+      "32041817",
+      "39271765",
+      "42220507",
+      "35962453",
+      "39776905",
+      "40838069",
+      "40741868",
+      "40406139",
+      "41164195",
+      "39870964",
+      "40438115",
+      "39800199",
+      "41656804",
+      "41815152",
+      "34497605",
+      "40552903",
+      "37492563",
+      "30617131",
+      "41407509",
+      "42359574",
+      "41085960",
+      "40990022",
+      "40976828"
+    ],
+    "review": [
+      "41561639",
+      "31290993"
+    ],
+    "pmc": [
+      "12813880"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41561639/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/8690530",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

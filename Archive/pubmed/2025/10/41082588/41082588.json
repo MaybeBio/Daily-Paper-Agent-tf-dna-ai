@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41082588",
+    "doi": "10.1021/acs.jcim.5c01755",
+    "title": "Tandem Allosteric Effects of Reactant and Product that Promote Deacetylation Cycles in Sir2."
+  },
+  "content": {
+    "abstract": "Post-translational modifications play important roles in the regulation of protein function, with N(epsilon) acetylation being a key reversible modification affecting processes such as transcription, metabolism, and stress responses. Sirtuins, particularly SIRT1 and its ortholog, Sir2, are NAD+-dependent deacetylases that target both histone and nonhistone proteins, including the tumor suppressor p53. Acetylation of p53 on K382 influences its degradation and transcriptional activity. Despite structural studies of the Sir2/acetylated p53 complex, the role of the conserved cofactor-binding loop (CBL) in regulating NAD+ binding and deacetylation remains unclear. Using both conventional molecular dynamics (MD) and parallel cascade selection MD (PaCS-MD) simulations, we investigated the conformational dynamics of the Sir2/acetylated and nonacetylated p53 complexes, focusing on the conformational changes in the CBL of Sir2 in response to p53 acetylation. We identified open and closed states of the NAD+ binding pocket caused by CBL conformational changes depending on p53 acetylation and deacetylation. The forward allosteric effect of the acetylated p53 binding was found to open the NAD+-binding pocket, which is expected to promote NAD+ binding. In contrast, the binding of nonacetylated p53 is significantly weaker, and the reverse allosteric effect drives the pocket closure. These sequential allosteric effects positively accelerate the reaction cycle, which can be considered a \"tandem allostery of the reactant (acetylated p53) and the product (deacetylated p53)\". Combining these simulations with entropy transfer analysis, K382 was found to initiate multiple communication routes through strands beta7 and beta9, and the FEG loop, ultimately converging on the CBL via the helical small domain, the Rossmann-fold domain, or directly from p53, thereby highlighting the critical role of CBL in NAD+ binding and p53 deacetylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Acetylation",
+      "Allosteric Regulation",
+      "Tumor Suppressor Protein p53/metabolism/chemistry",
+      "*Sirtuin 2/metabolism/chemistry",
+      "NAD/metabolism",
+      "Humans",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bai, Zhen",
+        "Tran, Duy Phuoc",
+        "Kitao, Akio"
+      ],
+      "short_names": [
+        "Bai Z",
+        "Tran DP",
+        "Kitao A"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-1170-5296",
+        "ORCID: 0000-0001-8212-3706",
+        "ORCID: 0000-0002-5221-0806"
+      ],
+      "affiliations": [
+        "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan.",
+        "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan.",
+        "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bai, Zhen",
+        "short_name": "Bai Z",
+        "identifiers": [
+          "0009-0009-1170-5296"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Tran, Duy Phuoc",
+        "short_name": "Tran DP",
+        "identifiers": [
+          "0000-0001-8212-3706"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitao, Akio",
+        "short_name": "Kitao A",
+        "identifiers": [
+          "0000-0002-5221-0806"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, 2-12-2 Ookayama, Meguro, Tokyo 152-8550, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Oct 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/13 18:29",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38578072",
+      "37805934",
+      "37562019",
+      "37143582",
+      "37127974",
+      "37037265",
+      "36859359",
+      "35500056",
+      "35264667",
+      "35234033",
+      "35178333",
+      "34427523",
+      "34289043",
+      "33863900",
+      "33826699",
+      "32926622",
+      "32765955",
+      "32534517",
+      "32192337",
+      "31714766",
+      "31553614",
+      "31492861",
+      "31485032",
+      "31350538",
+      "30824861",
+      "30645121",
+      "29405707",
+      "28836357",
+      "28161493",
+      "28095404",
+      "27901083",
+      "27746255",
+      "27626385",
+      "27322406",
+      "27296530",
+      "27258188",
+      "26609600",
+      "26574340",
+      "26402733",
+      "26134520",
+      "25651062",
+      "25545885",
+      "25424540",
+      "25400877",
+      "25218422",
+      "24962284",
+      "24449617",
+      "23883057",
+      "23407358",
+      "23307867",
+      "22811431",
+      "22606048",
+      "22395773",
+      "21807603",
+      "21748595",
+      "21646537",
+      "21425296",
+      "21239213",
+      "21080423",
+      "20856692",
+      "20471503",
+      "19927155",
+      "19801667",
+      "19766737",
+      "19535340",
+      "17488841",
+      "16905097",
+      "16768447",
+      "15780941",
+      "15744310",
+      "15632193",
+      "15510160",
+      "15215472",
+      "15152190",
+      "15128440",
+      "15023335",
+      "14976264",
+      "14759370",
+      "14604530",
+      "12571358",
+      "12501191",
+      "12408821",
+      "12091395",
+      "12006491",
+      "11672523",
+      "11358492",
+      "11336676",
+      "10876243"
+    ],
+    "similar": [
+      "41082588",
+      "12220851",
+      "12408821",
+      "15274642",
+      "18722353",
+      "15150415",
+      "11672523",
+      "10811920",
+      "11134535",
+      "15078167",
+      "23307867",
+      "28273448",
+      "19731376",
+      "15632193",
+      "17595514",
+      "15716268",
+      "10693811",
+      "15749705",
+      "12571358",
+      "25950477",
+      "15780941",
+      "12899610",
+      "27791271",
+      "23840057",
+      "24379401",
+      "16388603",
+      "16156783",
+      "19801667",
+      "12091395",
+      "22731250",
+      "23416275",
+      "28506746",
+      "11935028",
+      "16520376",
+      "12297502",
+      "15023335",
+      "15907466",
+      "16131486",
+      "12006491",
+      "16006743",
+      "17172643",
+      "32831651",
+      "20726530",
+      "18753379",
+      "11095969",
+      "18203716",
+      "11336676",
+      "12939617",
+      "28845527",
+      "16012755",
+      "22474337",
+      "23311358",
+      "27226597",
+      "18786399",
+      "25159152",
+      "28412652",
+      "31881526",
+      "15126506",
+      "15721262",
+      "18165239",
+      "22998567",
+      "29595201",
+      "17283066",
+      "11672522",
+      "18235502",
+      "14612423",
+      "16537920",
+      "17289592",
+      "17620057",
+      "26712469",
+      "14982997",
+      "34947995",
+      "12024030",
+      "24020002",
+      "21541336",
+      "16438982",
+      "33315226",
+      "11099047",
+      "21748595",
+      "22539348",
+      "14522900",
+      "36030331",
+      "14522996",
+      "14980222",
+      "24120939",
+      "21245319",
+      "19828042",
+      "12426395",
+      "19782027",
+      "39465277",
+      "19303885",
+      "24814981",
+      "30050056",
+      "23583237",
+      "27735058",
+      "34748287",
+      "37937769",
+      "9288740",
+      "15506920",
+      "32531731"
+    ],
+    "review": [
+      "41082588",
+      "15078167",
+      "27791271",
+      "16156783",
+      "16006743",
+      "22998567",
+      "21748595"
+    ],
+    "pmc": [
+      "12570146"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41082588/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1567",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01755",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

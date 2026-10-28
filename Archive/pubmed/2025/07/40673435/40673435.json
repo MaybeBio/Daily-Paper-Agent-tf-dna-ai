@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40673435",
+    "doi": "10.7554/eLife.105565",
+    "title": "Interpretable protein-DNA interactions captured by structure-sequence optimization."
+  },
+  "content": {
+    "abstract": "Sequence-specific DNA recognition underlies essential processes in gene regulation, yet methods for simultaneous predictions of genomic DNA recognition sites and their binding affinity remain lacking. Here, we present the Interpretable protein-DNA Energy Associative (IDEA) model, a residue-level, interpretable biophysical model capable of predicting binding sites and affinities of DNA-binding proteins. By fusing structures and sequences of known protein-DNA complexes into an optimized energy model, IDEA enables direct interpretation of physicochemical interactions among individual amino acids and nucleotides. We demonstrate that this energy model can accurately predict DNA recognition sites and their binding strengths across various protein families. Additionally, the IDEA model is integrated into a coarse-grained simulation framework that quantitatively captures the absolute protein-DNA binding free energies. Overall, IDEA provides an integrated computational platform that alleviates experimental costs and biases in assessing DNA recognition and can be utilized for mechanistic studies of various DNA-recognition processes.",
+    "keywords": [
+      "data-driven modeling",
+      "genomic binding sites predictions",
+      "molecular biophysics",
+      "none",
+      "protein-DNA binding affinity prediction",
+      "sequence-specific simulation",
+      "structural biology",
+      "structure-sequence integration"
+    ],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry",
+      "Protein Binding",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Binding Sites",
+      "Models, Molecular",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yafan",
+        "Silvernail, Irene",
+        "Lin, Zhuyang",
+        "Lin, Xingcheng"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Silvernail I",
+        "Lin Z",
+        "Lin X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7867-2873",
+        "ORCID: 0009-0003-3070-974X",
+        "ORCID: 0009-0009-0480-7024",
+        "ORCID: 0000-0002-9378-6174"
+      ],
+      "affiliations": [
+        "Bioinformatics Research Center, North Carolina State University, Raleigh, United States.",
+        "Department of Physics, North Carolina State University, Raleigh, United States.",
+        "Bioinformatics Research Center, North Carolina State University, Raleigh, United States.",
+        "Bioinformatics Research Center, North Carolina State University, Raleigh, United States.",
+        "Department of Physics, North Carolina State University, Raleigh, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yafan",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-7867-2873"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Center, North Carolina State University, Raleigh, United States."
+        ]
+      },
+      {
+        "full_name": "Silvernail, Irene",
+        "short_name": "Silvernail I",
+        "identifiers": [
+          "0009-0003-3070-974X"
+        ],
+        "affiliations": [
+          "Department of Physics, North Carolina State University, Raleigh, United States."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhuyang",
+        "short_name": "Lin Z",
+        "identifiers": [
+          "0009-0009-0480-7024"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Center, North Carolina State University, Raleigh, United States."
+        ]
+      },
+      {
+        "full_name": "Lin, Xingcheng",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0002-9378-6174"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Center, North Carolina State University, Raleigh, United States.",
+          "Department of Physics, North Carolina State University, Raleigh, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Jul 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 12:30",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41910602"
+    ],
+    "refs": [
+      "39494533",
+      "39103447",
+      "38867914",
+      "38748791",
+      "38718835",
+      "38336958",
+      "38289342",
+      "38281252",
+      "38241144",
+      "38171929",
+      "37996753",
+      "37972190",
+      "37439339",
+      "36656856",
+      "36420884",
+      "36124796",
+      "36123148",
+      "36090450",
+      "36029149",
+      "35606422",
+      "34753115",
+      "34606614",
+      "34427974",
+      "34293799",
+      "34241389",
+      "34057467",
+      "33864768",
+      "33633365",
+      "33597548",
+      "33381817",
+      "33315308",
+      "33237325",
+      "33208532",
+      "33087930",
+      "32778600",
+      "32728046",
+      "31881828",
+      "31091895",
+      "30901550",
+      "30834322",
+      "29955037",
+      "29685391",
+      "29610332",
+      "29140473",
+      "29140464",
+      "29078285",
+      "28846090",
+      "28726847",
+      "28167566",
+      "28092692",
+      "27725965",
+      "27346641",
+      "27300314",
+      "26963394",
+      "26213851",
+      "25775564",
+      "25738806",
+      "25362344",
+      "25361282",
+      "25308991",
+      "24243859",
+      "24116642",
+      "23562153",
+      "23498934",
+      "23354101",
+      "23332764",
+      "23281567",
+      "23090257",
+      "23012409",
+      "22781841",
+      "22545654",
+      "21938619",
+      "21071403",
+      "21059937",
+      "20944598",
+      "20877328",
+      "20802496",
+      "20378718",
+      "19997069",
+      "19736561",
+      "19474294",
+      "19265799",
+      "18515839",
+      "18243105",
+      "17363974",
+      "17343470",
+      "17218526",
+      "17179217",
+      "16388589",
+      "16041365",
+      "15980461",
+      "15543148",
+      "15451667",
+      "12909011",
+      "12628246",
+      "12610534",
+      "11909516",
+      "11404456",
+      "11125145",
+      "10801360",
+      "10638745",
+      "9570129",
+      "9348663",
+      "8744570",
+      "3478708",
+      "2454748",
+      "2251503"
+    ],
+    "similar": [
+      "40673435",
+      "17900341",
+      "30933978",
+      "42475469",
+      "25113160",
+      "15504402",
+      "19439068",
+      "16246914",
+      "39103447",
+      "11913374",
+      "10090291",
+      "17277419",
+      "19343221",
+      "12169527",
+      "21787304",
+      "21343182",
+      "29806939",
+      "12419259",
+      "34415020",
+      "17785540",
+      "18586699",
+      "18922190",
+      "41131660",
+      "27384774",
+      "17269124",
+      "36656856",
+      "23345104",
+      "23966176",
+      "26527718",
+      "23703214",
+      "37953329",
+      "39357703",
+      "21106075",
+      "15751119",
+      "39818622",
+      "22966980",
+      "25756377",
+      "16515738",
+      "15673715",
+      "26285121",
+      "10891272",
+      "17316627",
+      "7702769",
+      "40874594",
+      "39576589",
+      "39616716",
+      "22868682",
+      "11800559",
+      "26196228",
+      "41791267",
+      "21620858",
+      "25313048",
+      "25484111",
+      "29588420",
+      "28155662",
+      "29608705",
+      "10656784",
+      "8735272",
+      "16249059",
+      "15869395",
+      "11024163",
+      "29040720",
+      "23790211",
+      "12419257",
+      "15613596",
+      "41311232",
+      "26092376",
+      "19911048",
+      "21090726",
+      "29536446",
+      "17947319",
+      "42349588",
+      "17038333",
+      "12945047",
+      "29610332",
+      "17990512",
+      "42348910",
+      "20658568",
+      "12126620",
+      "12533537",
+      "15465864",
+      "28155654",
+      "9439992",
+      "24448651",
+      "26370248",
+      "10228169",
+      "17646316",
+      "19008249",
+      "14990443",
+      "39028525",
+      "15720719",
+      "42377576",
+      "15003447",
+      "9548750",
+      "8180225",
+      "14671789",
+      "25443958",
+      "21737424",
+      "29091991",
+      "17035240"
+    ],
+    "review": [
+      "40673435",
+      "25756377",
+      "39616716",
+      "8735272",
+      "15869395",
+      "23790211",
+      "41311232",
+      "14671789"
+    ],
+    "pmc": [
+      "12270484"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40673435/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.105565",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

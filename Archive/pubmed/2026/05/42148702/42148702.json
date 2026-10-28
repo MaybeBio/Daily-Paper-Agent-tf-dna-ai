@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "42148702",
+    "doi": "10.1530/RAF-25-0210",
+    "title": "Machine learning and automation methods for the segmentation, classification and quantification of testicular tissue sections."
+  },
+  "content": {
+    "abstract": "ABSTRACT: Analysis of immunofluorescent images can be time-consuming and observer-dependant. We aimed to develop a standardised method for analysing immunofluorescent images of human and mouse testicular tissues using an existing software package. We used QuPath to train and apply an artificial neural network with multilayer perception (ANN-MLP) on images. We were able to automate the segmentation of cells in regions of interest (ROIs) using both StarDist (a convolution neural network) and Watershed image transformation. Segmented cells were classified using QuPath object classification system, which was successfully applied to a range of mouse and human interstitial, Sertoli and spermatogonial germ cell markers. We found that manual counting and classification of cells decoupled the relationship between tubular area and a number of SOX9+ (r 2 = 0.26, P = 0.35) and MAGE-A+ (r 2 = 0.26, P = 0.35) cells. However, automating the segmentation of ROIs and cell classification with simple macros yielded results that maintained the correlation between tubular area and number of SOX9+ (r 2 = 0.56, P = 0.03) and MAGE-A+ (r 2 = 0.93, P = 0.002) cells. In addition, we were able to export data into R/RStudio allowing for the analysis of classification-specific parameters such as mitotic index and cellular organisation in different regions of the tubule. Importantly, the time taken per image using the automated method was significantly faster (6,247 vs three seconds; P < 0.001) at segmenting tubules and quantifying cells than previous manual annotation methods. We propose the use of this method for analysis and cell quantification in testicular tissues. LAY SUMMARY: Machine learning (ML) is a type of algorithm that forms part of artificial intelligence (AI). ML is able to learn, detect and predict sequences and structures such as words in sentences or objects in images. ML combined with the ability of modern computers to process large quantities of data and perform repetitive tasks in an automated way makes it an attractive research tool. In particular, the analysis of images taken from a microscope of patient or experimental samples is one area in which ML can excel. We found that open-source software containing ML could be trained on as few as six images. Once trained, the machine learning algorithm could analyse an image in approximately one minute. The same image would take a skilled researcher nearly two hours to analyse. In addition to speed, ML was able to do this more accurately and consistently as well as being automated by a simple piece of code.",
+    "keywords": [
+      "cell quantification",
+      "germ cells",
+      "human",
+      "machine learning",
+      "testis"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Testis/cytology",
+      "*Machine Learning",
+      "Animals",
+      "Mice",
+      "*Image Processing, Computer-Assisted/methods",
+      "Neural Networks, Computer",
+      "SOX9 Transcription Factor/metabolism",
+      "Automation",
+      "Spermatogonia"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gadd, Adam J R",
+        "Sanou, Iris",
+        "Brain, Eleanor",
+        "Davies, Jill",
+        "Liugaila, Adomas",
+        "Duffin, Kathleen",
+        "Stefansdottir, Agnes",
+        "Mitchell, Rod T"
+      ],
+      "short_names": [
+        "Gadd AJR",
+        "Sanou I",
+        "Brain E",
+        "Davies J",
+        "Liugaila A",
+        "Duffin K",
+        "Stefansdottir A",
+        "Mitchell RT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8632-2363",
+        "ORCID: 0009-0003-0508-9585",
+        "ORCID: 0000-0002-2324-672X",
+        "ORCID: 0000-0003-4650-3765"
+      ],
+      "affiliations": [
+        "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+        "Reproductive Biology Laboratory, Centre for Reproductive Medicine, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Amsterdam Reproduction & Development Research Institute, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Royal Hospital for Children & Young People, Edinburgh, UK.",
+        "Oxford Cell and Tissue Biobank, John Radcliffe Hospital, Oxford University Hospitals NHS Trust, Oxford, UK.",
+        "Biomedical Sciences, Edinburgh Medical School, The University of Edinburgh, Edinburgh, UK.",
+        "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+        "Royal Hospital for Children & Young People, Edinburgh, UK.",
+        "Biomedical Sciences, Edinburgh Medical School, The University of Edinburgh, Edinburgh, UK.",
+        "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+        "Royal Hospital for Children & Young People, Edinburgh, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gadd, Adam J R",
+        "short_name": "Gadd AJR",
+        "identifiers": [
+          "0000-0002-8632-2363"
+        ],
+        "affiliations": [
+          "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Sanou, Iris",
+        "short_name": "Sanou I",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Biology Laboratory, Centre for Reproductive Medicine, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Amsterdam Reproduction & Development Research Institute, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Brain, Eleanor",
+        "short_name": "Brain E",
+        "identifiers": [],
+        "affiliations": [
+          "Royal Hospital for Children & Young People, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Davies, Jill",
+        "short_name": "Davies J",
+        "identifiers": [],
+        "affiliations": [
+          "Oxford Cell and Tissue Biobank, John Radcliffe Hospital, Oxford University Hospitals NHS Trust, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Liugaila, Adomas",
+        "short_name": "Liugaila A",
+        "identifiers": [
+          "0009-0003-0508-9585"
+        ],
+        "affiliations": [
+          "Biomedical Sciences, Edinburgh Medical School, The University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Duffin, Kathleen",
+        "short_name": "Duffin K",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+          "Royal Hospital for Children & Young People, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Stefansdottir, Agnes",
+        "short_name": "Stefansdottir A",
+        "identifiers": [
+          "0000-0002-2324-672X"
+        ],
+        "affiliations": [
+          "Biomedical Sciences, Edinburgh Medical School, The University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Mitchell, Rod T",
+        "short_name": "Mitchell RT",
+        "identifiers": [
+          "0000-0003-4650-3765"
+        ],
+        "affiliations": [
+          "Centre for Reproductive Health, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+          "Royal Hospital for Children & Young People, Edinburgh, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproduction & fertility"
+    ],
+    "journal_abbrev": [
+      "Reprod Fertil"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 12:43",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39897057",
+      "39836027",
+      "38810989",
+      "38449521",
+      "36835083",
+      "36461763",
+      "36264128",
+      "36214638",
+      "33676102",
+      "33425685",
+      "33150486",
+      "31928944",
+      "31640294",
+      "31111889",
+      "29203879",
+      "29091264",
+      "28214419",
+      "27020005",
+      "26537427",
+      "26131851",
+      "25873571",
+      "25030892",
+      "24979972",
+      "24488779",
+      "24071849",
+      "23715323",
+      "19332714",
+      "18694875"
+    ],
+    "similar": [
+      "42148702",
+      "40183298",
+      "39836027",
+      "33459255",
+      "32803890",
+      "39716935",
+      "30612574",
+      "28267565",
+      "38901416",
+      "41848572",
+      "32474081",
+      "28130393",
+      "32423529",
+      "29304256",
+      "35388957",
+      "33542924",
+      "31859366",
+      "27754580",
+      "34426987",
+      "42396278",
+      "41907466",
+      "39639089",
+      "30840685",
+      "36321557",
+      "31760248",
+      "42475469",
+      "38436455",
+      "42081477",
+      "30753464",
+      "40324481",
+      "39921756",
+      "23282059",
+      "38298445",
+      "30444917",
+      "10927155",
+      "39369206",
+      "41370219",
+      "33781383",
+      "39724530",
+      "32929660",
+      "39167059",
+      "22894417",
+      "38250147",
+      "33438635",
+      "41337260",
+      "30195423",
+      "33729153",
+      "22971117",
+      "32364173",
+      "29040674",
+      "35399225",
+      "28254085",
+      "30636630",
+      "27470502",
+      "34925485",
+      "26098834",
+      "35139795",
+      "41797471",
+      "31274194",
+      "28035663",
+      "39753735",
+      "35022925",
+      "30480818",
+      "31759371",
+      "41062539",
+      "33861785",
+      "34648121",
+      "28369535",
+      "30735268",
+      "28549410",
+      "30153844",
+      "31133239",
+      "33074102",
+      "30217194",
+      "29540156",
+      "39997561",
+      "26405262",
+      "38409608",
+      "39198007",
+      "34624013",
+      "35851958",
+      "37863613",
+      "38409878",
+      "24320515",
+      "39576677",
+      "30865716",
+      "34130628",
+      "33456586",
+      "40976182",
+      "40482072",
+      "32277478",
+      "36156440",
+      "36899501",
+      "39695183",
+      "36402366",
+      "33158632",
+      "41229247",
+      "30136285",
+      "39912494",
+      "36214638"
+    ],
+    "review": [
+      "42148702",
+      "36321557",
+      "30195423",
+      "39997561"
+    ],
+    "pmc": [
+      "13232597"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42148702/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.bioscientifica.com/RAF/article-lookup/doi/10.1530/RAF-25-0210",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

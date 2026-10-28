@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors propose TFBert, a BERT variant with task-specific pre-training on 690 unlabeled ChIP-seq datasets, for DNA-protein binding prediction. They report an average AUC of 94.7% across these datasets after fine-tuning, outperforming existing methods, with particular gains on small datasets.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, dataset descriptions, baseline comparisons, statistical significance testing, hyperparameter settings, and evaluation protocols are not available
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of BERT-style pre-training to DNA-protein binding prediction, with a potentially interesting emphasis on task-specific pre-training using ChIP-seq data. However, the evidence provided is insufficient to evaluate the validity of the central claims. Key details on data processing, model architecture, training procedure, and comparative evaluation are absent. The reported average AUC of 94.7% is striking but cannot be assessed without knowing the evaluation protocol, class balance, and baseline conditions. The claim of state-of-the-art performance is not supported by the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing deep learning models for sequence-function prediction. Researchers interested in transfer learning and pre-training strategies for biological sequences may also find the approach relevant.
+- **Major strengths** The idea of task-specific pre-training on large-scale ChIP-seq data is conceptually reasonable and may address limitations of generic genomic language models. The reported performance on small datasets, if confirmed, would be practically valuable given the scarcity of labeled data in many regulatory genomics applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves an average AUC of 94.7% across 690 ChIP-seq datasets after fine-tuning, outperforming existing popular methods.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single average AUC value without specifying the evaluation protocol, such as train-test splits, cross-validation strategy, or whether performance is measured on held-out chromosomes or random splits. The class balance of the datasets and the threshold for defining binding sites are also unspecified. Without these details, the reported AUC cannot be interpreted or compared fairly with other methods.
+  - **Why it matters** AUC values are highly sensitive to evaluation design. If the evaluation uses random splits, the reported performance may reflect sequence similarity leakage rather than genuine generalization. The claim of outperforming existing methods requires identical evaluation conditions, which cannot be verified from the abstract.
+  - **Resolution test** Provide a detailed evaluation protocol including data partitioning, performance metrics per dataset, and statistical comparison with baselines under identical conditions. Report confidence intervals or significance tests for the average AUC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model is pre-trained on 690 unlabeled ChIP-seq datasets and can effectively extract upstream and downstream nucleotide context information.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how the 690 ChIP-seq datasets are processed into a unified pre-training corpus, how k-mer tokenization is applied, or what the pre-training objective is beyond the generic BERT masked language modeling. The term "task-specific pre-training" is not defined with respect to how the pre-training data relate to the downstream binding prediction tasks.
+  - **Why it matters** The novelty of the approach hinges on the task-specific pre-training strategy. Without a clear description of the pre-training data construction and objective, the contribution relative to existing genomic BERT models cannot be assessed.
+  - **Resolution test** Describe the pre-training corpus construction, tokenization scheme, model architecture, and pre-training objective in detail. Clarify what makes the pre-training task-specific rather than generic.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The model achieves state-of-the-art results in predicting DNA-protein bindings.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions "existing popular methods" but does not name them or provide comparative results. The claim of state-of-the-art performance is therefore unverifiable. Additionally, the scope of comparison is unclear, for example whether it includes other deep learning models, motif-based methods, or classical machine learning approaches.
+  - **Why it matters** A state-of-the-art claim requires a defined baseline set and a fair comparison. Without this, the scientific contribution cannot be positioned relative to the field.
+  - **Resolution test** List the baseline methods, report their performance on the same datasets under the same evaluation protocol, and provide statistical tests for differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "task-specific pre-training" is used without explanation. Readers unfamiliar with transfer learning may not understand what distinguishes this from standard pre-training.
+  - **Required correction** Define the term explicitly in the abstract or introduction, for example by stating that the pre-training data are drawn from the same domain as the downstream tasks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the source or accession identifiers of the 690 ChIP-seq datasets, nor the species or cell types covered.
+  - **Required correction** Provide dataset sources and accession numbers, and describe the diversity of the data in terms of transcription factors and cell types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that performance is "especially" improved on small datasets is not quantified.
+  - **Required correction** Report performance stratified by dataset size, for example by binning datasets into size groups and showing AUC for each group.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The idea of task-specific pre-training on ChIP-seq data is moderately original, but the abstract does not clearly differentiate it from existing genomic BERT models. Scientific importance: DNA-protein binding prediction is a relevant problem, and improved performance on small datasets would be valuable, but the importance claim is not substantiated. Interdisciplinary readership: The abstract is accessible to computational biologists but may be too technical for a broader readership without more context. Technical soundness: Not assessable from the abstract due to missing methodological and evaluation details. Readability for nonspecialists: The abstract is concise but uses terms such as "k-mer nucleotides" and "unlabeled ChIP-seq datasets" without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach, but the central claims of performance and state-of-the-art status cannot be evaluated without full methodological and comparative details.
+
+## Risk / unsupported claims
+- The average AUC of 94.7% is unsupported without a defined evaluation protocol and baseline comparisons.
+- The claim of state-of-the-art performance is unsupported as no baseline methods or results are named.
+- The claim that the model "effectively extracts upstream and downstream nucleotide context information" is not directly evidenced.
+- The claim of particular effectiveness on small datasets is not quantified.
+- The general statement that TFBert "can provide insights into other biological sequence classification problems" is speculative and not supported by the presented results.

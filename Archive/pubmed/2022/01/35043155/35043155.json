@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "35043155",
+    "doi": "10.1093/bib/bbab524",
+    "title": "TP53_PROF: a machine learning model to predict impact of missense mutations in TP53."
+  },
+  "content": {
+    "abstract": "Correctly identifying the true driver mutations in a patient's tumor is a major challenge in precision oncology. Most efforts address frequent mutations, leaving medium- and low-frequency variants mostly unaddressed. For TP53, this identification is crucial for both somatic and germline mutations, with the latter associated with the Li-Fraumeni syndrome (LFS), a multiorgan cancer predisposition. We present TP53_PROF (prediction of functionality), a gene specific machine learning model to predict the functional consequences of every possible missense mutation in TP53, integrating human cell- and yeast-based functional assays scores along with computational scores. Variants were labeled for the training set using well-defined criteria of prevalence in four cancer genomics databases. The model's predictions provided accuracy of 96.5%. They were validated experimentally, and were compared to population data, LFS datasets, ClinVar annotations and to TCGA survival data. Very high accuracy was shown through all methods of validation. TP53_PROF allows accurate classification of TP53 missense mutations applicable for clinical practice. Our gene specific approach integrated machine learning, highly reliable features and biological knowledge, to create an unprecedented, thoroughly validated and clinically oriented classification model. This approach currently addresses TP53 mutations and will be applied in the future to other important cancer genes.",
+    "keywords": [
+      "TP53",
+      "Li-Fraumeni syndrome",
+      "genetic counseling",
+      "machine learning",
+      "personalized oncology",
+      "precision medicine"
+    ],
+    "mesh_terms": [
+      "Genetic Predisposition to Disease",
+      "Humans",
+      "*Li-Fraumeni Syndrome/genetics",
+      "Machine Learning",
+      "*Mutation, Missense",
+      "Precision Medicine",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ben-Cohen, Gil",
+        "Doffe, Flora",
+        "Devir, Michal",
+        "Leroy, Bernard",
+        "Soussi, Thierry",
+        "Rosenberg, Shai"
+      ],
+      "short_names": [
+        "Ben-Cohen G",
+        "Doffe F",
+        "Devir M",
+        "Leroy B",
+        "Soussi T",
+        "Rosenberg S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8857-6124"
+      ],
+      "affiliations": [
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+        "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+        "INSERM UMR 1186, Integrative Tumor Immunology and Immunotherapy, Gustave Roussy, Faculte de Medecine, Universite Paris-Sud, Universite Paris-Saclay, 94805 Villejuif, France.",
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+        "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+        "Sorbonne Universite, UPMC Univ Paris 06, F- 75005 Paris, France.",
+        "Sorbonne Universite, UPMC Univ Paris 06, F- 75005 Paris, France.",
+        "INSERM, U1138, Centre de Recherche des Cordeliers, Paris, France.",
+        "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden.",
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+        "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ben-Cohen, Gil",
+        "short_name": "Ben-Cohen G",
+        "identifiers": [
+          "0000-0001-8857-6124"
+        ],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+          "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Doffe, Flora",
+        "short_name": "Doffe F",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM UMR 1186, Integrative Tumor Immunology and Immunotherapy, Gustave Roussy, Faculté de Médecine, Université Paris-Sud, Université Paris-Saclay, 94805 Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Devir, Michal",
+        "short_name": "Devir M",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+          "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Leroy, Bernard",
+        "short_name": "Leroy B",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, UPMC Univ Paris 06, F- 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Soussi, Thierry",
+        "short_name": "Soussi T",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, UPMC Univ Paris 06, F- 75005 Paris, France.",
+          "INSERM, U1138, Centre de Recherche des Cordeliers, Paris, France.",
+          "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rosenberg, Shai",
+        "short_name": "Rosenberg S",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel.",
+          "The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Mar 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/20 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42000728",
+      "41022739",
+      "40796919",
+      "39634561",
+      "39304718",
+      "38102383",
+      "38018912",
+      "37972971",
+      "37795169",
+      "37352403"
+    ],
+    "refs": [
+      "34707284",
+      "34230640",
+      "33257846",
+      "33230179",
+      "32817165",
+      "32675277",
+      "32079540",
+      "31892348",
+      "31719099",
+      "31509758",
+      "31365877",
+      "31321604",
+      "30720243",
+      "30224644",
+      "30193102",
+      "29775997",
+      "29592813",
+      "29467486",
+      "29247016",
+      "29165669",
+      "29076966",
+      "29070607",
+      "28890946",
+      "28886379",
+      "28481359",
+      "28270529",
+      "28254861",
+      "28166811",
+      "28125075",
+      "27895058",
+      "27866339",
+      "27666373",
+      "27535533",
+      "27496084",
+      "26931183",
+      "26689913",
+      "26437032",
+      "26304871",
+      "25759023",
+      "25741868",
+      "24836576",
+      "24665023",
+      "24234437",
+      "24071851",
+      "23665223",
+      "23580068",
+      "23161690",
+      "22356324",
+      "21520341",
+      "20471942",
+      "19692681",
+      "19654296",
+      "19556618",
+      "16522644",
+      "16278824",
+      "16007150",
+      "15580553",
+      "12826609",
+      "10653977",
+      "8062826",
+      "8035799"
+    ],
+    "similar": [
+      "35043155",
+      "27714481",
+      "34198491",
+      "30840781",
+      "22507745",
+      "28573494",
+      "23172776",
+      "21484931",
+      "19602465",
+      "32998877",
+      "26086041",
+      "24122735",
+      "34273903",
+      "24706533",
+      "19556618",
+      "28369373",
+      "20522432",
+      "28137790",
+      "24775443",
+      "16494995",
+      "31321604",
+      "23667851",
+      "18511570",
+      "30240537",
+      "12619118",
+      "25762628",
+      "19952748",
+      "26956143",
+      "23411951",
+      "27297285",
+      "28477317",
+      "29070607",
+      "20501846",
+      "31296311",
+      "28911001",
+      "27984644",
+      "30886117",
+      "19542078",
+      "22170717",
+      "19127115",
+      "12710683",
+      "30709381",
+      "30086788",
+      "25981898",
+      "30974190",
+      "14583457",
+      "31081129",
+      "32179180",
+      "34961499",
+      "25683625",
+      "10484981",
+      "23580068",
+      "21305319",
+      "29392648",
+      "28279309",
+      "26014290",
+      "30607672",
+      "28509937",
+      "10660104",
+      "30531145",
+      "26823150",
+      "31105275",
+      "28902083",
+      "9242456",
+      "31719099",
+      "31533767",
+      "15298965",
+      "32457520",
+      "29581140",
+      "25896519",
+      "23355100",
+      "29076966",
+      "22233476",
+      "21552135",
+      "27516001",
+      "9764816",
+      "7783166",
+      "19468865",
+      "30216591",
+      "9302689",
+      "30076369",
+      "17003841",
+      "38018912",
+      "29775997",
+      "39140857",
+      "34768775",
+      "37201251",
+      "33257846",
+      "31202631",
+      "27328919",
+      "30060008",
+      "35620468",
+      "37817080",
+      "37655432",
+      "35901354",
+      "34432150",
+      "35545680",
+      "38047081",
+      "39253604",
+      "37649392",
+      "36611079",
+      "37598215",
+      "38066711",
+      "39192324",
+      "38135759",
+      "37645796",
+      "35846154",
+      "37693464",
+      "36965820",
+      "38096097",
+      "37976823",
+      "33441128",
+      "38032742",
+      "36266243",
+      "35687855",
+      "38014015",
+      "38509890",
+      "38647510",
+      "37168354"
+    ],
+    "review": [
+      "35043155",
+      "24706533",
+      "30240537",
+      "12619118",
+      "19952748",
+      "27984644",
+      "12710683",
+      "31533767",
+      "29581140",
+      "23355100",
+      "29076966",
+      "9302689",
+      "36965820"
+    ],
+    "pmc": [
+      "8921628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35043155.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35043155/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35043155",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35043155",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35043155",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab524",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

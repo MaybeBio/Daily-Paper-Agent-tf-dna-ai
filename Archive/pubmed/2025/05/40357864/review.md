@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that conserved residues Glu 21 and Asp 23 of Staphylococcus aureus RsbV are critical for maintaining protein structure, and that Asp 23 specifically influences phosphorylation by and interaction with the anti-sigma factor RsbW, based on molecular dynamics simulations and in vitro mutagenesis experiments.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, sequence alignment data, MD simulation parameters, and experimental raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially valuable investigation into the functional roles of two conserved residues in a bacterial stress response protein. The combination of computational prediction and experimental validation is commendable. However, the abstract provides insufficient methodological detail and quantitative results to fully assess the robustness of the claims. The central conclusion that both residues are critical for structure, with Asp 23 additionally affecting RsbW interaction, is plausible but not fully verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying bacterial stress response mechanisms, particularly the sigma(B) regulatory pathway in staphylococci; structural biologists interested in anti-anti-sigma factor function; and investigators working on protein-protein interaction interfaces in bacterial signaling systems.
+- **Major strengths** The study addresses a specific and mechanistically relevant question about conserved residues in a well-defined biological pathway. The use of both computational (MD simulation) and experimental (site-directed mutagenesis, in vitro assays) approaches provides complementary evidence. The identification of differential effects between Glu 21 and Asp 23 adds nuance to the understanding of RsbV function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "both Glu 21 and Asp 23 are critical for preserving the structure of RsbV" is presented as a definitive conclusion.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract states that MD simulations "indicate" structural maintenance and that in vitro results "reveal" critical roles, but no specific data are provided. The nature of the structural defects (e.g., loss of secondary structure, aggregation, altered stability) is not described, nor are the assays used to assess structure (e.g., circular dichroism, fluorescence, size exclusion chromatography) identified.
+  - **Why it matters** Without specifying the structural readouts and the magnitude of observed changes, the reader cannot evaluate whether the effects are biologically meaningful or merely minor perturbations. The claim of "critical" roles requires quantitative evidence of substantial structural disruption.
+  - **Resolution test** Provide specific structural data (e.g., CD spectra, melting temperatures, hydrodynamic radii) for wild-type and mutant proteins, with statistical comparisons, demonstrating significant structural differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the Asp 23 mutant "was very little phosphorylated by RsbW" and "showed a weaker interaction with RsbW" compared to the Glu 21 mutant.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract reports differential phosphorylation and interaction effects for the Asp 23 mutant but provides no quantitative data. The extent of phosphorylation reduction, the assay used (e.g., radioactive kinase assay, phospho-specific antibodies), and the interaction measurement method (e.g., pull-down, surface plasmon resonance, isothermal titration calorimetry) are not stated. The comparison between the two mutants is described qualitatively without statistical support.
+  - **Why it matters** The differential effect on Asp 23 is a key finding that distinguishes its role from Glu 21. Without quantitative data and appropriate controls, the claim that Asp 23 specifically affects RsbW binding and phosphorylation cannot be rigorously evaluated.
+  - **Resolution test** Provide quantitative phosphorylation kinetics (e.g., initial rates, maximal phosphorylation levels) and binding affinities (e.g., Kd values) for wild-type and both mutants, with error bars and statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The claim that Glu 21 and Asp 23 are conserved residues, whereas Tyr 54 is semi-conserved, based on sequence analysis.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract states conservation status but does not specify the sequence alignment scope (e.g., number of species, taxonomic range) or the criteria for defining "conserved" versus "semi-conserved." The previous modeling study suggesting interactions with Arg 23 is mentioned but not critically evaluated in light of the new experimental data.
+  - **Why it matters** Conservation analysis underpins the rationale for selecting these residues for mutagenesis. Without clear alignment parameters, the significance of the conservation claim is unclear, and the relationship between the modeling prediction and the experimental findings is not fully explored.
+  - **Resolution test** Describe the sequence alignment methodology, including the number and diversity of sequences analyzed, and define the conservation thresholds used. Discuss whether the experimental results support or refine the earlier modeling predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The abstract introduces sigma(B), RsbW, and RsbV but does not clearly explain the biological context of the stress response or why the RsbV-RsbW interaction is functionally important beyond transcription initiation.
+  - **Required correction** Add one or two sentences providing broader context on the physiological role of the sigma(B) pathway in staphylococcal stress survival.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract results
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The phrase "elaborately investigated" is vague and does not convey the specific experimental approaches used.
+  - **Required correction** Replace with a concise list of the in vitro techniques employed (e.g., "using circular dichroism spectroscopy, phosphorylation assays, and pull-down experiments").
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The statement that "the ways Glu 21 and Asp 23 keep various properties of RsbV intact have been discussed at length" is a placeholder that does not summarize the proposed mechanisms.
+  - **Required correction** Provide a brief summary of the proposed mechanistic roles (e.g., involvement in hydrophobic core packing, electrostatic interactions with RsbW, or stabilization of a specific loop).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks quantitative structural and biochemical data necessary to support the central claims. The absence of methodological details for the MD simulations and in vitro assays further limits assessment.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific gap in understanding RsbV residue function, but the overall concept of mutagenesis to probe protein function is not novel. Scientific importance: The findings could inform understanding of bacterial stress responses, but the significance is moderate and limited to a narrow specialist audience. Interdisciplinary readership: The topic is primarily of interest to microbiologists and protein biochemists; broader appeal is limited. Technical soundness: Cannot be fully assessed from the abstract; the lack of quantitative data and methodological detail prevents verification. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with the sigma(B) regulatory system; the mechanistic discussion is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary findings, but the lack of quantitative data and methodological transparency precludes a definitive assessment. The authors should provide the full manuscript with detailed experimental results to support the claims.
+
+## Risk / unsupported claims
+- The claim that Glu 21 and Asp 23 are "critical" for preserving RsbV structure is unsupported without quantitative structural data.
+- The claim that the Asp 23 mutant is "very little phosphorylated" and shows "weaker interaction" with RsbW is unsupported without quantitative assay results.
+- The conservation status of Glu 21, Asp 23, and Tyr 54 is not verifiable without alignment details.
+- The relationship between the earlier modeling study and the current experimental findings is not critically assessed.
+- The proposed mechanisms by which Glu 21 and Asp 23 maintain RsbV properties are not summarized in the abstract and thus cannot be evaluated.

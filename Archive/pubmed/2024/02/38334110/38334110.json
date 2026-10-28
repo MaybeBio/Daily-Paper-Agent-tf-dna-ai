@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "38334110",
+    "doi": "10.1080/07391102.2024.2311344",
+    "title": "A comprehensive bioinformatics analysis identifies mitophagy biomarkers and potential Molecular mechanisms in hypertensive nephropathy."
+  },
+  "content": {
+    "abstract": "Mitophagy, the selective removal of damaged mitochondria, plays a critical role in kidney diseases, but its involvement in hypertensive nephropathy (HTN) is not well understood. To address this gap, we investigated mitophagy-related genes in HTN, identifying potential biomarkers for diagnosis and treatment. Transcriptome datasets from the Gene Expression Omnibus database were analyzed, resulting in the identification of seven mitophagy related differentially expressed genes (MR-DEGs), namely PINK1, ULK1, SQSTM1, ATG5, ATG12, MFN2, and UBA52. Further, we explored the correlation between MR-DEGs, immune cells, and inflammatory factors. The identified genes demonstrated a strong correlation with Mast cells, T-cells, TGFbeta3, IL13, and CSF3. Machine learning techniques were employed to screen important genes, construct diagnostic models, and evaluate their accuracy. Consensus clustering divided the HTN patients into two mitophagy subgroups, with Subgroup 2 showing higher levels of immune cell infiltration and inflammatory factors. The functions of their proteins primarily involve complement, coagulation, lipids, and vascular smooth muscle contraction. Single-cell RNA sequencing revealed that mitophagy was most significant in proximal tubule cells (PTC) in HTN patients. Pseudotime analysis of PTC confirmed the expression changes observed in the transcriptome. Intercellular communication analysis suggested that mitophagy might regulate PTC's participation in intercellular crosstalk. Notably, specific transcription factors such as HNF4A, PPARA, and STAT3 showed strong correlations with mitophagy-related genes in PTC, indicating their potential role in modulating PTC function and influencing the onset and progression of HTN. This study offers a comprehensive analysis of mitophagy in HTN, enhancing our understanding of the pathogenesis, diagnosis, and treatment of HTN.",
+    "keywords": [
+      "Hypertensive nephropathy",
+      "biomarkers",
+      "mitophagy",
+      "proximal tubule cells",
+      "single cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Mitophagy/genetics",
+      "*Biomarkers/metabolism",
+      "*Nephritis/genetics/metabolism/pathology",
+      "*Hypertension, Renal/genetics/metabolism/pathology/diagnosis",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Mitochondria/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Introductory Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jiayou",
+        "Feng, Luda",
+        "Jia, Qi",
+        "Meng, Jia",
+        "Zhao, Yun",
+        "Ren, Lei",
+        "Yan, Ziming",
+        "Wang, Manrui",
+        "Qin, Jianguo"
+      ],
+      "short_names": [
+        "Liu J",
+        "Feng L",
+        "Jia Q",
+        "Meng J",
+        "Zhao Y",
+        "Ren L",
+        "Yan Z",
+        "Wang M",
+        "Qin J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Clinical Medical College, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "The Second Clinical Medical College, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jiayou",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Luda",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Qi",
+        "short_name": "Jia Q",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Jia",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yun",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Lei",
+        "short_name": "Ren L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Ziming",
+        "short_name": "Yan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Manrui",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Jianguo",
+        "short_name": "Qin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Introductory Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/09 12:44",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38334110",
+      "42113322",
+      "41165032",
+      "40313958",
+      "40503237",
+      "39265357",
+      "41479901",
+      "42074012",
+      "40032896",
+      "41563994",
+      "41703488",
+      "39284527",
+      "41146237",
+      "40374866",
+      "41184495",
+      "42565562",
+      "42295138",
+      "40216809",
+      "40742465",
+      "40598168",
+      "41792398",
+      "40873580",
+      "40312440",
+      "39509434",
+      "40406126",
+      "41668326",
+      "41200172",
+      "39406802",
+      "40966021",
+      "40532306",
+      "37745856",
+      "33176720",
+      "38694511",
+      "40263537",
+      "41044520",
+      "41583468",
+      "39872885",
+      "42123445",
+      "39950319",
+      "37897949",
+      "39799269",
+      "41326582",
+      "39026663",
+      "38690269",
+      "28713898",
+      "42473750",
+      "38951833",
+      "42120472",
+      "27756246",
+      "40859550",
+      "41716396",
+      "37098514",
+      "40350654",
+      "39991151",
+      "39779817",
+      "41052072",
+      "29328390",
+      "41388523",
+      "41810912",
+      "41013727",
+      "39513696",
+      "41789070",
+      "39937929",
+      "41316541",
+      "42387880",
+      "41588925",
+      "42568110",
+      "41132649",
+      "40374840",
+      "39375405",
+      "37287971",
+      "40671345",
+      "40461634",
+      "42642681",
+      "40943308",
+      "41873208",
+      "39512836",
+      "38863714",
+      "40574839",
+      "41239605",
+      "40196107",
+      "39507054",
+      "39430765",
+      "40596704",
+      "40258895",
+      "40751069",
+      "35958412",
+      "40247093",
+      "40799650",
+      "41305746",
+      "39920860",
+      "38660311",
+      "41756296",
+      "42059276",
+      "40129981",
+      "42040898",
+      "40124361",
+      "42015036",
+      "42363525",
+      "41300749"
+    ],
+    "review": [
+      "38334110"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2311344?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2311344",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42415400",
+  "title": "OpenCafeMol With 3SPN.2 DNA Model: GPU Acceleration for Long-Time Coarse-Grained Chromatin Simulations.",
+  "authors": "Yamauchi, Masataka; Murata, Yutaka; Niina, Toru; Takada, Shoji",
+  "journal": "Journal of computational chemistry",
+  "published_date": "2026-07-08",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发GPU加速的粗粒化MD模拟器OpenCafeMol，支持3SPN.2 DNA模型并模拟SMC蛋白-DNA复合物的DNA易位与环挤压机制，属于蛋白质-DNA互作动态机理的物理模拟研究，方法可迁移至TF-DNA体系。",
+  "abstract": "There is a growing demand for molecular dynamics simulations to explore longer timescale behavior of giant protein-DNA complexes such as chromatin. To address this need, we extended OpenCafeMol, a GPU-accelerated residue-level coarse-grained molecular dynamics simulator originally developed for proteins and lipids, to support 3SPN.2 and 3SPN.2C DNA models. We also implemented a hydrogen-bond-type many-body potential to model DNA-protein interactions more accurately. To further improve computational efficiency, we introduced a localized scheme for calculating base-pairing and cross-stacking interactions. Benchmark tests show that OpenCafeMol on a single GPU achieves up to 200-fold speed-up for DNA-only systems and up to 100-fold speed-up for DNA-protein complexes compared to CPU-based simulations. To demonstrate the capability of our implementation for long-timescale biological processes, we simulated an archaeal SMC-ScpA complex undergoing DNA translocation via segment capture (a proposed mechanism for DNA loop extrusion) in the presence of a DNA-bound obstacle. We observed continuous captured-loop growth accompanied by obstacle bypass within the segment capture framework.",
+  "abstract_zh": "对分子动力学模拟的需求日益增长，以探索巨型蛋白质-DNA复合物（如染色质）的更长时标行为。为满足这一需求，我们将OpenCafeMol——一个最初为蛋白质和脂质开发的GPU加速残基级粗粒化分子动力学模拟器——扩展以支持3SPN.2和3SPN.2C DNA模型。我们还实现了一种氢键型多体势能，以更精确地模拟DNA-蛋白质相互作用。为进一步提升计算效率，我们引入了一种局部化方案来计算碱基配对和交叉堆积相互作用。基准测试表明，与基于CPU的模拟相比，OpenCafeMol在单个GPU上对纯DNA系统实现了高达200倍的加速，对DNA-蛋白质复合物实现了高达100倍的加速。为展示我们实现用于长时标生物过程的能力，我们模拟了一个古菌SMC-ScpA复合物在存在DNA结合障碍物的情况下通过片段捕获（一种提出的DNA环挤出机制）进行DNA转位。我们观察到在片段捕获框架内，连续捕获环增长伴随障碍物绕过。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42415400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42415400/",
+  "paper_page_path": "papers/pubmed/42415400/index.html"
+}

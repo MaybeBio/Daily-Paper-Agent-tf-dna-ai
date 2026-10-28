@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "35357493",
+    "doi": "10.1093/nar/gkac187",
+    "title": "Machine learning from Pseudomonas aeruginosa transcriptomes identifies independently modulated sets of genes associated with known transcriptional regulators."
+  },
+  "content": {
+    "abstract": "The transcriptional regulatory network (TRN) of Pseudomonas aeruginosa coordinates cellular processes in response to stimuli. We used 364 transcriptomes (281 publicly available + 83 in-house generated) to reconstruct the TRN of P. aeruginosa using independent component analysis. We identified 104 independently modulated sets of genes (iModulons) among which 81 reflect the effects of known transcriptional regulators. We identified iModulons that (i) play an important role in defining the genomic boundaries of biosynthetic gene clusters (BGCs), (ii) show increased expression of the BGCs and associated secretion systems in nutrient conditions that are important in cystic fibrosis, (iii) show the presence of a novel ribosomally synthesized and post-translationally modified peptide (RiPP) BGC which might have a role in P. aeruginosa virulence, (iv) exhibit interplay of amino acid metabolism regulation and central metabolism across different carbon sources and (v) clustered according to their activity changes to define iron and sulfur stimulons. Finally, we compared the identified iModulons of P. aeruginosa with those previously described in Escherichia coli to observe conserved regulons across two Gram-negative species. This comprehensive TRN framework encompasses the majority of the transcriptional regulatory machinery in P. aeruginosa, and thus should prove foundational for future research into its physiological functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bacterial Proteins/genetics/metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Gene Expression Regulation, Bacterial",
+      "Machine Learning",
+      "*Pseudomonas aeruginosa/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "*Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rajput, Akanksha",
+        "Tsunemoto, Hannah",
+        "Sastry, Anand V",
+        "Szubin, Richard",
+        "Rychel, Kevin",
+        "Sugie, Joseph",
+        "Pogliano, Joe",
+        "Palsson, Bernhard O"
+      ],
+      "short_names": [
+        "Rajput A",
+        "Tsunemoto H",
+        "Sastry AV",
+        "Szubin R",
+        "Rychel K",
+        "Sugie J",
+        "Pogliano J",
+        "Palsson BO"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4769-2804",
+        "ORCID: 0000-0003-2357-6785"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+        "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+        "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+        "Department of Pediatrics, University of California, San Diego, La Jolla, CA, USA.",
+        "Center for Microbiome Innovation, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet, Building 220, 2800 Kongens, Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rajput, Akanksha",
+        "short_name": "Rajput A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, USA."
+        ]
+      },
+      {
+        "full_name": "Tsunemoto, Hannah",
+        "short_name": "Tsunemoto H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Sastry, Anand V",
+        "short_name": "Sastry AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, USA."
+        ]
+      },
+      {
+        "full_name": "Szubin, Richard",
+        "short_name": "Szubin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, USA."
+        ]
+      },
+      {
+        "full_name": "Rychel, Kevin",
+        "short_name": "Rychel K",
+        "identifiers": [
+          "0000-0002-4769-2804"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, USA."
+        ]
+      },
+      {
+        "full_name": "Sugie, Joseph",
+        "short_name": "Sugie J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Pogliano, Joe",
+        "short_name": "Pogliano J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard O",
+        "short_name": "Palsson BO",
+        "identifiers": [
+          "0000-0003-2357-6785"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, USA.",
+          "Department of Pediatrics, University of California, San Diego, La Jolla, CA, USA.",
+          "Center for Microbiome Innovation, University of California San Diego, La Jolla, CA 92093, USA.",
+          "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet, Building 220, 2800 Kongens, Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Apr 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/01 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "42469370",
+      "41989285",
+      "41626695",
+      "40051501",
+      "39494532",
+      "39264300",
+      "39193902",
+      "38898010",
+      "38189271",
+      "37758719",
+      "37713610",
+      "37713311",
+      "37638727",
+      "37492705",
+      "37431942",
+      "37284501",
+      "37090546",
+      "36865326",
+      "36845973",
+      "36656902",
+      "36541762",
+      "36541761",
+      "36095122",
+      "36016717"
+    ],
+    "refs": [
+      "34879815",
+      "34597405",
+      "34413462",
+      "33935991",
+      "33351797",
+      "33311500",
+      "33290552",
+      "33258965",
+      "33237286",
+      "33045728",
+      "32710928",
+      "32616573",
+      "31797920",
+      "31790504",
+      "31767748",
+      "31651953",
+      "31555343",
+      "31341024",
+      "31270321",
+      "31142499",
+      "31032519",
+      "30405616",
+      "29773197",
+      "29681896",
+      "29545622",
+      "29447345",
+      "29401255",
+      "29090193",
+      "29062935",
+      "28987343",
+      "28720732",
+      "28398567",
+      "27798598",
+      "27625638",
+      "27312411",
+      "27271740",
+      "26950762",
+      "26578582",
+      "26476454",
+      "26284661",
+      "25845844",
+      "25456126",
+      "24923658",
+      "24516403",
+      "24391870",
+      "24369896",
+      "24227677",
+      "24175918",
+      "23760896",
+      "23690403",
+      "22743226",
+      "22587778",
+      "22194457",
+      "21821657",
+      "21811488",
+      "21643731",
+      "21554951",
+      "21169497",
+      "21133688",
+      "21119020",
+      "21062823",
+      "20709898",
+      "20412307",
+      "19680249",
+      "19261174",
+      "18192387",
+      "16942903",
+      "16709589",
+      "16077110",
+      "16030221",
+      "15659685",
+      "15036138",
+      "14514700",
+      "11591691",
+      "11208777",
+      "10984043",
+      "10383985",
+      "8895821",
+      "8491711",
+      "6339477",
+      "2185470"
+    ],
+    "similar": [
+      "35357493",
+      "35489688",
+      "35306876",
+      "33045728",
+      "36095122",
+      "37278526",
+      "39269777",
+      "14617143",
+      "33020221",
+      "34731046",
+      "31270321",
+      "15845502",
+      "19846594",
+      "33311500",
+      "1779768",
+      "19477902",
+      "8097014",
+      "39264300",
+      "12901859",
+      "26755627",
+      "30042200",
+      "24829363",
+      "29760087",
+      "7768826",
+      "12076794",
+      "1738315",
+      "37683565",
+      "33779544",
+      "31797920",
+      "20370820",
+      "28833678",
+      "1787797",
+      "30962354",
+      "15632300",
+      "27613678",
+      "25845844",
+      "33106346",
+      "28847924",
+      "26055113",
+      "36475775",
+      "31187593",
+      "11591686",
+      "8320229",
+      "30936375",
+      "1899859",
+      "29632090",
+      "30478084",
+      "33158897",
+      "7559357",
+      "7968519",
+      "29244160",
+      "18667554",
+      "17159200",
+      "34718721",
+      "24037597",
+      "33622723",
+      "28874552",
+      "8522523",
+      "24291602",
+      "27992185",
+      "33011891",
+      "35508983",
+      "24999454",
+      "14641579",
+      "25784698",
+      "18599838",
+      "19592586",
+      "30092083",
+      "11092854",
+      "9473053",
+      "32616573",
+      "25510881",
+      "29507088",
+      "23382903",
+      "21968370",
+      "32265330",
+      "31444209",
+      "10735848",
+      "17449616",
+      "36317888",
+      "37285268",
+      "17706247",
+      "21810205",
+      "17449617",
+      "30707095",
+      "34096777",
+      "19130263",
+      "21965577",
+      "30782629",
+      "24587139",
+      "1787798",
+      "10564483",
+      "34777307",
+      "36377899",
+      "19602144",
+      "39193902",
+      "38393514",
+      "38490991",
+      "37713311"
+    ],
+    "review": [
+      "35357493",
+      "24999454",
+      "19130263"
+    ],
+    "pmc": [
+      "9023270"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35357493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35357493",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt700389mn",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac187",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

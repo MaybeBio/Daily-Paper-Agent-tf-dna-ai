@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40252583",
+    "doi": "10.1016/j.phymed.2025.156740",
+    "title": "20(S)-ginsenoside Rg3 suppresses gastric cancer cell proliferation by inhibiting E2F-DP dimerization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is a common and aggressive malignancy, with treatment options often limited by drug resistance and the adverse effects of targeted therapies and immunotherapy. Ginsenoside Rg3, a bioactive compound derived from ginseng, has shown promise in inhibiting the growth of various tumor types, including GC. However, the molecular mechanisms underlying its therapeutic effects against GC remain insufficiently understood. OBJECTIVE: This study aimed to elucidate the molecular mechanisms underlying the anti-cancer effects of ginsenoside Rg3 against GC. METHODS: To explore the molecular mechanisms underlying Rg3's anti-GC effects, RNA sequencing (RNA-Seq) was conducted to identify potential Rg3-regulated targets. The interaction between Rg3 and E2F was analyzed using several approaches, including the cellular thermal shift assay (CETSA), Rg3-PEGA pull-down, Rg3 pull-down protein mass spectrometry, and 3D molecular docking. Additionally, quantitative reverse transcription PCR (qRT-PCR), co-transfection followed by immunoprecipitation, Western blotting, flow cytometry, Annexin V-FITC staining, Hoechst staining, and luciferase reporter assays were employed to elucidate the molecular effects of Rg3. The inhibitory effect of Rg3 on GC proliferation was assessed through colony formation assays in vitro and tumor xenograft experiments in C57BL/6 mice in vivo. RESULTS: Rg3-mediated gene expression profiling in GC cells revealed several transcription factors, including E2F, and biological processes potentially influenced by Rg3. Consistent with these findings, Rg3 suppressed E2F expression and impeded GC cell proliferation by inducing G1/S cell cycle arrest, reducing cell growth both in vitro and in vivo, enhancing apoptosis, and inhibiting CDC6 transactivation. CETSA and Rg3 pull-down assays confirmed an interaction between Rg3 and E2F. Additionally, 3D molecular docking analysis demonstrated that Rg3 binds with high affinity to E2F at the heterodimeric domain via hydrogen bonding, potentially disrupting E2F-DP heterodimer formation and subsequently inhibiting cell cycle gene expression. In agreement with this, Rg3-treated GC cells exhibited reduced expression of cyclin D1, CDK4, cyclin A, CDK1, and CDK2. Moreover, Rg3 activated the tumor suppressors p53 and p21, further inhibiting RB phosphorylation by suppressing cyclin/CDK activity, thereby blocking transcription of G1/S transition-related genes. CONCLUSION: This study provides the first evidence that Rg3 directly binds to E2F proteins, disrupting E2F-DP heterodimer formation and inhibiting the transcription of E2F-DP-regulated target genes. Furthermore, Rg3 activates the p53-p21 pathway while suppressing the cyclin/CDK-RB signaling pathway, effectively inhibiting cancer cell proliferation. These findings highlight a potential therapeutic strategy for developing small molecules structurally similar to Rg3 to target tumors with high E2F expression.",
+    "keywords": [
+      "E2F transcription factor",
+      "Gastric cancer",
+      "Ginsenoside Rg3",
+      "Transcriptional regulation",
+      "p21"
+    ],
+    "mesh_terms": [
+      "*Ginsenosides/pharmacology",
+      "*Stomach Neoplasms/drug therapy/metabolism",
+      "Humans",
+      "Cell Proliferation/drug effects",
+      "Animals",
+      "Cell Line, Tumor",
+      "Mice",
+      "Molecular Docking Simulation",
+      "*E2F Transcription Factors/metabolism",
+      "Apoptosis/drug effects",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Xenograft Model Antitumor Assays",
+      "Mice, Nude",
+      "Dimerization",
+      "Panax/chemistry",
+      "Mice, Inbred BALB C"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Fuqiang",
+        "Cai, Chengyu",
+        "Wang, Fei",
+        "Zhang, Na",
+        "Zhao, Qingzhi",
+        "Chen, Yuyang",
+        "Cui, Xueli",
+        "Wang, Siyang",
+        "Zhang, Wenjie",
+        "Liu, Da",
+        "Cai, Yong",
+        "Jin, Jingji"
+      ],
+      "short_names": [
+        "Li F",
+        "Cai C",
+        "Wang F",
+        "Zhang N",
+        "Zhao Q",
+        "Chen Y",
+        "Cui X",
+        "Wang S",
+        "Zhang W",
+        "Liu D",
+        "Cai Y",
+        "Jin J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China; School of Pharmacy, Changchun University of Chinese Medicine, Boshuo Road, Jingyue Development Zone, Changchun, Jilin 130117, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China.",
+        "School of Pharmacy, Changchun University of Chinese Medicine, Boshuo Road, Jingyue Development Zone, Changchun, Jilin 130117, China. Electronic address: liuda@ccucm.edu.cn.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China. Electronic address: caiyong62@jlu.edu.cn.",
+        "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China. Electronic address: jjjin@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Fuqiang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China; School of Pharmacy, Changchun University of Chinese Medicine, Boshuo Road, Jingyue Development Zone, Changchun, Jilin 130117, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Chengyu",
+        "short_name": "Cai C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Na",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qingzhi",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuyang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xueli",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siyang",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenjie",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Da",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Changchun University of Chinese Medicine, Boshuo Road, Jingyue Development Zone, Changchun, Jilin 130117, China. Electronic address: liuda@ccucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cai, Yong",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China. Electronic address: caiyong62@jlu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Jingji",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, 2699 Qianjin Street, Chaoyang District, Changchun, Jilin 130012, China. Electronic address: jjjin@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/20 00:44",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42328155",
+      "41676264",
+      "41366242",
+      "41051550",
+      "40792023"
+    ],
+    "refs": [],
+    "similar": [
+      "40252583",
+      "29169725",
+      "21152855",
+      "38518635",
+      "32104955",
+      "28231544",
+      "38761775",
+      "26309394",
+      "31629252",
+      "25738799",
+      "18027667",
+      "30481782",
+      "32945504",
+      "39671783",
+      "25593464",
+      "40206492",
+      "39500672",
+      "40049103",
+      "29558748",
+      "39900270",
+      "29035827",
+      "38350242",
+      "38810557",
+      "31081060",
+      "39561883",
+      "19624871",
+      "35791931",
+      "38830298",
+      "22406998",
+      "34930332",
+      "26094873",
+      "30633886",
+      "39566403",
+      "38006806",
+      "35979263",
+      "38798252",
+      "18425323",
+      "25998024",
+      "38295877",
+      "27930981",
+      "10200336",
+      "25824408",
+      "30428306",
+      "19471891",
+      "26361144",
+      "31879047",
+      "28260016",
+      "25630654",
+      "37718528",
+      "30136914",
+      "33641655",
+      "40054176",
+      "30930425",
+      "39938178",
+      "39661279",
+      "39615216",
+      "30717766",
+      "40165038",
+      "29915371",
+      "32447210",
+      "38677269",
+      "32106366",
+      "30431207",
+      "29115601",
+      "40058474",
+      "40233887",
+      "28843398",
+      "40185259",
+      "18781130",
+      "32476373",
+      "31588803",
+      "29199005",
+      "25521755",
+      "28873083",
+      "35723050",
+      "11676482",
+      "22898996",
+      "34002647",
+      "29734189",
+      "33819767",
+      "35309116",
+      "38520835",
+      "29483206",
+      "22366885",
+      "25175462",
+      "38763012",
+      "39834553",
+      "23633038",
+      "26489423",
+      "27122665",
+      "27430248",
+      "31091245",
+      "38762212",
+      "37545635",
+      "22922739",
+      "33727089",
+      "23650533",
+      "38956466",
+      "38522311",
+      "40023971"
+    ],
+    "review": [
+      "40252583"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00379-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

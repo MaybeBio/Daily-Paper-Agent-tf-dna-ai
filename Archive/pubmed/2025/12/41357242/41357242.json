@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41357242",
+    "doi": "10.3389/fimmu.2025.1675874",
+    "title": "Significance of SUMOylation in breast cancer progression: a comprehensive investigation using single-cell analysis and bioinformatics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer remains a major global health challenge because of limitations in early detection and therapeutic outcomes. This study employed bulk and single-cell RNA sequencing to investigate SUMOylation-associated molecular networks, aiming to identify prognostic biomarkers and potential therapeutic applications. METHODS: Transcriptomic profiling was performed on 1,445 breast cancer and 113 normal samples to identify differentially expressed genes. Four hub genes, NR3C2, CDCA8, AURKA, and PLK1, were prioritized using machine learning. Consensus clustering stratified patients into molecular subtypes based on the hub gene expression patterns. Differential immune infiltration analysis was used to evaluate 28 immune cell populations between the subtypes. Hub gene-immune cell interactions were visualized using bubble diagrams. Pharmacogenomic sensitivity profiling was performed using subtype-specific drug response data. Single-cell sequencing identified epithelial subclusters enriched for hub genes, and transcription factor networks were analyzed using SCENIC. Pan-cancer validation was performed to assess the oncogenic role of hub genes in 21 malignancies. Statistical significance was determined using the Student's t-test (p < 0.0001). RESULTS: Tumor tissues exhibited significant upregulation of CDCA8, AURKA, and PLK1, whereas NR3C2 was notably downregulated (p < 0.0001). Consensus clustering identified two distinct molecular subtypes: Subtype1, characterized by NR3C2 upregulation and poorer prognosis, and Subtype2, distinguished by enhanced expression of CDCA8, AURKA, and PLK1, correlating with favorable outcomes. Notably, PIK3CA mutations were prevalent in Subtype1, whereas TP53 mutations dominated Subtype2. Immune infiltration profiles differed significantly between the two subtypes for most immune cell types. Pharmacogenomic assessments revealed distinct drug sensitivity profiles for each subtype in response to various therapeutic agents. A pan-cancer analysis of the four hub genes demonstrated consistent expression patterns, immune correlations, and prognostic associations across malignancies. CONCLUSION: Our findings reveal that SUMOylation subtypes in breast cancer exhibit distinct prognostic, immunological and pharmacogenomic profiles. These insights may provide candidate biomarkers for future personalized treatment strategies for breast cancer and potentially for other malignancies.",
+    "keywords": [
+      "SUMOylation",
+      "biomarkers",
+      "breast cancer",
+      "immune infiltration",
+      "scRNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Humans",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "*Breast Neoplasms/drug therapy/genetics/immunology/metabolism",
+      "Case-Control Studies",
+      "Datasets as Topic",
+      "Disease Progression",
+      "*Gene Expression Regulation, Neoplastic",
+      "Molecular Targeted Therapy",
+      "Single-Cell Gene Expression Analysis",
+      "*Sumoylation",
+      "Transcription Factors/genetics/metabolism",
+      "Tumor Microenvironment/immunology",
+      "Polo-Like Kinase 1",
+      "Receptors, Mineralocorticoid",
+      "Cell Cycle Proteins",
+      "Aurora Kinase A"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Wenxing",
+        "Sun, Zhengkui",
+        "Li, Dongmei",
+        "Yu, Tenghua"
+      ],
+      "short_names": [
+        "He W",
+        "Sun Z",
+        "Li D",
+        "Yu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China.",
+        "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China.",
+        "Jiangxi Key Laboratory of Translational Research for Cancer, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China.",
+        "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Wenxing",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhengkui",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongmei",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Key Laboratory of Translational Research for Cancer, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tenghua",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Cancer Center, Jiangxi Cancer Hospital (The Second Affiliated Hospital of Nanchang Medical College), Nanchang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 13:19",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42185884"
+    ],
+    "refs": [
+      "40513577",
+      "40437183",
+      "40229278",
+      "39753721",
+      "39525318",
+      "39353904",
+      "39137116",
+      "39002125",
+      "38890737",
+      "38855173",
+      "38401885",
+      "38242748",
+      "37875995",
+      "37593098",
+      "37347559",
+      "37029310",
+      "36931265",
+      "36917948",
+      "36227136",
+      "36090900",
+      "35879772",
+      "35750927",
+      "35322042",
+      "34850920",
+      "34659203",
+      "34280172",
+      "34260682",
+      "33624434",
+      "33538338",
+      "33274208",
+      "32849491",
+      "30903160",
+      "30442814",
+      "30341162",
+      "30277836",
+      "29608179",
+      "29425687",
+      "29156001",
+      "28991892",
+      "26771021",
+      "26704973",
+      "25605792",
+      "25428369",
+      "25300484",
+      "24835590",
+      "24297251",
+      "24132163",
+      "23180760",
+      "22455463",
+      "22257669",
+      "21546393",
+      "20427518",
+      "19114008",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "41357242",
+      "40898538",
+      "39896800",
+      "40821814",
+      "41111910",
+      "39759507",
+      "40711603",
+      "40846911",
+      "39198859",
+      "40145099",
+      "40474296",
+      "39524444",
+      "40221624",
+      "40029433",
+      "40760614",
+      "38213151",
+      "38836761",
+      "41472745",
+      "39567714",
+      "40616092",
+      "40328901",
+      "39870964",
+      "40692786",
+      "40594370",
+      "38393891",
+      "41290867",
+      "40541706",
+      "41394809",
+      "40332226",
+      "39160211",
+      "41080584",
+      "32598242",
+      "39372411",
+      "39596658",
+      "40746552",
+      "41208969",
+      "40438115",
+      "39185402",
+      "40681784",
+      "41325182",
+      "40627035",
+      "41208987",
+      "40496857",
+      "40034693",
+      "41344266",
+      "41233500",
+      "33907159",
+      "40068177",
+      "39961214",
+      "41233852",
+      "41107386",
+      "41006689",
+      "39253092",
+      "40475768",
+      "39020010",
+      "41019085",
+      "39944694",
+      "39589706",
+      "40597935",
+      "34795663",
+      "41309884",
+      "38813725",
+      "40473526",
+      "41381057",
+      "40826700",
+      "39614330",
+      "41326474",
+      "38186570",
+      "41425595",
+      "40293675",
+      "40289088",
+      "40604083",
+      "41158841",
+      "38410032",
+      "39587687",
+      "40330470",
+      "39753728",
+      "35037412",
+      "39587630",
+      "40898185",
+      "40771813",
+      "41038084",
+      "41000388",
+      "41496017",
+      "39441216",
+      "40460484",
+      "39354417",
+      "41088097",
+      "41488652",
+      "38855191",
+      "39555060",
+      "33313822",
+      "40230854",
+      "40496864",
+      "40607411",
+      "39923580",
+      "39202452",
+      "39988478",
+      "35174450",
+      "40881682"
+    ],
+    "review": [
+      "41357242"
+    ],
+    "pmc": [
+      "12676025"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41357242/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CDCA8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1675874",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

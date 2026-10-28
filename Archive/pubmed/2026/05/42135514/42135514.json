@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "pmid": "42135514",
+    "doi": "10.1038/s44320-026-00215-8",
+    "title": "Cross-species insights from ART-D to uncover evolutionarily conserved oncogenic mechanisms."
+  },
+  "content": {
+    "abstract": "Cancer arises from oncogenic clones, yet the dynamic mechanisms driving their stepwise evolution toward malignancy remain incompletely understood. Here, we establish the Atlas of Ras-driven Tumors in Drosophila (ART-D), a systematic, cross-species platform that dissects the molecular and phenotypic trajectories of tumorigenesis across ten genetically defined Ras(V12)-driven models. By integrating longitudinal phenotypic profiling, we define three conserved stages of tumor development-initiation, promotion, and progression-distinguished by distinct shifts in tumor burden and tumor-induced cachexia. Transcriptomic analysis reveals stage-specific signaling rewiring: early tumorigenesis is characterized by co-activation of JAK/STAT, NF-kappaB/Toll, and MAPK pathways, whereas malignant progression is driven by Notch hyperactivation and Hippo pathway inactivation. Through integrative multi-omics and machine learning, we uncover an evolutionarily conserved pathogenic network coordinating JNK, NF-kappaB/Toll, Notch, and Hippo signaling, which we functionally validate across species. ART-D serves as a transformative resource bridging Drosophila genetics and human cancer biology, offering a robust framework for decoding conserved oncogenic principles and identifying of stage-specific vulnerabilities in RAS-driven cancers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Signal Transduction",
+      "Drosophila Proteins/metabolism/genetics",
+      "*Carcinogenesis/genetics",
+      "Humans",
+      "Evolution, Molecular",
+      "Receptors, Notch/metabolism/genetics",
+      "ras Proteins/genetics/metabolism",
+      "Drosophila melanogaster/genetics",
+      "Gene Expression Profiling",
+      "*Neoplasms/genetics/pathology/metabolism",
+      "Oncogenes",
+      "NF-kappa B/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Species Specificity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Yifan",
+        "Zheng, Jiadong",
+        "Wu, Yixin",
+        "Zhao, Kun",
+        "Lv, Dian",
+        "Liu, Wenhan",
+        "Wang, Mengling",
+        "Lu, Jin-Yu",
+        "Xu, Wenyan",
+        "Wang, Xianping",
+        "Ma, Xianjue"
+      ],
+      "short_names": [
+        "Guo Y",
+        "Zheng J",
+        "Wu Y",
+        "Zhao K",
+        "Lv D",
+        "Liu W",
+        "Wang M",
+        "Lu JY",
+        "Xu W",
+        "Wang X",
+        "Ma X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6551-2945",
+        "ORCID: 0009-0001-9195-0364",
+        "ORCID: 0000-0002-8108-3463",
+        "ORCID: 0009-0004-7405-0585",
+        "ORCID: 0000-0003-4360-3947"
+      ],
+      "affiliations": [
+        "Fudan University, Shanghai, China. guoyifan@westlake.edu.cn.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. guoyifan@westlake.edu.cn.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. guoyifan@westlake.edu.cn.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "Department of Oncology, Montefiore Einstein Comprehensive Cancer Center, Albert Einstein College of Medicine, Bronx, NY, USA.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. xuwenyan@westlake.edu.cn.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. xuwenyan@westlake.edu.cn.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. wangxianping@westlake.edu.cn.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. wangxianping@westlake.edu.cn.",
+        "Fudan University, Shanghai, China. maxianjue@westlake.edu.cn.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. maxianjue@westlake.edu.cn.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. maxianjue@westlake.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Yifan",
+        "short_name": "Guo Y",
+        "identifiers": [
+          "0000-0001-6551-2945"
+        ],
+        "affiliations": [
+          "Fudan University, Shanghai, China. guoyifan@westlake.edu.cn.",
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. guoyifan@westlake.edu.cn.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. guoyifan@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jiadong",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yixin",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0009-0001-9195-0364"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Kun",
+        "short_name": "Zhao K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Dian",
+        "short_name": "Lv D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenhan",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengling",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jin-Yu",
+        "short_name": "Lu JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Montefiore Einstein Comprehensive Cancer Center, Albert Einstein College of Medicine, Bronx, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenyan",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0000-0002-8108-3463"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. xuwenyan@westlake.edu.cn.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. xuwenyan@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xianping",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0009-0004-7405-0585"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. wangxianping@westlake.edu.cn.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. wangxianping@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Xianjue",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0000-0003-4360-3947"
+        ],
+        "affiliations": [
+          "Fudan University, Shanghai, China. maxianjue@westlake.edu.cn.",
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, China. maxianjue@westlake.edu.cn.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. maxianjue@westlake.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/15 00:31",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41309533",
+      "41177452",
+      "40846901",
+      "39558183",
+      "39516282",
+      "39055398",
+      "39054525",
+      "39037766",
+      "38975886",
+      "38926878",
+      "38890350",
+      "38616208",
+      "37962356",
+      "37668528",
+      "37277529",
+      "37223519",
+      "37125646",
+      "36781852",
+      "36764355",
+      "36494601",
+      "36399505",
+      "36350662",
+      "36318249",
+      "36130281",
+      "35561197",
+      "35373279",
+      "35319749",
+      "35266522",
+      "34852236",
+      "34718760",
+      "34718728",
+      "34717010",
+      "34473940",
+      "34459009",
+      "34393501",
+      "34031014",
+      "33919765",
+      "33870211",
+      "33657326",
+      "33590861",
+      "33462406",
+      "32719518",
+      "32451460",
+      "32444850",
+      "32209560",
+      "32014034",
+      "31996378",
+      "31980621",
+      "31727128",
+      "31660857",
+      "31649333",
+      "31375807",
+      "31114875",
+      "30605727",
+      "30553813",
+      "30380106",
+      "30364959",
+      "29951820",
+      "29733518",
+      "28991892",
+      "28729483",
+      "28658615",
+      "28057303",
+      "27899662",
+      "27742821",
+      "27079975",
+      "26771021",
+      "26193902",
+      "25850672",
+      "25850671",
+      "25822800",
+      "25765347",
+      "25521941",
+      "25340638",
+      "25260700",
+      "24276238",
+      "24113773",
+      "24071849",
+      "23715323",
+      "23550210",
+      "23539594",
+      "23323831",
+      "22588877",
+      "22455463",
+      "22388286",
+      "22258609",
+      "22257669",
+      "22101275",
+      "21993244",
+      "21414208",
+      "21221095",
+      "20679206",
+      "20513432",
+      "20406475",
+      "20211163",
+      "20110278",
+      "20072127",
+      "19910308",
+      "19847166",
+      "19617889",
+      "19597788",
+      "19360079",
+      "19327996",
+      "19132102",
+      "19114008",
+      "19029536",
+      "18798982",
+      "18724390",
+      "18299346",
+      "18084642",
+      "16872256",
+      "16381840",
+      "16258546",
+      "16256744",
+      "16199517",
+      "16034367",
+      "15975907",
+      "15067004",
+      "14592975",
+      "14561774",
+      "14502295",
+      "14502294",
+      "12941274",
+      "12941273",
+      "12519996",
+      "11117748",
+      "10884224",
+      "10802651",
+      "10688207",
+      "10592173",
+      "10197526",
+      "8946916",
+      "7743921",
+      "7698644",
+      "6403942",
+      "6193889",
+      "3132409"
+    ],
+    "similar": [
+      "42135514",
+      "26398940",
+      "40294135",
+      "21729876",
+      "26207831",
+      "30325918",
+      "34017079",
+      "42475469",
+      "34324859",
+      "38059855",
+      "20072127",
+      "39516282",
+      "32605129",
+      "33919765",
+      "23570874",
+      "34884538",
+      "31971023",
+      "40745134",
+      "31164412",
+      "38830901",
+      "40320143",
+      "27476594",
+      "21539742",
+      "40476337",
+      "24704358",
+      "29357360",
+      "32152180",
+      "21955824",
+      "17183697",
+      "28658615",
+      "40294154",
+      "39821459",
+      "36149600",
+      "39466792",
+      "22952997",
+      "29524560",
+      "23902772",
+      "28174264",
+      "19171888",
+      "37934809",
+      "30404807",
+      "40892326",
+      "39168254",
+      "25512468",
+      "30328653",
+      "20627081",
+      "41676140",
+      "37931099",
+      "33591981",
+      "40846901",
+      "31580526",
+      "32275875",
+      "32445262",
+      "34780467",
+      "40304035",
+      "33529757",
+      "34411095",
+      "25224221",
+      "32807122",
+      "23484853",
+      "30982664",
+      "27428327",
+      "12529414",
+      "24516653",
+      "24685611",
+      "21682860",
+      "23023132",
+      "31147740",
+      "35674896",
+      "33742110",
+      "32992230",
+      "22056382",
+      "28708826",
+      "39341909",
+      "21911935",
+      "30316814",
+      "25967126",
+      "30333215",
+      "23324326",
+      "21368274",
+      "28574763",
+      "31649333",
+      "29861494",
+      "28162280",
+      "33430387",
+      "42128666",
+      "30558204",
+      "25048092",
+      "19424602",
+      "30030826",
+      "41716413",
+      "42065041",
+      "25874673",
+      "26477488",
+      "14592975",
+      "19251639",
+      "40561754",
+      "21673986",
+      "16753569",
+      "37797218"
+    ],
+    "review": [
+      "42135514",
+      "31971023",
+      "40745134",
+      "39821459",
+      "36149600",
+      "29524560",
+      "41676140",
+      "32445262",
+      "33529757",
+      "24685611",
+      "33430387",
+      "30558204",
+      "30030826",
+      "42065041"
+    ],
+    "pmc": [
+      "13433787"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=42135514",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s44320-026-00215-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42135514/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

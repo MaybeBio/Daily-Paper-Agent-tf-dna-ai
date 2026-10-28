@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "34093997",
+    "doi": "10.1016/j.csbj.2021.04.055",
+    "title": "Recognition of a tandem lesion by DNA bacterial formamidopyrimidine glycosylases explored combining molecular dynamics and machine learning."
+  },
+  "content": {
+    "abstract": "The combination of several closely spaced DNA lesions, which can be induced by a single radical hit, constitutes a hallmark in the DNA damage landscape and radiation chemistry. The occurrence of such a tandem base lesion gives rise to a strong coupling with the double helix degrees of freedom and induces important structural deformations, in contrast to DNA strands containing a single oxidized nucleobase. Although such complex lesions are known to be refractory to repair by DNA glycosylases, there is still a lack of structural evidence to rationalize these phenomena. In this contribution, we explore, by numerical modeling and molecular simulations, the behavior of the bacterial glycosylase responsible for base excision repair (MutM), specialized in excising oxidatively-damaged defects such as 7,8-dihydro-8-oxoguanine (8-oxoG). The difference in lesion recognition between a simple damage and a tandem lesion featuring an additional abasic site is assessed at atomistic resolution owing to microsecond molecular dynamics simulations and machine learning postprocessing, allowing to extensively pinpoint crucial differences in the interaction patterns of the damaged bases. Our results reveal substantial changes in the interaction network surrounding the 8-oxoG upon addition of an adjacent abasic site, leading to the perturbation of the intercalation triad which is crucial for lesion recognition and processing. The recognition process might also be impacted by a more constrained MutM-DNA binding upon tandem damage, as shown by the machine learning post-processing. This work advocates for the use of such high throughput numerical simulations for exploring the complex combinatorial chemistry of tandem DNA lesions repair and more generally local multiple damaged sites of the utmost significance in radiation chemistry.",
+    "keywords": [
+      "DNA repair glycosylase",
+      "Molecular dynamics simulations",
+      "MutM",
+      "Tandem lesion"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bignon, Emmanuelle",
+        "Gillet, Natacha",
+        "Chan, Chen-Hui",
+        "Jiang, Tao",
+        "Monari, Antonio",
+        "Dumont, Elise"
+      ],
+      "short_names": [
+        "Bignon E",
+        "Gillet N",
+        "Chan CH",
+        "Jiang T",
+        "Monari A",
+        "Dumont E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Universite Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+        "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Universite Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+        "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Universite Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+        "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Universite Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+        "Universite de Lorraine and CNRS, LPCT UMR 7019, 54000 Nancy, France.",
+        "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Universite Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+        "Institut Universitaire de France, 5 rue Descartes, 75005 Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bignon, Emmanuelle",
+        "short_name": "Bignon E",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Université Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Gillet, Natacha",
+        "short_name": "Gillet N",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Université Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Chan, Chen-Hui",
+        "short_name": "Chan CH",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Université Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Jiang, Tao",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Université Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lorraine and CNRS, LPCT UMR 7019, 54000 Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Dumont, Elise",
+        "short_name": "Dumont E",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lyon, ENS de Lyon, CNRS UMR 5182, Université Claude Bernard Lyon 1, Laboratoire de Chimie, F69342 Lyon, France.",
+          "Institut Universitaire de France, 5 rue Descartes, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/08 06:00",
+    "fetched_at": "2026-09-27 19:01:59"
+  },
+  "links": {
+    "cites": [
+      "38596314",
+      "36768842",
+      "36406269",
+      "35746753",
+      "34831476",
+      "34770874"
+    ],
+    "refs": [
+      "33087272",
+      "33057206",
+      "32650559",
+      "32598485",
+      "31952811",
+      "31840169",
+      "31652769",
+      "31197228",
+      "29902181",
+      "29746241",
+      "29578340",
+      "29570697",
+      "28485537",
+      "28363603",
+      "27986856",
+      "27939934",
+      "27651459",
+      "27612215",
+      "27587587",
+      "27440482",
+      "27322406",
+      "26896565",
+      "26574453",
+      "26569599",
+      "26553802",
+      "25909147",
+      "25655665",
+      "25065673",
+      "24799677",
+      "23849169",
+      "23682596",
+      "23378590",
+      "23076011",
+      "22989888",
+      "22743550",
+      "22408567",
+      "22261346",
+      "21830782",
+      "20856692",
+      "20469926",
+      "20212167",
+      "20010681",
+      "19889642",
+      "19625494",
+      "18950195",
+      "17581577",
+      "17335214",
+      "16857432",
+      "15806602",
+      "15661656",
+      "15323560",
+      "15273302",
+      "15177044",
+      "14637250",
+      "14525999",
+      "12433996",
+      "12065399",
+      "12055620",
+      "11912217",
+      "10921868",
+      "9461450",
+      "8744570",
+      "8430083",
+      "3833325",
+      "2820457",
+      "2223758",
+      "1649454"
+    ],
+    "similar": [
+      "34093997",
+      "23404556",
+      "26341054",
+      "11554297",
+      "34770874",
+      "22789755",
+      "19889642",
+      "14525999",
+      "12065399",
+      "15533836",
+      "22465958",
+      "24028561",
+      "1495996",
+      "10395822",
+      "32895378",
+      "15102448",
+      "28098999",
+      "12055620",
+      "11328882",
+      "22175854",
+      "11341839",
+      "20010681",
+      "21486746",
+      "17704010",
+      "11892789",
+      "24096108",
+      "23607987",
+      "27903453",
+      "11904416",
+      "25520195",
+      "28130451",
+      "14769949",
+      "10671534",
+      "28482831",
+      "17410210",
+      "15249553",
+      "12729740",
+      "17209553",
+      "36268656",
+      "37542751",
+      "30698731",
+      "33450252",
+      "16893955",
+      "19751748",
+      "15554188",
+      "29475157",
+      "9321410",
+      "15979229",
+      "16054643",
+      "12531013",
+      "17114185",
+      "31784740",
+      "15661661",
+      "22584623",
+      "15610004",
+      "19217358",
+      "27707033",
+      "19361427",
+      "19961158",
+      "19747886",
+      "33330484",
+      "22837659",
+      "9801319",
+      "36603668",
+      "12433996",
+      "24695738",
+      "22219368",
+      "16097791",
+      "30716333",
+      "18672903",
+      "9197244",
+      "14607836",
+      "10921868",
+      "36300625",
+      "25995449",
+      "11328881",
+      "16857432",
+      "24209961",
+      "36406269",
+      "26757817",
+      "15595846",
+      "8805338",
+      "32598485",
+      "24384094",
+      "34192601",
+      "26125998",
+      "30525620",
+      "18025040",
+      "15800616",
+      "17090545",
+      "11139613",
+      "28892740",
+      "23955443",
+      "8676878",
+      "25065673",
+      "10812335",
+      "32093595"
+    ],
+    "review": [
+      "34093997",
+      "11554297",
+      "15102448",
+      "11892789",
+      "27903453",
+      "19751748",
+      "22837659"
+    ],
+    "pmc": [
+      "8141532"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(21)00167-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34093997/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34093997",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OGG1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

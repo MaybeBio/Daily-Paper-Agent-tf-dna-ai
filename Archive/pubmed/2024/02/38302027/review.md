@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a comparative computational study of five RecA/Rad51 family recombinases from prokaryotes, eukaryotes, archaea, and viruses, using all-atom molecular dynamics simulation, perturbation response scanning, and protein structure network analysis. They claim conserved molecular dynamics features across the family, including cooperative inter-domain motions, conserved sensor/effector residue distributions, and conserved hub residues, alongside unique ATP-to-DNA communication routes for each recombinase. They further state that these findings provide new insights into RecA/Rad51 mechanisms and theoretical guidance for allosteric inhibitor development.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, figures, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, system preparation details, convergence criteria, network analysis parameters, perturbation response scanning settings, and any validation or control analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative computational study of an important protein family. The choice of five representatives spanning major kingdoms is sensible, and the combination of MD simulation with network-based methods is appropriate for probing allosteric mechanisms. However, the abstract provides insufficient methodological detail and no quantitative results to support the stated conclusions. The claims of conservation and uniqueness are made without visible evidence, and the biological significance of the identified communication routes is not contextualized. The work may be of interest to the homologous recombination and protein dynamics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying homologous recombination, RecA/Rad51 family structure and function, allosteric regulation in recombinases, and those interested in computational approaches to protein dynamics and allosteric communication. The potential therapeutic angle regarding allosteric inhibitors may also attract investigators in drug discovery targeting DNA repair pathways.
+- **Major strengths** The comparative design across five kingdoms is a sensible approach to address sequence divergence within the family. The integration of multiple computational techniques (MD, perturbation response scanning, and network analysis) is appropriate for the research question. The focus on residual-level dynamics and communication pathways addresses a genuine gap in understanding this protein family.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim conserved molecular dynamics features including cooperative motions, conserved sensor/effector residue distributions, and conserved hub residues, as well as unique ATP-DNA communication routes for each recombinase.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states results but provides no quantitative data, no statistical measures, no comparison metrics, and no indication of how conservation or uniqueness was determined. No figures, tables, or numerical values are referenced. The reader cannot assess the strength or validity of these claims.
+  - **Why it matters** The central conclusions of the paper rest on comparative claims that require quantitative support, such as correlation coefficients, network centrality measures, or residue interaction energies. Without such evidence, the claims are unverifiable from the supplied material.
+  - **Resolution test** Provide specific quantitative results in the abstract or full text, including measures of inter-domain correlation, identification criteria for sensors and effectors, hub residue definitions, and a clear comparison of communication routes across the five proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that all-atom MD simulation, perturbation response scanning, and protein structure network analysis were used.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The simulation length, force field, water model, temperature and pressure coupling, equilibration protocol, number of replicates, convergence assessment, and system construction are absent. Similarly, the parameters for perturbation response scanning and network analysis are not described.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, the technical soundness of the work cannot be evaluated, and the results cannot be independently verified or compared with other studies.
+  - **Resolution test** Include a full methods section with all simulation and analysis parameters, and state whether convergence was achieved and how this was assessed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors claim that the identified ATP-DNA communication routes provide new insights into RecA/Rad51 mechanisms and theoretical guidance for allosteric inhibitor development.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain what the communication routes are, how they differ between proteins, or why they are biologically meaningful. The link between computational communication pathways and experimentally testable predictions or known functional data is not established.
+  - **Why it matters** The translational claim regarding allosteric inhibitor development requires a clear mechanistic rationale. Without connecting the identified routes to known functional residues, mutational data, or experimental validation, the claim remains speculative.
+  - **Resolution test** Describe the nature of the communication routes, relate them to known functional regions or experimental data, and temper the inhibitor development claim to match the level of evidence provided.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Selection criteria for the five representative proteins
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that five members from all major kingdoms were selected but does not specify which proteins were chosen or the rationale for their selection.
+  - **Required correction** Name the five proteins and briefly justify their selection as representatives of each kingdom.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** The phrase "conserved molecular dynamics"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term is vague and could refer to multiple aspects of dynamics. It is unclear whether the authors mean similar fluctuation patterns, correlated motions, or something else.
+  - **Required correction** Define precisely which dynamic features were compared and in what sense they are conserved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** The phrase "hindered the thoroughly studies"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Grammatical error; should be "hindered thorough studies."
+  - **Required correction** Correct the grammar.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail prevents any assessment of the technical soundness or validity of the conclusions. R1-M3, while not blocking, requires substantial strengthening of the biological interpretation.
+- **Assessment against Nature-style criteria** Originality: The comparative approach across kingdoms is a reasonable angle, but the abstract does not demonstrate what is conceptually new beyond applying established methods to a known family. Scientific importance: The RecA/Rad51 family is biologically significant, and understanding allosteric communication could be valuable, but the abstract does not establish the broader impact of the findings. Interdisciplinary readership: The work may appeal to computational biologists and structural biologists, but the abstract is too thin to attract a wider audience. Technical soundness: Cannot be assessed from the abstract; no methodological or quantitative details are provided. Readability for nonspecialists: The abstract is generally readable but uses jargon without sufficient context, and the lack of results makes it difficult for any reader to follow the logic.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail or quantitative results to support the claims. A full manuscript with detailed methods, results, and validation would be required to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim of conserved molecular dynamics features across the family is unsupported by any visible quantitative evidence.
+- The claim of unique ATP-DNA communication routes for each recombinase is unsupported by any visible comparative data.
+- The claim that the results provide theoretical guidance for allosteric inhibitor development is speculative and not supported by the abstract.
+- The selection of five representative proteins and their adequacy to represent the entire family is not justified.
+- The biological significance of the identified communication routes is not contextualized with respect to known functional or experimental data.

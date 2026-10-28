@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "37575176",
+    "doi": "10.1016/b978-0-443-15274-0.50418-2",
+    "title": "Binary Classification of the Endocrine Disrupting Chemicals by Artificial Neural Networks."
+  },
+  "content": {
+    "abstract": "We develop a machine learning framework that integrates high content/high throughput image analysis and artificial neural networks (ANNs) to model the separation between chemical compounds based on their estrogenic receptor activity. Natural and man-made chemicals have the potential to disrupt the endocrine system by interfering with hormone actions in people and wildlife. Although numerous studies have revealed new knowledge on the mechanism through which these compounds interfere with various hormone receptors, it is still a very challenging task to comprehensively evaluate the endocrine disrupting potential of all existing chemicals and their mixtures by pure in vitro or in vivo approaches. Machine learning offers a unique advantage in the rapid evaluation of chemical toxicity through learning the underlying patterns in the experimental biological activity data. Motivated by this, we train and test ANN classifiers for modeling the activity of estrogen receptor-alpha agonists and antagonists at the single-cell level by using high throughput/high content microscopy descriptors. Our framework preprocesses the experimental data by cleaning, scaling, and feature engineering where only the middle 50% of the values from each sample with detectable receptor-DNA binding is considered in the dataset. Principal component analysis is also used to minimize the effects of experimental noise in modeling where these projected features are used in classification model building. The results show that our ANN-based nonlinear data-driven framework classifies the benchmark agonist and antagonist chemicals with 98.41% accuracy.",
+    "keywords": [
+      "artificial neural networks",
+      "estrogenic potential",
+      "high throughput analysis",
+      "machine learning",
+      "nonlinear classification"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aghayev, Zahir",
+        "Walker, George F",
+        "Iseri, Funda",
+        "Ali, Moustafa",
+        "Szafran, Adam T",
+        "Stossi, Fabio",
+        "Mancini, Michael A",
+        "Pistikopoulos, Efstratios N",
+        "Beykal, Burcu"
+      ],
+      "short_names": [
+        "Aghayev Z",
+        "Walker GF",
+        "Iseri F",
+        "Ali M",
+        "Szafran AT",
+        "Stossi F",
+        "Mancini MA",
+        "Pistikopoulos EN",
+        "Beykal B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+        "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+        "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+        "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+        "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA.",
+        "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "GCC Center for Advanced Microscopy and Image Informatics, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "GCC Center for Advanced Microscopy and Image Informatics, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+        "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+        "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aghayev, Zahir",
+        "short_name": "Aghayev Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+          "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA."
+        ]
+      },
+      {
+        "full_name": "Walker, George F",
+        "short_name": "Walker GF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+          "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA."
+        ]
+      },
+      {
+        "full_name": "Iseri, Funda",
+        "short_name": "Iseri F",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+          "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Ali, Moustafa",
+        "short_name": "Ali M",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+          "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Szafran, Adam T",
+        "short_name": "Szafran AT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Stossi, Fabio",
+        "short_name": "Stossi F",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+          "GCC Center for Advanced Microscopy and Image Informatics, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Mancini, Michael A",
+        "short_name": "Mancini MA",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+          "GCC Center for Advanced Microscopy and Image Informatics, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Pistikopoulos, Efstratios N",
+        "short_name": "Pistikopoulos EN",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+          "Texas A&M Energy Institute, Texas A&M University, College Station, TX 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Beykal, Burcu",
+        "short_name": "Beykal B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Connecticut, Storrs, CT 06269, USA.",
+          "Center for Clean Energy Engineering, University of Connecticut, Storrs, CT 06269, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ESCAPE. European Symposium on Computer Aided Process Engineering"
+    ],
+    "journal_abbrev": [
+      "ESCAPE"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 06:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "40256490"
+    ],
+    "refs": [
+      "37637227",
+      "36204696",
+      "34355221",
+      "32970665",
+      "31600275",
+      "30628533",
+      "28704378",
+      "21256200"
+    ],
+    "similar": [
+      "37575176",
+      "37637227",
+      "32970665",
+      "23707773",
+      "34355221",
+      "24279462",
+      "38092168",
+      "30505052",
+      "37368586",
+      "37301514",
+      "30114914",
+      "30584954",
+      "38694816",
+      "17293141",
+      "27983596",
+      "25349983",
+      "18489778",
+      "32778734",
+      "26042329",
+      "19011916",
+      "10815714",
+      "11751013",
+      "26272952",
+      "28924506",
+      "33182081",
+      "31302400",
+      "37951393",
+      "32922363",
+      "10746942",
+      "35279211",
+      "20952233",
+      "18306891",
+      "11399747",
+      "28254085",
+      "36204696",
+      "31586857",
+      "25017362",
+      "35988584",
+      "24547995",
+      "19847297",
+      "37886543",
+      "32074470",
+      "39195643",
+      "31310931",
+      "24013142",
+      "19519328",
+      "24496634",
+      "36422913",
+      "38048895",
+      "9699867",
+      "24687371",
+      "39076023",
+      "35307500",
+      "11566572",
+      "38673742",
+      "39215127",
+      "31460798",
+      "38044212",
+      "36433553",
+      "9696883",
+      "39058133",
+      "23897986",
+      "32050122",
+      "15178314",
+      "38316851",
+      "37627931",
+      "29763967",
+      "28011018",
+      "20872646",
+      "32552291",
+      "33711575",
+      "31456700",
+      "30628533",
+      "28319747",
+      "36238893",
+      "15454677",
+      "32274431",
+      "27074246",
+      "22494775",
+      "36207486",
+      "19343583",
+      "23052129",
+      "24494073",
+      "17173372",
+      "24856822",
+      "38184742",
+      "33233358",
+      "38797941",
+      "37164650",
+      "10680769",
+      "26830599",
+      "24928891",
+      "39223866",
+      "33549916",
+      "27412149",
+      "19940083",
+      "33327740",
+      "24469767",
+      "35861448"
+    ],
+    "review": [
+      "37575176",
+      "27983596",
+      "10815714",
+      "11399747",
+      "9699867",
+      "11566572",
+      "9696883",
+      "15454677",
+      "10680769",
+      "27412149"
+    ],
+    "pmc": [
+      "10413412"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37575176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

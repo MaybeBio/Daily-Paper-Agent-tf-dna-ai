@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external validation or replication of data was performed.
+- **Shared manuscript claim summary** The authors propose that geminin inhibits human DNA replication licensing by sterically blocking the interaction between CDT1 and MCM2, specifically through a coiled-coil domain that clashes with MCM2, and that full inhibition requires cooperative action with CDK1/2-cyclin A.
+- **Visible evidence base** In vitro reconstituted human pre-RC assays, mass photometry, SPR binding studies, AlphaFold structural predictions, mutagenesis, peptide truncation experiments, and Xenopus egg extract assays.
+- **Missing materials affecting confidence** Raw data files, uncropped gel images, full statistical analysis details, and supplementary figures referenced but not fully described in the text. The manuscript does not include a dedicated results section for the AlphaFold confidence metrics beyond brief mentions.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-executed biochemical dissection of geminin's inhibitory mechanism on DNA replication licensing. The use of a fully reconstituted human system is a significant strength, and the combination of structural prediction with functional assays provides a compelling narrative. The identification of a steric clash mechanism, rather than direct competition for the same binding site, is novel and mechanistically interesting. However, several concerns regarding the completeness of the inhibition, the interpretation of the CDK cooperation data, and the reliance on AlphaFold predictions without experimental structural validation temper my enthusiasm. The work is of high quality and will be of interest to the DNA replication community, but the claims of a "dual CDK-geminin axis" require stronger experimental support.
+- **Who would be interested in the results, and why** Researchers studying DNA replication licensing, cell cycle regulation, and genome stability. The mechanistic insights into geminin function are directly relevant to understanding how rereplication is prevented, which has implications for cancer biology. The methodological approach using a reconstituted system will also appeal to biochemists and structural biologists interested in protein-protein interactions and replication complex assembly.
+- **Major strengths** 1) The use of a fully reconstituted human DNA replication licensing assay is a major technical achievement and provides a clean system to dissect the mechanism. 2) The combination of AlphaFold predictions with functional validation through mutagenesis and peptide truncation is a powerful approach. 3) The identification of a steric clash mechanism, as opposed to simple competitive binding, is a novel and important conceptual advance. 4) The demonstration that geminin and CDK act cooperatively to fully block licensing provides a more complete picture of the regulatory network.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that geminin inhibits DNA replication licensing by sterically blocking CDT1-MCM2 interactions, specifically through a clash between the geminin coiled-coil and MCM2.
+  - **Evidence pointer** Figure 6f, Figure 7a, and related text in "A structural model that explains how geminin inhibits CDT1 in pre-RC formation" and "The geminin coiled-coil generates a steric clash with MCM2".
+  - **Concern** The steric clash model is based on a computational docking of the AlphaFold-predicted CDT1-geminin complex into the cryo-EM structure of the OCCM. While this is a reasonable hypothesis, it is not experimentally validated. The authors do not provide any direct biochemical or biophysical evidence (e.g., crosslinking, hydrogen-deuterium exchange, or mutagenesis of the predicted clash interface) to confirm that the clash occurs as predicted. The truncation experiments (Figure 7) are consistent with the model but do not prove it, as shortening the coiled-coil could affect the overall conformation or dynamics of the complex in ways not captured by the static model.
+  - **Why it matters** The central claim of the paper is the steric clash mechanism. Without direct experimental validation, the model remains speculative. This is particularly important because the authors themselves note that the CDT1 and MCM2 binding sites on geminin do not overlap, which is unusual for an inhibitor and requires strong evidence to support the proposed mechanism.
+  - **Resolution test** Provide experimental evidence for the steric clash, such as: (1) mutagenesis of residues at the predicted clash interface (e.g., geminin residues 133-160 or MCM2 residues predicted to clash) and demonstration that these mutations relieve inhibition without affecting CDT1 binding; (2) crosslinking or HDX-MS to map the interaction interface in the context of the OCCM; or (3) a high-resolution structure of the CDT1-geminin complex bound to the OCCM.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "a dual CDK-geminin axis controls human DNA replication" and that CDK and geminin cooperate to fully inhibit licensing.
+  - **Evidence pointer** Figure 8a-f and related text in "Geminin and CDK co-operatively regulate origin licensing".
+  - **Concern** The data show that CDK alone reduces licensing by ~70% and geminin alone by ~85%, and the combination reduces it to undetectable levels. However, the mechanism of cooperation is not explored. The authors show that CDK phosphorylates ORC1 and CDC6, but they do not demonstrate how this phosphorylation synergizes with geminin's inhibition. Is the effect additive or synergistic? What is the molecular basis for the cooperation? The claim of a "dual axis" implies a coordinated regulatory mechanism, but the data only show an additive effect of two independent inhibitors.
+  - **Why it matters** The conclusion that CDK and geminin form a dual regulatory axis is a significant claim that goes beyond the data presented. Without mechanistic insight into how these two pathways interact, the claim is overstated. This is important for understanding the physiological regulation of licensing and for potential therapeutic applications.
+  - **Resolution test** Perform experiments to dissect the mechanism of cooperation. For example: (1) Determine if CDK phosphorylation of ORC1 or CDC6 affects their interaction with geminin or CDT1; (2) Test whether the combined effect is synergistic (e.g., using isobologram analysis); (3) Identify the specific phosphorylation sites required for the cooperative effect and test mutants that cannot be phosphorylated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use AlphaFold predictions to identify interaction regions and guide experimental design, including the claim that the N-terminal helix/loop of geminin (residues 76-90) is essential for inhibition.
+  - **Evidence pointer** Figure 3a-e, Figure 5a, and related text in "Region 3.2: Geminin N-terminal residues 76−90 form a CDT1-binding motif that is essential for the inhibition of DNA replication licensing".
+  - **Concern** The AlphaFold model is used extensively to make mechanistic claims, but the confidence in the prediction is not thoroughly discussed. The authors mention pLDDT scores and PAE plots in the methods but do not present these data in the main text or supplementary figures. For a model that is central to the paper's conclusions, it is essential to show the confidence metrics and discuss any regions of low confidence. Additionally, the AlphaFold prediction of the CDT1-geminin complex has not been experimentally validated (e.g., by mutagenesis of the predicted interface or by a co-crystal structure).
+  - **Why it matters** The paper's conclusions rest heavily on the AlphaFold model. If the model is inaccurate in key regions, the interpretation of the experimental results could be wrong. The lack of confidence metrics makes it difficult for the reader to assess the reliability of the predictions.
+  - **Resolution test** Include the pLDDT and PAE plots for the CDT1-geminin complex in the supplementary figures. Discuss regions of low confidence and how they might affect the interpretation. Ideally, validate the predicted interface with mutagenesis or a low-resolution structural technique (e.g., SAXS or crosslinking).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1c
+  - **Evidence pointer** Figure 1c and legend
+  - **Issue** The figure legend states that GemFL stabilises CDC6 and inhibits CDT1ΔN and ORC6 interaction within LS elutions. However, the text in the results section describes the effect on ORC6 recruitment and CDC6 release. The figure legend is somewhat confusing and could be clearer about what is being shown.
+  - **Required correction** Clarify the figure legend to explicitly state what is being measured in each panel and what the key observations are.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1d, 1g, 1k, 1l, 2c, 4f, 5f, 5m, 8b, 8d, 8f
+  - **Evidence pointer** Figure legends
+  - **Issue** The figure legends state that data are shown as mean ± SD of three biological replicates, but the statistical tests used are not always clearly described. For example, in Figure 1d, a paired t-test is mentioned, but in other figures, it is not clear whether ANOVA or mixed-effects analysis was used.
+  - **Required correction** Ensure that all figure legends clearly state the statistical test used, the number of replicates, and the definition of significance (e.g., p < 0.05).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section on AlphaFold
+  - **Evidence pointer** Methods, "AlphaFold" section
+  - **Issue** The methods section describes the use of the AlphaFold server but does not provide sufficient detail on the input sequences, the number of models generated, or the selection criteria for the final model. This makes it difficult to reproduce the predictions.
+  - **Required correction** Provide more detail on the AlphaFold methodology, including the input sequences, the number of models generated, and the criteria used to select the final model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Figure 2b and 2c
+  - **Evidence pointer** Figure 2b and 2c and related text
+  - **Issue** The titration experiment shows that at least a 2x excess of geminin dimer is required for inhibition. The authors interpret this as indicating that the active inhibitory complex is a 1:2 CDT1:geminin heterotrimer. However, the data could also be explained by a simple mass-action effect where higher geminin concentrations are needed to saturate the binding. The authors should discuss this alternative interpretation.
+  - **Required correction** Add a sentence in the discussion acknowledging that the titration data are consistent with, but do not prove, the heterotrimer being the active species.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 5g
+  - **Evidence pointer** Figure 5g and legend
+  - **Issue** The Xenopus egg extract assay is described in the methods, but the figure legend does not clearly explain what the "mock-licensed negative control" is and why it is subtracted. This makes it difficult to interpret the data.
+  - **Required correction** Clarify the figure legend to explain the control and the subtraction procedure.
+
+## Risk / unsupported claims
+- The claim that geminin inhibits licensing by sterically blocking CDT1-MCM2 interactions is supported by computational docking but lacks direct experimental validation. This is a central claim and should be strengthened.
+- The claim of a "dual CDK-geminin axis" is not fully supported by the data, which show an additive effect rather than a coordinated mechanism.
+- The functional importance of the N-terminal helix/loop of geminin (residues 76-90) is based on AlphaFold predictions and peptide experiments, but the structural basis for its role is not experimentally confirmed.
+- The statement that "geminin must impact helicase loading in another way" (because the binding sites do not overlap) is speculative and not directly tested.
+- The claim that the identified interaction surfaces "could represent targets for drug development" is speculative and not supported by any data in the manuscript.

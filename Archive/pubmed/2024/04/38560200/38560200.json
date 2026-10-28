@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "38560200",
+    "doi": "10.1016/j.heliyon.2024.e27357",
+    "title": "Identification and verification of AK4 as a protective immune-related biomarker in adipose-derived stem cells and breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer (BC) remains the most common cancer among women, and novel post-surgical reconstruction techniques, including autologous fat transplantation, have emerged. While Adipose-derived stem cells (ADSCs) are known to impact the viability of fat grafts, their influence on breast cancer progression remains unclear. This study aims to elucidate the genetic interplay between ADSCs and breast cancer, focusing on potential therapeutic targets. METHODS: Using the GEO and TCGA databases, we pinpointed differentially expressed (DE) mRNAs, miRNAs, lncRNAs, and pseudogenes of ADSCs and BC. We performed functional enrichment analysis and constructed protein-protein interaction (PPI), RNA binding protein (RBP)-pseudogene-mRNA, and lncRNA-miRNA-transcription factor (TF)-gene networks. Our study delved into the correlation of AK4 expression with 33 different malignancies and examined its impact on prognostic outcomes across a pan-cancer cohort. Additionally, we scrutinized immune infiltration, microsatellite instability, and tumor mutational burden, and conducted single-cell analysis to further understand the implications of AK4 expression. We identified novel sample subtypes based on hub genes using the ConsensusClusterPlus package and examined their association with immune infiltration. The random forest algorithm was used to screen DE mRNAs between subtypes to validate the powerful prognostic prediction ability of the artificial neural network. RESULTS: Our analysis identified 395 DE mRNAs, 3 DE miRNAs, 84 DE lncRNAs, and 26 DE pseudogenes associated with ADSCs and BC. Of these, 173 mRNAs were commonly regulated in both ADSCs and breast cancer, and 222 exhibited differential regulation. The PPI, RBP-pseudogene-mRNA, and lncRNA-miRNA-TF-gene networks suggested AK4 as a key regulator. Our findings support AK4 as a promising immune-related therapeutic target for a wide range of malignancies. We identified 14 characteristic genes based on the AK4-related cluster using the random forest algorithm. Our artificial neural network yielded excellent diagnostic performance in the testing cohort with AUC values of 0.994, 0.973, and 0.995, indicating its ability to distinguish between breast cancer and non-breast cancer cases. CONCLUSIONS: Our research sheds light on the dual role of ADSCs in BC at the genetic level and identifies AK4 as a key protective mRNA in breast cancer. We found that AK4 significantly predicts cancer prognosis and immunotherapy, indicating its potential as a therapeutic target.",
+    "keywords": [
+      "Adenylate kinase 4",
+      "Adipose-derived stem cell",
+      "Bioinformatics",
+      "Breast cancer",
+      "Fat grafting",
+      "Immune landscape"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Wei",
+        "Yang, Zhenyu",
+        "Wang, Mengjie",
+        "Li, Shiqi",
+        "Bi, Hui",
+        "Yang, Xiaonan"
+      ],
+      "short_names": [
+        "Lu W",
+        "Yang Z",
+        "Wang M",
+        "Li S",
+        "Bi H",
+        "Yang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Chinese Academy of Medical Sciences & Peking Union Medical College, 4+4 M.D. Program, Beijing, 100144, China.",
+        "Department of Internal Medicine, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Wei",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhenyu",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengjie",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shiqi",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese Academy of Medical Sciences & Peking Union Medical College, 4+4 M.D. Program, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Hui",
+        "short_name": "Bi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaonan",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hemangioma and Vascular Malformation, Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 Apr 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/01 18:42",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "42087892"
+    ],
+    "refs": [
+      "35267409",
+      "33741032",
+      "33538338",
+      "33466733",
+      "33407902",
+      "33139244",
+      "32956623",
+      "32922364",
+      "32514148",
+      "32296030",
+      "31350295",
+      "31320607",
+      "29725325",
+      "29669262",
+      "29425488",
+      "29344893",
+      "29339797",
+      "29087512",
+      "28940711",
+      "28935974",
+      "27473064",
+      "26980435",
+      "26710059",
+      "26704973",
+      "26489893",
+      "26205789",
+      "25964631",
+      "25736688",
+      "25691825",
+      "25605792",
+      "25516281",
+      "25352553",
+      "25063298",
+      "24502410",
+      "24495878",
+      "24361334",
+      "24297251",
+      "24113773",
+      "24075051",
+      "23783061",
+      "23740839",
+      "23323831",
+      "23146316",
+      "23002211",
+      "22455463",
+      "22261562",
+      "21910250",
+      "21802130",
+      "21502909",
+      "21327615",
+      "21304988",
+      "21085593",
+      "20726819",
+      "20673000",
+      "20603108",
+      "20427518",
+      "20097481",
+      "19308770",
+      "17914389",
+      "17785797",
+      "17763894",
+      "17312477",
+      "16199517",
+      "15382693",
+      "14597658",
+      "12925520",
+      "11804872",
+      "10802651",
+      "10592173"
+    ],
+    "similar": [
+      "38560200",
+      "33779949",
+      "36131924",
+      "30138363",
+      "36684328",
+      "37143115",
+      "36445571",
+      "35757392",
+      "33439992",
+      "32766141",
+      "33204705",
+      "32456463",
+      "38323233",
+      "35672672",
+      "36061211",
+      "35990977",
+      "34721733",
+      "37854219",
+      "35474355",
+      "34426790",
+      "35365175",
+      "31827645",
+      "36238478",
+      "30261893",
+      "29518546",
+      "33868359",
+      "37632832",
+      "33850763",
+      "32775417",
+      "35937989",
+      "32605588",
+      "37488484",
+      "38444712",
+      "38242381",
+      "35414829",
+      "35782736",
+      "32662828",
+      "32457285",
+      "31037764",
+      "37871689",
+      "34490040",
+      "35832124",
+      "33027767",
+      "34616615",
+      "33403032",
+      "30092571",
+      "35990668",
+      "36566321",
+      "38470002",
+      "34734036",
+      "35059509",
+      "36300102",
+      "28939059",
+      "30336538",
+      "34536521",
+      "34049287",
+      "35532246",
+      "35330734",
+      "30602391",
+      "30258285",
+      "31572452",
+      "31061236",
+      "34134622",
+      "38352274",
+      "37904009",
+      "35559038",
+      "33681226",
+      "34712062",
+      "36620596",
+      "34777462",
+      "35855425",
+      "37099974",
+      "33861762",
+      "31709182",
+      "34968391",
+      "35117727",
+      "33986769",
+      "34754623",
+      "36713370",
+      "31695969",
+      "37157205",
+      "37740761",
+      "36118359",
+      "37110517",
+      "30734239",
+      "33123295",
+      "34252359",
+      "35331183",
+      "34545330",
+      "34148372",
+      "30308479",
+      "34819106",
+      "31463832",
+      "33274208",
+      "32500028",
+      "38751673"
+    ],
+    "review": [
+      "38560200",
+      "38751673"
+    ],
+    "pmc": [
+      "10980947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)03388-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38560200/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38560200",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15006567/v1",
+  "title": "MCSwell: Thermodynamic Characterization of Binding Site Hydration",
+  "authors": "Niccolo’ Bruciaferri; Diogo Santos-Martins; Matthew Holcomb; Manuel A. Llanos; Stefano Forli",
+  "journal": "ChemRxiv",
+  "published_date": "2026-07-27",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发GPU加速的巨正则蒙特卡洛方法MCSwell，用于高效表征蛋白结合位点水合位点及其热力学贡献，虽非直接针对TF-DNA互作，但结合位点水合建模方法可迁移至蛋白-DNA界面研究，属于广义蛋白-配体互作且具物理模拟方法创新。",
+  "abstract": "Water molecules in protein binding sites play a central role in ligand recognition by mediating stabilizing interactions and contributing desolvation penalties upon displacement. Reliable identification of hydration sites and quantification of their thermodynamic contributions remain challenging, as experimental water placement is often uncertain and direct experimental measurements of individual water free energies are not available. Molecular dynamics (MD) simulations are commonly used to characterize binding-site hydration, but their ability to sample buried or partially occluded sites is limited by kinetic barriers and substantial computational cost. In this work, we present MCSwell, a GPU-accelerated Grand Canonical Monte Carlo (GCMC) method for efficient sampling of water molecules in protein binding sites. By enabling rapid insertion and deletion moves, MCSwell provides robust identification of both exposed and buried hydration sites and estimates their thermodynamic favorability within a rigorous statistical mechanical framework. The method is highly configurable and accessible through a lightweight Python interface, facilitating integration into structure-based drug discovery workflows. We evaluate MCSwell across several protein systems by comparison with hydration patterns derived from MD simulations and with WaterKit, a previously reported MC-based approach. MCSwell achieves comparable accuracy while reducing computational cost from hours to minutes, enabling rapid and systematic hydration site analysis. These results demonstrate the utility of MCSwell as an efficient tool for modeling binding-site hydration in molecular design applications.",
+  "abstract_zh": "蛋白质结合位点中的水分子通过介导稳定相互作用并在置换时贡献去溶剂化惩罚，在配体识别中发挥核心作用。可靠地识别水合位点并量化其热力学贡献仍具挑战性，因为实验性水分子定位往往不确定，且单个水分子自由能的直接实验测量不可得。分子动力学 (molecular dynamics, MD) 模拟常用于表征结合位点的水合状态，但其采样埋藏或部分封闭位点的能力受限于动力学势垒和显著的计算成本。在本工作中，我们提出MCSwell，一种GPU加速的巨正则蒙特卡洛 (Grand Canonical Monte Carlo, GCMC) 方法，用于高效采样蛋白质结合位点中的水分子。通过实现快速的插入和删除移动，MCSwell能够稳健地识别暴露和埋藏的水合位点，并在严格的统计力学框架内估计其热力学有利性。该方法高度可配置，并通过轻量级Python接口访问，便于整合到基于结构的药物发现流程中。我们通过比较MD模拟得出的水合模式以及先前报道的基于MC的方法WaterKit，在多个蛋白质系统上评估MCSwell。MCSwell在实现相当精度的同时，将计算成本从数小时降至数分钟，从而支持快速且系统性的水合位点分析。这些结果展示了MCSwell作为分子设计应用中建模结合位点水合的高效工具的实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15006567/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15006567/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15006567_v1/index.html"
+}

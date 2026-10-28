@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, data/code availability, author contributions, competing interests, acknowledgements)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors present AiDTA, a deep reinforcement learning-based agent that assembles nucleic acid fragments, identified by molecular docking, into full-length aptamers targeting proteins. They claim de novo design of protein-binding aptamers without SELEX, validated by MicroScale Thermophoresis (MST) showing nanomolar affinities for four protein targets.
+- **Visible evidence base** Abstract, Introduction, Results sections 1-7, Methods, Data/Code availability statements. Figures and tables are referenced but not provided in the supplied text.
+- **Missing materials affecting confidence** All figures (Fig. 1-6, S1-S11), tables (S1, S2), and supplementary information are referenced but not included. This includes the MST binding curves, docking scores, sequence data, and structural models. The absence of these materials prevents independent verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a novel computational approach to aptamer design that addresses a significant challenge in the field. The integration of deep reinforcement learning with a docking-then-assembling strategy is conceptually interesting and the reported results, if reproducible, would represent a notable advance. However, the current manuscript has several critical technical gaps that must be addressed. The most significant concerns are the lack of a rigorous comparison to established methods, the absence of key experimental details and controls, and the overstatement of the "first" de novo design claim. The evidence presented, while promising, is not sufficient to fully establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in aptamer discovery, nucleic acid nanotechnology, and computational drug design would be interested. The potential to replace or supplement SELEX with a computational pipeline is of broad interest to the biotechnology and diagnostics communities. The methodological approach may also appeal to those working on reinforcement learning applications in molecular design.
+- **Major strengths** The manuscript addresses a real and important problem: the labor-intensive nature of SELEX. The conceptual framework of using docking to identify binding fragments and then assembling them with reinforcement learning is a creative and potentially powerful idea. The demonstration across four different protein targets, including viral and human proteins, suggests a degree of generality. The reported nanomolar affinities are encouraging and suggest the approach can produce functional aptamers.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that AiDTA achieves "de novo design of protein-binding aptamers for the first time" and that it is a general method not requiring predetermined structures or experimental data.
+    - **Evidence pointer** Abstract, Introduction, Discussion
+    - **Concern** The claim of "first" is not substantiated. The authors do not provide a comprehensive comparison with existing computational aptamer design methods, such as those based on molecular dynamics simulations, homology modeling, or other machine learning approaches. Without a thorough benchmark against the state of the art, this claim is unsupported. Furthermore, the method still relies on the target protein structure, which is a form of prior information. The distinction between "de novo" and "structure-based" design needs to be clarified.
+    - **Why it matters** The novelty and significance of the work are central to its impact. An unsubstantiated claim of being "first" undermines the credibility of the paper and misrepresents the field's progress. A clear and fair comparison to existing methods is essential to position the work accurately.
+    - **Resolution test** The authors must provide a detailed comparison with at least one or two existing computational aptamer design methods, using the same target proteins and evaluation metrics. They should also temper their claims to accurately reflect the state of the art, acknowledging the reliance on target structure.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the designed aptamers exhibit "high binding affinities" and that the method has a "very high success rate."
+    - **Evidence pointer** Results section 6, Figure 5g, Figure S7
+    - **Concern** The experimental validation is limited to MST measurements. While MST is a valid method, the manuscript lacks critical details and controls. The number of replicates is mentioned (three), but the variability (e.g., standard deviation or confidence intervals) is not reported. The criteria for a "successful" aptamer (Kd < 1 μM) appear arbitrary. Most importantly, there is no negative control, such as a random sequence or a scrambled aptamer, to demonstrate that the binding is specific to the designed sequence. The comparison to SELEX-derived aptamers is only for two targets and does not include a statistical comparison.
+    - **Why it matters** The core claim of the paper is that AiDTA produces functional aptamers. Without proper controls and statistical analysis, the reported Kd values could be due to non-specific binding or experimental artifacts. The lack of a negative control is a fundamental flaw that prevents the conclusion that the binding is sequence-specific.
+    - **Resolution test** The authors must provide MST data with error bars and statistical analysis. They must include a negative control (e.g., a random sequence of similar length) for each target. They should also provide a more detailed description of the MST methodology, including the buffer conditions, protein concentrations, and how the Kd was calculated.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Reproducibility
+    - **Claim pointer** The claim that the computational pipeline is fully described and reproducible.
+    - **Evidence pointer** Methods, Code availability
+    - **Concern** The Methods section lacks sufficient detail to reproduce the computational pipeline. The hyperparameters for the reinforcement learning algorithm (e.g., learning rate, batch size, number of training steps) are not provided. The exact architecture of the policy-value network is described, but the training procedure is not fully specified. The criteria for selecting the "top" fragments based on docking scores are not quantitative. The use of RNAstructure for secondary structure prediction is mentioned, but the specific parameters are not given. While the code is available on GitHub, the manuscript should contain enough information for a skilled researcher to reproduce the method without needing to reverse-engineer the code.
+    - **Why it matters** Reproducibility is a cornerstone of the scientific method. A lack of detail in the Methods section makes it impossible for other groups to validate or build upon this work, which is a key requirement for a Nature-style publication.
+    - **Resolution test** The authors must expand the Methods section to include all relevant hyperparameters, training details, and selection criteria. They should also provide a step-by-step description of the pipeline that is independent of the code.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The claim that the approach is "a transformative leap" and "extremely helpful for designing affinity aptamers for large numbers of protein targets."
+    - **Evidence pointer** Discussion
+    - **Concern** The authors do not demonstrate the scalability or throughput of their method. The number of aptamers designed and tested per target is small (6-9). The computational cost of the docking and reinforcement learning steps is not discussed. The claim of being a "transformative leap" is not supported by the data presented, which is a proof-of-concept with a limited number of targets.
+    - **Why it matters** The significance of the work depends on its potential to be broadly applicable and efficient. Without evidence of scalability or a discussion of computational costs, the claims of broad utility are speculative.
+    - **Resolution test** The authors should provide a discussion of the computational resources required and the time needed to design aptamers for a new target. They could also demonstrate the method on a larger panel of targets or discuss how the approach could be scaled.
+
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract, Introduction
+    - **Evidence pointer** Abstract, Introduction
+    - **Issue** The term "de novo" is used loosely. The method relies on the target protein structure and a library of predefined fragments. This should be clarified to avoid confusion with truly ab initio methods.
+    - **Required correction** Define "de novo" in the context of this work, explicitly stating that it refers to the absence of experimental SELEX data, not the absence of structural information.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Results section 3
+    - **Evidence pointer** Results section 3
+    - **Issue** The description of the MCTS algorithm and the policy-value network is dense and may be difficult for a non-specialist to follow.
+    - **Required correction** Consider adding a simplified schematic or a more intuitive explanation of the reinforcement learning loop, perhaps in a figure or a box.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Molecular docking
+    - **Evidence pointer** Methods
+    - **Issue** The manuscript states that HDOCK was used for docking, but it does not specify whether the nucleic acid fragments were treated as flexible or rigid. This is a critical parameter for docking accuracy.
+    - **Required correction** Specify the flexibility settings for both the nucleic acid fragments and the protein target in the docking protocol.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results section 4
+    - **Evidence pointer** Results section 4
+    - **Issue** The statement that "the frequencies of the four nucleotides at each position were nearly equal" is vague. A statistical test or a more quantitative measure would be more informative.
+    - **Required correction** Provide a quantitative measure of nucleotide frequency uniformity, such as the average and range of frequencies across positions.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods, MST measurements
+    - **Evidence pointer** Methods
+    - **Issue** The MST buffer composition is not fully described. The presence of detergents or other additives can significantly affect binding measurements.
+    - **Required correction** Provide the complete composition of the MST buffer, including any additives like Tween or BSA.
+
+## Risk / unsupported claims
+- The claim of being the "first" to achieve de novo design of protein-binding aptamers is unsupported without a comprehensive comparison to existing methods.
+- The claim of a "very high success rate" is not quantified and is based on a small number of tested aptamers per target.
+- The claim that the method is "a transformative leap" is speculative and not supported by the data presented.
+- The claim that the designed aptamers have "high binding affinities" is not supported by a statistical analysis of the MST data, and the lack of negative controls makes the specificity of binding uncertain.
+- The generalizability of the method to a wide range of protein targets is not demonstrated, as only four targets were tested.
+- The computational efficiency and scalability of the method are not discussed, making claims of broad utility unsubstantiated.

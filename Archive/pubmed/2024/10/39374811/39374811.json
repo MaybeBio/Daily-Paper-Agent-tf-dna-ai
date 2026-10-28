@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "39374811",
+    "doi": "10.1016/j.bbadis.2024.167535",
+    "title": "Bulk integrated single-cell-spatial transcriptomics reveals the impact of preoperative chemotherapy on cancer-associated fibroblasts and tumor cells in colorectal cancer, and construction of related predictive models using machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preoperative chemotherapy (PC) is an important component of Colorectal cancer (CRC) treatment, but its effects on the biological functions of fibroblasts and epithelial cells in CRC are unclear. METHODS: This study utilized bulk, single-cell, and spatial transcriptomic sequencing data from 22 independent cohorts of CRC. Through bioinformatics analysis and in vitro experiments, the research investigated the impact of PC on fibroblast and epithelial cells in CRC. Subpopulations associated with PC and CRC prognosis were identified, and a predictive model was constructed using machine learning. RESULTS: PC significantly attenuated the pathways related to tumor progression in fibroblasts and epithelial cells. NOTCH3 + Fibroblast (NOTCH3 + Fib), TNNT1 + Epithelial (TNNT1 + Epi), and HSPA1A + Epithelial (HSPA1A + Epi) subpopulations were identified in the adjacent spatial region and were associated with poor prognosis in CRC. PC effectively diminished the presence of these subpopulations, concurrently inhibiting pathway activity and intercellular crosstalk. A risk signature model, named the Preoperative Chemotherapy Risk Signature Model (PCRSM), was constructed using machine learning. PCRSM emerged as an independent prognostic indicator for CRC, impacting both overall survival (OS) and recurrence-free survival (RFS), surpassing the performance of 89 previously published CRC risk signatures. Additionally, patients with a high PCRSM risk score showed sensitivity to fluorouracil-based adjuvant chemotherapy (FOLFOX) but resistance to single chemotherapy drugs (such as Bevacizumab and Oxaliplatin). Furthermore, this study predicted that patients with high PCRSM were resistant to anti-PD1therapy. CONCLUSION: In conclusion, this study identified three cell subpopulations (NOTCH3 + Fib, TNNT1 + Epi, and HSPA1A + Epi) associated with PC, which can be targeted to improve the prognosis of CRC patients. The PCRSM model shows promise in enhancing the survival and treatment of CRC patients.",
+    "keywords": [
+      "Cancer associated fibroblasts (CAFs)",
+      "Colorectal cancer (CRC)",
+      "Machine learning",
+      "Preoperative chemotherapy (PC)"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/genetics/drug therapy/pathology/mortality/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "*Cancer-Associated Fibroblasts/metabolism/drug effects/pathology",
+      "*Transcriptome/drug effects",
+      "*Single-Cell Analysis/methods",
+      "Prognosis",
+      "Receptor, Notch3/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Male",
+      "Cell Line, Tumor",
+      "Female",
+      "Epithelial Cells/metabolism/pathology/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Shangshang",
+        "Qin, Jian",
+        "Ding, Muzi",
+        "Gao, Rui",
+        "Xiao, QianNi",
+        "Lou, Jinwei",
+        "Chen, Yuhan",
+        "Wang, Shukui",
+        "Pan, Yuqin"
+      ],
+      "short_names": [
+        "Hu S",
+        "Qin J",
+        "Ding M",
+        "Gao R",
+        "Xiao Q",
+        "Lou J",
+        "Chen Y",
+        "Wang S",
+        "Pan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China.",
+        "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China.",
+        "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China.",
+        "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China.",
+        "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China.",
+        "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China.",
+        "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China.",
+        "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China; General Clinical Research Center, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu, China; Jiangsu Collaborative Innovation Center on Cancer Personalized Medicine, Nanjing Medical University, Nanjing 211100, Jiangsu, China. Electronic address: sk_wang@njmu.edu.cn.",
+        "General Clinical Research Center, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu, China; Jiangsu Collaborative Innovation Center on Cancer Personalized Medicine, Nanjing Medical University, Nanjing 211100, Jiangsu, China. Electronic address: panyuqin01@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Shangshang",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Jian",
+        "short_name": "Qin J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Muzi",
+        "short_name": "Ding M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Rui",
+        "short_name": "Gao R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, QianNi",
+        "short_name": "Xiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Jinwei",
+        "short_name": "Lou J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuhan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing 211122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shukui",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing 210009, Jiangsu, China; General Clinical Research Center, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu, China; Jiangsu Collaborative Innovation Center on Cancer Personalized Medicine, Nanjing Medical University, Nanjing 211100, Jiangsu, China. Electronic address: sk_wang@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pan, Yuqin",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "General Clinical Research Center, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu, China; Jiangsu Collaborative Innovation Center on Cancer Personalized Medicine, Nanjing Medical University, Nanjing 211100, Jiangsu, China. Electronic address: panyuqin01@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Molecular basis of disease"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Mol Basis Dis"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/08 00:23",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42317389",
+      "41164803",
+      "40735269",
+      "40697221",
+      "40413514",
+      "40370990"
+    ],
+    "refs": [],
+    "similar": [
+      "39374811",
+      "38654221",
+      "39120743",
+      "39835715",
+      "40068177",
+      "39703515",
+      "39755821",
+      "40047469",
+      "34717544",
+      "40098972",
+      "39367576",
+      "40075322",
+      "39732719",
+      "40108105",
+      "39794799",
+      "35794563",
+      "39934919",
+      "40102930",
+      "31468733",
+      "40050872",
+      "35967425",
+      "31064356",
+      "39805388",
+      "38657117",
+      "39075485",
+      "39859524",
+      "32343052",
+      "40145096",
+      "40103807",
+      "40438100",
+      "39199281",
+      "39966486",
+      "39209001",
+      "33293373",
+      "38824480",
+      "40438115",
+      "34883119",
+      "28412748",
+      "35784334",
+      "39623187",
+      "38702814",
+      "32657428",
+      "38478111",
+      "39966876",
+      "27955637",
+      "24444035",
+      "39342165",
+      "39954853",
+      "38299230",
+      "26556874",
+      "39456726",
+      "39496775",
+      "23809767",
+      "39471526",
+      "38773226",
+      "38445432",
+      "38594466",
+      "22844451",
+      "31381140",
+      "40274385",
+      "37926835",
+      "40451897",
+      "39215032",
+      "34364366",
+      "39155627",
+      "40248707",
+      "39443302",
+      "27053631",
+      "35395711",
+      "30988394",
+      "39294858",
+      "34922323",
+      "33197448",
+      "38982511",
+      "37539967",
+      "31825725",
+      "29945992",
+      "39974383",
+      "40307786",
+      "39643827",
+      "40225580",
+      "38759695",
+      "36705874",
+      "38902737",
+      "34175688",
+      "36629124",
+      "30894065",
+      "26502222",
+      "39717768",
+      "38521111",
+      "38647729",
+      "38614865",
+      "30890168",
+      "39875913",
+      "39944338",
+      "39076986",
+      "35968507",
+      "38806611",
+      "38062276",
+      "39904858"
+    ],
+    "review": [
+      "39374811"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0925-4439(24)00529-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3485",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

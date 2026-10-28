@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39135102",
+  "title": "Prevalence of and gene regulatory constraints on transcriptional adaptation in single cells.",
+  "authors": "Mellis, Ian A; Melzer, Madeline E; Bodkin, Nicholas; Goyal, Yogesh",
+  "journal": "Genome biology",
+  "published_date": "2024-08-13",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用转录组数据与随机建模研究转录适应现象，虽涉及转录因子调控网络，但核心是基因表达补偿而非蛋白质-DNA互作建模，方法上仅含简单随机模型与机器学习，缺乏AI/物理模拟的深度结合。",
+  "abstract": "BACKGROUND: Cells and tissues have a remarkable ability to adapt to genetic perturbations via a variety of molecular mechanisms. Nonsense-induced transcriptional compensation, a form of transcriptional adaptation, has recently emerged as one such mechanism, in which nonsense mutations in a gene trigger upregulation of related genes, possibly conferring robustness at cellular and organismal levels. However, beyond a handful of developmental contexts and curated sets of genes, no comprehensive genome-wide investigation of this behavior has been undertaken for mammalian cell types and conditions. How the regulatory-level effects of inherently stochastic compensatory gene networks contribute to phenotypic penetrance in single cells remains unclear. RESULTS: We analyze existing bulk and single-cell transcriptomic datasets to uncover the prevalence of transcriptional adaptation in mammalian systems across diverse contexts and cell types. We perform regulon gene expression analyses of transcription factor target sets in both bulk and pooled single-cell genetic perturbation datasets. Our results reveal greater robustness in expression of regulons of transcription factors exhibiting transcriptional adaptation compared to those of transcription factors that do not. Stochastic mathematical modeling of minimal compensatory gene networks qualitatively recapitulates several aspects of transcriptional adaptation, including paralog upregulation and robustness to mutation. Combined with machine learning analysis of network features of interest, our framework offers potential explanations for which regulatory steps are most important for transcriptional adaptation. CONCLUSIONS: Our integrative approach identifies several putative hits-genes demonstrating possible transcriptional adaptation-to follow-up on experimentally and provides a formal quantitative framework to test and refine models of transcriptional adaptation.",
+  "abstract_zh": "背景：细胞和组织具有通过多种分子机制适应遗传扰动的显著能力。无义突变诱导的转录补偿，作为转录适应的一种形式，最近被发现是其中一种机制，其中基因中的无义突变触发相关基因的上调，可能在细胞和生物体水平上赋予稳健性。然而，除了少数发育背景和精选基因集外，尚未对哺乳动物细胞类型和条件进行全面的全基因组范围研究。固有随机性的补偿性基因网络的调控水平效应如何影响单细胞中的表型外显率仍不清楚。结果：我们分析了现有的批量及单细胞转录组数据集，以揭示转录适应在哺乳动物系统中跨不同背景和细胞类型的普遍性。我们在批量及混合单细胞遗传扰动数据集中对转录因子靶标集进行了调节子基因表达分析。我们的结果显示，表现出转录适应的转录因子调节子在表达上比未表现出转录适应的转录因子具有更大的稳健性。最小补偿性基因网络的随机数学模型定性地重现了转录适应的几个方面，包括旁系同源基因上调和突变稳健性。结合对感兴趣网络特征的机器学习分析，我们的框架为哪些调控步骤对转录适应最重要提供了潜在解释。结论：我们的整合方法识别出几个可能的候选基因——表现出潜在转录适应的基因——供实验后续验证，并提供了一个正式的定量框架来测试和完善转录适应模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39135102/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39135102/",
+  "paper_page_path": "papers/pubmed/39135102/index.html"
+}

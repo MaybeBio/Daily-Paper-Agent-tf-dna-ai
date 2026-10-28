@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors compare two computationally predicted structural models of the HBV oncoprotein HBx, assess sequence conservation across human and non-human HBV genotypes, infer zoonotic transmission from phylogenetic analysis, identify human-specific residues with potential functional implications, and use structural alignment and molecular dynamics simulations to argue that the AlphaFold model is more credible than the I-TASSER model. They also report structural similarity between the AlphaFold HBx model and palmitoleoyl transferases, suggesting an evolutionary origin.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, sequence alignment details, phylogenetic tree, structural alignment data, MD simulation parameters and trajectories, model quality metrics, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative analysis of HBx structural models with evolutionary and functional implications. However, the current evidence base is insufficient to evaluate the validity of the central claims. Key assertions regarding model selection, functional residue conservation, and evolutionary inferences are stated without supporting quantitative data or methodological detail. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying HBV pathogenesis and oncogenesis, structural biologists interested in viral proteins with intrinsically disordered regions, evolutionary virologists examining zoonotic transmission, and computational biologists developing or benchmarking protein structure prediction methods. The potential link between HBx structure and palmitoleoyl transferase similarity could interest those studying protein functional evolution.
+- **Major strengths** The study addresses a genuine gap in HBx structural knowledge, given the limited and conflicting computational predictions available. The comparative approach across human and non-human HBV genotypes is valuable for understanding host-specific adaptation. The use of multiple computational methods and the attempt to adjudicate between conflicting models through MD simulations and partial structural alignment is methodologically thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that AlphaFold prediction is supported over I-TASSER based on structural alignment with a partially resolved HBx structure and MD simulations
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that structural alignment and MD simulations "support" the AlphaFold prediction, but provides no quantitative metrics such as RMSD values, alignment coverage, simulation stability measures, or comparison of model quality scores. Without these data, the basis for preferring AlphaFold over I-TASSER cannot be assessed.
+  - **Why it matters** The central methodological conclusion of the paper rests on this model comparison. If the evidence is weak or the comparison criteria are not clearly defined, the entire structural analysis is undermined.
+  - **Resolution test** Provide explicit structural alignment statistics, MD simulation convergence and stability metrics, and a clear rationale for why these criteria favor AlphaFold. Ideally, include model quality scores from independent validation tools.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that residues Ser25, Pro90, and Cys115 are "exclusive to human HBV" and indicate "sub-neofunctionalization"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how many sequences were analyzed, which genotypes and strains were included, or how "exclusive" was defined. Without a clear sequence dataset and conservation analysis methodology, the claim of human-specific residues cannot be evaluated. The functional annotations for these residues are also stated without citation or experimental evidence.
+  - **Why it matters** This claim forms the basis for the proposed functional specialization of HBx in human HBV. If the sequence sampling is incomplete or the definition of exclusivity is not rigorous, the evolutionary interpretation is unsupported.
+  - **Resolution test** Provide the full sequence dataset, alignment methodology, and a clear definition of conservation thresholds. Include statistical support for the exclusivity claim and citations for the functional annotations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that phylogenetic analysis "suggests zoonotic transmission" between humans and orangutan HBV
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information about the phylogenetic method, sequence dataset, tree topology, or statistical support for the inferred transmission event. A single statement without supporting evidence is insufficient to establish a zoonotic transmission claim.
+  - **Why it matters** Zoonotic transmission is a significant evolutionary and public health-related claim. Without proper phylogenetic evidence, this conclusion is speculative.
+  - **Resolution test** Provide the phylogenetic tree with bootstrap or posterior probability values, describe the sequence dataset and evolutionary model used, and clarify the specific evidence for transmission direction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the AlphaFold HBx model exhibits similarity to palmitoleoyl transferases, suggesting a possible evolutionary origin
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the method used to detect this similarity, the statistical significance of the match, the structural regions involved, or the functional relevance of the similarity. Without these details, the evolutionary inference is not testable.
+  - **Why it matters** This claim extends beyond structural prediction into functional and evolutionary speculation. If the similarity is weak or based on limited structural regions, the conclusion is overreaching.
+  - **Resolution test** Provide the structural comparison method, significance scores, aligned regions, and a discussion of whether the similarity is likely to reflect homology or convergent evolution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on HBx structure prediction history
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "only a limited number of studies have explored the structure of HBx using computational approaches" but does not cite these studies or explain why the two predicted topologies differ.
+  - **Required correction** Add citations for prior computational studies and briefly explain the methodological differences that led to divergent predictions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Statement that "over 50% of infections leading to hepatocellular carcinoma"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** This statistic is presented without context regarding the population, follow-up duration, or confounding factors. It may be an oversimplification of a complex relationship.
+  - **Required correction** Provide a citation and clarify the conditions under which this statistic applies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "sub-neofunctionalization"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** This term is not standard in evolutionary biology. The intended meaning appears to be partial neofunctionalization or subfunctionalization, but the term is ambiguous.
+  - **Required correction** Use standard terminology or define the term explicitly upon first use.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conservation statement regarding Cys61, Cys69, Cys137, and His139
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states these residues are "conserved across all mammalian HBV" but does not specify the number of sequences examined or the conservation threshold used.
+  - **Required correction** Provide the sequence count and conservation criteria in the abstract or refer to a table in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence for model comparison, sequence conservation analysis, phylogenetic inference, and structural similarity detection. Each of these is central to the paper's conclusions.
+- **Assessment against Nature-style criteria** Originality: The comparative approach to adjudicating between conflicting HBx structural models is somewhat novel, but the abstract does not demonstrate sufficient differentiation from prior computational studies. Scientific importance: The topic is relevant to HBV biology and oncogenesis, but the significance of the findings is not clearly established without supporting evidence. Interdisciplinary readership: The work could appeal to structural biologists, virologists, and evolutionary biologists, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and quantitative results is a major limitation. Readability for nonspecialists: The abstract assumes familiarity with structural prediction methods and HBV biology; key terms and concepts are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the quantitative and methodological support needed to evaluate the claims. A full manuscript with detailed methods, results, and statistical analyses would be required to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim that AlphaFold prediction is superior to I-TASSER is unsupported without quantitative comparison metrics.
+- The claim of human-specific residues indicating sub-neofunctionalization is unsupported without sequence dataset details and conservation analysis.
+- The claim of zoonotic transmission between humans and orangutans is unsupported without phylogenetic evidence.
+- The claim of structural similarity to palmitoleoyl transferases is unsupported without comparison methodology and significance scores.
+- The statistic that over 50% of HBV infections lead to hepatocellular carcinoma is presented without citation or context.
+- The functional annotations for Ser25, Pro90, and Cys115 are stated without citations.

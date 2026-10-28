@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35551308",
+  "title": "Sequence-based modeling of three-dimensional genome architecture from kilobase to chromosome scale.",
+  "authors": "Zhou, Jian",
+  "journal": "Nature genetics",
+  "published_date": "2022-05-14",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型Orca从序列预测三维基因组结构，涵盖CTCF介导和增强子-启动子等蛋白-DNA互作相关特征，虽非直接聚焦TF-DNA结合机制，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "To learn how genomic sequence influences multiscale three-dimensional (3D) genome architecture, this manuscript presents a sequence-based deep-learning approach, Orca, that predicts directly from sequence the 3D genome architecture from kilobase to whole-chromosome scale. Orca captures the sequence dependencies of structures including chromatin compartments and topologically associating domains, as well as diverse types of interactions from CTCF-mediated to enhancer-promoter interactions and Polycomb-mediated interactions with cell-type specificity. Orca enables various applications including predicting structural variant effects on multiscale genome organization and it recapitulated effects of experimentally studied variants at varying sizes (300 bp to 90 Mb). Moreover, Orca enables in silico virtual screens to probe the sequence basis of 3D genome organization at different scales. At the submegabase scale, it predicted specific transcription factor motifs underlying cell-type-specific genome interactions. At the compartment scale, virtual screens of sequence activities suggest a model for the sequence basis of chromatin compartments with a prominent role of transcription start sites.",
+  "abstract_zh": "为探究基因组序列如何影响多尺度三维（3D）基因组结构，本手稿提出了一种基于序列的深度学习方法Orca，该方法可直接从序列预测从千碱基到整条染色体尺度的3D基因组结构。Orca捕捉了染色质区室和拓扑关联结构域等结构的序列依赖性，以及从CTCF介导到增强子-启动子相互作用及Polycomb介导的多种类型相互作用，并具有细胞类型特异性。Orca支持多种应用，包括预测结构变异对多尺度基因组组织的影响，并重现了实验研究的变异在不同大小（300 bp至90 Mb）下的效应。此外，Orca能够进行计算机虚拟筛选，以探究不同尺度下3D基因组组织的序列基础。在亚兆碱基尺度上，它预测了细胞类型特异性基因组相互作用背后的特定转录因子基序。在区室尺度上，序列活性的虚拟筛选提出了一个关于染色质区室序列基础的模型，其中转录起始位点发挥突出作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35551308/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35551308/",
+  "paper_page_path": "papers/pubmed/35551308/index.html"
+}

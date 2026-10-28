@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39982400",
+  "title": "Spatio-temporal reconstruction of gene expression patterns in developing mice.",
+  "authors": "Avino-Esteban, Laura; Cardona-Blaya, Heura; Sharpe, James",
+  "journal": "Development (Cambridge, England)",
+  "published_date": "2025-02-21",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文重建小鼠肢体发育中基因表达的时空模式，不涉及蛋白质-DNA互作、结合位点预测或AI/物理模拟建模，仅提供表达数据供后续建模参考，与本课题关联微弱。",
+  "abstract": "Understanding gene regulation in organism development is crucial in biology. Techniques like whole-mount in situ hybridization can reveal spatial gene expression in organs and tissues. However, capturing time-lapse movies of gene expression dynamics in embryos developing in utero, such as mice, remains technically challenging beyond the early stages. To address this, we present a method to integrate static snapshots of gene expression patterns across limb developmental stages, creating a continuous 2D reconstruction of gene expression patterns over time. This method interpolates small tissue regions over time to create smooth temporal trajectories of gene expression. We successfully applied it to a number of key genes in limb development, including Sox9, Hand2, and Bmp2. This approach enables a detailed spatio-temporal mapping of gene expression, providing insights into developmental mechanisms. By estimating gene expression patterns at previously unobserved time points, it facilitates the comparison of these patterns across samples. The reconstructed trajectories offer high-quality data that will be useful to guide computational modeling and machine learning, advancing the study of developmental biology in systems where real-time imaging is technically difficult or impossible.",
+  "abstract_zh": "理解生物发育过程中的基因调控是生物学中的关键。诸如整体原位杂交（whole-mount in situ hybridization）等技术可以揭示器官和组织中基因的空间表达。然而，对于在子宫内发育的胚胎（如小鼠），捕捉基因表达动态的延时电影，在早期阶段之后仍面临技术挑战。为解决这一问题，我们提出了一种方法，将肢体发育各阶段的静态基因表达模式快照整合，创建基因表达模式随时间的连续二维重建。该方法随时间插值小组织区域，以生成基因表达的平滑时间轨迹。我们成功将其应用于肢体发育中的多个关键基因，包括Sox9、Hand2和Bmp2。该方法实现了基因表达的详细时空图谱，为发育机制提供了见解。通过估计先前未观察时间点的基因表达模式，它促进了跨样本间这些模式的比较。重建的轨迹提供了高质量数据，将有助于指导计算建模和机器学习，推进在实时成像技术上困难或不可能的系统中的发育生物学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39982400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39982400/",
+  "paper_page_path": "papers/pubmed/39982400/index.html"
+}

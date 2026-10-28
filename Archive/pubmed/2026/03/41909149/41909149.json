@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41909149",
+    "doi": "10.1016/j.bbrep.2026.102558",
+    "title": "Identification and experimental validation of biomarkers associated with integrated stress response in sepsis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Strategies that specifically target the integrated stress response (ISR) as a therapeutic approach in sepsis remain largely unexplored. This study aimed to identify and validate ISR-related biomarkers in sepsis. METHODS: This study used 529 ISR-related genes (ISRRGs) alongside sepsis datasets. First, differentially expressed gene between sepsis and normal samples, key module genes associated with sepsis, and ISRRGs were intersected to identify candidate genes. Next, biomarkers were selected through three machine learning methods. Subsequently, enrichment analysis, immune infiltration analysis, regulatory network analysis, and drug prediction were conducted. Finally, the biomarkers were experimentally validated using RT-qPCR. RESULTS: Four biomarkers of sepsis (DYRK2, BCL2, NUP93, and NFATC2) were identified; collectively, these biomarkers are associated with the enrichment of translation initiation in sepsis. A total of 783 significantly upregulated pathways and 1203 significantly downregulated pathways were identified. These biomarkers were co-regulated by multiple microRNAs and transcription factors. Importantly, 726 drugs were predicted to interact with these biomarkers. Additionally, RT-qPCR results demonstrated that the expression levels of DYRK2, BCL2, NUP93, and NFATC2 differed significantly between sepsis and normal samples. CONCLUSION: DYRK2, BCL2, NUP93, and NFATC2 were identified as biomarkers of sepsis, offering new diagnostic and therapeutic targets for its treatment.",
+    "keywords": [
+      "Biomarker",
+      "Integrated stress response",
+      "Regulatory network",
+      "Sepsis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, You",
+        "Wu, You",
+        "Zhu, Yuan",
+        "Jiang, Qin",
+        "Liu, Yu",
+        "Zhu, Lisha",
+        "Zhu, Rui",
+        "Cao, Haiquan"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Wu Y",
+        "Zhu Y",
+        "Jiang Q",
+        "Liu Y",
+        "Zhu L",
+        "Zhu R",
+        "Cao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Department of Gerontology, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Department of Pharmacy, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+        "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, You",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, You",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "Department of Gerontology, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qin",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lisha",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Rui",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Haiquan",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, Beijing Anzhen Nanchong Hospital of Capital Medical University & Nanchong Central Hospital, Nanchong, Sichuan, China.",
+          "The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry and biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Rep"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:48",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41494469",
+      "40998960",
+      "40204720",
+      "40113751",
+      "40019527",
+      "39227925",
+      "38913144",
+      "38889633",
+      "38758650",
+      "38335651",
+      "38267546",
+      "37845138",
+      "37477437",
+      "37438560",
+      "37264332",
+      "37171550",
+      "36880832",
+      "36817458",
+      "36799861",
+      "36577753",
+      "36299582",
+      "35837069",
+      "35790770",
+      "35211795",
+      "35057868",
+      "35017615",
+      "34363019",
+      "34276676",
+      "34031464",
+      "33586093",
+      "29930559",
+      "28101605",
+      "27141961",
+      "26903338",
+      "25605792",
+      "23323831",
+      "14597658"
+    ],
+    "similar": [
+      "41909149",
+      "41706425",
+      "40124361",
+      "40740189",
+      "41195206",
+      "40425742",
+      "40374840",
+      "41927755",
+      "40165133",
+      "40849369",
+      "40370730",
+      "42292668",
+      "42083957",
+      "41424725",
+      "42292468",
+      "41013856",
+      "41115648",
+      "41378129",
+      "40885831",
+      "42520680",
+      "40421007",
+      "38863714",
+      "41743406",
+      "42579704",
+      "40697417",
+      "41246299",
+      "42398170",
+      "40821971",
+      "42172235",
+      "42024670",
+      "42257259",
+      "40837006",
+      "41013727",
+      "42109201",
+      "39763654",
+      "41291841",
+      "42158874",
+      "39507054",
+      "41030501",
+      "40768057",
+      "38912048",
+      "41326582",
+      "41909133",
+      "40129981",
+      "40406126",
+      "41731716",
+      "42434863",
+      "39950836",
+      "41957428",
+      "41611834",
+      "41220037",
+      "42059276",
+      "35844622",
+      "41044520",
+      "40453984",
+      "41299729",
+      "41816328",
+      "42247642",
+      "42597971",
+      "38440848",
+      "42565562",
+      "41822387",
+      "40781725",
+      "42254657",
+      "40108736",
+      "40830558",
+      "42306043",
+      "42558367",
+      "40024299",
+      "38951833",
+      "37115484",
+      "41089329",
+      "41630199",
+      "41824857",
+      "40927188",
+      "40273141",
+      "39586719",
+      "42225708",
+      "40406620",
+      "39697326",
+      "40216809",
+      "40151199",
+      "36699262",
+      "29237456",
+      "35444449",
+      "40362543",
+      "40967560",
+      "40808946",
+      "38291374",
+      "40055592",
+      "42397093",
+      "40598145",
+      "41367897",
+      "39559355",
+      "40613196",
+      "38384969",
+      "42164373",
+      "41285222",
+      "42326009",
+      "41703488"
+    ],
+    "review": [
+      "41909149"
+    ],
+    "pmc": [
+      "13019089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-5808(26)00118-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41909149/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

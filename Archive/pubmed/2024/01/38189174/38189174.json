@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "38189174",
+    "doi": "10.1002/tox.24123",
+    "title": "Unraveling neoantigen-associated genes in bladder cancer: An in-depth analysis employing 101 machine learning algorithms."
+  },
+  "content": {
+    "abstract": "The therapeutic outcomes for bladder cancer (BLCA) remain suboptimal. Concurrently, there is a growing appreciation for the role of neoantigens in tumors. In this study, we explored the mechanisms underlying the involvement of neoantigen-associated genes in BLCA and their impact on prognosis. Our analysis incorporated both single-cell sequencing and bulk sequencing data sourced from publicly available databases. By employing a comprehensive set of 10 machine learning algorithms, we generated 101 algorithm combinations. The optimal combination, determined based on consistency indices, was utilized to construct a prognostic model comprising nine genes (CAPG, ACTA2, PDIA6, AKNA, PTMS, SNAP23, ID2, CD3G, SP140). Subsequently, we validated this model in an independent cohort, demonstrating its robust testing efficacy. Moreover, we explored the correlations between various clinical traits, model scores, and genes. Leveraging extensive public data resources, we conducted a drug sensitivity analysis to provide insights for targeted drug screening. Additionally, consensus clustering analysis and immune infiltration analysis were performed on bulk sequencing datasets and immunotherapy cohorts. These analyses yield valuable insights into the role of neoantigens in BLCA, guiding future research endeavors.",
+    "keywords": [
+      "BLCA",
+      "bladder cancer",
+      "machine learning",
+      "neoantigen",
+      "neoantigen-related genes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/genetics",
+      "Algorithms",
+      "Drug Evaluation, Preclinical",
+      "DNA-Binding Proteins",
+      "Nuclear Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Fang",
+        "Xiong, Qi",
+        "Qi, Meiying",
+        "Dai, Caixia",
+        "Zhang, Xiuhong",
+        "Cheng, Shunhua"
+      ],
+      "short_names": [
+        "Lv F",
+        "Xiong Q",
+        "Qi M",
+        "Dai C",
+        "Zhang X",
+        "Cheng S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China.",
+        "Department of Urology, The Second Affiliated Hospital of Hunan University of Chinese Medicine, Changsha, Hunan, China.",
+        "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China.",
+        "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China.",
+        "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China.",
+        "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Fang",
+        "short_name": "Lv F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Qi",
+        "short_name": "Xiong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Hunan University of Chinese Medicine, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Meiying",
+        "short_name": "Qi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Caixia",
+        "short_name": "Dai C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuhong",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Shunhua",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Xiangya Hospital of Central South University, Changsha, Hunan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental toxicology"
+    ],
+    "journal_abbrev": [
+      "Environ Toxicol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/08 06:43",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "41188771",
+      "41078754"
+    ],
+    "refs": [],
+    "similar": [
+      "38189174",
+      "37152941",
+      "39157397",
+      "38336764",
+      "38064272",
+      "36973787",
+      "37647346",
+      "38332160",
+      "34802433",
+      "39095590",
+      "37925432",
+      "33150179",
+      "38282152",
+      "38172792",
+      "37118734",
+      "37543645",
+      "36721217",
+      "37632832",
+      "38356551",
+      "37790935",
+      "35581606",
+      "34112144",
+      "35450397",
+      "38049825",
+      "36527532",
+      "37006317",
+      "37301098",
+      "35993952",
+      "34706720",
+      "33888644",
+      "37000291",
+      "37780567",
+      "37379131",
+      "38566204",
+      "38023241",
+      "34930465",
+      "37960960",
+      "36569935",
+      "37594617",
+      "33042413",
+      "33747201",
+      "37954600",
+      "37153545",
+      "37064115",
+      "37965307",
+      "37950728",
+      "38015710",
+      "35673559",
+      "36090967",
+      "35768832",
+      "38012244",
+      "36814419",
+      "37872487",
+      "37244876",
+      "34975891",
+      "38581187",
+      "37802365",
+      "37063886",
+      "34579753",
+      "38000776",
+      "33685397",
+      "36509838",
+      "33894748",
+      "38022515",
+      "32596394",
+      "29445424",
+      "38217031",
+      "37988196",
+      "32352838",
+      "34708131",
+      "37123010",
+      "34512722",
+      "34926692",
+      "38361268",
+      "38130721",
+      "38273010",
+      "37676513",
+      "35776987",
+      "37431189",
+      "36083778",
+      "33356494",
+      "34484235",
+      "33537076",
+      "31333338",
+      "37450031",
+      "38071230",
+      "38282148",
+      "38038167",
+      "37951536",
+      "36072584",
+      "14977841",
+      "37428096",
+      "37423913",
+      "35836227",
+      "36768927",
+      "36357874"
+    ],
+    "review": [
+      "38189174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1002/tox.24123",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3327",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

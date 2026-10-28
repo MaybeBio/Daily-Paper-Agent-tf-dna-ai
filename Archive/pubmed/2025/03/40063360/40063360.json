@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "40063360",
+    "doi": "10.1152/ajpcell.00817.2024",
+    "title": "Mechanistic insights into SENP1 and OCT4 interaction in promoting drug resistance and stem cell features in colon cancer."
+  },
+  "content": {
+    "abstract": "This study explores the molecular mechanism by which sentrin/SUMO-specific protease 1 (SENP1) promotes cisplatin (Cis) resistance and tumor stem cell characteristics in colon adenocarcinoma (COAD) through deSUMOylation-mediated modification of octamer-binding transcription factor 4 (OCT4). By analyzing single-cell and transcriptome sequencing datasets, we identified key genes and regulatory pathways in both resistant and sensitive COAD cells. Malignant cells were isolated and evaluated for stemness using the infercnv package, and differential genes between Cis-resistant and -sensitive groups were identified. Machine learning algorithms highlighted essential genes, and databases predicted interaction sites between OCT4 and SENP1. In vitro experiments using enriched HCT116 stem cells revealed that SENP1 and OCT4 expression significantly elevated CD44 and CD133 levels, enhancing stemness. Functional assays showed that SENP1's deSUMOylation of OCT4 intensified Cis resistance, migration, and invasion in cisplatin-resistant cell line 116 (Cis-116) cells. In vivo, SENP1 knockdown reduced tumor growth and stem cell markers, whereas OCT4 overexpression escalated tumor metastasis and structural damage. These findings demonstrate that SENP1's modulation of OCT4 is central to COAD's resistance and stem cell properties, offering a novel target for COAD therapy.NEW & NOTEWORTHY This study uncovers the critical role of SENP1 in regulating OCT4 through deSUMOylation, driving Cis resistance and tumor stemness in COAD. Targeting this pathway may provide novel therapeutic strategies for COAD management.",
+    "keywords": [
+      "SENP1",
+      "colon adenocarcinoma",
+      "resistance",
+      "single-cell sequencing",
+      "tumor stem cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Drug Resistance, Neoplasm",
+      "*Neoplastic Stem Cells/pathology/drug effects/metabolism",
+      "*Colonic Neoplasms/pathology/drug therapy/genetics/metabolism",
+      "*Octamer Transcription Factor-3/metabolism/genetics",
+      "Cisplatin/pharmacology",
+      "Animals",
+      "HCT116 Cells",
+      "*Cysteine Endopeptidases/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice",
+      "Antineoplastic Agents/pharmacology",
+      "Sumoylation",
+      "Cell Movement/drug effects",
+      "Mice, Nude",
+      "*Adenocarcinoma/drug therapy/genetics/pathology/metabolism",
+      "Cell Proliferation/drug effects",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zou, Jun",
+        "Chen, Jing",
+        "Deng, Lei",
+        "Xu, Bangran",
+        "Yu, Tenghua",
+        "Wang, Jun",
+        "He, Chongwu"
+      ],
+      "short_names": [
+        "Zou J",
+        "Chen J",
+        "Deng L",
+        "Xu B",
+        "Yu T",
+        "Wang J",
+        "He C"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-0838-3593",
+        "ORCID: 0000-0003-4513-6561",
+        "ORCID: 0009-0006-4510-944X"
+      ],
+      "affiliations": [
+        "Department of Abdominal Oncology Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China.",
+        "Department of nursing, Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Department of Medical Oncology, Jiangxi Cancer Hospital, Nanchang, People's Republic of China.",
+        "Department of Abdominal Oncology Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China.",
+        "Department of Breast Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China.",
+        "General Surgery Department of the Trauma Center, Nanchang First Hospital, Nanchang, People's Republic of China.",
+        "Department of Breast Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zou, Jun",
+        "short_name": "Zou J",
+        "identifiers": [
+          "0009-0000-0838-3593"
+        ],
+        "affiliations": [
+          "Department of Abdominal Oncology Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of nursing, Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Deng, Lei",
+        "short_name": "Deng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Bangran",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Abdominal Oncology Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tenghua",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0003-4513-6561"
+        ],
+        "affiliations": [
+          "General Surgery Department of the Trauma Center, Nanchang First Hospital, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "He, Chongwu",
+        "short_name": "He C",
+        "identifiers": [
+          "0009-0006-4510-944X"
+        ],
+        "affiliations": [
+          "Department of Breast Surgery, Jiangxi Cancer Hospital, Nanchang, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of physiology. Cell physiology"
+    ],
+    "journal_abbrev": [
+      "Am J Physiol Cell Physiol"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 18:26",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "42378815",
+      "41761142",
+      "41063235",
+      "40722714"
+    ],
+    "refs": [],
+    "similar": [
+      "40063360",
+      "38803001",
+      "27341307",
+      "36575788",
+      "41074114",
+      "23002208",
+      "29690669",
+      "34037277",
+      "26654944",
+      "27588392",
+      "26091938",
+      "41063235",
+      "22847005",
+      "40127738",
+      "24040121",
+      "41081980",
+      "39548564",
+      "40250751",
+      "21342274",
+      "27449036",
+      "26099525",
+      "30551544",
+      "27244887",
+      "40608530",
+      "28645561",
+      "41967541",
+      "32705164",
+      "28423536",
+      "32428834",
+      "33925224",
+      "40928458",
+      "33500726",
+      "38954215",
+      "27517564",
+      "40147432",
+      "27485114",
+      "32729895",
+      "24356998",
+      "34486532",
+      "36827886",
+      "26462888",
+      "38822351",
+      "33798550",
+      "32213297",
+      "19451087",
+      "24330852",
+      "38676365",
+      "23624503",
+      "31012108",
+      "28216163",
+      "40360086",
+      "31926547",
+      "27557511",
+      "40682835",
+      "41438340",
+      "30382588",
+      "23872274",
+      "30226577",
+      "32788883",
+      "35706019",
+      "25879771",
+      "34246759",
+      "31115051",
+      "42071332",
+      "25405855",
+      "38456956",
+      "22286766",
+      "40307891",
+      "41677646",
+      "40093647",
+      "41789601",
+      "27449295",
+      "21919130",
+      "33233699",
+      "39826064",
+      "24954502",
+      "34621019",
+      "24947926",
+      "40696372",
+      "39988696",
+      "26996130",
+      "41836446",
+      "39573998",
+      "41549927",
+      "31771617",
+      "32367652",
+      "21788403",
+      "21159654",
+      "39864604",
+      "41760369",
+      "27014910",
+      "39927685",
+      "32520208",
+      "28880275",
+      "23543150",
+      "40965935",
+      "33172933",
+      "41962607",
+      "26098778",
+      "29775627"
+    ],
+    "review": [
+      "40063360"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.physiology.org/doi/10.1152/ajpcell.00817.2024?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PROM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

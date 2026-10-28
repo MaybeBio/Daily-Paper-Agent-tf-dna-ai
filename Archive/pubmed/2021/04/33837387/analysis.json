@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33837387",
+  "title": "SAResNet: self-attention residual network for predicting DNA-protein binding.",
+  "authors": "Shen, Long-Chen; Liu, Yan; Song, Jiangning; Yu, Dong-Jun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-04-11",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 7,
+  "one_liner_zh": "提出结合自注意力与残差网络的SAResNet模型，基于序列预测DNA-蛋白结合位点，属于广义蛋白-DNA互作预测，方法可迁移至TF-DNA体系，但未涉及三维结构或动态机制。",
+  "abstract": "Knowledge of the specificity of DNA-protein binding is crucial for understanding the mechanisms of gene expression, regulation and gene therapy. In recent years, deep-learning-based methods for predicting DNA-protein binding from sequence data have achieved significant success. Nevertheless, the current state-of-the-art computational methods have some drawbacks associated with the use of limited datasets with insufficient experimental data. To address this, we propose a novel transfer learning-based method, termed SAResNet, which combines the self-attention mechanism and residual network structure. More specifically, the attention-driven module captures the position information of the sequence, while the residual network structure guarantees that the high-level features of the binding site can be extracted. Meanwhile, the pre-training strategy used by SAResNet improves the learning ability of the network and accelerates the convergence speed of the network during transfer learning. The performance of SAResNet is extensively tested on 690 datasets from the ChIP-seq experiments with an average AUC of 92.0%, which is 4.4% higher than that of the best state-of-the-art method currently available. When tested on smaller datasets, the predictive performance is more clearly improved. Overall, we demonstrate that the superior performance of DNA-protein binding prediction on DNA sequences can be achieved by combining the attention mechanism and residual structure, and a novel pipeline is accordingly developed. The proposed methodology is generally applicable and can be used to address any other sequence classification problems.",
+  "abstract_zh": "了解DNA-蛋白质结合的特异性对于理解基因表达、调控及基因治疗的机制至关重要。近年来，基于深度学习的方法在从序列数据预测DNA-蛋白质结合方面取得了显著成功。然而，当前最先进的计算方法存在一些缺陷，主要与使用有限数据集且实验数据不足有关。为解决这一问题，我们提出了一种新颖的基于迁移学习的方法，称为SAResNet，它结合了自注意力机制和残差网络结构。具体而言，注意力驱动模块捕获序列的位置信息，而残差网络结构确保能够提取结合位点的高级特征。同时，SAResNet采用的预训练策略增强了网络的学习能力，并加速了迁移学习过程中网络的收敛速度。SAResNet的性能在来自ChIP-seq实验的690个数据集上进行了广泛测试，平均AUC为92.0%，比当前最佳最先进方法高出4.4%。在较小数据集上测试时，预测性能提升更为明显。总体而言，我们证明了通过结合注意力机制和残差结构，可以在DNA序列上实现优越的DNA-蛋白质结合预测性能，并据此开发了一种新颖的流程。所提出的方法具有普遍适用性，可用于解决任何其他序列分类问题。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33837387/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33837387/",
+  "paper_page_path": "papers/pubmed/33837387/index.html"
+}

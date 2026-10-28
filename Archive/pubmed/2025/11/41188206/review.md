@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to characterize how DSIF binding alters the dynamics and structure of the Pol II elongation complex, identifying three impact sites (upstream nucleic acids, Pol II clamp, active site) and proposing an allosteric mechanism linking these effects to transcription processivity.
+- **Visible evidence base** Abstract text only; no simulation details, statistical analyses, or structural data are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force fields, convergence criteria, replicate information, all figures and tables, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis about DSIF's effects on Pol II dynamics, supported by molecular dynamics simulations. However, the current evidence base is insufficient to evaluate the technical rigor of the simulations or the robustness of the conclusions. The claims are qualitatively stated without quantitative support, and the proposed allosteric mechanism is speculative. The work has potential interest for the transcription and computational biophysics communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying transcription elongation mechanisms, particularly those focused on elongation factor function and Pol II dynamics. Computational biophysicists interested in allosteric regulation in large macromolecular complexes would also find the correlated motion analysis relevant. The findings could inform experimental studies on DSIF function and processivity.
+- **Major strengths** The study addresses a genuine gap in understanding DSIF's dynamic effects beyond static structures. The identification of three distinct impact sites provides a structured framework for mechanistic interpretation. The use of correlated motion analysis to propose allosteric coupling is a sophisticated analytical approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We used molecular dynamics simulations to elucidate the effects of DSIF on the dynamics and structure of Pol II and upstream nucleic acids"
+  - **Evidence pointer** Methods section not provided
+  - **Concern** The abstract provides no information on simulation system construction, force field selection, equilibration protocols, simulation length, number of replicates, or convergence criteria. Without these details, the reliability of the dynamics results cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to system setup and sampling quality. Insufficient sampling or poor convergence could lead to spurious dynamic differences between DSIF-bound and free states.
+  - **Resolution test** Provide full methods including system composition, force field, simulation length, replicate numbers, and convergence metrics (e.g., RMSD stability, block error analysis).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "Our results showed that DSIF affects the dynamics of upstream DNA and RNA at the exit sites, preventing the unwinding of DNA and the folding of RNA"
+  - **Evidence pointer** Results section not provided
+  - **Concern** The abstract states qualitative outcomes ("preventing the unwinding", "regulates the motion") without any quantitative measures such as RMSF values, hydrogen bond occupancy, or free energy estimates. The magnitude and statistical significance of these effects are unknown.
+  - **Why it matters** Qualitative statements without effect sizes or error estimates cannot establish whether DSIF-induced changes are biologically meaningful or within simulation noise.
+  - **Resolution test** Report quantitative metrics with uncertainties and statistical comparisons between DSIF-bound and DSIF-free simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "we proposed that the impacts of DSIF on the active site have an allosteric nature that takes place through the collective motions of the Pol II clamp and nucleic acids"
+  - **Evidence pointer** Correlated motion analysis not provided
+  - **Concern** The allosteric mechanism is presented as a proposal based on correlated motion analysis, but no details of the correlation calculations, significance thresholds, or alternative interpretations are given. Correlation does not establish causation or a specific allosteric pathway.
+  - **Why it matters** The central mechanistic claim of the paper rests on this inference. Without rigorous analysis and validation, the allosteric proposal remains speculative.
+  - **Resolution test** Provide correlation matrices, significance testing, and ideally perturbation or mutation simulations to test the proposed pathway.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "three major sites of impact"
+  - **Issue** The phrase "three major sites of impact" is vague regarding whether these are spatially distinct regions or functionally defined categories.
+  - **Required correction** Clarify whether the sites are defined by structural proximity, dynamic changes, or functional relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "potentially contribute to its role in transcription processivity"
+  - **Issue** The connection between observed dynamic changes and processivity is not explained mechanistically.
+  - **Required correction** Briefly state how each impact site could plausibly affect processivity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "molecular dynamics simulations"
+  - **Issue** No simulation software or version is mentioned.
+  - **Required correction** Include software name and version in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology), R1-M2 (quantitative evidence), R1-M3 (allosteric inference)
+- **Assessment against Nature-style criteria** Originality: The question of DSIF's dynamic effects is timely and underexplored, giving the work moderate originality. Scientific importance: The findings could inform transcription regulation mechanisms, but the importance is not yet demonstrated without quantitative evidence. Interdisciplinary readership: The topic bridges structural biology and computational biophysics, but the abstract is too specialized for broad interdisciplinary appeal. Technical soundness: Cannot be evaluated from the abstract; simulation details are absent. Readability for nonspecialists: The abstract is accessible but lacks context for readers unfamiliar with Pol II dynamics.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is appropriate, but the abstract alone does not provide sufficient technical or quantitative support. A full review of the manuscript with methods and results would be required to assess whether the claims are substantiated.
+
+## Risk / unsupported claims
+- The claim that DSIF "prevents the unwinding of DNA and the folding of RNA" is unsupported without quantitative dynamic data.
+- The claim that DSIF "regulates the motion of the Pol II clamp to potentially maintain a proper size at the central cleft" is speculative and lacks structural or dynamic metrics.
+- The allosteric mechanism proposal is unsupported without detailed correlation analysis and validation.
+- The connection between observed dynamics and transcription processivity is asserted but not mechanistically explained.

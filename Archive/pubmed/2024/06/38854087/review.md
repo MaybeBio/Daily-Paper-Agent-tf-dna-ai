@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics (MD) simulations, including enhanced sampling, to model the full-length FXR-RXR heterodimer bound to DNA. They report that over 100 microseconds of atomistic simulation across eight complexes reveal a range of quaternary architectures, and that the hinge region plays critical roles in interdomain allostery, DNA binding, and dynamic flexibility, which were previously difficult to study experimentally.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or structural analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, structural figures, quantitative analyses, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable computational study of a nuclear receptor heterodimer architecture, a topic of genuine interest given the scarcity of experimental full-length structures. However, the claims made are broad and mechanistic, and the abstract alone provides no quantitative evidence to support them. The central assertions regarding hinge-mediated allostery and DNA binding are not verifiable from the supplied material. The study's significance is plausible but currently not established from the evidence provided.
+- **Who would be interested in the results, and why** Structural biologists and computational biophysicists studying nuclear receptor signaling, particularly those interested in multidomain protein architecture, allosteric regulation, and protein-DNA interactions. The framework proposed could also interest researchers developing full-length models of transcription factor complexes where experimental structures are lacking.
+- **Major strengths** The study addresses a significant gap in understanding nuclear receptor quaternary architecture, given the limited experimental structures. The use of extensive atomistic simulations (over 100 microseconds) combined with enhanced sampling is a rigorous approach for exploring conformational ensembles. The focus on the hinge region, often neglected due to flexibility, is a thoughtful and potentially impactful angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that simulations reveal "critical roles for the hinge in the DNA-bound dimer in facilitating interdomain allostery, mediating DNA binding and driving the dynamic flexibility of the complex."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts specific mechanistic roles for the hinge without presenting any quantitative data, such as free energy profiles, correlation analyses, or mutational comparisons. No evidence is shown that distinguishes hinge contributions from those of other domains, nor is there any demonstration of allosteric communication pathways.
+  - **Why it matters** These are strong mechanistic claims that require direct evidence from the simulations, such as comparative analyses of complexes with altered hinges or statistical measures of domain-domain coupling. Without such data, the claims are unsupported and could mislead readers about the robustness of the findings.
+  - **Resolution test** Provide quantitative evidence in the full manuscript, such as residue-residue correlation maps, principal component analyses, or free energy landscapes, that explicitly link hinge dynamics to changes in DNA binding affinity or interdomain communication, ideally with statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The abstract implies that the simulated FXR-RXR-DNA complexes are representative of biologically relevant architectures, stating that "these complexes support a range of quaternary architectures."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** There is no mention of validation against any experimental data, such as known crystal structures of individual domains, cross-linking mass spectrometry, or small-angle X-ray scattering. The abstract does not state whether the simulated ensembles reproduce any experimentally observed features.
+  - **Why it matters** Without validation, the simulated architectures could be artifacts of the force field or initial modeling assumptions. The claim that the complexes "support a range" of architectures is only meaningful if the ensemble is shown to be consistent with experimental constraints.
+  - **Resolution test** Include a section in the full manuscript comparing simulated ensembles to available experimental structures or biophysical data, and report quantitative agreement metrics, such as root-mean-square deviations or overlap coefficients.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "combining over 100 microseconds of atomistic MD simulations with enhanced sampling simulations" was used to characterize eight complexes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no details on the simulation setup, including force field parameters, water model, ionic conditions, temperature coupling, or the specific enhanced sampling method used. The number of replicas, simulation length per complex, and convergence criteria are also absent.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot assess the reliability of the simulations or replicate the work, which undermines the scientific value of the claims.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, software versions, and convergence analyses, and make input files and trajectories available in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "full-length quaternary architecture is poorly described" is vague; it is unclear whether this refers to a lack of experimental structures, a lack of dynamic information, or both.
+  - **Required correction** Specify the nature of the gap, for example, "few experimental structures exist and the dynamic behavior of full-length complexes is largely uncharacterized."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract claim of general framework
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the study provides "a much-needed framework that will enable the field to obtain a complete understanding" is overly broad, as the abstract does not describe how the framework generalizes beyond FXR-RXR.
+  - **Required correction** Qualify the claim, for example, "this approach may serve as a template for studying other nuclear receptor heterodimers."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "allostery"
+  - **Evidence pointer** Abstract, hinge role description
+  - **Issue** The term "interdomain allostery" is used without defining the specific functional readout, such as ligand-induced changes or DNA binding affinity modulation.
+  - **Required correction** Define what is meant by allostery in this context, for example, "coupling between hinge dynamics and DNA binding domain orientation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic claims and the biological relevance of the simulated architectures are not supported by the abstract alone. R1-M3 is non-blocking but essential for reproducibility.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the study addresses a poorly characterized system with a computational approach, but the novelty of the methods themselves is not established. Scientific importance is potentially high given the central role of nuclear receptors in gene regulation, but the abstract does not demonstrate a clear advance over existing knowledge. Interdisciplinary readership is plausible, appealing to structural biology, biophysics, and computational chemistry communities, but the abstract lacks the quantitative detail needed to engage specialists. Technical soundness cannot be assessed from the abstract alone, as no methods or validation are presented. Readability for nonspecialists is adequate, with clear language, but the mechanistic claims are stated without supporting evidence, which may mislead readers unfamiliar with simulation limitations.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient support for the central claims. A full review of the manuscript would be required to assess whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that the hinge "facilitates interdomain allostery" is unsupported without quantitative correlation or perturbation analyses.
+- The claim that the hinge "mediates DNA binding" is unsupported without free energy calculations or binding affinity comparisons.
+- The claim that the complexes "support a range of quaternary architectures" is unverifiable without structural ensemble analyses or experimental validation.
+- The general framework claim for the field is overstated given the abstract's lack of methodological detail and generalizability evidence.

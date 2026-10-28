@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39150804",
+  "title": "TeaTFactor: A Prediction Tool for Tea Plant Transcription Factors Based on BERT.",
+  "authors": "Tang, Qinan; Xiang, Ying; Gao, Wanling; Zhu, Liqiang; Xu, Zishu; Li, Yeyun; Yue, Zhenyu",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2024-08-16",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于BERT预训练模型预测茶树转录因子，属于蛋白质-DNA互作相关蛋白的序列分类任务，但未涉及TF-DNA结合位点或互作机制建模，方法可迁移但深度有限。",
+  "abstract": "A transcription factor (TF) is a sequence-specific DNA-binding protein, which plays key roles in cell-fate decision by regulating gene expression. Predicting TFs is key for tea plant research community, as they regulate gene expression, influencing plant growth, development, and stress responses. It is a challenging task through wet lab experimental validation, due to their rarity, as well as the high cost and time requirements. As a result, computational methods are increasingly popular to be chosen. The pre-training strategy has been applied to many tasks in natural language processing (NLP) and has achieved impressive performance. In this paper, we present a novel recognition algorithm named TeaTFactor that utilizes pre-training for the model training of TFs prediction. The model is built upon the BERT architecture, initially pre-trained using protein data from UniProt. Subsequently, the model was fine-tuned using the collected TFs data of tea plants. We evaluated four different word segmentation methods and the existing state-of-the-art prediction tools. According to the comprehensive experimental results and a case study, our model is superior to existing models and achieves the goal of accurate identification. In addition, we have developed a web server at http://teatfactor.tlds.cc, which we believe will facilitate future studies on tea transcription factors and advance the field of crop synthetic biology.",
+  "abstract_zh": "转录因子（transcription factor, TF）是一种序列特异性DNA结合蛋白，通过调控基因表达在细胞命运决定中发挥关键作用。预测转录因子对茶树研究领域至关重要，因为它们调控基因表达，影响植物生长、发育及胁迫响应。由于转录因子的稀有性以及湿实验验证的高成本和时间需求，这一任务具有挑战性。因此，计算方法日益受到青睐。预训练策略已应用于自然语言处理（natural language processing, NLP）中的许多任务，并取得了显著性能。本文提出了一种名为TeaTFactor的新型识别算法，利用预训练进行转录因子预测的模型训练。该模型基于BERT架构构建，首先使用UniProt中的蛋白质数据进行预训练，随后使用收集的茶树转录因子数据进行微调。我们评估了四种不同的分词方法及现有最先进的预测工具。综合实验结果和案例研究表明，我们的模型优于现有模型，实现了准确识别的目标。此外，我们开发了一个网络服务器，网址为http://teatfactor.tlds.cc，相信这将促进未来茶树转录因子的研究，并推动作物合成生物学领域的发展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39150804/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39150804/",
+  "paper_page_path": "papers/pubmed/39150804/index.html"
+}

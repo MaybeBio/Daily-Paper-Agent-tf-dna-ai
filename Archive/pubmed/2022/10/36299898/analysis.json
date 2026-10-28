@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36299898",
+  "title": "Hybrid_DBP: Prediction of DNA-binding proteins using hybrid features and convolutional neural networks.",
+  "authors": "Yu, Shaoyou; Peng, Dejun; Zhu, Wen; Liao, Bo; Wang, Peng; Yang, Dongxuan; Wu, Fangxiang",
+  "journal": "Frontiers in pharmacology",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用混合特征和卷积神经网络预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但未聚焦TF-DNA特异性结合或三维互作机制，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins (DBP) play an essential role in the genetics and evolution of organisms. A particular DNA sequence could provide underlying therapeutic benefits for hereditary diseases and cancers. Studying these proteins can timely and effectively understand their mechanistic analysis and play a particular function in disease prevention and treatment. The limitation of identifying DNA-binding protein members from the sequence database is time-consuming, costly, and ineffective. Therefore, efficient methods for improving DBP classification are crucial to disease research. In this paper, we developed a novel predictor Hybrid _DBP, which identified potential DBP by using hybrid features and convolutional neural networks. The method combines two feature selection methods, MonoDiKGap and Kmer, and then used MRMD2.0 to remove redundant features. According to the results, 94% of DBP were correctly recognized, and the accuracy of the independent test set reached 91.2%. This means Hybrid_ DBP can become a useful prediction tool for predicting DBP.",
+  "abstract_zh": "DNA结合蛋白（DBP）在生物体的遗传与进化中扮演着至关重要的角色。特定的DNA序列可能为遗传性疾病和癌症提供潜在的治疗益处。研究这些蛋白质能够及时有效地理解其机制分析，并在疾病预防和治疗中发挥特定作用。从序列数据库中识别DNA结合蛋白成员的方法受限于耗时、成本高且效率低。因此，提高DBP分类的高效方法对疾病研究至关重要。本文中，我们开发了一种新型预测器Hybrid_DBP，通过使用混合特征和卷积神经网络来识别潜在的DBP。该方法结合了两种特征选择方法，即MonoDiKGap和Kmer，并随后使用MRMD2.0去除冗余特征。结果显示，94%的DBP被正确识别，独立测试集的准确率达到91.2%。这意味着Hybrid_DBP可成为预测DBP的有用工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36299898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36299898/",
+  "paper_page_path": "papers/pubmed/36299898/index.html"
+}

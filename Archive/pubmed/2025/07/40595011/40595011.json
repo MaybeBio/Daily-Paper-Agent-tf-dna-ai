@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "40595011",
+    "doi": "10.1038/s41598-025-96192-3",
+    "title": "Integrating machine learning and bioinformatics approaches to identify novel diagnostic gene biomarkers for diabetic mice."
+  },
+  "content": {
+    "abstract": "Diabetes is a complex metabolic disorder, and its pathogenesis involves the interplay of genetic, environmental factors, and lifestyle choices. With the rising prevalence and increasing associated chronic complications, identifying and understanding the molecular mechanisms of diabetes has become an important direction in bioinformatics research. The aim of this study is the identification of diagnostic genes associated with streptozotocin (STZ)-induced diabetic mice. GSE179717 and GSE179718 gene expression datasets were downloaded from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified by screening diabetic mice and controls. A total of 45 overlapping genes were recognized as potential DEGs across the two datasets. Next, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis were performed on the overlapping genes. Protein-protein interaction (PPI) networks were constructed to identify hub genes in the DEGs. After the application of Least absolute shrinkage and selection operator (LASSO), Random Forest analysis, three genes (Scd1, Sirt1 and Hmgb1) were identified as diagnostic genes. Real-time quantitative polymerase chain reaction (RT-qPCR) was supplied to detect the expressions of diagnostic genes in aged diabetic mice. In conclusion, the results of this study suggest that focusing on these genes may provide new targets for the diagnosis and treatment of diabetes.",
+    "keywords": [
+      "Bioinformatics",
+      "Diabetes",
+      "Hub genes",
+      "Machine learning",
+      "Streptozotocin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Computational Biology/methods",
+      "Mice",
+      "*Machine Learning",
+      "*Diabetes Mellitus, Experimental/genetics/diagnosis/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "HMGB1 Protein/genetics",
+      "Gene Ontology",
+      "Gene Expression Profiling",
+      "Sirtuin 1/genetics",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Weibin",
+        "Peng, Zheng",
+        "Chen, Mingyi",
+        "Yu, Yi",
+        "Wu, Caisheng",
+        "Xie, Qiang"
+      ],
+      "short_names": [
+        "Wu W",
+        "Peng Z",
+        "Chen M",
+        "Yu Y",
+        "Wu C",
+        "Xie Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China.",
+        "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China.",
+        "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China.",
+        "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China.",
+        "Fujian Provincial Key Laboratory of Innovative Drug Target Research and State Key Laboratory of Cell Stress Biology, School of Pharmaceutical Sciences, Xiamen University, Xiamen, 361102, Fujian, China. wucsh@xmu.edu.cn.",
+        "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China. arthur2014@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Weibin",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zheng",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Mingyi",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yi",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Caisheng",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Innovative Drug Target Research and State Key Laboratory of Cell Stress Biology, School of Pharmaceutical Sciences, Xiamen University, Xiamen, 361102, Fujian, China. wucsh@xmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xie, Qiang",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361003, China. arthur2014@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:29",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38658093",
+      "37768929",
+      "37268944",
+      "37246403",
+      "36726122",
+      "36301605",
+      "35898457",
+      "35854279",
+      "35359990",
+      "34610419",
+      "32763913",
+      "32703468",
+      "29089222",
+      "26040511",
+      "25521941",
+      "24799886",
+      "23203871",
+      "22553202",
+      "22217446",
+      "21461749",
+      "19046567",
+      "18801858",
+      "18235502",
+      "14597658",
+      "12525261",
+      "11742409"
+    ],
+    "similar": [
+      "40595011",
+      "41146237",
+      "40374840",
+      "39609718",
+      "40312440",
+      "40245021",
+      "39875572",
+      "41044520",
+      "41316541",
+      "40263537",
+      "40500570",
+      "41006883",
+      "39142001",
+      "31987036",
+      "39586719",
+      "39870856",
+      "40790764",
+      "40997906",
+      "32756534",
+      "39375405",
+      "38961143",
+      "32626989",
+      "40821971",
+      "39340997",
+      "41479901",
+      "40313958",
+      "32598242",
+      "38863714",
+      "30825595",
+      "39392250",
+      "39496786",
+      "41132671",
+      "39341981",
+      "40597456",
+      "33437215",
+      "40628511",
+      "38701300",
+      "39351239",
+      "41094572",
+      "39556279",
+      "39699225",
+      "31794546",
+      "39526504",
+      "40320470",
+      "31416885",
+      "34233597",
+      "38925954",
+      "41200172",
+      "33407587",
+      "40173189",
+      "38755717",
+      "39396400",
+      "38867322",
+      "37224002",
+      "30132538",
+      "38886539",
+      "40129981",
+      "38774257",
+      "39802181",
+      "38764052",
+      "41021591",
+      "33741890",
+      "40171194",
+      "40685483",
+      "33280594",
+      "40209528",
+      "39991734",
+      "39086489",
+      "32853947",
+      "34553293",
+      "40258895",
+      "41189173",
+      "40307356",
+      "36157062",
+      "40045538",
+      "38858671",
+      "39972407",
+      "41291978",
+      "41196851",
+      "40443672",
+      "40406620",
+      "41009659",
+      "39071134",
+      "33640831",
+      "38993198",
+      "39377750",
+      "40406126",
+      "38062833",
+      "33149760",
+      "31772617",
+      "39624823",
+      "40849369",
+      "34825846",
+      "35313524",
+      "38347799",
+      "38831425",
+      "40455761",
+      "34358255",
+      "39387979",
+      "32008037"
+    ],
+    "review": [
+      "40595011",
+      "39387979"
+    ],
+    "pmc": [
+      "12216128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-96192-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40595011/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

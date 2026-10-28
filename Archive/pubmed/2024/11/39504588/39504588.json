@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39504588",
+    "doi": "10.1016/j.bpc.2024.107346",
+    "title": "The Drosophila RNA binding protein Hrp48 binds a specific RNA sequence of the msl-2 mRNA 3' UTR to regulate translation."
+  },
+  "content": {
+    "abstract": "Repression of msl-2 mRNA translation is essential for viability of Drosophila melanogaster females to prevent hypertranscription of both X chromosomes. This translational control event is coordinated by the female-specific protein Sex-lethal (Sxl) which recruits the RNA binding proteins Unr and Hrp48 to the 3' untranslated region (UTR) of the msl-2 transcript and represses translation initiation. The mechanism exerted by Hrp48 during translation repression and its interaction with msl-2 are not well understood. Here we investigate the RNA binding specificity and affinity of the tandem RNA recognition motifs of Hrp48. Using NMR spectroscopy, molecular dynamics simulations and isothermal titration calorimetry, we identified the exact region of msl-2 3' UTR recognized by Hrp48. Additional biophysical experiments and translation assays give further insights into complex formation of Hrp48, Unr, Sxl and RNA. Our results show that Hrp48 binds independent of Sxl and Unr downstream of the E and F binding sites of Sxl and Unr to msl-2.",
+    "keywords": [
+      "Dosage compensation",
+      "Hrp48",
+      "RNA binding protein",
+      "RNA recognition motif",
+      "Translation regulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drosophila Proteins/metabolism/chemistry/genetics",
+      "*3' Untranslated Regions",
+      "*RNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Drosophila melanogaster/metabolism/genetics",
+      "Protein Biosynthesis",
+      "RNA, Messenger/metabolism/genetics/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Binding Sites",
+      "Transcription Factors/metabolism/chemistry/genetics",
+      "DNA-Binding Proteins",
+      "Heterogeneous-Nuclear Ribonucleoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lomoschitz, Andrea",
+        "Meyer, Julia",
+        "Guitart, Tanit",
+        "Krepl, Miroslav",
+        "Lapouge, Karine",
+        "Hayn, Clara",
+        "Schweimer, Kristian",
+        "Simon, Bernd",
+        "Sponer, Jiri",
+        "Gebauer, Fatima",
+        "Hennig, Janosch"
+      ],
+      "short_names": [
+        "Lomoschitz A",
+        "Meyer J",
+        "Guitart T",
+        "Krepl M",
+        "Lapouge K",
+        "Hayn C",
+        "Schweimer K",
+        "Simon B",
+        "Sponer J",
+        "Gebauer F",
+        "Hennig J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany.",
+        "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr Aiguader 88, 08003 Barcelona, Spain.",
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 65 Brno, Czech Republic.",
+        "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, 69117 Heidelberg, Germany.",
+        "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany.",
+        "Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany.",
+        "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Molecular Biology and Biophysics - University of Connecticut Health Center, Farmington, CT 06030, USA.",
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 65 Brno, Czech Republic; Regional Centre of Advanced Technologies and Materials, Czech Advanced Technology and Research Institute, Palacky University Olomouc, Olomouc 783 71, Czech Republic.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr Aiguader 88, 08003 Barcelona, Spain; Universitat Pompeu Fabra (UPF), 08003 Barcelona, Spain.",
+        "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany. Electronic address: janosch.hennig@uni-bayreuth.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lomoschitz, Andrea",
+        "short_name": "Lomoschitz A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Meyer, Julia",
+        "short_name": "Meyer J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany."
+        ]
+      },
+      {
+        "full_name": "Guitart, Tanit",
+        "short_name": "Guitart T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr Aiguader 88, 08003 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Krepl, Miroslav",
+        "short_name": "Krepl M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 65 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Lapouge, Karine",
+        "short_name": "Lapouge K",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, 69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hayn, Clara",
+        "short_name": "Hayn C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schweimer, Kristian",
+        "short_name": "Schweimer K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany."
+        ]
+      },
+      {
+        "full_name": "Simon, Bernd",
+        "short_name": "Simon B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Molecular Biology and Biophysics - University of Connecticut Health Center, Farmington, CT 06030, USA."
+        ]
+      },
+      {
+        "full_name": "Šponer, Jiří",
+        "short_name": "Šponer J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 65 Brno, Czech Republic; Regional Centre of Advanced Technologies and Materials, Czech Advanced Technology and Research Institute, Palacký University Olomouc, Olomouc 783 71, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Gebauer, Fátima",
+        "short_name": "Gebauer F",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr Aiguader 88, 08003 Barcelona, Spain; Universitat Pompeu Fabra (UPF), 08003 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Hennig, Janosch",
+        "short_name": "Hennig J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Systems Biology Unit, European Molecular Biology Laboratory (EMBL), 69117 Heidelberg, Germany; Department of Biochemistry IV - Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany. Electronic address: janosch.hennig@uni-bayreuth.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/06 18:22",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "40331414",
+      "39804219",
+      "39601754"
+    ],
+    "refs": [],
+    "similar": [
+      "39504588",
+      "29635389",
+      "18203923",
+      "29089381",
+      "16452508",
+      "25209665",
+      "16452509",
+      "19941818",
+      "12769862",
+      "9570314",
+      "16122421",
+      "14532129",
+      "21829374",
+      "10545124",
+      "23788626",
+      "15130489",
+      "28396507",
+      "27919081",
+      "26614741",
+      "22570616",
+      "21551218",
+      "21663794",
+      "19168682",
+      "15130488",
+      "22101243",
+      "9144292",
+      "7796814",
+      "20221253",
+      "20351283",
+      "16199870",
+      "12769850",
+      "17067567",
+      "11565743",
+      "20977887",
+      "23762307",
+      "23870143",
+      "12718883",
+      "22438819",
+      "8817458",
+      "16511567",
+      "39699942",
+      "17890223",
+      "18086881",
+      "7768187",
+      "7588059",
+      "22844249",
+      "8787749",
+      "32654316",
+      "30590805",
+      "28003515",
+      "27402862",
+      "26433064",
+      "38965420",
+      "23873939",
+      "7713421",
+      "25158899",
+      "17381321",
+      "24696456",
+      "23870142",
+      "26468879",
+      "26431028",
+      "15229655",
+      "25501352",
+      "12739140",
+      "8062831",
+      "17936709",
+      "19393317",
+      "20654579",
+      "23733888",
+      "26545814",
+      "17028315",
+      "35087103",
+      "30597717",
+      "21955496",
+      "7926760",
+      "28315749",
+      "18347056",
+      "22424303",
+      "15181172",
+      "14723848",
+      "27580037",
+      "17030623",
+      "12372396",
+      "21233220",
+      "11867536",
+      "11238895",
+      "10021333",
+      "12713901",
+      "29278271",
+      "32072501",
+      "25723530",
+      "10617208",
+      "18724933",
+      "16469771",
+      "10102992",
+      "22645327",
+      "21081899",
+      "30805612",
+      "7516476",
+      "22064486"
+    ],
+    "review": [
+      "39504588",
+      "28315749",
+      "12713901"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(24)00175-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=39504588",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

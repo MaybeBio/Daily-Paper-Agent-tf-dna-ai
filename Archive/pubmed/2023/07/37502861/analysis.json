@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37502861",
+  "title": "EpiGePT: a Pretrained Transformer model for epigenomics.",
+  "authors": "Gao, Zijing; Liu, Qiao; Zeng, Wanwen; Jiang, Rui; Wong, Wing Hung",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-07-28",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于Transformer的预训练模型EpiGePT，整合转录因子活性与3D基因组互作预测表观信号和染色质接触，虽非直接建模TF-DNA结合位点，但以TF活性为核心且方法可迁移至TF-DNA互作研究。",
+  "abstract": "The inherent similarities between natural language and biological sequences have given rise to great interest in adapting the transformer-based large language models (LLMs) underlying recent breakthroughs in natural language processing (references), for applications in genomics. However, current LLMs for genomics suffer from several limitations such as the inability to include chromatin interactions in the training data, and the inability to make prediction in new cellular contexts not represented in the training data. To mitigate these problems, we propose EpiGePT, a transformer-based pretrained language model for predicting context-specific epigenomic signals and chromatin contacts. By taking the context-specific activities of transcription factors (TFs) and 3D genome interactions into consideration, EpiGePT offers wider applicability and deeper biological insights than models trained on DNA sequence only. In a series of experiments, EpiGePT demonstrates superior performance in a diverse set of epigenomic signals prediction tasks when compared to existing methods. In particular, our model enables cross-cell-type prediction of long-range interactions and offers insight on the functional impact of genetic variants under different cellular contexts. These new capabilities will enhance the usefulness of LLM in the study of gene regulatory mechanisms. We provide free online prediction service of EpiGePT through http://health.tsinghua.edu.cn/epigept/.",
+  "abstract_zh": "自然语言与生物序列之间的内在相似性引发了人们对将基于Transformer的大型语言模型（LLMs）应用于基因组学的浓厚兴趣，这些模型是自然语言处理领域近期突破的基础（参考文献）。然而，当前用于基因组学的LLMs存在若干局限性，例如无法将染色质相互作用纳入训练数据，以及无法在训练数据未涵盖的新细胞环境中进行预测。为缓解这些问题，我们提出了EpiGePT，一种基于Transformer的预训练语言模型，用于预测特定细胞环境下的表观基因组信号和染色质接触。通过考虑转录因子（TFs）的上下文特异性活性和三维基因组相互作用，EpiGePT比仅基于DNA序列训练的模型具有更广泛的适用性和更深入的生物学见解。在一系列实验中，与现有方法相比，EpiGePT在多种表观基因组信号预测任务中表现出优越性能。特别是，我们的模型能够实现跨细胞类型的长程相互作用预测，并提供关于遗传变异在不同细胞环境下功能影响的见解。这些新能力将增强LLM在基因调控机制研究中的实用性。我们通过http://health.tsinghua.edu.cn/epigept/提供EpiGePT的免费在线预测服务。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37502861/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37502861/",
+  "paper_page_path": "papers/pubmed/37502861/index.html"
+}

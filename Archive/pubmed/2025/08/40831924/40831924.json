@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "40831924",
+    "doi": "10.3389/fonc.2025.1614058",
+    "title": "Integrating network pharmacology and transcriptomics to identify solasonine's anti-osteosarcoma targets and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma (OS) patients face the challenge of having few effective therapeutic drugs. Solasonine(SS)is an active component of TCM against OS cells. This study aims to identify the key targets of solasonine in treating OS. METHODS: In this study, the transcriptome data and related gene sets were first downloaded from public databases. Subsequently, candidate targets were obtained by intersecting differentially expressed genes (DEGs) with solasonine and OS disease targets. Key targets were then identified through regression analyses, and a prognostic model was constructed. A nomogram was subsequently constructed using the key targets. The functions and immune microenvironment, as well as the structure, regulatory network, and molecular docking of these key targets, were then analyzed. The expression level of the candidate targets in osteosarcoma cells was verified in RT-qPCR experiments, and the effect of solasonine on the malignant biological behavior of osteosarcoma cells was verified. RESULTS: DEGs, targets corresponding to solasonine, and OS-related disease targets were intersected to obtain 37 candidate targets. Subsequent regression analyses identified 5 key targets (ATP1A1, CLK1, SIGMAR1, PYGM, HSP90B1). It was further demonstrated that the OS prognostic model constructed using these key targets was robust. The constructed nomogram provided an excellent predictive model. Moreover, some pathways, such as cytokine-cytokine receptor interaction, were significantly enriched, and there were 4 significantly different immune cells and 3 significantly different immune checkpoints (P<0.05). Additionally, natural killer cells and activated B cells were significantly positively correlated (cor = 0.68, P < 0.001). The subsequent regulatory network included transcription factors regulating the 5 targets. All key targets showed favorable molecular docking effects with SS. The target genes all exhibited higher expression in osteosarcoma cell lines(P<0.05). Solasonine can inhibit the malignant biological behavior of cell proliferation, migration and invasion. CONCLUSION: In this study, ATP1A1, CLK1, SIGMAR1, PYGM, and HSP90B1 were identified as key targets of solasonine in the treatment of OS, and they were found to have reference significance for the treatment of OS. SS can be a potential drug for the treatment of osteosarcoma.",
+    "keywords": [
+      "experimental validation",
+      "network pharmacology",
+      "osteosarcoma",
+      "solasonine",
+      "transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Daihao",
+        "Li, Minyu",
+        "Chu, Dawei",
+        "Shi, Jiandang"
+      ],
+      "short_names": [
+        "Wei D",
+        "Li M",
+        "Chu D",
+        "Shi J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedic, General Hospital of Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China.",
+        "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China.",
+        "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China.",
+        "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China.",
+        "Department of Orthopedic, General Hospital of Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Daihao",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic, General Hospital of Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China.",
+          "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, Minyu",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Dawei",
+        "short_name": "Chu D",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jiandang",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic, General Hospital of Ningxia Medical University, Yinchuan, Ningxia Hui Autonomous Region, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in oncology"
+    ],
+    "journal_abbrev": [
+      "Front Oncol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/20 06:33",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39564119",
+      "39217351",
+      "39155844",
+      "38243263",
+      "38198952",
+      "37964984",
+      "37367817",
+      "37272486",
+      "37183170",
+      "37031957",
+      "36849442",
+      "36481668",
+      "36294892",
+      "36262046",
+      "36189307",
+      "36128851",
+      "35995141",
+      "35790774",
+      "35751589",
+      "35636015",
+      "35509067",
+      "34895945",
+      "34681897",
+      "34679192",
+      "34588497",
+      "34393996",
+      "34383254",
+      "34149999",
+      "34131316",
+      "33924466",
+      "33149752",
+      "32977425",
+      "32774717",
+      "32699530",
+      "32531676",
+      "31681610",
+      "30464506",
+      "30153855",
+      "29304852",
+      "28529692",
+      "28114279",
+      "27883047",
+      "27545456",
+      "27207943",
+      "26673451",
+      "26645564",
+      "26182866",
+      "26098145",
+      "25605792",
+      "25516281",
+      "24190862",
+      "23913004",
+      "23208072",
+      "22455463",
+      "22114931",
+      "19330840",
+      "19125294",
+      "19015660",
+      "10877287"
+    ],
+    "similar": [
+      "40831924",
+      "41089518",
+      "41342434",
+      "41454953",
+      "39431237",
+      "37749554",
+      "38758844",
+      "31934299",
+      "41380825",
+      "40383808",
+      "38297292",
+      "39742274",
+      "37640538",
+      "40321814",
+      "40916281",
+      "37311820",
+      "40433364",
+      "37367817",
+      "38980440",
+      "37842037",
+      "36686663",
+      "37575253",
+      "41285996",
+      "36830696",
+      "40764575",
+      "38047487",
+      "38855608",
+      "39974409",
+      "40593998",
+      "36595977",
+      "39108264",
+      "39015570",
+      "40519720",
+      "40814559",
+      "41057667",
+      "39922150",
+      "41293954",
+      "37877147",
+      "38812298",
+      "40705154",
+      "39566705",
+      "39323640",
+      "30153287",
+      "40846806",
+      "35350913",
+      "39962568",
+      "29620143",
+      "32448271",
+      "40922352",
+      "36343039",
+      "40399425",
+      "39419302",
+      "37799727",
+      "39213234",
+      "41479192",
+      "35279159",
+      "41101222",
+      "37986331",
+      "36814224",
+      "40535100",
+      "41206435",
+      "37272097",
+      "35966307",
+      "37889617",
+      "37858131",
+      "41435607",
+      "38847690",
+      "39727177",
+      "38347067",
+      "38086608",
+      "28934958",
+      "39524888",
+      "38701256",
+      "40216809",
+      "41198558",
+      "39093467",
+      "38579086",
+      "39733097",
+      "34542049",
+      "34311656",
+      "41366971",
+      "39014082",
+      "36212395",
+      "37870753",
+      "40895068",
+      "40593006",
+      "37287284",
+      "40045162",
+      "35967366",
+      "38425392",
+      "40522389",
+      "32854645",
+      "33176597",
+      "38521928",
+      "41186509",
+      "34225733",
+      "40104732",
+      "38169731",
+      "37353812",
+      "36313783"
+    ],
+    "review": [
+      "40831924",
+      "41101222"
+    ],
+    "pmc": [
+      "12358266"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40831924/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1278",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fonc.2025.1614058",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

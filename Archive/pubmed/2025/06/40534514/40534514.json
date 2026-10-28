@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "40534514",
+    "doi": "10.1039/d5lc00320b",
+    "title": "Droplet microfluidics integrated with machine learning reveals how adipose-derived stem cells modulate endocrine response and tumor heterogeneity in ER(+) breast cancer."
+  },
+  "content": {
+    "abstract": "Approximately 70% of breast cancer (BC) diagnoses are estrogen receptor positive (ER(+)) with  approximately 40% of ER(+) BC patients presenting de novo resistance to endocrine therapy (ET). Recent studies identify the tumor microenvironment (TME) as having a key role in endocrine resistance in which adipose-derived stem cells (ASCs) play an essential role in cancer progression. Prior studies have indicated that ASC characteristics such as age and BMI may play a role in cancer progression. Unfortunately, most studies on ASC-BC cross talk have relied on established two-dimensional (2D) culture systems or the use of conditioned media that cannot replicate the complexity of the three-dimensional (3D) environment. This study used a microfluidic droplet trapping array and thiol-acrylate (TA) hydrogel scaffold to co-culture ER(+) BC cells and ASCs as individual 3D spheroids (single culture) or organoids (co-culture) in a single device. Endocrine response was interrogated in both spheroids and organoids through the evaluation of proliferation following treatment with the selective estrogen receptor degrader (SERD) fulvestrant (ICI 182 780) followed by 17beta-estradiol (E2). Terminal immunostaining for the proliferation marker (Ki67) was performed to evaluate how the presence of ASCs from different donor backgrounds (age and BMI) can modulate endocrine response. Results demonstrated that organoids containing two model ER(+) cell lines (MCF7 and ZR-75) exhibited enhanced Ki67 expression even in the presence of ICI, suggesting a role for ASCs in cancer progression and endocrine resistance. Data clustering and classification algorithms were employed to categorize cellular behavior based on Ki67 expression and spheroid area to identify distinct clusters with high (H), intermediate (I), and low (L) Ki67 expression. Machine learning further stratified the data and revealed the direct effects of ASCs on Ki67 expression as well as how donor-specific features influenced ASC-driven changes in the TME. Notably, ASCs from an aged donor (>50) with lower BMI (<30) were able to enhance Ki67 expression even in the presence of endocrine therapy, while younger (<40) donors substantially enhanced Ki67 expression in the absence of both ICI and E2. Together, this study demonstrates the utility/development of a biomimetic culture system that recreates heterogenic 3D ER(+) tumors through the co-culture of cancer cells with ASCs. This system provided insight into cell-extrinsic factors that govern ER(+) breast cancer heterogeneity and response to endocrine therapy can be gained.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/metabolism/drug therapy",
+      "*Receptors, Estrogen/metabolism",
+      "Female",
+      "*Adipose Tissue/cytology",
+      "*Machine Learning",
+      "*Stem Cells/cytology/metabolism/pathology",
+      "Coculture Techniques",
+      "*Lab-On-A-Chip Devices",
+      "MCF-7 Cells",
+      "*Microfluidic Analytical Techniques/instrumentation",
+      "Cell Proliferation/drug effects",
+      "Tumor Microenvironment/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ortega Quesada, Braulio Andres",
+        "Chauvin, Calley",
+        "Martin, Elizabeth",
+        "Melvin, Adam"
+      ],
+      "short_names": [
+        "Ortega Quesada BA",
+        "Chauvin C",
+        "Martin E",
+        "Melvin A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0484-5871"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC 29634, USA. melvina@clemson.edu.",
+        "Department of Biological and Agricultural Engineering, Louisiana State University, Baton Rouge, LA, 70803, USA.",
+        "Department Medicine, Section Hematology and Medical Oncology, Tulane University, New Orleans, LA, 70118, USA. emartin1@tulane.com.",
+        "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC 29634, USA. melvina@clemson.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ortega Quesada, Braulio Andrés",
+        "short_name": "Ortega Quesada BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC 29634, USA. melvina@clemson.edu."
+        ]
+      },
+      {
+        "full_name": "Chauvin, Calley",
+        "short_name": "Chauvin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Agricultural Engineering, Louisiana State University, Baton Rouge, LA, 70803, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Elizabeth",
+        "short_name": "Martin E",
+        "identifiers": [],
+        "affiliations": [
+          "Department Medicine, Section Hematology and Medical Oncology, Tulane University, New Orleans, LA, 70118, USA. emartin1@tulane.com."
+        ]
+      },
+      {
+        "full_name": "Melvin, Adam",
+        "short_name": "Melvin A",
+        "identifiers": [
+          "0000-0003-0484-5871"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC 29634, USA. melvina@clemson.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Lab on a chip"
+    ],
+    "journal_abbrev": [
+      "Lab Chip"
+    ],
+    "pub_date": "2025 Jul 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 07:53",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38162179",
+      "37444610",
+      "37155244",
+      "36001134",
+      "35999486",
+      "35579936",
+      "35455993",
+      "35314676",
+      "35262397",
+      "34980881",
+      "34923225",
+      "34912237",
+      "33692663",
+      "33663530",
+      "33620467",
+      "33475289",
+      "33242173",
+      "32326381",
+      "31961056",
+      "31542503",
+      "31271683",
+      "31118047",
+      "31016598",
+      "30897853",
+      "30356678",
+      "29983785",
+      "29949865",
+      "29663271",
+      "29064018",
+      "28752247",
+      "28512126",
+      "27260630",
+      "26439686",
+      "26385214",
+      "26330355",
+      "26286584",
+      "26096299",
+      "24887580",
+      "24176089",
+      "24155046",
+      "23394599",
+      "22562122",
+      "21191189",
+      "21087457",
+      "19460581",
+      "18757321",
+      "18295964",
+      "16973921",
+      "16575254",
+      "16172190",
+      "15569594",
+      "8475071",
+      "8382510",
+      "6616442",
+      "354778",
+      "210930"
+    ],
+    "similar": [
+      "40534514",
+      "35579936",
+      "41171199",
+      "36001134",
+      "24176089",
+      "29141657",
+      "26286584",
+      "41872748",
+      "32326381",
+      "32379852",
+      "22608253",
+      "24457069",
+      "28629450",
+      "31337963",
+      "38860517",
+      "29880014",
+      "40097769",
+      "30497079",
+      "27246191",
+      "31852484",
+      "29434831",
+      "33271950",
+      "25213081",
+      "24586900",
+      "30192811",
+      "29921289",
+      "40567500",
+      "27650553",
+      "29076586",
+      "40462107",
+      "21087507",
+      "24155046",
+      "35395812",
+      "31226312",
+      "29843638",
+      "41991755",
+      "10375022",
+      "26116361",
+      "34717714",
+      "34856027",
+      "23151593",
+      "42070278",
+      "42247193",
+      "41461598",
+      "25212826",
+      "28927931",
+      "38878646",
+      "26794366",
+      "38934608",
+      "40821783",
+      "12037682",
+      "38886784",
+      "32859606",
+      "30897853",
+      "30594967",
+      "38722566",
+      "21863258",
+      "28937963",
+      "35867219",
+      "23216744",
+      "32788222",
+      "34454978",
+      "34231077",
+      "31180176",
+      "24047421",
+      "38713229",
+      "27252418",
+      "21362200",
+      "33340365",
+      "22821401",
+      "39733372",
+      "23562642",
+      "33466512",
+      "31710162",
+      "31121213",
+      "32771259",
+      "40597935",
+      "32859700",
+      "27308830",
+      "41106018",
+      "41857240",
+      "37318638",
+      "27565181",
+      "30555156",
+      "38789924",
+      "18312651",
+      "33602273",
+      "16827106",
+      "41963560",
+      "31112577",
+      "24099775",
+      "35121782",
+      "27581495",
+      "35765015",
+      "32807212",
+      "41383111",
+      "40808956",
+      "21431343",
+      "32130619",
+      "38877575"
+    ],
+    "review": [
+      "40534514",
+      "28937963"
+    ],
+    "pmc": [
+      "12177710"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40534514/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d5lc00320b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3636",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

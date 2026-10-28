@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36584685",
+  "title": "Gene regulatory network reconfiguration in direct lineage reprogramming.",
+  "authors": "Kamimoto, Kenji; Adil, Mohd Tayyab; Jindal, Kunal; Hoffmann, Christy M; Kong, Wenjun; Yang, Xue; Morris, Samantha A",
+  "journal": "Stem cell reports",
+  "published_date": "2022-12-31",
+  "window": {
+    "start": "2022-12-26",
+    "end": "2023-01-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用CellOracle从单细胞转录组和表观组推断基因调控网络并模拟转录因子扰动，虽涉及TF调控和重编程，但核心是GRN推断而非TF-DNA结合位点或互作机制建模，方法上无AI/物理模拟创新，仅部分相关。",
+  "abstract": "In direct lineage conversion, transcription factor (TF) overexpression reconfigures gene regulatory networks (GRNs) to reprogram cell identity. We previously developed CellOracle, a computational method to infer GRNs from single-cell transcriptome and epigenome data. Using inferred GRNs, CellOracle simulates gene expression changes in response to TF perturbation, enabling in silico interrogation of network reconfiguration. Here, we combine CellOracle analysis with lineage tracing of fibroblast to induced endoderm progenitor (iEP) conversion, a prototypical direct reprogramming paradigm. By linking early network state to reprogramming outcome, we reveal distinct network configurations underlying successful and failed fate conversion. Via in silico simulation of TF perturbation, we identify new factors to coax cells into successfully converting their identity, uncovering a central role for the AP-1 subunit Fos with the Hippo signaling effector, Yap1. Together, these results demonstrate the efficacy of CellOracle to infer and interpret cell-type-specific GRN configurations, providing new mechanistic insights into lineage reprogramming.",
+  "abstract_zh": "在直接谱系转化中，转录因子（TF）过表达重构基因调控网络（GRNs）以重编程细胞身份。我们先前开发了CellOracle，一种从单细胞转录组和表观基因组数据推断GRNs的计算方法。利用推断的GRNs，CellOracle模拟响应TF扰动的基因表达变化，实现对网络重构的计算机模拟探究。在此，我们将CellOracle分析与成纤维细胞向诱导内胚层祖细胞（iEP）转化的谱系追踪相结合，这是一种典型的直接重编程范式。通过将早期网络状态与重编程结果关联，我们揭示了成功与失败命运转化背后的不同网络构型。通过TF扰动的计算机模拟，我们识别出新的因子以引导细胞成功转化其身份，发现AP-1亚基Fos与Hippo信号效应因子Yap1的核心作用。综合来看，这些结果证明了CellOracle在推断和解释细胞类型特异性GRN构型方面的有效性，为谱系重编程提供了新的机制见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36584685/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36584685/",
+  "paper_page_path": "papers/pubmed/36584685/index.html"
+}

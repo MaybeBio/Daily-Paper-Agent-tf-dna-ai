@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "40391175",
+    "doi": "10.2147/DDDT.S513371",
+    "title": "Huashi Jiedu Decoction Enhances 5-Fluorouracil Efficacy in Gastric Cancer via miRNA-21-3p/p53 Pathway."
+  },
+  "content": {
+    "abstract": "PURPOSE: To explore the mechanism of Huashi Jiedu Decoction (HJD) synergizing with 5-fluorouracil (5-Fu) in gastric cancer (GC) therapy. METHODS: MicroRNAs (miRNAs) and genes involved in HJD-mediated GC treatment were identified using ultra-high-performance liquid chromatography coupled with quadrupole-Orbitrap mass spectrometry, network pharmacology, Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, and molecular docking. The effects of HJD on 5-Fu sensitivity in BGC-823 cells were evaluated with 3-(4,5-Dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide assays, reverse transcription quantitative polymerase chain reaction (RT-qPCR), and Western blotting. Synergistic effects in vector-transfected and miRNA-21-3p knockdown cells were assessed by colony formation, wound healing, transwell assays, and flow cytometry (FCM). An in vivo study evaluated the impact of HJD on 5-Fu sensitivity, measuring miRNA-21-3p, tumor protein p53 (p53), N-cadherin, vimentin, and E-cadherin in tumors, along with tumor volume and weight. RESULTS: miRNA-21-3p and p53 were key targets in HJD's therapeutic effect on GC. RT-qPCR showed that HJD combined with 5-Fu reduced miRNA-21-3p and upregulated p53 in vector cells and increased p53 mRNA (p < 0.01) and protein (p < 0.05) compared to 5-Fu alone. These effects were abolished in miRNA-21-3p knockdown cells. The combination reduced colony formation by 48.92% (p < 0.01), suppressed transwell migration by 28.5% (p < 0.01), and inhibited wound healing by 81.9% compared to 5-Fu monotherapy (p < 0.001), with no effects in knockdown cells. FCM showed a 15.1% increase in G(0)/G(1) phase arrest (p < 0.05). In vivo, the combination significantly reduced tumor volume (p < 0.05) and weight by 18.7%, with concomitant miRNA-21-3p downregulation (p < 0.0001), EMT marker suppression (N-cadherin, vimentin), and tumor suppressor activation (p53, E-cadherin) versus 5-Fu alone. CONCLUSION: HJD enhances 5-Fu's effects on GC by regulating the miRNA-21-3p/p53 pathway and modulating cadherin expression, supporting its potential as an adjunctive treatment in GC.",
+    "keywords": [
+      "5-fluorouracil",
+      "gastric cancer",
+      "huashi jiedu decoction",
+      "miRNAs",
+      "p53"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/drug therapy/pathology/metabolism",
+      "*MicroRNAs/metabolism/genetics/antagonists & inhibitors",
+      "*Fluorouracil/pharmacology/administration & dosage",
+      "Humans",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/administration & dosage",
+      "Cell Proliferation/drug effects",
+      "Animals",
+      "Drug Screening Assays, Antitumor",
+      "Mice",
+      "Mice, Nude",
+      "Dose-Response Relationship, Drug",
+      "Neoplasms, Experimental/drug therapy/pathology/metabolism",
+      "Mice, Inbred BALB C",
+      "Cell Line, Tumor",
+      "*Antimetabolites, Antineoplastic/pharmacology",
+      "Tumor Cells, Cultured",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Qianran",
+        "Lin, Weiye",
+        "Yan, Yici",
+        "Chen, Shuangyu",
+        "Li, Jiayang",
+        "Yu, Jieru",
+        "Zhu, Ying",
+        "Qiu, Shengliang"
+      ],
+      "short_names": [
+        "Hong Q",
+        "Lin W",
+        "Yan Y",
+        "Chen S",
+        "Li J",
+        "Yu J",
+        "Zhu Y",
+        "Qiu S"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-9132-7218",
+        "ORCID: 0009-0000-7541-6674",
+        "ORCID: 0009-0005-9008-6630",
+        "ORCID: 0000-0002-5502-3571",
+        "ORCID: 0000-0002-4538-594X"
+      ],
+      "affiliations": [
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang, People's Republic of China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, People's Republic of China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Qianran",
+        "short_name": "Hong Q",
+        "identifiers": [
+          "0009-0007-9132-7218"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Weiye",
+        "short_name": "Lin W",
+        "identifiers": [
+          "0009-0000-7541-6674"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yici",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuangyu",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayang",
+        "short_name": "Li J",
+        "identifiers": [
+          "0009-0005-9008-6630"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jieru",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ying",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-5502-3571"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Shengliang",
+        "short_name": "Qiu S",
+        "identifiers": [
+          "0000-0002-4538-594X"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310006, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/20 06:28",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42206577",
+      "41938507"
+    ],
+    "refs": [
+      "40098971",
+      "40052129",
+      "39935428",
+      "39917999",
+      "39906672",
+      "39882450",
+      "39506605",
+      "39345892",
+      "39134820",
+      "39048172",
+      "38806777",
+      "38463349",
+      "38394851",
+      "38269331",
+      "38190923",
+      "38056149",
+      "37986339",
+      "37777026",
+      "37652429",
+      "37495546",
+      "37481359",
+      "37457133",
+      "37397377",
+      "37380761",
+      "37371458",
+      "37106459",
+      "36633525",
+      "36586571",
+      "36447254",
+      "36209270",
+      "36180435",
+      "36108874",
+      "35955735",
+      "35626668",
+      "35600882",
+      "35341784",
+      "35316215",
+      "35026514",
+      "34968467",
+      "33251333",
+      "31280140",
+      "31243880",
+      "31181181",
+      "29241186",
+      "28128744",
+      "25328413",
+      "25000828",
+      "7556087"
+    ],
+    "similar": [
+      "40391175",
+      "40190808",
+      "30551491",
+      "26368019",
+      "37545635",
+      "31102118",
+      "40206492",
+      "30029874",
+      "30944308",
+      "30488540",
+      "39066531",
+      "23155336",
+      "21114921",
+      "29940566",
+      "40151125",
+      "39986356",
+      "18161298",
+      "34751841",
+      "33444948",
+      "30281914",
+      "29016350",
+      "20704765",
+      "17498489",
+      "39757078",
+      "33370709",
+      "39661279",
+      "39341128",
+      "33449227",
+      "39506605",
+      "31188741",
+      "30404587",
+      "31957833",
+      "36603340",
+      "39740828",
+      "35717675",
+      "35844201",
+      "31182928",
+      "23077553",
+      "39900270",
+      "25632185",
+      "19084572",
+      "35979263",
+      "26892272",
+      "26753960",
+      "39701737",
+      "33910127",
+      "30368875",
+      "37573302",
+      "22261621",
+      "31710389",
+      "26134677",
+      "31880528",
+      "31349708",
+      "26847910",
+      "29436749",
+      "24587255",
+      "39341599",
+      "32660626",
+      "37164919",
+      "32096264",
+      "40233887",
+      "27144434",
+      "36245214",
+      "32073706",
+      "12378617",
+      "40322038",
+      "26973393",
+      "26687645",
+      "39679136",
+      "30468467",
+      "33200228",
+      "15138368",
+      "37999920",
+      "33831429",
+      "23441616",
+      "31976763",
+      "26774139",
+      "32196594",
+      "34596215",
+      "30646925",
+      "31057299",
+      "40014905",
+      "29976242",
+      "33906321",
+      "33906076",
+      "17207318",
+      "40185259",
+      "28965855",
+      "27612427",
+      "37400847",
+      "19756602",
+      "40252583",
+      "30485838",
+      "23687415",
+      "33275228",
+      "39319839",
+      "24337061",
+      "40190805",
+      "30209170",
+      "35900059"
+    ],
+    "review": [
+      "40391175"
+    ],
+    "pmc": [
+      "12087606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40391175/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CDH2-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S513371",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

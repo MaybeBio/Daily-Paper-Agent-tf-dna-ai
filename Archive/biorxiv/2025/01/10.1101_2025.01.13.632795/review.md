@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods overview, results, discussion, code availability, author contributions, acknowledgements) as provided. Figures, tables, extended data, and supplementary materials referenced in the text were not provided.
+- **Assessment boundary** Scientific validity of the claims as presented in the provided text, with explicit acknowledgment that key methodological details and validation data reside in materials not supplied.
+- **Shared manuscript claim summary** The authors introduce HX-ESP, a method combining hydrogen exchange protection factors with iterative molecular dynamics simulations, to predict ligand binding poses. They benchmark against X-ray structures for two PAK1 and four HPK1 ligands, reporting superior performance over flexible docking (HADDOCK), particularly for targets requiring large conformational changes.
+- **Visible evidence base** Text descriptions of methods and results, including numerical values for RMSD metrics in the Results section, and qualitative statements about contact recovery. No figures, tables, or extended data were available for direct inspection.
+- **Missing materials affecting confidence** All figures (Figures 1-5), all extended data items (Extended Data Figures 1-4, Extended Data Tables 1-5), the full Methods section (only an overview was provided), and the deposited structures and simulation trajectories. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting integration of experimental HX data with MD simulation to address a well-recognized limitation in computational ligand binding prediction, namely the handling of large conformational changes. The core idea, using protection factors to define a perturbation set that guides biased simulations, is plausible and potentially valuable. However, the provided text is insufficient to assess the technical soundness of the method. Critical details of the HX-ESP algorithm, the simulation protocols, the scoring function, and the convergence criteria are either summarized or deferred to extended data. The results section reports favorable outcomes, but without access to the figures and tables, the quantitative support for the claims cannot be evaluated. The comparison to HADDOCK is described but the fairness and completeness of that comparison cannot be judged. The manuscript would benefit from a more detailed presentation of the method and results in the main text, or the review must be conducted with access to the supplementary materials.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug design, particularly those developing or using methods for induced-fit docking and binding pose prediction. The method's potential to handle targets with dynamic or cryptic binding sites would be of interest to researchers in both academia and the pharmaceutical industry. The integration of experimental data with simulation is a growing trend, and this work contributes to that space.
+- **Major strengths**
+  - The core concept is novel and addresses a real, unsolved problem in the field: predicting binding poses when the receptor undergoes large conformational changes.
+  - The use of experimental HX data to objectively guide simulations is a principled approach that avoids some of the subjectivity in selecting restraints for induced-fit docking.
+  - The benchmarking against X-ray structures, including cases requiring large conformational adjustments, is an appropriate and rigorous test.
+  - The comparison to HADDOCK, a widely used data-guided docking method, provides a relevant baseline.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "accurately predict[s] ligand binding modes" and "successfully identified binding modes across a range of affinities significantly outperforming flexible docking for ligands necessitating large conformational adjustments."
+  - **Evidence pointer** Results section, Table 1, Figures 3-5, Extended Data Tables 1-3 (none provided)
+  - **Concern** The central quantitative claims of the paper rest entirely on data presented in figures and tables that were not provided for review. The text states mean RMSD values for some cases, but the full distribution of results, the specific contact analysis, and the comparison across all ligands and methods cannot be assessed. Without the actual data, it is impossible to verify that the method performs as claimed, that the RMSD thresholds are appropriate, or that the comparison to HADDOCK is complete and unbiased.
+  - **Why it matters** The primary contribution of the paper is the demonstration that HX-ESP outperforms existing methods. If the underlying data are not available for scrutiny, the central claim is unverifiable. The review cannot establish whether the method is technically sound or whether the conclusions are supported.
+  - **Resolution test** Provide the full set of results, including all RMSD values, contact maps, and comparative statistics for all ligands and methods. The data must be presented in a form that allows independent verification of the claims.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The HX-ESP method is described as "objectively determin[ing] how to guide simulations from experimental measurements, thereby eliminating bias."
+  - **Evidence pointer** HX-ESP Method Overview, Extended Data 1.2, 1.4-1.10 (not provided)
+  - **Concern** The description of the HX-ESP algorithm is a high-level summary. Critical details are deferred to extended data items that were not provided. These include the PBSc cone-selection algorithm, the choice of collective variables, the adaptive biasing protocol, the flat-bottomed restraint implementation, the k-means selection procedure, and the scoring function. Without these details, the method cannot be reproduced or fully evaluated. The claim of objectivity is also difficult to assess without understanding the sensitivity of the method to the user-defined threshold and other parameters.
+  - **Why it matters** A method that cannot be fully described and understood cannot be evaluated for its technical merit or its potential utility to the community. The claim of objectivity is strong and needs to be supported by a detailed description of the algorithm and its parameters.
+  - **Resolution test** Provide a complete description of the HX-ESP algorithm, including all parameters, the PBSc algorithm, the simulation protocols, and the scoring function. This could be in the main text or in a fully detailed methods section.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The method "overcomes the long timescales required for binding predictions using traditional MD."
+  - **Evidence pointer** Discussion section, HX-ESP Method Overview
+  - **Concern** The claim of overcoming long timescales is not quantified. No computational cost comparison is provided between HX-ESP and traditional MD or between HX-ESP and HADDOCK. The number of simulations, the simulation lengths, and the total computational effort are not stated. Without this information, the practical advantage of the method is unclear.
+  - **Why it matters** The practical utility of a computational method depends on its cost. If HX-ESP is not significantly faster or more efficient than alternatives, its advantage may be limited. The claim of overcoming timescale limitations is a key selling point and needs quantitative support.
+  - **Resolution test** Provide a comparison of computational cost (e.g., total simulation time, number of trajectories, wall-clock time) between HX-ESP and the alternative methods used in the benchmark.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The comparison to HADDOCK is presented as a benchmark of "flexible docking."
+  - **Evidence pointer** Results section, Evaluation of HX-ESP Performance
+  - **Concern** The description of the HADDOCK protocol is minimal. It is stated that HADDOCK was guided by AIRs from the PBSc algorithm, but the specific settings, the number of models generated, and the criteria for selecting the "best scoring cluster" are not described. The comparison may not be entirely fair if HADDOCK was not given the same information or if its parameters were not optimized.
+  - **Why it matters** A benchmark is only meaningful if the comparison is fair and the baseline method is used appropriately. If HADDOCK was not used under optimal conditions, the claimed superiority of HX-ESP may be overstated.
+  - **Resolution test** Provide a detailed description of the HADDOCK protocol, including all parameters, the number of models, and the scoring criteria. Justify that the comparison is fair.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, HX-ESP Method Overview
+  - **Evidence pointer** Text
+  - **Issue** The introduction and method overview assume familiarity with HX terminology and MD simulation concepts. Terms like "protection factor," "collective variable," and "adaptive biasing" are used without definition or brief explanation.
+  - **Required correction** Add brief definitions or explanations for these terms to make the manuscript accessible to a broader readership, including structural biologists who may not be experts in MD simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, HX Experiments
+  - **Evidence pointer** Text
+  - **Issue** The statement "regions lacking coverage were assigned PF=1" is ambiguous. It is unclear whether this assignment was used in the PBSc algorithm or only in the displayed maps. If used in the algorithm, it could bias the perturbation set.
+  - **Required correction** Clarify the treatment of missing data in the PBSc algorithm and the potential impact on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Crystal Structures
+  - **Evidence pointer** Text
+  - **Issue** The text states that "eight novel crystal structures were solved" but then describes three PAK1 and five HPK1 structures, which totals eight. However, the text also mentions that two PAK1 and four HPK1 ligands were used for testing, implying that some structures may be apo or used for other purposes. The relationship between the eight structures and the six test ligands is not fully clear.
+  - **Required correction** Clarify the number of structures, which are ligand-bound versus apo, and how they relate to the test set.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Evaluation of HX-ESP Performance
+  - **Evidence pointer** Text
+  - **Issue** The text mentions "five convergent HX-ESP models" per ligand but does not explain how these five are selected from the trajectories or whether they represent independent solutions or variations of the same pose.
+  - **Required correction** Describe the selection process for the final models and the criteria for considering them converged.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Discussion, The advantage of HX-ESP
+  - **Evidence pointer** Text
+  - **Issue** The statement "the average does not always provide a representation of reality" is used to justify the discrepancy between mean contact distances and the presence of contacts in individual models. This is a reasonable point, but it raises the question of how the final model is selected and whether the reported RMSD values are for the best model or the mean.
+  - **Required correction** Clarify whether the reported RMSD values are for the best-scoring model, the centroid of the most populated cluster, or an average over models.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The primary quantitative results are not available for review.
+  - R1-M2: The method description is incomplete, with critical details deferred to unavailable extended data.
+  - R1-M3: The computational cost advantage is not quantified.
+  - R1-M4: The HADDOCK comparison protocol is not described in sufficient detail.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using HX protection factors to define a perturbation set for guiding MD simulations is a novel integration of experimental and computational approaches. The idea is not a trivial extension of existing methods and has the potential to be a significant contribution.
+  - **Scientific importance** The problem of predicting binding poses for targets requiring large conformational changes is important for drug discovery. If the method works as claimed, it would be a valuable addition to the computational toolbox. However, the importance is currently tempered by the lack of verifiable data.
+  - **Interdisciplinary readership** The work sits at the interface of biophysics, computational chemistry, and structural biology. It would be of interest to researchers in all three fields, but the current presentation may be too technical for a general Nature readership without additional context.
+  - **Technical soundness** Cannot be assessed from the provided text. The method description is incomplete, and the results are not available. The claims of accuracy and superiority over HADDOCK are unverifiable.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. Terms and concepts are used without definition, and the method overview is dense. It would benefit from a more accessible introduction and clearer explanations of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising and the authors have addressed an important problem, but the manuscript as provided does not contain sufficient information to verify the claims. A full review would require access to the figures, tables, and extended data. The authors should be encouraged to resubmit with a more complete presentation of the method and results, or the review should be conducted with access to the supplementary materials.
+
+## Risk / unsupported claims
+- The claim that HX-ESP "significantly outperform[s]" flexible docking is unsupported without the full comparative data.
+- The claim that HX-ESP "overcomes the long timescales required for binding predictions using traditional MD" is unsupported without computational cost data.
+- The claim that the method "objectively determines how to guide simulations" is not fully supported without a detailed description of the algorithm and its parameters.
+- The statement that "the relative magnitude of a PF must inversely relate to its proximity to affinity-driving interactions due to energy dissipation" is presented as a principle but is not rigorously justified or tested.
+- The claim that "more than one pose can be considered converged" is made but the implications for the final prediction are not discussed.
+- The statement that "the often used 2 Å ligand RMSD threshold was too strict for HPK1" is an interpretation that requires more evidence, particularly given the structural plasticity of the kinase.

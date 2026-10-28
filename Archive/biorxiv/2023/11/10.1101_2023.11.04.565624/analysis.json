@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.04.565624",
+  "title": "DeepVASP-S: a deep-learning tool for explaining steric mechanism that controls binding specificity",
+  "authors": "Yangying Liu; Houliang Zhou; Brian Y. Chen",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-06",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN分析蛋白-配体互作中的空间位阻并预测氨基酸贡献，但对象为蛋白-配体而非蛋白-DNA，且未涉及TF-DNA结合建模，仅方法上对界面机制分析有间接启发。",
+  "abstract": "DeepVASP-S is a computational tool that leverages the capabilities of convolutional neural networks (CNNs) to analyze steric aspects of protein-ligand interactions and predict amino acid contributions to binding specificity. This tool combines structural bioinformatics with machine learning to address the complex problem of understanding how specific amino acids contribute to the specificity of binding. Here, we use this tool to predict subclasses for Enolase and Serine Protease according to their binding specificity, and explain it through the underlying steric mechanism. The strength of DeepVASP-S lies in its ability to identify and highlight these specific regions, providing researchers with insights into the molecular determinants of protein function and interaction. Such information is extremely valuable for the field of drug design, as it enables the creation of more targeted and effective therapeutics with minimized side effects. The approach taken by DeepVASP-S represents a significant step forward in computational biochemistry, merging high-resolution 3D structural data with the predictive power of machine learning to unlock a deeper understanding of protein-ligand interactions.",
+  "abstract_zh": "DeepVASP-S是一种计算工具，利用卷积神经网络（CNNs）的能力来分析蛋白质-配体相互作用的立体方面，并预测氨基酸对结合特异性的贡献。该工具将结构生物信息学与机器学习相结合，以解决理解特定氨基酸如何贡献于结合特异性的复杂问题。在此，我们使用该工具根据结合特异性预测烯醇化酶（Enolase）和丝氨酸蛋白酶（Serine Protease）的亚类，并通过潜在的立体机制进行解释。DeepVASP-S的优势在于其识别并突出这些特定区域的能力，为研究人员提供关于蛋白质功能和相互作用的分子决定因素的见解。此类信息对药物设计领域极具价值，因为它能够促进更具靶向性和有效性的治疗药物开发，同时最小化副作用。DeepVASP-S所采用的方法代表了计算生物化学领域的重大进步，将高分辨率三维结构数据与机器学习的预测能力相结合，以解锁对蛋白质-配体相互作用的更深层次理解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.04.565624",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.04.565624",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.04.565624/index.html"
+}

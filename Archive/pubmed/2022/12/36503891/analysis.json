@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36503891",
+  "title": "A new machine learning based computational framework identifies therapeutic targets and unveils influential genes in pancreatic islet cells.",
+  "authors": "Turki, Turki; Taguchi, Y-H",
+  "journal": "Gene",
+  "published_date": "2022-12-13",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习框架从胰腺胰岛细胞转录组中筛选治疗靶点基因和转录因子，但核心是基因表达分类与富集分析，缺乏蛋白质-DNA互作建模或结合机制研究，仅提及TF名单，与本课题关联较弱。",
+  "abstract": "Pancreatic islets comprise a group of cells that produce hormones regulating blood glucose levels. Particularly, the alpha and beta islet cells produce glucagon and insulin to stabilize blood glucose. When beta islet cells are dysfunctional, insulin is not secreted, inducing a glucose metabolic disorder. Identifying effective therapeutic targets against the disease is a complicated task and is not yet conclusive. To close the wide gap between understanding the molecular mechanism of pancreatic islet cells and providing effective therapeutic targets, we present a computational framework to identify potential therapeutic targets against pancreatic disorders. First, we downloaded three transcriptome expression profiling datasets pertaining to pancreatic islet cells (GSE87375, GSE79457, GSE110154) from the Gene Expression Omnibus database. For each dataset, we extracted expression profiles for two cell types. We then provided these expression profiles along with the cell types to our proposed constrained optimization problem of a support vector machine and to other existing methods, selecting important genes from the expression profiles. Finally, we performed (1) an evaluation from a classification perspective which showed the superiority of our methods against the baseline; and (2) an enrichment analysis which indicated that our methods achieved better outcomes. Results for the three datasets included 44 unique genes and 10 unique transcription factors (SP1, HDAC1, EGR1, E2F1, AR, STAT6, RELA, SP3, NFKB1, and ESR1) which are reportedly related to pancreatic islet functions, diseases, and therapeutic targets.",
+  "abstract_zh": "胰岛由一组产生调节血糖水平激素的细胞组成。特别是，α和β胰岛细胞产生胰高血糖素和胰岛素以稳定血糖。当β胰岛细胞功能失调时，胰岛素无法分泌，导致葡萄糖代谢紊乱。识别针对该疾病的有效治疗靶点是一项复杂任务，且尚未有定论。为弥合理解胰岛细胞分子机制与提供有效治疗靶点之间的巨大差距，我们提出了一种计算框架，以识别针对胰腺疾病的潜在治疗靶点。首先，我们从基因表达综合数据库（Gene Expression Omnibus）下载了三个与胰岛细胞相关的转录组表达谱数据集（GSE87375、GSE79457、GSE110154）。对于每个数据集，我们提取了两种细胞类型的表达谱。然后，我们将这些表达谱连同细胞类型提供给所提出的支持向量机约束优化问题及其他现有方法，从表达谱中筛选重要基因。最后，我们进行了（1）从分类角度的评估，显示我们的方法优于基线方法；（2）富集分析，表明我们的方法取得了更好的结果。三个数据集的结果包括44个独特基因和10个独特转录因子（SP1、HDAC1、EGR1、E2F1、AR、STAT6、RELA、SP3、NFKB1和ESR1），这些据报道与胰岛功能、疾病及治疗靶点相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36503891/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36503891/",
+  "paper_page_path": "papers/pubmed/36503891/index.html"
+}

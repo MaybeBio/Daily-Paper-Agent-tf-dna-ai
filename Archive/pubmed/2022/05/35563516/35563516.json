@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "35563516",
+    "doi": "10.3390/ijms23095121",
+    "title": "Deciphering Pleiotropic Signatures of Regulatory SNPs in Zea mays L. Using Multi-Omics Data and Machine Learning Algorithms."
+  },
+  "content": {
+    "abstract": "Maize is one of the most widely grown cereals in the world. However, to address the challenges in maize breeding arising from climatic anomalies, there is a need for developing novel strategies to harness the power of multi-omics technologies. In this regard, pleiotropy is an important genetic phenomenon that can be utilized to simultaneously enhance multiple agronomic phenotypes in maize. In addition to pleiotropy, another aspect is the consideration of the regulatory SNPs (rSNPs) that are likely to have causal effects in phenotypic development. By incorporating both aspects in our study, we performed a systematic analysis based on multi-omics data to reveal the novel pleiotropic signatures of rSNPs in a global maize population. For this purpose, we first applied Random Forests and then Markov clustering algorithms to decipher the pleiotropic signatures of rSNPs, based on which hierarchical network models are constructed to elucidate the complex interplay among transcription factors, rSNPs, and phenotypes. The results obtained in our study could help to understand the genetic programs orchestrating multiple phenotypes and thus could provide novel breeding targets for the simultaneous improvement of several agronomic traits.",
+    "keywords": [
+      "gene expression profiles",
+      "hierarchical network model",
+      "incremental feature selection",
+      "markov clustering",
+      "multi-omics",
+      "random forest",
+      "regulatory SNPs"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Machine Learning",
+      "Plant Breeding",
+      "*Polymorphism, Single Nucleotide",
+      "*Zea mays/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haleem, Ataul",
+        "Klees, Selina",
+        "Schmitt, Armin Otto",
+        "Gultas, Mehmet"
+      ],
+      "short_names": [
+        "Haleem A",
+        "Klees S",
+        "Schmitt AO",
+        "Gultas M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8182-915X",
+        "ORCID: 0000-0001-7640-6523",
+        "ORCID: 0000-0002-4910-9467",
+        "ORCID: 0000-0003-3297-3192"
+      ],
+      "affiliations": [
+        "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Gottingen, Germany.",
+        "Faculty of Agriculture, South Westphalia University of Applied Sciences, Lubecker Ring 2, 59494 Soest, Germany.",
+        "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Gottingen, Germany.",
+        "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Gottingen, Germany.",
+        "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Gottingen, Germany.",
+        "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Gottingen, Germany.",
+        "Faculty of Agriculture, South Westphalia University of Applied Sciences, Lubecker Ring 2, 59494 Soest, Germany.",
+        "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Gottingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haleem, Ataul",
+        "short_name": "Haleem A",
+        "identifiers": [
+          "0000-0001-8182-915X"
+        ],
+        "affiliations": [
+          "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Göttingen, Germany.",
+          "Faculty of Agriculture, South Westphalia University of Applied Sciences, Lübecker Ring 2, 59494 Soest, Germany."
+        ]
+      },
+      {
+        "full_name": "Klees, Selina",
+        "short_name": "Klees S",
+        "identifiers": [
+          "0000-0001-7640-6523"
+        ],
+        "affiliations": [
+          "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Göttingen, Germany.",
+          "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmitt, Armin Otto",
+        "short_name": "Schmitt AO",
+        "identifiers": [
+          "0000-0002-4910-9467"
+        ],
+        "affiliations": [
+          "Breeding Informatics Group, Department of Animal Sciences, Georg-August University, Margarethe von Wrangell-Weg 7, 37075 Göttingen, Germany.",
+          "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Gültas, Mehmet",
+        "short_name": "Gültas M",
+        "identifiers": [
+          "0000-0003-3297-3192"
+        ],
+        "affiliations": [
+          "Faculty of Agriculture, South Westphalia University of Applied Sciences, Lübecker Ring 2, 59494 Soest, Germany.",
+          "Center for Integrated Breeding Research (CiBreed), Georg-August University, Carl-Sprengel-Weg 1, 37075 Göttingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 May 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/15 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42553721",
+      "42073992",
+      "40165065",
+      "39810086",
+      "38664394",
+      "37946104"
+    ],
+    "refs": [
+      "35561197",
+      "34685832",
+      "34440019",
+      "34066823",
+      "34065368",
+      "33494188",
+      "33466789",
+      "33385619",
+      "33193532",
+      "33101385",
+      "32764260",
+      "32737163",
+      "32516876",
+      "32434522",
+      "32344666",
+      "32159761",
+      "32153628",
+      "32094306",
+      "31824557",
+      "31805043",
+      "31744513",
+      "31685622",
+      "31134130",
+      "30704393",
+      "30266409",
+      "29504715",
+      "29331490",
+      "28686856",
+      "28645171",
+      "28605751",
+      "28400323",
+      "28275383",
+      "27837094",
+      "27815142",
+      "27504011",
+      "26201819",
+      "25948244",
+      "25708662",
+      "25690716",
+      "25646734",
+      "25516281",
+      "25223304",
+      "25211220",
+      "24633423",
+      "24351709",
+      "24343161",
+      "24232425",
+      "23752797",
+      "23382687",
+      "23242369",
+      "23148107",
+      "23104886",
+      "22937126",
+      "22720092",
+      "22284709",
+      "22174790",
+      "22131051",
+      "22125498",
+      "21594894",
+      "21490302",
+      "21373962",
+      "21150261",
+      "21085204",
+      "20039179",
+      "19616467",
+      "18854416",
+      "18436575",
+      "18349094",
+      "16642024",
+      "16204211",
+      "16117681",
+      "15531710",
+      "14973286",
+      "14688289",
+      "12824369",
+      "11743113",
+      "11487705",
+      "10524240",
+      "10369959",
+      "8305872",
+      "7866025",
+      "3243271"
+    ],
+    "similar": [
+      "35563516",
+      "33466789",
+      "37186341",
+      "31362973",
+      "36447436",
+      "33771110",
+      "32341525",
+      "34591233",
+      "35999561",
+      "30111287",
+      "31220804",
+      "31243730",
+      "34284723",
+      "30057343",
+      "37633966",
+      "25714370",
+      "38339196",
+      "36991439",
+      "31980033",
+      "24830330",
+      "32393176",
+      "37508564",
+      "35030994",
+      "37935586",
+      "38958724",
+      "35292095",
+      "38610383",
+      "34087008",
+      "33788096",
+      "30519826",
+      "33839267",
+      "28875394",
+      "33963265",
+      "27871222",
+      "26357913",
+      "34197039",
+      "32594266",
+      "29363551",
+      "34289812",
+      "30895446",
+      "35180846",
+      "20401646",
+      "33225500",
+      "34643760",
+      "25236445",
+      "34544450",
+      "38343399",
+      "26174666",
+      "32901412",
+      "39044035",
+      "39103778",
+      "36705476",
+      "31481533",
+      "34162419",
+      "33436870",
+      "33596835",
+      "32472060",
+      "38166629",
+      "30257936",
+      "35064401",
+      "27581193",
+      "38927676",
+      "38163896",
+      "32599710",
+      "32171733",
+      "25539911",
+      "35219296",
+      "26566240",
+      "28965742",
+      "26940065",
+      "22865733",
+      "33902858",
+      "30953340",
+      "38751121",
+      "37857752",
+      "32629608",
+      "36319954",
+      "28215025",
+      "38271395",
+      "27012534",
+      "39106250",
+      "38339032",
+      "29754325",
+      "31811314",
+      "21681489",
+      "25840559",
+      "22912876",
+      "31622400",
+      "32991596",
+      "25884393",
+      "23091649",
+      "29116144",
+      "25211220",
+      "31581635",
+      "22075809",
+      "36212378",
+      "32277363",
+      "24950893"
+    ],
+    "review": [
+      "35563516",
+      "38339196",
+      "28875394",
+      "28965742",
+      "33902858",
+      "31811314",
+      "36212378"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23095121",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35563516/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35563516",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

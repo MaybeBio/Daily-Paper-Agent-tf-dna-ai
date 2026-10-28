@@ -1,0 +1,640 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.29.518414",
+  "title": "Machine learning assisted ligand binding energy prediction for <i>in silico</i> generated glycosyl hydrolase enzyme combinatorial mutant library",
+  "doi": "10.1101/2022.11.29.518414",
+  "abstract": "Molecular docking is a computational method used to predict the preferred binding orientation of one molecule to another when bound to each other to form an energetically stable complex. This approach has been widely used for early-stage small-molecule drug design as well as identifying suitable protein-based macromolecule residues for mutagenesis. Estimating binding free energy, based on docking interactions of protein to its ligand based on an appropriate scoring function is often critical for protein mutagenesis studies to improve the activity or alter the specificity of targeted enzymes. However, calculating docking free energy for a large number of protein mutants is computationally challenging and time-consuming. Here, we showcase an end-to-end computational workflow for predicting the binding energy of pNP-Xylose substrate docked within the substrate binding site for a large library of combinatorial mutants of an alpha-L-fucosidase ( Tm Afc, PDB ID-2ZWY) belonging to Thermotoga maritima glycosyl hydrolase (GH) family 29. Briefly, in silico combinatorial mutagenesis was performed for the top conserved residues in Tm Afc as determined by running multiple sequence alignment against all GH29 family enzyme sequences downloaded from an in-house developed Carbohydrate-Active enZyme (CAZy) database retriever program. The binding energy was calculated through Autodock Vina with pNP-Xylose ligand docking with energy minimized Tm Afc mutants, and the data was then used to train a neural network model which was also validated for model predictions using data from Autodock Vina. The current workflow can be adopted for any family of CAZymes to rapidly identify the effect of different mutations within the active site on substrate binding free energy to identify suitable targets for mutagenesis. We anticipate that this workflow could also serve as the starting point for performing more sophisticated and computationally intensive binding free energy calculations to identify targets for mutagenesis and hence optimize use of wet lab resources.",
+  "authors": [
+    "Igor Guranovic",
+    "Mohit Kumar",
+    "Chandra K. Bandi",
+    "Shishir P. S. Chundawat"
+  ],
+  "published_date": "2022-12-02",
+  "updated_date": "2022-12-02T19:25:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518414",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518414.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:26:20Z",
+        "timestamp": 1768505180060,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 67,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Molecular docking is a computational method used to predict the preferred binding orientation of one molecule to another when bound to each other to form an energetically stable complex. This approach has been widely used for early-stage small-molecule drug design as well as identifying suitable protein-based macromolecule residues for mutagenesis. Estimating binding free energy, based on docking interactions of protein to its ligand based on an appropriate scoring function is often critical for protein mutagenesis studies to improve the activity or alter the specificity of targeted enzymes. However, calculating docking free energy for a large number of protein mutants is computationally challenging and time-consuming. Here, we showcase an end-to-end computational workflow for predicting the binding energy of pNP-Xylose substrate docked within the substrate binding site for a large library of combinatorial mutants of an alpha-L-fucosidase (\n                  <jats:italic>Tm</jats:italic>\n                  Afc, PDB ID-2ZWY) belonging to\n                  <jats:italic>Thermotoga maritima</jats:italic>\n                  glycosyl hydrolase (GH) family 29. Briefly,\n                  <jats:italic>in silico</jats:italic>\n                  combinatorial mutagenesis was performed for the top conserved residues in\n                  <jats:italic>Tm</jats:italic>\n                  Afc as determined by running multiple sequence alignment against all GH29 family enzyme sequences downloaded from an in-house developed Carbohydrate-Active enZyme (CAZy) database retriever program. The binding energy was calculated through Autodock Vina with pNP-Xylose ligand docking with energy minimized\n                  <jats:italic>Tm</jats:italic>\n                  Afc mutants, and the data was then used to train a neural network model which was also validated for model predictions using data from Autodock Vina. The current workflow can be adopted for any family of CAZymes to rapidly identify the effect of different mutations within the active site on substrate binding free energy to identify suitable targets for mutagenesis. We anticipate that this workflow could also serve as the starting point for performing more sophisticated and computationally intensive binding free energy calculations to identify targets for mutagenesis and hence optimize use of wet lab resources.\n                </jats:p>",
+      "DOI": "10.1101/2022.11.29.518414",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2022-12-02T19:25:10Z",
+        "timestamp": 1670009110000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Machine learning assisted ligand binding energy prediction for\n                  <i>in silico</i>\n                  generated glycosyl hydrolase enzyme combinatorial mutant library"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Igor",
+          "family": "Guranovic",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohit",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6273-8068",
+          "authenticated-orcid": false,
+          "given": "Chandra K.",
+          "family": "Bandi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3677-6735",
+          "authenticated-orcid": false,
+          "given": "Shishir P. S.",
+          "family": "Chundawat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.1",
+          "unstructured": "Abadi, M. , Barham, P. , Chen, J. , Chen, Z. , Davis, A. , Dean, J. , Devin, M. , Ghemawat, S. , Irving, G. , Isard, M. , Kudlur, M. , Levenberg, J. , Monga, R. , Moore, S. , Murray, D. G. , Steiner, B. , Tucker, P. , Vasudevan, V. , Warden, P. , … Zheng, X. (2016). TensorFlow: A System for Large-Scale Machine Learning. 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16), 265–283. https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi"
+        },
+        {
+          "issue": "9",
+          "key": "2022120420250622000_2022.11.29.518414v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1347",
+          "DOI": "10.1016/j.bbagen.2011.12.001",
+          "article-title": "Glycans as cancer biomarkers",
+          "volume": "1820",
+          "year": "2012",
+          "journal-title": "Biochimica et Biophysica Acta (BBA) - General Subjects"
+        },
+        {
+          "issue": "11",
+          "key": "2022120420250622000_2022.11.29.518414v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "2490",
+          "DOI": "10.1021/acschembio.1c00585",
+          "article-title": "Click-Chemistry-Based Free Azide versus Azido Sugar Detection Enables Rapid In Vivo Screening of Glycosynthase Activity",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "ACS Chemical Biology"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.8211144"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "117121",
+          "DOI": "10.1016/j.carbpol.2020.117121",
+          "article-title": "Auxiliary active site mutations enhance the glycosynthase activity of a GH18 chitinase for polymerization of chitooligosaccharides",
+          "volume": "252",
+          "year": "2021",
+          "journal-title": "Carbohydrate Polymers"
+        },
+        {
+          "issue": "4",
+          "key": "2022120420250622000_2022.11.29.518414v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "682",
+          "DOI": "10.1021/acssynbio.0c00449",
+          "article-title": "Engineered Regulon to Enable Autonomous Azide Ion Biosensing, Recombinant Protein Production, and in Vivo Glycoengineering",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "ACS Synthetic Biology"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/glycob/cws074"
+        },
+        {
+          "issue": "2",
+          "key": "2022120420250622000_2022.11.29.518414v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1039/C8RE00240A",
+          "article-title": "Mechanism of oligosaccharide synthesis: Via a mutant GH29 fucosidase",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Reaction Chemistry and Engineering"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cantarel, B. I. , Coutinho, P. M. , Rancurel, C. , Bernard, T. , Lombard, V. , & Henrissat, B. (2009). The Carbohydrate-Active EnZymes database (CAZy): An expert resource for glycogenomics. Nucleic Acids Research, 37(SUPPL. 1). https://doi.org/10.1093/nar/gkn663",
+          "DOI": "10.1093/nar/gkn663"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ćelić, A. , Connelly, S. M. , Martin, N. P. , & Dumont, M. E. (n.d.). Intensive Mutational Analysis of G Protein-Coupled Receptors in Yeast. In G Protein Signaling (pp. 105–120). Humana Press. https://doi.org/10.1385/1-59259-430-1:105",
+          "DOI": "10.1385/1-59259-430-1:105"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chaudhury, S. , Lyskov, S. , & Gray, J. J. (2010). PyRosetta: A script-based interface for implementing molecular modeling algorithms using Rosetta. In Bioinformatics (Vol. 26, Issue 5). https://doi.org/10.1093/bioinformatics/btq007",
+          "DOI": "10.1093/bioinformatics/btq007"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-S1-S3"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2009.09.013"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2009.09.013"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci900056c"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5560050511"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.77.062906.171838"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd1751"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(03)00143-1"
+        },
+        {
+          "issue": "1",
+          "key": "2022120420250622000_2022.11.29.518414v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "521",
+          "DOI": "10.3390/make1010032",
+          "article-title": "Evaluation of Regression Models: Model Assessment, Model Selection and Generalization Error",
+          "volume": "1",
+          "year": "2019",
+          "journal-title": "Machine Learning and Knowledge Extraction"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1178"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules200713384"
+        },
+        {
+          "issue": "12",
+          "key": "2022120420250622000_2022.11.29.518414v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "3109",
+          "DOI": "10.1016/j.cell.2021.04.023",
+          "article-title": "Small RNAs are modified with N-glycans and displayed on the surface of living cells",
+          "volume": "184",
+          "year": "2021",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M401447200"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1099-1352(199603)9:2<175::AID-JMR260>3.0.CO;2-D"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.212627499"
+        },
+        {
+          "issue": "2",
+          "key": "2022120420250622000_2022.11.29.518414v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "444",
+          "DOI": "10.1021/ci800293n",
+          "article-title": "Validation of Molecular Docking Programs for Virtual Screening against Dihydropteroate Synthase",
+          "volume": "49",
+          "year": "2009",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jb/mvp159"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0608356"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2013.09.010"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST0350742"
+        },
+        {
+          "issue": "3",
+          "key": "2022120420250622000_2022.11.29.518414v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1109/2.485891",
+          "article-title": "Artificial neural networks: a tutorial",
+          "volume": "29",
+          "year": "1996",
+          "journal-title": "Computer"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-008-9196-5"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkf436"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbx108"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbn013"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2019.02.034"
+        },
+        {
+          "issue": "MAY",
+          "key": "2022120420250622000_2022.11.29.518414v1.38",
+          "first-page": "145",
+          "article-title": "Glycans - the third revolution in evolution",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "issue": "1",
+          "key": "2022120420250622000_2022.11.29.518414v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1186/1754-6834-6-41",
+          "article-title": "Expansion of the enzymatic repertoire of the CAZy database to integrate auxiliary redox enzymes",
+          "volume": "6",
+          "year": "2013",
+          "journal-title": "Biotechnology for Biofuels"
+        },
+        {
+          "issue": "5",
+          "key": "2022120420250622000_2022.11.29.518414v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "369",
+          "DOI": "10.1097/FPC.0b013e32803e40d7",
+          "article-title": "Pregnane X receptor polymorphism affects CYP3A4 induction via a ligand-dependent interaction with steroid receptor coactivator-1",
+          "volume": "17",
+          "year": "2007",
+          "journal-title": "Pharmacogenetics and Genomics"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1178"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c1sc00152c"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morris, G. M. , & Lim-Wilby, M. (2008). Molecular Docking (pp. 365–382). https://doi.org/10.1007/978-1-59745-177-2_19",
+          "DOI": "10.1007/978-1-59745-177-2_19"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1367-5931(00)00206-4"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci7000378"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi061444w"
+        },
+        {
+          "issue": "2",
+          "key": "2022120420250622000_2022.11.29.518414v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1007/s12551-016-0247-1",
+          "article-title": "Software for molecular docking: a review",
+          "volume": "9",
+          "year": "2017",
+          "journal-title": "Biophysical Reviews"
+        },
+        {
+          "issue": "12",
+          "key": "2022120420250622000_2022.11.29.518414v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1002/pro.2556",
+          "article-title": "Effects of active site cleft residues on oligosaccharide binding, hydrolysis, and glycosynthase activities of rice BGlu1 and its mutants",
+          "volume": "23",
+          "year": "2014",
+          "journal-title": "Protein Science"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "132",
+          "DOI": "10.1016/j.molcatb.2014.05.021",
+          "article-title": "Glycosynthases from Thermotoga neapolitana β-glucosidase 1A: A comparison of α-glucosyl fluoride and in situ-generated α-glycosyl formate donors",
+          "volume": "107",
+          "year": "2014",
+          "journal-title": "Journal of Molecular Catalysis B: Enzymatic"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rohl, C. A. , Strauss, C. E. M. , Misura, K. M. S. , & Baker, D. (2004). Protein Structure Prediction Using Rosetta (pp. 66–93). https://doi.org/10.1016/S0076-6879(04)83004-0",
+          "DOI": "10.1016/S0076-6879(04)83004-0"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1016/S1359-6446(01)02091-8",
+          "article-title": "Virtual screening and fast automated docking methods",
+          "volume": "7",
+          "year": "2002",
+          "journal-title": "Drug Discovery Today"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-016-9977-1"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1367-5931(02)00339-3"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M309326200"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm051197e"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08508"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.035725.108"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Trott, O. , & Olson, A. J. (2009). AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. Journal of Computational Chemistry, NA-NA. https://doi.org/10.1002/jcc.21334",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.59",
+          "unstructured": "Varki, A. , & Gagneux, P. (2015). Biological Functions of Glycans (3rd ed.). Cold Spring Harbor Laboratory Press, Cold Spring Harbor (NY). http://europepmc.org/books/NBK453034"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2008.09.054"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp033"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biotechadv.2008.05.001"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.7.3012"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "104995",
+          "DOI": "10.1016/j.fitote.2021.104995",
+          "article-title": "Molecular cloning and biochemical characterization of a new coumarin glycosyltransferase CtUGT1 from Cistanche tubulosa",
+          "volume": "153",
+          "year": "2021",
+          "journal-title": "Fitoterapia"
+        },
+        {
+          "issue": "3",
+          "key": "2022120420250622000_2022.11.29.518414v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "318",
+          "DOI": "10.1038/nchem.2927",
+          "article-title": "Evolving artificial metalloenzymes via random mutagenesis",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Nature Chemistry"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0709657105"
+        },
+        {
+          "key": "2022120420250622000_2022.11.29.518414v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2016.11.012"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.29.518414",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:56:24Z",
+        "timestamp": 1768449384000
+      },
+      "score": 80.54847,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.29.518414"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "references-count": 67,
+      "URL": "https://doi.org/10.1101/2022.11.29.518414",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

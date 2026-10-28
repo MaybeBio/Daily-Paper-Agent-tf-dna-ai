@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "41320896",
+    "doi": "10.1021/acs.jcim.5c02175",
+    "title": "Relative BAT: An Automated Tool for Relative Binding Free Energy Calculations by the Separated Topologies Approach."
+  },
+  "content": {
+    "abstract": "Absolute (ABFE) and relative (RBFE) binding free energy calculations with all-atom molecular dynamics (MD) can significantly reduce costs in the early stages of drug discovery. We introduce a new implementation of the Binding Affinity Tool (BAT.py) software, which adds RBFE calculations using separated topologies (SepTop) to the already established ABFE fully automated workflow. SepTop combines the advantages of ABFE and RBFE, being applicable to ligands that have very little or no similarity, while at the same time avoiding common challenges of ABFE calculations, such as occluded binding sites and problematic conformational changes of the receptor upon ligand binding. Three different thermodynamic paths for the relative calculations were implemented into the BAT software using the AMBER and OpenMM simulation engines, and here we test them on the BRD4(2) benchmark system. We discuss their correlation with ABFE, standard RBFE, and experimental results, and also their associated computational cost.",
+    "keywords": [],
+    "mesh_terms": [
+      "Thermodynamics",
+      "*Molecular Dynamics Simulation",
+      "*Software",
+      "Ligands",
+      "Automation",
+      "Protein Binding",
+      "Transcription Factors/chemistry/metabolism",
+      "Humans",
+      "Binding Sites",
+      "Drug Discovery",
+      "Bromodomain Containing Proteins",
+      "Cell Cycle Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heinzelmann, Germano",
+        "Huggins, David J",
+        "Gilson, Michael K"
+      ],
+      "short_names": [
+        "Heinzelmann G",
+        "Huggins DJ",
+        "Gilson MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7168-6941",
+        "ORCID: 0000-0003-1579-2496",
+        "ORCID: 0000-0002-3375-1738"
+      ],
+      "affiliations": [
+        "Departamento de Fisica, Universidade Federal de Santa Catarina, Florianopolis 88040-900, Brasil.",
+        "Department of Physiology and Biophysics, Weill Cornell Medical College of Cornell University, New York, New York 10065, United States.",
+        "Sanders Tri-Institutional Therapeutics Discovery Institute, 1230 York Avenue, Box 122, New York, New York 10065, United States.",
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California 92093, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heinzelmann, Germano",
+        "short_name": "Heinzelmann G",
+        "identifiers": [
+          "0000-0001-7168-6941"
+        ],
+        "affiliations": [
+          "Departamento de Fisica, Universidade Federal de Santa Catarina, Florianopolis 88040-900, Brasil."
+        ]
+      },
+      {
+        "full_name": "Huggins, David J",
+        "short_name": "Huggins DJ",
+        "identifiers": [
+          "0000-0003-1579-2496"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medical College of Cornell University, New York, New York 10065, United States.",
+          "Sanders Tri-Institutional Therapeutics Discovery Institute, 1230 York Avenue, Box 122, New York, New York 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Gilson, Michael K",
+        "short_name": "Gilson MK",
+        "identifiers": [
+          "0000-0002-3375-1738"
+        ],
+        "affiliations": [
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California 92093, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Dec 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/01 06:25",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41320896",
+      "39088306",
+      "37487138",
+      "40029615",
+      "33441879",
+      "29243483",
+      "28786670",
+      "39868875",
+      "36719676",
+      "39302888",
+      "39652747",
+      "28564537",
+      "38147877",
+      "33206520",
+      "34990555",
+      "39225694",
+      "40997759",
+      "38675678",
+      "40859650",
+      "39413277",
+      "36841551",
+      "36450130",
+      "23288722",
+      "41125627",
+      "41082618",
+      "38147689",
+      "32818371",
+      "40734552",
+      "39718976",
+      "37824848",
+      "24072356",
+      "38959405",
+      "35948614",
+      "38425011",
+      "40328725",
+      "38952038",
+      "34105560",
+      "35266690",
+      "31986249",
+      "35293737",
+      "38300792",
+      "33201701",
+      "31587361",
+      "30411639",
+      "39014286",
+      "32437145",
+      "34843243",
+      "40196990",
+      "30689375",
+      "37983165",
+      "35834740",
+      "32539386",
+      "40163897",
+      "40136079",
+      "38317535",
+      "37570684",
+      "27782467",
+      "40127297",
+      "35642423",
+      "39636703",
+      "35315270",
+      "39378441",
+      "39466712",
+      "23464180",
+      "38895959",
+      "36773087",
+      "25835054",
+      "38725239",
+      "29594774",
+      "38236582",
+      "26487189",
+      "41071960",
+      "28600826",
+      "24032517",
+      "27787702",
+      "27494802",
+      "31555923",
+      "32833550",
+      "38323915",
+      "34710811",
+      "39254715",
+      "28024402",
+      "39786727",
+      "33307679",
+      "36197451",
+      "35011350",
+      "27462935",
+      "35156677",
+      "32657160",
+      "33759129",
+      "39681514",
+      "39274873",
+      "31436990",
+      "32936637",
+      "36225254",
+      "39773125",
+      "24413750",
+      "40996455",
+      "28466681",
+      "24256082"
+    ],
+    "review": [
+      "41320896",
+      "37824848",
+      "33759129"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02175",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

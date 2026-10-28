@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "38143770",
+    "doi": "10.3389/fimmu.2023.1326018",
+    "title": "Multifactor assessment of ovarian cancer reveals immunologically interpretable molecular subtypes with distinct prognoses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer (OC) is a highly heterogeneous and malignant gynecological cancer, thereby leading to poor clinical outcomes. The study aims to identify and characterize clinically relevant subtypes in OC and develop a diagnostic model that can precisely stratify OC patients, providing more diagnostic clues for OC patients to access focused therapeutic and preventative strategies. METHODS: Gene expression datasets of OC were retrieved from TCGA and GEO databases. To evaluate immune cell infiltration, the ESTIMATE algorithm was applied. A univariate Cox analysis and the two-sided log-rank test were used to screen OC risk factors. We adopted the ConsensusClusterPlus algorithm to determine OC subtypes. Enrichment analysis based on KEGG and GO was performed to determine enriched pathways of signature genes for each subtype. The machine learning algorithm, support vector machine (SVM) was used to select the feature gene and develop a diagnostic model. A ROC curve was depicted to evaluate the model performance. RESULTS: A total of 1,273 survival-related genes (SRGs) were firstly determined and used to clarify OC samples into different subtypes based on their different molecular pattern. SRGs were successfully stratified in OC patients into three robust subtypes, designated S-I (Immunoreactive and DNA Damage repair), S-II (Mixed), and S-III (Proliferative and Invasive). S-I had more favorable OS and DFS, whereas S-III had the worst prognosis and was enriched with OC patients at advanced stages. Meanwhile, comprehensive functional analysis highlighted differences in biological pathways: genes associated with immune function and DNA damage repair including CXCL9, CXCL10, CXCL11, APEX, APEX2, and RBX1 were enriched in S-I; S-II combined multiple gene signatures including genes associated with metabolism and transcription; and the gene signature of S-III was extensively involved in pathways reflecting malignancies, including many core kinases and transcription factors involved in cancer such as CDK6, ERBB2, JAK1, DAPK1, FOXO1, and RXRA. The SVM model showed superior diagnostic performance with AUC values of 0.922 and 0.901, respectively. Furthermore, a new dataset of the independent cohort could be automatically analyzed by this innovative pipeline and yield similar results. CONCLUSION: This study exploited an innovative approach to construct previously unexplored robust subtypes significantly related to different clinical and molecular features for OC and a diagnostic model using SVM to aid in clinical diagnosis and treatment. This investigation also illustrated the importance of targeting innate immune suppression together with DNA damage in OC, offering novel insights for further experimental exploration and clinical trial.",
+    "keywords": [
+      "diagnostic model",
+      "molecular subtypes",
+      "multi-factor",
+      "ovarian cancer",
+      "support vector machine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Genes, cdc",
+      "Prognosis",
+      "*Ovarian Neoplasms/diagnosis/genetics",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Yaping",
+        "Li, Siyu",
+        "Li, Chentan",
+        "Wang, Li",
+        "Ning, Wanshan"
+      ],
+      "short_names": [
+        "Guo Y",
+        "Li S",
+        "Li C",
+        "Wang L",
+        "Ning W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Gynaecology and Obstetrics, Henan Provincial People's Hospital, Peoples Hospital of Zhengzhou University, School of Clinical Medicine Henan University, Zhengzhou, Henan, China.",
+        "Clinical Medical Research Institute, The First Affiliated Hospital, Xiamen University, Xiamen, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Yaping",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+          "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Siyu",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+          "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chentan",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+          "Center for Basic Medical Research, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Henan Provincial People's Hospital, Peoples Hospital of Zhengzhou University, School of Clinical Medicine Henan University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Wanshan",
+        "short_name": "Ning W",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical Research Institute, The First Affiliated Hospital, Xiamen University, Xiamen, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/25 06:42",
+    "fetched_at": "2026-10-04 23:31:46"
+  },
+  "links": {
+    "cites": [
+      "42582447",
+      "42066461",
+      "40240412",
+      "39296051"
+    ],
+    "refs": [],
+    "similar": [
+      "38143770",
+      "37849750",
+      "37386521",
+      "36950684",
+      "38404588",
+      "35741755",
+      "38069266",
+      "37383389",
+      "38497886",
+      "35057848",
+      "36707884",
+      "37455244",
+      "31987036",
+      "35719392",
+      "36830707",
+      "37919068",
+      "38365611",
+      "37540264",
+      "37858138",
+      "37063862",
+      "36319976",
+      "36611197",
+      "36003381",
+      "36545327",
+      "34470661",
+      "34526089",
+      "35227285",
+      "36561981",
+      "34523782",
+      "31655274",
+      "39034722",
+      "33675171",
+      "38416665",
+      "31703725",
+      "38017020",
+      "31182053",
+      "37776237",
+      "38218807",
+      "38365849",
+      "37762710",
+      "30106117",
+      "36479114",
+      "37095524",
+      "35292033",
+      "37193145",
+      "36253873",
+      "38166541",
+      "35958598",
+      "37528285",
+      "34304441",
+      "38238671",
+      "36739404",
+      "33604191",
+      "35418998",
+      "36075788",
+      "34026291",
+      "36081904",
+      "37449151",
+      "37304238",
+      "33173439",
+      "31729978",
+      "30786925",
+      "37619523",
+      "33563317",
+      "34825509",
+      "37259027",
+      "37512088",
+      "32805252",
+      "38841623",
+      "37078136",
+      "37919061",
+      "36059957",
+      "38355446",
+      "33828074",
+      "33679883",
+      "35676619",
+      "37548130",
+      "29915691",
+      "37713585",
+      "36798787",
+      "37090728",
+      "35047401",
+      "35837397",
+      "37404304",
+      "39085784",
+      "30569721",
+      "35386298",
+      "38408960",
+      "35361267",
+      "36253715",
+      "36424614",
+      "35800989",
+      "37684587",
+      "35813444",
+      "35372049",
+      "35812434",
+      "32716025",
+      "35783281",
+      "38613345",
+      "38640321",
+      "18790805",
+      "38756073",
+      "38506093",
+      "38814534",
+      "39149564",
+      "39262489",
+      "36639731",
+      "26629914",
+      "28938599",
+      "37215759"
+    ],
+    "review": [
+      "38143770",
+      "34470661"
+    ],
+    "pmc": [
+      "10740166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38143770/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38143770",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CXCL9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1326018",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

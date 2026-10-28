@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors report that SSF, a single-stranded DNA-binding protein encoded by the F plasmid of *E. coli*, also binds double-stranded DNA, with the interaction mapped to its C-terminal unstructured region. They further report that overexpression of SSF in cells leads to the disappearance of dsDNA plasmids in agarose gel electrophoresis, and they propose a potential role for SSF in bacterial conjugation.
+- **Visible evidence base** Figures 1–6 as referenced in the text; methods sections 1.1–1.5; results sections 2.1–2.4; discussion section 3
+- **Missing materials affecting confidence** Raw gel images, MST raw data and fitting curves, protein purity assessments, plasmid disappearance quantification, statistical analyses, and any negative controls for the in vivo assay are not provided. The manuscript text is incomplete in places (e.g., section 2.1 contains a Chinese character "和" in the heading).
+
+## Reviewer
+- **Overall assessment** The manuscript reports a potentially novel observation that a single-stranded DNA-binding protein (SSF) also binds double-stranded DNA, with the binding region localized to its C-terminal domain. The finding is interesting and could open new avenues in SSB research. However, the evidence presented is largely qualitative, lacks key controls, and the in vivo plasmid disappearance result is unexplained and not rigorously characterized. The manuscript is not yet suitable for publication in a high-impact venue without substantial additional experimentation and clarification.
+- **Who would be interested in the results, and why** Researchers studying DNA-binding proteins, bacterial conjugation, DNA replication and recombination, and the functional diversity of SSB-family proteins. The finding that an SSB can also bind dsDNA challenges the conventional functional separation of ssDNA- and dsDNA-binding proteins and may be of interest to structural biologists and biochemists.
+- **Major strengths** The study addresses a previously uncharacterized protein (SSF) and reports a novel biochemical activity. The use of multiple complementary assays (gel shift, MST, in vivo plasmid assay) is commendable. The identification of the C-terminal region as the dsDNA-binding domain is a useful step forward.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SSF has the ability to bind both ssDNA and dsDNA" and "the interaction region is at the C-terminus of SSF"
+  - **Evidence pointer** Section 2.3, Figures 4 and 5
+  - **Concern** The gel shift experiments are qualitative and lack quantitative binding data. The MST experiments provide dissociation constants (45.3 µM and 98.3 µM) but the raw data, fitting curves, and replicates are not shown. The claim that the C-terminus is the binding region is based on the behavior of fusion proteins (Ubi-SSFc and His6-SSFc) and a truncation (SSFΔC62), but the purity and folding of these constructs are not demonstrated.
+  - **Why it matters** Without quantitative and reproducible binding data, the central claim of dsDNA binding by SSF and its localization to the C-terminus is not firmly established. The affinity values are in the high micromolar range, which may be physiologically irrelevant, and this is not discussed.
+  - **Resolution test** Provide raw MST data with replicates, show saturation binding curves, include a positive control for dsDNA binding (e.g., a known dsDNA-binding protein), and demonstrate the integrity and correct folding of all protein constructs (e.g., by size-exclusion chromatography or circular dichroism).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** "the plasmid disappeared when SSF was overexpressed" and "the mechanism by which overexpression of SSF leads to plasmid disappearance may be complex"
+  - **Evidence pointer** Section 2.4, Figure 6
+  - **Concern** The in vivo assay shows plasmid disappearance but provides no mechanistic insight. The authors do not test whether the plasmid is degraded, aggregated, modified, or simply not extracted. No controls are shown (e.g., cells without induction, cells expressing a control protein, or a plasmid lacking the SSF gene). The observation is presented as a result but is not interpreted or followed up.
+  - **Why it matters** The in vivo result is one of the key claims of the manuscript, but as presented it is an unexplained observation. Without controls and mechanistic follow-up, it does not support the conclusion that SSF interacts with dsDNA in a biologically meaningful way.
+  - **Resolution test** Perform time-course experiments, include a control protein overexpression, assess plasmid integrity by restriction digestion and sequencing, and test whether the effect is dependent on the C-terminal domain of SSF.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** "This study has opened up a new direction for SSB research" and "revealing for the first time a single stranded DNA binding protein with dsDNA binding ability"
+  - **Evidence pointer** Abstract, Section 3
+  - **Concern** The claim of "first time" is not verified against the broader literature. The authors do not discuss whether other SSB-family proteins or related proteins have been shown to bind dsDNA. The discussion is speculative and does not place the finding in a broader context.
+  - **Why it matters** The novelty claim is central to the manuscript's significance. If other SSBs have been shown to bind dsDNA, the claim is overstated. The discussion should be more balanced and grounded in existing literature.
+  - **Resolution test** Conduct a thorough literature search and revise the novelty claim accordingly. Discuss potential mechanisms and biological relevance of dsDNA binding by SSF in the context of bacterial conjugation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1 heading
+  - **Evidence pointer** Section 2.1
+  - **Issue** The heading contains a Chinese character "和" instead of "and".
+  - **Required correction** Replace with the English conjunction "and".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 1.4
+  - **Evidence pointer** Section 1.4
+  - **Issue** The MST experiment description lacks details on buffer composition, temperature, and the number of technical replicates.
+  - **Required correction** Provide full experimental conditions and replicate numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Section 2.3, Figure 4
+  - **Issue** The gel images are described but not shown in the text. The authors refer to "left picture" and "right picture" without clear labeling.
+  - **Required correction** Ensure figures are clearly labeled and referenced in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of the in vivo plasmid disappearance is speculative and does not consider alternative explanations such as nuclease degradation or plasmid modification.
+  - **Required correction** Add a paragraph discussing alternative mechanisms and how they could be tested.
+
+## Risk / unsupported claims
+- The claim that SSF binds dsDNA with a dissociation constant in the micromolar range is not supported by raw data or replicates.
+- The claim that the C-terminal region is the dsDNA-binding domain is based on qualitative gel shift data and fusion protein behavior without proper controls.
+- The in vivo plasmid disappearance is presented as a result but is not mechanistically characterized or controlled.
+- The claim of "first time" for a single-stranded DNA-binding protein with dsDNA-binding ability is not verified against the literature.
+- The biological relevance of the observed dsDNA binding affinity is not discussed.

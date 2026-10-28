@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40504273",
+    "doi": "10.1007/s10238-025-01745-5",
+    "title": "Exploring the molecular mechanisms of lactylation-related biological functions and immune regulation in sepsis-associated acute kidney injury."
+  },
+  "content": {
+    "abstract": "Lactylation, a novel post-translational modification, has been implicated in various pathophysiological processes; however, its role in sepsis-associated acute kidney injury (SA-AKI) remains unclear. This study aimed to investigate the expression patterns and potential functional roles of lactylation-related genes (LRGs) in SA-AKI using transcriptomic data from the GSE232404 dataset. A total of 118 differentially expressed LRGs were identified, enriched in pathways related to RNA splicing, histone deacetylation, and carbon metabolism pathways. Immune infiltration analysis revealed significant alterations in macrophages M0, neutrophils, and T cell subtypes. Consensus clustering-based molecular subtyping stratified SA-AKI samples into two distinct clusters, each characterized by unique immune landscapes and enrichment in cytokine signaling pathways. Weighted gene co-expression network analysis (WGCNA) identified the darkseagreen3 module as highly correlated with these subtypes. Subsequent machine learning analyses, incorporating Lasso regression and random forest algorithms, identified PECR and TP53I3 as key LRGs. Transcription factor enrichment analysis further suggested motif cisbp__M1413 as a potential upstream regulator. Single-cell RNA sequencing (scRNA-seq) analysis revealed PECR and TP53I3 were predominant expression in proximal tubule and Loop of Henle cells, with significant correlations to lactylation-related pathways. This comprehensive analysis finds the potential roles of LRGs in SA-AKI pathogenesis, particularly their association with immune regulation and cell-type specificity. The identified of PECR and TP53I3 provides new insights into the molecular mechanisms of SA-AKI and may inform the development of targeted therapeutic strategies.",
+    "keywords": [
+      "Immune regulation",
+      "Lactylation",
+      "SA-AKI",
+      "SA-AKI biomarkers",
+      "Subtype analysis",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Acute Kidney Injury/etiology/immunology/genetics/pathology",
+      "Humans",
+      "*Sepsis/complications/immunology",
+      "Gene Expression Profiling",
+      "*Protein Processing, Post-Translational",
+      "Gene Regulatory Networks",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Kui",
+        "Mai, Shujuan",
+        "Li, Jian",
+        "Zhou, Hongxing",
+        "Chen, Yu",
+        "Zou, Leyuan",
+        "Yu, Huixia"
+      ],
+      "short_names": [
+        "Jiang K",
+        "Mai S",
+        "Li J",
+        "Zhou H",
+        "Chen Y",
+        "Zou L",
+        "Yu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China.",
+        "Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China. 531362457@qq.com.",
+        "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China. slobberfish@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Kui",
+        "short_name": "Jiang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Mai, Shujuan",
+        "short_name": "Mai S",
+        "identifiers": [],
+        "affiliations": [
+          "Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hongxing",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Leyuan",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China. 531362457@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Huixia",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong Province, China. slobberfish@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Med"
+    ],
+    "pub_date": "2025 Jun 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/12 12:32",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42688716",
+      "42592257",
+      "42459694",
+      "42437080",
+      "42121966",
+      "41816323",
+      "40815329"
+    ],
+    "refs": [
+      "39876839",
+      "39854875",
+      "39834999",
+      "39767795",
+      "39581988",
+      "39208853",
+      "39062068",
+      "38767134",
+      "38541160",
+      "38515121",
+      "38419085",
+      "38312312",
+      "38069335",
+      "37847593",
+      "37759729",
+      "37569838",
+      "36969193",
+      "36823168",
+      "36614339",
+      "36233246",
+      "35874763",
+      "35764395",
+      "35281315",
+      "34824200",
+      "34227347",
+      "33863396",
+      "33335130",
+      "31685947",
+      "31645732",
+      "31443997",
+      "31230050",
+      "31155231",
+      "31046246",
+      "30626586",
+      "29927326",
+      "29355173",
+      "28904739",
+      "26375003",
+      "23853427",
+      "23394211",
+      "23361625",
+      "21343898",
+      "17699448"
+    ],
+    "similar": [
+      "40504273",
+      "40155864",
+      "40595246",
+      "40914702",
+      "41504052",
+      "41214769",
+      "38767134",
+      "40596702",
+      "36793712",
+      "41139200",
+      "41322213",
+      "39208853",
+      "40208026",
+      "39707377",
+      "40369453",
+      "41098724",
+      "39661223",
+      "40404675",
+      "41107920",
+      "38851159",
+      "40169651",
+      "37083129",
+      "38817665",
+      "40936924",
+      "40131629",
+      "41035644",
+      "39850900",
+      "41310117",
+      "40832598",
+      "41023305",
+      "41200169",
+      "31658856",
+      "40362233",
+      "40350654",
+      "40302809",
+      "41246341",
+      "40829320",
+      "40612938",
+      "38815767",
+      "39423109",
+      "41158309",
+      "39600181",
+      "39586719",
+      "40329965",
+      "40140945",
+      "40655111",
+      "41137350",
+      "39990773",
+      "35957725",
+      "40258914",
+      "41137708",
+      "38579513",
+      "41346577",
+      "40124361",
+      "40405297",
+      "41252712",
+      "40055592",
+      "40868258",
+      "40103812",
+      "40345018",
+      "40532306",
+      "41146542",
+      "41006377",
+      "39384856",
+      "41038928",
+      "39551047",
+      "41191207",
+      "40362669",
+      "39724993",
+      "39692606",
+      "40248193",
+      "40116046",
+      "39924309",
+      "39285310",
+      "40207870",
+      "36125921",
+      "40927289",
+      "38779751",
+      "40296690",
+      "40200699",
+      "41246299",
+      "38541160",
+      "41142807",
+      "41013727",
+      "40891136",
+      "38476535",
+      "38497110",
+      "38765164",
+      "40642071",
+      "41436286",
+      "27724849",
+      "38343542",
+      "35234208",
+      "40861493",
+      "41107929",
+      "39387943",
+      "39833975",
+      "40683426",
+      "35860182",
+      "41224720"
+    ],
+    "review": [
+      "40504273",
+      "39208853",
+      "40207870"
+    ],
+    "pmc": [
+      "12162736"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40504273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10238-025-01745-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

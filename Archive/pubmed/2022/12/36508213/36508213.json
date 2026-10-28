@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "36508213",
+    "doi": "10.1021/acs.jafc.2c06230",
+    "title": "Linolenic Acid-Derived Oxylipins Inhibit Aflatoxin Biosynthesis in Aspergillus flavus through Activation of Imizoquin Biosynthesis."
+  },
+  "content": {
+    "abstract": "Oxylipins play important signaling roles in aflatoxin (AF) biosynthesis in Aspergillus flavus. We previously showed that exogenous supply of autoxidated linolenic acid (AL) inhibited AF biosynthesis in A. flavus via oxylipins, but the molecular mechanism is still unknown. Here, we performed multiomics analyses of A. flavus grown in media with or without AL. Targeted metabolite analyses and quantitative reverse transcription (qRT)-polymerase chain reaction (PCR) showed that the imizoquin (IMQ) biosynthetic pathway was distinctly upregulated in the presence of AL. (13)C-glucose labeling confirmed in parallel that the tricarboxylic acid cycle was also enhanced by AL, consistent with observed increases in mycelial growth. Moreover, we integrated thermal proteome profiling and molecular dynamics simulations to identify a potential receptor of AL; AL was found to interact with a transporter (ImqJ) located in the IMQ gene cluster, primarily through hydrophobic interactions. Further analyses of strains with an IMQ pathway transcription factor overexpressed or knocked out confirmed that this pathway was critical for AL-mediated inhibition of AF biosynthesis. Comparison of 22 assembled A. flavus and Aspergillus oryzae genomes showed that genes involved in the IMQ pathway were positively selected in A. oryzae. Taken together, the results of our study provide novel insights into oxylipin-mediated regulation of AF biosynthesis and suggest potential methods for preventing AF contamination of crops.",
+    "keywords": [
+      "Aspergillus flavus",
+      "aflatoxins",
+      "imizoquin",
+      "multiomics",
+      "thermal proteome profiling"
+    ],
+    "mesh_terms": [
+      "*Aspergillus flavus/metabolism",
+      "Oxylipins/metabolism",
+      "*Aflatoxins",
+      "alpha-Linolenic Acid",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shaowen",
+        "Zhang, Qunjie",
+        "Zhang, Wenyang",
+        "Huang, Wenjie",
+        "Kong, Qian",
+        "Liu, Qinjian",
+        "Li, Wenyan",
+        "Zou, Xinlu",
+        "Liu, Chun-Ming",
+        "Yan, Shijuan"
+      ],
+      "short_names": [
+        "Wu S",
+        "Zhang Q",
+        "Zhang W",
+        "Huang W",
+        "Kong Q",
+        "Liu Q",
+        "Li W",
+        "Zou X",
+        "Liu CM",
+        "Yan S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6907-1179"
+      ],
+      "affiliations": [
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Institution of Genomics and Bioinformatics, South China Agricultural University, Guangzhou510642, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+        "Key Laboratory of Plant Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, 20 Nanxincun, Fragrant Hill, Beijing100093, China.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shaowen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qunjie",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China.",
+          "Institution of Genomics and Bioinformatics, South China Agricultural University, Guangzhou510642, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenyang",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wenjie",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Qian",
+        "short_name": "Kong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qinjian",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenyan",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Xinlu",
+        "short_name": "Zou X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chun-Ming",
+        "short_name": "Liu CM",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, 20 Nanxincun, Fragrant Hill, Beijing100093, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Shijuan",
+        "short_name": "Yan S",
+        "identifiers": [
+          "0000-0002-6907-1179"
+        ],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou510640, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of agricultural and food chemistry"
+    ],
+    "journal_abbrev": [
+      "J Agric Food Chem"
+    ],
+    "pub_date": "2022 Dec 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41591169",
+      "39696205",
+      "39608603",
+      "39070265",
+      "37065116"
+    ],
+    "refs": [
+      "35637307",
+      "34822579",
+      "34265844",
+      "33856211",
+      "33531617",
+      "33202955",
+      "33138160",
+      "33003755",
+      "32977505",
+      "32326370",
+      "32250030",
+      "32231944",
+      "32121226",
+      "31541640",
+      "31253287",
+      "30857280",
+      "30731629",
+      "30691218",
+      "30476243",
+      "30408940",
+      "30236283",
+      "29970790",
+      "29735944",
+      "29729608",
+      "29467403",
+      "29182847",
+      "29072706",
+      "28983290",
+      "28830793",
+      "28122684",
+      "27941917",
+      "27819658",
+      "27537912",
+      "26488642",
+      "26379230",
+      "26124136",
+      "25928133",
+      "25724886",
+      "25498164",
+      "25316696",
+      "24742119",
+      "24695404",
+      "24306876",
+      "24194595",
+      "23598564",
+      "23281343",
+      "22795693",
+      "22694821",
+      "22289775",
+      "22177852",
+      "22069691",
+      "21513456",
+      "21500218",
+      "20519149",
+      "20507448",
+      "20057381",
+      "19575467",
+      "19289445",
+      "19261174",
+      "18417537",
+      "18351591",
+      "17367719",
+      "16988822",
+      "16499411",
+      "16455047",
+      "16107592",
+      "15388519",
+      "12952885",
+      "12032247",
+      "11846609",
+      "9895674",
+      "9539414",
+      "8744570",
+      "7461516",
+      "6415222"
+    ],
+    "similar": [
+      "36508213",
+      "25498164",
+      "35107358",
+      "22694821",
+      "36566904",
+      "24385353",
+      "24742119",
+      "26404375",
+      "35638847",
+      "29746057",
+      "29392555",
+      "17216451",
+      "99644",
+      "32977505",
+      "16944283",
+      "34822615",
+      "37918192",
+      "35080432",
+      "21342785",
+      "36548780",
+      "2124794",
+      "19238624",
+      "19948368",
+      "17955191",
+      "38225047",
+      "25274127",
+      "38112282",
+      "24759426",
+      "37454507",
+      "33648276",
+      "37797576",
+      "30520983",
+      "33202955",
+      "15681047",
+      "11273679",
+      "27899241",
+      "30442975",
+      "28468270",
+      "22212063",
+      "30691218",
+      "31161589",
+      "12030297",
+      "26512693",
+      "22128236",
+      "36668827",
+      "31476580",
+      "15983745",
+      "31328901",
+      "31301828",
+      "35878175",
+      "8439147",
+      "28349747",
+      "19537208",
+      "6436710",
+      "35202114",
+      "9758790",
+      "33138160",
+      "8535511",
+      "19038354",
+      "15321681",
+      "26273991",
+      "17650201",
+      "35843028",
+      "27224419",
+      "7793957",
+      "30544693",
+      "37065116",
+      "32062689",
+      "29969379",
+      "20455156",
+      "7618859",
+      "26366857",
+      "36977107",
+      "30243147",
+      "16430983",
+      "18449222",
+      "30036940",
+      "26556681",
+      "32795262",
+      "32240921",
+      "17257250",
+      "37505683",
+      "17886175",
+      "24960201",
+      "29298838",
+      "26540623",
+      "26217023",
+      "23994319",
+      "3083260",
+      "19699547",
+      "28737735",
+      "29970790",
+      "17665189",
+      "8074506",
+      "22798394",
+      "28066725",
+      "22904054",
+      "31608565",
+      "37194429"
+    ],
+    "review": [
+      "36508213",
+      "29746057",
+      "16944283"
+    ],
+    "pmc": [
+      "9785051"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jafc.2c06230",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36508213/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36508213",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jafcau/article-lookup/doi/10.1021/acs.jafc.2c06230",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

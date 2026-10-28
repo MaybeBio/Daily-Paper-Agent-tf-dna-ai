@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38597081",
+    "doi": "10.7518/hxkq.2024.2023275",
+    "title": "Construction of a diagnostic model based on random forest and artificial neural network for peri-implantitis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: This study aimed to reveal critical genes regulating peri-implantitis during its development and construct a diagnostic model by using random forest (RF) and artificial neural network (ANN). METHODS: GSE-33774, GSE106090, and GSE57631 datasets were obtained from the GEO database. The GSE33774 and GSE106090 datasets were analyzed for differential expression and functional enrichment. The protein-protein interaction networks (PPI) and RF screened vital genes. A diagnostic model for peri-implantitis was established using ANN and validated on the GSE33774 and GSE57631 datasets. A transcription factor-gene interaction network and a transcription factor-micro-RNA (miRNA) regulatory network were also established. RESULTS: A total of 124 differentially expressed genes (DEGs) involved in the regulation of peri-implantitis were screened. Enrichment analysis showed that DEGs were mainly associated with immune receptor activity and cytokine receptor activity and were mainly involved in processes such as leukocyte and neutrophil migration. The PPI and RF screened six essential genes, namely, CD38, CYBB, FCGR2A, SELL, TLR4, and CXCL8. The receiver operating characteristic curve (ROC) indicated that the ANN model had an excellent diagnostic performance. FOXC1, GATA2, and NF-kappaB1 may be essential transcription factors in peri-implantitis, and hsa-miR-204 may be a key miRNA. CONCLUSIONS: The diagnostic model of peri-implantitis constructed by RF and ANN has high confidence, and CD38, CYBB, FCGR2A, SELL, TLR4, and CXCL8 are potential diagnostic markers. FOXC1, GATA2, and NF-kappaB1 may be essential transcription factors in peri-implantitis, and hsa-miR-204 plays a vital role as a critical miRNA.",
+    "keywords": [
+      "artificial neural network",
+      "bioinformatics",
+      "diagnostic model",
+      "peri-implantitis",
+      "random forest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Peri-Implantitis/diagnosis/genetics",
+      "Random Forest",
+      "Toll-Like Receptor 4",
+      "*MicroRNAs",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Haoran",
+        "Chen, Yuxiang",
+        "Zhao, Anna",
+        "Cheng, Tingting",
+        "Zhou, Jianzhong",
+        "Li, Ziliang"
+      ],
+      "short_names": [
+        "Yang H",
+        "Chen Y",
+        "Zhao A",
+        "Cheng T",
+        "Zhou J",
+        "Li Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China.",
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China.",
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China.",
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China.",
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China.",
+        "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+        "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Haoran",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxiang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Anna",
+        "short_name": "Zhao A",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Tingting",
+        "short_name": "Cheng T",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jianzhong",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziliang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatological Hospital of Kunming Medical University, Kunming 650000, China.",
+          "Yunnan Provincial Key Laboratory of Stomatology, Kunming 650000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hua xi kou qiang yi xue za zhi = Huaxi kouqiang yixue zazhi = West China journal of stomatology"
+    ],
+    "journal_abbrev": [
+      "Hua Xi Kou Qiang Yi Xue Za Zhi"
+    ],
+    "pub_date": "2024 Apr 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/10 06:42",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42434259"
+    ],
+    "refs": [
+      "37624387",
+      "37538174",
+      "37437059",
+      "36843591",
+      "36759202",
+      "36691896",
+      "35847663",
+      "35716513",
+      "35612038",
+      "35103328",
+      "34931168",
+      "34627721",
+      "34471858",
+      "34454602",
+      "34185419",
+      "34177950",
+      "33742426",
+      "33726736",
+      "33600527",
+      "33401250",
+      "33376734",
+      "33290552",
+      "33237311",
+      "33125081",
+      "33016381",
+      "32369987",
+      "32291538",
+      "31963337",
+      "31887144",
+      "31876318",
+      "31593304",
+      "31576950",
+      "31489644",
+      "31477170",
+      "31277072",
+      "31204513",
+      "30931480",
+      "30887566",
+      "30486423",
+      "30428305",
+      "30392889",
+      "30004567",
+      "29926946",
+      "29552326",
+      "29454792",
+      "29353325",
+      "29305014",
+      "28836909",
+      "28427365",
+      "28281321",
+      "28183973",
+      "27680028",
+      "27018308",
+      "25867116",
+      "25605792",
+      "25521941",
+      "25495683",
+      "25045750",
+      "21739911",
+      "21431559",
+      "19683430",
+      "15204308"
+    ],
+    "similar": [
+      "38597081",
+      "34931168",
+      "36013591",
+      "38098283",
+      "33081707",
+      "37671094",
+      "36267464",
+      "37032448",
+      "39289672",
+      "38780047",
+      "35299890",
+      "34858391",
+      "28565775",
+      "28864780",
+      "33185898",
+      "36276977",
+      "31275749",
+      "38640305",
+      "36104591",
+      "37185487",
+      "30165363",
+      "37113134",
+      "36193198",
+      "35944133",
+      "32532036",
+      "35694667",
+      "36050999",
+      "38050562",
+      "37190696",
+      "38482416",
+      "34536521",
+      "32319195",
+      "37179305",
+      "24921256",
+      "38444712",
+      "35313857",
+      "31593304",
+      "37789641",
+      "35872921",
+      "32884937",
+      "36118873",
+      "36575422",
+      "36291136",
+      "35741697",
+      "35545337",
+      "26271976",
+      "37821907",
+      "35132271",
+      "33600531",
+      "32508878",
+      "38268224",
+      "33407587",
+      "37603701",
+      "36420648",
+      "34844599",
+      "31489644",
+      "36154667",
+      "32299382",
+      "36321868",
+      "35642216",
+      "36536067",
+      "36193326",
+      "31853997",
+      "34434654",
+      "37250717",
+      "36003956",
+      "38549107",
+      "32788609",
+      "34347896",
+      "37865576",
+      "35812749",
+      "37357608",
+      "31759984",
+      "36304554",
+      "29760609",
+      "32987825",
+      "36968608",
+      "35727093",
+      "35379119",
+      "28872184",
+      "30258285",
+      "38265536",
+      "34600545",
+      "36545400",
+      "35909518",
+      "35300139",
+      "37063926",
+      "33425781",
+      "38088448",
+      "37773794",
+      "35847663",
+      "38328342",
+      "26584716",
+      "33280594",
+      "31623650",
+      "33506919",
+      "37279222",
+      "37169818",
+      "39206162",
+      "38837218"
+    ],
+    "review": [
+      "38597081",
+      "37113134",
+      "32532036"
+    ],
+    "pmc": [
+      "11034404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38597081/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38597081",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD38-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3589",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

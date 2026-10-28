@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "40794873",
+    "doi": "10.1093/nar/gkaf735",
+    "title": "AlphaFold-guided structural analyses of nucleosome binding proteins."
+  },
+  "content": {
+    "abstract": "The nucleosome, as the fundamental unit of chromatin, interacts with a diverse range of proteins, crucially regulating gene expression. In this study, we introduce an AlphaFold-based algorithm designed to analyze nucleosome-binding proteins from a dataset of over 7600 human nuclear proteins. Using proteins that interact with the nucleosome acidic patch as a benchmark, our screening achieves a successful prediction rate of 77% (23 out of 30 proteins). This predictive approach has led to the identification of ARID4A and ARID4B as novel nucleosome-binding proteins. Additionally, this analytical method was used to study RING-family ubiquitin E3 ligase RNF168, demonstrating that RNF168 dimerization enhances its binding to the nucleosome, a finding confirmed by cryogenic-electron microscopy structural analysis. Our findings offer a rapid and effective method for the discovery and characterization of nucleosome-binding proteins and emphasize the significant role of ubiquitin E3 ligase dimerization in epigenetic regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/metabolism/chemistry",
+      "Humans",
+      "Ubiquitin-Protein Ligases/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Transcription Factors/chemistry/metabolism",
+      "Protein Binding",
+      "*Algorithms",
+      "Cryoelectron Microscopy",
+      "Models, Molecular",
+      "Protein Multimerization",
+      "*Nuclear Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Xin",
+        "Zhu, Haoqiang",
+        "Shi, Liuxin",
+        "Song, Tingrui",
+        "Gong, Weibin",
+        "He, Shunmin",
+        "Shan, Shan",
+        "Xu, Chunfu",
+        "Zhou, Zheng"
+      ],
+      "short_names": [
+        "Yang X",
+        "Zhu H",
+        "Shi L",
+        "Song T",
+        "Gong W",
+        "He S",
+        "Shan S",
+        "Xu C",
+        "Zhou Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2967-7704",
+        "ORCID: 0000-0002-7294-0865",
+        "ORCID: 0000-0002-1423-7231"
+      ],
+      "affiliations": [
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "National Institute of Biological Sciences, Beijing 102206, China.",
+        "Tsinghua Institute of Multidisciplinary Biomedical Research, Tsinghua University, Beijing 102206, China.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Xin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Haoqiang",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Liuxin",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Song, Tingrui",
+        "short_name": "Song T",
+        "identifiers": [
+          "0000-0003-2967-7704"
+        ],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Weibin",
+        "short_name": "Gong W",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "He, Shunmin",
+        "short_name": "He S",
+        "identifiers": [
+          "0000-0002-7294-0865"
+        ],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Shan",
+        "short_name": "Shan S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chunfu",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing 102206, China.",
+          "Tsinghua Institute of Multidisciplinary Biomedical Research, Tsinghua University, Beijing 102206, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zheng",
+        "short_name": "Zhou Z",
+        "identifiers": [
+          "0000-0002-1423-7231"
+        ],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jul 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 18:33",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42653196",
+      "42469262",
+      "42043022",
+      "41594921",
+      "41533575"
+    ],
+    "refs": [
+      "39929866",
+      "39394267",
+      "39363740",
+      "39357520",
+      "38718835",
+      "38570683",
+      "38509361",
+      "38472177",
+      "38448592",
+      "38331872",
+      "38242129",
+      "38081975",
+      "37704730",
+      "37633270",
+      "37536340",
+      "37384673",
+      "37270635",
+      "36795828",
+      "36266465",
+      "36198799",
+      "35532550",
+      "34837025",
+      "34506790",
+      "34321665",
+      "34293799",
+      "34265844",
+      "34102105",
+      "34038732",
+      "33675746",
+      "33574035",
+      "33454011",
+      "33361816",
+      "33357431",
+      "33073403",
+      "32911482",
+      "32747783",
+      "32665685",
+      "32658293",
+      "32188938",
+      "31819269",
+      "31475439",
+      "31226204",
+      "30988309",
+      "30532059",
+      "30412051",
+      "28710774",
+      "28537572",
+      "28165473",
+      "25355358",
+      "24518117",
+      "24379399",
+      "23255131",
+      "22589545",
+      "20800598",
+      "20739938",
+      "20124702",
+      "20061306",
+      "17043311",
+      "15572765",
+      "14870657",
+      "10804500",
+      "9514715",
+      "9305837"
+    ],
+    "similar": [
+      "40794873",
+      "21772249",
+      "41045927",
+      "39394267",
+      "28506460",
+      "31069272",
+      "38818823",
+      "29643506",
+      "40721296",
+      "29079575",
+      "41197730",
+      "19818708",
+      "40744500",
+      "27462807",
+      "25355358",
+      "25114052",
+      "20681948",
+      "38992002",
+      "31434570",
+      "22980979",
+      "31226204",
+      "40207634",
+      "40334658",
+      "24603765",
+      "38242129",
+      "34321665",
+      "9427758",
+      "39537923",
+      "31485071",
+      "19029894",
+      "32001526",
+      "24518117",
+      "12952948",
+      "33589814",
+      "39149911",
+      "33053319",
+      "39984731",
+      "31672915",
+      "32658293",
+      "36991118",
+      "15386022",
+      "32913000",
+      "38418882",
+      "26416878",
+      "31048496",
+      "38870940",
+      "20739938",
+      "26455391",
+      "28406400",
+      "31775157",
+      "30017582",
+      "21176878",
+      "23071745",
+      "31819277",
+      "24714598",
+      "22589545",
+      "23255131",
+      "40468067",
+      "17419736",
+      "39929866",
+      "14975298",
+      "29019976",
+      "11713285",
+      "28424519",
+      "30988309",
+      "12368485",
+      "33051594",
+      "35477757",
+      "32636384",
+      "22334663",
+      "34012049",
+      "25653165",
+      "24515106",
+      "29986887",
+      "39121853",
+      "22842904",
+      "26872330",
+      "31801865",
+      "17309844",
+      "9674423",
+      "28943314",
+      "20033039",
+      "29643509",
+      "9674424",
+      "19723507",
+      "22435811",
+      "37872231",
+      "38528151",
+      "15131696",
+      "23928047",
+      "20972456",
+      "27316462",
+      "32188943",
+      "40009677",
+      "27991587",
+      "26508657",
+      "39383876",
+      "34486521",
+      "39910688",
+      "26656854"
+    ],
+    "review": [
+      "40794873",
+      "21176878",
+      "14975298",
+      "26872330",
+      "22435811",
+      "27316462"
+    ],
+    "pmc": [
+      "12341937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40794873/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RNF168-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1754",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf735",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

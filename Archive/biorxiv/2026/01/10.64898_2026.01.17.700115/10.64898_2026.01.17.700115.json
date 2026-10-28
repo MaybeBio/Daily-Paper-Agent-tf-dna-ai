@@ -1,0 +1,553 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.17.700115",
+  "title": "SE3Bind: SE(3)-equivariant model for antibody-antigen binding affinity prediction",
+  "doi": "10.64898/2026.01.17.700115",
+  "abstract": "Predicting antibody-antigen binding affinity is critical for therapeutic development, but machine learning-based approaches to the problem are typically hampered by the small amount of available structural and affinity data. We introduce SE3Bind, an SE(3)-equivariant architecture trained on two related tasks: re-docking of an antibody structure to its matching antigen structure, and antibody-antigen binding free energy prediction. Both tasks encourage the model to learn an energy function formulated in terms of scalar and vector fields associated with each protein. Under a stringent training/validation split of the data based on antigen sequence similarity, SE3Bind demonstrates an ability to generalize to out-of-distribution examples and achieves a performance comparable to that of existing models evaluated under similar conditions.",
+  "authors": [
+    "Anushriya Subedy",
+    "Siddharth Bhadra-Lobo",
+    "Guillaume Lamoureux"
+  ],
+  "published_date": "2026-01-18",
+  "updated_date": "2026-01-19T03:45:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700115",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700115.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:01:42Z",
+        "timestamp": 1785416502601,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                18
+              ]
+            ],
+            "date-time": "2026-01-18T00:00:00Z",
+            "timestamp": 1768694400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "2152059"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2152059"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/021nxhr62",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting antibody-antigen binding affinity is critical for therapeutic development, but machine learning-based approaches to the problem are typically hampered by the small amount of available structural and affinity data. We introduce SE3Bind, an SE(3)-equivariant architecture trained on two related tasks: re-docking of an antibody structure to its matching antigen structure, and antibody-antigen binding free energy prediction. Both tasks encourage the model to learn an energy function formulated in terms of scalar and vector fields associated with each protein. Under a stringent training/validation split of the data based on antigen sequence similarity, SE3Bind demonstrates an ability to generalize to out-of-distribution examples and achieves a performance comparable to that of existing models evaluated under similar conditions.</jats:p>",
+      "DOI": "10.64898/2026.01.17.700115",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            19
+          ]
+        ],
+        "date-time": "2026-01-19T03:45:15Z",
+        "timestamp": 1768794315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "SE3Bind: SE(3)-equivariant model for antibody-antigen binding affinity prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-4670-3555",
+          "authenticated-orcid": false,
+          "given": "Anushriya",
+          "family": "Subedy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5768-1199",
+          "authenticated-orcid": false,
+          "given": "Siddharth",
+          "family": "Bhadra-Lobo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7656-0176",
+          "authenticated-orcid": false,
+          "given": "Guillaume",
+          "family": "Lamoureux",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ"
+            },
+            {
+              "name": "Department of Chemistry, Rutgers University, Camden, NJ"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Andrew C Chan , Greg D Martyn , and Paul J Carter . Fifty years of monoclonals: the past, present and future of antibody therapeutics. Nature Reviews Immunology, pages 1–21, 2025.",
+          "DOI": "10.1038/s41577-025-01261-3"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2022.102379"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "2648",
+          "DOI": "10.1016/j.csbj.2024.06.016",
+          "article-title": "A comprehensive overview of recent advances in generative models for antibodies",
+          "volume": "23",
+          "year": "2024",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1571371",
+          "DOI": "10.3389/fimmu.2025.1571371",
+          "article-title": "Applying computational protein design to therapeutic antibody discovery-current state and perspectives",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Frontiers in Immunology"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Richard Evans , Michael O’Neill , Alexander Pritzel , Natasha Antropova , Andrew Senior , Tim Green , Augustin Žídek , Russ Bates , Sam Blackwell , Jason Yim , et al. Protein complex prediction with AlphaFold-Multimer. bioRxiv, 2022.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.7",
+          "first-page": "493",
+          "article-title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+          "volume": "639",
+          "year": "2024",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2014.11.010"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jeffrey A Ruffolo , Jeremias Sulam , and Jeffrey J Gray . Antibody structure prediction using interpretable deep learning. Patterns, 3(2), 2022.",
+          "DOI": "10.1016/j.patter.2021.100406"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac016"
+        },
+        {
+          "issue": "1",
+          "key": "2026020608242963000_2026.01.17.700115v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2389",
+          "DOI": "10.1038/s41467-023-38063-x",
+          "article-title": "Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae245"
+        },
+        {
+          "issue": "1",
+          "key": "2026020608242963000_2026.01.17.700115v1.14",
+          "first-page": "vbae202",
+          "article-title": "Antifold: Improved structure-based antibody design using inverse folding",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "issue": "1",
+          "key": "2026020608242963000_2026.01.17.700115v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2602217",
+          "DOI": "10.1080/19420862.2025.2602217",
+          "article-title": "Conformation-aware structure prediction of antigen-recognizing immune proteins",
+          "volume": "18",
+          "year": "2026",
+          "journal-title": "mAbs"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.57264"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2580",
+          "DOI": "10.1109/TCBB.2024.3407477",
+          "article-title": "Dock2D: Synthetic data for the molecular recognition problem",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty635"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/18.1.175"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.STR.2021.01.005"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "635",
+          "DOI": "10.1038/s43588-025-00823-8",
+          "article-title": "Investigating the volume and diversity of data needed for generalizable antibody–antigen ΔΔG prediction",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Nature Computational Science"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1357-4310(95)91170-7"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.26",
+          "year": "2018",
+          "journal-title": "3D steerable CNNs: Learning rotationally equivariant features in volumetric data"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "4046",
+          "DOI": "10.1093/bioinformatics/bty494",
+          "article-title": "Deep convolutional networks for quality assessment of protein folds",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Georgy Derevyanko and Guillaume Lamoureux . Protein-protein docking using learned three-dimensional representations. bioRxiv, 2019.",
+          "DOI": "10.1101/738690"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.29",
+          "unstructured": "PyTorch Foundation. torch.fft, 2023. https://pytorch.org/docs/stable/fft.html."
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.36.040306.132550"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3280"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2829"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz779"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "issue": "8",
+          "key": "2026020608242963000_2026.01.17.700115v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009284",
+          "DOI": "10.1371/journal.pcbi.1009284",
+          "article-title": "Deep geometric representations for modeling effects of mutations on protein-protein binding affinity",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae241"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2874"
+        },
+        {
+          "issue": "3",
+          "key": "2026020608242963000_2026.01.17.700115v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1016/j.jmb.2016.11.022",
+          "article-title": "BindProfX: Assessing mutationinduced binding affinity change by protein interface profiles with pseudo-counts",
+          "volume": "429",
+          "year": "2017",
+          "journal-title": "Journal of molecular biology"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab387"
+        },
+        {
+          "issue": "2",
+          "key": "2026020608242963000_2026.01.17.700115v1.40",
+          "first-page": "895",
+          "article-title": "Comparative assessment of scoring functions: the CASF-2016 update",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "issue": "11",
+          "key": "2026020608242963000_2026.01.17.700115v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "e155",
+          "DOI": "10.1371/journal.pcbi.0020155",
+          "article-title": "3D complex: a structural classification of protein complexes",
+          "volume": "2",
+          "year": "2006",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab762"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.6b00491"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa389"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm00145a002"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yogesh Kalakoti and Björn Wallner . AFsample2 predicts multiple conformations and ensembles with AlphaFold2. Communications Biology, 8(373), 2025.",
+          "DOI": "10.1038/s42003-025-07791-9"
+        },
+        {
+          "key": "2026020608242963000_2026.01.17.700115v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saro Passaro , Gabriele Corso , Jeremy Wohlwend , Mateo Reveiz , Stephan Thaler , Vignesh Ram Somnath , Noah Getz , Tally Portnoi , Julien Roy , Hannes Stark , David Kwabi-Addo , Dominique Beaini , Tommi Jaakkola , and Regina Barzilay . Boltz-2: Towards accurate and efficient binding affinity prediction. bioRxiv, 2025.",
+          "DOI": "10.1101/2025.06.14.659707"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.17.700115",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T16:24:43Z",
+        "timestamp": 1770395083000
+      },
+      "score": 92.1419,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.17.700115"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            18
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.64898/2026.01.17.700115",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42103618",
+  "title": "[Driver gene mutations predicted by pathology-foundation-model and their clinical associations in clear cell renal cell carcinoma].",
+  "authors": "Tan, S Y; Zhang, Y Y; Chen, W; Li, J N; Wei, Y R; Wang, M; Fan, L N; Wang, Z",
+  "journal": "Zhonghua bing li xue za zhi = Chinese journal of pathology",
+  "published_date": "2026-05-09",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用病理基础模型预测肾癌驱动基因突变，对象为基因型-表型关联，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Objective: To evaluate the performance of a deep learning framework based on the PathOrchestra pathology foundation model for predicting key driver gene mutations (VHL, PBRM1, BAP1, and SETD2) in clear cell renal cell carcinoma (ccRCC), and to analyze the associations of these mutations with clinicopathological characteristics and prognosis using whole-exome sequencing data. Methods: Whole-slide images and matched whole-exome sequencing data were collected from 319 patients with pathologically confirmed ccRCC at the First Affiliated Hospital of Air Force Medical University between March 2018 and July 2023. Image features of the whole slide imaging were extracted using the PathOrchestra foundation model. An attention-based multiple-instance learning model was developed to predict gene mutations. Model performance was evaluated on an independent test set, with the UNI model serving as a baseline control. The associations of the mutation status with clinicopathological parameters and patient prognosis were also analyzed. Results: On the independent test set, the PathOrchestra model achieved area under the receiver operating characteristic curve values of 0.87 for VHL, 0.84 for PBRM1, 0.95 for BAP1, and 0.88 for SETD2, showing higher predictive performances than the UNI baseline for BAP1 and SETD2. Clinicopathological correlation analysis based on whole-exome sequencing data revealed that BAP1 mutation was associated with higher WHO/ISUP grade (chi(2)=17.694,P=0.001), tumor relapse/metastasis (chi(2)=4.257,P=0.039), and shorter progression-free survival (P=0.045). Conclusions: The PathOrchestra-based deep learning approach can effectively identify key driver gene mutations in ccRCC using whole slide images of HE-stained slides, providing a feasible method for inferring genetic alterations from pathological images. The association of BAP1 mutation in ccRCC with poor prognosis further supports its value in prognostications. Moreover, the model visualization reveals morphological signatures associated with gene mutations, offering preliminary insights into genotype-morphology relationships.",
+  "abstract_zh": "目的：评估基于PathOrchestra病理基础模型的深度学习框架在预测透明细胞肾细胞癌（ccRCC）中关键驱动基因突变（VHL、PBRM1、BAP1和SETD2）的性能，并利用全外显子组测序数据分析这些突变与临床病理特征及预后的关联。方法：收集2018年3月至2023年7月期间空军军医大学第一附属医院病理确诊的319例ccRCC患者的全切片图像及匹配的全外显子组测序数据。使用PathOrchestra基础模型提取全切片图像特征，开发基于注意力的多实例学习模型以预测基因突变。在独立测试集上评估模型性能，并以UNI模型作为基线对照。同时分析突变状态与临床病理参数及患者预后的关联。结果：在独立测试集上，PathOrchestra模型对VHL、PBRM1、BAP1和SETD2的受试者工作特征曲线下面积值分别为0.87、0.84、0.95和0.88，在BAP1和SETD2上显示出高于UNI基线的预测性能。基于全外显子组测序数据的临床病理相关性分析显示，BAP1突变与更高的WHO/ISUP分级（chi(2)=17.694，P=0.001）、肿瘤复发/转移（chi(2)=4.257，P=0.039）及较短的无进展生存期（P=0.045）相关。结论：基于PathOrchestra的深度学习方法可利用HE染色切片的全切片图像有效识别ccRCC中的关键驱动基因突变，为从病理图像推断遗传改变提供了一种可行方法。BAP1突变在ccRCC中与不良预后的关联进一步支持其在预后评估中的价值。此外，模型可视化揭示了与基因突变相关的形态学特征，为基因型-形态学关系提供了初步见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42103618/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42103618/",
+  "paper_page_path": "papers/pubmed/42103618/index.html"
+}

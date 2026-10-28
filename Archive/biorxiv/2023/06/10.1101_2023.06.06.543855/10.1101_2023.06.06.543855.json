@@ -1,0 +1,136 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.06.543855",
+  "title": "Re-annotation of SARS-CoV-2 proteins using an HHpred-based approach opens new opportunities for a better understanding of this virus",
+  "doi": "10.1101/2023.06.06.543855",
+  "abstract": "<h4> A bstract </h4> Since the publication of the genome of SARS-CoV-2 – the causative agent of COVID-19 – in January 2020, many bioinformatic tools have been applied to annotate its proteins. Although effcient methods have been used, such as the identification of protein domains stored in Pfam, most of the proteins of this virus have no detectable homologous protein domains outside the viral taxa. As it is now well established that some viral proteins share similarities with proteins of their hosts, we decided to explore the hypothesis that this lack of homologies could be, at least in part, the result of the documented loss of sensitivity of Pfam Hidden Markov Models (HMMs) when searching for domains in “divergent organisms”. In order to improve the annotation of SARS-CoV-2 proteins, we used the HHpred protein annotation tool. To avoid “false positive predictions” as much as possible, we designed a robustness procedure to evaluate the HHpred results. In total, 6 robust similarities involving 6 distinct SARS-CoV-2 proteins were detected. Of these 6 similarities, 3 are already known and well documented, and one is in agreement with recent crystallographic results. We then examined carefully the two similarities that have not yet been reported in the literature. We first show that the C-terminal part of Spike S (the protein that binds the virion to the cell membrane by interacting with the host receptor, triggering infection) has similarities with the human prominin-1/CD133; after reviewing what is known about prominin-1/CD133, we suggest that the C-terminal part of Spike S could both improve the docking of Spike S to ACE2 (the main cell entry receptor for SARS-CoV-2) and be involved in the delivery of virions to regions where ACE2 is located in cells. Secondly, we show that the SARS-CoV-2 ORF3a protein shares similarities with human G protein-coupled receptors (GPCRs), such as Lutropin-choriogonadotropic hormone receptor, primarily belonging to the “Rhodopsin family”. To further investigate these similarities, we compared Prominin 1 and Lutropin-choriogonadotropic hormone receptor to a set of viral proteins using HHPRED. Interestingly, Prominin 1 showed similarities with 6 viral Spike glycoproteins, primarily from coronaviruses. Equally interestingly, Lutropin-choriogonadotropic hormone receptor showed similarities with 23 viral G-protein coupled receptors, particularly from Herpesvirales. We conclude that the approach described here (or similar approaches) opens up new avenues of research to better understand SARS-CoV-2 and could be used to complement virus annotations, particularly for less-studied viruses.",
+  "authors": [
+    "Brézellec P"
+  ],
+  "published_date": "2023-06-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.06.543855",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.06.543855.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR672116",
+    "raw_record": {
+      "id": "PPR672116",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR672116"
+        ]
+      },
+      "doi": "10.1101/2023.06.06.543855",
+      "title": "Re-annotation of SARS-CoV-2 proteins using an HHpred-based approach opens new opportunities for a better understanding of this virus",
+      "authorString": "Brézellec P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brézellec P",
+            "lastName": "Brézellec",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Systématique Evolution Biodiversité (ISYEB UMR 7205), Sorbonne Université, MNHN, CNRS, EPHE, UA, Paris, France"
+                },
+                {
+                  "affiliation": "Université de Versailles Saint Quentin, 45 avenue des Etats Unis, 78000 Versailles, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>  A  bstract </h4>  Since the publication of the genome of SARS-CoV-2 – the causative agent of COVID-19 – in January 2020, many bioinformatic tools have been applied to annotate its proteins. Although effcient methods have been used, such as the identification of protein domains stored in Pfam, most of the proteins of this virus have no detectable homologous protein domains outside the viral taxa. As it is now well established that some viral proteins share similarities with proteins of their hosts, we decided to explore the hypothesis that this lack of homologies could be, at least in part, the result of the documented loss of sensitivity of Pfam Hidden Markov Models (HMMs) when searching for domains in “divergent organisms”. In order to improve the annotation of SARS-CoV-2 proteins, we used the HHpred protein annotation tool. To avoid “false positive predictions” as much as possible, we designed a robustness procedure to evaluate the HHpred results. In total, 6 robust similarities involving 6 distinct SARS-CoV-2 proteins were detected. Of these 6 similarities, 3 are already known and well documented, and one is in agreement with recent crystallographic results. We then examined carefully the two similarities that have not yet been reported in the literature. We first show that the C-terminal part of Spike S (the protein that binds the virion to the cell membrane by interacting with the host receptor, triggering infection) has similarities with the human prominin-1/CD133; after reviewing what is known about prominin-1/CD133, we suggest that the C-terminal part of Spike S could both improve the docking of Spike S to ACE2 (the main cell entry receptor for SARS-CoV-2) and be involved in the delivery of virions to regions where ACE2 is located in cells. Secondly, we show that the SARS-CoV-2 ORF3a protein shares similarities with human G protein-coupled receptors (GPCRs), such as Lutropin-choriogonadotropic hormone receptor, primarily belonging to the “Rhodopsin family”. To further investigate these similarities, we compared Prominin 1 and Lutropin-choriogonadotropic hormone receptor to a set of viral proteins using HHPRED. Interestingly, Prominin 1 showed similarities with 6 viral Spike glycoproteins, primarily from coronaviruses. Equally interestingly, Lutropin-choriogonadotropic hormone receptor showed similarities with 23 viral G-protein coupled receptors, particularly from Herpesvirales. We conclude that the approach described here (or similar approaches) opens up new avenues of research to better understand SARS-CoV-2 and could be used to complement virus annotations, particularly for less-studied viruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/07/2023.06.06.543855.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.06.543855"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR672116"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR672116&type=FILE&fileName=EMS177131-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177131",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-09",
+      "firstPublicationDate": "2023-06-07",
+      "firstIndexDate": "2023-06-09",
+      "fullTextReceivedDate": "2023-06-19",
+      "hasEvaluations": "Y"
+    }
+  }
+}

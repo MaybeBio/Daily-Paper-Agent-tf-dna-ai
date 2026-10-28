@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "34038555",
+    "doi": "10.1093/nar/gkab398",
+    "title": "NetGO 2.0: improving large-scale protein function prediction with massive sequence, text, domain, family and network information."
+  },
+  "content": {
+    "abstract": "With the explosive growth of protein sequences, large-scale automated protein function prediction (AFP) is becoming challenging. A protein is usually associated with dozens of gene ontology (GO) terms. Therefore, AFP is regarded as a problem of large-scale multi-label classification. Under the learning to rank (LTR) framework, our previous NetGO tool integrated massive networks and multi-type information about protein sequences to achieve good performance by dealing with all possible GO terms (>44 000). In this work, we propose the updated version as NetGO 2.0, which further improves the performance of large-scale AFP. NetGO 2.0 also incorporates literature information by logistic regression and deep sequence information by recurrent neural network (RNN) into the framework. We generate datasets following the critical assessment of functional annotation (CAFA) protocol. Experiment results show that NetGO 2.0 outperformed NetGO significantly in biological process ontology (BPO) and cellular component ontology (CCO). In particular, NetGO 2.0 achieved a 12.6% improvement over NetGO in terms of area under precision-recall curve (AUPR) in BPO and around 2.6% in terms of $\\mathbf F_max$ in CCO. These results demonstrate the benefits of incorporating text and deep sequence information for the functional annotation of BPO and CCO. The NetGO 2.0 web server is freely available at http://issubmission.sjtu.edu.cn/ng2/.",
+    "keywords": [],
+    "mesh_terms": [
+      "CCAAT-Binding Factor/chemistry/metabolism",
+      "Caenorhabditis elegans Proteins/chemistry/metabolism",
+      "High-Throughput Nucleotide Sequencing",
+      "Neural Networks, Computer",
+      "Protein Domains",
+      "Proteins/classification/metabolism/*physiology",
+      "Sequence Analysis, Protein",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Shuwei",
+        "You, Ronghui",
+        "Wang, Shaojun",
+        "Xiong, Yi",
+        "Huang, Xiaodi",
+        "Zhu, Shanfeng"
+      ],
+      "short_names": [
+        "Yao S",
+        "You R",
+        "Wang S",
+        "Xiong Y",
+        "Huang X",
+        "Zhu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0467-8911",
+        "ORCID: 0000-0002-6067-5312"
+      ],
+      "affiliations": [
+        "School of Computer Science, Fudan University, Shanghai 200433, China.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "School of Computer Science, Fudan University, Shanghai 200433, China.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "Department of Bioinformatics and Biostatistics, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "School of Computing and Mathematics, Charles Sturt University, Albury, NSW 2640, Australia.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+        "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai 200433, China.",
+        "MOE Frontiers Center for Brain Science, Fudan University, Shanghai 200433, China.",
+        "Zhangjiang Fudan International Innovation Center, Shanghai 200433, China.",
+        "Shanghai Key Lab of Intelligent Information Processing, Fudan University, Shanghai 200433, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Shuwei",
+        "short_name": "Yao S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Fudan University, Shanghai 200433, China.",
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "You, Ronghui",
+        "short_name": "You R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Fudan University, Shanghai 200433, China.",
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaojun",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0003-0467-8911"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yi",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaodi",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Mathematics, Charles Sturt University, Albury, NSW 2640, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shanfeng",
+        "short_name": "Zhu S",
+        "identifiers": [
+          "0000-0002-6067-5312"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
+          "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai 200433, China.",
+          "MOE Frontiers Center for Brain Science, Fudan University, Shanghai 200433, China.",
+          "Zhangjiang Fudan International Innovation Center, Shanghai 200433, China.",
+          "Shanghai Key Lab of Intelligent Information Processing, Fudan University, Shanghai 200433, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Jul 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/27 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "42136025",
+      "41968197",
+      "41944419",
+      "41319045",
+      "41169711",
+      "41094150",
+      "40981204",
+      "40924541",
+      "40857391",
+      "40791336",
+      "40728615",
+      "40728612",
+      "40728611",
+      "40728606",
+      "40601261",
+      "40463264",
+      "40203090",
+      "39906415",
+      "39854283",
+      "39838963",
+      "39730886",
+      "39657158",
+      "39487084",
+      "39373052",
+      "39312678",
+      "39233898",
+      "39230707",
+      "39003530",
+      "38996351",
+      "38775729",
+      "38766535",
+      "38738636",
+      "38555371",
+      "38491038",
+      "38468234",
+      "38388682",
+      "38303023",
+      "38003686",
+      "37907681",
+      "37787768",
+      "37662252",
+      "37520281",
+      "37382560",
+      "37369035",
+      "37291492",
+      "37205418",
+      "37075830",
+      "37014394",
+      "36548439",
+      "36380380",
+      "36266246",
+      "35931779",
+      "35847949",
+      "35758802",
+      "35651937",
+      "35330478",
+      "35277174",
+      "34862760",
+      "34562305"
+    ],
+    "refs": [
+      "31744546",
+      "31350877",
+      "31106361",
+      "31073595",
+      "30395287",
+      "29883746",
+      "29522145",
+      "28472402",
+      "27924014",
+      "27604469",
+      "26519399",
+      "25378336",
+      "24451626",
+      "23933492",
+      "23353650",
+      "16112549",
+      "10802651",
+      "9254694"
+    ],
+    "similar": [
+      "34038555",
+      "31106361",
+      "37075830",
+      "29522145",
+      "29228175",
+      "29028931",
+      "32083639",
+      "27993784",
+      "34252926",
+      "29883746",
+      "32379868",
+      "23514326",
+      "35118378",
+      "36964722",
+      "26380077",
+      "26019177",
+      "33323113",
+      "25964299",
+      "17646340",
+      "34882195",
+      "31089211",
+      "31784686",
+      "32411695",
+      "29039790",
+      "33011616",
+      "29534977",
+      "23514353",
+      "17090318",
+      "28245811",
+      "28451967",
+      "30941889",
+      "18655063",
+      "22641853",
+      "17570145",
+      "23514456",
+      "29741643",
+      "31073595",
+      "31787089",
+      "25979264",
+      "33183227",
+      "31197306",
+      "24093723",
+      "15929793",
+      "21671271",
+      "31593229",
+      "33230427",
+      "28057683",
+      "26318087",
+      "24237261",
+      "15383839",
+      "30477892",
+      "15647299",
+      "31416555",
+      "32920048",
+      "26581084",
+      "28056090",
+      "38980781",
+      "12824400",
+      "29098713",
+      "32227201",
+      "29490010",
+      "17140269",
+      "29293953",
+      "33095174",
+      "26164062",
+      "26634993",
+      "22962465",
+      "31459527",
+      "37382560"
+    ],
+    "review": [
+      "34038555"
+    ],
+    "pmc": [
+      "8262706"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34038555/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34038555",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34038555",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab398",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

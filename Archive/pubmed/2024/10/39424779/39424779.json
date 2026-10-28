@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "pmid": "39424779",
+    "doi": "10.1038/s41467-024-52706-7",
+    "title": "TDP43 aggregation at ER-exit sites impairs ER-to-Golgi transport."
+  },
+  "content": {
+    "abstract": "Protein aggregation plays key roles in age-related degenerative diseases, but how different proteins coalesce to form inclusions that vary in composition, morphology, molecular dynamics and confer physiological consequences is poorly understood. Here we employ a general reporter based on mutant Hsp104 to identify proteins forming aggregates in human cells under common proteotoxic stress. We identify over 300 proteins that form different inclusions containing subsets of aggregating proteins. In particular, TDP43, implicated in Amyotrophic Lateral Sclerosis (ALS), partitions dynamically between two distinct types of aggregates: stress granule and a previously unknown non-dynamic (solid-like) inclusion at the ER exit sites (ERES). TDP43-ERES co-aggregation is induced by diverse proteotoxic stresses and observed in the motor neurons of ALS patients. Such aggregation causes retention of secretory cargos at ERES and therefore delays ER-to-Golgi transport, providing a link between TDP43 aggregation and compromised cellular function in ALS patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Golgi Apparatus/metabolism",
+      "*Endoplasmic Reticulum/metabolism",
+      "*Amyotrophic Lateral Sclerosis/metabolism/genetics/pathology",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Protein Transport",
+      "Protein Aggregates",
+      "Motor Neurons/metabolism",
+      "HeLa Cells",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Hongyi",
+        "Wang, Loo Chien",
+        "Sow, Belle M",
+        "Leow, Damien",
+        "Zhu, Jin",
+        "Gallo, Kathryn M",
+        "Wilsbach, Kathleen",
+        "Gupta, Roshni",
+        "Ostrow, Lyle W",
+        "Yeo, Crystal J J",
+        "Sobota, Radoslaw M",
+        "Li, Rong"
+      ],
+      "short_names": [
+        "Wu H",
+        "Wang LC",
+        "Sow BM",
+        "Leow D",
+        "Zhu J",
+        "Gallo KM",
+        "Wilsbach K",
+        "Gupta R",
+        "Ostrow LW",
+        "Yeo CJJ",
+        "Sobota RM",
+        "Li R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3233-8079",
+        "ORCID: 0009-0001-1996-4964",
+        "ORCID: 0000-0001-7158-5243",
+        "ORCID: 0000-0002-2455-2526",
+        "ORCID: 0000-0002-0540-6566"
+      ],
+      "affiliations": [
+        "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore.",
+        "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore.",
+        "Department of Anatomy, Yong Loo-Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore.",
+        "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA.",
+        "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA.",
+        "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore.",
+        "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA.",
+        "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "National Neuroscience Institute, Singapore, Singapore.",
+        "Duke-NUS Medical School, Singapore, Singapore.",
+        "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Neurology, Feinberg School of Medicine, Northwestern University, Evanston, IL, USA.",
+        "School of Medicine, Medical Sciences and Nutrition, University of Aberdeen, Aberdeen, Scotland, UK.",
+        "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore. mbihead@nus.edu.sg.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore. mbihead@nus.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Hongyi",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Wang, Loo Chien",
+        "short_name": "Wang LC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Sow, Belle M",
+        "short_name": "Sow BM",
+        "identifiers": [
+          "0000-0002-3233-8079"
+        ],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Leow, Damien",
+        "short_name": "Leow D",
+        "identifiers": [
+          "0009-0001-1996-4964"
+        ],
+        "affiliations": [
+          "Department of Anatomy, Yong Loo-Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jin",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Gallo, Kathryn M",
+        "short_name": "Gallo KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+          "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Wilsbach, Kathleen",
+        "short_name": "Wilsbach K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+          "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Roshni",
+        "short_name": "Gupta R",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ostrow, Lyle W",
+        "short_name": "Ostrow LW",
+        "identifiers": [
+          "0000-0001-7158-5243"
+        ],
+        "affiliations": [
+          "Department of Neurology, School of Medicine, Johns Hopkins University, Baltimore, MD, USA.",
+          "Department of Neurology, Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Yeo, Crystal J J",
+        "short_name": "Yeo CJJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+          "National Neuroscience Institute, Singapore, Singapore.",
+          "Duke-NUS Medical School, Singapore, Singapore.",
+          "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+          "Department of Neurology, Feinberg School of Medicine, Northwestern University, Evanston, IL, USA.",
+          "School of Medicine, Medical Sciences and Nutrition, University of Aberdeen, Aberdeen, Scotland, UK."
+        ]
+      },
+      {
+        "full_name": "Sobota, Radoslaw M",
+        "short_name": "Sobota RM",
+        "identifiers": [
+          "0000-0002-2455-2526"
+        ],
+        "affiliations": [
+          "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Li, Rong",
+        "short_name": "Li R",
+        "identifiers": [
+          "0000-0002-0540-6566"
+        ],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore (NUS), Singapore, Singapore. mbihead@nus.edu.sg.",
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore. mbihead@nus.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/19 16:23",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "42254864",
+      "42067620",
+      "41331940",
+      "40901980",
+      "40901879",
+      "40899516",
+      "40812417",
+      "40730570",
+      "40137226",
+      "40068516"
+    ],
+    "refs": [
+      "37919089",
+      "37884645",
+      "37672657",
+      "37643612",
+      "37254647",
+      "36967829",
+      "36732333",
+      "36325988",
+      "36181361",
+      "35697676",
+      "35691613",
+      "35654950",
+      "35305079",
+      "35294549",
+      "35045337",
+      "34930382",
+      "34880495",
+      "34873335",
+      "34545808",
+      "34294532",
+      "34161776",
+      "34032984",
+      "33852913",
+      "33814344",
+      "33688043",
+      "33493989",
+      "33237329",
+      "33217318",
+      "33184465",
+      "32799899",
+      "32541677",
+      "32526057",
+      "31802140",
+      "31570887",
+      "31519910",
+      "31429971",
+      "30938443",
+      "30837838",
+      "30826182",
+      "30733602",
+      "30612121",
+      "30368521",
+      "30304445",
+      "30250260",
+      "30120348",
+      "30038021",
+      "29944854",
+      "29878075",
+      "29400714",
+      "29311743",
+      "29129640",
+      "28879181",
+      "28521037",
+      "28489421",
+      "28377462",
+      "27999437",
+      "27838525",
+      "27602576",
+      "27478928",
+      "26777405",
+      "26735904",
+      "26412307",
+      "26317470",
+      "26298469",
+      "25622108",
+      "25417105",
+      "25386913",
+      "25223628",
+      "25111021",
+      "25092318",
+      "24843142",
+      "24439375",
+      "24424030",
+      "24324498",
+      "23791384",
+      "23141537",
+      "23022486",
+      "22967507",
+      "22761693",
+      "22743772",
+      "22455463",
+      "22406856",
+      "22199352",
+      "22118470",
+      "22022600",
+      "21850253",
+      "21252941",
+      "21123396",
+      "21062285",
+      "20948999",
+      "20571586",
+      "20141839",
+      "19922118",
+      "19850039",
+      "19768774",
+      "19383787",
+      "18725537",
+      "18546284",
+      "18519638",
+      "18346115",
+      "17908928",
+      "17716997",
+      "17546037",
+      "17469116",
+      "17005010",
+      "16756495",
+      "16740119",
+      "16675447",
+      "16135516",
+      "15283924",
+      "14675537",
+      "12511861",
+      "11179900",
+      "11121744",
+      "9864362",
+      "9166401",
+      "2725500",
+      "886304"
+    ],
+    "similar": [
+      "39424779",
+      "26298469",
+      "23765103",
+      "24134191",
+      "31802140",
+      "38722513",
+      "24312274",
+      "29630989",
+      "23172909",
+      "22493728",
+      "31714900",
+      "30721407",
+      "32142134",
+      "26757674",
+      "20008544",
+      "21168498",
+      "15805489",
+      "25409455",
+      "25540196",
+      "30806671",
+      "27097283",
+      "29395044",
+      "39870504",
+      "25201882",
+      "37993492",
+      "30304445",
+      "29987190",
+      "36614144",
+      "38395965",
+      "24154542",
+      "27321923",
+      "18817524",
+      "29409023",
+      "21834058",
+      "33314495",
+      "39106308",
+      "28622300",
+      "30745341",
+      "17804640",
+      "33386850",
+      "23736259",
+      "23281774",
+      "27150076",
+      "25859013",
+      "17481916",
+      "19183264",
+      "36325988",
+      "26108573",
+      "28486929",
+      "33654312",
+      "39948244",
+      "32040555",
+      "20448480",
+      "23320755",
+      "15239949",
+      "30442180",
+      "28632899",
+      "40063831",
+      "24974230",
+      "38840222",
+      "33097688",
+      "22792062",
+      "29545601",
+      "18233996",
+      "34525362",
+      "15208385",
+      "32328626",
+      "38954254",
+      "37450246",
+      "38860943",
+      "11741389",
+      "31108504",
+      "33852719",
+      "34597321",
+      "22467862",
+      "38377779",
+      "32391572",
+      "17925878",
+      "25788357",
+      "24922074",
+      "25526708",
+      "25202031",
+      "24728174",
+      "22611258",
+      "11696556",
+      "31472037",
+      "34412568",
+      "35938214",
+      "29562314",
+      "28280122",
+      "27500526",
+      "20560784",
+      "17005010",
+      "25559081",
+      "39352497",
+      "29913562",
+      "39401249",
+      "30917850",
+      "31626953",
+      "21541367"
+    ],
+    "review": [
+      "39424779",
+      "30721407",
+      "29395044",
+      "30304445",
+      "36614144",
+      "21834058",
+      "27150076",
+      "33654312",
+      "15239949",
+      "34412568",
+      "20560784"
+    ],
+    "pmc": [
+      "11489672"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://ccr.coriell.org/Sections/Search/PubSamples.aspx?PgId=516&id=39424779&lvl=0",
+        "provider": "Coriell Cell Repositories",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52706-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39424779/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41764744",
+    "doi": "10.1093/jimmun/vkaf347",
+    "title": "IFNgamma/JAK/STAT1/CD38 pathway in SH2D1Bhigh NK cells: Implications for inflammation in type 1 diabetes."
+  },
+  "content": {
+    "abstract": "Type 1 diabetes (T1D) is a genetic autoimmune disease in children and young adults, with no cure, emphasizing the need for novel genetic-based therapies. Differential analysis using the \"Limma\" package identified 42 upregulated genes in the peripheral blood of T1D patients. Gene Ontology/Kyoto Encyclopedia of Genes and Genomes analysis suggested that CD38 may contribute to T1D development. LASSO (least absolute shrinkage and selection operator) machine learning successfully screened EMOES, SH2D1B, and TRDV3 from these upregulated genes. We selected SH2D1B, which is included in our natural killer cell-mediated cytotoxicity-related genes gene set, for further protein interaction network analysis, the analysis results revealed a highly correlated network of LY9, SH2D1B, CD244, and SLAMF6. Through immune infiltration analysis, we demonstrated resting natural killer (NK) cells and monocyte migration were upregulated, both were significantly related to the expression levels of LY9, SH2D1B, and CD244. Single-cell RNA sequencing analysis showed that both SH2D1B and CD244 were enriched in NK cells, and SH2D1B has the potential to modulate the function of NK cells. Subsequently, We performed gene set enrichment analysis with SH2D1B grouped into SH2D1Bhigh NK cells, SH2D1Blow NK cells, and SH2D1B- NK cells, which showed that the gene set related to the response to IFNgamma is enriched in SH2D1Bhigh NK cells. With the analysis results, we performed differential expression analysis and validated the results by Western blotting. Finally, we identified activation of the IFNgamma/JAK1/STAT/CD38 pathway in SH2D1Bhigh NK cells. Our findings suggest that SH2D1Bhigh NK cells may produce adenosine by IFNgamma/JAK1/STAT/CD38, to limit autoimmunity and presumably disease development.",
+    "keywords": [
+      "NK cells",
+      "SH2D1B",
+      "type 1 diabetes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Killer Cells, Natural/immunology/metabolism",
+      "*Diabetes Mellitus, Type 1/immunology/metabolism",
+      "*Interferon-gamma/metabolism",
+      "ADP-ribosyl Cyclase 1/metabolism",
+      "*STAT1 Transcription Factor/metabolism",
+      "Signal Transduction/immunology",
+      "*Inflammation/immunology",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiahui",
+        "Fu, Linghua",
+        "Gong, Yipeng",
+        "Liao, Le",
+        "Yu, Wanqian",
+        "Yu, Peng",
+        "Xu, Gaosi",
+        "Yang, Pingping"
+      ],
+      "short_names": [
+        "Chen J",
+        "Fu L",
+        "Gong Y",
+        "Liao L",
+        "Yu W",
+        "Yu P",
+        "Xu G",
+        "Yang P"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-3066-3917"
+      ],
+      "affiliations": [
+        "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Cardiovascular Medicine, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Nephrology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Cardiovascular Medicine, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Nephrology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiahui",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+          "Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Linghua",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Yipeng",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Le",
+        "short_name": "Liao L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wanqian",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Peng",
+        "short_name": "Yu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Gaosi",
+        "short_name": "Xu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pingping",
+        "short_name": "Yang P",
+        "identifiers": [
+          "0009-0009-3066-3917"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunology (Baltimore, Md. : 1950)"
+    ],
+    "journal_abbrev": [
+      "J Immunol"
+    ],
+    "pub_date": "2026 Feb 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/01 19:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42479454"
+    ],
+    "refs": [],
+    "similar": [
+      "41764744",
+      "39182484",
+      "38755717",
+      "39713769",
+      "31231385",
+      "41425544",
+      "39586719",
+      "40298450",
+      "40554097",
+      "39139741",
+      "36245253",
+      "41378005",
+      "40650701",
+      "21270236",
+      "41622228",
+      "39194253",
+      "42292426",
+      "34311758",
+      "41640571",
+      "21898483",
+      "41310117",
+      "32035746",
+      "41325163",
+      "33569058",
+      "42267557",
+      "25577895",
+      "31077146",
+      "41601671",
+      "20408863",
+      "35709926",
+      "11895784",
+      "35713363",
+      "41213067",
+      "33491334",
+      "24177169",
+      "41990066",
+      "18762240",
+      "35135865",
+      "31661005",
+      "23107828",
+      "42317356",
+      "17623099",
+      "20554341",
+      "38634972",
+      "41948344",
+      "41566069",
+      "38951833",
+      "41826854",
+      "37359526",
+      "39375405",
+      "42009166",
+      "33587435",
+      "32844992",
+      "15805294",
+      "39853176",
+      "38464509",
+      "40966855",
+      "11714782",
+      "31849037",
+      "39736644",
+      "29401578",
+      "41146237",
+      "22323498",
+      "39032911",
+      "30455079",
+      "38245792",
+      "11301190",
+      "17016440",
+      "30388265",
+      "18305035",
+      "39340997",
+      "35278479",
+      "39849490",
+      "38384969",
+      "23891168",
+      "31919623",
+      "17846149",
+      "23300570",
+      "37435067",
+      "21258414",
+      "39670237",
+      "32044149",
+      "41388523",
+      "35958546",
+      "40909263",
+      "40406620",
+      "42216376",
+      "37063851",
+      "12759422",
+      "37440828",
+      "17875674",
+      "42044494",
+      "19307993",
+      "40861493",
+      "40263537",
+      "22547395",
+      "36829193",
+      "27153543",
+      "42023209",
+      "33679757"
+    ],
+    "review": [
+      "41764744",
+      "42292426",
+      "41213067"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype1.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 1"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1251",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jimmunol/article-lookup/doi/10.1093/jimmun/vkaf347",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "40540059",
+    "doi": "10.1007/s10522-025-10263-6",
+    "title": "The impact of dietary restriction on transcriptional profiles of hematopoietic stem cells in aged female mice."
+  },
+  "content": {
+    "abstract": "This study investigates the impact of dietary restriction (DR) on gene expression in hematopoietic stem cells (HSCs) derived from aged mice. RNA sequencing (RNA-seq) data were obtained from sorted HSCs, followed by weighted gene co-expression network analysis (WGCNA) to identify differentially expressed genes (DEGs) and key transcriptional modules. Principal component analysis (PCA) and heatmaps revealed significant differences between the groups, highlighting a predominant upregulation of gene expression during aging and a more suppressive gene expression profile under DR. Functional enrichment analysis indicated that the aging process in HSCs is characterized by enhanced expression of genes associated with inflammatory responses and DNA damage, whereas DR significantly reduced gene expression related to immune responses, protein quality control, and cellular stress responses. Additionally, our analysis identified key transcription factors (TFs), such as Gata2, Klf16, and Runx3, which likely mediate the gene expression changes observed under DR. These TFs are implicated in critical processes, including signal transduction, transcriptional regulation, and cellular responses to DNA damage. Furthermore, machine learning algorithms identified Gnptg as a key hub gene associated with programmed cell death (PCD) in HSC aging with its gene products maintaining lysosomal homeostasis. DR reduced lysosomal numbers and preserved lysosomal membrane integrity in aging HSCs, suggesting that lysosomal dysfunction contributes to HSC aging. Overall, DR induces a distinct transcriptional landscape in aged HSCs, suggesting a protective role by reducing harmful gene expression linked to inflammation, DNA damage, apoptosis, and stress responses, thereby maintaining HSC function during aging.",
+    "keywords": [
+      "Aging",
+      "Dietary restriction",
+      "Hematopoietic stem cells",
+      "RNA-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hematopoietic Stem Cells/metabolism",
+      "Female",
+      "Mice",
+      "*Caloric Restriction",
+      "*Aging/genetics",
+      "*Transcriptome",
+      "Mice, Inbred C57BL",
+      "Gene Expression Regulation",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Chenghui",
+        "Qiu, Xingxing",
+        "Tao, Si",
+        "Wu, Yuanyuan",
+        "He, Siyao",
+        "Wang, Qiao",
+        "Tang, Duozhuang",
+        "Wang, Yiting"
+      ],
+      "short_names": [
+        "Yu C",
+        "Qiu X",
+        "Tao S",
+        "Wu Y",
+        "He S",
+        "Wang Q",
+        "Tang D",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China.",
+        "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China.",
+        "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+        "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy11234@ncu.edu.cn.",
+        "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy11234@ncu.edu.cn.",
+        "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy20408@ncu.edu.cn.",
+        "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy20408@ncu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Chenghui",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China.",
+          "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xingxing",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+          "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Si",
+        "short_name": "Tao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+          "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuanyuan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+          "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "He, Siyao",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+          "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiao",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China.",
+          "Jiangxi Key Laboratory of Clinical and Translational Cancer Research, Department of Oncology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Min-De Road. 1, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Duozhuang",
+        "short_name": "Tang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy11234@ncu.edu.cn.",
+          "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy11234@ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yiting",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy20408@ncu.edu.cn.",
+          "Jiangxi Provincial Key Laboratory of Hematological Diseases (2024SSY06052), Department of Hematology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Jiangxi, China. ndefy20408@ncu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biogerontology"
+    ],
+    "journal_abbrev": [
+      "Biogerontology"
+    ],
+    "pub_date": "2025 Jun 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/20 12:27",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "41599859"
+    ],
+    "refs": [
+      "40259142",
+      "40119993",
+      "39404375",
+      "38965147",
+      "38403095",
+      "37474375",
+      "36341760",
+      "35941268",
+      "34555343",
+      "34183063",
+      "33876187",
+      "33554240",
+      "33228751",
+      "33023972",
+      "32935456",
+      "32252797",
+      "32109414",
+      "32109377",
+      "31983316",
+      "31401701",
+      "30204897",
+      "30125440",
+      "29997288",
+      "29804201",
+      "29575576",
+      "27890642",
+      "26951333",
+      "26947122",
+      "26596563",
+      "25792330",
+      "25751142",
+      "25707806",
+      "25622253",
+      "24813857",
+      "24504160",
+      "23584423",
+      "22722868",
+      "22560075",
+      "22110168",
+      "21715386",
+      "20628827",
+      "19114008",
+      "18295583",
+      "17947508",
+      "14585375",
+      "11067876",
+      "2520283"
+    ],
+    "similar": [
+      "40540059",
+      "26208102",
+      "42074497",
+      "40872306",
+      "34939923",
+      "31514170",
+      "41107929",
+      "24138668",
+      "41720793",
+      "38394540",
+      "40281518",
+      "29891535",
+      "24889652",
+      "41806693",
+      "42059276",
+      "27958775",
+      "34605522",
+      "22812478",
+      "30641220",
+      "24906921",
+      "26430063",
+      "32935456",
+      "38598841",
+      "34330884",
+      "33120278",
+      "34715054",
+      "42004709",
+      "24710559",
+      "42158856",
+      "40192736",
+      "22006020",
+      "41043641",
+      "41993614",
+      "19968875",
+      "40948769",
+      "41816342",
+      "38558817",
+      "40038750",
+      "30409225",
+      "32384151",
+      "41224720",
+      "41543555",
+      "40216809",
+      "34737755",
+      "40569117",
+      "41148847",
+      "33876187",
+      "35289070",
+      "41289991",
+      "26951333",
+      "40605747",
+      "40467768",
+      "24446131",
+      "36629404",
+      "40589764",
+      "30388136",
+      "35231105",
+      "30540934",
+      "40659785",
+      "40532306",
+      "36219686",
+      "41398680",
+      "41789070",
+      "40296690",
+      "39697326",
+      "40967560",
+      "23949429",
+      "27083004",
+      "12623852",
+      "41052072",
+      "41006377",
+      "37178875",
+      "26909367",
+      "41878449",
+      "34856364",
+      "39512836",
+      "28761001",
+      "41089260",
+      "30021172",
+      "42123445",
+      "39343910",
+      "38334462",
+      "38965147",
+      "39634176",
+      "31679686",
+      "33174606",
+      "39390312",
+      "39384856",
+      "40350654",
+      "40503237",
+      "42006143",
+      "40725500",
+      "31615521",
+      "41851123",
+      "29262330",
+      "14585375",
+      "26387834",
+      "42136644",
+      "32499402",
+      "40196107"
+    ],
+    "review": [
+      "40540059",
+      "40467768"
+    ],
+    "pmc": [
+      "12181131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40540059/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10522-025-10263-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2710",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

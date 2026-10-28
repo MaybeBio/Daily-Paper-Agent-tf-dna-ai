@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "33937409",
+    "doi": "10.1155/2021/6667201",
+    "title": "Predicting Ovarian/Breast Cancer Pathogenic Risks of Human BRCA1 Gene Variants of Unknown Significance."
+  },
+  "content": {
+    "abstract": "High-throughput sequencing is gaining popularity in clinical diagnoses, but more and more novel gene variants with unknown clinical significance are being found, giving difficulties to interpretations of people's genetic data, precise disease diagnoses, and the making of therapeutic strategies and decisions. In order to solve these issues, it is of critical importance to figure out ways to analyze and interpret such variants. In this work, BRCA1 gene variants with unknown clinical significance were identified from clinical sequencing data, and then, we developed machine learning models so as to predict the pathogenicity for variants with unknown clinical significance. Through performance benchmarking, we found that the optimized random forest model scored 0.85 in area under receiver operating characteristic curve, which outperformed other models. Finally, we applied the best random forest model to predict the pathogenicity of 6321 BRCA1 variants from both sequencing data and ClinVar database. As a result, we obtained the predictive pathogenic risks of BRCA1 variants of unknown significance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "BRCA1 Protein/*genetics",
+      "Breast Neoplasms/*diagnosis/*genetics",
+      "Female",
+      "*Genetic Predisposition to Disease",
+      "*Genetic Variation",
+      "Humans",
+      "Models, Genetic",
+      "Ovarian Neoplasms/*diagnosis/*genetics",
+      "ROC Curve",
+      "Risk Factors",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Hui-Heng",
+        "Xu, Hongyan",
+        "Hu, Hongbo",
+        "Ma, Zhanzhong",
+        "Zhou, Jie",
+        "Liang, Qingyun"
+      ],
+      "short_names": [
+        "Lin HH",
+        "Xu H",
+        "Hu H",
+        "Ma Z",
+        "Zhou J",
+        "Liang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4060-7336",
+        "ORCID: 0000-0003-2402-0973"
+      ],
+      "affiliations": [
+        "Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China.",
+        "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China.",
+        "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China.",
+        "Clinical Laboratory, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China.",
+        "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China.",
+        "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Hui-Heng",
+        "short_name": "Lin HH",
+        "identifiers": [
+          "0000-0003-4060-7336"
+        ],
+        "affiliations": [
+          "Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hongyan",
+        "short_name": "Xu H",
+        "identifiers": [
+          "0000-0003-2402-0973"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hongbo",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zhanzhong",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Qingyun",
+        "short_name": "Liang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Yuebei People's Hospital, Shantou University Medical College, Shaoguan 512025, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/04 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "38149678"
+    ],
+    "refs": [
+      "31885044",
+      "31691826",
+      "28039444",
+      "27641752",
+      "27268795",
+      "26582918",
+      "25958395",
+      "24168967",
+      "23315928",
+      "22737296",
+      "20944665",
+      "19814784",
+      "16103751",
+      "16096348",
+      "15461798",
+      "12824425",
+      "11896095",
+      "11877378",
+      "11573079",
+      "11474660",
+      "11377596",
+      "11353843",
+      "11125122",
+      "11041682",
+      "9988281",
+      "2270482"
+    ],
+    "similar": [
+      "33937409",
+      "29996917",
+      "24607278",
+      "31336956",
+      "21965345",
+      "30725392",
+      "32862574",
+      "28477318",
+      "31112341",
+      "29302806",
+      "31368036",
+      "32486089",
+      "29161300",
+      "30415210",
+      "25948282",
+      "27495310",
+      "26153499",
+      "12955719",
+      "32772980",
+      "27039803",
+      "31409081",
+      "33428613",
+      "30606148",
+      "29580235",
+      "30458859",
+      "20215541",
+      "28364669",
+      "27928164",
+      "22753008",
+      "31395037",
+      "32761968",
+      "28807866",
+      "28589637",
+      "29215753",
+      "25556971",
+      "16965326",
+      "27025497",
+      "24700448",
+      "32483276",
+      "28822785",
+      "27741520",
+      "30506513",
+      "29797126",
+      "12448327",
+      "32180084",
+      "29801090",
+      "29297111",
+      "23867111",
+      "16616110",
+      "15689452",
+      "16847550",
+      "15829246",
+      "29275357",
+      "29470806",
+      "27633797",
+      "25085752",
+      "18007543",
+      "17221156",
+      "24797986",
+      "17688236",
+      "11157798",
+      "31144781",
+      "32916545",
+      "33761318",
+      "35453737",
+      "32176384",
+      "31799076",
+      "38149678",
+      "34078042",
+      "32244891",
+      "36809442",
+      "37317969"
+    ],
+    "review": [
+      "33937409",
+      "26153499",
+      "31409081",
+      "22753008",
+      "28822785",
+      "15829246"
+    ],
+    "pmc": [
+      "8062186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33937409/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33937409",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/6667201",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33937409",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

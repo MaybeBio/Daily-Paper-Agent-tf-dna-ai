@@ -1,0 +1,304 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.18.585509",
+  "title": "Exploring structural diversity across the protein universe with The Encyclopedia of Domains",
+  "doi": "10.1101/2024.03.18.585509",
+  "abstract": "The AlphaFold Protein Structure Database (AFDB) contains full-length predictions of the three-dimensional structures of almost every protein in UniProt. Because protein function is closely linked to structure, the AFDB is poised to revolutionise our understanding of biology, evolution and more. Protein structures are composed of domains, independently folding units that can be found in multiple structural contexts and functional roles. The AFDB’s potential remains untapped due to the difficulty of characterising 200 million structures. Here we present The Encyclopedia of Domains or TED, which combines state-of-the-art deep learning-based domain parsing and structure comparison algorithms to segment and classify domains across the whole AFDB. TED describes over 370 million domains, over 100 million more than detectable by sequence-based methods. Nearly 80% of TED domains share similarities to known superfamilies in CATH, greatly expanding the set of known protein structural domains. We uncover over 10,000 previously unseen structural interactions between superfamilies, expand domain coverage to over 1 million taxa, and unveil thousands of architectures and folds across the unexplored continuum of protein fold space. We expect TED to be a valuable resource that provides a functional interface to the AFDB, empowering it to be useful for a multitude of downstream analyses.",
+  "authors": [
+    "Lau AM",
+    "Bordin N",
+    "Kandathil SM",
+    "Sillitoe I",
+    "Waman VP",
+    "Wells J",
+    "Orengo CA",
+    "Jones DT"
+  ],
+  "published_date": "2024-03-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.18.585509",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.18.585509.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR825485",
+    "raw_record": {
+      "id": "PPR825485",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR825485"
+        ]
+      },
+      "doi": "10.1101/2024.03.18.585509",
+      "title": "Exploring structural diversity across the protein universe with The Encyclopedia of Domains",
+      "authorString": "Lau AM, Bordin N, Kandathil SM, Sillitoe I, Waman VP, Wells J, Orengo CA, Jones DT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lau AM",
+            "lastName": "Lau",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0572-7826"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bordin N",
+            "lastName": "Bordin",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6568-9035"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kandathil SM",
+            "lastName": "Kandathil",
+            "initials": "SM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2671-2140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sillitoe I",
+            "lastName": "Sillitoe",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1091-9144"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waman VP",
+            "lastName": "Waman",
+            "initials": "VP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wells J",
+            "lastName": "Wells",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5358-2310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                },
+                {
+                  "affiliation": "Centre for Artificial Intelligence, University College London, London, WC1V 6BH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orengo CA",
+            "lastName": "Orengo",
+            "initials": "CA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7141-8936"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones DT",
+            "lastName": "Jones",
+            "initials": "DT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University College London, London, WC1E 6BT, UK"
+                },
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, WC1E 6BT, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2671-2140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5358-2310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6568-9035"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7141-8936"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0572-7826"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1091-9144"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The AlphaFold Protein Structure Database (AFDB) contains full-length predictions of the three-dimensional structures of almost every protein in UniProt. Because protein function is closely linked to structure, the AFDB is poised to revolutionise our understanding of biology, evolution and more. Protein structures are composed of domains, independently folding units that can be found in multiple structural contexts and functional roles. The AFDB’s potential remains untapped due to the difficulty of characterising 200 million structures. Here we present The Encyclopedia of Domains or TED, which combines state-of-the-art deep learning-based domain parsing and structure comparison algorithms to segment and classify domains across the whole AFDB. TED describes over 370 million domains, over 100 million more than detectable by sequence-based methods. Nearly 80% of TED domains share similarities to known superfamilies in CATH, greatly expanding the set of known protein structural domains. We uncover over 10,000 previously unseen structural interactions between superfamilies, expand domain coverage to over 1 million taxa, and unveil thousands of architectures and folds across the unexplored continuum of protein fold space. We expect TED to be a valuable resource that provides a functional interface to the AFDB, empowering it to be useful for a multitude of downstream analyses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W008556/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221327/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T019409/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/19/2024.03.18.585509.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.18.585509"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR825485"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR825485&type=FILE&fileName=EMS194943-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39480926",
+            "reference": "Science (New York, N.Y.). 2024 Nov;386(6721):eadq4946",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 8,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194943",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-03-23",
+      "firstPublicationDate": "2024-03-19",
+      "firstIndexDate": "2024-03-23",
+      "fullTextReceivedDate": "2024-04-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

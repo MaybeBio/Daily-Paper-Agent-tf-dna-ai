@@ -1,0 +1,779 @@
+{
+  "identity": {
+    "pmid": "38207230",
+    "doi": "10.1200/JCO.23.00580",
+    "title": "Genomic and Immunophenotypic Landscape of Acquired Resistance to PD-(L)1 Blockade in Non-Small-Cell Lung Cancer."
+  },
+  "content": {
+    "abstract": "PURPOSE: Although immune checkpoint inhibitors (ICI) have extended survival in patients with non-small-cell lung cancer (NSCLC), acquired resistance (AR) to ICI frequently develops after an initial benefit. However, the mechanisms of AR to ICI in NSCLC are largely unknown. METHODS: Comprehensive tumor genomic profiling, machine learning-based assessment of tumor-infiltrating lymphocytes, multiplexed immunofluorescence, and/or HLA-I immunohistochemistry (IHC) were performed on matched pre- and post-ICI tumor biopsies from patients with NSCLC treated with ICI at the Dana-Farber Cancer Institute who developed AR to ICI. Two additional cohorts of patients with intervening chemotherapy or targeted therapies between biopsies were included as controls. RESULTS: We performed comprehensive genomic profiling and immunophenotypic characterization on samples from 82 patients with NSCLC and matched pre- and post-ICI biopsies and compared findings with a control cohort of patients with non-ICI intervening therapies between biopsies (chemotherapy, N = 32; targeted therapies, N = 89; both, N = 17). Putative resistance mutations were identified in 27.8% of immunotherapy-treated cases and included acquired loss-of-function mutations in STK11, B2M, APC, MTOR, KEAP1, and JAK1/2; these acquired alterations were not observed in the control groups. Immunophenotyping of matched pre- and post-ICI samples demonstrated significant decreases in intratumoral lymphocytes, CD3e(+) and CD8a(+) T cells, and PD-L1-PD1 engagement, as well as increased distance between tumor cells and CD8(+)PD-1(+) T cells. There was a significant decrease in HLA class I expression in the immunotherapy cohort at the time of AR compared with the chemotherapy (P = .005) and the targeted therapy (P = .01) cohorts. CONCLUSION: These findings highlight the genomic and immunophenotypic heterogeneity of ICI resistance in NSCLC, which will need to be considered when developing novel therapeutic strategies aimed at overcoming resistance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Antineoplastic Agents, Immunological/therapeutic use",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/genetics/pathology",
+      "Genomics",
+      "Immunophenotyping",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "*Lung Neoplasms/drug therapy/genetics/pathology",
+      "NF-E2-Related Factor 2/metabolism/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ricciuti, Biagio",
+        "Lamberti, Giuseppe",
+        "Puchala, Sreekar R",
+        "Mahadevan, Navin R",
+        "Lin, Jia-Ren",
+        "Alessi, Joao V",
+        "Chowdhury, Alexander",
+        "Li, Yvonne Y",
+        "Wang, Xinan",
+        "Spurr, Liam",
+        "Pecci, Federica",
+        "Di Federico, Alessandro",
+        "Venkatraman, Deepti",
+        "Barrichello, Adriana P",
+        "Gandhi, Malini",
+        "Vaz, Victor R",
+        "Pangilinan, Andy J",
+        "Haradon, Danielle",
+        "Lee, Elinton",
+        "Gupta, Hersh",
+        "Pfaff, Kathleen L",
+        "Welsh, Emma L",
+        "Nishino, Mizuki",
+        "Cherniack, Andrew D",
+        "Johnson, Bruce E",
+        "Weirather, Jason L",
+        "Dryg, Ian D",
+        "Rodig, Scott J",
+        "Sholl, Lynette M",
+        "Sorger, Peter",
+        "Santagata, Sandro",
+        "Umeton, Renato",
+        "Awad, Mark M"
+      ],
+      "short_names": [
+        "Ricciuti B",
+        "Lamberti G",
+        "Puchala SR",
+        "Mahadevan NR",
+        "Lin JR",
+        "Alessi JV",
+        "Chowdhury A",
+        "Li YY",
+        "Wang X",
+        "Spurr L",
+        "Pecci F",
+        "Di Federico A",
+        "Venkatraman D",
+        "Barrichello AP",
+        "Gandhi M",
+        "Vaz VR",
+        "Pangilinan AJ",
+        "Haradon D",
+        "Lee E",
+        "Gupta H",
+        "Pfaff KL",
+        "Welsh EL",
+        "Nishino M",
+        "Cherniack AD",
+        "Johnson BE",
+        "Weirather JL",
+        "Dryg ID",
+        "Rodig SJ",
+        "Sholl LM",
+        "Sorger P",
+        "Santagata S",
+        "Umeton R",
+        "Awad MM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0651-2678",
+        "ORCID: 0000-0003-3069-7630",
+        "ORCID: 0000-0002-6805-8861",
+        "ORCID: 0000-0002-8072-5946",
+        "ORCID: 0000-0001-8877-4315",
+        "ORCID: 0000-0003-1633-8236",
+        "ORCID: 0000-0002-8006-4148",
+        "ORCID: 0000-0002-5136-6403",
+        "ORCID: 0000-0003-3311-5384",
+        "ORCID: 0009-0009-7345-5106",
+        "ORCID: 0000-0003-0275-0502",
+        "ORCID: 0000-0002-5252-3677",
+        "ORCID: 0000-0003-0556-0616",
+        "ORCID: 0000-0001-6173-2000",
+        "ORCID: 0000-0002-9532-9735",
+        "ORCID: 0000-0002-3364-1838",
+        "ORCID: 0000-0002-5561-6932",
+        "ORCID: 0000-0003-0928-5244"
+      ],
+      "affiliations": [
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+        "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "Harvard School of Public Health, Boston, MA.",
+        "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Radiology, Brigham and Women's Hospital, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+        "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA.",
+        "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+        "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+        "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA.",
+        "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+        "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA.",
+        "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+        "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ricciuti, Biagio",
+        "short_name": "Ricciuti B",
+        "identifiers": [
+          "0000-0002-0651-2678"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Lamberti, Giuseppe",
+        "short_name": "Lamberti G",
+        "identifiers": [
+          "0000-0003-3069-7630"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Puchala, Sreekar R",
+        "short_name": "Puchala SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Mahadevan, Navin R",
+        "short_name": "Mahadevan NR",
+        "identifiers": [
+          "0000-0002-6805-8861"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Lin, Jia-Ren",
+        "short_name": "Lin JR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Alessi, Joao V",
+        "short_name": "Alessi JV",
+        "identifiers": [
+          "0000-0002-8072-5946"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Alexander",
+        "short_name": "Chowdhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Li, Yvonne Y",
+        "short_name": "Li YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+          "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard School of Public Health, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Spurr, Liam",
+        "short_name": "Spurr L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA."
+        ]
+      },
+      {
+        "full_name": "Pecci, Federica",
+        "short_name": "Pecci F",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Di Federico, Alessandro",
+        "short_name": "Di Federico A",
+        "identifiers": [
+          "0000-0001-8877-4315"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Venkatraman, Deepti",
+        "short_name": "Venkatraman D",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Barrichello, Adriana P",
+        "short_name": "Barrichello AP",
+        "identifiers": [
+          "0000-0003-1633-8236"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Malini",
+        "short_name": "Gandhi M",
+        "identifiers": [
+          "0000-0002-8006-4148"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Vaz, Victor R",
+        "short_name": "Vaz VR",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Pangilinan, Andy J",
+        "short_name": "Pangilinan AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Haradon, Danielle",
+        "short_name": "Haradon D",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Lee, Elinton",
+        "short_name": "Lee E",
+        "identifiers": [],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Hersh",
+        "short_name": "Gupta H",
+        "identifiers": [
+          "0000-0002-5136-6403"
+        ],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Pfaff, Kathleen L",
+        "short_name": "Pfaff KL",
+        "identifiers": [
+          "0000-0003-3311-5384"
+        ],
+        "affiliations": [
+          "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Welsh, Emma L",
+        "short_name": "Welsh EL",
+        "identifiers": [
+          "0009-0009-7345-5106"
+        ],
+        "affiliations": [
+          "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Nishino, Mizuki",
+        "short_name": "Nishino M",
+        "identifiers": [
+          "0000-0003-0275-0502"
+        ],
+        "affiliations": [
+          "Department of Radiology, Brigham and Women's Hospital, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Cherniack, Andrew D",
+        "short_name": "Cherniack AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA.",
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Bruce E",
+        "short_name": "Johnson BE",
+        "identifiers": [
+          "0000-0002-5252-3677"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Weirather, Jason L",
+        "short_name": "Weirather JL",
+        "identifiers": [
+          "0000-0003-0556-0616"
+        ],
+        "affiliations": [
+          "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Dryg, Ian D",
+        "short_name": "Dryg ID",
+        "identifiers": [
+          "0000-0001-6173-2000"
+        ],
+        "affiliations": [
+          "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Rodig, Scott J",
+        "short_name": "Rodig SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+          "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Sholl, Lynette M",
+        "short_name": "Sholl LM",
+        "identifiers": [
+          "0000-0002-9532-9735"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Sorger, Peter",
+        "short_name": "Sorger P",
+        "identifiers": [
+          "0000-0002-3364-1838"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+          "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Santagata, Sandro",
+        "short_name": "Santagata S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA.",
+          "Laboratory of Systems Pharmacology, Department of Systems Biology, Harvard Medical School, Boston, MA.",
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Umeton, Renato",
+        "short_name": "Umeton R",
+        "identifiers": [
+          "0000-0002-5561-6932"
+        ],
+        "affiliations": [
+          "Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Awad, Mark M",
+        "short_name": "Awad MM",
+        "identifiers": [
+          "0000-0003-0928-5244"
+        ],
+        "affiliations": [
+          "Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, MA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of clinical oncology : official journal of the American Society of Clinical Oncology"
+    ],
+    "journal_abbrev": [
+      "J Clin Oncol"
+    ],
+    "pub_date": "2024 Apr 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/11 18:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "42656487",
+      "42627072",
+      "42476096",
+      "42453876",
+      "42350041",
+      "42183274",
+      "42174278",
+      "41935225",
+      "41839749",
+      "41825930",
+      "41743740",
+      "41675056",
+      "41646963",
+      "41641368",
+      "41629429",
+      "41628935",
+      "41591363",
+      "41588364",
+      "41526921",
+      "41514645",
+      "41494746",
+      "41438751",
+      "41387924",
+      "41376906",
+      "41314975",
+      "41303058",
+      "41247642",
+      "41214544",
+      "41174615",
+      "41168799",
+      "41065864",
+      "41057692",
+      "41044492",
+      "41021057",
+      "40969680",
+      "40948783",
+      "40876451",
+      "40858620",
+      "40826797",
+      "40813911",
+      "40764107",
+      "40748918",
+      "40673103",
+      "40488300",
+      "40402502",
+      "40375605",
+      "40342732",
+      "40277912",
+      "40225955",
+      "40214734",
+      "40211758",
+      "40114939",
+      "40080526",
+      "40069402",
+      "40064915",
+      "40060568",
+      "40055572",
+      "40011914",
+      "39954220",
+      "39909044",
+      "39830766",
+      "39819544",
+      "39804166",
+      "39779891",
+      "39763611",
+      "39649017",
+      "39585348",
+      "39512767",
+      "39495525",
+      "39416786",
+      "39337479",
+      "39323996",
+      "39220096",
+      "39211047",
+      "39186767",
+      "39179248",
+      "39026497",
+      "38744552",
+      "38449870",
+      "38422476"
+    ],
+    "refs": [
+      "37349501",
+      "36150391",
+      "35708671",
+      "35534623",
+      "35292516",
+      "35264433",
+      "34880124",
+      "34740862",
+      "34487855",
+      "34353849",
+      "34151236",
+      "33979196",
+      "33845210",
+      "33589518",
+      "33247715",
+      "33023239",
+      "30718506",
+      "30339381",
+      "30108370",
+      "29622463",
+      "29070816",
+      "29025772",
+      "28557599",
+      "27979383",
+      "27903500",
+      "27433843",
+      "26412456",
+      "26028407",
+      "25970248",
+      "22966017"
+    ],
+    "similar": [
+      "38207230",
+      "35753125",
+      "33655698",
+      "35872166",
+      "41106040",
+      "40541864",
+      "38330261",
+      "30780001",
+      "35747993",
+      "35705448",
+      "32944405",
+      "39238637",
+      "38950679",
+      "38432028",
+      "39385035",
+      "39709652",
+      "33316104",
+      "35708671",
+      "33930176",
+      "31290993",
+      "39694700",
+      "36347190",
+      "40091029",
+      "39864548",
+      "40488300",
+      "37266427",
+      "36709038",
+      "28407039",
+      "31683093",
+      "40050048",
+      "38300729",
+      "40716572",
+      "41423267",
+      "36394839",
+      "35727053",
+      "32820489",
+      "39724105",
+      "35598205",
+      "32047958",
+      "41387877",
+      "40021433",
+      "31693178",
+      "34257540",
+      "41927407",
+      "35811500",
+      "30738221",
+      "40650126",
+      "32120230",
+      "27225694",
+      "31085721",
+      "38396726",
+      "34376553",
+      "31548347",
+      "37097610",
+      "35970031",
+      "34673351",
+      "41663093",
+      "40544018",
+      "40580408",
+      "30977778",
+      "31437663",
+      "35649657",
+      "34500370",
+      "39615893",
+      "34740862",
+      "33882890",
+      "29545095",
+      "40463377",
+      "29615460",
+      "31125062",
+      "41583476",
+      "37832364",
+      "32720019",
+      "41252810",
+      "29269008",
+      "30819829",
+      "40990022",
+      "31511069",
+      "40234811",
+      "33323404",
+      "41990420",
+      "38857914",
+      "42090630",
+      "37285115",
+      "36775193",
+      "31319971",
+      "40358847",
+      "33794809",
+      "38987048",
+      "38781965",
+      "40081267",
+      "41275271",
+      "28031159",
+      "36331328",
+      "37495171",
+      "40747794",
+      "34706885",
+      "33640623",
+      "39038258",
+      "40764107"
+    ],
+    "review": [
+      "38207230",
+      "38330261",
+      "32944405",
+      "33316104",
+      "33930176",
+      "31290993",
+      "31693178",
+      "32720019",
+      "30819829",
+      "31319971",
+      "40747794"
+    ],
+    "pmc": [
+      "11095860"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/JCO.23.00580?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38207230.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38207230/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38207230",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3393",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "35943134",
+    "doi": "10.1093/bib/bbac322",
+    "title": "A deep learning-based method for the prediction of DNA interacting residues in a protein."
+  },
+  "content": {
+    "abstract": "DNA-protein interaction is one of the most crucial interactions in the biological system, which decides the fate of many processes such as transcription, regulation and splicing of genes. In this study, we trained our models on a training dataset of 646 DNA-binding proteins having 15 636 DNA interacting and 298 503 non-interacting residues. Our trained models were evaluated on an independent dataset of 46 DNA-binding proteins having 965 DNA interacting and 9911 non-interacting residues. All proteins in the independent dataset have less than 30% of sequence similarity with proteins in the training dataset. A wide range of traditional machine learning and deep learning (1D-CNN) techniques-based models have been developed using binary, physicochemical properties and Position-Specific Scoring Matrix (PSSM)/evolutionary profiles. In the case of machine learning technique, eXtreme Gradient Boosting-based model achieved a maximum area under the receiver operating characteristics (AUROC) curve of 0.77 on the independent dataset using PSSM profile. Deep learning-based model achieved the highest AUROC of 0.79 on the independent dataset using a combination of all three profiles. We evaluated the performance of existing methods on the independent dataset and observed that our proposed method outperformed all the existing methods. In order to facilitate scientific community, we developed standalone software and web server, which are accessible from https://webs.iiitd.edu.in/raghava/dbpred.",
+    "keywords": [
+      "1D-CNN",
+      "DNA-binding residues",
+      "deep learning",
+      "evolutionary profiles",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "DNA/chemistry/genetics",
+      "DNA-Binding Proteins",
+      "Databases, Protein",
+      "*Deep Learning",
+      "Position-Specific Scoring Matrices"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patiyal, Sumeet",
+        "Dhall, Anjali",
+        "Raghava, Gajendra P S"
+      ],
+      "short_names": [
+        "Patiyal S",
+        "Dhall A",
+        "Raghava GPS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8902-2876"
+      ],
+      "affiliations": [
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patiyal, Sumeet",
+        "short_name": "Patiyal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India."
+        ]
+      },
+      {
+        "full_name": "Dhall, Anjali",
+        "short_name": "Dhall A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India."
+        ]
+      },
+      {
+        "full_name": "Raghava, Gajendra P S",
+        "short_name": "Raghava GPS",
+        "identifiers": [
+          "0000-0002-8902-2876"
+        ],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi-110020, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/10 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "42100742",
+      "42012716",
+      "41959628",
+      "41168713",
+      "40919912",
+      "40359455",
+      "40147921",
+      "39833102",
+      "39202449",
+      "39119181",
+      "38192372",
+      "38171929",
+      "36742312"
+    ],
+    "refs": [],
+    "similar": [
+      "35943134",
+      "36516298",
+      "39038391",
+      "32082172",
+      "23387468",
+      "39305039",
+      "31654438",
+      "28851273",
+      "37525341",
+      "35447463",
+      "31123959",
+      "38803012",
+      "31319963",
+      "33201237",
+      "20525281",
+      "32770192",
+      "37058758",
+      "32082326",
+      "20677174",
+      "36574037",
+      "31700141",
+      "20353553",
+      "21931639",
+      "35242211",
+      "35595541",
+      "31380767",
+      "36427763",
+      "30032213",
+      "29535692",
+      "33034338",
+      "23116714",
+      "39060345",
+      "30914676",
+      "29706944",
+      "34291709",
+      "36452927",
+      "17932917",
+      "36416116",
+      "34880873",
+      "39119181",
+      "38295479",
+      "20021687",
+      "27383535",
+      "28361707",
+      "33238837",
+      "34320027",
+      "30813451",
+      "33780341",
+      "29244774",
+      "19385697",
+      "38295475",
+      "22574904",
+      "28961273",
+      "20122222",
+      "31874633",
+      "34291710",
+      "19091029",
+      "24475169",
+      "33267753",
+      "17275170",
+      "30210341",
+      "35378437",
+      "31881828",
+      "38674091",
+      "33104011",
+      "34798408",
+      "33259717",
+      "37032893",
+      "23747746",
+      "30416494",
+      "19594868",
+      "38660008",
+      "16568445",
+      "17237068",
+      "31285519",
+      "33617347",
+      "38391554",
+      "35580839",
+      "33647600",
+      "32153395",
+      "22408447",
+      "37301349",
+      "30323214",
+      "24607742",
+      "33410688",
+      "38872916",
+      "31714956",
+      "31472418",
+      "27016210",
+      "38580921",
+      "24968309",
+      "39240325",
+      "28903538",
+      "30808287",
+      "28627775",
+      "31362508",
+      "32599617",
+      "36251780",
+      "32324757",
+      "32840562",
+      "28056090",
+      "22373313",
+      "35421797",
+      "33758923",
+      "29281985",
+      "29799510",
+      "35597551",
+      "33505516",
+      "32328150",
+      "22868682",
+      "34571539",
+      "28764874",
+      "36211019",
+      "33442949",
+      "15720719",
+      "35439138",
+      "35152041",
+      "36318663",
+      "36524996",
+      "35225328",
+      "38379813",
+      "36166351",
+      "38171929",
+      "37672551",
+      "37327559",
+      "37126926",
+      "37567456",
+      "37872744",
+      "30842277",
+      "38303418",
+      "37919805"
+    ],
+    "review": [
+      "35943134",
+      "31714956"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac322",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

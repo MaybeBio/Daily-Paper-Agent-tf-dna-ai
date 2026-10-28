@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39333640",
+    "doi": "10.1038/s41598-024-73746-5",
+    "title": "Integrating protein interaction and pathway crosstalk network reveals a promising therapeutic approach for psoriasis through apoptosis induction."
+  },
+  "content": {
+    "abstract": "Psoriasis is a complex inflammatory skin disease manifested by altered proliferation and differentiation of keratinocytes with dysfunctional apoptosis. This study aimed to identify regulatory factors and comprehend the underlying mechanisms of inefficient apoptosis to open up promising therapeutic approaches. Incorporating human protein interactions, apoptosis proteins, and physical relationships of psoriasis-apoptosis proteins helped us to generate a psoriasis-apoptosis interaction (SAI) network. Subsequently, topological and functional analyses of the SAI network revealed effective proteins, functional modules, hub motifs, dysregulated pathways and transcriptional gene regulatory factors. Network pharmacology, molecular docking and molecular dynamics simulation methods identified the potential drug-target interactions. RELA, MAPK1, MAPK3, MMP9, IL1B, AKT1 and STAT1 were revealed as effective proteins. The MAPK1-MAPK3-RELA motif was identified as a hub regulator in the crosstalk between 41 pathways. Among all pathways, \"lipid and atherosclerosis\" was found to be the predominant pathway. Acetylcysteine, arsenic-trioxide, beta-elemene, bortezomib and curcumin were identified as potential drugs to inhibit pathway crosstalk. Experimental verifications were performed using the literature search, GSE13355 and GSE14905 microarray datasets. Drug-protein-pathway interactions associated with apoptosis were deciphered. These findings highlight the role of hub motif-mediated pathway-pathway crosstalk associated with apoptosis in the complexity of psoriasis and suggest crosstalk inhibition as an effective therapeutic approach.",
+    "keywords": [
+      "Apoptosis",
+      "Drug",
+      "Molecular dynamics simulation",
+      "Pathway crosstalk",
+      "Protein interaction",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Psoriasis/metabolism/drug therapy/pathology",
+      "*Apoptosis/drug effects",
+      "*Protein Interaction Maps",
+      "*Signal Transduction/drug effects",
+      "Molecular Docking Simulation",
+      "Gene Regulatory Networks",
+      "Transcription Factor RelA/metabolism",
+      "Molecular Dynamics Simulation",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "STAT1 Transcription Factor/metabolism",
+      "Keratinocytes/metabolism/drug effects",
+      "Acetylcysteine/pharmacology",
+      "Bortezomib/pharmacology",
+      "Interleukin-1beta"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Farahani, Masoumeh",
+        "Robati, Reza M",
+        "Rezaei-Tavirani, Mostafa",
+        "Fateminasab, Fatemeh",
+        "Shityakov, Sergey",
+        "Rahmati Roodsari, Mohammad",
+        "Razzaghi, Zahra",
+        "Zamanian Azodi, Mona",
+        "Saghari, Saviz"
+      ],
+      "short_names": [
+        "Farahani M",
+        "Robati RM",
+        "Rezaei-Tavirani M",
+        "Fateminasab F",
+        "Shityakov S",
+        "Rahmati Roodsari M",
+        "Razzaghi Z",
+        "Zamanian Azodi M",
+        "Saghari S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7412-3474",
+        "ORCID: 0000-0002-7947-8642",
+        "ORCID: 0000-0003-1767-7475",
+        "ORCID: 0000-0002-8577-2776",
+        "ORCID: 0000-0002-6953-9771",
+        "ORCID: 0000-0003-2604-1444",
+        "ORCID: 0000-0003-0039-9501",
+        "ORCID: 0000-0003-1894-5021"
+      ],
+      "affiliations": [
+        "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. rmrobati@gmail.com.",
+        "Department of Dermatology, Loghman Hakim Hospital, Shahid Beheshti University of Medical Sciences, Tehran, Iran. rmrobati@gmail.com.",
+        "Proteomics Research Center, System Biology Institute, Faculty of Paramedical Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. tavirany@yahoo.com.",
+        "Department of Physical Chemistry, Faculty of Chemistry, University of Mazandaran, Babolsar, Iran.",
+        "Laboratory of Chemoinformatics, Infochemistry Scientific Center, ITMO University, Saint-Petersburg, Russian Federation.",
+        "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Department of Dermatology, Loghman Hakim Hospital, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Laser Application in Medical Sciences Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Proteomics Research Center, System Biology Institute, Faculty of Paramedical Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Department of Internal Medicine, West Anaheim Medical Center, Anaheim, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Farahani, Masoumeh",
+        "short_name": "Farahani M",
+        "identifiers": [
+          "0000-0001-7412-3474"
+        ],
+        "affiliations": [
+          "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Robati, Reza M",
+        "short_name": "Robati RM",
+        "identifiers": [
+          "0000-0002-7947-8642"
+        ],
+        "affiliations": [
+          "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. rmrobati@gmail.com.",
+          "Department of Dermatology, Loghman Hakim Hospital, Shahid Beheshti University of Medical Sciences, Tehran, Iran. rmrobati@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Rezaei-Tavirani, Mostafa",
+        "short_name": "Rezaei-Tavirani M",
+        "identifiers": [
+          "0000-0003-1767-7475"
+        ],
+        "affiliations": [
+          "Proteomics Research Center, System Biology Institute, Faculty of Paramedical Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. tavirany@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Fateminasab, Fatemeh",
+        "short_name": "Fateminasab F",
+        "identifiers": [
+          "0000-0002-8577-2776"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry, University of Mazandaran, Babolsar, Iran."
+        ]
+      },
+      {
+        "full_name": "Shityakov, Sergey",
+        "short_name": "Shityakov S",
+        "identifiers": [
+          "0000-0002-6953-9771"
+        ],
+        "affiliations": [
+          "Laboratory of Chemoinformatics, Infochemistry Scientific Center, ITMO University, Saint-Petersburg, Russian Federation."
+        ]
+      },
+      {
+        "full_name": "Rahmati Roodsari, Mohammad",
+        "short_name": "Rahmati Roodsari M",
+        "identifiers": [
+          "0000-0003-2604-1444"
+        ],
+        "affiliations": [
+          "Skin Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+          "Department of Dermatology, Loghman Hakim Hospital, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Razzaghi, Zahra",
+        "short_name": "Razzaghi Z",
+        "identifiers": [
+          "0000-0003-0039-9501"
+        ],
+        "affiliations": [
+          "Laser Application in Medical Sciences Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Zamanian Azodi, Mona",
+        "short_name": "Zamanian Azodi M",
+        "identifiers": [
+          "0000-0003-1894-5021"
+        ],
+        "affiliations": [
+          "Proteomics Research Center, System Biology Institute, Faculty of Paramedical Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Saghari, Saviz",
+        "short_name": "Saghari S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, West Anaheim Medical Center, Anaheim, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Sep 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/28 09:46",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "41518404",
+      "41425494"
+    ],
+    "refs": [
+      "37060657",
+      "37052471",
+      "36871534",
+      "36326534",
+      "36305812",
+      "36184894",
+      "36139479",
+      "36120325",
+      "36088301",
+      "35795567",
+      "35586812",
+      "35529056",
+      "34305174",
+      "34122426",
+      "33808505",
+      "33409839",
+      "33165687",
+      "33118813",
+      "32888954",
+      "32575706",
+      "32501683",
+      "32235333",
+      "31680165",
+      "31442253",
+      "30476243",
+      "30349250",
+      "30320872",
+      "30246706",
+      "30034395",
+      "30017989",
+      "29770357",
+      "29727184",
+      "29369396",
+      "29195078",
+      "29087512",
+      "29072139",
+      "28917201",
+      "28494415",
+      "27663245",
+      "27625010",
+      "26960911",
+      "25797237",
+      "25484339",
+      "25379140",
+      "25195011",
+      "25043845",
+      "24587411",
+      "24391846",
+      "24284521",
+      "23748427",
+      "23635424",
+      "23300410",
+      "23047508",
+      "22684781",
+      "21595981",
+      "21534921",
+      "20689021",
+      "19237447",
+      "19131956",
+      "18842138",
+      "18593997",
+      "18460182",
+      "18451318",
+      "18434343",
+      "18084021",
+      "17958837",
+      "16455747",
+      "16200636",
+      "16081580",
+      "15656798",
+      "14597658",
+      "12525261",
+      "11752295",
+      "10592173",
+      "10591225",
+      "8456305"
+    ],
+    "similar": [
+      "39333640",
+      "38964628",
+      "32493482",
+      "38493718",
+      "18463678",
+      "23314787",
+      "32160841",
+      "32669126",
+      "39066538",
+      "38670393",
+      "39004032",
+      "39041101",
+      "38765004",
+      "39342122",
+      "38652958",
+      "36872359",
+      "38776853",
+      "34004257",
+      "38532341",
+      "31540162",
+      "33556477",
+      "33757812",
+      "29537306",
+      "29432814",
+      "34975885",
+      "37932998",
+      "34153674",
+      "34834106",
+      "38284293",
+      "23078099",
+      "34664681",
+      "38916485",
+      "39041167",
+      "33532507",
+      "34802380",
+      "33140889",
+      "38616753",
+      "34246740",
+      "35667260",
+      "38801274",
+      "38588987",
+      "11180008",
+      "37391801",
+      "34560213",
+      "32689994",
+      "27393705",
+      "31846070",
+      "29916542",
+      "34421918",
+      "35729678",
+      "32019420",
+      "29382533",
+      "32065443",
+      "24610393",
+      "33098056",
+      "38812235",
+      "38863714",
+      "36281111",
+      "38848296",
+      "38301984",
+      "31760157",
+      "36403742",
+      "38114219",
+      "34425525",
+      "38941673",
+      "39154821",
+      "38951468",
+      "35586812",
+      "34639115",
+      "38849817",
+      "33135607",
+      "31108094",
+      "38742934",
+      "37861962",
+      "33634308",
+      "34262258",
+      "34685616",
+      "33452236",
+      "38926058",
+      "26971222",
+      "39051079",
+      "35926779",
+      "24303025",
+      "38931288",
+      "25424347",
+      "32389853",
+      "38992150",
+      "38554853",
+      "37770919",
+      "36158000",
+      "39307810",
+      "35537009",
+      "29886071",
+      "23013371",
+      "37635735",
+      "33513128",
+      "27035208",
+      "38432577"
+    ],
+    "review": [
+      "39333640",
+      "38941673"
+    ],
+    "pmc": [
+      "11436859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-73746-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39333640/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

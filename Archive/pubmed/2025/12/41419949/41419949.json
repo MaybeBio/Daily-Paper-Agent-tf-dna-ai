@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "41419949",
+    "doi": "10.1186/s13018-025-06518-0",
+    "title": "Epigenetic silencing of SPHK1-IRF7 axis drives inflammaging in age-related meniscus degeneration via sphingolipid-immune dysregulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Age-related meniscus injury (MI) involves inflammaging, but biomarkers and mechanisms remain unclear. METHODS: Ribonucleic acid (RNA) sequencing of meniscal tissues from 15 young (< 45 years) and 15 aging (>/= 45 years) MI patients (training dataset) identified differentially expressed inflammation-related genes (DE-IRGs). Biomarkers were screened via least absolute shrinkage and selection operator (LASSO) and support vector machines-recursive feature elimination (SVM-RFE) in the training dataset and validated through GSE191157 (testing dataset) and immunohistochemistry (IHC) staining in additional clinical specimens. Support vector machines (SVM) model and artificial neural network (ANN) model were constructed to predict the diagnostic performance of biomarkers for aging MI. Moreover, biomarkers enrichment analysis, and correlation among biomarkers, function-related genes, immune factors and immune cells were completed. Finally, transcription factor (TF)-biomarker-microRNAs (miRNAs) and competing endogenous RNA (ceRNA) regulatory networks analysis, and drug prediction were performed. RESULTS: IRF7 and SPHK1 were significantly downregulated in aging MI and predicted aging MI with high accuracy (area under the curve (AUC) > 0.7). Both biomarkers correlated with chemokine/cytokine pathways, immune senescence (positively with gammadeltaT cells/Th17/monocytes; negatively with LAG3/IL6R/TNFSF13), and sphingolipid metabolism (PLPP2 synergy) (|r| = 0.49 ~ 0.86, p < 0.05). Regulatory networks implicated NORAD lncRNA (upregulated) negatively regulated the expression of SPHK1 and IRF7 (r<-0.90, p < 0.05), while transcription factors E2F4 and KLF5 (downregulated) positively regulated their expression (r > 0.95, p < 0.05). Clinically, SPHK1 and IRF7 positively correlated with preoperative Lysholm score (SPHK1: r = 0.66; IRF7: r = 0.61; p < 0.05) and negatively with preoperative VAS (SPHK1: r=-0.58; IRF7: r=-0.58; p < 0.05) in aging MI. Two drugs (decitabine, acetaminophen) targeting these biomarkers were predicted. CONCLUSION: SPHK1 and IRF7 drive inflammaging via sphingolipid-immune crosstalk and epigenetic silencing, offering diagnostic and therapeutic potential.",
+    "keywords": [
+      "Biomarker",
+      "Epigenetic regulation",
+      "Immune senescence",
+      "Inflammaging",
+      "Meniscus injury",
+      "Sphingolipid metabolism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Phosphotransferases (Alcohol Group Acceptor)/genetics/metabolism",
+      "*Interferon Regulatory Factor-7/genetics/metabolism",
+      "Middle Aged",
+      "Adult",
+      "Male",
+      "Female",
+      "*Sphingolipids/metabolism",
+      "*Inflammation/genetics/metabolism",
+      "*Aging/genetics/immunology",
+      "*Epigenesis, Genetic/genetics",
+      "*Gene Silencing",
+      "Aged",
+      "Young Adult",
+      "Biomarkers/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Shunjie",
+        "Wang, Hui",
+        "Wang, Lingcheng",
+        "Liu, Li",
+        "Xu, Peng",
+        "Tian, Xiaohe",
+        "Chen, Gang"
+      ],
+      "short_names": [
+        "Yang S",
+        "Wang H",
+        "Wang L",
+        "Liu L",
+        "Xu P",
+        "Tian X",
+        "Chen G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Huaxi MR Research Center (HMRRC), Institution of Radiology and Medical Imaging, West China Hospital, Sichuan University, Chengdu, China.",
+        "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China.",
+        "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+        "The Academy of Chinese Health Risks of West China Hospital, Sichuan University, Chengdu, China.",
+        "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Orthopedic Surgery, West China Hospital, West China School of Nursing, Sichuan University, Chengdu, China. liuli_guke@163.com.",
+        "Department of orthopaedics, The Second People's Hospital of Yibin, Yibin, China. 734251146@qq.com.",
+        "Department of Radiology, Huaxi MR Research Center (HMRRC), Institution of Radiology and Medical Imaging, West China Hospital, Sichuan University, Chengdu, China. xiaohe.t@wchscu.cn.",
+        "Psychoradiology Key Laboratory of Sichuan Province, West China Hospital of Sichuan University, Chengdu, Sichuan, China. xiaohe.t@wchscu.cn.",
+        "Research Unit of Psychoradiology, Chinese Academy of Medical Sciences, Chengdu, Sichuan, China. xiaohe.t@wchscu.cn.",
+        "Xiamen Key Lab of Psychoradiology and Neuromodulation, Department of Radiology, West China Xiamen Hospital of Sichuan University, Xiamen, Fujian, China. xiaohe.t@wchscu.cn.",
+        "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China. chengang_sportsmed@163.com.",
+        "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China. chengang_sportsmed@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Shunjie",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huaxi MR Research Center (HMRRC), Institution of Radiology and Medical Imaging, West China Hospital, Sichuan University, Chengdu, China.",
+          "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+          "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+          "The Academy of Chinese Health Risks of West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lingcheng",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China.",
+          "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, West China Hospital, West China School of Nursing, Sichuan University, Chengdu, China. liuli_guke@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Peng",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of orthopaedics, The Second People's Hospital of Yibin, Yibin, China. 734251146@qq.com."
+        ]
+      },
+      {
+        "full_name": "Tian, Xiaohe",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huaxi MR Research Center (HMRRC), Institution of Radiology and Medical Imaging, West China Hospital, Sichuan University, Chengdu, China. xiaohe.t@wchscu.cn.",
+          "Psychoradiology Key Laboratory of Sichuan Province, West China Hospital of Sichuan University, Chengdu, Sichuan, China. xiaohe.t@wchscu.cn.",
+          "Research Unit of Psychoradiology, Chinese Academy of Medical Sciences, Chengdu, Sichuan, China. xiaohe.t@wchscu.cn.",
+          "Xiamen Key Lab of Psychoradiology and Neuromodulation, Department of Radiology, West China Xiamen Hospital of Sichuan University, Xiamen, Fujian, China. xiaohe.t@wchscu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Sports Medicine Center, West China Hospital, Sichuan University, Chengdu, China. chengang_sportsmed@163.com.",
+          "Department of Orthopedics and Orthopedic Research Institute, West China Hospital, Sichuan University, Chengdu, China. chengang_sportsmed@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of orthopaedic surgery and research"
+    ],
+    "journal_abbrev": [
+      "J Orthop Surg Res"
+    ],
+    "pub_date": "2025 Dec 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/20 00:40",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "41462313"
+    ],
+    "refs": [
+      "40770642",
+      "40711084",
+      "40407215",
+      "40238799",
+      "40197524",
+      "40025588",
+      "40025524",
+      "39981237",
+      "39627227",
+      "39538324",
+      "39465712",
+      "39342292",
+      "38961225",
+      "38650930",
+      "38576008",
+      "38195597",
+      "38184619",
+      "36879702",
+      "36494052",
+      "36474943",
+      "36414224",
+      "35879450",
+      "35831277",
+      "35798511",
+      "35723551",
+      "35716253",
+      "35454332",
+      "35304463",
+      "34741638",
+      "34737701",
+      "34398119",
+      "32189997",
+      "31827236",
+      "31767103",
+      "31767101",
+      "31295813",
+      "30932349",
+      "30511295",
+      "30046148",
+      "29884302",
+      "29536689",
+      "29518748",
+      "29275161",
+      "28970119",
+      "28921708",
+      "26423309",
+      "26033163",
+      "25798759",
+      "23658108",
+      "22076939",
+      "20816981",
+      "20644167",
+      "19017993",
+      "18500350"
+    ],
+    "similar": [
+      "41419949",
+      "39375405",
+      "38650649",
+      "40238799",
+      "41388523",
+      "37608666",
+      "35853537",
+      "40329959",
+      "36034449",
+      "33400245",
+      "39331874",
+      "36532015",
+      "37259023",
+      "40434736",
+      "36545400",
+      "40933471",
+      "38712372",
+      "32685450",
+      "38951833",
+      "40692778",
+      "41029776",
+      "36829193",
+      "39690389",
+      "35845512",
+      "35924235",
+      "26493335",
+      "36589450",
+      "40598145",
+      "41044520",
+      "41390089",
+      "40225866",
+      "40860289",
+      "41333466",
+      "39923303",
+      "40830558",
+      "40760666",
+      "33594613",
+      "39730379",
+      "41324863",
+      "30885289",
+      "38555595",
+      "41146237",
+      "41536554",
+      "41563994",
+      "34051800",
+      "35938015",
+      "39270557",
+      "37773702",
+      "39549732",
+      "39507054",
+      "41116042",
+      "36660690",
+      "35746962",
+      "39483476",
+      "41102315",
+      "39374713",
+      "39142001",
+      "37492566",
+      "40312440",
+      "41161665",
+      "18505922",
+      "39586719",
+      "40612944",
+      "28851267",
+      "38376769",
+      "39283128",
+      "39855613",
+      "38897129",
+      "39170142",
+      "37821907",
+      "29377379",
+      "31992066",
+      "41291841",
+      "40828304",
+      "36518216",
+      "40362543",
+      "36915125",
+      "35713363",
+      "40738705",
+      "40287692",
+      "36998473",
+      "27942860",
+      "18058224",
+      "39830981",
+      "39118300",
+      "38402377",
+      "40569117",
+      "41237866",
+      "39113090",
+      "41432483",
+      "41132349",
+      "33879119",
+      "38341589",
+      "37783761",
+      "37525915",
+      "20606403",
+      "38735900",
+      "20644167",
+      "36531033",
+      "39113509"
+    ],
+    "review": [
+      "41419949",
+      "34130601"
+    ],
+    "pmc": [
+      "12829109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://josr-online.biomedcentral.com/articles/10.1186/s13018-025-06518-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41419949/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IL6R-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

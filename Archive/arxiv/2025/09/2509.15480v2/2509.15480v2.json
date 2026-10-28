@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2509.15480v2",
+  "title": "A tree-based kernel for densities and its applications in clustering DNase-seq profiles",
+  "doi": "",
+  "abstract": "Modeling multiple sampling densities within a hierarchical framework enables borrowing of information across samples. These density random effects can act as kernels in latent variable models to represent exchangeable subgroups or clusters. A key feature of these kernels is the (functional) covariance they induce, which determines how densities are grouped in mixture models. Our motivating problem is clustering chromatin accessibility profiles from high-throughput DNase-seq experiments to detect transcription factor (TF) binding. TF binding typically produces footprint profiles with spatial patterns, creating long-range dependency across genomic locations. Existing nonparametric hierarchical models impose restrictive covariance assumptions and cannot accommodate such dependencies, often leading to biologically uninformative clusters. We propose a nonparametric density kernel flexible enough to capture diverse covariance structures and adaptive to various spatial patterns of TF footprints. The kernel specifies dyadic tree splitting probabilities via a multivariate logit-normal model with a sparse precision matrix. Bayesian inference for latent variable models using this kernel is implemented through Gibbs sampling with Polya-Gamma augmentation. Extensive simulations show that our kernel substantially improves clustering accuracy. We apply the proposed mixture model to DNase-seq data from the ENCODE project, which results in biologically meaningful clusters corresponding to binding events of two common TFs.",
+  "authors": [
+    "Yuliang Xu",
+    "Kaixuan Luo",
+    "Li Ma"
+  ],
+  "published_date": "2025-09-18T22:56:02Z",
+  "updated_date": "2026-05-15T22:44:29Z",
+  "journal": "",
+  "category": "stat.ME, stat.AP",
+  "landing_url": "https://arxiv.org/abs/2509.15480v2",
+  "pdf_url": "https://arxiv.org/pdf/2509.15480v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "stat.ME",
+    "stat.AP"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2509.15480v2",
+    "raw_categories": [
+      "stat.ME",
+      "stat.AP"
+    ],
+    "journal_ref": ""
+  }
+}

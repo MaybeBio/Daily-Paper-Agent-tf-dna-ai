@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42690469",
+  "title": "Stable simulations do not guarantee functional engagement: a case study of off-target prediction for Seladelpar and Zanamivir.",
+  "authors": "Kemp, Rachel; Kean, Thomas J; Medvedev, Kirill E",
+  "journal": "Journal of computer-aided molecular design",
+  "published_date": "2026-09-03",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过AlphaFold3和MD模拟评估药物脱靶预测，虽涉及蛋白-配体而非蛋白-DNA互作，但其结构预测与MD结合的策略及对稳定模拟与功能结合关系的批判性分析，对TF-DNA互作建模方法有借鉴意义。",
+  "abstract": "Identifying off-target interactions of approved drugs is important to anticipate side effects and uncover repurposing opportunities. Computational pipelines combining structural homology, structure prediction, and molecular dynamics (MD) simulations offer a promising strategy, but it remains unclear whether stable, control-like MD trajectories reliably indicate functional engagement. We examined this in a case study of two approved drugs. Using the Evolutionary Classification of Protein Domains (ECOD) framework to select candidate off-targets, we modeled each drug-protein complex as two independent AlphaFold3 models and simulated both by MD, for Seladelpar (a PPARdelta agonist) and Zanamivir, an influenza neuraminidase inhibitor that also inhibits human Sialidase-2 (NEU2). Candidates were ranked by the similarity of global MD descriptors to the on-target control. For Seladelpar, the three top-ranked candidates (FXR, RARgamma, ERRgamma) were tested experimentally; the Zanamivir set was analyzed computationally only. None showed measurable activity in reporter or thermal shift assays, despite stable simulations and descriptor values comparable to the control. Including PPARalpha and PPARgamma as weak-positive comparators, these descriptors did not rank genuine interactions closer to the control than inactive candidates. Residue-level comparison with experimental structures showed the predicted poses reproduced only part of the canonical contacts. Where experimental drug-bound structures existed, AlphaFold3 reproduced the pose for PPARalpha but not PPARgamma, and its per-model confidence did not track pose accuracy. Within this case study, the specific global descriptors examined reflect complex stability rather than functional engagement, which does not mean MD-based approaches cannot make this distinction.",
+  "abstract_zh": "识别已批准药物的脱靶相互作用对于预测副作用和发现药物再利用机会至关重要。结合结构同源性、结构预测和分子动力学（molecular dynamics, MD）模拟的计算流程提供了一种有前景的策略，但稳定且类似对照的MD轨迹是否能可靠指示功能性结合仍不明确。我们在两项已批准药物的案例研究中对此进行了考察。利用蛋白质结构域的进化分类（Evolutionary Classification of Protein Domains, ECOD）框架选择候选脱靶，我们将每个药物-蛋白质复合物建模为两个独立的AlphaFold3模型，并通过MD对两者进行模拟，涉及Seladelpar（一种PPARdelta激动剂）和Zanamivir（一种流感神经氨酸酶抑制剂，同时也抑制人唾液酸酶-2（NEU2））。候选靶点根据全局MD描述符与靶标对照的相似性进行排序。对于Seladelpar，排名前三的候选靶点（FXR、RARgamma、ERRgamma）进行了实验测试；Zanamivir组仅进行了计算分析。尽管模拟稳定且描述符值与对照相当，但报告基因或热位移实验中均未显示可测量的活性。将PPARalpha和PPARgamma作为弱阳性对照纳入后，这些描述符并未将真实相互作用排名为比非活性候选更接近对照。与实验结构的残基水平比较显示，预测的构象仅再现了部分典型接触。在存在实验药物结合结构的情况下，AlphaFold3再现了PPARalpha的构象，但未再现PPARgamma的构象，且其逐模型置信度并未反映构象准确性。在本案例研究中，所考察的特定全局描述符反映的是复合物稳定性而非功能性结合，这并不意味着基于MD的方法无法进行这种区分。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42690469/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42690469/",
+  "paper_page_path": "papers/pubmed/42690469/index.html"
+}

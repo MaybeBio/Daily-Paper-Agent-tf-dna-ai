@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "38807051",
+    "doi": "10.1186/s12864-024-10447-3",
+    "title": "Single-nucleus analysis reveals microenvironment-specific neuron and glial cell enrichment in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD) is a complicated neurodegenerative disease. Neuron-glial cell interactions are an important but not fully understood process in the progression of AD. We used bioinformatic methods to analyze single-nucleus RNA sequencing (snRNA-seq) data to investigate the cellular and molecular biological processes of AD. METHOD: snRNA-seq data were downloaded from Gene Expression Omnibus (GEO) datasets and reprocessed to identify 240,804 single nuclei from healthy controls and patients with AD. The cellular composition of AD was further explored using Uniform Manifold Approximation and Projection (UMAP). Enrichment analysis for the functions of the DEGs was conducted and cell development trajectory analyses were used to reveal underlying cell fate decisions. iTALK was performed to identify ligand-receptor pairs among various cell types in the pathological ecological microenvironment of AD. RESULTS: Six cell types and multiple subclusters were identified based on the snRNA-seq data. A subcluster of neuron and glial cells co-expressing lncRNA-SNHG14, myocardin-related transcription factor A (MRTFA), and MRTFB was found to be more abundant in the AD group. This subcluster was enriched in mitogen-activated protein kinase (MAPK)-, immune-, and apoptosis-related pathways. Through molecular docking, we found that lncRNA-SNHG14 may bind MRTFA and MRTFB, resulting in an interaction between neurons and glial cells. CONCLUSIONS: The findings of this study describe a regulatory relationship between lncRNA-SNHG14, MRTFA, and MRTFB in the six main cell types of AD. This relationship may contribute to microenvironment remodeling in AD and provide a theoretical basis for a more in-depth analysis of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "MRTFA",
+      "MRTFB",
+      "Microenvironment",
+      "Single-nucleus sequencing",
+      "lncRNA-SNHG14"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/pathology/metabolism",
+      "Humans",
+      "*Neuroglia/metabolism/pathology",
+      "*Neurons/metabolism",
+      "*Single-Cell Analysis",
+      "Cellular Microenvironment/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Jieqiong",
+        "Lan, Yating",
+        "Zou, Cuihua",
+        "He, Jingfeng",
+        "Huang, Qi",
+        "Zeng, Jingyi",
+        "Pan, Mika",
+        "Mei, Yujia",
+        "Luo, Jiefeng",
+        "Zou, Donghua"
+      ],
+      "short_names": [
+        "Xie J",
+        "Lan Y",
+        "Zou C",
+        "He J",
+        "Huang Q",
+        "Zeng J",
+        "Pan M",
+        "Mei Y",
+        "Luo J",
+        "Zou D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Quality Control, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530021, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. mmeiyujia@gmail.com.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. drljf98@163.com.",
+        "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. zoudonghua@gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Jieqiong",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lan, Yating",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zou, Cuihua",
+        "short_name": "Zou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quality Control, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "He, Jingfeng",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qi",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jingyi",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Pan, Mika",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Mei, Yujia",
+        "short_name": "Mei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. mmeiyujia@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiefeng",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. drljf98@163.com."
+        ]
+      },
+      {
+        "full_name": "Zou, Donghua",
+        "short_name": "Zou D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, People's Republic of China. zoudonghua@gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 May 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/29 00:49",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "42601953",
+      "41204969",
+      "40843131",
+      "40546220",
+      "40500504",
+      "39153159"
+    ],
+    "refs": [
+      "36890231",
+      "36781874",
+      "36447241",
+      "36353512",
+      "36297287",
+      "36001972",
+      "35879802",
+      "35781593",
+      "35701303",
+      "35668335",
+      "35668045",
+      "35381189",
+      "35295737",
+      "34955647",
+      "34795561",
+      "34616287",
+      "34472455",
+      "34386919",
+      "34239132",
+      "33432193",
+      "32989152",
+      "32814053",
+      "32765504",
+      "32757416",
+      "32264890",
+      "32042145",
+      "31959936",
+      "31768052",
+      "31710740",
+      "31178118",
+      "31168611",
+      "31084332",
+      "30787437",
+      "30089861",
+      "30059692",
+      "29608179",
+      "29499767",
+      "29409855",
+      "28930663",
+      "28821953",
+      "28730967",
+      "28602351",
+      "28487629",
+      "28380666",
+      "28215748",
+      "28212749",
+      "27924014",
+      "27292539",
+      "27227366",
+      "27083478",
+      "26871627",
+      "25757756",
+      "25724171",
+      "25061569",
+      "24658644",
+      "23193258",
+      "22455463",
+      "21321390",
+      "20844121",
+      "20444869",
+      "20079433",
+      "18069092",
+      "17074832",
+      "16508301",
+      "16472958",
+      "12612584",
+      "7969117",
+      "3342458"
+    ],
+    "similar": [
+      "38807051",
+      "37735671",
+      "38849813",
+      "37269061",
+      "38167548",
+      "38741048",
+      "31346329",
+      "38695952",
+      "34600516",
+      "35236372",
+      "37712202",
+      "34263425",
+      "38374756",
+      "32989152",
+      "35295737",
+      "34669146",
+      "34013209",
+      "37656385",
+      "39265576",
+      "36297287",
+      "24621265",
+      "31399126",
+      "37790454",
+      "37434203",
+      "39153159",
+      "31928331",
+      "36918839",
+      "32747616",
+      "33212149",
+      "39299805",
+      "35154475",
+      "29359159",
+      "33586092",
+      "29598827",
+      "38076822",
+      "32389853",
+      "36369318",
+      "29109235",
+      "37724426",
+      "30201881",
+      "38345650",
+      "38760483",
+      "24317476",
+      "35669784",
+      "38176925",
+      "34239132",
+      "38297404",
+      "32019384",
+      "37251379",
+      "36405716",
+      "37840493",
+      "38692009",
+      "37519165",
+      "38538816",
+      "37940778",
+      "38047913",
+      "37061663",
+      "20061632",
+      "33459640",
+      "30286791",
+      "20930286",
+      "38554701",
+      "31365320",
+      "36895559",
+      "34429139",
+      "14512716",
+      "37566069",
+      "34819847",
+      "38260321",
+      "34225819",
+      "31755891",
+      "19319679",
+      "36973787",
+      "36873924",
+      "35114922",
+      "24965283",
+      "37545529",
+      "38306039",
+      "23811083",
+      "20847414",
+      "38161331",
+      "31614849",
+      "33865224",
+      "38730027",
+      "32241275",
+      "27060332",
+      "37248328",
+      "38189472",
+      "38987616",
+      "27246599",
+      "34880454",
+      "37848007",
+      "36314201",
+      "38829108",
+      "32417785",
+      "30143969",
+      "34447367",
+      "35616676",
+      "30776002",
+      "34024830",
+      "32577774",
+      "36009085",
+      "36950385",
+      "37745592",
+      "39184089",
+      "36353512",
+      "38976461"
+    ],
+    "review": [
+      "38807051",
+      "37269061",
+      "35236372",
+      "37724426",
+      "30201881",
+      "38297404",
+      "20061632",
+      "31365320",
+      "20847414",
+      "31614849"
+    ],
+    "pmc": [
+      "11134750"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10447-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38807051/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38807051",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

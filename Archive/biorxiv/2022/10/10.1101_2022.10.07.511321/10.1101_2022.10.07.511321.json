@@ -1,0 +1,468 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.07.511321",
+  "title": "Targeting tumour-intrinsic neural vulnerabilities of glioblastoma",
+  "doi": "10.1101/2022.10.07.511321",
+  "abstract": "Glioblastoma is the most common yet deadliest primary brain cancer 1 . The neural behavior of glioblastoma, including the formation of synaptic circuitry and tumour microtubes, is increasingly understood to be pivotal for disease manifestation 2–9 . Nonetheless, the few approved treatments for glioblastoma target its oncological nature, while its neural vulnerabilities remain incompletely mapped and clinically unexploited. Here, we systematically survey the neural molecular dependencies and cellular heterogeneity across glioblastoma patients and diverse model systems. In 27 surgical patient samples, we identify cancer cell morphologies indicative of poor prognosis, and discover repurposable neuroactive drugs with anti-glioblastoma efficacy by image-based drug screening. Glioblastoma cells exhibit functional dependencies on highly expressed neuroactive drug targets, while interpretable molecular machine learning (COSTAR) reveals their downstream convergence on AP-1-driven tumour suppression. This drug-target connectivity signature is confirmed by accurate in silico drug screening on >1 million compounds, as well as by multi-omic profiling of glioblastoma drug responses. Thus, Ca 2+ -driven AP-1 pathway induction represents a tumour-intrinsic vulnerability at the intersection of oncogenesis and neural activity-dependent signaling. Opportunities for clinical translation of this neural vulnerability are epitomized by the antidepressant Vortioxetine synergizing with current standard of care treatments in vivo . Together, the results presented here provide a mechanistic foundation and conceptual framework for the treatment of glioblastoma based on its neural origins.",
+  "authors": [
+    "Lee S",
+    "Weiss T",
+    "Bühler M",
+    "Mena J",
+    "Lottenbach Z",
+    "Wegmann R",
+    "Sun M",
+    "Bihl M",
+    "Augustynek B",
+    "Baumann S",
+    "Goetze S",
+    "van Drogen A",
+    "Pedrioli P",
+    "Kirschenbaum D",
+    "Vasella F",
+    "Rushing EJ",
+    "Wollscheid B",
+    "Hediger MA",
+    "Michael W",
+    "Snijder B"
+  ],
+  "published_date": "2022-10-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511321",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511321.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR555604",
+    "raw_record": {
+      "id": "PPR555604",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR555604"
+        ]
+      },
+      "doi": "10.1101/2022.10.07.511321",
+      "title": "Targeting tumour-intrinsic neural vulnerabilities of glioblastoma",
+      "authorString": "Lee S, Weiss T, Bühler M, Mena J, Lottenbach Z, Wegmann R, Sun M, Bihl M, Augustynek B, Baumann S, Goetze S, van Drogen A, Pedrioli P, Kirschenbaum D, Vasella F, Rushing EJ, Wollscheid B, Hediger MA, Michael W, Snijder B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lee S",
+            "lastName": "Lee",
+            "firstName": "Sohyon",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4790-4990"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weiss T",
+            "lastName": "Weiss",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Clinical Neuroscience Center, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bühler M",
+            "lastName": "Bühler",
+            "firstName": "Marcel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Clinical Neuroscience Center, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mena J",
+            "lastName": "Mena",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lottenbach Z",
+            "lastName": "Lottenbach",
+            "firstName": "Zuzanna",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wegmann R",
+            "lastName": "Wegmann",
+            "firstName": "Rebekka",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun M",
+            "lastName": "Sun",
+            "firstName": "Miaomiao",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Clinical Neuroscience Center, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bihl M",
+            "lastName": "Bihl",
+            "firstName": "Michel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, University Hospital Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Augustynek B",
+            "lastName": "Augustynek",
+            "firstName": "Bartłomiej",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Membrane Transport Discovery Lab, Department of Nephrology and Hypertension and Department of Biomedical Research, Inselspital, University of Bern, Bern, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baumann S",
+            "lastName": "Baumann",
+            "firstName": "Sven",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Membrane Transport Discovery Lab, Department of Nephrology and Hypertension and Department of Biomedical Research, Inselspital, University of Bern, Bern, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goetze S",
+            "lastName": "Goetze",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "ETH PHRT Swiss Multi-Omics Center (SMOC), Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Drogen A",
+            "lastName": "van Drogen",
+            "firstName": "Audrey",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "ETH PHRT Swiss Multi-Omics Center (SMOC), Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pedrioli P",
+            "lastName": "Pedrioli",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "ETH PHRT Swiss Multi-Omics Center (SMOC), Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kirschenbaum D",
+            "lastName": "Kirschenbaum",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0609-8788"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuropathology, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vasella F",
+            "lastName": "Vasella",
+            "firstName": "Flavio",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurosurgery, Clinical Neuroscience Center, University Hospital and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rushing EJ",
+            "lastName": "Rushing",
+            "firstName": "Elisabeth",
+            "initials": "EJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuropathology, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wollscheid B",
+            "lastName": "Wollscheid",
+            "firstName": "Bernd",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "ETH PHRT Swiss Multi-Omics Center (SMOC), Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hediger MA",
+            "lastName": "Hediger",
+            "firstName": "Matthias",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Membrane Transport Discovery Lab, Department of Nephrology and Hypertension and Department of Biomedical Research, Inselspital, University of Bern, Bern, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michael W",
+            "lastName": "Michael",
+            "firstName": "Weller",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Clinical Neuroscience Center, University Hospital Zurich and University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Snijder B",
+            "lastName": "Snijder",
+            "firstName": "Berend",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3386-6583"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9608-1316"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0609-8788"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3386-6583"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4790-4990"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Glioblastoma is the most common yet deadliest primary brain cancer  1 . The neural behavior of glioblastoma, including the formation of synaptic circuitry and tumour microtubes, is increasingly understood to be pivotal for disease manifestation  2–9 . Nonetheless, the few approved treatments for glioblastoma target its oncological nature, while its neural vulnerabilities remain incompletely mapped and clinically unexploited. Here, we systematically survey the neural molecular dependencies and cellular heterogeneity across glioblastoma patients and diverse model systems. In 27 surgical patient samples, we identify cancer cell morphologies indicative of poor prognosis, and discover repurposable neuroactive drugs with anti-glioblastoma efficacy by image-based drug screening. Glioblastoma cells exhibit functional dependencies on highly expressed neuroactive drug targets, while interpretable molecular machine learning (COSTAR) reveals their downstream convergence on AP-1-driven tumour suppression. This drug-target connectivity signature is confirmed by accurate  in silico drug screening on >1 million compounds, as well as by multi-omic profiling of glioblastoma drug responses. Thus, Ca  2+ -driven AP-1 pathway induction represents a tumour-intrinsic vulnerability at the intersection of oncogenesis and neural activity-dependent signaling. Opportunities for clinical translation of this neural vulnerability are epitomized by the antidepressant Vortioxetine synergizing with current standard of care treatments  in vivo . Together, the results presented here provide a mechanistic foundation and conceptual framework for the treatment of glioblastoma based on its neural origins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "204972",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/07/2022.10.07.511321.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.07.511321"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR555604"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR555604&type=FILE&fileName=EMS155693-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS155693",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-10-09",
+      "firstPublicationDate": "2022-10-07",
+      "firstIndexDate": "2022-10-09",
+      "fullTextReceivedDate": "2023-11-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

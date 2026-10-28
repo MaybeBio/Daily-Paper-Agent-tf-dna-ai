@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary figure legends)
+- **Assessment boundary** Scientific validity, technical soundness, and conceptual contribution of the claims as presented; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose that CTCF occupancy is regulated by the epigenetic state of a specific nucleosome positioned at the N-terminal side of CTCF binding sites, termed the CTCF priming nucleosome (CPN). They argue that permissive CPN states (unmethylated CpG, absence of H3K9me3) allow CTCF to recruit SMARCA5, reposition the CPN downstream, and establish stable binding and cohesin retention, while repressive CPN states result in transient CTCF binding and reduced cohesin stalling.
+- **Visible evidence base** ChIP-seq, ATCC-seq, MNase-H3 ChIP-seq, MeDIP-seq, and published datasets from mouse and human cell lines; AlphaFold3 structural predictions; previously published mutant cell line system
+- **Missing materials affecting confidence** No detailed figure panels or supplementary figures were provided; no quantitative statistical analyses or effect sizes; no raw data or processing details; no code or analysis scripts; no detailed methods for bioinformatics analyses beyond brief descriptions
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question in chromatin biology: how epigenetic context shapes CTCF binding and function. The central hypothesis, that a specific nucleosome positioned relative to CTCF motifs acts as a regulatory gatekeeper, is conceptually interesting and builds on prior work. However, the evidence presented is largely correlative and descriptive. The causal claims, particularly regarding SMARCA5 recruitment and the directional displacement of the CPN, are not directly tested. The reliance on published datasets and the absence of key experimental validations weaken the overall case. The manuscript would benefit from more direct perturbation experiments and quantitative analyses to support the proposed model.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, CTCF biology, chromatin remodeling, epigenetic regulation, and cell-type-specific gene expression. The proposed model of a "priming nucleosome" could be of interest to those investigating how chromatin states are established and maintained during differentiation and development.
+- **Major strengths** The manuscript addresses an important and under-explored question about the mechanistic basis of cell-type-specific CTCF binding. The integration of multiple published and new datasets is commendable. The proposed model is clear and testable. The use of a well-characterized mutant cell line system provides a useful framework for studying CTCF domain function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that CTCF recruits SMARCA5 via its N-terminus to displace the CPN and establish stable binding.
+  - **Evidence pointer** Results section "The N-terminus of CTCF is necessary for the recruitment of the chromatin remodeling factor SMARCA5 (Snf2h) at CTCF binding sites"; Figure 5
+  - **Concern** The claim of direct recruitment of SMARCA5 by the CTCF N-terminus is not supported by direct biochemical or biophysical evidence. The data show correlative ChIP-seq occupancy changes upon CTCF truncation, but do not demonstrate a direct physical interaction. The AlphaFold3 prediction is low-confidence (ipTM 0.25) and is not validated experimentally. Alternative explanations, such as indirect effects on chromatin state that influence SMARCA5 recruitment, are not excluded.
+  - **Why it matters** The proposed mechanism hinges on this specific recruitment step. Without direct evidence, the model remains speculative and the causal chain from CTCF binding to nucleosome displacement is not established.
+  - **Resolution test** Provide direct evidence of CTCF N-terminus-SMARCA5 interaction (e.g., co-immunoprecipitation, pull-down, or crosslinking) and demonstrate that SMARCA5 recruitment is dependent on this interaction. Alternatively, perform SMARCA5 depletion/rescue experiments to show that the nucleosome displacement and chromatin opening observed are specifically dependent on SMARCA5 activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim a "sevenfold discrepancy" between in vivo bound and potentially available CTCF binding sites, and categorize sites into three groups based on binding status.
+  - **Evidence pointer** Results section "About sevenfold discrepancy between in vivo bound and potentially available CTCF binding sites"; Figure 1
+  - **Concern** The manuscript lacks quantitative statistical analyses to support the classification of sites and the differences between groups. No confidence intervals, effect sizes, or statistical tests are reported. The comparison between ChIP-seq and Affinity-seq datasets from different sources and platforms may introduce systematic biases that are not addressed. The threshold for defining "bound" vs "not bound" is not clearly described.
+  - **Why it matters** The entire analysis and subsequent conclusions depend on the reliable classification of CTCF binding sites. Without rigorous quantitative support, the reported discrepancies and group differences may not be robust.
+  - **Resolution test** Provide detailed statistical analyses, including appropriate tests for comparing groups, and clearly describe the thresholds and normalization methods used. Address potential batch effects or platform-specific biases in the comparison of ChIP-seq and Affinity-seq data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct testing of model
+  - **Claim pointer** The authors propose that the CPN is displaced downstream upon CTCF binding, and that this displacement is dependent on the N-terminus of CTCF.
+  - **Evidence pointer** Results sections "Nucleosome positioning around CTCF binding sites depends on the N-terminus of CTCF" and "The N-terminus of CTCF is necessary for the recruitment of the chromatin remodeling factor SMARCA5 (Snf2h) at CTCF binding sites"; Figures 3, 4, 5
+  - **Concern** The directional displacement of the CPN is inferred from static population-level MNase-H3 ChIP-seq data. This approach cannot distinguish between nucleosome sliding, eviction, or repositioning of a subset of cells. The claim of "downstream" displacement is not directly demonstrated. The data are consistent with multiple models, including partial nucleosome eviction or changes in nucleosome stability.
+  - **Why it matters** The proposed model makes specific predictions about nucleosome dynamics. Without direct evidence for directional displacement, the model is not uniquely supported by the data.
+  - **Resolution test** Use single-molecule approaches (e.g., single-molecule nucleosome positioning, nanoNOMe-seq) or time-resolved experiments to directly observe nucleosome movement upon CTCF binding. Alternatively, perform in vitro nucleosome remodeling assays with purified components to demonstrate directional displacement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors propose that the epigenetic state of the CPN shapes cell-specific CTCF binding patterns.
+  - **Evidence pointer** Results sections "CTCF motifs are strategically positioned at the entry sides of well-formed nucleosomes..." and "Cell-specific CTCF occupancy is pre-marked and stable within each cell type"; Figures 1, 7
+  - **Concern** The analysis is largely based on a limited number of cell types and primarily focuses on mouse cells. The generalizability of the model to human cells and diverse cell types is not thoroughly tested. The analysis of human cell lines (K562, MCF7) is presented only in supplementary figures, which were not provided for review.
+  - **Why it matters** The claim of cell-specific regulation implies a general mechanism. Without broader validation, the model may be specific to the cell types analyzed.
+  - **Resolution test** Extend the analysis to a wider range of cell types and species. Provide the supplementary figures for review and include a more systematic comparison across cell types.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses specialized terminology (e.g., "CTCF priming nucleosome") without sufficient context for a general reader.
+  - **Required correction** Briefly define the CPN concept in the abstract and consider simplifying the language to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Bioinformatic analysis of ChIP-seq, ATAC-seq, MNase-seq, meDIP-seq data"
+  - **Issue** The bioinformatics methods are described at a high level without specific parameters for many steps (e.g., peak calling thresholds, normalization methods, background subtraction). This limits reproducibility.
+  - **Required correction** Provide a detailed description of all bioinformatics parameters and analysis steps, or reference a published protocol with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section "Why does the enrichment of H3K9me3 and H2A.Z at the CPN affect CTCF occupancy?"
+  - **Issue** The discussion of H2A.Z's role is somewhat speculative and does not fully address the possibility that H2A.Z enrichment is a consequence rather than a cause of CTCF binding.
+  - **Required correction** Acknowledge the correlative nature of the H2A.Z data and discuss alternative interpretations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Cell-specific CTCF occupancy is pre-marked and stable within each cell type"
+  - **Issue** The analysis of the 199 irreversibly lost CTCF sites is interesting but underdeveloped. The authors do not explore the functional significance of these sites or their genomic features in detail.
+  - **Required correction** Expand the analysis of the 199 sites, including genomic context, associated genes, and potential functional implications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct SMARCA5 recruitment), R1-M2 (quantitative rigor), R1-M3 (direct testing of nucleosome displacement)
+- **Assessment against Nature-style criteria** Originality: The concept of a "priming nucleosome" is a novel framing, though it builds on existing work on CTCF-nucleosome competition. Scientific importance: The question of how cell-specific CTCF binding is regulated is important for understanding genome organization and gene regulation. Interdisciplinary readership: The topic is of interest to chromatin biologists, epigenomicists, and those studying gene regulation, but the presentation is heavily specialized. Technical soundness: The study relies heavily on correlative genomics and lacks direct mechanistic experiments; the statistical rigor is insufficient. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge; the abstract and introduction are not accessible to a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual model is interesting, but the evidence is largely correlative and lacks direct mechanistic support. The manuscript would require substantial additional work, including direct biochemical validation of the SMARCA5 interaction, quantitative statistical analyses, and experiments that directly test the proposed nucleosome displacement mechanism, before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that CTCF directly recruits SMARCA5 via its N-terminus is unsupported by direct evidence; the AlphaFold3 prediction is low-confidence and not experimentally validated.
+- The claim of directional "downstream" displacement of the CPN is not directly demonstrated by the population-level data presented.
+- The claim that the CPN's epigenetic state "shapes" cell-specific CTCF binding implies causality, but the evidence is correlative.
+- The generalizability of the model to human cells and diverse cell types is not adequately supported, as key human cell data are only in supplementary figures not provided for review.
+- The claim that low-occupancy CTCF sites are "transiently bound" and contribute to loop formation is speculative and not directly tested.

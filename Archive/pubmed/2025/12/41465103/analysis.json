@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41465103",
+  "title": "Generation of a Compendium of Transcription Factor Cascades and Identification of Potential Therapeutic Targets Using Graph Machine Learning.",
+  "authors": "Sivarajkumar, Sonish; Roy, Romy; Tandale, Pratyush; Bhardwaj, Ankit; Johnson, Kipp W; Titus, Anoop; Glicksberg, Benjamin S; Khader, Shameer; Yadav, Kamlesh K; Subramanian, Lakshminarayanan",
+  "journal": "Genes",
+  "published_date": "2025-12-30",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用图机器学习构建TF级联知识图谱并识别关键TF，但仅基于STRING数据库的蛋白-蛋白相互作用，未涉及TF-DNA结合位点、互作界面或三维结构建模，与课题核心的TF-DNA互作机制研究关联较弱。",
+  "abstract": "BACKGROUND: Transcription factors (TFs) are critical regulators of gene expression, and their dysregulation is implicated in diseases like cancer. This study aims to create a comprehensive resource of TF cascades to identify potential therapeutic targets. METHODS: We extracted TF interactions from the STRING database, constructed a knowledge graph using graph machine learning, and performed pathway enrichment analysis with Enrichr. Network analysis and PageRank identified influential TFs. RESULTS: We generated 81,488 unique TF cascades, with the longest containing 62 TFs. Key TFs (e.g., MYC, TP53, STAT3) were identified, and enriched pathways included cancer-related processes. A knowledge graph and dataset were made publicly available. CONCLUSIONS: This compendium of TF cascades provides a valuable resource for understanding TF interactions and identifying novel drug targets for precision therapeutics.",
+  "abstract_zh": "背景：转录因子（Transcription factors, TFs）是基因表达的关键调控因子，其失调与癌症等疾病相关。本研究旨在创建全面的TF级联资源，以识别潜在的治疗靶点。方法：我们从STRING数据库提取TF相互作用，利用图机器学习构建知识图谱，并使用Enrichr进行通路富集分析。网络分析和PageRank识别了有影响力的TFs。结果：我们生成了81,488个独特的TF级联，其中最长的包含62个TFs。关键TFs（如MYC、TP53、STAT3）被识别，富集通路包括癌症相关过程。知识图谱和数据集已公开提供。结论：该TF级联汇编为理解TF相互作用和识别精准治疗的新药物靶点提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41465103/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41465103/",
+  "paper_page_path": "papers/pubmed/41465103/index.html"
+}

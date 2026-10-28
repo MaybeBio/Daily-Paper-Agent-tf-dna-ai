@@ -1,0 +1,281 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.07.544059",
+  "title": "Modelling protein complexes with crosslinking mass spectrometry and deep learning",
+  "doi": "10.1101/2023.06.07.544059",
+  "abstract": "Scarcity of structural and evolutionary information on protein complexes poses a challenge to deep learning-based structure modelling. We integrated experimental distance restraints obtained by crosslinking mass spectrometry (MS) into AlphaFold-Multimer, by extending AlphaLink to protein complexes. Integrating crosslinking MS data substantially improves modelling performance on challenging targets, by helping to identify interfaces, focusing sampling, and improving model selection. This extends to single crosslinks from whole-cell crosslinking MS, opening the possibility of whole-cell structural investigations driven by experimental data. We demonstrate this by revealing the molecular basis of iron homeostasis in Bacillus subtilis .",
+  "authors": [
+    "Stahl K",
+    "Demann L",
+    "Bremenkamp R",
+    "Warneke R",
+    "Hormes B",
+    "Stülke J",
+    "Brock O",
+    "Rappsilber J"
+  ],
+  "published_date": "2023-06-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544059",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544059.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR673232",
+    "raw_record": {
+      "id": "PPR673232",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR673232"
+        ]
+      },
+      "doi": "10.1101/2023.06.07.544059",
+      "title": "Modelling protein complexes with crosslinking mass spectrometry and deep learning",
+      "authorString": "Stahl K, Demann L, Bremenkamp R, Warneke R, Hormes B, Stülke J, Brock O, Rappsilber J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stahl K",
+            "lastName": "Stahl",
+            "firstName": "Kolja",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9990-7643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universität Berlin, Chair of Bioanalytics, 10623 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demann L",
+            "lastName": "Demann",
+            "firstName": "Lorenz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Georg-August-Universität Göttingen, Department of General Microbiology, Institute for Microbiology & Genetics, GZMB, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bremenkamp R",
+            "lastName": "Bremenkamp",
+            "firstName": "Rica",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5999-1310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Georg-August-Universität Göttingen, Department of General Microbiology, Institute for Microbiology & Genetics, GZMB, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warneke R",
+            "lastName": "Warneke",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Georg-August-Universität Göttingen, Department of General Microbiology, Institute for Microbiology & Genetics, GZMB, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hormes B",
+            "lastName": "Hormes",
+            "firstName": "Björn",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Georg-August-Universität Göttingen, Department of General Microbiology, Institute for Microbiology & Genetics, GZMB, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stülke J",
+            "lastName": "Stülke",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Georg-August-Universität Göttingen, Department of General Microbiology, Institute for Microbiology & Genetics, GZMB, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brock O",
+            "lastName": "Brock",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universität Berlin, Robotics and Biology Laboratory, 10623 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rappsilber J",
+            "lastName": "Rappsilber",
+            "firstName": "Juri",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universität Berlin, Chair of Bioanalytics, 10623 Berlin, Germany"
+                },
+                {
+                  "affiliation": "Si-M/”Der Simulierte Mensch”, a Science Framework of Technische Universität Berlin and Charité - Universitätsmedizin Berlin, 10623 Berlin, Germany"
+                },
+                {
+                  "affiliation": "Wellcome Centre for Cell Biology, University of Edinburgh, Edinburgh EH9 3BF, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5881-5390"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5999-1310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9990-7643"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Scarcity of structural and evolutionary information on protein complexes poses a challenge to deep learning-based structure modelling. We integrated experimental distance restraints obtained by crosslinking mass spectrometry (MS) into AlphaFold-Multimer, by extending AlphaLink to protein complexes. Integrating crosslinking MS data substantially improves modelling performance on challenging targets, by helping to identify interfaces, focusing sampling, and improving model selection. This extends to single crosslinks from whole-cell crosslinking MS, opening the possibility of whole-cell structural investigations driven by experimental data. We demonstrate this by revealing the molecular basis of iron homeostasis in  Bacillus subtilis .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "227166",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.07.544059.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.07.544059"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR673232"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR673232&type=FILE&fileName=EMS177180-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39251624",
+            "reference": "Nature communications. 2024 Sep;15(1):7866",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177180",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-11",
+      "firstPublicationDate": "2023-06-09",
+      "firstIndexDate": "2023-06-11",
+      "fullTextReceivedDate": "2024-05-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

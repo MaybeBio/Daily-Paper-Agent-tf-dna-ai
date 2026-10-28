@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42074521",
+    "doi": "10.3390/genes17040403",
+    "title": "Lactylation-Associated Immune Metabolic Reprogramming Identifies S100A2 and S100A14 as Candidate Diagnostic Biomarkers in Primary Open-Angle Glaucoma: An Integrated Bulk and Single-Cell Transcriptomic Analysis."
+  },
+  "content": {
+    "abstract": "Background: Primary open-angle glaucoma (POAG) is a leading cause of irreversible blindness worldwide, characterized by progressive optic nerve degeneration and marked molecular heterogeneity. Increasing evidence indicates that metabolic dysregulation and immune remodeling contribute to POAG pathogenesis; however, the underlying regulatory networks and reliable diagnostic biomarkers remain incompletely defined. Methods: Bulk transcriptomic and single-cell RNA sequencing (scRNA-seq) datasets of trabecular meshwork tissues were retrieved from Gene Expression Omnibus (GEO). Differential expression analysis and weighted gene co-expression network analysis (WGCNA) were performed to identify disease-associated modules. A machine learning framework was applied to construct classification models. Estimated immune-cell fractions were assessed using CIBERSORT, followed by pathway and transcription factor analyses. Single-cell analysis was conducted to examine the cell type-specific expression patterns. Results: A total of 195 differentially expressed genes were identified between POAG and control samples. WGCNA revealed a lactylation-related module strongly correlated with disease status. Machine learning identified S100A2 and S100A14 as candidate diagnostic biomarkers with consistent classification performance across datasets. Immune infiltration analysis suggested alterations in the immune microenvironment in POAG. Single-cell data showed that the model genes exhibited sparse but non-uniform expression across cell populations. Conclusions: This integrative analysis prioritizes S100A2 and S100A14 as candidate diagnostic biomarkers for POAG and indicates potential associations with immune-metabolic regulatory mechanisms.",
+    "keywords": [
+      "immune microenvironment",
+      "lactylation",
+      "machine learning",
+      "primary open-angle glaucoma",
+      "single-cell RNA sequencing",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Glaucoma, Open-Angle/genetics/diagnosis/metabolism/immunology",
+      "Humans",
+      "Biomarkers/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "Single-Cell Analysis",
+      "Metabolic Reprogramming",
+      "Transcriptome/genetics",
+      "Gene Expression Profiling",
+      "*S100 Proteins/genetics/metabolism",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yu",
+        "Fu, Xin",
+        "Gong, Yajun",
+        "Zeng, Fangyuan",
+        "Tang, Min",
+        "Hu, Sixian",
+        "Huang, Guangyi",
+        "Tu, Tianxian",
+        "Zhou, Xiaolai"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Fu X",
+        "Gong Y",
+        "Zeng F",
+        "Tang M",
+        "Hu S",
+        "Huang G",
+        "Tu T",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-2949-4769"
+      ],
+      "affiliations": [
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China.",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yu",
+        "short_name": "Xu Y",
+        "identifiers": [
+          "0009-0004-2949-4769"
+        ],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xin",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Yajun",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Fangyuan",
+        "short_name": "Zeng F",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Min",
+        "short_name": "Tang M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Sixian",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guangyi",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Tianxian",
+        "short_name": "Tu T",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaolai",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangzhou 510623, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Mar 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 06:32",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39934144",
+      "38272457",
+      "32442866",
+      "32341164",
+      "31645732",
+      "31178118",
+      "29506863",
+      "28242160",
+      "27654570",
+      "24974815",
+      "24825645",
+      "22834835",
+      "22426214",
+      "22155051",
+      "20709058",
+      "19114008",
+      "16962364",
+      "16862071",
+      "16488940",
+      "4111808"
+    ],
+    "similar": [
+      "42074521",
+      "41388523",
+      "42024670",
+      "42123445",
+      "42292364",
+      "41733593",
+      "41611834",
+      "42326009",
+      "41310117",
+      "39922523",
+      "41436831",
+      "42266688",
+      "42045413",
+      "41601671",
+      "40914702",
+      "42233387",
+      "42391245",
+      "41200169",
+      "41221285",
+      "40532306",
+      "41432483",
+      "40764361",
+      "36002796",
+      "42098867",
+      "41638162",
+      "41013556",
+      "42088521",
+      "41665627",
+      "41052072",
+      "42577419",
+      "42059276",
+      "42265520",
+      "37610681",
+      "42568110",
+      "41009952",
+      "42569390",
+      "41291841",
+      "42531047",
+      "41706425",
+      "40404675",
+      "41504052",
+      "41756296",
+      "42274933",
+      "42123756",
+      "40652070",
+      "41591671",
+      "41107929",
+      "41735888",
+      "42154423",
+      "39923303",
+      "41409278",
+      "41246341",
+      "41816342",
+      "42040898",
+      "40742465",
+      "42435052",
+      "42404897",
+      "42309401",
+      "37774963",
+      "39133496",
+      "42553137",
+      "42471019",
+      "41299729",
+      "40967560",
+      "41224720",
+      "40503237",
+      "41601694",
+      "41570454",
+      "41080564",
+      "42212139",
+      "41739808",
+      "41703488",
+      "42249833",
+      "41878449",
+      "42099592",
+      "40766309",
+      "42135859",
+      "41068080",
+      "41913032",
+      "40948769",
+      "41905994",
+      "40562139",
+      "40618698",
+      "41139200",
+      "41789070",
+      "40128732",
+      "41676113",
+      "40046872",
+      "41479901",
+      "41424060",
+      "42263871",
+      "39125762",
+      "42536689",
+      "39560561",
+      "40596702",
+      "40959079",
+      "42361409",
+      "39026663",
+      "37940950",
+      "41686563"
+    ],
+    "review": [
+      "42074521",
+      "41665627"
+    ],
+    "pmc": [
+      "13115881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17040403",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42074521/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1453",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

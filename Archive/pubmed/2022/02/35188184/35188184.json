@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "35188184",
+    "doi": "10.1093/bioinformatics/btac117",
+    "title": "High-performance single-cell gene regulatory network inference at scale: the Inferelator 3.0."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Gene regulatory networks define regulatory relationships between transcription factors and target genes within a biological system, and reconstructing them is essential for understanding cellular growth and function. Methods for inferring and reconstructing networks from genomics data have evolved rapidly over the last decade in response to advances in sequencing technology and machine learning. The scale of data collection has increased dramatically; the largest genome-wide gene expression datasets have grown from thousands of measurements to millions of single cells, and new technologies are on the horizon to increase to tens of millions of cells and above. RESULTS: In this work, we present the Inferelator 3.0, which has been significantly updated to integrate data from distinct cell types to learn context-specific regulatory networks and aggregate them into a shared regulatory network, while retaining the functionality of the previous versions. The Inferelator is able to integrate the largest single-cell datasets and learn cell-type-specific gene regulatory networks. Compared to other network inference methods, the Inferelator learns new and informative Saccharomyces cerevisiae networks from single-cell gene expression data, measured by recovery of a known gold standard. We demonstrate its scaling capabilities by learning networks for multiple distinct neuronal and glial cell types in the developing Mus musculus brain at E18 from a large (1.3 million) single-cell gene expression dataset with paired single-cell chromatin accessibility data. AVAILABILITY AND IMPLEMENTATION: The inferelator software is available on GitHub (https://github.com/flatironinstitute/inferelator) under the MIT license and has been released as python packages with associated documentation (https://inferelator.readthedocs.io/). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Gene Regulatory Networks",
+      "*Software",
+      "Genomics",
+      "Genome",
+      "Chromatin"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Skok Gibbs, Claudia",
+        "Jackson, Christopher A",
+        "Saldi, Giuseppe-Antonio",
+        "Tjarnberg, Andreas",
+        "Shah, Aashna",
+        "Watters, Aaron",
+        "De Veaux, Nicholas",
+        "Tchourine, Konstantine",
+        "Yi, Ren",
+        "Hamamsy, Tymor",
+        "Castro, Dayanne M",
+        "Carriero, Nicholas",
+        "Gorissen, Bram L",
+        "Gresham, David",
+        "Miraldi, Emily R",
+        "Bonneau, Richard"
+      ],
+      "short_names": [
+        "Skok Gibbs C",
+        "Jackson CA",
+        "Saldi GA",
+        "Tjarnberg A",
+        "Shah A",
+        "Watters A",
+        "De Veaux N",
+        "Tchourine K",
+        "Yi R",
+        "Hamamsy T",
+        "Castro DM",
+        "Carriero N",
+        "Gorissen BL",
+        "Gresham D",
+        "Miraldi ER",
+        "Bonneau R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8769-2710",
+        "ORCID: 0000-0003-0064-1791",
+        "ORCID: 0000-0002-0238-3573"
+      ],
+      "affiliations": [
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+        "Center for Data Science, New York University, New York, NY 10003, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY 10027, USA.",
+        "Computer Science Department, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA.",
+        "Center for Data Science, New York University, New York, NY 10003, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Flatiron Institute, Scientific Computing Core, Simons Foundation, New York, NY 10010, USA.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Divisions of Immunobiology and Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH 45267, USA.",
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+        "Center for Data Science, New York University, New York, NY 10003, USA.",
+        "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA.",
+        "Computer Science Department, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Skok Gibbs, Claudia",
+        "short_name": "Skok Gibbs C",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+          "Center for Data Science, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Jackson, Christopher A",
+        "short_name": "Jackson CA",
+        "identifiers": [
+          "0000-0002-8769-2710"
+        ],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Saldi, Giuseppe-Antonio",
+        "short_name": "Saldi GA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Tjärnberg, Andreas",
+        "short_name": "Tjärnberg A",
+        "identifiers": [
+          "0000-0003-0064-1791"
+        ],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Shah, Aashna",
+        "short_name": "Shah A",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Watters, Aaron",
+        "short_name": "Watters A",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA."
+        ]
+      },
+      {
+        "full_name": "De Veaux, Nicholas",
+        "short_name": "De Veaux N",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Tchourine, Konstantine",
+        "short_name": "Tchourine K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Yi, Ren",
+        "short_name": "Yi R",
+        "identifiers": [
+          "0000-0002-0238-3573"
+        ],
+        "affiliations": [
+          "Computer Science Department, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+        ]
+      },
+      {
+        "full_name": "Hamamsy, Tymor",
+        "short_name": "Hamamsy T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Data Science, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Castro, Dayanne M",
+        "short_name": "Castro DM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Carriero, Nicholas",
+        "short_name": "Carriero N",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Scientific Computing Core, Simons Foundation, New York, NY 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Gorissen, Bram L",
+        "short_name": "Gorissen BL",
+        "identifiers": [],
+        "affiliations": [
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Gresham, David",
+        "short_name": "Gresham D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Miraldi, Emily R",
+        "short_name": "Miraldi ER",
+        "identifiers": [],
+        "affiliations": [
+          "Divisions of Immunobiology and Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH 45267, USA."
+        ]
+      },
+      {
+        "full_name": "Bonneau, Richard",
+        "short_name": "Bonneau R",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY 10010, USA.",
+          "Center for Data Science, New York University, New York, NY 10003, USA.",
+          "Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA.",
+          "Computer Science Department, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Apr 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/22 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "42208532",
+      "42180427",
+      "42020604",
+      "41978384",
+      "41889170",
+      "41314178",
+      "41288963",
+      "41278993",
+      "41022589",
+      "40662784",
+      "40626041",
+      "40463179",
+      "40388063",
+      "40260118",
+      "39939367",
+      "39872661",
+      "39829819",
+      "39535258",
+      "39502448",
+      "39296931",
+      "39169186",
+      "38913855",
+      "38806476",
+      "38798697",
+      "38589899",
+      "38460192",
+      "38444538",
+      "38312198",
+      "38238840",
+      "38229529",
+      "38114516",
+      "38014297",
+      "37897702",
+      "37561790",
+      "37365273",
+      "37084275",
+      "36964499",
+      "36698974",
+      "36692138",
+      "36623813",
+      "36480601",
+      "36451115",
+      "36321549",
+      "35139376",
+      "35063095"
+    ],
+    "refs": [
+      "36755098",
+      "35058622",
+      "34715899",
+      "34552240",
+      "34020546",
+      "33419455",
+      "33411784",
+      "33135076",
+      "32886547",
+      "32728249",
+      "32561888",
+      "32483332",
+      "32420869",
+      "32181581",
+      "31985403",
+      "31937974",
+      "31907445",
+      "31627739",
+      "31586406",
+      "31467272",
+      "31278058",
+      "31178118",
+      "30696696",
+      "30677040",
+      "29914350",
+      "29641998",
+      "29545511",
+      "29425488",
+      "29409532",
+      "29070809",
+      "29036684",
+      "28091601",
+      "27984732",
+      "27929523",
+      "27655842",
+      "27498692",
+      "27115495",
+      "26577401",
+      "26568633",
+      "26355593",
+      "26000488",
+      "25605792",
+      "25152607",
+      "23525069",
+      "23021777",
+      "22383849",
+      "22084422",
+      "22034917",
+      "21414487",
+      "21049040",
+      "19964678",
+      "18451266",
+      "18287046",
+      "16686963",
+      "14744435",
+      "9381177"
+    ],
+    "similar": [
+      "35188184",
+      "20339551",
+      "31985403",
+      "19964678",
+      "36626328",
+      "30445495",
+      "31510655",
+      "29617937",
+      "39013340",
+      "36803795",
+      "35191481",
+      "36610708",
+      "34888624",
+      "28379368",
+      "39179997",
+      "29069282",
+      "34086847",
+      "36698768",
+      "34252956",
+      "35561174",
+      "28155637",
+      "36833196",
+      "30016412",
+      "38950180",
+      "23525069",
+      "29401212",
+      "35394015",
+      "37740957",
+      "31950997",
+      "35179572",
+      "35929807",
+      "30547796",
+      "21049040",
+      "33241320",
+      "19381524",
+      "31287491",
+      "30816925",
+      "33734315",
+      "33720325",
+      "38290765",
+      "29020744",
+      "35451460",
+      "36111865",
+      "35976093",
+      "37097893",
+      "26209801",
+      "33704425",
+      "30395189",
+      "32044918",
+      "28968701",
+      "36342190",
+      "35218338",
+      "29444205",
+      "30165436",
+      "35561176",
+      "31688914",
+      "31510693",
+      "25431329",
+      "31971577",
+      "16686963",
+      "29409532",
+      "37004161",
+      "32348298",
+      "30547400",
+      "32232425",
+      "33381823",
+      "35961023",
+      "30388204",
+      "36790055",
+      "35561197",
+      "34044854",
+      "31504175",
+      "33270838",
+      "37788349",
+      "29186340",
+      "31373614",
+      "25480376",
+      "38980373",
+      "19381531",
+      "35552372",
+      "37421399",
+      "25246431",
+      "33734320",
+      "32657410",
+      "33576390",
+      "31990289",
+      "27336171",
+      "34623430",
+      "35062026",
+      "29425308",
+      "21816876",
+      "38718209",
+      "30677040",
+      "33438713",
+      "27993773",
+      "24389658",
+      "35792837",
+      "28076866",
+      "30961611",
+      "29329398",
+      "37802884",
+      "35652733",
+      "38609714",
+      "37817115",
+      "36328151",
+      "37034702",
+      "33225112"
+    ],
+    "review": [
+      "35188184",
+      "19381524",
+      "19381531",
+      "35792837"
+    ],
+    "pmc": [
+      "9048651"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35188184.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35188184/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35188184",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35188184",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35188184",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse125162",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac117",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "38981197",
+    "doi": "10.1016/j.imbio.2024.152826",
+    "title": "Exploring the role of pyroptosis and immune infiltration in sepsis based on bioinformatic analysis."
+  },
+  "content": {
+    "abstract": "PURPOSE: Sepsis is a disease that is typically treated in intensive care units with high mortality and morbidity. Pyroptosis is a newly identified type of programmed cell death and is characterized by inflammatory cytokine secretion. However, the role of pyroptosis in sepsis remains unclear. METHODS: GSE28750 and GSE134347 datasets were obtained from the Gene Expression Omnibus (GEO) database. Differentially expressed pyroptosis genes (DEPGs) were identified between sepsis and healthy controls. Machine learning was used to further narrow the gene range. Receiver operating curves (ROC) were generated to estimate the diagnostic efficacy. Immune infiltration levels were estimated via single-sample gene set enrichment analysis (ssGSEA). A network database was used to predict the upstream transcription factors and miRNAs of DEPGs. Finally, the expression of the genes was validated by qRT-PCR between sepsis patients and healthy controls. RESULTS: We found that the pyroptosis pathway was enriched and activated in sepsis. 8 DEPGs were identified. A heatmap showed that the genes, NLRC4, NAIP, IL-18, AIM2 and ELANE, were abundant in the sepsis samples, and the genes, NLRP1, CHMP7 and TP53, were abundant in the healthy control samples. The ssGSEA results showed that the abundances of activated dendritic cells, MDSC, macrophage, plasmacytoid dendritic cells, regulatory T-cells, and Th17-cells were significantly higher, while the activated B-cell, activated CD8 T-cell, CD56 dim tural killer cell, immature B-cell, monocyte, and T follicular helper cell abundances were lower in sepsis samples compared to healthy controls. The qRT-PCR results showed that the expression levels of NAIP, IL-18, TP53, CHMP7, NLRC4, ELANE and NLRP1 were consistant with the bioinformatic analyses, while the expression level of AIM2 has no significant difference. CONCLUSION: Our study identified seven potential pyroptosis-related genes, NAIP, IL-18, TP53, CHMP7, NLRC4, ELANE and NLRP1. This study revealed that pyroptosis may promote sepsis development by activating the immune response.",
+    "keywords": [
+      "Bioinformatic analysis",
+      "Diagnosis",
+      "Immune infiltration",
+      "Programmed cell death",
+      "Pyroptosis",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "*Pyroptosis/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Sepsis/immunology/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zhi-Hua",
+        "Wang, Yi",
+        "Yu, Xiang-You"
+      ],
+      "short_names": [
+        "Li ZH",
+        "Wang Y",
+        "Yu XY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China.",
+        "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China.",
+        "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China. Electronic address: yu2796@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zhi-Hua",
+        "short_name": "Li ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiang-You",
+        "short_name": "Yu XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of critical medicine, the First Affiliated Hospital of Xinjiang Medical University, Urumqi 830054, China. Electronic address: yu2796@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Immunobiology"
+    ],
+    "journal_abbrev": [
+      "Immunobiology"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/10 00:41",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "40830558",
+      "40070928"
+    ],
+    "refs": [],
+    "similar": [
+      "38981197",
+      "36618365",
+      "39586719",
+      "39512836",
+      "36765335",
+      "37386410",
+      "29915579",
+      "39953123",
+      "37179249",
+      "40129981",
+      "37939116",
+      "33132754",
+      "39377750",
+      "38912048",
+      "36817458",
+      "36250055",
+      "40307356",
+      "38957709",
+      "40259750",
+      "38587531",
+      "34918712",
+      "40026444",
+      "37008939",
+      "38034011",
+      "39978305",
+      "40028203",
+      "35685286",
+      "39341981",
+      "38402873",
+      "37287971",
+      "39375405",
+      "38363924",
+      "38062833",
+      "37727371",
+      "40091022",
+      "39462099",
+      "33280594",
+      "36199146",
+      "35842645",
+      "36084605",
+      "35278479",
+      "35957838",
+      "39051161",
+      "35123387",
+      "37872948",
+      "36918839",
+      "40055592",
+      "39793232",
+      "37491198",
+      "38282154",
+      "38025749",
+      "38343546",
+      "39995931",
+      "38736878",
+      "39130462",
+      "36029669",
+      "38173477",
+      "40216809",
+      "38628767",
+      "34536521",
+      "39155627",
+      "35185791",
+      "37667921",
+      "38212812",
+      "33100122",
+      "38166628",
+      "33667236",
+      "38178669",
+      "38656456",
+      "38156909",
+      "36818162",
+      "40124361",
+      "38690269",
+      "37449204",
+      "36106070",
+      "38711508",
+      "38852219",
+      "39430765",
+      "39378104",
+      "38017285",
+      "38283345",
+      "37235492",
+      "36291136",
+      "35787932",
+      "40258895",
+      "39735547",
+      "37197531",
+      "39833053",
+      "35990678",
+      "39344316",
+      "40289127",
+      "35411170",
+      "39026663",
+      "38701300",
+      "40274894",
+      "37359526",
+      "38890348",
+      "38167983",
+      "34691030",
+      "37752552"
+    ],
+    "review": [
+      "38981197"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0171-2985(24)00044-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-705",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0171-2985(24)00044-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

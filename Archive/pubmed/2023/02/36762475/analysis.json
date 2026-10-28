@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36762475",
+  "title": "Using single cell atlas data to reconstruct regulatory networks.",
+  "authors": "Song, Qi; Ruffalo, Matthew; Bar-Joseph, Ziv",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-02-11",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用神经网络和多任务学习从单细胞图谱数据预测RNA速度以推断TF-基因调控网络，虽涉及TF-DNA互作推断但缺乏三维结构建模与结合机制研究，方法可迁移但深度有限。",
+  "abstract": "Inference of global gene regulatory networks from omics data is a long-term goal of systems biology. Most methods developed for inferring transcription factor (TF)-gene interactions either relied on a small dataset or used snapshot data which is not suitable for inferring a process that is inherently temporal. Here, we developed a new computational method that combines neural networks and multi-task learning to predict RNA velocity rather than gene expression values. This allows our method to overcome many of the problems faced by prior methods leading to more accurate and more comprehensive set of identified regulatory interactions. Application of our method to atlas scale single cell data from 6 HuBMAP tissues led to several validated and novel predictions and greatly improved on prior methods proposed for this task.",
+  "abstract_zh": "从组学数据推断全局基因调控网络是系统生物学的长期目标。大多数用于推断转录因子（TF）-基因相互作用的现有方法要么依赖小规模数据集，要么使用快照数据，这并不适合推断本质上具有时间性的过程。在此，我们开发了一种新的计算方法，结合神经网络和多任务学习来预测RNA速度，而非基因表达值。这使得我们的方法能够克服先前方法面临的许多问题，从而识别出更准确、更全面的调控相互作用集合。将我们的方法应用于来自6个HuBMAP组织的图谱规模单细胞数据，产生了若干已验证和新颖的预测，并显著优于为此任务提出的先前方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36762475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36762475/",
+  "paper_page_path": "papers/pubmed/36762475/index.html"
+}

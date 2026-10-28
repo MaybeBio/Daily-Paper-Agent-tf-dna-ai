@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, limitations, methods) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text; no supplementary figures or tables were available for direct inspection
+- **Shared manuscript claim summary** The authors identify two LxxLL motif clusters (C1 and C2) in NIPBL that regulate its chromatin dynamics and interactions. C1 maintains the NIPBL-MAU2 heterodimer, while C2 binds steroid receptor ligand-binding domains. They propose a ternary complex model where transcription factors, including GR, bridge NIPBL/MAU2 to localize cohesin at enhancers, and show that mutations in these clusters impair GR-dependent transcriptional responses.
+- **Visible evidence base** Figures 1–5 (referenced but not directly viewable), supplementary figures S1–S4 (referenced), methods sections for SMT, IP-MS, gPCA, SPR, AlphaFold2, docking, RNA-seq
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4, Tables S1–S2), raw proteomics data, RNA-seq data files, AlphaFold2 confidence metrics per model, SPR sensorgrams, statistical analysis details for SMT state assignments
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in genome biology: how the cohesin loader NIPBL/MAU2 is targeted to enhancers. The authors provide a multi-pronged approach combining imaging, proteomics, biochemical assays, and structural predictions. The identification of two functional LxxLL clusters in NIPBL is a valuable contribution, and the proposed ternary complex model is conceptually interesting. However, several technical concerns and gaps in evidence limit the strength of the conclusions as currently presented. The manuscript would benefit from additional validation of key interaction surfaces, clearer presentation of quantitative data, and direct testing of the ternary complex model in a functional chromatin context.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, cohesin biology, enhancer-promoter communication, nuclear receptor signaling, and transcription factor mechanisms. The work bridges structural biology, biophysics, and gene regulation, making it relevant to a broad chromatin biology audience. The proposed model of TF-mediated cohesin loading has implications for understanding how cell-type-specific enhancer activity is established.
+- **Major strengths** 1) The study addresses a significant open question with a clear hypothesis-driven approach. 2) The combination of orthogonal methods (SMT, IP-MS, gPCA, SPR, AlphaFold2) provides complementary evidence. 3) The identification of specific LxxLL clusters in NIPBL with distinct functional roles is novel. 4) The inclusion of disease-relevant mutations (CdLS) adds translational significance. 5) The ternary complex model is testable and conceptually important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for core claim
+  - **Claim pointer** "C1 is necessary to maintain the NIPBL-MAU2 heterodimer" and "C1 and C2 are necessary for the formation of a NIPBL-MAU2-GR ternary complex"
+  - **Evidence pointer** Figures 2B–E, 4A–C; location not provided
+  - **Concern** The claim that C1 is necessary for NIPBL-MAU2 heterodimer maintenance is based on gPCA and co-IP experiments, but the quantitative extent of disruption is not clearly presented. For the ternary complex claim, the co-IP in Figure 4C shows association but does not demonstrate a stoichiometric or stable ternary complex. The AlphaFold2 model of the ternary complex (Figure 4B) is a prediction without experimental validation of the simultaneous binding of GR to both NIPBL and MAU2.
+  - **Why it matters** The central thesis of the paper is the ternary complex model. If the evidence for this complex is only correlative or based on pairwise interactions, the model remains speculative. Direct evidence for simultaneous binding, such as size-exclusion chromatography, cross-linking, or single-molecule co-localization, would substantially strengthen the claim.
+  - **Resolution test** Provide quantitative binding data (e.g., ITC, MST) showing that GR-LBD can bind simultaneously to NIPBL-C2 and MAU2 with measurable affinities. Alternatively, show that a GR mutant unable to bind MAU2 still supports NIPBL localization to enhancers, or vice versa, to establish functional interdependence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of SMT analysis
+  - **Claim pointer** "Mutations in C1 and/or C2 resulted in a 13–19% decrease in the chromatin-bound fraction" and "NIPBL-WT and mutants also exhibit two distinct low-mobility states"
+  - **Evidence pointer** Figures 1E–G, S1C–F; location not provided
+  - **Concern** The SMT analysis relies on pEMv2 to assign mobility states, but the manuscript does not provide details on how the number of states was validated, whether the two-state model was statistically preferred over alternatives, or how the 13–19% decrease in bound fraction was calculated with confidence intervals. The transition probability analysis (Figure S1G) is mentioned but the statistical power and reproducibility across biological replicates are not described.
+  - **Why it matters** SMT is a powerful but technically demanding method. Without clear statistical validation of state assignments and effect sizes, the reported differences between WT and mutants could be within experimental noise. The 13–19% decrease is modest and may not be biologically significant if not rigorously quantified.
+  - **Resolution test** Provide the Bayesian Information Criterion or similar model selection metrics for the number of states, report confidence intervals for bound fractions from bootstrap analysis, and show that the observed differences are reproducible across at least three independent biological replicates with effect sizes and p-values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of identified interactions
+  - **Claim pointer** "C1 and C2 are necessary for the maintenance of the NIPBL-MAU2 heterodimer and to maintain the GR-regulated transcriptome"
+  - **Evidence pointer** Figures 4D–E, S4; location not provided
+  - **Concern** The RNA-seq analysis shows that C1/C2 mutants fail to rescue GR-dependent gene expression, but the manuscript does not clarify whether this is due to loss of NIPBL-TF interactions, loss of NIPBL-MAU2 stability, or global changes in NIPBL chromatin occupancy. The distinction between direct effects on GR-mediated transcription versus indirect effects on general NIPBL function is not addressed.
+  - **Why it matters** The authors claim that the ternary complex is important for GR-dependent gene regulation, but the data could also be explained by a general requirement for NIPBL-MAU2 integrity. Without chromatin occupancy data (e.g., ChIP-seq for NIPBL at GR binding sites in WT vs mutant cells), the specific role of the ternary complex in enhancer targeting remains unclear.
+  - **Resolution test** Perform ChIP-seq for NIPBL and/or MAU2 in WT and C1/C2 mutant cells with and without Dex treatment. Show that NIPBL occupancy at GR-bound enhancers is specifically reduced in mutants, while occupancy at other sites is less affected. Alternatively, use a GR mutant that cannot interact with NIPBL/MAU2 to demonstrate that the TF is required for loader recruitment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the TF-NIPBL/MAU2 interaction model
+  - **Claim pointer** "34 out of 38 tested TFs can directly interact with both NIPBL and MAU2"
+  - **Evidence pointer** Figures 2G, S2D–E; location not provided
+  - **Concern** The gPCA screen identifies many TFs as interactors, but the physiological relevance of these interactions is not tested. The claim that "multiple transcription factors interact with NIPBL-MAU2, likely using interfaces other than those characterized for GR" is based on a screen that may overestimate interactions due to overexpression artifacts or false positives inherent to gPCA.
+  - **Why it matters** The broader conclusion that many TFs use this mechanism to recruit cohesin to enhancers is a significant generalization. Without validation of a few representative TFs from different families using orthogonal methods (e.g., co-IP, pull-downs, or functional assays), the claim remains speculative.
+  - **Resolution test** Validate 3–5 TFs from different families using co-immunoprecipitation with endogenous proteins or recombinant proteins. Show that mutations in their predicted interaction surfaces (if identifiable) affect NIPBL recruitment to their binding sites in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1A–C
+  - **Evidence pointer** Figure 1; location not provided
+  - **Issue** The schematic of NIPBL domains and LxxLL clusters is described but not shown in the text. The evolutionary conservation analysis is mentioned but the alignment or conservation scores are not presented.
+  - **Required correction** Include a clear schematic with domain boundaries, cluster positions, and conservation scores. Consider adding a supplementary figure with sequence alignments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** RNA-seq analysis
+  - **Evidence pointer** Figures 1H–I, 4D–E; location not provided
+  - **Issue** The number of differentially expressed genes, the criteria for significance, and the overlap between conditions are not clearly stated. The "top 50 genes" selection criterion for GR-regulated genes is arbitrary and not justified.
+  - **Required correction** Provide a clear description of the differential expression analysis, including the number of genes, thresholds, and how the top 50 genes were selected. Consider showing a Venn diagram or overlap statistics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** gPCA assay
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The gPCA assay is described but the threshold for positive interaction (NLR > 3.5) is not justified. The number of biological replicates and the statistical test used are mentioned but not detailed.
+  - **Required correction** Provide a rationale for the NLR threshold, describe the statistical analysis in more detail, and include a positive and negative control validation for the assay.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Structural model validation
+  - **Affected element** AlphaFold2 predictions
+  - **Evidence pointer** Figures 2E, 3I, 4B; location not provided
+  - **Issue** The AlphaFold2 models are described as high-confidence but the ipTM/pTM scores are not reported for the specific models shown. The selection criteria (threshold > 0.7) are mentioned but the distribution of scores is not shown.
+  - **Required correction** Report the ipTM/pTM scores for the models presented in the figures. Consider showing a plot of score distributions across all generated models.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion does not address alternative mechanisms for NIPBL localization to enhancers, such as interactions with chromatin remodelers, histone modifications, or non-coding RNAs.
+  - **Required correction** Add a brief paragraph acknowledging alternative models and explaining why the TF-mediated mechanism is preferred based on the data.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct evidence for a stable ternary complex (R1-M1). 2) Insufficient statistical validation of SMT state assignments and effect sizes (R1-M2). 3) No chromatin occupancy data linking NIPBL mutations to specific enhancer defects (R1-M3). 4) Overgeneralization of TF interactions without orthogonal validation (R1-M4).
+- **Assessment against Nature-style criteria** **Originality**: The identification of specific LxxLL clusters in NIPBL with distinct functions is novel and adds to the understanding of cohesin loader regulation. The ternary complex model is conceptually original. **Scientific importance**: The question of how cohesin is targeted to enhancers is fundamental and has broad implications. The work could influence thinking about enhancer-promoter communication and TF function. **Interdisciplinary readership**: The work bridges structural biology, biophysics, and gene regulation, making it relevant to multiple communities. However, the technical depth may limit accessibility. **Technical soundness**: The multi-method approach is commendable, but several technical concerns (SMT validation, ternary complex evidence, chromatin occupancy) need to be addressed. **Readability for nonspecialists**: The manuscript is generally well-written but assumes significant background knowledge in chromatin biology and biophysics. The abstract is accessible, but the results section may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the preliminary data are suggestive, but the current evidence does not fully establish the ternary complex model or its functional importance. The authors should address the major concerns with additional experiments and clearer quantitative analysis before the claims can be considered robust.
+
+## Risk / unsupported claims
+- The claim that "34 out of 38 tested TFs can directly interact with both NIPBL and MAU2" is based solely on gPCA and lacks orthogonal validation; the physiological relevance is unsubstantiated.
+- The ternary complex model (GR-NIPBL-MAU2) is supported only by pairwise interaction data and AlphaFold2 predictions; no direct evidence for simultaneous binding is provided.
+- The statement that "C1 and C2 are necessary for the maintenance of the NIPBL-MAU2 heterodimer" is based on mutation studies but the quantitative extent of destabilization is not reported.
+- The claim that NIPBL mutations affect GR-dependent transcription "through the lens of glucocorticoid signaling" is not directly linked to NIPBL occupancy at GR enhancers; alternative explanations (e.g., global NIPBL dysfunction) are not excluded.
+- The functional significance of the C2-steroid receptor interaction for cohesin loading at enhancers is inferred but not directly demonstrated (e.g., no ChIP-seq for cohesin or NIPBL at GR binding sites in mutant cells).

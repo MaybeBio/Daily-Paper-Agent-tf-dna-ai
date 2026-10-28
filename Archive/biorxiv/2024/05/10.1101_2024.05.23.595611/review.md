@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure descriptions
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors identify the Hel2i domain within the FANCM translocase as a substrate selectivity domain (SSD) that confers structure-specific DNA binding to branched DNA substrates, couples DNA binding to ATPase activation, and is essential for FANCM's tumour-suppressive functions in ALT-positive cancer cells
+- **Visible evidence base** Biochemical assays (EMSA, ATPase, branch migration, R-loop unwinding, GEN1 cleavage), structural modelling (SWISS-MODEL, AlphaFold2, AlphaFold3, TrRosetta), biophysical methods (DSF, CD), and cell-based assays (U2OS complementation, microscopy, clonogenic survival)
+- **Missing materials affecting confidence** No source data files, no uncropped gel images, no statistical analysis details for cell-based assays, no replicate numbers for several key experiments, no negative controls for some binding assays, no validation of the AlphaFold3 model accuracy
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic biochemical and cellular dissection of the FANCM Hel2i domain, identifying it as a bona fide substrate selectivity domain that couples branched DNA recognition to ATPase activation. The work addresses a genuine gap in understanding FANCM's mechanism of action and has potential translational relevance for ALT-positive cancers. However, several technical concerns regarding experimental rigor, quantification, and the strength of structural conclusions need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying DNA repair, replication fork stability, helicase/translocase mechanisms, Fanconi anemia pathway biology, and telomere maintenance, particularly those focused on ALT-positive cancers as therapeutic targets. The mechanistic insights into how a translocase achieves substrate specificity will also interest the broader helicase community.
+- **Major strengths** The study addresses a previously unexplored question regarding FANCM's substrate recognition mechanism. The combination of structural modelling with systematic mutagenesis and biochemical validation is a powerful approach. The cellular complementation experiments directly link biochemical findings to biological function in a disease-relevant context. The identification of specific residues (K331, Y332, H369) that couple DNA binding to ATPase activation provides a clear mechanistic framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Hel2i domain is the substrate selectivity domain of FANCM based on the observation that trFANCMΔHel2i exhibits at least a 60-fold reduction in HJ binding affinity compared to trFANCM.
+  - **Evidence pointer** Figure 3F, Results section "Hel2i is the substrate selectivity domain (SSD) of the FANCM translocase domain"
+  - **Concern** The 60-fold reduction in binding affinity is stated but the actual binding curves, Kd values, and statistical analysis are not shown. The EMSA data presented appear to be single representative experiments without quantification across replicates. Additionally, the competition assays (Figure 3D) show only modest differences between wild-type and ΔHel2i, which seems inconsistent with a 60-fold affinity difference.
+  - **Why it matters** The quantitative claim of 60-fold reduction is central to establishing Hel2i as the SSD. Without proper binding curve analysis and replicate quantification, this key number cannot be verified, and the conclusion that Hel2i confers substrate specificity is weakened.
+  - **Resolution test** Provide full binding isotherms with fitted Kd values for at least three independent experiments for each construct. Show the competition assay data with proper quantification and error bars. If the 60-fold claim is based on a specific assay condition, clarify this and provide the relevant controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the Hel2i domain is "crucial for effective substrate engagement and couples DNA binding to catalytic ATP-dependent branch migration" and that Hel2i mutants exhibit "a complete absence of both baseline and DNA-stimulated ATPase activity."
+  - **Evidence pointer** Figure 4D, Results section "Key residues in the Hel2i domain of FANCM are essential for both HJ binding and ATPase activity"
+  - **Concern** The claim of "complete absence" of ATPase activity is surprising given that the RecA1 and RecA2 domains, which constitute the canonical ATPase motor, are intact in the ΔHel2i and point mutants. The authors attribute this to a coupling defect, but the data showing zero baseline ATPase activity (even without DNA) suggests a more fundamental disruption. The ATPase assays appear to be single time-point measurements rather than time-course experiments, which could mask low but measurable activity.
+  - **Why it matters** The conclusion that Hel2i couples DNA binding to ATP hydrolysis is a key mechanistic claim. If the mutants truly have zero ATPase activity even in the absence of DNA, this suggests a folding or stability defect rather than a specific coupling defect. The distinction is critical for the proposed mechanism.
+  - **Resolution test** Perform time-course ATPase assays with proper controls, including a known active mutant (e.g., D214A as a negative control and WT as positive). Show that the mutants retain ATP binding capability (e.g., via ATPγS binding assays). Consider testing whether the mutants can still hydrolyze ATP in the presence of non-specific DNA to distinguish between global loss of activity versus specific coupling defects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "disrupting the Hel2i-mediated branched DNA recognition impairs FANCM's capacity to restrain hyperactivity of the Alternative Lengthening of Telomeres, making it an essential suppressor of this tumour-specific telomere maintenance mechanism."
+  - **Evidence pointer** Figure 7, Results section "Integrity of the FANCM Hel2i is required for viability of cells utilising the ALT pathway of telomere maintenance"
+  - **Concern** The cellular experiments use overexpression of siRNA-resistant FANCM constructs in U2OS cells. The level of overexpression relative to endogenous FANCM is not quantified. The authors do not show that the overexpressed mutants are expressed at comparable levels to WT. Additionally, the viability assay (Figure 7E) shows a 12-fold reduction for mutants, but the statistical analysis and replicate numbers are not provided. The microscopy data (Figure 7C-D) appear to be from single representative experiments.
+  - **Why it matters** The cellular data are essential for translating the biochemical findings to biological relevance. If the mutants are poorly expressed or if the overexpression system creates artifacts, the conclusion that Hel2i is essential for ALT suppression would be overstated.
+  - **Resolution test** Provide Western blot quantification showing comparable expression of WT and mutant FANCM constructs. Include replicate numbers and statistical tests for all cellular assays. Consider using a doxycycline-inducible system or titration of expression levels to ensure physiological relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "FANCM binding suppresses HJ cleavage by the GEN1 resolvase" and that this protection is due to FANCM's translocase domain making protective contacts with HJs.
+  - **Evidence pointer** Figure 6D-E, Results section "FANCM binds an open HJ conformation and protects from cleavage by structure specific nucleases"
+  - **Concern** The GEN1 cleavage assays show inhibition of cleavage in the presence of FANCM, but the mechanism of inhibition is not fully explored. The authors do not test whether the inhibition is due to direct competition for the HJ substrate or an allosteric effect on GEN1. The experiments do not include a control with a non-specific DNA-binding protein to rule out steric hindrance.
+  - **Why it matters** The claim that FANCM specifically protects HJs from cleavage is important for understanding its biological function. If the protection is non-specific (e.g., any protein bound to the HJ would block GEN1), the conclusion would be less compelling.
+  - **Resolution test** Include a control protein (e.g., a non-specific DNA binding protein or a FANCM mutant that binds DNA but cannot translocate) in the GEN1 cleavage assays. Test whether FANCM can protect HJs from cleavage by other structure-specific nucleases to assess specificity.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use structural models (SWISS-MODEL, AlphaFold2, AlphaFold3, TrRosetta) to predict the role of Hel2i in DNA binding and to guide mutagenesis.
+  - **Evidence pointer** Figure 2, Figure 5, Methods section "Protein models"
+  - **Concern** The structural models are used to make specific predictions about residue function, but the accuracy of these models is not validated experimentally beyond the mutagenesis data. The authors do not provide any experimental structure (e.g., cryo-EM, X-ray crystallography) or cross-linking data to support the predicted binding mode. The AlphaFold3 model is particularly concerning as this method has not been extensively benchmarked for protein-DNA complexes.
+  - **Why it matters** The structural predictions are central to the mechanistic model proposed. If the models are inaccurate, the interpretation of the mutagenesis data could be misleading.
+  - **Resolution test** Provide additional validation of the structural models, such as hydrogen-deuterium exchange, cross-linking mass spectrometry, or small-angle X-ray scattering. Alternatively, clearly state the limitations of the models and avoid over-interpreting specific atomic contacts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms like "branchpoint translocase" and "Hel2i subdomain" without sufficient context for readers unfamiliar with the FANCM field.
+  - **Required correction** Briefly define these terms in the abstract or provide a more accessible description of the biological problem.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1B
+  - **Issue** The purity of the trFANCM preparation is not demonstrated with a Coomassie-stained gel or similar. The authors state it was purified but do not show the final purity.
+  - **Required correction** Include a representative purification gel showing the final protein preparation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3C
+  - **Issue** The EMSA data for FANCMcΔHel2i show similar binding to wild-type, but the authors do not comment on this discrepancy with the trFANCMΔHel2i result.
+  - **Required correction** Provide a brief explanation for why the full-length complex retains binding despite Hel2i deletion, or acknowledge this as a limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5F
+  - **Issue** The DSF data show small shifts in melting temperature (1-4°C) that are stated to be reproducible, but no error bars or replicate numbers are shown.
+  - **Required correction** Provide the number of replicates and standard deviation for the DSF measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Protein expression and purification"
+  - **Issue** The methods state that trFANCM was expressed in Hi5 insect cells but do not specify the multiplicity of infection or the exact time of harvest beyond "72 hours post infection."
+  - **Required correction** Provide more detailed expression conditions for reproducibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of therapeutic implications for ALT-positive cancers is brief and does not address potential challenges or alternative approaches.
+  - **Required correction** Expand the discussion of therapeutic implications, including potential off-target effects and the feasibility of targeting Hel2i-DNA interactions.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding data with fitted Kd values and replicate analysis for the central claim of 60-fold affinity reduction (R1-M1). The absence of time-course ATPase assays to distinguish between complete loss of activity versus coupling defects (R1-M2). The lack of statistical analysis and replicate numbers for cellular experiments (R1-M3). The absence of control proteins in the GEN1 cleavage assays to demonstrate specificity of protection (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The study addresses a previously unexplored question and provides a novel mechanistic framework for FANCM substrate recognition. Scientific importance: The findings have implications for understanding DNA repair mechanisms and ALT-positive cancer biology, which is clinically relevant. Interdisciplinary readership: The work will appeal to DNA repair specialists, helicase researchers, cancer biologists, and structural biologists, though the presentation may be too specialized for a general audience. Technical soundness: The biochemical experiments are generally well-designed, but the lack of quantitative rigor in several key assays weakens the overall technical quality. Readability for nonspecialists: The manuscript is clearly written but assumes significant background knowledge in DNA repair and helicase biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is logical, but the current evidence does not fully support the quantitative claims made. Addressing the concerns regarding binding affinity quantification, ATPase assay rigor, and cellular data statistics would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim of "complete absence" of ATPase activity in Hel2i mutants is not fully supported by the data presented, as single time-point assays may not capture low-level activity.
+- The 60-fold reduction in HJ binding affinity for trFANCMΔHel2i is stated without showing the actual binding curves or fitted Kd values.
+- The structural model predictions regarding specific residue contacts with DNA are not experimentally validated and should be treated as hypotheses.
+- The claim that FANCM's protection of HJ from GEN1 cleavage is specific is not fully established due to the lack of appropriate controls.
+- The statement that Hel2i mutants "failed to rescue" ALT cell viability is based on a single cell line (U2OS) and may not be generalizable to other ALT-positive cell types.

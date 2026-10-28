@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.12.648527",
+  "title": "MPBind: Multitask Protein Binding Site Prediction by Protein Language Models and Equivariant Graph Neural Networks",
+  "authors": "Yanli Wang; Frimpong Boadu; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-18",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多任务蛋白结合位点预测方法MPBind，整合蛋白语言模型与等变图神经网络，可预测包括DNA/RNA在内的多种配体结合位点，虽非聚焦TF-DNA特异性互作，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Proteins interact with a variety of molecules, including other proteins, DNAs, RNAs, ligands, ions, and lipids. These interactions play a crucial role in cellular communication, metabolic regulation, immune response, and structural integrity, making proteins fundamental to nearly all biological functions. Accurately predicting protein binding (interaction) sites is essential for understanding protein interactions and functions. Here, we introduce MPBind, a multitask protein binding site prediction method, which integrates protein language models (PLMs) that can extract structural and functional information from sequences and equivariant graph neural networks (EGNNs) that can effectively capture geometric features of 3D protein structures. Through multitask learning, it can predict binding sites on proteins that interact with five key categories of binding partners: proteins, DNA/RNA, ligands, lipids, and ions, which is more comprehensive than most existing task-specific methods that can predict only one or a few kinds of binding sites. Moreover, MPBind outperforms both general bind site prediction methods and task-specific binding site prediction methods.",
+  "abstract_zh": "蛋白质与多种分子相互作用，包括其他蛋白质、DNA、RNA、配体、离子和脂质。这些相互作用在细胞通讯、代谢调节、免疫反应和结构完整性中发挥关键作用，使蛋白质成为几乎所有生物功能的基础。准确预测蛋白质结合（相互作用）位点对于理解蛋白质相互作用和功能至关重要。在此，我们介绍MPBind，一种多任务蛋白质结合位点预测方法，它整合了能够从序列中提取结构和功能信息的蛋白质语言模型（PLMs）以及能够有效捕捉3D蛋白质结构几何特征的等变图神经网络（EGNNs）。通过多任务学习，它可以预测与五类关键结合伙伴（蛋白质、DNA/RNA、配体、脂质和离子）相互作用的蛋白质上的结合位点，这比大多数仅能预测一种或少数几种结合位点的现有任务特定方法更为全面。此外，MPBind在通用结合位点预测方法和任务特定结合位点预测方法上均表现更优。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.12.648527",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.12.648527",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.12.648527/index.html"
+}

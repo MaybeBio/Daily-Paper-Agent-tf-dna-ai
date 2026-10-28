@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.17.488557",
+  "title": "Structure-based learning to model complex protein-DNA interactions and transcription-factor co-operativity in <i>cis</i> -regulatory elements",
+  "authors": "O Fornes; A Meseguer; J Aguirre-Plans; P Gohl; PM Bota; R Molina-Fernández; J Bonet; AC Hernandez; F Pegenaute; O Gallego; N Fernandez-Fuentes; B Oliva",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-17",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于结构的深度学习方法预测TF-DNA结合偏好并自动建模TF调控复合物，涵盖结合位点预测、共定位与蛋白-蛋白互作建模，核心聚焦TF-DNA互作机制，与课题高度匹配。",
+  "abstract": "Transcription factor (TF) binding is a key component of genomic regulation. There are numerous high-throughput experimental methods to characterize TF-DNA binding specificities. Their application, however, is both laborious and expensive, which makes profiling all TFs challenging. For instance, the binding preferences of ~25% human TFs remain unknown; they neither have been determined experimentally nor inferred computationally. We introduce a structure-based learning approach to predict the binding preferences of TFs and the automated modelling of TF regulatory complexes. We show the advantage of using our approach over the state-of-art nearest-neighbor prediction in the limits of remote homology. Starting from a TF sequence or structure, we predict binding preferences in the form of motifs that are then used to scan a DNA sequence for occurrences. The best matches are either profiled with a binding score or collected for their subsequent modeling into a higher-order regulatory complex with DNA. Cooperativity is modelled by: i) the co-localization of TFs; and ii) the structural modeling of protein-protein interactions between TFs and with co-factors. As case examples, we apply our approach to automatically model the interferon-β enhanceosome and the pioneering complex of OCT4, SOX2 and SOX11 with a nucleosome, which are compared with the experimentally known structures.",
+  "abstract_zh": "转录因子（TF）结合是基因组调控的关键组成部分。存在多种高通量实验方法来表征TF-DNA结合特异性。然而，其应用既费时又昂贵，这使得对所有TF进行谱分析具有挑战性。例如，约25%的人类TF的结合偏好仍属未知；它们既未通过实验确定，也未通过计算推断。我们引入了一种基于结构的学习方法来预测TF的结合偏好以及TF调控复合物的自动建模。我们展示了在远程同源性的极限情况下，我们的方法相较于最先进的最近邻预测的优势。从TF序列或结构出发，我们以基序（motif）的形式预测结合偏好，随后利用这些基序扫描DNA序列以寻找出现位点。最佳匹配要么通过结合评分进行谱分析，要么被收集用于后续建模为与DNA形成的高阶调控复合物。协同性通过以下方式建模：i) TF的共定位；以及ii) TF之间及与辅因子之间蛋白质-蛋白质相互作用的结构建模。作为案例，我们将我们的方法应用于自动建模干扰素-β增强体以及OCT4、SOX2和SOX11与核小体的先驱复合物，并与实验已知结构进行比较。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488557",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.17.488557",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.17.488557/index.html"
+}

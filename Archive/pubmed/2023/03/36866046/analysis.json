@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36866046",
+  "title": "DeepBend: An interpretable model of DNA bendability.",
+  "authors": "Khan, Samin Rahman; Sakib, Sadman; Rahman, M Sohel; Samee, Md Abul Hassan",
+  "journal": "iScience",
+  "published_date": "2023-03-04",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释CNN模型预测DNA可弯曲性，虽涉及蛋白-DNA结合相关序列特征，但未直接建模TF-DNA互作或结合位点，方法可迁移至TF-DNA研究。",
+  "abstract": "The bendability of genomic DNA impacts chromatin packaging and protein-DNA binding. However, we do not have a comprehensive understanding of the motifs influencing DNA bendability. Recent high-throughput technologies such as Loop-Seq offer an opportunity to address this gap but the lack of accurate and interpretable machine learning models still remains. Here we introduce DeepBend, a convolutional neural network model with convolutions designed to directly capture the motifs underlying DNA bendability and their periodic occurrences or relative arrangements that modulate bendability. DeepBend consistently performs on par with alternative models while giving an extra edge through mechanistic interpretations. Besides confirming the known motifs of DNA bendability, DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability. DeepBend's genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling the bendability of topologically associated domains and their boundaries.",
+  "abstract_zh": "基因组DNA的可弯曲性影响染色质包装和蛋白质-DNA结合。然而，我们对影响DNA可弯曲性的基序尚无全面理解。近期高通量技术如Loop-Seq为弥补这一空白提供了机会，但缺乏准确且可解释的机器学习模型仍是难题。在此，我们介绍DeepBend，一种卷积神经网络模型，其卷积设计旨在直接捕获DNA可弯曲性背后的基序及其周期性出现或相对排列，这些因素调节可弯曲性。DeepBend在性能上与替代模型相当，同时通过机制解释提供了额外优势。除了确认已知的DNA可弯曲性基序外，DeepBend还揭示了若干新基序，并展示了基序出现的空间模式如何影响可弯曲性。DeepBend的全基因组可弯曲性预测进一步展示了可弯曲性与染色质构象的关联，并揭示了控制拓扑关联域及其边界可弯曲性的基序。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36866046/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36866046/",
+  "paper_page_path": "papers/pubmed/36866046/index.html"
+}

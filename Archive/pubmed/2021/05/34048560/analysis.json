@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34048560",
+  "title": "DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner.",
+  "authors": "Pei, Guangsheng; Hu, Ruifeng; Jia, Peilin; Zhao, Zhongming",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-05-29",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN整合染色质可及性、组蛋白修饰和TF结合谱预测非编码变异功能，虽涉及TF-DNA结合特征但未聚焦TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "More than 90% of the genetic variants identified from genome-wide association studies (GWAS) are located in non-coding regions of the human genome. Here, we present a user-friendly web server, DeepFun (https://bioinfo.uth.edu/deepfun/), to assess the functional activity of non-coding genetic variants. This new server is built on a convolutional neural network (CNN) framework that has been extensively evaluated. Specifically, we collected chromatin profiles from ENCODE and Roadmap projects to construct the feature space, including 1548 DNase I accessibility, 1536 histone mark, and 4795 transcription factor binding profiles covering 225 tissues or cell types. With such comprehensive epigenomics annotations, DeepFun expands the functionality of existing non-coding variant prioritizing tools to provide a more specific functional assessment on non-coding variants in a tissue- and cell type-specific manner. By using the datasets from various GWAS studies, we conducted independent validations and demonstrated the functions of the DeepFun web server in predicting the effect of a non-coding variant in a specific tissue or cell type, as well as visualizing the potential motifs in the region around variants. We expect our server will be widely used in genetics, functional genomics, and disease studies.",
+  "abstract_zh": "全基因组关联研究（GWAS）鉴定的遗传变异中，超过90%位于人类基因组的非编码区域。在此，我们介绍一个用户友好的网络服务器DeepFun（https://bioinfo.uth.edu/deepfun/），用于评估非编码遗传变异的功能活性。该新服务器基于一个经过广泛评估的卷积神经网络（CNN）框架构建。具体而言，我们收集了来自ENCODE和Roadmap项目的染色质谱图以构建特征空间，包括覆盖225种组织或细胞类型的1548个DNase I可及性、1536个组蛋白标记和4795个转录因子结合谱图。凭借这些全面的表观基因组注释，DeepFun扩展了现有非编码变异优先级排序工具的功能，以组织特异性和细胞类型特异性的方式对非编码变异提供更具体的功能评估。通过使用来自各种GWAS研究的数据集，我们进行了独立验证，并展示了DeepFun网络服务器在预测特定组织或细胞类型中非编码变异效应以及可视化变异周围区域潜在基序方面的功能。我们期望我们的服务器将在遗传学、功能基因组学和疾病研究中得到广泛应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34048560/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34048560/",
+  "paper_page_path": "papers/pubmed/34048560/index.html"
+}

@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40428248",
+    "doi": "10.3390/diagnostics15101255",
+    "title": "Deep Reinforcement Learning for CT-Based Non-Invasive Prediction of SOX9 Expression in Hepatocellular Carcinoma."
+  },
+  "content": {
+    "abstract": "Background: The transcription factor SOX9 plays a critical role in various diseases, including hepatocellular carcinoma (HCC), and has been implicated in resistance to sorafenib treatment. Accurate assessment of SOX9 expression is important for guiding personalized therapy in HCC patients; however, a reliable non-invasive method for evaluating SOX9 status remains lacking. This study aims to develop a deep learning (DL) model capable of preoperatively and non-invasively predicting SOX9 expression from CT images in HCC patients. Methods: We retrospectively analyzed a dataset comprising 4011 CT images from 101 HCC patients who underwent surgical resection followed by sorafenib therapy at West China Hospital, Sichuan University. A deep reinforcement learning (DRL) approach was proposed to enhance prediction accuracy by identifying and focusing on image regions highly correlated with SOX9 expression, thereby reducing the impact of background noise. Results: Our DRL-based model achieved an area under the curve (AUC) of 91.00% (95% confidence interval: 88.64-93.15%), outperforming conventional DL methods by over 10%. Furthermore, survival analysis revealed that patients with SOX9-positive tumors had significantly shorter recurrence-free survival (RFS) and overall survival (OS) compared to SOX9-negative patients, highlighting the prognostic value of SOX9 status. Conclusions: This study demonstrates that a DRL-enhanced DL model can accurately and non-invasively predict SOX9 expression in HCC patients using preoperative CT images. These findings support the clinical utility of imaging-based SOX9 assessment in informing treatment strategies and prognostic evaluation for patients with advanced HCC.",
+    "keywords": [
+      "CT images",
+      "SOX9",
+      "deep learning",
+      "hepatocellular carcinoma",
+      "non-invasive prediction",
+      "reinforcement learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Minghui",
+        "Wei, Yi",
+        "Xie, Tianshu",
+        "Yang, Meiyi",
+        "Cheng, Xuan",
+        "Xu, Lifeng",
+        "Li, Qian",
+        "Che, Feng",
+        "Xu, Qing",
+        "Song, Bin",
+        "Liu, Ming"
+      ],
+      "short_names": [
+        "Liu M",
+        "Wei Y",
+        "Xie T",
+        "Yang M",
+        "Cheng X",
+        "Xu L",
+        "Li Q",
+        "Che F",
+        "Xu Q",
+        "Song B",
+        "Liu M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3171-0270",
+        "ORCID: 0000-0001-7021-8855",
+        "ORCID: 0000-0002-4234-6179"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+        "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Department of Medical Laboratory Science, The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou 324000, China.",
+        "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+        "Department of Radiology, Sanya People's Hospital, Sanya 572000, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+        "Department of Medical Laboratory Science, The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou 324000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Minghui",
+        "short_name": "Liu M",
+        "identifiers": [
+          "0000-0002-3171-0270"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yi",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Tianshu",
+        "short_name": "Xie T",
+        "identifiers": [
+          "0000-0001-7021-8855"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Meiyi",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xuan",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0000-0002-4234-6179"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lifeng",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Science, The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou 324000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Che, Feng",
+        "short_name": "Che F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qing",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Song, Bin",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, West China Hospital, Sichuan University, Chengdu 610041, China.",
+          "Department of Radiology, Sanya People's Hospital, Sanya 572000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ming",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+          "Department of Medical Laboratory Science, The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou 324000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Diagnostics (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Diagnostics (Basel)"
+    ],
+    "pub_date": "2025 May 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:28",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35582676",
+      "35341713",
+      "34135101",
+      "33538338",
+      "32554246",
+      "32214348",
+      "32002645",
+      "31288636",
+      "30927962",
+      "30478442",
+      "30120041",
+      "29474911",
+      "29121666",
+      "29059173",
+      "28349958",
+      "27886714",
+      "27587275",
+      "27457505",
+      "27105493",
+      "26910875",
+      "26819042",
+      "25719670",
+      "24709795",
+      "24532713",
+      "22515642",
+      "22385965",
+      "19095497",
+      "18650514",
+      "15770718"
+    ],
+    "similar": [
+      "40428248",
+      "38446180",
+      "37498380",
+      "33839938",
+      "39066894",
+      "34862094",
+      "38749868",
+      "39582540",
+      "36333180",
+      "36453607",
+      "38436551",
+      "35676669",
+      "32554246",
+      "40102873",
+      "36786905",
+      "39186192",
+      "37888871",
+      "36937385",
+      "34327180",
+      "36900125",
+      "37678878",
+      "37932610",
+      "35402463",
+      "35936698",
+      "32696256",
+      "36335751",
+      "37392233",
+      "35428596",
+      "40181337",
+      "40084948",
+      "39992060",
+      "40158473",
+      "35116584",
+      "40244356",
+      "40009155",
+      "35435082",
+      "40382748",
+      "40427064",
+      "37962669",
+      "35582676",
+      "39974612",
+      "40312321",
+      "39147884",
+      "35255845",
+      "22515642",
+      "36816963",
+      "38325190",
+      "35280776",
+      "38763975",
+      "38094161",
+      "38851131",
+      "38269944",
+      "34627393",
+      "39315112",
+      "38083328",
+      "33102242",
+      "40110765",
+      "40295993",
+      "30876945",
+      "37575884",
+      "40085751",
+      "40000766",
+      "36568943",
+      "37606573",
+      "31768347",
+      "38853169",
+      "38489805",
+      "39710148",
+      "32663354",
+      "40165094",
+      "36097772",
+      "36803649",
+      "39540362",
+      "33112555",
+      "37492657",
+      "31900703",
+      "40102774",
+      "36980670",
+      "37861801",
+      "31735556",
+      "39665892",
+      "37067674",
+      "37078470",
+      "40337547",
+      "40115915",
+      "38703190",
+      "34371445",
+      "35352293",
+      "39569409",
+      "39070173",
+      "37268850",
+      "36322988",
+      "34745952",
+      "39142009",
+      "39472207",
+      "36900327",
+      "39619794",
+      "35570797",
+      "33643907",
+      "34950180"
+    ],
+    "review": [
+      "40428248",
+      "35280776"
+    ],
+    "pmc": [
+      "12110404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=diagnostics15101255",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40428248/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

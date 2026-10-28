@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "37747014",
+    "doi": "10.1097/MD.0000000000034753",
+    "title": "Mechanism of Chinese botanical drug Dizhi pill for myopia: An integrated study based on bioinformatics and network analysis."
+  },
+  "content": {
+    "abstract": "To identify the active constituents, core targets, immunomodulatory functions and potential mechanisms of Dizhi pill (DZP) in the treatment of myopia. The active constituents and drug targets of DZP were searched in the TCMSP, Herb databases and correlational studies. The targets of myopia were searched in the TTD, Genecards, OMIM and Drugbank databases. Gene expression profile data of GSE136701 were downloaded from the GEO database and subjected to WGCNA and DEG analysis to screen for significant modules and targets of myopia. Intersectional targets of myopia and DZP and core targets of myopia were analyzed through the String database. The GO and KEGG enrichment analyses of the interested targets were conducted. Cibersort algorithm was used for immune infiltration analysis to investigate the immunomodulatory functions of DZP on myopia. Autodock was used to dock the important targets and active constituents. Eight targets (STAT3, PIK3CA, PIK3R1, MAPK1, MAPK3, HSP90AA1, MIP, and LGSN) and 5 active constituents (Quercetin, Beta-sitosterol, Diincarvilone A, Ferulic acid methyl ester, and Naringenin) were identified from DZP. In pathways identified by the GO and KEGG enrichment analyses, \"ATP metabolic process\" and \"AGE-RAGE diabetes complication signaling\" pathways were closely related to the mechanisms of DZP in the treatment of myopia. Molecular docking showed that both the intersectional targets and core targets of myopia could bind stably and spontaneously with the active constituents of DZP. This study suggested that the mechanisms of DZP in the treatment of myopia were related to active constituents: Quercetin, Beta-sitosterol, Diincarvilone A, Ferulic acid methyl ester and Naringenin, intersectional targets: STAT3, PIK3CA, PIK3R1, MAPK1, MAPK3, and HSP90AA1, core targets of myopia: MIP and LGSN, AGE-RAGE signaling pathway, positive regulation of ATP metabolic process pathway and immunomodulatory functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Adenosine Triphosphate/metabolism",
+      "Computational Biology",
+      "Molecular Docking Simulation",
+      "*Myopia/drug therapy/genetics/immunology",
+      "Quercetin",
+      "Transcription Factors",
+      "*Drugs, Chinese Herbal/chemistry/therapeutic use",
+      "Sesquiterpenes",
+      "Coumaric Acids",
+      "Sitosterols",
+      "Flavanones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Longkun",
+        "Birling, Yoann",
+        "Zhao, Yan",
+        "Ma, Wenxin",
+        "Tang, Yang",
+        "Sun, Yuxin",
+        "Wang, Xuehui",
+        "Yu, Mingkun",
+        "Bi, Hongsheng",
+        "Liu, Jian-Ping",
+        "Li, Li",
+        "Liu, Zhaolan"
+      ],
+      "short_names": [
+        "Liu L",
+        "Birling Y",
+        "Zhao Y",
+        "Ma W",
+        "Tang Y",
+        "Sun Y",
+        "Wang X",
+        "Yu M",
+        "Bi H",
+        "Liu JP",
+        "Li L",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8218-2300",
+        "ORCID: 0000-0002-6965-9626"
+      ],
+      "affiliations": [
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "NICM Health Research Institute, Western Sydney University, Penrith, NSW.",
+        "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Shandong University of Traditional Chinese Medicine, Shandong, China.",
+        "Affiliated Eye Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China.",
+        "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing Institute for Drug Control, NMPA Key Laboratory for Safety Research and Evaluation of Innovative Drugs, Beijing Key Laboratory of Analysis and Evaluation on Chinese Medicine, Beijing, China.",
+        "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Longkun",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0001-8218-2300"
+        ],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Birling, Yoann",
+        "short_name": "Birling Y",
+        "identifiers": [],
+        "affiliations": [
+          "NICM Health Research Institute, Western Sydney University, Penrith, NSW."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenxin",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yang",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuxin",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuehui",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mingkun",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Hongsheng",
+        "short_name": "Bi H",
+        "identifiers": [
+          "0000-0002-6965-9626"
+        ],
+        "affiliations": [
+          "Affiliated Eye Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian-Ping",
+        "short_name": "Liu JP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute for Drug Control, NMPA Key Laboratory for Safety Research and Evaluation of Innovative Drugs, Beijing Key Laboratory of Analysis and Evaluation on Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaolan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Sep 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 12:41",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42529906",
+      "42148151",
+      "41136496"
+    ],
+    "refs": [],
+    "similar": [
+      "37747014",
+      "33645094",
+      "36401375",
+      "35837376",
+      "35227068",
+      "35915795",
+      "34951253",
+      "36874926",
+      "35430443",
+      "34746302",
+      "37171332",
+      "37084637",
+      "34159207",
+      "36452059",
+      "34149863",
+      "35265311",
+      "36157206",
+      "37556042",
+      "34660782",
+      "33496116",
+      "37454750",
+      "33299870",
+      "34273999",
+      "36281111",
+      "37000102",
+      "35984130",
+      "36472040",
+      "33350196",
+      "33208065",
+      "34746316",
+      "33645093",
+      "37080367",
+      "34889224",
+      "37147755",
+      "34872267",
+      "35781817",
+      "37171334",
+      "34873575",
+      "34549711",
+      "34549702",
+      "35590353",
+      "35097126",
+      "36550856",
+      "36660658",
+      "35442463",
+      "33824873",
+      "34692849",
+      "36123941",
+      "36032542",
+      "36890149",
+      "35040393",
+      "36246566",
+      "36596057",
+      "36740793",
+      "33376732",
+      "35388303",
+      "35616676",
+      "32928080",
+      "33645014",
+      "36267750",
+      "37305432",
+      "37282883",
+      "35851128",
+      "36595795",
+      "34693792",
+      "37575231",
+      "32643448",
+      "34994140",
+      "34997010",
+      "36288951",
+      "37391801",
+      "35692141",
+      "35367781",
+      "35850844",
+      "33645090",
+      "34738438",
+      "33496115",
+      "33243703",
+      "34824300",
+      "35227178",
+      "37138492"
+    ],
+    "review": [
+      "37747014",
+      "37171334",
+      "33243703"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=38&spage=e34753&aulast=Liu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37747014.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37747014/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37747014",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000034753",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

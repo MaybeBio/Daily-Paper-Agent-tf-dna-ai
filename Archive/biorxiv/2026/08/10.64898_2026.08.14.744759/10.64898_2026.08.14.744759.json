@@ -1,0 +1,733 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.14.744759",
+  "title": "LEN-Seek: Fast and scalable ligand binding-site similarity search in the latent space of an SE(3)-invariant graph VAE",
+  "doi": "10.64898/2026.08.14.744759",
+  "abstract": "Motivation Ligand binding-site similarity search is a crucial step in drug discovery that reduces the conformational search space for docking and other downstream tasks by comparing a target protein against experimentally identified binding sites. Existing methods rely on either direct structural alignment or lossy compression of structural information, producing a trade-off between scalability and precision. Results We propose LEN-Seek, a ligand binding-site search method based on a graph neural network (GNN)-driven variational autoencoder (VAE) that encodes the 3D structural and physicochemical context of a binding site into a probabilistic latent space, enabling similarity search within a low-dimensional vector space. A binding site is modeled as a graph of amino acid residues, with node features adopted from the protein language model, Ankh, and edges encoded as SE(3)-invariant (roto-translational invariant) geometric relationships, thereby avoiding expensive data augmentation or SE(3)-equivariant models. Compared to ProBiS, the purely geometric graph-clique based method, LEN-Seek successfully retrieves a substantial portion of similar binding sites with a roughly 3,400-fold lower per-comparison cost, demonstrating its potential as a scalable approach to template-based ligand binding-site search in large-scale protein structure databases. Supplementary information Supplementary data are available at Bioinformatics online.",
+  "authors": [
+    "Kyunghwan Yeo",
+    "Dongwoo Kim",
+    "Jaemin Sim",
+    "Juyong Lee"
+  ],
+  "published_date": "2026-08-15",
+  "updated_date": "2026-08-15T10:05:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744759",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744759.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T11:26:29Z",
+        "timestamp": 1787052389113,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 64,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                15
+              ]
+            ],
+            "date-time": "2026-08-15T00:00:00Z",
+            "timestamp": 1786752000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Institute of Information & communications Technology Planning & Evaluation",
+          "award": [
+            "RS-2023-00220628"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RS-2023-00220628"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003725",
+          "name": "National Research Foundation of Korea",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "RS-2023-00256320"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RS-2023-00256320"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003725",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003725",
+          "name": "National Research Foundation of Korea",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "RS-2023-00256320"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RS-2023-00256320"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003725",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Korea Machine Learning Ledger Orchestration for Drug Discovery",
+          "award": [
+            "RS-2026-25608347"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RS-2026-25608347"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AI-Bio Research Grant, Seoul National University"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Ligand binding-site similarity search is a crucial step in drug discovery that reduces the conformational search space for docking and other downstream tasks by comparing a target protein against experimentally identified binding sites. Existing methods rely on either direct structural alignment or lossy compression of structural information, producing a trade-off between scalability and precision.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We propose LEN-Seek, a ligand binding-site search method based on a graph neural network (GNN)-driven variational autoencoder (VAE) that encodes the 3D structural and physicochemical context of a binding site into a probabilistic latent space, enabling similarity search within a low-dimensional vector space. A binding site is modeled as a graph of amino acid residues, with node features adopted from the protein language model, Ankh, and edges encoded as SE(3)-invariant (roto-translational invariant) geometric relationships, thereby avoiding expensive data augmentation or SE(3)-equivariant models. Compared to ProBiS, the purely geometric graph-clique based method, LEN-Seek successfully retrieves a substantial portion of similar binding sites with a roughly 3,400-fold lower per-comparison cost, demonstrating its potential as a scalable approach to template-based ligand binding-site search in large-scale protein structure databases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.08.14.744759",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2026-08-15T10:05:18Z",
+        "timestamp": 1786788318000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "LEN-Seek: Fast and scalable ligand binding-site similarity search in the latent space of an SE(3)-invariant graph VAE"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-4325-1529",
+          "authenticated-orcid": false,
+          "given": "Kyunghwan",
+          "family": "Yeo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology, Seoul National University, Seoul 08826, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-6141-060X",
+          "authenticated-orcid": false,
+          "given": "Dongwoo",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Pharmacy, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-3905-1710",
+          "authenticated-orcid": false,
+          "given": "Jaemin",
+          "family": "Sim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology, Seoul National University, Seoul 08826, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1174-4358",
+          "authenticated-orcid": false,
+          "given": "Juyong",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology, Seoul National University, Seoul 08826, Republic of Korea"
+            },
+            {
+              "name": "College of Pharmacy, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea"
+            },
+            {
+              "name": "Research Institute of Pharmaceutical Science, Seoul National University, Seoul 08826, Republic of Korea"
+            },
+            {
+              "name": "Arontier Co., Seoul 06775, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2003.09.002"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Minkyung Baek , Ivan Anishchenko , Ian R Humphreys , Qian Cong , David Baker , and Frank DiMaio . Efficient and accurate prediction of protein structure using RoseTTAFold2. BioRxiv, 2023.",
+          "DOI": "10.1101/2023.05.24.542179"
+        },
+        {
+          "issue": "11",
+          "key": "2026081803350510000_2026.08.14.744759v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2783",
+          "DOI": "10.3390/ijms20112783",
+          "article-title": "A structure-based drug discovery paradigm",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "International journal of molecular sciences"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2013.50"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/384014a0"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/362342.362367"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1566772",
+          "DOI": "10.3389/fphar.2025.1566772",
+          "article-title": "Blind docking methods have been inappropriately used in most network pharmacology analysis",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Frontiers in Pharmacology"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-6413-7"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku928"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jhealeco.2016.01.012"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.13",
+          "unstructured": "Vijay Prakash Dwivedi and Xavier Bresson . A generalization of transformer networks to graphs. In AAAI Workshop on Deep Learning on Graphs: Methods and Applications, 2021."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.14",
+          "article-title": "Ankh: Optimized protein language model unlocks general-purpose modelling",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.15",
+          "unstructured": "Haoqiang Fan , Hao Su , and Leonidas J Guibas . A point set generation network for 3D object reconstruction from a single image. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 605–613, 2017."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.16",
+          "first-page": "1970",
+          "article-title": "SE(3)-transformers: 3D roto-translation equivariant attention networks",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "issue": "2",
+          "key": "2026081803350510000_2026.08.14.744759v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1038/s41592-019-0666-6",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt024"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brian C Hall . Lie groups, Lie algebras, and representations. In Quantum Theory for Mathematicians, pages 333–366. Springer, 2013.",
+          "DOI": "10.1007/978-1-4614-7116-5_16"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0065894"
+        },
+        {
+          "issue": "6",
+          "key": "2026081803350510000_2026.08.14.744759v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "359",
+          "DOI": "10.1016/S1093-3263(98)00002-3",
+          "article-title": "LIGSITE: automatic and efficient detection of potential small molecule-binding sites in proteins",
+          "volume": "15",
+          "year": "1997",
+          "journal-title": "Journal of Molecular Graphics and Modelling"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elad Hoffer and Nir Ailon . Deep metric learning using triplet network. In International workshop on similarity-based pattern recognition, pages 84–92. Springer, 2015.",
+          "DOI": "10.1007/978-3-319-24261-3_7"
+        },
+        {
+          "issue": "11",
+          "key": "2026081803350510000_2026.08.14.744759v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "682",
+          "DOI": "10.1038/nchembio.118",
+          "article-title": "Network pharmacology: the next paradigm in drug discovery",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Nature chemical biology"
+        },
+        {
+          "issue": "1",
+          "key": "2026081803350510000_2026.08.14.744759v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1186/1472-6807-6-19",
+          "article-title": "LIGSITE csc: predicting ligand binding sites using the Connolly surface and degree of conservation",
+          "volume": "6",
+          "year": "2006",
+          "journal-title": "BMC structural biology"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.25",
+          "unstructured": "John Ingraham , Vikas Garg , Regina Barzilay , and Tommi Jaakkola . Generative models for graph-based protein design. In Advances in Neural Information Processing Systems, volume 32, 2019."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "591",
+          "DOI": "10.12688/f1000research.8357.1",
+          "article-title": "Activity-relevant similarity values for fingerprints and implications for similarity searching",
+          "volume": "5",
+          "year": "2016",
+          "journal-title": "F1000Research"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0567739478001680"
+        },
+        {
+          "issue": "1",
+          "key": "2026081803350510000_2026.08.14.744759v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1186/s13321-021-00547-7",
+          "article-title": "PUResNet: prediction of protein-ligand binding sites using deep residual neural network",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.30",
+          "unstructured": "Dongwoo Kim . Development of a protein-ligand 3D structure database for AI-based binding site prediction, 2023. BSitePDB: in-house protein–ligand 3D structure database."
+        },
+        {
+          "issue": "5",
+          "key": "2026081803350510000_2026.08.14.744759v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "2551",
+          "DOI": "10.1021/acs.jcim.5c02734",
+          "article-title": "SwinSite: 3D structure-based prediction of protein–ligand binding sites using a combined vision transformer and convolution model",
+          "volume": "66",
+          "year": "2026",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.32",
+          "unstructured": "Diederik P Kingma and Max Welling . Auto-encoding variational Bayes. 2014."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.33",
+          "unstructured": "Durk P Kingma , Tim Salimans , Rafal Jozefowicz , Xi Chen , Ilya Sutskever , and Max Welling . Improved variational inference with inverse autoregressive flow. Advances in neural information processing systems, 29, 2016."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci2005687"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq479"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq100"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.199423751"
+        },
+        {
+          "issue": "5",
+          "key": "2026081803350510000_2026.08.14.744759v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "733",
+          "DOI": "10.1038/nprot.2015.043",
+          "article-title": "The FTMap family of web servers for determining and characterizing ligand-binding hot spots of proteins",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "e12",
+          "DOI": "10.1017/S003358352500006X",
+          "article-title": "Computational methods for binding site prediction on macromolecules",
+          "volume": "58",
+          "year": "2025",
+          "journal-title": "Quarterly Reviews of Biophysics"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bi.46.070177.001555"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adl2528"
+        },
+        {
+          "issue": "1",
+          "key": "2026081803350510000_2026.08.14.744759v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1186/s13321-018-0285-8",
+          "article-title": "P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(95)00073-9"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti315"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-168"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2890"
+        },
+        {
+          "issue": "2",
+          "key": "2026081803350510000_2026.08.14.744759v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1021/c160017a018",
+          "article-title": "The generation of a unique machine description for chemical structures-a technique developed at Chemical Abstracts Service",
+          "volume": "5",
+          "year": "1965",
+          "journal-title": "Journal of chemical documentation"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.48",
+          "unstructured": "Colin Raffel , Noam Shazeer , Adam Roberts , Katherine Lee , Sharan Narang , Michael Matena , Yanqi Zhou , Wei Li , and Peter J Liu . Exploring the limits of transfer learning with a unified text-to-text transformer. J. Mach. Learn. Res., 21, 2020."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0477"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.50",
+          "unstructured": "Víctor Garcia Satorras , Emiel Hoogeboom , and Max Welling . E(n) equivariant graph neural networks. In International conference on machine learning, pages 9323–9332. PMLR, 2021."
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki482"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00554"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/pr.112.007336"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "issue": "1",
+          "key": "2026081803350510000_2026.08.14.744759v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "5035",
+          "DOI": "10.1038/s41598-020-61860-z",
+          "article-title": "Improving detection of protein-ligand binding sites with 3D segmentation",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-023-01773-0"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.58",
+          "article-title": "SimpleFold: Folding proteins is simpler than you think",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jeremy Wohlwend , Gabriele Corso , Saro Passaro , Noah Getz , Mateo Reveiz , Ken Leidal , Wojtek Swiderski , Liam Atkinson , Tally Portnoi , Itamar Chinn , et al. Boltz-1 democratizing biomolecular interaction modeling. BioRxiv, 2024.",
+          "DOI": "10.1101/2024.11.19.624167"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01512"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-543"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.62",
+          "first-page": "28877",
+          "article-title": "Do transformers really perform badly for graph representation?",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.63",
+          "first-page": "60021",
+          "volume": "235",
+          "year": "2024",
+          "journal-title": "EquiPocket: an E(3)-equivariant geometric graph neural network for ligand binding site prediction"
+        },
+        {
+          "key": "2026081803350510000_2026.08.14.744759v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.csbj.2020.02.008",
+          "article-title": "Exploring the computational methods for protein-ligand binding site prediction",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational and structural biotechnology journal"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.14.744759",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T10:35:17Z",
+        "timestamp": 1787049317000
+      },
+      "score": 99.245575,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.14.744759"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ]
+      },
+      "references-count": 64,
+      "URL": "https://doi.org/10.64898/2026.08.14.744759",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

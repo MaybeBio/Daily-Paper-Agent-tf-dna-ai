@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report an in silico screening workflow combining E-pharmacophore modeling, molecular docking, and molecular dynamics simulations to identify small molecules that inhibit the interaction between HIV-1 integrase and the host cofactor LEDGF/p75. They identify ZINC22077550 and ZINC32124441 as potent candidates with favorable binding affinity, hydrogen bonding, pharmacological properties, energetic state, and dynamic stability relative to a reference compound. The authors suggest these findings could lead to novel therapeutics.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, docking scores, simulation parameters, DFT calculations, pharmacokinetic predictions, compound structures, reference compound identity, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational workflow for identifying inhibitors of the HIV-1 integrase and LEDGF/p75 interaction. However, the evidence presented is entirely qualitative and lacks the quantitative detail required to evaluate the validity of the claims. The core conclusion that two specific compounds are potent inhibitors is not supported by the supplied material, as no binding affinities, simulation stability metrics, or comparative data against the reference compound are provided. The work may have merit, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, HIV biology, and antiviral therapeutic development would be interested. The topic addresses a clinically relevant protein protein interaction and applies standard computational methods, which may appeal to those seeking novel lead compounds for HIV treatment.
+- **Major strengths** The study targets a biologically important interaction with clear therapeutic relevance. The use of multiple complementary computational approaches is appropriate for the stated goal. The authors explicitly consider pharmacological properties, which strengthens the translational relevance of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ZINC22077550 and ZINC32124441 are "best identified potent molecules" with "efficient binding affinity, strong hydrogen bonding, and acceptable pharmacological properties."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data to support the claim of potency. No docking scores, binding free energies, IC50 values, or comparative metrics against the reference compound are reported. The terms "efficient" and "strong" are subjective and unverifiable without numerical context.
+  - **Why it matters** Potency is a quantitative concept. Without numerical evidence, the claim that these compounds are potent inhibitors cannot be assessed or reproduced. This is the central conclusion of the study, and its evidentiary basis is absent from the supplied material.
+  - **Resolution test** Provide docking scores, binding free energy estimates, and any experimental or validated computational potency metrics for the two compounds and the reference compound, with appropriate statistical measures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "DFT and MDS studies were also analyzed, and shown a favorable energetic state and dynamic stability then reference compound."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the simulation length, force field, solvent model, temperature, pressure, or the DFT functional and basis set used. The claim of "favorable energetic state" and "dynamic stability" is presented without any metrics such as RMSD, RMSF, radius of gyration, or energy values.
+  - **Why it matters** Molecular dynamics and DFT results are only meaningful when the simulation setup is described and stability metrics are reported. Without these, the claim of dynamic stability is not testable, and the comparison to the reference compound cannot be evaluated.
+  - **Resolution test** Report the full simulation protocol, including software, force field, simulation time, and the specific energetic and stability metrics used to compare the candidates with the reference compound.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative validity
+  - **Claim pointer** The authors claim the identified molecules are superior to a "reference compound," implying improved performance.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The identity of the reference compound is not disclosed, nor are the criteria for comparison. It is unclear whether the reference is a known inhibitor, a clinical candidate, or a previously reported hit. Without this information, the comparative claim is meaningless.
+  - **Why it matters** A comparison to an undisclosed reference cannot be interpreted. The claim of superiority is central to the conclusion that these compounds are promising, but the basis for that comparison is absent.
+  - **Resolution test** Identify the reference compound, state the comparison metrics, and provide the numerical values for both the candidates and the reference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "shown a favorable energetic state and dynamic stability then reference compound" contains a grammatical error and is ambiguous. It is unclear whether "then" should be "than" and whether the comparison applies to both energetic state and dynamic stability.
+  - **Required correction** Revise to "shown a more favorable energetic state and greater dynamic stability than the reference compound" or similar, and clarify the scope of the comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The conclusion states that "these findings could be novel therapeutics in the future," but no experimental validation is presented or referenced. The claim of novelty is not supported by a comparison to existing inhibitors or a literature search.
+  - **Required correction** Soften the claim to indicate that these are computational predictions requiring experimental validation, and provide context on how they compare to known inhibitors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Pharmacological properties
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the compounds have "acceptable pharmacological properties" but does not specify which properties were assessed, such as ADMET, drug-likeness, or toxicity.
+  - **Required correction** List the specific pharmacological parameters evaluated and the criteria used to judge acceptability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and a defined reference compound prevents any assessment of the central claims.
+- **Assessment against Nature-style criteria** Originality is not assessable from the abstract, as the approach is standard and no comparison to prior work is provided. Scientific importance is potentially high given the clinical relevance of the target, but the evidence is insufficient to establish significance. Interdisciplinary readership is plausible, as the topic bridges computational chemistry and virology, but the abstract lacks the detail needed for a broad audience to evaluate the findings. Technical soundness cannot be assessed without methods and results. Readability for nonspecialists is adequate, but the abstract is too vague to be informative.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable workflow, but the claims of potency, stability, and superiority over a reference are unsupported. A full manuscript with quantitative results and methodological transparency would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that ZINC22077550 and ZINC32124441 are potent inhibitors is unsupported due to the absence of quantitative binding or activity data.
+- The claim of favorable energetic state and dynamic stability relative to a reference compound is unsupported because no simulation metrics or reference identity are provided.
+- The claim that the compounds have acceptable pharmacological properties is unsupported without specification of the properties assessed.
+- The suggestion that these findings could be novel therapeutics is unsupported without experimental validation or comparison to existing inhibitors.

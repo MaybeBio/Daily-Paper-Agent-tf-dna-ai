@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Conclusions, Materials and Methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors claim that methionine oxidation in the TDP-43 C-terminal domain (CTD) disrupts phase separation through two distinct mechanisms depending on residue location: oxidation of methionines in the conserved region (CR) destabilizes the α-helix and impairs helix-helix interactions, while oxidation of methionines in flanking intrinsically disordered regions (IDRs) disrupts long-range intramolecular contacts. Both mechanisms contribute to loss of phase separation.
+- **Visible evidence base** NMR spectroscopy (1H-15N HSQC, 1H-13C HSQC, 15N R2 relaxation), DIC microscopy, mass spectrometry, all-atom MD simulations (single-chain CTD and CR dimer models), AlphaFold-predicted dimer structures. Figures referenced: 1, 2, 3, 4, 5, 6; Supplementary Figures S1-S18.
+- **Missing materials affecting confidence** Full figure panels and supplementary figures not visible in the provided text. Specific numerical values for chemical shift perturbations, contact ratios, and R2 differences are not provided. Simulation parameters for AlphaFold dimer generation are referenced to a previous study. Statistical analyses and error estimates for MD observables are not described in detail.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question regarding the molecular mechanisms by which oxidative stress, specifically methionine oxidation, impacts TDP-43 phase behavior. The combination of NMR experiments and all-atom MD simulations is appropriate and potentially powerful. The central claim that CR and IDR methionine oxidation disrupt phase separation via distinct mechanisms is plausible and well-motivated. However, the evidence as presented has several gaps. The experimental distinction between CR and IDR oxidation effects relies on engineered variants with altered amino acid composition, and the interpretation of these experiments requires careful scrutiny. The simulation results are extensive but the presentation lacks quantitative detail needed to fully evaluate the claims. The manuscript would be strengthened by clearer presentation of key quantitative results and a more explicit discussion of the limitations of the variant approach.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 biology, phase separation and biomolecular condensates, protein oxidation and redox regulation, and neurodegenerative disease mechanisms. The work provides a molecular framework for understanding how oxidative stress may contribute to TDP-43 dysfunction, which is relevant to ALS and FTD research. The methodological combination of NMR and MD simulations will also be of interest to the biophysics community studying intrinsically disordered proteins.
+- **Major strengths** 1. The study addresses a clinically relevant question with a rigorous combination of experimental and computational approaches. 2. The use of NMR to demonstrate complete oxidation of all methionines and to map residue-level structural changes is thorough. 3. The design of variants to separate CR versus IDR methionine contributions is creative. 4. The MD simulations provide mechanistic hypotheses at atomic resolution that complement the experimental observations. 5. The study resolves a discrepancy in the literature regarding the structural context of methionine oxidation in TDP-43 CTD.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and interpretation
+  - **Claim pointer** The authors claim that "oxidation of methionines in both regions contributes to impaired phase separation, albeit through different mechanisms" based on experiments with variants 5M→AIDR and 5M→ACR+5M→AIDR.
+  - **Evidence pointer** Results section "Oxidation of methionine impairs phase separation regardless of position but disrupts CR helicity only upon CR oxidation"; Figure 4
+  - **Concern** The variant 5M→ACR+5M→AIDR replaces all five CR methionines with alanine and introduces five new methionines into the IDRs. This variant does not isolate the effect of IDR methionine oxidation in the context of the wild-type sequence. The authors argue that this variant preserves overall amino acid composition, but the positional rearrangement of methionines could have unintended effects on the conformational ensemble and interaction network of the unoxidized protein. The claim that oxidation of IDR methionines alone disrupts phase separation is only tested in a background where the CR methionines are already replaced with alanine, which itself may alter the phase separation propensity. The authors should address whether the unoxidized 5M→ACR+5M→AIDR variant has comparable phase separation behavior to the wild-type CTD, and whether the alanine substitutions in the CR have independent effects on helix stability.
+  - **Why it matters** The central conclusion of the paper, that IDR and CR methionine oxidation act through distinct mechanisms, depends critically on the validity of this variant approach. If the 5M→ACR+5M→AIDR variant does not faithfully recapitulate the behavior of the wild-type protein with only IDR methionines oxidized, the mechanistic distinction may be an artifact of the sequence rearrangement.
+  - **Resolution test** Provide phase separation assays (e.g., Csat measurements) for the unoxidized 5M→ACR+5M→AIDR variant compared to wild-type. If the variant has significantly different phase behavior even without oxidation, the interpretation of the oxidation experiments is compromised. Alternatively, use a different strategy to selectively oxidize IDR methionines in the wild-type background, such as methionine auxotrophy with non-canonical amino acid incorporation or selective chemical protection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence for key claims
+  - **Claim pointer** The authors claim that "oxidation of CR methionines disrupts helical structure and directly impairs intermolecular helical association" and that "oxidation of IDR methionines disrupts long-range contacts."
+  - **Evidence pointer** Results sections "Methionine oxidation of CTD disrupts phase separation and reduces CR helicity" and "Methionine oxidation promotes expansion of the CTD monomer and disrupts interactions involving polar, aliphatic, and aromatic residues"; Figures 2, 3, 5
+  - **Concern** The manuscript describes qualitative trends (e.g., "large CSPs," "dramatic reduction in α-helicity," "more expanded conformations") but provides few quantitative values. For example, the secondary chemical shift analysis (ΔδCα-δCβ) is stated to show a shift toward random coil values, but the actual values for specific residues before and after oxidation are not given. Similarly, the contact ratio analysis in Figure 3E is described but the numerical values are not presented in the text. The R2 relaxation data for the 5M→ACR variant is mentioned but the magnitude of the effect is not quantified. Without these quantitative details, it is difficult to assess the statistical significance and magnitude of the reported effects.
+  - **Why it matters** The strength of the conclusions depends on the magnitude and statistical robustness of the observed differences. Qualitative descriptions are insufficient to establish that the effects are biologically meaningful, particularly for the MD simulation results where sampling limitations can produce apparent differences that are not statistically significant.
+  - **Resolution test** Provide quantitative values for key measurements: (1) secondary chemical shift values for CR residues in CTD versus CTDox with uncertainties; (2) contact ratio values for the top affected residue pairs with error bars from the three replicate simulations; (3) R2 values for 5M→ACR before and after oxidation with uncertainties; (4) statistical tests (e.g., t-tests or bootstrap confidence intervals) for the differences in Rg distributions and contact maps between oxidized and unoxidized states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation methodology and validation
+  - **Claim pointer** The authors use all-atom MD simulations with the Amber99sb-stq force field and TIP4P/2005s water model to draw conclusions about the effects of methionine oxidation on CTD conformation and interactions.
+  - **Evidence pointer** Materials and Methods section "Molecular Dynamic (MD) Simulations of Methionine Oxidation"; Figures 3, 5
+  - **Concern** The choice of force field and water model is not justified. The Amber99sb-stq force field is not widely used for IDP simulations, and the TIP4P/2005s water model is a modified version of TIP4P/2005. The authors do not compare their results to simulations with other force fields or water models, nor do they validate that the unoxidized CTD ensemble reproduces experimentally known properties (e.g., chemical shifts, Rg from SAXS, or secondary structure propensities from CD). The methionine sulfoxide parameters are taken from Irani et al. (2013), but the authors do not discuss whether these parameters have been validated for IDP simulations or whether the choice of R vs S stereoisomer affects the results.
+  - **Why it matters** The conclusions about the mechanisms of oxidation effects rely heavily on the MD simulations. If the force field or water model does not accurately capture the conformational preferences of the CTD or the effects of methionine sulfoxide, the mechanistic interpretations could be incorrect. The lack of validation against experimental data weakens confidence in the simulation results.
+  - **Resolution test** (1) Validate the unoxidized CTD ensemble against experimental data, such as comparing predicted chemical shifts (e.g., using SPARTA+ or ShiftX2) to the measured NMR chemical shifts, or comparing Rg to SAXS data if available. (2) Test the sensitivity of the key conclusions to force field choice by performing at least one replicate with an alternative force field (e.g., CHARMM36m or ff99SBws) and water model. (3) Discuss the potential impact of the R vs S stereoisomer choice on the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of experimental validation
+  - **Claim pointer** The authors conclude that "oxidation of methionines in both regions contributes to impaired phase separation" and that this is relevant to TDP-43 dysregulation in neurodegenerative diseases.
+  - **Evidence pointer** Results sections; Conclusions
+  - **Concern** The manuscript does not include any experiments that directly link the observed in vitro effects of methionine oxidation to cellular or disease-relevant contexts. While the authors discuss the potential relevance to oxidative stress in neurodegeneration, no experiments are presented to test whether methionine oxidation of TDP-43 CTD occurs in cells under oxidative stress, or whether the observed effects on phase separation translate to changes in TDP-43 function or aggregation in a cellular context. The connection to disease is therefore speculative.
+  - **Why it matters** The broader significance of the work, and its relevance to a Nature-style audience, depends on the disease relevance of the findings. Without cellular or in vivo validation, the manuscript is primarily a biophysical study of a modified protein, and the disease implications remain unsubstantiated.
+  - **Resolution test** Add experiments in cells or cell lysates demonstrating that oxidative stress leads to methionine oxidation of TDP-43 CTD and that this correlates with changes in TDP-43 phase separation or aggregation. Alternatively, clearly frame the manuscript as a biophysical study and temper the disease-related claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1E
+  - **Evidence pointer** Results section "Methionine oxidation of CTD disrupts phase separation and reduces CR helicity"
+  - **Issue** The mapping of chemical shift perturbations as a function of residue position is described, but the threshold for what constitutes a "large" CSP is not defined. The reader cannot assess whether the reported CSPs are significant relative to noise or expected variability.
+  - **Required correction** Define the CSP threshold used to identify significant perturbations, and indicate the noise level of the measurements.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Mass spectrometry
+  - **Evidence pointer** Materials and Methods section "Mass spectrometry"
+  - **Issue** The mass spectrometry method is described, but the results are only mentioned as confirming complete oxidation. The deconvoluted mass spectrum is not shown, and the expected mass shift for oxidation of 10 methionines (or 11 including the cloning artifact) is not stated.
+  - **Required correction** Show the mass spectrum or provide the expected and observed masses to support the claim of complete oxidation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation analysis detail
+  - **Affected element** Contact analysis
+  - **Evidence pointer** Materials and Methods section "Structural and Contact Analysis"
+  - **Issue** The contact analysis uses a 4.5 Å cutoff between heavy atoms, but the specific atom types included (e.g., all heavy atoms vs side-chain only) and the normalization scheme for the contact maps are not described. The "contact ratio" in Figure 3E is not defined.
+  - **Required correction** Define the contact ratio and describe the normalization procedure. Specify which atoms were included in the contact calculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites previous work on TDP-43 phase separation and methionine oxidation, but the discussion of conflicting results (Lin et al. vs. Carrasco et al.) is brief. A more detailed comparison of these studies and how the current work resolves the discrepancy would strengthen the manuscript.
+  - **Required correction** Expand the discussion of the conflicting literature and explicitly state how the current findings reconcile the discrepancies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MD simulation analyses
+  - **Evidence pointer** Figures 3, 5
+  - **Issue** The MD simulation results are presented as averages over three replicates, but the variability between replicates is not shown. It is unclear whether the reported differences between oxidized and unoxidized states are consistent across replicates.
+  - **Required correction** Show the distribution of results across replicates (e.g., as error bars or individual replicate values) and report the standard deviation or standard error.
+
+## Risk / unsupported claims
+- The claim that "oxidation of methionines in both regions contributes to impaired phase separation, albeit through different mechanisms" is partially supported but the variant-based approach has limitations that are not fully addressed.
+- The claim that "oxidation of CR methionines directly impairs intermolecular helical association" is supported by the dimer simulations, but the experimental evidence for this is indirect (loss of CSPs at high concentration).
+- The claim that "oxidation of IDR methionines disrupts long-range contacts" is supported by simulations but the experimental validation is limited to the 5M→ACR+5M→AIDR variant, which has a rearranged sequence.
+- The disease relevance of the findings is speculative and not directly tested.
+- The statement that "all methionine residues are vulnerable to oxidation" is supported by mass spectrometry, but the claim that this occurs "regardless of sequence position" is based on the observation of complete oxidation under the conditions used, which does not address relative susceptibility under milder conditions.
+- The claim that the CTDox spectrum "displayed no evidence of unmodified Met residues" is stated but the sensitivity of the detection is not discussed.

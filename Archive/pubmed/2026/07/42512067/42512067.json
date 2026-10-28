@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "42512067",
+    "doi": "10.3390/biomedicines14071594",
+    "title": "Integrated Multi-Omics Identifies Core Molecular Targets in Cerebral Venous Sinus Thrombosis-Induced Brain Injury."
+  },
+  "content": {
+    "abstract": "Background: Cerebral venous sinus thrombosis (CVST) is a critical cause of brain injury and intracranial hypertension. However, its underlying molecular mechanisms remain poorly understood, limiting the development of targeted therapies. This study aims to systematically identify key molecular targets and signaling pathways involved in CVST-induced brain lesions using multi-omics approaches in a modified rat model of CVST. Methods: An optimized rat CVST model was established. Cortical tissues were collected from Sham-operated, 2-day post-CVST, and 7-day post-CVST groups for transcriptomic, proteomic, and single-cell transcriptomic sequencing. Bioinformatics analyses were performed to identify differentially expressed genes/proteins, followed by functional enrichment, protein-protein interaction network construction, and hub-gene screening. Further investigations included drug enrichment analysis, molecular docking, and molecular dynamics, as well as the prediction of competing endogenous RNA networks, transcription factor analysis, and expression profiling of potential edema-related therapeutic targets. Results: Multi-omics analyses revealed dynamic changes in gene and protein expression in the brain after CVST, along with associated pathways involved in immune inflammatory responses and tissue repair. Integrative analysis identified 12 core genes (Cd44, Cd40, Sdc1, Myd88, Icam1, Stat3, Jak2, Ptgs2, Aldh1a1, Hspb1, Pxdn, and Casp3). Single-cell RNA sequencing validated their expression and delineated cell-type specificity. Molecular docking hinted at the high binding potential of glucocorticoids such as dexamethasone and methylprednisolone to several core targets (JAK2, PTGS2, and CD44), with all docked complexes showing binding energies below -8.2 kcal/mol. Further molecular dynamics simulations indicated that methylprednisolone forms a stable complex with CD44, driven primarily by van der Waals and electrostatic interactions. Additionally, dynamic levels of several potential edema-related targets (Kcnn4, Piezo1, Trpv4, and Atp1a2) were observed. Conclusions: In summary, by applying integrated multi-omics profiling to a modified rat model, this study systematically mapped the molecular landscape of CVST-induced brain injury. A number of candidate targets and signaling pathways emerged from our analysis, along with several compounds of potential therapeutic interest. Collectively, these results provide a basis for further investigation into the mechanisms underlying CVST and for the design of novel treatment approaches.",
+    "keywords": [
+      "brain injury",
+      "cerebral venous sinus thrombosis",
+      "molecular docking",
+      "molecular dynamics",
+      "multi-omics",
+      "rat model",
+      "single-cell sequencing",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Xiaohong",
+        "Lu, Haoran",
+        "Chen, Zhibiao",
+        "Wang, Yuxuan",
+        "Chen, Jiang",
+        "Liu, Xizhi",
+        "Zhao, Zilong",
+        "Zhou, Jiaqi",
+        "Tian, Shuyue",
+        "Ding, Rui"
+      ],
+      "short_names": [
+        "Qin X",
+        "Lu H",
+        "Chen Z",
+        "Wang Y",
+        "Chen J",
+        "Liu X",
+        "Zhao Z",
+        "Zhou J",
+        "Tian S",
+        "Ding R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Medical Imaging, Hanzhong Hospital of Traditional Chinese, Hanzhong 723000, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Xiaohong",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Haoran",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhibiao",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuxuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiang",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Department of Medical Imaging, Hanzhong Hospital of Traditional Chinese, Hanzhong 723000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xizhi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zilong",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiaqi",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Shuyue",
+        "short_name": "Tian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Rui",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430060, China.",
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2026 Jul 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40943148",
+      "40579608",
+      "40564099",
+      "40481713",
+      "40347924",
+      "40335091",
+      "40299574",
+      "40200369",
+      "40033789",
+      "39944892",
+      "39932263",
+      "39930981",
+      "39552040",
+      "38950712",
+      "38868573",
+      "38694921",
+      "38547250",
+      "38528202",
+      "38492876",
+      "38386979",
+      "38324639",
+      "38287411",
+      "38177281",
+      "37902195",
+      "37592229",
+      "36987606",
+      "36601664",
+      "36277910",
+      "36237551",
+      "36000206",
+      "35963237",
+      "35899769",
+      "35815379",
+      "35794095",
+      "35790077",
+      "35689216",
+      "35456932",
+      "35449099",
+      "34743196",
+      "34421575",
+      "33798563",
+      "32830349",
+      "32795611",
+      "32793123",
+      "32652708",
+      "31396235",
+      "31131048",
+      "30462277",
+      "30423086",
+      "30225551",
+      "29441008",
+      "26862443",
+      "26821950",
+      "25910210",
+      "25751142",
+      "25690850",
+      "25516281",
+      "22394415",
+      "21816040",
+      "21293023",
+      "21262839",
+      "19426221",
+      "15795333",
+      "12764232",
+      "9850146",
+      "8898711",
+      "8619547"
+    ],
+    "similar": [
+      "42512067",
+      "40676786",
+      "37918797",
+      "42565562",
+      "40916281",
+      "42265520",
+      "42486346",
+      "41895505",
+      "42421348",
+      "42163737",
+      "40812665",
+      "41342434",
+      "42424301",
+      "41388523",
+      "42475469",
+      "41186507",
+      "42530267",
+      "41670688",
+      "40317014",
+      "41371106",
+      "41191606",
+      "42024670",
+      "42220119",
+      "41492010",
+      "41246353",
+      "41288681",
+      "41918119",
+      "42377012",
+      "41358199",
+      "40487403",
+      "40767016",
+      "42509698",
+      "39874886",
+      "41863100",
+      "42120472",
+      "41556698",
+      "40839986",
+      "41150817",
+      "41694354",
+      "42393402",
+      "40853611",
+      "41237469",
+      "39686413",
+      "42083525",
+      "42254026",
+      "41101222",
+      "42074514",
+      "42236612",
+      "41863408",
+      "39251712",
+      "40397259",
+      "41795298",
+      "42255489",
+      "42435052",
+      "40406126",
+      "40085348",
+      "42329412",
+      "42223712",
+      "34560213",
+      "41699549",
+      "42375348",
+      "41444617",
+      "42509710",
+      "36646273",
+      "41963573",
+      "41630051",
+      "42011617",
+      "41935781",
+      "42477744",
+      "41385176",
+      "41436831",
+      "41591671",
+      "41716413",
+      "41942869",
+      "42133161",
+      "42580240",
+      "41444316",
+      "42063773",
+      "37833759",
+      "41918402",
+      "42227375",
+      "42524252",
+      "41694764",
+      "42492703",
+      "42145839",
+      "41664372",
+      "42103034",
+      "42436415",
+      "42292668",
+      "40265430",
+      "42516950",
+      "42249649",
+      "41703488",
+      "40764361",
+      "42263871",
+      "42570804",
+      "41952432",
+      "40592154",
+      "42278407",
+      "42254657"
+    ],
+    "review": [
+      "42512067",
+      "41101222"
+    ],
+    "pmc": [
+      "13406610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines14071594",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42512067/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPB1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

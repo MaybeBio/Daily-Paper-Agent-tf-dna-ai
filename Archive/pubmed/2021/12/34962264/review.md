@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a two-step computational predictor using tripeptide word vector features and a recurrent neural network with long short-term memory to first discriminate transcription factors from non-transcription factors, and second to determine whether those transcription factors can bind to methylated DNA. Reported independent test accuracies are 86.63% for step one and 73.59% for step two. The authors also report a statistical analysis of tripeptide distribution suggesting positional and numerical effects on binding, and they provide a web server.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, performance metrics beyond accuracy, or validation procedures are provided
+- **Missing materials affecting confidence** Full manuscript, dataset composition and sources, feature engineering details, model architecture specifications, hyperparameter settings, cross-validation procedures, independent test set construction, comparison with existing methods, statistical analysis methodology, web server implementation details, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of deep learning to a niche but biologically relevant problem. However, the evidence provided is insufficient to evaluate the technical soundness, generalizability, or novelty of the approach. The reported accuracies, particularly for the second step, are modest and lack context such as baseline comparisons or error analysis. The claim about tripeptide distribution affecting binding is vague and unsupported without statistical details. The work may interest computational biologists working on TF-DNA interactions, but the current abstract does not establish the case for broad significance or methodological rigor.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians studying transcription factor binding mechanisms, particularly those interested in epigenetic regulation and methylated DNA interactions. Researchers developing machine learning predictors for protein-DNA binding may also find the two-step architecture and feature representation relevant. The web server could be a practical resource for experimental biologists seeking candidate TFs for validation.
+- **Major strengths** The problem is biologically meaningful, as the conventional assumption that methylation always blocks TF binding has been challenged. The two-step hierarchical design is a sensible strategy to reduce false positives by first filtering for TFs. The use of tripeptide word vectors is a reasonable adaptation of natural language processing techniques to protein sequences. Providing a free web server enhances practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The two-step model achieves accuracies of 86.63% and 73.59% on independent tests.
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract reports only accuracy, which is insufficient to assess model performance, especially for imbalanced datasets common in biological classification. No sensitivity, specificity, precision, recall, F1-score, or area under the ROC curve are provided. The second step accuracy of 73.59% is notably low and may indicate limited discriminative power.
+  - **Why it matters** Without additional metrics, the reader cannot judge whether the model is practically useful or merely better than chance. A model with 73.59% accuracy on a binary classification task may be only marginally predictive depending on the class balance. The absence of baseline comparisons or existing method benchmarks further weakens the performance claim.
+  - **Resolution test** Provide a full performance table including sensitivity, specificity, precision, recall, F1-score, and AUC for both steps, along with class distributions. Compare against at least one existing predictor or a simple baseline such as sequence composition or a standard machine learning method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data transparency
+  - **Claim pointer** The model was trained and tested on datasets, but no details are given about data sources, sizes, or construction.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not specify how training and independent test sets were constructed, what databases were used, how positive and negative samples were defined, or how sequence redundancy was handled. The number of TFs and non-TFs, and the number of methylated-DNA-binding TFs versus non-binding TFs, are unknown.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without dataset details, the results cannot be independently verified or compared with other methods. Potential data leakage or biased sampling could inflate reported accuracies.
+  - **Resolution test** Describe dataset sources, inclusion and exclusion criteria, positive and negative sample definitions, sequence length ranges, redundancy removal procedures, and the exact split between training and independent test sets. Provide accession numbers or download links.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and comparative assessment
+  - **Claim pointer** The study proposes a robust predictor for methylated DNA-bound TFs.
+  - **Evidence pointer** Abstract, introduction and methods; location not provided
+  - **Concern** The abstract does not compare the proposed method with any existing predictors for TF binding or methylated DNA binding. It is unclear what improvements the tripeptide word vector and LSTM architecture offer over previously published methods.
+  - **Why it matters** The claim of robustness requires demonstration of superiority or at least parity with existing tools. Without comparative analysis, the novelty and practical advantage of the method remain unsubstantiated.
+  - **Resolution test** Include a comparison table with at least two existing methods on the same independent test set, reporting multiple metrics. Discuss cases where the proposed method outperforms or underperforms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical support for biological claim
+  - **Claim pointer** The position and number of some tripeptides in the sequence could affect the binding of TFs to methylated DNA.
+  - **Evidence pointer** Abstract, statistical analysis section; location not provided
+  - **Concern** The abstract states a statistical analysis of tripeptide distribution but provides no details on the statistical tests used, effect sizes, significance thresholds, or which specific tripeptides were implicated. The claim is too vague to evaluate.
+  - **Why it matters** This claim extends beyond model performance into biological interpretation. If unsupported, it could mislead readers into overinterpreting the model's feature importance. The biological relevance of the finding depends on rigorous statistical evidence.
+  - **Resolution test** Provide the statistical methodology, including tests used, multiple testing corrections, and a list of significant tripeptides with effect sizes and p-values. Show how these tripeptides relate to known TF binding motifs or methylation-sensitive positions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, introduction; location not provided
+  - **Issue** The phrase "proteins specifically involved in gene expression regulation" is imprecise, as many proteins regulate gene expression without being transcription factors.
+  - **Required correction** Rephrase to "proteins that bind to specific DNA sequences to regulate gene expression" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Feature representation
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** The term "tripeptide word vector" is introduced without explaining how the vectors are generated or what corpus or embedding dimension is used.
+  - **Required correction** Briefly describe the embedding approach, such as whether it uses pre-trained vectors or learns embeddings from the training data, and specify the vector dimension.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web server
+  - **Evidence pointer** Abstract, last sentence; location not provided
+  - **Issue** The web server URL is provided, but no information is given about input formats, output interpretation, or usage limits.
+  - **Required correction** Add a sentence describing the expected input (e.g., protein sequence in FASTA format) and the output (e.g., probability scores for TF and methylated-DNA-binding predictions).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the reported performance cannot be properly evaluated without additional metrics and dataset transparency. R1-M3 and R1-M4 are important but not strictly blocking; however, they should be addressed to strengthen the case.
+- **Assessment against Nature-style criteria** Originality: The application of LSTM with tripeptide word vectors to methylated-DNA-binding TF prediction appears novel, but the abstract does not clearly differentiate it from prior work on TF binding prediction. Scientific importance: The problem is relevant to epigenetics and gene regulation, but the modest accuracy and lack of biological validation limit the immediate impact. Interdisciplinary readership: The work may appeal to computational biologists and some experimental epigenetics researchers, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Cannot be fully assessed from the abstract; the missing performance metrics and dataset details are critical gaps. Readability for nonspecialists: The abstract is generally readable but uses jargon without explanation, and the significance of the results is not framed for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable idea and a working tool, but the lack of performance detail, dataset transparency, and comparative analysis prevents a positive recommendation. The authors should provide the full manuscript with comprehensive evaluation and address the blocking concerns before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that the model is "robust" is unsupported without cross-validation results, error analysis, or comparison with existing methods.
+- The claim that tripeptide position and number affect methylated-DNA binding is unsupported without statistical details.
+- The reported accuracies cannot be interpreted without class distributions and additional performance metrics.
+- The generalizability of the model to unseen TF families or species is not addressed and cannot be evaluated from the abstract.

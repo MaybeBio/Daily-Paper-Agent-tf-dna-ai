@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that 2'-hydroxyl groups at specific crRNA residues are required for Cas9 to achieve a conformation competent for target DNA binding, and that this barrier can be circumvented by strategic placement of phosphorothioate linkages, yielding a fully ribose-replaced crRNA (FM8.15) with restored editing activity and specificity
+- **Visible evidence base** In vitro cleavage assays, cell-based EGFP knockout, thermal stability measurements, filter binding assays, cryo-EM (single structure at 3.44 Å), Gaussian-accelerated MD simulations, Cas9 point mutants, nanopore amplicon sequencing for on/off-target editing
+- **Missing materials affecting confidence** Figures, tables, supplementary data, exact numerical values for most assays, cryo-EM validation metrics, MD simulation convergence details, statistical analysis details, and full methods for nanopore sequencing analysis
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely problem in CRISPR therapeutics: the inability to fully chemically modify crRNA without losing activity. The authors present a plausible mechanistic hypothesis, supported by a multi-pronged approach, that 2'-OH contacts at specific residues gate a conformational transition required for target engagement. The key claim, that phosphorothioate placement can functionally substitute for these contacts, is interesting and potentially impactful. However, the evidence as presented is incomplete. The central mechanistic conclusion rests heavily on a single cryo-EM structure and MD simulations whose validation and statistical power are not fully described. The functional data, while suggestive, show variable effects across targets and designs, and the relationship between in vitro binding, cellular editing, and the proposed conformational mechanism is not rigorously established. The manuscript is well-written and the logic is clear, but the current evidence does not fully support the strength of the claims made.
+- **Who would be interested in the results, and why** Researchers in CRISPR biology, nucleic acid chemistry, and therapeutic genome editing. The mechanistic insight into Cas9 allostery and the demonstration of a fully modified crRNA with activity will be of direct interest to those developing next-generation CRISPR therapeutics, particularly for in vivo delivery where nuclease stability is critical.
+- **Major strengths** 1) The study tackles a well-defined, important problem with clear therapeutic relevance. 2) The multi-technique approach (chemistry, biochemistry, structural biology, computation, cell-based assays) is comprehensive. 3) The identification of a specific, testable mechanism (2'-OH contacts as allosteric checkpoints) is a valuable conceptual contribution. 4) The final FM8.15 design, with full ribose replacement and restored activity, is a tangible and promising outcome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** "the ribose 2'-hydroxyl group at specific crRNA residues is required to achieve a conformational state competent for Cas9 target DNA binding"
+  - **Evidence pointer** Results section "Ribose replacements at crRNA-Cas9 2'-OH contact residues inhibit gene editing"; cryo-EM and MD sections
+  - **Concern** The central mechanistic claim is that loss of 2'-OH contacts traps Cas9 in a non-competent conformation. The cryo-EM data are presented for only one modified crRNA (crEG-SJ1) and show a "closed" conformation similar to the unmodified complex, with the main difference being increased flexibility in REC2/3 and HNH domains. The MD simulations, using a single DNA substitution at position 1, show a shift to an "apo-like" state. These two observations are not fully reconciled. The cryo-EM structure appears to capture a closed state, while the simulations suggest the modified RNA prevents reaching that state. The authors need to clarify whether the cryo-EM structure represents a minority population, an intermediate state, or a state that is structurally closed but dynamically incompetent. The link between the observed structural/dynamic changes and the specific loss of function (reduced Bmax) is inferred, not directly demonstrated.
+  - **Why it matters** The entire premise of the paper, and the rationale for the FM8.15 design, rests on this specific allosteric mechanism. If the mechanism is different (e.g., altered R-loop stability, changes in PAM recognition, or effects on RNP assembly), the design principles may not be generalizable. The current evidence does not exclude these alternatives.
+  - **Resolution test** The authors should provide a more detailed analysis of the cryo-EM data, including 3D variability analysis or classification to show the distribution of conformational states. They should also perform MD simulations with multiple modified crRNAs (e.g., those with reduced Bmax) to show a consistent correlation between loss of 2'-OH contacts and population shift. Ideally, they would test a mutant Cas9 that rescues the conformational defect, or use FRET or single-molecule experiments to directly measure conformational dynamics in solution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** "resulting in high Cas9 editing efficiency and fidelity with a ribose-free crRNA"
+  - **Evidence pointer** Results section "A ribose-free crRNA retains target binding and supports editing at endogenous loci"; Figure 6E (not provided)
+  - **Concern** The key functional claim is that FM8.15 restores editing to unmodified levels. However, the data presented in the text show that FM8.15 provides "about 2/3 and 1/3 the editing efficiency of unmodified crRNA for AAVS1 and TRAC while providing full editing for ATR." This is not "full restoration" across all targets. The variability across loci is not explained. Is this due to sequence context, chromatin state, or intrinsic differences in target engagement? The claim of "high editing efficiency" is therefore overstated. Furthermore, the off-target analysis is described only qualitatively ("similar or lower off-target editing"). Without quantitative data and statistical comparison, the fidelity claim is not established.
+  - **Why it matters** The therapeutic relevance of the FM8.15 design depends on consistent, high-level activity and specificity across multiple targets. The current data suggest target-dependent effects, which would limit the generalizability of the approach. The lack of quantitative off-target data prevents assessment of whether the modifications improve or worsen specificity.
+  - **Resolution test** The authors should provide quantitative editing efficiencies (with standard deviations and statistical tests) for all targets and designs. They should also provide a comprehensive off-target analysis, either through targeted amplicon sequencing of predicted off-targets or through genome-wide methods (e.g., GUIDE-seq), with clear statistical thresholds for defining off-target sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational evidence
+  - **Claim pointer** "MD simulations were performed using a modified crRNA with a single DNA substitution that severely compromises binding and catalysis"
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"; Figures 4 and 5 (not provided)
+  - **Concern** The MD simulations are a critical pillar of the mechanistic argument, but the methods as described are insufficient to assess their validity. The simulation length (1 μs) is short for capturing large-scale conformational transitions in a complex of this size. The force field parameters for the modified nucleotides (DNA, 2'-F, etc.) are not described. The convergence of the simulations is not demonstrated. The PMF calculations, which are used to support the energy landscape argument, depend heavily on the choice of reaction coordinates and the sampling quality. The authors state that the "Mod complex assumes an inactive apo-like conformation" based on a single distance metric (S867-N1054). This is a very limited descriptor of a complex conformational state.
+  - **Why it matters** The conclusions drawn from the simulations are used to support the allosteric mechanism. If the simulations are not well-converged or the force field is not appropriate, the conclusions may be artifacts. The specific claim that the modified RNA shifts the population to an apo-like state needs to be robust to simulation parameters and analysis methods.
+  - **Resolution test** The authors should provide details on force field parameters, simulation convergence (e.g., block averaging, multiple replicas), and a more comprehensive analysis of the conformational ensembles (e.g., PCA projections, free energy surfaces along multiple coordinates). They should also validate the simulations against the cryo-EM data, e.g., by showing that the simulated unmodified complex samples the experimentally observed closed state.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "making rational design of guide RNAs with complete nuclease protection for CRISPR-based medicines possible"
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is performed with a single Cas9 ortholog (SpCas9) and a limited number of target sequences. The authors speculate that the mechanism and the design principles extend to other Cas9 variants and other RNA-guided enzymes (e.g., Cas12a). However, no data support this generalization. The specific contacts identified may be unique to SpCas9, and the response to PS modification may differ in other contexts.
+  - **Why it matters** The therapeutic impact of this work depends on the ability to apply the design principles broadly. If the mechanism is SpCas9-specific, the impact is more limited.
+  - **Resolution test** The authors should either provide data with another Cas9 variant or Cas12a, or temper the claims of generalizability. At minimum, they should discuss the sequence and structural conservation of the identified contacts across Cas9 orthologs and related enzymes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "high Cas9 editing efficiency and fidelity" but the data show target-dependent efficiency. This is an overstatement.
+  - **Required correction** Revise to "restored editing activity to levels comparable to unmodified crRNA at some loci, with maintained or improved specificity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Editing efficiency correlates with DNA target engagement"
+  - **Evidence pointer** Figure 1D and S1D
+  - **Issue** The correlation between Bmax and cell-based editing is reported as r = 0.95, p = 0.01. With only 5 data points, this correlation is heavily influenced by a single point. The authors should show the data and discuss the limitations of this small sample size.
+  - **Required correction** Provide a scatter plot with all data points and discuss the robustness of the correlation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods detail
+  - **Affected element** Methods section "Molecular dynamics simulations"
+  - **Evidence pointer** Methods
+  - **Issue** The description of the PMF calculations is incomplete. The specific reaction coordinates used for the PMF are not clearly defined.
+  - **Required correction** Clearly state the reaction coordinates used for the PMF calculations and justify their choice.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "A ribose-free crRNA retains target binding and supports editing at endogenous loci"
+  - **Evidence pointer** Figure 6E
+  - **Issue** The off-target analysis is described only qualitatively. The number of off-target sites examined and the criteria for calling an off-target are not stated.
+  - **Required correction** Provide a table listing the off-target sites, their genomic locations, and the editing frequencies observed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors propose that PS linkages "modulate dynamics of Cas9 by increasing hybridization dynamics with target DNA and increasing interaction stability with positively charged Cas9 residues." This is speculative and not directly tested.
+  - **Required correction** Clearly label this as a hypothesis and suggest experiments to test it (e.g., isothermal titration calorimetry, surface plasmon resonance).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (mechanistic link between structural data and function), R1-M2 (quantitative functional data across targets), R1-M3 (validation of MD simulations).
+- **Assessment against Nature-style criteria** Originality: High. The concept of 2'-OH contacts as allosteric checkpoints is novel and provides a new framework for understanding guide RNA requirements. Scientific importance: High. The ability to fully chemically modify crRNA has direct implications for therapeutic development. Interdisciplinary readership: Moderate to high. The work bridges chemistry, structural biology, and genome editing, and will appeal to a broad audience. Technical soundness: Currently insufficient. The key claims are not fully supported by the presented evidence, particularly regarding the mechanistic model and the generalizability of the functional results. Readability for nonspecialists: Good. The manuscript is clearly written and the logic is easy to follow, although some sections (MD simulations) may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the initial data are encouraging, but the current evidence does not fully establish the proposed mechanism or the broad utility of the FM8.15 design. The authors need to provide more rigorous quantitative data, address the inconsistencies between the cryo-EM and MD results, and validate the computational findings.
+
+## Risk / unsupported claims
+- The claim that 2'-OH contacts "mediate a previously unknown target engagement checkpoint mechanism" is not fully supported. The data show a correlation between loss of 2'-OH and reduced binding, but a direct mechanistic link to a specific checkpoint is not demonstrated.
+- The claim that the FM8.15 design is "a reliable starting point" for therapeutic development is not supported by the in vivo data, which are absent. The in vitro and cell-based data show target-dependent effects.
+- The speculation that the mechanism extends to other RNA-guided enzymes (Cas12a) is unsupported by any data.
+- The statement that "PS linkages... increase interaction stability with positively charged Cas9 residues" is presented as a mechanism but is not tested.
+- The correlation between Bmax and cell-based editing (r = 0.95) is based on a very small sample size and should be interpreted with caution.

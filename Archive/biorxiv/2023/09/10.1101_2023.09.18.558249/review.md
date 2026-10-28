@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, declarations) as provided.
+- **Assessment boundary** The scientific claims, methodology, and evidence presented in the manuscript. No external validation of data or code was performed.
+- **Shared manuscript claim summary** The authors use all-atom MD simulations to show that LexA binding to a high-affinity DNA motif induces more pronounced DNA bending and structural deformation than binding to a lower-affinity motif, and that this is accompanied by asymmetric movement of the LexA dimer, suggesting a potential second DNA binding site.
+- **Visible evidence base** Figures 1-6, Supplementary Figures A1-A4, Table 1, and the text of the Results and Discussion sections.
+- **Missing materials affecting confidence** Simulation parameter files, initial structure coordinates for the docked complexes, force field validation data, convergence checks, and raw trajectory data are not provided. The manuscript does not include a detailed description of the docking procedure or the quality of the docked models.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of protein-DNA interactions, specifically the relationship between binding affinity and DNA bending. The use of MD simulations to study this is appropriate. However, the study is based on a very limited number of simulations (one per system, 100 ns each), which raises concerns about statistical robustness and sampling convergence. The analysis is largely descriptive, and the link between the observed conformational changes and the functional implications for DNA looping is not quantitatively established. The claim of a second DNA binding site is speculative and not sufficiently supported by the data presented. The manuscript would benefit from a more rigorous analysis, including replicate simulations, error analysis, and a more direct assessment of the energetic contributions to bending.
+- **Who would be interested in the results, and why** Researchers in the fields of molecular biophysics, computational biology, and bacterial gene regulation would be interested. The study provides a molecular-level view of how a transcription factor's binding affinity can modulate DNA structure, which is relevant for understanding transcriptional regulation mechanisms and for engineering synthetic transcription factors.
+- **Major strengths** The study addresses a specific and mechanistically important question. The use of a well-established simulation protocol (GROMACS, AMBER force fields) is a strength. The comparison of two DNA sequences with different affinities is a logical approach. The analysis of DNA groove widths and helical parameters is appropriate for characterizing bending.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the observed differences in bending between the two complexes are significant and representative of the systems' behavior.
+    - **Evidence pointer** Figures 2, 4, 5; Section 3.1, 3.2
+    - **Concern** The study is based on a single 100 ns simulation per system. This is insufficient to establish statistical significance for the observed differences in conformational properties like RMSD, RMSF, and groove widths. The differences could be due to sampling noise or the specific initial conditions of the simulations. No replicate simulations or error bars are provided.
+    - **Why it matters** Without replicates, it is impossible to determine if the observed differences are a robust property of the systems or an artifact of a single trajectory. This undermines the central claim of the paper.
+    - **Resolution test** The authors should perform at least 3 independent simulations per system (starting from different initial velocities) and show that the observed differences in bending, RMSF, and groove widths are consistent across replicates. Provide mean and standard deviation for all reported metrics.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the DNA bending is induced by LexA binding, based on the comparison of bound and unbound DNA simulations.
+    - **Evidence pointer** Section 3.2, Supplementary Figures A2, A3
+    - **Concern** The comparison between bound and unbound DNA is made, but the unbound DNA simulations are not described in detail. It is unclear if they were simulated for the same length, with the same protocol, and if they reached equilibrium. The conclusion that bending is induced by protein binding requires a direct and quantitative comparison of the DNA conformation in the bound and free states, which is not clearly presented.
+    - **Why it matters** The conclusion that LexA induces bending is a key finding. If the unbound DNA simulations are not equivalent, the comparison is not valid, and the conclusion is not supported.
+    - **Resolution test** Provide a clear description of the unbound DNA simulations. Show a direct comparison of the DNA bending angle or curvature distribution between the bound and unbound states, with appropriate statistical analysis.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The claim that the results have implications for DNA looping and gene expression.
+    - **Evidence pointer** Section 4 (Conclusion)
+    - **Concern** The manuscript does not quantitatively link the observed DNA bending to the efficiency or probability of DNA looping. The discussion on looping is qualitative and speculative. The connection between a ~10-20 degree bend in a 70 bp fragment and the formation of a loop of several hundred base pairs is not established.
+    - **Why it matters** The title and introduction promise implications for DNA looping, but the study does not provide direct evidence for this. Overstating the implications without supporting data weakens the paper's impact.
+    - **Resolution test** Either remove or significantly temper the claims about DNA looping, or provide a more quantitative analysis, such as calculating the free energy cost of bending and relating it to loop formation models.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that a second DNA binding site within LexA is suggested by the proximity of residues 162, 163, 182, and 183 to the DNA.
+    - **Evidence pointer** Section 3.3, Figure 6
+    - **Concern** This is a highly speculative claim based on a single simulation. The observed proximity of these residues to the DNA could be a transient fluctuation or an artifact of the simulation setup. No structural or biochemical evidence is provided to support the existence of a second binding site.
+    - **Why it matters** This is a novel and potentially important claim, but it is not supported by the evidence presented. Making such a claim without further validation is risky and could mislead the field.
+    - **Resolution test** The authors should either remove this claim or provide additional evidence, such as a detailed analysis of the interaction interface, conservation analysis of the residues, or a reference to experimental data supporting a second binding site.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Section 1
+    - **Issue** The introduction is somewhat dense and could be clearer for a general audience. The relevance of DNA looping to gene expression is stated but not explained in sufficient detail.
+    - **Required correction** Briefly explain the concept of DNA looping and its role in transcriptional regulation for readers who may not be experts in the field.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods
+    - **Evidence pointer** Section 2.1
+    - **Issue** The description of the docking procedure is brief. The quality of the docked complexes is not assessed (e.g., no docking scores or visual inspection of the interface).
+    - **Required correction** Provide more details on the docking protocol and include an assessment of the quality of the docked models, such as the number of contacts at the interface or a comparison with the known crystal structure.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results
+    - **Evidence pointer** Figure 2
+    - **Issue** The RMSD plots are described as showing that the high-affinity complex stabilizes quickly, but the figure is not shown in the text. It is difficult to assess the claim without seeing the data.
+    - **Required correction** Ensure that the figures are clearly referenced and that the text describes the key features of the plots in a way that is understandable without the figure.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results
+    - **Evidence pointer** Section 3.2, Figure 5
+    - **Issue** The analysis of roll, tilt, and twist angles is presented, but the statistical significance of the differences between the two complexes is not assessed.
+    - **Required correction** Provide error bars or a statistical test (e.g., a t-test) to show that the differences in the helical parameters are significant.
+- **Technical failings that need to be addressed before the case is established** The lack of replicate simulations and statistical analysis is a critical technical failing. The study's conclusions are based on single trajectories, which is not sufficient to make robust claims about conformational differences. The speculative claim about a second DNA binding site is also a technical failing in the sense that it is not supported by the data.
+- **Assessment against Nature-style criteria**
+    - **Originality** The question of how binding affinity affects DNA bending is not entirely new, but the specific application to LexA with long flanking regions is a novel angle. The study is not highly original but is a reasonable extension of existing work.
+    - **Scientific importance** The findings are of moderate importance. They provide a molecular-level description of a known phenomenon (affinity-dependent conformational changes) but do not offer a fundamentally new insight into the mechanism of DNA looping or gene regulation.
+    - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and molecular biologists. It is unlikely to appeal to a broad interdisciplinary audience.
+    - **Technical soundness** The technical soundness is currently weak due to the lack of replicate simulations and statistical analysis. The simulation protocol is standard, but the analysis is not rigorous enough to support the claims.
+    - **Readability for nonspecialists** The manuscript is generally well-written but could be improved by providing more context for the biological significance of the work.
+- **Recommendation posture** Currently not established from the provided evidence. The study has a sound premise and uses appropriate methods, but the lack of statistical rigor and the speculative nature of some claims prevent it from being a convincing contribution. The authors need to address the major concerns, particularly the need for replicate simulations and a more quantitative analysis, before the case is established.
+
+## Risk / unsupported claims
+- The claim that a second DNA binding site within LexA is suggested by the simulation data is unsupported and speculative.
+- The claim that the observed DNA bending has direct implications for DNA looping is not supported by the data presented.
+- The claim that the high-affinity complex is more stable than the low-affinity complex is based on a single simulation and is not statistically validated.

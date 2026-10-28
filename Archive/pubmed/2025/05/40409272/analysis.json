@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40409272",
+  "title": "CellWalker2: Multi-omic discovery using hierarchical cell type relationships.",
+  "authors": "Hu, Zhirui; Przytycki, Pawel F; Pollard, Katherine S",
+  "journal": "Cell genomics",
+  "published_date": "2025-05-24",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发基于图扩散的多组学细胞类型注释工具，虽涉及染色质可及性和转录因子注释，但核心是细胞类型映射而非蛋白质-DNA互作建模，且无AI/物理模拟方法聚焦结合机制，与本课题关联微弱。",
+  "abstract": "Tissues are composed of cells with a wide range of similarities to each other, yet existing methods for single-cell genomics treat cell types as discrete labels. To address this gap, we developed CellWalker2, a graph diffusion-based model for the annotation and mapping of multi-modal data. With our open-source software package, hierarchically related cell types can be probabilistically matched across contexts and used to annotate cells, genomic regions, or gene sets. Additional features include estimating statistical significance and enabling gene expression and chromatin accessibility to be jointly modeled. Through simulation studies, we show that CellWalker2 performs better than existing methods in cell-type annotation and mapping. We then use multi-omics data from the brain and immune system to demonstrate CellWalker2's ability to assign high-resolution cell-type labels to regulatory elements and TFs and to quantify both conserved and divergent cell-type relationships between species.",
+  "abstract_zh": "组织由具有广泛相似性的细胞组成，然而现有的单细胞基因组学方法将细胞类型视为离散标签。为解决这一差距，我们开发了CellWalker2，一种基于图扩散的多模态数据注释与映射模型。借助我们的开源软件包，层级相关的细胞类型可在不同情境下进行概率匹配，并用于注释细胞、基因组区域或基因集。附加功能包括估计统计显著性以及实现基因表达和染色质可及性的联合建模。通过模拟研究，我们表明CellWalker2在细胞类型注释和映射方面优于现有方法。随后，我们利用大脑和免疫系统的多组学数据，展示CellWalker2为调控元件和转录因子分配高分辨率细胞类型标签，并量化物种间保守及分化的细胞类型关系的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40409272/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40409272/",
+  "paper_page_path": "papers/pubmed/40409272/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2306.09243v2",
+  "title": "On Selecting Distance Metrics in $n$-Dimensional Normed Vector Spaces of Cells: A Novel Criterion and Similarity Measure Towards Efficient and Accurate Omics Analysis",
+  "authors": "Okezue Bell; Arthur Lee; Elizabeth Engle",
+  "journal": "",
+  "published_date": "2023-06-13",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出选择高维细胞距离度量的准则并开发新度量，虽在转录因子结合位点注释中有应用，但核心是单细胞组学聚类与距离度量，非蛋白质-DNA互作建模，方法亦非AI或物理模拟。",
+  "abstract": "Single-cell omics enable the profiles of cells, which contain large numbers of biological features, to be quantified. Cluster analysis, a dimensionality reduction process, is used to reduce the dimensions of the data to make it computationally tractable. In these analyses, cells are represented as vectors in $n$-Dimensional space, where each dimension corresponds to a certain cell feature. The distance between cells is used as a surrogate measure of similarity, providing insight into the cell's state, function, and genetic mechanisms. However, as cell profiles are clustered in 3D or higher-dimensional space, it remains unknown which distance metric provides the most accurate spatiotemporal representation of similarity, limiting the interpretability of the data. I propose and prove a generalized proposition and set of corollaries that serve as a criterion to determine which of the standard distance measures is most accurate for conveying cell profile heterogeneity. Each distance method is evaluated via statistical, geometric, and topological proofs, which are formalized into a set of criteria. In this paper, I present the putative, first-ever method to elect the most accurate and precise distance metrics with any profiling modality, which are determined to be the Wasserstein distance and cosine similarity metrics, respectively, in general cases. I also identify special cases in which the criterion may select non-standard metrics. Combining the metric properties selected by the criterion, I develop a novel, custom, optimal distance metric that demonstrates superior computational efficiency, peak annotation, motif identification, and footprinting for transcription factor binding sites when compared with leading methods.",
+  "abstract_zh": "单细胞组学能够量化包含大量生物学特征的细胞图谱。聚类分析作为一种降维过程，用于减少数据维度以使其在计算上易于处理。在这些分析中，细胞被表示为$n$维空间中的向量，其中每个维度对应特定的细胞特征。细胞间的距离被用作相似性的替代度量，从而揭示细胞状态、功能和遗传机制。然而，由于细胞图谱在三维或更高维空间中进行聚类，目前仍不清楚哪种距离度量能提供最准确的时空相似性表示，这限制了数据的可解释性。我提出并证明了一个广义命题及一系列推论，作为判定标准，以确定哪种标准距离度量在传达细胞图谱异质性方面最为准确。每种距离方法通过统计、几何和拓扑证明进行评估，并形式化为一套标准。在本文中，我提出了据称是首个适用于任何分析模态的选择最准确且最精确距离度量的方法，在一般情况下，分别确定为Wasserstein距离和余弦相似性度量。我还识别了标准可能选择非标准度量的特殊情况。结合标准选定的度量属性，我开发了一种新颖的定制最优距离度量，在与领先方法相比时，展现出卓越的计算效率、峰值注释、基序识别和转录因子结合位点的足迹分析能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2306.09243v2",
+  "source_url": "https://arxiv.org/abs/2306.09243v2",
+  "paper_page_path": "papers/arxiv/2306.09243v2/index.html"
+}

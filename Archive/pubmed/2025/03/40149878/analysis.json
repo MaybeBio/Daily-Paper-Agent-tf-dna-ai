@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40149878",
+  "title": "CellGAT: A GAT-Based Method for Constructing a Cell Communication Network Integrating Multiomics Information.",
+  "authors": "Zhang, Tianjiao; Wu, Zhenao; Li, Liangyu; Ren, Jixiang; Zhang, Ziheng; Zhang, Jingyu; Wang, Guohua",
+  "journal": "Biomolecules",
+  "published_date": "2025-03-28",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用GAT构建细胞通讯网络，核心是配体-受体蛋白互作，而非蛋白质-DNA互作或TF-DNA结合，方法虽含AI但与课题对象和互作轴均不匹配。",
+  "abstract": "The growth, development, and differentiation of multicellular organisms are primarily driven by intercellular communication, which coordinates the activities of diverse cell types. This cell-to-cell signaling is typically mediated by various types of protein-protein interactions, including ligand-receptor; receptor-receptor, and extracellular matrix-receptor interactions. Currently, computational methods for inferring ligand-receptor communication primarily depend on gene expression data of ligand-receptor pairs and spatial information of cells. Some approaches integrate protein complexes; transcription factors; or pathway information to construct cell communication networks. However, few methods consider the critical role of protein-protein interactions (PPIs) in intercellular communication networks, especially when predicting communication between different cell types in the absence of cell type information. These methods often rely on ligand-receptor pairs that lack PPI evidence, potentially compromising the accuracy of their predictions. To address this issue, we propose CellGAT, a framework that infers intercellular communication by integrating gene expression data of ligand-receptor pairs, PPI information, protein complex data, and experimentally validated pathway information. CellGAT not only builds a priori models but also uses node embedding algorithms and graph attention networks to build cell communication networks based on scRNA-seq (single-cell RNA sequencing) datasets and includes a built-in cell clustering algorithm. Through comparisons with various methods, CellGAT accurately predicts cell-cell communication (CCC) and analyzes its impact on downstream pathways; neighboring cells; and drug interventions.",
+  "abstract_zh": "多细胞生物的生长、发育和分化主要由细胞间通讯驱动，这种通讯协调了不同细胞类型的活动。这种细胞间信号传导通常由多种类型的蛋白质-蛋白质相互作用介导，包括配体-受体、受体-受体以及细胞外基质-受体相互作用。目前，推断配体-受体通讯的计算方法主要依赖于配体-受体对的基因表达数据和细胞的空间信息。一些方法整合了蛋白质复合物、转录因子或通路信息来构建细胞通讯网络。然而，很少有方法考虑蛋白质-蛋白质相互作用（PPIs）在细胞间通讯网络中的关键作用，尤其是在缺乏细胞类型信息的情况下预测不同细胞类型之间的通讯时。这些方法往往依赖于缺乏PPI证据的配体-受体对，这可能影响其预测的准确性。为解决这一问题，我们提出了CellGAT，一个通过整合配体-受体对的基因表达数据、PPI信息、蛋白质复合物数据以及实验验证的通路信息来推断细胞间通讯的框架。CellGAT不仅构建先验模型，还使用节点嵌入算法和图注意力网络，基于scRNA-seq（单细胞RNA测序）数据集构建细胞通讯网络，并包含内置的细胞聚类算法。通过与多种方法的比较，CellGAT准确预测了细胞-细胞通讯（CCC），并分析了其对下游通路、邻近细胞和药物干预的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40149878/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40149878/",
+  "paper_page_path": "papers/pubmed/40149878/index.html"
+}

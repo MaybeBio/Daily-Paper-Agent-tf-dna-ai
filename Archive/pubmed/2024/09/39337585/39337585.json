@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "39337585",
+    "doi": "10.3390/ijms251810100",
+    "title": "Cellular and Molecular Network Characteristics of TARM1-Related Genes in Mycobacterium tuberculosis Infections."
+  },
+  "content": {
+    "abstract": "Tuberculosis (TB) is a global infectious threat, and the emergence of multidrug-resistant TB has become a major challenge in eradicating the disease that requires the discovery of new treatment strategies. This study aimed to elucidate the immune infiltration and molecular regulatory network of T cell-interacting activating receptors on myeloid cell 1 (TARM1)-related genes based on a bioinformatics analysis. The GSE114911 dataset was obtained from the Gene Expression Omnibus (GEO) and screened to identify 17 TARM1-related differentially expressed genes (TRDEGs). Genes interacting with the TRDEGs were analyzed using a Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis. A gene set enrichment analysis (GSEA) was used to identify the biological pathways significantly associated with a Mycobacterium tuberculosis (Mtb) infection. The key genes were obtained based on Cytoscape's cytoHubba plug-in. Furthermore, protein-protein interaction (PPI) networks were analyzed through STRING, while mRNA-RNA-binding protein (RBP) and mRNA-transcription factor (TF) interaction networks were developed utilizing the StarBase v3.0 and ChIPBase databases. In addition, the diagnostic significance of key genes was evaluated via receiver operating characteristic (ROC) curves, and the immune infiltration was analyzed using an ssGSEA and MCPCounter. The key genes identified in the GSE114911 dataset were confirmed in an independent GSE139825 dataset. A total of seventeen TRDEGs and eight key genes were obtained in a differential expression analysis using the cytoHubba plug-in. Through the GO and KEGG analysis, it was found that these were involved in the NF-kappaB, PI3K/Akt, MAPK, and other pathways related to inflammation and energy metabolism. Furthermore, the ssGSEA and MCPCounter analysis revealed a significant rise in activated T cells and T helper cells within the Mtb infection group, which were markedly associated with these key genes. This implies their potential significance in the anti-Mtb response. In summary, our results show that TRDEGs are linked to inflammation, energy metabolism, and immune cells, offering fresh insights into the mechanisms underlying TB pathogenesis and supporting further investigation into the possible molecular roles of TARM1 in TB, as well as assisting in the identification of prospective diagnostic biomarkers.",
+    "keywords": [
+      "Mycobacterium tuberculosis",
+      "TARM1",
+      "bioinformatics",
+      "biomarker",
+      "tuberculosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Tuberculosis/genetics/microbiology/immunology",
+      "*Mycobacterium tuberculosis/genetics",
+      "*Protein Interaction Maps/genetics",
+      "Computational Biology/methods",
+      "Gene Ontology",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Signal Transduction/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Li",
+        "Wu, Hanxin",
+        "Zhu, Liangyu",
+        "Song, Jieqin",
+        "Ma, Weijiang",
+        "Zhong, Lei",
+        "Ma, Weijie",
+        "Yang, Rui",
+        "Huang, Xun",
+        "Li, Bingxue",
+        "Luo, Suyi",
+        "Bao, Fukai",
+        "Liu, Aihua"
+      ],
+      "short_names": [
+        "Peng L",
+        "Wu H",
+        "Zhu L",
+        "Song J",
+        "Ma W",
+        "Zhong L",
+        "Ma W",
+        "Yang R",
+        "Huang X",
+        "Li B",
+        "Luo S",
+        "Bao F",
+        "Liu A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6804-0349",
+        "ORCID: 0000-0003-4599-8508",
+        "ORCID: 0000-0003-2652-6660"
+      ],
+      "affiliations": [
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+        "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Li",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hanxin",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liangyu",
+        "short_name": "Zhu L",
+        "identifiers": [
+          "0000-0001-6804-0349"
+        ],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jieqin",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Weijiang",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lei",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Weijie",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Rui",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xun",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bingxue",
+        "short_name": "Li B",
+        "identifiers": [
+          "0000-0003-4599-8508"
+        ],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+          "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Suyi",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Fukai",
+        "short_name": "Bao F",
+        "identifiers": [
+          "0000-0003-2652-6660"
+        ],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+          "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Aihua",
+        "short_name": "Liu A",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Province Key Laboratory of Children's Major Diseases Research, School of Basic Medical Sciences, Kunming Medical University, Kunming 650500, China.",
+          "Yunnan Provincial Key Laboratory of Public Health and Biosafety, School of Public Health, Kunming Medical University, Kunming 650500, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Sep 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/28 22:43",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "41957528",
+      "40613694"
+    ],
+    "refs": [
+      "38968268",
+      "38965482",
+      "38951436",
+      "38904014",
+      "38718074",
+      "38702721",
+      "38296396",
+      "38155943",
+      "38135025",
+      "37594406",
+      "37403209",
+      "36315280",
+      "36242542",
+      "34691015",
+      "34670584",
+      "34403447",
+      "34183366",
+      "33828270",
+      "33384961",
+      "32903583",
+      "32682418",
+      "31886294",
+      "30669987",
+      "30476243",
+      "30407594",
+      "28724962",
+      "27924033",
+      "27624090",
+      "26311901",
+      "25986592",
+      "25521941",
+      "24509076",
+      "24297251",
+      "22455463",
+      "21546393",
+      "20736804",
+      "17552090",
+      "17084757",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "39337585",
+      "32811479",
+      "34671419",
+      "38935691",
+      "38718074",
+      "33067206",
+      "38736878",
+      "37818041",
+      "39182249",
+      "39341981",
+      "38774257",
+      "31364746",
+      "34632719",
+      "36793717",
+      "34233597",
+      "34931168",
+      "38993198",
+      "39111872",
+      "37499902",
+      "35558576",
+      "38764052",
+      "31175974",
+      "33640831",
+      "32756534",
+      "32925795",
+      "31082644",
+      "35016690",
+      "35069594",
+      "32598242",
+      "35278479",
+      "39086489",
+      "31987036",
+      "38695984",
+      "31772617",
+      "33592820",
+      "34553293",
+      "39284931",
+      "31460784",
+      "38863714",
+      "34257537",
+      "31838482",
+      "35008808",
+      "30706927",
+      "30916045",
+      "32724813",
+      "31794546",
+      "33437215",
+      "32048448",
+      "33892654",
+      "37883760",
+      "35313524",
+      "34218797",
+      "38902567",
+      "39172048",
+      "24969630",
+      "31424263",
+      "38912048",
+      "38904678",
+      "29954330",
+      "33149760",
+      "31747387",
+      "35397550",
+      "38755717",
+      "32305357",
+      "37250717",
+      "30813939",
+      "28323150",
+      "39075154",
+      "38957433",
+      "38701300",
+      "36860851",
+      "35480868",
+      "35281953",
+      "35151359",
+      "37684607",
+      "35680809",
+      "32922167",
+      "35307059",
+      "32626989",
+      "35419455",
+      "30825595",
+      "36798084",
+      "38899746",
+      "33120861",
+      "35757392",
+      "38006261",
+      "35003319",
+      "33102593",
+      "34868339",
+      "35818227",
+      "38965970",
+      "35713363",
+      "31703725",
+      "30132538",
+      "37498421",
+      "38268224",
+      "32701935",
+      "37622114",
+      "32008037",
+      "38941397",
+      "39430765",
+      "36841940",
+      "38022579",
+      "38857073",
+      "38188605",
+      "29225431"
+    ],
+    "review": [
+      "39337585",
+      "38188605"
+    ],
+    "pmc": [
+      "11432409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms251810100",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/tuberculosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Tuberculosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39337585/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "38717954",
+    "doi": "10.1002/cnr2.2009",
+    "title": "Transcriptomic analysis revealed potential regulatory biomarkers and repurposable drugs for breast cancer treatment."
+  },
+  "content": {
+    "abstract": "Breast cancer (BC) is the most widespread cancer worldwide. Over 2 million new cases of BC were identified in 2020 alone. Despite previous studies, the lack of specific biomarkers and signaling pathways implicated in BC impedes the development of potential therapeutic strategies. We employed several RNAseq datasets to extract differentially expressed genes (DEGs) based on the intersection of all datasets, followed by protein-protein interaction network construction. Using the shared DEGs, we also identified significant gene ontology (GO) and KEGG pathways to understand the signaling pathways involved in BC development. A molecular docking simulation was performed to explore potential interactions between proteins and drugs. The intersection of the four datasets resulted in 146 DEGs common, including AURKB, PLK1, TTK, UBE2C, CDCA8, KIF15, and CDC45 that are significant hub-proteins associated with breastcancer development. These genes are crucial in complement activation, mitotic cytokinesis, aging, and cancer development. We identified key microRNAs (i.e., hsa-miR-16-5p, hsa-miR-1-3p, hsa-miR-147a, hsa-miR-195-5p, and hsa-miR-155-5p) that are associated with aggressive tumor behavior and poor clinical outcomes in BC. Notable transcription factors (TFs) were FOXC1, GATA2, FOXL1, ZNF24 and NR2F6. These biomarkers are involved in regulating cancer cell proliferation, invasion, and migration. Finally, molecular docking suggested Hesperidin, 2-amino-isoxazolopyridines, and NMS-P715 as potential lead compounds against BC progression. We believe that these findings will provide important insight into the BC progression as well as potential biomarkers and drug candidates for therapeutic development.",
+    "keywords": [
+      "biomarker",
+      "breast cancer",
+      "hub-protein",
+      "in silico analysis",
+      "molecular docking",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/genetics/pathology",
+      "Female",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Gene Expression Regulation, Neoplastic/drug effects",
+      "*Gene Expression Profiling",
+      "Molecular Docking Simulation",
+      "Antineoplastic Agents/pharmacology/therapeutic use",
+      "Protein Interaction Maps",
+      "MicroRNAs/genetics",
+      "Transcriptome",
+      "Gene Regulatory Networks",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shornale Akter, Most",
+        "Uddin, Md Helal",
+        "Atikur Rahman, Sheikh",
+        "Hossain, Md Arju",
+        "Ashik, Md Ashiqur Rahman",
+        "Zaman, Nurun Nesa",
+        "Faruk, Omar",
+        "Hossain, Md Sanwar",
+        "Parvin, Anzana",
+        "Rahman, Md Habibur"
+      ],
+      "short_names": [
+        "Shornale Akter M",
+        "Uddin MH",
+        "Atikur Rahman S",
+        "Hossain MA",
+        "Ashik MAR",
+        "Zaman NN",
+        "Faruk O",
+        "Hossain MS",
+        "Parvin A",
+        "Rahman MH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5068-2690"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+        "Department of Microbiology, Primeasia University, Dhaka, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+        "Department of Statistics, Jagannath University, Dhaka, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shornale Akter, Most",
+        "short_name": "Shornale Akter M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Uddin, Md Helal",
+        "short_name": "Uddin MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Atikur Rahman, Sheikh",
+        "short_name": "Atikur Rahman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Arju",
+        "short_name": "Hossain MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+          "Department of Microbiology, Primeasia University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ashik, Md Ashiqur Rahman",
+        "short_name": "Ashik MAR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Zaman, Nurun Nesa",
+        "short_name": "Zaman NN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Faruk, Omar",
+        "short_name": "Faruk O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Sanwar",
+        "short_name": "Hossain MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Jagannath University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Parvin, Anzana",
+        "short_name": "Parvin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Habibur",
+        "short_name": "Rahman MH",
+        "identifiers": [
+          "0000-0002-5068-2690"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer reports (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Cancer Rep (Hoboken)"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/08 18:51",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41548001",
+      "40907734",
+      "40660203",
+      "40558287",
+      "40229646",
+      "39942749"
+    ],
+    "refs": [
+      "37231064",
+      "37184281",
+      "36860312",
+      "36348403",
+      "36313438",
+      "36160462",
+      "35488350",
+      "35088239",
+      "34790660",
+      "34743685",
+      "34638457",
+      "34238178",
+      "34059798",
+      "33880593",
+      "33806009",
+      "33708561",
+      "33688252",
+      "33614286",
+      "33538338",
+      "33394259",
+      "33285689",
+      "33083112",
+      "32616754",
+      "32549756",
+      "32462972",
+      "32415722",
+      "32269634",
+      "32211045",
+      "32203934",
+      "31884861",
+      "31799611",
+      "31428132",
+      "31412294",
+      "31210272",
+      "31020993",
+      "30996295",
+      "30953709",
+      "30931480",
+      "30881920",
+      "30862113",
+      "30371825",
+      "30321090",
+      "30288111",
+      "30251680",
+      "29449899",
+      "29378962",
+      "29140473",
+      "29072056",
+      "28988656",
+      "28691014",
+      "28632866",
+      "28425924",
+      "27938507",
+      "27833085",
+      "27794042",
+      "27082857",
+      "26892619",
+      "26364596",
+      "25618350",
+      "25521941",
+      "25176396",
+      "24768519",
+      "24020486",
+      "23586463",
+      "22688343",
+      "22527426",
+      "22268221",
+      "22021428",
+      "21982300",
+      "21695124",
+      "21367871",
+      "21217834",
+      "21102634",
+      "21071411",
+      "19758836",
+      "19499576",
+      "19435879",
+      "18790636",
+      "18163131",
+      "16373484",
+      "15028117",
+      "14733031",
+      "14597658",
+      "12707311",
+      "11465736",
+      "8917020",
+      "2270482"
+    ],
+    "similar": [
+      "38717954",
+      "41300749",
+      "33407587",
+      "35390032",
+      "33439992",
+      "40287845",
+      "32093341",
+      "37893423",
+      "40127075",
+      "32299382",
+      "39160196",
+      "38839916",
+      "40834023",
+      "32041280",
+      "34172056",
+      "40898538",
+      "34797837",
+      "35313857",
+      "30569120",
+      "32462972",
+      "39529627",
+      "36991484",
+      "36291136",
+      "30865617",
+      "37925496",
+      "34390411",
+      "39232183",
+      "40826767",
+      "32013934",
+      "40473526",
+      "40603423",
+      "31842912",
+      "39881138",
+      "31987036",
+      "39080630",
+      "39080525",
+      "28416776",
+      "41010991",
+      "34895070",
+      "33237828",
+      "39707785",
+      "39764737",
+      "41189173",
+      "39516222",
+      "31787478",
+      "29063236",
+      "32056139",
+      "32597160",
+      "29128636",
+      "40068024",
+      "38949075",
+      "39153206",
+      "40658875",
+      "36913345",
+      "31962380",
+      "37556419",
+      "29081411",
+      "37904009",
+      "32435051",
+      "39820173",
+      "34800440",
+      "39028999",
+      "36104591",
+      "31377428",
+      "39874008",
+      "40253276",
+      "40512278",
+      "31733575",
+      "37740761",
+      "38087342",
+      "33813720",
+      "40604083",
+      "31703725",
+      "38250762",
+      "35757478",
+      "41171828",
+      "38863714",
+      "34528314",
+      "33462573",
+      "33371806",
+      "29032608",
+      "40571900",
+      "39988630",
+      "34155346",
+      "40790764",
+      "32950571",
+      "41465132",
+      "32971089",
+      "34840985",
+      "31213129",
+      "30092792",
+      "39048164",
+      "37534476",
+      "34867824",
+      "30816528",
+      "27434289",
+      "34743685",
+      "35393513",
+      "31595567",
+      "36798788"
+    ],
+    "review": [
+      "38717954",
+      "30569120"
+    ],
+    "pmc": [
+      "11078332"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38717954.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38717954/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38717954",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cnr2.2009",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-UBE2C-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

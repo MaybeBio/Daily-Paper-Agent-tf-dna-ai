@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.04.483012",
+  "title": "Protein-Ligand Interaction Graphs: Learning from Ligand-Shaped 3D Interaction Graphs to Improve Binding Affinity Prediction",
+  "authors": "Marc A. Moesser; Dominik Klein; Fergus Boyles; Charlotte M. Deane; Andrew Baxter; Garrett M. Morris",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-07",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出PLIG图表示，将蛋白-配体3D接触编码为配体图节点特征用于结合亲和力预测，虽非TF-DNA体系，但蛋白-核酸互作建模方法可迁移至TF-DNA研究。",
+  "abstract": "Graph Neural Networks (GNNs) have recently gained in popularity, challenging molecular fingerprints or SMILES-based representations as the predominant way to represent molecules for binding affinity prediction. Although simple ligand-based graphs alone are already useful for affinity prediction, better performance on multi-target datasets has been achieved with models that incorporate 3D structural information. Most recent advances utilize complex GNN architectures to capture 3D protein-ligand information by incorporating ligand-interacting protein atoms as additional nodes in the graphs; or by building a second protein-based graph in parallel. This expands the graph considerably while obfuscating the shape of the underlying ligand, diminishing the advantage that GNNs have when encoding molecular structures. There is therefore a need for a simple and elegant molecular graph representation that retains the topology of the ligand while simultaneously encoding 3D protein-ligand interactions. We present Protein-Ligand Interaction Graphs (PLIGs): a simple way of representing atom-atom contacts of 3D protein-ligand complexes as node features for GNNs. PLIGs featurize an atom node in the molecular graph by describing each atom’s properties as well as all atom-atom contacts made with protein atoms within a distance threshold. The edges of the graph are therefore identical to ligand-based graphs, but the nodes encode the 3D protein-ligand contacts. Since PLIGs are applicable to any GNN architecture, we have benchmarked their performance with six different GNN architectures, and compared them to conventional ligand-based graphs and fingerprint-based multi-layer perceptron (MLP) models using the CASF-2016 benchmark set where we found PLIG-based Graph Attention Networks (GATNet) to be the best performing model ( ρ =0.84, RMSE=1.22 pK). In summary, we created a novel graph-based representation that incorporates 3D structural information into the node features of ligand-shaped molecular graphs. The PLIG representation is simple, elegant, flexible and easily customizable, opening up many possibilities of incorporating other 2D and 3D properties into the graph. Access The code and implementation for PLIGs and all models can be found at github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs .",
+  "abstract_zh": "图神经网络（GNNs）近年来日益受到青睐，挑战了分子指纹或基于SMILES的表示方法，成为预测结合亲和力时表示分子的主要方式。尽管仅基于配体的简单图已足以用于亲和力预测，但在多目标数据集上，通过整合3D结构信息的模型实现了更好的性能。最新的进展利用复杂的GNN架构，通过将配体相互作用的蛋白质原子作为额外节点加入图中，或并行构建第二个基于蛋白质的图，来捕获3D蛋白质-配体信息。这显著扩大了图的大小，同时模糊了底层配体的形状，削弱了GNN在编码分子结构时的优势。因此，需要一种简单而优雅的分子图表示，既能保留配体的拓扑结构，又能同时编码3D蛋白质-配体相互作用。我们提出了蛋白质-配体相互作用图（PLIGs）：一种将3D蛋白质-配体复合物的原子-原子接触表示为GNN节点特征的简单方法。PLIGs通过描述每个原子的属性以及距离阈值内与蛋白质原子的所有原子-原子接触，来特征化分子图中的原子节点。因此，图的边与基于配体的图相同，但节点编码了3D蛋白质-配体接触。由于PLIGs适用于任何GNN架构，我们使用六种不同的GNN架构对其性能进行了基准测试，并与基于配体的传统图和基于指纹的多层感知器（MLP）模型在CASF-2016基准集上进行了比较，发现基于PLIG的图注意力网络（GATNet）是表现最佳的模型（ρ=0.84，RMSE=1.22 pK）。总之，我们创建了一种新颖的基于图的表示方法，将3D结构信息整合到配体形状的分子图的节点特征中。PLIG表示简单、优雅、灵活且易于定制，为将其他2D和3D属性整合到图中开辟了许多可能性。PLIGs及所有模型的代码和实现可在github.com/MarcMoesser/Protein-Ligand-Interaction-Graphs获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.04.483012",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.04.483012",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.04.483012/index.html"
+}

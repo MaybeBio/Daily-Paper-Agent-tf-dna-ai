@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41430161",
+  "title": "Deep learning-based MRI model for predicting P53-mutated hepatocellular carcinoma.",
+  "authors": "Jia, Lulu; Yang, Qing; Jiang, Hanchen; Huang, Gang; Wang, Zhijun; Guo, Xinxin; Li, Jinkui; Xu, Hao; Lei, Junqiang",
+  "journal": "BMC medical imaging",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用MRI影像深度学习模型预测肝细胞癌的P53突变状态，属于临床影像诊断，不涉及蛋白质-DNA互作或TF-DNA结合机制，与本课题无关。",
+  "abstract": "BACKGROUND: The P53-mutated Hepatocellular Carcinoma (HCC) is an aggressive variant associated with vascular endothelial growth factor (VEGF) overexpression and increased microvascular density. This study aimed to develop an MRI-based deep learning model for predicting P53-mutated HCC. METHODS: A total of 312 HCC patients who underwent gadolinium-enhanced MRI and were pathologically confirmed between January 2018 and December 2023 were retrospectively enrolled. Participants were randomly divided into training and test dataset at an 8:2 ratio. We developed an EfficientNetV2-based deep learning model, constructing arterial phase (AP) model, portal venous phase (VP), T2-weighted imaging (T2WI), hepatobiliary phase (HBP) single-sequence model, and combined models to predict P53 mutation status. Model performance was evaluated using the area under the curve (AUC), accuracy, sensitivity, specificity, precision, and F1 score as metrics. Differences in AUC values were compared using Delong's test. RESULTS: A total of 312 pathologically confirmed HCC patients (age: 56 +/- 9 years; male = 240) were included, with a training dataset (n = 249) and test dataset (n = 63).Among single-sequence models, the HBP model demonstrated superior diagnostic performance (AUC = 0.715) compared to T2WI, AP, and VP models. The multiphase combined model (T2WI + AP + VP) significantly outperformed single-sequence models, achieving AUCs of 0.982 (95% CI: 0.959-1.000) in the training dataset and 0.914 (95% CI: 0.819-1.000) in the test dataset. However, incorporating the HBP sequence into the combined model (T2WI + AP + VP + HBP) did not further improve diagnostic performance (P > 0.05). ADVANCES IN KNOWLEDGE: The combined model incorporating AP, VP, T2WI, and HBP sequences demonstrated numerically highest performance in predicting P53-mutated HCC.",
+  "abstract_zh": "背景：P53突变型肝细胞癌（HCC）是一种侵袭性变异型，与血管内皮生长因子（VEGF）过表达及微血管密度增加相关。本研究旨在开发一种基于MRI的深度学习模型，用于预测P53突变型HCC。方法：回顾性纳入2018年1月至2023年12月期间接受钆增强MRI并经病理确诊的312例HCC患者。参与者按8：2比例随机分为训练集和测试集。我们开发了一种基于EfficientNetV2的深度学习模型，构建了动脉期（AP）模型、门静脉期（VP）、T2加权成像（T2WI）、肝胆期（HBP）单序列模型及组合模型，以预测P53突变状态。模型性能通过曲线下面积（AUC）、准确率、敏感性、特异性、精确率和F1分数等指标进行评估。AUC值差异采用Delong检验进行比较。结果：共纳入312例经病理确诊的HCC患者（年龄：56±9岁；男性=240），包括训练集（n=249）和测试集（n=63）。在单序列模型中，HBP模型显示出优于T2WI、AP和VP模型的诊断性能（AUC=0.715）。多期相组合模型（T2WI+AP+VP）显著优于单序列模型，在训练集中AUC为0.982（95% CI：0.959-1.000），在测试集中AUC为0.914（95% CI：0.819-1.000）。然而，将HBP序列纳入组合模型（T2WI+AP+VP+HBP）并未进一步改善诊断性能（P>0.05）。知识进展：包含AP、VP、T2WI和HBP序列的组合模型在预测P53突变型HCC方面表现出数值上最高的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41430161/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41430161/",
+  "paper_page_path": "papers/pubmed/41430161/index.html"
+}

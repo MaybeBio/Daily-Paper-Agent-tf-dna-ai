@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report generation of the first wild-type full-length p53 tetramer model bound to DNA, microsecond-scale explicit-solvent simulations on Anton2, and Markov state model analysis of wild-type p53 and two hotspot cancer mutants (Y220C and G245S). They claim DNA bending, formation of a compact complex with N-terminal, DBD, and CTD interactions with DNA, a unique quaternary DBD organization in wild-type not accessed by mutants, differential dynamics of inner and outer DBDs, and identification of an underexplored loop 6 cryptic pocket.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, convergence metrics, or model validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, MSM construction and validation details, free energy landscape plots, pocket identification criteria, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable computational study of full-length p53 tetramer dynamics in a DNA-bound state, addressing a biologically important system with substantial therapeutic relevance. The use of Anton2 for microsecond simulations and MSM analysis is appropriate and technically demanding. However, the abstract makes several strong claims that cannot be evaluated without the underlying data. The claim of "first" wild-type fl-p53 tetramer model bound to DNA requires literature context that is not provided. The biological significance of the reported conformational differences between wild-type and mutants, and the cryptic pocket identification, would need robust quantitative support. The abstract is readable and conveys the scope of the work, but the evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying intrinsically disordered proteins and multi-domain transcription factors would be interested in the integrative modeling approach and the full-length tetramer model. Cancer researchers focused on p53 reactivation strategies, particularly those targeting mutant p53 with small molecules, would be interested in the L6 cryptic pocket and the differential dynamics of hotspot mutants. Methodologists developing MSM approaches for large biomolecular systems would also find the application to a 500 K atom system of interest.
+- **Major strengths** The study addresses a biologically important and technically challenging problem, namely the dynamics of full-length p53 in a physiologically relevant DNA-bound tetrameric state. The combination of Anton2 simulations and MSM analysis is a rigorous and state-of-the-art approach for extracting kinetic information from microsecond trajectories. The comparison of wild-type with two clinically relevant hotspot mutants in the same full-length context is a meaningful design choice. The focus on the druggable L1/S3 pocket and the identification of a new L6 cryptic pocket have potential translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MSMs identified an underexplored loop 6 (L6) cryptic pocket and captured the effect of p53 tetramerization and cancer mutations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative details on the MSM construction, such as the number of states, lag time selection, implied timescale plots, Chapman-Kolmogorov tests, or the statistical uncertainty of the free energy estimates. The claim of identifying a cryptic pocket requires evidence of pocket opening events, their population, and their persistence across independent trajectories. Without these details, the pocket identification and the claimed mutation effects cannot be assessed.
+  - **Why it matters** Cryptic pocket identification is a strong claim with potential drug discovery implications. If the pocket is not robustly sampled or the MSM is not validated, the conclusion could be an artifact of insufficient sampling or poor model construction. The field requires reproducible and statistically sound evidence for such claims.
+  - **Resolution test** Provide MSM validation metrics, including implied timescale plots, state population uncertainties, and a clear definition of the cryptic pocket with structural criteria. Show that the pocket opening is observed in multiple independent simulations and that the free energy difference between wild-type and mutants is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and literature context
+  - **Claim pointer** The authors claim to have generated the first wild-type fl-p53 tetramer model bound to DNA.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of "first" is a strong priority statement that requires a comprehensive literature search to support. There are existing models of p53 tetramers, including those with DNA, and integrative models of full-length p53 have been reported. The abstract does not cite or discuss prior models, so the novelty claim cannot be verified.
+  - **Why it matters** Priority claims are important for the scientific record and for the perceived impact of the work. If prior models exist, the claim of "first" would be inaccurate and could undermine the credibility of the study.
+  - **Resolution test** Provide a clear comparison with all prior p53 tetramer models, including those with DNA, and explicitly state what is new about the present model. If prior models exist, reframe the claim to emphasize the specific novelty, such as the simulation approach or the mutant comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and sampling adequacy
+  - **Claim pointer** The authors claim that microsecond timescale simulations in explicit solvent were used to elucidate the conformational landscape of wild-type p53 and two mutants.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states the system size was approximately 500 K atoms, which is large, but does not specify the total simulation time per system, the number of independent trajectories, or the convergence criteria. For a system of this size, microsecond simulations may not be sufficient to sample the full conformational landscape, particularly for a tetramer with disordered domains. The claim of "elucidating the conformational landscape" is strong and requires evidence of convergence.
+  - **Why it matters** If the simulations are not converged, the free energy landscapes and the reported differences between wild-type and mutants could be artifacts of insufficient sampling. The conclusions about differential dynamics and pocket formation depend on adequate sampling of the relevant conformational states.
+  - **Resolution test** Provide the total simulation time per system, the number of replicas, and convergence metrics such as state space coverage, autocorrelation times, and comparison of free energy estimates from different time windows. Show that the key conclusions are robust to simulation length.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological significance and mechanistic insight
+  - **Claim pointer** The authors claim that the WT fl-p53 tetramer sampled a unique quaternary DBD organization that is not accessed by the cancer mutants, and that differential dynamics of inner and outer DBDs were observed due to the dimer-dimer interface.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain the functional significance of the unique DBD organization or the differential dynamics. It is unclear whether these observations are linked to known p53 function, such as DNA binding affinity, transcriptional activity, or allosteric regulation. The connection to cancer mutations is stated but not mechanistically elaborated.
+  - **Why it matters** For a Nature-style audience, the biological relevance of the conformational differences must be clear. Without a functional interpretation, the observations remain descriptive and the impact of the study is diminished.
+  - **Resolution test** Provide a mechanistic hypothesis linking the unique DBD organization and differential dynamics to p53 function, supported by additional analyses such as DNA binding energy calculations, correlation with known mutation effects, or comparison with experimental data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses terms such as "integrative molecular modeling techniques," "Markov state model framework," and "cryptic pocket" without brief explanations. Nonspecialist readers in the broader cancer biology community may find these terms opaque.
+  - **Required correction** Add brief parenthetical explanations for these terms, or rephrase to make the methods accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The phrase "captured the effect of p53 tetramerization and cancer mutations" is vague. It is unclear what specific effect was captured and how it was quantified.
+  - **Required correction** Specify the effect, such as changes in pocket population, DBD dynamics, or free energy barriers, and provide a quantitative statement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model generation
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states the model was generated using crystal structures and integrative modeling but does not mention validation of the model, such as comparison with experimental data like SAXS, FRET, or crosslinking.
+  - **Required correction** State whether the model was validated against experimental data and, if so, briefly describe the validation approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MSM validation and pocket evidence), R1-M2 (priority claim support), R1-M3 (sampling convergence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a system that has not been simulated in full-length tetrameric DNA-bound form, which is a notable technical achievement. However, the claim of "first" requires verification, and the conceptual novelty of the findings cannot be assessed from the abstract alone.
+  - Scientific importance: p53 is of central importance in cancer biology, and understanding the dynamics of full-length p53 in a DNA-bound state has clear relevance. The potential identification of a new druggable pocket is significant if robustly supported.
+  - Interdisciplinary readership: The work bridges computational biophysics, structural biology, and cancer biology. The abstract is written in a way that is largely accessible, though some technical terms may limit broader readership.
+  - Technical soundness: The use of Anton2 and MSM is appropriate, but the abstract lacks the quantitative details needed to assess convergence, model validation, and statistical significance. This is a major gap.
+  - Readability for nonspecialists: The abstract is generally clear but could benefit from brief explanations of key technical terms and a more explicit statement of biological significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious and potentially important study, but the absence of quantitative results, validation metrics, and literature context prevents assessment of the core claims. The authors should be encouraged to resubmit with the full manuscript, which would allow evaluation of the technical soundness and biological significance.
+
+## Risk / unsupported claims
+- The claim of "first" wild-type fl-p53 tetramer model bound to DNA is unsupported without a literature comparison.
+- The identification of an "underexplored loop 6 (L6) cryptic pocket" is unsupported without structural and statistical evidence.
+- The claim that the WT tetramer samples a "unique quaternary DBD organization" not accessed by mutants is unsupported without quantitative comparison of conformational ensembles.
+- The statement that MSMs "captured the effect of p53 tetramerization and cancer mutations" is vague and unsupported without specific quantitative results.
+- The claim of "elucidating the conformational landscape" is not assessable without convergence metrics and free energy estimates.

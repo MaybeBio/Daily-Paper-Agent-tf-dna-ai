@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose iDRBP-ECHF, a sequence-based method for predicting DNA- and RNA-binding proteins. They claim that their benchmark dataset accounts for real-world proportions of positive and negative samples, that down-sampling generates three balanced training datasets, and that incorporating deep learning yields compact high-level feature representations. They report state-of-the-art performance on two independent datasets and provide a webserver.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, hyperparameter settings, baseline comparisons, statistical significance tests, and webserver functionality verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational biology study with a clear motivation and a reasonable methodological direction. However, the evidence provided is insufficient to evaluate the validity of the core claims. No performance metrics, dataset characteristics, or comparison details are given. The claim of "most advanced performance" is unsupported without quantitative data. The study may be of interest to the protein function prediction community, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and protein function annotation would be interested. Those working on nucleic acid-binding protein prediction, machine learning applications in biology, and benchmark dataset construction would find the method and its potential improvements relevant.
+- **Major strengths** The motivation is clear and addresses a real limitation in existing benchmark datasets. The incorporation of deep learning into an ensemble framework is a sensible direction. The provision of a webserver enhances practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "it achieves the most advanced performance and is superior to the other existing sequence-based DBP and RBP prediction methods."
+  - **Evidence pointer** Abstract, "The results on two independent datasets" section; location not provided
+  - **Concern** No quantitative performance metrics, such as accuracy, sensitivity, specificity, Matthews correlation coefficient, or area under the ROC curve, are reported. The comparison to existing methods is stated without any numerical support or statistical significance testing.
+  - **Why it matters** The central claim of superiority cannot be assessed or verified without concrete results. A performance claim without data is not scientifically actionable.
+  - **Resolution test** Provide performance metrics for iDRBP-ECHF and all compared methods on both independent datasets, including confidence intervals or statistical tests demonstrating significant improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity
+  - **Claim pointer** The abstract claims "We constructed a benchmark dataset by considering the proportion of positive and negative samples in the real world."
+  - **Evidence pointer** Abstract, "In this study" section; location not provided
+  - **Concern** The real-world proportion of nucleic acid-binding proteins is not defined, and the method for estimating this proportion is not described. The down-sampling procedure is mentioned but not detailed.
+  - **Why it matters** The validity of the benchmark dataset is foundational to the method's evaluation. Without a clear definition of the real-world proportion and the down-sampling strategy, the dataset's representativeness and the training procedure's reproducibility are unclear.
+  - **Resolution test** Specify the source and estimation method for the real-world proportion, describe the down-sampling algorithm, and report the final dataset sizes and class ratios.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract claims "we incorporated the deep learning algorithms into the framework to obtain a more compact high-level feature representation of the input data."
+  - **Evidence pointer** Abstract, "In this study" section; location not provided
+  - **Concern** The specific deep learning architecture, input features, training procedure, and how the "extensible cubic hybrid framework" integrates deep learning are not described. The term "extensible cubic hybrid framework" is not defined.
+  - **Why it matters** Without methodological details, the approach cannot be reproduced or evaluated for technical soundness. The novelty and contribution of the framework remain unclear.
+  - **Resolution test** Provide a full description of the framework architecture, feature encoding, deep learning components, and training details in the main text or supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "In this study" section
+  - **Issue** The phrase "extensible cubic hybrid framework" is not explained and may confuse readers.
+  - **Required correction** Define the term or use a more descriptive name in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Webserver claim
+  - **Evidence pointer** Abstract, "In addition, we set up a webserver" section
+  - **Issue** The webserver URL is provided, but there is no indication of its availability status, user interface, or input/output formats.
+  - **Required correction** State that the webserver is publicly accessible and describe its basic functionality.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Independent dataset description
+  - **Evidence pointer** Abstract, "The results on two independent datasets" section
+  - **Issue** The nature of the two independent datasets is not described, including their sources and whether they differ from the training data.
+  - **Required correction** Briefly describe the independent datasets and their relationship to the training data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, undefined dataset construction, and lack of methodological detail prevent any assessment of the method's validity or superiority.
+- **Assessment against Nature-style criteria** Originality: The idea of adjusting benchmark dataset proportions to reflect real-world distributions is potentially original, but the abstract does not provide enough detail to assess novelty relative to prior work. Scientific importance: Accurate prediction of nucleic acid-binding proteins is biologically relevant, but the importance of this specific contribution cannot be evaluated without performance data. Interdisciplinary readership: The topic bridges computational and biological sciences, but the abstract is too technical for a broad audience without context. Technical soundness: Not assessable due to missing methodological and quantitative details. Readability for nonspecialists: The abstract is understandable at a high level but uses undefined jargon such as "extensible cubic hybrid framework."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims of superior performance or methodological innovation. A full manuscript with detailed methods, results, and comparisons is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim of "most advanced performance" is unsupported without quantitative results.
+- The claim of constructing a benchmark dataset based on real-world proportions is unverifiable without a definition of those proportions.
+- The claim of obtaining "compact high-level feature representation" through deep learning is not substantiated with any architectural or empirical evidence.
+- The webserver's functionality and accessibility are not verifiable from the abstract.

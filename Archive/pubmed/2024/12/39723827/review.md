@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support based solely on the provided text; figures, tables, and supplementary data referenced but not directly assessable
+- **Shared manuscript claim summary** The authors use extensive all-atom molecular dynamics simulations (nearly 100 μs cumulative sampling) of STAT5B and STAT5B N642H in monomeric, antiparallel dimeric, and a newly constructed homology model of the parallel dimeric forms to propose a molecular mechanism for the oncogenic N642H mutation. They report that N642H alters the hydrogen bonding network in the phosphotyrosine (pY) binding pocket, strengthens pY-R618 interactions, rigidifies the SH2 domain, and stabilizes a parallel-dimer-like conformational state. These computational predictions are supported by time-resolved hydrogen-deuterium exchange mass spectrometry (TRESI-HDX) experiments.
+- **Visible evidence base** Text descriptions of simulation protocols, analysis methods, and qualitative results; references to Figures 1–7, Tables 1 and S1–S2, and supplementary figures; no actual numerical data, statistical values, or figure content provided
+- **Missing materials affecting confidence** All figures, tables, and supplementary information; quantitative simulation data (e.g., RMSF values, contact probabilities, hydrogen bond occupancies); HDX mass spectrometry raw data and statistical analysis; simulation convergence metrics; force field validation details; homology model quality metrics beyond MolProbity score
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question: how the N642H oncogenic mutation in STAT5B stabilizes the parallel dimer and promotes hyperactivation. The authors combine extensive MD simulations with TRESI-HDX experiments to propose a mechanistic model. The work is timely and potentially impactful, as no structure of the STAT5B parallel dimer exists and the molecular basis of N642H-driven hyperactivation remains poorly understood. However, the manuscript as presented has several significant limitations. The central claims rest heavily on a homology model whose validation is described only superficially, and the experimental support (HDX) is presented without quantitative detail. The claim that N642H stabilizes a "parallel-dimer-like conformation" in the apo state is intriguing but the evidence, as described, is indirect and requires stronger validation. The manuscript would benefit from clearer presentation of quantitative results, explicit discussion of simulation limitations, and additional experimental or computational validation of the homology model.
+- **Who would be interested in the results, and why** Structural biologists studying STAT family proteins and SH2 domain signaling; cancer researchers investigating JAK/STAT pathway dysregulation in leukemia; computational biologists interested in mutation effects on protein dynamics; drug discovery groups targeting STAT5B for therapeutic development. The proposed mechanism could inform rational design of inhibitors that preferentially target the N642H mutant.
+- **Major strengths** 1) The study addresses a clinically important mutation with no available structural information for the relevant state. 2) The use of multiple oligomeric states (monomer, antiparallel dimer, parallel dimer) provides a comprehensive view of the conformational landscape. 3) The combination of computational prediction with experimental validation (HDX) strengthens the conclusions. 4) The construction of a conformational landscape from existing crystal structures is a useful analytical framework. 5) The authors acknowledge limitations of their analysis in several places, showing scientific caution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The homology model of the STAT5B parallel dimer is used as the basis for all parallel dimer simulations and subsequent mechanistic conclusions.
+  - **Evidence pointer** Methods section "Obtaining a homology model for the parallel dimer"; Results section "A model for the parallel dimer of STAT5B"
+  - **Concern** The homology model is constructed using STAT6 as a template, but the manuscript provides only a MolProbity score and sequence identity values. No information is given about the quality of the template structure, the alignment confidence, the structural conservation of the SH2 domain across STAT family members, or whether the parallel dimer interface is conserved between STAT6 and STAT5B. The authors state that loop refinement was necessary to avoid steric clashes, but the extent of this refinement and its potential impact on the model's reliability is not discussed. Given that the entire parallel dimer analysis depends on this model, inadequate validation is a critical gap.
+  - **Why it matters** If the homology model is inaccurate, particularly in the dimer interface or pY binding pocket regions, all subsequent conclusions about N642H effects on hydrogen bonding, pY binding, and dimer stability could be artifacts of the model rather than genuine properties of the system.
+  - **Resolution test** Provide detailed validation of the homology model: (1) comparison of the model to the template structure (RMSD, interface conservation), (2) assessment of the model using additional quality metrics (e.g., QMEAN, ProSA), (3) cross-validation with known STAT5B biochemical data, (4) discussion of whether the STAT6 parallel dimer interface is representative of STAT5B, and (5) ideally, additional simulations starting from alternative models or using enhanced sampling to test robustness of conclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The N642H mutation directly affects the hydrogen bonding network within the pY-binding pocket of the parallel dimer, enhancing the pY-binding interaction" and "specific inter-protein hydrogen bonds are more probable in the STAT5B N642H parallel dimer."
+  - **Evidence pointer** Results section "The N642H mutation alters the pY pocket interaction network and hydrogen bonding with pY"; Figures 2 and S7
+  - **Concern** The manuscript describes qualitative differences in hydrogen bonding probabilities and contact numbers between wild-type and N642H parallel dimers, but no quantitative values are provided in the text. The reader cannot assess the magnitude of the reported effects, the statistical significance of the differences, or the variability across independent simulations. Similarly, the claim of "increased average number of atoms in contact" (Figure S7b) lacks numerical support.
+  - **Why it matters** Without quantitative data, the strength of the reported effects cannot be evaluated. Small differences in hydrogen bond probabilities or contact numbers may not be biologically meaningful, especially given the inherent noise in MD simulations. The central mechanistic claim of enhanced pY binding requires clear quantitative evidence.
+  - **Resolution test** Report numerical values for key observables (e.g., hydrogen bond occupancy percentages, contact probabilities, average contact numbers) with appropriate error estimates (standard error of the mean across independent simulations). Provide statistical tests (e.g., bootstrap or permutation tests) to establish significance of differences between wild-type and mutant. Include these data in the main text or clearly reference specific figure panels with the values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The N642H mutation stabilizes a parallel-dimer-like conformation" in the apo state, based on the observation that apo STAT5B N642H accesses two distinct conformational states, one resembling the parallel dimer.
+  - **Evidence pointer** Results section "The N642H mutation stabilizes a parallel-dimer-like conformation"; Figures 4 and 5
+  - **Concern** The identification of two distinct states in the N642H antiparallel dimer simulations and their classification as "A-state" and "B-state" is described qualitatively. The manuscript does not provide quantitative criteria for state assignment, the population ratio of the two states, the free energy difference between them, or the timescales of interconversion. The claim that the B-state resembles the parallel dimer is based on secondary structure propensity and PCA projections, but the degree of similarity is not quantified. Furthermore, the observation that apo wild-type also samples these states (as stated in the text) complicates the interpretation that N642H specifically stabilizes the B-state.
+  - **Why it matters** The claim of a pre-existing equilibrium between inactive and active-like states, with N642H shifting the population toward the active-like state, is a key mechanistic insight. However, without quantitative population analysis and free energy estimates, this claim remains speculative. If wild-type also samples the B-state to a similar extent, the proposed mechanism would need revision.
+  - **Resolution test** Provide quantitative analysis of the two states: (1) define order parameters that distinguish A-state and B-state, (2) calculate the fraction of time spent in each state for wild-type and mutant, (3) estimate free energy differences (e.g., from population ratios or umbrella sampling), (4) quantify the structural similarity between B-state and parallel dimer (e.g., RMSD of the SH2 domain, interface contacts), and (5) discuss whether the observed populations are statistically distinguishable given the simulation lengths.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The simulations indicate that apo STAT5B is highly flexible, exploring a diverse conformational space. In contrast, apo STAT5B N642H accesses two distinct conformational states."
+  - **Evidence pointer** Results section "The N642H mutation rigidifies the SH2 domain"; Figures 3 and S8
+  - **Concern** The manuscript reports reduced flexibility in N642H based on RMSF, radius of gyration distributions, and contact maps. However, the simulation lengths and number of independent replicates are not clearly stated in the text (only referenced to Tables 1 and S1). The convergence of the simulations is not discussed. For a claim about conformational diversity and rigidity, it is essential to demonstrate that the simulations have adequately sampled the accessible conformational space.
+  - **Why it matters** If simulations are not converged, the observed differences in flexibility between wild-type and mutant could reflect insufficient sampling rather than genuine biophysical differences. This is particularly concerning for the antiparallel dimer simulations, which the authors note dissociate during the simulation.
+  - **Resolution test** Provide clear information on simulation lengths, number of replicates, and convergence metrics (e.g., RMSD stabilization, block averaging of key observables). Discuss whether the observed differences in flexibility are robust across replicates and time periods. Consider additional replicates or longer simulations if convergence is questionable.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The simulation predictions of the effects of the mutation on structure and dynamics are supported by the results of hydrogen-deuterium exchange (HDX) mass spectrometry measurements."
+  - **Evidence pointer** Results section "Hydrogen-deuterium exchange experiments show similar impact of the N642H mutation and pY binding"; Figure 6
+  - **Concern** The HDX experiments are described only qualitatively. The manuscript states that decreased deuterium uptake is observed in the SH2 domain upon phosphopeptide binding and in N642H compared to wild-type, but no quantitative data (e.g., percent deuterium uptake, differences in exchange rates, confidence intervals) are provided. The peptide-level resolution of the HDX data is not described, and it is unclear whether the observed effects are localized to specific regions of the SH2 domain or are global. The number of biological replicates is not stated.
+  - **Why it matters** The HDX data are presented as experimental validation of the computational predictions. Without quantitative results and statistical analysis, the strength of this validation cannot be assessed. If the HDX effects are small or not statistically significant, the claim of experimental support would be weakened.
+  - **Resolution test** Provide quantitative HDX data: deuterium uptake values (or differences) for specific peptides covering the SH2 domain, with error bars and statistical significance. Show the time course of exchange for key peptides. Clearly state the number of replicates and the analysis method. If possible, map the observed differences onto the structure to demonstrate localization to the pY pocket and SH2 domain.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states the mutation "is thought to promote cancer due to hyperactivation of STAT5B caused by increased stability of the active, parallel dimer state." This is presented as established knowledge, but the subsequent text notes that "the molecular mechanism leading to this stabilization is not well understood." The phrasing could be clearer about what is known versus what is being investigated.
+  - **Required correction** Rephrase to distinguish established observations (e.g., increased dimer stability, hyperactivation) from the open question of mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, simulation protocols
+  - **Evidence pointer** Methods section "MD simulation methods"
+  - **Issue** The manuscript states that the CHARMM36m force field was used with CHARMM-modified TIP3P water, but does not specify the simulation temperature coupling method, pressure coupling details for production runs, or the specific GROMACS version beyond "2019.1". These details are important for reproducibility.
+  - **Required correction** Provide complete simulation parameters, including thermostat and barostat settings, integration time step, and any constraints applied during production runs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, parallel dimer model
+  - **Evidence pointer** Results section "A model for the parallel dimer of STAT5B"
+  - **Issue** The manuscript states that "the trajectory drifts from its starting location near the STAT6 region toward the STAT5 region" during equilibration. This is presented as evidence for the model's validity, but the drift could also indicate instability or artifacts of the homology model. The interpretation should be more cautious.
+  - **Required correction** Acknowledge alternative interpretations of the drift and provide additional validation (e.g., comparison to known STAT5B biochemical data) to support the model's reliability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion, therapeutic implications
+  - **Evidence pointer** Discussion section, final paragraph
+  - **Issue** The discussion of therapeutic implications is brief and speculative. The authors suggest that "a novel therapeutic would preferentially bind STAT5B N642H over the wild type" but do not discuss how the structural information presented could be used to achieve this selectivity.
+  - **Required correction** Expand the discussion of therapeutic implications, providing more concrete suggestions for how the identified structural differences could be exploited in drug design.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, HDX experiments
+  - **Evidence pointer** Methods section "Experimental methods"
+  - **Issue** The HDX methods are described very briefly. Key parameters such as the peptic digestion conditions, the LC-MS setup, the deuterium labeling time points, and the data analysis workflow are not fully described.
+  - **Required correction** Provide a more detailed description of the HDX experimental protocol, including all relevant parameters, to enable reproducibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, π-π interaction analysis
+  - **Evidence pointer** Results section "The N642H mutation alters the pY pocket interaction network and hydrogen bonding with pY"; Figure S10
+  - **Issue** The manuscript dismisses π-π interactions between N642H and pY based on ring stacking angle and centroid distance criteria. However, the authors note that "π-π stacking geometries are not well-reproduced by MD simulations," which undermines the confidence in this negative result.
+  - **Required correction** Acknowledge the limitation more explicitly and consider whether alternative methods (e.g., QM/MM calculations) could provide more reliable assessment of π-π interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (homology model validation), R1-M2 (quantitative data for hydrogen bonding and contact claims), R1-M3 (quantitative analysis of conformational states), R1-M4 (simulation convergence), R1-M5 (quantitative HDX data)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript addresses a clinically important question with a novel approach: constructing a homology model of the STAT5B parallel dimer and using extensive MD simulations to investigate the N642H mutation's mechanism. The concept of a pre-existing equilibrium between inactive and active-like states is not entirely new for STAT proteins, but its application to N642H is original. The work is incremental rather than paradigm-shifting.
+  - **Scientific importance** The N642H mutation is clinically significant in leukemia, and understanding its molecular mechanism could inform therapeutic development. The potential impact is moderate to high, but the current evidence does not fully establish the proposed mechanism.
+  - **Interdisciplinary readership** The topic bridges structural biology, computational biophysics, and cancer biology. The manuscript is likely to interest researchers in these fields, but the presentation is heavily computational and may be less accessible to experimental biologists without strong computational background.
+  - **Technical soundness** The simulation methodology is generally sound, but several technical concerns need to be addressed: homology model validation, simulation convergence, and quantitative analysis of key observables. The HDX experiments are described too briefly to assess their technical quality.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically organized. However, the results section relies heavily on references to figures without providing sufficient quantitative context in the text, making it difficult for nonspecialists to follow the key findings. The methods section is detailed but assumes familiarity with MD simulation techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible mechanistic model, but the current evidence is insufficient to fully establish the claims. The authors must provide quantitative data for key observables, validate the homology model more rigorously, demonstrate simulation convergence, and present HDX data with appropriate statistical analysis. If these concerns are addressed, the manuscript could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that N642H "enhances the pY-binding interaction" is not quantitatively supported in the text; no numerical hydrogen bond probabilities or contact data are provided.
+- The claim that N642H "stabilizes a parallel-dimer-like conformation" in the apo state is based on qualitative analysis of two states; population ratios and free energy differences are not reported.
+- The homology model of the STAT5B parallel dimer is used as a foundation for all parallel dimer simulations, but its validation is insufficiently described.
+- The claim that the B-state of the N642H antiparallel dimer resembles the parallel dimer is based on qualitative secondary structure and PCA analysis; quantitative similarity metrics are not provided.
+- The HDX experiments are described as supporting the computational predictions, but no quantitative data are presented to allow assessment of the strength of this support.
+- The statement that "the fact that the inter-protomer β-sheet dissociates in the simulations with the mutation could result from introducing a mutation into a homology model" is an important caveat, but its implications for the overall conclusions are not fully discussed.
+- The discussion of therapeutic implications is speculative and not directly supported by the data presented.

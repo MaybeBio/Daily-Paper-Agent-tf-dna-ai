@@ -1,0 +1,492 @@
+{
+  "identity": {
+    "pmid": "41061345",
+    "doi": "10.1016/j.esmoop.2025.105830",
+    "title": "RSC4All as a machine learning nomogram to predict RSClin results in HR+/HER2- node-negative early breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: RSClin combines clinicopathological (CP) and genomic data to refine predictions of distant recurrence (DR) risk and chemotherapy (CT) benefit in node-negative (N0) hormone receptor (HR)-positive/human epidermal growth factor receptor 2 (HER2)-negative early breast cancer (eBC). Available in the United States, RSClin is inaccessible in Europe due to regulatory constraints. We developed and validated RSC4All, a machine learning (ML) nomogram replicating RSClin predictions and evaluating clinical impact by comparing DR risk and CT benefit estimates across recurrence score (RS), RSClin, and RSC4All. MATERIALS AND METHODS: We retrospectively identified 290 HR-positive/HER2-negative eBC with both 21-gene RS and RSClin estimation at three European centers (development cohort). ML models were trained on 70% and internally validated on 30% of this cohort to reproduce RSClin estimates for DR risk and CT benefit. External validation used an independent cohort of 513 patients. Performance was assessed using receiver operating characteristic area under the curve (ROC AUC) (classification) and R(2) (regression). Clinical agreement between RSC4All and RSClin was evaluated using Cohen's kappa and McNemar's test, including replication of RS to RSClin reclassification patterns. RS and RSClin classifications were compared in the pooled population and CP predictors of reclassification were explored. RESULTS: ML classification models achieved excellent performance with ROC AUC 0.99 for both DR risk and CT benefit, while regression model had R(2) = 0.82 and 0.77, respectively. In external validation, RSC4All maintained high accuracy (ROC AUC = 0.99; R(2) = 0.82 and 0.76) with an almost perfect clinical agreement with RSClin (Cohen's kappa = 0.87 and 0.84) and replicated RS to RSClin reclassification direction in 94.1% (DR) and 93.0% (CT) of cases. In the pooled cohort, RSClin reclassified 22.2% of DR risk (balanced up/downgrades) and 12.2% for CT benefit (mostly upgrades), with high grade, high Ki-67, low progesterone receptor, and larger tumor size predicting upward reclassification. A web-based tool was developed for public access (https://rsc4all.streamlit.app). CONCLUSIONS: RSC4All accurately reproduces RSClin predictions and reclassification patterns, providing a freely accessible alternative where RSClin is unavailable. By integrating CP and genomic data, it refines risk stratifications and supports adjuvant decisions in N0 HR-positive/HER2-negative eBC. External validation in an independent cohort strengthens its generalizability and clinical applicability.",
+    "keywords": [
+      "Oncotype DX",
+      "RSClin",
+      "adjuvant decision-making process",
+      "breast cancer",
+      "genomic assays",
+      "machine learning nomogram"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/genetics/diagnosis",
+      "*Nomograms",
+      "*Machine Learning",
+      "Middle Aged",
+      "Retrospective Studies",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Adult",
+      "Aged",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jacobs, F",
+        "D'Amico, S",
+        "Ferraro, E",
+        "Agostinetto, E",
+        "Tondini, C",
+        "Gaudio, M",
+        "Benvenuti, C",
+        "Gerosa, R",
+        "Saltalamacchia, G",
+        "Zazzetti, E",
+        "Di Rienzo, R",
+        "Buonaiuto, R",
+        "Martorana, F",
+        "Chirco, A",
+        "De Sanctis, R",
+        "Della Porta, M G",
+        "Santoro, A",
+        "Vigneri, P",
+        "Arpino, M G",
+        "Giuliano, M",
+        "Fornier, M",
+        "de Azambuja, E",
+        "Zambelli, A"
+      ],
+      "short_names": [
+        "Jacobs F",
+        "D'Amico S",
+        "Ferraro E",
+        "Agostinetto E",
+        "Tondini C",
+        "Gaudio M",
+        "Benvenuti C",
+        "Gerosa R",
+        "Saltalamacchia G",
+        "Zazzetti E",
+        "Di Rienzo R",
+        "Buonaiuto R",
+        "Martorana F",
+        "Chirco A",
+        "De Sanctis R",
+        "Della Porta MG",
+        "Santoro A",
+        "Vigneri P",
+        "Arpino MG",
+        "Giuliano M",
+        "Fornier M",
+        "de Azambuja E",
+        "Zambelli A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "Memorial Sloan-Kettering Cancer Center, Breast Medicine, New York, USA.",
+        "Universite Libre de Bruxelles (ULB), Hopital Universitaire de Bruxelles (HUB), Institut Jules Bordet, Academic Trials Promoting Team (ATPT), Brussels, Belgium.",
+        "Department of Oncology, ASST Papa Giovanni XXIII, Bergamo, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy.",
+        "Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "IRCCS Istituto Nazionale Tumori 'Fondazione Pascale', Department of Breast and Thoracic Oncology, Naples, Italy; Scuola Superiore Meridionale (SSM), Clinical and Translational Oncology, Naples, Italy.",
+        "IRCCS Istituto Nazionale Tumori 'Fondazione Pascale', Department of Breast and Thoracic Oncology, Naples, Italy; Scuola Superiore Meridionale (SSM), Clinical and Translational Oncology, Naples, Italy; Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Humanitas Istituto Clinico Catanese, Misterbianco, Catania, Italy; Department of Clinical and Experimental Medicine, University of Catania, Catania, Italy.",
+        "Department of Oncology, ASST Papa Giovanni XXIII, Bergamo, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy. Electronic address: rdesanctis@asst-pg23.it.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy.",
+        "Humanitas Istituto Clinico Catanese, Misterbianco, Catania, Italy; Department of Clinical and Experimental Medicine, University of Catania, Catania, Italy.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy; Temple University, College of Science and Technology, Sbarro Institute for Cancer Research and Molecular Medicine, Philadelphia, USA.",
+        "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy.",
+        "Memorial Sloan-Kettering Cancer Center, Breast Medicine, New York, USA.",
+        "Universite Libre de Bruxelles (ULB), Hopital Universitaire de Bruxelles (HUB), Institut Jules Bordet, Academic Trials Promoting Team (ATPT), Brussels, Belgium.",
+        "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jacobs, F",
+        "short_name": "Jacobs F",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Amico, S",
+        "short_name": "D'Amico S",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferraro, E",
+        "short_name": "Ferraro E",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan-Kettering Cancer Center, Breast Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Agostinetto, E",
+        "short_name": "Agostinetto E",
+        "identifiers": [],
+        "affiliations": [
+          "Université Libre de Bruxelles (ULB), Hôpital Universitaire de Bruxelles (HUB), Institut Jules Bordet, Academic Trials Promoting Team (ATPT), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Tondini, C",
+        "short_name": "Tondini C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, ASST Papa Giovanni XXIII, Bergamo, Italy."
+        ]
+      },
+      {
+        "full_name": "Gaudio, M",
+        "short_name": "Gaudio M",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Benvenuti, C",
+        "short_name": "Benvenuti C",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Gerosa, R",
+        "short_name": "Gerosa R",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Saltalamacchia, G",
+        "short_name": "Saltalamacchia G",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Zazzetti, E",
+        "short_name": "Zazzetti E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Rienzo, R",
+        "short_name": "Di Rienzo R",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Istituto Nazionale Tumori 'Fondazione Pascale', Department of Breast and Thoracic Oncology, Naples, Italy; Scuola Superiore Meridionale (SSM), Clinical and Translational Oncology, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Buonaiuto, R",
+        "short_name": "Buonaiuto R",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Istituto Nazionale Tumori 'Fondazione Pascale', Department of Breast and Thoracic Oncology, Naples, Italy; Scuola Superiore Meridionale (SSM), Clinical and Translational Oncology, Naples, Italy; Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Martorana, F",
+        "short_name": "Martorana F",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Istituto Clinico Catanese, Misterbianco, Catania, Italy; Department of Clinical and Experimental Medicine, University of Catania, Catania, Italy."
+        ]
+      },
+      {
+        "full_name": "Chirco, A",
+        "short_name": "Chirco A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, ASST Papa Giovanni XXIII, Bergamo, Italy."
+        ]
+      },
+      {
+        "full_name": "De Sanctis, R",
+        "short_name": "De Sanctis R",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy. Electronic address: rdesanctis@asst-pg23.it."
+        ]
+      },
+      {
+        "full_name": "Della Porta, M G",
+        "short_name": "Della Porta MG",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Santoro, A",
+        "short_name": "Santoro A",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Vigneri, P",
+        "short_name": "Vigneri P",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Istituto Clinico Catanese, Misterbianco, Catania, Italy; Department of Clinical and Experimental Medicine, University of Catania, Catania, Italy."
+        ]
+      },
+      {
+        "full_name": "Arpino, M G",
+        "short_name": "Arpino MG",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy; Temple University, College of Science and Technology, Sbarro Institute for Cancer Research and Molecular Medicine, Philadelphia, USA."
+        ]
+      },
+      {
+        "full_name": "Giuliano, M",
+        "short_name": "Giuliano M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Unit, Department of Clinical Medicine and Surgery, University of Naples Federico II, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Fornier, M",
+        "short_name": "Fornier M",
+        "identifiers": [],
+        "affiliations": [
+          "Memorial Sloan-Kettering Cancer Center, Breast Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "de Azambuja, E",
+        "short_name": "de Azambuja E",
+        "identifiers": [],
+        "affiliations": [
+          "Université Libre de Bruxelles (ULB), Hôpital Universitaire de Bruxelles (HUB), Institut Jules Bordet, Academic Trials Promoting Team (ATPT), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Zambelli, A",
+        "short_name": "Zambelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Humanitas Cancer Center, IRCCS Humanitas Research Hospital, Rozzano, Milan, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ESMO open"
+    ],
+    "journal_abbrev": [
+      "ESMO Open"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/09 00:31",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39621968",
+      "37380659",
+      "36612144",
+      "33538338",
+      "33306425",
+      "33306424",
+      "31161190",
+      "31157962",
+      "31150316",
+      "29860917",
+      "28094848",
+      "27557300",
+      "24777111",
+      "22152853"
+    ],
+    "similar": [
+      "41061345",
+      "41162228",
+      "33306425",
+      "41405264",
+      "41791000",
+      "39020239",
+      "41213110",
+      "40116474",
+      "31522959",
+      "40288025",
+      "33593381",
+      "30384581",
+      "39579550",
+      "38641451",
+      "32565110",
+      "32291973",
+      "38146744",
+      "40220739",
+      "41469107",
+      "40887934",
+      "28243897",
+      "34873249",
+      "31152079",
+      "39522332",
+      "40347583",
+      "29728098",
+      "41632146",
+      "31287883",
+      "23074401",
+      "36175898",
+      "38007348",
+      "36320066",
+      "27209424",
+      "23701403",
+      "31146185",
+      "40972946",
+      "40833671",
+      "40927537",
+      "39041867",
+      "41278162",
+      "28960862",
+      "39248049",
+      "41006089",
+      "38720854",
+      "41558202",
+      "25129366",
+      "39472970",
+      "38131531",
+      "40148997",
+      "36269526",
+      "27576704",
+      "32385567",
+      "35947048",
+      "41642493",
+      "39621968",
+      "29133514",
+      "24903080",
+      "33738150",
+      "41462365",
+      "39365509",
+      "40319004",
+      "40184873",
+      "28111076",
+      "40208504",
+      "37946210",
+      "41385615",
+      "40025017",
+      "40633461",
+      "40597882",
+      "40796181",
+      "41263422",
+      "32170635",
+      "31026440",
+      "28664507",
+      "30387876",
+      "38383259",
+      "27216742",
+      "41757801",
+      "24261318",
+      "39734136",
+      "41383399",
+      "34664429",
+      "30348602",
+      "33485948",
+      "28739750",
+      "29968028",
+      "35172273",
+      "35084624",
+      "38955698",
+      "41731833",
+      "29956095",
+      "32408905",
+      "33373867",
+      "32710664",
+      "39545625",
+      "41653522",
+      "30796885",
+      "29128896",
+      "40121273",
+      "38741425"
+    ],
+    "review": [
+      "41061345",
+      "33306425"
+    ],
+    "pmc": [
+      "12538438"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2059-7029(25)01699-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41061345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2059-7029(25)01699-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41157250",
+    "doi": "10.3390/life15101577",
+    "title": "Computational-Experimental Identification of Palindromic Motifs Bound by Bacterial XRE Family Transcriptional Regulators."
+  },
+  "content": {
+    "abstract": "Bacteria employ transcriptional regulators, such as those belonging to the Xenobiotic Response Element (XRE) family, to regulate metabolic processes. These regulators often exhibit autoregulatory properties and function as dimers to recognize palindromic DNA motifs. However, the binding motifs of the XRE family transcriptional regulators in bacteria have not yet been well characterized on a large scale. To identify potential XRE transcriptional regulator recognition motifs efficiently, we developed a computational approach combining structural alignment, sequence scanning, and motif clustering. We first identified the potential motifs of XRE regulators using computational methods. Using the helix-turn-helix (HTH) domain of XRE family regulators as a template, we collected 27,732 proteins containing the domain from bacterial databases. By extracting upstream sequences of these proteins and employing bioinformatics tools like MEME and motifStack to search potential motifs, 5622 motifs were identified and subsequently clustered into 223 clusters. These clusters can be classified into 7 main types based on the base conservation patterns observed in motifs. Interaction models between representative proteins and their corresponding motifs were predicted using AlphaFold. Subsequently, we conducted experimental validation via electrophoretic mobility shift assays (EMSAs) and confirmed the feasibility of our approach, as nine out of ten tested interactions showed clear protein-DNA binding. However, due to limitations in experimental conditions, the remaining predicted motifs have not yet undergone experimental validation. Since conserved sequences and well-predicted structures cannot replace real-world scenarios, there are limitations to relying solely on computational predictions, and experimental validation remains necessary. In summary, our study establishes a reliable framework for identifying XRE family transcriptional regulator recognition motifs and provides valuable insights into bacterial regulation.",
+    "keywords": [
+      "AlphaFold",
+      "XRE family",
+      "motif clustering",
+      "palindromic motif",
+      "protein-DNA interactions",
+      "transcriptional regulators"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Linjia",
+        "Zhong, Shitong",
+        "Wang, Liangyan",
+        "Lu, Huizhi",
+        "Hua, Yuejin"
+      ],
+      "short_names": [
+        "Wang L",
+        "Zhong S",
+        "Wang L",
+        "Lu H",
+        "Hua Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-5666-4794",
+        "ORCID: 0000-0002-2408-4427"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Cancer Center, Zhejiang University, Hangzhou 310058, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Linjia",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Shitong",
+        "short_name": "Zhong S",
+        "identifiers": [
+          "0009-0004-5666-4794"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liangyan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Huizhi",
+        "short_name": "Lu H",
+        "identifiers": [
+          "0000-0002-2408-4427"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Yuejin",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+          "Cancer Center, Zhejiang University, Hangzhou 310058, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Life (Basel)"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 06:27",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "42075245"
+    ],
+    "refs": [
+      "40689749",
+      "40608330",
+      "38484003",
+      "38105009",
+      "37972151",
+      "37156916",
+      "36477806",
+      "35386008",
+      "35347179",
+      "35331762",
+      "34791371",
+      "34518655",
+      "33837749",
+      "33627070",
+      "33509775",
+      "33436508",
+      "33057789",
+      "33008408",
+      "32048165",
+      "31410466",
+      "30687648",
+      "30138440",
+      "29425356",
+      "28438179",
+      "28132389",
+      "26172911",
+      "25953851",
+      "25170972",
+      "22916289",
+      "22844465",
+      "19884135",
+      "19047729",
+      "18761623",
+      "17895995",
+      "17511812",
+      "15944459",
+      "12829265"
+    ],
+    "similar": [
+      "41157250",
+      "36445133",
+      "12217688",
+      "31410466",
+      "17598915",
+      "41128614",
+      "37205451",
+      "23512538",
+      "18599828",
+      "8631989",
+      "40272195",
+      "35717889",
+      "9409145",
+      "15634675",
+      "40577318",
+      "10556324",
+      "8391636",
+      "37387605",
+      "22113079",
+      "37645952",
+      "24100318",
+      "37492264",
+      "39484471",
+      "37071026",
+      "9705204",
+      "38484003",
+      "33436508",
+      "9374477",
+      "15716014",
+      "33727356",
+      "32194528",
+      "33509775",
+      "20097792",
+      "27920295",
+      "12393182",
+      "8407937",
+      "40622153",
+      "1761516",
+      "35386008",
+      "9016718",
+      "37972151",
+      "9882450",
+      "15831786",
+      "18005985",
+      "40320752",
+      "11523004",
+      "30191942",
+      "35240993",
+      "8632018",
+      "16428389",
+      "2347309",
+      "40608330",
+      "8787739",
+      "24070609",
+      "11976954",
+      "12869639",
+      "10489413",
+      "22406834",
+      "8692686",
+      "33057789",
+      "32690636",
+      "29038257",
+      "10913634",
+      "18722998",
+      "15356290",
+      "18276643",
+      "8621524",
+      "14981152",
+      "9478971",
+      "34726169",
+      "12367524",
+      "22223187",
+      "21453542",
+      "33972354",
+      "9927619",
+      "37755962",
+      "12944374",
+      "29567837",
+      "28348826",
+      "7699720",
+      "8034660",
+      "26744254",
+      "17927908",
+      "7849625",
+      "31896348",
+      "24471758",
+      "12700263",
+      "21615202",
+      "7493958",
+      "33627070",
+      "20595046",
+      "23620480",
+      "11893730",
+      "11875024",
+      "27567672",
+      "12034833",
+      "15603590",
+      "17120229",
+      "23497159",
+      "11756427"
+    ],
+    "review": [
+      "41157250",
+      "35717889",
+      "9409145"
+    ],
+    "pmc": [
+      "12565409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=life15101577",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41157250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

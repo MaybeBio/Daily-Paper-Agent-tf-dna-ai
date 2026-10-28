@@ -1,0 +1,613 @@
+{
+  "identity": {
+    "pmid": "40604818",
+    "doi": "10.1186/s12943-025-02391-x",
+    "title": "STK3 is a transcriptional target of YAP1 and a hub component in the crosstalk between Hippo and Wnt signaling pathways during gastric carcinogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Serine/threonine kinase 3 (STK3) is recognized as a key regulator in Hippo pathway and a tumor-suppressing gene in various cancer types. However, its non-canonical role has been gradually revealed in cancer development. METHODS: Our objective is to elucidate the upregulation pattern and molecular mechanisms of STK3 in advancing gastric cancer (GC) progression. The regulation of YAP1 on STK3 was assessed through a combination of bulk and single-cell RNA-sequencing, Western blot, ChIP-qPCR, gene knockout mouse models, and functional rescue assays. The oncogenic roles of STK3 were confirmed through subcutaneous xenograft formation models and functional assays including spheroid formation and organoid growth. The phosphorylated target of STK3 was revealed by co-immunoprecipitation and in vitro kinase assays. STK3-targeted drugs were screened out by molecular docking and cellular thermal shift assay (CETSA). RESULTS: Reduction of YAP1 significantly impaired STK3 expression at both mRNA and protein levels, and deletion of STK3 partially attenuated the oncogenic activity of YAP1. Notably, MNNG-induced tumors in Yap1(-/-)Taz(-/-) mice exhibited decreased STK3 expression. Knockdown of STK3 led to reduced expression of stemness markers and xenograft growth, while sensitizing GC organoids and xenografts to 5-fluorouracil treatment. Mechanistically, the direct interaction between STK3 and GSK-3beta promoted GSK-3beta phosphorylation and beta-catenin nuclear accumulation, and thus the activation of Wnt signaling. Furthermore, aminopterin demonstrates as a promising STK3-targeted small molecule with remarkable effectiveness in inhibiting GC cell malignance and xenograft growth. CONCLUSIONS: STK3 was identified as a transcriptional target of YAP1, leading to enhanced DNA repair ability and stemness acquisition during GC progression by activating Wnt/beta-catenin activity through GSK-3beta degradation. Moreover, STK3-targeted therapy offered a novel approach to concur acquired chemo-resistance in GC patients.",
+    "keywords": [
+      "Gastric cancer",
+      "STK3",
+      "Wnt signaling",
+      "YAP1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "YAP-Signaling Proteins",
+      "*Stomach Neoplasms/metabolism/pathology/genetics",
+      "Mice",
+      "Hippo Signaling Pathway",
+      "*Serine-Threonine Kinase 3/genetics/metabolism",
+      "*Wnt Signaling Pathway",
+      "*Adaptor Proteins, Signal Transducing/genetics/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Transcription Factors/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Carcinogenesis/genetics",
+      "Xenograft Model Antitumor Assays",
+      "Cell Proliferation",
+      "*Protein Serine-Threonine Kinases/genetics/metabolism",
+      "Cell Cycle Proteins",
+      "Hippo Kinases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Fuda",
+        "Lyu, Yang",
+        "Chen, Bonan",
+        "Leung, Hoi Wing",
+        "Yu, Peiyao",
+        "Feng, Tiejun",
+        "Fang, Canbin",
+        "Cheung, Alvin H K",
+        "Zhou, Bin",
+        "Jiang, Jianhui",
+        "Zhang, Ge",
+        "Xu, Dazhi",
+        "Li, Liang",
+        "Jiang, Chen",
+        "Chen, Jianwu",
+        "Zhou, Zhaocai",
+        "An, Liwei",
+        "Huang, Bing",
+        "Zhuang, Kangmin",
+        "Luo, Xiaobei",
+        "Leung, Kam Tong",
+        "To, Ching Hei",
+        "Ma, Brigette By",
+        "Wong, Chi Chun",
+        "Wu, William Kk",
+        "Yu, Jun",
+        "To, Ka Fai",
+        "Kang, Wei"
+      ],
+      "short_names": [
+        "Xie F",
+        "Lyu Y",
+        "Chen B",
+        "Leung HW",
+        "Yu P",
+        "Feng T",
+        "Fang C",
+        "Cheung AHK",
+        "Zhou B",
+        "Jiang J",
+        "Zhang G",
+        "Xu D",
+        "Li L",
+        "Jiang C",
+        "Chen J",
+        "Zhou Z",
+        "An L",
+        "Huang B",
+        "Zhuang K",
+        "Luo X",
+        "Leung KT",
+        "To CH",
+        "Ma BB",
+        "Wong CC",
+        "Wu WK",
+        "Yu J",
+        "To KF",
+        "Kang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+        "CUHK-Shenzhen Research Institute, Shenzhen, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+        "CUHK-Shenzhen Research Institute, Shenzhen, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anesthesiology, Renmin Hospital, Wuhan University, Wuhan, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, China.",
+        "Law Sau Fai Institute for Advancing Translational Medicine in Bone and Joint Diseases (TMBJ), School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, China.",
+        "Department of Gastric Surgery, Department of Oncology, Shanghai Medical College, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, China.",
+        "Department of Pathology, Guangdong Province Key Laboratory of Molecular Tumor Pathology, Nanfang Hospital and Basic Medical College, Southern Medical University, Guangzhou, China.",
+        "Department of Pathology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat- Sen University Cancer Center, Guangzhou, China.",
+        "Department of Burn and Plastic Surgery, General Hospital of Southern Theater Command, PLA, Guangzhou, China.",
+        "State Key Laboratory of Genetic Engineering, School of Life Sciences, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Stomatology, Department of Biochemistry and Molecular Biology, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Pediatrics, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Clinical Oncology, Prince of Wales Hospital, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Clinical Oncology, Prince of Wales Hospital, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anaesthesia and Intensive Care, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Medicine and Therapeutics, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China. weikang@cuhk.edu.hk.",
+        "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China. weikang@cuhk.edu.hk.",
+        "CUHK-Shenzhen Research Institute, Shenzhen, China. weikang@cuhk.edu.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Fuda",
+        "short_name": "Xie F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+          "CUHK-Shenzhen Research Institute, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Yang",
+        "short_name": "Lyu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Bonan",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+          "CUHK-Shenzhen Research Institute, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Leung, Hoi Wing",
+        "short_name": "Leung HW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Peiyao",
+        "short_name": "Yu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Tiejun",
+        "short_name": "Feng T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Canbin",
+        "short_name": "Fang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Cheung, Alvin H K",
+        "short_name": "Cheung AHK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bin",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jianhui",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ge",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Law Sau Fai Institute for Advancing Translational Medicine in Bone and Joint Diseases (TMBJ), School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dazhi",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastric Surgery, Department of Oncology, Shanghai Medical College, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Province Key Laboratory of Molecular Tumor Pathology, Nanfang Hospital and Basic Medical College, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chen",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat- Sen University Cancer Center, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianwu",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn and Plastic Surgery, General Hospital of Southern Theater Command, PLA, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhaocai",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, School of Life Sciences, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "An, Liwei",
+        "short_name": "An L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Department of Biochemistry and Molecular Biology, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Bing",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Kangmin",
+        "short_name": "Zhuang K",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xiaobei",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Leung, Kam Tong",
+        "short_name": "Leung KT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "To, Ching Hei",
+        "short_name": "To CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Oncology, Prince of Wales Hospital, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Brigette By",
+        "short_name": "Ma BB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Oncology, Prince of Wales Hospital, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Chi Chun",
+        "short_name": "Wong CC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, William Kk",
+        "short_name": "Wu WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anaesthesia and Intensive Care, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jun",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Department of Medicine and Therapeutics, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "To, Ka Fai",
+        "short_name": "To KF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Wei",
+        "short_name": "Kang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomical and Cellular Pathology, State Key Laboratory of Translational Oncology, Prince of Wales Hospital, Sir Y.K. Pao Cancer Center, The Chinese University of Hong Kong, Hong Kong, China. weikang@cuhk.edu.hk.",
+          "Institute of Digestive Disease, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Science, The Chinese University of Hong Kong, Hong Kong, China. weikang@cuhk.edu.hk.",
+          "CUHK-Shenzhen Research Institute, Shenzhen, China. weikang@cuhk.edu.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42591454",
+      "42422877",
+      "42411162",
+      "42338478",
+      "42174698",
+      "42121934",
+      "42065052",
+      "41866450",
+      "41761192",
+      "41670688",
+      "41361389",
+      "41120801",
+      "40995667",
+      "40977060"
+    ],
+    "refs": [
+      "39788148",
+      "39412948",
+      "39047223",
+      "38621923",
+      "38592540",
+      "38579635",
+      "38572751",
+      "38394851",
+      "38167009",
+      "37983931",
+      "37950281",
+      "37174105",
+      "36781955",
+      "36764493",
+      "36740200",
+      "36635265",
+      "36622276",
+      "35996148",
+      "35489428",
+      "34772410",
+      "34557778",
+      "34450249",
+      "34403771",
+      "33506604",
+      "33428889",
+      "32861308",
+      "32589942",
+      "32555376",
+      "32345613",
+      "32296030",
+      "32192494",
+      "32060101",
+      "31974247",
+      "31386861",
+      "31375807",
+      "31341276",
+      "31068700",
+      "29790900",
+      "29608179",
+      "27535619",
+      "27300434",
+      "26370497",
+      "25894828",
+      "25516281",
+      "25079317",
+      "24658644",
+      "24325916",
+      "24227677",
+      "23323831",
+      "22653877",
+      "21346147",
+      "19527714",
+      "19505943",
+      "19399780",
+      "18579750",
+      "18328708",
+      "16299240",
+      "11440715",
+      "9552052"
+    ],
+    "similar": [
+      "40604818",
+      "39047223",
+      "29367737",
+      "32934314",
+      "40189014",
+      "33975517",
+      "34160112",
+      "40554953",
+      "24175801",
+      "34280359",
+      "27835600",
+      "32313226",
+      "30134988",
+      "31489619",
+      "38657867",
+      "38436783",
+      "34450249",
+      "31796534",
+      "34206989",
+      "32175692",
+      "41015323",
+      "39625344",
+      "27705928",
+      "29669762",
+      "33253791",
+      "39788148",
+      "39781521",
+      "41274476",
+      "40418093",
+      "31669263",
+      "39051998",
+      "39248565",
+      "40258522",
+      "37950281",
+      "30547803",
+      "34990589",
+      "37429790",
+      "30037330",
+      "41168860",
+      "40604321",
+      "39739271",
+      "41499346",
+      "39718433",
+      "40999529",
+      "39154499",
+      "38670954",
+      "33421513",
+      "33062724",
+      "31623651",
+      "39266996",
+      "36185598",
+      "28003097",
+      "37957015",
+      "40742309",
+      "32354737",
+      "39174858",
+      "27601049",
+      "33416116",
+      "38954637",
+      "26699479",
+      "41270467",
+      "39548564",
+      "37462016",
+      "26936013",
+      "39798821",
+      "28438716",
+      "31731517",
+      "40709529",
+      "38987584",
+      "26811664",
+      "38753450",
+      "39826667",
+      "36206931",
+      "32827244",
+      "39579985",
+      "38754347",
+      "39752217",
+      "22042863",
+      "27864128",
+      "33737493",
+      "40570025",
+      "37937799",
+      "31175271",
+      "40120683",
+      "32365332",
+      "39152152",
+      "31578200",
+      "40311597",
+      "33740160",
+      "30883979",
+      "30009820",
+      "39092548",
+      "21346147",
+      "40008228",
+      "37016382",
+      "33428889",
+      "40111564",
+      "31145543",
+      "32538668",
+      "31397203"
+    ],
+    "review": [
+      "40604818",
+      "28003097",
+      "26811664",
+      "39092548"
+    ],
+    "pmc": [
+      "12220525"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-025-02391-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40604818/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

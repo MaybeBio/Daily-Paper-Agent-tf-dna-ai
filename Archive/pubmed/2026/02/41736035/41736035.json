@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "41736035",
+    "doi": "10.1186/s12967-025-07580-2",
+    "title": "A novel molecule ZYZ329 targeting histone methyltransferase SMYD3 suppresses pathological angiogenesis via the driven mitochondrial ROS/HIF-1alpha/VEGFA axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The histone methyltransferase SMYD3 (SET and MYND domain containing 3) is critical for vascular homeostasis and may be implicated in pathological angiogenesis. However, its mechanism remains elusive, and targeted inhibitors are in early-stage development. We aim to clarify whether SMYD3 regulates angiogenesis and develop novel molecules targeting SMYD3. METHODS: Expression profile of SMYD3 under pro-angiogenic conditions was characterized by bioinformatics analysis and endothelial cell (EC) validation. The effects of SMYD3 knockdown, knockdown-overexpression, and overexpression on angiogenesis were validated, including Matrigel neovascularization, aortic ring sprouting, and EC tube formation. Regarding molecule development, virtual screening, structural modifications, molecular docking, inhibition screening of EC proliferation, and SMYD3 enzyme activity and cellular thermal shift assays were employed. A novel molecule ZYZ329 was identified and evaluated in angiogenesis. Mechanistic studies involved genetic approaches and the mitochondrial reactive oxygen species (mROS) scavenger MitoQ (Mitoquinone mesylate). Finally, a murine hindlimb ischemia model and rat skin healing model were established to evaluate ZYZ329 on pathological and physiological angiogenesis. RESULTS: SMYD3 was upregulated in endothelial cells under ischemic, hypoxic, and VEGF-stimulated conditions. And SMYD3 gene knockdown, overexpression after knockdown, and overexpression regulated the angiogenesis capacity of endothelial cells. After virtual screening and structural modifications, the novel molecule ZYZ329 was developed for dual inhibition of EC proliferation (IC50 = 6.147 muM) and SMYD3 enzymatic function (IC50 = 0.419 muM). The ZYZ329 engaged SMYD3 in cells, and exhibited a certain degree of selectivity for SMYD3. Moreover, ZYZ329 significantly attenuated pathological angiogenesis in a dose-dependent manner. Mechanistically, genetic or pharmacological inhibition of SMYD3 impaired HIF-1alpha stabilization and downstream VEGFA production. SMYD3 genetic perturbation modulated mROS without affecting apoptosis in hypoxic endothelial cell. MitoQ intervention confirmed that moderate SMYD3-driven mROS elevation regulates the HIF-1alpha/VEGFA axis in angiogenesis. In hindlimb ischemia model, ZYZ329 significantly impaired blood flow recovery and post-ischemic angiogenesis, demonstrating superior efficacy to EPZ031686. However, ZYZ329 had no significant effect on physiological angiogenesis. CONCLUSIONS: SMYD3 drives angiogenesis partially via the mROS/HIF-1alpha/VEGFA axis. We developed a novel molecule ZYZ329, which potently suppresses pathological angiogenesis. This offers potential therapeutic target and lead structures for treating angiogenesis-related diseases.",
+    "keywords": [
+      "Angiogenesis",
+      "Endothelial cell",
+      "HIF-1alpha",
+      "SMYD3",
+      "ZYZ329"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Histone-Lysine N-Methyltransferase/metabolism/antagonists & inhibitors/chemistry",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Reactive Oxygen Species/metabolism",
+      "*Mitochondria/metabolism/drug effects",
+      "*Vascular Endothelial Growth Factor A/metabolism",
+      "Humans",
+      "*Neovascularization, Pathologic/drug therapy/pathology/metabolism",
+      "Ischemia/pathology",
+      "Cell Proliferation/drug effects",
+      "Human Umbilical Vein Endothelial Cells/drug effects/metabolism",
+      "Molecular Docking Simulation",
+      "*Signal Transduction/drug effects",
+      "Male",
+      "Hindlimb/blood supply/pathology",
+      "Rats, Sprague-Dawley",
+      "Endothelial Cells/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Qing",
+        "Cai, Jianghong",
+        "Lu, Xianneng",
+        "Zhu, Qi",
+        "Li, Qixiu",
+        "Ren, Mi",
+        "Ding, Qian",
+        "Mao, Yicheng",
+        "Zhu, Yi Zhun"
+      ],
+      "short_names": [
+        "Ye Q",
+        "Cai J",
+        "Lu X",
+        "Zhu Q",
+        "Li Q",
+        "Ren M",
+        "Ding Q",
+        "Mao Y",
+        "Zhu YZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China.",
+        "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China.",
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China.",
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China.",
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China.",
+        "The Cancer Center of Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200080, China.",
+        "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China.",
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China. maoyc@fudan.edu.cn.",
+        "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China. yzzhu@must.edu.mo.",
+        "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China. yzzhu@must.edu.mo."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Qing",
+        "short_name": "Ye Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jianghong",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xianneng",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Qi",
+        "short_name": "Zhu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qixiu",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Mi",
+        "short_name": "Ren M",
+        "identifiers": [],
+        "affiliations": [
+          "The Cancer Center of Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200080, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Qian",
+        "short_name": "Ding Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yicheng",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China. maoyc@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yi Zhun",
+        "short_name": "Zhu YZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Department of Pharmacology, Shanghai Key Laboratory of Bioactive Small Molecules, the Key Laboratory of Smart Drug Delivery (Ministry of Education), Fudan University, Shanghai, 201203, China. yzzhu@must.edu.mo.",
+          "Laboratory of Drug Discovery from Natural Resources and Industrialization, Macau University of Science and Technology, Macau SAR, 999078, China. yzzhu@must.edu.mo."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 00:29",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41232699",
+      "41188866",
+      "41125614",
+      "41034941",
+      "41022187",
+      "40791817",
+      "40783386",
+      "40588481",
+      "40500258",
+      "40286890",
+      "39856066",
+      "39757165",
+      "39482529",
+      "39461625",
+      "39286779",
+      "39199205",
+      "39004231",
+      "38874005",
+      "38812026",
+      "38572755",
+      "38264914",
+      "38191478",
+      "38144275",
+      "38072662",
+      "37871533",
+      "37651203",
+      "37644092",
+      "37386026",
+      "37169756",
+      "37060495",
+      "36638013",
+      "36527933",
+      "36368511",
+      "36346387",
+      "36288574",
+      "36273580",
+      "36116234",
+      "35969170",
+      "35819319",
+      "35642641",
+      "35531958",
+      "35488146",
+      "35451757",
+      "34948180",
+      "34572020",
+      "34154424",
+      "33637115",
+      "33436551",
+      "33383924",
+      "33063086",
+      "32787524",
+      "32779886",
+      "32705243",
+      "32681389",
+      "32335505",
+      "32007952",
+      "31935919",
+      "31218443",
+      "30897521",
+      "30825178",
+      "30569127",
+      "30544196",
+      "29969917",
+      "29746925",
+      "28940930",
+      "28338320",
+      "27626683",
+      "27619687",
+      "27066749",
+      "26985287",
+      "26908355",
+      "25728514",
+      "25671107",
+      "24870542",
+      "24847881",
+      "24300855",
+      "23828940",
+      "23715323",
+      "22112350",
+      "21887258",
+      "20516113",
+      "20010698",
+      "18006819",
+      "15975825",
+      "15235609",
+      "12657217",
+      "12549862",
+      "11103778"
+    ],
+    "similar": [
+      "41736035",
+      "41980628",
+      "24408111",
+      "40132390",
+      "40020629",
+      "41456528",
+      "40457476",
+      "42542056",
+      "32730833",
+      "23416116",
+      "36332389",
+      "38722467",
+      "39890164",
+      "29502357",
+      "28602978",
+      "39752899",
+      "40897907",
+      "41016543",
+      "19538463",
+      "42074103",
+      "40233668",
+      "26013382",
+      "21947252",
+      "39978272",
+      "32404351",
+      "41895752",
+      "27999195",
+      "18566226",
+      "39226705",
+      "42441400",
+      "40032892",
+      "27927598",
+      "38565961",
+      "27877088",
+      "39319846",
+      "41195527",
+      "30569127",
+      "39237822",
+      "31652450",
+      "42431282",
+      "29614494",
+      "41301422",
+      "40682944",
+      "39647590",
+      "27834687",
+      "29196053",
+      "30126780",
+      "25679992",
+      "25799543",
+      "23415688",
+      "39260311",
+      "40355947",
+      "42213490",
+      "21773947",
+      "41729046",
+      "40869281",
+      "23300882",
+      "25561311",
+      "28069703",
+      "23144758",
+      "32866905",
+      "40440909",
+      "30541574",
+      "41641445",
+      "30834693",
+      "33573690",
+      "31368127",
+      "25471482",
+      "33256804",
+      "41238034",
+      "31408201",
+      "29852266",
+      "38542330",
+      "21278237",
+      "25381014",
+      "22483751",
+      "38838922",
+      "31850806",
+      "40069829",
+      "21185840",
+      "33904146",
+      "37321076",
+      "22426208",
+      "18006432",
+      "41905439",
+      "20413734",
+      "42576559",
+      "41978200",
+      "27810736",
+      "24194905",
+      "21819554",
+      "41531174",
+      "32791151",
+      "40600761",
+      "34785240",
+      "35531958",
+      "23726275",
+      "25192544",
+      "34479471",
+      "39550364"
+    ],
+    "review": [
+      "41736035",
+      "40869281"
+    ],
+    "pmc": [
+      "13040898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07580-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41736035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

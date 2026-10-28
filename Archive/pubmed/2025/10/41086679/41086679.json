@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "41086679",
+    "doi": "10.1016/j.bbrc.2025.152792",
+    "title": "Integrative multi-omics analysis uncovers a novel FOSL2-COL8A1-EMT regulatory axis driving colorectal cancer progression."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related mortality worldwide, with metastasis and therapeutic resistance driven in part by activation of epithelial-mesenchymal transition (EMT). However, the upstream regulatory networks sustaining EMT programs in CRC are not fully understood. Here, through an integrative multi-omics strategy combining cross-cohort transcriptomic analysis, machine learning-based feature prioritization, and functional validation, we identify COL8A1, a nonfibrillar type VIII collagen, as a critical EMT effector and oncogenic regulator in CRC. COL8A1 was consistently overexpressed across independent CRC datasets and correlated with advanced tumor stage, poor patient survival, and strong enrichment of EMT-related transcriptional programs. Mechanistically, we demonstrate that FOSL2, an AP-1 family transcription factor, directly binds to a conserved high-affinity motif within the COL8A1 promoter and transcriptionally activates its expression. FOSL2 and COL8A1 exhibit strong co-expression at both mRNA and protein levels in CRC specimens, and FOSL2 silencing suppresses COL8A1 expression. Functionally, COL8A1 promotes mesenchymal phenotypes, enhances CRC cell migration and invasion in vitro, and promotes tumor growth in vivo. Collectively, our findings uncover a previously unrecognized FOSL2-COL8A1-EMT regulatory axis that fuels CRC progression and metastasis, providing novel mechanistic insights into EMT maintenance and nominating COL8A1 as a promising prognostic biomarker and therapeutic target for advanced colorectal cancer.",
+    "keywords": [
+      "COL8A1",
+      "Colorectal cancer",
+      "Epithelial-mesenchymal transition (EMT)",
+      "FOSL2",
+      "Transcriptional regulation",
+      "Tumor progression"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/pathology/genetics/metabolism",
+      "Humans",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Fos-Related Antigen-2/metabolism/genetics",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Animals",
+      "Mice",
+      "Cell Movement",
+      "Promoter Regions, Genetic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xingyu",
+        "Yu, Teng",
+        "Li, Xiuming",
+        "Zou, Xun",
+        "Song, Yizhuo",
+        "Liu, Lin",
+        "Shen, Xiaozhu",
+        "Liu, Shunfang",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Yu T",
+        "Li X",
+        "Zou X",
+        "Song Y",
+        "Liu L",
+        "Shen X",
+        "Liu S",
+        "Liu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China.",
+        "Department of Pathology, Shanghai Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, 200025, China.",
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China.",
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China.",
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China.",
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China.",
+        "Department of Geriatrics, Lianyungang Second People's Hospital, Lianyungang, 222005, China. Electronic address: shenxiaozhu@lygey.com.",
+        "Department of Oncology, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Jiefang Road 1095, Wuhan, 430030, China. Electronic address: liushunfang28@163.com.",
+        "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China. Electronic address: liubin@jou.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xingyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Teng",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shanghai Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiuming",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Xun",
+        "short_name": "Zou X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yizhuo",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Xiaozhu",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Lianyungang Second People's Hospital, Lianyungang, 222005, China. Electronic address: shenxiaozhu@lygey.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Shunfang",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Jiefang Road 1095, Wuhan, 430030, China. Electronic address: liushunfang28@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Marine Pharmaceutical Compound Screening, College of Pharmacy, Jiangsu Ocean University, Lianyungang, 222005, China. Electronic address: liubin@jou.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/15 00:29",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41086679",
+      "30114390",
+      "41784732",
+      "41028408",
+      "39732719",
+      "41814682",
+      "40918458",
+      "31338937",
+      "40643716",
+      "41380489",
+      "33389821",
+      "40574852",
+      "40640171",
+      "27223064",
+      "41418870",
+      "40345591",
+      "41335176",
+      "25884904",
+      "41260514",
+      "41565140",
+      "40684839",
+      "39587482",
+      "34782005",
+      "29906744",
+      "34327778",
+      "30927925",
+      "39024731",
+      "25750173",
+      "35083610",
+      "28427243",
+      "29573464",
+      "31988275",
+      "29794466",
+      "28430582",
+      "35279145",
+      "38857058",
+      "41281746",
+      "35034102",
+      "28899657",
+      "30831320",
+      "28435028",
+      "31370857",
+      "28680090",
+      "32641995",
+      "26762412",
+      "33571679",
+      "38282145",
+      "37827326",
+      "40804742",
+      "40928719",
+      "40097546",
+      "41747601",
+      "41546483",
+      "28346728",
+      "41662891",
+      "33429327",
+      "41617935",
+      "32366371",
+      "26856330",
+      "23342249",
+      "26450645",
+      "29391352",
+      "23583431",
+      "38520567",
+      "38914858",
+      "37680149",
+      "31063022",
+      "41639744",
+      "41043501",
+      "32146835",
+      "34265287",
+      "40209953",
+      "30662328",
+      "40890958",
+      "39061061",
+      "26754532",
+      "37380804",
+      "41620398",
+      "27912767",
+      "28095858",
+      "33153498",
+      "33537093",
+      "37147666",
+      "30562730",
+      "27764793",
+      "34597678",
+      "34706761",
+      "39620395",
+      "29776371",
+      "39884642",
+      "39472937",
+      "26540342",
+      "38716545",
+      "36277982",
+      "22735571",
+      "40412277",
+      "36841801",
+      "32698890",
+      "36806631",
+      "41782869"
+    ],
+    "review": [
+      "41086679",
+      "41662891"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(25)01508-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

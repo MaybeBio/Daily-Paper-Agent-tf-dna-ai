@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42276585",
+  "title": "Urine IRF4/PENK/PXDN Methylation Signatures Enable Machine Learning-Driven Bladder Cancer Detection and Microenvironment Dissection.",
+  "authors": "He, Yi; Xie, Wenhua; Chen, Wei; Dai, Shengjie; Wang, Xintao; Zhao, Xiaokai; Lei, Siyu; Zhu, Wei; Qian, Yi; Feng, Jinpeng; Gong, Ziying; Li, Jieyi; Yang, Pengmin; Xu, Xinyu; Fei, Wenjie; Zhang, Daoyun; Cao, Yifang; Jin, Jing",
+  "journal": "Technology in cancer research & treatment",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用尿液DNA甲基化标志物和机器学习进行膀胱癌检测，虽涉及机器学习但核心是表观遗传诊断，无蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "IntroductionCystoscopy-based diagnosis and surveillance of bladder cancer (BC) remain challenging. This study presents a urine-based assay that enriches DNA-methylation signals via PCR enrichment and applies a machine-learning model to enable cost-effective early detection.MethodsIn a prospective cohort at hospital (May 2022-November 2023), 155 individuals were enrolled, BC was diagnosed and confirmed by cystoscopy-guided biopsy and histopathology. Targeted next-generation sequencing of urine DNA quantified methylation at 44 CpG sites within IRF4, PENK and PXDN. Supervised classifiers trained on these features distinguished tumor from non-tumor urine samples. Systems analyses around IRF4/PENK/PXDN mapped signaling pathways, protein interaction modules and tumor-microenvironment contexts in BC.ResultsUsing 155 urine samples (68 BC, 87 non-BC) with methylation and transcript expression data in TCGA-BLCA, we found significantly increased methylation of IRF4, PENK, and PXDN in BC (P < 0.0001). Corresponding mRNA levels of IRF4 and PENK were significantly downregulated in tumor tissues, with PXDN showing a declining trend. Methylation of IRF4 and PXDN negatively correlated with their expression (P < 0.0001). A 41-CpG-site random forest classifier targeting IRF4, PENK, and PXND (BladderCando model) demonstrated excellent performance in distinguishing BC from non-BC individuals (AUC = 0.9783, F1 = 0.9773), outperforming urine cytology for low-grade BC detection. Co-expression and enrichment analyses identified DCN as a central hub gene, primarily linked to ECM functions. High expression of PXDN, IRF4, and DCN correlated with upregulated immune checkpoint genes and increased immune cell infiltration. Single-cell sequencing revealed PXDN in fibroblasts and endothelial cells, DCN in fibroblasts, and IRF4 in T cells, with expression patterns in urine mirroring tumor tissue profiles.ConclusionThis study establishes IRF4, PENK and PXDN methylation in urine as robust molecular signatures for BC detection, with machine-learning integration markedly enhancing diagnostic precision. Beyond early surveillance, these epigenetic alterations delineate tumor-microenvironment interactions that may inform future therapeutic strategies.",
+  "abstract_zh": "引言基于膀胱镜的膀胱癌（BC）诊断与监测仍具挑战性。本研究提出一种基于尿液的检测方法，通过PCR富集DNA甲基化信号，并应用机器学习模型，以实现成本效益高的早期检测。方法在一项医院前瞻性队列（2022年5月至2023年11月）中，纳入155名个体，BC经膀胱镜引导活检和组织病理学确诊。对尿液DNA进行靶向下一代测序，量化IRF4、PENK和PXDN内44个CpG位点的甲基化。基于这些特征训练的监督分类器区分肿瘤与非肿瘤尿液样本。围绕IRF4/PENK/PXDN的系统分析绘制了BC中的信号通路、蛋白质相互作用模块和肿瘤微环境背景。结果利用155份尿液样本（68例BC，87例非BC）及TCGA-BLCA中的甲基化和转录表达数据，我们发现BC中IRF4、PENK和PXDN的甲基化显著增加（P < 0.0001）。肿瘤组织中IRF4和PENK的相应mRNA水平显著下调，PXDN呈下降趋势。IRF4和PXDN的甲基化与其表达呈负相关（P < 0.0001）。一个针对IRF4、PENK和PXDN的41-CpG位点随机森林分类器（BladderCando模型）在区分BC与非BC个体方面表现出优异性能（AUC = 0.9783，F1 = 0.9773），在低级别BC检测中优于尿液细胞学检查。共表达和富集分析确定DCN为核心枢纽基因，主要与细胞外基质（ECM）功能相关。PXDN、IRF4和DCN的高表达与免疫检查点基因上调和免疫细胞浸润增加相关。单细胞测序揭示PXDN在成纤维细胞和内皮细胞中表达，DCN在成纤维细胞中表达，IRF4在T细胞中表达，且尿液中的表达模式与肿瘤组织谱一致。结论本研究确立尿液中IRF4、PENK和PXDN甲基化作为BC检测的稳健分子特征，机器学习整合显著提升诊断精度。除早期监测外，这些表观遗传改变描绘了肿瘤-微环境相互作用，可能为未来治疗策略提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42276585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42276585/",
+  "paper_page_path": "papers/pubmed/42276585/index.html"
+}

@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "42066940",
+    "doi": "10.1016/j.ydbio.2026.04.013",
+    "title": "Stage-dependent redistribution of protein-protein interaction propensity in canonical Wnt/beta-catenin signaling."
+  },
+  "content": {
+    "abstract": "Embryonic development relies on precise temporal regulation of signaling pathways, yet most computational analyses of protein-protein interactions treat signaling events as static and time-invariant. Here, we present a time-resolved, ensemble-based docking framework to examine stage-dependent patterns in relative interaction propensity within the canonical Wnt/beta-catenin signaling pathway. Core pathway interactions spanning extracellular, membrane-associated, cytoplasmic, and regulatory components were analyzed using conformational ensembles generated without molecular dynamics simulations. To integrate structural variability with developmental context, we defined a Stage-Weighted Interaction Score (SWIS), which combines ensemble docking-derived structural compatibility, pose convergence, and stage-specific relevance weighting into a normalized comparative metric. SWIS is designed for relative evaluation of interaction features across stages and does not represent binding affinity, interaction stability, or kinetic properties. Application of this framework revealed stage-dependent differences in relative interaction propensity across early, mid, and late signaling phases. Receptor-proximal interactions exhibited higher composite scores during early stages, whereas intracellular adaptor and effector interactions showed increased relative prominence during intermediate stages. Late-stage analysis indicated reduced composite scores across the network. Network-level analysis further revealed stage-dependent redistribution of interaction features under context-specific weighting, rather than persistence of a fixed interaction architecture. These patterns reflect context-weighted redistribution of docking-derived interaction features rather than direct changes in intrinsic biochemical interaction stability. Together, this framework provides a scalable computational approach for comparative analysis of temporally contextualized signaling interactions and generates testable hypotheses regarding the temporal organization of developmental signaling networks.",
+    "keywords": [
+      "Computational developmental biology",
+      "Embryonic development",
+      "Ensemble docking",
+      "Protein-protein interaction",
+      "Signaling dynamics",
+      "Wnt/beta-catenin signaling"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Wnt Signaling Pathway/physiology",
+      "*beta Catenin/metabolism",
+      "Protein Binding",
+      "*Embryonic Development/physiology",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abdullah, Mishel",
+        "Jayadevan, K",
+        "Therayil, Amalkrishnan",
+        "Faiza, Alhan",
+        "Kumaraguruparan, Nivetha",
+        "Kokulakrishna, R"
+      ],
+      "short_names": [
+        "Abdullah M",
+        "Jayadevan K",
+        "Therayil A",
+        "Faiza A",
+        "Kumaraguruparan N",
+        "Kokulakrishna R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India. Electronic address: mishelabdullahh@gmail.com.",
+        "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India.",
+        "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India.",
+        "Department of Biochemistry, PSG College of Arts and Science, Coimbatore, Tamil Nadu, India.",
+        "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India.",
+        "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abdullah, Mishel",
+        "short_name": "Abdullah M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India. Electronic address: mishelabdullahh@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Jayadevan, K",
+        "short_name": "Jayadevan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Therayil, Amalkrishnan",
+        "short_name": "Therayil A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Faiza, Alhan",
+        "short_name": "Faiza A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, PSG College of Arts and Science, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Kumaraguruparan, Nivetha",
+        "short_name": "Kumaraguruparan N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Kokulakrishna, R",
+        "short_name": "Kokulakrishna R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Developmental biology"
+    ],
+    "journal_abbrev": [
+      "Dev Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/02 00:33",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42066940",
+      "42105247",
+      "25793621",
+      "27427963",
+      "27484798",
+      "21956839",
+      "22550229",
+      "28920469",
+      "38349554",
+      "25299576",
+      "23533179",
+      "41940564",
+      "24047892",
+      "25157132",
+      "21493728",
+      "40254588",
+      "16126938",
+      "38334393",
+      "39385148",
+      "16543246",
+      "42129940",
+      "37811743",
+      "28697798",
+      "26110841",
+      "29432739",
+      "41242518",
+      "28077724",
+      "28223363",
+      "42061088",
+      "31189665",
+      "28143772",
+      "30814372",
+      "28095618",
+      "22846383",
+      "25753001",
+      "24736394",
+      "25482987",
+      "41738866",
+      "16936075",
+      "32919095",
+      "30284608",
+      "38240094",
+      "26833564",
+      "24073846",
+      "32283254",
+      "21270710",
+      "19655378",
+      "31613700",
+      "22573616",
+      "21176145",
+      "16602827",
+      "25538040",
+      "23022962",
+      "23743195",
+      "42183217",
+      "22771246",
+      "26247612",
+      "25957463",
+      "31865530",
+      "22290330",
+      "33673357",
+      "26552705",
+      "28927523",
+      "29747501",
+      "29449169",
+      "35033019",
+      "34195802",
+      "26643252",
+      "41824874",
+      "40676786",
+      "37075045",
+      "22393786",
+      "33284517",
+      "25996495",
+      "22128170",
+      "38948275",
+      "33605517",
+      "33408116",
+      "24105937",
+      "39337493",
+      "41168860",
+      "32755633",
+      "30297426",
+      "27578179",
+      "42190771",
+      "33155881",
+      "12183362",
+      "24166495",
+      "21437251",
+      "18296023",
+      "23505158",
+      "19581931",
+      "40343989",
+      "30361437",
+      "38222447",
+      "28241021",
+      "22427932",
+      "25460002",
+      "41757775",
+      "31075235"
+    ],
+    "review": [
+      "42066940",
+      "22550229",
+      "28920469",
+      "38349554",
+      "41940564",
+      "16126938",
+      "30814372",
+      "28095618",
+      "19655378",
+      "31613700",
+      "33673357",
+      "28927523",
+      "29449169",
+      "33605517"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0012-1606(26)00094-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

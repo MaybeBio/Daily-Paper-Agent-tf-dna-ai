@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "35885909",
+    "doi": "10.3390/genes13071126",
+    "title": "PromoterLCNN: A Light CNN-Based Promoter Prediction and Classification Model."
+  },
+  "content": {
+    "abstract": "Promoter identification is a fundamental step in understanding bacterial gene regulation mechanisms. However, accurate and fast classification of bacterial promoters continues to be challenging. New methods based on deep convolutional networks have been applied to identify and classify bacterial promoters recognized by sigma (sigma) factors and RNA polymerase subunits which increase affinity to specific DNA sequences to modulate transcription and respond to nutritional or environmental changes. This work presents a new multiclass promoter prediction model by using convolutional neural networks (CNNs), denoted as PromoterLCNN, which classifies Escherichia coli promoters into subclasses sigma70, sigma24, sigma32, sigma38, sigma28, and sigma54. We present a light, fast, and simple two-stage multiclass CNN architecture for promoter identification and classification. Training and testing were performed on a benchmark dataset, part of RegulonDB. Comparative performance of PromoterLCNN against other CNN-based classifiers using four parameters (Acc, Sn, Sp, MCC) resulted in similar or better performance than those that commonly use cascade architecture, reducing time by approximately 30-90% for training, prediction, and hyperparameter optimization without compromising classification quality.",
+    "keywords": [
+      "PromoterLCNN",
+      "bacterial promoters",
+      "bioinformatics",
+      "convolutional neural networks",
+      "deep learning"
+    ],
+    "mesh_terms": [
+      "*DNA-Directed RNA Polymerases/genetics",
+      "Escherichia coli/genetics/metabolism",
+      "Gene Expression Regulation, Bacterial",
+      "Promoter Regions, Genetic",
+      "*Sigma Factor/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hernandez, Daryl",
+        "Jara, Nicolas",
+        "Araya, Mauricio",
+        "Duran, Roberto E",
+        "Buil-Aranda, Carlos"
+      ],
+      "short_names": [
+        "Hernandez D",
+        "Jara N",
+        "Araya M",
+        "Duran RE",
+        "Buil-Aranda C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2495-8929",
+        "ORCID: 0000-0003-3472-4130",
+        "ORCID: 0000-0003-0077-9483"
+      ],
+      "affiliations": [
+        "Department of Electronics Engineering, Universidad Tecnica Federico Santa Maria, Valparaiso 2390123, Chile.",
+        "Department of Electronics Engineering, Universidad Tecnica Federico Santa Maria, Valparaiso 2390123, Chile.",
+        "Department of Electronics Engineering, Universidad Tecnica Federico Santa Maria, Valparaiso 2390123, Chile.",
+        "Laboratorio de Microbiologia Molecular y Biotecnologia Ambiental, Departamento de Quimica & Centro de Biotecnologia Daniel Alkalay Lowitt, Universidad Tecnica Federico Santa Maria, Valparaiso 2390123, Chile.",
+        "Department of Informatics Engineering, Universidad Tecnica Federico Santa Maria, Valparaiso 2390123, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hernández, Daryl",
+        "short_name": "Hernández D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics Engineering, Universidad Técnica Federico Santa María, Valparaiso 2390123, Chile."
+        ]
+      },
+      {
+        "full_name": "Jara, Nicolás",
+        "short_name": "Jara N",
+        "identifiers": [
+          "0000-0003-2495-8929"
+        ],
+        "affiliations": [
+          "Department of Electronics Engineering, Universidad Técnica Federico Santa María, Valparaiso 2390123, Chile."
+        ]
+      },
+      {
+        "full_name": "Araya, Mauricio",
+        "short_name": "Araya M",
+        "identifiers": [
+          "0000-0003-3472-4130"
+        ],
+        "affiliations": [
+          "Department of Electronics Engineering, Universidad Técnica Federico Santa María, Valparaiso 2390123, Chile."
+        ]
+      },
+      {
+        "full_name": "Durán, Roberto E",
+        "short_name": "Durán RE",
+        "identifiers": [
+          "0000-0003-0077-9483"
+        ],
+        "affiliations": [
+          "Laboratorio de Microbiología Molecular y Biotecnología Ambiental, Departamento de Química & Centro de Biotecnología Daniel Alkalay Lowitt, Universidad Técnica Federico Santa María, Valparaiso 2390123, Chile."
+        ]
+      },
+      {
+        "full_name": "Buil-Aranda, Carlos",
+        "short_name": "Buil-Aranda C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics Engineering, Universidad Técnica Federico Santa María, Valparaiso 2390123, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Jun 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/28 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "41083998",
+      "40152247",
+      "39223236",
+      "36980170",
+      "36452927"
+    ],
+    "refs": [
+      "33371507",
+      "32843538",
+      "32614400",
+      "32232532",
+      "31119812",
+      "31024615",
+      "30649179",
+      "30395280",
+      "30187132",
+      "29745856",
+      "29409441",
+      "29361130",
+      "28624191",
+      "28158264",
+      "26843427",
+      "26527724",
+      "23986538",
+      "21477781",
+      "21168420",
+      "18536650",
+      "16806065",
+      "16109747",
+      "15612932",
+      "12907708",
+      "9570960"
+    ],
+    "similar": [
+      "35885909",
+      "33371507",
+      "36980170",
+      "21827769",
+      "28666008",
+      "16629675",
+      "9209042",
+      "16230361",
+      "8990305",
+      "10049384",
+      "35065417",
+      "16166539",
+      "14529615",
+      "32614400",
+      "9006056",
+      "25803493",
+      "17456470",
+      "28158264",
+      "10368152",
+      "30458580",
+      "16285918",
+      "21195716",
+      "38176073",
+      "16788165",
+      "15465042",
+      "16892065",
+      "9927430",
+      "30843055",
+      "20595001",
+      "10439406",
+      "14630944",
+      "28968797",
+      "9603877",
+      "33573428",
+      "19076234",
+      "17268549",
+      "9275163",
+      "11260476",
+      "25845539",
+      "12235394",
+      "18208528",
+      "9045842",
+      "22605342",
+      "11397080",
+      "21396442",
+      "9233812",
+      "8475100",
+      "27452766",
+      "15882415",
+      "17012380",
+      "12455702",
+      "33568644",
+      "15357303",
+      "10524235",
+      "21911499",
+      "24172230",
+      "11703665",
+      "9890989",
+      "22465792",
+      "9544701",
+      "9489676",
+      "20952386",
+      "19538446",
+      "26365052",
+      "18331469",
+      "24603758",
+      "39258538",
+      "16420370",
+      "10648550",
+      "18786144",
+      "15761057",
+      "24461193",
+      "12540296",
+      "9791185",
+      "11311395",
+      "17089148",
+      "15881404",
+      "9341173",
+      "14702414",
+      "10792721",
+      "16204188",
+      "16601684",
+      "18248429",
+      "29388765",
+      "19538447",
+      "36598485",
+      "23028780",
+      "11292807",
+      "18312277",
+      "29126750",
+      "12527294",
+      "15231786",
+      "10572130",
+      "8866483",
+      "28251873",
+      "37238608",
+      "11251833",
+      "21316374",
+      "9767572",
+      "27694198"
+    ],
+    "review": [
+      "35885909",
+      "16788165",
+      "12455702"
+    ],
+    "pmc": [
+      "9325283"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13071126",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35885909/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35885909",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

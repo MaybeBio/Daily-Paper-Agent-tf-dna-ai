@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40421012",
+    "doi": "10.3389/fimmu.2025.1533246",
+    "title": "Exploring shared pathogenic mechanisms and biomarkers in hepatic fibrosis and inflammatory bowel disease through bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The coexistence of hepatic fibrosis (HF) and inflammatory bowel disease (IBD) represents a significant clinical concern due to their poorly characterized shared pathogenic mechanisms. Current limitations in identifying common biomarkers for comorbid cases impede early dual diagnosis and therapeutic interventions. METHODS: Differentially expressed genes (DEGs) were screened, followed by Weighted Gene Co-expression Network Analysis (WGCNA) to identify disease-associated modules. The key diagnostic biomarkers were determined via a protein-protein interaction (PPI) network combined with two machine learning algorithms. The logistic regression model was subsequently developed based on these key genes. Immune cell infiltration profiling of both diseases was assessed via the CIBERSORT algorithm. The construction of genes-miRNAs and genes-TFs (Transcription Factors) regulatory networks were based on the NetworkAnalyst website. Potential drug-gene interactions were predicted utilizing the DSigDB database. The expression and distribution of these genes were validated through single-cell sequencing analysis. RESULTS: A sum of 119 up-regulated genes and 17 down-regulated genes were screened, which were enriched in categories associated with immune cell infiltration and chemotaxis, cytokine regulation, metabolic processes, enzymatic activity, and extracellular matrix deposition, based on enrichment analysis. WGCNA revealed four disease-associated gene modules. Four shared diagnostic genes for both diseases were screened, including MMP2, COL1A2, STAT1, and CXCL1. ROC curve analysis confirmed robust diagnostic performance as AUC > 0.7 for individual genes and AUC > 0.85 for combined model. M1 macrophages were significantly increased in both pathologies of diseases. A total of 462 drugs were predicted targeting these biomarkers in the DSigDB database. The four key diagnostic gene expression patterns across diverse cell subpopulations were visualized by single-cell sequencing analysis. CONCLUSION: MMP2, COL1A2, CXCL1, and STAT1 were identified as shared biomarkers for IBD and HF, providing a molecular basis for early diagnosis and precision medicine approaches. It elucidated the similarities between HF and IBD in terms of immunity, metabolism, and fibrosis.",
+    "keywords": [
+      "WGCNA",
+      "biomarkers",
+      "hepatic fibrosis",
+      "inflammatory bowel disease",
+      "machine learning algorithms"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Inflammatory Bowel Diseases/genetics/diagnosis/metabolism/immunology",
+      "*Liver Cirrhosis/genetics/diagnosis/metabolism/immunology",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Matrix Metalloproteinase 2/genetics",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shangkun",
+        "Li, Haoyu",
+        "Qi, Mingran"
+      ],
+      "short_names": [
+        "Li S",
+        "Li H",
+        "Qi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Medicine, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Clinical Medicine, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Pathogen Biology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shangkun",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medicine, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haoyu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medicine, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Mingran",
+        "short_name": "Qi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathogen Biology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/27 06:27",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "41010839",
+      "40586938"
+    ],
+    "refs": [
+      "40082445",
+      "40080840",
+      "40079012",
+      "40073158",
+      "40057620",
+      "40055493",
+      "40027573",
+      "39995661",
+      "39983746",
+      "39965387",
+      "39962553",
+      "39954670",
+      "39680685",
+      "39447590",
+      "39422353",
+      "38992449",
+      "38980940",
+      "38823393",
+      "38546434",
+      "38506097",
+      "38437854",
+      "38233198",
+      "38217097",
+      "38199515",
+      "37624387",
+      "37573077",
+      "37400694",
+      "36776395",
+      "36591260",
+      "35603998",
+      "35152240",
+      "35124272",
+      "35054978",
+      "34970275",
+      "34876680",
+      "34650994",
+      "34593670",
+      "34321842",
+      "33128017",
+      "32987855",
+      "32811965",
+      "31874267",
+      "31746414",
+      "31238509",
+      "31189971",
+      "30995511",
+      "30446388",
+      "30366940",
+      "29642635",
+      "29277560",
+      "28940700",
+      "28596109",
+      "28288141",
+      "26033752",
+      "25829404",
+      "24374295",
+      "14623400",
+      "12601352",
+      "11495082"
+    ],
+    "similar": [
+      "40421012",
+      "38660311",
+      "40406126",
+      "38774864",
+      "39142001",
+      "37740761",
+      "39712025",
+      "40093802",
+      "38863714",
+      "40328901",
+      "38736878",
+      "39875572",
+      "39086489",
+      "38899746",
+      "36049413",
+      "39375405",
+      "39351239",
+      "38802459",
+      "40374840",
+      "38451044",
+      "40078458",
+      "40093012",
+      "34218797",
+      "38987624",
+      "39845878",
+      "39738398",
+      "39695788",
+      "40097519",
+      "39509434",
+      "39139563",
+      "39559355",
+      "39993996",
+      "39586719",
+      "40129981",
+      "39080525",
+      "39351221",
+      "39936105",
+      "40360670",
+      "32943114",
+      "40273141",
+      "39749331",
+      "40340571",
+      "36341343",
+      "36643579",
+      "37351719",
+      "39396400",
+      "39188714",
+      "40428318",
+      "40046872",
+      "39062507",
+      "38319987",
+      "39894009",
+      "40016711",
+      "36341378",
+      "38115636",
+      "39079987",
+      "40304766",
+      "37122694",
+      "38912048",
+      "40362669",
+      "39427047",
+      "40245021",
+      "39496786",
+      "38815767",
+      "39501335",
+      "39234248",
+      "39909085",
+      "40383755",
+      "39341952",
+      "39840076",
+      "39917301",
+      "39953769",
+      "39920860",
+      "39050860",
+      "38656659",
+      "39923303",
+      "40332792",
+      "40442227",
+      "39991151",
+      "40406620",
+      "40055592",
+      "38755717",
+      "35749386",
+      "38690269",
+      "36823662",
+      "35769467",
+      "39870856",
+      "39853851",
+      "38703565",
+      "39735537",
+      "39833772",
+      "39475676",
+      "39069636",
+      "40435035",
+      "37264340",
+      "38686376",
+      "39497821",
+      "39088353",
+      "40313958",
+      "39893753"
+    ],
+    "review": [
+      "40421012"
+    ],
+    "pmc": [
+      "12104268"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40421012/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1533246",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

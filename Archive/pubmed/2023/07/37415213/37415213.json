@@ -1,0 +1,541 @@
+{
+  "identity": {
+    "pmid": "37415213",
+    "doi": "10.1186/s13072-023-00504-8",
+    "title": "Alterations in the hepatocyte epigenetic landscape in steatosis."
+  },
+  "content": {
+    "abstract": "Fatty liver disease or the accumulation of fat in the liver, has been reported to affect the global population. This comes with an increased risk for the development of fibrosis, cirrhosis, and hepatocellular carcinoma. Yet, little is known about the effects of a diet containing high fat and alcohol towards epigenetic aging, with respect to changes in transcriptional and epigenomic profiles. In this study, we took up a multi-omics approach and integrated gene expression, methylation signals, and chromatin signals to study the epigenomic effects of a high-fat and alcohol-containing diet on mouse hepatocytes. We identified four relevant gene network clusters that were associated with relevant pathways that promote steatosis. Using a machine learning approach, we predict specific transcription factors that might be responsible to modulate the functionally relevant clusters. Finally, we discover four additional CpG loci and validate aging-related differential CpG methylation. Differential CpG methylation linked to aging showed minimal overlap with altered methylation in steatosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Epigenomics",
+      "*Hepatocytes/metabolism",
+      "Liver/metabolism",
+      "Ethanol",
+      "Epigenesis, Genetic",
+      "DNA Methylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maji, Ranjan Kumar",
+        "Czepukojc, Beate",
+        "Scherer, Michael",
+        "Tierling, Sascha",
+        "Cadenas, Cristina",
+        "Gianmoena, Kathrin",
+        "Gasparoni, Nina",
+        "Nordstrom, Karl",
+        "Gasparoni, Gilles",
+        "Laggai, Stephan",
+        "Yang, Xinyi",
+        "Sinha, Anupam",
+        "Ebert, Peter",
+        "Falk-Paulsen, Maren",
+        "Kinkley, Sarah",
+        "Hoppstadter, Jessica",
+        "Chung, Ho-Ryun",
+        "Rosenstiel, Philip",
+        "Hengstler, Jan G",
+        "Walter, Jorn",
+        "Schulz, Marcel H",
+        "Kessler, Sonja M",
+        "Kiemer, Alexandra K"
+      ],
+      "short_names": [
+        "Maji RK",
+        "Czepukojc B",
+        "Scherer M",
+        "Tierling S",
+        "Cadenas C",
+        "Gianmoena K",
+        "Gasparoni N",
+        "Nordstrom K",
+        "Gasparoni G",
+        "Laggai S",
+        "Yang X",
+        "Sinha A",
+        "Ebert P",
+        "Falk-Paulsen M",
+        "Kinkley S",
+        "Hoppstadter J",
+        "Chung HR",
+        "Rosenstiel P",
+        "Hengstler JG",
+        "Walter J",
+        "Schulz MH",
+        "Kessler SM",
+        "Kiemer AK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Cardiovascular Regeneration, Goethe-University, 60590, Frankfurt, Germany.",
+        "German Centre for Cardiovascular Research (DZHK), Partner Site Rhine-Main, 60590, Frankfurt, Germany.",
+        "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrucken, Germany.",
+        "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), 08003, Barcelona, Spain.",
+        "Department of Genetics, Saarland University, 66123, Saarbrucken, Germany.",
+        "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany.",
+        "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany.",
+        "Department of Genetics, Saarland University, 66123, Saarbrucken, Germany.",
+        "Department of Genetics, Saarland University, 66123, Saarbrucken, Germany.",
+        "Department of Genetics, Saarland University, 66123, Saarbrucken, Germany.",
+        "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrucken, Germany.",
+        "Institute of Medical Bioinformatics and Biostatistics, Philipps University of Marburg, 35032, Marburg, Germany.",
+        "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany.",
+        "Core Unit Bioinformatics, Medical Faculty, Heinrich Heine University, 40225, Dusseldorf, Germany.",
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, 66123, Saarbrucken, Germany.",
+        "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany.",
+        "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, 14195, Berlin, Germany.",
+        "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrucken, Germany.",
+        "Institute of Medical Bioinformatics and Biostatistics, Philipps University of Marburg, 35032, Marburg, Germany.",
+        "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany.",
+        "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany.",
+        "Department of Genetics, Saarland University, 66123, Saarbrucken, Germany.",
+        "Institute for Cardiovascular Regeneration, Goethe-University, 60590, Frankfurt, Germany. marcel.schulz@em.uni-frankfurt.de.",
+        "German Centre for Cardiovascular Research (DZHK), Partner Site Rhine-Main, 60590, Frankfurt, Germany. marcel.schulz@em.uni-frankfurt.de.",
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, 66123, Saarbrucken, Germany. marcel.schulz@em.uni-frankfurt.de.",
+        "Excellence Cluster on Multimodal Computing and Interaction, Saarland University, 66123, Saarbrucken, Germany. marcel.schulz@em.uni-frankfurt.de.",
+        "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrucken, Germany. sonja.kessler@pharmazie.uni-halle.de.",
+        "Institute of Pharmacy, Experimental Pharmacology for Natural Sciences, Martin Luther University Halle-Wittenberg, Halle, Germany. sonja.kessler@pharmazie.uni-halle.de.",
+        "Halle Research Centre for Drug Therapy (HRCDT), Halle, Germany. sonja.kessler@pharmazie.uni-halle.de.",
+        "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrucken, Germany. pharm.bio.kiemer@mx.uni-saarland.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maji, Ranjan Kumar",
+        "short_name": "Maji RK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Regeneration, Goethe-University, 60590, Frankfurt, Germany.",
+          "German Centre for Cardiovascular Research (DZHK), Partner Site Rhine-Main, 60590, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Czepukojc, Beate",
+        "short_name": "Czepukojc B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Scherer, Michael",
+        "short_name": "Scherer M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), 08003, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tierling, Sascha",
+        "short_name": "Tierling S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Cadenas, Cristina",
+        "short_name": "Cadenas C",
+        "identifiers": [],
+        "affiliations": [
+          "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Gianmoena, Kathrin",
+        "short_name": "Gianmoena K",
+        "identifiers": [],
+        "affiliations": [
+          "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Gasparoni, Nina",
+        "short_name": "Gasparoni N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Nordström, Karl",
+        "short_name": "Nordström K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Gasparoni, Gilles",
+        "short_name": "Gasparoni G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Laggai, Stephan",
+        "short_name": "Laggai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Yang, Xinyi",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Bioinformatics and Biostatistics, Philipps University of Marburg, 35032, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sinha, Anupam",
+        "short_name": "Sinha A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany."
+        ]
+      },
+      {
+        "full_name": "Ebert, Peter",
+        "short_name": "Ebert P",
+        "identifiers": [],
+        "affiliations": [
+          "Core Unit Bioinformatics, Medical Faculty, Heinrich Heine University, 40225, Düsseldorf, Germany.",
+          "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Falk-Paulsen, Maren",
+        "short_name": "Falk-Paulsen M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany."
+        ]
+      },
+      {
+        "full_name": "Kinkley, Sarah",
+        "short_name": "Kinkley S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, 14195, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Hoppstädter, Jessica",
+        "short_name": "Hoppstädter J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Chung, Ho-Ryun",
+        "short_name": "Chung HR",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Bioinformatics and Biostatistics, Philipps University of Marburg, 35032, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rosenstiel, Philip",
+        "short_name": "Rosenstiel P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105, Kiel, Germany."
+        ]
+      },
+      {
+        "full_name": "Hengstler, Jan G",
+        "short_name": "Hengstler JG",
+        "identifiers": [],
+        "affiliations": [
+          "IfADo: Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Walter, Jörn",
+        "short_name": "Walter J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Saarland University, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Schulz, Marcel H",
+        "short_name": "Schulz MH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Regeneration, Goethe-University, 60590, Frankfurt, Germany. marcel.schulz@em.uni-frankfurt.de.",
+          "German Centre for Cardiovascular Research (DZHK), Partner Site Rhine-Main, 60590, Frankfurt, Germany. marcel.schulz@em.uni-frankfurt.de.",
+          "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, 66123, Saarbrücken, Germany. marcel.schulz@em.uni-frankfurt.de.",
+          "Excellence Cluster on Multimodal Computing and Interaction, Saarland University, 66123, Saarbrücken, Germany. marcel.schulz@em.uni-frankfurt.de."
+        ]
+      },
+      {
+        "full_name": "Kessler, Sonja M",
+        "short_name": "Kessler SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrücken, Germany. sonja.kessler@pharmazie.uni-halle.de.",
+          "Institute of Pharmacy, Experimental Pharmacology for Natural Sciences, Martin Luther University Halle-Wittenberg, Halle, Germany. sonja.kessler@pharmazie.uni-halle.de.",
+          "Halle Research Centre for Drug Therapy (HRCDT), Halle, Germany. sonja.kessler@pharmazie.uni-halle.de."
+        ]
+      },
+      {
+        "full_name": "Kiemer, Alexandra K",
+        "short_name": "Kiemer AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Pharmaceutical Biology, Saarland University, 66123, Saarbrücken, Germany. pharm.bio.kiemer@mx.uni-saarland.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Epigenetics & chromatin"
+    ],
+    "journal_abbrev": [
+      "Epigenetics Chromatin"
+    ],
+    "pub_date": "2023 Jul 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/07 01:05",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "42512023",
+      "42372295",
+      "40901607",
+      "40666191"
+    ],
+    "refs": [
+      "37106731",
+      "35796003",
+      "35318125",
+      "35187693",
+      "35087844",
+      "35008682",
+      "34433051",
+      "34237252",
+      "33437892",
+      "33270111",
+      "33232443",
+      "32780887",
+      "32330603",
+      "32211026",
+      "32044314",
+      "31905170",
+      "31462971",
+      "31066453",
+      "30871603",
+      "30476243",
+      "30304373",
+      "29728363",
+      "29367468",
+      "29298863",
+      "29132537",
+      "29120462",
+      "28751722",
+      "28399939",
+      "28351423",
+      "28214827",
+      "27911095",
+      "27899623",
+      "27752144",
+      "27577682",
+      "26977391",
+      "26704968",
+      "26531826",
+      "26418287",
+      "25859289",
+      "25697820",
+      "25693563",
+      "25605792",
+      "25457206",
+      "25313081",
+      "25199790",
+      "25123282",
+      "24605012",
+      "24335146",
+      "23974980",
+      "23916847",
+      "23815295",
+      "23532958",
+      "23281079",
+      "23175603",
+      "23081825",
+      "23034176",
+      "22457517",
+      "22170606",
+      "21918648",
+      "21697630",
+      "20488932",
+      "20388071",
+      "19910308",
+      "16309881",
+      "16081763",
+      "12750520"
+    ],
+    "similar": [
+      "37415213",
+      "37294468",
+      "24084163",
+      "40564961",
+      "25526730",
+      "40347138",
+      "24427299",
+      "23387924",
+      "23950928",
+      "26091484",
+      "28377872",
+      "36718062",
+      "31892367",
+      "34072832",
+      "19680444",
+      "40646491",
+      "27858497",
+      "31493228",
+      "38830566",
+      "27153756",
+      "22905112",
+      "39969482",
+      "29023917",
+      "26099526",
+      "33859751",
+      "32790008",
+      "30297808",
+      "32255732",
+      "39125617",
+      "28220523",
+      "41296577",
+      "29907088",
+      "28399939",
+      "38482965",
+      "35199155",
+      "31295533",
+      "23076357",
+      "33317634",
+      "28941686",
+      "35739588",
+      "33684551",
+      "30887425",
+      "39982030",
+      "21633650",
+      "28105934",
+      "21455306",
+      "35149852",
+      "32029710",
+      "30419258",
+      "33957080",
+      "32580141",
+      "22841474",
+      "28987423",
+      "24242335",
+      "34884879",
+      "39773540",
+      "36253871",
+      "37803336",
+      "28816587",
+      "27911095",
+      "29518473",
+      "28277977",
+      "35255955",
+      "29158183",
+      "31629814",
+      "26199400",
+      "28351423",
+      "26508642",
+      "29356846",
+      "34518533",
+      "40616903",
+      "28351383",
+      "36420698",
+      "36127735",
+      "33199496",
+      "33535619",
+      "34356097",
+      "20098704",
+      "27824486",
+      "23821313",
+      "23130832",
+      "39072393",
+      "29087470",
+      "31906859",
+      "19450891",
+      "32205176",
+      "40760448",
+      "23722552",
+      "30933372",
+      "41274433",
+      "28433423",
+      "31654770",
+      "38795327",
+      "36181835",
+      "24521667",
+      "28152499",
+      "40684321",
+      "33164632",
+      "35023833",
+      "31035542"
+    ],
+    "review": [
+      "37415213",
+      "37294468",
+      "31493228",
+      "38482965",
+      "35199155",
+      "33684551",
+      "30887425",
+      "21633650",
+      "30419258",
+      "23130832"
+    ],
+    "pmc": [
+      "10324225"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-023-00504-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37415213/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37415213",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

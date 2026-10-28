@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "37013999",
+    "doi": "10.1080/07391102.2023.2196692",
+    "title": "Anti-inflammatory potential of selective small compounds by targeting TNF-alpha & NF-kB signaling: a comprehensive molecular docking and simulation study."
+  },
+  "content": {
+    "abstract": "Tumor necrosis factor alpha (TNF-alpha) is the major cause of inflammation in autoimmune diseases like rheumatoid arthritis (RA). It's mechanisms of signal transduction through nuclear factor kappa B (NF-kB) pathway via small molecules such as metabolite crosstalk are still elusive. In this study, we have targeted TNF-alpha and NF-kB through metabolites of RA, to inhibit TNF-alpha activity and deter NF-kB signaling pathways, thereby mitigating the disease severity of RA. TNF-alpha and NF-kB structure was obtained from PDB database and metabolites of RA were selected from literature survey. In-silico studies were carried out by molecular docking using AutoDock Vina software and further, known TNF-alpha and NF-kB inhibitors were compared and revealed metabolite's capacity to targets the respective proteins. Most suitable metabolite was then validated by MD simulation to verify its efficiency against TNF-alpha. Total 56 known differential metabolites of RA were docked with TNF-alpha and NF-kB compared to their corresponding inhibitor compounds. Four metabolites such as Chenodeoxycholic acid, 2-Hydroxyestrone, 2-Hydroxyestradiol (2-OHE2), and 16-Hydroxyestradiol were identified as a common TNF-alpha inhibitor's having binding energies ranging from -8.3 to -8.6 kcal/mol, followed by docking with NF-kB. Further, 2-OHE2 was selected because of having binding energy -8.5 kcal/mol, found to inhibit inflammation and the effectiveness was validated by root mean square fluctuation, radius of gyration and molecular mechanics with generalized born and surface area solvation against TNF-alpha. Thus 2-OHE2, an estrogen metabolite was identified as the potential inhibitor, attenuated inflammatory activation and can be utilized as a therapeutic target to disseminate severity of RA.",
+    "keywords": [
+      "Rheumatoid arthritis (RA)",
+      "docking",
+      "inflammation",
+      "metabolites",
+      "simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-kappa B/metabolism",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "Molecular Docking Simulation",
+      "Signal Transduction",
+      "Anti-Inflammatory Agents/pharmacology",
+      "*Arthritis, Rheumatoid/metabolism",
+      "Inflammation/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Agnihotri, Prachi",
+        "Deka, Hemchandra",
+        "Chakraborty, Debolina",
+        "Monu",
+        "Saquib, Mohd",
+        "Kumar, Uma",
+        "Biswas, Sagarika"
+      ],
+      "short_names": [
+        "Agnihotri P",
+        "Deka H",
+        "Chakraborty D",
+        "Monu",
+        "Saquib M",
+        "Kumar U",
+        "Biswas S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2017-1670"
+      ],
+      "affiliations": [
+        "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Gauhati University Institute of Science and Technology, Guwahati University, Guwahati, India.",
+        "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "All India Institute of Medical Sciences, New Delhi, India.",
+        "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Agnihotri, Prachi",
+        "short_name": "Agnihotri P",
+        "identifiers": [],
+        "affiliations": [
+          "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Deka, Hemchandra",
+        "short_name": "Deka H",
+        "identifiers": [],
+        "affiliations": [
+          "Gauhati University Institute of Science and Technology, Guwahati University, Guwahati, India."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Debolina",
+        "short_name": "Chakraborty D",
+        "identifiers": [],
+        "affiliations": [
+          "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Monu",
+        "short_name": "Monu",
+        "identifiers": [],
+        "affiliations": [
+          "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Saquib, Mohd",
+        "short_name": "Saquib M",
+        "identifiers": [],
+        "affiliations": [
+          "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Uma",
+        "short_name": "Kumar U",
+        "identifiers": [],
+        "affiliations": [
+          "All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Sagarika",
+        "short_name": "Biswas S",
+        "identifiers": [
+          "0000-0002-2017-1670"
+        ],
+        "affiliations": [
+          "Council of Scientific & Industrial Research (CSIR)-Institute of Genomics and Integrative Biology, Delhi, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/05 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "41726729",
+      "41718394",
+      "41430065",
+      "40982617",
+      "40854650",
+      "40285969",
+      "39987541",
+      "38914662",
+      "38539828"
+    ],
+    "refs": [],
+    "similar": [
+      "37013999",
+      "35807562",
+      "34343646",
+      "30047845",
+      "21679760",
+      "35147481",
+      "36718919",
+      "37075579",
+      "39520962",
+      "26030114",
+      "34580236",
+      "27936399",
+      "38884873",
+      "31010320",
+      "39617708",
+      "34075738",
+      "36966850",
+      "17314215",
+      "39244174",
+      "39490433",
+      "15722350",
+      "29553845",
+      "39592056",
+      "25231984",
+      "21344384",
+      "39929399",
+      "36839242",
+      "34864624",
+      "38349589",
+      "30416388",
+      "39907970",
+      "37573821",
+      "30591403",
+      "38179736",
+      "38972211",
+      "39701711",
+      "36796743",
+      "39522840",
+      "38626647",
+      "32584515",
+      "27438468",
+      "35221674",
+      "33914205",
+      "27456070",
+      "37657026",
+      "35832651",
+      "37536000",
+      "33415454",
+      "39938176",
+      "39301019",
+      "31833613",
+      "38621926",
+      "35504091",
+      "35792272",
+      "37054525",
+      "35164343",
+      "31239367",
+      "34418899",
+      "36068294",
+      "37671851",
+      "38914662",
+      "33444723",
+      "40330488",
+      "35623305",
+      "10402163",
+      "35447407",
+      "33618295",
+      "25267105",
+      "35970313",
+      "40081428",
+      "32718263",
+      "36587880",
+      "35886440",
+      "40307269",
+      "40114577",
+      "26134265",
+      "24283517",
+      "38734936",
+      "22146575",
+      "36753375",
+      "24417898",
+      "35011304",
+      "32795901",
+      "38107658",
+      "38151179",
+      "12067756",
+      "39636801",
+      "16277680",
+      "35790443",
+      "37390648",
+      "31622746",
+      "32772027",
+      "26209362",
+      "16936264",
+      "27028940",
+      "23431370",
+      "26303122",
+      "26278073",
+      "40097661",
+      "33768402"
+    ],
+    "review": [
+      "37013999",
+      "39301019"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2196692?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2196692",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

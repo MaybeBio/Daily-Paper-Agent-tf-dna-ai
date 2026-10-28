@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "38248912",
+    "doi": "10.1142/S0219720023500282",
+    "title": "Predictive Recognition of DNA-binding Proteins Based on Pre-trained Language Model BERT."
+  },
+  "content": {
+    "abstract": "Identifying proteins is crucial for disease diagnosis and treatment. With the increase of known proteins, large-scale batch predictions are essential. However, traditional biological experiments being time-consuming and expensive are difficult to accomplish this task efficiently. Nevertheless, deep learning algorithms based on big data analysis have manifested potential in this aspect. In recent years, language representation models, especially BERT, have made significant advancements in natural language processing. In this paper, using three protein segmentation methods and three encoder numbers, nine BERT models with different sizes are constructed to predict whether known proteins are DNA-binding proteins or not. Furthermore, based on the concept of protein motifs, multi-scale convolutional networks are fused into the models to extract the local features of DNA-binding proteins. Finally, we find that the larger the number of encoders, the better the model predictions under the condition of considering each amino acid in the protein as a word. Our proposed algorithm achieves 81.88% sensitivity and 0.39 MCC value on the test set. Furthermore, it achieves 62.41% accuracy on the independent test set PDB2272. It is evident that our proposed method can be a tool to assist in the identification of DNA-binding proteins.",
+    "keywords": [
+      "DNA binding protein prediction",
+      "deep learning",
+      "pre-trained language models",
+      "protein sequence classification"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins",
+      "*Algorithms",
+      "Amino Acids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Yue",
+        "Pei, Yongzhen",
+        "Li, Changguo"
+      ],
+      "short_names": [
+        "Ma Y",
+        "Pei Y",
+        "Li C"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0233-1922",
+        "ORCID: 0000-0003-2604-7010",
+        "ORCID: 0000-0001-7998-0838"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Tiangong University, Tianjin, P. R. China.",
+        "School of Mathematical Sciences, Tiangong University, Tianjin, P. R. China.",
+        "Department of Basic Science, Army Military Transportation University, Tianjin, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Yue",
+        "short_name": "Ma Y",
+        "identifiers": [
+          "0009-0002-0233-1922"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Tiangong University, Tianjin, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pei, Yongzhen",
+        "short_name": "Pei Y",
+        "identifiers": [
+          "0000-0003-2604-7010"
+        ],
+        "affiliations": [
+          "School of Mathematical Sciences, Tiangong University, Tianjin, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Changguo",
+        "short_name": "Li C",
+        "identifiers": [
+          "0000-0001-7998-0838"
+        ],
+        "affiliations": [
+          "Department of Basic Science, Army Military Transportation University, Tianjin, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/22 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "40199311",
+      "39409810"
+    ],
+    "refs": [],
+    "similar": [
+      "38248912",
+      "34643684",
+      "38701417",
+      "33539511",
+      "39421632",
+      "33581474",
+      "33986655",
+      "36271394",
+      "35780100",
+      "39475725",
+      "34789238",
+      "33601085",
+      "34508974",
+      "31627032",
+      "35451969",
+      "34037687",
+      "38986796",
+      "35319481",
+      "40121399",
+      "39576667",
+      "36646842",
+      "38089911",
+      "34217007",
+      "34506554",
+      "34842531",
+      "37799340",
+      "32687985",
+      "39795988",
+      "40499132",
+      "34753481",
+      "31267738",
+      "39747934",
+      "35863177",
+      "34255697",
+      "37359330",
+      "35907966",
+      "32477646",
+      "35799294",
+      "39214282",
+      "39708499",
+      "39468180",
+      "39910649",
+      "39101121",
+      "36304324",
+      "33662804",
+      "40440586",
+      "39761555",
+      "40854226",
+      "41280851",
+      "38295474",
+      "41043140",
+      "38357904",
+      "36136096",
+      "38728811",
+      "38308955",
+      "34892183",
+      "40397945",
+      "22574904",
+      "40638775",
+      "35382811",
+      "39653625",
+      "35795761",
+      "36087888",
+      "40986623",
+      "38406833",
+      "41290782",
+      "38179735",
+      "35652477",
+      "34671408",
+      "37429512",
+      "35007754",
+      "34656612",
+      "31725778",
+      "38316843",
+      "38055840",
+      "32364514",
+      "32998724",
+      "33581833",
+      "35438145",
+      "36060139",
+      "32411695",
+      "36365883",
+      "37689906",
+      "41285097",
+      "34915158",
+      "35684778",
+      "40279645",
+      "40306096",
+      "37833517",
+      "38593480",
+      "37792444",
+      "34571539",
+      "40874819",
+      "30808287",
+      "40183298",
+      "35536634",
+      "40102719",
+      "39423226",
+      "35693256",
+      "36348654"
+    ],
+    "review": [
+      "38248912",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720023500282?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

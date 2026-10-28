@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to evidence presented, and alignment with Nature-style criteria. No assessment of literature completeness beyond what is cited in the text.
+- **Shared manuscript claim summary** The authors use microsecond-long molecular dynamics simulations to model the structural and dynamic consequences of arginine methylation (R83, R152, and both) on DNA polymerase β in complex with DNA. They report that methylation induces structural compaction, enhances protein–DNA hydrogen bonding, increases inter- and intra-domain correlations, and modulates allosteric communication pathways, offering a mechanistic explanation for experimentally observed increases in polymerase activity.
+- **Visible evidence base** MD simulation trajectories (1 μs per system), RMSD, RMSF, radius of gyration, hydrogen bond occupancy, principal component analysis, free energy landscapes, salt bridge analysis, cross-correlation (LMI) maps, graph network centrality analysis, perturbation response scanning. Figures cited: Fig 1, Fig 2, Fig 3, Fig 4, Fig 5, Fig 6; Tables: Table 1; Supplementary: Figs S1–S8, Table S1.
+- **Missing materials affecting confidence** No simulation convergence metrics beyond RMSD; no error estimates or replicate simulations; no force field parameters for the symmetric-dimethylarginine patch provided; no validation of the modeled methylated residue against experimental or quantum mechanical data; no raw trajectory data or analysis scripts; no experimental validation data; no details on how the "representative structures" for PRS were selected beyond a 10 ns interval.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question: how post-translational methylation of specific arginine residues in DNA polymerase β enhances its activity. The use of microsecond-scale MD simulations is appropriate and represents a step beyond typical nanosecond-scale studies. However, the study is purely computational and the claims of mechanistic insight are only partially supported by the presented analyses. Several technical aspects require clarification or additional analysis before the conclusions can be considered robust. The link between simulated structural changes and the experimentally observed functional enhancement remains largely correlative, and the manuscript would benefit from a more critical discussion of the limitations of the chosen approach.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, particularly base excision repair; computational biophysicists studying protein–DNA interactions and allosteric regulation; structural biologists interested in post-translational modifications and their dynamic consequences; and those studying the role of arginine methylation in enzyme regulation. The work may also be of interest to groups developing force field parameters for modified amino acids.
+- **Major strengths** The study addresses a specific, mechanistically important question with a clear hypothesis. The simulation length (1 μs) is commendable and allows for sampling of slow conformational motions. The use of multiple complementary analyses (RMSD, RMSF, PCA, FEL, salt bridges, LMI, network centrality, PRS) provides a multi-faceted view of the system. The comparison between single and double methylation mutants is informative. The authors acknowledge the limitations of MD simulations in the conclusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that methylation "enhances long-range correlations" and "modulates the information pathway" based on LMI and network analyses.
+  - **Evidence pointer** Section 4.2, Fig 4; Section 4.3, Fig 5
+  - **Concern** The LMI and network centrality analyses are presented as evidence for enhanced allosteric communication, but no statistical significance testing or error estimation is provided. It is unclear whether the observed differences between WT and methylated systems exceed the variability expected from a single 1 μs trajectory. The authors do not report whether the simulations were replicated or whether block averaging was used to estimate uncertainties.
+  - **Why it matters** Without error estimates, the reported differences in correlation and centrality could be within the noise of the simulation. This undermines the central claim that methylation specifically alters communication pathways.
+  - **Resolution test** Provide replicate simulations (at least 3 independent runs per system) or perform block averaging on the single trajectory to estimate standard errors. Report confidence intervals for the LMI and centrality differences. Alternatively, use a statistical test (e.g., bootstrapping) to show that the observed differences are significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors model methylated arginine using the "symmetric-dimethylarginine patch" and simulate the systems for 1 μs.
+  - **Evidence pointer** Section 2, Section 2.1
+  - **Concern** No details are provided on the force field parameters used for the symmetric-dimethylarginine residue. It is not stated whether these parameters were taken from the literature, derived by the authors, or validated. The CHARMM36 force field does not natively include parameters for this modified residue. The choice of parameters could significantly affect the simulation results, particularly the hydrogen bonding and salt bridge analyses.
+  - **Why it matters** If the parameters are not validated or are inaccurate, all subsequent structural and dynamic conclusions could be artifacts of the model rather than real physical behavior.
+  - **Resolution test** Provide the force field parameters as supplementary material, cite their source, and include a validation (e.g., comparison of the modified residue's geometry and interactions against quantum mechanical calculations or experimental data if available).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / claim support
+  - **Claim pointer** The authors state that their results "explain the underlying mechanism of the structural transition observed in DNA pol β" and that methylation "may upregulate the activity of pol β by inducing structural changes."
+  - **Evidence pointer** Abstract; Section 5 (Conclusion)
+  - **Concern** The manuscript does not establish a direct link between the observed structural changes and the experimentally measured increase in polymerase activity. The authors do not compute any free energy barriers for nucleotide incorporation, nor do they assess the catalytic competence of the active site in the methylated systems. The claim that the structural changes "explain" the functional enhancement is therefore overstated.
+  - **Why it matters** The functional relevance of the observed structural changes is the core motivation of the study. Without a quantitative link to activity (e.g., via free energy calculations or comparison with known catalytically competent states), the conclusions remain speculative.
+  - **Resolution test** Either temper the claims to be explicitly correlative, or add analyses that connect structure to function, such as measuring the distance between catalytic residues and the incoming nucleotide, computing the free energy profile for nucleotide incorporation, or comparing the simulated structures to known active/inactive conformations of pol β.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that "methylation causes DNA to move closer to the polymerase domain" based on increased hydrogen bond counts and reduced COM distances.
+  - **Evidence pointer** Section 3.1, Fig 2, Section 3.1 (COM distances)
+  - **Concern** The COM distances reported (e.g., 32.6 Å, 34.7 Å, 26.3 Å for methylated systems vs. 34.9–36.3 Å for WT) are large and likely represent distances between entire domains, not specific contacts. The interpretation that DNA "moves closer" is not supported by a per-residue or per-contact analysis. Additionally, the hydrogen bond counts are reported as averages without standard deviations, making it impossible to assess the significance of the differences.
+  - **Why it matters** The claim of enhanced DNA binding is central to the proposed mechanism. If the COM distance changes are not statistically robust or are dominated by a few contacts, the conclusion may be misleading.
+  - **Resolution test** Provide per-residue contact maps or minimum distance analyses between DNA and specific protein residues. Report hydrogen bond counts with standard deviations and perform a statistical test (e.g., Student's t-test) to compare WT and methylated systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2 (PCA)
+  - **Evidence pointer** Section 2.2
+  - **Issue** The equation for the covariance matrix is not fully displayed in the text provided. The sentence "where i and j represent all possible pairs of 3N Cartesian coordinates" is incomplete without the actual equation.
+  - **Required correction** Ensure the full equation is included in the final manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1 (MD setup)
+  - **Evidence pointer** Section 2.1
+  - **Issue** The temperature and pressure coupling methods are not specified. The Berendsen thermostat is mentioned, but the coupling constants and the barostat details are incomplete.
+  - **Required correction** Provide full details of the thermostat and barostat settings, including coupling constants, to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.1 (Salt bridge analysis)
+  - **Evidence pointer** Table 1
+  - **Issue** The salt bridge analysis is presented as a table, but the criteria for defining a salt bridge (distance and angle cutoffs) are not stated in the text.
+  - **Required correction** State the criteria used to define a salt bridge in the methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.4 (PRS)
+  - **Evidence pointer** Section 4.4
+  - **Issue** The PRS method is described in the methods section, but the interpretation of the PRS maps in the results is brief. The authors state that "the perturbation response of the DNA pol β remains relatively unchanged" but do not quantify this statement.
+  - **Required correction** Provide a quantitative comparison of the PRS maps (e.g., correlation coefficients between maps) to support the qualitative statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error estimates for correlation and centrality analyses), R1-M2 (unvalidated force field parameters for methylated arginine), R1-M3 (overstated link between structural changes and functional enhancement).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD simulations to study methylation effects on pol β is novel, but the general approach (MD + PCA + network analysis) is well established. The specific focus on R83/R152 methylation is a useful contribution.
+  - **Scientific importance** Moderate. The study addresses a relevant question in DNA repair, but the purely computational nature and lack of direct functional validation limit the immediate impact. The findings are hypothesis-generating rather than definitive.
+  - **Interdisciplinary readership** Limited. The manuscript is likely to appeal primarily to computational biophysicists and specialists in DNA repair. The presentation assumes familiarity with MD simulation techniques and analysis methods, which may limit accessibility to a broader biological audience.
+  - **Technical soundness** Currently insufficient. The lack of error estimates, unvalidated force field parameters, and absence of replicate simulations are significant technical shortcomings that must be addressed.
+  - **Readability for nonspecialists** Adequate but improvable. The introduction and conclusion are accessible, but the results section is dense and would benefit from clearer explanations of the methods and their significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and uses appropriate methodology, but the technical concerns (particularly the lack of error estimates and unvalidated parameters) and the overstated functional claims prevent the conclusions from being considered robust. The authors should address the major concerns and resubmit for further consideration.
+
+## Risk / unsupported claims
+- The claim that methylation "explains" the mechanism of enhanced polymerase activity is unsupported; the study only shows correlative structural changes.
+- The claim that methylation "enhances long-range correlations" is unsupported without error estimates or statistical testing.
+- The claim that DNA "moves closer" to the polymerase domain is weakly supported by COM distance data that lack statistical context.
+- The functional significance of the new salt bridge between D190 and R254 is speculative; no functional assay or energetic calculation is provided.
+- The statement that "methylation may occur sequentially" is speculative and not supported by any kinetic or experimental data.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors present a computational study of the phenotypic transition from the induced to the uninduced state of the *E. coli* lactose uptake pathway. They identify repressor-operator binding dynamics, fluctuations in repressor copy number, and inducer-repressor interactions as key contributors. They construct a minimal model based on timescale separation, report a very stable induced state with a transition rate below 2×10⁻⁹ per minute, and describe the transition as a 2D diffusive barrier-crossing process.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, experimental datasets, or quantitative comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, model equations, parameter values, simulation code or pseudocode, experimental data sources, statistical analyses, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a well-studied but still actively debated question in gene regulatory network dynamics, namely the stability and switching kinetics of the *lac* operon. The authors propose a mechanistic decomposition of the transition to the uninduced state and claim a very low transition rate, which is biologically plausible given known stability of the induced state. However, the abstract alone provides insufficient detail to evaluate the model construction, parameter choices, or the robustness of the reported rate. The claim of a 2D diffusive description is intriguing but not substantiated with the necessary mathematical or simulation evidence. The work may be of interest to biophysicists and systems biologists, but the current evidence base is too thin to assess technical soundness or originality fully.
+- **Who would be interested in the results, and why** Researchers in stochastic gene expression, multistability in genetic circuits, and biophysical modeling of cellular decision-making would find these results relevant. The *lac* operon remains a canonical testbed for theories of phenotypic switching, and a quantitative account of the off-transition could inform broader understanding of memory and stability in regulatory networks. Experimentalists studying single-cell dynamics might also be interested in the predicted transition rate as a benchmark.
+- **Major strengths** The abstract clearly identifies a specific and understudied transition direction (induced to uninduced) in a paradigmatic system. The proposed decomposition into distinct molecular processes is mechanistically sensible. The reported transition rate is a concrete, testable prediction. The minimal model approach, if properly derived, could offer a useful simplification for a complex stochastic system.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "repressor-operator binding and unbinding, fluctuations in the total number of repressors, and inducer-repressor binding and unbinding all play a role in this transition" and that a minimal model based on timescales "compare[s] the results with simulations and experimental observations."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how the relative contributions of the three processes were quantified, how the timescale separation was justified, or what the minimal model contains. No simulation details, parameter ranges, or experimental datasets are mentioned. Without this information, the claim that all three processes "play a role" is not verifiable, and the comparison to experiments cannot be assessed.  
+  - **Why it matters** The core scientific contribution appears to be the identification of dominant mechanisms and the construction of a reduced model. If the model construction or the attribution of roles is not transparent, the conclusions cannot be reproduced or trusted.  
+  - **Resolution test** Provide a clear description of the full model, the criteria for timescale separation, the minimal model equations, and a quantitative comparison (e.g., error metrics) between the minimal model, full simulations, and experimental data.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "the transition rate to the uninduced state [is] lower than 2×10⁻⁹ per minute."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no indication of how this rate was estimated, over what time horizon, from which simulations or experiments, or with what uncertainty. A single upper bound without confidence intervals or sensitivity analysis is insufficient to establish the claim.  
+  - **Why it matters** This rate is a central quantitative result. If it is not robustly estimated, the conclusion about induced-state stability is unsupported.  
+  - **Resolution test** Report the estimation method, the number of simulation replicates or experimental cells, the statistical uncertainty, and a sensitivity analysis over key parameters.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "the transition to the uninduced state is well described in terms of a 2D diffusive system crossing a barrier, with the diffusion rates emerging from a model of repressor unbinding."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not define the two dimensions of the diffusive system, the nature of the barrier, or how the diffusion rates were derived from repressor unbinding. No comparison between the diffusive description and the full model or experiments is shown.  
+  - **Why it matters** This is a strong theoretical claim that implies a specific reduced representation of the dynamics. Without derivation and validation, it remains an assertion.  
+  - **Resolution test** Specify the two coordinates, the barrier potential, the derivation of diffusion coefficients, and show quantitative agreement between the 2D model and the full stochastic simulations or experimental trajectories.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "2D diffusive system crossing a barrier" is used without defining the physical or biological meaning of the two dimensions, which may confuse readers unfamiliar with the model.  
+  - **Required correction** Briefly define the two coordinates (e.g., repressor copy number and operator occupancy) in the abstract.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state how these findings differ from or extend prior models of *lac* switching, particularly the well-known Monod-Wyman-Changeux or earlier stochastic models.  
+  - **Required correction** Add one sentence contrasting the new mechanistic decomposition with previous descriptions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "lower than 2×10⁻⁹ per minute" is presented as a point estimate, but it is unclear if this is a measured value, a simulation output, or a theoretical bound.  
+  - **Required correction** Clarify the origin of this number and whether it is an upper limit or a central estimate.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide enough methodological detail to verify the model construction, the rate estimate, or the diffusive description. These are essential to the paper's claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on the off-transition in the *lac* system is a reasonable niche, but the abstract does not demonstrate a conceptual advance over existing stochastic models of the operon. The claim of a 2D diffusive description could be original, but it is not substantiated.  
+  - **Scientific importance** The *lac* operon is a classic system, and quantitative predictions about switching rates are valuable. However, the abstract does not articulate broader implications beyond this specific pathway.  
+  - **Interdisciplinary readership** The topic bridges biophysics and molecular biology, but the abstract is written in a way that assumes familiarity with the system and stochastic modeling, limiting accessibility.  
+  - **Technical soundness** Not assessable from the abstract alone. The lack of model details, parameter values, and validation is a major gap.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon (e.g., "2D diffusive system") without explanation, reducing clarity for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible ideas and a striking quantitative claim, but the absence of methodological detail and validation means the case is not made. I would be supportive if the full manuscript provides the missing model description, parameter sensitivity, and quantitative comparisons.
+
+## Risk / unsupported claims
+- The claim that all three processes (repressor-operator binding, repressor copy number fluctuations, inducer-repressor binding) "play a role" is unsupported without quantitative attribution.
+- The transition rate "lower than 2×10⁻⁹ per minute" is unsupported without estimation details or uncertainty bounds.
+- The claim that the transition is "well described" by a 2D diffusive system is unsupported without derivation or validation.
+- The comparison of the minimal model with "simulations and experimental observations" is unverifiable because no data or metrics are provided.

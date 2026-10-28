@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and conclusions
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions
+- **Shared manuscript claim summary** The authors propose that curcumin ameliorates LPS-induced inflammatory astrogliosis in primary rat astrocytes via an AhR-dependent mechanism, involving enhancement of the IDO/KYN/KYNA axis and allosteric modulation of AhR through a newly predicted second ligand-binding site
+- **Visible evidence base** Figures 1-7 (referenced in text), quantitative PCR data, Western blot data, immunofluorescence confocal imaging, molecular docking simulations
+- **Missing materials affecting confidence** Raw numerical data for qPCR and Western blot quantifications, full Western blot images, statistical details (exact p-values, n numbers), docking validation metrics, negative controls for antibody specificity, and uncropped confocal images
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting hypothesis linking curcumin, AhR, and inflammatory astrogliosis, with a combination of cellular and in silico approaches. The cellular data partially support a role for AhR in curcumin's anti-inflammatory effects, but the molecular docking claims of a novel binding site and synergistic binding are insufficiently validated and overinterpreted. The study is preliminary and would benefit from direct biochemical evidence of ligand binding and functional validation of the proposed dual-site model.
+- **Who would be interested in the results, and why** Researchers studying neuroinflammation, astrocyte biology, AhR signaling, and natural product pharmacology. The potential clinical relevance of curcumin in neurological disorders and the proposed novel AhR binding site may attract interest from drug discovery groups targeting AhR.
+- **Major strengths** The study addresses a relevant question regarding curcumin's mechanism of action in the CNS. The use of primary astrocytes and siRNA knockdown provides some cellular relevance. The molecular docking approach with a finer grid spacing is a methodological improvement worth noting. The observation that curcumin enhances LPS-induced AhR activation and IDO expression is potentially interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for mechanism
+  - **Claim pointer** "Curcumin may enhance the inflammation-induced IDO/KYN axis and allosterically regulate endogenous ligand binding to AhR, facilitating AhR activation to regulate inflammatory astrogliosis"
+  - **Evidence pointer** Section 2.4, Figure 4; Section 2.5, Figure 5; Section 2.6, Figure 6
+  - **Concern** The central mechanistic claim that curcumin acts via the IDO/KYN/KYNA axis and allosteric regulation of AhR is not directly tested. The authors show that curcumin enhances LPS-induced IDO mRNA expression, but they do not measure kynurenine or kynurenic acid levels, nor do they demonstrate that these metabolites are required for curcumin's effects. The molecular docking data are purely computational and lack experimental validation (e.g., mutagenesis, binding assays, or functional studies with site-specific mutants).
+  - **Why it matters** The proposed mechanism is the core novelty of the manuscript. Without direct evidence linking IDO induction, endogenous ligand production, and AhR activation through the proposed dual-site model, the conclusions remain speculative.
+  - **Resolution test** Provide measurements of KYN and KYNA levels in culture supernatants under the various treatment conditions. Perform AhR mutants targeting the proposed novel binding site and test whether curcumin's effects are lost. Alternatively, use a known AhR antagonist or IDO inhibitor to demonstrate pathway dependence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and quantification
+  - **Claim pointer** "Curcumin attenuated lipopolysaccharide (LPS)-induced proinflammatory IL-6 and TNF-α gene expression in primary cultured rat astrocytes"
+  - **Evidence pointer** Section 2.1, Figure 1A,B
+  - **Concern** The qPCR data are presented as fold changes without clear indication of the number of independent biological replicates, the statistical test used for each comparison, or the exact p-values. The text states "significantly induced" and "suppressed" but does not provide effect sizes or confidence intervals. The knockdown efficiency is reported as a single percentage (28% of control) without variability measures.
+  - **Why it matters** Reproducibility and statistical rigor are essential for establishing the claimed effects. Incomplete reporting of replicates and statistics prevents the reader from assessing the robustness of the findings.
+  - **Resolution test** Provide full statistical details including n, mean, SEM, exact p-values, and the specific test used for each comparison. Include raw data or dot plots showing individual data points.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular docking validity
+  - **Claim pointer** "We identified a new ligand binding site on AhR different from the classical 2,3,7,8-tetrachlorodibenzo-p-dioxin site"
+  - **Evidence pointer** Section 2.5, Figure 5
+  - **Concern** The identification of a novel binding site is based solely on AutoDock predictions with a single protein model generated by homology modeling. No validation of the model quality (e.g., Ramachandran plot, ERRAT score, or comparison with experimental structures) is provided. The binding energies reported are not accompanied by standard errors or confidence intervals from multiple docking runs. The claim of a "new" site requires comparison with known AhR structures and experimental evidence.
+  - **Why it matters** A novel binding site on a therapeutic target is a significant claim that could mislead drug discovery efforts if not rigorously validated. Computational predictions without experimental confirmation are insufficient for such a claim.
+  - **Resolution test** Validate the homology model using standard metrics. Perform molecular dynamics simulations to assess binding stability. Use site-directed mutagenesis of residues in the proposed novel site and test binding or functional effects. Compare with published AhR structures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of AhR nuclear translocation
+  - **Claim pointer** "Curcumin enhances LPS-induced AhR activation in astrocytes"
+  - **Evidence pointer** Section 2.3, Figure 3D
+  - **Concern** AhR nuclear translocation is inferred from immunofluorescence images, but no quantification of nuclear versus cytoplasmic fluorescence is provided. The images appear to be representative single fields without information on the number of cells analyzed or the consistency across experiments. Additionally, the authors do not assess AhR transcriptional activity directly (e.g., via CYP1A1 or other well-established AhR target genes beyond CYP1B1).
+  - **Why it matters** Nuclear translocation is a proxy for activation, but without quantification and additional readouts, the claim of enhanced AhR activation is not fully supported.
+  - **Resolution test** Quantify nuclear-to-cytoplasmic ratios from multiple fields and experiments. Include a positive control (e.g., FICZ or TCDD) and measure multiple AhR target genes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Figure 1A,B
+  - **Issue** The concentration of curcumin (1 µM) and LPS (1 µg/mL) are stated, but no dose-response or time-course experiments are shown. The choice of these concentrations is justified by a previous study, but the current manuscript does not establish the optimal conditions.
+  - **Required correction** Provide a brief justification for the chosen concentrations or include a supplementary dose-response experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.3, Figure 3
+  - **Evidence pointer** Figure 3A-C
+  - **Issue** The Western blot data for AhR protein levels are described but the figure is not shown in the text provided. The authors state that LPS increased AhR protein but curcumin did not change this effect, yet the quantification method and normalization are not described.
+  - **Required correction** Clarify the quantification method (e.g., densitometry normalized to GAPDH) and include the number of independent experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Section 4.8
+  - **Evidence pointer** Section 4.8
+  - **Issue** The statistical methods section states that non-parametric one-way ANOVA was used, but it is unclear whether the data met the assumptions for parametric testing. The choice of non-parametric tests for all comparisons may reduce statistical power.
+  - **Required correction** Justify the choice of non-parametric tests or provide normality testing results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Molecular modeling details
+  - **Affected element** Section 4.6, 4.7
+  - **Evidence pointer** Section 4.6, 4.7
+  - **Issue** The methods for protein modeling and docking lack critical details, including the specific template used for homology modeling, the sequence identity, the number of models generated, and the criteria for selecting the final model. The docking parameters are provided but the validation of docking protocol (e.g., redocking of co-crystallized ligands) is not described.
+  - **Required correction** Provide full details of the modeling pipeline and include a validation step for the docking protocol.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of AhR ligands and their binding sites would benefit from a more comprehensive comparison with published structural and functional studies, particularly those that have experimentally characterized AhR ligand binding.
+  - **Required correction** Expand the discussion to include relevant experimental studies on AhR ligand binding and acknowledge the limitations of computational predictions.
+
+## Risk / unsupported claims
+- The claim of a novel second ligand-binding site on AhR is unsupported by experimental evidence and relies solely on computational predictions.
+- The proposed synergistic binding of curcumin with KYN/KYNA is speculative and not directly tested.
+- The statement that curcumin "facilitates" AhR activation is not fully supported, as the authors show enhancement of LPS-induced activation rather than direct activation by curcumin alone.
+- The link between IDO induction and AhR activation is inferred but not experimentally demonstrated (no KYN/KYNA measurements).
+- The claim that the docking system "will be able to be used for precise AhR-target drug development" is overstated given the lack of experimental validation.
+- The conclusion that AhR has two distinct ligand-binding sites is presented as a finding rather than a hypothesis requiring further validation.

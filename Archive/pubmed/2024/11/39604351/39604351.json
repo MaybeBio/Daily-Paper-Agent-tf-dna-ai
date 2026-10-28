@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "39604351",
+    "doi": "10.1080/07391102.2024.2428829",
+    "title": "Repurposing of DrugBank molecules as dual non-hydroxamate HDAC8 and HDAC2 inhibitors by pharmacophore modeling, molecular docking, and molecular dynamics studies."
+  },
+  "content": {
+    "abstract": "HDAC8 and HDAC2 are recently reported to be overexpressed in cervical cancer. To date, studies related to the use of dual targeted HDAC inhibitor to treat cervical cancer are not well explored. Again, majority of the selective HDAC inhibitors discovered so far are hydroxamic acids, which have multiple adverse side-effects due to their strong zinc chelating ability. In this study, we repurposed DrugBank molecules to identify novel non hydroxamate compounds as potential HDAC8/2 dual inhibitors that can be effective for cervical cancer management. Therefore, a comprehensive integrated in silico approach, involving two-tier virtual screening, has been adopted. An initial e-pharmacophore model generation based on the co-ligands associated with HDAC8 and HDAC2 and subsequent PBVS of 12223 drug molecules were performed which eventually yielded 658 hits having fitness scores >/= 1.0 for both the proteins. Then, SBVS for these hits was done using Glide XP method into the HDAC8 and HDAC2 crystal structures which resulted in 52 hits having XPGS </= -9.0 kcal/mol against both the proteins. Following this, they were re-docked into other HDAC isoforms to confirm isoform selectivity. DB11747, DB03973, DB03812, DB07890, and DB03448 were identified as top hits and were finally subjected to molecular dynamics simulation for stability of the complexes and MM-GBSA studies to calculate binding free energies. These hits have stable interactions with both HDAC8 and HDAC2 protein binding sites. In silico ADMET studies brought to limelight the promising pharmacokinetics and safety profiles of the hits. In silico cytotoxicity prediction studies also revealed potent anticancer activity.",
+    "keywords": [
+      "DrugBank database",
+      "Dual inhibitor",
+      "HDAC2",
+      "HDAC8",
+      "cervical cancer",
+      "drug repurposing",
+      "e-pharmacophore",
+      "histone deacetylase",
+      "pharmacophore based virtual screening",
+      "structure based virtual screening"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Molecular Docking Simulation",
+      "*Histone Deacetylase Inhibitors/chemistry/pharmacology",
+      "*Histone Deacetylase 2/antagonists & inhibitors/chemistry",
+      "Humans",
+      "*Repressor Proteins/antagonists & inhibitors/chemistry",
+      "*Drug Repositioning",
+      "Protein Binding",
+      "Ligands",
+      "*Histone Deacetylases/chemistry/metabolism",
+      "Binding Sites",
+      "Pharmacophore"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarkar, Kakali",
+        "Debnath, Sudhan",
+        "Ghosh, Rajat",
+        "Choudhury, Deijy",
+        "Chakraborty, Kanak",
+        "Saha, Partha",
+        "Singha, Achinta",
+        "Nandi, Addrita",
+        "Goswami, Bidhan",
+        "Ghosh, Arabinda",
+        "Sil, Samir Kumar"
+      ],
+      "short_names": [
+        "Sarkar K",
+        "Debnath S",
+        "Ghosh R",
+        "Choudhury D",
+        "Chakraborty K",
+        "Saha P",
+        "Singha A",
+        "Nandi A",
+        "Goswami B",
+        "Ghosh A",
+        "Sil SK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3913-9048",
+        "ORCID: 0000-0002-3891-5949",
+        "ORCID: 0000-0002-6579-031X"
+      ],
+      "affiliations": [
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Department of Chemistry, Netaji Subhash Mahavidyalaya, Gomati, Tripura, India.",
+        "Department of Pharmacy, Tripura University, Suryamaninagar, Tripura, India.",
+        "Department of Pharmacy, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India.",
+        "Department of Molecular Biology and Bioinformatics, Tripura University, Suryamaninagar, Tripura, India.",
+        "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarkar, Kakali",
+        "short_name": "Sarkar K",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Debnath, Sudhan",
+        "short_name": "Debnath S",
+        "identifiers": [
+          "0000-0002-3913-9048"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Netaji Subhash Mahavidyalaya, Gomati, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Rajat",
+        "short_name": "Ghosh R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Choudhury, Deijy",
+        "short_name": "Choudhury D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Kanak",
+        "short_name": "Chakraborty K",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Partha",
+        "short_name": "Saha P",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Singha, Achinta",
+        "short_name": "Singha A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Nandi, Addrita",
+        "short_name": "Nandi A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Goswami, Bidhan",
+        "short_name": "Goswami B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Arabinda",
+        "short_name": "Ghosh A",
+        "identifiers": [
+          "0000-0002-3891-5949"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Bioinformatics, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      },
+      {
+        "full_name": "Sil, Samir Kumar",
+        "short_name": "Sil SK",
+        "identifiers": [
+          "0000-0002-6579-031X"
+        ],
+        "affiliations": [
+          "Molecular Genetics and Cancer Biology Laboratory, Department of Human Physiology, Tripura University, Suryamaninagar, Tripura, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:36",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39604351",
+      "31748509",
+      "34369509",
+      "30369061",
+      "30633630",
+      "22272142",
+      "38871969",
+      "38456827",
+      "37741229",
+      "32658783",
+      "37306006",
+      "20656379",
+      "28632421",
+      "35419753",
+      "39608552",
+      "38835122",
+      "25407689",
+      "29533873",
+      "42107269",
+      "30938574",
+      "36369945",
+      "39039678",
+      "29498707",
+      "40541580",
+      "37806058",
+      "39587443",
+      "27374062",
+      "39583632",
+      "37870047",
+      "34478925",
+      "16250652",
+      "36214962",
+      "38296560",
+      "28938863",
+      "35110603",
+      "38095360",
+      "41720839",
+      "37549730",
+      "30836926",
+      "24888409",
+      "31421254",
+      "35032738",
+      "30415122",
+      "29190092",
+      "29150330",
+      "25757142",
+      "32578494",
+      "32886033",
+      "29932788",
+      "40779485",
+      "39351092",
+      "39543332",
+      "40617084",
+      "30611847",
+      "25953722",
+      "41326481",
+      "39163297",
+      "29380672",
+      "31630054",
+      "36838758",
+      "38683491",
+      "29170627",
+      "39717958",
+      "38134358",
+      "41817950",
+      "36990409",
+      "27750186",
+      "36533308",
+      "38907013",
+      "36995068",
+      "23672185",
+      "37969010",
+      "36799050",
+      "31057077",
+      "27542119",
+      "39611171",
+      "37850491",
+      "41730815",
+      "31267876",
+      "41251882",
+      "39357770",
+      "28939339",
+      "26431201",
+      "37715109",
+      "42035225",
+      "39368576",
+      "29475408",
+      "38181853",
+      "39037973",
+      "29945500",
+      "30347148",
+      "19947584",
+      "29064326",
+      "30145395",
+      "31905609",
+      "39652601",
+      "31755336",
+      "32151834",
+      "27668885",
+      "29859380"
+    ],
+    "review": [
+      "39604351",
+      "39039678"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2428829?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2428829",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

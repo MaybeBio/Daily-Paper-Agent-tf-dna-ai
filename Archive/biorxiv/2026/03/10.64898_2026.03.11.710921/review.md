@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Technical and conceptual evaluation of the ChromSMF method, its validation, and the claims made based on the presented evidence
+- **Shared manuscript claim summary** The authors present ChromSMF, a method combining antibody-guided adenine methylation (Hia5), cytosine methylation footprinting (M.CviPI), and Nanopore sequencing to simultaneously measure histone modifications, chromatin accessibility, TF binding, DNA methylation, and genetic variation on individual multi-kilobase DNA molecules. They benchmark it in Drosophila S2 cells across five histone modifications and demonstrate its utility in mouse F1 embryonic stem cells for haplotype-resolved analysis.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative form), Methods, Figure legends referenced but figures not provided, Supplementary figure/table references
+- **Missing materials affecting confidence** Figures and supplementary figures/tables are referenced but not provided. No quantitative results, statistical details, or raw data are visible. The Results section is presented as narrative without numerical values or figure panels.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially valuable method that integrates multiple epigenetic layers on single DNA molecules. The conceptual advance over existing approaches is clear and the authors address a genuine gap in the field. However, the current submission is a methods paper presented without its primary evidence. The Results section is entirely narrative, with all quantitative support relegated to figures that are not available for review. This makes it impossible to evaluate the validity of the central claims, the robustness of the computational framework, or the statistical significance of the reported associations. The method description is detailed and suggests careful optimization, but the absence of visible data prevents a substantive assessment of whether the method performs as claimed.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenomics, and gene regulation would be the primary audience. The method addresses a long-standing limitation in the field: the inability to directly link histone modifications with chromatin accessibility and TF binding on the same DNA molecules. Those interested in single-molecule approaches, long-read sequencing applications, and allele-specific epigenetic regulation would also find this relevant. The potential for clinical applications in haplotype-resolved analysis may attract translational researchers.
+- **Major strengths** The conceptual advance is significant: integrating five molecular layers on individual DNA molecules is a genuine step beyond existing methods. The sequential protocol design, with careful attention to enzyme competition and washing steps, suggests rigorous optimization. The authors address a known technical challenge (cross-interference between mC and mA detection) and develop a custom model to overcome it. The demonstration in two organisms (Drosophila and mouse) indicates portability. The computational framework for single-molecule classification and long-range association analysis is a valuable contribution in itself.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim ChromSMF "simultaneously quantifies histone modifications, transcription factor binding, and nucleosome occupancy, while measuring DNA methylation and sequence variations on the same multi-kilobase DNA molecules" and that it is "benchmarked across five histone modifications."
+  - **Evidence pointer** Results sections "A tandem assay to simultaneously measure histone modifications and chromatin accessibility," "Quantification of histone modifications at single-molecule resolution," "Measuring associations between histone modifications and chromatin accessibility at the molecular level," "Molecular association of five histone modifications with chromatin accessibility"; Figures 1-3, S1-S3 (not provided)
+  - **Concern** The central claims of the paper are presented without any visible quantitative evidence. All results are described narratively, with correlations, statistical tests, and effect sizes relegated to figures that are not included in the review materials. The accuracy of mC detection in the presence of mA (and vice versa) is a critical technical validation that cannot be assessed. The claimed correlation between ChromSMF single-molecule marking and ChIP-seq enrichment (R=0.79) is stated but not shown. The percentage of promoters with significant H3K4me3-dependent chromatin differences (14%) is stated without confidence intervals or validation of the statistical approach.
+  - **Why it matters** This is a methods paper. The entire value proposition rests on the demonstrated performance of the method. Without visible validation data, the reader cannot determine whether the method works as claimed, whether the false-positive/false-negative rates are acceptable, or whether the computational classification is reliable. The stated accuracy improvements of the custom mA model (false-negative rate reduced to less than 13%) need to be shown with appropriate controls and error analysis.
+  - **Resolution test** Provide the figures and supplementary figures with all quantitative results, including accuracy metrics, correlation plots, statistical test results, and representative single-molecule traces. Include validation of the mA model with confusion matrices and error rates. Show that the sequential protocol does not compromise either readout with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors state "we trained a custom model for calling mA in the presence of mC" and that this "substantially improved mA detection in presence of mC, and reduced the false-negative rate to less than 13% (accuracy=0.92)."
+  - **Evidence pointer** Results section "A tandem assay to simultaneously measure histone modifications and chromatin accessibility"; Figure S1B-C (not provided); Methods section "Basecalling and methylcalling from ONT data"
+  - **Concern** The custom mA model is a critical component of the method, yet its training, validation, and performance characteristics are not described in sufficient detail. The training data generation is described, but the model architecture, hyperparameters, and validation approach are not specified. The claim of reduced false-negative rate needs to be contextualized with the false-positive rate and the trade-off between sensitivity and specificity. The accuracy of 0.92 is stated without confidence intervals or comparison to alternative approaches.
+  - **Why it matters** The reliability of the mA channel is essential for the histone modification readout. If the model has systematic biases or fails in certain sequence contexts, all downstream analyses of histone modification marking would be affected. The authors need to demonstrate that the model performs consistently across different genomic contexts and that the accuracy is not dependent on specific sequence features.
+  - **Resolution test** Provide detailed model architecture, training procedure, and validation results. Show confusion matrices for both mC and mA detection in the presence of the other modification. Include analysis of accuracy by sequence context, GC content, and methylation density. Compare performance to existing models and demonstrate the improvement is statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim "presence of H3K4me3 is globally associated with increased CA upstream, and increased nucleosome positioning downstream of the TSS" and that "H3K4me3 presence correlates with differences in chromatin organisation at about 14% of all analysed promoters."
+  - **Evidence pointer** Results section "Measuring associations between histone modifications and chromatin accessibility at the molecular level"; Figures 2D-E, S2E-F (not provided)
+  - **Concern** The statistical framework for identifying significant associations between histone modifications and chromatin accessibility is not described. The threshold for significance, the multiple testing correction, and the effect size distribution are not reported. The 14% figure is presented without confidence intervals or a description of the variability across biological replicates. The Fisher's exact test is mentioned, but the contingency tables and the criteria for inclusion are not specified.
+  - **Why it matters** The biological conclusions of the paper depend on the reliability of these association tests. If the statistical approach is underpowered or improperly calibrated, the reported associations could be spurious or missed. The field needs to know the sensitivity and specificity of the approach for detecting true biological associations.
+  - **Resolution test** Provide a detailed description of the statistical framework, including the null model, the test statistic, and the multiple testing correction. Show the distribution of effect sizes and p-values. Report the power of the analysis to detect associations of varying magnitudes. Include validation with permutation tests or simulated data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** The authors state "we extend ChromSMF to haplotype-resolved analysis in mammalian genomes, and demonstrate its utility in quantitatively comparing genetic and epigenetic mechanisms to assess their relative contributions to allelic differences in gene expression."
+  - **Evidence pointer** Results section "Haplotype-resolved analysis of epigenetic mechanisms contributing to allelic imbalance"; Figures 5-6, S5-S6 (not provided)
+  - **Concern** The haplotype-resolved analysis in mouse is presented as a demonstration of the method's utility, but the biological findings are not described in sufficient detail. The claim that ChromSMF can identify allele-specific differences in H3K4me3, CA, and 5mC is plausible, but the validation of these findings against known imprinted regions and the statistical significance of the observed differences are not reported. The identification of a TF binding site for ZFP57 is interesting but appears to be based on motif analysis alone, without functional validation.
+  - **Why it matters** The mouse data represent the first demonstration of the method in a mammalian system with endogenous DNA methylation. This is a critical test of the method's portability and its ability to handle more complex epigenetic landscapes. The biological findings, if validated, would strengthen the case for the method's utility.
+  - **Resolution test** Provide detailed results of the haplotype-resolved analysis, including the number of genes with allelic imbalance, the overlap with known imprinted genes, and the statistical significance of the observed differences. Include validation of the ZFP57 binding prediction with additional evidence, such as published ChIP-seq data or electrophoretic mobility shift assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "DNA fragmentation with gTubes"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The centrifugation speed for mouse samples is described as reduced to 4200 rpm to obtain longer fragments, but the rationale for this specific speed and the expected fragment size distribution are not provided.
+  - **Required correction** Provide the expected fragment size ranges for both Drosophila and mouse samples and justify the choice of centrifugation speed based on the manufacturer's guidelines or empirical testing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Training and validation of the methyl-caller model for mA"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the training data generation mentions the number of chunks generated for each sample, but the total number of training and validation samples, the split ratio, and the criteria for model selection are not specified.
+  - **Required correction** Provide the total number of reads and chunks used for training and validation, the split ratio, and the metric used for model selection (e.g., accuracy, F1 score).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Molecular association of five histone modifications with chromatin accessibility"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The section mentions "median coverage 150-750x" for the five histone modifications but does not specify the coverage for each individual modification or the number of biological replicates.
+  - **Required correction** Provide a table with the coverage and number of replicates for each histone modification experiment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Identification of long-range associations between histone modifications and chromatin accessibility"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The statement that long-range associations are "independent on the distance from the viewpoint enhancer" is presented without supporting data or statistical analysis. This is a strong claim that requires evidence.
+  - **Required correction** Provide a plot of effect size versus distance and a statistical test for distance dependence. If the claim is based on a specific analysis, describe it in detail.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Statistical analysis and reproducibility"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the statistical analysis is brief and does not specify the software packages used for specific tests (e.g., Fisher's exact test, correlation analysis) or the version of R.
+  - **Required correction** Provide the specific R packages and versions used for each statistical test, and include the code or a link to the code repository for reproducibility.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the absence of visible data. The manuscript is a methods paper, and the methods cannot be evaluated without the figures and supplementary materials. The custom mA model needs detailed validation. The statistical framework for association testing needs to be described with sufficient detail to be reproduced. The haplotype-resolved analysis needs validation against known biological ground truth.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The method is original in its integration of multiple epigenetic layers on single DNA molecules. While individual components exist (DiMeLo-seq, SMF, Nanopore methylation detection), the combination and the computational framework for integrated analysis represent a novel contribution.
+  - **Scientific importance** The method addresses a fundamental question in chromatin biology: how histone modifications relate to chromatin accessibility and TF binding at individual molecules. The potential to resolve allele-specific epigenetic regulation is important for understanding gene regulation in development and disease.
+  - **Interdisciplinary readership** The method will appeal to chromatin biologists, epigenomicists, and those working on long-read sequencing applications. The clinical potential for haplotype-resolved analysis may broaden the appeal.
+  - **Technical soundness** Cannot be assessed from the provided materials. The protocol description is detailed and suggests careful optimization, but the validation data are not visible.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible to those with a background in genomics. The introduction provides sufficient context. However, the Results section assumes familiarity with the methods and would benefit from more explicit explanation of the computational approaches.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a promising method, but the absence of visible data prevents evaluation of the central claims. The authors should be invited to resubmit with the figures and supplementary materials included, along with a more detailed description of the statistical framework and model validation.
+
+## Risk / unsupported claims
+- The claim that ChromSMF "simultaneously quantifies histone modifications, transcription factor binding, and nucleosome occupancy, while measuring DNA methylation and sequence variations" is not supported by visible evidence.
+- The claim that the custom mA model achieves "accuracy=0.92" and reduces false-negative rate to "less than 13%" is not supported by visible validation data.
+- The claim that "presence of H3K4me3 is globally associated with increased CA upstream, and increased nucleosome positioning downstream of the TSS" is not supported by visible data.
+- The claim that "H3K4me3 presence correlates with differences in chromatin organisation at about 14% of all analysed promoters" is not supported by visible statistical analysis.
+- The claim that long-range associations are "independent on the distance from the viewpoint enhancer" is not supported by visible data.
+- The claim that ChromSMF can identify allele-specific differences in H3K4me3, CA, and 5mC at imprinted loci is not supported by visible data.
+- The identification of a ZFP57 binding site based on motif analysis alone is speculative without functional validation.

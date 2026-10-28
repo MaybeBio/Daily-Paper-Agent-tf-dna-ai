@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, materials and methods, and supplementary figure references.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial style or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors propose that T3 binds to a specific site on Hsp90, enhances ATP binding to Hsp90, and disrupts the Hsp90-TRb interaction, with implications for thyroid hormone signaling and cellular stress responses.
+- **Visible evidence base** Immunoblot analysis of Hsp90 levels in NIH3T3 cells; microarray-based ATP-Cy5 binding assays; microscale thermophoresis; molecular docking; molecular dynamics simulations; pull-down assays; quantum dot-based interaction assays; transmission electron microscopy.
+- **Missing materials affecting confidence** Raw data for immunoblots, full dose-response curves for all replicates, statistical analysis details, negative controls for docking and MD simulations, and validation of the recombinant TRb construct are not fully described. Supplementary figures referenced but not provided in the submitted material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question regarding the direct interaction of thyroid hormone with Hsp90 and its functional consequences for TRb binding. The combination of experimental and computational approaches is commendable. However, several technical concerns and interpretive gaps weaken the current evidence base. The claim of a specific T3 binding site on Hsp90 relies heavily on computational predictions without sufficient experimental validation. The functional implications for cellular stress responses are speculative and not directly tested. The manuscript would benefit from additional experiments to confirm the binding site, quantify interaction affinities more rigorously, and demonstrate physiological relevance.
+- **Who would be interested in the results, and why** Researchers in the fields of molecular chaperones, nuclear receptor signaling, thyroid hormone biology, and cellular stress responses would find these results of interest. The potential cross-talk between hormone signaling and the Hsp90 chaperone system is a novel concept that could have broad implications for understanding hormone action under stress conditions.
+- **Major strengths** The study combines multiple orthogonal techniques to investigate the Hsp90-T3-TRb interaction. The use of both experimental and computational methods provides a comprehensive approach. The identification of a potential T3 binding site on Hsp90 is novel and could open new avenues for research. The dose-response data for T3 effects on ATP binding are quantitative and support a specific interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T3 binds to a specific site on Hsp90, identified by molecular docking and supported by MD simulations.
+  - **Evidence pointer** Figure 3, Molecular Docking and Molecular Dynamics Simulations sections
+  - **Concern** The identification of the T3 binding site relies entirely on computational predictions. No experimental validation, such as mutagenesis of the proposed binding residues or competitive binding assays with a site-specific probe, is provided. The docking results are not compared with any known Hsp90 ligand binding sites, and the significance of the predicted binding energy is not benchmarked against known binders.
+  - **Why it matters** Without experimental confirmation, the claim of a specific T3 binding site remains speculative. This is central to the manuscript's main conclusion and the proposed mechanism of action.
+  - **Resolution test** Provide experimental evidence, such as site-directed mutagenesis of the proposed binding pocket residues (e.g., Ile214, Ser211, Leu220, Glu200) and demonstrate loss of T3 binding or functional effect. Alternatively, use a competitive binding assay with a structurally related compound to validate the specificity of the predicted site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T3 enhances ATP binding to Hsp90 with an EC50 of 26 nM, and that T3 binds to Hsp90 with an EC50 of 89 nM as measured by MST.
+  - **Evidence pointer** Figure 2, Microscale Thermophoresis Analysis section
+  - **Concern** The EC50 values are reported without error bars or replicate information. The MST experiment uses Cy5-labeled Hsp90, but the labeling efficiency and its effect on T3 binding are not assessed. The microarray-based ATP-Cy5 binding assay is described as "highly miniaturized" but lacks details on the dynamic range, sensitivity, and specificity of the assay for detecting changes in ATP binding.
+  - **Why it matters** Quantitative affinity measurements are critical to support the proposed mechanism. Without proper statistical treatment and assay validation, the reported EC50 values may not be reliable.
+  - **Resolution test** Provide replicate measurements with standard deviations for all EC50 determinations. Validate the MST assay by testing a known Hsp90 inhibitor or a negative control ligand. For the microarray assay, include a positive control (e.g., radicicol) and demonstrate the assay's ability to detect both increases and decreases in ATP binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that T3-induced release of TRb from Hsp90 has implications for cellular stress responses and that high T3 levels block Hsp90 activity by trapping ATP.
+  - **Evidence pointer** Discussion section, Scheme 1
+  - **Concern** The functional implications are largely speculative. The manuscript does not directly test the consequences of T3-mediated Hsp90-TRb dissociation on downstream signaling or cellular stress responses. The claim that T3 blocks Hsp90 activity by trapping ATP is not supported by any functional assay, such as measuring Hsp90 ATPase activity or chaperone function in the presence of T3.
+  - **Why it matters** The broader significance of the findings depends on the physiological relevance of the proposed mechanism. Without functional data, the implications remain hypothetical.
+  - **Resolution test** Perform experiments to measure Hsp90 ATPase activity in the presence and absence of T3. Test the effect of T3 on Hsp90-mediated refolding of a model client protein. Assess whether T3 affects TRb transcriptional activity in a cellular context.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T3 induces Hsp90 expression in NIH3T3 fibroblasts within 10 minutes.
+  - **Evidence pointer** Figure 1a
+  - **Concern** The immunoblot data show a single representative experiment without quantification or statistical analysis. The claim of a "strong Hsp90 response" is not supported by densitometry or loading controls. The time course is limited to a single time point (10 min) and 24 h, with no intermediate points.
+  - **Why it matters** The induction of Hsp90 by T3 is a key observation linking hormone signaling to stress responses. Without proper quantification and replication, this finding is not robustly established.
+  - **Resolution test** Provide quantified immunoblot data from at least three independent experiments with loading controls and statistical analysis. Include a more complete time course to characterize the kinetics of Hsp90 induction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract section
+  - **Issue** The abstract states that T3 "bound to Hsp90 and enhanced ATP binding" but does not mention the concentration range or the physiological relevance of the concentrations used.
+  - **Required correction** Add a brief statement about the concentration range of T3 used and its relationship to physiological levels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Pull-down assay
+  - **Evidence pointer** Pull-Down Assay section
+  - **Issue** The pull-down assay description lacks details on the amount of TRb bound to the resin, the washing stringency, and the specificity controls (e.g., a non-specific protein or a TRb mutant).
+  - **Required correction** Provide more detailed methods, including the amount of resin, protein concentrations, and appropriate negative controls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** TEM analysis
+  - **Evidence pointer** Figure 6b
+  - **Issue** The TEM analysis is described qualitatively. The measurement of particle diameter and the "additional ring" are not quantified or compared across conditions.
+  - **Required correction** Provide quantitative measurements of particle sizes with statistical analysis and include appropriate controls (e.g., Hsp90 alone, TRb alone).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion introduces the concept of "arresting Hsp90 in the ATP-bound form" without clearly explaining the mechanistic basis for this claim.
+  - **Required correction** Clarify the proposed mechanism and relate it to the experimental data presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation of the T3 binding site), R1-M2 (insufficient quantitative rigor in binding assays), R1-M3 (lack of functional data supporting the proposed implications).
+- **Assessment against Nature-style criteria** Originality: The concept of a direct T3 binding site on Hsp90 is novel and not previously reported. Scientific importance: The potential link between thyroid hormone signaling and the Hsp90 chaperone system could be significant, but the current evidence is insufficient to establish this importance. Interdisciplinary readership: The topic bridges endocrinology, protein biochemistry, and cell stress biology, which could attract a broad audience. Technical soundness: The combination of methods is appropriate, but the lack of experimental validation for the key computational findings and the insufficient quantitative rigor weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., MD simulations) may be challenging for non-experts.
+
+## Risk / unsupported claims
+- The claim of a specific T3 binding site on Hsp90 is unsupported by experimental evidence.
+- The claim that T3 blocks Hsp90 activity by trapping ATP is not directly tested.
+- The functional implications for cellular stress responses and disease are speculative and not supported by direct experimental data.
+- The claim of T3-induced Hsp90 expression is based on a single unquantified immunoblot.
+- The physiological relevance of the T3 concentrations used in the assays is not discussed.

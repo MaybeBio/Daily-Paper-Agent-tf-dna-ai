@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report an in silico workflow combining LC-MS profiling of Bambusa balcooa leaf extract, toxicity prediction, molecular docking, and molecular dynamics simulations to identify isochlorogenic acid as a potential inhibitor of the Alternaria transcription factor AbPf2, with binding affinity of -8.8 kcal/mol and stable complex behavior over 100 ns.
+- **Visible evidence base** Abstract text only; no numerical data beyond binding affinity and RMSD threshold, no structural or methodological details
+- **Missing materials affecting confidence** Full methods, docking scores for all compounds, MD simulation parameters, trajectory analyses, figures, tables, validation metrics, and any statistical treatment
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational screening pipeline but provides insufficient detail to evaluate the validity, rigor, or novelty of the findings. The central claim that isochlorogenic acid is a promising AbPf2 inhibitor rests on limited quantitative evidence and lacks critical controls, target validation, and comparative context. The work may be of interest to computational phytochemists and agricultural pathologists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, natural product chemistry, and plant pathology may find the approach relevant as a template for screening phytocompounds against fungal transcription factors. Agricultural scientists seeking sustainable antifungal strategies could also be interested, provided the computational predictions are experimentally validated.
+- **Major strengths** The study addresses a relevant agricultural problem with a clear biological target. The workflow integrates multiple computational tools in a logical sequence, from compound identification to dynamic stability assessment. The use of MD simulations to complement docking is appropriate and strengthens the preliminary assessment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that isochlorogenic acid exhibits exceptional binding affinity (-8.8 kcal/mol) and that MD simulations confirm exceptional complex stability (RMSD <0.3 nm).
+  - **Evidence pointer** Abstract Results section; location not provided
+  - **Concern** The abstract provides no methodological details for docking or MD simulations, including software versions, force fields, solvation models, simulation temperature and pressure, equilibration protocols, or replication. The RMSD threshold of <0.3 nm is presented without context, such as comparison to a control ligand, a known inhibitor, or the apo protein. Without these details, the reported values cannot be independently assessed or reproduced.
+  - **Why it matters** Binding affinity values and RMSD stability are only meaningful when interpreted against appropriate baselines and with full knowledge of the simulation setup. The absence of these details prevents verification of the central claim and undermines the technical credibility of the study.
+  - **Resolution test** Provide full docking and MD protocols, including software, parameters, and validation steps. Include comparative analyses with a positive control or known AbPf2 binder, and report RMSD trajectories for the protein and ligand separately, with error estimates across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that AbPf2 is a pivotal regulator of Alternaria pathogenicity and an ideal antifungal target, and that isochlorogenic acid represents a promising natural inhibitor.
+  - **Evidence pointer** Abstract Background and Conclusion sections; location not provided
+  - **Concern** The abstract does not provide any evidence that AbPf2 is a validated or druggable target, such as genetic knockout data, structural information, or known inhibitors. The claim that isochlorogenic acid is promising is based solely on computational metrics without experimental validation or comparison to existing antifungal agents.
+  - **Why it matters** The significance of the finding depends on the biological relevance of AbPf2 and the potential of isochlorogenic acid to outperform current options. Without target validation or comparative efficacy data, the importance of the work remains speculative.
+  - **Resolution test** Cite or present experimental evidence for AbPf2 function in pathogenicity. Compare docking and MD results for isochlorogenic acid against known antifungal compounds or validated AbPf2 inhibitors, and discuss the structural basis for selectivity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies that the screening of Bambusa balcooa phytocompounds against AbPf2 is a novel contribution.
+  - **Evidence pointer** Abstract Background and Objective sections; location not provided
+  - **Concern** The abstract does not situate the work within the existing literature on AbPf2 inhibitors or computational studies of Alternaria targets. It is unclear whether the target, the compound library, or the workflow is novel relative to prior publications.
+  - **Why it matters** Originality is a core criterion for high-impact computational studies. Without a clear statement of prior work and the specific advance, the contribution cannot be distinguished from routine screening efforts.
+  - **Resolution test** Add a brief review of known AbPf2 inhibitors and computational studies on Alternaria, and explicitly state the novel elements of this study, such as the compound source, target, or methodological integration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract Background and Methods
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as "necrotrophic pathogenesis," "AbPf2 transcription factor," and "LC-MS profiled phytocompounds" without brief definitions or context, which may limit accessibility for readers outside plant pathology or computational chemistry.
+  - **Required correction** Provide one-sentence clarifications for key terms and ensure the workflow is described in a way that is understandable to a broad scientific audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract Results
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that "ten flavonoids" were identified but does not list them or indicate which were prioritized and why, beyond toxicity prediction.
+  - **Required correction** Include the names of the ten compounds and a brief rationale for the prioritization of isochlorogenic acid, such as toxicity profile or docking score ranking.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract Conclusion
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The conclusion states that the findings establish "a strong foundation for in vitro/in vivo studies," but no experimental validation is presented or referenced, which may overstate the readiness of the work.
+  - **Required correction** Soften the language to indicate that the computational results provide a rationale for future experimental testing, rather than a validated foundation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and target validation prevents the central claims from being assessed. Additionally, the lack of comparative data and literature context (R1-M3) must be addressed to establish originality and significance.
+- **Assessment against Nature-style criteria** Originality: Not established from the abstract, as prior work on AbPf2 or similar targets is not discussed. Scientific importance: Potentially relevant to agricultural antifungal development, but the biological significance of AbPf2 and the practical impact of isochlorogenic acid are not demonstrated. Interdisciplinary readership: The topic bridges computational chemistry and plant pathology, but the abstract is too technical and lacks context for broad appeal. Technical soundness: Insufficient detail on methods and validation to assess reliability. Readability for nonspecialists: Limited by undefined jargon and a dense workflow description.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a reasonable computational pipeline, but the lack of methodological transparency, target validation, and comparative analysis means the central claims cannot be verified. I would be supportive if the full manuscript addresses these concerns with detailed methods, controls, and contextualization.
+
+## Risk / unsupported claims
+- The claim that isochlorogenic acid is a "promising" AbPf2 inhibitor is unsupported without experimental validation or comparison to known inhibitors.
+- The claim that AbPf2 is an "ideal antifungal target" is unsupported without genetic or structural evidence.
+- The reported binding affinity (-8.8 kcal/mol) and RMSD (<0.3 nm) are unverifiable without full simulation details and baselines.
+- The statement that the study establishes "a strong foundation for in vitro/in vivo studies" is overstated given the absence of any experimental data or validation.

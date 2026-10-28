@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.15.725440",
+  "title": "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins",
+  "authors": "Maryum Irshad; Kassandra Ori-Mckenney; Ruxandra I. Dima",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络预测无序蛋白复合物的结合自由能，虽非TF-DNA体系，但蛋白-蛋白互作界面建模与动态描述方法可迁移至TF-DNA结合预测。",
+  "abstract": "Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription and assembly through interfaces that lack a single defined geometry, making the prediction of their binding energies beyond the reach of methods calibrated on the rigid complementarity of folded complexes. Here we introduce an adaptive message passing graph neural network, FlexENN, that predicts binding energies across the full structural spectrum, from folded domains to complexes with one disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates relative geometry, dynamic descriptors, and sequence information, allowing the network to infer conformational fuzziness from a single structure. Benchmarked across folded complexes and IDP systems, including tubulin-tubulin interfaces within microtubules (MTs) and MTs in complex with microtubule associated proteins (MAPs), with reference binding affinity values extracted from our experiments, the model retrieves physically meaningful energetic profiles for complexes where rigid-body methods fail. More broadly, this work delivers an accurate, structure-aware approach to predicting binding free energies for the broad class of disordered-mediated complexes formed by IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 通过缺乏单一几何结构的界面驱动了大部分细胞信号传导、转录和组装，这使得其结合能的预测超出了基于折叠复合物刚性互补性校准的方法的能力范围。在此，我们引入了一种自适应消息传递图神经网络 FlexENN，它能够预测从折叠结构域到具有一个无序伴侣的复合物在内的整个结构谱系中的结合能。FlexENN 架构构建了一个局部界面图，其中每个残基节点整合了相对几何、动态描述符和序列信息，使网络能够从单一结构推断构象模糊性。在折叠复合物和 IDP 系统（包括微管 (MTs) 内的微管蛋白-微管蛋白界面以及与微管相关蛋白 (MAPs) 复合的 MTs）上进行基准测试，参考结合亲和力值取自我们的实验，该模型能够为刚性体方法失败的复合物检索出物理上有意义的能量谱。更广泛地说，这项工作提供了一种准确、结构感知的方法，用于预测由 IDPs 形成的广泛无序介导复合物的结合自由能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725440",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725440",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.15.725440/index.html"
+}

@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "42450037",
+    "doi": "10.3390/ijms27135765",
+    "title": "Limitations of Molecular Docking in Predicting the Selectivity of Selective Androgen Receptor Modulators (SARMs): A Comparative Study of YK11 and Ostarine Across Five Nuclear Receptors."
+  },
+  "content": {
+    "abstract": "Selective androgen receptor modulators (SARMs) are commonly described as tissue-selective anabolic agents, yet the extent to which this selectivity is reflected at the level of receptor-binding energetics remains uncertain. This study evaluated the receptor interaction profiles of the steroidal SARM YK11 and the nonsteroidal SARM ostarine across five steroid hormone nuclear receptors. Flexible molecular docking was performed with AutoDock 4.2 against the androgen (AR), estrogen (ER), progesterone (PR), glucocorticoid (GR), and mineralocorticoid (MR) receptors, using testosterone, estradiol, progesterone, cortisol, and aldosterone as endogenous reference ligands. Binding free energy, docking-derived inhibition constants, intermolecular interaction energies, conformational sampling, and two-dimensional interaction maps were analyzed. Ostarine showed favorable binding across all receptor systems, with binding energies ranging from -10.42 to -12.05 kcal/mol and no pronounced energetic preference for the androgen receptor. YK11 displayed stronger predicted binding, particularly toward the glucocorticoid, progesterone, and androgen receptors, with a docking energy trend of GR > PR > AR > MR > ER. Interaction analysis revealed conserved polar anchoring residues across receptor pockets, together with scaffold-specific contacts that may explain cross-receptor compatibility. These findings indicate that, within the AutoDock 4.2 flexible docking framework applied in this study, docking-derived binding energies primarily describe thermodynamic compatibility with nuclear receptor ligand-binding domains and should not be interpreted as direct predictors of functional SARM tissue selectivity. The observed discordance between predicted receptor affinity and the established tissue-selective pharmacology of ostarine highlights the need for caution when using single-method docking workflows to infer selectivity among closely related steroid hormone receptors. The novelty of this study lies in demonstrating, using a defined AutoDock 4.2-based comparative protocol, that receptor-binding energetics alone do not recapitulate the functional tissue-selective behavior attributed to SARMs.",
+    "keywords": [
+      "YK11",
+      "androgen receptor",
+      "computational pharmacology",
+      "ligand-receptor interactions",
+      "molecular docking",
+      "nuclear receptor cross-reactivity",
+      "ostarine",
+      "selective androgen receptor modulators",
+      "steroid hormone receptors"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Receptors, Androgen/metabolism/chemistry",
+      "Humans",
+      "Protein Binding",
+      "Receptors, Glucocorticoid/chemistry/metabolism",
+      "Ligands",
+      "Receptors, Progesterone/chemistry/metabolism",
+      "Binding Sites",
+      "*Receptors, Cytoplasmic and Nuclear/chemistry/metabolism",
+      "Receptors, Mineralocorticoid/chemistry/metabolism",
+      "Thermodynamics",
+      "Androgens/chemistry",
+      "Receptors, Estrogen/chemistry/metabolism",
+      "Androstadienes",
+      "Anilides",
+      "Benzimidazoles"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mihalev, Kaloyan",
+        "Iliev, Ivelin",
+        "Agova, Nadya",
+        "Toshev, Nikolay",
+        "Georgieva, Svetlana"
+      ],
+      "short_names": [
+        "Mihalev K",
+        "Iliev I",
+        "Agova N",
+        "Toshev N",
+        "Georgieva S"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8650-1220",
+        "ORCID: 0000-0002-0342-4672",
+        "ORCID: 0000-0003-3637-6897",
+        "ORCID: 0000-0003-4483-0674"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria.",
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria.",
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria.",
+        "Department of Bioorganic Chemistry, Faculty of Pharmacy, Medical University of Plovdiv, 4002 Plovdiv, Bulgaria.",
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mihalev, Kaloyan",
+        "short_name": "Mihalev K",
+        "identifiers": [
+          "0009-0009-8650-1220"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Iliev, Ivelin",
+        "short_name": "Iliev I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Agova, Nadya",
+        "short_name": "Agova N",
+        "identifiers": [
+          "0000-0002-0342-4672"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Toshev, Nikolay",
+        "short_name": "Toshev N",
+        "identifiers": [
+          "0000-0003-3637-6897"
+        ],
+        "affiliations": [
+          "Department of Bioorganic Chemistry, Faculty of Pharmacy, Medical University of Plovdiv, 4002 Plovdiv, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Georgieva, Svetlana",
+        "short_name": "Georgieva S",
+        "identifiers": [
+          "0000-0003-4483-0674"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Medical University of Varna, 9000 Varna, Bulgaria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jun 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/15 06:38",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41898445",
+      "41079187",
+      "40756949",
+      "40683325",
+      "40586402",
+      "40585415",
+      "39913688",
+      "39755947",
+      "39660819",
+      "39328701",
+      "39285652",
+      "39063049",
+      "38521455",
+      "38451281",
+      "38203649",
+      "38059982",
+      "37986708",
+      "37871633",
+      "37836734",
+      "37717994",
+      "37543162",
+      "37468001",
+      "37325955",
+      "37218811",
+      "36479151",
+      "36309417",
+      "35981955",
+      "35655632",
+      "35595638",
+      "35457222",
+      "35340496",
+      "35258698",
+      "35253885",
+      "34715583",
+      "34445197",
+      "34368386",
+      "34354111",
+      "33588136",
+      "33384381",
+      "33148520",
+      "32959982",
+      "32876707",
+      "32575582",
+      "32476495",
+      "32257854",
+      "30821186",
+      "30503797",
+      "30379415",
+      "29491216",
+      "29183075",
+      "28893567",
+      "28624515",
+      "28137616",
+      "27138015",
+      "25560998",
+      "25086042",
+      "23995658",
+      "21372378",
+      "19852734",
+      "19432422",
+      "18852122",
+      "18497048",
+      "17063395",
+      "16492776",
+      "16099859",
+      "15987833",
+      "15073094",
+      "12536206",
+      "12441355"
+    ],
+    "similar": [
+      "42450037",
+      "18753690",
+      "8922878",
+      "31252411",
+      "23917122",
+      "25204619",
+      "40514634",
+      "11742533",
+      "16750840",
+      "40757306",
+      "7750284",
+      "15892636",
+      "38521455",
+      "11552682",
+      "18625316",
+      "12923188",
+      "36030969",
+      "41459849",
+      "27835038",
+      "28624515",
+      "25541437",
+      "9368054",
+      "22924551",
+      "32003036",
+      "37468001",
+      "31642815",
+      "40178351",
+      "32656810",
+      "19357508",
+      "28355542",
+      "427788",
+      "16821162",
+      "11356108",
+      "1562533",
+      "26304264",
+      "33799482",
+      "33640727",
+      "15134814",
+      "16627595",
+      "19933380",
+      "2168876",
+      "9892017",
+      "16195247",
+      "24388949",
+      "19846549",
+      "15483189",
+      "10598584",
+      "22201220",
+      "30857347",
+      "15883974",
+      "9134501",
+      "7789609",
+      "10894149",
+      "30460461",
+      "37986708",
+      "24565895",
+      "11043576",
+      "41965934",
+      "10480874",
+      "20356837",
+      "8809674",
+      "29914135",
+      "32208804",
+      "39047594",
+      "14635724",
+      "9013078",
+      "35457222",
+      "9727045",
+      "21376746",
+      "24239189",
+      "40992974",
+      "19941958",
+      "26198481",
+      "16641486",
+      "37717994",
+      "21609716",
+      "22587663",
+      "20054001",
+      "23907018",
+      "24273094",
+      "15936754",
+      "30825507",
+      "41079187",
+      "20444881",
+      "25862209",
+      "32346888",
+      "41370876",
+      "11108870",
+      "12478835",
+      "6714450",
+      "24648119",
+      "9422719",
+      "31864223",
+      "40142003",
+      "31805393",
+      "29993249",
+      "24053684",
+      "11154266",
+      "29777833",
+      "12144349"
+    ],
+    "review": [
+      "42450037",
+      "31252411",
+      "15892636",
+      "27835038",
+      "28624515",
+      "19357508",
+      "16821162",
+      "15134814",
+      "19933380",
+      "16195247",
+      "23907018",
+      "41079187",
+      "12478835"
+    ],
+    "pmc": [
+      "13361875"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27135765",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42450037/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

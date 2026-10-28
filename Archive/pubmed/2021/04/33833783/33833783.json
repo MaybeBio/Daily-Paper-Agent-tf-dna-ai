@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "33833783",
+    "doi": "10.3389/fgene.2021.665498",
+    "title": "iEnhancer-EBLSTM: Identifying Enhancers and Strengths by Ensembles of Bidirectional Long Short-Term Memory."
+  },
+  "content": {
+    "abstract": "Enhancers are regulatory DNA sequences that could be bound by specific proteins named transcription factors (TFs). The interactions between enhancers and TFs regulate specific genes by increasing the target gene expression. Therefore, enhancer identification and classification have been a critical issue in the enhancer field. Unfortunately, so far there has been a lack of suitable methods to identify enhancers. Previous research has mainly focused on the features of the enhancer's function and interactions, which ignores the sequence information. As we know, the recurrent neural network (RNN) and long short-term memory (LSTM) models are currently the most common methods for processing time series data. LSTM is more suitable than RNN to address the DNA sequence. In this paper, we take the advantages of LSTM to build a method named iEnhancer-EBLSTM to identify enhancers. iEnhancer-ensembles of bidirectional LSTM (EBLSTM) consists of two steps. In the first step, we extract subsequences by sliding a 3-mer window along the DNA sequence as features. Second, EBLSTM model is used to identify enhancers from the candidate input sequences. We use the dataset from the study of Quang H et al. as the benchmarks. The experimental results from the datasets demonstrate the efficiency of our proposed model.",
+    "keywords": [
+      "classification",
+      "enhancer",
+      "identification",
+      "long short-term memory",
+      "recurrent neural network"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niu, Kun",
+        "Luo, Ximei",
+        "Zhang, Shumei",
+        "Teng, Zhixia",
+        "Zhang, Tianjiao",
+        "Zhao, Yuming"
+      ],
+      "short_names": [
+        "Niu K",
+        "Luo X",
+        "Zhang S",
+        "Teng Z",
+        "Zhang T",
+        "Zhao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niu, Kun",
+        "short_name": "Niu K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ximei",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shumei",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Zhixia",
+        "short_name": "Teng Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianjiao",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuming",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/10 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "41465085",
+      "40796339",
+      "40778316",
+      "40567899",
+      "40335860",
+      "40203028",
+      "39684652",
+      "39519295",
+      "38946113",
+      "38868182",
+      "38510021",
+      "38485768",
+      "38443802",
+      "38385876",
+      "37760334",
+      "37442977",
+      "36936423",
+      "36520922",
+      "36376800",
+      "35883552",
+      "35115948"
+    ],
+    "refs": [
+      "33634313",
+      "33505515",
+      "33313647",
+      "33099604",
+      "32892224",
+      "32818637",
+      "32798653",
+      "32766811",
+      "32708644",
+      "32702119",
+      "32685972",
+      "32515792",
+      "32467970",
+      "32435427",
+      "32399547",
+      "32065211",
+      "32047745",
+      "32043137",
+      "31994694",
+      "31874637",
+      "31774907",
+      "31762421",
+      "31678735",
+      "31633777",
+      "31504851",
+      "30425123",
+      "30040651",
+      "29878118",
+      "29332039",
+      "28320624",
+      "28155714",
+      "28137889",
+      "28056037",
+      "27941893",
+      "27729515",
+      "26476782",
+      "26355518",
+      "24417022",
+      "23503198",
+      "22169023",
+      "18282513",
+      "16112549",
+      "11032042",
+      "3091258"
+    ],
+    "similar": [
+      "33833783",
+      "35942693",
+      "36715222",
+      "36376800",
+      "31874637",
+      "34814323",
+      "33808317",
+      "34364858",
+      "36220606",
+      "30822398",
+      "29878118",
+      "37113248",
+      "33802922",
+      "35663929",
+      "26476782",
+      "34486522",
+      "35883552",
+      "37442977",
+      "33119044",
+      "36936423",
+      "33481715",
+      "33840460",
+      "35394911",
+      "29084508",
+      "35605495",
+      "33122119",
+      "28878646",
+      "33741075",
+      "32485827",
+      "36740001",
+      "38385876",
+      "36043696",
+      "30513692",
+      "36679646",
+      "32899485",
+      "34073774",
+      "31340596",
+      "37935777",
+      "38797765",
+      "31836728",
+      "28699566",
+      "36399979",
+      "17488755",
+      "28716036",
+      "34901421",
+      "36520922",
+      "16112549",
+      "35417351",
+      "28011771",
+      "30268089",
+      "36188335",
+      "35887306",
+      "30905748",
+      "36671456",
+      "34621309",
+      "28588608",
+      "35015646",
+      "26377945",
+      "32086231",
+      "35103942",
+      "35780100",
+      "33418334",
+      "34721533",
+      "35422876",
+      "11032042",
+      "36850574",
+      "37155635",
+      "37430865",
+      "26446758",
+      "30944913",
+      "35198020",
+      "33581335",
+      "34812044",
+      "24920384",
+      "31235800",
+      "30616557",
+      "33848710",
+      "30142385",
+      "33210994",
+      "30419785",
+      "37089327",
+      "27662874",
+      "34962264",
+      "36850768",
+      "31203556",
+      "31899770",
+      "29695376",
+      "29382286",
+      "29219068",
+      "35918374",
+      "34199559",
+      "32443926",
+      "31888110",
+      "38549527"
+    ],
+    "review": [
+      "33833783",
+      "26446758"
+    ],
+    "pmc": [
+      "8021722"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33833783/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33833783",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2021.665498",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33833783",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

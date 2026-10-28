@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a computational study of three carbazole alkaloids (mukonal, 7-hydroxymukonal, 7-methoxymukonal) as potential inhibitors of the *Plasmodium falciparum* TFIIH complex subunit Tfb5 (PF3D7_1441900). They claim that DFT-based frontier molecular orbital and density of states analyses show 7-methoxymukonal has the smallest HOMO-LUMO gap, that molecular docking shows this compound has the strongest binding affinity to the target, and that ADME predictions indicate favorable drug-like properties and low toxicity. They conclude that 7-methoxymukonal is the most promising candidate.
+- **Visible evidence base** Abstract text only; no numerical data, docking scores, ADME parameters, or methodological details are provided
+- **Missing materials affecting confidence** Full methods, all numerical results, docking validation procedures, target structure selection and preparation details, DFT functional/basis set specifications, ADME tool and parameter thresholds, toxicity prediction methodology, and any comparative baseline or positive control data
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational screening study with a plausible workflow, but the evidence provided is insufficient to evaluate the validity of the central claims. No quantitative results are reported, and the methodological details necessary to assess technical soundness are absent. The conclusion that 7-methoxymukonal is the most promising candidate rests on correlations between computed parameters that are not demonstrated with data. The work may have incremental value for antimalarial drug discovery, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and antimalarial medicinal chemistry may find the results of interest as a preliminary ranking of three related compounds against a specific *P. falciparum* target. The study could inform future experimental validation efforts, particularly if the target (TFIIH subunit Tfb5) is considered biologically relevant. However, the narrow scope and lack of experimental confirmation limit broader appeal.
+- **Major strengths** The study addresses a relevant pathogen (*P. falciparum*) and a specific, potentially druggable target. The use of multiple complementary computational methods (DFT, docking, ADME) is appropriate for an initial screening study. The comparison of three structurally related compounds provides a coherent chemical series for ranking.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that 7-methoxymukonal exhibited the strongest binding affinity toward the target protein and that ADME results indicated favorable drug-like properties and low toxicity.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No numerical values are reported for binding affinities, ADME parameters, or toxicity predictions. The abstract states outcomes without presenting any quantitative data that would allow a reader to assess the magnitude of differences between compounds or the absolute quality of the predictions.  
+  - **Why it matters** Without quantitative results, the ranking of compounds cannot be verified, and the claim of "strongest binding affinity" is meaningless without reference values or comparison to known inhibitors. Similarly, "favorable drug-like properties" requires specific parameter values against established thresholds.  
+  - **Resolution test** Provide docking scores (e.g., binding free energies in kcal/mol) for all three compounds, ADME parameter values with reference ranges, and toxicity prediction outputs. Show that the differences between compounds exceed typical error margins of the methods used.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The authors state that DFT, molecular docking, and pharmacokinetic analyses were performed, and that frontier molecular orbital and density of states analyses were used.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No methodological details are provided. The DFT functional, basis set, solvation model, docking software and scoring function, protein structure source and preparation, ligand protonation states, and ADME prediction tool are all unspecified. Without these details, the results cannot be reproduced or assessed for technical validity.  
+  - **Why it matters** Computational results are highly dependent on methodological choices. Different functionals, scoring functions, or protein conformations can lead to different rankings. The absence of these details prevents any assessment of whether the methods were applied appropriately.  
+  - **Resolution test** Specify all computational parameters in the full manuscript, including software versions, force fields, and validation steps (e.g., redocking of co-crystallized ligands if available).  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological relevance  
+  - **Claim pointer** The authors imply that inhibition of the TFIIH complex subunit Tfb5 is a valid therapeutic strategy against *P. falciparum*.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not provide any evidence that Tfb5 is a validated or even proposed drug target for malaria. No functional data, genetic validation, or prior literature context is given to support the choice of this target.  
+  - **Why it matters** If the target is not biologically essential or druggable, the entire computational exercise has limited translational value. The abstract should at least cite evidence for target relevance.  
+  - **Resolution test** Add a brief justification for targeting Tfb5, citing experimental evidence of its essentiality or prior studies implicating it in parasite viability.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Claim overreach  
+  - **Claim pointer** The authors conclude that "7-methoxymukonal is the most promising candidate against the selected protein, in agreement with the other computed parameters."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The conclusion is presented as a definitive ranking, but the abstract does not show whether the differences between compounds are significant or whether the correlation between HOMO-LUMO gap, docking score, and ADME properties is meaningful. The phrase "in agreement with the other computed parameters" implies a consistency that is not demonstrated.  
+  - **Why it matters** Overstated conclusions from computational screening can mislead subsequent experimental efforts. The claim should be tempered to reflect the preliminary nature of in silico predictions.  
+  - **Resolution test** Provide statistical or comparative analysis showing that the differences are meaningful, and soften the conclusion to indicate that 7-methoxymukonal warrants further experimental investigation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Target protein description  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The target is described as "PF3D7_1441900 (transcription factor TFIIH complex subunit Tfb5, putative)" but the abstract does not explain why this subunit was chosen over other TFIIH components or other *P. falciparum* targets.  
+  - **Required correction** Add one or two sentences justifying the target selection.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Drug-like properties"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "drug-like properties" is used without specifying which ADME parameters were evaluated (e.g., Lipinski's rule of five, solubility, permeability).  
+  - **Required correction** List the specific ADME parameters and the thresholds used to classify compounds as drug-like.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to existing work  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not mention whether these compounds have been studied previously against this or other *P. falciparum* targets, nor how this work advances beyond prior computational studies.  
+  - **Required correction** Add a brief statement of novelty relative to existing literature.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Language precision  
+  - **Affected element** "Optimized and evaluated"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "optimized and evaluated" is vague; it is unclear what optimization refers to (geometry optimization, docking pose optimization, or lead optimization).  
+  - **Required correction** Clarify the meaning of "optimized" in the context of the methods used.
+
+## Risk / unsupported claims
+- The claim that 7-methoxymukonal has the strongest binding affinity is unsupported because no docking scores are reported.
+- The claim that ADME results indicate favorable drug-like properties and low toxicity is unsupported because no parameter values or prediction outputs are provided.
+- The claim that the three compounds "have shown potential for the treatment of this disease" is stated without citation or experimental evidence in the abstract.
+- The conclusion that 7-methoxymukonal is the most promising candidate is not supported by quantitative comparative data.
+- The biological relevance of the target (Tfb5) is asserted without supporting evidence or citation.

@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results, Discussion, Conclusion) without supplementary files or figures
+- **Assessment boundary** Scientific soundness, methodological rigor, evidence consistency, and clarity of claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that dioxin exposure, particularly TCDD, contributes to liposarcoma pathogenesis through AhR-related pathways. They integrate network toxicology, machine learning on transcriptomic data, molecular docking, molecular dynamics simulations, and in vitro experiments to identify five prognostic proteins (CDH3, ADORA2B, MMP14, IP6K2, HTR2A) and propose ketanserin as an adjunct to doxorubicin for treatment.
+- **Visible evidence base** Text descriptions of results, figure legends, and methodological summaries. No actual figures, tables, supplementary materials, or numerical data are available for inspection.
+- **Missing materials affecting confidence** All figures, supplementary materials, raw data, statistical outputs, model performance metrics, and experimental protocols are absent. This substantially limits verification of the reported findings.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question regarding dioxin-associated liposarcoma. The integration of multiple computational and experimental approaches is ambitious. However, the evidence as presented is insufficient to support several core claims. Key issues include a lack of quantitative data, unclear statistical handling, incomplete methodological details, and a disconnect between computational predictions and experimental validation. The conclusion that ketanserin enhances doxorubicin efficacy is not supported by the data described.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, sarcoma biology, and computational drug repurposing may find the topic relevant. The potential link between dioxin and liposarcoma, and the proposed five-gene prognostic signature, could interest those studying adipocyte tumors or POP-related cancers. However, the current evidence level is too preliminary for clinical or translational audiences.
+- **Major strengths** The study addresses a novel and important question regarding dioxin-specific mechanisms in liposarcoma. The multi-approach strategy, combining network toxicology, machine learning, and molecular simulation, is comprehensive. The identification of AhR as a central node is biologically plausible given established dioxin toxicology. The use of multiple public datasets for validation is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results demonstrated that AHR promotes proliferation in liposarcoma cells" (Results, Fig. 3D)
+  - **Evidence pointer** Fig. 3D, described in Results section
+  - **Concern** The claim that AHR overexpression promotes proliferation is based on a CCK-8 assay, but no quantitative data, time points, cell counts, or statistical comparisons are provided. The figure legend states "mean ± SEM of four independent experiments" with a single asterisk for P < 0.05, but the actual values, effect size, and statistical test are not described.
+  - **Why it matters** This is a central functional claim linking dioxin biology to liposarcoma. Without quantitative evidence, the biological relevance of AHR in this context cannot be assessed.
+  - **Resolution test** Provide raw CCK-8 data with time-course curves, statistical analysis details, and effect sizes. Ideally, include additional proliferation assays (e.g., EdU, colony formation) and a rescue experiment with an AHR antagonist.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "The results showed that three ensemble learning methods, random survival forest (RSF), LASSO and stepwise Cox regression, performed relatively well in the modeling" (Results, Fig. 4A)
+  - **Evidence pointer** Fig. 4A, described in Results section
+  - **Concern** The manuscript states that 117 combinations of machine learning algorithms were tested, but only three are mentioned as performing well. No performance metrics (C-index, AUC, calibration) are reported for any model. The selection of the final model is not justified. The figure legend mentions "101 machine learning models" in the title, which contradicts the text stating 117 combinations.
+  - **Why it matters** The prognostic model is a core deliverable. Without transparent reporting of model performance, comparison, and selection criteria, the validity of the five-gene signature is unverifiable.
+  - **Resolution test** Report C-index and AUC for all models tested, specify the final model selection criteria, and clarify the discrepancy between 101 and 117 models. Provide calibration plots and internal/external validation metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results showed that in SW872 cells, even at low concentrations (0.01 µM) of Doxorubicin (Dox), significant inhibition of cell proliferation was observed when combined with an appropriate amount (25 µM) of HTR2A inhibitor ketanserin (ket). This indicates that the combination of ketanserin and the first-line chemotherapeutic agent doxorubicin the chemotherapy efficacy against liposarcoma." (Results, Fig. 5F-G)
+  - **Evidence pointer** Fig. 5F-G, described in Results section
+  - **Concern** The claim of synergistic or additive efficacy is not supported by the described data. No comparison is shown between ketanserin alone, doxorubicin alone, and the combination. The sentence is grammatically incomplete ("doxorubicin the chemotherapy efficacy"), suggesting a missing verb. The colony formation assay quantification is mentioned but not described numerically.
+  - **Why it matters** This is the key translational claim of the paper. Without appropriate control groups and statistical comparison, the therapeutic potential of ketanserin cannot be established.
+  - **Resolution test** Provide dose-response curves for ketanserin and doxorubicin individually and in combination. Use combination index analysis (e.g., Chou-Talalay) to demonstrate synergy. Include statistical comparison across all groups.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "Molecular dynamics (MD) simulations were performed using Gromacs. The protein was parameterized with the CHARMM36 force field, and the ligand topology was generated with GAFF2 parameters."
+  - **Evidence pointer** Materials and methods, Molecular dynamics simulations section
+  - **Concern** The MD simulation methodology is described in only two sentences. Critical parameters are missing: simulation length, number of replicates, temperature/pressure coupling, water model, ion concentration, and analysis criteria for binding stability. The use of CHARMM36 for protein and GAFF2 for ligand is a mixed force field approach that requires careful validation.
+  - **Why it matters** The MD results are used to support binding stability claims. Without adequate methodological detail, these results cannot be reproduced or evaluated.
+  - **Resolution test** Provide complete MD simulation parameters, including simulation time, ensemble, thermostats/barostats, and convergence criteria. Justify the mixed force field approach and provide validation of ligand parameters.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results revealed that in the TCDD-liposarcoma high-risk group (Fig. 4K), there was a significant reduction in CD4+ T cells, CD8+ T cells, and macrophages, which aligns with the immune microenvironment damage caused by TCDD."
+  - **Evidence pointer** Fig. 4K, described in Results section
+  - **Concern** The single-cell analysis is described in one sentence. No details are provided on cell type annotation methodology, clustering parameters, or statistical testing for cell proportion differences. The claim of "significant reduction" is not supported by any reported statistics.
+  - **Why it matters** This finding links the prognostic model to immune biology, but without rigorous single-cell analysis details, the conclusion is not verifiable.
+  - **Resolution test** Provide detailed single-cell analysis methods, including quality control, normalization, clustering, and cell type annotation. Report statistical tests and effect sizes for cell proportion comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The statement "the reporting threshold for dioxins is typically in grams rather than pounds" is confusing and likely a typographical error. Reporting thresholds are typically in nanograms or picograms.
+  - **Required correction** Clarify the intended unit and correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Figure 4 title
+  - **Evidence pointer** Fig. 4 legend
+  - **Issue** The figure title states "101 machine learning models" while the text states "117 combinations." This numerical discrepancy is confusing.
+  - **Required correction** Reconcile the numbers and ensure consistency between text and figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, molecular docking section
+  - **Evidence pointer** Results, Fig. 5A-E
+  - **Issue** The docking results are described as "Vina score below 6 kcal/mol" but no specific scores for each protein are provided. The threshold for "high binding stability" is not justified.
+  - **Required correction** Report individual docking scores and provide context for the chosen threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Discussion, third paragraph
+  - **Issue** The sentence "This indicates that the combination of ketanserin and the first-line chemotherapeutic agent doxorubicin the chemotherapy efficacy against liposarcoma" is grammatically incomplete.
+  - **Required correction** Rewrite the sentence to clearly state the intended claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, cell culture
+  - **Evidence pointer** Materials and methods, cell culture section
+  - **Issue** The cell culture section does not specify passage numbers, mycoplasma testing, or authentication beyond purchase from ATCC.
+  - **Required correction** Add details on cell line authentication and mycoplasma testing.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Fig. 3D
+  - **Evidence pointer** Fig. 3D legend
+  - **Issue** The statistical significance is indicated with an asterisk, but the statistical test used is not named.
+  - **Required correction** Specify the statistical test and report exact P values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (AHR proliferation claim lacks quantitative data), R1-M2 (machine learning model selection and performance not transparent), R1-M3 (combination therapy claim lacks appropriate controls), R1-M4 (MD simulation methodology incomplete)
+- **Assessment against Nature-style criteria** Originality: The question of dioxin-specific mechanisms in liposarcoma is relatively novel, though the approaches used are standard. Scientific importance: Potentially relevant to environmental toxicology and sarcoma biology, but the current evidence does not establish a significant advance. Interdisciplinary readership: The topic bridges toxicology, oncology, and computational biology, which could appeal to a broad audience if the evidence were stronger. Technical soundness: Major gaps in methodology reporting and statistical rigor undermine confidence. Readability for nonspecialists: The text is generally accessible, but some sections (e.g., machine learning) assume prior expertise without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the lack of quantitative data, incomplete methodological details, and unsupported translational claims prevent acceptance. Major revisions with full data disclosure and additional experiments are required before the case can be re-evaluated.
+
+## Risk / unsupported claims
+- The claim that AHR promotes liposarcoma cell proliferation is unsupported by the described data (no quantitative results or statistics).
+- The claim that ketanserin enhances doxorubicin efficacy is unsupported, as no comparison with individual treatments is described.
+- The claim of "significant reduction" in immune cell populations in the high-risk group is unsupported by reported statistics.
+- The statement that all five proteins "stably bind to TCDD" is based on docking scores and MD simulations, but the MD methodology is too incomplete to verify.
+- The prognostic value of the five-gene signature is unverifiable without model performance metrics.
+- The statement that dioxins "tend to accumulate in fat tissue" is presented as established fact, but the supporting citation is not provided in the text.
+- The claim that ketanserin has "relatively minimal effects on the central nervous system" is an oversimplification and not supported by data in this manuscript.

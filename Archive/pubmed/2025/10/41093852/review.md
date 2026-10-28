@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with Nature Communications standards. No assessment of formatting, grammar, or editorial style beyond readability.
+- **Shared manuscript claim summary** The authors present scTFBridge, a disentangled deep generative model for single-cell multi-omics data that integrates TF-motif binding priors to infer gene regulatory networks. The model separates latent spaces into shared and modality-specific components, uses mutual information minimization and contrastive learning for alignment, and employs SHAP-based explainability to derive cis- and trans-regulatory scores. Claims include superior performance over baseline methods in regulatory inference and identification of cell-type-specific susceptibility genes.
+- **Visible evidence base** Results sections describe applications to BMMC, rheumatoid arthritis, PBMC, and lung cancer datasets. Benchmarking against PCC, Distance, Random, SCENIC+, LINGER, scMTNI, and scMultiomeGRN is described. Method sections provide model architecture, loss functions, and evaluation metrics.
+- **Missing materials affecting confidence** Figures and supplementary data are referenced but not provided. Detailed benchmark results, statistical test outputs, hyperparameter values, and ablation study results are not visible. Code availability and data accession details are not stated in the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in single-cell multi-omics integration and GRN inference. The conceptual contribution of incorporating TF-motif binding priors into a disentangled VAE framework is interesting and potentially useful. However, the evidence presented in the text is insufficient to fully evaluate the method's performance, robustness, and novelty relative to existing approaches. Several claims are made without visible quantitative support, and the methodological description lacks critical details needed for reproducibility. The work has promise but requires substantial additional evidence and clarification before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing methods for single-cell multi-omics integration and gene regulatory network inference. Researchers studying transcriptional regulation, cell-type-specific gene programs, and disease susceptibility mechanisms would also find the framework relevant. The disentanglement approach and TF-motif integration could interest method developers in the deep generative modeling community.
+- **Major strengths**
+  1. The conceptual framework of disentangling shared and modality-specific latent spaces with biological priors is well motivated and addresses a real challenge in multi-omics integration.
+  2. The integration of TF-motif binding knowledge into the decoder architecture is a thoughtful approach to enhance interpretability.
+  3. The application to multiple diverse datasets (BMMC, RA, PBMC, lung cancer) demonstrates potential generalizability.
+  4. The use of SHAP for regulatory score computation provides a principled explainability framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scTFBridge outperforms baseline methods in cis- and trans-regulatory inference is central to the paper's contribution.
+  - **Evidence point** Results sections "Benchmarking analysis of cell-type-specific cis-regulatory inference" and "Benchmarking analysis of cell-type-specific trans-regulatory inference"; figures 4 and 5.
+  - **Concern** The text describes benchmark results but provides no visible quantitative data. No AUC values, AUPR ratios, confidence intervals, or statistical significance levels are reported in the text. The comparison methodology is unclear: how were baselines tuned? Were the same data splits used? How many replicates? Without this information, the claimed superiority cannot be assessed.
+  - **Why it matters** The primary contribution of the paper is the claimed performance advantage. If this is not rigorously demonstrated with transparent statistics, the core value proposition is unverified.
+  - **Resolution test** Provide full benchmark tables with mean and variance across replicates, statistical tests comparing methods, and a clear description of the evaluation protocol. Include the number of test cells, positive/negative ratios, and how thresholds were selected.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model effectively disentangles modality-shared and modality-private information.
+  - **Evidence point** Results section "scTFBridge facilitates cell-type-specific disentangled embedding learning"; figure 2a; supplementary figures 1 and 2.
+  - **Concern** The disentanglement is assessed qualitatively via UMAP visualization and MI score comparisons. No quantitative metric for disentanglement quality is provided. The MI scores are mentioned but not shown. The claim that RNA-private embeddings contain "minimal unique information" is based on a single dataset and may not generalize. A formal evaluation of disentanglement is needed.
+  - **Why it matters** Disentanglement is a core design goal. Without quantitative evidence, it is unclear whether the model achieves genuine separation or simply produces correlated embeddings.
+  - **Resolution test** Report quantitative disentanglement metrics (e.g., mutual information gap, separability scores) across datasets. Show MI values with statistical comparisons. Provide ablation results demonstrating the contribution of each loss term to disentanglement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methodological description of the model architecture and training procedure.
+  - **Evidence point** Methods sections "Framework of scTFBridge", "Cross mutual information Block", "TF-Binding informed ATAC-seq Decoder", "Implementation details of scTFBridge".
+  - **Concern** Critical implementation details are missing. The architecture of the encoders and decoders is not specified (layer sizes, activation functions, normalization). The MI estimator network structure is not described. The contrastive learning loss formulation is not given. Hyperparameter values for beta and gamma are not provided. The early stopping criterion is vague. Without these details, the method cannot be reproduced.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational method papers. The current description is insufficient for independent implementation.
+  - **Resolution test** Provide complete architecture specifications, loss function equations, hyperparameter values, and training details. Consider releasing code and a detailed model card.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that scTFBridge identifies cell-type-specific susceptibility genes and regulatory programs in lung cancer.
+  - **Evidence point** Results section "scTFBridge uncovers cell-type-specific gene regulations in lung cancer susceptibility"; figure 6.
+  - **Concern** The analysis of lung cancer susceptibility genes is presented as a key application, but the text provides no quantitative validation. How were the identified genes compared to known susceptibility loci? What is the enrichment significance? The comparison to Long et al. is mentioned but not detailed. The biological novelty of the findings is unclear.
+  - **Why it matters** The disease application is a major selling point. Without validation, the biological relevance of the predictions is unsubstantiated.
+  - **Resolution test** Provide quantitative enrichment analyses, comparison to known GWAS loci, and functional validation or literature support for identified genes. Clarify what new biological insights are gained beyond existing analyses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The use of SHAP values for regulatory score computation.
+  - **Evidence point** Methods section "SHAP value for cell-level and cell-type-specific GRN inference".
+  - **Concern** The SHAP computation is described as using reconstruction loss as the objective, but the details are unclear. How are SHAP values computed for the cross-modal generation? The formula for cis-regulatory scores includes a distance decay term, but the rationale and sensitivity to the decay parameter are not discussed. The statistical properties of these scores are not characterized.
+  - **Why it matters** The regulatory scores are the output of the method. If their computation is not rigorously justified, the resulting GRN inferences may be unreliable.
+  - **Resolution test** Provide a detailed derivation of the SHAP-based scoring, sensitivity analysis for the distance parameter, and validation of score distributions. Compare SHAP-based scores to alternative attribution methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence point** Abstract, first sentence
+  - **Issue** The phrase "disentangled deep generative model informed by TF-motif binding" is dense and may be unclear to nonspecialist readers.
+  - **Required correction** Consider rephrasing to clarify the model's purpose and approach, e.g., "a deep generative model that separates shared and modality-specific regulatory signals using TF-motif binding priors."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Equation 21
+  - **Evidence point** Methods section "Learning Object"
+  - **Issue** The total loss function is given as L = L_VAE + beta*L_MI + gamma*L_cross modal, but the individual loss terms are not fully defined. The cross-modal loss is not specified.
+  - **Required correction** Provide explicit equations for each loss term, including the cross-modal reconstruction loss.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, figure 2d
+  - **Evidence point** Results section "scTFBridge facilitates cell-type-specific disentangled embedding learning"
+  - **Issue** The identification of cell-type-specific TFs (ESR, TCF7, SOX4) is stated without explaining the selection criteria or significance thresholds.
+  - **Required correction** Describe the criteria for identifying these TFs and provide statistical support for their cell-type specificity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, preprocessing
+  - **Evidence point** Methods section "Single-cell multi-omics data preprocessing"
+  - **Issue** The selection of top 128 highly variable TFs and top 3000 highly expressed genes is arbitrary. The sensitivity of results to these choices is not discussed.
+  - **Required correction** Justify these parameter choices or provide sensitivity analyses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence point** Discussion, first paragraph
+  - **Issue** The discussion of limitations is brief and does not address potential failure modes of the disentanglement approach or the impact of TF-motif prior quality.
+  - **Required correction** Expand the limitations section to discuss scenarios where the model may underperform and the dependence on motif database completeness.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing quantitative benchmark results with statistical rigor.
+  - R1-M2: No quantitative disentanglement evaluation.
+  - R1-M3: Insufficient implementation details for reproducibility.
+  - R1-M4: Lack of validation for disease application claims.
+  - R1-M5: Unclear SHAP-based scoring methodology.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of disentangled VAEs with TF-motif priors for GRN inference is a novel integration of existing ideas. However, the individual components (disentangled VAEs, contrastive learning, SHAP) are established. The novelty lies in their specific combination and application.
+  - **Scientific importance** Potentially high. Reliable GRN inference from single-cell multi-omics data is an important problem. If the method delivers on its claims, it could be a valuable tool. However, the current evidence does not fully establish this importance.
+  - **Interdisciplinary readership** The topic bridges machine learning, genomics, and molecular biology. The paper is likely to interest readers across these fields, but the dense technical presentation may limit accessibility for biologists without computational background.
+  - **Technical soundness** Not fully established. The methodological description has gaps, and the benchmark results are not visible. The SHAP-based scoring approach needs more rigorous justification. The disentanglement claims lack quantitative support.
+  - **Readability for nonspecialists** The abstract and introduction are reasonably accessible, but the methods and results sections assume significant expertise in both deep learning and genomics. The paper would benefit from clearer explanations of key concepts and more intuitive descriptions of the model's behavior.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising concept and addresses an important problem, but the evidence presented is insufficient to support the central claims. Major revisions are required to provide quantitative results, methodological details, and validation. I would be supportive if these technical concerns are resolved with additional analyses and clearer presentation.
+
+## Risk / unsupported claims
+- The claim of superior performance over baseline methods is unsupported without visible benchmark data.
+- The claim of effective disentanglement is unsupported without quantitative metrics.
+- The claim of identifying cell-type-specific susceptibility genes in lung cancer is unvalidated.
+- The claim that shared embeddings capture "gene regulatory signals" more effectively is not quantitatively demonstrated.
+- The generalizability of the method beyond blood-derived datasets is asserted but not tested.
+- The biological interpretability of the latent variables as specific TF activities is plausible but not directly validated.

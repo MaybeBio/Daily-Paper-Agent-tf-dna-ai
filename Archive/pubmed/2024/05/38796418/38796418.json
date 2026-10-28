@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "38796418",
+    "doi": "10.1186/s12866-024-03344-y",
+    "title": "Identification of carbohydrate gene clusters obtained from in vitro fermentations as predictive biomarkers of prebiotic responses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prebiotic fibers are non-digestible substrates that modulate the gut microbiome by promoting expansion of microbes having the genetic and physiological potential to utilize those molecules. Although several prebiotic substrates have been consistently shown to provide health benefits in human clinical trials, responder and non-responder phenotypes are often reported. These observations had led to interest in identifying, a priori, prebiotic responders and non-responders as a basis for personalized nutrition. In this study, we conducted in vitro fecal enrichments and applied shotgun metagenomics and machine learning tools to identify microbial gene signatures from adult subjects that could be used to predict prebiotic responders and non-responders. RESULTS: Using short chain fatty acids as a targeted response, we identified genetic features, consisting of carbohydrate active enzymes, transcription factors and sugar transporters, from metagenomic sequencing of in vitro fermentations for three prebiotic substrates: xylooligosacharides, fructooligosacharides, and inulin. A machine learning approach was then used to select substrate-specific gene signatures as predictive features. These features were found to be predictive for XOS responders with respect to SCFA production in an in vivo trial. CONCLUSIONS: Our results confirm the bifidogenic effect of commonly used prebiotic substrates along with inter-individual microbial responses towards these substrates. We successfully trained classifiers for the prediction of prebiotic responders towards XOS and inulin with robust accuracy (>/= AUC 0.9) and demonstrated its utility in a human feeding trial. Overall, the findings from this study highlight the practical implementation of pre-intervention targeted profiling of individual microbiomes to stratify responders and non-responders.",
+    "keywords": [
+      "CAZymes",
+      "Microbiome",
+      "Personalized nutrition",
+      "Prebiotics"
+    ],
+    "mesh_terms": [
+      "*Prebiotics/analysis",
+      "Humans",
+      "*Fermentation",
+      "*Feces/microbiology",
+      "*Gastrointestinal Microbiome/genetics",
+      "Adult",
+      "*Fatty Acids, Volatile/metabolism",
+      "Multigene Family",
+      "Machine Learning",
+      "Metagenomics/methods",
+      "Biomarkers/metabolism",
+      "Bacteria/genetics/metabolism/classification",
+      "Female",
+      "Male",
+      "Inulin/metabolism",
+      "Young Adult",
+      "Carbohydrate Metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kok, Car Reen",
+        "Rose, Devin J",
+        "Cui, Juan",
+        "Whisenhunt, Lisa",
+        "Hutkins, Robert"
+      ],
+      "short_names": [
+        "Kok CR",
+        "Rose DJ",
+        "Cui J",
+        "Whisenhunt L",
+        "Hutkins R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Complex Biosystems, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+        "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+        "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, CA, 94550, USA.",
+        "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+        "Department of Food Science and Technology, University of Nebraska, 268 Food Innovation Center, Lincoln, NE, 68588, USA.",
+        "Department of Computer Science and Engineering, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+        "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+        "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA. rhutkins1@unl.edu.",
+        "Department of Food Science and Technology, University of Nebraska, 268 Food Innovation Center, Lincoln, NE, 68588, USA. rhutkins1@unl.edu.",
+        "Department of Food Science and Technology, University of Nebraska, 258 Food Innovation Center, Lincoln, NE, 68588-6205, USA. rhutkins1@unl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kok, Car Reen",
+        "short_name": "Kok CR",
+        "identifiers": [],
+        "affiliations": [
+          "Complex Biosystems, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+          "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+          "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, CA, 94550, USA."
+        ]
+      },
+      {
+        "full_name": "Rose, Devin J",
+        "short_name": "Rose DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA.",
+          "Department of Food Science and Technology, University of Nebraska, 268 Food Innovation Center, Lincoln, NE, 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Cui, Juan",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Whisenhunt, Lisa",
+        "short_name": "Whisenhunt L",
+        "identifiers": [],
+        "affiliations": [
+          "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Hutkins, Robert",
+        "short_name": "Hutkins R",
+        "identifiers": [],
+        "affiliations": [
+          "Nebraska Food for Health Center, University of Nebraska-Lincoln, Lincoln, NE, 68588, USA. rhutkins1@unl.edu.",
+          "Department of Food Science and Technology, University of Nebraska, 268 Food Innovation Center, Lincoln, NE, 68588, USA. rhutkins1@unl.edu.",
+          "Department of Food Science and Technology, University of Nebraska, 258 Food Innovation Center, Lincoln, NE, 68588-6205, USA. rhutkins1@unl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC microbiology"
+    ],
+    "journal_abbrev": [
+      "BMC Microbiol"
+    ],
+    "pub_date": "2024 May 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/26 18:11",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42307077",
+      "42261381",
+      "41971946",
+      "41750556",
+      "41542055",
+      "41245895",
+      "40916941",
+      "40047463"
+    ],
+    "refs": [
+      "36464700",
+      "36173041",
+      "36076058",
+      "35707424",
+      "35561452",
+      "35538056",
+      "35240330",
+      "34533599",
+      "34414351",
+      "34375845",
+      "34288919",
+      "33972677",
+      "33919102",
+      "33727392",
+      "33646347",
+      "33613480",
+      "33472701",
+      "33440171",
+      "33327781",
+      "33277504",
+      "33202108",
+      "33185970",
+      "33036985",
+      "32934239",
+      "32865024",
+      "32814582",
+      "32788375",
+      "32663059",
+      "32528151",
+      "32526796",
+      "32521538",
+      "32071263",
+      "32041744",
+      "32004499",
+      "31914919",
+      "31695033",
+      "31341288",
+      "31201276",
+      "31194939",
+      "30836671",
+      "30799264",
+      "29954454",
+      "29794055",
+      "29771380",
+      "29610517",
+      "29325042",
+      "29114246",
+      "28976925",
+      "28968748",
+      "28611480",
+      "28467925",
+      "28440278",
+      "28348841",
+      "28298430",
+      "28263959",
+      "27693307",
+      "27214047",
+      "27111508",
+      "26996765",
+      "26861055",
+      "26614127",
+      "26590418",
+      "26552345",
+      "26418763",
+      "26415759",
+      "25981789",
+      "25896518",
+      "25892234",
+      "25609793",
+      "25516281",
+      "25402007",
+      "25218569",
+      "25146375",
+      "25136124",
+      "25088686",
+      "24642063",
+      "24603757",
+      "24066026",
+      "23630581",
+      "22572875",
+      "22491358",
+      "21966454",
+      "21637034",
+      "21637023",
+      "21493652",
+      "21423604",
+      "21328111",
+      "21151493",
+      "21059476",
+      "19667173",
+      "19411417",
+      "18180751",
+      "17483518",
+      "15790854",
+      "11427691"
+    ],
+    "similar": [
+      "38796418",
+      "32900799",
+      "29244718",
+      "30308944",
+      "31686768",
+      "32788375",
+      "26583778",
+      "32440730",
+      "29307330",
+      "30824442",
+      "30359203",
+      "31936703",
+      "30395776",
+      "38214586",
+      "31969191",
+      "30898357",
+      "32466615",
+      "28636003",
+      "37820907",
+      "34849765",
+      "26095388",
+      "29137150",
+      "32677055",
+      "38441031",
+      "28117694",
+      "29953876",
+      "37793780",
+      "26156216",
+      "27267934",
+      "32198169",
+      "31201276",
+      "33119011",
+      "36724263",
+      "30674645",
+      "29590046",
+      "34251412",
+      "30064535",
+      "30831458",
+      "34923911",
+      "38468200",
+      "33805552",
+      "35902900",
+      "20568238",
+      "38656326",
+      "32331660",
+      "32320024",
+      "38097563",
+      "26648520",
+      "34200105",
+      "26053617",
+      "24446899",
+      "38337173",
+      "32610452",
+      "25525835",
+      "28709472",
+      "30241567",
+      "30447394",
+      "31915220",
+      "21883787",
+      "19735956",
+      "22004447",
+      "36596372",
+      "35405988",
+      "30171006",
+      "30696735",
+      "31724526",
+      "32340903",
+      "19200315",
+      "33544206",
+      "11157351",
+      "28213610",
+      "34182773",
+      "26615853",
+      "31586220",
+      "26404012",
+      "36801916",
+      "27810878",
+      "33527320",
+      "30776899",
+      "28244671",
+      "28045429",
+      "31108510",
+      "37942526",
+      "26731113",
+      "34288919",
+      "24066026",
+      "24262515",
+      "28165863",
+      "25196744",
+      "34923905",
+      "19854378",
+      "33231600",
+      "35631304",
+      "30889210",
+      "33515740",
+      "28538678",
+      "29710405",
+      "33666376",
+      "28730708",
+      "31152455",
+      "38914826",
+      "39039075",
+      "39358591"
+    ],
+    "review": [
+      "38796418",
+      "26156216",
+      "11157351",
+      "28244671",
+      "24262515",
+      "28165863",
+      "33666376"
+    ],
+    "pmc": [
+      "11127362"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-024-03344-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bowelmovement.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bowel Movement"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38796418/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38796418",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42139769",
+    "doi": "10.1016/j.bbrc.2026.153933",
+    "title": "A predictive 14-gene signature and FLI1 inhibition overcome tumor-infiltrating lymphocyte dysfunction in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) is an aggressive subtype lacking effective targeted therapies. Although immune checkpoint inhibitors such as pembrolizumab have improved clinical outcomes in a subset of patients, limited response rates and durability highlight the need for alternative strategies. Tumor-infiltrating lymphocyte (TIL)-based adoptive cell therapy represents a promising approach; however, the absence of reliable biomarkers for TIL functionality remains a major obstacle. In this study, we isolated TILs and autologous tumor cells from nine TNBC patients and classified TILs as reactive or non-reactive based on cytotoxic activity. Transcriptomic profiling combined with weighted gene co-expression network analysis and machine learning approaches identified a 14-gene signature that robustly distinguished reactive from non-reactive TILs. Transcription factor analysis revealed that Friend leukemia integration 1 (FLI1) regulates a large proportion of genes upregulated in non-reactive TILs. Notably, pharmacological inhibition of FLI1 using TK216 restored the cytotoxic function of non-reactive TILs and reduced expression of immunosuppressive genes. These findings identify a functional gene signature associated with TIL reactivity and suggest that targeting FLI1 may represent a strategy to enhance TIL-based immunotherapy in TNBC.",
+    "keywords": [
+      "Biomarkers",
+      "Breast cancer",
+      "FLI1",
+      "TK216",
+      "Tumor infiltrating lymphocyte"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/genetics/immunology/pathology",
+      "*Proto-Oncogene Protein c-fli-1/antagonists & inhibitors/genetics/metabolism",
+      "*Lymphocytes, Tumor-Infiltrating/immunology/pathology/drug effects/metabolism",
+      "Female",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Meng",
+        "Jiang, Longwei",
+        "Han, Siqi",
+        "Zhang, Ying",
+        "He, Juanjuan",
+        "He, Guiyang",
+        "Wu, Chong",
+        "Zhang, Heng",
+        "Liang, Hongwei",
+        "Zen, Ke",
+        "Ao, Xudong",
+        "Jia, Shaochang",
+        "Liang, Junqing"
+      ],
+      "short_names": [
+        "Jia M",
+        "Jiang L",
+        "Han S",
+        "Zhang Y",
+        "He J",
+        "He G",
+        "Wu C",
+        "Zhang H",
+        "Liang H",
+        "Zen K",
+        "Ao X",
+        "Jia S",
+        "Liang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China; Jiangsu Province Geriatric Hospital, Nanjing, Jiangsu, 210000, China.",
+        "Department of Medical Oncology, Jinling Hospital, Nanjing, China; Affiliated Hospital of Medical School, Nanjing University, Nanjing, 210018, China.",
+        "Department of Pathology, Nanjing Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, 210023, China.",
+        "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China.",
+        "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China.",
+        "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China.",
+        "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China.",
+        "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China. Electronic address: kzen@nju.edu.cn.",
+        "Peking University Cancer Hospital (Inner Mongolia Campus)/Affiliated Cancer Hospital of Inner Mongolia Medical University, Hohhot, 010020, China. Electronic address: xudong_ao@immu.edu.cn.",
+        "Jiangsu Province Geriatric Hospital, Nanjing, Jiangsu, 210000, China. Electronic address: shaochangjia@163.com.",
+        "Peking University Cancer Hospital (Inner Mongolia Campus)/Affiliated Cancer Hospital of Inner Mongolia Medical University, Hohhot, 010020, China. Electronic address: liang_junqing@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Meng",
+        "short_name": "Jia M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Longwei",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China; Jiangsu Province Geriatric Hospital, Nanjing, Jiangsu, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Han, Siqi",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Jinling Hospital, Nanjing, China; Affiliated Hospital of Medical School, Nanjing University, Nanjing, 210018, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Nanjing Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "He, Juanjuan",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "He, Guiyang",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chong",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Heng",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Hongwei",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nanjing Drum Tower Hospital, School of Life Science and Technology, China Pharmaceutical University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Zen, Ke",
+        "short_name": "Zen K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pharmaceutical Biotechnology, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, Nanjing Advanced Institute for Life Sciences, Nanjing University School of Life Sciences, Nanjing, Jiangsu, China. Electronic address: kzen@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ao, Xudong",
+        "short_name": "Ao X",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University Cancer Hospital (Inner Mongolia Campus)/Affiliated Cancer Hospital of Inner Mongolia Medical University, Hohhot, 010020, China. Electronic address: xudong_ao@immu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jia, Shaochang",
+        "short_name": "Jia S",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Geriatric Hospital, Nanjing, Jiangsu, 210000, China. Electronic address: shaochangjia@163.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Junqing",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University Cancer Hospital (Inner Mongolia Campus)/Affiliated Cancer Hospital of Inner Mongolia Medical University, Hohhot, 010020, China. Electronic address: liang_junqing@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Jul 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/16 00:36",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42139769",
+      "39643914",
+      "41883034",
+      "26515496",
+      "41293150",
+      "32529292",
+      "42360368",
+      "40438115",
+      "41488652",
+      "41325182",
+      "32249526",
+      "33813424",
+      "27912781",
+      "41836415",
+      "39380273",
+      "41437085",
+      "27075916",
+      "33743482",
+      "40634732",
+      "42079614",
+      "29233559",
+      "39477319",
+      "39912409",
+      "28488168",
+      "34224371",
+      "33495298",
+      "40362529",
+      "38670590",
+      "41399382",
+      "32605588",
+      "31502168",
+      "32131780",
+      "27169467",
+      "42023218",
+      "28377481",
+      "39729292",
+      "29599354",
+      "37549066",
+      "33148223",
+      "41121362",
+      "30929569",
+      "42236117",
+      "26006068",
+      "31402409",
+      "39735530",
+      "30725384",
+      "39154313",
+      "41759266",
+      "28936553",
+      "32447649",
+      "32681241",
+      "32198536",
+      "39656429",
+      "42432165",
+      "34022297",
+      "41098738",
+      "36602784",
+      "42358833",
+      "42039207",
+      "32005408",
+      "32129476",
+      "40425338",
+      "41595458",
+      "32622323",
+      "30064200",
+      "38513466",
+      "31956037",
+      "31856876",
+      "38704606",
+      "41543151",
+      "42032729",
+      "41566505",
+      "31302586",
+      "40903297",
+      "38773133",
+      "29858752",
+      "27121061",
+      "34448400",
+      "22812567",
+      "26341640",
+      "41209020",
+      "30312311",
+      "41381302",
+      "28473315",
+      "32150594",
+      "41943833",
+      "42035196",
+      "28905250",
+      "28993275",
+      "26598540",
+      "39723208",
+      "31096176",
+      "29336717",
+      "41612481",
+      "38791429",
+      "28817603",
+      "39818404",
+      "32408905",
+      "33726701",
+      "42245636"
+    ],
+    "review": [
+      "42139769",
+      "41836415",
+      "40362529",
+      "32131780",
+      "39735530",
+      "39154313",
+      "28936553",
+      "32129476",
+      "41543151"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00697-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

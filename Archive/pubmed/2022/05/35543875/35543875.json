@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "35543875",
+    "doi": "10.1007/s00384-022-04176-w",
+    "title": "Identifying predictive signalling networks for Vedolizumab response in ulcerative colitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In ulcerative colitis (UC), the molecular mechanisms that drive disease development and patient response to therapy are not well understood. A significant proportion of patients with UC fail to respond adequately to biologic therapy. Therefore, there is an unmet need for biomarkers that can predict patients' responsiveness to the available UC therapies as well as ascertain the most effective individualised therapy. Our study focused on identifying predictive signalling pathways that predict anti-integrin therapy response in patients with UC. METHODS: We retrieved and pre-processed two publicly accessible gene expression datasets (GSE73661 and GSE72819) of UC patients treated with anti-integrin therapies: (1) 12 non-IBD controls and 41 UC patients treated with Vedolizumab therapy, and (2) 70 samples with 58 non-responder and 12 responder UC patient samples treated with Etrolizumab therapy without non-IBD controls. We used a diffusion-based signalling model which is mainly focused on the T-cell receptor signalling network. The diffusion model uses network connectivity between receptors and transcription factors. RESULTS: The network diffusion scores were able to separate VDZ responder and non-responder patients before treatment better than the original gene expression. On both anti-integrin treatment datasets, the diffusion model demonstrated high predictive performance for discriminating responders from non-responders in comparison with 'nnet'. We have found 48 receptor-TF pairs identified as the best predictors for VDZ therapy response with AUC >/= 0.76. Among these receptor-TF predictors pairs, FFAR2-NRF1, FFAR2-RELB, FFAR2-EGR1, and FFAR2-NFKB1 are the top best predictors. For Etrolizumab, we have identified 40 best receptor-TF pairs and CD40-NFKB2 as the best predictor receptor-TF pair (AUC = 0.72). We also identified subnetworks that highlight the network interactions, connecting receptors and transcription factors involved in cytokine and fatty acid signalling. The findings suggest that anti-integrin therapy responses in cytokine and fatty acid signalling can stratify UC patient subgroups. CONCLUSIONS: We identified signalling pathways that may predict the efficacy of anti-integrin therapy in UC patients and personalised therapy alternatives. Our results may lead to the advancement of a promising clinical decision-making tool for the stratification of UC patients.",
+    "keywords": [
+      "Immune regulation",
+      "Infliximab",
+      "Network connectivity",
+      "Personalised therapy",
+      "Signalling pathway",
+      "T-cell receptor signalling",
+      "Therapy response",
+      "Ulcerative colitis",
+      "Vedolizumab"
+    ],
+    "mesh_terms": [
+      "Antibodies, Monoclonal, Humanized",
+      "*Colitis, Ulcerative/chemically induced/drug therapy",
+      "Cytokines",
+      "Fatty Acids/therapeutic use",
+      "Gastrointestinal Agents/therapeutic use",
+      "Humans",
+      "Transcription Factors/therapeutic use",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Amrinder",
+        "Fenton, Christopher G",
+        "Anderssen, Endre",
+        "Paulssen, Ruth H"
+      ],
+      "short_names": [
+        "Singh A",
+        "Fenton CG",
+        "Anderssen E",
+        "Paulssen RH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Bioinformatics Research Group, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway.",
+        "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway.",
+        "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway.",
+        "Clinical Bioinformatics Research Group, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway. ruth.h.paulssen@uit.no.",
+        "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway. ruth.h.paulssen@uit.no."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Amrinder",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Bioinformatics Research Group, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Fenton, Christopher G",
+        "short_name": "Fenton CG",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Anderssen, Endre",
+        "short_name": "Anderssen E",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Paulssen, Ruth H",
+        "short_name": "Paulssen RH",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Bioinformatics Research Group, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromsø, Norway. ruth.h.paulssen@uit.no.",
+          "Genomics Support Centre Tromso, UiT- The Arctic University of Norway, Department of Clinical Medicine, Faculty of Health Sciences, UiT- The Arctic University of Norway, Tromso, Norway. ruth.h.paulssen@uit.no."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of colorectal disease"
+    ],
+    "journal_abbrev": [
+      "Int J Colorectal Dis"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/12 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42454213",
+      "41439195",
+      "41064348",
+      "40095109",
+      "39656426",
+      "38855341",
+      "38463620",
+      "37197397",
+      "36818601"
+    ],
+    "refs": [
+      "36700114",
+      "34561227",
+      "34467254",
+      "34042157",
+      "33675360",
+      "33548233",
+      "32924844",
+      "32806782",
+      "31205486",
+      "30131801",
+      "29915667",
+      "29260508",
+      "29211912",
+      "28523450",
+      "28334344",
+      "28144028",
+      "27914657",
+      "27802155",
+      "27683798",
+      "27571771",
+      "27552332",
+      "27252400",
+      "27060105",
+      "26950747",
+      "26863267",
+      "26811644",
+      "26627550",
+      "26522261",
+      "26255287",
+      "25756273",
+      "25687206",
+      "25414667",
+      "25348397",
+      "24998528",
+      "24415861",
+      "24323043",
+      "24104885",
+      "24092863",
+      "23964932",
+      "23589301",
+      "22914296",
+      "22455463",
+      "22398050",
+      "21978545",
+      "21180538",
+      "20581238",
+      "20414258",
+      "19815541",
+      "19111727",
+      "18623174",
+      "17633015",
+      "17124531",
+      "16266194",
+      "15870214",
+      "14747477",
+      "12883005",
+      "12189159",
+      "11884618",
+      "11865024",
+      "11199366",
+      "11045571",
+      "10940279",
+      "9442085"
+    ],
+    "similar": [
+      "35543875",
+      "26522261",
+      "37436917",
+      "37235748",
+      "35993552",
+      "30931477",
+      "38539103",
+      "33203339",
+      "31951748",
+      "32293299",
+      "32445184",
+      "27802155",
+      "30855421",
+      "34751766",
+      "31633167",
+      "33751325",
+      "38564601",
+      "34924273",
+      "29077833",
+      "32640990",
+      "30131801",
+      "26567768",
+      "30031573",
+      "28357697",
+      "26588993",
+      "22223479",
+      "33180848",
+      "33501935",
+      "29430672",
+      "30735443",
+      "25341118",
+      "31901085",
+      "38499736",
+      "28276855",
+      "34967397",
+      "34042157",
+      "31813132",
+      "34329776",
+      "26630451",
+      "36700114",
+      "38004241",
+      "31288280",
+      "32062041",
+      "28369329",
+      "27231106",
+      "32710192",
+      "38764418",
+      "29372476",
+      "25687206",
+      "36725872",
+      "38215655",
+      "38374043",
+      "26393522",
+      "29935327",
+      "38219961",
+      "34992592",
+      "30219028",
+      "38477410",
+      "30625408",
+      "29223444",
+      "33847343",
+      "27096357",
+      "34798038",
+      "32100016",
+      "27639327",
+      "22717454",
+      "34798039",
+      "31782939",
+      "38041850",
+      "29258369",
+      "32598721",
+      "29668916",
+      "35676620",
+      "32926095",
+      "29788318",
+      "38482890",
+      "32201971",
+      "33880650",
+      "32668338",
+      "30528845",
+      "26681763",
+      "34385588",
+      "30830573",
+      "25996351",
+      "35819361",
+      "30060935",
+      "36384462",
+      "31165509",
+      "38403257",
+      "37278369",
+      "34484422",
+      "29930467",
+      "32601033",
+      "36615897",
+      "27895398",
+      "31356607",
+      "29361100",
+      "31504343",
+      "29205406"
+    ],
+    "review": [
+      "35543875",
+      "31951748",
+      "29077833",
+      "26567768",
+      "26588993",
+      "29430672",
+      "30735443",
+      "38499736",
+      "28276855",
+      "26630451",
+      "27231106",
+      "25687206",
+      "26393522",
+      "29935327",
+      "27096357",
+      "35676620",
+      "30830573",
+      "30060935",
+      "38403257",
+      "29930467"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35543875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00384-022-04176-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35543875",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "38511055",
+    "doi": "10.1016/j.ncrna.2024.01.004",
+    "title": "Integrative bioinformatics analysis of miRNA and mRNA expression profiles and identification of associated miRNA-mRNA network in intracranial aneurysms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intracranial aneurysms (IAs) represent protrusions in the vascular wall, with their growth and wall thinning influenced by various factors. These processes can culminate in the rupture of the aneurysm, leading to subarachnoid hemorrhage (SAH). Unfortunately, over half of the patients prove unable to withstand SAH, succumbing to adverse outcomes despite intensive therapeutic interventions, even in premier medical facilities. This study seeks to discern the pivotal microRNAs (miRNAs) and genes associated with the formation and progression of IAs. METHODS: The investigation gathered expression data of miRNAs (from GSE66240) and mRNAs (from GSE158558) within human aneurysm tissue and superficial temporal artery (STA) samples, categorizing them into IA and normal groups. This classification was based on the Gene Expression Omnibus (GEO) database. RESULTS: A total of 70 differentially expressed microRNAs (DEMs) and 815 differentially expressed mRNAs (DEGs) were pinpointed concerning IA. Subsequently, a miRNA-mRNA network was constructed, incorporating 9 significantly upregulated DEMs and 211 significantly downregulated DEGs. Simultaneously, functional enrichment and pathway analyses were conducted on both DEMs and DEGs. Through protein-protein interaction (PPI) network analysis and functional enrichment, 9 significantly upregulated DEMs (hsa-miR-188-5p, hsa-miR-590-5p, hsa-miR-320b, hsa-miR-423-5p, hsa-miR-140-5p, hsa-miR-486-5p, hsa-miR-320a, hsa-miR-342-3p, and hsa-miR-532-5p) and 50 key genes (such as ATP6V1G1, KBTBD6, VIM, PA2G4, DYNLL1, METTL21A, MDH2, etc.) were identified, suggesting their potential significant role in IA. Among these genes, ten were notably negatively regulated by at least two key miRNAs. CONCLUSIONS: The findings of this study provide valuable insights into the potential pathogenic mechanisms underlying IA by elucidating a miRNA-mRNA network. This comprehensive approach sheds light on the intricate interplay between miRNAs and genes, offering a deeper understanding of the molecular dynamics involved in IA development and progression.",
+    "keywords": [
+      "Aortic aneurysm",
+      "Bioinformatical analysis",
+      "Intracranial aneurysms",
+      "Regulatory network",
+      "Transcription factors",
+      "mRNA",
+      "miRNA"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Dongxiao",
+        "Gareev, Ilgiz",
+        "Beylerli, Ozal",
+        "Pavlov, Valentin",
+        "Le, Huang",
+        "Shi, Huaizhang"
+      ],
+      "short_names": [
+        "Xu D",
+        "Gareev I",
+        "Beylerli O",
+        "Pavlov V",
+        "Le H",
+        "Shi H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Central Research Laboratory, Bashkir State Medical University, Ufa, Republic of Bashkortostan, 3 Lenin street, 450008, Russia.",
+        "Central Research Laboratory, Bashkir State Medical University, Ufa, Republic of Bashkortostan, 3 Lenin street, 450008, Russia.",
+        "Department of Urology, Bashkir State Medical University, 3 Lenin Street, 450008, Ufa, Russia.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Dongxiao",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Gareev, Ilgiz",
+        "short_name": "Gareev I",
+        "identifiers": [],
+        "affiliations": [
+          "Central Research Laboratory, Bashkir State Medical University, Ufa, Republic of Bashkortostan, 3 Lenin street, 450008, Russia."
+        ]
+      },
+      {
+        "full_name": "Beylerli, Ozal",
+        "short_name": "Beylerli O",
+        "identifiers": [],
+        "affiliations": [
+          "Central Research Laboratory, Bashkir State Medical University, Ufa, Republic of Bashkortostan, 3 Lenin street, 450008, Russia."
+        ]
+      },
+      {
+        "full_name": "Pavlov, Valentin",
+        "short_name": "Pavlov V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Bashkir State Medical University, 3 Lenin Street, 450008, Ufa, Russia."
+        ]
+      },
+      {
+        "full_name": "Le, Huang",
+        "short_name": "Le H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Huaizhang",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Non-coding RNA research"
+    ],
+    "journal_abbrev": [
+      "Noncoding RNA Res"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/21 06:42",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41961836",
+      "41204371",
+      "40635218",
+      "39726593",
+      "39248068"
+    ],
+    "refs": [
+      "38009667",
+      "37759995",
+      "37522329",
+      "37426471",
+      "37077752",
+      "36619221",
+      "36566916",
+      "36441929",
+      "36439973",
+      "36435833",
+      "36262425",
+      "36047894",
+      "35866606",
+      "35842474",
+      "35659590",
+      "35242102",
+      "35224035",
+      "35196751",
+      "35143758",
+      "34907911",
+      "34461313",
+      "34409030",
+      "34377876",
+      "34091862",
+      "34042530",
+      "33992453",
+      "33850541",
+      "33560516",
+      "33361034",
+      "33105327",
+      "33094424",
+      "32825276",
+      "32756097",
+      "32709884",
+      "32695627",
+      "32630670",
+      "32580633",
+      "32546267",
+      "32399814",
+      "32314637",
+      "32289298",
+      "32155804",
+      "31997404",
+      "31991371",
+      "31585940",
+      "31261124",
+      "30662334",
+      "29899263",
+      "29884860",
+      "29126174",
+      "28807411",
+      "28035050",
+      "26476454",
+      "26267216",
+      "26116532",
+      "26066708",
+      "25613031",
+      "25378301",
+      "23524300",
+      "23203871",
+      "23199362",
+      "22455463",
+      "21149340",
+      "12796485"
+    ],
+    "similar": [
+      "38511055",
+      "34916825",
+      "34434654",
+      "39028999",
+      "31788082",
+      "34777635",
+      "38482429",
+      "34530741",
+      "35313857",
+      "36798788",
+      "32299382",
+      "34655361",
+      "29128636",
+      "35322101",
+      "26502847",
+      "36647068",
+      "37065602",
+      "34620091",
+      "30865617",
+      "30390708",
+      "30605755",
+      "34840985",
+      "32508878",
+      "33468167",
+      "36398070",
+      "32714975",
+      "39238829",
+      "35812749",
+      "32031354",
+      "35839011",
+      "24079748",
+      "32338587",
+      "31730405",
+      "35386284",
+      "32323261",
+      "37201049",
+      "38444712",
+      "35210840",
+      "36291136",
+      "32756097",
+      "34190177",
+      "38176923",
+      "33104965",
+      "33750300",
+      "36656441",
+      "34136543",
+      "33678324",
+      "38855608",
+      "35813414",
+      "37603701",
+      "36118873",
+      "31114367",
+      "35132271",
+      "32176034",
+      "32435051",
+      "35300139",
+      "34430597",
+      "32888289",
+      "38935970",
+      "28587396",
+      "33868359",
+      "35223093",
+      "32906114",
+      "35169647",
+      "29805586",
+      "34234459",
+      "37123885",
+      "29032608",
+      "32013934",
+      "33140399",
+      "34837760",
+      "36319098",
+      "36829472",
+      "35957689",
+      "31277149",
+      "33123295",
+      "34254931",
+      "25366760",
+      "33813720",
+      "33519899",
+      "33172374",
+      "35249869",
+      "35280778",
+      "36481792",
+      "34485383",
+      "32429001",
+      "35281953",
+      "34276211",
+      "36466848",
+      "35392402",
+      "35832124",
+      "34818353",
+      "32597160",
+      "35965793",
+      "34844599",
+      "27807800",
+      "35401659",
+      "36104591",
+      "35049167",
+      "32912111",
+      "36313616",
+      "32982206",
+      "36401966",
+      "38660282",
+      "35540695",
+      "39051375",
+      "34149906",
+      "38882157",
+      "39271607",
+      "39270754",
+      "34646313",
+      "33833661",
+      "39241324",
+      "37837492",
+      "33173539",
+      "39329089",
+      "38873685",
+      "38660270",
+      "38813203",
+      "38784404",
+      "36582393",
+      "36212144",
+      "39193162",
+      "37107656",
+      "39378797",
+      "38656074",
+      "38751652",
+      "38747225",
+      "39199205",
+      "36359184"
+    ],
+    "review": [
+      "38511055",
+      "34530741"
+    ],
+    "pmc": [
+      "10950608"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2468-0540(24)00004-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38511055/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38511055",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-297",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

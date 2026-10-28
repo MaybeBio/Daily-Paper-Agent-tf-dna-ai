@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "38343537",
+    "doi": "10.3389/fimmu.2024.1347683",
+    "title": "Molecular mechanisms of pancreatic cancer liver metastasis: the role of PAK2."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic cancer remains an extremely malignant digestive tract tumor, posing a significant global public health burden. Patients with pancreatic cancer, once metastasis occurs, lose all hope of cure, and prognosis is extremely poor. It is important to investigate liver metastasis of Pancreatic cancer in depth, not just because it is the most common form of metastasis in pancreatic cancer, but also because it is crucial for treatment planning and prognosis assessment. This study aims to delve into the mechanisms of pancreatic cancer liver metastasis, with the goal of providing crucial scientific groundwork for the development of future treatment methods and drugs. METHODS: We explored the mechanisms of pancreatic cancer liver metastasis using single-cell sequencing data (GSE155698 and GSE154778) and bulk data (GSE71729, GSE19279, TCGA-PAAD). Initially, Seurat package was employed for single-cell data processing to obtain expression matrices for primary pancreatic cancer lesions and liver metastatic lesions. Subsequently, high-dimensional weighted gene co-expression network analysis (hdWGCNA) was used to identify genes associated with liver metastasis. Machine learning algorithms and COX regression models were employed to further screen genes related to patient prognosis. Informed by both biological understanding and the outcomes of algorithms, we meticulously identified the ultimate set of liver metastasis-related gene (LRG). In the study of LRG genes, various databases were utilized to validate their association with pancreatic cancer liver metastasis. In order to analyze the effects of these agents on tumor microenvironment, we conducted an in-depth analysis, including changes in signaling pathways (GSVA), cell differentiation (pseudo-temporal analysis), cell communication networks (cell communication analysis), and downstream transcription factors (transcription factor activity prediction). Additionally, drug sensitivity analysis and metabolic analysis were performed to reveal the effects of LRG on gemcitabine resistance and metabolic pathways. Finally, functional experiments were conducted by silencing the expression of LRG in PANC-1 and Bx-PC-3 cells to validate its influence to proliferation and invasiveness on PANC-1 and Bx-PC-3 cells. RESULTS: Through a series of algorithmic filters, we identified PAK2 as a key gene promoting pancreatic cancer liver metastasis. GSVA analysis elucidated the activation of the TGF-beta signaling pathway by PAK2 to promote the occurrence of liver metastasis. Pseudo-temporal analysis revealed a significant correlation between PAK2 expression and the lower differentiation status of pancreatic cancer cells. Cell communication analysis revealed that overexpression of PAK2 promotes communication between cancer cells and the tumor microenvironment. Transcription factor activity prediction displayed the transcription factor network regulated by PAK2. Drug sensitivity analysis and metabolic analysis revealed the impact of PAK2 on gemcitabine resistance and metabolic pathways. CCK8 experiments showed that silencing PAK2 led to a decrease in the proliferative capacity of pancreatic cancer cells and scratch experiments demonstrated that low expression of PAK2 decreased invasion capability in pancreatic cancer cells. Flow cytometry reveals that PAK2 significantly inhibited apoptosis in pancreatic cancer cell lines. Molecules related to the TGF-beta pathway decreased with the inhibition of PAK2, and there were corresponding significant changes in molecules associated with EMT. CONCLUSION: PAK2 facilitated the angiogenic potential of cancer cells and promotes the epithelial-mesenchymal transition process by activating the TGF-beta signaling pathway. Simultaneously, it decreased the differentiation level of cancer cells, consequently enhancing their malignancy. Additionally, PAK2 fostered communication between cancer cells and the tumor microenvironment, augments cancer cell chemoresistance, and modulates energy metabolism pathways. In summary, PAK2 emerged as a pivotal gene orchestrating pancreatic cancer liver metastasis. Intervening in the expression of PAK2 may offer a promising therapeutic strategy for preventing liver metastasis of pancreatic cancer and improving its prognosis.",
+    "keywords": [
+      "bioinformatics",
+      "liver metastasis",
+      "machine learning",
+      "pancreatic cancer",
+      "single cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Gemcitabine",
+      "Cell Proliferation",
+      "*Pancreatic Neoplasms/pathology",
+      "Transcription Factors",
+      "Transforming Growth Factor beta/pharmacology",
+      "*Liver Neoplasms/genetics",
+      "Tumor Microenvironment",
+      "p21-Activated Kinases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Hao",
+        "Li, Zhongyi",
+        "Zhu, Shiqi",
+        "Wang, Wenxia",
+        "Zhang, Jing",
+        "Zhao, Dongxu",
+        "Zhang, Man",
+        "Zhu, Wenxin",
+        "Xu, Wei",
+        "Xu, Chunfang"
+      ],
+      "short_names": [
+        "Yang H",
+        "Li Z",
+        "Zhu S",
+        "Wang W",
+        "Zhang J",
+        "Zhao D",
+        "Zhang M",
+        "Zhu W",
+        "Xu W",
+        "Xu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of General Medicine, Zhongshan Hospital Fudan University, Shanghai, China.",
+        "Division of Basic Biomedical Sciences, The University of South Dakota Sanford School of Medicine, Vermillion, SD, United States.",
+        "Department of Interventional Radiology, The Affiliated Changshu Hospital of Nantong University, Changshu No. 2 People's Hospital, Changshu, Jiangsu, China.",
+        "Department of Emergency Medicine, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, Jiangsu, China.",
+        "Department of Gastroenterology, Kunshan Third People's Hospital, Suzhou, Jiangsu, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Hao",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhongyi",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shiqi",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenxia",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Zhongshan Hospital Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Biomedical Sciences, The University of South Dakota Sanford School of Medicine, Vermillion, SD, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dongxu",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, The Affiliated Changshu Hospital of Nantong University, Changshu No. 2 People's Hospital, Changshu, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Man",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wenxin",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Kunshan Third People's Hospital, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wei",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chunfang",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/12 15:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42135728",
+      "42131338",
+      "42039174",
+      "41675331",
+      "41501279",
+      "41423632",
+      "41331510",
+      "40944976",
+      "40919610",
+      "40580873",
+      "40528171",
+      "40370437",
+      "40332759",
+      "40308582",
+      "40213700",
+      "40092996",
+      "40051564",
+      "39769207",
+      "39487387",
+      "39350056",
+      "39224598",
+      "39068164",
+      "38983852",
+      "38947325",
+      "38868781",
+      "38817605",
+      "38660305"
+    ],
+    "refs": [
+      "37059070",
+      "36917948",
+      "35949606",
+      "35900049",
+      "35477331",
+      "35461253",
+      "35143424",
+      "34801472",
+      "34750857",
+      "34111026",
+      "33462501",
+      "32017068",
+      "31511663",
+      "31195692",
+      "30816428",
+      "30718832",
+      "30341417",
+      "29335522",
+      "26932803",
+      "26909576",
+      "26690340",
+      "26343385",
+      "26250876",
+      "25099441",
+      "25050916",
+      "24218476",
+      "24202395",
+      "24138752",
+      "23903773",
+      "23892539",
+      "23472829",
+      "22682116",
+      "21690215",
+      "21620466",
+      "21169525",
+      "20512991",
+      "20042467",
+      "19843848",
+      "19289088",
+      "19260747",
+      "17018614",
+      "17000676",
+      "16520032",
+      "11562741",
+      "10807505",
+      "10212001",
+      "9745080",
+      "8532650",
+      "3471687"
+    ],
+    "similar": [
+      "38343537",
+      "35854234",
+      "37608794",
+      "37753069",
+      "37291514",
+      "29335522",
+      "33804148",
+      "35366491",
+      "37370109",
+      "23563640",
+      "18413796",
+      "30930982",
+      "35581606",
+      "36713450",
+      "38554384",
+      "27713160",
+      "22458379",
+      "25889214",
+      "37462016",
+      "29274277",
+      "33039386",
+      "11358848",
+      "30691517",
+      "24619961",
+      "26909608",
+      "27599670",
+      "36747689",
+      "32467989",
+      "31602160",
+      "38245886",
+      "35154122",
+      "32476798",
+      "31888763",
+      "35707714",
+      "34952191",
+      "38685045",
+      "19289088",
+      "30261900",
+      "38947396",
+      "19296540",
+      "32106002",
+      "23300530",
+      "23425030",
+      "36434608",
+      "36740679",
+      "26498682",
+      "11506504",
+      "26709920",
+      "26560028",
+      "19876919",
+      "31051214",
+      "31373074",
+      "29587800",
+      "34542739",
+      "39118300",
+      "21743023",
+      "30575211",
+      "34091388",
+      "33846782",
+      "35193647",
+      "37540462",
+      "30453285",
+      "35974300",
+      "38365849",
+      "29168159",
+      "31875764",
+      "31563901",
+      "33852841",
+      "37697370",
+      "27750041",
+      "27117533",
+      "35718922",
+      "32308766",
+      "38058074",
+      "29568909",
+      "29329547",
+      "25240403",
+      "32721465",
+      "31774184",
+      "33757206",
+      "21613822",
+      "31228948",
+      "30844294",
+      "34260413",
+      "30307473",
+      "37549602",
+      "24621074",
+      "14612425",
+      "38290407",
+      "24460329",
+      "30577767",
+      "30064387",
+      "24096486",
+      "27035235",
+      "37839227",
+      "37547956",
+      "27505247",
+      "28855593",
+      "38163613",
+      "35986102",
+      "30760292",
+      "33782384",
+      "37453022",
+      "38683136",
+      "39040243",
+      "38305809",
+      "39133956",
+      "38992286",
+      "38989440",
+      "39398252",
+      "32606788",
+      "31969394",
+      "31432232",
+      "39097735",
+      "38644955",
+      "38483604",
+      "39183024",
+      "38911386",
+      "26751936",
+      "39300449",
+      "39185649",
+      "38817387",
+      "39145022",
+      "38927080",
+      "39279118",
+      "38967755",
+      "39329194",
+      "38954230",
+      "37459556",
+      "38954974",
+      "38893622",
+      "36578477",
+      "39192650",
+      "39254749",
+      "39396557",
+      "38888874",
+      "39040415",
+      "39090116",
+      "38414408",
+      "39319269",
+      "34249445",
+      "39263146",
+      "38726290",
+      "39349877",
+      "30594036",
+      "38755133",
+      "37706285",
+      "39298082",
+      "38706910",
+      "35800364",
+      "38500662",
+      "39417182",
+      "39417191",
+      "39422029",
+      "38927885",
+      "29404265",
+      "38912065",
+      "38831933",
+      "37755397",
+      "39409930",
+      "39259257",
+      "39363009",
+      "39258786",
+      "33372594",
+      "38706869",
+      "35494001",
+      "39239563",
+      "39390252",
+      "28821810",
+      "39166023"
+    ],
+    "review": [
+      "38343537",
+      "37453022",
+      "39133956",
+      "31432232",
+      "39183024",
+      "38967755",
+      "38954230",
+      "36578477",
+      "39090116",
+      "38414408",
+      "30594036",
+      "38755133",
+      "35800364",
+      "38500662",
+      "39417191",
+      "38927885",
+      "37755397",
+      "35494001"
+    ],
+    "pmc": [
+      "10853442"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38343537/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38343537/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38343537",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1347683",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

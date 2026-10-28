@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table captions.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors propose Epitome, a deep ensemble learning method that predicts epigenetic events (e.g., transcription factor binding, histone modifications) in novel cell types by leveraging chromatin accessibility similarity between a query cell type and reference cell types. The method is claimed to achieve state-of-the-art accuracy and to improve with additional reference data.
+- **Visible evidence base** Results sections 2.1–2.5, figures referenced (Figures 1–5, Supplementary Figures S2–S16), and methods sections 4.1–4.9. Specific numerical values for performance metrics are referenced but not fully reported in the text.
+- **Missing materials affecting confidence** Full figure contents, supplementary tables (S2–S10), algorithm pseudocode (Algorithm 1), hyperparameter details, and exact performance numbers are not provided in the supplied text. Statistical significance tests and confidence intervals are not reported.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to a practically important problem in epigenomics. The core idea of using chromatin accessibility similarity to transfer epigenetic annotations across cell types is sensible and well-motivated. However, the evidence as presented is incomplete in several key areas, particularly regarding the rigor of benchmark comparisons, the handling of potential data leakage, and the statistical significance of reported improvements. The method's novelty relative to existing imputation approaches is not fully delineated. The claims of state-of-the-art performance are plausible but not fully substantiated from the provided text alone.
+- **Who would be interested in the results, and why** Researchers in computational genomics and epigenomics, particularly those working on regulatory element annotation, cell-type-specific prediction, and integrative analysis of consortium data (e.g., ENCODE, Roadmap). The method could be of practical use to experimentalists who have chromatin accessibility data for a new cell type and wish to prioritize which additional epigenetic assays to perform. The work may also interest method developers in deep learning applied to genomics.
+- **Major strengths**
+  1. The problem is well-defined and practically relevant.
+  2. The method design is conceptually simple and modular, allowing for independent prediction tasks and flexible incorporation of additional data types.
+  3. The use of a cell-type similarity metric (CASV) is a thoughtful way to leverage multi-cell data.
+  4. The authors address a known limitation of sequence-only models (inability to generalize to new cell types) and position their work clearly within that gap.
+  5. The application to neural differentiation time-course data demonstrates a realistic use case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Epitome achieves state-of-the-art accuracy when predicting transcription factor binding sites on novel cellular contexts" (Abstract, Section 2.1).
+  - **Evidence pointer** Section 2.1, Figure 2, Supplementary Tables S7–S8.
+  - **Concern** The benchmark comparison is not fully described. It is unclear whether the comparison to Catchitt, DeFCoM, and Avocado is performed under identical training and evaluation conditions (e.g., same cell types, same genomic regions, same cross-validation splits). The text mentions that "we compare to each method differently to ensure a fair comparison," but the details of these different protocols are not provided. This raises the risk of inadvertent bias in favor of Epitome.
+  - **Why it matters** Without a clearly described and consistent evaluation protocol, the claim of state-of-the-art performance cannot be independently verified. Differences in data preprocessing, feature construction, or evaluation sets could explain observed performance gaps.
+  - **Resolution test** Provide a detailed description of the exact training and evaluation protocol for each method, including the number of training cell types, the definition of positive and negative regions, and the cross-validation scheme. Ideally, release the evaluation code and data splits to allow independent replication.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Epitome explicitly computes local similarities between the reference cell types and the query cellular context, and uses these as features in the model" (Section 1, Section 4.3.1).
+  - **Evidence pointer** Section 4.3.1, Equation 3, Figure 1(b).
+  - **Concern** The CASV is computed using chromatin accessibility peaks from the query cell type. In the benchmark setting, the query cell type is a held-out cell type for which the epigenetic event (e.g., TF binding) is known and used for evaluation. It is unclear whether the query cell type's accessibility data is used only for feature construction (which is legitimate) or whether any information from the held-out labels leaks into training through the cell-type similarity computation. Specifically, if the reference cell types' accessibility profiles are used to define similarity, and if the held-out cell type's accessibility is compared to them, this is fine. However, if the held-out cell type's accessibility is also used to select or weight reference cell types in a way that depends on the held-out labels, this would constitute leakage.
+  - **Why it matters** Data leakage would inflate performance estimates and undermine the validity of the state-of-the-art claim. The distinction between using query accessibility as a feature and using it to optimize model selection is critical.
+  - **Resolution test** Clarify the exact role of the query cell type's accessibility data in the training and evaluation pipeline. Confirm that no information from the held-out cell type's epigenetic event labels is used in any step of model training or hyperparameter selection. Provide a schematic or pseudocode that explicitly separates training, validation, and test phases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Epitome can further improve predictions as more epigenetic signals are collected from both reference cell types and the query cellular type of interest" (Abstract, Section 2.3).
+  - **Evidence pointer** Section 2.3, Figures 3(a)–3(c).
+  - **Concern** The claim that performance improves with more reference cell types is based on a saturation analysis. However, the text notes that for most TFs, the number of available cell types is limited (under thirteen), and saturation is only clearly observed for CTCF. The generalizability of this trend to other TFs and histone modifications is unclear. Additionally, the observed decrease in performance for histone modifications when more than 20 cell types are used is not explained.
+  - **Why it matters** The practical utility of Epitome depends on how it scales with data availability. If performance degrades or plateaus for certain target types, this limits the method's applicability and should be clearly communicated.
+  - **Resolution test** Provide a more detailed analysis of the relationship between the number of reference cell types and performance, stratified by target type (TF vs. histone modification). Discuss potential reasons for the observed decrease in performance for histone modifications and whether this is a systematic effect or an artifact of specific cell types.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We show that this extension of similarity between reference cell types and the query cellular context can further improve predictive performance" (Section 2.4, Figure 4).
+  - **Evidence pointer** Section 2.4, Figure 4(c)–4(d), Section 4.3.6.
+  - **Concern** The extension of the CASV to include histone modifications is tested on only 13 TFs and 4 cell lines. This is a small and potentially non-representative sample. The choice of these specific TFs and cell lines is not justified. The Shapley value analysis is interesting but is only presented for this limited setting.
+  - **Why it matters** The claim that incorporating histone modifications improves performance needs to be demonstrated across a broader and more diverse set of TFs and cell types to be convincing. The current evidence is suggestive but not conclusive.
+  - **Resolution test** Expand the analysis to a larger set of TFs and cell types, or provide a clear rationale for why the selected 13 TFs are representative. Report the variance in performance improvements across the 13 TFs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence.
+  - **Issue** The phrase "learning similarities of chromatin accessibility between well characterized reference cell types and a query cellular context" is vague. It is not clear whether the similarity is learned per genomic locus, per cell type, or globally.
+  - **Required correction** Rephrase to specify that the similarity is computed locally at each genomic locus, as described in Section 4.3.1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 4.3.5
+  - **Evidence pointer** Section 4.3.5, "Early stopping methods halt training once the model stops improving on a validation set."
+  - **Issue** The specific early stopping criterion (e.g., patience, min-delta) is mentioned but the exact values are only given for min-delta (0) and patience (5) in the text. It is unclear if these are the final values used for all models.
+  - **Required correction** State the final hyperparameter values used for all reported results, and describe the hyperparameter search procedure more explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.1, Figure 2
+  - **Evidence pointer** Section 2.1, Figure 2.
+  - **Issue** The text reports that Epitome "performs best for a majority of the 264 experiments" but does not report the magnitude of the improvement or any measure of statistical significance (e.g., paired tests across experiments).
+  - **Required correction** Report the median and interquartile range of performance differences, and perform a paired statistical test (e.g., Wilcoxon signed-rank test) across the 264 experiments to support the claim of superiority.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.5, Figure 5
+  - **Evidence pointer** Section 2.5, Figure 5.
+  - **Issue** The description of the neural differentiation experiment is brief. It is unclear how the 39,000 regions were selected and whether the comparison to DeepHistone was performed on the same regions.
+  - **Required correction** Provide more detail on the region selection and the evaluation protocol for DeepHistone in this specific experiment.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.4.2
+  - **Evidence pointer** Section 4.4.2, "we only evaluate on 200bp regions of chromosomes 8 and 9 that overlap at least one ChIP-seq peak from the TF being evaluated, or overlap a DNase-seq peak from at least one of the cell types that has measured ChIP-seq for the TF in question."
+  - **Issue** This evaluation set definition is reasonable but may favor methods that are trained on similar regions. It is unclear how sensitive the results are to this choice.
+  - **Required correction** Discuss the potential impact of this evaluation set choice on the relative ranking of methods, and consider reporting results on an alternative evaluation set (e.g., all genomic regions).
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (benchmark protocol clarity)
+  - R1-M2 (potential data leakage)
+  - Lack of statistical significance testing for performance comparisons.
+  - Incomplete reporting of hyperparameters and model selection procedures.
+- **Assessment against Nature-style criteria**
+  - **Originality** The approach of using cell-type similarity based on chromatin accessibility to transfer epigenetic annotations is not entirely new, but the specific formulation (CASV with multi-scale windows, ensemble of reference cell types) has elements of novelty. The work is incremental relative to existing imputation methods but addresses a distinct prediction task.
+  - **Scientific importance** The problem of predicting epigenetic events in uncharacterized cell types is of high importance, given the cost and difficulty of ChIP-seq experiments. The potential to prioritize assays based on predicted signals is valuable. However, the demonstrated improvements over existing methods are modest and not fully quantified.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and epigenomics researchers. The writing is generally accessible, but the methods section assumes familiarity with deep learning and peak-calling concepts. The broader cell biology community may find the application to neural differentiation interesting, but the technical focus limits the likely readership.
+  - **Technical soundness** The core methodology is reasonable, but the evaluation has significant gaps as detailed above. The lack of a fully specified and consistent benchmark protocol, and the potential for data leakage, are serious concerns that need to be resolved.
+  - **Readability for nonspecialists** The abstract and introduction are clear and well-written. The results section is dense but understandable. The methods section is highly technical and would be challenging for a nonspecialist. The figures are referenced but not visible in the provided text, making it difficult to assess their clarity.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the application is relevant. However, the current evidence does not fully establish the state-of-the-art claim. The authors must provide a more rigorous and transparent evaluation, address the potential for data leakage, and report statistical significance. If these issues are resolved, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art accuracy" is not fully supported due to incomplete benchmark details and lack of statistical testing.
+- The claim that performance improves with more reference cell types is only clearly demonstrated for one TF (CTCF) and may not generalize.
+- The claim that incorporating histone modifications into the CASV improves performance is based on a limited set of 13 TFs and 4 cell lines.
+- The statement that Epitome "can further improve predictions as more epigenetic signals are collected" is speculative and not directly tested in a prospective manner.
+- The comparison to DeepSEA is presented as a "conceptual upper bound," but the interpretation of this comparison is not fully discussed.

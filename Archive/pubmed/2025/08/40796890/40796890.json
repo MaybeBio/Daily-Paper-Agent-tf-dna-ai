@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "40796890",
+    "doi": "10.1186/s13072-025-00618-1",
+    "title": "Direction and modality of transcription changes caused by TAD boundary disruption in Slc29a3/Unc5b locus depends on tissue-specific epigenetic context."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Topologically associating domains (TADs) are believed to play a role in the regulation of gene expression by constraining or guiding interactions between the regulatory elements. While the impact of TAD perturbations is typically studied in developmental genes with highly cell-type-specific expression patterns, this study examines genes with broad expression profiles separated by a strong insulator boundary. We focused on the mouse Slc29a3/Unc5b locus, which encompasses two distinct TADs containing ubiquitously expressed and essential for viability genes. We disrupted the CTCF-boundary between these TADs and analyzed the resulting changes in gene expression. RESULTS: Deletion of four CTCF binding sites at the TAD boundary altered local chromatin architecture, abolishing pre‑existing loops and creating novel long‑range interactions that spanned the original TAD boundary. Using UMI-assisted targeted RNA-seq we evaluated transcriptional changes of Unc5b, Slc29a3, Psap, Vsir, Cdh23, and Sgpl1 across various organs. We found that TAD boundary disruption led to variable transcriptional responses, where not only the magnitude but also the direction of gene expression changes were tissue-specific. Current hypotheses on genome architecture function, such as enhancer competition and hijacking, as well as genomic deep learning models, only partially explain these transcriptional changes, highlighting the need for further investigation into the mechanisms underlying TAD function and gene regulation. CONCLUSIONS: Disrupting the insulator element between broadly expressed genes resulted in moderate, tissue-dependent transcriptional alterations, rather than uniformly activating or silencing the target genes. These findings show that TAD boundaries contribute to context‑specific regulation even at housekeeping loci and underscore the need for refined models to predict the effects of non‑coding structural variants.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Epigenesis, Genetic",
+      "CCCTC-Binding Factor/metabolism/genetics",
+      "Organ Specificity",
+      "*Transcription, Genetic",
+      "Chromatin/metabolism",
+      "Binding Sites",
+      "*Membrane Transport Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salnikov, Paul",
+        "Belokopytova, Polina",
+        "Yan, Alexandra",
+        "Viesna, Emil",
+        "Korablev, Alexey",
+        "Serova, Irina",
+        "Lukyanchikova, Varvara",
+        "Stepanchuk, Yana",
+        "Torgunakov, Nikita",
+        "Tikhomirov, Savelii",
+        "Fishman, Veniamin"
+      ],
+      "short_names": [
+        "Salnikov P",
+        "Belokopytova P",
+        "Yan A",
+        "Viesna E",
+        "Korablev A",
+        "Serova I",
+        "Lukyanchikova V",
+        "Stepanchuk Y",
+        "Torgunakov N",
+        "Tikhomirov S",
+        "Fishman V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+        "Novosibirsk State University, Novosibirsk, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk, Russia. minja-f@ya.ru.",
+        "Novosibirsk State University, Novosibirsk, Russia. minja-f@ya.ru.",
+        "Artificial Intelligence Research Institute, AIRI, Moscow, Russia. minja-f@ya.ru."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salnikov, Paul",
+        "short_name": "Salnikov P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Belokopytova, Polina",
+        "short_name": "Belokopytova P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Yan, Alexandra",
+        "short_name": "Yan A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Viesná, Emil",
+        "short_name": "Viesná E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Korablev, Alexey",
+        "short_name": "Korablev A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Serova, Irina",
+        "short_name": "Serova I",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Lukyanchikova, Varvara",
+        "short_name": "Lukyanchikova V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Stepanchuk, Yana",
+        "short_name": "Stepanchuk Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Torgunakov, Nikita",
+        "short_name": "Torgunakov N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Tikhomirov, Savelii",
+        "short_name": "Tikhomirov S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia.",
+          "Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Fishman, Veniamin",
+        "short_name": "Fishman V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk, Russia. minja-f@ya.ru.",
+          "Novosibirsk State University, Novosibirsk, Russia. minja-f@ya.ru.",
+          "Artificial Intelligence Research Institute, AIRI, Moscow, Russia. minja-f@ya.ru."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Epigenetics & chromatin"
+    ],
+    "journal_abbrev": [
+      "Epigenetics Chromatin"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 00:27",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42103737"
+    ],
+    "refs": [
+      "40336115",
+      "40025499",
+      "39033128",
+      "38806452",
+      "38438377",
+      "38036790",
+      "38036789",
+      "38036778",
+      "37845234",
+      "36902449",
+      "36827186",
+      "36335136",
+      "36097291",
+      "35974411",
+      "35817979",
+      "35617427",
+      "35035481",
+      "34711654",
+      "34608324",
+      "34381052",
+      "34092790",
+      "33863876",
+      "33743768",
+      "33552135",
+      "33497970",
+      "32929029",
+      "32902412",
+      "32443745",
+      "32213324",
+      "32201884",
+      "32151906",
+      "31358994",
+      "31270333",
+      "31127282",
+      "31116383",
+      "30418618",
+      "30405244",
+      "30262816",
+      "30086749",
+      "29626926",
+      "29297312",
+      "29053968",
+      "28985562",
+      "28714474",
+      "28435001",
+      "27869826",
+      "27846823",
+      "27706140",
+      "27643841",
+      "27467249",
+      "27111891",
+      "26119342",
+      "26053496",
+      "25959774",
+      "25569170",
+      "25497547",
+      "25408411",
+      "23530176",
+      "23446636",
+      "22955991",
+      "22495300",
+      "22326520",
+      "22174130",
+      "20693423",
+      "20644563",
+      "20595384",
+      "19568426",
+      "17825258",
+      "17708418",
+      "17353235",
+      "17215872",
+      "17167097",
+      "16235133",
+      "15701636",
+      "15510105",
+      "11322776",
+      "11309366",
+      "11138009",
+      "11090341",
+      "9678511",
+      "2842863"
+    ],
+    "similar": [
+      "40796890",
+      "41080543",
+      "39545685",
+      "40063813",
+      "35180428",
+      "39169755",
+      "34245617",
+      "36650052",
+      "31910870",
+      "31911579",
+      "29654311",
+      "29273679",
+      "33229569",
+      "34033138",
+      "32782014",
+      "31358994",
+      "28737770",
+      "31511252",
+      "28863138",
+      "31831055",
+      "29757144",
+      "38452764",
+      "35090532",
+      "29593713",
+      "33545030",
+      "38062010",
+      "33284803",
+      "35502750",
+      "29760161",
+      "39777468",
+      "38643172",
+      "39093600",
+      "34002095",
+      "40436628",
+      "28977568",
+      "40874617",
+      "38697116",
+      "39179577",
+      "32680543",
+      "41446082",
+      "27437574",
+      "39110491",
+      "34711654",
+      "28693562",
+      "41145704",
+      "30985763",
+      "29416042",
+      "34292939",
+      "28784160",
+      "26748519",
+      "34253239",
+      "37081156",
+      "38806452",
+      "31522987",
+      "28060558",
+      "29335803",
+      "29698677",
+      "36735786",
+      "34764232",
+      "40921733",
+      "32086528",
+      "40032827",
+      "38643244",
+      "30213272",
+      "28525758",
+      "32853367",
+      "38048351",
+      "32301703",
+      "31177910",
+      "29793448",
+      "26518482",
+      "28388437",
+      "38062027",
+      "30717603",
+      "30996085",
+      "32203470",
+      "33866359",
+      "27210764",
+      "30595451",
+      "31522988",
+      "34749781",
+      "30260021",
+      "40804526",
+      "31505466",
+      "39883527",
+      "38935071",
+      "37076620",
+      "30086749",
+      "27111891",
+      "37699887",
+      "31801998",
+      "26034287",
+      "26418477",
+      "39727192",
+      "31266948",
+      "37796452",
+      "30738580",
+      "26302455",
+      "30709849",
+      "31491387"
+    ],
+    "review": [
+      "40796890",
+      "39169755",
+      "28060558",
+      "31505466"
+    ],
+    "pmc": [
+      "12341078"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-025-00618-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40796890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-VSIR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1214",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

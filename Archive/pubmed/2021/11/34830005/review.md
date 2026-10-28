@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) and references to supplementary figures, as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that PARP1 induces reorganization of nucleosomes in a catalytic activity-independent manner, requiring two molecules for core nucleosomes and three for nucleosomes with a 20 bp linker DNA, with binding near the H1 site and a potential role in gene regulation and DNA repair.
+- **Visible evidence base** spFRET microscopy, EMSA, single-particle fluorescence intensity analysis, DNase I footprinting, Western blot, and molecular dynamics simulations, as described in the text and referenced supplementary figures.
+- **Missing materials affecting confidence** Supplementary figures (S1–S13) and tables referenced but not provided; raw spFRET distributions, gel images, and MD trajectory details not available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic in vitro study of PARP1–nucleosome interactions, combining experimental and computational approaches. The central claim that multiple PARP1 molecules induce nucleosome reorganization in a stoichiometry-dependent manner is plausible and supported by the presented data, though several aspects require clarification and additional controls to fully establish the mechanistic model.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, DNA repair, and transcriptional regulation would find these results relevant, as they address the non-enzymatic functions of PARP1 and its role in chromatin structure, which has implications for understanding gene regulation and DNA damage responses.
+- **Major strengths** The study uses a well-defined nucleosome positioning sequence and site-specific fluorescent labeling to monitor structural changes. The combination of spFRET, EMSA, and MD simulations provides complementary perspectives. The distinction between core and linker-containing nucleosomes and the stoichiometry analysis are thoughtful and add depth to the model.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that two or three PARP1 molecules are required for complete nucleosome reorganization is central to the paper.
+  - **Evidence pointer** Section 2.3, Section 2.4, Figures 3 and 4, Supplementary Figures S2–S6
+  - **Concern** The stoichiometry of PARP1–nucleosome complexes is inferred from EMSA band shifts and single-particle fluorescence intensity comparisons, but the assignment of specific bands to 1:1, 2:1, or 3:1 complexes is not rigorously validated. The fluorescence intensity analysis compares mean intensities but does not provide a clear statistical separation or a calibration standard to confirm the number of PARP1 molecules per nucleosome.
+  - **Why it matters** The entire mechanistic model depends on the stoichiometry being correct. If the bands correspond to different conformations rather than different numbers of bound PARP1 molecules, the interpretation of the data would change substantially.
+  - **Resolution test** Provide a calibration using nucleosomes with a known number of bound PARP1 molecules (e.g., via crosslinking or single-molecule photobleaching steps) to confirm the stoichiometry assignments. Alternatively, show that the intensity distributions are statistically distinct and consistent with integer multiples of a single PARP1 fluorescence intensity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that nucleosome reorganization is independent of PARP1 catalytic activity.
+  - **Evidence pointer** Section 2.2, Figure 2c, Section 4.5
+  - **Concern** The Western blot analysis of PARylation is described but not shown in the main text. The authors state that PARP1 is activated only in the presence of nucleosomes and NAD+, but it is unclear whether the reorganization observed in spFRET experiments occurs in the absence of NAD+ or with a catalytically inactive PARP1 mutant. The text mentions "NAD+-independent" reorganization in the introduction, but the current experiments do not appear to include a no-NAD+ control or a catalytic mutant.
+  - **Why it matters** The claim of catalytic independence is a key conceptual point, distinguishing this work from PARP1's enzymatic functions. Without direct evidence, the conclusion is not fully supported.
+  - **Resolution test** Include spFRET experiments with a catalytically inactive PARP1 mutant (e.g., E988K) or in the absence of NAD+ to demonstrate that reorganization occurs under these conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The proposal that the third PARP1 molecule binds near the H1 site and induces full reorganization.
+  - **Evidence pointer** Section 2.4, Section 2.5, Figures 4 and 5
+  - **Concern** The MD simulations only model one or two PARP1 molecules bound to DNA ends, not the three-molecule complex. The authors infer the third binding site from indirect evidence, but the MD data do not directly support the claim that the third molecule binds near the H1 site. The simulations show that two PARP1 molecules can induce local changes, but the extrapolation to the three-molecule scenario is speculative.
+  - **Why it matters** The model of how full reorganization is achieved relies on the third binding site, which is not directly tested. This weakens the mechanistic conclusion.
+  - **Resolution test** Perform MD simulations with three PARP1 molecules, or provide experimental evidence (e.g., footprinting or crosslinking) for the third binding site location.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Section 2.1, Figure 1a
+  - **Issue** The schematic in Figure 1a is described but not shown in the text. The positions of the fluorescent labels are described, but the figure itself is not available for review.
+  - **Required correction** Ensure the figure is clear and labeled, and consider adding a scale bar or indicating the DNA sequence positions more explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** MD simulation parameters
+  - **Evidence pointer** Section 4.7
+  - **Issue** The MD simulation details are brief. The force fields and simulation length are stated, but the equilibration protocol and the criteria for choosing the simulation length are not fully described.
+  - **Required correction** Provide more details on the equilibration procedure, including the number of steps and the criteria for convergence, to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** spFRET data analysis
+  - **Evidence pointer** Section 4.2, Supplementary Figures S2–S6
+  - **Issue** The number of Gaussian peaks used to fit the EPR profiles is determined by RMSD, but the criteria for choosing between models with different numbers of peaks are not specified. It is unclear how the authors decided between three and four peaks in some cases.
+  - **Required correction** State the RMSD threshold or statistical test used to select the number of peaks, and report the RMSD values for the different models.
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1: Stoichiometry validation is insufficient.
+  - R1-M2: Lack of direct evidence for catalytic independence.
+  - R1-M3: The three-molecule model is not directly supported by simulations.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work addresses a relatively underexplored area of PARP1 function, specifically its non-enzymatic role in nucleosome reorganization. The concept of stoichiometry-dependent reorganization is novel, though the overall approach is not unprecedented.
+  - **Scientific importance** The findings have potential implications for understanding PARP1's role in chromatin dynamics and DNA repair, which are of broad interest. However, the physiological relevance is not directly demonstrated, limiting immediate impact.
+  - **Interdisciplinary readership** The study bridges biochemistry, biophysics, and computational biology, which could appeal to a diverse audience. However, the technical nature of the methods may limit accessibility to non-specialists.
+  - **Technical soundness** The experimental design is generally sound, but the stoichiometry and catalytic independence claims require additional validation. The MD simulations are preliminary and do not fully support the proposed model.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, but the results section is dense and assumes familiarity with FRET and nucleosome terminology. A brief primer on these concepts would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the data are suggestive, but the stoichiometry and catalytic independence claims need stronger evidence. The three-molecule model should be tested directly or clearly framed as speculative.
+
+## Risk / unsupported claims
+- The claim that the third PARP1 molecule binds near the H1 site is not directly supported by the data.
+- The claim that nucleosome reorganization is independent of catalytic activity is not directly tested in the current experiments.
+- The stoichiometry of PARP1–nucleosome complexes is inferred but not rigorously validated.
+- The physiological relevance of the observed reorganization to gene regulation and DNA repair is speculative and not experimentally addressed.

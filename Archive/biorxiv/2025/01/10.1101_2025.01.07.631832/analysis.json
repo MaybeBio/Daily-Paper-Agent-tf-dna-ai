@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.07.631832",
+  "title": "Hybrid molecular dynamics–deep generative framework expands <i>apo</i> RNA ensembles toward cryptic ligand-binding conformations: application to HIV-1 TAR",
+  "authors": "Ikuo Kurisaki; Michiaki Hamada",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-10",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用混合MD-深度生成框架扩展RNA构象以预测隐蔽配体结合态，虽聚焦RNA-配体而非TF-DNA，但生成建模与构象采样方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "RNA plays vital roles in diverse biological processes and represents an attractive class of therapeutic targets. In particular, cryptic ligand-binding sites—absent in apo structures but formed upon conformational rearrangement—offer high specificity for RNA–ligand recognition, yet remain rare among experimentally-resolved RNA–ligand complex structures and difficult to predict in silico . RNA-targeted structure-based drug design (SBDD) is therefore limited by challenges in sampling cryptic states. Here, we apply Molearn, a hybrid molecular dynamics–deep generative framework, to expand apo RNA conformational ensembles toward cryptic states. Focusing on the paradigmatic HIV-1 TAR–MV2003 system, Molearn was trained exclusively on apo TAR conformations and used to generate a diverse ensemble of TAR structures. Candidate cryptic MV2003-binding conformations were subsequently identified using post-generation geometric analyses. Docking simulations of these conformations with MV2003 yielded binding poses with RNA–ligand interaction scores comparable to those of NMR-derived complexes. Notably, this work provides the first demonstration that a generative model can access cryptic RNA conformations that are ligand-binding competent and have not been recovered in prior molecular dynamics and deep generative modeling studies. Finally, we discuss current limitations in scalability and systematic detection, including application to the Internal Ribosome Entry Site, and outline future directions toward RNA-targeted SBDD.",
+  "abstract_zh": "RNA在多种生物过程中发挥重要作用，并代表了一类有吸引力的治疗靶点。特别是，隐蔽配体结合位点——在apo结构中不存在但在构象重排时形成——为RNA-配体识别提供了高特异性，然而在实验解析的RNA-配体复合物结构中仍然罕见，并且难以在计算中预测。因此，针对RNA的基于结构的药物设计（SBDD）受到采样隐蔽状态挑战的限制。在此，我们应用Molearn，一种混合分子动力学-深度生成框架，将apo RNA构象集合扩展至隐蔽状态。聚焦于典型的HIV-1 TAR–MV2003系统，Molearn仅使用apo TAR构象进行训练，并用于生成多样化的TAR结构集合。随后，通过生成后的几何分析识别出候选的隐蔽MV2003结合构象。这些构象与MV2003的对接模拟产生了结合姿态，其RNA-配体相互作用评分与NMR衍生的复合物相当。值得注意的是，这项工作首次证明生成模型能够访问具有配体结合能力且未在先前分子动力学和深度生成建模研究中恢复的隐蔽RNA构象。最后，我们讨论了当前在可扩展性和系统检测方面的局限性，包括对内部核糖体进入位点的应用，并概述了针对RNA靶向SBDD的未来方向。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.07.631832",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.07.631832",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.07.631832/index.html"
+}

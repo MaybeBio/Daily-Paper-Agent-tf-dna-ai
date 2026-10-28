@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "40378742",
+    "doi": "10.1016/j.jhazmat.2025.138629",
+    "title": "Predicting estrogen receptor agonists from plastic additives across various aquatic-related species using machine learning and AlphaFold2."
+  },
+  "content": {
+    "abstract": "The absence of effective public databases greatly limits high-throughput prediction of hormonal effects mediated by nuclear receptors in aquatic organisms. In this study, we developed novel strategies for multi-species screening of estrogen receptor (ER) agonists in plastic additives using AlphaFold2. Firstly, Deep Forest (DF), artificial neural network (ANN) and conventional machine learning (ML) models were utilized to screen ERalpha agonists. The DF models using RDKit.Chem.Descriptors and MorganFingerprint achieved a sensitivity = 0.96, specificity > 0.99, and an F1 score > 0.95, identifying 42 plastic additives as ERalpha agonists. Subsequently, ERalpha structures for Danio rerio (Dr), Oryzias melastigma (Om), Delphinus delphis (Dd), Physeter catodon (Pc), Mytilus edulis (Me), Xenopus tropicalis (Xt), Nipponia nippon (Nn), and Aptenodytes forsteri (Af) were constructed using AlphaFold2. Except for Me ERalpha, most species shared two common key amino acid residues responsible for ERalpha activity: arginine 85 and glutamic acid 44 (aligned serial numbers in the LBD). However, aquatic-related species exhibited other three additional key residues: glycine 212, leucine 216 and phenylalanine 95 (aligned serial numbers in the LBD). The number of compounds with docking energy < -9 kcal/mol for Dr, Om, Dd, Pc, Me, Xt, Nn, and Af were 4, 8, 4, 12, 10, 13, 7, and 9, respectively. The docking energy of estrone in all species was < -9 kcal/mol, while that of bisphenol P varied greatly among different species. The combined application of ML and AlphaFold enables high-throughput evaluation of the ecotoxicity posed by emerging pollutants across multiple aquatic-related species.",
+    "keywords": [
+      "AlphaFold",
+      "Aquatic species",
+      "High throughput screening",
+      "Plastic additives"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "*Water Pollutants, Chemical/toxicity/chemistry",
+      "Neural Networks, Computer",
+      "Aquatic Organisms",
+      "*Estrogen Receptor alpha/agonists",
+      "*Receptors, Estrogen"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Wen-Jun",
+        "Cao, Zhou",
+        "Long, Xiao-Bing",
+        "Yao, Chong-Rui",
+        "Zhang, Jin-Ge",
+        "Chen, Chang-Er",
+        "Ying, Guang-Guo"
+      ],
+      "short_names": [
+        "Shi WJ",
+        "Cao Z",
+        "Long XB",
+        "Yao CR",
+        "Zhang JG",
+        "Chen CE",
+        "Ying GG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China. Electronic address: wenjun.shi@m.scnu.edu.cn.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China.",
+        "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Wen-Jun",
+        "short_name": "Shi WJ",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China. Electronic address: wenjun.shi@m.scnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Zhou",
+        "short_name": "Cao Z",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Long, Xiao-Bing",
+        "short_name": "Long XB",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Chong-Rui",
+        "short_name": "Yao CR",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jin-Ge",
+        "short_name": "Zhang JG",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chang-Er",
+        "short_name": "Chen CE",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Guang-Guo",
+        "short_name": "Ying GG",
+        "identifiers": [],
+        "affiliations": [
+          "SCNU Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety & MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; School of Environment, South China Normal University, University Town, Guangzhou 510006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of hazardous materials"
+    ],
+    "journal_abbrev": [
+      "J Hazard Mater"
+    ],
+    "pub_date": "2025 Aug 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/17 17:03",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40378742",
+      "23707773",
+      "38394900",
+      "26086576",
+      "36473653",
+      "25258361",
+      "35841995",
+      "30114914",
+      "36152365",
+      "39405699",
+      "41610586",
+      "31216622",
+      "36116629",
+      "25349983",
+      "23733188",
+      "29861831",
+      "32778734",
+      "29753247",
+      "36969097",
+      "34028522",
+      "31463793",
+      "40107212",
+      "24928891",
+      "41671673",
+      "38844122",
+      "38185092",
+      "20816963",
+      "33075717",
+      "30505052",
+      "31026752",
+      "33352482",
+      "17346814",
+      "34304572",
+      "10579320",
+      "39947576",
+      "36513145",
+      "36455774",
+      "40835860",
+      "36220475",
+      "27486309",
+      "9658195",
+      "33799614",
+      "41075637",
+      "23384675",
+      "22494775",
+      "20553864",
+      "26142614",
+      "25611945",
+      "30924335",
+      "16497524",
+      "35876436",
+      "32019136",
+      "14761204",
+      "23911387",
+      "24051224",
+      "39383966",
+      "19835153",
+      "26272952",
+      "31856726",
+      "37980806",
+      "31791728",
+      "36730792",
+      "29277902",
+      "9773982",
+      "39396443",
+      "11113208",
+      "24923734",
+      "34088131",
+      "39805255",
+      "24689804",
+      "20427257",
+      "41242993",
+      "25012808",
+      "39251122",
+      "37977358",
+      "10022879",
+      "39403992",
+      "39892992",
+      "25851036",
+      "38467999",
+      "40830558",
+      "41581686",
+      "24422420",
+      "40970403",
+      "38092168",
+      "23562765",
+      "41218486",
+      "38593686",
+      "36321557",
+      "40869290",
+      "33711575",
+      "15105439",
+      "38059695",
+      "28545000",
+      "38279948",
+      "31366023",
+      "40561951",
+      "16648639",
+      "34624532",
+      "16910124"
+    ],
+    "review": [
+      "40378742",
+      "36969097",
+      "34028522",
+      "33075717",
+      "39383966",
+      "36321557",
+      "28545000"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3894(25)01545-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3697",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

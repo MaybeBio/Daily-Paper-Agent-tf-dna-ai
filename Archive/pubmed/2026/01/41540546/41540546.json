@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41540546",
+    "doi": "10.2174/0115748928396718251104075645",
+    "title": "Single-cell and Bulk RNA-Seq Analyses Reveal TOMM7-mediated Multi-cell Death Mechanisms Driving Muscle-invasive Bladder Cancer Progression."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Muscle-invasive bladder cancer (MIBC) is characterized by high malignancy and poor prognosis. Advances in single-cell RNA sequencing (scRNA-seq) have provided new insights into the molecular heterogeneity and progression of MIBC. METHODS: A single-cell atlas of bladder cancer (BCa) was constructed, and MIBC-related epithelial subclusters (Epi_MIBC) were identified. Key transcription factors and dysregulated cell death pathways were characterized. A prognostic model based on MIBC-related cell death genes (MIBC.CDGs) was developed using machine learning algorithms and validated across multiple cohorts. The functional role and druggability of TOMM7, a core gene, were evaluated through in vitro experiments and molecular docking analysis. RESULTS: The MIBC-related cell death score (MIBC.CDS) was shown to effectively stratify patient prognosis and predict immunotherapy response. Multiple cell death pathways were found to be activated in MIBC. Knockdown of TOMM7 suppressed proliferation, invasion, and migration in T24 cells, while modulating apoptosis, autophagy, mitophagy, cuproptosis, and ferroptosis. Molecular docking analysis identified sorafenib as a potential TOMM7-targeted therapeutic agent. DISCUSSION: The findings highlighted the critical role of cell death dysregulation in MIBC progression and underscored TOMM7 as a novel oncogenic regulator. The integration of multiomics data and machine learning enhanced our understanding of tumor biology and provided a foundation for developing personalized treatment strategies. CONCLUSION: TOMM7 was found to drive MIBC progression by regulating multiple cell death pathways. The MIBC.CDS may serve as a promising tool for prognostic evaluation and therapeutic stratification. Sorafenib was identified as a potential candidate for TOMM7-targeted therapy in MIBC.",
+    "keywords": [
+      "Cell death",
+      "TOMM7.",
+      "machine learning",
+      "molecular docking",
+      "muscle-invasive bladder cancer",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jinge",
+        "Zheng, Li",
+        "Yu, Zhe",
+        "Chen, Yuwen",
+        "Jiang, Feifan",
+        "Zhang, Zicai",
+        "Li, Tanghua",
+        "Zhao, Hongfan",
+        "Li, Yaxian",
+        "Li, Fei"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zheng L",
+        "Yu Z",
+        "Chen Y",
+        "Jiang F",
+        "Zhang Z",
+        "Li T",
+        "Zhao H",
+        "Li Y",
+        "Li F"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-2914-8189"
+      ],
+      "affiliations": [
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Comprehensive Medical Treatment Ward, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China.",
+        "Department of Urology, Xijing Hospital, The Fourth Military Medical University, 127 Changle West Road, Xi'an, 710032, Shaanxi, China.",
+        "Department of Urology, Maoming People's Hospital, Maoming, Guangdong, 525000, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jinge",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0009-0000-2914-8189"
+        ],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Li",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhe",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Medical Treatment Ward, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuwen",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Feifan",
+        "short_name": "Jiang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zicai",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Tanghua",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongfan",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xijing Hospital, The Fourth Military Medical University, 127 Changle West Road, Xi'an, 710032, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaxian",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Maoming People's Hospital, Maoming, Guangdong, 525000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Recent patents on anti-cancer drug discovery"
+    ],
+    "journal_abbrev": [
+      "Recent Pat Anticancer Drug Discov"
+    ],
+    "pub_date": "2026 Jan 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/16 17:21",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41540546",
+      "39367493",
+      "39107713",
+      "39759522",
+      "39532830",
+      "40687649",
+      "40496864",
+      "34849009",
+      "41425595",
+      "41276015",
+      "40205274",
+      "40151638",
+      "34572901",
+      "39896800",
+      "40330458",
+      "41019085",
+      "36523302",
+      "38268861",
+      "40750438",
+      "41208987",
+      "41164195",
+      "41049291",
+      "27460088",
+      "33392066",
+      "39380003",
+      "33604353",
+      "36914422",
+      "36430344",
+      "39799269",
+      "36873531",
+      "38299148",
+      "31866765",
+      "31308745",
+      "41074451",
+      "35820925",
+      "31123405",
+      "32860965",
+      "41535649",
+      "37587470",
+      "38555741",
+      "40438115",
+      "40362200",
+      "32060149",
+      "40799501",
+      "30852032",
+      "39885578",
+      "40122834",
+      "40332226",
+      "33334367",
+      "38216927",
+      "41413023",
+      "37240301",
+      "41544201",
+      "39588301",
+      "40259382",
+      "38581187",
+      "41504052",
+      "41488744",
+      "33194049",
+      "38824904",
+      "40534868",
+      "33323544",
+      "39238647",
+      "33456631",
+      "40688078",
+      "38759695",
+      "38885819",
+      "39684640",
+      "32844284",
+      "37190249",
+      "37691944",
+      "34422643",
+      "39186114",
+      "39854875",
+      "40411678",
+      "41146251",
+      "39044829",
+      "36973787",
+      "39739621",
+      "41132344",
+      "38515748",
+      "40012053",
+      "32786144",
+      "40489463",
+      "37671155",
+      "40574852",
+      "40423850",
+      "30259082",
+      "31735557",
+      "37082269",
+      "37275552",
+      "29440146",
+      "35419031",
+      "36769068",
+      "31011911",
+      "40994220",
+      "34626722",
+      "38430268",
+      "34733990",
+      "26733306"
+    ],
+    "review": [
+      "41540546",
+      "30852032"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.eurekaselect.com/249266/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

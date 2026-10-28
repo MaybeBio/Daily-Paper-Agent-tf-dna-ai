@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40274967",
+    "doi": "10.1038/s41598-025-98754-x",
+    "title": "Identification of pivotal genes and regulatory networks associated with SAH based on multi-omics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "Subarachnoid hemorrhage (SAH) is a disease with high mortality and morbidity, and its pathophysiology is complex but poorly understood. To investigate the potential therapeutic targets post-SAH, the SAH-related feature genes were screened by the combined analysis of transcriptomics and metabolomics of rat cortical tissues following SAH and proteomics of cerebrospinal fluid from SAH patients, as well as WGCNA and machine learning. The competitive endogenous RNAs (ceRNAs) and transcription factors (TFs) regulatory networks of the feature genes were constructed and further validated by molecular biology experiments. A total of 1336 differentially expressed proteins were identified, including 729 proteins downregulated and 607 proteins upregulated. The immune microenvironment changed after SAH and the changement persisted at SAH 7d. Through multi-omics and bioinformatics techniques, five SAH-related feature genes (A2M, GFAP, GLIPR2, GPNMB, and LCN2) were identified, closely related to the immune microenvironment. In addition, ceRNAs and TFs regulatory networks of the feature genes were constructed. The increased expression levels of A2M and GLIPR2 following SAH were verified, and co-localization of A2M with intravascular microthrombus was demonstrated. Multiomics and bioinformatics tools were used to predict the SAH associated feature genes confirmed further through the ceRNAs and TFs regulatory network development. These molecules might play a key role in SAH and may serve as potential biological markers and provide clues for exploring therapeutic options.",
+    "keywords": [
+      "A2M",
+      "Microthrombus",
+      "Multi-omics",
+      "Subarachnoid hemorrhage",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Gene Regulatory Networks",
+      "Animals",
+      "Rats",
+      "Humans",
+      "*Subarachnoid Hemorrhage/genetics/metabolism",
+      "Computational Biology/methods",
+      "Male",
+      "Proteomics/methods",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Female",
+      "Metabolomics/methods",
+      "Rats, Sprague-Dawley",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Haoran",
+        "Xie, Teng",
+        "Qin, Xiaohong",
+        "Wei, Shanshan",
+        "Zhao, Zilong",
+        "Liu, Xizhi",
+        "Wu, Liquan",
+        "Ding, Rui",
+        "Chen, Zhibiao"
+      ],
+      "short_names": [
+        "Lu H",
+        "Xie T",
+        "Qin X",
+        "Wei S",
+        "Zhao Z",
+        "Liu X",
+        "Wu L",
+        "Ding R",
+        "Chen Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China.",
+        "Department of Neurosurgery, Hanchuan Renmin Hospital, Hanchuan, 431600, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China.",
+        "Department of Oncology, Wuchang Hospital Affiliated to Wuhan University of Science and Technology, Wuhan, 430063, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China. rui-ding@hotmail.com.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China. chzbiao@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Haoran",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Teng",
+        "short_name": "Xie T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanchuan Renmin Hospital, Hanchuan, 431600, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xiaohong",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shanshan",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Wuchang Hospital Affiliated to Wuhan University of Science and Technology, Wuhan, 430063, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zilong",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xizhi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Liquan",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Rui",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China. rui-ding@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhibiao",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Street, Wuhan, 430060, Hubei, China. chzbiao@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/25 01:20",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42450567"
+    ],
+    "refs": [
+      "39845445",
+      "39420131",
+      "39233827",
+      "38965653",
+      "38592585",
+      "38542406",
+      "38476239",
+      "38450561",
+      "38427129",
+      "38203649",
+      "38159198",
+      "38135853",
+      "37919457",
+      "37762520",
+      "37487878",
+      "37487780",
+      "37181334",
+      "37032832",
+      "36825022",
+      "36804285",
+      "36786944",
+      "36631632",
+      "36586462",
+      "36418735",
+      "36187347",
+      "35985353",
+      "35896928",
+      "35817941",
+      "35689216",
+      "35451533",
+      "34970276",
+      "34720082",
+      "34463264",
+      "34241576",
+      "34076826",
+      "34054862",
+      "33951946",
+      "33567261",
+      "33078345",
+      "32664984",
+      "32435641",
+      "32404916",
+      "32009226",
+      "31907877",
+      "31701227",
+      "31583833",
+      "31568658",
+      "30931480",
+      "30674235",
+      "30639483",
+      "30340518",
+      "29445328",
+      "28581123",
+      "28391543",
+      "27090751",
+      "26463936",
+      "25766280",
+      "25082408",
+      "24357647",
+      "23918603",
+      "23516513",
+      "22870270",
+      "22268819",
+      "21802130",
+      "19782411",
+      "19114008",
+      "15869710",
+      "10592173"
+    ],
+    "similar": [
+      "40274967",
+      "38702954",
+      "38897129",
+      "39294296",
+      "38842661",
+      "33174039",
+      "40296690",
+      "39489224",
+      "39604866",
+      "40216809",
+      "40207230",
+      "39181687",
+      "39026663",
+      "38863714",
+      "21971956",
+      "39095742",
+      "40097519",
+      "39142001",
+      "39707003",
+      "39845878",
+      "33509101",
+      "40196107",
+      "33990177",
+      "34990842",
+      "38755717",
+      "39238187",
+      "38876403",
+      "40330470",
+      "39749331",
+      "40328901",
+      "25777551",
+      "38135853",
+      "39773540",
+      "40070840",
+      "38767974",
+      "39953123",
+      "39358430",
+      "38600757",
+      "37285682",
+      "38694921",
+      "39883963",
+      "39602828",
+      "40159482",
+      "36527108",
+      "40129981",
+      "40229542",
+      "39496786",
+      "39697339",
+      "39869603",
+      "39690389",
+      "40317014",
+      "39251098",
+      "39050860",
+      "40093012",
+      "39743001",
+      "39917301",
+      "39986195",
+      "40274954",
+      "33276666",
+      "40330458",
+      "36741285",
+      "39920860",
+      "29160895",
+      "34432807",
+      "39695788",
+      "38760675",
+      "39703515",
+      "28741142",
+      "39540991",
+      "38711508",
+      "33837224",
+      "31969612",
+      "39233827",
+      "40155814",
+      "40200221",
+      "31026661",
+      "39992204",
+      "35877019",
+      "39139563",
+      "39955954",
+      "39062936",
+      "33340009",
+      "39512836",
+      "31295444",
+      "35757392",
+      "39608561",
+      "39355255",
+      "39909246",
+      "37682479",
+      "39853851",
+      "39234248",
+      "26628385",
+      "39835132",
+      "39886838",
+      "38356020",
+      "32664984",
+      "40124380",
+      "38947325",
+      "26138128",
+      "35773742"
+    ],
+    "review": [
+      "40274967",
+      "33509101",
+      "38600757",
+      "39251098",
+      "39062936"
+    ],
+    "pmc": [
+      "12022295"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-98754-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40274967/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-681",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

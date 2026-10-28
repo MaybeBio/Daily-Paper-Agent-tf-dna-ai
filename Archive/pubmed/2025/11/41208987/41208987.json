@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "41208987",
+    "doi": "10.3389/fimmu.2025.1693940",
+    "title": "Single-cell and machine learning-based pyroptosis-related gene signature predicts prognosis and immunotherapy response in glioblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma (GBM) is the most aggressive primary malignancy of the central nervous system, characterized by profound heterogeneity and an immunosuppressive microenvironment, leading to dismal prognosis. Pyroptosis, an inflammatory form of programmed cell death, has been increasingly linked to tumor immunity and progression; however, its molecular roles and clinical implications in GBM remain insufficiently understood. METHODS: We integrated bulk transcriptome profiles from TCGA-GBM, CGGA, and GEO datasets with single-cell RNA sequencing data from GSE141383 and GSE223063. A comprehensive GBM single-cell atlas was constructed using Seurat and Harmony, and malignant epithelial cells were inferred via inferCNV. Pyroptosis activity was quantified by five complementary algorithms, while Monocle2 and Slingshot were employed for pseudotime trajectory reconstruction, and SCENIC was applied for transcription factor network analysis. Candidate prognostic genes identified from malignant epithelial subsets were further used to develop a Pyroptosis-Related Gene Signature (PRGS) through a systematic evaluation of ten machine learning algorithms and their combinations, with subsequent validation across multiple cohorts. Functional enrichment (GSVA, GSEA), tumor microenvironment estimation (ESTIMATE, ssGSEA), drug sensitivity prediction (GDSC2), and in vitro experiments were performed to characterize the biological and therapeutic relevance of PRGS, with MAP1B selected for experimental validation. RESULTS: Single-cell analyses revealed heterogeneous pyroptosis activity across GBM cell populations. Distinct ligand-receptor communications were observed between high- and low-pyroptosis groups, among which the SPP1-centered signaling axis showed pronounced remodeling, suggesting a pivotal role in tumor-immune crosstalk. Pseudotime and regulatory network analyses of malignant epithelial cells further delineated differentiation trajectories and transcriptional regulators. The PRGS, established by StepCox[both]+Ridge modeling, demonstrated robust prognostic stratification and predictive power across independent datasets. High PRGS scores were consistently associated with poorer survival outcomes, higher TIDE scores, and reduced IPS values, indicating enhanced immune evasion and attenuated immunotherapy benefit. Enrichment analyses highlighted that high PRGS tumors were linked to metabolic reprogramming and DNA repair pathways, whereas low PRGS tumors exhibited signatures of immune activation. Drug sensitivity analyses revealed distinct therapeutic vulnerabilities between subgroups. Functional assays confirmed that MAP1B promotes proliferation, migration, and invasion in GBM cells, reinforcing its oncogenic role. CONCLUSION: This study systematically elucidates the role of pyroptosis in GBM and establishes PRGS as a reliable prognostic biomarker. PRGS not only refines risk stratification and predicts immunotherapy response but also provides molecular insights into tumor metabolism and immune regulation, thereby offering potential avenues for targeted therapeutic strategies in GBM.",
+    "keywords": [
+      "SPP1 signaling",
+      "glioblastoma",
+      "machine learning",
+      "prognostic signature",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pyroptosis/genetics/immunology",
+      "*Glioblastoma/genetics/therapy/immunology/mortality/pathology",
+      "*Machine Learning",
+      "Prognosis",
+      "Single-Cell Analysis/methods",
+      "Tumor Microenvironment/immunology/genetics",
+      "*Immunotherapy/methods",
+      "*Transcriptome",
+      "*Brain Neoplasms/genetics/therapy/immunology/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Liren",
+        "Wang, Desheng",
+        "Meng, Fanlei",
+        "Wang, Yinzhi",
+        "Feng, Lu",
+        "Li, Hong"
+      ],
+      "short_names": [
+        "Fang L",
+        "Wang D",
+        "Meng F",
+        "Wang Y",
+        "Feng L",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Neurosurgery Department, Tianjin Hospital, Tianjin, China.",
+        "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Neurosurgery Department, Tianjin Hospital, Tianjin, China.",
+        "Neurosurgery Department, Tianjin Hospital, Tianjin, China.",
+        "Neurosurgery Department, Taizhou Central Hospital (Taizhou University Hospital), Zhejiang, China.",
+        "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Liren",
+        "short_name": "Fang L",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Desheng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Fanlei",
+        "short_name": "Meng F",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China.",
+          "Neurosurgery Department, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yinzhi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Lu",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Taizhou Central Hospital (Taizhou University Hospital), Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hong",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Department, Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 06:29",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "42653415",
+      "42164498",
+      "41868101"
+    ],
+    "refs": [
+      "40589759",
+      "40149830",
+      "40010763",
+      "39850883",
+      "39455097",
+      "39297408",
+      "39029904",
+      "39001510",
+      "38987821",
+      "38947336",
+      "38760442",
+      "38596689",
+      "38515748",
+      "38298707",
+      "38211590",
+      "37711136",
+      "37535729",
+      "37524774",
+      "37352727",
+      "37189183",
+      "36853018",
+      "36809318",
+      "36671463",
+      "36239989",
+      "35917973",
+      "35673561",
+      "35513901",
+      "34459122",
+      "34429144",
+      "34174849",
+      "33804731",
+      "33597522",
+      "33558264",
+      "32669604",
+      "31327527",
+      "30902885",
+      "29914354",
+      "29260225",
+      "28991892",
+      "28697342",
+      "28052254",
+      "26392416",
+      "26200272",
+      "25079102",
+      "24925914",
+      "23323831",
+      "22257669",
+      "21984824",
+      "20129251"
+    ],
+    "similar": [
+      "41208987",
+      "40761791",
+      "40226936",
+      "40842996",
+      "41275140",
+      "32572951",
+      "41164195",
+      "35658846",
+      "40473799",
+      "40496864",
+      "39512836",
+      "41235227",
+      "39143438",
+      "41318472",
+      "40429753",
+      "40438115",
+      "41425595",
+      "35547808",
+      "41504052",
+      "40787449",
+      "41267067",
+      "33839757",
+      "40859405",
+      "39539547",
+      "38687369",
+      "39155627",
+      "40764361",
+      "40607411",
+      "41200185",
+      "40838069",
+      "36650832",
+      "41222641",
+      "41025546",
+      "39962070",
+      "39882240",
+      "40852729",
+      "36129672",
+      "40148380",
+      "40682067",
+      "39896800",
+      "39387496",
+      "41310846",
+      "36138348",
+      "40869909",
+      "39870964",
+      "40330458",
+      "34354698",
+      "37650991",
+      "36127654",
+      "40100446",
+      "33693962",
+      "40806540",
+      "37561524",
+      "37727789",
+      "40956482",
+      "40121844",
+      "39700959",
+      "36605187",
+      "40308576",
+      "40224547",
+      "40052499",
+      "40102789",
+      "39267056",
+      "40695147",
+      "35990696",
+      "40918134",
+      "38686653",
+      "39516442",
+      "41235257",
+      "40496857",
+      "40330470",
+      "35964070",
+      "35242200",
+      "35000541",
+      "40200221",
+      "41207909",
+      "39355255",
+      "40442298",
+      "40227386",
+      "39085480",
+      "40350654",
+      "40642071",
+      "34899682",
+      "32006162",
+      "40486872",
+      "31784984",
+      "40787454",
+      "40909289",
+      "38851695",
+      "41341805",
+      "31038851",
+      "34566988",
+      "40761790",
+      "40821828",
+      "34244461",
+      "36305410",
+      "41345585",
+      "41260168",
+      "40594722",
+      "35123387"
+    ],
+    "review": [
+      "41208987"
+    ],
+    "pmc": [
+      "12592165"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41208987/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1693940",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

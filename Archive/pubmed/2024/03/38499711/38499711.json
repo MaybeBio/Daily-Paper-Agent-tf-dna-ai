@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "pmid": "38499711",
+    "doi": "10.1038/s41598-024-57097-9",
+    "title": "Exploring personalized treatment for cardiac graft rejection based on a four-archetype analysis model and bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Heart transplantation is the gold standard for treating patients with advanced heart failure. Although improvements in immunosuppressive therapies have significantly reduced the frequency of cardiac graft rejection, the incidences of T cell-mediated rejection (TCMR) and antibody-mediated rejection remain almost unchanged. A four-archetype analysis (4AA) model, developed by Philip F. Halloran, illustrated this problem well. It provided a new dimension to improve the accuracy of diagnoses and an independent system for recalibrating the histology guidelines. However, this model was based on the invasive method of endocardial biopsy, which undoubtedly increased the postoperative risk of heart transplant patients. Currently, little is known regarding the associated genes and specific functions of the different phenotypes. We performed bioinformatics analysis (using machine-learning methods and the WGCNA algorithm) to screen for hub-specific genes related to different phenotypes, based Gene Expression Omnibus accession number GSE124897. More immune cell infiltration was observed with the ABMR, TCMR, and injury phenotypes than with the stable phenotype. Hub-specific genes for each of the four archetypes were verified successfully using an external test set (accession number GSE2596). Logistic-regression models based on TCMR-specific hub genes and common hub genes were constructed with accurate diagnostic utility (area under the curve > 0.95). RELA, NFKB1, and SOX14 were identified as transcription factors important for TCMR/injury phenotypes and common genes, respectively. Additionally, 11 Food and Drug Administration-approved drugs were chosen from the DrugBank Database for each four-archetype model. Tyrosine kinase inhibitors may be a promising new option for transplant rejection treatment. KRAS signaling in cardiac transplant rejection is worth further investigation. Our results showed that heart transplant rejection subtypes can be accurately diagnosed by detecting expression of the corresponding specific genes, thereby enabling precise treatment or medication.",
+    "keywords": [
+      "Cardiac graft rejection",
+      "Co-expression network",
+      "Endomyocardial biopsies",
+      "Immune cell infiltration",
+      "Machine learning",
+      "Tyrosine kinase inhibitors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Heart Transplantation/adverse effects",
+      "Graft Rejection",
+      "*Kidney Transplantation/methods",
+      "Precision Medicine",
+      "Tissue Donors",
+      "Biopsy",
+      "Computational Biology",
+      "SOXB2 Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Hongjie",
+        "Yuan, Ming",
+        "Cai, Jie",
+        "Shi, Jiajun",
+        "Li, Yang",
+        "Qian, Qiaofeng",
+        "Dong, Zhe",
+        "Pan, Gaofeng",
+        "Zhu, Shaoping",
+        "Wang, Wei",
+        "Zhou, Jianliang",
+        "Zhou, Xianwu",
+        "Liu, Jinping"
+      ],
+      "short_names": [
+        "Shi H",
+        "Yuan M",
+        "Cai J",
+        "Shi J",
+        "Li Y",
+        "Qian Q",
+        "Dong Z",
+        "Pan G",
+        "Zhu S",
+        "Wang W",
+        "Zhou J",
+        "Zhou X",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China. zhouxianwu@znhospital.cn.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China. zhouxianwu@znhospital.cn.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China. zhouxianwu@znhospital.cn.",
+        "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China. liujinping@znhospital.cn.",
+        "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China. liujinping@znhospital.cn.",
+        "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China. liujinping@znhospital.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Hongjie",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ming",
+        "short_name": "Yuan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jie",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jiajun",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Qiaofeng",
+        "short_name": "Qian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Zhe",
+        "short_name": "Dong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Gaofeng",
+        "short_name": "Pan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shaoping",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jianliang",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xianwu",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China. zhouxianwu@znhospital.cn.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China. zhouxianwu@znhospital.cn.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China. zhouxianwu@znhospital.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Jinping",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Zhongnan Hospital of Wuhan University, 169 Donghu Road, Wuhan, 430071, China. liujinping@znhospital.cn.",
+          "Hubei Provincial Engineering Research Center of Minimally Invasive Cardiovascular Surgery, Wuhan, 430071, China. liujinping@znhospital.cn.",
+          "Wuhan Clinical Research Center for Minimally Invasive Treatment of Structural Heart Disease, Wuhan, 430071, China. liujinping@znhospital.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Mar 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/19 06:43",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42222122",
+      "40176068"
+    ],
+    "refs": [
+      "37805375",
+      "37730189",
+      "37318008",
+      "37060862",
+      "36413402",
+      "36233113",
+      "35850041",
+      "35317953",
+      "35228550",
+      "34776511",
+      "34348164",
+      "33664864",
+      "33598481",
+      "33455723",
+      "33400150",
+      "33237311",
+      "33116132",
+      "33109256",
+      "33098370",
+      "32849510",
+      "32811772",
+      "32442923",
+      "32363949",
+      "31535407",
+      "31351216",
+      "31339067",
+      "31324781",
+      "31283677",
+      "31240638",
+      "31061481",
+      "30944313",
+      "30795962",
+      "30333303",
+      "30136356",
+      "30034909",
+      "29772459",
+      "29455648",
+      "29455643",
+      "29178397",
+      "29141660",
+      "28991892",
+      "28964914",
+      "28662985",
+      "28396194",
+      "28068175",
+      "27959700",
+      "27765066",
+      "27692539",
+      "27602954",
+      "26985062",
+      "26776864",
+      "26154552",
+      "25812489",
+      "25265494",
+      "24944628",
+      "23489828",
+      "22971540",
+      "22774864",
+      "22137237",
+      "21967803",
+      "21810682",
+      "21514135",
+      "21494202",
+      "21441854",
+      "20852747",
+      "20625634",
+      "20413602",
+      "19935724",
+      "19284501",
+      "16822491",
+      "16794196",
+      "16433769",
+      "16386610",
+      "16297769",
+      "16278594",
+      "15701431",
+      "15519279",
+      "14597658",
+      "12461564",
+      "11781254",
+      "11256424",
+      "7645042",
+      "7475769",
+      "2560579"
+    ],
+    "similar": [
+      "38499711",
+      "33230903",
+      "28662985",
+      "30333303",
+      "35058354",
+      "30396694",
+      "25377077",
+      "38527588",
+      "34548198",
+      "28614805",
+      "25556173",
+      "30417539",
+      "35619722",
+      "36508644",
+      "30833191",
+      "38040290",
+      "30286468",
+      "27401781",
+      "34975915",
+      "38924813",
+      "35690154",
+      "30773443",
+      "33717174",
+      "30795962",
+      "30868758",
+      "39414868",
+      "34253587",
+      "35514138",
+      "28101959",
+      "36658573",
+      "32943286",
+      "32090446",
+      "26730747",
+      "27345248",
+      "31029504",
+      "37781552",
+      "37730189",
+      "23965521",
+      "32176594",
+      "33107191",
+      "25918035",
+      "32421997",
+      "24430742",
+      "22932115",
+      "25944235",
+      "34478461",
+      "25594551",
+      "34326417",
+      "28449409",
+      "36200456",
+      "36483557",
+      "23717683",
+      "34075006",
+      "36776400",
+      "39243908",
+      "30872323",
+      "32102984",
+      "25440957",
+      "30296518",
+      "30341925",
+      "28601127",
+      "35347104",
+      "35432371",
+      "36059499",
+      "32484280",
+      "23915426",
+      "34337623",
+      "37726883",
+      "31345597",
+      "30286911",
+      "38266883",
+      "27362314",
+      "32476272",
+      "36493873",
+      "36575574",
+      "27649571",
+      "25944230",
+      "29731924",
+      "35345966",
+      "27871261",
+      "30806516",
+      "30501008",
+      "26455418",
+      "26594210",
+      "35526671",
+      "34717048",
+      "28654216",
+      "26743766",
+      "31846554",
+      "35575435",
+      "16470149",
+      "30196110",
+      "25176944",
+      "27862883",
+      "24860861",
+      "36812388",
+      "34420852",
+      "37762119",
+      "38294835",
+      "25222013",
+      "25340597",
+      "38874084",
+      "38819301",
+      "38673037"
+    ],
+    "review": [
+      "38499711",
+      "36508644",
+      "27345248",
+      "23965521",
+      "30286911",
+      "25944230",
+      "35345966",
+      "16470149",
+      "24860861",
+      "38294835"
+    ],
+    "pmc": [
+      "10948767"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneytransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Transplantation"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-57097-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38499711/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38499711",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

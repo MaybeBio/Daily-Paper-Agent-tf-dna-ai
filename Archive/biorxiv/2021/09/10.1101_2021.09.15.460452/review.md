@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results, Discussion, Data Availability, Funding, Author Contributions, Acknowledgements)
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as submitted to bioRxiv; no assessment of journal fit or editorial decisions
+- **Shared manuscript claim summary** The authors present RNANetMotif, a graph-based computational method that identifies enriched sequence-structure motifs (termed EKS, Extended K-mer Subgraphs) from predicted RNA secondary structures of RBP binding sites. The method is validated through comparison with existing tools, 3D structure modeling via discrete molecular dynamics, and a case study on LIN28B involving protein-RNA docking and all-atom MD simulations. A web server and source code are provided.
+- **Visible evidence base** Abstract; Introduction; Methods sections 2.1–2.8; Results sections 3.1–3.7; Discussion; Data Availability; Funding; Author Contributions; Acknowledgements. Figures and tables are referenced but not provided in the supplied material.
+- **Missing materials affecting confidence** Figures 1–8, Tables 1–3, Supplementary Tables 1–2, Supplementary Figures S2–S3, and Supplementary Method S1 are referenced but not included. This limits the ability to assess the validity of the results, the quality of the visualizations, and the statistical details of the comparisons.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a novel computational approach for identifying RNA sequence-structure motifs in RBP binding sites. The core idea of representing RNA secondary structures as graphs and mining enriched subgraphs is conceptually interesting and potentially useful. However, the manuscript as presented has several significant gaps in methodological detail, validation rigor, and clarity that prevent a full assessment of the claims. The lack of figures and supplementary materials is a major limitation for this review. The authors should be commended for providing a web server and source code, which enhances reproducibility. The validation strategy, particularly the use of 3D structure modeling and docking, is ambitious but the results are not fully convincing from the text alone. The comparison with existing methods is described but lacks quantitative detail. Overall, the work has potential but requires substantial revision and additional evidence to fully support its claims.
+- **Who would be interested in the results, and why** Researchers in the fields of RNA biology, computational biology, and bioinformatics would be interested. Specifically, those studying RNA-protein interactions, RNA motif discovery, and developers of computational tools for RNA structure analysis would find this work relevant. The method could also be of interest to experimentalists seeking to interpret RBP binding data in a structural context.
+- **Major strengths** 1. The conceptual novelty of applying graph theory to RNA secondary structure networks to identify enriched subgraphs is a fresh perspective. 2. The method is unsupervised, which avoids issues with negative data. 3. The authors provide a web server and source code, which is commendable for community use. 4. The validation approach, including 3D structure modeling and docking, is ambitious and attempts to provide biological context. 5. The manuscript is generally well-written and the logic of the approach is clearly explained.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RNANetMotif identifies "enriched subgraphs" that are "important in RBP-RNA binding" is central to the paper.
+  - **Evidence pointer** Methods 2.5–2.7; Results 3.2; Figures 4–5 (not provided)
+  - **Concern** The statistical framework for determining "enrichment" of EKSes is not fully described. The authors mention using a negative set and Pearson chi-square test, but the details of how the negative set is constructed, how the test is applied, and how multiple testing is controlled are missing. The definition of "significant modules" from ClusterONE and the subsequent maximal clique enumeration is also unclear. The criteria for selecting the "top 50" EKSes as representative motifs are not justified.
+  - **Why it matters** Without a clear and rigorous statistical framework, the core claim of identifying significant and enriched motifs cannot be evaluated. The method's utility depends on its ability to distinguish true motifs from background noise.
+  - **Resolution test** Provide a detailed description of the statistical testing procedure, including the construction of the negative set, the exact form of the chi-square test, and how the p-values are combined or corrected. Justify the choice of the "top 50" EKSes. Ideally, include a simulation or permutation-based null model to demonstrate the false discovery rate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the 3D structure modeling and docking results "further support the biological relevance of the discovered network subgraphs."
+  - **Evidence pointer** Methods 2.8; Results 3.3–3.4; Figures 6–7 (not provided)
+  - **Concern** The validation using DMD simulations and docking is described at a high level, but the specific results are not presented in the text. The authors state that motifs have "statistically significant fewer atoms in their vicinity" but do not provide the effect sizes, p-values, or the number of replicates. The docking results for LIN28B are described qualitatively, and the connection between the predicted motifs and the observed binding mode is not clearly established. The choice of LIN28B as a case study is justified, but the validation is not comprehensive.
+  - **Why it matters** The biological relevance of the motifs is a key claim of the paper. Without quantitative results from the structure modeling and docking, the validation is not convincing. The reader cannot assess whether the motifs are truly accessible or if the docking results are specific.
+  - **Resolution test** Provide the statistical results of the spatial accessibility comparison (e.g., p-values, effect sizes). Show the docking scores and the structural alignment of the predicted motifs with the binding interface. Include a control docking with a non-specific RNA to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that RNANetMotif "compares favorably with other methods" in terms of performance and run-time.
+  - **Evidence pointer** Results 3.5–3.7; Figure 8; Table 3 (not provided)
+  - **Concern** The comparison with other methods (BEAM, GraphProt, ssHMM, RNAcontext, Zagros) is described only qualitatively. No quantitative metrics (e.g., sensitivity, specificity, precision, recall, or area under the ROC curve) are provided. The run-time comparison is also vague, with no specific numbers or hardware details. The synthetic dataset experiment (Section 3.6) is described, but the results are not shown in the text.
+  - **Why it matters** The claim of superiority or comparability is a strong one. Without quantitative benchmarks, the reader cannot judge the relative performance of RNANetMotif. The utility of the method depends on its performance relative to existing tools.
+  - **Resolution test** Provide a detailed benchmark table with standard performance metrics for all methods on the same datasets. Include the run-time and memory usage in a table or figure. For the synthetic dataset, show the recovery rates for each method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the method is applicable to "other categories of RNA sequences" beyond RBP binding sites.
+  - **Evidence pointer** Discussion; Results 3.6
+  - **Concern** The generalizability of the method is claimed but not demonstrated. The synthetic dataset experiment is a start, but it is limited to five motif types and a specific setup. The authors do not discuss potential limitations of the method when applied to different types of RNA (e.g., long non-coding RNAs, viral RNAs) or different types of interactions (e.g., RNA-RNA).
+  - **Why it matters** The broader applicability of the method is a key selling point. Without evidence, this claim remains speculative.
+  - **Resolution test** Apply the method to a diverse set of RNA datasets (e.g., from RBP databases, RNA structure databases) and demonstrate its ability to recover known motifs. Discuss potential challenges and limitations in the Discussion section.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Methods 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The definition of EKS is somewhat abstract and could be clarified with a simple example or a more intuitive explanation. The concept of "compactness score" is introduced but its biological meaning is not immediately clear.
+  - **Required correction** Add a simple illustrative example of an EKS in the text or a figure. Explain the biological rationale for using the compactness score in more intuitive terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The criteria for selecting the 22 RBPs from the initial 150 are not fully justified. The authors state they excluded proteins involved in splicing and those with fewer than half of binding sites in exons, but the rationale for these thresholds is not explained.
+  - **Required correction** Provide a brief justification for the filtering criteria and discuss the potential impact of these choices on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods 2.8
+  - **Evidence pointer** Section 2.8
+  - **Issue** The details of the DMD simulations are sparse. The authors mention "default DMD settings" but do not specify the force field parameters, the simulation temperature, or the number of replicates.
+  - **Required correction** Provide more details on the DMD simulation setup, including the version of the software, the force field, and the simulation conditions. This is important for reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The description of the LIN28B docking results is brief and assumes familiarity with the protein. A brief description of LIN28B's function and its known RNA binding preferences would help the reader understand the significance of the results.
+  - **Required correction** Add a brief introduction to LIN28B and its biological context in the Results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical framework), R1-M2 (validation results), R1-M3 (benchmarking). These are blocking concerns because they directly affect the validity of the core claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of using graph theory to mine RNA secondary structure networks for enriched subgraphs is a novel contribution. The concept of EKS is new and distinct from existing motif representations. However, the originality is somewhat tempered by the fact that the underlying idea of combining sequence and structure information is not entirely new.
+  - **Scientific importance** The problem of identifying RNA sequence-structure motifs is important for understanding RBP-RNA interactions. If the method is rigorously validated, it could be a valuable tool. However, the current evidence is insufficient to establish its importance.
+  - **Interdisciplinary readership** The work is likely to appeal to computational biologists, bioinformaticians, and RNA biologists. The methods are technical and may not be easily accessible to a broader biological audience without additional explanation.
+  - **Technical soundness** The technical soundness is currently not established due to the lack of statistical detail and validation results. The method's design is reasonable, but the implementation and validation need to be more rigorous.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the Methods section is dense and may be challenging for nonspecialists. The abstract is clear, but the main text could benefit from more intuitive explanations of the key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the core claims are not sufficiently supported by the evidence presented. The authors need to address the blocking concerns regarding the statistical framework, validation results, and benchmarking before the case is established.
+
+## Risk / unsupported claims
+- The claim that RNANetMotif identifies "enriched subgraphs" that are "important in RBP-RNA binding" is not fully supported due to the lack of a detailed statistical framework and validation results.
+- The claim that the 3D structure modeling and docking results "further support the biological relevance" is not supported by quantitative data in the text.
+- The claim that RNANetMotif "compares favorably with other methods" is not supported by quantitative benchmarks.
+- The claim that the method can be extended to "other categories of RNA sequences" is speculative and not demonstrated.
+- The claim that the method is "novel" and "has not been described in the literature" is plausible but not fully verified in the text.

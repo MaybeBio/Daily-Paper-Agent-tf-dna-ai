@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38987624",
+  "title": "Exploration of effective biomarkers for venous thrombosis embolism in Behcet's disease based on comprehensive bioinformatics analysis.",
+  "authors": "Liu, Chunjiang; Wang, Yuan; Wu, Zhifeng; Tang, Xiaoqi; Wang, Guohua; Wang, Jiajia",
+  "journal": "Scientific reports",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 2,
+  "one_liner_zh": "基于生物信息学分析筛选白塞病静脉血栓栓塞的生物标志物，涉及基因表达与机器学习，但无蛋白质-DNA互作体系或结合建模，与本课题无关。",
+  "abstract": "Behcet's disease (BD) is a multifaceted autoimmune disorder affecting multiple organ systems. Vascular complications, such as venous thromboembolism (VTE), are highly prevalent, affecting around 50% of individuals diagnosed with BD. This study aimed to identify potential biomarkers for VTE in BD patients. Three microarray datasets (GSE209567, GSE48000, GSE19151) were retrieved for analysis. Differentially expressed genes (DEGs) associated with VTE in BD were identified using the Limma package and weighted gene co-expression network analysis (WGCNA). Subsequently, potential diagnostic genes were explored through protein-protein interaction (PPI) network analysis and machine learning algorithms. A receiver operating characteristic (ROC) curve and a nomogram were constructed to evaluate the diagnostic performance for VTE in BD patients. Furthermore, immune cell infiltration analyses and single-sample gene set enrichment analysis (ssGSEA) were performed to investigate potential underlying mechanisms. Finally, the efficacy of listed drugs was assessed based on the identified signature genes. The limma package and WGCNA identified 117 DEGs related to VTE in BD. A PPI network analysis then selected 23 candidate hub genes. Four DEGs (E2F1, GATA3, HDAC5, and MSH2) were identified by intersecting gene sets from three machine learning algorithms. ROC analysis and nomogram construction demonstrated high diagnostic accuracy for these four genes (AUC: 0.816, 95% CI: 0.723-0.909). Immune cell infiltration analysis revealed a positive correlation between dysregulated immune cells and the four hub genes. ssGSEA provided insights into potential mechanisms underlying VTE development and progression in BD patients. Additionally, therapeutic agent screening identified potential drugs targeting the four hub genes. This study employed a systematic approach to identify four potential hub genes (E2F1, GATA3, HDAC5, and MSH2) and construct a nomogram for VTE diagnosis in BD. Immune cell infiltration analysis revealed dysregulation, suggesting potential macrophage involvement in VTE development. ssGSEA provided insights into potential mechanisms underlying BD-induced VTE, and potential therapeutic agents were identified.",
+  "abstract_zh": "白塞病（Behçet's disease, BD）是一种影响多器官系统的多面性自身免疫性疾病。血管并发症，如静脉血栓栓塞（venous thromboembolism, VTE），在BD患者中高度普遍，影响约50%的确诊个体。本研究旨在识别BD患者中VTE的潜在生物标志物。检索了三个微阵列数据集（GSE209567、GSE48000、GSE19151）进行分析。使用Limma包和加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）识别与BD中VTE相关的差异表达基因（differentially expressed genes, DEGs）。随后，通过蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络分析和机器学习算法探索潜在的诊断基因。构建了受试者工作特征（receiver operating characteristic, ROC）曲线和列线图，以评估BD患者中VTE的诊断性能。此外，进行了免疫细胞浸润分析和单样本基因集富集分析（single-sample gene set enrichment analysis, ssGSEA），以研究潜在的潜在机制。最后，基于识别的特征基因评估了所列药物的疗效。Limma包和WGCNA识别出117个与BD中VTE相关的DEGs。随后，PPI网络分析筛选出23个候选枢纽基因。通过三种机器学习算法的基因集交集，识别出四个DEGs（E2F1、GATA3、HDAC5和MSH2）。ROC分析和列线图构建显示这四个基因具有较高的诊断准确性（AUC：0.816，95% CI：0.723-0.909）。免疫细胞浸润分析显示失调的免疫细胞与四个枢纽基因之间存在正相关。ssGSEA为BD患者中VTE发生和进展的潜在机制提供了见解。此外，治疗药物筛选识别出针对四个枢纽基因的潜在药物。本研究采用系统方法识别出四个潜在枢纽基因（E2F1、GATA3、HDAC5和MSH2），并构建了用于BD中VTE诊断的列线图。免疫细胞浸润分析显示失调，提示巨噬细胞可能参与VTE发生。ssGSEA为BD诱导的VTE的潜在机制提供了见解，并识别出潜在的治疗药物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38987624/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38987624/",
+  "paper_page_path": "papers/pubmed/38987624/index.html"
+}

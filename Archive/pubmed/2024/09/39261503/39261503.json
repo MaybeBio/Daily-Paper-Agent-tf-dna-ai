@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "39261503",
+    "doi": "10.1038/s41467-024-52337-y",
+    "title": "Histones and histone variant families in prokaryotes."
+  },
+  "content": {
+    "abstract": "Histones are important chromatin-organizing proteins in eukaryotes and archaea. They form superhelical structures around which DNA is wrapped. Recent studies have shown that some archaea and bacteria contain alternative histones that exhibit different DNA binding properties, in addition to highly divergent sequences. However, the vast majority of these histones are identified in metagenomes and thus are difficult to study in vivo. The recent revolutionary breakthroughs in computational protein structure prediction by AlphaFold2 and RoseTTAfold allow for unprecedented insights into the potential function and structure of previously uncharacterized proteins. Here, we categorize the prokaryotic histone space into 17 distinct groups based on AlphaFold2 predictions. We identify a superfamily of histones, termed alpha3 histones, which are common in archaea and present in several bacteria. Importantly, we establish the existence of a large family of histones throughout archaea and in some bacteriophages that, instead of wrapping DNA, bridge DNA, thereby diverging from conventional nucleosomal histones.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/metabolism/chemistry/genetics",
+      "*Archaea/metabolism/genetics",
+      "*Bacteria/metabolism/genetics",
+      "Prokaryotic Cells/metabolism",
+      "Phylogeny",
+      "Nucleosomes/metabolism",
+      "Models, Molecular",
+      "Archaeal Proteins/metabolism/chemistry/genetics",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schwab, Samuel",
+        "Hu, Yimin",
+        "van Erp, Bert",
+        "Cajili, Marc K M",
+        "Hartmann, Marcus D",
+        "Hernandez Alvarez, Birte",
+        "Alva, Vikram",
+        "Boyle, Aimee L",
+        "Dame, Remus T"
+      ],
+      "short_names": [
+        "Schwab S",
+        "Hu Y",
+        "van Erp B",
+        "Cajili MKM",
+        "Hartmann MD",
+        "Hernandez Alvarez B",
+        "Alva V",
+        "Boyle AL",
+        "Dame RT"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-9528-7736",
+        "ORCID: 0000-0002-6965-8965",
+        "ORCID: 0000-0001-6937-5677",
+        "ORCID: 0000-0003-0635-8698",
+        "ORCID: 0000-0003-1188-473X",
+        "ORCID: 0000-0001-9863-1692"
+      ],
+      "affiliations": [
+        "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+        "Department of Protein Evolution, Max Planck Institute for Biology Tubingen, Tubingen, Germany.",
+        "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+        "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+        "Department of Protein Evolution, Max Planck Institute for Biology Tubingen, Tubingen, Germany.",
+        "Interfaculty Institute of Biochemistry, University of Tubingen, Tubingen, Germany.",
+        "Department of Protein Evolution, Max Planck Institute for Biology Tubingen, Tubingen, Germany.",
+        "Department of Protein Evolution, Max Planck Institute for Biology Tubingen, Tubingen, Germany.",
+        "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+        "School of Chemistry, University of Bristol, Bristol, UK.",
+        "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl.",
+        "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schwab, Samuel",
+        "short_name": "Schwab S",
+        "identifiers": [
+          "0009-0003-9528-7736"
+        ],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hu, Yimin",
+        "short_name": "Hu Y",
+        "identifiers": [
+          "0000-0002-6965-8965"
+        ],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "van Erp, Bert",
+        "short_name": "van Erp B",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Cajili, Marc K M",
+        "short_name": "Cajili MKM",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Marcus D",
+        "short_name": "Hartmann MD",
+        "identifiers": [
+          "0000-0001-6937-5677"
+        ],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology Tübingen, Tübingen, Germany.",
+          "Interfaculty Institute of Biochemistry, University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Hernandez Alvarez, Birte",
+        "short_name": "Hernandez Alvarez B",
+        "identifiers": [
+          "0000-0003-0635-8698"
+        ],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Alva, Vikram",
+        "short_name": "Alva V",
+        "identifiers": [
+          "0000-0003-1188-473X"
+        ],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Boyle, Aimee L",
+        "short_name": "Boyle AL",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+          "School of Chemistry, University of Bristol, Bristol, UK."
+        ]
+      },
+      {
+        "full_name": "Dame, Remus T",
+        "short_name": "Dame RT",
+        "identifiers": [
+          "0000-0001-9863-1692"
+        ],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl.",
+          "Centre for Microbial Cell Biology, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands. rtdame@chem.leidenuniv.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Sep 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/12 00:42",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41994963",
+      "41986316",
+      "41853935",
+      "41381525",
+      "40715086",
+      "39858592",
+      "39572228",
+      "39096085",
+      "38366053",
+      "37961278"
+    ],
+    "refs": [
+      "38867905",
+      "38864377",
+      "38366053",
+      "38181064",
+      "37814071",
+      "37740023",
+      "37156916",
+      "37143534",
+      "36379955",
+      "36370708",
+      "36266339",
+      "35637307",
+      "35624484",
+      "34520557",
+      "34297924",
+      "34282049",
+      "34265844",
+      "33459763",
+      "33341892",
+      "33315308",
+      "33237286",
+      "33156333",
+      "32726574",
+      "31767998",
+      "31070718",
+      "30520969",
+      "30217978",
+      "30212449",
+      "30150647",
+      "30109613",
+      "29035372",
+      "28798133",
+      "24410852",
+      "23240084",
+      "23065975",
+      "22039361",
+      "21460454",
+      "20133692",
+      "20124692",
+      "20057045",
+      "19037758",
+      "17308310",
+      "16377615",
+      "16267129",
+      "15572765",
+      "15284097",
+      "14656442",
+      "11021968",
+      "11021967",
+      "10704305",
+      "10329402",
+      "9305837",
+      "8820495",
+      "8568866",
+      "7809089",
+      "7629095",
+      "2377617",
+      "1429445"
+    ],
+    "similar": [
+      "39261503",
+      "40581572",
+      "33650488",
+      "33383035",
+      "29729078",
+      "41270719",
+      "16920388",
+      "38806669",
+      "9783158",
+      "41203064",
+      "23835508",
+      "36779711",
+      "31710291",
+      "34894218",
+      "11021967",
+      "11677690",
+      "33288720",
+      "14583738",
+      "15046577",
+      "10763747",
+      "12754245",
+      "23758892",
+      "41161312",
+      "19037758",
+      "37814071",
+      "3519076",
+      "25257534",
+      "22025671",
+      "28341406",
+      "22329974",
+      "21265758",
+      "11278079",
+      "17996059",
+      "20351259",
+      "26456193",
+      "15466593",
+      "9382700",
+      "8652658",
+      "28920507",
+      "7959058",
+      "38366053",
+      "10652094",
+      "16256418",
+      "10486002",
+      "8919875",
+      "28777072",
+      "39039769",
+      "33341892",
+      "15556475",
+      "31533616",
+      "12100548",
+      "30520969",
+      "24995873",
+      "21756346",
+      "24884953",
+      "8639328",
+      "38864377",
+      "23301656",
+      "19143601",
+      "30191942",
+      "10585970",
+      "28177778",
+      "11567091",
+      "16242031",
+      "19143611",
+      "12694606",
+      "15187186",
+      "23013770",
+      "35027677",
+      "9421495",
+      "23065975",
+      "20459678",
+      "16212260",
+      "10673008",
+      "25317564",
+      "21148291",
+      "22182250",
+      "16934982",
+      "9519294",
+      "25931116",
+      "17949885",
+      "27990001",
+      "31015382",
+      "22458654",
+      "38700364",
+      "30212449",
+      "11523004",
+      "10206687",
+      "35221208",
+      "16351741",
+      "19047349",
+      "9356501",
+      "39572228",
+      "39215524",
+      "9841678",
+      "21169198",
+      "31015384",
+      "29872012",
+      "14680971",
+      "37932847"
+    ],
+    "review": [
+      "39261503",
+      "40581572",
+      "33383035",
+      "29729078",
+      "9783158",
+      "11677690",
+      "14583738",
+      "15046577",
+      "10763747",
+      "19037758",
+      "3519076",
+      "25257534",
+      "28341406",
+      "11278079",
+      "9382700",
+      "28920507",
+      "38366053",
+      "16256418",
+      "39039769",
+      "24995873",
+      "8639328",
+      "23301656",
+      "19143601",
+      "10585970",
+      "28177778",
+      "12694606",
+      "15187186",
+      "16212260",
+      "10673008",
+      "22182250",
+      "9519294",
+      "31015382",
+      "30212449",
+      "35221208",
+      "9841678"
+    ],
+    "pmc": [
+      "11390915"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52337-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39261503/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39261503",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

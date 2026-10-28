@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data/code availability, funding, author contributions, affiliations, acknowledgements)
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as submitted to bioRxiv; no editorial decision rendered
+- **Shared manuscript claim summary** The authors present t2pmhc, a structure-informed graph neural network framework for predicting TCR-pMHC binding. The framework uses predicted structures of the entire TCR-pMHC complex, converts them into residue-level contact graphs, and evaluates two architectures (GCN and GAT). The authors claim improved generalization to unseen peptides compared to sequence-based state-of-the-art methods across multiple public datasets, biologically consistent attention patterns, and high-confidence predictions when crystallographic structures are used as input.
+- **Visible evidence base** Abstract, Introduction, Methods (partial), Results (partial), Discussion, Data availability, Code availability, Funding, Author contributions, Affiliations, Acknowledgements. Figure and table references are present but figures and tables themselves are not provided. Supplementary figures are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-5 and Tables 1-2 are referenced but not included. Supplementary Figures 1-4 are referenced but not included. Full Methods text is truncated (only section headers visible). No quantitative performance metrics (AUC values, confidence intervals, statistical tests) are provided in the visible text. No hyperparameter details, training configurations, or ablation studies are visible. No negative control experiments are described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in computational immunology: predicting TCR-pMHC binding with generalization to unseen peptides. The motivation is well articulated, and the structural rationale is sound. However, the visible evidence base is insufficient to evaluate the core claims. Key quantitative results, figures, and methodological details are not accessible in the provided material. The attention analysis is interesting but the interpretability claims require more rigorous validation. The manuscript has potential but the case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Computational immunologists developing TCR-pMHC binding predictors; immunoinformatics researchers working on structure-based deep learning; translational researchers in personalized cancer immunotherapy and vaccine design; researchers using graph neural networks for protein-protein interaction prediction. The claim of improved unseen-peptide generalization is clinically relevant for neoantigen prioritization and TCR repertoire analysis.
+- **Major strengths** The problem is well motivated and clinically relevant. The structural approach is a meaningful departure from sequence-only methods. The use of full TCR-pMHC complex structures rather than interface-only representations is well justified. The attention analysis attempts to connect model behavior to known biology. The authors acknowledge limitations of predicted structures and address calibration. The code and data availability statements are commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that t2pmhc demonstrates improved generalization to unseen peptides compared to state-of-the-art models across a variety of public datasets.
+  - **Evidence pointer** Results section, Figures 5a, 5c, 5d, Table 1, Table 2; location not provided
+  - **Concern** The central performance claim cannot be evaluated because the figures and tables containing the benchmark results are not included in the provided material. No AUC values, confidence intervals, or statistical significance tests are reported in the visible text. The comparison to state-of-the-art methods is asserted but not substantiated with accessible data.
+  - **Why it matters** The primary contribution of the manuscript is the claimed improvement in unseen-peptide generalization. Without access to the quantitative results, the core claim is unverifiable.
+  - **Resolution test** Provide the benchmark figures and tables with full quantitative metrics, including per-dataset AUC values, confidence intervals, and statistical comparisons to each baseline method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The Methods section describes the t2pmhc architecture, including GCN and GAT variants, graph construction from contact maps, and node features.
+  - **Evidence pointer** Methods section, t2pmhc Architecture subsection; location not provided
+  - **Concern** The visible Methods text is truncated and lacks critical details. The number of parameters, layer sizes, attention heads, dropout rates, learning rates, batch sizes, early stopping criteria, and the exact train-validation-test split procedure are not described. The negative sampling strategy is described but the rationale for the 10-Angstrom contact cutoff and the choice of node features is not fully justified. The hyperparameter optimization procedure is mentioned but the search space and final selected hyperparameters are not reported.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full architectural and training details, other researchers cannot implement or fairly compare against t2pmhc.
+  - **Resolution test** Provide a complete Methods section with all architectural hyperparameters, training details, optimization settings, and the full hyperparameter search space and final values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that t2pmhc-GCN attention patterns are biologically consistent, downweighting canonical MHC anchor residues and upweighting TCR-binding residues, and that attention correlates with CDR3 contact frequencies.
+  - **Evidence pointer** Results section, Figures 4a-4g, Supplementary Figures 1a-1d, 2a-2f; location not provided
+  - **Concern** The attention analysis is interesting but the interpretability claims require stronger validation. The correlation values (Spearman rho = 0.70, 0.75, -0.92) are reported without confidence intervals or significance testing. The analysis is limited to a single allele (A*02:01) for contact analysis. The claim that attention reflects biological mechanisms rather than artifacts of the model or data distribution is not rigorously tested. The authors acknowledge that attention may not provide explanations, but the subsequent claims are still strong.
+  - **Why it matters** Interpretability claims are increasingly scrutinized in the deep learning community. If the attention patterns are not robustly validated, the biological insights claimed may be overstated.
+  - **Resolution test** Provide confidence intervals and significance tests for all reported correlations. Include permutation tests or control analyses showing that attention patterns are not explained by trivial factors such as residue frequency or position. Extend the contact analysis to additional alleles.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark fairness
+  - **Claim pointer** The manuscript claims that t2pmhc outperforms sequence-based state-of-the-art methods on unseen peptides while maintaining competitive performance on seen peptides.
+  - **Evidence pointer** Results section, Figures 5a, 5c, 5d, Table 1; location not provided
+  - **Concern** The benchmark comparison raises several questions. The negative sampling strategy for the training data may differ from that used by the baseline methods, potentially giving t2pmhc an advantage or disadvantage. The overlap between the training data of t2pmhc and the baseline methods is not fully described. The unseen-peptide partition procedure is not detailed. The choice of baselines is reasonable but the versions and configurations used are not specified.
+  - **Why it matters** Fair benchmarking is essential for credible claims of improvement. Differences in data processing or evaluation protocols can substantially affect results.
+  - **Resolution test** Describe the exact data splits, the overlap between training sets of all methods, the versions and configurations of all baseline methods, and the negative sampling procedures used for each method.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset composition and bias
+  - **Claim pointer** The dataset contains 20,809 positive and 82,303 negative TCR-pMHC pairs, covering 77 unique peptides and 57 MHC alleles, with a strong bias toward A*03:01 and A*02:01.
+  - **Evidence pointer** Methods section, Sequencing Data subsection; Results section, Figure 2a-2c; location not provided
+  - **Concern** The dataset is heavily biased toward two MHC alleles, which together account for 77.3% of all samples. The number of unique peptides (77) is relatively small. The generalizability of the model to other alleles and peptide repertoires is unclear. The negative sampling strategy relies on TCRs known to bind other peptides, which may not represent true non-binding pairs in vivo.
+  - **Why it matters** A biased training set can lead to overfitting to common alleles and may not reflect the diversity of TCR-pMHC interactions in real clinical settings.
+  - **Resolution test** Report performance stratified by MHC allele. Discuss the limitations of the negative sampling strategy. Consider validation on additional datasets with more diverse allele coverage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that t2pmhc is a "structure-informed" framework but does not specify what structural information is used beyond predicted structures. The phrase "structure-informed" is used interchangeably with "structure-based" in the text.
+  - **Required correction** Clarify the terminology and specify the exact structural features used in the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figures 5a, 5c, 5d; location not provided
+  - **Issue** The reported AUC values are presented without confidence intervals or statistical significance testing. The variability across cross-validation folds is not reported.
+  - **Required correction** Report confidence intervals and significance tests for all performance comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, Sequencing Data subsection; location not provided
+  - **Issue** The filtering criteria for removing samples for which no structure could be predicted are not described. The number of samples removed at this step is not reported.
+  - **Required correction** Describe the structure prediction failure criteria and report the number of samples excluded.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Baseline description
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, Comparative Evaluation subsection; location not provided
+  - **Issue** The versions of ERGO-II, TABR-BERT, and MixTCRpred are not specified. The exact preprocessing steps applied to the baseline methods are not described.
+  - **Required correction** Specify software versions and describe all preprocessing steps applied to baseline methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Results section
+  - **Evidence pointer** Figures 1-5, Supplementary Figures 1-4; location not provided
+  - **Issue** The figures are referenced but not included in the provided material. The text descriptions of the figures are insufficient to fully understand the results.
+  - **Required correction** Ensure all figures are accessible and self-explanatory with complete legends.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion does not address potential failure modes of the model, such as cases where predicted structures are inaccurate or where the model may fail on specific peptide classes.
+  - **Required correction** Add a limitations subsection discussing potential failure modes and edge cases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing benchmark results), R1-M2 (incomplete methodological details), R1-M3 (unvalidated interpretability claims), R1-M4 (benchmark fairness concerns), R1-M5 (dataset bias concerns)
+- **Assessment against Nature-style criteria** Originality: The approach of using full TCR-pMHC complex structures with graph neural networks is a meaningful contribution, though related structure-based methods exist. The attention analysis adds a novel dimension. Scientific importance: The problem of unseen-peptide generalization is clinically relevant and the potential impact is high if the claims hold. Interdisciplinary readership: The work bridges structural biology, deep learning, and immunology, and should appeal to a broad audience. Technical soundness: Cannot be fully assessed from the provided material. The architectural choices are reasonable but the missing details prevent evaluation of implementation quality. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with immunology and graph neural networks.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a plausible approach, but the core performance claims cannot be verified without the figures, tables, and complete Methods. The interpretability analysis is promising but requires stronger statistical validation. I would be supportive if the technical concerns are resolved with full quantitative results and methodological transparency.
+
+## Risk / unsupported claims
+- The claim of improved generalization to unseen peptides compared to state-of-the-art models is unsupported in the visible text because the benchmark figures and tables are not provided.
+- The claim that attention patterns are biologically consistent is partially supported by the described analysis but lacks statistical validation and control experiments.
+- The claim that t2pmhc produces near-deterministic predictions with crystallographic structures is based on calibrated probabilities rather than AUC values and is not fully substantiated.
+- The claim that the model captures allele- and peptide-specific recognition modes is based on a limited analysis of specific peptides and alleles.
+- The statement that "both t2pmhc variants demonstrated consistently strong performance" is not verifiable without the actual performance data.
+- The claim that the model "can predict binders with very high confidence" when provided with accurate structures is based on a restricted analysis of positive samples only.

@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40573744",
+    "doi": "10.3390/plants14121756",
+    "title": "Site-Directed Mutagenesis Mediated by Molecular Modeling and Docking and Its Effect on the Protein-Protein Interactions of the bHLH Transcription Factors SPATULA, HECATE1, and INDEHISCENT."
+  },
+  "content": {
+    "abstract": "The aim of this study was to investigate the biological relevance of predicted sites involved in protein-protein interaction formation by bHLH transcription factors associated with gynoecium development in Arabidopsis (Arabidopsis thaliana). We used AlphaFold2 to generate three-dimensional protein structures of the bHLH proteins SPATULA (SPT), HECATE1 (HEC1), and INDEHISCENT (IND). These structures were subjected to molecular docking using the HawkDock server, enabling the identification of potential interaction sites. PCR-based site-directed mutagenesis was used to modify the predicted interaction sites, followed by testing for protein-protein interaction formation using Bimolecular Fluorescence Complementation (BiFC) assays. Furthermore, these modified versions were overexpressed in Arabidopsis to observe whether gynoecium and fruit development would be affected. BiFC assays with the modified versions revealed a complete loss of the SPT-HEC1 interaction and a strong reduction in the SPT-IND interaction. The overexpression experiments in Arabidopsis showed that the 35S::SPT-4A line exhibited strong phenotypes in the development of the medial tissues of the gynoecium, resulting in reduced seed number and shorter fruits. In the 35S::HEC1-2A line, a reduced seed number and shorter fruits were also observed, but no other obvious defects were observed. Finally, the 35S::IND-3A line was less affected than the 35S::IND line. In the latter, medial tissue development was strongly affected, while in the 35S::IND-3A line, it was only slightly affected; however, a reduced seed number and shorter fruits were observed. In summary, the predicted interaction sites are relevant and, when modified, affect gynoecium development in Arabidopsis. The findings demonstrate that predictive computational tools represent a viable strategy for a deeper understanding of protein-protein interactions.",
+    "keywords": [
+      "AlphaFold2",
+      "HECATE1",
+      "HawckDock",
+      "INDEHISCENT",
+      "SPATULA",
+      "flower",
+      "gynoecium",
+      "protein interactions",
+      "protein structure modeling",
+      "site-directed mutagenesis",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lopez-Gomez, Pablo",
+        "De La Mora-Franco, Daniela",
+        "Herrera-Ubaldo, Humberto",
+        "Diaz-Quezada, Corina",
+        "Brieba, Luis G",
+        "de Folter, Stefan"
+      ],
+      "short_names": [
+        "Lopez-Gomez P",
+        "De La Mora-Franco D",
+        "Herrera-Ubaldo H",
+        "Diaz-Quezada C",
+        "Brieba LG",
+        "de Folter S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7481-9989",
+        "ORCID: 0000-0002-5408-4022",
+        "ORCID: 0000-0002-6073-5207",
+        "ORCID: 0000-0003-4363-7274"
+      ],
+      "affiliations": [
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+        "Rosario Izapa Experimental Field of National Institute of Forestry, Agriculture and Livestock Research (INIFAP), Chiapas 30870, Mexico.",
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+        "Department of Plant Sciences, University of Cambridge, Cambridge CB2 3EA, UK.",
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+        "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "López-Gómez, Pablo",
+        "short_name": "López-Gómez P",
+        "identifiers": [
+          "0000-0002-7481-9989"
+        ],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+          "Rosario Izapa Experimental Field of National Institute of Forestry, Agriculture and Livestock Research (INIFAP), Chiapas 30870, Mexico."
+        ]
+      },
+      {
+        "full_name": "De La Mora-Franco, Daniela",
+        "short_name": "De La Mora-Franco D",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico."
+        ]
+      },
+      {
+        "full_name": "Herrera-Ubaldo, Humberto",
+        "short_name": "Herrera-Ubaldo H",
+        "identifiers": [
+          "0000-0002-5408-4022"
+        ],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico.",
+          "Department of Plant Sciences, University of Cambridge, Cambridge CB2 3EA, UK."
+        ]
+      },
+      {
+        "full_name": "Díaz-Quezada, Corina",
+        "short_name": "Díaz-Quezada C",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico."
+        ]
+      },
+      {
+        "full_name": "Brieba, Luis G",
+        "short_name": "Brieba LG",
+        "identifiers": [
+          "0000-0002-6073-5207"
+        ],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico."
+        ]
+      },
+      {
+        "full_name": "de Folter, Stefan",
+        "short_name": "de Folter S",
+        "identifiers": [
+          "0000-0003-4363-7274"
+        ],
+        "affiliations": [
+          "Advanced Genomics Unit (UGA-Langebio), Center for Research and Advanced Studies (Cinvestav), Irapuato 36824, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plants (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Plants (Basel)"
+    ],
+    "pub_date": "2025 Jun 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 06:26",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "41810805",
+      "40648048"
+    ],
+    "refs": [
+      "40380072",
+      "40166359",
+      "39402428",
+      "38771250",
+      "38718835",
+      "37592012",
+      "36918529",
+      "36088536",
+      "35637307",
+      "35226096",
+      "34586419",
+      "34265844",
+      "33237286",
+      "32649857",
+      "32269383",
+      "31942072",
+      "31417196",
+      "31106357",
+      "30715461",
+      "30538100",
+      "29857524",
+      "28453683",
+      "28242478",
+      "28079879",
+      "26293302",
+      "25549265",
+      "24693427",
+      "24008116",
+      "23180855",
+      "23161676",
+      "22711592",
+      "22488467",
+      "22409594",
+      "22238427",
+      "21990939",
+      "21720951",
+      "21534921",
+      "21124869",
+      "20635420",
+      "20589078",
+      "20003235",
+      "19930690",
+      "19478783",
+      "19422692",
+      "18315540",
+      "18065692",
+      "18024974",
+      "17855426",
+      "17703195",
+      "17640003",
+      "17585298",
+      "16925602",
+      "16303558",
+      "16096970",
+      "15805477",
+      "15768405",
+      "15659637",
+      "15264254",
+      "15107850",
+      "15035986",
+      "12897250",
+      "12580598",
+      "11245574",
+      "10225997",
+      "10069079",
+      "2471267"
+    ],
+    "similar": [
+      "40573744",
+      "21990939",
+      "21801252",
+      "20176890",
+      "17855426",
+      "39183603",
+      "39868567",
+      "18315540",
+      "26293302",
+      "39121182",
+      "28388635",
+      "22514090",
+      "38980389",
+      "34586419",
+      "38285171",
+      "21364315",
+      "29471367",
+      "20444234",
+      "31009131",
+      "31557840",
+      "26995296",
+      "41433004",
+      "25018763",
+      "20040585",
+      "30838009",
+      "36088536",
+      "40380073",
+      "20889713",
+      "40789209",
+      "28880725",
+      "23280064",
+      "23173897",
+      "12361963",
+      "15035986",
+      "21324706",
+      "22409594",
+      "23621152",
+      "11245574",
+      "37633079",
+      "31261791",
+      "26303297",
+      "40742543",
+      "16303558",
+      "34798465",
+      "29966653",
+      "30027613",
+      "38088205",
+      "36771679",
+      "10225997",
+      "23072997",
+      "24904608",
+      "23126654",
+      "16786307",
+      "28087776",
+      "23470719",
+      "16845525",
+      "41284943",
+      "18184731",
+      "23754415",
+      "35226096",
+      "34262040",
+      "20822914",
+      "37767715",
+      "25455035",
+      "35836106",
+      "19218396",
+      "32333149",
+      "32930381",
+      "18811619",
+      "30538100",
+      "39619177",
+      "16709193",
+      "19168715",
+      "22951401",
+      "25951007",
+      "23615997",
+      "15604669",
+      "38656499",
+      "30715461",
+      "37168319",
+      "26002869",
+      "37450143",
+      "38525145",
+      "26193449",
+      "19052256",
+      "25381352",
+      "34169509",
+      "29706978",
+      "29667268",
+      "35755670",
+      "15361138",
+      "21478445",
+      "28285133",
+      "40337869",
+      "33107181",
+      "19649177",
+      "39792298",
+      "33919177",
+      "28331573",
+      "20363772"
+    ],
+    "review": [
+      "40573744",
+      "37633079",
+      "35226096",
+      "25951007",
+      "30715461",
+      "19052256"
+    ],
+    "pmc": [
+      "12196928"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=plants14121756",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40573744/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37459792",
+  "title": "DNA protein binding recognition based on lifelong learning.",
+  "authors": "Liu, Yongsan; Guan, ShiXuan; Jiang, TengSheng; Fu, Qiming; Ma, Jieming; Cui, Zhiming; Ding, Yijie; Wu, Hongjie",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2023-07-17",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用终身学习动态深度网络融合多特征预测DNA结合蛋白，属蛋白-DNA互作分类任务，但仅序列级分类、无三维互作建模，方法可迁移但深度有限。",
+  "abstract": "In recent years, research in the field of bioinformatics has focused on predicting the raw sequences of proteins, and some scholars consider DNA-binding protein prediction as a classification task. Many statistical and machine learning-based methods have been widely used in DNA-binding proteins research. The aforementioned methods are indeed more efficient than those based on manual classification, but there is still room for improvement in terms of prediction accuracy and speed. In this study, researchers used Average Blocks, Discrete Cosine Transform, Discrete Wavelet Transform, Global encoding, Normalized Moreau-Broto Autocorrelation and Pseudo position-specific scoring matrix to extract evolutionary features. A dynamic deep network based on lifelong learning architecture was then proposed in order to fuse six features and thus allow for more efficient classification of DNA-binding proteins. The multi-feature fusion allows for a more accurate description of the desired protein information than single features. This model offers a fresh perspective on the dichotomous classification problem in bioinformatics and broadens the application field of lifelong learning. The researchers ran trials on three datasets and contrasted them with other classification techniques to show the model's effectiveness in this study. The findings demonstrated that the model used in this research was superior to other approaches in terms of single-sample specificity (81.0%, 83.0%) and single-sample sensitivity (82.4%, 90.7%), and achieves high accuracy on the benchmark dataset (88.4%, 80.0%, and 76.6%).",
+  "abstract_zh": "近年来，生物信息学领域的研究聚焦于预测蛋白质的原始序列，部分学者将DNA结合蛋白预测视为一项分类任务。许多基于统计和机器学习的方法已广泛应用于DNA结合蛋白研究中。上述方法确实比基于人工分类的方法更为高效，但在预测准确性和速度方面仍有提升空间。本研究中，研究人员利用平均块（Average Blocks）、离散余弦变换（Discrete Cosine Transform）、离散小波变换（Discrete Wavelet Transform）、全局编码（Global encoding）、归一化Moreau-Broto自相关（Normalized Moreau-Broto Autocorrelation）及伪位置特异性评分矩阵（Pseudo position-specific scoring matrix）来提取进化特征。随后，提出了一种基于终身学习架构的动态深度网络，以融合六种特征，从而实现对DNA结合蛋白更高效的分类。多特征融合相比单一特征能更精确地描述目标蛋白信息。该模型为生物信息学中的二分类问题提供了新视角，并拓宽了终身学习的应用领域。研究人员在三个数据集上进行了试验，并与其他分类技术进行了对比，以展示该模型的有效性。结果表明，本研究所用模型在单样本特异性（81.0%，83.0%）和单样本敏感性（82.4%，90.7%）方面优于其他方法，并在基准数据集上实现了高准确率（88.4%，80.0%和76.6%）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37459792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37459792/",
+  "paper_page_path": "papers/pubmed/37459792/index.html"
+}

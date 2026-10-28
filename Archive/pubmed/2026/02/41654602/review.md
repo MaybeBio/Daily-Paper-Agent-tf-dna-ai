@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary information references.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment with stated conclusions. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors use support vector machines (SVM) with amino acid composition (AAC), dipeptide composition (DPC), and hybrid features to classify the TATA-binding protein (TBP) fold (PDB 1tba) and identify evolutionarily related protein domains with diverse functions. They report high accuracy and Matthews correlation coefficient (MCC) values across five-fold cross-validation and apply the models to sequences from DALI and TOP structural searches.
+- **Visible evidence base** Methods section describing SVM, random forest (RF), and J48 implementations; Tables 1-5 reporting performance metrics and structural alignment results; Figures 1-6 showing structural alignments and prediction outcomes; supplementary tables referenced but not provided.
+- **Missing materials affecting confidence** Supplementary tables S1 and S2, which contain detailed RF and J48 performance metrics, are referenced but not included. The GitHub repository is mentioned but not accessible in the provided material. No code, datasets, or hyperparameter settings are available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question about the evolutionary relationships of the TBP fold using machine learning. However, the study has fundamental methodological weaknesses that undermine the validity of the conclusions. The dataset construction is inadequately described, the negative set is not clearly defined, and the evaluation strategy is circular in places. The claim of evolutionary relatedness is not supported by the evidence presented, which is primarily classification accuracy without phylogenetic or structural evolutionary analysis. The manuscript requires substantial revision and additional analysis before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in protein evolution, structural bioinformatics, and machine learning applications in biology might find the approach of interest. The identification of structurally similar but functionally diverse proteins could inform studies on protein fold evolution and functional annotation. However, the current presentation limits the utility for these communities due to insufficient methodological detail and lack of biological validation.
+- **Major strengths**
+  1. The study addresses a relevant question about the evolutionary relationships of a universal transcription factor using computational approaches.
+  2. The use of multiple feature encodings (AAC, DPC, hybrid) and comparison with RF and J48 provides a reasonable breadth of machine learning methods.
+  3. The integration of structural alignment tools (DALI, TOP) with sequence-based classification is a sensible strategy for identifying structurally related proteins.
+  4. The authors make their data and models available on GitHub, which supports reproducibility if the repository is complete.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset construction and negative set definition
+  - **Claim pointer** The authors claim that the SVM models accurately classify TBP and evolutionarily related proteins, with accuracy values exceeding 98% in some cases.
+  - **Evidence pointer** Methods section "Datasets for SVM"; Results section "Performance of amino acid composition (AAC)-SVM based modules"
+  - **Concern** The construction of the positive and negative datasets is critically underdescribed. The authors state that 500 sequences were used for each protein class in the complete sequence datasets, but the source of these sequences, the criteria for inclusion, and the exact composition of the negative set are not specified. The negative set is described only as "a random selection of these sequences" from SWISS-PROT, which is insufficient. It is unclear whether the negative set contains proteins with similar folds or functions, which would fundamentally affect the classification task. The lack of clarity on this point makes the reported performance metrics difficult to interpret.
+  - **Why it matters** Without a well-defined negative set, the reported accuracy and MCC values are meaningless. If the negative set is too easy (e.g., completely unrelated proteins), the models may appear artificially accurate. If it is too hard (e.g., proteins with similar folds), the models may be underperforming. The evolutionary claims depend on the ability to distinguish TBP-related proteins from unrelated ones, which requires a rigorous dataset design.
+  - **Resolution test** The authors must provide a detailed description of the positive and negative dataset construction, including the number of sequences, their sources, sequence identity thresholds, and any filtering criteria. They should also report the distribution of sequence lengths and the degree of similarity between positive and negative sets. Ideally, the negative set should include proteins with similar structural folds but different functions to test the specificity of the models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation methodology and circularity
+  - **Claim pointer** The authors claim that the models were "rigorously tested using blind datasets" and that the results demonstrate robust classification performance.
+  - **Evidence pointer** Methods section "Evaluation and performance"; Results section "Prediction performance of complete sequence models on complete sequences"
+  - **Concern** The evaluation strategy is problematic. The authors use five-fold cross-validation on the training data, which is standard, but then apply the models to sequences from DALI and TOP searches. However, these DALI and TOP sequences were used to select the five proteins for the study in the first place. This creates a circularity issue: the models are trained on sequences derived from the same structural search that generated the test set. The authors also state that "the known data was treated as positive and negative sequences, while the unknown sequences from DALI and TopSearch were used as the blind dataset," but it is unclear whether these DALI and TOP sequences were part of the training set or truly independent. The distinction between "known" and "unknown" is not clearly operationalized.
+  - **Why it matters** Circular evaluation inflates performance estimates and undermines the claim that the models can generalize to novel sequences. If the test set overlaps with the training set, the reported accuracy is not a valid measure of predictive performance. The evolutionary conclusions depend on the models identifying genuinely novel related proteins, which requires a properly independent test set.
+  - **Resolution test** The authors must clarify the relationship between the training set, the DALI/TOP search results, and the test set. They should ensure that the test sequences are not used in any way during model development. A clearer approach would be to hold out a portion of the DALI/TOP sequences before model training and use them only for final evaluation. The authors should also report the sequence identity between training and test sets to demonstrate independence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for evolutionary claims
+  - **Claim pointer** The authors conclude that the identified proteins are evolutionarily related to TBP, stating that "the proteins may have diverged from a common ancestor, retaining similar structural motifs despite potential functional differences."
+  - **Evidence pointer** Discussion section; Conclusion section
+  - **Concern** The evolutionary claims are not supported by the evidence presented. The study uses structural similarity searches and sequence-based classification, but no phylogenetic analysis, ancestral sequence reconstruction, or evolutionary rate analysis is performed. Structural similarity alone does not establish evolutionary relatedness, as convergent evolution can produce similar folds in unrelated proteins. The classification accuracy of the SVM models indicates that the sequences can be distinguished, but this does not demonstrate common ancestry. The authors also do not discuss alternative explanations, such as structural convergence or the possibility that the shared fold is a result of biophysical constraints rather than evolutionary descent.
+  - **Why it matters** The central claim of the manuscript is the evolutionary relationship between TBP and the identified proteins. Without rigorous evolutionary analysis, this claim is speculative. The study would be more appropriately framed as identifying structurally similar proteins with potential functional implications, rather than making definitive evolutionary statements.
+  - **Resolution test** The authors should either (a) perform explicit evolutionary analyses, such as phylogenetic tree construction, ancestral state reconstruction, or tests for positive selection, to support the claim of common ancestry, or (b) temper the conclusions to state that the identified proteins share structural similarity and may be evolutionarily related, pending further analysis. The discussion should also address the possibility of convergent evolution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological justification and parameter optimization
+  - **Claim pointer** The authors state that "a method utilizing SVM was developed in this study" and report parameter optimization for the RBF kernel.
+  - **Evidence pointer** Methods section "Support vector machine (SVM) for finding the protein function"
+  - **Concern** The choice of SVM over other methods is not well justified. The authors mention that SVM is "widely used" but do not provide a rationale for why it is particularly suited for this problem. The parameter optimization is described as testing gamma from 0.1 to 500, C from 0.1 to 2000, and j from 1 to 5, but the final parameter values are not reported in the main text. The authors also state that the polynomial kernel was used, but then describe optimization for the RBF kernel, which is contradictory. The relationship between the two kernel types is not clarified.
+  - **Why it matters** The methodological details are essential for reproducibility and for assessing whether the chosen approach is appropriate. The contradiction between the polynomial and RBF kernel descriptions is confusing and suggests a lack of clarity in the methods. Without reporting the final parameters, other researchers cannot replicate the study.
+  - **Resolution test** The authors should clarify which kernel was used for the final models, report the optimal parameter values, and provide a justification for the choice of SVM over other classifiers. They should also explain why the polynomial kernel was mentioned if the RBF kernel was optimized.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of structural alignment results
+  - **Claim pointer** The authors state that structural alignment reveals "conserved regions and function domains shared between" TBP and the identified proteins, and report RMSD values in Table 5.
+  - **Evidence pointer** Results section "Structural analysis of TOP and dali search"; Table 5
+  - **Concern** The RMSD values reported in Table 5 are very high (e.g., 2.925, 5.655, 6.156, 4.110, 3.887, 4.921, 5.347, 3.288, 3.205, 4.970, 7.553, 3.279, 3.401, 3.369, 1.902). These values suggest poor structural alignment, yet the authors interpret them as evidence of structural conservation. The number of aligned residues is also small relative to the full protein lengths (e.g., 180 vs 362, 180 vs 528, 180 vs 337, 180 vs 246). The authors do not discuss the significance of these RMSD values or compare them to what would be expected for structurally related proteins. The interpretation of these results as supporting evolutionary relatedness is questionable.
+  - **Why it matters** The structural alignment results are a key piece of evidence for the evolutionary claims. If the alignments are poor, the conclusion of structural conservation is weakened. The authors need to provide a more rigorous analysis of the structural alignments, including a discussion of the expected RMSD for homologous proteins and a comparison with structural alignments of known homologs.
+  - **Resolution test** The authors should provide a more detailed analysis of the structural alignments, including the percentage of structurally equivalent residues, the statistical significance of the RMSD values, and a comparison with alignments of proteins with known evolutionary relationships. They should also consider using additional structural comparison metrics, such as TM-score or GDT-TS, which are more robust for assessing structural similarity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure descriptions
+  - **Affected element** Figures 1-6
+  - **Evidence pointer** Results section
+  - **Issue** The figure captions are minimal and do not provide sufficient detail for readers to interpret the results. For example, Figure 1 is described only as "The various functional protein domains fold retrieved from TOP and Dali search structurally aligned with TATA-box binding protein-like (1tba, B)." It is unclear what is shown, how the alignment was performed, or what the color coding represents.
+  - **Required correction** The authors should expand the figure captions to include a clear description of what is shown, the methods used to generate the figure, and any relevant parameters or color coding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Inconsistent terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Introduction, Methods, Results
+  - **Issue** The manuscript uses inconsistent terminology for the proteins and methods. For example, "1tba, B" is sometimes written as "1tba, B1" and "3ju6,B" as "3ju6-B2". The term "hybrid" is used for the combined AAC and DPC approach, but the exact composition is not consistently described.
+  - **Required correction** The authors should standardize the terminology throughout the manuscript and define all abbreviations at first use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Missing statistical analysis
+  - **Affected element** Tables 1-4
+  - **Evidence pointer** Results section
+  - **Issue** The performance metrics are reported as single values without confidence intervals or statistical significance tests. It is unclear whether the differences between AAC, DPC, and hybrid approaches are statistically significant.
+  - **Required correction** The authors should report confidence intervals or perform statistical tests to assess the significance of differences between methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Writing quality
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** All sections
+  - **Issue** The manuscript contains numerous grammatical errors, awkward phrasing, and typos. For example, "researches" instead of "researchers" in the Introduction, and "insilico" instead of "in silico" in the Conclusion. These issues detract from the readability of the manuscript.
+  - **Required correction** The authors should have the manuscript carefully edited by a native English speaker or professional editing service.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Incomplete reference to supplementary material
+  - **Affected element** Supplementary Information section
+  - **Evidence pointer** End of manuscript
+  - **Issue** The supplementary material is referenced but not described in detail. The authors mention "Supplementary Material 1" but do not specify what it contains.
+  - **Required correction** The authors should provide a brief description of the contents of the supplementary material in the main text.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Inadequate description of dataset construction, particularly the negative set.
+  - R1-M2: Circular evaluation methodology that may inflate performance estimates.
+  - R1-M3: Lack of explicit evolutionary analysis to support the central claim of evolutionary relatedness.
+  - R1-M4: Contradictory description of kernel usage and missing parameter values.
+  - R1-M5: Poor structural alignment results that are overinterpreted as evidence of conservation.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of SVM to classify TBP-related proteins is not particularly novel, as similar machine learning approaches have been widely used for protein classification. The specific focus on TBP and its evolutionary relationships adds some novelty, but the methodological approach is standard.
+  - **Scientific importance** The question of how protein folds evolve and relate to function is important. However, the study does not provide new insights into TBP evolution or function beyond what is already known. The identified proteins are already known to share structural similarity with TBP, and the machine learning results do not add significant biological understanding.
+  - **Interdisciplinary readership** The manuscript may appeal to researchers in bioinformatics, structural biology, and evolutionary biology. However, the limited biological validation and the lack of clear evolutionary analysis reduce the potential impact across disciplines.
+  - **Technical soundness** The technical soundness is questionable due to the issues with dataset construction, evaluation methodology, and interpretation of structural alignments. The manuscript requires substantial revision to address these concerns.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that may be challenging for nonspecialists. The introduction provides some context, but the methods and results sections are dense and would benefit from clearer explanations of the machine learning concepts and their relevance to the biological question.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has significant methodological flaws that undermine the validity of the claims. The authors need to address the concerns raised, particularly regarding dataset construction, evaluation methodology, and evolutionary analysis, before the case can be considered. If the authors can provide a rigorous and well-validated study, the topic may be of interest to the readership, but the current version does not meet the required standards.
+
+## Risk / unsupported claims
+- The claim that the identified proteins are evolutionarily related to TBP is unsupported, as no phylogenetic or evolutionary analysis was performed.
+- The claim that the models were "rigorously tested using blind datasets" is not supported, as the relationship between the training and test sets is unclear and potentially circular.
+- The claim that the high accuracy and MCC values demonstrate robust classification performance is weakened by the lack of detail on dataset construction and the potential for overfitting.
+- The statement that "the developed models are robust and accurate for predicting the target proteins" is not fully supported, as the evaluation on DALI and TOP sequences may not be independent.
+- The interpretation of the structural alignment results as evidence of conserved domains is questionable given the high RMSD values reported.

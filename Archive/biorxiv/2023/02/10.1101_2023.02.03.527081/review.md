@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Methodological soundness, statistical rigor, biological plausibility, and reproducibility of claims based on the provided text; no independent verification of code or data was performed
+- **Shared manuscript claim summary** The authors propose MICA, a mutual information-based gene regulatory network inference method refined with chromatin accessibility data, and claim it outperforms alternative methods (L0L2 regression, GENIE3, Spearman correlation) on simulated and human blastocyst scRNA-seq data, enabling the first GRN predictions in early human embryos, including a novel TFAP2C-JUND interaction
+- **Visible evidence base** Simulation study results (Figure 1), statistical evaluation metrics (Figure 2), biological evaluation metrics (Figure 3), network visualizations (Figures 4-5), supplementary figures and tables referenced but not fully provided
+- **Missing materials affecting confidence** Full figures and supplementary tables (Tables S1-S3, Figures S1-S13) not provided; code repository and FigShare data not independently accessed; detailed parameter settings for some methods not fully specified
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant challenge in developmental biology, namely GRN inference from very small single-cell datasets. The systematic comparison of methods and the integration of chromatin accessibility data are valuable contributions. However, the evidence supporting the central claim that MICA outperforms alternatives is incomplete, and several methodological details require clarification. The biological validation is limited to correlation with known markers and a single immunofluorescence experiment, which is insufficient to establish novel regulatory interactions. The manuscript is technically sound in its statistical framing but would benefit from stronger validation and clearer reporting of limitations.
+- **Who would be interested in the results, and why** Researchers in computational biology, specifically those developing or applying GRN inference methods to single-cell data; developmental biologists studying early human embryogenesis and cell fate specification; and investigators working with limited sample sizes in other challenging biological contexts, such as rare cell types or patient-derived samples
+- **Major strengths** The manuscript addresses a real and important problem, namely GRN inference with very small sample sizes, which is often overlooked in method development. The systematic comparison of four methods across multiple normalisation approaches is thorough. The integration of chromatin accessibility data to refine predictions is a sensible and potentially powerful strategy. The authors are transparent about limitations, including the lack of cell-type-specific chromatin data and the need for future experimental validation. The writing is clear and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that MICA outperforms alternative methods based on reproducibility scores and AUPRC comparisons
+  - **Evidence pointer** Figure 2, Methods section "Statistical evaluation metrics"
+  - **Concern** The reproducibility score R and the AUPRC-based comparisons are presented as evidence of MICA's superiority, but the statistical significance of these differences is not reported. It is unclear whether the observed improvements are within the range of random variation, particularly given the small sample sizes (n=26-45 cells per cell type). The authors do not provide confidence intervals or hypothesis tests for the differences between methods.
+  - **Why it matters** Without measures of uncertainty, the reader cannot assess whether the reported advantages of MICA are robust or could arise by chance. This is especially critical given the small sample sizes, where method performance can be highly variable.
+  - **Resolution test** Provide confidence intervals or bootstrap-based significance tests for the differences in reproducibility scores and AUPRC values between methods. Alternatively, demonstrate that the ranking of methods is stable across multiple random splits of the data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation
+  - **Claim pointer** The claim that MICA predicts a novel regulatory interaction between TFAP2C and JUND in human preimplantation embryos
+  - **Evidence pointer** Figure 5, Results section "Maintenance of TFAP2C expression by JUND in all lineages of human blastocyst"
+  - **Concern** The biological validation of the TFAP2C-JUND interaction relies on co-expression analysis and immunofluorescence co-localisation in a small number of embryos (n=4). Co-localisation does not demonstrate a regulatory relationship, and the authors do not provide functional evidence such as perturbation experiments, reporter assays, or chromatin immunoprecipitation to support the predicted interaction. The claim that this is a "novel" interaction is also not rigorously established, as the authors do not systematically search existing databases or literature for prior evidence of this interaction in other contexts.
+  - **Why it matters** The manuscript's central biological claim rests on this predicted interaction. Without functional validation, the claim remains speculative and does not meet the standard required to establish a novel regulatory relationship.
+  - **Resolution test** Provide functional validation, such as siRNA knockdown or overexpression of JUND followed by measurement of TFAP2C expression, or chromatin immunoprecipitation showing JUND binding at the TFAP2C locus. Alternatively, temper the claim to reflect that this is a prediction requiring experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The description of the MICA method and its implementation
+  - **Evidence pointer** Methods section "Network inference methods"
+  - **Concern** The description of the MI-based method is incomplete. The authors state that they use an empirical estimate of the distribution of MI values and calculate z-scores, but the exact algorithm for estimating MI (e.g., binning strategy, kernel density estimation) is not specified. The thresholding procedure for the final network (top 100,000 edges) is described, but the rationale for this choice is not given. Additionally, the authors do not specify how the chromatin accessibility data are integrated into the MI calculation, beyond stating that only TF-gene associations supported by chromatin data are considered.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without a complete specification of the algorithm, other researchers cannot implement or evaluate MICA independently.
+  - **Resolution test** Provide a detailed algorithmic description of the MI estimation and the integration of chromatin accessibility data, including all parameter values and software versions. Consider releasing the code as a standalone package with documentation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation study design
+  - **Claim pointer** The claim that simulation results support the choice of MICA for small sample sizes
+  - **Evidence pointer** Figure 1, Methods section "Simulation study"
+  - **Concern** The simulation study uses linear models to generate synthetic data, which may not capture the complex, non-linear regulatory relationships that MICA is designed to detect. The authors do not report the performance of the methods across different levels of noise, network density, or the number of true regulators per gene. The simulation results are presented as a single summary (AUROC) without exploring how performance varies across these parameters.
+  - **Why it matters** The simulation study is intended to justify the choice of MICA for the real data analysis. If the simulations are not representative of the complexity of real regulatory networks, the conclusions drawn from them may not generalise.
+  - **Resolution test** Extend the simulation study to include non-linear regulatory relationships, varying levels of noise, and different network topologies. Report performance metrics across these conditions to demonstrate the robustness of MICA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that MICA "captures complex non-monotonic dependencies and feedback loops," but this claim is not directly supported by the results presented. The simulation study uses linear models, and the biological validation does not explicitly test for feedback loops.
+  - **Required correction** Either provide evidence supporting this claim or temper the language to reflect that MICA is capable of detecting such relationships in principle, but this was not explicitly tested in the current study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Results section "Statistical evaluation of inferred human blastocyst GRNs"
+  - **Evidence pointer** Figure 2
+  - **Issue** The authors report that "most methods perform just slightly better than random" without chromatin accessibility refinement, but the specific values and the comparison to random are not shown. This is a striking claim that warrants more detailed reporting.
+  - **Required correction** Provide the actual reproducibility scores and AUPRC values for all methods, including the random baseline, to allow readers to assess the magnitude of the improvement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Predicted TF networks for NANOG, GATA4 and CDX2"
+  - **Evidence pointer** Figure 4
+  - **Concern** The authors state that some predicted interactions "have not been experimentally validated or inferred," but it is unclear whether this means they are novel predictions or simply not previously reported. A more systematic comparison with existing databases or literature would strengthen this claim.
+  - **Required correction** Clarify the novelty of the predicted interactions and consider performing a systematic search of existing GRN databases or literature to support the claim of novelty.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of limitations is thorough but could be more specific about the impact of the small sample size on the statistical power of the method comparisons.
+  - **Required correction** Add a brief statement quantifying the statistical power of the comparisons given the sample sizes, or acknowledge that the study is underpowered to detect small differences between methods.
+
+## Risk / unsupported claims
+- The claim that MICA outperforms alternative methods is not supported by statistical significance testing
+- The claim of a novel TFAP2C-JUND regulatory interaction is not supported by functional validation
+- The claim that MICA "captures complex non-monotonic dependencies and feedback loops" is not directly tested in the current study
+- The simulation study results may not generalise to real regulatory networks due to the use of linear models
+- The statement that "most methods perform just slightly better than random" without chromatin refinement is not quantified
+- The novelty of predicted interactions is not systematically established against existing literature or databases

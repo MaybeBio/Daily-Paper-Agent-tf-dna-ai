@@ -1,0 +1,579 @@
+{
+  "identity": {
+    "pmid": "39729995",
+    "doi": "10.1016/j.stem.2024.11.013",
+    "title": "Spatiotemporal single-cell roadmap of human skin wound healing."
+  },
+  "content": {
+    "abstract": "Wound healing is vital for human health, yet the details of cellular dynamics and coordination in human wound repair remain largely unexplored. To address this, we conducted single-cell multi-omics analyses on human skin wound tissues through inflammation, proliferation, and remodeling phases of wound repair from the same individuals, monitoring the cellular and molecular dynamics of human skin wound healing at an unprecedented spatiotemporal resolution. This singular roadmap reveals the cellular architecture of the wound margin and identifies FOSL1 as a critical driver of re-epithelialization. It shows that pro-inflammatory macrophages and fibroblasts sequentially support keratinocyte migration like a relay race across different healing stages. Comparison with single-cell data from venous and diabetic foot ulcers uncovers a link between failed keratinocyte migration and impaired inflammatory response in chronic wounds. Additionally, comparing human and mouse acute wound transcriptomes underscores the indispensable value of this roadmap in bridging basic research with clinical innovations.",
+    "keywords": [
+      "acute wound",
+      "chronic wounds",
+      "diabetic foot ulcer",
+      "scRNA-seq",
+      "spatial transcriptomics",
+      "venous ulcer",
+      "wound healing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Wound Healing/genetics",
+      "*Skin/pathology",
+      "Animals",
+      "*Single-Cell Analysis",
+      "Mice",
+      "Fibroblasts/metabolism/pathology",
+      "Keratinocytes/metabolism/pathology",
+      "Cell Movement",
+      "Macrophages/metabolism",
+      "Inflammation/pathology",
+      "Cell Proliferation",
+      "Proto-Oncogene Proteins c-fos",
+      "Fos-Related Antigen 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhuang",
+        "Bian, Xiaowei",
+        "Luo, Lihua",
+        "Bjorklund, Asa K",
+        "Li, Li",
+        "Zhang, Letian",
+        "Chen, Yongjian",
+        "Guo, Lei",
+        "Gao, Juan",
+        "Cao, Chunyan",
+        "Wang, Jiating",
+        "He, Wenjun",
+        "Xiao, Yunting",
+        "Zhu, Liping",
+        "Annusver, Karl",
+        "Gopee, Nusayhah Hudaa",
+        "Basurto-Lozada, Daniela",
+        "Horsfall, David",
+        "Bennett, Clare L",
+        "Kasper, Maria",
+        "Haniffa, Muzlifah",
+        "Sommar, Pehr",
+        "Li, Dongqing",
+        "Landen, Ning Xu"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Bian X",
+        "Luo L",
+        "Bjorklund AK",
+        "Li L",
+        "Zhang L",
+        "Chen Y",
+        "Guo L",
+        "Gao J",
+        "Cao C",
+        "Wang J",
+        "He W",
+        "Xiao Y",
+        "Zhu L",
+        "Annusver K",
+        "Gopee NH",
+        "Basurto-Lozada D",
+        "Horsfall D",
+        "Bennett CL",
+        "Kasper M",
+        "Haniffa M",
+        "Sommar P",
+        "Li D",
+        "Landen NX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden.",
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden.",
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden.",
+        "Department of Life Science, National Bioinformatics Infrastructure Sweden, Goteborg, Sweden; Science for Life Laboratory, Chalmers University of Technology, 41296 Goteborg, Sweden.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden.",
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "The first affiliated hospital of Soochow University, Department of Plastic and Burn Surgery. NO.188, Shizi Street, Suzhou, Jiangsu, China.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet, 17177 Stockholm, Sweden.",
+        "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK.",
+        "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK.",
+        "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK.",
+        "Department of Haematology, University College London (UCL) Cancer Institute, London WC1E 6DD, UK.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet, 17177 Stockholm, Sweden.",
+        "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK; Department of Dermatology and NIHR Newcastle Biomedical Research Centre, Newcastle Hospitals NHS Foundation Trust, Newcastle upon Tyne NE1 4LP, UK.",
+        "Department of Plastic and Reconstructive Surgery, Karolinska University Hospital, 17176 Stockholm, Sweden.",
+        "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China. Electronic address: dongqing.li@pumcderm.cams.cn.",
+        "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden. Electronic address: ning.xu@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhuang",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Bian, Xiaowei",
+        "short_name": "Bian X",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Luo, Lihua",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Björklund, Åsa K",
+        "short_name": "Björklund ÅK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science, National Bioinformatics Infrastructure Sweden, Göteborg, Sweden; Science for Life Laboratory, Chalmers University of Technology, 41296 Göteborg, Sweden."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Letian",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongjian",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Guo, Lei",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Juan",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Chunyan",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiating",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "He, Wenjun",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "The first affiliated hospital of Soochow University, Department of Plastic and Burn Surgery. NO.188, Shizi Street, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yunting",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liping",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Annusver, Karl",
+        "short_name": "Annusver K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet, 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gopee, Nusayhah Hudaa",
+        "short_name": "Gopee NH",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK."
+        ]
+      },
+      {
+        "full_name": "Basurto-Lozada, Daniela",
+        "short_name": "Basurto-Lozada D",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK."
+        ]
+      },
+      {
+        "full_name": "Horsfall, David",
+        "short_name": "Horsfall D",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK."
+        ]
+      },
+      {
+        "full_name": "Bennett, Clare L",
+        "short_name": "Bennett CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Haematology, University College London (UCL) Cancer Institute, London WC1E 6DD, UK."
+        ]
+      },
+      {
+        "full_name": "Kasper, Maria",
+        "short_name": "Kasper M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet, 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Haniffa, Muzlifah",
+        "short_name": "Haniffa M",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Institute, Newcastle University, Newcastle upon Tyne NE2 4HH, UK; Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK; Department of Dermatology and NIHR Newcastle Biomedical Research Centre, Newcastle Hospitals NHS Foundation Trust, Newcastle upon Tyne NE1 4LP, UK."
+        ]
+      },
+      {
+        "full_name": "Sommar, Pehr",
+        "short_name": "Sommar P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Karolinska University Hospital, 17176 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Li, Dongqing",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic and Translational Research on Immune-Mediated Skin Diseases, Chinese Academy of Medical Sciences, Jiangsu Key Laboratory of Molecular Biology for Skin Diseases and STIs, Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College, 210042 Nanjing, China. Electronic address: dongqing.li@pumcderm.cams.cn."
+        ]
+      },
+      {
+        "full_name": "Landén, Ning Xu",
+        "short_name": "Landén NX",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology and Venereology Division, Department of Medicine Solna, Center for Molecular Medicine, Karolinska Institutet, 17176 Stockholm, Sweden. Electronic address: ning.xu@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell stem cell"
+    ],
+    "journal_abbrev": [
+      "Cell Stem Cell"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/28 11:40",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42684020",
+      "42684001",
+      "42661622",
+      "42660889",
+      "42644946",
+      "42640508",
+      "42589358",
+      "42579274",
+      "42553555",
+      "42544285",
+      "42529170",
+      "42511772",
+      "42509720",
+      "42494575",
+      "42460041",
+      "42439704",
+      "42434083",
+      "42433363",
+      "42399485",
+      "42373882",
+      "42350392",
+      "42344853",
+      "42341061",
+      "42327495",
+      "42315692",
+      "42311677",
+      "42305141",
+      "42280282",
+      "42278663",
+      "42277632",
+      "42261399",
+      "42260608",
+      "42231956",
+      "42230758",
+      "42220515",
+      "42206058",
+      "42194068",
+      "42189900",
+      "42170180",
+      "42147490",
+      "42141493",
+      "42099588",
+      "42079057",
+      "42071254",
+      "42044142",
+      "42041920",
+      "42033084",
+      "42011203",
+      "41941458",
+      "41928254",
+      "41909502",
+      "41900066",
+      "41898737",
+      "41878559",
+      "41869031",
+      "41832444",
+      "41807627",
+      "41782856",
+      "41769866",
+      "41760904",
+      "41714655",
+      "41709088",
+      "41680182",
+      "41674119",
+      "41655237",
+      "41648423",
+      "41641152",
+      "41599231",
+      "41595988",
+      "41535676",
+      "41522236",
+      "41507362",
+      "41465092",
+      "41454084",
+      "41439711",
+      "41403888",
+      "41402446",
+      "41369338",
+      "41198416",
+      "41180114",
+      "41163952",
+      "41127507",
+      "41123093",
+      "41112407",
+      "41092373",
+      "41084494",
+      "41051359",
+      "41040309",
+      "41028908",
+      "40993240",
+      "40993223",
+      "40940792",
+      "40937564",
+      "40843770",
+      "40823361",
+      "40822515",
+      "40803671",
+      "40799046",
+      "40721022",
+      "40718702",
+      "40717900",
+      "40715744",
+      "40661498",
+      "40642264",
+      "40564048",
+      "40487175",
+      "40338747",
+      "39958232",
+      "39269631"
+    ],
+    "refs": [],
+    "similar": [
+      "39729995",
+      "38767331",
+      "34569935",
+      "40355666",
+      "24198343",
+      "40493747",
+      "29605672",
+      "34160067",
+      "26443866",
+      "42094454",
+      "32291381",
+      "41648423",
+      "17158921",
+      "24161538",
+      "41921800",
+      "42194068",
+      "30123066",
+      "35013299",
+      "42001718",
+      "29966977",
+      "30361094",
+      "28222435",
+      "41080540",
+      "29142215",
+      "39480496",
+      "32227524",
+      "37839930",
+      "41175301",
+      "42548532",
+      "32167156",
+      "38127424",
+      "23582717",
+      "39363131",
+      "32117579",
+      "41483202",
+      "32866426",
+      "33237598",
+      "31681309",
+      "41310324",
+      "38796528",
+      "40612951",
+      "38528155",
+      "30571843",
+      "40515797",
+      "39300285",
+      "31344385",
+      "14631386",
+      "37269543",
+      "38828847",
+      "42418324",
+      "27816443",
+      "40009152",
+      "26121747",
+      "25779637",
+      "35910794",
+      "24702853",
+      "34717969",
+      "27742551",
+      "27369317",
+      "41043675",
+      "41189300",
+      "39422230",
+      "40018936",
+      "34443506",
+      "31958599",
+      "39903291",
+      "34597669",
+      "40384373",
+      "38564292",
+      "40495034",
+      "30585053",
+      "30088952",
+      "31302227",
+      "11584015",
+      "34145387",
+      "31774700",
+      "31711674",
+      "39127092",
+      "39893214",
+      "15642097",
+      "41775031",
+      "32556903",
+      "40628314",
+      "27169579",
+      "31410210",
+      "18413645",
+      "10233773",
+      "31409528",
+      "28857355",
+      "38472732",
+      "42341061",
+      "32949564",
+      "27381525",
+      "38041730",
+      "40943468",
+      "41981442",
+      "40789493",
+      "26306047",
+      "22904306",
+      "31357007"
+    ],
+    "review": [
+      "39729995",
+      "34160067",
+      "32227524",
+      "42548532",
+      "38528155",
+      "34443506",
+      "39903291",
+      "40628314"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1934-5909(24)00412-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse218430",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

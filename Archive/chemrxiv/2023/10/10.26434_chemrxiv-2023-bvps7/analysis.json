@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-bvps7",
+  "title": "Encoding Protein-Ligand Interactions: Binding Affinity Prediction with Multigraph-based Modeling and Graph Convolutional Network",
+  "authors": "Nedra Mekni; Hosein Fooladi; Ugo Perricone; Thierry Langer",
+  "journal": "ChemRxiv",
+  "published_date": "2023-10-25",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多图神经网络预测蛋白-配体结合亲和力，虽非TF-DNA体系，但其多图建模与GNN方法可迁移至蛋白质-DNA互作建模，对课题有借鉴价值。",
+  "abstract": "Machine learning models are increasingly harnessed to expedite drug discovery by effectively predicting the properties of small molecules, such as pKa, solubility, and binding affinity. While these models offer accelerated compound identification and optimization, the challenge arises when studying properties influenced by the interaction between a ligand and its corresponding protein. In response to this challenge, graph neural networks (GNNs) have emerged as a solution for integrating 3D structural data to enhance our understanding of protein-ligand interactions. Our novel model, InterGraph, introduces a unique approach to modeling protein-ligand interactions as topological multigraphs. This approach provides a comprehensive representation of the intricate spatial organization and connectivity patterns within these systems. By incorporating \"interaction spheres\" with varying edge densities, we capture the proximity-based influence of interactions, filtering out those occurring beyond 9 Å from the ligand, which are deemed irrelevant. Our model was trained using a ligand binding dataset from PDBbind and achieved an RMSE value of 1.34 when tested on a hold-out dataset. Our results highlight the efficacy of the multigraph in encoding the significance of close interactions, a critical factor in understanding binding affinity. On average, our model accurately predicts binding affinity values for various protein-ligand complexes and demonstrates heightened accuracy for hydrolase, lyase, and families of proteins involved in mediating protein-protein interactions. Furthermore, when compared to a set of complexes that underwent redocking calculations, the InterGraph method displayed sensitivity to the binding mode. In the context of drug discovery and development, protein-ligand interactions are pivotal in numerous biological processes. Understanding how these interactions affect biological processes is central to advancing pharmaceutical research. Binding affinity, a thermodynamic property characterizing the strength of such interactions, offers invaluable insights into these intricate processes.",
+  "abstract_zh": "机器学习模型日益被用于加速药物发现，通过有效预测小分子的性质，如pKa、溶解度和结合亲和力。尽管这些模型加速了化合物识别和优化，但在研究受配体与其对应蛋白质之间相互作用影响的属性时，挑战随之而来。为应对这一挑战，图神经网络（GNNs）应运而生，作为整合3D结构数据以增强我们对蛋白质-配体相互作用理解的解决方案。我们的新模型InterGraph引入了一种独特的方法，将蛋白质-配体相互作用建模为拓扑多重图。该方法提供了对这些系统内复杂空间组织和连接模式的全面表示。通过纳入具有不同边密度的“相互作用球”，我们捕捉了基于邻近性的相互作用影响，过滤掉距配体超过9 Å的相互作用，这些被视为无关。我们的模型使用PDBbind的配体结合数据集进行训练，并在保留数据集上测试时实现了1.34的RMSE值。我们的结果强调了多重图在编码近距离相互作用重要性方面的有效性，这是理解结合亲和力的关键因素。平均而言，我们的模型准确预测了各种蛋白质-配体复合物的结合亲和力值，并对水解酶、裂解酶及参与介导蛋白质-蛋白质相互作用的蛋白质家族表现出更高的准确性。此外，与一组经过重新对接计算的复合物相比，InterGraph方法显示出对结合模式的敏感性。在药物发现和开发的背景下，蛋白质-配体相互作用在许多生物过程中至关重要。理解这些相互作用如何影响生物过程是推进药物研究的核心。结合亲和力，作为表征此类相互作用强度的热力学性质，为这些复杂过程提供了宝贵的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-bvps7",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-bvps7",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-bvps7/index.html"
+}

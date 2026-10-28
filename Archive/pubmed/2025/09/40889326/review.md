@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DeepCTMS, a dual-attention deep neural network with multi-scale fusion feature processing, to predict transcription factor binding sites (TFBSs). The model integrates DNA sequence features (capturing double helix structure) and three-dimensional DNA shape features via a convolutional triple attention module, followed by a multi-scale fusion module. The authors claim consistent outperformance over benchmark models in prediction performance and generalization across 165 ChIP-seq datasets, supported by ablation experiments, t-SNE visual analysis, and cross-cell line validation.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset details, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methodology, hyperparameter settings, baseline model descriptions, dataset composition and preprocessing details, evaluation metrics, statistical significance tests, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible deep learning architecture for TFBS prediction, addressing a recognized limitation in prior convolutional approaches regarding DNA structural information. However, the claims of consistent superiority and generalization cannot be evaluated from the abstract alone. The technical novelty appears incremental, combining existing attention mechanisms and multi-scale fusion strategies. The lack of any quantitative evidence in the abstract substantially limits the ability to assess the strength of the reported results.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing deep learning methods for sequence-function prediction. Researchers interested in integrating structural DNA features into predictive models may also find the approach relevant. The cross-cell line generalization aspect could appeal to those studying cell-type-specific regulatory mechanisms.
+- **Major strengths** The problem is well-motivated, addressing a real limitation in existing TFBS prediction models. The proposed architecture explicitly incorporates DNA shape features, which is biologically meaningful. The evaluation plan, including ablation studies, t-SNE visualization, and cross-cell line validation, is methodologically sound if properly executed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DeepCTMS consistently outperforms benchmark models on prediction performance and generalization ability on 165 ChIP-seq datasets"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central performance claim is presented without any quantitative support. No metrics, effect sizes, or comparative numbers are given. The abstract does not specify which benchmarks were used, what evaluation metrics were employed, or how "consistently outperforms" was determined across 165 datasets.
+  - **Why it matters** Without quantitative evidence, the core contribution of the paper cannot be assessed. The claim of consistent superiority is a strong statement that requires statistical substantiation, particularly given the variability expected across 165 ChIP-seq datasets from different TFs and cell types.
+  - **Resolution test** Provide performance metrics (e.g., AUC, AUPRC) for DeepCTMS and all baselines across the 165 datasets, including measures of variance and statistical significance tests comparing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical novelty
+  - **Claim pointer** "A novel model called DeepCTMS" and "a novel dual-attention deep neural network with multi-scale fusion feature processing"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims novelty but does not clearly differentiate the proposed architecture from existing attention-based and multi-scale fusion models in the TFBS prediction literature. The "convolutional triple attention" and "multi-scale fusion feature processing" modules are described at a high level without architectural details that would establish their distinctiveness.
+  - **Why it matters** For a field with many published deep learning models for TFBS prediction, the novelty claim must be substantiated with explicit comparisons to prior architectures and a clear statement of what is genuinely new. Without this, the contribution may be seen as incremental.
+  - **Resolution test** Provide a detailed architectural description with a comparison table or diagram showing differences from at least 3-5 closely related prior models, and articulate the specific design choices that are new.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization claim
+  - **Claim pointer** "cross-cell line validation results demonstrate that DeepCTMS consistently outperforms benchmark models on prediction performance and generalization ability"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generalization claim is ambiguous. It is unclear whether cross-cell line validation means training on one cell line and testing on another, or some other protocol. The abstract does not specify how many cell lines were used, whether all TFs were tested in cross-cell line settings, or what the magnitude of the generalization improvement was.
+  - **Why it matters** Generalization across cell lines is a key practical requirement for TFBS prediction tools. An ambiguous description prevents assessment of whether the claimed generalization advantage is meaningful or an artifact of the evaluation protocol.
+  - **Resolution test** Clearly describe the cross-cell line validation protocol, report the number of cell lines and TFs tested, and provide quantitative results showing the performance gap between DeepCTMS and baselines in this setting.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Problem statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "fails to adequately account for the stereoscopic structure of DNA shape data in three dimensions" is awkward and unclear. It is not evident what "stereoscopic structure" means in this context or how it differs from standard 3D structural representations.
+  - **Required correction** Rephrase to clearly describe the specific limitation of prior models regarding DNA shape representation, using standard terminology from structural biology or computational genomics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The abstract does not mention whether the code and trained models will be made publicly available, which is important for reproducibility in the deep learning for genomics community.
+  - **Required correction** Add a statement about code and data availability in the abstract or ensure it is prominently stated in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "convolutional triple attention (CTA)"
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The term "triple attention" is not defined. It is unclear whether this refers to attention applied across three dimensions, three different attention mechanisms, or attention over three feature types.
+  - **Required correction** Provide a brief explanation of what "triple" refers to in the CTA module, either in the abstract or in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the lack of clear differentiation from prior work mean the core claims are not currently established. R1-M3 requires clarification but is not blocking if the full manuscript provides adequate detail.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of sequence and shape features with attention mechanisms is not clearly novel based on the abstract. The field already contains numerous deep learning models incorporating structural features. Originality is currently not established.
+  - Scientific importance: TFBS prediction is an important problem in regulatory genomics, and improved prediction accuracy with better generalization would be valuable. However, the abstract does not demonstrate a substantial advance over existing methods.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which has broad readership potential. The abstract is accessible to computational biologists but may be less clear to experimental biologists due to the technical jargon.
+  - Technical soundness: Cannot be assessed from the abstract. The proposed architecture is plausible, but the lack of methodological detail and quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is moderately readable but uses several undefined technical terms (e.g., "convolutional triple attention," "multi-scale fusion feature processing") that would hinder comprehension for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological detail to support the claims of consistent superiority and novelty. A revised assessment would require access to the full manuscript with detailed results, statistical analyses, and clear differentiation from prior work.
+
+## Risk / unsupported claims
+- The claim of "consistently outperforms benchmark models" is unsupported by any quantitative data in the abstract.
+- The claim of "novel" architecture is not substantiated with sufficient detail to distinguish from existing methods.
+- The claim that prior models "lose information about the DNA double helix structure" is presented as fact without citation or evidence.
+- The claim that the model "effectively fuses" sequence and shape features to obtain "significantly aligned semantics" is not supported by any presented evidence.
+- The generalization claim based on "cross-cell line validation" is ambiguous and unquantified.

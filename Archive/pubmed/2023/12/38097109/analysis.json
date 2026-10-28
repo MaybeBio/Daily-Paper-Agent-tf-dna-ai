@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38097109",
+  "title": "Gauging Dynamics-driven Allostery Using a New Computational Tool: A CAP Case Study.",
+  "authors": "Kornev, Alexandr P; Weng, Jui-Hung; Maillard, Rodrigo A; Taylor, Susan S",
+  "journal": "Journal of molecular biology",
+  "published_date": "2023-12-15",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基于局部空间模式比对的蛋白质残基网络分析CAP蛋白的cAMP结合变构动态，虽涉及蛋白-DNA互作相关转录因子CAP，但未聚焦TF-DNA结合建模，方法为图论网络分析而非AI或MD模拟，属广义蛋白变构机制研究，对本课题有间接启发。",
+  "abstract": "In this study, we utilize Protein Residue Networks (PRNs), constructed using Local Spatial Pattern (LSP) alignment, to explore the dynamic behavior of Catabolite Activator Protein (CAP) upon the sequential binding of cAMP. We employed the Degree Centrality of these PRNs to investigate protein dynamics on a sub-nanosecond time scale, hypothesizing that it would reflect changes in CAP's entropy related to its thermal motions. We show that the binding of the first cAMP led to an increase in stability in the Cyclic-Nucleotide Binding Domain A (CNBD-A) and destabilization in CNBD-B, agreeing with previous reports explaining the negative cooperativity of cAMP binding in terms of an entropy-driven allostery. LSP-based PRNs also allow for the study of Betweenness Centrality, another graph-theoretical characteristic of PRNs, providing insights into global residue connectivity within CAP. Using this approach, we were able to correctly identify amino acids that were shown to be critical in mediating allosteric interactions in CAP. The agreement between our studies and previous experimental reports validates our method, particularly with respect to the reliability of Degree Centrality as a proxy for entropy related to protein thermal dynamics. Because LSP-based PRNs can be easily extended to include dynamics of small organic molecules, polynucleotides, or other allosteric proteins, the methods presented here mark a significant advancement in the field, positioning them as vital tools for a fast, cost-effective, and accurate analysis of entropy-driven allostery and identification of allosteric hotspots.",
+  "abstract_zh": "在本研究中，我们利用通过局部空间模式（LSP）比对构建的蛋白质残基网络（PRNs），探讨了分解代谢物激活蛋白（CAP）在cAMP顺序结合时的动态行为。我们采用这些PRNs的度中心性来研究亚纳秒时间尺度上的蛋白质动力学，假设其能反映与CAP热运动相关的熵变。我们显示，第一个cAMP的结合导致环核苷酸结合域A（CNBD-A）稳定性增加，而CNBD-B稳定性降低，这与先前报告一致，即cAMP结合的负协同性归因于熵驱动的变构作用。基于LSP的PRNs还允许研究介数中心性，这是PRNs的另一个图论特征，为CAP内全局残基连接性提供了见解。通过这种方法，我们能够准确识别出在CAP变构相互作用中起关键作用的氨基酸。我们的研究与先前实验报告的一致性验证了我们的方法，特别是在度中心性作为与蛋白质热动力学相关熵的代理指标的可靠性方面。由于基于LSP的PRNs可以轻松扩展以包括小有机分子、多核苷酸或其他变构蛋白的动力学，本文提出的方法标志着该领域的重大进展，将其定位为快速、经济高效且准确分析熵驱动变构和识别变构热点的重要工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38097109/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38097109/",
+  "paper_page_path": "papers/pubmed/38097109/index.html"
+}

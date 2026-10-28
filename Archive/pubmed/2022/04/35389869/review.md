@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DFLM, a DNA fine-tuned language model with decaying learning rates, to predict sequence specificities of DNA-binding proteins. They claim it captures dependencies between genomic sequences better than one-hot encoding, performs well on 69 datasets, shows significant improvement on complex and small datasets, and provides visualization evidence that one-hot encoding disrupts sequence dependencies while DFLM preserves them.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, dataset descriptions, or code verification possible
+- **Missing materials affecting confidence** Full methods, all 69 dataset results, comparative performance metrics, hyperparameter settings, baseline descriptions, visualization figures, code implementation details, and statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of language models to DNA-binding protein prediction, but the evidence provided is insufficient to evaluate the technical soundness or the strength of the claimed improvements. The core novelty relative to existing language model approaches for genomics is unclear, and the abstract lacks quantitative details necessary to assess performance claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding site prediction, regulatory genomics, and deep learning applications to biological sequences. The potential to improve small-sample performance would interest researchers with limited ChIP-seq data.
+- **Major strengths** The problem is well motivated, addressing known limitations of one-hot encoding and small-sample scenarios. The use of human genomic pretraining followed by task-specific fine-tuning is a reasonable transfer learning strategy. The availability of source code supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim DFLM "achieved excellent performance" compared to existing methods on 69 datasets.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative performance metrics, baseline names, or statistical comparisons are provided. The term "excellent performance" is subjective and unverifiable without specific numbers such as AUC, AUPRC, or correlation coefficients.
+  - **Why it matters** Without concrete metrics and statistical tests, the central claim of superiority cannot be assessed. The reader cannot determine whether improvements are meaningful or within noise.
+  - **Resolution test** Provide performance tables with mean and standard deviation across datasets, list all baseline methods, and include statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing DFLM to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The authors state DFLM is a "novel language model" for mining DBPs.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not explain how DFLM differs from existing DNA language models such as DNABERT or Nucleotide Transformer, which also use pretraining on genomic sequences and fine-tuning on downstream tasks. The novelty may be limited to the decaying learning rate schedule, which is a standard optimization technique.
+  - **Why it matters** If the core architecture and pretraining strategy are already established, the contribution may be incremental. The abstract must clearly delineate novel components.
+  - **Resolution test** Explicitly state architectural differences from prior DNA language models and describe what specific components are new. Provide a comparison against DNABERT or similar models under identical conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim DFLM "achieved a significant improvement" on complex DBPs and small datasets.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not define what constitutes "complex DBPs" or "small datasets." No sample sizes, dataset characteristics, or effect sizes are given. The claim of significance is not supported by any statistical evidence.
+  - **Why it matters** Small-sample performance is a key selling point, but without clear definitions and quantitative results, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Define criteria for "complex" and "small" datasets, report sample sizes, and provide effect sizes with confidence intervals or p-values for the improvement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The visualization analysis shows that one-hot encoding "completely cut off the dependencies" while DFLM "can well represent the dependency."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions visualization analysis but does not describe what was visualized, how dependency was quantified, or what the figures show. The claim is qualitative and lacks methodological detail.
+  - **Why it matters** The visualization is presented as supporting evidence for the core advantage of DFLM, but without details, the reader cannot judge whether the analysis is rigorous or interpretable.
+  - **Resolution test** Describe the visualization method (e.g., embedding plots, attention maps), define how dependency is measured, and include the figures with clear captions in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Source code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states source code is available at a GitHub URL, but no version, license, or dependency information is provided.
+  - **Required correction** Specify the software version, required packages, and a DOI or release tag for the code.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and terminology
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "DNA Fine-tuned Language Model" is ambiguous, as it could imply fine-tuning of DNA sequences rather than fine-tuning of a model on DNA tasks.
+  - **Required correction** Clarify the naming, for example by stating "a language model fine-tuned on DNA tasks" in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "69 datasets" and "ChIP-seq datasets" but does not specify the species, cell types, or transcription factors covered.
+  - **Required correction** Provide a brief description of dataset diversity in the abstract or refer to a supplementary table.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative results, unclear novelty, and undefined dataset criteria prevent the core claims from being verified.
+- **Assessment against Nature-style criteria** Originality: unclear, as the abstract does not distinguish DFLM from existing DNA language models. Scientific importance: potentially high if small-sample performance is genuinely improved, but this is not demonstrated. Interdisciplinary readership: the topic bridges machine learning and genomics, but the abstract is too technical for a broad audience without context. Technical soundness: not assessable from the abstract alone, as no methods or metrics are provided. Readability for nonspecialists: the abstract assumes familiarity with language models and ChIP-seq, and the visualization claim is vague.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful application, but the absence of quantitative results, clear novelty, and methodological details means the case is not made. Supportive if the full manuscript addresses the major concerns with concrete data and comparisons.
+
+## Risk / unsupported claims
+- The claim of "excellent performance" on 69 datasets is unsupported without metrics or baselines.
+- The claim of "significant improvement" on complex and small datasets is unsupported without definitions or statistics.
+- The claim that one-hot encoding "completely cut off" dependencies and DFLM "well represent" them is qualitative and unverifiable from the abstract.
+- The novelty of DFLM relative to existing DNA language models is unassessable from the abstract.

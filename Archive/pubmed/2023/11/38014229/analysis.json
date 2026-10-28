@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38014229",
+  "title": "SEAMoD: A fully interpretable neural network for cis-regulatory analysis of differentially expressed genes.",
+  "authors": "Bhogale, Shounak; Seward, Chris; Stubbs, Lisa; Sinha, Saurabh",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-11-28",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 6,
+  "one_liner_zh": "SEAMoD用可解释CNN将增强子序列与差异表达关联并识别TF基序，属TF-DNA调控建模但偏序列-表达预测，缺乏三维互作机制，方法可迁移至TF-DNA研究。",
+  "abstract": "A common way to investigate gene regulatory mechanisms is to identify differentially expressed genes using transcriptomics, find their candidate enhancers using epigenomics, and search for over-represented transcription factor (TF) motifs in these enhancers using bioinformatics tools. A related follow-up task is to model gene expression as a function of enhancer sequences and rank TF motifs by their contribution to such models, thus prioritizing among regulators. We present a new computational tool called SEAMoD that performs the above tasks of motif finding and sequence-to-expression modeling simultaneously. It trains a convolutional neural network model to relate enhancer sequences to differential expression in one or more biological conditions. The model uses TF motifs to interpret the sequences, learning these motifs and their relative importance to each biological condition from data. It also utilizes epigenomic information in the form of activity scores of putative enhancers and automatically searches for the most promising enhancer for each gene. Compared to existing neural network models of non-coding sequences, SEAMoD uses far fewer parameters, requires far less training data, and emphasizes biological interpretability. We used SEAMoD to understand regulatory mechanisms underlying the differentiation of neural stem cell (NSC) derived from mouse forebrain. We profiled gene expression and histone modifications in NSC and three differentiated cell types and used SEAMoD to model differential expression of nearly 12,000 genes with an accuracy of 81%, in the process identifying the Olig2, E2f family TFs, Foxo3, and Tcf4 as key transcriptional regulators of the differentiation process.",
+  "abstract_zh": "研究基因调控机制的常见方法包括：利用转录组学鉴定差异表达基因，利用表观基因组学寻找其候选增强子，并利用生物信息学工具在这些增强子中搜索过表达的转录因子（TF）基序。一个相关的后续任务是，将基因表达建模为增强子序列的函数，并根据这些模型中TF基序的贡献对其进行排序，从而在调控因子中确定优先级。我们提出了一种名为SEAMoD的新计算工具，可同时执行上述基序发现和序列到表达建模的任务。它训练一个卷积神经网络模型，将增强子序列与一个或多个生物条件下的差异表达关联起来。该模型利用TF基序来解释序列，从数据中学习这些基序及其对每个生物条件的相对重要性。它还利用推定增强子活性评分形式的表观基因组信息，并自动搜索每个基因最有前景的增强子。与现有的非编码序列神经网络模型相比，SEAMoD使用的参数少得多，所需训练数据也少得多，并强调生物学可解释性。我们使用SEAMoD来理解小鼠前脑来源的神经干细胞（NSC）分化背后的调控机制。我们分析了NSC和三种分化细胞类型中的基因表达和组蛋白修饰，并使用SEAMoD对近12,000个基因的差异表达进行建模，准确率达81%，在此过程中识别出Olig2、E2f家族转录因子、Foxo3和Tcf4是分化过程的关键转录调控因子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38014229/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38014229/",
+  "paper_page_path": "papers/pubmed/38014229/index.html"
+}

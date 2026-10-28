@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or supplementary files were available for verification
+- **Shared manuscript claim summary** The authors present a single-cell multiome atlas of three histone modifications (H3K27ac, H3K27me3, H3K9me3) and transcriptomes across eight human basal ganglia regions from seven neurotypical donors. They annotate cell-type-specific cis-regulatory elements, infer gene regulatory networks, integrate spatial transcriptomic data, compare with mouse, interpret disease-associated non-coding variants, and develop a deep learning model for variant effect prediction.
+- **Visible evidence base** Main text figures referenced (Figures 1–7, S1.1–S7.2), tables (S1.1–S7.1), methods section, and data availability statements; no actual figure images, numerical values, or supplementary files were provided for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial and potentially valuable resource: a single-cell multiome atlas of histone modifications and transcriptomes in the human basal ganglia. The scope is ambitious and the integration with spatial transcriptomics, cross-species comparison, and deep learning modeling is commendable. However, the current text, as provided, does not allow verification of key quantitative claims, statistical rigor, or the robustness of the analytical pipelines. Several major concerns regarding data accessibility, validation of computational predictions, and the strength of the central biological conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in neurogenomics, single-cell biology, gene regulation, and neuropsychiatric disease genetics. The resource will be of interest to those studying basal ganglia function and dysfunction, cell-type-specific regulatory mechanisms, and the interpretation of non-coding disease variants. The deep learning model and the cross-species comparisons will appeal to computational biologists and evolutionary genomicists.
+- **Major strengths**
+  - The generation of a first-of-its-kind multiome dataset (three histone marks plus transcriptome) across multiple basal ganglia regions is a significant technical achievement and a valuable community resource.
+  - The integration of multiple data types (histone marks, transcriptome, chromatin accessibility, chromatin conformation) to define enhancer-promoter and silencer-promoter links is a sophisticated and appropriate analytical approach.
+  - The combination of spatial transcriptomics to provide anatomical context and cross-species comparison to assess evolutionary conservation adds depth and broadens the impact.
+  - The development and application of a deep learning model (EpiBRAIN) for cell-type-specific variant effect prediction is timely and demonstrates a clear path toward functional interpretation of disease genetics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and verification
+  - **Claim pointer** The manuscript claims a high-quality atlas of ~600,000 nuclei resolving 61 cell types, with specific numbers of cCREs, enhancers, silencers, and super-enhancers.
+  - **Evidence pointer** Results sections, Figures 1–2, Tables S1.1, S2.1–S2.5; location not provided
+  - **Concern** The core claims of the paper rest on the quality and interpretation of a very large and complex dataset. However, the provided text does not include any of the actual data, figures, or supplementary tables. It is impossible to assess the quality of the clustering, the robustness of the cell type annotations, the reproducibility of the peak calls, or the validity of the chromatin state model. The manuscript states data are deposited, but the specific accession numbers and the status of public availability are not provided in the text.
+  - **Why it matters** A resource paper of this nature must be judged on the quality and accessibility of its primary data. Without the ability to inspect the data, the figures, and the detailed numerical outputs, the central claims are unverifiable. The scientific community cannot evaluate the utility of the resource or build upon it.
+  - **Resolution test** The authors must provide the specific data accession numbers (e.g., NeMo, BIL) and confirm the data are publicly available. The main text and supplementary information must include the actual figures and tables with sufficient detail to assess data quality, such as UMAP plots, cluster marker genes, peak count distributions, and quality control metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of computational predictions
+  - **Claim pointer** The manuscript claims that the EpiBRAIN model can predict the functional impact of disease-associated variants, specifically predicting that the Parkinson's disease risk variant rs6581593 disrupts a ZEB2 binding motif, leading to increased LRRK2 expression in microglia.
+  - **Evidence pointer** Results section "A sequence to function model predicts cell-type-specific gene regulation in the basal ganglia", Figure 7F–J; location not provided
+  - **Concern** The model's prediction for rs6581593 is a key result, presented as a mechanistic hypothesis. However, the text states that a previous study did not directly test this variant with CRISPR-Cas9 base editing. The prediction is therefore entirely in silico. The manuscript does not provide any orthogonal experimental validation (e.g., reporter assays, electrophoretic mobility shift assays, or CRISPRi/a in relevant cell types) to support the predicted functional effect and the proposed mechanism of ZEB2 motif disruption.
+  - **Why it matters** The value of a predictive model is greatly enhanced when its predictions are experimentally validated. Without such validation, the claim that the model can "predict the functional impact" of variants remains a correlative and unproven assertion. The specific mechanistic claim about ZEB2 is a strong statement that requires direct experimental support.
+  - **Resolution test** The authors should either provide experimental validation of the predicted effect of rs6581593 on LRRK2 expression and ZEB2 binding, or substantially temper the claims regarding the model's predictive power and the proposed mechanism, clearly stating that this is an unvalidated in silico prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and multiple testing
+  - **Claim pointer** The manuscript claims significant enrichment of disease heritability in specific cell types and identifies thousands of differentially expressed genes, differentially modified regions, and cell-type-specific enhancers and silencers.
+  - **Evidence pointer** Results sections "Cell-type-specific gene regulatory programs in basal ganglia" and "Interpretation of risk variants of complex traits and diseases", Figures 3, 6; location not provided
+  - **Concern** The text mentions FDR < 0.10 for identifying variable features, but the statistical methods for many of the key analyses are not described in sufficient detail. For example, the LDSC analysis across 31 GWAS traits and many cell types involves a massive multiple testing burden. The methods for defining "cell-type-specific" enhancers or silencers, and the significance thresholds used, are not clearly stated. The text does not describe how the authors controlled for the number of cell types, traits, and genomic regions tested.
+  - **Why it matters** Without a clear description of the statistical models and multiple testing corrections, it is impossible to assess the false discovery rate and the robustness of the reported enrichments and cell-type-specific features. This is critical for a resource paper where many downstream analyses will rely on these lists.
+  - **Resolution test** The authors must provide a detailed description of the statistical tests used for each analysis, including the specific models, covariates, and multiple testing correction methods. They should report the number of significant features at each step and provide a clear statement on how they controlled for the false discovery rate in the context of the many comparisons performed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Strength of the central biological conclusion
+  - **Claim pointer** The manuscript proposes a "combinatorial homeobox TF code" that specifies human basal ganglia cell-type identity, supported by SCENIC+ analysis and motif co-accessibility.
+  - **Evidence pointer** Results section "Cell-type-specific gene regulatory programs in basal ganglia", Figure 3C–E, S3.2–S3.3; location not provided
+  - **Concern** The claim of a "code" is a strong interpretation. The evidence presented in the text is based on computational inference of gene regulatory networks (SCENIC+) and motif co-accessibility analysis. While the enrichment of homeobox TFs is noted, the text does not demonstrate that this "code" is functionally required for cell identity. The analysis appears largely descriptive and correlative. The distinction between the proposed "code" and the known importance of homeobox TFs in development is not clearly articulated.
+  - **Why it matters** The term "code" implies a combinatorial logic that is both necessary and sufficient for defining cell identity. The current evidence, as described, does not support such a strong claim. Overstating the interpretation of computational predictions can mislead the field and detract from the more solid contributions of the paper.
+  - **Resolution test** The authors should either provide functional evidence (e.g., perturbation of homeobox TFs in relevant models) to support the "code" hypothesis, or reframe the conclusion to more accurately reflect that they have identified a correlative enrichment of homeobox TF regulatory programs that are predicted to be important for cell identity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section, "Droplet Paired-Tag" and "Data preprocessing"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The methods section is highly detailed but lacks a clear, high-level summary of the experimental design and the number of biological and technical replicates per region and per histone mark. The text mentions seven donors but the distribution across the eight regions is not clear.
+  - **Required correction** Provide a summary table or a clear statement in the methods indicating the number of donors, the number of nuclei per region, and the number of replicates for each histone mark and for the transcriptome.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Issue** The introduction and discussion are dense and assume significant prior knowledge of single-cell epigenomics and gene regulatory network inference. The significance of the "combinatorial homeobox code" and the "silencer" concept may not be immediately clear to a broader neuroscience audience.
+  - **Required correction** Add a brief, plain-language explanation of key concepts, such as what a silencer is, why the combinatorial code is a novel concept, and what the potential implications are for understanding disease.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 1–7; location not provided
+  - **Issue** The text references complex figures, but without seeing them, it is difficult to judge if they are well-organized and accessible. The text mentions "UMAP embeddings colored by regional labels" and "heat maps of deviation z-scores," which can be difficult to interpret.
+  - **Required correction** Ensure all figures have clear, self-contained legends that explain all panels, colors, and statistical annotations. Consider adding schematic diagrams to explain the analytical workflow.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (Data availability and verification) is a blocking concern. The entire case rests on the data, which is not accessible for review.
+  - R1-M2 (Validation of computational predictions) is a blocking concern for the specific claims made about the model's ability to predict functional impact and the proposed mechanism for rs6581593.
+  - R1-M3 (Statistical rigor) is a major concern that needs to be addressed to establish the robustness of the reported enrichments and cell-type-specific features.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is highly original in its generation of a multi-histone-mark single-cell atlas for the human basal ganglia. The integration of three histone marks with transcriptome and chromatin conformation in the same cells is a significant technical advance. The development of a cell-type-specific deep learning model is also novel.
+  - **Scientific importance** The resource has the potential to be of high importance to the fields of neurogenomics and disease genetics. It provides a framework for understanding cell-type-specific gene regulation in a brain region critical for many disorders. The cross-species comparison and the focus on silencers are important contributions.
+  - **Interdisciplinary readership** The work will appeal to a broad interdisciplinary audience, including neuroscientists, genomicists, computational biologists, and geneticists. The disease-focused analyses will attract clinical researchers.
+  - **Technical soundness** The technical approach is state-of-the-art and appears sound in principle. However, the lack of access to the data and detailed statistical methods prevents a full assessment of technical soundness. The validation of the deep learning model's predictions is a key weakness.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience and is not easily accessible to nonspecialists. The abstract and introduction are dense, and the significance of the findings could be better contextualized for a broader readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes a potentially landmark resource with significant implications. However, the current submission, as provided, does not allow for verification of the core data and analyses. The authors must make the data accessible, provide a detailed and transparent account of their statistical methods, and either provide experimental validation for the key model predictions or temper their claims accordingly. Once these concerns are addressed, the work could be suitable for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim of a "combinatorial homeobox TF code" is an unsupported interpretation of correlative computational data without functional validation.
+- The claim that the EpiDeep learning model can "predict the functional impact" of disease-associated variants is unsupported without experimental validation of its predictions.
+- The specific mechanistic claim that rs6581593 disrupts a ZEB2 binding motif to increase LRRK2 expression is an unvalidated in silico prediction.
+- The overall quality and robustness of the dataset (e.g., clustering, cell type annotation, peak calling) is unverifiable from the provided text.
+- The statistical significance and effect sizes of the heritability enrichments are unverifiable without the detailed results and methods.
+- The claim that the atlas "interprets non-coding risk variants" is a strong statement; the analysis provides hypotheses, not definitive interpretations.

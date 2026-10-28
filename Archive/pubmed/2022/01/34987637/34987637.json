@@ -1,0 +1,573 @@
+{
+  "identity": {
+    "pmid": "34987637",
+    "doi": "10.7150/thno.63788",
+    "title": "A novel C-terminal heat shock protein 90 inhibitor that overcomes STAT3-Wnt-beta-catenin signaling-mediated drug resistance and adverse effects."
+  },
+  "content": {
+    "abstract": "Rationale: The heat shock protein (Hsp) system plays important roles in cancer stem cell (CSC) and non-CSC populations. However, limited efficacy due to drug resistance and toxicity are obstacles to clinical use of Hsp90 inhibitors, suggesting the necessity to develop novel Hsp90 inhibitors overcoming these limitations. Methods: The underlying mechanism of resistance to Hsp90 inhibitors was investigated by colony formation assay, sphere formation assay, western blot analysis, and real-time PCR. To develop anticancer Hsp90 inhibitors that overcome the signal transducer and activator of transcription 3 (STAT3)-mediated resistance, we synthesized and screened a series of synthetic deguelin-based compounds in terms of inhibition of colony formation, migration, and viability of non-small cell lung cancer (NSCLC) cells and toxicity to normal cells. Regulation of Hsp90 by the selected compound NCT-80 [5-methoxy-N-(3-methoxy-4-(2-(pyridin-3-yl)ethoxy)phenyl)-2,2-dimethyl-2H-chromene-6-carboxamide] was investigated by immunoprecipitation, drug affinity responsive target stability assay, binding experiments using ATP-agarose beads and biotinylated drug, and docking analysis. The antitumor, antimetastatic, and anti-CSC effects of NCT-80 were examined in vitro and in vivo using various assays such as MTT, colony formation, and migration assays and flow cytometric analysis and tumor xenograft models. Results: We demonstrated a distinct mechanism in which Hsp90 inhibitors that block N-terminal ATP-binding pocket causes transcriptional upregulation of Wnt ligands through Akt- and ERK-mediated activation of STAT3, resulting in NSCLC cell survival in an autocrine or paracrine manner. In addition, NCT-80 effectively reduced viability, colony formation, migration, and CSC-like phenotypes of NSCLC cells and their sublines with acquired resistance to anticancer drugs by inducing apoptosis and inhibiting epithelial-mesenchymal transition and the growth of NSCLC patient-derived xenograft tumors without overt toxicity. With regards to mechanism, NCT-80 directly bound to the C-terminal ATP-binding pocket of Hsp90, disrupting the interaction between Hsp90 and STAT3 and degrading STAT3 protein. Moreover, NCT-80 inhibited chemotherapy- and EGFR TKI-induced programmed cell death ligand 1 expression and potentiated the antitumor effect of chemotherapy in the LLC-Luc allograft model. Conclusions: These data indicate the potential of STAT3/Wnt signaling pathway as a target to overcome resistance to Hsp90 inhibitors and NCT-80 as a novel Hsp90 inhibitor that targets both CSCs and non-CSCs in NSCLC.",
+    "keywords": [
+      "antitumor",
+      "deguelin",
+      "drug resistance",
+      "heat shock protein 90"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Antineoplastic Agents/pharmacology",
+      "Carcinoma, Non-Small-Cell Lung/*metabolism",
+      "Cell Line, Tumor",
+      "Drug Resistance",
+      "HSP90 Heat-Shock Proteins/*metabolism",
+      "Humans",
+      "Lung Neoplasms/*metabolism",
+      "Mice, Inbred NOD",
+      "Mice, SCID",
+      "Neoplastic Stem Cells/cytology/*metabolism",
+      "STAT3 Transcription Factor/*metabolism",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Ho Jin",
+        "Min, Hye-Young",
+        "Yong, Young-Sik",
+        "Ann, Jihyae",
+        "Nguyen, Cong Truong",
+        "La, Minh Thanh",
+        "Hyun, Seung Yeob",
+        "Le, Huong Thuy",
+        "Kim, Hyewon",
+        "Kwon, Hyukjin",
+        "Nam, Gibeom",
+        "Park, Hyun-Ju",
+        "Lee, Jeewoo",
+        "Lee, Ho-Young"
+      ],
+      "short_names": [
+        "Lee HJ",
+        "Min HY",
+        "Yong YS",
+        "Ann J",
+        "Nguyen CT",
+        "La MT",
+        "Hyun SY",
+        "Le HT",
+        "Kim H",
+        "Kwon H",
+        "Nam G",
+        "Park HJ",
+        "Lee J",
+        "Lee HY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology and College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi-do 16419, Republic of Korea.",
+        "School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi-do 16419, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+        "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Ho Jin",
+        "short_name": "Lee HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Min, Hye-Young",
+        "short_name": "Min HY",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yong, Young-Sik",
+        "short_name": "Yong YS",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+          "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology and College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ann, Jihyae",
+        "short_name": "Ann J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Cong Truong",
+        "short_name": "Nguyen CT",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "La, Minh Thanh",
+        "short_name": "La MT",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hyun, Seung Yeob",
+        "short_name": "Hyun SY",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Le, Huong Thuy",
+        "short_name": "Le HT",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyewon",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Hyukjin",
+        "short_name": "Kwon H",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nam, Gibeom",
+        "short_name": "Nam G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi-do 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Hyun-Ju",
+        "short_name": "Park HJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi-do 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeewoo",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Ho-Young",
+        "short_name": "Lee HY",
+        "identifiers": [],
+        "affiliations": [
+          "Creative Research Initiative Center for concurrent control of emphysema and lung cancer, College of Pharmacy, Seoul National University, Seoul 08826, Republic of Korea.",
+          "College of Pharmacy and Research Institute of Pharmaceutical Sciences, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/07 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "42233169",
+      "41153057",
+      "40552162",
+      "40135438",
+      "39911383",
+      "39691768",
+      "39232809",
+      "39191757",
+      "38992961",
+      "38872189",
+      "38647420",
+      "38561775",
+      "38474318",
+      "38283176",
+      "37760971",
+      "37698584",
+      "37569598",
+      "37089959",
+      "36658662",
+      "36559280",
+      "36549397",
+      "36358853",
+      "36033435",
+      "35858011"
+    ],
+    "refs": [
+      "34316682",
+      "33456581",
+      "33408789",
+      "33393490",
+      "33279931",
+      "32738983",
+      "32544514",
+      "32348737",
+      "32296030",
+      "31952344",
+      "31921125",
+      "31747941",
+      "31514477",
+      "31506430",
+      "31412684",
+      "31382554",
+      "30930968",
+      "30851633",
+      "30842489",
+      "30678647",
+      "30305727",
+      "30275987",
+      "30228301",
+      "30224681",
+      "30207593",
+      "30054295",
+      "29588647",
+      "29296515",
+      "29115304",
+      "29048660",
+      "28910490",
+      "28575679",
+      "28542188",
+      "28209618",
+      "28167505",
+      "28151427",
+      "27721330",
+      "27574741",
+      "27433281",
+      "26919108",
+      "26874923",
+      "26645561",
+      "26576830",
+      "26219697",
+      "26096930",
+      "26064932",
+      "25976766",
+      "25065853",
+      "24778419",
+      "24718556",
+      "24669860",
+      "23896275",
+      "23056515",
+      "22863786",
+      "22754594",
+      "22215907",
+      "22120678",
+      "22062686",
+      "20830236",
+      "20651736",
+      "20332458",
+      "19662495",
+      "19125156",
+      "18939993",
+      "18347418",
+      "17565155",
+      "17363512",
+      "16568448",
+      "16330017",
+      "12699626",
+      "11858637",
+      "8742316",
+      "2744882"
+    ],
+    "similar": [
+      "34987637",
+      "25976766",
+      "33456581",
+      "30224681",
+      "29414668",
+      "33391507",
+      "33408789",
+      "27783977",
+      "17975158",
+      "29061506",
+      "29061812",
+      "21225866",
+      "31115519",
+      "29158850",
+      "27362807",
+      "38646654",
+      "23863134",
+      "31100681",
+      "33122847",
+      "27419630",
+      "25695284",
+      "32941808",
+      "24554781",
+      "17565155",
+      "25404267",
+      "19952121",
+      "24156782",
+      "32561477",
+      "22806877",
+      "26682870",
+      "34370268",
+      "28515374",
+      "35526322",
+      "31801598",
+      "34429133",
+      "31638335",
+      "30189871",
+      "25607753",
+      "24411988",
+      "29113809",
+      "33314735",
+      "32489150",
+      "23145121",
+      "29121598",
+      "32428834",
+      "32768937",
+      "26500058",
+      "34607394",
+      "24471765",
+      "30703411",
+      "23526220",
+      "26166037",
+      "19569236",
+      "34856993",
+      "31841274",
+      "22370645",
+      "30952716",
+      "33218356",
+      "27485114",
+      "24907115",
+      "35841121",
+      "31331328",
+      "30282477",
+      "22891040",
+      "30453282",
+      "37298389",
+      "30827868",
+      "22751135",
+      "24530475",
+      "30097127",
+      "28988111",
+      "30709346",
+      "28167505",
+      "32561533",
+      "26351321",
+      "26996130",
+      "28689115",
+      "30243717",
+      "23743233",
+      "21767894",
+      "29556372",
+      "27086926",
+      "28850563",
+      "38100532",
+      "30013043",
+      "36958677",
+      "30848009",
+      "31821539",
+      "31196210",
+      "33640759",
+      "33537094",
+      "16278387",
+      "29202402",
+      "23169551",
+      "16145048",
+      "28668848",
+      "38032449",
+      "26247735",
+      "20940293",
+      "31446643",
+      "33091599",
+      "29891486",
+      "38924928",
+      "34559878",
+      "32472077",
+      "29561705",
+      "31796785",
+      "38971048",
+      "38760429",
+      "38411361",
+      "38387529",
+      "38505087",
+      "22062686",
+      "33667688",
+      "33113507",
+      "33393490",
+      "38185896",
+      "38240781",
+      "38649957",
+      "39083438",
+      "38958814",
+      "33737511",
+      "30774444",
+      "38640855",
+      "38035939",
+      "38441084",
+      "39256986",
+      "38892372",
+      "34208396",
+      "33543615",
+      "38791506",
+      "19211782",
+      "39356318",
+      "32993709",
+      "39135042",
+      "38515460",
+      "31963556",
+      "29415026",
+      "39246745",
+      "38495496",
+      "39195486",
+      "38827785",
+      "30881015",
+      "38359816",
+      "23908686",
+      "34633754",
+      "30594485",
+      "37534488",
+      "38746882",
+      "38458300",
+      "34944848",
+      "29593424",
+      "39395321",
+      "33672199",
+      "32967366",
+      "39131627",
+      "39332072",
+      "36355513",
+      "39395319",
+      "39153203",
+      "38107168",
+      "39363892",
+      "39369360",
+      "29760951",
+      "29023443",
+      "27134115",
+      "32048684",
+      "38516588",
+      "35539786",
+      "28232775",
+      "26423731",
+      "31692968",
+      "39212621",
+      "38826221"
+    ],
+    "review": [
+      "34987637",
+      "22062686",
+      "38441084",
+      "39256986",
+      "38791506",
+      "31963556",
+      "30594485",
+      "37534488",
+      "34944848",
+      "36355513"
+    ],
+    "pmc": [
+      "8690924"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34987637/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34987637",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34987637",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v12p0105.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

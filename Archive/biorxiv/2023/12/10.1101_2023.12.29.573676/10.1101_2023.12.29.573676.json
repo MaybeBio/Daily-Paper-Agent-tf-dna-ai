@@ -1,0 +1,465 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.29.573676",
+  "title": "ESM-PVP: Identification and classification of phage virion proteins with a large pretrained protein language model and an MLP neural network",
+  "doi": "10.1101/2023.12.29.573676",
+  "abstract": "Bacteriophages, also known as phages, are essential for the stability of the microbiome system due to their ability to infect prokaryotes, another significant component of the microbiome. Thus, understanding the functions of phage proteins could help us unravel the nature of phages and their roles in the microbiome. However, limited by the low throughput of experimental techniques, a vast number of phage proteins remain unannotated in terms of their functions. Computational methods are expected to solve this restriction due to their high throughput and cost-effectiveness. In this study, we focused on one aspect of functional annotation for phage proteins, the identification and classification of phage virion proteins, and the integration of a large pretrained protein language model and an MLP neural network dramatically improved the performance of these two tasks. Additionally, we compared our model with some previous deep learning models using a newly collected, independent benchmark dataset, demonstrating the strong generalization ability of our model for both tasks. The source codes of ESM-PVP and the software for the PVP identification task have been uploaded to: https://github.com/li-bw18/ESM-PVP .",
+  "authors": [
+    "Bowen Li",
+    "Guanxiang Liang"
+  ],
+  "published_date": "2023-12-30",
+  "updated_date": "2023-12-30T18:40:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.29.573676",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.29.573676.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:31:13Z",
+        "timestamp": 1768509073075,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 36,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Bacteriophages, also known as phages, are essential for the stability of the microbiome system due to their ability to infect prokaryotes, another significant component of the microbiome. Thus, understanding the functions of phage proteins could help us unravel the nature of phages and their roles in the microbiome. However, limited by the low throughput of experimental techniques, a vast number of phage proteins remain unannotated in terms of their functions. Computational methods are expected to solve this restriction due to their high throughput and cost-effectiveness. In this study, we focused on one aspect of functional annotation for phage proteins, the identification and classification of phage virion proteins, and the integration of a large pretrained protein language model and an MLP neural network dramatically improved the performance of these two tasks. Additionally, we compared our model with some previous deep learning models using a newly collected, independent benchmark dataset, demonstrating the strong generalization ability of our model for both tasks. The source codes of ESM-PVP and the software for the PVP identification task have been uploaded to:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/li-bw18/ESM-PVP\">https://github.com/li-bw18/ESM-PVP</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.12.29.573676",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            30
+          ]
+        ],
+        "date-time": "2023-12-30T18:40:10Z",
+        "timestamp": 1703961610000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "ESM-PVP: Identification and classification of phage virion proteins with a large pretrained protein language model and an MLP neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Bowen",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7367-2516",
+          "authenticated-orcid": false,
+          "given": "Guanxiang",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "4106",
+          "DOI": "10.1038/s41598-022-08173-5",
+          "article-title": "SCORPION is a stacking-based ensemble learning framework for accurate prediction of phage virion proteins",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1565",
+          "DOI": "10.1016/j.ygeno.2019.09.006",
+          "article-title": "Pred-BVP-Unb: Fast prediction of bacteriophage Virion proteins using un-biased multi-perspective properties with recursive feature elimination",
+          "volume": "112",
+          "year": "2020",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.3",
+          "first-page": "9470683",
+          "article-title": "Phage_UniR_LGBM: Phage Virion Proteins Classification with UniRep Features and LightGBM Model",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "Comput Math Methods Med"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2238",
+          "DOI": "10.3390/molecules28052238",
+          "article-title": "Prediction of Phage Virion Proteins Using Machine Learning Methods",
+          "volume": "28",
+          "year": "2023",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.01.029"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007845"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.3390/cells9020353",
+          "article-title": "PVPred-SCM: Improved Prediction and Analysis of Phage Virion Proteins Using a Scoring Card Method",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "Cells"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1105",
+          "DOI": "10.1007/s10822-020-00323-z",
+          "article-title": "Meta-iPVP: a sequence-based meta-predictor for improving the prediction of phage virion proteins using effective feature representation",
+          "volume": "34",
+          "year": "2020",
+          "journal-title": "J Comput Aided Mol Des"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2229",
+          "DOI": "10.1039/C4MB00316K",
+          "article-title": "Identification of bacteriophage virion proteins by the ANOVA feature selection and analysis",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Mol Biosyst"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-019-0311-5"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "615711",
+          "DOI": "10.3389/fmicb.2021.615711",
+          "article-title": "VirionFinder: Identification of Complete and Partial Prokaryote Virus Virion Protein From Virome Data Using the Sequence and Biochemical Properties of Amino Acids",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Front Microbiol"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giac076"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.13",
+          "first-page": "530696",
+          "article-title": "Naïve Bayes classifier with feature selection to identify phage virion proteins",
+          "volume": "2013",
+          "year": "2013",
+          "journal-title": "Comput Math Methods Med"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "296",
+          "DOI": "10.3389/fcimb.2018.00296",
+          "article-title": "Application of Bacteriophages in the Agro-Food Sector: A Long Way Toward Approval",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Front Cell Infect Microbiol"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "616918",
+          "DOI": "10.3389/fcimb.2021.616918",
+          "article-title": "Probing the “Dark Matter” of the Human Gut Phageome: Culture Assisted Metagenomics Enables Rapid Discovery and Host-Linking for Novel Bacteriophages",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Front Cell Infect Microbiol"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2020.08.003"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1506",
+          "DOI": "10.3390/sym13081506",
+          "article-title": "iPVP-MCV: A Multi-Classifier Voting Model for the Accurate Identification of Phage Virion Proteins",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.19",
+          "first-page": "11",
+          "article-title": "Large-scale comparative review and assessment of computational methods for phage virion proteins identification",
+          "volume": "21",
+          "year": "2022",
+          "journal-title": "EXCLI J"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-021-00536-5"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "476",
+          "DOI": "10.3389/fmicb.2018.00476",
+          "article-title": "PVP-SVM: Sequence-Based Prediction of Phage Virion Proteins Using a Support Vector Machine",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Front Microbiol"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1779",
+          "DOI": "10.3390/ijms19061779",
+          "article-title": "Identification of Bacteriophage Virion Proteins Using Multinomial Naïve Bayes with g-Gap Feature Tree",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Int J Mol Sci"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "594",
+          "DOI": "10.1038/s41586-023-06583-7",
+          "article-title": "Unraveling the functional dark matter through global metagenomics",
+          "volume": "622",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19366"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "507",
+          "DOI": "10.3389/fmicb.2019.00507",
+          "article-title": "Identification of Phage Viral Proteins With Hybrid Sequence Features",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Front Microbiol"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3564"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002657"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "i30",
+          "DOI": "10.1093/bioinformatics/btad229",
+          "article-title": "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000",
+          "DOI": "10.3390/molecules23082000",
+          "article-title": "Identifying Phage Virion Proteins by Using Two-Step Feature Selection Methods",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad077",
+          "DOI": "10.1093/bib/bbad077",
+          "article-title": "NeuroPred-PLM: an interpretable and robust model for neuropeptide prediction by protein language model",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adf2465"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "21734",
+          "DOI": "10.3390/ijms160921734",
+          "article-title": "An ensemble method to distinguish bacteriophage virion from non-virion proteins based on protein sequence characteristics",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "Int J Mol Sci"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1103783",
+          "DOI": "10.3389/fgene.2022.1103783",
+          "article-title": "RF_phage virion: Classification of phage virion proteins with a random forest model",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Front Genet"
+        },
+        {
+          "key": "2024010921084949000_2023.12.29.573676v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1089/cmb.2022.0237",
+          "article-title": "Integrating Low-Order and High-Order Correlation Information for Identifying Phage Virion Proteins",
+          "volume": "30",
+          "year": "2023",
+          "journal-title": "J Comput Biol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.29.573676",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:44:28Z",
+        "timestamp": 1768455868000
+      },
+      "score": 72.24944,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.29.573676"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            30
+          ]
+        ]
+      },
+      "references-count": 36,
+      "URL": "https://doi.org/10.1101/2023.12.29.573676",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

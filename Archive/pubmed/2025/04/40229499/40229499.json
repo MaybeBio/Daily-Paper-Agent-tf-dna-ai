@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40229499",
+    "doi": "10.1038/s41401-025-01553-3",
+    "title": "Lipin1-dependent transcriptional inactivation of SREBPs contributes to selinexor sensitivity in multiple myeloma."
+  },
+  "content": {
+    "abstract": "Selective nuclear export inhibitor selinexor (SEL) represents a promising therapeutic strategy for relapsed/refractory multiple myeloma (RRMM). But its mechanisms of action as well as factors that influence therapeutic responses have not been fully characterized yet. In this study we employed catTFRE proteomics technique to profile changes in nuclear abundance of activated transcription factors (TFs)/co-factors (TCs) in myeloma cells following SEL treatment. We found that pharmacological inhibition of exportin-1 (XPO1) by SEL leads to a significant nuclear accumulation of Lipin1 in NCI-H929 cells. Nuclear-localized Lipin1 acted as a transcriptional cofactor that suppressed the transcriptional activity of SREBPs. By performing subcellular localization analysis, molecular docking, co-immunoprecipitation and other assays, we demonstrated that Lipin1 was subjected to XPO1-dependent nuclear export. We demonstrated that SEL downregulated the expression of key lipogenesis-related genes regulated by SREBPs including FASN, SCD, DHCR24 and FDPS, leading to reduced fatty acid and cholesterol synthesis in MM cell lines and primary CD138(+) cells. Using shRNA-mediated knockdown assays, we elucidated the critical role of Lipin1 in mediating the inhibitory effects of SEL on the SREBPs pathway and its contribution to SEL sensitivity both in vitro and in murine xenograft models. In conclusion, we reveal a novel mechanism by which SEL downregulates cellular lipid biosynthesis, thereby inhibiting the proliferation of myeloma cells. This study highlights the critical role of Lipin1 in the anti-myeloma effects of SEL, suggesting its potential as a biomarker for identifying patients who are most likely to benefit from SEL-based therapies.",
+    "keywords": [
+      "Lipin1",
+      "SREBPs",
+      "exportin-1",
+      "multiple myeloma",
+      "proteomics.",
+      "selinexor"
+    ],
+    "mesh_terms": [
+      "*Multiple Myeloma/drug therapy/metabolism/pathology/genetics",
+      "Humans",
+      "*Hydrazines/pharmacology/therapeutic use",
+      "*Triazoles/pharmacology/therapeutic use",
+      "Animals",
+      "Exportin 1 Protein",
+      "Karyopherins/antagonists & inhibitors/metabolism",
+      "*Phosphatidate Phosphatase/metabolism/genetics/antagonists & inhibitors",
+      "Receptors, Cytoplasmic and Nuclear/antagonists & inhibitors/metabolism",
+      "Mice",
+      "*Antineoplastic Agents/pharmacology/therapeutic use",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jun-Ying",
+        "Chen, Meng-Ping",
+        "Jiang, Jin-Xing",
+        "Wan, Yi-Ke",
+        "Li, Xin",
+        "Zhang, Yi-Wei",
+        "Fang, Yi",
+        "Huang, Hong-Hui",
+        "Qin, Zhao-Yu",
+        "Hou, Jian"
+      ],
+      "short_names": [
+        "Wang JY",
+        "Chen MP",
+        "Jiang JX",
+        "Wan YK",
+        "Li X",
+        "Zhang YW",
+        "Fang Y",
+        "Huang HH",
+        "Qin ZY",
+        "Hou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China.",
+        "Key Laboratory of Genetic Engineering and Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Institute of Biomedical Sciences, Human Phenome Institute, Zhongshan Hospital, Fudan University, Shanghai, 200433, China. qinzhaoyu@fudan.edu.cn.",
+        "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China. houjian@medmail.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jun-Ying",
+        "short_name": "Wang JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Meng-Ping",
+        "short_name": "Chen MP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jin-Xing",
+        "short_name": "Jiang JX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Yi-Ke",
+        "short_name": "Wan YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi-Wei",
+        "short_name": "Zhang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yi",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hong-Hui",
+        "short_name": "Huang HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhao-Yu",
+        "short_name": "Qin ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Genetic Engineering and Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Institute of Biomedical Sciences, Human Phenome Institute, Zhongshan Hospital, Fudan University, Shanghai, 200433, China. qinzhaoyu@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hou, Jian",
+        "short_name": "Hou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China. houjian@medmail.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 00:25",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42630732"
+    ],
+    "refs": [
+      "37992275",
+      "37945593",
+      "37452037",
+      "36880649",
+      "36264492",
+      "35778382",
+      "35560063",
+      "35379237",
+      "35271945",
+      "35196484",
+      "35113384",
+      "35007326",
+      "34965422",
+      "34882831",
+      "34597912",
+      "34378191",
+      "33648535",
+      "33203880",
+      "33173198",
+      "33087837",
+      "32974944",
+      "32972802",
+      "32666500",
+      "32511022",
+      "32487143",
+      "32421998",
+      "32269383",
+      "32221968",
+      "31088931",
+      "30115935",
+      "29039124",
+      "28819023",
+      "27806331",
+      "27358488",
+      "26673895",
+      "26324742",
+      "25515756",
+      "25476752",
+      "24155773",
+      "23588715",
+      "23553833",
+      "21816276",
+      "21593866",
+      "15589694"
+    ],
+    "similar": [
+      "40229499",
+      "39806439",
+      "40228640",
+      "27806331",
+      "29610030",
+      "27557643",
+      "32511022",
+      "33023948",
+      "31793336",
+      "25366336",
+      "31429063",
+      "28819023",
+      "31957504",
+      "32972802",
+      "39103668",
+      "27693556",
+      "38519605",
+      "39731209",
+      "33985401",
+      "29381435",
+      "25716206",
+      "38503547",
+      "27893412",
+      "40007039",
+      "26398108",
+      "27713151",
+      "33856525",
+      "38454813",
+      "25284315",
+      "40136679",
+      "30510142",
+      "33173198",
+      "25030088",
+      "38653804",
+      "28852098",
+      "33887086",
+      "26654943",
+      "27358488",
+      "27113410",
+      "40366915",
+      "33148342",
+      "35361554",
+      "40001478",
+      "26918731",
+      "34157321",
+      "31433920",
+      "38131168",
+      "38783482",
+      "36731340",
+      "35381563",
+      "33493586",
+      "23970380",
+      "39005064",
+      "26637366",
+      "40652561",
+      "40531821",
+      "25948791",
+      "39729162",
+      "35941226",
+      "41155531",
+      "40548508",
+      "41394810",
+      "41437068",
+      "28148715",
+      "25281264",
+      "37984724",
+      "26340096",
+      "32487143",
+      "26536918",
+      "41440011",
+      "29155058",
+      "40014082",
+      "28467801",
+      "33507295",
+      "30337641",
+      "38822924",
+      "35668193",
+      "27649553",
+      "30115935",
+      "28314790",
+      "27211268",
+      "29773601",
+      "39871520",
+      "31113936",
+      "39652777",
+      "26573568",
+      "38262581",
+      "25057921",
+      "33909232",
+      "38997434",
+      "26603256",
+      "19690141",
+      "41286136",
+      "30037299",
+      "25461627",
+      "32589977",
+      "41133455",
+      "38908542",
+      "31831564",
+      "27863200"
+    ],
+    "review": [
+      "40229499",
+      "29610030",
+      "32511022",
+      "31793336",
+      "31429063",
+      "31957504",
+      "32972802",
+      "33985401",
+      "38503547",
+      "38454813",
+      "40136679",
+      "33173198",
+      "27113410",
+      "35361554",
+      "40001478",
+      "38783482",
+      "39729162",
+      "35941226",
+      "40548508",
+      "32487143",
+      "41440011"
+    ],
+    "pmc": [
+      "12373733"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41401-025-01553-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40229499/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-369",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

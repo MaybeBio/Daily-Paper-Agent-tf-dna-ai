@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "39319553",
+    "doi": "10.1097/RTI.0000000000000817",
+    "title": "Predicting Gene Comutation of EGFR and TP53 by Radiomics and Deep Learning in Patients With Lung Adenocarcinomas."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study was designed to construct progressive binary classification models based on radiomics and deep learning to predict the presence of epidermal growth factor receptor ( EGFR ) and TP53 mutations and to assess the models' capacities to identify patients who are suitable for TKI-targeted therapy and those with poor prognoses. MATERIALS AND METHODS: A total of 267 patients with lung adenocarcinomas who underwent genetic testing and noncontrast chest computed tomography from our hospital were retrospectively included. Clinical information and imaging characteristics were gathered, and high-throughput feature acquisition on all defined regions of interest (ROIs) was carried out. We selected features and constructed clinical models, radiomics models, deep learning models, and ensemble models to predict EGFR status with all patients and TP53 status with EGFR-positive patients, respectively. The validity and reliability of each model were expressed as the area under the curve (AUC), sensitivity, specificity, accuracy, precision, and F1 score. RESULTS: We constructed 7 kinds of models for 2 different dichotomies, namely, the clinical model, the radiomics model, the DL model, the rad-clin model, the DL-clin model, the DL-rad model, and the DL-rad-clin model. For EGFR - and EGFR +, the DL-rad-clin model got the highest AUC value of 0.783 (95% CI: 0.677-0.889), followed by the rad-clin model, the DL-clin model, and the DL-rad model. In the group with an EGFR mutation, for TP53 - and TP53 +, the rad-clin model got the highest AUC value of 0.811 (95% CI: 0.651-0.972), followed by the DL-rad-clin model and the DL-rad model. CONCLUSION: Our progressive binary classification models based on radiomics and deep learning may provide a good reference and complement for the clinical identification of TKI responders and those with poor prognoses.",
+    "keywords": [
+      "deep learning",
+      "epidermal growth factor receptor",
+      "lung adenocarcinoma",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "ErbB Receptors/genetics",
+      "Female",
+      "Male",
+      "*Adenocarcinoma of Lung/genetics/diagnostic imaging",
+      "Middle Aged",
+      "Retrospective Studies",
+      "*Lung Neoplasms/genetics/diagnostic imaging",
+      "Mutation",
+      "*Tomography, X-Ray Computed/methods",
+      "Aged",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Lung/diagnostic imaging",
+      "Reproducibility of Results",
+      "Adult",
+      "Sensitivity and Specificity",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiao-Yan",
+        "Wu, Shao-Hong",
+        "Ren, Jiao",
+        "Zeng, Yan",
+        "Guo, Li-Li"
+      ],
+      "short_names": [
+        "Wang XY",
+        "Wu SH",
+        "Ren J",
+        "Zeng Y",
+        "Guo LL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4034-6968"
+      ],
+      "affiliations": [
+        "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian.",
+        "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian.",
+        "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian.",
+        "Department of Research Center, Shanghai United Imaging Intelligence Co., Ltd., Shanghai, China.",
+        "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiao-Yan",
+        "short_name": "Wang XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian."
+        ]
+      },
+      {
+        "full_name": "Wu, Shao-Hong",
+        "short_name": "Wu SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian."
+        ]
+      },
+      {
+        "full_name": "Ren, Jiao",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yan",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Research Center, Shanghai United Imaging Intelligence Co., Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Li-Li",
+        "short_name": "Guo LL",
+        "identifiers": [
+          "0000-0002-4034-6968"
+        ],
+        "affiliations": [
+          "Department of Radiology, the Affiliated Huaian No. 1 People's Hospital of Nanjing Medical University, Huaian."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of thoracic imaging"
+    ],
+    "journal_abbrev": [
+      "J Thorac Imaging"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/25 16:18",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "42396618",
+      "42311254",
+      "41583907",
+      "41153258",
+      "40921820"
+    ],
+    "refs": [
+      "37211292",
+      "36319968",
+      "36230746",
+      "35624472",
+      "35341713",
+      "35250988",
+      "35222404",
+      "35186727",
+      "35098682",
+      "34807270",
+      "34705640",
+      "34079707",
+      "33987243",
+      "33920322",
+      "33643902",
+      "32730212",
+      "32486314",
+      "32367456",
+      "32030660",
+      "31952783",
+      "31751012",
+      "31575553",
+      "31406302",
+      "30635290",
+      "30500819",
+      "30426318",
+      "26579733",
+      "25227014"
+    ],
+    "similar": [
+      "39319553",
+      "40328536",
+      "30778717",
+      "35098682",
+      "30936378",
+      "40075375",
+      "40114622",
+      "41263395",
+      "39251494",
+      "40165657",
+      "36047542",
+      "36563341",
+      "40640822",
+      "38515096",
+      "33638577",
+      "38285641",
+      "41417019",
+      "40689570",
+      "36115683",
+      "38290884",
+      "34318502",
+      "41114339",
+      "38982267",
+      "39730249",
+      "35348863",
+      "35578691",
+      "40410106",
+      "40592110",
+      "39569528",
+      "37972417",
+      "39725588",
+      "33544167",
+      "36787023",
+      "34669994",
+      "40083024",
+      "38552362",
+      "36169691",
+      "38523520",
+      "38310058",
+      "37802672",
+      "39436414",
+      "37300935",
+      "40301933",
+      "38195717",
+      "38704786",
+      "37481418",
+      "37749461",
+      "33862316",
+      "40784883",
+      "39692551",
+      "37914925",
+      "36166088",
+      "38383258",
+      "32416013",
+      "32162003",
+      "31074592",
+      "37706584",
+      "38789936",
+      "37840100",
+      "40761820",
+      "39085788",
+      "34581708",
+      "40900897",
+      "31414580",
+      "30547844",
+      "39375609",
+      "39575614",
+      "39894961",
+      "31174617",
+      "39540685",
+      "30635290",
+      "31728587",
+      "27017476",
+      "38000953",
+      "40253221",
+      "39789523",
+      "40379764",
+      "41277127",
+      "31014053",
+      "39789538",
+      "37002910",
+      "41067858",
+      "32063026",
+      "32690092",
+      "38373836",
+      "41149132",
+      "31978901",
+      "41163134",
+      "38361006",
+      "40898494",
+      "33731263",
+      "38169047",
+      "37120403",
+      "26937803",
+      "31097090",
+      "39552295",
+      "33148663",
+      "36319968",
+      "39492190",
+      "39101254"
+    ],
+    "review": [
+      "39319553",
+      "37120403"
+    ],
+    "pmc": [
+      "12005866"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      },
+      {
+        "url": "https://www.ovid.com/39319553.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39319553/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/RTI.0000000000000817",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "identity": {
+    "pmid": "38993563",
+    "doi": "10.7150/ijbs.94555",
+    "title": "Machine Learning-based Framework Develops a Tumor Thrombus Coagulation Signature in Multicenter Cohorts for Renal Cancer."
+  },
+  "content": {
+    "abstract": "Background: Renal cell carcinoma (RCC) is frequently accompanied by tumor thrombus in the venous system with an extremely dismal prognosis. The current Tumor Node Metastasis (TNM) stage and Mayo clinical classification do not appropriately identify preference-sensitive treatment. Therefore, there is an urgent need to develop a better ideal model for precision medicine. Methods: In this study, we developed a coagulation tumor thrombus signature for RCC with 10 machine-learning algorithms (101 combinations) based on a novel computational framework using multiple independent cohorts. Results: The established tumor thrombus coagulation-related risk stratification (TTCRRS) signature comprises 10 prognostic coagulation-related genes (CRGs). This signature could predict survival outcomes in public and in-house protein cohorts and showed high performance compared to 129 published signatures. Additionally, the TTCRRS signature was significantly related to some immune landscapes, immunotherapy response, and chemotherapy. Furthermore, we also screened out hub genes, transcription factors, and small compounds based on the TTCRRS signature. Meanwhile, CYP51A1 can regulate the proliferation and migration properties of RCC. Conclusions: The TTCRRS signature can complement the traditional anatomic TNM staging system and Mayo clinical stratification and provide clinicians with more therapeutic options.",
+    "keywords": [
+      "CYP51A1",
+      "Machine learning",
+      "Tumor thrombus",
+      "immunotherapy",
+      "renal cell carcinoma"
+    ],
+    "mesh_terms": [
+      "*Kidney Neoplasms/genetics/pathology",
+      "Humans",
+      "*Machine Learning",
+      "*Carcinoma, Renal Cell/genetics/pathology",
+      "Thrombosis",
+      "Prognosis",
+      "Cohort Studies"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Tao",
+        "Wang, Yue",
+        "Zhang, Wei",
+        "Cai, Tingting",
+        "Tian, Xi",
+        "Su, Jiaqi",
+        "Zhang, Zihao",
+        "Zheng, Shengfeng",
+        "Ye, Shiqi",
+        "Dai, Bo",
+        "Wang, Ziliang",
+        "Zhu, Yiping",
+        "Zhang, Hailiang",
+        "Chang, Kun",
+        "Ye, Dingwei"
+      ],
+      "short_names": [
+        "Feng T",
+        "Wang Y",
+        "Zhang W",
+        "Cai T",
+        "Tian X",
+        "Su J",
+        "Zhang Z",
+        "Zheng S",
+        "Ye S",
+        "Dai B",
+        "Wang Z",
+        "Zhu Y",
+        "Zhang H",
+        "Chang K",
+        "Ye D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Central Laboratory, Shanghai Municipal Hospital of Traditional Chinese Medicine, Shanghai University of Traditional Chinese Medicine, 274 Middle Zhijiang Road, Shanghai 200071, China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China.",
+        "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Tao",
+        "short_name": "Feng T",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cai, Tingting",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xi",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Su, Jiaqi",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zihao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Shengfeng",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Institute, School of Life Medicine, Department of Urology, Fudan University Shanghai Cancer Center, Fudan University, Qingdao, 266500, China.",
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shiqi",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dai, Bo",
+        "short_name": "Dai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziliang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Shanghai Municipal Hospital of Traditional Chinese Medicine, Shanghai University of Traditional Chinese Medicine, 274 Middle Zhijiang Road, Shanghai 200071, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yiping",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hailiang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chang, Kun",
+        "short_name": "Chang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ye, Dingwei",
+        "short_name": "Ye D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, State Key Laboratory of Genetic Engineering, Collaborative Innovation Center for Genetics and Development, School of Life Sciences, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200433, China.",
+          "Department of Urology, Fudan University Shanghai Cancer Center, No. 270 Dong'an Road, Shanghai, 200032, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/12 06:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42388616",
+      "41567195",
+      "41383582",
+      "40661946",
+      "40255404"
+    ],
+    "refs": [
+      "35864476",
+      "35627236",
+      "35440542",
+      "35361264",
+      "35145098",
+      "34914499",
+      "34572463",
+      "34304692",
+      "33924405",
+      "33686949",
+      "33538338",
+      "33316381",
+      "33312353",
+      "33221754",
+      "33116819",
+      "33057845",
+      "32900861",
+      "32582215",
+      "32274301",
+      "32178821",
+      "32124324",
+      "32029730",
+      "31604537",
+      "31376606",
+      "31096305",
+      "30912469",
+      "30546942",
+      "30341162",
+      "30266715",
+      "30243799",
+      "30137025",
+      "30100160",
+      "30051364",
+      "29748622",
+      "29686425",
+      "29628290",
+      "29429633",
+      "29325693",
+      "29263699",
+      "29228097",
+      "29141660",
+      "29092952",
+      "29033130",
+      "28950298",
+      "28714863",
+      "28681241",
+      "28614802",
+      "28605519",
+      "28475899",
+      "28357911",
+      "28356508",
+      "28213366",
+      "28052254",
+      "27765066",
+      "27433282",
+      "27247223",
+      "26965203",
+      "26445601",
+      "26302981",
+      "25822800",
+      "25605792",
+      "25229481",
+      "25042562",
+      "24791905",
+      "24580837",
+      "24555480",
+      "24357284",
+      "24138885",
+      "24113773",
+      "24027076",
+      "23908465",
+      "23555539",
+      "23550210",
+      "23323831",
+      "22455463",
+      "22257669",
+      "22237466",
+      "21948594",
+      "21930765",
+      "21903630",
+      "21115458",
+      "20980095",
+      "20644110",
+      "19560258",
+      "19498079",
+      "19114008",
+      "18826389",
+      "17008526",
+      "16632515",
+      "16505267",
+      "16153208",
+      "15533478",
+      "15217427",
+      "15016911",
+      "12582260",
+      "12576811",
+      "10351185",
+      "9893947",
+      "8463250"
+    ],
+    "similar": [
+      "38993563",
+      "37600786",
+      "41052233",
+      "42158467",
+      "39998680",
+      "28975890",
+      "38917875",
+      "41656832",
+      "40335662",
+      "37423959",
+      "41601657",
+      "41383582",
+      "40016772",
+      "40438115",
+      "39707545",
+      "36551318",
+      "41740344",
+      "40447904",
+      "40642093",
+      "40379825",
+      "37006234",
+      "38570787",
+      "38061153",
+      "37275552",
+      "41013841",
+      "42147811",
+      "33836688",
+      "34058987",
+      "40920628",
+      "41476960",
+      "40754899",
+      "39675190",
+      "35739510",
+      "36282174",
+      "34512816",
+      "38090653",
+      "38808948",
+      "37994489",
+      "39794799",
+      "41227385",
+      "39614426",
+      "42064045",
+      "38296888",
+      "36189275",
+      "18692951",
+      "38663187",
+      "38951896",
+      "36465636",
+      "40830065",
+      "31829287",
+      "41566451",
+      "17572185",
+      "36869574",
+      "41234865",
+      "38538287",
+      "39256647",
+      "39355255",
+      "41490727",
+      "40850391",
+      "41208987",
+      "41217528",
+      "42159135",
+      "31306232",
+      "36211378",
+      "37063886",
+      "35441741",
+      "37752452",
+      "40329678",
+      "36686417",
+      "38759695",
+      "37649103",
+      "34281531",
+      "39732954",
+      "40950700",
+      "35279104",
+      "41281377",
+      "35422048",
+      "34795663",
+      "39011666",
+      "30143382",
+      "39052149",
+      "40596969",
+      "34237133",
+      "41272036",
+      "42244292",
+      "39175011",
+      "36118874",
+      "40836290",
+      "38580922",
+      "37925432",
+      "37438709",
+      "39742262",
+      "34824449",
+      "40715300",
+      "32895914",
+      "41535649",
+      "35808868",
+      "35042663",
+      "38671348",
+      "38546385"
+    ],
+    "review": [
+      "38993563"
+    ],
+    "pmc": [
+      "11234220"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38993563/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v20p3590.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

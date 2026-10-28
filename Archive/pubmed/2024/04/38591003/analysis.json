@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38591003",
+  "title": "Inference of drug off-target effects on cellular signaling using interactome-based deep learning.",
+  "authors": "Meimetis, Nikolaos; Lauffenburger, Douglas A; Nilsson, Avlant",
+  "journal": "iScience",
+  "published_date": "2024-04-09",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习推断药物脱靶效应及下游转录因子活性，虽涉及转录因子但非蛋白质-DNA互作建模，方法不可直接迁移至TF-DNA结合研究。",
+  "abstract": "Many diseases emerge from dysregulated cellular signaling, and drugs are often designed to target specific signaling proteins. Off-target effects are, however, common and may ultimately result in failed clinical trials. Here we develop a computer model of the cell's transcriptional response to drugs for improved understanding of their mechanisms of action. The model is based on ensembles of artificial neural networks and simultaneously infers drug-target interactions and their downstream effects on intracellular signaling. With this, it predicts transcription factors' activities, while recovering known drug-target interactions and inferring many new ones, which we validate with an independent dataset. As a case study, we analyze the effects of the drug Lestaurtinib on downstream signaling. Alongside its intended target, FLT3, the model predicts an inhibition of CDK2 that enhances the downregulation of the cell cycle-critical transcription factor FOXM1. Our approach can therefore enhance our understanding of drug signaling for therapeutic design.",
+  "abstract_zh": "许多疾病源于细胞信号传导失调，药物通常设计用于靶向特定信号蛋白。然而，脱靶效应很常见，最终可能导致临床试验失败。在此，我们开发了一个细胞对药物转录反应的计算机模型，以增进对其作用机制的理解。该模型基于人工神经网络集成，同时推断药物-靶点相互作用及其对细胞内信号传导的下游效应。借此，它预测转录因子活性，同时恢复已知的药物-靶点相互作用并推断许多新相互作用，我们使用独立数据集验证了这些结果。作为案例研究，我们分析了药物Lestaurtinib对下游信号传导的影响。除其预期靶点FLT3外，模型预测CDK2受到抑制，这增强了细胞周期关键转录因子FOXM1的下调。因此，我们的方法可增强对药物信号传导的理解，以助于治疗设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38591003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38591003/",
+  "paper_page_path": "papers/pubmed/38591003/index.html"
+}

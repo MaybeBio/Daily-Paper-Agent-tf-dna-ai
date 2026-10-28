@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "34209818",
+    "doi": "10.3390/genes12070998",
+    "title": "Toward a Coronavirus Knowledge Graph."
+  },
+  "content": {
+    "abstract": "This study builds a coronavirus knowledge graph (KG) by merging two information sources. The first source is Analytical Graph (AG), which integrates more than 20 different public datasets related to drug discovery. The second source is CORD-19, a collection of published scientific articles related to COVID-19. We combined both chemo genomic entities in AG with entities extracted from CORD-19 to expand knowledge in the COVID-19 domain. Before populating KG with those entities, we perform entity disambiguation on CORD-19 collections using Wikidata. Our newly built KG contains at least 21,700 genes, 2500 diseases, 94,000 phenotypes, and other biological entities (e.g., compound, species, and cell lines). We define 27 relationship types and use them to label each edge in our KG. This research presents two cases to evaluate the KG's usability: analyzing a subgraph (ego-centered network) from the angiotensin-converting enzyme (ACE) and revealing paths between biological entities (hydroxychloroquine and IL-6 receptor; chloroquine and STAT1). The ego-centered network captured information related to COVID-19. We also found significant COVID-19-related information in top-ranked paths with a depth of three based on our path evaluation.",
+    "keywords": [
+      "knowledge base management",
+      "knowledge engineering methodologies",
+      "knowledge management applications"
+    ],
+    "mesh_terms": [
+      "*COVID-19/epidemiology/etiology",
+      "Chloroquine/pharmacology",
+      "Computer Graphics",
+      "Databases, Factual",
+      "Hemorrhagic Fever, Ebola/drug therapy",
+      "Humans",
+      "Hydroxychloroquine/pharmacology",
+      "*Knowledge Bases",
+      "Pattern Recognition, Automated",
+      "Peptidyl-Dipeptidase A/genetics",
+      "PubMed",
+      "Receptors, Interleukin-6/blood",
+      "SARS-CoV-2",
+      "STAT1 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Peng",
+        "Bu, Yi",
+        "Jiang, Peng",
+        "Shi, Xiaowen",
+        "Lun, Bing",
+        "Chen, Chongyan",
+        "Syafiandini, Arida Ferti",
+        "Ding, Ying",
+        "Song, Min"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Bu Y",
+        "Jiang P",
+        "Shi X",
+        "Lun B",
+        "Chen C",
+        "Syafiandini AF",
+        "Ding Y",
+        "Song M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2549-4580",
+        "ORCID: 0000-0003-3188-6652"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China.",
+        "Department of Information Management, Peking University, Beijing 100871, China.",
+        "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China.",
+        "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China.",
+        "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China.",
+        "School of Information, University of Texas at Austin, Austin, TX 78701, USA.",
+        "Department of Library and Information Science, Yonsei University, Seoul 03722, Korea.",
+        "School of Information, University of Texas at Austin, Austin, TX 78701, USA.",
+        "Dell Medical School, University of Texas at Austin, Austin, TX 78712, USA.",
+        "Department of Library and Information Science, Yonsei University, Seoul 03722, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Yi",
+        "short_name": "Bu Y",
+        "identifiers": [
+          "0000-0003-2549-4580"
+        ],
+        "affiliations": [
+          "Department of Information Management, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Peng",
+        "short_name": "Jiang P",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Xiaowen",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China."
+        ]
+      },
+      {
+        "full_name": "Lun, Bing",
+        "short_name": "Lun B",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Knowledge Atlas Technology Co., Ltd., Beijing 100043, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chongyan",
+        "short_name": "Chen C",
+        "identifiers": [
+          "0000-0003-3188-6652"
+        ],
+        "affiliations": [
+          "School of Information, University of Texas at Austin, Austin, TX 78701, USA."
+        ]
+      },
+      {
+        "full_name": "Syafiandini, Arida Ferti",
+        "short_name": "Syafiandini AF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Library and Information Science, Yonsei University, Seoul 03722, Korea."
+        ]
+      },
+      {
+        "full_name": "Ding, Ying",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information, University of Texas at Austin, Austin, TX 78701, USA.",
+          "Dell Medical School, University of Texas at Austin, Austin, TX 78712, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Min",
+        "short_name": "Song M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Library and Information Science, Yonsei University, Seoul 03722, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2021 Jun 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "39695169",
+      "37274445",
+      "37188766",
+      "35476822"
+    ],
+    "refs": [
+      "33895786",
+      "33357220",
+      "33332890",
+      "32976572",
+      "32953130",
+      "32917282",
+      "32822413",
+      "32805314",
+      "32779824",
+      "32777762",
+      "32605700",
+      "32599245",
+      "32591513",
+      "32486534",
+      "32470486",
+      "32385990",
+      "32328369",
+      "32228252",
+      "32032529",
+      "31680165",
+      "30476243",
+      "29155950",
+      "29145629",
+      "29033372",
+      "27899622",
+      "27899619",
+      "26481350",
+      "26400175",
+      "26248374",
+      "23703206",
+      "23317286",
+      "22422992",
+      "22293552",
+      "21948594",
+      "18776214",
+      "18084021",
+      "16381955",
+      "15671047",
+      "14681409",
+      "11982604"
+    ],
+    "similar": [
+      "34209818",
+      "32738306",
+      "34603428",
+      "32251731",
+      "33419870",
+      "36621289",
+      "32631083",
+      "33656713",
+      "32147496",
+      "32199943",
+      "35803947",
+      "33049061",
+      "32495923",
+      "32822426",
+      "32213152",
+      "33676010",
+      "32634079",
+      "32628242",
+      "33176880",
+      "33175089",
+      "32515561",
+      "32180547",
+      "36412326",
+      "35655307",
+      "33055059",
+      "34157650",
+      "36266295",
+      "37156393",
+      "36318240",
+      "33746309",
+      "35653350",
+      "32591513",
+      "36085310",
+      "36258252",
+      "35872411",
+      "21486753",
+      "36856726",
+      "36268112",
+      "35571058"
+    ],
+    "review": [
+      "34209818",
+      "32631083",
+      "33656713",
+      "32147496",
+      "32822426",
+      "32634079"
+    ],
+    "pmc": [
+      "8307964"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes12070998",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34209818/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34209818",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

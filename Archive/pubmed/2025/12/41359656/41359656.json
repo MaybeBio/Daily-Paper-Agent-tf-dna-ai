@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "41359656",
+    "doi": "10.1371/journal.pone.0326442",
+    "title": "Longitudinal biomarker progression and validation for predicting operational tolerance in a prospective multicenter liver transplantation immunosuppression withdrawal trial."
+  },
+  "content": {
+    "abstract": "Liver transplantation (LT) is a life-saving treatment for end-stage liver disease, but long-term immunosuppression (IS) is associated with significant side effects. Achieving operational tolerance (OT), where the graft is accepted without IS, remains a critical goal. Biomarkers play a pivotal role in understanding the complex mechanisms of OT, enabling personalized treatment strategies and improving patient outcomes. Additionally, machine learning techniques offer powerful tools for identifying predictive biomarkers and optimizing IS withdrawal protocols. This multicenter trial aimed to investigate the longitudinal evolution of genetic biomarkers during IS withdrawal and validate their predictive value for OT in LT recipients. A prospective, multicenter IS withdrawal trial was conducted with 91 LT patients. Tolerant (TOL) and non-tolerant (non-TOL) patients were compared, and longitudinal blood and liver samples were collected to analyze biomarkers. Generalized Additive Mixed Models (GAMMs) and logistic algorithms were employed to assess biomarker associations and predict OT. Of the 45 patients who completed the trial, 17 (37.8%) achieved OT. Molecular biomarker analysis revealed significant differences between TOL and non-TOL groups. Non-TOL patients exhibited higher baseline methylation of the FOXP3 regulatory T cell-specific demethylated region (TSDR) in whole blood. Longitudinal analysis showed distinct patterns in FOXP3, SENP6, miR31, and miR95 expression between groups. Notably, FOXP3 expression followed a U-shaped trajectory in TOL patients, decreasing during IS withdrawal and increasing post-withdrawal. Machine learning identified several key predictive biomarkers for OT. This study confirms the association between FOXP3 TSDR methylation and OT in LT patients and identifies FEM1C, miR31 and TFRC as promising predictive biomarkers. These findings highlight the potential for personalized IS withdrawal strategies, though further validation in larger cohorts is needed before clinical application.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "*Biomarkers/blood/metabolism",
+      "Forkhead Transcription Factors/genetics",
+      "*Immunosuppression Therapy/methods",
+      "*Liver Transplantation",
+      "Longitudinal Studies",
+      "Prospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lopez-Diaz, Gloria",
+        "Sanchez-Lorencio, Maria Isabel",
+        "Inarrairaegui, Mercedes",
+        "Gonzalez-Dieguez, Maria Luisa",
+        "Cadahia, Valle",
+        "Otero-Ferreiro, Alejandra",
+        "Vazquez-Millan, Maria Angeles",
+        "Romero-Cristobal, Mario",
+        "Salcedo, Magdalena",
+        "Lorente-Perez, Sara",
+        "Sanchez-Antolin, Gloria",
+        "de la Pena, Jesus",
+        "Ramirez, Pablo",
+        "Pata, Maria P",
+        "Baroja-Mazo, Alberto",
+        "Herrero, Jose I",
+        "Pons, Jose Antonio"
+      ],
+      "short_names": [
+        "Lopez-Diaz G",
+        "Sanchez-Lorencio MI",
+        "Inarrairaegui M",
+        "Gonzalez-Dieguez ML",
+        "Cadahia V",
+        "Otero-Ferreiro A",
+        "Vazquez-Millan MA",
+        "Romero-Cristobal M",
+        "Salcedo M",
+        "Lorente-Perez S",
+        "Sanchez-Antolin G",
+        "de la Pena J",
+        "Ramirez P",
+        "Pata MP",
+        "Baroja-Mazo A",
+        "Herrero JI",
+        "Pons JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9076-6717",
+        "ORCID: 0000-0001-5017-7240"
+      ],
+      "affiliations": [
+        "Hepatology and Liver Transplant Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+        "Molecular Inflammation Group, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+        "Liver Unit, Clinica Universidad de Navarra, Pamplona, Spain.",
+        "Instituto de Investigacion Sanitaria de Navarra (IdiSNA), CIBERehd, Pamplona, Spain.",
+        "Liver Unit, Hospital Universitario Central de Asturias, Oviedo, Asturias, Spain.",
+        "Liver Unit, Hospital Universitario Central de Asturias, Oviedo, Asturias, Spain.",
+        "Liver Transplant Unit, Complejo Hospitalario A Coruna, A Coruna, Spain.",
+        "Liver Transplant Unit, Complejo Hospitalario A Coruna, A Coruna, Spain.",
+        "Liver Unit, H.G.U. Gregorio Maranon, Madrid, Spain.",
+        "CIBERehd, Madrid, Spain.",
+        "Liver Unit, H.G.U. Gregorio Maranon, Madrid, Spain.",
+        "CIBERehd, Madrid, Spain.",
+        "Liver Transplant Unit, Hospital Clinico Universitario Lozano Blesa, Universitiy of Zaragoza and ISS Aragon, Zaragoza, Spain.",
+        "Hepatology and Liver Transplant Unit, Hospital Universitario Rio Hortega, Valladolid, Spain.",
+        "Pathological Anatomy Unit, University Clinical Hospital Virgen de la Arrixaca, Murcia, Spain.",
+        "General Surgery Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+        "Biostatech Advice, Training and Innovation in Biostatistics S.L., Santiago de Compostela, Spain.",
+        "Molecular Inflammation Group, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+        "Liver Unit, Clinica Universidad de Navarra, Pamplona, Spain.",
+        "Instituto de Investigacion Sanitaria de Navarra (IdiSNA), CIBERehd, Pamplona, Spain.",
+        "Hepatology and Liver Transplant Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+        "Internal Medicine Department, Faculty of Medicine, University of Murcia, Campus de Ciencias de la Salud, Murcia, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "López-Díaz, Gloria",
+        "short_name": "López-Díaz G",
+        "identifiers": [],
+        "affiliations": [
+          "Hepatology and Liver Transplant Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Sánchez-Lorencio, María Isabel",
+        "short_name": "Sánchez-Lorencio MI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Inflammation Group, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Iñarrairaegui, Mercedes",
+        "short_name": "Iñarrairaegui M",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Unit, Clínica Universidad de Navarra, Pamplona, Spain.",
+          "Instituto de Investigación Sanitaria de Navarra (IdiSNA), CIBERehd, Pamplona, Spain."
+        ]
+      },
+      {
+        "full_name": "González-Diéguez, María Luisa",
+        "short_name": "González-Diéguez ML",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Unit, Hospital Universitario Central de Asturias, Oviedo, Asturias, Spain."
+        ]
+      },
+      {
+        "full_name": "Cadahía, Valle",
+        "short_name": "Cadahía V",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Unit, Hospital Universitario Central de Asturias, Oviedo, Asturias, Spain."
+        ]
+      },
+      {
+        "full_name": "Otero-Ferreiro, Alejandra",
+        "short_name": "Otero-Ferreiro A",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Transplant Unit, Complejo Hospitalario A Coruña, A Coruña, Spain."
+        ]
+      },
+      {
+        "full_name": "Vázquez-Millán, María Ángeles",
+        "short_name": "Vázquez-Millán MÁ",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Transplant Unit, Complejo Hospitalario A Coruña, A Coruña, Spain."
+        ]
+      },
+      {
+        "full_name": "Romero-Cristóbal, Mario",
+        "short_name": "Romero-Cristóbal M",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Unit, H.G.U. Gregorio Marañón, Madrid, Spain.",
+          "CIBERehd, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Salcedo, Magdalena",
+        "short_name": "Salcedo M",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Unit, H.G.U. Gregorio Marañón, Madrid, Spain.",
+          "CIBERehd, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Lorente-Pérez, Sara",
+        "short_name": "Lorente-Pérez S",
+        "identifiers": [],
+        "affiliations": [
+          "Liver Transplant Unit, Hospital Clínico Universitario Lozano Blesa, Universitiy of Zaragoza and ISS Aragón, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Sánchez-Antolín, Gloria",
+        "short_name": "Sánchez-Antolín G",
+        "identifiers": [],
+        "affiliations": [
+          "Hepatology and Liver Transplant Unit, Hospital Universitario Río Hortega, Valladolid, Spain."
+        ]
+      },
+      {
+        "full_name": "de la Peña, Jesús",
+        "short_name": "de la Peña J",
+        "identifiers": [],
+        "affiliations": [
+          "Pathological Anatomy Unit, University Clinical Hospital Virgen de la Arrixaca, Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramírez, Pablo",
+        "short_name": "Ramírez P",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Pata, María P",
+        "short_name": "Pata MP",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatech Advice, Training and Innovation in Biostatistics S.L., Santiago de Compostela, Spain."
+        ]
+      },
+      {
+        "full_name": "Baroja-Mazo, Alberto",
+        "short_name": "Baroja-Mazo A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Inflammation Group, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Herrero, José I",
+        "short_name": "Herrero JI",
+        "identifiers": [
+          "0000-0002-9076-6717"
+        ],
+        "affiliations": [
+          "Liver Unit, Clínica Universidad de Navarra, Pamplona, Spain.",
+          "Instituto de Investigación Sanitaria de Navarra (IdiSNA), CIBERehd, Pamplona, Spain."
+        ]
+      },
+      {
+        "full_name": "Pons, José Antonio",
+        "short_name": "Pons JA",
+        "identifiers": [
+          "0000-0001-5017-7240"
+        ],
+        "affiliations": [
+          "Hepatology and Liver Transplant Unit, University Clinical Hospital Virgen de la Arrixaca, Biomedical Research Institute of Murcia (IMIB-Pascual Parrilla), Murcia, Spain.",
+          "Internal Medicine Department, Faculty of Medicine, University of Murcia, Campus de Ciencias de la Salud, Murcia, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 19:23",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42194537",
+      "41972122"
+    ],
+    "refs": [
+      "39706366",
+      "37905605",
+      "37892685",
+      "37336954",
+      "37019173",
+      "36646803",
+      "36210500",
+      "36179797",
+      "35817953",
+      "35594482",
+      "35426190",
+      "35087511",
+      "35050229",
+      "34874844",
+      "34733943",
+      "34455702",
+      "34437910",
+      "34407265",
+      "33655578",
+      "33545385",
+      "33488615",
+      "33438816",
+      "33228480",
+      "32759983",
+      "32670292",
+      "32589655",
+      "31907954",
+      "31730734",
+      "31031758",
+      "30832567",
+      "30720688",
+      "29709679",
+      "29481826",
+      "28349628",
+      "28118078",
+      "28006867",
+      "27293540",
+      "26751487",
+      "26603835",
+      "24845974",
+      "24789874",
+      "24324960",
+      "23532679",
+      "22703529",
+      "22645090",
+      "22300520",
+      "22156196",
+      "20046418",
+      "19408243",
+      "19147574",
+      "19034005",
+      "17694575",
+      "17298177",
+      "12737859"
+    ],
+    "similar": [
+      "41359656",
+      "28006867",
+      "31721246",
+      "32399186",
+      "27105585",
+      "30720688",
+      "39706366",
+      "41500616",
+      "33783969",
+      "19034005",
+      "25232255",
+      "35020854",
+      "19104431",
+      "25556168",
+      "27678350",
+      "21423069",
+      "31397805",
+      "23532679",
+      "26794635",
+      "22253395",
+      "39505152",
+      "37905605",
+      "35109826",
+      "23784747",
+      "31095525",
+      "40466778",
+      "33463950",
+      "32786149",
+      "26681759",
+      "21384504",
+      "20122976",
+      "21199671",
+      "26603835",
+      "38833360",
+      "17306739",
+      "23392795",
+      "22156196",
+      "33278149",
+      "22117557",
+      "31327269",
+      "30506630",
+      "28608637",
+      "34655506",
+      "29545795",
+      "16477227",
+      "29630730",
+      "26517400",
+      "26225458",
+      "27288298",
+      "20574810",
+      "32707447",
+      "26666504",
+      "20885324",
+      "23578883",
+      "39287102",
+      "23838646",
+      "33213941",
+      "25083793",
+      "39555750",
+      "37439035",
+      "26459722",
+      "34437910",
+      "37756526",
+      "32073482",
+      "28834221",
+      "17873064",
+      "22019771",
+      "30229989",
+      "31002431",
+      "28296931",
+      "26709578",
+      "35395132",
+      "16338967",
+      "30375165",
+      "32839941",
+      "23080065",
+      "30359308",
+      "33668238",
+      "31073299",
+      "40287272",
+      "38821361",
+      "26763669",
+      "23232368",
+      "24938080",
+      "21224010",
+      "40630960",
+      "19890211",
+      "38467375",
+      "24964989",
+      "23783240",
+      "29462637",
+      "36368749",
+      "30019408",
+      "25078558",
+      "31778687",
+      "33858815",
+      "19307800",
+      "37210229",
+      "40569970",
+      "22486792"
+    ],
+    "review": [
+      "41359656",
+      "41500616",
+      "33783969",
+      "27678350",
+      "26794635",
+      "37905605",
+      "40466778",
+      "21384504",
+      "23392795",
+      "33278149",
+      "28608637",
+      "29630730",
+      "27288298",
+      "26666504",
+      "20885324",
+      "23578883",
+      "23838646",
+      "37439035",
+      "26459722",
+      "32073482",
+      "28834221",
+      "26709578",
+      "23080065",
+      "33668238",
+      "40287272",
+      "19890211",
+      "29462637",
+      "40569970"
+    ],
+    "pmc": [
+      "12685220"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livertransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Transplantation"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0326442",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41359656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-Senp6+derived+frame+shift+peptide+%28mouse%29-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2704",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

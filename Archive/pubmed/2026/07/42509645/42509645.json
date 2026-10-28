@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "42509645",
+    "doi": "10.1002/cam4.72053",
+    "title": "ATF4, ZIK1, and PNMA3 Transcriptomic Signatures Predict Chemoradiotherapy Response in Cervical Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cervical cancer (CC) is a main malignancy affecting women globally, with a high mortality rate. Chemoradiotherapy resistance is a significant factor in determining treatment outcomes, and prognostic biomarkers are essential for the appropriate selection of therapeutic strategies. This study aimed to identify gene expression signatures that may allow for follow-up treatment response in CC patients. METHODS: Samples of non-stem CC cells selected by Fluorescence-activated Cell Sorting from 21 Responders and 10 Non-responder patients, who attended the Mario Penna Institute (Belo Horizonte-Brazil) from August 2017 to May 2018, and submitted to Next-generation RNA sequencing, were analyzed to evaluate differential gene expression profiles between both groups. Machine Learning and statistical analyses were performed to identify a signature related to clinical outcomes. RESULTS: 2670 Differentially expressed genes (DEGs) with log(2)FoldChange </= -1 or >/= 1 and adjusted p-value </= 0.05 were found. Of these, 1591 were protein-coding, but only 8 were considered relevant based on machine-learning and statistical analyses for classifying treatment response. However, only PNMA3 and ZIK1 were markedly upregulated in non-responder patients. Among the genes upregulated in Responder patients, only ATF4 and ATP1B3 were identified by machine-learning analysis. On the other hand, only ATF4, PNMA3, and ZIK1 were associated in network interactions, more specifically to apoptosis pathways, and the differential expression of ATF4 and PNMA3 occurred exclusively in cervical cancer non-stem cells, in the presence of ZIK1. CONCLUSIONS: We propose that upregulation of PNMA3 and downregulation of ATF4, specifically in cervical cancer non-stem cells, is associated with upregulation of ZIK1 and with resistance to apoptosis and chemoradiotherapy. Therefore, suggesting that these genes may serve as potential signatures for CC prognosis.",
+    "keywords": [
+      "ATF4",
+      "PNMA3",
+      "ZIK1",
+      "cervical cancer",
+      "chemoradiotherapy resistance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/genetics/therapy/pathology",
+      "*Activating Transcription Factor 4/genetics/metabolism",
+      "*Chemoradiotherapy",
+      "*Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Melo Neto, Angelo Borges",
+        "Queiroz, Fabio Ribeiro",
+        "de Souza Melo, Carolina Pereira",
+        "Duarte, Bruna Custodio Dias",
+        "Ferreira, Jorge Gomes Goulart",
+        "de Amorim, Izabela Ferreira Gontijo",
+        "do Amaral, Laurence Rodrigues",
+        "Bertarini, Pedro Luiz Lima",
+        "de Figueiredo Franco, Telma Maria Rossi",
+        "de Carvalho, Andrea Teixeira",
+        "Martins-Filho, Olindo Assis",
+        "de Jesus Jeremias, Wander",
+        "da Conceicao Braga, Leticia",
+        "de Oliveira Salles, Paulo Guilherme",
+        "de Souza Gomes, Matheus"
+      ],
+      "short_names": [
+        "de Melo Neto AB",
+        "Queiroz FR",
+        "de Souza Melo CP",
+        "Duarte BCD",
+        "Ferreira JGG",
+        "de Amorim IFG",
+        "do Amaral LR",
+        "Bertarini PLL",
+        "de Figueiredo Franco TMR",
+        "de Carvalho AT",
+        "Martins-Filho OA",
+        "de Jesus Jeremias W",
+        "da Conceicao Braga L",
+        "de Oliveira Salles PG",
+        "de Souza Gomes M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6628-7185",
+        "ORCID: 0000-0003-2814-5183",
+        "ORCID: 0000-0002-6181-9410"
+      ],
+      "affiliations": [
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Grupo Integrado de Pesquisas em Biomarcadores, Instituto Rene Rachou, Belo Horizonte, Brazil.",
+        "Grupo Integrado de Pesquisas em Biomarcadores, Instituto Rene Rachou, Belo Horizonte, Brazil.",
+        "Laboratorio de Farmacologia Experimental, Escola de Farmacia, Universidade Federal de Ouro Preto, Ouro Preto, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Programa de Pos-graduacao em Ciencias Morfofuncionais, Universidade Federal de Sao Joao D'El Rei, Sao Joao D'El Rei, Brazil.",
+        "Laboratorio de Pesquisa Basica e Translacional em Oncologia, Nucleo de Ensino, Pesquisa e Inovacao, Instituto Mario Penna, Belo Horizonte, Brazil.",
+        "Laboratorio de Bioinformatica e Analises Moleculares, Universidade Federal de Uberlandia, Patos de Minas, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Melo Neto, Angelo Borges",
+        "short_name": "de Melo Neto AB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Queiroz, Fábio Ribeiro",
+        "short_name": "Queiroz FR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Souza Melo, Carolina Pereira",
+        "short_name": "de Souza Melo CP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "Duarte, Bruna Custódio Dias",
+        "short_name": "Duarte BCD",
+        "identifiers": [
+          "0000-0002-6628-7185"
+        ],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Jorge Gomes Goulart",
+        "short_name": "Ferreira JGG",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Amorim, Izabela Ferreira Gontijo",
+        "short_name": "de Amorim IFG",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "do Amaral, Laurence Rodrigues",
+        "short_name": "do Amaral LR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bertarini, Pedro Luiz Lima",
+        "short_name": "Bertarini PLL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Figueiredo Franco, Telma Maria Rossi",
+        "short_name": "de Figueiredo Franco TMR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Carvalho, Andréa Teixeira",
+        "short_name": "de Carvalho AT",
+        "identifiers": [
+          "0000-0003-2814-5183"
+        ],
+        "affiliations": [
+          "Grupo Integrado de Pesquisas em Biomarcadores, Instituto René Rachou, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "Martins-Filho, Olindo Assis",
+        "short_name": "Martins-Filho OA",
+        "identifiers": [],
+        "affiliations": [
+          "Grupo Integrado de Pesquisas em Biomarcadores, Instituto René Rachou, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Jesus Jeremias, Wander",
+        "short_name": "de Jesus Jeremias W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Farmacologia Experimental, Escola de Farmácia, Universidade Federal de Ouro Preto, Ouro Preto, Brazil."
+        ]
+      },
+      {
+        "full_name": "da Conceição Braga, Letícia",
+        "short_name": "da Conceição Braga L",
+        "identifiers": [
+          "0000-0002-6181-9410"
+        ],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil.",
+          "Programa de Pós-graduação em Ciências Morfofuncionais, Universidade Federal de São João D'El Rei, São João D'El Rei, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Oliveira Salles, Paulo Guilherme",
+        "short_name": "de Oliveira Salles PG",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Pesquisa Básica e Translacional em Oncologia, Núcleo de Ensino, Pesquisa e Inovação, Instituto Mário Penna, Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Souza Gomes, Matheus",
+        "short_name": "de Souza Gomes M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Bioinformática e Análises Moleculares, Universidade Federal de Uberlândia, Patos de Minas, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40026066",
+      "39754028",
+      "38706955",
+      "38601083",
+      "37783508",
+      "37368179",
+      "34725203",
+      "34094909",
+      "34026714",
+      "34026616",
+      "32708759",
+      "32433532",
+      "32377840",
+      "31921346",
+      "29946544",
+      "29378289",
+      "28948205",
+      "27935748",
+      "27354763",
+      "25516281",
+      "24695404",
+      "24381581",
+      "24336805",
+      "23821648",
+      "23104886",
+      "22930834",
+      "19887912"
+    ],
+    "similar": [
+      "42509645",
+      "40834150",
+      "42477639",
+      "34026616",
+      "32685473",
+      "40747615",
+      "39372720",
+      "40305445",
+      "40616092",
+      "39968981",
+      "40205481",
+      "42500207",
+      "41656832",
+      "42180604",
+      "33901225",
+      "40165108",
+      "38863714",
+      "38656879",
+      "40458391",
+      "38840928",
+      "41723567",
+      "41852002",
+      "33023625",
+      "42024236",
+      "41106766",
+      "41872824",
+      "41469098",
+      "42479091",
+      "40966023",
+      "41287591",
+      "42174861",
+      "40908400",
+      "40936758",
+      "41413822",
+      "41612311",
+      "41670819",
+      "38467964",
+      "33678324",
+      "32045269",
+      "40102789",
+      "41436831",
+      "41035636",
+      "33616161",
+      "41862958",
+      "39224598",
+      "38864475",
+      "37537783",
+      "41601635",
+      "33954190",
+      "32946928",
+      "34882728",
+      "41425595",
+      "40937568",
+      "40416607",
+      "42336904",
+      "41203170",
+      "40438115",
+      "39510199",
+      "33723390",
+      "27012812",
+      "39707377",
+      "41025546",
+      "30012564",
+      "40763562",
+      "38700505",
+      "29620291",
+      "41584728",
+      "40959565",
+      "39131609",
+      "40496857",
+      "36321557",
+      "34783210",
+      "38349439",
+      "34404366",
+      "31654628",
+      "30922331",
+      "42244292",
+      "41207909",
+      "41088372",
+      "42216537",
+      "37212262",
+      "35779918",
+      "40696947",
+      "41613147",
+      "41878416",
+      "34295336",
+      "35352485",
+      "33588862",
+      "40536270",
+      "40415156",
+      "40387729",
+      "41239481",
+      "41171827",
+      "42195052",
+      "41099090",
+      "31242951",
+      "41208987",
+      "41482355",
+      "38937754",
+      "41751860"
+    ],
+    "review": [
+      "42509645",
+      "36321557"
+    ],
+    "pmc": [
+      "13408019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42509645/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.72053",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

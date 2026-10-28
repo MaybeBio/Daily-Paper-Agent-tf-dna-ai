@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40235641",
+    "doi": "10.1016/j.csbj.2025.03.041",
+    "title": "Substrate binding of human and bacterial type IA topoisomerase: An experimentation with AlphaFold 3.0."
+  },
+  "content": {
+    "abstract": "Advancements in biophysical techniques such as X-ray crystallography and Cryo-EM have allowed the determination of three-dimensional structures of many proteins and nucleic acids. There, however, is still a lack of 3D structures of proteins that are difficult to crystallize or proteins in complex with other macromolecules. With the advent of deep learning applications such as AlphaFold and RoseTTAFold, it is becoming possible to obtain 3D structures of proteins from their 1D sequences while also generating models of protein-nucleic acid complexes that have been difficult to capture through traditional methods. In this project, we utilized AlphaFold3 (AF3) to create a large number of predicted complexes of two type IA topoisomerases: human topoisomerase 3 beta (hTOP3B) and Mycobacterium tuberculosis topoisomerase I bound to a single-stranded DNA (ssDNA). Topoisomerases are enzymes responsible for resolving topological barriers that arise during regular cellular activity. Obtaining structures of topoisomerase complexed with a ssDNA will allow us to discover possible sequence preferences of this enzyme and obtain structures that can be used to screen potential inhibitors. Our analysis showed that AF3 can predict the structure of the enzymes, especially the N-terminal domain, with high confidence. However, predicted protein-DNA complexes, especially with longer (> 25-mer) oligos, are unreliable. The models generated with shorter (9-mer) oligos are obtained with improved confidence and the substrates are placed similarly to crystal structures, but they do not reliably replicate the sequence specificity of the DNA binding of topoisomerase observed in biochemical assays and crystal structures.",
+    "keywords": [
+      "AlphaFold3",
+      "DNA supercoiling",
+      "Molecular model",
+      "Relaxation",
+      "Sequence specificity",
+      "Structure prediction",
+      "Substrate binding",
+      "Topoisomerase"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mamun, Yasir",
+        "Aguado, Ally",
+        "Preza, Ana",
+        "Kadel, Abhilasha",
+        "Mogallur, Anjani",
+        "Gonzalez, Briana",
+        "De La Rosa, Jayleen",
+        "Diaz, Daniel",
+        "Evdokimova, Polina",
+        "Karki, Ukesh",
+        "Tse-Dinh, Yuk-Ching",
+        "Chapagain, Prem"
+      ],
+      "short_names": [
+        "Mamun Y",
+        "Aguado A",
+        "Preza A",
+        "Kadel A",
+        "Mogallur A",
+        "Gonzalez B",
+        "De La Rosa J",
+        "Diaz D",
+        "Evdokimova P",
+        "Karki U",
+        "Tse-Dinh YC",
+        "Chapagain P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+        "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+        "Biomolecular Sciences Institute, Florida International University, Miami, FL 33199, USA.",
+        "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+        "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+        "Biomolecular Sciences Institute, Florida International University, Miami, FL 33199, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mamun, Yasir",
+        "short_name": "Mamun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Aguado, Ally",
+        "short_name": "Aguado A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Preza, Ana",
+        "short_name": "Preza A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Kadel, Abhilasha",
+        "short_name": "Kadel A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Mogallur, Anjani",
+        "short_name": "Mogallur A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Briana",
+        "short_name": "Gonzalez B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "De La Rosa, Jayleen",
+        "short_name": "De La Rosa J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Diaz, Daniel",
+        "short_name": "Diaz D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Evdokimova, Polina",
+        "short_name": "Evdokimova P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Karki, Ukesh",
+        "short_name": "Karki U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Tse-Dinh, Yuk-Ching",
+        "short_name": "Tse-Dinh YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+          "Biomolecular Sciences Institute, Florida International University, Miami, FL 33199, USA."
+        ]
+      },
+      {
+        "full_name": "Chapagain, Prem",
+        "short_name": "Chapagain P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, USA.",
+          "Department of Physics, Florida International University, Miami, FL 33199, USA.",
+          "Biomolecular Sciences Institute, Florida International University, Miami, FL 33199, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 06:19",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42146905",
+      "41446804",
+      "40799364"
+    ],
+    "refs": [
+      "39828754",
+      "39756261",
+      "39116039",
+      "39024468",
+      "38718835",
+      "37933859",
+      "37182397",
+      "36583363",
+      "36408920",
+      "35945419",
+      "35830799",
+      "35228717",
+      "34599769",
+      "34282049",
+      "34265844",
+      "33480441",
+      "33080770",
+      "32232337",
+      "29905859",
+      "28176834",
+      "26655023",
+      "22833607",
+      "21482796",
+      "19519900",
+      "10734203",
+      "10592235"
+    ],
+    "similar": [
+      "40235641",
+      "39024468",
+      "32232337",
+      "26655023",
+      "40680817",
+      "17331537",
+      "33080770",
+      "11429611",
+      "25798600",
+      "31204053",
+      "10574789",
+      "38534397",
+      "18186484",
+      "41429581",
+      "16600296",
+      "30299652",
+      "10497031",
+      "16368685",
+      "11809893",
+      "29905859",
+      "11743727",
+      "36583363",
+      "19519900",
+      "35955842",
+      "16490213",
+      "34606690",
+      "26490962",
+      "11113452",
+      "28361879",
+      "30842985",
+      "15105144",
+      "36835394",
+      "37204816",
+      "16876125",
+      "16647715",
+      "21482796",
+      "9488644",
+      "2557338",
+      "27114277",
+      "14604525",
+      "9716375",
+      "19733176",
+      "24003117",
+      "16313624",
+      "27582462",
+      "10669612",
+      "16981727",
+      "40649971",
+      "40610378",
+      "29363591",
+      "16930551",
+      "10873446",
+      "12171525",
+      "10504732",
+      "16885024",
+      "17397986",
+      "9748482",
+      "15139806",
+      "39519241",
+      "40062613",
+      "23514156",
+      "41142756",
+      "21358820",
+      "8599941",
+      "10656812",
+      "10841763",
+      "8850348",
+      "34232702",
+      "12758075",
+      "31301408",
+      "10856254",
+      "30933978",
+      "23209025",
+      "33401386",
+      "28414321",
+      "31720544",
+      "15140883",
+      "23508957",
+      "27689733",
+      "38816407",
+      "28534707",
+      "35679401",
+      "17346206",
+      "2176849",
+      "35969036",
+      "24497635",
+      "16188892",
+      "17032643",
+      "7994576",
+      "37446377",
+      "20008775",
+      "18824478",
+      "7510701",
+      "11395412",
+      "10636841",
+      "3037376",
+      "10734203",
+      "40166350",
+      "1656189",
+      "19726668"
+    ],
+    "review": [
+      "40235641",
+      "40680817",
+      "33080770",
+      "38534397",
+      "30299652",
+      "36835394",
+      "29363591",
+      "12171525",
+      "17397986",
+      "9748482",
+      "15139806",
+      "23514156",
+      "8850348",
+      "31301408",
+      "33401386",
+      "28534707",
+      "17346206",
+      "37446377",
+      "11395412"
+    ],
+    "pmc": [
+      "11999072"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00110-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40235641/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

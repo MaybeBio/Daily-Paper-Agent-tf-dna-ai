@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.27.661924",
+  "title": "Optimization of regulatory DNA with active learning",
+  "authors": "Shen Y; Kudla G; Oyarzún DA",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用主动学习优化酵母启动子调控DNA序列以提升蛋白表达，虽涉及DNA序列设计但非TF-DNA结合互作建模，方法可迁移至本课题。",
+  "abstract": "Many biotechnology applications rely on microbial strains engineered to express heterologous proteins at maximal yield. A common strategy for improving protein output is to design expression systems with optimized regulatory DNA elements. Recent advances in high-throughput experimentation have enabled the use of machine learning predictors in tandem with sequence optimizers to find regulatory sequences with improved phenotypes. Yet the narrow coverage of training data, limited model generalization, and highly nonconvex nature of genotype-phenotype landscapes can limit the use of traditional sequence optimization algorithms. Here, we explore the use of active learning as a strategy to improve expression levels through iterative rounds of measurements, model training, and sequence sampling-and-selection. We explore convergence and performance of the active learning loop using synthetic data and an experimentally characterized genotype-phenotype landscape of yeast promoter sequences. Our results show that active learning can outperform one-shot optimization approaches in complex landscapes with a high degree of epistasis. We demonstrate the ability of active learning to effectively optimize sequences using datasets from different experimental conditions, with potential for leveraging data across laboratories, strains or growth conditions. Our findings highlight active learning as an effective framework for DNA sequence design, offering a powerful strategy for phenotype optimization in biotechnology.",
+  "abstract_zh": "许多生物技术应用依赖于经过工程改造的微生物菌株，以最大产量表达异源蛋白质。提高蛋白质产出的常见策略是设计具有优化调控DNA元件的表达系统。高通量实验的最新进展使得机器学习预测器与序列优化器相结合，能够找到具有改进表型的调控序列。然而，训练数据的覆盖范围狭窄、模型泛化能力有限，以及基因型-表型景观的高度非凸性，可能限制传统序列优化算法的使用。在此，我们探索使用主动学习（active learning）作为策略，通过迭代的测量、模型训练和序列采样-选择轮次来提高表达水平。我们利用合成数据和一个实验表征的酵母启动子序列基因型-表型景观，探讨了主动学习循环的收敛性和性能。我们的结果表明，在具有高度上位效应的复杂景观中，主动学习可以优于一次性优化方法。我们展示了主动学习在不同实验条件的数据集上有效优化序列的能力，并具有跨实验室、菌株或生长条件利用数据的潜力。我们的发现强调了主动学习作为DNA序列设计的有效框架，为生物技术中的表型优化提供了强大策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661924",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661924",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.27.661924/index.html"
+}

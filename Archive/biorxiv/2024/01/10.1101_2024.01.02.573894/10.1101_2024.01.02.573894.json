@@ -1,0 +1,526 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.02.573894",
+  "title": "Viral proteins activate PARIS-mediated tRNA degradation and viral tRNAs rescue infection",
+  "doi": "10.1101/2024.01.02.573894",
+  "abstract": "Viruses compete with each other for limited cellular resources, and some viruses deliver defense mechanisms that protect the host from competing genetic parasites. PARIS is a defense system, often encoded in viral genomes, that is composed of a 53 kDa ABC ATPase (AriA) and a 35 kDa TOPRIM nuclease (AriB). Here we show that AriA and AriB assemble into a 425 kDa supramolecular immune complex. We use cryo-EM to determine the structure of this complex which explains how six molecules of AriA assemble into a propeller-shaped scaffold that coordinates three subunits of AriB. ATP-dependent detection of foreign proteins triggers the release of AriB, which assembles into a homodimeric nuclease that blocks infection by cleaving the host tRNA Lys . Phage T5 subverts PARIS immunity through expression of a tRNA Lys variant that prevents PARIS-mediated cleavage, and thereby restores viral infection. Collectively, these data explain how AriA functions as an ATP-dependent sensor that detects viral proteins and activates the AriB toxin. PARIS is one of an emerging set of immune systems that form macromolecular complexes for the recognition of foreign proteins, rather than foreign nucleic acids.",
+  "authors": [
+    "Burman N",
+    "Belukhina S",
+    "Depardieu F",
+    "Wilkinson RA",
+    "Skutel M",
+    "Santiago-Frangos A",
+    "Graham AB",
+    "Livenskyi A",
+    "Chechenina A",
+    "Morozova N",
+    "Zahl T",
+    "Henriques WS",
+    "Buyukyoruk M",
+    "Rouillon C",
+    "Shyrokova L",
+    "Kurata T",
+    "Hauryliuk V",
+    "Severinov K",
+    "Groseille J",
+    "Thierry A",
+    "Koszul R",
+    "Tesson F",
+    "Bernheim A",
+    "Bikard D",
+    "Wiedenheft B",
+    "Isaev A"
+  ],
+  "published_date": "2024-01-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.02.573894",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.02.573894.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR782901",
+    "raw_record": {
+      "id": "PPR782901",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR782901"
+        ]
+      },
+      "doi": "10.1101/2024.01.02.573894",
+      "title": "Viral proteins activate PARIS-mediated tRNA degradation and viral tRNAs rescue infection",
+      "authorString": "Burman N, Belukhina S, Depardieu F, Wilkinson RA, Skutel M, Santiago-Frangos A, Graham AB, Livenskyi A, Chechenina A, Morozova N, Zahl T, Henriques WS, Buyukyoruk M, Rouillon C, Shyrokova L, Kurata T, Hauryliuk V, Severinov K, Groseille J, Thierry A, Koszul R, Tesson F, Bernheim A, Bikard D, Wiedenheft B, Isaev A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Burman N",
+            "lastName": "Burman",
+            "firstName": "Nathaniel",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3732-3159"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Belukhina S",
+            "lastName": "Belukhina",
+            "firstName": "Svetlana",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Skolkovo Institute of Science and Technology, Center for Molecular and Cellular Biology, Moscow, Russia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Depardieu F",
+            "lastName": "Depardieu",
+            "firstName": "Florence",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, CNRS UMR 6047, Synthetic Biology, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilkinson RA",
+            "lastName": "Wilkinson",
+            "firstName": "Royce",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skutel M",
+            "lastName": "Skutel",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Skolkovo Institute of Science and Technology, Center for Molecular and Cellular Biology, Moscow, Russia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santiago-Frangos A",
+            "lastName": "Santiago-Frangos",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graham AB",
+            "lastName": "Graham",
+            "firstName": "Ava",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Livenskyi A",
+            "lastName": "Livenskyi",
+            "firstName": "Alexei",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, Moscow 119334, Russia"
+                },
+                {
+                  "affiliation": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Moscow, Russia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chechenina A",
+            "lastName": "Chechenina",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Skolkovo Institute of Science and Technology, Center for Molecular and Cellular Biology, Moscow, Russia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morozova N",
+            "lastName": "Morozova",
+            "firstName": "Natalia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Peter the Great St Petersburg State Polytechnic University, St. Petersburg, Russia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zahl T",
+            "lastName": "Zahl",
+            "firstName": "Trevor",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Henriques WS",
+            "lastName": "Henriques",
+            "firstName": "William",
+            "initials": "WS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buyukyoruk M",
+            "lastName": "Buyukyoruk",
+            "firstName": "Murat",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rouillon C",
+            "lastName": "Rouillon",
+            "firstName": "Christophe",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, CNRS UMR 6047, Synthetic Biology, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shyrokova L",
+            "lastName": "Shyrokova",
+            "firstName": "Lena",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Experimental Medical Science, Lund University, 221 00 Lund, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kurata T",
+            "lastName": "Kurata",
+            "firstName": "Tatsuaki",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Experimental Medical Science, Lund University, 221 00 Lund, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hauryliuk V",
+            "lastName": "Hauryliuk",
+            "firstName": "Vasili",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Experimental Medical Science, Lund University, 221 00 Lund, Sweden"
+                },
+                {
+                  "affiliation": "Virus Centre, Lund University, Lund, Sweden"
+                },
+                {
+                  "affiliation": "Science for Life Laboratory, Lund, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Severinov K",
+            "lastName": "Severinov",
+            "firstName": "Konstantin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Waksman Institute of Microbiology, Piscataway, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Groseille J",
+            "lastName": "Groseille",
+            "firstName": "Justine",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, CNRS UMR 3525, Université Paris Cité, Unité Régulation Spatiale des Génomes, 75015 Paris, France"
+                },
+                {
+                  "affiliation": "Center for Interdisciplinary Research in Biology (CIRB), Collège de France, CNRS, INSERM, Université PSL, Paris, France"
+                },
+                {
+                  "affiliation": "Sorbonne Université, College Doctoral"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thierry A",
+            "lastName": "Thierry",
+            "firstName": "Agnès",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, CNRS UMR 3525, Université Paris Cité, Unité Régulation Spatiale des Génomes, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koszul R",
+            "lastName": "Koszul",
+            "firstName": "Romain",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, CNRS UMR 3525, Université Paris Cité, Unité Régulation Spatiale des Génomes, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tesson F",
+            "lastName": "Tesson",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, Molecular Diversity of Microbes, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bernheim A",
+            "lastName": "Bernheim",
+            "firstName": "Aude",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, Molecular Diversity of Microbes, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bikard D",
+            "lastName": "Bikard",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, CNRS UMR 6047, Synthetic Biology, 75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wiedenheft B",
+            "lastName": "Wiedenheft",
+            "firstName": "Blake",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Montana State University, Bozeman, Department of Microbiology and Cell Biology, 59715 Montana, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Isaev A",
+            "lastName": "Isaev",
+            "firstName": "Artem",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Skolkovo Institute of Science and Technology, Center for Molecular and Cellular Biology, Moscow, Russia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3732-3159"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Viruses compete with each other for limited cellular resources, and some viruses deliver defense mechanisms that protect the host from competing genetic parasites. PARIS is a defense system, often encoded in viral genomes, that is composed of a 53 kDa ABC ATPase (AriA) and a 35 kDa TOPRIM nuclease (AriB). Here we show that AriA and AriB assemble into a 425 kDa supramolecular immune complex. We use cryo-EM to determine the structure of this complex which explains how six molecules of AriA assemble into a propeller-shaped scaffold that coordinates three subunits of AriB. ATP-dependent detection of foreign proteins triggers the release of AriB, which assembles into a homodimeric nuclease that blocks infection by cleaving the host tRNA  Lys . Phage T5 subverts PARIS immunity through expression of a tRNA  Lys variant that prevents PARIS-mediated cleavage, and thereby restores viral infection. Collectively, these data explain how AriA functions as an ATP-dependent sensor that detects viral proteins and activates the AriB toxin. PARIS is one of an emerging set of immune systems that form macromolecular complexes for the recognition of foreign proteins, rather than foreign nucleic acids.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "677823",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101044479",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/09/2024.01.02.573894.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.02.573894"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR782901"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR782901&type=FILE&fileName=EMS193207-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193207",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pfam",
+          "pdb",
+          "empiar",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-06",
+      "firstPublicationDate": "2024-01-02",
+      "firstIndexDate": "2024-01-06",
+      "fullTextReceivedDate": "2024-02-17",
+      "hasEvaluations": "Y"
+    }
+  }
+}

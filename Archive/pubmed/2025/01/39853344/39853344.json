@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "39853344",
+    "doi": "10.1007/s00234-025-03551-y",
+    "title": "Detecting B-cell lymphoma-6 overexpression status in primary central nervous system lymphoma using multiparametric MRI-based machine learning."
+  },
+  "content": {
+    "abstract": "PURPOSE: In primary central nervous system lymphoma (PCNSL), B-cell lymphoma-6 (BCL-6) is an unfavorable prognostic biomarker. We aim to non-invasively detect BCL-6 overexpression in PCNSL patients using multiparametric MRI and machine learning techniques. METHODS: 65 patients (101 lesions) with primary central nervous system lymphoma (PCNSL) diagnosed from January 2013 to July 2023, and all patients were randomly divided into a training set and a validation set according to a ratio of 8 to 2. ADC map derived from DWI (b = 0/1000 s/mm2), fast spin echo T2WI, T2FLAIR, were collected at 3.0 T. A total of 2234 radiomics features from the tumor segmentation area were extracted and LASSO were used to select features. Logistic regression (LR), Naive bayes (NB), Support vector machine (SVM), K-nearest Neighbor, (KNN) and Multilayer Perceptron (MLP), were used for machine learning, and sensitivity, specificity, accuracy F1-score, and area under the curve (AUC) was used to evaluate the detection performance of five classifiers, 6 groups with combinations of different sequences were fitted to 5 classifiers, and optimal classifier was obtained. RESULTS: BCL-6 status could be identified to varying degrees with 30 models based on radiomics, and model performance could be improved by combining different sequences and classifiers. Support vector machine (SVM) combined with three sequence group had the largest AUC (0.95) in training set and satisfactory AUC (0.87) in validation set. CONCLUSION: Multiparametric MRI based machine learning is promising in detecting BCL-6 overexpression.",
+    "keywords": [
+      "BCL-6",
+      "MRI",
+      "Machine learning",
+      "Overexpression",
+      "PCNSL"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Machine Learning",
+      "Female",
+      "Middle Aged",
+      "*Central Nervous System Neoplasms/diagnostic imaging/metabolism",
+      "*Proto-Oncogene Proteins c-bcl-6/metabolism",
+      "*Multiparametric Magnetic Resonance Imaging/methods",
+      "Aged",
+      "Adult",
+      "Sensitivity and Specificity",
+      "Biomarkers, Tumor/metabolism",
+      "*Lymphoma/diagnostic imaging/metabolism",
+      "Retrospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Mingxiao",
+        "Liu, Guoli",
+        "Zhang, Nan",
+        "Li, Yanhua",
+        "Sun, Shuo",
+        "Tan, Yahong",
+        "Ma, Lin"
+      ],
+      "short_names": [
+        "Wang M",
+        "Liu G",
+        "Zhang N",
+        "Li Y",
+        "Sun S",
+        "Tan Y",
+        "Ma L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2911-3653"
+      ],
+      "affiliations": [
+        "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Department of Radiology, 982 Hospital of Joint Logistic Support Force of Chinese PLA, No.24 Guofang Road, Lunan District, Tangshan, 063000, China.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Nankai University School of Medicine, 94 Xuefu Road, Nankai District, Tianjin, 300071, China.",
+        "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+        "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China. cjr.malin@vip.163.com.",
+        "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China. cjr.malin@vip.163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Mingxiao",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guoli",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Nan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, 982 Hospital of Joint Logistic Support Force of Chinese PLA, No.24 Guofang Road, Lunan District, Tangshan, 063000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanhua",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+          "Nankai University School of Medicine, 94 Xuefu Road, Nankai District, Tianjin, 300071, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shuo",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yahong",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China.",
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lin",
+        "short_name": "Ma L",
+        "identifiers": [
+          "0000-0002-2911-3653"
+        ],
+        "affiliations": [
+          "Medical School of Chinese PLA, No.28 Fuxing Road, Haidian District, Beijing, 100853, China. cjr.malin@vip.163.com.",
+          "Department of Radiology, First Medical Center, Chinese PLA General Hospital, No.28 Fuxing Road, Haidian District, Beijing, 100853, China. cjr.malin@vip.163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuroradiology"
+    ],
+    "journal_abbrev": [
+      "Neuroradiology"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/24 17:38",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39615185",
+      "37199225",
+      "36463703",
+      "36263203",
+      "34676470",
+      "34226990",
+      "33890149",
+      "33842320",
+      "33743696",
+      "33560416",
+      "33064169",
+      "32864825",
+      "32821962",
+      "32522530",
+      "32408414",
+      "32162483",
+      "31828414",
+      "30453459",
+      "30390383",
+      "30305848",
+      "30232517",
+      "30073640",
+      "29769456",
+      "29522972",
+      "26579733",
+      "25817328",
+      "25504856",
+      "24571259",
+      "23569323",
+      "17116938",
+      "16545965",
+      "15955902",
+      "15925998",
+      "12562237",
+      "11870430",
+      "11493437",
+      "10676951",
+      "10626250"
+    ],
+    "similar": [
+      "39853344",
+      "37199225",
+      "39962371",
+      "32222795",
+      "38508934",
+      "39615185",
+      "40330833",
+      "39575426",
+      "38580939",
+      "39773380",
+      "37848774",
+      "29626238",
+      "33646452",
+      "32864825",
+      "38976966",
+      "38887926",
+      "35652509",
+      "33890149",
+      "38549935",
+      "38297322",
+      "29183170",
+      "39879644",
+      "30453459",
+      "29769456",
+      "33042784",
+      "37371390",
+      "38820949",
+      "29438500",
+      "38729227",
+      "33979466",
+      "38740086",
+      "33067484",
+      "39147885",
+      "35439946",
+      "38970331",
+      "30232517",
+      "33447862",
+      "37845636",
+      "37652263",
+      "37353736",
+      "31828414",
+      "39413232",
+      "32770600",
+      "37481337",
+      "38006286",
+      "38153859",
+      "36212455",
+      "37665391",
+      "34604968",
+      "38458887",
+      "37873713",
+      "39352921",
+      "40299088",
+      "37926572",
+      "40223991",
+      "30092408",
+      "39604872",
+      "35583712",
+      "34567999",
+      "37995359",
+      "35435463",
+      "36994859",
+      "37949702",
+      "35024015",
+      "27436023",
+      "36440706",
+      "39026540",
+      "36547672",
+      "38783014",
+      "34323052",
+      "38052672",
+      "33718148",
+      "39379733",
+      "35945526",
+      "31425811",
+      "32278690",
+      "35366379",
+      "37948374",
+      "38363315",
+      "33657924",
+      "38272767",
+      "34270479",
+      "30197047",
+      "39927116",
+      "36681946",
+      "39253996",
+      "36355199",
+      "33829708",
+      "40165301",
+      "36426965",
+      "31747902",
+      "37643930",
+      "36670236",
+      "30637843",
+      "39733718",
+      "39638641",
+      "38308061",
+      "40048835",
+      "35040525",
+      "32524222"
+    ],
+    "review": [
+      "39853344",
+      "30453459"
+    ],
+    "pmc": [
+      "12003451"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lymphoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lymphoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39853344/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00234-025-03551-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

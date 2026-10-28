@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38094309",
+  "title": "A Bayesian noisy logic model for inference of transcription factor activity from single cell and bulk transcriptomic data.",
+  "authors": "Arriojas, Argenis; Patalano, Susan; Macoska, Jill; Zarringhalam, Kourosh",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2023-12-14",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用贝叶斯噪声逻辑模型从转录组数据推断转录因子活性，虽涉及TF调控但无DNA结合位点预测或三维互作建模，方法为统计推断而非AI/物理模拟，与课题核心关联较弱。",
+  "abstract": "The advent of high-throughput sequencing has made it possible to measure the expression of genes at relatively low cost. However, direct measurement of regulatory mechanisms, such as transcription factor (TF) activity is still not readily feasible in a high-throughput manner. Consequently, there is a need for computational approaches that can reliably estimate regulator activity from observable gene expression data. In this work, we present a noisy Boolean logic Bayesian model for TF activity inference from differential gene expression data and causal graphs. Our approach provides a flexible framework to incorporate biologically motivated TF-gene regulation logic models. Using simulations and controlled over-expression experiments in cell cultures, we demonstrate that our method can accurately identify TF activity. Moreover, we apply our method to bulk and single cell transcriptomics measurements to investigate transcriptional regulation of fibroblast phenotypic plasticity. Finally, to facilitate usage, we provide user-friendly software packages and a web-interface to query TF activity from user input differential gene expression data: https://umbibio.math.umb.edu/nlbayes/.",
+  "abstract_zh": "高通量测序的出现使得以相对较低的成本测量基因表达成为可能。然而，直接测量调控机制，如转录因子（TF）活性，在通量上仍不易实现。因此，需要计算方法能够从可观测的基因表达数据中可靠地估计调控因子活性。在本工作中，我们提出了一种基于噪声布尔逻辑贝叶斯模型，用于从差异基因表达数据和因果图中推断TF活性。我们的方法提供了一个灵活的框架，以整合生物学上合理的TF-基因调控逻辑模型。通过模拟实验和细胞培养中的受控过表达实验，我们证明了我们的方法能够准确识别TF活性。此外，我们将该方法应用于批量及单细胞转录组学测量，以研究成纤维细胞表型可塑性的转录调控。最后，为便于使用，我们提供了用户友好的软件包和网络界面，用于从用户输入的差异基因表达数据中查询TF活性：https://umbibio.math.umb.edu/nlbayes/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38094309/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38094309/",
+  "paper_page_path": "papers/pubmed/38094309/index.html"
+}

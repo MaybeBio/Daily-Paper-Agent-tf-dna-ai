@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied material
+- **Shared manuscript claim summary** The authors propose DeepSEED, a deep learning framework combining expert knowledge (defined 'seed' sequences) with generative and predictive models to optimize flanking sequences of synthetic promoters, achieving improved activity in E. coli constitutive, IPTG-inducible, and mammalian Dox-inducible systems
+- **Visible evidence base** Abstract, main text narrative, methods descriptions, references to figures and supplementary materials (not all visible in the provided text)
+- **Missing materials affecting confidence** Figures, supplementary tables (S1, S2), supplementary figures (S1–S16), and detailed experimental data are referenced but not provided; statistical details and exact numerical results are largely absent
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting framework that addresses a genuine gap in synthetic promoter design, namely the optimization of flanking sequences. The probabilistic formulation unifying expert knowledge and deep learning is elegant and potentially useful. However, the evidence as presented is insufficient to fully evaluate the claims. Key figures and supplementary data are not available in the supplied material, and the main text lacks quantitative detail on experimental outcomes, statistical significance, and reproducibility. The work is promising but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, promoter engineering, and computational biology would be interested. The framework offers a practical tool for designing promoters with tailored properties, which is relevant for metabolic engineering, gene therapy, and cell line development. The methodological approach may also appeal to those working on generative models for biological sequence design.
+- **Major strengths** The problem addressed is important and timely. The probabilistic framework is a clear conceptual contribution. The demonstration across prokaryotic and eukaryotic systems suggests generalizability. The inclusion of a public code repository is a positive step for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims significant performance improvements in all three promoter design tasks (E. coli constitutive, IPTG-inducible, Dox-inducible)
+  - **Evidence pointer** Figures 3c, 4c, 5c, 5d; Supplementary Figures S9, S13–S16; location not provided
+  - **Concern** The main text reports fold-improvements and percentages but does not provide the actual activity distributions, replicate numbers, error bars, or statistical tests. Without these, the significance and robustness of the claimed improvements cannot be assessed.
+  - **Why it matters** The central claim of the paper is that DeepSEED outperforms controls. This claim requires quantitative evidence with appropriate statistical support. The current presentation is insufficient for a rigorous evaluation.
+  - **Resolution test** Provide the full datasets for all experimental groups, including individual data points, means, standard deviations or confidence intervals, and results of appropriate statistical tests (e.g., t-tests or ANOVA) comparing DeepSEED, control, and baseline groups.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the Dox-inducible promoter designs were filtered to remove potential binding sites of other transcription factors
+  - **Evidence pointer** Main text, "Design of Dox-inducible promoters in mammalian cells" section; location not provided
+  - **Concern** The filtering criterion is mentioned but the method is not described. How were potential binding sites identified? What database or algorithm was used? What was the threshold for removal? Without this information, the validity of the filtering step and its impact on the results cannot be evaluated.
+  - **Why it matters** This filtering step is critical to ensure that the observed improvements are due to flanking sequence optimization rather than the introduction of unintended regulatory elements. The lack of detail undermines confidence in the specificity of the design.
+  - **Resolution test** Describe the filtering procedure in detail, including the database, algorithm, parameters, and the number of sequences removed at this step. Provide examples of filtered sequences and the rationale for their exclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DeepSEED captures k-mer frequencies and DNA shape features from active promoters
+  - **Evidence pointer** Figure 2c–e, Supplementary Figures S3, S4; location not provided
+  - **Concern** The correlation between k-mer frequencies of designed and natural sequences is reported, but the metric is not defined. Is this Pearson correlation on k-mer count vectors? What is the variance across different design runs? Similarly, the DNA shape analysis uses t-SNE visualizations, which are qualitative. The claim that designed sequences "maintain similar features" requires a quantitative comparison.
+  - **Why it matters** These analyses are used to argue that DeepSEED learns meaningful sequence features. Without quantitative metrics and appropriate statistical comparisons, the strength of this claim is unclear.
+  - **Resolution test** Define the correlation metric precisely, report the correlation coefficients with confidence intervals, and compare against appropriate null models (e.g., random sequences with matched GC content). For DNA shape, provide quantitative distance measures between designed and natural sequence distributions in the feature space.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that DeepSEED generates diverse sequences
+  - **Evidence pointer** Supplementary Figure S4a; location not provided
+  - **Concern** The edit distance distribution is used to argue for sequence diversity. However, the comparison is made against random sequences, which is a weak baseline. A more relevant comparison would be against the training set or against sequences generated by alternative methods. Additionally, the number of sequences analyzed (n=60) is small.
+  - **Why it matters** Diversity is a desirable property for synthetic promoter libraries. The current analysis does not convincingly demonstrate that DeepSEED generates sequences that are both diverse and functionally relevant.
+  - **Resolution test** Compare the edit distance distribution of DeepSEED-generated sequences against the training set distribution and against sequences generated by a simpler baseline (e.g., random mutagenesis of natural promoters). Increase the sample size and report the full distribution statistics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1d
+  - **Evidence pointer** Main text, "Overview" section; location not provided
+  - **Issue** The text refers to Figure 1d for the three design tasks, but the figure is not provided. It is unclear what information is displayed.
+  - **Required correction** Ensure the figure clearly shows the three tasks and the workflow. Add a legend explaining all panels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary Table S1
+  - **Evidence pointer** Methods, "Assay of E. coli promoter strength" section; location not provided
+  - **Issue** The table is said to contain all promoter sequences and activity data, but it is not provided. The reader cannot verify the sequences or the raw data.
+  - **Required correction** Provide the table as a supplementary file. Ensure it includes all sequences, activity measurements, and replicate information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "DeepSEED generative and predictive networks"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of the network architecture is brief. The number of layers, hidden dimensions, and training details are not fully specified.
+  - **Required correction** Provide a complete description of the architecture, including layer sizes, activation functions, and training hyperparameters. Consider adding a supplementary figure showing the network structure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract and Code availability section
+  - **Issue** The code repository is mentioned, but it is not clear if it contains all scripts needed to reproduce the results, including data processing, model training, and analysis.
+  - **Required correction** Ensure the repository includes a README with instructions, all code, and a description of the data format. Consider adding a license.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative experimental evidence), R1-M2 (undescribed filtering method), R1-M3 (weak quantitative support for feature capture claims)
+- **Assessment against Nature-style criteria** Originality: The probabilistic framework combining expert knowledge with generative models for flanking sequence optimization is a novel contribution. Scientific importance: The problem of flanking sequence design is relevant and under-addressed; the framework could have broad applicability. Interdisciplinary readership: The work bridges machine learning and synthetic biology, which may appeal to a broad audience. Technical soundness: The deep learning approach is reasonable, but the evidence provided is insufficient to fully assess its validity. Readability for nonspecialists: The main text is generally clear, but the methods section is dense and would benefit from more explanation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the topic is important, but the current evidence is insufficient to fully establish the claims. The authors must provide complete experimental data, statistical analyses, and methodological details.
+
+## Risk / unsupported claims
+- The claim of "significant performance improvements" in all three design tasks is unsupported without statistical analysis and full data.
+- The claim that DeepSEED "captures k-mer frequencies and DNA shape features" is weakly supported by qualitative or undefined metrics.
+- The claim that designed sequences are "diverse" is based on a weak baseline and small sample size.
+- The claim that improvements are due to flanking sequence optimization rather than other factors (e.g., unintended promoter elements) is not fully supported due to the undescribed filtering method.
+- The generalizability of the framework to other promoter types and organisms is asserted but not demonstrated beyond the three tested cases.

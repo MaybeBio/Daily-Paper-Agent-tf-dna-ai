@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "41694598",
+    "doi": "10.7150/ijbs.126714",
+    "title": "Irf7 Deficiency Confers Protection Against Influenza Infection, Independent of irf3."
+  },
+  "content": {
+    "abstract": "Interferon regulatory factors irf3 and irf7 are pivotal for antiviral immunity, yet their cell-type-specific contributions, particularly within macrophage and dendritic cell (DC) lineages, have not been fully elucidated. Here, employing a multi-omics strategy encompassing in vitro assays, in vivo influenza A virus (IAV) infection models, NanoString, transcriptomic analyses, and scGPT-based computational modeling, we dissect the divergent and context-dependent roles of irf3 and irf7. We demonstrate macrophages exhibit heightened sensitivity to TLR3 stimulation, a response critically dependent on irf3. Conversely, DCs respond more robustly to TLR7 activation and very weakly to TLR3 activation. Unexpectedly, global Irf7 (-/-) mice displayed enhanced survival against IAV-induced lethality, whereas global Irf3 (-/-) mice exhibited similar mortality to WT mice but demonstrated accelerated physiological recovery during the resolution phase, indicative of reduced disease severity rather than improved survival. Deep transcriptomic profiling of lung alveolar macrophages (AM), DC1, and DC2 subsets revealed distinct irf3 and irf7 dependent gene programs, with irf7 prominently driving responses in AM and DC2 populations post-IAV infection. Furthermore, scGPT simulations predicted irf3-associated regulation of pathways like IL-17 signaling distinct from irf7-biased control over Th17 differentiation and JAK-STAT signaling, suggesting a model where irf3 mainly drives rapid pathogen sensing and defence, whereas irf7 regulates sustained inflammation and adaptive immune coordination. Cross-species analyses confirmed conserved and divergent irf3/irf7 activities in human myeloid cells. Our findings provide a detailed framework of irf3/irf7 cell-specific functions, illuminating their nuanced interplay in orchestrating antiviral defence and offering potential targets for immunomodulation. This knowledge may inform the development of targeted antiviral therapeutic strategies and contribute to a more nuanced understanding of innate immune regulation.",
+    "keywords": [
+      "irf7",
+      "DCs",
+      "influenza",
+      "irf3",
+      "macrophages",
+      "single cell sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Interferon Regulatory Factor-7/genetics/metabolism/deficiency",
+      "*Interferon Regulatory Factor-3/metabolism/genetics",
+      "Mice",
+      "*Orthomyxoviridae Infections/metabolism/genetics/immunology",
+      "Dendritic Cells/metabolism",
+      "Mice, Knockout",
+      "Humans",
+      "Mice, Inbred C57BL",
+      "Influenza A virus",
+      "Macrophages, Alveolar/metabolism",
+      "Macrophages/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Jianzhou",
+        "Foo, Sherman S W",
+        "Kong, Wan Ting",
+        "Lin, Chenshi",
+        "Ampomah, Patrick B",
+        "Zharkova, Olga",
+        "Chai, Loo Soon",
+        "Sachaphibulkij, Karishma",
+        "Arora, Suruchi",
+        "Kaliaperumal, Nivashini",
+        "Lim, Hong Meng",
+        "Connolly, John",
+        "Fairhurst, Anna-Marie",
+        "Chen, Jinmiao",
+        "Lim, Lina H K"
+      ],
+      "short_names": [
+        "Cui J",
+        "Foo SSW",
+        "Kong WT",
+        "Lin C",
+        "Ampomah PB",
+        "Zharkova O",
+        "Chai LS",
+        "Sachaphibulkij K",
+        "Arora S",
+        "Kaliaperumal N",
+        "Lim HM",
+        "Connolly J",
+        "Fairhurst AM",
+        "Chen J",
+        "Lim LHK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+        "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Singapore Immunology Network (SIgN), Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Bioinformatics Institute (BII), Agency for Science, Technology and Research, Singapore, Singapore.",
+        "Center for Computational Biology and Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore, Singapore.",
+        "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Jianzhou",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+          "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Foo, Sherman S W",
+        "short_name": "Foo SSW",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kong, Wan Ting",
+        "short_name": "Kong WT",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lin, Chenshi",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+          "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ampomah, Patrick B",
+        "short_name": "Ampomah PB",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Zharkova, Olga",
+        "short_name": "Zharkova O",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Chai, Loo Soon",
+        "short_name": "Chai LS",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Sachaphibulkij, Karishma",
+        "short_name": "Sachaphibulkij K",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore.",
+          "NUS-Cambridge Immunophenotyping centre, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Arora, Suruchi",
+        "short_name": "Arora S",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kaliaperumal, Nivashini",
+        "short_name": "Kaliaperumal N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lim, Hong Meng",
+        "short_name": "Lim HM",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Connolly, John",
+        "short_name": "Connolly J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Fairhurst, Anna-Marie",
+        "short_name": "Fairhurst AM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Cellular Biology (IMCB), Agency for Science, Technology and Research, Singapore, Singapore.",
+          "Singapore Immunology Network (SIgN), Agency for Science, Technology and Research, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinmiao",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Bioinformatics Institute (BII), Agency for Science, Technology and Research, Singapore, Singapore.",
+          "Center for Computational Biology and Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lim, Lina H K",
+        "short_name": "Lim LHK",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Translational Research Program, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+          "Immunology Program, Life Sciences Institute, National University of Singapore, Singapore, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/16 12:32",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [
+      "41902284"
+    ],
+    "refs": [
+      "40900144",
+      "40637491",
+      "40248710",
+      "39384770",
+      "39215356",
+      "39121222",
+      "38698083",
+      "38599164",
+      "38564993",
+      "38089584",
+      "37852965",
+      "37779697",
+      "37638030",
+      "35670811",
+      "34168080",
+      "33944782",
+      "33147460",
+      "32765522",
+      "32380006",
+      "32373120",
+      "32199210",
+      "32164908",
+      "32075938",
+      "31799391",
+      "31366714",
+      "31072630",
+      "30984161",
+      "30457675",
+      "30451651",
+      "29886109",
+      "28857295",
+      "27641636",
+      "25855743",
+      "25646421",
+      "25614319",
+      "25549946",
+      "25536365",
+      "25533809",
+      "25309543",
+      "24879293",
+      "24368188",
+      "24335302",
+      "23300459",
+      "23035219",
+      "21550664",
+      "21240265",
+      "19617565",
+      "19164128",
+      "18562536",
+      "18252870",
+      "17667935",
+      "17273999",
+      "17273997",
+      "17251283",
+      "16754320",
+      "16410796",
+      "15800576",
+      "15699120",
+      "14607893",
+      "14581002",
+      "12395929",
+      "12368257",
+      "11244049",
+      "11070172",
+      "10524230",
+      "9348311",
+      "9348310",
+      "9208841",
+      "9208840",
+      "8999800"
+    ],
+    "similar": [
+      "41694598",
+      "30626665",
+      "27811478",
+      "24096085",
+      "19283778",
+      "32075938",
+      "38527452",
+      "32235406",
+      "30787149",
+      "23633948",
+      "20673978",
+      "24278020",
+      "33761305",
+      "41870004",
+      "30667045",
+      "26709698",
+      "30932349",
+      "26600246",
+      "30451651",
+      "26468541",
+      "38671352",
+      "28857295",
+      "39601535",
+      "41813805",
+      "29427864",
+      "24872587",
+      "42126233",
+      "29559569",
+      "23803413",
+      "27466421",
+      "34925374",
+      "41919938",
+      "27795434",
+      "29914621",
+      "32252379",
+      "22072963",
+      "22396652",
+      "39150394",
+      "41459946",
+      "40417973",
+      "22896628",
+      "18635538",
+      "27122612",
+      "35879450",
+      "26378160",
+      "30926164",
+      "21274885",
+      "31578290",
+      "32596986",
+      "33952647",
+      "29867955",
+      "40391431",
+      "40407345",
+      "40688072",
+      "41005403",
+      "29244871",
+      "39289468",
+      "28279563",
+      "31235953",
+      "41036852",
+      "41240378",
+      "19479062",
+      "40506708",
+      "39121222",
+      "20720199",
+      "28651122",
+      "21835795",
+      "24140628",
+      "41122875",
+      "22105999",
+      "18068231",
+      "28768861",
+      "42152611",
+      "40684492",
+      "38834141",
+      "33408175",
+      "16472772",
+      "41222267",
+      "20483755",
+      "30290124",
+      "21931555",
+      "41208976",
+      "28615208",
+      "33452755",
+      "38678295",
+      "27641636",
+      "33497733",
+      "33594613",
+      "35196784",
+      "24726644",
+      "29848754",
+      "16014923",
+      "38311277",
+      "19515829",
+      "30094631",
+      "32053234",
+      "35293768",
+      "19139171",
+      "31782850",
+      "30457675"
+    ],
+    "review": [
+      "41694598"
+    ],
+    "pmc": [
+      "12905640"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/41694598",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41694598/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v22p1974.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=41694598",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.28.653051",
+  "title": "LlamaAffinity: A Predictive Antibody–Antigen Binding Model Integrating Antibody Sequences with Llama3 Backbone Architecture",
+  "authors": "Delower Hossain; Ehsan Saghapour; Kevin Song; Jake Y. Chen",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Llama3大模型预测抗体-抗原结合亲和力，虽属蛋白质-蛋白质互作且用AI方法，但非蛋白质-DNA体系，与TF-DNA课题关联较弱。",
+  "abstract": "Antibody-facilitated immune responses are central to the body’s defense against pathogens, viruses, and other foreign invaders. The ability of antibodies to specifically bind and neutralize antigens is vital for maintaining immunity. Over the past few decades, bioengineering advancements have significantly accelerated therapeutic antibody development. These antibody-derived drugs have shown remarkable efficacy, particularly in treating Cancer, SARS-Cov-2, autoimmune disorders, and infectious diseases. Traditionally, experimental methods for affinity measurement have been time-consuming and expensive. With the realm of Artificial Intelligence, in silico medicine has revolutionized; recent developments in machine learning, particularly the use of large language models (LLMs) for representing antibodies, have opened up new avenues for AI-based designing and improving affinity prediction. Herein, we present an advanced antibody-antigen binding affinity prediction model (LlamaAffinity), leveraging an open-source Llama 3 backbone and antibody sequence data employed from the Observed Antibody Space (OAS) database. The proposed approach significantly improved over existing state-of-the-art (SOTA) approaches (AntiFormer, AntiBERTa, AntiBERTy) across multiple evaluation metrics. Specifically, the model achieved an accuracy of 0.9640, an F1-score of 0.9643, a precision of 0.9702, a recall of 0.9586, and an AUC-ROC of 0.9936. Moreover, this strategy unveiled higher computational efficiency, with a five-fold average cumulative training time of only 0.46 hours, significantly lower than previous studies. LlamaAffinity defines a new benchmark for antibody-antigen binding affinity prediction, achieving advanced performance in the immunotherapies and immunoinformatics field. Furthermore, it can effectively assess binding affinities following novel antibody design, accelerating the discovery and optimization of therapeutic candidates.",
+  "abstract_zh": "抗体介导的免疫反应是机体抵御病原体、病毒及其他外来入侵者的核心机制。抗体特异性结合并中和抗原的能力对于维持免疫力至关重要。过去几十年间，生物工程技术的进步显著加速了治疗性抗体的开发。这些源自抗体的药物在治疗癌症、SARS-Cov-2、自身免疫性疾病及感染性疾病方面展现出显著疗效。传统上，用于亲和力测量的实验方法耗时且成本高昂。随着人工智能领域的兴起，计算机模拟医学发生了革命性变革；近期机器学习的发展，特别是利用大型语言模型（LLMs）表示抗体的方法，为基于AI的设计和改进亲和力预测开辟了新途径。在此，我们提出了一种先进的抗体-抗原结合亲和力预测模型（LlamaAffinity），该模型利用开源的Llama 3骨干网络，并采用来自观察抗体空间（OAS）数据库的抗体序列数据。所提出的方法在多个评估指标上显著优于现有最先进（SOTA）方法（AntiFormer、AntiBERTa、AntiBERTy）。具体而言，该模型实现了0.9640的准确率、0.9643的F1分数、0.9702的精确率、0.9586的召回率以及0.9936的AUC-ROC。此外，该策略展现出更高的计算效率，五倍平均累计训练时间仅为0.46小时，显著低于先前研究。LlamaAffinity为抗体-抗原结合亲和力预测树立了新基准，在免疫治疗和免疫信息学领域实现了先进性能。进一步地，它能够有效评估新型抗体设计后的结合亲和力，加速治疗候选药物的发现与优化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.28.653051",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.28.653051",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.28.653051/index.html"
+}

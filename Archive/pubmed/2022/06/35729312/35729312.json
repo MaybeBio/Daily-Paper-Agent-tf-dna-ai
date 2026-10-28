@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "35729312",
+    "doi": "10.1038/s41598-022-13508-3",
+    "title": "Understanding and predicting the functional consequences of missense mutations in BRCA1 and BRCA2."
+  },
+  "content": {
+    "abstract": "BRCA1 and BRCA2 are tumour suppressor genes that play a critical role in maintaining genomic stability via the DNA repair mechanism. DNA repair defects caused by BRCA1 and BRCA2 missense variants increase the risk of developing breast and ovarian cancers. Accurate identification of these variants becomes clinically relevant, as means to guide personalized patient management and early detection. Next-generation sequencing efforts have significantly increased data availability but also the discovery of variants of uncertain significance that need interpretation. Experimental approaches used to measure the molecular consequences of these variants, however, are usually costly and time-consuming. Therefore, computational tools have emerged as faster alternatives for assisting in the interpretation of the clinical significance of newly discovered variants. To better understand and predict variant pathogenicity in BRCA1 and BRCA2, various machine learning algorithms have been proposed, however presented limited performance. Here we present BRCA1 and BRCA2 gene-specific models and a generic model for quantifying the functional impacts of single-point missense variants in these genes. Across tenfold cross-validation, our final models achieved a Matthew's Correlation Coefficient (MCC) of up to 0.98 and comparable performance of up to 0.89 across independent, non-redundant blind tests, outperforming alternative approaches. We believe our predictive tool will be a valuable resource for providing insights into understanding and interpreting the functional consequences of missense variants in these genes and as a tool for guiding the interpretation of newly discovered variants and prioritizing mutations for experimental validation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*BRCA1 Protein/genetics",
+      "*BRCA2 Protein/genetics",
+      "*Breast Neoplasms/genetics",
+      "Female",
+      "Genes, BRCA2",
+      "Genetic Predisposition to Disease",
+      "High-Throughput Nucleotide Sequencing",
+      "Humans",
+      "*Mutation, Missense",
+      "*Ovarian Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aljarf, Raghad",
+        "Shen, Mengyuan",
+        "Pires, Douglas E V",
+        "Ascher, David B"
+      ],
+      "short_names": [
+        "Aljarf R",
+        "Shen M",
+        "Pires DEV",
+        "Ascher DB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia.",
+        "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia.",
+        "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia.",
+        "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia.",
+        "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia.",
+        "School of Computing and Information Systems, University of Melbourne, Melbourne, VIC, 3053, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia. douglas.pires@unimelb.edu.au.",
+        "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia. douglas.pires@unimelb.edu.au.",
+        "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia. douglas.pires@unimelb.edu.au.",
+        "School of Computing and Information Systems, University of Melbourne, Melbourne, VIC, 3053, Australia. douglas.pires@unimelb.edu.au.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia. david.ascher@unimelb.edu.au.",
+        "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia. david.ascher@unimelb.edu.au.",
+        "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia. david.ascher@unimelb.edu.au.",
+        "Department of Biochemistry, University of Cambridge, 80 Tennis Ct Rd, Cambridge, CB2 1GA, UK. david.ascher@unimelb.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aljarf, Raghad",
+        "short_name": "Aljarf R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia.",
+          "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia.",
+          "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Shen, Mengyuan",
+        "short_name": "Shen M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia.",
+          "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia.",
+          "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia.",
+          "School of Computing and Information Systems, University of Melbourne, Melbourne, VIC, 3053, Australia."
+        ]
+      },
+      {
+        "full_name": "Pires, Douglas E V",
+        "short_name": "Pires DEV",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia. douglas.pires@unimelb.edu.au.",
+          "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia. douglas.pires@unimelb.edu.au.",
+          "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia. douglas.pires@unimelb.edu.au.",
+          "School of Computing and Information Systems, University of Melbourne, Melbourne, VIC, 3053, Australia. douglas.pires@unimelb.edu.au."
+        ]
+      },
+      {
+        "full_name": "Ascher, David B",
+        "short_name": "Ascher DB",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC, 3004, Australia. david.ascher@unimelb.edu.au.",
+          "Department of Biochemistry and Pharmacology, University of Melbourne, Melbourne, VIC, 3010, Australia. david.ascher@unimelb.edu.au.",
+          "Systems and Computational Biology, Bio21 Institute, University of Melbourne, 30 Flemington Rd, Parkville, VIC, 3052, Australia. david.ascher@unimelb.edu.au.",
+          "Department of Biochemistry, University of Cambridge, 80 Tennis Ct Rd, Cambridge, CB2 1GA, UK. david.ascher@unimelb.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Jun 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/22 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "41781977",
+      "40869965",
+      "40847372",
+      "39809522",
+      "39684267",
+      "39038933",
+      "38149678",
+      "38018912",
+      "37883464",
+      "37380723",
+      "37373306"
+    ],
+    "refs": [
+      "34597585",
+      "34356684",
+      "34045478",
+      "33945048",
+      "33435356",
+      "32916545",
+      "32469063",
+      "32377563",
+      "32042831",
+      "31853058",
+      "31331294",
+      "31170280",
+      "31131967",
+      "31112341",
+      "30906113",
+      "30380096",
+      "30371827",
+      "30219179",
+      "30215764",
+      "30209399",
+      "29884841",
+      "29580235",
+      "28398198",
+      "28132688",
+      "27666373",
+      "27193693",
+      "27166375",
+      "27037296",
+      "26582918",
+      "26555599",
+      "26236408",
+      "26153499",
+      "26110438",
+      "25851949",
+      "25741868",
+      "24681721",
+      "24281696",
+      "23315928",
+      "23231788",
+      "22689647",
+      "22678057",
+      "22525577",
+      "21990134",
+      "21356840",
+      "18951446",
+      "18575892",
+      "17998252",
+      "17924331",
+      "16522644",
+      "16014699"
+    ],
+    "similar": [
+      "35729312",
+      "22684231",
+      "31112341",
+      "28866612",
+      "29884841",
+      "29580235",
+      "28439188",
+      "37335020",
+      "42464142",
+      "25556971",
+      "32180084",
+      "31409081",
+      "29297111",
+      "31907386",
+      "12938098",
+      "34045478",
+      "29236234",
+      "27616075",
+      "27793035",
+      "21356067",
+      "28477318",
+      "39733403",
+      "41660915",
+      "31336956",
+      "24323938",
+      "12215251",
+      "31090900",
+      "14722926",
+      "32772980",
+      "35409408",
+      "31294896",
+      "31477031",
+      "12872252",
+      "28807866",
+      "28263838",
+      "31131559",
+      "27553368",
+      "31911673",
+      "41797047",
+      "27495310",
+      "29020660",
+      "25948282",
+      "35020120",
+      "31851867",
+      "33476590",
+      "34870614",
+      "18497862",
+      "25643705",
+      "40251429",
+      "31331294",
+      "35918668",
+      "24728577",
+      "24894818",
+      "42346254",
+      "36404616",
+      "21318380",
+      "23704879",
+      "33278427",
+      "34906479",
+      "40257527",
+      "26852015",
+      "21965345",
+      "34207612",
+      "18627636",
+      "33428613",
+      "30078507",
+      "18489799",
+      "33067490",
+      "19200354",
+      "36358902",
+      "31131967",
+      "16847550",
+      "34146199",
+      "32284662",
+      "22507745",
+      "38219492",
+      "33630024",
+      "27225819",
+      "42353852",
+      "38860553",
+      "42475469",
+      "16760289",
+      "41318565",
+      "29215753",
+      "21769658",
+      "34717758",
+      "35671604",
+      "23867111",
+      "24728189",
+      "22426013",
+      "19543972",
+      "31825140",
+      "35908255",
+      "32483276",
+      "31464824",
+      "35216584",
+      "30415210",
+      "37263769",
+      "27914478",
+      "20807450"
+    ],
+    "review": [
+      "35729312",
+      "28866612",
+      "31409081",
+      "24323938",
+      "35671604",
+      "31825140"
+    ],
+    "pmc": [
+      "9213547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-022-13508-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35729312/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35729312",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

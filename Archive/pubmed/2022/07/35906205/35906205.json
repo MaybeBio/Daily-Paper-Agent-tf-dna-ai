@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "35906205",
+    "doi": "10.1038/s41467-022-31922-z",
+    "title": "FLASHIda enables intelligent data acquisition for top-down proteomics to boost proteoform identification counts."
+  },
+  "content": {
+    "abstract": "The detailed analysis and structural characterization of proteoforms by top-down proteomics (TDP) has gained a lot of interest in biomedical research. Data-dependent acquisition (DDA) of intact proteins is non-trivial due to the diversity and complexity of proteoforms. Dedicated acquisition methods thus have the potential to greatly improve TDP. Here, we present FLASHIda, an intelligent online data acquisition algorithm for TDP that ensures the real-time selection of high-quality precursors of diverse proteoforms. FLASHIda combines fast charge deconvolution algorithms and machine learning-based quality assessment for optimal precursor selection. In an analysis of E. coli lysate, FLASHIda increases the number of unique proteoform level identifications from 800 to 1500 or generates a near-identical number of identifications in one third of the instrument time when compared to standard DDA mode. Furthermore, FLASHIda enables sensitive mapping of post-translational modifications and detection of chemical adducts. As a software extension module to the instrument, FLASHIda can be readily adopted for TDP studies of complex samples to enhance proteoform identification rates.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA-Binding Proteins/metabolism",
+      "Escherichia coli/metabolism",
+      "Heart",
+      "Peptides",
+      "Protein Processing, Post-Translational",
+      "*Proteome/metabolism",
+      "*Proteomics/methods",
+      "Sarcoplasmic Reticulum Calcium-Transporting ATPases/*antagonists & inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Kyowon",
+        "Babovic, Masa",
+        "Gorshkov, Vladimir",
+        "Kim, Jihyung",
+        "Jensen, Ole N",
+        "Kohlbacher, Oliver"
+      ],
+      "short_names": [
+        "Jeong K",
+        "Babovic M",
+        "Gorshkov V",
+        "Kim J",
+        "Jensen ON",
+        "Kohlbacher O"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3776-3098",
+        "ORCID: 0000-0001-6762-3526",
+        "ORCID: 0000-0003-0170-5785",
+        "ORCID: 0000-0003-1862-8528",
+        "ORCID: 0000-0003-1739-4598"
+      ],
+      "affiliations": [
+        "Applied Bioinformatics, Computer Science Department, University of Tubingen, Sand 14, 72076, Tubingen, Germany. kyowon.jeong@uni-tuebingen.de.",
+        "Institute for Bioinformatics and Medical Informatics, University of Tubingen, Sand 14, 72076, Tubingen, Germany. kyowon.jeong@uni-tuebingen.de.",
+        "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark.",
+        "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark.",
+        "Applied Bioinformatics, Computer Science Department, University of Tubingen, Sand 14, 72076, Tubingen, Germany.",
+        "Institute for Bioinformatics and Medical Informatics, University of Tubingen, Sand 14, 72076, Tubingen, Germany.",
+        "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark.",
+        "Applied Bioinformatics, Computer Science Department, University of Tubingen, Sand 14, 72076, Tubingen, Germany. oliver.kohlbacher@uni-tuebingen.de.",
+        "Institute for Bioinformatics and Medical Informatics, University of Tubingen, Sand 14, 72076, Tubingen, Germany. oliver.kohlbacher@uni-tuebingen.de.",
+        "Translational Bioinformatics, University Hospital Tubingen, Hoppe-Seyler-Str. 9, 72076, Tubingen, Germany. oliver.kohlbacher@uni-tuebingen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Kyowon",
+        "short_name": "Jeong K",
+        "identifiers": [
+          "0000-0003-3776-3098"
+        ],
+        "affiliations": [
+          "Applied Bioinformatics, Computer Science Department, University of Tübingen, Sand 14, 72076, Tübingen, Germany. kyowon.jeong@uni-tuebingen.de.",
+          "Institute for Bioinformatics and Medical Informatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany. kyowon.jeong@uni-tuebingen.de."
+        ]
+      },
+      {
+        "full_name": "Babović, Maša",
+        "short_name": "Babović M",
+        "identifiers": [
+          "0000-0001-6762-3526"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Gorshkov, Vladimir",
+        "short_name": "Gorshkov V",
+        "identifiers": [
+          "0000-0003-0170-5785"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kim, Jihyung",
+        "short_name": "Kim J",
+        "identifiers": [],
+        "affiliations": [
+          "Applied Bioinformatics, Computer Science Department, University of Tübingen, Sand 14, 72076, Tübingen, Germany.",
+          "Institute for Bioinformatics and Medical Informatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Jensen, Ole N",
+        "short_name": "Jensen ON",
+        "identifiers": [
+          "0000-0003-1862-8528"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology and VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, Campusvej 55, DK-5230 Odense M, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kohlbacher, Oliver",
+        "short_name": "Kohlbacher O",
+        "identifiers": [
+          "0000-0003-1739-4598"
+        ],
+        "affiliations": [
+          "Applied Bioinformatics, Computer Science Department, University of Tübingen, Sand 14, 72076, Tübingen, Germany. oliver.kohlbacher@uni-tuebingen.de.",
+          "Institute for Bioinformatics and Medical Informatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany. oliver.kohlbacher@uni-tuebingen.de.",
+          "Translational Bioinformatics, University Hospital Tübingen, Hoppe-Seyler-Str. 9, 72076, Tübingen, Germany. oliver.kohlbacher@uni-tuebingen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jul 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/30 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42074247",
+      "42018648",
+      "40977076",
+      "40586374",
+      "40289405",
+      "39885717",
+      "39424290",
+      "38973469",
+      "38193749",
+      "37791746"
+    ],
+    "refs": [
+      "35172570",
+      "34338531",
+      "34047392",
+      "33983025",
+      "33856812",
+      "33844503",
+      "33784814",
+      "33754701",
+      "33724776",
+      "33451795",
+      "33290552",
+      "33232185",
+      "32968017",
+      "32929970",
+      "32786689",
+      "32078799",
+      "32069030",
+      "31050378",
+      "30988469",
+      "30972727",
+      "30755466",
+      "30647073",
+      "30518910",
+      "30252444",
+      "29620868",
+      "29590032",
+      "29481055",
+      "28152595",
+      "27936753",
+      "27575624",
+      "27423895",
+      "27306313",
+      "26795204",
+      "26641532",
+      "25828799",
+      "25382489",
+      "24611583",
+      "24400813",
+      "24214167",
+      "23820513",
+      "23443629",
+      "23323765",
+      "21665978",
+      "20716697",
+      "18606607",
+      "18304323",
+      "16614208",
+      "16253516",
+      "15174123",
+      "10802651",
+      "8597590"
+    ],
+    "similar": [
+      "35906205",
+      "32584579",
+      "40062899",
+      "39641251",
+      "39661499",
+      "41208386",
+      "29227670",
+      "31479276",
+      "35657588",
+      "27291504",
+      "30638379",
+      "31393705",
+      "31073891",
+      "36603806",
+      "38645171",
+      "37937372",
+      "28152595",
+      "37791746",
+      "39620430",
+      "41001529",
+      "36070201",
+      "38487981",
+      "30180576",
+      "28453668",
+      "36542699",
+      "29165996",
+      "33263984",
+      "40877745",
+      "41069150",
+      "41116609",
+      "29327814",
+      "33754701",
+      "29924586",
+      "34181432",
+      "27423895",
+      "33074679",
+      "39266194",
+      "27989944",
+      "31714757",
+      "37196155",
+      "31375721",
+      "40879096",
+      "37235544",
+      "35972260",
+      "37997224",
+      "31755044",
+      "29620868",
+      "28968100",
+      "38973469",
+      "40119838",
+      "32223200",
+      "39611730",
+      "37272536",
+      "31050378",
+      "39885717",
+      "31932818",
+      "41486846",
+      "38417052",
+      "23988518",
+      "33999207",
+      "27490796",
+      "30518910",
+      "39018239",
+      "39424290",
+      "41412792",
+      "40947636",
+      "37724027",
+      "34338531",
+      "35657590",
+      "39004851",
+      "35413190",
+      "26941048",
+      "39936522",
+      "36788287",
+      "26598644",
+      "41277423",
+      "33232185",
+      "30972727",
+      "33165572",
+      "33983025",
+      "30367573",
+      "37254456",
+      "33946530",
+      "39343872",
+      "26795204",
+      "31888965",
+      "39438734",
+      "40739704",
+      "32078799",
+      "29481055",
+      "37963825",
+      "31642259",
+      "32894796",
+      "38354049",
+      "29649363",
+      "30647073",
+      "29397739",
+      "27306313",
+      "35657589",
+      "31537953"
+    ],
+    "review": [
+      "35906205",
+      "37937372",
+      "38973469",
+      "31050378",
+      "31932818",
+      "23988518",
+      "33983025",
+      "32894796"
+    ],
+    "pmc": [
+      "9338294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-31922-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35906205/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35906205",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

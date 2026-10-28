@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38896238",
+    "doi": "10.1007/s00234-024-03396-x",
+    "title": "Characterizing the relationship between MRI radiomics and AHR expression and deriving a predictive model for prognostic assessment in glioblastoma."
+  },
+  "content": {
+    "abstract": "PURPOSE: Aryl hydrocarbon receptor (AHR), a crucial molecular marker associated with glioma, is a potential therapeutic target. We aimed to establish a non-invasive predictive model for AHR through radiomics. METHODS: Contrast-enhanced T1-weighted (T1W) MRI and the corresponding and clinical variables of glioblastoma patients from The Cancer Genome Atlas (TCGA) and The Cancer Imaging Archive (TCIA) were obtained for analysis. KM curves and Cox regression analyses were used to assess the prognostic value of AHR expression. The radiomics features were screened by Max-Relevance and Min-Redundancy (mRMR) and recursive feature elimination (RFE), followed by the construction of two predictive models using logistic regression (LR) and a support vector machine (SVM). RESULTS: The expression levels of AHR in tumour patients were significantly higher than those in the control group, and higher AHR expression was associated with worse prognosis (P<0.05). AHR remained a risk factor for poor prognosis in glioblastoma after multivariate adjustment (HR: 1.61, 95% CI: 1.085-2.39, P<0.05). The radiomics models constructed using LR and SVM based on three selected features achieved area under the curve (AUC) values of 0.887 and 0.872, respectively. Radiomics score emerged as a key factor influencing overall survival (OS) after multivariate adjustment in the Cox model (HR: 3.931, 95% CI: 1.272-12.148, P < 0.05). CONCLUSION: The radiomics models could effectively distinguish the expression levels of AHR and predict prognosis in patients with glioblastoma, which may serve as a powerful tool to assist clinical assessment and precision treatment.",
+    "keywords": [
+      "Aryl hydrocarbon receptor",
+      "Glioblastoma",
+      "Immune infiltration analysis",
+      "Machine learning",
+      "Radiomics score"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/diagnostic imaging/metabolism",
+      "*Magnetic Resonance Imaging/methods",
+      "Male",
+      "Female",
+      "Prognosis",
+      "*Brain Neoplasms/diagnostic imaging/metabolism",
+      "Middle Aged",
+      "*Receptors, Aryl Hydrocarbon/metabolism",
+      "Contrast Media",
+      "Support Vector Machine",
+      "Predictive Value of Tests",
+      "Biomarkers, Tumor/metabolism",
+      "Basic Helix-Loop-Helix Proteins/metabolism",
+      "Aged",
+      "Adult",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chen",
+        "Xu, Dingkang",
+        "Meng, Limin",
+        "Li, Hongqi",
+        "Fu, Zhiguang",
+        "Yan, Maohui",
+        "Hu, Xiaolong",
+        "Wang, Yingjie"
+      ],
+      "short_names": [
+        "Liu C",
+        "Xu D",
+        "Meng L",
+        "Li H",
+        "Fu Z",
+        "Yan M",
+        "Hu X",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-6287-0052"
+      ],
+      "affiliations": [
+        "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China.",
+        "Department of Neurosurgery, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Department of Radiology, Air Force Medical Center, The Fourth Military Medical University, PLA, Beijing, 100142, China.",
+        "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China.",
+        "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China.",
+        "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China.",
+        "Department of Radiation Oncology, Beijing Geriatric Hospital, Beijing, China.",
+        "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China. Wangyingjie666@fmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chen",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dingkang",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Limin",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Air Force Medical Center, The Fourth Military Medical University, PLA, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongqi",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Zhiguang",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Maohui",
+        "short_name": "Yan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaolong",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Beijing Geriatric Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingjie",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0003-6287-0052"
+        ],
+        "affiliations": [
+          "Department of Radiotherapy, Air Force Medical Center, The Fourth Military Medical University, PLA, No 30. Fucheng Road, Haidian District, Beijing, 100142, China. Wangyingjie666@fmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuroradiology"
+    ],
+    "journal_abbrev": [
+      "Neuroradiology"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 12:44",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "40933042"
+    ],
+    "refs": [
+      "37697238",
+      "37248527",
+      "37233762",
+      "36688633",
+      "36091021",
+      "35242144",
+      "34624509",
+      "34322389",
+      "29667084",
+      "22539616",
+      "19465936"
+    ],
+    "similar": [
+      "38896238",
+      "30660472",
+      "38381384",
+      "39030882",
+      "30232517",
+      "38217635",
+      "38909269",
+      "38956384",
+      "37995359",
+      "38964985",
+      "38884673",
+      "30847586",
+      "38279111",
+      "38824087",
+      "39218720",
+      "38650477",
+      "29430935",
+      "37435222",
+      "38951170",
+      "34519578",
+      "29394005",
+      "31289886",
+      "38948050",
+      "33936969",
+      "36463703",
+      "38343263",
+      "32222795",
+      "30426720",
+      "33535988",
+      "39430466",
+      "36597144",
+      "33006658",
+      "39214103",
+      "31505292",
+      "29626238",
+      "34269536",
+      "38549935",
+      "30107606",
+      "29564594",
+      "38537607",
+      "36896953",
+      "37735892",
+      "32921406",
+      "37855851",
+      "31218383",
+      "37978079",
+      "37760630",
+      "36397666",
+      "31546124",
+      "29573085",
+      "34745008",
+      "38403632",
+      "34290693",
+      "37643930",
+      "32162004",
+      "37095939",
+      "30707277",
+      "31704598",
+      "36190656",
+      "32144360",
+      "34819043",
+      "30039219",
+      "30635952",
+      "30711405",
+      "31834910",
+      "36969073",
+      "35881182",
+      "35927323",
+      "33826360",
+      "32740813",
+      "37155523",
+      "28499022",
+      "32980505",
+      "28914549",
+      "38308230",
+      "34694564",
+      "27778090",
+      "34368897",
+      "38091662",
+      "33128598",
+      "38035947",
+      "38875420",
+      "30910431",
+      "36239836",
+      "38642400",
+      "33941364",
+      "31001929",
+      "29915951",
+      "34490107",
+      "32417712",
+      "37627852",
+      "35657093",
+      "32947090",
+      "31372781",
+      "37064376",
+      "30948344",
+      "38308802",
+      "37865602",
+      "38729227",
+      "39296227",
+      "39256086",
+      "35483906",
+      "39099033"
+    ],
+    "review": [
+      "38896238",
+      "38824087"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00234-024-03396-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35455933",
+  "title": "Development and Experimental Validation of Regularized Machine Learning Models Detecting New, Structurally Distinct Activators of PXR.",
+  "authors": "Hirte, Steffen; Burk, Oliver; Tahir, Ammar; Schwab, Matthias; Windshugel, Bjorn; Kirchmair, Johannes",
+  "journal": "Cells",
+  "published_date": "2022-04-24",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用正则化机器学习模型预测PXR小分子激活剂，对象为蛋白-配体互作而非蛋白质-DNA互作，且无结合建模或TF-DNA机制研究，与本课题关联微弱。",
+  "abstract": "The pregnane X receptor (PXR) regulates the metabolism of many xenobiotic and endobiotic substances. In consequence, PXR decreases the efficacy of many small-molecule drugs and induces drug-drug interactions. The prediction of PXR activators with theoretical approaches such as machine learning (ML) proves challenging due to the ligand promiscuity of PXR, which is related to its large and flexible binding pocket. In this work we demonstrate, by the example of random forest models and support vector machines, that classifiers generated following classical training procedures often fail to predict PXR activity for compounds that are dissimilar from those in the training set. We present a novel regularization technique that penalizes the gap between a model's training and validation performance. On a challenging test set, this technique led to improvements in Matthew correlation coefficients (MCCs) by up to 0.21. Using these regularized ML models, we selected 31 compounds that are structurally distinct from known PXR ligands for experimental validation. Twelve of them were confirmed as active in the cellular PXR ligand-binding domain assembly assay and more hits were identified during follow-up studies. Comprehensive analysis of key features of PXR biology conducted for three representative hits confirmed their ability to activate the PXR.",
+  "abstract_zh": "孕烷X受体（PXR）调控许多外源性和内源性物质的代谢。因此，PXR会降低许多小分子药物的疗效并引发药物-药物相互作用。由于PXR的配体混杂性，与其大而灵活的配体结合口袋相关，使用机器学习（ML）等理论方法预测PXR激活剂颇具挑战性。在本工作中，我们以随机森林模型和支持向量机为例证明，遵循经典训练流程生成的分类器往往无法预测与训练集中化合物不相似的化合物的PXR活性。我们提出了一种新颖的正则化技术，该技术对模型训练性能与验证性能之间的差距进行惩罚。在一个具有挑战性的测试集上，该技术使马修斯相关系数（MCCs）提升了最多0.21。利用这些正则化的ML模型，我们选择了31种在结构上与已知PXR配体不同的化合物进行实验验证。其中12种在细胞PXR配体结合域组装试验中被确认为有活性，并在后续研究中发现了更多命中化合物。对三个代表性命中化合物进行的PXR生物学关键特征综合分析证实了它们激活PXR的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35455933/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35455933/",
+  "paper_page_path": "papers/pubmed/35455933/index.html"
+}

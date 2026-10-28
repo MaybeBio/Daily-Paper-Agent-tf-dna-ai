@@ -1,0 +1,495 @@
+{
+  "identity": {
+    "pmid": "35754492",
+    "doi": "10.3389/fphar.2022.865097",
+    "title": "Modeling Kaempferol as a Potential Pharmacological Agent for COVID-19/PF Co-Occurrence Based on Bioinformatics and System Pharmacological Tools."
+  },
+  "content": {
+    "abstract": "Objective: People suffering from coronavirus disease 2019 (COVID-19) are prone to develop pulmonary fibrosis (PF), but there is currently no definitive treatment for COVID-19/PF co-occurrence. Kaempferol with promising antiviral and anti-fibrotic effects is expected to become a potential treatment for COVID-19 and PF comorbidities. Therefore, this study explored the targets and molecular mechanisms of kaempferol against COVID-19/PF co-occurrence by bioinformatics and network pharmacology. Methods: Various open-source databases and Venn Diagram tool were applied to confirm the targets of kaempferol against COVID-19/PF co-occurrence. Protein-protein interaction (PPI), MCODE, key transcription factors, tissue-specific enrichment, molecular docking, Gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were used to clarify the influential molecular mechanisms of kaempferol against COVID-19 and PF comorbidities. Results: 290 targets and 203 transcription factors of kaempferol against COVID-19/PF co-occurrence were captured. Epidermal growth factor receptor (EGFR), proto-oncogene tyrosine-protein kinase SRC (SRC), mitogen-activated protein kinase 3 (MAPK3), mitogen-activated protein kinase 1 (MAPK1), mitogen-activated protein kinase 8 (MAPK8), RAC-alpha serine/threonine-protein kinase (AKT1), transcription factor p65 (RELA) and phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PIK3CA) were identified as the most critical targets, and kaempferol showed effective binding activities with the above critical eight targets. Further, anti-COVID-19/PF co-occurrence effects of kaempferol were associated with the regulation of inflammation, oxidative stress, immunity, virus infection, cell growth process and metabolism. EGFR, interleukin 17 (IL-17), tumor necrosis factor (TNF), hypoxia inducible factor 1 (HIF-1), phosphoinositide 3-kinase/AKT serine/threonine kinase (PI3K/AKT) and Toll-like receptor signaling pathways were identified as the key anti-COVID-19/PF co-occurrence pathways. Conclusion: Kaempferol is a candidate treatment for COVID-19/PF co-occurrence. The underlying mechanisms may be related to the regulation of critical targets (EGFR, SRC, MAPK3, MAPK1, MAPK8, AKT1, RELA, PIK3CA and so on) and EGFR, IL-17, TNF, HIF-1, PI3K/AKT and Toll-like receptor signaling pathways. This study contributes to guiding development of new drugs for COVID-19 and PF comorbidities.",
+    "keywords": [
+      "COVID-19",
+      "bioinformatic analysis",
+      "co-occurrence",
+      "kaempferol",
+      "pulmonary fibrosis",
+      "system pharmacology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yong",
+        "Xie, Yi-Zi",
+        "Peng, Chen-Wen",
+        "Yao, Kai-Nan",
+        "Lin, Xue-Ying",
+        "Zhan, Shao-Feng",
+        "Zhuang, Hong-Fa",
+        "Huang, Hui-Ting",
+        "Liu, Xiao-Hong",
+        "Huang, Xiu-Fang",
+        "Li, Hang"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Xie YZ",
+        "Peng CW",
+        "Yao KN",
+        "Lin XY",
+        "Zhan SF",
+        "Zhuang HF",
+        "Huang HT",
+        "Liu XH",
+        "Huang XF",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yong",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yi-Zi",
+        "short_name": "Xie YZ",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chen-Wen",
+        "short_name": "Peng CW",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Kai-Nan",
+        "short_name": "Yao KN",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xue-Ying",
+        "short_name": "Lin XY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Shao-Feng",
+        "short_name": "Zhan SF",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Hong-Fa",
+        "short_name": "Zhuang HF",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hui-Ting",
+        "short_name": "Huang HT",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiao-Hong",
+        "short_name": "Liu XH",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiu-Fang",
+        "short_name": "Huang XF",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/28 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "42380211",
+      "42063458",
+      "40404681",
+      "39195477",
+      "39065817",
+      "38659590",
+      "38466452",
+      "38111732",
+      "37759595"
+    ],
+    "refs": [
+      "35172054",
+      "34902608",
+      "34687672",
+      "34624155",
+      "34575667",
+      "34571756",
+      "34557778",
+      "34548480",
+      "34408131",
+      "34301158",
+      "34275451",
+      "34045585",
+      "34028807",
+      "33934306",
+      "33915569",
+      "33746604",
+      "33730605",
+      "33508618",
+      "33448101",
+      "33440148",
+      "33435774",
+      "33278357",
+      "33237311",
+      "33186584",
+      "33179566",
+      "33151290",
+      "33068428",
+      "33009401",
+      "32918977",
+      "32749702",
+      "32664949",
+      "32575380",
+      "32531256",
+      "32503877",
+      "32437497",
+      "32422178",
+      "32413319",
+      "32402576",
+      "32267833",
+      "32205092",
+      "32171193",
+      "32164193",
+      "32163196",
+      "32134681",
+      "32091533",
+      "32085846",
+      "32075786",
+      "32055945",
+      "32017927",
+      "31978945",
+      "31691823",
+      "31572524",
+      "31560574",
+      "31477170",
+      "31343988",
+      "31248102",
+      "31179001",
+      "31106366",
+      "30944313",
+      "30380087",
+      "30268571",
+      "29386344",
+      "29126136",
+      "29087512",
+      "28862768",
+      "28860147",
+      "28731277",
+      "28688290",
+      "28676499",
+      "28611671",
+      "28262619",
+      "28239659",
+      "28182573",
+      "27924018",
+      "27167132",
+      "25982933",
+      "25967287",
+      "25487801",
+      "25451770",
+      "25428349",
+      "25358054",
+      "25348405",
+      "24735618",
+      "24582969",
+      "24378645",
+      "24086109",
+      "23715323",
+      "23519785",
+      "22802287",
+      "22652197",
+      "22037258",
+      "21930967",
+      "21629204",
+      "21625975",
+      "21571362",
+      "21504518",
+      "21295323",
+      "20536315",
+      "20042669",
+      "19864262",
+      "19850947",
+      "19614606",
+      "19520917",
+      "19499576",
+      "18634036",
+      "18541712",
+      "18374622",
+      "17532082",
+      "17287757",
+      "16741154",
+      "16143815",
+      "15681821",
+      "15194498",
+      "15047842",
+      "14746528",
+      "12525261",
+      "11595184",
+      "11491168",
+      "10925316",
+      "10226062",
+      "9097728",
+      "8163670",
+      "8040328",
+      "2170444"
+    ],
+    "similar": [
+      "35754492",
+      "38321908",
+      "39331891",
+      "35178959",
+      "33082858",
+      "35855804",
+      "34908920",
+      "33398248",
+      "35222040",
+      "37933017",
+      "37346467",
+      "36818229",
+      "34472274",
+      "34658873",
+      "38134388",
+      "35430443",
+      "35024051",
+      "35636171",
+      "33634308",
+      "33474949",
+      "35403089",
+      "35537009",
+      "35069542",
+      "38414786",
+      "34994139",
+      "34722158",
+      "35528155",
+      "34220524",
+      "37996895",
+      "33658066",
+      "34088885",
+      "38476533",
+      "35774597",
+      "33645094",
+      "31344517",
+      "33140889",
+      "35101570",
+      "36726236",
+      "34872267",
+      "38204223",
+      "34349833",
+      "35707470",
+      "34220517",
+      "32389853",
+      "35186103",
+      "34690752",
+      "33299870",
+      "35178961",
+      "33274236",
+      "35186104",
+      "33832291",
+      "34515002",
+      "32983259",
+      "35574720",
+      "35402622",
+      "33376732",
+      "33883881",
+      "35150815",
+      "35405254",
+      "35685361",
+      "35227068",
+      "35035498",
+      "23660296",
+      "33204288",
+      "34581057",
+      "33145355",
+      "35757520",
+      "35151646",
+      "35341142",
+      "33771638",
+      "33243703",
+      "33768100",
+      "35388303",
+      "35317323",
+      "35343164",
+      "35795275",
+      "34825377",
+      "34217946",
+      "34322786",
+      "34511884",
+      "23665105",
+      "35734366",
+      "35718494",
+      "34177580",
+      "34660782",
+      "35237152",
+      "34159207",
+      "35178102",
+      "30647760",
+      "34803696",
+      "33241658",
+      "34168274",
+      "33953223",
+      "36671206",
+      "39323838",
+      "35165507",
+      "36805222",
+      "34394108",
+      "36204096",
+      "39246014",
+      "36599852",
+      "36034788",
+      "38920066",
+      "33603661",
+      "36654765",
+      "35509887",
+      "35813340",
+      "33031061",
+      "38217310",
+      "35677450",
+      "36532549",
+      "34790116",
+      "35571107",
+      "32662814",
+      "36016559",
+      "36034923",
+      "37047552",
+      "37731942",
+      "37790614",
+      "36144196",
+      "35002688",
+      "38170269",
+      "39290278",
+      "37090055",
+      "39081507",
+      "38585747",
+      "38991931"
+    ],
+    "review": [
+      "35754492",
+      "23660296"
+    ],
+    "pmc": [
+      "9214245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35754492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35754492",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.865097",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

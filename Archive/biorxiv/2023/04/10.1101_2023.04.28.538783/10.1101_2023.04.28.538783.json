@@ -1,0 +1,164 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.28.538783",
+  "title": "Uncovering Co-regulatory Modules and Gene Regulatory Networks in the Heart through Machine Learning-based Analysis of Large-scale Epigenomic Data",
+  "doi": "10.1101/2023.04.28.538783",
+  "abstract": "The availability of large scale epigenomic data from different cell types and conditions has provided valuable information to evaluate and learn features that predict co-binding of transcription factors (TF). However, previous attempts to develop models for predicting motif cooccurrence were not scalable for global analysis of any combination of motifs or cross-species predictions. Further, mapping co-regulatory modules (CRM) to their gene regulatory networks (GRN) is crucial in understanding the underlying function. Currently, there is no comprehensive pipeline to locate CRM and GRN on a large scale with speed and accuracy. In this study, we analyzed and evaluated different TF binding characteristics that would facilitate co-binding with biological significance to identify all possible clusters of co-binding TFs. We curated the UniBind database, which contains ChIP-Seq data from over 1983 samples and 232 TFs, and implemented two machine learning models to predict CRMs and potential regulatory networks they operate on. We narrowed our focus to study heart related regulatory motifs. Our findings highlight the importance of the NKX family of transcription factors in cardiac development and provide potential targets for further investigation in cardiac disease.",
+  "authors": [
+    "Vahab N",
+    "Bonu T",
+    "Kuhlmann L",
+    "Ramialison M",
+    "Tyagi S"
+  ],
+  "published_date": "2023-04-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538783",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538783.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR652745",
+    "raw_record": {
+      "id": "PPR652745",
+      "source": "PPR",
+      "doi": "10.1101/2023.04.28.538783",
+      "title": "Uncovering Co-regulatory Modules and Gene Regulatory Networks in the Heart through Machine Learning-based Analysis of Large-scale Epigenomic Data",
+      "authorString": "Vahab N, Bonu T, Kuhlmann L, Ramialison M, Tyagi S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vahab N",
+            "lastName": "Vahab",
+            "firstName": "Naima",
+            "initials": "N"
+          },
+          {
+            "fullName": "Bonu T",
+            "lastName": "Bonu",
+            "firstName": "Tarun",
+            "initials": "T"
+          },
+          {
+            "fullName": "Kuhlmann L",
+            "lastName": "Kuhlmann",
+            "firstName": "Levin",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5108-6348"
+            }
+          },
+          {
+            "fullName": "Ramialison M",
+            "lastName": "Ramialison",
+            "firstName": "Mirana",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6315-4777"
+            }
+          },
+          {
+            "fullName": "Tyagi S",
+            "lastName": "Tyagi",
+            "firstName": "Sonika",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0181-6258"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6315-4777"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5108-6348"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0181-6258"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The availability of large scale epigenomic data from different cell types and conditions has provided valuable information to evaluate and learn features that predict co-binding of transcription factors (TF). However, previous attempts to develop models for predicting motif cooccurrence were not scalable for global analysis of any combination of motifs or cross-species predictions. Further, mapping co-regulatory modules (CRM) to their gene regulatory networks (GRN) is crucial in understanding the underlying function. Currently, there is no comprehensive pipeline to locate CRM and GRN on a large scale with speed and accuracy. In this study, we analyzed and evaluated different TF binding characteristics that would facilitate co-binding with biological significance to identify all possible clusters of co-binding TFs. We curated the UniBind database, which contains ChIP-Seq data from over 1983 samples and 232 TFs, and implemented two machine learning models to predict CRMs and potential regulatory networks they operate on. We narrowed our focus to study heart related regulatory motifs. Our findings highlight the importance of the NKX family of transcription factors in cardiac development and provide potential targets for further investigation in cardiac disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/28/2023.04.28.538783.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.28.538783"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38354497",
+            "reference": "Computers in biology and medicine. 2024 Mar;171:108068",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-05-02",
+      "firstPublicationDate": "2023-04-28",
+      "firstIndexDate": "2023-05-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

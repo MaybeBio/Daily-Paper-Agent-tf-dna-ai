@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary figure/table references)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence sufficiency, and clarity of claims as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose ROWVA, a structure-based metric derived from AlphaFold2-predicted three-dimensional structures, to predict the pathogenicity of missense variants in the tetramerization domain of p53. They report correlations between ROWVA and functional scores (protein stability, tetramerization, transcriptional activity) and assess its discriminative ability for ClinVar pathogenicity labels. They also report a preliminary extension to PTEN.
+- **Visible evidence base** Main text figures referenced (Figures 1-6), supplementary tables (S1-S7), supplementary figures (S1-S5), and methodological descriptions in Data S1
+- **Missing materials affecting confidence** Supplementary tables, supplementary figures, Data S1, and the actual numerical datasets are not provided. Exact sample sizes for each correlation analysis are not stated in the main text. The PTEN analysis is only described in supplementary material. No code or detailed pipeline parameters are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in variant interpretation and proposes a conceptually interesting approach that leverages AlphaFold2 structural predictions. The central idea, comparing predicted wild-type and variant structures within a defined domain via RMSD, is straightforward and potentially useful. However, the evidence presented in the main text is insufficient to fully establish the claimed superiority of ROWVA over existing metrics. Key limitations include small and heterogeneous datasets, lack of clear reporting on sample sizes and statistical power, incomplete comparative analyses, and a restricted evaluation on a single domain of one protein. The PTEN extension is mentioned but not adequately detailed in the visible text. The manuscript would benefit from more rigorous validation, clearer reporting of methods and data, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers and clinicians working on variant interpretation, cancer genomics, and clinical genetics would be interested. The potential to use structure-based metrics for classifying variants of uncertain significance is of practical relevance. The work may also interest computational biologists developing in silico pathogenicity prediction tools.
+- **Major strengths** The study addresses a clinically important problem, namely the interpretation of variants of uncertain significance in p53. The use of AlphaFold2, a widely accessible tool, is pragmatic. The focus on a specific domain (tetramerization) is biologically justified given p53 function. The development of a new metric, ROWVA, is clearly described and conceptually simple. The inclusion of multiple functional datasets and a comparison with established tools adds some breadth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ROWVA demonstrates superior predictive performance compared to other AlphaFold2-derived scores and established pathogenicity prediction tools.
+  - **Evidence pointer** Results sections "Correlation Between AF2-Derived Scores and Protein Stability Scores", "Correlation Between AF2-Derived Scores and Tetramerization Scores", "Correlation Between AF2-Derived Scores and Post-Tetramerization Expression Levels", "ROC Analysis of the ClinVar Dataset"; Figures 2-5
+  - **Concern** The claim of superiority is not fully supported by the data as presented. For protein stability, both PAE and ROWVA show identical correlation coefficients (r = -0.368), so ROWVA is not superior in that dataset. For tetramerization scores, only ROWVA shows significant correlations, but the number of variants is small (28 for stability, unclear for tetramerization). For transcriptional activity, ROWVA shows the highest correlation, but the sample size is not stated. In the ROC analysis, AlphaMissense outperforms ROWVA (AUC 0.98 vs 0.90), and the difference is not tested for statistical significance. The claim of superiority is therefore only partially supported and requires a more rigorous statistical comparison, including confidence intervals for AUC differences and correlation coefficients.
+  - **Why it matters** The central claim of the manuscript is that ROWVA is a useful and potentially superior metric. If the evidence does not clearly support superiority, the contribution is weakened. A more nuanced claim, such as "ROWVA is a useful complementary metric," would be more appropriate given the data.
+  - **Resolution test** Provide sample sizes for all correlation analyses. Test whether the difference between ROWVA and AlphaMissense AUCs is statistically significant (e.g., DeLong test). Report confidence intervals for all correlation coefficients. If superiority is claimed, provide a formal statistical comparison across all metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that ROWVA is calculated by comparing predicted structures of wild-type and variant proteins, and that the metric reflects structural changes induced by variants.
+  - **Evidence pointer** Methods section "Calculation of AlphaFold2-Derived Scores"; Results section "Correlation Between AF2-Derived Scores and Protein Stability Scores"
+  - **Concern** The manuscript does not describe how the RMSD is calculated in detail. Specifically, it is unclear which atoms are used for the superposition and RMSD calculation, whether the comparison is performed on the entire tetramer or on individual chains, and how symmetry is handled for a homotetramer. The choice of the "align" command in PyMOL implies a sequence-dependent alignment, but the details of the atom selection are not provided. This lack of detail prevents replication and assessment of the metric's robustness.
+  - **Why it matters** A metric that is not precisely defined cannot be reproduced or independently validated. The methodological ambiguity undermines the scientific contribution.
+  - **Resolution test** Provide a precise description of the RMSD calculation, including atom selection, superposition procedure, and handling of symmetry. Ideally, provide the code or a pseudocode description.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ROWVA may be applicable to other multimeric proteins and present PTEN as an initial demonstration.
+  - **Evidence pointer** Results section "Evaluation of ROWVA Performance in PTEN"; Figure S5; Table S7
+  - **Concern** The PTEN analysis is only described in the supplementary material, and the main text provides no details on the number of variants, the specific domain analyzed, the correlation coefficients, or the comparison with other metrics. The claim of broad applicability is therefore not supported by the visible evidence.
+  - **Why it matters** The generalizability of the method is a key selling point. Without adequate evidence, this claim remains speculative.
+  - **Resolution test** Provide the PTEN results in the main text or a detailed supplementary section, including sample size, correlation coefficients, and comparison with other metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that AlphaFold2 can be used to evaluate variants, and that ROWVA reflects structural changes.
+  - **Evidence pointer** Results section "Correlation Between AF2-Derived Scores and Post-Tetramerization Expression Levels"; Figure 4
+  - **Concern** The manuscript does not address the known limitations of AlphaFold2 in predicting the effects of point mutations. AlphaFold2 was trained on wild-type sequences and may not accurately predict the structural consequences of variants, particularly for destabilizing mutations. The authors acknowledge this debate in the introduction but do not discuss how their results relate to it. The correlation between ROWVA and functional scores could be driven by factors other than true structural changes, such as sequence-based signals embedded in the predictions.
+  - **Why it matters** If AlphaFold2 predictions for variants are unreliable, the interpretation of ROWVA as a measure of structural change is questionable. The manuscript should discuss this limitation and provide evidence that the predicted structural changes are meaningful.
+  - **Resolution test** Add a discussion of AlphaFold2's limitations for variant effect prediction. Consider validating ROWVA against experimentally determined structures of variants, if available, or comparing with other structure-based metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Results" section
+  - **Issue** The abstract states that ROWVA shows "high correlation" with functional scores, but the actual correlation coefficients are not reported. The abstract also does not mention the sample sizes.
+  - **Required correction** Include representative correlation coefficients and sample sizes in the abstract, or temper the language to "moderate to high correlation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Results sections; Figures 2-5
+  - **Issue** The manuscript reports correlation coefficients and p-values but does not report confidence intervals. For the ROC analysis, 95% CIs are provided for AUC, but the comparison between ROWVA and AlphaFold2-derived scores is not formally tested.
+  - **Required correction** Report 95% confidence intervals for all correlation coefficients. Add a statistical test for the difference between AUCs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "Evaluation of ROWVA Performance in PTEN"; Figure 6
+  - **Issue** The description of Figure 6C is unclear. It states that ROWVA was calculated for 19 different substitutions at residue 347, but it is not clear whether these are all possible substitutions or a selected subset. The threshold for "high ROWVA values" is not defined.
+  - **Required correction** Clarify the selection of substitutions and define the threshold for high ROWVA values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Calculation of AlphaFold2-Derived Scores"
+  - **Issue** The manuscript states that scripts are available from the corresponding author upon reasonable request. This is not a reproducible practice.
+  - **Required correction** Provide the scripts in a public repository or as supplementary material.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion states that ROWVA "may be applicable to other multimeric proteins" but does not discuss potential limitations, such as the need for accurate multimer predictions or the computational cost of AlphaFold2.
+  - **Required correction** Add a paragraph discussing the practical limitations and requirements for applying ROWVA to other proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (superiority claim not statistically supported), R1-M2 (RMSD calculation not precisely defined), R1-M3 (PTEN evidence not visible in main text)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using RMSD between AlphaFold2-predicted wild-type and variant structures as a pathogenicity metric is not entirely new, but the specific application to the p53 tetramerization domain and the systematic comparison with other AlphaFold2-derived scores adds some novelty. The originality is moderate.
+  - **Scientific importance** The problem of variant interpretation is important, and a structure-based metric that could complement existing tools would be valuable. However, the demonstrated utility is limited to a small set of variants in one domain, and the improvement over existing methods is not clearly established. The importance is moderate.
+  - **Interdisciplinary readership** The work bridges structural biology, computational biology, and clinical genetics. It could appeal to readers in these fields. However, the technical detail may limit broader appeal.
+  - **Technical soundness** The technical approach is conceptually sound, but the lack of detail on the RMSD calculation and the incomplete statistical reporting are concerns. The validation is limited.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections assume familiarity with structural biology and variant interpretation. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is interesting, but the claims of superiority and broad applicability are not sufficiently supported. The manuscript requires substantial revisions, including more rigorous statistical analysis, detailed methodological descriptions, and additional validation, before the case is established.
+
+## Risk / unsupported claims
+- The claim that ROWVA demonstrates "superior predictive performance" is not statistically supported, as the difference with AlphaFold2-derived scores is not formally tested and AlphaFold2-derived scores show comparable performance in some analyses.
+- The claim that ROWVA "may be applicable to other multimeric proteins" is not supported by the visible evidence, as the PTEN analysis is only described in supplementary material.
+- The claim that ROWVA "can be used to evaluate variants" is too broad given the limited validation on a single domain of one protein.
+- The interpretation of ROWVA as reflecting true structural changes is not validated against experimental structures of variants.
+- The statement that "the comparable performance of ROWVA is notable" relative to AlphaFold2-derived scores is subjective and not backed by a formal comparison.

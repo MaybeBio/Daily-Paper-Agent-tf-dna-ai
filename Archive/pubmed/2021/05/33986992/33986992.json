@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "33986992",
+    "doi": "10.7717/peerj.11262",
+    "title": "Prediction of DNA binding proteins using local features and long-term dependencies with primary sequences based on deep learning."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play pivotal roles in many biological functions such as alternative splicing, RNA editing, and methylation. Many traditional machine learning (ML) methods and deep learning (DL) methods have been proposed to predict DBPs. However, these methods either rely on manual feature extraction or fail to capture long-term dependencies in the DNA sequence. In this paper, we propose a method, called PDBP-Fusion, to identify DBPs based on the fusion of local features and long-term dependencies only from primary sequences. We utilize convolutional neural network (CNN) to learn local features and use bi-directional long-short term memory network (Bi-LSTM) to capture critical long-term dependencies in context. Besides, we perform feature extraction, model training, and model prediction simultaneously. The PDBP-Fusion approach can predict DBPs with 86.45% sensitivity, 79.13% specificity, 82.81% accuracy, and 0.661 MCC on the PDB14189 benchmark dataset. The MCC of our proposed methods has been increased by at least 9.1% compared to other advanced prediction models. Moreover, the PDBP-Fusion also gets superior performance and model robustness on the PDB2272 independent dataset. It demonstrates that the PDBP-Fusion can be used to predict DBPs from sequences accurately and effectively; the online server is at http://119.45.144.26:8080/PDBP-Fusion/.",
+    "keywords": [
+      "Convolution neural network (CNN)",
+      "DNA binding protein prediction",
+      "Deep learning",
+      "Fusion approach",
+      "Long short-term memory network (LSTM)",
+      "Long-term dependence"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Guobin",
+        "Du, Xiuquan",
+        "Li, Xinlu",
+        "Zou, Le",
+        "Zhang, Guanhong",
+        "Wu, Zhize"
+      ],
+      "short_names": [
+        "Li G",
+        "Du X",
+        "Li X",
+        "Zou L",
+        "Zhang G",
+        "Wu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China.",
+        "School of Computer Science and Technology, Anhui University, Hefei, China.",
+        "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China.",
+        "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China.",
+        "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China.",
+        "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Guobin",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xiuquan",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Anhui University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinlu",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Le",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guanhong",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhize",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Big Data, Hefei University, Hefei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/15 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42441082",
+      "41184947",
+      "40531834",
+      "40439671",
+      "40391089",
+      "39657630",
+      "38747369",
+      "38739759",
+      "38701417",
+      "37810796",
+      "36814719",
+      "36299898",
+      "36211019",
+      "36139026",
+      "35693256"
+    ],
+    "refs": [
+      "32352006",
+      "32300371",
+      "31725778",
+      "31267738",
+      "31123959",
+      "30975175",
+      "30301221",
+      "30179658",
+      "30071697",
+      "30032213",
+      "30010789",
+      "29753757",
+      "29287069",
+      "29270430",
+      "29107015",
+      "29097781",
+      "28841194",
+      "27926534",
+      "27907159",
+      "27490858",
+      "27307608",
+      "27198220",
+      "26213851",
+      "25708928",
+      "25240115",
+      "25184541",
+      "24475169",
+      "23497329",
+      "22102590",
+      "20478832",
+      "19385697",
+      "19008251",
+      "18042272",
+      "17646316",
+      "17624492",
+      "17284455",
+      "16284202",
+      "16274699",
+      "12758155",
+      "12589754",
+      "11104519",
+      "1473601"
+    ],
+    "similar": [
+      "33986992",
+      "35693256",
+      "29287069",
+      "28146106",
+      "35378437",
+      "35676633",
+      "38856168",
+      "30071670",
+      "37437362",
+      "36860882",
+      "36403092",
+      "31810201",
+      "38316843",
+      "37501025",
+      "36849908",
+      "35942457",
+      "38178985",
+      "38338559",
+      "30808287",
+      "36366228",
+      "33980138",
+      "36335751",
+      "38103435",
+      "34221854",
+      "37812548",
+      "38179749",
+      "34901421",
+      "36679646",
+      "34812391",
+      "33740884",
+      "34601431",
+      "34541311",
+      "34422030",
+      "33266267",
+      "33424547",
+      "31725778",
+      "34614452",
+      "36552906",
+      "37980798",
+      "31722485",
+      "34577436",
+      "37402073",
+      "38402249",
+      "35947255",
+      "36719781",
+      "35389869",
+      "35477057",
+      "34073774",
+      "37674132",
+      "35591209",
+      "36768540",
+      "35281195",
+      "36685221",
+      "36166165",
+      "35016607",
+      "35602136",
+      "34571539",
+      "35605495",
+      "37430865",
+      "38986796",
+      "34471166",
+      "36642410",
+      "34122031",
+      "38903752",
+      "35083336",
+      "37089327",
+      "35689200",
+      "34805502",
+      "32352006",
+      "29182152",
+      "36935548",
+      "30700301",
+      "34064889",
+      "34601568",
+      "33949998",
+      "36679696",
+      "34305565",
+      "31600963",
+      "38005579",
+      "38203136",
+      "37019116",
+      "32920048",
+      "33322457",
+      "36650801",
+      "37651627",
+      "35168083",
+      "31408651",
+      "31208331",
+      "29970003",
+      "32808039",
+      "36959539",
+      "36442627",
+      "38194390",
+      "34682038",
+      "33485205",
+      "34911307",
+      "29807250",
+      "39039464",
+      "35745625",
+      "38676269",
+      "39402125",
+      "39145217",
+      "39270885",
+      "38931746",
+      "36505696",
+      "38990747",
+      "39124051",
+      "38745754",
+      "37801922"
+    ],
+    "review": [
+      "33986992"
+    ],
+    "pmc": [
+      "8101451"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33986992/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33986992",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.11262",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33986992",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

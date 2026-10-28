@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational study of R2R3-MYB transcription factor proteins from five plant species, including cereal crops. They docked R2R3-MYB proteins with DNA, selected best complexes for two runs of molecular dynamics (MD) simulations, and used MM/PBSA to calculate binding free energies. They report strong interactions, stabilization by hydrophobic and hydrogen bonds, restricted protein motion from principal component analysis, and validation against an Arabidopsis thaliana crystal structure. They claim this is the first detailed study of R2R3-MYB protein-DNA complexes in cereal crops and propose a cost-effective approach for identifying key interacting residues and analyzing conformational changes.
+- **Visible evidence base** Abstract text only; no methods details, simulation parameters, force fields, convergence criteria, error estimates, or comparative statistics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation input files, force field parameters, trajectory analyses, convergence assessments, and validation statistics
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational workflow combining docking, MD simulation, and MM/PBSA free energy calculations. However, the evidence presented is insufficient to evaluate the technical rigor of the simulations, the statistical significance of the results, or the validity of the novelty claim. The abstract lacks quantitative results, error estimates, and methodological details essential for assessing reproducibility and reliability. The claim of being "the first detailed study" in cereal crops is not substantiated by a literature comparison within the abstract.
+- **Who would be interested in the results, and why** Researchers studying plant transcription factors, particularly MYB family proteins, and those interested in protein-DNA interactions from a structural and biophysical perspective. Computational biologists working on molecular dynamics simulations of protein-nucleic acid complexes may also find the methodological approach relevant. The potential cost-effective screening aspect could interest plant breeders targeting stress-responsive transcription factors.
+- **Major strengths** The study addresses a biologically relevant question regarding R2R3-MYB protein-DNA interactions across multiple plant species, including crops of agricultural importance. The combination of docking, MD simulation, and MM/PBSA is a standard and appropriate computational pipeline for studying protein-DNA binding. The inclusion of a crystal structure-based validation step using Arabidopsis thaliana is a positive feature that strengthens confidence in the simulation protocol.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MM/PBSA calculations showed "strong interaction" for each R2R3-MYB protein-DNA complex.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No numerical values for binding free energies are reported. The term "strong interaction" is qualitative and cannot be evaluated without specific free energy values, standard deviations, or comparisons to known benchmarks. MM/PBSA results are highly sensitive to simulation length, force field parameters, and entropy contributions, none of which are described.
+  - **Why it matters** Without quantitative free energy values and associated uncertainties, the central biophysical claim of the study cannot be assessed. The reader cannot determine whether the reported interactions are statistically distinguishable from noise or from non-specific binding.
+  - **Resolution test** Provide mean binding free energies with standard errors for each complex, specify the number of frames used for MM/PBSA calculations, and include a comparison with experimentally determined binding affinities if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "two runs of MD simulations" were performed for each complex.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify simulation length, temperature, pressure coupling, water model, salt concentration, or force field. Two runs are insufficient to establish convergence or reproducibility unless the simulation length is adequate and the runs are independent. No convergence criteria are mentioned.
+  - **Why it matters** MD simulation results are only meaningful if the system has reached equilibrium and the sampling is sufficient. Without these details, the conformational analyses and free energy calculations cannot be considered reliable.
+  - **Resolution test** Specify simulation length, ensemble, thermostat and barostat parameters, force field and water model, and provide RMSD or other convergence metrics for each simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** The abstract claims "This is the first detailed study on the R2R3-MYB protein-DNA complex in cereal crops."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No literature comparison is provided to support the novelty claim. The abstract does not cite or discuss prior computational or experimental studies on MYB-DNA interactions in cereals or other plants. The claim of "first" requires a systematic literature search and explicit comparison with existing work.
+  - **Why it matters** The novelty claim is a key justification for the study's significance. If prior studies exist, the claim is overstated and the contribution is diminished. If no prior studies exist, the authors should demonstrate this with a literature review.
+  - **Resolution test** Provide a brief literature survey in the abstract or introduction showing that no prior MD-based study of R2R3-MYB-DNA complexes in cereal crops has been published, with appropriate citations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the generated complexes resembled the X-ray crystal structure" from Arabidopsis thaliana.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The degree of resemblance is not quantified. No RMSD values, interaction overlap metrics, or other quantitative comparisons are provided. The statement is qualitative and cannot be verified.
+  - **Why it matters** Validation against a crystal structure is only meaningful if the comparison is quantitative. Without metrics, the reader cannot assess whether the simulation protocol produces realistic complexes.
+  - **Resolution test** Report backbone RMSD between simulated and crystal structures, and provide a figure or table comparing key protein-DNA contacts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "phase space" and "principal component analysis" without brief explanation. Nonspecialist readers in plant biology may not be familiar with these concepts.
+  - **Required correction** Add a brief parenthetical explanation, for example "principal component analysis (a method to identify dominant motions in simulations)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Species list
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "five plants, including cereal crops" but does not name the species. This limits the reader's ability to assess the biological relevance and generalizability of the findings.
+  - **Required correction** List the five plant species explicitly in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking methodology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "best complexes were selected" after docking but does not specify the selection criteria, such as docking score thresholds or visual inspection.
+  - **Required correction** Briefly state the selection criteria, for example "complexes with the lowest docking scores and favorable interaction geometries were selected".
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative free energy data), R1-M2 (insufficient MD simulation details and convergence evidence), R1-M3 (unsubstantiated novelty claim), R1-M4 (qualitative validation without metrics)
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim of being the first study in cereal crops is plausible but unverified from the abstract. The methodological approach is standard and not novel in itself.
+  - Scientific importance: The topic is relevant to plant stress biology and crop improvement, but the abstract does not demonstrate broader biological insights beyond confirming that MYB proteins bind DNA, which is already known.
+  - Interdisciplinary readership: The work bridges plant biology and computational biophysics, but the abstract is too technical for plant biologists and too qualitative for computational specialists.
+  - Technical soundness: Cannot be assessed from the abstract. Critical details on simulation setup, convergence, and error analysis are missing.
+  - Readability for nonspecialists: The abstract is generally readable but uses some specialized terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable computational study, but the absence of quantitative results, methodological details, and a substantiated novelty claim prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods, numerical results, and a literature comparison before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "strong interaction" based on MM/PBSA is unsupported without numerical free energy values and error estimates.
+- The claim of being "the first detailed study" in cereal crops is unsupported without a literature comparison.
+- The statement that generated complexes "resembled the X-ray crystal structure" is unsupported without quantitative metrics.
+- The claim that hydrophobic and hydrogen bonds "significantly stabilized" the complexes is unsupported without interaction energy decomposition data.
+- The conclusion that the approach provides a "cost-effective solution" is an assertion without comparative cost analysis or benchmarking against experimental methods.

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42544237",
+    "doi": "10.2147/JHC.S607916",
+    "title": "PTM-Related Signatures Predict Lymph Node Metastasis and Shape Microenvironment in Hepatocellular Carcinoma: A Single-Cell and Bulk Integrated Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) has a poor prognosis with lymph node metastasis (LNM), severely impacting survival. Protein post-translational modifications (PTMs) regulate tumor microenvironment (TME) dynamics, but their role in HCC LNM is unknown. METHODS: This study systematically analyzed single-cell RNA sequencing (scRNA-seq) and bulk transcriptomic data from TCGA-LIHC and validation cohorts. Key cellular subpopulations and differentially expressed genes (DEGs) were identified. PTM-related candidate genes were identified through intersection analysis. Prognostic genes were determined via Cox regression and integrated into a random survival forest (RSF) model. Patients were stratified to assess associations with TME remodeling, genomic alterations, immune checkpoints, and drug sensitivity. Pseudotime trajectory and transcription factor activity analyses elucidated molecular dynamics. RESULTS: Hepatocyte populations were significantly expanded in both LNM and non-LNM HCC groups. The intersection of scRNA-seq DEGs, bulk DEGs, and PTM-related genes identified five candidate genes, among which PJA1 and RFPL4B identified as potential prognostic risk factors and were incorporated into a robust RSF model. High-risk patients exhibited poor survival outcomes, increased tumor mutational burden, and pronounced tumor microenvironment alterations. PJA1 expression was negatively correlated with hepatocyte infiltration. Pseudotime analysis revealed that LNM-associated hepatocytes were arrested in early differentiation states, coinciding with dysregulated transcription factor activity. CONCLUSION: This study computationally identified PJA1 and RFPL4B as post-translational modification-related candidate prognostic genes potentially associated with HCC LNM. The proposed risk model stratified patients into subgroups characterized by distinct tumor microenvironment features and genomic instability. Computational analysis suggested that arrest of hepatocyte differentiation and dysregulation of transcription factor networks may be implicated in metastatic progression, thereby offering novel therapeutic insights.",
+    "keywords": [
+      "hepatocellular carcinoma",
+      "lymph node metastasis",
+      "post-translational modifications",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ai, Zhu",
+        "Liang, Yuying",
+        "Cai, Yuzhi",
+        "Gao, Jian",
+        "Ren, Lin",
+        "Wang, Qiong",
+        "Chen, Yutong",
+        "Huang, Yongye",
+        "Xiang, Zhiming"
+      ],
+      "short_names": [
+        "Ai Z",
+        "Liang Y",
+        "Cai Y",
+        "Gao J",
+        "Ren L",
+        "Wang Q",
+        "Chen Y",
+        "Huang Y",
+        "Xiang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2037-6446"
+      ],
+      "affiliations": [
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China.",
+        "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ai, Zhu",
+        "short_name": "Ai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yuying",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yuzhi",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jian",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ren, Lin",
+        "short_name": "Ren L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiong",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yutong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongye",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Zhiming",
+        "short_name": "Xiang Z",
+        "identifiers": [
+          "0000-0003-2037-6446"
+        ],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou, 511400, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of hepatocellular carcinoma"
+    ],
+    "journal_abbrev": [
+      "J Hepatocell Carcinoma"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/03 06:36",
+    "fetched_at": "2026-10-02 03:09:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42099451",
+      "41132815",
+      "40883414",
+      "40809847",
+      "40790220",
+      "40726441",
+      "40671235",
+      "40568599",
+      "40513620",
+      "40399386",
+      "40396179",
+      "40316306",
+      "40208465",
+      "40040703",
+      "40010763",
+      "39958209",
+      "39934551",
+      "39560863",
+      "39323867",
+      "39309809",
+      "39226516",
+      "39181434",
+      "38973608",
+      "38949026",
+      "38919610",
+      "38906860",
+      "38673774",
+      "38493408",
+      "38428409",
+      "38398832",
+      "38350547",
+      "38214802",
+      "38012415",
+      "37767066",
+      "37577238",
+      "37415190",
+      "37369808",
+      "37231261",
+      "37081869",
+      "37063851",
+      "36868224",
+      "36699385",
+      "36463086",
+      "36335744",
+      "36333807",
+      "36316307",
+      "36186898",
+      "36166219",
+      "36084663",
+      "35933472",
+      "35898870",
+      "35874676",
+      "35669771",
+      "35616137",
+      "35611163",
+      "34621787",
+      "34557778",
+      "34512146",
+      "34509441",
+      "34490997",
+      "34260682",
+      "33839742",
+      "33597522",
+      "33125859",
+      "33074477",
+      "32907876",
+      "32814346",
+      "32449166",
+      "30936559",
+      "30341162",
+      "27207943",
+      "3685246"
+    ],
+    "similar": [
+      "42544237",
+      "40307857",
+      "42169914",
+      "41766871",
+      "41716413",
+      "41789084",
+      "40485623",
+      "42177711",
+      "41436831",
+      "41674779",
+      "37346073",
+      "39850878",
+      "41403935",
+      "39085893",
+      "42244292",
+      "41371106",
+      "39262476",
+      "42227003",
+      "36973787",
+      "42392347",
+      "39712016",
+      "42263482",
+      "42486346",
+      "36479114",
+      "37555866",
+      "42469385",
+      "40918134",
+      "41234881",
+      "41699549",
+      "41612311",
+      "41898292",
+      "42580240",
+      "42169880",
+      "39530087",
+      "41601657",
+      "41613113",
+      "40224972",
+      "40496864",
+      "37898914",
+      "41286375",
+      "40525440",
+      "40764361",
+      "42180849",
+      "40855439",
+      "37063920",
+      "40265593",
+      "40679719",
+      "38213141",
+      "40533802",
+      "41044669",
+      "41383634",
+      "39697729",
+      "42288924",
+      "36860314",
+      "40064955",
+      "42055628",
+      "42490412",
+      "38189188",
+      "40225866",
+      "42180968",
+      "42180900",
+      "41235257",
+      "39798003",
+      "37540264",
+      "37807645",
+      "41133254",
+      "36211448",
+      "34789197",
+      "42338358",
+      "38114725",
+      "40041119",
+      "42079738",
+      "41459880",
+      "41613122",
+      "40411678",
+      "42468280",
+      "42079608",
+      "41659855",
+      "40315269",
+      "40337768",
+      "38654290",
+      "42445433",
+      "39904693",
+      "41484748",
+      "41040911",
+      "35392063",
+      "41467099",
+      "41314067",
+      "39445019",
+      "42212139",
+      "37650991",
+      "39814999",
+      "41815152",
+      "33962640",
+      "41783590",
+      "41774333",
+      "36359828",
+      "42467357",
+      "35957699",
+      "38515748"
+    ],
+    "review": [
+      "42544237"
+    ],
+    "pmc": [
+      "13429118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42544237/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JHC.S607916",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

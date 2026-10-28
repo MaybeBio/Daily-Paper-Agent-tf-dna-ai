@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including methods, results, discussion, and supplementary figure/table legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors characterize the Dps DNA-binding protein from Deinococcus wulumuqiensis R12, compare its sequence and predicted structure with Dps1 from Deinococcus radiodurans R1, demonstrate in vitro DNA binding and protection, construct a Δdps mutant, and use proteomics to propose roles in oxidative stress resistance, growth, and cell envelope integrity
+- **Visible evidence base** Sequence alignment, RoseTTAFold structural models, AutoDock protein/DNA docking, in vitro DNA binding and protection assays, growth curves, survival assays under H2O2 and UV, qRT-PCR, TEM imaging, LC-MS/MS proteomics, GO/KEGG enrichment, STRING PPI network
+- **Missing materials affecting confidence** Raw proteomics data, statistical details for differential expression, replicate numbers for several assays, structural model quality metrics, docking validation, full figure panels with error bars and statistical annotations, supplementary files not accessible
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question about the role of Dps in an extremophilic Deinococcus species and combines computational, biochemical, genetic, and omics approaches. The work is descriptive and provides a useful dataset, but several claims are not fully supported by the evidence presented. The structural modeling and docking sections lack validation metrics, the in vitro assays are semi-quantitative, and the proteomics interpretation is largely speculative. The causal link between Dps deletion and the observed phenotypes is not established beyond correlation. The manuscript would benefit from more rigorous quantitative analyses and direct functional validation.
+- **Who would be interested in the results, and why** Researchers studying oxidative stress resistance, DNA protection mechanisms, and the biology of Deinococcus species. The comparative sequence and structural analysis may interest structural biologists working on Dps family proteins. The proteomics dataset could be useful for those studying stress responses in extremophiles.
+- **Major strengths** The study combines multiple experimental approaches to characterize a single protein, which is commendable. The comparative analysis between two Deinococcus species provides a useful framework. The construction of a Δdps mutant in a non-model organism is technically valuable. The proteomics dataset adds a systems-level perspective that is relatively uncommon in Dps studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the RoseTTAFold models and AutoDock docking results demonstrate that R12 Dps has better DNA-binding ability than R1 Dps1, and that specific residues (Lys3, Ser8, Ser20, Asp22, Ser129, Ala132) interact with DNA via hydrogen bonds.
+  - **Evidence pointer** Results section "Sequence and structure analyses of D. wulumuqiensis R12 Dps", Figure 1
+  - **Concern** The structural models are presented without any quality metrics such as pLDDT scores, predicted aligned error, or model confidence. The docking results are reported without scoring function values, cluster analysis, or any validation of the docking protocol. The claim that R12 Dps has "better" DNA-binding ability based on the number of hydrogen bonds is not quantitatively supported. The comparison between two different proteins docked to DNA using the same protocol requires statistical or energetic comparison, not just visual inspection of hydrogen bond counts.
+  - **Why it matters** The structural and docking analysis is a central pillar of the manuscript's claim about functional differences between R12 Dps and R1 Dps1. Without model quality assessment and docking validation, the conclusions drawn from these computational results are not reliable. The subsequent in vitro experiments are presented as confirmation of the computational predictions, but the computational predictions themselves are not rigorously established.
+  - **Resolution test** Provide pLDDT scores and predicted aligned error plots for the RoseTTAFold models. Report docking scores, estimated binding free energies, and cluster sizes for the AutoDock results. Include a positive or negative control for the docking protocol. If possible, validate the predicted DNA-binding residues by site-directed mutagenesis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Δdps mutant shows reduced survival under H2O2 and UV stress, and that this is due to the loss of Dps function.
+  - **Evidence pointer** Results section "Survival rate of WT R12 strain and Δdps R12 mutant under oxidative stress" and "Survival rate of the WT R12 strain and Δdps R12 mutant after exposure to UV irradiation", Figure 4B and 4C
+  - **Concern** The survival assays are described without providing replicate numbers, error bars, or statistical tests. The text states survival rates as single values (e.g., 35.98% vs 96.52% after 10 min H2O2) without indicating whether these are means, medians, or single measurements. The UV survival data show large differences between WT and mutant, but no statistical analysis is presented. Additionally, the complementation experiment, which would be the gold standard to confirm that the observed phenotypes are due to dps deletion and not off-target effects, is not described.
+  - **Why it matters** The phenotypic characterization of the Δdps mutant is the core experimental evidence for the in vivo role of Dps. Without proper replicates, error bars, and statistical testing, the reader cannot assess the robustness of the observed differences. The absence of a complementation experiment leaves open the possibility that the phenotypes are due to secondary mutations or polar effects.
+  - **Resolution test** Provide replicate numbers, error bars, and statistical tests for all survival assays. Include a complementation experiment where the dps gene is reintroduced into the Δdps mutant and phenotypes are restored. If complementation is not feasible, provide additional evidence such as multiple independent mutants or ectopic expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the proteomics data reveal that Dps deletion affects metabolism, transport, and oxidation-reduction processes, and that these changes explain the observed phenotypes.
+  - **Evidence pointer** Results section "Difference of proteins expression between the WT R12 strain and the Δdps R12 mutant", "GO analysis", "KEGG analysis", Figures 6-8
+  - **Concern** The proteomics analysis is presented at a descriptive level. The authors report numbers of up- and down-regulated proteins and enriched GO terms and KEGG pathways, but do not provide a table of the differentially expressed proteins with their fold changes and p-values in the main text. The connection between specific protein changes and the observed phenotypes is speculative. For example, the downregulation of catalase is mentioned, but the qRT-PCR validation is only shown in supplementary Figure S3 without clear presentation in the main text. The causal relationship between Dps deletion and the proteomic changes is not established.
+  - **Why it matters** The proteomics data are used to propose mechanisms for the observed phenotypes. Without a clear presentation of the data and a more rigorous analysis of which changes are directly caused by Dps loss versus secondary effects, the mechanistic claims are not well supported. The manuscript would be strengthened by a more focused analysis linking specific protein changes to specific phenotypes.
+  - **Resolution test** Provide a table of differentially expressed proteins with fold changes, p-values, and statistical power. Validate key findings (e.g., catalase, ABC transporters) with independent methods. Discuss which changes are likely direct effects of Dps loss versus compensatory or secondary responses. Consider whether the proteomics data add mechanistic insight beyond the phenotypic observations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TEM analysis shows cell envelope damage in the Δdps mutant after H2O2 treatment, and that this is related to the downregulation of cell envelope proteins.
+  - **Evidence pointer** Results section "TEM analyses of WT R12 strain and the Δdps R12 mutant", Figure 5
+  - **Concern** The TEM images are described qualitatively. The authors state that the cell envelope thickness was reduced from about 160 nm to 120 nm in WT after H2O2 treatment, and that the Δdps mutant suffered "extensive damage," but no quantitative measurements, replicate numbers, or statistical analysis are provided. The connection between the TEM observations and the proteomics data is speculative.
+  - **Why it matters** The TEM data are used to support the claim that Dps is important for cell envelope integrity under oxidative stress. Without quantitative analysis, the reader cannot assess whether the observed differences are significant or representative. The link between the TEM findings and the proteomics data needs to be made more explicitly.
+  - **Resolution test** Provide quantitative measurements of cell envelope thickness with replicate numbers and statistical tests. Include representative images from multiple independent experiments. If possible, correlate the TEM findings with specific protein changes identified in the proteomics analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction contains redundant phrasing, such as "we used Deinococcus wulumuqiensis R12 strain as the experiment material to research, which was previously isolated by our team." This sentence is awkward and could be streamlined.
+  - **Required correction** Revise for clarity and conciseness. For example: "We used Deinococcus wulumuqiensis R12, previously isolated by our team from a radiation-contaminated area in Xinjiang, China."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, qRT-PCR
+  - **Evidence pointer** Methods section "Validation of catalase expression by qRT-PCR"
+  - **Issue** The qRT-PCR methods are described briefly without details on RNA extraction, reverse transcription conditions, primer efficiencies, or data normalization strategy beyond using 16S rRNA as a reference.
+  - **Required correction** Provide additional methodological details, including RNA extraction kit, cDNA synthesis conditions, primer sequences (already in Table S1), and the method for calculating relative expression (e.g., 2^-ΔΔCt).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, LC-MS/MS
+  - **Evidence pointer** Methods section "Liquid chromatography tandem mass spectrometry (LC–MS/MS) analysis"
+  - **Issue** The LC-MS/MS methods lack important details such as the mass spectrometry data acquisition parameters, database search parameters (e.g., enzyme specificity, missed cleavages, variable modifications), and the criteria for protein quantification.
+  - **Required correction** Provide a more complete description of the LC-MS/MS parameters and data analysis pipeline, or cite a published protocol with these details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Results and discussion section
+  - **Issue** The discussion of the N-terminal differences between R12 Dps and R1 Dps1 is interesting but underdeveloped. The authors note that the N-termini are not conserved and may determine functional differences, but they do not discuss the specific structural or biochemical implications in depth.
+  - **Required correction** Expand the discussion of the N-terminal domain, including what is known about N-terminal lysine residues in other Dps proteins and how the specific residues identified in the docking analysis might contribute to DNA binding.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1-9
+  - **Issue** Some figure legends are brief and do not fully explain the panels or the experimental conditions. For example, Figure 4 legend does not describe the statistical analysis or the number of replicates.
+  - **Required correction** Expand figure legends to include experimental details, replicate numbers, and statistical annotations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural modeling and docking validation), R1-M2 (statistical rigor and complementation for phenotypic assays)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The study of Dps in a new Deinococcus species is a useful addition, but the overall approach is not conceptually novel. The combination of structural prediction, biochemical assays, and proteomics is a standard workflow.
+  - **Scientific importance** Moderate. The findings are of interest to the Deinococcus and oxidative stress communities, but the mechanistic insights are limited. The claim that Dps is important for oxidative stress resistance is not surprising given prior literature.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to microbiologists and protein biochemists. The structural analysis is not deep enough to attract structural biologists, and the proteomics is not comprehensive enough to attract systems biologists.
+  - **Technical soundness** The experimental designs are generally sound, but the lack of statistical rigor, validation of computational predictions, and complementation experiments weaken the technical foundation.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections are verbose and could be streamlined. The methods are described in sufficient detail for specialists, but some key parameters are missing.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims about structural differences and functional consequences are not rigorously supported. The phenotypic data lack statistical validation and complementation. The proteomics analysis is descriptive rather than mechanistic. The authors should address the major concerns, particularly the validation of computational predictions and the statistical rigor of the phenotypic assays, before the case for a functional role of Dps in D. wulumuqiensis R12 can be considered established.
+
+## Risk / unsupported claims
+- The claim that R12 Dps has "better" DNA-binding ability than R1 Dps1 based on docking results is unsupported without quantitative scoring and validation.
+- The claim that specific residues (Lys3, Ser8, Ser20, Asp22, Ser129, Ala132) mediate DNA binding is not experimentally validated.
+- The claim that the Δdps mutant shows reduced survival under H2O2 and UV stress is not supported by statistical analysis or replicate data.
+- The claim that cell envelope damage observed by TEM is due to Dps loss is not quantitatively supported.
+- The claim that downregulation of catalase and ABC transporters explains the observed phenotypes is speculative and not causally established.
+- The proteomics data are presented without a full list of differentially expressed proteins, making the analysis difficult to evaluate.

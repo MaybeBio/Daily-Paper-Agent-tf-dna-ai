@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "33712552",
+    "doi": "10.1038/s41419-021-03552-8",
+    "title": "Transcriptional profiling reveals the transcription factor networks regulating the survival of striatal neurons."
+  },
+  "content": {
+    "abstract": "The striatum is structurally highly diverse, and its organ functionality critically depends on normal embryonic development. Although several studies have been conducted on the gene functional changes that occur during striatal development, a system-wide analysis of the underlying molecular changes is lacking. Here, we present a comprehensive transcriptome profile that allows us to explore the trajectory of striatal development and identify the correlation between the striatal development and Huntington's disease (HD). Furthermore, we applied an integrative transcriptomic profiling approach based on machine learning to systematically map a global landscape of 277 transcription factor (TF) networks. Most of these TF networks are linked to biological processes, and some unannotated genes provide information about the corresponding mechanisms. For example, we found that the Meis2 and Six3 were crucial for the survival of striatal neurons, which were verified using conditional knockout (CKO) mice. Finally, we used RNA-Seq to speculate their downstream targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Apoptosis",
+      "Case-Control Studies",
+      "Corpus Striatum/*pathology",
+      "Databases, Genetic",
+      "Eye Proteins/genetics",
+      "*Gene Expression Profiling",
+      "Gene Expression Regulation, Developmental",
+      "*Gene Regulatory Networks",
+      "Genetic Predisposition to Disease",
+      "Homeodomain Proteins/genetics",
+      "Humans",
+      "Huntington Disease/*genetics/*pathology",
+      "Machine Learning",
+      "Mice, Knockout",
+      "Nerve Tissue Proteins/genetics",
+      "Phenotype",
+      "RNA-Seq",
+      "Transcription Factors/*genetics",
+      "*Transcriptome",
+      "Homeobox Protein SIX3",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lin",
+        "Su, Zihao",
+        "Wang, Ziwu",
+        "Li, Zhenmeiyu",
+        "Shang, Zicong",
+        "Du, Heng",
+        "Liu, Guoping",
+        "Qi, Dashi",
+        "Yang, Zhengang",
+        "Xu, Zhejun",
+        "Zhang, Zhuangzhi"
+      ],
+      "short_names": [
+        "Yang L",
+        "Su Z",
+        "Wang Z",
+        "Li Z",
+        "Shang Z",
+        "Du H",
+        "Liu G",
+        "Qi D",
+        "Yang Z",
+        "Xu Z",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2447-6540",
+        "ORCID: 0000-0002-1933-6300",
+        "ORCID: 0000-0002-9860-6689"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China. 14111520028@fudan.edu.cn.",
+        "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China. zz_zhang@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lin",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Su, Zihao",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziwu",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenmeiyu",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Shang, Zicong",
+        "short_name": "Shang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Du, Heng",
+        "short_name": "Du H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guoping",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Qi, Dashi",
+        "short_name": "Qi D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhengang",
+        "short_name": "Yang Z",
+        "identifiers": [
+          "0000-0003-2447-6540"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhejun",
+        "short_name": "Xu Z",
+        "identifiers": [
+          "0000-0002-1933-6300"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China. 14111520028@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhuangzhi",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-9860-6689"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science, MOE Frontier Research Center for Brain Science, Shanghai Key Lab of Birth Defect, Children's Hospital, Fudan University, Shanghai, 200032, P.R. China. zz_zhang@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2021 Mar 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/14 06:00",
+    "fetched_at": "2026-09-27 14:27:16"
+  },
+  "links": {
+    "cites": [
+      "40331981",
+      "39578497",
+      "39259197",
+      "39023844",
+      "38994634",
+      "38761373",
+      "38701209",
+      "38386003",
+      "37980356",
+      "37425820",
+      "37081114",
+      "36674940",
+      "36081908",
+      "35773249",
+      "35156680",
+      "35096003",
+      "34212416"
+    ],
+    "refs": [
+      "31680165",
+      "31491374",
+      "31308550",
+      "31092818",
+      "30929925",
+      "30464175",
+      "29967281",
+      "29878134",
+      "29708965",
+      "29281840",
+      "29203909",
+      "29087512",
+      "27452460",
+      "26344197",
+      "25717192",
+      "25569346",
+      "24742460",
+      "24530739",
+      "24351932",
+      "24082127",
+      "22939629",
+      "22426491",
+      "21536733",
+      "21469956",
+      "21063955",
+      "20927193",
+      "19910308",
+      "19855026",
+      "19709628",
+      "19114008",
+      "18084642",
+      "17066077",
+      "16467349",
+      "16162296",
+      "15972284",
+      "12855770",
+      "12514213",
+      "9550729",
+      "9247261",
+      "9000030",
+      "8805417",
+      "1695404"
+    ],
+    "similar": [
+      "33712552",
+      "29581148",
+      "25762686",
+      "27390852",
+      "17596446",
+      "35156680",
+      "18595722",
+      "25784504",
+      "17959817",
+      "11520890",
+      "29125980",
+      "25398949",
+      "22337954",
+      "18502655",
+      "18632688",
+      "31822756",
+      "21048129",
+      "22326483",
+      "11408619",
+      "28225006",
+      "26133660",
+      "26581643",
+      "26295712",
+      "32499373",
+      "32107381",
+      "22906125",
+      "12223581",
+      "26651603",
+      "26626081",
+      "18691453",
+      "17519223",
+      "23623813",
+      "33952696",
+      "18815258",
+      "15342740",
+      "11642542",
+      "21177255",
+      "22668780",
+      "22700462",
+      "18662332",
+      "24588402",
+      "28334820",
+      "16626669",
+      "28550168",
+      "14697316",
+      "11030759",
+      "27689620",
+      "31599446",
+      "20403078",
+      "11813242",
+      "32898646",
+      "11921119",
+      "16237181",
+      "9651515",
+      "21864528",
+      "22589249",
+      "11698589",
+      "29328442",
+      "24992836",
+      "11182459",
+      "25719447",
+      "33725094",
+      "16641246",
+      "28499347",
+      "25723022",
+      "22072510",
+      "29643462",
+      "24670645",
+      "16210515",
+      "18029446",
+      "29534157",
+      "32170006",
+      "17387706",
+      "25915183",
+      "21703318",
+      "17948889",
+      "23145961",
+      "25976370",
+      "24040390",
+      "17018277",
+      "29582587",
+      "27689619",
+      "26048156",
+      "23829302",
+      "17142832",
+      "22155493",
+      "34014554",
+      "31696228",
+      "25889241",
+      "30624705",
+      "23799534",
+      "12460554",
+      "33441541",
+      "19632326",
+      "26691352",
+      "33871358"
+    ],
+    "review": [
+      "33712552",
+      "29125980",
+      "20403078",
+      "32898646",
+      "11182459",
+      "25723022",
+      "29582587"
+    ],
+    "pmc": [
+      "7955055"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/huntingtonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Huntington's Disease"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/33712552",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-021-03552-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33712552/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33712552",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33712552",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

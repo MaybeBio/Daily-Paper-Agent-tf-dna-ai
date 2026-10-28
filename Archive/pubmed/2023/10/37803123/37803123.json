@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "37803123",
+    "doi": "10.1007/978-1-0716-3461-5_15",
+    "title": "Deep Learning for Predicting Gene Regulatory Networks: A Step-by-Step Protocol in R."
+  },
+  "content": {
+    "abstract": "Deep learning has emerged as a powerful tool for solving complex problems, including reconstruction of gene regulatory networks within the realm of biology. These networks consist of transcription factors and their associations with genes they regulate. Despite the utility of deep learning methods in studying gene expression and regulation, their accessibility remains limited for biologists,  mainly due to the prerequisites of programming skills and a nuanced grasp of the underlying algorithms. This chapter presents a deep learning protocol that utilize TensorFlow and the Keras API in R/RStudio, with the aim of making deep learning accessible for individuals without specialized expertise. The protocol focuses on the genome-wide prediction of regulatory interactions between transcription factors and genes, leveraging publicly available gene expression data in conjunction with well-established benchmarks. The protocol encompasses pivotal phases including data preprocessing, conceptualization of neural network architectures, iterative processes of model training and validation, as well as forecasting of novel regulatory associations. Furthermore, it provides insights into parameter tuning for deep learning models. By adhering to this protocol, researchers are expected to gain a comprehensive understanding of applying deep learning techniques to predict regulatory interactions. This protocol can be readily modifiable to serve diverse research problems, thereby empowering scientists to effectively harness the capabilities of deep learning in their investigations.",
+    "keywords": [
+      "Deep learning",
+      "Gene regulation",
+      "Gene regulatory networks (GRN)",
+      "TensorFlow",
+      "Transcription factors",
+      "Transcriptional regulatory networks"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Deep Learning",
+      "Neural Networks, Computer",
+      "Algorithms",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muley, Vijaykumar Yogesh"
+      ],
+      "short_names": [
+        "Muley VY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Independent Researcher, Hingoli, India. vijaykumar.muley@outlook.de.",
+        "Instituto de Neurobiologia, Universidad Nacional Autonoma de Mexico, Queretaro, Mexico. vijaykumar.muley@outlook.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muley, Vijaykumar Yogesh",
+        "short_name": "Muley VY",
+        "identifiers": [],
+        "affiliations": [
+          "Independent Researcher, Hingoli, India. vijaykumar.muley@outlook.de.",
+          "Instituto de Neurobiología, Universidad Nacional Autónoma de México, Querétaro, México. vijaykumar.muley@outlook.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/07 00:42",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37803123",
+      "35050715",
+      "38556835",
+      "31521253",
+      "35062026",
+      "32207875",
+      "38258521",
+      "37139570",
+      "33169146",
+      "34534646",
+      "35395737",
+      "32786512",
+      "33706810",
+      "30961611",
+      "28748400",
+      "36788477",
+      "34251620",
+      "32249297",
+      "29879919",
+      "37569400",
+      "33328047",
+      "32228116",
+      "29855387",
+      "34449401",
+      "31330861",
+      "33588711",
+      "34768960",
+      "34750410",
+      "33372147",
+      "31510640",
+      "36328750",
+      "33371891",
+      "32363401",
+      "35007471",
+      "35511057",
+      "36585783",
+      "36137539",
+      "32804365",
+      "36222162",
+      "37577525",
+      "32541595",
+      "37598467",
+      "29697304",
+      "36057226",
+      "36210365",
+      "36525344",
+      "36510125",
+      "31022451",
+      "37672186",
+      "32783967",
+      "30971806",
+      "29219084",
+      "33275484",
+      "35552439",
+      "34925485",
+      "36462664",
+      "30547796",
+      "34986805",
+      "34535759",
+      "32606380",
+      "33051704",
+      "37177747",
+      "35584089",
+      "34555591",
+      "29272447",
+      "30808014",
+      "36577143",
+      "38884259",
+      "21668997",
+      "33019313",
+      "35786378",
+      "26072483",
+      "35293310",
+      "36635192",
+      "36901988",
+      "37085776",
+      "33539514",
+      "34814826",
+      "31980704",
+      "35733563",
+      "37467372",
+      "15262804",
+      "35301676",
+      "33876191",
+      "39226889",
+      "38802422",
+      "34370721",
+      "38182825",
+      "38586474",
+      "38063012",
+      "36629274",
+      "38134212",
+      "38036778",
+      "34179082",
+      "35677883",
+      "38405704",
+      "38065779",
+      "33336200",
+      "36735512",
+      "35858171",
+      "37990157",
+      "38177599",
+      "36993652",
+      "38177595",
+      "36618906",
+      "37986952"
+    ],
+    "review": [
+      "37803123",
+      "38556835",
+      "37139570",
+      "33169146",
+      "32228116",
+      "31330861",
+      "33588711",
+      "32363401",
+      "32804365",
+      "29697304",
+      "32783967",
+      "30971806",
+      "33051704",
+      "30808014",
+      "36635192",
+      "34179082",
+      "35677883"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-3461-5_15",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

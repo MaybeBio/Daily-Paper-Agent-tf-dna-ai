@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, experimental procedures, and data availability statements. No supplementary figures, tables, or methods files were provided.
+- **Assessment boundary** Assessment is limited to the claims and evidence presented in the main text. Structural coordinates, raw simulation outputs, EMSA gels, footprint traces, and qPCR data are referenced but not directly inspectable.
+- **Shared manuscript claim summary** The authors report the crystal structure of the unphosphorylated response regulator portion of the hybrid two-component system BT4124 from *Bacteroides thetaiotaomicron*, identify a conserved interdomain "latch" motif that maintains an inactive closed conformation, and show that mutating two latch residues (the "AD" mutation) produces a constitutively active variant. This variant was used to map DNA-binding sites in the *bt4114* promoter and to demonstrate cross-regulation of multiple polysaccharide utilization loci (PULs) related to pectin degradation.
+- **Visible evidence base** Main text figures (Figs 1–6), one supplementary table referenced (Table S1), and descriptions of methods. No raw data, uncropped gels, or full supplementary information were available for review.
+- **Missing materials affecting confidence** Supplementary figures (S1–S5), supplementary tables (S1–S4), PDB coordinate validation reports, raw EMSA and footprint traces, complete qPCR datasets, and the full BioEmu simulation parameters and outputs.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally grounded and methodologically creative approach to a long-standing problem in *Bacteroides* biology: how to study the regulatory targets of hybrid two-component systems when the activating glycan signals are unknown. The crystal structure of the BT4124 receiver domain in its unphosphorylated state is a valuable contribution, and the identification of a conserved latch motif with a clear mechanistic role is convincing. The use of a constitutively active mutant to bypass the need for signal identification is a practical and potentially generalizable strategy. However, the manuscript's central claim of cross-regulation of multiple PULs rests on gene expression data that are presented in a compressed form, and the mechanistic link between the structural observations and the observed regulatory effects is not fully established. The BioEmu simulations are intriguing but their quantitative reliability is not demonstrated. The DNA-binding site identification is thorough but raises questions about the completeness of existing computational predictions that are not fully resolved. Overall, the work is of high interest to the microbiome and bacterial signaling communities, but several technical and interpretive issues need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying bacterial signal transduction, particularly two-component systems and their roles in nutrient sensing; microbiologists focused on the human gut microbiome and glycan metabolism; structural biologists interested in multi-domain regulatory proteins; and computational biologists developing or applying deep-learning tools for protein dynamics and DNA-protein interaction prediction. The proposed "latch mutation" strategy could be of broad interest to anyone studying HTCS-regulated PULs in *Bacteroides* or related genera.
+- **Major strengths** 1) The crystal structure of the BT4124 receiver domain provides the first detailed view of the interdomain interface in a *Bacteroides* HTCS response regulator, and the identification of a specific hydrogen-bond network as a "latch" is mechanistically compelling. 2) The demonstration that a double mutation in this latch produces a constitutively active variant is a practical and potentially transformative tool for the field. 3) The combination of experimental structure determination, deep-learning-based dynamics simulation, and biochemical validation is a modern and integrated approach. 4) The discovery of a previously unidentified DNA-binding site in the *bt4114* promoter highlights the value of the approach and suggests that existing computational predictions may be incomplete.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for cross-regulation claim
+  - **Claim pointer** "BT4124RAD suppresses gene expression across different PULs" and "BT4124 cross-regulates expression of a wide variety of PULs."
+  - **Evidence pointer** Figure 6B and 6D; location not provided for individual data points
+  - **Concern** The central claim of cross-regulation of multiple PULs is based on qPCR data presented in Figure 6. However, the number of biological replicates, the statistical methods used, and the magnitude of the observed changes are not fully described in the main text. The figure shows individual data points, but the text does not report effect sizes, confidence intervals, or whether multiple-testing corrections were applied. The claim that "expression of the other three susC genes... decreased in the BT4124RAD-expressing strain and increased in WT" is presented without quantitative support in the text. Furthermore, the selection of which PULs to examine appears to be based on predicted binding sites, but the criteria for inclusion and exclusion are not stated.
+  - **Why it matters** The cross-regulation claim is a major conclusion of the paper and is highlighted in the title. If the effect sizes are small or the variability is high, the conclusion may not be robust. The lack of detailed statistical reporting prevents the reader from assessing the strength of the evidence.
+  - **Resolution test** Provide complete qPCR datasets in supplementary materials, including all biological replicates, raw Ct values, normalization details, and statistical tests. Report effect sizes and confidence intervals for all comparisons. State the criteria used to select PULs for analysis. If possible, validate the cross-regulation with an independent method, such as RNA-seq or reporter assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of BioEmu simulations
+  - **Claim pointer** "BioEmu simulation with the deep-learning BioEmu shows that the 'AD' mutation of the latch residues destabilizes the inhibitory interface, shifting the conformation equilibrium predominantly to an active, 'open' conformation."
+  - **Evidence pointer** Figure 3; Experimental procedures section on BioEmu
+  - **Concern** The BioEmu simulations are used to support a key mechanistic claim about the effect of the AD mutation on conformational equilibrium. However, the validation of BioEmu for this specific system is not described. The manuscript does not report whether the simulation recapitulates the experimentally observed closed conformation for the wild-type protein, nor does it provide metrics for the reliability of the predicted conformational populations. The choice of 4000 samples and the analysis methods are described, but the sensitivity of the results to these choices is not discussed. The claim that the closed state "nearly vanishes" in the mutant is based on a threshold that is not defined.
+  - **Why it matters** The simulation results are used to provide a mechanistic explanation for the experimental observations. If the simulation method is not validated for this system, the interpretation may be overinterpreted. The field is increasingly reliant on deep-learning-based methods, and it is important to establish their reliability for specific applications.
+  - **Resolution test** Provide a validation of the BioEmu predictions against the crystal structure for the wild-type protein. Report the distribution of simulation outcomes across independent runs. Define the criteria for classifying a conformation as "closed" or "open" and show that the results are robust to reasonable variations in these criteria. If possible, compare the simulation results with experimental data on the mutant, such as limited proteolysis or hydrogen-deuterium exchange.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of DNA-binding data
+  - **Claim pointer** "Even though no binding site is predicted to reside in the Dn fragment, BT4124RAD binds to both Up and Dn fragments with comparable affinity, but weaker than to the Full fragment."
+  - **Evidence pointer** Figure 4A; location not provided for EMSA quantification details
+  - **Concern** The EMSA data show that the Dn fragment, which lacks predicted binding sites, is still bound by BT4124RAD. The authors interpret this as evidence for unidentified binding sites. However, an alternative explanation is that the binding is non-specific, particularly at the high protein concentrations used (apparent KD of 1.6 μM). The manuscript does not report control experiments with a non-specific DNA fragment or a mutated binding site to distinguish specific from non-specific binding. The footprinting data do show protected regions in the Dn fragment, which supports specific binding, but the affinity of this interaction is not quantified.
+  - **Why it matters** The identification of new binding sites is a key result of the paper. If the binding is non-specific, the conclusions about cross-regulation would be weakened. The distinction between specific and non-specific binding is fundamental to the interpretation.
+  - **Resolution test** Perform competition EMSAs with unlabeled specific and non-specific DNA fragments. Quantify the affinity of BT4124RAD for the Dn fragment and compare it to the affinity for a known specific site. Include a negative control DNA fragment with no predicted or known binding sites. If possible, mutate the identified half-sites in the Dn fragment and show that binding is abolished.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the AD mutation strategy
+  - **Claim pointer** "we developed a universal activation strategy by mutating the interdomain latch motif that inhibits the DNA-binding activities."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The manuscript claims that the AD mutation strategy is "universal" and "broadly applicable" based on the high conservation of the latch motif in *Bacteroides* HTCSs. However, only one HTCS (BT4124) is experimentally tested. The conservation of the motif is shown, but it is not demonstrated that the same mutation has the same effect in other HTCSs. The sequence context around the latch may vary, and the effect of the mutation could be context-dependent.
+  - **Why it matters** The generalizability of the strategy is a major selling point of the paper. If the strategy only works for BT4124, its impact would be significantly reduced. The claim of universality is not supported by the data presented.
+  - **Resolution test** Test the AD mutation in at least one or two additional HTCSs from *Bacteroides* with different DNA-binding specificities. Show that the mutant variants are constitutively active and bind to their respective target promoters. Alternatively, temper the claim of universality and present it as a hypothesis to be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2A and 2B
+  - **Issue** The elution volumes for the size exclusion chromatography are reported as mean values, but the number of replicates and the standard deviations are not stated. The legend states "Mean values of elution volumes from at least two experiments," but the individual values are not shown.
+  - **Required correction** Report the number of replicates and the standard deviation for each elution volume. Consider showing individual data points in the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6B and 6D
+  - **Issue** The p-values are indicated in the figure, but the statistical test used is not stated in the figure legend or the main text. It is stated as "unpaired two-tailed t test" in the legend, but it is not clear whether the data meet the assumptions of this test (e.g., normality).
+  - **Required correction** State the statistical test used in the figure legend and describe how the data were checked for normality. If the data are not normally distributed, use a non-parametric test.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Experimental procedures, "Crystal structure determination"
+  - **Evidence pointer** Experimental procedures section
+  - **Issue** The resolution of the crystal structure is not stated in the main text. The R-factor and R-free are also not reported. These are essential metrics for assessing the quality of a crystal structure.
+  - **Required correction** Report the resolution, R-factor, R-free, and other relevant crystallographic statistics in the main text or in a supplementary table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of AlphaFold predictions
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5A and 5B
+  - **Issue** The AlphaFold predictions of the protein-DNA complex show diverse arrangements of the two DBDs. The authors state that eight of the top 10 ranked predictions show a converged binding mode for one DBD, but the figure does not clearly show this convergence. The figure shows representative structures, but it is not clear how the "converged" structures were selected.
+  - **Required correction** Provide a more detailed analysis of the structural predictions, such as a superposition of the converged structures or a plot of the RMSD between the predicted structures. Clearly define the criteria for convergence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Discussion section
+  - **Issue** The term "cross-regulation" is used to describe the effect of BT4124RAD on multiple PULs. However, the manuscript does not clearly distinguish between direct regulation (BT4124 binding to the promoters of these PULs) and indirect regulation (BT4124 regulating a regulator that in turn affects other PULs). The data show that BT4124RAD binds to the *bt4114* and *bt4108* promoters, but the effect on other PULs could be indirect.
+  - **Required correction** Clarify in the text which PULs are likely directly regulated (based on binding data) and which may be indirectly regulated. This distinction is important for understanding the regulatory network.
+- **Technical failings that need to be addressed before the case is established** 1) The qPCR data supporting the cross-regulation claim need to be presented in full with appropriate statistical analysis (R1-M1). 2) The BioEmu simulation results need to be validated against the experimental structure and the sensitivity of the results to analysis parameters needs to be demonstrated (R1-M2). 3) The specificity of DNA binding to the Dn fragment needs to be established with appropriate controls (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** High. The identification of a conserved latch motif and the development of a constitutive activation strategy are novel and creative. The application of BioEmu to this problem is also innovative. **Scientific importance:** High for the microbiome and bacterial signaling fields. The work addresses a fundamental barrier to studying HTCS regulation and provides a potential tool that could be widely used. The finding of cross-regulation of PULs has implications for understanding how *Bacteroides* coordinates glycan utilization. **Interdisciplinary readership:** Moderate. The work will be of primary interest to microbiologists and structural biologists. The use of deep-learning methods may attract computational biologists, but the overall topic is specialized. **Technical soundness:** The structural work appears sound, but the simulation and gene expression data are not fully validated or reported. The DNA-binding studies are thorough but need additional controls. **Readability for nonspecialists:** The manuscript is generally well-written and the figures are clear. However, the methods sections are dense and may be challenging for non-specialists. The abstract does a good job of conveying the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural findings and the development of the AD mutation strategy are valuable and likely correct. However, the cross-regulation claim needs stronger experimental support, and the simulation results need to be validated. If these issues are addressed, the manuscript would be a strong contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the AD mutation strategy is "universal" and "broadly applicable" is not supported by the data, as only one HTCS was tested.
+- The claim that BT4124 "cross-regulates expression of a wide variety of PULs" is not fully supported by the qPCR data as presented, due to incomplete statistical reporting and the possibility of indirect effects.
+- The quantitative reliability of the BioEmu-predicted conformational populations is not established.
+- The physiological relevance of the observed cross-regulation is not demonstrated; the authors do not show that this regulation occurs under conditions where the relevant glycans are present.

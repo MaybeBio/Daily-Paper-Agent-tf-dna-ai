@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40729372",
+  "title": "DNFE: Directed network flow entropy for detecting tipping points during biological processes.",
+  "authors": "Peng, Xueqing; Qiao, Rui; Li, Peiluan; Chen, Luonan",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出有向网络流熵方法检测生物过程临界点，虽涉及转录因子预测，但核心是基因调控网络动态分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Typically, in dynamic biological processes, there is a critical state or tipping point that marks the transition from one stable state to another, surpassing which a considerable qualitative shift takes place. Identifying this tipping point and its driving network is essential to avert or delay disastrous outcomes. However, most traditional approaches built upon undirected networks still suffer from a lack of robustness and effectiveness when implemented based on high-dimensional small-sample data, especially for single-cell data. To address this challenge, we develop a directed network flow entropy (DNFE) method, which can transform measured omics data into a directed network. This method is applicable to both single-cell RNA-sequencing (scRNA-seq) and bulk data. Applying this algorithm to six real datasets, including three single-cell datasets, two bulk tumor datasets, and a blood dataset, the method is proved to be effective not only in identifying critical states, as well as their dynamic network biomarkers, but also in helping explore regulatory relationships between genes. Numerical simulation results demonstrate that the DNFE algorithm is robust across various noise levels and outperforms existing methods in detecting tipping points. Furthermore, the numerical simulations for 100-node and 1000-node gene regulatory networks illustrate the method's application for large-scale data. The DNFE method predicts active transcription factors, and further identified \"dark genes\", which are usually overlooked with traditional methods.",
+  "abstract_zh": "通常，在动态生物过程中，存在一个临界状态或临界点，标志着从一个稳定状态向另一个稳定状态的转变，超过该点会发生显著的质变。识别这一临界点及其驱动网络对于避免或延缓灾难性结果至关重要。然而，大多数基于无向网络的传统方法，在处理高维小样本数据（尤其是单细胞数据）时，仍缺乏鲁棒性和有效性。为解决这一挑战，我们开发了一种有向网络流熵（DNFE）方法，该方法能将测得的组学数据转化为有向网络。此方法适用于单细胞RNA测序（scRNA-seq）和批量数据。将该算法应用于六个真实数据集，包括三个单细胞数据集、两个批量肿瘤数据集和一个血液数据集，结果表明该方法不仅能有效识别临界状态及其动态网络生物标志物，还有助于探索基因间的调控关系。数值模拟结果证明，DNFE算法在不同噪声水平下具有鲁棒性，并且在检测临界点方面优于现有方法。此外，针对100节点和1000节点基因调控网络的数值模拟展示了该方法在大规模数据中的应用。DNFE方法预测了活性转录因子，并进一步识别了传统方法通常忽略的“暗基因”。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40729372/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40729372/",
+  "paper_page_path": "papers/pubmed/40729372/index.html"
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study identifies a stripe rust effector Pst3180.3 that is upregulated during infection, localizes to wheat cytoplasm and nucleus, suppresses BAX-triggered cell death, and contributes to pathogenicity. It further reports that Pst3180.3 interacts with the wheat transcription factor TaMYB4L, inhibits its transcriptional activity, and that TaMYB4L positively regulates wheat resistance. Molecular docking is used to identify key interaction residues.
+- **Visible evidence base** Abstract text only; experimental methods and results are summarized without numerical data, statistical details, or figure references
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, sequence data, docking parameters, and validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting story linking a fungal effector to suppression of a host transcription factor involved in immunity. However, the evidence as summarized is insufficient to evaluate the rigor of the claims. Key quantitative results, statistical support, and methodological details are absent. The molecular docking component, in particular, is presented without sufficient context to assess its validity. The work may be of interest to the plant-pathogen interaction community, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying plant innate immunity, fungal effector biology, wheat rust diseases, and host transcription factor regulation. The identification of a new effector target and the proposed mechanism of transcriptional inhibition would appeal to those working on durable resistance strategies in wheat and on effector-host coevolution.
+- **Major strengths** The study combines multiple interaction assays (Y2H, LCI, Co-IP) to support the Pst3180.3-TaMYB4L interaction. The use of both overexpression and silencing approaches in planta provides complementary evidence for effector function. The inclusion of molecular docking to identify key residues adds a structural dimension that could inform future mutagenesis studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Transient overexpression of Pst3180.3 in Nicotiana benthamiana inhibited programmed cell death triggered via BAX" and "The instantaneous silencing of Pst3180.3 by BSMV-HIGS significantly reduced the number of uredinia and increased accumulation of reactive oxygen species"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative outcomes (inhibition, reduction, increase) without any quantitative data, effect sizes, or statistical measures. No P values, sample sizes, or replicate numbers are given. The term "significantly" is used without supporting statistics.
+  - **Why it matters** Without quantitative support, the reader cannot assess the robustness or biological relevance of the observed phenotypes. This is particularly important for silencing experiments where partial effects are common and for cell death assays where thresholds matter.
+  - **Resolution test** Provide numerical data with statistical tests for each phenotype, including mean values, standard errors, and P values or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Dual-luciferase assays revealed that Pst3180.3 inhibited the transcriptional activity of TaMYB4L"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Pst3180.3 inhibits TaMYB4L transcriptional activity but does not specify the reporter system, the promoter used, the magnitude of inhibition, or whether this effect is dose-dependent. It is also unclear whether this inhibition is direct or indirect.
+  - **Why it matters** The central mechanistic claim of the paper rests on this result. Without details on the assay design and the extent of inhibition, the claim cannot be evaluated. If the inhibition is modest or requires overexpression, the biological relevance may be questionable.
+  - **Resolution test** Describe the reporter construct, the effector dosage used, the fold-change in reporter activity, and include appropriate controls (e.g., a catalytically inactive effector mutant or a different transcription factor).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** "Molecular docking analysis identified the key residue sites for the interaction and binding between Pst3180.3 and MYB4L"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions molecular docking but provides no information on the structures used, the docking software, scoring functions, or validation of the predicted interface. No experimental validation of the predicted residues (e.g., mutagenesis) is described.
+  - **Why it matters** Docking predictions are hypothesis-generating, not confirmatory. Without experimental validation or at least a clear description of the computational approach and its limitations, the claim of "key residue sites" is unsupported.
+  - **Resolution test** Provide details of the docking protocol, include a figure of the predicted interface, and ideally validate at least one predicted residue through site-directed mutagenesis followed by interaction assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** "Virus-induced gene silencing of TaMYB4L weakened the resistance to Pst, indicated that TaMYB4L may be involved in the positive regulation of plant immunity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that silencing TaMYB4L weakens resistance but does not specify the phenotype measured (e.g., uredinia count, lesion size, fungal biomass) or the degree of weakening. The phrase "may be involved" is appropriately cautious, but the evidence base is not described.
+  - **Why it matters** The conclusion that TaMYB4L positively regulates immunity is a key part of the model. If the silencing phenotype is weak or variable, the conclusion may not be robust.
+  - **Resolution test** Provide quantitative disease phenotype data with statistical analysis and, if possible, complementation or overexpression data to strengthen the case for TaMYB4L function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Signal peptide localization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the N-terminal 19 amino acids function as a signal peptide and that the protein is "transferred to cytoplasm and nucleus." Signal peptides typically direct secretion, so the mechanism of nuclear and cytoplasmic localization is unclear.
+  - **Required correction** Clarify whether the protein is secreted and then re-imported, or whether the signal peptide is cleaved and the mature protein is translocated. Provide experimental evidence for localization (e.g., immunolocalization or fluorescent tagging).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Instantaneous silencing"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "instantaneous silencing" is unusual and imprecise. Silencing via BSMV-HIGS typically develops over days.
+  - **Required correction** Replace with a standard term such as "virus-induced gene silencing" or "transient silencing" and specify the time point of phenotype assessment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Docking validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims identification of key residues but does not mention any experimental validation. This creates an expectation that is not met.
+  - **Required correction** Either add a statement that validation is ongoing or planned, or include mutagenesis data in the abstract if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence missing), R1-M2 (mechanistic assay details absent), R1-M3 (docking not validated)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. Effector-transcription factor interactions are known in plant-pathogen systems, but the specific pair and the proposed mechanism may be novel. The abstract does not clearly distinguish this from prior work.  
+  - Scientific importance: Moderate. Understanding how rust effectors suppress host immunity is valuable, but the abstract does not demonstrate broad implications beyond this specific interaction.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to plant pathologists and molecular biologists; the abstract does not frame the findings for a broader audience.  
+  - Technical soundness: Not assessable from the abstract. Key methods are named but not described in sufficient detail, and no quantitative data are provided.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without explanation. The flow is logical, but the lack of quantitative context reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially interesting mechanism, but the absence of quantitative data, assay details, and validation of the docking predictions prevents a supportive recommendation. The authors should provide the full manuscript with complete experimental details and statistical analyses for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that Pst3180.3 is an "important pathogenic factor" is not supported by quantitative pathogenicity data in the abstract.
+- The claim that TaMYB4L "may be involved in the positive regulation of plant immunity" is based on a single silencing experiment without quantitative phenotype data.
+- The identification of "key residue sites" from molecular docking is unsupported without experimental validation or detailed computational methods.
+- The statement that Pst3180.3 "inhibited the transcriptional activity of TaMYB4L" is not assessable without reporter assay details and effect sizes.
+- The localization claim (cytoplasm and nucleus) is not supported by specific experimental evidence in the abstract.

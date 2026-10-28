@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "38906116",
+    "doi": "10.1016/j.molcel.2024.05.025",
+    "title": "A high-throughput synthetic biology approach for studying combinatorial chromatin-based transcriptional regulation."
+  },
+  "content": {
+    "abstract": "The construction of synthetic gene circuits requires the rational combination of multiple regulatory components, but predicting their behavior can be challenging due to poorly understood component interactions and unexpected emergent behaviors. In eukaryotes, chromatin regulators (CRs) are essential regulatory components that orchestrate gene expression. Here, we develop a screening platform to investigate the impact of CR pairs on transcriptional activity in yeast. We construct a combinatorial library consisting of over 1,900 CR pairs and use a high-throughput workflow to characterize the impact of CR co-recruitment on gene expression. We recapitulate known interactions and discover several instances of CR pairs with emergent behaviors. We also demonstrate that supervised machine learning models trained with low-dimensional amino acid embeddings accurately predict the impact of CR co-recruitment on transcriptional activity. This work introduces a scalable platform and machine learning approach that can be used to study how networks of regulatory components impact gene expression.",
+    "keywords": [
+      "chromatin",
+      "high-throughput screening",
+      "machine learning",
+      "transcriptional regulation",
+      "yeast"
+    ],
+    "mesh_terms": [
+      "*Chromatin/metabolism/genetics",
+      "*Synthetic Biology/methods",
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*Gene Expression Regulation, Fungal",
+      "*Transcription, Genetic",
+      "*Gene Regulatory Networks",
+      "High-Throughput Screening Assays/methods",
+      "Saccharomyces cerevisiae Proteins/genetics/metabolism",
+      "Supervised Machine Learning",
+      "Chromatin Assembly and Disassembly",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alcantar, Miguel A",
+        "English, Max A",
+        "Valeri, Jacqueline A",
+        "Collins, James J"
+      ],
+      "short_names": [
+        "Alcantar MA",
+        "English MA",
+        "Valeri JA",
+        "Collins JJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA; Wyss Institute for Biologically Inspired Engineering, Harvard University, Boston, MA 02115, USA; Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA; Wyss Institute for Biologically Inspired Engineering, Harvard University, Boston, MA 02115, USA; Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA. Electronic address: jimjc@mit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alcantar, Miguel A",
+        "short_name": "Alcantar MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "English, Max A",
+        "short_name": "English MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Valeri, Jacqueline A",
+        "short_name": "Valeri JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA; Wyss Institute for Biologically Inspired Engineering, Harvard University, Boston, MA 02115, USA; Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Collins, James J",
+        "short_name": "Collins JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA; Institute for Medical Engineering and Science, MIT, Cambridge, MA 02139, USA; Wyss Institute for Biologically Inspired Engineering, Harvard University, Boston, MA 02115, USA; Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA. Electronic address: jimjc@mit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2024 Jun 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/22 05:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42266835",
+      "42055250",
+      "41286458",
+      "39641628"
+    ],
+    "refs": [],
+    "similar": [
+      "38906116",
+      "24995982",
+      "41365655",
+      "41875746",
+      "28212748",
+      "22609398",
+      "19410536",
+      "39043178",
+      "32054475",
+      "39043639",
+      "33904398",
+      "17400406",
+      "12399584",
+      "17325681",
+      "33859035",
+      "21075748",
+      "23674068",
+      "21326895",
+      "37099808",
+      "20587029",
+      "19494041",
+      "15556037",
+      "24727477",
+      "26772747",
+      "41844670",
+      "22912562",
+      "17551510",
+      "21106074",
+      "19346491",
+      "25844671",
+      "23088601",
+      "28349394",
+      "19543377",
+      "17069658",
+      "25355315",
+      "22863014",
+      "24968945",
+      "28485712",
+      "19594885",
+      "38684225",
+      "18593569",
+      "33280256",
+      "40063354",
+      "31618673",
+      "22456606",
+      "22281492",
+      "22848139",
+      "21785133",
+      "19205744",
+      "39578428",
+      "27693354",
+      "23275436",
+      "31985403",
+      "33159551",
+      "16762362",
+      "23468649",
+      "28541304",
+      "14704355",
+      "28985507",
+      "23002104",
+      "19014615",
+      "18075570",
+      "26755556",
+      "15236596",
+      "30332327",
+      "26564975",
+      "14595359",
+      "37133993",
+      "24395825",
+      "22126206",
+      "16553884",
+      "21623372",
+      "33074101",
+      "18627600",
+      "15262804",
+      "21081924",
+      "11884596",
+      "20935143",
+      "36001970",
+      "33899477",
+      "15948967",
+      "18093974",
+      "29566038",
+      "26627840",
+      "28506463",
+      "26576632",
+      "17101447",
+      "20212085",
+      "19956643",
+      "41123206",
+      "21596317",
+      "16670683",
+      "29392949",
+      "21290820",
+      "18485878",
+      "30753445",
+      "17704134",
+      "20938527",
+      "22345607",
+      "38081658"
+    ],
+    "review": [
+      "38906116",
+      "15556037",
+      "24395825",
+      "22126206",
+      "33899477",
+      "16670683"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00448-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38906116",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

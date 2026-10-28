@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, highlights, introduction, results, discussion, methods, and supplementary figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support for the stated conclusions based solely on the provided manuscript text. No external data, figures, or supplementary materials were available for direct inspection.
+- **Shared manuscript claim summary** The authors report that TEAD4 is upregulated in triple-negative breast cancer (TNBC) cells and correlates with poor patient survival. Through structure-based virtual screening against the YAP-TEAD4 crystal structure (PDB: 6GE3), they identify a small-molecule inhibitor, M511-0965, which binds TEAD4 at residues L366 and F415, disrupts YAP-TEAD4 interaction, downregulates downstream target TGFB2, and suppresses TNBC proliferation, migration, invasion, and EMT while promoting apoptosis in vitro and in xenograft models.
+- **Visible evidence base** Text descriptions of results, figure legends (Figs. 1-7), supplementary figure legend (Supplementary Fig. 1), and methods summaries. No raw data, uncropped blots, statistical outputs, or full supplementary tables were provided.
+- **Missing materials affecting confidence** Actual figures and blots, raw RNA-seq data and analysis details, full compound screening data (Supplementary Table S2), primer sequences (Supplementary Table S1), statistical test outputs, and detailed experimental protocols for several assays (e.g., ChIP, co-IP, MST) are not available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question and proposes a plausible therapeutic strategy for TNBC by targeting the YAP-TEAD4 interaction. The workflow from bioinformatic analysis to virtual screening to functional validation is logical. However, the evidence as presented has several critical gaps. The central claim that M511-0965 acts specifically through YAP-TEAD4 inhibition and TGFB2 downregulation is not fully established. Key experiments lack appropriate controls, quantitative data, and mechanistic depth. The in vivo data are described only superficially. The manuscript would benefit from substantial revision and additional experimentation to support its conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of cancer biology, particularly those studying the Hippo signaling pathway, transcriptional regulation in cancer, and targeted therapy development for triple-negative breast cancer. The identification of a new small-molecule inhibitor of YAP-TEAD4 could be of interest to medicinal chemists and translational oncology researchers seeking novel therapeutic leads.
+- **Major strengths**
+  - The clinical relevance is clear, addressing an unmet need in TNBC treatment.
+  - The study integrates bioinformatics, structural biology, virtual screening, and functional assays, representing a comprehensive approach.
+  - The identification of TGFB2 as a potential downstream mediator provides a specific mechanistic hypothesis.
+  - The use of multiple assays (proliferation, migration, invasion, apoptosis, EMT) and in vivo models strengthens the phenotypic characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of compound mechanism
+  - **Claim pointer** "M511-0965 exerts its anticancer effects primarily by suppressing the downstream gene TGFB2" and "M511-0965 acts by directly inhibiting the YAP-TEAD4 interaction."
+  - **Evidence pointer** Results section "M511-0965 impairs the biological functions of TNBC by restricting the binding of YAP-TEAD4", Fig. 5J, and Discussion.
+  - **Concern** The manuscript claims that M511-0965 functions by disrupting YAP-TEAD4 binding, but the only direct evidence is a single co-IP experiment (Fig. 5J) at one concentration. No dose-response is shown. The specificity of the compound for the YAP-TEAD4 interface over other TEAD interactions or other protein-protein interfaces is not demonstrated. The claim that TGFB2 is the "primary" mediator is not supported by rescue experiments. Overexpression of TGFB2 only "partially" reverses the effects of M511-0965, indicating that other pathways are involved. The manuscript does not rule out off-target effects of M511-0965.
+  - **Why it matters** The therapeutic value of M511-0965 depends on its mechanism of action. If the compound has significant off-target effects or if TGFB2 is not the primary mediator, the proposed model is incorrect, and the rationale for clinical development is weakened.
+  - **Resolution test** Provide a dose-response analysis of YAP-TEAD4 binding disruption by co-IP or an orthogonal method (e.g., MST with purified proteins). Perform a cellular thermal shift assay (CETSA) to confirm target engagement. Conduct RNA-seq or proteomics to assess global effects of M511-0965 and compare with YAP/TEAD4 knockdown. Perform rescue experiments with TGFB2 overexpression to determine the extent to which TGFB2 mediates the compound's effects. Use a structurally related inactive analog as a negative control.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and target validation
+  - **Claim pointer** "M511-0965 suppresses triple-negative breast cancer progression" and "the tumor weight and volume in the M511-0965 treatment group were significantly lower than those in the normal saline control group."
+  - **Evidence pointer** Results section "M511-0965 impairs the biological functions of TNBC by restricting the binding of YAP-TEAD4", Fig. 5K-5M.
+  - **Concern** The in vivo experiment is described in a single sentence. No details are provided on the dosing regimen, route of administration, number of animals per group, tumor take rate, or whether the compound was tolerated. The figure legend mentions "2 mM/kg/d" which is an unusual unit for in vivo dosing and may be a typo. Critically, there is no evidence that M511-0965 engages its target in vivo. No pharmacodynamic markers (e.g., CTGF or TGFB2 levels in tumors) are shown. The reversal of the effect by TEAD4 overexpression is mentioned but not shown in the main figures.
+  - **Why it matters** The in vivo data are essential to support the therapeutic claim. Without proper dosing information, target engagement, and pharmacodynamic data, the efficacy could be due to off-target effects or general toxicity. The study does not establish that the compound is a viable therapeutic lead.
+  - **Resolution test** Provide a detailed description of the in vivo study, including animal numbers, dosing schedule, route, and formulation. Measure tumor levels of TGFB2, CTGF, and YAP-TEAD4 complex to demonstrate target engagement. Include a toxicity assessment (e.g., body weight, organ histology). Show the TEAD4 overexpression reversal data in the main figures. Consider using a second TNBC cell line or a patient-derived xenograft model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** "All data are shown as the mean ± SD of at least three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005."
+  - **Evidence pointer** All figure legends.
+  - **Concern** The statistical methods are not described. It is unclear which test was used for each comparison (e.g., t-test, ANOVA). The figure legends do not specify the number of biological vs. technical replicates. For the in vivo study, no statistical details are given. The use of "p < 0.005" as a significance threshold is unconventional and not standard. The manuscript does not report effect sizes or confidence intervals. The bar graphs shown in the legends are likely to be presented as mean ± SD, but without individual data points, it is impossible to assess the distribution of the data.
+  - **Why it matters** Rigorous statistical reporting is essential for reproducibility and for the reader to assess the reliability of the conclusions. The current presentation is insufficient to evaluate the strength of the evidence.
+  - **Resolution test** Provide a detailed statistical analysis section, specifying the tests used, the number of replicates, and how normality and variance were assessed. Show individual data points in all graphs (e.g., dot plots). Report exact p-values and effect sizes. For the in vivo study, specify the statistical test and the number of animals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth of TGFB2 regulation
+  - **Claim pointer** "M511-0965 exerts its anticancer effects primarily by suppressing the downstream gene TGFB2."
+  - **Evidence pointer** Results section "TGFB2 serves as a downstream target of M511-0965 inhibiting TNBC progression", Fig. 6.
+  - **Concern** The manuscript identifies TGFB2 as a downstream target through RNA-seq and qRT-PCR. However, the mechanism by which YAP-TEAD4 regulates TGFB2 transcription is not explored. Is TGFB2 a direct transcriptional target of TEAD4? The ChIP experiment (Fig. 4C) is for CTGF, not TGFB2. No luciferase reporter assays or ChIP for TGFB2 are shown. The functional significance of TGFB2 downregulation is only partially addressed.
+  - **Why it matters** The title and central claim of the paper hinge on TGFB2 being the key downstream mediator. Without demonstrating direct regulation, the mechanistic model is incomplete.
+  - **Resolution test** Perform ChIP-qPCR to show TEAD4 binding to the TGFB2 promoter. Use a luciferase reporter assay to demonstrate TEAD4-dependent transactivation. Knock down TGFB2 and show that it phenocopies the effects of M511-0965. Overexpress TGFB2 and show it rescues the effects of YAP-TEAD4 inhibition.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance of bioinformatics analysis
+  - **Claim pointer** "High TEAD4 expression correlates with poor prognosis in breast cancer patients."
+  - **Evidence pointer** Results section "The level of TEAD4 was significantly increased in TNBC cell lines", Fig. 1A-1D.
+  - **Concern** The survival analysis is based on the KM plotter database. The manuscript does not specify which datasets were used, the number of patients, the cut-off for high vs. low expression, or whether the analysis was adjusted for confounding factors (e.g., age, stage, treatment). The analysis appears to be pan-breast cancer, not TNBC-specific. The statement that TEAD4 mutations are mostly in TNBC is based on a small number of cases and needs to be interpreted with caution.
+  - **Why it matters** The clinical relevance of TEAD4 is a key part of the rationale. A more rigorous and transparent analysis is needed to support the claim.
+  - **Resolution test** Provide details of the KM plotter analysis, including the specific datasets, patient numbers, and the cut-off used. Perform a multivariate analysis. If possible, validate the prognostic value of TEAD4 in an independent TNBC cohort. Clarify the mutation analysis, including the total number of cases with TEAD4 mutations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figs. 1-7
+  - **Issue** The figure legends are incomplete. They do not describe the statistical tests used, the number of replicates, or the meaning of error bars. The legends for Figs. 5 and 7 do not describe the in vivo experimental groups clearly.
+  - **Required correction** Expand the figure legends to include full experimental details, statistical information, and the number of replicates. Define all abbreviations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Virtual screening and docking
+  - **Evidence pointer** Methods section "Molecular docking"
+  - **Issue** The description of the virtual screening is brief. The scoring function used, the number of compounds tested, and the criteria for selecting M511-0965 are not described. The statement "Compounds with affinities less than -17.5kcal/mol are marked in red" is unclear, as affinity is typically reported as a negative value, and a more negative value indicates stronger binding.
+  - **Required correction** Provide a detailed description of the docking protocol, including the software parameters, scoring functions, and the selection criteria. Clarify the affinity units and the threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section "TGFB2 serves as a downstream target of M511-0965 inhibiting TNBC progression"
+  - **Evidence pointer** Fig. 6
+  - **Issue** The text states "TGFB2 was most significantly downregulated" but does not provide the fold change or p-value. The selection of TGFB2 for further study from the list of differentially expressed genes is not justified.
+  - **Required correction** Provide the fold change and p-value for TGFB2. Briefly explain why TGFB2 was chosen for further validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The term "in situ BC model" is used in the Discussion, but the methods describe a subcutaneous xenograft model. These are different models. The term "in situ" is incorrect.
+  - **Required correction** Use the correct terminology, "subcutaneous xenograft model."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** "Data and code availability"
+  - **Issue** The statement "This study did not generate new unique reagents" is contradicted by the use of a novel compound M511-0965 and the generation of stable cell lines. The RNA-seq data are not deposited in a public repository.
+  - **Required correction** Clarify the availability of the compound and cell lines. Deposit the RNA-seq data in a public repository (e.g., GEO) and provide an accession number.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of evidence for on-target specificity of M511-0965.
+  - R1-M2: Inadequate description and analysis of the in vivo experiment.
+  - R1-M3: Insufficient statistical reporting.
+  - R1-M4: Lack of mechanistic evidence for direct regulation of TGFB2 by TEAD4.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The use of virtual screening to target YAP-TEAD4 is not entirely new, and other inhibitors have been reported. The identification of TGFB2 as a downstream mediator is a novel aspect, but the overall concept is incremental.
+  - **Scientific importance** Potentially high for the TNBC field, given the lack of targeted therapies. However, the importance is diminished by the lack of mechanistic depth and the preliminary nature of the in vivo data.
+  - **Interdisciplinary readership** The topic is of interest to cancer biologists, pharmacologists, and medicinal chemists. The virtual screening approach may appeal to computational biologists. However, the narrow focus on a single compound and pathway may limit broader appeal.
+  - **Technical soundness** The study is technically sound in its basic execution, but the lack of key controls, detailed methods, and rigorous statistics prevents a full assessment. The conclusions are not fully supported by the data as presented.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the results section is dense and would benefit from clearer explanations of the screening process and the significance of the findings. The discussion is somewhat repetitive.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a logical structure, but the central claims regarding the mechanism of action of M511-0965 and its in vivo efficacy are not sufficiently supported. Major revisions and additional experiments are required to address the concerns raised.

@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "33961561",
+    "doi": "10.1109/TCBB.2021.3078128",
+    "title": "Computational Modeling of Gene-Specific Transcriptional Repression, Activation and Chromatin Interactions in Leukemogenesis by LASSO-Regularized Logistic Regression."
+  },
+  "content": {
+    "abstract": "Many physiological and pathological pathways are dependent on gene-specific on/off regulation of transcription. Some genes are repressed, while others are activated. Although many previous studies have analyzed the mechanisms of gene-specific repression and activation, these studies are mainly based on the use of candidate genes, which are either repressed or activated, without simultaneously comparing and contrasting both groups of genes. There is also insufficient consideration of gene locations. Here we describe an integrated machine learning approach, using LASSO-regularized logistic regression, to model gene-specific repression and activation and the underlying contribution of chromatin interactions. LASSO-regularized logistic regression accurately predicted gene-specific transcriptional events and robustly detected the rate-limiting factors that underlie the differences of gene activation and repression. An example was provided by the leukemogenic transcription factor AML1-ETO, which is responsible for 10-15 percent of all acute myeloid leukemia cases. The analysis of AML1-ETO has also revealed novel networks of chromatin interactions and uncovered an unexpected role for E-proteins in AML1-ETO-p300 interactions and a role for the pre-existing gene state in governing the transcriptional response. Our results show that logistic regression-based probabilistic modeling is a promising tool to decipher mechanisms that integrate gene regulation and chromatin interactions in regulated transcription.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Chromatin/*genetics",
+      "Computational Biology",
+      "Gene Expression Regulation, Neoplastic/*genetics",
+      "Humans",
+      "Leukemia/*genetics",
+      "*Logistic Models",
+      "Machine Learning",
+      "*Models, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Steinauer, Nickolas",
+        "Zhang, Kevin",
+        "Guo, Chun",
+        "Zhang, Jinsong"
+      ],
+      "short_names": [
+        "Steinauer N",
+        "Zhang K",
+        "Guo C",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Steinauer, Nickolas",
+        "short_name": "Steinauer N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Kevin",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Guo, Chun",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Jinsong",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2021 Nov-Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/08 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "39703422",
+      "39493178",
+      "38070024",
+      "37404475",
+      "36459277"
+    ],
+    "refs": [
+      "32071087",
+      "31969180",
+      "31940547",
+      "31438843",
+      "31316726",
+      "31103917",
+      "31086298",
+      "31040112",
+      "30901858",
+      "30886626",
+      "30746793",
+      "30664774",
+      "29563929",
+      "29305491",
+      "28511641",
+      "28472344",
+      "28138110",
+      "27483067",
+      "27311442",
+      "27043002",
+      "26518482",
+      "25635165",
+      "25519521",
+      "25350697",
+      "24064250",
+      "24009751",
+      "23927873",
+      "23019145",
+      "21764752",
+      "21188768",
+      "20653935",
+      "20513432",
+      "19141595",
+      "16751179",
+      "16652147",
+      "15960975",
+      "15957004",
+      "15333839",
+      "15156183",
+      "15156176",
+      "10733944",
+      "9819404",
+      "8334990"
+    ],
+    "similar": [
+      "33961561",
+      "26546158",
+      "24064250",
+      "19289505",
+      "23426948",
+      "22289984",
+      "27231175",
+      "12091906",
+      "22923494",
+      "17389244",
+      "28261265",
+      "15333839",
+      "23673926",
+      "16247445",
+      "17590361",
+      "17244680",
+      "16893685",
+      "17000900",
+      "20030931",
+      "19036704",
+      "20589720",
+      "33201243",
+      "22443175",
+      "21258047",
+      "18332109",
+      "18790797",
+      "21447743",
+      "25928846",
+      "28823253",
+      "9234595",
+      "17996649",
+      "10979955",
+      "23812588",
+      "17284535",
+      "11259158",
+      "17989718",
+      "16380455",
+      "24314118",
+      "28611288",
+      "11526243",
+      "15829516",
+      "12732181",
+      "18224409",
+      "33531067",
+      "26706127",
+      "24300456",
+      "10208431",
+      "24370018",
+      "8781439",
+      "12393465",
+      "17560011",
+      "24480914",
+      "18687517",
+      "23097187",
+      "12086889",
+      "18952841",
+      "19581587",
+      "9724795",
+      "8585955",
+      "14751048",
+      "20460523",
+      "23223432",
+      "10383127",
+      "33382982",
+      "19043539",
+      "12944913",
+      "24130502",
+      "16598301",
+      "22884030",
+      "29518627",
+      "8943060",
+      "20487545",
+      "15024077",
+      "29236325",
+      "23492767",
+      "15489901",
+      "10882117",
+      "17056112",
+      "9579874",
+      "10080908",
+      "17266773",
+      "17692541",
+      "10688654",
+      "27346355",
+      "12592335",
+      "22641217",
+      "8876234",
+      "34952336"
+    ],
+    "review": [
+      "33961561",
+      "16893685",
+      "21258047",
+      "9234595",
+      "12732181",
+      "22884030"
+    ],
+    "pmc": [
+      "8572318"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3078128",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/leukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33961561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33961561",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3078128",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33961561",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends referenced but not provided in full)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that the START domain of the Arabidopsis HD-Zip IV transcription factor GLABRA2 (GL2) mediates transcription factor dimerization and protein turnover independently of the homeodomain (HD), which is required for DNA binding. They support this with phenotypic analyses of HD and START mutants, in vitro and in vivo DNA binding assays, yeast two-hybrid and BiFC interaction assays, and cycloheximide chase protein stability experiments.
+- **Visible evidence base** Text descriptions of results, methods, and figure references (Figures 1–6, Supplemental Figures 1–10, Supplemental Tables 1–3, Supplemental Data Set 1)
+- **Missing materials affecting confidence** Actual figures, figure legends, numerical data, statistical outputs, ChIP-seq peak lists, and full methodological details for several assays are not provided. This limits independent verification of effect sizes, data quality, and reproducibility.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in plant transcription factor biology: the functional separation of the HD and START domains in HD-Zip IV proteins. The authors present a coherent model supported by multiple complementary approaches. The phenotypic data linking HD mutations to GL2 loss-of-function phenotypes are compelling, and the distinction between DNA binding (HD-dependent) and dimerization/stability (START-dependent) is a valuable conceptual advance. However, several concerns regarding data presentation, statistical rigor, and the interpretation of certain experiments (particularly the in vivo DNA binding and protein stability assays) need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Plant developmental biologists studying epidermal cell fate, trichome and root hair patterning, and seed coat differentiation. Also, researchers interested in the structure-function relationships of multidomain transcription factors, particularly those containing lipid-binding START domains, and those studying post-translational regulation of transcription factor stability. The work may also appeal to synthetic biologists interested in modular domain engineering.
+- **Major strengths** 1. The study systematically dissects the roles of two conserved domains using a combination of genetics, biochemistry, and cell biology. 2. The use of multiple mutant alleles, including missense mutations targeting conserved residues, strengthens the specificity of the conclusions. 3. The combination of in vitro (EMSA) and in vivo (ChIP-seq) DNA binding assays provides complementary evidence. 4. The protein stability data, including the use of a proteasome inhibitor, begin to address a poorly understood aspect of HD-Zip IV regulation. 5. The phenotypic analyses across multiple epidermal cell types (trichomes, root hairs, seed mucilage) demonstrate the biological relevance of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that "START domain mutants retain DNA-binding activity in a manner that is comparable to wild type" based on ChIP-seq data.
+  - **Evidence pointer** Figure 4D–G, Supplemental Table 2, Supplemental Data Set 1
+  - **Concern** The ChIP-seq analysis is described only in summary form. The text states that "little or no binding was detected for gl2 ΔHD6;ΔZLZ and the gl2-5 null mutant control," but no quantitative metrics (e.g., number of peaks, peak scores, overlap statistics, or enrichment values) are provided in the visible text. The claim of "comparable" binding for START mutants requires a quantitative comparison of peak numbers, genomic distributions, and motif enrichment between wild-type and mutant samples. The low mapping rate for some replicates (as low as 3%) and the merging of replicates with variable quality raise concerns about data robustness.
+  - **Why it matters** The in vivo DNA binding data are central to the conclusion that START is dispensable for DNA binding. Without quantitative evidence and clear quality metrics, the claim is not fully supported.
+  - **Resolution test** Provide a table or figure showing peak counts, overlap statistics, and enrichment scores for each genotype. Include a clear description of how replicates were merged and how mapping rate variability was handled. Show that START mutants have statistically indistinguishable peak profiles from wild type, and that the negative controls have minimal or no peaks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data interpretation
+  - **Claim pointer** The authors state that "protein levels of various START domain mutants (gl2 ΔST, gl2 L480P, gl2 W279R, gl2 Amo) dropped rapidly" in cycloheximide chase experiments.
+  - **Evidence pointer** Figure 6A–B, Supplemental Figure 9
+  - **Concern** The text describes protein half-life determinations but does not provide the actual half-life values, the number of independent experiments, or the statistical test used to compare decay curves. The statement that gl2 ΔST and gl2 W279R were "barely detectable at the 2-h time point" suggests very rapid degradation, but the quantification method and normalization approach are not fully described. The use of whole seedlings may also confound tissue-specific effects.
+  - **Why it matters** The claim that START regulates protein stability is a key novel finding. Without rigorous quantification and statistical comparison, the conclusion is not robustly supported.
+  - **Resolution test** Provide half-life values with standard deviations for each genotype, the number of biological replicates, and the statistical test used (e.g., two-way ANOVA or nonlinear regression comparison). Show representative blots with loading controls and the full time course for all genotypes tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose a model in which "START-domain-mediated dimerization likely contributes stabilization of the transcription factor."
+  - **Evidence pointer** Figure 5, Figure 6, Discussion
+  - **Concern** The causal link between dimerization and stability is inferred but not directly tested. The data show that START mutants are defective in both dimerization and stability, but no experiment demonstrates that restoring dimerization (e.g., via an artificial dimerization domain) rescues protein stability. The authors acknowledge this in the Discussion, but the model is presented as a likely explanation without direct evidence.
+  - **Why it matters** The proposed model is plausible but remains speculative. Directly testing the link would significantly strengthen the mechanistic claim.
+  - **Resolution test** Perform a rescue experiment where a dimerization domain (e.g., a leucine zipper from a heterologous protein) is fused to a START mutant and assess whether protein stability is restored. Alternatively, use a dimerization-defective mutant that retains START function to see if stability is affected.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and specificity
+  - **Claim pointer** The authors generalize their findings from GL2 to "HD-Zip IV TFs" in the Discussion.
+  - **Evidence pointer** Discussion, Introduction
+  - **Concern** The study focuses on GL2 and, for DNA binding, PDF2 and ATML1. The claim that the HD and START domains have nonoverlapping roles across the entire HD-Zip IV family is an extrapolation. While the high conservation of these domains supports this possibility, the authors do not test additional family members or discuss potential family-specific differences.
+  - **Why it matters** Overgeneralization could mislead readers about the universality of the proposed mechanism.
+  - **Resolution test** Soften the language in the Discussion to indicate that the findings are established for GL2 and supported by preliminary data for PDF2 and ATML1, and suggest that future work should test additional family members.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section, plant growth conditions
+  - **Evidence pointer** Methods, "Plant material, growth conditions, and Arabidopsis transformation"
+  - **Issue** The light conditions are described as "continuous light," but the light intensity and photoperiod are not specified. This may affect reproducibility.
+  - **Required correction** Specify light intensity (e.g., μmol m⁻² s⁻¹) and any other environmental parameters (e.g., humidity, temperature range).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1D and 1E
+  - **Evidence pointer** Figure 1D and 1E
+  - **Issue** The text states that trichome number and branching were quantified, but the figure legend (not provided) likely contains the details. The text does not state the sample size or statistical test used for these quantifications.
+  - **Required correction** Include sample sizes and statistical test details in the figure legends or text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** EMSA methods
+  - **Evidence pointer** Methods, "Electrophoretic mobility shift assay (EMSA)"
+  - **Issue** The EMSA method description is brief. The type of gel (native vs. denaturing), the buffer conditions, and the amount of protein used are not specified.
+  - **Required correction** Provide full EMSA conditions, including gel percentage, running buffer, and protein concentration.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The term "STAD" is used in the Results (Figure 5A) but the abstract and introduction use "SAD." This inconsistency could confuse readers.
+  - **Required correction** Use one abbreviation consistently throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Accession numbers
+  - **Evidence pointer** Methods, "Accession Numbers"
+  - **Issue** The GEO accession number is listed as "GSE186860" but the URL contains "GSExxx," which is a placeholder. This is a critical error for data accessibility.
+  - **Required correction** Correct the URL to the actual accession link.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** BiFC quantification
+  - **Evidence pointer** Methods, "Bimolecular fluorescence complementation (BiFC) in N. benthamiana"
+  - **Issue** The text states that mean pixel intensities were quantified, but the number of independent experiments and the statistical test used are not described in the visible text.
+  - **Required correction** Specify the number of biological replicates and the statistical test used for BiFC quantification.
+- **Technical failings that need to be addressed before the case is established** 1. The ChIP-seq data analysis lacks quantitative metrics and quality control details (R1-M1). 2. The cycloheximide chase experiments lack half-life values and statistical comparisons (R1-M2). 3. The link between dimerization and stability is inferred but not directly tested (R1-M3). 4. The GEO accession URL is incorrect (R1-m5).
+- **Assessment against Nature-style criteria** **Originality:** The study offers a novel conceptual framework by separating the functions of HD and START domains in HD-Zip IV transcription factors. This is a significant advance over previous work that treated these domains as a single functional unit. **Scientific importance:** The findings have broad implications for understanding how multidomain transcription factors integrate DNA binding, protein-protein interactions, and post-translational regulation. The work also provides a foundation for understanding the role of lipid-binding domains in transcription factor function, which is a poorly understood area. **Interdisciplinary readership:** The topic is primarily of interest to plant biologists and molecular biologists. The mechanistic insights into protein stability and dimerization may appeal to a broader cell biology audience, but the plant-specific context may limit the interdisciplinary reach. **Technical soundness:** The experimental design is generally sound, with appropriate use of multiple assays and mutant alleles. However, the lack of quantitative data and statistical rigor in key experiments (ChIP-seq, protein stability) weakens the technical foundation. **Readability for nonspecialists:** The manuscript is clearly written and the logic is easy to follow. The use of figures (not provided) would likely aid comprehension. The abstract effectively summarizes the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core conceptual advance is valuable and the data are largely consistent with the proposed model. However, the quantitative weaknesses in the ChIP-seq and protein stability experiments must be addressed to fully establish the claims. The authors should also directly test the dimerization-stability link or clearly frame it as a hypothesis.
+
+## Risk / unsupported claims
+- The claim that START domain mutants retain DNA binding "in a manner that is comparable to wild type" is not quantitatively supported by the provided text.
+- The claim that START domain regulates protein stability is supported by qualitative descriptions but lacks quantitative half-life data and statistical analysis.
+- The model that dimerization contributes to protein stability is presented as a conclusion but is only a hypothesis based on correlative data.
+- The generalization of findings from GL2 to all HD-Zip IV transcription factors is an extrapolation not directly tested in this study.
+- The statement that "HD and START domain are not required for nuclear location of GL2" is supported by imaging data, but the text does not provide quantitative evidence of nuclear localization efficiency across all mutants.

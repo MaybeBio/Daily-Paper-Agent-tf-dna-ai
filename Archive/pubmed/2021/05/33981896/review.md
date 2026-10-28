@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results and discussion, and conclusion. No supplementary material was provided.
+- **Assessment boundary** The review assesses the scientific claims, experimental design, data interpretation, and internal consistency of the presented work. It does not assess the editorial or journal-specific fit beyond general Nature-style criteria.
+- **Shared manuscript claim summary** The authors report the synthesis of three novel fatty acid-derived 4-methoxybenzylamides (compounds 5–7) using DCC/DMAP coupling. They claim characterization by FTIR, NMR, and mass spectrometry. They further claim that these compounds bind to ctDNA via minor groove binding, as supported by UV-vis, fluorescence, and molecular docking studies. Finally, they report in vitro antimicrobial activity, with compound 6 (containing a hydroxy group) showing the most potent antibacterial and antifungal effects.
+- **Visible evidence base** The manuscript provides spectral characterization data (Figures 2–13), UV-vis titration data (Figure 14), fluorescence quenching data (Figures 15–16, Tables 1–2), molecular docking results (Figure 17, Table 3), and antimicrobial activity data (Figures 18–19). No raw data files or supplementary information were provided.
+- **Missing materials affecting confidence** The following materials were not provided and would affect confidence: raw spectral data files, detailed experimental protocols for antimicrobial assays (e.g., specific strains, culture conditions, positive/negative controls), statistical analysis details, purity data for synthesized compounds (e.g., elemental analysis or HPLC traces), and any negative control data for the DNA binding studies. The absence of these materials limits the ability to fully verify the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward synthesis of three fatty acid amides and evaluates their DNA binding and antimicrobial properties. The synthetic work appears feasible and the characterization data, while not independently verifiable here, are consistent with the proposed structures. However, the study has significant limitations. The DNA binding studies are interpreted in a manner that overstates the conclusiveness of the data, particularly regarding the mode of binding. The antimicrobial data are presented descriptively without clear statistical analysis or comparison to established standards beyond a single reference. The claim that compound 6 is the most potent is based on a limited dataset. The manuscript would benefit from a more rigorous and quantitative treatment of the data, and the conclusions should be tempered to match the evidence presented.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry and natural product derivatization might find the synthesis of these fatty acid amides of interest as a potential scaffold for further development. Those studying non-covalent DNA interactions of small molecules may also find the preliminary biophysical data relevant. However, the interest is likely to be narrow, as the antimicrobial activities reported are modest and the mechanistic insights into DNA binding are not deeply explored.
+- **Major strengths**
+  - The synthetic route is simple, uses readily available starting materials, and reports good yields.
+  - The compounds are characterized by multiple spectroscopic techniques.
+  - The study combines synthesis with biophysical and biological evaluation, providing a multi-faceted initial assessment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The manuscript claims that the compounds bind to ctDNA via minor groove binding, based on the Hoechst displacement assay and molecular docking.
+  - **Evidence pointer** Section "Competitive displacement analysis", Figure 16; Section "Molecular docking analysis", Figure 17, Table 3.
+  - **Concern** The conclusion of minor groove binding is not sufficiently supported. The Hoechst displacement assay shows a decrease in fluorescence intensity, but the extent of displacement and the calculated binding constants are not compared to a known minor groove binder control. The molecular docking shows a low-energy conformer in the minor groove, but this is a computational prediction and does not confirm the binding mode in solution. The UV-vis data show hyperchromism, which is often associated with groove binding, but can also result from other interactions. The evidence is suggestive but not conclusive.
+  - **Why it matters** The proposed mechanism of DNA binding is a central claim of the study. If the binding mode is not rigorously established, the interpretation of the biophysical data and the potential biological relevance of the compounds are weakened.
+  - **Resolution test** The authors should perform a competitive displacement assay with a known minor groove binder (e.g., Hoechst 33342 or DAPI) and a known intercalator (e.g., ethidium bromide) under identical conditions to provide a comparative context. Additionally, circular dichroism (CD) spectroscopy could be used to provide more definitive evidence of the binding mode. The docking results should be presented with a more detailed analysis of the interactions and a comparison to a control ligand.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The manuscript claims that compound 6 showed the most powerful antibacterial and antifungal activity.
+  - **Evidence pointer** Section "Antimicrobial studies", Figures 18–19.
+  - **Concern** The antimicrobial data are presented in a descriptive manner. The MIC and MKC values are stated in the text, but the data in Figures 18 and 19 are not fully described. It is unclear if the figures show dose-response curves, zone of inhibition diameters, or something else. The statistical significance of the differences between compounds is not reported. The comparison to the standards (Kanamycin/Amphotericin) is mentioned but the actual values for the standards are not provided in the text, making it difficult to assess the relative potency of the compounds.
+  - **Why it matters** The claim of superior activity for compound 6 is a key finding. Without a clear presentation of the data and statistical analysis, the claim is not verifiable and the significance of the finding is unclear.
+  - **Resolution test** The authors should provide a clear description of the data in Figures 18 and 19, including the units and the experimental conditions. They should report the MIC and MBC/MFC values for all compounds and the standards in a table, with appropriate statistical analysis (e.g., mean ± SD, significance levels). The dose-response curves should be shown if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness and reproducibility
+  - **Claim pointer** The manuscript claims that the compounds were characterized by FTIR, NMR, and mass spectrometry.
+  - **Evidence pointer** Section "Materials and methods", Section "Results and discussion", Figures 2–13.
+  - **Concern** The characterization data are presented as figures, but the key spectral peaks are not tabulated or described in the text. For example, the 1H and 13C NMR assignments are not listed. This makes it difficult for a reader to verify the structural assignments. The mass spectrometry data are only given as calculated and found m/z values, without details on the ionization method or the presence of any adducts.
+  - **Why it matters** Full and unambiguous characterization of new compounds is a fundamental requirement for publication. The current presentation is insufficient for a reader to fully assess the purity and identity of the compounds.
+  - **Resolution test** The authors should provide a table summarizing the key 1H and 13C NMR chemical shifts with assignments, and the IR absorption bands. The mass spectrometry data should include the method (e.g., ESI-MS) and any relevant details. Elemental analysis or high-resolution mass spectrometry data would further strengthen the characterization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Conclusion
+  - **Evidence pointer** Abstract, Conclusion
+  - **Issue** The abstract and conclusion state that the binding is "strong" based on hyperchromism, but this is an overstatement. Hyperchromism indicates interaction, but its magnitude does not directly correlate with binding strength without further analysis.
+  - **Required correction** Rephrase to state that the compounds "interact" with ctDNA, and describe the observed spectral changes without using the term "strong" unless a binding constant is provided and discussed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Molecular docking section
+  - **Evidence pointer** Section "Molecular docking analysis", Table 3.
+  - **Issue** The manuscript states that the binding free energy from docking (-5.21 kcal/mol) is "higher" than the experimental value (-4.90 kcal/mol). This is confusing. A more negative value indicates a stronger binding. The text should clarify the comparison.
+  - **Required correction** Clarify the comparison. For example, state that the docking predicted a slightly more favorable binding energy (-5.21 kcal/mol) compared to the experimental estimate (-4.90 kcal/mol).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Materials and methods, Antimicrobial studies
+  - **Evidence pointer** Section "Antimicrobial studies"
+  - **Issue** The specific microbial strains used are not named. The text only refers to "E. Coli", "A. tumefaciens", "Alternaria", and "Rhizopus". For reproducibility, the specific strains (e.g., E. coli ATCC 25922) should be provided.
+  - **Required correction** Provide the specific strain designations for all microorganisms used in the study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results and discussion, UV-vis studies
+  - **Evidence pointer** Section "UV-vis spectroscopic studies", Figure 14.
+  - **Issue** The text mentions a "continuous increase of the absorption spectrum" but does not mention any wavelength shift. The presence or absence of a shift is important for interpreting the binding mode.
+  - **Required correction** State explicitly whether any wavelength shift was observed upon addition of the compounds to ctDNA.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The mode of DNA binding is not conclusively established.
+  - R1-M2: The antimicrobial data are not presented with sufficient detail or statistical analysis to support the claims.
+  - R1-M3: The compound characterization data are not presented in a fully verifiable format.
+- **Assessment against Nature-style criteria**
+  - **Originality** Low. The synthesis of fatty acid amides is a well-established reaction. The specific compounds are new, but the approach is not conceptually novel.
+  - **Scientific importance** Low to Moderate. The findings are of incremental interest to the field of antimicrobial agent development. The reported activities are modest and do not represent a significant breakthrough.
+  - **Interdisciplinary readership** Low. The work is primarily of interest to synthetic chemists and those specifically studying DNA interactions. The biological data are not strong enough to attract a broader biomedical audience.
+  - **Technical soundness** Moderate. The synthetic and characterization methods are standard. However, the biophysical and biological assays are not performed or presented with the rigor required to fully support the conclusions.
+  - **Readability for nonspecialists** Moderate. The manuscript is written in a standard scientific style, but the lack of clear data presentation in the results section makes it difficult for a nonspecialist to follow the key findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has significant technical and interpretative flaws that prevent the main claims from being fully supported. The authors would need to address the major concerns, particularly regarding the DNA binding mode and the antimicrobial data, before the case for the paper's conclusions is made.
+
+## Risk / unsupported claims
+- The claim of "strong interaction" between compounds and DNA is unsupported by quantitative binding constants.
+- The claim of "minor groove binding" is not fully supported by the experimental evidence presented.
+- The claim that compound 6 is the "most powerful" antimicrobial agent is not supported by statistical analysis or a clear comparison of all data.
+- The statement in the conclusion that the binding process is driven by "hydrophobic interactions" is not directly supported by the experiments performed.
+- The statement in the conclusion that the synthetic method is "sustainable" is not substantiated by any specific metrics or analysis.

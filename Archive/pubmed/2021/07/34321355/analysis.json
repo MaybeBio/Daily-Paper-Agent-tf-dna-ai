@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34321355",
+  "title": "Single-particle diffusional fingerprinting: A machine-learning framework for quantitative analysis of heterogeneous diffusion.",
+  "authors": "Pinholt, Henrik D; Bohr, Soren S-R; Iversen, Josephine F; Boomsma, Wouter; Hatzakis, Nikos S",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-07-30",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于机器学习的单颗粒追踪扩散指纹分类框架，虽涉及转录因子在细胞内的扩散，但未聚焦TF-DNA结合互作或三维结构建模，方法可迁移至TF-DNA动态研究。",
+  "abstract": "Single-particle tracking (SPT) is a key tool for quantitative analysis of dynamic biological processes and has provided unprecedented insights into a wide range of systems such as receptor localization, enzyme propulsion, bacteria motility, and drug nanocarrier delivery. The inherently complex diffusion in such biological systems can vary drastically both in time and across systems, consequently imposing considerable analytical challenges, and currently requires an a priori knowledge of the system. Here we introduce a method for SPT data analysis, processing, and classification, which we term \"diffusional fingerprinting.\" This method allows for dissecting the features that underlie diffusional behavior and establishing molecular identity, regardless of the underlying diffusion type. The method operates by isolating 17 descriptive features for each observed motion trajectory and generating a diffusional map of all features for each type of particle. Precise classification of the diffusing particle identity is then obtained by training a simple logistic regression model. A linear discriminant analysis generates a feature ranking that outputs the main differences among diffusional features, providing key mechanistic insights. Fingerprinting operates by both training on and predicting experimental data, without the need for pretraining on simulated data. We found this approach to work across a wide range of simulated and experimentally diverse systems, such as tracked lipases on fat substrates, transcription factors diffusing in cells, and nanoparticles diffusing in mucus. This flexibility ultimately supports diffusional fingerprinting's utility as a universal paradigm for SPT diffusional analysis and prediction.",
+  "abstract_zh": "单粒子追踪（SPT）是对动态生物过程进行定量分析的关键工具，并为受体定位、酶推进、细菌运动性和药物纳米载体递送等广泛系统提供了前所未有的见解。此类生物系统中固有的复杂扩散在时间和系统间均可能发生剧烈变化，因此带来了显著的分析挑战，目前需要对该系统具备先验知识。在此，我们提出一种用于SPT数据分析、处理和分类的方法，称之为“扩散指纹识别”。该方法能够解析扩散行为背后的特征并确立分子身份，无论底层扩散类型如何。该方法通过为每个观测到的运动轨迹提取17个描述性特征，并为每种粒子类型生成所有特征的扩散图谱来实现。随后，通过训练一个简单的逻辑回归模型，获得扩散粒子身份的精确分类。线性判别分析生成特征排名，输出扩散特征间的主要差异，提供关键的机制性见解。指纹识别既在实验数据上训练，也用于预测实验数据，无需在模拟数据上进行预训练。我们发现该方法适用于广泛的模拟和实验多样系统，如脂肪底物上追踪的脂肪酶、细胞内扩散的转录因子以及黏液中扩散的纳米粒子。这种灵活性最终支持扩散指纹识别作为SPT扩散分析和预测的通用范式的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34321355/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34321355/",
+  "paper_page_path": "papers/pubmed/34321355/index.html"
+}

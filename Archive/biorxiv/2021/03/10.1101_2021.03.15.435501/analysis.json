@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.15.435501",
+  "title": "Automated Modeling of Protein Accumulation at DNA Damage Sites using qFADD.py",
+  "authors": "Samuel Bowerman; Jyothi Mahadevan; Philip Benson; Johannes Rudolph; Karolin Luger",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-15",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发qFADD.py工具，用蒙特卡洛扩散模型量化DNA损伤位点修复蛋白的招募动力学，虽涉及蛋白-DNA损伤位点互作，但聚焦荧光成像数据分析，非TF-DNA结合机制建模，且方法为扩散模拟而非AI或分子动力学，与课题关联有限。",
+  "abstract": "Cells are exposed to a plethora of influences that can cause damage to DNA and alter the genome, often with detrimental consequences for health. Cells mitigate this damage through a variety of repair protein pathways, and accurate measurement of the accumulation, action, and dissipation timescales of these repair proteins is required to fully understand the DNA damage response. Recently, we described the Q-FADD ( Q uantitation of F luorescence A ccumulation after D NA D amage) method, which enhances the analytical power of the widely used laser microirradiation technique. In that study, Q-FADD and its preprocessing operations required licensed software and a significant amount of user overhead to find the model of best fit. Here, we present “qFADD.py”, an open-source implementation of the Q-FADD algorithm that is available as both a stand-alone software package and on a publicly accessible webserver ( https://qfadd.colorado.edu/ ). Furthermore, we describe significant improvements to the fitting and preprocessing methods that include corrections for nuclear drift and an automated grid-search for the model of best fit. To improve statistical rigor, the grid-search algorithm also includes automated simulation of replicates. As an example, we discuss the recruitment dynamics of the signaling protein PARP1 to DNA damage sites, and we show how to compare different populations of qFADD.py models. Statement of Significance Cells are constantly bombarded by factors that can alter or damage their genome, and they have evolved a variety of proteins that can identify and fix this damage. To fully understand how these proteins interact in repair pathways, we need robust methods to quantify the timescales between the initial identification of the DNA damage event and the subsequent protein-protein interactions that lead to repair. Laser microirradiation is a popular method for studying these repair protein cascades in vivo, and methods for quantifying the timescales of recruitment in these experiments have historically been simple to implement but lacking in physical interpretation. Here, we present qFADD.py, the next iteration of the Q-FADD method, which uses Monte Carlo diffusion models to interpret repair protein recruitment timescales to sites of DNA damage. By moving towards automated fitting procedures with minimal bias from the user, qFADD.py provides a statistically robust but low-effort means to analyze laser microirradiation experiments through a biophysical framework.",
+  "abstract_zh": "细胞暴露于多种可导致DNA损伤并改变基因组的因素中，这通常对健康产生不利后果。细胞通过多种修复蛋白途径来减轻这种损伤，而要全面理解DNA损伤应答，需要精确测量这些修复蛋白的积累、作用及消散时间尺度。近期，我们描述了Q-FADD（DNA损伤后荧光积累定量，Quantitation of Fluorescence Accumulation after DNA Damage）方法，该方法增强了广泛使用的激光微辐照技术的分析能力。在那项研究中，Q-FADD及其预处理操作需要许可软件和大量用户开销来寻找最佳拟合模型。在此，我们呈现“qFADD.py”，这是Q-FADD算法的开源实现，既可作为独立软件包使用，也可通过公开访问的网络服务器（https://qfadd.colorado.edu/）获取。此外，我们描述了拟合和预处理方法的显著改进，包括核漂移校正和自动网格搜索以确定最佳拟合模型。为提高统计严谨性，网格搜索算法还包含自动模拟重复实验。作为示例，我们讨论了信号蛋白PARP1在DNA损伤位点的招募动态，并展示了如何比较qFADD.py模型的不同群体。意义声明细胞持续受到可改变或损伤其基因组的因素攻击，它们已进化出多种能够识别并修复这种损伤的蛋白质。要全面理解这些蛋白质在修复途径中的相互作用，我们需要稳健的方法来量化从DNA损伤事件初始识别到随后导致修复的蛋白质-蛋白质相互作用之间的时间尺度。激光微辐照是研究体内这些修复蛋白级联反应的流行方法，而在这些实验中量化招募时间尺度的方法历来简单易行但缺乏物理解释。在此，我们呈现qFADD.py，即Q-FADD方法的下一代迭代，它使用蒙特卡洛扩散模型来解释修复蛋白在DNA损伤位点的招募时间尺度。通过转向自动化拟合程序并最小化用户偏差，qFADD.py提供了一种统计上稳健且低工作量的手段，通过生物物理框架分析激光微辐照实验。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435501",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.15.435501",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.15.435501/index.html"
+}

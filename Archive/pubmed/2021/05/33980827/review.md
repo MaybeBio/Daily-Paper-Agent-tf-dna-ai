@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that the N-terminal BAT motif of Rif2 inhibits the MRX complex at telomeres by binding to the Rad50 ATPase Head domain, thereby preventing the transition to the DNA-bound state and blocking NHEJ, 5' resection, and Tel1 activation.
+- **Visible evidence base** Figures 1–7, Supplementary Figures 1–8, and Methods sections as described in the text.
+- **Missing materials affecting confidence** Raw data files, uncropped blots/gels, statistical analysis details, and full supplementary information are not provided. The manuscript text is complete but lacks detailed experimental protocols for some assays.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-structured investigation into the molecular mechanism of Rif2-mediated MRX inhibition at telomeres. The authors combine genetic, biochemical, and structural modeling approaches to identify a novel interaction interface on Rad50 and propose a plausible mechanistic model. The work is of high interest to the telomere and DNA repair communities, and the findings have broad implications for understanding how telomere-associated proteins regulate DNA end processing. However, several technical concerns, particularly regarding the specificity of the genetic screen and the robustness of the structural models, need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, DNA double-strand break repair, SMC family ATPases, and protein-protein interactions involved in genome stability. The proposed mechanism of BAT-mediated MRX inhibition could inform studies on related systems in higher eukaryotes, such as TRF2-mediated MRN regulation at mammalian telomeres.
+- **Major strengths** 1. The identification of the BAT motif as a minimal functional unit sufficient for NHEJ inhibition and MRX binding is a significant advance. 2. The combination of unbiased genetic screening and structure-guided mutagenesis provides complementary evidence for the Rad50 interaction surface. 3. The proposed model, linking BAT binding to the ATPase cycle of Rad50, is conceptually novel and testable. 4. The use of multiple assays (NHEJ, resection, ChIP, two-hybrid, pull-down) strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The genetic screen identified Rad50 mutants (m7, m13) that confer resistance to Rif2 BAT inhibition, and the authors claim these mutations define a surface on Rad50 essential for BAT function.
+  - **Evidence pointer** Figure 5, Supplementary Figure 6
+  - **Concern** The screen was performed in cells lacking Sir4, and the selected mutants were not fully characterized for their effects on MRX function beyond telomere length and NHEJ. The authors note that m7 and m13 have mildly short telomeres, suggesting partial loss of MRX function. It is unclear whether the resistance to BAT inhibition is due to a specific disruption of the BAT-Rad50 interaction or a general defect in MRX activity that indirectly affects Rif2 sensitivity. The lack of a direct binding assay for the mutant Rad50 proteins with the BAT motif weakens the claim that these residues are specifically required for the interaction.
+  - **Why it matters** The identification of specific Rad50 residues is central to the proposed mechanism. If the mutants act through a general loss of MRX function, the conclusion that the BAT binds to a defined surface on Rad50 is not supported.
+  - **Resolution test** Provide direct binding data (e.g., two-hybrid or pull-down) for the m7 and m13 mutant Rad50 proteins with the BAT motif. Additionally, assess whether these mutants retain other MRX functions, such as DNA binding or ATPase activity, to rule out global defects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The docking models (CABSdock and HADDOCK) predict that BAT binding to Rad50 sterically hinders the transition to the DNA-bound state, and the authors use these models to support their mechanistic proposal.
+  - **Evidence pointer** Figures 6, 7, Supplementary Figure 7
+  - **Concern** The structural models are based on homology modeling with low sequence identity (<15% for the E. coli template) and are not validated by experimental structural data (e.g., mutagenesis of predicted interface residues beyond those identified in the screen, or crosslinking). The conformational changes proposed, particularly the movement of Mre11 helix 181–192, are speculative and not directly tested. The models are used to make strong mechanistic claims, but the resolution and accuracy of the models are insufficient to support such conclusions.
+  - **Why it matters** The proposed mechanism relies heavily on the structural interpretation. Without experimental validation of the predicted interface and conformational changes, the model remains hypothetical.
+  - **Resolution test** Perform site-directed mutagenesis on additional residues predicted by the models to be at the BAT-Rad50 interface and test their effects on binding and function. Alternatively, obtain higher-resolution structural data (e.g., cryo-EM or X-ray crystallography) for the BAT-Rad50 complex.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that the BAT motif acts only at short distances from the telomere end, based on the observation that BAT activity diminishes when binding sites are moved further away.
+  - **Evidence pointer** Figure 2C, Supplementary Figure 2D
+  - **Concern** The distance-dependence experiments are performed at a broken end, not at a native telomere. The relevance of this finding to the telomere context, where Rif2 is recruited by Rap1 along the telomeric tract, is not directly demonstrated. The authors do not discuss how the short-range action of BAT would be sufficient to protect telomeres, given that Rap1 binds along the entire telomere.
+  - **Why it matters** The model proposes that Rif2 acts locally at telomeres, but the in vivo relevance of the distance constraint is unclear. If BAT only acts within a short range, it may not be able to inhibit MRX at all telomere ends, which could limit the model's explanatory power.
+  - **Resolution test** Test the distance-dependence of BAT activity at a native telomere, for example by inserting binding sites at varying distances from the telomere end and measuring NHEJ or resection. Alternatively, discuss how the short-range action is reconciled with the telomere context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon (e.g., "BAT motif," "MRX Head") without sufficient context for a general reader.
+  - **Required correction** Briefly define key terms and provide a clearer statement of the biological significance of the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The quantification of the PCR products is described as "ng" but the method for quantification is not detailed. It is unclear if this is a standard curve-based quantification or densitometry.
+  - **Required correction** Provide details on the quantification method in the Methods or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3B
+  - **Evidence pointer** Figure 3B
+  - **Issue** The ChIP data show a reduction in Mre11 and Xrs2 occupancy at the broken end, but the statistical significance and number of biological replicates are not stated in the figure legend.
+  - **Required correction** Add statistical details and replicate numbers to the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Two-hybrid assay
+  - **Evidence pointer** Methods
+  - **Issue** The two-hybrid assay is described briefly, but the controls for specificity (e.g., testing against unrelated proteins) are not mentioned.
+  - **Required correction** Include a description of controls used to ensure the specificity of the interactions.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is original, identifying a novel interaction between Rif2 BAT and Rad50 Head domain, and proposing a new mechanism for MRX regulation. The use of a genetic screen to identify resistance mutations is a creative approach.  
+  - **Scientific importance** The findings are important for understanding telomere protection and DNA repair, with potential implications for cancer and aging. The proposed mechanism could be broadly applicable to SMC family proteins.  
+  - **Interdisciplinary readership** The work will appeal to researchers in telomere biology, DNA repair, structural biology, and molecular genetics. The use of multiple techniques broadens its appeal.  
+  - **Technical soundness** The experimental approaches are generally sound, but the lack of direct binding data for the identified Rad50 mutants and the speculative nature of the structural models are significant weaknesses.  
+  - **Readability for nonspecialists** The manuscript is well-written but assumes familiarity with telomere and DNA repair concepts. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are novel and potentially significant, but the current evidence does not fully establish the proposed mechanism. Direct binding assays for the Rad50 mutants and experimental validation of the structural models are required.
+
+## Risk / unsupported claims
+- The claim that the BAT motif binds specifically to the Rad50 Head domain is supported by two-hybrid and pull-down data, but the identification of specific residues (K6, K81, I93) as essential is based on a genetic screen that may not be fully specific.
+- The proposed steric hindrance mechanism, where BAT binding prevents the transition to the DNA-bound state, is not directly tested and relies on unvalidated structural models.
+- The distance-dependence of BAT activity is demonstrated at a broken end, but its relevance to native telomeres is not established.
+- The conservation of the BAT motif and its mechanism in other eukaryotes is speculative and not supported by direct evidence.

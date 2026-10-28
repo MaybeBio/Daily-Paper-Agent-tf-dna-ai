@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract and title only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The study proposes andrographolide-based compounds as potential anti-inflammatory transcription inhibitors targeting the NF-κB p50 subunit, using an integrated molecular and quantum mechanical approach
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, computational methods, statistical analyses, and compound structures
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational drug discovery strategy but lacks the quantitative and methodological detail necessary to evaluate the validity, novelty, or significance of the findings. The core claims are stated without supporting data, making the current evidence base insufficient for a rigorous assessment.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, anti-inflammatory pharmacology, and natural product chemistry may find the approach relevant. The potential targeting of NF-κB p50 by andrographolide derivatives could interest those seeking novel anti-inflammatory agents, though the abstract does not yet demonstrate a compelling advance.
+- **Major strengths** The study addresses a biologically relevant target, NF-κB p50, with a well-established role in inflammation. The combination of molecular and quantum mechanical methods suggests a technically sophisticated approach, and the focus on a natural product scaffold is of practical interest.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract implies that andrographolide-based compounds are potential anti-inflammatory transcription inhibitors against NF-κB p50, based on an integrated molecular and quantum mechanical approach
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative results, such as binding affinities, inhibition constants, or comparative activity data, to support the claim of potential inhibitory activity. No specific compound identities, computational scores, or validation metrics are reported.
+  - **Why it matters** Without numerical or comparative evidence, the central claim of potential inhibition is unsubstantiated. The reader cannot assess whether the compounds are genuinely promising or merely computationally plausible.
+  - **Resolution test** Provide key quantitative results, such as docking scores, binding free energies, or quantum mechanical descriptors, with appropriate comparisons to known inhibitors or controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The study uses an integrated molecular and quantum mechanical approach, implying a rigorous and reproducible computational workflow
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the specific methods used, including software, force fields, basis sets, or validation protocols. No details on how the compounds were selected, optimized, or evaluated are given.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without methodological detail, the technical soundness of the approach cannot be evaluated, and the results cannot be independently verified.
+  - **Resolution test** Include a clear methods summary in the abstract or ensure the full text provides complete computational parameters and validation steps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance
+  - **Claim pointer** The study implies a novel contribution to anti-inflammatory drug discovery through andrographolide-based inhibitors
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not state how this work advances beyond existing computational studies on NF-κB inhibitors or andrographolide derivatives. No comparison to prior work or identification of a specific knowledge gap is provided.
+  - **Why it matters** For a Nature-style audience, the significance of the work must be explicit. Without a clear statement of novelty or advance, the contribution may be incremental rather than transformative.
+  - **Resolution test** Clarify in the abstract what is new relative to prior computational or experimental studies, and specify the expected impact on the field.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "potential anti-inflammatory transcription inhibitors" is vague and could be interpreted as either direct inhibition of transcription or inhibition of a transcription factor. The abstract does not clarify the mechanism.
+  - **Required correction** Specify the proposed mechanism of action, such as direct binding to NF-κB p50 or interference with DNA binding, to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention any experimental validation or future directions, which limits the reader's understanding of the study's scope and next steps.
+  - **Required correction** Add a sentence on validation plans or the need for experimental confirmation to contextualize the computational findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lacks a clear structure, such as background, methods, results, and conclusion, making it difficult to follow the logical flow.
+  - **Required correction** Reorganize the abstract to include distinct sections for context, approach, key findings, and implications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail means the core claims cannot be evaluated or reproduced. These must be addressed before the case for potential inhibitory activity is established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Not assessable from the abstract. No comparison to prior work or statement of novelty is provided.
+  - **Scientific importance** Weakly supported. The target is relevant, but the abstract does not demonstrate a significant advance or broad impact.
+  - **Interdisciplinary readership** Limited. The abstract is likely accessible to computational chemists but may not engage a broader biological or clinical audience without clearer biological context.
+  - **Technical soundness** Not assessable. No methodological details or validation data are provided.
+  - **Readability for nonspecialists** Moderate. The title and abstract are understandable but lack context and clarity on the significance and mechanism.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological support for the claims. A revised abstract with key results and methods, or access to the full text, would be necessary for a more definitive assessment.
+
+## Risk / unsupported claims
+- The claim that andrographolide-based compounds are potential anti-inflammatory transcription inhibitors against NF-κB p50 is unsupported by quantitative evidence in the abstract.
+- The implied novelty and significance of the approach are not substantiated by comparison to existing literature.
+- The methodological approach is described only in general terms, making the technical validity unassessable.

@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "37055577",
+    "doi": "10.1038/s41598-023-33388-5",
+    "title": "Identification of diagnostic biomarks and immune cell infiltration in ulcerative colitis."
+  },
+  "content": {
+    "abstract": "We aimed to explore diagnostic biomarks and immune cell infiltration characteristics in ulcerative colitis (UC). We used the dataset GSE38713 as the training set and dataset GSE94648 as the test set. A total of 402 differentially expressed genes (DEGs) were obtained from GSE38713. Annotating, visualizing, and integrating discovery of these differential genes was performed using Gene Ontology (GO), Kyoto Gene and Genome Encyclopedia Pathway (KEGG), and Gene Set Enrichment Analysis (GSEA). Protein-protein interaction networks were constructed from the STRING database, and protein functional modules were identified using the CytoHubba plugin of Cytoscape. Random forest and LASSO regression were used to screen for UC-related diagnostic markers, and ROC curves were generated to validate their diagnostic value. The composition of 22 immune cells was analyzed, and the immune cell infiltration in UC was analyzed using CIBERSORT. Results: Seven diagnostic markers associated with UC were identified: TLCD3A, KLF9, EFNA1, NAAA,WDR4, CKAP4, and CHRNA1. Immune cell infiltration assessment revealed that macrophages M1, activated dendritic cells, and neutrophil cells infiltrated relatively more compared to normal control samples. Our results suggest a new functional feature of UC and suggest potential biomarkers for UC through comprehensive analysis of integrated gene expression data.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Colitis, Ulcerative/diagnosis/genetics",
+      "Databases, Factual",
+      "Ephrin-A1",
+      "Gene Ontology",
+      "Macrophages",
+      "GTP-Binding Proteins",
+      "Kruppel-Like Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qin",
+        "Bei, Shaosheng",
+        "Zhang, Zhiyun",
+        "Wang, Xiaofeng",
+        "Zhu, Yunying"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Bei S",
+        "Zhang Z",
+        "Wang X",
+        "Zhu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4636-7305"
+      ],
+      "affiliations": [
+        "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China. hichenqin2011@163.com.",
+        "Department of Anorectal, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China.",
+        "Department of Colorectal Surgery, Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qin",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0000-0002-4636-7305"
+        ],
+        "affiliations": [
+          "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China. hichenqin2011@163.com."
+        ]
+      },
+      {
+        "full_name": "Bei, Shaosheng",
+        "short_name": "Bei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiyun",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaofeng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yunying",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal, Kunming Municipal Hospital of Traditional Chinese Medicine, The Third Affiliated Hospital of Yunnan University of Chinese Medicine, No. 25 Dongfeng East Road, Panlong District, Kunming, 650011, Yunnan Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Apr 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/14 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "42635086",
+      "42074501",
+      "42042929",
+      "41909538",
+      "41803218",
+      "41152979",
+      "40855234",
+      "39959235",
+      "39497054",
+      "39275351",
+      "39273699",
+      "39247718",
+      "38893707",
+      "38562529",
+      "37957905"
+    ],
+    "refs": [
+      "36300620",
+      "33923501",
+      "33462173",
+      "33323040",
+      "33042416",
+      "32974809",
+      "32913180",
+      "32667924",
+      "32621310",
+      "32483088",
+      "32191459",
+      "32190668",
+      "31914881",
+      "31741804",
+      "31608184",
+      "31565051",
+      "31441146",
+      "31417300",
+      "31235952",
+      "31114875",
+      "30984267",
+      "30944313",
+      "30715224",
+      "30702115",
+      "30638678",
+      "30393811",
+      "30304474",
+      "30276219",
+      "30195788",
+      "30063466",
+      "29956014",
+      "29794741",
+      "29344893",
+      "29218082",
+      "29109300",
+      "29018274",
+      "28981629",
+      "28652704",
+      "27924014",
+      "27610713",
+      "26806198",
+      "26627550",
+      "26080709",
+      "25822800",
+      "25605792",
+      "25443414",
+      "25428369",
+      "25170214",
+      "24465271",
+      "24132163",
+      "23740750",
+      "23572562",
+      "23135761",
+      "22662201",
+      "22455463",
+      "21883934",
+      "21723221",
+      "21678108",
+      "21442372",
+      "20568971",
+      "20556832",
+      "20001899",
+      "19911067",
+      "17892861",
+      "17703315",
+      "17656654",
+      "17644558",
+      "17496320",
+      "17167843",
+      "17009408",
+      "16501852",
+      "15869913",
+      "14960456",
+      "14597658",
+      "12743774",
+      "12555665",
+      "11474315",
+      "11247898",
+      "10940281",
+      "10861266",
+      "10837058",
+      "10714678",
+      "10592173"
+    ],
+    "similar": [
+      "37055577",
+      "36860851",
+      "36388363",
+      "37322958",
+      "37055495",
+      "35392084",
+      "35959356",
+      "34731452",
+      "32974809",
+      "33144895",
+      "38656456",
+      "36445533",
+      "37287987",
+      "38510272",
+      "36742304",
+      "33323040",
+      "36742294",
+      "36845139",
+      "37782162",
+      "34233597",
+      "36419192",
+      "37495756",
+      "33941565",
+      "33987007",
+      "33262784",
+      "32489050",
+      "38951638",
+      "34717557",
+      "34592880",
+      "36438903",
+      "33132321",
+      "35719390",
+      "35911963",
+      "37215183",
+      "34306038",
+      "32950577",
+      "36389705",
+      "36061211",
+      "38269750",
+      "25182475",
+      "34107850",
+      "36225941",
+      "35463752",
+      "38550602",
+      "37033969",
+      "34087884",
+      "35876170",
+      "37638002",
+      "36479126",
+      "37889323",
+      "38070204",
+      "31258663",
+      "32190668",
+      "36148059",
+      "35480868",
+      "34162355",
+      "36186997",
+      "36335193",
+      "35711523",
+      "26199991",
+      "35713363",
+      "38303405",
+      "33598484",
+      "37539055",
+      "35256894",
+      "38448514",
+      "38026254",
+      "27273946",
+      "33468161",
+      "33132649",
+      "38615385",
+      "36345357",
+      "39414957",
+      "36627660",
+      "36923072",
+      "33530816",
+      "37904419",
+      "35264872",
+      "29794741",
+      "36685898",
+      "34925026",
+      "38319729",
+      "36246593",
+      "33185247",
+      "32974202",
+      "35111677",
+      "36699262",
+      "39182484",
+      "35184762",
+      "30990953",
+      "37008314",
+      "35278479",
+      "36628881",
+      "34295549",
+      "38633005",
+      "35719392",
+      "36642989",
+      "38376420",
+      "35709926",
+      "35646094",
+      "35016690",
+      "39395728",
+      "37032832",
+      "32570281",
+      "33927789",
+      "35845512",
+      "32871953",
+      "33299870",
+      "37843347",
+      "35428188",
+      "34823498",
+      "36211422",
+      "37383675",
+      "35308140",
+      "36276976",
+      "36273177",
+      "35154512",
+      "36017103",
+      "39252244",
+      "38059894",
+      "39114032"
+    ],
+    "review": [
+      "37055577",
+      "37539055"
+    ],
+    "pmc": [
+      "10102327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-33388-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37055577/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37055577",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3975",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

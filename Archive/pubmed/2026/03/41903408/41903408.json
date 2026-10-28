@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "41903408",
+    "doi": "10.1016/j.ecoenv.2026.120058",
+    "title": "Network toxicology and machine learning revealed the association between non-alcoholic fatty liver disease induced by polystyrene nanoplastics."
+  },
+  "content": {
+    "abstract": "This study systematically evaluated the hepatotoxic potential of common microplastic monomers using ADMETlab 3.0, identifying styrene (PubChem ID: 7501) as exhibiting significant hepatic toxicity. Comprehensive analysis of the CTD (Comparative Toxicogenomics Database) revealed a strong association between styrene exposure and NAFLD (Non-alcoholic fatty liver disease). We integrated target prediction data from CTD, STITCH and SwissTargetPrediction databases yielding 558 candidate targets, which were cross-referenced with 2018 NAFLD related genes from GeneCards and OMIM to identify 158 overlapping genes. Applying the NCBI GEO datasets GSE48452, GSE126848, GSE89632, and GSE63067, comprising 98 control samples and 113 NAFLD samples, we trained the model using LASSO regression, random forest, and SVM-RFE algorithms to identify the core genes HSPD1 and NFE2L2. These findings were validated in the GSE135251 cohort, which included 10 control cases and 206 NAFLD cases. In vitro experiments showed 100 nm polystyrene nanoparticles (PS-NPs) at 200 mug/mL for HepG2 and 100 mug/mL for AML12 cells significantly increased lipid accumulation by Oil Red O staining. Western blot revealed dose-dependent changes in lipid metabolism regulators ACC1, FASN and CPT1A. Preliminary RT-qPCR and immunofluorescence studies indicate that PS-NPs can upregulate HSPD1 and NFE2L2. These findings suggest that PS-NPs promote hepatic lipid accumulation by regulating HSPD1 and NFE2L2, offering new insights into the pathogenesis of environmentally induced NAFLD.",
+    "keywords": [
+      "Machine learning",
+      "Network toxicology",
+      "Non-alcoholic fatty liver",
+      "Polystyrene nanoparticles"
+    ],
+    "mesh_terms": [
+      "*Non-alcoholic Fatty Liver Disease/chemically induced/genetics",
+      "*Polystyrenes/toxicity",
+      "Humans",
+      "*Machine Learning",
+      "Hep G2 Cells",
+      "*Microplastics/toxicity",
+      "*Nanoparticles/toxicity",
+      "NF-E2-Related Factor 2/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yiqiong",
+        "Shi, Yachun",
+        "Yang, Huiru",
+        "Li, Haizhi",
+        "Li, Chengcheng",
+        "Liu, Mi",
+        "Zhong, Yinxue",
+        "Huang, Changyudong",
+        "Zhu, Liying",
+        "Xu, Yongjie",
+        "Pan, Wei"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Shi Y",
+        "Yang H",
+        "Li H",
+        "Li C",
+        "Liu M",
+        "Zhong Y",
+        "Huang C",
+        "Zhu L",
+        "Xu Y",
+        "Pan W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "Nephrology Department of Guizhou Medical University Affiliated Hospital, Guiyang, Guizhou 550004, PR China.",
+        "Reproductive Centre, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Department of Molecular Pathology Laboratory, The Affiliated Cancer Hospital of Guizhou Medical University, Guiyang, Guizhou 550000, PR China.",
+        "Department of Pathology, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China.",
+        "School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Center for Clinical Laboratories, the Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China. Electronic address: 179128466@qq.com.",
+        "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Reproductive Centre, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Basic Medicine, Guizhou Medical University, Guiyang, Guizhou 561113, PR China. Electronic address: 422526543@qq.com.",
+        "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China. Electronic address: 313831139@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yiqiong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yachun",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huiru",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department of Guizhou Medical University Affiliated Hospital, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Haizhi",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Centre, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Chengcheng",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mi",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Department of Molecular Pathology Laboratory, The Affiliated Cancer Hospital of Guizhou Medical University, Guiyang, Guizhou 550000, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yinxue",
+        "short_name": "Zhong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Changyudong",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liying",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Center for Clinical Laboratories, the Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China. Electronic address: 179128466@qq.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Yongjie",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; Reproductive Centre, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China; School of Basic Medicine, Guizhou Medical University, Guiyang, Guizhou 561113, PR China. Electronic address: 422526543@qq.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Wei",
+        "short_name": "Pan W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guizhou Medical University, Guiyang, Guizhou 561113, PR China; Guizhou Prenatal Diagnosis Center, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou 550004, PR China. Electronic address: 313831139@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/29 07:35",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41903408",
+      "41731169",
+      "41547913",
+      "41814740",
+      "38476236",
+      "39875572",
+      "41964238",
+      "38892011",
+      "39108890",
+      "39496918",
+      "41539557",
+      "32884949",
+      "42313742",
+      "41731716",
+      "39962463",
+      "41139042",
+      "39638831",
+      "39864238",
+      "40378908",
+      "40706769",
+      "34755918",
+      "42232754",
+      "31064820",
+      "41429620",
+      "35837772",
+      "41297725",
+      "39351239",
+      "41021615",
+      "36898287",
+      "37697333",
+      "41806388",
+      "40360670",
+      "40539070",
+      "32205994",
+      "40294666",
+      "37822923",
+      "42364682",
+      "41907204",
+      "40074804",
+      "37090698",
+      "41565234",
+      "42123354",
+      "41491000",
+      "37027337",
+      "36376950",
+      "30547786",
+      "40220422",
+      "40751069",
+      "36506575",
+      "42228706",
+      "31998789",
+      "39805171",
+      "36387855",
+      "40615099",
+      "42290028",
+      "37993474",
+      "39820544",
+      "40222581",
+      "33415161",
+      "30668424",
+      "39568749",
+      "31799678",
+      "37224770",
+      "38803181",
+      "31889412",
+      "39855055",
+      "37922570",
+      "38758850",
+      "29452209",
+      "40093012",
+      "33771638",
+      "41540701",
+      "40553824",
+      "39462099",
+      "36923221",
+      "39536891",
+      "35305493",
+      "32419060",
+      "39507054",
+      "39143741",
+      "41738323",
+      "31195981",
+      "39143459",
+      "42011589",
+      "32585242",
+      "40442648",
+      "38537674",
+      "41351368",
+      "32679144",
+      "23792031",
+      "39127115",
+      "40907406",
+      "40795485",
+      "39706014",
+      "40877393",
+      "38192427",
+      "40752845",
+      "38234154",
+      "41794809",
+      "38906030"
+    ],
+    "review": [
+      "41903408"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00387-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-391",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

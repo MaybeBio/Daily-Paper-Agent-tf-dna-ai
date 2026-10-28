@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "40963916",
+    "doi": "10.7150/thno.113517",
+    "title": "Saikosaponin D Mitigates Radioresistance in Triple-Negative Breast Cancer by Inducing MRE11 De-Lactylation via HIF1alpha/HDAC5 Pathway."
+  },
+  "content": {
+    "abstract": "Background: Triple-negative breast cancer (TNBC), the most aggressive breast cancer subtype, exhibits poor prognosis due to radiotherapy resistance. However, the underlying mechanisms and effective therapeutic agents remain elusive. Methods: We employed lactate/oxamate to assess DNA damage/repair in irradiated TNBC cell lines. Lentiviral vectors for MRE11/HDAC5 constructs and shRNA were used to explore lactylation via Western blot/Co-IP. TCGA data mining, tissue microarrays, proteomics-MS, and gene expression profiling were used to dissect Saikosaponin D (SSD)'s radiosensitizing mechanisms. Promoter luciferase assays and ChIP-qPCR were performed to map SSD-induced HIF1alpha binding sites on the HDAC5 promoter. Results: Elevated endogenous lactate in radioresistant TNBC cells promoted DNA repair via MRE11 Lys(673) lactylation, a critical modification conferring radioresistance. HDAC5 was identified as the key delactylase for MRE11 Lys(673,) validated by HADDOCK docking (hydrogen bond between MRE11 Lys(673) and HDAC5 Ser(18)) and Co-IP (HDAC5 overexpression reduced K(673) lactylation). TCGA and clinical tissue microarrays confirmed HDAC5 downregulation in TNBC. SSD inhibits the malignant phenotype of TNBC and enhances radiotherapy efficacy by inhibition on MRE11 lactylation via upregulating HDAC5. Mechanistically, SSD upregulated HIF1alpha to bind the HDAC5 promoter (-342bp to -20bp region) to activate its expression. Conclusion: Lactate-driven MRE11 Lys(673) lactylation mediates radioresistance, while SSD reverses this via HIF1alpha/HDAC5 axis activation. Our findings identify SSD as a radiosensitizer and HDAC5/MRE11 as potential therapeutic targets for TNBC.",
+    "keywords": [
+      "Lactylation",
+      "Saikosaponin D (SSD)",
+      "Triple-negative breast cancer (TNBC)",
+      "histone deacetylase (HDAC) 5",
+      "radioresistance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/metabolism/drug therapy/radiotherapy/pathology/genetics",
+      "*Saponins/pharmacology",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Cell Line, Tumor",
+      "*Radiation Tolerance/drug effects",
+      "Female",
+      "*Histone Deacetylases/metabolism/genetics",
+      "*Oleanolic Acid/analogs & derivatives/pharmacology",
+      "*MRE11 Homologue Protein/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "*Radiation-Sensitizing Agents/pharmacology",
+      "Signal Transduction/drug effects",
+      "DNA Repair/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jingyi",
+        "Feng, Liang",
+        "Zhang, Lei",
+        "Zhang, Weiguo",
+        "Zhang, Yanting",
+        "Liu, Xiaoqin",
+        "Cai, Qianqian",
+        "Zhao, Weiming",
+        "Huang, Gang",
+        "Lu, Changlian"
+      ],
+      "short_names": [
+        "Li J",
+        "Feng L",
+        "Zhang L",
+        "Zhang W",
+        "Zhang Y",
+        "Liu X",
+        "Cai Q",
+        "Zhao W",
+        "Huang G",
+        "Lu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "Heilongjiang University of Traditional Chinese Medicine, Harbin, Heilongjiang, China.",
+        "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "Department of Radiation Oncology, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China.",
+        "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "Heilongjiang University of Traditional Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+        "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jingyi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+          "Heilongjiang University of Traditional Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Liang",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weiguo",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanting",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoqin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Qianqian",
+        "short_name": "Cai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Weiming",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Traditional Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Gang",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Changlian",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Molecular Imaging, Jiading District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai, China.",
+          "School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 06:31",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42592257",
+      "42247509",
+      "42234248",
+      "42199652",
+      "42056359",
+      "42003935",
+      "41993628",
+      "41736683",
+      "41373440"
+    ],
+    "refs": [
+      "39395526",
+      "39351192",
+      "38961290",
+      "38886530",
+      "38711083",
+      "38128537",
+      "37933859",
+      "37891669",
+      "37863889",
+      "37253507",
+      "36656507",
+      "36651176",
+      "36563124",
+      "36551192",
+      "36268709",
+      "36242053",
+      "36038913",
+      "35721121",
+      "35320754",
+      "35044827",
+      "34363018",
+      "34265844",
+      "34050894",
+      "34022282",
+      "33726814",
+      "33619381",
+      "33589820",
+      "33419772",
+      "33377659",
+      "33199625",
+      "32945483",
+      "32917658",
+      "32488136",
+      "32444598",
+      "32005946",
+      "31742336",
+      "31645732",
+      "31263220",
+      "30822194",
+      "30612738",
+      "30248540",
+      "28187286",
+      "26240375",
+      "26208712",
+      "25911239",
+      "24297933",
+      "21376230",
+      "18980967",
+      "18854157",
+      "12019172"
+    ],
+    "similar": [
+      "40963916",
+      "40781327",
+      "30248540",
+      "39395526",
+      "41085822",
+      "40022222",
+      "38863037",
+      "29855616",
+      "32117061",
+      "38613358",
+      "32052681",
+      "40153970",
+      "24401554",
+      "41130126",
+      "24670641",
+      "40810891",
+      "38062011",
+      "30607635",
+      "40217291",
+      "36563124",
+      "39327614",
+      "32181526",
+      "41271679",
+      "38779451",
+      "39167147",
+      "40472617",
+      "39549369",
+      "24119370",
+      "37734566",
+      "36797433",
+      "41109656",
+      "40968253",
+      "40460005",
+      "40674817",
+      "40499340",
+      "25884663",
+      "33727089",
+      "35867755",
+      "40744919",
+      "36681663",
+      "38763012",
+      "40675224",
+      "40120555",
+      "41016300",
+      "39146878",
+      "38128537",
+      "40097917",
+      "34779768",
+      "30842344",
+      "34022282",
+      "35471684",
+      "40928515",
+      "40819058",
+      "33042272",
+      "39879120",
+      "30736840",
+      "39451071",
+      "40764992",
+      "29902865",
+      "12019172",
+      "40286498",
+      "32922184",
+      "29633255",
+      "41168787",
+      "35483190",
+      "25943633",
+      "34021541",
+      "41172918",
+      "38697448",
+      "21392897",
+      "40887997",
+      "40784956",
+      "30166399",
+      "39615216",
+      "28465444",
+      "27130446",
+      "40054655",
+      "39710273",
+      "40037472",
+      "35989353",
+      "40635078",
+      "37393021",
+      "41423055",
+      "35091679",
+      "39556022",
+      "26751287",
+      "25228385",
+      "33648498",
+      "20956948",
+      "40846041",
+      "33628104",
+      "38890750",
+      "39836524",
+      "27212032",
+      "41465279",
+      "30651219",
+      "41451212",
+      "40833485",
+      "41198671",
+      "34708581"
+    ],
+    "review": [
+      "40963916",
+      "34022282"
+    ],
+    "pmc": [
+      "12439262"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40963916/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v15p8935.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

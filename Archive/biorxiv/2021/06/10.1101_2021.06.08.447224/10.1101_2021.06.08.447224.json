@@ -1,0 +1,227 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.08.447224",
+  "title": "Predicted Coronavirus Nsp5 Protease Cleavage Sites in the Human Proteome: A Resource for SARS-CoV-2 Research",
+  "doi": "10.1101/2021.06.08.447224",
+  "abstract": "<h4>Background</h4> The coronavirus nonstructural protein 5 (Nsp5) is a cysteine protease required for processing the viral polyprotein and is therefore crucial for viral replication. Nsp5 from several coronaviruses have also been found to cleave host proteins, disrupting molecular pathways involved in innate immunity. Nsp5 from the recently emerged SARS-CoV-2 virus interacts with and can cleave human proteins, which may be relevant to the pathogenesis of COVID-19. Based on the continuing global pandemic, and emerging understanding of coronavirus Nsp5-human protein interactions, we set out to predict what human proteins are cleaved by the coronavirus Nsp5 protease using a bioinformatics approach. <h4>Results</h4> Using a previously developed neural network trained on coronavirus Nsp5 cleavage sites (NetCorona), we made predictions of Nsp5 cleavage sites in all human proteins. Structures of human proteins in the Protein Data Bank containing a predicted Nsp5 cleavage site were then examined, generating a list of 92 human proteins with a highly predicted and accessible cleavage site. Of those, 48 are expected to be found in the same cellular compartment as Nsp5. Analysis of this targeted list of proteins revealed molecular pathways susceptible to Nsp5 cleavage and therefore relevant to coronavirus infection, including pathways involved in mRNA processing, cytokine response, cytoskeleton organization, and apoptosis. <h4>Conclusions</h4> This study combines predictions of Nsp5 cleavage sites in human proteins with protein structure information and protein network analysis. We predicted cleavage sites in proteins recently shown to be cleaved in vitro by SARS-CoV-2 Nsp5, and we discuss how other potentially cleaved proteins may be relevant to coronavirus mediated immune dysregulation. The data presented here will assist in the design of more targeted experiments, to determine the role of coronavirus Nsp5 cleavage of host proteins, which is relevant to understanding the molecular pathology of SARS-CoV-2 infection.",
+  "authors": [
+    "Scott BM",
+    "Lacasse V",
+    "Blom DG",
+    "Tonner PD",
+    "Blom NS"
+  ],
+  "published_date": "2021-06-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.08.447224",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.08.447224.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR354510",
+    "raw_record": {
+      "id": "PPR354510",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR354510"
+        ]
+      },
+      "doi": "10.1101/2021.06.08.447224",
+      "title": "Predicted Coronavirus Nsp5 Protease Cleavage Sites in the Human Proteome: A Resource for SARS-CoV-2 Research",
+      "authorString": "Scott BM, Lacasse V, Blom DG, Tonner PD, Blom NS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Scott BM",
+            "lastName": "Scott",
+            "firstName": "Benjamin",
+            "initials": "BM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Associate, Biosystems and Biomaterials Division, National Institute of Standards and Technology, Gaithersburg, Maryland, USA"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lacasse V",
+            "lastName": "Lacasse",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1545-5617"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Segal Cancer Proteomics Centre, Lady Davis Institute, Jewish General Hospital, McGill University, Montreal, Quebec, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blom DG",
+            "lastName": "Blom",
+            "firstName": "Ditte",
+            "initials": "DG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Mathematics and Computer Science, Technical University of Denmark, Lyngby, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tonner PD",
+            "lastName": "Tonner",
+            "firstName": "Peter",
+            "initials": "PD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2840-0930"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Statistical Engineering Division, National Institute of Standards and Technology, Gaithersburg, Maryland, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blom NS",
+            "lastName": "Blom",
+            "firstName": "Nikolaj",
+            "initials": "NS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, Kongens Lyngby, Technical University of Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7787-7853"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1545-5617"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2840-0930"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Background</h4>  The coronavirus nonstructural protein 5 (Nsp5) is a cysteine protease required for processing the viral polyprotein and is therefore crucial for viral replication. Nsp5 from several coronaviruses have also been found to cleave host proteins, disrupting molecular pathways involved in innate immunity. Nsp5 from the recently emerged SARS-CoV-2 virus interacts with and can cleave human proteins, which may be relevant to the pathogenesis of COVID-19. Based on the continuing global pandemic, and emerging understanding of coronavirus Nsp5-human protein interactions, we set out to predict what human proteins are cleaved by the coronavirus Nsp5 protease using a bioinformatics approach. <h4>Results</h4>  Using a previously developed neural network trained on coronavirus Nsp5 cleavage sites (NetCorona), we made predictions of Nsp5 cleavage sites in all human proteins. Structures of human proteins in the Protein Data Bank containing a predicted Nsp5 cleavage site were then examined, generating a list of 92 human proteins with a highly predicted and accessible cleavage site. Of those, 48 are expected to be found in the same cellular compartment as Nsp5. Analysis of this targeted list of proteins revealed molecular pathways susceptible to Nsp5 cleavage and therefore relevant to coronavirus infection, including pathways involved in mRNA processing, cytokine response, cytoskeleton organization, and apoptosis. <h4>Conclusions</h4>  This study combines predictions of Nsp5 cleavage sites in human proteins with protein structure information and protein network analysis. We predicted cleavage sites in proteins recently shown to be cleaved  in vitro by SARS-CoV-2 Nsp5, and we discuss how other potentially cleaved proteins may be relevant to coronavirus mediated immune dysregulation. The data presented here will assist in the design of more targeted experiments, to determine the role of coronavirus Nsp5 cleavage of host proteins, which is relevant to understanding the molecular pathology of SARS-CoV-2 infection.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/08/2021.06.08.447224.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.08.447224"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR354510"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR354510&type=FILE&fileName=EMS127461-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35379171",
+            "reference": "BMC genomic data. 2022 Apr;23(1):25",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS127461",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2021-06-10",
+      "firstPublicationDate": "2021-06-08",
+      "firstIndexDate": "2021-06-10",
+      "fullTextReceivedDate": "2021-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

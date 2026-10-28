@@ -1,0 +1,700 @@
+{
+  "identity": {
+    "pmid": "42412946",
+    "doi": "10.1073/pnas.2537437123",
+    "title": "A ligandable PNT domain establishes ERG as a directly targetable oncogenic driver in prostate cancer."
+  },
+  "content": {
+    "abstract": "The TMPRSS2:ERG gene fusion, present in approximately 50% of prostate cancers in patients of European ancestry, drives oncogenesis through aberrant overexpression of the ERG transcription factor. Despite its role as a truncal oncogenic driver, ERG has been considered undruggable due to the absence of enzymatic activity and apparent lack of ligandable pockets. Here, we demonstrate continued dependency on ERG in metastatic prostate cancer and identify a druggable pocket within its N-terminal Pointed (PNT) domain. Using an inducible shRNA system in TMPRSS2:ERG-positive VCaP cells, we show that ERG depletion causes profound growth inhibition. To therapeutically exploit this vulnerability, we conducted a domain-focused differential scanning fluorimetry screen targeting the ERG PNT domain, followed by structure-activity relationship optimization. This approach yielded PBITE-1 (PNT-Binding Inhibitor of the Transcription factor ERG), a small molecule that selectively binds the ERG PNT domain. NMR chemical-shift perturbation mapping and molecular docking revealed that PBITE-1 engages a discrete, solvent-exposed surface comprising two alpha-helices and an adjacent flexible loop, defining a ligand-binding pocket within the PNT domain. In cellular models, PBITE-1 directly engaged ERG, selectively inhibited proliferation and invasion, and induced apoptosis in ERG-driven prostate and hematologic malignancies. PBITE-1 potently suppressed growth of ERG-positive mouse and human-derived prostate cancer organoids. Furthermore, PBITE-1 treatment significantly induced tumor cell apoptosis in VCaP xenograft models. These findings establish the ERG PNT domain as ligandable and provide preclinical evidence that ERG is directly targetable by small molecules, enabling future development of ERG-directed inhibitors and targeted protein degraders.",
+    "keywords": [
+      "ERG transcription factor",
+      "PNT domain",
+      "gene fusion",
+      "prostate cancer",
+      "small-molecule inhibitor"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms/genetics/metabolism/pathology/drug therapy",
+      "*Transcriptional Regulator ERG/metabolism/genetics/chemistry/antagonists & inhibitors",
+      "Animals",
+      "Mice",
+      "Cell Line, Tumor",
+      "Ligands",
+      "Protein Domains",
+      "Oncogene Proteins, Fusion/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Cell Proliferation/drug effects",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaoju",
+        "Liu, Wenyan",
+        "Yang, Jiehao",
+        "Tien, Jean Ching-Yi",
+        "Chang, Yu",
+        "Mannan, Rahul",
+        "Mahapatra, Somnath",
+        "Zhou, Yang",
+        "Gan, Lihao",
+        "Cao, Xuhong",
+        "Zhou, Jiayi",
+        "Zhang, Yuping",
+        "Shaker, Sharpkate",
+        "Huang, Yichao",
+        "Qiao, Hang",
+        "Hamadeh, Rudana",
+        "Ervine, Grafton",
+        "Wang, Cynthia",
+        "Su, Fengyun",
+        "Wang, Rui",
+        "Xiao, Lanbo",
+        "Sudharshan, Raghunath Ranga",
+        "Rao, Arvind",
+        "Nikolovska-Coleska, Zaneta",
+        "Stephens, Cole",
+        "Pan, Lifeng",
+        "Chou, James J",
+        "Sahu, Debashish",
+        "Stuckey, Jeanne",
+        "Wang, Zhen",
+        "Ding, Ke",
+        "Chinnaiyan, Arul M"
+      ],
+      "short_names": [
+        "Wang X",
+        "Liu W",
+        "Yang J",
+        "Tien JC",
+        "Chang Y",
+        "Mannan R",
+        "Mahapatra S",
+        "Zhou Y",
+        "Gan L",
+        "Cao X",
+        "Zhou J",
+        "Zhang Y",
+        "Shaker S",
+        "Huang Y",
+        "Qiao H",
+        "Hamadeh R",
+        "Ervine G",
+        "Wang C",
+        "Su F",
+        "Wang R",
+        "Xiao L",
+        "Sudharshan RR",
+        "Rao A",
+        "Nikolovska-Coleska Z",
+        "Stephens C",
+        "Pan L",
+        "Chou JJ",
+        "Sahu D",
+        "Stuckey J",
+        "Wang Z",
+        "Ding K",
+        "Chinnaiyan AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2684-4450",
+        "ORCID: 0000-0002-6642-0468",
+        "ORCID: 0000-0002-8727-5183",
+        "ORCID: 0000-0002-5356-9685",
+        "ORCID: 0009-0002-5150-3401",
+        "ORCID: 0000-0002-9229-6288",
+        "ORCID: 0000-0001-8762-6089",
+        "ORCID: 0000-0001-9016-812X",
+        "ORCID: 0000-0001-9282-3415"
+      ],
+      "affiliations": [
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, College of Pharmacy, Jinan University, Guangzhou 511400, People's Republic of China.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Radiation Oncology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Medicinal Chemistry Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Medicinal Chemistry Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "BioNMR Core Facility, Life Sciences Institute, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China. ROR: https://ror.org/034t30j35",
+        "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "HHMI, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291",
+        "Department of Urology, University of Michigan, Ann Arbor, MI 48109. ROR: https://ror.org/00jmfr291"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaoju",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenyan",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiehao",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tien, Jean Ching-Yi",
+        "short_name": "Tien JC",
+        "identifiers": [
+          "0000-0002-2684-4450"
+        ],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Chang, Yu",
+        "short_name": "Chang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Mannan, Rahul",
+        "short_name": "Mannan R",
+        "identifiers": [
+          "0000-0002-6642-0468"
+        ],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Mahapatra, Somnath",
+        "short_name": "Mahapatra S",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, College of Pharmacy, Jinan University, Guangzhou 511400, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gan, Lihao",
+        "short_name": "Gan L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cao, Xuhong",
+        "short_name": "Cao X",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiayi",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuping",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-8727-5183"
+        ],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Shaker, Sharpkate",
+        "short_name": "Shaker S",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Huang, Yichao",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Hang",
+        "short_name": "Qiao H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hamadeh, Rudana",
+        "short_name": "Hamadeh R",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Ervine, Grafton",
+        "short_name": "Ervine G",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Wang, Cynthia",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Su, Fengyun",
+        "short_name": "Su F",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [
+          "0000-0002-5356-9685"
+        ],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Xiao, Lanbo",
+        "short_name": "Xiao L",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Sudharshan, Raghunath Ranga",
+        "short_name": "Sudharshan RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Rao, Arvind",
+        "short_name": "Rao A",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Radiation Oncology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Nikolovska-Coleska, Zaneta",
+        "short_name": "Nikolovska-Coleska Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109.",
+          "Medicinal Chemistry Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Stephens, Cole",
+        "short_name": "Stephens C",
+        "identifiers": [
+          "0009-0002-5150-3401"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Pan, Lifeng",
+        "short_name": "Pan L",
+        "identifiers": [
+          "0000-0002-9229-6288"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chou, James J",
+        "short_name": "Chou JJ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sahu, Debashish",
+        "short_name": "Sahu D",
+        "identifiers": [],
+        "affiliations": [
+          "BioNMR Core Facility, Life Sciences Institute, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Stuckey, Jeanne",
+        "short_name": "Stuckey J",
+        "identifiers": [],
+        "affiliations": [
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109.",
+          "Life Sciences Institute, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-8762-6089"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ke",
+        "short_name": "Ding K",
+        "identifiers": [
+          "0000-0001-9016-812X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Arul M",
+        "short_name": "Chinnaiyan AM",
+        "identifiers": [
+          "0000-0001-9282-3415"
+        ],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109.",
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI 48109.",
+          "HHMI, University of Michigan, Ann Arbor, MI 48109.",
+          "Department of Urology, University of Michigan, Ann Arbor, MI 48109."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Jul 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/08 01:10",
+    "fetched_at": "2026-10-05 05:44:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41044247",
+      "40570057",
+      "40507351",
+      "39817679",
+      "39468210",
+      "39368479",
+      "39251788",
+      "38954782",
+      "38557192",
+      "38488813",
+      "37943662",
+      "37558947",
+      "36429059",
+      "35881047",
+      "34937944",
+      "34790292",
+      "34061561",
+      "33836141",
+      "33771697",
+      "33417864",
+      "32650419",
+      "32576626",
+      "31931431",
+      "31511663",
+      "31296553",
+      "31243372",
+      "30511964",
+      "30078722",
+      "29937980",
+      "29930256",
+      "29712692",
+      "28344039",
+      "27036029",
+      "27023109",
+      "26806347",
+      "26075522",
+      "26058078",
+      "25933120",
+      "25915839",
+      "24591637",
+      "23828940",
+      "23817021",
+      "23093599",
+      "21612468",
+      "20517297",
+      "20478527",
+      "19584866",
+      "19396168",
+      "19359544",
+      "19339269",
+      "18563191",
+      "18542058",
+      "18283340",
+      "16254181",
+      "15351649",
+      "14702632",
+      "12559563",
+      "11325816",
+      "9000575",
+      "8609706",
+      "8598195",
+      "8162068",
+      "7700648"
+    ],
+    "similar": [
+      "42412946",
+      "28465491",
+      "29712692",
+      "28344039",
+      "22415461",
+      "18283340",
+      "31638934",
+      "30078722",
+      "29844131",
+      "28607007",
+      "25479232",
+      "34230470",
+      "32581342",
+      "28849022",
+      "30042415",
+      "34493733",
+      "31277777",
+      "32915889",
+      "28986382",
+      "41837288",
+      "30718921",
+      "28591703",
+      "25780911",
+      "27285981",
+      "30901730",
+      "37956771",
+      "25933120",
+      "21669963",
+      "23728339",
+      "36622760",
+      "24591637",
+      "27626314",
+      "28050800",
+      "41006020",
+      "41632544",
+      "23918819",
+      "23913826",
+      "35452553",
+      "23426182",
+      "31614005",
+      "27183006",
+      "27320318",
+      "27272765",
+      "23554889",
+      "41895744",
+      "33485866",
+      "27223260",
+      "25263440",
+      "26026053",
+      "23052253",
+      "28445989",
+      "38506376",
+      "20147525",
+      "28614298",
+      "41321318",
+      "29202479",
+      "22140532",
+      "25088707",
+      "30201302",
+      "23472063",
+      "28783165",
+      "24418414",
+      "28887309",
+      "35393570",
+      "30150711",
+      "25266362",
+      "22860005",
+      "21575865",
+      "32871104",
+      "29786791",
+      "23708657",
+      "19584163",
+      "32639612",
+      "26310325",
+      "32015092",
+      "21559405",
+      "17401460",
+      "27926866",
+      "30430607",
+      "18065961",
+      "28668826",
+      "21914348",
+      "21169414",
+      "30892142",
+      "19584279",
+      "37973913",
+      "23357671",
+      "18676740",
+      "18505969",
+      "17108102",
+      "28004109",
+      "24204199",
+      "23352841",
+      "23251544",
+      "37537199",
+      "41339923",
+      "30051493",
+      "32143573",
+      "29733466",
+      "18798265"
+    ],
+    "review": [
+      "42412946",
+      "24418414"
+    ],
+    "pmc": [
+      "13367891"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2537437123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42412946/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

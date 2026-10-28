@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a new dataset construction method based on G4 CUT&Tag sequencing data and an XGBoost prediction model. They report strong model performance within and across cell types, sequence-level findings on flanking regions and GC content, and identification of transcription factor motifs in high-resolution G4 datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, model metrics, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model performance metrics, dataset construction details, cross-cell-type validation results, motif analysis methodology, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for G4 prediction using a newer high-resolution experimental technique. The topic is timely and the combination of CUT&Tag data with machine learning is a reasonable direction. However, the abstract lacks quantitative evidence for the central claims, and several statements about biological interpretation are made without sufficient supporting detail. The work may be of interest to the genomics and nucleic acid structure communities, but the current evidence base is insufficient to fully evaluate the technical soundness or the strength of the biological conclusions.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex biology, genome structure and function, and computational genomics. Those working on machine learning applications to epigenomic or chromatin-associated data may also find the methodological approach relevant. The potential link between G4 formation and transcription factor binding could interest investigators studying gene regulation.
+- **Major strengths** The use of G4 CUT&Tag data, which provides higher resolution than ChIP-seq, is a sensible choice for generating training samples. The focus on cell-type-specific prediction addresses a relevant biological dimension. The observation that flanking sequences influence G4 formation and the identification of transcription factor motifs are potentially interesting findings that could connect G4 biology to regulatory mechanisms.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The model performs well within and across cell types  
+  - **Evidence pointer** Abstract, "The results show that our model performs well within and across cell types"  
+  - **Concern** No quantitative performance metrics are provided. The abstract does not report accuracy, precision, recall, F1 score, AUC, or any comparison against existing methods.  
+  - **Why it matters** Without quantitative results, the central claim of good model performance cannot be assessed. The reader cannot determine whether the model is competitive with existing G4 prediction tools or whether the improvement is meaningful.  
+  - **Resolution test** Provide performance metrics for within-cell-type and cross-cell-type predictions, including comparisons with baseline or existing methods, in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** A new dataset construction method based on G4 CUT&Tag sequencing data  
+  - **Evidence pointer** Abstract, "we present a new dataset construction method based on G4 CUT&Tag sequencing data"  
+  - **Concern** The abstract does not describe how the dataset was constructed, including how positive and negative samples were defined, how peaks were called, how strand specificity was handled, or how cell-type-specificity was incorporated.  
+  - **Why it matters** Dataset construction is a critical determinant of model performance and generalizability. Without this information, the validity of the training data and the resulting model cannot be evaluated.  
+  - **Resolution test** Describe the dataset construction pipeline in detail, including peak calling, positive and negative sample definition, strand assignment, and any filtering steps.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological interpretation  
+  - **Claim pointer** The formation of G4 structure is greatly affected by the flanking sequences, and the GC content of the G4 flanking sequences is higher than non-G4  
+  - **Evidence pointer** Abstract, "sequence analysis indicates that the formation of G4 structure is greatly affected by the flanking sequences, and the GC content of the G4 flanking sequences is higher than non-G4"  
+  - **Concern** The abstract states that flanking sequences affect G4 formation, but no statistical measures, effect sizes, or comparison details are provided. The claim that GC content is higher in G4 flanking regions than non-G4 is presented without supporting numbers.  
+  - **Why it matters** These are empirical claims that should be supported by quantitative analysis. Without statistics, the reader cannot judge the strength or reliability of the finding.  
+  - **Resolution test** Provide statistical comparisons, including effect sizes and significance tests, for flanking sequence composition between G4 and non-G4 regions.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive caution  
+  - **Claim pointer** Several motifs for known transcription factors, such as SP2 and BPC, were identified, and these TFs may directly or indirectly affect G4 formation  
+  - **Evidence pointer** Abstract, "we also identified G4 motifs in the high-resolution dataset, among which we found several motifs for known transcription factors (TFs), such as SP2 and BPC. These TFs may directly or indirectly affect the formation of the G4 structure"  
+  - **Concern** The identification of transcription factor motifs in G4 regions is presented as a finding, but the abstract does not clarify whether these motifs are enriched relative to appropriate controls, whether the motif analysis was hypothesis-driven or exploratory, or how the potential functional link to G4 formation is supported.  
+  - **Why it matters** Motif presence alone does not imply functional relevance. Without enrichment analysis or additional evidence, the claim that these TFs may affect G4 formation is speculative.  
+  - **Resolution test** Provide enrichment statistics for the identified motifs against appropriate background, and discuss whether the proposed link to G4 formation is supported by additional evidence or remains a hypothesis.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model description  
+  - **Evidence pointer** Abstract, "an XGBoost prediction model based on the machine learning boost method"  
+  - **Issue** The phrase "based on the machine learning boost method" is redundant and imprecise. XGBoost is a specific implementation of gradient boosting.  
+  - **Required correction** Simplify to "an XGBoost prediction model" or "an XGBoost model based on gradient boosting."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Model evaluation  
+  - **Evidence pointer** Abstract, "our model performs well within and across cell types"  
+  - **Issue** The abstract does not specify which cell types were used, how many were included, or what "across cell types" means in terms of training and testing splits.  
+  - **Required correction** Specify the cell types used and the evaluation scheme, such as leave-one-cell-type-out or independent cell type testing.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** G4 definition  
+  - **Evidence pointer** Abstract, "G-quadruplex (G4), a non-classical deoxyribonucleic acid structure"  
+  - **Issue** The term "non-classical" is vague. Standard terminology would be "non-canonical" or "alternative" nucleic acid structure.  
+  - **Required correction** Use "non-canonical" instead of "non-classical."  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Resource availability  
+  - **Evidence pointer** Abstract, no mention of data or code availability  
+  - **Issue** The abstract does not indicate whether the model, code, or processed data will be made available.  
+  - **Required correction** State data and code availability in the abstract or ensure it is clearly described in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. Without quantitative performance metrics and a clear description of dataset construction, the central claims of the work cannot be verified. R1-M3 also requires statistical support to be considered established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of G4 CUT&Tag data with machine learning prediction is a reasonable incremental advance, but the abstract does not demonstrate a fundamentally new conceptual contribution.  
+  - Scientific importance: G4 prediction is a relevant problem, and cell-type-specific prediction adds a useful dimension. However, the importance of the specific findings cannot be fully assessed without quantitative results.  
+  - Interdisciplinary readership: The work bridges genomics, nucleic acid chemistry, and machine learning, which could attract readers from multiple fields.  
+  - Technical soundness: Cannot be evaluated from the abstract alone. The lack of methodological detail and performance metrics is a significant limitation.  
+  - Readability for nonspecialists: The abstract is generally clear, though some terminology could be more precise. The biological interpretation section is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach and potentially interesting findings, but the absence of quantitative results and methodological detail prevents a full assessment. The work may become publishable if the full manuscript provides the necessary evidence to support the claims.
+
+## Risk / unsupported claims
+- The claim that the model performs well within and across cell types is unsupported without quantitative metrics.
+- The claim that flanking sequences greatly affect G4 formation is unsupported without statistical analysis.
+- The claim that GC content is higher in G4 flanking regions than non-G4 is unsupported without reported values.
+- The claim that identified transcription factor motifs may affect G4 formation is speculative without enrichment analysis or functional evidence.
+- The novelty and utility of the dataset construction method cannot be evaluated without a description of the method.

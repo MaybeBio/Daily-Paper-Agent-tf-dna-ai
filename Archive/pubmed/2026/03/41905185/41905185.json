@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41905185",
+    "doi": "10.1016/j.saa.2026.127781",
+    "title": "Artificial intelligence-assisted FTIR spectroscopy for hormone receptor subtyping in formalin-fixed breast Cancer tissues."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Determination of estrogen receptor (ER) and progesterone receptor (PR) status is critical for breast cancer subtyping and guiding endocrine therapy. Although immunohistochemistry (IHC) remains the diagnostic gold standard, it is costly, labor-intensive, and prone to interobserver variability. These limitations are particularly restrictive in low-resource settings where access to standardized receptor testing is limited. OBJECTIVE: This study presents a proof-of-concept evaluation of attenuated total reflectance-Fourier transform infrared (ATR-FTIR) spectroscopy combined with artificial intelligence (AI) for label-free classification of ER and PR status in formalin-fixed paraffin-embedded (FFPE) breast cancer tissues. METHODS: A total of 72 samples (33 ER-positive, 39 ER-negative) were analyzed for ER classification, and 74 samples for PR classification (20 PR-positive, 54 PR-negative), generating 2328 and 1804 spectra, respectively. Spectra were acquired from pathologist-annotated tumor regions exhibiting definitive nuclear staining (positive) or absence thereof (negative) using a grid-based mapping strategy. Preprocessing included baseline correction (rubber-band algorithm) and z-score normalization. Seven AI models - logistic regression, support vector machine (SVM), decision tree, XGBoost, feedforward neural network (FNN), recurrent neural network (RNN), and convolutional neural network (CNN) - were trained and optimized using a genetic algorithm. Model performance was assessed via repeated cross-validation using AUC-ROC, accuracy, sensitivity, specificity, PPV, NPV, and F1 score. RESULTS: CNN achieved the highest classification performance for both ER (AUC = 95.93% +/- 6.64%, accuracy = 90.06% +/- 4.85%) and PR (AUC = 97.46% +/- 0.64%, accuracy = 91.51% +/- 3.28%). FNN, RNN, and XGBoost also demonstrated strong performance, whereas SVM yielded the lowest accuracy and F1 scores. Statistically significant spectral differences between receptor-positive and -negative tumor regions were observed across biochemical bands corresponding to proteins, lipids, nucleic acids, and phosphorylated biomolecules. CONCLUSION: AI-enhanced ATR-FTIR spectroscopy demonstrates high diagnostic potential for hormone receptor subtyping in FFPE tissues. As a label-free, scalable platform, it offers a promising alternative to IHC, particularly in resource-constrained environments. These findings establish the technical feasibility of this approach and warrant further validation in multicenter clinical cohorts.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast cancer subtyping",
+      "Cancer diagnostics",
+      "FTIR spectroscopy",
+      "Hormone receptor",
+      "Neural network"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Spectroscopy, Fourier Transform Infrared/methods",
+      "Female",
+      "*Receptors, Progesterone/analysis",
+      "*Receptors, Estrogen/analysis",
+      "*Artificial Intelligence",
+      "*Breast Neoplasms/chemistry/pathology",
+      "Formaldehyde/chemistry",
+      "Support Vector Machine",
+      "Tissue Fixation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "George, Renee",
+        "Serrano, Cherry Anne",
+        "Garong, Jasmine Thea",
+        "Magsanay, Kathryn",
+        "Maguigad, Aleezah Claire",
+        "De Castro, Maxene Alexandra",
+        "Navarro, Andrea Noelle",
+        "Mandac, Gabrielle Ricci",
+        "Ramos, Kenaiah",
+        "Isais, Maura",
+        "Abanador, Peter Guillen",
+        "Gil, Norely",
+        "Lenon, Maria Sarah",
+        "Trinidad, Marie Celestine",
+        "Baldomar, Angeline Acryl",
+        "Tomas, Rock Christian",
+        "Albano, Pia Marie"
+      ],
+      "short_names": [
+        "George R",
+        "Serrano CA",
+        "Garong JT",
+        "Magsanay K",
+        "Maguigad AC",
+        "De Castro MA",
+        "Navarro AN",
+        "Mandac GR",
+        "Ramos K",
+        "Isais M",
+        "Abanador PG",
+        "Gil N",
+        "Lenon MS",
+        "Trinidad MC",
+        "Baldomar AA",
+        "Tomas RC",
+        "Albano PM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines. Electronic address: reneegeorge.rg@gmail.com.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines.",
+        "Bulacan Medical Center, Malolos City, Bulacan, Philippines.",
+        "Bulacan Medical Center, Malolos City, Bulacan, Philippines.",
+        "Singapore Diagnostics, Makati City, Philippines.",
+        "Research Institute for Tropical Medicine, Muntinlupa City, Philippines.",
+        "Faculty of Medicine and Surgery, University of Santo Tomas, Manila, Philippines.",
+        "Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines; Graduate School, University of Santo Tomas, Manila, Philippines.",
+        "Department of Electrical Engineering, University of the Philippines Los Banos, Laguna, Philippines.",
+        "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "George, Renee",
+        "short_name": "George R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines. Electronic address: reneegeorge.rg@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Serrano, Cherry Anne",
+        "short_name": "Serrano CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Garong, Jasmine Thea",
+        "short_name": "Garong JT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Magsanay, Kathryn",
+        "short_name": "Magsanay K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Maguigad, Aleezah Claire",
+        "short_name": "Maguigad AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "De Castro, Maxene Alexandra",
+        "short_name": "De Castro MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Navarro, Andrea Noelle",
+        "short_name": "Navarro AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Mandac, Gabrielle Ricci",
+        "short_name": "Mandac GR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Ramos, Kenaiah",
+        "short_name": "Ramos K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Isais, Maura",
+        "short_name": "Isais M",
+        "identifiers": [],
+        "affiliations": [
+          "Bulacan Medical Center, Malolos City, Bulacan, Philippines."
+        ]
+      },
+      {
+        "full_name": "Abanador, Peter Guillen",
+        "short_name": "Abanador PG",
+        "identifiers": [],
+        "affiliations": [
+          "Bulacan Medical Center, Malolos City, Bulacan, Philippines."
+        ]
+      },
+      {
+        "full_name": "Gil, Norely",
+        "short_name": "Gil N",
+        "identifiers": [],
+        "affiliations": [
+          "Singapore Diagnostics, Makati City, Philippines."
+        ]
+      },
+      {
+        "full_name": "Lenon, Maria Sarah",
+        "short_name": "Lenon MS",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Tropical Medicine, Muntinlupa City, Philippines."
+        ]
+      },
+      {
+        "full_name": "Trinidad, Marie Celestine",
+        "short_name": "Trinidad MC",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Surgery, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Baldomar, Angeline Acryl",
+        "short_name": "Baldomar AA",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines; Graduate School, University of Santo Tomas, Manila, Philippines."
+        ]
+      },
+      {
+        "full_name": "Tomas, Rock Christian",
+        "short_name": "Tomas RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering, University of the Philippines Los Baños, Laguna, Philippines."
+        ]
+      },
+      {
+        "full_name": "Albano, Pia Marie",
+        "short_name": "Albano PM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Science, University of Santo Tomas, Manila, Philippines; Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy"
+    ],
+    "journal_abbrev": [
+      "Spectrochim Acta A Mol Biomol Spectrosc"
+    ],
+    "pub_date": "2026 Sep 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 00:29",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41905185",
+      "25337220",
+      "42247401",
+      "31348505",
+      "38395930",
+      "15668953",
+      "39715100",
+      "41547640",
+      "35159268",
+      "39752420",
+      "41937807",
+      "11678803",
+      "40597935",
+      "9494596",
+      "1371874",
+      "18947395",
+      "8823339",
+      "39726177",
+      "39745077",
+      "27389414",
+      "41588712",
+      "30613307",
+      "15550845",
+      "12123792",
+      "35081148",
+      "8490902",
+      "12529347",
+      "23447357",
+      "36931740",
+      "26687919",
+      "40645910",
+      "39912929",
+      "28325747",
+      "27657341",
+      "40373305",
+      "40143808",
+      "41470239",
+      "23074401",
+      "10836298",
+      "14506673",
+      "15025971",
+      "35821580",
+      "1958256",
+      "42427209",
+      "30120700",
+      "427788",
+      "34371382",
+      "22642247",
+      "41731833",
+      "27315045",
+      "16703595",
+      "40528232",
+      "38815444",
+      "30160021",
+      "39354719",
+      "39985907",
+      "26279132",
+      "40132671",
+      "18668363",
+      "7667207",
+      "21391734",
+      "7667210",
+      "27729430",
+      "16780022",
+      "36084763",
+      "34898327",
+      "31883437",
+      "22611048",
+      "38376838",
+      "19225135",
+      "25927181",
+      "23154769",
+      "40687175",
+      "42302265",
+      "28193205",
+      "41744185",
+      "42092436",
+      "39892558",
+      "10721188",
+      "41529257",
+      "38641451",
+      "39900180",
+      "15378477",
+      "8917341",
+      "25565114",
+      "15601642",
+      "20959666",
+      "19620495",
+      "37500962",
+      "28891017",
+      "38503615",
+      "19755043",
+      "28404930",
+      "42001040",
+      "40418571",
+      "17239243",
+      "38178166",
+      "38720675",
+      "30694768",
+      "28416639"
+    ],
+    "review": [
+      "41905185",
+      "41470239",
+      "19755043",
+      "42001040"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1386-1425(26)00352-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3214",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

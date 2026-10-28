@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and conclusion. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by presented evidence. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report identification of a putative G-quadruplex (G4) motif, ORAI1-Pu, in the ORAI1 promoter. They determine its parallel G4 structure by NMR, show ligand-mediated stabilization reduces promoter activity and ORAI1 mRNA levels, and demonstrate decreased store-operated calcium entry (SOCE) in MDA-MB-231 and B16 cells upon treatment with G4-stabilizing ligands TMPyP4 and BRACO-19. They propose this as a first proof-of-concept for G4-based therapeutics targeting Ca2+ dynamics in triple-negative breast cancer.
+- **Visible evidence base** Main text figures (Figures 1-5), tables (Table 1), supplementary figures and tables referenced (Figures S1-S11, Tables S1-S5). Supplementary materials not provided for independent verification.
+- **Missing materials affecting confidence** Supplementary information (Figures S1-S11, Tables S1-S5) referenced throughout but not included. NMR restraint files, raw data, and detailed experimental protocols for structure calculations not available. Statistical details for Ca2+ imaging quantifications not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a structurally well-characterized G4 motif in the ORAI1 promoter and provides correlative evidence linking ligand-induced G4 stabilization to reduced ORAI1 expression and SOCE. The NMR structure determination appears technically rigorous. However, the causal relationship between G4 stabilization and transcriptional repression is not directly established, and several claims regarding transcription factor binding and therapeutic relevance exceed the presented evidence. The study is of interest to the G4 biology and calcium signaling communities but requires substantial additional work to support the mechanistic and translational claims.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex biology, particularly promoter G4s and their role in gene regulation; cancer biologists interested in calcium signaling and ORAI1 as a therapeutic target; structural biologists working on non-canonical nucleic acid structures; drug discovery groups focused on G4-targeting ligands.
+- **Major strengths** High-quality NMR structure determination of the ORAI1-Pu G4 with full resonance assignments and 15N-labeling validation. Multi-technique approach combining biophysics, cell biology, and functional calcium imaging. Demonstration of endogenous G4 formation via BG4 ChIP. Cross-species validation in human and mouse cell lines. Clear writing and logical organization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal mechanism
+  - **Claim pointer** "Ligand-mediated stabilization suggested that the stabilized G4 represses transcription in cancer cell line MDA-MB-231."
+  - **Evidence pointer** Figure 3, Results section "Impact of mutations on the stability of the ORAI1-Pu structure" and "Promoter activity by luciferase assay"
+  - **Concern** The manuscript claims that ligand-induced G4 stabilization represses transcription, but the experimental design does not establish causality. The luciferase assay compares wild-type versus G4-deleted constructs treated with TMPyP4, but TMPyP4 is a non-specific G4 ligand that can bind many genomic G4s and has off-target effects. The reduction in reporter activity could result from TMPyP4 binding to other G4s in the vector backbone or from general cellular toxicity. No experiment directly demonstrates that stabilization of the ORAI1-Pu G4 specifically causes transcriptional repression. A G4-disrupting mutation that abolishes ligand binding while maintaining the E-box would be needed to establish specificity.
+  - **Why it matters** The central mechanistic claim of the paper, that G4 stabilization at ORAI1-Pu represses transcription, is not supported by the current experimental design. Without this causal link, the therapeutic rationale for targeting this G4 is weakened.
+  - **Resolution test** Perform luciferase assays with a construct where the G4-forming sequence is mutated to disrupt G4 formation while preserving the E-box motif, and show that TMPyP4 no longer represses reporter activity. Alternatively, use a G4-stabilizing ligand with demonstrated selectivity for this specific G4, or employ a genetic approach such as CRISPR-based disruption of the G4 motif in the endogenous locus.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transcription factor binding
+  - **Claim pointer** "The presence of the E-box motif, the dynamic loop region may also be a likely docking site for different transcription factors, such as Zeb1... ChIP data validated the recruitment of Zeb1 within the ORAI1-Pu G4 region."
+  - **Evidence pointer** Figure 4, Results section "Endogenous study of the ORAI1-Pu motif and its probable role as cis-regulatory element (CRE)"
+  - **Concern** The ChIP experiment shows Zeb1 binding to the ORAI1 promoter region, but this does not demonstrate that Zeb1 binds specifically to the E-box within the G4 loop. The ChIP primers amplify a region spanning -125 to +25 bp, which may include other transcription factor binding sites. No competition experiment, mutation analysis, or in vitro binding assay (EMSA, pull-down) is shown to establish that Zeb1 recognizes the E-box within the G4 loop specifically. Furthermore, the functional relevance of Zeb1 binding to ORAI1 expression is not tested.
+  - **Why it matters** The proposed model in which the G4 loop presents an E-box for transcription factor docking is a key novelty of the paper. Without direct evidence of specific Zeb1-E-box interaction within the G4 context, this model remains speculative.
+  - **Resolution test** Perform EMSA or surface plasmon resonance with the ORAI1-Pu G4 and Zeb1 protein, with and without E-box mutations. Show that Zeb1 binding is dependent on the intact E-box sequence. Additionally, knockdown or overexpression of Zeb1 should modulate ORAI1 expression in a G4-dependent manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and specificity
+  - **Claim pointer** "Treatment with TMPyP4 and BRACO-19 significantly decreased the mRNA levels of the ORAI1 gene."
+  - **Evidence pointer** Figure 3C, Results section "Promoter activity by luciferase assay"
+  - **Concern** The mRNA expression data show effects at 25 and 50 μM concentrations of both ligands. These are high concentrations with potential off-target effects. No dose-response curve is shown, and no data on cell viability or general transcriptional effects are presented. The specificity of the effect on ORAI1 versus other genes is not addressed. Additionally, the fold-change calculation method described in the methods appears to be for ChIP analysis, not mRNA quantification, creating ambiguity in the analysis.
+  - **Why it matters** High concentrations of G4 ligands are known to cause broad transcriptional changes and cytotoxicity. Without demonstrating specificity for ORAI1 and ruling out general toxicity, the observed mRNA reduction may not be a direct consequence of ORAI1-Pu G4 stabilization.
+  - **Resolution test** Provide dose-response curves for ORAI1 mRNA reduction, include cell viability assays at the concentrations used, and show that expression of unrelated genes is not affected. Consider RNA-seq or targeted analysis of multiple G4-containing promoters to demonstrate selectivity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** "Downregulation of transcription further led to decreased Ca2+ entry by the SOCE pathway."
+  - **Evidence pointer** Figure 5, Results section "Decrease in SOCE upon ligand-mediated destabilization of ORAI1-Pu"
+  - **Concern** The SOCE measurements show reduced Ca2+ entry after 48-72 hours of ligand treatment. However, the manuscript does not demonstrate that this reduction is specifically due to decreased ORAI1 expression. Other Ca2+ handling proteins may be affected by the ligands, as the authors themselves acknowledge in the discussion. The observation that ER Ca2+ release does not return to baseline in treated cells suggests broader effects on Ca2+ homeostasis beyond ORAI1. No rescue experiment (e.g., ORAI1 overexpression) is shown to establish that reduced ORAI1 is the cause of decreased SOCE.
+  - **Why it matters** The title and abstract emphasize remodeling of Ca2+ dynamics as a key outcome. If the SOCE reduction is not specifically attributable to ORAI1 downregulation, the central functional claim is weakened.
+  - **Resolution test** Overexpress ORAI1 in ligand-treated cells and show rescue of SOCE. Alternatively, use a more specific approach such as antisense oligonucleotides or siRNA targeting the ORAI1-Pu G4 region to demonstrate that disrupting the G4 specifically affects ORAI1 expression and SOCE.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural dynamics
+  - **Claim pointer** "The protruded loop further houses an E-box motif that provides a docking site for transcription factors like Zeb1."
+  - **Evidence pointer** Figure 2, NMR structure determination section
+  - **Concern** The NMR structure shows a well-defined G-core but the long 8-nt loop is described as dynamic and not well-defined (Figure S5). The claim that this loop provides a stable docking site for transcription factors is not supported by the structural data. The functional relevance of the loop dynamics is not explored. No structural data on the G4-transcription factor complex is presented.
+  - **Why it matters** The structural basis for the proposed regulatory mechanism is incomplete. If the loop is highly dynamic, it may not present a stable binding interface for transcription factors, and the model would need revision.
+  - **Resolution test** Determine the structure of the G4 in complex with the Zeb1 DNA-binding domain, or perform molecular dynamics simulations to assess the conformational landscape of the loop and its accessibility for protein binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3A and 3B
+  - **Evidence pointer** Results section "Promoter activity by luciferase assay"
+  - **Issue** The luciferase assay data presentation is unclear. The y-axis label and normalization method are not fully described. The statistical test used is mentioned as paired t-test, but the number of independent experiments and replicates is not stated.
+  - **Required correction** Clearly describe the normalization procedure, number of biological replicates, and statistical analysis in the figure legend and methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Calcium imaging
+  - **Evidence pointer** Results section "Decrease in SOCE upon ligand-mediated destabilization of ORAI1-Pu"
+  - **Issue** The calcium imaging methods are referenced to previous publications but the specific parameters for this study (e.g., number of cells per experiment, number of independent experiments, analysis software) are not described in sufficient detail.
+  - **Required correction** Provide complete methodological details for the calcium imaging experiments, including the number of cells analyzed, number of independent experiments, and statistical methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title states "Remodeling Ca(2+) dynamics" which implies a broader effect on calcium signaling than what is demonstrated. The abstract uses "destabilization" in the results section but the ligands are described as stabilizers throughout the manuscript. This inconsistency in terminology is confusing.
+  - **Required correction** Use consistent terminology throughout. Consider revising the title to more accurately reflect the scope of the findings, such as "Modulation of ORAI1 expression and store-operated calcium entry via a promoter G-quadruplex."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Evolutionary conservation
+  - **Affected element** Figure S1C
+  - **Evidence pointer** Results section "Identification of a putative G4 motif at the promoter region of ORAI1"
+  - **Issue** The conservation analysis is mentioned but the details of the analysis (which species, alignment method, conservation score threshold) are not described in the main text or methods.
+  - **Required correction** Provide details of the conservation analysis in the methods section and describe the results more fully in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The discussion of G4s in promoter regions and their role in cancer is somewhat brief. The authors could more thoroughly contextualize their findings within the existing literature on promoter G4s, particularly those containing transcription factor binding sites.
+  - **Required correction** Expand the discussion to include relevant studies on promoter G4s that interact with transcription factors and their implications for cancer therapy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between G4 stabilization and transcriptional repression not established), R1-M2 (specificity of Zeb1 binding to the E-box within the G4 loop not demonstrated), R1-M3 (dose-response and specificity of ligand effects not shown), R1-M4 (specificity of SOCE reduction to ORAI1 not established).
+- **Assessment against Nature-style criteria** Originality: The identification of a G4 in the ORAI1 promoter with an embedded E-box is novel, and the structural characterization is a valuable contribution. However, the concept of promoter G4s as regulatory elements is well established, and the specific mechanistic claims require stronger evidence. Scientific importance: ORAI1 is a relevant therapeutic target in cancer, and understanding its transcriptional regulation could have implications for treatment. However, the translational claims are premature given the lack of causal evidence. Interdisciplinary readership: The work bridges structural biology, gene regulation, and calcium signaling, which could appeal to a broad audience. Technical soundness: The NMR structure determination appears rigorous, and the biophysical characterization is thorough. However, the cellular and functional experiments lack the specificity controls needed to support the conclusions. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with G4 biology and calcium imaging techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is solid and the identification of a G4 in the ORAI1 promoter is of interest. However, the central mechanistic claims regarding transcriptional repression and the therapeutic potential require additional experiments to establish causality and specificity. The manuscript would be strengthened by direct evidence that G4 stabilization at ORAI1-Pu specifically represses transcription, that Zeb1 binds the E-box within the G4 loop, and that the observed SOCE reduction is attributable to ORAI1 downregulation.
+
+## Risk / unsupported claims
+- The claim that "the stabilized G4 represses transcription" is not supported by the experimental design, as TMPyP4 is a non-specific G4 ligand and no G4-disrupting control is shown.
+- The claim that "Zeb1 showed the highest proficiency for interaction" at the ORAI1-Pu region is not supported by quantitative comparison across transcription factors.
+- The claim that the G4 structure "provides a docking site for transcription factors like Zeb1" is speculative, as no direct binding assay is performed.
+- The claim that the effect of G4 modulation on ORAI1 function is "a conserved phenomenon observed in cell lines originating from different tissues and species" is based on only two cell lines and requires broader validation.
+- The claim of a "first-ever proof-of-concept therapeutic framework of G4-based anticancer treatments" targeting ORAI1 is overstated, as no in vivo data or therapeutic efficacy studies are presented.
+- The observation that ER Ca2+ release does not return to baseline in ligand-treated cells is acknowledged by the authors to suggest effects on other Ca2+ handling proteins, which undermines the specificity of the SOCE measurements to ORAI1.

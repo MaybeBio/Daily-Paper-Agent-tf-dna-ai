@@ -1,0 +1,5 @@
+# Binding to the DNA Minor Groove by Heterocyclic Dications: from AT Specific to GC Recognition Compounds
+
+
+## Abstract
+  Compounds that bind in the DNA minor groove have provided critical information on DNA molecular recognition, have found extensive uses in biotechnology, and are providing clinically useful drugs against diseases as diverse as cancer and sleeping sickness. This review focuses on the development of clinically useful heterocyclic diamidine minor groove binders. These compounds show that the classical model for minor groove binding in AT DNA sequences must be expanded in several ways: compounds with nonstandard shapes can bind strongly to the groove, water can be directly incorporated into the minor groove complex in an interfacial interaction, compounds can be designed to recognize GC and mixed AT/GC base pair sequences, and stacked dimers can form to recognize specific sequences. © 2023 Wiley Periodicals LLC.

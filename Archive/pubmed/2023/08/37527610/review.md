@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report computational engineering of OmoMyc mutants to enhance inhibition of the cMYC-MAX heterodimer, with six mutations predicted to increase binding affinity and stability, supported by docking, molecular dynamics, and binding free energy calculations, and proposed as therapeutic candidates for renal carcinoma.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods details, simulation parameters, statistical analyses, experimental validation, structural coordinates, and any raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a computational study with a clear objective and a plausible workflow, but the evidence base is limited to summary statistics and qualitative statements. The central claim that engineered OmoMyc mutants can competitively inhibit cMYC-MAX and downregulate oncogenic pathways in renal carcinoma is not established from the provided material, as no experimental validation or detailed methodological transparency is available. The study may be of interest to computational biologists and cancer researchers, but the current evidence is insufficient to support the therapeutic implications stated.
+- **Who would be interested in the results, and why** Computational structural biologists and researchers in cancer therapeutics, particularly those focused on protein-protein interaction inhibition and transcription factor targeting, would find the approach relevant. The potential for designing dominant-negative proteins could interest drug discovery groups, but the lack of experimental confirmation limits broader appeal.
+- **Major strengths** The study addresses a relevant oncogenic target with a rational design strategy. The use of multiple computational methods, including mutation screening, docking, and molecular dynamics, provides a comprehensive in silico pipeline. The reporting of binding free energy values with standard errors suggests some quantitative rigor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the predicted mutants "allow the mutants to competitively inhibit the c-Myc-MAX complex more swiftly" and "provide important insights into the potential of the mutants of OmoMyc as a therapeutic candidate for cancer treatment, particularly renal carcinoma."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The claim of therapeutic potential is based solely on computational predictions. No experimental data, such as cell-based assays, animal models, or binding measurements, are presented to support functional inhibition or downregulation of oncogenic pathways in renal carcinoma.
+  - **Why it matters** Computational predictions of binding affinity and stability do not directly translate to biological efficacy. Without experimental validation, the clinical relevance and competitive inhibition mechanism remain speculative, which is critical for a therapeutic claim.
+  - **Resolution test** Provide experimental evidence, such as co-immunoprecipitation, reporter assays, or cell viability studies in renal carcinoma models, demonstrating that the mutants inhibit cMYC-MAX activity and downregulate oncogenic pathways.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "among the total 472 mutations, only six mutations" were selected based on increased binding affinity, and that docking and molecular simulation results support improved functionality.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The criteria for mutation selection, the scoring function used for affinity prediction, the force field parameters, simulation length, and convergence criteria are not described. Without these details, the reproducibility and validity of the computational results cannot be assessed.
+  - **Why it matters** The reliability of the entire study depends on the methodological choices. Lack of transparency prevents independent verification and undermines confidence in the reported binding free energy differences, which are small relative to standard errors.
+  - **Resolution test** Include a detailed methods section with mutation screening protocol, docking algorithms, simulation parameters, and validation of the computational pipeline against known experimental data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical robustness
+  - **Claim pointer** The abstract reports total binding energy values with standard errors, e.g., -87.88 +/- 0.16 kcal/mol for WT and -97.76 +/- 0.22 kcal/mol for Q64E-N77R, and claims these differences are promising.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The differences between some mutants and WT, such as A61Q (-91.89) versus Q64E (-91.55), are within overlapping error ranges. The statistical significance of these differences is not established, and the number of replicates or independent simulations is not stated.
+  - **Why it matters** Overinterpretation of small energy differences without statistical testing could lead to false conclusions about mutant superiority, which is central to the study's premise.
+  - **Resolution test** Provide statistical analyses, such as t-tests or confidence intervals, with clearly stated replicate numbers, and discuss whether the observed differences are significant beyond simulation noise.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "structurally engineered omoMYC" is used in the title, but the abstract does not clarify the structural basis for the engineering beyond mutation selection.
+  - **Required correction** Define what "structurally engineered" means in the context of the methods, such as rational design based on crystal structures or homology models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Pathway downregulation claim
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions "downregulate oncogenic pathways" but provides no specific pathway names or mechanistic details.
+  - **Required correction** Specify which oncogenic pathways are targeted and how the inhibition of cMYC-MAX is expected to affect them, based on literature or preliminary data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Grammar
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "the results for TBE revealed that the for each complex" contains a grammatical error and redundancy.
+  - **Required correction** Revise to "The total binding energy (TBE) results for each complex revealed" for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core therapeutic claim lacks experimental support and the computational methods are not sufficiently detailed for evaluation. R1-M3 is non-blocking but requires statistical clarification.
+- **Assessment against Nature-style criteria** Originality is moderate, as computational design of dominant-negative proteins is not novel, though the specific application to OmoMyc in renal carcinoma may offer some novelty. Scientific importance is potentially high given the role of cMYC in cancer, but the lack of experimental validation limits current significance. Interdisciplinary readership is possible, but the abstract is too technical for nonspecialists without context. Technical soundness cannot be fully assessed due to missing methodological details. Readability for nonspecialists is poor, as terms like DBD, CTD, and TBE are used without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not support the therapeutic claims. Supportive if technical concerns are resolved, particularly with experimental validation and full methodological transparency.
+
+## Risk / unsupported claims
+- The claim that mutants "competitively inhibit the c-Myc-MAX complex more swiftly" is unsupported, as no kinetic or functional data are provided.
+- The claim that the findings "pave the way for the development of more effective clinical versions of OmoMyc" is unsupported, as clinical relevance requires in vivo and human studies.
+- The statement that "structural perturbations were reported in the regions, DBD, loop region, and minor deviations at CTD" is unverifiable without structural figures or analysis details.
+- The therapeutic potential for renal carcinoma is not established, as no disease-specific models or pathway data are presented.

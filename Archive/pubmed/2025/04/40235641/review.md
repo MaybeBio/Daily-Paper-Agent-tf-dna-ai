@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, conclusion, and supplementary figure legends as provided.
+- **Assessment boundary** Assessment is limited to the scientific content, methodology, data interpretation, and claims presented in the provided manuscript text. No external data, code, or supplementary files were available for independent verification.
+- **Shared manuscript claim summary** The authors use AlphaFold 3 (AF3) to predict complexes of human topoisomerase 3 beta (hTOP3B) and Mycobacterium tuberculosis topoisomerase I (MtbTOP1) with single-stranded DNA (ssDNA) substrates of varying lengths and sequences. They assess whether AF3-generated models reproduce experimentally known substrate positioning and sequence preferences. They report that AF3 predicts protein structures with high confidence, places short (9-mer) oligos in the binding cavity with improved confidence, but fails to reliably reproduce sequence-specific substrate positioning or known base preferences for either enzyme.
+- **Visible evidence base** The evidence base consists of the manuscript text, including descriptions of methods, results, and conclusions, plus references to figures (Fig. 1-5) and supplementary figures (Fig. S1-S5) and tables (Table S1). No actual data files, structural coordinates, or statistical analyses were provided.
+- **Missing materials affecting confidence** The following materials were not available and would affect confidence in the claims: (1) the actual AF3 model coordinates or confidence score distributions, (2) the full set of sequence data and alignment details, (3) the scripts or code used for distance measurements and curation, (4) the supplementary figures and tables referenced, (5) any statistical analysis of the positional preferences, and (6) details on the number of independent AF3 runs and their variability.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic benchmarking study of AlphaFold 3's ability to model type IA topoisomerase-DNA complexes, with a focus on sequence-dependent substrate positioning. The work addresses a timely and relevant question in the structural bioinformatics community, namely the reliability of AF3 for protein-nucleic acid complex prediction. The authors perform a large-scale screen of 1024 sequence variants for two enzymes and compare predicted substrate placement with known experimental cleavage preferences. The main conclusion, that AF3 can place short oligos in the binding cavity but does not reliably reproduce sequence specificity, is plausible and potentially useful for the community. However, the manuscript has several significant weaknesses. The analysis is largely descriptive, with no quantitative metrics or statistical tests to support the claims of positional preferences or lack thereof. The curation process for excluding models is described but the criteria are subjective and not validated. The comparison with experimental data is qualitative and does not include a systematic quantitative assessment. The manuscript would benefit from a more rigorous analytical framework, including quantitative measures of prediction accuracy, statistical analysis of positional biases, and a clearer articulation of what constitutes a "reliable" prediction. The writing is generally clear but some sections are repetitive. Overall, the study has merit as a benchmarking exercise, but the current presentation does not fully establish the conclusions with the necessary rigor.
+- **Who would be interested in the results, and why** Researchers in structural bioinformatics, computational biology, and enzymology would be interested in this work. Specifically, those who use or develop deep learning-based structure prediction tools for protein-nucleic acid complexes would benefit from an independent assessment of AF3's capabilities and limitations. The findings are also relevant to the topoisomerase field, as they highlight the challenges of using computational models to infer sequence specificity in these enzymes. The study provides a cautionary note on the interpretation of AF3 models for substrate binding and could guide future improvements in prediction algorithms.
+- **Major strengths** (1) The study addresses a timely and important question about the reliability of AlphaFold 3 for protein-nucleic acid complex prediction. (2) The authors perform a large-scale screen with 1024 sequence variants, which is a substantial computational effort. (3) The comparison of two type IA topoisomerases with different known sequence preferences provides a useful test case. (4) The manuscript is generally well-written and the figures are informative. (5) The conclusion that AF3 does not reliably reproduce sequence specificity is an important negative result that could inform future use of the tool.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AF3-generated models show specific positional patterns for certain sequences, such as "sequences starting with CCC- are preferentially placed with first C in the –5 or −6 position" and that these patterns "likely represent modeling artifacts rather than actual structural features."
+  - **Evidence pointer** Results section, Figures 4 and 5, and associated text.
+  - **Concern** The claim of positional preferences is based on visual inspection and descriptive statistics (percentages) without any statistical testing. The authors do not provide confidence intervals, effect sizes, or tests of significance to support the claim that certain bases are "preferentially" placed at certain positions. The variability between models is not quantified, and the number of models per sequence is not stated. Without a rigorous statistical framework, the observed patterns could be due to chance or to the specific set of sequences chosen. The authors also do not provide a null model or a comparison to a random distribution of positions.
+  - **Why it matters** The central conclusion of the manuscript, that AF3 does not reproduce sequence specificity, depends on the reliability of the positional analysis. If the positional patterns are not statistically robust, the conclusion is weakened. A quantitative analysis with appropriate statistical tests is essential to support the claims.
+  - **Resolution test** The authors should provide a quantitative analysis of positional preferences, including the number of models per sequence, the distribution of positions, and statistical tests (e.g., chi-square or Fisher's exact test) comparing observed positional frequencies to expected frequencies under a null model. They should also report the variability across independent AF3 runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "AF3 can predict the structure of the enzymes, especially the N-terminal domain, with high confidence" and that "the models generated with shorter (9-mer) oligos are obtained with improved confidence."
+  - **Evidence pointer** Results section, Figures 2-5, and supplementary figures.
+  - **Concern** The confidence of the models is discussed in terms of pIDDT and iPTM scores, but the actual score values are only mentioned qualitatively (e.g., "pIDDT>90", "iPTM scores below 0.55", "iPTM scores improved (>0.70)"). The authors do not provide a systematic comparison of confidence scores across different conditions (e.g., full-length vs. truncated protein, different oligo lengths, different sequences). It is unclear whether the differences in confidence scores are statistically significant or biologically meaningful. Additionally, the relationship between confidence scores and the accuracy of substrate placement is not quantitatively assessed.
+  - **Why it matters** The claim that AF3 predicts the enzyme structure with high confidence is important for the overall assessment of the tool's utility. If the confidence scores are not rigorously analyzed, the claim is not well-supported. A quantitative comparison of confidence scores across conditions would strengthen the manuscript.
+  - **Resolution test** The authors should provide a table or figure showing the distribution of pIDDT and iPTM scores for all models, with statistical comparisons between conditions (e.g., full-length vs. truncated, different oligo lengths). They should also assess whether confidence scores correlate with the accuracy of substrate placement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "AF3 can correctly place short oligonucleotide substrates within the binding cavity, but it fails to accurately reproduce sequence-dependent substrate positioning in type IA topoisomerase-DNA complexes."
+  - **Evidence pointer** Results and Conclusion sections.
+  - **Concern** The conclusion is based on a comparison with experimental data from a limited number of studies. The authors compare their AF3 predictions with cleavage sites from Yang et al. [17] for hTOP3B and with known preferences for MtbTOP1. However, the comparison is qualitative and does not include a systematic quantitative assessment of how well the predicted positions match the experimental data. For example, the authors do not calculate the fraction of models where the predicted cleavage site matches the experimentally observed site, nor do they assess the significance of the observed mismatches. The conclusion that AF3 "fails" to reproduce sequence specificity is strong and requires a more rigorous quantitative basis.
+  - **Why it matters** The main scientific contribution of the manuscript is the negative result that AF3 does not reproduce sequence specificity. If this conclusion is not supported by quantitative analysis, the impact of the study is diminished.
+  - **Resolution test** The authors should provide a quantitative comparison between predicted and experimentally observed cleavage sites, such as the percentage of models where the predicted site matches the experimental site, and a statistical test of whether this percentage is significantly different from chance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe a curation process where models with substrates placed "outside or far away from the substrate-binding cavity" or with "flipped orientation" were excluded from analysis.
+  - **Evidence pointer** Methods section, Figure 1.
+  - **Concern** The criteria for excluding models are described qualitatively and are not well-defined. The authors do not provide specific distance thresholds or orientation criteria. This lack of objectivity could introduce bias into the analysis. It is unclear how many models were excluded and whether the exclusion criteria were applied consistently across all sequences and enzymes.
+  - **Why it matters** The curation process directly affects the dataset used for the positional analysis. If the criteria are subjective or inconsistently applied, the results may not be reproducible. A clear and objective definition of the exclusion criteria is necessary for the study to be reliable.
+  - **Resolution test** The authors should provide specific, quantitative criteria for excluding models (e.g., distance from the catalytic tyrosine, angle of the DNA relative to the binding pocket). They should also report the number of models excluded for each reason and for each enzyme.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph.
+  - **Issue** The introduction provides a general overview of structure prediction but could be more concise. Some statements, such as "the latest frontier in structural biology," are somewhat vague.
+  - **Required correction** Consider tightening the introduction to focus more directly on the specific problem of protein-nucleic acid complex prediction and the rationale for using topoisomerases as a test case.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Complex generation
+  - **Evidence pointer** Methods section.
+  - **Issue** The methods state that "the sequences for the proteins and oligos are listed in Table S1," but this table was not provided. It is difficult to assess the exact sequences used without this information.
+  - **Required correction** Ensure that Table S1 is included in the supplementary materials and that all sequences are clearly listed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Generation of hTOP3B-DNA complex with 40-mer oligo
+  - **Evidence pointer** Results section, Figure 2.
+  - **Issue** The authors mention that "in two of the five trials we performed, the DNA was modeled with the phosphate group between 14 and 15-nt positioned near the catalytic tyrosine." It is unclear how many trials were performed in total and whether the variability between trials was assessed.
+  - **Required correction** Provide details on the number of independent AF3 runs and the variability of the results across runs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Generation of hTOP3B-DNA complexes with 9-mer oligos
+  - **Evidence pointer** Results section, Figure 4.
+  - **Issue** The description of the positional analysis is somewhat dense and could be clarified. The use of terms like "starting position" and "position shift" may be confusing to readers not familiar with the numbering scheme.
+  - **Required correction** Consider adding a brief explanation of the numbering scheme and a more intuitive description of the positional analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Substrate placement in MtbTOP1 for 9-mer oligos
+  - **Evidence pointer** Results section, Figure 5.
+  - **Issue** The authors state that "the models lacked a clear preference for cytosine at −4 position from the cleavage site" but do not provide a quantitative measure of this lack of preference.
+  - **Required correction** Provide a quantitative comparison of the observed positional frequencies to the expected frequencies based on the known preference for cytosine at −4.
+- **Technical failings that need to be addressed before the case is established** The main technical failing is the lack of quantitative and statistical rigor in the analysis of positional preferences. The claims of "preferential" placement and "lack of sequence specificity" are not supported by statistical tests. The curation process is subjective and not well-defined. The comparison with experimental data is qualitative. These issues need to be addressed before the conclusions can be considered robust.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its specific focus on benchmarking AF3 for type IA topoisomerase-DNA complexes with a large sequence screen. However, the general question of AF3's reliability for protein-nucleic acid complexes is not new, and the approach is largely descriptive.
+  - **Scientific importance** The findings are of moderate importance. They provide a cautionary note on the use of AF3 for predicting sequence-specific protein-DNA interactions, which is relevant to a broad community. However, the impact is limited by the lack of quantitative rigor.
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, computational biologists, and enzymologists. The manuscript is written in a way that is accessible to these groups, but the lack of quantitative detail may limit its appeal to more methodologically oriented readers.
+  - **Technical soundness** The technical soundness is currently insufficient due to the lack of statistical analysis and objective criteria for model curation. The methods are described in sufficient detail to be reproducible, but the analysis is not rigorous enough to support the conclusions.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections, particularly the results, are dense and could be clarified. The figures are helpful but would benefit from more detailed legends.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and has the potential to be a useful benchmarking resource. However, the current analysis is not rigorous enough to fully support the conclusions. The authors should add quantitative metrics, statistical tests, and a more objective curation process to strengthen the manuscript.

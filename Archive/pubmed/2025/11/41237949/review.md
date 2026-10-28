@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate the binding dynamics of the TBR1 T-box domain to DNA sequences containing either a single T-box binding element (TBE) or a palindromic arrangement of two adjacent TBEs, both derived from candidate enhancers of autism-associated genes. They report sequence-specific, enthalpically driven, entropically opposed binding; smFRET evidence for monomeric binding to the single-site sequence and dual occupancy with additional dynamic events for the palindromic sequence; and molecular docking and dynamics simulations predicting fewer stabilising contacts per TBE and greater conformational flexibility for the palindromic complex. The authors conclude that DNA architecture modulates affinity and kinetics within the T-box family and claim the first detailed mechanistic insight into DNA recognition by a T-box transcription factor.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, smFRET data and analysis details, simulation parameters and validation, sequence information, and any statistical or reproducibility assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study of TBR1 DNA recognition, with a clear conceptual framework linking DNA architecture to binding dynamics. However, the evidence base available for review is limited to the abstract, which precludes rigorous evaluation of the technical soundness, data quality, and robustness of the conclusions. The central claims, particularly regarding the mechanistic distinction between single and palindromic TBE binding and the novelty of the findings, are plausible but cannot be verified from the supplied material. The study may appeal to specialists in transcription factor biology and biophysics, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying T-box transcription factors, DNA-protein recognition mechanisms, single-molecule biophysics, and the molecular basis of neurodevelopmental disorders would find these results relevant. The work could inform understanding of how DNA sequence architecture influences transcription factor binding dynamics, with potential implications for interpreting disease-associated mutations in TBR1 and related factors.
+- **Major strengths** The study addresses a clear gap in understanding TBR1 DNA recognition mechanisms. The combination of thermodynamic measurements, single-molecule FRET, and molecular simulations provides a multi-pronged approach. The use of naturally occurring genomic sequences linked to autism-associated enhancers adds biological relevance. The conceptual distinction between stable monomeric binding and dynamic dual occupancy is a compelling framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that smFRET reveals monomeric binding to the single-site sequence and dual occupancy with additional dynamic events for the palindromic sequence.
+  - **Evidence pointer** Abstract only; no figures or methods provided
+  - **Concern** The abstract provides no quantitative details on the smFRET measurements, such as the number of molecules observed, the FRET efficiency values, the time scales of the observed transitions, or the controls used to assign binding stoichiometry. Without these details, it is impossible to assess whether the assignment of monomeric versus dual occupancy is robust or whether the observed dynamics could arise from alternative interpretations, such as conformational changes within a single bound monomer or non-specific interactions.
+  - **Why it matters** The central mechanistic conclusion depends on the correct interpretation of smFRET data. If the stoichiometry assignment is flawed or the dynamics are not well resolved, the distinction between stable monomeric binding and dynamic dual occupancy would be unsupported, undermining the main claim of the study.
+  - **Resolution test** Provide the full smFRET methodology, including labeling strategy, data selection criteria, FRET histograms, and representative time traces. Include controls demonstrating that the observed FRET states correspond to one versus two bound monomers, and show statistical analysis of transition frequencies and dwell times.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular docking and dynamics simulations predict fewer stabilising contacts per TBE and greater conformational flexibility for the palindromic complex.
+  - **Evidence pointer** Abstract only; no simulation details provided
+  - **Concern** The abstract does not describe the simulation methods, including the force field, simulation length, system setup, or how the docking poses were generated and validated. The claim of fewer stabilising contacts per TBE is presented without quantitative support, and it is unclear whether the simulations were performed with sufficient sampling to draw reliable conclusions about conformational flexibility.
+  - **Why it matters** The simulation results are used to support the experimental observations and to provide a mechanistic explanation for the observed dynamics. If the simulations are not adequately validated or are based on questionable assumptions, the proposed mechanism would lack a solid theoretical foundation.
+  - **Resolution test** Provide full simulation details, including software, force field, simulation time, and convergence criteria. Show quantitative comparisons of contact numbers and flexibility metrics between the single and palindromic complexes, and include validation of the docking poses against experimental data if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** The authors claim this study provides the first detailed mechanistic insight into DNA recognition by a T-box transcription factor.
+  - **Evidence pointer** Abstract only; no literature comparison provided
+  - **Concern** The abstract does not situate this work within the existing literature on T-box DNA recognition. It is unclear what prior structural or biophysical studies have been performed on T-box domains, and whether the claimed novelty is justified. Without a clear statement of what is new relative to previous work, the significance of the contribution cannot be assessed.
+  - **Why it matters** The claim of being the first detailed mechanistic insight is a strong statement that requires careful contextualisation. If prior studies have already addressed aspects of T-box DNA recognition, the novelty of this work would be diminished, affecting its suitability for a high-impact venue.
+  - **Resolution test** Provide a comprehensive literature review in the full manuscript that explicitly compares the present findings with prior studies on T-box DNA recognition, and clearly articulate the specific novel contributions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses terms such as "enthalpically driven" and "entropically opposed" without brief explanation, which may be unclear to readers outside the biophysics field.
+  - **Required correction** Add a brief parenthetical explanation of these thermodynamic terms or rephrase to make the meaning accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The phrase "short-range transitions of a monomer along the palindromic DNA before dissociation or before the arrival of a second monomer" is ambiguous regarding the direction and nature of these transitions.
+  - **Required correction** Clarify whether these transitions represent sliding, hopping, or conformational changes, and specify the distance range and time scale.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not mention the number of independent replicates or the statistical significance of the thermodynamic and smFRET measurements.
+  - **Required correction** Include information on replicates and statistical analysis in the full manuscript, and briefly note the robustness of the findings in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims cannot be evaluated without full experimental and simulation details. R1-M3 is also blocking because the novelty claim requires contextualisation against existing literature.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract suggests a novel application of combined biophysical and computational methods to TBR1, but the claim of being the first detailed mechanistic insight requires verification against prior literature. The conceptual framework of DNA architecture modulating binding dynamics is not entirely new, but its application to T-box factors may be original.
+  - Scientific importance: The link to neurodevelopmental disorders and autism-associated enhancers gives the work potential biological significance, but the abstract does not demonstrate how the findings advance understanding of disease mechanisms beyond a general statement.
+  - Interdisciplinary readership: The work bridges transcription factor biology, biophysics, and computational biology, which could appeal to a broad audience. However, the abstract is written in a way that may be more accessible to specialists than to a general scientific readership.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the reliability of the findings.
+  - Readability for nonspecialists: The abstract is generally clear but includes some technical jargon that may hinder accessibility for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential interest, but the abstract alone does not provide sufficient detail to assess the validity of the central claims. A supportive recommendation would require access to the full manuscript and resolution of the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "first detailed mechanistic insight into DNA recognition by a T-box transcription factor" is unsupported without a literature comparison.
+- The interpretation of smFRET data as evidence for monomeric versus dual occupancy is unverifiable from the abstract.
+- The simulation-based prediction of fewer stabilising contacts and greater conformational flexibility is unsupported without methodological details.
+- The statement that the palindromic sequence "can recruit a second monomer" implies a specific binding mechanism that is not substantiated by quantitative data.
+- The biological relevance of the findings to neurodevelopmental disorders is asserted but not demonstrated with functional or disease-related evidence.

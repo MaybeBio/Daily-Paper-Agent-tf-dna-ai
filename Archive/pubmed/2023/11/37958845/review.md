@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** The scientific claims, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use flexible molecular docking to assess whether five neuromodulators (epinephrine, norepinephrine, dopamine, melatonin, serotonin) can occupy effector binding sites in 22 E. coli transcription factors (53 structural models). They report specific binding predictions for several regulators, including LacI and CRP, and propose that neuromodulators may directly modulate bacterial gene expression by competing with natural effectors.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.5), Discussion, Materials and Methods (Sections 4.1–4.3), Tables 1–5, Figures 1–8
+- **Missing materials affecting confidence** No supplementary data files, no raw docking output tables with per-residue interaction details, no statistical validation of docking scores, no experimental validation data, no PDB accession codes for all models in a machine-readable format, no code or parameter files for docking runs
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational screening study that is conceptually interesting and addresses a timely question in microbial endocrinology. The authors apply a consistent docking protocol across a reasonably large set of transcription factor models and report differential binding propensities. However, the study is entirely computational and lacks experimental validation, which substantially limits the strength of the conclusions. The docking methodology, while described, has limitations that are not fully addressed, particularly regarding the use of apo versus holo structures, the treatment of protein flexibility, and the interpretation of binding specificity based on hydrogen bond patterns. The claim that neuromodulators can "occupy effector binding sites" is presented as a predictive finding, but the evidence base is insufficient to establish functional relevance. The manuscript would benefit from a more cautious framing and from explicit acknowledgment of the speculative nature of the conclusions.
+- **Who would be interested in the results, and why** Researchers in microbial endocrinology, host-microbe interactions, and bacterial gene regulation would find this study of interest. The hypothesis that host neurotransmitters can directly interact with bacterial transcription factors is novel and could stimulate further experimental work. Computational biologists working on protein-ligand docking and those interested in cross-kingdom signaling may also find the methodological approach and the curated set of transcription factor models useful.
+- **Major strengths** The study addresses a novel and important question regarding direct molecular mechanisms of host-microbe signaling. The authors use a diverse set of transcription factor models and apply a consistent docking protocol. The inclusion of bifunctional proteins and the analysis of binding specificity relative to natural effectors adds depth. The discussion of limitations, such as the influence of co-crystallized ligands on protein conformation, shows awareness of methodological caveats.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that neuromodulators can occupy effector binding sites in bacterial transcription factors and thereby directly modulate their activity.
+  - **Evidence pointer** Sections 2.2–2.5, Tables 2–5, Figures 1–8
+  - **Concern** The entire study is based on in silico docking predictions. No experimental validation is provided to confirm that any neuromodulator actually binds to any of the predicted targets in vitro or in vivo. Docking scores and predicted hydrogen bond patterns are not sufficient evidence for functional binding, especially given the known limitations of docking accuracy in predicting binding affinities and poses.
+  - **Why it matters** The central claim of the manuscript, that neuromodulators can act as direct modulators of bacterial transcription factors, requires experimental support. Without such validation, the conclusions remain speculative and the physiological relevance is unsubstantiated.
+  - **Resolution test** Provide experimental evidence, such as surface plasmon resonance, isothermal titration calorimetry, or a functional reporter assay, demonstrating that at least one neuromodulator binds to a predicted transcription factor and affects its activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors state that flexible molecular docking was performed and that binding specificity was assessed based on the location of the neuromodulator and its ability to form hydrogen bonds with the same residues as the native ligand.
+  - **Evidence pointer** Section 4.3, Tables 2–5
+  - **Concern** The docking protocol has several methodological limitations that are not adequately addressed. First, the use of AutoDock VINA with flexible ligands but rigid receptors does not account for protein conformational changes upon ligand binding, which can be significant for allosteric regulators. Second, the criterion for specificity (Δ ≥ 2 kcal/mol) is arbitrary and not statistically validated. Third, the sequential docking procedure, where the highest-affinity ligand is added to the structure for subsequent rounds, may introduce artifacts and does not reflect a realistic binding scenario. Fourth, the removal of co-crystallized ligands before docking may leave the binding site in a conformation that is not optimal for the neuromodulators.
+  - **Why it matters** The methodological choices directly affect the reliability of the predictions. If the docking protocol is not robust, the reported binding affinities and specificities may not be meaningful, undermining the conclusions drawn from them.
+  - **Resolution test** Justify the choice of rigid receptor docking, provide a statistical analysis of the Δ values (e.g., comparison to a decoy set), and discuss how the sequential docking procedure affects the interpretation of results. Alternatively, perform additional docking runs with flexible receptor side chains or use multiple docking tools to confirm the predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors suggest that neuromodulators can "sterically hinder" the interaction of transcription factors with natural effectors or "even replace them."
+  - **Evidence pointer** Sections 2.2, 2.3, 3
+  - **Concern** The interpretation that neuromodulators can functionally replace natural effectors is not supported by the data. The docking predictions show that neuromodulators can bind to the same site, but there is no evidence that this binding leads to the same conformational changes or functional outcomes as the natural effector. In fact, the authors note that none of the neuromodulators completely reproduced the binding topology of the natural effector, which suggests that their functional effect, if any, would likely be inhibitory rather than activating.
+  - **Why it matters** The physiological implications of the predicted binding depend on whether neuromodulators act as agonists, antagonists, or neutral competitors. The current data do not allow this distinction, and the authors' speculation about functional replacement is not justified.
+  - **Resolution test** Clarify the potential functional consequences of neuromodulator binding, distinguishing between competitive inhibition and agonistic effects. If possible, use molecular dynamics simulations or experimental assays to assess the conformational impact of neuromodulator binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that "the natural hormonal background may be a factor that preadapts bacteria to the habitat through direct perception of host signaling molecules."
+  - **Evidence pointer** Section 3
+  - **Concern** The study only considers E. coli transcription factors and five neuromodulators. The extrapolation to a general mechanism of host-microbe signaling across different bacterial species and physiological contexts is not warranted based on this limited dataset. The authors do not discuss how the predicted binding affinities compare to the physiological concentrations of neuromodulators in the gut or other host environments.
+  - **Why it matters** The physiological relevance of the predicted interactions depends on whether neuromodulator concentrations in vivo are sufficient to occupy the binding sites. Without this context, the claim that the hormonal background preadapts bacteria remains speculative.
+  - **Resolution test** Discuss the physiological concentrations of the studied neuromodulators in relevant host environments and compare them to the predicted binding affinities. If possible, include a broader range of bacterial species or discuss the generalizability of the findings more cautiously.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Table 2, Figure 2
+  - **Issue** The presentation of docking results for LacI is somewhat confusing. The authors report affinities for the best-binding neuromodulator at the IPTG site and for the best site outside it, but it is not clear how many neuromodulator molecules were docked in each iteration and whether the reported values correspond to the first or a later binding event.
+  - **Required correction** Clarify the docking protocol in the text, specifying how many molecules were docked per iteration and how the reported affinities were selected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Table 3
+  - **Issue** The authors state that "the greatest variability was predicted for the 4I09 model" but do not provide a quantitative measure of variability or a comparison across models.
+  - **Required correction** Provide a quantitative metric for variability (e.g., range, standard deviation) and present it in a comparative format.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Not applicable
+  - **Issue** The docking parameters (e.g., exhaustiveness, grid box dimensions, number of runs) are not specified. This limits the reproducibility of the study.
+  - **Required correction** Provide full docking parameters in the Methods section or as supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Tables 2–5
+  - **Evidence pointer** Tables 2–5
+  - **Issue** The tables are dense and difficult to interpret. The "heat map" in Table 2 is not described in the legend, and the meaning of the color scale is unclear.
+  - **Required correction** Add a clear legend for the heat map and consider simplifying the tables or moving detailed data to supplementary material.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1
+  - **Evidence pointer** References [42,43]
+  - **Issue** The Introduction cites studies on proteomic changes but does not discuss whether any of the identified proteins are transcription factors, which would strengthen the rationale for the study.
+  - **Required correction** Briefly mention whether any of the proteomic changes involve transcription factors or regulatory proteins.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental validation is the primary technical failing. Additionally, the docking methodology has limitations that need to be addressed or acknowledged more thoroughly, including the use of rigid receptors, the arbitrary specificity threshold, and the sequential docking procedure. The absence of docking parameters and statistical validation further weakens the technical foundation.
+- **Assessment against Nature-style criteria** Originality: The concept of neuromodulators directly interacting with bacterial transcription factors is original and addresses a gap in the field. Scientific importance: The question is important for understanding host-microbe interactions, but the purely computational approach limits the immediate impact. Interdisciplinary readership: The topic bridges microbiology, endocrinology, and computational biology, which could attract a broad audience. Technical soundness: The docking protocol is standard but has limitations that are not fully addressed; the lack of experimental validation is a significant weakness. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections are dense and would benefit from clearer explanations of the docking methodology and interpretation.
+- **Recommendation posture** Currently not established from the provided evidence. The computational predictions are interesting and hypothesis-generating, but the central claim requires experimental validation. The manuscript would be suitable for a more specialized journal with a focus on computational biology or microbial endocrinology, but it does not meet the standards for a high-impact general journal without substantial additional evidence.
+
+## Risk / unsupported claims
+- The claim that neuromodulators can "occupy effector binding sites" is unsupported without experimental validation.
+- The suggestion that neuromodulators can "replace" natural effectors is not supported by the data.
+- The extrapolation to a general mechanism of host-microbe signaling is not supported by the limited dataset.
+- The physiological relevance of the predicted interactions is not established, as the authors do not compare predicted affinities to in vivo neuromodulator concentrations.

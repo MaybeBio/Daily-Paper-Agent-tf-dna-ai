@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "34009663",
+    "doi": "10.1111/bpa.12974",
+    "title": "Application of deep learning to understand resilience to Alzheimer's disease pathology."
+  },
+  "content": {
+    "abstract": "People who have Alzheimer's disease neuropathologic change (ADNC) typically associated with dementia but not the associated cognitive decline can be considered to be \"resilient\" to the effects of ADNC. We have previously reported lower neocortical levels of hyperphosphorylated tau (pTau) and less limbic-predominant age-related TDP-43 encephalopathy neuropathologic change (LATE-NC) in the resilient participants compared to those with dementia and similar ADNC as determined by current NIA-AA recommendations using traditional semi-quantitative assessments of amyloid beta and pathological tau burden. To better understand differences between AD-dementia and resilient participants, we developed and applied a deep learning approach to analyze the neuropathology of 14 brain donors from the Adult Changes in Thought study, including seven stringently defined resilient participants and seven age-matched AD-dementia controls. We created two novel, fully automated deep learning algorithms to quantify the level of phosphorylated TDP-43 (pTDP-43) and pTau in whole slide imaging. The models performed better than traditional techniques for quantifying pTDP-43 and pTau. The second model was able to segment lesions staining for pTau into neurofibrillary tangles (NFTs) and tau neurites (neuronal processes positive for pTau). Both groups had similar quantities of pTau localizing to neurites, but the pTau burden associated with NFTs in the resilient group was significantly lower compared to the group with dementia. These results validate use of deep learning approaches to quantify clinically relevant microscopic characteristics from neuropathology workups. These results also suggest that the burden of NFTs is more strongly associated with cognitive impairment than the more diffuse neuritic tau commonly seen with tangle pathology and suggest that additional factors may underlie resilience mechanisms defined by traditional means.",
+    "keywords": [
+      "Adult Changes in Thought (ACT)",
+      "Alzheimer's disease",
+      "TDP-43",
+      "deep learning",
+      "neuropathology",
+      "phosphorylated tau",
+      "resilience",
+      "resistance"
+    ],
+    "mesh_terms": [
+      "Aged",
+      "Aged, 80 and over",
+      "Algorithms",
+      "Alzheimer Disease/metabolism/*pathology",
+      "Brain/metabolism/*pathology",
+      "Cognition/physiology",
+      "Cognitive Dysfunction/metabolism/*pathology",
+      "DNA-Binding Proteins/metabolism",
+      "*Deep Learning",
+      "Disease Progression",
+      "Female",
+      "Humans",
+      "Male",
+      "Phosphorylation",
+      "tau Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Cecilia S",
+        "Latimer, Caitlin S",
+        "Henriksen, Jonathan C",
+        "Blazes, Marian",
+        "Larson, Eric B",
+        "Crane, Paul K",
+        "Keene, C Dirk",
+        "Lee, Aaron Y"
+      ],
+      "short_names": [
+        "Lee CS",
+        "Latimer CS",
+        "Henriksen JC",
+        "Blazes M",
+        "Larson EB",
+        "Crane PK",
+        "Keene CD",
+        "Lee AY"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1994-7213"
+      ],
+      "affiliations": [
+        "Department of Ophthalmology, University of Washington, Seattle, WA, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA.",
+        "Department of Ophthalmology, University of Washington, Seattle, WA, USA.",
+        "Kaiser Permanente Washington Health Research Institute, Seattle, WA, USA.",
+        "Division of General Internal Medicine, Department of Internal Medicine, University of Washington, Seattle, WA, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA.",
+        "Department of Ophthalmology, University of Washington, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Cecilia S",
+        "short_name": "Lee CS",
+        "identifiers": [
+          "0000-0003-1994-7213"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Latimer, Caitlin S",
+        "short_name": "Latimer CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Henriksen, Jonathan C",
+        "short_name": "Henriksen JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Blazes, Marian",
+        "short_name": "Blazes M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Larson, Eric B",
+        "short_name": "Larson EB",
+        "identifiers": [],
+        "affiliations": [
+          "Kaiser Permanente Washington Health Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Crane, Paul K",
+        "short_name": "Crane PK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of General Internal Medicine, Department of Internal Medicine, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Keene, C Dirk",
+        "short_name": "Keene CD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Aaron Y",
+        "short_name": "Lee AY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, University of Washington, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain pathology (Zurich, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Brain Pathol"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/20 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "41113677",
+      "40351831",
+      "39546031",
+      "39227502",
+      "38664739",
+      "38589893",
+      "36502330",
+      "35697880",
+      "35533333",
+      "34831148"
+    ],
+    "refs": [
+      "32345363",
+      "31992981",
+      "31780819",
+      "31481890",
+      "31375134",
+      "31174609",
+      "31092819",
+      "31039256",
+      "30952891",
+      "30909217",
+      "30770886",
+      "30742063",
+      "30735236",
+      "28193671",
+      "27694152",
+      "27401406",
+      "26993139",
+      "22515559",
+      "22487856",
+      "22229116",
+      "22101365",
+      "21999410",
+      "21825242",
+      "20811000",
+      "19661627",
+      "19289554",
+      "19176974",
+      "17879383",
+      "17499884",
+      "16906426",
+      "16418406",
+      "16237129",
+      "12480729",
+      "12433261",
+      "8054493",
+      "6610841",
+      "3558716",
+      "2011243"
+    ],
+    "similar": [
+      "34009663",
+      "31174609",
+      "36057624",
+      "32896913",
+      "34563269",
+      "32349792",
+      "38133681",
+      "37793659",
+      "39227502",
+      "32408057",
+      "37777806",
+      "23824488",
+      "33188391",
+      "21721431",
+      "35697880",
+      "35705500",
+      "29958544",
+      "33016922",
+      "31874218",
+      "37522210",
+      "37742640",
+      "35694918",
+      "37812432",
+      "35366087",
+      "29916037",
+      "32753441",
+      "32957903",
+      "37037195",
+      "29154274",
+      "36191742",
+      "34270750",
+      "36048712",
+      "34455972",
+      "38244935",
+      "31376192",
+      "31009046",
+      "36302666",
+      "22676853",
+      "37966908",
+      "34919190",
+      "30052812",
+      "24679899",
+      "38494787",
+      "35259518",
+      "39400356",
+      "31269985",
+      "38997773",
+      "30909217",
+      "36264254",
+      "17089134",
+      "35696592",
+      "31272512",
+      "21945902",
+      "33222700",
+      "36744338",
+      "33171206",
+      "38317026",
+      "25471565",
+      "30358161",
+      "31834353",
+      "25307057",
+      "38308693",
+      "33682705",
+      "32091549",
+      "30336198",
+      "27770234",
+      "8955927",
+      "35977443",
+      "29562525",
+      "20360050",
+      "21911695",
+      "8624072",
+      "31009033",
+      "33797838",
+      "16306398",
+      "32810333",
+      "21126996",
+      "31686097",
+      "30252960",
+      "20675874",
+      "39189744",
+      "34420950",
+      "34185246",
+      "12875979",
+      "7533559",
+      "33382038",
+      "36847012",
+      "31883770",
+      "35551470",
+      "1735956",
+      "30382507",
+      "27718298",
+      "32854776",
+      "35678405",
+      "11470555",
+      "32645028",
+      "30346708",
+      "27296779",
+      "26685795",
+      "18455153",
+      "33150361",
+      "31142354",
+      "26936940",
+      "38812098",
+      "38612875",
+      "37182869",
+      "38531951",
+      "33143788",
+      "31528297",
+      "38938199",
+      "39232030",
+      "39352226",
+      "38486969",
+      "30573871",
+      "38045300",
+      "38833073",
+      "33709107",
+      "35552371",
+      "34052751",
+      "37248909",
+      "38766087",
+      "37667412",
+      "32224069",
+      "36589543",
+      "37195467",
+      "36127723",
+      "36399275",
+      "37191183",
+      "31732016",
+      "32186726",
+      "36458951",
+      "35728463",
+      "33796061",
+      "35526514",
+      "38175995",
+      "36641675",
+      "22101365",
+      "38664739",
+      "39101580",
+      "32304374",
+      "36442191",
+      "37774677",
+      "30770886",
+      "35102704",
+      "37462105",
+      "36473124",
+      "37066908",
+      "36157597",
+      "26254956",
+      "38967222",
+      "36547260",
+      "32250733",
+      "37245084",
+      "24656848",
+      "28630030",
+      "34852950",
+      "38151325",
+      "38589893",
+      "38323188",
+      "35879736",
+      "39220249",
+      "34993477",
+      "36830944",
+      "38947013",
+      "39165837",
+      "37935530",
+      "37450412",
+      "37173305",
+      "38050142",
+      "35743295",
+      "36333818",
+      "32452861",
+      "39400834",
+      "37742529",
+      "35307206",
+      "37961104",
+      "39417691",
+      "36911256",
+      "28499012",
+      "35115553",
+      "37759663",
+      "37266411",
+      "39386601",
+      "37596279",
+      "38229831",
+      "33560671",
+      "37674727",
+      "39329069",
+      "38476928",
+      "38394722",
+      "36824762",
+      "35654292",
+      "38933082",
+      "37330673",
+      "38352353",
+      "39228697",
+      "35477957",
+      "38192507"
+    ],
+    "review": [
+      "34009663",
+      "37793659",
+      "32957903",
+      "29154274",
+      "34919190",
+      "8624072",
+      "33797838",
+      "20675874",
+      "34185246",
+      "35678405",
+      "30346708",
+      "32186726",
+      "22101365",
+      "37462105",
+      "38967222",
+      "37245084",
+      "38151325",
+      "38589893",
+      "36830944",
+      "35307206",
+      "33560671",
+      "35654292"
+    ],
+    "pmc": [
+      "8549025"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mildcognitiveimpairment.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Mild Cognitive Impairment"
+      },
+      {
+        "url": "https://www.ovid.com/34009663.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34009663/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34009663",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/bpa.12974",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34009663",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

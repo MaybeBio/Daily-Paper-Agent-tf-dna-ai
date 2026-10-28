@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37234166",
+  "title": "Comprehensive analysis of FOXM1 immune infiltrates, m6a, glycolysis and ceRNA network in human hepatocellular carcinoma.",
+  "authors": "Xu, Ziwu; Pei, Chaozhu; Cheng, Haojie; Song, Kaixin; Yang, Junting; Li, Yuhang; He, Yue; Liang, Wenxuan; Liu, Biyuan; Tan, Wen; Li, Xia; Pan, Xue; Meng, Lei",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-05-26",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于TCGA数据综合分析了FOXM1在肝癌中的表达、预后、免疫浸润、m6A、糖酵解及ceRNA网络，虽涉及转录因子FOXM1的CHIP-seq结合靶基因，但核心是临床预后与表达关联，缺乏TF-DNA互作建模或AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "BACKGROUND: Forkhead box M1 (FOXM1) is a member of the Forkhead box (Fox) transcription factor family. It regulates cell mitosis, cell proliferation, and genome stability. However, the relationship between the expression of FOXM1 and the levels of m6a modification, immune infiltration, glycolysis, and ketone body metabolism in HCC has yet to be fully elucidated. METHODS: Transcriptome and somatic mutation profiles of HCC were downloaded from the TCGA database. Somatic mutations were analyzed by maftools R package and visualized in oncoplots. GO, KEGG and GSEA function enrichment was performed on FOXM1 co-expression using R. We used Cox regression and machine learning algorithms (CIBERSORT, LASSO, random forest, and SVM-RFE) to study the prognostic value of FOXM1 and immune infiltrating characteristic immune cells in HCC. The relationship between FOXM1 and m6A modification, glycolysis, and ketone body metabolism were analyzed by RNA-seq and CHIP-seq. The competing endogenous RNA (ceRNA) network construction relies on the multiMiR R package, ENCORI, and miRNET platforms. RESULTS: FOXM1 is highly expressed in HCC and is associated with a poorer prognosis. At the same time, the expression level of FOXM1 is significantly related to the T, N, and stage. Subsequently, based on the machine learning strategies, we found that the infiltration level of T follicular helper cells (Tfh) was a risk factor affecting the prognosis of HCC patients. The high infiltration of Tfh was significantly related to the poor overall survival rate of HCC. Besides, the CHIP-seq demonstrated that FOXM1 regulates m6a modification by binding to the promoter of IGF2BP3 and affects the glycolytic process by initiating the transcription of HK2 and PKM in HCC. A ceRNA network was successfully obtained, including FOXM1 - has-miR-125-5p - DANCR/MIR4435-2HG ceRNA network related to the prognosis of HCC. CONCLUSION: Our study implicates that the aberrant infiltration of Tfh associated with FOXM1 is a crucial prognostic factor for HCC patients. FOXM1 regulates genes related to m6a modification and glycolysis at the transcriptional level. Furthermore, the specific ceRNA network can be used as a potential therapeutic target for HCC.",
+  "abstract_zh": "背景：叉头框蛋白M1（FOXM1）是叉头框（Fox）转录因子家族的一员，调控细胞有丝分裂、细胞增殖和基因组稳定性。然而，FOXM1表达与肝细胞癌（HCC）中m6A修饰水平、免疫浸润、糖酵解及酮体代谢之间的关系尚未完全阐明。方法：从TCGA数据库下载HCC的转录组和体细胞突变谱数据。使用maftools R包分析体细胞突变，并在oncoplots中可视化。利用R对FOXM1共表达基因进行GO、KEGG和GSEA功能富集分析。我们采用Cox回归和机器学习算法（CIBERSORT、LASSO、随机森林和SVM-RFE）研究FOXM1的预后价值及HCC中特征性免疫细胞的浸润情况。通过RNA-seq和CHIP-seq分析FOXM1与m6A修饰、糖酵解及酮体代谢的关系。竞争性内源RNA（ceRNA）网络的构建依赖于multiMiR R包、ENCORI和miRNET平台。结果：FOXM1在HCC中高表达，并与较差的预后相关。同时，FOXM1的表达水平与T、N分期及肿瘤分期显著相关。随后，基于机器学习策略，我们发现滤泡辅助性T细胞（Tfh）的浸润水平是影响HCC患者预后的风险因素。Tfh的高浸润与HCC患者较差的总生存率显著相关。此外，CHIP-seq显示，FOXM1通过结合IGF2BP3的启动子调控m6A修饰，并通过启动HK2和PKM的转录影响HCC中的糖酵解过程。成功构建了一个ceRNA网络，包括与HCC预后相关的FOXM1 - has-miR-125-5p - DANCR/MIR4435-2HG ceRNA网络。结论：我们的研究表明，与FOXM1相关的Tfh异常浸润是HCC患者的关键预后因素。FOXM1在转录水平调控与m6A修饰和糖酵解相关的基因。此外，特定的ceRNA网络可作为HCC的潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37234166/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37234166/",
+  "paper_page_path": "papers/pubmed/37234166/index.html"
+}

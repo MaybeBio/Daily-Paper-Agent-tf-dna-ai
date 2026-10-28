@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "42146694",
+    "doi": "10.64898/2026.05.03.722504",
+    "title": "Reactivation of a TAL1 progenitor cell enhancer region by non-coding somatic variants in T-lineage acute lymphoblastic leukemia."
+  },
+  "content": {
+    "abstract": "Aberrant activation of TAL1, a key oncogenic driver, defines a major subgroup comprising ~30% of childhood T-lineage acute lymphoblastic leukemias (T-ALLs). We and others have shown that somatic non-coding mutations within upstream and intronic cis-regulatory regions of TAL1 contribute to transformation by creating binding sites for MYB and other transcription factors. Here we investigated cis-regulatory mechanisms mediated by somatic mutations occurring in an intergenic region located 29 kilobase pairs downstream of the canonical TAL1 transcription initiation site, implicated in 6% of TAL1-expressing T-ALLs. These somatic variants include i) complex indels resulting in de novo MYB transcription factor binding sites (TFBSs) and ii) internal tandem duplications (ITDs) encompassing canonical MYB TFBSs. Chromatin immunoprecipitation sequencing (ChIP-seq) revealed binding of the TAL1 core regulatory circuit (CRC) transcription factors MYB, GATA3, and RUNX1, resulting in enhancer activity mediated by sequences with the mutant allele. Strikingly, ChIP-seq peaks for the repressive H3K27me3 mark and the active H3K27ac mark co-existed across TAL1 regulatory sequences but enriched for different haplotypes. TAL1 transcription from the mutant haplotype initiated from a promoter located within exon 4 of the canonical TAL1 transcript, resulting in a short isoform normally expressed by hematopoietic stem cells (HSC). Interestingly, neither the isoform expression nor the enhancer activity could be predicted by the sequence-to-function deep learning artificial intelligence (AI) model AlphaGenome, emphasizing the importance of experimental validation. Our findings indicate that selection for cis-regulatory, non-coding variants leads to reactivation of enhancers normally active in HSC but silenced in differentiated lineages during normal hematopoietic cell development.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Terekhanova, Nadezhda V",
+        "Chen, Xiaolong",
+        "Chow, Kin-Hoe",
+        "Liu, Yu",
+        "Shao, Ying",
+        "Dong, Li",
+        "Ju, Bensheng",
+        "Vinayachandran, Vinesh",
+        "Zubair, Haseeb",
+        "Hagiwara, Kohei",
+        "Yang, Wentao",
+        "Ma, Xiaotu",
+        "Natarajan, Sivaraman",
+        "Easton, John",
+        "Teachey, David T",
+        "Look, A Thomas",
+        "Zhang, Jinghui"
+      ],
+      "short_names": [
+        "Terekhanova NV",
+        "Chen X",
+        "Chow KH",
+        "Liu Y",
+        "Shao Y",
+        "Dong L",
+        "Ju B",
+        "Vinayachandran V",
+        "Zubair H",
+        "Hagiwara K",
+        "Yang W",
+        "Ma X",
+        "Natarajan S",
+        "Easton J",
+        "Teachey DT",
+        "Look AT",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Pediatric Translational Medicine Institute, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, 02215, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+        "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "Division of Oncology and Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+        "Department of Pediatrics and the Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+        "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, 02215, USA.",
+        "Division of Pediatric Hematology and Oncology, Boston Children's Hospital, Boston, MA, 02115, USA.",
+        "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Terekhanova, Nadezhda V",
+        "short_name": "Terekhanova NV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaolong",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA.",
+          "Pediatric Translational Medicine Institute, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chow, Kin-Hoe",
+        "short_name": "Chow KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Shao, Ying",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, Li",
+        "short_name": "Dong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Ju, Bensheng",
+        "short_name": "Ju B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Vinayachandran, Vinesh",
+        "short_name": "Vinayachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Zubair, Haseeb",
+        "short_name": "Zubair H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Hagiwara, Kohei",
+        "short_name": "Hagiwara K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Wentao",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaotu",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Natarajan, Sivaraman",
+        "short_name": "Natarajan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Easton, John",
+        "short_name": "Easton J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Teachey, David T",
+        "short_name": "Teachey DT",
+        "identifiers": [],
+        "affiliations": [
+          "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+          "Division of Oncology and Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+          "Department of Pediatrics and the Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Look, A Thomas",
+        "short_name": "Look AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, 02215, USA.",
+          "Division of Pediatric Hematology and Oncology, Boston Children's Hospital, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinghui",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 12:43",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606153",
+      "40378042",
+      "39488662",
+      "39143224",
+      "38978133",
+      "37855064",
+      "37568780",
+      "37379322",
+      "36632736",
+      "36367948",
+      "35403869",
+      "33903675",
+      "33637673",
+      "33434514",
+      "32632335",
+      "32086528",
+      "30145780",
+      "29954426",
+      "28671688",
+      "28652130",
+      "27776115",
+      "27526324",
+      "27467249",
+      "27137657",
+      "27079975",
+      "26940867",
+      "26928228",
+      "25953851",
+      "25938943",
+      "25938371",
+      "25497547",
+      "25394790",
+      "25260700",
+      "24933439",
+      "23857984",
+      "23104886",
+      "22897851",
+      "22388286",
+      "21278191",
+      "20639541",
+      "20483917",
+      "20110278",
+      "20028976",
+      "19505943",
+      "19451168",
+      "18798982",
+      "18585056",
+      "18094723",
+      "16239924",
+      "16051983",
+      "15923636",
+      "15195090",
+      "14966269",
+      "11731461",
+      "11248806",
+      "10625632",
+      "10433917",
+      "9699481",
+      "8689686",
+      "7830794",
+      "7678994",
+      "2209547",
+      "1402666"
+    ],
+    "similar": [
+      "42146694",
+      "36632736",
+      "40378042",
+      "23698277",
+      "29654272",
+      "29326336",
+      "16621969",
+      "20855495",
+      "22897851",
+      "25615415",
+      "25394790",
+      "32086528",
+      "23857984",
+      "38102337",
+      "9819382",
+      "37379322",
+      "28028313",
+      "37855064",
+      "30145780",
+      "29396371",
+      "21179004",
+      "28299656",
+      "31076442",
+      "37591940",
+      "25319994",
+      "26562774",
+      "42281968",
+      "24200685",
+      "28790107",
+      "9020185",
+      "25984238",
+      "36929052",
+      "39880094",
+      "40211453",
+      "39017847",
+      "29807547",
+      "33637692",
+      "35354248",
+      "20516218",
+      "7605997",
+      "9796921",
+      "28260788",
+      "22982397",
+      "27137654",
+      "14604958",
+      "32835548",
+      "35082832",
+      "30078801",
+      "19346495",
+      "23246696",
+      "9699481",
+      "34103329",
+      "21057528",
+      "29713515",
+      "39571677",
+      "40145864",
+      "14651981",
+      "18687876",
+      "35575404",
+      "25858676",
+      "37595278",
+      "33743795",
+      "35514954",
+      "29069738",
+      "36043696",
+      "24470145",
+      "40660382",
+      "31118064",
+      "25319996",
+      "26503782",
+      "20161818",
+      "41949410",
+      "21647153",
+      "21536859",
+      "21689417",
+      "32633635",
+      "19171877",
+      "39488662",
+      "26356674",
+      "19587703",
+      "25938608",
+      "16707018",
+      "15677454",
+      "18495761",
+      "27322685",
+      "9695959",
+      "42475469",
+      "25801305",
+      "1382561",
+      "25369933",
+      "32443726",
+      "33208447",
+      "22537144",
+      "9067574",
+      "32332753",
+      "34915843",
+      "16019164",
+      "25231743",
+      "22157820",
+      "30016502"
+    ],
+    "review": [
+      "42146694",
+      "30145780",
+      "28299656",
+      "39017847",
+      "27137654",
+      "30078801",
+      "23246696",
+      "35514954"
+    ],
+    "pmc": [
+      "13174455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42146694/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.03.722504",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

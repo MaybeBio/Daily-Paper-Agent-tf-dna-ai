@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34714748",
+  "title": "Protein-DNA Binding Residue Prediction via Bagging Strategy and Sequence-Based Cube-Format Feature.",
+  "authors": "Hu, Jun; Bai, Yan-Song; Zheng, Lin-Lin; Jia, Ning-Xin; Yu, Dong-Jun; Zhang, Gui-Jun",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-10-30",
+  "window": {
+    "start": "2021-10-25",
+    "end": "2021-10-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用序列特征和2D CNN集成方法预测蛋白-DNA结合残基，属于广义蛋白-DNA互作建模，方法可迁移至TF-DNA体系，但未聚焦TF特异性结合。",
+  "abstract": "Protein-DNA interactions play an important role in diverse biological processes. Accurately identifying protein-DNA binding residues is a critical but challenging task for protein function annotations and drug design. Although wet-lab experimental methods are the most accurate way to identify protein-DNA binding residues, they are time consuming and labor intensive. There is an urgent need to develop computational methods to rapidly and accurately predict protein-DNA binding residues. In this study, we propose a novel sequence-based method, named PredDBR, for predicting DNA-binding residues. In PredDBR, for each query protein, its position-specific frequency matrix (PSFM), predicted secondary structure (PSS), and predicted probabilities of ligand-binding residues (PPLBR) are first generated as three feature sources. Secondly, for each feature source, the sliding window technique is employed to extract the matrix-format feature of each residue. Then, we design two strategies, i.e., square root (SR) and average (AVE), to separately transform PSFM-based and two predicted feature source-based, i.e., PSS-based and PPLBR-based, matrix-format features of each residue into three corresponding cube-format features. Finally, after serially combining the three cube-format features, the ensemble classifier is generated via applying bagging strategy to multiple base classifiers built by the framework of 2D convolutional neural network. The computational experimental results demonstrate that the proposed PredDBR achieves an average overall accuracy of 93.7% and a Mathew's correlation coefficient of 0.405 on two independent validation datasets and outperforms several state-of-the-art sequenced-based protein-DNA binding residue predictors. The PredDBR web-server is available at https://jun-csbio.github.io/PredDBR/.",
+  "abstract_zh": "蛋白质-DNA相互作用在多种生物过程中扮演重要角色。准确识别蛋白质-DNA结合残基对于蛋白质功能注释和药物设计是一项关键但具有挑战性的任务。尽管湿实验方法是识别蛋白质-DNA结合残基最准确的方式，但它们耗时且劳动密集。迫切需要开发计算方法以快速准确地预测蛋白质-DNA结合残基。在本研究中，我们提出了一种新颖的基于序列的方法，名为PredDBR，用于预测DNA结合残基。在PredDBR中，对于每个查询蛋白质，首先生成其位置特异性频率矩阵（PSFM）、预测的二级结构（PSS）和配体结合残基的预测概率（PPLBR）作为三个特征来源。其次，对于每个特征来源，采用滑动窗口技术提取每个残基的矩阵格式特征。然后，我们设计了两种策略，即平方根（SR）和平均值（AVE），分别将基于PSFM和基于两个预测特征来源（即基于PSS和基于PPLBR）的每个残基的矩阵格式特征转换为三个相应的立方体格式特征。最后，在串行组合三个立方体格式特征后，通过将bagging策略应用于基于2D卷积神经网络框架构建的多个基分类器，生成集成分类器。计算实验结果表明，所提出的PredDBR在两个独立验证数据集上实现了平均总体准确率93.7%和马修斯相关系数0.405，并优于几种最先进的基于序列的蛋白质-DNA结合残基预测器。PredDBR网络服务器可在https://jun-csbio.github.io/PredDBR/上访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34714748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34714748/",
+  "paper_page_path": "papers/pubmed/34714748/index.html"
+}

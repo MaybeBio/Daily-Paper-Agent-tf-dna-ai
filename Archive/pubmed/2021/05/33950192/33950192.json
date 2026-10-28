@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "33950192",
+    "doi": "10.1093/nar/gkab349",
+    "title": "A self-attention model for inferring cooperativity between regulatory features."
+  },
+  "content": {
+    "abstract": "Deep learning has demonstrated its predictive power in modeling complex biological phenomena such as gene expression. The value of these models hinges not only on their accuracy, but also on the ability to extract biologically relevant information from the trained models. While there has been much recent work on developing feature attribution methods that discover the most important features for a given sequence, inferring cooperativity between regulatory elements, which is the hallmark of phenomena such as gene expression, remains an open problem. We present SATORI, a Self-ATtentiOn based model to detect Regulatory element Interactions. Our approach combines convolutional layers with a self-attention mechanism that helps us capture a global view of the landscape of interactions between regulatory elements in a sequence. A comprehensive evaluation demonstrates the ability of SATORI to identify numerous statistically significant TF-TF interactions, many of which have been previously reported. Our method is able to detect higher numbers of experimentally verified TF-TF interactions than existing methods, and has the advantage of not requiring a computationally expensive post-processing step. Finally, SATORI can be used for detection of any type of feature interaction in models that use a similar attention mechanism, and is not limited to the detection of TF-TF interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/genetics",
+      "Cell Line",
+      "Chromatin Immunoprecipitation Sequencing",
+      "*Deep Learning",
+      "Genomics/*methods",
+      "Humans",
+      "Nucleotide Motifs",
+      "Promoter Regions, Genetic",
+      "*Regulatory Elements, Transcriptional",
+      "Transcription Factors/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ullah, Fahad",
+        "Ben-Hur, Asa"
+      ],
+      "short_names": [
+        "Ullah F",
+        "Ben-Hur A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8269-6942"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Colorado State University, Fort Collins, CO 80523, USA.",
+        "Department of Computer Science, Colorado State University, Fort Collins, CO 80523, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ullah, Fahad",
+        "short_name": "Ullah F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, CO 80523, USA."
+        ]
+      },
+      {
+        "full_name": "Ben-Hur, Asa",
+        "short_name": "Ben-Hur A",
+        "identifiers": [
+          "0000-0001-8269-6942"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, CO 80523, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Jul 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/06 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42509369",
+      "42079234",
+      "41599985",
+      "41592570",
+      "41503157",
+      "40305601",
+      "39690739",
+      "39174927",
+      "39071305",
+      "38177592",
+      "37962376",
+      "37508462",
+      "37224527",
+      "36999047",
+      "36949544",
+      "36633966",
+      "36360189",
+      "36142140",
+      "35666736",
+      "35264797",
+      "34179082",
+      "32905524"
+    ],
+    "refs": [
+      "33705711",
+      "33522898",
+      "32770026",
+      "32551184",
+      "31856220",
+      "31504203",
+      "31324140",
+      "30423062",
+      "29208628",
+      "29087512",
+      "28881977",
+      "28395661",
+      "28245811",
+      "28234893",
+      "27794551",
+      "27203113",
+      "27197224",
+      "27084946",
+      "26467480",
+      "26457240",
+      "26301843",
+      "26213851",
+      "25215497",
+      "23935523",
+      "20566737",
+      "18263612",
+      "17324271",
+      "15173120",
+      "12421759",
+      "12364607",
+      "11547334",
+      "11448879",
+      "9571041",
+      "9377276"
+    ],
+    "similar": [
+      "33950192",
+      "32324215",
+      "33104784",
+      "22718975",
+      "26202972",
+      "32054475",
+      "26160164",
+      "28204599",
+      "35396274",
+      "31324140",
+      "25791631",
+      "29363433",
+      "37401370",
+      "31372637",
+      "25957350",
+      "25303887",
+      "25583120",
+      "22238267",
+      "30395277",
+      "27557775",
+      "27625394",
+      "26679776",
+      "26291518",
+      "31526863",
+      "28100260",
+      "32770026",
+      "39174927",
+      "29116820",
+      "14627835",
+      "39013383",
+      "28068916",
+      "15287978",
+      "26411866",
+      "27924042",
+      "25775564",
+      "31913281",
+      "21690103",
+      "31881824",
+      "25887857",
+      "16464824",
+      "29855387",
+      "15890068",
+      "16412085",
+      "27567672",
+      "16888323",
+      "32424069",
+      "25559499",
+      "28373393",
+      "26590261",
+      "31481462",
+      "25220462",
+      "29105538",
+      "16845069",
+      "25883143",
+      "39184348",
+      "35666736",
+      "32028828",
+      "32357166",
+      "37971967",
+      "37402191",
+      "36640453"
+    ],
+    "review": [
+      "33950192",
+      "29105538"
+    ],
+    "pmc": [
+      "8287919"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33950192/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33950192",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33950192",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab349",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

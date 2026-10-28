@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "36484366",
+    "doi": "10.15252/embj.2022111065",
+    "title": "Cryo-EM structures of human ABCA7 provide insights into its phospholipid translocation mechanisms."
+  },
+  "content": {
+    "abstract": "Phospholipid extrusion by ABC subfamily A (ABCA) exporters is central to cellular physiology, although the specifics of the underlying substrate interactions and transport mechanisms remain poorly resolved at the molecular level. Here we report cryo-EM structures of lipid-embedded human ABCA7 in an open state and in a nucleotide-bound, closed state at resolutions between 3.6 and 4.0 A. The former reveals an ordered patch of bilayer lipids traversing the transmembrane domain (TMD), while the latter reveals a lipid-free, closed TMD with a small extracellular opening. These structures offer a structural framework for both substrate entry and exit from the ABCA7 TMD and highlight conserved rigid-body motions that underlie the associated conformational transitions. Combined with functional analysis and molecular dynamics (MD) simulations, our data also shed light on lipid partitioning into the ABCA7 TMD and localized membrane perturbations that underlie ABCA7 function and have broader implications for other ABCA family transporters.",
+    "keywords": [
+      "ABCA7",
+      "Alzheimer's disease",
+      "cryo-EM",
+      "exporter",
+      "flippase"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*ATP-Binding Cassette Transporters/chemistry",
+      "Biological Transport",
+      "Cryoelectron Microscopy",
+      "*Molecular Dynamics Simulation",
+      "Phospholipids",
+      "Interferon Regulatory Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Le, Le Thi My",
+        "Thompson, James Robert",
+        "Dehghani-Ghahnaviyeh, Sepehr",
+        "Pant, Shashank",
+        "Dang, Phuoc Xuan",
+        "French, Jarrod Bradley",
+        "Kanikeyo, Takahisa",
+        "Tajkhorshid, Emad",
+        "Alam, Amer"
+      ],
+      "short_names": [
+        "Le LTM",
+        "Thompson JR",
+        "Dehghani-Ghahnaviyeh S",
+        "Pant S",
+        "Dang PX",
+        "French JB",
+        "Kanikeyo T",
+        "Tajkhorshid E",
+        "Alam A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4486-6589",
+        "ORCID: 0000-0001-6113-3438",
+        "ORCID: 0000-0001-6751-9374",
+        "ORCID: 0000-0001-8434-1010",
+        "ORCID: 0000-0001-9580-4949"
+      ],
+      "affiliations": [
+        "The Hormel Institute, University of Minnesota, Austin, MN, USA.",
+        "The Hormel Institute, University of Minnesota, Austin, MN, USA.",
+        "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "The Hormel Institute, University of Minnesota, Austin, MN, USA.",
+        "The Hormel Institute, University of Minnesota, Austin, MN, USA.",
+        "Department of Neuroscience, Mayo Clinic, Jacksonville, FL, USA.",
+        "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA.",
+        "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Le, Le Thi My",
+        "short_name": "Le LTM",
+        "identifiers": [],
+        "affiliations": [
+          "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Thompson, James Robert",
+        "short_name": "Thompson JR",
+        "identifiers": [
+          "0000-0003-4486-6589"
+        ],
+        "affiliations": [
+          "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Dehghani-Ghahnaviyeh, Sepehr",
+        "short_name": "Dehghani-Ghahnaviyeh S",
+        "identifiers": [
+          "0000-0001-6113-3438"
+        ],
+        "affiliations": [
+          "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Pant, Shashank",
+        "short_name": "Pant S",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Dang, Phuoc Xuan",
+        "short_name": "Dang PX",
+        "identifiers": [],
+        "affiliations": [
+          "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+        ]
+      },
+      {
+        "full_name": "French, Jarrod Bradley",
+        "short_name": "French JB",
+        "identifiers": [],
+        "affiliations": [
+          "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Kanikeyo, Takahisa",
+        "short_name": "Kanikeyo T",
+        "identifiers": [
+          "0000-0001-6751-9374"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Mayo Clinic, Jacksonville, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Tajkhorshid, Emad",
+        "short_name": "Tajkhorshid E",
+        "identifiers": [
+          "0000-0001-8434-1010"
+        ],
+        "affiliations": [
+          "Theoretical and Computational Biophysics Group, NIH Center for Macromolecular Modeling and Bioinformatics, Beckman Institute for Advanced Science and Technology, Department of Biochemistry, and Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Alam, Amer",
+        "short_name": "Alam A",
+        "identifiers": [
+          "0000-0001-9580-4949"
+        ],
+        "affiliations": [
+          "The Hormel Institute, University of Minnesota, Austin, MN, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2023 Feb 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/10 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "42681337",
+      "42093645",
+      "41634932",
+      "40931065",
+      "40512840",
+      "40100959",
+      "39880319",
+      "39806099",
+      "39796186",
+      "39770445",
+      "39728699",
+      "39185192",
+      "38979214",
+      "38727275",
+      "38556850",
+      "38002991",
+      "36889459"
+    ],
+    "refs": [
+      "35974019",
+      "34625547",
+      "34489436",
+      "34388369",
+      "34265844",
+      "34158497",
+      "33897360",
+      "33605212",
+      "32978974",
+      "32881101",
+      "32385283",
+      "32112170",
+      "30942936",
+      "30903345",
+      "30612333",
+      "30405239",
+      "30249283",
+      "30010011",
+      "29782324",
+      "29504051",
+      "28789839",
+      "28602350",
+      "28373057",
+      "28250466",
+      "28059794",
+      "27687218",
+      "27037231",
+      "27037229",
+      "26620784",
+      "26592709",
+      "26589065",
+      "26574417",
+      "26141617",
+      "24943310",
+      "24899309",
+      "24162737",
+      "24097981",
+      "22845771",
+      "22842542",
+      "22447242",
+      "21744243",
+      "21460840",
+      "20495215",
+      "20383002",
+      "20124702",
+      "19903557",
+      "18274528",
+      "17212484",
+      "16788211",
+      "16586097",
+      "16397007",
+      "16007253",
+      "15297675",
+      "15264254",
+      "14502239",
+      "10986279",
+      "10431236",
+      "9295268",
+      "8744570",
+      "8363559",
+      "2834977"
+    ],
+    "similar": [
+      "36484366",
+      "39826550",
+      "34158497",
+      "31316210",
+      "41285748",
+      "24097981",
+      "34976306",
+      "21069970",
+      "37938578",
+      "39226350",
+      "32578427",
+      "35394827",
+      "33236984",
+      "34625547",
+      "24630999",
+      "34021087",
+      "40060395",
+      "34930672",
+      "30405239",
+      "21806936",
+      "34931066",
+      "22272354",
+      "33443152",
+      "34922944",
+      "28602350",
+      "21840296",
+      "37398337",
+      "28373057",
+      "25761976",
+      "22552999",
+      "39721587",
+      "35120130",
+      "25549041",
+      "12917409",
+      "27870912",
+      "22339391",
+      "33221536",
+      "32981041",
+      "35381375",
+      "35041979",
+      "38844452",
+      "34408021",
+      "24937232",
+      "36151501",
+      "33156959",
+      "38012131",
+      "41428872",
+      "32884137",
+      "36737602",
+      "41370088",
+      "10873640",
+      "35981415",
+      "37041204",
+      "29547697",
+      "14570867",
+      "40931065",
+      "12237398",
+      "32997992",
+      "33336544",
+      "18429932",
+      "38540742",
+      "21563222",
+      "39390258",
+      "38392672",
+      "18948194",
+      "41083144",
+      "39806099",
+      "23716676",
+      "29097275",
+      "36882106",
+      "28927344",
+      "24878767",
+      "15520449",
+      "32055397",
+      "34303191",
+      "23324282",
+      "25665932",
+      "12925201",
+      "20445153",
+      "32978974",
+      "34887516",
+      "26577702",
+      "40240353",
+      "15550377",
+      "39496849",
+      "40101709",
+      "28774558",
+      "24786414",
+      "31362510",
+      "38259172",
+      "34344901",
+      "31873305",
+      "29111006",
+      "34385322",
+      "24837547",
+      "26517918",
+      "41249510",
+      "35034901",
+      "23766512",
+      "30237313"
+    ],
+    "review": [
+      "36484366",
+      "34930672",
+      "33221536",
+      "33156959",
+      "36737602",
+      "35981415",
+      "18948194",
+      "29097275",
+      "24878767",
+      "32055397",
+      "32978974",
+      "24786414",
+      "26517918",
+      "35034901"
+    ],
+    "pmc": [
+      "9890230"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.15252/embj.2022111065",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36484366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36484366",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41643219",
+  "title": "Enhancing transcription factor regulatory network analysis through data balancing and representation learning.",
+  "authors": "Dang, Xuan Tho",
+  "journal": "Biomedical physics & engineering express",
+  "published_date": "2026-02-05",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用K-means++与深度表示学习预测TF-靶基因互作，属TF-DNA调控网络分析，但侧重网络级靶基因预测而非三维结合界面建模，方法可迁移但深度不足。",
+  "abstract": "Transcription factor (TF) and target gene interactions are pivotal in gene regulatory networks, influencing molecular biology and disease mechanisms, particularly cancer. Dysregulated TFs contribute to aberrant gene expression, driving tumor progression. While experimental methods like ChIP-seq and RNA-seq provide valuable insights, their high cost and scalability constraints necessitate computational alternatives. Machine learning offers promising solutions, yet data imbalance remains a major challenge affecting predictive accuracy. This study introduces a novel approach integrating K-means++ clustering with a data balancing strategy to enhance TF-target interaction prediction. By selecting low-frequency TFs within clusters based on an inverse information principle, our method mitigates data bias and improves model generalization. Additionally, we incorporate deep learning with random walk sampling and skip-gram embeddings to extract informative representations of heterogeneous biological networks. Experimental results using five-fold cross-validation demonstrate superior performance, achieving an average AUC of 0.9452 +/- 0.0047. Our framework enhances predictive accuracy while addressing data imbalance, offering significant applications in molecular biology and biomedical research for TF-target gene discovery and therapeutic development.",
+  "abstract_zh": "转录因子（Transcription factor, TF）与靶基因之间的相互作用在基因调控网络中至关重要，影响分子生物学和疾病机制，尤其是癌症。失调的转录因子导致异常基因表达，推动肿瘤进展。尽管ChIP-seq和RNA-seq等实验方法提供了有价值的见解，但其高成本和扩展性限制促使人们寻求计算替代方案。机器学习提供了有前景的解决方案，但数据不平衡仍是影响预测准确性的主要挑战。本研究引入了一种新方法，将K-means++聚类与数据平衡策略相结合，以增强转录因子-靶基因相互作用预测。通过基于逆信息原理选择簇内的低频转录因子，我们的方法减轻了数据偏差并提高了模型泛化能力。此外，我们结合深度学习与随机游走采样和skip-gram嵌入，以提取异质性生物网络的信息性表示。使用五折交叉验证的实验结果展示了优越性能，平均AUC达到0.9452 ± 0.0047。我们的框架在提高预测准确性的同时解决了数据不平衡问题，为分子生物学和生物医学研究中转录因子-靶基因发现及治疗开发提供了重要应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41643219/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41643219/",
+  "paper_page_path": "papers/pubmed/41643219/index.html"
+}

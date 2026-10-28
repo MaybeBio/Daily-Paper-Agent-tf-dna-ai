@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38102686",
+    "doi": "10.1186/s41065-023-00303-x",
+    "title": "Mechanisms of Actinidia chinensis Planch in treating colon cancer based on the integration of network pharmacology, molecular docking, and experimental verification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: As an anticancer Chinese herbal medicine, the effective components and mechanism of Actinidia chinensis Planch (ACP, Tengligen) in the treatment of colon cancer are still unclear. In the present study, the integration of network pharmacology, molecular docking, and cell experiments was employed to study the effective mechanism of ACP against colon cancer. METHODS: The Venn diagram and STRING database were used to construct the protein-protein interaction network (PPI) of ACP-colon cancer, and further topological analysis was used to obtain the key target genes of ACP in colon cancer. The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were used to visualize the related functions and pathways. Molecular docking between key targets and compounds was determined using software such as AutoDockTools. Finally, the effect of ACP on CT26 cells was observed in vitro. RESULTS: The study identified 40 ACP-colon key targets, including CASP3, CDK2, GSK3B, and PIK3R1. GO and KEGG enrichment analyses found that these genes were involved in 211 biological processes and 92 pathways, among which pathways in cancer, PI3K-Akt, p53, and cell cycle might be the main pathways of ACP against colon cancer. Molecular docking verified that the key components of ACP could stably bind to the corresponding targets. The experimental results showed that ACP could inhibit proliferation, induce apoptosis, and downregulate the phosphorylation of PIK3R1, Akt, and GSK3B in CT26 cells. CONCLUSION: ACP is an anti-colon cancer herb with multiple components, and involvement of multiple target genes and signaling pathways. ACP can significantly inhibit proliferation and induce apoptosis of colon cancer cells, which may be closely related to the regulation of PI3K/AKT/GSK3B signal transduction.",
+    "keywords": [
+      "Actinidia chinensis Planch",
+      "Apoptosis",
+      "Colon cancer",
+      "Molecular docking",
+      "Network pharmacology",
+      "PI3K-Akt signaling pathway"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "*Actinidia/genetics",
+      "Network Pharmacology",
+      "Phosphatidylinositol 3-Kinases/genetics",
+      "Proto-Oncogene Proteins c-akt",
+      "*Colonic Neoplasms/drug therapy/genetics",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jin-Fang",
+        "Wu, Shi-Wei",
+        "Shi, Zi-Man",
+        "Qu, Yan-Jie",
+        "Ding, Min-Rui",
+        "Hu, Bing"
+      ],
+      "short_names": [
+        "Chen JF",
+        "Wu SW",
+        "Shi ZM",
+        "Qu YJ",
+        "Ding MR",
+        "Hu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5809-9475"
+      ],
+      "affiliations": [
+        "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Department of Neurology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Department of Traditional Chinese Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, People's Republic of China.",
+        "Department of Neurology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+        "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China. beearhu@shutcm.edu.cn.",
+        "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China. beearhu@shutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jin-Fang",
+        "short_name": "Chen JF",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+          "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shi-Wei",
+        "short_name": "Wu SW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+          "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shi, Zi-Man",
+        "short_name": "Shi ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+          "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qu, Yan-Jie",
+        "short_name": "Qu YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China.",
+          "Department of Traditional Chinese Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Min-Rui",
+        "short_name": "Ding MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Bing",
+        "short_name": "Hu B",
+        "identifiers": [
+          "0000-0002-5809-9475"
+        ],
+        "affiliations": [
+          "Institute of Traditional Chinese Medicine in Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China. beearhu@shutcm.edu.cn.",
+          "Department of Oncology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, People's Republic of China. beearhu@shutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2023 Dec 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/16 11:44",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "41832547"
+    ],
+    "refs": [
+      "38868713",
+      "37107528",
+      "37024471",
+      "36969029",
+      "36828759",
+      "36603684",
+      "36300620",
+      "35836256",
+      "35690101",
+      "35408903",
+      "35335239",
+      "35152841",
+      "34916492",
+      "34852177",
+      "34638601",
+      "34508258",
+      "34087741",
+      "34021129",
+      "33977565",
+      "33902610",
+      "33538338",
+      "33516447",
+      "33489875",
+      "33378952",
+      "33264402",
+      "32741700",
+      "32333246",
+      "32323807",
+      "32203890",
+      "32019552",
+      "31710740",
+      "31679348",
+      "31441146",
+      "31248102",
+      "31215384",
+      "31114875",
+      "31106366",
+      "30476243",
+      "30365030",
+      "30357411",
+      "29761838",
+      "29204061",
+      "29106619",
+      "26590256",
+      "25873628",
+      "25370351",
+      "24735618",
+      "23787177",
+      "19499576",
+      "19131956",
+      "17921993",
+      "17287757",
+      "14597658",
+      "10592173"
+    ],
+    "similar": [
+      "38102686",
+      "38759074",
+      "36403742",
+      "37799727",
+      "37879505",
+      "38608062",
+      "35837376",
+      "37833363",
+      "34246740",
+      "34994139",
+      "34428524",
+      "36183698",
+      "35757520",
+      "35429380",
+      "39307810",
+      "36281111",
+      "37282910",
+      "38387682",
+      "36576506",
+      "37287284",
+      "37391801",
+      "37080367",
+      "35734366",
+      "35069454",
+      "37366364",
+      "38608086",
+      "35616676",
+      "35970314",
+      "37005850",
+      "37690812",
+      "37282941",
+      "36343798",
+      "35667260",
+      "35757473",
+      "38114126",
+      "38040415",
+      "38964628",
+      "38114219",
+      "38670393",
+      "38115259",
+      "37437794",
+      "37069622",
+      "34808299",
+      "38134066",
+      "36193154",
+      "38403323",
+      "34951580",
+      "37469733",
+      "39023003",
+      "38432577",
+      "39038503",
+      "34515002",
+      "38245694",
+      "39066538",
+      "38110130",
+      "35850814",
+      "38364259",
+      "36280016",
+      "36003525",
+      "39323640",
+      "39041101",
+      "38428659",
+      "36086762",
+      "37807411",
+      "34262258",
+      "35672352",
+      "38376772",
+      "37092194",
+      "36939253",
+      "39380230",
+      "38460276",
+      "35442463",
+      "35781817",
+      "38446216",
+      "38638040",
+      "37777029",
+      "38619514",
+      "29750308",
+      "38816744",
+      "36033553",
+      "35899176",
+      "37863399",
+      "37986389",
+      "34353081",
+      "35528155",
+      "38576495",
+      "36472041",
+      "34349502",
+      "39205203",
+      "35777610",
+      "37390241",
+      "36882618",
+      "34889224",
+      "38848296",
+      "38916485",
+      "38588987",
+      "38845538",
+      "37933017",
+      "36874006"
+    ],
+    "review": [
+      "38102686"
+    ],
+    "pmc": [
+      "10722835"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-023-00303-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38102686/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38102686",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

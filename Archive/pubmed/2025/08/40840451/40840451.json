@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "40840451",
+    "doi": "10.1016/j.ajhg.2025.07.016",
+    "title": "Leveraging functional annotations to map rare variants associated with Alzheimer disease with gruyere."
+  },
+  "content": {
+    "abstract": "Increased availability of whole-genome sequencing (WGS) has facilitated the study of rare variants (RVs) in complex diseases. Multiple RV association tests are available to study the relationship between genotype and phenotype, but most do not fully leverage the availability of variant-level functional annotations. We propose genome-wide rare variant enrichment evaluation (gruyere), an empirical Bayesian framework that complements existing methods by learning global, trait-specific weights for functional annotations to improve variant prioritization. We apply gruyere to WGS data from the Alzheimer's Disease Sequencing Project to identify Alzheimer disease (AD)-associated genes and annotations. Growing evidence suggests that the disruption of microglial regulation is a key contributor to AD risk, yet existing methods have not examined rare non-coding effects that incorporate such cell-type-specific information. To address this gap, we (1) define per-gene non-coding RV test sets using predicted enhancer and promoter regions in microglia and other brain cell types (oligodendrocytes, astrocytes, and neurons) and (2) include cell-type-specific variant effect predictions (VEPs) as functional annotations. gruyere identifies 13 significant genetic associations not detected by other RV methods, four of which remain significant in omnibus tests. We find that deep-learning-based VEPs for splicing, transcription factor binding, and chromatin state are highly predictive of functional non-coding RVs. Our study establishes a robust framework incorporating functional annotations, coding RVs, and cell-type-associated non-coding RVs to perform genome-wide association tests, uncovering AD-relevant genes and annotations.",
+    "keywords": [
+      "Alzheimer disease",
+      "Bayesian probabilistic model",
+      "functional annotations",
+      "non-coding variation",
+      "rare variants",
+      "whole-genome sequencing"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/pathology",
+      "Humans",
+      "Genome-Wide Association Study",
+      "*Molecular Sequence Annotation",
+      "Whole Genome Sequencing",
+      "*Genetic Predisposition to Disease",
+      "Bayes Theorem",
+      "*Genetic Variation",
+      "Microglia/metabolism",
+      "Polymorphism, Single Nucleotide",
+      "Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Anjali",
+        "Lakhani, Chirag",
+        "Terwagne, Chloe",
+        "Lin, Jui-Shan T",
+        "Naito, Tatsuhiko",
+        "Raj, Towfique",
+        "Knowles, David A"
+      ],
+      "short_names": [
+        "Das A",
+        "Lakhani C",
+        "Terwagne C",
+        "Lin JT",
+        "Naito T",
+        "Raj T",
+        "Knowles DA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computer Science, Columbia University, New York, NY, USA; New York Genome Center, New York, NY, USA.",
+        "New York Genome Center, New York, NY, USA.",
+        "Francis Crick Institute, London, UK.",
+        "New York Genome Center, New York, NY, USA.",
+        "New York Genome Center, New York, NY, USA; Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA.",
+        "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA.",
+        "Computer Science, Columbia University, New York, NY, USA; New York Genome Center, New York, NY, USA; Systems Biology, Columbia University, New York, NY, USA; Data Science Institute, Columbia University, New York, NY, USA. Electronic address: dak2173@columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Anjali",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science, Columbia University, New York, NY, USA; New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lakhani, Chirag",
+        "short_name": "Lakhani C",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Terwagne, Chloé",
+        "short_name": "Terwagne C",
+        "identifiers": [],
+        "affiliations": [
+          "Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Lin, Jui-Shan T",
+        "short_name": "Lin JT",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Naito, Tatsuhiko",
+        "short_name": "Naito T",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York, NY, USA; Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Raj, Towfique",
+        "short_name": "Raj T",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience, Icahn School of Medicine, Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Knowles, David A",
+        "short_name": "Knowles DA",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science, Columbia University, New York, NY, USA; New York Genome Center, New York, NY, USA; Systems Biology, Columbia University, New York, NY, USA; Data Science Institute, Columbia University, New York, NY, USA. Electronic address: dak2173@columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Hum Genet"
+    ],
+    "pub_date": "2025 Sep 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/26 04:46",
+    "fetched_at": "2026-10-01 00:37:20"
+  },
+  "links": {
+    "cites": [
+      "42557982",
+      "42396344"
+    ],
+    "refs": [
+      "40407102",
+      "40033057",
+      "39366334",
+      "39322779",
+      "39062605",
+      "38226680",
+      "38057664",
+      "37262146",
+      "37142848",
+      "37024668",
+      "36907103",
+      "36318249",
+      "36303018",
+      "36138231",
+      "36070178",
+      "35449021",
+      "35379992",
+      "35256806",
+      "35068457",
+      "34799441",
+      "34608324",
+      "34183854",
+      "33665345",
+      "33414510",
+      "33199916",
+      "32913098",
+      "32839606",
+      "32664994",
+      "32461654",
+      "32238454",
+      "32152537",
+      "32112059",
+      "31784727",
+      "31727856",
+      "31701892",
+      "31671574",
+      "31583531",
+      "30992449",
+      "30982610",
+      "30977227",
+      "30901550",
+      "30849328",
+      "30661751",
+      "30572908",
+      "30555656",
+      "29184913",
+      "28844485",
+      "27221085",
+      "26858593",
+      "26727659",
+      "26432245",
+      "26395054",
+      "25709717",
+      "25687773",
+      "24995866",
+      "24162737",
+      "23159251",
+      "22863193",
+      "21737059",
+      "21362556",
+      "20944595",
+      "20926424",
+      "19858363",
+      "19214210",
+      "17701901",
+      "17247344",
+      "17101154"
+    ],
+    "similar": [
+      "40840451",
+      "39677477",
+      "42396344",
+      "39876583",
+      "40653482",
+      "27128317",
+      "38824563",
+      "28844485",
+      "42190655",
+      "32839606",
+      "33882988",
+      "29378629",
+      "29482603",
+      "41560352",
+      "36303018",
+      "38511601",
+      "34516545",
+      "30924900",
+      "39428839",
+      "41136342",
+      "41428483",
+      "40038788",
+      "39920506",
+      "39322779",
+      "30255815",
+      "33606672",
+      "30911827",
+      "35264725",
+      "24920305",
+      "31500627",
+      "42475469",
+      "38966948",
+      "29883757",
+      "28742084",
+      "29754769",
+      "27407109",
+      "29692948",
+      "35943817",
+      "40202986",
+      "39778705",
+      "40886051",
+      "36271868",
+      "41758668",
+      "28770390",
+      "31034468",
+      "28539126",
+      "33637690",
+      "41421362",
+      "36063453",
+      "38336875",
+      "31888639",
+      "39991798",
+      "24336208",
+      "33797837",
+      "31328826",
+      "28589856",
+      "39713882",
+      "28065470",
+      "32833970",
+      "37802043",
+      "36204489",
+      "35234913",
+      "26311074",
+      "38773771",
+      "34629083",
+      "25329708",
+      "24899047",
+      "39107801",
+      "21121034",
+      "37634885",
+      "37735198",
+      "29106824",
+      "39428694",
+      "29218897",
+      "39362880",
+      "40990081",
+      "35504531",
+      "36350676",
+      "30108311",
+      "29590295",
+      "37544578",
+      "35068457",
+      "31077144",
+      "34654853",
+      "42557982",
+      "39168091",
+      "37290560",
+      "29618315",
+      "32740652",
+      "27289440",
+      "27923386",
+      "42227173",
+      "31984958",
+      "31585107",
+      "28683716",
+      "30982610",
+      "27075728",
+      "25393678",
+      "33300042",
+      "29507048"
+    ],
+    "review": [
+      "40840451",
+      "33882988",
+      "30911827",
+      "35264725",
+      "35943817",
+      "28770390",
+      "26311074"
+    ],
+    "pmc": [
+      "12373115"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(25)00286-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40840451/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

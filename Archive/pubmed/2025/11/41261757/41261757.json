@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "41261757",
+    "doi": "10.1080/08916934.2025.2581723",
+    "title": "The role of IRF-1 in mediating T-cell immune imbalance in systemic lupus erythematosus and the construction of a diagnostic model."
+  },
+  "content": {
+    "abstract": "Systemic lupus erythematosus (SLE), characterized by immune dysregulation, urgently requires improved diagnostic tools and mechanistic insights. The role of interferon regulatory factor-1 (IRF-1) remains unclear. We integrated single-cell transcriptomes (scRNA-seq; GSE254176), 6 bulk transcriptomic datasets (1079 SLE patients, 137 controls, GSE72326 and GSE61635 were merged as training datasets, including 256 SLE patients and 50 controls), and clinical samples (70 SLE patients and 58 controls). IRF-1 dynamics in T-cell subsets were analyzed via clustering and pseudotemporal trajectory. Diagnostic genes were identified by intersecting single-cell-derived IRF-1-associated markers with SLE differential genes, followed by feature selection. Six machine learning models were trained and validated in four independent cohorts. scRNA-seq revealed significant downregulation of IRF-1 in T-cell subsets (central memory CD8(+), Th17) during active SLE, with compensatory overexpression in remission-validated clinically. Cross-analysis identified four IRF-1-correlated diagnostic genes: CCR7, CD274, KLRB1, and NRCAM, that are enriched in MAPK signaling and immune receptor activity. Generalized linear model (GLM) and partial least squares (PLS) models achieved superior diagnostic accuracy across validation cohorts. Immune analysis revealed decreased numbers of resting CD4(+) memory T cells and Tregs (P < 0.01), alongside expanded proinflammatory cells (M1/M2 macrophages, neutrophils; P < 0.01). IRF-1 regulates T-cell differentiation and contributes to SLE immune imbalance. The IRF-1-associated gene-based machine learning model provides a robust, noninvasive diagnostic tool.",
+    "keywords": [
+      "IRF-1",
+      "T cells",
+      "machine learning",
+      "single-cell analysis",
+      "systemic lupus erythematosus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Interferon Regulatory Factor-1/genetics/metabolism/immunology",
+      "*Lupus Erythematosus, Systemic/diagnosis/immunology/genetics/metabolism",
+      "Single-Cell Analysis",
+      "Machine Learning",
+      "Female",
+      "*T-Lymphocyte Subsets/immunology/metabolism",
+      "Biomarkers",
+      "Transcriptome",
+      "Adult",
+      "Gene Expression Profiling",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zichen",
+        "Zhao, Cheng",
+        "Qin, Fang",
+        "Zheng, Leting"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Zhao C",
+        "Qin F",
+        "Zheng L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Health Management Center, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Jiangsu Province, China.",
+        "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China.",
+        "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China.",
+        "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zichen",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Management Center, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Cheng",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Fang",
+        "short_name": "Qin F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Leting",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Clinical Immunology, First Affiliated Hospital of Guangxi Medical University, Nanning City, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autoimmunity"
+    ],
+    "journal_abbrev": [
+      "Autoimmunity"
+    ],
+    "pub_date": "2025 Dec 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/20 06:26",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42292405"
+    ],
+    "refs": [],
+    "similar": [
+      "41261757",
+      "40625749",
+      "41432807",
+      "39388708",
+      "40766309",
+      "30562343",
+      "41316541",
+      "40613570",
+      "40381105",
+      "40458850",
+      "41577004",
+      "40999523",
+      "37313407",
+      "41836397",
+      "41816342",
+      "40207215",
+      "41635152",
+      "30563559",
+      "41532958",
+      "39066603",
+      "40010940",
+      "38774864",
+      "39361430",
+      "40808946",
+      "40744996",
+      "38779657",
+      "35757721",
+      "39888372",
+      "41488623",
+      "38970507",
+      "32818204",
+      "41656832",
+      "39233252",
+      "41209049",
+      "41262540",
+      "39531917",
+      "36059547",
+      "41221548",
+      "40493320",
+      "41328587",
+      "30833946",
+      "31354747",
+      "36351407",
+      "39290707",
+      "42123445",
+      "36341378",
+      "42195052",
+      "34149710",
+      "40323689",
+      "39081100",
+      "38550577",
+      "36532018",
+      "42154423",
+      "41274041",
+      "42024670",
+      "40131879",
+      "41310117",
+      "40281593",
+      "40070830",
+      "39476438",
+      "38691318",
+      "41506349",
+      "40701258",
+      "42177068",
+      "41257878",
+      "34220794",
+      "23826184",
+      "25293713",
+      "40739239",
+      "40958401",
+      "31399013",
+      "39938454",
+      "28224362",
+      "40040694",
+      "31340848",
+      "40097571",
+      "15147571",
+      "21968701",
+      "25418955",
+      "31673979",
+      "21235538",
+      "34502409",
+      "21497601",
+      "40242921",
+      "41569989",
+      "28764616",
+      "41782635",
+      "40704436",
+      "40949741",
+      "41099339",
+      "41640571",
+      "24683191",
+      "40524207",
+      "41196273",
+      "41733593",
+      "21602271",
+      "41601671",
+      "26984631",
+      "40019633",
+      "41627545"
+    ],
+    "review": [
+      "41261757",
+      "30833946"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/08916934.2025.2581723?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/08916934.2025.2581723",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

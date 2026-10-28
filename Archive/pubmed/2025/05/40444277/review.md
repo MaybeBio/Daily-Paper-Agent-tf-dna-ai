@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections. No figures, tables, or supplementary materials were provided.
+- **Assessment boundary** Evaluation is limited to the textual content of the manuscript as supplied. Claims regarding figures, tables, and supplementary data are assessed based on textual descriptions only.
+- **Shared manuscript claim summary** The manuscript reports the first genome-wide identification and characterization of 65 WRKY transcription factors in Atractylodes lancea, including phylogenetic classification, gene structure, conserved motifs, promoter cis-elements, chromosomal distribution, duplication events, synteny analysis, tissue-specific and MeJA-responsive expression patterns, subcellular localization of two candidate proteins, and molecular docking predictions of their binding to terpene synthase gene promoters. The authors propose that AlWRKY20 and AlWRKY37 likely regulate sesquiterpene biosynthesis through modulation of AlTPS gene expression.
+- **Visible evidence base** Textual descriptions of results, including gene identification statistics, phylogenetic groupings, expression data from transcriptome and qPCR analyses, GC-MS volatile profiling, molecular docking scores, and subcellular localization outcomes. References to Figures 1-9, Supplementary Figures S1-S4, Supplementary Tables S1-S7, and Table 1-2 are present but the actual data are not visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. Raw transcriptome data, qPCR primer sequences, statistical analysis details, genome assembly information, and complete docking results are not accessible. This substantially limits the ability to verify quantitative claims and statistical significance.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive bioinformatics-driven characterization of the WRKY gene family in a medicinal plant of significant pharmacological interest. The work follows established pipelines for gene family identification and analysis, and the integration of expression data with chemical profiling and molecular docking provides a reasonable hypothesis-generating framework. However, the study is largely descriptive and correlative. The central claim that AlWRKY20 and AlWRKY37 regulate sesquiterpene biosynthesis rests on indirect evidence: co-expression patterns, MeJA-induced transcript changes, and in silico docking predictions. Direct functional validation, such as overexpression, knockdown, or promoter-reporter assays, is absent. The manuscript also contains several internal inconsistencies and methodological ambiguities that need clarification. The work may be of interest to researchers studying WRKY transcription factors or terpenoid regulation in medicinal plants, but the current evidence does not fully establish the proposed regulatory roles.
+- **Who would be interested in the results, and why** Researchers working on WRKY transcription factor families in plants, particularly those interested in secondary metabolite regulation in medicinal species, would find this study useful as a reference for gene family structure and expression patterns in A. lancea. The identification of candidate regulators of sesquiterpene biosynthesis may also interest groups studying terpenoid metabolic engineering or the molecular basis of chemotypic variation in traditional medicines. The comparative genomic data with Helianthus annuus and Arabidopsis thaliana could serve as a resource for evolutionary studies of WRKY genes in Asteraceae.
+- **Major strengths** The manuscript provides a systematic and reasonably thorough bioinformatics analysis of a previously uncharacterized gene family in an economically important medicinal plant. The integration of multiple analytical approaches, including phylogenetics, gene structure, motif analysis, cis-element prediction, synteny, expression profiling, and molecular docking, offers a broad overview. The identification of five rhizome-enriched WRKY genes with chemotype-correlated expression is a useful starting point for future functional studies. The use of MeJA treatment to link transcriptional responses with terpenoid accumulation adds a functional dimension beyond static expression profiling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for causal claims
+  - **Claim pointer** The manuscript states that "AlWRKY20 and AlWRKY37 likely function as regulators of sesquiterpene biosynthesis, positively regulating cis-β-farnesene and α-curcumene production through AlTPS gene modulation."
+  - **Evidence pointer** Sections 3.10, 3.11, 3.12; Figures 7, 8, 9; Supplementary Tables S6, S7
+  - **Concern** The central functional claim is supported only by correlative expression data, in silico docking predictions, and subcellular localization. No direct evidence of transcriptional regulation is provided. Molecular docking of a transcription factor to a promoter region is not a validated method for establishing DNA-protein interactions, and the significance of docking scores in this context is unclear. The manuscript does not include electrophoretic mobility shift assays, chromatin immunoprecipitation, yeast one-hybrid assays, or reporter gene experiments. Furthermore, the co-expression analysis is based on transcriptome data from a limited number of samples, and the causal direction of the observed correlations is not established.
+  - **Why it matters** The title and conclusion emphasize a regulatory relationship between specific WRKY genes and sesquiterpene biosynthesis. Without functional validation, the claim remains speculative. Overstating conclusions from correlative and computational data could mislead readers and future research directions.
+  - **Resolution test** Provide direct experimental evidence of binding, such as EMSA or ChIP-qPCR, and functional evidence of transcriptional regulation, such as transient overexpression or virus-induced gene silencing showing corresponding changes in AlTPS expression and sesquiterpene content. Alternatively, substantially soften the conclusions to reflect the hypothesis-generating nature of the findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data accessibility and reproducibility
+  - **Claim pointer** The manuscript reports identification of 65 WRKY genes, expression differences between chemotypes, and MeJA-induced changes in gene expression and volatile compounds.
+  - **Evidence pointer** Sections 3.1, 3.7, 3.9, 3.10; Figures 5, 6, 7; Tables 1, 2; Supplementary Tables S1-S7
+  - **Concern** The manuscript references numerous figures, tables, and supplementary materials that were not provided for review. Critical quantitative data, including gene identifiers, expression values, statistical test results, primer sequences, and complete volatile compound measurements, are not accessible. The genome assembly version and annotation source for A. lancea are not specified. The number of biological replicates for transcriptome sequencing is not stated. Statistical methods for differential expression analysis are not described. Without access to these data, the validity of the reported findings cannot be independently assessed.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publication. The absence of key methodological details and underlying data prevents verification of the results and limits the utility of the study as a resource for other researchers.
+  - **Resolution test** Provide all supplementary materials, including raw data tables, primer sequences, statistical analysis details, and genome assembly information. Specify the number of biological replicates and the statistical methods used for differential expression and correlation analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor in expression analysis
+  - **Claim pointer** The manuscript states that "qPCR validation confirmed the specific upregulation of AlWRKY20, AlWRKY21, AlWRKY37, and AlWRKY49 in Hubei rhizomes."
+  - **Evidence pointer** Section 3.9; Figure 6B; Supplementary Figure S4
+  - **Concern** The qPCR analysis is described as validation, but the reference gene used for normalization is only mentioned as β-actin without validation of its expression stability across tissues and treatments. The manuscript does not report primer efficiencies, PCR conditions, or the statistical analysis used to determine significance. The statement that AlWRKY13 showed no differential expression is presented without supporting data. The relationship between the transcriptome-derived expression patterns and the qPCR results is not quantitatively compared.
+  - **Why it matters** Inconsistent or inadequately described qPCR methodology can lead to unreliable conclusions about gene expression differences. The lack of methodological detail prevents assessment of whether the validation is robust.
+  - **Resolution test** Provide complete qPCR methodology, including reference gene validation, primer efficiencies, thermal cycling conditions, and statistical analysis. Show a direct comparison between transcriptome and qPCR expression data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of molecular docking results
+  - **Claim pointer** The manuscript reports that "molecular docking analysis revealed strong binding affinities of AlWRKY20 to the AlTPS70/AlTPS71 promoter and of AlWRKY37 to the AlTPS70 promoter."
+  - **Evidence pointer** Section 3.11; Figure 8; Supplementary Table S6
+  - **Concern** The use of molecular docking to predict protein-DNA interactions is unconventional and not widely validated. The manuscript does not explain how the three-dimensional structures of the WRKY proteins and the promoter DNA fragments were generated, how the docking was performed, or what the docking scores represent in biological terms. The threshold of -200 for docking scores is presented as established criteria, but no citation is provided. The biological relevance of the predicted hydrogen bonds is not discussed.
+  - **Why it matters** The docking results are used as key evidence for the proposed regulatory mechanism. If the methodology is not sound or the interpretation is overstated, this weakens the central conclusion.
+  - **Resolution test** Provide detailed methodology for structure prediction and docking, including software versions, parameters, and validation of the approach. Discuss the limitations of this method for predicting transcription factor-promoter interactions. Ideally, support the docking predictions with experimental binding data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency and accuracy
+  - **Claim pointer** The manuscript describes the classification of WRKY proteins and the identification of conserved domains.
+  - **Evidence pointer** Sections 3.1, 3.2; Figure 1; Supplementary Figures S1, S2; Supplementary Table S2
+  - **Concern** There are inconsistencies in the reported numbers. The abstract and results state that 65 WRKY genes were identified, but the discussion mentions "16 pairs of segmental duplications" while the results section reports "15 pairs of segmental duplications" with one pair having an undetermined Ka/Ks ratio. The text also states that "four genes involved in tandem duplications" but then discusses "two pairs of tandem duplications," which is consistent, yet the Ka/Ks analysis mentions "15 pairs of tandem duplications" in the discussion, which contradicts the earlier statement. Additionally, the manuscript mentions "andmethyl jasmonate" in the introduction, which appears to be a typographical error. The methods section for qPCR is titled "qRT-qPCR" while the text uses "qPCR" and "quantitative real-time PCR" inconsistently.
+  - **Why it matters** Inconsistencies in reported data and typographical errors undermine the credibility of the manuscript and suggest a lack of careful proofreading. Contradictory numbers in the results and discussion sections create confusion about the actual findings.
+  - **Resolution test** Carefully revise the manuscript to correct all numerical inconsistencies and typographical errors. Ensure that the numbers reported in the results, discussion, and abstract are consistent.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Section 1, "andmethyl jasmonate"
+  - **Issue** The phrase "andmethyl jasmonate" appears to be a typographical error, likely intended as "and methyl jasmonate."
+  - **Required correction** Correct the typographical error to read "and methyl jasmonate."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 2.8, qPCR methodology
+  - **Evidence pointer** Section 2.8
+  - **Issue** The section title uses "qRT-qPCR" while the text uses "qPCR" and "quantitative real-time PCR." The terminology should be consistent throughout.
+  - **Required correction** Use a single consistent term, preferably "qRT-PCR" or "quantitative real-time PCR," throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.2, WRKY domain variants
+  - **Evidence pointer** Section 3.2, Supplementary Figure S1
+  - **Issue** The manuscript mentions "WRKYGKK, WKKYGEK, WEKYGQT, and WKKYGTK" as variants, but in the discussion section, "WRKFGQK" is mentioned as a variant. It is unclear if this is a typographical error or a distinct variant.
+  - **Required correction** Verify the correct sequences of the WRKY domain variants and ensure consistency between the results and discussion sections.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 2.10, molecular docking criteria
+  - **Evidence pointer** Section 2.10
+  - **Issue** The manuscript states that docking scores less than -200 and confidence scores greater than 0.7 are "established criteria" but does not provide a citation for these thresholds.
+  - **Required correction** Provide a reference for the docking score thresholds or explain the basis for these criteria.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.8, co-expression analysis
+  - **Evidence pointer** Section 3.8, Figure 6A
+  - **Issue** The co-expression analysis reports correlations with |r| > 0.8 and p < 0.05, but the number of samples used for the correlation analysis is not stated.
+  - **Required correction** Specify the number of samples and the statistical method used for the correlation analysis.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the absence of direct functional evidence for the proposed regulatory roles of AlWRKY20 and AlWRKY37. The manuscript relies on correlative expression data and in silico predictions, which are insufficient to establish causation. Additionally, the lack of accessible data and methodological details for key experiments, including transcriptome analysis, qPCR, and molecular docking, prevents independent verification of the results. The inconsistencies in reported numbers and terminology further detract from the manuscript's reliability.
+- **Assessment against Nature-style criteria** Originality: The manuscript offers the first genome-wide analysis of WRKY genes in A. lancea, which is a novel contribution for this species. However, the approach is largely standard for gene family characterization and does not introduce new conceptual or methodological insights. Scientific importance: The study addresses a relevant question about transcriptional regulation of sesquiterpene biosynthesis in a medicinal plant, but the findings are primarily descriptive and do not significantly advance mechanistic understanding. The potential importance is moderate and largely dependent on future functional validation. Interdisciplinary readership: The topic bridges plant molecular biology, medicinal chemistry, and traditional medicine research. The manuscript may appeal to researchers in these fields, but the narrow focus on a single gene family in one species limits broader interdisciplinary interest. Technical soundness: The bioinformatics methods are generally appropriate, but the lack of experimental validation for key claims and the unconventional use of molecular docking for transcription factor-promoter interactions raise concerns about technical rigor. Readability for nonspecialists: The manuscript is written in a reasonably accessible style, but the heavy reliance on specialized terminology and the absence of clear explanations for some methods may limit accessibility for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a useful descriptive resource but does not provide sufficient evidence to support the central claim that AlWRKY20 and AlWRKY37 regulate sesquiterpene biosynthesis. Major revisions, including functional validation experiments and full provision of supporting data, are required before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that AlWRKY20 and AlWRKY37 "positively regulate" sesquiterpene production is unsupported by direct experimental evidence. The available data are correlative and computational.
+- The assertion that molecular docking demonstrates "strong binding affinities" of WRKY proteins to promoter regions is not supported by a validated methodology for protein-DNA interaction prediction.
+- The statement that co-expression analysis reveals "strong correlation" between specific WRKY and TPS genes is not verifiable without access to the underlying expression data and correlation statistics.
+- The claim that the WRKY gene family contraction in A. lancea "parallels observations in Salvia miltiorrhiza" is an interpretation that requires more rigorous comparative analysis.
+- The functional significance of cis-element abundance in promoter regions is inferred but not experimentally tested.
+- The subcellular localization results are described but the actual images and controls are not available for assessment.

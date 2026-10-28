@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors characterize eight oncogenic FOXO1 forkhead domain mutations using biophysical and computational methods, identify L183P and L183R as particularly destabilizing, link this destabilization to disrupted DNA binding, and propose that a hydrophobic transfer model combined with simulation-derived solvent accessible surface areas outperforms alchemical FEP in predicting folding free energy changes.
+- **Visible evidence base** Abstract text only; no experimental or computational data, statistics, or methodological details are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, simulation parameters, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integration of experimental biophysics and molecular simulation to explain oncogenic loss-of-function mutations in FOXO1. The central hypothesis, that L183 mutations destabilize the forkhead domain and thereby disrupt DNA binding, is biologically plausible and clinically relevant. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental measurements, the validity of the computational approaches, or the strength of the comparative claim regarding FEP versus the hydrophobic transfer model. The claim that simulation-derived atomic detail is important for accurate prediction is not quantitatively supported in the abstract. The work may be of interest to the protein folding and computational biology communities, but the evidence base is too limited for a definitive assessment.
+- **Who would be interested in the results, and why** Researchers studying FOX transcription factor biology, particularly those focused on DLBCL pathogenesis and forkhead domain structure-function relationships. Computational biophysicists interested in mutation effect prediction, protein folding mechanisms, and comparative assessment of alchemical free energy methods versus simpler solvation models. Structural biologists studying winged-helix domains and their folding pathways.
+- **Major strengths** The combination of multiple experimental techniques (DSC, thermal shift assays, EMSA) with complementary computational approaches (FEP, Markov state modeling) is methodologically ambitious. The identification of specific mutations with pronounced destabilizing effects provides a clear focal point. The construction of a full folding reaction Markov model is a substantial computational undertaking. The comparative evaluation of prediction methods is a useful contribution to the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that a hydrophobic transfer model combined with simulation-derived solvent accessible surface areas "is able to more accurately predict changes in folding free energies due to mutations" compared to FEP.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, no error estimates, no statistical comparison, and no description of the mutation set used for the comparative assessment. Without these details, the claim of superior accuracy cannot be evaluated.
+  - **Why it matters** This is a central methodological conclusion of the work. If the comparative claim is not rigorously supported, the primary contribution of the paper is substantially weakened.
+  - **Resolution test** Provide quantitative comparison metrics (e.g., mean absolute error, correlation coefficients) with uncertainties for both methods across the full mutation set, including statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that L183P and L183R mutations "disrupt FOXO1 binding to their canonical DNA sequences, suggesting the loss of function is due to destabilization of the folded structure."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The causal link between destabilization and loss of DNA binding is inferred but not directly demonstrated. Alternative mechanisms, such as direct disruption of the DNA-binding interface or altered conformational dynamics in the folded state, are not excluded.
+  - **Why it matters** The mechanistic interpretation is central to the biological significance of the work. If destabilization is not the sole or primary cause of binding loss, the conclusions require revision.
+  - **Resolution test** Provide evidence that the folded state of L183 mutants retains native structure (e.g., circular dichroism or NMR) and that binding loss correlates quantitatively with population of unfolded species under assay conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that a Markov model of the entire folding reaction "predicts folding pathways involving the late folding of helix α3."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided on the simulation methodology, force field, sampling convergence, or validation of the Markov model. The biological or mechanistic significance of late α3 folding is not explained.
+  - **Why it matters** The folding pathway prediction is a significant computational result, but without validation details its reliability is unknown.
+  - **Resolution test** Provide convergence metrics, validation against experimental folding data if available, and a clear statement of how the predicted pathway relates to mutation effects.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Scope statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that "corresponding disease-associated mutations in other FOX family members support further experimental and computational studies" but does not specify which mutations or how they correspond.
+  - **Required correction** Specify the mutations and the nature of the correspondence, or remove the statement as it currently lacks specificity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutation selection
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state how the eight mutations were selected from the DLBCL sequencing data or whether they represent all identified mutations in the forkhead domain.
+  - **Required correction** Briefly describe the selection criteria or state that all identified mutations were included.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "alchemical FEP" is used without specifying the exact free energy perturbation protocol or the software employed.
+  - **Required correction** Provide the specific FEP method (e.g., thermodynamic integration, Bennett acceptance ratio) and software package in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The comparative accuracy claim requires quantitative support, and the mechanistic link between destabilization and binding loss requires direct evidence. R1-M3, while not blocking, requires substantial additional detail to be credible.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of experimental and computational approaches to mutation effects in FOXO1 is not entirely novel, but the specific focus on folding pathways and the comparative method assessment has some originality.
+  - Scientific importance: Moderate. The work addresses a clinically relevant question in DLBCL, but the broader significance for FOX family biology or protein folding generally is not established from the abstract.
+  - Interdisciplinary readership: Moderate. The work bridges biophysics, computational biology, and cancer genetics, but the abstract does not clearly articulate the significance for each community.
+  - Technical soundness: Not assessable from the abstract. No methodological details, validation, or error analysis are provided.
+  - Readability for nonspecialists: Adequate. The abstract is generally clear, though some computational terms may be opaque to experimental biologists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the central quantitative claims and mechanistic interpretation cannot be evaluated without the full manuscript. Supportive if the blocking concerns are resolved with appropriate data and analysis.
+
+## Risk / unsupported claims
+- The claim that the hydrophobic transfer model outperforms FEP is unsupported without quantitative comparison data.
+- The causal link between protein destabilization and loss of DNA binding is inferred, not demonstrated.
+- The prediction of late α3 folding is unverifiable without simulation details and validation.
+- The statement that "atomic detail provided from simulation is important for accurate prediction" is a general conclusion not supported by the specific evidence presented.
+- The relevance of corresponding mutations in other FOX family members is asserted without specifics.

@@ -1,0 +1,552 @@
+{
+  "identity": {
+    "pmid": "35545668",
+    "doi": "10.1038/s41586-022-04699-w",
+    "title": "Structural basis of NPR1 in activating plant immunity."
+  },
+  "content": {
+    "abstract": "NPR1 is a master regulator of the defence transcriptome induced by the plant immune signal salicylic acid(1-4). Despite the important role of NPR1 in plant immunity(5-7), understanding of its regulatory mechanisms has been hindered by a lack of structural information. Here we report cryo-electron microscopy and crystal structures of Arabidopsis NPR1 and its complex with the transcription factor TGA3. Cryo-electron microscopy analysis reveals that NPR1 is a bird-shaped homodimer comprising a central Broad-complex, Tramtrack and Bric-a-brac (BTB) domain, a BTB and carboxyterminal Kelch helix bundle, four ankyrin repeats and a disordered salicylic-acid-binding domain. Crystal structure analysis reveals a unique zinc-finger motif in BTB for interacting with ankyrin repeats and mediating NPR1 oligomerization. We found that, after stimulation, salicylic-acid-induced folding and docking of the salicylic-acid-binding domain onto ankyrin repeats is required for the transcriptional cofactor activity of NPR1, providing a structural explanation for a direct role of salicylic acid in regulating NPR1-dependent gene expression. Moreover, our structure of the TGA3(2)-NPR1(2)-TGA3(2) complex, DNA-binding assay and genetic data show that dimeric NPR1 activates transcription by bridging two fatty-acid-bound TGA3 dimers to form an enhanceosome. The stepwise assembly of the NPR1-TGA complex suggests possible hetero-oligomeric complex formation with other transcription factors, revealing how NPR1 reprograms the defence transcriptome.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis/metabolism",
+      "*Arabidopsis Proteins/metabolism",
+      "Basic-Leucine Zipper Transcription Factors/metabolism",
+      "Cryoelectron Microscopy",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Plant",
+      "Plant Immunity",
+      "Plant Proteins/metabolism",
+      "Salicylic Acid/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Shivesh",
+        "Zavaliev, Raul",
+        "Wu, Qinglin",
+        "Zhou, Ye",
+        "Cheng, Jie",
+        "Dillard, Lucas",
+        "Powers, Jordan",
+        "Withers, John",
+        "Zhao, Jinshi",
+        "Guan, Ziqiang",
+        "Borgnia, Mario J",
+        "Bartesaghi, Alberto",
+        "Dong, Xinnian",
+        "Zhou, Pei"
+      ],
+      "short_names": [
+        "Kumar S",
+        "Zavaliev R",
+        "Wu Q",
+        "Zhou Y",
+        "Cheng J",
+        "Dillard L",
+        "Powers J",
+        "Withers J",
+        "Zhao J",
+        "Guan Z",
+        "Borgnia MJ",
+        "Bartesaghi A",
+        "Dong X",
+        "Zhou P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8082-3423",
+        "ORCID: 0000-0001-9159-1413",
+        "ORCID: 0000-0002-7360-1523",
+        "ORCID: 0000-0002-1120-0951",
+        "ORCID: 0000-0002-7823-3416"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Howard Hughes Medical Institute, Duke University, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Computer Science, Duke University, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, NIH, Department of Health and Human Services, Research Triangle Park, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Howard Hughes Medical Institute, Duke University, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Howard Hughes Medical Institute, Duke University, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, NIH, Department of Health and Human Services, Research Triangle Park, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Computer Science, Duke University, Durham, NC, USA.",
+        "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA. xdong@duke.edu.",
+        "Howard Hughes Medical Institute, Duke University, Durham, NC, USA. xdong@duke.edu.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA. peizhou@biochem.duke.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Shivesh",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zavaliev, Raul",
+        "short_name": "Zavaliev R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA.",
+          "Howard Hughes Medical Institute, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Qinglin",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ye",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jie",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Dillard, Lucas",
+        "short_name": "Dillard L",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, NIH, Department of Health and Human Services, Research Triangle Park, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Powers, Jordan",
+        "short_name": "Powers J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA.",
+          "Howard Hughes Medical Institute, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Withers, John",
+        "short_name": "Withers J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA.",
+          "Howard Hughes Medical Institute, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jinshi",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Guan, Ziqiang",
+        "short_name": "Guan Z",
+        "identifiers": [
+          "0000-0002-8082-3423"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Borgnia, Mario J",
+        "short_name": "Borgnia MJ",
+        "identifiers": [
+          "0000-0001-9159-1413"
+        ],
+        "affiliations": [
+          "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, NIH, Department of Health and Human Services, Research Triangle Park, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Bartesaghi, Alberto",
+        "short_name": "Bartesaghi A",
+        "identifiers": [
+          "0000-0002-7360-1523"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+          "Department of Computer Science, Duke University, Durham, NC, USA.",
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, Xinnian",
+        "short_name": "Dong X",
+        "identifiers": [
+          "0000-0002-1120-0951"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA. xdong@duke.edu.",
+          "Howard Hughes Medical Institute, Duke University, Durham, NC, USA. xdong@duke.edu."
+        ]
+      },
+      {
+        "full_name": "Zhou, Pei",
+        "short_name": "Zhou P",
+        "identifiers": [
+          "0000-0002-7823-3416"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA. peizhou@biochem.duke.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/12 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42653318",
+      "42159589",
+      "42058866",
+      "42010305",
+      "41971786",
+      "41957869",
+      "41917655",
+      "41748166",
+      "41674864",
+      "41533793",
+      "41470736",
+      "41416106",
+      "41351870",
+      "41296736",
+      "41289031",
+      "41214503",
+      "41081439",
+      "41056455",
+      "41004569",
+      "40916347",
+      "40866506",
+      "40812178",
+      "40768360",
+      "40667109",
+      "40648078",
+      "40439301",
+      "40402396",
+      "40343347",
+      "40289473",
+      "40156194",
+      "40038814",
+      "40036061",
+      "40016240",
+      "39670269",
+      "39656997",
+      "39519342",
+      "39372289",
+      "39359673",
+      "39180213",
+      "38966146",
+      "38928022",
+      "38926580",
+      "38802564",
+      "38773570",
+      "38732268",
+      "38710693",
+      "38571546",
+      "38536743",
+      "38463563",
+      "38353627",
+      "38344649",
+      "38284752",
+      "38261978",
+      "38260692",
+      "38163634",
+      "38103555",
+      "37924215",
+      "37896777",
+      "37762543",
+      "37733139",
+      "37728254",
+      "37328517",
+      "37249952",
+      "37240381",
+      "37237984",
+      "37230965",
+      "37170864",
+      "36974901",
+      "36934653",
+      "36857386",
+      "36672154",
+      "36517238",
+      "36499767",
+      "36498851",
+      "36304963",
+      "36013464",
+      "35958211",
+      "35726519"
+    ],
+    "refs": [
+      "32810437",
+      "32788727",
+      "31591578",
+      "30815005",
+      "29788355",
+      "29656896",
+      "29581883",
+      "28165473",
+      "27760827",
+      "26278980",
+      "26269953",
+      "25628632",
+      "25287199",
+      "23630533",
+      "23373699",
+      "23349464",
+      "23000701",
+      "22743772",
+      "22632832",
+      "21988835",
+      "21118350",
+      "20935179",
+      "20561252",
+      "20124692",
+      "19818708",
+      "19490895",
+      "19400642",
+      "18635760",
+      "17176038",
+      "17096590",
+      "16207353",
+      "16182563",
+      "15572765",
+      "15544948",
+      "13671378",
+      "12837250",
+      "12244227",
+      "11914077",
+      "11607555",
+      "10431175",
+      "10069079",
+      "9839467",
+      "9090885",
+      "9019406",
+      "9002272",
+      "8875926",
+      "8725243",
+      "2424281"
+    ],
+    "similar": [
+      "35545668",
+      "36934653",
+      "28913593",
+      "30239885",
+      "10659709",
+      "12897257",
+      "12953119",
+      "17172357",
+      "20708590",
+      "35950443",
+      "38103555",
+      "38536743",
+      "38261978",
+      "11387978",
+      "12084833",
+      "21118350",
+      "39180213",
+      "31110139",
+      "19915088",
+      "21078185",
+      "40056739",
+      "30250280",
+      "35550200",
+      "10339621",
+      "34910911",
+      "32810437",
+      "33495996",
+      "29760094",
+      "22813739",
+      "22986789",
+      "30592744",
+      "27429420",
+      "33037144",
+      "17096590",
+      "15337097",
+      "35792034",
+      "12383081",
+      "38780624",
+      "29753632",
+      "26269953",
+      "10662863",
+      "34911942",
+      "26865090",
+      "19825560",
+      "29656896",
+      "33270345",
+      "17397508",
+      "34829975",
+      "15749762",
+      "17510065",
+      "32315441",
+      "38135603",
+      "22797922",
+      "35524409",
+      "24086773",
+      "32788727",
+      "39700134",
+      "34096631",
+      "24842264",
+      "12615947",
+      "11449049",
+      "25210078",
+      "14576289",
+      "15231270",
+      "31288496",
+      "35417014",
+      "12837250",
+      "17076807",
+      "37328517",
+      "11605963",
+      "20561252",
+      "16925600",
+      "18635760",
+      "37728254",
+      "33501715",
+      "29174403",
+      "38670182",
+      "22876961",
+      "22785561",
+      "30212572",
+      "19176718",
+      "18984675",
+      "21726384",
+      "31888966",
+      "26672073",
+      "25914712",
+      "31733370",
+      "23757021",
+      "25614660",
+      "26719902",
+      "39981868",
+      "20198573",
+      "39630058",
+      "34502265",
+      "18571510",
+      "36415131",
+      "11309146",
+      "22699612",
+      "16176083",
+      "39353309"
+    ],
+    "review": [
+      "35545668",
+      "36934653",
+      "38103555",
+      "33495996",
+      "15337097",
+      "29753632",
+      "34829975",
+      "15231270",
+      "16176083"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/35545668/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-022-04699-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35545668/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.arabidopsis.org/publication?key=501798917",
+        "provider": "The Arabidopsis Information Resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Linked Gene Data"
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35545668",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3386",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35545668",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35545668",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

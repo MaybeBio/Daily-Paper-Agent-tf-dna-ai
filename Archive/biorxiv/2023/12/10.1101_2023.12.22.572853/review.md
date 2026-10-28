@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, results, and conclusions as presented in the provided manuscript text. No supplementary figures or tables were available for direct inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors propose ANTIPASTI, a CNN-based model that predicts antibody binding affinity (log10 KD) from Normal Mode correlation maps derived from Elastic Network Models of antibody-antigen complexes. They report state-of-the-art predictive performance (R = 0.85–0.86), interpretability of learnt representations, identification of biologically plausible important regions (e.g., CDR-H3, FR-L2), and robustness to AlphaFold-predicted structures.
+- **Visible evidence base** Main text figures (Figures 1–4) and tables (Table S1 referenced), methods section, and discussion. Supplementary figures (S1–S6) and tables are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S6, Table S1), hyperparameter optimization details, full dataset composition and split details, and the specific implementation of the region importance measure. These are referenced but not available for direct verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially valuable approach to antibody affinity prediction by combining Normal Mode analysis with deep learning. The core idea is original and the reported performance is strong. However, several technical aspects require clarification and additional validation before the claims can be fully established. The interpretability analysis is promising but needs more rigorous quantitative support. The AlphaFold robustness test is a useful addition but is limited in scope.
+- **Who would be interested in the results, and why** Researchers in antibody engineering, computational immunology, and structural bioinformatics would find this work relevant. The method offers a fast, structure-based alternative to sequence-only predictors and could aid in antibody design and affinity maturation. The interpretability aspect may also interest those studying the molecular determinants of binding affinity.
+- **Major strengths** 1) Novel integration of Normal Mode correlation maps with CNNs for affinity prediction. 2) Strong reported predictive performance (R ≈ 0.85) on a reasonably sized dataset. 3) Interpretability analysis provides biological insights, consistent with known roles of CDR-H3 and FR-L2. 4) Computational efficiency (training under 10 minutes on CPU) enhances practical utility. 5) Public code availability with tutorials and tests supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ANTIPASTI achieves state-of-the-art performance (R = 0.85–0.86) compared to existing methods (R = 0.45–0.79).
+  - **Evidence pointer** Figure 2a, 2c; Table S1 (referenced, not provided)
+  - **Concern** The comparison with existing methods is not directly performed in this work. The authors cite R values from other studies (Refs. 22–26) but do not retrain or evaluate those methods on the same dataset or split. Differences in data selection, preprocessing, and evaluation protocols make such cross-study comparisons unreliable. The claim of "state-of-the-art" is therefore not rigorously established.
+  - **Why it matters** Without a consistent benchmark, the central performance claim cannot be verified. The reader cannot determine whether the improvement is due to the method itself or to differences in data and evaluation.
+  - **Resolution test** The authors should either (a) implement and evaluate at least one or two existing methods (e.g., sequence-based and structure-based) on the same dataset and splits, or (b) clearly qualify the comparison as indirect and avoid the term "state-of-the-art" unless a direct benchmark is provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the learnt representations are interpretable and reveal similarities among antibodies targeting the same antigen type, and that region importance can be quantified.
+  - **Evidence pointer** Figure 3a–e; Figure S3 (referenced, not provided); Methods section "Interpretation of the learnt output layer representations" and "Antibody regions importance"
+  - **Concern** The interpretability analysis relies on the output layer weights (F) and a region importance measure based on excluding regions. However, the validation of these interpretations is largely qualitative. The UMAP clustering (Figure 3b) is described but no quantitative cluster separation metrics are provided. The region importance measure is defined relative to a "best" region, but the statistical significance of the importance values is not assessed. The single mutational study (idarucizumab) is a useful case study but is only one example.
+  - **Why it matters** Interpretability is a key claimed advantage of the method. Without quantitative validation (e.g., cluster silhouette scores, permutation tests for importance, or multiple mutational case studies), the interpretability claims remain suggestive rather than demonstrated.
+  - **Resolution test** Provide quantitative metrics for cluster separation (e.g., silhouette score, adjusted Rand index). Assess the statistical significance of region importance values (e.g., via bootstrapping or permutation testing). Include additional mutational studies, if available, to strengthen the case that the identified regions are functionally relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ANTIPASTI performs comparably on AlphaFold-predicted structures as on experimental structures (R = 0.97 correlation between predictions, R = 0.84 vs 0.86 for ground truth).
+  - **Evidence pointer** Figure 4a–c; Figure S6 (referenced, not provided); Methods section "AlphaFold prediction"
+  - **Concern** The AlphaFold test is conducted on only 21 structures from a single test set. This is a small sample size, and the correlation of R = 0.97 between predictions from experimental and AlphaFold structures is reported without confidence intervals. The exclusion of one nanobody (2p45) as an outlier is noted, but the rationale and impact on the results need more discussion. The generalizability of this finding to a broader range of antibodies and antigens is unclear.
+  - **Why it matters** The utility of the method for real-world applications depends on its performance on predicted structures, which are increasingly common. A small, single-split test is insufficient to establish robustness.
+  - **Resolution test** Expand the AlphaFold evaluation to a larger and more diverse set of structures, ideally across multiple test splits. Report confidence intervals for the correlation coefficients. Provide a more detailed analysis of the outlier and its influence on the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section "Data collection and pre-processing"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the data filtering criteria is brief. The exact number of structures excluded at each step is not reported, and the criteria for "very few residues in the heavy chain (less than 30)" is arbitrary. The rationale for excluding scFvs and light-chain-only nanobodies is stated but not elaborated.
+  - **Required correction** Provide a detailed flowchart or table of data filtering steps with counts. Justify the residue count threshold and discuss the potential impact of excluding certain antibody formats.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Normal Mode Analysis and the computation of correlation maps"
+  - **Evidence pointer** Methods section
+  - **Issue** The choice of the Amber94 force field for the α-carbon pairwise force terms is mentioned but not justified. The sensitivity of the results to this choice is not explored.
+  - **Required correction** Briefly justify the choice of Amber94 and, if feasible, include a sensitivity analysis with an alternative force field or parameterization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section "Training and evaluation"
+  - **Evidence pointer** Methods section
+  - **Issue** The hyperparameter search space is described, but the final chosen hyperparameters (beyond the top two candidates) are not fully listed. The number of training epochs and early stopping criteria are not specified.
+  - **Required correction** Provide a table of the full hyperparameter search space and the final values for all hyperparameters. Specify the training duration and any early stopping criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1 and Section 3
+  - **Issue** The introduction assumes familiarity with terms like "Normal Mode Analysis," "Elastic Network Models," and "correlation maps." A brief conceptual explanation for nonspecialists would improve accessibility.
+  - **Required correction** Add a short paragraph in the Introduction explaining these concepts in plain language, or provide a glossary.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct benchmarking against existing methods on the same data (R1-M1). 2) Insufficient quantitative validation of interpretability claims (R1-M2). 3) Limited scope of AlphaFold robustness testing (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The combination of Normal Mode correlation maps with CNNs for antibody affinity prediction is novel and not previously reported to my knowledge. This is a clear strength. **Scientific importance:** Antibody affinity prediction is a problem of high relevance to therapeutic development and basic immunology. The potential for interpretability adds to the importance. However, the impact depends on the robustness of the performance claims and the generalizability of the method. **Interdisciplinary readership:** The work bridges structural biology, biophysics, and machine learning. The methods are described in sufficient detail for specialists, but the broader significance may not be immediately clear to nonspecialists. The interpretability analysis helps in this regard. **Technical soundness:** The core methodology appears sound, but the lack of direct benchmarking and limited validation of interpretability are significant gaps. The small AlphaFold test set is a further limitation. **Readability for nonspecialists:** The manuscript is generally well-written, but the introduction could be more accessible. The figures are referenced appropriately, but their content could not be assessed directly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the reported results are encouraging. However, the claims of state-of-the-art performance and interpretability require stronger evidence. Direct benchmarking, quantitative validation of interpretability, and a more extensive AlphaFold evaluation are necessary before the case is fully established.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art" performance is not directly supported by a consistent benchmark against existing methods.
+- The interpretability claims (clustering by antigen type, region importance) are not quantitatively validated.
+- The robustness to AlphaFold-predicted structures is based on a small, single-split test set and may not be generalizable.
+- The biological interpretation of the idarucizumab case study is plausible but is based on a single example and requires further validation.

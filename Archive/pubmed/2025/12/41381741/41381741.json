@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41381741",
+    "doi": "10.1038/s41598-025-30821-9",
+    "title": "Decoding cell-class specific roles of non-coding variants in human retina."
+  },
+  "content": {
+    "abstract": "Non-coding variants in cis-regulatory elements such as promoters and enhancers contribute to inherited retinal diseases (IRDs), however, characterizing the functional impact of most regulatory variants remains challenging. To improve identification of variants of interest, we implemented machine learning using a gapped k-mer support vector machine approach trained on single nucleus ATAC-seq data from specific cell classes of the adult and developing human retina. We developed 18 distinct ML models to predict the impact of non-coding variants on 39,437 cell-class-specific regulatory elements. These models demonstrate accuracy (AUROC) over 90% and a high degree of cell class specificity. Variant Impact Prediction (VIP) scores highlight specific sequences within candidate CREs, including putative transcription factor (TF) binding motifs, that are predicted to alter CRE function if mutated. Correlations to massively parallel reporter assays support the predictive value of VIP scores to model single nucleotide variants and indels in a cell-class-specific manner. These analyses demonstrate the capacity for single nucleus epigenomic data to predict the impact of non-coding sequence variants and allow for rapid prioritization of patient variants for further functional analysis.",
+    "keywords": [
+      "Cis-regulatory element",
+      "Machine learning",
+      "Non-coding variants",
+      "Retinal disease"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Retina/metabolism/cytology",
+      "Support Vector Machine",
+      "Retinal Diseases/genetics",
+      "Machine Learning",
+      "Transcription Factors/metabolism",
+      "Regulatory Sequences, Nucleic Acid",
+      "*Genetic Variation",
+      "Polymorphism, Single Nucleotide",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "VandenBosch, Leah S",
+        "Leonardson, Amy S",
+        "Cherry, Timothy J"
+      ],
+      "short_names": [
+        "VandenBosch LS",
+        "Leonardson AS",
+        "Cherry TJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Research Scientific Computing, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA. timothy.cherry@seattlechildrens.org.",
+        "University of Washington Department of Pediatrics, Seattle, WA, USA. timothy.cherry@seattlechildrens.org.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA. timothy.cherry@seattlechildrens.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "VandenBosch, Leah S",
+        "short_name": "VandenBosch LS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Leonardson, Amy S",
+        "short_name": "Leonardson AS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+          "Research Scientific Computing, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Cherry, Timothy J",
+        "short_name": "Cherry TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA. timothy.cherry@seattlechildrens.org.",
+          "University of Washington Department of Pediatrics, Seattle, WA, USA. timothy.cherry@seattlechildrens.org.",
+          "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA. timothy.cherry@seattlechildrens.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 03:30",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40961941",
+      "40565279",
+      "40191993",
+      "39191256",
+      "39085231",
+      "37962376",
+      "37388919",
+      "37289546",
+      "36635387",
+      "36581531",
+      "36277849",
+      "35840754",
+      "35817977",
+      "35817658",
+      "35435921",
+      "35303433",
+      "34839010",
+      "34788628",
+      "33689769",
+      "33581335",
+      "32870927",
+      "32788677",
+      "32265282",
+      "31915147",
+      "31776829",
+      "31633482",
+      "31106481",
+      "31044167",
+      "30742112",
+      "30034950",
+      "29636475",
+      "28985510",
+      "28591841",
+      "28524769",
+      "28472656",
+      "27153584",
+      "26691988",
+      "26301843",
+      "26083756",
+      "26075791",
+      "25953818",
+      "24984227",
+      "24360275",
+      "23861382",
+      "23498934",
+      "23138309",
+      "23129659",
+      "22955828",
+      "22868264",
+      "22373907",
+      "21441919",
+      "20513432",
+      "20362068",
+      "17943463",
+      "15196954",
+      "2788922"
+    ],
+    "similar": [
+      "41381741",
+      "40060626",
+      "35435921",
+      "31884638",
+      "35303433",
+      "38760655",
+      "38184646",
+      "38355306",
+      "38517697",
+      "32265282",
+      "37926287",
+      "31362726",
+      "25340786",
+      "38538340",
+      "29617928",
+      "37805453",
+      "40421528",
+      "40205616",
+      "34898596",
+      "40250421",
+      "40631122",
+      "28120510",
+      "34486522",
+      "28335009",
+      "24920305",
+      "31106481",
+      "39217658",
+      "34313779",
+      "34462306",
+      "39026229",
+      "31915147",
+      "26301843",
+      "39724337",
+      "31206543",
+      "27980060",
+      "39127768",
+      "39943688",
+      "38383453",
+      "36690178",
+      "26476779",
+      "26901046",
+      "28957321",
+      "21596777",
+      "32192535",
+      "37693486",
+      "33515242",
+      "36043696",
+      "38451770",
+      "37600946",
+      "26072432",
+      "39107801",
+      "29059322",
+      "27161480",
+      "24156763",
+      "36510125",
+      "23935528",
+      "36243009",
+      "26576614",
+      "33300042",
+      "26499213",
+      "37292699",
+      "26075791",
+      "40931232",
+      "29855387",
+      "33505025",
+      "16807757",
+      "33980847",
+      "38644556",
+      "31590652",
+      "37547722",
+      "29893792",
+      "31131957",
+      "23129659",
+      "31628324",
+      "34750410",
+      "36945371",
+      "25442502",
+      "22496669",
+      "39778579",
+      "32031521",
+      "40034789",
+      "35858748",
+      "33259518",
+      "40382355",
+      "28204611",
+      "39814021",
+      "39326643",
+      "38773771",
+      "35082832",
+      "38167104",
+      "21763417",
+      "26072433",
+      "39322281",
+      "34839010",
+      "39443793",
+      "33962556",
+      "29733395",
+      "32442411",
+      "31469829",
+      "31786786"
+    ],
+    "review": [
+      "41381741",
+      "31884638",
+      "38538340",
+      "39217658",
+      "26072432",
+      "26499213",
+      "16807757",
+      "29893792",
+      "31131957",
+      "26072433"
+    ],
+    "pmc": [
+      "12789556"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-30821-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41381741/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

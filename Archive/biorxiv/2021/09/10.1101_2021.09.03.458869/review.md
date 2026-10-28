@@ -1,0 +1,133 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, availability, conclusion, acknowledgements, footnotes) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented in the manuscript. No assessment of editorial fit or publication venue policy.
+- **Shared manuscript claim summary** The authors propose bindEmbed21, a method combining a deep learning component (bindEmbed21DL) using ProtT5 protein language model embeddings as sole input to a two-layer CNN, with homology-based inference (bindEmbed21HBI), to predict protein residues binding to metal ions, nucleic acids, or small molecules. They report that bindEmbed21DL outperforms an MSA-based predecessor (bindPredictML17) and is competitive with specialized methods (ProNA2020, PredZinc, ZincBindPredict). They further claim that highly reliable predictions can identify previously unannotated binding residues, and that application to the human proteome reveals many candidate binding sites in proteins lacking experimental annotations.
+- **Visible evidence base** Abstract; Introduction (partial); Results & Discussion sections covering performance comparisons, reliability analysis, case studies, and human proteome application; Materials & Methods sections on data sets, protein representation, deep learning architecture, homology-based inference, performance evaluation, reliability index, and comparison to other methods. Figures and tables are referenced but not provided. Supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-7, Tables S1-S14, and all Supporting Online Material (SOM) sections are referenced but not included. The full Introduction is truncated. No code, data, or model outputs are directly inspectable. The absence of these materials limits verification of quantitative claims, statistical analyses, and methodological details.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable contribution to the field of protein function prediction by demonstrating that protein language model embeddings alone can serve as effective input for binding residue prediction across three ligand classes, without requiring MSAs or expert-crafted features. The methodological approach is conceptually clean and the reported performance improvements over an MSA-based predecessor are encouraging. However, the manuscript as provided has several significant limitations. The most critical concern is the absence of all figures, tables, and supplementary materials, which prevents independent verification of the central quantitative claims. Additionally, the evaluation framework relies on treating unannotated residues as non-binding, a simplification the authors acknowledge but whose impact on reported performance metrics is not fully quantified. The case study analysis, while suggestive, is based on only two examples and does not provide a systematic basis for adjusting performance estimates. The human proteome analysis is interesting but the claim that the 20:30:50 distribution of predicted binding classes reflects true biological proportions is speculative. The comparison to specialized methods is limited by potential overlap with training data and the inability to exclude development sets. The manuscript would be substantially strengthened by providing the missing visual and supplementary materials, a more rigorous treatment of the missing annotation problem, and a larger-scale validation of the case study findings.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those interested in applying protein language models to downstream tasks. Researchers developing methods for ligand binding site prediction will find the comparison with existing approaches relevant. Experimental biologists studying protein-ligand interactions may find the human proteome predictions useful as a source of candidate binding sites for validation. The demonstration that MSA-free methods can compete with MSA-based approaches is of general interest to the protein structure and function prediction community.
+- **Major strengths** The methodological simplicity is a clear strength: using a single source of input (ProtT5 embeddings) with a shallow CNN makes the approach easy to reproduce and apply. The demonstration that embeddings outperform MSA-based features for this task is a meaningful result with implications for the field. The combination of DL with HBI in a simple, principled manner is sensible. The authors address the missing annotation problem directly, acknowledging that their performance estimates are likely conservative. The human proteome application demonstrates practical utility and scalability. The writing is generally clear and the logical flow from method development to evaluation to application is coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript reports specific quantitative performance values (e.g., F1=48±3%, MCC=0.46±0.04 for the combined method; 13 percentage point improvement over bindPredictML17; F1=43±5% for nucleic acid binding in a specific comparison) and makes comparative claims against other methods.
+  - **Evidence pointer** Figures 1-7, Tables S1-S14, SOM sections 1.2, 1.3, 2.1, 2.3, 2.4
+  - **Concern** All figures, tables, and supplementary materials are referenced but not provided in the manuscript text. This includes the primary performance comparisons (Fig. 1, Table 1), the comparison with bindPredictML17 (Fig. 2), comparisons with specialized methods (Fig. 3), the reliability analysis (Fig. 4), the case studies (Fig. 5), the final method comparison (Fig. 6), the human proteome results (Fig. 7), and all supplementary tables and SOM sections. Without these materials, the central quantitative claims cannot be verified, and the methodological details in the SOM (e.g., exact MMseqs2 commands, bootstrapping procedures, redundancy reduction details) are inaccessible.
+  - **Why it matters** The core scientific claims of the manuscript are quantitative performance comparisons. Without access to the figures, tables, and supplementary materials, a reviewer cannot assess whether the reported values are accurate, whether the statistical analyses are appropriate, or whether the comparisons with other methods are fair. This is a fundamental barrier to evaluation.
+  - **Resolution test** Provide all figures, tables, and supplementary materials. Ensure that all quantitative claims in the text are traceable to specific data presentations. Make the SOM accessible with full methodological detail.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation methodology
+  - **Claim pointer** The authors state that "our evaluation equated 'not observed' with 'not binding', treating predictions of unobserved binding as false positives" and acknowledge this "apparently blatantly underestimating precision."
+  - **Evidence pointer** Conclusion section; Performance evaluation subsection in Methods; Fig. 4 and Table S7 (referenced)
+  - **Concern** The treatment of unannotated residues as non-binding is a well-known problem in binding site prediction, as experimental annotations are incomplete. The authors acknowledge this but do not provide a quantitative estimate of how much their performance metrics are affected. The case study analysis of two proteins suggests that some "false positives" are likely true binding residues, but this is anecdotal. The claim that "for the 25% most strongly predicted binding residues, at least 73% were correctly predicted even when ignoring the problem of missing experimental annotations" is presented as a lower bound, but the reasoning is not fully elaborated.
+  - **Why it matters** If the performance metrics are substantially underestimated due to missing annotations, the reported improvements over other methods may be understated, and the practical utility of the method may be greater than reported. Conversely, if the missing annotation problem is not properly accounted for, the reported precision values may be misleading. A rigorous treatment of this issue is essential for interpreting the results.
+  - **Resolution test** Provide a quantitative analysis of the impact of missing annotations on performance metrics, such as an upper bound estimate of true precision or a sensitivity analysis. Expand the case study analysis to a larger, systematically selected set of examples. Clearly state the assumptions underlying the claim that precision is underestimated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The authors claim that bindEmbed21DL "remained competitive on the turf of the specialists" when compared to ProNA2020, PredZinc, and ZincBindPredict.
+  - **Evidence pointer** Fig. 3A and 3B (referenced); Comparison to other methods subsection in Methods; Table S14 (referenced)
+  - **Concern** The authors acknowledge that they "may have overestimated the performance of other methods because we could not exclude their development sets." This is a significant caveat. If the comparison methods were trained on data overlapping with the test set, their performance would be inflated, making bindEmbed21DL appear more competitive than it actually is. The authors do not provide any analysis of potential data leakage or attempt to quantify its impact.
+  - **Why it matters** Fair comparison with existing methods is essential for establishing the value of a new method. If the comparison is biased in favor of the proposed method, the conclusions about competitiveness are not reliable.
+  - **Resolution test** Provide a detailed analysis of potential overlap between the training data of comparison methods and the test sets used. If overlap cannot be excluded, discuss the implications for the comparison results. Consider using test sets specifically designed to avoid such overlap.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that "All results were confirmed by three independent data sets" and report confidence intervals for performance metrics.
+  - **Evidence pointer** Results & Discussion sections; Methods section on Performance evaluation; Table S12 (referenced)
+  - **Concern** The manuscript does not describe the statistical testing procedures used to establish significance of differences between methods. Confidence intervals are mentioned, but the specific methods for computing them (beyond a reference to normal approximation and bootstrapping in the SOM) are not detailed in the main text. The claim that results were "confirmed" by three independent data sets is not accompanied by a description of how consistency was assessed.
+  - **Why it matters** Without clear statistical methodology, it is difficult to assess whether reported differences between methods are meaningful or within the range of random variation. The claim of confirmation across data sets needs a defined criterion for what constitutes confirmation.
+  - **Resolution test** Provide explicit descriptions of statistical tests used for comparing methods, including whether differences are significant at defined thresholds. Clearly define the criterion for "confirmation" across independent data sets. Include effect sizes and confidence intervals for all key comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we proposed bindEmbed21" using past tense, which is unconventional for a methods paper. Additionally, the phrase "The Artificial Intelligence (AI)-based method" is redundant since AI is defined in the same sentence.
+  - **Required correction** Change "proposed" to "present" or "introduce." Remove the redundant "AI-based" or restructure the sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The Introduction is truncated in the provided text, ending mid-argument about the relationship between structure prediction and binding prediction. The full context for motivating the work is not visible.
+  - **Required correction** Provide the complete Introduction to allow full assessment of the motivation and context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results & Discussion, "More reliable predictions better" section
+  - **Evidence pointer** "More reliable predictions better" section
+  - **Issue** The section title "More reliable predictions better" is grammatically incomplete and unclear. It likely means "More reliable predictions are better" or "Higher reliability improves prediction utility."
+  - **Required correction** Revise the section title to be grammatically correct and informative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Human proteome analysis
+  - **Evidence pointer** Results & Discussion, human proteome section; Fig. 7 and Table S10 (referenced)
+  - **Issue** The claim that "42% of all human proteins" received binding predictions is presented without a breakdown of how this varies by ligand class or protein family. The statement that "about 6% of all residues" were predicted as binding is also presented without context on how this compares to known distributions.
+  - **Required correction** Provide additional context or breakdowns for the human proteome predictions to aid interpretation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Homology-based inference
+  - **Evidence pointer** Homology-based inference subsection in Methods
+  - **Issue** The description of the HBI procedure references SOM section 2.3 for explicit MMseqs2 commands, but this section is not provided. The main text description is insufficient for reproduction.
+  - **Required correction** Ensure the SOM is available with the full commands and parameters, or include sufficient detail in the main text.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Notation
+  - **Affected element** Results & Discussion, human proteome section
+  - **Evidence pointer** "probability?0.95" in the human proteome section
+  - **Issue** The text contains "probability?0.95" which appears to be a typographical error, likely intended as "probability ≥ 0.95."
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section
+  - **Issue** The phrase "blatantly underestimating precision" is informal and could be interpreted as editorializing. The point is valid but could be stated more neutrally.
+  - **Required correction** Rephrase to a more neutral statement, e.g., "likely underestimating precision."
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to other methods
+  - **Evidence pointer** Comparison to other methods subsection in Methods; Table S14 (referenced)
+  - **Issue** The authors state they could not compare with other methods "for different reasons" and reference Table S14, but the table is not provided. The reasons for excluding other methods are not visible.
+  - **Required correction** Provide Table S14 or summarize the reasons for exclusion in the main text.
+
+## Technical failings that need to be addressed before the case is established
+- R1-M1: Missing figures, tables, and supplementary materials prevent verification of all quantitative claims.
+- R1-M2: The impact of missing annotations on performance metrics is acknowledged but not quantitatively addressed.
+- R1-M3: Potential overlap between comparison methods' training data and the test sets is acknowledged but not analyzed.
+- R1-M4: Statistical testing procedures for method comparisons are not described in the main text.
+
+## Risk / unsupported claims
+- The claim that "for the 25% most strongly predicted binding residues, at least 73% were correctly predicted even when ignoring the problem of missing experimental annotations" is presented as a lower bound, but the reasoning is not fully elaborated and depends on assumptions about the distribution of missing annotations.
+- The claim that "about 6% of all residues" in the human proteome were predicted to bind any of the three ligand classes, and the 20:30:50 distribution across classes, is presented as a meaningful biological finding, but the authors themselves note this could reflect prediction biases.
+- The statement that "most proteins likely bind some ligand to function correctly" is an assumption that underlies the interpretation of the human proteome analysis but is not empirically supported in the manuscript.
+- The claim that "for those investigated in detail, precision was closer to 100% than to 80%" is based on only two case studies and is explicitly acknowledged as insufficient to adjust performance measures.
+- The assertion that "less than one experiment per week provided completely new insights into binding of residues not previously characterized in similar proteins" is an interpretation of the redundancy reduction results that depends on the clustering threshold and may not fully capture biological novelty.
+- The claim that bindEmbed21DL "outperformed" bindPredictML17 is based on a single comparison on a subset of 225 proteins and may not generalize across all protein types or ligand classes.
+- The statement that "embeddings can significantly outperform methods explicitly using evolutionary information through MSAs" is a strong claim based on a single task and a single comparison method.
+- The claim that "highly reliable predictions might help to identify missing binding annotations" is supported only by anecdotal evidence from two examples and requires systematic validation.
+- The performance of bindEmbed21 on the human proteome is presented without comparison to other methods on the same proteome, limiting the interpretability of the results.
+- The claim that the method is "broadly applicable" is supported by the diversity of ligand classes tested, but the limited number of proteins in the test sets and the redundancy reduction may limit generalizability to the full diversity of protein sequences and binding modes.
+
+## Assessment against Nature-style criteria
+- **Originality** The use of protein language model embeddings as the sole input for binding residue prediction across multiple ligand classes is a novel contribution. While individual components (ProtT5, CNNs, HBI) are established, their combination in this manner is new. The demonstration that MSA-free embeddings can outperform MSA-based features for this task is a meaningful finding. However, the conceptual approach of using transfer learning from language models for downstream prediction tasks is becoming increasingly common, and the novelty lies primarily in the specific application.
+- **Scientific importance** The problem of binding residue prediction is of significant importance to the field of protein function annotation. The potential to make fast, accurate predictions without requiring MSAs or structural information could have practical utility for genome-scale annotation efforts. The human proteome application demonstrates potential impact. However, the importance of the specific findings is tempered by the limitations in the evaluation and the acknowledged missing annotation problem.
+- **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The methods section is technical and assumes familiarity with deep learning and protein language models. The potential applications to experimental biology are mentioned but not developed in depth. The manuscript is unlikely to attract a broad interdisciplinary readership in its current form.
+- **Technical soundness** The methodological approach is sound in principle, and the authors have made reasonable choices in architecture design and evaluation. However, the technical soundness cannot be fully assessed without the missing figures, tables, and supplementary materials. The statistical treatment of confidence intervals is described, but the absence of detailed results prevents verification. The handling of the missing annotation problem is a weakness that needs to be addressed.
+- **Readability for nonspecialists** The abstract is accessible and clearly states the main findings. The Results & Discussion sections are generally readable, though some sections assume familiarity with the field. The Methods section is technical and would be challenging for nonspecialists. The manuscript would benefit from a brief explanation of key concepts such as protein language models and embeddings for a broader audience.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The core idea is promising and the reported results are potentially significant, but the manuscript in its current form cannot be fully evaluated due to missing materials and unresolved methodological issues. The authors should provide all figures, tables, and supplementary materials, address the missing annotation problem quantitatively, and strengthen the comparison with existing methods. If these concerns are adequately addressed, the work could make a valuable contribution to the field.

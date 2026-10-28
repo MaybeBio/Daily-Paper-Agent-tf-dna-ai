@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.13.676010",
+  "title": "A Modular Fusion Neural Network Approach to Efficiently Predict Multi-Metal Binding Sites in Protein Sequences",
+  "authors": "Jizheng Li; Changxin Fan; Hoi Ying Lau; Tianyue Wu",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-17",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用模块化CNN融合网络预测蛋白序列中的金属结合位点，虽涉及锌指蛋白等DNA结合蛋白，但核心是金属离子结合而非蛋白质-DNA互作，且无三维互作建模，与课题关联较弱。",
+  "abstract": "Accurate identification of metal-binding residues is essential for the study of metalloproteins, like zinc finger proteins, haemoglobin, and DNA polymerase. Due to the high cost and time demands of experimental methods, computational prediction has been applied. However, computational complexity and inextensibility of rigid frameworks impeded the application. This work presents a two-stage, sequence-based deep learning framework, which can predict zinc, iron, and magnesium binding amino acids of proteins. In the first stage, tokenized sequences are processed by independent one-dimensional convolutional neural networks (CNNs) to generate single-residue probability maps. In the second stage, a lightweight fusion network integrates these maps to model inter-metal dependencies and refine predictions. The framework employs an imbalance-aware loss function and the ensemble evaluation to improve robustness. Structural agnostic and modular design enable efficient training and inference, making it suitable for the annotation of large-scale proteome. CCS CONCEPTS • Applied computing; • Life and medical sciences; • Bioinformatics",
+  "abstract_zh": "金属结合残基的准确识别对于金属蛋白（如锌指蛋白、血红蛋白和DNA聚合酶）的研究至关重要。由于实验方法成本高且耗时，计算预测已被应用。然而，计算复杂性和刚性框架的不可扩展性阻碍了其应用。本工作提出了一种两阶段、基于序列的深度学习框架，可预测蛋白质的锌、铁和镁结合氨基酸。在第一阶段，标记化序列由独立的一维卷积神经网络（CNNs）处理，以生成单残基概率图。在第二阶段，一个轻量级融合网络整合这些图，以建模金属间依赖性并细化预测。该框架采用不平衡感知损失函数和集成评估以提高鲁棒性。结构无关和模块化设计实现了高效训练和推理，使其适用于大规模蛋白质组的注释。CCS概念•应用计算；•生命与医学科学；•生物信息学",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.13.676010",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.13.676010",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.13.676010/index.html"
+}

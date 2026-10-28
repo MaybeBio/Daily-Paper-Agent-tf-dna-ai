@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, methods, figure legends referenced but not fully provided)
+- **Assessment boundary** Scientific and technical evaluation of the presented method, benchmarking, and biological findings; no assessment of code functionality or reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors introduce Attune, a cross-modal contrastive learning framework for integrating paired scRNA-seq and scATAC-seq data. They claim superior performance in omics integration and gene expression prediction compared to existing methods, and demonstrate the utility of the framework for inferring gene-peak regulatory interactions, discovering chromatin potential for the transcription factor Gli3 in hair follicle maturation, and identifying transcriptionally active transitional states in cortical neuron differentiation.
+- **Visible evidence base** Main text describing model architecture, training objectives, benchmarking results (referenced to Figures 2A-H and Supplementary Tables S2-S11), regulatory interaction inference (Figure 3A-F), Gli3 analysis (Figures 3G-I, 4A-E), and cortical neuron analysis (Figure 5B-C). Methods section describing data preprocessing, model components, metrics, and analysis procedures.
+- **Missing materials affecting confidence** Figure panels and Supplementary Figures/Tables are referenced but not provided in the submitted text. Exact numerical results for benchmarking comparisons are only partially reported in the text. Details on dataset sizes, hyperparameter search ranges, and computational resources are incomplete. The full transformer architecture (number of layers, heads, dimensions) is not specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents Attune, a contrastive learning framework for integrating paired single-cell RNA and ATAC data. The methodological contribution is timely and the application to regulatory inference is of interest. However, the current text does not provide sufficient detail to fully evaluate the method's novelty relative to existing approaches, the statistical robustness of the benchmarking claims, or the biological significance of the Gli3 and cortical neuron findings. Several claims appear under-supported by the evidence presented in the text alone.
+- **Who would be interested in the results, and why** Researchers developing and applying multimodal single-cell integration methods, particularly those interested in regulatory genomics, gene regulatory network inference, and developmental biology. The method addresses a practical need for tools that go beyond simple integration to enable mechanistic interpretation of chromatin-accessibility-transcription relationships.
+- **Major strengths** The problem addressed is important and timely. The framework combines contrastive pretraining with a transformer-based decoder for regulatory inference, which is a sensible and potentially powerful design. The application to hair follicle maturation and cortical neuron differentiation demonstrates the potential of the approach for generating biologically interpretable insights. The benchmarking against multiple established methods and the inclusion of ablation studies are commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and positioning
+  - **Claim pointer** The manuscript claims Attune is a novel framework for cross-modal contrastive learning in single-cell genomics, but does not clearly differentiate it from existing contrastive learning methods in this space (e.g., scCLIP, Multigrate, or contrastive approaches used in BABEL or GLUE).
+  - **Evidence pointer** Introduction and Results, "Attune achieves exceptional overall performance of integration" section
+  - **Concern** The manuscript does not provide a systematic comparison or discussion of how Attune differs from or improves upon existing contrastive learning frameworks for single-cell multimodal data. The novelty appears to lie primarily in the combination of contrastive pretraining with a transformer decoder for regulatory inference, but this is not clearly articulated as a distinct contribution.
+  - **Why it matters** Without clear positioning against existing methods, the scientific contribution is difficult to assess. The claim of novelty is central to the manuscript's significance.
+  - **Resolution test** The authors should provide a clear table or section comparing Attune's architecture, training objective, and capabilities against at least 2-3 existing contrastive or multimodal integration methods, highlighting specific differences and advantages.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of benchmarking
+  - **Claim pointer** "Attune emerges as the clear winner" and "Attune outperforms all other methods with the lowest RMSE" in benchmarking comparisons.
+  - **Evidence pointer** Results, "Attune achieves exceptional overall performance of integration" and "Internal relation is well captured by Attune" sections; Figures 2A, 2B, 2F, 2G; Supplementary Tables S2, S3, S8, S9
+  - **Concern** The text reports mean scores and rankings but does not report variance, confidence intervals, or statistical significance tests for the benchmarking comparisons. It is unclear whether the reported improvements are statistically meaningful or within the range of run-to-run variability.
+  - **Why it matters** Claims of superior performance are a key part of the manuscript's contribution. Without statistical rigor, these claims are not convincing.
+  - **Resolution test** Report the number of independent runs, standard deviations or confidence intervals for all metrics, and perform appropriate statistical tests (e.g., paired tests across the same data splits) for the key comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of regulatory interaction inference
+  - **Claim pointer** The transformer-based cross-attention "captures promoter-interacting regions effectively" and outperforms Cicero, LASSO, and GLUE in regulatory prediction.
+  - **Evidence pointer** Results, "Transformer's cross-attention mechanism enables revealing regulatory interaction of genes via fine-tuning Attune" section; Figure 3B
+  - **Concern** The validation of the inferred gene-peak interactions relies on a single PCHi-C dataset. The manuscript does not report precision-recall curves, the number of true positives, or how the comparison methods were tuned. The AUC value is mentioned but the text does not provide the actual number in the main text.
+  - **Why it matters** The regulatory interaction inference is a central claimed capability of Attune. The validation needs to be more thorough and the comparison to other methods needs to be fair and well-documented.
+  - **Resolution test** Provide full precision-recall and ROC curves, report the number of interactions tested and the threshold used, and describe how each comparison method was configured. Consider validating on an independent dataset (e.g., a different cell type or a CRISPR-based perturbation dataset).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological significance of Gli3 findings
+  - **Claim pointer** "Attune reveals chromatin potential for the bifunctional transcription factor Gli3 at the gene level" and the proposed model for hair follicle maturity.
+  - **Evidence pointer** Results, "Attune enables chromatin potential discovery and illuminates the priming of lineage" section; Figures 3G-I, 4A-E
+  - **Concern** The biological interpretation of the Gli3 chromatin potential and the proposed regulatory model is largely descriptive. The manuscript does not provide experimental validation or a clear statistical framework for assessing the significance of the observed residuals. The connection between the inferred regulatory model and the known biology of Gli3 in hair follicle development is not deeply discussed.
+  - **Why it matters** The biological findings are presented as a key outcome of the method. Without stronger validation or a more rigorous connection to established biology, the significance of these findings is unclear.
+  - **Resolution test** Provide a more detailed comparison of the inferred Gli3 regulatory network with known Gli3 targets and pathways. Consider validating the chromatin potential predictions with an independent computational method or with published perturbation data. Discuss the limitations of the residual-based approach for inferring regulatory causality.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical completeness and reproducibility
+  - **Claim pointer** The Methods section describes the model architecture and training, but key details are missing.
+  - **Evidence pointer** Methods, "Overview of model architecture", "Teacher network", "Student network", "Cross-modal contrastive loss", "Modality prediction network"
+  - **Concern** The manuscript does not specify the number of transformer layers, attention heads, hidden dimensions, or the total number of parameters. The training time, hardware used, and convergence criteria are not reported. The exact data splitting procedure for benchmarking is not described.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Missing technical details prevent others from reimplementing and verifying the method.
+  - **Resolution test** Provide a complete architecture specification, training details, and a clear description of the data splits and evaluation protocol. Consider releasing a configuration file or a detailed model card.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, "Findings" section
+  - **Issue** The abstract uses the term "chromatin potential" without defining it clearly. The concept is central to the manuscript's claims but is not introduced until the Results section.
+  - **Required correction** Define "chromatin potential" in the abstract or at the end of the Introduction, and ensure the term is used consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results, "Attune achieves exceptional overall performance of integration" section
+  - **Issue** The text refers to Figure 2A (left and right) but does not describe what each panel shows in sufficient detail. The reader cannot assess the comparison without seeing the figure.
+  - **Required correction** Provide a more detailed description of each panel in the figure legend and in the text, including the specific metrics shown and the methods compared.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods, "Cross-modal contrastive loss"
+  - **Evidence pointer** Methods, equations 13-19
+  - **Issue** The manuscript uses "teacher" and "student" networks but does not explain the relationship to knowledge distillation or why this terminology is used. The distinction between teacher and student networks in the contrastive learning setup is not clear.
+  - **Required correction** Clarify the role of teacher and student networks in the architecture, and explain whether this is a form of self-distillation or simply a naming convention.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability section
+  - **Issue** The manuscript states that data are available via Figshare and GigaDB, but the specific accession numbers for the processed data (e.g., the gene-peak attention weights) are not provided in the text.
+  - **Required correction** Provide the specific Figshare and GigaDB links or DOIs for all processed data products, including the attention weight matrices and the residuals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Related work
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The Introduction mentions GLUE and MIRA but does not discuss other recent contrastive learning methods for single-cell data, such as scCLIP or Multigrate, which may be closely related.
+  - **Required correction** Add a brief discussion of other recent contrastive learning approaches for single-cell multimodal integration and clarify the specific advantages of Attune over these methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (novelty positioning), R1-M2 (statistical rigor of benchmarking), R1-M3 (validation of regulatory inference), R1-M5 (technical completeness)
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of contrastive learning with a transformer for regulatory inference is a reasonable extension of existing work, but the manuscript does not clearly establish what is fundamentally new. Scientific importance: Moderate to high. The problem of integrating and interpreting multimodal single-cell data is important, and the potential to infer regulatory interactions and chromatin potential is valuable. Interdisciplinary readership: Moderate. The work will appeal to computational biologists and those interested in regulatory genomics, but the presentation is quite technical and may not be accessible to a broader biological audience. Technical soundness: Currently not fully established. The benchmarking lacks statistical rigor, and the validation of the regulatory inference is limited. Readability for nonspecialists: Below the standard expected for a general journal. The abstract and introduction assume significant familiarity with both deep learning and single-cell genomics.
+- **Recommendation posture** Currently not established from the provided evidence. The method is potentially interesting and the applications are relevant, but the manuscript requires substantial revisions to address the concerns about novelty, statistical rigor, validation, and technical completeness before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that Attune "emerges as the clear winner" in integration performance is not supported without statistical significance testing and reporting of variance.
+- The claim that the transformer-based cross-attention "captures promoter-interacting regions effectively" is based on a single dataset and a single metric (AUC) that is not reported in the text.
+- The biological model for hair follicle maturation involving Gli3 is presented as a finding but lacks experimental or independent computational validation.
+- The claim that Attune can "handle additional modalities of data" is stated in the Discussion but no experiments or architectural details support this claim.
+- The statement that Attune "can support millions of cell atlases" is not supported by any scalability analysis or benchmark.

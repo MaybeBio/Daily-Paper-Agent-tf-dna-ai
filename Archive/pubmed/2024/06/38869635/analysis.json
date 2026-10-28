@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38869635",
+  "title": "Revolutionary multi-omics analysis revealing prognostic signature of thyroid cancer and subsequent in vitro validation of SNAI1 in mediating thyroid cancer progression through EMT.",
+  "authors": "Jin, Xin; Fu, Chunlan; Qi, Jiahui; Chen, Chuanzhi",
+  "journal": "Clinical and experimental medicine",
+  "published_date": "2024-06-13",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过多组学与机器学习构建甲状腺癌预后模型并验证SNAI1经EMT促癌，核心为肿瘤预后与湿实验，无蛋白质-DNA互作建模或AI/物理模拟方法，仅边缘相关。",
+  "abstract": "Thyroid carcinoma (TC), the most commonly diagnosed malignancy of the endocrine system, has witnessed a significant rise in incidence over the past few decades. The integration of scRNA-seq with other sequencing approaches offers researchers a distinct perspective to explore mechanisms underlying TC progression. Therefore, it is crucial to develop a prognostic model for TC patients by utilizing a multi-omics approach. We acquired and processed transcriptomic data from the TCGA-THCA dataset, including mRNA expression profiles, lncRNA expression profiles, miRNA expression profiles, methylation chip data, gene mutation data, and clinical data. We constructed a tumor-related risk model using machine learning methods and developed a consensus machine learning-driven signature (CMLS) for accurate and stable prediction of TC patient outcomes. 2 strains of undifferentiated TC cell lines and 1 strain of PTC cell line were utilized for in vitro validation. mRNA, protein levels of hub genes, epithelial-mesenchymal transition (EMT)-associated phenotypes were detected by a series of in vitro experiments. We identified 3 molecular subtypes of TC based on integrated multi-omics clustering algorithms, which were associated with overall survival and displayed distinct molecular features. We developed a CMLS based on 28 hub genes to predict patient outcomes, and demonstrated that CMLS outperformed other prognostic models. TC patients of relatively lower CMLS score had significantly higher levels of T cells, B cells, and macrophages, indicating an immune-activated state. Fibroblasts were predominantly enriched in the high CMLS group, along with markers associated with immune suppression and evasion. We identified several drugs that could be suitable for patients with high CMLS, including Staurosporine_1034, Rapamycin_1084, gemcitabine, and topotecan. SNAI1 was elevated in both undifferentiated TC cell lines, comparing to PTC cells. Knockdown of SNAI1 reduced the cell proliferation and EMT phenotypes of undifferentiated TC cells. Our findings highlight the importance of multi-omics analysis in understanding the molecular subtypes and immune characteristics of TC, and provide a novel prognostic model and potential therapeutic targets for this disease. Moreover, we identified SNAI1 in mediating TC progression through EMT in vitro.",
+  "abstract_zh": "甲状腺癌（TC）是内分泌系统中最常见的恶性肿瘤，其发病率在过去几十年中显著上升。将单细胞RNA测序（scRNA-seq）与其他测序方法相结合，为研究者提供了探索TC进展机制的独特视角。因此，利用多组学方法为TC患者构建预后模型至关重要。我们获取并处理了来自TCGA-THCA数据集的转录组数据，包括mRNA表达谱、lncRNA表达谱、miRNA表达谱、甲基化芯片数据、基因突变数据及临床数据。我们采用机器学习方法构建了肿瘤相关风险模型，并开发了一种共识机器学习驱动的特征（CMLS），以准确稳定地预测TC患者的预后。我们使用2株未分化TC细胞系和1株PTC细胞系进行体外验证。通过一系列体外实验检测了核心基因的mRNA、蛋白水平以及上皮-间质转化（EMT）相关表型。我们基于整合多组学聚类算法识别出TC的3种分子亚型，这些亚型与总生存期相关，并表现出不同的分子特征。我们基于28个核心基因开发了CMLS以预测患者预后，并证明CMLS优于其他预后模型。CMLS评分相对较低的TC患者中，T细胞、B细胞和巨噬细胞水平显著升高，表明其处于免疫激活状态。成纤维细胞主要富集于高CMLS组，并伴有与免疫抑制和逃逸相关的标志物。我们识别出几种可能适用于高CMLS患者的药物，包括Staurosporine_1034、Rapamycin_1084、吉西他滨和拓扑替康。与PTC细胞相比，SNAI1在两种未分化TC细胞系中均升高。敲低SNAI1可减少未分化TC细胞的增殖和EMT表型。我们的研究结果强调了多组学分析在理解TC分子亚型和免疫特征中的重要性，并为该疾病提供了新型预后模型和潜在治疗靶点。此外，我们在体外实验中识别出SNAI1通过EMT介导TC进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38869635/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38869635/",
+  "paper_page_path": "papers/pubmed/38869635/index.html"
+}

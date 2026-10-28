@@ -1,0 +1,726 @@
+{
+  "identity": {
+    "pmid": "41509364",
+    "doi": "10.64898/2025.12.19.695499",
+    "title": "Functional architecture of cardiac TF regulatory landscapes in control of mammalian heart development."
+  },
+  "content": {
+    "abstract": "Congenital heart disease (CHD), the most common human birth defect, often results from disruptions in gene regulatory networks (GRNs) that control cardiac lineage specification and cell type identity during heart development. A conserved core set of cardiac transcription factors (TFs) orchestrates these processes through combinatorial interactions that are cell type-specific and tightly regulated across space and time. However, the genomic enhancer architecture that integrates upstream effectors to establish precise cardiac TF dosage and downstream transcriptional output remains largely unresolved. Here, we assessed the functional necessity of five developmental heart enhancer modules previously linked to the regulation of Gata4 and Hand2, core cardiac TFs exhibiting overlapping roles in myocardial and endocardial development. While individual enhancer deletions in mouse embryonic hearts revealed a surprising degree of transcriptional resilience, a subset of Gata4 enhancers proved indispensable for embryonic progression in a genetically compromised background. To achieve higher precision in cardiac cell type-specific enhancer prediction, we applied single-nucleus multiome profiling, enabling the delineation of cardiac cistromes underlying heart morphogenesis. By integrating this resource with deep learning applications, site-directed transgenesis, and chromatin conformation modeling, we mapped the cardiac enhancer repertoire and regulatory signatures that orchestrate Hand2 dynamics across distinct cardiac compartments and lineages. Genome editing further revealed an essential role for the Hand2-upstream regulatory interval (H2-URI) in transcriptional control of endocardial lineage effectors and, consequently, trabecular network formation and cardiac cushion patterning. Together our findings highlight substantial resilience in the cis-regulatory architectures governing cardiac TF dynamics and demonstrate that combinatorial integration of upstream lineage identities across modular enhancer landscapes establishes the cardiac cell type-specific programs driving heart morphogenesis. These results advance the reconstruction of cardiac GRNs and enhance the functional interpretation of CHD-associated variants.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roland, Virginia",
+        "Tuchler, Johannes",
+        "Esposito, Andrea",
+        "Conte, Mattia",
+        "Zoia, Matteo",
+        "Wisnumurti, Ekapaksi",
+        "Tissieres, Virginie",
+        "Gamart, Julie",
+        "Rouco Garcia, Raquel",
+        "Marques, Ines J",
+        "Akshay, Akshay",
+        "Rapp, Vincent",
+        "Mannion, Brandon J",
+        "Akiyama, Jennifer A",
+        "Arora, Prateek",
+        "Walker, Harry",
+        "Hashemi Gheinani, Ali",
+        "Firulli, Beth A",
+        "Nusspaumer, Gretel",
+        "Firulli, Anthony B",
+        "Andrey, Guillaume",
+        "Visel, Axel",
+        "Mercader, Nadia",
+        "Lopez-Rios, Javier",
+        "Nicodemi, Mario",
+        "Barozzi, Iros",
+        "Osterwalder, Marco"
+      ],
+      "short_names": [
+        "Roland V",
+        "Tuchler J",
+        "Esposito A",
+        "Conte M",
+        "Zoia M",
+        "Wisnumurti E",
+        "Tissieres V",
+        "Gamart J",
+        "Rouco Garcia R",
+        "Marques IJ",
+        "Akshay A",
+        "Rapp V",
+        "Mannion BJ",
+        "Akiyama JA",
+        "Arora P",
+        "Walker H",
+        "Hashemi Gheinani A",
+        "Firulli BA",
+        "Nusspaumer G",
+        "Firulli AB",
+        "Andrey G",
+        "Visel A",
+        "Mercader N",
+        "Lopez-Rios J",
+        "Nicodemi M",
+        "Barozzi I",
+        "Osterwalder M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5154-3959",
+        "ORCID: 0000-0002-6670-9800",
+        "ORCID: 0000-0002-0040-0085",
+        "ORCID: 0000-0003-4276-5514",
+        "ORCID: 0000-0002-0657-0704",
+        "ORCID: 0000-0003-1254-9394",
+        "ORCID: 0000-0003-3186-7478",
+        "ORCID: 0000-0002-4755-9106",
+        "ORCID: 0000-0002-1149-3790",
+        "ORCID: 0000-0002-0667-9355",
+        "ORCID: 0000-0003-0822-9240",
+        "ORCID: 0000-0002-9625-6259",
+        "ORCID: 0000-0002-3870-0964",
+        "ORCID: 0000-0001-6687-8949",
+        "ORCID: 0000-0002-0911-4907",
+        "ORCID: 0000-0002-4130-7784",
+        "ORCID: 0000-0002-0905-6399",
+        "ORCID: 0000-0001-6731-3798",
+        "ORCID: 0000-0002-8416-6416",
+        "ORCID: 0000-0003-0690-3473",
+        "ORCID: 0000-0002-1969-2313"
+      ],
+      "affiliations": [
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Center for Cancer Research, Medical University of Vienna, Vienna, Austria.",
+        "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy.",
+        "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Department of Cardiology, Bern University Hospital, Bern, Switzerland.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Department of Cardiology, Bern University Hospital, Bern, Switzerland.",
+        "Department of Genetic Medicine and Development and iGE3, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+        "Institute of Anatomy, University of Bern, Bern, Switzerland.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Current address: European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117, Heidelberg, Germany.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Institute of Anatomy, University of Bern, Bern, Switzerland.",
+        "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA.",
+        "Centro Andaluz de Biologia del Desarrollo (CABD), CSIC-Universidad Pablo de Olavide Junta de Andalucia, Seville, Spain.",
+        "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA.",
+        "Department of Genetic Medicine and Development and iGE3, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "School of Natural Sciences, University of California, Merced, CA 95343, USA.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Institute of Anatomy, University of Bern, Bern, Switzerland.",
+        "Centro Nacional de Investigaciones Cardiovasculares Carlos III, Madrid, Spain.",
+        "Centro Andaluz de Biologia del Desarrollo (CABD), CSIC-Universidad Pablo de Olavide Junta de Andalucia, Seville, Spain.",
+        "Universidad Loyola Andalucia, School of Health Sciences, Seville Campus, 41704, Dos Hermanas, Seville, Spain.",
+        "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy.",
+        "Center for Cancer Research, Medical University of Vienna, Vienna, Austria.",
+        "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+        "Department of Cardiology, Bern University Hospital, Bern, Switzerland.",
+        "Institute of Anatomy, University of Bern, Bern, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roland, Virginia",
+        "short_name": "Roland V",
+        "identifiers": [
+          "0000-0002-5154-3959"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tüchler, Johannes",
+        "short_name": "Tüchler J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Research, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Esposito, Andrea",
+        "short_name": "Esposito A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Conte, Mattia",
+        "short_name": "Conte M",
+        "identifiers": [
+          "0000-0002-6670-9800"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Zoia, Matteo",
+        "short_name": "Zoia M",
+        "identifiers": [
+          "0000-0002-0040-0085"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wisnumurti, Ekapaksi",
+        "short_name": "Wisnumurti E",
+        "identifiers": [],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tissières, Virginie",
+        "short_name": "Tissières V",
+        "identifiers": [
+          "0000-0003-4276-5514"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+          "Department of Cardiology, Bern University Hospital, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gamart, Julie",
+        "short_name": "Gamart J",
+        "identifiers": [],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+          "Department of Cardiology, Bern University Hospital, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Rouco Garcia, Raquel",
+        "short_name": "Rouco Garcia R",
+        "identifiers": [
+          "0000-0002-0657-0704"
+        ],
+        "affiliations": [
+          "Department of Genetic Medicine and Development and iGE3, Faculty of Medicine, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Marques, Ines J",
+        "short_name": "Marques IJ",
+        "identifiers": [
+          "0000-0003-1254-9394"
+        ],
+        "affiliations": [
+          "Institute of Anatomy, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Akshay, Akshay",
+        "short_name": "Akshay A",
+        "identifiers": [
+          "0000-0003-3186-7478"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+          "Current address: European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rapp, Vincent",
+        "short_name": "Rapp V",
+        "identifiers": [
+          "0000-0002-4755-9106"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mannion, Brandon J",
+        "short_name": "Mannion BJ",
+        "identifiers": [
+          "0000-0002-1149-3790"
+        ],
+        "affiliations": [
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Akiyama, Jennifer A",
+        "short_name": "Akiyama JA",
+        "identifiers": [
+          "0000-0002-0667-9355"
+        ],
+        "affiliations": [
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Arora, Prateek",
+        "short_name": "Arora P",
+        "identifiers": [
+          "0000-0003-0822-9240"
+        ],
+        "affiliations": [
+          "Institute of Anatomy, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Walker, Harry",
+        "short_name": "Walker H",
+        "identifiers": [],
+        "affiliations": [
+          "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA."
+        ]
+      },
+      {
+        "full_name": "Hashemi Gheinani, Ali",
+        "short_name": "Hashemi Gheinani A",
+        "identifiers": [
+          "0000-0002-9625-6259"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Firulli, Beth A",
+        "short_name": "Firulli BA",
+        "identifiers": [],
+        "affiliations": [
+          "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA."
+        ]
+      },
+      {
+        "full_name": "Nusspaumer, Gretel",
+        "short_name": "Nusspaumer G",
+        "identifiers": [
+          "0000-0002-3870-0964"
+        ],
+        "affiliations": [
+          "Centro Andaluz de Biología del Desarrollo (CABD), CSIC-Universidad Pablo de Olavide Junta de Andalucía, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Firulli, Anthony B",
+        "short_name": "Firulli AB",
+        "identifiers": [
+          "0000-0001-6687-8949"
+        ],
+        "affiliations": [
+          "Herman B Wells Center for Pediatric Research, Departments of Pediatrics, Anatomy and Medical and Molecular Genetics, Indiana Medical School, Indianapolis, IN 46202, USA."
+        ]
+      },
+      {
+        "full_name": "Andrey, Guillaume",
+        "short_name": "Andrey G",
+        "identifiers": [
+          "0000-0002-0911-4907"
+        ],
+        "affiliations": [
+          "Department of Genetic Medicine and Development and iGE3, Faculty of Medicine, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Visel, Axel",
+        "short_name": "Visel A",
+        "identifiers": [
+          "0000-0002-4130-7784"
+        ],
+        "affiliations": [
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+          "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+          "School of Natural Sciences, University of California, Merced, CA 95343, USA."
+        ]
+      },
+      {
+        "full_name": "Mercader, Nadia",
+        "short_name": "Mercader N",
+        "identifiers": [
+          "0000-0002-0905-6399"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+          "Institute of Anatomy, University of Bern, Bern, Switzerland.",
+          "Centro Nacional de Investigaciones Cardiovasculares Carlos III, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Lopez-Rios, Javier",
+        "short_name": "Lopez-Rios J",
+        "identifiers": [
+          "0000-0001-6731-3798"
+        ],
+        "affiliations": [
+          "Centro Andaluz de Biología del Desarrollo (CABD), CSIC-Universidad Pablo de Olavide Junta de Andalucía, Seville, Spain.",
+          "Universidad Loyola Andalucía, School of Health Sciences, Seville Campus, 41704, Dos Hermanas, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Nicodemi, Mario",
+        "short_name": "Nicodemi M",
+        "identifiers": [
+          "0000-0002-8416-6416"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Naples Federico II and National Institute of Nuclear Physics, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Barozzi, Iros",
+        "short_name": "Barozzi I",
+        "identifiers": [
+          "0000-0003-0690-3473"
+        ],
+        "affiliations": [
+          "Center for Cancer Research, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Osterwalder, Marco",
+        "short_name": "Osterwalder M",
+        "identifiers": [
+          "0000-0002-1969-2313"
+        ],
+        "affiliations": [
+          "Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland.",
+          "Department of Cardiology, Bern University Hospital, Bern, Switzerland.",
+          "Institute of Anatomy, University of Bern, Bern, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 07:06",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40425826",
+      "39530240",
+      "39470740",
+      "39437788",
+      "39362902",
+      "38709825",
+      "38643172",
+      "38553636",
+      "38198889",
+      "38086419",
+      "37852970",
+      "37824614",
+      "37772400",
+      "37689753",
+      "37414772",
+      "37099500",
+      "36941249",
+      "36809764",
+      "36563664",
+      "36263775",
+      "36130500",
+      "35831310",
+      "35354035",
+      "34913122",
+      "34903763",
+      "34789765",
+      "34733677",
+      "34725479",
+      "34548488",
+      "34272501",
+      "33990324",
+      "33777110",
+      "33757801",
+      "33689769",
+      "33633365",
+      "33469032",
+      "33442000",
+      "33397941",
+      "33106633",
+      "33044128",
+      "33040635",
+      "32728249",
+      "32728240",
+      "32620890",
+      "32601476",
+      "32268095",
+      "32169219",
+      "32032514",
+      "31999538",
+      "31666509",
+      "31659164",
+      "31484079",
+      "31422919",
+      "31366290",
+      "31365875",
+      "31341279",
+      "31178118",
+      "31147463",
+      "31120883",
+      "31116981",
+      "31092928",
+      "30478328",
+      "30287945",
+      "30266935",
+      "30262816",
+      "30262496",
+      "29898387",
+      "29762716",
+      "29692413",
+      "29689192",
+      "29662163",
+      "29420474",
+      "29371425",
+      "29358049",
+      "29273679",
+      "29120462",
+      "29053968",
+      "29021530",
+      "28846100",
+      "28827824",
+      "28538179",
+      "28209227",
+      "27918583",
+      "27863239",
+      "27783597",
+      "27706140",
+      "27703156",
+      "27467249",
+      "27405443",
+      "27376235",
+      "27151215",
+      "26875865",
+      "26835000",
+      "26718723",
+      "26687625",
+      "26531828",
+      "25959774",
+      "25677518",
+      "25516281",
+      "25497097",
+      "25453830",
+      "25280899",
+      "25249388",
+      "25248475",
+      "24770533",
+      "24380800",
+      "24227677",
+      "24003126",
+      "23839576",
+      "23598338",
+      "23112163",
+      "23104886",
+      "22988072",
+      "22936215",
+      "22543974",
+      "22449847",
+      "22449843",
+      "22449842",
+      "22388286",
+      "22373907",
+      "22118467",
+      "22056786",
+      "21350214",
+      "21185281",
+      "20797865",
+      "20729851",
+      "20512118",
+      "20386744",
+      "20110278",
+      "19592579",
+      "19516962",
+      "19505943",
+      "19289043",
+      "19008477",
+      "18798982",
+      "18725929",
+      "18353304",
+      "18288184",
+      "18156162",
+      "17336907",
+      "17008524",
+      "16914500",
+      "16304598",
+      "15902305",
+      "15464586",
+      "12571099",
+      "11572777",
+      "11242049",
+      "11076755",
+      "10930438",
+      "9171826",
+      "9162005",
+      "9136933",
+      "7628699"
+    ],
+    "similar": [
+      "41509364",
+      "42475469",
+      "42074532",
+      "37772400",
+      "25887857",
+      "39838281",
+      "36263775",
+      "34913122",
+      "41446109",
+      "39481376",
+      "37705079",
+      "41594627",
+      "41993329",
+      "36620995",
+      "42323439",
+      "21415370",
+      "28538179",
+      "37425940",
+      "25609699",
+      "31659164",
+      "41049289",
+      "22056786",
+      "31080136",
+      "42239343",
+      "40883017",
+      "30760547",
+      "33044128",
+      "42339731",
+      "9834187",
+      "41862973",
+      "32772801",
+      "24496624",
+      "37551791",
+      "29373717",
+      "29335803",
+      "38056211",
+      "23184988",
+      "27899510",
+      "36454649",
+      "40607808",
+      "39354714",
+      "41801512",
+      "37595278",
+      "38884718",
+      "39487555",
+      "29030344",
+      "37577543",
+      "42680482",
+      "30359306",
+      "41146606",
+      "33194440",
+      "37102151",
+      "24972496",
+      "41937210",
+      "29539636",
+      "22824467",
+      "39606363",
+      "38559211",
+      "34755591",
+      "23972280",
+      "26321200",
+      "41159420",
+      "22537144",
+      "42734758",
+      "41677026",
+      "42490494",
+      "42674282",
+      "41247408",
+      "40021842",
+      "42246060",
+      "41959153",
+      "42234579",
+      "35400201",
+      "41073403",
+      "39554149",
+      "31322043",
+      "28977473",
+      "21785139",
+      "41933934",
+      "1569934",
+      "31053165",
+      "15902305",
+      "41684930",
+      "40131776",
+      "35680026",
+      "29903739",
+      "25149110",
+      "26377945",
+      "33663371",
+      "41239560",
+      "39589130",
+      "30661644",
+      "37073532",
+      "36497174",
+      "27490187",
+      "36043696",
+      "40950208",
+      "38187729",
+      "33964211",
+      "24421884"
+    ],
+    "review": [
+      "41509364",
+      "42074532",
+      "41594627",
+      "42323439",
+      "41049289",
+      "41862973",
+      "38884718"
+    ],
+    "pmc": [
+      "12776112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41509364/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.19.695499",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

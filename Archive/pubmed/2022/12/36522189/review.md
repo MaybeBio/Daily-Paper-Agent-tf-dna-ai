@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the N-terminal β-strand of YAP, previously considered marginal for YAP:TEAD binding, significantly enhances YAP affinity for the Drosophila TEAD homolog scalloped (Sd). NMR indicates the β-strand is more rigid when bound to Sd; pre-steady state kinetics show the YAP:Sd complex is more stable. Crystal structures of YAP:TEAD and YAP:Sd complexes show no interface differences explaining this. Molecular Dynamics simulations support the experimental findings, with RMSF, correlated motion, and MMGBSA analyses suggesting β-sheet fluctuations contribute to YAP53-57 β-strand dissociation from TEAD4 and lower affinity for TEAD4. The authors note that identifying a clear mechanism for differential β-strand stability proved challenging, suggesting multiple modest structural changes or fluctuations may be relevant.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, structural coordinates, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR data and assignments, kinetic parameters, crystallographic statistics, MD simulation protocols and convergence analyses, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially interesting finding that revises the understanding of YAP β-strand contribution to binding affinity, specifically in the context of the Drosophila homolog Sd. The combination of experimental and computational approaches is appropriate for the question. However, the abstract alone provides insufficient detail to evaluate the robustness of the claims. The key conclusion that β-sheet fluctuations drive differential affinity is presented as suggestive rather than definitive, which is honest but leaves the mechanistic case incomplete. The lack of quantitative data and methodological transparency prevents a full assessment of technical soundness.
+- **Who would be interested in the results, and why** Researchers studying Hippo signaling, YAP/TAZ transcriptional coactivators, TEAD transcription factors, and their evolutionary conservation across species. The work may also interest structural biologists and computational biophysicists focused on protein-protein interaction dynamics and the role of conformational fluctuations in binding affinity. The Drosophila system provides a comparative angle that could inform developmental biology studies.
+- **Major strengths** The study addresses a specific and previously underappreciated aspect of YAP:TEAD binding, namely the differential contribution of the β-strand across species. The use of multiple orthogonal methods (NMR, kinetics, crystallography, MD simulations) is commendable. The authors acknowledge the difficulty in identifying a single clear mechanism, which reflects scientific caution. The finding that the β-strand is more rigid in the YAP:Sd complex and that this correlates with higher affinity is a concrete and testable observation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "the β-strand adopts a more rigid conformation once bound to Sd" and that "pre-steady state kinetic measurements show that the YAP:Sd complex is more stable."
+  - **Evidence pointer** Abstract, NMR and kinetics sections; specific data not provided
+  - **Concern** The abstract states these findings but provides no quantitative values. For NMR, no order parameters (e.g., S²), relaxation rates, or comparison metrics are given. For kinetics, no association/dissociation rate constants (kon, koff) or equilibrium dissociation constants (Kd) are reported. Without these numbers, the magnitude of the reported differences cannot be assessed, and it is unclear whether the effects are biologically or statistically significant.
+  - **Why it matters** The central claim of differential binding affinity and stability rests entirely on these measurements. If the differences are small or within experimental error, the conclusion would be weakened. The reader cannot evaluate the strength of the effect or the reliability of the measurements.
+  - **Resolution test** Provide the specific NMR-derived order parameters or relaxation data for the β-strand in both complexes, and the kon, koff, and Kd values with associated errors and replicates. State the statistical significance of the differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "Molecular Dynamics simulations are in line with our experimental findings regarding β-strand stability and overall binding affinity" and specifically that "RMSF, correlated motion and MMGBSA analyses suggest that β-sheet fluctuations play a relevant role in YAP53-57 β-strand dissociation from TEAD4."
+  - **Evidence pointer** Abstract, MD simulations section; simulation details not provided
+  - **Concern** No simulation parameters are given, including force field, water model, simulation length, number of replicas, temperature/pressure coupling, or convergence criteria. MMGBSA is an approximate method with known limitations, and the abstract does not report the computed energy values or their uncertainties. The claim that "correlated motion" analyses support the conclusion is vague without specifying which residues or modes are involved.
+  - **Why it matters** MD simulations are only meaningful if they are well-converged and validated against experimental data. Without these details, the reader cannot judge whether the simulations are reliable or whether the MMGBSA results are statistically robust. The mechanistic interpretation hinges on these computational results.
+  - **Resolution test** Provide full simulation protocols, convergence checks (e.g., RMSD plateau, block averaging), MMGBSA energy components with standard errors, and a clear description of the correlated motion analysis. Show that the simulations reproduce the experimentally observed affinity difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that "the β-strand has only a marginal contribution in the YAP:TEAD interaction, but we show here that it significantly enhances the affinity of YAP for the Drosophila homolog of TEAD."
+  - **Evidence pointer** Abstract, introduction and results; prior literature cited but not specified
+  - **Concern** The abstract does not quantify the "significant enhancement" in affinity. It is unclear whether this is a modest (e.g., 2-fold) or large (e.g., 10-fold) effect. The biological relevance of the difference between TEAD and Sd binding is not contextualized. The authors note that "identifying a clear mechanism... proved to be challenging," which suggests the mechanistic basis is not fully resolved.
+  - **Why it matters** The significance of the finding depends on the magnitude of the affinity difference and its potential functional consequences. If the effect is small, the claim of "critical" in the title may be overstated. The lack of a clear mechanism limits the generalizability of the conclusion.
+  - **Resolution test** Report the fold-change in affinity between YAP:TEAD and YAP:Sd, and discuss the potential functional implications in the context of known YAP activity in Drosophila versus mammals. Clarify whether the "critical" designation is supported by the magnitude of the effect.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title states "critical for stronger binding" but the abstract does not provide a quantitative definition of "stronger" or "critical." The term "critical" implies an essential role, which may be stronger than the evidence supports given the acknowledged mechanistic uncertainty.
+  - **Required correction** Consider softening the title to reflect the observed enhancement, e.g., "contributes to stronger binding," unless the quantitative data justify "critical."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The final sentence states that "multiple modest structural changes or fluctuations" may be relevant, but this is presented without any supporting detail. This is a reasonable caveat but leaves the reader without a sense of which changes are most plausible.
+  - **Required correction** Briefly indicate the nature of the candidate changes (e.g., specific residue contacts, backbone dynamics) or refer to a figure or table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Abstract, methods not described
+  - **Issue** The abstract mentions "pre-steady state kinetic measurements" but does not specify the technique (e.g., stopped-flow, surface plasmon resonance) or the labeled species. This is a methodological detail that affects interpretation.
+  - **Required correction** Include the technique name and the specific YAP construct used in the kinetics experiments in the abstract or refer to the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of differential stability and affinity, and the mechanistic role of β-sheet fluctuations, cannot be evaluated without quantitative data and methodological transparency. R1-M3 is not blocking but requires clarification of the magnitude and significance of the effect.
+- **Assessment against Nature-style criteria** 
+  - Originality: The finding that the YAP β-strand contributes differentially to binding across species is a novel observation that challenges the prior assumption of marginal contribution. This is a modest but genuine advance.
+  - Scientific importance: The work is relevant to the Hippo signaling field and to understanding evolutionary differences in YAP-TEAD interactions. However, the abstract does not establish broad significance beyond this niche, and the lack of a clear mechanism limits its impact.
+  - Interdisciplinary readership: The study bridges structural biology, biophysics, and computational biology, which could attract readers from these communities. The Drosophila angle may also interest developmental biologists. However, the abstract is written in a specialized manner that may not be accessible to a general scientific audience.
+  - Technical soundness: Cannot be fully assessed from the abstract. The combination of methods is appropriate, but the absence of quantitative data and simulation details prevents verification of the claims.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with YAP, TEAD, NMR, and MD terminology. It is not written for a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is potentially interesting, but the abstract does not provide sufficient evidence to establish the claims. Full manuscript review would be required to assess the quantitative data and methodological rigor.
+
+## Risk / unsupported claims
+- The claim that the β-strand "significantly enhances" YAP affinity for Sd is unsupported without quantitative Kd or kinetic values.
+- The claim that the β-strand is "more rigid" in the YAP:Sd complex is unsupported without NMR order parameters or relaxation data.
+- The claim that MD simulations are "in line with" experimental findings is unsupported without simulation details and quantitative comparisons.
+- The mechanistic conclusion that "β-sheet fluctuations play a relevant role" in differential affinity is presented as suggestive but is not established from the abstract.
+- The statement that "multiple modest structural changes or fluctuations" may be relevant is speculative and not supported by specific evidence in the abstract.

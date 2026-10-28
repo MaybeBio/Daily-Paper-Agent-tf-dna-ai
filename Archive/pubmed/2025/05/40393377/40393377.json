@@ -1,0 +1,576 @@
+{
+  "identity": {
+    "pmid": "40393377",
+    "doi": "10.1016/j.esmoop.2025.105060",
+    "title": "HR-SC-an academic-developed machine learning framework to classify HRD-positive ovarian cancer patients and predict sensitivity to olaparib."
+  },
+  "content": {
+    "abstract": "BACKGROUND: High-grade serous ovarian cancer (OC) patients with defects in the homologous recombination repair (HRR) pathway benefit from poly (ADP-ribose) polymerase inhibitor (PARPi) maintenance therapy. Clinically approved methods for identifying HRR status suffer from limitations, such as high failure rates and costs, leading to the clinical need for innovative approaches. To this aim, we developed Homologous Recombination Signature Classifier (HR-SC), a machine learning (ML) algorithm that integrates BRCA1/BRCA2 status and copy number signatures, leveraging the availability of OC samples recruited from two international clinical trials, namely PAOLA-1 (dataset A) and MITO16A/MaNGO-OV2 (dataset B). PATIENTS AND METHODS: 569 DNA samples from datasets A and B were sequenced using a custom library design covering a backbone of structural regions and the full-length sequence of 375 genes. Data were used to train, validate (dataset A), and test (dataset B) HR-SC, using BRCA1/BRCA2 status and a compendium of previously annotated copy number signatures. Lastly, HR-SC was compared with already established approaches to evaluate its predictive and prognostic role. RESULTS: In dataset A, where the failure rate was 6.4%, HR-SC showed a sensitivity of 92%, a specificity of 94.73%, an accuracy of 93.18%, a positive predictive value (PPV) of 95.83%, and a negative predictive value (NPV) of 90%. In dataset B, where the failure rate was 4%, HR-SC showed a sensitivity of 90.16%, a specificity of 82.86%, an accuracy of 87.5%, a PPV of 90.16%, and an NPV of 82.86%. Univariate and multivariate survival analyses demonstrated its predictive role [progression-free survival (PFS): hazard ratio (HR) = 0.42, P < 0.0001; overall survival (OS): HR = 0.63, P = 0.036] and its prognostic role (PFS: HR = 0.56, P = 0.0095). CONCLUSIONS: The study demonstrates that HR-SC is a novel, clinically feasible solution with a low failure rate for predicting HRR status in OC patients and underscores the importance of leveraging ML approaches for advancing precision oncology in the era of personalized medicine.",
+    "keywords": [
+      "copy number signatures",
+      "homologous recombination deficiency",
+      "machine learning",
+      "ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Machine Learning",
+      "*Ovarian Neoplasms/drug therapy/genetics/mortality/pathology",
+      "*Phthalazines/therapeutic use/pharmacology",
+      "*Piperazines/therapeutic use/pharmacology",
+      "Poly(ADP-ribose) Polymerase Inhibitors/therapeutic use/pharmacology",
+      "Middle Aged",
+      "*Recombinational DNA Repair",
+      "BRCA1 Protein/genetics",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Beltrame, L",
+        "Mannarino, L",
+        "Sergi, A",
+        "Velle, A",
+        "Treilleux, I",
+        "Pignata, S",
+        "Paracchini, L",
+        "Harter, P",
+        "Scambia, G",
+        "Perrone, F",
+        "Gonzalez-Martin, A",
+        "Berger, R",
+        "Arenare, L",
+        "Hietanen, S",
+        "Califano, D",
+        "Derio, S",
+        "Van Gorp, T",
+        "Dalessandro, M L",
+        "Fujiwara, K",
+        "Provansal, M",
+        "Lorusso, D",
+        "Buderath, P",
+        "Masseroli, M",
+        "Ray-Coquard, I",
+        "Pujade-Lauraine, E",
+        "Romualdi, C",
+        "D'Incalci, M",
+        "Marchini, S"
+      ],
+      "short_names": [
+        "Beltrame L",
+        "Mannarino L",
+        "Sergi A",
+        "Velle A",
+        "Treilleux I",
+        "Pignata S",
+        "Paracchini L",
+        "Harter P",
+        "Scambia G",
+        "Perrone F",
+        "Gonzalez-Martin A",
+        "Berger R",
+        "Arenare L",
+        "Hietanen S",
+        "Califano D",
+        "Derio S",
+        "Van Gorp T",
+        "Dalessandro ML",
+        "Fujiwara K",
+        "Provansal M",
+        "Lorusso D",
+        "Buderath P",
+        "Masseroli M",
+        "Ray-Coquard I",
+        "Pujade-Lauraine E",
+        "Romualdi C",
+        "D'Incalci M",
+        "Marchini S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy.",
+        "Department of Biology, University of Padova, Padova, Italy.",
+        "Biopathology Department, Centre Leon Berard, Lyon, France.",
+        "Department of Urology and Gynecology, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy.",
+        "Department of Gynecology & Gynecologic Oncology, Evang. Kliniken Essen-Mitte, Essen, Germany.",
+        "Scientific Directorate, Fondazione Policlinico Universitario A Gemelli IRCCS, Rome, Italy; Catholic University of Sacred Heart, Rome, Italy.",
+        "Clinical Trial Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy.",
+        "Clinica Universidad de Navarra, Madrid, Spain; Spanish Ovarian Cancer Research Group (GEICO), Madrid, Spain.",
+        "Department of Obstetrics and Gynecology, Medical University Innsbruck, Innsbruck, Austria; AGO Austria Study Center, Vienna, Austria.",
+        "Clinical Trial Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy.",
+        "Turku University Hospital, Turku, Finland; Nordic Society of Gynaecological Oncology (NSGO-CTU), Copenhagen, Denmark.",
+        "Microenvironment Molecular Targets Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy.",
+        "Instituto Europeo di Oncologia, Milan, Italy; Mario Negri Gynecologic Oncology (MaNGO) Group, Milan, Italy.",
+        "University Hospital of Leuven, Leuven Cancer Institute, Leuven, Belgium; Belgium and Luxemburg Gynaecological Oncology Group (BGOG), Leuven, Belgium.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy.",
+        "Saitama Medical University International Medical Center, Hidaka, Japan; Gynaecological Oncology Trial and Investigation Consortium (GOTIC), Saitama, Japan.",
+        "Institut Paoli Calmettes, Marseille, France; Groupe d'Investigateurs Nationaux Pour l'Etude des Cancers Ovariens (GINECO), Paris, France.",
+        "Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy; Gynaecological Oncology Unit, Humanitas Hospital San Pio X, Milan, Italy.",
+        "Universitatsklinikum Essen, Frauenklinik, Essen, Germany.",
+        "Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy.",
+        "Groupe d'Investigateurs Nationaux Pour l'Etude des Cancers Ovariens (GINECO), Paris, France; Centre Leon Berard, Lyon, France; University Claude Bernard Lyon I, Lyon, France.",
+        "ARCAGY Research, Paris, France.",
+        "Department of Biology, University of Padova, Padova, Italy.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy. Electronic address: maurizio.dincalci@hunimed.eu.",
+        "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Beltrame, L",
+        "short_name": "Beltrame L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy."
+        ]
+      },
+      {
+        "full_name": "Mannarino, L",
+        "short_name": "Mannarino L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy."
+        ]
+      },
+      {
+        "full_name": "Sergi, A",
+        "short_name": "Sergi A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Velle, A",
+        "short_name": "Velle A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Treilleux, I",
+        "short_name": "Treilleux I",
+        "identifiers": [],
+        "affiliations": [
+          "Biopathology Department, Centre Léon Bérard, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Pignata, S",
+        "short_name": "Pignata S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology and Gynecology, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Paracchini, L",
+        "short_name": "Paracchini L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy."
+        ]
+      },
+      {
+        "full_name": "Harter, P",
+        "short_name": "Harter P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology & Gynecologic Oncology, Evang. Kliniken Essen-Mitte, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Scambia, G",
+        "short_name": "Scambia G",
+        "identifiers": [],
+        "affiliations": [
+          "Scientific Directorate, Fondazione Policlinico Universitario A Gemelli IRCCS, Rome, Italy; Catholic University of Sacred Heart, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Perrone, F",
+        "short_name": "Perrone F",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Trial Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "González-Martin, A",
+        "short_name": "González-Martin A",
+        "identifiers": [],
+        "affiliations": [
+          "Clínica Universidad de Navarra, Madrid, Spain; Spanish Ovarian Cancer Research Group (GEICO), Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Berger, R",
+        "short_name": "Berger R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Medical University Innsbruck, Innsbruck, Austria; AGO Austria Study Center, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Arenare, L",
+        "short_name": "Arenare L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Trial Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Hietanen, S",
+        "short_name": "Hietanen S",
+        "identifiers": [],
+        "affiliations": [
+          "Turku University Hospital, Turku, Finland; Nordic Society of Gynaecological Oncology (NSGO-CTU), Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Califano, D",
+        "short_name": "Califano D",
+        "identifiers": [],
+        "affiliations": [
+          "Microenvironment Molecular Targets Unit, Istituto Nazionale Tumori IRCCS Fondazione G Pascale, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Derio, S",
+        "short_name": "Derio S",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Europeo di Oncologia, Milan, Italy; Mario Negri Gynecologic Oncology (MaNGO) Group, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Van Gorp, T",
+        "short_name": "Van Gorp T",
+        "identifiers": [],
+        "affiliations": [
+          "University Hospital of Leuven, Leuven Cancer Institute, Leuven, Belgium; Belgium and Luxemburg Gynaecological Oncology Group (BGOG), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dalessandro, M L",
+        "short_name": "Dalessandro ML",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy."
+        ]
+      },
+      {
+        "full_name": "Fujiwara, K",
+        "short_name": "Fujiwara K",
+        "identifiers": [],
+        "affiliations": [
+          "Saitama Medical University International Medical Center, Hidaka, Japan; Gynaecological Oncology Trial and Investigation Consortium (GOTIC), Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Provansal, M",
+        "short_name": "Provansal M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Paoli Calmettes, Marseille, France; Groupe d'Investigateurs Nationaux Pour l'Etude des Cancers Ovariens (GINECO), Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lorusso, D",
+        "short_name": "Lorusso D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy; Gynaecological Oncology Unit, Humanitas Hospital San Pio X, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Buderath, P",
+        "short_name": "Buderath P",
+        "identifiers": [],
+        "affiliations": [
+          "Universitätsklinikum Essen, Frauenklinik, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Masseroli, M",
+        "short_name": "Masseroli M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ray-Coquard, I",
+        "short_name": "Ray-Coquard I",
+        "identifiers": [],
+        "affiliations": [
+          "Groupe d'Investigateurs Nationaux Pour l'Etude des Cancers Ovariens (GINECO), Paris, France; Centre Léon Bérard, Lyon, France; University Claude Bernard Lyon I, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Pujade-Lauraine, E",
+        "short_name": "Pujade-Lauraine E",
+        "identifiers": [],
+        "affiliations": [
+          "ARCAGY Research, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Romualdi, C",
+        "short_name": "Romualdi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Incalci, M",
+        "short_name": "D'Incalci M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy; Department of Biomedical Sciences, Humanitas University, Pieve Emanuele, Italy. Electronic address: maurizio.dincalci@hunimed.eu."
+        ]
+      },
+      {
+        "full_name": "Marchini, S",
+        "short_name": "Marchini S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pharmacology, IRCCS Humanitas Research Hospital, Rozzano, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ESMO open"
+    ],
+    "journal_abbrev": [
+      "ESMO Open"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/21 00:29",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "41772736",
+      "41703397",
+      "41692895"
+    ],
+    "refs": [
+      "39754985",
+      "38244928",
+      "37919776",
+      "37605126",
+      "36806386",
+      "36716415",
+      "36652375",
+      "36388765",
+      "36156447",
+      "35705804",
+      "35658487",
+      "35425960",
+      "33931498",
+      "32807987",
+      "32607472",
+      "32025013",
+      "31851799",
+      "31562799",
+      "30345884",
+      "30104763",
+      "28882436",
+      "27165744",
+      "25155756",
+      "24048066",
+      "20598126"
+    ],
+    "similar": [
+      "40393377",
+      "29054544",
+      "32005272",
+      "40601896",
+      "39252459",
+      "40823818",
+      "33032822",
+      "39187844",
+      "35599167",
+      "40138020",
+      "34952708",
+      "27065456",
+      "33012552",
+      "39817648",
+      "32980128",
+      "39742559",
+      "40300425",
+      "32967790",
+      "33867143",
+      "36716415",
+      "37211773",
+      "40174507",
+      "39769312",
+      "39695768",
+      "31409614",
+      "26931795",
+      "27617661",
+      "28221868",
+      "41323499",
+      "38589490",
+      "27487106",
+      "37769224",
+      "37211045",
+      "40344964",
+      "29567272",
+      "40097725",
+      "38592722",
+      "28454085",
+      "38967864",
+      "33236159",
+      "40513287",
+      "34742344",
+      "37756555",
+      "38797038",
+      "34732853",
+      "28223274",
+      "34715071",
+      "40597907",
+      "31553234",
+      "24631446",
+      "38851712",
+      "40775791",
+      "39408764",
+      "31534014",
+      "27022037",
+      "39594596",
+      "36563604",
+      "23666017",
+      "29867226",
+      "28508305",
+      "26899229",
+      "36805632",
+      "40929787",
+      "31219654",
+      "32749942",
+      "35952757",
+      "31409613",
+      "30540581",
+      "39591206",
+      "41465250",
+      "27062051",
+      "40244633",
+      "37097611",
+      "39178525",
+      "30342021",
+      "32796232",
+      "20406929",
+      "27444036",
+      "33352723",
+      "37245441",
+      "35550005",
+      "39503786",
+      "28754483",
+      "36156447",
+      "29283581",
+      "26169965",
+      "35661486",
+      "30345884",
+      "38965423",
+      "27115428",
+      "39923681",
+      "32852746",
+      "38374229",
+      "33119476",
+      "31227342",
+      "35425960",
+      "37973845",
+      "29750868",
+      "37143137",
+      "37048111"
+    ],
+    "review": [
+      "40393377",
+      "29054544",
+      "27065456",
+      "33012552",
+      "32967790",
+      "37211773",
+      "26931795",
+      "27487106",
+      "38851712",
+      "27022037",
+      "36563604",
+      "29867226",
+      "28508305",
+      "26899229",
+      "30540581",
+      "32796232",
+      "35550005",
+      "26169965",
+      "27115428"
+    ],
+    "pmc": [
+      "12148384"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2059-7029(25)00929-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40393377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2059-7029(25)00929-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://urn.fi/URN:NBN:fi-fe2025082788161",
+        "provider": "Research Portal of the University of Turku",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

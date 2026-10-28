@@ -1,0 +1,152 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.09.507333",
+  "title": "Accurate prediction of nucleic acid and protein-nucleic acid complexes using RoseTTAFoldNA",
+  "doi": "10.1101/2022.09.09.507333",
+  "abstract": "Protein-nucleic acid complexes play critical roles in biology. Despite considerable recent advances in protein structure prediction, the prediction of the structures of protein-nucleic acid complexes without homology to known complexes is a largely unsolved problem. Here we extend the RoseTTAFold end-to-end deep learning approach to modeling of nucleic acid and protein-nucleic acid complexes. We develop a single trained network, RoseTTAFoldNA, that rapidly produces 3D structure models with confidence estimates for protein-DNA and protein-RNA complexes, and for RNA tertiary structures. In all three cases, confident predictions have considerably higher accuracy than current state of the art methods. RoseTTAFoldNA should be broadly useful for modeling the structure of naturally occurring protein-nucleic acid complexes, and for designing sequence specific RNA and DNA binding proteins.",
+  "authors": [
+    "Baek M",
+    "McHugh R",
+    "Anishchenko I",
+    "Baker D",
+    "DiMaio F"
+  ],
+  "published_date": "2022-09-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.09.507333",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.09.507333.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR542915",
+    "raw_record": {
+      "id": "PPR542915",
+      "source": "PPR",
+      "doi": "10.1101/2022.09.09.507333",
+      "title": "Accurate prediction of nucleic acid and protein-nucleic acid complexes using RoseTTAFoldNA",
+      "authorString": "Baek M, McHugh R, Anishchenko I, Baker D, DiMaio F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Baek M",
+            "lastName": "Baek",
+            "firstName": "Minkyung",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3414-9404"
+            }
+          },
+          {
+            "fullName": "McHugh R",
+            "lastName": "McHugh",
+            "firstName": "Ryan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0291-2196"
+            }
+          },
+          {
+            "fullName": "Anishchenko I",
+            "lastName": "Anishchenko",
+            "firstName": "Ivan",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3645-2044"
+            }
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "DiMaio F",
+            "lastName": "DiMaio",
+            "firstName": "Frank",
+            "initials": "F"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0291-2196"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3414-9404"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3645-2044"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Protein-nucleic acid complexes play critical roles in biology. Despite considerable recent advances in protein structure prediction, the prediction of the structures of protein-nucleic acid complexes without homology to known complexes is a largely unsolved problem. Here we extend the RoseTTAFold end-to-end deep learning approach to modeling of nucleic acid and protein-nucleic acid complexes. We develop a single trained network, RoseTTAFoldNA, that rapidly produces 3D structure models with confidence estimates for protein-DNA and protein-RNA complexes, and for RNA tertiary structures. In all three cases, confident predictions have considerably higher accuracy than current state of the art methods. RoseTTAFoldNA should be broadly useful for modeling the structure of naturally occurring protein-nucleic acid complexes, and for designing sequence specific RNA and DNA binding proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/10/2022.09.09.507333.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.09.507333"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 24,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-12",
+      "firstPublicationDate": "2022-09-10",
+      "firstIndexDate": "2022-09-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

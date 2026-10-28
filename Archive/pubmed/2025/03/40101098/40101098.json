@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "40101098",
+    "doi": "10.1097/MD.0000000000041793",
+    "title": "Elucidating the multi-target pharmacological mechanism of Xiaoyandina for the treatment of hepatitis C virus based on bioinformatics and cyberpharmacology studies."
+  },
+  "content": {
+    "abstract": "An estimated 170 million people worldwide suffer from chronic hepatitis C virus (HCV) infection, which is the main reason for liver transplantation in numerous nations. Traditional Chinese medicine is also frequently employed in medicine to treat HCV. Xiaoyandina is frequently employed in traditional medicine, and which has traditionally been used to cure acute and chronic hepatitis, jaundice, acute and chronic cholecystitis, and acute and chronic cholangitis. The information related to active compounds was retrieved from public databases and through literature review which was later combined with differentially expressed genes obtained through microarray datasets; a compound-target genes-disease network was constructed which uncovered that Kaempferol, Sesamin, and Quercetin decisively contributed to the cell growth and proliferation by affecting STAT1, interleukin-6, and CXCL10 proteins. The molecular docking and molecular dynamics simulation of 50 ns well complemented the binding affinity of the compound and revealed strong stability of predicted compounds at the docked site. In total, compound targets were obtained separately from Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform. And 27, 10,894, 6, and 20 disease targets were acquired separately based on OMIM, GeneCard, DrugBank, and PharmGkb databases. Then, we constructed the compound-target network and protein-protein interaction network. Three hundred ninety-four differentially expressed genes were observed (231 up-regulated and 163 downregulated genes). Hub genes were screened through survival analysis, including interleukin-6, STAT1, and CXCL10. Finally, molecular docking and molecular dynamics analysis results showed more stable binding between 3 hub genes and the 2 most active compounds Kaempferol and Quercetin. Our research suggests a novel scientific approach for evaluating the multi-component, multi-target impact of XYDN's active compounds. The present investigation suggested Quercetin, Kaempferol, and Sesamin as possible HCV treatments by combining bioinformatics techniques and network pharmacology. But the findings were not validated in actual patients, so further investigation is needed to confirm the potential use of XYDN towards HCV.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Computational Biology/methods",
+      "Kaempferols/pharmacology",
+      "*Antiviral Agents/pharmacology",
+      "Lignans/pharmacology",
+      "STAT1 Transcription Factor/metabolism/genetics",
+      "Interleukin-6/metabolism",
+      "*Hepacivirus/drug effects",
+      "Chemokine CXCL10/metabolism/genetics",
+      "Quercetin/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Medicine, Chinese Traditional",
+      "Network Pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dilimulati, Dilihuma",
+        "Nueraihemaiti, Nuerbiye",
+        "Hailati, Sendaer",
+        "Han, Mengyuan",
+        "Abudurousuli, Kayisaier",
+        "Maihemuti, Nulibiya",
+        "Baishan, Alhar",
+        "Aikebaier, Alfira",
+        "Abulizi, Maidina",
+        "Zhou, Wenting"
+      ],
+      "short_names": [
+        "Dilimulati D",
+        "Nueraihemaiti N",
+        "Hailati S",
+        "Han M",
+        "Abudurousuli K",
+        "Maihemuti N",
+        "Baishan A",
+        "Aikebaier A",
+        "Abulizi M",
+        "Zhou W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2610-7634"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+        "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dilimulati, Dilihuma",
+        "short_name": "Dilimulati D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Nueraihemaiti, Nuerbiye",
+        "short_name": "Nueraihemaiti N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Hailati, Sendaer",
+        "short_name": "Hailati S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Han, Mengyuan",
+        "short_name": "Han M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Abudurousuli, Kayisaier",
+        "short_name": "Abudurousuli K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Maihemuti, Nulibiya",
+        "short_name": "Maihemuti N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Baishan, Alhar",
+        "short_name": "Baishan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Aikebaier, Alfira",
+        "short_name": "Aikebaier A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Abulizi, Maidina",
+        "short_name": "Abulizi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wenting",
+        "short_name": "Zhou W",
+        "identifiers": [
+          "0000-0003-2610-7634"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi, Xinjiang, P.R. China.",
+          "Xinjiang Key Laboratory of Active Components and Drug Release Technology of Natural Medicines, Urumqi, Xinjiang, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi, Xinjiang, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi, Xinjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Mar 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/18 18:22",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39599853",
+      "39535186",
+      "39505253",
+      "39485830",
+      "37734644",
+      "37513186",
+      "36530568",
+      "35669282",
+      "34586825",
+      "33374457",
+      "32871904",
+      "30668320",
+      "30371825",
+      "29693039",
+      "28805687",
+      "27899567",
+      "27716962",
+      "27513212",
+      "26251470",
+      "25536641",
+      "24720680",
+      "24557493",
+      "24391846",
+      "23836235",
+      "23770038",
+      "23748342",
+      "22996399",
+      "22837674",
+      "22715214",
+      "22715208",
+      "22511949",
+      "22455463",
+      "21982300",
+      "21866249",
+      "20565573",
+      "19848607",
+      "19399780",
+      "19345260",
+      "19177577",
+      "19084927",
+      "18956976",
+      "17724128",
+      "16378988",
+      "16306605",
+      "14699505",
+      "11922947",
+      "10592235",
+      "9847135"
+    ],
+    "similar": [
+      "40101098",
+      "37115092",
+      "39310787",
+      "34693792",
+      "35837376",
+      "39869574",
+      "37960775",
+      "36246566",
+      "37244150",
+      "37293382",
+      "34660782",
+      "40725914",
+      "38215128",
+      "36637916",
+      "36157206",
+      "34746302",
+      "37287284",
+      "40922365",
+      "39287271",
+      "41367024",
+      "36288951",
+      "41121643",
+      "38109076",
+      "38403948",
+      "37233418",
+      "37682164",
+      "39465738",
+      "39933661",
+      "36267846",
+      "36472040",
+      "38050220",
+      "40676786",
+      "35130311",
+      "36213575",
+      "36044117",
+      "33191068",
+      "34618179",
+      "38213248",
+      "37957903",
+      "38728503",
+      "36094770",
+      "35227178",
+      "38696100",
+      "36596057",
+      "37391801",
+      "41045823",
+      "39993869",
+      "40035402",
+      "37807411",
+      "41029129",
+      "38648716",
+      "38167125",
+      "37880698",
+      "38363936",
+      "35616676",
+      "37986389",
+      "34349502",
+      "35135448",
+      "38170849",
+      "38376772",
+      "35430443",
+      "37478256",
+      "33134394",
+      "39612422",
+      "40526272",
+      "35164341",
+      "32846191",
+      "40468932",
+      "34951253",
+      "40098117",
+      "38024534",
+      "33743701",
+      "35438554",
+      "39410900",
+      "34733451",
+      "37565873",
+      "38701256",
+      "33251769",
+      "40004956",
+      "33376732",
+      "39312335",
+      "39832077",
+      "38910482",
+      "34839256",
+      "36003311",
+      "38630770",
+      "41031039",
+      "39066538",
+      "40500380",
+      "36550856",
+      "34353059",
+      "38958647",
+      "40237055",
+      "37574795",
+      "34605344",
+      "38888753",
+      "37499457",
+      "39343107",
+      "36049411",
+      "33513419"
+    ],
+    "review": [
+      "40101098",
+      "39287271",
+      "38050220",
+      "38363936"
+    ],
+    "pmc": [
+      "11922434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40101098.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40101098/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000041793",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

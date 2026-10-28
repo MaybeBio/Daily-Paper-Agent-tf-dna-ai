@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "38641451",
+    "doi": "10.1016/j.acra.2024.03.035",
+    "title": "Develop and Validate a Nomogram Combining Contrast-Enhanced Spectral Mammography Deep Learning with Clinical-Pathological Features to Predict Neoadjuvant Chemotherapy Response in Patients with ER-Positive/HER2-Negative Breast Cancer."
+  },
+  "content": {
+    "abstract": "RATIONALE AND OBJECTIVES: To develop and validate a nomogram that combines contrast-enhanced spectral mammography (CESM) deep learning with clinical-pathological features to predict neoadjuvant chemotherapy (NAC) response (either low Miller Payne (MP-L) grades 1-2 or high MP (MP-H) grades 3-5) in patients with ER-positive/HER2-negative breast cancer. MATERIALS AND METHODS: In this retrospective study, 265 breast cancer patients were randomly allocated into training and test sets (used for models training and testing, respectively) at a 4:1 ratio. Deep learning models, based on the pre-trained ResNet34 model and initially fine-tuned for identifying breast cancer, were trained using low-energy and subtracted CESM images. The predicted results served as deep learning features for the deep learning-based model. Clinical-pathological features, including age, progesterone receptor (PR) status, estrogen receptor (ER) status, Ki67 expression levels, and neutrophil-to-lymphocyte ratio, were used for the clinical model. All these features contributed to the nomogram. Feature selection was performed through univariate analysis. Logistic regression models were developed and chosen using a stepwise selection method. The deep learning-based and clinical models, along with the nomogram, were evaluated using precision-recall curves, receiver operating characteristic (ROC) curves, specificity, recall, accuracy, negative predictive value, positive predictive value (PPV), balanced accuracy, F1-score, and decision curve analysis (DCA). RESULTS: The nomogram demonstrated considerable predictive ability, with higher area under the ROC curve (0.95, P < 0.05), accuracy (0.94), specificity (0.98), PPV (0.89), and precision (0.89) compared to the deep learning-based and clinical models. In DCA, the nomogram showed substantial clinical value in assisting breast cancer treatment decisions, exhibiting a higher net benefit than the other models. CONCLUSION: The nomogram, integrating CESM deep learning with clinical-pathological features, proved valuable for predicting NAC response in patients with ER-positive/HER2-negative breast cancer. Nomogram outperformed deep learning-based and clinical models.",
+    "keywords": [
+      "Contrast-enhanced spectral mammography",
+      "Estrogen receptor",
+      "Human epidermal growth factor receptor-2",
+      "Neoadjuvant chemotherapy",
+      "Pathological complete response",
+      "Progesterone receptor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/drug therapy/pathology/metabolism",
+      "*Nomograms",
+      "*Neoadjuvant Therapy",
+      "Middle Aged",
+      "Retrospective Studies",
+      "*Mammography/methods",
+      "*Contrast Media",
+      "Adult",
+      "*Receptors, Estrogen/metabolism",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Aged",
+      "Chemotherapy, Adjuvant"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xing, Dong",
+        "Lv, Yongbin",
+        "Sun, Bolin",
+        "Chu, Tongpeng",
+        "Bao, Qianhao",
+        "Zhang, Han"
+      ],
+      "short_names": [
+        "Xing D",
+        "Lv Y",
+        "Sun B",
+        "Chu T",
+        "Bao Q",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China.",
+        "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China.",
+        "Department of Interventional Therapy, Yantai Yuhuangding Hospital, Yantai, Shandong 264000, China.",
+        "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China; Big Data and Artificial Intelligence Lab, Yantai Yuhuangding Hospital, Yantai, Shandong 264000, China.",
+        "Shandong University of Traditional Chinese Medicine, Jinan, Shandong 250300, China.",
+        "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China. Electronic address: han_medical1@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xing, Dong",
+        "short_name": "Xing D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China."
+        ]
+      },
+      {
+        "full_name": "Lv, Yongbin",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China."
+        ]
+      },
+      {
+        "full_name": "Sun, Bolin",
+        "short_name": "Sun B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Therapy, Yantai Yuhuangding Hospital, Yantai, Shandong 264000, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Tongpeng",
+        "short_name": "Chu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China; Big Data and Artificial Intelligence Lab, Yantai Yuhuangding Hospital, Yantai, Shandong 264000, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Qianhao",
+        "short_name": "Bao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, Jinan, Shandong 250300, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Han",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology,Yantai Yuhuangding Hospital, Yantai, Shandong 264000 China. Electronic address: han_medical1@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Academic radiology"
+    ],
+    "journal_abbrev": [
+      "Acad Radiol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/20 00:44",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "41781761",
+      "41590926",
+      "41226009",
+      "41154441",
+      "40313551",
+      "39335187"
+    ],
+    "refs": [],
+    "similar": [
+      "38641451",
+      "37321954",
+      "35094119",
+      "36175898",
+      "37066960",
+      "38796795",
+      "33639324",
+      "39924532",
+      "39183131",
+      "27216742",
+      "39116570",
+      "40277751",
+      "27495967",
+      "35066632",
+      "40279920",
+      "38368871",
+      "39954110",
+      "38131531",
+      "36005646",
+      "40016785",
+      "39107190",
+      "39271381",
+      "29898762",
+      "39923208",
+      "31054583",
+      "39406583",
+      "27576704",
+      "34043821",
+      "35093083",
+      "38383259",
+      "33692950",
+      "39289097",
+      "29956095",
+      "36060977",
+      "31944571",
+      "38864243",
+      "38815444",
+      "38631535",
+      "27495815",
+      "32607630",
+      "32710664",
+      "33198673",
+      "34888900",
+      "38245712",
+      "26107211",
+      "38151381",
+      "39232268",
+      "33878939",
+      "38273267",
+      "32502940",
+      "39348079",
+      "30384581",
+      "38580573",
+      "40143808",
+      "28893303",
+      "36790871",
+      "35108228",
+      "32205278",
+      "23890870",
+      "31519449",
+      "34767068",
+      "37129606",
+      "29564743",
+      "40116474",
+      "36351312",
+      "39250898",
+      "28560596",
+      "32713825",
+      "25150151",
+      "23374644",
+      "39257175",
+      "39643475",
+      "27807808",
+      "30206035",
+      "34994603",
+      "23504954",
+      "39742361",
+      "25012266",
+      "32556920",
+      "38742356",
+      "38744585",
+      "28843513",
+      "21947592",
+      "23098527",
+      "23771556",
+      "28081544",
+      "38850180",
+      "33754824",
+      "40232145",
+      "34873249",
+      "38703971",
+      "31907749",
+      "23327900",
+      "33451965",
+      "33213397",
+      "31300338",
+      "35364712",
+      "38097466",
+      "39870667",
+      "19685074"
+    ],
+    "review": [
+      "38641451"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1076-6332(24)00200-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mammography.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Mammography"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1076-6332(24)00200-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.12073v1",
+  "title": "A Multi-Label Temporal Convolutional Framework for Transcription Factor Binding Characterization",
+  "authors": "Pietro Demurtas; Ferdinando Zanchetta; Giovanni Perini; Rita Fioresi",
+  "journal": "",
+  "published_date": "2026-03-12",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出多标签时序卷积框架预测多个转录因子的DNA结合位点，捕捉TF协同结合模式，核心聚焦TF-DNA互作且采用深度学习方法，高度匹配课题。",
+  "abstract": "Transcription factors (TFs) regulate gene expression through complex and co-operative mechanisms. While many TFs act together, the logic underlying TFs binding and their interactions is not fully understood yet. Most current approaches for TF binding site prediction focus on individual TFs and binary classification tasks, without a full analysis of the possible interactions among various TFs. In this paper we investigate DNA TF binding site recognition as a multi-label classification problem, achieving reliable predictions for multiple TFs on DNA sequences retrieved in public repositories. Our deep learning models are based on Temporal Convolutional Networks (TCNs), which are able to predict multiple TF binding profiles, capturing correlations among TFs andtheir cooperative regulatory mechanisms. Our results suggest that multi-label learning leading to reliable predictive performances can reveal biologically meaningful motifs and co-binding patterns consistent with known TF interactions, while also suggesting novel relationships and cooperation among TFs.",
+  "abstract_zh": "转录因子（TFs）通过复杂且协同的机制调控基因表达。尽管许多转录因子共同作用，但转录因子结合及其相互作用的底层逻辑尚未完全明了。目前大多数转录因子结合位点预测方法侧重于单个转录因子及二元分类任务，未全面分析不同转录因子间可能的相互作用。本文中，我们将DNA转录因子结合位点识别视为多标签分类问题，在公共数据库中检索到的DNA序列上实现了对多个转录因子的可靠预测。我们的深度学习模型基于时间卷积网络（TCNs），能够预测多个转录因子的结合谱，捕捉转录因子间的相关性及其协同调控机制。我们的结果表明，多标签学习能够带来可靠的预测性能，揭示与已知转录因子相互作用一致的生物学意义基序和共结合模式，同时提出转录因子间的新关系与合作。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.12073v1",
+  "source_url": "https://arxiv.org/abs/2603.12073v1",
+  "paper_page_path": "papers/arxiv/2603.12073v1/index.html"
+}

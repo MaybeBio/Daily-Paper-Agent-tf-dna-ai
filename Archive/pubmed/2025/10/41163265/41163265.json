@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41163265",
+    "doi": "10.2174/0109298673422926251009064453",
+    "title": "Identification of Potential Biomarkers and Drugs for Papillary Thyroid Carcinoma Using Computational Analysis and Molecular Docking."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Papillary thyroid carcinoma (PTC), the most common thyroid malignancy, presents with multiple variants. This study aimed to identify potential biomarkers and therapeutic candidates for PTC through computational analyses and molecular docking. METHODS: Gene expression data related to PTC were obtained from the TCGA-THCA and GEO datasets (GSE35570 and GSE33630) to identify differentially expressed genes (DEGs). Functional enrichment analysis was performed on the DEGs, followed by construction of a protein-protein interaction (PPI) network. Hub genes were identified using recursive feature elimination (RFE) and LASSO regression analyses. A nomogram incorporating these hub genes was developed, and its diagnostic performance was evaluated using receiver operating characteristic (ROC) curves. Furthermore, the relationship between hub genes and immune cell infiltration was investigated. Potential drug candidates targeting the hub genes were predicted and validated through molecular docking. RESULTS: Common DEGs across the three datasets were enriched in pathways such as ECM-receptor interaction, proteoglycans in cancer, and cell adhesion molecules. Significantly enriched GO terms included 'binding,' 'receptor activity,' 'integral component of membrane,' 'cytoplasm,' 'cell adhesion,' and 'immune response.' A PPI network was constructed by intersecting the common DEGs with PTC-related targets. Machine learning algorithms identified three hub genes: SRY-box transcription factor 4 (SOX4), cyclin D1 (CCND1), and lymphatic vessel endothelial hyaluronan receptor 1 (LYVE1). These hub genes exhibited differential expression in PTC and were used to construct a reliable diagnostic model. Furthermore, molecular docking revealed stable binding between CCND1 and Tipifarnib, suggesting potential therapeutic relevance. DISCUSSION: While previous studies have applied bioinformatics and molecular docking in PTC research, this study uniquely integrates both approaches to identify the hub gene CCND1 and its potential targeting drug, Tipifarnib, as promising molecular markers and therapeutic candidates for PTC. CONCLUSION: The hub gene CCND1 and its targeting drug candidate Tipifarnib may contribute to PTC treatment.",
+    "keywords": [
+      "Computational analysis",
+      "cyclin D1",
+      "differentially expressed genes",
+      "molecular docking",
+      "papillary thyroid carcinoma",
+      "tipifarnib"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Thyroid Neoplasms/drug therapy/genetics/metabolism",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Protein Interaction Maps",
+      "*Thyroid Cancer, Papillary/drug therapy/genetics/metabolism",
+      "*Antineoplastic Agents/chemistry/therapeutic use/pharmacology",
+      "Computational Biology",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tiantian",
+        "Tan, Jiejun",
+        "Bi, Zheng",
+        "Ma, Limei",
+        "Wang, Sihai",
+        "Zhang, Fuli",
+        "Fang, Zhaohui"
+      ],
+      "short_names": [
+        "Wang T",
+        "Tan J",
+        "Bi Z",
+        "Ma L",
+        "Wang S",
+        "Zhang F",
+        "Fang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate School, Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of Dermatology, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China.",
+        "Integrative Medicine Department, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Integrative Medicine Department, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Integrative Medicine Department, Heilongjiang University of Chinese Medicine, Harbin, 150040, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tiantian",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Anhui University of Chinese Medicine, Hefei, 230038, China.",
+          "Department of Dermatology, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jiejun",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Medicine Department, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Zheng",
+        "short_name": "Bi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Limei",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Medicine Department, Bengbu Third People's Hospital Affiliated to Bengbu Medical University, Bengbu, 233030, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sihai",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fuli",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Medicine Department, Heilongjiang University of Chinese Medicine, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Zhaohui",
+        "short_name": "Fang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 06:29",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41163265",
+      "42700077",
+      "33554894",
+      "38676768",
+      "38971817",
+      "39400774",
+      "31842912",
+      "41646983",
+      "39510033",
+      "29625265",
+      "36635603",
+      "42719128",
+      "40997906",
+      "35185791",
+      "41851690",
+      "39113023",
+      "34315405",
+      "41872824",
+      "34245428",
+      "42278407",
+      "38144565",
+      "27779685",
+      "41533020",
+      "36445679",
+      "41288681",
+      "41789084",
+      "39139563",
+      "34522174",
+      "42698445",
+      "30816528",
+      "32337286",
+      "40095160",
+      "40328901",
+      "37671970",
+      "36120433",
+      "40406126",
+      "31332712",
+      "32766727",
+      "37859510",
+      "40454923",
+      "42327749",
+      "40860289",
+      "34115774",
+      "37324256",
+      "38387682",
+      "34167437",
+      "31987036",
+      "35713363",
+      "33708546",
+      "37776011",
+      "42296777",
+      "40265430",
+      "39351221",
+      "40977739",
+      "34218797",
+      "35068400",
+      "40473526",
+      "42348043",
+      "41969483",
+      "34756116",
+      "41465972",
+      "33155892",
+      "41548166",
+      "41957879",
+      "26756467",
+      "41863100",
+      "41656803",
+      "30472204",
+      "32299435",
+      "42292668",
+      "40651298",
+      "33521130",
+      "30414611",
+      "27250077",
+      "41703488",
+      "40836320",
+      "34800440",
+      "41511918",
+      "42599654",
+      "39855613",
+      "41508240",
+      "39375405",
+      "32922167",
+      "41316541",
+      "40355485",
+      "41146237",
+      "34693452",
+      "38987624",
+      "42486346",
+      "42509823",
+      "38146045",
+      "41388523",
+      "30614796",
+      "30872410",
+      "40843941",
+      "33345267",
+      "29520684",
+      "41271882",
+      "33025856",
+      "41052072"
+    ],
+    "review": [
+      "41163265",
+      "37859510"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-679",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/246675/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

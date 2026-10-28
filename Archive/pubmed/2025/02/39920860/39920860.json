@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39920860",
+    "doi": "10.1186/s40001-025-02297-w",
+    "title": "Bioinformatics insights into mitochondrial and immune gene regulation in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: There is growing evidence that the pathogenesis of Alzheimer's disease is closely linked to the resident innate immune cells of the central nervous system, including microglia and astrocytes. Mitochondrial dysfunction in microglia has also been reported to play an essential role in the pathogenesis of AD and other neurological diseases. Therefore, finding the mitochondrial and immune-related gene (MIRG) signatures in AD can be significant in diagnosing and treating AD. METHODS: In this study, the intersection of the differentially expressed genes (DEGs) from the GSE109887 cohort, immune-related genes (IRGs) obtained from WGCNA analysis, and mitochondria-related genes (MRGs) was taken to identify mitochondria-immune-related genes (MIRGs). Then, using machine learning algorithms, biomarkers with good diagnostic value were selected, and a nomogram was constructed. Subsequently, we further analyzed the signaling pathways and potential biological mechanisms of the biomarkers through gene set enrichment analysis, prediction of transcription factors (TFs), miRNAs, and drug prediction. RESULTS: Using machine learning algorithms, five biomarkers (TSPO, HIGD1A, NDUFAB1, NT5DC3, and MRPS30) were successfully identified, and a nomogram model with strong diagnostic ability and accuracy (AUC > 0.9) was constructed. In addition, single-gene enrichment analysis revealed that NDUFAB1 was significantly enriched in pathways associated with diseases, such as Alzheimer's and Parkinson's, providing valuable insights for future clinical research on Alzheimer's in the context of mitochondrial-immune interactions. Interestingly, brain tissue pathology showed neuronal atrophy and demyelination in AD mice, along with a reduction in Nissl bodies. Furthermore, the escape latency of AD mice was significantly longer than that of the control group. After platform removal, there was a notable increase in the path complexity and time required to reach the target quadrant, suggesting a reduction in spatial memory capacity in AD mice. Moreover, qRT-PCR validation confirmed that the mRNA expression of the five biomarkers was consistent with bioinformatics results. In AD mice, TSPO expression was increased, while HIGD1A, NDUFAB1, NT5DC3, and MRPS30 expressions were decreased. However, peripheral blood samples did not show expression of HIGD1A or MRPS30. These findings provide new insights for research on Alzheimer's disease in the context of mitochondrial-immune interactions, further exploring the pathogenesis of Alzheimer's disease and offering new perspectives for the clinical development of novel drugs. CONCLUSIONS: Five mitochondrial and immune biomarkers, i.e., TSPO, HIGD1A, NDUFAB1, NT5DC3, and MRPS30, with diagnostic value in Alzheimer's disease, were screened by machine-learning algorithmic models, which will be a guide for future clinical research of Alzheimer's disease in the mitochondria-immunity-related direction.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Bioinformatics analysis",
+      "Biomarkers",
+      "Immune",
+      "Mitochondrial dysfunction"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/immunology",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Mitochondria/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "*Gene Expression Regulation",
+      "Machine Learning",
+      "Animals",
+      "Mice",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Tian",
+        "Zhang, Yazhou",
+        "Ye, Yuan",
+        "Li, Hui",
+        "He, Yongsheng"
+      ],
+      "short_names": [
+        "Meng T",
+        "Zhang Y",
+        "Ye Y",
+        "Li H",
+        "He Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Yunnan Yunke Institute of Biotechnology, No. 871 Longquan Rd, Kunming, 650500, China.",
+        "Department of Geriatrics, The Second People's Hospital of Kunming, No. 338Guangming Rd, Kunming, 650233, Yunnan, China.",
+        "Department of Geriatrics, The Second People's Hospital of Kunming, No. 338Guangming Rd, Kunming, 650233, Yunnan, China.",
+        "Yunnan Labreal Biotechnology Co., LTD, No. 871 Longquan Rd, Kunming, 650500, China.",
+        "Yunnan Yunke Institute of Biotechnology, No. 871 Longquan Rd, Kunming, 650500, China. labreal@163.com.",
+        "Yunnan Labreal Biotechnology Co., LTD, No. 871 Longquan Rd, Kunming, 650500, China. labreal@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Tian",
+        "short_name": "Meng T",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Yunke Institute of Biotechnology, No. 871 Longquan Rd, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yazhou",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second People's Hospital of Kunming, No. 338Guangming Rd, Kunming, 650233, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yuan",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second People's Hospital of Kunming, No. 338Guangming Rd, Kunming, 650233, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Labreal Biotechnology Co., LTD, No. 871 Longquan Rd, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "He, Yongsheng",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Yunke Institute of Biotechnology, No. 871 Longquan Rd, Kunming, 650500, China. labreal@163.com.",
+          "Yunnan Labreal Biotechnology Co., LTD, No. 871 Longquan Rd, Kunming, 650500, China. labreal@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Feb 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 00:30",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42528845",
+      "42418295"
+    ],
+    "refs": [
+      "38464521",
+      "38350967",
+      "38241161",
+      "37874085",
+      "37837549",
+      "37679549",
+      "37539055",
+      "37185850",
+      "37047492",
+      "36892020",
+      "36855062",
+      "36842275",
+      "36726122",
+      "36613544",
+      "36578022",
+      "36405736",
+      "36361780",
+      "36233148",
+      "36224040",
+      "36193769",
+      "35741014",
+      "35691251",
+      "35665766",
+      "35558075",
+      "35331340",
+      "35069578",
+      "34992270",
+      "34880454",
+      "34880425",
+      "34813976",
+      "34813026",
+      "34768950",
+      "34447367",
+      "34245328",
+      "34122013",
+      "33898514",
+      "33667416",
+      "33462198",
+      "32823544",
+      "32445085",
+      "32266063",
+      "32102369",
+      "32048886",
+      "31775875",
+      "31712781",
+      "31666358",
+      "31654430",
+      "31507410",
+      "31366990",
+      "30881609",
+      "30610216",
+      "30288371",
+      "30140051",
+      "30128052",
+      "29937276",
+      "29377008",
+      "29351903",
+      "29198280",
+      "29036828",
+      "28978455",
+      "28961065",
+      "28872215",
+      "28862638",
+      "28246299",
+      "28190529",
+      "27640304",
+      "27472873",
+      "27207943",
+      "27156888",
+      "26871627",
+      "25792098",
+      "25605899",
+      "25605792",
+      "25221640",
+      "24849862",
+      "24587032",
+      "24274089",
+      "24135720",
+      "24071439",
+      "23553131",
+      "23317969",
+      "22355194",
+      "21760574",
+      "21702935",
+      "19682859",
+      "19675357",
+      "19474427",
+      "19114008",
+      "18215617",
+      "12695498",
+      "12468894",
+      "10858586",
+      "9730871",
+      "6471907",
+      "5085240",
+      "2317115"
+    ],
+    "similar": [
+      "39920860",
+      "39507054",
+      "37434203",
+      "39188714",
+      "39965013",
+      "40192032",
+      "38692009",
+      "38774875",
+      "39890844",
+      "37545529",
+      "39730451",
+      "39375405",
+      "39506420",
+      "36635346",
+      "39953505",
+      "39919076",
+      "36195955",
+      "39806062",
+      "40148430",
+      "38963039",
+      "39905093",
+      "39762477",
+      "38808722",
+      "40274954",
+      "39026683",
+      "38537674",
+      "39844282",
+      "39265357",
+      "39584743",
+      "39142001",
+      "39823156",
+      "40286336",
+      "40313958",
+      "32468026",
+      "39485681",
+      "40093012",
+      "39219261",
+      "35432724",
+      "38478169",
+      "39026250",
+      "34536521",
+      "38384969",
+      "40196107",
+      "39394418",
+      "38915415",
+      "35966794",
+      "39215110",
+      "37520121",
+      "38141185",
+      "38863714",
+      "36569892",
+      "31984950",
+      "39616855",
+      "38871989",
+      "39202387",
+      "27748870",
+      "39757625",
+      "40074694",
+      "39762849",
+      "40076442",
+      "39732800",
+      "39213070",
+      "38677173",
+      "39760808",
+      "38374756",
+      "38195609",
+      "39390284",
+      "40087350",
+      "39841296",
+      "39000042",
+      "38154381",
+      "38176925",
+      "39875572",
+      "39620329",
+      "38189472",
+      "39987324",
+      "40338387",
+      "37619853",
+      "39069636",
+      "39139563",
+      "39263286",
+      "39509434",
+      "38291374",
+      "39559889",
+      "40263537",
+      "40021385",
+      "40207815",
+      "39559355",
+      "39026663",
+      "39609718",
+      "40129981",
+      "40215772",
+      "38783263",
+      "37801482",
+      "38987624",
+      "36405716",
+      "34243818",
+      "38755717",
+      "39544937",
+      "39284527"
+    ],
+    "review": [
+      "39920860"
+    ],
+    "pmc": [
+      "11806906"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-02297-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39920860/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "39530103",
+    "doi": "10.3389/fimmu.2024.1451261",
+    "title": "Computational staining of CD3/CD20 positive lymphocytes in human tissues with experimental confirmation in a genetically engineered mouse model."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Immune dysregulation plays a major role in cancer progression. The quantification of lymphocytic spatial inflammation may enable spatial system biology, improve understanding of therapeutic resistance, and contribute to prognostic imaging biomarkers. METHODS: In this paper, we propose a knowledge-guided deep learning framework to measure the lymphocytic spatial architecture on human H&E tissue, where the fidelity of training labels is maximized through single-cell resolution image registration of H&E to IHC. We demonstrate that such an approach enables pixel-perfect ground-truth labeling of lymphocytes on H&E as measured by IHC. We then experimentally validate our technique in a genetically engineered, immune-compromised Rag2 mouse model, where Rag2 knockout mice lacking mature lymphocytes are used as a negative experimental control. Such experimental validation moves beyond the classical statistical testing of deep learning models and demonstrates feasibility of more rigorous validation strategies that integrate computational science and basic science. RESULTS: Using our developed approach, we automatically annotated more than 111,000 human nuclei (45,611 CD3/CD20 positive lymphocytes) on H&E images to develop our model, which achieved an AUC of 0.78 and 0.71 on internal hold-out testing data and external testing on an independent dataset, respectively. As a measure of the global spatial architecture of the lymphocytic microenvironment, the average structural similarity between predicted lymphocytic density maps and ground truth lymphocytic density maps was 0.86 +/- 0.06 on testing data. On experimental mouse model validation, we measured a lymphocytic density of 96.5 +/- %1% in a Rag2(+/-) control mouse, compared to an average of 16.2 +/- %5% in Rag2(-/-) immune knockout mice (p<0.0001, ANOVA-test). DISCUSSION: These results demonstrate that CD3/CD20 positive lymphocytes can be accurately detected and characterized on H&E by deep learning and generalized across species. Collectively, these data suggest that our understanding of complex biological systems may benefit from computationally-derived spatial analysis, as well as integration of computational science and basic science.",
+    "keywords": [
+      "Rag2 knockout (KO) mouse",
+      "deep learning",
+      "digital pathology",
+      "experimental validation",
+      "inflammatory response",
+      "lymphocytes",
+      "pathomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Deep Learning",
+      "*CD3 Complex/metabolism",
+      "*Mice, Knockout",
+      "*Antigens, CD20/metabolism/immunology",
+      "*Lymphocytes/immunology/metabolism",
+      "Staining and Labeling/methods",
+      "Computational Biology/methods",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiang",
+        "Heirman, Casey C",
+        "Rickard, Ashlyn G",
+        "Sotolongo, Gina",
+        "Castillo, Rico",
+        "Adanlawo, Temitayo",
+        "Everitt, Jeffery I",
+        "Hodgin, Jeffery B",
+        "Watts, Tammara L",
+        "Janowczyk, Andrew",
+        "Mowery, Yvonne M",
+        "Barisoni, Laura",
+        "Lafata, Kyle J"
+      ],
+      "short_names": [
+        "Li X",
+        "Heirman CC",
+        "Rickard AG",
+        "Sotolongo G",
+        "Castillo R",
+        "Adanlawo T",
+        "Everitt JI",
+        "Hodgin JB",
+        "Watts TL",
+        "Janowczyk A",
+        "Mowery YM",
+        "Barisoni L",
+        "Lafata KJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, Duke University, Durham, NC, United States.",
+        "Medical Physics Graduate Program, Duke University, Durham, NC, United States.",
+        "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+        "Department of Pathology, Duke University, Durham, NC, United States.",
+        "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+        "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+        "Department of Pathology, Duke University, Durham, NC, United States.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI, United States.",
+        "Department of Head and Neck Surgery & Communication Sciences, Duke University, Durham, NC, United States.",
+        "Department of Biomedical Engineering, Emory University and Georgia Institute of Technology, Atlanta, GA, United States.",
+        "Department of Oncology, Division of Precision Oncology, Geneva University Hospitals, Geneva, Switzerland.",
+        "Department of Diagnostics, Division of Clinical Pathology, Geneva University Hospitals, Geneva, Switzerland.",
+        "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+        "Department of Head and Neck Surgery & Communication Sciences, Duke University, Durham, NC, United States.",
+        "Department of Radiation Oncology, UPMC Hillman Cancer Center/University of Pittsburgh, Pittsburgh, PA, United States.",
+        "Department of Pathology, Duke University, Durham, NC, United States.",
+        "Department of Medicine, Division of Nephrology, Duke University, Durham, NC, United States.",
+        "Department of Electrical and Computer Engineering, Duke University, Durham, NC, United States.",
+        "Medical Physics Graduate Program, Duke University, Durham, NC, United States.",
+        "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+        "Department of Pathology, Duke University, Durham, NC, United States.",
+        "Department of Radiology, Duke University, Durham, NC, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Heirman, Casey C",
+        "short_name": "Heirman CC",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Physics Graduate Program, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Rickard, Ashlyn G",
+        "short_name": "Rickard AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Sotolongo, Gina",
+        "short_name": "Sotolongo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Castillo, Rico",
+        "short_name": "Castillo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Adanlawo, Temitayo",
+        "short_name": "Adanlawo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Everitt, Jeffery I",
+        "short_name": "Everitt JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Hodgin, Jeffery B",
+        "short_name": "Hodgin JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Watts, Tammara L",
+        "short_name": "Watts TL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Surgery & Communication Sciences, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Janowczyk, Andrew",
+        "short_name": "Janowczyk A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Emory University and Georgia Institute of Technology, Atlanta, GA, United States.",
+          "Department of Oncology, Division of Precision Oncology, Geneva University Hospitals, Geneva, Switzerland.",
+          "Department of Diagnostics, Division of Clinical Pathology, Geneva University Hospitals, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mowery, Yvonne M",
+        "short_name": "Mowery YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+          "Department of Head and Neck Surgery & Communication Sciences, Duke University, Durham, NC, United States.",
+          "Department of Radiation Oncology, UPMC Hillman Cancer Center/University of Pittsburgh, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Barisoni, Laura",
+        "short_name": "Barisoni L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Duke University, Durham, NC, United States.",
+          "Department of Medicine, Division of Nephrology, Duke University, Durham, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Lafata, Kyle J",
+        "short_name": "Lafata KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, United States.",
+          "Medical Physics Graduate Program, Duke University, Durham, NC, United States.",
+          "Department of Radiation Oncology, Duke University, Durham, NC, United States.",
+          "Department of Pathology, Duke University, Durham, NC, United States.",
+          "Department of Radiology, Duke University, Durham, NC, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:48",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "41282794",
+      "41066167",
+      "40409668",
+      "40321276"
+    ],
+    "refs": [
+      "38190505",
+      "36840621",
+      "36548913",
+      "36376874",
+      "35714604",
+      "35646643",
+      "35480120",
+      "34959100",
+      "34918744",
+      "34631279",
+      "34445517",
+      "34359723",
+      "34086562",
+      "33875676",
+      "33133426",
+      "33122646",
+      "32277893",
+      "32154773",
+      "31997849",
+      "31784511",
+      "31561183",
+      "31476576",
+      "30993030",
+      "30518631",
+      "29467962",
+      "28851404",
+      "26891484",
+      "25720324",
+      "25505134",
+      "15376593"
+    ],
+    "similar": [
+      "39530103",
+      "39007128",
+      "32432709",
+      "32592447",
+      "39306985",
+      "33074102",
+      "32723384",
+      "23300781",
+      "8077352",
+      "28442514",
+      "39419351",
+      "40183298",
+      "41142474",
+      "29617659",
+      "30639700",
+      "31981978",
+      "40614660",
+      "39201672",
+      "28582343",
+      "25255793",
+      "11809528",
+      "37716506",
+      "39885465",
+      "38588884",
+      "26215222",
+      "40315689",
+      "29495457",
+      "39264292",
+      "23627766",
+      "34445517",
+      "39289097",
+      "38772037",
+      "29377068",
+      "19670242",
+      "32466781",
+      "25917784",
+      "33459255",
+      "29404850",
+      "23815981",
+      "22171710",
+      "35633505",
+      "30081241",
+      "24063854",
+      "40143808",
+      "41250202",
+      "36966070",
+      "22917959",
+      "21406718",
+      "24928997",
+      "31847634",
+      "40806269",
+      "14978136",
+      "35115363",
+      "16376435",
+      "27802782",
+      "33193316",
+      "26269925",
+      "40256728",
+      "22031337",
+      "29923220",
+      "30481176",
+      "39681342",
+      "39087085",
+      "15093188",
+      "40158294",
+      "41471551",
+      "39636222",
+      "40683333",
+      "41246350",
+      "39826685",
+      "25520398",
+      "40819165",
+      "26354309",
+      "41344270",
+      "40321276",
+      "39147031",
+      "40651440",
+      "19880489",
+      "38980065",
+      "40946794",
+      "10753703",
+      "41251704",
+      "33267869",
+      "12662126",
+      "12547727",
+      "31750993",
+      "38388379",
+      "33635476",
+      "16124163",
+      "32716843",
+      "28914619",
+      "29343197",
+      "12745575",
+      "28885584",
+      "23447122",
+      "14965378",
+      "33000710",
+      "37665948",
+      "11171826",
+      "36726115"
+    ],
+    "review": [
+      "39530103",
+      "30639700",
+      "39201672",
+      "27802782"
+    ],
+    "pmc": [
+      "11550988"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39530103/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1451261",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

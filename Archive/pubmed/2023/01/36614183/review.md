@@ -1,0 +1,126 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report crystal structures of E. coli RadD bound to ATPγS and ADP, identify key residues for ATP binding and hydrolysis, demonstrate SSB-CTD interaction, and propose a DNA-binding model involving ZFD and CTD residues, supported by biochemical assays.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods sections; Figures 1–7 referenced; Supplementary Figures S1–S4 and Table S1 mentioned but not provided
+- **Missing materials affecting confidence** Supplementary figures and table (S1–S4, Table S1), crystallographic data table, raw EMSA and ATPase assay data, structural coordinates and validation reports, sequence alignment details, and full experimental replicates
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful structural and biochemical characterization of E. coli RadD, a relatively understudied SF2 family member. The crystal structures of RadD/ATPγS and RadD/ADP provide new information on ATP binding and conformational changes. The identification of Gly34, Gly36, Lys37, Arg343, Asp117, and Lys68 as functionally important residues is supported by mutagenesis and ATPase assays. The SSB interaction mapping to the CTD and the DNA-binding residue identification are valuable contributions. However, several technical concerns, including the absence of key supplementary data, lack of quantitative rigor in some assays, and the speculative nature of the DNA-binding model, limit the strength of the conclusions. The claim of a "novel mechanism" is not fully justified given the limited functional data and the absence of helicase activity demonstration.
+- **Who would be interested in the results, and why** Researchers studying SF2 helicases, DNA repair mechanisms, ATPase structure-function relationships, and bacterial DNA damage response pathways. The structural data on RadD and its interaction with SSB and branched DNA will be of interest to those working on helicase mechanisms and DNA repair protein networks.
+- **Major strengths** 1. Novel crystal structures of RadD/ATPγS and RadD/ADP complexes, providing the first detailed view of ATP binding in this protein. 2. Identification of specific residues (Gly34, Gly36, Lys37, Arg343, Asp117, Lys68) involved in ATP binding and hydrolysis through combined structural and mutational analysis. 3. Demonstration of SSB interaction with the RadD CTD and mapping of DNA-binding residues (Arg428, Lys488) on ZFD and CTD. 4. Clear writing and logical organization of results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the structures of RadD/ATPγS and RadD/ADP were determined at 3.0 Å and 2.7 Å resolution, respectively, and that these structures reveal the ATP-binding mechanism.
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 4.3, Table S1 (not provided)
+  - **Concern** The crystallographic statistics table (Table S1) is not provided, making it impossible to assess data quality, completeness, refinement statistics, or whether the structures meet standard validation criteria. Additionally, the resolution of 3.0 Å for the ATPγS complex is relatively modest, and the authors do not discuss B-factors, occupancy, or the quality of the ligand fit into the electron density. Without these details, the structural claims cannot be fully evaluated.
+  - **Why it matters** Structural claims are central to the manuscript's conclusions about ATP binding and conformational changes. Poorly refined or low-quality structures could lead to incorrect interpretations of residue interactions and mechanisms.
+  - **Resolution test** Provide Table S1 with full crystallographic data collection and refinement statistics, including R-free/R-work, Ramachandran statistics, RMSD for bonds and angles, and validation reports. Show electron density maps for ATPγS and ADP in the active site, and discuss ligand occupancy and B-factors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the conserved amino acids Lys37 and Arg343 in the SF2 family" are key for ATP binding, and that mutations in Gly34, Gly36, Lys37, Arg343, and Asp117 result in loss of ATPase activity.
+  - **Evidence pointer** Section 2.3, Figure 3C and 3D
+  - **Concern** The ATPase assay data are presented only as a single representative figure with Vmax and Km values for wild-type, but no quantitative data (e.g., mean ± SD, n values, statistical tests) are shown for the mutants. The authors state that mutants "lost their ATPase activity" but do not provide the actual activity values or demonstrate that the loss is statistically significant. Furthermore, the assay conditions (e.g., protein concentration, incubation time, ATP range) are not fully described in the Methods.
+  - **Why it matters** The mutagenesis data are critical for validating the structural interpretations. Without quantitative data and statistical analysis, the claim that these residues are essential for ATPase activity is not rigorously supported.
+  - **Resolution test** Provide full ATPase activity data for all mutants, including mean values, standard deviations, number of replicates, and statistical comparisons to wild-type. Include a detailed description of assay conditions and a representative Michaelis-Menten curve with fitted parameters for each mutant where activity is retained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the C-terminal peptide of single-stranded DNA-binding protein (SSB) binds the RadD C-terminal domain (CTD) and promotes the RadD ATPase activity."
+  - **Evidence pointer** Section 2.3, Figure 4A, 4B, 4C, 4D, Figure S1
+  - **Concern** The GST pull-down assay data (Figure 4D) are described qualitatively, and the supplementary figure S1 (molecular exclusion chromatography) is not provided. The ATPase stimulation by SSB is shown in Figure 4A and 4B, but the magnitude of stimulation, concentration dependence, and statistical significance are not reported. Additionally, the authors do not provide a negative control for the pull-down assay (e.g., a non-interacting protein) or a binding affinity measurement.
+  - **Why it matters** The SSB-RadD interaction is a key finding that links RadD to DNA repair pathways. Without quantitative binding data and proper controls, the interaction and its functional consequence are not firmly established.
+  - **Resolution test** Provide the SEC data (Figure S1) and quantitative GST pull-down results with appropriate controls. Include a dose-response curve for SSB-stimulated ATPase activity with statistical analysis, and ideally a binding affinity (Kd) measurement using a biophysical method (e.g., ITC or SPR).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors state that "Arg428 on the ZFD and Lys488 on the CTD of RadD are the key sites for binding branched DNA" and propose a DNA-binding model.
+  - **Evidence pointer** Section 2.4, Figure 6A–6D, Figure 7A–7C
+  - **Concern** The EMSA data for the mutants are described only as relative binding percentages (e.g., 34% and 31% for R428A and K488A), but the actual gel images, quantification methods, and statistical analysis are not shown in the main text. The DNA-binding model is generated using Coot and molecular docking, but the docking methodology is not described in the Methods, and no validation of the model (e.g., cross-correlation with mutagenesis data beyond the tested residues) is provided. The model is therefore speculative.
+  - **Why it matters** The DNA-binding model is a major conclusion of the paper. Without rigorous EMSA quantification and a validated docking approach, the model remains a hypothesis rather than a supported conclusion.
+  - **Resolution test** Provide representative EMSA gels for all mutants, quantification with mean ± SD and statistical tests, and a detailed description of the docking protocol (software version, scoring function, constraints). Validate the model by testing additional predicted contact residues or by comparing with a known structure of a homologous protein-DNA complex.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "RadD has DNA-independent ATPase activity" and that the ATPase activity is stimulated by SSB.
+  - **Evidence pointer** Section 2.3, Section 4.4
+  - **Concern** The ATPase assay method is described briefly, but the authors do not specify whether the ATPase activity was measured in the presence or absence of DNA, nor do they report the specific activity (turnover number) of the enzyme. The claim of "DNA-independent" ATPase activity is not directly demonstrated with data.
+  - **Why it matters** The DNA-independent nature of the ATPase is a distinguishing feature of RadD and is important for understanding its mechanism. Without explicit data showing ATPase activity in the absence of DNA, this claim is not supported.
+  - **Resolution test** Provide ATPase activity measurements in the presence and absence of DNA (e.g., ssDNA, dsDNA, branched DNA) and report specific activities or turnover numbers for each condition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The RMSD value of 0.589 Å between apo-RadD and RadD/ATPγS is stated, but the number of Cα atoms used for the superposition is not given.
+  - **Required correction** Specify the number of residues used for the RMSD calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Figure 3A
+  - **Evidence pointer** Figure 3A
+  - **Issue** The description of the "groove" formed by Arg6, Tyr8, and Gln9 is qualitative. It is unclear whether these residues form a canonical motif Q structure or a novel arrangement.
+  - **Required correction** Provide a structural comparison with other SF2 family members to contextualize the motif Q arrangement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, Figure 4C
+  - **Evidence pointer** Figure 4C
+  - **Issue** The truncation constructs used for the GST pull-down assay are described in the text but the domain boundaries are not clearly defined in the figure or text.
+  - **Required correction** Provide a schematic diagram with residue numbers for each truncation construct.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Figure 6B
+  - **Evidence pointer** Figure 6B
+  - **Issue** The relative binding percentages for the truncation constructs are given, but the error bars and statistical significance are not described in the text.
+  - **Required correction** Add statistical analysis information to the figure legend and text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2, Section 4.3
+  - **Evidence pointer** Table S1
+  - **Issue** The data collection and refinement statistics are only in the supplementary table, which is not provided. Key information such as space group, unit cell parameters, and resolution limits should be summarized in the main text.
+  - **Required correction** Include a brief summary of crystallographic statistics in the main text or ensure Table S1 is available for review.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of the "novel mechanism" of ATP hydrolysis is somewhat repetitive and does not clearly distinguish which aspects are truly novel versus conserved among SF2 family members.
+  - **Required correction** Clarify the specific novel contributions of this study relative to existing knowledge of SF2 helicases.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.6, EMSA
+  - **Evidence pointer** Section 4.6
+  - **Issue** The EMSA method describes the use of a "certain concentration gradient (0–20 μM)" but does not specify the exact concentrations tested or the number of data points.
+  - **Required correction** Provide the full concentration range and the number of concentrations tested.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Figure 5
+  - **Evidence pointer** Figure 5A–5D
+  - **Issue** The proposed ATP hydrolysis mechanism is described in a stepwise manner, but the figure panels are not explicitly referenced in the text for each step.
+  - **Required correction** Reference each panel of Figure 5 in the text when describing the corresponding step.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing crystallographic data), R1-M2 (lack of quantitative ATPase data), R1-M3 (insufficient SSB interaction data), R1-M4 (unvalidated DNA-binding model)
+- **Assessment against Nature-style criteria** Originality: Moderate. The structures of RadD are new, but the overall ATPase mechanism is largely consistent with other SF2 helicases. The unique features (Lys68 as a switch, Asp117 not binding Mg2+) are interesting but not fully explored. Scientific importance: Moderate. RadD is a relatively niche protein, and the findings are incremental rather than paradigm-shifting. The study provides useful structural information but does not reveal a fundamentally new mechanism. Interdisciplinary readership: Limited. The manuscript is primarily of interest to structural biologists and DNA repair specialists. The broader DNA damage response community may find the SSB interaction relevant, but the impact is unlikely to extend beyond these fields. Technical soundness: Currently insufficient. The lack of supplementary data and quantitative rigor in key assays prevents full evaluation of the claims. Readability for nonspecialists: Acceptable. The manuscript is clearly written, but the Discussion assumes familiarity with SF2 helicase nomenclature and mechanisms.
+- **Recommendation posture** Currently not established from the provided evidence. The structural data are potentially valuable, but the manuscript requires substantial revision to provide complete crystallographic statistics, quantitative biochemical data with statistical analysis, and a validated DNA-binding model. The authors should also clarify the novelty of their proposed mechanism relative to existing SF2 helicase literature. If these concerns are addressed, the manuscript could be suitable for publication in a specialized structural biology or DNA repair journal.
+
+## Risk / unsupported claims
+- The claim that Gly34 and Gly36 are "key residues for ATP binding" is supported by mutagenesis, but the structural basis for their essentiality is not fully detailed (e.g., specific hydrogen bond distances are not given).
+- The claim that Asp117 "polarizes the attacking water molecule" is inferred from structural position but not directly demonstrated (e.g., no mutagenesis of a proposed catalytic water or isotopic labeling studies).
+- The claim that Lys68 acts as a "pocket switch" is based on structural comparison and one mutant (K68A), which is insufficient to establish a regulatory role.
+- The DNA-binding model proposed in Figure 7 is speculative and not validated by independent methods (e.g., cross-linking, NMR, or additional mutagenesis beyond the tested residues).
+- The statement that SSB "promotes the RadD ATPase activity" is not quantified, and the mechanism of stimulation is not explored.
+- The claim that RadD "has DNA-independent ATPase activity" is not directly demonstrated with data in the provided text.
+- The statement that the authors "revealed the novel mechanism of RadD binding to DNA and ATP hydrolysis" is overstated given the limited functional validation and the absence of helicase activity data.

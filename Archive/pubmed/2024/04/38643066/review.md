@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Results, Conclusions, Introduction, Methods, Experiment and results, Discussion and conclusion) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the MMGAT framework for ATAC-seq motif finding, including methodology, experimental validation, and claims of performance improvement.
+- **Shared manuscript claim summary** The authors propose MMGAT, a graph attention network framework that uses attention mechanisms in two graph layers to improve transcription factor binding site (TFBS) prediction and ATAC-seq motif finding compared to existing tools (scFAN, FactorNet, MMGraph). They report superior performance on 180 human and 80 mouse ATAC-seq datasets across six metrics, and identify 389 and 356 higher-quality motifs, respectively. A web server, MMGAT-S, is also presented.
+- **Visible evidence base** Methods section with equations (Eqs. 1-14), experimental results with Table 1 (TFBS prediction metrics) and Table 2 (motif counts and p-values), references to supplementary tables (Table S1-S5) and figures (Figure S1, S2), and a web server description.
+- **Missing materials affecting confidence** Supplementary files (Tables S1-S5, Figures S1-S2) are referenced but not provided. Details on dataset preprocessing, hyperparameter tuning, statistical significance testing, and comparison protocol are incomplete. Web server functionality and code availability are mentioned but not verifiable from the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a reasonable incremental extension of the authors' prior MMGraph work by incorporating graph attention mechanisms. The technical description of the model is detailed, and the experimental results suggest consistent improvements over baseline methods. However, several critical aspects limit the strength of the claims: lack of statistical significance testing, incomplete ablation analysis, unclear generalizability across species, and insufficient detail on data processing and hyperparameter selection. The work is likely of interest to the computational genomics community, but the evidence provided does not fully establish the superiority of MMGAT over existing methods.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on transcription factor binding site prediction, motif discovery, and deep learning applications to genomics. The web server MMGAT-S may also appeal to experimental biologists seeking user-friendly tools for ATAC-seq analysis.
+- **Major strengths** 1) Clear and detailed mathematical formulation of the graph attention layers. 2) Comprehensive evaluation on a large number of datasets (180 human, 80 mouse) with multiple metrics. 3) Inclusion of ablation experiments (MMGraph+GL1, MMGraph+GL2, MMGraph+GAT) to isolate contributions of different components. 4) Provision of a web server and open-source code, enhancing accessibility and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "MMGAT achieved the highest average scores for all six metrics on human and mouse ATAC-seq datasets" and "MMGAT found 389 and 356 higher quality motifs than existing models."
+  - **Evidence pointer** Table 1, Table 2, Additional file 1: Tables S3-S5 (location not provided)
+  - **Concern** The manuscript reports mean values and standard deviations for the six metrics but does not provide any statistical significance testing (e.g., paired t-tests, Wilcoxon signed-rank tests) to determine whether the observed improvements of MMGAT over comparison methods are statistically significant. Similarly, the difference in motif counts (e.g., 389 vs. 383 for MMGraph+GAT) is presented without confidence intervals or significance assessment.
+  - **Why it matters** Without statistical testing, the claim of "highest scores" could be due to random variation, especially given the large number of datasets. The reader cannot assess the reliability or generalizability of the performance improvements.
+  - **Resolution test** Provide statistical significance tests (e.g., paired tests across the 180/80 datasets) for each metric comparing MMGAT against each baseline, and report p-values or confidence intervals. For motif counts, provide a measure of variability or a test of difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "MMGAT finds multiple ATAC-seq motifs based on the attention coefficients of sequence nodes and k-mer nodes as well as the coexisting probability of k-mers."
+  - **Evidence pointer** Methods section "Finding multiple motifs" (location not provided)
+  - **Concern** The description of the motif finding process is vague. The text states that attention coefficients and coexisting probabilities are used, but the exact algorithm for identifying k-mer seeds, merging them, and determining motif boundaries is not specified. The reference to "a strategy similar to MMGraph" is insufficient without a detailed explanation or citation to the specific steps.
+  - **Why it matters** Reproducibility is a core requirement. Without a precise description of the motif finding algorithm, other researchers cannot implement or validate the method. The novelty of the approach also depends on how the attention coefficients are converted into motifs.
+  - **Resolution test** Provide a step-by-step algorithmic description of the motif finding process, including thresholds, merging criteria, and how attention coefficients are thresholded or ranked. Include pseudocode or a detailed flow diagram.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative evaluation
+  - **Claim pointer** "Our method outperformed existing models in predicting TFBSs" and "MMGAT found 389 and 356 higher quality motifs than existing models."
+  - **Evidence pointer** Table 1, Table 2, Additional file 1: Tables S3-S5 (location not provided)
+  - **Concern** The comparison is limited to scFAN, FactorNet, and MMGraph. It is unclear whether these are the most recent or best-performing methods for ATAC-seq motif finding. The manuscript does not discuss other state-of-the-art deep learning approaches (e.g., CNN-based models like DeepSEA, or other GNN-based methods) that may be relevant baselines.
+  - **Why it matters** The claim of superiority is only meaningful relative to the current state of the art. If stronger baselines exist, the reported improvements may be less significant. The choice of baselines should be justified.
+  - **Resolution test** Justify the selection of comparison methods, and consider adding more recent or competitive baselines. If such methods are not applicable, explain why.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "MMGAT also achieved the highest scores on six metrics and found 356 higher-quality motifs" on mouse datasets.
+  - **Evidence pointer** Additional file 1: Table S5 (location not provided)
+  - **Concern** The manuscript reports results on mouse datasets but does not discuss potential differences in data characteristics (e.g., genome size, motif conservation, ATAC-seq signal quality) that could affect model performance. The authors acknowledge that performance on mouse data is lower than on human data, but the reasons are not explored.
+  - **Why it matters** The claim of multi-species validation is weakened without an analysis of cross-species transferability. Understanding why performance differs would strengthen the generalizability claim and guide future applications.
+  - **Resolution test** Provide a comparative analysis of model performance across species, discussing potential biological or technical factors. Consider fine-tuning or domain adaptation experiments.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scalability and efficiency
+  - **Claim pointer** "MMGAT has a score of 2.12, which is lower than the scFAN and MMGraph scores but higher than the FactorNet."
+  - **Evidence pointer** Figure S2 (location not provided)
+  - **Concern** The scalability analysis is described briefly. The definition of the scalability score is unclear ("normalized value of the average build time"), and the practical implications of the score are not discussed. It is unclear whether the lower scalability score (indicating lower efficiency) is a significant drawback for real-world applications.
+  - **Why it matters** Efficiency is an important practical consideration. The manuscript should clarify the trade-off between performance gains and computational cost, and discuss whether the efficiency is acceptable for typical use cases.
+  - **Resolution test** Provide a clearer definition of the scalability score, report actual runtime and memory usage, and discuss the practical implications of the efficiency results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 caption
+  - **Evidence pointer** Figure 1 (location not provided)
+  - **Issue** The caption is very long and dense, making it difficult to parse the key information. The description of the two layers and the motif finding process could be more concise.
+  - **Required correction** Simplify the caption, possibly splitting it into separate descriptions for panels A and B, and highlight the main message of each panel.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data preprocessing
+  - **Evidence pointer** "Data collection and processing" section (location not provided)
+  - **Issue** The description of how positive and negative sequences are generated is brief. The criteria for selecting the top-1500 footprints and the parameters for trimming to 101 bp are not fully detailed.
+  - **Required correction** Provide more details on the preprocessing pipeline, including specific parameters and software versions, to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1 (location not provided)
+  - **Issue** The table reports mean and standard deviation but does not indicate the number of datasets used for each metric. While the text states 180 human datasets, this is not clear from the table itself.
+  - **Required correction** Add a note to the table caption indicating the number of datasets used for the calculations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Discussion section
+  - **Evidence pointer** "Discussion and conclusion" section (location not provided)
+  - **Issue** There is a typo: "Howerver" should be "However".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Web server description
+  - **Evidence pointer** "Web server application" section (location not provided)
+  - **Issue** The description of MMGAT-S is high-level. It is unclear what specific inputs and outputs are supported, and whether the server is publicly accessible and stable.
+  - **Required correction** Provide more details on the server's functionality, including a usage example, and confirm its availability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance), R1-M2 (methodological detail for motif finding), R1-M3 (baseline justification), R1-M4 (cross-species analysis), R1-M5 (scalability clarity).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The work is an incremental improvement over the authors' prior MMGraph method by adding attention mechanisms. While this is a reasonable technical contribution, it does not represent a fundamentally new approach to motif finding.
+  - **Scientific importance** Moderate. TFBS prediction and motif finding are important problems in regulatory genomics. The proposed method shows consistent improvements, but the lack of statistical validation and limited comparison to state-of-the-art methods reduce the strength of the contribution.
+  - **Interdisciplinary readership** Limited. The manuscript is highly technical and will primarily appeal to computational biologists and bioinformaticians. The biological implications are discussed only briefly, limiting broader interest.
+  - **Technical soundness** The model formulation is mathematically sound, but the experimental validation has gaps (statistical testing, baseline selection, scalability analysis) that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is dense and assumes familiarity with graph neural networks and genomics terminology. The introduction and discussion could be improved to make the work more accessible to a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results are suggestive, but the manuscript requires substantial revisions to establish the claims with statistical rigor and methodological clarity.
+
+## Risk / unsupported claims
+- The claim of "highest scores" on all six metrics is unsupported without statistical significance testing.
+- The claim of finding "higher quality motifs" is based on p-values but lacks a clear definition of "quality" and comparison to baseline motif quality.
+- The claim of multi-species validation is weakened by the acknowledged performance gap between human and mouse datasets without analysis.
+- The scalability score is not clearly defined, making the efficiency comparison difficult to interpret.
+- The effectiveness of using attention coefficients for motif finding is not fully validated, as the ablation experiment (MMGraph+GAT) still uses MI for motif finding, not attention coefficients.
